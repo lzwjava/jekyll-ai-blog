@@ -40,11 +40,11 @@ class ProblemSolver:
         
     def ask_diagnostic_questions(self):
         """Ask systematic questions to understand the problem"""
-        print("= PROBLEM DIAGNOSIS PHASE")
+        print("ðŸ” PROBLEM DIAGNOSIS PHASE")
         print("=" * 50)
         
         # Question 1: What's the exact issue?
-        print("\n1ã  What's the exact issue you're facing?")
+        print("\n1ï¿½  What's the exact issue you're facing?")
         print("   a) Bug in existing code")
         print("   b) New feature implementation") 
         print("   c) Performance problem")
@@ -66,15 +66,15 @@ class ProblemSolver:
             print("Please select a valid option (a-g)")
         
         # Detailed description
-        print(f"\n=Ý Describe your {self.issue_type} in detail:")
+        print(f"\n=ï¿½ Describe your {self.issue_type} in detail:")
         self.issue_description = input("> ").strip()
         
         # Question 2: Previous experience
-        print("\n2ã  Have you encountered this type of problem before?")
+        print("\n2ï¿½  Have you encountered this type of problem before?")
         self.previous_experience = input("Describe your experience (or 'no' if first time): ").strip()
         
         # Question 3: Tools tried
-        print("\n3ã  What tools/resources have you already tried? (comma-separated)")
+        print("\n3ï¿½  What tools/resources have you already tried? (comma-separated)")
         print("   - Google/Stack Overflow")
         print("   - Official documentation")
         print("   - GitHub issues/search")
@@ -86,7 +86,7 @@ class ProblemSolver:
         self.tried_tools = [tool.strip() for tool in tools_input.split(",")]
         
         # Question 4: Environment
-        print("\n4ã  What's your environment? (press Enter to skip)")
+        print("\n4ï¿½  What's your environment? (press Enter to skip)")
         print("   Programming language/framework:")
         lang = input("> ").strip()
         print("   Error messages (if any):")
@@ -101,7 +101,7 @@ class ProblemSolver:
         }
         
         # Question 5: AI preference
-        print("\n5ã  Do you want AI assistance? (y/n)")
+        print("\n5ï¿½  Do you want AI assistance? (y/n)")
         while True:
             ai_choice = input("Use AI: ").lower().strip()
             if ai_choice in ['y', 'yes']:
@@ -114,7 +114,7 @@ class ProblemSolver:
     
     def create_solution_plan(self):
         """Create a structured solution plan"""
-        print("\n<¯ SOLUTION PLANNING PHASE")
+        print("\n<ï¿½ SOLUTION PLANNING PHASE")
         print("=" * 50)
         
         # Build the problem analysis
@@ -133,7 +133,7 @@ PROBLEM ANALYSIS:
         base_steps = self.get_base_solving_steps()
         specific_steps = self.get_specific_steps()
         
-        print("=Ë RECOMMENDED ACTION PLAN:")
+        print("=ï¿½ RECOMMENDED ACTION PLAN:")
         print("-" * 30)
         
         all_steps = base_steps + specific_steps
@@ -145,11 +145,11 @@ PROBLEM ANALYSIS:
     def get_base_solving_steps(self):
         """Get fundamental debugging steps"""
         return [
-            ">ù Clean slate: Restart IDE/terminal, clear caches",
-            "=Ö Read error messages carefully - every detail matters", 
+            ">ï¿½ Clean slate: Restart IDE/terminal, clear caches",
+            "=ï¿½ Read error messages carefully - every detail matters", 
             "= Isolate the problem - create minimal reproducible example",
             "=u Search systematically: GitHub, Stack Overflow, docs",
-            "=Ý Document your findings and attempts",
+            "=ï¿½ Document your findings and attempts",
             "> Ask for help: colleagues, forums, AI assistants",
             " Test solution thoroughly before implementing"
         ]
@@ -160,55 +160,55 @@ PROBLEM ANALYSIS:
             'bug': [
                 "= Reproduce the bug consistently",
                 "= Use debugger/print statements to trace execution",
-                "=Ë Check recent changes (git diff)",
-                ">ê Write failing test case",
+                "=ï¿½ Check recent changes (git diff)",
+                ">ï¿½ Write failing test case",
                 "=' Fix one thing at a time"
             ],
             'feature': [
-                "=Ð Design the solution architecture",
-                "=Ú Research best practices and patterns", 
-                "<¯ Start with smallest working version",
-                ">ê Add tests for new functionality",
-                "=Ú Update documentation"
+                "=ï¿½ Design the solution architecture",
+                "=ï¿½ Research best practices and patterns", 
+                "<ï¿½ Start with smallest working version",
+                ">ï¿½ Add tests for new functionality",
+                "=ï¿½ Update documentation"
             ],
             'performance': [
-                "ñ  Profile to identify bottlenecks",
-                "=Ê Measure before and after optimizations",
+                "ï¿½  Profile to identify bottlenecks",
+                "=ï¿½ Measure before and after optimizations",
                 "= Check algorithmic complexity",
-                ">ê Load test the solution",
-                "=È Monitor resource usage"
+                ">ï¿½ Load test the solution",
+                "=ï¿½ Monitor resource usage"
             ],
             'config': [
-                "=Ë Check environment variables and settings",
+                "=ï¿½ Check environment variables and settings",
                 "= Verify dependencies and versions",
-                "=Ú Review configuration documentation", 
-                ">ê Test configuration in isolation",
-                "=Ý Document working configuration"
+                "=ï¿½ Review configuration documentation", 
+                ">ï¿½ Test configuration in isolation",
+                "=ï¿½ Document working configuration"
             ],
             'error': [
                 "= Copy exact error message and search it",
-                "=Ë Check stack trace for line numbers",
+                "=ï¿½ Check stack trace for line numbers",
                 "= Search for similar error scenarios",
-                ">ê Create minimal failing example",
-                "=¡ Break complex error into smaller pieces"
+                ">ï¿½ Create minimal failing example",
+                "=ï¿½ Break complex error into smaller pieces"
             ],
             'refactor': [
-                "=Ë Identify what needs improvement",
-                ">ê Ensure good test coverage first",
+                "=ï¿½ Identify what needs improvement",
+                ">ï¿½ Ensure good test coverage first",
                 "= Make small, safe changes",
-                "–  Balance clean code vs working code",
-                "=Ú Document reasoning for changes"
+                "ï¿½  Balance clean code vs working code",
+                "=ï¿½ Document reasoning for changes"
             ],
             'learning': [
-                "=Ö Start with official documentation",
-                "<¯ Find practical examples to follow",
-                "<×  Build simple practice projects",
-                "=¬ Join communities and ask questions",
-                "=Ý Teach others to reinforce learning"
+                "=ï¿½ Start with official documentation",
+                "<ï¿½ Find practical examples to follow",
+                "<ï¿½  Build simple practice projects",
+                "=ï¿½ Join communities and ask questions",
+                "=ï¿½ Teach others to reinforce learning"
             ]
         }
         
-        return step_map.get(self.issue_type, ["<¯ Define clear learning objectives"])
+        return step_map.get(self.issue_type, ["<ï¿½ Define clear learning objectives"])
     
     def call_ai_assistant(self, steps):
         """Use AI to get specific guidance"""
@@ -250,7 +250,7 @@ Keep advice practical and specific to {self.issue_type} problems.
                 debug=False
             )
             print("\n" + "="*60)
-            print("<¯ AI GUIDANCE RECEIVED:")
+            print("<ï¿½ AI GUIDANCE RECEIVED:")
             print("="*60)
             print(ai_response)
             print("="*60)
@@ -261,44 +261,44 @@ Keep advice practical and specific to {self.issue_type} problems.
     
     def provide_resources(self):
         """Provide specific resources based on issue type"""
-        print("\n=Ú RECOMMENDED RESOURCES:")
+        print("\n=ï¿½ RECOMMENDED RESOURCES:")
         print("=" * 50)
         
         resources = {
             'bug': [
                 "= Debugging guides: https://stackoverflow.com/questions/how-to-debug",
-                "=Ë Minimal reproducible example: https://stackoverflow.com/help/minimal-reproducible-example",
+                "=ï¿½ Minimal reproducible example: https://stackoverflow.com/help/minimal-reproducible-example",
                 "= Git bisect for finding bugintroducing commits"
             ],
             'feature': [
-                "=Ð Design patterns: https://refactoring.guru/design-patterns",
-                "<× Architecture guides: https://12factor.net/",
-                ">ê Testing strategies: https://testing-library.com/"
+                "=ï¿½ Design patterns: https://refactoring.guru/design-patterns",
+                "<ï¿½ Architecture guides: https://12factor.net/",
+                ">ï¿½ Testing strategies: https://testing-library.com/"
             ],
             'performance': [
-                "¡ Profiling tools: cProfile, Chrome DevTools, Py-Spy",
-                "=Ê Performance monitoring: New Relic, DataDog",
+                "ï¿½ Profiling tools: cProfile, Chrome DevTools, Py-Spy",
+                "=ï¿½ Performance monitoring: New Relic, DataDog",
                 "= Big O notation: https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity"
             ],
             'config': [
-                "™  Configuration management: 12-factor app methodology",
+                "ï¿½  Configuration management: 12-factor app methodology",
                 "=3 Container debugging: docker logs, kubectl logs",
                 "  Cloud provider debugging guides"
             ],
             'error': [
                 "L Error message search: Google exact error text",
                 "= Stack Overflow: https://stackoverflow.com/questions",
-                "=Ë Error code databases and documentation"
+                "=ï¿½ Error code databases and documentation"
             ],
             'refactor': [
                 "{  Refactoring techniques: https://refactoring.guru/",
-                ">ê Test-driven development: https://martinfowler.com/articles/is-tdd-dead/",
-                "=Ú Code smell detection: https://refactoring.guru/refactoring/smells"
+                ">ï¿½ Test-driven development: https://martinfowler.com/articles/is-tdd-dead/",
+                "=ï¿½ Code smell detection: https://refactoring.guru/refactoring/smells"
             ],
             'learning': [
-                "=Ö Documentation: Official docs for your tech stack",
-                "<“ Interactive learning: Codecademy, FreeCodeCamp",
-                "=¬ Communities: Reddit r/learnprogramming, Stack Overflow"
+                "=ï¿½ Documentation: Official docs for your tech stack",
+                "<ï¿½ Interactive learning: Codecademy, FreeCodeCamp",
+                "=ï¿½ Communities: Reddit r/learnprogramming, Stack Overflow"
             ]
         }
         
@@ -306,11 +306,11 @@ Keep advice practical and specific to {self.issue_type} problems.
         for resource in specific_resources:
             print(f"  {resource}")
         
-        print(f"\n=¡ General Problem Solving:")
+        print(f"\n=ï¿½ General Problem Solving:")
         print("  = Search strategies: exact phrases, error codes, version numbers")
-        print("  =Ë Documentation: API references, changelogs, migration guides")
+        print("  =ï¿½ Documentation: API references, changelogs, migration guides")
         print("  > Community: GitHub issues, Discord, Telegram groups")
-        print("  >ê Experimentation: try things in isolation, small changes")
+        print("  >ï¿½ Experimentation: try things in isolation, small changes")
     
     def create_success_checklist(self):
         """Create a success checklist"""
@@ -330,11 +330,11 @@ Keep advice practical and specific to {self.issue_type} problems.
         for item in checklist:
             print(f"  {item}")
         
-        print(f"\n<¯ BONUS: Share your solution to help others!")
+        print(f"\n<ï¿½ BONUS: Share your solution to help others!")
     
     def run(self, mode="interactive", ai_model="claude-sonnet"):
         """Main execution method"""
-        print("=€ INTERACTIVE PROBLEM SOLVING GUIDE")
+        print("=ï¿½ INTERACTIVE PROBLEM SOLVING GUIDE")
         print("=" * 60)
         print("Let's solve your problem systematically with AI assistance!")
         print("=" * 60)
@@ -362,7 +362,7 @@ Keep advice practical and specific to {self.issue_type} problems.
         # Success checklist
         self.create_success_checklist()
         
-        print(f"\n<‰ PROBLEM-SOLVING SESSION COMPLETE!")
+        print(f"\n<ï¿½ PROBLEM-SOLVING SESSION COMPLETE!")
         print("Remember: Every expert was once a beginner. Keep learning!")
         
         # Save session summary
@@ -389,7 +389,7 @@ Keep advice practical and specific to {self.issue_type} problems.
         
         sessions.append(summary)
         summary_file.write_text(json.dumps(sessions, indent=2))
-        print(f"\n=¾ Session saved to: {summary_file}")
+        print(f"\n=ï¿½ Session saved to: {summary_file}")
 
 
 def main():
