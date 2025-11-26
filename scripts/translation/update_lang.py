@@ -15,7 +15,7 @@ MAX_THREADS = 10
 
 # Configurable language lists
 # TARGET_LANGUAGES = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
-TARGET_LANGUAGES = ["zh"]
+TARGET_LANGUAGES = ["zh", "en"]
 
 ORIGINAL_LANGUAGES = ["en", "zh"]
 
