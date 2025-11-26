@@ -313,7 +313,7 @@ def main():
                     orig_lang = possible
                     break
 
-            if is_notes and orig_lang == lang:
+            if orig_lang == lang:
                 # If target language is same as source language, copy the file (notes case)
                 print(f"Copying original file {filename} to {output_file}...")
                 future = executor.submit(copy_original_file, input_file, output_file)
