@@ -25,6 +25,17 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
+## 2026 Jan Plan
+
+| Course Code | Course Name                          |
+|-------------|--------------------------------------|
+| 13833       | Switching and Routing Technologies   |
+| 13167       | Web Design and Production            |
+| 08553       | Introduction to Programming—Java     |
+| 14567       | Mobile Application Development Technology |
+
+---
+
 I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
 
 ## Passed courses
