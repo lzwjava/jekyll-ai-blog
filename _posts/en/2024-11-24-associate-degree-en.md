@@ -5,7 +5,6 @@ image: false
 lang: en
 layout: post
 title: 'Associate Degree: Progress and Reflection'
-translated: false
 type: post
 ---
 
@@ -19,6 +18,23 @@ Guangdong University of Foreign Studies，Computer Application, Associate Degree
 
 - National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
 - Currently preparing for 7 courses such as Computer Networks, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese and Linear Algebra.
+
+---
+
+Professional Code: 510201 (Old Code: 610201)
+
+---
+
+## 2026 Jan Plan
+
+| Course Code | Course Name                          |
+|-------------|--------------------------------------|
+| 13833       | Switching and Routing Technologies   |
+| 13167       | Web Design and Production            |
+| 08553       | Introduction to Programming—Java     |
+| 14567       | Mobile Application Development Technology |
+
+---
 
 I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
 
