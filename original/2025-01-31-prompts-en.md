@@ -28,14 +28,14 @@ The format should be as follows:
 
 ```json
 [
-    {
-      "speaker": "A",
-      "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
-    },
-    {
-      "speaker": "B",
-      "line": "Sure! Let’s start with the basics. ..."
-    }
+  {
+    "speaker": "A",
+    "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
+  },
+  {
+    "speaker": "B",
+    "line": "Sure! Let’s start with the basics. ..."
+  }
 ]
 ```
 
@@ -47,22 +47,21 @@ Create a natural and extended conversation between two experts, A and B, with at
 
 About the PDF content. The format should be as follows:
 
-
 A: Hey, I’ve been hearing a lot about some topic. Can you break it down for me?
 
 B: Sure! Let’s start with the basics. 
 
 ---
 
-Generate a happy Lunar Snake New Year image with text names included
+Generate a happy Lunar Snake New Year image with text names included.
 
 ---
 
-Create a 480p YouTube video cover image with below elements, AI, shark, futuristic, vivid, colorful, sunrise, city with super large text DeepSeek R1 in the center
+Create a 480p YouTube video cover image with the following elements: AI, shark, futuristic, vivid, colorful, sunrise, city with super large text "DeepSeek R1" in the center.
 
 ---
 
-Create a 480p YouTube video cover image with below elements: Basic Electronics, futuristic, exciting.
+Create a 480p YouTube video cover image with the following elements: Basic Electronics, futuristic, exciting.
 
 ---
 
@@ -76,67 +75,67 @@ Changed files:
 
 ----
 
-Create a Youtube title 
+Create a YouTube title.
 
 ----
 
 蕾(つぼみ) - Tsubomi
 
-give its lyrics in Japanese, and explain them, for every word and prounciation 
+Give its lyrics in Japanese, and explain them, for every word and pronunciation.
 
 ---
 
-Give a comprehensive tutuorial about this chapter.
+Give a comprehensive tutorial about this chapter.
 
 ---
 
-give a comprehensive history of this, who discover this, what's the story behind
+Give a comprehensive history of this, who discovered this, what's the story behind it.
 
 ---
 
-recommend youtube videos about ...
+Recommend YouTube videos about ...
 
 ---
 
-give some introductions about davo city in mindanao , philipines
+Give some introductions about Davao City in Mindanao, Philippines.
 
 ---
 
-give a comprehensive analysis of how Inductors work
+Give a comprehensive analysis of how inductors work.
 
 ---
 
 Philippines
 
-what are special ? what's uniqueness? how its people contribue to technology? how does its people invent and impact?
+What are special? What's unique? How do its people contribute to technology? How do its people invent and impact?
 
 ---
 
-give a dicussion about xx
+Give a discussion about xx.
 
 ---
 
-give a review about xx
+Give a review about xx.
 
 ---
 
-help organize this talk, get out of transcript as much, and help give a note
+Help organize this talk, extract as much from the transcript as possible, and help give notes.
 
 ---
 
-yitang zhang, math , what's his story, what we can learn from 
+Yitang Zhang, math: What's his story, what can we learn from it?
 
 ---
 
-based on this youtube video, create a tutorial, do not include timestamp
+Based on this YouTube video, create a tutorial; do not include timestamps.
 
 ---
 
-what's next time google will release earning report?
+What's the next time Google will release its earnings report?
 
 ---
 
-draw some graphs to understand
+Draw some graphs to understand.
 
 ---
 
@@ -144,21 +143,20 @@ Identify only the lines needing changes, and provide corrected snippets (not the
 
 ---
 
-organize this transcript, keep original text as possible, just make it more coherent 
+Organize this transcript, keep the original text as possible, just make it more coherent.
 
 ---
 
-give 30 single-option multiple-choice quiz questions about sth.
+Give 30 single-option multiple-choice quiz questions about sth.
 
 ---
 
-write japanses like primary school kid, use very simple phrase
+Write Japanese like a primary school kid, use very simple phrases.
 
 ---
 
-@original/2024-11-29-vision-tips-en.md  here, change the table , prescription , change to two rows or whatever , do not make it too wide, better to read in
-   mobile, do not need to roate
+@original/2024-11-29-vision-tips-en.md here, change the table, prescription, change to two rows or whatever, do not make it too wide, better to read on mobile, do not need to rotate.
 
 ---
 
-create 30 exam questions for these , multiple choices, do not need to show answers
+Create 30 exam questions for these, multiple choices, do not need to show answers.
