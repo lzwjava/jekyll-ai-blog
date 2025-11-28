@@ -40,8 +40,11 @@ LANGUAGE_MODEL_MAP = {
 }
 
 
-def get_language_specific_preamble(target_language: str, kind: str) -> str:
-    """Return additional translation instructions for specific languages."""
+def get_language_specific_preamble(target_language: str, kind: str, original_text: str = "") -> str:
+    """Return additional translation instructions for specific languages.
+
+    Only includes Chinese-specific rules if the original text contains matching terms.
+    """
     if target_language == "zh":
         # Fixed term mapping for zh translations
         zh_term_map = {
@@ -57,8 +60,19 @@ def get_language_specific_preamble(target_language: str, kind: str) -> str:
             "Guangzhou Yuyan Middle School": "广州玉岩中学",
             "Yin Wang": "王垠",
         }
-        rules = [f"Translate {src} to {dst}." for src, dst in zh_term_map.items()]
-        rules_str = " ".join(rules)
+
+        # Check if any of the source terms are in the original text
+        # Only include rules for terms that are actually present
+        matching_rules = []
+        for src, dst in zh_term_map.items():
+            if src in original_text:
+                matching_rules.append(f"Translate {src} to {dst}.")
+
+        # Only include rules if we found matching terms in the original text
+        if not matching_rules:
+            return ""
+
+        rules_str = " ".join(matching_rules)
         if kind == "title":
             return (
                 "You are a professional translator. You are translating a title "
@@ -75,9 +89,9 @@ def get_language_specific_preamble(target_language: str, kind: str) -> str:
     return ""
 
 
-def build_prompt_template(target_language, type_, front_matter):
+def build_prompt_template(target_language, type_, front_matter, original_text=""):
     lang_name = LANGUAGE_MAP.get(target_language, target_language)
-    preamble = get_language_specific_preamble(target_language, type_)
+    preamble = get_language_specific_preamble(target_language, type_, original_text)
     if type_ == "title":
         tpl = """Translate the following title into {lang}. Return only the translated title without any extra notes, explanations, or repetition of the input text. If the title is already in {lang}, return it as is. If the target language is English, ensure the title is in Title Case.
 
@@ -119,7 +133,7 @@ def run_translate(text, target, kind, model, front_matter, orig_lang, need_en, s
 
     # Use language-specific model mapping, ignore the model parameter
     actual_model = LANGUAGE_MODEL_MAP.get(target, "mistral-medium")
-    prompt = build_prompt_template(target, kind, front_matter) + "\n\n" + text
+    prompt = build_prompt_template(target, kind, front_matter, text) + "\n\n" + text
     translated = clean_response(call_openrouter_api(prompt, model))
     check_commentary(translated)
     if kind == "title":
