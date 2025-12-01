@@ -1,16 +1,11 @@
 ---
 - name: Tiny demo
   hosts: localhost
+  gather_facts: yes
+
   tasks:
     - name: Create a file with some text
       ansible.builtin.copy:
-        content: "Managed by Ansible — hello from {{ ansible-playbook!\n"
-        dest: /tmp/ansible-was-here.txt
-
-    - name: Show file content
-      ansible.builtin.command: cat /tmp/ansible-was-here.txt
-      register: file_content
-
-    - name: Print it
-      ansible.builtin.debug:
-        msg: "{{ file_content.stdout_lines }}"
+        content: "Managed by Ansible — hello from {{ inventory_hostname }} on {{ ansible_date_time.date }}\n"
+        dest: /tmp/hello_from_ansible.txt
+        mode: '0644'
