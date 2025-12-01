@@ -1,0 +1,30 @@
+# hello.yml
+---
+- name: My first Ansible playbook
+  hosts: all                     # run on every host in inventory
+  tasks:
+
+    - name: Ping all hosts (test connection)
+      ansible.builtin.ping:
+
+    - name: Show a welcome message
+      ansible.builtin.debug:
+        msg: "Hello! I am {{ inventory_hostname }} and my OS is {{ ansible_distribution }} {{ ansible_distribution_version }}"
+
+    - name: Update package cache (Debian/Ubuntu only)
+      ansible.builtin.apt:
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+      become: yes
+
+    - name: Install nginx on every server
+      ansible.builtin.package:
+        name: nginx
+        state: present
+      become: yes
+
+    - name: Make sure nginx is started and enabled
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
