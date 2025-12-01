@@ -1,30 +1,16 @@
-# hello.yml
 ---
-- name: My first Ansible playbook
-  hosts: all                     # run on every host in inventory
+- name: Tiny demo
+  hosts: localhost
   tasks:
+    - name: Create a file with some text
+      ansible.builtin.copy:
+        content: "Managed by Ansible — hello from {{ ansible-playbook!\n"
+        dest: /tmp/ansible-was-here.txt
 
-    - name: Ping all hosts (test connection)
-      ansible.builtin.ping:
+    - name: Show file content
+      ansible.builtin.command: cat /tmp/ansible-was-here.txt
+      register: file_content
 
-    - name: Show a welcome message
+    - name: Print it
       ansible.builtin.debug:
-        msg: "Hello! I am {{ inventory_hostname }} and my OS is {{ ansible_distribution }} {{ ansible_distribution_version }}"
-
-    - name: Update package cache (Debian/Ubuntu only)
-      ansible.builtin.apt:
-        update_cache: yes
-      when: ansible_os_family == "Debian"
-      become: yes
-
-    - name: Install nginx on every server
-      ansible.builtin.package:
-        name: nginx
-        state: present
-      become: yes
-
-    - name: Make sure nginx is started and enabled
-      ansible.builtin.service:
-        name: nginx
-        state: started
-        enabled: yes
+        msg: "{{ file_content.stdout_lines }}"

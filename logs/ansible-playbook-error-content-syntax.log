@@ -1,0 +1,44 @@
+ %  ansible-playbook scripts/ansible/hello.yml
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+PLAY [Tiny demo] *************************************************************************************************
+
+TASK [Gathering Facts] *******************************************************************************************
+ok: [localhost]
+
+TASK [Create a file with some text] ******************************************************************************
+[ERROR]: Task failed: Finalization of task args for 'ansible.builtin.copy' failed: Error while resolving value for 'content': Syntax error in template: unexpected char '!' at 51
+
+Task failed.
+Origin: /Users/lzwjava/projects/blog-source/scripts/ansible/hello.yml:5:7
+
+3   hosts: localhost
+4   tasks:
+5     - name: Create a file with some text
+        ^ column 7
+
+<<< caused by >>>
+
+Finalization of task args for 'ansible.builtin.copy' failed.
+Origin: /Users/lzwjava/projects/blog-source/scripts/ansible/hello.yml:6:7
+
+4   tasks:
+5     - name: Create a file with some text
+6       ansible.builtin.copy:
+        ^ column 7
+
+<<< caused by >>>
+
+Error while resolving value for 'content': Syntax error in template: unexpected char '!' at 51
+Origin: /Users/lzwjava/projects/blog-source/scripts/ansible/hello.yml:7:18
+
+5     - name: Create a file with some text
+6       ansible.builtin.copy:
+7         content: "Managed by Ansible — hello from {{ ansible-playbook!\n"
+                   ^ column 18
+
+fatal: [localhost]: FAILED! => {"changed": false, "msg": "Task failed: Finalization of task args for 'ansible.builtin.copy' failed: Error while resolving value for 'content': Syntax error in template: unexpected char '!' at 51"}
+
+PLAY RECAP *******************************************************************************************************
+localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
