@@ -163,4 +163,4 @@ Create 30 exam questions, multiple choices, do not need to show answers.
 
 ---
 
-What are some unpopular opinions about mindfulness and the flow state in work/productivity?
+What are some unpopular opinions about something?
