@@ -160,3 +160,7 @@ Write Japanese like a primary school kid, use very simple phrases.
 ---
 
 Create 30 exam questions, multiple choices, do not need to show answers.
+
+---
+
+What are some unpopular opinions about something?
