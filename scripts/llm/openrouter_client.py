@@ -14,7 +14,7 @@ MODEL_MAPPING = {
     "gemini-flash": "google/gemini-2.5-flash",
     "gemini-pro": "google/gemini-3-pro-preview",
     "kimi-k2": "moonshotai/kimi-k2",
-    "deepseek-v3.2": "deepseek/deepseek-v3.2-exp",
+    "deepseek-v3.2": "deepseek/deepseek-v3.2",
     "mistral-medium": "mistralai/mistral-medium-3.1",
     "qwen-coder":"qwen/qwen3-coder",
     "gpt-5.1": "openai/gpt-5.1",
