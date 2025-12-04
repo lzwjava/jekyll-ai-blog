@@ -15,6 +15,7 @@ type: note
 OSPF stands for **Open Shortest Path First**. It is a **link-state routing protocol** used inside a single autonomous system (AS) — that’s why it’s classified as an **Interior Gateway Protocol (IGP)**.
 
 #### Key Characteristics
+
 | Feature                  | Description                                                                                   |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | Type                     | Link-state (vs. distance-vector like RIP)                                                     |
@@ -47,6 +48,7 @@ OSPF stands for **Open Shortest Path First**. It is a **link-state routing proto
    - Non-backbone areas exchange summarized routes via Area Border Routers (ABRs).
 
 #### Common LSA Types (OSPFv2)
+
 | LSA Type | Name                  | Who generates                     | Scope              |
 |----------|-----------------------|-----------------------------------|--------------------|
 | 1        | Router LSA            | Every router                      | Within area        |
