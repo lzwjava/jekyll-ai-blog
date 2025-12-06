@@ -28,7 +28,9 @@
       "Bash(pip3 install:*)",
       "Read(//home/lzw/.local/lib/python3.13/site-packages/mediawiki_dump/**)",
       "Bash(convert -version)",
-      "Bash(magick:*)"
+      "Bash(magick:*)",
+      "Bash(pip show:*)",
+      "Bash(brew list:*)"
     ],
     "deny": [],
     "ask": [],

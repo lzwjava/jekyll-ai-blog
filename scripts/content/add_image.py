@@ -6,15 +6,6 @@ import sys
 from pathlib import Path
 from PIL import Image
 
-# Import pyheif for HEIC support
-try:
-    import pyheif
-    # Register HEIF opener with Pillow
-    pyheif.register_heif_opener()
-    HEIF_SUPPORT = True
-except ImportError:
-    # pyheif not available, HEIC won't be supported
-    HEIF_SUPPORT = False
 
 
 def convert_to_jpg(source_path, target_path, target_size_kb=500):
@@ -26,17 +17,19 @@ def convert_to_jpg(source_path, target_path, target_size_kb=500):
         target_path: Path where converted JPG will be saved
         target_size_kb: Target file size in KB (default: 500KB)
     """
-    try:
-        # Check if it's a HEIC file and we don't have support
-        if source_path.suffix.lower() in ['.heic', '.heif'] and not HEIF_SUPPORT:
-            print("❌ HEIC format detected but pyheif is not installed.")
-            print("   Please install it with: pip install pyheif")
-            print("   Or add it to your requirements and reinstall.")
+    # Handle HEIC with ImageMagick, others with PIL
+    is_heic = source_path.suffix.lower() in ['.heic', '.heif']
+    if is_heic:
+        try:
+            subprocess.run(['magick', str(source_path), str(target_path)],
+                          capture_output=True, text=True, check=True)
+            print("✅ HEIC converted using ImageMagick")
+        except subprocess.CalledProcessError as e:
+            print(f"❌ ImageMagick conversion failed: {e}")
             return False
 
-        # Open the image
-        with Image.open(source_path) as img:
-            # Convert to RGB if necessary (for JPG compatibility)
+    with Image.open(target_path if is_heic else source_path) as img:
+        # Convert to RGB if necessary (for JPG compatibility)
             if img.mode in ('RGBA', 'LA', 'P'):
                 # Create a white background
                 background = Image.new('RGB', img.size, (255, 255, 255))
@@ -73,9 +66,6 @@ def convert_to_jpg(source_path, target_path, target_size_kb=500):
             print(f"   Final file size: {target_path.stat().st_size / 1024:.1f}KB")
             return True
 
-    except Exception as e:
-        print(f"❌ Error converting image: {e}")
-        return False
 
 
 def get_next_number(target_dir, dir_name, image_ext):
