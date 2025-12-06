@@ -117,3 +117,7 @@ The noodles turned out delicious. I used a lot of water to boil the ingredients,
 {: .centered }
 ![](assets/images/cooking/c2.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking1.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
