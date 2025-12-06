@@ -6,6 +6,16 @@ import sys
 from pathlib import Path
 from PIL import Image
 
+# Import pyheif for HEIC support
+try:
+    import pyheif
+    # Register HEIF opener with Pillow
+    pyheif.register_heif_opener()
+    HEIF_SUPPORT = True
+except ImportError:
+    # pyheif not available, HEIC won't be supported
+    HEIF_SUPPORT = False
+
 
 def convert_to_jpg(source_path, target_path, target_size_kb=500):
     """
@@ -17,6 +27,13 @@ def convert_to_jpg(source_path, target_path, target_size_kb=500):
         target_size_kb: Target file size in KB (default: 500KB)
     """
     try:
+        # Check if it's a HEIC file and we don't have support
+        if source_path.suffix.lower() in ['.heic', '.heif'] and not HEIF_SUPPORT:
+            print("❌ HEIC format detected but pyheif is not installed.")
+            print("   Please install it with: pip install pyheif")
+            print("   Or add it to your requirements and reinstall.")
+            return False
+
         # Open the image
         with Image.open(source_path) as img:
             # Convert to RGB if necessary (for JPG compatibility)
