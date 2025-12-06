@@ -34,6 +34,17 @@ Professional Code: 510201 (Old Code: 610201)
 | 08553       | Introduction to Programming—Java     |
 | 14567       | Mobile Application Development Technology |
 
+
+---
+
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 13182       | Data Structures                                  |
+| 13794       | Fundamentals of Computer Programming             |
+| 13808       | Computer Fundamentals and Application Technology |
+| 14568       | Mobile Application Development Technology        |
+| 13168       | Web Design and Production                        |
+
 ---
 
 I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
