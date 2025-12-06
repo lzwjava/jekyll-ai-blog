@@ -4,6 +4,61 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+from PIL import Image
+
+
+def convert_to_jpg(source_path, target_path, target_size_kb=500):
+    """
+    Convert image to JPG format and compress to target size.
+
+    Args:
+        source_path: Path to source image
+        target_path: Path where converted JPG will be saved
+        target_size_kb: Target file size in KB (default: 500KB)
+    """
+    try:
+        # Open the image
+        with Image.open(source_path) as img:
+            # Convert to RGB if necessary (for JPG compatibility)
+            if img.mode in ('RGBA', 'LA', 'P'):
+                # Create a white background
+                background = Image.new('RGB', img.size, (255, 255, 255))
+                if img.mode == 'P':
+                    img = img.convert('RGBA')
+                background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+                img = background
+            elif img.mode != 'RGB':
+                img = img.convert('RGB')
+
+            # Target size in bytes
+            target_size_bytes = target_size_kb * 1024
+
+            # Try different quality levels to achieve target size
+            # Start with quality=95 and work down
+            quality = 95
+            min_quality = 30
+
+            while quality >= min_quality:
+                # Save to bytes to check size
+                img.save(target_path, 'JPEG', quality=quality, optimize=True)
+                file_size = target_path.stat().st_size
+
+                # If we're at or below target size, we're done
+                if file_size <= target_size_bytes:
+                    return True
+
+                # Otherwise, try lower quality
+                quality -= 5
+
+            # If we've tried all quality levels, use the last one
+            img.save(target_path, 'JPEG', quality=min_quality, optimize=True)
+            print(f"⚠️  Could not reach target size of {target_size_kb}KB")
+            print(f"   Final file size: {target_path.stat().st_size / 1024:.1f}KB")
+            return True
+
+    except Exception as e:
+        print(f"❌ Error converting image: {e}")
+        return False
 
 
 def get_next_number(target_dir, dir_name, image_ext):
@@ -86,7 +141,12 @@ def parse_arguments():
         choices=source_options,
         help=f"Source attribution for the image. Options: {', '.join(source_options)}"
     )
-    
+    parser.add_argument(
+        "--convert",
+        action="store_true",
+        help="Convert image to JPG format and compress to ~500KB (useful for HEIC images from iPhone)"
+    )
+
     return parser.parse_args()
 
 
@@ -169,18 +229,32 @@ def main():
     
     # Validate source image
     source_path, image_ext = validate_source_image(args.image_path)
-    
+
     # Set up target directory
     assets_dir = setup_target_directory(args.dir_name)
-    
+
+    # Determine target file extension based on --convert flag
+    if args.convert:
+        target_ext = "jpg"
+        print(f"🔄 Converting image to JPG format...")
+    else:
+        target_ext = image_ext
+
     # Get next available number and create target filename
-    next_number = get_next_number(assets_dir, args.dir_name, image_ext)
-    target_filename = f"{args.dir_name}{next_number}.{image_ext}"
+    next_number = get_next_number(assets_dir, args.dir_name, target_ext)
+    target_filename = f"{args.dir_name}{next_number}.{target_ext}"
     target_path = assets_dir / target_filename
-    
-    # Copy the image file
-    if not copy_image_file(source_path, target_path):
-        sys.exit(1)
+
+    # Copy or convert the image file
+    if args.convert:
+        if not convert_to_jpg(source_path, target_path):
+            sys.exit(1)
+        print(f"✅ Image converted to JPG successfully!")
+        print(f"   Source: {source_path}")
+        print(f"   Target: {target_path}")
+    else:
+        if not copy_image_file(source_path, target_path):
+            sys.exit(1)
     
     # Generate markdown content and handle clipboard
     relative_path = f"assets/images/{args.dir_name}/{target_filename}"
