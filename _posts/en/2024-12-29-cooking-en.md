@@ -129,3 +129,35 @@ The noodles turned out delicious. I used a lot of water to boil the ingredients,
 {: .centered }
 ![](assets/images/cooking/cooking3.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking4.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking5.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking6.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking7.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking8.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking9.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking10.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/cooking11.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
