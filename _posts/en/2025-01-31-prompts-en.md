@@ -164,3 +164,7 @@ Create 30 exam questions, multiple choices, do not need to show answers.
 ---
 
 What are some unpopular opinions about something?
+
+---
+
+give comprehensive explain of each options
