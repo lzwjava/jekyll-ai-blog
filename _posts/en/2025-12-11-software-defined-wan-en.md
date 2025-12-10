@@ -25,6 +25,7 @@ Software-Defined Wide Area Network (SD-WAN) is a modern networking approach that
 - **Overlay Architecture**: Creates a secure virtual overlay network on top of any underlying transport, abstracting the physical connections.
 
 ### Main Benefits Compared to Traditional WAN
+
 | Aspect              | Traditional WAN (e.g., MPLS)       | SD-WAN
 |----------------------|------------------------------------|----------------------------------------|
 | Cost                 | High (expensive MPLS circuits)     | Lower (uses inexpensive broadband/Internet) |
