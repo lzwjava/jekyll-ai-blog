@@ -43,6 +43,7 @@ QoS manages bandwidth, latency, jitter, and packet loss to prioritize critical t
 - **Congestion Avoidance** – WRED (Weighted Random Early Detection)
 
 #### Key Marking Standards
+
 | Layer | Field        | Bits | Common Values                     |
 |-------|--------------|------|-----------------------------------|
 | L2    | 802.1p CoS   | 3    | 0 (Best Effort), 5 (Voice), 3 (Call Signaling) |
@@ -50,6 +51,7 @@ QoS manages bandwidth, latency, jitter, and packet loss to prioritize critical t
 | L3    | DSCP         | 6    | EF (46 – voice), AF41 (34), CS3 (24) |
 
 #### Typical Enterprise QoS Policy (12-class model example)
+
 | Class              | DSCP | Queuing Treatment        |
 |--------------------|------|--------------------------|
 | Voice              | EF   | Priority Queue (LLQ)     |
@@ -73,6 +75,7 @@ Foundation for modern service provider and large enterprise WANs.
 - **Customer Edge (CE)** – customer router
 
 #### MPLS VPN Types
+
 | Type       | Description                                   | Common Use Case                  |
 |------------|-----------------------------------------------|----------------------------------|
 | L3VPN      | BGP-based (RFC 4364), PE routers hold customer VRFs and run MP-BGP | Most common enterprise WAN      |
