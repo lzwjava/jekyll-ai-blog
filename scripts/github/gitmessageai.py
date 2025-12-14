@@ -13,26 +13,22 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 MODEL_MAPPING = {
-    "claude-opus": "anthropic/claude-opus-4",
+    "claude-opus": "anthropic/claude-opus-4.1",
     "claude-sonnet": "anthropic/claude-4.5-sonnet",
     "gemini-flash": "google/gemini-2.5-flash",
-    "gemini-pro": "google/gemini-2.5-pro",
+    "gemini-pro": "google/gemini-3-pro-preview",
     "kimi-k2": "moonshotai/kimi-k2",
-    "deepseek-v3.2": "deepseek/deepseek-chat-v3-0324",
-    "deepseek-v3.1":"deepseek/deepseek-chat-v3.1",
-    "deepseek-v3.2": "deepseek/deepseek-v3.2-exp",
+    "deepseek-v3.2": "deepseek/deepseek-v3.2",
     "mistral-medium": "mistralai/mistral-medium-3.1",
-    "mistral-large": "mistralai/mistral-large",
     "qwen-coder":"qwen/qwen3-coder",
-    "gpt-oss": "openai/gpt-oss-120b",
-    "gpt-5": "openai/gpt-5",
-    "gpt-5-mini": "openai/gpt-5-mini",
-    "o1-mini": "openai/o1-mini",
-    "grok-3": "x-ai/grok-3",
+    "gpt-5.1": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
-    "grok-4-fast": "x-ai/grok-4-fast:free",
-    "perplexity-sonar": "perplexity/sonar-deep-research",
+    "grok-fast": "x-ai/grok-4.1-fast",
+    "glm-4.6": "z-ai/glm-4.6",
+    "minimax-m2": "minimax/minimax-m2",
+    "kimi-k2-thinking": "moonshotai/kimi-k2-thinking"
 }
+
 
 
 def call_openrouter_api(prompt, model="gemini-flash", debug=False):
