@@ -97,6 +97,8 @@ Starting from mid-October 2025, I stopped using my Macau SIM card plan because I
 
 I began using the iOS Shadowsocks app again with proxy servers from https://zhs.cloud. And I started learning some knowledge about CN2 cables.
 
+Starting from the end of December, I restarted using a Macau SIM card in my mobile phone due to the frustration of proxy servers.
+
 
 #### The Difference Compared to Reversing Myopia
 
