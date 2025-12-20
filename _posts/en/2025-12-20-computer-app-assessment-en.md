@@ -19,6 +19,7 @@ Answer:
 - **Exam Type**: Practical Assessment
 
 #### Practical Assessment Courses:
+
 | Course Sequence | Course Code | Course Name                  | Exam Plan          | Exam Time          | Exam Fee     | Application Conditions |
 |-----------------|-------------|------------------------------|--------------------|--------------------|--------------|------------------------|
 | 1               | 13808       | Computer Fundamentals and Application Technology | First half of the year | April 25 morning   | 150 yuan/person | Must pass the major's 13807 Computer Fundamentals and Application Technology and any other 3 written exam courses before applying. |
