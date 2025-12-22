@@ -47,6 +47,17 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
+## 2026 April Plan
+
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 13182       | Data Structures                                  |
+| 13794       | Fundamentals of Computer Programming             |
+| 13808       | Computer Fundamentals and Application Technology |
+| 13171       | Database and Its Applications                    |
+
+---
+
 I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
 
 ## Passed courses
