@@ -20,7 +20,7 @@ MODEL_MAPPING = {
     "gpt-5.1": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
-    "glm-4.6": "z-ai/glm-4.6",
+    "glm": "z-ai/glm-4.7",
     "minimax-m2": "minimax/minimax-m2",
     "kimi-k2-thinking": "moonshotai/kimi-k2-thinking"
 }
