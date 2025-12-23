@@ -9,20 +9,20 @@ translated: true
 type: post
 ---
 
-Updated in November 2025.
+2025 年 11 月更新。
 
 ---
 
-Below is my assoiciate progress. 
+以下是我的大专进修进度。
 
-Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
+Guangdong University of Foreign Studies，Computer Application，Associate Degree，2022.10 - 至今
 
-- National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
-- Currently preparing for 7 courses such as Computer Networks, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese and Linear Algebra.
+- 国家高等教育自学考试。截至今日已通过 10 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
+- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、College Chinese 和 Linear Algebra。
 
 ---
 
-Professional Code: 510201 (Old Code: 610201)
+专业代码：510201（旧代码：610201）
 
 ---
 
@@ -58,22 +58,37 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
-I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
+我对自己的进度感到不满意，进度太慢了。原因是到目前为止，我主要只花了一年时间来准备。
 
 ## Passed courses
 
-| Course Code | New Code | Course Name                                      | Exam Date | Pass Method | Score | Credits | Status |
-|-------------|----------|--------------------------------------------------|-----------|-------------|-------|---------|--------|
-| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       | Valid  |
-| 00040      | 00341    | Introduction to Law                              | 202504    | Exam        | 60    | 3       | Valid  |
-| 02318      | 02318    | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       | Valid  |
-| 02323      | 02323    | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       | Valid  |
-| 02316      | 13807    | Computer Application Technology                  | 202410    | Exam        | 73    | 2       | Valid  |
-| 02142      | 13181    | Introduction to Data Structures                  | 202210    | Exam        | 75    | 4       | Valid  |
-| 02120      | 13170    | Database and Its Applications                    | 202410    | Exam        | 68    | 3       | Valid  |
-| 00342      | 13793    | Advanced Programming Language (I)                | 202210    | Exam        | 75    | 3       | Valid  |
-| 00022      | 00022    | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       | Valid  |
-| 00012      | 13124    | English (I)                                      | 202210    | Exam        | 80    | 7       | Valid  |
+| Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
+|-------------|--------------------------------------------------|-----------|-------------|-------|---------|
+| 03706      | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       |
+| 00040      | Introduction to Law                              | 202504    | Exam        | 60    | 3       |
+| 02318      | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       |
+| 02323      | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       |
+| 02316      | Computer Application Technology                  | 202410    | Exam        | 73    | 2       |
+| 02142      | Introduction to Data Structures                  | 202210    | Exam        | 75    | 4       |
+| 02120      | Database and Its Applications                    | 202410    | Exam        | 68    | 3       |
+| 00342      | Advanced Programming Language (I)                | 202210    | Exam        | 75    | 3       |
+| 00022      | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       |
+| 00012      | English (I)                                      | 202210    | Exam        | 80    | 7       |
+
+## Courses Mapping
+
+| Course Code | New Code | Course Name                                      |
+|-------------|----------|--------------------------------------------------|
+| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law |
+| 00040      | 00341    | Introduction to Law                              |
+| 02318      | 02318    | Computer Organization and Architecture           |
+| 02323      | 02323    | Operating Systems Fundamentals                   |
+| 02316      | 13807    | Computer Application Technology                  |
+| 02142      | 13181    | Introduction to Data Structures                  |
+| 02120      | 13170    | Database and Its Applications                    |
+| 00342      | 13793    | Advanced Programming Language (I)                |
+| 00022      | 00022    | Advanced Mathematics (Engineering)               |
+| 00012      | 13124    | English (I)                                      |
 
 ## 2024.04
 
@@ -102,38 +117,38 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | Linear Algebra | 54 |
 | Computer Organization Principles  | 66 |
 
-## Reasons for passing courses
-* Already had good understanding before the exam, like Introduction to Data Structures and English
-* Prepared well enough in the past year, like Advanced Mathematics and Database Applications
-* For **Introduction to Law**, I answered almost all questions—even if some answers were improvised.
-* For **Computer Organization Principles**, I had prior background knowledge and practiced past exam questions multiple times.
+## 通过课程的原因
+* 考前已有良好的理解，例如 Introduction to Data Structures 和 English
+* 在过去的一年里准备充分，例如 Advanced Mathematics 和 Database Applications
+* 关于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是即兴发挥的。
+* 关于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了往年真题。
 
-## Reasons for failed courses
-* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses. 
-* Did not give enough time to prepare
-* Just walked through videos of the subjects pretending to understand.
+## 课程不通过的原因
+* 以为自己已经准备好了，但实际上并没有。不通过科目的练习量明显少于通过的科目。
+* 没有投入足够的时间准备。
+* 只是走马观花地看视频课程，假装自己听懂了。
 
-## Reasons for Selected Failed Courses
+## 特定未通过课程的原因
 
 ### Computer Networks
-- Insufficient practice with exam-style questions
-- Lack of foundational knowledge in computer network theory
+- 缺乏对考试题型的练习
+- 计算机网络理论基础知识薄弱
 
 ### Linear Algebra
-- Inadequate familiarity with matrix operations and rules
-- Overestimated understanding of the subject
-- Lack of hands-on practice; relied solely on video lectures
+- 对矩阵运算和规则不够熟悉
+- 高估了对该学科的理解
+- 缺乏动手练习；完全依赖视频课
 
-## Exam preparation
-* Sleep well, maintain a good routine for sleep
-* Morning and afternoon exams may be in different locations, check the right locations
-* Register for the exam on time
+## 备考建议
+* 保持良好的睡眠和规律的作息
+* 上下午的考试地点可能不同，请确认正确的考点地点
+* 准时报名参加考试
 
 ---
 
 ## 2026 Program Change and Required Courses
 
-In 2026, the 610201 program will be substituted with the 510201 program. I need to prepare for the following courses:
+2026年，610201 项目将被 510201 项目取代。我需要准备以下课程：
 
 ### Replaceable Courses
 
