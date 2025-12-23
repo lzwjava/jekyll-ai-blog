@@ -13,16 +13,16 @@ MODEL_MAPPING = {
     "claude-sonnet": "anthropic/claude-4.5-sonnet",
     "gemini-flash": "google/gemini-3-flash-preview",
     "gemini-pro": "google/gemini-3-pro-preview",
-    "kimi-k2": "moonshotai/kimi-k2",
-    "deepseek-v3.2": "deepseek/deepseek-v3.2",
+    "kimi": "moonshotai/kimi-k2",
+    "deepseek": "deepseek/deepseek-v3.2",
     "mistral-medium": "mistralai/mistral-medium-3.1",
     "qwen-coder":"qwen/qwen3-coder",
-    "gpt-5.1": "openai/gpt-5.1",
+    "gpt": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
     "glm": "z-ai/glm-4.7",
-    "minimax-m2": "minimax/minimax-m2",
-    "kimi-k2-thinking": "moonshotai/kimi-k2-thinking"
+    "minimax": "minimax/minimax-m2",
+    "kimi-thinking": "moonshotai/kimi-k2-thinking"
 }
 
 DEFAULT_TOKENS = {
@@ -30,16 +30,16 @@ DEFAULT_TOKENS = {
     "claude-sonnet": 8192,
     "gemini-flash": 400000,
     "gemini-pro": 8192,
-    "kimi-k2": 32768,
-    "deepseek-v3.2": 32768,
+    "kimi": 32768,
+    "deepseek": 32768,
     "mistral-medium": 32768,
     "qwen-coder": 32768,
-    "gpt-5": 8192,
+    "gpt": 8192,
     "grok-code": 62144,
-    "grok-4-fast": 61072,
-    "glm-4.6": 32768,
-    "mimimax-m2": 32768,
-    "kimi-k2-thinking": 32768    
+    "grok-fast": 61072,
+    "glm": 32768,
+    "minimax": 32768,
+    "kimi-thinking": 32768    
 }
 
 
