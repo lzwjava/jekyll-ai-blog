@@ -14,7 +14,7 @@ MODEL_MAPPING = {
     "gemini-flash": "google/gemini-3-flash-preview",
     "gemini-pro": "google/gemini-3-pro-preview",
     "kimi": "moonshotai/kimi-k2",
-    "deepseek": "deepseek/deepseek-v3.2",
+    "deepseek": "deepseek/deepseek",
     "mistral-medium": "mistralai/mistral-medium-3.1",
     "qwen-coder":"qwen/qwen3-coder",
     "gpt": "openai/gpt-5.1",
@@ -78,7 +78,7 @@ def call_openrouter_api_with_messages(messages, model="mistral-medium", max_toke
         raise Exception(f"An error occurred: {str(e)}")
 
 
-def call_openrouter_api(prompt, model="deepseek-v3.2", max_tokens=None, debug=False):
+def call_openrouter_api(prompt, model="deepseek", max_tokens=None, debug=False):
     messages = [{"role": "user", "content": prompt}]
     return call_openrouter_api_with_messages(messages, model, max_tokens, debug)
 
