@@ -9,147 +9,147 @@ translated: true
 type: post
 ---
 
-更新于2025年11月。
+Updated in November 2025.
 
 ---
 
-以下是我的专科学习进度。
+Below is my assoiciate progress. 
 
-广东外语外贸大学，计算机及应用，专科学历，2022.10 - 至今
+Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
-- 全国高等教育自学考试。截至目前，已通过10门课程：《操作系统概论》、《数据结构导论》、《高级语言程序设计（一）》、《英语（一）》、《高等数学》、《数据库及其应用》、《计算机应用技术》、《法律导论》和《计算机组成与结构》。
-- 目前正在准备《计算机网络》、《程序设计导论—Java》、《网页设计与制作》、《移动应用开发技术》、《毛泽东思想和中国特色社会主义理论体系概论》、《大学语文》和《线性代数》等7门课程。
-
----
-
-专业代码：510201（旧代码：610201）
+- National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
+- Currently preparing for 7 courses such as Computer Networks, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese and Linear Algebra.
 
 ---
 
-## 2026年1月计划
-
-| 课程代码 | 课程名称                   |
-|----------|----------------------------|
-| 13833    | 交换与路由技术             |
-| 13167    | 网页设计与制作             |
-| 08553    | 程序设计导论—Java          |
-| 14567    | 移动应用开发技术           |
+Professional Code: 510201 (Old Code: 610201)
 
 ---
 
-| 课程代码 | 课程名称                   |
-|----------|----------------------------|
-| 13182    | 数据结构                   |
-| 13794    | 计算机程序设计基础         |
-| 13808    | 计算机基础与应用技术       |
-| 14568    | 移动应用开发技术           |
-| 13168    | 网页设计与制作             |
+## 2026 Jan Plan
+
+| Course Code | Course Name                          |
+|-------------|--------------------------------------|
+| 13833       | Switching and Routing Technologies   |
+| 13167       | Web Design and Production            |
+| 08553       | Introduction to Programming—Java     |
+| 14567       | Mobile Application Development Technology |
 
 ---
 
-## 2026年4月计划
-
-| 课程代码 | 课程名称                   |
-|----------|----------------------------|
-| 13182    | 数据结构                   |
-| 13794    | 计算机程序设计基础         |
-| 13808    | 计算机基础与应用技术       |
-| 13171    | 数据库及其应用             |
-
----
-
-我对自己的进度不满意。太慢了。原因是至今为止我主要为它准备了一年。
-
-## 已通过课程
-
-| 课程代码 | 新代码 | 课程名称                                         | 考试日期 | 通过方式 | 分数 | 学分 | 状态 |
-|----------|--------|--------------------------------------------------|----------|----------|--------|------|------|
-| 15042    | 15042  | 思想道德修养与法律基础                           | 202510   | 考试     | 69     | 3    | 有效 |
-| 00040    | 00341  | 法律导论                                         | 202504   | 考试     | 60     | 3    | 有效 |
-| 02318    | 02318  | 计算机组成与结构                                 | 202504   | 考试     | 66     | 4    | 有效 |
-| 02323    | 02323  | 操作系统概论                                     | 202304   | 考试     | 67     | 4    | 有效 |
-| 02316    | 13807  | 计算机应用技术                                   | 202410   | 考试     | 73     | 2    | 有效 |
-| 02142    | 13181  | 数据结构导论                                     | 202210   | 考试     | 75     | 4    | 有效 |
-| 02120    | 13170  | 数据库及其应用                                   | 202410   | 考试     | 68     | 3    | 有效 |
-| 00342    | 13793  | 高级语言程序设计（一）                           | 202210   | 考试     | 75     | 3    | 有效 |
-| 00022    | 00022  | 高等数学（工专）                                 | 202404   | 考试     | 77     | 7    | 有效 |
-| 00012    | 13124  | 英语（一）                                       | 202210   | 考试     | 80     | 7    | 有效 |
-
-## 2024年4月
-
-| 科目                 | 分数 |
-|----------------------|------|
-| 高等数学（工专）     | 77   |
-| 数据库及其应用       | 41   |
-| 计算机网络技术       | 21   |
-| 计算机组成原理       | 38   |
-
-## 2024年10月
-
-| 科目                 | 分数 |
-|----------------------|------|
-| 法律导论             | 35   |
-| 数据库及其应用       | 68   |
-| 线性代数             | 47   |
-| 计算机应用技术       | 73   |
-
-## 2025年4月
-
-| 科目                 | 分数 |
-|----------------------|------|
-| 法律导论             | 60   |
-| 计算机网络           | 44   |
-| 线性代数             | 54   |
-| 计算机组成原理       | 66   |
-
-## 通过课程的原因
-* 考试前对科目有很好的理解，例如《数据结构导论》和《英语》。
-* 在过去一年中做了充分的准备，例如《高等数学》和《数据库应用》。
-* 对于《法律导论》，我回答了几乎所有问题——即使有些答案是即兴创作的。
-* 对于《计算机组成原理》，我具备先前的背景知识，并多次练习了历年试题。
-
-## 未通过课程的原因
-* 以为自己已经准备充分，但实际上没有。未通过科目的练习量明显少于通过的科目。
-* 没有投入足够的时间进行准备。
-* 只是浏览了科目视频，假装理解。
-
-## 部分未通过课程的原因
-
-### 计算机网络
-- 缺少针对考试题型的练习。
-- 计算机网络理论基础知识薄弱。
-
-### 线性代数
-- 对矩阵运算和规则不熟悉。
-- 高估了自己对该科目的理解。
-- 缺乏动手实践，只依赖视频讲座。
-
-## 考试准备
-* 充足睡眠，保持良好作息
-* 上午和下午的考试可能在不同地点，请检查好地点
-* 按时报名考试
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 13182       | Data Structures                                  |
+| 13794       | Fundamentals of Computer Programming             |
+| 13808       | Computer Fundamentals and Application Technology |
+| 14568       | Mobile Application Development Technology        |
+| 13168       | Web Design and Production                        |
 
 ---
 
-## 2026年专业变更和必修课程
+## 2026 April Plan
 
-2026年，610201专业将变更为510201专业。我需要准备以下课程：
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 13182       | Data Structures                                  |
+| 13794       | Fundamentals of Computer Programming             |
+| 13808       | Computer Fundamentals and Application Technology |
+| 13171       | Database and Its Applications                    |
 
-### 可替代课程
+---
 
-| 课程代码 | 课程名称                   |
-|----------|----------------------------|
-| 13793    | 计算机程序设计基础         |
-| 13833    | 交换与路由技术             |
+I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
 
-### 新增课程
+## Passed courses
 
-| 课程代码 | 课程名称                                           |
-|----------|----------------------------------------------------|
-| 15040    | 习近平新时代中国特色社会主义思想概论             |
-| 15041    | 毛泽东思想和中国特色社会主义理论体系概论         |
-| 02141    | 计算机网络技术                                   |
-| 08553    | 程序设计导论—Java                                |
-| 13167    | 网页设计与制作                                   |
-| 14567    | 移动应用开发技术                                 |
-| 04729    | 大学语文                                         |
+| Course Code | New Code | Course Name                                      | Exam Date | Pass Method | Score | Credits | Status |
+|-------------|----------|--------------------------------------------------|-----------|-------------|-------|---------|--------|
+| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       | Valid  |
+| 00040      | 00341    | Introduction to Law                              | 202504    | Exam        | 60    | 3       | Valid  |
+| 02318      | 02318    | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       | Valid  |
+| 02323      | 02323    | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       | Valid  |
+| 02316      | 13807    | Computer Application Technology                  | 202410    | Exam        | 73    | 2       | Valid  |
+| 02142      | 13181    | Introduction to Data Structures                  | 202210    | Exam        | 75    | 4       | Valid  |
+| 02120      | 13170    | Database and Its Applications                    | 202410    | Exam        | 68    | 3       | Valid  |
+| 00342      | 13793    | Advanced Programming Language (I)                | 202210    | Exam        | 75    | 3       | Valid  |
+| 00022      | 00022    | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       | Valid  |
+| 00012      | 13124    | English (I)                                      | 202210    | Exam        | 80    | 7       | Valid  |
+
+## 2024.04
+
+| Subject | Score |    
+|---------|--------|
+| Advanced Mathematics (Engineering) | 77 |
+| Database and Its Applications | 41 |
+| Computer Network Technology | 21 |
+| Computer Organization Principles | 38 |
+
+## 2024.10
+
+| Subject | Score |   
+|---------|--------|
+| Introduction to Law | 35 |
+| Database and Applications | 68 |
+| Linear Algebra | 47 |
+| Computer Application Technology | 73 |
+
+## 2025.04
+
+| Subject | Score |   
+|---------|--------|
+| Introduction to Law | 60 |
+| Computer Networks | 44 |
+| Linear Algebra | 54 |
+| Computer Organization Principles  | 66 |
+
+## Reasons for passing courses
+* Already had good understanding before the exam, like Introduction to Data Structures and English
+* Prepared well enough in the past year, like Advanced Mathematics and Database Applications
+* For **Introduction to Law**, I answered almost all questions—even if some answers were improvised.
+* For **Computer Organization Principles**, I had prior background knowledge and practiced past exam questions multiple times.
+
+## Reasons for failed courses
+* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses. 
+* Did not give enough time to prepare
+* Just walked through videos of the subjects pretending to understand.
+
+## Reasons for Selected Failed Courses
+
+### Computer Networks
+- Insufficient practice with exam-style questions
+- Lack of foundational knowledge in computer network theory
+
+### Linear Algebra
+- Inadequate familiarity with matrix operations and rules
+- Overestimated understanding of the subject
+- Lack of hands-on practice; relied solely on video lectures
+
+## Exam preparation
+* Sleep well, maintain a good routine for sleep
+* Morning and afternoon exams may be in different locations, check the right locations
+* Register for the exam on time
+
+---
+
+## 2026 Program Change and Required Courses
+
+In 2026, the 610201 program will be substituted with the 510201 program. I need to prepare for the following courses:
+
+### Replaceable Courses
+
+| Course Code | Course Name                  |
+|-------------|------------------------------|
+| 13793       | Fundamentals of Computer Programming |
+| 13833       | Switching and Routing Technology |
+
+### New Courses
+
+| Course Code | Course Name                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| 15040       | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 02141       | Computer Network Technology                                                 |
+| 08553       | Introduction to Programming—Java                                           |
+| 13167       | Web Design and Production                                                   |
+| 14567       | Mobile Application Development Technology                                   |
+| 04729       | College Chinese                                                             |
