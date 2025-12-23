@@ -62,18 +62,34 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 ## Passed courses
 
-| Course Code | New Code | Course Name                                      | Exam Date | Pass Method | Score | Credits | Status |
-|-------------|----------|--------------------------------------------------|-----------|-------------|-------|---------|--------|
-| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       | Valid  |
-| 00040      | 00341    | Introduction to Law                              | 202504    | Exam        | 60    | 3       | Valid  |
-| 02318      | 02318    | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       | Valid  |
-| 02323      | 02323    | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       | Valid  |
-| 02316      | 13807    | Computer Application Technology                  | 202410    | Exam        | 73    | 2       | Valid  |
-| 02142      | 13181    | Introduction to Data Structures                  | 202210    | Exam        | 75    | 4       | Valid  |
-| 02120      | 13170    | Database and Its Applications                    | 202410    | Exam        | 68    | 3       | Valid  |
-| 00342      | 13793    | Advanced Programming Language (I)                | 202210    | Exam        | 75    | 3       | Valid  |
-| 00022      | 00022    | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       | Valid  |
-| 00012      | 13124    | English (I)                                      | 202210    | Exam        | 80    | 7       | Valid  |
+
+| Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
+|-------------|--------------------------------------------------|-----------|-------------|-------|---------|
+| 03706      | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       |
+| 00040      | Introduction to Law                              | 202504    | Exam        | 60    | 3       |
+| 02318      | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       |
+| 02323      | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       |
+| 02316      | Computer Application Technology                  | 202410    | Exam        | 73    | 2       |
+| 02142      | Introduction to Data Structures                  | 202210    | Exam        | 75    | 4       |
+| 02120      | Database and Its Applications                    | 202410    | Exam        | 68    | 3       |
+| 00342      | Advanced Programming Language (I)                | 202210    | Exam        | 75    | 3       |
+| 00022      | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       |
+| 00012      | English (I)                                      | 202210    | Exam        | 80    | 7       |
+
+## Courses Mapping
+
+| Course Code | New Code | Course Name                                      |
+|-------------|----------|--------------------------------------------------|
+| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law |
+| 00040      | 00341    | Introduction to Law                              |
+| 02318      | 02318    | Computer Organization and Architecture           |
+| 02323      | 02323    | Operating Systems Fundamentals                   |
+| 02316      | 13807    | Computer Application Technology                  |
+| 02142      | 13181    | Introduction to Data Structures                  |
+| 02120      | 13170    | Database and Its Applications                    |
+| 00342      | 13793    | Advanced Programming Language (I)                |
+| 00022      | 00022    | Advanced Mathematics (Engineering)               |
+| 00012      | 13124    | English (I)                                      |
 
 
 
