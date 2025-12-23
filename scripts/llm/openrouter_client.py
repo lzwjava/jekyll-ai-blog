@@ -15,7 +15,7 @@ MODEL_MAPPING = {
     "gemini-pro": "google/gemini-3-pro-preview",
     "kimi": "moonshotai/kimi-k2",
     "deepseek": "deepseek/deepseek",
-    "mistral-medium": "mistralai/mistral-medium-3.1",
+    "mistral": "mistralai/mistral-medium-3.1",
     "qwen-coder":"qwen/qwen3-coder",
     "gpt": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
@@ -32,7 +32,7 @@ DEFAULT_TOKENS = {
     "gemini-pro": 8192,
     "kimi": 32768,
     "deepseek": 32768,
-    "mistral-medium": 32768,
+    "mistral": 32768,
     "qwen-coder": 32768,
     "gpt": 8192,
     "grok-code": 62144,
@@ -43,7 +43,7 @@ DEFAULT_TOKENS = {
 }
 
 
-def call_openrouter_api_with_messages(messages, model="mistral-medium", max_tokens=None, debug=False):
+def call_openrouter_api_with_messages(messages, model="mistral", max_tokens=None, debug=False):
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
