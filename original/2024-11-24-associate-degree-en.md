@@ -64,7 +64,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 | Course Code | New Code | Course Name                                      | Exam Date | Pass Method | Score | Credits | Status |
 |-------------|----------|--------------------------------------------------|-----------|-------------|-------|---------|--------|
-| 15042      | 15042    | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       | Valid  |
+| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       | Valid  |
 | 00040      | 00341    | Introduction to Law                              | 202504    | Exam        | 60    | 3       | Valid  |
 | 02318      | 02318    | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       | Valid  |
 | 02323      | 02323    | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       | Valid  |
