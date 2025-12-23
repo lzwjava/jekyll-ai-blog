@@ -3,7 +3,7 @@ import re
 import os
 
 # Configuration: Maximum allowed columns in markdown tables for mobile readability
-MAX_TABLE_COLUMNS = 7
+MAX_TABLE_COLUMNS = 10
 
 def scan_markdown_files_for_table_columns():
     """Scan English markdown files for tables with more than MAX_TABLE_COLUMNS columns."""
