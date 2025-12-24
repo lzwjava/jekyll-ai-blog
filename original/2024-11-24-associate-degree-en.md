@@ -93,9 +93,9 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 ---
 
-| 02142      | 13181    | Introduction to Data Structures                  |
+For the practical course 13182 (Introduction to Data Structures), I do not need to take it, as the review comment indicates. Since it is a combined course, I have already used that one course to substitute for two courses.
 
-For the pratical course of this, I don't need to take as the review comment shows. As it is combination course, I already use that one course to subsitute for two courses.
+---
 
 
 ## 2024.04
