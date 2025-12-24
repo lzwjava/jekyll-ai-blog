@@ -15,20 +15,19 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL_MAPPING = {
     "claude-opus": "anthropic/claude-opus-4.1",
     "claude-sonnet": "anthropic/claude-4.5-sonnet",
-    "gemini-flash": "google/gemini-2.5-flash",
+    "gemini-flash": "google/gemini-3-flash-preview",
     "gemini-pro": "google/gemini-3-pro-preview",
-    "kimi-k2": "moonshotai/kimi-k2",
-    "deepseek-v3.2": "deepseek/deepseek-v3.2",
-    "mistral-medium": "mistralai/mistral-medium-3.1",
-    "qwen-coder":"qwen/qwen3-coder",
-    "gpt-5.1": "openai/gpt-5.1",
+    "kimi": "moonshotai/kimi-k2",
+    "deepseek": "deepseek/deepseek-v3.2",
+    "mistral": "mistralai/mistral-medium-3.1",
+    "qwen":"qwen/qwen3-coder",
+    "gpt": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
-    "glm-4.6": "z-ai/glm-4.6",
-    "minimax-m2": "minimax/minimax-m2",
-    "kimi-k2-thinking": "moonshotai/kimi-k2-thinking"
+    "glm": "z-ai/glm-4.7",
+    "minimax": "minimax/minimax-m2",
+    "kimi-thinking": "moonshotai/kimi-k2-thinking"
 }
-
 
 
 def call_openrouter_api(prompt, model="gemini-flash", debug=False):
