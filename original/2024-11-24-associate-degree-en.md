@@ -91,6 +91,11 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | 00022      | 00022    | Advanced Mathematics (Engineering)               |
 | 00012      | 13124    | English (I)                                      |
 
+---
+
+| 02142      | 13181    | Introduction to Data Structures                  |
+
+For the pratical course of this, I don't need to take as the review comment shows. As it is combination course, I already use that one course to subsitute for two courses.
 
 
 ## 2024.04
