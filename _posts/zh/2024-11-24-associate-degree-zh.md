@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-2025 年 11 月更新。
+更新于 2025 年 11 月。
 
 ---
 
@@ -18,15 +18,15 @@ type: post
 Guangdong University of Foreign Studies，Computer Application，Associate Degree，2022.10 - 至今
 
 - 国家高等教育自学考试。截至今日已通过 10 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
-- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、College Chinese 和 Linear Algebra。
+- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、毛泽东思想和中国特色社会主义理论体系概论、大学语文以及 Linear Algebra。
 
 ---
 
-专业代码：510201（旧代码：610201）
+专业代码：510201 (旧代码：610201)
 
 ---
 
-## 2026 Jan Plan
+## 2026 年 1 月计划
 
 | Course Code | Course Name                          |
 |-------------|--------------------------------------|
@@ -47,7 +47,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-## 2026 April Plan
+## 2026 年 4 月计划
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
@@ -58,9 +58,9 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-我对自己的进度感到不满意，进度太慢了。原因是到目前为止，我主要只花了一年时间来准备。
+我对自己的进度感到不满意。进度太慢了。原因是直到现在我才真正认真准备了一年。
 
-## Passed courses
+## 已通过课程
 
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
@@ -75,7 +75,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | 00022      | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       |
 | 00012      | English (I)                                      | 202210    | Exam        | 80    | 7       |
 
-## Courses Mapping
+## 课程映射
 
 | Course Code | New Code | Course Name                                      |
 |-------------|----------|--------------------------------------------------|
@@ -89,6 +89,12 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | 00342      | 13793    | Advanced Programming Language (I)                |
 | 00022      | 00022    | Advanced Mathematics (Engineering)               |
 | 00012      | 13124    | English (I)                                      |
+
+---
+
+对于实践课程 13182 (Introduction to Data Structures)，正如复审意见所指出的，我不需要参加。因为它是一门综合课程，我已经用那一门课程学分替代了两门课程。
+
+---
 
 ## 2024.04
 
@@ -117,54 +123,54 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | Linear Algebra | 54 |
 | Computer Organization Principles  | 66 |
 
-## 通过课程的原因
-* 考前已有良好的理解，例如 Introduction to Data Structures 和 English
-* 在过去的一年里准备充分，例如 Advanced Mathematics 和 Database Applications
-* 关于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是即兴发挥的。
+## 及格原因
+* 考前已有良好的理解基础，如 Introduction to Data Structures 和 English
+* 在过去一年里准备充分，如 Advanced Mathematics 和 Database Applications
+* 关于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是临场发挥。
 * 关于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了往年真题。
 
-## 课程不通过的原因
-* 以为自己已经准备好了，但实际上并没有。不通过科目的练习量明显少于通过的科目。
-* 没有投入足够的时间准备。
-* 只是走马观花地看视频课程，假装自己听懂了。
+## 不及格原因
+* 自以为准备充分，但实际并非如此。未通过科目所做的练习明显少于通过的科目。
+* 未投入足够的准备时间
+* 只是走马观花地看视频，假装自己听懂了。
 
-## 特定未通过课程的原因
+## 部分科目不及格的具体原因
 
 ### Computer Networks
-- 缺乏对考试题型的练习
-- 计算机网络理论基础知识薄弱
+- 缺乏针对考试题型的练习
+- 计算机网络理论的基础知识薄弱
 
 ### Linear Algebra
 - 对矩阵运算和规则不够熟悉
-- 高估了对该学科的理解
-- 缺乏动手练习；完全依赖视频课
+- 高估了对该科目的理解
+- 缺乏动手练习，过度依赖视频课程
 
-## 备考建议
-* 保持良好的睡眠和规律的作息
-* 上下午的考试地点可能不同，请确认正确的考点地点
+## 考试准备
+* 睡个好觉，保持良好的睡眠作息
+* 上午和下午的考试可能在不同地点，检查准确的考场位置
 * 准时报名参加考试
 
 ---
 
-## 2026 Program Change and Required Courses
+## 2026 年计划变更及必修课程
 
-2026年，610201 项目将被 510201 项目取代。我需要准备以下课程：
+2026 年起，610201 方案将被 510201 方案取代。我需要准备以下课程：
 
-### Replaceable Courses
+### 可替代课程
 
 | Course Code | Course Name                  |
 |-------------|------------------------------|
 | 13793       | Fundamentals of Computer Programming |
 | 13833       | Switching and Routing Technology |
 
-### New Courses
+### 新课程
 
 | Course Code | Course Name                                                                 |
 |-------------|-----------------------------------------------------------------------------|
-| 15040       | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
-| 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 15040       | 习近平新时代中国特色社会主义思想概论 |
+| 15041       | 毛泽东思想和中国特色社会主义理论体系概论 |
 | 02141       | Computer Network Technology                                                 |
 | 08553       | Introduction to Programming—Java                                           |
 | 13167       | Web Design and Production                                                   |
 | 14567       | Mobile Application Development Technology                                   |
-| 04729       | College Chinese                                                             |
+| 04729       | 大学语文                                                             |
