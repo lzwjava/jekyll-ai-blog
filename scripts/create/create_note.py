@@ -102,6 +102,7 @@ def parse_args():
     parser.add_argument(
         "model",
         choices=sorted(MODEL_MAPPING.keys()),
+        default= "grok-fast",
         help=(
             "Model key to annotate in frontmatter; choices shown above."
         ),
