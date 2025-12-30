@@ -78,7 +78,7 @@ def call_openrouter_api_with_messages(messages, model="mistral", max_tokens=None
         raise Exception(f"An error occurred: {str(e)}")
 
 
-def call_openrouter_api(prompt, model="gemin", max_tokens=None, debug=False):
+def call_openrouter_api(prompt, model="gemini-flash", max_tokens=None, debug=False):
     messages = [{"role": "user", "content": prompt}]
     return call_openrouter_api_with_messages(messages, model, max_tokens, debug)
 
