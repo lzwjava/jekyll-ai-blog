@@ -99,10 +99,13 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Create a note; first positional arg is the model key."
     )
+    # Add 'unknown' to the available choices
+    all_choices = sorted(list(MODEL_MAPPING.keys()) + ["unknown"])
+
     parser.add_argument(
         "model",
-        choices=sorted(MODEL_MAPPING.keys()),
-        default= "grok-fast",
+        choices=all_choices,
+        default="unknown",
         help=(
             "Model key to annotate in frontmatter; choices shown above."
         ),
