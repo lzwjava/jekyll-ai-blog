@@ -4,7 +4,7 @@ generated: true
 image: false
 lang: zh
 layout: post
-title: 李智维：从美钛技术服务到思芮，冲顶大会、趣直播、面包Live的创业之路——对话北京大米互娱有限公司创始人，广州玉岩中学校友王垠
+title: block_low_and_above
 translated: true
 type: note
 ---
