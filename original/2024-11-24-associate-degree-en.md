@@ -57,7 +57,7 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
-The course 13182, Data Structures, can be replaced with my old course score. I don't need to take it again.
+In the practical exam review comments, I was informed that course 13182, Data Structures, can be replaced with my previous course score, so I do not need to take it again.In the practical exam review comments, I was informed that The course 13182, Data Structures, can be replaced with my old course score. I don't need to take it again.
 
 ---
 
