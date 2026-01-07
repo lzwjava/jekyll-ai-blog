@@ -5,7 +5,7 @@ image: false
 lang: en
 layout: post
 model: x-ai/grok-4.1-fast
-title: HSBC Finance Transformation Platform Overview
+title: Finance Transformation Platform Overview
 translated: false
 type: note
 ---
