@@ -13,20 +13,20 @@ type: post
 
 ---
 
-以下是我的大专进修进度。
+以下是我的大专（Associate Degree）进修进度。
 
 Guangdong University of Foreign Studies，Computer Application，Associate Degree，2022.10 - 至今
 
-- 国家高等教育自学考试。截至今日已通过 10 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
-- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、毛泽东思想和中国特色社会主义理论体系概论、大学语文以及 Linear Algebra。
+- 国家高等教育自学考试。截止今日已通过 10 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
+- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、毛泽东思想和中国特色社会主义理论体系概论、College Chinese 以及 Linear Algebra。
 
 ---
 
-专业代码：510201 (旧代码：610201)
+专业代码：510201（旧代码：610201）
 
 ---
 
-## 2026 年 1 月计划
+## 2026 Jan Plan
 
 | Course Code | Course Name                          |
 |-------------|--------------------------------------|
@@ -47,20 +47,23 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-## 2026 年 4 月计划
+## 2026 April Plan
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
-| 13182       | Data Structures                                  |
 | 13794       | Fundamentals of Computer Programming             |
 | 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
 
 ---
 
-我对自己的进度感到不满意。进度太慢了。原因是直到现在我才真正认真准备了一年。
+在实践考核的复核意见中，我被告知课程 13182（Data Structures）可以用我之前的课程成绩替代，因此不需要重新参加考试。
 
-## 已通过课程
+---
+
+我对自己的进度感到不满，速度太慢了。原因是直到现在我也只准备了大约一年时间。
+
+## Passed courses
 
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
@@ -75,7 +78,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | 00022      | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       |
 | 00012      | English (I)                                      | 202210    | Exam        | 80    | 7       |
 
-## 课程映射
+## Courses Mapping
 
 | Course Code | New Code | Course Name                                      |
 |-------------|----------|--------------------------------------------------|
@@ -92,7 +95,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-对于实践课程 13182 (Introduction to Data Structures)，正如复审意见所指出的，我不需要参加。因为它是一门综合课程，我已经用那一门课程学分替代了两门课程。
+对于实践课程 13182（Introduction to Data Structures），正如复核意见所示，我不需要参加考试。由于这是一门组合课程，我已经通过这一门课替代了两门课程。
 
 ---
 
@@ -123,38 +126,38 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | Linear Algebra | 54 |
 | Computer Organization Principles  | 66 |
 
-## 及格原因
-* 考前已有良好的理解基础，如 Introduction to Data Structures 和 English
-* 在过去一年里准备充分，如 Advanced Mathematics 和 Database Applications
-* 关于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是临场发挥。
-* 关于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了往年真题。
+## 通过课程的原因
+* 考试前已具备良好的理解，如 Introduction to Data Structures 和 English
+* 在过去的一年里准备充分，如 Advanced Mathematics 和 Database Applications
+* 对于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是临场发挥的。
+* 对于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了往年真题。
 
-## 不及格原因
-* 自以为准备充分，但实际并非如此。未通过科目所做的练习明显少于通过的科目。
-* 未投入足够的准备时间
-* 只是走马观花地看视频，假装自己听懂了。
+## 考试不及格的原因
+* 自认为准备充分，但实际并非如此。不及格科目的练习量明显少于通过的科目。
+* 准备时间投入不足
+* 只是粗略地看了视频，假装自己懂了。
 
-## 部分科目不及格的具体原因
+## 特定不及格科目的原因
 
 ### Computer Networks
-- 缺乏针对考试题型的练习
-- 计算机网络理论的基础知识薄弱
+- 针对考试题型的练习不足
+- 缺乏 Computer Network 理论的基础知识
 
 ### Linear Algebra
 - 对矩阵运算和规则不够熟悉
-- 高估了对该科目的理解
-- 缺乏动手练习，过度依赖视频课程
+- 高估了对该学科的理解
+- 缺乏动手练习；完全依赖视频课程
 
 ## 考试准备
-* 睡个好觉，保持良好的睡眠作息
-* 上午和下午的考试可能在不同地点，检查准确的考场位置
+* 保证睡眠，保持良好的作息
+* 上午和下午的考试地点可能不同，务必确认正确的考点地点
 * 准时报名参加考试
 
 ---
 
-## 2026 年计划变更及必修课程
+## 2026 计划变更及必修课程
 
-2026 年起，610201 方案将被 510201 方案取代。我需要准备以下课程：
+2026 年，610201 程序将被 510201 程序取代。我需要准备以下课程：
 
 ### 可替代课程
 
@@ -173,4 +176,4 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | 08553       | Introduction to Programming—Java                                           |
 | 13167       | Web Design and Production                                                   |
 | 14567       | Mobile Application Development Technology                                   |
-| 04729       | 大学语文                                                             |
+| 04729       | College Chinese                                                             |

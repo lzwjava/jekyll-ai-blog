@@ -51,10 +51,13 @@ Professional Code: 510201 (Old Code: 610201)
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
-| 13182       | Data Structures                                  |
 | 13794       | Fundamentals of Computer Programming             |
 | 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
+
+---
+
+In the practical exam review comments, I was informed that course 13182, Data Structures, can be replaced with my previous course score, so I do not need to take it again.
 
 ---
 
