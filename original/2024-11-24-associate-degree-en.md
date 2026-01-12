@@ -18,7 +18,7 @@ Guangdong University of Foreign Studies，Computer Application, Associate Degree
 
 - National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
 - Currently preparing for 7 written exams such as Switching and Routing Technologies, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
-- Currently preparing for 4 practial exams: Computer Fundamentals and Application Technology, Database and Its Applications, Web Design and Production, Mobile Application Development Technology.
+- Currently preparing for 4 practial exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, Database and Its Applications, Web Design and Production, Mobile Application Development Technology.
 
 ---
 
