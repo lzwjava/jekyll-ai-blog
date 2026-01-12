@@ -47,13 +47,23 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
-## 2026 April Plan
+## 2026 April Plan (Practical)
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 13794       | Fundamentals of Computer Programming             |
 | 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
+
+---
+
+## 2026 April Plan (Written)
+
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 15040       | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 04729       | College Chinese              |
 
 ---
 
