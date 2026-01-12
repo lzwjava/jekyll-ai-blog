@@ -17,7 +17,7 @@ Below is my assoiciate progress.
 Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
 - National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
-- Currently preparing for 7 courses such as Computer Networks, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese and Linear Algebra.
+- Currently preparing for 7 written courses such as Switching and Routing Technologies, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
 
 ---
 
