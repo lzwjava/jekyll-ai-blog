@@ -17,8 +17,8 @@ type: post
 
 Guangdong University of Foreign Studies，Computer Application，Associate Degree，2022.10 - 至今
 
-- 国家高等教育自学考试。截止今日已通过 10 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
-- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、毛泽东思想和中国特色社会主义理论体系概论、College Chinese 以及 Linear Algebra。
+- 国家高等教育自学考试（National Higher Education Self-study Examination）。截至今日已通过 10 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
+- 目前正在准备 7 门课程：Computer Networks、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、College Chinese 和 Linear Algebra。
 
 ---
 
@@ -26,7 +26,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-## 2026 Jan Plan
+## 2026年1月计划
 
 | Course Code | Course Name                          |
 |-------------|--------------------------------------|
@@ -47,7 +47,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-## 2026 April Plan
+## 2026年4月计划（实践）
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
@@ -57,13 +57,23 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-在实践考核的复核意见中，我被告知课程 13182（Data Structures）可以用我之前的课程成绩替代，因此不需要重新参加考试。
+## 2026年4月计划（笔试）
+
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 15040       | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 04729       | College Chinese              |
 
 ---
 
-我对自己的进度感到不满，速度太慢了。原因是直到现在我也只准备了大约一年时间。
+在实践考核的评审意见中，我被告知课程 13182 Data Structures 可以用我之前的课程成绩替代，因此不需要重考。
 
-## Passed courses
+---
+
+我对自己的进度感到不太满意，进展较慢。原因是我直到现在才主要投入了一年的时间来准备。
+
+## 已通过课程
 
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
@@ -78,7 +88,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | 00022      | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       |
 | 00012      | English (I)                                      | 202210    | Exam        | 80    | 7       |
 
-## Courses Mapping
+## 课程映射
 
 | Course Code | New Code | Course Name                                      |
 |-------------|----------|--------------------------------------------------|
@@ -95,7 +105,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-对于实践课程 13182（Introduction to Data Structures），正如复核意见所示，我不需要参加考试。由于这是一门组合课程，我已经通过这一门课替代了两门课程。
+对于实践课程 13182 (Introduction to Data Structures)，如评审意见所示，我不需要参加考试。由于这是一门综合课程，我已经使用该课程替代了两门课程。
 
 ---
 
@@ -126,38 +136,38 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | Linear Algebra | 54 |
 | Computer Organization Principles  | 66 |
 
-## 通过课程的原因
-* 考试前已具备良好的理解，如 Introduction to Data Structures 和 English
+## 课程通过的原因
+* 考前已有良好的基础，如 Introduction to Data Structures 和 English
 * 在过去的一年里准备充分，如 Advanced Mathematics 和 Database Applications
 * 对于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是临场发挥的。
-* 对于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了往年真题。
+* 对于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了历年真题。
 
-## 考试不及格的原因
-* 自认为准备充分，但实际并非如此。不及格科目的练习量明显少于通过的科目。
-* 准备时间投入不足
-* 只是粗略地看了视频，假装自己懂了。
+## 课程不通过的原因
+* 误以为自己已经准备好了，但实际并非如此。未通过科目的练习量明显少于已通过的科目。
+* 没有给予足够的准备时间
+* 只是粗略地看了视频，假装已经理解了。
 
-## 特定不及格科目的原因
+## 特定未通过课程的原因
 
 ### Computer Networks
-- 针对考试题型的练习不足
-- 缺乏 Computer Network 理论的基础知识
+- 缺乏对考试题型的练习
+- 计算机网络理论基础知识薄弱
 
 ### Linear Algebra
 - 对矩阵运算和规则不够熟悉
 - 高估了对该学科的理解
-- 缺乏动手练习；完全依赖视频课程
+- 缺乏上手练习；完全依赖视频课程
 
 ## 考试准备
-* 保证睡眠，保持良好的作息
-* 上午和下午的考试地点可能不同，务必确认正确的考点地点
+* 睡好觉，保持良好的作息
+* 上午和下午的考试可能在不同的地点，务必确认正确的考场位置
 * 准时报名参加考试
 
 ---
 
-## 2026 计划变更及必修课程
+## 2026年教学计划变更及必修课程
 
-2026 年，610201 程序将被 510201 程序取代。我需要准备以下课程：
+2026 年，610201 计划将被 510201 计划取代。我需要准备以下课程：
 
 ### 可替代课程
 
@@ -170,8 +180,8 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 | Course Code | Course Name                                                                 |
 |-------------|-----------------------------------------------------------------------------|
-| 15040       | 习近平新时代中国特色社会主义思想概论 |
-| 15041       | 毛泽东思想和中国特色社会主义理论体系概论 |
+| 15040       | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 02141       | Computer Network Technology                                                 |
 | 08553       | Introduction to Programming—Java                                           |
 | 13167       | Web Design and Production                                                   |
