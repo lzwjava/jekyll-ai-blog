@@ -227,8 +227,8 @@ def main():
         best_proxy_name = None
         try:
             # Only select SG and TW proxies
-            name_filter = ["SG", "TW", "HK"]
-            filter_desc = "SG/TW/HK"
+            name_filter = ["SG", "TW"]
+            filter_desc = "SG/TW"
 
             logging.info("Testing proxy speeds to find the best one...")
             top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
