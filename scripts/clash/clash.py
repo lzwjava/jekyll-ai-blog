@@ -116,12 +116,6 @@ def main():
         help="Number of iterations (default: 1000)",
     )
     parser.add_argument(
-        "--config-url",
-        type=str,
-        default=os.getenv("CLASH_DOWNLOAD_URL"),
-        help="URL to download Clash configuration from. Defaults to CLASH_DOWNLOAD_URL environment variable if set, otherwise a hardcoded URL.",
-    )
-    parser.add_argument(
         "--clash-executable",
         type=str,
         default=os.getenv("CLASH_EXECUTABLE"),
@@ -145,7 +139,7 @@ def main():
 
     ITERATIONS = args.iterations
     SLEEP_SECONDS = args.minutes * 60
-    config_download_url = args.config_url or os.getenv(env_var)
+    config_download_url = os.getenv(env_var)
     clash_executable_path = args.clash_executable
 
     if not config_download_url:
