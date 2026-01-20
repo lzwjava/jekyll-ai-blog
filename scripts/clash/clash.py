@@ -127,11 +127,25 @@ def main():
         default=os.getenv("CLASH_EXECUTABLE"),
         help="Path to the Clash executable. Defaults to CLASH_EXECUTABLE environment variable if set.",
     )
+    parser.add_argument(
+        "--type",
+        type=str,
+        default="zhs",
+        choices=["zhs", "falemon"],
+        help="Proxy provider type (default: zhs)",
+    )
     args = parser.parse_args()
+
+    if args.type == "zhs":
+        env_var = "CLASH_DOWNLOAD_URL"
+        temp_filename = "zhs4.yaml"
+    else:
+        env_var = "CLASH_FALEMON_DOWNLOAD_URL"
+        temp_filename = "falemon.yaml"
 
     ITERATIONS = args.iterations
     SLEEP_SECONDS = args.minutes * 60
-    config_download_url = args.config_url
+    config_download_url = args.config_url or os.getenv(env_var)
     clash_executable_path = args.clash_executable
 
     if not config_download_url:
