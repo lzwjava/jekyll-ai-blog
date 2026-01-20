@@ -62,7 +62,7 @@ start_proxy
 start_git_proxy
 
 alias python=python3
-alias pip=pip3.13
+alias pip=python -m pip
 
 function gpa {
   python ~/bin/gitmessageai.py --api deepseek --allow-pull-push
