@@ -239,8 +239,8 @@ def main():
                 name_filter = ["SG", "TW"]
                 filter_desc = "SG/TW"
             else:
-                name_filter = []
-                filter_desc = "all"
+                name_filter = ["新加坡", "台湾", "日本", "美国", "琼美"]
+                filter_desc = "SG/TW/JP/US"
 
             logging.info("Testing proxy speeds to find the best one...")
             top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
