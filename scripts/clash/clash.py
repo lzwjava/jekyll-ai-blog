@@ -234,9 +234,13 @@ def main():
         # Step 4: Test proxy speeds and select the best one
         best_proxy_name = None
         try:
-            # Only select SG and TW proxies
-            name_filter = ["SG", "TW"]
-            filter_desc = "SG/TW"
+            # Set proxy name filter based on type
+            if args.type == "zhs":
+                name_filter = ["SG", "TW"]
+                filter_desc = "SG/TW"
+            else:
+                name_filter = []
+                filter_desc = "all"
 
             logging.info("Testing proxy speeds to find the best one...")
             top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
@@ -244,11 +248,11 @@ def main():
                 # All top_proxies already match the filter, take the fastest one
                 best_proxy_name = top_proxies[0]["name"]
                 logging.info(
-                    f"Selected proxy '{best_proxy_name}' (contains {filter_desc}) with latency {top_proxies[0]['latency']}ms"
+                    f"Selected proxy '{best_proxy_name}' ({filter_desc}) with latency {top_proxies[0]['latency']}ms"
                 )
             else:
                 logging.warning(
-                    f"No successful proxy tests for {filter_desc} proxies. Cannot select a best proxy for this iteration."
+                    f"No successful {filter_desc} proxy tests. Cannot select a best proxy for this iteration."
                 )
         except Exception as e:
             logging.error(f"Error during proxy speed testing: {e}")
