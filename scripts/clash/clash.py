@@ -133,9 +133,11 @@ def main():
     if args.type == "zhs":
         env_var = "CLASH_DOWNLOAD_URL"
         temp_filename = "zhs4.yaml"
+        target_proxy_group = "🚧Proxy"
     else:
         env_var = "CLASH_FALEMON_DOWNLOAD_URL"
         temp_filename = "falemon.yaml"
+        target_proxy_group = "🚀 节点选择"
 
     ITERATIONS = args.iterations
     SLEEP_SECONDS = args.minutes * 60
@@ -167,12 +169,12 @@ def main():
         try:
             logging.info(f"Downloading new config from: {config_download_url}")
             subprocess.run(
-                ["wget", config_download_url, "-O", "zhs4.yaml"],
+                ["wget", config_download_url, "-O", temp_filename],
                 check=True,
                 capture_output=True,
             )
             os.makedirs(clash_config_dir, exist_ok=True)
-            shutil.move("zhs4.yaml", clash_config_path)
+            shutil.move(temp_filename, clash_config_path)
             logging.info("Clash config updated successfully!")
         except subprocess.CalledProcessError as e:
             logging.error(
@@ -265,7 +267,7 @@ def main():
             clash_local_proxy_address = f"{CLASH_CONTROLLER_HOST}:7890"  # Adjust if your Clash HTTP port is different
             start_system_proxy(clash_local_proxy_address)
 
-            if not switch_clash_proxy_group(TARGET_PROXY_GROUP, best_proxy_name):
+            if not switch_clash_proxy_group(target_proxy_group, best_proxy_name):
                 logging.error(
                     f"Failed to switch Clash group '{TARGET_PROXY_GROUP}' to '{best_proxy_name}'."
                 )
