@@ -99,6 +99,8 @@ I began using the iOS Shadowsocks app again with proxy servers from https://zhs.
 
 Starting from the end of December, I restarted using a Macau SIM card in my mobile phone due to the frustration of proxy servers.
 
+Starting from January 2026, I started using https://falz.pics. One friend recommended it.
+
 
 #### The Difference Compared to Reversing Myopia
 
