@@ -55,7 +55,7 @@ type: post
 
 * China Telecom Macao SIM cards are available in two types: red and blue. Red cards offer daily plans, typically costing 2, 3, or 5 Macao dollars per day. Blue cards provide data plans, such as 10GB for 98 Macao dollars or 20GB for 198 Macao dollars, without monthly charges.
 
-* If you need more network data or use a laptop frequently, consider using [https://falz.pics](https://falz.pics). It provides access to approximately 15 global proxy servers for just 30 CNY per month.  
+* If you need more network data or use a laptop frequently, consider using [Falemon](https://falz.pics). It provides access to approximately 15 global proxy servers for just 30 CNY per month.  
 
 * On iOS, use Shadowrocket with Shadowsocks rules: [https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever). Configure global routing to separate China traffic from overseas traffic.  
 
@@ -99,7 +99,7 @@ I began using the iOS Shadowsocks app again with proxy servers from https://zhs.
 
 Starting from the end of December, I restarted using a Macau SIM card in my mobile phone due to the frustration of proxy servers.
 
-Starting from January 2026, I started using https://falz.pics. One friend recommended it.
+Starting from January 2026, I started using [Falemon](https://falz.pics). One friend recommended it.
 
 
 #### The Difference Compared to Reversing Myopia
