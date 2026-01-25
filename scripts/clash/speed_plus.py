@@ -12,14 +12,10 @@ CLASH_API_BASE_URL = f"http://{CLASH_CONTROLLER_HOST}:{CLASH_CONTROLLER_PORT}"
 TOP_WEBSITE_LIST = [
     "https://www.google.com",
     "https://www.youtube.com",
-    "https://www.facebook.com",
     "https://www.twitter.com",
-    "https://www.instagram.com",
-    "https://www.baidu.com",
-    "https://www.wikipedia.org",
-    "https://www.yahoo.com",
-    "https://www.amazon.com",
+    "https://github.com",
     "https://www.reddit.com",
+    "https://grok.com"
 ]
 
 LATENCY_TEST_TIMEOUT_MS = 5000  # Increased timeout for slower tests
