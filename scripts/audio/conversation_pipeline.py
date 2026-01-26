@@ -8,7 +8,7 @@ import time
 import argparse
 
 # Fixed output directory for conversations
-OUTPUT_DIRECTORY = "assets/conversations"
+OUTPUT_DIRECTORY = "/Users/lzwjava/projects/blog-assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 
@@ -55,9 +55,9 @@ def process_conversation(filename, seed=None, dry_run=False):
     if seed is None:
         seed = int(time.time())
     random.seed(seed)
-    filepath = os.path.join(INPUT_DIRECTORY, filename)
+    filepath = filename if os.path.isabs(filename) else os.path.join(INPUT_DIRECTORY, filename)
     output_filename = os.path.join(
-        OUTPUT_DIRECTORY, os.path.splitext(filename)[0] + ".mp3"
+        OUTPUT_DIRECTORY, os.path.splitext(os.path.basename(filename))[0] + ".mp3"
     )
 
     if os.path.exists(output_filename):
@@ -155,17 +155,20 @@ if __name__ == "__main__":
         action="store_true",
         help="Perform a dry run without generating audio.",
     )
+    parser.add_argument("--file", type=str, help="Specific JSON file to process.")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 
     num_conversations = 0
-    total_conversations = 0
-    for filename in os.listdir(INPUT_DIRECTORY):
-        if filename.endswith(".json"):
-            total_conversations += 1
-            if process_conversation(filename, args.seed, args.dry_run):
-                num_conversations += 1
+    if args.file:
+        filenames = [args.file]
+    else:
+        filenames = [f for f in os.listdir(INPUT_DIRECTORY) if f.endswith(".json")]
+    total_conversations = len(filenames)
+    for filename in filenames:
+        if process_conversation(filename, args.seed, args.dry_run):
+            num_conversations += 1
 
     print(
         f"Processing complete! {num_conversations}/{total_conversations} conversations generated/attempted."
