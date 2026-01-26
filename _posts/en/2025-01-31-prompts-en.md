@@ -15,6 +15,31 @@ Translate the following posts or words into Chinese, ensuring that names (e.g., 
 
 Compose a dynamic and in-depth dialogue between two experts, A and B, on a specialized topic. The conversation should be engaging and detailed, with both participants actively contributing. They should:
 
+- Discuss these exam questions.
+- Focus on the practical aspects and mechanisms of the topic, rather than relying on formulas.
+
+
+Ensure the dialogue flows naturally, with a balanced exchange of ideas and perspectives.
+
+The format should be as follows:
+
+```json
+[
+  {
+    "speaker": "A",
+    "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
+  },
+  {
+    "speaker": "B",
+    "line": "Sure! Let’s start with the basics. ..."
+  }
+]
+```
+
+---
+
+Compose a dynamic and in-depth dialogue between two experts, A and B, on a specialized topic. The conversation should be engaging and detailed, with both participants actively contributing. They should:
+
 - Delve into specific subtopics and explore their intricacies.
 - Compare and contrast different technologies or methodologies related to the subject.
 - Discuss real-world use cases and their implications.
