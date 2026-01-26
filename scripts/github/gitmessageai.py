@@ -228,7 +228,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="gemini-flash",
+        default="grok-fast",
         choices=list(MODEL_MAPPING.keys()),
         help="Model to use for commit message generation via OpenRouter.",
     )
