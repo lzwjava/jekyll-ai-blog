@@ -45,7 +45,19 @@ def convert_conversation_to_notes():
 
             with open(notes_filepath, "w") as outfile:
                 outfile.write(
-                    f'---\nlayout: post\ntitle: "{title}"\naudio: true\n---\n\n'
+                    f"""---
+audio: false
+generated: true
+image: false
+lang: en
+layout: post
+model: none
+title: {title}
+translated: false
+type: note
+---
+
+"""
                 )
                 for item in conversation:
                     speaker = item.get("speaker")
