@@ -30,9 +30,6 @@ for dir_path in dirs:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        if 'exam' not in content.lower():
-            continue
-
         option_count = count_exam_options(content)
         if option_count > 10:
             new_content = fix_exam_options(content)
