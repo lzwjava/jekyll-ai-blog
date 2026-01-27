@@ -184,7 +184,7 @@ Write Japanese like a primary school kid, use very simple phrases.
 
 ---
 
-Create 30 exam questions, multiple choices, do not need to show answers.
+Create 30 exam questions, multiple choices, do not need to show answers, use - to indicate options.
 
 ---
 
