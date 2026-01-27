@@ -23,76 +23,76 @@ Each question is worth 1 point. Choose the correct option.
    (Note: Refers to typical waveforms; typically, the one with ripple on DC baseline.)
 
 4. The main reason for zero-point drift in a directly coupled multi-stage amplifier circuit is:  
-   A. Resistor value errors  
-   B. Dispersion of transistor parameters  
-   C. Temperature effects on transistor parameters  
-   D. Unstable power supply voltage  
+   - A. Resistor value errors  
+   - B. Dispersion of transistor parameters  
+   - C. Temperature effects on transistor parameters  
+   - D. Unstable power supply voltage  
 
 5. For a transistor operating in the active region, if the base current \\( I_b \\) increases from 12 μA to 22 μA, and the collector current \\( I_c \\) changes from 1 mA to 2 mA, then its current gain \\( \beta \\) is approximately:  
-   A. 83  
-   B. 91  
-   C. 100  
-   D. 183  
+   - A. 83  
+   - B. 91  
+   - C. 100  
+   - D. 183  
 
 6. To superimpose a DC voltage on a sine wave voltage, the appropriate operational circuit to use is:  
-   A. Proportional operation circuit  
-   B. Addition/subtraction operation circuit  
-   C. Integral operation circuit  
-   D. Differential operation circuit  
+   - A. Proportional operation circuit  
+   - B. Addition/subtraction operation circuit  
+   - C. Integral operation circuit  
+   - D. Differential operation circuit  
 
 7. In a non-inverting proportional operation circuit built with an integrated operational amplifier, the input voltage is 1 V. If the feedback resistor is shorted due to some reason, the output voltage of the operational circuit at this time is:  
-   A. 0 V  
-   B. 1 V  
-   C. Positive saturation output  
-   D. Negative saturation output  
+   - A. 0 V  
+   - B. 1 V  
+   - C. Positive saturation output  
+   - D. Negative saturation output  
 
 8. The average voltage measured across the load resistor in a single-phase half-wave rectifier circuit is 4.5 V. Then, the effective value of the transformer's secondary voltage \\( U \\) is:  
-   A. 5 V  
-   B. 7.07 V  
-   C. 10 V  
-   D. 14.14 V  
+   - A. 5 V  
+   - B. 7.07 V  
+   - C. 10 V  
+   - D. 14.14 V  
 
 9. The linear integrated voltage regulator CW78L15 can provide an output voltage \\( U \\) and output current \\( I \\) of:  
-   A. \\( U = +15 \\) V, \\( I = 0.1 \\) A  
-   B. \\( U = -15 \\) V, \\( I = 0.1 \\) A  
-   C. \\( U = +15 \\) V, \\( I = 0.5 \\) A  
-   D. \\( U = -15 \\) V, \\( I = 0.5 \\) A  
+   - A. \\( U = +15 \\) V, \\( I = 0.1 \\) A  
+   - B. \\( U = -15 \\) V, \\( I = 0.1 \\) A  
+   - C. \\( U = +15 \\) V, \\( I = 0.5 \\) A  
+   - D. \\( U = -15 \\) V, \\( I = 0.5 \\) A  
 
 10. The BCD (8421) code corresponding to the decimal number (65)<sub>10</sub> is:  
-    A. 11100101  
-    B. 01100101  
-    C. 10000010  
-    D. 10000001  
+    - A. 11100101  
+    - B. 01100101  
+    - C. 10000010  
+    - D. 10000001  
 
 11. In all conditions that determine an event, as long as one or more conditions are met, the event occurs. This belongs to:  
-    A. OR logic  
-    B. AND logic  
-    C. NOT logic  
-    D. NOR logic  
+    - A. OR logic  
+    - B. AND logic  
+    - C. NOT logic  
+    - D. NOR logic  
 
 12. Among the following statements about minterms, the correct one is:  
-    A. For any minterm, only one set of input variable values makes it 1  
-    B. For the same variable values, the product of any two minterms is always 1  
-    C. Under arbitrary variable values, the sum of all minterms is 0  
-    D. For an n-variable logic function, there are n minterms  
+    - A. For any minterm, only one set of input variable values makes it 1  
+    - B. For the same variable values, the product of any two minterms is always 1  
+    - C. Under arbitrary variable values, the sum of all minterms is 0  
+    - D. For an n-variable logic function, there are n minterms  
 
 13. When the input to a common-anode seven-segment display decoder is 0100, the outputs that are 0 are:  
-    A. a, c, f, g  
-    B. a, d, e  
-    C. b, c, f, g  
-    D. g, d, e  
+    - A. a, c, f, g  
+    - B. a, d, e  
+    - C. b, c, f, g  
+    - D. g, d, e  
 
 14. The following that belongs to a combinational circuit component is:  
-    A. Synchronous counter  
-    B. Data comparator  
-    C. Shift register  
-    D. Asynchronous counter  
+    - A. Synchronous counter  
+    - B. Data comparator  
+    - C. Shift register  
+    - D. Asynchronous counter  
 
 15. When designing logic with a PLA, the logic function expression should be expressed as:  
-    A. Simplest "AND-OR" expression  
-    B. Simplest "OR-AND" expression  
-    C. Standard "AND-OR" expression  
-    D. Standard "OR-AND" expression  
+    - A. Simplest "AND-OR" expression  
+    - B. Simplest "OR-AND" expression  
+    - C. Standard "AND-OR" expression  
+    - D. Standard "OR-AND" expression  
 
 #### Section 2: Fill-in-the-Blank Questions (15 questions total in full exam; partial here)
 Each blank is worth 1 point. Fill in the missing word(s) or value(s).

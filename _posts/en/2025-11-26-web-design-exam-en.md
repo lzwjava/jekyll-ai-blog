@@ -16,31 +16,31 @@ Here are some realistic exercise/problems that closely match the style and diffi
 
 #### I. Single-Choice Questions (每题1分，共20分)
 1. Which of the following is the correct structure of an HTML5 document?  
-   A. `<html><head><body>`  
-   B. `<!DOCTYPE html><html><head><body>`  
-   C. `<head><html><body>`  
-   D. `<body><html><head>`
+   - A. `<html><head><body>`  
+   - B. `<!DOCTYPE html><html><head><body>`  
+   - C. `<head><html><body>`  
+   - D. `<body><html><head>`
 
 2. In CSS, which selector has the highest specificity?  
-   A. `#header`  
-   B. `.nav`  
-   C. `div`  
-   D. `p`
+   - A. `#header`  
+   - B. `.nav`  
+   - C. `div`  
+   - D. `p`
 
 3. The correct way to link an external CSS file is:  
-   A. `<link rel="stylesheet" type="text/css" href="style.css">`  
-   B. `<style src="style.css">`  
-   C. `<css href="style.css">`  
-   D. `<link href="style.css" type="stylesheet">`
+   - A. `<link rel="stylesheet" type="text/css" href="style.css">`  
+   - B. `<style src="style.css">`  
+   - C. `<css href="style.css">`  
+   - D. `<link href="style.css" type="stylesheet">`
 
 (Continue with similar questions on HTML tags, CSS box model, color modes, file paths, etc.)
 
 #### II. Multiple-Choice Questions (每题2分，共10分)
 1. Which of the following are block-level elements in HTML? ( )  
-   A. `<div>`  B. `<span>`  C. `<p>`  D. `<img>`
+   - A. `<div>`  B. `<span>`  C. `<p>`  D. `<img>`
 
 2. Which units in CSS are relative units? ( )  
-   A. px  B. em  C. %  D. rem
+   - A. px  B. em  C. %  D. rem
 
 #### III. True/False Questions (每题1分，共10分)
 1. The `<meta charset="gb2312">` declaration is recommended for new websites in China. ( )

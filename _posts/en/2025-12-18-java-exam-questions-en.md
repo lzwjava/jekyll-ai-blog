@@ -19,67 +19,67 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
 ### Multiple-Choice Questions (1-10)
 
 1. Which of the following is the correct way to declare the main method in a Java application?  
-   A. public void main(String[] args)  
-   B. static public void main(String args[])  
-   C. public static void main(String[] args)  
-   D. void main(String args)
+   - A. public void main(String[] args)  
+   - B. static public void main(String args[])  
+   - C. public static void main(String[] args)  
+   - D. void main(String args)
 
 2. In Java, which data type is used to store a single character?  
-   A. String  
-   B. char  
-   C. int  
-   D. boolean
+   - A. String  
+   - B. char  
+   - C. int  
+   - D. boolean
 
 3. What is the output of the following code?  
    ```java
    System.out.println(10 + 20 + "Hello" + 30 + 40);
    ```  
-   A. 70Hello3040  
-   B. 30Hello70  
-   C. 10 20 Hello 30 40  
-   D. Hello100
+   - A. 70Hello3040  
+   - B. 30Hello70  
+   - C. 10 20 Hello 30 40  
+   - D. Hello100
 
 4. Which keyword is used to define a subclass in Java?  
-   A. implements  
-   B. extends  
-   C. super  
-   D. this
+   - A. implements  
+   - B. extends  
+   - C. super  
+   - D. this
 
 5. What does the `break` statement do in a switch block?  
-   A. Ends the entire program  
-   B. Skips to the next iteration  
-   C. Exits the switch statement  
-   D. Continues to the default case
+   - A. Ends the entire program  
+   - B. Skips to the next iteration  
+   - C. Exits the switch statement  
+   - D. Continues to the default case
 
 6. Which of the following is NOT a valid access modifier in Java?  
-   A. public  
-   B. protected  
-   C. private  
-   D. open
+   - A. public  
+   - B. protected  
+   - C. private  
+   - D. open
 
 7. In Java, arrays are:  
-   A. Primitive data types  
-   B. Objects  
-   C. Methods  
-   D. Interfaces
+   - A. Primitive data types  
+   - B. Objects  
+   - C. Methods  
+   - D. Interfaces
 
 8. What is the default value of a boolean instance variable in a class?  
-   A. true  
-   B. false  
-   C. null  
-   D. 0
+   - A. true  
+   - B. false  
+   - C. null  
+   - D. 0
 
 9. Which method is called automatically when an object is created?  
-   A. main()  
-   B. Constructor  
-   C. finalize()  
-   D. toString()
+   - A. main()  
+   - B. Constructor  
+   - C. finalize()  
+   - D. toString()
 
 10. What exception is thrown when dividing an integer by zero?  
-    A. NullPointerException  
-    B. ArrayIndexOutOfBoundsException  
-    C. ArithmeticException  
-    D. ClassCastException
+    - A. NullPointerException  
+    - B. ArrayIndexOutOfBoundsException  
+    - C. ArithmeticException  
+    - D. ClassCastException
 
 ### Fill-in-the-Blank Questions (11-15)
 

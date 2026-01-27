@@ -19,35 +19,35 @@ This set draws from past 自考 papers for the course 电子技术基础（三�
 Select the correct option (A, B, C, or D) for each.  
 
 1. **Among the following descriptions of the characteristics of an ideal voltage source, the correct one is:**  
-   A. The internal resistance of the ideal voltage source signal source tends to infinity.  
-   B. Ideal voltage sources can be connected in parallel at any time.  
-   C. The output voltage of the ideal voltage source is related to the load.  
-   D. The current flowing through the ideal voltage source is related to the load.  
+   - A. The internal resistance of the ideal voltage source signal source tends to infinity.  
+   - B. Ideal voltage sources can be connected in parallel at any time.  
+   - C. The output voltage of the ideal voltage source is related to the load.  
+   - D. The current flowing through the ideal voltage source is related to the load.  
 
 2. **Given the phasor current flowing through the inductive reactance \\( \omega L = 2 \, \Omega \\) is \\( I = 10 \angle 30^\circ \\) mA, then the phasor voltage across it is:**  
-   A. \\( U = 20 \angle 0^\circ \\) mV  
-   B. \\( U = 20 \angle 120^\circ \\) mV  
-   C. \\( U = 20 \angle 30^\circ \\) mV  
-   D. \\( U = 20 \angle -60^\circ \\) mV  
+   - A. \\( U = 20 \angle 0^\circ \\) mV  
+   - B. \\( U = 20 \angle 120^\circ \\) mV  
+   - C. \\( U = 20 \angle 30^\circ \\) mV  
+   - D. \\( U = 20 \angle -60^\circ \\) mV  
 
 3. **Assume capacitor \\( C = 1 \, \mu \mathrm{F} \\), the voltage across the capacitor is \\( \cos(100 \pi t) \\) mV, then the current flowing through the capacitor is:**  
-   A. \\( i_c(t) = -0.1 \times 10^{-6} \pi \sin(100 \pi t) \\) A  
-   B. \\( i_c(t) = 0.1 \times 10^{-6} \pi \sin(100 \pi t) \\) A  
-   C. \\( i_c(t) = -0.1 \times 10^{-6} \sin(100 \pi t) \\) A  
-   D. \\( i_c(t) = 0.1 \times 10^{-6} \sin(100 \pi t) \\) A  
+   - A. \\( i_c(t) = -0.1 \times 10^{-6} \pi \sin(100 \pi t) \\) A  
+   - B. \\( i_c(t) = 0.1 \times 10^{-6} \pi \sin(100 \pi t) \\) A  
+   - C. \\( i_c(t) = -0.1 \times 10^{-6} \sin(100 \pi t) \\) A  
+   - D. \\( i_c(t) = 0.1 \times 10^{-6} \sin(100 \pi t) \\) A  
 
 4. **The majority carrier in P-type semiconductor is:**  
-   A. Free electrons  
-   B. Holes  
-   C. Trivalent impurity atoms  
-   D. Trivalent impurity ions  
+   - A. Free electrons  
+   - B. Holes  
+   - C. Trivalent impurity atoms  
+   - D. Trivalent impurity ions  
 
 5. **Given the potentials of the three electrodes of a certain crystal triode as shown in the figure (emitter-base-collector voltages indicating NPN silicon transistor characteristics), the type of this transistor is:**  
    *(Figure description: Emitter at 0V, base at 0.7V, collector at 5V – typical forward-biased NPN silicon junction.)*  
-   A. PNP type germanium tube  
-   B. NPN type germanium tube  
-   C. PNP type silicon tube  
-   D. NPN type silicon tube  
+   - A. PNP type germanium tube  
+   - B. NPN type germanium tube  
+   - C. PNP type silicon tube  
+   - D. NPN type silicon tube  
 
 #### Section II: Analysis Question  
 **Question 31 (5 points):** In the circuit shown in Figure 31 (a basic inverting op-amp configuration with input resistor \\( R_i = 10 \, \mathrm{k} \Omega \\), feedback resistor \\( R_f = 20 \, \mathrm{k} \Omega \\), input voltage \\( U_i = 10 \\) V), calculate the output voltage \\( U_o \\).  
