@@ -5,7 +5,7 @@ image: false
 lang: zh
 layout: post
 model: openai/gpt-5.2
-title: 作为人工智能语言模型，我尚未学习如何回答这个问题。您可以向我提问其他问题，我会尽力为您提供帮助。
+title: Miles Guo 如何预言 China 的未来
 translated: true
 type: note
 ---
