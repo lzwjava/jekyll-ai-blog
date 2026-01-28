@@ -4,7 +4,6 @@ CC = xelatex
 EXAMPLES_DIR = latex
 RESUME_EN_DIR = latex/en/resume-en
 RESUME_ZH_DIR = latex/zh/resume-zh
-RESUME_JA_DIR = latex/ja/resume-ja
 COVER_LETTER_DIR = latex/coverletter
 INTRODUCTION_DIR = latex/en
 INTRODUCTION_ZH_DIR = latex/zh
@@ -12,7 +11,6 @@ CV_DIR = latex/en
 CV_ZH_DIR = latex/zh
 RESUME_SRCS = $(shell find $(RESUME_EN_DIR) -name '*.tex')
 RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
-RESUME_JA_SRCS = $(shell find $(RESUME_JA_DIR) -name '*.tex')
 INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex')
 INTRODUCTION_ZH_SRCS = $(shell find $(INTRODUCTION_ZH_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
@@ -33,9 +31,6 @@ resume-zh.pdf: $(RESUME_ZH_DIR)/resume-zh.tex $(RESUME_ZH_SRCS)
 
 resume-zh-dark.pdf: $(RESUME_ZH_DIR)/resume-zh-dark.tex $(RESUME_ZH_SRCS)
 	$(CC) -output-directory=$(RESUME_ZH_DIR) $<
-
-resume-ja.pdf: $(RESUME_JA_DIR)/resume-ja.tex $(RESUME_JA_SRCS)
-	$(CC) -output-directory=$(RESUME_JA_DIR) $<	
 
 coverletter.pdf: $(COVER_LETTER_DIR)/coverletter.tex
 	$(CC) -output-directory=$(COVER_LETTER_DIR) $<
@@ -83,7 +78,6 @@ copy:
 	cp $(RESUME_EN_DIR)/resume-en-dark.pdf assets/resume/Zhiwei.Li.Resume.Dark.pdf
 	cp $(RESUME_ZH_DIR)/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
 	cp $(RESUME_ZH_DIR)/resume-zh-dark.pdf assets/resume/Zhiwei.Li.Resume.ZH.Dark.pdf
-	cp $(RESUME_JA_DIR)/resume-ja.pdf assets/resume/Zhiwei.Li.Resume.JA.pdf
 
 copy-introduction:
 	cp latex/en/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
