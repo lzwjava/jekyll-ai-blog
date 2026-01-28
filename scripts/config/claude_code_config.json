@@ -26,11 +26,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,moonshotai/kimi-k2.5",
-    "background": "openrouter,moonshotai/kimi-k2.5",
-    "think": "openrouter,moonshotai/kimi-k2.5",
-    "longContext": "openrouter,moonshotai/kimi-k2.5",
+    "default": "openrouter,google/gemini-3-flash-preview",
+    "background": "openrouter,google/gemini-3-flash-preview",
+    "think": "openrouter,google/gemini-3-flash-preview",
+    "longContext": "openrouter,google/gemini-3-flash-preview",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,moonshotai/kimi-k2.5"
+    "webSearch": "openrouter,google/gemini-3-flash-preview"
   }
 }

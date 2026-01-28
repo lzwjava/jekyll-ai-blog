@@ -82,10 +82,10 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
             "cmn-CN-Wavenet-B",
             "cmn-CN-Wavenet-C",
             "cmn-CN-Wavenet-D",
-            "cmn-CN-Neural2-A",
-            "cmn-CN-Neural2-B",
-            "cmn-CN-Neural2-C",
-            "cmn-CN-Neural2-D"
+            "cmn-CN-Standard-A",
+            "cmn-CN-Standard-B",
+            "cmn-CN-Standard-C",
+            "cmn-CN-Standard-D"
         ]
         language_code = "cmn-CN"
     voice_name_A = random.choice(voice_options)
