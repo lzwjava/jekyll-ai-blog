@@ -7,24 +7,16 @@
       "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
       "api_key": "",
       "models": [
-        "moonshotai/kimi-k2",
-        "anthropic/claude-sonnet-4",
-        "anthropic/claude-3.5-sonnet",
-        "anthropic/claude-3.7-sonnet:thinking",
-        "anthropic/claude-opus-4",
-        "google/gemini-2.5-flash",
-        "google/gemini-2.5-pro",
-        "deepseek/deepseek-chat-v3.1",
-        "deepseek/deepseek-r1",
-        "mistralai/mistral-medium-3.1",
-        "qwen/qwen3-coder",
-        "openai/gpt-oss-120b",
+        "moonshotai/kimi-k2.5",
+        "anthropic/claude-sonnet-4.5",
+        "anthropic/claude-opus-4.5",
+        "google/gemini-3-flash-preview",
+        "deepseek/deepseek-v3.2",
         "openai/gpt-5",
-        "z-ai/glm-4.6",
+        "z-ai/glm-4.7",
         "x-ai/grok-code-fast-1",
         "x-ai/grok-4.1-fast",
-        "minimax/minimax-m2",
-        "moonshotai/kimi-k2-thinking"
+        "minimax/minimax-m2.1"
       ],
       "transformer": {
         "use": [
@@ -34,11 +26,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,x-ai/grok-4.1-fast",
-    "background": "openrouter,x-ai/grok-4.1-fast",
-    "think": "openrouter,x-ai/grok-4.1-fast",
-    "longContext": "openrouter,x-ai/grok-4.1-fast",
+    "default": "openrouter,moonshotai/kimi-k2.5",
+    "background": "openrouter,moonshotai/kimi-k2.5",
+    "think": "openrouter,moonshotai/kimi-k2.5",
+    "longContext": "openrouter,moonshotai/kimi-k2.5",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,x-ai/grok-4.1-fast"
+    "webSearch": "openrouter,moonshotai/kimi-k2.5"
   }
 }
