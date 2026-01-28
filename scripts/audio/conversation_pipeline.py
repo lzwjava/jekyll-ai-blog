@@ -12,7 +12,7 @@ OUTPUT_DIRECTORY = "/Users/lzwjava/projects/blog-assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 
-def text_to_speech(text, output_filename, voice_name=None, dry_run=False):
+def text_to_speech(text, output_filename, voice_name=None, language_code="en-US", dry_run=False):
     print(f"Generating audio for: {output_filename}")
     if dry_run:
         print(f"Dry run: Skipping audio generation for {output_filename}")
@@ -21,7 +21,7 @@ def text_to_speech(text, output_filename, voice_name=None, dry_run=False):
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
         voice = texttospeech.VoiceSelectionParams(
-            language_code="en-US", name=voice_name
+            language_code=language_code, name=voice_name
         )
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -51,7 +51,7 @@ def text_to_speech(text, output_filename, voice_name=None, dry_run=False):
         return False
 
 
-def process_conversation(filename, seed=None, dry_run=False):
+def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
     if seed is None:
         seed = int(time.time())
     random.seed(seed)
@@ -73,7 +73,21 @@ def process_conversation(filename, seed=None, dry_run=False):
 
     temp_files = []
 
-    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    if lang_type == "en":
+        voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+        language_code = "en-US"
+    else:
+        voice_options = [
+            "cmn-CN-Wavenet-A",
+            "cmn-CN-Wavenet-B",
+            "cmn-CN-Wavenet-C",
+            "cmn-CN-Wavenet-D",
+            "cmn-CN-Neural2-A",
+            "cmn-CN-Neural2-B",
+            "cmn-CN-Neural2-C",
+            "cmn-CN-Neural2-D"
+        ]
+        language_code = "cmn-CN"
     voice_name_A = random.choice(voice_options)
     voice_name_B = random.choice(voice_options)
     while voice_name_A == voice_name_B:
@@ -93,7 +107,7 @@ def process_conversation(filename, seed=None, dry_run=False):
         elif speaker == "B":
             voice_name = voice_name_B
 
-        if not text_to_speech(line, temp_file, voice_name=voice_name, dry_run=dry_run):
+        if not text_to_speech(line, temp_file, voice_name=voice_name, language_code=language_code, dry_run=dry_run):
             print(f"Failed to generate audio for line {idx+1} of {filename}")
             # Clean up temp files
             for temp_file_to_remove in temp_files:
@@ -156,6 +170,7 @@ if __name__ == "__main__":
         help="Perform a dry run without generating audio.",
     )
     parser.add_argument("--file", type=str, help="Specific JSON file to process.")
+    parser.add_argument("--type", type=str, choices=["en", "cn"], default="en", help="Language type for voices (en or cn).")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
@@ -167,7 +182,7 @@ if __name__ == "__main__":
         filenames = [f for f in os.listdir(INPUT_DIRECTORY) if f.endswith(".json")]
     total_conversations = len(filenames)
     for filename in filenames:
-        if process_conversation(filename, args.seed, args.dry_run):
+        if process_conversation(filename, args.seed, args.dry_run, args.type):
             num_conversations += 1
 
     print(
