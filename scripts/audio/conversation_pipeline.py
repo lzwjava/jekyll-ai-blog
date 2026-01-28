@@ -74,14 +74,27 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
     temp_files = []
 
     if lang_type == "en":
-        voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+        voice_options = [
+            "en-US-Chirp3-HD-Charon", 
+            "en-US-Chirp3-HD-Sulafat", 
+            "en-US-Chirp3-HD-Zephyr", 
+            "en-US-Chirp3-HD-Achernar", 
+            "en-US-Chirp3-HD-Aoede",
+            "en-US-Chirp3-HD-Autonoe",
+            "en-US-Chirp3-HD-Callirrhoe",
+            "en-US-Chirp3-HD-Despina",
+        ]
         language_code = "en-US"
     else:
         voice_options = [
-            "cmn-CN-Wavenet-A",
-            "cmn-CN-Wavenet-B",
-            "cmn-CN-Wavenet-C",
-            "cmn-CN-Wavenet-D"
+            "cmn-CN-Chirp3-HD-Charon",
+            "cmn-CN-Chirp3-HD-Sulafat",
+            "cmn-CN-Chirp3-HD-Zephyr",
+            "cmn-CN-Chirp3-HD-Achernar",
+            "cmn-CN-Chirp3-HD-Aoede",
+            "cmn-CN-Chirp3-HD-Autonoe",
+            "cmn-CN-Chirp3-HD-Callirrhoe",
+            "cmn-CN-Chirp3-HD-Despina",            
         ]
         language_code = "cmn-CN"
     voice_name_A = random.choice(voice_options)
