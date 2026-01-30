@@ -28,7 +28,7 @@ def text_to_speech(text, output_filename, voice_name=None, language_code="en-US"
             effects_profile_id=["small-bluetooth-speaker-class-device"],
         )
 
-        retries = 10
+        retries = 8
         for attempt in range(1, retries + 1):
             try:
                 response = client.synthesize_speech(
