@@ -19,7 +19,9 @@ Compose a dynamic and in-depth dialogue between two experts, A and B, on a speci
 - Focus on the practical aspects and mechanisms of the topic, rather than relying on formulas.
 
 
-Ensure the dialogue flows naturally, with a balanced exchange of ideas and perspectives.
+Ensure the dialogue flows naturally, with a balanced exchange of ideas and perspectives. 
+
+One line at most three sentences and 100 Chinese characters because we need to use Chirp 3 HD to do text-to-speech.
 
 The format should be as follows:
 
