@@ -46,5 +46,3 @@ type: post
 - Bad engineers often reveal themselves in their mid-30s or 40s. They spend most of their career playing games, doing just one hour of real work—or even less—when needed in a working day.
 
 - They are tempted to remain quiet because there isn't much progress to report, and they don't want it to be found out.
-
-- I don't inherently hate bad engineers. You can do whatever you want as long as you don't hurt others. From others' points of view, and early in my career, other senior engineers might have regarded me as a bad engineer too. What I can't tolerate is lying or deceiving. This is bad.
