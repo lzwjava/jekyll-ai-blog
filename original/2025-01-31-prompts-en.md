@@ -13,6 +13,10 @@ Translate the following posts or words into Chinese, ensuring that names (e.g., 
 
 ---
 
+Use english intro to below. And analyze frequent exam questions in its course  04729 University Chinese self-study exam.
+
+---
+
 Compose a dynamic and in-depth dialogue between two experts, A and B, on a specialized topic. The conversation should be engaging and detailed, with both participants actively contributing. They should:
 
 - Discuss these exam questions.
