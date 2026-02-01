@@ -5,7 +5,7 @@ image: false
 lang: en
 layout: post
 model: anthropic/claude-4.5-sonnet
-title: 计算机专升本对接指南
+title: Computer Science Associate to Bachelor's Degree Transfer Guide
 translated: false
 type: note
 ---
