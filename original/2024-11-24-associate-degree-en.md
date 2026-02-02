@@ -201,3 +201,5 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13005 | Software Engineering |
 | 00023 | Advanced Mathematics (Engineering) |
 | 13011 | Artificial Intelligence and Big Data |
+| 02324 | Discrete Mathematics |
+| 13015 | Computer Principles |
