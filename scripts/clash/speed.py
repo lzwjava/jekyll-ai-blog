@@ -12,7 +12,7 @@ CLASH_CONTROLLER_HOST = (
 CLASH_CONTROLLER_PORT = 9090
 CLASH_API_BASE_URL = f"http://{CLASH_CONTROLLER_HOST}:{CLASH_CONTROLLER_PORT}"
 LATENCY_TEST_URL = "https://grok.com"  # Updated test URL
-LATENCY_TEST_TIMEOUT_MS = 1500  # Milliseconds
+LATENCY_TEST_TIMEOUT_MS = 2000  # Milliseconds
 CONCURRENT_CONNECTIONS = 5  # Number of concurrent tests
 
 # List of known group proxy names to exclude from speed testing
