@@ -190,3 +190,8 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13167       | Web Design and Production                                                   |
 | 14567       | Mobile Application Development Technology                                   |
 | 04729       | College Chinese                                                             |
+
+---
+
+Bachelor degree exam
+
