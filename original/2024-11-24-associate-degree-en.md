@@ -193,5 +193,11 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 
 ---
 
-Bachelor degree exam
+## Bachelor degree exam
 
+| Course Code | Course Name|
+|----------|---------|
+| 13180 | Operating Systems |
+| 13005 | Software Engineering |
+| 00023 | Advanced Mathematics (Engineering) |
+| 13011 | Artificial Intelligence and Big Data |
