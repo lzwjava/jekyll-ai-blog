@@ -241,7 +241,7 @@ def main():
                 name_filter = ["SG", "TW"]
                 filter_desc = "SG/TW"
             else:
-                name_filter = ["新加坡", "台湾", "日本", "美国", "香港", "印度", "越南", "加拿大"]
+                name_filter = ["新加坡", "台湾", "日本", "美国", "印度", "越南", "加拿大"]
                 filter_desc = "SG/TW/JP/US"
 
             logging.info("Testing proxy speeds to find the best one...")
