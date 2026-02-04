@@ -26,34 +26,6 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
-## Pending Courses
-
-The following courses (one or more) may still need to be passed:
-
-### Practical
-
-| # | Course Code | Course Name |
-| :--- | :--- | :--- |
-| 1 | 13808 | Computer Fundamentals and Application Technology |
-| 2 | 13794 | Fundamentals of Computer Programming |
-| 3 | 13171 | Database and Its Applications |
-| 4 | 13168 | Web Design and Production |
-| 5 | 14568 | Mobile Application Development Technology |
-
-### Written
-
-| # | Course Code | Course Name |
-| :--- | :--- | :--- |
-| 1 | 13793 | Fundamentals of Computer Programming |
-| 2 | 02141 | Computer Network Technology |
-| 3 | 04729 | College Chinese |
-| 4 | 13833 | Switching and Routing Technologies |
-| 5 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
-| 6 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
-
-
----
-
 ## 2026 Jan Plan
 
 | Course Code | Course Name                          |
@@ -263,3 +235,30 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13182 | Data Structures | Medium | 1 | Substituted | - |
 | 13181 | Data Structures | 75 | 3 | Substituted | - |
 | 13807 | Computer Fundamentals and Application Technology | 73 | 3 | Substituted | - |
+
+---
+
+## Pending Courses
+
+The following courses (one or more) may still need to be passed:
+
+### Practical
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13808 | Computer Fundamentals and Application Technology |
+| 2 | 13794 | Fundamentals of Computer Programming |
+| 3 | 13171 | Database and Its Applications |
+| 4 | 13168 | Web Design and Production |
+| 5 | 14568 | Mobile Application Development Technology |
+
+### Written
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13793 | Fundamentals of Computer Programming |
+| 2 | 02141 | Computer Network Technology |
+| 3 | 04729 | College Chinese |
+| 4 | 13833 | Switching and Routing Technologies |
+| 5 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 6 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
