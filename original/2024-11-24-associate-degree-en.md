@@ -26,6 +26,36 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
+### Course Replacements
+
+| Old Plan Course | New Plan Course |
+| :--- | :--- |
+| 02142 Introduction to Data Structures (Score: 75) | 13182 Data Structures + 13181 Introduction to Data Structures |
+| 00012 English (I) (Score: 80) | 13124 English (Specialist) |
+| 02316 Computer Application Technology (Score: 73) | 13807 Computer Fundamentals and Application Technology |
+| 02120 Database and Its Applications (Score: 68) | 13170 Database and Its Applications |
+
+---
+
+## Pending Courses
+
+The following courses (one or more) may still need to be passed:
+
+1.  **13808** Computer Fundamentals and Application Technology
+2.  **13793** Fundamentals of Computer Programming
+3.  **13794** Fundamentals of Computer Programming
+4.  **13171** Database and Its Applications
+5.  **02141** Computer Network Technology
+6.  **04729** College Chinese
+7.  **13833** Switching and Routing Technologies
+8.  **13168** Web Design and Production
+9.  **14568** Mobile Application Development Technology
+10. **15040** An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era
+11. **15041** Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics    
+
+
+---
+
 ## 2026 Jan Plan
 
 | Course Code | Course Name                          |
@@ -53,6 +83,7 @@ Professional Code: 510201 (Old Code: 610201)
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 13794       | Fundamentals of Computer Programming             |
+| 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
 
 ---
