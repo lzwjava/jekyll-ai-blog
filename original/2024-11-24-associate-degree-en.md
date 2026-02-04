@@ -41,17 +41,26 @@ Professional Code: 510201 (Old Code: 610201)
 
 The following courses (one or more) may still need to be passed:
 
-1.  **13808** Computer Fundamentals and Application Technology
-2.  **13793** Fundamentals of Computer Programming
-3.  **13794** Fundamentals of Computer Programming
-4.  **13171** Database and Its Applications
-5.  **02141** Computer Network Technology
-6.  **04729** College Chinese
-7.  **13833** Switching and Routing Technologies
-8.  **13168** Web Design and Production
-9.  **14568** Mobile Application Development Technology
-10. **15040** An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era
-11. **15041** Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics    
+### Practical
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13808 | Computer Fundamentals and Application Technology |
+| 2 | 13794 | Fundamentals of Computer Programming |
+| 3 | 13171 | Database and Its Applications |
+| 4 | 13168 | Web Design and Production |
+| 5 | 14568 | Mobile Application Development Technology |
+
+### Written
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13793 | Fundamentals of Computer Programming |
+| 2 | 02141 | Computer Network Technology |
+| 3 | 04729 | College Chinese |
+| 4 | 13833 | Switching and Routing Technologies |
+| 5 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 6 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 
 
 ---
