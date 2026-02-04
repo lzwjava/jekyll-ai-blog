@@ -60,7 +60,6 @@ Professional Code: 510201 (Old Code: 610201)
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 02141 | Computer Network Technology |
-| 04729 | College Chinese |
 | 13833 | Switching and Routing Technologies |
 
 
