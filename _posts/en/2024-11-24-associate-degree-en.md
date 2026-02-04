@@ -55,6 +55,14 @@ Professional Code: 510201 (Old Code: 610201)
 | 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 04729       | College Chinese              |
 
+## 2016 October Plan (Written)
+
+| Course Code | Course Name                                      |
+|-------------|--------------------------------------------------|
+| 02141 | Computer Network Technology |
+| 13833 | Switching and Routing Technologies |
+
+
 ---
 
 In the practical exam review comments, I was informed that course 13182, Data Structures, can be replaced with my previous course score, so I do not need to take it again.
