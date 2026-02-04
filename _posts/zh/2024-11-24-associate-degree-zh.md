@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-更新于 2025 年 11 月。
+更新于 2026 年 2 月。
 
 ---
 
@@ -17,13 +17,13 @@ type: post
 
 Guangdong University of Foreign Studies，Computer Application，Associate Degree，2022.10 - 至今
 
-- 国家高等教育自学考试。截至今日已通过 10 门课程：Operating Systems 导论、Data Structures 导论、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
-- 目前正在准备 7 门笔试：Switching and Routing Technologies、Introduction to Programming—Java、Web Design and Production、Mobile Application Development Technology、毛泽东思想和中国特色社会主义理论体系概论、大学语文、习近平新时代中国特色社会主义思想概论。
+- 全国高等教育自学考试。截至今日已通过 13 门课程：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law、Computer Organization and Architecture、Introduction to Programming—Java、Mobile Application Development Technology 以及 Web Design and Production。
+- 目前正在准备 4 门笔试：Switching and Routing Technologies、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、College Chinese、An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era。
 - 目前正在准备 4 门实践考核：Fundamentals of Computer Programming、Computer Fundamentals and Application Technology、Database and Its Applications、Web Design and Production、Mobile Application Development Technology。
 
 ---
 
-专业代码：510201 (旧代码：610201)
+专业代码：510201（旧代码：610201）
 
 ---
 
@@ -53,7 +53,6 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 13794       | Fundamentals of Computer Programming             |
-| 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
 
 ---
@@ -68,17 +67,20 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-在实践考试复核意见中，我被告知 13182 Data Structures 课程可以用我之前的课程成绩替代，因此无需重新参加。
+在实践课评审意见中，我被告知 13182 Data Structures 课程可以用我之前的课程成绩替代，因此我不需要再次参加考核。
 
 ---
 
-我对自己的进度感到不满意。进展很慢。原因是直到现在我才主要准备了一年。
+我对自己的进度感到不满意，进度太慢了。原因是直到现在我才真正准备了一年。
 
 ## Passed courses
 
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
-| 03706      | 思想道德修养与法律基础 | 202510    | Exam        | 69    | 3       |
+| 08553      | Introduction to Programming—Java                | 202601    | Exam        | 88    | 4       |
+| 14567      | Mobile Application Development Technology        | 202601    | Exam        | 60    | 5       |
+| 13167      | Web Design and Production                        | 202601    | Exam        | 71    | 5       |
+| 03706      | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       |
 | 00040      | Introduction to Law                              | 202504    | Exam        | 60    | 3       |
 | 02318      | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       |
 | 02323      | Operating Systems Fundamentals                   | 202304    | Exam        | 67    | 4       |
@@ -93,7 +95,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 | Course Code | New Code | Course Name                                      |
 |-------------|----------|--------------------------------------------------|
-| 03706      | 15042    | 思想道德修养与法律基础 |
+| 03706      | 15042    | Ideological and Moral Cultivation and Rule of Law |
 | 00040      | 00341    | Introduction to Law                              |
 | 02318      | 02318    | Computer Organization and Architecture           |
 | 02323      | 02323    | Operating Systems Fundamentals                   |
@@ -106,7 +108,7 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 
 ---
 
-对于实践课程 13182 (Introduction to Data Structures)，如复核意见所示，我不需要参加考试。由于这是一门综合课程，我已经用那一门课程替代了这两门课程。
+对于实践课程 13182 (Introduction to Data Structures)，正如评审意见指出的，我不需要参加。由于这是一门组合课程，我之前的一门课程分数已经抵免了两门课程。
 
 ---
 
@@ -137,43 +139,38 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | Linear Algebra | 54 |
 | Computer Organization Principles  | 66 |
 
-## Reasons for passing courses
+## 通过课程的原因
+* 考前已有良好的基础，如 Introduction to Data Structures 和 English
+* 在过去一年里准备充分，如 Advanced Mathematics 和 Database Applications
+* 对于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是即兴发挥的。
+* 对于 **Computer Organization Principles**，我有相关的背景知识，并多次练习了往年真题。
 
-* 考前已有良好基础，如 Introduction to Data Structures 和 English
-* 在过去一年中准备充分，如 Advanced Mathematics 和 Database Applications
-* 关于 **Introduction to Law**，我回答了几乎所有问题——即使有些答案是即兴发挥的。
-* 关于 **Computer Organization Principles**，我有相关的背景知识，并且多次练习了历年真题。
+## 课程未通过的原因
+* 以为已经准备好了，但实际上并没有。未通过科目的练习量明显少于通过的科目。
+* 准备时间不足
+* 只是走马观花地看视频，假装理解了。
 
-## Reasons for failed courses
-
-* 以为自己已经准备好了，但实际上并没有。不及格科目的练习量明显少于及格科目。
-* 没有给予足够的准备时间
-* 只是粗略地看了视频课程，假装自己听懂了。
-
-## Reasons for Selected Failed Courses
+## 部分未通过课程的具体原因
 
 ### Computer Networks
-
-- 缺乏考试题型的练习
-- 缺乏 Computer Network 理论的基础知识
+- 缺乏对考试题型的练习
+- 缺少 Computer Network 理论的基础知识
 
 ### Linear Algebra
-
 - 对矩阵运算和规则不够熟悉
-- 高估了对该学科的理解
-- 缺乏动手练习；完全依赖视频讲座
+- 高估了对该科目的理解
+- 缺乏动手练习；完全依赖视频课程
 
-## Exam preparation
-
-* 保证充足睡眠，保持良好的睡眠作息
-* 上午和下午的考试地点可能不同，务必检查正确的地点
+## 备考注意事项
+* 保证充足睡眠，保持良好的作息习惯
+* 上下午的考试地点可能不同，检查正确的考试地点
 * 准时报名参加考试
 
 ---
 
 ## 2026 Program Change and Required Courses
 
-2026 年，610201 方案将被 510201 方案取代。我需要准备以下课程：
+2026 年，610201 项目将由 510201 项目取代。我需要准备以下课程：
 
 ### Replaceable Courses
 
@@ -189,9 +186,6 @@ Guangdong University of Foreign Studies，Computer Application，Associate Degre
 | 15040       | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
 | 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 02141       | Computer Network Technology                                                 |
-| 08553       | Introduction to Programming—Java                                           |
-| 13167       | Web Design and Production                                                   |
-| 14567       | Mobile Application Development Technology                                   |
 | 04729       | College Chinese                                                             |
 
 ---
