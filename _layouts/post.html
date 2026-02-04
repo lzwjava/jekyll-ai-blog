@@ -125,7 +125,7 @@ layout: default
 
 
     {% if page.model %}
-      <p class="model">{{ page.model }}</p>
+      <p class="model">{{ page.model | split: "/" | last }}</p>
     {% endif %}
 
     {% assign donate_url = "/donate-en" %}
