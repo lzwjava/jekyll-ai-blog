@@ -17,8 +17,8 @@ Below is my assoiciate progress.
 Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
 - National Higher Education Self-study Examination. Passed 13 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law, Computer Organization and Architecture, Introduction to Programming—Java, Mobile Application Development Technology and Web Design and Production.
-- Currently preparing for 4 written exams such as Switching and Routing Technologies, Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
-- Currently preparing for 4 practial exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, Database and Its Applications, Web Design and Production, Mobile Application Development Technology.
+- Currently preparing for 5 written exams such as Computer Network Technology, Switching and Routing Technologies, Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
+- Currently preparing for 5 practial exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, Database and Its Applications, Web Design and Production, Mobile Application Development Technology.
 
 ---
 
@@ -35,17 +35,6 @@ Professional Code: 510201 (Old Code: 610201)
 | 08553       | Introduction to Programming—Java     |
 | 14567       | Mobile Application Development Technology |
 
-
----
-
-| Course Code | Course Name                                      |
-|-------------|--------------------------------------------------|
-| 13182       | Data Structures                                  |
-| 13794       | Fundamentals of Computer Programming             |
-| 13808       | Computer Fundamentals and Application Technology |
-| 14568       | Mobile Application Development Technology        |
-| 13168       | Web Design and Production                        |
-
 ---
 
 ## 2026 April Plan (Practical)
@@ -53,6 +42,7 @@ Professional Code: 510201 (Old Code: 610201)
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 13794       | Fundamentals of Computer Programming             |
+| 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
 
 ---
@@ -202,3 +192,62 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13011 | Artificial Intelligence and Big Data |
 | 02324 | Discrete Mathematics |
 | 13015 | Computer Principles |
+
+---
+
+### Course Replacements
+
+| Old Plan Course | New Plan Course |
+| :--- | :--- |
+| 02142 Introduction to Data Structures (Score: 75) | 13182 Data Structures + 13181 Introduction to Data Structures |
+| 00012 English (I) (Score: 80) | 13124 English (Specialist) |
+| 02316 Computer Application Technology (Score: 73) | 13807 Computer Fundamentals and Application Technology |
+| 02120 Database and Its Applications (Score: 68) | 13170 Database and Its Applications |
+
+---
+
+## Detailed Exam Results
+
+| Course Code | Course Name | Score | Credits | Status | Pass Date |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 00022 | Advanced Mathematics (Engineering) | 77 | 7 | Valid | 202404 |
+| 00040 | Introduction to Law | 60 | 6 | Valid | 202504 |
+| 00342 | Advanced Programming Language (I) | 75 | 3 | Valid | 202210 |
+| 02318 | Computer Organization and Architecture | 66 | 4 | Valid | 202504 |
+| 02323 | Operating Systems Fundamentals | 67 | 4 | Valid | 202304 |
+| 08553 | Introduction to Programming—Java | 88 | 6 | Valid | 202601 |
+| 13167 | Web Design and Production | 71 | 4 | Valid | 202601 |
+| 14567 | Mobile Application Development Technology | 60 | 4 | Valid | 202601 |
+| 15042 | Ideological and Moral Cultivation and Rule of Law | 69 | 3 | Valid | 202510 |
+| 13124 | English (Specialist) | 80 | 7 | Substituted | - |
+| 13170 | Database and Its Applications | 68 | 4 | Substituted | - |
+| 13182 | Data Structures | Medium | 1 | Substituted | - |
+| 13181 | Data Structures | 75 | 3 | Substituted | - |
+| 13807 | Computer Fundamentals and Application Technology | 73 | 3 | Substituted | - |
+
+---
+
+## Pending Courses
+
+The following courses (one or more) may still need to be passed:
+
+### Practical
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13808 | Computer Fundamentals and Application Technology |
+| 2 | 13794 | Fundamentals of Computer Programming |
+| 3 | 13171 | Database and Its Applications |
+| 4 | 13168 | Web Design and Production |
+| 5 | 14568 | Mobile Application Development Technology |
+
+### Written
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13793 | Fundamentals of Computer Programming |
+| 2 | 02141 | Computer Network Technology |
+| 3 | 04729 | College Chinese |
+| 4 | 13833 | Switching and Routing Technologies |
+| 5 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 6 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
