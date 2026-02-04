@@ -26,17 +26,6 @@ Professional Code: 510201 (Old Code: 610201)
 
 ---
 
-### Course Replacements
-
-| Old Plan Course | New Plan Course |
-| :--- | :--- |
-| 02142 Introduction to Data Structures (Score: 75) | 13182 Data Structures + 13181 Introduction to Data Structures |
-| 00012 English (I) (Score: 80) | 13124 English (Specialist) |
-| 02316 Computer Application Technology (Score: 73) | 13807 Computer Fundamentals and Application Technology |
-| 02120 Database and Its Applications (Score: 68) | 13170 Database and Its Applications |
-
----
-
 ## Pending Courses
 
 The following courses (one or more) may still need to be passed:
@@ -242,3 +231,35 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13011 | Artificial Intelligence and Big Data |
 | 02324 | Discrete Mathematics |
 | 13015 | Computer Principles |
+
+---
+
+### Course Replacements
+
+| Old Plan Course | New Plan Course |
+| :--- | :--- |
+| 02142 Introduction to Data Structures (Score: 75) | 13182 Data Structures + 13181 Introduction to Data Structures |
+| 00012 English (I) (Score: 80) | 13124 English (Specialist) |
+| 02316 Computer Application Technology (Score: 73) | 13807 Computer Fundamentals and Application Technology |
+| 02120 Database and Its Applications (Score: 68) | 13170 Database and Its Applications |
+
+---
+
+## Detailed Exam Results
+
+| Course Code | Course Name | Score | Credits | Status | Pass Date |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 00022 | Advanced Mathematics (Engineering) | 77 | 7 | Valid | 202404 |
+| 00040 | Introduction to Law | 60 | 6 | Valid | 202504 |
+| 00342 | Advanced Programming Language (I) | 75 | 3 | Valid | 202210 |
+| 02318 | Computer Organization and Architecture | 66 | 4 | Valid | 202504 |
+| 02323 | Operating Systems Fundamentals | 67 | 4 | Valid | 202304 |
+| 08553 | Introduction to Programming—Java | 88 | 6 | Valid | 202601 |
+| 13167 | Web Design and Production | 71 | 4 | Valid | 202601 |
+| 14567 | Mobile Application Development Technology | 60 | 4 | Valid | 202601 |
+| 15042 | Ideological and Moral Cultivation and Rule of Law | 69 | 3 | Valid | 202510 |
+| 13124 | English (Specialist) | 80 | 7 | Substituted | - |
+| 13170 | Database and Its Applications | 68 | 4 | Substituted | - |
+| 13182 | Data Structures | Medium | 1 | Substituted | - |
+| 13181 | Data Structures | 75 | 3 | Substituted | - |
+| 13807 | Computer Fundamentals and Application Technology | 73 | 3 | Substituted | - |
