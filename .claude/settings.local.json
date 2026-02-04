@@ -32,7 +32,8 @@
       "Bash(pip show:*)",
       "Bash(brew list:*)",
       "Bash(gcloud ml speech voices list:*)",
-      "WebFetch(domain:docs.cloud.google.com)"
+      "WebFetch(domain:docs.cloud.google.com)",
+      "WebFetch(domain:www.eeagd.edu.cn)"
     ],
     "deny": [],
     "ask": [],

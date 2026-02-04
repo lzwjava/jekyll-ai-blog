@@ -8,7 +8,7 @@ title: 'Associate Degree: Progress and Reflection'
 type: post
 ---
 
-Updated in November 2025.
+Updated in February 2026.
 
 ---
 
@@ -16,8 +16,8 @@ Below is my assoiciate progress.
 
 Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
-- National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
-- Currently preparing for 7 written exams such as Switching and Routing Technologies, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
+- National Higher Education Self-study Examination. Passed 13 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law, Computer Organization and Architecture, Introduction to Programming—Java, Mobile Application Development Technology and Web Design and Production.
+- Currently preparing for 4 written exams such as Switching and Routing Technologies, Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
 - Currently preparing for 4 practial exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, Database and Its Applications, Web Design and Production, Mobile Application Development Technology.
 
 ---
@@ -53,7 +53,6 @@ Professional Code: 510201 (Old Code: 610201)
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 13794       | Fundamentals of Computer Programming             |
-| 13808       | Computer Fundamentals and Application Technology |
 | 13171       | Database and Its Applications                    |
 
 ---
@@ -79,6 +78,9 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
+| 08553      | Introduction to Programming—Java                | 202601    | Exam        | 88    | 4       |
+| 14567      | Mobile Application Development Technology        | 202601    | Exam        | 60    | 5       |
+| 13167      | Web Design and Production                        | 202601    | Exam        | 71    | 5       |
 | 03706      | Ideological and Moral Cultivation and Rule of Law | 202510    | Exam        | 69    | 3       |
 | 00040      | Introduction to Law                              | 202504    | Exam        | 60    | 3       |
 | 02318      | Computer Organization and Architecture           | 202504    | Exam        | 66    | 4       |
@@ -186,9 +188,6 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 15040       | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
 | 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 02141       | Computer Network Technology                                                 |
-| 08553       | Introduction to Programming—Java                                           |
-| 13167       | Web Design and Production                                                   |
-| 14567       | Mobile Application Development Technology                                   |
 | 04729       | College Chinese                                                             |
 
 ---
