@@ -20,6 +20,9 @@ CV_ZH_SRCS = $(shell find $(CV_ZH_DIR) -name '*.tex')
 # Existing latex target
 latex: $(foreach x, coverletter coverletter-zh resume-zh resume, $x.pdf)
 
+resume: $(foreach x, resume-zh resume-zh-dark resume-en resume-en-dark, $x.pdf)
+
+
 resume-en.pdf: $(RESUME_EN_DIR)/resume-en.tex $(RESUME_SRCS)
 	$(CC) -output-directory=$(RESUME_EN_DIR) $<
 
