@@ -34,3 +34,11 @@ image: false
 | 13009 | Database Principles and Applications | 4 | Written |
 | 13011 | Artificial Intelligence and Big Data | 6 | Written |
 | 11689 | Graduation Thesis | 0 (required) | Thesis |
+
+
+### April 2026
+
+| Course Code | Course Name  |
+|-------------|-----------------------|
+| 13000 | English (Professional) | 
+
