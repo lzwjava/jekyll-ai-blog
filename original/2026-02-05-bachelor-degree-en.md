@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Bachelor Degree
+title: Bachelor Degree Progres
 translated: false
 generated: false
 image: false
