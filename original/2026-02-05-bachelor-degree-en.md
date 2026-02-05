@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: false
+image: false
 lang: en
 layout: post
 title: Bachelor Degree Progres
 translated: false
-generated: false
-image: false
 ---
 
 ## **Complete Course List (New Plan - 2026+)**

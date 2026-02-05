@@ -21,12 +21,12 @@ def create_md(name, lang="en"):
     # Front matter
     front_matter = f"""---
 audio: false
+generated: false
+image: false
 lang: {lang}
 layout: post
 title: {name}
 translated: false
-generated: false
-image: false
 ---"""
 
     # Create the markdown file
@@ -51,12 +51,12 @@ def create_note(name, lang="en"):
 
     # Note front matter (simplified version, adjust as needed)
     note_front_matter = f"""---
-title: {name}
+audio: false
+generated: true
 lang: {lang}
 layout: post
-audio: false
+title: {name}
 translated: false
-generated: true
 ---"""
 
     # Create the note markdown file
@@ -82,12 +82,12 @@ def create_original(name, lang="en"):
     # Front matter (same as create_md)
     front_matter = f"""---
 audio: false
+generated: false
+image: false
 lang: {lang}
 layout: post
 title: {name}
 translated: false
-generated: false
-image: false
 ---"""
 
     # Create the markdown file
