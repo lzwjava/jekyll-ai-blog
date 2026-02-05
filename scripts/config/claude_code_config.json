@@ -26,11 +26,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,google/gemini-3-flash-preview",
-    "background": "openrouter,google/gemini-3-flash-preview",
-    "think": "openrouter,google/gemini-3-flash-preview",
-    "longContext": "openrouter,google/gemini-3-flash-preview",
+    "default": "openrouter,x-ai/grok-4.1-fast",
+    "background": "openrouter,x-ai/grok-4.1-fast",
+    "think": "openrouter,x-ai/grok-4.1-fast",
+    "longContext": "openrouter,x-ai/grok-4.1-fast",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,google/gemini-3-flash-preview"
+    "webSearch": "openrouter,x-ai/grok-4.1-fast"
   }
 }
