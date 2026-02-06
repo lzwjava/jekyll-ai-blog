@@ -1,19 +1,29 @@
-[projects."/home/lzw/projects/lzwjava.github.io"]
-trust_level = "trusted"
+model = "x-ai/grok-code-fast-1"
+model_provider = "openrouter"              
 
-[projects."/home/lzw/projects/blog-source"]
-trust_level = "trusted"
-
-[default_profile]
-name = "openrouter-gpt"
-
-# Define the OpenRouter provider
 [model_providers.openrouter]
 name = "OpenRouter"
 base_url = "https://openrouter.ai/api/v1"
-env_key = "OPENROUTER_API_KEY"  # Reads from your env var for auth
+env_key = "OPENROUTER_API_KEY"             
 
-# Define a profile using this provider (example: using a GPT-like model)
-[profiles.openrouter-gpt]
-model_provider = "openrouter"
-model = "x-ai/grok-code-fast-1"
+
+personality = "pragmatic"
+[projects."/Users/lzwjava/projects/lzwjava.github.io"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/interviews"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/playground-server"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/LibreChat"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/blog-source"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+gpt-5-codex = "gpt-5.2-codex"
+
+
