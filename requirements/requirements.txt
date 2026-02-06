@@ -14,3 +14,4 @@ pydo
 supabase
 cffi
 langid
+tomlkit
