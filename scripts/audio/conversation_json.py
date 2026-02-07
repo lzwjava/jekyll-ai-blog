@@ -4,6 +4,11 @@ import os
 import sys
 from typing import Any, List
 
+try:
+    import pyperclip
+except ImportError:  # pragma: no cover - optional dependency
+    pyperclip = None
+
 
 DEFAULT_OUTPUT_DIRECTORY = os.path.join("scripts", "conversation")
 
@@ -18,6 +23,26 @@ def read_conversation_input() -> str:
             break
         if line.strip().lower() == "q":
             break
+        if line == "":
+            clipboard_content = ""
+            if pyperclip is not None:
+                try:
+                    clipboard_content = pyperclip.paste()
+                except Exception:
+                    clipboard_content = ""
+            if clipboard_content.strip():
+                try:
+                    json.loads(clipboard_content)
+                    lines.append(clipboard_content.strip())
+                    print(
+                        "Read from pasteboard. Please keep coping , enter 'q' on a new line to finish."
+                    )
+                    continue
+                except json.JSONDecodeError:
+                    print(
+                        "Clipboard is not valid JSON. Please keep pasting, enter 'q' on a new line to finish."
+                    )
+                    continue
         lines.append(line)
         print("Please keep pasting, enter 'q' on a new line to finish.")
     return "\n".join(lines).strip()
