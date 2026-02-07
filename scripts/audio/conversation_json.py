@@ -62,6 +62,33 @@ def validate_conversation(data: Any) -> None:
             raise ValueError(f"Item {index} must include 'speaker' and 'line'.")
 
 
+def load_combined_conversation(text: str) -> List[Any]:
+    """Parse one or more JSON arrays and return a single combined list."""
+    decoder = json.JSONDecoder()
+    idx = 0
+    length = len(text)
+    combined: List[Any] = []
+
+    while idx < length:
+        while idx < length and text[idx].isspace():
+            idx += 1
+        if idx >= length:
+            break
+        try:
+            value, offset = decoder.raw_decode(text[idx:])
+        except json.JSONDecodeError as exc:
+            raise ValueError(f"Invalid JSON chunk starting at character {idx + 1}: {exc}")
+        if not isinstance(value, list):
+            raise ValueError("Every pasted JSON chunk must be a list of lines.")
+        combined.extend(value)
+        idx += offset
+
+    if not combined:
+        raise ValueError("No conversation items found in the provided input.")
+
+    return combined
+
+
 def resolve_output_path(filename: str) -> str:
     filename = ensure_json_extension(filename)
     if os.path.dirname(filename):
@@ -91,7 +118,7 @@ def main() -> int:
         return 1
 
     try:
-        conversation = json.loads(raw_input)
+        conversation = load_combined_conversation(raw_input)
         validate_conversation(conversation)
     except Exception as exc:
         print(f"Invalid conversation JSON: {exc}", file=sys.stderr)
