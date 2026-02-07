@@ -55,7 +55,7 @@ Professional Code: 510201 (Old Code: 610201)
 | 02141       | Computer Network Technology |
 | 04729       | College Chinese              |
 
-## 2016 October Plan (Written)
+## 2026 October Plan (Written)
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
