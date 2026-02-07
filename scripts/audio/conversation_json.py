@@ -19,6 +19,7 @@ def read_conversation_input() -> str:
         if line.strip().lower() == "q":
             break
         lines.append(line)
+        print("Please keep pasting, enter 'q' on a new line to finish.")
     return "\n".join(lines).strip()
 
 
