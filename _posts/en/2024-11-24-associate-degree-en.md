@@ -52,14 +52,14 @@ Professional Code: 510201 (Old Code: 610201)
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
 | 15040       | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
-| 15041       | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 02141       | Computer Network Technology |
 | 04729       | College Chinese              |
 
-## 2016 October Plan (Written)
+## 2026 October Plan (Written)
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
-| 02141 | Computer Network Technology |
+| 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 13833 | Switching and Routing Technologies |
 
 
