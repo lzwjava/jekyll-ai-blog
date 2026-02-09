@@ -18,7 +18,7 @@ MODEL_MAPPING = {
     "deepseek": "deepseek/deepseek-v3.2",
     "mistral": "mistralai/mistral-medium-3.1",
     "qwen":"qwen/qwen3-coder",
-    "gpt": "openai/gpt-5.2",
+    "gpt": "openai/gpt-5.2-chat",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
     "glm": "z-ai/glm-4.7",
