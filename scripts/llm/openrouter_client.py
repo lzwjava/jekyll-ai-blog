@@ -10,8 +10,8 @@ if not OPENROUTER_API_KEY:
 
 MODEL_MAPPING = {
     "claude-opus": "anthropic/claude-opus-4.6",
-    "claude-sonnet": "anthropic/claude-4.5-sonnet",
-    "claude-haiku": "anthropic/claude-4.5-haiku",
+    "claude-sonnet": "anthropic/claude-sonnet-4.5",
+    "claude-haiku": "anthropic/claude-haiku-4.5",
     "gemini-flash": "google/gemini-3-flash-preview",
     "gemini-pro": "google/gemini-3-pro-preview",
     "kimi": "moonshotai/kimi-k2.5",
