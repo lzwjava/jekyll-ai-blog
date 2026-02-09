@@ -1,0 +1,13 @@
+[Unit]
+Description=qBittorrent-nox service
+After=network.target nss-lookup.target
+
+[Service]
+Type=simple
+User=lzw
+Group=lzw
+ExecStart=/usr/bin/qbittorrent-nox --webui-port=8080 --webui-address=0.0.0.0 --daemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
