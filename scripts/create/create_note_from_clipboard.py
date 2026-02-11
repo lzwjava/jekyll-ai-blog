@@ -43,13 +43,20 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
         )
         full_title = generate_title(content, 6, full_title_prompt)
         
-        short_title_prompt = f"Generate a concise title for file naming (max 3 words, lowercase, letters/numbers/hyphens only, no spaces or special characters, no single quotes or underscores, use hyphens to join words) based on this title: {full_title}. Respond with just the title:"
+        short_title_prompt = f"Generate a concise title for file naming (max 4 words, lowercase letters/numbers/hyphens only, no spaces/special chars/single quotes/underscores, use hyphens to join words) based on this title: {full_title}. Respond with just the title:"
         
         short_title = generate_short_title(short_title_prompt).lower()
         
-        # Check if short_title contains underscore
-        if '_' in short_title:
-            raise ValueError("Short title contains underscore. Please try again with a different title.")
+        # Validate short_title: only lowercase a-z0-9 and -, <=45 chars total, <=4 words each <=15 chars
+        short_title = short_title.lower().strip('-')
+        short_title = re.sub(r'[^a-z0-9-]', '', short_title)
+        short_title = re.sub(r'-+', '-', short_title).strip('-')
+        parts = short_title.split('-')
+        if (not short_title or
+            len(short_title) > 45 or
+            len(parts) > 4 or
+            any(len(p) > 15 or not p.isalnum() for p in parts)):
+            raise ValueError(f"Invalid short_title '{short_title}': must be only lowercase a-z0-9/-, <=45 chars, <=4 words (<=15 chars each). Regenerate.")
 
     # Create file path
     file_path = create_filename(short_title, directory, date)
