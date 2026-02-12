@@ -47,16 +47,16 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
         
         short_title = generate_short_title(short_title_prompt).lower()
         
-        # Validate short_title: only lowercase a-z0-9 and -, <=45 chars total, <=4 words each <=15 chars
+        # Validate short_title: only lowercase a-z0-9 and -, <=45 chars total, <=5 words each <=15 chars
         short_title = short_title.lower().strip('-')
         short_title = re.sub(r'[^a-z0-9-]', '', short_title)
         short_title = re.sub(r'-+', '-', short_title).strip('-')
         parts = short_title.split('-')
         if (not short_title or
             len(short_title) > 45 or
-            len(parts) > 4 or
+            len(parts) > 5 or
             any(len(p) > 15 or not p.isalnum() for p in parts)):
-            raise ValueError(f"Invalid short_title '{short_title}': must be only lowercase a-z0-9/-, <=45 chars, <=4 words (<=15 chars each). Regenerate.")
+            raise ValueError(f"Invalid short_title '{short_title}': must be only lowercase a-z0-9/-, <=45 chars, <=5 words (<=15 chars each). Regenerate.")
 
     # Create file path
     file_path = create_filename(short_title, directory, date)
