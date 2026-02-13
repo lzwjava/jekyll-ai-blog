@@ -130,7 +130,7 @@ def main():
         help="Proxy provider type (default: zhs)",
     )
     parser.add_argument(
-        "--global",
+        "--global-mode",
         action="store_true",
         help="Use global mode: add DNS config and use GLOBAL proxy group"
     )
@@ -145,7 +145,7 @@ def main():
         temp_filename = "falemon.yaml"
         target_proxy_group = "🚀 节点选择"
 
-    if args.global:
+    if args.global_mode == True:
         target_proxy_group = "GLOBAL"
     ITERATIONS = args.iterations
     SLEEP_SECONDS = args.minutes * 60
@@ -183,7 +183,7 @@ def main():
             )
             os.makedirs(clash_config_dir, exist_ok=True)
             shutil.move(temp_filename, clash_config_path)
-            if args.global:
+            if args.global_mode:
                 with open(clash_config_path, 'r') as f:
                     config = yaml.safe_load(f)
                 config['dns'] = {
@@ -265,7 +265,7 @@ def main():
         best_proxy_name = None
         try:
             # Set proxy name filter based on type
-            if args.global:
+            if args.global_mode:
                 name_filter = None
                 filter_desc = "global"
             elif args.type == "zhs":
