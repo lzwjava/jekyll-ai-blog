@@ -103,6 +103,7 @@ def main():
                 config['mode'] = 'Global'
                 config['dns'] = {
                     'enable': True,
+                    'ipv6': True,
                     'nameserver': [
                         'https://doh.pub/dns-query',
                         'https://dns.alidns.com/dns-query'
