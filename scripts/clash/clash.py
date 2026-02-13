@@ -4,38 +4,14 @@ import time
 import shutil
 import argparse
 import logging
-import requests
 import threading
-import json
 import yaml
-import urllib.parse
 
 # Assuming speed.py is in the same directory or accessible in PYTHONPATH
 from speed import get_top_proxies
 
-# --- Configuration ---
-CLASH_CONTROLLER_HOST = "127.0.0.1"
-CLASH_CONTROLLER_PORT = 9090
-CLASH_API_BASE_URL = f"http://{CLASH_CONTROLLER_HOST}:{CLASH_CONTROLLER_PORT}"
-# The group proxy name to which the best individual proxy will be assigned.
-# Make sure this group exists in your Clash configuration.
-TARGET_PROXY_GROUP = "🚧Proxy"
+from clash_utils import setup_logging, start_system_proxy, stop_system_proxy, switch_clash_proxy_group
 
-
-def setup_logging():
-    """Configures basic logging for the script. Clears previous log."""
-    if os.path.exists("clash.log"):
-        with open("clash.log", "w"):  # clears the log file
-            pass
-    logging.basicConfig(
-        filename="clash.log",
-        level=logging.INFO,
-        format="%(asctime)s - %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S",
-    )
-
-
-def start_system_proxy(global_proxy_address):
     """Sets system-wide proxy environment variables."""
     os.environ["GLOBAL_PROXY"] = (
         global_proxy_address  # Set for consistency if needed elsewhere
@@ -50,54 +26,6 @@ def start_system_proxy(global_proxy_address):
     os.environ["HTTPS_PROXY_REQUEST_FULLURI"] = "false"
     os.environ["ALL_PROXY"] = os.environ["http_proxy"]
     logging.info(f"System-wide proxy set to: {global_proxy_address}")
-
-
-def stop_system_proxy():
-    """Clears system-wide proxy environment variables."""
-    os.environ["http_proxy"] = ""
-    os.environ["HTTP_PROXY"] = ""
-    os.environ["https_proxy"] = ""
-    os.environ["HTTPS_PROXY"] = ""
-    os.environ["HTTP_PROXY_REQUEST_FULLURI"] = "true"  # Revert to default
-    os.environ["HTTPS_PROXY_REQUEST_FULLURI"] = "true"
-    os.environ["ALL_PROXY"] = ""
-    logging.info("System-wide proxy stopped (environment variables cleared).")
-
-
-def switch_clash_proxy_group(group_name, proxy_name):
-    """
-    Switches the active proxy in a specified Clash proxy group to a new proxy.
-    """
-    encoded_group_name = urllib.parse.quote(group_name)
-    url = f"{CLASH_API_BASE_URL}/proxies/{encoded_group_name}"
-    headers = {"Content-Type": "application/json"}
-    payload = {"name": proxy_name}
-
-    try:
-        response = requests.put(
-            url, headers=headers, data=json.dumps(payload), timeout=5
-        )
-        response.raise_for_status()
-        logging.info(f"Successfully switched '{group_name}' to '{proxy_name}'.")
-        return True
-    except requests.exceptions.ConnectionError:
-        logging.error(
-            f"Error: Could not connect to Clash API at {CLASH_API_BASE_URL} to switch proxy."
-        )
-        logging.error(
-            "Ensure Clash is running and its external-controller is configured."
-        )
-        return False
-    except requests.exceptions.Timeout:
-        logging.error(
-            f"Error: Connection to Clash API timed out while switching proxy for '{group_name}'."
-        )
-        return False
-    except requests.exceptions.RequestException as e:
-        logging.error(
-            f"An unexpected error occurred while switching proxy for '{group_name}': {e}"
-        )
-        return False
 
 
 def main():
@@ -188,6 +116,7 @@ def main():
             if args.mode == "global":
                 with open(clash_config_path, 'r') as f:
                     config = yaml.safe_load(f)
+                config['mode'] = 'Global'
                 config['dns'] = {
                     'enable': True,
                     'ipv6': False,
@@ -294,7 +223,7 @@ def main():
             # Before setting system proxy, ensure Clash is set up correctly.
             # Set the system-wide proxy to point to Clash's local HTTP proxy.
             # Clash typically runs its HTTP proxy on port 7890 (or similar, check your config).
-            clash_local_proxy_address = f"{CLASH_CONTROLLER_HOST}:7890"  # Adjust if your Clash HTTP port is different
+            clash_local_proxy_address = "127.0.0.1:7890"  # Clash HTTP proxy port
             start_system_proxy(clash_local_proxy_address)
 
             if not switch_clash_proxy_group(target_proxy_group, best_proxy_name):
