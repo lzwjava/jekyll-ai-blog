@@ -12,22 +12,6 @@ from speed import get_top_proxies
 
 from clash_utils import setup_logging, start_system_proxy, stop_system_proxy, switch_clash_proxy_group
 
-    """Sets system-wide proxy environment variables."""
-    os.environ["GLOBAL_PROXY"] = (
-        global_proxy_address  # Set for consistency if needed elsewhere
-    )
-    os.environ["HTTP_PROXY"] = f"http://{global_proxy_address}"
-    os.environ["HTTPS_PROXY"] = f"http://{global_proxy_address}"
-    os.environ["http_proxy"] = f"http://{global_proxy_address}"
-    os.environ["https_proxy"] = f"http://{global_proxy_address}"
-    # These typically don't need to be explicitly set to "false" with modern tools,
-    # but keeping for compatibility with your original script's intent.
-    os.environ["HTTP_PROXY_REQUEST_FULLURI"] = "false"
-    os.environ["HTTPS_PROXY_REQUEST_FULLURI"] = "false"
-    os.environ["ALL_PROXY"] = os.environ["http_proxy"]
-    logging.info(f"System-wide proxy set to: {global_proxy_address}")
-
-
 def main():
     """Main function to manage Clash config, restart, and select best proxy."""
     setup_logging()
