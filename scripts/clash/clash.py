@@ -7,6 +7,7 @@ import logging
 import requests
 import threading
 import json
+import yaml
 import urllib.parse
 
 # Assuming speed.py is in the same directory or accessible in PYTHONPATH
@@ -128,6 +129,11 @@ def main():
         choices=["zhs", "falemon"],
         help="Proxy provider type (default: zhs)",
     )
+    parser.add_argument(
+        "--global",
+        action="store_true",
+        help="Use global mode: add DNS config and use GLOBAL proxy group"
+    )
     args = parser.parse_args()
 
     if args.type == "zhs":
@@ -139,6 +145,8 @@ def main():
         temp_filename = "falemon.yaml"
         target_proxy_group = "🚀 节点选择"
 
+    if args.global:
+        target_proxy_group = "GLOBAL"
     ITERATIONS = args.iterations
     SLEEP_SECONDS = args.minutes * 60
     config_download_url = os.getenv(env_var)
@@ -175,6 +183,26 @@ def main():
             )
             os.makedirs(clash_config_dir, exist_ok=True)
             shutil.move(temp_filename, clash_config_path)
+            if args.global:
+                with open(clash_config_path, 'r') as f:
+                    config = yaml.safe_load(f)
+                config['dns'] = {
+                    'enable': True,
+                    'ipv6': False,
+                    'enhanced-mode': 'fake-ip',
+                    'fake-ip-range': '198.18.0.1/16',
+                    'nameserver': [
+                        'https://dns.google/dns-query',
+                        'https://1.1.1.1/dns-query'
+                    ],
+                    'fallback': [
+                        '8.8.4.4',
+                        '1.0.0.1'
+                    ]
+                }
+                with open(clash_config_path, 'w') as f:
+                    yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+                logging.info("Added DNS config for global mode.")
             logging.info("Clash config updated successfully!")
         except subprocess.CalledProcessError as e:
             logging.error(
@@ -237,12 +265,15 @@ def main():
         best_proxy_name = None
         try:
             # Set proxy name filter based on type
-            if args.type == "zhs":
+            if args.global:
+                name_filter = None
+                filter_desc = "global"
+            elif args.type == "zhs":
                 name_filter = ["SG", "TW"]
                 filter_desc = "SG/TW"
             else:
                 name_filter = ["新加坡", "台湾", "日本", "美国", "印度", "越南", "加拿大"]
-                filter_desc = "SG/TW/JP/US"
+                filter_desc = "SG/TW/JP/US/IN/VN/CA"
 
             logging.info("Testing proxy speeds to find the best one...")
             top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
@@ -269,7 +300,7 @@ def main():
 
             if not switch_clash_proxy_group(target_proxy_group, best_proxy_name):
                 logging.error(
-                    f"Failed to switch Clash group '{TARGET_PROXY_GROUP}' to '{best_proxy_name}'."
+                    f"Failed to switch Clash group '{target_proxy_group}' to '{best_proxy_name}'."
                 )
         else:
             logging.warning(
