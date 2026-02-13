@@ -103,16 +103,12 @@ def main():
                 config['mode'] = 'Global'
                 config['dns'] = {
                     'enable': True,
-                    'ipv6': False,
-                    'enhanced-mode': 'fake-ip',
-                    'fake-ip-range': '198.18.0.1/16',
                     'nameserver': [
-                        'https://dns.google/dns-query',
-                        'https://1.1.1.1/dns-query'
+                        'https://doh.pub/dns-query',
+                        'https://dns.alidns.com/dns-query'
                     ],
                     'fallback': [
-                        '8.8.4.4',
-                        '1.0.0.1'
+                        'tls://223.5.5.5:853'
                     ]
                 }
                 with open(clash_config_path, 'w') as f:

@@ -9,7 +9,7 @@ def test_cloudflare_doh(hostname="example.com", qtype="A"):
     url = "https://1.1.1.1/dns-query"
     
     # Build DNS query
-    query = try_dns.message.make_query(hostname, qtype)
+    query = dns.message.make_query(hostname, qtype)
     
     # Send via HTTPS POST (WireFormat)
     r = requests.post(
@@ -25,7 +25,7 @@ def test_cloudflare_doh(hostname="example.com", qtype="A"):
         return False
     
     # Parse response
-    response = try_dns.message.from_wire(r.content)
+    response = dns.message.from_wire(r.content)
     
     print(f"Query: {hostname} {qtype}")
     print("Response:")
