@@ -17,9 +17,9 @@ def get_previous_month_dates():
     )
 
 def main():
-    parser = argparse.ArgumentParser(description='Get monthly visits and page views from Cloudflare')
+    parser = argparse.ArgumentParser(description='Get monthly visits and page views from Cloudflare Web Analytics')
     parser.add_argument('--account-id', help='Cloudflare account ID')
-    parser.add_argument('--zone-id', help='Cloudflare zone ID')
+    parser.add_argument('--dataset-name', help='Specific Web Analytics dataset name (site domain)')
     parser.add_argument('--start-date', help='Start date YYYY-MM-DDTHH:MM:SSZ')
     parser.add_argument('--end-date', help='End date YYYY-MM-DDTHH:MM:SSZ')
     args = parser.parse_args()
@@ -35,28 +35,6 @@ def main():
     }
 
     account_id = args.account_id or os.environ.get('CLOUDFLARE_ACCOUNT_ID') or "4c073cd42000b12a4d61bb679c0043d4"
-    zone_id = args.zone_id or os.environ.get('CLOUDFLARE_ZONE_ID')
-
-    if not zone_id:
-        print('''
-To use:
-- Set CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_ZONE_ID env vars, or pass --account-id and --zone-id
-
-To find your IDs, run this query in GraphQL explorer or curl:
-query {
-  viewer {
-    accounts {
-      id
-      name
-      zones(filter: {status: "active"}) {
-        id
-        name
-      }
-    }
-  }
-}
-        ''', file=sys.stderr)
-        sys.exit(1)
 
     if not args.start_date:
         start_date, end_date = get_previous_month_dates()
@@ -64,34 +42,22 @@ query {
         start_date = args.start_date
         end_date = args.end_date or (datetime.now().date() + timedelta(days=1)).strftime('%Y-%m-%dT00:00:00Z')
 
-    query = '''
+    # First, get list of datasets if no specific name
+    datasets_query = '''
     query {
       viewer {
         accounts(filter: {accountTag: "%s"}) {
-          zones(filter: {zoneTag: "%s"}) {
+          webAnalyticsDatasets {
             name
-            httpRequests1dGroups(
-              filter: {datetime_geq: "%s", datetime_lt: "%s"},
-              limit: 100,
-              orderBy: [datetime_ASC]
-            ) {
-              sum {
-                requests
-                uniqueVisitors
-              }
-              dimensions {
-                datetime
-              }
-            }
           }
         }
       }
     }
-    ''' % (account_id, zone_id, start_date, end_date)
+    ''' % account_id
 
-    response = requests.post('https://api.cloudflare.com/client/v4/graphql', headers=headers, json={'query': query})
+    response = requests.post('https://api.cloudflare.com/client/v4/graphql', headers=headers, json={'query': datasets_query})
     if response.status_code != 200:
-        print(f'Error: {response.status_code} {response.text}', file=sys.stderr)
+        print(f'Error fetching datasets: {response.status_code} {response.text}', file=sys.stderr)
         sys.exit(1)
 
     data = response.json()
@@ -100,17 +66,80 @@ query {
         sys.exit(1)
 
     try:
-        analytics = data['data']['viewer']['accounts'][0]['zones'][0]
-        zone_name = analytics['name']
-        daily_groups = analytics['httpRequests1dGroups']['groups']
-        total_requests = sum(group['sum']['requests'] for group in daily_groups)
-        total_unique = sum(group['sum']['uniqueVisitors'] for group in daily_groups)
-        print(f"Zone: {zone_name}")
+        datasets = data['data']['viewer']['accounts'][0]['webAnalyticsDatasets']
+        if not datasets:
+            print('No Web Analytics datasets found in account. Enable Web Analytics on your site first.', file=sys.stderr)
+            sys.exit(1)
+
+        if args.dataset_name:
+            dataset_names = [args.dataset_name]
+        else:
+            dataset_names = [d['name'] for d in datasets]
+            print(f"Found datasets: {', '.join(dataset_names)}")
+            if len(dataset_names) > 1:
+                print("Using all datasets.", file=sys.stderr)
+
+        total_requests = 0
+        total_unique = 0
+
+        for dataset_name in dataset_names:
+            query = '''
+            query {
+              viewer {
+                accounts(filter: {accountTag: "%s"}) {
+                  webAnalyticsDatasets(filter: {name: "%s"}) {
+                    name
+                    webAnalyticsMetrics1dGroups(
+                      filter: {datetimeGEQ: "%s", datetimeLT: "%s"},
+                      limit: 100,
+                      orderBy: [datetimeDay_ASC]
+                    ) {
+                      sum {
+                        pageViews
+                        uniqueVisitors
+                      }
+                      dimensions {
+                        datetimeDay
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            ''' % (account_id, dataset_name, start_date, end_date)
+
+            response = requests.post('https://api.cloudflare.com/client/v4/graphql', headers=headers, json={'query': query})
+            if response.status_code != 200:
+                print(f'Error for {dataset_name}: {response.status_code} {response.text}', file=sys.stderr)
+                continue
+
+            data = response.json()
+            if 'errors' in data:
+                print(f'GraphQL errors for {dataset_name}: {json.dumps(data["errors"], indent=2)}', file=sys.stderr)
+                continue
+
+            try:
+                analytics = data['data']['viewer']['accounts'][0]['webAnalyticsDatasets'][0]
+                dataset_name_print = analytics['name']
+                daily_groups = analytics['webAnalyticsMetrics1dGroups']['groups']
+                dataset_requests = sum(group['sum']['pageViews'] for group in daily_groups)
+                dataset_unique = sum(group['sum']['uniqueVisitors'] for group in daily_groups)
+                total_requests += dataset_requests
+                total_unique += dataset_unique
+                print(f"Dataset: {dataset_name_print}")
+                print(f"  Page views: {dataset_requests:,}")
+                print(f"  Approx unique visitors (sum daily): {dataset_unique:,}")
+            except (KeyError, IndexError):
+                print(f'No data for {dataset_name}', file=sys.stderr)
+                continue
+
+        print(f"\nTotal across datasets:")
         print(f"Period: {start_date} to {end_date}")
-        print(f"Page views (requests): {total_requests:,}")
-        print(f"Approx unique visitors: {total_unique:,} (sum of daily uniques)")
+        print(f"Page views: {total_requests:,}")
+        print(f"Approx unique visitors: {total_unique:,} (sum of daily uniques - may overcount)")
+
     except (KeyError, IndexError) as e:
-        print('Error parsing data:', json.dumps(data, indent=2), file=sys.stderr)
+        print('Error parsing datasets:', json.dumps(data, indent=2), file=sys.stderr)
         sys.exit(1)
 
 if __name__ == '__main__':
