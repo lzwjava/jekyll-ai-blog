@@ -21,7 +21,7 @@ def main():
     query {
       viewer {
         accounts(filter: {accountTag: "%s"}) {
-          webAnalyticsDatasets {
+          analyticsEngineDatasets {
             name
           }
         }
@@ -40,7 +40,7 @@ def main():
         sys.exit(1)
 
     try:
-        datasets = data['data']['viewer']['accounts'][0]['webAnalyticsDatasets']
+        datasets = data['data']['viewer']['accounts'][0]['analyticsEngineDatasets']
         print('Web Analytics datasets:')
         for d in datasets:
             print(f"  {d['name']}")

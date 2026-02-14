@@ -17,7 +17,7 @@ def get_previous_month_dates():
     )
 
 def main():
-    parser = argparse.ArgumentParser(description='Get monthly visits and page views from Cloudflare Web Analytics')
+    parser = argparse.ArgumentParser(description='Get monthly page views & unique visitors from Cloudflare Web Analytics')
     parser.add_argument('--account-id', help='Cloudflare account ID')
     parser.add_argument('--dataset-name', help='Specific Web Analytics dataset name (site domain)')
     parser.add_argument('--start-date', help='Start date YYYY-MM-DDTHH:MM:SSZ')
@@ -47,7 +47,7 @@ def main():
     query {
       viewer {
         accounts(filter: {accountTag: "%s"}) {
-          webAnalyticsDatasets {
+          analyticsEngineDatasets {
             name
           }
         }
@@ -66,7 +66,7 @@ def main():
         sys.exit(1)
 
     try:
-        datasets = data['data']['viewer']['accounts'][0]['webAnalyticsDatasets']
+        datasets = data['data']['viewer']['accounts'][0]['analyticsEngineDatasets']
         if not datasets:
             print('No Web Analytics datasets found in account. Enable Web Analytics on your site first.', file=sys.stderr)
             sys.exit(1)
@@ -87,9 +87,9 @@ def main():
             query {
               viewer {
                 accounts(filter: {accountTag: "%s"}) {
-                  webAnalyticsDatasets(filter: {name: "%s"}) {
+                  analyticsEngineDatasets(filter: {name: "%s"}) {
                     name
-                    webAnalyticsMetrics1dGroups(
+                    analyticsEngineMetrics1dGroups(
                       filter: {datetimeGEQ: "%s", datetimeLT: "%s"},
                       limit: 100,
                       orderBy: [datetimeDay_ASC]
@@ -119,9 +119,9 @@ def main():
                 continue
 
             try:
-                analytics = data['data']['viewer']['accounts'][0]['webAnalyticsDatasets'][0]
+                analytics = data['data']['viewer']['accounts'][0]['analyticsEngineDatasets'][0]
                 dataset_name_print = analytics['name']
-                daily_groups = analytics['webAnalyticsMetrics1dGroups']['groups']
+                daily_groups = analytics['analyticsEngineMetrics1dGroups']['groups']
                 dataset_requests = sum(group['sum']['pageViews'] for group in daily_groups)
                 dataset_unique = sum(group['sum']['uniqueVisitors'] for group in daily_groups)
                 total_requests += dataset_requests
