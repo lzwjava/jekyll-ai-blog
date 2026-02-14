@@ -47,7 +47,7 @@ def main():
     query {
       viewer {
         accounts(filter: {accountTag: "%s"}) {
-          analyticsEngineDatasets {
+          analyticsEngineDatasetBindings {
             name
           }
         }
@@ -66,7 +66,7 @@ def main():
         sys.exit(1)
 
     try:
-        datasets = data['data']['viewer']['accounts'][0]['analyticsEngineDatasets']
+        datasets = data['data']['viewer']['accounts'][0]['analyticsEngineDatasetBindings']
         if not datasets:
             print('No Web Analytics datasets found in account. Enable Web Analytics on your site first.', file=sys.stderr)
             sys.exit(1)
@@ -87,7 +87,7 @@ def main():
             query {
               viewer {
                 accounts(filter: {accountTag: "%s"}) {
-                  analyticsEngineDatasets(filter: {name: "%s"}) {
+                  analyticsEngineDatasetBindings(filter: {name: "%s"}) {
                     name
                     analyticsEngineMetrics1dGroups(
                       filter: {datetimeGEQ: "%s", datetimeLT: "%s"},
@@ -119,7 +119,7 @@ def main():
                 continue
 
             try:
-                analytics = data['data']['viewer']['accounts'][0]['analyticsEngineDatasets'][0]
+                analytics = data['data']['viewer']['accounts'][0]['analyticsEngineDatasetBindings'][0]
                 dataset_name_print = analytics['name']
                 daily_groups = analytics['analyticsEngineMetrics1dGroups']['groups']
                 dataset_requests = sum(group['sum']['pageViews'] for group in daily_groups)
