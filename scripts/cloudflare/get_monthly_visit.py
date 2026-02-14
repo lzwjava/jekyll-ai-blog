@@ -34,10 +34,10 @@ def main():
         'Content-Type': 'application/json',
     }
 
-    account_id = args.account_id or os.environ.get('CLOUDFLARE_ACCOUNT_ID')
+    account_id = args.account_id or os.environ.get('CLOUDFLARE_ACCOUNT_ID') or "4c073cd42000b12a4d61bb679c0043d4"
     zone_id = args.zone_id or os.environ.get('CLOUDFLARE_ZONE_ID')
 
-    if not account_id or not zone_id:
+    if not zone_id:
         print('''
 To use:
 - Set CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_ZONE_ID env vars, or pass --account-id and --zone-id
