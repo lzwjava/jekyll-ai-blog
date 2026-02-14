@@ -6,7 +6,6 @@ lang: en
 layout: post
 title: Cloudflare Web Analytics Report
 translated: false
-permalink: /web-analytics
 ---
 
 | Metric | Value |
