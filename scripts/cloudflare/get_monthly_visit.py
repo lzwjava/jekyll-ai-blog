@@ -12,16 +12,26 @@ def get_previous_month_dates():
     last_day_previous = first_day_current - timedelta(days=1)
     first_day_previous = last_day_previous.replace(day=1)
     return (
-        first_day_previous.strftime('%Y-%m-%dT00:00:00Z'),
-        first_day_current.strftime('%Y-%m-%dT00:00:00Z')
+        first_day_previous.strftime('%Y-%m-%d'),
+        first_day_current.strftime('%Y-%m-%d')
     )
 
+def get_zones(headers):
+    response = requests.get('https://api.cloudflare.com/client/v4/zones', headers=headers)
+    if response.status_code != 200:
+        print(f'Error fetching zones: {response.status_code} {response.text}', file=sys.stderr)
+        return []
+    data = response.json()
+    if not data.get('success'):
+        print(f'API error fetching zones: {json.dumps(data, indent=2)}', file=sys.stderr)
+        return []
+    return data['result']
+
 def main():
-    parser = argparse.ArgumentParser(description='Get monthly page views & unique visitors from Cloudflare Web Analytics')
-    parser.add_argument('--account-id', help='Cloudflare account ID')
-    parser.add_argument('--dataset-name', help='Specific Web Analytics dataset name (site domain)')
-    parser.add_argument('--start-date', help='Start date YYYY-MM-DDTHH:MM:SSZ')
-    parser.add_argument('--end-date', help='End date YYYY-MM-DDTHH:MM:SSZ')
+    parser = argparse.ArgumentParser(description='Get monthly page views & unique visitors from Cloudflare Zone HTTP Analytics')
+    parser.add_argument('--zone-id', help='Cloudflare zone ID')
+    parser.add_argument('--start-date', help='Start date YYYY-MM-DD')
+    parser.add_argument('--end-date', help='End date YYYY-MM-DD')
     args = parser.parse_args()
 
     token = os.environ.get('CLOUDFLARE_API_KEY')
@@ -34,113 +44,86 @@ def main():
         'Content-Type': 'application/json',
     }
 
-    account_id = args.account_id or os.environ.get('CLOUDFLARE_ACCOUNT_ID') or "4c073cd42000b12a4d61bb679c0043d4"
-
     if not args.start_date:
         start_date, end_date = get_previous_month_dates()
     else:
         start_date = args.start_date
-        end_date = args.end_date or (datetime.now().date() + timedelta(days=1)).strftime('%Y-%m-%dT00:00:00Z')
+        end_date = args.end_date or (datetime.now().date()).strftime('%Y-%m-%d')
 
-    # First, get list of datasets if no specific name
-    datasets_query = '''
-    query {
-      viewer {
-        accounts(filter: {accountTag: "%s"}) {
-          analyticsEngineDatasetBindings {
-            name
-          }
-        }
-      }
-    }
-    ''' % account_id
-
-    response = requests.post('https://api.cloudflare.com/client/v4/graphql', headers=headers, json={'query': datasets_query})
-    if response.status_code != 200:
-        print(f'Error fetching datasets: {response.status_code} {response.text}', file=sys.stderr)
-        sys.exit(1)
-
-    data = response.json()
-    if 'errors' in data:
-        print(f'GraphQL errors: {json.dumps(data["errors"], indent=2)}', file=sys.stderr)
-        sys.exit(1)
-
-    try:
-        datasets = data['data']['viewer']['accounts'][0]['analyticsEngineDatasetBindings']
-        if not datasets:
-            print('No Web Analytics datasets found in account. Enable Web Analytics on your site first.', file=sys.stderr)
+    if args.zone_id:
+        zones = [{'id': args.zone_id, 'name': args.zone_id}]
+    else:
+        zones = get_zones(headers)
+        if not zones:
+            print('No zones found.', file=sys.stderr)
             sys.exit(1)
+        print(f"Found {len(zones)} zones: {', '.join([z['name'] for z in zones])}")
 
-        if args.dataset_name:
-            dataset_names = [args.dataset_name]
-        else:
-            dataset_names = [d['name'] for d in datasets]
-            print(f"Found datasets: {', '.join(dataset_names)}")
-            if len(dataset_names) > 1:
-                print("Using all datasets.", file=sys.stderr)
+    total_page_views = 0
+    total_visits = 0
+    total_requests = 0
 
-        total_requests = 0
-        total_unique = 0
+    for zone in zones:
+        zone_id = zone['id']
+        zone_name = zone['name']
 
-        for dataset_name in dataset_names:
-            query = '''
-            query {
-              viewer {
-                accounts(filter: {accountTag: "%s"}) {
-                  analyticsEngineDatasetBindings(filter: {name: "%s"}) {
-                    name
-                    analyticsEngineMetrics1dGroups(
-                      filter: {datetimeGEQ: "%s", datetimeLT: "%s"},
-                      limit: 100,
-                      orderBy: [datetimeDay_ASC]
-                    ) {
-                      sum {
-                        pageViews
-                        uniqueVisitors
-                      }
-                      dimensions {
-                        datetimeDay
-                      }
-                    }
-                  }
+        query = '''
+        query {
+          viewer {
+            zones(filter: { zoneTag: "%s" }) {
+              httpRequests1dGroups(
+                filter: { date_geq: "%s", date_lt: "%s" }
+                limit: 100
+              ) {
+                sum {
+                  pageViews
+                  visits
+                  requests
+                }
+                dimensions {
+                  date
                 }
               }
             }
-            ''' % (account_id, dataset_name, start_date, end_date)
+          }
+        }
+        ''' % (zone_id, start_date, end_date)
 
-            response = requests.post('https://api.cloudflare.com/client/v4/graphql', headers=headers, json={'query': query})
-            if response.status_code != 200:
-                print(f'Error for {dataset_name}: {response.status_code} {response.text}', file=sys.stderr)
-                continue
+        response = requests.post('https://api.cloudflare.com/client/v4/graphql', headers=headers, json={'query': query})
+        if response.status_code != 200:
+            print(f'Error for zone {zone_name} ({zone_id}): {response.status_code} {response.text}', file=sys.stderr)
+            continue
 
-            data = response.json()
-            if 'errors' in data:
-                print(f'GraphQL errors for {dataset_name}: {json.dumps(data["errors"], indent=2)}', file=sys.stderr)
-                continue
+        data = response.json()
+        if 'errors' in data:
+            print(f'GraphQL errors for zone {zone_name} ({zone_id}): {json.dumps(data["errors"], indent=2)}', file=sys.stderr)
+            continue
 
-            try:
-                analytics = data['data']['viewer']['accounts'][0]['analyticsEngineDatasetBindings'][0]
-                dataset_name_print = analytics['name']
-                daily_groups = analytics['analyticsEngineMetrics1dGroups']['groups']
-                dataset_requests = sum(group['sum']['pageViews'] for group in daily_groups)
-                dataset_unique = sum(group['sum']['uniqueVisitors'] for group in daily_groups)
-                total_requests += dataset_requests
-                total_unique += dataset_unique
-                print(f"Dataset: {dataset_name_print}")
-                print(f"  Page views: {dataset_requests:,}")
-                print(f"  Approx unique visitors (sum daily): {dataset_unique:,}")
-            except (KeyError, IndexError):
-                print(f'No data for {dataset_name}', file=sys.stderr)
-                continue
+        try:
+            zone_data = data['data']['viewer']['zones'][0]
+            daily_groups = zone_data['httpRequests1dGroups']
 
-        print(f"\nTotal across datasets:")
-        print(f"Period: {start_date} to {end_date}")
-        print(f"Page views: {total_requests:,}")
-        print(f"Approx unique visitors: {total_unique:,} (sum of daily uniques - may overcount)")
+            zone_page_views = sum(group['sum']['pageViews'] for group in daily_groups)
+            zone_visits = sum(group['sum']['visits'] for group in daily_groups)
+            zone_requests = sum(group['sum']['requests'] for group in daily_groups)
 
-    except (KeyError, IndexError) as e:
-        print('Error parsing datasets:', json.dumps(data, indent=2), file=sys.stderr)
-        sys.exit(1)
+            total_page_views += zone_page_views
+            total_visits += zone_visits
+            total_requests += zone_requests
+
+            print(f"Zone: {zone_name}")
+            print(f"  Page views: {zone_page_views:,}")
+            print(f"  Visits: {zone_visits:,}")
+            print(f"  Requests: {zone_requests:,}")
+        except (KeyError, IndexError):
+            print(f'No data for zone {zone_name} ({zone_id})', file=sys.stderr)
+            continue
+
+    print(f"\nTotal across zones:")
+    print(f"Period: {start_date} to {end_date}")
+    print(f"Page views: {total_page_views:,}")
+    print(f"Visits (sum daily): {total_visits:,}")
+    print(f"Requests: {total_requests:,}")
 
 if __name__ == '__main__':
     main()
