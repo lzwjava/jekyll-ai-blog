@@ -14,7 +14,7 @@ from create_note_utils import (
 from check_duplicate_notes import check_duplicate_notes
 
 
-def create_note_from_content(content, custom_title=None, directory="notes", date=None, note_model_key: str | None = None):
+def create_note_from_content(content, custom_title=None, directory="notes", date=None):
     """Create a note from provided content instead of clipboard"""
     if not content or not content.strip():
         print("Content is empty or invalid. Aborting.")
@@ -62,7 +62,7 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
     file_path = create_filename(short_title, directory, date)
 
     # Format front matter with date
-    front_matter = format_front_matter(full_title, note_model_key, date)
+    front_matter = format_front_matter(full_title, date)
 
     # Clean content
     content = clean_content(content)
@@ -72,14 +72,14 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
     return file_path
 
 
-def create_note(date=None, note_model_key: str | None = None):
+def create_note(date=None):
     # Check for duplicate notes first
     if check_duplicate_notes():
         raise ValueError("Duplicate note found. Aborting note creation.")
     # Get and validate clipboard content
     content = get_clipboard_content()
     # Return the created file path so callers can post-process the file.
-    return create_note_from_content(content, date=date, note_model_key=note_model_key)
+    return create_note_from_content(content, date=date)
 
 
 if __name__ == "__main__":
@@ -87,13 +87,12 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Create a note from clipboard content.")
     parser.add_argument("--content", help="Content to create note from (if not provided, uses clipboard)")
-    parser.add_argument("--note-model", required=True, help="Model key to annotate in frontmatter (must match scripts.llm.openrouter_client.MODEL_MAPPING)")
     parser.add_argument("--date", help="Override date (YYYY-MM-DD)")
     args = parser.parse_args()
 
     if args.content:
-        file_path = create_note_from_content(args.content, date=args.date, note_model_key=args.note_model)
+        file_path = create_note_from_content(args.content, date=args.date)
         print(file_path)
     else:
-        file_path = create_note(date=args.date, note_model_key=args.note_model)
+        file_path = create_note(date=args.date)
         print(file_path)
