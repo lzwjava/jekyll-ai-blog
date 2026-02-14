@@ -124,9 +124,6 @@ layout: default
     <a href="/" class="button left-button">Back</a>
 
 
-    {% if page.model %}
-      <p class="model">{{ page.model | split: "/" | last }}</p>
-    {% endif %}
 
     {% assign donate_url = "/donate-en" %}
     {% if page.lang %}

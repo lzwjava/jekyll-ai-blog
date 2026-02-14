@@ -10,7 +10,6 @@ from create_note_from_clipboard import create_note
 
 # Ensure repository root is on sys.path for importing scripts.* packages
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-from scripts.llm.openrouter_client import MODEL_MAPPING
 from scripts.content.fix_mathjax import fix_mathjax_in_file
 from scripts.content.fix_table import process_tables_in_file
 
@@ -97,18 +96,7 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
 def parse_args():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(
-        description="Create a note; first positional arg is the model key."
-    )
-    # Add 'unknown' to the available choices
-    all_choices = sorted(list(MODEL_MAPPING.keys()) + ["unknown"])
-
-    parser.add_argument(
-        "model",
-        choices=all_choices,
-        default="unknown",
-        help=(
-            "Model key to annotate in frontmatter; choices shown above."
-        ),
+        description="Create a note."
     )
     parser.add_argument(
         "--random",
@@ -119,6 +107,11 @@ def parse_args():
         "--without-math",
         action="store_true",
         help="Skip fixing MathJax delimiters in the created file before git add",
+    )
+    parser.add_argument(
+        "--gemini",
+        action="store_true",
+        help="Enable Gemini-specific MathJax fixing",
     )
     parser.add_argument(
         "--open",
@@ -156,14 +149,12 @@ if __name__ == "__main__":
     random_date = generate_random_date() if args.random else None
     print(f"[debug] random_date: {random_date}")  # Debug output
 
-    created_path = create_note(date=random_date, note_model_key=args.model)
+    created_path = create_note(date=random_date)
 
     # Fix MathJax before invoking GPT-assisted git add/commit (unless --without-math is specified)
     if not args.without_math and created_path and os.path.exists(created_path):
         try:
-            # Check if model contains "gemini" and pass gemini=True if so
-            is_gemini_model = "gemini" in args.model.lower()
-            fix_mathjax_in_file(created_path, gemini=is_gemini_model)
+            fix_mathjax_in_file(created_path, gemini=args.gemini)
             process_tables_in_file(created_path, fix_tables=True)
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
