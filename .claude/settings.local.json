@@ -35,7 +35,8 @@
       "WebFetch(domain:docs.cloud.google.com)",
       "WebFetch(domain:www.eeagd.edu.cn)",
       "Bash(ls:*)",
-      "WebFetch(domain:developers.cloudflare.com)"
+      "WebFetch(domain:developers.cloudflare.com)",
+      "Bash(source:*)"
     ],
     "deny": [],
     "ask": [],
