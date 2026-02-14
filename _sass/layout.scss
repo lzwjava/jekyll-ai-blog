@@ -18,16 +18,16 @@
 
 /* Analytics Link */
 .analytics-link {
+    display: block;
     text-align: center;
-    margin-bottom: 1rem;
-    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 
-    a {
-        text-decoration: none;
-        color: $link-color;
-        &:hover {
-            text-decoration: underline;
-        }
+    text-decoration: none;
+    color: $link-color;
+
+    &:hover {
+        text-decoration: underline;
     }
 }
 
