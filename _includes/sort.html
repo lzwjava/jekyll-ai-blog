@@ -5,18 +5,17 @@
   {% assign type = include.type | default: "posts" %}
   <div class="nav-links">
     <a href="/">Posts</a>
-    <a href="/index-zh.html">文章</a>    
-    <a href="/notes-en.html">Notes</a>    
+    <a href="/index-zh.html">文章</a>
+    <a href="/notes-en.html">Notes</a>
     <a href="/notes-zh.html">笔记</a>
   </div>
 
   <div>
-    
+
     <div id="post-number" class="post-number">
       {{ site[type].size }} {{ type }}
       ({{ site[type].size | divided_by: 7 | times: 6 }} Translated by <a href="https://openrouter.ai">AI</a>)
     </div>
 
-    <a href="/web-analytics" class="analytics-link">{{ site.monthly_page_views }} Page Views in Last Month</a>    
   </div>
 </div>
