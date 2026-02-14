@@ -22,8 +22,6 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
     if len(content.strip()) < 200:
         print("Content is less than 200 characters. Aborting.")
         sys.exit(1)
-    if not note_model_key:
-        raise ValueError("--note-model is required (no default). Choose a key from openrouter_client.MODEL_MAPPING.")
     
     # Use provided date, otherwise use current date
     if date is None:
