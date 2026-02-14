@@ -2,7 +2,39 @@
 import argparse
 import re
 import sys
+import os
 from pypdf import PdfReader
+
+def update_config_yaml(page_views):
+    """
+    Updates the monthly_page_views in _config.yml
+    """
+    config_path = os.path.join(os.path.dirname(__file__), '../../_config.yml')
+    config_path = os.path.abspath(config_path)
+
+    if not os.path.exists(config_path):
+        print(f"Warning: _config.yml not found at {config_path}", file=sys.stderr)
+        return
+
+    try:
+        with open(config_path, 'r') as f:
+            content = f.read()
+
+        # Pattern to find monthly_page_views: followed by optional current value
+        pattern = r'monthly_page_views:.*'
+        replacement = f'monthly_page_views: {page_views}'
+
+        if re.search(pattern, content):
+            new_content = re.sub(pattern, replacement, content)
+        else:
+            # If not found, append it
+            new_content = content.rstrip() + f'\n\nmonthly_page_views: {page_views}\n'
+
+        with open(config_path, 'w') as f:
+            f.write(new_content)
+        print(f"Updated _config.yml: monthly_page_views = {page_views:,}")
+    except Exception as e:
+        print(f"Error updating _config.yml: {e}", file=sys.stderr)
 
 def parse_cloudflare_pdf(pdf_path):
     """
@@ -62,6 +94,8 @@ def parse_cloudflare_pdf(pdf_path):
 def main():
     parser = argparse.ArgumentParser(description='Parse Cloudflare Analytics PDF')
     parser.add_argument('--file', help='Path to the Cloudflare Web Analytics PDF export')
+    parser.add_argument('--no-update-config', action='store_false', dest='update_config', help='Do not update monthly_page_views in _config.yml')
+    parser.set_defaults(update_config=True)
     parser.add_argument('pdf_file', nargs='?', help='Path to the Cloudflare Web Analytics PDF export (legacy positional argument)')
     args = parser.parse_args()
 
@@ -78,6 +112,9 @@ def main():
     print(f"Site:       {data['site']}")
     print(f"Period:     {data['date_range']}")
     print(f"Page Views: {data['page_views']:,}")
+
+    if args.update_config:
+        update_config_yaml(data['page_views'])
 
     print(f"\nExtracted Text:")
     print(f"--------------")
