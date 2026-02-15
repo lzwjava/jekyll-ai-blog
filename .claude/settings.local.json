@@ -26,7 +26,6 @@
       "Bash(ls:*)",
       "Bash(cat:*)",
       "Bash(mkdir:*)",
-      "Bash(chmod:*)",
       "Bash(ps:*)",
       "Bash(grep:*)",
       "Bash(find:*)",
@@ -70,7 +69,13 @@
       "Bash(nmcli:*)"
     ],
     "deny": [],
-    "ask": [],
+    "ask": [
+      "Bash(chmod:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(chown:*)",
+      "Bash(sudo:*)"
+    ],
     "additionalDirectories": [
       "/etc/systemd/system"
     ]
