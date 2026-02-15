@@ -3,9 +3,11 @@ import logging
 from clash_utils import switch_clash_proxy_group, setup_logging
 from speed import get_top_proxies
 
-# Target groups to switch if they exist
+# Primary group that selects the actual proxy node
+PRIMARY_GROUP = "🚀 节点选择"
+
+# Target groups that will point to the primary group
 TARGET_GROUPS = [
-    "🚀 节点选择",
     "🐟 漏网之鱼",
     "🌍 国外媒体",
     "📺 YouTube",
@@ -50,18 +52,23 @@ def select_best_provider(dry_run=False):
     print(f"Selected best proxy: {best_proxy} (Latency: {latency}ms)")
 
     if dry_run:
-        logging.info(f"Dry run: Would have switched groups {TARGET_GROUPS} to {best_proxy}")
+        logging.info(f"Dry run: Would have switched {PRIMARY_GROUP} to {best_proxy}")
+        logging.info(f"Dry run: Would have switched groups {TARGET_GROUPS} to {PRIMARY_GROUP}")
         logging.info(f"Dry run: Would have switched groups {DIRECT_GROUPS} to DIRECT")
         logging.info(f"Dry run: Would have switched groups {REJECT_GROUPS} to REJECT")
-        print(f"Dry run: Would have switched groups {TARGET_GROUPS} to {best_proxy}")
+        print(f"Dry run: Would have switched {PRIMARY_GROUP} to {best_proxy}")
+        print(f"Dry run: Would have switched groups {TARGET_GROUPS} to {PRIMARY_GROUP}")
         print(f"Dry run: Would have switched groups {DIRECT_GROUPS} to DIRECT")
         print(f"Dry run: Would have switched groups {REJECT_GROUPS} to REJECT")
         return
 
-    # Switch all target groups to best proxy
+    # Switch primary group to best proxy
+    primary_success = switch_clash_proxy_group(PRIMARY_GROUP, best_proxy)
+
+    # Switch target groups to point to the primary group
     success_count = 0
     for group in TARGET_GROUPS:
-        if switch_clash_proxy_group(group, best_proxy):
+        if switch_clash_proxy_group(group, PRIMARY_GROUP):
             success_count += 1
 
     # Switch specific groups to DIRECT
@@ -76,10 +83,17 @@ def select_best_provider(dry_run=False):
         if switch_clash_proxy_group(group, "REJECT"):
             reject_success_count += 1
 
-    logging.info(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to {best_proxy}.")
+    if primary_success:
+        logging.info(f"Successfully updated {PRIMARY_GROUP} to {best_proxy}.")
+        print(f"Successfully updated {PRIMARY_GROUP} to {best_proxy}.")
+    else:
+        logging.error(f"Failed to update {PRIMARY_GROUP} to {best_proxy}.")
+        print(f"Failed to update {PRIMARY_GROUP} to {best_proxy}.")
+
+    logging.info(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to point to {PRIMARY_GROUP}.")
     logging.info(f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT.")
     logging.info(f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT.")
-    print(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to {best_proxy}.")
+    print(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to point to {PRIMARY_GROUP}.")
     print(f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT.")
     print(f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT.")
 
