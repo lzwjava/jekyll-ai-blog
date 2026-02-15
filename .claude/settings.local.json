@@ -37,7 +37,8 @@
       "Bash(ls:*)",
       "WebFetch(domain:developers.cloudflare.com)",
       "Bash(source:*)",
-      "WebFetch(domain:graphql.cloudflare.com)"
+      "WebFetch(domain:graphql.cloudflare.com)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": [],
