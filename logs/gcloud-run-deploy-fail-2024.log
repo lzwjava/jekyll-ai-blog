@@ -1,0 +1,39 @@
+EBUG: (gcloud.run.deploy) Build failed; check build logs for details
+Traceback (most recent call last):
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 985, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 945, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/surface/run/deploy.py", line 920, in Run
+    service = _ReleaseService(changes)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/surface/run/deploy.py", line 883, in _ReleaseService
+    return operations.ReleaseService(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/command_lib/run/serverless_operations.py", line 944, in ReleaseService
+    ) = deployer.CreateImage(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/command_lib/run/sourcedeploys/deployer.py", line 101, in CreateImage
+    response_dict, build_log_url, base_image_from_build = _SubmitBuild(
+                                                          ^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/command_lib/run/sourcedeploys/deployer.py", line 455, in _SubmitBuild
+    response_dict = _PollUntilBuildCompletes(build_op_ref)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/command_lib/run/sourcedeploys/deployer.py", line 464, in _PollUntilBuildCompletes
+    operation = waiter.PollUntilDone(poller, build_op_ref)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/waiter.py", line 322, in PollUntilDone
+    operation = retryer.RetryOnResult(
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/core/util/retry.py", line 249, in RetryOnResult
+    if not should_retry(result, state):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/waiter.py", line 320, in _IsNotDone
+    return not poller.IsDone(operation)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/bin/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/waiter.py", line 122, in IsDone
+    raise OperationError(operation.error.message)
+googlecloudsdk.api_lib.util.waiter.OperationError: Build failed; check build logs for details
+ERROR: (gcloud.run.deploy) Build failed; check build logs for details
