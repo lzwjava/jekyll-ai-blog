@@ -15,6 +15,17 @@ TARGET_GROUPS = [
     "⌨️ GitHub",
 ]
 
+# Target groups to switch to DIRECT
+DIRECT_GROUPS = [
+    "🍎 苹果服务",
+    "Ⓜ️ 微软服务",
+]
+
+# Target groups to switch to REJECT
+REJECT_GROUPS = [
+    "🛑 全球拦截",
+]
+
 # Preferred node filters (avoiding Hong Kong as per plan)
 NODE_FILTERS = ["新加坡", "日本", "台湾", "美国", "SG", "JP", "TW", "US"]
 
@@ -40,17 +51,37 @@ def select_best_provider(dry_run=False):
 
     if dry_run:
         logging.info(f"Dry run: Would have switched groups {TARGET_GROUPS} to {best_proxy}")
+        logging.info(f"Dry run: Would have switched groups {DIRECT_GROUPS} to DIRECT")
+        logging.info(f"Dry run: Would have switched groups {REJECT_GROUPS} to REJECT")
         print(f"Dry run: Would have switched groups {TARGET_GROUPS} to {best_proxy}")
+        print(f"Dry run: Would have switched groups {DIRECT_GROUPS} to DIRECT")
+        print(f"Dry run: Would have switched groups {REJECT_GROUPS} to REJECT")
         return
 
-    # Switch all target groups
+    # Switch all target groups to best proxy
     success_count = 0
     for group in TARGET_GROUPS:
         if switch_clash_proxy_group(group, best_proxy):
             success_count += 1
 
-    logging.info(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups.")
-    print(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups.")
+    # Switch specific groups to DIRECT
+    direct_success_count = 0
+    for group in DIRECT_GROUPS:
+        if switch_clash_proxy_group(group, "DIRECT"):
+            direct_success_count += 1
+
+    # Switch specific groups to REJECT
+    reject_success_count = 0
+    for group in REJECT_GROUPS:
+        if switch_clash_proxy_group(group, "REJECT"):
+            reject_success_count += 1
+
+    logging.info(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to {best_proxy}.")
+    logging.info(f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT.")
+    logging.info(f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT.")
+    print(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to {best_proxy}.")
+    print(f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT.")
+    print(f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT.")
 
 def main():
     parser = argparse.ArgumentParser(description="Automatically select the best Clash proxy for main selector groups.")
