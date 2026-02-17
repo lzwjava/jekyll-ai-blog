@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Zhiwei, your observation is sharp and aligns with some of the most powerful principles in both software engineering and modern business strategy. Let’s break down your insights and explore how these principles apply to successful companies—especially in tech—and why traditional industries like banking often struggle with these concepts.
+Your observation is sharp and aligns with some of the most powerful principles in both software engineering and modern business strategy. Let’s break down your insights and explore how these principles apply to successful companies—especially in tech—and why traditional industries like banking often struggle with these concepts.
 
 ---
 
