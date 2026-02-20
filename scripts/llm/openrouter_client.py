@@ -30,7 +30,7 @@ DEFAULT_TOKENS = {
     "claude-sonnet": 8192,
     "gemini-flash": 400000,
     "gemini-pro": 8192,
-    "kimi": 32768,
+    "kimi": 182768,
     "deepseek": 132768,
     "mistral": 92768,
     "qwen": 32768,
