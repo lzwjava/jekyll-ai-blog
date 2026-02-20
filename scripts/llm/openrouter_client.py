@@ -32,7 +32,7 @@ DEFAULT_TOKENS = {
     "gemini-pro": 8192,
     "kimi": 32768,
     "deepseek": 32768,
-    "mistral": 32768,
+    "mistral": 92768,
     "qwen": 32768,
     "gpt": 8192,
     "grok-code": 62144,
