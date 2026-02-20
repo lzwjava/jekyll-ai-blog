@@ -31,7 +31,7 @@ DEFAULT_TOKENS = {
     "gemini-flash": 400000,
     "gemini-pro": 8192,
     "kimi": 32768,
-    "deepseek": 32768,
+    "deepseek": 132768,
     "mistral": 92768,
     "qwen": 32768,
     "gpt": 8192,
