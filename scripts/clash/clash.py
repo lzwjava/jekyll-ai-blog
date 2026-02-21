@@ -20,7 +20,7 @@ def main():
         description="Clash configuration and management script."
     )
     parser.add_argument(
-        "--minutes", type=int, default=20, help="Minutes between updates (default: 20)"
+        "--minutes", type=int, default=60, help="Minutes between updates (default: 60)"
     )
     parser.add_argument(
         "--iterations",
