@@ -1,11 +1,10 @@
 ---
-audio: false
+audio: true
 generated: false
 image: true
 lang: en
 layout: post
 title: Portfolio
-translated: false
 type: post
 ---
 
@@ -437,7 +436,8 @@ Contributed to the development of an AI-powered story bot using Claude's API for
 **Responsibilities:**
 - Backend Engineer outsourced to HSBC Bank under TEKsystems, developing and optimizing backend systems for a module of the Finance Transformation Platform in HSBC’s Enterprise Technology Department. 
 - Maintained features for financial data processing including import, validation, and export, while enhancing submission and approval workflows for new financial headers. Gained experience in accounting, ledger, and banking systems.
-- Participated the full development lifecycle, from local development to UAT testing and production releases. Copilot was heavily utilized for tasks such as analyzing root causes, generating reusable Python scripts, and documenting around 500 technical guides. Some of these guides became key references for teammates facing similar challenges.
-- Made myself an autonomous humanoid AI agent that automates as much as possible—through scripting, logging, documenting, and sharing. With caching and validation of LLM outputs, dedicated prompts and contexts for 20 customized or vertical agents, and 300 reusable Copilot-written scripts across the tech stack, the engineering experience in a large bank has started to feel good.
-- Led integration and API testing for the module, using the Copilot API to auto-generate around 100 test cases covering Spring Filters in Java, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
-- Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, and Python, along with tools including Windows, Control-M, IBM WebSphere Application Server, and Copilot.
+- Participated in the full development lifecycle, from local development to UAT testing and production releases. Helped decommission legacy applications running on WebSphere Application Server. Automated releases using Ansible and Jenkins, assisted in upgrading Angular to a major version, and enjoyed tackling all kinds of tasks—especially resolving bottlenecks for the team.
+- Led integration and API testing for the module, using the Copilot API to auto-generate around 70 test cases covering Spring Filters in Java, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+- Made myself an autonomous humanoid AI agent to automate as much as possible—through scripting, logging, documenting, and sharing. By implementing caching and validation of LLM outputs, creating dedicated prompts and contexts for 20 customized agents, and leveraging 400 reusable Copilot-written scripts and 1,100 Copilot-written guides across the tech stack, the engineering experience in a large bank has started to feel good.
+- Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, Python, HashiCorp Vault, Ansible, along with tools including Windows, Control-M, IBM WebSphere Liberty Profile, and Copilot.  
+- Joined the internal HSBC AI Community; stayed updated on AI progress after work; trained small models using Andrej Karpathy's nanoGPT; utilized OpenRouter and Claude Code for extensive coding in personal projects; consumed approximately 320 million tokens over the past year; learned a bit about MCP, LangChain, Codex, reasoning, and more.
