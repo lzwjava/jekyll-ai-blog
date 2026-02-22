@@ -426,8 +426,9 @@ Contributed to the development of an AI-powered story bot using Claude's API for
 - Developed backend with Flask and integrated Claude's API.
 - Built frontend with React for prompt setting and management.
 - Deployed on AWS and used Nginx for secure communication.
-- Implemented Prometheus for monitoring and ELK stack for log management.
 - Implemented end-to-end trace ID solution for tracking requests across the system.
+- Implemented Prometheus for monitoring and ELK stack for log management.
+
 
 ## Finance Transformation Platform - HSBC, Backend, 2025.02 - Present
 
