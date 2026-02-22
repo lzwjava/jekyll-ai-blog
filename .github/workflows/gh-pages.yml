@@ -53,7 +53,7 @@ jobs:
             echo "No language files to update."
           else
             for i in $(seq 1 "$((2 + TOTAL_POSTS / 9 + (TOTAL_POSTS % 9 != 0)))"); do
-              python scripts/translation/update_lang.py --max_files 9 --model mistral --commits 1000
+              python scripts/translation/update_lang.py --max_files 9 --model grok-fast --commits 1000
               git config user.name "github-actions[bot]"
               git config user.email "github-actions[bot]@users.noreply.github.com"
               git add _posts/**/*.md
@@ -68,7 +68,7 @@ jobs:
 
       - name: Translate notes in batches
         run: |
-          python scripts/translation/update_lang_notes.py --n 100 --model mistral
+          python scripts/translation/update_lang_notes.py --n 100 --model grok-fast
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/**/**
