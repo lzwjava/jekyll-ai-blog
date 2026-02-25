@@ -48,6 +48,11 @@ def main():
         choices=["rule", "global"],
         help="Mode: rule (standard groups) or global (GLOBAL group + DNS) (default: rule)"
     )
+    parser.add_argument(
+        "--not_stop_system_proxy",
+        action="store_true",
+        help="Do not stop existing system proxy settings at the beginning of each iteration"
+    )
     args = parser.parse_args()
 
     if args.type == "zhs":
@@ -84,8 +89,9 @@ def main():
     for i in range(1, ITERATIONS + 1):
         logging.info(f"--- Starting Iteration {i} of {ITERATIONS} ---")
 
-        # Step 1: Stop any existing system proxy settings
-        stop_system_proxy()
+        # Step 1: Stop any existing system proxy settings (if not disabled)
+        if not args.not_stop_system_proxy:
+            stop_system_proxy()
 
         # Step 2: Download and update Clash config
         try:
