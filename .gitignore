@@ -47,3 +47,4 @@ wikipedia_test_dump
 fineweb_test_dump
 scripts/train/*.pdf
 scripts/train/*.png
+*.yaml
