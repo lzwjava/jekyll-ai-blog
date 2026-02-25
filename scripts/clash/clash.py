@@ -53,6 +53,11 @@ def main():
         action="store_true",
         help="Do not stop existing system proxy settings at the beginning of each iteration"
     )
+    parser.add_argument(
+        "--config-file",
+        type=str,
+        help="Path to an existing config file. If provided, copies this file instead of downloading from URL"
+    )
     args = parser.parse_args()
 
     if args.type == "zhs":
@@ -86,6 +91,12 @@ def main():
     clash_config_dir = os.path.expanduser("~/.config/clash")
     clash_config_path = os.path.join(clash_config_dir, "config.yaml")
 
+    # If config file is provided, validate it exists
+    if args.config_file:
+        if not os.path.exists(args.config_file):
+            logging.critical(f"Error: Config file not found at: {args.config_file}")
+            return
+
     for i in range(1, ITERATIONS + 1):
         logging.info(f"--- Starting Iteration {i} of {ITERATIONS} ---")
 
@@ -93,16 +104,21 @@ def main():
         if not args.not_stop_system_proxy:
             stop_system_proxy()
 
-        # Step 2: Download and update Clash config
+        # Step 2: Download or copy Clash config
         try:
-            logging.info(f"Downloading new config from: {config_download_url}")
-            subprocess.run(
-                ["wget", config_download_url, "-O", temp_filename],
-                check=True,
-                capture_output=True,
-            )
-            os.makedirs(clash_config_dir, exist_ok=True)
-            shutil.move(temp_filename, clash_config_path)
+            if args.config_file:
+                logging.info(f"Copying config from: {args.config_file}")
+                os.makedirs(clash_config_dir, exist_ok=True)
+                shutil.copy(args.config_file, clash_config_path)
+            else:
+                logging.info(f"Downloading new config from: {config_download_url}")
+                subprocess.run(
+                    ["wget", config_download_url, "-O", temp_filename],
+                    check=True,
+                    capture_output=True,
+                )
+                os.makedirs(clash_config_dir, exist_ok=True)
+                shutil.move(temp_filename, clash_config_path)
             if args.mode == "global":
                 with open(clash_config_path, 'r') as f:
                     config = yaml.safe_load(f)
