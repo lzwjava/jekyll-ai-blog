@@ -200,8 +200,8 @@ def main():
         try:
             # Set proxy name filter based on type
             if args.type == "zhs":
-                name_filter = ["SG", "TW"]
-                filter_desc = "SG/TW"
+                name_filter = ["SG", "TW", "US", "UK", "JP"]
+                filter_desc = "SG/TW/US/UK/JP"
             else:
                 name_filter = ["新加坡", "台湾", "日本", "美国", "印度", "越南", "加拿大"]
                 filter_desc = "SG/TW/JP/US/IN/VN/CA"
