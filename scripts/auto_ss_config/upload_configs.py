@@ -26,6 +26,7 @@ def decode_ss_url(ss_url):
         decoded_part = base64.urlsafe_b64decode(encoded_part).decode("utf-8")
         method, password = decoded_part.split(":")
         return {
+            "type": "ss",
             "server": server,
             "port": int(port),
             "cipher": method,
@@ -34,18 +35,84 @@ def decode_ss_url(ss_url):
     return None
 
 
+def decode_hy2_url(hy2_url):
+    # Hysteria2 URL format: hy2://password@server:port/?sni=hostname
+    # or hy2://password@server/?sni=hostname (default port 443)
+    match = re.match(r"hy2://(.+)@([^/]+)(/.*)?", hy2_url)
+    if match:
+        password = match.group(1)
+        server_part = match.group(2)
+        params = match.group(3) or ""
+
+        # Extract server and port
+        if ":" in server_part:
+            server, port = server_part.split(":")
+            port = int(port)
+        else:
+            server = server_part
+            port = 443  # Default port for Hysteria2
+
+        # Extract SNI from query parameters
+        sni = None
+        if "?" in params:
+            query_string = params.split("?", 1)[1]
+            for param in query_string.split("&"):
+                if "=" in param:
+                    key, value = param.split("=", 1)
+                    if key == "sni":
+                        sni = value
+
+        return {
+            "type": "hysteria2",
+            "server": server,
+            "port": port,
+            "password": password,
+            "sni": sni,
+        }
+    return None
+
+
+def decode_proxy_url(url):
+    url = url.strip()
+    if url.startswith("ss://"):
+        return decode_ss_url(url)
+    elif url.startswith("hy2://"):
+        return decode_hy2_url(url)
+    else:
+        logger.warning(f"Unknown proxy type: {url}")
+        return None
+
+
 def create_proxy_config(proxy, index):
-    return {
-        "name": f"My SS Proxy {index+1}",
-        "type": "ss",
-        "server": proxy["server"],
-        "port": proxy["port"],
-        "cipher": proxy["cipher"],
-        "password": proxy["password"],
-        "udp": True,
-        "plugin": "",
-        "plugin-opts": {},
-    }
+    proxy_type = proxy.get("type", "ss")
+    name_suffix = f"SS {index+1}" if proxy_type == "ss" else f"Hysteria2 {index+1}"
+
+    if proxy_type == "ss":
+        return {
+            "name": f"My {name_suffix}",
+            "type": "ss",
+            "server": proxy["server"],
+            "port": proxy["port"],
+            "cipher": proxy["cipher"],
+            "password": proxy["password"],
+            "udp": True,
+            "plugin": "",
+            "plugin-opts": {},
+        }
+    elif proxy_type == "hysteria2":
+        config = {
+            "name": f"My {name_suffix}",
+            "type": "hysteria2",
+            "server": proxy["server"],
+            "port": proxy["port"],
+            "password": proxy["password"],
+        }
+        if proxy.get("sni"):
+            config["sni"] = proxy["sni"]
+        return config
+    else:
+        logger.error(f"Unknown proxy type: {proxy_type}")
+        return None
 
 
 def update_proxy_groups(config, proxy_names):
