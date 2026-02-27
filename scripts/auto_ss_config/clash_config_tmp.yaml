@@ -17,16 +17,9 @@ dns:
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
-    #- 223.6.6.6
   nameserver:
-    #如果你有自建的DNS服务器或专用网络的DNS服务器可在托管链接添加如 &dns=9.9.9.9 参数
-    #自定义DNS将添加在下方并优先使用 支持Doh/Dot等dns
-    #注意: 9.9.9.9替换成你要自定义的DNS，此DNS必须有效，否则将导致出错无法使用
-
-    - https://223.5.5.5/dns-query
-    - https://1.12.12.12/dns-query
-    #- https://doh.pub/dns-query
-    #- https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
