@@ -99,7 +99,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./Rules/AI.yaml
-    url: https://raw.githubusercontent.com/lzwjava/lzwjava.github.io/refs/heads/main/scripts/auto-ss-config/AI.yaml
+    url: https://raw.githubusercontent.com/lzwjava/blog-source/refs/heads/main/scripts/auto_ss_config/AI.yaml
     interval: 1440  
 
 rules:
