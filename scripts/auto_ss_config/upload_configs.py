@@ -135,21 +135,21 @@ def _get_file_path(filename):
     return file_path
 
 
-def generate_clash_config(ss_urls):
-    # Decode Shadowsocks URLs
+def generate_clash_config(proxy_urls):
+    # Decode proxy URLs (support both SS and Hysteria2)
     proxies = []
-    for ss_url in ss_urls:
-        ss_url = ss_url.strip()
-        if ss_url:
-            proxy_config = decode_ss_url(ss_url)
+    for url in proxy_urls:
+        url = url.strip()
+        if url:
+            proxy_config = decode_proxy_url(url)
             if proxy_config:
                 proxies.append(proxy_config)
 
     if not proxies:
-        logger.error("No valid SS URLs found in config file")
+        logger.error("No valid proxy URLs found in config file")
         return None
 
-    logger.info(f"Found {len(proxies)} valid SS proxies")
+    logger.info(f"Found {len(proxies)} valid proxies")
 
     # Read existing config.yaml
     yaml = YAML()
@@ -160,7 +160,7 @@ def generate_clash_config(ss_urls):
         config = yaml.load(file)
 
     # Create proxy configurations
-    proxy_configs = [create_proxy_config(proxy, i) for i, proxy in enumerate(proxies)]
+    proxy_configs = [create_proxy_config(proxy, i) for i, proxy in enumerate(proxies) if create_proxy_config(proxy, i) is not None]
     proxy_names = [proxy["name"] for proxy in proxy_configs]
 
     # Update config

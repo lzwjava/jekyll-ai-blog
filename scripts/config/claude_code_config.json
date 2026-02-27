@@ -26,11 +26,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,z-ai/glm-4.7",
-    "background": "openrouter,z-ai/glm-4.7",
-    "think": "openrouter,z-ai/glm-4.7",
-    "longContext": "openrouter,z-ai/glm-4.7",
+    "default": "openrouter,x-ai/grok-code-fast-1",
+    "background": "openrouter,x-ai/grok-code-fast-1",
+    "think": "openrouter,x-ai/grok-code-fast-1",
+    "longContext": "openrouter,x-ai/grok-code-fast-1",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,z-ai/glm-4.7"
+    "webSearch": "openrouter,x-ai/grok-code-fast-1"
   }
 }
