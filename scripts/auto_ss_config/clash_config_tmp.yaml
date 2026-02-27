@@ -69,11 +69,6 @@ proxy-groups:
     proxies:
       - My SS Proxy 1
       - My SS Proxy 2
-  - name: "AI"
-    type: select
-    proxies:
-      - My SS Proxy 1
-      - My SS Proxy 2    
 
 rule-providers:
   Global:
@@ -116,7 +111,6 @@ rules:
   - IP-CIDR,224.0.0.0/4,DIRECT
   - DOMAIN-SUFFIX,linkedin.com,Proxy
   - DOMAIN-SUFFIX,deepseek.com,Proxy
-  - RULE-SET,AIRule,AI
   - RULE-SET,Global,Proxy
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIP,DIRECT
