@@ -2,7 +2,7 @@ listen: :443
 
 acme:
   domains:
-    - h2.xx.shop
+    - h2.xx.xx
   email: your@email.com
 
 auth:
