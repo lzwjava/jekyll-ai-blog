@@ -1,0 +1,16 @@
+listen: :443
+
+acme:
+  domains:
+    - h2.xx.shop
+  email: your@email.com
+
+auth:
+  type: password
+  password: NYowgEuHDxxx
+
+masquerade:
+  type: proxy
+  proxy:
+    url: https://news.ycombinator.com/
+    rewriteHost: true
