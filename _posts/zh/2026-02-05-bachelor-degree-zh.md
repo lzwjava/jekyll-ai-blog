@@ -8,9 +8,9 @@ title: 学士学位进度
 translated: true
 ---
 
-## **完整课程列表（新方案 - 2026+）**
+## **完整课程列表（新计划 - 2026+）**
 
-- 080901，计算机科学与技术本科专业
+- 080901, Computer Science and Technology 本科专业
 
 ### **必修课程 - 15 门课程，共 72 学分：**
 
@@ -35,10 +35,10 @@ translated: true
 | 13006 | Software Engineering (Practical) | 2 | 实践 |
 | 13009 | Database Principles and Applications | 4 | 笔试 |
 | 13011 | Artificial Intelligence and Big Data | 6 | 笔试 |
-| 11689 | Graduation Thesis | 0（必修） | 论文 |
+| 11689 | Graduation Thesis | 0（必修） | 毕业论文 |
 
-### 2026年4月
+### 2026 年 4 月
 
 | 课程代码 | 课程名称  |
-|----------|-----------------------|
-| 13000 | English (Professional) |
+|----------|--------------------|
+| 08074 | Advanced Computer Programming | 3 | 笔试 |

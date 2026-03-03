@@ -42,5 +42,5 @@ translated: false
 
 | Course Code | Course Name  |
 |-------------|-----------------------|
-| 13000 | English (Professional) | 
+| 08074 | Advanced Computer Programming | 3 | Written |
 
