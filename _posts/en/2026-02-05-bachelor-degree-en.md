@@ -10,6 +10,8 @@ translated: false
 
 ## **Complete Course List (New Plan - 2026+)**
 
+- 080901, Computer Science and Technology undergraduate major
+
 ### ** Required Courses - 15 courses, 72 credits total:**
 
 | **Course Code** | **Course Name (English)** | **Credits** | **Exam Type** |
