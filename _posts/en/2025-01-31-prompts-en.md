@@ -200,3 +200,7 @@ What are some unpopular opinions about something?
 ---
 
 give comprehensive explain of each options
+
+---
+
+english translation of whole essay in university chinese
