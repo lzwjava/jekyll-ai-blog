@@ -203,4 +203,4 @@ give comprehensive explain of each options
 
 ---
 
-english translation of whole essay in university chinesee
+english translation of whole essay in university chinese
