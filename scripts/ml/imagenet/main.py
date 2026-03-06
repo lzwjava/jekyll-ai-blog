@@ -169,7 +169,7 @@ def train(train_loader, model, loss_fn, optimizer, epoch, args):
         prefix="Epoch: [{}]".format(epoch)
     )
 
-    model.train(,
+    model.train()
 
     end = time.time()
     device = get_device()

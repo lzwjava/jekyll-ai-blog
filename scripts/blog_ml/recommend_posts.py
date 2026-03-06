@@ -41,10 +41,9 @@ class Autoencoder(nn.Module):
             nn.Linear(256, embedding_size)
         )
         self.decoder = nn.Sequential(
-vocab_size = 5000,
-model = Autoencoder(vocab_size)
-optimizer = optim.Adam(model.parameters(), lr=0.001)
-loss_fn = nn.MSELoss()
+            nn.Linear(embedding_size, 256),
+            nn.ReLU(),
+            nn.Linear(256, input_size)
         )
     
     def forward(self, x):
