@@ -50,7 +50,6 @@ def prune_notes(curr_notes):
 def clean_up_notes(curr_notes):
     removeIxs = []
     for ix, m in enumerate(curr_notes):
-
         if m.quarterLength == 0.0:
             m.quarterLength = 0.250
 

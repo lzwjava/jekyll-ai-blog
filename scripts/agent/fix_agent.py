@@ -41,7 +41,9 @@ def fix_script(script_path, error_message, model):
     lang = (
         "Python"
         if script_path.suffix == ".py"
-        else "Rust" if script_path.suffix == ".rs" else "Unknown"
+        else "Rust"
+        if script_path.suffix == ".rs"
+        else "Unknown"
     )
     prompt = f"Error in {lang} script {script_path}:\n{error_message}\nPlease provide only the corrected code for the entire script without any explanations, markdown syntax, or additional text."
     response = call_openrouter_api(prompt, model=model)

@@ -67,7 +67,7 @@ def main():
         lines = f.readlines()
 
     # Prepare numbered lines for the prompt
-    numbered_lines = [f"Line {i+1}: {line.rstrip()}" for i, line in enumerate(lines)]
+    numbered_lines = [f"Line {i + 1}: {line.rstrip()}" for i, line in enumerate(lines)]
     content = "\n".join(numbered_lines)
 
     current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

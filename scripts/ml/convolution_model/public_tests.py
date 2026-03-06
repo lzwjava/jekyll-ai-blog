@@ -3,7 +3,6 @@ from outputs import *
 
 
 def zero_pad_test(target):
-
     np.random.seed(1)
     x = np.random.randn(4, 3, 3, 2)
     x_pad = target(x, 3)
@@ -53,7 +52,6 @@ def zero_pad_test(target):
 
 
 def conv_single_step_test(target):
-
     np.random.seed(3)
     a_slice_prev = np.random.randn(5, 5, 3)
     W = np.random.randn(5, 5, 3)
@@ -62,12 +60,12 @@ def conv_single_step_test(target):
     Z = target(a_slice_prev, W, b)
     expected_output = np.float64(-3.5443670581382474)
 
-    assert (
-        type(Z) == np.float64 or type(Z) == np.float32
-    ), "You must cast the output to float"
-    assert np.isclose(
-        Z, expected_output
-    ), f"Wrong value. Expected: {expected_output} got: {Z}"
+    assert type(Z) == np.float64 or type(Z) == np.float32, (
+        "You must cast the output to float"
+    )
+    assert np.isclose(Z, expected_output), (
+        f"Wrong value. Expected: {expected_output} got: {Z}"
+    )
 
     print("\033[92mAll tests passed!")
 
@@ -125,7 +123,6 @@ def conv_forward_test_1(z_mean, z_0_2_1, cache_0_1_2_3):
 
 
 def conv_forward_test_2(target):
-
     np.random.seed(3)
     A_prev = np.random.randn(2, 5, 7, 4)
     W = np.random.randn(3, 3, 4, 8)
@@ -133,14 +130,14 @@ def conv_forward_test_2(target):
 
     Z, cache_conv = target(A_prev, W, b, {"pad": 3, "stride": 1})
     Z_shape = Z.shape
-    assert (
-        Z_shape[0] == A_prev.shape[0]
-    ), f"m is wrong. Current: {Z_shape[0]}.  Expected: {A_prev.shape[0]}"
+    assert Z_shape[0] == A_prev.shape[0], (
+        f"m is wrong. Current: {Z_shape[0]}.  Expected: {A_prev.shape[0]}"
+    )
     assert Z_shape[1] == 9, f"n_H is wrong. Current: {Z_shape[1]}.  Expected: 9"
     assert Z_shape[2] == 11, f"n_W is wrong. Current: {Z_shape[2]}.  Expected: 11"
-    assert (
-        Z_shape[3] == W.shape[3]
-    ), f"n_C is wrong. Current: {Z_shape[3]}.  Expected: {W.shape[3]}"
+    assert Z_shape[3] == W.shape[3], (
+        f"n_C is wrong. Current: {Z_shape[3]}.  Expected: {W.shape[3]}"
+    )
 
     Z, cache_conv = target(A_prev, W, b, {"pad": 0, "stride": 2})
     assert Z.shape == (
@@ -154,14 +151,14 @@ def conv_forward_test_2(target):
     b = np.random.randn(1, 1, 1, 8)
     Z, cache_conv = target(A_prev, W, b, {"pad": 6, "stride": 1})
     Z_shape = Z.shape
-    assert (
-        Z_shape[0] == A_prev.shape[0]
-    ), f"m is wrong. Current: {Z_shape[0]}.  Expected: {A_prev.shape[0]}"
+    assert Z_shape[0] == A_prev.shape[0], (
+        f"m is wrong. Current: {Z_shape[0]}.  Expected: {A_prev.shape[0]}"
+    )
     assert Z_shape[1] == 13, f"n_H is wrong. Current: {Z_shape[1]}.  Expected: 13"
     assert Z_shape[2] == 15, f"n_W is wrong. Current: {Z_shape[2]}.  Expected: 15"
-    assert (
-        Z_shape[3] == W.shape[3]
-    ), f"n_C is wrong. Current: {Z_shape[3]}.  Expected: {W.shape[3]}"
+    assert Z_shape[3] == W.shape[3], (
+        f"n_C is wrong. Current: {Z_shape[3]}.  Expected: {W.shape[3]}"
+    )
 
     Z_means = np.mean(Z)
     expected_Z = -0.5384027772160062
@@ -178,47 +175,46 @@ def conv_forward_test_2(target):
         ]
     )
 
-    assert np.isclose(
-        Z_means, expected_Z
-    ), f"Wrong Z mean. Expected: {expected_Z} got: {Z_means}"
+    assert np.isclose(Z_means, expected_Z), (
+        f"Wrong Z mean. Expected: {expected_Z} got: {Z_means}"
+    )
     assert np.allclose(cache_conv[0][1, 2], expected_conv), f"Values in Z are wrong"
 
     print("\033[92mSecond Test: All tests passed!")
 
 
 def pool_forward_test_1(target):
-
     A_prev = np.random.randn(2, 5, 7, 3)
     A, cache = target(A_prev, {"stride": 2, "f": 2}, mode="average")
     A_shape = A.shape
-    assert (
-        A_shape[0] == A_prev.shape[0]
-    ), f"Test 1 - m is wrong. Current: {A_shape[0]}.  Expected: {A_prev.shape[0]}"
-    assert (
-        A_shape[1] == 2
-    ), f"Test 1 - n_H is wrong. Current: {A_shape[1]}.  Expected: 2"
-    assert (
-        A_shape[2] == 3
-    ), f"Test 1 - n_W is wrong. Current: {A_shape[2]}.  Expected: 3"
-    assert (
-        A_shape[3] == A_prev.shape[3]
-    ), f"Test 1 - n_C is wrong. Current: {A_shape[3]}.  Expected: {A_prev.shape[3]}"
+    assert A_shape[0] == A_prev.shape[0], (
+        f"Test 1 - m is wrong. Current: {A_shape[0]}.  Expected: {A_prev.shape[0]}"
+    )
+    assert A_shape[1] == 2, (
+        f"Test 1 - n_H is wrong. Current: {A_shape[1]}.  Expected: 2"
+    )
+    assert A_shape[2] == 3, (
+        f"Test 1 - n_W is wrong. Current: {A_shape[2]}.  Expected: 3"
+    )
+    assert A_shape[3] == A_prev.shape[3], (
+        f"Test 1 - n_C is wrong. Current: {A_shape[3]}.  Expected: {A_prev.shape[3]}"
+    )
 
     A_prev = np.random.randn(4, 5, 7, 4)
     A, cache = target(A_prev, {"stride": 1, "f": 5}, mode="max")
     A_shape = A.shape
-    assert (
-        A_shape[0] == A_prev.shape[0]
-    ), f"Test 2 - m is wrong. Current: {A_shape[0]}.  Expected: {A_prev.shape[0]}"
-    assert (
-        A_shape[1] == 1
-    ), f"Test 2 - n_H is wrong. Current: {A_shape[1]}.  Expected: 1"
-    assert (
-        A_shape[2] == 3
-    ), f"Test 2 - n_W is wrong. Current: {A_shape[2]}.  Expected: 3"
-    assert (
-        A_shape[3] == A_prev.shape[3]
-    ), f"Test 2 - n_C is wrong. Current: {A_shape[3]}.  Expected: {A_prev.shape[3]}"
+    assert A_shape[0] == A_prev.shape[0], (
+        f"Test 2 - m is wrong. Current: {A_shape[0]}.  Expected: {A_prev.shape[0]}"
+    )
+    assert A_shape[1] == 1, (
+        f"Test 2 - n_H is wrong. Current: {A_shape[1]}.  Expected: 1"
+    )
+    assert A_shape[2] == 3, (
+        f"Test 2 - n_W is wrong. Current: {A_shape[2]}.  Expected: 3"
+    )
+    assert A_shape[3] == A_prev.shape[3], (
+        f"Test 2 - n_C is wrong. Current: {A_shape[3]}.  Expected: {A_prev.shape[3]}"
+    )
 
     np.random.seed(1)
     A_prev = np.random.randn(2, 5, 5, 3)
@@ -268,7 +264,6 @@ def pool_forward_test_1(target):
 
 
 def pool_forward_test_2(target):
-
     np.random.seed(1)
     A_prev = np.random.randn(2, 5, 5, 3)
 
@@ -288,7 +283,9 @@ def pool_forward_test_2(target):
                 ],
             ]
         ),
-    ), "Wrong value for A[0] in mode max. Make sure you have included stride in your calculation"
+    ), (
+        "Wrong value for A[0] in mode max. Make sure you have included stride in your calculation"
+    )
 
     A, cache = target(A_prev, {"stride": 2, "f": 3}, mode="average")
 
@@ -306,13 +303,14 @@ def pool_forward_test_2(target):
                 ],
             ]
         ),
-    ), "Wrong value for A[1] in mode average. Make sure you have included stride in your calculation"
+    ), (
+        "Wrong value for A[1] in mode average. Make sure you have included stride in your calculation"
+    )
 
     print("\033[92mAll tests passed!")
 
 
 def conv_backward_test(target):
-
     test_cases = [
         {
             "name": "datatype_check",
@@ -338,7 +336,6 @@ def conv_backward_test(target):
 
 
 def create_mask_from_window_test(target):
-
     test_cases = [
         {
             "name": "datatype_check",
@@ -389,7 +386,6 @@ def distribute_value_test(target):
 
 
 def pool_backward_test(target):
-
     test_cases = [
         {
             "name": "datatype_check",

@@ -145,11 +145,9 @@ def model(
     init = tf.global_variables_initializer()
 
     with tf.Session() as sess:
-
         sess.run(init)
 
         for epoch in range(num_epochs):
-
             minibatch_cost = 0.0
             num_minibatches = int(m / minibatch_size)
             seed = seed + 1

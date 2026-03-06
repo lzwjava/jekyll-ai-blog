@@ -198,7 +198,6 @@ def conv_backward(dZ, cache):
     dA_prev_pad = zero_pad(dA_prev, pad)
 
     for i in range(m):
-
         a_prev_pad = A_prev_pad[i]
         da_prev_pad = dA_prev_pad[i]
 
@@ -309,20 +308,17 @@ def pool_backward(dA, cache, mode="max"):
     dA_prev = np.zeros_like(A_prev)
 
     for i in range(m):
-
         a_prev = A_prev[i]
 
         for h in range(n_H):
             for w in range(n_W):
                 for c in range(n_C):
-
                     vert_start = h * stride
                     vert_end = vert_start + f
                     horiz_start = w * stride
                     horiz_end = horiz_start + f
 
                     if mode == "max":
-
                         a_prev_slice = a_prev[
                             vert_start:vert_end, horiz_start:horiz_end, c
                         ]
@@ -334,14 +330,13 @@ def pool_backward(dA, cache, mode="max"):
                         )
 
                     elif mode == "average":
-
                         da = dA[i, h, w, c]
 
                         shape = (f, f)
 
-                        dA_prev[
-                            i, vert_start:vert_end, horiz_start:horiz_end, c
-                        ] += distribute_value(da, shape)
+                        dA_prev[i, vert_start:vert_end, horiz_start:horiz_end, c] += (
+                            distribute_value(da, shape)
+                        )
 
     return dA_prev
 
@@ -366,9 +361,9 @@ print("dA_prev2[1,1] = ", dA_prev2[1, 1])
 
 assert type(dA_prev1) == np.ndarray, "Wrong type"
 assert dA_prev1.shape == (5, 5, 3, 2), f"Wrong shape {dA_prev1.shape} != (5, 5, 3, 2)"
-assert np.allclose(
-    dA_prev1[1, 1], [[0, 0], [5.05844394, -1.68282702], [0, 0]]
-), "Wrong values for mode max"
+assert np.allclose(dA_prev1[1, 1], [[0, 0], [5.05844394, -1.68282702], [0, 0]]), (
+    "Wrong values for mode max"
+)
 assert np.allclose(
     dA_prev2[1, 1],
     [[0.08485462, 0.2787552], [1.26461098, -0.25749373], [1.17975636, -0.53624893]],

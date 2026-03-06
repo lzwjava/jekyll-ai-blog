@@ -148,10 +148,7 @@ def maybe_create_markdown_mirror(
 
     fenced_lang = "py"
     frontmatter = (
-        "---\n"
-        f"title: {source_file.name}\n"
-        f"path: {relative_path.as_posix()}\n"
-        "---\n\n"
+        f"---\ntitle: {source_file.name}\npath: {relative_path.as_posix()}\n---\n\n"
     )
 
     md_body = f"```{fenced_lang}\n{original_content}\n```\n"

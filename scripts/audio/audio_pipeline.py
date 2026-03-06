@@ -277,7 +277,6 @@ def process_markdown_files(
     os.makedirs(output_dir, exist_ok=True)
 
     if task == "posts":
-
         total_files = 0
         last_md_files = []
         for lang_dir in os.listdir(input_dir):

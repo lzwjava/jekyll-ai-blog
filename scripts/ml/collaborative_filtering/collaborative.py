@@ -93,7 +93,7 @@ my_rated = [i for i in range(len(my_ratings)) if my_ratings[i] > 0]
 print("\nNew user ratings:\n")
 for i in range(len(my_ratings)):
     if my_ratings[i] > 0:
-        print(f'Rated {my_ratings[i]} for  {movieList_df.loc[i, "title"]}')
+        print(f"Rated {my_ratings[i]} for  {movieList_df.loc[i, 'title']}")
 
 Y, R = load_ratings_small()
 
@@ -118,9 +118,7 @@ optimizer = keras.optimizers.Adam(learning_rate=1e-1)
 iterations = 200
 lambda_ = 1
 for iter in range(iterations):
-
     with tf.GradientTape() as tape:
-
         cost_value = cofi_cost_func_v(X, W, b, Ynorm, R, lambda_)
 
     grads = tape.gradient(cost_value, [X, W, b])

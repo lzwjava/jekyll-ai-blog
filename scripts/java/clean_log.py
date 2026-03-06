@@ -112,7 +112,7 @@ def clean_log(
                                 print(line, end="", file=outfile)
                         else:
                             print(
-                                f"Skipping duplicate lines: { ''.join([line.strip() for line in current_lines])}"
+                                f"Skipping duplicate lines: {''.join([line.strip() for line in current_lines])}"
                             )
                             removed_lines += len(current_lines)
                     else:

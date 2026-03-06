@@ -57,15 +57,15 @@ def data_augmenter():
 
 augmenter = data_augmenter()
 
-assert augmenter.layers[0].name.startswith(
-    "random_flip"
-), "First layer must be RandomFlip"
-assert (
-    augmenter.layers[0].mode == "horizontal"
-), "RadomFlip parameter must be horizontal"
-assert augmenter.layers[1].name.startswith(
-    "random_rotation"
-), "Second layer must be RandomRotation"
+assert augmenter.layers[0].name.startswith("random_flip"), (
+    "First layer must be RandomFlip"
+)
+assert augmenter.layers[0].mode == "horizontal", (
+    "RadomFlip parameter must be horizontal"
+)
+assert augmenter.layers[1].name.startswith("random_rotation"), (
+    "Second layer must be RandomRotation"
+)
 assert augmenter.layers[1].factor == 0.2, "Rotation factor must be 0.2"
 assert len(augmenter.layers) == 2, "The model must have only 2 layers"
 
@@ -207,9 +207,9 @@ metrics = ["accuracy"]
 
 model2.compile(loss=loss_function, optimizer=optimizer, metrics=metrics)
 
-assert (
-    type(loss_function) == tf.keras.losses.BinaryCrossentropy
-), "Not the correct layer"
+assert type(loss_function) == tf.keras.losses.BinaryCrossentropy, (
+    "Not the correct layer"
+)
 assert loss_function.from_logits, "Use from_logits=True"
 assert type(optimizer) == tf.keras.optimizers.Adam, "This is not an Adam optimizer"
 assert optimizer.lr == base_learning_rate / 10, "Wrong learning rate"

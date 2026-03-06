@@ -20,7 +20,8 @@ def main():
         "Content-Type": "application/json",
     }
 
-    query = """
+    query = (
+        """
     query {
       viewer {
         accounts(filter: {accountTag: "%s"}) {
@@ -30,7 +31,9 @@ def main():
         }
       }
     }
-    """ % account_id
+    """
+        % account_id
+    )
 
     response = requests.post(
         "https://api.cloudflare.com/client/v4/graphql",
@@ -44,7 +47,7 @@ def main():
     data = response.json()
     if "errors" in data:
         print(
-            f'GraphQL errors: {json.dumps(data["errors"], indent=2)}', file=sys.stderr
+            f"GraphQL errors: {json.dumps(data['errors'], indent=2)}", file=sys.stderr
         )
         sys.exit(1)
 

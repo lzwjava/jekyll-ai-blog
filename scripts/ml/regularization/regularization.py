@@ -36,7 +36,6 @@ def model(
     parameters = initialize_parameters(layers_dims)
 
     for i in range(0, num_iterations):
-
         if keep_prob == 1:
             a3, cache = forward_propagation(X, parameters)
         elif keep_prob < 1:

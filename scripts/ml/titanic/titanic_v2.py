@@ -8,7 +8,6 @@ from pandas import DataFrame
 
 
 class Net(nn.Module):
-
     def __init__(self):
         super(Net, self).__init__()
         hidden_unit = 10

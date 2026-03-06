@@ -156,7 +156,7 @@ def get_top_proxies(num_results=10):
         )
         for i, (name, latency) in enumerate(sorted_proxies[:num_results]):
             top_proxies_list.append({"name": name, "average_latency": latency})
-            logging.info(f"  {i+1}. {name}: {latency:.2f}ms")
+            logging.info(f"  {i + 1}. {name}: {latency:.2f}ms")
         logging.info(f"Finished speed testing. Top {num_results} proxies identified.")
 
     return top_proxies_list
@@ -169,7 +169,7 @@ def generate_report(top_proxies):
     else:
         print("Top Proxies (Fastest Average Latency):")
         for i, proxy in enumerate(top_proxies):
-            print(f"  {i+1}. {proxy['name']}: {proxy['average_latency']:.2f}ms")
+            print(f"  {i + 1}. {proxy['name']}: {proxy['average_latency']:.2f}ms")
     print("--- End of Report ---")
 
 

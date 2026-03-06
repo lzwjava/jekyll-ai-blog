@@ -470,7 +470,6 @@ w4_weights, w5_weights, w6_weights = list(), list(), list()
 scores = list()
 
 for i in tqdm(range(0, 3000)):
-
     w4 = np.random.random_sample(size=1)[0]
     w5 = np.random.random_sample(size=1)[0]
     w6 = np.random.random_sample(size=1)[0]

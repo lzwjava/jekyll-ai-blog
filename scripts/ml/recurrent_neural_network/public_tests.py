@@ -27,16 +27,16 @@ def rnn_cell_forward_tests(target):
     assert cache_tmp[0].shape == (5, 10), "Wrong shape in cache->a_next"
     assert cache_tmp[1].shape == (5, 10), "Wrong shape in cache->a_prev"
     assert cache_tmp[2].shape == (3, 10), "Wrong shape in cache->x_t"
-    assert (
-        len(cache_tmp[3].keys()) == 5
-    ), "Wrong number of parameters in cache. Expected 5"
+    assert len(cache_tmp[3].keys()) == 5, (
+        "Wrong number of parameters in cache. Expected 5"
+    )
 
-    assert np.allclose(
-        np.tanh(parameters_tmp["ba"]), a_next_tmp
-    ), "Problem 1 in a_next expression. Related to ba?"
-    assert np.allclose(
-        softmax(parameters_tmp["by"]), yt_pred_tmp
-    ), "Problem 1 in yt_pred expression. Related to by?"
+    assert np.allclose(np.tanh(parameters_tmp["ba"]), a_next_tmp), (
+        "Problem 1 in a_next expression. Related to ba?"
+    )
+    assert np.allclose(softmax(parameters_tmp["by"]), yt_pred_tmp), (
+        "Problem 1 in yt_pred expression. Related to by?"
+    )
 
     a_prev_tmp = np.zeros((5, 10))
     xt_tmp = np.random.randn(3, 10)
@@ -48,9 +48,9 @@ def rnn_cell_forward_tests(target):
 
     a_next_tmp, yt_pred_tmp, cache_tmp = target(xt_tmp, a_prev_tmp, parameters_tmp)
 
-    assert np.allclose(
-        np.tanh(np.dot(parameters_tmp["Wax"], xt_tmp)), a_next_tmp
-    ), "Problem 2 in a_next expression. Related to xt?"
+    assert np.allclose(np.tanh(np.dot(parameters_tmp["Wax"], xt_tmp)), a_next_tmp), (
+        "Problem 2 in a_next expression. Related to xt?"
+    )
     assert np.allclose(
         softmax(np.dot(parameters_tmp["Wya"], a_next_tmp)), yt_pred_tmp
     ), "Problem 2 in yt_pred expression. Related to a_next?"
@@ -103,9 +103,9 @@ def rnn_forward_test(target):
     ), f"Wrong shape for y_pred. Expected: ({n_y, m, T_x}) != {y_pred.shape}"
     assert len(caches[0]) == T_x, f"len(cache) must be T_x = {T_x}"
 
-    assert np.allclose(
-        a[5, 2, 2:6], [0.99999291, 0.99332189, 0.9921928, 0.99503445]
-    ), "Wrong values for a"
+    assert np.allclose(a[5, 2, 2:6], [0.99999291, 0.99332189, 0.9921928, 0.99503445]), (
+        "Wrong values for a"
+    )
     assert np.allclose(
         y_pred[2, 1, 1:5], [0.19428, 0.14292, 0.24993, 0.00119], atol=1e-4
     ), "Wrong values for y_pred"
@@ -190,16 +190,16 @@ def lstm_cell_forward_test(target):
 
     assert np.allclose(cache[4][0, 0:2], [0.32969833, 0.0574555]), "wrong values for ft"
     assert np.allclose(cache[5][0, 0:2], [0.0036446, 0.9806943]), "wrong values for it"
-    assert np.allclose(
-        cache[6][0, 0:2], [0.99903873, 0.57509956]
-    ), "wrong values for cct"
-    assert np.allclose(
-        cache[1][0, 0:2], [0.1352798, 0.39884899]
-    ), "wrong values for c_next"
+    assert np.allclose(cache[6][0, 0:2], [0.99903873, 0.57509956]), (
+        "wrong values for cct"
+    )
+    assert np.allclose(cache[1][0, 0:2], [0.1352798, 0.39884899]), (
+        "wrong values for c_next"
+    )
     assert np.allclose(cache[7][0, 0:2], [0.7477249, 0.71588751]), "wrong values for ot"
-    assert np.allclose(
-        cache[0][0, 0:2], [0.10053951, 0.27129536]
-    ), "wrong values for a_next"
+    assert np.allclose(cache[0][0, 0:2], [0.10053951, 0.27129536]), (
+        "wrong values for a_next"
+    )
 
     assert np.allclose(
         y_pred[1],

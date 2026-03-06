@@ -39,7 +39,6 @@ def sentence_to_avg(sentence, word_to_vec_map):
     count = 0
 
     for w in words:
-
         if w in word_to_vec_map.keys():
             avg += word_to_vec_map[w]
 
@@ -76,16 +75,16 @@ def sentence_to_avg_test(target):
         word_to_vec_map[key] = np.array(word_to_vec_map[key])
 
     avg = target("a a_nw c_w a_s", word_to_vec_map)
-    assert tuple(avg.shape) == tuple(
-        word_to_vec_map["a"].shape
-    ), "Check the shape of your avg array"
+    assert tuple(avg.shape) == tuple(word_to_vec_map["a"].shape), (
+        "Check the shape of your avg array"
+    )
     assert np.allclose(avg, [1.25, 2.5]), "Check that you are finding the 4 words"
     avg = target("love a a_nw c_w a_s", word_to_vec_map)
     assert np.allclose(avg, [1.25, 2.5]), "Divide by count, not len(words)"
     avg = target("love", word_to_vec_map)
-    assert np.array_equal(
-        avg, [0, 0]
-    ), "Average of no words must give an array of zeros"
+    assert np.array_equal(avg, [0, 0]), (
+        "Average of no words must give an array of zeros"
+    )
     avg = target("c_se foo a a_nw c_w a_s deeplearning c_nw", word_to_vec_map)
     assert np.allclose(avg, [0.1666667, 2.0]), "Debug the last example"
 
@@ -108,7 +107,6 @@ def model(X, Y, word_to_vec_map, learning_rate=0.01, num_iterations=100):
     Y_oh = convert_to_one_hot(Y, C=n_y)
 
     for t in range(num_iterations):
-
         cost = 0
         dW = 0
         db = 0

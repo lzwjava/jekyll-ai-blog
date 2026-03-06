@@ -38,7 +38,6 @@ optimizer = torch.optim.Adam(net.parameters(), lr=3e-4)
 training_loss, validation_loss = [], []
 
 for i in range(num_epochs):
-
     epoch_training_loss = 0
     epoch_validation_loss = 0
 

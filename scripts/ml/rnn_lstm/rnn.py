@@ -193,7 +193,6 @@ hidden_state = np.zeros((hidden_size, 1))
 training_loss, validation_loss = [], []
 
 for i in range(num_epochs):
-
     epoch_training_loss = 0
     epoch_validation_loss = 0
 
@@ -212,7 +211,6 @@ for i in range(num_epochs):
         epoch_validation_loss += loss
 
     for inputs, targets in training_set:
-
         inputs_one_hot = one_hot_encode_sequence(inputs, vocab_size)
         targets_one_hot = one_hot_encode_sequence(targets, vocab_size)
 

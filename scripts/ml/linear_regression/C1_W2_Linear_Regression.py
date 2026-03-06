@@ -85,7 +85,6 @@ def gradient_descent(
     b = b_in
 
     for i in range(num_iters):
-
         dj_dw, dj_db = gradient_function(x, y, w, b)
 
         w = w - alpha * dj_dw

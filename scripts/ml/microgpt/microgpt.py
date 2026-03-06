@@ -210,7 +210,6 @@ v = [0.0] * len(params)  # second moment buffer
 # Repeat in sequence
 num_steps = 1000  # number of training steps
 for step in range(num_steps):
-
     # Take single document, tokenize it, surround it with BOS special token on both sides
     doc = docs[step % len(docs)]
     tokens = [BOS] + [uchars.index(ch) for ch in doc] + [BOS]
@@ -242,7 +241,7 @@ for step in range(num_steps):
         p.data -= lr_t * m_hat / (v_hat**0.5 + eps_adam)
         p.grad = 0
 
-    print(f"step {step+1:4d} / {num_steps:4d} | loss {loss.data:.4f}", end="\r")
+    print(f"step {step + 1:4d} / {num_steps:4d} | loss {loss.data:.4f}", end="\r")
 
 # Inference: may the model babble back to us
 temperature = 0.5  # in (0, 1], control the "creativity" of generated text, low to high
@@ -258,4 +257,4 @@ for sample_idx in range(20):
         if token_id == BOS:
             break
         sample.append(uchars[token_id])
-    print(f"sample {sample_idx+1:2d}: {''.join(sample)}")
+    print(f"sample {sample_idx + 1:2d}: {''.join(sample)}")

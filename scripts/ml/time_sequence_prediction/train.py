@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 
 
 class Sequence(nn.Module):
-
     def __init__(self):
         super(Sequence, self).__init__()
         self.lstm1 = nn.LSTMCell(1, 51)

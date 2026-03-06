@@ -106,11 +106,11 @@ def process_files(
         print(f"No files found with extension: {extension or '.py'}")
         return
 
-    print(f"\n{'='*70}")
+    print(f"\n{'=' * 70}")
     print(f"Found {len(files_to_process)} file(s) to check")
     print(f"Target encoding: {target_encoding}")
     print(f"Extension filter: {extension or '.py'}")
-    print(f"{'='*70}\n")
+    print(f"{'=' * 70}\n")
 
     for file_path, display_name in files_to_process:
         detected = detect_file_encoding(file_path)

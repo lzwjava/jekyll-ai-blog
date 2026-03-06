@@ -327,7 +327,6 @@ Decoder_test(Decoder, create_look_ahead_mask, create_padding_mask)
 
 
 class Transformer(tf.keras.Model):
-
     def __init__(
         self,
         num_layers,

@@ -85,7 +85,7 @@ def decode_proxy_url(url):
 
 def create_proxy_config(proxy, index):
     proxy_type = proxy.get("type", "ss")
-    name_suffix = f"SS {index+1}" if proxy_type == "ss" else f"Hysteria2 {index+1}"
+    name_suffix = f"SS {index + 1}" if proxy_type == "ss" else f"Hysteria2 {index + 1}"
 
     if proxy_type == "ss":
         return {

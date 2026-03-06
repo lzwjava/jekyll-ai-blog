@@ -47,7 +47,6 @@ print(word_to_ix)
 
 
 class NGramLanguageModel(nn.Module):
-
     def __init__(self, vocab_size, embedding_dim, context_size):
         super().__init__()
         self.embeddings = nn.Embedding(vocab_size, embedding_dim)

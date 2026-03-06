@@ -17,7 +17,6 @@ def data_processing(corpus, values_indices, m=60, Tx=30):
     X = np.zeros((m, Tx, N_values), dtype=np.bool)
     Y = np.zeros((m, Tx, N_values), dtype=np.bool)
     for i in range(m):
-
         random_idx = np.random.choice(len(corpus) - Tx)
         corp_data = corpus[random_idx : (random_idx + Tx)]
         for j in range(Tx):
@@ -45,9 +44,7 @@ def next_value_processing(
     if duration < 0.00001:
         tries = 0
         while next_value.split(",")[0] == "R" or len(next_value.split(",")) != 2:
-
             if tries >= max_tries:
-
                 rand = np.random.randint(0, len(abstract_grammars))
                 next_value = abstract_grammars[rand].split(" ")[0]
             else:

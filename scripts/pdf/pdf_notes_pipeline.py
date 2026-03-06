@@ -14,7 +14,6 @@ def get_all_md_files(input_dir):
 
 
 def process_markdown_files(input_dir, output_dir, dry_run=False, n=None):
-
     files_processed = 0
     files_skipped = 0
 

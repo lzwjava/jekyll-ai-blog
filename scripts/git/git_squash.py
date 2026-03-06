@@ -27,7 +27,7 @@ def generate_squash_message(rebase_todo):
 
     prompt = f"""Here are the commits to be squashed:
 
-{' '.join(commits)}
+{" ".join(commits)}
 
 Generate a concise, descriptive commit message that summarizes all these changes.
 Follow conventional commit format (e.g., feat:, fix:, docs:, etc.).

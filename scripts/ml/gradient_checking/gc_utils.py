@@ -16,7 +16,6 @@ def dictionary_to_vector(parameters):
     keys = []
     count = 0
     for key in ["W1", "b1", "W2", "b2", "W3", "b3"]:
-
         new_vector = np.reshape(parameters[key], (-1, 1))
         keys = keys + [key] * new_vector.shape[0]
 
@@ -44,7 +43,6 @@ def vector_to_dictionary(theta):
 def gradients_to_vector(gradients):
     count = 0
     for key in ["dW1", "db1", "dW2", "db2", "dW3", "db3"]:
-
         new_vector = np.reshape(gradients[key], (-1, 1))
 
         if count == 0:

@@ -79,7 +79,6 @@ def generate_output():
     sys.stdout.write("\n\nHere is your poem: \n\n")
     sys.stdout.write(usr_input)
     for i in range(400):
-
         x_pred = np.zeros((1, Tx, len(chars)))
 
         for t, char in enumerate(sentence):

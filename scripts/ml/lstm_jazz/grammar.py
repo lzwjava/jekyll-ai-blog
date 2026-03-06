@@ -79,7 +79,6 @@ def parse_melody(fullMeasureNotes, fullMeasureChords):
     prevNote = None
     numNonRests = 0
     for ix, nr in enumerate(measure):
-
         try:
             lastChord = [n for n in chords if n.offset <= nr.offset][-1]
         except IndexError:
@@ -104,7 +103,6 @@ def parse_melody(fullMeasureNotes, fullMeasureChords):
             elementType = "X"
 
         if ix == (len(measure) - 1):
-
             diff = measureStartTime + 4.0 - nr.offset
         else:
             diff = measure[ix + 1].offset - nr.offset
@@ -171,7 +169,6 @@ def unparse_grammar(m1_grammar, m1_chords):
             prevElement = insertNote
 
         else:
-
             interval1 = interval.Interval(terms[2].replace("<", ""))
             interval2 = interval.Interval(terms[3].replace(">", ""))
             if interval1.cents > interval2.cents:

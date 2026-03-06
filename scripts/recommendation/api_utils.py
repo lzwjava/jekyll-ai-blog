@@ -2,7 +2,7 @@ def build_prompt(post_titles, years, recommend_desc):
     """Build the AI prompt with post titles and recommendation criteria."""
     all_posts_with_titles = [f"- {title}" for title in post_titles]
     return f"""Here is a list of my blog post titles from the last {years} year(s):
-{'\n'.join(all_posts_with_titles)}
+{"\n".join(all_posts_with_titles)}
 
 Recommend the ones that would be most interesting to a visitor who is a {recommend_desc}. Focus on topics that align with their interests. 
 

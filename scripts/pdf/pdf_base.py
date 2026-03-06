@@ -188,7 +188,7 @@ def generate_title_page_pdf(
         r"\thispagestyle{empty}",
         r"\vspace*{0.25\textheight}",
         r"\begin{center}",
-        rf"{{\fontsize{{{font_size_pt}}}{{{int(font_size_pt*1.15)}}}\selectfont {title}\par}}",
+        rf"{{\fontsize{{{font_size_pt}}}{{{int(font_size_pt * 1.15)}}}\selectfont {title}\par}}",
     ]
     if subtitle:
         lines.extend(

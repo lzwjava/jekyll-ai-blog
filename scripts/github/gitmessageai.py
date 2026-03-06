@@ -147,7 +147,7 @@ If applicable, include a scope in parentheses to describe the part of the codeba
 The commit message should not exceed 70 characters. Just give the commit message, without any leading or trailing notes.
 
 Changed files:
-{', '.join(file_changes[:20])}
+{", ".join(file_changes[:20])}
 
 """
     elif type == "content":

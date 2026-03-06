@@ -77,7 +77,6 @@ def fix_title_in_file(input_file, target_language, original_file):
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(
         description="Translate markdown files to a specified language."
     )
@@ -111,7 +110,6 @@ if __name__ == "__main__":
             original_post = frontmatter.loads(original_content)
 
             if "title" in original_post:
-
                 with open(input_file, "r", encoding="utf-8") as infile:
                     content = infile.read()
 

@@ -118,7 +118,6 @@ def predict(X, Y, W, b, word_to_vec_map):
     n_h = word_to_vec_map[any_word].shape[0]
 
     for j in range(m):  # Loop over training examples
-
         # Split jth test example (sentence) into list of lower case words
         words = X[j].lower().split()
 

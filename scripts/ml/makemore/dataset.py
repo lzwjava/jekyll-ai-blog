@@ -4,7 +4,6 @@ from torch.utils.data.dataloader import DataLoader
 
 
 class CharDataset(Dataset):
-
     def __init__(self, words, chars, max_len):
         self.words = words
         self.chars = chars
@@ -83,7 +82,6 @@ def create_datasets(input_file):
 
 
 class InfiniteDataLoader:
-
     def __init__(self, dataset, **kwargs):
         train_sampler = torch.utils.data.RandomSampler(
             dataset, replacement=True, num_samples=int(1e10)

@@ -258,7 +258,6 @@ hidden_state = np.zeros((hidden_size, 1))
 training_loss, validation_loss = [], []
 
 for i in range(num_epochs):
-
     epoch_training_loss = 0
     epoch_validation_loss = 0
 

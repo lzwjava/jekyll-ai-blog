@@ -84,7 +84,6 @@ def generate_x_post_from_markdown_file(input_file, output_file):
 
 
 def main():
-
     parser = argparse.ArgumentParser(
         description="Generate X posts from markdown files."
     )

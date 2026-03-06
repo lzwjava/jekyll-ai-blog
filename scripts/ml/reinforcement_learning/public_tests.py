@@ -9,13 +9,15 @@ def test_network(target):
     num_actions = 4
     state_size = 8
     i = 0
-    assert (
-        len(target.layers) == 3
-    ), f"Wrong number of layers. Expected 3 but got {len(target.layers)}"
+    assert len(target.layers) == 3, (
+        f"Wrong number of layers. Expected 3 but got {len(target.layers)}"
+    )
     assert target.input.shape.as_list() == [
         None,
         state_size,
-    ], f"Wrong input shape. Expected [None,  400] but got {target.input.shape.as_list()}"
+    ], (
+        f"Wrong input shape. Expected [None,  400] but got {target.input.shape.as_list()}"
+    )
     expected = [
         [Dense, [None, 64], relu],
         [Dense, [None, 64], relu],
@@ -23,15 +25,15 @@ def test_network(target):
     ]
 
     for layer in target.layers:
-        assert (
-            type(layer) == expected[i][0]
-        ), f"Wrong type in layer {i}. Expected {expected[i][0]} but got {type(layer)}"
-        assert (
-            layer.output.shape.as_list() == expected[i][1]
-        ), f"Wrong number of units in layer {i}. Expected {expected[i][1]} but got {layer.output.shape.as_list()}"
-        assert (
-            layer.activation == expected[i][2]
-        ), f"Wrong activation in layer {i}. Expected {expected[i][2]} but got {layer.activation}"
+        assert type(layer) == expected[i][0], (
+            f"Wrong type in layer {i}. Expected {expected[i][0]} but got {type(layer)}"
+        )
+        assert layer.output.shape.as_list() == expected[i][1], (
+            f"Wrong number of units in layer {i}. Expected {expected[i][1]} but got {layer.output.shape.as_list()}"
+        )
+        assert layer.activation == expected[i][2], (
+            f"Wrong activation in layer {i}. Expected {expected[i][2]} but got {layer.activation}"
+        )
         i = i + 1
 
     print("\033[92mAll tests passed!")
@@ -39,9 +41,9 @@ def test_network(target):
 
 def test_optimizer(target, ALPHA):
     assert type(target) == Adam, f"Wrong optimizer. Expected: {Adam}, got: {target}"
-    assert np.isclose(
-        target.learning_rate.numpy(), ALPHA
-    ), f"Wrong alpha. Expected: {ALPHA}, got: {target.learning_rate.numpy()}"
+    assert np.isclose(target.learning_rate.numpy(), ALPHA), (
+        f"Wrong alpha. Expected: {ALPHA}, got: {target.learning_rate.numpy()}"
+    )
     print("\033[92mAll tests passed!")
 
 
@@ -88,9 +90,9 @@ def test_compute_loss(target):
         q_network_ones,
         target_q_network_ones,
     )
-    assert np.isclose(
-        loss, 0.343270182
-    ), f"Wrong value. Expected {0.343270182}, got {loss}"
+    assert np.isclose(loss, 0.343270182), (
+        f"Wrong value. Expected {0.343270182}, got {loss}"
+    )
 
     # Test MSE with parameters A = B
     done_vals = np.float32((np.random.uniform(0, 1, size=(64,)) > 0.96) * 1)

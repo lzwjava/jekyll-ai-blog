@@ -59,7 +59,7 @@ def explore_photos_database(photos_library_path):
 
             query = f"""
             SELECT ZORIGINALFILESIZE, ZMEDIAMETADATATYPE, ZIMPORTEDBYDISPLAYNAME, 
-                   ZORIGINALFILENAME, ZTIMEZONENAME, {', '.join(time_columns)} 
+                   ZORIGINALFILENAME, ZTIMEZONENAME, {", ".join(time_columns)} 
             FROM {table_name}
             ORDER BY ZORIGINALFILESIZE DESC
             LIMIT 10;

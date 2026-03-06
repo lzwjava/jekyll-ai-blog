@@ -37,7 +37,6 @@ def run_vscode_command(prompt: str = "") -> bool:
 
 
 def main():
-
     parser = argparse.ArgumentParser(description="Run a VS Code command with a prompt.")
     parser.add_argument(
         "--prompt",

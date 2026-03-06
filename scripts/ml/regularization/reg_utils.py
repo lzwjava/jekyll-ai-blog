@@ -193,7 +193,6 @@ def load_planar_dataset(randomness, seed):
     a = 2
 
     for j in range(2):
-
         ix = range(N * j, N * (j + 1))
         if j == 0:
             t = np.linspace(j, 4 * 3.1415 * (j + 1), N)

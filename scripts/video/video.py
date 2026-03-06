@@ -56,7 +56,7 @@ def generate_audio(paragraphs, output_dir="audio"):
         response = client.synthesize_speech(
             input=synthesis_input, voice=voice, audio_config=audio_config
         )
-        audio_file = os.path.join(output_dir, f"paragraph_{i+1}.mp3")
+        audio_file = os.path.join(output_dir, f"paragraph_{i + 1}.mp3")
         with open(audio_file, "wb") as out:
             out.write(response.audio_content)
         audio_files.append(audio_file)
@@ -67,7 +67,7 @@ def create_video(paragraphs, audio_files, output_file="educational_video.mp4"):
     clips = []
     for i, (paragraph, audio_file) in enumerate(zip(paragraphs, audio_files)):
         # Create text clip with corrected parameter name
-        print(f"Creating text clip for paragraph {i+1}: {paragraph}")
+        print(f"Creating text clip for paragraph {i + 1}: {paragraph}")
         text_clip = TextClip(
             text=paragraph,  # Changed from 'txt' to 'text'
             font="Arial",  # More reliable font

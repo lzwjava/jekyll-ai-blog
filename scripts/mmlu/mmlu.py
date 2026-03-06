@@ -222,7 +222,7 @@ def process_deepseek_response(
         except Exception as e:
             if "502" in str(e):
                 print(
-                    f"Bad gateway error (502) during API call, retrying in {backoff_factor * (2 ** attempt)} seconds..."
+                    f"Bad gateway error (502) during API call, retrying in {backoff_factor * (2**attempt)} seconds..."
                 )
                 time.sleep(backoff_factor * (2**attempt))
             else:
@@ -402,7 +402,7 @@ def evaluate_model(args, dataset):
         if (i + 1) % 10 == 0:
             accuracy = correct / total
             print(
-                f"Processed {i+1}/{len(dataset)}. Current Accuracy: {accuracy:.2%} ({correct}/{total})"
+                f"Processed {i + 1}/{len(dataset)}. Current Accuracy: {accuracy:.2%} ({correct}/{total})"
             )
 
     return correct, total

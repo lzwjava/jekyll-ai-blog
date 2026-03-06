@@ -87,7 +87,6 @@ def rnn_forward(X, Y, a0, parameters, vocab_size=27):
     loss = 0
 
     for t in range(len(X)):
-
         x[t] = np.zeros((vocab_size, 1))
         if X[t] != None:
             x[t][X[t]] = 1

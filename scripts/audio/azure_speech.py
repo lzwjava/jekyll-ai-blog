@@ -107,7 +107,7 @@ def submit_synthesis(job_id: str):
     response = requests.put(url, json.dumps(payload), headers=header)
     if response.status_code < 400:
         logger.info("Batch avatar synthesis job submitted successfully")
-        logger.info(f'Job ID: {response.json()["id"]}')
+        logger.info(f"Job ID: {response.json()['id']}")
         return True
     else:
         logger.error(
@@ -125,7 +125,7 @@ def get_synthesis(job_id):
         logger.debug(response.json())
         if response.json()["status"] == "Succeeded":
             logger.info(
-                f'Batch synthesis job succeeded, download URL: {response.json()["outputs"]["result"]}'
+                f"Batch synthesis job succeeded, download URL: {response.json()['outputs']['result']}"
             )
         return response.json()["status"]
     else:
@@ -140,7 +140,7 @@ def list_synthesis_jobs(skip: int = 0, max_page_size: int = 100):
     response = requests.get(url, headers=header)
     if response.status_code < 400:
         logger.info(
-            f'List batch synthesis jobs successfully, got {len(response.json()["values"])} jobs'
+            f"List batch synthesis jobs successfully, got {len(response.json()['values'])} jobs"
         )
         logger.info(response.json())
     else:

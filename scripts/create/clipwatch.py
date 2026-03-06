@@ -100,7 +100,7 @@ def write_clipwatch_note(content: str, h: str) -> str:
 
     front_matter = f"""---
 title: "{fm_title}"
-created: "{now.isoformat(timespec='seconds')}"
+created: "{now.isoformat(timespec="seconds")}"
 source: "clipboard"
 length: {len(content)}
 hash: "{h}"

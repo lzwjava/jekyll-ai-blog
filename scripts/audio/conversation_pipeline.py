@@ -127,7 +127,7 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
             language_code=language_code,
             dry_run=dry_run,
         ):
-            print(f"Failed to generate audio for line {idx+1} of {filename}")
+            print(f"Failed to generate audio for line {idx + 1} of {filename}")
             # Clean up temp files
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):

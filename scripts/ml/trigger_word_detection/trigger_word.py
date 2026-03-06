@@ -59,21 +59,21 @@ def is_overlapping(segment_time, previous_segments):
 
 def is_overlapping_test(target):
     assert target((670, 1430), []) == False, "Overlap with an empty list must be False"
-    assert (
-        target((500, 1000), [(100, 499), (1001, 1100)]) == False
-    ), "Almost overlap, but still False"
-    assert (
-        target((750, 1250), [(100, 750), (1001, 1100)]) == True
-    ), "Must overlap with the end of first segment"
-    assert (
-        target((750, 1250), [(300, 600), (1250, 1500)]) == True
-    ), "Must overlap with the begining of second segment"
-    assert (
-        target((750, 1250), [(300, 600), (600, 1500), (1600, 1800)]) == True
-    ), "Is contained in second segment"
-    assert (
-        target((800, 1100), [(300, 600), (900, 1000), (1600, 1800)]) == True
-    ), "New segment contains the second segment"
+    assert target((500, 1000), [(100, 499), (1001, 1100)]) == False, (
+        "Almost overlap, but still False"
+    )
+    assert target((750, 1250), [(100, 750), (1001, 1100)]) == True, (
+        "Must overlap with the end of first segment"
+    )
+    assert target((750, 1250), [(300, 600), (1250, 1500)]) == True, (
+        "Must overlap with the begining of second segment"
+    )
+    assert target((750, 1250), [(300, 600), (600, 1500), (1600, 1800)]) == True, (
+        "Is contained in second segment"
+    )
+    assert target((800, 1100), [(300, 600), (900, 1000), (1600, 1800)]) == True, (
+        "New segment contains the second segment"
+    )
 
     print("\033[92m All tests passed!")
 
@@ -97,12 +97,10 @@ def insert_audio_clip(background, audio_clip, previous_segments):
         retry = retry - 1
 
     if not is_overlapping(segment_time, previous_segments):
-
         previous_segments.append(segment_time)
 
         new_background = background.overlay(audio_clip, position=segment_time[0])
     else:
-
         new_background = background
         segment_time = (10000, 10000)
 
@@ -113,15 +111,15 @@ def insert_audio_clip_test(target):
     np.random.seed(5)
     audio_clip, segment_time = target(backgrounds[0], activates[0], [(0, 4400)])
     duration = segment_time[1] - segment_time[0]
-    assert (
-        segment_time[0] > 4400
-    ), "Error: The audio clip is overlaping with the first segment"
-    assert duration + 1 == len(
-        activates[0]
-    ), "The segment length must match the audio clip length"
-    assert (
-        audio_clip != backgrounds[0]
-    ), "The audio clip must be different than the pure background"
+    assert segment_time[0] > 4400, (
+        "Error: The audio clip is overlaping with the first segment"
+    )
+    assert duration + 1 == len(activates[0]), (
+        "The segment length must match the audio clip length"
+    )
+    assert audio_clip != backgrounds[0], (
+        "The audio clip must be different than the pure background"
+    )
     assert segment_time == (
         7286,
         8201,
@@ -132,9 +130,9 @@ def insert_audio_clip_test(target):
         10000,
         10000,
     ), "Segment must match the out by max-retry mark"
-    assert (
-        audio_clip == backgrounds[0]
-    ), "output audio clip must be exactly the same input background"
+    assert audio_clip == backgrounds[0], (
+        "output audio clip must be exactly the same input background"
+    )
 
     print("\033[92m All tests passed!")
 
@@ -153,7 +151,6 @@ def insert_ones(y, segment_end_ms):
     segment_end_y = int(segment_end_ms * Ty / 10000.0)
 
     if segment_end_y < Ty:
-
         for i in range(segment_end_y + 1, segment_end_y + 51):
             if i < Ty:
                 y[0, i] = 1
@@ -239,9 +236,9 @@ def create_training_example_test(target):
     assert np.all(y <= 1), "All y values must be smaller or equal than 1"
     assert np.sum(y) >= 50, "It must contain at least one activate"
     assert np.sum(y) % 50 == 0, "Sum of activate marks must be a multiple of 50"
-    assert np.isclose(
-        np.linalg.norm(x), 39745552.52075
-    ), "Spectrogram is wrong. Check the parameters passed to the insert_audio_clip function"
+    assert np.isclose(np.linalg.norm(x), 39745552.52075), (
+        "Spectrogram is wrong. Check the parameters passed to the insert_audio_clip function"
+    )
 
     print("\033[92m All tests passed!")
 
@@ -412,7 +409,6 @@ def chime_on_activate(filename, predictions, threshold):
     i = 0
 
     while i < Ty:
-
         consecutive_timesteps += 1
 
         if consecutive_timesteps > 20:

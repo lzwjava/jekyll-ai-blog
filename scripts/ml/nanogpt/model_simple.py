@@ -71,7 +71,6 @@ print(yb)
 
 
 class GPT(nn.Module):
-
     def __init__(self, vocab_size):
         super().__init__()
 

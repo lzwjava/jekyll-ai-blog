@@ -243,6 +243,6 @@ def train_word2vec(
             total_loss += loss.item()
 
         if epoch % 100 == 0:
-            print(f"Epoch {epoch}, Loss: {total_loss/len(dataloader):.4f}")
+            print(f"Epoch {epoch}, Loss: {total_loss / len(dataloader):.4f}")
 
     return model

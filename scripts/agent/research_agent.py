@@ -90,15 +90,15 @@ def save_research_results(topic, results):
     
     for model, result in results.items():
         if str(result).startswith("Error"):
-            content += f"### ⚠️ {model} (Error)
+            content += f"""### ⚠️ {model} (Error)
 {result}
 
-"
+"""
         else:
-            content += f"### {model}
+            content += f"""### {model}
 {result}
 
-"
+"""
     
     # Use create_note_from_content to create the note
     try:

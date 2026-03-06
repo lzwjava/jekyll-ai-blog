@@ -60,7 +60,6 @@ def get_changed_files():
 
 
 def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False):
-
     files_processed = 0
     files_skipped = 0
     changed_files = get_changed_files()

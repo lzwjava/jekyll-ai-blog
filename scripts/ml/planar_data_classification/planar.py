@@ -199,7 +199,6 @@ def nn_model(X, Y, n_h, num_iterations=10000, print_cost=False):
     parameters = initialize_parameters(n_x, n_h, n_y)
 
     for i in range(0, num_iterations):
-
         A2, cache = forward_propagation(X, parameters)
         cost = compute_cost(A2, Y)
         grads = backward_propagation(parameters, cache, X, Y)

@@ -62,9 +62,9 @@ assert boxes.shape == (1789, 4), "Wrong shape in boxes"
 assert classes.shape == (1789,), "Wrong shape in classes"
 
 assert np.isclose(scores[2].numpy(), 9.270486), "Values are wrong on scores"
-assert np.allclose(
-    boxes[2].numpy(), [4.6399336, 3.2303846, 4.431282, -2.202031]
-), "Values are wrong on boxes"
+assert np.allclose(boxes[2].numpy(), [4.6399336, 3.2303846, 4.431282, -2.202031]), (
+    "Values are wrong on boxes"
+)
 assert classes[2].numpy() == 8, "Values are wrong on classes"
 
 print("\033[92m All tests passed!")
@@ -95,12 +95,12 @@ box1 = (2, 1, 4, 3)
 box2 = (1, 2, 3, 4)
 
 print("iou for intersecting boxes = " + str(iou(box1, box2)))
-assert (
-    iou(box1, box2) < 1
-), "The intersection area must be always smaller or equal than the union area."
-assert np.isclose(
-    iou(box1, box2), 0.14285714
-), "Wrong value. Check your implementation. Problem with intersecting boxes"
+assert iou(box1, box2) < 1, (
+    "The intersection area must be always smaller or equal than the union area."
+)
+assert np.isclose(iou(box1, box2), 0.14285714), (
+    "Wrong value. Check your implementation. Problem with intersecting boxes"
+)
 
 box1 = (1, 2, 3, 4)
 box2 = (5, 6, 7, 8)
@@ -171,9 +171,9 @@ assert boxes.shape == (10, 4), "Wrong shape"
 assert classes.shape == (10,), "Wrong shape"
 
 assert np.isclose(scores[2].numpy(), 8.147684), "Wrong value on scores"
-assert np.allclose(
-    boxes[2].numpy(), [6.0797963, 3.743308, 1.3914018, -0.34089637]
-), "Wrong value on boxes"
+assert np.allclose(boxes[2].numpy(), [6.0797963, 3.743308, 1.3914018, -0.34089637]), (
+    "Wrong value on boxes"
+)
 assert np.isclose(classes[2].numpy(), 1.7079165), "Wrong value on classes"
 
 print("\033[92m All tests passed!")
@@ -241,9 +241,9 @@ assert boxes.shape == (10, 4), "Wrong shape"
 assert classes.shape == (10,), "Wrong shape"
 
 assert np.isclose(scores[2].numpy(), 171.60194), "Wrong value on scores"
-assert np.allclose(
-    boxes[2].numpy(), [-1240.3483, -3212.5881, -645.78, 2024.3052]
-), "Wrong value on boxes"
+assert np.allclose(boxes[2].numpy(), [-1240.3483, -3212.5881, -645.78, 2024.3052]), (
+    "Wrong value on boxes"
+)
 assert np.isclose(classes[2].numpy(), 16), "Wrong value on classes"
 
 print("\033[92m All tests passed!")

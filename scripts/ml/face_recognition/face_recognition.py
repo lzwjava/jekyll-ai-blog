@@ -81,9 +81,9 @@ y_pred_perfect = (
     ],
 )
 loss = triplet_loss(y_true, y_pred_perfect, 3)
-assert (
-    loss == 1.0
-), "Wrong value. Check that pos_dist = 0 and neg_dist = 2 in this example"
+assert loss == 1.0, (
+    "Wrong value. Check that pos_dist = 0 and neg_dist = 2 in this example"
+)
 y_pred_perfect = (
     [[1.0, 1.0]],
     [[0.0, 0.0]],
@@ -95,9 +95,9 @@ y_pred_perfect = (
     ],
 )
 loss = triplet_loss(y_true, y_pred_perfect, 0)
-assert (
-    loss == 2.0
-), "Wrong value. Check that pos_dist = 2 and neg_dist = 0 in this example"
+assert loss == 2.0, (
+    "Wrong value. Check that pos_dist = 2 and neg_dist = 0 in this example"
+)
 y_pred_perfect = (
     [[0.0, 0.0]],
     [[0.0, 0.0]],
@@ -195,7 +195,6 @@ def who_is_it(image_path, database, model):
     min_dist = 100
 
     for name, db_enc in database.items():
-
         dist = np.linalg.norm(encoding - db_enc)
 
         if dist < min_dist:

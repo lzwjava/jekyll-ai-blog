@@ -19,7 +19,6 @@ print(train_data.info())
 
 
 class Net(nn.Module):
-
     def __init__(self, in_features):
         super(Net, self).__init__()
         hidden_unit = 30

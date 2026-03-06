@@ -41,7 +41,9 @@ def ai_format_script(script_path, model):
     lang = (
         "Python"
         if script_path.suffix == ".py"
-        else "Rust" if script_path.suffix == ".rs" else "Unknown"
+        else "Rust"
+        if script_path.suffix == ".rs"
+        else "Unknown"
     )
     with open(script_path, "r") as f:
         code_content = f.read()

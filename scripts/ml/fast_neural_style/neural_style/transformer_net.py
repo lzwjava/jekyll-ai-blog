@@ -72,7 +72,6 @@ class ResidualBlock(nn.Module):
 
 
 class UpsampleConvLayer(nn.Module):
-
     def __init__(self, in_channels, out_channels, kernel_size, stride, upsample=None):
         super(UpsampleConvLayer, self).__init__()
         self.upsample = upsample

@@ -61,11 +61,11 @@ def process_directory(dir_path):
         for file in files:
             file_path = os.path.join(root, file)
             if is_text_file(file_path):
-                print(f"\n{'='*50}")
+                print(f"\n{'=' * 50}")
                 new_path = rename_file(file_path)
                 if new_path:
                     print(f"Renamed to: {new_path}")
-                print(f"{'='*50}")
+                print(f"{'=' * 50}")
 
 
 if __name__ == "__main__":

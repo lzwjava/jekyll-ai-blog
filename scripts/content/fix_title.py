@@ -169,7 +169,6 @@ if __name__ == "__main__":
                     translated_title = front_matter_dict["title"]
 
                 if translated_title and len(translated_title) > 500:
-
                     print(f"  Front matter: {front_matter[:50]}...")
 
                     translated_front_matter = translate_front_matter(

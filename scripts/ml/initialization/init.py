@@ -41,7 +41,6 @@ def model(
         parameters = initialize_parameters_he(layers_dims)
 
     for i in range(num_iterations):
-
         a3, cache = forward_propagation(X, parameters)
 
         cost = compute_loss(a3, Y)

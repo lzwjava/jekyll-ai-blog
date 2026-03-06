@@ -60,7 +60,6 @@ def two_layer_model(
     parameters = initialize_parameters(n_x, n_h, n_y)
 
     for i in range(0, num_iterations):
-
         A1, cache1 = linear_activation_forward(
             X, parameters["W1"], parameters["b1"], "relu"
         )
@@ -129,7 +128,6 @@ def L_layer_model(
     parameters = initialize_parameters_deep(layers_dims)
 
     for i in range(0, num_iterations):
-
         AL, caches = L_model_forward(X, parameters)
 
         cost = compute_cost(AL, Y)

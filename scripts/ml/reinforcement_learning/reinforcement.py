@@ -121,12 +121,10 @@ memory_buffer = deque(maxlen=MEMORY_SIZE)
 target_q_network.set_weights(q_network.get_weights())
 
 for i in range(num_episodes):
-
     state = env.reset()
     total_points = 0
 
     for t in range(max_num_timesteps):
-
         state_qn = np.expand_dims(state, axis=0)
         q_values = q_network(state_qn)
         action = utils.get_action(q_values, epsilon)

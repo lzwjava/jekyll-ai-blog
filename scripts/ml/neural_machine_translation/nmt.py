@@ -80,9 +80,9 @@ def one_step_attention_test(target):
     s_prev = np.random.uniform(1, 0, (m, n_s)).astype(np.float32) * 1
     context = target(a, s_prev)
 
-    assert (
-        type(context) == tf.python.framework.ops.EagerTensor
-    ), "Unexpected type. It should be a Tensor"
+    assert type(context) == tf.python.framework.ops.EagerTensor, (
+        "Unexpected type. It should be a Tensor"
+    )
     assert tuple(context.shape) == (m, 1, n_s), "Unexpected output shape"
     assert np.all(context.numpy() > 0), "All output values must be > 0 in this example"
     assert np.all(context.numpy() < 1), "All output values must be < 1 in this example"
@@ -159,9 +159,9 @@ def modelf_test(target):
         ["Dense", (None, 11), 715, "softmax"],
     ]
 
-    assert (
-        len(model.outputs) == 10
-    ), f"Wrong output shape. Expected 10 != {len(model.outputs)}"
+    assert len(model.outputs) == 10, (
+        f"Wrong output shape. Expected 10 != {len(model.outputs)}"
+    )
 
     comparator(summary(model), expected_summary)
 
@@ -179,13 +179,13 @@ assert opt.lr == 0.005, "Set the lr parameter to 0.005"
 assert opt.beta_1 == 0.9, "Set the beta_1 parameter to 0.9"
 assert opt.beta_2 == 0.999, "Set the beta_2 parameter to 0.999"
 assert opt.decay == 0.01, "Set the decay parameter to 0.01"
-assert (
-    model.loss == "categorical_crossentropy"
-), "Wrong loss. Use 'categorical_crossentropy'"
+assert model.loss == "categorical_crossentropy", (
+    "Wrong loss. Use 'categorical_crossentropy'"
+)
 assert model.optimizer == opt, "Use the optimizer that you have instantiated"
-assert (
-    model.compiled_metrics._user_metrics[0] == "accuracy"
-), "set metrics to ['accuracy']"
+assert model.compiled_metrics._user_metrics[0] == "accuracy", (
+    "set metrics to ['accuracy']"
+)
 
 print("\033[92mAll tests passed!")
 

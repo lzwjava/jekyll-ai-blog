@@ -120,9 +120,9 @@ def one_hot_matrix_test(target):
     result = target(label_2, C)
     print("Test 2:", result)
     assert result.shape[0] == C, "Use the parameter C"
-    assert np.allclose(
-        result, [0.0, 0.0, 1.0, 0.0]
-    ), "Wrong output. Use tf.reshape as instructed"
+    assert np.allclose(result, [0.0, 0.0, 1.0, 0.0]), (
+        "Wrong output. Use tf.reshape as instructed"
+    )
 
     print("\033[92mAll test passed")
 
@@ -164,13 +164,13 @@ def initialize_parameters_test(target):
 
     for key in parameters:
         print(f"{key} shape: {tuple(parameters[key].shape)}")
-        assert (
-            type(parameters[key]) == ResourceVariable
-        ), "All parameter must be created using tf.Variable"
+        assert type(parameters[key]) == ResourceVariable, (
+            "All parameter must be created using tf.Variable"
+        )
         assert tuple(parameters[key].shape) == values[key], f"{key}: wrong shape"
-        assert (
-            np.abs(np.mean(parameters[key].numpy())) < 0.5
-        ), f"{key}: Use the GlorotNormal initializer"
+        assert np.abs(np.mean(parameters[key].numpy())) < 0.5, (
+            f"{key}: Use the GlorotNormal initializer"
+        )
         assert (
             np.std(parameters[key].numpy()) > 0 and np.std(parameters[key].numpy()) < 1
         ), f"{key}: Use the GlorotNormal initializer"
@@ -232,9 +232,9 @@ def forward_propagation_test(target, examples):
     index = index + 1
     trainable_variables = [W1, b1, W2, b2, W3, b3]
     grads = tape.gradient(fake_cost, trainable_variables)
-    assert not (
-        None in grads
-    ), "Wrong gradients. It could be due to the use of tf.Variable whithin forward_propagation"
+    assert not (None in grads), (
+        "Wrong gradients. It could be due to the use of tf.Variable whithin forward_propagation"
+    )
     print("\033[92mAll test passed")
 
 
@@ -269,9 +269,9 @@ def compute_total_loss_test(target, Y):
 
     print(result)
     assert type(result) == EagerTensor, "Use the TensorFlow API"
-    assert (
-        np.abs(result - (0.50722074 + 1.1133534) / 2.0) < 1e-7
-    ), "Test does not match. Did you get the reduce sum of your loss functions?"
+    assert np.abs(result - (0.50722074 + 1.1133534) / 2.0) < 1e-7, (
+        "Test does not match. Did you get the reduce sum of your loss functions?"
+    )
 
     print("\033[92mAll test passed")
 
@@ -316,7 +316,6 @@ def model(
     test_minibatches = test_dataset.batch(minibatch_size).prefetch(8)
 
     for epoch in range(num_epochs):
-
         epoch_total_loss = 0.0
 
         train_accuracy.reset_states()

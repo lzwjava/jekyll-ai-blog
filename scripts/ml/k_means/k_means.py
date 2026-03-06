@@ -4,7 +4,6 @@ import initialization_methods as init_methods
 
 
 class KMeans:
-
     def __init__(
         self, n_clusters=3, tolerance=0.01, max_iter=100, runs=1, init_method="forgy"
     ):

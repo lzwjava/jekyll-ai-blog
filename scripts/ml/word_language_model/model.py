@@ -7,7 +7,6 @@ import torch.nn.functional as F
 
 
 class RNNModel(nn.Module):
-
     def __init__(
         self, rnn_type, ntoken, ninp, nhid, nlayers, dropout=0.5, tie_weights=False
     ):
@@ -46,7 +45,6 @@ class RNNModel(nn.Module):
 
 
 class PositionalEncoding(nn.Module):
-
     def __init__(self, d_model, dropout=0.1, max_len=5000):
         super(PositionalEncoding, self).__init__()
         self.dropout = nn.Dropout(p=dropout)
@@ -67,7 +65,6 @@ class PositionalEncoding(nn.Module):
 
 
 class TransformerModel(nn.Transformer):
-
     def __init__(self, ntoken, ninp, nhead, nhid, nlayers, dropout=0.5):
         super(TransformerModel, self).__init__(
             d_model=ninp, nhead=nhead, dim_feedforward=nhid, num_encoder_layers=nlayers

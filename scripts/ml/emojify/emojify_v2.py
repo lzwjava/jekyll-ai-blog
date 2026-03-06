@@ -30,21 +30,17 @@ import numpy as np
 
 
 def sentences_to_indices(X, word_to_index, max_len):
-
     m = X.shape[0]
 
     X_indices = np.zeros((m, max_len))
 
     for i in range(m):
-
         sentence_words = X[i].lower().split()
 
         j = 0
 
         for w in sentence_words:
-
             if w in word_to_index:
-
                 X_indices[i, j] = word_to_index[w]
 
                 j += 1
@@ -89,7 +85,6 @@ print("X1_indices =\n", X1_indices)
 
 
 def pretrained_embedding_layer(word_to_vec_map, word_to_index):
-
     vocab_size = len(word_to_index) + 1
     emb_dim = word_to_vec_map[next(iter(word_to_vec_map))].shape[0]
 
@@ -139,9 +134,9 @@ def pretrained_embedding_layer_test(target):
     embedding_layer = target(word_to_vec_map, word_to_index)
 
     assert type(embedding_layer) == Embedding, "Wrong type"
-    assert (
-        embedding_layer.input_dim == len(list(word_to_vec_map.keys())) + 1
-    ), "Wrong input shape"
+    assert embedding_layer.input_dim == len(list(word_to_vec_map.keys())) + 1, (
+        "Wrong input shape"
+    )
     assert embedding_layer.output_dim == len(word_to_vec_map["a"]), "Wrong output shape"
     assert np.allclose(
         embedding_layer.get_weights(),
@@ -177,7 +172,6 @@ print("Output_dim", embedding_layer.output_dim)
 
 
 def Emojify_V2(input_shape, word_to_vec_map, word_to_index):
-
     sentence_indices = Input(shape=input_shape, dtype="int32")
 
     embedding_layer = pretrained_embedding_layer(word_to_vec_map, word_to_index)
@@ -232,9 +226,9 @@ def Emojify_V2_test(target):
     maxLen = 4
     model = target((maxLen,), word_to_vec_map, word_to_index)
 
-    assert (
-        type(model) == Functional
-    ), 'Make sure you have correctly created Model instance which converts "sentence_indices" into "X"'
+    assert type(model) == Functional, (
+        'Make sure you have correctly created Model instance which converts "sentence_indices" into "X"'
+    )
 
     expectedModel = [
         ["InputLayer", [(None, 4)], 0],

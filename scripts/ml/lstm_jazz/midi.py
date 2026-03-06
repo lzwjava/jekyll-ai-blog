@@ -33,14 +33,12 @@ format = pyaudio.paInt16
 audio = pyaudio.PyAudio()
 
 try:
-
     matches = []
     for root, dirnames, filenames in os.walk("./"):
         for filename in fnmatch.filter(filenames, "*.mid"):
             matches.append(os.path.join(root, filename))
 
     for song in matches:
-
         file_name = os.path.splitext(os.path.basename(song))[0]
         new_file = file_name + ".wav"
 
@@ -95,7 +93,6 @@ try:
     audio.terminate()
 
 except KeyboardInterrupt:
-
     pygame.mixer.music.fadeout(1000)
     pygame.mixer.music.stop()
     raise SystemExit

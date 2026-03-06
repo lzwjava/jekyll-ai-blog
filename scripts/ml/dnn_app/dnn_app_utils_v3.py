@@ -104,12 +104,10 @@ def linear_forward(A, W, b):
 
 def linear_activation_forward(A_prev, W, b, activation):
     if activation == "sigmoid":
-
         Z, linear_cache = linear_forward(A_prev, W, b)
         A, activation_cache = sigmoid(Z)
 
     elif activation == "relu":
-
         Z, linear_cache = linear_forward(A_prev, W, b)
         A, activation_cache = relu(Z)
 

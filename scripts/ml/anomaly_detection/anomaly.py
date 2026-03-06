@@ -57,7 +57,6 @@ def select_threshold(y_val, p_val):
     step_size = (max(p_val) - min(p_val)) / 1000
 
     for epsilon in np.arange(min(p_val), max(p_val), step_size):
-
         predictions = p_val < epsilon
 
         tp = np.sum((predictions == 1) & (y_val == 1))

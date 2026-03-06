@@ -37,7 +37,6 @@ def validate_front_matter(file_path):
 
 
 def update_front_matter(file_path, translated_flag, lang=None):
-
     print(f"Starting to process file: {file_path}")
     if not os.path.exists(file_path):
         print(f"File not found: {file_path}")

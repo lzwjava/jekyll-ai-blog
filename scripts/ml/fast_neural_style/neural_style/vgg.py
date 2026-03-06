@@ -7,7 +7,6 @@ from collections import namedtuple
 
 
 class Vgg16(nn.Module):
-
     def __init__(self, requires_grad=False):
         super(Vgg16, self).__init__()
         vgg_pretrained_features = models.vgg16(

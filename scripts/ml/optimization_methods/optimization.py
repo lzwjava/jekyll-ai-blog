@@ -91,9 +91,9 @@ Y = np.random.randn(1, m) < 0.5
 mini_batches = random_mini_batches(X, Y, mini_batch_size)
 n_batches = len(mini_batches)
 
-assert n_batches == math.ceil(
-    m / mini_batch_size
-), f"Wrong number of mini batches. {n_batches} != {math.ceil(m / mini_batch_size)}"
+assert n_batches == math.ceil(m / mini_batch_size), (
+    f"Wrong number of mini batches. {n_batches} != {math.ceil(m / mini_batch_size)}"
+)
 for k in range(n_batches - 1):
     assert mini_batches[k][0].shape == (
         nx,
@@ -110,14 +110,16 @@ if m % mini_batch_size > 0:
     assert mini_batches[n_batches - 1][0].shape == (
         nx,
         m % mini_batch_size,
-    ), f"Wrong shape in the last minibatch. {mini_batches[n_batches - 1][0].shape} != {(nx, m % mini_batch_size)}"
+    ), (
+        f"Wrong shape in the last minibatch. {mini_batches[n_batches - 1][0].shape} != {(nx, m % mini_batch_size)}"
+    )
 
-assert np.allclose(
-    mini_batches[0][0][0][0:3], [294912, 86016, 454656]
-), "Wrong values. Check the indexes used to form the mini batches"
-assert np.allclose(
-    mini_batches[-1][0][-1][0:3], [1425407, 1769471, 897023]
-), "Wrong values. Check the indexes used to form the mini batches"
+assert np.allclose(mini_batches[0][0][0][0:3], [294912, 86016, 454656]), (
+    "Wrong values. Check the indexes used to form the mini batches"
+)
+assert np.allclose(mini_batches[-1][0][-1][0:3], [1425407, 1769471, 897023]), (
+    "Wrong values. Check the indexes used to form the mini batches"
+)
 
 print("\033[92mAll tests passed!")
 
@@ -300,13 +302,11 @@ def model(
         v, s = initialize_adam(parameters)
 
     for i in range(num_epochs):
-
         seed = seed + 1
         minibatches = random_mini_batches(X, Y, mini_batch_size, seed)
         cost_total = 0
 
         for minibatch in minibatches:
-
             minibatch_X, minibatch_Y = minibatch
 
             a3, caches = forward_propagation(minibatch_X, parameters)
@@ -375,13 +375,11 @@ def model(
         v, s = initialize_adam(parameters)
 
     for i in range(num_epochs):
-
         seed = seed + 1
         minibatches = random_mini_batches(X, Y, mini_batch_size, seed)
         cost_total = 0
 
         for minibatch in minibatches:
-
             minibatch_X, minibatch_Y = minibatch
 
             a3, caches = forward_propagation(minibatch_X, parameters)
@@ -481,13 +479,11 @@ def model(
         v, s = initialize_adam(parameters)
 
     for i in range(num_epochs):
-
         seed = seed + 1
         minibatches = random_mini_batches(X, Y, mini_batch_size, seed)
         cost_total = 0
 
         for minibatch in minibatches:
-
             minibatch_X, minibatch_Y = minibatch
 
             a3, caches = forward_propagation(minibatch_X, parameters)

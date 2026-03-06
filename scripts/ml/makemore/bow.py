@@ -6,7 +6,6 @@ from config import ModelConfig
 
 
 class CausalBow(nn.Module):
-
     def __init__(self, config: ModelConfig) -> None:
         super().__init__()
 
@@ -32,7 +31,6 @@ class CausalBow(nn.Module):
 
 
 class BoWBlock(nn.Module):
-
     def __init__(self, config) -> None:
         super().__init__()
 
@@ -56,7 +54,6 @@ class BoWBlock(nn.Module):
 
 
 class Bow(nn.Module):
-
     def __init__(self, config: ModelConfig) -> None:
         super().__init__()
 

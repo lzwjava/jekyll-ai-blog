@@ -8,7 +8,6 @@ from keras.layers import Layer
 
 
 class BatchNormalization(Layer):
-
     def __init__(self, axis=-1, momentum=0.90, name=None, synchronized=False, **kwargs):
         super().__init__(name=name, **kwargs)
         self.axis = axis

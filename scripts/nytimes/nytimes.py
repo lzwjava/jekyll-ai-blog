@@ -200,7 +200,7 @@ def main():
             if title and summary:
                 all_articles.append((title, summary))
         else:
-            print(f'Failed to fetch content from {link["url"]}')
+            print(f"Failed to fetch content from {link['url']}")
 
     markdown_list = generate_markdown_list(all_articles)
 

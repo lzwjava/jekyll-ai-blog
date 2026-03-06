@@ -5,9 +5,9 @@ def sigmoid_test(target):
     x = np.array([0, 2])
     output = target(x)
     assert type(output) == np.ndarray, "Wrong type. Expected np.ndarray"
-    assert np.allclose(
-        output, [0.5, 0.88079708]
-    ), f"Wrong value. {output} != [0.5, 0.88079708]"
+    assert np.allclose(output, [0.5, 0.88079708]), (
+        f"Wrong value. {output} != [0.5, 0.88079708]"
+    )
     output = target(1)
     assert np.allclose(output, 0.7310585), f"Wrong value. {output} != 0.7310585"
     print("\033[92mAll tests passed!")
@@ -20,9 +20,9 @@ def initialize_with_zeros_test_1(target):
     assert b == 0.0, "b must be 0.0"
     assert type(w) == np.ndarray, f"Wrong type for w. {type(w)} != np.ndarray"
     assert w.shape == (dim, 1), f"Wrong shape for w. {w.shape} != {(dim, 1)}"
-    assert np.allclose(
-        w, [[0.0], [0.0], [0.0]]
-    ), f"Wrong values for w. {w} != {[[0.], [0.], [0.]]}"
+    assert np.allclose(w, [[0.0], [0.0], [0.0]]), (
+        f"Wrong values for w. {w} != {[[0.0], [0.0], [0.0]]}"
+    )
     print("\033[92mFirst test passed!")
 
 
@@ -33,9 +33,9 @@ def initialize_with_zeros_test_2(target):
     assert b == 0.0, "b must be 0.0"
     assert type(w) == np.ndarray, f"Wrong type for w. {type(w)} != np.ndarray"
     assert w.shape == (dim, 1), f"Wrong shape for w. {w.shape} != {(dim, 1)}"
-    assert np.allclose(
-        w, [[0.0], [0.0], [0.0], [0.0]]
-    ), f"Wrong values for w. {w} != {[[0.], [0.], [0.], [0.]]}"
+    assert np.allclose(w, [[0.0], [0.0], [0.0], [0.0]]), (
+        f"Wrong values for w. {w} != {[[0.0], [0.0], [0.0], [0.0]]}"
+    )
     print("\033[92mSecond test passed!")
 
 
@@ -55,21 +55,21 @@ def propagate_test(target):
 
     grads, cost = target(w, b, X, Y)
 
-    assert (
-        type(grads["dw"]) == np.ndarray
-    ), f"Wrong type for grads['dw']. {type(grads['dw'])} != np.ndarray"
-    assert (
-        grads["dw"].shape == w.shape
-    ), f"Wrong shape for grads['dw']. {grads['dw'].shape} != {w.shape}"
-    assert np.allclose(
-        grads["dw"], expected_dw
-    ), f"Wrong values for grads['dw']. {grads['dw']} != {expected_dw}"
-    assert np.allclose(
-        grads["db"], expected_db
-    ), f"Wrong values for grads['db']. {grads['db']} != {expected_db}"
-    assert np.allclose(
-        cost, expected_cost
-    ), f"Wrong values for cost. {cost} != {expected_cost}"
+    assert type(grads["dw"]) == np.ndarray, (
+        f"Wrong type for grads['dw']. {type(grads['dw'])} != np.ndarray"
+    )
+    assert grads["dw"].shape == w.shape, (
+        f"Wrong shape for grads['dw']. {grads['dw'].shape} != {w.shape}"
+    )
+    assert np.allclose(grads["dw"], expected_dw), (
+        f"Wrong values for grads['dw']. {grads['dw']} != {expected_dw}"
+    )
+    assert np.allclose(grads["db"], expected_db), (
+        f"Wrong values for grads['db']. {grads['db']} != {expected_db}"
+    )
+    assert np.allclose(cost, expected_cost), (
+        f"Wrong values for cost. {cost} != {expected_cost}"
+    )
     print("\033[92mAll tests passed!")
 
 
@@ -97,37 +97,37 @@ def optimize_test(target):
 
     assert type(costs) == list, "Wrong type for costs. It must be a list"
     assert len(costs) == 2, f"Wrong length for costs. {len(costs)} != 2"
-    assert np.allclose(
-        costs, expected_cost
-    ), f"Wrong values for costs. {costs} != {expected_cost}"
+    assert np.allclose(costs, expected_cost), (
+        f"Wrong values for costs. {costs} != {expected_cost}"
+    )
 
-    assert (
-        type(grads["dw"]) == np.ndarray
-    ), f"Wrong type for grads['dw']. {type(grads['dw'])} != np.ndarray"
-    assert (
-        grads["dw"].shape == w.shape
-    ), f"Wrong shape for grads['dw']. {grads['dw'].shape} != {w.shape}"
-    assert np.allclose(
-        grads["dw"], expected_dw
-    ), f"Wrong values for grads['dw']. {grads['dw']} != {expected_dw}"
+    assert type(grads["dw"]) == np.ndarray, (
+        f"Wrong type for grads['dw']. {type(grads['dw'])} != np.ndarray"
+    )
+    assert grads["dw"].shape == w.shape, (
+        f"Wrong shape for grads['dw']. {grads['dw'].shape} != {w.shape}"
+    )
+    assert np.allclose(grads["dw"], expected_dw), (
+        f"Wrong values for grads['dw']. {grads['dw']} != {expected_dw}"
+    )
 
-    assert np.allclose(
-        grads["db"], expected_db
-    ), f"Wrong values for grads['db']. {grads['db']} != {expected_db}"
+    assert np.allclose(grads["db"], expected_db), (
+        f"Wrong values for grads['db']. {grads['db']} != {expected_db}"
+    )
 
-    assert (
-        type(params["w"]) == np.ndarray
-    ), f"Wrong type for params['w']. {type(params['w'])} != np.ndarray"
-    assert (
-        params["w"].shape == w.shape
-    ), f"Wrong shape for params['w']. {params['w'].shape} != {w.shape}"
-    assert np.allclose(
-        params["w"], expected_w
-    ), f"Wrong values for params['w']. {params['w']} != {expected_w}"
+    assert type(params["w"]) == np.ndarray, (
+        f"Wrong type for params['w']. {type(params['w'])} != np.ndarray"
+    )
+    assert params["w"].shape == w.shape, (
+        f"Wrong shape for params['w']. {params['w'].shape} != {w.shape}"
+    )
+    assert np.allclose(params["w"], expected_w), (
+        f"Wrong values for params['w']. {params['w']} != {expected_w}"
+    )
 
-    assert np.allclose(
-        params["b"], expected_b
-    ), f"Wrong values for params['b']. {params['b']} != {expected_b}"
+    assert np.allclose(params["b"], expected_b), (
+        f"Wrong values for params['b']. {params['b']} != {expected_b}"
+    )
 
     print("\033[92mAll tests passed!")
 
@@ -144,12 +144,12 @@ def predict_test(target):
         1,
         X.shape[1],
     ), f"Wrong shape for pred. {pred.shape} != {(1, X.shape[1])}"
-    assert np.bitwise_not(
-        np.allclose(pred, [[1.0, 1.0, 1]])
-    ), f"Perhaps you forget to add b in the calculation of A"
-    assert np.allclose(
-        pred, [[1.0, 0.0, 1]]
-    ), f"Wrong values for pred. {pred} != {[[1., 0., 1.]]}"
+    assert np.bitwise_not(np.allclose(pred, [[1.0, 1.0, 1]])), (
+        f"Perhaps you forget to add b in the calculation of A"
+    )
+    assert np.allclose(pred, [[1.0, 0.0, 1]]), (
+        f"Wrong values for pred. {pred} != {[[1.0, 0.0, 1.0]]}"
+    )
 
     print("\033[92mAll tests passed!")
 
@@ -176,49 +176,55 @@ def model_test(target):
 
     d = target(X, Y, x_test, y_test, num_iterations=50, learning_rate=0.01)
 
-    assert (
-        type(d["costs"]) == list
-    ), f"Wrong type for d['costs']. {type(d['costs'])} != list"
+    assert type(d["costs"]) == list, (
+        f"Wrong type for d['costs']. {type(d['costs'])} != list"
+    )
     assert len(d["costs"]) == 1, f"Wrong length for d['costs']. {len(d['costs'])} != 1"
-    assert np.allclose(
-        d["costs"], expected_output["costs"]
-    ), f"Wrong values for d['costs']. {d['costs']} != {expected_output['costs']}"
+    assert np.allclose(d["costs"], expected_output["costs"]), (
+        f"Wrong values for d['costs']. {d['costs']} != {expected_output['costs']}"
+    )
 
-    assert (
-        type(d["w"]) == np.ndarray
-    ), f"Wrong type for d['w']. {type(d['w'])} != np.ndarray"
+    assert type(d["w"]) == np.ndarray, (
+        f"Wrong type for d['w']. {type(d['w'])} != np.ndarray"
+    )
     assert d["w"].shape == (
         X.shape[0],
         1,
     ), f"Wrong shape for d['w']. {d['w'].shape} != {(X.shape[0], 1)}"
-    assert np.allclose(
-        d["w"], expected_output["w"]
-    ), f"Wrong values for d['w']. {d['w']} != {expected_output['w']}"
+    assert np.allclose(d["w"], expected_output["w"]), (
+        f"Wrong values for d['w']. {d['w']} != {expected_output['w']}"
+    )
 
-    assert np.allclose(
-        d["b"], expected_output["b"]
-    ), f"Wrong values for d['b']. {d['b']} != {expected_output['b']}"
+    assert np.allclose(d["b"], expected_output["b"]), (
+        f"Wrong values for d['b']. {d['b']} != {expected_output['b']}"
+    )
 
-    assert (
-        type(d["Y_prediction_test"]) == np.ndarray
-    ), f"Wrong type for d['Y_prediction_test']. {type(d['Y_prediction_test'])} != np.ndarray"
+    assert type(d["Y_prediction_test"]) == np.ndarray, (
+        f"Wrong type for d['Y_prediction_test']. {type(d['Y_prediction_test'])} != np.ndarray"
+    )
     assert d["Y_prediction_test"].shape == (
         1,
         x_test.shape[1],
-    ), f"Wrong shape for d['Y_prediction_test']. {d['Y_prediction_test'].shape} != {(1, x_test.shape[1])}"
-    assert np.allclose(
-        d["Y_prediction_test"], expected_output["Y_prediction_test"]
-    ), f"Wrong values for d['Y_prediction_test']. {d['Y_prediction_test']} != {expected_output['Y_prediction_test']}"
+    ), (
+        f"Wrong shape for d['Y_prediction_test']. {d['Y_prediction_test'].shape} != {(1, x_test.shape[1])}"
+    )
+    assert np.allclose(d["Y_prediction_test"], expected_output["Y_prediction_test"]), (
+        f"Wrong values for d['Y_prediction_test']. {d['Y_prediction_test']} != {expected_output['Y_prediction_test']}"
+    )
 
-    assert (
-        type(d["Y_prediction_train"]) == np.ndarray
-    ), f"Wrong type for d['Y_prediction_train']. {type(d['Y_prediction_train'])} != np.ndarray"
+    assert type(d["Y_prediction_train"]) == np.ndarray, (
+        f"Wrong type for d['Y_prediction_train']. {type(d['Y_prediction_train'])} != np.ndarray"
+    )
     assert d["Y_prediction_train"].shape == (
         1,
         X.shape[1],
-    ), f"Wrong shape for d['Y_prediction_train']. {d['Y_prediction_train'].shape} != {(1, X.shape[1])}"
+    ), (
+        f"Wrong shape for d['Y_prediction_train']. {d['Y_prediction_train'].shape} != {(1, X.shape[1])}"
+    )
     assert np.allclose(
         d["Y_prediction_train"], expected_output["Y_prediction_train"]
-    ), f"Wrong values for d['Y_prediction_train']. {d['Y_prediction_train']} != {expected_output['Y_prediction_train']}"
+    ), (
+        f"Wrong values for d['Y_prediction_train']. {d['Y_prediction_train']} != {expected_output['Y_prediction_train']}"
+    )
 
     print("\033[92mAll tests passed!")

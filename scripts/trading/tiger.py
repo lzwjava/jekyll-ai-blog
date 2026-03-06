@@ -58,7 +58,6 @@ def cancel_order(order_id):
 
 
 if __name__ == "__main__":
-
     job = sys.argv[1]
 
     if job == "get_stocks_briefs":

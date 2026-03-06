@@ -187,7 +187,7 @@ def get_top_proxies(num_results=5, name_filter=None):
         logging.info(f"--- Top {num_results} Fastest Individual Proxies ---")
         for i, (name, latency) in enumerate(sorted_proxies[:num_results]):
             top_proxies_list.append({"name": name, "latency": latency})
-            logging.info(f"  {i+1}. {name}: {latency}ms")
+            logging.info(f"  {i + 1}. {name}: {latency}ms")
         logging.info(f"Finished speed testing. Top {num_results} proxies identified.")
 
     return top_proxies_list

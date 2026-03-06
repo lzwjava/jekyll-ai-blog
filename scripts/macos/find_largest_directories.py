@@ -71,7 +71,7 @@ def find_large_directories(base_path, min_size_kb=1024):  # 1MB = 1024 KB
                 # Show progress every 10 directories or for slow operations
                 if processed % 10 == 0 or processed == total_dirs:
                     print(
-                        f"   • Scanned {processed}/{total_dirs} directories... ({processed*100//total_dirs}%)",
+                        f"   • Scanned {processed}/{total_dirs} directories... ({processed * 100 // total_dirs}%)",
                         end="\r",
                         flush=True,
                     )

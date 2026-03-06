@@ -26,9 +26,9 @@ def compute_cost_test(target):
     initial_w = 1
     initial_b = 0.0
     cost = target(x, y, initial_w, initial_b)
-    assert np.isclose(
-        cost, 15.325
-    ), f"Case 3: Cost must be 15.325 for a perfect prediction but got {cost}"
+    assert np.isclose(cost, 15.325), (
+        f"Case 3: Cost must be 15.325 for a perfect prediction but got {cost}"
+    )
 
     # Case 4
     initial_b = 1.0

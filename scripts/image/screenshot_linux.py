@@ -33,25 +33,21 @@ try:
     subprocess.run(["scrot", path], check=True)
     print(f"Saved screenshot to {path} using scrot")
 except (subprocess.CalledProcessError, FileNotFoundError):
-
     # Method 2: Use ImageMagick's import command
     try:
         subprocess.run(["import", "-window", "root", path], check=True)
         print(f"Saved screenshot to {path} using ImageMagick")
     except (subprocess.CalledProcessError, FileNotFoundError):
-
         # Method 3: Use gnome-screenshot (GNOME environments)
         try:
             subprocess.run(["gnome-screenshot", "-f", path], check=True)
             print(f"Saved screenshot to {path} using gnome-screenshot")
         except (subprocess.CalledProcessError, FileNotFoundError):
-
             # Method 4: Use spectacle (KDE environments)
             try:
                 subprocess.run(["spectacle", "-b", "-n", "-o", path], check=True)
                 print(f"Saved screenshot to {path} using spectacle")
             except (subprocess.CalledProcessError, FileNotFoundError):
-
                 # Method 5: Use xwd (X11 fallback)
                 try:
                     # Take screenshot with xwd
@@ -67,7 +63,6 @@ except (subprocess.CalledProcessError, FileNotFoundError):
 
                     print(f"Saved screenshot to {path} using xwd + convert")
                 except (subprocess.CalledProcessError, FileNotFoundError):
-
                     # Method 6: Use ffmpeg (last resort)
                     try:
                         subprocess.run(

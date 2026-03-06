@@ -127,7 +127,7 @@ PROBLEM ANALYSIS:
 - Issue Type: {self.issue_type}
 - Description: {self.issue_description}
 - Previous Experience: {self.previous_experience}
-- Tools Already Tried: {', '.join(self.tried_tools)}
+- Tools Already Tried: {", ".join(self.tried_tools)}
 - Environment: {json.dumps(self.environment, indent=2)}
 """
 
@@ -231,7 +231,7 @@ I need help solving a technical problem. Here's my situation:
 - Description: {self.issue_description}
 - Environment: {json.dumps(self.environment, indent=2)}
 - Previous Experience: {self.previous_experience}
-- Already Tried: {', '.join(self.tried_tools)}
+- Already Tried: {", ".join(self.tried_tools)}
 
 **MY SOLUTION PLAN:**
 {chr(10).join([f"{i}. {step}" for i, step in enumerate(steps, 1)])}

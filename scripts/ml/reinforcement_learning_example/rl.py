@@ -70,4 +70,4 @@ for epoch in range(num_reward_epochs):
         loss.backward()
         reward_optimizer.step()
 
-    print(f"Reward Epoch {epoch+1}, Loss: {loss.item()}")
+    print(f"Reward Epoch {epoch + 1}, Loss: {loss.item()}")

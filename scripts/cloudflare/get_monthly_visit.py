@@ -148,7 +148,7 @@ def main():
 
             if "errors" in data:
                 print(
-                    f'GraphQL errors for site {site_name} ({site_tag}): {json.dumps(data["errors"], indent=2)}',
+                    f"GraphQL errors for site {site_name} ({site_tag}): {json.dumps(data['errors'], indent=2)}",
                     file=sys.stderr,
                 )
                 continue

@@ -157,7 +157,7 @@ def main():
         else:
             print("Multiple changed markdown files found:")
             for i, f in enumerate(changed_md):
-                print(f"{i+1}. {f}")
+                print(f"{i + 1}. {f}")
             choice = input("Select a file by number: ").strip()
             try:
                 idx = int(choice) - 1

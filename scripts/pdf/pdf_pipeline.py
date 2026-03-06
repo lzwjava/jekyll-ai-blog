@@ -42,7 +42,6 @@ def get_last_n_files(input_dir, n=10):
 def process_markdown_files(
     input_dir, output_dir, max_files=10000, dry_run=False, n=None
 ):
-
     files_processed = 0
     files_skipped = 0
 

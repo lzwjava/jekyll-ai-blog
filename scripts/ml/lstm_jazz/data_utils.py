@@ -31,7 +31,6 @@ def generate_music(inference_model, indices_tones, chords, diversity=0.5):
     print("Predicting new values for different set of chords.")
 
     for i in range(1, num_chords):
-
         curr_chords = stream.Voice()
 
         for j in chords[i]:
@@ -109,7 +108,6 @@ def mid2wav(file):
     tempo = 130
 
     for track in mid.tracks:
-
         current_pos = 0.0
         current_notes = defaultdict(dict)
 

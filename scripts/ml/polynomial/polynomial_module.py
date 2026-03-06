@@ -11,7 +11,6 @@ def param_str(v: torch.Tensor):
 
 
 class Polynomial(nn.Module):
-
     def __init__(self):
         super().__init__()
         self.a = nn.Parameter(torch.rand(1))

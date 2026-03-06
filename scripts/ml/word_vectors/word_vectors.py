@@ -146,13 +146,13 @@ def cosine_similarity_test(target):
     c = np.random.uniform(-1, 1, 23)
 
     assert np.isclose(target(a, a), 1), "cosine_similarity(a, a) must be 1"
-    assert np.isclose(
-        target((c >= 0) * 1, (c < 0) * 1), 0
-    ), "cosine_similarity(a, not(a)) must be 0"
+    assert np.isclose(target((c >= 0) * 1, (c < 0) * 1), 0), (
+        "cosine_similarity(a, not(a)) must be 0"
+    )
     assert np.isclose(target(a, -a), -1), "cosine_similarity(a, -a) must be -1"
-    assert np.isclose(
-        target(a, b), target(a * 2, b * 4)
-    ), "cosine_similarity must be scale-independent"
+    assert np.isclose(target(a, b), target(a * 2, b * 4)), (
+        "cosine_similarity must be scale-independent"
+    )
 
     print("\033[92mAll cosine similarity tests passed!")
 
@@ -252,9 +252,9 @@ def complete_analogy_test(target):
 
     assert target("a", "a_nw", "c", test_word_to_vec_map) == "c_nw"
     assert target("a", "a_s", "c", test_word_to_vec_map) == "c_s"
-    assert (
-        target("a", "synonym_of_a", "c", test_word_to_vec_map) != "c"
-    ), "Best word cannot be input query"
+    assert target("a", "synonym_of_a", "c", test_word_to_vec_map) != "c", (
+        "Best word cannot be input query"
+    )
     assert target("a", "c", "a", test_word_to_vec_map) == "c"
 
     print("\033[92mAll analogy tests passed!")

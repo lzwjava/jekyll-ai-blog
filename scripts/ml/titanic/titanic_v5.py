@@ -442,7 +442,6 @@ fig, axs = plt.subplots(ncols=2, nrows=2, figsize=(20, 20))
 plt.subplots_adjust(right=1.5)
 
 for i, feature in enumerate(cont_features):
-
     sns.distplot(
         df_train[~surv][feature],
         label="Not Survived",
@@ -686,7 +685,6 @@ family_rates = {}
 ticket_rates = {}
 
 for i in range(len(df_family_survival_rate)):
-
     if (
         df_family_survival_rate.index[i] in non_unique_families
         and df_family_survival_rate.iloc[i, 1] > 1
@@ -696,7 +694,6 @@ for i in range(len(df_family_survival_rate)):
         ]
 
 for i in range(len(df_ticket_survival_rate)):
-
     if (
         df_ticket_survival_rate.index[i] in non_unique_tickets
         and df_ticket_survival_rate.iloc[i, 1] > 1

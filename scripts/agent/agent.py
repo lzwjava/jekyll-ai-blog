@@ -30,9 +30,7 @@ def main():
         print("Answer received. Saving to answer.md...")
 
         # Save the interaction to file
-        interaction = (
-            f"**User Input:**\n{user_input}\n\n**Chatbot Answer:**\n{answer}\n{'-'*50}"
-        )
+        interaction = f"**User Input:**\n{user_input}\n\n**Chatbot Answer:**\n{answer}\n{'-' * 50}"
         save_to_file(interaction)
         print("Saved to answer.md. Anything else I can help with?")
 

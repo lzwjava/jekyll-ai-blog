@@ -99,12 +99,10 @@ linear_forward_test(linear_forward)
 
 def linear_activation_forward(A_prev, W, b, activation):
     if activation == "sigmoid":
-
         Z, linear_cache = linear_forward(A_prev, W, b)
         A, activation_cache = sigmoid(Z)
 
     elif activation == "relu":
-
         Z, linear_cache = linear_forward(A_prev, W, b)
         A, activation_cache = relu(Z)
 
@@ -215,12 +213,10 @@ def linear_activation_backward(dA, cache, activation):
     linear_cache, activation_cache = cache
 
     if activation == "relu":
-
         dZ = relu_backward(dA, activation_cache)
         dA_prev, dW, db = linear_backward(dZ, linear_cache)
 
     elif activation == "sigmoid":
-
         dZ = sigmoid_backward(dA, activation_cache)
         dA_prev, dW, db = linear_backward(dZ, linear_cache)
 

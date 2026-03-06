@@ -138,17 +138,17 @@ def process_file(file_path, output_only=False, update=False):
         offset = 0  # Track content length changes
 
         for i, table in enumerate(tables):
-            print(f"\nAnalyzing table {i+1}...")
+            print(f"\nAnalyzing table {i + 1}...")
             needs_optimization, reason = analyze_table_complexity(table["content"])
-            print(f"Table {i+1}: {reason}")
+            print(f"Table {i + 1}: {reason}")
 
             if needs_optimization:
-                print(f"Optimizing table {i+1}...")
+                print(f"Optimizing table {i + 1}...")
                 optimized_table = optimize_table_with_ai(table["content"])
 
                 if optimized_table:
                     if output_only:
-                        print(f"\nOptimized table {i+1}:")
+                        print(f"\nOptimized table {i + 1}:")
                         print(optimized_table)
                     else:
                         # Calculate positions with offset
@@ -198,11 +198,11 @@ def process_file(file_path, output_only=False, update=False):
                                 new_length = len(optimized_table) + 1
                                 offset += new_length - old_length
 
-                        print(f"Table {i+1} optimized and updated in content")
+                        print(f"Table {i + 1} optimized and updated in content")
                 else:
-                    print(f"Failed to optimize table {i+1}")
+                    print(f"Failed to optimize table {i + 1}")
             else:
-                print(f"Table {i+1} is already mobile-friendly")
+                print(f"Table {i + 1} is already mobile-friendly")
 
         # Write updated content if not output_only
         if not output_only and updated_content != content:
@@ -261,7 +261,7 @@ def main():
                             if needs_optimization
                             else "MOBILE-FRIENDLY"
                         )
-                        print(f"  Table {i+1}: {status} - {reason}")
+                        print(f"  Table {i + 1}: {status} - {reason}")
                 else:
                     print(f"{file_path}: No tables found")
             except Exception as e:

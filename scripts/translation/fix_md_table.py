@@ -119,9 +119,9 @@ def main(auto_yes=False):
             )
             total_fixes += 1
 
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f"Total: {total_fixes} fix(es) needed in {len(files_to_fix)} file(s)")
-    print(f"{'='*60}\n")
+    print(f"{'=' * 60}\n")
 
     # Ask for confirmation before applying fixes (unless auto_yes is True)
     if should_auto_yes:

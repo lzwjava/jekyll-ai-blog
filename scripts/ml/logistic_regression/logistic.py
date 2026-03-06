@@ -127,7 +127,6 @@ def optimize(w, b, X, Y, num_iterations=100, learning_rate=0.009, print_cost=Fal
     costs = []
 
     for i in range(num_iterations):
-
         grads, cost = propagate(w, b, X, Y)
 
         dw = grads["dw"]
@@ -182,7 +181,6 @@ def predict(w, b, X):
     A = sigmoid(np.dot(w.T, X) + b)
 
     for i in range(A.shape[1]):
-
         if A[0, i] > 0.5:
             Y_prediction[0, i] = 1
         else:

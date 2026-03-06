@@ -91,7 +91,7 @@ def create_server_from_snapshot(snapshot_id, source_server, new_name=None):
                 )
             except Exception as e:
                 print(
-                    f"Attempt {attempts+1}/{max_attempts}: Snapshot not accessible yet: {e}"
+                    f"Attempt {attempts + 1}/{max_attempts}: Snapshot not accessible yet: {e}"
                 )
 
             # Increment attempts and wait regardless of error or not-ready status

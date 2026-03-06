@@ -90,7 +90,6 @@ def get_batch(split):
     x = torch.stack([data[i : i + block_size] for i in ix])
     y = torch.stack([data[i + 1 : i + block_size + 1] for i in ix])
     if device_type == "cuda":
-
         x, y = x.to(device, non_blocking=True), y.to(device, non_blocking=True)
     else:
         x, y = x.to(device), y.to(device)
@@ -107,7 +106,6 @@ print(yb)
 
 
 class LayerNorm(nn.Module):
-
     def __init__(self, ndim, bias):
         super().__init__()
         self.weight = nn.Parameter(torch.ones(ndim))
@@ -118,7 +116,6 @@ class LayerNorm(nn.Module):
 
 
 class CausalSelfAttention(nn.Module):
-
     def __init__(self):
         super().__init__()
         self.c_attn = nn.Linear(n_embd, 3 * n_embd, bias=bias)
@@ -156,7 +153,6 @@ class CausalSelfAttention(nn.Module):
 
 
 class MLP(nn.Module):
-
     def __init__(self):
         super().__init__()
         self.c_fc = nn.Linear(n_embd, 4 * n_embd, bias=bias)
@@ -174,7 +170,6 @@ class MLP(nn.Module):
 
 
 class Block(nn.Module):
-
     def __init__(
         self,
     ):
@@ -191,7 +186,6 @@ class Block(nn.Module):
 
 
 class GPT(nn.Module):
-
     def __init__(self):
         super().__init__()
 
@@ -224,9 +218,9 @@ class GPT(nn.Module):
     def forward(self, idx, targets=None):
         device = idx.device
         b, t = idx.size()
-        assert (
-            t <= block_size
-        ), f"Cannot forward sequence of length {t}, block size is only {block_size}"
+        assert t <= block_size, (
+            f"Cannot forward sequence of length {t}, block size is only {block_size}"
+        )
 
         pos = torch.arange(0, t, dtype=torch.long, device=device)
 
@@ -239,20 +233,17 @@ class GPT(nn.Module):
         x = self.transformer.ln_f(x)
 
         if targets is not None:
-
             logits = self.lm_head(x)
             loss = F.cross_entropy(
                 logits.view(-1, logits.size(-1)), targets.view(-1), ignore_index=-1
             )
         else:
-
             logits = self.lm_head(x[:, [-1], :])
             loss = None
 
         return logits, loss
 
     def configure_optimizers(self, weight_decay, learning_rate, betas, device_type):
-
         param_dict = {pn: p for pn, p in self.named_parameters()}
 
         param_dict = {pn: p for pn, p in param_dict.items() if p.requires_grad}
@@ -285,7 +276,6 @@ class GPT(nn.Module):
     @torch.no_grad()
     def generate(self, idx, max_new_tokens, temperature=1.0, top_k=None):
         for _ in range(max_new_tokens):
-
             idx_cond = idx if idx.size(1) <= block_size else idx[:, -block_size:]
 
             logits, _ = self(idx_cond)
@@ -393,7 +383,6 @@ master_process = True
 X, Y = get_batch("train")
 
 while True:
-
     print(f"iter num: {iter_num}")
 
     lr = learning_rate

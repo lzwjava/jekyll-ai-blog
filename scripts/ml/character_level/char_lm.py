@@ -73,16 +73,16 @@ def clip_test(target, mValue):
         valuef = gradients2[grad]
         mink = np.min(valuef)
         maxk = np.max(valuef)
-        assert mink >= -abs(
-            mValue
-        ), f"Problem with {grad}. Set a_min to -mValue in the np.clip call"
-        assert maxk <= abs(
-            mValue
-        ), f"Problem with {grad}.Set a_max to mValue in the np.clip call"
+        assert mink >= -abs(mValue), (
+            f"Problem with {grad}. Set a_min to -mValue in the np.clip call"
+        )
+        assert maxk <= abs(mValue), (
+            f"Problem with {grad}.Set a_max to mValue in the np.clip call"
+        )
         index_not_clipped = np.logical_and(valuei <= mValue, valuei >= -mValue)
-        assert np.all(
-            valuei[index_not_clipped] == valuef[index_not_clipped]
-        ), f" Problem with {grad}. Some values that should not have changed, changed during the clipping process."
+        assert np.all(valuei[index_not_clipped] == valuef[index_not_clipped]), (
+            f" Problem with {grad}. Some values that should not have changed, changed during the clipping process."
+        )
 
     print("\033[92mAll tests passed!\x1b[0m")
 
@@ -156,9 +156,9 @@ def sample_test(target):
 
     assert len(indices) < 52, "Indices length must be smaller than 52"
     assert indices[-1] == char_to_ix["\n"], "All samples must end with \\n"
-    assert min(indices) >= 0 and max(indices) < len(
-        char_to_ix
-    ), f"Sampled indexes must be between 0 and len(char_to_ix)={len(char_to_ix)}"
+    assert min(indices) >= 0 and max(indices) < len(char_to_ix), (
+        f"Sampled indexes must be between 0 and len(char_to_ix)={len(char_to_ix)}"
+    )
     assert np.allclose(indices[0:6], [23, 16, 26, 26, 24, 3]), "Wrong values"
 
     print("\033[92mAll tests passed!")
@@ -202,21 +202,21 @@ def optimize_test(target):
     print('gradients["dby"][1] =', gradients["dby"][1])
     print("a_last[4] =", a_last[4])
 
-    assert np.isclose(
-        loss, 126.5039757
-    ), "Problems with the call of the rnn_forward function"
+    assert np.isclose(loss, 126.5039757), (
+        "Problems with the call of the rnn_forward function"
+    )
     for grad in gradients.values():
         assert np.min(grad) >= -5, "Problems in the clip function call"
         assert np.max(grad) <= 5, "Problems in the clip function call"
-    assert np.allclose(
-        gradients["dWaa"][1, 2], 0.1947093
-    ), "Unexpected gradients. Check the rnn_backward call"
-    assert np.allclose(
-        gradients["dWya"][1, 2], -0.007773876
-    ), "Unexpected gradients. Check the rnn_backward call"
-    assert not np.allclose(
-        parameters["Wya"], old_parameters["Wya"]
-    ), "parameters were not updated"
+    assert np.allclose(gradients["dWaa"][1, 2], 0.1947093), (
+        "Unexpected gradients. Check the rnn_backward call"
+    )
+    assert np.allclose(gradients["dWya"][1, 2], -0.007773876), (
+        "Unexpected gradients. Check the rnn_backward call"
+    )
+    assert not np.allclose(parameters["Wya"], old_parameters["Wya"]), (
+        "parameters were not updated"
+    )
 
     print("\033[92mAll tests passed!")
 
@@ -250,7 +250,6 @@ def model(
     last_dino_name = "abc"
 
     for j in range(num_iterations):
-
         idx = np.random.randint(0, len(examples))
 
         single_example = examples[idx]
@@ -279,7 +278,6 @@ def model(
         loss = smooth(loss, curr_loss)
 
         if j % 2000 == 0:
-
             print("Iteration: %d, Loss: %f" % (j, loss) + "\n")
 
             seed = 0
