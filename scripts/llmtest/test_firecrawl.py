@@ -8,12 +8,12 @@ payload = {
     "onlyMainContent": True,
     "maxAge": 172800000,
     "parsers": ["pdf"],
-    "formats": ["markdown"]
+    "formats": ["markdown"],
 }
 
 headers = {
     "Authorization": f"Bearer {os.getenv('FIRECRAWL_API_KEY')}",
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
 }
 
 response = requests.post(url, json=payload, headers=headers)

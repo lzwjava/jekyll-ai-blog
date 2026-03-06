@@ -5,6 +5,7 @@ import sys
 from google import genai
 from google.genai.types import GenerateImagesConfig
 
+
 def generate_image_with_imagen(prompt, output_path):
     """Generate image using Imagen model."""
     print(f"Generating image with Imagen model...")
@@ -15,8 +16,8 @@ def generate_image_with_imagen(prompt, output_path):
         # Set up Vertex AI client
         client = genai.Client(
             vertexai=True,
-            project=os.getenv('GOOGLE_CLOUD_PROJECT'),
-            location=os.getenv('GOOGLE_CLOUD_LOCATION')
+            project=os.getenv("GOOGLE_CLOUD_PROJECT"),
+            location=os.getenv("GOOGLE_CLOUD_LOCATION"),
         )
 
         print("Calling Imagen API with model: imagen-4.0-generate-preview-06-06")
@@ -24,7 +25,7 @@ def generate_image_with_imagen(prompt, output_path):
             model="imagen-4.0-generate-preview-06-06",
             prompt=prompt,
             config=GenerateImagesConfig(
-                aspect_ratio = "1:1",  # Square ratio for better center cropping flexibility
+                aspect_ratio="1:1",  # Square ratio for better center cropping flexibility
                 image_size="1K",
                 output_compression_quality=90,
                 output_mime_type="image/jpeg",
@@ -36,7 +37,9 @@ def generate_image_with_imagen(prompt, output_path):
 
         print("Saving generated image...")
         image.generated_images[0].image.save(output_path)
-        print(f"✓ Successfully created image at {output_path} using {len(image.generated_images[0].image.image_bytes)} bytes")
+        print(
+            f"✓ Successfully created image at {output_path} using {len(image.generated_images[0].image.image_bytes)} bytes"
+        )
         return True
 
     except Exception as e:

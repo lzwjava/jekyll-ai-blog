@@ -22,14 +22,14 @@ def detect_file_encoding(file_path: Path) -> Optional[str]:
         str: Detected encoding or None if detection fails
     """
     try:
-        with open(file_path, 'rb') as f:
+        with open(file_path, "rb") as f:
             raw_data = f.read(10000)  # Read first 10KB for detection
     except Exception as e:
         print(f"  Error reading file: {e}")
         return None
 
     result = chardet.detect(raw_data)
-    return result['encoding'] if result['encoding'] else None
+    return result["encoding"] if result["encoding"] else None
 
 
 def convert_file_encoding(file_path: Path, target_encoding: str) -> Tuple[bool, str]:
@@ -54,15 +54,17 @@ def convert_file_encoding(file_path: Path, target_encoding: str) -> Tuple[bool, 
 
         # Skip files that are already in the target encoding
         # Special case: ASCII to UTF-8 is a no-op since UTF-8 is backward compatible with ASCII
-        if (current_encoding.lower() == target_encoding.lower() or
-            (current_encoding and current_encoding.lower() == 'ascii' and
-             target_encoding.lower() == 'utf-8')):
+        if current_encoding.lower() == target_encoding.lower() or (
+            current_encoding
+            and current_encoding.lower() == "ascii"
+            and target_encoding.lower() == "utf-8"
+        ):
             return True, f"Already in {target_encoding} encoding"
 
-        with open(file_path, 'r', encoding=current_encoding) as f:
+        with open(file_path, "r", encoding=current_encoding) as f:
             content = f.read()
 
-        with open(file_path, 'w', encoding=target_encoding) as f:
+        with open(file_path, "w", encoding=target_encoding) as f:
             f.write(content)
 
         return True, f"Converted from {current_encoding} to {target_encoding}"
@@ -72,9 +74,7 @@ def convert_file_encoding(file_path: Path, target_encoding: str) -> Tuple[bool, 
 
 
 def process_files(
-    paths: List[Path],
-    target_encoding: str,
-    extension: Optional[str] = None
+    paths: List[Path], target_encoding: str, extension: Optional[str] = None
 ) -> None:
     """
     Process files or directories for encoding conversion.
@@ -94,11 +94,11 @@ def process_files(
             print(f"\nScanning directory: {path}")
             print("-" * 70)
 
-            files = list(path.rglob('*'))
+            files = list(path.rglob("*"))
             for file in files:
                 if file.is_file():
                     # Use provided extension or default to .py
-                    file_ext = extension if extension else '.py'
+                    file_ext = extension if extension else ".py"
                     if file.suffix == file_ext:
                         files_to_process.append((file, f"{file.relative_to(path)}"))
 
@@ -137,7 +137,9 @@ def process_files(
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python convert_encoding.py <target_encoding> <path1> [path2] [extension]")
+        print(
+            "Usage: python convert_encoding.py <target_encoding> <path1> [path2] [extension]"
+        )
         print("  target_encoding: The encoding to convert to (e.g., 'utf-8', 'gbk')")
         print("  path: File or directory path(s)")
         print("  extension: Optional file extension filter (default: '.py')")
@@ -151,19 +153,19 @@ if __name__ == "__main__":
     target_encoding = sys.argv[1]
     paths = sys.argv[2:]
 
-    extension = '.py'
+    extension = ".py"
     if len(paths) >= 1:
         ext = paths[-1]
-        if ext.startswith('.') and len(ext) <= 6:
+        if ext.startswith(".") and len(ext) <= 6:
             extension = ext
             paths = paths[:-1]
 
     if not paths:
-        paths = ['.']
+        paths = ["."]
 
     print(f"Target encoding: {target_encoding}")
     print(f"Paths to process: {', '.join(str(p) for p in paths)}")
-    if len(paths) > 0 and not paths[0].startswith('.'):
+    if len(paths) > 0 and not paths[0].startswith("."):
         print(f"Extension filter: {extension}")
 
     paths_obj = [Path(p) for p in paths]

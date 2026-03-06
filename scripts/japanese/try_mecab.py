@@ -5,15 +5,17 @@ sentence = "太郎はこの本を女性に渡した。"
 result = t.parse(sentence)
 
 print("MeCab format explanation:")
-print("Surface\tPOS1,POS2,POS3,POS4,Inflection Type,Inflection Form,Base Form,Reading,Pronunciation")
+print(
+    "Surface\tPOS1,POS2,POS3,POS4,Inflection Type,Inflection Form,Base Form,Reading,Pronunciation"
+)
 print("\nDetailed analysis:")
-for line in result.split('\n'):
-    if line == 'EOS' or not line.strip():
+for line in result.split("\n"):
+    if line == "EOS" or not line.strip():
         continue
-    parts = line.split('\t')
+    parts = line.split("\t")
     if len(parts) == 2:
         surface = parts[0]
-        features = parts[1].split(',')
+        features = parts[1].split(",")
         print(f"\nWord: {surface}")
         print(f"POS1 (品詞): {features[0]}")  # Part of Speech
         print(f"POS2 (品詞細分類1): {features[1]}")  # Subcategory 1

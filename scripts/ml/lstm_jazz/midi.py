@@ -36,16 +36,22 @@ try:
 
     matches = []
     for root, dirnames, filenames in os.walk("./"):
-        for filename in fnmatch.filter(filenames, '*.mid'):
+        for filename in fnmatch.filter(filenames, "*.mid"):
             matches.append(os.path.join(root, filename))
 
     for song in matches:
 
         file_name = os.path.splitext(os.path.basename(song))[0]
-        new_file = file_name + '.wav'
+        new_file = file_name + ".wav"
 
-        stream = audio.open(format=format, channels=channels, rate=sample_rate, input=True,
-                            input_device_index=input_device, frames_per_buffer=buffer)
+        stream = audio.open(
+            format=format,
+            channels=channels,
+            rate=sample_rate,
+            input=True,
+            input_device_index=input_device,
+            frames_per_buffer=buffer,
+        )
 
         print("Playing " + file_name + ".mid\n")
         play_music(song)
@@ -58,19 +64,30 @@ try:
         stream.stop_stream()
         stream.close()
 
-        wave_file = wave.open(new_file, 'wb')
+        wave_file = wave.open(new_file, "wb")
         wave_file.setnchannels(channels)
         wave_file.setsampwidth(audio.get_sample_size(format))
         wave_file.setframerate(sample_rate)
 
         print("Saving " + new_file)
 
-        wave_file.writeframes(b''.join(frames))
+        wave_file.writeframes(b"".join(frames))
         wave_file.close()
 
         if do_ffmpeg_convert:
-            os.system('ffmpeg -i ' + new_file + ' -y -f mp3 -ab ' + str(mp3_bitrate) + 'k -ac ' + str(
-                channels) + ' -ar ' + str(sample_rate) + ' -vn ' + file_name + '.mp3')
+            os.system(
+                "ffmpeg -i "
+                + new_file
+                + " -y -f mp3 -ab "
+                + str(mp3_bitrate)
+                + "k -ac "
+                + str(channels)
+                + " -ar "
+                + str(sample_rate)
+                + " -vn "
+                + file_name
+                + ".mp3"
+            )
 
             if do_wav_cleanup:
                 os.remove(new_file)

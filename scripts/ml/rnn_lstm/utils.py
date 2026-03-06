@@ -16,7 +16,7 @@ def tanh(x, derivative=False):
     f = (np.exp(x_safe) - np.exp(-x_safe)) / (np.exp(x_safe) + np.exp(-x_safe))
 
     if derivative:
-        return 1 - f ** 2
+        return 1 - f**2
     else:
         return f
 

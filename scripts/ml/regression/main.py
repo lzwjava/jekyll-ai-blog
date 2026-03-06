@@ -9,16 +9,16 @@ b_target = torch.randn(1) * 5
 
 
 def poly_desc(W, b):
-    result = 'y = '
+    result = "y = "
     for i, w in enumerate(W):
-        result += '{:+.6f}x^{} '.format(w, i + 1)
-    result += '{:+.6f}'.format(b[0])
+        result += "{:+.6f}x^{} ".format(w, i + 1)
+    result += "{:+.6f}".format(b[0])
     return result
 
 
 def make_features(x):
     x = x.unsqueeze(1)
-    return torch.cat([x ** i for i in range(1, POLY_DEGREE + 1)], 1)
+    return torch.cat([x**i for i in range(1, POLY_DEGREE + 1)], 1)
 
 
 def f(x):
@@ -51,11 +51,11 @@ def train():
             break
 
         if batch_idx % 1000 == 0:
-            print(f'Loss: {loss} after batch {batch_idx}')
+            print(f"Loss: {loss} after batch {batch_idx}")
 
-    print(f'Loss: {loss} after batch {batch_idx}')
-    print('Learned function:\t' + poly_desc(fc.weight.view(-1), fc.bias))
-    print('Actual function:\t' + poly_desc(W_target.view(-1), b_target))
+    print(f"Loss: {loss} after batch {batch_idx}")
+    print("Learned function:\t" + poly_desc(fc.weight.view(-1), fc.bias))
+    print("Actual function:\t" + poly_desc(W_target.view(-1), b_target))
 
 
 def main():
@@ -68,5 +68,5 @@ def main():
     train()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

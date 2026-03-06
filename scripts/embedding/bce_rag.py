@@ -10,7 +10,6 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain.retrievers import ContextualCompressionRetriever
 
-
 # init embedding model
 embedding_model_name = "maidalun1020/bce-embedding-base_v1"
 embedding_model_kwargs = {"device": "cpu"}

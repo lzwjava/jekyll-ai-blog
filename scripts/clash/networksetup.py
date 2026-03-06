@@ -83,7 +83,8 @@ def unset_proxy(interface):
             ["networksetup", "-setsecurewebproxystate", interface, "off"], check=True
         )
         subprocess.run(
-            ["networksetup", "-setsocksfirewallproxystate", interface, "off"], check=True
+            ["networksetup", "-setsocksfirewallproxystate", interface, "off"],
+            check=True,
         )
         print(f"Successfully unset HTTP, HTTPS, and SOCKS proxies for {interface}")
     except subprocess.CalledProcessError as e:

@@ -55,11 +55,11 @@ def train(model: Net, train_loader: DataLoader, optimizer: optim.Optimizer):
 
 
 def read_training_data() -> tuple:
-    df = pd.read_csv('./train.csv')
+    df = pd.read_csv("./train.csv")
     # print(df.head())
 
-    labels = df['label'].values
-    pixels = df.drop('label', axis=1).values
+    labels = df["label"].values
+    pixels = df.drop("label", axis=1).values
     pixels = pixels / 255.0
 
     shuffle_list = list(zip(pixels, labels))
@@ -81,17 +81,21 @@ def read_training_data() -> tuple:
 
     training_inputs = torch.Tensor(np.array(training_inputs))
     training_results = torch.Tensor(np.array(training_results))
-    training_data = DataLoader(list(zip(training_inputs, training_results)), batch_size=10, shuffle=True)
+    training_data = DataLoader(
+        list(zip(training_inputs, training_results)), batch_size=10, shuffle=True
+    )
 
     val_inputs = torch.Tensor(val_inputs)
     val_results = torch.Tensor(val_results)
-    val_data = DataLoader(list(zip(val_inputs, val_results)), batch_size=10, shuffle=True)
+    val_data = DataLoader(
+        list(zip(val_inputs, val_results)), batch_size=10, shuffle=True
+    )
 
     return training_data, val_data
 
 
 def read_test_loader() -> list:
-    df = pd.read_csv('./test.csv')
+    df = pd.read_csv("./test.csv")
     pixels = df.values
     pixels = pixels / 255.0
     test_input = [np.reshape(x, (1, 28, 28)) for x in pixels]
@@ -109,17 +113,16 @@ def vectorized_result(j):
 def draw(some_digit):
     some_digit_image = some_digit.reshape(28, 28)
 
-    plt.imshow(some_digit_image, cmap=matplotlib.cm.binary,
-               interpolation='nearest')
-    plt.axis('off')
+    plt.imshow(some_digit_image, cmap=matplotlib.cm.binary, interpolation="nearest")
+    plt.axis("off")
     plt.show()
 
 
 def get_device():
     if torch.cuda.is_available():
-        return torch.device('cuda')
+        return torch.device("cuda")
     else:
-        return torch.device('cpu')
+        return torch.device("cpu")
 
 
 def validate(model, val_loader):
@@ -135,7 +138,7 @@ def validate(model, val_loader):
             target = target.argmax(dim=1, keepdim=True)
             correct += pred.eq(target).sum().item()
 
-    print('Accuracy:{}'.format(100. * correct / len(val_loader.dataset)))
+    print("Accuracy:{}".format(100.0 * correct / len(val_loader.dataset)))
 
 
 def submit(model: Net, test_loader: DataLoader):
@@ -150,8 +153,8 @@ def submit(model: Net, test_loader: DataLoader):
             test_output = test_output.argmax(dim=1)
             result.extend(test_output.cpu().detach().tolist())
 
-        output = pd.DataFrame({'ImageId': images, 'Label': result})
-        output.to_csv('submission.csv', index=False)
+        output = pd.DataFrame({"ImageId": images, "Label": result})
+        output.to_csv("submission.csv", index=False)
 
 
 def main():
@@ -174,5 +177,5 @@ def main():
     submit(model, test_loader)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

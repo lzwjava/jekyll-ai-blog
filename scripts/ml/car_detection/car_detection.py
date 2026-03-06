@@ -14,11 +14,17 @@ from tensorflow.python.framework.ops import EagerTensor
 
 from tensorflow.keras.models import load_model
 from yad2k.models.keras_yolo import yolo_head
-from yad2k.utils.utils import draw_boxes, get_colors_for_classes, scale_boxes, read_classes, read_anchors, \
-    preprocess_image
+from yad2k.utils.utils import (
+    draw_boxes,
+    get_colors_for_classes,
+    scale_boxes,
+    read_classes,
+    read_anchors,
+    preprocess_image,
+)
 
 
-def yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold=.6):
+def yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold=0.6):
     box_scores = tf.multiply(box_confidence, box_class_probs)
 
     box_classes = tf.math.argmax(box_scores, axis=-1)
@@ -37,7 +43,9 @@ tf.random.set_seed(10)
 box_confidence = tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed=1)
 boxes = tf.random.normal([19, 19, 5, 4], mean=1, stddev=4, seed=1)
 box_class_probs = tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed=1)
-scores, boxes, classes = yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold=0.5)
+scores, boxes, classes = yolo_filter_boxes(
+    boxes, box_confidence, box_class_probs, threshold=0.5
+)
 print("scores[2] = " + str(scores[2].numpy()))
 print("boxes[2] = " + str(boxes[2].numpy()))
 print("classes[2] = " + str(classes[2].numpy()))
@@ -54,15 +62,17 @@ assert boxes.shape == (1789, 4), "Wrong shape in boxes"
 assert classes.shape == (1789,), "Wrong shape in classes"
 
 assert np.isclose(scores[2].numpy(), 9.270486), "Values are wrong on scores"
-assert np.allclose(boxes[2].numpy(), [4.6399336, 3.2303846, 4.431282, -2.202031]), "Values are wrong on boxes"
+assert np.allclose(
+    boxes[2].numpy(), [4.6399336, 3.2303846, 4.431282, -2.202031]
+), "Values are wrong on boxes"
 assert classes[2].numpy() == 8, "Values are wrong on classes"
 
 print("\033[92m All tests passed!")
 
 
 def iou(box1, box2):
-    (box1_x1, box1_y1, box1_x2, box1_y2) = box1
-    (box2_x1, box2_y1, box2_x2, box2_y2) = box2
+    box1_x1, box1_y1, box1_x2, box1_y2 = box1
+    box2_x1, box2_y1, box2_x2, box2_y2 = box2
 
     xi1 = max(box1_x1, box2_x1)
     yi1 = max(box1_y1, box2_y1)
@@ -85,9 +95,12 @@ box1 = (2, 1, 4, 3)
 box2 = (1, 2, 3, 4)
 
 print("iou for intersecting boxes = " + str(iou(box1, box2)))
-assert iou(box1, box2) < 1, "The intersection area must be always smaller or equal than the union area."
-assert np.isclose(iou(box1, box2),
-                  0.14285714), "Wrong value. Check your implementation. Problem with intersecting boxes"
+assert (
+    iou(box1, box2) < 1
+), "The intersection area must be always smaller or equal than the union area."
+assert np.isclose(
+    iou(box1, box2), 0.14285714
+), "Wrong value. Check your implementation. Problem with intersecting boxes"
 
 box1 = (1, 2, 3, 4)
 box2 = (5, 6, 7, 8)
@@ -108,14 +121,10 @@ print("\033[92m All tests passed!")
 
 
 def yolo_non_max_suppression(scores, boxes, classes, max_boxes=10, iou_threshold=0.5):
-    max_boxes_tensor = tf.Variable(max_boxes, dtype='int32')
+    max_boxes_tensor = tf.Variable(max_boxes, dtype="int32")
 
     nms_indices = tf.image.non_max_suppression(
-        boxes,
-        scores,
-        max_boxes,
-        iou_threshold=iou_threshold,
-        name=None
+        boxes, scores, max_boxes, iou_threshold=iou_threshold, name=None
     )
 
     scores = tf.gather(scores, nms_indices)
@@ -126,9 +135,23 @@ def yolo_non_max_suppression(scores, boxes, classes, max_boxes=10, iou_threshold
 
 
 tf.random.set_seed(10)
-scores = tf.random.normal([54, ], mean=1, stddev=4, seed=1)
+scores = tf.random.normal(
+    [
+        54,
+    ],
+    mean=1,
+    stddev=4,
+    seed=1,
+)
 boxes = tf.random.normal([54, 4], mean=1, stddev=4, seed=1)
-classes = tf.random.normal([54, ], mean=1, stddev=4, seed=1)
+classes = tf.random.normal(
+    [
+        54,
+    ],
+    mean=1,
+    stddev=4,
+    seed=1,
+)
 scores, boxes, classes = yolo_non_max_suppression(scores, boxes, classes)
 
 assert type(scores) == EagerTensor, "Use tensoflow functions"
@@ -148,43 +171,59 @@ assert boxes.shape == (10, 4), "Wrong shape"
 assert classes.shape == (10,), "Wrong shape"
 
 assert np.isclose(scores[2].numpy(), 8.147684), "Wrong value on scores"
-assert np.allclose(boxes[2].numpy(), [6.0797963, 3.743308, 1.3914018, -0.34089637]), "Wrong value on boxes"
+assert np.allclose(
+    boxes[2].numpy(), [6.0797963, 3.743308, 1.3914018, -0.34089637]
+), "Wrong value on boxes"
 assert np.isclose(classes[2].numpy(), 1.7079165), "Wrong value on classes"
 
 print("\033[92m All tests passed!")
 
 
 def yolo_boxes_to_corners(box_xy, box_wh):
-    box_mins = box_xy - (box_wh / 2.)
-    box_maxes = box_xy + (box_wh / 2.)
+    box_mins = box_xy - (box_wh / 2.0)
+    box_maxes = box_xy + (box_wh / 2.0)
 
-    return tf.keras.backend.concatenate([
-        box_mins[..., 1:2],
-        box_mins[..., 0:1],
-        box_maxes[..., 1:2],
-        box_maxes[..., 0:1]
-    ])
+    return tf.keras.backend.concatenate(
+        [
+            box_mins[..., 1:2],
+            box_mins[..., 0:1],
+            box_maxes[..., 1:2],
+            box_maxes[..., 0:1],
+        ]
+    )
 
 
-def yolo_eval(yolo_outputs, image_shape=(720, 1280), max_boxes=10, score_threshold=.6, iou_threshold=.5):
+def yolo_eval(
+    yolo_outputs,
+    image_shape=(720, 1280),
+    max_boxes=10,
+    score_threshold=0.6,
+    iou_threshold=0.5,
+):
     box_xy, box_wh, box_confidence, box_class_probs = yolo_outputs
 
     boxes = yolo_boxes_to_corners(box_xy, box_wh)
 
-    scores, boxes, classes = yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold=iou_threshold)
+    scores, boxes, classes = yolo_filter_boxes(
+        boxes, box_confidence, box_class_probs, threshold=iou_threshold
+    )
 
     boxes = scale_boxes(boxes, image_shape)
 
-    scores, boxes, classes = yolo_non_max_suppression(scores, boxes, classes, max_boxes, iou_threshold)
+    scores, boxes, classes = yolo_non_max_suppression(
+        scores, boxes, classes, max_boxes, iou_threshold
+    )
 
     return scores, boxes, classes
 
 
 tf.random.set_seed(10)
-yolo_outputs = (tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed=1),
-                tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed=1),
-                tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed=1),
-                tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed=1))
+yolo_outputs = (
+    tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed=1),
+    tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed=1),
+    tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed=1),
+    tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed=1),
+)
 scores, boxes, classes = yolo_eval(yolo_outputs)
 print("scores[2] = " + str(scores[2].numpy()))
 print("boxes[2] = " + str(boxes[2].numpy()))
@@ -202,7 +241,9 @@ assert boxes.shape == (10, 4), "Wrong shape"
 assert classes.shape == (10,), "Wrong shape"
 
 assert np.isclose(scores[2].numpy(), 171.60194), "Wrong value on scores"
-assert np.allclose(boxes[2].numpy(), [-1240.3483, -3212.5881, -645.78, 2024.3052]), "Wrong value on boxes"
+assert np.allclose(
+    boxes[2].numpy(), [-1240.3483, -3212.5881, -645.78, 2024.3052]
+), "Wrong value on boxes"
 assert np.isclose(classes[2].numpy(), 16), "Wrong value on classes"
 
 print("\033[92m All tests passed!")
@@ -217,14 +258,18 @@ yolo_model.summary()
 
 
 def predict(image_file):
-    image, image_data = preprocess_image("images/" + image_file, model_image_size=(608, 608))
+    image, image_data = preprocess_image(
+        "images/" + image_file, model_image_size=(608, 608)
+    )
 
     yolo_model_outputs = yolo_model(image_data)
     yolo_outputs = yolo_head(yolo_model_outputs, anchors, len(class_names))
 
-    out_scores, out_boxes, out_classes = yolo_eval(yolo_outputs, [image.size[1], image.size[0]], 10, 0.3, 0.5)
+    out_scores, out_boxes, out_classes = yolo_eval(
+        yolo_outputs, [image.size[1], image.size[0]], 10, 0.3, 0.5
+    )
 
-    print('Found {} boxes for {}'.format(len(out_boxes), "images/" + image_file))
+    print("Found {} boxes for {}".format(len(out_boxes), "images/" + image_file))
 
     colors = get_colors_for_classes(len(class_names))
 

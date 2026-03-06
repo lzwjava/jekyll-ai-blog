@@ -38,11 +38,13 @@ def initialize_parameters(layer_dims):
     L = len(layer_dims)
 
     for l in range(1, L):
-        parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l - 1]) * np.sqrt(2 / layer_dims[l - 1])
-        parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
+        parameters["W" + str(l)] = np.random.randn(
+            layer_dims[l], layer_dims[l - 1]
+        ) * np.sqrt(2 / layer_dims[l - 1])
+        parameters["b" + str(l)] = np.zeros((layer_dims[l], 1))
 
-        assert parameters['W' + str(l)].shape[0] == layer_dims[l], layer_dims[l - 1]
-        assert parameters['W' + str(l)].shape[0] == layer_dims[l], 1
+        assert parameters["W" + str(l)].shape[0] == layer_dims[l], layer_dims[l - 1]
+        assert parameters["W" + str(l)].shape[0] == layer_dims[l], 1
 
     return parameters
 
@@ -76,9 +78,9 @@ def forward_propagation(X, parameters):
 
 def backward_propagation(X, Y, cache):
     m = X.shape[1]
-    (z1, a1, W1, b1, z2, a2, W2, b2, z3, a3, W3, b3) = cache
+    z1, a1, W1, b1, z2, a2, W2, b2, z3, a3, W3, b3 = cache
 
-    dz3 = 1. / m * (a3 - Y)
+    dz3 = 1.0 / m * (a3 - Y)
     dW3 = np.dot(dz3, a2.T)
     db3 = np.sum(dz3, axis=1, keepdims=True)
 
@@ -92,9 +94,19 @@ def backward_propagation(X, Y, cache):
     dW1 = np.dot(dz1, X.T)
     db1 = np.sum(dz1, axis=1, keepdims=True)
 
-    gradients = {"dz3": dz3, "dW3": dW3, "db3": db3,
-                 "da2": da2, "dz2": dz2, "dW2": dW2, "db2": db2,
-                 "da1": da1, "dz1": dz1, "dW1": dW1, "db1": db1}
+    gradients = {
+        "dz3": dz3,
+        "dW3": dW3,
+        "db3": db3,
+        "da2": da2,
+        "dz2": dz2,
+        "dW2": dW2,
+        "db2": db2,
+        "da1": da1,
+        "dz1": dz1,
+        "dW1": dW1,
+        "db1": db1,
+    }
 
     return gradients
 
@@ -117,13 +129,13 @@ def predict(X, y, parameters):
 
 
 def load_2D_dataset():
-    data = scipy.io.loadmat('datasets/data.mat')
-    train_X = data['X'].T
-    train_Y = data['y'].T
-    test_X = data['Xval'].T
-    test_Y = data['yval'].T
+    data = scipy.io.loadmat("datasets/data.mat")
+    train_X = data["X"].T
+    train_Y = data["y"].T
+    test_X = data["Xval"].T
+    test_Y = data["yval"].T
 
-    plt.scatter(train_X[0, :], train_X[1, :], c=train_Y, s=40, cmap=plt.cm.Spectral);
+    plt.scatter(train_X[0, :], train_X[1, :], c=train_Y, s=40, cmap=plt.cm.Spectral)
 
     return train_X, train_Y, test_X, test_Y
 
@@ -139,23 +151,23 @@ def plot_decision_boundary(model, X, y):
     Z = Z.reshape(xx.shape)
 
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
-    plt.ylabel('x2')
-    plt.xlabel('x1')
+    plt.ylabel("x2")
+    plt.xlabel("x1")
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
     plt.show()
 
 
 def predict_dec(parameters, X):
     a3, cache = forward_propagation(X, parameters)
-    predictions = (a3 > 0.5)
+    predictions = a3 > 0.5
     return predictions
 
 
 def load_dataset():
     np.random.seed(3)
-    train_X, train_Y = sklearn.datasets.make_moons(n_samples=300, noise=.2)
+    train_X, train_Y = sklearn.datasets.make_moons(n_samples=300, noise=0.2)
 
-    plt.scatter(train_X[:, 0], train_X[:, 1], c=train_Y, s=40, cmap=plt.cm.Spectral);
+    plt.scatter(train_X[:, 0], train_X[:, 1], c=train_Y, s=40, cmap=plt.cm.Spectral)
     train_X = train_X.T
     train_Y = train_Y.reshape((1, train_Y.shape[0]))
 

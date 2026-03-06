@@ -25,7 +25,7 @@ def load_planar_dataset(seed):
     N = int(m / 2)
     D = 2
     X = np.zeros((m, D))
-    Y = np.zeros((m, 1), dtype='uint8')
+    Y = np.zeros((m, 1), dtype="uint8")
     a = 4
 
     for j in range(2):
@@ -47,11 +47,13 @@ def initialize_parameters(layer_dims):
     L = len(layer_dims)
 
     for l in range(1, L):
-        parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l - 1]) / np.sqrt(layer_dims[l - 1])
-        parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
+        parameters["W" + str(l)] = np.random.randn(
+            layer_dims[l], layer_dims[l - 1]
+        ) / np.sqrt(layer_dims[l - 1])
+        parameters["b" + str(l)] = np.zeros((layer_dims[l], 1))
 
-        assert (parameters['W' + str(l)].shape == (layer_dims[l], layer_dims[l - 1]))
-        assert (parameters['b' + str(l)].shape == (layer_dims[l], 1))
+        assert parameters["W" + str(l)].shape == (layer_dims[l], layer_dims[l - 1])
+        assert parameters["b" + str(l)].shape == (layer_dims[l], 1)
 
     return parameters
 
@@ -78,25 +80,35 @@ def forward_propagation(X, parameters):
 
 def backward_propagation(X, Y, cache):
     m = X.shape[1]
-    (Z1, A1, W1, b1, Z2, A2, W2, b2, Z3, A3, W3, b3) = cache
+    Z1, A1, W1, b1, Z2, A2, W2, b2, Z3, A3, W3, b3 = cache
 
     dZ3 = A3 - Y
-    dW3 = 1. / m * np.dot(dZ3, A2.T)
-    db3 = 1. / m * np.sum(dZ3, axis=1, keepdims=True)
+    dW3 = 1.0 / m * np.dot(dZ3, A2.T)
+    db3 = 1.0 / m * np.sum(dZ3, axis=1, keepdims=True)
 
     dA2 = np.dot(W3.T, dZ3)
     dZ2 = np.multiply(dA2, np.int64(A2 > 0))
-    dW2 = 1. / m * np.dot(dZ2, A1.T)
-    db2 = 1. / m * np.sum(dZ2, axis=1, keepdims=True)
+    dW2 = 1.0 / m * np.dot(dZ2, A1.T)
+    db2 = 1.0 / m * np.sum(dZ2, axis=1, keepdims=True)
 
     dA1 = np.dot(W2.T, dZ2)
     dZ1 = np.multiply(dA1, np.int64(A1 > 0))
-    dW1 = 1. / m * np.dot(dZ1, X.T)
-    db1 = 1. / m * np.sum(dZ1, axis=1, keepdims=True)
+    dW1 = 1.0 / m * np.dot(dZ1, X.T)
+    db1 = 1.0 / m * np.sum(dZ1, axis=1, keepdims=True)
 
-    gradients = {"dZ3": dZ3, "dW3": dW3, "db3": db3,
-                 "dA2": dA2, "dZ2": dZ2, "dW2": dW2, "db2": db2,
-                 "dA1": dA1, "dZ1": dZ1, "dW1": dW1, "db1": db1}
+    gradients = {
+        "dZ3": dZ3,
+        "dW3": dW3,
+        "db3": db3,
+        "dA2": dA2,
+        "dZ2": dZ2,
+        "dW2": dW2,
+        "db2": db2,
+        "dA1": dA1,
+        "dZ1": dZ1,
+        "dW1": dW1,
+        "db1": db1,
+    }
 
     return gradients
 
@@ -105,8 +117,12 @@ def update_parameters(parameters, grads, learning_rate):
     n = len(parameters) // 2
 
     for k in range(n):
-        parameters["W" + str(k + 1)] = parameters["W" + str(k + 1)] - learning_rate * grads["dW" + str(k + 1)]
-        parameters["b" + str(k + 1)] = parameters["b" + str(k + 1)] - learning_rate * grads["db" + str(k + 1)]
+        parameters["W" + str(k + 1)] = (
+            parameters["W" + str(k + 1)] - learning_rate * grads["dW" + str(k + 1)]
+        )
+        parameters["b" + str(k + 1)] = (
+            parameters["b" + str(k + 1)] - learning_rate * grads["db" + str(k + 1)]
+        )
 
     return parameters
 
@@ -132,17 +148,17 @@ def compute_cost(a3, Y):
     m = Y.shape[1]
 
     logprobs = np.multiply(-np.log(a3), Y) + np.multiply(-np.log(1 - a3), 1 - Y)
-    cost = 1. / m * np.nansum(logprobs)
+    cost = 1.0 / m * np.nansum(logprobs)
 
     return cost
 
 
 def load_dataset():
-    train_dataset = h5py.File('../datasets/train_catvnoncat.h5', "r")
+    train_dataset = h5py.File("../datasets/train_catvnoncat.h5", "r")
     train_set_x_orig = np.array(train_dataset["train_set_x"][:])
     train_set_y_orig = np.array(train_dataset["train_set_y"][:])
 
-    test_dataset = h5py.File('../datasets/test_catvnoncat.h5', "r")
+    test_dataset = h5py.File("../datasets/test_catvnoncat.h5", "r")
     test_set_x_orig = np.array(test_dataset["test_set_x"][:])
     test_set_y_orig = np.array(test_dataset["test_set_y"][:])
 
@@ -162,7 +178,7 @@ def load_dataset():
 
 def predict_dec(parameters, X):
     a3, cache = forward_propagation(X, parameters)
-    predictions = (a3 > 0.5)
+    predictions = a3 > 0.5
     return predictions
 
 
@@ -173,7 +189,7 @@ def load_planar_dataset(randomness, seed):
     N = int(m / 2)
     D = 2
     X = np.zeros((m, D))
-    Y = np.zeros((m, 1), dtype='uint8')
+    Y = np.zeros((m, 1), dtype="uint8")
     a = 2
 
     for j in range(2):
@@ -206,19 +222,19 @@ def plot_decision_boundary(model, X, y):
     Z = Z.reshape(xx.shape)
 
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
-    plt.ylabel('x2')
-    plt.xlabel('x1')
+    plt.ylabel("x2")
+    plt.xlabel("x1")
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
     plt.show()
 
 
 def load_2D_dataset():
-    data = scipy.io.loadmat('datasets/data.mat')
-    train_X = data['X'].T
-    train_Y = data['y'].T
-    test_X = data['Xval'].T
-    test_Y = data['yval'].T
+    data = scipy.io.loadmat("datasets/data.mat")
+    train_X = data["X"].T
+    train_Y = data["y"].T
+    test_X = data["Xval"].T
+    test_Y = data["yval"].T
 
-    plt.scatter(train_X[0, :], train_X[1, :], c=train_Y, s=40, cmap=plt.cm.Spectral);
+    plt.scatter(train_X[0, :], train_X[1, :], c=train_Y, s=40, cmap=plt.cm.Spectral)
 
     return train_X, train_Y, test_X, test_Y

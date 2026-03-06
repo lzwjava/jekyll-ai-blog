@@ -23,7 +23,9 @@ total_rows_processed = 0
 try:
     with open(output_file, "w", encoding="utf-8") as f:
         for file_idx, parquet_file in enumerate(parquet_files):
-            print(f"\n--- Processing file {file_idx + 1}/{len(parquet_files)}: {parquet_file} ---")
+            print(
+                f"\n--- Processing file {file_idx + 1}/{len(parquet_files)}: {parquet_file} ---"
+            )
 
             try:
                 df = pd.read_parquet(parquet_file)
@@ -40,19 +42,24 @@ try:
                     text_content = None
 
                     # Check common column names for text content
-                    for col in ['text', 'content', 'article', 'text_content', 'body']:
+                    for col in ["text", "content", "article", "text_content", "body"]:
                         if col in df.columns:
                             text_content = str(row[col])
                             break
 
                     if text_content and text_content.strip():
-                        f.write(text_content.strip() + "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n")
+                        f.write(
+                            text_content.strip()
+                            + "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n"
+                        )
 
                     total_rows_processed += 1
 
                     # Progress reporting
                     if i % 10000 == 0:
-                        print(f"File {file_idx + 1} - Processed {i} rows, Total: {total_rows_processed}")
+                        print(
+                            f"File {file_idx + 1} - Processed {i} rows, Total: {total_rows_processed}"
+                        )
 
                 print(f"Completed processing {parquet_file}")
 

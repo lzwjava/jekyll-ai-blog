@@ -20,13 +20,13 @@ MODEL_MAPPING = {
     "kimi": "moonshotai/kimi-k2",
     "deepseek": "deepseek/deepseek-v3.2",
     "mistral": "mistralai/mistral-medium-3.1",
-    "qwen":"qwen/qwen3-coder",
+    "qwen": "qwen/qwen3-coder",
     "gpt": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
     "glm": "z-ai/glm-4.7",
     "minimax": "minimax/minimax-m2",
-    "kimi-thinking": "moonshotai/kimi-k2-thinking"
+    "kimi-thinking": "moonshotai/kimi-k2-thinking",
 }
 
 
@@ -34,7 +34,7 @@ def call_openrouter_api(prompt, model="gemini-flash", debug=False):
     if not OPENROUTER_API_KEY:
         print("Error: OPENROUTER_API_KEY environment variable not set.")
         return None
-    
+
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
@@ -48,20 +48,24 @@ def call_openrouter_api(prompt, model="gemini-flash", debug=False):
 
     messages = [{"role": "user", "content": prompt}]
     data = {"model": MODEL_MAPPING[model], "messages": messages}
-    
+
     if debug:
         print(f"Request URL: {url}")
         print(f"Request Data: {data}")
-    
+
     try:
         response = requests.post(url, headers=headers, json=data)
         if debug:
             print(f"Response Status Code: {response.status_code}")
             print(f"Response Text: {response.text}")
-        
+
         if response.status_code == 200:
             response_json = response.json()
-            if response_json and "choices" in response_json and response_json["choices"]:
+            if (
+                response_json
+                and "choices" in response_json
+                and response_json["choices"]
+            ):
                 content = response_json["choices"][0]["message"]["content"]
                 return content.strip()
             else:
@@ -76,7 +80,11 @@ def call_openrouter_api(prompt, model="gemini-flash", debug=False):
 
 
 def gitmessageai(
-    push=True, only_message=False, model="gemini-flash", allow_pull_push=False, type="file"
+    push=True,
+    only_message=False,
+    model="gemini-flash",
+    allow_pull_push=False,
+    type="file",
 ):
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)
@@ -87,8 +95,8 @@ def gitmessageai(
         capture_output=True,
         text=True,
         check=True,
-        encoding='utf-8',
-        errors='replace',
+        encoding="utf-8",
+        errors="replace",
     )
     diff_output = diff_process.stdout
 
@@ -145,7 +153,12 @@ Changed files:
     elif type == "content":
         # Get a detailed summary of the changes
         diff_process = subprocess.run(
-            ["git", "diff", "--staged"], capture_output=True, text=True, check=True, encoding='utf-8', errors='replace'
+            ["git", "diff", "--staged"],
+            capture_output=True,
+            text=True,
+            check=True,
+            encoding="utf-8",
+            errors="replace",
         )
         diff_output = diff_process.stdout
 
@@ -176,7 +189,7 @@ Code changes:
     if not commit_message:
         print("Error: No response from OpenRouter API.")
         return
-    
+
     # Clean up the commit message
     if commit_message and "```" in commit_message:
         commit_message = commit_message.replace("```", "")

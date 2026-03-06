@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import os
 
-train_data = pd.read_csv('./train.csv')
-test_data = pd.read_csv('./test.csv')
+train_data = pd.read_csv("./train.csv")
+test_data = pd.read_csv("./test.csv")
 
 y = train_data["Survived"]
 
@@ -16,5 +16,5 @@ model = RandomForestClassifier(n_estimators=100, max_depth=3, random_state=2)
 model.fit(X, y)
 predictions = model.predict(X_test)
 
-output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
-output.to_csv('submission.csv', index=False)
+output = pd.DataFrame({"PassengerId": test_data.PassengerId, "Survived": predictions})
+output.to_csv("submission.csv", index=False)

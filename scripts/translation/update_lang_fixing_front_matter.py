@@ -6,7 +6,7 @@ import argparse
 import frontmatter
 
 # Add the project root to the Python path to import from tests
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from tests.workflow.test_front_matter import scan_markdown_files_for_front_matter_issues
 
@@ -20,7 +20,7 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False):
     # Group issues by file
     files_with_issues = {}
     for issue in issues:
-        file_path = issue['file']
+        file_path = issue["file"]
         if file_path not in files_with_issues:
             files_with_issues[file_path] = []
         files_with_issues[file_path].append(issue)
@@ -30,14 +30,16 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False):
     for post_file, file_issues in files_with_issues.items():
         print(f"\nProcessing {post_file} with {len(file_issues)} front matter issues:")
         for issue in file_issues:
-            print(f"  Line {issue['line']}: Front matter closing --- immediately followed by {issue['following_char']}")
+            print(
+                f"  Line {issue['line']}: Front matter closing --- immediately followed by {issue['following_char']}"
+            )
 
         # Check if this file's language is in target_languages
         if target_languages:
             # Extract language from file path
             lang_in_path = None
             for lang in target_languages:
-                if f'-{lang}.md' in post_file or post_file.endswith(f'-{lang}.md'):
+                if f"-{lang}.md" in post_file or post_file.endswith(f"-{lang}.md"):
                     lang_in_path = lang
                     break
             if lang_in_path is None or lang_in_path not in target_languages:
@@ -54,7 +56,7 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False):
 
             # Update the post (this ensures proper frontmatter formatting)
             # The frontmatter library automatically handles proper spacing
-            with open(post_file, 'w', encoding='utf-8') as f:
+            with open(post_file, "w", encoding="utf-8") as f:
                 f.write(frontmatter.dumps(post))
 
             print(f"  Successfully fixed front matter spacing in {post_file}")
@@ -64,7 +66,9 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False):
             print(f"  Error fixing {post_file}: {e}")
 
     if not dry_run:
-        print(f"\nSuccessfully fixed {fixed_count} out of {len(files_with_issues)} files.")
+        print(
+            f"\nSuccessfully fixed {fixed_count} out of {len(files_with_issues)} files."
+        )
     elif files_with_issues:
         print(f"\nDry run: Would fix {len(files_with_issues)} files.")
 
@@ -94,7 +98,9 @@ def main():
     if issues:
         print(f"\nFound {len(issues)} front matter formatting issues:")
         for issue in issues:
-            print(f"{issue['file']}:{issue['line']} - Front matter closing --- immediately followed by {issue['following_char']}")
+            print(
+                f"{issue['file']}:{issue['line']} - Front matter closing --- immediately followed by {issue['following_char']}"
+            )
 
         # Determine target languages
         target_languages = None
@@ -107,5 +113,5 @@ def main():
         print("No front matter formatting issues found.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -1,2 +1,2 @@
 a = 50 + 50
-print('Hello World')
+print("Hello World")

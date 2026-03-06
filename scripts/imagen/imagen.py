@@ -8,8 +8,8 @@ import os
 # Set up Vertex AI client
 client = genai.Client(
     vertexai=True,
-    project=os.getenv('GOOGLE_CLOUD_PROJECT'),
-    location=os.getenv('GOOGLE_CLOUD_LOCATION')
+    project=os.getenv("GOOGLE_CLOUD_PROJECT"),
+    location=os.getenv("GOOGLE_CLOUD_LOCATION"),
 )
 
 image = client.models.generate_images(
@@ -24,7 +24,4 @@ image = client.models.generate_images(
 )
 
 image.generated_images[0].image.save("test/output-image.png")
-print(
-    f"Created image using {len(image.generated_images[0].image.image_bytes)} bytes"
-)
-
+print(f"Created image using {len(image.generated_images[0].image.image_bytes)} bytes")

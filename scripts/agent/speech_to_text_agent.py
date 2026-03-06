@@ -7,7 +7,9 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from scripts.llm.openrouter_client import call_openrouter_api  # noqa: F401 (kept if you import elsewhere)
+from scripts.llm.openrouter_client import (
+    call_openrouter_api,
+)  # noqa: F401 (kept if you import elsewhere)
 
 MAX_AUDIO_LENGTH_SECS = 20 * 60 * 60
 OUTPUT_DIRECTORY = "assets/transcriptions"
@@ -25,8 +27,8 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
     client = SpeechClient()
 
     # Determine file extension from GCS URI
-    filename = audio_gcs_uri.split('/')[-1]
-    file_extension = filename.split('.')[-1].lower()
+    filename = audio_gcs_uri.split("/")[-1]
+    file_extension = filename.split(".")[-1].lower()
 
     # Pick the correct oneof for decoding_config
     # - OGG/Opus requires explicit decoding.
@@ -44,7 +46,7 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
             # You can omit these if unknown; Opus is often 48 kHz/stereo, but STT handles downmixing.
             # Provide only if you know them; leaving them out lets the service infer.
             sample_rate_hertz=48000,
-            audio_channel_count=1
+            audio_channel_count=1,
         )
         config = cloud_speech.RecognitionConfig(
             explicit_decoding_config=decoding,

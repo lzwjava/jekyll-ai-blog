@@ -1,12 +1,12 @@
 import os
 import shutil
 
-source_directory = '/home/lzw/Projects/imagenet/images/train'
+source_directory = "/home/lzw/Projects/imagenet/images/train"
 
 files = os.listdir(source_directory)
 
 for filename in files:
-    prefix = filename.split('_')[0]
+    prefix = filename.split("_")[0]
 
     destination_directory = os.path.join(source_directory, prefix)
 

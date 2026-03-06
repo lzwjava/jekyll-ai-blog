@@ -15,7 +15,7 @@ TOP_WEBSITE_LIST = [
     "https://www.twitter.com",
     "https://github.com",
     "https://www.reddit.com",
-    "https://grok.com"
+    "https://grok.com",
 ]
 
 LATENCY_TEST_TIMEOUT_MS = 5000  # Increased timeout for slower tests

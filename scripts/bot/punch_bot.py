@@ -83,7 +83,9 @@ def handle_telegram_photo(update, supabase=None):
 
         # Send confirmation back to Telegram
         confirmation_msg = f"✅ Image saved successfully!\\n📁 {relative_path}\\n📋 Markdown copied to clipboard."
-        send_telegram_message(TELEGRAM_PUNCH_BOT_API_KEY, TELEGRAM_CHAT_ID, confirmation_msg)
+        send_telegram_message(
+            TELEGRAM_PUNCH_BOT_API_KEY, TELEGRAM_CHAT_ID, confirmation_msg
+        )
 
         return markdown_content
 
@@ -166,7 +168,7 @@ def validate_source_image(image_path):
         raise ValueError(f"'{image_path}' is not a file.")
 
     # Get image extension
-    image_ext = source_path.suffix.lstrip('.')
+    image_ext = source_path.suffix.lstrip(".")
     if not image_ext:
         raise ValueError("Source file has no extension.")
 
@@ -189,7 +191,7 @@ def get_next_number(target_dir, dir_name, image_ext):
         if stem.startswith(dir_name):
             try:
                 # Extract number after dir_name
-                number_part = stem[len(dir_name):]
+                number_part = stem[len(dir_name) :]
                 if number_part.isdigit():
                     numbers.append(int(number_part))
                 elif number_part == "":
@@ -209,21 +211,21 @@ def get_source_mapping():
         "pinduoduo": "pinduoduo.com",
         "amazon": "amazon.com",
         "chatgpt": "chatgpt.com",
-        "telegram": "Telegram Bot"
+        "telegram": "Telegram Bot",
     }
 
 
 def generate_markdown_content_func(relative_path, source):
     """Generate the formatted markdown content."""
-    return f'''{{: .centered }}
+    return f"""{{: .centered }}
 ![]({relative_path}){{: .responsive }}
-*Source: {source}*{{: .caption }}'''
+*Source: {source}*{{: .caption }}"""
 
 
 def copy_to_clipboard_func(text):
     """Copy text to clipboard using pbcopy (macOS)."""
     try:
-        subprocess.run(['pbcopy'], input=text.encode(), check=True)
+        subprocess.run(["pbcopy"], input=text.encode(), check=True)
         return True
     except (subprocess.CalledProcessError, FileNotFoundError):
         return False

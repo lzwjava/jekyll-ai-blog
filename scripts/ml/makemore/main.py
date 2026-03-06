@@ -21,7 +21,7 @@ def generate(model, idx, max_new_tokens, temperature=1.0, do_sample=False, top_k
 
         logits, _ = model(idx_cond)
 
-        print('logits')
+        print("logits")
         print(logits)
         print(f"{logits.size()=}")
 
@@ -30,7 +30,7 @@ def generate(model, idx, max_new_tokens, temperature=1.0, do_sample=False, top_k
         if top_k is not None:
             v, _ = torch.topk(logits, top_k)
             print(f"{v=}")
-            logits[logits < v[:, [-1]]] = -float('inf')
+            logits[logits < v[:, [-1]]] = -float("inf")
 
         probs = F.softmax(logits, dim=-1)
 
@@ -45,10 +45,10 @@ def generate(model, idx, max_new_tokens, temperature=1.0, do_sample=False, top_k
 
 
 def print_samples(num=10):
-    X_init = torch.zeros(num, 1, dtype=torch.long).to('cuda')
+    X_init = torch.zeros(num, 1, dtype=torch.long).to("cuda")
     top_k = None
     steps = train_dataset.get_output_length() - 1
-    X_samp = generate(model, X_init, steps, top_k=top_k, do_sample=True).to('cpu')
+    X_samp = generate(model, X_init, steps, top_k=top_k, do_sample=True).to("cpu")
     train_samples, test_samples, new_samples = [], [], []
     for i in range(X_samp.size(0)):
         row = X_samp[i, 1:].tolist()
@@ -62,20 +62,28 @@ def print_samples(num=10):
         else:
             new_samples.append(word_samp)
 
-    print('-' * 80)
-    for lst, desc in [(train_samples, 'in train'), (test_samples, 'in test'), (new_samples, 'new')]:
-        print(f'{len(lst)} samples that are in {desc}')
+    print("-" * 80)
+    for lst, desc in [
+        (train_samples, "in train"),
+        (test_samples, "in test"),
+        (new_samples, "new"),
+    ]:
+        print(f"{len(lst)} samples that are in {desc}")
         for word in lst:
             print(word)
-    print('-' * 80)
+    print("-" * 80)
 
 
-if __name__ == '__main__':
-    print('main')
+if __name__ == "__main__":
+    print("main")
     parser = argparse.ArgumentParser(description="make more")
-    parser.add_argument('--input-file', type=str, default='names.txt', help="input file")
-    parser.add_argument('--seed', type=int, default=3047, help="seed")
-    parser.add_argument('--work-dir', type=str, default='out', help="output working directory")
+    parser.add_argument(
+        "--input-file", type=str, default="names.txt", help="input file"
+    )
+    parser.add_argument("--seed", type=int, default=3047, help="seed")
+    parser.add_argument(
+        "--work-dir", type=str, default="out", help="output working directory"
+    )
     args = parser.parse_args()
     print(vars(args))
 
@@ -87,19 +95,19 @@ if __name__ == '__main__':
 
     train_dataset, test_dataset = create_datasets(args.input_file)
 
-    contains = train_dataset.contains('jack')
+    contains = train_dataset.contains("jack")
     print(contains)
-    test_contains = test_dataset.contains('jack')
+    test_contains = test_dataset.contains("jack")
     print(test_contains)
 
-    ix = train_dataset.encode('jack')
+    ix = train_dataset.encode("jack")
     print(ix)
     word = train_dataset.decode(ix.tolist())
     print(word)
 
     x0, y0 = train_dataset[0]
-    print(f'x0={x0}')
-    print(f'y0={y0}')
+    print(f"x0={x0}")
+    print(f"y0={y0}")
 
     vocab_size = train_dataset.get_vocab_size()
     block_size = train_dataset.get_output_length()
@@ -110,16 +118,21 @@ if __name__ == '__main__':
     n_head = 4
     n_embd = 64
     n_embd2 = 64
-    device = 'cuda'
+    device = "cuda"
     learning_rate = 5e-4
     weight_decay = 0.01
     batch_size = 32
     num_workers = 4
     max_steps = 1000
 
-    config = ModelConfig(vocab_size=vocab_size, block_size=block_size,
-                         n_layer=n_layer, n_head=n_head,
-                         n_embd=n_embd, n_embd2=n_embd2)
+    config = ModelConfig(
+        vocab_size=vocab_size,
+        block_size=block_size,
+        n_layer=n_layer,
+        n_head=n_head,
+        n_embd=n_embd,
+        n_embd2=n_embd2,
+    )
 
     model = Bow(config)
 
@@ -131,10 +144,17 @@ if __name__ == '__main__':
         # print(p)
         print(p.size())
 
-    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=weight_decay, betas=(0.9, 0.99),
-                                  eps=1e-8)
+    optimizer = torch.optim.AdamW(
+        model.parameters(),
+        lr=learning_rate,
+        weight_decay=weight_decay,
+        betas=(0.9, 0.99),
+        eps=1e-8,
+    )
 
-    batch_loader = InfiniteDataLoader(train_dataset, batch_size=batch_size, pin_memory=False, num_workers=4)
+    batch_loader = InfiniteDataLoader(
+        train_dataset, batch_size=batch_size, pin_memory=False, num_workers=4
+    )
 
     best_loss = None
     step = 0
@@ -156,7 +176,7 @@ if __name__ == '__main__':
         loss.backward()
         optimizer.step()
 
-        if (step % 10 == 0):
+        if step % 10 == 0:
             print(f"step {step} | loss {loss.item():.4f}")
 
         step += 1
@@ -169,7 +189,7 @@ if __name__ == '__main__':
 
     result = generate(model, X_init, output_len, top_k=2, do_sample=True)
 
-    print('result')
+    print("result")
     print(result)
 
     print_samples(num=10)

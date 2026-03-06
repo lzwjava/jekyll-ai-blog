@@ -6,14 +6,14 @@ import torch.optim as optim
 from sklearn.model_selection import train_test_split
 from torch.utils.data import TensorDataset, DataLoader
 
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
+pd.set_option("display.max_rows", None)
+pd.set_option("display.max_columns", None)
 
-train_data = pd.read_csv('./train.csv')
+train_data = pd.read_csv("./train.csv")
 
 print(train_data.head())
 
-print('Number of Training Examples = {}'.format(train_data.shape[0]))
+print("Number of Training Examples = {}".format(train_data.shape[0]))
 
 print(train_data.info())
 
@@ -38,7 +38,7 @@ class Net(nn.Module):
 def train(model: Net, optimizer: optim.Adam, train_loader: DataLoader):
     model.train()
 
-    loss_fn = nn.NLLLoss(reduction='sum')
+    loss_fn = nn.NLLLoss(reduction="sum")
 
     for batch_idx, (data, target) in enumerate(train_loader):
         optimizer.zero_grad()
@@ -69,7 +69,7 @@ def validate(model: Net, test_loader: DataLoader):
             total += len(data)
 
     log_loss = -1 / total * log_loss
-    print(f'log_loss: {log_loss}')
+    print(f"log_loss: {log_loss}")
 
 
 def predict(model: Net, test_loader: DataLoader) -> list:
@@ -87,29 +87,29 @@ def predict(model: Net, test_loader: DataLoader) -> list:
     return preds
 
 
-gb = train_data.groupby('Status')
+gb = train_data.groupby("Status")
 print(gb)
 
 print(gb.size())
 
 print(gb.mean())
 
-sgb = train_data.groupby('Edema')
+sgb = train_data.groupby("Edema")
 print(sgb.size())
 
 
 def preprocess_data(data: pd.DataFrame):
-    sex_mapping = {'M': 0, 'F': 1}
-    data['Sex'] = data['Sex'].map(sex_mapping)
+    sex_mapping = {"M": 0, "F": 1}
+    data["Sex"] = data["Sex"].map(sex_mapping)
 
-    data['Age'] = data['Age'] / 1000
+    data["Age"] = data["Age"] / 1000
 
-    edema_mapping = {'N': 0, 'S': 1, 'Y': 2}
-    data['Edema'] = data['Edema'].map(edema_mapping)
+    edema_mapping = {"N": 0, "S": 1, "Y": 2}
+    data["Edema"] = data["Edema"].map(edema_mapping)
 
-    bool_items = ['Ascites', 'Hepatomegaly', 'Spiders']
+    bool_items = ["Ascites", "Hepatomegaly", "Spiders"]
 
-    bool_mapping = {'Y': 1, 'N': 0}
+    bool_mapping = {"Y": 1, "N": 0}
 
     for column in bool_items:
         data[column] = data[column].map(bool_mapping)
@@ -120,22 +120,34 @@ def preprocess_data(data: pd.DataFrame):
 def preprocess_train_data(data: pd.DataFrame):
     preprocess_data(data)
 
-    status_mapping = {'C': 0, 'CL': 1, 'D': 2}
-    data['Status'] = data['Status'].map(status_mapping)
+    status_mapping = {"C": 0, "CL": 1, "D": 2}
+    data["Status"] = data["Status"].map(status_mapping)
 
     return data
 
 
 train_data = preprocess_train_data(train_data)
 
-y = train_data['Status']
+y = train_data["Status"]
 
 # features = ['N_Days', 'Age', 'Sex', 'Ascites', 'Hepatomegaly', 'Spiders', 'Edema',
 #             'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT',
 #             'Tryglicerides', 'Platelets', 'Prothrombin', 'Stage']
 
-features = ['N_Days', 'Age', 'Sex', 'Ascites', 'Hepatomegaly', 'Spiders', 'Edema',
-            'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos']
+features = [
+    "N_Days",
+    "Age",
+    "Sex",
+    "Ascites",
+    "Hepatomegaly",
+    "Spiders",
+    "Edema",
+    "Bilirubin",
+    "Cholesterol",
+    "Albumin",
+    "Copper",
+    "Alk_Phos",
+]
 
 X = pd.get_dummies(train_data[features])
 
@@ -152,7 +164,9 @@ for i in range(len(rows)):
 # y_onehot = torch.zeros(y.size(0), 3)
 # y_onehot.scatter_(1, y.type(torch.long), 1)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.05, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.05, random_state=42
+)
 
 batch_size = 30
 train_dataset = TensorDataset(X_train, y_train)
@@ -171,7 +185,7 @@ for i in range(epochs):
     train(model, optimizer, train_loader)
     validate(model, test_loader)
 
-test_data = pd.read_csv('./test.csv')
+test_data = pd.read_csv("./test.csv")
 test_data = preprocess_data(test_data)
 
 X_test = pd.get_dummies(test_data[features])
@@ -188,11 +202,13 @@ def create_column(predictions, label):
     return [(2 / 3 if pred == label else 1 / 3) for pred in predictions]
 
 
-output = pd.DataFrame({
-    'id': test_data['id'],
-    'Status_C': predictions[0],
-    'Status_CL': predictions[1],
-    'Status_D': predictions[2]
-})
+output = pd.DataFrame(
+    {
+        "id": test_data["id"],
+        "Status_C": predictions[0],
+        "Status_CL": predictions[1],
+        "Status_D": predictions[2],
+    }
+)
 
-output.to_csv('submission.csv', index=False)
+output.to_csv("submission.csv", index=False)

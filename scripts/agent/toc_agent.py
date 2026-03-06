@@ -19,44 +19,48 @@ def validate_toc(toc):
     """Validate the generated TOC for format, numbering, links, etc."""
     if not toc:
         raise ValueError("TOC is empty or None")
-    
-    lines = toc.strip().split('\n')
-    
+
+    lines = toc.strip().split("\n")
+
     # Check if first line is "### Table of Contents"
     if not lines or lines[0].strip() != "### Table of Contents":
         raise ValueError("TOC must start with '### Table of Contents'")
-    
+
     # Check numbering and format
     item_count = 0
     for line in lines[1:]:  # Skip the first line
         line = line.rstrip()
         if not line:  # Skip empty lines
             continue
-            
+
         # Check for numbered items like "1. [Title](#anchor)" or "1. **[Title](#anchor)**"
-        if re.match(r'^\d+\.\s+\**\[.*\]\(#.*\)\**$', line.strip()):
+        if re.match(r"^\d+\.\s+\**\[.*\]\(#.*\)\**$", line.strip()):
             item_count += 1
             # Extract the link text and anchor
-            match = re.match(r'^\d+\.\s+\**\[(.*)\]\((#.*)\)\**$', line.strip())
+            match = re.match(r"^\d+\.\s+\**\[(.*)\]\((#.*)\)\**$", line.strip())
             if match:
                 link_text, anchor = match.groups()
                 # Check if anchor starts with #
-                if not anchor.startswith('#'):
-                    raise ValueError(f"Anchor '{anchor}' must start with '#' in line: {line}")
+                if not anchor.startswith("#"):
+                    raise ValueError(
+                        f"Anchor '{anchor}' must start with '#' in line: {line}"
+                    )
                 # Basic check for valid anchor characters (alphanumeric, dash, underscore)
                 anchor_name = anchor[1:]  # Remove the #
-                if not re.match(r'^[a-zA-Z0-9\-_]+$', anchor_name):
-                    raise ValueError(f"Invalid characters in anchor '{anchor_name}' in line: {line}")
+                if not re.match(r"^[a-zA-Z0-9\-_]+$", anchor_name):
+                    raise ValueError(
+                        f"Invalid characters in anchor '{anchor_name}' in line: {line}"
+                    )
         # Check for bullet points under numbered items
-        elif re.match(r'^\s+-\s+.*$', line):
+        elif re.match(r"^\s+-\s+.*$", line):
             # Check if this is a valid bullet point (indented with hyphen)
             if len(line) > 150:  # Increased limit for bullet point length
                 raise ValueError(f"Bullet point too long in line: {line}")
-                
+
     # Check if we have at least one numbered item
     if item_count == 0:
         raise ValueError("TOC must contain at least one numbered item")
-    
+
     return True
 
 
@@ -93,13 +97,17 @@ Markdown content:
 
     try:
         response = call_openrouter_api(prompt)
-        print(f"AI Response:\n{response}\n---End of AI Response---")  # Log the raw AI response
+        print(
+            f"AI Response:\n{response}\n---End of AI Response---"
+        )  # Log the raw AI response
         stripped = response.strip()
         # Remove any bold formatting that might have been added despite prompt instruction
-        stripped = stripped.replace('**[', '[').replace(']**', ']')
+        stripped = stripped.replace("**[", "[").replace("]**", "]")
         # Raise exception if markdown code blocks still appear despite prompt instruction
-        if stripped.startswith('```') and stripped.endswith('```'):
-            raise ValueError("TOC contains markdown code blocks despite prompt instructions")
+        if stripped.startswith("```") and stripped.endswith("```"):
+            raise ValueError(
+                "TOC contains markdown code blocks despite prompt instructions"
+            )
         return stripped
     except Exception as e:
         print(f"Error calling AI API: {e}", file=sys.stderr)
@@ -111,21 +119,21 @@ def find_existing_toc(content):
     toc_start = content.find("### Table of Contents")
     if toc_start == -1:
         return None, None
-    
+
     # Find the end of the TOC (next header or end of content)
     toc_end_patterns = [
         "\n### ",  # Next level 3 header
-        "\n## ",   # Next level 2 header
-        "\n# ",    # Next level 1 header
+        "\n## ",  # Next level 2 header
+        "\n# ",  # Next level 1 header
     ]
-    
+
     toc_end = len(content)  # Default to end of content
-    
+
     for pattern in toc_end_patterns:
         pos = content.find(pattern, toc_start)
         if pos != -1 and pos < toc_end:
             toc_end = pos
-    
+
     return toc_start, toc_end
 
 
@@ -154,10 +162,10 @@ def process_file(file_path, output_only=False, update=False):
             print(f"Generated TOC for {file_path}:")
             print(toc)
             print()
-            
+
             # Insert or update TOC in the file
             frontmatter_end = content.find("---\n", 3) + 4  # Find second ---\n
-            
+
             if update:
                 # Find existing TOC and replace it
                 toc_start, toc_end = find_existing_toc(content)
@@ -166,11 +174,23 @@ def process_file(file_path, output_only=False, update=False):
                     updated_content = content[:toc_start] + toc + content[toc_end:]
                 else:
                     # No existing TOC found, insert after frontmatter
-                    updated_content = content[:frontmatter_end] + "\n" + toc + "\n\n" + content[frontmatter_end:]
+                    updated_content = (
+                        content[:frontmatter_end]
+                        + "\n"
+                        + toc
+                        + "\n\n"
+                        + content[frontmatter_end:]
+                    )
             else:
                 # Insert TOC after frontmatter
-                updated_content = content[:frontmatter_end] + "\n" + toc + "\n\n" + content[frontmatter_end:]
-            
+                updated_content = (
+                    content[:frontmatter_end]
+                    + "\n"
+                    + toc
+                    + "\n\n"
+                    + content[frontmatter_end:]
+                )
+
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(updated_content)
 
@@ -192,7 +212,9 @@ def main():
         "--output-only", action="store_true", help="Output only TOC without file info"
     )
     parser.add_argument(
-        "--update", action="store_true", help="Update existing TOC instead of adding new one"
+        "--update",
+        action="store_true",
+        help="Update existing TOC instead of adding new one",
     )
 
     args = parser.parse_args()

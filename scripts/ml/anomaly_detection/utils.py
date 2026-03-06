@@ -32,8 +32,11 @@ def multivariate_gaussian(X, mu, var):
         var = np.diag(var)
 
     X = X - mu
-    p = (2 * np.pi) ** (-k / 2) * np.linalg.det(var) ** (-0.5) * \
-        np.exp(-0.5 * np.sum(np.matmul(X, np.linalg.pinv(var)) * X, axis=1))
+    p = (
+        (2 * np.pi) ** (-k / 2)
+        * np.linalg.det(var) ** (-0.5)
+        * np.exp(-0.5 * np.sum(np.matmul(X, np.linalg.pinv(var)) * X, axis=1))
+    )
 
     return p
 
@@ -49,14 +52,14 @@ def visualize_fit(X, mu, var):
     Z = multivariate_gaussian(np.stack([X1.ravel(), X2.ravel()], axis=1), mu, var)
     Z = Z.reshape(X1.shape)
 
-    plt.plot(X[:, 0], X[:, 1], 'bx')
+    plt.plot(X[:, 0], X[:, 1], "bx")
 
     if np.sum(np.isinf(Z)) == 0:
-        plt.contour(X1, X2, Z, levels=10 ** (np.arange(-20., 1, 3)), linewidths=1)
+        plt.contour(X1, X2, Z, levels=10 ** (np.arange(-20.0, 1, 3)), linewidths=1)
 
     # Set the title
     plt.title("The Gaussian contours of the distribution fit to the dataset")
     # Set the y-axis label
-    plt.ylabel('Throughput (mb/s)')
+    plt.ylabel("Throughput (mb/s)")
     # Set the x-axis label
-    plt.xlabel('Latency (ms)')
+    plt.xlabel("Latency (ms)")

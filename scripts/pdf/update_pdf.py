@@ -6,7 +6,6 @@ import subprocess
 import platform
 from pdf_base import text_to_pdf_from_markdown
 
-
 OUTPUT_DIRECTORY = "assets/pdfs"
 INPUT_DIRECTORY = "_posts"
 LANGUAGES = ["en", "zh", "ja", "es", "hi", "fr", "de", "ar", "hant"]

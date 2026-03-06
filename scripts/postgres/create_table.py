@@ -11,15 +11,13 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Example: Create a simple table named 'example_table'
-cur.execute(
-    """
+cur.execute("""
     CREATE TABLE IF NOT EXISTS example_table (
         id SERIAL PRIMARY KEY,
         name VARCHAR(100),
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
-"""
-)
+""")
 
 conn.commit()
 cur.close()

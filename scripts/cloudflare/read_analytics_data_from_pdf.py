@@ -5,11 +5,12 @@ import sys
 import os
 from pypdf import PdfReader
 
+
 def update_config_yaml(page_views):
     """
     Updates the monthly_page_views in _config.yml
     """
-    config_path = os.path.join(os.path.dirname(__file__), '../../_config.yml')
+    config_path = os.path.join(os.path.dirname(__file__), "../../_config.yml")
     config_path = os.path.abspath(config_path)
 
     if not os.path.exists(config_path):
@@ -17,24 +18,25 @@ def update_config_yaml(page_views):
         return
 
     try:
-        with open(config_path, 'r') as f:
+        with open(config_path, "r") as f:
             content = f.read()
 
         # Pattern to find monthly_page_views: followed by optional current value
-        pattern = r'monthly_page_views:.*'
-        replacement = f'monthly_page_views: {page_views}'
+        pattern = r"monthly_page_views:.*"
+        replacement = f"monthly_page_views: {page_views}"
 
         if re.search(pattern, content):
             new_content = re.sub(pattern, replacement, content)
         else:
             # If not found, append it
-            new_content = content.rstrip() + f'\n\nmonthly_page_views: {page_views}\n'
+            new_content = content.rstrip() + f"\n\nmonthly_page_views: {page_views}\n"
 
-        with open(config_path, 'w') as f:
+        with open(config_path, "w") as f:
             f.write(new_content)
         print(f"Updated _config.yml: monthly_page_views = {page_views:,}")
     except Exception as e:
         print(f"Error updating _config.yml: {e}", file=sys.stderr)
+
 
 def parse_cloudflare_pdf(pdf_path):
     """
@@ -60,7 +62,9 @@ def parse_cloudflare_pdf(pdf_path):
     elif site_name.endswith("Mar") or site_name.endswith("Apr"):
         site_name = site_name[:-3]
     # Add more months if needed, or use a restricted character set
-    site_name = re.sub(r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$", "", site_name)
+    site_name = re.sub(
+        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$", "", site_name
+    )
 
     # 2. Extract Date Range
     # Pattern: "Jan 16th 202604:03 (UTC +08:00)Feb 15th 202604:03 (UTC +08:00)"
@@ -88,20 +92,34 @@ def parse_cloudflare_pdf(pdf_path):
         "site": site_name,
         "date_range": date_range,
         "page_views": page_views,
-        "full_text": full_text
+        "full_text": full_text,
     }
 
+
 def main():
-    parser = argparse.ArgumentParser(description='Parse Cloudflare Analytics PDF')
-    parser.add_argument('--file', help='Path to the Cloudflare Web Analytics PDF export')
-    parser.add_argument('--no-update-config', action='store_false', dest='update_config', help='Do not update monthly_page_views in _config.yml')
+    parser = argparse.ArgumentParser(description="Parse Cloudflare Analytics PDF")
+    parser.add_argument(
+        "--file", help="Path to the Cloudflare Web Analytics PDF export"
+    )
+    parser.add_argument(
+        "--no-update-config",
+        action="store_false",
+        dest="update_config",
+        help="Do not update monthly_page_views in _config.yml",
+    )
     parser.set_defaults(update_config=True)
-    parser.add_argument('pdf_file', nargs='?', help='Path to the Cloudflare Web Analytics PDF export (legacy positional argument)')
+    parser.add_argument(
+        "pdf_file",
+        nargs="?",
+        help="Path to the Cloudflare Web Analytics PDF export (legacy positional argument)",
+    )
     args = parser.parse_args()
 
     pdf_path = args.file or args.pdf_file
     if not pdf_path:
-        parser.error("The following arguments are required: --file or a positional pdf_file path")
+        parser.error(
+            "The following arguments are required: --file or a positional pdf_file path"
+        )
 
     data = parse_cloudflare_pdf(pdf_path)
     if not data:
@@ -114,11 +132,12 @@ def main():
     print(f"Page Views: {data['page_views']:,}")
 
     if args.update_config:
-        update_config_yaml(data['page_views'])
+        update_config_yaml(data["page_views"])
 
     print(f"\nExtracted Text:")
     print(f"--------------")
-    print(data['full_text'])
+    print(data["full_text"])
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

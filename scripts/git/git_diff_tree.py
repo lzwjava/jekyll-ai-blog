@@ -11,6 +11,7 @@ Usage:
     python git_commit_filter.py /path/to/repo abc123 --exclude-ext py
 """
 
+
 def list_files_excluding_ext(repo: Path, commit: str, exclude_ext: str) -> list[str]:
     """
     Return a list of file paths changed in the given commit
@@ -42,14 +43,14 @@ def list_files_excluding_ext(repo: Path, commit: str, exclude_ext: str) -> list[
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="List files changed by a specific git commit, excluding a given extension.",
-        usage="%(prog)s repo_path commit_hash [--exclude-ext EXT]"
+        usage="%(prog)s repo_path commit_hash [--exclude-ext EXT]",
     )
     parser.add_argument("repo", type=Path, help="Path to the git repository.")
     parser.add_argument("commit", help="Commit hash to inspect.")
     parser.add_argument(
         "--exclude-ext",
         default="py",
-        help="File extension to exclude (default: py). Do NOT include the leading dot."
+        help="File extension to exclude (default: py). Do NOT include the leading dot.",
     )
 
     args = parser.parse_args()

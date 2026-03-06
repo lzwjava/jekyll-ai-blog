@@ -5,6 +5,7 @@ import argparse
 import frontmatter
 import json
 
+
 def scan_translated_notes():
     """Scan _posts directory for translated notes and record filenames with their languages."""
 
@@ -29,19 +30,23 @@ def scan_translated_notes():
         print(f"Scanning {lang_dir}")
 
         for filename in os.listdir(lang_dir):
-            if not filename.endswith('.md'):
+            if not filename.endswith(".md"):
                 continue
 
             filepath = os.path.join(lang_dir, filename)
 
             try:
-                with open(filepath, 'r', encoding='utf-8') as f:
+                with open(filepath, "r", encoding="utf-8") as f:
                     post = frontmatter.load(f)
 
                 # Check if this is a note by examining frontmatter
-                if post.get('type') == 'note':
+                if post.get("type") == "note":
                     # Extract base filename (without language suffix)
-                    base_name = filename.rsplit('-', 1)[0] + '.md' if '-' in filename else filename
+                    base_name = (
+                        filename.rsplit("-", 1)[0] + ".md"
+                        if "-" in filename
+                        else filename
+                    )
 
                     if base_name not in translated_notes:
                         translated_notes[base_name] = {}
@@ -61,6 +66,7 @@ def scan_translated_notes():
 
     return translated_notes
 
+
 def main():
     parser = argparse.ArgumentParser(
         description="Scan _posts directory for already translated notes and record them in JSON format."
@@ -69,12 +75,12 @@ def main():
         "--output",
         type=str,
         default="translated_notes.json",
-        help="Output JSON file name (default: translated_notes.json)"
+        help="Output JSON file name (default: translated_notes.json)",
     )
     parser.add_argument(
         "--dry_run",
         action="store_true",
-        help="Perform a dry run without writing to file"
+        help="Perform a dry run without writing to file",
     )
 
     args = parser.parse_args()
@@ -87,10 +93,11 @@ def main():
 
     # Write to JSON file
     output_file = os.path.join(os.path.dirname(__file__), args.output)
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(translated_notes, f, indent=2, ensure_ascii=False)
 
     print(f"\nWritten translation records to {output_file}")
+
 
 if __name__ == "__main__":
     main()

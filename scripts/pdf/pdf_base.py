@@ -191,15 +191,19 @@ def generate_title_page_pdf(
         rf"{{\fontsize{{{font_size_pt}}}{{{int(font_size_pt*1.15)}}}\selectfont {title}\par}}",
     ]
     if subtitle:
-        lines.extend([
-            r"\vspace{1.2em}",
-            rf"{{\Large {subtitle}\par}}",
-        ])
-    lines.extend([
-        r"\end{center}",
-        r"\end{document}",
-        "",
-    ])
+        lines.extend(
+            [
+                r"\vspace{1.2em}",
+                rf"{{\Large {subtitle}\par}}",
+            ]
+        )
+    lines.extend(
+        [
+            r"\end{center}",
+            r"\end{document}",
+            "",
+        ]
+    )
 
     workdir = tempfile.mkdtemp(prefix="titlepage-")
     tex_path = os.path.join(workdir, "titlepage.tex")

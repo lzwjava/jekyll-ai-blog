@@ -10,38 +10,41 @@ from datetime import datetime
 from notes_card_utils import generate_share_card
 from notes_genai_utils import generate_image_with_imagen
 
+
 def get_latest_notes(notes_dir, count=10):
     """Get the latest modified notes sorted by modification time"""
     notes_path = Path(notes_dir)
     if not notes_path.exists():
         print(f"Notes directory {notes_dir} does not exist")
         return []
-    
+
     notes = []
     for note_file in notes_path.glob("*.md"):
         mtime = note_file.stat().st_mtime
         notes.append((mtime, note_file))
-    
+
     notes.sort(key=lambda x: x[0], reverse=True)
     return [note[1] for note in notes[:count]]
+
 
 def get_note_url(note_filename):
     """Generate the URL for a note based on its filename"""
     base_name = note_filename.stem
     return f"https://lzwjava.github.io/notes/{base_name}"
 
+
 def get_note_title(note_path):
     """Extract title from the frontmatter of a markdown file"""
     try:
-        with open(note_path, 'r', encoding='utf-8') as f:
+        with open(note_path, "r", encoding="utf-8") as f:
             content = f.read()
 
         # Look for frontmatter between --- delimiters
-        frontmatter_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
+        frontmatter_match = re.search(r"^---\n(.*?)\n---", content, re.DOTALL)
         if frontmatter_match:
             frontmatter = frontmatter_match.group(1)
             # Look for title field
-            title_match = re.search(r'^title:\s*(.+)$', frontmatter, re.MULTILINE)
+            title_match = re.search(r"^title:\s*(.+)$", frontmatter, re.MULTILINE)
             if title_match:
                 return title_match.group(1).strip()
 
@@ -51,22 +54,24 @@ def get_note_title(note_path):
         print(f"Warning: Could not read title from {note_path.name}: {e}")
         return note_path.stem
 
+
 def open_browser(url):
     """Open URL in default browser"""
     try:
-        if sys.platform.startswith('darwin'):
-            subprocess.run(['open', url])
-        elif sys.platform.startswith('win'):
-            subprocess.run(['start', url], shell=True)
+        if sys.platform.startswith("darwin"):
+            subprocess.run(["open", url])
+        elif sys.platform.startswith("win"):
+            subprocess.run(["start", url], shell=True)
         else:
-            subprocess.run(['xdg-open', url])
+            subprocess.run(["xdg-open", url])
     except Exception as e:
         print(f"Failed to open browser: {e}")
 
-def generate_background_image(titles=None, theme='tech'):
+
+def generate_background_image(titles=None, theme="tech"):
     """Generate a background image for the notes card based on theme"""
     # Create prompt based on theme and note titles
-    if theme == 'tech':
+    if theme == "tech":
         if titles and len(titles) > 0:
             # Join titles with comma and create tech-focused prompt
             titles_combined = ", ".join(titles)
@@ -78,7 +83,7 @@ def generate_background_image(titles=None, theme='tech'):
             base_prompt = """Create a dark, moody, sophisticated technology and AI programming themed background.
             Show futuristic computer interfaces, glowing code patterns, digital particles,
             circuit board motifs, binary code visualization, and advanced technology elements."""
-    elif theme == 'nature':
+    elif theme == "nature":
         if titles and len(titles) > 0:
             # Join titles with comma and create nature-focused prompt
             titles_combined = ", ".join(titles)
@@ -94,19 +99,18 @@ def generate_background_image(titles=None, theme='tech'):
         raise ValueError(f"Unsupported theme: {theme}")
 
     # Complete the prompt with theme-specific final requirements
-    if theme == 'tech':
+    if theme == "tech":
         background_prompt = f"""{base_prompt}
         Use a dark color palette with deep blacks, grays, dark blues, and occasional purple or green tech accents.
         No text or letters of any kind. Pure abstract technology visualization.
         Dark moody atmosphere perfect for technology content.
         Do not include any white or near-white pixels/elements in the image."""
-    elif theme == 'nature':
+    elif theme == "nature":
         background_prompt = f"""{base_prompt}
         Use natural, earthy color palettes with greens, blues, browns, and natural tones.
         No text or letters of any kind. Pure natural landscape visualization.
         Serene and peaceful atmosphere perfect for nature content.
         Include realistic natural lighting and atmospheric effects."""
-
 
     # Generate timestamp for unique filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -122,16 +126,28 @@ def generate_background_image(titles=None, theme='tech'):
         print("❌ Failed to generate background image, using default white background")
         return None
 
+
 def main():
-    parser = argparse.ArgumentParser(description='Generate share card for latest notes')
-    parser.add_argument('--notes-dir', default='./notes',
-                       help='Path to notes directory (default: ./notes)')
-    parser.add_argument('-n', type=int, default=5,
-                       help='Number of latest notes to include (default: 5)')
-    parser.add_argument('-invite', metavar='NAME',
-                       help='Name for invitation message (generates: "NAME invite you to read my latest ai notes")')
-    parser.add_argument('--theme', choices=['tech', 'nature'], default='tech',
-                       help='Theme for background image generation (default: tech)')
+    parser = argparse.ArgumentParser(description="Generate share card for latest notes")
+    parser.add_argument(
+        "--notes-dir",
+        default="./notes",
+        help="Path to notes directory (default: ./notes)",
+    )
+    parser.add_argument(
+        "-n", type=int, default=5, help="Number of latest notes to include (default: 5)"
+    )
+    parser.add_argument(
+        "-invite",
+        metavar="NAME",
+        help='Name for invitation message (generates: "NAME invite you to read my latest ai notes")',
+    )
+    parser.add_argument(
+        "--theme",
+        choices=["tech", "nature"],
+        default="tech",
+        help="Theme for background image generation (default: tech)",
+    )
 
     args = parser.parse_args()
 
@@ -160,7 +176,9 @@ def main():
     # Generate share card with timestamped filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     output_path = f"tmp/share_card_{timestamp}.png"
-    card_path = generate_share_card(titles, output_path, invitation, background_image_path)
+    card_path = generate_share_card(
+        titles, output_path, invitation, background_image_path
+    )
 
     print(f"Share card generated: {card_path}")
     if invitation:
@@ -169,6 +187,7 @@ def main():
     for title in titles:
         print(f"• {title}")
     print(f"QR code links to: https://lzwjava.github.io/notes-en")
+
 
 if __name__ == "__main__":
     main()

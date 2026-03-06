@@ -10,12 +10,14 @@ import sys
 import argparse
 import json
 import re
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from scripts.llm.openrouter_client import call_openrouter_api
 
 # Ensure @tmp directory exists
-TMP_DIR = 'tmp'
+TMP_DIR = "tmp"
 os.makedirs(TMP_DIR, exist_ok=True)
+
 
 def load_wifi_list():
     """
@@ -27,8 +29,9 @@ def load_wifi_list():
         print(f"WiFi list not found: {filename}")
         print("Run save_wifi_list.py first.")
         sys.exit(1)
-    with open(filename, 'r', encoding='utf-8') as f:
+    with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
+
 
 def generate_passwords(ssid, num_suggestions=10, model="deepseek-v3.2"):
     """
@@ -40,13 +43,17 @@ Output only a valid JSON array of {num_suggestions} unique strings, like: ["pass
     try:
         response = call_openrouter_api(prompt, model=model)
         # Try to parse as JSON
-        cleaned_response = re.sub(r'```json\s*|\s*```', '', response.strip(), flags=re.IGNORECASE)
+        cleaned_response = re.sub(
+            r"```json\s*|\s*```", "", response.strip(), flags=re.IGNORECASE
+        )
         passwords = json.loads(cleaned_response)
         if isinstance(passwords, list):
             # Filter to ensure no Chinese characters (simple check) and limit to num_suggestions
             passwords = [
-                pwd for pwd in passwords[:num_suggestions]
-                if isinstance(pwd, str) and not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)
+                pwd
+                for pwd in passwords[:num_suggestions]
+                if isinstance(pwd, str)
+                and not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)
             ]
             return passwords[:num_suggestions]
         else:
@@ -54,34 +61,46 @@ Output only a valid JSON array of {num_suggestions} unique strings, like: ["pass
     except (json.JSONDecodeError, ValueError, Exception) as e:
         print(f"Error generating or parsing passwords: {e}")
         # Fallback: try old parsing method
-        lines = [line.strip() for line in response.split('\n') if line.strip() and line[0].isdigit()]
+        lines = [
+            line.strip()
+            for line in response.split("\n")
+            if line.strip() and line[0].isdigit()
+        ]
         fallback_passwords = [
-            line.split('.', 1)[1].strip() if '.' in line else line
+            line.split(".", 1)[1].strip() if "." in line else line
             for line in lines[:num_suggestions]
         ]
         fallback_passwords = [
-            pwd for pwd in fallback_passwords
+            pwd
+            for pwd in fallback_passwords
             if not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)
         ]
         if fallback_passwords:
             return fallback_passwords[:num_suggestions]
         return []
 
+
 def save_passwords_to_file(bssid, passwords):
     """
     Save the list of passwords to a file in @tmp dir using BSSID.
     """
-    safe_bssid = bssid.replace(':', '_')
+    safe_bssid = bssid.replace(":", "_")
     filename = os.path.join(TMP_DIR, f"{safe_bssid}_passwords.txt")
-    with open(filename, 'w') as f:
+    with open(filename, "w") as f:
         for pwd in passwords:
             f.write(f"{pwd}\n")
     print(f"Passwords saved to: {filename}")
     return filename
 
+
 def main():
     parser = argparse.ArgumentParser(description="WiFi Password Generator")
-    parser.add_argument("-n", type=int, default=10, help="Number of password suggestions to generate (default: 10)")
+    parser.add_argument(
+        "-n",
+        type=int,
+        default=10,
+        help="Number of password suggestions to generate (default: 10)",
+    )
     args = parser.parse_args()
 
     print("=== WiFi Password Generator ===")
@@ -102,8 +121,8 @@ def main():
         choice = int(input(f"\nSelect a network (1-{len(networks)}): "))
         if 1 <= choice <= len(networks):
             selected = networks[choice - 1]
-            ssid = selected['ssid']
-            bssid = selected['bssid']
+            ssid = selected["ssid"]
+            bssid = selected["bssid"]
             print(f"\nSelected: {ssid} (BSSID: {bssid})")
         else:
             print("Invalid choice.")
@@ -126,6 +145,7 @@ def main():
         print("Failed to generate passwords.")
 
     print("\nUse a separate offline script to read this file and attempt connections.")
+
 
 if __name__ == "__main__":
     main()

@@ -16,8 +16,8 @@ def plot_decision_boundary(model, X, y):
     Z = Z.reshape(xx.shape)
 
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
-    plt.ylabel('x2')
-    plt.xlabel('x1')
+    plt.ylabel("x2")
+    plt.xlabel("x1")
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
 
 
@@ -32,7 +32,7 @@ def load_planar_dataset():
     N = int(m / 2)
     D = 2
     X = np.zeros((m, D))
-    Y = np.zeros((m, 1), dtype='uint8')
+    Y = np.zeros((m, 1), dtype="uint8")
     a = 4
 
     for j in range(2):
@@ -50,11 +50,20 @@ def load_planar_dataset():
 
 def load_extra_datasets():
     N = 200
-    noisy_circles = sklearn.datasets.make_circles(n_samples=N, factor=.5, noise=.3)
-    noisy_moons = sklearn.datasets.make_moons(n_samples=N, noise=.2)
-    blobs = sklearn.datasets.make_blobs(n_samples=N, random_state=5, n_features=2, centers=6)
-    gaussian_quantiles = sklearn.datasets.make_gaussian_quantiles(mean=None, cov=0.5, n_samples=N, n_features=2,
-                                                                  n_classes=2, shuffle=True, random_state=None)
+    noisy_circles = sklearn.datasets.make_circles(n_samples=N, factor=0.5, noise=0.3)
+    noisy_moons = sklearn.datasets.make_moons(n_samples=N, noise=0.2)
+    blobs = sklearn.datasets.make_blobs(
+        n_samples=N, random_state=5, n_features=2, centers=6
+    )
+    gaussian_quantiles = sklearn.datasets.make_gaussian_quantiles(
+        mean=None,
+        cov=0.5,
+        n_samples=N,
+        n_features=2,
+        n_classes=2,
+        shuffle=True,
+        random_state=None,
+    )
     no_structure = np.random.rand(N, 2), np.random.rand(N, 2)
 
     return noisy_circles, noisy_moons, blobs, gaussian_quantiles, no_structure

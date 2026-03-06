@@ -16,17 +16,17 @@ print("First five elements of x_train are:\n", x_train[:5])
 print("Type of y_train:", type(y_train))
 print("First five elements of y_train are:\n", y_train[:5])
 
-print('The shape of x_train is:', x_train.shape)
-print('The shape of y_train is: ', y_train.shape)
-print('Number of training examples (m):', len(x_train))
+print("The shape of x_train is:", x_train.shape)
+print("The shape of y_train is: ", y_train.shape)
+print("Number of training examples (m):", len(x_train))
 
-plt.scatter(x_train, y_train, marker='x', c='r')
+plt.scatter(x_train, y_train, marker="x", c="r")
 
 plt.title("Profits vs. Population per city")
 
-plt.ylabel('Profit in $10,000')
+plt.ylabel("Profit in $10,000")
 
-plt.xlabel('Population of City in 10,000s')
+plt.xlabel("Population of City in 10,000s")
 plt.show()
 
 
@@ -43,7 +43,7 @@ initial_b = 1
 
 cost = compute_cost(x_train, y_train, initial_w, initial_b)
 print(type(cost))
-print(f'Cost at initial w: {cost:.3f}')
+print(f"Cost at initial w: {cost:.3f}")
 
 from public_tests import *
 
@@ -63,7 +63,7 @@ initial_w = 0
 initial_b = 0
 
 tmp_dj_dw, tmp_dj_db = compute_gradient(x_train, y_train, initial_w, initial_b)
-print('Gradient at initial w, b (zeros):', tmp_dj_dw, tmp_dj_db)
+print("Gradient at initial w, b (zeros):", tmp_dj_dw, tmp_dj_db)
 
 compute_gradient_test(compute_gradient)
 
@@ -71,10 +71,12 @@ test_w = 0.2
 test_b = 0.2
 tmp_dj_dw, tmp_dj_db = compute_gradient(x_train, y_train, test_w, test_b)
 
-print('Gradient at test w, b:', tmp_dj_dw, tmp_dj_db)
+print("Gradient at test w, b:", tmp_dj_dw, tmp_dj_db)
 
 
-def gradient_descent(x, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters):
+def gradient_descent(
+    x, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters
+):
     m = len(x)
 
     J_history = []
@@ -100,14 +102,22 @@ def gradient_descent(x, y, w_in, b_in, cost_function, gradient_function, alpha, 
     return w, b, J_history, w_history
 
 
-initial_w = 0.
-initial_b = 0.
+initial_w = 0.0
+initial_b = 0.0
 
 iterations = 1500
 alpha = 0.01
 
-w, b, _, _ = gradient_descent(x_train, y_train, initial_w, initial_b,
-                              compute_cost, compute_gradient, alpha, iterations)
+w, b, _, _ = gradient_descent(
+    x_train,
+    y_train,
+    initial_w,
+    initial_b,
+    compute_cost,
+    compute_gradient,
+    alpha,
+    iterations,
+)
 print("w,b found by gradient descent:", w, b)
 
 m = x_train.shape[0]
@@ -118,16 +128,16 @@ for i in range(m):
 
 plt.plot(x_train, predicted, c="b")
 
-plt.scatter(x_train, y_train, marker='x', c='r')
+plt.scatter(x_train, y_train, marker="x", c="r")
 
 plt.title("Profits vs. Population per city")
 
-plt.ylabel('Profit in $10,000')
+plt.ylabel("Profit in $10,000")
 
-plt.xlabel('Population of City in 10,000s')
+plt.xlabel("Population of City in 10,000s")
 
 predict1 = 3.5 * w + b
-print('For population = 35,000, we predict a profit of $%.2f' % (predict1 * 10000))
+print("For population = 35,000, we predict a profit of $%.2f" % (predict1 * 10000))
 
 predict2 = 7.0 * w + b
-print('For population = 70,000, we predict a profit of $%.2f' % (predict2 * 10000))
+print("For population = 70,000, we predict a profit of $%.2f" % (predict2 * 10000))

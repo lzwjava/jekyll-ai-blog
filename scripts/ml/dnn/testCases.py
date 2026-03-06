@@ -25,17 +25,14 @@ def L_model_forward_test_case():
     b1 = np.random.randn(3, 1)
     W2 = np.random.randn(1, 3)
     b2 = np.random.randn(1, 1)
-    parameters = {"W1": W1,
-                  "b1": b1,
-                  "W2": W2,
-                  "b2": b2}
+    parameters = {"W1": W1, "b1": b1, "W2": W2, "b2": b2}
 
     return X, parameters
 
 
 def compute_cost_test_case():
     Y = np.asarray([[1, 1, 0]])
-    aL = np.array([[.8, .9, 0.4]])
+    aL = np.array([[0.8, 0.9, 0.4]])
 
     return Y, aL
 
@@ -92,19 +89,13 @@ def update_parameters_test_case():
     b1 = np.random.randn(3, 1)
     W2 = np.random.randn(1, 3)
     b2 = np.random.randn(1, 1)
-    parameters = {"W1": W1,
-                  "b1": b1,
-                  "W2": W2,
-                  "b2": b2}
+    parameters = {"W1": W1, "b1": b1, "W2": W2, "b2": b2}
     np.random.seed(3)
     dW1 = np.random.randn(3, 4)
     db1 = np.random.randn(3, 1)
     dW2 = np.random.randn(1, 3)
     db2 = np.random.randn(1, 1)
-    grads = {"dW1": dW1,
-             "db1": db1,
-             "dW2": dW2,
-             "db2": db2}
+    grads = {"dW1": dW1, "db1": db1, "dW2": dW2, "db2": db2}
 
     return parameters, grads
 
@@ -119,12 +110,7 @@ def L_model_forward_test_case_2hidden():
     W3 = np.random.randn(1, 3)
     b3 = np.random.randn(1, 1)
 
-    parameters = {"W1": W1,
-                  "b1": b1,
-                  "W2": W2,
-                  "b2": b2,
-                  "W3": W3,
-                  "b3": b3}
+    parameters = {"W1": W1, "b1": b1, "W2": W2, "b2": b2, "W3": W3, "b3": b3}
 
     return X, parameters
 

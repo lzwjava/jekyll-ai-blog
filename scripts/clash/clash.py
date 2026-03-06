@@ -10,7 +10,13 @@ import yaml
 # Assuming speed.py is in the same directory or accessible in PYTHONPATH
 from speed import get_top_proxies
 
-from clash_utils import setup_logging, start_system_proxy, stop_system_proxy, switch_clash_proxy_group
+from clash_utils import (
+    setup_logging,
+    start_system_proxy,
+    stop_system_proxy,
+    switch_clash_proxy_group,
+)
+
 
 def main():
     """Main function to manage Clash config, restart, and select best proxy."""
@@ -46,17 +52,17 @@ def main():
         type=str,
         default="rule",
         choices=["rule", "global"],
-        help="Mode: rule (standard groups) or global (GLOBAL group + DNS) (default: rule)"
+        help="Mode: rule (standard groups) or global (GLOBAL group + DNS) (default: rule)",
     )
     parser.add_argument(
         "--not_stop_system_proxy",
         action="store_true",
-        help="Do not stop existing system proxy settings at the beginning of each iteration"
+        help="Do not stop existing system proxy settings at the beginning of each iteration",
     )
     parser.add_argument(
         "--config-file",
         type=str,
-        help="Path to an existing config file. If provided, copies this file instead of downloading from URL"
+        help="Path to an existing config file. If provided, copies this file instead of downloading from URL",
     )
     args = parser.parse_args()
 
@@ -120,21 +126,19 @@ def main():
                 os.makedirs(clash_config_dir, exist_ok=True)
                 shutil.move(temp_filename, clash_config_path)
             if args.mode == "global":
-                with open(clash_config_path, 'r') as f:
+                with open(clash_config_path, "r") as f:
                     config = yaml.safe_load(f)
-                config['mode'] = 'Global'
-                config['dns'] = {
-                    'enable': True,
-                    'ipv6': True,
-                    'nameserver': [
-                        'https://doh.pub/dns-query',
-                        'https://dns.alidns.com/dns-query'
+                config["mode"] = "Global"
+                config["dns"] = {
+                    "enable": True,
+                    "ipv6": True,
+                    "nameserver": [
+                        "https://doh.pub/dns-query",
+                        "https://dns.alidns.com/dns-query",
                     ],
-                    'fallback': [
-                        'tls://223.5.5.5:853'
-                    ]
+                    "fallback": ["tls://223.5.5.5:853"],
                 }
-                with open(clash_config_path, 'w') as f:
+                with open(clash_config_path, "w") as f:
                     yaml.dump(config, f, default_flow_style=False, sort_keys=False)
                 logging.info("Added DNS config for global mode.")
             logging.info("Clash config updated successfully!")
@@ -203,11 +207,21 @@ def main():
                 name_filter = ["SG", "TW", "US", "UK", "JP"]
                 filter_desc = "SG/TW/US/UK/JP"
             else:
-                name_filter = ["新加坡", "台湾", "日本", "美国", "印度", "越南", "加拿大"]
+                name_filter = [
+                    "新加坡",
+                    "台湾",
+                    "日本",
+                    "美国",
+                    "印度",
+                    "越南",
+                    "加拿大",
+                ]
                 filter_desc = "SG/TW/JP/US/IN/VN/CA"
 
             logging.info("Testing proxy speeds to find the best one...")
-            top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
+            top_proxies = get_top_proxies(
+                num_results=20, name_filter=name_filter
+            )  # Get top 20 proxies matching filter
             if top_proxies:
                 # All top_proxies already match the filter, take the fastest one
                 best_proxy_name = top_proxies[0]["name"]

@@ -5,11 +5,11 @@ import math
 
 
 def load_dataset():
-    train_dataset = h5py.File('../datasets/train_signs.h5', "r")
+    train_dataset = h5py.File("../datasets/train_signs.h5", "r")
     train_set_x_orig = np.array(train_dataset["train_set_x"][:])
     train_set_y_orig = np.array(train_dataset["train_set_y"][:])
 
-    test_dataset = h5py.File('../datasets/test_signs.h5', "r")
+    test_dataset = h5py.File("../datasets/test_signs.h5", "r")
     test_set_x_orig = np.array(test_dataset["test_set_x"][:])
     test_set_y_orig = np.array(test_dataset["test_set_y"][:])
 
@@ -32,14 +32,18 @@ def random_mini_batches(X, Y, mini_batch_size=64, seed=0):
 
     num_complete_minibatches = math.floor(m / mini_batch_size)
     for k in range(0, num_complete_minibatches):
-        mini_batch_X = shuffled_X[:, k * mini_batch_size: k * mini_batch_size + mini_batch_size]
-        mini_batch_Y = shuffled_Y[:, k * mini_batch_size: k * mini_batch_size + mini_batch_size]
+        mini_batch_X = shuffled_X[
+            :, k * mini_batch_size : k * mini_batch_size + mini_batch_size
+        ]
+        mini_batch_Y = shuffled_Y[
+            :, k * mini_batch_size : k * mini_batch_size + mini_batch_size
+        ]
         mini_batch = (mini_batch_X, mini_batch_Y)
         mini_batches.append(mini_batch)
 
     if m % mini_batch_size != 0:
-        mini_batch_X = shuffled_X[:, num_complete_minibatches * mini_batch_size: m]
-        mini_batch_Y = shuffled_Y[:, num_complete_minibatches * mini_batch_size: m]
+        mini_batch_X = shuffled_X[:, num_complete_minibatches * mini_batch_size : m]
+        mini_batch_Y = shuffled_Y[:, num_complete_minibatches * mini_batch_size : m]
         mini_batch = (mini_batch_X, mini_batch_Y)
         mini_batches.append(mini_batch)
 
@@ -59,12 +63,7 @@ def predict(X, parameters):
     W3 = tf.convert_to_tensor(parameters["W3"])
     b3 = tf.convert_to_tensor(parameters["b3"])
 
-    params = {"W1": W1,
-              "b1": b1,
-              "W2": W2,
-              "b2": b2,
-              "W3": W3,
-              "b3": b3}
+    params = {"W1": W1, "b1": b1, "W2": W2, "b2": b2, "W3": W3, "b3": b3}
 
     x = tf.placeholder("float", [12288, 1])
 
@@ -87,19 +86,20 @@ def create_placeholders(n_x, n_y):
 def initialize_parameters():
     tf.set_random_seed(1)
 
-    W1 = tf.get_variable("W1", [25, 12288], initializer=tf.contrib.layers.xavier_initializer(seed=1))
+    W1 = tf.get_variable(
+        "W1", [25, 12288], initializer=tf.contrib.layers.xavier_initializer(seed=1)
+    )
     b1 = tf.get_variable("b1", [25, 1], initializer=tf.zeros_initializer())
-    W2 = tf.get_variable("W2", [12, 25], initializer=tf.contrib.layers.xavier_initializer(seed=1))
+    W2 = tf.get_variable(
+        "W2", [12, 25], initializer=tf.contrib.layers.xavier_initializer(seed=1)
+    )
     b2 = tf.get_variable("b2", [12, 1], initializer=tf.zeros_initializer())
-    W3 = tf.get_variable("W3", [6, 12], initializer=tf.contrib.layers.xavier_initializer(seed=1))
+    W3 = tf.get_variable(
+        "W3", [6, 12], initializer=tf.contrib.layers.xavier_initializer(seed=1)
+    )
     b3 = tf.get_variable("b3", [6, 1], initializer=tf.zeros_initializer())
 
-    parameters = {"W1": W1,
-                  "b1": b1,
-                  "W2": W2,
-                  "b2": b2,
-                  "W3": W3,
-                  "b3": b3}
+    parameters = {"W1": W1, "b1": b1, "W2": W2, "b2": b2, "W3": W3, "b3": b3}
 
     return parameters
 
@@ -108,17 +108,27 @@ def compute_cost(z3, Y):
     logits = tf.transpose(z3)
     labels = tf.transpose(Y)
 
-    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels))
+    cost = tf.reduce_mean(
+        tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels)
+    )
 
     return cost
 
 
-def model(X_train, Y_train, X_test, Y_test, learning_rate=0.0001,
-          num_epochs=1500, minibatch_size=32, print_cost=True):
+def model(
+    X_train,
+    Y_train,
+    X_test,
+    Y_test,
+    learning_rate=0.0001,
+    num_epochs=1500,
+    minibatch_size=32,
+    print_cost=True,
+):
     ops.reset_default_graph()
     tf.set_random_seed(1)
     seed = 3
-    (n_x, m) = X_train.shape
+    n_x, m = X_train.shape
     n_y = Y_train.shape[0]
     costs = []
 
@@ -140,15 +150,17 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate=0.0001,
 
         for epoch in range(num_epochs):
 
-            minibatch_cost = 0.
+            minibatch_cost = 0.0
             num_minibatches = int(m / minibatch_size)
             seed = seed + 1
             minibatches = random_mini_batches(X_train, Y_train, minibatch_size, seed)
 
             for minibatch in minibatches:
-                (minibatch_X, minibatch_Y) = minibatch
+                minibatch_X, minibatch_Y = minibatch
 
-                _, temp_cost = sess.run([optimizer, cost], feed_dict={X: minibatch_X, Y: minibatch_Y})
+                _, temp_cost = sess.run(
+                    [optimizer, cost], feed_dict={X: minibatch_X, Y: minibatch_Y}
+                )
 
                 minibatch_cost += temp_cost / num_minibatches
 
@@ -158,8 +170,8 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate=0.0001,
                 costs.append(minibatch_cost)
 
         plt.plot(np.squeeze(costs))
-        plt.ylabel('cost')
-        plt.xlabel('iterations (per tens)')
+        plt.ylabel("cost")
+        plt.xlabel("iterations (per tens)")
         plt.title("Learning rate =" + str(learning_rate))
         plt.show()
 

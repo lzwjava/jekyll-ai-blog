@@ -2,12 +2,14 @@
 """
 Script to rename the last N notes to random dates within the past year
 """
+
 import os
 import argparse
 import random
 from datetime import datetime, timedelta
 from typing import List, Tuple
 import glob
+
 
 def generate_random_date() -> str:
     """Generate a random date within the past year"""
@@ -17,18 +19,20 @@ def generate_random_date() -> str:
     random_days = random.randint(0, 180)
     random_date = start_date + timedelta(days=random_days)
 
-    return random_date.strftime('%Y-%m-%d')
+    return random_date.strftime("%Y-%m-%d")
+
 
 def parse_filename_date(filename: str) -> datetime:
     """Extract date from filename in YYYY-MM-DD format"""
-    parts = filename.split('-', 3)
+    parts = filename.split("-", 3)
     if len(parts) < 3:
         return datetime.min
-    date_str = '-'.join(parts[:3])
+    date_str = "-".join(parts[:3])
     try:
-        return datetime.strptime(date_str, '%Y-%m-%d')
+        return datetime.strptime(date_str, "%Y-%m-%d")
     except ValueError:
         return datetime.min
+
 
 def get_notes_files_sorted_by_date(notes_dir: str) -> List[Tuple[str, datetime]]:
     """Get all markdown files from notes directory, sorted by date descending"""
@@ -45,6 +49,7 @@ def get_notes_files_sorted_by_date(notes_dir: str) -> List[Tuple[str, datetime]]
     files_with_dates.sort(key=lambda x: x[1], reverse=True)
 
     return files_with_dates
+
 
 def rename_notes_with_random_dates(notes_dir: str, num_notes: int) -> None:
     """Rename the last N notes to random dates within past year"""
@@ -72,9 +77,9 @@ def rename_notes_with_random_dates(notes_dir: str, num_notes: int) -> None:
         filename = os.path.basename(filepath)
 
         # Extract topic part (remove date prefix)
-        filename_parts = filename.split('-', 3)
+        filename_parts = filename.split("-", 3)
         if len(filename_parts) >= 4:
-            topic_name = '-'.join(filename_parts[3:])
+            topic_name = "-".join(filename_parts[3:])
         else:
             topic_name = filename
 
@@ -94,6 +99,7 @@ def rename_notes_with_random_dates(notes_dir: str, num_notes: int) -> None:
 
     print(f"\nSuccessfully renamed {files_renamed} files")
 
+
 def parse_args():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(
@@ -104,9 +110,10 @@ def parse_args():
         "--num-notes",
         type=int,
         default=1,
-        help="Number of notes to rename (default: 1)"
+        help="Number of notes to rename (default: 1)",
     )
     return parser.parse_args()
+
 
 if __name__ == "__main__":
     args = parse_args()

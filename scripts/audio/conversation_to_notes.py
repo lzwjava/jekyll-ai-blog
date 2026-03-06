@@ -44,8 +44,7 @@ def convert_conversation_to_notes():
                 continue
 
             with open(notes_filepath, "w") as outfile:
-                outfile.write(
-                    f"""---
+                outfile.write(f"""---
 audio: false
 generated: true
 image: false
@@ -57,8 +56,7 @@ translated: false
 type: note
 ---
 
-"""
-                )
+""")
                 for item in conversation:
                     speaker = item.get("speaker")
                     line = item.get("line")

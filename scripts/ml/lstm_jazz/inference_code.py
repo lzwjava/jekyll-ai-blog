@@ -1,8 +1,8 @@
 def inference_model(LSTM_cell, densor, n_x=90, n_a=64, Ty=100):
     x0 = Input(shape=(1, n_x))
 
-    a0 = Input(shape=(n_a,), name='a0')
-    c0 = Input(shape=(n_a,), name='c0')
+    a0 = Input(shape=(n_a,), name="a0")
+    c0 = Input(shape=(n_a,), name="c0")
     a = a0
     c = c0
     x = x0

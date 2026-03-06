@@ -6,7 +6,9 @@ import re
 from translate_client import translate_text
 
 
-def translate_front_matter(front_matter, target_language, input_file, model="deepseek-v3.2"):
+def translate_front_matter(
+    front_matter, target_language, input_file, model="deepseek-v3.2"
+):
     print(f"  Translating front matter for: {input_file}")
     if not front_matter:
         print(f"  No front matter found for: {input_file}")
@@ -57,7 +59,9 @@ def translate_front_matter(front_matter, target_language, input_file, model="dee
         return front_matter, None, None
 
 
-def translate_markdown_file(input_file, output_file, target_language, model="deepseek-v3.2"):
+def translate_markdown_file(
+    input_file, output_file, target_language, model="deepseek-v3.2"
+):
     print(f"  Processing file: {input_file}")
     try:
         with open(input_file, "r", encoding="utf-8") as infile:
@@ -105,7 +109,9 @@ def translate_markdown_file(input_file, output_file, target_language, model="dee
             outfile.write(translated_content)
         print(f"  Finished processing file: {output_file}")
     except Exception as e:
-        print(f"  Error processing file {input_file} target language{target_language}: {e}")
+        print(
+            f"  Error processing file {input_file} target language{target_language}: {e}"
+        )
 
 
 if __name__ == "__main__":

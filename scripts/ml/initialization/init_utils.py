@@ -38,9 +38,9 @@ def forward_propagation(X, parameters):
 
 def backward_propagation(X, Y, cache):
     m = X.shape[1]
-    (z1, a1, W1, b1, z2, a2, W2, b2, z3, a3, W3, b3) = cache
+    z1, a1, W1, b1, z2, a2, W2, b2, z3, a3, W3, b3 = cache
 
-    dz3 = 1. / m * (a3 - Y)
+    dz3 = 1.0 / m * (a3 - Y)
     dW3 = np.dot(dz3, a2.T)
     db3 = np.sum(dz3, axis=1, keepdims=True)
 
@@ -54,9 +54,19 @@ def backward_propagation(X, Y, cache):
     dW1 = np.dot(dz1, X.T)
     db1 = np.sum(dz1, axis=1, keepdims=True)
 
-    gradients = {"dz3": dz3, "dW3": dW3, "db3": db3,
-                 "da2": da2, "dz2": dz2, "dW2": dW2, "db2": db2,
-                 "da1": da1, "dz1": dz1, "dW1": dW1, "db1": db1}
+    gradients = {
+        "dz3": dz3,
+        "dW3": dW3,
+        "db3": db3,
+        "da2": da2,
+        "dz2": dz2,
+        "dW2": dW2,
+        "db2": db2,
+        "da1": da1,
+        "dz1": dz1,
+        "dW1": dW1,
+        "db1": db1,
+    }
 
     return gradients
 
@@ -65,8 +75,12 @@ def update_parameters(parameters, grads, learning_rate):
     L = len(parameters) // 2
 
     for k in range(L):
-        parameters["W" + str(k + 1)] = parameters["W" + str(k + 1)] - learning_rate * grads["dW" + str(k + 1)]
-        parameters["b" + str(k + 1)] = parameters["b" + str(k + 1)] - learning_rate * grads["db" + str(k + 1)]
+        parameters["W" + str(k + 1)] = (
+            parameters["W" + str(k + 1)] - learning_rate * grads["dW" + str(k + 1)]
+        )
+        parameters["b" + str(k + 1)] = (
+            parameters["b" + str(k + 1)] - learning_rate * grads["db" + str(k + 1)]
+        )
 
     return parameters
 
@@ -74,17 +88,17 @@ def update_parameters(parameters, grads, learning_rate):
 def compute_loss(a3, Y):
     m = Y.shape[1]
     logprobs = np.multiply(-np.log(a3), Y) + np.multiply(-np.log(1 - a3), 1 - Y)
-    loss = 1. / m * np.nansum(logprobs)
+    loss = 1.0 / m * np.nansum(logprobs)
 
     return loss
 
 
 def load_cat_dataset():
-    train_dataset = h5py.File('../datasets/train_catvnoncat.h5', "r")
+    train_dataset = h5py.File("../datasets/train_catvnoncat.h5", "r")
     train_set_x_orig = np.array(train_dataset["train_set_x"][:])
     train_set_y_orig = np.array(train_dataset["train_set_y"][:])
 
-    test_dataset = h5py.File('../datasets/test_catvnoncat.h5', "r")
+    test_dataset = h5py.File("../datasets/test_catvnoncat.h5", "r")
     test_set_x_orig = np.array(test_dataset["test_set_x"][:])
     test_set_y_orig = np.array(test_dataset["test_set_y"][:])
 
@@ -130,25 +144,25 @@ def plot_decision_boundary(model, X, y):
     Z = Z.reshape(xx.shape)
 
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
-    plt.ylabel('x2')
-    plt.xlabel('x1')
+    plt.ylabel("x2")
+    plt.xlabel("x1")
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
     plt.show()
 
 
 def predict_dec(parameters, X):
     a3, cache = forward_propagation(X, parameters)
-    predictions = (a3 > 0.5)
+    predictions = a3 > 0.5
     return predictions
 
 
 def load_dataset():
     np.random.seed(1)
-    train_X, train_Y = sklearn.datasets.make_circles(n_samples=300, noise=.05)
+    train_X, train_Y = sklearn.datasets.make_circles(n_samples=300, noise=0.05)
     np.random.seed(2)
-    test_X, test_Y = sklearn.datasets.make_circles(n_samples=100, noise=.05)
+    test_X, test_Y = sklearn.datasets.make_circles(n_samples=100, noise=0.05)
 
-    plt.scatter(train_X[:, 0], train_X[:, 1], c=train_Y, s=40, cmap=plt.cm.Spectral);
+    plt.scatter(train_X[:, 0], train_X[:, 1], c=train_Y, s=40, cmap=plt.cm.Spectral)
     train_X = train_X.T
     train_Y = train_Y.reshape((1, train_Y.shape[0]))
     test_X = test_X.T

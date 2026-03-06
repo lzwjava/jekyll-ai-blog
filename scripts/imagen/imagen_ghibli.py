@@ -8,7 +8,7 @@ from io import BytesIO
 client = genai.Client(
     vertexai=True,
     project=os.getenv("GOOGLE_CLOUD_PROJECT"),
-    location=os.getenv("GOOGLE_CLOUD_LOCATION")
+    location=os.getenv("GOOGLE_CLOUD_LOCATION"),
 )
 
 # 2. Load your base avatar
@@ -26,7 +26,7 @@ prompt = (
 response = client.models.generate_content(
     model="image_edit_auto",  # Imagen 3 editing endpoint :contentReference[oaicite:0]{index=0}
     contents=[prompt, input_img],
-    config=types.GenerateContentConfig(response_modalities=["IMAGE"])
+    config=types.GenerateContentConfig(response_modalities=["IMAGE"]),
 )
 
 # 5. Extract & save the edited image

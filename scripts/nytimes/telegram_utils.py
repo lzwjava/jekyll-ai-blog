@@ -16,12 +16,12 @@ def send_telegram_message(message):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("Error: TELEGRAM_BOT_API_KEY or TELEGRAM_CHAT_ID not set.")
         return False
-    
+
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     url_pattern = re.compile(r"(https?://[^\s]+)")
     message_no_stars = message.replace("*", "")
     message_no_links = url_pattern.sub("", message_no_stars)
-    
+
     messages = []
     msg = message_no_links
     while len(msg) > TELEGRAM_MAX_LENGTH:
@@ -31,7 +31,7 @@ def send_telegram_message(message):
         messages.append(msg[:split_idx])
         msg = msg[split_idx:]
     messages.append(msg)
-    
+
     success = True
     for part in messages:
         params = {
@@ -45,5 +45,5 @@ def send_telegram_message(message):
         except requests.exceptions.RequestException as e:
             print(f"Error sending Telegram message: {e}")
             success = False
-    
+
     return success

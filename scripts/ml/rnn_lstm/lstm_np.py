@@ -70,7 +70,17 @@ def forward(inputs, h_prev, C_prev, p):
 
     W_f, W_i, W_g, W_o, W_v, b_f, b_i, b_g, b_o, b_v = p
 
-    x_s, z_s, f_s, i_s, = [], [], [], []
+    (
+        x_s,
+        z_s,
+        f_s,
+        i_s,
+    ) = (
+        [],
+        [],
+        [],
+        [],
+    )
     g_s, C_s, o_s, h_s = [], [], [], []
     v_s, output_s = [], []
 
@@ -119,13 +129,13 @@ c = np.zeros((hidden_size, 1))
 z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs = forward(inputs_one_hot, h, c, params)
 
 output_sentence = [idx_to_word[np.argmax(output)] for output in outputs]
-print('Input sentence:')
+print("Input sentence:")
 print(inputs)
 
-print('\nTarget sequence:')
+print("\nTarget sequence:")
 print(targets)
 
-print('\nPredicted sequence:')
+print("\nPredicted sequence:")
 print([idx_to_word[np.argmax(output)] for output in outputs])
 
 
@@ -215,10 +225,12 @@ def backward(z, f, i, g, C, o, h, v, outputs, targets, p=params):
         W_f_d += np.dot(df, z[t].T)
         b_f_d += df
 
-        dz = (np.dot(W_f.T, df)
-              + np.dot(W_i.T, di)
-              + np.dot(W_g.T, dg)
-              + np.dot(W_o.T, do))
+        dz = (
+            np.dot(W_f.T, df)
+            + np.dot(W_i.T, di)
+            + np.dot(W_g.T, dg)
+            + np.dot(W_o.T, do)
+        )
         dh_next = dz[:hidden_size, :]
         dC_next = f[t] * dC
 
@@ -229,9 +241,11 @@ def backward(z, f, i, g, C, o, h, v, outputs, targets, p=params):
     return loss, grads
 
 
-loss, grads = backward(z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs, targets_one_hot, params)
+loss, grads = backward(
+    z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs, targets_one_hot, params
+)
 
-print('We get a loss of:')
+print("We get a loss of:")
 print(loss)
 
 num_epochs = 50
@@ -255,9 +269,13 @@ for i in range(num_epochs):
         h = np.zeros((hidden_size, 1))
         c = np.zeros((hidden_size, 1))
 
-        z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs = forward(inputs_one_hot, h, c, params)
+        z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs = forward(
+            inputs_one_hot, h, c, params
+        )
 
-        loss, _ = backward(z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs, targets_one_hot, params)
+        loss, _ = backward(
+            z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs, targets_one_hot, params
+        )
 
         epoch_validation_loss += loss
 
@@ -268,9 +286,13 @@ for i in range(num_epochs):
         h = np.zeros((hidden_size, 1))
         c = np.zeros((hidden_size, 1))
 
-        z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs = forward(inputs_one_hot, h, c, params)
+        z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs = forward(
+            inputs_one_hot, h, c, params
+        )
 
-        loss, grads = backward(z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs, targets_one_hot, params)
+        loss, grads = backward(
+            z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs, targets_one_hot, params
+        )
 
         params = update_parameters(params, grads, lr=1e-1)
 
@@ -280,7 +302,9 @@ for i in range(num_epochs):
     validation_loss.append(epoch_validation_loss / len(validation_set))
 
     if i % 5 == 0:
-        print(f'Epoch {i}, training loss: {training_loss[-1]}, validation loss: {validation_loss[-1]}')
+        print(
+            f"Epoch {i}, training loss: {training_loss[-1]}, validation loss: {validation_loss[-1]}"
+        )
 
 inputs, targets = test_set[1]
 
@@ -292,19 +316,24 @@ c = np.zeros((hidden_size, 1))
 
 z_s, f_s, i_s, g_s, C_s, o_s, h_s, v_s, outputs = forward(inputs_one_hot, h, c, params)
 
-print('Input sentence:')
+print("Input sentence:")
 print(inputs)
 
-print('\nTarget sequence:')
+print("\nTarget sequence:")
 print(targets)
 
-print('\nPredicted sequence:')
+print("\nPredicted sequence:")
 print([idx_to_word[np.argmax(output)] for output in outputs])
 
 epoch = np.arange(len(training_loss))
 plt.figure()
-plt.plot(epoch, training_loss, 'r', label='Training loss', )
-plt.plot(epoch, validation_loss, 'b', label='Validation loss')
+plt.plot(
+    epoch,
+    training_loss,
+    "r",
+    label="Training loss",
+)
+plt.plot(epoch, validation_loss, "b", label="Validation loss")
 plt.legend()
-plt.xlabel('Epoch'), plt.ylabel('NLL')
+plt.xlabel("Epoch"), plt.ylabel("NLL")
 plt.show()

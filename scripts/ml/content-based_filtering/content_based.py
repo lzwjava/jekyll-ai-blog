@@ -12,7 +12,16 @@ pd.set_option("display.precision", 1)
 top10_df = pd.read_csv("./data/content_top10_df.csv")
 bygenre_df = pd.read_csv("./data/content_bygenre_df.csv")
 
-item_train, user_train, y_train, item_features, user_features, item_vecs, movie_dict, user_to_genre = load_data()
+(
+    item_train,
+    user_train,
+    y_train,
+    item_features,
+    user_features,
+    item_vecs,
+    movie_dict,
+    user_to_genre,
+) = load_data()
 
 num_user_features = user_train.shape[1] - 3
 num_item_features = item_train.shape[1] - 1
@@ -47,9 +56,15 @@ y_train = scalerTarget.transform(y_train.reshape(-1, 1))
 print(np.allclose(item_train_unscaled, scalerItem.inverse_transform(item_train)))
 print(np.allclose(user_train_unscaled, scalerUser.inverse_transform(user_train)))
 
-item_train, item_test = train_test_split(item_train, train_size=0.80, shuffle=True, random_state=1)
-user_train, user_test = train_test_split(user_train, train_size=0.80, shuffle=True, random_state=1)
-y_train, y_test = train_test_split(y_train, train_size=0.80, shuffle=True, random_state=1)
+item_train, item_test = train_test_split(
+    item_train, train_size=0.80, shuffle=True, random_state=1
+)
+user_train, user_test = train_test_split(
+    user_train, train_size=0.80, shuffle=True, random_state=1
+)
+y_train, y_test = train_test_split(
+    y_train, train_size=0.80, shuffle=True, random_state=1
+)
 print(f"movie/item training data shape: {item_train.shape}")
 print(f"movie/item test data shape: {item_test.shape}")
 
@@ -57,17 +72,21 @@ pprint_train(user_train, user_features, uvs, u_s, maxcount=5)
 
 num_outputs = 32
 tf.random.set_seed(1)
-user_NN = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(256, activation='relu'),
-    tf.keras.layers.Dense(128, activation='relu'),
-    tf.keras.layers.Dense(num_outputs),
-])
+user_NN = tf.keras.models.Sequential(
+    [
+        tf.keras.layers.Dense(256, activation="relu"),
+        tf.keras.layers.Dense(128, activation="relu"),
+        tf.keras.layers.Dense(num_outputs),
+    ]
+)
 
-item_NN = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(256, activation='relu'),
-    tf.keras.layers.Dense(128, activation='relu'),
-    tf.keras.layers.Dense(num_outputs),
-])
+item_NN = tf.keras.models.Sequential(
+    [
+        tf.keras.layers.Dense(256, activation="relu"),
+        tf.keras.layers.Dense(128, activation="relu"),
+        tf.keras.layers.Dense(num_outputs),
+    ]
+)
 
 input_user = tf.keras.layers.Input(shape=(num_user_features))
 vu = user_NN(input_user)
@@ -91,8 +110,7 @@ test_tower(item_NN)
 tf.random.set_seed(1)
 cost_fn = tf.keras.losses.MeanSquaredError()
 opt = keras.optimizers.Adam(learning_rate=0.01)
-model.compile(optimizer=opt,
-              loss=cost_fn)
+model.compile(optimizer=opt, loss=cost_fn)
 
 tf.random.set_seed(1)
 model.fit([user_train[:, u_s:], item_train[:, i_s:]], y_train, epochs=5)
@@ -117,11 +135,29 @@ new_scifi = 0.0
 new_thriller = 0.0
 new_rating_count = 3
 
-user_vec = np.array([[new_user_id, new_rating_count, new_rating_ave,
-                      new_action, new_adventure, new_animation, new_childrens,
-                      new_comedy, new_crime, new_documentary,
-                      new_drama, new_fantasy, new_horror, new_mystery,
-                      new_romance, new_scifi, new_thriller]])
+user_vec = np.array(
+    [
+        [
+            new_user_id,
+            new_rating_count,
+            new_rating_ave,
+            new_action,
+            new_adventure,
+            new_animation,
+            new_childrens,
+            new_comedy,
+            new_crime,
+            new_documentary,
+            new_drama,
+            new_fantasy,
+            new_horror,
+            new_mystery,
+            new_romance,
+            new_scifi,
+            new_thriller,
+        ]
+    ]
+)
 
 user_vecs = gen_user_vecs(user_vec, len(item_vecs))
 
@@ -155,11 +191,20 @@ sorted_items = item_vecs[sorted_index]
 sorted_user = user_vecs[sorted_index]
 sorted_y = y_vecs[sorted_index]
 
-print_existing_user(sorted_ypu, sorted_y.reshape(-1, 1), sorted_user, sorted_items, ivs, uvs, movie_dict, maxcount=50)
+print_existing_user(
+    sorted_ypu,
+    sorted_y.reshape(-1, 1),
+    sorted_user,
+    sorted_items,
+    ivs,
+    uvs,
+    movie_dict,
+    maxcount=50,
+)
 
 
 def sq_dist(a, b):
-    d = 0.
+    d = 0.0
     for i in range(len(a)):
         d += (a[i] - b[i]) ** 2
     return d
@@ -202,10 +247,15 @@ for i in range(count):
     min_idx = np.argmin(m_dist[i])
     movie1_id = int(item_vecs[i, 0])
     movie2_id = int(item_vecs[min_idx, 0])
-    disp.append([movie_dict[movie1_id]['title'], movie_dict[movie1_id]['genres'],
-                 movie_dict[movie2_id]['title'], movie_dict[movie1_id]['genres']]
-                )
-table = tabulate.tabulate(disp, tablefmt='html', headers="firstrow")
+    disp.append(
+        [
+            movie_dict[movie1_id]["title"],
+            movie_dict[movie1_id]["genres"],
+            movie_dict[movie2_id]["title"],
+            movie_dict[movie1_id]["genres"],
+        ]
+    )
+table = tabulate.tabulate(disp, tablefmt="html", headers="firstrow")
 
 file_path = "output_table.html"
 

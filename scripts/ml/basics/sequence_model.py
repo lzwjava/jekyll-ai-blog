@@ -15,15 +15,14 @@ print(inputs)
 
 print(torch.randn(1, 3))
 
-hidden = (torch.randn(1, 1, 3),
-          torch.randn(1, 1, 3))
+hidden = (torch.randn(1, 1, 3), torch.randn(1, 1, 3))
 
-print(f'{inputs[0]}')
-print(f'{inputs[0].view(1, 1, -1)=}')
+print(f"{inputs[0]}")
+print(f"{inputs[0].view(1, 1, -1)=}")
 
 for i in inputs:
-    print(f'{i.size()}')
-    print(f'{i.view(1, 1, -1)=}')
+    print(f"{i.size()}")
+    print(f"{i.view(1, 1, -1)=}")
     out, hidden = lstm(i.view(1, 1, -1), hidden)
 
 
@@ -33,8 +32,8 @@ def prepare_sequence(seq: List[str], to_ix: Dict[str, int]) -> torch.Tensor:
 
 
 training_data = [
-    ("The dog ate the apple".split(), ['DET', 'NN', 'V', 'DET', 'NN']),
-    ('Everyday read that book'.split(), ['NN', 'V', 'DET', 'NN'])
+    ("The dog ate the apple".split(), ["DET", "NN", "V", "DET", "NN"]),
+    ("Everyday read that book".split(), ["NN", "V", "DET", "NN"]),
 ]
 
 print(training_data)
@@ -48,7 +47,7 @@ for sent, tags in training_data:
 
 print(word_to_idx)
 
-tag_to_idx = {'DET': 0, 'NN': 1, 'V': 2}
+tag_to_idx = {"DET": 0, "NN": 1, "V": 2}
 
 EMBEDDING_DIM = 6
 HIDDEN_DIM = 6
@@ -83,7 +82,7 @@ def evaluate():
         # print(f'{training_data[0][0]=}')
         idxs = prepare_sequence(training_data[0][0], word_to_idx)
         res = model(idxs)
-        print(f'{res=}')
+        print(f"{res=}")
 
 
 evaluate()

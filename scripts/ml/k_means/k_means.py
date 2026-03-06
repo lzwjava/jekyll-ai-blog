@@ -5,16 +5,18 @@ import initialization_methods as init_methods
 
 class KMeans:
 
-    def __init__(self, n_clusters=3, tolerance=0.01, max_iter=100, runs=1, init_method="forgy"):
+    def __init__(
+        self, n_clusters=3, tolerance=0.01, max_iter=100, runs=1, init_method="forgy"
+    ):
         self.n_clusters = n_clusters
         self.tolerance = tolerance
         self.cluster_means = np.zeros(n_clusters)
         self.max_iter = max_iter
         self.init_method = init_method
 
-        # There is no need to run the algorithm multiple times if the 
+        # There is no need to run the algorithm multiple times if the
         # initialization method is not a random process
-        self.runs = runs if init_method == 'forgy' else 1
+        self.runs = runs if init_method == "forgy" else 1
 
     def fit(self, X):
         row_count, col_count = X.shape
@@ -38,7 +40,9 @@ class KMeans:
 
                 cluster_means = self.__compute_means(X_values, X_labels, col_count)
 
-                clusters_not_changed = np.abs(cluster_means - previous_means) < self.tolerance
+                clusters_not_changed = (
+                    np.abs(cluster_means - previous_means) < self.tolerance
+                )
                 if np.all(clusters_not_changed) != False:
                     break
 
@@ -54,16 +58,20 @@ class KMeans:
         return all_clusterings[best_clustering_index]
 
     def __initialize_means(self, X, row_count):
-        if self.init_method == 'forgy':
+        if self.init_method == "forgy":
             return init_methods.forgy(X, row_count, self.n_clusters)
-        elif self.init_method == 'maximin':
+        elif self.init_method == "maximin":
             return init_methods.maximin(X, self.n_clusters)
-        elif self.init_method == 'macqueen':
+        elif self.init_method == "macqueen":
             return init_methods.macqueen(X, self.n_clusters)
-        elif self.init_method == 'var_part':
+        elif self.init_method == "var_part":
             return init_methods.var_part(X, self.n_clusters)
         else:
-            raise Exception('The initialization method {} does not exist or not implemented'.format(self.init_method))
+            raise Exception(
+                "The initialization method {} does not exist or not implemented".format(
+                    self.init_method
+                )
+            )
 
     def __compute_distances(self, X, cluster_means, row_count):
         distances = np.zeros((row_count, self.n_clusters))

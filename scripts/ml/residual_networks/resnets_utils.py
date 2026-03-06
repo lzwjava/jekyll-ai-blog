@@ -9,12 +9,7 @@ from keras.layers import Layer
 
 class BatchNormalization(Layer):
 
-    def __init__(self,
-                 axis=-1,
-                 momentum=0.90,
-                 name=None,
-                 synchronized=False,
-                 **kwargs):
+    def __init__(self, axis=-1, momentum=0.90, name=None, synchronized=False, **kwargs):
         super().__init__(name=name, **kwargs)
         self.axis = axis
         self.momentum = momentum
@@ -38,13 +33,15 @@ class BatchNormalization(Layer):
             name="moving_mean",
             shape=(input_shape[self.axis]),
             initializer=tf.initializers.zeros,
-            trainable=False)
+            trainable=False,
+        )
 
         self.moving_variance = self.add_weight(
             name="moving_variance",
             shape=(input_shape[self.axis]),
             initializer=tf.initializers.ones,
-            trainable=False)
+            trainable=False,
+        )
 
     def get_moving_average(self, statistic, new_value):
         momentum = self.momentum
@@ -63,7 +60,9 @@ class BatchNormalization(Layer):
                 axes = [0]
             mean, var = tf.nn.moments(inputs, axes=axes, keepdims=False)
             self.moving_mean.assign(self.get_moving_average(self.moving_mean, mean))
-            self.moving_variance.assign(self.get_moving_average(self.moving_variance, var))
+            self.moving_variance.assign(
+                self.get_moving_average(self.moving_variance, var)
+            )
         else:
             mean, var = self.moving_mean, self.moving_variance
         x = self.normalise(inputs, mean, var)
@@ -71,17 +70,15 @@ class BatchNormalization(Layer):
 
 
 def load_dataset():
-    train_dataset = h5py.File('../datasets/train_signs.h5', "r")
+    train_dataset = h5py.File("../datasets/train_signs.h5", "r")
 
     train_set_x_orig = np.array(train_dataset["train_set_x"][:])
-    train_set_y_orig = np.array(
-        train_dataset["train_set_y"][:])
+    train_set_y_orig = np.array(train_dataset["train_set_y"][:])
 
-    test_dataset = h5py.File('../datasets/test_signs.h5', "r")
+    test_dataset = h5py.File("../datasets/test_signs.h5", "r")
 
     test_set_x_orig = np.array(test_dataset["test_set_x"][:])
-    test_set_y_orig = np.array(
-        test_dataset["test_set_y"][:])
+    test_set_y_orig = np.array(test_dataset["test_set_y"][:])
 
     classes = np.array(test_dataset["list_classes"][:])
 
@@ -102,18 +99,20 @@ def random_mini_batches(X, Y, mini_batch_size=64, seed=0):
 
     num_complete_minibatches = math.floor(m / mini_batch_size)
     for k in range(0, num_complete_minibatches):
-        mini_batch_X = shuffled_X[k * mini_batch_size: k *
-                                                       mini_batch_size + mini_batch_size, :, :, :]
-        mini_batch_Y = shuffled_Y[k * mini_batch_size: k *
-                                                       mini_batch_size + mini_batch_size, :]
+        mini_batch_X = shuffled_X[
+            k * mini_batch_size : k * mini_batch_size + mini_batch_size, :, :, :
+        ]
+        mini_batch_Y = shuffled_Y[
+            k * mini_batch_size : k * mini_batch_size + mini_batch_size, :
+        ]
         mini_batch = (mini_batch_X, mini_batch_Y)
         mini_batches.append(mini_batch)
 
     if m % mini_batch_size != 0:
-        mini_batch_X = shuffled_X[num_complete_minibatches *
-                                  mini_batch_size: m, :, :, :]
-        mini_batch_Y = shuffled_Y[num_complete_minibatches *
-                                  mini_batch_size: m, :]
+        mini_batch_X = shuffled_X[
+            num_complete_minibatches * mini_batch_size : m, :, :, :
+        ]
+        mini_batch_Y = shuffled_Y[num_complete_minibatches * mini_batch_size : m, :]
         mini_batch = (mini_batch_X, mini_batch_Y)
         mini_batches.append(mini_batch)
 
@@ -126,12 +125,12 @@ def convert_to_one_hot(Y, C):
 
 
 def forward_propagation_for_predict(X, parameters):
-    W1 = parameters['W1']
-    b1 = parameters['b1']
-    W2 = parameters['W2']
-    b2 = parameters['b2']
-    W3 = parameters['W3']
-    b3 = parameters['b3']
+    W1 = parameters["W1"]
+    b1 = parameters["b1"]
+    W2 = parameters["W2"]
+    b2 = parameters["b2"]
+    W3 = parameters["W3"]
+    b3 = parameters["b3"]
 
     Z1 = tf.add(tf.matmul(W1, X), b1)
     A1 = tf.nn.relu(Z1)
@@ -152,12 +151,7 @@ def predict(X, parameters):
     W3 = tf.convert_to_tensor(parameters["W3"])
     b3 = tf.convert_to_tensor(parameters["b3"])
 
-    params = {"W1": W1,
-              "b1": b1,
-              "W2": W2,
-              "b2": b2,
-              "W3": W3,
-              "b3": b3}
+    params = {"W1": W1, "b1": b1, "W2": W2, "b2": b2, "W3": W3, "b3": b3}
 
     x = tf.placeholder("float", [12288, 1])
 

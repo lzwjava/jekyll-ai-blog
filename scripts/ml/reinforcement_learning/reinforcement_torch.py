@@ -20,16 +20,16 @@ GAMMA = 0.995
 ALPHA = 1e-3
 NUM_STEPS_FOR_UPDATE = 4
 
-env = gym.make('LunarLander-v2')
+env = gym.make("LunarLander-v2")
 
 env.reset()
-PIL.Image.fromarray(env.render(mode='rgb_array'))
+PIL.Image.fromarray(env.render(mode="rgb_array"))
 
 state_size = env.observation_space.shape[0]
 num_actions = env.action_space.n
 
-print('State Shape:', state_size)
-print('Number of actions:', num_actions)
+print("State Shape:", state_size)
+print("Number of actions:", num_actions)
 
 current_state = env.reset()
 
@@ -41,18 +41,20 @@ utils_torch.display_table(current_state, action, next_state, reward, done)
 
 current_state = next_state
 
+
 class QNetwork(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(QNetwork, self).__init__()
         self.fc1 = nn.Linear(input_dim, 64)
         self.fc2 = nn.Linear(64, 64)
         self.fc3 = nn.Linear(64, output_dim)
-        
+
     def forward(self, x):
         x = torch.relu(self.fc1(x))
         x = torch.relu(self.fc2(x))
         x = self.fc3(x)
         return x
+
 
 q_network = QNetwork(state_size, num_actions)
 target_q_network = QNetwork(state_size, num_actions)
@@ -64,27 +66,32 @@ test_network(q_network)
 test_network(target_q_network)
 test_optimizer(optimizer, ALPHA)
 
-experience = namedtuple("Experience", field_names=["state", "action", "reward", "next_state", "done"])
+experience = namedtuple(
+    "Experience", field_names=["state", "action", "reward", "next_state", "done"]
+)
+
 
 def compute_loss(experiences, gamma, q_network, target_q_network):
     states, actions, rewards, next_states, done_vals = experiences
-    
+
     states = torch.tensor(states, dtype=torch.float32)
     actions = torch.tensor(actions, dtype=torch.long)
     rewards = torch.tensor(rewards, dtype=torch.float32)
     next_states = torch.tensor(next_states, dtype=torch.float32)
     done_vals = torch.tensor(done_vals, dtype=torch.float32)
-    
+
     max_qsa = target_q_network(next_states).max(dim=1)[0]
     y_targets = rewards + gamma * max_qsa * (1 - done_vals)
-    
+
     q_values = q_network(states)
     q_values = q_values.gather(1, actions.unsqueeze(1)).squeeze(1)
-    
+
     loss = nn.MSELoss()(q_values, y_targets)
     return loss
 
+
 test_compute_loss(compute_loss)
+
 
 def agent_learn(experiences, gamma):
     optimizer.zero_grad()
@@ -92,6 +99,7 @@ def agent_learn(experiences, gamma):
     loss.backward()
     optimizer.step()
     utils_torch.update_target_network(q_network, target_q_network)
+
 
 start = time.time()
 
@@ -120,7 +128,9 @@ for i in range(num_episodes):
 
         memory_buffer.append(experience(state, action, reward, next_state, done))
 
-        update = utils_torch.check_update_conditions(t, NUM_STEPS_FOR_UPDATE, memory_buffer)
+        update = utils_torch.check_update_conditions(
+            t, NUM_STEPS_FOR_UPDATE, memory_buffer
+        )
 
         if update:
             experiences = utils_torch.get_experiences(memory_buffer)
@@ -137,14 +147,19 @@ for i in range(num_episodes):
 
     epsilon = utils_torch.get_new_eps(epsilon)
 
-    print(f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}", end="")
+    print(
+        f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}",
+        end="",
+    )
 
     if (i + 1) % num_p_av == 0:
-        print(f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}")
+        print(
+            f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}"
+        )
 
     if av_latest_points >= 200.0:
         print(f"\n\nEnvironment solved in {i + 1} episodes!")
-        torch.save(q_network.state_dict(), 'lunar_lander_model.pth')
+        torch.save(q_network.state_dict(), "lunar_lander_model.pth")
         break
 
 tot_time = time.time() - start

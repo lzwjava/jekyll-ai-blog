@@ -21,16 +21,16 @@ GAMMA = 0.995
 ALPHA = 1e-3
 NUM_STEPS_FOR_UPDATE = 4
 
-env = gym.make('LunarLander-v2')
+env = gym.make("LunarLander-v2")
 
 env.reset()
-PIL.Image.fromarray(env.render(mode='rgb_array'))
+PIL.Image.fromarray(env.render(mode="rgb_array"))
 
 state_size = env.observation_space.shape
 num_actions = env.action_space.n
 
-print('State Shape:', state_size)
-print('Number of actions:', num_actions)
+print("State Shape:", state_size)
+print("Number of actions:", num_actions)
 
 current_state = env.reset()
 
@@ -42,19 +42,23 @@ utils.display_table(current_state, action, next_state, reward, done)
 
 current_state = next_state
 
-q_network = Sequential([
-    Input(shape=state_size),
-    Dense(units=64, activation='relu'),
-    Dense(units=64, activation='relu'),
-    Dense(units=num_actions, activation='linear'),
-])
+q_network = Sequential(
+    [
+        Input(shape=state_size),
+        Dense(units=64, activation="relu"),
+        Dense(units=64, activation="relu"),
+        Dense(units=num_actions, activation="linear"),
+    ]
+)
 
-target_q_network = Sequential([
-    Input(shape=state_size),
-    Dense(units=64, activation='relu'),
-    Dense(units=64, activation='relu'),
-    Dense(units=num_actions, activation='linear'),
-])
+target_q_network = Sequential(
+    [
+        Input(shape=state_size),
+        Dense(units=64, activation="relu"),
+        Dense(units=64, activation="relu"),
+        Dense(units=num_actions, activation="linear"),
+    ]
+)
 
 optimizer = Adam(learning_rate=ALPHA)
 
@@ -64,7 +68,9 @@ test_network(q_network)
 test_network(target_q_network)
 test_optimizer(optimizer, ALPHA)
 
-experience = namedtuple("Experience", field_names=["state", "action", "reward", "next_state", "done"])
+experience = namedtuple(
+    "Experience", field_names=["state", "action", "reward", "next_state", "done"]
+)
 
 
 def compute_loss(experiences, gamma, q_network, target_q_network):
@@ -75,8 +81,10 @@ def compute_loss(experiences, gamma, q_network, target_q_network):
     y_targets = rewards + (gamma * max_qsa * (1 - done_vals))
 
     q_values = q_network(states)
-    q_values = tf.gather_nd(q_values, tf.stack([tf.range(q_values.shape[0]),
-                                                tf.cast(actions, tf.int32)], axis=1))
+    q_values = tf.gather_nd(
+        q_values,
+        tf.stack([tf.range(q_values.shape[0]), tf.cast(actions, tf.int32)], axis=1),
+    )
 
     loss = MSE(y_targets, q_values)
 
@@ -145,14 +153,19 @@ for i in range(num_episodes):
 
     epsilon = utils.get_new_eps(epsilon)
 
-    print(f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}", end="")
+    print(
+        f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}",
+        end="",
+    )
 
     if (i + 1) % num_p_av == 0:
-        print(f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}")
+        print(
+            f"\rEpisode {i + 1} | Total point average of the last {num_p_av} episodes: {av_latest_points:.2f}"
+        )
 
     if av_latest_points >= 200.0:
         print(f"\n\nEnvironment solved in {i + 1} episodes!")
-        q_network.save('lunar_lander_model.h5')
+        q_network.save("lunar_lander_model.h5")
         break
 
 tot_time = time.time() - start

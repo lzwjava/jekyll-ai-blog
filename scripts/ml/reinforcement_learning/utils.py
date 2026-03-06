@@ -31,8 +31,8 @@ def get_experiences(memory_buffer):
 
     Retrieves a random sample of experience tuples from the given memory_buffer and
     returns them as TensorFlow Tensors. The size of the random sample is determined by
-    the mini-batch size (MINIBATCH_SIZE). 
-    
+    the mini-batch size (MINIBATCH_SIZE).
+
     Args:
         memory_buffer (deque):
             A deque containing experiences. The experiences are stored in the memory
@@ -83,7 +83,7 @@ def check_update_conditions(t, num_steps_upd, memory_buffer):
     memory_buffer has enough experience tuples to fill a mini-batch (for example, if the
     mini-batch size is 64, then the memory buffer should have more than 64 experience
     tuples in order to perform a learning update).
-    
+
     Args:
         t (int):
             The current time step.
@@ -96,7 +96,7 @@ def check_update_conditions(t, num_steps_upd, memory_buffer):
             "action", "reward", "next_state", "done"]).
 
     Returns:
-       A boolean that will be True if conditions are met and False otherwise. 
+       A boolean that will be True if conditions are met and False otherwise.
     """
 
     if (t + 1) % num_steps_upd == 0 and len(memory_buffer) > MINIBATCH_SIZE:
@@ -108,7 +108,7 @@ def check_update_conditions(t, num_steps_upd, memory_buffer):
 def get_new_eps(epsilon):
     """
     Updates the epsilon value for the ε-greedy policy.
-    
+
     Gradually decreases the value of epsilon towards a minimum value (E_MIN) using the
     given ε-decay rate (E_DECAY).
 
@@ -131,12 +131,12 @@ def get_action(q_values, epsilon=0.0):
         - With probability epsilon, it will return an action chosen at random.
         - With probability (1 - epsilon), it will return the action that yields the
         maximum Q value in q_values.
-    
+
     Args:
         q_values (tf.Tensor):
             The Q values returned by the Q-Network. For the Lunar Lander environment
             this TensorFlow Tensor should have a shape of [1, 4] and its elements should
-            have dtype=tf.float32. 
+            have dtype=tf.float32.
         epsilon (float):
             The current value of epsilon.
 
@@ -154,23 +154,23 @@ def get_action(q_values, epsilon=0.0):
 def update_target_network(q_network, target_q_network):
     """
     Updates the weights of the target Q-Network using a soft update.
-    
+
     The weights of the target_q_network are updated using the soft update rule:
-    
+
                     w_target = (TAU * w) + (1 - TAU) * w_target
-    
+
     where w_target are the weights of the target_q_network, TAU is the soft update
     parameter, and w are the weights of the q_network.
-    
+
     Args:
-        q_network (tf.keras.Sequential): 
-            The Q-Network. 
+        q_network (tf.keras.Sequential):
+            The Q-Network.
         target_q_network (tf.keras.Sequential):
             The Target Q-Network.
     """
 
     for target_weights, q_net_weights in zip(
-            target_q_network.weights, q_network.weights
+        target_q_network.weights, q_network.weights
     ):
         target_weights.assign(TAU * q_net_weights + (1.0 - TAU) * target_weights)
 
@@ -178,7 +178,7 @@ def update_target_network(q_network, target_q_network):
 def plot_history(point_history, **kwargs):
     """
     Plots the total number of points received by the agent after each episode together
-    with the moving average (rolling mean). 
+    with the moving average (rolling mean).
 
     Args:
         point_history (list):
@@ -271,7 +271,7 @@ def display_table(current_state, action, next_state, reward, done):
 
     Args:
         current_state (numpy.ndarray):
-            The current state vector returned by the Lunar Lander environment 
+            The current state vector returned by the Lunar Lander environment
             before an action is taken
         action (int):
             The action taken by the agent. In the Lunar Lander environment, actions are
@@ -292,7 +292,7 @@ def display_table(current_state, action, next_state, reward, done):
             The done value returned by the Lunar Lander environment after the agent
             takes an action, i.e the done value returned after running a single time
             step of the environment's dynamics using env.step(action).
-    
+
     Returns:
         table (Pandas Dataframe):
             A dataframe containing the current_state, action, next_state, reward,
@@ -300,30 +300,33 @@ def display_table(current_state, action, next_state, reward, done):
             Jupyter Notebook.
     """
 
-    STATE_VECTOR_COL_NAME = 'State Vector'
-    DERIVED_COL_NAME = 'Derived from the State Vector (the closer to zero, the better)'
+    STATE_VECTOR_COL_NAME = "State Vector"
+    DERIVED_COL_NAME = "Derived from the State Vector (the closer to zero, the better)"
 
     # States
-    add_derived_info = lambda state: np.hstack([
-        state,
-        [(state[0] ** 2 + state[1] ** 2) ** .5],
-        [(state[2] ** 2 + state[3] ** 2) ** .5],
-        [np.abs(state[4])]
-    ])
+    add_derived_info = lambda state: np.hstack(
+        [
+            state,
+            [(state[0] ** 2 + state[1] ** 2) ** 0.5],
+            [(state[2] ** 2 + state[3] ** 2) ** 0.5],
+            [np.abs(state[4])],
+        ]
+    )
 
     modified_current_state = add_derived_info(current_state)
     modified_next_state = add_derived_info(next_state)
 
-    states = np.vstack([
-        modified_current_state,
-        modified_next_state,
-        modified_next_state - modified_current_state,
-    ]).T
+    states = np.vstack(
+        [
+            modified_current_state,
+            modified_next_state,
+            modified_next_state - modified_current_state,
+        ]
+    ).T
 
-    get_state = lambda idx, type=np.float32: dict(zip(
-        ['Current State', 'Next State'],
-        states[idx].astype(type)
-    ))
+    get_state = lambda idx, type=np.float32: dict(
+        zip(["Current State", "Next State"], states[idx].astype(type))
+    )
 
     # Actions
     action_labels = [
@@ -333,29 +336,48 @@ def display_table(current_state, action, next_state, reward, done):
         "Fire left engine",
     ]
 
-    table = pd.DataFrame({
-        ('', '', ''): {'Action': action_labels[action], 'Reward': reward, 'Episode Terminated': done},
-        (STATE_VECTOR_COL_NAME, 'Coordinate', 'X (Horizontal)'): get_state(0),
-        (STATE_VECTOR_COL_NAME, 'Coordinate', 'Y (Vertical)'): get_state(1),
-        (STATE_VECTOR_COL_NAME, 'Velocity', 'X (Horizontal)'): get_state(2),
-        (STATE_VECTOR_COL_NAME, 'Velocity', 'Y (Vertical)'): get_state(3),
-        (STATE_VECTOR_COL_NAME, 'Tilting', 'Angle'): get_state(4),
-        (STATE_VECTOR_COL_NAME, 'Tilting', 'Angular Velocity'): get_state(5),
-        (STATE_VECTOR_COL_NAME, 'Ground contact', 'Left Leg?'): get_state(6, np.bool_),
-        (STATE_VECTOR_COL_NAME, 'Ground contact', 'Right Leg?'): get_state(7, np.bool_),
-        (DERIVED_COL_NAME, 'Distance from landing pad', ''): get_state(8),
-        (DERIVED_COL_NAME, 'Velocity', ''): get_state(9),
-        (DERIVED_COL_NAME, 'Tilting Angle (absolute value)', ''): get_state(10),
-    }) \
-        .fillna('') \
-        .reindex(['Current State', 'Action', 'Next State', 'Reward', 'Episode Terminated']) \
-        .style \
-        .applymap(lambda x: 'background-color : grey' if x == '' else '') \
+    table = (
+        pd.DataFrame(
+            {
+                ("", "", ""): {
+                    "Action": action_labels[action],
+                    "Reward": reward,
+                    "Episode Terminated": done,
+                },
+                (STATE_VECTOR_COL_NAME, "Coordinate", "X (Horizontal)"): get_state(0),
+                (STATE_VECTOR_COL_NAME, "Coordinate", "Y (Vertical)"): get_state(1),
+                (STATE_VECTOR_COL_NAME, "Velocity", "X (Horizontal)"): get_state(2),
+                (STATE_VECTOR_COL_NAME, "Velocity", "Y (Vertical)"): get_state(3),
+                (STATE_VECTOR_COL_NAME, "Tilting", "Angle"): get_state(4),
+                (STATE_VECTOR_COL_NAME, "Tilting", "Angular Velocity"): get_state(5),
+                (STATE_VECTOR_COL_NAME, "Ground contact", "Left Leg?"): get_state(
+                    6, np.bool_
+                ),
+                (STATE_VECTOR_COL_NAME, "Ground contact", "Right Leg?"): get_state(
+                    7, np.bool_
+                ),
+                (DERIVED_COL_NAME, "Distance from landing pad", ""): get_state(8),
+                (DERIVED_COL_NAME, "Velocity", ""): get_state(9),
+                (DERIVED_COL_NAME, "Tilting Angle (absolute value)", ""): get_state(10),
+            }
+        )
+        .fillna("")
+        .reindex(
+            ["Current State", "Action", "Next State", "Reward", "Episode Terminated"]
+        )
+        .style.applymap(lambda x: "background-color : grey" if x == "" else "")
         .set_table_styles(
-        [
-            {"selector": "th", "props": [("border", "1px solid grey"), ('text-align', 'center')]},
-            {"selector": "tbody td", "props": [("border", "1px solid grey"), ('text-align', 'center')]},
-        ]
+            [
+                {
+                    "selector": "th",
+                    "props": [("border", "1px solid grey"), ("text-align", "center")],
+                },
+                {
+                    "selector": "tbody td",
+                    "props": [("border", "1px solid grey"), ("text-align", "center")],
+                },
+            ]
+        )
     )
     # display(table)
 
@@ -363,12 +385,12 @@ def display_table(current_state, action, next_state, reward, done):
 def embed_mp4(filename):
     """
     Embeds an MP4 video file in a Jupyter notebook.
-    
+
     Args:
         filename (string):
             The path to the the MP4 video file that will be embedded (i.e.
             "./videos/lunar_lander.mp4").
-    
+
     Returns:
         Returns a display object from the given video file. This will result in the
         video being displayed in the Jupyter Notebook.
@@ -380,9 +402,7 @@ def embed_mp4(filename):
     <video width="840" height="480" controls>
     <source src="data:video/mp4;base64,{0}" type="video/mp4">
     Your browser does not support the video tag.
-    </video>""".format(
-        b64.decode()
-    )
+    </video>""".format(b64.decode())
 
     return IPython.display.HTML(tag)
 
@@ -394,12 +414,12 @@ def create_video(filename, env, q_network, fps=30):
     The agent will interact with the given env environment using the q_network to map
     states to Q values and using a greedy policy to choose its actions (i.e it will
     choose the actions that yield the maximum Q values).
-    
+
     The video will be saved to a file with the given filename. The video format must be
-    specified in the filename by providing a file extension (.mp4, .gif, etc..). If you 
+    specified in the filename by providing a file extension (.mp4, .gif, etc..). If you
     want to embed the video in a Jupyter notebook using the embed_mp4 function, then the
-    video must be saved as an MP4 file. 
-    
+    video must be saved as an MP4 file.
+
     Args:
         filename (string):
             The path to the file to which the video will be saved. The video format will
@@ -407,13 +427,13 @@ def create_video(filename, env, q_network, fps=30):
             specified in the filename by providing a file extension (i.e.
             "./videos/lunar_lander.mp4"). To see a list of supported formats see the
             imageio documentation: https://imageio.readthedocs.io/en/v2.8.0/formats.html
-        env (Gym Environment): 
+        env (Gym Environment):
             The Gym environment the agent will interact with.
         q_network (tf.keras.Sequential):
             A TensorFlow Keras Sequential model that maps states to Q values.
         fps (int):
             The number of frames per second. Specifies the frame rate of the output
-            video. The default frame rate is 30 frames per second.  
+            video. The default frame rate is 30 frames per second.
     """
 
     with imageio.get_writer(filename, fps=fps) as video:

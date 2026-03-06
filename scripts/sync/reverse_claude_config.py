@@ -3,6 +3,7 @@ import os
 import subprocess
 import sys
 
+
 def reverse_sync_config(restart=True):
     print("Starting reverse config sync...")
 
@@ -24,7 +25,7 @@ def reverse_sync_config(restart=True):
     os.makedirs(target_dir, exist_ok=True)
 
     # Read the sanitized config
-    with open(source_path, 'r') as f:
+    with open(source_path, "r") as f:
         config = json.load(f)
 
     # Restore API keys from environment variables
@@ -38,9 +39,9 @@ def reverse_sync_config(restart=True):
     if "Providers" in config:
         restored = False
         for provider in config["Providers"]:
-            if (
-                "api_key" in provider
-                and (not provider["api_key"] or provider["api_key"] == "REPLACE_WITH_OPENROUTER_API_KEY")
+            if "api_key" in provider and (
+                not provider["api_key"]
+                or provider["api_key"] == "REPLACE_WITH_OPENROUTER_API_KEY"
             ):
                 provider["api_key"] = openrouter_api_key
                 if openrouter_api_key:
@@ -53,15 +54,15 @@ def reverse_sync_config(restart=True):
 
     # Write the restored config back to the original location
     print("Writing config back to original location...")
-    with open(target_path, 'w') as f:
+    with open(target_path, "w") as f:
         json.dump(config, f, indent=2)
 
     print("Reverse config sync completed successfully.")
-    
+
     # Print the complete config for verification
     print("\nComplete config:")
     print(json.dumps(config, indent=2))
-    
+
     # Restart ccr if requested
     if restart:
         print("\nRestarting Claude Code Router...")
@@ -71,7 +72,10 @@ def reverse_sync_config(restart=True):
         except subprocess.CalledProcessError as e:
             print(f"Failed to restart Claude Code Router: {e}")
         except FileNotFoundError:
-            print("Warning: 'ccr' command not found. Is Claude Code Router installed and in PATH?")
+            print(
+                "Warning: 'ccr' command not found. Is Claude Code Router installed and in PATH?"
+            )
+
 
 if __name__ == "__main__":
     no_restart = "--no-restart" in sys.argv

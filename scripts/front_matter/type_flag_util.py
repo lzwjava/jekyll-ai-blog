@@ -26,4 +26,3 @@ def update_front_matter(file_path, post_type="post"):
 
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
-

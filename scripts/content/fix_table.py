@@ -47,7 +47,7 @@ def process_tables_in_file(filepath, fix_tables=False):
                 table = match.group(2)
 
                 # Check if there's already a blank line between heading and table
-                if heading.endswith('\n\n'):
+                if heading.endswith("\n\n"):
                     return match.group(0)  # Already has blank line
 
                 # Only add blank line if fix_tables is True

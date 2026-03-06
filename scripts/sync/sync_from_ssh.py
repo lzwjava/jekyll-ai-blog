@@ -20,9 +20,7 @@ parser.add_argument("user", help="SSH login username")
 parser.add_argument("ip", help="SSH host IP address")
 parser.add_argument("remote_path", help="Remote file or directory path to copy")
 parser.add_argument(
-    "-r", "--recursive",
-    action="store_true",
-    help="Recursively copy directories"
+    "-r", "--recursive", action="store_true", help="Recursively copy directories"
 )
 args = parser.parse_args()
 

@@ -67,8 +67,18 @@ def validate_refinement(original_content, refined_content):
         )
 
     # Check for speaker labels (A:, B:, etc.)
-    speaker_patterns = [r'\bA:\s', r'\bB:\s', r'\bA1:\s', r'\bA2:\s', r'\bB1:\s', r'\bB2:\s']
-    has_speaker_labels = any(re.search(pattern, refined_content, re.IGNORECASE) for pattern in speaker_patterns)
+    speaker_patterns = [
+        r"\bA:\s",
+        r"\bB:\s",
+        r"\bA1:\s",
+        r"\bA2:\s",
+        r"\bB1:\s",
+        r"\bB2:\s",
+    ]
+    has_speaker_labels = any(
+        re.search(pattern, refined_content, re.IGNORECASE)
+        for pattern in speaker_patterns
+    )
 
     if not has_speaker_labels:
         validation_issues.append("No speaker labels found (expected A:, B:, etc.)")
@@ -79,7 +89,9 @@ def validate_refinement(original_content, refined_content):
         for issue in validation_issues:
             print(f"   - {issue}")
     else:
-        print("✅ Validation passed: Content length within range and speaker labels present")
+        print(
+            "✅ Validation passed: Content length within range and speaker labels present"
+        )
 
     return validation_issues
 
@@ -137,10 +149,13 @@ def main():
     parser = argparse.ArgumentParser(
         description="Refine transcript content in markdown files using AI"
     )
-    parser.add_argument("files", nargs="*", help="Markdown files containing transcripts to process")
     parser.add_argument(
-        "--output-only", action="store_true",
-        help="Output refined transcript to console without saving to file"
+        "files", nargs="*", help="Markdown files containing transcripts to process"
+    )
+    parser.add_argument(
+        "--output-only",
+        action="store_true",
+        help="Output refined transcript to console without saving to file",
     )
 
     args = parser.parse_args()
@@ -159,7 +174,9 @@ def main():
             processed_count += 1
 
     success_rate = (processed_count / len(args.files)) * 100 if args.files else 0
-    print(f"\nProcessing complete: {processed_count}/{len(args.files)} files refined ({success_rate:.1f}%)")
+    print(
+        f"\nProcessing complete: {processed_count}/{len(args.files)} files refined ({success_rate:.1f}%)"
+    )
 
 
 if __name__ == "__main__":

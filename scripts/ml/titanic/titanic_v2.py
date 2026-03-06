@@ -43,7 +43,7 @@ def train(model: Net, optimizer: optim.Adam, train_loader: DataLoader):
         optimizer.step()
 
         if (batch_idx + 1) % 10 == 0:
-            print(f'batch {batch_idx + 1}, Loss: {loss.item()}')
+            print(f"batch {batch_idx + 1}, Loss: {loss.item()}")
 
 
 def test(model: Net, test_loader: DataLoader):
@@ -55,12 +55,14 @@ def test(model: Net, test_loader: DataLoader):
         for data, target in test_loader:
             output = model(data)
 
-            output_tensor = torch.where(output >= 0.5, torch.tensor(1.0), torch.tensor(0.0))
+            output_tensor = torch.where(
+                output >= 0.5, torch.tensor(1.0), torch.tensor(0.0)
+            )
 
             correct += output_tensor.eq(target.view_as(output_tensor)).sum().item()
             total += len(data)
 
-    print(f'test correct rate: {correct / total}')
+    print(f"test correct rate: {correct / total}")
 
 
 def cal(test_data: DataFrame, features, model: Net):
@@ -80,33 +82,33 @@ def cal(test_data: DataFrame, features, model: Net):
         v = 1 if pred[i] >= 0.5 else 0
         new_pred.append(v)
 
-    output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': new_pred})
-    output.to_csv('submission.csv', index=False)
+    output = pd.DataFrame({"PassengerId": test_data.PassengerId, "Survived": new_pred})
+    output.to_csv("submission.csv", index=False)
 
-    print('submitted')
+    print("submitted")
 
 
 def main():
-    train_data = pd.read_csv('./train.csv')
-    test_data = pd.read_csv('./test.csv')
+    train_data = pd.read_csv("./train.csv")
+    test_data = pd.read_csv("./test.csv")
 
     print(train_data.head())
 
-    y = train_data['Survived']
-    features = ['Age', 'Pclass', 'Sex', 'SibSp', 'Embarked', 'Parch', 'Fare']
+    y = train_data["Survived"]
+    features = ["Age", "Pclass", "Sex", "SibSp", "Embarked", "Parch", "Fare"]
 
-    train_data['Age'].fillna(0, inplace=True)
-    test_data['Age'].fillna(0, inplace=True)
+    train_data["Age"].fillna(0, inplace=True)
+    test_data["Age"].fillna(0, inplace=True)
 
-    train_data['Fare'].fillna(0, inplace=True)
-    test_data['Fare'].fillna(0, inplace=True)
+    train_data["Fare"].fillna(0, inplace=True)
+    test_data["Fare"].fillna(0, inplace=True)
 
-    embarked_mapping = {'S': 1, 'C': 2, 'Q': 3}
-    train_data['Embarked'] = train_data['Embarked'].map(embarked_mapping)
-    test_data['Embarked'] = test_data['Embarked'].map(embarked_mapping)
+    embarked_mapping = {"S": 1, "C": 2, "Q": 3}
+    train_data["Embarked"] = train_data["Embarked"].map(embarked_mapping)
+    test_data["Embarked"] = test_data["Embarked"].map(embarked_mapping)
 
-    train_data['Embarked'].fillna(0, inplace=True)
-    test_data['Embarked'].fillna(0, inplace=True)
+    train_data["Embarked"].fillna(0, inplace=True)
+    test_data["Embarked"].fillna(0, inplace=True)
 
     X = pd.get_dummies(train_data[features])
 
@@ -115,7 +117,9 @@ def main():
     X = torch.tensor(X.values, dtype=torch.float32)
     y = torch.tensor(y.values, dtype=torch.float32).view(-1, 1)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.10, random_state=42
+    )
 
     batch_size = 30
     train_dataset = TensorDataset(X_train, y_train)
@@ -138,5 +142,5 @@ def main():
     cal(test_data, features, model)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

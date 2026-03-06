@@ -12,14 +12,11 @@ class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
 
-        self.lstm = nn.LSTM(input_size=vocab_size,
-                            hidden_size=50,
-                            num_layers=1,
-                            bidirectional=False)
+        self.lstm = nn.LSTM(
+            input_size=vocab_size, hidden_size=50, num_layers=1, bidirectional=False
+        )
 
-        self.l_out = nn.Linear(in_features=50,
-                               out_features=vocab_size,
-                               bias=False)
+        self.l_out = nn.Linear(in_features=50, out_features=vocab_size, bias=False)
 
     def forward(self, x):
         x, (h, c) = self.lstm(x)
@@ -87,7 +84,9 @@ for i in range(num_epochs):
     validation_loss.append(epoch_validation_loss / len(validation_set))
 
     if i % 5 == 0:
-        print(f'Epoch {i}, training loss: {training_loss[-1]}, validation loss: {validation_loss[-1]}')
+        print(
+            f"Epoch {i}, training loss: {training_loss[-1]}, validation loss: {validation_loss[-1]}"
+        )
 
 inputs, targets = test_set[1]
 
@@ -101,19 +100,24 @@ targets_idx = torch.LongTensor(targets_idx)
 
 outputs = net.forward(inputs_one_hot).data.numpy()
 
-print('\nInput sequence:')
+print("\nInput sequence:")
 print(inputs)
 
-print('\nTarget sequence:')
+print("\nTarget sequence:")
 print(targets)
 
-print('\nPredicted sequence:')
+print("\nPredicted sequence:")
 print([idx_to_word[np.argmax(output)] for output in outputs])
 
 epoch = np.arange(len(training_loss))
 plt.figure()
-plt.plot(epoch, training_loss, 'r', label='Training loss', )
-plt.plot(epoch, validation_loss, 'b', label='Validation loss')
+plt.plot(
+    epoch,
+    training_loss,
+    "r",
+    label="Training loss",
+)
+plt.plot(epoch, validation_loss, "b", label="Validation loss")
 plt.legend()
-plt.xlabel('Epoch'), plt.ylabel('NLL')
+plt.xlabel("Epoch"), plt.ylabel("NLL")
 plt.show()

@@ -9,17 +9,19 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-LANGUAGES = ['ar', 'de', 'en', 'es', 'fr', 'hant', 'hi', 'ja', 'zh']
-NOTES_DIR = Path('_notes')
+LANGUAGES = ["ar", "de", "en", "es", "fr", "hant", "hi", "ja", "zh"]
+NOTES_DIR = Path("_notes")
+
 
 def get_note_base_name(filename, lang):
     """Extract base name from filename, removing the language suffix."""
     # Pattern: basename-lang.md -> basename
-    pattern = rf'^(.*)-{lang}\.md$'
+    pattern = rf"^(.*)-{lang}\.md$"
     match = re.match(pattern, filename)
     if match:
         return match.group(1)
     return None
+
 
 def analyze_notes():
     """Analyze note translation coverage."""
@@ -36,7 +38,7 @@ def analyze_notes():
             print(f"Warning: Directory {lang_dir} does not exist")
             continue
 
-        for md_file in lang_dir.glob('*.md'):
+        for md_file in lang_dir.glob("*.md"):
             base_name = get_note_base_name(md_file.name, lang)
             if base_name:
                 notes_coverage[base_name].add(lang)
@@ -45,6 +47,7 @@ def analyze_notes():
                 print(f"Warning: Could not parse base name from {md_file}")
 
     return notes_coverage, notes_per_lang
+
 
 def print_summary(notes_coverage, notes_per_lang):
     """Print comprehensive analysis."""
@@ -85,7 +88,9 @@ def print_summary(notes_coverage, notes_per_lang):
     for coverage in range(len(LANGUAGES) + 1):
         if completeness_counts[coverage] > 0:
             percentage = coverage / len(LANGUAGES) * 100
-            print(f"- {completeness_counts[coverage]} notes: {percentage:.1f}% coverage ({coverage}/{len(LANGUAGES)} languages)")
+            print(
+                f"- {completeness_counts[coverage]} notes: {percentage:.1f}% coverage ({coverage}/{len(LANGUAGES)} languages)"
+            )
     print()
 
     # Fully translated notes
@@ -98,7 +103,9 @@ def print_summary(notes_coverage, notes_per_lang):
     print()
 
     # Notes missing translations
-    print(f"NOTES MISSING TRANSLATIONS ({len(partially_translated)}/{total_unique_notes}):")
+    print(
+        f"NOTES MISSING TRANSLATIONS ({len(partially_translated)}/{total_unique_notes}):"
+    )
     if partially_translated:
         for base_name, missing_langs in sorted(partially_translated):
             print(f"- {base_name}: missing {', '.join(missing_langs)}")
@@ -108,9 +115,9 @@ def print_summary(notes_coverage, notes_per_lang):
 
     # Check for orphaned translations (exist in other languages but not English)
     orphaned_translations = []
-    for lang in [l for l in LANGUAGES if l != 'en']:
+    for lang in [l for l in LANGUAGES if l != "en"]:
         lang_notes = notes_per_lang[lang]
-        english_notes = notes_per_lang.get('en', set())
+        english_notes = notes_per_lang.get("en", set())
 
         orphaned = lang_notes - english_notes
         if orphaned:
@@ -128,7 +135,7 @@ def print_summary(notes_coverage, notes_per_lang):
     # Notes that exist only in English
     english_only = []
     for base_name, langs in notes_coverage.items():
-        if len(langs) == 1 and 'en' in langs:
+        if len(langs) == 1 and "en" in langs:
             english_only.append(base_name)
 
     print(f"ENGLISH-ONLY NOTES ({len(english_only)}):")
@@ -138,6 +145,7 @@ def print_summary(notes_coverage, notes_per_lang):
     else:
         print("- None")
     print()
+
 
 if __name__ == "__main__":
     notes_coverage, notes_per_lang = analyze_notes()

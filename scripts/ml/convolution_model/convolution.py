@@ -3,9 +3,9 @@ import h5py
 import matplotlib.pyplot as plt
 from public_tests import *
 
-plt.rcParams['figure.figsize'] = (5.0, 4.0)
-plt.rcParams['image.interpolation'] = 'nearest'
-plt.rcParams['image.cmap'] = 'gray'
+plt.rcParams["figure.figsize"] = (5.0, 4.0)
+plt.rcParams["image.interpolation"] = "nearest"
+plt.rcParams["image.cmap"] = "gray"
 
 np.random.seed(1)
 
@@ -13,7 +13,7 @@ np.random.seed(1)
 def zero_pad(X, pad):
     pad_width = ((0, 0), (pad, pad), (pad, pad), (0, 0))
 
-    X_pad = np.pad(X, pad_width, mode='constant', constant_values=0)
+    X_pad = np.pad(X, pad_width, mode="constant", constant_values=0)
 
     return X_pad
 
@@ -27,9 +27,9 @@ print("x[1,1] =\n", x[1, 1])
 print("x_pad[1,1] =\n", x_pad[1, 1])
 
 fig, axarr = plt.subplots(1, 2)
-axarr[0].set_title('x')
+axarr[0].set_title("x")
 axarr[0].imshow(x[0, :, :, 0])
-axarr[1].set_title('x_pad')
+axarr[1].set_title("x_pad")
 axarr[1].imshow(x_pad[0, :, :, 0])
 zero_pad_test(zero_pad)
 
@@ -50,17 +50,17 @@ Z = conv_single_step(a_slice_prev, W, b)
 print("Z =", Z)
 conv_single_step_test(conv_single_step)
 
-assert (type(Z) == np.float64), "You must cast the output to numpy float 64"
+assert type(Z) == np.float64, "You must cast the output to numpy float 64"
 assert np.isclose(Z, -6.999089450680221), "Wrong value"
 
 
 def conv_forward(A_prev, W, b, hparameters):
-    (m, n_H_prev, n_W_prev, n_C_prev) = A_prev.shape
+    m, n_H_prev, n_W_prev, n_C_prev = A_prev.shape
 
-    (f, f, n_C_prev, n_C) = W.shape
+    f, f, n_C_prev, n_C = W.shape
 
-    stride = hparameters['stride']
-    pad = hparameters['pad']
+    stride = hparameters["stride"]
+    pad = hparameters["pad"]
 
     n_H = int((n_H_prev - f + 2 * pad) / stride) + 1
     n_W = int((n_W_prev - f + 2 * pad) / stride) + 1
@@ -79,10 +79,14 @@ def conv_forward(A_prev, W, b, hparameters):
                 horiz_end = w + f
 
                 for c in range(n_C):
-                    a_slice_prev = a_prev_pad[vert_start:vert_end, horiz_start:horiz_end, :]
+                    a_slice_prev = a_prev_pad[
+                        vert_start:vert_end, horiz_start:horiz_end, :
+                    ]
                     weights = W[:, :, :, c]
                     biases = b[:, :, :, c]
-                    Z[i, h // stride, w // stride, c] = np.sum(a_slice_prev * weights) + np.squeeze(biases)
+                    Z[i, h // stride, w // stride, c] = np.sum(
+                        a_slice_prev * weights
+                    ) + np.squeeze(biases)
     cache = (A_prev, W, b, hparameters)
 
     return Z, cache
@@ -92,8 +96,7 @@ np.random.seed(1)
 A_prev = np.random.randn(2, 5, 7, 4)
 W = np.random.randn(3, 3, 4, 8)
 b = np.random.randn(1, 1, 1, 8)
-hparameters = {"pad": 1,
-               "stride": 2}
+hparameters = {"pad": 1, "stride": 2}
 
 Z, cache_conv = conv_forward(A_prev, W, b, hparameters)
 z_mean = np.mean(Z)
@@ -108,7 +111,7 @@ conv_forward_test_2(conv_forward)
 
 
 def pool_forward(A_prev, hparameters, mode="max"):
-    (m, n_H_prev, n_W_prev, n_C_prev) = A_prev.shape
+    m, n_H_prev, n_W_prev, n_C_prev = A_prev.shape
 
     f = hparameters["f"]
     stride = hparameters["stride"]
@@ -127,10 +130,12 @@ def pool_forward(A_prev, hparameters, mode="max"):
                 horiz_start = w
                 horiz_end = w + f
                 for c in range(n_C):
-                    a_slice_prev = A_prev[i, vert_start:vert_end, horiz_start:horiz_end, c]
-                    if mode == 'max':
+                    a_slice_prev = A_prev[
+                        i, vert_start:vert_end, horiz_start:horiz_end, c
+                    ]
+                    if mode == "max":
                         A[i, h // stride, w // stride, c] = np.max(a_slice_prev)
-                    elif mode == 'average':
+                    elif mode == "average":
                         A[i, h // stride, w // stride, c] = np.average(a_slice_prev)
 
     cache = (A_prev, hparameters)
@@ -174,16 +179,16 @@ pool_forward_test_2(pool_forward)
 
 
 def conv_backward(dZ, cache):
-    (A_prev, W, b, hparameters) = cache
+    A_prev, W, b, hparameters = cache
 
-    (m, n_H_prev, n_W_prev, n_C_prev) = A_prev.shape
+    m, n_H_prev, n_W_prev, n_C_prev = A_prev.shape
 
-    (f, f, n_C_prev, n_C) = W.shape
+    f, f, n_C_prev, n_C = W.shape
 
-    stride = hparameters['stride']
-    pad = hparameters['pad']
+    stride = hparameters["stride"]
+    pad = hparameters["pad"]
 
-    (m, n_H, n_W, n_C) = dZ.shape
+    m, n_H, n_W, n_C = dZ.shape
 
     dA_prev = np.zeros((m, n_H_prev, n_W_prev, n_C_prev))
     dW = np.zeros((f, f, n_C_prev, n_C))
@@ -207,7 +212,9 @@ def conv_backward(dZ, cache):
 
                     a_slice = a_prev_pad[vert_start:vert_end, horiz_start:horiz_end, :]
 
-                    da_prev_pad[vert_start:vert_end, horiz_start:horiz_end, :] += W[:, :, :, c] * dZ[i, h, w, c]
+                    da_prev_pad[vert_start:vert_end, horiz_start:horiz_end, :] += (
+                        W[:, :, :, c] * dZ[i, h, w, c]
+                    )
                     dW[:, :, :, c] += a_slice * dZ[i, h, w, c]
                     db[:, :, :, c] += dZ[i, h, w, c]
 
@@ -220,8 +227,7 @@ np.random.seed(1)
 A_prev = np.random.randn(10, 4, 4, 3)
 W = np.random.randn(2, 2, 3, 8)
 b = np.random.randn(1, 1, 1, 8)
-hparameters = {"pad": 2,
-               "stride": 2}
+hparameters = {"pad": 2, "stride": 2}
 Z, cache_conv = conv_forward(A_prev, W, b, hparameters)
 
 dA, dW, db = conv_backward(Z, cache_conv)
@@ -244,23 +250,19 @@ print("\033[92m All tests passed.")
 
 
 def create_mask_from_window(x):
-    mask = (x == np.max(x))
+    mask = x == np.max(x)
     return mask
 
 
 np.random.seed(1)
 x = np.random.randn(2, 3)
 mask = create_mask_from_window(x)
-print('x = ', x)
+print("x = ", x)
 print("mask = ", mask)
 
-x = np.array([[-1, 2, 3],
-              [2, -3, 2],
-              [1, 5, -2]])
+x = np.array([[-1, 2, 3], [2, -3, 2], [1, 5, -2]])
 
-y = np.array([[False, False, False],
-              [False, False, False],
-              [False, True, False]])
+y = np.array([[False, False, False], [False, False, False], [False, True, False]])
 mask = create_mask_from_window(x)
 
 assert type(mask) == np.ndarray, "Output must be a np.ndarray"
@@ -271,7 +273,7 @@ print("\033[92m All tests passed.")
 
 
 def distribute_value(dz, shape):
-    (n_H, n_W) = shape
+    n_H, n_W = shape
 
     average = dz / (n_H * n_W)
 
@@ -281,7 +283,7 @@ def distribute_value(dz, shape):
 
 
 a = distribute_value(2, (2, 2))
-print('distributed value =', a)
+print("distributed value =", a)
 
 assert type(a) == np.ndarray, "Output must be a np.ndarray"
 assert a.shape == (2, 2), f"Wrong shape {a.shape} != (2, 2)"
@@ -296,10 +298,10 @@ print("\033[92m All tests passed.")
 
 
 def pool_backward(dA, cache, mode="max"):
-    (A_prev, hparameters) = cache
+    A_prev, hparameters = cache
 
-    stride = hparameters['stride']
-    f = hparameters['f']
+    stride = hparameters["stride"]
+    f = hparameters["f"]
 
     m, n_H_prev, n_W_prev, n_C_prev = A_prev.shape
     m, n_H, n_W, n_C = dA.shape
@@ -321,11 +323,15 @@ def pool_backward(dA, cache, mode="max"):
 
                     if mode == "max":
 
-                        a_prev_slice = a_prev[vert_start:vert_end, horiz_start:horiz_end, c]
+                        a_prev_slice = a_prev[
+                            vert_start:vert_end, horiz_start:horiz_end, c
+                        ]
 
-                        mask = (a_prev_slice == np.max(a_prev_slice))
+                        mask = a_prev_slice == np.max(a_prev_slice)
 
-                        dA_prev[i, vert_start: vert_end, horiz_start: horiz_end, c] += mask * dA[i, h, w, c]
+                        dA_prev[i, vert_start:vert_end, horiz_start:horiz_end, c] += (
+                            mask * dA[i, h, w, c]
+                        )
 
                     elif mode == "average":
 
@@ -333,7 +339,9 @@ def pool_backward(dA, cache, mode="max"):
 
                         shape = (f, f)
 
-                        dA_prev[i, vert_start: vert_end, horiz_start: horiz_end, c] += distribute_value(da, shape)
+                        dA_prev[
+                            i, vert_start:vert_end, horiz_start:horiz_end, c
+                        ] += distribute_value(da, shape)
 
     return dA_prev
 
@@ -348,20 +356,21 @@ dA = np.random.randn(5, 4, 2, 2)
 
 dA_prev1 = pool_backward(dA, cache, mode="max")
 print("mode = max")
-print('mean of dA = ', np.mean(dA))
-print('dA_prev1[1,1] = ', dA_prev1[1, 1])
+print("mean of dA = ", np.mean(dA))
+print("dA_prev1[1,1] = ", dA_prev1[1, 1])
 print()
 dA_prev2 = pool_backward(dA, cache, mode="average")
 print("mode = average")
-print('mean of dA = ', np.mean(dA))
-print('dA_prev2[1,1] = ', dA_prev2[1, 1])
+print("mean of dA = ", np.mean(dA))
+print("dA_prev2[1,1] = ", dA_prev2[1, 1])
 
 assert type(dA_prev1) == np.ndarray, "Wrong type"
 assert dA_prev1.shape == (5, 5, 3, 2), f"Wrong shape {dA_prev1.shape} != (5, 5, 3, 2)"
-assert np.allclose(dA_prev1[1, 1], [[0, 0],
-                                    [5.05844394, -1.68282702],
-                                    [0, 0]]), "Wrong values for mode max"
-assert np.allclose(dA_prev2[1, 1], [[0.08485462, 0.2787552],
-                                    [1.26461098, -0.25749373],
-                                    [1.17975636, -0.53624893]]), "Wrong values for mode average"
+assert np.allclose(
+    dA_prev1[1, 1], [[0, 0], [5.05844394, -1.68282702], [0, 0]]
+), "Wrong values for mode max"
+assert np.allclose(
+    dA_prev2[1, 1],
+    [[0.08485462, 0.2787552], [1.26461098, -0.25749373], [1.17975636, -0.53624893]],
+), "Wrong values for mode average"
 print("\033[92m All tests passed.")

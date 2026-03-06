@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import random
 
 # Add the scripts directory to the path to import openrouter_client
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'llm'))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "llm"))
 from openrouter_client import call_openrouter_api, MODEL_MAPPING
 
 # Load environment variables from .env file
@@ -55,8 +55,6 @@ def send_telegram_message(bot_token, chat_id, message):
     return success
 
 
-
-
 def generate_copilot_message():
     """Generates a technical prompt sentence encouraging Copilot use via OpenRouter API."""
     prompt = (
@@ -68,10 +66,10 @@ def generate_copilot_message():
         "eigenvalues and eigenvectors with applications like stability analysis; (8) inner product spaces and "
         "real-world applications. Plain text only, no URLs, ≤50 words."
     )
-    
+
     # Randomly select a model from all available models
     selected_model = random.choice(list(MODEL_MAPPING.keys()))
-    
+
     try:
         print(f"Calling OpenRouter API with model: {selected_model}")
         message = call_openrouter_api(prompt)
@@ -79,7 +77,7 @@ def generate_copilot_message():
             return message.strip()[:300]
     except Exception as e:
         print(f"OpenRouter API Error with {selected_model}: {e}")
-    
+
     # Fallback message if API call fails
     return "Stuck on configuring Control-M order date? Ask Copilot!"
 

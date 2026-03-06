@@ -4,15 +4,15 @@ import pickle
 from torch.nn import functional as F
 import os
 
-meta_path = os.path.join(os.path.dirname(__file__), 'meta.pkl')
+meta_path = os.path.join(os.path.dirname(__file__), "meta.pkl")
 meta_vocab_size = None
 if os.path.exists(meta_path):
-    with open(meta_path, 'rb') as f:
+    with open(meta_path, "rb") as f:
         meta = pickle.load(f)
-    meta_vocab_size = meta['vocab_size']
+    meta_vocab_size = meta["vocab_size"]
     print(f"found vocab_size = {meta_vocab_size} (inside {meta_path})")
 
-input_path = os.path.join(os.path.dirname(__file__), 'input.txt')
+input_path = os.path.join(os.path.dirname(__file__), "input.txt")
 
 with open(input_path, "r", encoding="utf-8") as f:
     text = f.read()
@@ -23,11 +23,13 @@ vocab_size = len(chars)
 stoi = {ch: i for i, ch in enumerate(chars)}
 itos = {i: ch for i, ch in enumerate(chars)}
 encode = lambda s: [stoi[c] for c in s]  # encoder: take a string, output a list of ints
-decode = lambda l: "".join(itos[i] for i in l)  # decode: take a list of ints, output a string
+decode = lambda l: "".join(
+    itos[i] for i in l
+)  # decode: take a list of ints, output a string
 
 data = torch.tensor(encode(text), dtype=torch.long)
 # print(data.shape, data.type)
-# print(data[:1000])        
+# print(data[:1000])
 
 # Split ratio for train and val set
 split_ratio: float = 0.9
@@ -37,7 +39,7 @@ batch_size: int = 4
 block_size: int = 8
 
 n = int(split_ratio * len(data))
-train_data = data[: n]
+train_data = data[:n]
 val_data = data[n:]
 
 print(len(train_data), len(val_data))
@@ -47,13 +49,15 @@ torch.manual_seed(1337)
 
 # torch.manual_seed(1338)
 
+
 def get_batch(split):
     # generate a small batch of data of input x and targets y
     data = train_data if split == "train" else val_data
-    ix = torch.randint(len(data) - block_size,
-                       (batch_size,))  # because last will start from -8 and go until the end of text
-    x = torch.stack([data[i:i + block_size] for i in ix])
-    y = torch.stack([data[i + 1:i + block_size + 1] for i in ix])
+    ix = torch.randint(
+        len(data) - block_size, (batch_size,)
+    )  # because last will start from -8 and go until the end of text
+    x = torch.stack([data[i : i + block_size] for i in ix])
+    y = torch.stack([data[i + 1 : i + block_size + 1] for i in ix])
     return x, y
 
 
@@ -73,17 +77,17 @@ class GPT(nn.Module):
 
         self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
 
-        print('token_embedding_table')
+        print("token_embedding_table")
         print(self.token_embedding_table)
 
         embedding_matrix = self.token_embedding_table.weight.data
-        print('embedding_matrix')
+        print("embedding_matrix")
         print(embedding_matrix)
         print(embedding_matrix.size())
 
     def forward(self, idx, targets=None):
-        # print('forward')        
-        # print(idx)        
+        # print('forward')
+        # print(idx)
         # print(idx.size())
         logits = self.token_embedding_table(idx)
         # print('logits')
@@ -105,7 +109,7 @@ class GPT(nn.Module):
     def generate(self, idx, max_new_tokens):
         for _ in range(max_new_tokens):
             logits, loss = self(idx)
-            print('logits')
+            print("logits")
             print(logits.size())
             print(logits)
             logits = logits[:, -1, :]  # becomes (B,C)
@@ -129,7 +133,7 @@ logits, loss = m(xb, yb)
 batch_sieze = 32
 optimizer = torch.optim.AdamW(m.parameters(), lr=1e-3)
 
-print('begin to train...')
+print("begin to train...")
 
 for steps in range(10000):
     # sample a batch of data
@@ -148,6 +152,12 @@ for steps in range(10000):
 
 print(loss.item())
 
-print('training finished')
+print("training finished")
 
-print(decode(m.generate(idx=torch.zeros((1, 1), dtype=torch.long), max_new_tokens=500)[0].tolist()))
+print(
+    decode(
+        m.generate(idx=torch.zeros((1, 1), dtype=torch.long), max_new_tokens=500)[
+            0
+        ].tolist()
+    )
+)

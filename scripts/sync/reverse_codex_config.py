@@ -3,6 +3,7 @@ import sys
 import tomlkit
 import subprocess
 
+
 def reverse_sync_config(restart=True):
     print("Starting reverse codex config sync...")
 
@@ -24,7 +25,7 @@ def reverse_sync_config(restart=True):
     os.makedirs(target_dir, exist_ok=True)
 
     # Read the sanitized config
-    with open(source_path, 'r') as f:
+    with open(source_path, "r") as f:
         config = tomlkit.load(f)
 
     # Restore API keys from environment variables
@@ -59,7 +60,7 @@ def reverse_sync_config(restart=True):
 
     # Write the restored config back to the original location
     print("Writing config back to original location...")
-    with open(target_path, 'w') as f:
+    with open(target_path, "w") as f:
         tomlkit.dump(config, f)
 
     print("Reverse codex config sync completed successfully.")
@@ -78,6 +79,7 @@ def reverse_sync_config(restart=True):
             print(f"Failed to restart Codex: {e}")
         except FileNotFoundError:
             print("Warning: 'codex' command not found. Is Codex installed and in PATH?")
+
 
 if __name__ == "__main__":
     no_restart = "--no-restart" in sys.argv

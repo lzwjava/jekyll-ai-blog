@@ -11,8 +11,8 @@ def smooth(loss, cur_loss):
 
 
 def print_sample(sample_ix, ix_to_char):
-    txt = ''.join(ix_to_char[ix] for ix in sample_ix)
-    print('----\n %s \n----' % (txt,))
+    txt = "".join(ix_to_char[ix] for ix in sample_ix)
+    print("----\n %s \n----" % (txt,))
 
 
 def get_initial_loss(vocab_size, seq_length):
@@ -33,32 +33,37 @@ def initialize_parameters(n_a, n_x, n_y):
 
 
 def rnn_step_forward(parameters, a_prev, x):
-    Waa, Wax, Wya, by, b = parameters['Waa'], parameters['Wax'], parameters['Wya'], parameters['by'], parameters['b']
+    Waa, Wax, Wya, by, b = (
+        parameters["Waa"],
+        parameters["Wax"],
+        parameters["Wya"],
+        parameters["by"],
+        parameters["b"],
+    )
     a_next = np.tanh(np.dot(Wax, x) + np.dot(Waa, a_prev) + b)
-    p_t = softmax(
-        np.dot(Wya, a_next) + by)
+    p_t = softmax(np.dot(Wya, a_next) + by)
 
     return a_next, p_t
 
 
 def rnn_step_backward(dy, gradients, parameters, x, a, a_prev):
-    gradients['dWya'] += np.dot(dy, a.T)
-    gradients['dby'] += dy
-    da = np.dot(parameters['Wya'].T, dy) + gradients['da_next']
+    gradients["dWya"] += np.dot(dy, a.T)
+    gradients["dby"] += dy
+    da = np.dot(parameters["Wya"].T, dy) + gradients["da_next"]
     daraw = (1 - a * a) * da
-    gradients['db'] += daraw
-    gradients['dWax'] += np.dot(daraw, x.T)
-    gradients['dWaa'] += np.dot(daraw, a_prev.T)
-    gradients['da_next'] = np.dot(parameters['Waa'].T, daraw)
+    gradients["db"] += daraw
+    gradients["dWax"] += np.dot(daraw, x.T)
+    gradients["dWaa"] += np.dot(daraw, a_prev.T)
+    gradients["da_next"] = np.dot(parameters["Waa"].T, daraw)
     return gradients
 
 
 def update_parameters(parameters, gradients, lr):
-    parameters['Wax'] += -lr * gradients['dWax']
-    parameters['Waa'] += -lr * gradients['dWaa']
-    parameters['Wya'] += -lr * gradients['dWya']
-    parameters['b'] += -lr * gradients['db']
-    parameters['by'] += -lr * gradients['dby']
+    parameters["Wax"] += -lr * gradients["dWax"]
+    parameters["Waa"] += -lr * gradients["dWaa"]
+    parameters["Wya"] += -lr * gradients["dWya"]
+    parameters["b"] += -lr * gradients["db"]
+    parameters["by"] += -lr * gradients["dby"]
     return parameters
 
 
@@ -85,12 +90,22 @@ def rnn_forward(X, Y, a0, parameters, vocab_size=71):
 def rnn_backward(X, Y, parameters, cache):
     gradients = {}
 
-    (y_hat, a, x) = cache
-    Waa, Wax, Wya, by, b = parameters['Waa'], parameters['Wax'], parameters['Wya'], parameters['by'], parameters['b']
+    y_hat, a, x = cache
+    Waa, Wax, Wya, by, b = (
+        parameters["Waa"],
+        parameters["Wax"],
+        parameters["Wya"],
+        parameters["by"],
+        parameters["b"],
+    )
 
-    gradients['dWax'], gradients['dWaa'], gradients['dWya'] = np.zeros_like(Wax), np.zeros_like(Waa), np.zeros_like(Wya)
-    gradients['db'], gradients['dby'] = np.zeros_like(b), np.zeros_like(by)
-    gradients['da_next'] = np.zeros_like(a[0])
+    gradients["dWax"], gradients["dWaa"], gradients["dWya"] = (
+        np.zeros_like(Wax),
+        np.zeros_like(Waa),
+        np.zeros_like(Wya),
+    )
+    gradients["db"], gradients["dby"] = np.zeros_like(b), np.zeros_like(by)
+    gradients["da_next"] = np.zeros_like(a[0])
 
     for t in reversed(range(len(X))):
         dy = np.copy(y_hat[t])

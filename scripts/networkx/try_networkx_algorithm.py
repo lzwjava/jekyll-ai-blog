@@ -16,6 +16,7 @@ print("Edges in MST:", T.edges())
 # pip install python-louvain
 try:
     import community as community_louvain
+
     partition = community_louvain.best_partition(G)
     print("Community partition:", partition)
 except ImportError:

@@ -11,8 +11,12 @@ class CausalBow(nn.Module):
         super().__init__()
 
         self.block_size = config.block_size
-        self.register_buffer("bias", torch.tril(torch.ones(config.block_size, config.block_size))
-                             .view(1, config.block_size, config.block_size))
+        self.register_buffer(
+            "bias",
+            torch.tril(torch.ones(config.block_size, config.block_size)).view(
+                1, config.block_size, config.block_size
+            ),
+        )
 
         # torch.tril(torch.ones(3, 3)).view(1, 3, 3)
 
@@ -20,7 +24,7 @@ class CausalBow(nn.Module):
         B, T, C = x.size()
 
         att = torch.zeros((B, T, T), device=x.device)
-        att = att.masked_fill(self.bias[:, :T, :T] == 0, float('-inf'))
+        att = att.masked_fill(self.bias[:, :T, :T] == 0, float("-inf"))
         att = F.softmax(att, dim=-1)
         y = att @ x
 
@@ -34,10 +38,12 @@ class BoWBlock(nn.Module):
 
         self.cbow = CausalBow(config)
 
-        self.mlp = nn.ModuleDict(dict(
-            c_fc=nn.Linear(config.n_embd, config.n_embd2),
-            c_proj=nn.Linear(config.n_embd2, config.n_embd)
-        ))
+        self.mlp = nn.ModuleDict(
+            dict(
+                c_fc=nn.Linear(config.n_embd, config.n_embd2),
+                c_proj=nn.Linear(config.n_embd2, config.n_embd),
+            )
+        )
 
         m = self.mlp
 
@@ -88,6 +94,8 @@ class Bow(nn.Module):
         loss = None
 
         if targets is not None:
-            loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1), ignore_index=-1)
+            loss = F.cross_entropy(
+                logits.view(-1, logits.size(-1)), targets.view(-1), ignore_index=-1
+            )
 
         return logits, loss

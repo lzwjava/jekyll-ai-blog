@@ -8,9 +8,8 @@ import matplotlib.pyplot as plt
 
 
 def load_data():
-    f = gzip.open('mnist.pkl.gz', 'rb')
-    training_data, validation_data, test_data = pickle.load(
-        f, encoding='latin1')
+    f = gzip.open("mnist.pkl.gz", "rb")
+    training_data, validation_data, test_data = pickle.load(f, encoding="latin1")
     f.close()
     return (training_data, validation_data, test_data)
 
@@ -33,10 +32,10 @@ def load_data_wrapper():
     print(training_results[0])
     print_shape(training_results)
     print(tr_d[1])
-    print('shape:', end='')
+    print("shape:", end="")
     print_shape(tr_d[1])
     print(tr_d[1][0])
-    print('vectorized_result', vectorized_result(tr_d[1][0]))
+    print("vectorized_result", vectorized_result(tr_d[1][0]))
 
     training_data = zip(training_inputs, training_results)
     validation_inputs = [np.reshape(x, (784, 1)) for x in va_d[0]]

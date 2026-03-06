@@ -10,10 +10,8 @@ from news_bot_utils import (
     generate_summarized_report,
     extract_nytimes_links,
     summarize_nytimes_article,
-    TELEGRAM_MAX_LENGTH
+    TELEGRAM_MAX_LENGTH,
 )
-
-
 
 
 def main():

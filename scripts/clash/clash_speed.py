@@ -189,7 +189,9 @@ def main():
             filter_desc = "SG/TW"
 
             logging.info("Testing proxy speeds to find the best one...")
-            top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
+            top_proxies = get_top_proxies(
+                num_results=20, name_filter=name_filter
+            )  # Get top 20 proxies matching filter
             if top_proxies:
                 # All top_proxies already match the filter, take the fastest one
                 best_proxy_name = top_proxies[0]["name"]

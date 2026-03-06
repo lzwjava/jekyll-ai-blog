@@ -2,6 +2,7 @@
 
 import tiktoken
 
+
 def basic_encoding():
     """Basic text encoding and decoding example."""
     # Initialize the tokenizer for GPT-3.5-turbo
@@ -21,6 +22,7 @@ def basic_encoding():
     print("Decoded text:", decoded_text)
     print()
 
+
 def different_models():
     """Compare tokenization across different models."""
     models = ["gpt-4", "gpt-3.5-turbo", "text-davinci-003"]
@@ -33,6 +35,7 @@ def different_models():
         print("Tokens:", tokens)
     print()
 
+
 def batch_processing():
     """Process multiple texts at once."""
     enc = tiktoken.encoding_for_model("gpt-4")
@@ -40,7 +43,7 @@ def batch_processing():
     texts = [
         "First message",
         "Second message is longer",
-        "Third message is the longest one in this batch"
+        "Third message is the longest one in this batch",
     ]
 
     # Encode all texts
@@ -52,6 +55,7 @@ def batch_processing():
         print(f"'{text}' -> {len(tokens)} tokens")
     print(f"Total tokens in batch: {total_tokens}")
     print()
+
 
 def special_tokens():
     """Working with special tokens."""
@@ -68,6 +72,7 @@ def special_tokens():
     print("Tokens:", tokens)
     print("Decoded:", enc.decode(tokens))
     print()
+
 
 def count_tokens_efficiently():
     """Efficiently count tokens without storing all tokens."""
@@ -91,6 +96,7 @@ def count_tokens_efficiently():
     print(f"Token count (method 2): {count2}")
     print(f"Tokens per word: {count1 / len(text.split()):.2f}")
     print()
+
 
 if __name__ == "__main__":
     print("TikToken Examples")

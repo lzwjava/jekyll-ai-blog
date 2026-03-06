@@ -58,8 +58,6 @@ def get_recent_files(n):
         return []
 
 
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Translate markdown files to a specified language."
@@ -109,7 +107,16 @@ def main():
         os.makedirs(f"_posts/{lang}", exist_ok=True)
 
     if input_file:
-        changed_files = {(input_file, lang) for lang in languages if not os.path.exists(os.path.join(f"_posts/{lang}", get_output_filename(os.path.basename(input_file), lang)))}
+        changed_files = {
+            (input_file, lang)
+            for lang in languages
+            if not os.path.exists(
+                os.path.join(
+                    f"_posts/{lang}",
+                    get_output_filename(os.path.basename(input_file), lang),
+                )
+            )
+        }
         total_files_to_process = len(changed_files)
     elif n is not None:
         recent_files = get_recent_files(n)

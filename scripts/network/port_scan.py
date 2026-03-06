@@ -69,12 +69,12 @@ if __name__ == "__main__":
         "port_range",
         nargs="?",
         default="1-10000",
-        help="The port range to scan (e.g., 1-1024, default: 1-10000)"
+        help="The port range to scan (e.g., 1-1024, default: 1-10000)",
     )
     args = parser.parse_args()
 
     try:
-        start_port, end_port = map(int, args.port_range.split('-'))
+        start_port, end_port = map(int, args.port_range.split("-"))
         if start_port > end_port or start_port < 1 or end_port > 65535:
             print("Invalid port range. Ports must be between 1-65535 and start <= end.")
             exit(1)

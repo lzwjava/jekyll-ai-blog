@@ -18,18 +18,27 @@ n_freq = 101
 
 Ty = 1375
 
-activates, negatives, backgrounds = load_raw_audio('./raw_data/')
+activates, negatives, backgrounds = load_raw_audio("./raw_data/")
 
-print("background len should be 10,000, since it is a 10 sec clip\n" + str(len(backgrounds[0])), "\n")
 print(
-    "activate[0] len may be around 1000, since an `activate` audio clip is usually around 1 second (but varies a lot) \n" + str(
-        len(activates[0])), "\n")
-print("activate[1] len: different `activate` clips can have different lengths\n" + str(len(activates[1])), "\n")
+    "background len should be 10,000, since it is a 10 sec clip\n"
+    + str(len(backgrounds[0])),
+    "\n",
+)
+print(
+    "activate[0] len may be around 1000, since an `activate` audio clip is usually around 1 second (but varies a lot) \n"
+    + str(len(activates[0])),
+    "\n",
+)
+print(
+    "activate[1] len: different `activate` clips can have different lengths\n"
+    + str(len(activates[1])),
+    "\n",
+)
 
 
 def get_random_time_segment(segment_ms):
-    segment_start = np.random.randint(low=0,
-                                      high=10000 - segment_ms)
+    segment_start = np.random.randint(low=0, high=10000 - segment_ms)
     segment_end = segment_start + segment_ms - 1
 
     return (segment_start, segment_end)
@@ -50,12 +59,21 @@ def is_overlapping(segment_time, previous_segments):
 
 def is_overlapping_test(target):
     assert target((670, 1430), []) == False, "Overlap with an empty list must be False"
-    assert target((500, 1000), [(100, 499), (1001, 1100)]) == False, "Almost overlap, but still False"
-    assert target((750, 1250), [(100, 750), (1001, 1100)]) == True, "Must overlap with the end of first segment"
-    assert target((750, 1250), [(300, 600), (1250, 1500)]) == True, "Must overlap with the begining of second segment"
-    assert target((750, 1250), [(300, 600), (600, 1500), (1600, 1800)]) == True, "Is contained in second segment"
-    assert target((800, 1100),
-                  [(300, 600), (900, 1000), (1600, 1800)]) == True, "New segment contains the second segment"
+    assert (
+        target((500, 1000), [(100, 499), (1001, 1100)]) == False
+    ), "Almost overlap, but still False"
+    assert (
+        target((750, 1250), [(100, 750), (1001, 1100)]) == True
+    ), "Must overlap with the end of first segment"
+    assert (
+        target((750, 1250), [(300, 600), (1250, 1500)]) == True
+    ), "Must overlap with the begining of second segment"
+    assert (
+        target((750, 1250), [(300, 600), (600, 1500), (1600, 1800)]) == True
+    ), "Is contained in second segment"
+    assert (
+        target((800, 1100), [(300, 600), (900, 1000), (1600, 1800)]) == True
+    ), "New segment contains the second segment"
 
     print("\033[92m All tests passed!")
 
@@ -95,20 +113,36 @@ def insert_audio_clip_test(target):
     np.random.seed(5)
     audio_clip, segment_time = target(backgrounds[0], activates[0], [(0, 4400)])
     duration = segment_time[1] - segment_time[0]
-    assert segment_time[0] > 4400, "Error: The audio clip is overlaping with the first segment"
-    assert duration + 1 == len(activates[0]), "The segment length must match the audio clip length"
-    assert audio_clip != backgrounds[0], "The audio clip must be different than the pure background"
-    assert segment_time == (7286, 8201), f"Wrong segment. Expected: Expected: (7286, 8201) got:{segment_time}"
+    assert (
+        segment_time[0] > 4400
+    ), "Error: The audio clip is overlaping with the first segment"
+    assert duration + 1 == len(
+        activates[0]
+    ), "The segment length must match the audio clip length"
+    assert (
+        audio_clip != backgrounds[0]
+    ), "The audio clip must be different than the pure background"
+    assert segment_time == (
+        7286,
+        8201,
+    ), f"Wrong segment. Expected: Expected: (7286, 8201) got:{segment_time}"
 
     audio_clip, segment_time = target(backgrounds[0], activates[0], [(0, 9999)])
-    assert segment_time == (10000, 10000), "Segment must match the out by max-retry mark"
-    assert audio_clip == backgrounds[0], "output audio clip must be exactly the same input background"
+    assert segment_time == (
+        10000,
+        10000,
+    ), "Segment must match the out by max-retry mark"
+    assert (
+        audio_clip == backgrounds[0]
+    ), "output audio clip must be exactly the same input background"
 
     print("\033[92m All tests passed!")
 
 
 np.random.seed(5)
-audio_clip, segment_time = insert_audio_clip(backgrounds[0], activates[0], [(3790, 4400)])
+audio_clip, segment_time = insert_audio_clip(
+    backgrounds[0], activates[0], [(3790, 4400)]
+)
 audio_clip.export("insert_test.wav", format="wav")
 print("Segment Time: ", segment_time)
 
@@ -166,7 +200,9 @@ def create_training_example(background, activates, negatives, Ty):
     random_activates = [activates[i] for i in random_indices]
 
     for random_activate in random_activates:
-        background, segment_time = insert_audio_clip(background, random_activate, previous_segments)
+        background, segment_time = insert_audio_clip(
+            background, random_activate, previous_segments
+        )
 
         segment_start, segment_end = segment_time
 
@@ -177,7 +213,9 @@ def create_training_example(background, activates, negatives, Ty):
     random_negatives = [negatives[i] for i in random_indices]
 
     for random_negative in random_negatives:
-        background, _ = insert_audio_clip(background, random_negative, previous_segments)
+        background, _ = insert_audio_clip(
+            background, random_negative, previous_segments
+        )
 
     background = match_target_amplitude(background, -20.0)
 
@@ -201,8 +239,9 @@ def create_training_example_test(target):
     assert np.all(y <= 1), "All y values must be smaller or equal than 1"
     assert np.sum(y) >= 50, "It must contain at least one activate"
     assert np.sum(y) % 50 == 0, "Sum of activate marks must be a multiple of 50"
-    assert np.isclose(np.linalg.norm(x),
-                      39745552.52075), "Spectrogram is wrong. Check the parameters passed to the insert_audio_clip function"
+    assert np.isclose(
+        np.linalg.norm(x), 39745552.52075
+    ), "Spectrogram is wrong. Check the parameters passed to the insert_audio_clip function"
 
     print("\033[92m All tests passed!")
 
@@ -230,7 +269,16 @@ Y_dev = np.load("./XY_dev/Y_dev.npy")
 
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.models import Model, load_model, Sequential
-from tensorflow.keras.layers import Dense, Activation, Dropout, Input, Masking, TimeDistributed, LSTM, Conv1D
+from tensorflow.keras.layers import (
+    Dense,
+    Activation,
+    Dropout,
+    Input,
+    Masking,
+    TimeDistributed,
+    LSTM,
+    Conv1D,
+)
 from tensorflow.keras.layers import GRU, Bidirectional, BatchNormalization, Reshape
 from tensorflow.keras.optimizers import Adam
 
@@ -242,7 +290,7 @@ def modelf(input_shape):
 
     X = BatchNormalization()(X)
 
-    X = Activation('relu')(X)
+    X = Activation("relu")(X)
 
     X = Dropout(rate=0.8)(X)
 
@@ -260,7 +308,7 @@ def modelf(input_shape):
 
     X = Dropout(rate=0.8)(X)
 
-    X = TimeDistributed(Dense(1, activation='sigmoid'))(X)
+    X = TimeDistributed(Dense(1, activation="sigmoid"))(X)
 
     model = Model(inputs=X_input, outputs=X)
 
@@ -274,19 +322,30 @@ def modelf_test(target):
     Tx = 5511
     n_freq = 101
     model = target(input_shape=(Tx, n_freq))
-    expected_model = [['InputLayer', [(None, 5511, 101)], 0],
-                      ['Conv1D', (None, 1375, 196), 297136, 'valid', 'linear', (4,), (15,), 'GlorotUniform'],
-                      ['BatchNormalization', (None, 1375, 196), 784],
-                      ['Activation', (None, 1375, 196), 0],
-                      ['Dropout', (None, 1375, 196), 0, 0.8],
-                      ['GRU', (None, 1375, 128), 125184, True],
-                      ['Dropout', (None, 1375, 128), 0, 0.8],
-                      ['BatchNormalization', (None, 1375, 128), 512],
-                      ['GRU', (None, 1375, 128), 99072, True],
-                      ['Dropout', (None, 1375, 128), 0, 0.8],
-                      ['BatchNormalization', (None, 1375, 128), 512],
-                      ['Dropout', (None, 1375, 128), 0, 0.8],
-                      ['TimeDistributed', (None, 1375, 1), 129, 'sigmoid']]
+    expected_model = [
+        ["InputLayer", [(None, 5511, 101)], 0],
+        [
+            "Conv1D",
+            (None, 1375, 196),
+            297136,
+            "valid",
+            "linear",
+            (4,),
+            (15,),
+            "GlorotUniform",
+        ],
+        ["BatchNormalization", (None, 1375, 196), 784],
+        ["Activation", (None, 1375, 196), 0],
+        ["Dropout", (None, 1375, 196), 0, 0.8],
+        ["GRU", (None, 1375, 128), 125184, True],
+        ["Dropout", (None, 1375, 128), 0, 0.8],
+        ["BatchNormalization", (None, 1375, 128), 512],
+        ["GRU", (None, 1375, 128), 99072, True],
+        ["Dropout", (None, 1375, 128), 0, 0.8],
+        ["BatchNormalization", (None, 1375, 128), 512],
+        ["Dropout", (None, 1375, 128), 0, 0.8],
+        ["TimeDistributed", (None, 1375, 1), 129, "sigmoid"],
+    ]
     comparator(summary(model), expected_model)
 
 
@@ -298,22 +357,25 @@ model.summary()
 
 from tensorflow.keras.models import model_from_json
 
-json_file = open('./models/model.json', 'r')
+json_file = open("./models/model.json", "r")
 loaded_model_json = json_file.read()
 json_file.close()
 model = model_from_json(loaded_model_json)
-model.load_weights('./models/model.h5')
+model.load_weights("./models/model.h5")
 
 model.layers[2].trainable = False
 model.layers[7].trainable = False
 model.layers[10].trainable = False
 
 opt = Adam(lr=1e-6, beta_1=0.9, beta_2=0.999)
-model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
+model.compile(loss="binary_crossentropy", optimizer=opt, metrics=["accuracy"])
 
 model.fit(X, Y, batch_size=16, epochs=1)
 
-loss, acc, = model.evaluate(X_dev, Y_dev)
+(
+    loss,
+    acc,
+) = model.evaluate(X_dev, Y_dev)
 print("Dev set accuracy = ", acc)
 
 
@@ -333,7 +395,7 @@ def detect_triggerword(filename):
 
     plt.subplot(2, 1, 2)
     plt.plot(predictions[0, :, 0])
-    plt.ylabel('probability')
+    plt.ylabel("probability")
     plt.show()
     return predictions
 
@@ -354,7 +416,9 @@ def chime_on_activate(filename, predictions, threshold):
         consecutive_timesteps += 1
 
         if consecutive_timesteps > 20:
-            audio_clip = audio_clip.overlay(chime, position=((i / Ty) * audio_clip.duration_seconds) * 1000)
+            audio_clip = audio_clip.overlay(
+                chime, position=((i / Ty) * audio_clip.duration_seconds) * 1000
+            )
 
             consecutive_timesteps = 0
             i = 75 * (i // 75 + 1)
@@ -364,7 +428,7 @@ def chime_on_activate(filename, predictions, threshold):
             consecutive_timesteps = 0
         i += 1
 
-    audio_clip.export("chime_output.wav", format='wav')
+    audio_clip.export("chime_output.wav", format="wav")
 
 
 filename = "./raw_data/dev/1.wav"
@@ -383,7 +447,7 @@ def preprocess_audio(filename):
 
     segment = segment.set_frame_rate(44100)
 
-    segment.export(filename, format='wav')
+    segment.export(filename, format="wav")
 
 
 your_filename = "audio_examples/my_audio.wav"

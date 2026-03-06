@@ -14,7 +14,7 @@ def extract_name_from_path_or_name(input_str):
         The base name without language suffix and extension
     """
     # If it's a path, get the filename
-    if os.path.sep in input_str or '/' in input_str:
+    if os.path.sep in input_str or "/" in input_str:
         filename = os.path.basename(input_str)
         # Remove extension if present
         name_with_lang = os.path.splitext(filename)[0]
@@ -25,7 +25,7 @@ def extract_name_from_path_or_name(input_str):
     langs = ["en", "zh", "es", "fr", "de", "ja", "hi", "ar", "hant"]
     for lang in langs:
         if name_with_lang.endswith(f"-{lang}"):
-            return name_with_lang[:-len(f"-{lang}")]
+            return name_with_lang[: -len(f"-{lang}")]
 
     # If no language suffix found, return as is
     return name_with_lang
@@ -33,7 +33,7 @@ def extract_name_from_path_or_name(input_str):
 
 def delete_md(name_or_path, include_original=False):
     """Delete Markdown files and associated assets for the given name or path across languages.
-    
+
     Args:
         name_or_path: Either a file path or a simple name
         include_original: If True, also delete the original file (without language suffix)
@@ -92,11 +92,16 @@ def delete_md(name_or_path, include_original=False):
 
 if __name__ == "__main__":
     """Main entry point to handle command-line arguments."""
-    parser = argparse.ArgumentParser(description="Delete Markdown files and associated assets")
+    parser = argparse.ArgumentParser(
+        description="Delete Markdown files and associated assets"
+    )
     parser.add_argument("name_or_path", help="Name or path of the file to delete")
-    parser.add_argument("--original", action="store_true", 
-                       help="Also delete the original file (without language suffix)")
-    
+    parser.add_argument(
+        "--original",
+        action="store_true",
+        help="Also delete the original file (without language suffix)",
+    )
+
     args = parser.parse_args()
-    
+
     delete_md(args.name_or_path, args.original)

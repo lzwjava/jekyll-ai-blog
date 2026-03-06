@@ -1,4 +1,3 @@
-
 def build_prompt(post_titles, years, recommend_desc):
     """Build the AI prompt with post titles and recommendation criteria."""
     all_posts_with_titles = [f"- {title}" for title in post_titles]
@@ -32,14 +31,14 @@ def setup_tools():
                             "type": "array",
                             "items": {
                                 "type": "string",
-                                "description": "The exact title of a blog post."
+                                "description": "The exact title of a blog post.",
                             },
-                            "description": "List of exact titles of the blog posts."
+                            "description": "List of exact titles of the blog posts.",
                         }
                     },
-                    "required": ["titles"]
-                }
-            }
+                    "required": ["titles"],
+                },
+            },
         }
     ]
 
@@ -49,20 +48,24 @@ def setup_initial_messages(prompt):
     system_prompt = "You are a helpful assistant that recommends blog posts. Use the provided tools to get links for selected titles before formatting the final output."
     return [
         {"role": "system", "content": system_prompt},
-        {"role": "user", "content": prompt}
+        {"role": "user", "content": prompt},
     ]
 
 
 if __name__ == "__main__":
     # Example usage of the functions
-    post_titles = ["Introduction to Python", "Advanced Machine Learning", "Web Development Basics"]
+    post_titles = [
+        "Introduction to Python",
+        "Advanced Machine Learning",
+        "Web Development Basics",
+    ]
     years = 3
     recommend_desc = "software developer interested in Python and AI"
-    
+
     prompt = build_prompt(post_titles, years, recommend_desc)
     tools = setup_tools()
     initial_messages = setup_initial_messages(prompt)
-    
+
     print("Generated Prompt:")
     print(prompt)
     print("\nDefined Tools:")

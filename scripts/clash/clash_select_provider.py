@@ -31,6 +31,7 @@ REJECT_GROUPS = [
 # Preferred node filters (avoiding Hong Kong as per plan)
 NODE_FILTERS = ["新加坡", "日本", "台湾", "美国", "SG", "JP", "TW", "US"]
 
+
 def select_best_provider(dry_run=False):
     """
     Selects the best proxy from preferred regions and updates target Clash groups.
@@ -45,15 +46,17 @@ def select_best_provider(dry_run=False):
         print("Error: No suitable proxies found.")
         return
 
-    best_proxy = top_proxies[0]['name']
-    latency = top_proxies[0]['latency']
+    best_proxy = top_proxies[0]["name"]
+    latency = top_proxies[0]["latency"]
 
     logging.info(f"Selected best proxy: {best_proxy} (Latency: {latency}ms)")
     print(f"Selected best proxy: {best_proxy} (Latency: {latency}ms)")
 
     if dry_run:
         logging.info(f"Dry run: Would have switched {PRIMARY_GROUP} to {best_proxy}")
-        logging.info(f"Dry run: Would have switched groups {TARGET_GROUPS} to {PRIMARY_GROUP}")
+        logging.info(
+            f"Dry run: Would have switched groups {TARGET_GROUPS} to {PRIMARY_GROUP}"
+        )
         logging.info(f"Dry run: Would have switched groups {DIRECT_GROUPS} to DIRECT")
         logging.info(f"Dry run: Would have switched groups {REJECT_GROUPS} to REJECT")
         print(f"Dry run: Would have switched {PRIMARY_GROUP} to {best_proxy}")
@@ -90,16 +93,35 @@ def select_best_provider(dry_run=False):
         logging.error(f"Failed to update {PRIMARY_GROUP} to {best_proxy}.")
         print(f"Failed to update {PRIMARY_GROUP} to {best_proxy}.")
 
-    logging.info(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to point to {PRIMARY_GROUP}.")
-    logging.info(f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT.")
-    logging.info(f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT.")
-    print(f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to point to {PRIMARY_GROUP}.")
-    print(f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT.")
-    print(f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT.")
+    logging.info(
+        f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to point to {PRIMARY_GROUP}."
+    )
+    logging.info(
+        f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT."
+    )
+    logging.info(
+        f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT."
+    )
+    print(
+        f"Successfully updated {success_count}/{len(TARGET_GROUPS)} groups to point to {PRIMARY_GROUP}."
+    )
+    print(
+        f"Successfully updated {direct_success_count}/{len(DIRECT_GROUPS)} groups to DIRECT."
+    )
+    print(
+        f"Successfully updated {reject_success_count}/{len(REJECT_GROUPS)} groups to REJECT."
+    )
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Automatically select the best Clash proxy for main selector groups.")
-    parser.add_argument("--dry-run", action="store_true", help="Perform a dry run without actually switching groups.")
+    parser = argparse.ArgumentParser(
+        description="Automatically select the best Clash proxy for main selector groups."
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Perform a dry run without actually switching groups.",
+    )
 
     args = parser.parse_args()
 
@@ -107,6 +129,7 @@ def main():
     setup_logging()
 
     select_best_provider(dry_run=args.dry_run)
+
 
 if __name__ == "__main__":
     main()

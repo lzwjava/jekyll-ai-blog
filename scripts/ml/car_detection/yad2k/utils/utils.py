@@ -1,4 +1,5 @@
 """Draw predicted or ground truth boxes on input image."""
+
 import imghdr
 import colorsys
 import random
@@ -14,8 +15,8 @@ def preprocess_image(img_path, model_image_size):
     image_type = imghdr.what(img_path)
     image = Image.open(img_path)
     resized_image = image.resize(tuple(reversed(model_image_size)), Image.BICUBIC)
-    image_data = np.array(resized_image, dtype='float32')
-    image_data /= 255.
+    image_data = np.array(resized_image, dtype="float32")
+    image_data /= 255.0
     image_data = np.expand_dims(image_data, 0)  # Add batch dimension.
     return image, image_data
 
@@ -29,7 +30,7 @@ def compose(*funcs):
     if funcs:
         return reduce(lambda f, g: lambda *a, **kw: g(f(*a, **kw)), funcs)
     else:
-        raise ValueError('Composition of empty sequence not supported.')
+        raise ValueError("Composition of empty sequence not supported.")
 
 
 def read_classes(classes_path):
@@ -42,13 +43,13 @@ def read_classes(classes_path):
 def read_anchors(anchors_path):
     with open(anchors_path) as f:
         anchors = f.readline()
-        anchors = [float(x) for x in anchors.split(',')]
+        anchors = [float(x) for x in anchors.split(",")]
         anchors = np.array(anchors).reshape(-1, 2)
     return anchors
 
 
 def scale_boxes(boxes, image_shape):
-    """ Scales the predicted boxes in order to be drawable on the image"""
+    """Scales the predicted boxes in order to be drawable on the image"""
     height = float(image_shape[0])
     width = float(image_shape[1])
     image_dims = K.stack([height, width, height, width])
@@ -60,15 +61,17 @@ def scale_boxes(boxes, image_shape):
 def get_colors_for_classes(num_classes):
     """Return list of random colors for number of classes given."""
     # Use previously generated colors if num_classes is the same.
-    if (hasattr(get_colors_for_classes, "colors") and
-            len(get_colors_for_classes.colors) == num_classes):
+    if (
+        hasattr(get_colors_for_classes, "colors")
+        and len(get_colors_for_classes.colors) == num_classes
+    ):
         return get_colors_for_classes.colors
 
-    hsv_tuples = [(x / num_classes, 1., 1.) for x in range(num_classes)]
+    hsv_tuples = [(x / num_classes, 1.0, 1.0) for x in range(num_classes)]
     colors = list(map(lambda x: colorsys.hsv_to_rgb(*x), hsv_tuples))
     colors = list(
-        map(lambda x: (int(x[0] * 255), int(x[1] * 255), int(x[2] * 255)),
-            colors))
+        map(lambda x: (int(x[0] * 255), int(x[1] * 255), int(x[2] * 255)), colors)
+    )
     random.seed(10101)  # Fixed seed for consistent colors across runs.
     random.shuffle(colors)  # Shuffle colors to decorrelate adjacent classes.
     random.seed(None)  # Reset seed to default.
@@ -95,8 +98,9 @@ def draw_boxes(image, boxes, box_classes, class_names, scores=None):
     # image = Image.fromarray(np.floor(image * 255 + 0.5).astype('uint8'))
 
     font = ImageFont.truetype(
-        font='font/FiraMono-Medium.otf',
-        size=np.floor(3e-2 * image.size[1] + 0.5).astype('int32'))
+        font="font/FiraMono-Medium.otf",
+        size=np.floor(3e-2 * image.size[1] + 0.5).astype("int32"),
+    )
     thickness = (image.size[0] + image.size[1]) // 300
 
     colors = get_colors_for_classes(len(class_names))
@@ -107,18 +111,18 @@ def draw_boxes(image, boxes, box_classes, class_names, scores=None):
 
         if isinstance(scores.numpy(), np.ndarray):
             score = scores.numpy()[i]
-            label = '{} {:.2f}'.format(box_class, score)
+            label = "{} {:.2f}".format(box_class, score)
         else:
-            label = '{}'.format(box_class)
+            label = "{}".format(box_class)
 
         draw = ImageDraw.Draw(image)
         label_size = draw.textsize(label, font)
 
         top, left, bottom, right = box
-        top = max(0, np.floor(top + 0.5).astype('int32'))
-        left = max(0, np.floor(left + 0.5).astype('int32'))
-        bottom = min(image.size[1], np.floor(bottom + 0.5).astype('int32'))
-        right = min(image.size[0], np.floor(right + 0.5).astype('int32'))
+        top = max(0, np.floor(top + 0.5).astype("int32"))
+        left = max(0, np.floor(left + 0.5).astype("int32"))
+        bottom = min(image.size[1], np.floor(bottom + 0.5).astype("int32"))
+        right = min(image.size[0], np.floor(right + 0.5).astype("int32"))
         print(label, (left, top), (right, bottom))
 
         if top - label_size[1] >= 0:
@@ -129,10 +133,11 @@ def draw_boxes(image, boxes, box_classes, class_names, scores=None):
         # My kingdom for a good redistributable image drawing library.
         for i in range(thickness):
             draw.rectangle(
-                [left + i, top + i, right - i, bottom - i], outline=colors[c])
+                [left + i, top + i, right - i, bottom - i], outline=colors[c]
+            )
         draw.rectangle(
-            [tuple(text_origin), tuple(text_origin + label_size)],
-            fill=colors[c])
+            [tuple(text_origin), tuple(text_origin + label_size)], fill=colors[c]
+        )
         draw.text(text_origin, label, fill=(0, 0, 0), font=font)
         del draw
 

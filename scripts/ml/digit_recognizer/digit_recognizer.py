@@ -12,11 +12,21 @@ class Network(object):
     def __init__(self, sizes):
         self.num_layers = len(sizes)
         self.sizes = sizes
-        self.weights = [np.random.randn(sizes[i + 1], sizes[i]) for i in range(self.num_layers - 1)]
-        self.biases = [np.random.randn(sizes[i + 1], 1) for i in range(self.num_layers - 1)]
+        self.weights = [
+            np.random.randn(sizes[i + 1], sizes[i]) for i in range(self.num_layers - 1)
+        ]
+        self.biases = [
+            np.random.randn(sizes[i + 1], 1) for i in range(self.num_layers - 1)
+        ]
 
-    def SGD(self, training_data: zip, epochs: int, mini_batch_size: int, eta: float,
-            val_data: zip):
+    def SGD(
+        self,
+        training_data: zip,
+        epochs: int,
+        mini_batch_size: int,
+        eta: float,
+        val_data: zip,
+    ):
 
         training_data = list(training_data)
 
@@ -31,7 +41,10 @@ class Network(object):
         error_rates = [1]
 
         for j in range(epochs):
-            mini_batches = [training_data[k * mini_batch_size:(k + 1) * mini_batch_size] for k in range(num_batches)]
+            mini_batches = [
+                training_data[k * mini_batch_size : (k + 1) * mini_batch_size]
+                for k in range(num_batches)
+            ]
 
             for mini_batch in mini_batches:
                 self.update_mini_batch(mini_batch, eta)
@@ -53,7 +66,7 @@ class Network(object):
         nabla_w = [np.zeros(w.shape) for w in self.weights]
         nabla_b = [np.zeros(b.shape) for b in self.biases]
 
-        for (x, y) in mini_batch:
+        for x, y in mini_batch:
             delta_nabla_w, delta_nabla_b = self.backprop(x, y)
             nabla_w = [nw + dnw for nw, dnw in zip(nabla_w, delta_nabla_w)]
             nabla_b = [nb + dnb for nb, dnb in zip(nabla_b, delta_nabla_b)]
@@ -95,8 +108,9 @@ class Network(object):
         return output_activations - y
 
     def evalute(self, test_data):
-        test_results = [(np.argmax(self.feedforward(x)), np.argmax(y))
-                        for (x, y) in test_data]
+        test_results = [
+            (np.argmax(self.feedforward(x)), np.argmax(y)) for (x, y) in test_data
+        ]
         return sum(int(x == y) for (x, y) in test_results)
 
     def cal(self, test_data):
@@ -122,11 +136,11 @@ def sigmoid_prime(z):
 
 
 def read_training_data() -> tuple:
-    df = pd.read_csv('./train.csv')
+    df = pd.read_csv("./train.csv")
     # print(df.head())
 
-    labels = df['label'].values
-    pixels = df.drop('label', axis=1).values
+    labels = df["label"].values
+    pixels = df.drop("label", axis=1).values
     pixels = pixels / 255.0
 
     shuffle_list = list(zip(pixels, labels))
@@ -152,7 +166,7 @@ def read_training_data() -> tuple:
 
 
 def read_test_input() -> list:
-    df = pd.read_csv('./test.csv')
+    df = pd.read_csv("./test.csv")
     pixels = df.values
     pixels = pixels / 255.0
     test_input = [np.reshape(x, (784, 1)) for x in pixels]
@@ -168,9 +182,8 @@ def vectorized_result(j):
 def draw(some_digit):
     some_digit_image = some_digit.reshape(28, 28)
 
-    plt.imshow(some_digit_image, cmap=matplotlib.cm.binary,
-               interpolation='nearest')
-    plt.axis('off')
+    plt.imshow(some_digit_image, cmap=matplotlib.cm.binary, interpolation="nearest")
+    plt.axis("off")
     plt.show()
 
 
@@ -178,8 +191,8 @@ def submit(test_output):
     test_n = len(test_output)
     images = [i + 1 for i in range(test_n)]
 
-    output = pd.DataFrame({'ImageId': images, 'Label': test_output})
-    output.to_csv('submission.csv', index=False)
+    output = pd.DataFrame({"ImageId": images, "Label": test_output})
+    output.to_csv("submission.csv", index=False)
 
 
 def main():
@@ -187,11 +200,13 @@ def main():
     test_input = read_test_input()
 
     network = Network([784, 30, 10])
-    network.SGD(training_data, epochs=100, mini_batch_size=10, eta=5e-2, val_data=val_data)
+    network.SGD(
+        training_data, epochs=100, mini_batch_size=10, eta=5e-2, val_data=val_data
+    )
 
     test_output = network.cal(test_input)
     submit(test_output)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

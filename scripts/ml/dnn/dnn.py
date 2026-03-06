@@ -7,9 +7,9 @@ from public_tests import *
 
 import copy
 
-plt.rcParams['figure.figsize'] = (5.0, 4.0)
-plt.rcParams['image.interpolation'] = 'nearest'
-plt.rcParams['image.cmap'] = 'gray'
+plt.rcParams["figure.figsize"] = (5.0, 4.0)
+plt.rcParams["image.interpolation"] = "nearest"
+plt.rcParams["image.cmap"] = "gray"
 
 np.random.seed(1)
 
@@ -22,10 +22,7 @@ def initialize_parameters(n_x, n_h, n_y):
     W2 = np.random.randn(n_y, n_h) * 0.01
     b2 = np.zeros((n_y, 1))
 
-    parameters = {"W1": W1,
-                  "b1": b1,
-                  "W2": W2,
-                  "b2": b2}
+    parameters = {"W1": W1, "b1": b1, "W2": W2, "b2": b2}
 
     return parameters
 
@@ -57,7 +54,9 @@ def initialize_parameters_deep(layer_dims):
     L = len(layer_dims)
 
     for l in range(1, L):
-        parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l - 1]) * 0.01
+        parameters["W" + str(l)] = (
+            np.random.randn(layer_dims[l], layer_dims[l - 1]) * 0.01
+        )
         parameters["b" + str(l)] = np.zeros((layer_dims[l], 1))
 
     return parameters
@@ -104,8 +103,6 @@ def linear_activation_forward(A_prev, W, b, activation):
         Z, linear_cache = linear_forward(A_prev, W, b)
         A, activation_cache = sigmoid(Z)
 
-
-
     elif activation == "relu":
 
         Z, linear_cache = linear_forward(A_prev, W, b)
@@ -118,10 +115,14 @@ def linear_activation_forward(A_prev, W, b, activation):
 
 t_A_prev, t_W, t_b = linear_activation_forward_test_case()
 
-t_A, t_linear_activation_cache = linear_activation_forward(t_A_prev, t_W, t_b, activation="sigmoid")
+t_A, t_linear_activation_cache = linear_activation_forward(
+    t_A_prev, t_W, t_b, activation="sigmoid"
+)
 print("With sigmoid: A = " + str(t_A))
 
-t_A, t_linear_activation_cache = linear_activation_forward(t_A_prev, t_W, t_b, activation="relu")
+t_A, t_linear_activation_cache = linear_activation_forward(
+    t_A_prev, t_W, t_b, activation="relu"
+)
 print("With ReLU: A = " + str(t_A))
 
 linear_activation_forward_test(linear_activation_forward)
@@ -135,16 +136,16 @@ def L_model_forward(X, parameters):
     for l in range(1, L):
         A_prev = A
 
-        Wl = parameters['W' + str(l)]
-        bl = parameters['b' + str(l)]
+        Wl = parameters["W" + str(l)]
+        bl = parameters["b" + str(l)]
 
-        A, cache = linear_activation_forward(A_prev, Wl, bl, activation='relu')
+        A, cache = linear_activation_forward(A_prev, Wl, bl, activation="relu")
         caches.append(cache)
 
-    WL = parameters['W' + str(L)]
-    bL = parameters['b' + str(L)]
+    WL = parameters["W" + str(L)]
+    bL = parameters["b" + str(L)]
 
-    AL, cache = linear_activation_forward(A, WL, bL, activation='sigmoid')
+    AL, cache = linear_activation_forward(A, WL, bL, activation="sigmoid")
     caches.append(cache)
 
     return AL, caches
@@ -161,7 +162,9 @@ L_model_forward_test(L_model_forward)
 def compute_cost(AL, Y):
     m = Y.shape[1]
 
-    cost = -1 / m * np.sum(np.multiply(Y, np.log(AL)) + np.multiply(1 - Y, np.log(1 - AL)))
+    cost = (
+        -1 / m * np.sum(np.multiply(Y, np.log(AL)) + np.multiply(1 - Y, np.log(1 - AL)))
+    )
 
     cost = np.squeeze(cost)
 
@@ -177,13 +180,13 @@ compute_cost_test(compute_cost)
 
 A = np.array([[1, 2], [3, 4]])
 
-print('axis=1 and keepdims=True')
+print("axis=1 and keepdims=True")
 print(np.sum(A, axis=1, keepdims=True))
-print('axis=1 and keepdims=False')
+print("axis=1 and keepdims=False")
 print(np.sum(A, axis=1, keepdims=False))
-print('axis=0 and keepdims=True')
+print("axis=0 and keepdims=True")
 print(np.sum(A, axis=0, keepdims=True))
-print('axis=0 and keepdims=False')
+print("axis=0 and keepdims=False")
 print(np.sum(A, axis=0, keepdims=False))
 
 
@@ -216,7 +219,6 @@ def linear_activation_backward(dA, cache, activation):
         dZ = relu_backward(dA, activation_cache)
         dA_prev, dW, db = linear_backward(dZ, linear_cache)
 
-
     elif activation == "sigmoid":
 
         dZ = sigmoid_backward(dA, activation_cache)
@@ -227,12 +229,16 @@ def linear_activation_backward(dA, cache, activation):
 
 t_dAL, t_linear_activation_cache = linear_activation_backward_test_case()
 
-t_dA_prev, t_dW, t_db = linear_activation_backward(t_dAL, t_linear_activation_cache, activation="sigmoid")
+t_dA_prev, t_dW, t_db = linear_activation_backward(
+    t_dAL, t_linear_activation_cache, activation="sigmoid"
+)
 print("With sigmoid: dA_prev = " + str(t_dA_prev))
 print("With sigmoid: dW = " + str(t_dW))
 print("With sigmoid: db = " + str(t_db))
 
-t_dA_prev, t_dW, t_db = linear_activation_backward(t_dAL, t_linear_activation_cache, activation="relu")
+t_dA_prev, t_dW, t_db = linear_activation_backward(
+    t_dAL, t_linear_activation_cache, activation="relu"
+)
 print("With relu: dA_prev = " + str(t_dA_prev))
 print("With relu: dW = " + str(t_dW))
 print("With relu: db = " + str(t_db))
@@ -246,17 +252,21 @@ def L_model_backward(AL, Y, caches):
     m = AL.shape[1]
     Y = Y.reshape(AL.shape)
 
-    dAL = - (np.divide(Y, AL) - np.divide(1 - Y, 1 - AL))
+    dAL = -(np.divide(Y, AL) - np.divide(1 - Y, 1 - AL))
 
     current_cache = caches[L - 1]
-    dA_prev_temp, dW_temp, db_temp = linear_activation_backward(dAL, current_cache, "sigmoid")
+    dA_prev_temp, dW_temp, db_temp = linear_activation_backward(
+        dAL, current_cache, "sigmoid"
+    )
     grads["dA" + str(L - 1)] = dA_prev_temp
     grads["dW" + str(L)] = dW_temp
     grads["db" + str(L)] = db_temp
 
     for l in reversed(range(L - 1)):
         current_cache = caches[l]
-        dA_prev_temp, dW_temp, db_temp = linear_activation_backward(grads["dA" + str(l + 1)], current_cache, "relu")
+        dA_prev_temp, dW_temp, db_temp = linear_activation_backward(
+            grads["dA" + str(l + 1)], current_cache, "relu"
+        )
         grads["dA" + str(l)] = dA_prev_temp
         grads["dW" + str(l + 1)] = dW_temp
         grads["db" + str(l + 1)] = db_temp
@@ -267,12 +277,12 @@ def L_model_backward(AL, Y, caches):
 t_AL, t_Y_assess, t_caches = L_model_backward_test_case()
 grads = L_model_backward(t_AL, t_Y_assess, t_caches)
 
-print("dA0 = " + str(grads['dA0']))
-print("dA1 = " + str(grads['dA1']))
-print("dW1 = " + str(grads['dW1']))
-print("dW2 = " + str(grads['dW2']))
-print("db1 = " + str(grads['db1']))
-print("db2 = " + str(grads['db2']))
+print("dA0 = " + str(grads["dA0"]))
+print("dA1 = " + str(grads["dA1"]))
+print("dW1 = " + str(grads["dW1"]))
+print("dW2 = " + str(grads["dW2"]))
+print("db1 = " + str(grads["db1"]))
+print("db2 = " + str(grads["db2"]))
 
 L_model_backward_test(L_model_backward)
 

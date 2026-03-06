@@ -5,10 +5,17 @@ import datetime
 import argparse
 from type_flag_util import update_front_matter
 
+
 def main():
-    parser = argparse.ArgumentParser(description='Update front matter in blog notes files')
-    parser.add_argument('-n', type=int, help='Maximum number of files to update')
-    parser.add_argument('--type', default='note', help='Type value to set in front matter (default: note)')
+    parser = argparse.ArgumentParser(
+        description="Update front matter in blog notes files"
+    )
+    parser.add_argument("-n", type=int, help="Maximum number of files to update")
+    parser.add_argument(
+        "--type",
+        default="note",
+        help="Type value to set in front matter (default: note)",
+    )
     args = parser.parse_args()
 
     notes_dir = "notes"

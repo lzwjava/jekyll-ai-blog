@@ -21,18 +21,18 @@ def detect_encoding(file_path):
     """
     try:
         # Read the file in binary mode
-        with open(file_path, 'rb') as f:
+        with open(file_path, "rb") as f:
             raw_data = f.read()
     except Exception as e:
-        return {'error': str(e)}
+        return {"error": str(e)}
 
     # Detect encoding using chardet
     result = chardet.detect(raw_data)
 
     return {
-        'encoding': result['encoding'],
-        'confidence': result['confidence'],
-        'language': result.get('language', 'unknown')
+        "encoding": result["encoding"],
+        "confidence": result["confidence"],
+        "language": result.get("language", "unknown"),
     }
 
 
@@ -54,23 +54,27 @@ def main():
 
     result = detect_encoding(file_path)
 
-    if 'error' in result:
+    if "error" in result:
         print(f"Error: {result['error']}")
         sys.exit(1)
 
     print(f"Encoding:        {result['encoding']}")
     print(f"Confidence:      {result['confidence']:.2%}")
 
-    if result.get('language') and result['language'] != 'unknown':
+    if result.get("language") and result["language"] != "unknown":
         print(f"Detected Lang:   {result['language']}")
 
     # Try to read the file with detected encoding to verify
-    if result['encoding']:
+    if result["encoding"]:
         try:
-            with open(file_path, 'r', encoding=result['encoding']) as f:
+            with open(file_path, "r", encoding=result["encoding"]) as f:
                 first_line = f.readline()
                 print(f"\nFirst line preview (with {result['encoding']} encoding):")
-                print(f"  {first_line[:100]}..." if len(first_line) > 100 else f"  {first_line}")
+                print(
+                    f"  {first_line[:100]}..."
+                    if len(first_line) > 100
+                    else f"  {first_line}"
+                )
         except Exception as e:
             print(f"\nNote: Could not read file with detected encoding: {e}")
 

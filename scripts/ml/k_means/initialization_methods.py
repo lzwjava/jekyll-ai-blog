@@ -39,7 +39,9 @@ def var_part(X, n_clusters):
         for j in range(cluster_i):
             cluster_members = X_[X_[:, -1] == j]
             cluster_mean = cluster_members.mean(axis=0)
-            within_clusters_sum_squares[j] = np.linalg.norm(cluster_members - cluster_mean, axis=1).sum()
+            within_clusters_sum_squares[j] = np.linalg.norm(
+                cluster_members - cluster_mean, axis=1
+            ).sum()
 
         # Cluster which has greatest SSE
         max_sse_i = within_clusters_sum_squares.argmax()

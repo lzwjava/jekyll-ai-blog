@@ -12,7 +12,6 @@ import subprocess
 import sys
 from typing import Optional
 
-
 COMMAND: str = "CLAUDE_CODE_MAX_OUTPUT_TOKENS=100000 ccr code"
 
 

@@ -6,7 +6,7 @@ import os
 import sys
 import argparse
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from tests.workflow.test_md_tables import scan_markdown_files_for_table_issues
 
@@ -23,7 +23,7 @@ def fix_markdown_table_formatting(file_path, dry_run=False):
         tuple: (number of fixes applied, list of fixes applied)
     """
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             original_content = f.read()
     except (UnicodeDecodeError, IOError) as e:
         print(f"Error reading {file_path}: {e}")
@@ -32,7 +32,7 @@ def fix_markdown_table_formatting(file_path, dry_run=False):
     # Pattern to match headers (### or ####) followed by table without blank line
     # Group 1: header line
     # Group 2: table line
-    pattern = r'(#{2,4}[^\n]*)\n(\|[^\n]*\|)'
+    pattern = r"(#{2,4}[^\n]*)\n(\|[^\n]*\|)"
 
     fixes = []
     fixed_content = original_content
@@ -43,11 +43,13 @@ def fix_markdown_table_formatting(file_path, dry_run=False):
         fixed_text = f"{header}\n\n{table_line}"
 
         fix_description = f"Added blank line after header: '{header.strip()}'"
-        fixes.append({
-            'header': header.strip(),
-            'table_line': table_line.strip(),
-            'fix': fix_description
-        })
+        fixes.append(
+            {
+                "header": header.strip(),
+                "table_line": table_line.strip(),
+                "fix": fix_description,
+            }
+        )
 
         return fixed_text
 
@@ -56,7 +58,7 @@ def fix_markdown_table_formatting(file_path, dry_run=False):
 
     if not dry_run and fixed_content != original_content:
         try:
-            with open(file_path, 'w', encoding='utf-8') as f:
+            with open(file_path, "w", encoding="utf-8") as f:
                 f.write(fixed_content)
             print(f" Fixed {file_path}")
         except IOError as e:
@@ -73,10 +75,15 @@ def main(auto_yes=False):
         auto_yes: If True, automatically apply fixes without confirmation
     """
     # Parse command-line arguments
-    parser = argparse.ArgumentParser(description='Fix markdown table formatting issues')
-    parser.add_argument('-y', '--yes', action='store_true', dest='auto_yes',
-                        help='Automatically apply fixes without confirmation')
-    parser.add_argument('args', nargs=argparse.REMAINDER)
+    parser = argparse.ArgumentParser(description="Fix markdown table formatting issues")
+    parser.add_argument(
+        "-y",
+        "--yes",
+        action="store_true",
+        dest="auto_yes",
+        help="Automatically apply fixes without confirmation",
+    )
+    parser.add_argument("args", nargs=argparse.REMAINDER)
 
     args = parser.parse_args()
 
@@ -95,7 +102,7 @@ def main(auto_yes=False):
     # Group issues by file
     files_to_fix = {}
     for issue in issues:
-        file_path = issue['file']
+        file_path = issue["file"]
         if file_path not in files_to_fix:
             files_to_fix[file_path] = []
         files_to_fix[file_path].append(issue)
@@ -107,7 +114,9 @@ def main(auto_yes=False):
     for file_path, file_issues in files_to_fix.items():
         print(f"\n{file_path}:")
         for issue in file_issues:
-            print(f"  Line {issue['line']}: Header '{issue['header']}' immediately followed by table")
+            print(
+                f"  Line {issue['line']}: Header '{issue['header']}' immediately followed by table"
+            )
             total_fixes += 1
 
     print(f"\n{'='*60}")
@@ -119,7 +128,7 @@ def main(auto_yes=False):
         print("Applying fixes automatically (--yes flag set)...\n")
     else:
         response = input("Apply these fixes? (y/n): ").strip().lower()
-        if response != 'y':
+        if response != "y":
             print("Aborted.")
             return 0
 
@@ -147,5 +156,5 @@ def main(auto_yes=False):
         return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     exit(main(auto_yes=False))

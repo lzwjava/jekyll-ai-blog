@@ -3,6 +3,7 @@ import os
 import shutil
 import sys
 
+
 def sync_git_hooks():
     # Define source and destination directories
     source_dir = "scripts/githook"
@@ -21,11 +22,15 @@ def sync_git_hooks():
     # Get all files in source directory, excluding .py files
     # Include .sh files and files without extensions (git hooks don't have extensions)
     files_to_copy = [
-        f for f in os.listdir(source_dir)
+        f
+        for f in os.listdir(source_dir)
         if (
-            f.endswith('.sh') or  # Shell scripts
-            (not '.' in f and os.path.isfile(os.path.join(source_dir, f)))  # Files without extension
-        ) and f != 'sync_githook.py'  # Exclude the sync script itself
+            f.endswith(".sh")  # Shell scripts
+            or (
+                not "." in f and os.path.isfile(os.path.join(source_dir, f))
+            )  # Files without extension
+        )
+        and f != "sync_githook.py"  # Exclude the sync script itself
     ]
 
     print(f"Found {len(files_to_copy)} hook file(s) to sync: {files_to_copy}")
@@ -45,6 +50,7 @@ def sync_git_hooks():
             sys.exit(1)
 
     print("Git hooks sync completed successfully.")
+
 
 if __name__ == "__main__":
     sync_git_hooks()

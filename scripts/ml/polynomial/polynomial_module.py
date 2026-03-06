@@ -20,10 +20,10 @@ class Polynomial(nn.Module):
         self.d = nn.Parameter(torch.rand(1))
 
     def forward(self, x):
-        return self.a + self.b * x + self.c * (x ** 2) + self.d * (x ** 3)
+        return self.a + self.b * x + self.c * (x**2) + self.d * (x**3)
 
     def __str__(self):
-        return f'y={param_str(self.a)} + {param_str(self.b)}x + {param_str(self.c)}x^2 + {param_str(self.d)}x^3'
+        return f"y={param_str(self.a)} + {param_str(self.b)}x + {param_str(self.c)}x^2 + {param_str(self.d)}x^3"
 
 
 def plot(x, y):
@@ -63,7 +63,7 @@ def main():
         step += 1
 
         if step % 100 == 0:
-            print(f'{step} loss: {loss}')
+            print(f"{step} loss: {loss}")
 
         if step > max_step:
             break
@@ -77,5 +77,5 @@ def main():
     plt.show()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

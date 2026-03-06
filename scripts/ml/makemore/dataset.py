@@ -31,7 +31,7 @@ class CharDataset(Dataset):
         return ix
 
     def decode(self, ix):
-        word = ''.join(self.itos[i] for i in ix)
+        word = "".join(self.itos[i] for i in ix)
         return word
 
     def __getitem__(self, idx):
@@ -39,14 +39,14 @@ class CharDataset(Dataset):
         ix = self.encode(word)
         x = torch.zeros(self.max_len + 1, dtype=torch.long)
         y = torch.zeros(self.max_len + 1, dtype=torch.long)
-        x[1:1 + len(ix)] = ix
-        y[:len(ix)] = ix
-        y[len(ix) + 1:] = -1
+        x[1 : 1 + len(ix)] = ix
+        y[: len(ix)] = ix
+        y[len(ix) + 1 :] = -1
         return x, y
 
 
 def create_datasets(input_file):
-    with open(input_file, 'r') as f:
+    with open(input_file, "r") as f:
         lines = f.readlines()
 
     lines = [l.strip() for l in lines]
@@ -69,12 +69,12 @@ def create_datasets(input_file):
 
     # print(test_words)
 
-    chars = sorted(set(''.join(lines)))
+    chars = sorted(set("".join(lines)))
 
     max_len = len(max(lines, key=len))
 
-    print(f'chars:{chars}')
-    print(f'max_len={max_len}')
+    print(f"chars:{chars}")
+    print(f"max_len={max_len}")
 
     train_dataset = CharDataset(train_words, chars, max_len)
     test_dataset = CharDataset(test_words, chars, max_len)
@@ -85,7 +85,9 @@ def create_datasets(input_file):
 class InfiniteDataLoader:
 
     def __init__(self, dataset, **kwargs):
-        train_sampler = torch.utils.data.RandomSampler(dataset, replacement=True, num_samples=int(1e10))
+        train_sampler = torch.utils.data.RandomSampler(
+            dataset, replacement=True, num_samples=int(1e10)
+        )
         self.train_loader = DataLoader(dataset, sampler=train_sampler, **kwargs)
         self.data_iter = iter(self.train_loader)
 

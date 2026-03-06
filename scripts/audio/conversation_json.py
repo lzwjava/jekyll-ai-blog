@@ -77,7 +77,9 @@ def load_combined_conversation(text: str) -> List[Any]:
         try:
             value, offset = decoder.raw_decode(text[idx:])
         except json.JSONDecodeError as exc:
-            raise ValueError(f"Invalid JSON chunk starting at character {idx + 1}: {exc}")
+            raise ValueError(
+                f"Invalid JSON chunk starting at character {idx + 1}: {exc}"
+            )
         if not isinstance(value, list):
             raise ValueError("Every pasted JSON chunk must be a list of lines.")
         combined.extend(value)

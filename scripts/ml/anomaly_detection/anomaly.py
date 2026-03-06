@@ -10,17 +10,17 @@ print("The first 5 elements of X_val are\n", X_val[:5])
 
 print("The first 5 elements of y_val are\n", y_val[:5])
 
-print('The shape of X_train is:', X_train.shape)
-print('The shape of X_val is:', X_val.shape)
-print('The shape of y_val is: ', y_val.shape)
+print("The shape of X_train is:", X_train.shape)
+print("The shape of X_val is:", X_val.shape)
+print("The shape of y_val is: ", y_val.shape)
 
-plt.scatter(X_train[:, 0], X_train[:, 1], marker='x', c='b')
+plt.scatter(X_train[:, 0], X_train[:, 1], marker="x", c="b")
 
 plt.title("The first dataset")
 
-plt.ylabel('Throughput (mb/s)')
+plt.ylabel("Throughput (mb/s)")
 
-plt.xlabel('Latency (ms)')
+plt.xlabel("Latency (ms)")
 
 plt.axis([0, 30, 0, 30])
 plt.show()
@@ -58,7 +58,7 @@ def select_threshold(y_val, p_val):
 
     for epsilon in np.arange(min(p_val), max(p_val), step_size):
 
-        predictions = (p_val < epsilon)
+        predictions = p_val < epsilon
 
         tp = np.sum((predictions == 1) & (y_val == 1))
         fp = sum((predictions == 1) & (y_val == 0))
@@ -79,8 +79,8 @@ def select_threshold(y_val, p_val):
 p_val = multivariate_gaussian(X_val, mu, var)
 epsilon, F1 = select_threshold(y_val, p_val)
 
-print('Best epsilon found using cross-validation: %e' % epsilon)
-print('Best F1 on Cross Validation Set: %f' % F1)
+print("Best epsilon found using cross-validation: %e" % epsilon)
+print("Best F1 on Cross Validation Set: %f" % F1)
 
 select_threshold_test(select_threshold)
 
@@ -88,14 +88,20 @@ outliers = p < epsilon
 
 visualize_fit(X_train, mu, var)
 
-plt.plot(X_train[outliers, 0], X_train[outliers, 1], 'ro',
-         markersize=10, markerfacecolor='none', markeredgewidth=2)
+plt.plot(
+    X_train[outliers, 0],
+    X_train[outliers, 1],
+    "ro",
+    markersize=10,
+    markerfacecolor="none",
+    markeredgewidth=2,
+)
 
 X_train_high, X_val_high, y_val_high = load_data_multi()
 
-print('The shape of X_train_high is:', X_train_high.shape)
-print('The shape of X_val_high is:', X_val_high.shape)
-print('The shape of y_val_high is: ', y_val_high.shape)
+print("The shape of X_train_high is:", X_train_high.shape)
+print("The shape of X_val_high is:", X_val_high.shape)
+print("The shape of y_val_high is: ", y_val_high.shape)
 
 mu_high, var_high = estimate_gaussian(X_train_high)
 
@@ -105,5 +111,5 @@ p_val_high = multivariate_gaussian(X_val_high, mu_high, var_high)
 
 epsilon_high, F1_high = select_threshold(y_val_high, p_val_high)
 
-print('Best epsilon found using cross-validation: %e' % epsilon_high)
-print('Best F1 on Cross Validation Set:  %f' % F1_high)
+print("Best epsilon found using cross-validation: %e" % epsilon_high)
+print("Best F1 on Cross Validation Set:  %f" % F1_high)

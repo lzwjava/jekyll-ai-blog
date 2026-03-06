@@ -6,9 +6,14 @@ Sync gitmessageai.py script to ~/bin/
 import os
 import shutil
 
+
 def main():
     """Main sync function."""
-    source_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "github", "gitmessageai.py")
+    source_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "github",
+        "gitmessageai.py",
+    )
     target_path = os.path.expanduser("~/bin/gitmessageai.py")
 
     print(f"Syncing gitmessageai.py...")
@@ -26,6 +31,7 @@ def main():
     os.chmod(target_path, 0o755)
 
     print("Sync completed successfully!")
+
 
 if __name__ == "__main__":
     main()

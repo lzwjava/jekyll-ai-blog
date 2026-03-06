@@ -7,17 +7,15 @@ import matplotlib.pyplot as plt
 
 # Step 1: Generate synthetic data (like the regression examples in the paper)
 X, y = make_regression(n_samples=1000, n_features=10, noise=0.1, random_state=42)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
 
 # Step 2: Initialize and train the GBM
 # Key params inspired by paper: n_estimators=1000 (many iterations), learning_rate=0.1 (shrinkage),
 # max_depth=3 (shallow trees for weak learners), subsample=0.5 (stochastic variant)
 gbm = GradientBoostingRegressor(
-    n_estimators=1000,
-    learning_rate=0.1,
-    max_depth=3,
-    subsample=0.5,
-    random_state=42
+    n_estimators=1000, learning_rate=0.1, max_depth=3, subsample=0.5, random_state=42
 )
 gbm.fit(X_train, y_train)
 
@@ -32,7 +30,7 @@ indices = np.argsort(importances)[::-1]
 plt.figure(figsize=(8, 5))
 plt.title("Feature Importances")
 plt.bar(range(X.shape[1]), importances[indices])
-plt.xticks(range(X.shape[1]), [f'Feature {i}' for i in indices], rotation=45)
+plt.xticks(range(X.shape[1]), [f"Feature {i}" for i in indices], rotation=45)
 plt.tight_layout()
 plt.show()
 

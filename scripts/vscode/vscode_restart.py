@@ -1,4 +1,3 @@
-
 import os
 import sys
 import time
@@ -18,9 +17,9 @@ def restart_vscode():
             subprocess.Popen(["code", "."])  # Reopen
         elif sys.platform == "darwin":
             # Use AppleScript for graceful quit
-            subprocess.run([
-                "osascript", "-e", 'quit app "Visual Studio Code"'
-            ], check=False)
+            subprocess.run(
+                ["osascript", "-e", 'quit app "Visual Studio Code"'], check=False
+            )
             time.sleep(3)
             subprocess.call(["open", "-a", "Visual Studio Code", "."])
         elif sys.platform.startswith("linux"):

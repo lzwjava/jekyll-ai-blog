@@ -31,7 +31,6 @@ import shutil
 from pathlib import Path
 from typing import Iterable, List, Tuple
 
-
 ROOT = Path(__file__).resolve().parents[2]
 ORIGINAL_DIR = ROOT / "original"
 POSTS_EN_DIR = ROOT / "_posts" / "en"
@@ -53,7 +52,9 @@ def to_en_filename(path: Path) -> Path:
     return path
 
 
-def plan_actions(files: List[Path], backup_dir: Path) -> List[Tuple[str, Path, Path | None]]:
+def plan_actions(
+    files: List[Path], backup_dir: Path
+) -> List[Tuple[str, Path, Path | None]]:
     """Return a list of actions to take.
 
     Each tuple: (action, src, dst)
@@ -137,9 +138,18 @@ def run(actions: List[Tuple[str, Path, Path | None]], apply: bool) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Normalize original/ language to English by moving zh/ja and copying en.")
-    parser.add_argument("--apply", action="store_true", help="Apply changes (otherwise dry run)")
-    parser.add_argument("--backup-dir", type=Path, default=DEFAULT_BACKUP_DIR, help="Backup directory for zh/ja originals")
+    parser = argparse.ArgumentParser(
+        description="Normalize original/ language to English by moving zh/ja and copying en."
+    )
+    parser.add_argument(
+        "--apply", action="store_true", help="Apply changes (otherwise dry run)"
+    )
+    parser.add_argument(
+        "--backup-dir",
+        type=Path,
+        default=DEFAULT_BACKUP_DIR,
+        help="Backup directory for zh/ja originals",
+    )
     args = parser.parse_args()
 
     if not ORIGINAL_DIR.exists():
@@ -161,11 +171,12 @@ def main() -> None:
         en_name = to_en_filename(f).name
         src_en = POSTS_EN_DIR / en_name
         if not src_en.exists():
-            print(f"[info] No matching _posts/en/ for {f.name} -> expected {src_en.name}")
+            print(
+                f"[info] No matching _posts/en/ for {f.name} -> expected {src_en.name}"
+            )
 
     run(actions, apply=args.apply)
 
 
 if __name__ == "__main__":
     main()
-

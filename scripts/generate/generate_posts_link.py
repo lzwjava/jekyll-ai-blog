@@ -34,7 +34,11 @@ def generate_posts_links() -> None:
     target_path = os.path.join("original", "2025-09-14-posts-en.md")
 
     try:
-        files = [f for f in os.listdir(posts_dir) if f.endswith(".md") and not f.startswith(".")]
+        files = [
+            f
+            for f in os.listdir(posts_dir)
+            if f.endswith(".md") and not f.startswith(".")
+        ]
     except Exception as e:
         print(f"Failed to list posts in {posts_dir}: {e}")
         return
@@ -58,7 +62,11 @@ def generate_posts_links() -> None:
                         if s.lower().startswith("title:"):
                             # Extract value after first ':' and strip quotes/spaces
                             val = line.split(":", 1)[1].strip()
-                            if val.startswith(("'", '"')) and val.endswith(("'", '"')) and len(val) >= 2:
+                            if (
+                                val.startswith(("'", '"'))
+                                and val.endswith(("'", '"'))
+                                and len(val) >= 2
+                            ):
                                 val = val[1:-1]
                             title = val or title
                             # Keep scanning in case of multiple, last wins

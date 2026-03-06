@@ -8,6 +8,7 @@ CLASH_CONTROLLER_HOST = "127.0.0.1"
 CLASH_CONTROLLER_PORT = 9090
 CLASH_API_BASE_URL = f"http://{CLASH_CONTROLLER_HOST}:{CLASH_CONTROLLER_PORT}"
 
+
 def setup_logging():
     """Configures basic logging for the script. Clears previous log."""
     if os.path.exists("clash.log"):

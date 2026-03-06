@@ -2,5 +2,5 @@
 import subprocess
 
 # Use gpg to list keys
-result = subprocess.run(['gpg', '--list-keys'], capture_output=True, text=True)
+result = subprocess.run(["gpg", "--list-keys"], capture_output=True, text=True)
 print(result.stdout)

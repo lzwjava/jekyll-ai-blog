@@ -12,41 +12,43 @@ fake = Faker()
 Faker.seed(12345)
 random.seed(12345)
 
-FORMATS = ['short',
-           'medium',
-           'long',
-           'full',
-           'full',
-           'full',
-           'full',
-           'full',
-           'full',
-           'full',
-           'full',
-           'full',
-           'full',
-           'd MMM YYY',
-           'd MMMM YYY',
-           'dd MMM YYY',
-           'd MMM, YYY',
-           'd MMMM, YYY',
-           'dd, MMM YYY',
-           'd MM YY',
-           'd MMMM YYY',
-           'MMMM d YYY',
-           'MMMM d, YYY',
-           'dd.MM.YY']
+FORMATS = [
+    "short",
+    "medium",
+    "long",
+    "full",
+    "full",
+    "full",
+    "full",
+    "full",
+    "full",
+    "full",
+    "full",
+    "full",
+    "full",
+    "d MMM YYY",
+    "d MMMM YYY",
+    "dd MMM YYY",
+    "d MMM, YYY",
+    "d MMMM, YYY",
+    "dd, MMM YYY",
+    "d MM YY",
+    "d MMMM YYY",
+    "MMMM d YYY",
+    "MMMM d, YYY",
+    "dd.MM.YY",
+]
 
-LOCALES = ['en_US']
+LOCALES = ["en_US"]
 
 
 def load_date():
     dt = fake.date_object()
 
     try:
-        human_readable = format_date(dt, format=random.choice(FORMATS), locale='en_US')
+        human_readable = format_date(dt, format=random.choice(FORMATS), locale="en_US")
         human_readable = human_readable.lower()
-        human_readable = human_readable.replace(',', '')
+        human_readable = human_readable.replace(",", "")
         machine_readable = dt.isoformat()
 
     except AttributeError as e:
@@ -68,8 +70,9 @@ def load_dataset(m):
             human_vocab.update(tuple(h))
             machine_vocab.update(tuple(m))
 
-    human = dict(zip(sorted(human_vocab) + ['<unk>', '<pad>'],
-                     list(range(len(human_vocab) + 2))))
+    human = dict(
+        zip(sorted(human_vocab) + ["<unk>", "<pad>"], list(range(len(human_vocab) + 2)))
+    )
     inv_machine = dict(enumerate(sorted(machine_vocab)))
     machine = {v: k for k, v in inv_machine.items()}
 
@@ -82,23 +85,27 @@ def preprocess_data(dataset, human_vocab, machine_vocab, Tx, Ty):
     X = np.array([string_to_int(i, Tx, human_vocab) for i in X])
     Y = [string_to_int(t, Ty, machine_vocab) for t in Y]
 
-    Xoh = np.array(list(map(lambda x: to_categorical(x, num_classes=len(human_vocab)), X)))
-    Yoh = np.array(list(map(lambda x: to_categorical(x, num_classes=len(machine_vocab)), Y)))
+    Xoh = np.array(
+        list(map(lambda x: to_categorical(x, num_classes=len(human_vocab)), X))
+    )
+    Yoh = np.array(
+        list(map(lambda x: to_categorical(x, num_classes=len(machine_vocab)), Y))
+    )
 
     return X, np.array(Y), Xoh, Yoh
 
 
 def string_to_int(string, length, vocab):
     string = string.lower()
-    string = string.replace(',', '')
+    string = string.replace(",", "")
 
     if len(string) > length:
         string = string[:length]
 
-    rep = list(map(lambda x: vocab.get(x, '<unk>'), string))
+    rep = list(map(lambda x: vocab.get(x, "<unk>"), string))
 
     if len(string) < length:
-        rep += [vocab['<pad>']] * (length - len(string))
+        rep += [vocab["<pad>"]] * (length - len(string))
 
     return rep
 
@@ -108,7 +115,7 @@ def int_to_string(ints, inv_vocab):
     return l
 
 
-EXAMPLES = ['3 May 1979', '5 Apr 09', '20th February 2016', 'Wed 10 Jul 2007']
+EXAMPLES = ["3 May 1979", "5 Apr 09", "20th February 2016", "Wed 10 Jul 2007"]
 
 
 def run_example(model, input_vocabulary, inv_output_vocabulary, text):
@@ -121,9 +128,13 @@ def run_example(model, input_vocabulary, inv_output_vocabulary, text):
 def run_examples(model, input_vocabulary, inv_output_vocabulary, examples=EXAMPLES):
     predicted = []
     for example in examples:
-        predicted.append(''.join(run_example(model, input_vocabulary, inv_output_vocabulary, example)))
-        print('input:', example)
-        print('output:', predicted[-1])
+        predicted.append(
+            "".join(
+                run_example(model, input_vocabulary, inv_output_vocabulary, example)
+            )
+        )
+        print("input:", example)
+        print("output:", predicted[-1])
     return predicted
 
 
@@ -136,12 +147,14 @@ def softmax(x, axis=1):
         s = K.sum(e, axis=axis, keepdims=True)
         return e / s
     else:
-        raise ValueError('Cannot apply softmax to a tensor that is 1D')
+        raise ValueError("Cannot apply softmax to a tensor that is 1D")
 
 
-def plot_attention_map(modelx, input_vocabulary, inv_output_vocabulary, text, n_s=128, num=7):
+def plot_attention_map(
+    modelx, input_vocabulary, inv_output_vocabulary, text, n_s=128, num=7
+):
     attention_map = np.zeros((10, 30))
-    layer = modelx.get_layer('attention_weights')
+    layer = modelx.get_layer("attention_weights")
 
     Ty, Tx = attention_map.shape
 
@@ -173,7 +186,11 @@ def plot_attention_map(modelx, input_vocabulary, inv_output_vocabulary, text, n_
     s0 = np.zeros((1, n_s))
     c0 = np.zeros((1, n_s))
     encoded = np.array(string_to_int(text, Tx, input_vocabulary)).reshape((1, 30))
-    encoded = np.array(list(map(lambda x: to_categorical(x, num_classes=len(input_vocabulary)), encoded)))
+    encoded = np.array(
+        list(
+            map(lambda x: to_categorical(x, num_classes=len(input_vocabulary)), encoded)
+        )
+    )
 
     r = f([encoded, s0, c0])
 
@@ -201,10 +218,10 @@ def plot_attention_map(modelx, input_vocabulary, inv_output_vocabulary, text, n_
     f = plt.figure(figsize=(8, 8.5))
     ax = f.add_subplot(1, 1, 1)
 
-    i = ax.imshow(attention_map, interpolation='nearest', cmap='Blues')
+    i = ax.imshow(attention_map, interpolation="nearest", cmap="Blues")
 
     cbaxes = f.add_axes([0.2, 0, 0.6, 0.03])
-    cbar = f.colorbar(i, cax=cbaxes, orientation='horizontal')
+    cbar = f.colorbar(i, cax=cbaxes, orientation="horizontal")
     cbar.ax.set_xlabel('Alpha value (Probability output of the "softmax")', labelpad=2)
 
     ax.set_yticks(range(output_length))
@@ -213,8 +230,8 @@ def plot_attention_map(modelx, input_vocabulary, inv_output_vocabulary, text, n_
     ax.set_xticks(range(input_length))
     ax.set_xticklabels(text_[:input_length], rotation=45)
 
-    ax.set_xlabel('Input Sequence')
-    ax.set_ylabel('Output Sequence')
+    ax.set_xlabel("Input Sequence")
+    ax.set_ylabel("Output Sequence")
 
     ax.grid()
 

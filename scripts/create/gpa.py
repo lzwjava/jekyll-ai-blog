@@ -3,6 +3,7 @@ import subprocess
 import platform
 import sys
 
+
 def gpa():
     python_exec = sys.executable  # full path to current Python interpreter
 

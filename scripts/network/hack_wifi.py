@@ -9,17 +9,19 @@ import subprocess
 import sys
 import json
 
-TMP_DIR = 'tmp'
+TMP_DIR = "tmp"
+
 
 def load_wifi_data():
     """Load WiFi scan data from JSON file."""
-    filepath = os.path.join(TMP_DIR, 'wifi_list.json')
+    filepath = os.path.join(TMP_DIR, "wifi_list.json")
     if not os.path.exists(filepath):
         print(f"WiFi list file '{filepath}' not found.")
         sys.exit(1)
-    
-    with open(filepath, 'r') as f:
+
+    with open(filepath, "r") as f:
         return json.load(f)
+
 
 def display_networks(wifi_data):
     """Display available networks with indices."""
@@ -32,12 +34,14 @@ def display_networks(wifi_data):
         hidden = " (hidden)" if ssid == "--" else ""
         print(f"{i}. {ssid} | BSSID: {bssid} | Signal: {signal}%{active}{hidden}")
 
+
 def find_network(wifi_data, ssid_input):
     """Find network entry by SSID."""
     for entry in wifi_data:
         if entry["ssid"] == ssid_input:
             return entry
     return None
+
 
 def attempt_connect(bssid, password):
     """
@@ -56,11 +60,12 @@ def attempt_connect(bssid, password):
         print(f"Error attempting connect: {e}")
         return False
 
+
 def main():
     wifi_data = load_wifi_data()
     display_networks(wifi_data)
     ssid_input = input("\nEnter the SSID (or index number for selection): ").strip()
-    
+
     # If input is a number, select by index
     try:
         index = int(ssid_input) - 1
@@ -71,15 +76,15 @@ def main():
             ssid = ssid_input
     except ValueError:
         ssid = ssid_input
-    
+
     entry = find_network(wifi_data, ssid)
     if not entry:
         print("Network not found.")
         sys.exit(1)
-    
+
     bssid = entry["bssid"]
     print(f"Attempting to connect to '{ssid}' (BSSID: {bssid})...")
-    
+
     # For hidden networks, prompt for actual SSID if needed
     if ssid == "--":
         actual_ssid = input("Enter the actual SSID for this hidden network: ").strip()
@@ -87,27 +92,30 @@ def main():
             ssid = actual_ssid
         else:
             ssid = "HiddenNetwork"  # Default for filename
-    
+
     # Construct filename: replace spaces with _, add _passwords.txt
-    filename = ssid.replace(' ', '_').replace('--', 'Hidden') + '_passwords.txt'  # Handle hidden
+    filename = (
+        ssid.replace(" ", "_").replace("--", "Hidden") + "_passwords.txt"
+    )  # Handle hidden
     filepath = os.path.join(TMP_DIR, filename)
-    
+
     if not os.path.exists(filepath):
         print(f"Password file '{filename}' not found in {TMP_DIR}.")
         sys.exit(1)
-    
-    with open(filepath, 'r') as f:
+
+    with open(filepath, "r") as f:
         passwords = [line.strip() for line in f if line.strip()]
-    
+
     if not passwords:
         print("No passwords found in file.")
         sys.exit(1)
-    
+
     for pwd in passwords:
         if attempt_connect(bssid, pwd):
             break
     else:
         print("All passwords failed.")
+
 
 if __name__ == "__main__":
     main()

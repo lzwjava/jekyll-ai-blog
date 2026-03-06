@@ -21,7 +21,7 @@ OUTPUT_DIRECTORY = "tmp/pdfbooks/"
 # We derive the corresponding post path in each target language using the
 # filename pattern from scripts/translation/update_lang.py.
 ENGLISH_CANDIDATES = [
-    "original/2025-01-06-introduction-en.md",    
+    "original/2025-01-06-introduction-en.md",
     "original/2024-10-18-books-en.md",
     "original/2025-08-24-links-en.md",
     "original/2025-07-10-english-animation-en.md",
@@ -30,7 +30,7 @@ ENGLISH_CANDIDATES = [
     "original/2025-01-03-programming-en.md",
     "original/2025-01-17-investing-en.md",
     "original/2024-12-12-yin-wang-en.md",
-    "original/2023-05-10-answers-en.md"
+    "original/2023-05-10-answers-en.md",
 ]
 
 # Only build the three languages requested: English, Japanese, Chinese.
@@ -182,6 +182,7 @@ def combine_markdown(files: list[str]) -> str:
         md = re.sub(r"\\[a-zA-Z]+(\[[^\]]*\])?(\{[^}]*\})?", "", md)
 
         return md
+
     for file_path in files:
         with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
@@ -278,7 +279,9 @@ def build_pdf_for_language(lang: str, output_dir: str) -> None:
             tmp_file.write(body)
 
         # Build content PDF via pandoc (with TOC), and a separate LaTeX title page, then merge.
-        print(f"Converting to PDF ({language_display_name(lang)}): lzwjava-essays-{lang}.pdf")
+        print(
+            f"Converting to PDF ({language_display_name(lang)}): lzwjava-essays-{lang}.pdf"
+        )
         final_pdf_file = os.path.join(output_dir, f"lzwjava-essays-{lang}.pdf")
         content_pdf_file = os.path.join(tmpdir, f"content-{lang}.pdf")
         title_pdf_file = os.path.join(tmpdir, f"title-{lang}.pdf")
@@ -322,7 +325,7 @@ def build_pdf_for_language(lang: str, output_dir: str) -> None:
     except Exception as e:
         print(f"Error processing {lang}: {e}")
     finally:
-        if 'tmpdir' in locals() and os.path.isdir(tmpdir):
+        if "tmpdir" in locals() and os.path.isdir(tmpdir):
             shutil.rmtree(tmpdir, ignore_errors=True)
 
 

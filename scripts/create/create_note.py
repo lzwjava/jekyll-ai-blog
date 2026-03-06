@@ -13,6 +13,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".
 from scripts.content.fix_mathjax import fix_mathjax_in_file
 from scripts.content.fix_table import process_tables_in_file
 
+
 def check_uncommitted_changes() -> None:
     """Check if there are any uncommitted changes in the repository.
 
@@ -24,10 +25,14 @@ def check_uncommitted_changes() -> None:
         ).strip()
         result = subprocess.run(
             ["git", "-C", toplevel, "status", "--porcelain"],
-            capture_output=True, text=True, check=True
+            capture_output=True,
+            text=True,
+            check=True,
         )
         if result.stdout.strip():
-            print("[error] Uncommitted changes detected. Please commit or stash your changes before running this script.")
+            print(
+                "[error] Uncommitted changes detected. Please commit or stash your changes before running this script."
+            )
             raise RuntimeError("Uncommitted changes found")
     except subprocess.CalledProcessError as e:
         print(f"[error] Failed to check git status: {e}")
@@ -70,7 +75,9 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
         print(f"[warn] Unable to compute relative path for {abs_note_path}: {exc}")
         return
 
-    github_url = "https://github.com/lzwjava/blog-source/blob/main/" + rel_path.replace(os.sep, "/")
+    github_url = "https://github.com/lzwjava/blog-source/blob/main/" + rel_path.replace(
+        os.sep, "/"
+    )
 
     if sys.platform.startswith("darwin"):
         command = ["open", github_url]
@@ -93,11 +100,10 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
     except Exception as exc:  # pragma: no cover - defensive fallback
         print(f"[warn] Failed to open browser for {github_url}: {exc}")
 
+
 def parse_args():
     """Parse command line arguments"""
-    parser = argparse.ArgumentParser(
-        description="Create a note."
-    )
+    parser = argparse.ArgumentParser(description="Create a note.")
     parser.add_argument(
         "--random",
         action="store_true",
@@ -125,6 +131,7 @@ def parse_args():
     )
     return parser.parse_args()
 
+
 def generate_random_date():
     """Generate a random date within the last 180 days"""
     # Seed the random number generator with current timestamp for better randomness
@@ -136,7 +143,8 @@ def generate_random_date():
     random_days = random.randint(0, 180)
     random_date = start_date + timedelta(days=random_days)
 
-    return random_date.strftime('%Y-%m-%d')
+    return random_date.strftime("%Y-%m-%d")
+
 
 if __name__ == "__main__":
     # Check for uncommitted changes before proceeding

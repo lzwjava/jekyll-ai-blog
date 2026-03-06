@@ -15,8 +15,12 @@ from IPython.display import Audio
 from torchaudio.utils import download_asset
 
 SAMPLE_GSM = download_asset("tutorial-assets/steam-train-whistle-daniel_simon.gsm")
-SAMPLE_WAV = download_asset("tutorial-assets/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav")
-SAMPLE_WAV_8000 = download_asset("tutorial-assets/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042-8000hz.wav")
+SAMPLE_WAV = download_asset(
+    "tutorial-assets/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav"
+)
+SAMPLE_WAV_8000 = download_asset(
+    "tutorial-assets/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042-8000hz.wav"
+)
 
 print(SAMPLE_WAV)
 
@@ -46,7 +50,7 @@ with requests.get(url, stream=True) as response:
     metadata = torchaudio.info(response.raw)
     # metadata = torchaudio.info(_hide_seek(response.raw))
 
-print('hide_seek')
+print("hide_seek")
 print(metadata)
 
 waveform, sample_rate = torchaudio.load(SAMPLE_WAV)
@@ -72,9 +76,9 @@ def plot_waveform(waveform, sample_rate):
         axes[c].plot(time_axis, waveform[c], linewidth=1)
         axes[c].grid(True)
         if num_channels > 1:
-            axes[c].set_ylabel(f'Channel {c + 1}')
+            axes[c].set_ylabel(f"Channel {c + 1}")
 
-    figure.suptitle('waveform')
+    figure.suptitle("waveform")
     # plt.show()
 
 

@@ -67,7 +67,7 @@ def tanh(x, derivative=False):
     f = (np.exp(x_safe) - np.exp(-x_safe)) / (np.exp(x_safe) + np.exp(-x_safe))
 
     if derivative:
-        return 1 - f ** 2
+        return 1 - f**2
     else:
         return f
 
@@ -107,13 +107,13 @@ hidden_state = np.zeros((hidden_size, 1))
 
 outputs, hidden_states = forward_pass(test_input, hidden_state, params)
 
-print('Input sequence:')
+print("Input sequence:")
 print(test_input_sequence)
 
-print('\nTarget sequence:')
+print("\nTarget sequence:")
 print(test_target_sequence)
 
-print('\nPredicted sequence:')
+print("\nPredicted sequence:")
 print([idx_to_word[np.argmax(output)] for output in outputs])
 
 
@@ -173,7 +173,7 @@ def backward_pass(inputs, outputs, hidden_states, targets, params):
 
 loss, grads = backward_pass(test_input, outputs, hidden_states, test_target, params)
 
-print('We get a loss of:')
+print("We get a loss of:")
 print(loss)
 
 
@@ -205,7 +205,9 @@ for i in range(num_epochs):
 
         outputs, hidden_states = forward_pass(inputs_one_hot, hidden_state, params)
 
-        loss, _ = backward_pass(inputs_one_hot, outputs, hidden_states, targets_one_hot, params)
+        loss, _ = backward_pass(
+            inputs_one_hot, outputs, hidden_states, targets_one_hot, params
+        )
 
         epoch_validation_loss += loss
 
@@ -218,10 +220,12 @@ for i in range(num_epochs):
 
         outputs, hidden_states = forward_pass(inputs_one_hot, hidden_state, params)
 
-        loss, grads = backward_pass(inputs_one_hot, outputs, hidden_states, targets_one_hot, params)
+        loss, grads = backward_pass(
+            inputs_one_hot, outputs, hidden_states, targets_one_hot, params
+        )
 
         if np.isnan(loss):
-            raise ValueError('Gradients have vanished!')
+            raise ValueError("Gradients have vanished!")
 
         params = update_parameters(params, grads, lr=3e-4)
 
@@ -231,7 +235,9 @@ for i in range(num_epochs):
     validation_loss.append(epoch_validation_loss / len(validation_set))
 
     if i % 100 == 0:
-        print(f'Epoch {i}, training loss: {training_loss[-1]}, validation loss: {validation_loss[-1]}')
+        print(
+            f"Epoch {i}, training loss: {training_loss[-1]}, validation loss: {validation_loss[-1]}"
+        )
 
 inputs, targets = test_set[1]
 
@@ -242,26 +248,31 @@ hidden_state = np.zeros((hidden_size, 1))
 
 outputs, hidden_states = forward_pass(inputs_one_hot, hidden_state, params)
 output_sentence = [idx_to_word[np.argmax(output)] for output in outputs]
-print('Input sentence:')
+print("Input sentence:")
 print(inputs)
 
-print('\nTarget sequence:')
+print("\nTarget sequence:")
 print(targets)
 
-print('\nPredicted sequence:')
+print("\nPredicted sequence:")
 print([idx_to_word[np.argmax(output)] for output in outputs])
 
 epoch = np.arange(len(training_loss))
 plt.figure()
-plt.plot(epoch, training_loss, 'r', label='Training loss', )
-plt.plot(epoch, validation_loss, 'b', label='Validation loss')
+plt.plot(
+    epoch,
+    training_loss,
+    "r",
+    label="Training loss",
+)
+plt.plot(epoch, validation_loss, "b", label="Validation loss")
 plt.legend()
-plt.xlabel('Epoch'), plt.ylabel('NLL')
+plt.xlabel("Epoch"), plt.ylabel("NLL")
 plt.show()
 
 
-def freestyle(params, sentence='', num_generate=4):
-    sentence = sentence.split(' ')
+def freestyle(params, sentence="", num_generate=4):
+    sentence = sentence.split(" ")
 
     sentence_one_hot = one_hot_encode_sequence(sentence, vocab_size)
 
@@ -289,5 +300,5 @@ def freestyle(params, sentence='', num_generate=4):
     return output_sentence
 
 
-print('Example:')
-print(freestyle(params, sentence='a a a a a b'))
+print("Example:")
+print(freestyle(params, sentence="a a a a a b"))

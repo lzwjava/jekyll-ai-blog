@@ -96,16 +96,23 @@ def main():
                 message = user_input[4:].strip()
                 if message:
                     if sessions[current_session]["status"] == "busy":
-                        print(f"Session {current_session} is currently busy. Try again later.")
+                        print(
+                            f"Session {current_session} is currently busy. Try again later."
+                        )
                     else:
                         sessions[current_session]["history"].append(
                             {"role": "user", "content": message}
                         )
                         sessions[current_session]["status"] = "busy"
-                        print(f"Sending message to AI for session {current_session} in background...")
+                        print(
+                            f"Sending message to AI for session {current_session} in background..."
+                        )
                         thread = threading.Thread(
                             target=call_api_in_background,
-                            args=(current_session, sessions[current_session]["history"])
+                            args=(
+                                current_session,
+                                sessions[current_session]["history"],
+                            ),
                         )
                         thread.daemon = True
                         thread.start()

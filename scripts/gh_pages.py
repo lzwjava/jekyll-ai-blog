@@ -109,10 +109,12 @@ def push_with_rebase() -> None:
 
 def commit_notes_link_changes(push: bool) -> None:
     """Stage and commit note link changes."""
-    stage_paths([
-        "original/2025-01-11-notes-en.md",
-        "_posts/en/*.md",
-    ])
+    stage_paths(
+        [
+            "original/2025-01-11-notes-en.md",
+            "_posts/en/*.md",
+        ]
+    )
     if not commit_changes("chore(notes): Update notes links"):
         print("No staged notes link changes; nothing to commit.")
         return
@@ -129,12 +131,20 @@ def parse_total_posts(output: str) -> int | None:
 def update_language_files(push: bool) -> None:
     """Run the translation updater with batching logic from CI."""
     dry_run = run_command(
-        [PYTHON, "scripts/translation/update_lang.py", "--commits", "1000", "--dry_run"],
+        [
+            PYTHON,
+            "scripts/translation/update_lang.py",
+            "--commits",
+            "1000",
+            "--dry_run",
+        ],
         capture_output=True,
     )
     total_posts = parse_total_posts(dry_run.stdout or "")
     if total_posts is None:
-        print("Unable to determine total posts from translation dry run.", file=sys.stderr)
+        print(
+            "Unable to determine total posts from translation dry run.", file=sys.stderr
+        )
         return
     if total_posts == 0:
         print("No language files to update.")

@@ -57,7 +57,9 @@ test_cofi_cost_func(cofi_cost_func)
 
 def cofi_cost_func_v(X, W, b, Y, R, lambda_):
     j = (tf.linalg.matmul(X, tf.transpose(W)) + b - Y) * R
-    J = 0.5 * tf.reduce_sum(j ** 2) + (lambda_ / 2) * (tf.reduce_sum(X ** 2) + tf.reduce_sum(W ** 2))
+    J = 0.5 * tf.reduce_sum(j**2) + (lambda_ / 2) * (
+        tf.reduce_sum(X**2) + tf.reduce_sum(W**2)
+    )
     return J
 
 
@@ -88,7 +90,7 @@ my_ratings[2937] = 1
 my_ratings[793] = 5
 my_rated = [i for i in range(len(my_ratings)) if my_ratings[i] > 0]
 
-print('\nNew user ratings:\n')
+print("\nNew user ratings:\n")
 for i in range(len(my_ratings)):
     if my_ratings[i] > 0:
         print(f'Rated {my_ratings[i]} for  {movieList_df.loc[i, "title"]}')
@@ -105,9 +107,11 @@ num_movies, num_users = Y.shape
 num_features = 100
 
 tf.random.set_seed(1234)
-W = tf.Variable(tf.random.normal((num_users, num_features), dtype=tf.float64), name='W')
-X = tf.Variable(tf.random.normal((num_movies, num_features), dtype=tf.float64), name='X')
-b = tf.Variable(tf.random.normal((1, num_users), dtype=tf.float64), name='b')
+W = tf.Variable(tf.random.normal((num_users, num_features), dtype=tf.float64), name="W")
+X = tf.Variable(
+    tf.random.normal((num_movies, num_features), dtype=tf.float64), name="X"
+)
+b = tf.Variable(tf.random.normal((1, num_users), dtype=tf.float64), name="b")
 
 optimizer = keras.optimizers.Adam(learning_rate=1e-1)
 
@@ -132,19 +136,23 @@ pm = p + Ymean
 
 my_predictions = pm[:, 0]
 
-ix = tf.argsort(my_predictions, direction='DESCENDING')
+ix = tf.argsort(my_predictions, direction="DESCENDING")
 
 for i in range(17):
     j = ix[i]
     if j not in my_rated:
-        print(f'Predicting rating {my_predictions[j]:0.2f} for movie {movieList[j]}')
+        print(f"Predicting rating {my_predictions[j]:0.2f} for movie {movieList[j]}")
 
-print('\n\nOriginal vs Predicted ratings:\n')
+print("\n\nOriginal vs Predicted ratings:\n")
 for i in range(len(my_ratings)):
     if my_ratings[i] > 0:
-        print(f'Original {my_ratings[i]}, Predicted {my_predictions[i]:0.2f} for {movieList[i]}')
+        print(
+            f"Original {my_ratings[i]}, Predicted {my_predictions[i]:0.2f} for {movieList[i]}"
+        )
 
-filter = (movieList_df["number of ratings"] > 20)
+filter = movieList_df["number of ratings"] > 20
 movieList_df["pred"] = my_predictions
-movieList_df = movieList_df.reindex(columns=["pred", "mean rating", "number of ratings", "title"])
+movieList_df = movieList_df.reindex(
+    columns=["pred", "mean rating", "number of ratings", "title"]
+)
 movieList_df.loc[ix[:300]].loc[filter].sort_values("mean rating", ascending=False)

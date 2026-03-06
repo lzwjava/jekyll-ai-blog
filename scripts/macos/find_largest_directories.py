@@ -11,19 +11,23 @@ import argparse
 import time
 from pathlib import Path
 
+
 def run_command(cmd):
     """Run a command and return its output, or None if it fails."""
     try:
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=30)
+        result = subprocess.run(
+            cmd, shell=True, capture_output=True, text=True, timeout=30
+        )
         return result.stdout if result.returncode == 0 else None
     except Exception:
         return None
+
 
 def get_directory_size_kb(directory_path):
     """Get directory size in KB using du command."""
     try:
         # Use du -sk to get size in KB (1024-byte blocks)
-        cmd = f"du -sk \"{directory_path}\""
+        cmd = f'du -sk "{directory_path}"'
         result = run_command(cmd)
         if result:
             size_kb = int(result.split()[0])
@@ -31,6 +35,7 @@ def get_directory_size_kb(directory_path):
         return 0
     except (ValueError, AttributeError):
         return 0
+
 
 def format_size(size_kb):
     """Format size from KB to human readable format."""
@@ -42,6 +47,7 @@ def format_size(size_kb):
         return f"{mb:.0f} MB"
     else:  # KB
         return f"{size_kb} KB"
+
 
 def find_large_directories(base_path, min_size_kb=1024):  # 1MB = 1024 KB
     """Find directories larger than min_size_kb in the immediate subdirectory level."""
@@ -64,14 +70,18 @@ def find_large_directories(base_path, min_size_kb=1024):  # 1MB = 1024 KB
                 processed += 1
                 # Show progress every 10 directories or for slow operations
                 if processed % 10 == 0 or processed == total_dirs:
-                    print(f"   • Scanned {processed}/{total_dirs} directories... ({processed*100//total_dirs}%)", end='\r', flush=True)
+                    print(
+                        f"   • Scanned {processed}/{total_dirs} directories... ({processed*100//total_dirs}%)",
+                        end="\r",
+                        flush=True,
+                    )
 
                 size_kb = get_directory_size_kb(str(item))
                 if size_kb >= min_size_kb:
                     large_dirs.append((item.name, size_kb))
 
         # Clear progress line
-        print("   " * 50, end='\r')
+        print("   " * 50, end="\r")
 
     except (OSError, PermissionError) as e:
         print(f"❌ Error accessing directory {base_path}: {e}")
@@ -81,15 +91,21 @@ def find_large_directories(base_path, min_size_kb=1024):  # 1MB = 1024 KB
     large_dirs.sort(key=lambda x: x[1], reverse=True)
     return large_dirs
 
+
 def main():
     parser = argparse.ArgumentParser(
-        description='Find directories larger than specified size in MB (default 1MB)',
-        usage='python find_largest_directories.py [--mb SIZE_MB] [directory_path]'
+        description="Find directories larger than specified size in MB (default 1MB)",
+        usage="python find_largest_directories.py [--mb SIZE_MB] [directory_path]",
     )
-    parser.add_argument('--mb', type=int, default=1,
-                       help='Minimum directory size in MB (default: 1)')
-    parser.add_argument('directory_path', nargs='?', default='.',
-                       help='Directory path to scan (default: current directory)')
+    parser.add_argument(
+        "--mb", type=int, default=1, help="Minimum directory size in MB (default: 1)"
+    )
+    parser.add_argument(
+        "directory_path",
+        nargs="?",
+        default=".",
+        help="Directory path to scan (default: current directory)",
+    )
 
     args = parser.parse_args()
 
@@ -117,12 +133,16 @@ def main():
     large_dirs = find_large_directories(resolved_path, min_size_kb)
 
     if not large_dirs:
-        print(f"ℹ️  No directories larger than {args.mb} MB found in the immediate subdirectory level.")
+        print(
+            f"ℹ️  No directories larger than {args.mb} MB found in the immediate subdirectory level."
+        )
         print()
         print("💡 Tips:")
         print("   • This script only checks one subdirectory level (not recursive)")
         print("   • Use 'du -h .' to see all directory sizes in the current path")
-        print("   • Use 'find . -maxdepth 2 -type d -exec du -sh {} \\;' for recursive search")
+        print(
+            "   • Use 'find . -maxdepth 2 -type d -exec du -sh {} \\;' for recursive search"
+        )
         return
 
     print("📂 Large directories found:")
@@ -136,7 +156,8 @@ def main():
     print(f"Total: {len(large_dirs)} directory(ies) larger than {args.mb} MB")
     print()
     print("💻 For more details on a specific directory:")
-    print(f"   du -sh \"{resolved_path}/<directory_name>\"")
+    print(f'   du -sh "{resolved_path}/<directory_name>"')
+
 
 if __name__ == "__main__":
     main()

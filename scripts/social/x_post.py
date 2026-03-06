@@ -9,7 +9,7 @@ import concurrent.futures
 import random
 
 # Add the scripts directory to the path to import openrouter_client
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'llm'))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "llm"))
 from openrouter_client import call_openrouter_api_with_messages, MODEL_MAPPING
 
 load_dotenv()
@@ -26,11 +26,11 @@ def generate_x_posts(text):
     print(f"  Generating X post(s): {text[:50]}...")
     prompt = create_x_post_prompt()
     print(f"  Prompt: {prompt}")
-    
+
     # Randomly select a model from all available models
     selected_model = random.choice(list(MODEL_MAPPING.keys()))
     print(f"  Using model: {selected_model}")
-    
+
     try:
         messages = [
             {"role": "system", "content": prompt},
@@ -45,7 +45,10 @@ def generate_x_posts(text):
             return None
     except Exception as e:
         print(f"  X post(s) generation failed with error: {e}")
-        if "This model's maximum context length is" in str(e) or "context length" in str(e).lower():
+        if (
+            "This model's maximum context length is" in str(e)
+            or "context length" in str(e).lower()
+        ):
             print(f"  Skipping X post(s) generation due to context length error.")
             return None
         return None

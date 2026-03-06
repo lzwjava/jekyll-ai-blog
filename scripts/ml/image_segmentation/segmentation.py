@@ -18,9 +18,9 @@ import imageio
 
 import matplotlib.pyplot as plt
 
-path = ''
-image_path = os.path.join(path, './data/CameraRGB/')
-mask_path = os.path.join(path, './data/CameraMask/')
+path = ""
+image_path = os.path.join(path, "./data/CameraRGB/")
+mask_path = os.path.join(path, "./data/CameraMask/")
 image_list_orig = os.listdir(image_path)
 image_list = [image_path + i for i in image_list_orig]
 mask_list = [mask_path + i for i in image_list_orig]
@@ -31,9 +31,9 @@ mask = imageio.imread(mask_list[N])
 
 fig, arr = plt.subplots(1, 2, figsize=(14, 10))
 arr[0].imshow(img)
-arr[0].set_title('Image')
+arr[0].set_title("Image")
 arr[1].imshow(mask[:, :, 0])
-arr[1].set_title('Segmentation')
+arr[1].set_title("Segmentation")
 
 image_list_ds = tf.data.Dataset.list_files(image_list, shuffle=False)
 mask_list_ds = tf.data.Dataset.list_files(mask_list, shuffle=False)
@@ -63,8 +63,8 @@ def process_path(image_path, mask_path):
 
 
 def preprocess(image, mask):
-    input_image = tf.image.resize(image, (96, 128), method='nearest')
-    input_mask = tf.image.resize(mask, (96, 128), method='nearest')
+    input_image = tf.image.resize(image, (96, 128), method="nearest")
+    input_mask = tf.image.resize(mask, (96, 128), method="nearest")
 
     return input_image, input_mask
 
@@ -74,16 +74,12 @@ processed_image_ds = image_ds.map(preprocess)
 
 
 def conv_block(inputs=None, n_filters=32, dropout_prob=0, max_pooling=True):
-    conv = Conv2D(n_filters,
-                  3,
-                  activation='relu',
-                  padding='same',
-                  kernel_initializer='he_normal')(inputs)
-    conv = Conv2D(n_filters,
-                  3,
-                  activation='relu',
-                  padding='same',
-                  kernel_initializer='he_normal')(conv)
+    conv = Conv2D(
+        n_filters, 3, activation="relu", padding="same", kernel_initializer="he_normal"
+    )(inputs)
+    conv = Conv2D(
+        n_filters, 3, activation="relu", padding="same", kernel_initializer="he_normal"
+    )(conv)
 
     if dropout_prob > 0:
         conv = Dropout(dropout_prob)(conv)
@@ -104,12 +100,14 @@ inputs = Input(input_size)
 cblock1 = conv_block(inputs, n_filters * 1)
 model1 = tf.keras.Model(inputs=inputs, outputs=cblock1)
 
-output1 = [['InputLayer', [(None, 96, 128, 3)], 0],
-           ['Conv2D', (None, 96, 128, 32), 896, 'same', 'relu', 'HeNormal'],
-           ['Conv2D', (None, 96, 128, 32), 9248, 'same', 'relu', 'HeNormal'],
-           ['MaxPooling2D', (None, 48, 64, 32), 0, (2, 2)]]
+output1 = [
+    ["InputLayer", [(None, 96, 128, 3)], 0],
+    ["Conv2D", (None, 96, 128, 32), 896, "same", "relu", "HeNormal"],
+    ["Conv2D", (None, 96, 128, 32), 9248, "same", "relu", "HeNormal"],
+    ["MaxPooling2D", (None, 48, 64, 32), 0, (2, 2)],
+]
 
-print('Block 1:')
+print("Block 1:")
 for layer in summary(model1):
     print(layer)
 
@@ -119,13 +117,15 @@ inputs = Input(input_size)
 cblock1 = conv_block(inputs, n_filters * 32, dropout_prob=0.1, max_pooling=True)
 model2 = tf.keras.Model(inputs=inputs, outputs=cblock1)
 
-output2 = [['InputLayer', [(None, 96, 128, 3)], 0],
-           ['Conv2D', (None, 96, 128, 1024), 28672, 'same', 'relu', 'HeNormal'],
-           ['Conv2D', (None, 96, 128, 1024), 9438208, 'same', 'relu', 'HeNormal'],
-           ['Dropout', (None, 96, 128, 1024), 0, 0.1],
-           ['MaxPooling2D', (None, 48, 64, 1024), 0, (2, 2)]]
+output2 = [
+    ["InputLayer", [(None, 96, 128, 3)], 0],
+    ["Conv2D", (None, 96, 128, 1024), 28672, "same", "relu", "HeNormal"],
+    ["Conv2D", (None, 96, 128, 1024), 9438208, "same", "relu", "HeNormal"],
+    ["Dropout", (None, 96, 128, 1024), 0, 0.1],
+    ["MaxPooling2D", (None, 48, 64, 1024), 0, (2, 2)],
+]
 
-print('\nBlock 2:')
+print("\nBlock 2:")
 for layer in summary(model2):
     print(layer)
 
@@ -133,23 +133,15 @@ comparator(summary(model2), output2)
 
 
 def upsampling_block(expansive_input, contractive_input, n_filters=32):
-    up = Conv2DTranspose(
-        n_filters,
-        3,
-        strides=(2, 2),
-        padding='same')(expansive_input)
+    up = Conv2DTranspose(n_filters, 3, strides=(2, 2), padding="same")(expansive_input)
 
     merge = concatenate([up, contractive_input], axis=3)
-    conv = Conv2D(n_filters,
-                  3,
-                  activation='relu',
-                  padding='same',
-                  kernel_initializer='he_normal')(merge)
-    conv = Conv2D(n_filters,
-                  3,
-                  activation='relu',
-                  padding='same',
-                  kernel_initializer='he_normal')(conv)
+    conv = Conv2D(
+        n_filters, 3, activation="relu", padding="same", kernel_initializer="he_normal"
+    )(merge)
+    conv = Conv2D(
+        n_filters, 3, activation="relu", padding="same", kernel_initializer="he_normal"
+    )(conv)
 
     return conv
 
@@ -162,14 +154,16 @@ contractive_inputs = Input(input_size2)
 cblock1 = upsampling_block(expansive_inputs, contractive_inputs, n_filters * 1)
 model1 = tf.keras.Model(inputs=[expansive_inputs, contractive_inputs], outputs=cblock1)
 
-output1 = [['InputLayer', [(None, 12, 16, 256)], 0],
-           ['Conv2DTranspose', (None, 24, 32, 32), 73760],
-           ['InputLayer', [(None, 24, 32, 128)], 0],
-           ['Concatenate', (None, 24, 32, 160), 0],
-           ['Conv2D', (None, 24, 32, 32), 46112, 'same', 'relu', 'HeNormal'],
-           ['Conv2D', (None, 24, 32, 32), 9248, 'same', 'relu', 'HeNormal']]
+output1 = [
+    ["InputLayer", [(None, 12, 16, 256)], 0],
+    ["Conv2DTranspose", (None, 24, 32, 32), 73760],
+    ["InputLayer", [(None, 24, 32, 128)], 0],
+    ["Concatenate", (None, 24, 32, 160), 0],
+    ["Conv2D", (None, 24, 32, 32), 46112, "same", "relu", "HeNormal"],
+    ["Conv2D", (None, 24, 32, 32), 9248, "same", "relu", "HeNormal"],
+]
 
-print('Block 1:')
+print("Block 1:")
 for layer in summary(model1):
     print(layer)
 
@@ -183,16 +177,20 @@ def unet_model(input_size=(96, 128, 3), n_filters=32, n_classes=23):
     cblock2, skip2 = conv_block(cblock1, n_filters * 2)
     cblock3, skip3 = conv_block(cblock2, n_filters * 4)
     cblock4, skip4 = conv_block(cblock3, n_filters * 8, dropout_prob=0.3)
-    cblock5, _ = conv_block(cblock4, n_filters * 16, dropout_prob=0.3, max_pooling=False)
+    cblock5, _ = conv_block(
+        cblock4, n_filters * 16, dropout_prob=0.3, max_pooling=False
+    )
 
     ublock6 = upsampling_block(cblock5, skip4, n_filters * 8)
     ublock7 = upsampling_block(ublock6, skip3, n_filters * 4)
     ublock8 = upsampling_block(ublock7, skip2, n_filters * 2)
     ublock9 = upsampling_block(ublock8, skip1, n_filters)
 
-    conv9 = Conv2D(n_filters, 3, activation='relu', padding='same', kernel_initializer='he_normal')(ublock9)
+    conv9 = Conv2D(
+        n_filters, 3, activation="relu", padding="same", kernel_initializer="he_normal"
+    )(ublock9)
 
-    conv10 = Conv2D(n_classes, 1, padding='same')(conv9)
+    conv10 = Conv2D(n_classes, 1, padding="same")(conv9)
 
     model = tf.keras.Model(inputs=inputs, outputs=conv10)
 
@@ -216,21 +214,23 @@ unet = unet_model((img_height, img_width, num_channels))
 
 unet.summary()
 
-unet.compile(optimizer='adam',
-             loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-             metrics=['accuracy'])
+unet.compile(
+    optimizer="adam",
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+    metrics=["accuracy"],
+)
 
 
 def display(display_list):
     plt.figure(figsize=(15, 15))
 
-    title = ['Input Image', 'True Mask', 'Predicted Mask']
+    title = ["Input Image", "True Mask", "Predicted Mask"]
 
     for i in range(len(display_list)):
         plt.subplot(1, len(display_list), i + 1)
         plt.title(title[i])
         plt.imshow(tf.keras.preprocessing.image.array_to_img(display_list[i]))
-        plt.axis('off')
+        plt.axis("off")
     plt.show()
 
 
@@ -262,8 +262,13 @@ def show_predictions(dataset=None, num=1):
             pred_mask = unet.predict(image)
             display([image[0], mask[0], create_mask(pred_mask)])
     else:
-        display([sample_image, sample_mask,
-                 create_mask(unet.predict(sample_image[tf.newaxis, ...]))])
+        display(
+            [
+                sample_image,
+                sample_mask,
+                create_mask(unet.predict(sample_image[tf.newaxis, ...])),
+            ]
+        )
 
 
 show_predictions(train_dataset, 6)

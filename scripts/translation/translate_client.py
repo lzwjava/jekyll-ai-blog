@@ -1,10 +1,14 @@
 import argparse
 import os
 import sys
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from scripts.llm.openrouter_client import call_openrouter_api
-from scripts.translation.translate_utils import validate_translated_languages, detect_language_with_langid
+from scripts.translation.translate_utils import (
+    validate_translated_languages,
+    detect_language_with_langid,
+)
 from scripts.translation.translate_validate_utils import (
     validate_length,
     clean_response,
@@ -24,7 +28,7 @@ LANGUAGE_MAP = {
     "hant": "Traditional Chinese (Hong Kong)",
     "en": "English",
     "de": "German",
-    "ar": "Arabic"
+    "ar": "Arabic",
 }
 
 LANGUAGE_MODEL_MAP = {
@@ -36,11 +40,13 @@ LANGUAGE_MODEL_MAP = {
     "hi": "mistral-medium",
     "fr": "mistral-medium",
     "de": "mistral-medium",
-    "ar": "mistral-medium"
+    "ar": "mistral-medium",
 }
 
 
-def get_language_specific_preamble(target_language: str, kind: str, original_text: str = "") -> str:
+def get_language_specific_preamble(
+    target_language: str, kind: str, original_text: str = ""
+) -> str:
     """Return additional translation instructions for specific languages.
 
     Only includes Chinese-specific rules if the original text contains matching terms.
@@ -126,7 +132,9 @@ TRANSLATION RULES:
         return tpl
 
 
-def run_translate(text, target, kind, model, front_matter, orig_lang, need_en, source_file=None):
+def run_translate(
+    text, target, kind, model, front_matter, orig_lang, need_en, source_file=None
+):
     validate_length(text)
     if target == orig_lang:
         return text
@@ -138,7 +146,7 @@ def run_translate(text, target, kind, model, front_matter, orig_lang, need_en, s
     check_commentary(translated)
     if kind == "title":
         check_title_strict(translated, target)
-    
+
     # Fix markdown table formatting for content translations
     if kind == "content":
         translated = check_markdown_table_formatting(translated)
@@ -151,10 +159,22 @@ def run_translate(text, target, kind, model, front_matter, orig_lang, need_en, s
         detected = detect_language_with_langid(translated)
     except Exception as e:
         detected = []
-    validate_translated_languages(translated, target, require_english=need_en, source_file=source_file)
+    validate_translated_languages(
+        translated, target, require_english=need_en, source_file=source_file
+    )
     return translated
 
-def translate_text(text, target_language, type="content", model="deepseek-v3.2", front_matter_prompt=None, original_lang=None, front_matter=None, source_file=None):
+
+def translate_text(
+    text,
+    target_language,
+    type="content",
+    model="deepseek-v3.2",
+    front_matter_prompt=None,
+    original_lang=None,
+    front_matter=None,
+    source_file=None,
+):
     """Wrapper function for markdown_translate_client.py compatibility"""
     kind = type  # Map 'type' parameter to 'kind' parameter used in run_translate
     orig_lang = original_lang if original_lang else "en"
@@ -166,8 +186,9 @@ def translate_text(text, target_language, type="content", model="deepseek-v3.2",
         front_matter=front_matter_prompt or front_matter,
         orig_lang=orig_lang,
         need_en=False,
-        source_file=source_file
+        source_file=source_file,
     )
+
 
 def cli_translate():
     parser = argparse.ArgumentParser()
@@ -187,9 +208,10 @@ def cli_translate():
         model=args.model,
         front_matter_prompt=args.front_matter,
         original_lang=args.original_lang,
-        front_matter=args.original_lang
+        front_matter=args.original_lang,
     )
     print(translated)
+
 
 if __name__ == "__main__":
     cli_translate()

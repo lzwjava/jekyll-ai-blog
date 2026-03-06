@@ -4,8 +4,8 @@ import emoji
 import matplotlib.pyplot as plt
 from test_utils import *
 
-X_train, Y_train = read_csv('data/train_emoji.csv')
-X_test, Y_test = read_csv('data/tesss.csv')
+X_train, Y_train = read_csv("data/train_emoji.csv")
+X_test, Y_test = read_csv("data/tesss.csv")
 
 maxLen = len(max(X_train, key=lambda x: len(x.split())).split())
 
@@ -16,10 +16,12 @@ Y_oh_train = convert_to_one_hot(Y_train, C=5)
 Y_oh_test = convert_to_one_hot(Y_test, C=5)
 
 idx = 50
-print(f"Sentence '{X_train[idx]}' has label index {Y_train[idx]}, which is emoji {label_to_emoji(Y_train[idx])}", )
+print(
+    f"Sentence '{X_train[idx]}' has label index {Y_train[idx]}, which is emoji {label_to_emoji(Y_train[idx])}",
+)
 print(f"Label index {Y_train[idx]} in one-hot encoding format is {Y_oh_train[idx]}")
 
-word_to_index, index_to_word, word_to_vec_map = read_glove_vecs('data/glove.6B.50d.txt')
+word_to_index, index_to_word, word_to_vec_map = read_glove_vecs("data/glove.6B.50d.txt")
 
 word = "cucumber"
 idx = 289846
@@ -30,7 +32,7 @@ print("the", str(idx) + "th word in the vocabulary is", index_to_word[idx])
 def sentence_to_avg(sentence, word_to_vec_map):
     any_word = list(word_to_vec_map.keys())[0]
 
-    words = sentence.lower().split(' ')
+    words = sentence.lower().split(" ")
 
     avg = np.zeros(word_to_vec_map[any_word].shape)
 
@@ -54,21 +56,36 @@ print("avg = \n", avg)
 
 
 def sentence_to_avg_test(target):
-    word_to_vec_map = {'a': [3, 3], 'synonym_of_a': [3, 3], 'a_nw': [2, 4], 'a_s': [3, 2],
-                       'c': [-2, 1], 'c_n': [-2, 2], 'c_ne': [-1, 2], 'c_e': [-1, 1], 'c_se': [-1, 0],
-                       'c_s': [-2, 0], 'c_sw': [-3, 0], 'c_w': [-3, 1], 'c_nw': [-3, 2]
-                       }
+    word_to_vec_map = {
+        "a": [3, 3],
+        "synonym_of_a": [3, 3],
+        "a_nw": [2, 4],
+        "a_s": [3, 2],
+        "c": [-2, 1],
+        "c_n": [-2, 2],
+        "c_ne": [-1, 2],
+        "c_e": [-1, 1],
+        "c_se": [-1, 0],
+        "c_s": [-2, 0],
+        "c_sw": [-3, 0],
+        "c_w": [-3, 1],
+        "c_nw": [-3, 2],
+    }
 
     for key in word_to_vec_map.keys():
         word_to_vec_map[key] = np.array(word_to_vec_map[key])
 
     avg = target("a a_nw c_w a_s", word_to_vec_map)
-    assert tuple(avg.shape) == tuple(word_to_vec_map['a'].shape), "Check the shape of your avg array"
+    assert tuple(avg.shape) == tuple(
+        word_to_vec_map["a"].shape
+    ), "Check the shape of your avg array"
     assert np.allclose(avg, [1.25, 2.5]), "Check that you are finding the 4 words"
     avg = target("love a a_nw c_w a_s", word_to_vec_map)
     assert np.allclose(avg, [1.25, 2.5]), "Divide by count, not len(words)"
     avg = target("love", word_to_vec_map)
-    assert np.array_equal(avg, [0, 0]), "Average of no words must give an array of zeros"
+    assert np.array_equal(
+        avg, [0, 0]
+    ), "Average of no words must give an array of zeros"
     avg = target("c_se foo a a_nw c_w a_s deeplearning c_nw", word_to_vec_map)
     assert np.allclose(avg, [0.1666667, 2.0]), "Debug the last example"
 
@@ -102,7 +119,7 @@ def model(X, Y, word_to_vec_map, learning_rate=0.01, num_iterations=100):
             z = np.dot(W, avg) + b
             a = softmax(z)
 
-            cost += - np.sum(np.dot(Y_oh, np.log(a)))
+            cost += -np.sum(np.dot(Y_oh, np.log(a)))
 
             dz = a - Y_oh[i]
             dW += np.dot(dz.reshape(n_y, 1), avg.reshape(1, n_h))
@@ -122,18 +139,42 @@ def model(X, Y, word_to_vec_map, learning_rate=0.01, num_iterations=100):
 
 
 def model_test(target):
-    word_to_vec_map = {'a': [3, 3], 'synonym_of_a': [3, 3], 'a_nw': [2, 4], 'a_s': [3, 2], 'a_n': [3, 4],
-                       'c': [-2, 1], 'c_n': [-2, 2], 'c_ne': [-1, 2], 'c_e': [-1, 1], 'c_se': [-1, 0],
-                       'c_s': [-2, 0], 'c_sw': [-3, 0], 'c_w': [-3, 1], 'c_nw': [-3, 2]
-                       }
+    word_to_vec_map = {
+        "a": [3, 3],
+        "synonym_of_a": [3, 3],
+        "a_nw": [2, 4],
+        "a_s": [3, 2],
+        "a_n": [3, 4],
+        "c": [-2, 1],
+        "c_n": [-2, 2],
+        "c_ne": [-1, 2],
+        "c_e": [-1, 1],
+        "c_se": [-1, 0],
+        "c_s": [-2, 0],
+        "c_sw": [-3, 0],
+        "c_w": [-3, 1],
+        "c_nw": [-3, 2],
+    }
 
     for key in word_to_vec_map.keys():
         word_to_vec_map[key] = np.array(word_to_vec_map[key])
 
     X = np.asarray(
-        ['a a_s synonym_of_a a_n c_sw', 'a a_s a_n c_sw', 'a_s  a a_n', 'synonym_of_a a a_s a_n c_sw', " a_s a_n",
-         " a a_s a_n c ", " a_n  a c c c_e",
-         'c c_nw c_n c c_ne', 'c_e c c_se c_s', 'c_nw c a_s c_e c_e', 'c_e a_nw c_sw', 'c_sw c c_ne c_ne'])
+        [
+            "a a_s synonym_of_a a_n c_sw",
+            "a a_s a_n c_sw",
+            "a_s  a a_n",
+            "synonym_of_a a a_s a_n c_sw",
+            " a_s a_n",
+            " a a_s a_n c ",
+            " a_n  a c c c_e",
+            "c c_nw c_n c c_ne",
+            "c_e c c_se c_s",
+            "c_nw c a_s c_e c_e",
+            "c_e a_nw c_sw",
+            "c_sw c c_ne c_ne",
+        ]
+    )
 
     Y = np.asarray([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1])
 
@@ -154,18 +195,46 @@ pred, W, b = model(X_train, Y_train, word_to_vec_map)
 
 print("Training set:")
 pred_train = predict(X_train, Y_train, W, b, word_to_vec_map)
-print('Test set:')
+print("Test set:")
 pred_test = predict(X_test, Y_test, W, b, word_to_vec_map)
 
 X_my_sentences = np.array(
-    ["i treasure you", "i love you", "funny lol", "lets play with a ball", "food is ready", "today is not good"])
+    [
+        "i treasure you",
+        "i love you",
+        "funny lol",
+        "lets play with a ball",
+        "food is ready",
+        "today is not good",
+    ]
+)
 Y_my_labels = np.array([[0], [0], [2], [1], [4], [3]])
 
 pred = predict(X_my_sentences, Y_my_labels, W, b, word_to_vec_map)
 print_predictions(X_my_sentences, pred)
 
 print(Y_test.shape)
-print('           ' + label_to_emoji(0) + '    ' + label_to_emoji(1) + '    ' + label_to_emoji(
-    2) + '    ' + label_to_emoji(3) + '   ' + label_to_emoji(4))
-print(pd.crosstab(Y_test, pred_test.reshape(56, ), rownames=['Actual'], colnames=['Predicted'], margins=True))
+print(
+    "           "
+    + label_to_emoji(0)
+    + "    "
+    + label_to_emoji(1)
+    + "    "
+    + label_to_emoji(2)
+    + "    "
+    + label_to_emoji(3)
+    + "   "
+    + label_to_emoji(4)
+)
+print(
+    pd.crosstab(
+        Y_test,
+        pred_test.reshape(
+            56,
+        ),
+        rownames=["Actual"],
+        colnames=["Predicted"],
+        margins=True,
+    )
+)
 plot_confusion_matrix(Y_test, pred_test)

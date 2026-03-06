@@ -7,10 +7,14 @@ import frontmatter
 from markdown_translate_client import translate_markdown_file
 
 import sys
-# Add the project root to the Python path to import from tests
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from tests.workflow.test_posts_complete import analyze_post_completeness, analyze_notes_completeness
+# Add the project root to the Python path to import from tests
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+
+from tests.workflow.test_posts_complete import (
+    analyze_post_completeness,
+    analyze_notes_completeness,
+)
 
 # Import utility functions for handling note and post files
 sys.path.append(os.path.dirname(__file__))
@@ -34,15 +38,23 @@ def get_output_filename(filename, target_lang):
 def get_changed_files(commits=10):
     changed_files = set()
     languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
-    
+
     # Get files changed in the original directory from the last N commits
     print(f"Checking for changes in original directory from last {commits} commits...")
     try:
         result = subprocess.run(
-            ["git", "log", "--name-only", "--pretty=format:", f"-{commits}", "--", "original/"],
+            [
+                "git",
+                "log",
+                "--name-only",
+                "--pretty=format:",
+                f"-{commits}",
+                "--",
+                "original/",
+            ],
             capture_output=True,
             text=True,
-            cwd="."
+            cwd=".",
         )
         if result.returncode != 0:
             print(f"Git command failed: {result.stderr}")
@@ -53,12 +65,16 @@ def get_changed_files(commits=10):
                     changed_original_files.add(os.path.join(INPUT_DIR, filename))
         else:
             # Filter for markdown files in original directory
-            git_changed_files = [line.strip() for line in result.stdout.strip().split('\n') if line.strip()]
+            git_changed_files = [
+                line.strip()
+                for line in result.stdout.strip().split("\n")
+                if line.strip()
+            ]
             changed_original_files = set()
             for file_path in git_changed_files:
                 if file_path.startswith("original/") and file_path.endswith(".md"):
                     changed_original_files.add(file_path)
-            
+
             # If no changes found in git, check all files
             if not changed_original_files:
                 print("No changes found in git history, scanning all files...")
@@ -72,22 +88,24 @@ def get_changed_files(commits=10):
         for filename in os.listdir(INPUT_DIR):
             if filename.endswith(".md"):
                 changed_original_files.add(os.path.join(INPUT_DIR, filename))
-    
-    print(f"Found {len(changed_original_files)} files to check: {list(changed_original_files)}")
-    
+
+    print(
+        f"Found {len(changed_original_files)} files to check: {list(changed_original_files)}"
+    )
+
     for input_file in changed_original_files:
         filename = os.path.basename(input_file)
         print(f"Processing file: {input_file}")
-        
+
         # Check if file exists, skip if not
         if not os.path.exists(input_file):
             print(f"  File does not exist, skipping: {input_file}")
             continue
-        
+
         if not filename.endswith(".md"):
             print(f"Skipping non-markdown file: {filename}")
             continue
-            
+
         # Extract orig_lang from filename
         orig_lang = None
         for possible in ["en", "zh", "ja"]:
@@ -143,7 +161,9 @@ def get_changed_files(commits=10):
                 # Add all target language files for retranslation
                 for target_lang in languages:
                     changed_files.add((input_file, target_lang))
-                    print(f"  Added {input_file} for {target_lang} translation due to changes")
+                    print(
+                        f"  Added {input_file} for {target_lang} translation due to changes"
+                    )
             else:
                 # Only add missing translations
                 for target_lang in languages:
@@ -152,11 +172,13 @@ def get_changed_files(commits=10):
                     target_file = os.path.join(target_dir, target_filename)
                     if not os.path.exists(target_file):
                         changed_files.add((input_file, target_lang))
-                        print(f"  Added {input_file} for {target_lang} - missing translation")
-                        
+                        print(
+                            f"  Added {input_file} for {target_lang} - missing translation"
+                        )
+
         except Exception as e:
             print(f"Error processing file {input_file}: {e}")
-            
+
     print(f"Finished scanning. Total files needing updates: {len(changed_files)}")
     return changed_files
 
@@ -229,7 +251,7 @@ def main():
 
         # Handle orphaned posts
         for post in orphaned_posts:
-            if not post['has_original_source']:
+            if not post["has_original_source"]:
                 print(f"Skipping {post['base_name']} - no original source")
                 continue
 
@@ -238,8 +260,10 @@ def main():
             found_lang = None
 
             # Check if any translated version exists in _posts
-            for lang in ['en', 'zh', 'ja', 'es', 'hi', 'fr', 'de', 'ar', 'hant']:
-                candidate = os.path.join('_posts', lang, f"{post['base_name']}-{lang}.md")
+            for lang in ["en", "zh", "ja", "es", "hi", "fr", "de", "ar", "hant"]:
+                candidate = os.path.join(
+                    "_posts", lang, f"{post['base_name']}-{lang}.md"
+                )
                 if os.path.exists(candidate):
                     # Use the utility function to find the original file
                     result = get_original_file_for_md_file(candidate)
@@ -252,20 +276,20 @@ def main():
                 continue
 
             print(f"Found original file for {post['base_name']}: {original_file}")
-            for missing_lang in post['missing_languages']:
+            for missing_lang in post["missing_languages"]:
                 if target_language == "all" or missing_lang == target_language:
                     changed_files.add((original_file, missing_lang))
 
         # Handle orphaned notes
         for note in orphaned_notes:
-            if not note['has_original_source']:
+            if not note["has_original_source"]:
                 print(f"Skipping {note['base_name']} - no original source")
                 continue
 
             # For notes, the original file is in the notes directory with -en.md suffix
             # since notes use _posts/en as the reference
-            for orig_lang in ['en', 'zh', 'ja']:
-                candidate = os.path.join('notes', f"{note['base_name']}-{orig_lang}.md")
+            for orig_lang in ["en", "zh", "ja"]:
+                candidate = os.path.join("notes", f"{note['base_name']}-{orig_lang}.md")
                 if os.path.exists(candidate):
                     original_file = candidate
                     found_lang = orig_lang
@@ -276,7 +300,7 @@ def main():
                 continue
 
             print(f"Found original file for note {note['base_name']}: {original_file}")
-            for missing_lang in note['missing_languages']:
+            for missing_lang in note["missing_languages"]:
                 if target_language == "all" or missing_lang == target_language:
                     changed_files.add((original_file, missing_lang))
         if max_files and len(changed_files) > max_files:

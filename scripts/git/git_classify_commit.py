@@ -12,9 +12,32 @@ from collections import Counter
 
 # Extensions considered as "code"
 CODE_EXTS = {
-    "py", "js", "ts", "jsx", "tsx", "html", "css", "scss", "sass",
-    "java", "c", "cpp", "cxx", "h", "hpp", "go", "rs", "php",
-    "rb", "swift", "kt", "scala", "clj", "erl", "ex", "dart"
+    "py",
+    "js",
+    "ts",
+    "jsx",
+    "tsx",
+    "html",
+    "css",
+    "scss",
+    "sass",
+    "java",
+    "c",
+    "cpp",
+    "cxx",
+    "h",
+    "hpp",
+    "go",
+    "rs",
+    "php",
+    "rb",
+    "swift",
+    "kt",
+    "scala",
+    "clj",
+    "erl",
+    "ex",
+    "dart",
 }
 # Extensions considered as "markdown"
 MD_EXTS = {"md", "markdown"}
@@ -100,7 +123,9 @@ def main() -> None:
             stats[ctype] += 1
         # Print progress every 10% or every commit if < 50
         if total < 50 or idx % max(1, total // 10) == 0 or idx == total:
-            print(f"[{idx:>{len(str(total))}}/{total}] {commit[:8]} -> {ctype or 'skip'}")
+            print(
+                f"[{idx:>{len(str(total))}}/{total}] {commit[:8]} -> {ctype or 'skip'}"
+            )
 
     print("\nCommit type counts:")
     for t in ("code", "md", "others"):

@@ -4,6 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import qrcode
 import os
 
+
 def center_crop_to_fit(img, target_width, target_height):
     """Center crop an image to fit target dimensions while preserving aspect ratio"""
     img_width, img_height = img.size
@@ -25,10 +26,15 @@ def center_crop_to_fit(img, target_width, target_height):
         cropped_img = img
 
     # Resize to exact target dimensions
-    resized_img = cropped_img.resize((target_width, target_height), Image.Resampling.LANCZOS)
+    resized_img = cropped_img.resize(
+        (target_width, target_height), Image.Resampling.LANCZOS
+    )
     return resized_img
 
-def generate_share_card(titles, output_path, invitation=None, background_image_path=None):
+
+def generate_share_card(
+    titles, output_path, invitation=None, background_image_path=None
+):
     """Generate a share card image with note titles and QR code"""
     # Ensure output directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -42,18 +48,22 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
         # Load background image and center crop to match aspect ratio
         bg_img = Image.open(background_image_path)
         bg_img = center_crop_to_fit(bg_img, WIDTH, HEIGHT)
-        img = bg_img.convert('RGBA')
+        img = bg_img.convert("RGBA")
     else:
         # Create new image with white background if no background image
-        img = Image.new('RGBA', (WIDTH, HEIGHT), color='white')
+        img = Image.new("RGBA", (WIDTH, HEIGHT), color="white")
 
     # Add semi-transparent blur effect to bottom area for better text readability
     HALF_HEIGHT = HEIGHT // 2
-    blur_overlay = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))  # Transparent overlay
+    blur_overlay = Image.new(
+        "RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0)
+    )  # Transparent overlay
     draw_overlay = ImageDraw.Draw(blur_overlay)
 
     # Create a semi-transparent dark rectangle over the bottom half
-    draw_overlay.rectangle([0, HALF_HEIGHT, WIDTH, HEIGHT], fill=(0, 0, 0, 120))  # Semi-transparent black
+    draw_overlay.rectangle(
+        [0, HALF_HEIGHT, WIDTH, HEIGHT], fill=(0, 0, 0, 120)
+    )  # Semi-transparent black
 
     # Composite the blur overlay onto the background
     img = Image.alpha_composite(img, blur_overlay)
@@ -81,14 +91,14 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
         title_font = font_title
 
     base_y_offset = HALF_HEIGHT + 20  # Start text in bottom half
-    draw.text((20, base_y_offset), title, fill='white', font=title_font)
+    draw.text((20, base_y_offset), title, fill="white", font=title_font)
 
     # List notes - adjust offset based on title height
     title_bbox = draw.textbbox((20, base_y_offset), title, font=title_font)
     y_offset = title_bbox[3] + 40  # Add some padding after title
     for title in titles:
         text = f"• {title}"
-        draw.text((20, y_offset), text, fill='white', font=font_notes)
+        draw.text((20, y_offset), text, fill="white", font=font_notes)
         y_offset += 50
 
     # Generate QR code
@@ -97,7 +107,7 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     qr.make(fit=True)
 
     # Create QR code image
-    qr_img = qr.make_image(fill='black', back_color='white')
+    qr_img = qr.make_image(fill="black", back_color="white")
 
     # Make QR code smaller and place in center
     qr_size = 200  # Smaller size
@@ -111,13 +121,15 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     # Add QR code label - centered above QR code
     label_height = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[3]
     label_y = qr_y - 40
-    label_x = (WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]) // 2
-    draw.text((label_x, label_y), "Scan for more notes", fill='white', font=font_notes)
+    label_x = (
+        WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]
+    ) // 2
+    draw.text((label_x, label_y), "Scan for more notes", fill="white", font=font_notes)
 
     # Save the image - convert back to RGB for compatibility
-    if img.mode == 'RGBA':
+    if img.mode == "RGBA":
         # Create a new RGB image
-        rgb_img = Image.new('RGB', img.size, 'white')
+        rgb_img = Image.new("RGB", img.size, "white")
         rgb_img.paste(img, mask=img.split()[-1])  # Use alpha channel as mask
         rgb_img.save(output_path)
     else:

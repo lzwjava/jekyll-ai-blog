@@ -2,7 +2,6 @@ import os
 import argparse
 from pdf_base import text_to_pdf_from_markdown
 
-
 OUTPUT_DIRECTORY = "assets/pdfs"
 INPUT_DIRECTORY = "notes"
 

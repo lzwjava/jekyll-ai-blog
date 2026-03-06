@@ -41,13 +41,13 @@ def generate_music(inference_model, indices_tones, chords, diversity=0.5):
         indices = list(indices.squeeze())
         pred = [indices_tones[p] for p in indices]
 
-        predicted_tones = 'C,0.25 '
+        predicted_tones = "C,0.25 "
         for k in range(len(pred) - 1):
-            predicted_tones += pred[k] + ' '
+            predicted_tones += pred[k] + " "
 
         predicted_tones += pred[-1]
 
-        predicted_tones = predicted_tones.replace(' A', ' C').replace(' X', ' C')
+        predicted_tones = predicted_tones.replace(" A", " C").replace(" X", " C")
 
         predicted_tones = prune_grammar(predicted_tones)
 
@@ -57,8 +57,10 @@ def generate_music(inference_model, indices_tones, chords, diversity=0.5):
 
         sounds = clean_up_notes(sounds)
 
-        print('Generated %s sounds using the predicted values for the set of chords ("%s") and after pruning' % (
-            len([k for k in sounds if isinstance(k, note.Note)]), i))
+        print(
+            'Generated %s sounds using the predicted values for the set of chords ("%s") and after pruning'
+            % (len([k for k in sounds if isinstance(k, note.Note)]), i)
+        )
 
         for m in sounds:
             out_stream.insert(curr_offset + m.offset, m)
@@ -70,7 +72,7 @@ def generate_music(inference_model, indices_tones, chords, diversity=0.5):
     out_stream.insert(0.0, tempo.MetronomeMark(number=130))
 
     mf = midi.translate.streamToMidiFile(out_stream)
-    mf.open("output/my_music.midi", 'wb')
+    mf.open("output/my_music.midi", "wb")
     mf.write()
     print("Your generated music is saved in output/my_music.midi")
     mf.close()
@@ -78,8 +80,12 @@ def generate_music(inference_model, indices_tones, chords, diversity=0.5):
     return out_stream
 
 
-def predict_and_sample(inference_model, x_initializer=x_initializer, a_initializer=a_initializer,
-                       c_initializer=c_initializer):
+def predict_and_sample(
+    inference_model,
+    x_initializer=x_initializer,
+    a_initializer=a_initializer,
+    c_initializer=c_initializer,
+):
     pred = inference_model.predict([x_initializer, a_initializer, c_initializer])
     indices = np.argmax(pred, axis=-1)
     results = to_categorical(indices, num_classes=90)
@@ -109,20 +115,25 @@ def mid2wav(file):
 
         for msg in track:
             current_pos += ticks_to_ms(msg.time, tempo, mid)
-            if msg.type == 'note_on':
+            if msg.type == "note_on":
                 if msg.note in current_notes[msg.channel]:
                     current_notes[msg.channel][msg.note].append((current_pos, msg))
                 else:
                     current_notes[msg.channel][msg.note] = [(current_pos, msg)]
 
-            if msg.type == 'note_off':
+            if msg.type == "note_off":
                 start_pos, start_msg = current_notes[msg.channel][msg.note].pop()
 
                 duration = math.ceil(current_pos - start_pos)
                 signal_generator = Sine(note_to_freq(msg.note, 500))
 
-                rendered = signal_generator.to_audio_segment(duration=duration - 50, volume=-20).fade_out(100).fade_in(
-                    30)
+                rendered = (
+                    signal_generator.to_audio_segment(
+                        duration=duration - 50, volume=-20
+                    )
+                    .fade_out(100)
+                    .fade_in(30)
+                )
 
                 output = output.overlay(rendered, start_pos)
 

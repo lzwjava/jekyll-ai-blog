@@ -6,16 +6,23 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from scripts.llm.openrouter_client import call_openrouter_api
-from scripts.agent.git_utils import get_git_diff_lines, extract_changed_content, apply_grammar_fixes_to_original, get_changed_md_files_in_last_n_commits
-from scripts.agent.validate_utils import validate_grammar_fix, validate_markdown_syntax, validate_content_structure
+from scripts.agent.git_utils import (
+    get_git_diff_lines,
+    extract_changed_content,
+    apply_grammar_fixes_to_original,
+    get_changed_md_files_in_last_n_commits,
+)
+from scripts.agent.validate_utils import (
+    validate_grammar_fix,
+    validate_markdown_syntax,
+    validate_content_structure,
+)
 
 #!/usr/bin/env python3
 """
 Grammar Fixer for Jekyll Posts
 Fixes grammar in Jekyll post files using AI with minimal changes.
 """
-
-
 
 
 def fix_grammar_with_ai(content):
@@ -39,15 +46,15 @@ Return the corrected content:"""
         response = call_openrouter_api(prompt)
         # Clean up the response - remove markdown code blocks if present
         cleaned_response = response.strip()
-        if cleaned_response.startswith('```'):
-            lines = cleaned_response.split('\n')
+        if cleaned_response.startswith("```"):
+            lines = cleaned_response.split("\n")
             # Remove first and last lines if they are markdown code block markers
-            if lines[0].startswith('```') and lines[-1].strip() == '```':
-                cleaned_response = '\n'.join(lines[1:-1])
-        
+            if lines[0].startswith("```") and lines[-1].strip() == "```":
+                cleaned_response = "\n".join(lines[1:-1])
+
         # Validate the grammar fix
         validate_grammar_fix(content, cleaned_response)
-        
+
         return cleaned_response
     except Exception as e:
         print(f"Error in grammar fixing: {e}", file=sys.stderr)
@@ -59,32 +66,32 @@ def process_file(file_path, dry_run=False, base_range=None):
     try:
         # Convert relative path to absolute path
         abs_file_path = os.path.abspath(file_path)
-        
+
         # Get changed lines from git diff (optionally use a base range)
         changed_lines = get_git_diff_lines(abs_file_path, base_range)
-        
+
         if not changed_lines:
             print(f"No changes to fix in {file_path}")
             return None
-        
+
         with open(abs_file_path, "r", encoding="utf-8") as f:
             original_content = f.read()
-        
+
         # Extract only the changed content with context
         changed_content = extract_changed_content(original_content, changed_lines)
-        
+
         if not changed_content.strip():
             print(f"No substantial changes to fix in {file_path}")
             return None
-        
+
         print(f"Fixing grammar for changed sections in {file_path}...")
         print(f"Changed lines: {sorted(changed_lines)}")
-        
+
         if dry_run:
             print("\n[DRY RUN] Content to fix:")
             print(changed_content)
-            print("\n" + "="*50 + "\n")
-        
+            print("\n" + "=" * 50 + "\n")
+
         fixed_content = fix_grammar_with_ai(changed_content)
 
         if fixed_content is None:
@@ -93,19 +100,23 @@ def process_file(file_path, dry_run=False, base_range=None):
         if dry_run:
             print(f"[DRY RUN] Grammar-fixed content for {file_path}:")
             print(fixed_content)
-            print("\n[DRY RUN] File would be updated but no changes made due to dry-run mode")
+            print(
+                "\n[DRY RUN] File would be updated but no changes made due to dry-run mode"
+            )
         else:
             # Apply the grammar fixes to the full content
             # For now, we'll replace the changed sections in the original content
             # This is a simplified approach - in practice, you might want more sophisticated merging
-            
+
             # Create new content by applying fixes to the original
-            new_content = apply_grammar_fixes_to_original(original_content, changed_content, fixed_content, changed_lines)
-            
+            new_content = apply_grammar_fixes_to_original(
+                original_content, changed_content, fixed_content, changed_lines
+            )
+
             # Write the updated content back to the file
             with open(abs_file_path, "w", encoding="utf-8") as f:
                 f.write(new_content)
-            
+
             print(f"✅ Grammar fixes applied to {file_path}")
             print(f"Fixed lines: {sorted(changed_lines)}")
 
@@ -114,8 +125,6 @@ def process_file(file_path, dry_run=False, base_range=None):
     except Exception as e:
         print(f"Error processing {file_path}: {e}", file=sys.stderr)
         return None
-
-
 
 
 def main():
@@ -139,7 +148,9 @@ def main():
     if args.commits > 0:
         changed_md = get_changed_md_files_in_last_n_commits(args.commits)
         if not changed_md:
-            print(f"No changed markdown files found in the last {args.commits} commits.")
+            print(
+                f"No changed markdown files found in the last {args.commits} commits."
+            )
             sys.exit(0)
         if len(changed_md) == 1:
             args.files = [changed_md[0]]

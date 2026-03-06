@@ -53,16 +53,12 @@ def update_parameters_with_momentum_test_case():
     parameters = {"W1": W1, "b1": b1, "W2": W2, "b2": b2}
     grads = {"dW1": dW1, "db1": db1, "dW2": dW2, "db2": db2}
 
-    v = {'dW1': np.array([[0., 0., 0.],
-                          [0., 0., 0.]]),
-         'dW2': np.array([[0., 0.],
-                          [0., 0.],
-                          [0., 0.]]),
-         'db1': np.array([[0.],
-                          [0.]]),
-         'db2': np.array([[0.],
-                          [0.],
-                          [0.]])}
+    v = {
+        "dW1": np.array([[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]),
+        "dW2": np.array([[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]),
+        "db1": np.array([[0.0], [0.0]]),
+        "db2": np.array([[0.0], [0.0], [0.0]]),
+    }
 
     return parameters, grads, v
 
@@ -79,26 +75,20 @@ def initialize_adam_test_case():
 
 def update_parameters_with_adam_test_case():
     np.random.seed(1)
-    v, s = ({'dW1': np.array([[0., 0., 0.],
-                              [0., 0., 0.]]),
-             'dW2': np.array([[0., 0.],
-                              [0., 0.],
-                              [0., 0.]]),
-             'db1': np.array([[0.],
-                              [0.]]),
-             'db2': np.array([[0.],
-                              [0.],
-                              [0.]])},
-            {'dW1': np.array([[0., 0., 0.],
-                              [0., 0., 0.]]),
-             'dW2': np.array([[0., 0.],
-                              [0., 0.],
-                              [0., 0.]]),
-             'db1': np.array([[0.],
-                              [0.]]),
-             'db2': np.array([[0.],
-                              [0.],
-                              [0.]])})
+    v, s = (
+        {
+            "dW1": np.array([[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]),
+            "dW2": np.array([[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]),
+            "db1": np.array([[0.0], [0.0]]),
+            "db2": np.array([[0.0], [0.0], [0.0]]),
+        },
+        {
+            "dW1": np.array([[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]),
+            "dW2": np.array([[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]),
+            "db1": np.array([[0.0], [0.0]]),
+            "db2": np.array([[0.0], [0.0], [0.0]]),
+        },
+    )
     W1 = np.random.randn(2, 3)
     b1 = np.random.randn(2, 1)
     W2 = np.random.randn(3, 2)

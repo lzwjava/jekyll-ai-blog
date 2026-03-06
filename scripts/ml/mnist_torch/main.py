@@ -18,8 +18,8 @@ class Net(nn.Module):
         # print(x.size())
         # print(x[0][0])
         # print(x)
-        # exit()       
-        # print(x) 
+        # exit()
+        # print(x)
         x = self.fc1(x)
 
         # print(x)
@@ -38,7 +38,7 @@ class Net(nn.Module):
 def train(model, train_loader, optimizer):
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
-        if (batch_idx > 10000):
+        if batch_idx > 10000:
             break
         optimizer.zero_grad()
         output = model(data)
@@ -48,7 +48,7 @@ def train(model, train_loader, optimizer):
         # print(output)
         loss.backward()
         optimizer.step()
-        print('batch:{} Loss:{:.6f}'.format(batch_idx, loss.item()))
+        print("batch:{} Loss:{:.6f}".format(batch_idx, loss.item()))
 
         # for name, param in model.named_parameters():
         #     if param.requires_grad:
@@ -65,17 +65,16 @@ def test(model, test_loader):
             pred = output.argmax(dim=1, keepdim=True)
             correct += pred.eq(target.view_as(pred)).sum().item()
 
-    print('Accuracy:{}'.format(100. * correct / len(test_loader.dataset)))
+    print("Accuracy:{}".format(100.0 * correct / len(test_loader.dataset)))
 
 
 def main():
-    transform = transforms.Compose([
-        transforms.ToTensor(),
-        transforms.Normalize((0.1307,), (0.3081,))
-    ])
-    dataset1 = datasets.MNIST('../data', train=True, download=True, transform=transform)
+    transform = transforms.Compose(
+        [transforms.ToTensor(), transforms.Normalize((0.1307,), (0.3081,))]
+    )
+    dataset1 = datasets.MNIST("../data", train=True, download=True, transform=transform)
     # print(dataset1)
-    dataset2 = datasets.MNIST('../data', train=False, transform=transform)
+    dataset2 = datasets.MNIST("../data", train=False, transform=transform)
 
     train_loader = torch.utils.data.DataLoader(dataset1)
     test_loader = torch.utils.data.DataLoader(dataset2)
@@ -87,5 +86,5 @@ def main():
     test(model, test_loader)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

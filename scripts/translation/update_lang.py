@@ -64,15 +64,23 @@ def get_recent_files(n, input_dir=INPUT_DIR):
 def get_changed_files(commits=10):
     changed_files = set()
     languages = TARGET_LANGUAGES
-    
+
     # Get files changed in the original directory from the last N commits
     print(f"Checking for changes in original directory from last {commits} commits...")
     try:
         result = subprocess.run(
-            ["git", "log", "--name-only", "--pretty=format:", f"-{commits}", "--", "original/"],
+            [
+                "git",
+                "log",
+                "--name-only",
+                "--pretty=format:",
+                f"-{commits}",
+                "--",
+                "original/",
+            ],
             capture_output=True,
             text=True,
-            cwd="."
+            cwd=".",
         )
         if result.returncode != 0:
             print(f"Git command failed: {result.stderr}")
@@ -83,12 +91,16 @@ def get_changed_files(commits=10):
                     changed_original_files.add(os.path.join(INPUT_DIR, filename))
         else:
             # Filter for markdown files in original directory
-            git_changed_files = [line.strip() for line in result.stdout.strip().split('\n') if line.strip()]
+            git_changed_files = [
+                line.strip()
+                for line in result.stdout.strip().split("\n")
+                if line.strip()
+            ]
             changed_original_files = set()
             for file_path in git_changed_files:
                 if file_path.startswith("original/") and file_path.endswith(".md"):
                     changed_original_files.add(file_path)
-            
+
             # If no changes found in git, check all files
             if not changed_original_files:
                 print("No changes found in git history, scanning all files...")
@@ -102,22 +114,24 @@ def get_changed_files(commits=10):
         for filename in os.listdir(INPUT_DIR):
             if filename.endswith(".md"):
                 changed_original_files.add(os.path.join(INPUT_DIR, filename))
-    
-    print(f"Found {len(changed_original_files)} files to check: {list(changed_original_files)}")
-    
+
+    print(
+        f"Found {len(changed_original_files)} files to check: {list(changed_original_files)}"
+    )
+
     for input_file in changed_original_files:
         filename = os.path.basename(input_file)
         print(f"Processing file: {input_file}")
-        
+
         # Check if file exists, skip if not
         if not os.path.exists(input_file):
             print(f"  File does not exist, skipping: {input_file}")
             continue
-        
+
         if not filename.endswith(".md"):
             print(f"Skipping non-markdown file: {filename}")
             continue
-            
+
         # Extract orig_lang from filename
         orig_lang = None
         for possible in ORIGINAL_LANGUAGES:
@@ -173,7 +187,9 @@ def get_changed_files(commits=10):
                 # Add all target language files for retranslation
                 for target_lang in languages:
                     changed_files.add((input_file, target_lang))
-                    print(f"  Added {input_file} for {target_lang} translation due to changes")
+                    print(
+                        f"  Added {input_file} for {target_lang} translation due to changes"
+                    )
             else:
                 # Only add missing translations
                 for target_lang in languages:
@@ -182,11 +198,13 @@ def get_changed_files(commits=10):
                     target_file = os.path.join(target_dir, target_filename)
                     if not os.path.exists(target_file):
                         changed_files.add((input_file, target_lang))
-                        print(f"  Added {input_file} for {target_lang} - missing translation")
-                        
+                        print(
+                            f"  Added {input_file} for {target_lang} - missing translation"
+                        )
+
         except Exception as e:
             print(f"Error processing file {input_file}: {e}")
-            
+
     print(f"Finished scanning. Total files needing updates: {len(changed_files)}")
     return changed_files
 
@@ -274,7 +292,9 @@ def main():
                 if orig_lang:
                     for lang in languages:
                         target_filename = get_output_filename(filename, lang)
-                        target_file = os.path.join(f"_posts/{lang}", target_filename)  # Always check _posts
+                        target_file = os.path.join(
+                            f"_posts/{lang}", target_filename
+                        )  # Always check _posts
                         if not os.path.exists(target_file):
                             changed_files.add((input_file, lang))
             total_files_to_process = len(changed_files)

@@ -31,12 +31,12 @@ def dictionary_to_vector(parameters):
 
 def vector_to_dictionary(theta):
     parameters = {}
-    parameters["W1"] = theta[: 20].reshape((5, 4))
-    parameters["b1"] = theta[20: 25].reshape((5, 1))
-    parameters["W2"] = theta[25: 40].reshape((3, 5))
-    parameters["b2"] = theta[40: 43].reshape((3, 1))
-    parameters["W3"] = theta[43: 46].reshape((1, 3))
-    parameters["b3"] = theta[46: 47].reshape((1, 1))
+    parameters["W1"] = theta[:20].reshape((5, 4))
+    parameters["b1"] = theta[20:25].reshape((5, 1))
+    parameters["W2"] = theta[25:40].reshape((3, 5))
+    parameters["b2"] = theta[40:43].reshape((3, 1))
+    parameters["W3"] = theta[43:46].reshape((1, 3))
+    parameters["b3"] = theta[46:47].reshape((1, 1))
 
     return parameters
 

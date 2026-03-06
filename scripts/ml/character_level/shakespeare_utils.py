@@ -16,10 +16,10 @@ def build_data(text, Tx=40, stride=3):
     Y = []
 
     for i in range(0, len(text) - Tx, stride):
-        X.append(text[i: i + Tx])
+        X.append(text[i : i + Tx])
         Y.append(text[i + Tx])
 
-    print('number of training examples:', len(X))
+    print("number of training examples:", len(X))
 
     return X, Y
 
@@ -37,7 +37,7 @@ def vectorization(X, Y, n_x, char_indices, Tx=40):
 
 
 def sample(preds, temperature=1.0):
-    preds = np.asarray(preds).astype('float64')
+    preds = np.asarray(preds).astype("float64")
     preds = np.log(preds) / temperature
     exp_preds = np.exp(preds)
     preds = exp_preds / np.sum(exp_preds)
@@ -51,7 +51,7 @@ def on_epoch_end(epoch, logs):
 
 
 print("Loading text data...")
-text = io.open('shakespeare.txt', encoding='utf-8').read().lower()
+text = io.open("shakespeare.txt", encoding="utf-8").read().lower()
 
 Tx = 40
 chars = sorted(list(set(text)))
@@ -63,15 +63,17 @@ X, Y = build_data(text, Tx, stride=3)
 print("Vectorizing training set...")
 x, y = vectorization(X, Y, n_x=len(chars), char_indices=char_indices)
 print("Loading model...")
-model = load_model('models/model_shakespeare_kiank_350_epoch.h5')
+model = load_model("models/model_shakespeare_kiank_350_epoch.h5")
 
 
 def generate_output():
-    generated = ''
+    generated = ""
 
-    usr_input = input("Write the beginning of your poem, the Shakespeare machine will complete it. Your input is: ")
+    usr_input = input(
+        "Write the beginning of your poem, the Shakespeare machine will complete it. Your input is: "
+    )
 
-    sentence = ('{0:0>' + str(Tx) + '}').format(usr_input).lower()
+    sentence = ("{0:0>" + str(Tx) + "}").format(usr_input).lower()
     generated += usr_input
 
     sys.stdout.write("\n\nHere is your poem: \n\n")
@@ -81,8 +83,8 @@ def generate_output():
         x_pred = np.zeros((1, Tx, len(chars)))
 
         for t, char in enumerate(sentence):
-            if char != '0':
-                x_pred[0, t, char_indices[char]] = 1.
+            if char != "0":
+                x_pred[0, t, char_indices[char]] = 1.0
 
         preds = model.predict(x_pred, verbose=0)[0]
         next_index = sample(preds, temperature=1.0)
@@ -94,5 +96,5 @@ def generate_output():
         sys.stdout.write(next_char)
         sys.stdout.flush()
 
-        if next_char == '\n':
+        if next_char == "\n":
             continue

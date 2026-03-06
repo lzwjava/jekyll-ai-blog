@@ -19,12 +19,12 @@ Generates titles for Jekyll post files using AI.
 def generate_title_with_ai(content, custom_prompt=None, model="mistral-medium"):
     """Generate a title using AI."""
     print("Generating title with AI...")
-    
+
     # Limit content to first 1000 characters to avoid overwhelming the AI
     truncated_content = content[:1000]
     if len(content) > 1000:
         truncated_content += "..."
-    
+
     if custom_prompt:
         prompt = f"""{custom_prompt}
 
@@ -59,32 +59,48 @@ def validate_title(title):
     """Validate the generated title for length, special characters, quotes, and markdown syntax."""
     if not title:
         raise ValueError("Title is empty or None")
-    
+
     # Check length (under 100 characters)
     if len(title) > 100:
-        raise ValueError(f"Title is too long ({len(title)} characters). Keep it under 100 characters.")
-    
+        raise ValueError(
+            f"Title is too long ({len(title)} characters). Keep it under 100 characters."
+        )
+
     # Check for markdown syntax (basic check for common patterns)
-    markdown_patterns = [r'\*\*.*?\*\*', r'\*.*?\*', r'\[.*?\]', r'\(.*?\)', r'#+', r'`.*?`']
+    markdown_patterns = [
+        r"\*\*.*?\*\*",
+        r"\*.*?\*",
+        r"\[.*?\]",
+        r"\(.*?\)",
+        r"#+",
+        r"`.*?`",
+    ]
     for pattern in markdown_patterns:
         if re.search(pattern, title):
             raise ValueError(f"Title contains markdown syntax: {title}")
-    
+
     # Check for quotes at the beginning or end
-    if title.startswith('"') or title.endswith('"') or title.startswith("'") or title.endswith("'"):
+    if (
+        title.startswith('"')
+        or title.endswith('"')
+        or title.startswith("'")
+        or title.endswith("'")
+    ):
         raise ValueError(f"Title contains quotes at the beginning or end: {title}")
-    
+
     # Check for special characters that might cause issues (basic check)
     # Allow common punctuation but disallow potentially problematic characters
-    problematic_chars = ['<', '>', '{', '}', '[', ']']
+    problematic_chars = ["<", ">", "{", "}", "[", "]"]
     for char in problematic_chars:
         if char in title:
             raise ValueError(f"Title contains problematic character '{char}': {title}")
-    
+
     return True
 
 
-def process_file(file_path, output_only=False, custom_prompt=None, model="mistral-medium"):
+def process_file(
+    file_path, output_only=False, custom_prompt=None, model="mistral-medium"
+):
     """Process a single Jekyll post file to update its title."""
     print(f"Processing file: {file_path}")
     try:
@@ -110,22 +126,22 @@ def process_file(file_path, output_only=False, custom_prompt=None, model="mistra
             print(f"Generated title for {file_path}:")
             print(title)
             print()
-            
+
             # Update title in frontmatter using frontmatter library
             # Clean the title by removing markdown formatting and extra text
             clean_title = title.strip()
             # Remove common markdown formatting
-            clean_title = re.sub(r'^[*#]+|[*#]+$', '', clean_title).strip()
+            clean_title = re.sub(r"^[*#]+|[*#]+$", "", clean_title).strip()
             # Remove quotes
-            clean_title = clean_title.strip('"\'')
-            
+            clean_title = clean_title.strip("\"'")
+
             # Remove any existing title metadata and set the new one
-            post.metadata.pop('title', None)  # Remove existing title if it exists
-            post.metadata['title'] = clean_title
-            
+            post.metadata.pop("title", None)  # Remove existing title if it exists
+            post.metadata["title"] = clean_title
+
             # Serialize the post back to string format
             updated_content = frontmatter.dumps(post)
-            
+
             # Write updated content back to file
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(updated_content)
@@ -147,11 +163,12 @@ def main():
     parser.add_argument(
         "--output-only", action="store_true", help="Output only title without file info"
     )
+    parser.add_argument("--prompt", type=str, help="Custom prompt for title generation")
     parser.add_argument(
-        "--prompt", type=str, help="Custom prompt for title generation"
-    )
-    parser.add_argument(
-        "--model", type=str, default="mistral-medium", help="Model to use for title generation"
+        "--model",
+        type=str,
+        default="mistral-medium",
+        help="Model to use for title generation",
     )
 
     args = parser.parse_args()

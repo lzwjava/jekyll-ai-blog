@@ -28,8 +28,7 @@ def __parse_midi(data_fn):
 
     partIndices = [0, 1, 6, 7]
     comp_stream = stream.Voice()
-    comp_stream.append([j.flat for i, j in enumerate(midi_data)
-                        if i in partIndices])
+    comp_stream.append([j.flat for i, j in enumerate(midi_data) if i in partIndices])
 
     full_stream = stream.Voice()
     for i in range(len(comp_stream)):
@@ -43,8 +42,7 @@ def __parse_midi(data_fn):
         curr_part.append(part.getElementsByClass(tempo.MetronomeMark))
         curr_part.append(part.getElementsByClass(key.KeySignature))
         curr_part.append(part.getElementsByClass(meter.TimeSignature))
-        curr_part.append(part.getElementsByOffset(476, 548,
-                                                  includeEndBoundary=True))
+        curr_part.append(part.getElementsByOffset(476, 548, includeEndBoundary=True))
         cp = curr_part.flat
         solo_stream.insert(cp)
 
@@ -96,7 +94,7 @@ def get_musical_data(data_fn):
 
 
 def get_corpus_data(abstract_grammars):
-    corpus = [x for sublist in abstract_grammars for x in sublist.split(' ')]
+    corpus = [x for sublist in abstract_grammars for x in sublist.split(" ")]
     values = set(corpus)
     val_indices = dict((v, i) for i, v in enumerate(values))
     indices_val = dict((i, v) for i, v in enumerate(values))

@@ -10,10 +10,13 @@ import os
 import sys
 import json
 
+
 def run_command(cmd, fallback=None):
     """Run a command and return its output, or fallback if it fails."""
     try:
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=5)
+        result = subprocess.run(
+            cmd, shell=True, capture_output=True, text=True, timeout=5
+        )
         if result.returncode == 0:
             return result.stdout.strip()
         else:
@@ -21,21 +24,22 @@ def run_command(cmd, fallback=None):
     except (subprocess.SubprocessError, FileNotFoundError, subprocess.TimeoutExpired):
         return fallback
 
+
 def get_os_info():
     """Get macOS version and build information."""
     try:
-        result = subprocess.run(['sw_vers'], capture_output=True, text=True, timeout=5)
+        result = subprocess.run(["sw_vers"], capture_output=True, text=True, timeout=5)
         if result.returncode == 0:
-            lines = result.stdout.strip().split('\n')
+            lines = result.stdout.strip().split("\n")
             os_info = {}
             for line in lines:
-                if ':' in line:
-                    key, value = line.split(':', 1)
+                if ":" in line:
+                    key, value = line.split(":", 1)
                     os_info[key.strip()] = value.strip()
 
-            product_name = os_info.get('ProductName', 'macOS')
-            product_version = os_info.get('ProductVersion', 'Unknown')
-            build_version = os_info.get('BuildVersion', 'Unknown')
+            product_name = os_info.get("ProductName", "macOS")
+            product_version = os_info.get("ProductVersion", "Unknown")
+            build_version = os_info.get("BuildVersion", "Unknown")
 
             return f"{product_name} {product_version} (Build {build_version})"
     except (subprocess.SubprocessError, subprocess.TimeoutExpired):
@@ -44,31 +48,35 @@ def get_os_info():
     # Fallback to uname
     return run_command("uname -srm")
 
+
 def get_architecture():
     """Get system architecture."""
     machine = platform.machine().lower()
-    if machine == 'x86_64':
+    if machine == "x86_64":
         return "Intel 64-bit"
-    elif machine == 'arm64':
+    elif machine == "arm64":
         return "Apple Silicon 64-bit"
     else:
         return f"{machine} ({'64-bit' if sys.maxsize > 2**32 else '32-bit'})"
+
 
 def get_python_version():
     """Get Python version."""
     return f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}"
 
+
 def get_java_version():
     """Get Java version."""
     # Try multiple common java commands
-    for java_cmd in ['java', 'java8', 'java11', 'java17', 'java21']:
+    for java_cmd in ["java", "java8", "java11", "java17", "java21"]:
         version = run_command(f"{java_cmd} -version 2>&1 | head -n 1")
-        if version and ('java' in version.lower() or 'openjdk' in version.lower()):
+        if version and ("java" in version.lower() or "openjdk" in version.lower()):
             # Extract version number
             if '"' in version:
                 return version.split('"')[1]
             return version.split()[2] if len(version.split()) > 2 else version
     return "Java not found"
+
 
 def get_macos_ui_info():
     """Get macOS UI/desktop information."""
@@ -83,23 +91,27 @@ def get_macos_ui_info():
         desktop_info.append("Appearance: Light Mode")
 
     # Check if running in GUI mode
-    if os.environ.get('DISPLAY') or os.environ.get('TERM_PROGRAM') != 'Apple_Terminal':
+    if os.environ.get("DISPLAY") or os.environ.get("TERM_PROGRAM") != "Apple_Terminal":
         desktop_info.append("Desktop: GUI Session")
     else:
         desktop_info.append("Desktop: Console Session")
 
-    return '; '.join(desktop_info)
+    return "; ".join(desktop_info)
+
 
 def get_kernel_info():
     """Get kernel version."""
     return run_command("uname -r")
 
+
 def get_disk_info():
     """Get disk usage information."""
     try:
-        result = subprocess.run("df -h /", shell=True, capture_output=True, text=True, timeout=5)
+        result = subprocess.run(
+            "df -h /", shell=True, capture_output=True, text=True, timeout=5
+        )
         if result.returncode == 0:
-            lines = result.stdout.strip().split('\n')
+            lines = result.stdout.strip().split("\n")
             if len(lines) >= 2:
                 # Get the root filesystem line
                 root_line = lines[1]
@@ -115,6 +127,7 @@ def get_disk_info():
         pass
     return "Unable to retrieve disk information"
 
+
 def get_memory_info():
     """Get memory and RAM information."""
     try:
@@ -128,25 +141,27 @@ def get_memory_info():
             pressure = run_command("sysctl -n kern.memorystatus_vm_pressure_level")
             pressure_text = ""
             if pressure:
-                pressure_levels = {'0': 'Normal', '1': 'Warning', '2': 'Critical'}
-                pressure_text = f" (Pressure: {pressure_levels.get(pressure, pressure)})"
+                pressure_levels = {"0": "Normal", "1": "Warning", "2": "Critical"}
+                pressure_text = (
+                    f" (Pressure: {pressure_levels.get(pressure, pressure)})"
+                )
 
             # Get vm_stat info for used memory
             vm_stat = run_command("vm_stat")
             if vm_stat:
-                lines = vm_stat.split('\n')
+                lines = vm_stat.split("\n")
                 pages_free = 0
                 pages_active = 0
                 pages_wired = 0
                 page_size = 4096  # Default page size
 
                 for line in lines:
-                    if 'Pages free:' in line:
-                        pages_free = int(line.split(':')[1].strip().replace('.', ''))
-                    elif 'Pages active:' in line:
-                        pages_active = int(line.split(':')[1].strip().replace('.', ''))
-                    elif 'Pages wired down:' in line or 'Pages wired:' in line:
-                        pages_wired = int(line.split(':')[1].strip().replace('.', ''))
+                    if "Pages free:" in line:
+                        pages_free = int(line.split(":")[1].strip().replace(".", ""))
+                    elif "Pages active:" in line:
+                        pages_active = int(line.split(":")[1].strip().replace(".", ""))
+                    elif "Pages wired down:" in line or "Pages wired:" in line:
+                        pages_wired = int(line.split(":")[1].strip().replace(".", ""))
 
                 used_pages = pages_active + pages_wired
                 used_gb = (used_pages * page_size) / (1024**3)
@@ -158,6 +173,7 @@ def get_memory_info():
     except (ValueError, subprocess.SubprocessError):
         pass
     return "Unable to retrieve memory information"
+
 
 def get_gpu_info():
     """Get GPU information."""
@@ -184,14 +200,17 @@ def get_gpu_info():
         gpu_info.append(f"Apple Silicon GPU: {apple_gpu.strip()}")
 
     # General display info
-    display_info = run_command("system_profiler SPDisplaysDataType | grep -A 10 'Graphics'")
+    display_info = run_command(
+        "system_profiler SPDisplaysDataType | grep -A 10 'Graphics'"
+    )
     if display_info and not gpu_info:
         gpu_info.append(f"Display: {display_info.strip()}")
 
     if gpu_info:
-        return '\n'.join(gpu_info)
+        return "\n".join(gpu_info)
     else:
         return "Unable to detect GPU information"
+
 
 def get_macos_hardware_info():
     """Get macOS-specific hardware information."""
@@ -214,13 +233,20 @@ def get_macos_hardware_info():
 
     # Get serial number (if available)
     try:
-        serial = run_command("system_profiler SPHardwareDataType | grep 'Serial Number' | awk -F': ' '{print $2}'")
+        serial = run_command(
+            "system_profiler SPHardwareDataType | grep 'Serial Number' | awk -F': ' '{print $2}'"
+        )
         if serial:
             hardware_info.append(f"Serial: {serial}")
     except:
         pass
 
-    return '; '.join(hardware_info) if hardware_info else "Unable to retrieve hardware info"
+    return (
+        "; ".join(hardware_info)
+        if hardware_info
+        else "Unable to retrieve hardware info"
+    )
+
 
 def main():
     """Main function to collect and display system information."""
@@ -274,6 +300,7 @@ def main():
     gpu = get_gpu_info()
     print(f"  GPU: {gpu}")
     print()
+
 
 if __name__ == "__main__":
     main()

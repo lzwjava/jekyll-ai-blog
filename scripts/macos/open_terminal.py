@@ -54,7 +54,9 @@ def open_ghostty_at_path(path, number):
                 print(f"Error: {result.stderr}")
 
     print(f"\nSuccessfully opened {opened}/{number} Ghostty terminal window(s)")
-    print("Note: macOS will naturally position the windows at different locations (cascade)")
+    print(
+        "Note: macOS will naturally position the windows at different locations (cascade)"
+    )
     return opened == number
 
 
@@ -63,15 +65,10 @@ def main():
         description="Open multiple Ghostty terminal windows"
     )
     parser.add_argument(
-        "--path",
-        required=True,
-        help="The directory path to open in each terminal"
+        "--path", required=True, help="The directory path to open in each terminal"
     )
     parser.add_argument(
-        "--number",
-        type=int,
-        required=True,
-        help="The number of terminals to open"
+        "--number", type=int, required=True, help="The number of terminals to open"
     )
 
     args = parser.parse_args()

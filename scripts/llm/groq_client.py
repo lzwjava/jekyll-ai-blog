@@ -39,9 +39,4 @@ def call_groq_api(prompt: str):
 
 
 if __name__ == "__main__":
-    print(
-        call_groq_api(
-            "Explain the importance of fast language models"
-        )
-    )
-
+    print(call_groq_api("Explain the importance of fast language models"))

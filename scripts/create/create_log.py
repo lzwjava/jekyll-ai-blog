@@ -19,9 +19,7 @@ def create_log():
 
     # Check character limit
     if len(content) > 1048576:  # 1MB limit
-        print(
-            "Error: Content exceeds 1MB. Please shorten the log and try again."
-        )
+        print("Error: Content exceeds 1MB. Please shorten the log and try again.")
         return
 
     # Detect if content is sensitive

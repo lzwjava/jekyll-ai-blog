@@ -14,7 +14,11 @@ from typing import Optional
 
 # Add repository root to sys.path for importing utilities
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-from scripts.create.create_note_utils import get_clipboard_content, clean_grok_tags, clean_content
+from scripts.create.create_note_utils import (
+    get_clipboard_content,
+    clean_grok_tags,
+    clean_content,
+)
 
 
 def _repo_root() -> str:
@@ -25,11 +29,11 @@ def _repo_root() -> str:
 def _extract_content_without_frontmatter(file_path):
     """Extract content without front matter from a note file"""
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
 
         # Split on front matter
-        sections = content.split('---', 2)
+        sections = content.split("---", 2)
         if len(sections) >= 3:
             return sections[2].strip()
 

@@ -11,7 +11,7 @@ def sigmoid(Z):
 def relu(Z):
     A = np.maximum(0, Z)
 
-    assert (A.shape == Z.shape)
+    assert A.shape == Z.shape
 
     cache = Z
     return A, cache
@@ -23,7 +23,7 @@ def relu_backward(dA, cache):
 
     dZ[Z <= 0] = 0
 
-    assert (dZ.shape == Z.shape)
+    assert dZ.shape == Z.shape
 
     return dZ
 
@@ -34,6 +34,6 @@ def sigmoid_backward(dA, cache):
     s = 1 / (1 + np.exp(-Z))
     dZ = dA * s * (1 - s)
 
-    assert (dZ.shape == Z.shape)
+    assert dZ.shape == Z.shape
 
     return dZ

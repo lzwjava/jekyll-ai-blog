@@ -7,7 +7,7 @@ word_to_ix = {"hello": 0, "world": 1}
 embeds = nn.Embedding(2, 5)
 print(embeds.weight)
 
-lookup_tensor = torch.tensor([word_to_ix['hello']], dtype=torch.long)
+lookup_tensor = torch.tensor([word_to_ix["hello"]], dtype=torch.long)
 hello_embed = embeds(lookup_tensor)
 print(hello_embed)
 
@@ -34,9 +34,7 @@ And see thy blood warm when thou feel'st it cold.""".split()
 print(test_sentence)
 
 ngrams = [
-    ([
-         test_sentence[i - j - 1] for j in range(CONTEXT_SIZE)], test_sentence[i]
-    )
+    ([test_sentence[i - j - 1] for j in range(CONTEXT_SIZE)], test_sentence[i])
     for i in range(CONTEXT_SIZE, len(test_sentence))
 ]
 
@@ -65,10 +63,10 @@ class NGramLanguageModel(nn.Module):
 
 
 x = torch.randn(10)
-print(f'{x=}')
+print(f"{x=}")
 
 soft = F.softmax(x, 0)
-print(f'{soft=}')
+print(f"{soft=}")
 
 print(F.log_softmax(x, dim=0))
 
@@ -100,4 +98,4 @@ for epoch in range(1):
 
 print(losses)
 
-print(model.embeddings.weight[word_to_ix['beauty']])
+print(model.embeddings.weight[word_to_ix["beauty"]])

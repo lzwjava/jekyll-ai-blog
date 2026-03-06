@@ -3,17 +3,31 @@ import matplotlib.pyplot as plt
 import sklearn
 import sklearn.datasets
 from public_tests import *
-from init_utils import sigmoid, relu, compute_loss, forward_propagation, backward_propagation
-from init_utils import update_parameters, predict, load_dataset, plot_decision_boundary, predict_dec
+from init_utils import (
+    sigmoid,
+    relu,
+    compute_loss,
+    forward_propagation,
+    backward_propagation,
+)
+from init_utils import (
+    update_parameters,
+    predict,
+    load_dataset,
+    plot_decision_boundary,
+    predict_dec,
+)
 
-plt.rcParams['figure.figsize'] = (7.0, 4.0)
-plt.rcParams['image.interpolation'] = 'nearest'
-plt.rcParams['image.cmap'] = 'gray'
+plt.rcParams["figure.figsize"] = (7.0, 4.0)
+plt.rcParams["image.interpolation"] = "nearest"
+plt.rcParams["image.cmap"] = "gray"
 
 train_X, train_Y, test_X, test_Y = load_dataset()
 
 
-def model(X, Y, learning_rate=0.01, num_iterations=15000, print_cost=True, initialization="he"):
+def model(
+    X, Y, learning_rate=0.01, num_iterations=15000, print_cost=True, initialization="he"
+):
     grads = {}
     costs = []
     m = X.shape[1]
@@ -41,8 +55,8 @@ def model(X, Y, learning_rate=0.01, num_iterations=15000, print_cost=True, initi
             costs.append(cost)
 
     plt.plot(costs)
-    plt.ylabel('cost')
-    plt.xlabel('iterations (per hundreds)')
+    plt.ylabel("cost")
+    plt.xlabel("iterations (per hundreds)")
     plt.title("Learning rate =" + str(learning_rate))
     plt.show()
 
@@ -54,8 +68,8 @@ def initialize_parameters_zeros(layers_dims):
     L = len(layers_dims)
 
     for l in range(1, L):
-        parameters['W' + str(l)] = np.zeros((layers_dims[l], layers_dims[l - 1]))
-        parameters['b' + str(l)] = np.zeros((layers_dims[l], 1))
+        parameters["W" + str(l)] = np.zeros((layers_dims[l], layers_dims[l - 1]))
+        parameters["b" + str(l)] = np.zeros((layers_dims[l], 1))
 
     return parameters
 
@@ -89,8 +103,10 @@ def initialize_parameters_random(layers_dims):
     L = len(layers_dims)
 
     for l in range(1, L):
-        parameters['W' + str(l)] = np.random.randn(layers_dims[l], layers_dims[l - 1]) * 10
-        parameters['b' + str(l)] = np.zeros((layers_dims[l], 1))
+        parameters["W" + str(l)] = (
+            np.random.randn(layers_dims[l], layers_dims[l - 1]) * 10
+        )
+        parameters["b" + str(l)] = np.zeros((layers_dims[l], 1))
 
     return parameters
 
@@ -124,9 +140,10 @@ def initialize_parameters_he(layers_dims):
     L = len(layers_dims) - 1
 
     for l in range(1, L + 1):
-        parameters['W' + str(l)] = np.random.randn(layers_dims[l], layers_dims[l - 1]) * np.sqrt(
-            2. / layers_dims[l - 1])
-        parameters['b' + str(l)] = np.zeros((layers_dims[l], 1))
+        parameters["W" + str(l)] = np.random.randn(
+            layers_dims[l], layers_dims[l - 1]
+        ) * np.sqrt(2.0 / layers_dims[l - 1])
+        parameters["b" + str(l)] = np.zeros((layers_dims[l], 1))
 
     return parameters
 

@@ -2,6 +2,7 @@
 import os
 import glob
 
+
 def rename_fineweb_files():
     """Rename FineWeb parquet files to remove ?download=true suffix"""
 
@@ -35,6 +36,7 @@ def rename_fineweb_files():
                 print(f"Error renaming {filename}: {e}")
 
     print(f"\nCompleted! Renamed {renamed_count} files.")
+
 
 if __name__ == "__main__":
     rename_fineweb_files()

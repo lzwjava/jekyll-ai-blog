@@ -73,7 +73,9 @@ def process_file(file_path, output_only=False, prompt_word=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fact-check numbered claims in Jekyll posts using AI")
+    parser = argparse.ArgumentParser(
+        description="Fact-check numbered claims in Jekyll posts using AI"
+    )
     parser.add_argument("files", nargs="*", help="Markdown files to process")
     parser.add_argument(
         "--output-only",

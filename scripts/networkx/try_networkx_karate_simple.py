@@ -1,6 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+
 # Minimal, readable layout (Graphviz if available, else spring)
 def get_layout(G):
     return nx.spring_layout(G, k=1.2, seed=42)
@@ -12,20 +13,15 @@ G = nx.DiGraph()
 nodes = {
     # Authoring
     "Feature files (.feature)": "Authoring",
-
     # Execution
     "Runner (CLI/JUnit5/Maven/Gradle)": "Execution",
-
     # Runtime
     "Karate engine (DSL interpreter)": "Runtime",
     "Assertions & matchers": "Runtime",
-
     # Protocols / IO
     "HTTP/REST/GraphQL": "Protocols",
-
     # External
     "External systems/services": "External",
-
     # Reporting
     "Reports (HTML, JUnit, JSON)": "Reporting",
     "CI/CD": "Reporting",
@@ -124,7 +120,9 @@ nx.draw_networkx_edge_labels(
 
 import matplotlib.patches as mpatches
 
-legend_patches = [mpatches.Patch(color=col, label=cat) for cat, col in category_colors.items()]
+legend_patches = [
+    mpatches.Patch(color=col, label=cat) for cat, col in category_colors.items()
+]
 legend = plt.legend(
     handles=legend_patches,
     loc="lower center",

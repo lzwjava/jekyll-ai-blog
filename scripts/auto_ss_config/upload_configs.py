@@ -160,7 +160,11 @@ def generate_clash_config(proxy_urls):
         config = yaml.load(file)
 
     # Create proxy configurations
-    proxy_configs = [create_proxy_config(proxy, i) for i, proxy in enumerate(proxies) if create_proxy_config(proxy, i) is not None]
+    proxy_configs = [
+        create_proxy_config(proxy, i)
+        for i, proxy in enumerate(proxies)
+        if create_proxy_config(proxy, i) is not None
+    ]
     proxy_names = [proxy["name"] for proxy in proxy_configs]
 
     # Update config

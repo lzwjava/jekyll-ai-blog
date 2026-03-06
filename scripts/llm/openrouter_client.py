@@ -17,12 +17,12 @@ MODEL_MAPPING = {
     "kimi": "moonshotai/kimi-k2.5",
     "deepseek": "deepseek/deepseek-v3.2",
     "mistral": "mistralai/mistral-medium-3.1",
-    "qwen":"qwen/qwen3-coder",
+    "qwen": "qwen/qwen3-coder",
     "gpt": "openai/gpt-5.2-chat",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
     "glm": "z-ai/glm-4.7",
-    "minimax": "minimax/minimax-m2.1"
+    "minimax": "minimax/minimax-m2.1",
 }
 
 DEFAULT_TOKENS = {
@@ -39,11 +39,13 @@ DEFAULT_TOKENS = {
     "grok-fast": 61072,
     "glm": 32768,
     "minimax": 32768,
-    "kimi-thinking": 32768    
+    "kimi-thinking": 32768,
 }
 
 
-def call_openrouter_api_with_messages(messages, model="mistral", max_tokens=None, debug=False):
+def call_openrouter_api_with_messages(
+    messages, model="mistral", max_tokens=None, debug=False
+):
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
@@ -58,7 +60,11 @@ def call_openrouter_api_with_messages(messages, model="mistral", max_tokens=None
     if max_tokens is None:
         max_tokens = DEFAULT_TOKENS.get(model, 4096)
 
-    data = {"model": MODEL_MAPPING[model], "messages": messages, "max_tokens": max_tokens}
+    data = {
+        "model": MODEL_MAPPING[model],
+        "messages": messages,
+        "max_tokens": max_tokens,
+    }
 
     if debug:
         print(f"Request URL: {url}")

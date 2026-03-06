@@ -2,7 +2,6 @@ import os
 import argparse
 from typing import Iterable, Tuple
 
-
 SENSITIVE_ENV_SUBSTRINGS: Tuple[str, ...] = (
     "API_KEY",
     "API-TOKEN",
@@ -97,14 +96,14 @@ def sanitize_yaml_lines(lines: Iterable[str]) -> str:
                 key, after = rest.split(":", 1)
                 key_name = key.strip()
                 if key_name in SENSITIVE_YAML_KEYS:
-                    out_lines.append(f"{indent}- {key_name}: \"\"")
+                    out_lines.append(f'{indent}- {key_name}: ""')
                     continue
         else:
             if ":" in stripped:
                 key, after = stripped.split(":", 1)
                 key_name = key.strip()
                 if key_name in SENSITIVE_YAML_KEYS:
-                    out_lines.append(f"{indent}{key_name}: \"\"")
+                    out_lines.append(f'{indent}{key_name}: ""')
                     continue
 
         out_lines.append(s)
@@ -204,10 +203,12 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
             val = v.strip()
 
             recovered_env_name = ENV_RECOVERY_MAP.get(key)
-            recovered_value = os.environ.get(recovered_env_name) if recovered_env_name else None
+            recovered_value = (
+                os.environ.get(recovered_env_name) if recovered_env_name else None
+            )
 
             if recovered_value and (val == "" or val == '""' or val == "''"):
-                out_lines.append(f"{key}=\"{recovered_value}\"")
+                out_lines.append(f'{key}="{recovered_value}"')
             else:
                 out_lines.append(raw)
 
@@ -220,7 +221,9 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
             print(f"Wrote .env to {env_dst}")
             wrote_any = True
         except PermissionError:
-            print(f"Permission denied writing {env_dst}. Run with appropriate permissions.")
+            print(
+                f"Permission denied writing {env_dst}. Run with appropriate permissions."
+            )
     else:
         print(f"Warning: sanitized env not found at {env_src}")
 
@@ -234,7 +237,9 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
             print(f"Wrote YAML to {yaml_dst}")
             wrote_any = True
         except PermissionError:
-            print(f"Permission denied writing {yaml_dst}. Run with appropriate permissions.")
+            print(
+                f"Permission denied writing {yaml_dst}. Run with appropriate permissions."
+            )
     else:
         print(f"Warning: sanitized yaml not found at {yaml_src}")
 
@@ -248,7 +253,9 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
             print(f"Wrote docker-compose.override.yml to {docker_compose_dst}")
             wrote_any = True
         except PermissionError:
-            print(f"Permission denied writing {docker_compose_dst}. Run with appropriate permissions.")
+            print(
+                f"Permission denied writing {docker_compose_dst}. Run with appropriate permissions."
+            )
     else:
         print(f"Warning: docker-compose.override.yml not found at {docker_compose_src}")
 
@@ -257,7 +264,9 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Sync LibreChat config <-> repo config")
+    parser = argparse.ArgumentParser(
+        description="Sync LibreChat config <-> repo config"
+    )
     parser.add_argument(
         "--reverse",
         action="store_true",

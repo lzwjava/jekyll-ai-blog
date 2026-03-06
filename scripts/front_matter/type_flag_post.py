@@ -5,10 +5,17 @@ import datetime
 import argparse
 from type_flag_util import update_front_matter
 
+
 def main():
-    parser = argparse.ArgumentParser(description='Update front matter in blog post files')
-    parser.add_argument('-n', type=int, help='Maximum number of files to update')
-    parser.add_argument('--type', default='post', help='Type value to set in front matter (default: post)')
+    parser = argparse.ArgumentParser(
+        description="Update front matter in blog post files"
+    )
+    parser.add_argument("-n", type=int, help="Maximum number of files to update")
+    parser.add_argument(
+        "--type",
+        default="post",
+        help="Type value to set in front matter (default: post)",
+    )
     args = parser.parse_args()
 
     original_dir = "original"

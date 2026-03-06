@@ -7,12 +7,14 @@ import subprocess
 import sys
 import re
 
+
 def get_jekyll_processes():
     """Get list of PIDs for Ruby processes listening on port 4000"""
     try:
         # Run lsof to find processes on port 4000
-        result = subprocess.run(['lsof', '-i', ':4000'],
-                              capture_output=True, text=True, check=False)
+        result = subprocess.run(
+            ["lsof", "-i", ":4000"], capture_output=True, text=True, check=False
+        )
 
         # lsof returns exit code 1 when no processes are found, which is not an error for us
         if result.returncode != 0 and result.returncode != 1:
@@ -23,8 +25,8 @@ def get_jekyll_processes():
             return set()
 
         pids = set()
-        for line in result.stdout.strip().split('\n'):
-            if line.startswith('ruby'):
+        for line in result.stdout.strip().split("\n"):
+            if line.startswith("ruby"):
                 # Extract PID from the line
                 parts = line.split()
                 if len(parts) >= 2 and parts[1].isdigit():
@@ -39,6 +41,7 @@ def get_jekyll_processes():
         print(f"Error running lsof: {e}")
         return set()
 
+
 def kill_processes(pids):
     """Kill the specified processes"""
     if not pids:
@@ -50,12 +53,13 @@ def kill_processes(pids):
     for pid in pids:
         try:
             print(f"Killing process {pid}...")
-            subprocess.run(['kill', '-9', str(pid)], check=True)
+            subprocess.run(["kill", "-9", str(pid)], check=True)
         except subprocess.CalledProcessError:
             print(f"Error killing process {pid}")
 
     # Verify processes are dead
     import time
+
     time.sleep(0.5)
 
     remaining_pids = get_jekyll_processes()
@@ -63,8 +67,11 @@ def kill_processes(pids):
         print("All Jekyll processes killed successfully!")
         return True
     else:
-        print(f"Some processes may still be running: {', '.join(map(str, remaining_pids))}")
+        print(
+            f"Some processes may still be running: {', '.join(map(str, remaining_pids))}"
+        )
         return False
+
 
 def main():
     """Main function"""
@@ -74,6 +81,7 @@ def main():
     success = kill_processes(pids)
 
     sys.exit(0 if success else 1)
+
 
 if __name__ == "__main__":
     main()

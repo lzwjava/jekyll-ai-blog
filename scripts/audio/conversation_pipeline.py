@@ -12,7 +12,9 @@ OUTPUT_DIRECTORY = "/Users/lzwjava/projects/blog-assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 
-def text_to_speech(text, output_filename, voice_name=None, language_code="en-US", dry_run=False):
+def text_to_speech(
+    text, output_filename, voice_name=None, language_code="en-US", dry_run=False
+):
     print(f"Generating audio for: {output_filename}")
     if dry_run:
         print(f"Dry run: Skipping audio generation for {output_filename}")
@@ -55,7 +57,9 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
     if seed is None:
         seed = int(time.time())
     random.seed(seed)
-    filepath = filename if os.path.isabs(filename) else os.path.join(INPUT_DIRECTORY, filename)
+    filepath = (
+        filename if os.path.isabs(filename) else os.path.join(INPUT_DIRECTORY, filename)
+    )
     output_filename = os.path.join(
         OUTPUT_DIRECTORY, os.path.splitext(os.path.basename(filename))[0] + ".mp3"
     )
@@ -75,10 +79,10 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
 
     if lang_type == "en":
         voice_options = [
-            "en-US-Chirp3-HD-Charon", 
-            "en-US-Chirp3-HD-Sulafat", 
-            "en-US-Chirp3-HD-Zephyr", 
-            "en-US-Chirp3-HD-Achernar", 
+            "en-US-Chirp3-HD-Charon",
+            "en-US-Chirp3-HD-Sulafat",
+            "en-US-Chirp3-HD-Zephyr",
+            "en-US-Chirp3-HD-Achernar",
             "en-US-Chirp3-HD-Aoede",
             "en-US-Chirp3-HD-Autonoe",
             "en-US-Chirp3-HD-Callirrhoe",
@@ -94,7 +98,7 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
             "cmn-CN-Chirp3-HD-Aoede",
             "cmn-CN-Chirp3-HD-Autonoe",
             "cmn-CN-Chirp3-HD-Callirrhoe",
-            "cmn-CN-Chirp3-HD-Despina",            
+            "cmn-CN-Chirp3-HD-Despina",
         ]
         language_code = "cmn-CN"
     voice_name_A = random.choice(voice_options)
@@ -116,7 +120,13 @@ def process_conversation(filename, seed=None, dry_run=False, lang_type="en"):
         elif speaker == "B":
             voice_name = voice_name_B
 
-        if not text_to_speech(line, temp_file, voice_name=voice_name, language_code=language_code, dry_run=dry_run):
+        if not text_to_speech(
+            line,
+            temp_file,
+            voice_name=voice_name,
+            language_code=language_code,
+            dry_run=dry_run,
+        ):
             print(f"Failed to generate audio for line {idx+1} of {filename}")
             # Clean up temp files
             for temp_file_to_remove in temp_files:
@@ -179,7 +189,13 @@ if __name__ == "__main__":
         help="Perform a dry run without generating audio.",
     )
     parser.add_argument("--file", type=str, help="Specific JSON file to process.")
-    parser.add_argument("--type", type=str, choices=["en", "cn"], default="en", help="Language type for voices (en or cn).")
+    parser.add_argument(
+        "--type",
+        type=str,
+        choices=["en", "cn"],
+        default="en",
+        help="Language type for voices (en or cn).",
+    )
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
