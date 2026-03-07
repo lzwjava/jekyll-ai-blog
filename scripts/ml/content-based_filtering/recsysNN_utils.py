@@ -125,7 +125,7 @@ def split_str(ifeatures, smax):
     """split the feature name strings to tables fit"""
     ofeatures = []
     for s in ifeatures:
-        if not " " in s:  # skip string that already have a space
+        if " " not in s:  # skip string that already have a space
             if len(s) > smax:
                 mid = int(len(s) / 2)
                 s = s[:mid] + " " + s[mid:]
@@ -190,7 +190,7 @@ def get_user_vecs(user_id, user_train, item_vecs, user_to_genre):
     user train/predict matrix to match the size of item_vecs
     y vector with ratings for all rated movies and 0 for others of size item_vecs"""
 
-    if not user_id in user_to_genre:
+    if user_id not in user_to_genre:
         print("error: unknown user id")
         return None
     else:

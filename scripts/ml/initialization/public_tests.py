@@ -1,5 +1,5 @@
 import numpy as np
-from dlai_tools.testing_utils import single_test, multiple_test
+from dlai_tools.testing_utils import multiple_test
 
 
 def initialize_parameters_zeros_test(target):

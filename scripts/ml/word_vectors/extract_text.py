@@ -110,7 +110,7 @@ def extract_and_save_posts(
         word_count = len(content.split())
         char_count = len(content)
 
-    print(f"Summary:")
+    print("Summary:")
     print(f"  - Posts processed: {len(recent_posts)}")
     print(f"  - Total words: {word_count:,}")
     print(f"  - Total characters: {char_count:,}")

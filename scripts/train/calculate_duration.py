@@ -38,7 +38,7 @@ if __name__ == "__main__":
     log_file = "/home/lzw/projects/blog-source/scripts/train/evaluate.txt"
     results = calculate_training_duration(log_file)
 
-    print(f"Training Analysis:")
+    print("Training Analysis:")
     print(f"Total iterations: {results['total_iterations']}")
     print(f"Total time: {results['total_time_ms']:,.2f} ms")
     print(f"Total time: {results['total_time_seconds']:,.2f} seconds")

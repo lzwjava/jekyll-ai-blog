@@ -5,7 +5,6 @@ import shutil
 import re
 import yaml
 import sys
-import glob
 from datetime import datetime
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))

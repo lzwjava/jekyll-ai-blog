@@ -12,7 +12,6 @@ from alibabacloud_tea_openapi import models as open_api_models
 from alibabacloud_vpc20160428 import models as vpc_20160428_models
 from alibabacloud_tea_util import models as util_models
 from alibabacloud_tea_util.client import Client as UtilClient
-from alibabacloud_ecs20140526.client import Client as Ecs20140526Client
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -29,7 +28,7 @@ class Sample:
             access_key_id=os.environ["ALIBABA_CLOUD_ACCESS_ID_API_KEY"],
             access_key_secret=os.environ["ALIBABA_CLOUD_ACCESS_API_KEY"],
         )
-        config.endpoint = f"vpc.cn-hongkong.aliyuncs.com"
+        config.endpoint = "vpc.cn-hongkong.aliyuncs.com"
         return Vpc20160428Client(config)
 
     @staticmethod
@@ -163,7 +162,7 @@ class Sample:
             result = client.describe_eip_addresses_with_options(
                 describe_eip_addresses_request, runtime
             )
-            logging.info(f"Successfully described EIP.")
+            logging.info("Successfully described EIP.")
             print(json.dumps(result.body.to_map(), indent=4))
             if (
                 result.body.eip_addresses

@@ -19,7 +19,6 @@ import shutil
 import os
 import sys
 import subprocess
-from pathlib import Path
 
 # Default service files to copy (from your scripts/service directory)
 DEFAULT_SERVICES = [

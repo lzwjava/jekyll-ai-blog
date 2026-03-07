@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-import os, time, json, hashlib, subprocess, textwrap, datetime, pathlib, sys, re
+import os
+import time
+import json
+import hashlib
+import subprocess
+import datetime
+import sys
+import re
 from typing import Optional
 
 # Import utilities from create_note_utils
@@ -8,7 +15,7 @@ from create_note_utils import clean_grok_tags, clean_content
 
 try:
     import pyperclip
-except Exception as e:
+except Exception:
     print("Error: pyperclip not installed. Run `pip install pyperclip`.")
     sys.exit(1)
 
@@ -64,13 +71,6 @@ def sanitize_for_frontmatter(s: str) -> str:
 
 def write_clipwatch_note(content: str, h: str) -> str:
     """Create a simplified note using create_note_utils but maintaining clipwatch structure"""
-    from create_note_utils import (
-        create_filename,
-        format_front_matter,
-        write_note,
-        clean_grok_tags,
-        clean_content,
-    )
 
     now = datetime.datetime.now()
     date = now.strftime("%Y-%m-%d")
@@ -142,7 +142,7 @@ def main():
     while True:
         try:
             txt = pyperclip.paste()
-        except Exception as e:
+        except Exception:
             # On some systems paste can throw if clipboard is not available
             time.sleep(POLL_SEC)
             continue

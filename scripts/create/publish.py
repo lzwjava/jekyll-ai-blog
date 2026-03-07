@@ -27,9 +27,9 @@ def validate_image_frontmatter(file_path):
         has_image_in_frontmatter = front_matter_dict.get("image", False)
 
         if has_image_in_content and not has_image_in_frontmatter:
-            return False, f"Content contains images but image: false in frontmatter"
+            return False, "Content contains images but image: false in frontmatter"
         elif not has_image_in_content and has_image_in_frontmatter:
-            return False, f"Frontmatter has image: true but no images in content"
+            return False, "Frontmatter has image: true but no images in content"
         else:
             return True, None
 
@@ -71,7 +71,7 @@ def publish_drafts_to_posts():
         is_valid, error_message = validate_image_frontmatter(file_path)
         if not is_valid:
             print(f"❌ Cannot publish '{file_name}': {error_message}")
-            print(f"   Please fix the image frontmatter before publishing.")
+            print("   Please fix the image frontmatter before publishing.")
             continue
 
         try:

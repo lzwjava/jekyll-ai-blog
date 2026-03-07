@@ -11,6 +11,6 @@ if hasattr(torch, "xpu") and torch.xpu.is_available():
     x = torch.randn(100, 100, device="xpu")
     y = torch.randn(100, 100, device="xpu")
     z = x @ y
-    print(f"✓ Successfully computed on GPU")
+    print("✓ Successfully computed on GPU")
 else:
     print("✗ Intel GPU not detected")

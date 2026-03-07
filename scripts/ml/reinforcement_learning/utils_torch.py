@@ -6,7 +6,6 @@ Recommenders, Reinforcement Learning" course on Coursera.
 
 import base64
 import random
-from itertools import zip_longest
 
 import imageio
 import IPython

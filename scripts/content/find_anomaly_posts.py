@@ -266,7 +266,7 @@ def display_anomalies_table(anomalous_posts):
     Args:
         anomalous_posts (list): List of posts with anomalies
     """
-    print(f"\nWEIRD POSTS (Length Anomalies Detected):")
+    print("\nWEIRD POSTS (Length Anomalies Detected):")
     print("=" * 120)
     print(
         f"{'Base Name':<35} {'Lang':<4} {'Issue':<12} {'Actual':<7} {'Expected':<12} {'Deviation':<10} {'Path':<30}"
@@ -301,7 +301,7 @@ def display_anomalies_list(anomalous_posts):
     Args:
         anomalous_posts (list): List of posts with anomalies
     """
-    print(f"\nWEIRD POSTS (Length Anomalies Detected):")
+    print("\nWEIRD POSTS (Length Anomalies Detected):")
     print("=" * 80)
 
     for post in anomalous_posts:
@@ -355,12 +355,12 @@ def display_statistics(anomalous_posts):
             issue_counts[anomaly["issue"]] += 1
             language_counts[anomaly["language"]] += 1
 
-    print(f"\nANOMALY STATISTICS:")
-    print(f"   Issue types:")
+    print("\nANOMALY STATISTICS:")
+    print("   Issue types:")
     for issue, count in sorted(issue_counts.items()):
         print(f"      {issue.replace('_', ' ').title()}: {count}")
 
-    print(f"\n   Languages with anomalies:")
+    print("\n   Languages with anomalies:")
     for language, count in sorted(language_counts.items()):
         print(f"      {language}: {count}")
 
@@ -431,7 +431,7 @@ Examples:
 
     # Display summary
     total_anomalies = sum(len(post["anomalies"]) for post in anomalous_posts)
-    print(f"\nSUMMARY:")
+    print("\nSUMMARY:")
     print(f"   Posts with anomalies: {len(anomalous_posts)}")
     print(f"   Total anomalies found: {total_anomalies}")
     print(f"   Detection threshold: {args.threshold:.0%}")

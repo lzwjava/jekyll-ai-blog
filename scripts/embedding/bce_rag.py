@@ -1,6 +1,5 @@
 # We provide the advanced preproc tokenization for reranking.
 from BCEmbedding.tools.langchain import BCERerank
-from BCEmbedding import RerankerModel
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader

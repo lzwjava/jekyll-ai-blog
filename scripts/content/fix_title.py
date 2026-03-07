@@ -1,11 +1,9 @@
 import os
 import re
-import time
 import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
 import yaml
-import concurrent.futures
 import frontmatter
 
 load_dotenv()
@@ -44,10 +42,10 @@ def translate_text(text, target_language):
             stream=False,
         )
         if response and response.choices:
-            print(f"  Translation successful.")
+            print("  Translation successful.")
             return response.choices[0].message.content
         else:
-            print(f"  Translation failed.")
+            print("  Translation failed.")
             return None
     except Exception as e:
         print(f"  Translation failed with error: {e}")

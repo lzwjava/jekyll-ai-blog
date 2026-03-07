@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
-import os
 import tensorflow as tf
 import tensorflow.keras.layers as tfl
 
@@ -136,7 +134,7 @@ def alpaca_model(image_shape=IMG_SIZE, data_augmentation=data_augmenter()):
 
 model2 = alpaca_model(IMG_SIZE, data_augmentation)
 
-from test_utils import summary, comparator
+from test_utils import summary
 
 alpaca_summary = [
     ["InputLayer", [(None, 160, 160, 3)], 0],

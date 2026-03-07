@@ -243,7 +243,7 @@ def display_language_statistics(orphaned_posts):
         for language in post["missing_languages"]:
             missing_language_counts[language] += 1
 
-    print(f"\nMISSING TRANSLATIONS BY LANGUAGE:")
+    print("\nMISSING TRANSLATIONS BY LANGUAGE:")
     for language, count in sorted(missing_language_counts.items()):
         print(f"   {language}: {count} posts missing")
 
@@ -328,7 +328,7 @@ Examples:
             display_posts_csv(complete_posts)
 
     # Display summary statistics
-    print(f"\nSUMMARY:")
+    print("\nSUMMARY:")
     print(f"   Total orphaned posts: {len(orphaned_posts)}")
     print(f"   Total complete posts: {len(complete_posts)}")
 

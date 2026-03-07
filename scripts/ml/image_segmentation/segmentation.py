@@ -1,5 +1,4 @@
 import tensorflow as tf
-import numpy as np
 
 from tensorflow.keras.layers import Input
 from tensorflow.keras.layers import Conv2D
@@ -11,8 +10,6 @@ from tensorflow.keras.layers import concatenate
 from test_utils import summary, comparator
 
 import os
-import numpy as np
-import pandas as pd
 
 import imageio
 

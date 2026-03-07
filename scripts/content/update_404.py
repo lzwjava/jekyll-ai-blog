@@ -3,7 +3,6 @@
 import os
 import re
 import yaml
-from datetime import datetime
 
 
 def extract_frontmatter(file_path):

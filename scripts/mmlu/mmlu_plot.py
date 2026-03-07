@@ -48,5 +48,5 @@ for i, val in enumerate(accuracy):
     plt.text(i, val + 1, f"{val:.2f}%", ha="center", va="bottom")
 
 # Save the chart as a JPG file in the current directory
-plt.savefig(os.path.join(os.path.dirname(__file__), f"mmlu_accuracy_chart.jpg"))
+plt.savefig(os.path.join(os.path.dirname(__file__), "mmlu_accuracy_chart.jpg"))
 plt.show()

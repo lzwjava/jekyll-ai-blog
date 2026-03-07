@@ -1,6 +1,4 @@
 import numpy as np
-import copy
-from test_utils import single_test, multiple_test
 from testCases_v2 import nn_model_test_case
 
 
@@ -82,10 +80,10 @@ def initialize_parameters_test(target):
         f"Wrong type for b2. Expected: {np.ndarray}"
     )
 
-    assert parameters["W1"].shape == expected_output["W1"].shape, f"Wrong shape for W1."
-    assert parameters["b1"].shape == expected_output["b1"].shape, f"Wrong shape for b1."
-    assert parameters["W2"].shape == expected_output["W2"].shape, f"Wrong shape for W2."
-    assert parameters["b2"].shape == expected_output["b2"].shape, f"Wrong shape for b2."
+    assert parameters["W1"].shape == expected_output["W1"].shape, "Wrong shape for W1."
+    assert parameters["b1"].shape == expected_output["b1"].shape, "Wrong shape for b1."
+    assert parameters["W2"].shape == expected_output["W2"].shape, "Wrong shape for W2."
+    assert parameters["b2"].shape == expected_output["b2"].shape, "Wrong shape for b2."
 
     assert np.allclose(parameters["W1"], expected_output["W1"]), "Wrong values for W1"
     assert np.allclose(parameters["b1"], expected_output["b1"]), "Wrong values for b1"
@@ -155,10 +153,10 @@ def forward_propagation_test(target):
         f"Wrong type for cache['Z2']. Expected: {np.ndarray}"
     )
 
-    assert output[0].shape == expected_A2.shape, f"Wrong shape for A2."
-    assert output[1]["Z1"].shape == expected_Z1.shape, f"Wrong shape for cache['Z1']."
-    assert output[1]["A1"].shape == expected_A1.shape, f"Wrong shape for cache['A1']."
-    assert output[1]["Z2"].shape == expected_Z2.shape, f"Wrong shape for cache['Z2']."
+    assert output[0].shape == expected_A2.shape, "Wrong shape for A2."
+    assert output[1]["Z1"].shape == expected_Z1.shape, "Wrong shape for cache['Z1']."
+    assert output[1]["A1"].shape == expected_A1.shape, "Wrong shape for cache['A1']."
+    assert output[1]["Z2"].shape == expected_Z2.shape, "Wrong shape for cache['Z2']."
 
     assert np.allclose(output[0], expected_A2), "Wrong values for A2"
     assert np.allclose(output[1]["Z1"], expected_Z1), "Wrong values for cache['Z1']"
@@ -273,10 +271,10 @@ def backward_propagation_test(target):
         f"Wrong type for db2. Expected: {np.ndarray}"
     )
 
-    assert output["dW1"].shape == expected_output["dW1"].shape, f"Wrong shape for dW1."
-    assert output["db1"].shape == expected_output["db1"].shape, f"Wrong shape for db1."
-    assert output["dW2"].shape == expected_output["dW2"].shape, f"Wrong shape for dW2."
-    assert output["db2"].shape == expected_output["db2"].shape, f"Wrong shape for db2."
+    assert output["dW1"].shape == expected_output["dW1"].shape, "Wrong shape for dW1."
+    assert output["db1"].shape == expected_output["db1"].shape, "Wrong shape for db1."
+    assert output["dW2"].shape == expected_output["dW2"].shape, "Wrong shape for dW2."
+    assert output["db2"].shape == expected_output["db2"].shape, "Wrong shape for db2."
 
     assert np.allclose(output["dW1"], expected_output["dW1"]), "Wrong values for dW1"
     assert np.allclose(output["db1"], expected_output["db1"]), "Wrong values for db1"
@@ -357,10 +355,10 @@ def update_parameters_test(target):
         f"Wrong type for b2. Expected: {np.ndarray}"
     )
 
-    assert output["W1"].shape == expected_output["W1"].shape, f"Wrong shape for W1."
-    assert output["b1"].shape == expected_output["b1"].shape, f"Wrong shape for b1."
-    assert output["W2"].shape == expected_output["W2"].shape, f"Wrong shape for W2."
-    assert output["b2"].shape == expected_output["b2"].shape, f"Wrong shape for b2."
+    assert output["W1"].shape == expected_output["W1"].shape, "Wrong shape for W1."
+    assert output["b1"].shape == expected_output["b1"].shape, "Wrong shape for b1."
+    assert output["W2"].shape == expected_output["W2"].shape, "Wrong shape for W2."
+    assert output["b2"].shape == expected_output["b2"].shape, "Wrong shape for b2."
 
     assert np.allclose(output["W1"], expected_output["W1"]), "Wrong values for W1"
     assert np.allclose(output["b1"], expected_output["b1"]), "Wrong values for b1"
@@ -414,10 +412,10 @@ def nn_model_test(target):
         f"Wrong type for b2. Expected: {np.ndarray}"
     )
 
-    assert output["W1"].shape == expected_output["W1"].shape, f"Wrong shape for W1."
-    assert output["b1"].shape == expected_output["b1"].shape, f"Wrong shape for b1."
-    assert output["W2"].shape == expected_output["W2"].shape, f"Wrong shape for W2."
-    assert output["b2"].shape == expected_output["b2"].shape, f"Wrong shape for b2."
+    assert output["W1"].shape == expected_output["W1"].shape, "Wrong shape for W1."
+    assert output["b1"].shape == expected_output["b1"].shape, "Wrong shape for b1."
+    assert output["W2"].shape == expected_output["W2"].shape, "Wrong shape for W2."
+    assert output["b2"].shape == expected_output["b2"].shape, "Wrong shape for b2."
 
     assert np.allclose(output["W1"], expected_output["W1"]), "Wrong values for W1"
     assert np.allclose(output["b1"], expected_output["b1"]), "Wrong values for b1"

@@ -1,7 +1,6 @@
 import os
 import re
 from PIL import Image
-import markdown
 
 
 def check_images_in_markdown(file_path):

@@ -1,17 +1,14 @@
 import os
 import glob
-import json
 from dotenv import load_dotenv
 from transformers import (
-    AutoTokenizer,
     AutoModelForCausalLM,
     Trainer,
     TrainingArguments,
     DataCollatorForLanguageModeling,
     LlamaTokenizerFast,
 )
-from datasets import Dataset, load_dataset
-import torch
+from datasets import Dataset
 
 load_dotenv()
 

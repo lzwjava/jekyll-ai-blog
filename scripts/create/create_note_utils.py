@@ -53,7 +53,7 @@ def generate_title(content, max_words, format_prompt):
 def generate_short_title(prompt):
     title = call_openrouter_api(prompt)
     if not title:
-        print(f"Failed to generate short title. Exit.")
+        print("Failed to generate short title. Exit.")
         sys.exit(1)
     return title
 

@@ -125,8 +125,8 @@ def main():
     if not data:
         sys.exit(1)
 
-    print(f"Cloudflare Web Analytics Report")
-    print(f"==============================")
+    print("Cloudflare Web Analytics Report")
+    print("==============================")
     print(f"Site:       {data['site']}")
     print(f"Period:     {data['date_range']}")
     print(f"Page Views: {data['page_views']:,}")
@@ -134,8 +134,8 @@ def main():
     if args.update_config:
         update_config_yaml(data["page_views"])
 
-    print(f"\nExtracted Text:")
-    print(f"--------------")
+    print("\nExtracted Text:")
+    print("--------------")
     print(data["full_text"])
 
 

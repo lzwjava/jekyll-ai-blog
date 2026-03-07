@@ -1,7 +1,4 @@
 import os
-import re
-import frontmatter
-import datetime
 import argparse
 from type_flag_util import update_front_matter
 

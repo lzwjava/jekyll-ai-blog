@@ -1,12 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.io
 import math
-import sklearn
-import sklearn.datasets
 
 from opt_utils_v1a import (
-    load_params_and_grads,
     initialize_parameters,
     forward_propagation,
     backward_propagation,
@@ -18,7 +14,6 @@ from opt_utils_v1a import (
     plot_decision_boundary,
     load_dataset,
 )
-from copy import deepcopy
 from testCases import *
 from public_tests import *
 

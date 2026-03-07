@@ -1,6 +1,4 @@
 import subprocess
-import re
-import os
 
 
 def scan_wifi():

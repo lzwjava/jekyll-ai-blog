@@ -188,7 +188,7 @@ def main():
             apply_edge_smoothing(temp_output, smooth_output)
             args.output = smooth_output
 
-        print(f"Background removal completed successfully!")
+        print("Background removal completed successfully!")
         print(f"Output saved to: {args.output}")
 
         if png_path != args.input and os.path.exists(png_path):

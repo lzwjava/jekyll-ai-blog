@@ -178,7 +178,7 @@ def conv_forward_test_2(target):
     assert np.isclose(Z_means, expected_Z), (
         f"Wrong Z mean. Expected: {expected_Z} got: {Z_means}"
     )
-    assert np.allclose(cache_conv[0][1, 2], expected_conv), f"Values in Z are wrong"
+    assert np.allclose(cache_conv[0][1, 2], expected_conv), "Values in Z are wrong"
 
     print("\033[92mSecond Test: All tests passed!")
 

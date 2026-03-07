@@ -27,7 +27,7 @@ def sync_git_hooks():
         if (
             f.endswith(".sh")  # Shell scripts
             or (
-                not "." in f and os.path.isfile(os.path.join(source_dir, f))
+                "." not in f and os.path.isfile(os.path.join(source_dir, f))
             )  # Files without extension
         )
         and f != "sync_githook.py"  # Exclude the sync script itself

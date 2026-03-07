@@ -1,5 +1,4 @@
 import pyperclip
-import os
 
 
 def save_to_file(content, filename="answer.md"):

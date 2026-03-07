@@ -1,7 +1,6 @@
 import os
 import re
 from ruamel.yaml import YAML
-import json
 from io import StringIO
 
 

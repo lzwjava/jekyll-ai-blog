@@ -1,4 +1,3 @@
-import objc
 from CoreText import (
     CTFontManagerCopyAvailableFontDescriptors,
     CTFontDescriptorCopyAttribute,

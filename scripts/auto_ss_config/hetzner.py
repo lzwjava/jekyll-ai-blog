@@ -83,7 +83,7 @@ def create_server_from_snapshot(snapshot_id, source_server, new_name=None):
 
                 # Only proceed when the snapshot is actually available
                 if snapshot.status == "available":
-                    print(f"Snapshot is now fully ready to use")
+                    print("Snapshot is now fully ready to use")
                     break
 
                 print(

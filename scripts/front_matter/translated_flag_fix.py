@@ -1,7 +1,6 @@
 import os
 import re
 import yaml
-import traceback
 
 
 def validate_front_matter(file_path):

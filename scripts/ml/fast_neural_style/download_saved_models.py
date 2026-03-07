@@ -1,4 +1,3 @@
-import os
 import zipfile
 
 # PyTorch 1.1 moves _download_url_to_file

@@ -34,13 +34,11 @@ def call_deepseek_api(prompt):
             or not response_json.get("choices")
             or not response_json["choices"][0]["message"]["content"]
         ):
-            print(f"  Error: Translation response is empty or invalid:")
+            print("  Error: Translation response is empty or invalid:")
             print(response.content)
             return None
         if response_json["choices"][0].get("finish_reason") not in ("stop", "length"):
-            print(
-                f"  Error: Translation did not finish with 'stop' or 'length' reason:"
-            )
+            print("  Error: Translation did not finish with 'stop' or 'length' reason:")
             print(response.content)
             return None
         print("Translation successful")

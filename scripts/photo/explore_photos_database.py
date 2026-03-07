@@ -1,8 +1,6 @@
-import os
 import sqlite3
 import pandas as pd
 from pathlib import Path
-import time
 
 
 def explore_photos_database(photos_library_path):
@@ -174,7 +172,7 @@ def explore_photos_database(photos_library_path):
                                             ][:3]
                                         ]
                                     )
-                            except sqlite3.Error as e:
+                            except sqlite3.Error:
                                 pass  # Silently try next combination
         except Exception as e:
             print(f"Error in direct query: {e}")

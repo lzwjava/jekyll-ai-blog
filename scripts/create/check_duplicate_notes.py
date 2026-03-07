@@ -7,10 +7,8 @@ This script reads content from the clipboard and compares it against the latest
 """
 
 import os
-import re
 import sys
 from pathlib import Path
-from typing import Optional
 
 # Add repository root to sys.path for importing utilities
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))

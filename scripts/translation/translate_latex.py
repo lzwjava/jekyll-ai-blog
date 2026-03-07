@@ -1,12 +1,8 @@
 import os
-import re
-import time
 import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
-import yaml
 import concurrent.futures
-import shutil
 
 load_dotenv()
 
@@ -21,17 +17,17 @@ client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 def create_translation_prompt(target_language):
     if target_language == "zh":
-        return f"""You are a professional translator. You are translating a LaTeX file from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."""
+        return """You are a professional translator. You are translating a LaTeX file from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."""
     elif target_language == "ja":
-        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to Japanese. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to Japanese. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
     elif target_language == "es":
-        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to Spanish. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to Spanish. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
     elif target_language == "hi":
-        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to Hindi. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to Hindi. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
     elif target_language == "fr":
-        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to French. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to French. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
     elif target_language == "en":
-        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to English. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to English. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
     else:
         return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to {target_language}. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
 
@@ -51,10 +47,10 @@ def translate_text(text, target_language):
             stream=False,
         )
         if response and response.choices:
-            print(f"  Translation successful.")
+            print("  Translation successful.")
             return response.choices[0].message.content
         else:
-            print(f"  Translation failed.")
+            print("  Translation failed.")
             return None
     except Exception as e:
         print(f"  Translation failed with error: {e}")

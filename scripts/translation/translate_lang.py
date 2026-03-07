@@ -1,6 +1,5 @@
 import os
 import re
-import time
 import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -42,7 +41,7 @@ def create_translation_prompt(target_language):
             "just do not change."
         )
     elif target_language == "hant":
-        return f"Translate the following text to Traditional Chinese (Hong Kong)."
+        return "Translate the following text to Traditional Chinese (Hong Kong)."
     elif target_language == "ja":
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Be careful about code blocks, if not sure, just do not change."
     elif target_language == "es":
@@ -73,15 +72,15 @@ def translate_text(text, target_language):
             stream=False,
         )
         if response and response.choices:
-            print(f"  Translation successful.")
+            print("  Translation successful.")
             return response.choices[0].message.content
         else:
-            print(f"  Translation failed.")
+            print("  Translation failed.")
             return None
     except Exception as e:
         print(f"  Translation failed with error: {e}")
         if "This model's maximum context length is" in str(e):
-            print(f"  Skipping translation due to context length error.")
+            print("  Skipping translation due to context length error.")
             return None
         return None
 

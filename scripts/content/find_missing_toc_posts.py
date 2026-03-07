@@ -12,7 +12,6 @@ Usage:
     python scripts/content/find_missing_toc_posts.py --lang en
 """
 
-import os
 import argparse
 import re
 from collections import defaultdict

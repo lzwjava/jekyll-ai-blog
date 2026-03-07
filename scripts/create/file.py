@@ -1,7 +1,6 @@
 import os
 import datetime
 import sys
-import re
 from delete import delete_md
 
 

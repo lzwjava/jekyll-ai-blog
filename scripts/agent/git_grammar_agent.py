@@ -14,8 +14,6 @@ from scripts.agent.git_utils import (
 )
 from scripts.agent.validate_utils import (
     validate_grammar_fix,
-    validate_markdown_syntax,
-    validate_content_structure,
 )
 
 #!/usr/bin/env python3

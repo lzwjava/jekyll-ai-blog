@@ -1,5 +1,5 @@
 import sys
-from Foundation import NSObject, NSRunLoop, NSDate
+from Foundation import NSRunLoop, NSDate
 from UserNotifications import (
     UNUserNotificationCenter,
     UNMutableNotificationContent,

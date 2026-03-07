@@ -2,8 +2,6 @@ import os
 import argparse
 import subprocess
 import logging
-from PIL import Image
-from datetime import datetime
 
 # Set up logging
 logging.basicConfig(

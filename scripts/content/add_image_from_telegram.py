@@ -1,5 +1,4 @@
 import argparse
-import os
 import shutil
 import subprocess
 import sys
@@ -123,7 +122,7 @@ def copy_image_file(source_path, target_path):
     """Copy the image file to the target location."""
     try:
         shutil.copy2(source_path, target_path)
-        print(f"✅ Image copied successfully!")
+        print("✅ Image copied successfully!")
         print(f"   Source: {source_path}")
         print(f"   Target: {target_path}")
         return True
@@ -142,7 +141,7 @@ def generate_markdown_content(relative_path, source):
 def handle_clipboard_and_output(markdown_content, relative_path):
     """Handle clipboard copying and display output information."""
     if copy_to_clipboard(markdown_content):
-        print(f"📋 Markdown content copied to clipboard!")
+        print("📋 Markdown content copied to clipboard!")
         print(f"   Image path: {relative_path}")
     else:
         print(f"⚠️  Could not copy to clipboard. Path: {relative_path}")

@@ -36,8 +36,8 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
         short_title = re.sub(r"[^a-z0-9-]", "", short_title)
     else:
         # Generate titles
-        full_title_prompt = (
-            lambda c: f"Generate a very short title in English (maximum six words, do not have single quote) for the following text and respond with only the title: {c}"
+        full_title_prompt = lambda c: (
+            f"Generate a very short title in English (maximum six words, do not have single quote) for the following text and respond with only the title: {c}"
         )
         full_title = generate_title(content, 6, full_title_prompt)
 

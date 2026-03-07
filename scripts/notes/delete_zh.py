@@ -4,7 +4,6 @@ Delete Chinese note files ending with -zh.md in the notes directory.
 """
 
 import os
-import glob
 from pathlib import Path
 
 

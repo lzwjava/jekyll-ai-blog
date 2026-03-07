@@ -8,7 +8,7 @@ from google.genai.types import GenerateImagesConfig
 
 def generate_image_with_imagen(prompt, output_path):
     """Generate image using Imagen model."""
-    print(f"Generating image with Imagen model...")
+    print("Generating image with Imagen model...")
     print(f"Output path: {output_path}")
 
     try:

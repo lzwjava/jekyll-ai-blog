@@ -4,7 +4,6 @@ Analyze note translation coverage across 9 languages.
 Find orphaned notes and translation completeness.
 """
 
-import os
 import re
 from collections import defaultdict
 from pathlib import Path

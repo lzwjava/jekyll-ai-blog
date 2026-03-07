@@ -29,7 +29,7 @@ def validate_translated_languages(
 
     # Basic validation - check if text is not empty
     if not translated_text.strip():
-        raise RuntimeError(f"Translated text is empty")
+        raise RuntimeError("Translated text is empty")
 
     # Use langid to detect the primary language of the translated text
     detected_lang, confidence = detect_language_with_langid(translated_text)

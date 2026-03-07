@@ -145,7 +145,7 @@ def predict_test(target):
         X.shape[1],
     ), f"Wrong shape for pred. {pred.shape} != {(1, X.shape[1])}"
     assert np.bitwise_not(np.allclose(pred, [[1.0, 1.0, 1]])), (
-        f"Perhaps you forget to add b in the calculation of A"
+        "Perhaps you forget to add b in the calculation of A"
     )
     assert np.allclose(pred, [[1.0, 0.0, 1]]), (
         f"Wrong values for pred. {pred} != {[[1.0, 0.0, 1.0]]}"

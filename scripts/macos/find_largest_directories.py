@@ -6,9 +6,7 @@ Usage: python find_largest_directories.py [--mb SIZE_MB] [directory_path]
 
 import subprocess
 import sys
-import os
 import argparse
-import time
 from pathlib import Path
 
 

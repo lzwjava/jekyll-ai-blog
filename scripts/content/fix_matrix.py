@@ -61,7 +61,7 @@ def process_matrix_in_file(filepath, matrix_flag=False):
 
         print(f"Processed {filepath}")
         if matrix_flag:
-            print(f"- Updated \\\\ to \\\\\\\\ in matrix environments")
+            print("- Updated \\\\ to \\\\\\\\ in matrix environments")
         return True
 
     except Exception as e:

@@ -13,7 +13,6 @@ Usage:
 import shutil
 import os
 import sys
-from pathlib import Path
 
 # Default service files to copy
 DEFAULT_SERVICES = [

@@ -1,14 +1,7 @@
-import argparse
-import math
 import os
-import matplotlib.pyplot as plt
 from matplotlib.pyplot import imshow
-import scipy.io
-import scipy.misc
 import numpy as np
-import pandas as pd
-import PIL
-from PIL import ImageFont, ImageDraw, Image
+from PIL import Image
 import tensorflow as tf
 from tensorflow.python.framework.ops import EagerTensor
 

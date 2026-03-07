@@ -1,7 +1,6 @@
 import os
 import argparse
 import frontmatter
-import re
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))

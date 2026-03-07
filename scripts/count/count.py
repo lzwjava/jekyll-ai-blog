@@ -1,7 +1,6 @@
 import sys
 import os
 import argparse
-import re
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 

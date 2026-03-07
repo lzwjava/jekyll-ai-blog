@@ -1,10 +1,8 @@
 import os
 import sys
 import re
-import time
 import argparse
 from dotenv import load_dotenv
-import yaml
 import concurrent.futures
 import random
 
@@ -19,7 +17,7 @@ MAX_THREADS = 10
 
 
 def create_x_post_prompt():
-    return f"""You are a professional social media content creator. You are creating a short post or a thread of posts for X (formerly Twitter) based on a blog post written in English. Each post should be no more than 140 characters. Be concise and engaging. If the content is long, create a thread."""
+    return """You are a professional social media content creator. You are creating a short post or a thread of posts for X (formerly Twitter) based on a blog post written in English. Each post should be no more than 140 characters. Be concise and engaging. If the content is long, create a thread."""
 
 
 def generate_x_posts(text):
@@ -38,10 +36,10 @@ def generate_x_posts(text):
         ]
         response = call_openrouter_api_with_messages(messages, model=selected_model)
         if response:
-            print(f"  X post(s) generated successfully.")
+            print("  X post(s) generated successfully.")
             return response.split("\n\n")  # Split into multiple posts
         else:
-            print(f"  X post(s) generation failed.")
+            print("  X post(s) generation failed.")
             return None
     except Exception as e:
         print(f"  X post(s) generation failed with error: {e}")
@@ -49,7 +47,7 @@ def generate_x_posts(text):
             "This model's maximum context length is" in str(e)
             or "context length" in str(e).lower()
         ):
-            print(f"  Skipping X post(s) generation due to context length error.")
+            print("  Skipping X post(s) generation due to context length error.")
             return None
         return None
 
@@ -93,7 +91,7 @@ def main():
     args = parser.parse_args()
     max_files = args.n
 
-    output_dir = f"x"
+    output_dir = "x"
     os.makedirs(output_dir, exist_ok=True)
     print(f"Created directory {output_dir}")
 

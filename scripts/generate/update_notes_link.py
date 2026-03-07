@@ -1,6 +1,5 @@
 import os
 import re
-import time
 import shutil
 import random
 from generate_notes_link import generate_notes_links

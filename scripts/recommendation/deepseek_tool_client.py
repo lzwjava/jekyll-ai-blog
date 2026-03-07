@@ -37,13 +37,13 @@ def call_deepseek_api(messages, tools=None):
             or not response_json.get("choices")
             or not response_json["choices"][0].get("message")
         ):
-            print(f"  Error: Response is empty or invalid:")
+            print("  Error: Response is empty or invalid:")
             print(response.content)
             return None
         choice = response_json["choices"][0]
         if choice.get("finish_reason") not in ("stop", "length", "tool_calls"):
             print(
-                f"  Error: Did not finish with 'stop', 'length', or 'tool_calls' reason:"
+                "  Error: Did not finish with 'stop', 'length', or 'tool_calls' reason:"
             )
             print(response.content)
             return None

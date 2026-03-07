@@ -176,7 +176,7 @@ def _convert_multiple_files(file_paths, output_dir):
                         )
                         count = len(re.findall(r"!\[.*?\]", content))
                         if count > 0:
-                            print(f"Replaced responsive image tags.")
+                            print("Replaced responsive image tags.")
 
                         # Remove captions
                         content, count = re.subn(

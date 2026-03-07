@@ -6,7 +6,6 @@ Script to move markdown files from pnotes/ to notes/ with random dates in last y
 import os
 import shutil
 import random
-import re
 from datetime import datetime, timedelta
 import glob
 
@@ -83,7 +82,7 @@ def move_files_with_random_dates():
     if not remaining_files:
         try:
             os.rmdir(pnotes_dir)
-            print(f"pnotes directory is now empty and removed")
+            print("pnotes directory is now empty and removed")
         except OSError:
             print("Could not remove pnotes directory (may contain hidden files)")
 

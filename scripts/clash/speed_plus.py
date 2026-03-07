@@ -62,7 +62,7 @@ def get_all_proxy_names():
         )
         return []
     except requests.exceptions.Timeout:
-        logging.error(f"Connection to Clash API timed out after 5 seconds.")
+        logging.error("Connection to Clash API timed out after 5 seconds.")
         return []
     except requests.exceptions.RequestException as e:
         logging.error(f"An unexpected error occurred while fetching proxy names: {e}")

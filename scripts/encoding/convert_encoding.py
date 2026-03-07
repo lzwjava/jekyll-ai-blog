@@ -44,13 +44,13 @@ def convert_file_encoding(file_path: Path, target_encoding: str) -> Tuple[bool, 
         Tuple[bool, str]: (success, message)
     """
     if not file_path.exists():
-        return False, f"File does not exist"
+        return False, "File does not exist"
 
     try:
         current_encoding = detect_file_encoding(file_path)
 
         if current_encoding is None:
-            return False, f"Could not detect encoding"
+            return False, "Could not detect encoding"
 
         # Skip files that are already in the target encoding
         # Special case: ASCII to UTF-8 is a no-op since UTF-8 is backward compatible with ASCII
@@ -117,7 +117,7 @@ def process_files(
         print(f"\n{display_name}")
 
         if detected is None:
-            print(f"  ✗ Could not detect encoding")
+            print("  ✗ Could not detect encoding")
             continue
 
         if detected.lower() == target_encoding.lower():

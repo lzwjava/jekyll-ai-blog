@@ -60,11 +60,11 @@ english_post_filename = f"_posts/{current_date}-posts-en.md"
 chinese_post_filename = f"_posts/{current_date}-posts-zh.md"
 
 with open(english_post_filename, "w", encoding="utf-8") as file:
-    file.write(f'---\nlayout: post\ntitle: "English Posts"\naudio: true\n---\n\n')
+    file.write('---\nlayout: post\ntitle: "English Posts"\naudio: true\n---\n\n')
     file.write(english_content)
 
 with open(chinese_post_filename, "w", encoding="utf-8") as file:
-    file.write(f'---\nlayout: post\ntitle: "中文文章"\naudio: true\n---\n\n')
+    file.write('---\nlayout: post\ntitle: "中文文章"\naudio: true\n---\n\n')
     file.write(chinese_content)
 
 print(f"Posts created: {english_post_filename}, {chinese_post_filename}")

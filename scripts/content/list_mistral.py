@@ -1,5 +1,4 @@
 import os
-import re
 
 
 def list_cn_files(directory):

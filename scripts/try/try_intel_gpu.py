@@ -100,7 +100,7 @@ try:
         kmeans = KMeans(n_clusters=5, random_state=42)
         kmeans.fit(X)
 
-        print(f"KMeans clustering completed")
+        print("KMeans clustering completed")
         print(f"Cluster centers shape: {kmeans.cluster_centers_.shape}")
 
         return kmeans
@@ -124,7 +124,7 @@ def check_intel_gpu():
         import torch
 
         if hasattr(torch, "xpu") and torch.xpu.is_available():
-            print(f"✓ PyTorch XPU available")
+            print("✓ PyTorch XPU available")
             print(f"  Device count: {torch.xpu.device_count()}")
             print(f"  Device name: {torch.xpu.get_device_name(0)}")
         else:
@@ -157,7 +157,6 @@ def train_model_on_gpu():
 
     import torch
     import torch.nn as nn
-    import intel_extension_for_pytorch as ipex
 
     # Determine device
     if hasattr(torch, "xpu") and torch.xpu.is_available():

@@ -1,9 +1,6 @@
-import sys
 import gc
 
 import pandas as pd
-from sklearn.model_selection import StratifiedKFold
-import numpy as np
 
 from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
@@ -13,17 +10,14 @@ from sklearn.ensemble import VotingClassifier
 
 import string
 
-from sklearn.metrics import roc_auc_score
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from transformers import PreTrainedTokenizerFast
 from tokenizers import (
-    decoders,
     models,
     normalizers,
     pre_tokenizers,
-    processors,
     trainers,
     Tokenizer,
 )

@@ -1,9 +1,6 @@
 import os
-import json
 import argparse
-from datetime import datetime
 import subprocess
-import platform
 from pdf_base import text_to_pdf_from_markdown
 
 OUTPUT_DIRECTORY = "assets/pdfs"
@@ -73,7 +70,7 @@ def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False
     print(f"Total Markdown files to process: {total_files}")
 
     if total_files == 0:
-        print(f"No Markdown files to process.")
+        print("No Markdown files to process.")
         return
 
     for idx, md_file_path in enumerate(md_files_to_process, start=1):

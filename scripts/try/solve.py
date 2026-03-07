@@ -12,7 +12,6 @@ Usage:
     python solve.py --ai claude   # Specify preferred AI
 """
 
-import os
 import sys
 import json
 from pathlib import Path
@@ -308,7 +307,7 @@ Keep advice practical and specific to {self.issue_type} problems.
         for resource in specific_resources:
             print(f"  {resource}")
 
-        print(f"\nGeneral Problem Solving:")
+        print("\nGeneral Problem Solving:")
         print("  Search strategies: exact phrases, error codes, version numbers")
         print("  Documentation: API references, changelogs, migration guides")
         print("  Community: GitHub issues, Discord, Telegram groups")
@@ -332,7 +331,7 @@ Keep advice practical and specific to {self.issue_type} problems.
         for item in checklist:
             print(f"  [ ] {item}")
 
-        print(f"\nBONUS: Share your solution to help others!")
+        print("\nBONUS: Share your solution to help others!")
 
     def run(self, mode="interactive", ai_model="claude-sonnet"):
         """Main execution method"""
@@ -364,7 +363,7 @@ Keep advice practical and specific to {self.issue_type} problems.
         # Success checklist
         self.create_success_checklist()
 
-        print(f"\nPROBLEM-SOLVING SESSION COMPLETE!")
+        print("\nPROBLEM-SOLVING SESSION COMPLETE!")
         print("Remember: Every expert was once a beginner. Keep learning!")
 
         # Save session summary

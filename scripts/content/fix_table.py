@@ -68,7 +68,7 @@ def process_tables_in_file(filepath, fix_tables=False):
 
         print(f"Processed {filepath}")
         if fix_tables:
-            print(f"- Added blank lines before tables")
+            print("- Added blank lines before tables")
         return True
 
     except Exception as e:

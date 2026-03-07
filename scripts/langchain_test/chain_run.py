@@ -1,7 +1,6 @@
 import os
 import json
 from langchain_core.prompts import PromptTemplate
-from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 
 # 1. (Optionally) set your OpenRouter key in env

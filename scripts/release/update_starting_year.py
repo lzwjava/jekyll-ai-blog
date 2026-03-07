@@ -1,4 +1,3 @@
-import subprocess
 from ruamel.yaml import YAML
 import os
 

@@ -5,7 +5,6 @@ Opens a terminal in fullscreen mode for better multitasking
 """
 
 import subprocess
-import random
 import os
 
 

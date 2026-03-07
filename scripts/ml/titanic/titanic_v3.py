@@ -1,15 +1,8 @@
 import numpy as np
 import pandas as pd
-import io
-import requests
-import re
-import warnings
 import os
 
-import sklearn
-import xgboost as xgb
 import plotly.express as px
-import plotly.graph_objects as go
 import plotly.io as pio
 import matplotlib.pyplot as plt
 
@@ -18,21 +11,10 @@ import plotly.offline as py
 
 py.init_notebook_mode(connected=True)
 plt.style.use("seaborn-notebook")
-import plotly.graph_objs as go
-import plotly.tools as tls
 
 import seaborn as sns
-from sklearn.ensemble import (
-    RandomForestClassifier,
-    AdaBoostClassifier,
-    GradientBoostingClassifier,
-    ExtraTreesClassifier,
-)
-from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelBinarizer
-from sklearn.svm import SVC
 
 import matplotlib.pyplot as plt
-from matplotlib.ticker import StrMethodFormatter
 from dash import Dash, dcc, html, Input, Output
 
 for dirname, _, filenames in os.walk("./"):

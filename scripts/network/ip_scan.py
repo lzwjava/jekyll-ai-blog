@@ -1,7 +1,6 @@
 import subprocess
 import ipaddress
 import threading
-import os
 import socket
 import argparse
 
@@ -24,7 +23,7 @@ def is_host_up(host, port=None):
                 return True
             else:
                 return False
-        except socket.error as e:
+        except socket.error:
             return False
         finally:
             sock.close()

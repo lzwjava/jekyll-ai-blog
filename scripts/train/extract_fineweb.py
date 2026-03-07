@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 import glob
 
 # Find all parquet files in the directory (000_00000 to 000_00010)
@@ -33,7 +32,7 @@ try:
                 print(f"Columns: {list(df.columns)}")
 
                 if file_idx == 0:
-                    print(f"First few rows:")
+                    print("First few rows:")
                     print(df.head())
 
                 # Extract text and save to file
@@ -67,7 +66,7 @@ try:
                 print(f"Error loading parquet file {parquet_file}: {e}")
                 continue
 
-    print(f"\n\n🎉 EXTRACTION COMPLETE! 🎉")
+    print("\n\n🎉 EXTRACTION COMPLETE! 🎉")
     print(f"✅ Processed {len(parquet_files)} parquet files")
     print(f"✅ Total rows processed: {total_rows_processed:,}")
     print(f"✅ Output saved to: {output_file}")

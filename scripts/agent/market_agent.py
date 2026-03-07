@@ -5,7 +5,6 @@ import re
 import yaml
 import pyperclip
 import argparse
-from datetime import datetime
 
 
 def extract_frontmatter(file_path):
@@ -112,7 +111,7 @@ def main():
     # Copy to clipboard
     pyperclip.copy(wechat_format)
 
-    print(f"\n✅ Formatted content copied to clipboard!")
+    print("\n✅ Formatted content copied to clipboard!")
     print("You can now paste it to WeChat to share with others.")
     print("\nPreview:")
     print("-" * 50)

@@ -4,7 +4,6 @@ Batch Image Generator for Latest Blog Posts
 Generates OG images for the latest 10 blog posts.
 """
 
-import os
 import sys
 import argparse
 from pathlib import Path
@@ -76,7 +75,7 @@ def imagen_og_files_custom(files, output_dir="assets/images/og", debug=False):
         elif result:
             success_count += 1
 
-    print(f"\n=== Summary ===")
+    print("\n=== Summary ===")
     print(f"Processed: {len(files)} files")
     print(f"Successful: {success_count} files")
     print(f"Skipped: {skipped_count} files")

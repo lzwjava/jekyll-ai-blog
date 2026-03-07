@@ -5,7 +5,6 @@ from ruamel.yaml import YAML
 import base64
 import re
 import logging
-import subprocess
 import os
 
 logging.basicConfig(

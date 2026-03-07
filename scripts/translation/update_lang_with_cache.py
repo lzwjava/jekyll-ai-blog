@@ -1,11 +1,9 @@
 import os
 import argparse
-import subprocess
 from dotenv import load_dotenv
 import concurrent.futures
 import frontmatter
 from frontmatter import Post
-import hashlib
 import json
 import openai
 

@@ -1,7 +1,5 @@
 import numpy as np
 from emo_utils import *
-import emoji
-import matplotlib.pyplot as plt
 from test_utils import *
 
 X_train, Y_train = read_csv("data/train_emoji.csv")

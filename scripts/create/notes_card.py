@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import os
 import sys
 import subprocess
 import argparse
@@ -186,7 +185,7 @@ def main():
     print("Titles included:")
     for title in titles:
         print(f"• {title}")
-    print(f"QR code links to: https://lzwjava.github.io/notes-en")
+    print("QR code links to: https://lzwjava.github.io/notes-en")
 
 
 if __name__ == "__main__":

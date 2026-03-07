@@ -53,7 +53,7 @@ def validate_grammar_fix(
     original_italic_count = original_content.count("*") - original_bold_count * 2
     fixed_italic_count = fixed_content.count("*") - fixed_bold_count * 2
     if fixed_italic_count > original_italic_count:
-        raise Exception(f"AI added unwanted markdown italic syntax")
+        raise Exception("AI added unwanted markdown italic syntax")
 
     return True
 
@@ -84,7 +84,7 @@ def validate_markdown_syntax(original_content, fixed_content):
     original_single_asterisks = original_content.count("*") - (original_bold * 2)
     fixed_single_asterisks = fixed_content.count("*") - (fixed_bold * 2)
     if fixed_single_asterisks > original_single_asterisks:
-        raise Exception(f"Added unwanted italic markdown")
+        raise Exception("Added unwanted italic markdown")
 
     # Check for other markdown additions
     markdown_patterns = ["`", "#", ">", "|", "[", "]", "(", ")"]

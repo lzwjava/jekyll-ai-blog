@@ -24,7 +24,7 @@ def check_paths(args):
             os.path.exists(args.checkpoint_model_dir)
         ):
             os.makedirs(args.checkpoint_model_dir)
-    except OSError as e:
+    except OSError:
         sys.exit(1)
 
 

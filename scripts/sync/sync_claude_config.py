@@ -1,6 +1,5 @@
 import json
 import os
-import shutil
 
 
 def sync_config():

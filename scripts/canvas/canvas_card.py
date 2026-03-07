@@ -8,7 +8,6 @@ Supports clipboard input and JSON input.
 
 import json
 import os
-import sys
 import tempfile
 from PIL import Image, ImageDraw, ImageFont
 import pyperclip

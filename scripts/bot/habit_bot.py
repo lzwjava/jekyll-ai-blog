@@ -3,7 +3,6 @@ import sys
 import requests
 import argparse
 import re
-import datetime
 from dotenv import load_dotenv
 import random
 

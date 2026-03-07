@@ -16,7 +16,7 @@ def main():
     )
     target_path = os.path.expanduser("~/bin/gitmessageai.py")
 
-    print(f"Syncing gitmessageai.py...")
+    print("Syncing gitmessageai.py...")
     print(f"Source: {source_path}")
     print(f"Target: {target_path}")
 

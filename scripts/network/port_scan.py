@@ -18,7 +18,7 @@ def is_port_open(host, port):
             return True
         else:
             return False
-    except socket.error as e:
+    except socket.error:
         return False
     finally:
         sock.close()

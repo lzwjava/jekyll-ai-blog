@@ -185,7 +185,7 @@ def main():
         print(f"  Page views: {site_page_views:,}")
         print(f"  Visits: {site_visits:,}")
 
-    print(f"\nTotal across sites:")
+    print("\nTotal across sites:")
     print(f"Period: {start_date} to {end_date}")
     print(f"Page views: {total_page_views:,}")
     print(f"Visits (sum daily): {total_visits:,}")

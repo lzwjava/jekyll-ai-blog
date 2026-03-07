@@ -1,6 +1,5 @@
 import os
 import shutil
-import frontmatter
 from datetime import datetime
 
 date_threshold = datetime(2022, 9, 29)

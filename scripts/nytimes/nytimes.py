@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import os
 import ssl
 from dotenv import load_dotenv
-import os
 import sys
 
 load_dotenv()

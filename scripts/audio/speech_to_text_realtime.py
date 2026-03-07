@@ -1,7 +1,4 @@
-import os
 import argparse
-import io
-import sys
 import time
 
 from google.cloud import speech

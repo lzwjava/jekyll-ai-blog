@@ -2,7 +2,6 @@ import subprocess
 import os
 import argparse
 import requests
-import json
 
 from dotenv import load_dotenv
 

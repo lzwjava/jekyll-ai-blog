@@ -4,9 +4,6 @@ import frontmatter
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
-from tests.workflow.test_front_matter_key import (
-    scan_markdown_files_for_front_matter_key_order,
-)
 
 # Define the required keys and their expected values based on directory
 REQUIRED_KEYS = ["audio", "generated", "lang", "layout", "title", "translated", "type"]

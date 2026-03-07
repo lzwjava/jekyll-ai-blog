@@ -2,10 +2,7 @@ from termcolor import colored
 import tensorflow as tf
 from tensorflow.python.framework.ops import EagerTensor
 from tensorflow.keras.initializers import (
-    random_uniform,
-    glorot_uniform,
     constant,
-    identity,
 )
 import numpy as np
 

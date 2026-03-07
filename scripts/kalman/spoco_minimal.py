@@ -1,7 +1,6 @@
 # spoco_minimal.py
 # Python 3.10+, PyTorch 2.x
-import math
-from typing import Dict, Tuple, List
+from typing import Dict, Tuple
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

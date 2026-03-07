@@ -1,9 +1,7 @@
 import os
-import glob
 import argparse
 import re
 import logging
-import random
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"

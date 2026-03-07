@@ -157,7 +157,7 @@ def run_translate(
 
     try:
         detected = detect_language_with_langid(translated)
-    except Exception as e:
+    except Exception:
         detected = []
     validate_translated_languages(
         translated, target, require_english=need_en, source_file=source_file

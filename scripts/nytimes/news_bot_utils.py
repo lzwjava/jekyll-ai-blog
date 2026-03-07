@@ -2,9 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import re
-import time
 from dotenv import load_dotenv
-from telegram_utils import send_telegram_message
 
 load_dotenv()
 

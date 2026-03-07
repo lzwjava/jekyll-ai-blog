@@ -1,4 +1,3 @@
-import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
@@ -14,12 +13,9 @@ from test_utils import *
 
 from tensorflow.keras.layers import (
     Dense,
-    Activation,
-    Dropout,
     Input,
     LSTM,
     Reshape,
-    Lambda,
     RepeatVector,
 )
 from tensorflow.keras.models import Model

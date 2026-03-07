@@ -124,7 +124,8 @@ def refactor_python_code(file_path, model="kimi-k2"):
 
         # attempt to compile cleaned response to catch syntax errors
         try:
-            import py_compile, tempfile
+            import py_compile
+            import tempfile
 
             tmpc = tempfile.NamedTemporaryFile(delete=False, suffix=".py")
             tmpc.write(cleaned.encode("utf-8"))

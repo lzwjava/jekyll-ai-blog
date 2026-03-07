@@ -60,7 +60,7 @@ def main():
 
         # Skip if network is already connected
         if net.get("active") == "yes" or net.get("in_use") == "yes":
-            print(f"  Skipping - already connected")
+            print("  Skipping - already connected")
             continue
 
         # Test connection with password 88888888
@@ -81,7 +81,7 @@ def main():
 
     if successful_connections:
         save_successful_connections(successful_connections)
-        print(f"Results saved to tmp/wifi.csv")
+        print("Results saved to tmp/wifi.csv")
         print()
         print("Successful connections:")
         for net in successful_connections:

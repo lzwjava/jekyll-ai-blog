@@ -1,4 +1,3 @@
-import torch
 from datasets import load_dataset
 import requests
 import json
@@ -56,7 +55,7 @@ def call_gemini_api(prompt, retries=3, backoff_factor=1):
     if not gemini_api_key:
         print("Error: GEMINI_API_KEY environment variable not set.")
         exit()
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
     params = {"key": gemini_api_key}
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     print(f"Input to Gemini API: {payload}")

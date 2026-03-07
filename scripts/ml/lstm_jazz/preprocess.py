@@ -1,8 +1,8 @@
 from __future__ import print_function
 
 from music21 import *
-from collections import defaultdict, OrderedDict
-from itertools import groupby, zip_longest
+from collections import OrderedDict
+from itertools import groupby
 
 from grammar import *
 

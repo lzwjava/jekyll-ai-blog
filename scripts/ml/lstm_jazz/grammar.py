@@ -1,7 +1,6 @@
-from collections import OrderedDict, defaultdict
-from itertools import groupby
 from music21 import *
-import copy, random, pdb
+import copy
+import random
 
 
 def __is_scale_tone(chord, note):

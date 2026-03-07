@@ -256,7 +256,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    print(f"Setting AWS region to ap-east-1")
+    print("Setting AWS region to ap-east-1")
     subprocess.run(["aws", "configure", "set", "region", "ap-east-1"], check=True)
 
     if args.job == "create":

@@ -1,10 +1,6 @@
 import numpy as np
 from pydub import AudioSegment
 import random
-import sys
-import io
-import os
-import glob
 from td_utils import *
 
 x = graph_spectrogram("audio_examples/example_train.wav")
@@ -158,9 +154,6 @@ def insert_ones(y, segment_end_ms):
     return y
 
 
-import random
-
-
 def insert_ones_test(target):
     segment_end_y = random.randrange(0, Ty - 50)
     segment_end_ms = int(segment_end_y * 10000.4) / Ty
@@ -264,19 +257,16 @@ Y = np.array(Y)
 X_dev = np.load("./XY_dev/X_dev.npy")
 Y_dev = np.load("./XY_dev/Y_dev.npy")
 
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.models import Model, load_model, Sequential
+from tensorflow.keras.models import Model
 from tensorflow.keras.layers import (
     Dense,
     Activation,
     Dropout,
     Input,
-    Masking,
     TimeDistributed,
-    LSTM,
     Conv1D,
 )
-from tensorflow.keras.layers import GRU, Bidirectional, BatchNormalization, Reshape
+from tensorflow.keras.layers import GRU, BatchNormalization
 from tensorflow.keras.optimizers import Adam
 
 

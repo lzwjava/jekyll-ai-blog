@@ -51,7 +51,7 @@ def load_date():
         human_readable = human_readable.replace(",", "")
         machine_readable = dt.isoformat()
 
-    except AttributeError as e:
+    except AttributeError:
         return None, None, None
 
     return human_readable, machine_readable, dt

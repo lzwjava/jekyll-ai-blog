@@ -1,9 +1,5 @@
 import os
-import json
 import argparse
-from datetime import datetime
-import subprocess
-import platform
 from pdf_base import text_to_pdf_from_markdown
 
 OUTPUT_DIRECTORY = "assets/pdfs"

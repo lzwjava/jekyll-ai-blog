@@ -52,7 +52,7 @@ def extract_title_from_file(file_path):
         title = re.sub(r"\.(md|markdown)$", "", title)
         return title.replace("-", " ").title()
 
-    except Exception as e:
+    except Exception:
         return os.path.basename(file_path)
 
 

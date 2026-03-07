@@ -1,18 +1,10 @@
 from __future__ import print_function
 import numpy as np
 from utils import *
-import random
 import pprint
 import copy
 from tensorflow.keras.callbacks import LambdaCallback
-from tensorflow.keras.models import Model, load_model, Sequential
-from tensorflow.keras.layers import Dense, Activation, Dropout, Input, Masking
-from tensorflow.keras.layers import LSTM
-from tensorflow.keras.utils import get_file
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 from shakespeare_utils import *
-import sys
-import io
 
 data = open("dinos.txt", "r").read()
 data = data.lower()

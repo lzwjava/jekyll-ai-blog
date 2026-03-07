@@ -13,8 +13,6 @@ Usage:
 import subprocess
 import sys
 import os
-import re
-from pathlib import Path
 
 # Try to import pyperclip for clipboard functionality
 try:

@@ -167,9 +167,7 @@ def multiple_test(test_cases, target):
                 "Error, interpreter failed when running test case with these inputs: "
                 + str(test_input),
             )
-            raise AssertionError(
-                "Unable to successfully run test case.".format(target.__name__)
-            )
+            raise AssertionError("Unable to successfully run test case.")
 
         try:
             if test_case["name"] == "datatype_check":

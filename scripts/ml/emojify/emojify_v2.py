@@ -1,10 +1,7 @@
 import numpy as np
-import tensorflow
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Input, Dropout, LSTM, Activation
 from tensorflow.keras.layers import Embedding
-from tensorflow.keras.preprocessing import sequence
-from tensorflow.keras.initializers import glorot_uniform
 from emo_utils import *
 from test_utils import *
 

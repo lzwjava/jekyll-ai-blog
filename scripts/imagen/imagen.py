@@ -1,8 +1,5 @@
 from google import genai
-from google.genai import types
 from google.genai.types import GenerateImagesConfig
-from PIL import Image
-from io import BytesIO
 import os
 
 # Set up Vertex AI client

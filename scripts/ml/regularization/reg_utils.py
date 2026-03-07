@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import h5py
-import sklearn
-import sklearn.datasets
-import sklearn.linear_model
 import scipy.io
 
 

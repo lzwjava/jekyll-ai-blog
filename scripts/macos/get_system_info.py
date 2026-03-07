@@ -8,7 +8,6 @@ import platform
 import subprocess
 import os
 import sys
-import json
 
 
 def run_command(cmd, fallback=None):

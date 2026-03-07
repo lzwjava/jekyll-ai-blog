@@ -50,7 +50,7 @@ def main():
     check_git_status()
 
     # Print git rebase command for user to run
-    print(f"\nRun this command to start the interactive rebase:")
+    print("\nRun this command to start the interactive rebase:")
     print(f"git rebase -i HEAD~{args.n}")
 
     print(

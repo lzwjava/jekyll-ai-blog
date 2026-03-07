@@ -43,7 +43,7 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False):
                     lang_in_path = lang
                     break
             if lang_in_path is None or lang_in_path not in target_languages:
-                print(f"  Skipping file (language not in target list)")
+                print("  Skipping file (language not in target list)")
                 continue
 
         if dry_run:

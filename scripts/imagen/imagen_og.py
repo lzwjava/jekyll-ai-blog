@@ -10,7 +10,7 @@ from imagen_prompt import imagen_prompt
 
 def generate_image_with_imagen(prompt, output_path):
     """Generate image using Imagen model."""
-    print(f"Generating image with Imagen model...")
+    print("Generating image with Imagen model...")
     print(f"Output path: {output_path}")
 
     try:
@@ -22,7 +22,7 @@ def generate_image_with_imagen(prompt, output_path):
             location=os.getenv("GOOGLE_CLOUD_LOCATION"),
         )
 
-        print(f"Calling Imagen API with model: imagen-4.0-generate-preview-06-06")
+        print("Calling Imagen API with model: imagen-4.0-generate-preview-06-06")
         image = client.models.generate_images(
             model="imagen-4.0-generate-preview-06-06",
             prompt=prompt,
@@ -68,7 +68,7 @@ def process_file(file_path, debug=False):
         file_stem = Path(file_path).stem
         output_path = f"test/{file_stem}.jpg"
 
-        print(f"Creating output directory: test/")
+        print("Creating output directory: test/")
         # Ensure test directory exists
         Path("test").mkdir(exist_ok=True)
 
@@ -106,7 +106,7 @@ def imagen_og_files(files, debug=False):
         if result:
             success_count += 1
 
-    print(f"\n=== Summary ===")
+    print("\n=== Summary ===")
     print(f"Processed: {len(files)} files")
     print(f"Successful: {success_count} files")
     print(f"Failed: {len(files) - success_count} files")

@@ -9,7 +9,6 @@ from torch import nn
 from word_language_model import data
 
 from dataclasses import dataclass
-import argparse
 import model
 
 

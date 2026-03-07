@@ -7,15 +7,10 @@ from tensorflow.keras.layers import (
     Conv2D,
     ZeroPadding2D,
     Activation,
-    Input,
     concatenate,
 )
-from tensorflow.keras.models import Model
 from tensorflow.keras.layers import BatchNormalization
-from tensorflow.keras.layers import MaxPooling2D, AveragePooling2D
 import h5py
-import matplotlib.pyplot as plt
-import PIL
 from tensorflow.keras import backend as K
 
 K.set_image_data_format("channels_first")

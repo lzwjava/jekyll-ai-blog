@@ -1,17 +1,9 @@
 import torch
 import torchaudio
 
-import io
-import os
-import tarfile
-import tempfile
 
-import boto3
 import matplotlib.pyplot as plt
 import requests
-from botocore import UNSIGNED
-from botocore.config import Config
-from IPython.display import Audio
 from torchaudio.utils import download_asset
 
 SAMPLE_GSM = download_asset("tutorial-assets/steam-train-whistle-daniel_simon.gsm")

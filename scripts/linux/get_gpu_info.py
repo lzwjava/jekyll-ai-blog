@@ -5,7 +5,6 @@ Collects and displays GPU information including NVIDIA, AMD, Intel GPUs and CUDA
 """
 
 import subprocess
-import sys
 
 
 def run_command(cmd, fallback=None):

@@ -1,7 +1,3 @@
-import tensorflow as tf
-import numpy as np
-import os
-from numpy import genfromtxt
 from tensorflow.keras import backend as K
 from tensorflow.keras.layers import (
     Conv2D,

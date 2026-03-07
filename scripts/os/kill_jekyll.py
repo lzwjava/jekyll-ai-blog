@@ -5,7 +5,6 @@ Script to kill Jekyll server processes running on port 4000 (default Jekyll port
 
 import subprocess
 import sys
-import re
 
 
 def get_jekyll_processes():

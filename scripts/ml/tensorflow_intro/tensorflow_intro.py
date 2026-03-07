@@ -232,7 +232,7 @@ def forward_propagation_test(target, examples):
     index = index + 1
     trainable_variables = [W1, b1, W2, b2, W3, b3]
     grads = tape.gradient(fake_cost, trainable_variables)
-    assert not (None in grads), (
+    assert None not in grads, (
         "Wrong gradients. It could be due to the use of tf.Variable whithin forward_propagation"
     )
     print("\033[92mAll test passed")

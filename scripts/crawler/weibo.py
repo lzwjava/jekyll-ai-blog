@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import json
 import time
 import os
-import re
 from urllib.parse import urlencode
 
 
@@ -108,7 +107,7 @@ def scrape_weibo(url, end_time=None):
                 )
             )
             print("Login verified. Profile detected.")
-        except Exception as e:
+        except Exception:
             print("Failed to confirm login. Proceeding with caution.")
 
         while True:

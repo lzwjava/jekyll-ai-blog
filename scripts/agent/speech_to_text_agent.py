@@ -7,9 +7,6 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from scripts.llm.openrouter_client import (
-    call_openrouter_api,
-)  # noqa: F401 (kept if you import elsewhere)
 
 MAX_AUDIO_LENGTH_SECS = 20 * 60 * 60
 OUTPUT_DIRECTORY = "assets/transcriptions"

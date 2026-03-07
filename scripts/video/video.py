@@ -8,7 +8,6 @@ from moviepy import (
     concatenate_videoclips,
     AudioFileClip,
 )
-import requests
 import random
 
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")

@@ -1,5 +1,4 @@
 from jpype import startJVM, JVMNotFoundException, isJVMStarted, JClass
-import jpype.imports
 
 
 class JavaAgentConnector:

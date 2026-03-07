@@ -3,7 +3,6 @@ import json
 import random
 import subprocess
 from google.cloud import texttospeech
-import tempfile
 import time
 import argparse
 
