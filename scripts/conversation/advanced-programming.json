@@ -1,330 +1,314 @@
 [
     {
         "speaker": "A",
-        "line": "Hey, I've been reviewing the 08074 Advanced Computer Programming syllabus for the Guangdong self-study exam. It covers a lot of ground — C language basics, pointers, structs, and even some OOP. Where do you think most students struggle?"
+        "line": "Hey, I've been preparing for the 08074 Advanced Computer Programming exam in Guangdong. There's so much ground to cover — Python data types, OOP, algorithms, GUI, databases, networking. Where should we even start?"
     },
     {
         "speaker": "B",
-        "line": "Pointers, without a doubt. Students often memorize syntax but don't actually understand what's happening in memory. A pointer is just a variable that holds an address — once you truly see it as an address, dereferencing and pointer arithmetic start to make sense."
+        "line": "Great question. Let's start with data types since they're foundational. In Python, the key distinction is between mutable and immutable types. Lists and dicts are mutable, while tuples and strings are not — that affects how they behave when passed into functions."
     },
     {
         "speaker": "A",
-        "line": "That's a great way to put it. I always tell students: when you write int *p = &x, you're saying 'p stores the location of x in RAM.' Dereferencing with *p is just saying 'go to that location and read what's there.'"
+        "line": "Right, and immutability is why strings in Python are safe to use as dictionary keys. Tuples too. But I always remind students: just because a tuple is immutable doesn't mean the objects inside it are — if a tuple contains a list, that list can still be mutated."
     },
     {
         "speaker": "B",
-        "line": "Exactly. And pointer arithmetic is where it gets interesting. When you increment a pointer to int, it doesn't move by 1 byte — it moves by 4 bytes, the size of an int. The compiler automatically scales the movement based on the pointed-to type."
+        "line": "That's a classic trap. Moving to control structures — the exam loves testing nested loops and the use of `break`, `continue`, and `else` on loops. Did you know Python's loop `else` runs only if the loop was NOT broken out of? That surprises a lot of students."
     },
     {
         "speaker": "A",
-        "line": "That's a classic exam trap. Students assume p++ always means 'move 1 byte forward,' but the actual byte offset depends entirely on the data type. A pointer to double moves 8 bytes per step."
+        "line": "Yes! It's one of Python's quirky but powerful features. It's super useful for search loops — if you find the item, you break; if not, the else block handles the 'not found' case cleanly without a flag variable."
     },
     {
         "speaker": "B",
-        "line": "Right. Now let's talk arrays, because arrays and pointers are deeply connected in C. The array name itself is actually a constant pointer to the first element. So when you pass an array to a function, you're really passing a pointer — the original data can be modified."
+        "line": "Let's talk about functions. The exam often tests default arguments and *args/**kwargs. The important thing is that default argument values are evaluated once at definition time, not each call — so using a mutable default like a list is a well-known bug waiting to happen."
     },
     {
         "speaker": "A",
-        "line": "That surprises many beginners — they expect arrays to be copied like regular variables. But because it's a pointer being passed, any changes inside the function affect the original array. This is called pass-by-reference behavior."
+        "line": "Exactly. If you do `def add(item, lst=[])` and call it multiple times, you're sharing that same list across all calls. The fix is to use `None` as the default and create the list inside the function body. This is a very common exam pitfall."
     },
     {
         "speaker": "B",
-        "line": "And it's a common exam question — will this function modify the original array? The answer is almost always yes, unless you deliberately make a local copy. Understanding this distinction is fundamental."
+        "line": "Now OOP — this is a big section. Encapsulation in Python is done by convention, using a single underscore for protected and double underscore for name-mangled private attributes. It's not enforced by the language, but it signals intent to other developers."
     },
     {
         "speaker": "A",
-        "line": "Let's shift to structs. In C, struct is the way to group related data of different types into one unit. A student record might hold a name, ID, and score together. This is the foundation of thinking in 'data objects' before OOP even enters the picture."
+        "line": "And inheritance — Python supports multiple inheritance via the MRO, the Method Resolution Order. Python uses the C3 linearization algorithm to determine which parent class method gets called first, going left to right through the base classes."
     },
     {
         "speaker": "B",
-        "line": "And structs can contain pointers too, which enables dynamic data structures like linked lists. Each node has its data and a pointer to the next node. The list can grow or shrink at runtime without pre-allocating a fixed array."
+        "line": "Polymorphism in Python is duck typing in practice — if an object has the method you need, it works, regardless of its class. That's why you see things like both lists and custom iterators working seamlessly in a for loop."
     },
     {
         "speaker": "A",
-        "line": "Linked lists are a typical exam programming question. You need to know how to traverse the list, insert a node in the middle, and delete a node — all by manipulating the next pointers carefully so you don't lose access to the rest of the list."
+        "line": "Special methods are also heavily tested. `__init__` is the constructor, `__str__` is for human-readable output, `__repr__` is for developer-facing representation, and `__len__`, `__getitem__` let you make custom objects behave like sequences."
     },
     {
         "speaker": "B",
-        "line": "Yes, node deletion is especially tricky. You need to keep track of the previous node so you can redirect its next pointer around the deleted node. If you free the node before updating the pointer, you've lost the chain entirely."
+        "line": "Let's shift to algorithms and data structures. The exam covers list comprehensions, dictionary comprehensions, and set operations. A comprehension like `[x**2 for x in range(10) if x % 2 == 0]` is both concise and efficient — it avoids the overhead of repeated list.append calls."
     },
     {
         "speaker": "A",
-        "line": "Now, the 08074 course also introduces C++ and object-oriented programming. The jump from C structs to C++ classes is conceptually not huge — a class is basically a struct that can also contain functions, called member functions or methods."
+        "line": "Recursion is another key topic. The classic examples are factorial and Fibonacci, but the exam might ask about recursive directory traversal or tree traversal. Always remember Python has a default recursion limit of 1000 — for deep recursion, you'd need to increase it or use iteration."
     },
     {
         "speaker": "B",
-        "line": "The key OOP concepts to know for the exam are encapsulation, inheritance, and polymorphism. Encapsulation means hiding internal data behind private access and exposing only what's necessary through public interfaces — it protects the object's integrity."
+        "line": "For sorting, students should understand that Python's built-in `sort()` uses Timsort — a hybrid of merge sort and insertion sort, stable and O(n log n) in the average case. The `key=` parameter lets you sort by custom criteria without altering the data."
     },
     {
         "speaker": "A",
-        "line": "Inheritance is about reusing and extending existing code. A derived class like Dog can inherit from a base class Animal, getting all the base class's attributes and behaviors, then adding its own specific ones like bark(). This avoids code duplication."
+        "line": "Binary search is also tested — it requires a sorted list and halves the search space each step. The bisect module implements this neatly. Students should understand WHY it's O(log n): each comparison eliminates half the remaining candidates."
     },
     {
         "speaker": "B",
-        "line": "Polymorphism is where things get powerful. With virtual functions, a base class pointer can call the correct overridden method in the derived class at runtime. You don't need to know the exact type at compile time — the program figures it out when it runs."
+        "line": "Exception handling is crucial. The try-except-else-finally structure is important: the `else` block runs only if no exception was raised, and `finally` always runs — even if there's a return in the try block. That makes finally perfect for cleanup like closing files."
     },
     {
         "speaker": "A",
-        "line": "That's the essence of runtime polymorphism. The mechanism behind it is the virtual function table, or vtable. Each class with virtual functions has a hidden table of function pointers, and objects carry a pointer to their class's vtable."
+        "line": "And you can raise custom exceptions by subclassing Exception. That's good design — it lets callers catch your specific error type separately from generic errors. The exam might ask you to define a custom exception and raise it with a meaningful message."
     },
     {
         "speaker": "B",
-        "line": "Constructors and destructors are also exam favorites. The constructor runs automatically when an object is created — it initializes the object's state. The destructor runs when the object goes out of scope or is explicitly deleted, cleaning up resources."
+        "line": "File I/O — the safe pattern is using `with open(filename) as f`, which is a context manager. It ensures the file is properly closed even if an error occurs inside. Reading line by line with `for line in f` is memory-efficient for large files."
     },
     {
         "speaker": "A",
-        "line": "If a class dynamically allocates memory with new inside the constructor, the destructor must release it with delete. Forgetting this causes a memory leak — the memory is never returned to the system, which is a serious bug in long-running programs."
+        "line": "For serialization, JSON is human-readable and cross-platform — use `json.dumps()` to serialize and `json.loads()` to deserialize. Pickle is Python-specific and can serialize almost any Python object, but it's not safe to unpickle untrusted data."
     },
     {
         "speaker": "B",
-        "line": "The Rule of Three is worth knowing: if your class needs a custom destructor to free memory, it almost certainly also needs a custom copy constructor and copy assignment operator. Otherwise, copying the object just copies the pointer, not the underlying data — leading to double-free errors."
+        "line": "The `os` and `sys` modules come up a lot. `os.path.join` builds paths in a platform-independent way, `os.listdir` lists directory contents, and `os.makedirs` creates nested directories. `sys.argv` gives command-line arguments, and `sys.exit` terminates the program."
     },
     {
         "speaker": "A",
-        "line": "Great point. Now let's discuss file I/O, which is another major topic. In C, you open a file with fopen(), which returns a FILE pointer. You then use fread/fwrite for binary files or fscanf/fprintf for text files, and always close with fclose()."
+        "line": "The datetime module is also tested. You create a date with `datetime.date(year, month, day)`, and arithmetic like subtracting two dates gives a `timedelta` object. Formatting with `strftime` and parsing with `strptime` are practical skills the exam loves."
     },
     {
         "speaker": "B",
-        "line": "In C++, you use fstream objects. An ifstream opens a file for reading, an ofstream for writing, and fstream for both. The syntax is more intuitive — you use the stream operators >> and << just like you do with cin and cout."
+        "line": "Now GUI with tkinter — the core concept is the event loop. You create widgets like `Label`, `Button`, `Entry`, pack or grid them into the window, bind callbacks to events, and then call `mainloop()` which blocks and processes events until the window closes."
     },
     {
         "speaker": "A",
-        "line": "One critical habit: always check if the file opened successfully before reading or writing. If the file doesn't exist or permissions are wrong, the file pointer will be null in C, and the fstream object will be in a failed state in C++."
+        "line": "The geometry managers are important: `pack` stacks widgets linearly, `grid` places them in rows and columns, and `place` uses absolute coordinates. For exams, grid is the most flexible for forms and layouts — you can span across multiple columns."
     },
     {
         "speaker": "B",
-        "line": "For the exam, you should also understand sequential versus random access. With fseek() in C or seekg()/seekp() in C++, you can jump to any position in a binary file — essential for accessing specific records without reading the whole file from the start."
+        "line": "Database with SQLite3 — you connect with `sqlite3.connect()`, get a cursor, execute SQL statements, and commit changes. The key workflow is: connect, cursor, execute, commit, close. Parameterized queries with `?` placeholders prevent SQL injection."
     },
     {
         "speaker": "A",
-        "line": "Putting it all together — this course really trains you to think at two levels: the low level of memory management with pointers and manual allocation, and the higher level of OOP design with classes and inheritance. Both matter in real software development."
+        "line": "And fetching — `fetchone()` returns one row, `fetchall()` returns all rows as a list of tuples. Creating tables with `CREATE TABLE IF NOT EXISTS` is a good practice that avoids errors on repeated runs. This comes up in practical coding questions."
     },
     {
         "speaker": "B",
-        "line": "That's the core takeaway. C teaches you to respect memory and understand what the machine is actually doing. C++ builds on that with abstractions that make large programs manageable. Mastering both gives you a very solid programming foundation."
+        "line": "Network programming — the socket module is the foundation. You create a TCP server by binding a socket to an address and port, listening for connections, then accept()-ing each client in a loop. The client connects, sends data, and receives a response."
     },
     {
         "speaker": "A",
-        "line": "Let's go deeper into recursion, which is a concept that trips up a lot of exam candidates. The idea is elegant — a function calls itself with a smaller version of the same problem, until it hits a base case that stops the chain."
+        "line": "The `requests` library simplifies HTTP — `requests.get(url)` fetches a page, and `.json()` on the response parses JSON automatically. For the exam, knowing how to handle response status codes and parse JSON responses is sufficient."
     },
     {
         "speaker": "B",
-        "line": "The key to writing a recursive function is identifying two things: the base case, which is the simplest version of the problem that can be solved directly, and the recursive case, which breaks the problem into a smaller subproblem."
+        "line": "Functional programming — lambda creates anonymous functions inline. `map(func, iterable)` applies a function to every element, `filter(func, iterable)` keeps only elements where the function returns True. These are clean alternatives to explicit for loops."
     },
     {
         "speaker": "A",
-        "line": "Take factorial as the classic example. factorial(5) calls factorial(4), which calls factorial(3), all the way down to factorial(1), which returns 1. Then the results bubble back up through the call stack, multiplying as they go."
+        "line": "Decorators are elegant but intimidating for many students. A decorator is just a function that takes another function as input and returns a new function. It wraps the original to add behavior — like logging or timing — without modifying the original code."
     },
     {
         "speaker": "B",
-        "line": "The call stack is crucial to understand here. Every recursive call adds a new stack frame — local variables, the return address, everything. If recursion goes too deep without hitting the base case, you get a stack overflow. That's a very common bug."
+        "line": "Generators are memory-efficient iterators. A generator function uses `yield` instead of `return` — each call to `next()` resumes execution from where it left off. This is ideal for processing large datasets without loading everything into memory at once."
     },
     {
         "speaker": "A",
-        "line": "That's why for problems with very large input, iterative solutions are often preferred over recursive ones. But for problems that are inherently tree-shaped — like traversing a directory, or solving the Tower of Hanoi — recursion is the natural fit."
+        "line": "Context managers via `__enter__` and `__exit__` are how `with` statements work. You can write your own context manager so that setup happens in `__enter__` and teardown — like closing a database connection — happens automatically in `__exit__`."
     },
     {
         "speaker": "B",
-        "line": "Speaking of which, Tower of Hanoi is a favorite exam question precisely because the recursive solution is almost magical. You move n-1 discs out of the way, move the largest disc, then move the n-1 discs back. The recursion depth is n, and the total moves are 2 to the power of n minus 1."
+        "line": "For multithreading, the `threading` module lets you run tasks concurrently. But Python's GIL — the Global Interpreter Lock — means only one thread executes Python bytecode at a time. Threading is great for I/O-bound tasks but not for CPU-bound computation."
     },
     {
         "speaker": "A",
-        "line": "Now let's talk about sorting algorithms, which are heavily tested. Bubble sort is the simplest — compare adjacent elements and swap if they're out of order, repeat until no swaps happen. It's easy to code but very slow for large datasets."
+        "line": "For CPU-bound work, `multiprocessing` is the answer — each process has its own memory space and GIL, so they truly run in parallel on multiple cores. The exam may ask you to distinguish when to use threading versus multiprocessing."
     },
     {
         "speaker": "B",
-        "line": "Selection sort is conceptually clean too — find the smallest element in the unsorted portion, swap it to the front, repeat. It always makes exactly n-1 swaps regardless of input, which makes it predictable, but it's still O(n squared) time."
+        "line": "To wrap up, the exam structure tests both theory — like explaining what a decorator or generator does — and practical coding. My advice: write actual code for every concept, not just read about it. Hands-on practice is the only way to internalize these patterns."
     },
     {
         "speaker": "A",
-        "line": "Insertion sort works differently — it builds a sorted sequence one element at a time by inserting each new element into its correct position. It's actually very efficient on nearly-sorted data, which is why it's used as a final step in some hybrid algorithms."
-    },
-    {
-        "speaker": "B",
-        "line": "Then there's quicksort, which is the most important one in practice. You pick a pivot element, partition the array so smaller elements go left and larger go right, then recursively sort both halves. On average it's O(n log n) — much faster than the O(n squared) algorithms."
+        "line": "Absolutely. And review the standard library thoroughly — os, sys, datetime, random, json, sqlite3, threading. These appear in almost every practical question. Knowing how to combine them in a single program is what separates a pass from a high score."
     },
     {
         "speaker": "A",
-        "line": "The partition step is the heart of quicksort. The clever bit is that after partitioning, the pivot is already in its final sorted position — you never need to move it again. The two sub-arrays on either side are then sorted independently."
+        "line": "Let's go deeper on decorators since students often memorize the syntax without understanding the mechanics. At its core, a decorator replaces a function with a wrapper. When you write @my_decorator above a function, Python immediately calls my_decorator(original_func) and binds the result back to the same name."
     },
     {
         "speaker": "B",
-        "line": "The weakness of quicksort is its worst case — if you always pick the smallest or largest element as pivot, such as on an already-sorted array, you get O(n squared) performance. That's why random pivot selection or the median-of-three method is used in practice."
+        "line": "Right, and that's why the wrapper function must accept the same arguments as the original — or use *args and **kwargs to be generic. If you forget to return the wrapper's result, the decorated function will silently return None, which is a subtle and frustrating bug."
     },
     {
         "speaker": "A",
-        "line": "For the exam, you should be able to trace through a sorting algorithm step by step with a small array. Examiners often give you an array of 6 or 8 numbers and ask you to show the state after each pass of bubble sort or each partition of quicksort."
+        "line": "There's also the issue of losing the original function's metadata. After decoration, func.__name__ shows the wrapper's name, not the original. The fix is applying @functools.wraps(func) inside your decorator — it copies the original's name, docstring, and signature onto the wrapper."
     },
     {
         "speaker": "B",
-        "line": "Now, stacks and queues — both are fundamental data structures with strict access rules. A stack is last-in, first-out. Think of a stack of plates — you always add and remove from the top. Push adds to the top, pop removes from the top."
+        "line": "Stacking decorators is another exam topic. When you stack @decorator_a and @decorator_b, Python applies them bottom-up — decorator_b wraps first, then decorator_a wraps the result. The execution order when calling the function is top-down though, so @decorator_a's wrapper runs first."
     },
     {
         "speaker": "A",
-        "line": "Stacks have a natural relationship with recursion. In fact, all recursive algorithms can be converted to iterative ones using an explicit stack — you manually simulate what the call stack does automatically. This is a classic exam technique."
+        "line": "Now generators — let's be precise about how yield works internally. When a generator function is called, it doesn't execute at all. It returns a generator object. Execution only begins when you call next() on that object, and it pauses at each yield, preserving the entire local state."
     },
     {
         "speaker": "B",
-        "line": "A queue is first-in, first-out — like a real queue at a counter. You enqueue at the back and dequeue from the front. Queues are used in breadth-first search, task scheduling, and anywhere you need to process items in arrival order."
+        "line": "That state preservation is what makes generators powerful. Local variables, the instruction pointer, even the call stack — all frozen between yields. A generator that reads a huge log file line by line uses only a tiny amount of memory, versus loading the entire file into a list."
     },
     {
         "speaker": "A",
-        "line": "Implementing a queue with an array requires care. A simple approach wastes space as the front pointer advances. The solution is a circular buffer — when the rear pointer reaches the end of the array, it wraps around to the beginning."
+        "line": "Generator expressions are also testable — they look like list comprehensions but with parentheses instead of brackets. Like `(x**2 for x in range(1000))`. They're lazy: they compute each value on demand, unlike list comprehensions which compute all values upfront and store them."
     },
     {
         "speaker": "B",
-        "line": "In C++, you also need to understand templates, which allow you to write generic code that works with any data type. Instead of writing a separate swap function for int, double, and string, you write one function template and the compiler generates the correct version for each type used."
+        "line": "You can also send values into a generator using the send() method. The yielded expression can receive the sent value, making generators two-way communication channels. This is the foundation of coroutines, though for this exam, understanding basic yield behavior is the priority."
     },
     {
         "speaker": "A",
-        "line": "The Standard Template Library, or STL, is built entirely on this idea. The vector, list, stack, queue, and map containers are all class templates. You specify the element type when you declare them, like vector of int or map of string to int."
+        "line": "Let's talk about iterators more precisely. An iterator is any object with both __iter__ and __next__ methods. __iter__ returns self, and __next__ returns the next value or raises StopIteration. A for loop automatically calls these — it calls iter() on the iterable, then next() repeatedly."
     },
     {
         "speaker": "B",
-        "line": "Iterators are the glue that connects STL containers to algorithms. An iterator behaves like a pointer — you can dereference it to get the value, increment it to move to the next element, and compare two iterators to check if you've reached the end."
+        "line": "That's why you can iterate over your custom class — just implement __iter__ returning self and __next__ with your logic. Once StopIteration is raised, the for loop exits cleanly. This is cleaner than index-based loops for custom data structures like linked lists or trees."
     },
     {
         "speaker": "A",
-        "line": "So when you call std::sort on a vector, you pass two iterators — begin and end. The sort algorithm doesn't care what type of container it is or what type of data it holds. It just works through the iterators. That's the power of generic programming."
+        "line": "Context managers — students should be able to write one both ways: using a class with __enter__ and __exit__, and using the @contextmanager decorator from contextlib. The decorator approach is elegant: everything before yield is setup, yield is the body of the with block, and everything after yield is teardown."
     },
     {
         "speaker": "B",
-        "line": "Exception handling is another topic the 08074 exam tests. In C++, when something goes wrong at runtime — like dividing by zero or opening a file that doesn't exist — you can throw an exception rather than returning an error code."
+        "line": "The __exit__ method receives three arguments: exc_type, exc_val, and exc_tb — these describe any exception that occurred inside the with block. If __exit__ returns True, the exception is suppressed. Returning None or False lets it propagate. This gives you fine-grained control over error handling."
     },
     {
         "speaker": "A",
-        "line": "The try-catch mechanism cleanly separates the error-handling code from the normal execution path. Code inside the try block runs normally. If anything throws an exception, control jumps immediately to the matching catch block."
+        "line": "Now let's drill into multithreading for the exam. The threading.Thread class takes a target function and optional args. You call .start() to begin execution and .join() to wait for it to finish. Without join(), your main program might exit before threads complete their work."
     },
     {
         "speaker": "B",
-        "line": "You can throw any type — an integer, a string, or a custom exception class. It's best practice to derive your custom exception classes from std::exception and override the what() method, which returns a description of the error."
+        "line": "Race conditions are the main hazard. If two threads modify a shared variable simultaneously, the result is unpredictable. The fix is a threading.Lock — one thread acquires the lock, does its work, then releases it. The other thread blocks until the lock is available."
     },
     {
         "speaker": "A",
-        "line": "One subtlety: when an exception is thrown, the runtime automatically calls destructors for all local objects that were created in the try block before the exception occurred. This is called stack unwinding, and it's why RAII — Resource Acquisition Is Initialization — pairs so well with exception handling."
+        "line": "The with statement works beautifully with locks — `with lock:` acquires on entry and releases on exit, even if an exception occurs inside. This is much safer than manually calling lock.acquire() and lock.release(), where you might forget the release in error paths."
     },
     {
         "speaker": "B",
-        "line": "RAII is a powerful C++ idiom. You tie a resource — like a file handle or a mutex — to the lifetime of an object. The constructor acquires the resource, the destructor releases it. Even if an exception is thrown, the destructor is guaranteed to run and the resource is always cleaned up."
+        "line": "For the multiprocessing module, the interface mirrors threading almost exactly, but each Process runs in its own Python interpreter with its own memory. Sharing data between processes requires explicit mechanisms like Queue or Pipe — you can't just share a variable like you can with threads."
     },
     {
         "speaker": "A",
-        "line": "To wrap up this session — the 08074 exam tests you at every level, from low-level memory management with pointers and dynamic allocation, through data structures like linked lists, stacks and queues, up to high-level OOP and generic programming with templates."
+        "line": "Let's revisit tkinter with more depth. The StringVar, IntVar, and DoubleVar are special variable types that auto-notify widgets when their value changes. Bind a StringVar to an Entry widget's textvariable option, and reading its .get() gives you the current input without manual event handling."
     },
     {
         "speaker": "B",
-        "line": "The underlying thread connecting all these topics is thinking carefully about data ownership, memory lifetime, and the cost of operations. Whether it's a recursive call depth, a sorting algorithm's time complexity, or a destructor that must release memory — these principles never change."
+        "line": "Message boxes are practical exam material — `messagebox.showinfo()`, `messagebox.showerror()`, and `messagebox.askyesno()` create popup dialogs. The askyesno variant returns True or False, so you can use it for confirmation dialogs before destructive operations like deleting records."
     },
     {
         "speaker": "A",
-        "line": "Let's move on to binary trees, which are one of the most important data structures in this course. A binary tree is a tree where every node has at most two children — a left child and a right child. Each node is essentially a struct with a data field and two pointers."
+        "line": "The Canvas widget is worth knowing — it lets you draw shapes, lines, text, and even images programmatically. You call `canvas.create_rectangle()`, `canvas.create_oval()`, and so on with coordinate arguments. It's useful for simple data visualization or game boards in exam coding questions."
     },
     {
         "speaker": "B",
-        "line": "The three classic traversal orders are the core of almost every binary tree exam question. Pre-order visits the root first, then the left subtree, then the right. In-order visits left first, then root, then right. Post-order visits both subtrees before the root."
+        "line": "For event binding in tkinter, the bind() method maps events to callbacks. The event string format is important: '<Button-1>' is a left click, '<KeyPress-Return>' is the Enter key, '<Motion>' tracks mouse movement. The callback receives an event object with x, y coordinates and more."
     },
     {
         "speaker": "A",
-        "line": "A great way to remember them: pre-order is root-left-right, in-order is left-root-right, post-order is left-right-root. The position of 'root' tells you the order. For a Binary Search Tree, in-order traversal always produces a sorted sequence — that's a key property."
+        "line": "Now let's go deep on SQLite3. Transactions are key — by default, sqlite3 in Python operates in autocommit mode for DDL but requires explicit commit() for DML like INSERT, UPDATE, DELETE. Forgetting to commit is the most common mistake students make in coding questions."
     },
     {
         "speaker": "B",
-        "line": "That's a classic exam question right there. Given a BST, the in-order output is always ascending. The reason is structural: for every node, all values in the left subtree are smaller, and all values in the right subtree are larger."
+        "line": "Using a connection as a context manager with `with sqlite3.connect() as conn:` handles commit and rollback automatically — it commits on clean exit and rolls back if an exception occurs. This is the safest pattern and shows good understanding of transactions in exam answers."
     },
     {
         "speaker": "A",
-        "line": "BST search is also very elegant. Starting from the root, if the target is smaller go left, if larger go right, repeat until you find it or hit a null pointer. In a balanced tree this takes O(log n) time — much faster than scanning a linked list."
+        "line": "Row objects versus tuples — by default, fetchall() returns tuples. But if you set `conn.row_factory = sqlite3.Row`, you get Row objects that support both index and column-name access. So `row['name']` works instead of `row[0]` — much more readable in larger queries."
     },
     {
         "speaker": "B",
-        "line": "But the key word is 'balanced.' If you insert values in sorted order into a BST — say 1, 2, 3, 4, 5 — the tree degenerates into a straight line, essentially a linked list. Search time collapses back to O(n). That's the worst case for a naive BST."
+        "line": "For network programming with sockets, the distinction between TCP and UDP is testable. TCP uses SOCK_STREAM — it's connection-oriented, reliable, and ordered. UDP uses SOCK_DGRAM — it's connectionless and faster but has no delivery guarantee. Most exam questions focus on TCP."
     },
     {
         "speaker": "A",
-        "line": "That's exactly why self-balancing trees like AVL trees were invented. After every insertion or deletion, the AVL tree checks the balance factor — the height difference between left and right subtrees — and performs rotations to keep it within one."
+        "line": "The TCP server workflow has a specific sequence: socket() creates the socket, bind() assigns the address and port, listen() puts it in listening mode, then accept() blocks until a client connects and returns a new socket for that specific client plus the client's address."
     },
     {
         "speaker": "B",
-        "line": "Rotations are the mechanism that restores balance. A single left rotation or right rotation restructures a local portion of the tree without changing the in-order sequence. Double rotations — left-right or right-left — handle the more complex imbalance cases."
+        "line": "On the client side: socket() creates it, then connect() initiates the handshake to the server's address and port. Then send() and recv() exchange data. The recv() argument is the buffer size — typically 1024 or 4096 bytes. Always decode bytes to string with .decode('utf-8')."
     },
     {
         "speaker": "A",
-        "line": "Now let's talk about reconstructing a binary tree from traversal sequences, which is a very common written exam question. If you're given both the pre-order and in-order sequences, you can always reconstruct the unique tree — because pre-order tells you the root, and in-order tells you which nodes belong in each subtree."
+        "line": "A common exam question asks you to write an echo server — the server receives a message and sends it back unchanged. It tests whether you understand the full socket lifecycle, including closing the client socket after the exchange and the server socket when done."
     },
     {
         "speaker": "B",
-        "line": "The algorithm is recursive. Take the first element of pre-order — that's the root. Find it in the in-order sequence. Everything to its left in in-order is the left subtree, everything to its right is the right subtree. Then recurse on each half."
+        "line": "The requests library abstracts all of that for HTTP. One thing worth noting: always check `response.status_code` before processing the body. A 200 means success, 404 means not found, 500 means server error. The shortcut `response.raise_for_status()` throws an exception for any 4xx or 5xx code."
     },
     {
         "speaker": "A",
-        "line": "Note that pre-order plus post-order is NOT sufficient to uniquely reconstruct a tree — you'd need one of them combined with in-order. That distinction is a trap that exam questions love to test."
+        "line": "Let's revisit exception handling edge cases. You can catch multiple exception types in one except clause using a tuple: `except (ValueError, TypeError) as e`. The `as e` binds the exception instance, so you can print `str(e)` to show the error message in your output."
     },
     {
         "speaker": "B",
-        "line": "Let's shift to hash tables, which are all about achieving O(1) average-case lookup. The core idea is a hash function that maps a key to an index in an array. Instead of searching through data, you compute where it should be and go directly there."
+        "line": "Exception chaining is advanced but may appear — when you catch one exception and raise another, Python automatically chains them. You can also use `raise NewException(...) from original_exception` to explicitly set the cause, which shows up clearly in tracebacks."
     },
     {
         "speaker": "A",
-        "line": "The challenge is collisions — two different keys hashing to the same index. There are two main strategies to handle this. Open addressing probes for the next available slot in the array. Chaining attaches a linked list to each slot to hold multiple entries."
+        "line": "For modules and packages, students should know that a package is simply a directory with an __init__.py file. When you import a package, Python runs __init__.py. You can put import statements there to make submodule contents available at the package level — that's why you can do `from mypackage import MyClass` instead of the full path."
     },
     {
         "speaker": "B",
-        "line": "With chaining, even if many keys hash to the same slot, performance degrades gracefully — you just traverse a short linked list. The load factor, which is the number of entries divided by the array size, determines how long those chains get on average."
+        "line": "The if __name__ == '__main__' guard is essential for reusable modules. When a file is run directly, __name__ is '__main__'. When it's imported, __name__ is the module's file name. The guard prevents test code or demo runs from executing when the module is imported by another script."
     },
     {
         "speaker": "A",
-        "line": "A good hash function distributes keys uniformly across the array. The division method — key modulo table size — is simple but works well when the table size is a prime number. Using a power of two as the table size is a common mistake that amplifies clustering."
+        "line": "The random module is frequently tested in practical questions. `random.randint(a, b)` returns an integer including both endpoints. `random.choice(seq)` picks one element from a sequence. `random.shuffle(lst)` shuffles a list in-place. `random.sample(population, k)` returns k unique elements without modifying the original."
     },
     {
         "speaker": "B",
-        "line": "Now, graph algorithms — DFS and BFS. A graph is a set of vertices connected by edges. Unlike a tree, a graph can have cycles and multiple paths between nodes, which makes traversal more complex — you must track which nodes have already been visited."
+        "line": "For the datetime module, computing the difference between two dates is a practical skill. Subtracting two date objects gives a timedelta, and `.days` gives the number of days between them. Adding `timedelta(days=30)` to a date gives you a date 30 days later — useful for deadline calculations."
     },
     {
         "speaker": "A",
-        "line": "DFS — depth-first search — dives as deep as possible along one path before backtracking. It uses a stack, either explicitly or via recursion. BFS — breadth-first search — explores all neighbors at the current depth before going deeper. It uses a queue."
+        "line": "Let's talk about comprehensions more broadly. A dictionary comprehension like `{k: v for k, v in items if v > 0}` both filters and transforms in one expression. A set comprehension with curly braces automatically deduplicates. These are not just syntactic sugar — they're often faster than equivalent loop code."
     },
     {
         "speaker": "B",
-        "line": "BFS is the natural choice for finding the shortest path in an unweighted graph, because it explores nodes level by level — the first time it reaches a destination is always via the fewest edges. DFS is better for tasks like detecting cycles or topological sorting."
+        "line": "Nested comprehensions deserve attention too. `[[0]*cols for _ in range(rows)]` creates a 2D matrix correctly — each row is a separate list. The naive `[[0]*cols]*rows` looks similar but creates rows that are all the same object, so modifying one row modifies all of them."
     },
     {
         "speaker": "A",
-        "line": "Graphs can be stored as an adjacency matrix or an adjacency list. A matrix uses O(V squared) space but lets you check if an edge exists in O(1). An adjacency list uses O(V plus E) space and is far more efficient for sparse graphs where most edges don't exist."
+        "line": "That's a great exam trap. Let me add one more: shallow copy versus deep copy. `list2 = list1[:]` or `list(list1)` creates a shallow copy — the outer list is new, but nested objects are still shared. `copy.deepcopy(list1)` recursively copies everything, so nested lists are fully independent."
     },
     {
         "speaker": "B",
-        "line": "For the exam, you need to be able to trace DFS and BFS by hand on a small graph — typically 5 to 7 vertices. Draw the visited order step by step. The starting node matters, and you should follow alphabetical or numerical order when multiple unvisited neighbors exist."
+        "line": "For the final stretch of exam prep — pickling. `pickle.dump(obj, file)` serializes to a binary file, `pickle.load(file)` deserializes. It can handle almost any Python object, including custom class instances. But never unpickle data from untrusted sources — it can execute arbitrary code during deserialization."
     },
     {
         "speaker": "A",
-        "line": "String handling is another practical topic. In C, a string is just a char array terminated by a null character, backslash zero. Functions like strlen, strcpy, strcat, and strcmp are standard tools — but you must always ensure the destination buffer is large enough to avoid buffer overflow."
+        "line": "JSON serialization is safer and more portable. The only limitation is that JSON supports only basic types: strings, numbers, lists, dicts, booleans, and None. If you need to serialize a custom object, you must write a custom encoder by subclassing json.JSONEncoder and overriding its default() method."
     },
     {
         "speaker": "B",
-        "line": "Buffer overflow is a classic security vulnerability. If you copy a 50-character string into a 20-character buffer without checking, you overwrite adjacent memory — potentially corrupting data or even hijacking program control. Using strncpy instead of strcpy limits the copy to a safe length."
+        "line": "Alright, let me give a high-level exam strategy. Know your data types cold. Be able to write a class with inheritance, overriding __str__ and at least one other special method. Be able to write a generator, a decorator, and a context manager from scratch without looking anything up."
     },
     {
         "speaker": "A",
-        "line": "In C++, the std::string class handles all of this safely. It manages its own memory, grows dynamically, and provides member functions like find, substr, and replace. For exam purposes, know both the C-style char array approach and the C++ string class approach."
+        "line": "And for practical coding sections: always handle exceptions around file and database operations, always close resources with with-statements, and always test your output mentally — trace through the code line by line before writing your final answer. Those habits separate good scores from great ones."
     },
     {
         "speaker": "B",
-        "line": "Dynamic memory management is worth revisiting too. In C, malloc allocates a block of bytes on the heap and returns a void pointer, which you cast to the appropriate type. Free releases it. In C++, new and delete are cleaner — new also calls the constructor."
+        "line": "One last thing — the os.walk() function is extremely useful and often appears in file system questions. It yields a three-tuple of dirpath, dirnames, and filenames for every directory in a tree. You can recurse an entire folder structure in just three lines of code using a for loop over os.walk()."
     },
     {
         "speaker": "A",
-        "line": "Memory leaks happen when you allocate with malloc or new but never call free or delete. The program appears to run fine but slowly consumes all available memory. In a server that runs for days, even a small leak per request will eventually crash the system."
-    },
-    {
-        "speaker": "B",
-        "line": "Dangling pointers are equally dangerous — after you call free or delete, the pointer still holds the old address. If you accidentally dereference it, you're reading or writing to memory that may have already been reused for something else. Always set pointers to null after freeing them."
-    },
-    {
-        "speaker": "A",
-        "line": "To summarize the territory we've covered today: binary trees and their traversals, BST search and balancing, hash tables and collision handling, DFS and BFS on graphs, safe string handling, and the discipline of dynamic memory management. These topics form the backbone of the 08074 exam."
-    },
-    {
-        "speaker": "B",
-        "line": "What ties it all together is the ability to choose the right data structure for the problem. Trees for hierarchical or sorted data. Hash tables for fast lookup. Graphs for relationships and connectivity. Arrays and linked lists for sequences. Master the trade-offs, and you're exam-ready."
+        "line": "Perfect note to end on. The exam rewards students who can read a problem, identify the right module and pattern, and write clean, correct code efficiently. Master the standard library, understand how Python's object model really works, and you'll do very well on 08074. Good luck everyone."
     }
 ]
