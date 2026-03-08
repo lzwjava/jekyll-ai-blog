@@ -11,7 +11,7 @@ def convert_conversation_to_notes():
     os.makedirs(NOTES_DIR, exist_ok=True)
     print(f"Created or verified notes directory: {NOTES_DIR}")
     for filename in os.listdir(CONVERSATION_DIR):
-        if filename.endswith(".json"):
+        if filename.endswith(".json") and not filename.endswith("-zh.json"):
             print(f"Processing file: {filename}")
             filepath = os.path.join(CONVERSATION_DIR, filename)
             with open(filepath, "r") as f:
