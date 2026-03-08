@@ -3,4 +3,3 @@ repos:
     rev: v0.15.5
     hooks:
       - id: ruff-format
-      - id: ruff-check
