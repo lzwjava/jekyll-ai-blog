@@ -8,11 +8,10 @@ prompt: Do not translate specific human name items such as Yin, Yin Wang, Zhiwei
   etc.
 title: Comfortable Daily Eyeglass Use at 1.50D Below Full Prescription
 top: 10
-translated: false
 type: post
 ---
 
-*Last updated in 30 August 2025*
+*Last updated in 11 March 2026*
 
 ### Table of Contents
 
@@ -75,21 +74,23 @@ type: post
 
 * The reason people worsen their eyesight is that they use glasses with full prescription (which lets them see a blackboard clearly at 5m) to look at phones, computers, or books most of the time. This causes their eyeballs to deform.
 
-* After using glasses with a 150-200 degree reduction for several days, you won't want to go back to full prescription glasses. The latter becomes very uncomfortable.
+* For prescription strength expression, a lens weakened by 1.50 D in Western countries is equivalent to a 150-degree reduction in many Asian countries.
+
+* After using glasses with the lens weakened by 1.50 D for several days, you won't want to go back to full prescription glasses. The latter becomes very uncomfortable.
 
 * Understanding myopia is key - it's caused by eye muscle changes, not just genetics or light exposure.
 
 * The most important principle is "just barely clear" - wear glasses that make things just clear enough without straining.
 
-* For computer or phone use, a 150-200 degree reduction often works well.
+* For computer or phone use, a −1.50 D undercorrection often works well.
+
+* Expect slow progress — about −0.25 D reduction every three months is good.
+
+* Use the formula: Myopia (in diopters) = 1 / clear distance (in meters) for rough assessment.
 
 * Keep a stronger prescription pair for driving and essential tasks requiring perfect vision.
 
-* Expect slow progress - about 25 degrees reduction every three months is good.
-
 * Don't aim for perfect clarity. Slightly blurry vision is part of the improvement process.
-
-* Use the formula: Myopia degree = 100/clear distance (in meters) for rough assessment.
 
 * Don't force yourself to see clearly - let your eyes adjust naturally.
 
