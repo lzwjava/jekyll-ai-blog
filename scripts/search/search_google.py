@@ -25,10 +25,18 @@ HEADERS = {
 
 def search_google(query: str, num_results: int = 10) -> List[Dict[str, str]]:
     """Search Google by scraping web results directly."""
-    url = f"https://www.google.com/search?q={query}&num={num_results}"
+    # Use unquoted query to see if that helps
+    url = f"https://www.google.com/search?q={query}"
 
     try:
-        response = requests.get(url, headers=HEADERS, proxies=PROXY, timeout=10)
+        # Use a mobile user-agent - sometimes this gets a simpler, non-JS-dependent page
+        mobile_headers = {
+            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-us",
+            "Connection": "keep-alive",
+        }
+        response = requests.get(url, headers=mobile_headers, proxies=PROXY, timeout=10)
         response.raise_for_status()
     except Exception as e:
         print(f"Error searching Google: {e}")
@@ -37,21 +45,27 @@ def search_google(query: str, num_results: int = 10) -> List[Dict[str, str]]:
     soup = BeautifulSoup(response.text, "html.parser")
     results = []
 
-    # Google results are typically in div.g or div.tF2Cud
-    # Anchors with h3 tags inside are usually the result links
-    for g in soup.select(".g"):
-        anchor = g.select_one("a")
-        title_elem = g.select_one("h3")
+    # Mobile results often use different tags. We'll look for any link that doesn't point to google.com
+    # and has some text associated with it.
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
 
-        if anchor and title_elem:
-            link = anchor["href"]
-            title = title_elem.get_text()
+        if "/url?q=" in href:
+            parsed = urlparse(href)
+            qs = parse_qs(parsed.query)
+            if "q" in qs:
+                href = qs["q"][0]
 
-            # Filter out internal google links
-            if link.startswith("/search") or "google.com" in link and "/search" in link:
-                continue
+        if not href.startswith("http") or "google.com" in href:
+            continue
 
-            results.append({"title": title, "url": link})
+        # Look for title text in the anchor itself or its spans
+        title = a.get_text(separator=" ", strip=True)
+        # Avoid very short or long titles that might not be actual result titles
+        if title and 10 < len(title) < 200:
+            # Avoid repeating the same URL
+            if not any(res["url"] == href for res in results):
+                results.append({"title": title, "url": href})
 
         if len(results) >= num_results:
             break
