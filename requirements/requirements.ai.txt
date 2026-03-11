@@ -4,5 +4,3 @@ gym
 pyvirtualdisplay
 IPython
 mediawiki-utilities
-readability-lxml
-lxml

@@ -16,3 +16,5 @@ cffi
 langid
 tomlkit
 dnspython
+readability-lxml
+lxml
