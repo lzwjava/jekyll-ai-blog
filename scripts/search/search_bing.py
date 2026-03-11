@@ -24,15 +24,18 @@ HEADERS = {
 
 def search_bing(query, num_results=20):
     """Using Bing's search which is a good alternative"""
-    # Use mkt=en-US and set the 'setmkt' parameter to force US results
-    url = f"https://www.bing.com/search?q={query}&setmkt=en-US&setlang=en-US"
+    # Use international URL and parameters to bypass country redirection
+    url = f"https://www.bing.com/search?q={query}&setmkt=en-US&setlang=en-US&cc=US"
 
     try:
         # Use a session to maintain cookies
         session = requests.Session()
-        # Set cookies that Bing uses to remember location/language preferences
-        # SRCHHPGUSR: NRSLT=50 (results per page), SRCHLANG=EN
-        # _EDGE_V and other cookies can be set, but setting the market and lang in URL is often enough
+        # Set cookies to force US market and English language
+        # RPV=1: Number of results/page (irrelevant here but common)
+        # SRCHHPGUSR: SRCHLANG=EN&WLS=2&ADLT=OFF
+        session.cookies.set("SRCHHPGUSR", "SRCHLANG=EN&WLS=2", domain=".bing.com")
+        session.cookies.set("_EDGE_S", "mkt=en-us", domain=".bing.com")
+
         res = session.get(url, headers=HEADERS, proxies=PROXY, timeout=10)
         res.raise_for_status()
     except Exception as e:
