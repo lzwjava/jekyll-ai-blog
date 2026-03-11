@@ -101,6 +101,8 @@ Starting from the end of December, I restarted using a Macau SIM card in my mobi
 
 Starting from January 2026, I started using [Falemon](https://falz.pics). One friend recommended it.
 
+Starting in February 2026, due to a DNS failure with my Falemon subscription address, I switched to DMIT.io and set up Hysteria2 on their server. After using it for one week, the IP address got banned. However, I was able to freely change to a new IP on DMIT.io, which was great. They utilize CN2 GIA lines.
+
 
 #### The Difference Compared to Reversing Myopia
 
