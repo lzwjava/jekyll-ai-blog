@@ -1,11 +1,14 @@
 import requests
 import sys
+import argparse
+import subprocess
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse, parse_qs
 
 proxy = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
 
 
-def search_ddg(query):
+def search_ddg(query, num_results=20):
     # Using DuckDuckGo's html version which is easier to scrape
     url = f"https://html.duckduckgo.com/html/?q={query}"
 
@@ -24,9 +27,21 @@ def search_ddg(query):
     results = []
     # DDG HTML version uses .result__title and .result__a
     for item in soup.select(".result__title .result__a"):
-        results.append({"title": item.text.strip(), "url": item["href"]})
+        href = item["href"]
+        # Handle protocol-relative URLs (e.g., //duckduckgo.com/...)
+        if href.startswith("//"):
+            href = "https:" + href
 
-    return results[:5]
+        # Extract the real URL from DDG's redirect (?uddg=...)
+        if "duckduckgo.com/l/?uddg=" in href:
+            parsed = urlparse(href)
+            query_params = parse_qs(parsed.query)
+            if "uddg" in query_params:
+                href = query_params["uddg"][0]
+
+        results.append({"title": item.text.strip(), "url": href})
+
+    return results[:num_results]
 
 
 def extract_text_from_url(url):
@@ -77,13 +92,25 @@ def extract_text_from_url(url):
         return f"Error fetching {url}: {e}"
 
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python try_bing.py <query>")
-        sys.exit(1)
+def copy_to_clipboard(text):
+    try:
+        process = subprocess.Popen(["pbcopy"], stdin=subprocess.PIPE)
+        process.communicate(text.encode("utf-8"))
+        return True
+    except Exception as e:
+        print(f"Warning: Failed to copy to clipboard: {e}")
+        return False
 
-    query = sys.argv[1]
-    search_results = search_ddg(query)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Search DDG and extract content.")
+    parser.add_argument("query", help="The search query")
+    parser.add_argument(
+        "-n", type=int, default=20, help="Number of results to fetch (default: 20)"
+    )
+    args = parser.parse_args()
+
+    search_results = search_ddg(args.query, num_results=args.n)
 
     all_text = []
     for result in search_results:
@@ -96,4 +123,7 @@ if __name__ == "__main__":
 
     final_content = "\n\n".join(all_text)
     print("\n--- Concatenated Text Out ---")
-    print(final_content[:2000] + "...")  # Print first 2000 chars to avoid flooding
+    print(final_content)
+
+    if copy_to_clipboard(final_content):
+        print("\n✅ Success: All content has been copied to the clipboard.")
