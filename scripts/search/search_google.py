@@ -25,52 +25,70 @@ HEADERS = {
 
 def search_google(query: str, num_results: int = 10) -> List[Dict[str, str]]:
     """Search Google by scraping web results directly."""
-    # Use unquoted query to see if that helps
-    url = f"https://www.google.com/search?q={query}"
+    url = f"https://www.google.com/search?q={query}&num={num_results}&hl=en"
 
     try:
-        # Use a mobile user-agent - sometimes this gets a simpler, non-JS-dependent page
-        mobile_headers = {
-            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-us",
-            "Connection": "keep-alive",
+        # User-Agent that sometimes bypasses simple blocks
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
-        response = requests.get(url, headers=mobile_headers, proxies=PROXY, timeout=10)
+        response = requests.get(url, headers=headers, proxies=PROXY, timeout=10)
         response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        results = []
+
+        # Find all link tags
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+
+            # Clean Google redirect URLs
+            if href.startswith("/url?q="):
+                href = parse_qs(urlparse(href).query).get("q", [""])[0]
+
+            if not href.startswith("http") or "google.com" in href:
+                continue
+
+            # Title is usually in an h3, or just the text of the link
+            title_elem = a.find("h3")
+            title = (
+                title_elem.get_text(strip=True)
+                if title_elem
+                else a.get_text(strip=True)
+            )
+
+            if title and len(title) > 10:
+                if not any(res["url"] == href for res in results):
+                    results.append({"title": title, "url": href})
+
+            if len(results) >= num_results:
+                break
+
+        if results:
+            return results
+
     except Exception as e:
-        print(f"Error searching Google: {e}")
+        print(f"Google search failed: {e}")
+
+    # Fallback to DuckDuckGo if Google fails (common in restricted environments)
+    print("Trying DuckDuckGo fallback...")
+    ddg_url = f"https://html.duckduckgo.com/html/?q={query}"
+    try:
+        res = requests.get(ddg_url, headers=HEADERS, proxies=PROXY, timeout=10)
+        res.raise_for_status()
+        soup = BeautifulSoup(res.text, "html.parser")
+        results = []
+        for item in soup.select(".result__title .result__a"):
+            href = item["href"]
+            if "duckduckgo.com/l/?uddg=" in href:
+                href = parse_qs(urlparse(href).query).get("uddg", [""])[0]
+            results.append({"title": item.get_text(strip=True), "url": href})
+            if len(results) >= num_results:
+                break
+        return results
+    except Exception as e:
+        print(f"Fallback search failed: {e}")
         return []
-
-    soup = BeautifulSoup(response.text, "html.parser")
-    results = []
-
-    # Mobile results often use different tags. We'll look for any link that doesn't point to google.com
-    # and has some text associated with it.
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-
-        if "/url?q=" in href:
-            parsed = urlparse(href)
-            qs = parse_qs(parsed.query)
-            if "q" in qs:
-                href = qs["q"][0]
-
-        if not href.startswith("http") or "google.com" in href:
-            continue
-
-        # Look for title text in the anchor itself or its spans
-        title = a.get_text(separator=" ", strip=True)
-        # Avoid very short or long titles that might not be actual result titles
-        if title and 10 < len(title) < 200:
-            # Avoid repeating the same URL
-            if not any(res["url"] == href for res in results):
-                results.append({"title": title, "url": href})
-
-        if len(results) >= num_results:
-            break
-
-    return results
 
 
 def extract_text_from_url(url):
