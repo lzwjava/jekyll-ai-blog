@@ -16,7 +16,7 @@ type: note
 在许多**银行或高度监管的企业环境**中，由于**安全、合规和数据泄露风险**，通常会阻止直接使用外部搜索 API（如 Tavily、SerpAPI 或其他 AI 搜索工具）。然而，这些环境通常仍允许：
 
 * 通过**企业代理**进行正常网页浏览
-* 访问 Google 或 Bing 等搜索引擎
+* 访问 Ecosia、Google 或 Bing 等搜索引擎
 * 通过批准的代理服务器进行程序化 HTTP 请求
 
 因此，可以使用**三种实用方法**来实现简单的网络搜索系统。
@@ -288,7 +288,7 @@ Python 搜索服务
     │
     ├── requests + proxy
     │
-    ├── Bing/Google HTML 解析
+    ├── Ecosia/Bing/Google HTML 解析
     │
     ├── 获取前 3 个页面
     │

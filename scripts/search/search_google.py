@@ -23,41 +23,31 @@ HEADERS = {
 }
 
 
-def search_google(query: str, num_results: int = 10) -> List[Dict[str, str]]:
-    """Search Google by scraping web results directly."""
-    url = f"https://www.google.com/search?q={query}&num={num_results}&hl=en"
+def search_ecosia(query: str, num_results: int = 10) -> List[Dict[str, str]]:
+    """Search Ecosia by scraping web results directly."""
+    url = f"https://www.ecosia.org/search?q={query}"
 
     try:
-        # User-Agent that sometimes bypasses simple blocks
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, proxies=PROXY, timeout=10)
+        response = requests.get(url, headers=HEADERS, proxies=PROXY, timeout=10)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
         results = []
 
-        # Find all link tags
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
+        # Ecosia search result containers
+        for result in soup.select(".result"):
+            title_elem = result.select_one(".result-title")
+            link_elem = result.select_one(
+                ".result-title"
+            )  # Usually the link is the title itself or contains it
 
-            # Clean Google redirect URLs
-            if href.startswith("/url?q="):
-                href = parse_qs(urlparse(href).query).get("q", [""])[0]
-
-            if not href.startswith("http") or "google.com" in href:
+            if not title_elem or not link_elem:
                 continue
 
-            # Title is usually in an h3, or just the text of the link
-            title_elem = a.find("h3")
-            title = (
-                title_elem.get_text(strip=True)
-                if title_elem
-                else a.get_text(strip=True)
-            )
+            title = title_elem.get_text(strip=True)
+            href = link_elem.get("href")
 
-            if title and len(title) > 10:
+            if href and title and href.startswith("http"):
                 if not any(res["url"] == href for res in results):
                     results.append({"title": title, "url": href})
 
@@ -68,9 +58,9 @@ def search_google(query: str, num_results: int = 10) -> List[Dict[str, str]]:
             return results
 
     except Exception as e:
-        print(f"Google search failed: {e}")
+        print(f"Ecosia search failed: {e}")
 
-    # Fallback to DuckDuckGo if Google fails (common in restricted environments)
+    # Fallback to DuckDuckGo if Ecosia fails (common in restricted environments)
     print("Trying DuckDuckGo fallback...")
     ddg_url = f"https://html.duckduckgo.com/html/?q={query}"
     try:
@@ -188,8 +178,8 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output", help="Save output to file")
     args = parser.parse_args()
 
-    print(f"Searching Google for: {args.query}")
-    search_results = search_google(args.query, num_results=args.n)
+    print(f"Searching Ecosia for: {args.query}")
+    search_results = search_ecosia(args.query, num_results=args.n)
     processed_results = []
 
     if not search_results:

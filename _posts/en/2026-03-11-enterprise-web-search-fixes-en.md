@@ -16,7 +16,7 @@ Answer:
 In many **banking or highly regulated enterprise environments**, direct use of external search APIs (such as Tavily, SerpAPI, or other AI search tools) is often blocked due to **security, compliance, and data leakage risks**. However, these environments typically still allow:
 
 * Normal web browsing through **corporate proxies**
-* Access to search engines such as Google or Bing
+* Access to search engines such as Ecosia, Google or Bing
 * Programmatic HTTP requests through approved proxy servers
 
 Therefore, a simple web search system can be implemented using **three practical approaches**.
@@ -288,7 +288,7 @@ Python Search Service
     │
     ├── requests + proxy
     │
-    ├── Bing/Google HTML parsing
+    ├── Ecosia/Bing/Google HTML parsing
     │
     ├── Fetch top 3 pages
     │
