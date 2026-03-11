@@ -3,16 +3,13 @@ import sys
 import argparse
 import subprocess
 import os
-import json
-from typing import Dict, Any
+from typing import Dict, Any, List
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
 from readability import Document
 from urllib.parse import urlparse, parse_qs
 
 # Configuration
-SERPER_API_KEY = os.environ.get("SERPER_API_KEY")
-
 DEFAULT_PROXY = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
 PROXY = {
     "http": os.environ.get("HTTP_PROXY", DEFAULT_PROXY["http"]),
@@ -26,36 +23,40 @@ HEADERS = {
 }
 
 
-def search_google(query: str, num_results: int = 10):
-    """Search Google using Serper.dev API."""
-    if not SERPER_API_KEY:
-        print("Error: SERPER_API_KEY environment variable not set.")
-        sys.exit(1)
-
-    url = "https://google.serper.dev/search"
-    payload = json.dumps({"q": query, "num": num_results})
-    headers = {"X-API-KEY": SERPER_API_KEY, "Content-Type": "application/json"}
+def search_google(query: str, num_results: int = 10) -> List[Dict[str, str]]:
+    """Search Google by scraping web results directly."""
+    url = f"https://www.google.com/search?q={query}&num={num_results}"
 
     try:
-        response = requests.request(
-            "POST", url, headers=headers, data=payload, timeout=10
-        )
+        response = requests.get(url, headers=HEADERS, proxies=PROXY, timeout=10)
         response.raise_for_status()
-        data = response.json()
-
-        results = []
-        for item in data.get("organic", []):
-            results.append(
-                {
-                    "title": item.get("title", ""),
-                    "url": item.get("link", ""),
-                    "snippet": item.get("snippet", ""),
-                }
-            )
-        return results
     except Exception as e:
-        print(f"Error searching Google via Serper: {e}")
+        print(f"Error searching Google: {e}")
         return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    results = []
+
+    # Google results are typically in div.g or div.tF2Cud
+    # Anchors with h3 tags inside are usually the result links
+    for g in soup.select(".g"):
+        anchor = g.select_one("a")
+        title_elem = g.select_one("h3")
+
+        if anchor and title_elem:
+            link = anchor["href"]
+            title = title_elem.get_text()
+
+            # Filter out internal google links
+            if link.startswith("/search") or "google.com" in link and "/search" in link:
+                continue
+
+            results.append({"title": title, "url": link})
+
+        if len(results) >= num_results:
+            break
+
+    return results
 
 
 def extract_text_from_url(url):
@@ -147,9 +148,7 @@ def copy_to_clipboard(text):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Google Search & Extract for LLMs using Serper API."
-    )
+    parser = argparse.ArgumentParser(description="Google Search & Extract for LLMs.")
     parser.add_argument("query", help="The search query")
     parser.add_argument(
         "-n", type=int, default=10, help="Number of results (default: 10)"
