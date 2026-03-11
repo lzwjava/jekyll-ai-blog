@@ -1,3 +1,10 @@
+import warnings
+
+warnings.filterwarnings("ignore", message=".*RequestsDependencyWarning.*")
+warnings.filterwarnings(
+    "ignore", message=".*urllib3.*doesn't match a supported version.*"
+)
+
 import requests
 import sys
 import argparse
@@ -56,29 +63,13 @@ def search_ecosia(query: str, num_results: int = 10) -> List[Dict[str, str]]:
 
         if results:
             return results
+        else:
+            print("No Ecosia results found in HTML.")
+            return []
 
     except Exception as e:
         print(f"Ecosia search failed: {e}")
-
-    # Fallback to DuckDuckGo if Ecosia fails (common in restricted environments)
-    print("Trying DuckDuckGo fallback...")
-    ddg_url = f"https://html.duckduckgo.com/html/?q={query}"
-    try:
-        res = requests.get(ddg_url, headers=HEADERS, proxies=PROXY, timeout=10)
-        res.raise_for_status()
-        soup = BeautifulSoup(res.text, "html.parser")
-        results = []
-        for item in soup.select(".result__title .result__a"):
-            href = item["href"]
-            if "duckduckgo.com/l/?uddg=" in href:
-                href = parse_qs(urlparse(href).query).get("uddg", [""])[0]
-            results.append({"title": item.get_text(strip=True), "url": href})
-            if len(results) >= num_results:
-                break
-        return results
-    except Exception as e:
-        print(f"Fallback search failed: {e}")
-        return []
+        raise e
 
 
 def extract_text_from_url(url):
