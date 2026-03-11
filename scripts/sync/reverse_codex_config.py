@@ -69,17 +69,6 @@ def reverse_sync_config(restart=True):
     print("\nComplete config:")
     print(tomlkit.dumps(config))
 
-    # Restart codex if requested
-    if restart:
-        print("\nRestarting Codex...")
-        try:
-            subprocess.run(["codex", "restart"], check=True)
-            print("Codex restarted successfully.")
-        except subprocess.CalledProcessError as e:
-            print(f"Failed to restart Codex: {e}")
-        except FileNotFoundError:
-            print("Warning: 'codex' command not found. Is Codex installed and in PATH?")
-
 
 if __name__ == "__main__":
     no_restart = "--no-restart" in sys.argv

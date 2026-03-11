@@ -1,4 +1,4 @@
-model = "minimax/minimax-m2.5"
+model = "google/gemini-3-flash-preview"
 model_provider = "openrouter"              
 
 [model_providers.openrouter]
