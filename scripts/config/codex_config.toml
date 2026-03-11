@@ -1,4 +1,4 @@
-model = "openai/gpt-5.1-codex-mini"
+model = "minimax/minimax-m2.5"
 model_provider = "openrouter"              
 
 [model_providers.openrouter]
