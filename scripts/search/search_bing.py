@@ -22,32 +22,30 @@ HEADERS = {
 }
 
 
-def search_ddg(query, num_results=20):
-    """Using DuckDuckGo's html version which is easier to scrape"""
-    url = f"https://html.duckduckgo.com/html/?q={query}"
+def search_bing(query, num_results=20):
+    """Using Bing's search which is a good alternative"""
+    url = f"https://www.bing.com/search?q={query}"
 
     try:
         res = requests.get(url, headers=HEADERS, proxies=PROXY, timeout=10)
         res.raise_for_status()
     except Exception as e:
-        print(f"Error searching DDG: {e}")
+        print(f"Error searching Bing: {e}")
         return []
 
     soup = BeautifulSoup(res.text, "html.parser")
     results = []
 
-    for item in soup.select(".result__title .result__a"):
-        href = item["href"]
+    for item in soup.select("li.b_algo"):
+        title_link = item.select_one("h2 a")
+        if not title_link:
+            continue
+
+        href = title_link["href"]
         if href.startswith("//"):
             href = "https:" + href
 
-        if "duckduckgo.com/l/?uddg=" in href:
-            parsed = urlparse(href)
-            query_params = parse_qs(parsed.query)
-            if "uddg" in query_params:
-                href = query_params["uddg"][0]
-
-        results.append({"title": item.text.strip(), "url": href})
+        results.append({"title": title_link.text.strip(), "url": href})
 
     return results[:num_results]
 
@@ -142,7 +140,7 @@ def copy_to_clipboard(text):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Optimized DDG Search & Extract for LLMs."
+        description="Optimized Bing Search & Extract for LLMs."
     )
     parser.add_argument("query", help="The search query")
     parser.add_argument(
@@ -151,7 +149,7 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output", help="Save output to file")
     args = parser.parse_args()
 
-    search_results = search_ddg(args.query, num_results=args.n)
+    search_results = search_bing(args.query, num_results=args.n)
     processed_results = []
 
     if not search_results:
