@@ -5,6 +5,7 @@ import subprocess
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
+from readability import Document
 from urllib.parse import urlparse, parse_qs
 
 # Configuration
@@ -84,7 +85,19 @@ def extract_text_from_url(url):
         elif "github.com" in url:
             targets = soup.select(".repository-content, article.markdown-body")
         else:
-            # Generic heuristics for main content
+            # Generic extraction using readability-lxml
+            try:
+                doc = Document(res.text)
+                summary_html = doc.summary()
+                if summary_html:
+                    summary_soup = BeautifulSoup(summary_html, "html.parser")
+                    text = summary_soup.get_text(separator=" ", strip=True)
+                    if len(text) > 100:  # Ensure it extracted meaningful content
+                        return text
+            except Exception as e:
+                print(f"Readability failed for {url}: {e}")
+
+            # Fallback to generic heuristics
             targets = soup.select("article, main, .main-content, #content, .content")
             if not targets:
                 targets = [soup.find("body")]
