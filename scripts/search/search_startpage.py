@@ -43,13 +43,18 @@ def search_startpage(query, num_results=20):
     soup = BeautifulSoup(res.text, "html.parser")
     results = []
 
-    for item in soup.select(".w-gl__result"):
-        link = item.select_one("a.w-gl__result-title")
-        if link and link.has_attr("href"):
-            href = link["href"]
+    search_items = soup.select(".result")
+
+    for item in search_items:
+        link_tag = item.select_one("a.result-link")
+        title_tag = item.select_one(".wgl-title")
+
+        if link_tag and link_tag.has_attr("href") and title_tag:
+            href = link_tag["href"]
+            title = title_tag.get_text(strip=True)
             # Ensure it's an external link
             if isinstance(href, str) and href.startswith("http"):
-                results.append({"title": link.get_text(strip=True), "url": href})
+                results.append({"title": title, "url": href})
 
     return results[:num_results]
 
