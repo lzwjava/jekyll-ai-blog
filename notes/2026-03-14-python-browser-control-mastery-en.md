@@ -62,6 +62,6 @@ Since my automated profile doesn't have your login credentials, I can't reach th
 **This is a great lesson in browser control!** 🎓
 Programmatic browsers (ACP, Playwright, etc.) represent a "fresh" identity. If you want me to authorize things for you:
 1. **Option 1**: You need to log me in once (sharing your cookies or manually typing credentials in a visible browser).
-2. **Option 2 (Best)**: Just enter the code **`837A-E26D`** yourself this time. Once you authorize it, `mini-copilot` will be ready for me to control!
+2. **Option 2 (Best)**: Just enter the code **`837A-XXX`** yourself this time. Once you authorize it, `mini-copilot` will be ready for me to control!
 
 Would you like me to try and find a way to **import your existing browser cookies** from your desktop to my headless profile? That's a more advanced trick I can try with `sudo`! 🍪🕵️‍♂️💂‍♂️🚀
