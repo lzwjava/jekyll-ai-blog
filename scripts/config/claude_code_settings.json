@@ -4,9 +4,9 @@
     "ANTHROPIC_AUTH_TOKEN": "",
     "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
   },
+  "model": "sonnet[1m]",
   "skipDangerousModePermissionPrompt": true,
   "feedbackSurveyState": {
     "lastShownTime": 1753996737780
-  },
-  "model": "opus[1m]"
+  }
 }
