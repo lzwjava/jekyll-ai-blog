@@ -1,11 +1,12 @@
 {
-  "permissions": {
-    "defaultMode": "acceptEdits",
-    "allow": [
-      "Edit(*)",
-      "Write(*)",
-      "MultiEdit(*)"
-    ],
-    "ask": []
-  }
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://v2-as.pincc.ai",
+    "ANTHROPIC_AUTH_TOKEN": "",
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "feedbackSurveyState": {
+    "lastShownTime": 1753996737780
+  },
+  "model": "opus[1m]"
 }
