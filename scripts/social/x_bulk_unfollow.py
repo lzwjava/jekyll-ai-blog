@@ -264,6 +264,7 @@ def unfollow_with_llm(page, username, count, delay, dry_run=False):
 
             if unfollowed > 0 and unfollowed % 50 == 0:
                 pause = random.uniform(15, 30)
+                save_report(report)
                 print(f"Pausing for {pause:.0f}s to avoid rate limits...")
                 time.sleep(pause)
 
@@ -272,9 +273,7 @@ def unfollow_with_llm(page, username, count, delay, dry_run=False):
             page.evaluate("window.scrollBy(0, 800)")
             page.wait_for_timeout(int(DEFAULT_SCROLL_PAUSE * 1000))
 
-        # Save report periodically
-        if evaluated % 10 == 0:
-            save_report(report)
+        save_report(report)
 
     save_report(report)
     return unfollowed, evaluated
