@@ -1,0 +1,22 @@
+{
+    "Accept": "application/json",
+    "Authorization": "Bearer sk-8a25bb9202a81c57xx",
+    "Content-Type": "application/json",
+    "User-Agent": "claude-cli/2.1.76 (external, sdk-cli)",
+    "X-Stainless-Arch": "arm64",
+    "X-Stainless-Lang": "js",
+    "X-Stainless-OS": "MacOS",
+    "X-Stainless-Package-Version": "0.74.0",
+    "X-Stainless-Retry-Count": "0",
+    "X-Stainless-Runtime": "node",
+    "X-Stainless-Runtime-Version": "v24.3.0",
+    "X-Stainless-Timeout": "600",
+    "anthropic-beta": "claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,prompt-caching-scope-2026-01-05,effort-2025-11-24",
+    "anthropic-dangerous-direct-browser-access": "true",
+    "anthropic-version": "2023-06-01",
+    "x-app": "cli",
+    "Connection": "keep-alive",
+    "Host": "127.0.0.1:8080",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Content-Length": "86525"
+}
