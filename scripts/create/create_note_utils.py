@@ -96,7 +96,15 @@ def clean_content(content):
     lines = content.splitlines()
     if lines and lines[0].startswith("# "):
         content = "\n".join(lines[1:])
-    return content.strip()
+    content = content.strip()
+    # Remove leading '---' markdown separators to avoid a bare '---' immediately
+    # after the front matter closing delimiter when the clipboard starts with them.
+    lines = content.splitlines()
+    while lines and lines[0].strip() == "---":
+        lines = lines[1:]
+        while lines and not lines[0].strip():
+            lines = lines[1:]
+    return "\n".join(lines).strip()
 
 
 def write_note(file_path, front_matter, content):
