@@ -96,9 +96,11 @@ def translate_markdown_file(
             source_file=input_file,
         )
         if translated_content:
-            translated_content = (
-                translated_front_matter + "\n\n" + translated_content.strip()
-            )
+            body = translated_content.strip()
+            # Remove any leading --- lines the LLM may have introduced
+            while body.startswith("---"):
+                body = body[3:].lstrip("\n\r")
+            translated_content = translated_front_matter + "\n\n" + body
         else:
             raise Exception(f"Translation failed for: {input_file}")
 
