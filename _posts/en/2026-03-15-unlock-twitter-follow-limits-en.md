@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** I follow 7,500 people on Twitter/X and have reached the follow limit — how can I fix this and follow more people?
 

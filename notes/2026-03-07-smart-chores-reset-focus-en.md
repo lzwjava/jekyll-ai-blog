@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** When working or studying at home and you can't focus or your eyes feel drained, what home activities (like housework, chores, cooking, cleaning, putting dishes in the machine, or laundry) can you do to cool down or recharge? How can you use these chances to recover?
 

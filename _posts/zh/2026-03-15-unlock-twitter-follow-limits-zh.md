@@ -9,7 +9,6 @@ translated: true
 type: note
 ---
 
----
 
 **问题：** 我在 Twitter/X 上关注了 7,500 人，已经达到了关注上限——如何修复这个问题并关注更多人？
 

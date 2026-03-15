@@ -9,7 +9,6 @@ translated: true
 type: note
 ---
 
----
 
 **问题：** 什么是 Kimi Claw（Kimi 提供的云托管 OpenClaw 服务）？它是否需要付费升级，以及它与自行部署 OpenClaw 有何不同？
 

@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** What is Kimi Claw (the cloud-hosted OpenClaw service by Kimi)? Does it require a paid upgrade, and how does it differ from self-deploying OpenClaw?
 

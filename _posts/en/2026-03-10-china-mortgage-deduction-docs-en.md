@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** For China's IIT Housing Loan Interest (Mortgage) Special Additional Deduction, what documents and information does a taxpayer need to prepare and submit?
 

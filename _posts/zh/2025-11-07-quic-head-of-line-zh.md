@@ -10,7 +10,6 @@ translated: true
 type: note
 ---
 
----
 
 ### 问题所在：实时通信中的队头阻塞
 

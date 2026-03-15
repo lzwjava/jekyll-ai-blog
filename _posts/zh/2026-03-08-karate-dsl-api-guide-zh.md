@@ -9,7 +9,6 @@ translated: true
 type: note
 ---
 
----
 
 **问题：** 什么是 Karate DSL——顶级推荐的 API testing framework 的全面介绍？
 

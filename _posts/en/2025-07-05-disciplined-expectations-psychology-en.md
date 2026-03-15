@@ -8,7 +8,6 @@ translated: false
 type: note
 ---
 
----
 ## The Psychology Behind Expecting Others to Follow Suit
 
 It's a common observation: people who are disciplined and achieve success often expect similar behavior from those around them, sometimes leading to frustration or anger when others don't meet those expectations. This phenomenon is rooted in several psychological factors.

@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** What is a comprehensive introduction to Karate DSL — the top-recommended API testing framework?
 

@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** What are unpopular or contrarian opinions about calling LLM APIs? For example, the idea that LLMs are slow and expensive compared to regular code execution, and that you should only use them when truly necessary.
 
