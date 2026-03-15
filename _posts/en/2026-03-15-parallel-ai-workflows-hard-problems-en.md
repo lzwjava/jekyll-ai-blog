@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** For hard technical problems like reimplementing AlphaGo or improving Transformers, is one good approach to use OpenClaw with multiple sessions, temporary repo directories, and different models to try different solution approaches in parallel?
 

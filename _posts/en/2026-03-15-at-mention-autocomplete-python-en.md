@@ -9,7 +9,6 @@ translated: false
 type: note
 ---
 
----
 
 **Question:** How do Claude Code and OpenAI Codex implement the `@` symbol file mention with an autocomplete dropdown, and how can I replicate this in Python since my current `readline`-based approach seems limited?
 

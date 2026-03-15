@@ -9,7 +9,6 @@ translated: true
 type: note
 ---
 
----
 
 **问题：** 对于像重新实现 AlphaGo 或改进 Transformers 这样的困难技术问题，使用 OpenClaw 结合多个会话、临时仓库目录和不同模型来并行尝试不同解决方案方法是一种好的方法吗？
 

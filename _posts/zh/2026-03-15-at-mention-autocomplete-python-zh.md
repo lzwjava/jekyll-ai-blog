@@ -9,7 +9,6 @@ translated: true
 type: note
 ---
 
----
 
 **问题：** Claude Code 和 OpenAI Codex 如何实现带有自动完成下拉菜单的 `@` 符号文件提及，以及我如何在 Python 中复制这个功能，因为我当前的基于 `readline` 的方法似乎有限？
 
