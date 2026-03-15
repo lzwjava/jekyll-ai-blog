@@ -13,6 +13,10 @@ Translate the following posts or words into Chinese, ensuring that names (e.g., 
 
 ---
 
+Summarize above task. Give very detaield step about how you finish the jask , the difficulties , the critical breakthrough.
+
+---
+
 Use english intro to below. And analyze frequent exam questions in its course  04729 University Chinese self-study exam.
 
 ---
