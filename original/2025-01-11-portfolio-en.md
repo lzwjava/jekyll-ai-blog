@@ -442,3 +442,13 @@ Contributed to the development of an AI-powered story bot using Claude's API for
 - Made myself an autonomous humanoid AI agent to automate as much as possible—through scripting, logging, documenting, and sharing. By implementing caching and validation of LLM outputs, creating dedicated prompts and contexts for 20 customized agents, and leveraging 400 reusable Copilot-written scripts and 1,100 Copilot-written guides across the tech stack, the engineering experience in a large bank has started to feel good.
 - Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, Python, HashiCorp Vault, Ansible, along with tools including Windows, Control-M, IBM WebSphere Liberty Profile, and Copilot.  
 - Joined the internal HSBC AI Community; stayed updated on AI progress after work; trained small models using Andrej Karpathy's nanoGPT; utilized OpenRouter and Claude Code for extensive coding in personal projects; consumed approximately 320 million tokens over the past year; learned a bit about MCP, LangChain, Codex, reasoning, and more.
+
+Below is a screenshot of the HSBC Business Internet Banking platform, which showcases the type of enterprise financial system where similar technologies and architectures are deployed.
+
+<div align="center">
+
+<img src="/assets/images/portfolio/hsbc-platform.png" width="200px" /><img/>
+
+<p><a href="https://www.online-banking.business.hsbc.com.hk">Image Source: HSBC Business Internet Banking Information Hub</a></p>
+
+</div>
