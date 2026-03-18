@@ -408,9 +408,9 @@ PayMe from HSBC is a convenient way to send payments to friends, and make mobile
 
 <div align="center">
 
-<img src="/assets/images/portfolio/payme1.png" width="200px" /><img/>
+<img src="/assets/images/portfolio/payme1.png" width="400px" /><img/>
 
-<img src="/assets/images/portfolio/payme2.png" width="200px" /><img/>
+<img src="/assets/images/portfolio/payme2.png" width="400px" /><img/>
 
 <p><a href="https://payme.hsbc.com.hk/">Image Source: PayMe By HSBC</a></p>
 
@@ -447,7 +447,7 @@ Below is a screenshot of the HSBC Business Internet Banking platform, which show
 
 <div align="center">
 
-<img src="/assets/images/portfolio/hsbc-platform.png" width="200px" /><img/>
+<img src="/assets/images/portfolio/hsbc-platform.png" width="800px" /><img/>
 
 <p><a href="https://www.online-banking.business.hsbc.com.hk">Image Source: HSBC Business Internet Banking Information Hub</a></p>
 
