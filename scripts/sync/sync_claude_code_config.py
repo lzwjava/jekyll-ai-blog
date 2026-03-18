@@ -16,11 +16,26 @@ def sync_config():
     with open(source_path, "r") as f:
         config = json.load(f)
 
+    # Known token env vars to identify by name instead of blanking
+    known_token_vars = ["PINCC_API_KEY", "SSSAICODE_API_KEY"]
+
     # Replace sensitive info
     if "env" in config:
         for key in list(config["env"].keys()):
             if any(s in key.lower() for s in ["token", "key", "secret", "password"]):
-                config["env"][key] = ""
+                val = config["env"][key]
+                matched_var = None
+                if val:
+                    for var_name in known_token_vars:
+                        env_val = os.getenv(var_name)
+                        if env_val and env_val == val:
+                            matched_var = var_name
+                            break
+                if matched_var:
+                    config["env"][key] = matched_var
+                    print(f"Marked {key} as {matched_var}.")
+                else:
+                    config["env"][key] = ""
 
     # Write sanitized config
     print("Writing sanitized config...")

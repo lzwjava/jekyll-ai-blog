@@ -4,6 +4,9 @@
     "ANTHROPIC_AUTH_TOKEN": "",
     "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
   },
+  "enabledPlugins": {
+    "pyright-lsp@claude-plugins-official": true
+  },
   "skipDangerousModePermissionPrompt": true,
   "feedbackSurveyState": {
     "lastShownTime": 1753996737780

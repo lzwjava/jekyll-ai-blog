@@ -1,6 +1,5 @@
 import json
 import os
-import sys
 
 
 def reverse_sync_config():
@@ -27,11 +26,25 @@ def reverse_sync_config():
     with open(source_path, "r") as f:
         config = json.load(f)
 
+    # Known token env vars that may be stored by name
+    known_token_vars = ["PINCC_API_KEY", "SSSAICODE_API_KEY"]
+
     # Restore sensitive env vars from environment variables
     restored = False
     if "env" in config:
         for key in config["env"]:
-            if config["env"][key] == "":
+            val = config["env"][key]
+            if val in known_token_vars:
+                # Value is a named env var reference - look it up
+                env_val = os.getenv(val)
+                if env_val:
+                    config["env"][key] = env_val
+                    print(f"Restored {key} from {val}.")
+                    restored = True
+                else:
+                    print(f"Warning: {val} environment variable not set.")
+            elif val == "":
+                # Blank value - try direct env var name match
                 env_val = os.getenv(key)
                 if env_val:
                     config["env"][key] = env_val
