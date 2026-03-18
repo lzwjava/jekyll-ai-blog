@@ -1,9 +1,25 @@
+import argparse
 import json
 import os
 
+CHANNEL_ENV_VARS = {
+    "pincc": {
+        "ANTHROPIC_AUTH_TOKEN": "PINCC_API_KEY",
+        "ANTHROPIC_BASE_URL": "PINCC_API_ENDPOINT",
+    },
+    "sssaicode": {
+        "ANTHROPIC_AUTH_TOKEN": "SSSAICODE_API_KEY",
+        "ANTHROPIC_BASE_URL": "SSSAICODE_API_ENDPOINT",
+    },
+}
 
-def reverse_sync_config():
-    print("Starting reverse Claude Code config sync...")
+KNOWN_TOKEN_VARS = [
+    v for mapping in CHANNEL_ENV_VARS.values() for v in mapping.values()
+]
+
+
+def reverse_sync_config(channel: str):
+    print(f"Starting reverse Claude Code config sync (channel: {channel})...")
 
     # Source: sanitized config in your project
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,33 +42,39 @@ def reverse_sync_config():
     with open(source_path, "r") as f:
         config = json.load(f)
 
-    # Known env vars that may be stored by name
-    known_token_vars = [
-        "PINCC_API_KEY",
-        "SSSAICODE_API_KEY",
-        "PINCC_API_ENDPOINT",
-        "SSSAICODE_API_ENDPOINT",
-    ]
+    # Apply channel selection: update env var references in config
+    config["channel"] = channel
+    env_mapping = CHANNEL_ENV_VARS[channel]
+    if "env" not in config:
+        config["env"] = {}
+    for claude_key, named_var in env_mapping.items():
+        config["env"][claude_key] = named_var
+        print(f"Set {claude_key} -> {named_var} (channel: {channel})")
+
+    # Persist channel selection back to source settings.json
+    with open(source_path, "w") as f:
+        json.dump(config, f, indent=2)
+        f.write("\n")
+    print(f"Saved channel '{channel}' to source config.")
 
     # Restore sensitive env vars from environment variables
     restored = False
-    if "env" in config:
-        for key in config["env"]:
-            val = config["env"][key]
-            if val in known_token_vars:
-                # Value is a named env var reference - look it up
+    deploy_config = json.loads(json.dumps(config))  # deep copy for deployment
+    if "env" in deploy_config:
+        for key in deploy_config["env"]:
+            val = deploy_config["env"][key]
+            if val in KNOWN_TOKEN_VARS:
                 env_val = os.getenv(val)
                 if env_val:
-                    config["env"][key] = env_val
+                    deploy_config["env"][key] = env_val
                     print(f"Restored {key} from {val}.")
                     restored = True
                 else:
                     print(f"Warning: {val} environment variable not set.")
             elif val == "":
-                # Blank value - try direct env var name match
                 env_val = os.getenv(key)
                 if env_val:
-                    config["env"][key] = env_val
+                    deploy_config["env"][key] = env_val
                     print(f"Restored {key}.")
                     restored = True
                 else:
@@ -61,18 +83,29 @@ def reverse_sync_config():
     if not restored:
         print("No keys needed restoration (already set or no match).")
 
+    # Remove internal 'channel' key before writing to ~/.claude/settings.json
+    deploy_config.pop("channel", None)
+
     # Write the restored config back to the original location
     print("Writing config back to original location...")
     with open(target_path, "w") as f:
-        json.dump(config, f, indent=2)
+        json.dump(deploy_config, f, indent=2)
         f.write("\n")
 
     print("Reverse Claude Code config sync completed successfully.")
 
     # Print the complete config for verification
     print("\nComplete config:")
-    print(json.dumps(config, indent=2))
+    print(json.dumps(deploy_config, indent=2))
 
 
 if __name__ == "__main__":
-    reverse_sync_config()
+    parser = argparse.ArgumentParser(description="Reverse sync Claude Code config.")
+    parser.add_argument(
+        "--channel",
+        choices=list(CHANNEL_ENV_VARS.keys()),
+        default="pincc",
+        help="API channel to use (default: pincc)",
+    )
+    args = parser.parse_args()
+    reverse_sync_config(args.channel)

@@ -1,4 +1,5 @@
 {
+  "channel": "sssaicode",
   "env": {
     "ANTHROPIC_BASE_URL": "SSSAICODE_API_ENDPOINT",
     "ANTHROPIC_AUTH_TOKEN": "SSSAICODE_API_KEY",
