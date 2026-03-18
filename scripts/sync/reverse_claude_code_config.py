@@ -26,8 +26,13 @@ def reverse_sync_config():
     with open(source_path, "r") as f:
         config = json.load(f)
 
-    # Known token env vars that may be stored by name
-    known_token_vars = ["PINCC_API_KEY", "SSSAICODE_API_KEY"]
+    # Known env vars that may be stored by name
+    known_token_vars = [
+        "PINCC_API_KEY",
+        "SSSAICODE_API_KEY",
+        "PINCC_API_ENDPOINT",
+        "SSSAICODE_API_ENDPOINT",
+    ]
 
     # Restore sensitive env vars from environment variables
     restored = False
