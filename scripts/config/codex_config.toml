@@ -23,6 +23,9 @@ trust_level = "trusted"
 [projects."/Users/lzwjava/projects/blog-source"]
 trust_level = "trusted"
 
+[projects."/Users/lzwjava/projects/ww"]
+trust_level = "trusted"
+
 [notice.model_migrations]
 gpt-5-codex = "gpt-5.2-codex"
 
