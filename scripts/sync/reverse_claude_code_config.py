@@ -102,8 +102,9 @@ def reverse_sync_config(channel: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Reverse sync Claude Code config.")
     parser.add_argument(
-        "--channel",
+        "channel",
         choices=list(CHANNEL_ENV_VARS.keys()),
+        nargs="?",
         default="pincc",
         help="API channel to use (default: pincc)",
     )
