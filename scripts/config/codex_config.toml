@@ -1,4 +1,4 @@
-model = "google/gemini-3-flash-preview"
+model = "deepseek/deepseek-v3.2"
 model_provider = "openrouter"              
 
 [model_providers.openrouter]
@@ -17,13 +17,13 @@ trust_level = "trusted"
 [projects."/Users/lzwjava/projects/playground-server"]
 trust_level = "trusted"
 
+[projects."/Users/lzwjava/projects/ww"]
+trust_level = "trusted"
+
 [projects."/Users/lzwjava/projects/LibreChat"]
 trust_level = "trusted"
 
 [projects."/Users/lzwjava/projects/blog-source"]
-trust_level = "trusted"
-
-[projects."/Users/lzwjava/projects/ww"]
 trust_level = "trusted"
 
 [notice.model_migrations]
