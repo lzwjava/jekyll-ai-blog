@@ -449,6 +449,6 @@ Below is a screenshot of the HSBC Business Internet Banking platform, which show
 
 <img src="/assets/images/portfolio/hsbc-platform.png" width="800px" /><img/>
 
-<p><a href="https://www.online-banking.business.hsbc.com.hk">Image Source: HSBC Business Internet Banking Information Hub</a></p>
+<p><a href="https://www.online-banking.business.hsbc.com.hk/portalserver/hsbc/page/commercial/online/info-home">Image Source: HSBC Business Internet Banking Information Hub</a></p>
 
 </div>
