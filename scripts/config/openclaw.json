@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-03-21T22:11:22.122Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-13T15:32:49.005Z",
+    "lastRunVersion": "2026.3.12",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "executablePath": "/home/lzw/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome",
+    "headless": true,
+    "noSandbox": true
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      },
+      "sssaicode:default": {
+        "provider": "sssaicode",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "sssaicode": {
+        "baseUrl": "https://claude2.sssaicode.com/api",
+        "api": "anthropic-messages",
+        "authHeader": true,
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openrouter/xiaomi/mimo-v2-pro"
+      },
+      "models": {
+        "openrouter/auto": {
+          "alias": "OpenRouter"
+        },
+        "openrouter/anthropic/claude-sonnet-4.6": {},
+        "openrouter/google/gemini-3-flash-preview": {},
+        "openrouter/stepfun/step-3.5-flash:free": {},
+        "openrouter/deepseek/deepseek-v3.2": {},
+        "openrouter/xiaomi/mimo-v2-pro": {}
+      },
+      "workspace": "/home/lzw/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "gemini",
+        "gemini": {
+          "apiKey": ""
+        }
+      }
+    },
+    "elevated": {
+      "enabled": true,
+      "allowFrom": {
+        "webchat": [
+          "*"
+        ],
+        "telegram": [
+          "*"
+        ]
+      }
+    },
+    "exec": {
+      "security": "full",
+      "ask": "off"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "",
+      "groupPolicy": "allowlist",
+      "streaming": "partial"
+    },
+    "nextcloud-talk": {
+      "enabled": true,
+      "baseUrl": "http://localhost:8080",
+      "botSecret": "",
+      "groupPolicy": "open",
+      "rooms": {
+        "eu42ecdy": {
+          "requireMention": false
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": ""
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "skills": {
+    "entries": {
+      "goplaces": {
+        "apiKey": ""
+      },
+      "nano-banana-pro": {
+        "apiKey": ""
+      },
+      "openai-image-gen": {
+        "apiKey": ""
+      },
+      "openai-whisper-api": {
+        "apiKey": ""
+      },
+      "sag": {
+        "apiKey": ""
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "nextcloud-talk": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "nextcloud-talk": {
+        "source": "npm",
+        "spec": "@openclaw/nextcloud-talk",
+        "installPath": "/home/lzw/.openclaw/extensions/nextcloud-talk",
+        "version": "2026.3.13",
+        "resolvedName": "@openclaw/nextcloud-talk",
+        "resolvedVersion": "2026.3.13",
+        "resolvedSpec": "@openclaw/nextcloud-talk@2026.3.13",
+        "integrity": "sha512-zw5uy5FZd6PFp2LqrAR9R9Pn610DHHHbk1p5ZlIadCyW5ECuXDYsEpUzJpcL0P7MN5vCMOkVL+5QDbKGB6R4gQ==",
+        "shasum": "099c005615dd37a9f84996e0893d4ea8ba729779",
+        "resolvedAt": "2026-03-21T21:52:54.747Z",
+        "installedAt": "2026-03-21T21:52:56.803Z"
+      }
+    }
+  }
+}
