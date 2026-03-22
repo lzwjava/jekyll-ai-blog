@@ -1,4 +1,4 @@
-model = "deepseek/deepseek-v3.2"
+model = "xiaomi/mimo-v2-pro"
 model_provider = "openrouter"              
 
 [model_providers.openrouter]
