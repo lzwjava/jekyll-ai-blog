@@ -1,8 +1,8 @@
 {
-  "channel": "pincc",
+  "channel": "sssaicode",
   "env": {
-    "ANTHROPIC_BASE_URL": "PINCC_API_ENDPOINT",
-    "ANTHROPIC_AUTH_TOKEN": "PINCC_API_KEY",
+    "ANTHROPIC_BASE_URL": "SSSAICODE_API_ENDPOINT",
+    "ANTHROPIC_AUTH_TOKEN": "SSSAICODE_API_KEY",
     "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
   },
   "enabledPlugins": {
