@@ -1,0 +1,37 @@
+model = "openai/gpt-5.3-codex"
+model_provider = "pincc"
+
+[model_providers.pincc]
+name = "pincc"
+base_url = "https://v2-as.pincc.ai"
+env_key = "PINCC_API_KEY"
+
+[model_providers.openrouter]
+name = "OpenRouter"
+base_url = "https://openrouter.ai/api/v1"
+env_key = "OPENROUTER_API_KEY"             
+
+
+personality = "pragmatic"
+[projects."/Users/lzwjava/projects/lzwjava.github.io"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/interviews"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/playground-server"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/ww"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/LibreChat"]
+trust_level = "trusted"
+
+[projects."/Users/lzwjava/projects/blog-source"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+gpt-5-codex = "gpt-5.2-codex"
+
+
