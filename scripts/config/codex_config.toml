@@ -1,5 +1,10 @@
-model = "xiaomi/mimo-v2-pro"
-model_provider = "openrouter"              
+model = "openai/gpt-5.3-codex"
+model_provider = "pincc"
+
+[model_providers.pincc]
+name = "pincc"
+base_url = "https://v2-as.pincc.ai"
+env_key = "PINCC_API_KEY"
 
 [model_providers.openrouter]
 name = "OpenRouter"
