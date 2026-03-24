@@ -18,7 +18,6 @@ window.addEventListener('load', function () {
   const posts = document.querySelectorAll('.post-list li.post-item');
   const translatedCount = Array.from(posts).filter(post => post.dataset.translated === 'true').length;
   const translatedText = translations[currentLang] || translations['en'];
-
-  let type = currentPath.includes('/notes') ? 'notes' : 'posts';
+  const type = postNumber.dataset.type || (currentPath.includes('/notes') ? 'notes' : 'posts');
   postNumber.innerHTML = `${posts.length} ${type} (${translatedCount} ${translatedText} by <a href="https://openrouter.ai">AI</a>)`;
 });

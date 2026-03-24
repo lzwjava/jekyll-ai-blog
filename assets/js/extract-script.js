@@ -97,7 +97,8 @@ window.addEventListener('load', function () {
     const [, langFilter2] = sortSelect.value.split('|');
     const translatedText = translations[langFilter2] || translations['en'];
     
-    postNumber.innerHTML = `${processedPosts.length} (${translatedCount} ${translatedText} by <a href="https://mistral.ai"> AI</a>)`;
+    const type = postNumber.dataset.type || 'posts';
+    postNumber.innerHTML = `${processedPosts.length} ${type} (${translatedCount} ${translatedText} by <a href="https://openrouter.ai">AI</a>)`;
 
     // Show the list
     postList.style.display = 'block';
