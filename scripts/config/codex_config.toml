@@ -1,5 +1,5 @@
-model = "openai/gpt-5.3-codex"
-model_provider = "pincc"
+model = "gpt-5.3-codex"
+model_provider = "sssaicode"
 
 [model_providers.pincc]
 name = "pincc"
@@ -9,7 +9,12 @@ env_key = "PINCC_API_KEY"
 [model_providers.openrouter]
 name = "OpenRouter"
 base_url = "https://openrouter.ai/api/v1"
-env_key = "OPENROUTER_API_KEY"             
+env_key = "OPENROUTER_API_KEY"
+
+[model_providers.sssaicode]
+name = "sssaicode"
+base_url = "https://codex2.sssaicode.com/api/v1"
+env_key = "SSSAICODE_API_KEY"
 
 
 personality = "pragmatic"
