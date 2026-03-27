@@ -24,6 +24,8 @@ In recent years, I have deeply integrated AI into my workflow, developing custom
 
 My philosophy is inspired by independent thinkers such as Yin Wang, emphasizing truth-seeking, intellectual honesty, and first-principles thinking. I prefer simple, understandable systems over unnecessary complexity and am drawn to open-source software, self-hosting, and technologies that enhance individual freedom, autonomy, and long-term sustainability. As a self-taught, product-minded engineer, I enjoy building practical systems and exploring new ideas, valuing autonomy, deep thinking, and hands-on execution. I am particularly interested in backend, full-stack, or applied AI roles where I can contribute to robust, thoughtful products while supporting open, independent, and forward-thinking technology.
 
+我叫李智维。很高兴认识你。
+
 #### X(Twitter)
 
 My X account is here: [https://twitter.com/lzwjava](https://twitter.com/lzwjava).
