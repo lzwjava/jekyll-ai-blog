@@ -14,6 +14,16 @@ In particular, I'd like to draw your attention to my three [papers](/papers-en) 
 
 Feel free to reach out if you’re interested! You can say hi to me on X, or Telegram, leave a comment, send me a direct message, or drop me an email.
 
+#### About
+
+I am a full-stack and backend engineer with 10+ years of experience across banking, startups, and independent projects. Currently working at TEKsystems (outsourced to HSBC Bank), I focus on backend systems, automation, and AI-assisted development. My background spans Java/Spring backend development, distributed systems, cloud infrastructure, mobile development, and full-stack applications, with an emphasis on practical engineering and continuous learning.
+
+In recent years, I have deeply integrated AI into my workflow, building custom agents, prompt pipelines, and tools to automate coding, testing, documentation, and analysis. I actively experiment with LLM APIs, local models, RAG, embeddings, and evaluation approaches, and enjoy using AI to rethink how software is built and maintained. I’m particularly interested in AI-augmented engineering and developer productivity.
+
+My philosophy is influenced by independent thinkers such as Yin Wang. I value truth-seeking, intellectual honesty, and first-principles thinking, and I prefer simple, understandable systems over unnecessary complexity. I’m drawn to open-source software, self-hosting, and technologies that increase individual freedom, autonomy, and long-term sustainability.
+
+I’m a self-taught, product-minded engineer who enjoys building practical systems and exploring new ideas. I value autonomy, deep thinking, and hands-on execution, and I’m especially interested in backend, full-stack, or applied AI roles where I can help build robust products while contributing to open, thoughtful, and independent technology.
+
 #### X(Twitter)
 
 My X account is here: [https://twitter.com/lzwjava](https://twitter.com/lzwjava).
