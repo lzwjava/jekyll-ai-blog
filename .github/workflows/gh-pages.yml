@@ -132,5 +132,6 @@ jobs:
           fi
 
       - name: Send Telegram Message
+        if: false  # disabled - conflicts with OpenClaw Telegram
         run: |
           python scripts/bot/telegram_bot.py --job send_message
