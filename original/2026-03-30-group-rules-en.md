@@ -32,7 +32,7 @@ Group Rules (Updated: 2026-03-30):
 
 9. Sharing is open by default; please remove sensitive or company information when necessary.
 
-10. Feel free to leave the group. When recommending a new member, please talk with the group owner and have some mutual understanding beforehand.
+10. Members are free to leave at any time. Before recommending a new member, please communicate with the group owner in advance; there should be mutual understanding and a basic entry bar.
 
 11. Content shared in the group is, by default, treated as MIT-licensed; members may reuse it for prompts, notes, or derivative work (state exceptions explicitly).
 
