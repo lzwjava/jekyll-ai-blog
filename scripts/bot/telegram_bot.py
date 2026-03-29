@@ -22,8 +22,13 @@ def send_telegram_message(bot_token, chat_id, message):
         )
 
 
-def get_chat_id(bot_token):
-    """Retrieves the chat ID of the last message sent to the bot."""
+def _get_chat_id(bot_token):
+    """Retrieves the chat ID of the last message sent to the bot.
+
+    NOTE: This uses getUpdates which conflicts with OpenClaw's Telegram polling.
+    Only use this as a standalone script, not while OpenClaw is running.
+    Kept here for reference only.
+    """
     url = f"https://api.telegram.org/bot{bot_token}/getUpdates"
     response = requests.get(url)
     print(response)
@@ -70,21 +75,13 @@ def main():
     parser = argparse.ArgumentParser(description="Telegram Bot Script")
     parser.add_argument(
         "--job",
-        choices=["get_chat_id", "send_message"],
+        choices=["send_message"],
         required=True,
         help="Job to perform",
     )
     args = parser.parse_args()
 
-    if args.job == "get_chat_id":
-        bot_token = TELEGRAM_BOT_API_KEY
-        chat_id = get_chat_id(bot_token)
-        if chat_id:
-            print(f"Chat ID: {chat_id}")
-        else:
-            print("Could not retrieve chat ID.")
-
-    elif args.job == "send_message":
+    if args.job == "send_message":
         if TELEGRAM_BOT_API_KEY and TELEGRAM_CHAT_ID:
             commit_messages = get_latest_commit_messages()
             if commit_messages:
