@@ -36,4 +36,4 @@ Group Rules (Updated: 2026-03-30):
 
 11. Content shared in the group is, by default, treated as MIT-licensed; members may reuse it for prompts, notes, or derivative work (state exceptions explicitly).
 
-12. When a mistake is made, one needs to compensate by sharing a 50 CNY red packet in the group.
+12. When a mistake is made, one needs to compensate by sharing a 10 CNY red packet in the group.
