@@ -10,7 +10,7 @@ if not OPENROUTER_API_KEY:
 
 MODEL_MAPPING = {
     "claude-opus": "anthropic/claude-opus-4.6",
-    "claude-sonnet": "anthropic/claude-sonnet-4.5",
+    "claude-sonnet": "anthropic/claude-sonnet-4.6",
     "claude-haiku": "anthropic/claude-haiku-4.5",
     "gemini-flash": "google/gemini-3-flash-preview",
     "gemini-pro": "google/gemini-3-pro-preview",
@@ -22,7 +22,7 @@ MODEL_MAPPING = {
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
     "glm": "z-ai/glm-4.7",
-    "minimax": "minimax/minimax-m2.1",
+    "minimax": "minimax/minimax-m2.7",
 }
 
 DEFAULT_TOKENS = {
