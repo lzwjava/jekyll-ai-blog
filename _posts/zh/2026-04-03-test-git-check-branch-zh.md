@@ -1,3 +1,4 @@
+---
 audio: false
 generated: true
 image: false
@@ -6,6 +7,7 @@ layout: post
 title: 同步分支
 translated: false
 type: note
+---
 
 **问题：**
 如何在同步分支 A 的约 70 个 Angular 升级提交时，在多个分支 (B 和 C) 上协调一致的 `git cherry-pick` 策略，同时使用像 Copilot 这样的概率性 AI 助手并避免分歧？
