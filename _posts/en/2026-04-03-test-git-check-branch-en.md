@@ -4,7 +4,7 @@ generated: true
 image: false
 lang: en
 layout: post
-title: Coordinate consistent `git cherry-pick` strategy across multiple branches
+title: Coordinate consistent "git cherry-pick" strategy across multiple branches
 translated: false
 type: note
 ---
