@@ -32,6 +32,36 @@ Inspired by Yin Wang's [CS video course](https://www.yinwang.org/posts/cs-video-
 * Build systems, not just theory
 * Iterate like training an LLM — you don't get it right the first time
 
+## What You'll Be Able to Do
+
+After these 10 lessons, you'll understand neural networks deeply, understand transformers, train GPT from scratch, modify nanoGPT, fine-tune models, build AI agents, and build an OpenClaw-like platform.
+
+From math to GPT to AI system. That's the path.
+
+## Who Is This For
+
+* Students from high school to PhD level, any major — both arts and science backgrounds welcome. AI is learnable by anyone with curiosity and persistence.
+* Working professionals, including software engineers, IT managers, and other technical roles looking to deepen their AI understanding.
+* Anyone interested in AI as a hobby or career pivot.
+
+## Course Format
+
+* Classes are held via Zoom or Tencent Meeting.
+* One lesson per week, approximately 3 hours each.
+* One weekly open Q&A session for questions and discussion.
+* Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
+* I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
+
+## Tuition and Enrollment
+
+* 10 lessons, 3 months
+* 3000 RMB
+* Month 1 (Lessons 1–4): Foundations
+* Month 2 (Lessons 5–7): GPT + nanoGPT
+* Month 3 (Lessons 8–10): Agents + System
+
+To enroll, send an email to lzwjava@gmail.com with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
+
 ## The 10 Lessons
 
 We do three months. Month 1 is foundations, Month 2 is GPT and nanoGPT, Month 3 is agents and building your own system.
@@ -115,19 +145,3 @@ Local model deployment, retrieval (RAG), long context memory, multi-agent system
 Final project options: Personal coding AI, research assistant, CLI AI toolkit, or autonomous dev agent.
 
 After this, you have your own AI system.
-
-## What You'll Be Able to Do
-
-After these 10 lessons, you'll understand neural networks deeply, understand transformers, train GPT from scratch, modify nanoGPT, fine-tune models, build AI agents, and build an OpenClaw-like platform.
-
-From math to GPT to AI system. That's the path.
-
-## Details
-
-* 10 lessons, 3 months
-* 3000 RMB
-* Month 1 (Lessons 1–4): Foundations
-* Month 2 (Lessons 5–7): GPT + nanoGPT
-* Month 3 (Lessons 8–10): Agents + System
-
-Reach out if you're interested.
