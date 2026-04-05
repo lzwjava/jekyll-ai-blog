@@ -47,7 +47,7 @@ From math to GPT to AI system. That's the path.
 ## Course Format
 
 * Classes are held via Zoom or Tencent Meeting.
-* One lesson per week, approximately 2 hours each.
+* One lesson per week, approximately 3 hours each.
 * One weekly open Q&A session for questions and discussion.
 * Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
 * I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
