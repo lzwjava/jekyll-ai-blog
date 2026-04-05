@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "My AI Course: 10 Lessons from Neural Networks to GPT"
+title: "AI Course: From Neural Networks to Agents"
 translated: false
 ---
 
@@ -20,7 +20,7 @@ Later I spent about two years mulling over transformers. I first read about the 
 
 The key project in my learning was Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT). A lot of my knowledge came from studying that codebase.
 
-I've also done hands-on GPU work. I used a DigitalOcean H200 GPU droplet to run inference on Qwen3.5-35B, and I've done GPT-2 124M training experiments with nanoGPT. So this course isn't just theory — I have the infrastructure to walk you through real training and inference.
+I've also done hands-on GPU work. I used a DigitalOcean H200 GPU droplet to run inference on Qwen3.5-35B, and I've conducted GPT-2 124M training experiments with nanoGPT. So this course isn't just theory — I have the infrastructure to walk you through real training and inference.
 
 ## Course Philosophy
 
