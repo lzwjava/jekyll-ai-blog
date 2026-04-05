@@ -55,3 +55,8 @@ type: post
 - Big money waits.
 
 - Don’t chase bull markets or follow the crowd. If you invest regularly, it’s better to increase contributions during bear markets. In the long run, stocks will likely rise significantly, but short-term bubbles may still occur.
+
+- Even with mortgage debt, if there is stable income, it’s still worth allocating a fixed amount each year for long-term investing — mainly to build habit, learning, and long-term thinking.
+
+- Without continuous investing, we lose care and sensitivity to the market.
+
