@@ -8,7 +8,7 @@ title: "AI Course: From Neural Networks to Agents"
 translated: false
 ---
 
-I'm offering a 10-lesson AI course. 3000 RMB total, spread over three months. That's about 3 days of work salary — a simple way to earn some living expenses while sharing what I've learned.
+I'm offering a 10-lesson AI course. 3000 RMB total, spread over three months. I am happy to share what I've learned.
 
 ## My Background
 
