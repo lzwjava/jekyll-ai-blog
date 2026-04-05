@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "My AI Course: 10 Lessons from Neural Networks to GPT"
+title: "AI Course: From Neural Networks to Agents"
 translated: false
 ---
 
