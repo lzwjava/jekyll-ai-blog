@@ -17,12 +17,7 @@ The GGUF model file `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` has a **Qwen3 chat t
 
 ## What went wrong mechanically
 
-Chat templates define how messages get serialized into the prompt string the model actually sees. For example:
-
-| Template | Format (simplified) |
-|----------|---------------------|
-| **Qwen3** (correct) | `<\|im_start\|>system\nYou are...\n<\|im_end\|>\n<\|im_start\|>user\nHello\n<\|im_end\|>\n<\|im_start\|>assistant\n` |
-| **DeepSeek** (forced) | `You are...\n\nUser: Hello\n\nAssistant:` |
+Chat templates define how messages get serialized into the prompt string the model actually sees. For example.
 
 When the DeepSeek template was applied to a Qwen3 model:
 1. The prompt tokens dropped to **2** (essentially garbage) instead of **14** (properly formatted)
