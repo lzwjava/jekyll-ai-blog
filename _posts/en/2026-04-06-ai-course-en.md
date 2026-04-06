@@ -8,7 +8,7 @@ title: "AI Course: From Neural Networks to Agents"
 translated: false
 ---
 
-I'm offering a 10-lesson AI course. 3000 RMB total, spread over three months. I am happy to share what I've learned.
+I'm offering a 10-lesson AI course. 3000 RMB total, over 2 months to one year depending on your pace. I am happy to share what I've learned.
 
 ## My Background
 
@@ -46,25 +46,20 @@ From math to GPT to AI system. That's the path.
 
 ## Course Format
 
-* Classes are held via Zoom or Tencent Meeting.
-* One lesson per week, approximately 3 hours each.
-* One weekly open Q&A session for questions and discussion.
+* 10 lessons, 3000 RMB, 2 months to 1 year depending on your pace.
+* One-to-one mentoring for every student.
+* For the first few students, lessons are conducted live via Zoom or Tencent Meeting and recorded. Later students will receive these recorded video lessons instead of real-time meetings.
+* Each lesson is approximately 3 hours.
+* You must complete the homework for each lesson before moving on to the next one.
 * Between lessons, quick text discussions (under 30 minutes) are available besides sleep time.
 * I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
-
-## Tuition and Enrollment
-
-* 10 lessons, 3 months
-* 3000 RMB
-* Month 1 (Lessons 1–4): Foundations
-* Month 2 (Lessons 5–7): GPT + nanoGPT
-* Month 3 (Lessons 8–10): Agents + System
+* If the course is not completed within one year, it will be ended and the fee will not be refunded.
 
 To enroll, send an email to lzwjava@gmail.com with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
 
 ## The 10 Lessons
 
-We do three months. Month 1 is foundations, Month 2 is GPT and nanoGPT, Month 3 is agents and building your own system.
+We do 10 lessons. Lessons 1–4 are foundations, Lessons 5–7 are GPT and nanoGPT, Lessons 8–10 are agents and building your own system.
 
 ### Lesson 1 — Neural Networks from First Principles
 
