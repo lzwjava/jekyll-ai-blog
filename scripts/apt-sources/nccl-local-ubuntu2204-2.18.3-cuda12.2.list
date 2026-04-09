@@ -1,1 +1,0 @@
-deb [signed-by=/usr/share/keyrings/nccl-local-F4B315EB-keyring.gpg] file:///var/nccl-local-repo-ubuntu2204-2.18.3-cuda12.2 /
