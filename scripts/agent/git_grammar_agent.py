@@ -5,14 +5,14 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from ww.llm.openrouter_client import call_openrouter_api
-from ww.agent.git_utils import (
+from scripts.llm.openrouter_client import call_openrouter_api
+from scripts.agent.git_utils import (
     get_git_diff_lines,
     extract_changed_content,
     apply_grammar_fixes_to_original,
     get_changed_md_files_in_last_n_commits,
 )
-from ww.agent.validate_utils import (
+from scripts.agent.validate_utils import (
     validate_grammar_fix,
 )
 

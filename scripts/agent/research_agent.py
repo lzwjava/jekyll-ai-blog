@@ -6,7 +6,7 @@ import pyperclip
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from ww.llm.openrouter_client import call_openrouter_api, MODEL_MAPPING
+from scripts.llm.openrouter_client import call_openrouter_api, MODEL_MAPPING
 
 
 def sanitize_filename(filename):
@@ -73,7 +73,7 @@ def save_research_results(topic, results):
     """Save research results as a note using create_note_from_content"""
 
     # Import the create_note_from_content function
-    from ww.note.create_note_from_clipboard import create_note_from_content
+    from scripts.note.create_note_from_clipboard import create_note_from_content
 
     # Format the research content as a readable note
     content = f"""# Research: {topic}

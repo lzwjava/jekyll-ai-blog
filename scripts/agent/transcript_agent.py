@@ -6,7 +6,7 @@ from pathlib import Path
 
 # Add parent directories to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-from ww.llm.openrouter_client import call_openrouter_api
+from scripts.llm.openrouter_client import call_openrouter_api
 
 #!/usr/bin/env python3
 """
