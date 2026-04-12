@@ -1,0 +1,49 @@
+lzwjava@lzw-mac blog-source % hermes update
+⚕ Updating Hermes Agent...
+
+⚠ Updating from fork:
+  https://github.com/NousResearch/Hermes-Agent.git
+
+→ Fetching updates...
+→ Local changes detected — stashing before update...
+Saved working directory and index state On main: hermes-update-autostash-20260412-143708
+→ Found 223 new commit(s)
+→ Pulling updates...
+
+⚠ Local changes were stashed before updating.
+  Restoring them may reapply local customizations onto the updated codebase.
+  Review the result afterward if Hermes behaves unexpectedly.
+Restore local changes now? [Y/n]
+Y
+→ Restoring local changes...
+⚠ Local changes were restored on top of the updated codebase.
+  Review `git diff` / `git status` if Hermes behaves unexpectedly.
+  ✓ Cleared 11 stale __pycache__ directories
+
+ℹ Your fork is not tracking the official Hermes repository.
+  This means you may miss updates from NousResearch/hermes-agent.
+
+Add official repo as 'upstream' remote? [Y/n]: Y
+→ Adding upstream remote...
+  ✓ Added upstream: https://github.com/NousResearch/hermes-agent.git
+
+→ Fetching upstream...
+  ✓ Fork is up to date with upstream
+→ Updating Python dependencies...
+→ Updating Node.js dependencies...
+✅ Browser tools ready. Run: python run_agent.py --help
+
+✓ Code updated!
+
+→ Syncing bundled skills...
+  + 1 new: ideation
+  ↑ 3 updated: ascii-video, manim-video, p5js
+  − 9 removed from manifest
+
+→ Checking configuration for new options...
+  ✓ Configuration is up to date
+
+✓ Update complete!
+
+Tip: You can now select a provider and model:
+  hermes model              # Select provider and model
