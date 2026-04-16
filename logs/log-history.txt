@@ -1,0 +1,126 @@
+ 1  ls
+    2  exit
+    3  ls
+    4  pwd
+    5  ls
+    6  exit
+    7  pwd
+    8  exit
+    9  cd ~/nanoGPT
+   10  source venv/bin/activate
+   11  python3 train.py config/train_shakespeare_char.py --device=cpu
+   12  exit
+   13  ls
+   14  cd zz/
+   15  bash train/wget_fineweb_mirror_1.sh
+   16  ls
+   17  tmux a
+   18  tmux
+   19  tmux a
+   20  exit
+   21  ls
+   22  tmux a
+   23  history
+   24  tail -f /root/zz/download_log.txt
+   25  tmux a
+   26  ls
+   27  exit
+   28  ls
+   29  `
+   30  ls
+   31  cd zz/
+   32  ls
+   33  cd fineweb_parquet/
+   34  ls
+   35  cd ..
+   36  ls
+   37  cd zz/
+   38  ls
+   39  ls
+   40  ls
+   41  cd zz/
+   42  ls
+   43  ls -alrt
+   44  ls -alrt h
+   45  ls
+   46  cd zz
+   47  ls
+   48  cd zz
+   49  ls
+   50  git status
+   51  git pull
+   52  cd ..
+   53  df -h
+   54  ls
+   55  exit
+   56  cd /root/zz && nohup python3 -c "
+   57  import urllib.request, pyarrow.parquet as pq, gc, os
+   58  shards = [f'000_000{i:02d}.parquet' for i in range(5, 21)]
+   59  base = 'https://huggingface.co/datasets/HuggingFaceFW/fineweb/resolve/main/data/CC-MAIN-2013-20'
+   60  os.makedirs('fineweb_parquet', exist_ok=True)
+   61  log = open('download_log.txt', 'a', buffering=1)
+   62  total = 0
+   63  def p(msg):
+   64      print(msg, flush=True)
+   65      log.write(msg + '\n')
+   66      log.flush()
+   67  p('Starting shards 5-20')
+   68  with open('fineweb_extracted_all.txt', 'a', encoding='utf-8') as out:
+   69      for shard in shards:
+   70          p(f'=== {shard} ===')
+   71          try:
+   72              url = f'{base}/{shard}?download=true'
+   73              dest = f'fineweb_parquet/{shard}'
+   74              urllib.request.urlretrieve(url, dest)
+   75              p(f'Downloaded: {os.path.getsize(dest)/1024/1024:.0f} MB')
+   76              pf = pq.ParquetFile(dest)
+   77              for batch in pf.iter_batches(batch_size=4096):
+   78                  text_col = batch.column('text')
+   79                  for i in range(len(text_col)):
+   80                      t = str(text_col[i].as_py()).strip()
+   81                      if t:
+   82                          out.write(t + '\n<|endoftext|>\n')
+   83                          total += 1
+   84                  if total % 100000 == 0:
+   85                      p(f'Docs: {total:,}')
+   86                      out.flush()
+   87              os.remove(dest)
+   88              gc.collect()
+   89              p(f'Shard done. New docs: {total:,}')
+   90          except Exception as e:
+   91              p(f'ERROR on {shard}: {e}')
+   92              continue
+   93  p(f'ALL DONE. Total new docs: {total:,}')
+   94  log.close()
+   95  " > nohup.out 2>&1 &
+   96  tail -f /root/zz/download_log.txt
+   97  ls
+   98  cd zz/
+   99  ls
+  100  cd fineweb_parquet/
+  101  cd ..
+  102  history
+  103  exit
+  104  ls
+  105  history
+  106  tmux a
+  107  exit
+  108  ls
+  109  cd zz
+  110  ls
+  111  git status
+  112  ls
+  113  cd ..
+  114  ls
+  115  cd nanoGPT
+  116  git status
+  117  git diff
+  118  cat config/train_fineweb_test.py
+  119  ls
+  120  git status
+  121  cd  data/fineweb/fineweb/
+  122  ls
+  123  ls -alrt
+  124  cd ..
+  125  ls -alrt
+  126  history
