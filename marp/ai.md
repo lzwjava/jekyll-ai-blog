@@ -27,6 +27,14 @@ style: |
     background: #16213e;
     color: #e94560;
   }
+  pre {
+    background: #16213e;
+    border: 1px solid #333;
+  }
+  pre code {
+    color: #eaeaea;
+    background: #16213e;
+  }
   strong {
     color: #e94560;
   }
@@ -98,13 +106,6 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 > "If one can write it from scratch without copying any code, one understands very well."
 
 Blog post: [Neural Network, Transformer and GPT](https://lzwjava.github.io/kqv-transformers-en)
-
----
-
-<!-- _class: lead -->
-
-# From Neural Networks to Agents
-## How I Learn AI
 
 ---
 
@@ -462,21 +463,6 @@ Build an OpenClaw-style system.
 - Memory systems, CLI agent design
 
 **Practice:** Build a coding agent. Build a CLI automation agent. Build a multi-step reasoning agent.
-
----
-
-# Open Source Highlights
-
-| Project | Commits | Tech |
-|---------|---------|------|
-| algorithm-solutions | 2,466 | Java |
-| lzwjava.github.io | 500 | Jekyll, 9 languages |
-| live-server | 660 | PHP |
-| live-mobile-web | 528 | Vue / JS |
-| code-review-server | 275 | PHP |
-| code-review-web | 302 | Vue / JS |
-| leanchat-ios | 556 | Objective-C |
-| leanchat-android | 412 | Java |
 
 ---
 
