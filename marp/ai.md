@@ -179,13 +179,20 @@ For a 2-layer network: **784 × 10 weights + 10 biases** to learn.
 
 # Backpropagation — How Networks Learn
 
-![w:220](../assets/images/ai/tikz17.png)
-
 1. **Input:** set activation $a^1$ for input layer
 2. **Feedforward:** compute $z^l = w^l a^{l-1} + b^l$, then $a^l = \sigma(z^l)$
 3. **Output error:** $\delta^L = \nabla_a C \odot \sigma'(z^L)$
 4. **Backpropagate:** $\delta^l = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^l)$
 5. **Update:** $w \to w - \eta \frac{\partial C}{\partial w}$, $b \to b - \eta \frac{\partial C}{\partial b}$
+
+---
+
+<!-- _backgroundColor: white -->
+<!-- _color: #333 -->
+
+# Neural Network Structure
+
+![w:500](../assets/images/ai/tikz17.png)
 
 *Image source: [neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen*
 
@@ -481,7 +488,7 @@ A Jekyll blog with **515 original posts**, enhanced with AI-powered tools:
 - **MathJax** — renders math in technical posts
 - **Night mode**, RSS feed, bilingual content
 
-Plus **1,992 notes**, **323 Python scripts**, and **191 ML scripts**.
+Plus **8000+ notes**, **323 Python scripts**, and **191 ML scripts**.
 
 ---
 
