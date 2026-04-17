@@ -128,18 +128,6 @@ Blog post: [GTY - Great Teacher Yin](https://lzwjava.github.io/great-yin-wang-en
 
 ---
 
-# Learning Philosophy
-
-Inspired by **Yin Wang** and **Andrej Karpathy**
-
-- **Print variables** to understand — not just read about it
-- **Read real code** (nanoGPT, not just textbooks)
-- **Train small models** yourself
-- **Build systems**, not just theory
-- Iterate like training an LLM — you don't get it right the first time
-
----
-
 # "Differentiable Computing"
 
 > "Machine learning is really useful, one might even say beautiful theory, because it is simply **calculus after a makeover**! It is the old and great theory of Newton, Leibniz, in a simpler, elegant and powerful form."
@@ -149,6 +137,18 @@ Inspired by **Yin Wang** and **Andrej Karpathy**
 — **Yin Wang**
 
 *See through the buzzwords to the math underneath.*
+
+---
+
+# Learning Philosophy
+
+Inspired by **Yin Wang** and **Andrej Karpathy**
+
+- **Print variables** to understand — not just read about it
+- **Read real code** (nanoGPT, not just textbooks)
+- **Train small models** yourself
+- **Build systems**, not just theory
+- Iterate like training an LLM — you don't get it right the first time
 
 ---
 
@@ -242,18 +242,6 @@ How deep learning actually trains.
 
 ---
 
-# PyTorch Minimal Framework
-
-Read any PyTorch model with confidence.
-
-- Tensor fundamentals, autograd
-- `nn.Module` design, optimizer mechanics
-- Dataset and DataLoader
-
-**Practice:** Rebuild MLP in PyTorch. Train a CIFAR classifier. Inspect gradients.
-
----
-
 # Language Modeling Fundamentals
 
 Understand what GPT predicts.
@@ -263,6 +251,18 @@ Understand what GPT predicts.
 - Next token prediction, cross-entropy for language
 
 **Practice:** Build a character-level language model. Train on tiny Shakespeare. Generate text.
+
+---
+
+# PyTorch Minimal Framework
+
+Read any PyTorch model with confidence.
+
+- Tensor fundamentals, autograd
+- `nn.Module` design, optimizer mechanics
+- Dataset and DataLoader
+
+**Practice:** Rebuild MLP in PyTorch. Train a CIFAR classifier. Inspect gradients.
 
 ---
 
@@ -469,37 +469,6 @@ Build an OpenClaw-style system.
 
 ---
 
-# Beyond Engineering
-
-- **Self-taught researcher** — 3 papers on natural vision restoration
-- **~400 blog posts** — translated to Chinese with LLMs, ~8000 AI answer notes
-- **Life hacker** — hundreds of small innovative practices
-- **Traveler** — USA (twice), Hong Kong, Macao, half of China
-- English learned from **60+ Filipino teachers** online
-- **Crypto & US stock investor** since 2018 — ~20% annual returns
-- Owns **hundreds of gadgets** — EMF meter, telescope, etc.
-
----
-
-# Reversing Myopia — 3 Years of Self-Experimentation
-
-- Inspired by **Todd Becker** and **Yin Wang**. 3 papers published. 3 years of data.
-- Myopia worsens because we use **full-prescription glasses** for close-up work
-- Core principle: **"Just barely clear"** — wear glasses ~1.50D below full prescription
-- Left eye: **350 → 250** (2022–2024), Right eye improving too
-
-> Categorization: separate glasses for **near** (phone, laptop) and **far** (driving) — two glasses for two major scenarios.
-
-Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
-
----
-
-# Myopia Experiment — Photos
-
-![w:280](../assets/images/eyes/glasses.jpeg) ![w:180](../assets/images/eyeglasses/eyeglasses1.JPG)
-
----
-
 # lzwjava.github.io — My Blog
 
 A Jekyll blog with **515 original posts**, enhanced with AI-powered tools:
@@ -546,6 +515,39 @@ Built for **enterprise-constrained environments** — no browser extensions, no 
 - Slash commands: `/model`, `/search`, `/compact`, `/export`, `/copy`
 
 *When full-featured tools are blocked, iclaw gets the job done.*
+
+*Disclaimer: All tests with Copilot were performed using my personal subscription and personal account.*
+
+---
+
+# Beyond Engineering
+
+- **Self-taught researcher** — 3 papers on natural vision restoration
+- **~400 blog posts** — translated to Chinese with LLMs, ~8000 AI answer notes
+- **Life hacker** — hundreds of small innovative practices
+- **Traveler** — USA (twice), Hong Kong, Macao, half of China
+- English learned from **60+ Filipino teachers** online
+- **Crypto & US stock investor** since 2018 — ~20% annual returns
+- Owns **hundreds of gadgets** — EMF meter, telescope, etc.
+
+---
+
+# Reversing Myopia — 3 Years of Self-Experimentation
+
+- Inspired by **Todd Becker** and **Yin Wang**. 3 papers published. 3 years of data.
+- Myopia worsens because we use **full-prescription glasses** for close-up work
+- Core principle: **"Just barely clear"** — wear glasses ~1.50D below full prescription
+- Left eye: **350 → 250** (2022–2024), Right eye improving too
+
+> Categorization: separate glasses for **near** (phone, laptop) and **far** (driving) — two glasses for two major scenarios.
+
+Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
+
+---
+
+# Myopia Experiment — Photos
+
+![w:280](../assets/images/eyes/glasses.jpeg) ![w:180](../assets/images/eyeglasses/eyeglasses1.JPG)
 
 ---
 
