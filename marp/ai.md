@@ -176,7 +176,7 @@ For a 2-layer network: **784 × 10 weights + 10 biases** to learn.
 
 # Backpropagation — How Networks Learn
 
-The 5-phase algorithm from Nielsen's book:
+![w:220](../assets/images/ai/tikz17.png)
 
 1. **Input:** set activation $a^1$ for input layer
 2. **Feedforward:** compute $z^l = w^l a^{l-1} + b^l$, then $a^l = \sigma(z^l)$
@@ -184,7 +184,7 @@ The 5-phase algorithm from Nielsen's book:
 4. **Backpropagate:** $\delta^l = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^l)$
 5. **Update:** $w \to w - \eta \frac{\partial C}{\partial w}$, $b \to b - \eta \frac{\partial C}{\partial b}$
 
-The key insight: **know the dimensions of every variable**. Print them all.
+*Image source: [neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen*
 
 ---
 
