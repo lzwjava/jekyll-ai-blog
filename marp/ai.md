@@ -57,6 +57,9 @@ style: |
   table tr:nth-child(odd) {
     background: #1a1a2e;
   }
+  blockquote {
+    color: #ffffff;
+  }
 ---
 
 <!-- _class: lead -->
@@ -480,8 +483,6 @@ Build an OpenClaw-style system.
 
 # Reversing Myopia — 3 Years of Self-Experimentation
 
-![w:280](../assets/images/eyes/glasses.jpeg) ![w:180](../assets/images/eyeglasses/eyeglasses1.JPG)
-
 - Inspired by **Todd Becker** and **Yin Wang**. 3 papers published. 3 years of data.
 - Myopia worsens because we use **full-prescription glasses** for close-up work
 - Core principle: **"Just barely clear"** — wear glasses ~1.50D below full prescription
@@ -490,6 +491,12 @@ Build an OpenClaw-style system.
 > Categorization: separate glasses for **near** (phone, laptop) and **far** (driving) — two glasses for two major scenarios.
 
 Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
+
+---
+
+# Myopia Experiment — Photos
+
+![w:280](../assets/images/eyes/glasses.jpeg) ![w:180](../assets/images/eyeglasses/eyeglasses1.JPG)
 
 ---
 
