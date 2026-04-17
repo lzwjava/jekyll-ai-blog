@@ -56,7 +56,8 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 - Training GPT-2 with **nanoGPT** on **H200 GPU**
 - Previously: DBS Bank, HSBC PayMe, startup founder (30k users)
 - **AI/LLM:** PyTorch, nanoGPT, Claude Code, OpenRouter, Copilot, llama.cpp
-- **Backend:** Java, Spring Boot, Python | **Cloud:** AWS, Azure
+- **Backend:** Java, Spring Boot, Python | **Cloud:** AWS, Azure | **Mobile:** iOS, Android
+- **IELTS 6.5** (Reading 8.5)
 
 ---
 
@@ -193,17 +194,152 @@ Understand what GPT predicts.
 
 ---
 
-# Lesson 5 — Transformer Architecture
+# GPT Architecture — The Big Picture
 
-Understand the GPT architecture.
+Reference: Andrej Karpathy — [Let's build GPT: from scratch, in code](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=4s)
 
-- Self-attention: how does the algorithm know "it" refers to "pizza" or "oven"?
-- **Q** (Query) = what a token asks about others
-- **K** (Key) = description of each token
-- **V** (Value) = actual meaning of each token
-- Multi-head attention, positional encoding, residual connections
+```
+Input Text
+  → Tokenizer (text → token IDs)
+    → Token Embedding + Positional Encoding
+      → N × Transformer Blocks
+        → (Self-Attention → Feed-Forward → LayerNorm)
+      → Linear → Softmax
+        → Next Token Prediction
+```
 
-**Practice:** Implement single-head attention. Build a mini transformer. Visualize attention.
+The entire model learns to predict: **given these tokens, what comes next?**
+
+---
+
+# Tokenizer — Text to Numbers
+
+Before the model sees anything, text must become numbers.
+
+- **Character-level:** each character is a token — simple but slow
+- **BPE (Byte Pair Encoding):** merge frequent character pairs iteratively
+  - `"learning"` → `["learn", "ing"]` → `[4821, 278]`
+- GPT-2 uses ~**50,257** tokens; GPT-4 uses ~**100k**
+- Tokenizer is trained **separately** before the model
+
+```
+"The pizza came out" → [464, 13293, 1625, 503]
+```
+
+Different tokenizers produce different token IDs — changing the tokenizer changes everything.
+
+---
+
+# Word Embedding — Tokens to Vectors
+
+Each token ID maps to a **learned vector** (e.g., 768 dimensions in GPT-2).
+
+- `token 464 ("The")` → `[0.12, -0.34, 0.56, ..., 0.08]`
+- These vectors are **not hand-crafted** — they're learned during training
+- Similar words end up with similar vectors
+
+**Positional encoding** is added so the model knows word order:
+
+$$PE_{(pos,2i)} = \sin(pos/10000^{2i/d})$$
+$$PE_{(pos,2i+1)} = \cos(pos/10000^{2i/d})$$
+
+Without position info, "dog bites man" = "man bites dog" to the model.
+
+---
+
+# Self-Attention — How Words Relate
+
+> "The pizza came out of the oven and **it** tasted good."
+
+How does the model know "it" refers to "pizza" and not "oven"?
+
+**Self-attention** computes a similarity score between every pair of tokens:
+
+1. Each token produces a **Query**, **Key**, and **Value** vector
+2. Dot-product Query × Key = attention score (how relevant?)
+3. Softmax normalizes scores to weights (0 to 1)
+4. Weighted sum of Values = output for that token
+
+$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
+---
+
+# Q, K, V — Intuition
+
+Think of it like a **search engine** inside the model:
+
+| Component | Role | Analogy |
+|-----------|------|---------|
+| **Q** (Query) | What am I looking for? | Your search query |
+| **K** (Key) | What do I contain? | Page titles / descriptions |
+| **V** (Value) | What's my actual content? | Page content returned |
+
+For the word "it":
+- **Q** asks: "what noun am I referring to?"
+- **K** of "pizza" answers: "I'm a noun, a food, the subject"
+- **K** of "oven" answers: "I'm a noun, an appliance, inside a prepositional phrase"
+- Attention score for "pizza" > "oven" → **V** of "pizza" contributes more
+
+---
+
+# Multi-Head Attention & Transformer Block
+
+**Multi-head:** run attention **multiple times in parallel** (e.g., 12 heads in GPT-2).
+
+Each head can learn different relationships:
+- Head 1: syntactic (subject-verb)
+- Head 2: semantic (noun-pronoun)
+- Head 3: positional (nearby words)
+
+**One Transformer Block:**
+```
+Input
+  → Multi-Head Self-Attention + Residual Connection
+  → LayerNorm
+  → Feed-Forward Network (MLP) + Residual Connection
+  → LayerNorm
+  → Output
+```
+
+GPT-2 small: **12 blocks** stacked. GPT-2 XL: **48 blocks**.
+
+---
+
+# Training — Data, Loss, and Gradient Accumulation
+
+**Data:** next-token prediction on massive text corpora.
+- Input: `[The, pizza, came]` → Target: `[pizza, came, out]`
+- Loss: **cross-entropy** between predicted and actual next token
+
+**Gradient accumulation** simulates larger batch sizes on limited GPU memory:
+- Instead of 1 batch of 64, do 8 mini-batches of 8
+- Accumulate gradients, then update weights once
+- Same math, fits in GPU memory
+
+**Mixed precision (fp16/bf16):** halves memory, doubles speed.
+**Checkpointing:** save model weights periodically to resume if training crashes.
+
+---
+
+# Generation — From Trained Model to Text
+
+After training, generation is **autoregressive** — one token at a time:
+
+```
+Prompt:  "The meaning of life is"
+Step 1:  → predict next token → "to"
+Step 2:  "The meaning of life is to" → "find"
+Step 3:  "The meaning of life is to find" → "purpose"
+...
+```
+
+**Sampling strategies:**
+- **Greedy:** always pick the highest probability token
+- **Temperature:** lower = more deterministic, higher = more creative
+- **Top-k:** sample from top k candidates only
+- **Top-p (nucleus):** sample from smallest set covering p% probability
+
+nanoGPT implements all of these in ~300 lines of Python.
 
 ---
 
@@ -227,18 +363,6 @@ Run real GPT training at scale.
 - Multi-GPU training, dataset scaling
 
 **Practice:** Train a 100M parameter model. Resume training. Fine-tune a model.
-
----
-
-# Lesson 8 — Instruction Tuning and Alignment
-
-Build a chat model.
-
-- SFT fine-tuning, instruction datasets
-- RLHF overview, reward model concept
-- LoRA fine-tuning
-
-**Practice:** Fine-tune nanoGPT with a chat format dataset. Build an instruction-following model.
 
 ---
 
