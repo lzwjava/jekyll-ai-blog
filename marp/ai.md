@@ -53,11 +53,13 @@ style: |
 
 <!-- _class: lead -->
 
-# Zhiwei Li
+# From Neural Networks to Agents
 
-## Full-Stack Engineer · AI Practitioner · Builder
+## Zhiwei Li · Full-Stack Engineer · AI Practitioner
 
 lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
+
+*Made with Claude Code & Marp*
 
 ---
 
@@ -204,6 +206,26 @@ def __init__(self, sizes):       # e.g. [784, 30, 10]
 
 ---
 
+# Dimensions — The Key to Understanding
+
+Know the **shape** of every variable in a neural network:
+
+| Variable | Shape | Meaning |
+|----------|-------|---------|
+| Input `x` | `(784, 1)` | 28×28 pixels flattened |
+| `weights[0]` | `(30, 784)` | Layer 1 → Layer 2 connections |
+| `biases[0]` | `(30, 1)` | One bias per hidden neuron |
+| `z = w·a + b` | `(30, 1)` | Weighted sum before activation |
+| `a = σ(z)` | `(30, 1)` | Activated hidden layer |
+| `weights[1]` | `(10, 30)` | Layer 2 → Output connections |
+| Output | `(10, 1)` | Confidence for digits 0–9 |
+
+Matrix multiply: `(10, 30) × (30, 1) = (10, 1)` — dimensions must align.
+
+> "It just does the differentiable computation. Know the dimensions of every symbol and variable." — from my blog post
+
+---
+
 # From Neural Networks to Deep Learning
 
 How deep learning actually trains.
@@ -325,6 +347,25 @@ For the word "it":
 - **K** of "pizza" answers: "I'm a noun, a food, the subject"
 - **K** of "oven" answers: "I'm a noun, an appliance, inside a prepositional phrase"
 - Attention score for "pizza" > "oven" → **V** of "pizza" contributes more
+
+---
+
+# Q, K, V — Dimensions in Attention
+
+For a sequence of **T** tokens with embedding size **d** and head size **d_k**:
+
+| Variable | Shape | How it's computed |
+|----------|-------|-------------------|
+| Input `X` | `(T, d)` | Token embeddings, e.g. `(6, 768)` |
+| `W_Q` | `(d, d_k)` | Learned query projection |
+| `W_K` | `(d, d_k)` | Learned key projection |
+| `W_V` | `(d, d_k)` | Learned value projection |
+| `Q = X · W_Q` | `(T, d_k)` | e.g. `(6, 64)` |
+| `K = X · W_K` | `(T, d_k)` | e.g. `(6, 64)` |
+| `Q · K^T` | `(T, T)` | `(6, 6)` — every token attends to every token |
+| `softmax(QK^T/√d_k) · V` | `(T, d_k)` | Weighted values output |
+
+GPT-2: `d=768`, `12 heads`, `d_k=64` per head. `12 × 64 = 768` — heads concat back to full size.
 
 ---
 
@@ -453,15 +494,14 @@ Build an OpenClaw-style system.
 
 # Reversing Myopia — 3 Years of Self-Experimentation
 
-Inspired by **Todd Becker** and **Yin Wang**. 3 papers published. 3 years of data.
+![w:280](../assets/images/eyes/glasses.jpeg) ![w:180](../assets/images/eyeglasses/eyeglasses1.JPG)
 
+- Inspired by **Todd Becker** and **Yin Wang**. 3 papers published. 3 years of data.
 - Myopia worsens because we use **full-prescription glasses** for close-up work
 - Core principle: **"Just barely clear"** — wear glasses ~1.50D below full prescription
-- Expect ~**0.25D reduction every 3 months** with consistent practice
 - Left eye: **350 → 250** (2022–2024), Right eye improving too
-- Now using **multifocal progressive lenses** for daily use
 
-> The same first-principles thinking I apply to engineering — question the defaults, experiment, measure.
+> Categorization: separate glasses for **near** (phone, laptop) and **far** (driving) — two glasses for two major scenarios.
 
 Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
 
