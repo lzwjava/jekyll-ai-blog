@@ -12,7 +12,7 @@ style: |
     color: #e94560;
   }
   a {
-    color: #0f3460;
+    color: #56b6c2;
   }
   section.lead h1 {
     font-size: 2.5em;
@@ -36,6 +36,19 @@ style: |
   table {
     font-size: 0.8em;
   }
+  table th, table td {
+    color: #eaeaea;
+    border-color: #444;
+  }
+  table th {
+    background: #16213e;
+  }
+  table tr:nth-child(even) {
+    background: #16213e;
+  }
+  table tr:nth-child(odd) {
+    background: #1a1a2e;
+  }
 ---
 
 <!-- _class: lead -->
@@ -51,10 +64,10 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 # About Me
 
 - **11 years** in software engineering — backend, full-stack, AI
-- Currently at **HSBC** — backend + AI-assisted development
+- Currently at **TEKsystems** (contractor at **HSBC**) — backend + AI-assisted development
 - ~**1 billion tokens** consumed, top 6% Copilot premium usage at HSBC
 - Training GPT-2 with **nanoGPT** on **H200 GPU**
-- Previously: DBS Bank, HSBC PayMe, startup founder (30k users)
+- Previously: contractor at DBS Bank & HSBC PayMe, startup founder (30k users)
 - **AI/LLM:** PyTorch, nanoGPT, Claude Code, OpenRouter, Copilot, llama.cpp
 - **Backend:** Java, Spring Boot, Python | **Cloud:** AWS, Azure | **Mobile:** iOS, Android
 - **IELTS 6.5** (Reading 8.5)
@@ -101,7 +114,7 @@ Blog post: [Neural Network, Transformer and GPT](https://lzwjava.github.io/kqv-t
 - His professor: **Daniel P. Friedman** (Indiana University, born 1944)
 - Yin Wang calls ML **"differentiable computing"** — it's just calculus
 - His vision restoration method inspired my **3-year myopia experiment**
-- Subscribed to his Substack for 2 years
+- Subscribed to his Substack since 2022
 
 > "He not only taught me knowledge, but truly showed me how to think. He passed on the technique of catching fish from Daniel P. Friedman to me."
 
@@ -143,22 +156,55 @@ Inspired by **Yin Wang** and **Andrej Karpathy**
 
 ---
 
-# Lesson 1 — Neural Networks from First Principles
+# Neural Networks from First Principles
+
+Reference: Michael Nielsen — [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
 Understand what a neural network really computes.
 
-- Scalar, vector, matrix computation
-- Forward propagation step by step
-- Backpropagation with manual derivatives
-- Activation functions, loss functions
+- Input: 784 pixels (28×28 handwritten digit) → Output: 10 neurons (digits 0–9)
+- Each neuron: **weighted sum + bias + activation function**
+- $$a^{l} = \sigma(w^l a^{l-1} + b^l)$$
+- Sigmoid maps any value to 0–1: $\sigma(z) = \frac{1}{1+e^{-z}}$
 
-**Practice:** Print every variable. Implement a 2-layer NN in pure Python. Train on MNIST.
+For a 2-layer network: **784 × 10 weights + 10 biases** to learn.
+
+---
+
+# Backpropagation — How Networks Learn
+
+The 5-phase algorithm from Nielsen's book:
+
+1. **Input:** set activation $a^1$ for input layer
+2. **Feedforward:** compute $z^l = w^l a^{l-1} + b^l$, then $a^l = \sigma(z^l)$
+3. **Output error:** $\delta^L = \nabla_a C \odot \sigma'(z^L)$
+4. **Backpropagate:** $\delta^l = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^l)$
+5. **Update:** $w \to w - \eta \frac{\partial C}{\partial w}$, $b \to b - \eta \frac{\partial C}{\partial b}$
+
+The key insight: **know the dimensions of every variable**. Print them all.
+
+---
+
+# Practice — Build a Neural Network from Scratch
+
+Replicate the MNIST digit recognizer in pure Python + NumPy:
+
+```python
+def __init__(self, sizes):       # e.g. [784, 30, 10]
+    self.weights = [np.random.randn(y, x)
+                    for x, y in zip(sizes[:-1], sizes[1:])]
+    self.biases = [np.random.randn(y, 1) for y in sizes[1:]]
+```
+
+- Print every variable shape: `weights[0].shape = (30, 784)`
+- Watch accuracy climb: 10% → 50% → 95% over epochs
+- **If you can write it from scratch, you understand it**
 
 *After this, you understand every number inside a neural network.*
 
 ---
 
-# Lesson 2 — From Neural Networks to Deep Learning
+# From Neural Networks to Deep Learning
 
 How deep learning actually trains.
 
@@ -170,7 +216,7 @@ How deep learning actually trains.
 
 ---
 
-# Lesson 3 — PyTorch Minimal Framework
+# PyTorch Minimal Framework
 
 Read any PyTorch model with confidence.
 
@@ -182,7 +228,7 @@ Read any PyTorch model with confidence.
 
 ---
 
-# Lesson 4 — Language Modeling Fundamentals
+# Language Modeling Fundamentals
 
 Understand what GPT predicts.
 
@@ -343,7 +389,7 @@ nanoGPT implements all of these in ~300 lines of Python.
 
 ---
 
-# Lesson 6 — nanoGPT Deep Dive
+# nanoGPT Deep Dive
 
 **The key lesson.** Train your own GPT.
 
@@ -354,7 +400,7 @@ nanoGPT implements all of these in ~300 lines of Python.
 
 ---
 
-# Lesson 7 — GPT Training Engineering
+# GPT Training Engineering
 
 Run real GPT training at scale.
 
@@ -366,7 +412,7 @@ Run real GPT training at scale.
 
 ---
 
-# Lesson 9 — LLM Agents (Claude Code / OpenClaw)
+# LLM Agents (Claude Code / OpenClaw)
 
 Build an OpenClaw-style system.
 
@@ -375,17 +421,6 @@ Build an OpenClaw-style system.
 - Memory systems, CLI agent design
 
 **Practice:** Build a coding agent. Build a CLI automation agent. Build a multi-step reasoning agent.
-
----
-
-# Lesson 10 — Personal AI System (Capstone)
-
-Build your own AI system.
-
-- Local model deployment, RAG
-- Long context memory, multi-agent systems
-
-**Final project:** Personal coding AI, research assistant, CLI AI toolkit, or autonomous dev agent.
 
 ---
 
@@ -407,7 +442,7 @@ Build your own AI system.
 # Beyond Engineering
 
 - **Self-taught researcher** — 3 papers on natural vision restoration
-- **431 blog posts** — translated to 9 languages with LLMs
+- **~400 blog posts** — translated to Chinese with LLMs, ~8000 AI answer notes
 - **Life hacker** — hundreds of small innovative practices
 - **Traveler** — USA (twice), Hong Kong, Macao, half of China
 - English learned from **60+ Filipino teachers** online
