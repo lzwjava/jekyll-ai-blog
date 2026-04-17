@@ -66,7 +66,7 @@ style: |
 
 # From Neural Networks to Agents
 
-## Zhiwei Li · Full-Stack Engineer · AI Practitioner
+## Zhiwei Li · AI Engineer
 
 lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 
@@ -83,7 +83,7 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 - Previously: contractor at DBS Bank & HSBC PayMe, startup founder (30k users)
 - **AI/LLM:** PyTorch, nanoGPT, Claude Code, OpenRouter, Copilot, llama.cpp
 - **Backend:** Java, Spring Boot, Python | **Cloud:** AWS, Azure | **Mobile:** iOS, Android
-- **IELTS 6.5** (Reading 8.5)
+- **Born 1995** | **IELTS 6.5** (Reading 8.5)
 
 ---
 
