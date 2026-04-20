@@ -74,6 +74,20 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 
 ---
 
+# Ability Check and Factual Check
+
+Before we start, a factual/trust check on this deck:
+
+- **Made with Claude Code & Marp** — slides are AI-assisted, not hand-written
+- Built from **my previous AI response notes** (my own `~/notes` archive)
+- **Prompted by me**, **verified largely by me** — but I am the bottleneck, not an infallible reviewer
+- I honestly understand **~50%** of the content in this deck well; the rest I can explain but not derive cold
+- Compared to **Andrej Karpathy**, my grasp of these topics is maybe **~30%** — he can build GPT from scratch on a whiteboard; I still reach for the code
+
+> Treat this as a **learner's map**, not an authority. Verify important things before you depend on it.
+
+---
+
 # About Me
 
 - **11 years** in software engineering — mobile, backend, full-stack, AI
@@ -486,6 +500,62 @@ Run real GPT training at scale.
 - Multi-GPU training, dataset scaling
 
 **Practice:** Train a 100M parameter model. Resume training. Fine-tune a model.
+
+---
+
+# H200 Trial — DigitalOcean GPU Droplet
+
+| Config | H200 ×1 | H200 ×8 |
+|--------|---------|---------|
+| VRAM | 141 GB | 1.1 TB |
+| vCPU / RAM | 24 / 240 GB | 192 / 1920 GB |
+| NVMe Scratch | 5 TB | 40 TB |
+| Price | **$3.44/hr** | **$27.52/hr** |
+
+- **Linear scaling, no bulk discount** — ×8 is just 8 × ×1
+- Rule: **×1** for experiments & fine-tuning, **×8** only for distributed training
+- At $82/day per GPU, every idle hour hurts
+
+---
+
+# Training Setup — FineWeb 60GB
+
+- **Dataset:** FineWeb (HuggingFace) — 60 GB text, ~10B token sample (full = 1.4T)
+- **VPS → GPU Droplet transfer:** 5 hours over internet → **5 minutes on private network** (450 MB/s internal)
+- **Preprocessing:** 12 parallel CPU workers, ~40M tokens/sec, done in ~20 min
+- **Training target:** GPT-2 124M → 1.5B with nanoGPT
+- For a 1.5B model to be decent: needs ~100B–1T tokens
+
+> Lesson: **never transfer big datasets over public internet** — use the provider's private network.
+
+---
+
+# The 21-Second Iteration — Random Disk Access
+
+Each iteration was **21 seconds** on H200 — way too slow.
+
+- Effective batch: `16 × 1024 × 64 (grad_accum) = ~1M tokens/iter`
+- With `gradient_accumulation_steps = 64`, the trainer does **64 random disk reads per iter**
+- Data on boot disk, not scratch NVMe → **I/O bottleneck, not compute**
+- MFU reported >100% — artifact (nanoGPT's MFU baseline is A100, not H200)
+
+**Fix:**
+- `grad_accum: 64 → 4`, `batch_size: 16 → 256` (same effective batch, **16× fewer disk reads**)
+- Move `train.bin` to local NVMe scratch (`/mnt/scratch`)
+- Target after fix: **<1 sec/iter, >100k tokens/sec**
+
+---
+
+# Why Runpod > DigitalOcean for Training
+
+- **Per-second billing** — DO bills per hour (pay for idle minutes)
+- **30+ GPU types** — RTX 4090, A100, H100, H200, B200 — DO has only a few
+- **Community Cloud** pricing much cheaper than Secure Cloud / DO
+- **Bring your own Docker** — no fighting with pre-baked images
+- **Sub-minute provisioning**, FlashBoot serverless endpoints
+- NVMe local scratch by default — fewer I/O surprises
+
+> For a solo researcher doing trial runs, Runpod's flexibility + price usually wins.
 
 ---
 
