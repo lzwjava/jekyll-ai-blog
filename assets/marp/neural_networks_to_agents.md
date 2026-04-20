@@ -86,6 +86,20 @@ Before we start, a factual/trust check on this deck:
 
 ---
 
+# Audience Check — Type `1` or `0` in Chat
+
+Help me calibrate — reply `1` (yes) or `0` (no) in Zoom chat:
+
+- Run **OpenClaw or Hermes** on your laptop or VPS?
+- Know **how an MNIST neural net works** — forward pass, backprop, SGD?
+- Understand **how a Transformer works** — Q, K, V, multi-head attention?
+- Written code for **GPU inference or training** small models yourself?
+- Can **write MNIST from scratch** — pure Python/NumPy, no frameworks?
+
+> No judgment either way. Just calibrating where to spend time vs. skim.
+
+---
+
 # About Me
 
 - **11 years** in software engineering — mobile, backend, full-stack, AI
@@ -162,6 +176,21 @@ Inspired by **Yin Wang** and **Andrej Karpathy**
 - **Train small models** yourself
 - **Build systems**, not just theory
 - Iterate like training an LLM — you don't get it right the first time
+
+---
+
+# General Learning Tips
+
+What actually works for me — cheap, repeatable, compounding:
+
+- **Ask AI chatbots** — Claude, ChatGPT, Gemini. Rephrase until you get it
+- **Use code assistants** — Claude Code, Copilot. Ask about any line you don't understand
+- **Write a mini / nano version** — a toy neural net, a tiny agent. Scale reveals itself
+- **Talk to people with similar passion** — communities, friends, coworkers who care
+- **YouTube & podcasts** — Karpathy, StatQuest, Lex, Dwarkesh. Passive hours add up
+- **Reflect and explore** — take notes, write blog posts, follow tangents. The brain works on it overnight
+
+> Stack these six. You'll be surprised how far you get in a year.
 
 ---
 
