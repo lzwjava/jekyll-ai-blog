@@ -204,17 +204,6 @@ Free online. Interactive diagrams. Python code on GitHub: [mnielsen/neural-netwo
 
 ---
 
-<!-- _backgroundColor: white -->
-<!-- _color: #333 -->
-
-# Neural Network Structure
-
-![w:500](../assets/images/ai/tikz17.png)
-
-*Image source: [neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen*
-
----
-
 # Practice — Build a Neural Network from Scratch
 
 Replicate the MNIST digit recognizer in pure Python + NumPy:
@@ -514,7 +503,7 @@ Build an OpenClaw-style system.
 
 # lzwjava.github.io — My Blog
 
-A Jekyll blog with **515 original posts**, enhanced with AI-powered tools:
+A Jekyll blog with **~400 original posts**, enhanced with AI-powered tools:
 
 - **LLM Translation** — auto-translated to **9 languages** (EN, ZH, JA, FR, DE, etc.)
 - **Google Cloud TTS** — audio versions of posts
@@ -524,7 +513,7 @@ A Jekyll blog with **515 original posts**, enhanced with AI-powered tools:
 - **MathJax** — renders math in technical posts
 - **Night mode**, RSS feed, bilingual content
 
-Plus **8000+ notes**, **323 Python scripts**, and **191 ML scripts**.
+Plus **8000+ notes**, **323 Python scripts**.
 
 ---
 
@@ -559,7 +548,7 @@ Built for **enterprise-constrained environments** — no browser extensions, no 
 
 *When full-featured tools are blocked, iclaw gets the job done.*
 
-*Disclaimer: All tests with Copilot were performed using my personal subscription and personal account.*
+*Disclaimer: All tests with Copilot were performed using my personal account.*
 
 ---
 
@@ -570,7 +559,7 @@ Built for **enterprise-constrained environments** — no browser extensions, no 
 - **Life hacker** — hundreds of small innovative practices
 - **Traveler** — USA (twice), Hong Kong, Macao, half of China
 - English learned from **60+ Filipino teachers** online
-- **Crypto & US stock investor** since 2018 — ~20% annual returns
+- **Crypto & US stock investor** since 2018
 - Owns **hundreds of gadgets** — EMF meter, telescope, etc.
 
 ---
