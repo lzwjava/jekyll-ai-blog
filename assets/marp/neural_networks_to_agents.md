@@ -80,7 +80,7 @@ Before we start, a factual/trust check on this deck:
 - Built from my public AI response notes — [lzwjava.github.io/notes-en.html](https://lzwjava.github.io/notes-en.html)
 - **Prompted by me**, **verified largely by me** — but I am the bottleneck, not an infallible reviewer
 - I honestly understand **~50%** of the content in this deck well; the rest I can explain but not derive cold
-- Compared to **Andrej Karpathy**, my grasp of these topics is maybe **~30%** — he can build GPT from scratch on a whiteboard; I still reach for the code
+- Compared to **Andrej Karpathy**, my grasp of these topics is maybe **~20%** — he can build GPT from scratch on a whiteboard; I still reach for the code
 
 > Treat this as a **learner's map**. Verify important things before you depend on it.
 
