@@ -96,6 +96,7 @@ Before we start, a factual/trust check on this deck:
 - Previously: contractor at DBS Bank & HSBC PayMe, startup founder (30k users)
 - **AI/LLM:** PyTorch, nanoGPT, Claude Code, OpenRouter, Copilot, llama.cpp
 - **Backend:** Java, Spring Boot, Python | **Cloud:** AWS, Azure | **Mobile:** iOS, Android
+- **2011 NOIP Guangdong** — 1st prize (Guangzhou, round 1), advanced to round 2, ~top 300
 - **Born 1995** | **IELTS 6.5** (Reading 8.5)
 
 ---
