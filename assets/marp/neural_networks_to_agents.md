@@ -116,7 +116,7 @@ Before we start, a factual/trust check on this deck:
 - First read about **K, Q, V** mechanism around end of **2023** — didn't understand much
 - Read *The Illustrated Transformer*, watched Karpathy, Umar Jamil, StatQuest
 - Replicated neural network for handwritten digits **from scratch** — that's where real understanding began
-- By mid-**2025**, transformers finally clicked — after **~2 years** of mulling
+- By April-**2026**, transformers finally clicked — after **~3 years** of mulling
 - Key insight: you don't get it the first time — the brain does its work over time
 
 > "If one can write it from scratch without copying any code, one understands very well."
