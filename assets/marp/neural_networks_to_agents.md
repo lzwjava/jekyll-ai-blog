@@ -322,6 +322,23 @@ Read any PyTorch model with confidence.
 
 ---
 
+# Read Alongside — The Illustrated Transformer
+
+Jay Alammar — [jalammar.github.io/illustrated-transformer](https://jalammar.github.io/illustrated-transformer/)
+
+The best visual walkthrough of the Transformer on the internet. We'll scroll through together:
+
+- **Encoder / Decoder stack** — the macro picture
+- **Self-attention step by step** — Q, K, V vectors drawn as colored boxes
+- **Score → softmax → weighted sum** — animated across every token
+- **Multi-head attention** — 8 heads in parallel, concatenated
+- **Positional encoding** — why sin/cos waves?
+- **Residual connections & LayerNorm** — the glue between layers
+
+> If Karpathy's video is the code, Alammar's post is the **picture**. Read both.
+
+---
+
 # GPT Architecture — The Big Picture
 
 Reference: Andrej Karpathy — [Let's build GPT: from scratch, in code](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=4s)
