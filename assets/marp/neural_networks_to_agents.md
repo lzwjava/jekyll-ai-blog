@@ -590,6 +590,61 @@ Build an OpenClaw-style system.
 
 ---
 
+# OpenClaw — Multi-Agent Orchestration
+
+Self-hosted AI runtime — "AI employee" for system tasks. Model-agnostic: bring your own key (Claude, GPT, Kimi, local).
+
+- **Channels:** Telegram, WeChat, WhatsApp, Nextcloud Talk
+- **Agent loop:** observe → call tools → exec → reflect → repeat
+- **Skills ecosystem** — 13k+ community skills (one can be ~20 lines)
+- **Distributed** — chain across hosts A → B → C via SSH / HTTP
+- **My setup:** ~29 active sessions, browser + shell + scheduled heartbeats
+
+> Think "AI operator" for channels and infra — not just coding.
+
+---
+
+# Hermes — Single Agent, Persistent Memory
+
+One agent. Learns across sessions. Writes its own skills.
+
+- **MEMORY.md** — long-term knowledge persisted between runs
+- **Camoufox browser** — anti-detect scraping (e.g., Hacker News)
+- **Auto-generated skills** — after a task, the agent writes the skill
+- **Easier to reason about** than multi-agent — one brain, one log
+- **Tool groups:** `browser_*`, `exec`, `file_*`, `memory`, `web_search`, `clarify`
+
+> OpenClaw = **breadth** (channels, ecosystem). Hermes = **depth** (one agent that gets better over time).
+
+---
+
+# Why Agents Click — My "Aha" Insights
+
+Understanding deepens the longer you live with them. Some takeaways from daily use:
+
+- **Exec as first-class citizen** — the essence of Lobster (OpenClaw 🦞). Full shell, full sudo, full control of the machine
+- **Dozens to hundreds of tool calls per minute** — the loop runs at machine speed, not human speed
+- **Rapid iteration = experimentation** — hypothesis → tool call → result → next hypothesis, in seconds
+- **The agent probes, not reads** — `ls`, `cat`, `grep`, `python -c ...` — like a dev at a terminal
+- **You stop being the I/O bottleneck** — you become the bottleneck on intent and review
+
+> These insights come from *using* the agent, not reading about it. Living with it for months is the only path.
+
+---
+
+# Agent Tips — Lessons From Running Both
+
+- **PRD first** — write the spec before the agent starts. Review every 10–15 min on long tasks
+- **Cost is real** — autonomous loops burn tokens fast; one user hit **$3.6k** in month one. Set budgets
+- **Security is not abstract** — prompt injection, leaky `allowedOrigins`, unrestricted exec. Run `security audit --deep`
+- **Behavior files are the guardrail** — `AGENTS.md` (rules), `SOUL.md` (values), `TOOLS.md` (tool use)
+- **Vet community skills** — powerful, but malware / exfiltration / injection live there too
+- **Debug** — hang? SSH in, check CPU, restart gateway. Failed queue: `~/.openclaw/delivery-queue/failed/`
+
+> These are my personal learning setups — production has more edges.
+
+---
+
 # lzwjava.github.io — My Blog
 
 A Jekyll blog with **~400 original posts**, enhanced with AI-powered tools:
