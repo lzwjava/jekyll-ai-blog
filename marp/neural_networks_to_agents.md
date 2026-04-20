@@ -635,8 +635,6 @@ Built for **enterprise-constrained environments** — no browser extensions, no 
 - **GitHub OAuth** device flow authentication
 - Slash commands: `/model`, `/search`, `/compact`, `/export`, `/copy`
 
-*When full-featured tools are blocked, iclaw gets the job done.*
-
 *Disclaimer: All tests with Copilot were performed using my personal account.*
 
 ---
