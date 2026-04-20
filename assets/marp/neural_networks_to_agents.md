@@ -82,7 +82,7 @@ Before we start, a factual/trust check on this deck:
 - I honestly understand **~50%** of the content in this deck well; the rest I can explain but not derive cold
 - Compared to **Andrej Karpathy**, my grasp of these topics is maybe **~30%** — he can build GPT from scratch on a whiteboard; I still reach for the code
 
-> Treat this as a **learner's map**, not an authority. Verify important things before you depend on it.
+> Treat this as a **learner's map**. Verify important things before you depend on it.
 
 ---
 
