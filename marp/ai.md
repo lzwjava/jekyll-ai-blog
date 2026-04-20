@@ -90,7 +90,8 @@ Before we start, a factual/trust check on this deck:
 
 - **11 years** in software engineering — mobile, backend, full-stack, AI
 - Currently at **a global IT services company** — contractor at **a global bank** — backend + AI-assisted development
-- ~**1 billion tokens** consumed, top 6% Copilot premium usage at a global bank
+- ~**1 billion tokens** consumed by OpenRouter & other providers in past year
+- top 6% Copilot premium usage at a global bank
 - Training GPT-2 with **nanoGPT** on **H200 GPU**
 - Previously: contractor at DBS Bank & HSBC PayMe, startup founder (30k users)
 - **AI/LLM:** PyTorch, nanoGPT, Claude Code, OpenRouter, Copilot, llama.cpp
