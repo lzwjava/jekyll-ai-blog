@@ -16,4 +16,4 @@ Planning to give a talk titled **"From Neural Networks to Agents"** in an engine
 4. [Claude Code](https://claude.com/claude-code) tips — precise input, paste-don't-describe
 5. Agents — [OpenClaw](https://openclaw.ai/) & Hermes — exec as first-class, tool calls at machine speed
 
-Slides (Marp): [markdown](/assets/marp/neural_networks_to_agents.md) · [PDF](/assets/marp/neural_networks_to_agents.pdf)
+Slides (Marp): [markdown](/assets/marp/neural_networks_to_agents.md) · [PDF](/assets/marp/neural_networks_to_agents_public.pdf)
