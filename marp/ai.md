@@ -77,7 +77,7 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 Before we start, a factual/trust check on this deck:
 
 - **Made with Claude Code & Marp** — slides are AI-assisted, not hand-written
-- Built from **my previous AI response notes** (my own `~/notes` archive)
+- Built from my public AI response notes — [lzwjava.github.io/notes-en.html](https://lzwjava.github.io/notes-en.html)
 - **Prompted by me**, **verified largely by me** — but I am the bottleneck, not an infallible reviewer
 - I honestly understand **~50%** of the content in this deck well; the rest I can explain but not derive cold
 - Compared to **Andrej Karpathy**, my grasp of these topics is maybe **~30%** — he can build GPT from scratch on a whiteboard; I still reach for the code
