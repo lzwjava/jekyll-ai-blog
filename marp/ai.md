@@ -76,7 +76,7 @@ lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 
 # About Me
 
-- **11 years** in software engineering — backend, full-stack, AI
+- **11 years** in software engineering — mobile, backend, full-stack, AI
 - Currently at **a global IT services company** — contractor at **a global bank** — backend + AI-assisted development
 - ~**1 billion tokens** consumed, top 6% Copilot premium usage at a global bank
 - Training GPT-2 with **nanoGPT** on **H200 GPU**
