@@ -183,12 +183,13 @@ Inspired by **Yin Wang** and **Andrej Karpathy**
 
 What actually works for me — cheap, repeatable, compounding:
 
-- **Ask AI chatbots** — Claude, ChatGPT, Gemini. Rephrase until you get it
-- **Use code assistants** — Claude Code, Copilot. Ask about any line you don't understand
-- **Write a mini / nano version** — a toy neural net, a tiny agent. Scale reveals itself
+- **Ask AI chatbots** — Claude, ChatGPT, Gemini
+- **Use code assistants** — Claude Code, Copilot
+- **Add logs with Claude Code** — run, observe, relearn
+- **Write a mini / nano version** — a toy neural net, a tiny agent
 - **Talk to people with similar passion** — communities, friends, coworkers who care
-- **YouTube & podcasts** — Karpathy, StatQuest, Lex, Dwarkesh. Passive hours add up
-- **Reflect and explore** — take notes, write blog posts, follow tangents. The brain works on it overnight
+- **YouTube & podcasts** — Karpathy, StatQuest, Lex, Dwarkesh
+- **Reflect and share** — take notes, write blog posts, follow tangents
 
 > Stack these six. You'll be surprised how far you get in a year.
 
