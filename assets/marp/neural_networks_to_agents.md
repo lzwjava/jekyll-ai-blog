@@ -95,6 +95,8 @@ Help me calibrate — reply `1` (yes) or `0` (no) in Zoom chat:
 - Understand **how a Transformer works** — Q, K, V, multi-head attention?
 - Written code for **GPU inference or training** small models yourself?
 - Can **write MNIST from scratch** — pure Python/NumPy, no frameworks?
+- Know **Yin Wang (王垠)** — compiler expert and programming KOL in China?
+- English ability **≥ IELTS 6.5**?
 
 > No judgment either way. Just calibrating where to spend time vs. skim.
 
@@ -205,6 +207,26 @@ What actually works for me — cheap, repeatable, compounding:
 
 ---
 
+# The Simplest Neural Network — Guess a Number
+
+One "neuron": $y = x \cdot w$. Input $x = 2$, target $t = 5$.
+
+| Step | $w$ | $y = 2w$ | Error $(y - t)$ |
+|------|-----|----------|-----------------|
+| Start | 2.0 | 4.0 | **−1.0** (too small) |
+| Nudge up | 2.2 | 4.4 | −0.6 |
+| Again | 2.5 | 5.0 | **0** ✅ |
+
+**How do we know which way to nudge?** Calculus.
+
+- Loss $L = \tfrac{1}{2}(y - t)^2$
+- Gradient $\frac{\partial L}{\partial w} = x \cdot (y - t) = 2 \cdot (-1) = -2$
+- Update: $w \leftarrow w - \eta \cdot \frac{\partial L}{\partial w}$ → gradient is negative, so $w$ goes **up**
+
+> That's it. A real network is millions of these, stacked — but the idea is the same.
+
+---
+
 # Neural Networks from First Principles
 
 Reference: Michael Nielsen — [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
@@ -295,6 +317,16 @@ How deep learning actually trains.
 - Regularization, dropout, batch/mini-batch/SGD
 
 **Practice:** Train a 3-layer classifier. Visualize the loss curve. Implement dropout manually.
+
+---
+
+<!-- _class: lead -->
+
+# Q&A — Checkpoint 1 / 3
+
+Foundations: neural nets, backprop, gradient descent, dimensions.
+
+**Ask anything — before we jump into GPT and Transformers.**
 
 ---
 
@@ -605,6 +637,16 @@ Each iteration was **21 seconds** on H200 — way too slow.
 
 ---
 
+<!-- _class: lead -->
+
+# Q&A — Checkpoint 2 / 3
+
+GPT internals: tokenizer, Q/K/V, attention, training, generation, nanoGPT.
+
+**Questions on Transformers or GPU training — before we shift to agents.**
+
+---
+
 # LLM Agents (Claude Code / OpenClaw)
 
 Build an OpenClaw-style system.
@@ -768,7 +810,17 @@ Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
 
 # Myopia Experiment — Photos
 
-![w:280](../assets/images/eyes/glasses.jpeg) ![w:180](../assets/images/eyeglasses/eyeglasses1.JPG)
+![w:280](../images/eyes/glasses.jpeg) ![w:180](../images/eyeglasses/eyeglasses1.JPG)
+
+---
+
+<!-- _class: lead -->
+
+# Q&A — Checkpoint 3 / 3
+
+Agents, OpenClaw, Hermes, Claude Code, blog, CLI tools — anything from the whole talk.
+
+**Final questions before we wrap up.**
 
 ---
 
@@ -787,7 +839,7 @@ Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
 
 # WeChat
 
-<p style="text-align: center;"><img src="../assets/images/contact/wechat.jpg" width="360"/></p>
+<p style="text-align: center;"><img src="../images/contact/wechat.jpg" width="360"/></p>
 
 **lzwjava**
 
