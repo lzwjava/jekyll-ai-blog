@@ -94,7 +94,6 @@ Help me calibrate — reply `1` (yes) or `0` (no) in Zoom chat:
 - Know **how an MNIST neural net works** — forward pass, backprop, SGD?
 - Understand **how a Transformer works** — Q, K, V, multi-head attention?
 - Written code for **GPU inference or training** small models yourself?
-- Can **write MNIST from scratch** — pure Python/NumPy, no frameworks?
 - Know **Yin Wang (王垠)** — compiler expert and programming KOL in China?
 - English ability **≥ IELTS 6.5**?
 
