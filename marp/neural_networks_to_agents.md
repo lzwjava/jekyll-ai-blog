@@ -683,14 +683,6 @@ Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
 
 <!-- _class: lead -->
 
-# Thank You
-
-lzwjava@gmail.com · lzwjava.github.io
-
----
-
-<!-- _class: lead -->
-
 # WeChat
 
 <p style="text-align: center;"><img src="../assets/images/contact/wechat.jpg" width="360"/></p>
@@ -706,3 +698,13 @@ lzwjava@gmail.com · lzwjava.github.io
 [linkedin.com/in/lzwjava](https://www.linkedin.com/in/lzwjava)
 
 *or search* **Zhiwei Li AI Engineer**
+
+---
+
+<!-- _class: lead -->
+
+# Thank You
+
+lzwjava@gmail.com · lzwjava.github.io
+
+---
