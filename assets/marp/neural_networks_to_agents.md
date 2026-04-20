@@ -805,6 +805,18 @@ Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
 
 <!-- _class: lead -->
 
+# Thanks
+
+Qi Zhang · Yin Wang · Andrej Karpathy · Rong · Ming
+Shawn Shao · F Team · Gary Ma · Lin Zhen · Liezun Xiao
+Shuming Liang · Steve Chen · Raymond · Gaven
+
+*and many more*
+
+---
+
+<!-- _class: lead -->
+
 # Thank You
 
 lzwjava@gmail.com · lzwjava.github.io
