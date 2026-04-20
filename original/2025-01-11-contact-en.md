@@ -26,6 +26,12 @@ My philosophy is inspired by independent thinkers such as Yin Wang, emphasizing 
 
 我叫李智维。很高兴认识你。
 
+#### Obfuscated Introduction
+
+After the initial entrepreneurial phase, I worked as a contractor for large financial institutions such as a multinational bank in Singapore and a global bank in the UK, gaining experience in large-scale backend systems, distributed architecture, and cloud infrastructure.
+
+Currently, I am assigned by a global IT services company to a global bank in the UK, focusing on backend systems, automation, and AI-assisted development.
+
 #### X(Twitter)
 
 My X account is here: [https://twitter.com/lzwjava](https://twitter.com/lzwjava).

@@ -177,6 +177,23 @@ For a 2-layer network: **784 × 10 weights + 10 biases** to learn.
 
 ---
 
+# Read Alongside — neuralnetworksanddeeplearning.com
+
+Open the site in your browser and read **chapter by chapter**. This talk walks alongside it.
+
+- **Ch 1:** Using neural nets to recognize handwritten digits
+- **Ch 2:** How the backpropagation algorithm works
+- **Ch 3:** Improving the way neural networks learn
+- **Ch 4:** A visual proof that neural nets can compute any function
+- **Ch 5:** Why are deep neural networks hard to train?
+- **Ch 6:** Deep learning
+
+Free online. Interactive diagrams. Python code on GitHub: [mnielsen/neural-networks-and-deep-learning](https://github.com/mnielsen/neural-networks-and-deep-learning)
+
+> Read → run the code → print every variable shape → then read the next chapter.
+
+---
+
 # Backpropagation — How Networks Learn
 
 1. **Input:** set activation $a^1$ for input layer
@@ -438,6 +455,25 @@ Step 3:  "The meaning of life is to find" → "purpose"
 - **Top-p (nucleus):** sample from smallest set covering p% probability
 
 nanoGPT implements all of these in ~300 lines of Python.
+
+---
+
+# Source Code Exploration — nanoGPT Locally
+
+`git clone https://github.com/karpathy/nanoGPT` — a whole GPT in ~**600 lines** of Python.
+
+| File | What to read | Lines |
+|------|--------------|-------|
+| `model.py` | `CausalSelfAttention`, `Block`, `GPT` — full architecture | ~300 |
+| `train.py` | training loop, gradient accumulation, AdamW, DDP | ~350 |
+| `sample.py` | autoregressive generation, temperature, top-k | ~90 |
+| `data/shakespeare_char/prepare.py` | char-level tokenizer, train/val split | ~40 |
+| `config/train_shakespeare_char.py` | hyperparameters: `n_layer`, `n_head`, `n_embd` | ~30 |
+
+- Read `model.py` **top to bottom** with pen and paper — draw the tensor shapes
+- Set a breakpoint in `forward()` — inspect `Q`, `K`, `V` shapes match the slide
+- Change `n_layer: 6 → 2` and retrain — watch loss get worse
+- No magic libraries. Just PyTorch + math.
 
 ---
 
