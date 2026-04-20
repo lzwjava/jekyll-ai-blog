@@ -570,6 +570,26 @@ Build an OpenClaw-style system.
 
 ---
 
+# Claude Code Tips — Prompting
+
+- **input + model = output** — the only equation that matters
+- **Precise input** — vague prompts produce vague code; be specific about files, signatures, constraints
+- **Paste, don't describe** — copy the code snippet, HTML, or error message directly into the prompt
+- **One-shot or few-shot** — show an example output when the pattern is non-obvious
+
+> Garbage in, garbage out. The model is fixed — you control the input.
+
+---
+
+# Claude Code Tips — Workflow
+
+- **Clone the repo down and ask** — single source of truth beats screenshots and pasted fragments
+- **Categorize errors** — fix one big class at a time (all type errors, then all lint, then all tests)
+- **Save inputs and outputs** (prompts and responses) — review the good ones later; your input library compounds
+- Treat inputs like code: refine, reuse, version them
+
+---
+
 # lzwjava.github.io — My Blog
 
 A Jekyll blog with **~400 original posts**, enhanced with AI-powered tools:
