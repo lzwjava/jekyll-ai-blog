@@ -132,7 +132,7 @@ Blog post: [Neural Network, Transformer and GPT](https://lzwjava.github.io/kqv-t
 - Followed him since **2013** — he taught me how to think from first principles
 - His professor: **Daniel P. Friedman** (Indiana University, born 1944)
 - Yin Wang calls ML **"differentiable computing"** — it's just calculus
-- His vision restoration method inspired my **3-year myopia experiment**
+- His vision restoration method(learned from todd becker) inspired my **3-year myopia experiment**
 - Subscribed to his Substack since 2022
 
 > "He not only taught me knowledge, but truly showed me how to think. He passed on the technique of catching fish from Daniel P. Friedman to me."
