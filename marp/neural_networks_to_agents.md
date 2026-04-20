@@ -635,7 +635,7 @@ Built for **enterprise-constrained environments** — no browser extensions, no 
 - **GitHub OAuth** device flow authentication
 - Slash commands: `/model`, `/search`, `/compact`, `/export`, `/copy`
 
-*Disclaimer: All tests with Copilot were performed using my personal account.*
+*Disclaimer: Built for learning purposes — still has issues in enterprise environments. All tests with Copilot were performed using my personal account.*
 
 ---
 
