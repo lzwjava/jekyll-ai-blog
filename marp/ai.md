@@ -70,8 +70,6 @@ style: |
 
 lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
 
-*Made with Claude Code & Marp*
-
 ---
 
 # Ability Check and Factual Check
