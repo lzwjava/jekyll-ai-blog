@@ -646,6 +646,23 @@ GPT internals: tokenizer, Q/K/V, attention, training, generation, nanoGPT.
 
 ---
 
+# Benefits for Senior Engineers
+
+Why invest time in neural networks and agents?
+
+| Area | Without AI | With AI Agents |
+|------|------------|----------------|
+| **Legacy code** | Weeks to months to understand & modify | Days to weeks with AI-assisted exploration |
+| **Boilerplate** | Hours writing CRUD, tests, docs | Minutes to generate, you review & refine |
+| **Debugging** | Manual grep, print, trace | Agent probes the system at machine speed |
+| **Research** | Read docs line by line | Ask and get code examples instantly |
+| **Documentation** | Tedious, always outdated | Generate draft from code, keep in sync |
+| **Career** | AI is optional | AI is becoming table stakes |
+
+**For bank engineers:** Your value isn't in typing code — it's in judgment, architecture, and domain knowledge. AI handles the boilerplate so you focus on decisions.
+
+---
+
 # LLM Agents (Claude Code / OpenClaw)
 
 Build an OpenClaw-style system.
