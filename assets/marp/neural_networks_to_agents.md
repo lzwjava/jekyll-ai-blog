@@ -101,6 +101,21 @@ Help me calibrate — reply `1` (yes) or `0` (no) in Zoom chat:
 
 ---
 
+# Why This Talk — For 10-Year Engineers
+
+For **senior application engineers** — backend, full-stack, mobile:
+
+- **AI without the hype** — first-principles math & code, evaluate vendor claims
+- **Code assistant skills on legacy code** — monoliths, tests, refactors (any tool your company allows)
+- **Real numbers** — 1B tokens, H200 at $3.44/hr, where money actually goes
+- **Agents on the terminal** — shell-level ops, internal tools, SSH chains
+- **A clear path** — `y = wx` → MNIST → GPT → nanoGPT → your own agent
+- **Bonus: reverse myopia, naturally** — 3-year self-experiment, 350 → 250 diopters
+
+> Domain, judgment, production taste — AI multiplies, not replaces.
+
+---
+
 # About Me
 
 - **11 years** in software engineering — mobile, backend, full-stack, AI
