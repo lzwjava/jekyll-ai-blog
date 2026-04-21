@@ -890,7 +890,9 @@ Agents, OpenClaw, Hermes, Claude Code, blog, CLI tools — anything from the who
 
 # Thanks
 
-Qi Zhang · Yin Wang · Andrej Karpathy · Rong · Ming
+*(unordered, no particular ranking)*
+
+Family · Qi Zhang · Yin Wang · Andrej Karpathy · Ming
 Shawn Shao · F Team · Gary Ma · Lin Zhen · Liezun Xiao
 Shuming Liang · Steve Chen · Raymond · Gaven
 
