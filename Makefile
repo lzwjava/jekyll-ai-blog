@@ -1,4 +1,4 @@
-.PHONY: latex audio-pipeline pdf-pipeline clean copy
+.PHONY: latex audio-pipeline pdf-pipeline clean copy resume-then-copy
 
 CC = xelatex
 EXAMPLES_DIR = latex
@@ -91,3 +91,5 @@ copy-cv:
 	cp latex/zh/cv-zh.pdf assets/resume/Zhiwei.Li.CV.ZH.pdf
 
 easy-resume: resume-en.pdf resume-en-dark.pdf copy
+
+resume-then-copy: resume copy
