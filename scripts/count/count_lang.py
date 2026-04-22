@@ -1,7 +1,7 @@
 import os
 
 
-def count_files(directory, extensions, exclude_dirs=None):
+def count_files(directory, extensions, exclude_dirs=None, since_mtime=None):
     count = 0
     if exclude_dirs is None:
         exclude_dirs = []
@@ -13,9 +13,10 @@ def count_files(directory, extensions, exclude_dirs=None):
             if os.path.isfile(item_path) and any(
                 item.endswith(ext) for ext in extensions
             ):
-                count += 1
+                if since_mtime is None or os.path.getmtime(item_path) >= since_mtime:
+                    count += 1
             elif os.path.isdir(item_path) and item not in exclude_dirs:
-                count += count_files(item_path, extensions, exclude_dirs)
+                count += count_files(item_path, extensions, exclude_dirs, since_mtime)
     except (PermissionError, FileNotFoundError):
         pass
     return count

@@ -2,7 +2,7 @@ import os
 import glob
 
 
-def count_md_files_in_original(quiet=False):
+def count_md_files_in_original(quiet=False, since_mtime=None):
     # Look for an 'original' directory
     original_dir = "original"
 
@@ -13,6 +13,8 @@ def count_md_files_in_original(quiet=False):
 
     # Count .md files in the original directory
     md_files = glob.glob(os.path.join(original_dir, "*.md"))
+    if since_mtime is not None:
+        md_files = [f for f in md_files if os.path.getmtime(f) >= since_mtime]
     count = len(md_files)
 
     if not quiet:

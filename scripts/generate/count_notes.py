@@ -1,12 +1,18 @@
 import os
 
 
-def count_notes():
+def count_notes(since_mtime=None):
     try:
-        file_count = len(
-            [f for f in os.listdir("notes") if os.path.isfile(os.path.join("notes", f))]
-        )
-        return file_count
+        files = [
+            f for f in os.listdir("notes") if os.path.isfile(os.path.join("notes", f))
+        ]
+        if since_mtime is not None:
+            files = [
+                f
+                for f in files
+                if os.path.getmtime(os.path.join("notes", f)) >= since_mtime
+            ]
+        return len(files)
     except FileNotFoundError:
         return 0
 
