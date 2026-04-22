@@ -50,3 +50,4 @@ scripts/train/*.png
 falemon.yaml
 zhs.yaml
 assets/marp/neural_networks_to_agents.pdf
+assets/marp/neural_networks_to_agents_preview.pdf
