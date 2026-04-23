@@ -24,9 +24,9 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 * Worked across diverse domains: live-streaming startup, cloud computing startup, China internet products, and financial systems / digital banking apps of Singapore & Hong Kong
 * Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
-* Age 16: 2011 NOIP Guangdong province, top 300 provincially; 1st prize (Guangzhou round), advanced to provincial round
-* Age 21: founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
-* Age 27: received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
+* 2011 NOIP Guangdong province, top 300 provincially; 1st prize (Guangzhou round), advanced to provincial round
+* Founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
+* Received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
 * Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
 * Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
