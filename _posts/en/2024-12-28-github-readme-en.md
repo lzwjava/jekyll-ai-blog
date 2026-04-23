@@ -5,19 +5,32 @@ image: false
 lang: en
 layout: post
 title: GitHub Readme Introduction
-translated: false
 type: post
 ---
 
-| project | language | commits|project|language|commits|
-| ------------- | ------------- |---- |---|---|----|
-|[algorithm-solutions](https://github.com/lzwjava/algorithm-solutions)| Java | 2511 |[leachat-android](https://github.com/lzwjava/leanchat-android) | Java | 412|
-|[LZAlbum](https://github.com/lzwjava/LZAlbum) |Objective-C |69|[leanchat-ios](https://github.com/lzwjava/leanchat-ios) | Objective-C | 556|
-|[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)| Chinese & English | 500|[live-server](https://github.com/lzwjava/live-server) | PHP|660|
-|[live-mobile-web](https://github.com/lzwjava/live-mobile-web) |JavaScript & HTML| 528 |[live-web](https://github.com/lzwjava/live-web) |JavaScript & HTML| 140|
-|[live-wxapp](https://github.com/lzwjava/live-wxapp)|JavaScript|63|[flower-recognition](https://github.com/lzwjava/flower-recognition)|Java|33|
-|[code-review-server](https://github.com/lzwjava/code-review-server)|PHP| 275 |[code-review-web](https://github.com/lzwjava/code-review-web)|JavaScript & HTML| 302|
-| [curiosity-courses](https://github.com/lzwjava/curiosity-courses)|Chinese|215|[lvchensign](https://github.com/lzwjava/lvchensign)|JavaScript|40|
-| [feynman-lectures-mobi](https://github.com/lzwjava/feynman-lectures-mobi) |Python|47| [Creak](https://github.com/lzwjava/Creak)|Swift|49|
-|[Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub) |Objective-C|56| [Keynotes](https://github.com/lzwjava/Keynotes)|Chinese |32|
-|[weimg-server](https://github.com/lzwjava/weimg-server)|PHP|35|[weimg-ios](https://github.com/lzwjava/weimg-ios)|Objective-C|77|
+# Hi, I'm Zhiwei Li 👋
+
+📍 **China** | 💻 **Full-Stack & AI Engineer** | ✍️ **Blogger & Lifelong Learner** | 🌐 **[Website](https://lzwjava.github.io)** | 📋 **[Portfolio](https://lzwjava.github.io/portfolio-en)**
+
+> Chasing truth, freedom, and the joy of building things.
+
+- 🧮 **[algorithm-solutions](https://github.com/lzwjava/algorithm-solutions)** - Solutions to 1000+ algorithm problems from UVa, Codeforces, LeetCode, and HackerRank
+- 💬 **[leanchat-android](https://github.com/lzwjava/leanchat-android)** - Android demo app showcasing LeanCloud real-time messaging
+- 🖼️ **[LZAlbum](https://github.com/lzwjava/LZAlbum)** - iOS Moments-like app demonstrating LeanCloud one-to-many relationships
+- 💬 **[leanchat-ios](https://github.com/lzwjava/leanchat-ios)** - iOS demo app showcasing LeanCloud real-time messaging
+- ✍️ **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** - Personal blog with thoughts, essays, and code on pursuing freedom and truth
+- 🎙️ **[live-server](https://github.com/lzwjava/live-server)** - PHP backend for Fun Live, a knowledge live broadcast platform
+- 📱 **[live-mobile-web](https://github.com/lzwjava/live-mobile-web)** - Mobile web frontend for Fun Live knowledge broadcast platform
+- 🌐 **[live-web](https://github.com/lzwjava/live-web)** - Desktop web frontend for Fun Live knowledge broadcast platform
+- 🐾 **[live-wxapp](https://github.com/lzwjava/live-wxapp)** - WeChat mini-program for Fun Live knowledge live broadcast platform
+- 🌸 **[flower-recognition](https://github.com/lzwjava/flower-recognition)** - Android app to identify flowers by capturing and annotating photos
+- 🔍 **[code-review-server](https://github.com/lzwjava/code-review-server)** - Backend for a professional code review and sharing platform
+- 🔍 **[code-review-web](https://github.com/lzwjava/code-review-web)** - Frontend for a professional code review and sharing platform
+- 📚 **[curiosity-courses](https://github.com/lzwjava/curiosity-courses)** - Chinese programming courses focused on curiosity-driven learning
+- 🪧 **[lvchensign](https://github.com/lzwjava/lvchensign)** - Website for LvchenSign, an advertising signage company
+- 📖 **[feynman-lectures-mobi](https://github.com/lzwjava/feynman-lectures-mobi)** - Converts Feynman Lectures HTML pages to MOBI e-book format
+- 🕸️ **[Creak](https://github.com/lzwjava/Creak)** - Elegant HTML parser written in Swift
+- 🔗 **[Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub)** - Xcode plugin for quick navigation to GitHub History, Blame, PRs, and Issues
+- 🎤 **[Keynotes](https://github.com/lzwjava/Keynotes)** - Tech talk slides on Git advanced operations, WebSocket, UnitTest, and live streaming
+- 🖼️ **[weimg-server](https://github.com/lzwjava/weimg-server)** - PHP backend for WeImg, an internet meme and entertainment discovery app
+- 🖼️ **[weimg-ios](https://github.com/lzwjava/weimg-ios)** - iOS app for WeImg, an internet meme and entertainment discovery app
