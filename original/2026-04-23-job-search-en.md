@@ -78,6 +78,7 @@ I am flexible and open to multiple engineering directions:
 * Backend Engineer (AI-related systems or platform engineering)
 * Full-Stack Engineer (AI product integration / SaaS platforms)
 * Distributed Systems / Platform Engineer (AI infrastructure)
+* Full-Stack Java Engineer (Global Banks / Financial Systems)
 
 I am not limited to pure research roles — I focus on **building real systems and shipping products**.
 
