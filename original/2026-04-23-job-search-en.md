@@ -23,8 +23,10 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 * 12 years of engineering experience across iOS, Android, frontend, backend, and AI
 * Worked across diverse domains: live-streaming startup, cloud computing startup, China internet products, and financial systems / digital banking apps of Singapore & Hong Kong
 * Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
-* 2011 NOIP Guangdong 1st prize (Guangzhou round 1), advanced to round 2
+* Age 16: 2011 NOIP Guangdong province, top 300 provincially; 1st prize (Guangzhou round), advanced to provincial round
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
+* Age 27: received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
+* Age 21: founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
 * Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
 * Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
@@ -51,7 +53,7 @@ Full-stack and backend roles are welcome. My preference is for positions where A
 | Farben Information (outsourced to HSBC PayMe) | Backend Engineer | 2022.11 – 2023.07 |
 | Beyondsoft (outsourced to DBS Bank) | Backend Engineer | 2021.12 – 2022.11 |
 | Freelancer | Full Stack & Consulting | 2020.01 – 2021.11 |
-| Square Root Technology | Founder & Full Stack Engineer | 2016.07 – 2019.12 |
+| Square Root Technology (Fun Live app) | Founder & Full Stack Engineer | 2016.07 – 2019.12 |
 | CodeReview.cn | Co-founder & Full Stack Engineer | 2015.11 – 2016.07 |
 | LeanCloud | Software Engineer | 2014.07 – 2015.11 |
 
