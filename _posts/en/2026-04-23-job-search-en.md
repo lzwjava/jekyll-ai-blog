@@ -79,10 +79,11 @@ I am flexible and open to multiple engineering directions:
 * Full-Stack Engineer (AI product integration / SaaS platforms)
 * Distributed Systems / Platform Engineer (AI infrastructure)
 * Full-Stack Java Engineer (Global Banks / Financial Systems)
+* Senior Software Engineer (IC track, any of the above domains)
+* Staff Engineer (technical leadership, cross-team scope)
+* Tech Lead (half-lead, half-hands-on; previously managed 4 FTEs and ~20 part-time contractors at my startup)
 
 I am not limited to pure research roles — I focus on **building real systems and shipping products**.
-
-Open to **Tech Lead** roles too — I previously managed 4 full-time employees and ~20 part-time contractors at my startup over 2 years. I lead by example and am comfortable in a half-lead, half-hands-on capacity.
 
 ---
 
