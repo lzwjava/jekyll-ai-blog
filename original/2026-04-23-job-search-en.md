@@ -16,12 +16,13 @@ I’m a software engineer with 10+ years of experience across backend systems, f
 
 ## 📌 Highlights
 
+* 12 years of engineering experience across iOS, Android, frontend, backend, and AI
 * Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
 * 2011 NOIP Guangdong 1st prize (Guangzhou round 1), advanced to round 2
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
-* Trained GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
-* Built ww (CLI toolkit) and iclaw (AI coding REPL for enterprise environments); ~29 active OpenClaw/Hermes agent sessions
+* Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
+* Built ww (CLI toolkit) and iclaw (AI coding REPL for enterprise environments)
 * Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
 
 ---
