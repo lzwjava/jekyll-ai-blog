@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: job-search
+title: Open to Work — AI & Engineering Roles
 translated: false
 ---
 
@@ -14,7 +14,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 12 years of experience across backend systems, full-stack development, and cloud-based distributed architectures. In recent years, I have been actively transitioning into AI and Large Language Model engineering, with hands-on experience in LLM experimentation (including nanoGPT-style training), LLM application development using APIs (OpenAI / OpenRouter / Claude), and building AI-enabled systems.
+I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1 billion tokens via LLM APIs, building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
 
 ---
 
@@ -23,11 +23,13 @@ I’m a software engineer with 12 years of experience across backend systems, fu
 * 12 years of engineering experience across iOS, Android, frontend, backend, and AI
 * Worked across diverse domains: live-streaming startup, cloud computing startup, China internet products, and financial systems / digital banking apps of Singapore & Hong Kong
 * Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
-* 2011 NOIP Guangdong 1st prize (Guangzhou round 1), advanced to round 2
+* Age 16: 2011 NOIP Guangdong province, top 300 provincially; 1st prize (Guangzhou round), advanced to provincial round
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
+* Age 27: received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
+* Age 21: founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
 * Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
-* Built ww (CLI toolkit) and iclaw (AI coding REPL for enterprise environments)
+* Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
 * Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
 
 ---
@@ -51,7 +53,7 @@ Full-stack and backend roles are welcome. My preference is for positions where A
 | Farben Information (outsourced to HSBC PayMe) | Backend Engineer | 2022.11 – 2023.07 |
 | Beyondsoft (outsourced to DBS Bank) | Backend Engineer | 2021.12 – 2022.11 |
 | Freelancer | Full Stack & Consulting | 2020.01 – 2021.11 |
-| Square Root Technology | Founder & Full Stack Engineer | 2016.07 – 2019.12 |
+| Square Root Technology (Fun Live app) | Founder & Full Stack Engineer | 2016.07 – 2019.12 |
 | CodeReview.cn | Co-founder & Full Stack Engineer | 2015.11 – 2016.07 |
 | LeanCloud | Software Engineer | 2014.07 – 2015.11 |
 
@@ -78,6 +80,8 @@ I am flexible and open to multiple engineering directions:
 * Distributed Systems / Platform Engineer (AI infrastructure)
 
 I am not limited to pure research roles — I focus on **building real systems and shipping products**.
+
+Open to **Tech Lead** roles too — I previously managed 4 full-time employees and ~20 part-time contractors at my startup over 2 years. I lead by example and am comfortable in a half-lead, half-hands-on capacity.
 
 ---
 
