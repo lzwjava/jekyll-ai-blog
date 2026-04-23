@@ -14,25 +14,46 @@ I’m a software engineer with 10+ years of experience across backend systems, f
 
 ---
 
-## 📌 Additional Highlights
+## 📌 Highlights
 
-* 10+ open-source GitHub projects (500+ commits each)
-* ~400 technical blog posts on engineering and AI topics; ~8,000 AI answer notes
-* Trained GPT-2 124M with nanoGPT on H200 GPU (DigitalOcean, $3.44/hr); experimented with FineWeb 60GB dataset
-* ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
-* Built ww (cross-platform CLI toolkit with LLM-powered helpers) and iclaw (AI coding REPL for enterprise-constrained environments)
-* Running ~29 active OpenClaw/Hermes agent sessions for personal automation
-* Self-taught researcher — 3 academic-style papers on natural vision restoration; reversed myopia from 350 → 250 diopters over 3 years
+* Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
 * 2011 NOIP Guangdong 1st prize (Guangzhou round 1), advanced to round 2
+* Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
+* 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
+* Trained GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
+* Built ww (CLI toolkit) and iclaw (AI coding REPL for enterprise environments); ~29 active OpenClaw/Hermes agent sessions
+* Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
 
 ---
 
-## 🧬 Background
+## 🔍 Why I'm Looking
 
-* Born 1995, male, Chinese citizen, based in Guangzhou
-* Top 300 in Guangdong NOIP 2011 (competitive programming)
-* Enrolled at Beijing Forestry University (Digital Media Arts, 2013–2014), dropped out after one year
-* Currently pursuing an Associate Degree in Computer Application at Guangdong University of Foreign Studies via self-study exam — 13 of 17 courses passed
+I'm currently employed — my 1-year contract was extended and my performance has been strong. I'm ranked in the top 20% among contractors at my vendor, and my AI assistant usage ranks in the top 6% globally at my current employer. Full-stack and backend work is fine, but I'm actively looking for roles where AI, agents, and LLM research are central — not side projects. I want my main job to be building the things I've been experimenting with after hours.
+
+---
+
+## 🏢 Work Experience
+
+| Company | Role | Period |
+|---------|------|--------|
+| Global IT firm → Global UK bank (contractor) | Backend Engineer | 2025.02 – Present |
+| Freelancer | ML & AI Projects | 2023.08 – 2025.01 |
+| Farben Information (outsourced to HSBC PayMe) | Backend Engineer | 2022.11 – 2023.07 |
+| Beyondsoft (outsourced to DBS Bank) | Backend Engineer | 2021.12 – 2022.11 |
+| Freelancer | Full Stack & Consulting | 2020.01 – 2021.11 |
+| Square Root Technology | Founder & Full Stack Engineer | 2016.07 – 2019.12 |
+| CodeReview.cn | Co-founder & Full Stack Engineer | 2015.11 – 2016.07 |
+| LeanCloud | Software Engineer | 2014.07 – 2015.11 |
+
+---
+
+## 🎓 Education
+
+| School | Major | Period |
+|--------|-------|--------|
+| Guangdong University of Foreign Studies | Computer Application, Associate Degree (Self-study, 13/17 courses passed) | 2022.10 – Present |
+| Beijing Forestry University | Digital Media Arts, Bachelor (Dropout) | 2013.09 – 2014.06 |
+| Guangzhou Yuyan Middle School | Science Track | 2007.07 – 2013.06 |
 
 ---
 
@@ -70,42 +91,13 @@ Open to:
 
 ---
 
-## 💰 Compensation Expectation (Total Package)
+## 💰 Compensation Expectation
 
-I am flexible depending on scope, responsibility, and growth potential.
+Flexible depending on scope, responsibility, and growth potential.
 
-### 🇨🇳 Mainland China (Big Cities)
-
-* Expected base salary: **30,000 – 50,000 CNY/month**
-* Total annual compensation target: **400,000 – 700,000+ CNY/year**
-
-Typical structure:
-
-* Base salary (e.g. 30k–40k/month)
-* Annual bonus (if applicable)
-* Social insurance + housing fund (varies by company policy)
-
----
-
-### 🇭🇰 Hong Kong
-
-* Expected: **~40,000 HKD/month or above (total package)**
-* Flexible depending on:
-
-  * bonus structure
-  * MPF contributions
-  * role scope (AI / backend / full-stack hybrid)
-
----
-
-### 🇸🇬 Singapore
-
-* Expected: **~10,000 SGD/month or above**
-* Flexible depending on:
-
-  * AI/ML responsibility level
-  * system ownership
-  * equity / bonus structure (for startups)
+* 🇨🇳 Mainland China: **30,000 – 50,000 CNY/month**
+* 🇭🇰 Hong Kong: **~40,000 HKD/month or above**
+* 🇸🇬 Singapore: **~10,000 SGD/month or above**
 
 ---
 
