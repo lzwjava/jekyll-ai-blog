@@ -8,6 +8,10 @@ title: job-search
 translated: false
 ---
 
+*Note: This post is intended for friends and connections outside my current workplace. If you are a colleague or manager from my current employer, please kindly ignore this post.*
+
+---
+
 Hi, I’m Zhiwei.
 
 I’m a software engineer with 10+ years of experience across backend systems, full-stack development, and cloud-based distributed architectures. In recent years, I have been actively transitioning into AI and Large Language Model engineering, with hands-on experience in LLM experimentation (including nanoGPT-style training), LLM application development using APIs (OpenAI / OpenRouter / Claude), and building AI-enabled systems.
@@ -31,6 +35,8 @@ I’m a software engineer with 10+ years of experience across backend systems, f
 ## 🔍 Why I'm Looking
 
 I'm currently employed with strong performance — top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer. My primary motivation for looking is **compensation improvement**. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
+
+The bank has a contractor-to-permanent conversion policy, but slots are limited and several peers are also in the queue. Progression within my current group is slow despite my best efforts and expressed interest in converting. Looking externally is the more realistic path forward.
 
 Full-stack and backend roles are welcome. My preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
 
@@ -128,8 +134,19 @@ Flexible depending on scope, responsibility, and growth potential.
 
 ---
 
-* GitHub: [github.com/lzwjava](https://github.com/lzwjava)
-* Blog: [lzwjava.github.io](https://lzwjava.github.io)
-* Portfolio: [lzwjava.github.io/portfolio-en](https://lzwjava.github.io/portfolio-en)
+## 🏅 Certificates
+
+* IELTS Academics, Score 6.5
+* Machine Learning Specialization — DeepLearning.AI & Stanford University
+* Deep Learning Specialization — DeepLearning.AI
+* Developing on AWS — AWS Training
+* Beijing Forestry University Dropout Certificate
+* China Higher Education Official Report (Bachelor, Dropout Status)
+
+---
+
+* GitHub: https://github.com/lzwjava
+* Blog: https://lzwjava.github.io
+* Portfolio: https://lzwjava.github.io/portfolio-en
 
 I’m open to discussing any roles where AI, systems engineering, and real product development intersect.
