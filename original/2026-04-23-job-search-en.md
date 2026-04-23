@@ -94,10 +94,11 @@ Open to:
 
 ## 🌍 Location Flexibility
 
-* Beijing / Shanghai / Shenzhen / Guangzhou
-* Hong Kong
-* Singapore
-* Remote (global teams preferred if collaboration is strong)
+* **Shenzhen / Guangzhou** — preferred; open to 5 days/week onsite
+* **Other cities in China** — open to 2–3 days/week in office
+* **Hong Kong** — open, but would require work visa sponsorship
+* **Singapore** — open, but would require work visa sponsorship
+* **Remote** — open, global teams welcome
 
 ---
 
