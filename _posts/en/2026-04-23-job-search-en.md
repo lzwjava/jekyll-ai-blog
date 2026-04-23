@@ -112,9 +112,9 @@ Open to:
 
 Flexible depending on scope, responsibility, and growth potential.
 
-* 🇨🇳 Mainland China: **30,000 – 50,000 CNY/month**
+* 🇨🇳 Mainland China: **30,000 – 45,000 CNY/month**
 * 🇭🇰 Hong Kong: **~40,000 HKD/month or above**
-* 🇸🇬 Singapore: **~10,000 SGD/month or above**
+* 🇸🇬 Singapore: **~9,000 SGD/month or above**
 
 ---
 
