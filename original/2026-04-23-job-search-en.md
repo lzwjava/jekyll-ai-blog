@@ -14,7 +14,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 10+ years of experience across backend systems, full-stack development, and cloud-based distributed architectures. In recent years, I have been actively transitioning into AI and Large Language Model engineering, with hands-on experience in LLM experimentation (including nanoGPT-style training), LLM application development using APIs (OpenAI / OpenRouter / Claude), and building AI-enabled systems.
+I’m a software engineer with 12 years of experience across backend systems, full-stack development, and cloud-based distributed architectures. In recent years, I have been actively transitioning into AI and Large Language Model engineering, with hands-on experience in LLM experimentation (including nanoGPT-style training), LLM application development using APIs (OpenAI / OpenRouter / Claude), and building AI-enabled systems.
 
 ---
 
@@ -129,8 +129,6 @@ Flexible depending on scope, responsibility, and growth potential.
 * English (IELTS 6.5, professional working proficiency)
 * Cantonese (conversational)
 * Comfortable working in both English and Chinese environments
-
----
 
 ---
 
