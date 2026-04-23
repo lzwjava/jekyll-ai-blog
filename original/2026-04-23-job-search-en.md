@@ -17,6 +17,7 @@ I’m a software engineer with 10+ years of experience across backend systems, f
 ## 📌 Highlights
 
 * 12 years of engineering experience across iOS, Android, frontend, backend, and AI
+* Worked across diverse domains: live-streaming startup, cloud computing startup, China internet products, and internal financial systems at Singapore & Hong Kong banks
 * Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
 * 2011 NOIP Guangdong 1st prize (Guangzhou round 1), advanced to round 2
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
