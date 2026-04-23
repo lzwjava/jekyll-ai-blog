@@ -92,7 +92,7 @@ I am not limited to pure research roles — I focus on **building real systems a
 Open to:
 
 * Full-time permanent roles
-* Contract / freelance / project-based roles
+* Contract
 * Startup environments (fast iteration, product ownership)
 * Large enterprises / big tech companies
 
