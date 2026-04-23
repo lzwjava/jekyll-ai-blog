@@ -17,7 +17,7 @@ I’m a software engineer with 10+ years of experience across backend systems, f
 ## 📌 Highlights
 
 * 12 years of engineering experience across iOS, Android, frontend, backend, and AI
-* Worked across diverse domains: live-streaming startup, cloud computing startup, China internet products, and internal financial systems at Singapore & Hong Kong banks
+* Worked across diverse domains: live-streaming startup, cloud computing startup, China internet products, and financial systems / digital banking apps of Singapore & Hong Kong
 * Born 1995, Chinese citizen, based in Guangzhou; IELTS 6.5 (Reading 8.5)
 * 2011 NOIP Guangdong 1st prize (Guangzhou round 1), advanced to round 2
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
@@ -30,7 +30,9 @@ I’m a software engineer with 10+ years of experience across backend systems, f
 
 ## 🔍 Why I'm Looking
 
-I'm currently employed — my 1-year contract was extended and my performance has been strong. I'm ranked in the top 20% among contractors at my vendor, and my AI assistant usage ranks in the top 6% globally at my current employer. Full-stack and backend work is fine, but I'm actively looking for roles where AI, agents, and LLM research are central — not side projects. I want my main job to be building the things I've been experimenting with after hours.
+I'm currently employed with strong performance — top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer. My primary motivation for looking is **compensation improvement**. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
+
+Full-stack and backend roles are welcome. My preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
 
 ---
 
