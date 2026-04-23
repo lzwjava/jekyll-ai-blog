@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: job-search
+title: Open to Work — AI & Engineering Roles
 translated: false
 ---
 
@@ -14,7 +14,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 12 years of experience across backend systems, full-stack development, and cloud-based distributed architectures. In recent years, I have been actively transitioning into AI and Large Language Model engineering, with hands-on experience in LLM experimentation (including nanoGPT-style training), LLM application development using APIs (OpenAI / OpenRouter / Claude), and building AI-enabled systems.
+I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1 billion tokens via LLM APIs, building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
 
 ---
 
@@ -27,7 +27,7 @@ I’m a software engineer with 12 years of experience across backend systems, fu
 * Enrolled at Beijing Forestry University (2013–2014), dropped out; pursuing Associate Degree via self-study — 13 of 17 courses passed
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
 * Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
-* Built ww (CLI toolkit) and iclaw (AI coding REPL for enterprise environments)
+* Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
 * Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
 
 ---
@@ -78,6 +78,8 @@ I am flexible and open to multiple engineering directions:
 * Distributed Systems / Platform Engineer (AI infrastructure)
 
 I am not limited to pure research roles — I focus on **building real systems and shipping products**.
+
+Open to **Tech Lead** roles too — I previously managed 4 full-time employees and ~20 part-time contractors at my startup over 2 years. I lead by example and am comfortable in a half-lead, half-hands-on capacity.
 
 ---
 
