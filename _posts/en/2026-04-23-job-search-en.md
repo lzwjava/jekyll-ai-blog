@@ -82,6 +82,8 @@ I am flexible and open to multiple engineering directions:
 * Senior Software Engineer (IC track, any of the above domains)
 * Staff Engineer (technical leadership, cross-team scope)
 * Tech Lead (half-lead, half-hands-on; previously managed 4 FTEs and ~20 part-time contractors at my startup)
+* Member of Technical Staff (MTS) — individual contributor at any level
+* Early Founding Member / Founding Engineer at an AI-focused startup
 
 I am not limited to pure research roles — I focus on **building real systems and shipping products**.
 

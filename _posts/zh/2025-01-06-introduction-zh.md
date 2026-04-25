@@ -4,37 +4,38 @@ generated: false
 image: false
 lang: zh
 layout: post
-title: 智维的个人介绍
+title: 智维的简介
 translated: true
 type: post
 ---
 
-您可在此处下载我使用LaTeX制作的个人介绍PDF版本：英文版[点击下载](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)，中文版[点击下载](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)。
+你可以下载由 LaTeX 制作的我的简介 PDF 版本，[此处](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) 为英文版，[此处](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) 为中文版。
 
 ---
 
-- 基本信息：男性，1995年出生，中国籍，现居广州
-- 编程竞赛经历：2011年广东NOIP省赛前300名，在线解决约1000道算法题目，记录详见[UVa在线评测系统](https://uhunt.onlinejudge.org/id/113519)
-- 教育背景：曾就读[北京林业大学](https://www.bjfu.edu.cn)一年，后通过自主学习完成[广东外语外贸大学](https://www.gdufs.edu.cn)专科段九门课程，剩余七门备考中
-- 职业经历：
-  - [TEKsystems](https://www.teksystems.com)（外派至[汇丰银行](https://www.hsbc.com)）：担任后端工程师，运用Copilot并定制开发智能代理，参与汇丰企业科技部门后端系统建设
-  - [法本信息](https://www.farben.com.cn)（外派至汇丰银行）：参与开发[汇丰PayMe](https://payme.hsbc.com.hk)移动支付服务，支持商户收款、个人转账及信用卡/本地银行账户绑定功能
-  - [博彦科技](https://www.beyondsoft.com)（外派至星展银行）：参与AI数据驱动的客户关系管理平台DBS Client Connect及[星展数字银行中国版](https://www.dbs.com/digibank/in/default.page)建设，助力打造更便捷的移动银行体验
-  - [北京平方根](https://lzwjava.github.io/profit-en)：创立知识直播平台*趣直播*，一年内吸引3万用户；转型软件咨询后为猿辅导、江苏卫视、粉笔教育、北二外等客户完成50余项目，兼任项目经理与软件工程师，创造300万元营收与60万元利润
-  - [LeanCloud](https://www.leancloud.cn)：参与云端服务的iOS/Android开发，涵盖对象存储、文件存储、网页托管、容器化、即时通讯、推送及短信服务
-- 经验总结：
-  - 11年专业经验（8年企业任职+3年自由职业）
-  - 专业领域：
-    - 移动开发：2年（Android、iOS）
-    - 全栈开发：8年（7年后端+1年前端）
-    - 机器学习与大数据：1年
-  - 精通国内外云平台（阿里云、谷歌云、Azure、AWS、腾讯云）
-- 语言能力：中文母语，英语流利（雅思6分）
-- 学习理念：热衷于从基础算法到数十微服务架构的大型应用，乃至GPT与Transformer等前沿AI技术的理论与实践结合
-- 阅读积累：研读320余本书籍，涵盖教材、个人成长、商业、科技与历史等领域
-- 开源贡献：在[GitHub](https://github.com/lzwjava)主导10个开源项目，单项目提交均超500次
-- 自主研究：受Todd Becker与王垠启发，开展近视逆转与自然视力恢复研究，历经三年实践验证
-- 项目集锦：主导或参与开发[20个项目](https://lzwjava.github.io/portfolio-en)，涵盖初创项目、个人兴趣作品及大型企业级应用
-- 技术写作：撰写约[460篇技术博客](https://lzwjava.github.io)，内容涉及编程、软件开发与创业，月均访问量1.5万次
-- 生活革新：热衷实践创新，尝试高性价比科技方案，女儿2岁时即引入英文动画；精通Arduino、树莓派Pico等开发板实战项目
-- 媒体报道：曾获[铅笔道](https://www.pencilnews.cn/p/13402.html)与[猎云网](https://lieyunpro.com/archives/290646)专题报道
+- **基本信息**：男，1995年出生，中国籍，现居广州。
+- **竞赛编程经历**：2011年广东省NOIP排名前300，在线解决约1000道算法问题，记录于 [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)。  
+- **教育背景**：在[北京林业大学](https://www.bjfu.edu.cn)学习一年后，通过自学在[广东外语外贸大学](https://www.gdufs.edu.cn)攻读并完成副学士学位，成功修完13门课程。
+- **职业经历**：
+  - **[TEKsystems](https://www.teksystems.com)**（外派至[汇丰银行](https://www.hsbc.com)）：担任后端工程师，利用Copilot并构建定制化代理，在汇丰企业科技部门内开发后端系统。
+  - **[法本信息](https://www.farben.com.cn)**（外派至汇丰银行）：参与开发[汇丰PayMe](https://payme.hsbc.com.hk)，这是一项移动支付服务，支持用户向商户付款、向他人转账，并可将应用与信用卡或本地银行账户关联。
+  - **[博彦科技](https://www.beyondsoft.com)**（外派至星展银行）：参与开发DBS Client Connect（一个以AI和数据驱动的客户关系管理平台）以及[DBS Digibank CN](https://www.dbs.com/digibank/in/default.page)，协助平台重构以提供更快、更便捷的移动银行体验。  
+  - **[北京平方根](https://lzwjava.github.io/profit-en)**：创立了知识直播平台*趣直播*，一年内吸引了3万用户。后转型软件咨询，为猿辅导、江苏卫视、粉笔教育、北京第二外国语学院等客户管理了50多个项目。兼任项目经理与软件工程师，创造了300万元人民币收入和60万元利润。  
+  - **[LeanCloud](https://www.leancloud.cn)**：参与云服务的iOS和Android开发，涵盖对象存储、文件存储、Web托管、容器化、即时通讯、推送通知和短信服务。
+- **经验总结**：  
+  - 11年专业经验，包括8年企业任职和3年自由职业。  
+  - 专长领域：  
+    - **移动端开发**：2年（Android、iOS）。  
+    - **全栈开发**：8年（7年后端，1年前端）。  
+    - **机器学习与大数据**：1年。  
+  - 熟练使用国内外云平台，包括阿里云、谷歌云、Azure、AWS和腾讯云。  
+- **语言能力**：中文母语，英语熟练（雅思6.5分）。  
+- **学习方法**：热衷于从基础算法到涉及数十个微服务的大型应用，再到如GPT和基于Transformer的AI等前沿技术的学习。注重理论知识与实践经验的结合。
+- **阅读**：阅读超过320本书籍，涵盖教材、个人成长、商业、科技和历史等主题。  
+- **开源贡献**：在 [GitHub](https://github.com/lzwjava) 上开发了10个开源项目，每个项目提交超过500次。 
+- **研究**：受Todd Becker和王垠的启发，自主研究逆转近视与自然视力恢复方法，并进行了三年的实验验证。  
+- **AI实践**：在RTX 4070上训练GPT-2-124M（nanoGPT）历时5天，并实验了H200 GPU。使用OpenRouter和Claude Code构建个人AI项目，过去一年消耗了约10亿tokens。
+- **项目作品集**：参与或主导开发了 [20个项目](https://lzwjava.github.io/portfolio-en)，涵盖创业项目、个人兴趣项目及大型企业项目。
+- **写作**：撰写了约 [431篇原创博客文章](https://lzwjava.github.io)，内容涉及编程、软件开发和创业等，月均吸引约7.5万页面浏览量。利用大语言模型将内容翻译为9种语言，提供文本转语音音频，支持PDF和EPUB格式，集成GitHub工作流，并使用LaTeX撰写论文和制作简历。
+- **生活技巧与兴趣**：创新实用解决方案，尝试经济实惠的小工具，并在女儿2岁时引入英文动画。技术爱好者，使用Arduino、Raspberry Pi Pico和面包板进行动手实践项目。
+- **媒体报道**：曾受[铅笔道报道](https://www.pencilnews.cn/p/13402.html)和[猎云网报道](https://lieyunpro.com/archives/290646)。
