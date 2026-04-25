@@ -14,7 +14,7 @@ Below are group rules of one chat group I am running.
 
 Group Rules (Updated: 2026-04-25):
 
-1. This is a community focused on AI, coding, and lifelong learning. Topics include but are not limited to: AI, LLM, ML, DL, vibe coding, AI tools, AI usage, AI + full stack, AI + various domains, English learning, and beyond.
+1. This is a community focused on AI, coding, and lifelong learning. Topics include but are not limited to: AI, LLM, ML, DL, vibe coding, AI tools, AI usage, AI + full stack, AI + various domains, English learning, networking, backend, fullstack, iOS, Android, gaming, life hacking, cybersecurity, and beyond.
 
 2. This is a distributed group. The group owner is just an initiator and helps elect admins; there is no single authority.
 
@@ -28,18 +28,16 @@ Group Rules (Updated: 2026-04-25):
 
 7. The group is open 24/7; avoid @-mentioning others late at night to reduce notifications.
 
-8. qclaw will be added later to enable more automation.
+8. Low ego — truth-seeking debate is normal; focus on ideas, not people.
 
-9. No ego — truth-seeking debate is normal; focus on ideas, not people.
+9. Different viewpoints are welcome; conclusions should be based on experiments, data, and code. However, claims that strongly conflict with mainstream science — such as moon landing conspiracy theories or rejections of relativity (e.g., Yin Wang’s Weibo claims) — should not be promoted in the group.
 
-10. Different viewpoints are welcome; conclusions should be based on experiments, data, and code. However, claims that strongly conflict with mainstream science — such as moon landing conspiracy theories or rejections of relativity (e.g., Yin Wang’s Weibo claims) — should not be promoted in the group.
+10. Sharing is open by default; please remove sensitive or company information when necessary.
 
-11. Sharing is open by default; please remove sensitive or company information when necessary.
+11. Members are free to leave at any time. Before recommending a new member, please communicate with the group owner in advance; there should be mutual understanding and a basic entry bar.
 
-12. Members are free to leave at any time. Before recommending a new member, please communicate with the group owner in advance; there should be mutual understanding and a basic entry bar.
+12. Admins help add new members to the group and introduce them with a brief welcome message so everyone knows who has joined and what they bring.
 
-13. Admins help add new members to the group and introduce them with a brief welcome message so everyone knows who has joined and what they bring.
+13. Content shared in the group is, by default, treated as MIT-licensed; members may reuse it for prompts, notes, or derivative work (state exceptions explicitly).
 
-14. Content shared in the group is, by default, treated as MIT-licensed; members may reuse it for prompts, notes, or derivative work (state exceptions explicitly).
-
-15. When a mistake is made, one needs to compensate by sharing a 10 CNY red packet in the group.
+14. When a mistake is made, one needs to compensate by sharing a 10 CNY red packet in the group.
