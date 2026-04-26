@@ -62,6 +62,14 @@ Professional Code: 510201 (Old Code: 610201)
 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 13833 | Switching and Routing Technologies |
 
+---
+
+## 2026 October Plan (Practical)
+
+| Course Code | Course Name |
+|-------------|-------------|
+| 13168       | Web Design and Production |
+| 14568       | Mobile Application Development Technology |
 
 ---
 
