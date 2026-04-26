@@ -110,6 +110,12 @@ type: post
 
 * I recommend multifocal progressive lenses. Based on your prescription, assuming correct vision is 0.9, the suggestion is to make the additional correction for near vision +1.75 D in myopia (with astigmatism remaining unchanged), while the additional correction for far vision is +1.00 D in myopia (with astigmatism remaining unchanged).
 
+* The core idea is to categorize your life scenarios. Most daily situations don't require perfect vision — we navigate familiar environments without strain. The two main categories are driving (needs full prescription) and phone/computer use (needs −1.50 D undercorrection). Keep two pairs of glasses and be precise about which to use in each situation.
+
+* I personally would not undergo myopia surgery. I haven't tried it and don't fully understand its long-term implications. My experience suggests surgery is unnecessary for most people willing to try the undercorrection approach.
+
+* With glasses reduced by 1.50 D, I have comfortably used phones and computers for 14 hours a day over three years without any eye fatigue — just as natural as wearing full-prescription glasses to see a blackboard clearly. Over those three years, both my myopia and astigmatism have each reduced by roughly 100 degrees.
+
 
 ---
 
