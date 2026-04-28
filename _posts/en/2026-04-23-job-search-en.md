@@ -38,7 +38,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 I'm currently employed with strong performance — top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer. My primary motivation for looking is **compensation improvement**. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
 
-The bank has a contractor-to-permanent conversion policy, but slots are limited and several peers are also in the queue. Progression within my current group is slow despite my best efforts and expressed interest in converting. Looking externally is the more realistic path forward.
+The bank has a contractor-to-permanent conversion policy, but slots are limited and another peer is also in the queue. Progression within my current group is slow despite my best efforts and expressed interest in converting. Looking externally is the more realistic path forward.
 
 Full-stack and backend roles are welcome. My preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
 
