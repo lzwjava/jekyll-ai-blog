@@ -8,12 +8,17 @@ title: GitHub Readme Introduction
 type: post
 ---
 
-# Hi, I'm Zhiwei Li 👋
+# Hi, I'm Zhiwei Li (李智维) 👋
 
 📍 **China** | 💻 **Full-Stack & AI Engineer** | ✍️ **Blogger & Lifelong Learner** | 🌐 **[Website](https://lzwjava.github.io)** | 📋 **[Portfolio](https://lzwjava.github.io/portfolio-en)**
 
-> Chasing truth, freedom, and the joy of building things.
+> AI scientist exploring LLMs, code, and life—chasing truth, freedom, and the joy of building.
 
+## Projects
+
+- 🤖 **[iclaw](https://github.com/lzwjava/iclaw)** - Terminal AI agent that codes, searches, and runs commands, powered by GitHub Copilot
+- 🛠️ **[ww](https://github.com/lzwjava/ww)** - Cross-platform CLI toolkit for git workflows, note management, image/PDF processing, and LLM helpers
+- 🗄️ **[zz](https://github.com/lzwjava/zz)** - Dataset processing and training utilities for machine learning projects
 - 🧮 **[algorithm-solutions](https://github.com/lzwjava/algorithm-solutions)** - Solutions to 1000+ algorithm problems from UVa, Codeforces, LeetCode, and HackerRank
 - 💬 **[leanchat-android](https://github.com/lzwjava/leanchat-android)** - Android demo app showcasing LeanCloud real-time messaging
 - 🖼️ **[LZAlbum](https://github.com/lzwjava/LZAlbum)** - iOS Moments-like app demonstrating LeanCloud one-to-many relationships
