@@ -69,7 +69,8 @@
       "Bash(nmcli:*)",
       "Bash(echo:*)",
       "Bash(claude:*)",
-      "Bash(ANTHROPIC_BASE_URL=\"https://v2-as.pincc.ai\" ANTHROPIC_AUTH_TOKEN=\"$PINCC_API_KEY\" claude --print \"Hello\" 2>&1 | head -20)"
+      "Bash(ANTHROPIC_BASE_URL=\"https://v2-as.pincc.ai\" ANTHROPIC_AUTH_TOKEN=\"$PINCC_API_KEY\" claude --print \"Hello\" 2>&1 | head -20)",
+      "Bash(mkdir -p /Users/lzwjava/projects/blog-source/assets/images/screenshots)"
     ],
     "deny": [],
     "ask": [
