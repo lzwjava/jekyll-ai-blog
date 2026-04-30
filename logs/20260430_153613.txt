@@ -1,0 +1,49 @@
+ackage-lock.json
+
+Your stashed changes are preserved — nothing is lost.
+  Stash ref: 0ea3f0761bf6f97c6241260e37f106a6eea6f801
+Working tree reset to clean state.
+Restore your changes later with: git stash apply 0ea3f0761bf6f97c6241260e37f106a6eea6f801
+  ✓ Cleared 11 stale __pycache__ directories
+
+→ Fetching upstream...
+  ✓ Fork is up to date with upstream
+→ Updating Python dependencies...
+→ Updating Node.js dependencies...
+✅ Browser tools ready. Run: python run_agent.py --help
+
+✓ Code updated!
+
+→ Checking configuration for new options...
+
+
+Would you like to configure them now? [Y/n]: Y
+
+  ✓ Added display.interim_assistant_messages=true
+Config version: 14 → 16
+Traceback (most recent call last):
+  File "/Users/lzwjava/.local/bin/hermes", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/lzwjava/.hermes/hermes-agent/hermes_cli/main.py", line 5923, in main
+    )
+^^^^^^
+  File "/Users/lzwjava/.hermes/hermes-agent/hermes_cli/main.py", line 3926, in cmd_update
+    selected = (
+
+  File "/Users/lzwjava/.hermes/hermes-agent/hermes_cli/config.py", line 2102, in migrate_config
+    },
+
+  File "/Users/lzwjava/.hermes/hermes-agent/hermes_cli/config.py", line 1538, in get_missing_skill_config_vars
+    "prompt": "HF base URL (leave empty for default)",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/.hermes/hermes-agent/agent/skill_utils.py", line 340, in discover_all_skill_config_vars
+    disabled = get_disabled_skill_names()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lzwjava/.hermes/hermes-agent/agent/skill_utils.py", line 148, in get_disabled_skill_names
+    from gateway.session_context import get_session_env
+  File "/Users/lzwjava/.hermes/hermes-agent/gateway/__init__.py", line 13, in <module>
+    from .session import (
+  File "/Users/lzwjava/.hermes/hermes-agent/gateway/session.py", line 66, in <module>
+    from utils import atomic_replace
+ImportError: cannot import name 'atomic_replace' from 'utils' (/Users/lzwjava/.hermes/hermes-agent/utils.py)
