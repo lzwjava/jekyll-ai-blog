@@ -1,0 +1,34 @@
+step 8500: train loss 3.4017, val loss 3.3534
+saving checkpoint to out-fineweb
+iter 8600: loss 3.3418, time 9347.56ms, mfu 13.55%
+iter 8800: loss 3.4952, time 9343.59ms, mfu 13.73%
+step 9000: train loss 3.4108, val loss 3.3528
+saving checkpoint to out-fineweb
+iter 9000: loss 3.3163, time 29105.95ms, mfu 12.85%
+iter 9200: loss 3.4351, time 9336.12ms, mfu 13.10%
+iter 9400: loss 3.0855, time 9339.80ms, mfu 13.33%
+step 9500: train loss 3.4036, val loss 3.3517
+saving checkpoint to out-fineweb
+iter 9600: loss 3.3682, time 9343.96ms, mfu 13.54%
+iter 9800: loss 3.3170, time 9340.07ms, mfu 13.72%
+step 10000: train loss 3.3846, val loss 3.3375
+saving checkpoint to out-fineweb
+iter 10000: loss 3.3047, time 29103.11ms, mfu 12.84%
+iter 10200: loss 3.4135, time 9353.24ms, mfu 13.09%
+iter 10400: loss 3.3328, time 9349.01ms, mfu 13.32%
+step 10500: train loss 3.3709, val loss 3.3151
+saving checkpoint to out-fineweb
+iter 10600: loss 3.3622, time 9342.71ms, mfu 13.53%
+iter 10800: loss 3.0935, time 9338.87ms, mfu 13.71%
+step 11000: train loss 3.3780, val loss 3.3152
+saving checkpoint to out-fineweb
+iter 11000: loss 3.2627, time 29121.10ms, mfu 12.83%
+iter 11200: loss 3.2686, time 9334.87ms, mfu 13.09%
+iter 11400: loss 3.4344, time 9337.67ms, mfu 13.32%
+step 11500: train loss 3.3773, val loss 3.2929
+saving checkpoint to out-fineweb
+iter 11600: loss 3.3588, time 9338.45ms, mfu 13.52%
+iter 11800: loss 3.4218, time 9338.51ms, mfu 13.71%
+step 12000: train loss 3.3565, val loss 3.3308
+saving checkpoint to out-fineweb
+iter 12000: loss 3.4801, time 29148.01ms, mfu 12.83%
