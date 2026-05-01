@@ -19,7 +19,7 @@ Yes, this is generally a **useful improvement**, but it comes with some importan
 
 Using a centralized knowledge entry like:
 
-[https://deepwiki.com/lzwjava/blog-source](https://deepwiki.com/lzwjava/blog-source)
+[https://deepwiki.com/lzwjava/jekyll-ai-blog](https://deepwiki.com/lzwjava/jekyll-ai-blog)
 
 is a strong idea because:
 

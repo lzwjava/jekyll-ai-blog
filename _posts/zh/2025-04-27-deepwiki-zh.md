@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-尝试 DeepWiki: [https://deepwiki.com/lzwjava/blog-source](https://deepwiki.com/lzwjava/blog-source)。
+尝试 DeepWiki: [https://deepwiki.com/lzwjava/jekyll-ai-blog](https://deepwiki.com/lzwjava/jekyll-ai-blog)。
 
 架构图表非常好。
 

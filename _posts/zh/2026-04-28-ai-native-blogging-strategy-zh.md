@@ -19,7 +19,7 @@ type: note
 
 使用像这样的集中式知识入口：
 
-[https://deepwiki.com/lzwjava/blog-source](https://deepwiki.com/lzwjava/blog-source)
+[https://deepwiki.com/lzwjava/jekyll-ai-blog](https://deepwiki.com/lzwjava/jekyll-ai-blog)
 
 是一个很好的想法，因为：
 

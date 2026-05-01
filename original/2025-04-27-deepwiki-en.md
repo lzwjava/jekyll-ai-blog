@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-Try the DeepWiki: [https://deepwiki.com/lzwjava/blog-source](https://deepwiki.com/lzwjava/blog-source).
+Try the DeepWiki: [https://deepwiki.com/lzwjava/jekyll-ai-blog](https://deepwiki.com/lzwjava/jekyll-ai-blog).
 
 The architecture diagrams are quite good.
 
