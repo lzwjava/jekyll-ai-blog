@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-Try the DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).
+Try the DeepWiki: [https://deepwiki.com/lzwjava/blog-source](https://deepwiki.com/lzwjava/blog-source).
 
 The architecture diagrams are quite good.
 

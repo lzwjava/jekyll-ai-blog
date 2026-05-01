@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-尝试 DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io)。
+尝试 DeepWiki: [https://deepwiki.com/lzwjava/blog-source](https://deepwiki.com/lzwjava/blog-source)。
 
 架构图表非常好。
 
