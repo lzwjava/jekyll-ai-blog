@@ -1,0 +1,91 @@
+lzwjava@lzw-mac hermes-agent % hermes update
+⚕ Updating Hermes Agent...
+
+⚠ Updating from fork:
+  https://github.com/NousResearch/Hermes-Agent.git
+
+→ Fetching updates...
+→ Found 48 new commit(s)
+  ✓ Pre-update snapshot: 20260501-020029-pre-update
+→ Pulling updates...
+  ✓ Cleared 5 stale __pycache__ directories
+
+→ Fetching upstream...
+  ✓ Fork is up to date with upstream
+→ Updating Python dependencies...
+→ Updating Node.js dependencies...
+  ✓ repo root
+
+  ⠏⠉                                                         ⠉⢹
+
+    ██╗   ██╗███╗   ██╗██╗ ██████╗ ██████╗ ██████╗ ███████╗
+    ██║   ██║████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗██╔════╝
+    ██║   ██║██╔██╗ ██║██║██║     ██║   ██║██║  ██║█████╗
+    ██║   ██║██║╚██╗██║██║██║     ██║   ██║██║  ██║██╔══╝
+    ╚██████╔╝██║ ╚████║██║╚██████╗╚██████╔╝██████╔╝███████╗
+     ╚═════╝ ╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
+    BRAILLE ANIMATIONS
+
+    ⠧⠀ braille        ⠀⠀⢸⡇ scan           ⠂⠌⡠⠐ rain
+    ⣀⠀ orbit          ⢾⣉⡷⠀ pulse          ⠊⡰⡡⡘ sparkle
+    ⡑⠀ breathe        ⠀⢀⡴⠋ cascade        ⠙⠢⣄⣠ waverows
+    ⠀⠛ snake          ⣿⡇⠀⠀ columns        ⣉⡱⣉⡱ helix
+    ⣿⣿ fillsweep      ⠓⠓⠓⠀ scanline       ⠠⠐⠈⠁ braillewave
+    ⣿⡿ diagswipe      ⡪⡪⡪⠀ checkerboard   ⠉⠙⠚⠒ dna
+
+    npx unicode-animations                  demo all spinners
+    npx unicode-animations --list           list all spinners
+    npx unicode-animations --web              open in browser
+
+  ⣇⣀                                                         ⣀⣸
+
+  ✓ ui-tui
+→ Building web UI...
+
+  ⠏⠉                                                         ⠉⢹
+
+    ██╗   ██╗███╗   ██╗██╗ ██████╗ ██████╗ ██████╗ ███████╗
+    ██║   ██║████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗██╔════╝
+    ██║   ██║██╔██╗ ██║██║██║     ██║   ██║██║  ██║█████╗
+    ██║   ██║██║╚██╗██║██║██║     ██║   ██║██║  ██║██╔══╝
+    ╚██████╔╝██║ ╚████║██║╚██████╗╚██████╔╝██████╔╝███████╗
+     ╚═════╝ ╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
+    BRAILLE ANIMATIONS
+
+    ⠦⠀ braille        ⠀⠀⣿⠀ scan           ⢁⠂⠔⠈ rain
+    ⢠⠀ orbit          ⠰⣿⠆⠀ pulse          ⡡⠊⢔⠡ sparkle
+    ⠌⠀ breathe        ⠀⣠⠞⠁ cascade        ⠢⣄⣠⡠ waverows
+    ⠈⠙ snake          ⣿⡆⠀⠀ columns        ⢎⣉⢎⣉ helix
+    ⣿⣿ fillsweep      ⠉⠉⠉⠀ scanline       ⢀⠠⠐⠈ braillewave
+    ⣿⠟ diagswipe      ⢕⢕⢕⠀ checkerboard   ⠋⠉⠙⠚ dna
+
+    npx unicode-animations                  demo all spinners
+    npx unicode-animations --list           list all spinners
+    npx unicode-animations --web              open in browser
+
+  ⣇⣀                                                         ⣀⣸
+
+  ✓ Web UI built
+
+✓ Code updated!
+
+→ Syncing bundled skills...
+  + 2 new: kanban-worker, kanban-orchestrator
+
+→ Checking configuration for new options...
+
+
+Would you like to configure them now? [Y/n]: Y
+
+  ✓ Migrated compression.summary_* → auxiliary.compression: model=google/gemini-3-flash-preview
+  ✓ Plugins now opt-in: no existing plugins to grandfather. Use `hermes plugins enable <name>` to activate.
+  ✓ Seeded curator defaults in config.yaml: enabled, interval_hours, min_idle_hours, stale_after_days, archive_after_days
+  ✓ Seeded auxiliary.curator defaults in config.yaml: provider, model, base_url, api_key, timeout, extra_body
+Config version: 16 → 23
+
+✓ Configuration updated!
+
+✓ Update complete!
+
+Tip: You can now select a provider and model:
+  hermes model              # Select provider and model
