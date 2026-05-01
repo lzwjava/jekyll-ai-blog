@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var lastShown = localStorage.getItem("donatePopup");
     var now = new Date().getTime();
-    var duration = 10 * 60 * 1000; // 10 minutes in milliseconds
+    var duration = 1 * 60 * 1000; // 1 minute in milliseconds
 
     function showPopup() {
         if (confirm("Donate to support the author?\n捐赠支持作者？")) {
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("donatePopup", now);
     }
 
-    var timeout = 5 * 60 * 1000;
+    var timeout = 1 * 60 * 1000;
 
     if (document.title !== "Donate") {
         if (!lastShown) {
