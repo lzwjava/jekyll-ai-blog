@@ -18,7 +18,7 @@ Group Rules (Updated: 2026-04-25):
 
 2. Firsthand knowledge is most valued here — share your real doubts, requirements, mistakes, experiences, and trial-and-error journeys. Knowledge that conflicts with or improves upon what AI models know is especially welcome, as it helps push the frontier beyond what robots already have.
 
-3. The core purpose of this group is 'mutual progress.' Please minimize sharing content related to material enjoyments—such as buying homes, upgrading cars, or luxury consumption—to maintain a harmonious group atmosphere and avoid unnecessary comparisons and negative emotions.
+3. Please minimize sharing content related to material enjoyments—such as buying homes, upgrading cars, or luxury consumption—to maintain a harmonious group atmosphere and avoid unnecessary comparisons and negative emotions.
 
 4. Different viewpoints are welcome, but conclusions should be based on experiments, data, and code — raw, unverified observations are not welcome. Claims that strongly conflict with mainstream science (e.g., moon landing conspiracy theories, rejections of relativity) should be taken to direct messages, not promoted in the group. Exception: sharing about reversing myopia is welcome.
 
