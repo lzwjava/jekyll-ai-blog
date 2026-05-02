@@ -289,7 +289,7 @@ Chongding is a mobile trivia app similar to HQ Trivia, allowing users to partici
 **Responsibilities:**
 - Developed backend services and admin panel frontend.
 - Designed and implemented real-time trivia game functionalities.
-- Contributed to the technical solution for synchronizing live streaming with game events using SEI (Supplemental Enhancement Information).
+- Contributed a bit for the discussion of the technical architecture to synchronize live streaming with game events using SEI (Supplemental Enhancement Information).
 
 <div align="center">
 
