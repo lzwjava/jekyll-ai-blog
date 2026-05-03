@@ -45,3 +45,14 @@ Group Rules (Updated: 2026-04-25):
 15. Content shared in the group is, by default, treated as MIT-licensed; members may reuse it for prompts, notes, or derivative work (state exceptions explicitly).
 
 16. When a mistake is made, one needs to compensate by sharing a 10 CNY red packet in the group.
+
+---
+
+Networking tips:
+
+* Add a few people at a time (start with active members)
+* Include a short intro + clear reason
+* Keep messages brief and relevant
+* Focus on exchanging value, not small talk
+* Respect others’ time; no reply is okay
+* Small initiative → real opportunities
