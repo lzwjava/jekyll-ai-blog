@@ -54,6 +54,5 @@ Networking tips:
 * Include a short intro + clear reason
 * Keep messages brief and relevant
 * Focus on exchanging value, not small talk
-* No spam or mass-adding
 * Respect others’ time; no reply is okay
 * Small initiative → real opportunities
