@@ -14,7 +14,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1 billion tokens via LLM APIs, building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
+I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1.5 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
 
 ---
 
@@ -28,9 +28,52 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 * Founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
 * Received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
-* Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
+* Trained GPT-2 124M with nanoGPT twice (RunPod H200, DigitalOcean H100, home RTX 4070); ~1.5 billion tokens consumed via OpenRouter & other LLM providers in the past year (~500M last month)
 * Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
 * Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
+
+---
+
+## 🤖 AI Projects
+
+### Model Training
+
+- Trained **GPT-2 124M** from scratch twice using nanoGPT on the FineWeb dataset — once on a **RunPod H200**, once on a **DigitalOcean H100**; also ran experiments on a home server with an **RTX 4070**.
+- Used **zz** (dataset processing & training utilities) to download, extract, and analyze FineWeb data; scripts cover dataset download, parquet extraction, training duration calculation, and metric evaluation.
+- Completed **Machine Learning Specialization** (DeepLearning.AI & Stanford University) and **Deep Learning Specialization** (DeepLearning.AI) on Coursera.
+
+### Personal AI Projects
+
+- **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — Built an AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows.
+- **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — Personal blog and knowledge base with ~400 original posts and ~8,000 AI answer notes; ~70,000 page views in the past month (Cloudflare Analytics), with Singapore as the top visitor country.
+- **[ww](https://github.com/lzwjava/ww)** — Cross-platform CLI toolkit for developer productivity: git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
+- **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; designed for both personal machines and locked-down enterprise environments with no IDE plugins required.
+- **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects: FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.
+- **[live-server](https://github.com/lzwjava/live-server)** — Used OpenClaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
+
+### Open Source Contributions to Others' Projects
+
+- **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (1 PR) — Contributed to a friend's Tree-of-Thought reasoning system; added OpenAI-compatible requester and `python-dotenv` config.
+
+
+### LLM API Usage
+
+- Consumed ~**1.5 billion tokens** via OpenRouter and other LLM providers in the past year; ~**500 million tokens** in the past month alone — reflecting deep, daily hands-on use of LLMs for coding, research, and automation.
+
+---
+
+## Open Source & Blog & Codeforces (2013 – Present)
+
+- Explore my open-source projects, corporate initiatives, and personal side projects on GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
+- **algorithm-solutions** — Solutions to algorithm problems, 2466 commits, Java
+- **lzwjava.github.io** — Personal blog, 500 commits, English & Chinese; ~70,000 page views/month (Cloudflare Analytics)
+- **jekyll-ai-blog** — AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows
+- **ww** — Cross-platform CLI toolkit: AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, and LLM-powered helpers
+- **iclaw** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously; supports GitHub Copilot (OAuth) and OpenRouter; works in locked-down enterprise environments with no IDE plugins
+- **zz** — Dataset processing & training utilities for ML projects; used during GPT-2 nanoGPT training runs on H200/H100/RTX 4070
+- **live-server** — Backend of a knowledge live broadcast platform, 660 commits, PHP
+- **leanchat-ios** — iOS chat application, 556 commits, Objective-C
+- Codeforces: [https://codeforces.com/profile/lzwjava](https://codeforces.com/profile/lzwjava)
 
 ---
 
@@ -56,6 +99,16 @@ Full-stack and backend roles are welcome. My preference is for positions where A
 | Square Root Technology (Fun Live app) | Founder & Full Stack Engineer | 2016.07 – 2019.12 |
 | CodeReview.cn | Co-founder & Full Stack Engineer | 2015.11 – 2016.07 |
 | LeanCloud | Software Engineer | 2014.07 – 2015.11 |
+
+### TEKsystems → HSBC Bank, AI Engineer (Contractor), 2025.02 – Present
+
+- AI Engineer outsourced to HSBC Bank, leveraging Copilot and its API to accelerate backend development for the Finance Transformation Platform in HSBC's Enterprise Technology Department.
+- Maintained financial data processing features (import, validation, export) and enhanced submission/approval workflows; gained hands-on experience with accounting, ledger, and banking systems.
+- Participated in the full development lifecycle — local development through UAT to production. Helped decommission legacy WebSphere apps, automated releases with Ansible and Jenkins, and assisted in a major Angular upgrade.
+- Led integration and API testing, using the Copilot API to auto-generate ~70 test cases covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+- Built a personal AI agent layer — 20 customized agents, 400 reusable scripts, and 1,100 Copilot-written guides — to automate scripting, logging, and documentation; ranked **top 6% in Copilot usage** globally (premium requests metric).
+- Joined HSBC's internal AI community; earned a Contribution Award for the AIPlayer project. Explored AI after hours: nanoGPT training on H200/RTX 4070, personal projects via OpenRouter and Claude Code, and study of llama.cpp, Transformers, and reasoning techniques.
+- Stack: Java, Spring, IBM Db2, Maven, Angular, Python, HashiCorp Vault, Ansible, Control-M, IBM WebSphere Liberty Profile, Copilot.
 
 ---
 
@@ -103,7 +156,7 @@ Open to:
 ## 🌍 Location Flexibility
 
 * **Shenzhen / Guangzhou** — preferred; open to 5 days/week onsite
-* **Other cities in China** — open to 2–3 days/week in office
+* **Other cities in China** — prefer 2–3 days/week in office; open to 5 days/week if salary is more competitive
 * **Hong Kong** — open, but would require work visa sponsorship
 * **Singapore** — open, but would require work visa sponsorship
 * **Remote** — open, global teams welcome
