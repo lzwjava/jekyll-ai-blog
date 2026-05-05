@@ -51,7 +51,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ### Open Source Contributions & Upgrades
 
-- **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (PR) — Added OpenAI-compatible requester and `python-dotenv` config to an external Tree-of-Thought reasoning system for physics problem solving.
+- **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (1 PR) — Contributed to a friend's Tree-of-Thought reasoning system; added OpenAI-compatible requester and `python-dotenv` config.
 - **[live-server](https://github.com/lzwjava/live-server)** — Used OpenClaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
 
 ### LLM API Usage
