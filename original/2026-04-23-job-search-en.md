@@ -83,6 +83,16 @@ Full-stack and backend roles are welcome. My preference is for positions where A
 | CodeReview.cn | Co-founder & Full Stack Engineer | 2015.11 – 2016.07 |
 | LeanCloud | Software Engineer | 2014.07 – 2015.11 |
 
+### TEKsystems → HSBC Bank, AI Engineer (Contractor), 2025.02 – Present
+
+- AI Engineer outsourced to HSBC Bank, leveraging Copilot and its API to accelerate backend development for the Finance Transformation Platform in HSBC's Enterprise Technology Department.
+- Maintained financial data processing features (import, validation, export) and enhanced submission/approval workflows; gained hands-on experience with accounting, ledger, and banking systems.
+- Participated in the full development lifecycle — local development through UAT to production. Helped decommission legacy WebSphere apps, automated releases with Ansible and Jenkins, and assisted in a major Angular upgrade.
+- Led integration and API testing, using the Copilot API to auto-generate ~70 test cases covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+- Built a personal AI agent layer — 20 customized agents, 400 reusable scripts, and 1,100 Copilot-written guides — to automate scripting, logging, and documentation; ranked **top 6% in Copilot usage** globally (premium requests metric).
+- Joined HSBC's internal AI community; earned a Contribution Award for the AIPlayer project. Explored AI after hours: nanoGPT training on H200/RTX 4070, personal projects via OpenRouter and Claude Code, and study of llama.cpp, Transformers, and reasoning techniques.
+- Stack: Java, Spring, IBM Db2, Maven, Angular, Python, HashiCorp Vault, Ansible, Control-M, IBM WebSphere Liberty Profile, Copilot.
+
 ---
 
 ## 🎓 Education
