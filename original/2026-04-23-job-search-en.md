@@ -14,7 +14,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1.5 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
+I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1.5 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
 
 ---
 
