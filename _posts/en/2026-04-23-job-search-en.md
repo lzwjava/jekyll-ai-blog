@@ -62,21 +62,6 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ---
 
-## Open Source & Blog & Codeforces (2013 – Present)
-
-- Explore my open-source projects, corporate initiatives, and personal side projects on GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
-- **algorithm-solutions** — Solutions to algorithm problems, 2466 commits, Java
-- **lzwjava.github.io** — Personal blog, 500 commits, English & Chinese; ~70,000 page views/month (Cloudflare Analytics)
-- **jekyll-ai-blog** — AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows
-- **ww** — Cross-platform CLI toolkit: AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, and LLM-powered helpers
-- **iclaw** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously; supports GitHub Copilot (OAuth) and OpenRouter; works in locked-down enterprise environments with no IDE plugins
-- **zz** — Dataset processing & training utilities for ML projects; used during GPT-2 nanoGPT training runs on H200/H100/RTX 4070
-- **live-server** — Backend of a knowledge live broadcast platform, 660 commits, PHP
-- **leanchat-ios** — iOS chat application, 556 commits, Objective-C
-- Codeforces: [https://codeforces.com/profile/lzwjava](https://codeforces.com/profile/lzwjava)
-
----
-
 ## 🔍 Why I'm Looking
 
 My current job is going well — I've been with the same vendor-bank engagement for over a year, and my contract between my vendor and the bank has recently been extended for another year. I'm performing strongly: top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer.
@@ -95,7 +80,7 @@ Full-stack and backend roles are welcome. My strong preference is for positions 
 
 | Company | Role | Period |
 |---------|------|--------|
-| Global IT firm → Global UK bank (contractor) | Backend Engineer | 2025.02 – Present |
+| TEKsystems → HSBC Bank (contractor) | AI Engineer | 2025.02 – Present |
 | Freelancer | ML & AI Projects | 2023.08 – 2025.01 |
 | Farben Information (outsourced to HSBC PayMe) | Backend Engineer | 2022.11 – 2023.07 |
 | Beyondsoft (outsourced to DBS Bank) | Backend Engineer | 2021.12 – 2022.11 |
