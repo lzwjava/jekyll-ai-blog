@@ -81,7 +81,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 My current job is going well — I've been with the same vendor-bank engagement for over a year, and my contract between my vendor and the bank has recently been extended for another year. I'm performing strongly: top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer.
 
-My primary motivation for looking is **becoming more AI-centric**. I have technical idols — Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman — and I want to grow in the direction they represent: deeply technical, AI-first, and building things that genuinely help companies and users. My current role involves AI tooling at the edges, but I want a position where AI, agents, and LLM systems are the core of the work, not a side activity.
+My primary motivation for looking is **becoming more AI-centric**. I have technical idols — Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman — and I want to grow in the direction they represent: deeply technical, AI-first, and building things that genuinely help companies and users. My current role involves AI tooling at the edges, but I want a position where AI, agents, and LLM systems are the core of the work, not a side activity. That said, given my reality, contractor or permanent positions at big banks that combine AI with backend or full-stack engineering are welcome too — I know that space well and can contribute immediately.
 
 **Compensation improvement** is a secondary but real motivation. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
 
