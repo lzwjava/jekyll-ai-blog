@@ -14,7 +14,7 @@ translated: false
 
 Hi, I’m Zhiwei.
 
-I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1 billion tokens via LLM APIs, building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
+I’m a software engineer with 12 years of experience spanning iOS, Android, frontend, backend, and AI. I’ve worked across live-streaming startups, cloud computing platforms, China internet products, and financial systems at Singapore and Hong Kong banks. I’m actively moving into AI engineering — training GPT-2 with nanoGPT on H200 GPUs, consuming ~1.5 billion tokens via LLM APIs (~500M last month alone), building personal agents and automation tools, and running 20+ active agent sessions daily. I ranked top 6% in AI assistant usage globally at my current employer. I want a role where AI, agents, and LLM work are the main job — not a side project.
 
 ---
 
@@ -28,7 +28,7 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 * Founded Fun Live (live-streaming app, 30,000 users) and Square Root Technology; reached 3M CNY revenue with 600K CNY profit in 2018
 * Received a job offer of ~384,000 CNY/year (~32K/month) around 2023, without a bachelor's degree
 * 10+ open-source GitHub projects (500+ commits each); ~400 technical blog posts; ~8,000 AI answer notes
-* Training GPT-2 124M with nanoGPT on H200 GPU; ~1 billion tokens consumed via OpenRouter & other LLM providers in the past year
+* Trained GPT-2 124M with nanoGPT twice (RunPod H200, DigitalOcean H100, home RTX 4070); ~1.5 billion tokens consumed via OpenRouter & other LLM providers in the past year (~500M last month)
 * Built ww (CLI toolkit), iclaw (AI coding REPL for enterprise environments), and zz (dataset processing & training utilities for ML projects)
 * Self-taught researcher — 3 papers on natural vision restoration; reversed myopia 350 → 250 diopters over 3 years
 
@@ -48,6 +48,15 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 - **[ww](https://github.com/lzwjava/ww)** — Cross-platform CLI toolkit for developer productivity: git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
 - **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; designed for both personal machines and locked-down enterprise environments with no IDE plugins required.
 - **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects: FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.
+
+### Open Source Contributions & Upgrades
+
+- **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (PR) — Contributed to an external Tree-of-Thought reasoning system for physics-heavy problem solving. Added `make_openai_requester` to translate the internal `{system_prompt, input}` format to OpenAI messages format with Bearer auth; wired `CHAT_BASE_URL`, model names, and `OPENROUTER_API_KEY` from `.env` via `python-dotenv` so the server is fully configured without frontend changes; added `.env.example` and gitignored `.env`.
+- **[live-server](https://github.com/lzwjava/live-server)** — Used iclaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
+
+### LLM API Usage
+
+- Consumed ~**1.5 billion tokens** via OpenRouter and other LLM providers in the past year; ~**500 million tokens** in the past month alone — reflecting deep, daily hands-on use of LLMs for coding, research, and automation.
 
 ---
 
