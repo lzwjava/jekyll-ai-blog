@@ -48,11 +48,12 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 - **[ww](https://github.com/lzwjava/ww)** — Cross-platform CLI toolkit for developer productivity: git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
 - **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; designed for both personal machines and locked-down enterprise environments with no IDE plugins required.
 - **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects: FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.
+- **[live-server](https://github.com/lzwjava/live-server)** — Used OpenClaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
 
-### Open Source Contributions & Upgrades
+### Open Source Contributions to Others' Projects
 
 - **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (1 PR) — Contributed to a friend's Tree-of-Thought reasoning system; added OpenAI-compatible requester and `python-dotenv` config.
-- **[live-server](https://github.com/lzwjava/live-server)** — Used OpenClaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
+
 
 ### LLM API Usage
 
