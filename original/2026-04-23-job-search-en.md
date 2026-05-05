@@ -79,11 +79,15 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ## 🔍 Why I'm Looking
 
-I'm currently employed with strong performance — top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer. My primary motivation for looking is **compensation improvement**. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
+My current job is going well — I've been with the same vendor-bank engagement for over a year, and my contract between my vendor and the bank has recently been extended for another year. I'm performing strongly: top 20% among contractors at my vendor, and top 6% in AI assistant usage globally at my employer.
 
-The bank has a contractor-to-permanent conversion policy, but slots are limited and another peer is also in the queue. Progression within my current group is slow despite my best efforts and expressed interest in converting. Looking externally is the more realistic path forward.
+My primary motivation for looking is **becoming more AI-centric**. I have technical idols — Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman — and I want to grow in the direction they represent: deeply technical, AI-first, and building things that genuinely help companies and users. My current role involves AI tooling at the edges, but I want a position where AI, agents, and LLM systems are the core of the work, not a side activity.
 
-Full-stack and backend roles are welcome. My preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
+**Compensation improvement** is a secondary but real motivation. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
+
+Beyond both of these, regularly engaging with the market is simply good practice — it keeps perspective sharp and ensures I'm aware of what's available. The bank has a contractor-to-permanent conversion policy, but slots are limited and progression within my current group is slow. Looking externally is the more realistic path forward.
+
+Full-stack and backend roles are welcome. My strong preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
 
 ---
 
