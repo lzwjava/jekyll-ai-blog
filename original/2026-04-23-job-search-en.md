@@ -85,7 +85,7 @@ My primary motivation for looking is **becoming more AI-centric**. I have techni
 
 **Compensation improvement** is a secondary but real motivation. My current package is below where I'd like to be, and I want a role that better reflects my experience and output.
 
-Beyond both of these, regularly engaging with the market is simply good practice — it keeps perspective sharp and ensures I'm aware of what's available. The bank has a contractor-to-permanent conversion policy, but slots are limited and progression within my current group is slow. Looking externally is the more realistic path forward.
+Beyond both of these, regularly engaging with the market is simply good practice — it keeps perspective sharp and ensures I'm aware of what's available. The bank has a contractor-to-permanent conversion policy, but slots are limited and another senior peer is ahead in the queue. Looking externally is the more realistic path forward.
 
 Full-stack and backend roles are welcome. My strong preference is for positions where AI, agents, or LLM work are central — I've been deeply invested in this space outside of work hours and want a role that matches that direction.
 
