@@ -44,7 +44,8 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ### Personal AI Projects
 
-- **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — AI-powered blog platform with ~400 original posts and ~8,000 AI answer notes, automated multi-language translation, Google Cloud TTS audio generation, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows; powers [lzwjava.github.io](https://lzwjava.github.io). ~70,000 page views in the past month (Cloudflare Analytics), with Singapore as the top visitor country.
+- **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — Built an AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows.
+- **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — Personal blog and knowledge base with ~400 original posts and ~8,000 AI answer notes; ~70,000 page views in the past month (Cloudflare Analytics), with Singapore as the top visitor country.
 - **[ww](https://github.com/lzwjava/ww)** — Cross-platform CLI toolkit for developer productivity: git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
 - **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; designed for both personal machines and locked-down enterprise environments with no IDE plugins required.
 - **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects: FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.
