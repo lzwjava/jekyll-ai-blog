@@ -80,7 +80,7 @@ Full-stack and backend roles are welcome. My strong preference is for positions 
 
 | Company | Role | Period |
 |---------|------|--------|
-| Global IT firm → Global UK bank (contractor) | Backend Engineer | 2025.02 – Present |
+| TEKsystems → HSBC Bank (contractor) | AI Engineer | 2025.02 – Present |
 | Freelancer | ML & AI Projects | 2023.08 – 2025.01 |
 | Farben Information (outsourced to HSBC PayMe) | Backend Engineer | 2022.11 – 2023.07 |
 | Beyondsoft (outsourced to DBS Bank) | Backend Engineer | 2021.12 – 2022.11 |
