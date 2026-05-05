@@ -139,7 +139,7 @@ Open to:
 ## 🌍 Location Flexibility
 
 * **Shenzhen / Guangzhou** — preferred; open to 5 days/week onsite
-* **Other cities in China** — open to 2–3 days/week in office
+* **Other cities in China** — prefer 2–3 days/week in office; open to 5 days/week if salary is more competitive
 * **Hong Kong** — open, but would require work visa sponsorship
 * **Singapore** — open, but would require work visa sponsorship
 * **Remote** — open, global teams welcome
