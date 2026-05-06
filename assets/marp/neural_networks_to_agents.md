@@ -871,6 +871,12 @@ Built through curiosity and vibe coding — not a class assignment. No corporate
 
 ---
 
+# Tree of Thought — Demo
+
+![w:480](../images/tot_frame_first.jpg) ![w:480](../images/tot_frame_mid.jpg)
+
+---
+
 # What Ruixiu Represents
 
 The next generation doesn't wait for permission to build.
