@@ -845,6 +845,49 @@ Blog post: [Vision Tips](https://lzwjava.github.io/vision-tips-en)
 
 ---
 
+# Inspiration — A Top High School Student
+
+**Ruixiu Zhang** — Grade 10, born 2010
+Beijing Normal University Affiliated Experimental High School, International Division
+
+- **TOEFL 108** around 15 — exceptional English proficiency
+- Self-driven: vibe-coded and explored AI ideas independently
+- Languages: **C++, JavaScript, Python**
+- Hardware: **Mac M4 Pro** and **Mac Studio**
+- GitHub: [github.com/Cerynitius](https://github.com/Cerynitius)
+
+> If a 16-year-old can explore advanced AI ideas from first principles — the barrier is curiosity, not age or credentials.
+
+---
+
+# Ruixiu's Projects — AI Exploration at 16
+
+- **[Tree of Thought](https://github.com/Cerynitius/Tree_Of_Thought)** — explored reasoning over tree-structured thought paths; implemented independently (I contributed 2 commits)
+- **[llmTrain](https://github.com/Cerynitius/llmTrain)** — hands-on LLM training experiments in code
+
+Built through curiosity and vibe coding — not a class assignment. No corporate account, no team.
+
+> Open-source tools + GitHub + curiosity = this. The resources exist. The question is who picks them up.
+
+---
+
+# What Ruixiu Represents
+
+The next generation doesn't wait for permission to build.
+
+- **Born 2010** — grew up with LLMs as a natural tool
+- Explores ideas like Tree of Thought that PhDs wrote papers on — in high school
+- Multilingual (TOEFL 108 around 15), self-directed, already shipping code
+
+**For senior engineers:**
+- The next generation picks up AI tools naturally — that's a good thing
+- Your edge is **domain depth, production judgment, and taste** — things that take years to build
+- AI amplifies that; it doesn't replace it
+
+> The moat is wisdom, not keystrokes.
+
+---
+
 <!-- _class: lead -->
 
 # Q&A — Checkpoint 3 / 3
