@@ -871,9 +871,15 @@ Built through curiosity and vibe coding — not a class assignment. No corporate
 
 ---
 
-# Tree of Thought — Demo
+# Tree of Thought — Demo (Start)
 
-![w:480](../images/tot_frame_first.jpg) ![w:480](../images/tot_frame_mid.jpg)
+![w:900](../images/tot_frame_first.jpg)
+
+---
+
+# Tree of Thought — Demo (Mid)
+
+![w:900](../images/tot_frame_mid.jpg)
 
 ---
 
