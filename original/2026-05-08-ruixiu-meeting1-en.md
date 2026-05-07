@@ -172,7 +172,7 @@ He rates this project as a one-off exploration that he didn't continue maintaini
 
 When the conversation turned to RoPE and KQV, the senior asked a slightly pointed question:
 
-> "Ruixiong, you're saying you're stronger than that Deng Mingyang or the Kimi guy, but I'm actually skeptical."
+> "Ruixiu, you're saying you're stronger than that Deng Mingyang or the Kimi guy, but I'm actually skeptical."
 
 He elaborated: it isn't that he doesn't believe in the potential; the point is that **outsiders have no credible way to judge it**. To get others to believe you're stronger than some 0xy / IOI medalist, there are usually a few paths:
 
