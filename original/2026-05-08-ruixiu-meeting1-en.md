@@ -5,6 +5,8 @@ image: false
 lang: en
 layout: post
 title:  A Mentor-Mentee Conversation on AI Research, Programming Growth, and Life Direction
+prompt: Do not translate specific items such as project names, company names, or school
+  names if you are not sure.
 translated: false
 ---
 
