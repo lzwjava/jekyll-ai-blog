@@ -30,7 +30,7 @@ For the meeting tool itself, they were on Tencent Meeting, but the senior recomm
 
 On direction, the senior first shared an observation about another student (Yangyang): that student works on **optimization within the NVIDIA stack** (VRAM, memory movement, kernel-level engineering). That work is essentially ops and engineering — it sometimes leads to critical discovery too, like FlashAttention.
 
-Ruixiu Zhang's stance was clear:
+The high-school student's stance was clear:
 
 - He prefers digging into and thinking about **algorithm-level innovation**;
 - For example, studying attention, studying RoPE (he mentioned Su Jianlin's work of "rotating" attention), and thinking about what would happen if you "tilted a particular attention to 90 degrees";
@@ -49,7 +49,7 @@ So he kept emphasizing: **English fluency isn't about English — it's about not
 
 ## 3. Tree of Thoughts Project: A Full Code Walkthrough
 
-The technical core of the meeting was Ruixiu Zhang sharing his own **Tree of Thoughts** physics-problem-solving system. He ran it locally and walked through the architecture step by step.
+The technical core of the meeting was the high-school student sharing his own **Tree of Thoughts** physics-problem-solving system. He ran it locally and walked through the architecture step by step.
 
 ### 3.1 Model Division of Labor: Four Roles
 
@@ -62,7 +62,7 @@ The system is a collaboration of four kinds of models:
 | **Review Model** | Small (0.5B / 4B) | Inspect each step's logic, decide noise / send back / pass |
 | **Evaluation Model** | Small | Subjective scoring, e.g. whether the final formula is clean enough |
 
-Ruixiu explained a key design decision: **why must the Modeling Model not see the full problem?**
+The high-school student explained a key design decision: **why must the Modeling Model not see the full problem?**
 
 > If you let it see the original problem plus the decomposed sub-task, it can't help itself — it will try to "solve the whole thing in one shot" instead of following the decomposition. So you must feed it only the instruction for the current step.
 
@@ -70,7 +70,7 @@ The senior's comment: "That's exactly right — you have to give it something pr
 
 ### 3.2 Why FSM (Finite State Machine) Instead of a Simple Data Structure
 
-Review uses an FSM-based state-management approach. Ruixiu's reasoning:
+Review uses an FSM-based state-management approach. The high-school student's reasoning:
 
 - A node doesn't just store "what number was computed" — it stores **the boundary conditions, parameters, the skill that was called, and the constraints of this modeling step**;
 - When solving physics problems, every intermediate answer has a domain of applicability, and the FSM is the carrier that stores those domains alongside the answers;
@@ -109,7 +109,7 @@ But he stressed a working method that the senior strongly endorsed:
 They went through several files together: `backend / scheduler / models / planning_model / utils`. Some observations:
 
 - Some modules in the project (e.g. `merge`) are AI-generated but currently unused — he chose to keep them, with the reasoning "maybe useful for other disciplines, almost not used in physics";
-- Ruixiu uses **Codex (the higher Copilot tier, the $140 plan)**, with GPT-5.4 plus high-intensity tasks; running an entire project only consumed about 7-something percent of his quota;
+- The high-school student uses **Codex (the higher Copilot tier, the $140 plan)**, with GPT-5.4 plus high-intensity tasks; running an entire project only consumed about 7-something percent of his quota;
 - He grants Codex **auto-approve permissions**, so it doesn't need a confirmation for each command. His judgment: the model itself won't do anything harmful, and giving up that control significantly improves efficiency;
 - His use of Codex is closer to "collaboration" — letting it run tests back and forth and iterate on its own — rather than treating it as a one-shot Q&A tool.
 
@@ -149,7 +149,7 @@ The senior ran through Transformer details quiz-style:
 
 ### 5.3 Data Scale and Hardware Upgrade
 
-- Ruixiu's training data is around a dozen GB; the senior has used 60GB;
+- The high-school student's training data is around a dozen GB; the senior has used 60GB;
 - He back-calculates the parameter ceiling from the token count, stopping right after he's halfway over the line;
 - He just placed an order for the **NVIDIA Pro 6000** to replace the 3090 (reasoning: the 3090 is too constrained for training, Blackwell optimization isn't great yet, but VRAM size is a hard requirement); his father is helping with the build;
 - Next on his list: a **natively multimodal model**.
@@ -158,7 +158,7 @@ The senior ran through Transformer details quiz-style:
 
 ## 6. The Third Project: An Agentic Coding Experiment
 
-This is a mini "multi-agent collaborative coding" system Ruixiu built, inspired by Cloud Code:
+This is a mini "multi-agent collaborative coding" system the high-school student built, inspired by Cloud Code:
 
 - Uses ddgs (DuckDuckGo Search) for web retrieval;
 - The Orchestrator **splits the big task across multiple coders** (note: this is the opposite of the Tree of Thoughts approach of "I only think about the first step" — here it subdivides directly);
@@ -174,7 +174,7 @@ He rates this project as a one-off exploration that he didn't continue maintaini
 
 When the conversation turned to RoPE and KQV, the senior asked a slightly pointed question:
 
-> "Ruixiu, you're saying you're stronger than that Deng Mingyang or the Kimi guy, but I'm actually skeptical."
+> "You're saying you're stronger than that Deng Mingyang or the Kimi guy, but I'm actually skeptical."
 
 He elaborated: it isn't that he doesn't believe in the potential; the point is that **outsiders have no credible way to judge it**. To get others to believe you're stronger than some 0xy / IOI medalist, there are usually a few paths:
 
@@ -186,7 +186,7 @@ The point of saying this isn't to deflate, it's to remind: "your level" can't st
 
 He also touched on something interesting — **a name itself can become a brand**:
 
-> "When people hear 'Zhang Ruixiu' and immediately know you're a top-tier person, you've fully arrived — your name becomes your brand."
+> "When people hear your name and immediately know you're a top-tier person, you've fully arrived — your name becomes your brand."
 
 ---
 
@@ -204,17 +204,17 @@ He drew a parallel: this is essentially the same as how he understands GPT —
 
 > "In 2017 there weren't many people discussing Transformers either; the things that genuinely work are, in their early stages, only known to a small number of people."
 
-And he reminded Ruixiu that as a high-school student doing heavy near-work, this is worth a few minutes of attention even more than the project work.
+And he reminded him that as someone doing heavy near-work daily, this is worth a few minutes of attention even more than the project work.
 
 ---
 
 ## 9. On Network, Foreign-Language Environment, and Independent Thinking
 
-They went down Ruixiu's WeChat group roster line by line:
+They went down the high-school student's WeChat group roster line by line:
 
 - **Lin Zhen** (postdoc at Tsinghua, BUPT alum, willing to lend him compute): the senior knew him, called him "well-resourced and warm-hearted";
-- **Yangyang** (Hong Kong, the same-age person doing NV stack optimization): Ruixiu admitted that area itself isn't really of interest to him;
-- He has very few foreign friends and rarely speaks English in daily life — the senior emphasized this is a part Ruixiu **needs to make up for actively**.
+- **Yangyang** (Hong Kong, the same-age person doing NV stack optimization): the high-school student admitted that area itself isn't really of interest to him;
+- He has very few foreign friends and rarely speaks English in daily life — the senior emphasized this is a part the high-school student **needs to make up for actively**.
 
 When the conversation turned to **Wang Yin** (Wang Yin), **Daniel P. Friedman**, and *The Little Schemer*, the senior spent a lot of time explaining what he means by "independent thinking":
 
@@ -223,7 +223,7 @@ When the conversation turned to **Wang Yin** (Wang Yin), **Daniel P. Friedman**,
 - The point of projects like mini-Kanren isn't paper publication, it's "the idea was generated by you, so you actually know how it came to be";
 - Quoting Wang Yin: "Better to teach someone to fish than to give them a fish."
 
-He directed this point at Ruixiu: **why so many things must be thought up by yourself rather than copied from others — that is the foundation of everything that comes later.**
+He directed this point at the high-school student: **why so many things must be thought up by yourself rather than copied from others — that is the foundation of everything that comes later.**
 
 ---
 
@@ -236,7 +236,7 @@ To put a footnote on "project credibility," the senior described a WeChat mini-p
 - Used a LeanCloud-style platform, with long-lived connections (WebSocket) for "next question" sync messages, decoupled from the video stream (RTMP);
 - Similar apps later (he cited "live trivia shows with tens of millions of users") were shut down for content-compliance reasons — his point: **the larger your user base, the more compliance and regulation matter**.
 
-He then told the early-Airbnb story — the founders meeting with an investor over coffee, the investor leaving for the bathroom and never coming back. He wasn't complaining; he wanted Ruixiu to know in advance:
+He then told the early-Airbnb story — the founders meeting with an investor over coffee, the investor leaving for the bathroom and never coming back. He wasn't complaining; he wanted the high-school student to know in advance:
 
 > "The world is very transactional. When you don't have a name, the cold rejections will be many — you have to be mentally prepared for that."
 
@@ -249,7 +249,7 @@ A short quiz session was sprinkled in:
 - **SVD (Singular Value Decomposition)**: factor a matrix into U Σ Vᵀ;
 - The relationship between **eigenvalue decomposition** and SVD;
 - The "semantics" of matrix multiplication: a kind of **information exchange**;
-- One conclusion: **"There is no intelligence in artificial intelligence, and no neurons either; what's actually doing the work is calculus."** Ruixiu's amendment: at the LLM layer there's an extra layer of stochasticity, but the underlying mathematical skeleton is indeed that;
+- One conclusion: **"There is no intelligence in artificial intelligence, and no neurons either; what's actually doing the work is calculus."** The high-school student's amendment: at the LLM layer there's an extra layer of stochasticity, but the underlying mathematical skeleton is indeed that;
 - Training, in his view, is essentially "guess high or low": guess too low and gradients push it up, guess too high and they push it down — iterate.
 
 ---
@@ -260,7 +260,7 @@ Scattered but valuable points:
 
 - **OpenRouter**: actually useful — lets you horizontally compare "the best models on the market" on your specific problem;
 - **One-shot / Few-shot**: model input = model = output; giving a single example can substantially improve accuracy;
-- **Cloud Code's skill / "Lobster"** (likely a misheard name, possibly Lobster or another extension): Ruixiu hasn't used much of this;
+- **Cloud Code's skill / "Lobster"** (likely a misheard name, possibly Lobster or another extension): the high-school student hasn't used much of this;
 - **Hermes**: also rarely used;
 - **iCloud + small homemade tools**: the senior wrote a crude but working PDF highlighting tool — using this, he reinforced the methodology that "**building a minimal version naturally teaches you the whole picture.**"
 
@@ -272,14 +272,14 @@ As the meeting wound down, the senior put forward a concrete collaboration idea:
 
 > "I've already trained GPT-2 myself. We should team up and train a GPT-3. If we can also train a GPT-4 (at the 2022 level), we'd be near the front of the AI field."
 
-Ruixiu's reply kept its engineering sobriety: scale up the parameters and you no longer need a single machine — you need **a cluster**. The senior thinks platforms like Runpod can handle the cluster side; the bottleneck remains the same three things — data, compute, algorithms.
+The high-school student's reply kept its engineering sobriety: scale up the parameters and you no longer need a single machine — you need **a cluster**. The senior thinks platforms like Runpod can handle the cluster side; the bottleneck remains the same three things — data, compute, algorithms.
 
 For the next meeting, they agreed:
 
 1. Switch to **Teams**;
 2. Walk through **Transformer / KQV** again — that is the part most often asked in interviews;
-3. Ruixiu to send a **myopia exam report**;
-4. Ruixiu to finish reading the few Wang Yin articles the senior recommended.
+3. The high-school student to send a **myopia exam report**;
+4. The high-school student to finish reading the few Wang Yin articles the senior recommended.
 
 ---
 
