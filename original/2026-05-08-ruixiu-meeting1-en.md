@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title:  A Mentor-Mentee Conversation on AI Research, Programming Growth, and Life Direction
+title:  A Mentor-Mentee Conversation on AI Research and Life Direction
 translated: false
 ---
 
