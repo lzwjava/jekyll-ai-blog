@@ -9,6 +9,8 @@ translated: false
 ---
 
 > This article is compiled from the audio transcript of an online meeting. The two participants were a senior programmer and a high-school AI researcher (Ruixiu Zhang). Because the original transcript lost speaker labels, the content below is reorganized from a third-person perspective ("they"), preserving the colloquial style and core ideas of the original conversation, while removing repetition, small talk, and unrelated fragments, and grouping things by topic.
+>
+> Note: this article was produced via Whisper transcription followed by Claude Code (Opus 4.7) reorganization. Some details may contain minor or trivial factual inaccuracies — please verify any important information independently before relying on it.
 
 ---
 
