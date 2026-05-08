@@ -9,6 +9,8 @@ translated: false
 ---
 
 > This article is compiled from the audio transcript of an online meeting. The two participants were a senior programmer and a high-school AI researcher (Ruixiu Zhang). Because the original transcript lost speaker labels, the content below is reorganized from a third-person perspective ("they"), preserving the colloquial style and core ideas of the original conversation, while removing repetition, small talk, and unrelated fragments, and grouping things by topic.
+>
+> Note: this article was produced via Whisper transcription followed by Claude Code (Opus 4.7) reorganization. Some details may contain minor or trivial factual inaccuracies — please verify any important information independently before relying on it.
 
 ---
 
@@ -210,8 +212,8 @@ And he reminded him that as someone doing heavy near-work daily, this is worth a
 
 They went down the high-school student's WeChat group roster line by line:
 
-- **Lin Zhen** (postdoc at Tsinghua, BUPT alum, willing to lend him compute): the senior knew him, called him "well-resourced and warm-hearted";
-- **Yangyang** (Hong Kong, the same-age person doing NV stack optimization): the high-school student admitted that area itself isn't really of interest to him;
+- **Lin PHD** (postdoc at Tsinghua, BUPT alum, willing to lend him compute): the senior knew him, called him "well-resourced and warm-hearted";
+- **Yang Student** (Hong Kong, the similar-age person doing NV stack optimization): the high-school student admitted that area itself isn't really of interest to him;
 - He has very few foreign friends and rarely speaks English in daily life — the senior emphasized this is a part the high-school student **needs to make up for actively**.
 
 When the conversation turned to **Wang Yin** (Wang Yin), **Daniel P. Friedman**, and *The Little Schemer*, the senior spent a lot of time explaining what he means by "independent thinking":
