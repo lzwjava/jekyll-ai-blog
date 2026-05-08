@@ -26,7 +26,7 @@ For the meeting tool itself, they were on Tencent Meeting, but the senior recomm
 
 ## 2. Why "Low-Level Algorithms" and "Building Products" Are Two Different Paths
 
-On direction, the senior first shared an observation about another kid (Yangyang): that person works on **optimization within the NVIDIA stack** (VRAM, memory movement, kernel-level engineering). That work is essentially ops and engineering — it isn't research that makes AI "smarter or more useful."
+On direction, the senior first shared an observation about another student (Yangyang): that student works on **optimization within the NVIDIA stack** (VRAM, memory movement, kernel-level engineering). That work is essentially ops and engineering — it sometimes leads to critical discovery too, like FlashAttention.
 
 Ruixiu Zhang's stance was clear:
 
