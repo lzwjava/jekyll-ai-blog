@@ -262,7 +262,7 @@ Scattered but valuable points:
 - **One-shot / Few-shot**: model input = model = output; giving a single example can substantially improve accuracy;
 - **Cloud Code's skill / "Lobster"** (likely a misheard name, possibly Lobster or another extension): the high-school student hasn't used much of this;
 - **Hermes**: also rarely used;
-- **iCloud + small homemade tools**: the senior wrote a crude but working PDF highlighting tool — using this, he reinforced the methodology that "**building a minimal version naturally teaches you the whole picture.**"
+- **iClaw + small homemade tools**: the senior wrote a crude but working PDF highlighting tool — using this, he reinforced the methodology that "**building a minimal version naturally teaches you the whole picture.**"
 
 ---
 
