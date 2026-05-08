@@ -212,7 +212,7 @@ And he reminded him that as someone doing heavy near-work daily, this is worth a
 
 They went down the high-school student's WeChat group roster line by line:
 
-- **Lin PHD** (postdoc at Tsinghua, BJFU alum, willing to lend him compute): the senior knew him, called him "well-resourced and warm-hearted";
+- **Lin PHD** (postdoc at Tsinghua, willing to lend him compute): the senior knew him, called him "well-resourced and warm-hearted";
 - **Yang Student** (Hong Kong, the similar-age person doing NV stack optimization): the high-school student admitted that area itself isn't really of interest to him;
 - He has very few foreign friends and rarely speaks English in daily life — the senior emphasized this is a part the high-school student **needs to make up for actively**.
 
