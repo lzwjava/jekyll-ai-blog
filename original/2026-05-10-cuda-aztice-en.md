@@ -16,7 +16,7 @@ Note: Because both transcription and refinement were AI-assisted, some details m
 
 ---
 
-This meeting covered a broad technical discussion centered on a personal open-source project called [Axono](https://github.com/AxonoOfficial/Axono)—a lightweight, CUDA-accelerated tensor computation library that functions similarly to a minimal PyTorch. The conversation explored the library’s architecture, its CUDA kernel implementations, memory management between CPU and GPU, and the challenges of solo development. It also delved into the developer’s competitive AI engineering experience, including a notable 17th-place finish in an international big data competition (ITCST 2025) and ongoing participation in a model optimization challenge where they currently rank 8th among 16 finalists. Along the way, the dialogue touched on tooling practices like AI-assisted coding, the rationale for switching from pure CUDA to CUBLAS in a V2 redesign, the choice of communication language between the participants, and the value of hands-on engineering over theoretical knowledge.
+This meeting covered a broad technical discussion centered on a personal open-source project called [Axono](https://github.com/AxonoOfficial/Axono)—a lightweight, CUDA-accelerated tensor computation library that functions similarly to a minimal PyTorch. The conversation explored the library’s architecture, its CUDA kernel implementations, memory management between CPU and GPU, and the challenges of solo development. It also delved into the developer’s competitive AI engineering experience, including a notable 17th-place finish in an international big data competition ([IKCEST 2025](https://aistudio.baidu.com/competition/detail/1196/0/introduction)) and ongoing participation in a model optimization challenge where they currently rank 8th among 16 finalists. Along the way, the dialogue touched on tooling practices like AI-assisted coding, the rationale for switching from pure CUDA to CUBLAS in a V2 redesign, the choice of communication language between the participants, and the value of hands-on engineering over theoretical knowledge.
 
 ## The Axono Project: A Minimal PyTorch-Like Library in CUDA
 
@@ -78,9 +78,9 @@ The developer candidly stated that most of the CUDA kernels were written with AI
 
 ## Competitive AI Engineering and Model Optimization
 
-### The ITCST 2025 Competition: 17th Place Out of 1,700 Teams
+### The IKCEST 2025 Competition: 17th Place Out of 1,700 Teams
 
-The developer shared their experience in the ITCST 2025 international big data competition, where they achieved 17th place out of approximately 1,700 participating teams. The competition requires team registration with school information—the team must include at least one currently enrolled student from the registered institution. The developer participated as a team from Hong Kong, using their school affiliation.
+The developer shared their experience in the [IKCEST 2025](https://aistudio.baidu.com/competition/detail/1196/0/introduction) international big data competition, where they achieved 17th place out of approximately 1,700 participating teams. The competition requires team registration with school information—the team must include at least one currently enrolled student from the registered institution. The developer participated as a team from Hong Kong, using their school affiliation.
 
 The developer presented their competition PPT. The team name was “everywhere we go” (with a small typo in the original slide). The developer acknowledged difficulty finding reliable teammates in Hong Kong; they do not personally know others with similar interests. For a subsequent competition, they have teamed up with a graduate student who can provide meaningful help, unlike typical undergraduates.
 
@@ -123,3 +123,7 @@ One participant expressed interest in collaborating on competitions, believing t
 ## Concluding Thoughts
 
 The conversation wrapped up after covering substantial technical ground. The participants acknowledged they had discussed a lot, with one suggesting they might take a break. The developer’s need to prepare lunch before heading to Hong Kong provided a natural stopping point. The meeting concluded on a friendly note, with an informal invitation to stay in touch and perhaps meet in person across the border in the future.
+
+---
+
+Project link: [Axono on GitHub](https://github.com/AxonoOfficial/Axono)
