@@ -82,7 +82,7 @@ The developer candidly stated that most of the CUDA kernels were written with AI
 
 The developer shared their experience in the ITCST 2025 international big data competition, where they achieved 17th place out of approximately 1,700 participating teams. The competition requires team registration with school information—the team must include at least one currently enrolled student from the registered institution. The developer participated as a team from Hong Kong, using their school affiliation.
 
-The developer presented their competition PPT. The team name was “everywhere we go” (with a small typo in the original slide). The team originally had a second member who, in the developer’s words, “didn’t do anything”—they found this teammate online, but that person contributed nothing substantive. The developer acknowledged difficulty finding reliable teammates in Hong Kong; they do not personally know others with similar interests. For a subsequent competition, they have teamed up with a graduate student who can provide meaningful help, unlike typical undergraduates.
+The developer presented their competition PPT. The team name was “everywhere we go” (with a small typo in the original slide). The developer acknowledged difficulty finding reliable teammates in Hong Kong; they do not personally know others with similar interests. For a subsequent competition, they have teamed up with a graduate student who can provide meaningful help, unlike typical undergraduates.
 
 ### Competition Workflow and Technical Approach
 
