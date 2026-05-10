@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Exploring a Lightweight CUDA-Powered Deep Learning Library and Competitive AI Engineering
+title: Exploring a Lightweight CUDA-Powered Deep Learning Library
 translated: false
 ---
 
