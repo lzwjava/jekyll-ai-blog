@@ -1,0 +1,27 @@
+Shard 1396: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:04<00:00, 21.5Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001396.npy
+Shard 1397: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:03<00:00, 31.9Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001397.npy
+Shard 1398: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:04<00:00, 21.9Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001398.npy
+Shard 1399:  20%|█████████████████▊                                                                      | 20.2M/100M [00:00<00:01, 45.9Mtok/s][176/176] data__CC-MAIN-2015-14__train-00004-of-00013.parquet (col=text)
+Shard 1399: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:03<00:00, 28.9Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001399.npy
+Shard 1400: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:04<00:00, 21.4Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001400.npy
+Shard 1401: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:03<00:00, 31.2Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001401.npy
+Shard 1402: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:04<00:00, 21.5Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001402.npy
+Shard 1403: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:03<00:00, 30.3Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001403.npy
+Shard 1404: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:03<00:00, 26.4Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001404.npy
+Shard 1405: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:03<00:00, 32.2Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001405.npy
+Shard 1406: 100%|████████████████████████████████████████████████████████████████████████████████████████▉| 100M/100M [00:04<00:00, 22.0Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001406.npy
+Shard 1407:  36%|███████████████████████████████▉                                                        | 36.3M/100M [00:01<00:02, 31.0Mtok/s]
+  wrote /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B/edufineweb_train_001407.npy (36,315,820 tokens, partial)
+
+Done. 1408 shard(s) in /mnt/data/nanoGPT/data/fineweb/edu_fineweb100B
