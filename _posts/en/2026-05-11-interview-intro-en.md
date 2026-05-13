@@ -15,3 +15,10 @@ translated: false
 - [Most Useful Websites and Apps for Me](https://lzwjava.github.io/links-en)
 - [GitHub](https://github.com/lzwjava)
 - [Blog](https://lzwjava.github.io/)
+
+## Points
+
+* Talk more about my failure and lessons in life
+* Be short and concise
+* Just like talk with a friend
+* Think more and talk less
