@@ -31,3 +31,4 @@ My startup failed, and when I tried to ask for a one-yuan donation, over a thous
 
 I was fired three times, though later reconciled and maintained contact with my bosses. I carefully worked for three years in foreign-bank outsourcing. I lost a job of around 400k CNY in 2023 and suffered a 1 million RMB loss from buying a house in China, and corrected all my mistakes to pass fourteen subjects in self-study for an associate degree.
 
+I encountered like one million of compliation error or bug issue.
