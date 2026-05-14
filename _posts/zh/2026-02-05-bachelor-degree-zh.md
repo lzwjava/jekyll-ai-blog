@@ -10,35 +10,47 @@ translated: true
 
 ## **完整课程列表（新计划 - 2026+）**
 
-- 080901, Computer Science and Technology 本科专业
+- 080901 计算机科学与技术本科专业
 
-### **必修课程 - 15 门课程，共 72 学分：**
+### **必修课程 - 15门，共72学分：**
 
 | **课程代码** | **课程名称（英文）** | **学分** | **考试类型** |
-|--------------|---------------------|----------|--------------|
-| 03708 | Outline of Modern Chinese History | 2 | 笔试 |
-| 03709 | Introduction to Basic Principles of Marxism | 4 | 笔试 |
-| 00023 | Advanced Mathematics (Engineering) | 10 | 笔试 |
-| 02324 | Discrete Mathematics | 4 | 笔试 |
-| 13000 | English (Professional) | 7 | 笔试 |
-| 13003 | Data Structures and Algorithms | 4 | 笔试 |
-| 13004 | Data Structures and Algorithms (Practical) | 2 | 实践 |
-| 13013 | Advanced Language Programming | 4 | 笔试 |
-| 13014 | Advanced Language Programming (Practical) | 2 | 实践 |
-| 13015 | Computer Principles | 4 | 笔试 |
-| 13180 | Operating Systems | 4 | 笔试 |
-| 03344 | Information and Network Security | 3 | 笔试 |
-| 03345 | Information and Network Security (Practical) | 2 | 实践 |
-| 08074 | Advanced Computer Programming | 3 | 笔试 |
-| 08075 | Advanced Computer Programming (Practical) | 2 | 实践 |
-| 13005 | Software Engineering | 3 | 笔试 |
-| 13006 | Software Engineering (Practical) | 2 | 实践 |
-| 13009 | Database Principles and Applications | 4 | 笔试 |
-| 13011 | Artificial Intelligence and Big Data | 6 | 笔试 |
-| 11689 | Graduation Thesis | 0（必修） | 毕业论文 |
+|--------------|----------------------|----------|--------------|
+| 03708 | 中国近现代史纲要 | 2 | 笔试 |
+| 03709 | 马克思主义基本原理概论 | 4 | 笔试 |
+| 00023 | 高等数学（工科） | 10 | 笔试 |
+| 02324 | 离散数学 | 4 | 笔试 |
+| 13000 | 英语（专业） | 7 | 笔试 |
+| 13003 | 数据结构与算法 | 4 | 笔试 |
+| 13004 | 数据结构与算法（实践） | 2 | 实践 |
+| 13013 | 高级语言程序设计 | 4 | 笔试 |
+| 13014 | 高级语言程序设计（实践） | 2 | 实践 |
+| 13015 | 计算机原理 | 4 | 笔试 |
+| 13180 | 操作系统 | 4 | 笔试 |
+| 03344 | 信息与网络安全 | 3 | 笔试 |
+| 03345 | 信息与网络安全（实践） | 2 | 实践 |
+| 08074 | 高级计算机编程 | 3 | 笔试 |
+| 08075 | 高级计算机编程（实践） | 2 | 实践 |
+| 13005 | 软件工程 | 3 | 笔试 |
+| 13006 | 软件工程（实践） | 2 | 实践 |
+| 13009 | 数据库原理与应用 | 4 | 笔试 |
+| 13011 | 人工智能与大数据 | 6 | 笔试 |
+| 11689 | 毕业论文 | 0（必修） | 论文 |
 
-### 2026 年 4 月
+### 2026年4月
 
-| 课程代码 | 课程名称  |
-|----------|--------------------|
-| 08074 | Advanced Computer Programming | 3 | 笔试 |
+| 课程代码 | 课程名称 | 学分 | 考试类型 |
+|----------|----------|------|----------|
+| 08074 | 高级计算机编程 | 3 | 笔试 |
+
+## 已通过课程
+
+| 课程代码 | 课程名称 | 考试日期 | 通过方式 | 成绩 | 学分 |
+|----------|----------|----------|----------|------|------|
+| 13793 | 计算机程序设计基础 | 202604 | 考试 | 74 | 3 |
+
+## 2026.04
+
+| 科目 | 成绩 |
+|------|------|
+| 计算机程序设计基础 | 74 |
