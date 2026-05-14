@@ -36,6 +36,6 @@ I was born in 1995. I ranked in the top 300 in the Guangdong Province Informatic
 
 My startup closed, and when I tried to ask for a one-yuan donation, over a thousand friends and users deleted me. After dropping out, I suffered more than ten years of severe psychological abuse from my strict father. 
 
-I carefully worked for three years in foreign-bank outsourcing. I lost a job of around 400k CNY in 2023 and suffered a 1 million RMB loss from buying a house in China, and corrected all my mistakes to pass fourteen subjects in self-study for an associate degree.
+I was fired or laid off by three times though I later kept good contact with original bosses. I carefully worked for three years in foreign-bank outsourcing. I lost a job of around 400k CNY in 2023 and suffered a 1 million RMB loss from buying a house in China, and corrected all my mistakes to pass fourteen subjects in self-study for an associate degree.
 
 I encountered like one million of compliation error or bug issue.
