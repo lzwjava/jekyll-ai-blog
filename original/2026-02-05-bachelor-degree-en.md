@@ -44,3 +44,15 @@ translated: false
 |-------------|-----------------------|
 | 08074 | Advanced Computer Programming | 3 | Written |
 
+## Passed Courses
+
+| Course Code | Course Name | Exam Date | Pass Method | Score | Credits |
+|-------------|-------------|-----------|-------------|-------|---------|
+| 13793 | Fundamentals of Computer Programming | 202604 | Exam | 74 | 3 |
+
+## 2026.04
+
+| Subject | Score |
+|---------|--------|
+| Fundamentals of Computer Programming | 74 |
+
