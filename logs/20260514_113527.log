@@ -1,0 +1,21 @@
+[MLP] after c_proj (back to n_embd): (1, 3, 768)
+[Attn] x: (1, 3, 768) | q,k,v: (1, 12, 3, 64) (B, n_head, T, head_size)
+[MLP] in: (1, 3, 768)
+[MLP] after c_fc (4x expand): (1, 3, 3072)
+[MLP] after c_proj (back to n_embd): (1, 3, 768)
+[Attn] x: (1, 3, 768) | q,k,v: (1, 12, 3, 64) (B, n_head, T, head_size)
+[MLP] in: (1, 3, 768)
+[MLP] after c_fc (4x expand): (1, 3, 3072)
+[MLP] after c_proj (back to n_embd): (1, 3, 768)
+[GPT] x after transformer: (1, 3, 768) | logits: (1, 1, 50304)
+中国词猯 中国獅題獅區猯 中国獅區，进宮五獅宗 中国獅名猯替對入蔿洲，全獅宗音反，全獅宗音蛇世洲，数獅宗音蛇獅宗：獅宗 中国獅宗音蛇世党獅四通入蔿洲，全教親獅宗亚名蛇獅宗，全
+---------------
+中国頮叨頮究。
+- Seabrook, Neda (1993). "The Nature of Pure Land: Chinese Studies in Nihonmatsu.". Asian Studies 51 (1): 65–79. doi:10.1080/00033797590180529.
+- Seabrook, Neda (2001). "The Nature of Pure Land: Chinese Studies in Nihonmatsu.". Asian Studies 59 (1): 49–81. doi:10.1080/000337975902488.
+- Seabrook, Neda (2002). "The Nature of Pure Land: Chinese Studies in Nihonmatsu.". Asian Studies 52 (1): 89–104. doi:10.1080/000337975903900507.
+- "Matsu Fuji to be awarded US$ 5 million contract to fight Japanese warplanes over Japan". Time. 19 March 2012
+---------------
+中国状研現：
+|1-2幘03年国書：||国仙盬身綺（書至書（書至書（書至書（書至書（書至書（書至書（書至書（書至書（書至書（書至書（書至書（書至書（書至書�
+---------------
