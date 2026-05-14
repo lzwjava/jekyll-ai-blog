@@ -23,6 +23,13 @@ translated: false
 * Just like talk with a friend
 * Think more and talk less
 
+## Query
+
+* What's the team?
+* What's the tech stack?
+* What's the project?
+* The name of tech lead and boss
+
 ## Intro
 
 I was born in 1995. I ranked in the top 300 in the Guangdong Province Informatics Competition, not getting ideal score of the college entrance exam, dropped out of university, lost 500,000 RMB in a startup, led a team for two years to complete 50 small projects and earned enough to repay investors. 
