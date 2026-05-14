@@ -23,7 +23,7 @@ translated: false
 * Just like talk with a friend
 * Think more and talk less
 
-## Query
+## Queries
 
 * What's the team?
 * What's the tech stack?
