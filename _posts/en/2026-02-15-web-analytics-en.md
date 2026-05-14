@@ -10,4 +10,4 @@ translated: false
 
 Cloudflare Web Analytics Report:
 
-![](assets/images/analytics/cf2.png){: .responsive }
+![](assets/images/analytics/cf2.png)

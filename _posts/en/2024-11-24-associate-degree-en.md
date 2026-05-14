@@ -59,6 +59,9 @@ Professional Code: 510201 (Old Code: 610201)
 
 | Course Code | Course Name                                      |
 |-------------|--------------------------------------------------|
+| 02141 | Computer Network Technology (retake, 2026.04 score 23) |
+| 04729 | College Chinese (retake, 2026.04 score 57) |
+| 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era (retake, 2026.04 score 56) |
 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
 | 13833 | Switching and Routing Technologies |
 
@@ -84,6 +87,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
+| 13793      | Fundamentals of Computer Programming             | 202604    | Exam        | 74    | 3       |
 | 08553      | Introduction to Programming—Java                | 202601    | Exam        | 88    | 4       |
 | 14567      | Mobile Application Development Technology        | 202601    | Exam        | 60    | 5       |
 | 13167      | Web Design and Production                        | 202601    | Exam        | 71    | 5       |
@@ -146,6 +150,15 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 | Computer Networks | 44 |
 | Linear Algebra | 54 |
 | Computer Organization Principles  | 66 |
+
+## 2026.04
+
+| Subject | Score |
+|---------|--------|
+| Computer Network Technology | 23 |
+| College Chinese | 57 |
+| Fundamentals of Computer Programming | 74 |
+| An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era | 56 |
 
 ## Reasons for passing courses
 * Already had good understanding before the exam, like Introduction to Data Structures and English
@@ -233,6 +246,7 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 02323 | Operating Systems Fundamentals | 67 | 4 | Valid | 202304 |
 | 08553 | Introduction to Programming—Java | 88 | 6 | Valid | 202601 |
 | 13167 | Web Design and Production | 71 | 4 | Valid | 202601 |
+| 13793 | Fundamentals of Computer Programming | 74 | 3 | Valid | 202604 |
 | 14567 | Mobile Application Development Technology | 60 | 4 | Valid | 202601 |
 | 15042 | Ideological and Moral Cultivation and Rule of Law | 69 | 3 | Valid | 202510 |
 | 13124 | English (Specialist) | 80 | 7 | Substituted | - |
@@ -261,9 +275,8 @@ The following courses (one or more) may still need to be passed:
 
 | # | Course Code | Course Name |
 | :--- | :--- | :--- |
-| 1 | 13793 | Fundamentals of Computer Programming |
-| 2 | 02141 | Computer Network Technology |
-| 3 | 04729 | College Chinese |
-| 4 | 13833 | Switching and Routing Technologies |
-| 5 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
-| 6 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 1 | 02141 | Computer Network Technology |
+| 2 | 04729 | College Chinese |
+| 3 | 13833 | Switching and Routing Technologies |
+| 4 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 5 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
