@@ -4,7 +4,7 @@ generated: false
 image: true
 lang: en
 layout: post
-title: Complete Guide to Learning English
+title: 'Complete Guide to Learning English: from high school English to IELTS 6.5'
 translated: false
 type: post
 ---
