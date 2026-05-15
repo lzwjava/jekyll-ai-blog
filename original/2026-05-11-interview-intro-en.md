@@ -39,3 +39,5 @@ My startup closed, and when I tried to ask for a one-yuan donation, over a thous
 I was fired or laid off by three times though I later kept good contact with original bosses. I carefully worked for three years in foreign-bank outsourcing. I lost a job of around 400k CNY in 2023 and suffered a 1 million RMB loss from buying a house in China, and corrected all my mistakes to pass thirteen subjects in self-study for an associate degree.
 
 I encountered like one million of compliation error or bug issue.
+
+I have built or participated in many software projects, both in corporate settings and personally. I love open source and sharing knowledge, and I value innovation deeply. In the past year, I consumed 1.5 billion tokens, and I trained and ran inference on models using an RTX 4070 and an H200.
