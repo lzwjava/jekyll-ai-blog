@@ -14,7 +14,7 @@ Below are group rules of one chat group I am running.
 
 Group Rules (Updated: 2026-05-16):
 
-1. This is a community focused on AI, coding, and lifelong learning. Topics include but are not limited to: AI, LLM, ML, DL, vibe coding, AI tools, AI usage, AI + full stack, AI + various domains, English learning, traffic, SEO, user growth, backend, fullstack, iOS, Android, gaming, life hacking, cybersecurity, and beyond.
+1. This is a community focused on AI, coding, and lifelong learning. Topics include but are not limited to: AI, LLM, ML, DL, vibe coding, AI tools, AI usage, AI + full stack, AI + various domains, AI + Education, AI + bring kids, English learning, traffic, SEO, user growth, backend, fullstack, iOS, Android, gaming, life hacking, cybersecurity, and beyond.
 
 2. Firsthand knowledge is most valued here — share your real doubts, requirements, mistakes, experiences, and trial-and-error journeys. Knowledge that conflicts with or improves upon what AI models know is especially welcome, as it helps push the frontier beyond what robots already have.
 
