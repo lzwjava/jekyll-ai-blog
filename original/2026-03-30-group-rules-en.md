@@ -12,7 +12,7 @@ Below are group rules of one chat group I am running.
 
 ---
 
-Group Rules (Updated: 2026-04-25):
+Group Rules (Updated: 2026-05-16):
 
 1. This is a community focused on AI, coding, and lifelong learning. Topics include but are not limited to: AI, LLM, ML, DL, vibe coding, AI tools, AI usage, AI + full stack, AI + various domains, English learning, traffic, SEO, user growth, backend, fullstack, iOS, Android, gaming, life hacking, cybersecurity, and beyond.
 
@@ -45,6 +45,10 @@ Group Rules (Updated: 2026-04-25):
 15. Content shared in the group is, by default, treated as MIT-licensed; members may reuse it for prompts, notes, or derivative work (state exceptions explicitly).
 
 16. Making mistakes is fine — we encourage it as part of learning, no worries. What is not okay: attacking people or saying very bad things to others, and sending 20 or more messages at once (except the group owner, for operation or sharing needs).
+
+17. We hope this group remains harmonious and valuable over the long term. Before the group owner adds certain new members, they should briefly inform the existing members and wait for a while before adding them. If any members have objections or there are past conflicts in the IT community, please let the group owner know in advance — they will consider canceling the addition. If you have concerns about certain members or if the content they share is negative or inappropriate, please inform the group owner.
+
+18. We encourage sharing negative but real content, and we encourage seeking help here. If you lose your job, your company shuts down, housing prices halve, or you face family misfortune — the group owner will do their best to help: sharing their own stories, or rallying group members and friends to support you.
 
 ---
 
