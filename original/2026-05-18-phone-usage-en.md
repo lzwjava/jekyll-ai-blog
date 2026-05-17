@@ -16,7 +16,7 @@ translated: false
 
 - Around 300 apps installed, including global, Hong Kong, Japanese, and US-region apps.
 
-## Google Pixel
+## Google Pixel 7
 
 - My secondary phone.
 
@@ -38,3 +38,4 @@ translated: false
 
 - Only essential apps — about 20 installed.
 
+- Uses another Apple account, but still within the US region.
