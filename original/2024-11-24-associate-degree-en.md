@@ -14,13 +14,7 @@ Updated in May 2026.
 
 Below is my assoiciate progress. 
 
-Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
-
--This is China's National Higher Education Self-study Examination. The program requires 18 written exams and 5 practical exams, taken 2–3 times per year at organized onsite sessions with proctor teachers.
-- Passed 13 written courses: Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law, Computer Organization and Architecture, Introduction to Programming—Java, Mobile Application Development Technology, Web Design and Production, and Ideological and Moral Cultivation and Rule of Law.
-- Passed 3 practical exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, and Database and Its Applications.
-- Pending 5 written exams: Computer Network Technology, Switching and Routing Technologies, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era, and Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics.
-- Pending 2 practical exams: Web Design and Production, Mobile Application Development Technology.
+See [Educational Background → GDUFS](https://lzwjava.github.io/resume-en/#edu-gdufs) for the current exam status (passed/pending courses).
 
 ---
 
