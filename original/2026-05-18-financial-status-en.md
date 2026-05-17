@@ -10,7 +10,7 @@ translated: false
 
 Updated: May 2026.
 
-- Mortgage principal (本金): ~790,000 CNY
+- Mortgage principal: ~790,000 CNY
 - Projected mortgage interest over the coming years: ~30,000 CNY
 - Tiger stock: 13,000 CNY
 - Binance assets: 280 CNY
