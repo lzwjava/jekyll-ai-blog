@@ -8,7 +8,7 @@ title: 'Associate Degree: Progress and Reflection'
 type: post
 ---
 
-Updated in February 2026.
+Updated in May 2026.
 
 ---
 
@@ -16,9 +16,11 @@ Below is my assoiciate progress.
 
 Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
-- National Higher Education Self-study Examination. Passed 13 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law, Computer Organization and Architecture, Introduction to Programming—Java, Mobile Application Development Technology and Web Design and Production.
-- Currently preparing for 5 written exams such as Computer Network Technology, Switching and Routing Technologies, Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era.
-- Currently preparing for 5 practical exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, Database and Its Applications, Web Design and Production, Mobile Application Development Technology.
+-This is China's National Higher Education Self-study Examination. The program requires 18 written exams and 5 practical exams, taken 2–3 times per year at organized onsite sessions with proctor teachers.
+- Passed 13 written courses: Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law, Computer Organization and Architecture, Introduction to Programming—Java, Mobile Application Development Technology, Web Design and Production, and Ideological and Moral Cultivation and Rule of Law.
+- Passed 3 practical exams: Fundamentals of Computer Programming, Computer Fundamentals and Application Technology, and Database and Its Applications.
+- Pending 5 written exams: Computer Network Technology, Switching and Routing Technologies, College Chinese, An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era, and Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics.
+- Pending 2 practical exams: Web Design and Production, Mobile Application Development Technology.
 
 ---
 
@@ -100,6 +102,9 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | 00342      | Advanced Programming Language (I)                | 202210    | Exam        | 75    | 3       |
 | 00022      | Advanced Mathematics (Engineering)               | 202404    | Exam        | 77    | 7       |
 | 00012      | English (I)                                      | 202210    | Exam        | 80    | 7       |
+| 13794      | Fundamentals of Computer Programming (Practical) | 202604    | Practical   | Excellent  | —       |
+| 13808      | Computer Fundamentals and Application Technology (Practical) | 202604    | Practical   | Pass  | —       |
+| 13171      | Database and Its Applications (Practical)        | 202604    | Practical   | Pass  | —       |
 
 ## Courses Mapping
 
@@ -157,6 +162,14 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 | Computer Network Technology | 23 |
 | College Chinese | 57 |
 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era | 56 |
+
+### 2026.04 Practical
+
+| Subject | Grade |
+|---------|-------|
+| Fundamentals of Computer Programming | Excellent |
+| Computer Fundamentals and Application Technology | Pass |
+| Database and Its Applications | Pass |
 
 ## Reasons for passing courses
 * Already had good understanding before the exam, like Introduction to Data Structures and English
@@ -251,6 +264,9 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13182 | Data Structures | Medium | 1 | Substituted | - |
 | 13181 | Data Structures | 75 | 3 | Substituted | - |
 | 13807 | Computer Fundamentals and Application Technology | 73 | 3 | Substituted | - |
+| 13794 | Fundamentals of Computer Programming (Practical) | Excellent | — | Valid | 202604 |
+| 13808 | Computer Fundamentals and Application Technology (Practical) | Pass | — | Valid | 202604 |
+| 13171 | Database and Its Applications (Practical) | Pass | — | Valid | 202604 |
 
 ---
 
@@ -262,11 +278,8 @@ The following courses (one or more) may still need to be passed:
 
 | # | Course Code | Course Name |
 | :--- | :--- | :--- |
-| 1 | 13808 | Computer Fundamentals and Application Technology |
-| 2 | 13794 | Fundamentals of Computer Programming |
-| 3 | 13171 | Database and Its Applications |
-| 4 | 13168 | Web Design and Production |
-| 5 | 14568 | Mobile Application Development Technology |
+| 1 | 13168 | Web Design and Production |
+| 2 | 14568 | Mobile Application Development Technology |
 
 ### Written
 
@@ -277,3 +290,26 @@ The following courses (one or more) may still need to be passed:
 | 3 | 13833 | Switching and Routing Technologies |
 | 4 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
 | 5 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+
+---
+
+## Graduation Prediction
+
+Prediction result from the [Guangdong Self-Study Exam System](https://www.eeagd.edu.cn/zkselfec/pages/main.jsp):
+
+| # | Course Code | Course Name |
+| :--- | :--- | :--- |
+| 1 | 13808 | Computer Fundamentals and Application Technology |
+| 2 | 13794 | Fundamentals of Computer Programming |
+| 3 | 13171 | Database and Its Applications |
+| 4 | 02141 | Computer Network Technology |
+| 5 | 04729 | College Chinese |
+| 6 | 13833 | Switching and Routing Technologies |
+| 7 | 13168 | Web Design and Production |
+| 8 | 14568 | Mobile Application Development Technology |
+| 9 | 15040 | An Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 10 | 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+
+**Status: Does not meet graduation requirements.**
+
+Note: If the ideological and political course substitution does not match the actual situation, click the "Re-select Substitution Relationship Prediction" button at the bottom of the page to manually choose the substitution relationship. Actual results are subject to final review by the Ministry of Education.
