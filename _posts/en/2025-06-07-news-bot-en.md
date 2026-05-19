@@ -377,7 +377,6 @@ if __name__ == "__main__":
     main()
 ```
 
-{% raw %}
 ```yml
 name: News Bot
 
@@ -425,4 +424,3 @@ jobs:
         run: python scripts/nytimes/news_bot.py
               
 ```
-{% endraw %}

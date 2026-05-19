@@ -11,7 +11,6 @@ type: post
 
 In this project, I set up an automated reminder system using GitHub Actions and a Telegram bot to keep my daily and monthly tasks on track. By leveraging cron schedules, I configured reminders for work-related tasks like punching in on WeCom, submitting timesheets, and checking salaries, as well as personal tasks such as visiting family, shopping on JD.com, and even watching TV with my partner. The system uses a Python script to send messages via Telegram's Bot API, with environment variables securely stored in GitHub Secrets. This setup ensures I never miss critical deadlines or personal commitments, blending technology with everyday life for maximum efficiency.
 
-{% raw %}
 ```yaml
 name: Reminders
 
@@ -140,7 +139,6 @@ jobs:
         run: python scripts/release/reminders_bot.py --job send_message --message "This is a test message from GitHub Actions."
         if: github.event_name == 'workflow_dispatch'
 ```
-{% endraw %}
 
 ```python
 import os
