@@ -13,7 +13,7 @@ type: note
 
 **修复了11个帖子主题中的23个文件**（每个主题包含英文和中文版本，以及DRY帖子）
 
-问题：Jekyll的Liquid解析器在Markdown渲染之前运行，因此代码块（即使是围栏式 ``` 代码块）中的 `{{ }}` 和 `{% %}` 会被解析为Liquid表达式。
+问题：Jekyll的Liquid解析器在Markdown渲染之前运行，因此代码块（即使是围栏式 ``` 代码块）中的 `{{ }}` 和 `{% raw %}{% %}{% endraw %}` 会被解析为Liquid表达式。
 
 修复方法：将每个受影响的围栏式代码块用 `{% raw %}...{% endraw %}` 包裹起来，这样Liquid就不会处理其中的内容：
 
@@ -24,4 +24,4 @@ type: note
 - **GitHub Actions帖子**：`{{ inputs.version || 'latest' }}`
 - **Gitea Docker帖子**（2个主题）：`{{range $k,$v ...}}`、`{{.Names}}`
 - **Nextcloud帖子**：`{{.Name}}`、`{{.CPUPerc}}`
-- **DRY帖子**（英文+中文）：内联 `{% include %}` 和 `{% include ... %}` 分别用 `{% raw %}...{% endraw %}` 包裹
+- **DRY帖子**（英文+中文）：内联 `{% raw %}{% include %}{% endraw %}` 和 `{% raw %}{% include ... %}{% endraw %}` 分别用 `{% raw %}...{% endraw %}` 包裹

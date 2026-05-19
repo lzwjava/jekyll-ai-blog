@@ -24,4 +24,4 @@ The fix: Wrapped each affected fenced code block with `{% raw %}...{% endraw %}`
 - **GitHub Actions post**: `{{ inputs.version || 'latest' }}`
 - **Gitea Docker posts** (2 topics): `{{range $k,$v ...}}`, `{{.Names}}`
 - **Nextcloud post**: `{{.Name}}`, `{{.CPUPerc}}`
-- **DRY post** (en + zh): inline `{% include %}` and `{% include ... %}` wrapped individually with `{% raw %}...{% endraw %}`
+- **DRY post** (en + zh): inline `{% raw %}{% include %}{% endraw %}` and `{% raw %}{% include ... %}{% endraw %}` wrapped individually with `{% raw %}...{% endraw %}`
