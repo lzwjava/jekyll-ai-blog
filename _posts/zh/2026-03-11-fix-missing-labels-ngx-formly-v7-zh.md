@@ -62,19 +62,23 @@ fields: FormlyFieldConfig[] = [
 如果您编写了自定义包装器，模板很可能读取 `field.templateOptions?.label` 或仅 `to.label`（旧简写）。您必须更新为使用 `props`。
 
 **之前：**
+{% raw %}
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ to.label }}</label>           <!-- templateOptions 的旧简写 -->
 <label>{{ field.templateOptions?.label }}</label>
 <ng-container #fieldComponent></ng-container>
 ```
+{% endraw %}
 
 **之后：**
+{% raw %}
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ props.label }}</label>        <!-- 直接使用 props -->
 <ng-container #fieldComponent></ng-container>
 ```
+{% endraw %}
 
 现代自定义包装器模式在模板中直接暴露 `props.label`，例如：`<h3 class="card-header">{{ props.label }}</h3>`。
 
@@ -83,6 +87,7 @@ fields: FormlyFieldConfig[] = [
 ### 3. 自定义字段类型组件
 
 **之前：**
+{% raw %}
 ```ts
 @Component({
   template: `
@@ -92,8 +97,10 @@ fields: FormlyFieldConfig[] = [
 })
 export class CustomInputType extends FieldType {}
 ```
+{% endraw %}
 
 **之后：**
+{% raw %}
 ```ts
 import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 
@@ -106,6 +113,7 @@ import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 export class CustomInputType extends FieldType<FieldTypeConfig> {}
 //                                             ^^^^^^^^^^^^^^^ 同时添加泛型
 ```
+{% endraw %}
 
 ---
 

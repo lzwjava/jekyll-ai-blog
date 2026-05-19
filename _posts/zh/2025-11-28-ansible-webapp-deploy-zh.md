@@ -47,6 +47,7 @@ python_version=3.11
 ```
 
 ### 2. deploy.yml（主剧本）
+{% raw %}
 ```yaml
 ---
 - name: 使用 Gunicorn + Nginx 部署 Python Web 应用程序
@@ -60,8 +61,10 @@ python_version=3.11
   roles:
     - webapp
 ```
+{% endraw %}
 
 ### 3. roles/webapp/tasks/main.yml
+{% raw %}
 ```yaml
 ---
 - name: 安装系统依赖
@@ -140,8 +143,10 @@ python_version=3.11
     state: absent
   notify: 重载 nginx
 ```
+{% endraw %}
 
 ### 4. roles/webapp/templates/gunicorn.service.j2
+{% raw %}
 ```ini
 [Unit]
 Description={{ app_name }} 的 Gunicorn 实例
@@ -161,8 +166,10 @@ RestartSec=3
 [Install]
 WantedBy=multi-user.target
 ```
+{% endraw %}
 
 ### 5. roles/webapp/templates/nginx-site.conf.j2
+{% raw %}
 ```nginx
 server {
     listen 80;
@@ -183,8 +190,10 @@ server {
     # }
 }
 ```
+{% endraw %}
 
 ### 6. roles/webapp/handlers/main.yml
+{% raw %}
 ```yaml
 ---
 - name: 重载 systemd
@@ -201,6 +210,7 @@ server {
     name: nginx
     state: reloaded
 ```
+{% endraw %}
 
 ### 运行部署
 ```bash

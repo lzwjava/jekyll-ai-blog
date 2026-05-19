@@ -14,11 +14,13 @@ That's a solid optimization! Switching your cron schedule to `'0 */2 * * *'` (ev
 
 If your repo involves a Jekyll site or similar (given the `_config.yml` and `_sass/**` paths), this setup should keep deploys lean. A couple of quick tips to stretch those minutes even further:
 - **Add a `concurrency` block** to your workflow YAML to cancel in-progress runs if a new one starts (e.g., for overlapping schedule/push events):
+{% raw %}
   ```yaml
   concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
     cancel-in-progress: true
   ```
+{% endraw %}
 - **Monitor usage** via GitHub's settings > Billing > Usage—set up a simple script or alert if you hit ~1500 minutes to catch spikes early.
 - If note accumulation is the main driver, consider filtering the schedule trigger further with a `if` condition based on recent commits to AI-related paths (e.g., `scripts/llm/**`).
 

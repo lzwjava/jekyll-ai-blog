@@ -24,6 +24,7 @@ This approach:
 #### Updated YAML Snippet
 Insert this new step right after the "Checkout Repository" step in your `build` job. The rest of the workflow remains unchanged.
 
+{% raw %}
 ```yaml
 jobs:
   build:
@@ -85,6 +86,7 @@ jobs:
 
       # ... (repeat the 'if: steps.cooldown.outputs.skip_build != 'true'' condition on ALL remaining steps after this one)
 ```
+{% endraw %}
 
 #### Key Changes Explained
 1. **API Query**:

@@ -62,19 +62,23 @@ fields: FormlyFieldConfig[] = [
 If you wrote a custom wrapper, the template likely reads `field.templateOptions?.label` or just `to.label` (the old shorthand). You must update it to use `props`.
 
 **Before:**
+{% raw %}
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ to.label }}</label>           <!-- old shorthand for templateOptions -->
 <label>{{ field.templateOptions?.label }}</label>
 <ng-container #fieldComponent></ng-container>
 ```
+{% endraw %}
 
 **After:**
+{% raw %}
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ props.label }}</label>        <!-- use props directly -->
 <ng-container #fieldComponent></ng-container>
 ```
+{% endraw %}
 
 The modern custom wrapper pattern exposes `props.label` directly in the template, like: `<h3 class="card-header">{{ props.label }}</h3>`.
 
@@ -83,6 +87,7 @@ The modern custom wrapper pattern exposes `props.label` directly in the template
 ### 3. Custom Field Type Components
 
 **Before:**
+{% raw %}
 ```ts
 @Component({
   template: `
@@ -92,8 +97,10 @@ The modern custom wrapper pattern exposes `props.label` directly in the template
 })
 export class CustomInputType extends FieldType {}
 ```
+{% endraw %}
 
 **After:**
+{% raw %}
 ```ts
 import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 
@@ -106,6 +113,7 @@ import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 export class CustomInputType extends FieldType<FieldTypeConfig> {}
 //                                             ^^^^^^^^^^^^^^^ also add generic
 ```
+{% endraw %}
 
 ---
 

@@ -22,6 +22,7 @@ type: note
 
 我们将使用单个 cron 调度组合这些时间，并让脚本确定具体操作。
 
+{% raw %}
 ```yaml
 name: 打卡提醒
 
@@ -93,6 +94,7 @@ jobs:
       run: python scripts/release/location_bot.py --job send_message --message "打卡提醒机器人的代码变更已推送至 main 分支。"
       if: github.event_name == 'push'
 ```
+{% endraw %}
 
 ---
 

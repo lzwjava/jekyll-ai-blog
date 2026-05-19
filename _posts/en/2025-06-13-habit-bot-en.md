@@ -146,6 +146,7 @@ if __name__ == "__main__":
 
 ## GitHub Action
 
+{% raw %}
 ```yaml
 name: Habit
 
@@ -215,3 +216,4 @@ jobs:
         if: github.event_name == 'push'
 
 ```
+{% endraw %}

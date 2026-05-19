@@ -39,6 +39,7 @@ This JSON file contains various VS Code settings that customize the editor's beh
 
 
 
+{% raw %}
 ```json
 {
       "eslint.autoFixOnSave": true,
@@ -166,3 +167,4 @@ This JSON file contains various VS Code settings that customize the editor's beh
       "tabnine.experimentalAutoImports": true,
 }
 ```
+{% endraw %}

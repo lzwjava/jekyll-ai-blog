@@ -46,6 +46,7 @@ JavaServer Pages (JSP) 是一种服务器端技术，用于在 Java 应用程序
 JSP 文件使用 `.jsp` 扩展名，通过脚本片段 (`<% %>`)、表达式 (`<%= %>`) 和声明 (`<%! %>`) 将 Java 代码与 HTML 结合。现代最佳实践建议使用 JSP 表达式语言 (EL) 和 JSTL 替代原始脚本片段。
 
 示例：在应用根目录创建 `index.jsp`：
+{% raw %}
 ```jsp
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  <!-- 如需使用 JSTL -->
@@ -79,6 +80,7 @@ JSP 文件使用 `.jsp` 扩展名，通过脚本片段 (`<% %>`)、表达式 (`<
 </body>
 </html>
 ```
+{% endraw %}
 
 - **核心元素**：
   - **指令**：`<%@ page ... %>` 设置页面属性；`<%@ taglib ... %>` 导入标签库。

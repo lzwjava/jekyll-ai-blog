@@ -46,6 +46,7 @@ Below is a step-by-step guide to get started with JSP, from setup to deployment.
 JSP files have a `.jsp` extension and combine HTML with Java code using scriptlets (`<% %>`), expressions (`<%= %>`), and declarations (`<%! %>`). For modern best practices, use JSP Expression Language (EL) and JSTL (JavaServer Pages Standard Tag Library) to avoid raw scriptlets.
 
 Example: Create `index.jsp` in your app's root:
+{% raw %}
 ```jsp
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  <!-- For JSTL, if used -->
@@ -79,6 +80,7 @@ Example: Create `index.jsp` in your app's root:
 </body>
 </html>
 ```
+{% endraw %}
 
 - **Key Elements**:
   - **Directives**: `<%@ page ... %>` sets page properties; `<%@ taglib ... %>` imports tag libraries.

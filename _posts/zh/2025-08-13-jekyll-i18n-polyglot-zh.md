@@ -51,6 +51,7 @@ Polyglot 会自动生成语言路径如 `/en/about/` 和 `/zh/about/`，同时�
 
 **语言切换器（布局文件中）**
 
+{% raw %}
 ```liquid
 <nav class="lang-switch">
   {% for lang in site.languages %}
@@ -66,9 +67,11 @@ Polyglot 会自动生成语言路径如 `/en/about/` 和 `/zh/about/`，同时�
   {% endfor %}
 </nav>
 ```
+{% endraw %}
 
 更简洁的实现方式：
 
+{% raw %}
 ```liquid
 <nav>
   {% for lang in site.languages %}
@@ -76,6 +79,7 @@ Polyglot 会自动生成语言路径如 `/en/about/` 和 `/zh/about/`，同时�
   {% endfor %}
 </nav>
 ```
+{% endraw %}
 
 **界面文本本地化**
 创建 `_data/i18n.yml`：
@@ -93,13 +97,16 @@ zh:
 
 模板中调用：
 
+{% raw %}
 ```liquid
 {{ site.data.i18n[site.active_lang].nav.home }}
 ```
+{% endraw %}
 
 **SEO 优化（hreflang）**
 在布局文件的 `<head>` 部分添加：
 
+{% raw %}
 ```liquid
 {% assign langs = site.languages %}
 {% for l in langs %}
@@ -107,6 +114,7 @@ zh:
 {% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.default_lang }}{{ page.url }}" />
 ```
+{% endraw %}
 
 # 2) 无插件方案：分语言目录 + Liquid 逻辑
 
@@ -154,9 +162,11 @@ lang: en
 
 或通过路径推断：
 
+{% raw %}
 ```liquid
 {% assign current_lang = page.lang | default: page.path | split:'/' | first | remove:'_' %}
 ```
+{% endraw %}
 
 **翻译版本互链**
 在 Front Matter 中使用共享标识符：
@@ -181,6 +191,7 @@ ref: hello-post
 
 在布局文件中查找对应版本：
 
+{% raw %}
 ```liquid
 {% assign siblings = site.pages | concat: site.posts | where:"ref", page.ref %}
 {% for s in siblings %}
@@ -189,6 +200,7 @@ ref: hello-post
   {% endunless %}
 {% endfor %}
 ```
+{% endraw %}
 
 **无插件界面文本本地化**
 沿用上述 `_data/i18n.yml` 方案，通过 `current_lang` 选择语言。
@@ -213,10 +225,12 @@ ref: hello-post
 
 **本地化日期显示**
 
+{% raw %}
 ```liquid
 {% assign locale = page.lang | default: site.default_lang %}
 {{ page.date | date: "%B %-d, %Y" }}  {# 如需完整本地化支持需使用插件或预格式化字符串 #}
 ```
+{% endraw %}
 
 （Jekyll 内置的 `date` 过滤器不具备完整本地化能力，如需真正本地化日期格式需要插件支持或数据文件预格式化）
 

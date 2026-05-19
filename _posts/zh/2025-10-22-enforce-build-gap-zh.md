@@ -24,6 +24,7 @@ type: note
 #### 更新后的YAML代码片段
 将此新步骤插入到`build`作业的"检出代码库"步骤之后。工作流程其余部分保持不变。
 
+{% raw %}
 ```yaml
 jobs:
   build:
@@ -85,6 +86,7 @@ jobs:
 
       # ...（在此之后的所有剩余步骤重复添加'if: steps.cooldown.outputs.skip_build != 'true''条件）
 ```
+{% endraw %}
 
 #### 关键变更说明
 1. **API查询**：

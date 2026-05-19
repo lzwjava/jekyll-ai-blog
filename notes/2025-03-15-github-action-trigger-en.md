@@ -17,6 +17,7 @@ You can trigger a workflow programmatically using the `workflow_dispatch` event 
 
 - **How it works**: The first workflow makes an API call to trigger the second workflow.
 - **Example**:
+{% raw %}
   ```yaml
   name: Trigger Another Workflow
   on: [push]
@@ -32,6 +33,7 @@ You can trigger a workflow programmatically using the `workflow_dispatch` event 
               https://api.github.com/repos/<owner>/<repo>/actions/workflows/<workflow_id>/dispatches \
               -d '{"ref": "main"}'
   ```
+{% endraw %}
   Replace `<owner>`, `<repo>`, and `<workflow_id>` with your repository details and the target workflow's ID. The second workflow must include `on: [workflow_dispatch]` in its configuration.
 
 ---
@@ -42,6 +44,7 @@ A workflow can send a custom event using a repository dispatch, which another wo
 - **How it works**: The first workflow sends a repository dispatch event via the GitHub API, and the second workflow responds to that event.
 - **Example**:
   - First workflow (sends the event):
+{% raw %}
     ```yaml
     name: Send Dispatch Event
     on: [push]
@@ -57,6 +60,7 @@ A workflow can send a custom event using a repository dispatch, which another wo
                 https://api.github.com/repos/<owner>/<repo>/dispatches \
                 -d '{"event_type": "custom_event"}'
     ```
+{% endraw %}
   - Second workflow (triggered by the event):
     ```yaml
     name: Triggered by Dispatch

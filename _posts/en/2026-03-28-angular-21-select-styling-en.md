@@ -16,6 +16,7 @@ Since a standard HTML `<select>` only allows styling on the `<option>` elements 
 ### Option 1: Using Modern Class Bindings (Recommended)
 Instead of the older `[ngClass]`, you can use the `@for` control flow and direct `[class]` bindings. This is cleaner and faster in Angular 21.
 
+{% raw %}
 ```html
 <select>
   @for (item of options; track item.id) {
@@ -25,10 +26,12 @@ Instead of the older `[ngClass]`, you can use the `@for` control flow and direct
   }
 </select>
 ```
+{% endraw %}
 
 ### Option 2: Using `[ngClass]` for Complex Logic
 If you need to apply multiple classes based on a condition (e.g., "apply `high-priority` only if the status is 'urgent'"), `[ngClass]` is still very useful.
 
+{% raw %}
 ```html
 <select>
   @for (opt of dropdownOptions; track opt.id) {
@@ -44,6 +47,7 @@ If you need to apply multiple classes based on a condition (e.g., "apply `high-p
   }
 </select>
 ```
+{% endraw %}
 
 ### Pro-Tip: The "Dropdown Limitation"
 Standard HTML `<select>` and `<option>` elements are notorious for being difficult to style (you often can't change much beyond colors and fonts).

@@ -143,6 +143,7 @@ if __name__ == "__main__":
 
 ## GitHub Action
 
+{% raw %}
 ```yaml
 name: 习惯养成
 
@@ -210,3 +211,4 @@ jobs:
         run: python scripts/bot/habit_bot.py --job send_message --message "习惯机器人代码已推送至主分支"
         if: github.event_name == 'push'
 ```
+{% endraw %}

@@ -37,9 +37,11 @@ assets:
 
 If your theme uses something like:
 
+{% raw %}
 ```liquid
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 ```
+{% endraw %}
 
 make sure you are not piping it through `asset_path` or `absolute_url` with digest enabled. Just use `relative_url`.
 

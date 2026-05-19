@@ -14,6 +14,7 @@ You can do this entirely in GitHub Actions: build the site on the runner, then c
 
 Below is a drop-in workflow you can add to your **source** repo (where your Python scripts and Jekyll content live):
 
+{% raw %}
 ```yaml
 # .github/workflows/build-and-deploy.yml
 name: Build & Deploy Jekyll to External Repo
@@ -109,6 +110,7 @@ jobs:
           name: site
           path: _site
 ```
+{% endraw %}
 
 ### What you need to set up
 

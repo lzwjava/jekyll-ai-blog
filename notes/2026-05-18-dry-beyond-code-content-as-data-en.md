@@ -15,7 +15,7 @@ Exactly. You've hit on a real insight — DRY isn't just for code. Content has d
 
 - **Jekyll `_data` files** — define a YAML/JSON data structure once, then reference it in any page via `site.data.whatever`. If your resume progress was in `_data/education.yml`, both pages could render from it without copying.
 
-- **Jekyll `{% include %}`** — a shared snippet. Write the progress bullets once in `_includes/associate-degree-progress.md`, then `{% include ... %}` it into both pages. Truly like a function call for content.
+- **Jekyll {% raw %}`{% include %}`{% endraw %}** — a shared snippet. Write the progress bullets once in `_includes/associate-degree-progress.md`, then {% raw %}`{% include ... %}`{% endraw %} it into both pages. Truly like a function call for content.
 
 - **Transclusion** — some systems let you embed a section of one page inside another at render time. Obsidian does this natively. For Jekyll you'd need a plugin like `jekyll-crosspost`.
 

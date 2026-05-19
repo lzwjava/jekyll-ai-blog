@@ -34,6 +34,7 @@ type: note
 
 每个文件将使用与您提供的代码类似的结构，但会使用 Liquid 筛选特定语言的文章。以下是 `index-en.html` 的示例：
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -89,9 +90,11 @@ permalink: /en/
   </span>
 </footer>
 ```
+{% endraw %}
 
 对于 `index-zh.html`，您需要替换 `lang` 和 `where` 筛选器：
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -125,6 +128,7 @@ permalink: /zh/
 
 <!-- 同上 footer -->
 ```
+{% endraw %}
 
 为每种语言（`ja`、`es`、`hi`、`fr`、`de`、`ar`、`hant` 等）重复此过程，相应调整 `lang` 前置数据和 `where` 筛选器。
 
@@ -149,9 +153,11 @@ top: 1
 
 如果您的文章组织在子目录中，如 `_posts/en/`、`_posts/zh/` 等，您可以从路径推断语言，而不使用 `lang` 变量。例如，在 `index-en.html` 中：
 
+{% raw %}
 ```liquid
 {% assign en_posts = site.posts | where_exp: "post", "post.path contains '_posts/en/'" %}
 ```
+{% endraw %}
 
 ---
 
@@ -159,6 +165,7 @@ top: 1
 
 由于语言筛选现在在构建时处理，您可以简化 JavaScript，仅处理排序（例如按日期或作者精选）和语言页面之间的导航。以下是更新后的 JavaScript 版本：
 
+{% raw %}
 ```javascript
 window.addEventListener('load', function () {
   const sortSelect = document.getElementById('sort-select');
@@ -256,6 +263,7 @@ window.addEventListener('load', function () {
   });
 });
 ```
+{% endraw %}
 
 主要变更：
 - 脚本检查所选语言是否与当前页面的语言（`{{ page.lang }}`）匹配。如果不匹配，则重定向到相应的语言页面（例如，中文为 `/zh/`）。
@@ -286,6 +294,7 @@ window.addEventListener('load', function () {
 - **全部**：您可以创建一个包含所有文章的 `index.html`（类似于您的原始设置），或重定向到某个语言特定页面。
 - **原创**：您可以创建一个 `index-original.html`，筛选 `translated: false` 和 `generated: false` 的文章：
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -319,6 +328,7 @@ permalink: /original/
 
 <!-- 同上 footer -->
 ```
+{% endraw %}
 
 ---
 

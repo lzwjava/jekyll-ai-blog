@@ -101,6 +101,7 @@ export class MyModule {}
 
 ### 完整示例
 
+{% raw %}
 ```typescript
 // my.service.ts
 @Injectable({ providedIn: 'root' })
@@ -124,6 +125,7 @@ export class MyComponent {
 })
 export class MyModule {}
 ```
+{% endraw %}
 
 ---
 

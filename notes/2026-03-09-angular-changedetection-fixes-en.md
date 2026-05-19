@@ -134,6 +134,7 @@ export class PaginationStateService {
 }
 ```
 
+{% raw %}
 ```typescript
 // worklist.component.ts
 this.paginationState.setTotalItems(result.total);
@@ -142,6 +143,7 @@ this.paginationState.setTotalItems(result.total);
 totalItems$ = this.paginationState.totalItems;
 // template: {{ totalItems$ | async }}
 ```
+{% endraw %}
 
 Using a shared service with observables is especially useful for deeply nested components, avoiding the need to bubble data and events up and down the component tree via `@Input`/`@Output` chains.
 

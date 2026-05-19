@@ -130,6 +130,7 @@ vault write database/config/mydb2 \
 
 **3. 为 Dynamic Credentials 创建映射角色**
 
+{% raw %}
 ```bash
 vault write database/roles/myapp-role \
     db_name=mydb2 \
@@ -137,6 +138,7 @@ vault write database/roles/myapp-role \
     default_ttl="1h" \
     max_ttl="24h"
 ```
+{% endraw %}
 
 **4. Spring Boot 配置**
 

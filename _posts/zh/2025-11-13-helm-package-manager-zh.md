@@ -124,6 +124,7 @@ resources:
 ```
 
 ### `templates/deployment.yaml`
+{% raw %}
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -149,8 +150,10 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
 ```
+{% endraw %}
 
 ### `_helpers.tpl`（最佳实践）
+{% raw %}
 ```tpl
 {{/* 生成基础标签 */}}
 {{- define "my-app.labels" -}}
@@ -159,6 +162,7 @@ app.kubernetes.io/name: {{ include "my-app.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 ```
+{% endraw %}
 
 ---
 

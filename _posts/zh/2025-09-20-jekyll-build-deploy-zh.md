@@ -14,6 +14,7 @@ type: note
 
 以下是可添加到**源**仓库（存放 Python 脚本和 Jekyll 内容的地方）的即用工作流：
 
+{% raw %}
 ```yaml
 # .github/workflows/build-and-deploy.yml
 name: 构建并部署 Jekyll 到外部仓库
@@ -109,6 +110,7 @@ jobs:
           name: site
           path: _site
 ```
+{% endraw %}
 
 ### 需要设置的内容
 

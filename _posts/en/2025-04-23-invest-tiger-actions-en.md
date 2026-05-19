@@ -95,6 +95,7 @@ if __name__ == '__main__':
 
 The workflow runs every Wednesday at 14:35 UTC (10:35 PM UTC) and sets up the environment, installs dependencies, and executes the script.
 
+{% raw %}
 ```yaml
 name: Regular Invest
 
@@ -144,3 +145,4 @@ jobs:
           TIGER_ACCOUNT: ${{ secrets.TIGER_ACCOUNT }}
           TIGER_PEM: "tiger.pem"
 ```
+{% endraw %}

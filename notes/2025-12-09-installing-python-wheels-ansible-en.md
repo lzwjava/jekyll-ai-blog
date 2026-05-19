@@ -39,6 +39,7 @@ This single task:
 
 If you have many wheels in a directory and want to install all of them:
 
+{% raw %}
 ```yaml
 - name: Install all .whl files from a directory
   ansible.builtin.pip:
@@ -46,6 +47,7 @@ If you have many wheels in a directory and want to install all of them:
     state: present
   loop: "{{ q('fileglob', '/opt/wheels/*.whl') }}"
 ```
+{% endraw %}
 
 Or if you really want to be extra explicit with a prior check (rarely needed):
 

@@ -64,9 +64,11 @@ Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in
 
 ### General fan/noise prevention:
 1. **Set up alerting on container CPU** — run this cron to alert before it gets bad:
+{% raw %}
    ```
    docker stats --no-stream --format "{{.Name}}: {{.CPUPerc}}" | awk -F: '$2>80 {print $1" high CPU"}'
    ```
+{% endraw %}
 2. **Rotate logs** — prevent log files in containers from filling disk and causing swap pressure
 3. **Restart containers periodically** — many PHP apps (Nextcloud, LibreChat) benefit from occasional restarts to clear memory leaks
 
@@ -74,6 +76,7 @@ Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in
 
 ## 🔧 Quick Diagnostic Commands
 
+{% raw %}
 ```bash
 # Find what's hottest
 docker stats --no-stream
@@ -90,5 +93,6 @@ curl -s http://localhost:8080/status.php
 # Full system load
 uptime && top -b -n1 | head -8
 ```
+{% endraw %}
 
 Any container at sustained >50% CPU for more than a few minutes = investigate immediately.

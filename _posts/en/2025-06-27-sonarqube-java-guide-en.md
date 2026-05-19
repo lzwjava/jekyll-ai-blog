@@ -220,6 +220,7 @@ The SonarQube dashboard provides:
 1. **Integrate with CI/CD**:
    - Add SonarQube analysis to your CI/CD pipeline (e.g., Jenkins, GitHub Actions).
    - Example GitHub Actions workflow:
+{% raw %}
      ```yaml
      name: CI with SonarQube
      on: [push]
@@ -235,6 +236,7 @@ The SonarQube dashboard provides:
            - name: Build and Analyze
              run: mvn clean verify sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=${{ secrets.SONAR_TOKEN }}
      ```
+{% endraw %}
 
 2. **Define Quality Gates**:
    - Set thresholds for code coverage, bugs, and vulnerabilities in SonarQube.

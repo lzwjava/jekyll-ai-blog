@@ -172,6 +172,7 @@ export class AppRoutingModule { }
 
 3.  **在组件中访问查询参数：** 使用 `ActivatedRoute` 服务访问查询参数：
 
+{% raw %}
     ```typescript
     import { Component, OnInit } from '@angular/core';
     import { ActivatedRoute } from '@angular/router';
@@ -218,6 +219,7 @@ export class AppRoutingModule { }
       }
     }
     ```
+{% endraw %}
 
 **解释：**
 

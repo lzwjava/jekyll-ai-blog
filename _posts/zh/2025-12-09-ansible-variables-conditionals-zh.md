@@ -18,6 +18,7 @@ type: note
 
 ### 设置变量 (`vars` 或 `set_fact`)
 
+{% raw %}
 ```yaml
 ---
 - hosts: all
@@ -56,6 +57,7 @@ type: note
       set_fact:
         nginx_running: "{{ nginx_status.rc == 0 }}"
 ```
+{% endraw %}
 
 ### 使用 `when` 条件句
 

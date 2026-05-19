@@ -52,6 +52,7 @@ To generate an SSH key for GitHub Actions to deploy a JAR file, follow these ste
    - Create or edit a workflow file (e.g., `.github/workflows/deploy.yml`).
    - Add a step to use the SSH key for deploying the JAR. Below is an example workflow:
 
+{% raw %}
      ```yaml
      name: Deploy JAR
 
@@ -93,6 +94,7 @@ To generate an SSH key for GitHub Actions to deploy a JAR file, follow these ste
              scp target/your-app.jar user@<server-ip-or-hostname>:/path/to/deploy/
              ssh user@<server-ip-or-hostname> "sudo systemctl restart your-service" # Adjust for your deployment process
      ```
+{% endraw %}
 
    - **Notes**:
      - Replace `target/your-app.jar` with the path to your JAR file.
@@ -104,12 +106,14 @@ To generate an SSH key for GitHub Actions to deploy a JAR file, follow these ste
    - Ensure the private key is never exposed in logs or outputs.
    - Restrict repository permissions to prevent unauthorized access to secrets.
    - If using a passphrase for the SSH key, add it as another secret and include it in the `shimataro/ssh-key-action` step:
+{% raw %}
      ```yaml
      with:
        key: ${{ secrets.SSH_PRIVATE_KEY }}
        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
        known_hosts: 'optional-known-hosts'
      ```
+{% endraw %}
 
 6. **Test the Workflow**:
    - Push a change to the `main` branch (or the branch specified in the workflow).

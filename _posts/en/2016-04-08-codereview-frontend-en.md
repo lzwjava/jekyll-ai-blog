@@ -33,6 +33,7 @@ The HTML template is a mix of static content and dynamic Vue components. Here’
 
 This section is straightforward but sets the tone with a bold background image and a call-to-action (CTA). However, the real magic happens in the dynamic sections, like the "Example Code Reviews":
 
+{% raw %}
 ```html
 <section class="example">
   <div class="container">
@@ -57,6 +58,7 @@ This section is straightforward but sets the tone with a bold background image a
   </div>
 </section>
 ```
+{% endraw %}
 
 ### Key Features:
 1. **Dynamic Data Binding**: The `:src` and `v-html` directives bind data from the `reviews` array (defined in the script) to the template. This allows the app to render content dynamically based on fetched or hardcoded data.

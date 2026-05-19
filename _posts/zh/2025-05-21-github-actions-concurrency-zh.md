@@ -48,11 +48,13 @@ jobs:
 - 确保工作流仅在预期时触发（例如 `on: push: branches: [ main ]` 或 `on: pull_request`）。
 - 如果定义了多个触发器（例如 `push` 和 `pull_request`），它们可能会创建重叠的运行。如需不同触发器使用独立的 `concurrency.group` 名称，可参考：
 
+{% raw %}
 ```yaml
 concurrency:
   group: 'gh-pages-${{ github.event_name }}'
   cancel-in-progress: false
 ```
+{% endraw %}
 
 这会为 `push` 和 `pull_request` 事件创建独立的并发组，防止相互干扰。
 
@@ -112,11 +114,13 @@ jobs:
 ### 9. **调试技巧**
 - 添加步骤记录工作流运行 ID 和并发组以便调试：
 
+{% raw %}
 ```yaml
 steps:
   - name: 记录运行详情
     run: echo "运行 ID: ${{ github.run_id }}, 并发组: ${{ github.workflow }}-${{ github.event_name }}"
 ```
+{% endraw %}
 
 - 如需编程方式检查运行中的工作流，可使用 GitHub Actions API（需要高级设置）。
 

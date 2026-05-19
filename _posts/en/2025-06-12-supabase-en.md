@@ -22,6 +22,7 @@ The workflow needs to run every 5 minutes during the specified time windows in S
 
 We'll use a single cron schedule combining these hours and let the script determine the action.
 
+{% raw %}
 ```yaml
 name: Punch Card Reminders
 
@@ -93,6 +94,7 @@ jobs:
       run: python scripts/release/location_bot.py --job send_message --message "Code changes for punch reminder bot pushed to main branch."
       if: github.event_name == 'push'
 ```
+{% endraw %}
 
 ---
 

@@ -62,9 +62,11 @@ window.addEventListener('load', () => {
 });
 ```
 - 在Jekyll布局中包含此脚本：
+{% raw %}
 ```html
 <script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
 ```
+{% endraw %}
 - **优化原理**：延迟加载`gtag.js`直到页面关键资源（如HTML、CSS）加载完成，提升初始页面速度
 
 ---
@@ -77,9 +79,11 @@ GitHub Pages不支持自定义缓存头，但可通过Cloudflare等CDN代理将`
 2. **代理`gtag.js`**：
    - 在Cloudflare创建页面规则缓存该脚本，或在Jekyll站点的`_site`文件夹中托管本地副本（如`assets/js/gtag.js`）
    - 更新脚本标签：
+{% raw %}
 ```html
 <script async src="{{ '/assets/js/gtag.js' | relative_url }}"></script>
 ```
+{% endraw %}
    - 定期同步本地副本与Google官方脚本（手动或通过CI/CD脚本）
 3. **缓存设置**：
    - 在Cloudflare中为脚本设置缓存规则（如`Cache Everything`并配置1小时TTL）

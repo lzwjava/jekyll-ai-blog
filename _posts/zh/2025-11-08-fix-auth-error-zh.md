@@ -30,12 +30,14 @@ type: note
 
 1. **更新工作流程中的环境变量**：
    - 与常见的OpenRouter设置（OpenAI兼容）对齐。将"Translate posts"步骤中的`env`块改为：
+{% raw %}
      ```
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}  # 将变量名改为脚本期望的名称
        OPENAI_BASE_URL: https://openrouter.ai/api/v1   # 路由到OpenRouter所必需
      ```
+{% endraw %}
    - 如果`DEEPSEEK_API_KEY`是您的OpenRouter密钥，很好。如果这是直接的DeepSeek密钥，请在仓库设置中创建一个新密钥`OPENROUTER_API_KEY`，填入您实际的OpenRouter密钥（在[openrouter.ai/keys](https://openrouter.ai/keys)获取）。
    - 测试：在运行步骤中添加`echo $OPENAI_API_KEY`（已脱敏）用于日志调试。
 
@@ -63,6 +65,7 @@ type: note
    - **调试模式**：添加可选输入`debug: true`和脚本的`--debug`标志用于详细日志记录。
    - **权限**：确保`github-pages`环境具有所需的读写权限。
    - 完整的"Translate posts"步骤更新YAML片段：
+{% raw %}
      ```
      - name: Translate posts
        run: |
@@ -72,6 +75,7 @@ type: note
          OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
          OPENAI_BASE_URL: https://openrouter.ai/api/v1
      ```
+{% endraw %}
 
 4. **测试步骤**：
    - **本地测试**：在本地使用导出的环境变量运行`python scripts/translation/update_lang_notes.py --n 1`（例如`export OPENAI_API_KEY=your_key`）。

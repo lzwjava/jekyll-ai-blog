@@ -16,6 +16,7 @@ type: note
 ### 方案 1：使用现代 Class Bindings（推荐）
 你可以使用 `@for` control flow 和直接的 `[class]` 绑定，而不是旧的 `[ngClass]`。在 Angular 21 中，这种方式更简洁、更快速。
 
+{% raw %}
 ```html
 <select>
   @for (item of options; track item.id) {
@@ -25,10 +26,12 @@ type: note
   }
 </select>
 ```
+{% endraw %}
 
 ### 方案 2：将 `[ngClass]` 用于复杂逻辑
 如果你需要根据条件应用多个 class（例如：“仅当 status 为 'urgent' 时应用 `high-priority`”），`[ngClass]` 仍然非常有用。
 
+{% raw %}
 ```html
 <select>
   @for (opt of dropdownOptions; track opt.id) {
@@ -44,6 +47,7 @@ type: note
   }
 </select>
 ```
+{% endraw %}
 
 ### 专家提示：Dropdown 的局限性
 标准 HTML `<select>` 和 `<option>` 元素是出了名的难以设置样式（除了颜色和字体，通常无法更改更多内容）。

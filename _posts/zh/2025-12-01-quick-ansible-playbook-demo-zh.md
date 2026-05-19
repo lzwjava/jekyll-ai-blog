@@ -36,6 +36,7 @@ localhost ansible_connection=local
 ```
 
 ### 第 3 步：创建世界上最简单的 playbook (hello.yml)
+{% raw %}
 ```yaml
 # hello.yml
 ---
@@ -68,6 +69,7 @@ localhost ansible_connection=local
         state: started
         enabled: yes
 ```
+{% endraw %}
 
 ### 第 4 步：运行 playbook
 ```bash
@@ -118,6 +120,7 @@ localhost ansible_connection=local
 ```
 
 tiny.yml:
+{% raw %}
 ```yaml
 ---
 - name: Tiny demo
@@ -136,6 +139,7 @@ tiny.yml:
       ansible.builtin.debug:
         msg: "{{ file_content.stdout_lines }}"
 ```
+{% endraw %}
 
 运行：
 ```bash

@@ -34,6 +34,7 @@ Create separate page files in your Jekyll project’s root directory for each la
 
 Each file will use a similar structure to your provided code but will filter posts for a specific language using Liquid. Here’s an example for `index-en.html`:
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -89,9 +90,11 @@ permalink: /en/
   </span>
 </footer>
 ```
+{% endraw %}
 
 For `index-zh.html`, you would replace the `lang` and `where` filter:
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -125,6 +128,7 @@ permalink: /zh/
 
 <!-- Same footer as above -->
 ```
+{% endraw %}
 
 Repeat this for each language (`ja`, `es`, `hi`, `fr`, `de`, `ar`, `hant`, etc.), adjusting the `lang` front matter and the `where` filter accordingly.
 
@@ -149,9 +153,11 @@ This allows the `where` filter to correctly identify posts by language.
 
 If your posts are organized in subdirectories like `_posts/en/`, `_posts/zh/`, etc., you can infer the language from the path instead of using a `lang` variable. For example, in `index-en.html`:
 
+{% raw %}
 ```liquid
 {% assign en_posts = site.posts | where_exp: "post", "post.path contains '_posts/en/'" %}
 ```
+{% endraw %}
 
 ---
 
@@ -159,6 +165,7 @@ If your posts are organized in subdirectories like `_posts/en/`, `_posts/zh/`, e
 
 Since the language filtering is now handled at build time, you can simplify the JavaScript to only handle sorting (e.g., by date or author picks) and navigation between language pages. Here’s an updated version of the JavaScript:
 
+{% raw %}
 ```javascript
 window.addEventListener('load', function () {
   const sortSelect = document.getElementById('sort-select');
@@ -256,6 +263,7 @@ window.addEventListener('load', function () {
   });
 });
 ```
+{% endraw %}
 
 Key changes:
 - The script checks if the selected language matches the current page’s language (`{{ page.lang }}`). If not, it redirects to the appropriate language page (e.g., `/zh/` for Chinese).
@@ -286,6 +294,7 @@ For the "All" and "Original" options in the dropdown:
 - **All**: You can create an `index.html` that includes all posts (similar to your original setup) or redirect to one of the language-specific pages.
 - **Original**: You can create an `index-original.html` that filters posts with `translated: false` and `generated: false`:
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -319,6 +328,7 @@ permalink: /original/
 
 <!-- Same footer -->
 ```
+{% endraw %}
 
 ---
 

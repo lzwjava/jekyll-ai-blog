@@ -47,6 +47,7 @@ If you prefer more control:
 1. Create a file at the project root: `/sitemap.xml`.
 2. Add this Liquid template:
 
+{% raw %}
    ```xml
    ---
    layout: nil
@@ -69,6 +70,7 @@ If you prefer more control:
      {% endfor %}
    </urlset>
    ```
+{% endraw %}
 3. Make sure your `_config.yml` has `url: "https://yourdomain.com"` so links generate correctly.
 
 #### 3. Verify

@@ -122,6 +122,7 @@ ansible all -m reboot --become
 
 创建 `first_playbook.yml`：
 
+{% raw %}
 ```yaml
 ---
 - name: 配置 Web 服务器
@@ -162,6 +163,7 @@ ansible all -m reboot --become
         name: nginx
         state: restarted
 ```
+{% endraw %}
 
 执行剧本：
 ```bash
@@ -191,6 +193,7 @@ ansible-playbook -i inventory.ini first_playbook.yml
 5. 主机信息/采集信息
 
 ### 变量使用示例
+{% raw %}
 ```yaml
 vars:
   app_name: myapp
@@ -205,13 +208,16 @@ tasks:
       name: "{{ app_user }}"
       shell: /bin/bash
 ```
+{% endraw %}
 
 ### 使用系统信息
+{% raw %}
 ```yaml
 - name: 显示操作系统信息
   debug:
     msg: "当前系统为 {{ ansible_facts['distribution'] }} {{ ansible_facts['distribution_version'] }}"
 ```
+{% endraw %}
 
 ## 条件与循环
 
@@ -226,6 +232,7 @@ tasks:
 ```
 
 ### 循环操作
+{% raw %}
 ```yaml
 - name: 创建多个用户
   user:
@@ -247,6 +254,7 @@ tasks:
       - git
       - vim
 ```
+{% endraw %}
 
 ## 角色 – 最佳实践目录结构
 

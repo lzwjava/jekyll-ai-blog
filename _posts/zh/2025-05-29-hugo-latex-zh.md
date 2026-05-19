@@ -67,6 +67,7 @@ Hugo 通常能避免此问题，因为：
 -   从全局的 `_layouts/default.html` 或 `_includes/head.html` 中移除 MathJax 脚本。
 -   在您的布局或页面 Front Matter 中添加条件包含。例如，在 `_layouts/post.html` 中：
 
+{% raw %}
 ```html
 {% if page.mathjax %}
   <script type="text/x-mathjax-config">
@@ -81,6 +82,7 @@ Hugo 通常能避免此问题，因为：
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 ```
+{% endraw %}
 
 -   在您 Markdown 文件的 Front Matter 中，仅为特定页面启用 MathJax：
     ```yaml
@@ -127,6 +129,7 @@ Hugo 通常能避免此问题，因为：
 
 1.  **将 MathJax 添加到 Hugo**：
     -   将 MathJax 脚本放在您主题的局部模板中（例如 `layouts/partials/head.html`）：
+{% raw %}
         ```html
         {{ if .Params.mathjax }}
         <script type="text/x-mathjax-config">
@@ -144,6 +147,7 @@ Hugo 通常能避免此问题，因为：
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{ end }}
         ```
+{% endraw %}
     -   通过在前言中设置来为特定页面启用 MathJax：
         ```yaml
         ---
@@ -154,6 +158,7 @@ Hugo 通常能避免此问题，因为：
 
 2.  **使用短代码处理数学公式**：
     创建一个短代码（例如 `layouts/shortcodes/math.html`）来显式包装数学内容：
+{% raw %}
     ```html
     {{ if .IsNamedParams }}
       <span class="math">{{ .Get "content" | safeHTML }}</span>
@@ -161,14 +166,18 @@ Hugo 通常能避免此问题，因为：
       <span class="math">{{ .Inner | safeHTML }}</span>
     {{ end }}
     ```
+{% endraw %}
     在您的 Markdown 中使用它：
+{% raw %}
     ```markdown
     普通文本（不会被解析）。公式：{{< math >}}$x^2 + y^2${{< /math >}}。
     ```
+{% endraw %}
     -   **为什么有效**：短代码确保只有明确标记的内容才会被作为数学公式处理，而普通文本中的 `( )` 则保持不变。
 
 3.  **改用 KaTeX**：
     Hugo 用户通常更喜欢 KaTeX，因为它速度更快。将 KaTeX 添加到 `layouts/partials/head.html`：
+{% raw %}
     ```html
     {{ if .Params.math }}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
@@ -186,6 +195,7 @@ Hugo 通常能避免此问题，因为：
     </script>
     {{ end }}
     ```
+{% endraw %}
     在前言中启用它：
     ```yaml
     math: true

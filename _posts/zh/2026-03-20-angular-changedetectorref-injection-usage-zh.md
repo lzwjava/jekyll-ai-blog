@@ -41,6 +41,7 @@ abstract class ChangeDetectorRef {
 
 ## 如何注入它
 
+{% raw %}
 ```typescript
 @Component({
   selector: 'app-my',
@@ -53,6 +54,7 @@ export class MyComponent {
   constructor(private cdr: ChangeDetectorRef) {}
 }
 ```
+{% endraw %}
 
 这是普通的 DI。Angular 的内部 Ivy 编译器将 `ChangeDetectorRef` 解析为与组件当前视图绑定的**特殊 token** — 但**组件初始化过程与其他组件完全相同**。
 

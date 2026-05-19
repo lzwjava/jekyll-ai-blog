@@ -29,12 +29,14 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
 #### Recommended Fixes
 1. **Update Environment Variables in Workflow**:
    - Align with common OpenRouter setups (OpenAI-compatible). Change the `env` block in the "Translate posts" step to:
+{% raw %}
      ```
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}  # Rename var to what the script expects
        OPENAI_BASE_URL: https://openrouter.ai/api/v1   # Required for routing to OpenRouter
      ```
+{% endraw %}
    - If `DEEPSEEK_API_KEY` is your OpenRouter key, great. If it's a direct DeepSeek key, create a new secret `OPENROUTER_API_KEY` in repo settings with your actual OpenRouter key (get one at [openrouter.ai/keys](https://openrouter.ai/keys)).
    - Test: Add `echo $OPENAI_API_KEY` (redacted) to the run step for debugging in logs.
 
@@ -62,6 +64,7 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
    - **Debug Mode**: Add an optional input `debug: true` and `--debug` flag to the script for verbose logging.
    - **Permissions**: Ensure the `github-pages` environment has read/write access if needed.
    - Full updated YAML snippet for the "Translate posts" step:
+{% raw %}
      ```
      - name: Translate posts
        run: |
@@ -71,6 +74,7 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
          OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
          OPENAI_BASE_URL: https://openrouter.ai/api/v1
      ```
+{% endraw %}
 
 4. **Testing Steps**:
    - **Local Test**: Run `python scripts/translation/update_lang_notes.py --n 1` locally with env vars exported (e.g., `export OPENAI_API_KEY=your_key`).

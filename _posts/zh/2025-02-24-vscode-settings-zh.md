@@ -37,6 +37,7 @@ type: note
 * `java.debug.settings.vmArgs`：设置Java调试的虚拟机参数
 * `mssql.connections`：存储MSSQL数据库连接信息
 
+{% raw %}
 ```json
 {
       "eslint.autoFixOnSave": true,
@@ -164,3 +165,4 @@ type: note
       "tabnine.experimentalAutoImports": true,
 }
 ```
+{% endraw %}

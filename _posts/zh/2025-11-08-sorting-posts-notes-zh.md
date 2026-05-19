@@ -14,6 +14,7 @@ type: note
 
 您现有的 `sort.html` 已经包含带有9个选项的语言选择器，这非常完美。这里不需要大的改动，但我在 `<span id="post-number">` 中添加了一个小注释，使其更通用（例如，使用"entries"而不是"posts"），因为我们现在包含了笔记。如果需要，这可以通过您的JS动态更新。以下是调整后的版本：
 
+{% raw %}
 ```html
 <div class="sort-container">
   <span id="post-number" class="post-number">
@@ -33,6 +34,7 @@ type: note
   </select>
 </div>
 ```
+{% endraw %}
 
 **关键更改**：更新了计数以包含 `site.notes.size`（我们将在下面定义这个）。公式保持不变，但现在考虑了笔记。如果您的JS（`index.js`）已经根据可见项动态更新此span，它将自动处理特定语言的计数。
 
@@ -66,6 +68,7 @@ collections:
 
 以下是完整的更新后布局：
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -118,6 +121,7 @@ layout: page
 {% include footer.html %}
 <script src="/assets/js/index.js"></script>
 ```
+{% endraw %}
 
 **关键更改**：
 - **语言数组**：`{% assign langs = "en,zh,ja,es,hi,fr,de,ar,hant" | split: "," %}`—与您的选择选项匹配。易于维护。

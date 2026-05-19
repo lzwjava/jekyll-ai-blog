@@ -71,6 +71,7 @@ bootstrapApplication(AppComponent, {
 
 ### 3. 创建模态框内容组件
 
+{% raw %}
 ```ts
 // confirm-dialog.component.ts
 import { Component, Input } from '@angular/core';
@@ -100,6 +101,7 @@ export class ConfirmDialogComponent {
   constructor(public activeModal: NgbActiveModal) {}
 }
 ```
+{% endraw %}
 
 ### 4. 从任何组件打开模态框
 

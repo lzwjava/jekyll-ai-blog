@@ -78,6 +78,7 @@ export VAULT_TOKEN=root
 
 ### 6. 分步指南 – 现实的现代工作流 (Kubernetes + AppRole + KV + Database)
 
+{% raw %}
 ```bash
 # 1. 启用 engines
 vault secrets enable -path=apps kv-v2
@@ -124,6 +125,7 @@ vault write auth/approle/role/myapp \
 vault read auth/approle/role/myapp/role-id
 vault write -f auth/approle/role/myapp/secret-id
 ```
+{% endraw %}
 
 ### 7. 2025–2026 最佳实践
 

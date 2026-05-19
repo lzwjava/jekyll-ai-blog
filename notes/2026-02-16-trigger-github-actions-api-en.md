@@ -24,6 +24,7 @@ There are two main ways to trigger a GitHub Actions workflow via the GitHub REST
 
 **Workflow file requirement** (.github/workflows/my-workflow.yml):
 
+{% raw %}
 ```yaml
 on:
   workflow_dispatch:
@@ -42,6 +43,7 @@ jobs:
     steps:
       - run: echo "Deploying to ${{ inputs.environment }} version ${{ inputs.version || 'latest' }}"
 ```
+{% endraw %}
 
 **API Endpoint**  
 `POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches`

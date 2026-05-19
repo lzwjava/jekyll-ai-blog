@@ -32,6 +32,7 @@ Use `ansible_facts["fact_name"]` instead.
 
 Update your playbook like this:
 
+{% raw %}
 ```yaml
 ---
 - name: Tiny demo
@@ -49,6 +50,7 @@ Update your playbook like this:
         dest: /tmp/hello_from_ansible.txt
         mode: '0644'
 ```
+{% endraw %}
 
 Key change:  
 `{{ ansible_date_time.date }}` → `{{ ansible_facts.date_time.date }}`

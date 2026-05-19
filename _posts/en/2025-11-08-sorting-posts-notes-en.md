@@ -14,6 +14,7 @@ type: note
 
 Your existing `sort.html` already has the language select with 9 options, which is perfect. No major changes needed here, but I've added a small note in the `<span id="post-number">` to make it more generic (e.g., "entries" instead of "posts") since we're now including notes. This can be dynamically updated by your JS if needed. Here's the tweaked version:
 
+{% raw %}
 ```html
 <div class="sort-container">
   <span id="post-number" class="post-number">
@@ -33,6 +34,7 @@ Your existing `sort.html` already has the language select with 9 options, which 
   </select>
 </div>
 ```
+{% endraw %}
 
 **Key change**: Updated the count to include `site.notes.size` (we'll define this below). The formula stays the same but now factors in notes. If your JS (`index.js`) already updates this span dynamically based on visible items, it will handle language-specific counts automatically.
 
@@ -66,6 +68,7 @@ Your current loop only shows English posts. To add notes and support all 9 langu
 
 Here's the full updated layout:
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -118,6 +121,7 @@ layout: page
 {% include footer.html %}
 <script src="/assets/js/index.js"></script>
 ```
+{% endraw %}
 
 **Key changes**:
 - **Languages array**: `{% assign langs = "en,zh,ja,es,hi,fr,de,ar,hant" | split: "," %}`—matches your select options. Easy to maintain.

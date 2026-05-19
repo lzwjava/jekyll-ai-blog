@@ -48,11 +48,13 @@ Jobs might appear to be "canceled" if triggers are misconfigured or if there are
 - Ensure the workflow is triggered only when intended (e.g., `on: push: branches: [ main ]` or `on: pull_request`).
 - If multiple triggers (e.g., `push` and `pull_request`) are defined, they might create overlapping runs. Use unique `concurrency.group` names for different triggers if needed, like:
 
+{% raw %}
 ```yaml
 concurrency:
   group: 'gh-pages-${{ github.event_name }}'
   cancel-in-progress: false
 ```
+{% endraw %}
 
 This creates separate concurrency groups for `push` and `pull_request` events, preventing them from interfering.
 
@@ -112,11 +114,13 @@ Rarely, GitHub Actions may have platform-wide issues. Check the [GitHub Status p
 ### 9. **Debugging Tips**
 - Add a step to log the workflow run ID and concurrency group for debugging:
 
+{% raw %}
 ```yaml
 steps:
   - name: Log run details
     run: echo "Run ID: ${{ github.run_id }}, Concurrency Group: ${{ github.workflow }}-${{ github.event_name }}"
 ```
+{% endraw %}
 
 - Use the GitHub Actions API to inspect running workflows programmatically if needed (requires advanced setup).
 

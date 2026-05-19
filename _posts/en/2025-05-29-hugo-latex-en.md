@@ -67,6 +67,7 @@ If you only need MathJax on certain pages (e.g., for math-heavy posts), disable 
 - Remove the MathJax script from your global `_layouts/default.html` or `_includes/head.html`.
 - Add a conditional include in your layout or page front matter. For example, in `_layouts/post.html`:
 
+{% raw %}
 ```html
 {% if page.mathjax %}
   <script type="text/x-mathjax-config">
@@ -81,6 +82,7 @@ If you only need MathJax on certain pages (e.g., for math-heavy posts), disable 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 ```
+{% endraw %}
 
 - In your Markdown file’s front matter, enable MathJax only for specific pages:
   ```yaml
@@ -127,6 +129,7 @@ To use MathJax in Hugo without running into the `( )` parsing issue, follow thes
 
 1. **Add MathJax to Hugo**:
    - Place the MathJax script in your theme’s partials (e.g., `layouts/partials/head.html`):
+{% raw %}
      ```html
      {{ if .Params.mathjax }}
      <script type="text/x-mathjax-config">
@@ -144,6 +147,7 @@ To use MathJax in Hugo without running into the `( )` parsing issue, follow thes
      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
      {{ end }}
      ```
+{% endraw %}
    - Enable MathJax in specific pages by adding to the front matter:
      ```yaml
      ---
@@ -154,6 +158,7 @@ To use MathJax in Hugo without running into the `( )` parsing issue, follow thes
 
 2. **Use Shortcodes for Math**:
    Create a shortcode (e.g., `layouts/shortcodes/math.html`) to explicitly wrap math content:
+{% raw %}
    ```html
    {{ if .IsNamedParams }}
      <span class="math">{{ .Get "content" | safeHTML }}</span>
@@ -161,14 +166,18 @@ To use MathJax in Hugo without running into the `( )` parsing issue, follow thes
      <span class="math">{{ .Inner | safeHTML }}</span>
    {{ end }}
    ```
+{% endraw %}
    Use it in your Markdown:
+{% raw %}
    ```markdown
    Normal text (not parsed). Formula: {{< math >}}$x^2 + y^2${{< /math >}}.
    ```
+{% endraw %}
    - **Why it works**: Shortcodes ensure only explicitly marked content is processed as math, leaving `( )` in regular text untouched.
 
 3. **Use KaTeX Instead**:
    Hugo users often prefer KaTeX for its speed. Add KaTeX to `layouts/partials/head.html`:
+{% raw %}
    ```html
    {{ if .Params.math }}
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
@@ -186,6 +195,7 @@ To use MathJax in Hugo without running into the `( )` parsing issue, follow thes
    </script>
    {{ end }}
    ```
+{% endraw %}
    Enable it in the front matter:
    ```yaml
    math: true

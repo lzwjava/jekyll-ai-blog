@@ -19,6 +19,7 @@ type: note
 
 一个最小化示例：
 
+{% raw %}
 ```yaml
 name: CI
 
@@ -45,6 +46,7 @@ jobs:
       - name: Run tests
         run: pytest
 ```
+{% endraw %}
 
 ---
 

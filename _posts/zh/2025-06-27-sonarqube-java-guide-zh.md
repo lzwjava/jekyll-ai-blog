@@ -220,6 +220,7 @@ SonarQube 仪表板提供：
 1. **与 CI/CD 集成**：
    - 将 SonarQube 分析添加到 CI/CD 流水线（如 Jenkins、GitHub Actions）
    - GitHub Actions 工作流示例：
+{% raw %}
      ```yaml
      name: CI with SonarQube
      on: [push]
@@ -235,6 +236,7 @@ SonarQube 仪表板提供：
            - name: Build and Analyze
              run: mvn clean verify sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=${{ secrets.SONAR_TOKEN }}
      ```
+{% endraw %}
 
 2. **定义质量阈**：
    - 在 SonarQube 中设置代码覆盖率、错误和安全漏洞的阈值

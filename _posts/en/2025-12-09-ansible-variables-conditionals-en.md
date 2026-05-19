@@ -18,6 +18,7 @@ Here are the most common and recommended ways to set variables and use the `when
 
 ### Setting Variables (`vars` or `set_fact`)
 
+{% raw %}
 ```yaml
 ---
 - hosts: all
@@ -56,6 +57,7 @@ Here are the most common and recommended ways to set variables and use the `when
       set_fact:
         nginx_running: "{{ nginx_status.rc == 0 }}"
 ```
+{% endraw %}
 
 ### Using `when` Conditional
 

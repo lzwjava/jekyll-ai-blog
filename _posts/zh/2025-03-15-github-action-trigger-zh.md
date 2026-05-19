@@ -17,6 +17,7 @@ type: note
 
 - **工作原理**：第一个工作流通过 API 调用触发第二个工作流。
 - **示例**：
+{% raw %}
   ```yaml
   name: 触发其他工作流
   on: [push]
@@ -32,6 +33,7 @@ type: note
               https://api.github.com/repos/<owner>/<repo>/actions/workflows/<workflow_id>/dispatches \
               -d '{"ref": "main"}'
   ```
+{% endraw %}
   将 `<owner>`、`<repo>` 和 `<workflow_id>` 替换为您的仓库详情和目标工作流的 ID。第二个工作流的配置中必须包含 `on: [workflow_dispatch]`。
 
 ---
@@ -42,6 +44,7 @@ type: note
 - **工作原理**：第一个工作流通过 GitHub API 发送仓库分发事件，第二个工作流响应该事件。
 - **示例**：
   - 第一个工作流（发送事件）：
+{% raw %}
     ```yaml
     name: 发送分发事件
     on: [push]
@@ -57,6 +60,7 @@ type: note
                 https://api.github.com/repos/<owner>/<repo>/dispatches \
                 -d '{"event_type": "custom_event"}'
     ```
+{% endraw %}
   - 第二个工作流（由事件触发）：
     ```yaml
     name: 由分发触发

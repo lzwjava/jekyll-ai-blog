@@ -19,6 +19,7 @@ The **matrix strategy** allows you to run the same job in parallel with differen
 
 A minimal example:
 
+{% raw %}
 ```yaml
 name: CI
 
@@ -45,6 +46,7 @@ jobs:
       - name: Run tests
         run: pytest
 ```
+{% endraw %}
 
 ---
 

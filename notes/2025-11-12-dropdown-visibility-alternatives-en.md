@@ -21,6 +21,7 @@ HTML doesn't have a built-in "switch" element specifically for toggling visibili
    - **Example Code:**
      Replace your `<select>` with a group of radio buttons. Wrap them in a `<fieldset>` for semantics/accessibility.
 
+{% raw %}
      ```html
      <div class="sort-container">
        <!-- Type selection as radios -->
@@ -57,6 +58,7 @@ HTML doesn't have a built-in "switch" element specifically for toggling visibili
        </div>
      </div>
      ```
+{% endraw %}
 
      - Add CSS for styling (e.g., to make them look like buttons):
        ```css
@@ -86,6 +88,7 @@ HTML doesn't have a built-in "switch" element specifically for toggling visibili
    - **Pros:** Flexible styling; can mimic tabs or pills; easy to make responsive.
    - **Cons:** Requires JS to manage active states and actions; not as semantically correct as form elements (use ARIA attributes for accessibility).
    - **Example Code:**
+{% raw %}
      ```html
      <div class="sort-container">
        <!-- Type as button group -->
@@ -110,6 +113,7 @@ HTML doesn't have a built-in "switch" element specifically for toggling visibili
        </div>
      </div>
      ```
+{% endraw %}
 
      - CSS for button styling:
        ```css

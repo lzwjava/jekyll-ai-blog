@@ -122,6 +122,7 @@ ansible all -m reboot --become
 
 Create `first_playbook.yml`:
 
+{% raw %}
 ```yaml
 ---
 - name: Configure web servers
@@ -162,6 +163,7 @@ Create `first_playbook.yml`:
         name: nginx
         state: restarted
 ```
+{% endraw %}
 
 Run it:
 ```bash
@@ -191,6 +193,7 @@ ansible-playbook -i inventory.ini first_playbook.yml
 5. Host facts / gathered facts
 
 ### Example using variables
+{% raw %}
 ```yaml
 vars:
   app_name: myapp
@@ -205,13 +208,16 @@ tasks:
       name: "{{ app_user }}"
       shell: /bin/bash
 ```
+{% endraw %}
 
 ### Using facts
+{% raw %}
 ```yaml
 - name: Show OS distribution
   debug:
     msg: "This is {{ ansible_facts['distribution'] }} {{ ansible_facts['distribution_version'] }}"
 ```
+{% endraw %}
 
 ## Conditionals & Loops
 
@@ -226,6 +232,7 @@ tasks:
 ```
 
 ### Loops
+{% raw %}
 ```yaml
 - name: Create multiple users
   user:
@@ -247,6 +254,7 @@ tasks:
       - git
       - vim
 ```
+{% endraw %}
 
 ## Roles – Best Practice Structure
 

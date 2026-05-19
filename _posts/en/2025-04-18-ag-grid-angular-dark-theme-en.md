@@ -121,12 +121,14 @@ So, **Alpine Dark** theme is simply the dark mode variant of AG Grid’s Alpine 
 ### 🔹 Switching between Alpine Light & Dark Theme
 You can dynamically switch themes just by changing the class on the grid container:
 
+{% raw %}
 ```html
 <ag-grid-angular
   class="{{ isDark ? 'ag-theme-alpine-dark' : 'ag-theme-alpine' }}"
   ...
 ></ag-grid-angular>
 ```
+{% endraw %}
 
 And in your component:
 ```ts

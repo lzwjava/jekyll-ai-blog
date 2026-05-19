@@ -121,12 +121,14 @@ AG Grid 提供了多种内置主题用于表格样式设计。
 ### 🔹 在 Alpine 浅色与深色主题之间切换
 你可以通过更改表格容器上的类来动态切换主题：
 
+{% raw %}
 ```html
 <ag-grid-angular
   class="{{ isDark ? 'ag-theme-alpine-dark' : 'ag-theme-alpine' }}"
   ...
 ></ag-grid-angular>
 ```
+{% endraw %}
 
 在你的组件中：
 ```ts

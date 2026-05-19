@@ -91,6 +91,7 @@ if __name__ == '__main__':
 
 该工作流每周三 14:35 UTC（10:35 PM UTC）运行一次，设置环境，安装依赖项，并执行脚本。
 
+{% raw %}
 ```yaml
 name: Regular Invest
 
@@ -140,3 +141,4 @@ jobs:
           TIGER_ACCOUNT: ${{ secrets.TIGER_ACCOUNT }}
           TIGER_PEM: "tiger.pem"
 ```
+{% endraw %}

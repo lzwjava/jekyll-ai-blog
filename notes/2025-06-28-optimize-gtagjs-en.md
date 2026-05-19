@@ -62,9 +62,11 @@ window.addEventListener('load', () => {
 });
 ```
 - Include this script in your Jekyll layout:
+{% raw %}
 ```html
 <script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
 ```
+{% endraw %}
 - **Why it helps**: Delays `gtag.js` loading until after the page’s critical resources (e.g., HTML, CSS) are loaded, improving initial page speed.
 
 ---
@@ -77,9 +79,11 @@ GitHub Pages doesn’t allow custom caching headers, but you can proxy `gtag.js`
 2. **Proxy `gtag.js`**:
    - Create a Page Rule in Cloudflare to cache the `gtag.js` script or host a local copy in your Jekyll site’s `_site` folder (e.g., `assets/js/gtag.js`).
    - Update your script tag:
+{% raw %}
 ```html
 <script async src="{{ '/assets/js/gtag.js' | relative_url }}"></script>
 ```
+{% endraw %}
    - Sync the local copy with Google’s `gtag.js` periodically to ensure it’s up-to-date (manual process or via a CI/CD script).
 3. **Cache Settings**:
    - In Cloudflare, set a cache rule for the script (e.g., `Cache Everything` with a TTL of 1 hour).

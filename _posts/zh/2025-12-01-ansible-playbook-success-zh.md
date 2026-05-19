@@ -32,6 +32,7 @@ Use `ansible_facts["fact_name"]` instead.
 
 像这样更新您的 playbook：
 
+{% raw %}
 ```yaml
 ---
 - name: Tiny demo
@@ -49,6 +50,7 @@ Use `ansible_facts["fact_name"]` instead.
         dest: /tmp/hello_from_ansible.txt
         mode: '0644'
 ```
+{% endraw %}
 
 关键变化：
 `{{ ansible_date_time.date }}` → `{{ ansible_facts.date_time.date }}`

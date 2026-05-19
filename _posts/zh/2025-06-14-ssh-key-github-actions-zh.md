@@ -52,6 +52,7 @@ type: note
    - 创建或编辑工作流文件（例如 `.github/workflows/deploy.yml`）。
    - 添加一个步骤以使用 SSH 密钥部署 JAR。以下是示例工作流：
 
+{% raw %}
      ```yaml
      name: Deploy JAR
 
@@ -93,6 +94,7 @@ type: note
              scp target/your-app.jar user@<server-ip-or-hostname>:/path/to/deploy/
              ssh user@<server-ip-or-hostname> "sudo systemctl restart your-service" # 根据你的部署流程调整
      ```
+{% endraw %}
 
    - **注意事项**：
      - 将 `target/your-app.jar` 替换为你的 JAR 文件路径。
@@ -104,12 +106,14 @@ type: note
    - 确保私钥永远不会在日志或输出中暴露。
    - 限制仓库权限以防止未经授权访问密钥。
    - 如果为 SSH 密钥使用密码，请将其添加为另一个密钥并在 `shimataro/ssh-key-action` 步骤中包含：
+{% raw %}
      ```yaml
      with:
        key: ${{ secrets.SSH_PRIVATE_KEY }}
        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
        known_hosts: 'optional-known-hosts'
      ```
+{% endraw %}
 
 6. **测试工作流**：
    - 推送更改到 `main` 分支（或工作流中指定的分支）。
