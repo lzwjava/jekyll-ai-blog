@@ -49,6 +49,7 @@ listen_addresses = '*'                  ← 新（监听所有接口）
 **发生的情况：** Gitea 运行在自定义 Docker 网络（`gitea_default`）上，网关为 `172.22.0.1`，但 `host.docker.internal` 解析为 `172.17.0.1`（默认 `docker0` 桥接）。
 
 **如何发现：**
+{% raw %}
 ```bash
 docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}}: {{$v.Gateway}}{{"\n"}}{{end}}'
 # 输出：gitea_default: 172.22.0.1
@@ -56,6 +57,7 @@ docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}
 docker exec gitea sh -c "getent hosts host.docker.internal"
 # 输出：172.17.0.1  host.docker.internal
 ```
+{% endraw %}
 
 Docker Compose 为每个项目创建自己的网络。`host.docker.internal` 映射使用默认桥接 IP，但来自自定义网络的流量并不总是能干净地路由到默认桥接。
 

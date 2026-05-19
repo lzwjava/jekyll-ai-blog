@@ -77,6 +77,7 @@ describe('AppComponent', () => {
 
 **src/app/counter/counter.component.ts**
 
+{% raw %}
 ```ts
 import { Component, input } from '@angular/core';
 
@@ -96,6 +97,7 @@ export class CounterComponent {
   }
 }
 ```
+{% endraw %}
 
 **counter.component.spec.ts**
 

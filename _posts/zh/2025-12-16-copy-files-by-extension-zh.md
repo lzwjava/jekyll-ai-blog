@@ -23,6 +23,7 @@ type: note
 
 这是一个示例 playbook（假设源和目标都在**控制节点/localhost**上；根据需要调整以用于远程主机）：
 
+{% raw %}
 ```yaml
 ---
 - name: 递归复制特定脚本文件
@@ -51,6 +52,7 @@ type: note
       loop: "{{ script_files.files }}"
       when: script_files.matched > 0
 ```
+{% endraw %}
 
 ### 主要解释：
 - `find`递归收集所有匹配的文件（非目录）。
@@ -60,9 +62,11 @@ type: note
 
 ### 替代方案：将所有文件扁平化到一个目标目录（不保留子目录）
 将`copy`任务中的`dest`更改为：
+{% raw %}
 ```yaml
 dest: "{{ dest_dir }}/{{ item.path | basename }}"
 ```
+{% endraw %}
 
 参考资料：
 

@@ -23,6 +23,7 @@ This requires **two tasks** (as you mentioned it can spawn into two):
 
 Here is an example playbook (assuming the source and destination are on the **control node/localhost**; adjust for remote hosts as needed):
 
+{% raw %}
 ```yaml
 ---
 - name: Copy specific script files recursively
@@ -51,6 +52,7 @@ Here is an example playbook (assuming the source and destination are on the **co
       loop: "{{ script_files.files }}"
       when: script_files.matched > 0
 ```
+{% endraw %}
 
 ### Key Explanations:
 - `find` collects all matching files (non-directories) recursively.
@@ -60,9 +62,11 @@ Here is an example playbook (assuming the source and destination are on the **co
 
 ### Alternative: Flatten all files into one destination directory (no subdirs preserved)
 Change the `dest` in the copy task to:
+{% raw %}
 ```yaml
 dest: "{{ dest_dir }}/{{ item.path | basename }}"
 ```
+{% endraw %}
 
 References:  
 

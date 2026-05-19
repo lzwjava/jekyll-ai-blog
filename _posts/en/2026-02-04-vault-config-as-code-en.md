@@ -131,6 +131,7 @@ variable "vault_token" {
 ```
 
 ### Secret Engines Configuration
+{% raw %}
 ```hcl
 # terraform/secret-engines.tf
 
@@ -325,8 +326,10 @@ resource "vault_mount" "totp" {
   description = "TOTP MFA tokens"
 }
 ```
+{% endraw %}
 
 ### Auth Methods Configuration
+{% raw %}
 ```hcl
 # terraform/auth-methods.tf
 
@@ -484,6 +487,7 @@ resource "vault_ldap_auth_backend_group" "terraform_team" {
   policies  = ["terraform-secrets", "database-read"]
 }
 ```
+{% endraw %}
 
 ### Policies Configuration
 ```hcl

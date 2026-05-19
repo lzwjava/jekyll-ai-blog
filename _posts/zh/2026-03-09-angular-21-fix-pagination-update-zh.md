@@ -49,9 +49,11 @@ loadData() {
 ```
 
 **在 pagination（子组件）模板中：**
+{% raw %}
 ```html
 <p>Total: {{ worklistService.totalItems() }}</p>
 ```
+{% endraw %}
 
 在模板中读取 signal 会将其链接到视图；写入该 signal 会调度正确的视图更新——这使 change detection 更具针对性，并与 OnPush 或甚至 zoneless 自然搭配。
 
@@ -97,9 +99,11 @@ updateTotal(n: number) { this.totalItemsSubject.next(n); }
 ```
 
 **Pagination 模板：**
+{% raw %}
 ```html
 <p>Total: {{ worklistService.totalItems$ | async }}</p>
 ```
+{% endraw %}
 
 `AsyncPipe` 在新值到达时自动调用 `markForCheck`，因此 Angular 知道要重新检查该组件。
 

@@ -49,6 +49,7 @@ Now PostgreSQL accepts connections on `0.0.0.0:5433` (all IPs) instead of just `
 **What happened:** Gitea was running on a custom Docker network (`gitea_default`) with gateway `172.22.0.1`, but `host.docker.internal` was resolving to `172.17.0.1` (the default `docker0` bridge).
 
 **How I found it:**
+{% raw %}
 ```bash
 docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}}: {{$v.Gateway}}{{"\n"}}{{end}}'
 # Output: gitea_default: 172.22.0.1
@@ -56,6 +57,7 @@ docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}
 docker exec gitea sh -c "getent hosts host.docker.internal"
 # Output: 172.17.0.1  host.docker.internal
 ```
+{% endraw %}
 
 Docker Compose creates its own network per project. The `host.docker.internal` mapping uses the default bridge IP, but traffic from a custom network doesn't always route cleanly to the default bridge.
 

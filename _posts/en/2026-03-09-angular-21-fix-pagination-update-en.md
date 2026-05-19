@@ -49,9 +49,11 @@ loadData() {
 ```
 
 **In the pagination (child) component template:**
+{% raw %}
 ```html
 <p>Total: {{ worklistService.totalItems() }}</p>
 ```
+{% endraw %}
 
 Reading a signal in a template links it to the view; writing to that signal schedules the right view to update — this makes change detection more targeted and pairs naturally with OnPush or even zoneless.
 
@@ -97,9 +99,11 @@ updateTotal(n: number) { this.totalItemsSubject.next(n); }
 ```
 
 **Pagination template:**
+{% raw %}
 ```html
 <p>Total: {{ worklistService.totalItems$ | async }}</p>
 ```
+{% endraw %}
 
 The `AsyncPipe` automatically calls `markForCheck` when a new value arrives, so Angular knows to re-check that component.
 

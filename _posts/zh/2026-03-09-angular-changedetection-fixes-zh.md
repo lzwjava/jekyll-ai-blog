@@ -134,6 +134,7 @@ export class PaginationStateService {
 }
 ```
 
+{% raw %}
 ```typescript
 // worklist.component.ts
 this.paginationState.setTotalItems(result.total);
@@ -142,6 +143,7 @@ this.paginationState.setTotalItems(result.total);
 totalItems$ = this.paginationState.totalItems;
 // template: {{ totalItems$ | async }}
 ```
+{% endraw %}
 
 使用带有 observables 的共享服务特别适用于深度嵌套组件，避免通过 `@Input`/`@Output` 链在组件树中上下冒泡数据和事件。
 

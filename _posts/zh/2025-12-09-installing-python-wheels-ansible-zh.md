@@ -39,6 +39,7 @@ type: note
 
 如果你在一个目录中有许多 wheel 文件，并想安装所有这些文件：
 
+{% raw %}
 ```yaml
 - name: 从目录安装所有 .whl 文件
   ansible.builtin.pip:
@@ -46,6 +47,7 @@ type: note
     state: present
   loop: "{{ q('fileglob', '/opt/wheels/*.whl') }}"
 ```
+{% endraw %}
 
 或者，如果你真的想通过事先检查来额外明确（很少需要）：
 

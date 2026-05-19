@@ -144,10 +144,12 @@ cd /opt/gitea && docker compose up -d
 ```
 
 Verified:
+{% raw %}
 ```bash
 docker ps --filter name=gitea --format "table {{.Names}}\t{{.Ports}}"
 # gitea   0.0.0.0:22->22/tcp, 0.0.0.0:3000->3000/tcp  ← success!
 ```
+{% endraw %}
 
 ---
 

@@ -64,9 +64,11 @@ docker restart nextcloud-app-1
 
 ### 通用风扇噪音预防方案：
 1. **设置容器 CPU 警报** —— 通过定时任务提前预警：
+{% raw %}
    ```
    docker stats --no-stream --format "{{.Name}}: {{.CPUPerc}}" | awk -F: '$2>80 {print $1" high CPU"}'
    ```
+{% endraw %}
 2. **日志轮转** —— 防止容器内日志文件占满磁盘导致交换空间压力
 3. **定期重启容器** —— 多数 PHP 应用（如 Nextcloud、LibreChat）可通过定期重启缓解内存泄漏
 
@@ -74,6 +76,7 @@ docker restart nextcloud-app-1
 
 ## 🔧 快速诊断命令集
 
+{% raw %}
 ```bash
 # 定位最高负载进程
 docker stats --no-stream
@@ -90,5 +93,6 @@ curl -s http://localhost:8080/status.php
 # 全系统负载查看
 uptime && top -b -n1 | head -8
 ```
+{% endraw %}
 
 任何容器出现持续数分钟 >50% CPU 占用 = 立即排查。
