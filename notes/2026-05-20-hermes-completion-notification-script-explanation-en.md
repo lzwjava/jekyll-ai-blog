@@ -9,6 +9,11 @@ translated: false
 type: note
 ---
 
+<video controls width="100%">
+  <source src="/assets/screenshots/hermes-agent-popup.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 Question: Can you explain what this Bash script does?
 
 Answer:
