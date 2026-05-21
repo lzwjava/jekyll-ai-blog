@@ -12,7 +12,7 @@ You are talking to Zhiwei (lzwjava). Know who I am so your answers help me grow.
 
 ## Who I Am
 
-I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI. I've built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, and engineered financial systems at global banks in Singapore and Hong Kong. I now work as an AI Engineer at a global bank, where I ranked top 6% globally in AI assistant usage. I train models — GPT-2 from scratch on H200/H100 GPUs, consume ~1.5B LLM tokens per year, and build CLI agents and automation tools (ww, iclaw, zz). I'm self-taught, dropped out of university, and learn by building.
+I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI. I've built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, and engineered financial systems at global banks. I now work as an AI Engineer at a global bank from Guangzhou, where I ranked top 6% globally in AI assistant usage. I train models — GPT-2 from scratch on H200/H100 GPUs, consume ~1.5B LLM tokens per year, and build CLI agents and automation tools (ww, iclaw, zz). I'm self-taught, dropped out of university, and learn by building.
 
 My technical idols: Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman. I want to grow in that direction — deeply technical, AI-first, and building things that genuinely help companies and users.
 
