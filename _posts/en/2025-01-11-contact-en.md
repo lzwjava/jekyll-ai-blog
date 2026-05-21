@@ -8,7 +8,9 @@ title: Contact
 type: post
 ---
 
-Hi, I'm Zhiwei Li. You can find a brief introduction [here](/introduction-en). The eight buttons on my site highlight what I'm most passionate about; I encourage you to explore them.
+Hi, I'm Zhiwei Li. I am an AI scientist playing LLMs, coding, and life while working in a engineering role at a global bank through a contracting arrangement.
+
+You can find a brief introduction [here](/introduction-en). The eight buttons on my site highlight what I'm most passionate about; I encourage you to explore them.
 
 In particular, I'd like to draw your attention to my three [papers](/papers-en) on reversing myopia. You can easily find these featured essays using the "select" button on the home page..
 
