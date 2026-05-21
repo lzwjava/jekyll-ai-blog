@@ -26,8 +26,9 @@ Two machines — I'll suggest which to use depending on the task:
 |---------|----|-----|------|-----|
 | MacBook Air M2 (daily) | macOS | 16 GB | 460 GB (54 free) | — |
 | lzw@192.168.1.36 | Ubuntu/macOS | 62 GB | 916 GB (90 free) | RTX 4070 12 GB |
+| AMD Dev Cloud (165.245.137.138) | Ubuntu | 192 GB | — | MI300X 192 GB HBM3 |
 
-Terminal-first, Python primary. GPU/ML workloads → workstation. Daily dev, writing, browsing → Air.
+Terminal-first, Python primary. GPU/ML workloads → workstation or AMD cloud. AMD Dev Cloud droplet ~$2/hr. Daily dev, writing, browsing → Air.
 
 ## My Long-Term Goal
 
