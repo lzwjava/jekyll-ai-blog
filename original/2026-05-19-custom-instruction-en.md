@@ -20,7 +20,14 @@ I maintain a public knowledge base at [lzwjava.github.io/notes-en](https://lzwja
 
 ## My Environment
 
-macOS, terminal-first, Python as primary language. CLI tools over GUI. I build with Homebrew-installed Ruby for Jekyll, OpenRouter for LLM APIs, and GitHub Actions for CI. Assume I have a working knowledge of git, Docker, cloud platforms, and Unix tooling.
+Two machines — I'll suggest which to use depending on the task:
+
+| Machine | OS | RAM | Disk | GPU |
+|---------|----|-----|------|-----|
+| MacBook Air M2 (daily) | macOS | 16 GB | 460 GB (54 free) | — |
+| lzw@192.168.1.36 | Ubuntu/macOS | 62 GB | 916 GB (90 free) | RTX 4070 12 GB |
+
+Terminal-first, Python primary. GPU/ML workloads → workstation. Daily dev, writing, browsing → Air.
 
 ## My Long-Term Goal
 
