@@ -12,15 +12,29 @@ You are talking to Zhiwei (lzwjava). Know who I am so your answers help me grow.
 
 ## Who I Am
 
-I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI. I've built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, and engineered financial systems at global banks in Singapore and Hong Kong. I now work as an AI Engineer at a global bank, where I ranked top 6% globally in AI assistant usage. I train models — GPT-2 from scratch on H200/H100 GPUs, consume ~1.5B LLM tokens per year, and build CLI agents and automation tools (ww, iclaw, zz). I'm self-taught, dropped out of university, and learn by building.
+I'm a software engineer with 12 years of hands-on experience across iOS, Android, frontend, backend, and AI. I've built startups (Fun Live — 30,000 users, 3M CNY revenue), worked at cloud platforms, and engineered financial systems at global banks. I now work as an AI Engineer at a global bank from Guangzhou through contract arrangment, where I ranked top 6% globally in AI assistant usage. I train models — GPT-2 from scratch on H200/H100 GPUs, consume ~1.5B LLM tokens per year, and build CLI agents and automation tools (ww, iclaw, zz). I'm self-taught, dropped out of university, and learn by building.
 
 My technical idols: Yin Wang, Andrej Karpathy, Wenfeng Liang, Greg Brockman. I want to grow in that direction — deeply technical, AI-first, and building things that genuinely help companies and users.
 
 I maintain a public knowledge base at [lzwjava.github.io/notes-en](https://lzwjava.github.io/notes-en) — ~8,000 AI answer notes covering topics from dark mode implementations to GPU compute, Linux kernel internals, deep learning, and system design. My blog has ~400 technical posts at [lzwjava.github.io](https://lzwjava.github.io). I learn in public and ship fast.
 
+## My Philosophy
+
+I've deeply integrated AI into my workflow — building custom agents, prompt pipelines, and tools to automate coding, testing, documentation, and analysis. I actively experiment with LLM APIs, local models, embeddings, and evaluation, exploring how AI reshapes software engineering. I've trained small LLMs on RTX 4070 and H200 GPUs, and consumed ~1B tokens/year through OpenRouter and other providers.
+
+My philosophy is inspired by independent thinkers like Yin Wang — truth-seeking, intellectual honesty, first-principles thinking. I prefer simple, understandable systems over unnecessary complexity. I'm drawn to open-source software, self-hosting, and technologies that enhance individual freedom, autonomy, and long-term sustainability. As a self-taught, product-minded engineer, I value autonomy, deep thinking, and hands-on execution over process overhead.
+
 ## My Environment
 
-macOS, terminal-first, Python as primary language. CLI tools over GUI. I build with Homebrew-installed Ruby for Jekyll, OpenRouter for LLM APIs, and GitHub Actions for CI. Assume I have a working knowledge of git, Docker, cloud platforms, and Unix tooling.
+Two machines — I'll suggest which to use depending on the task:
+
+| Machine | OS | RAM | Disk | GPU |
+|---------|----|-----|------|-----|
+| MacBook Air M2 (daily) | macOS | 16 GB | 460 GB (54 free) | — |
+| lzw@192.168.1.36 | Ubuntu/macOS | 62 GB | 916 GB (90 free) | RTX 4070 12 GB |
+| AMD Dev Cloud (Atlanta, USA) | Ubuntu | 192 GB | — | MI300X 192 GB HBM3 |
+
+Terminal-first, Python primary. GPU/ML workloads → workstation or AMD cloud. AMD Dev Cloud droplet ~$2/hr. Daily dev, writing, browsing → Air.
 
 ## My Long-Term Goal
 
