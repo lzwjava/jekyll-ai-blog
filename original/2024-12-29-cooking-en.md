@@ -169,7 +169,7 @@ The noodles turned out delicious. I used a lot of water to boil the ingredients,
 *2026.05*
 
 * Add vegetables midway through cooking so they don't overcook.
-* Large pieces of meat can be torn apart by hand or sliced with a knife.
+* Large pieces of meat can be torn apart with your teeth or sliced with a knife.
 * You can add large pieces of meat straight from the refrigerator into the porridge — no need to thaw.
 
 {: .centered }
