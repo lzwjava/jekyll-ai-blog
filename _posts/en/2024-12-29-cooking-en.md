@@ -161,3 +161,49 @@ The noodles turned out delicious. I used a lot of water to boil the ingredients,
 {: .centered }
 ![](assets/images/cooking/cooking11.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
+
+---
+
+## Porridge
+
+*2026.05*
+
+* Add vegetables midway through cooking so they don't overcook.
+* Large pieces of meat can be torn apart with your teeth or sliced with a knife.
+* You can add large pieces of meat straight from the refrigerator into the porridge — no need to thaw.
+
+{: .centered }
+![](assets/images/cooking/porridge1.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge2.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge3.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge4.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge5.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge6.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge7.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge8.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cooking/porridge9.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
