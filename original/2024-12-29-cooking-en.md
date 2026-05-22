@@ -166,29 +166,11 @@ The noodles turned out delicious. I used a lot of water to boil the ingredients,
 
 ## Porridge
 
-*2025.05*
+*2026.05*
 
-Porridge is one of the simplest and most comforting dishes you can make. It requires minimal ingredients and equipment — just rice (or grains), water, and a pot.
-
-* The basic ratio is roughly 1 part rice to 8–10 parts water for a smooth, thin porridge. Use less water if you prefer it thicker.
-
-* Rinse the rice once or twice before cooking. Over-washing strips away surface starch that actually helps thicken the porridge.
-
-* Bring the water to a boil first, then add the rice. Stir once to prevent sticking, then lower the heat and let it simmer with the lid slightly ajar.
-
-* Stir occasionally — every 5–10 minutes — to prevent the rice from settling and burning at the bottom. A heavy-bottomed pot helps distribute heat evenly.
-
-* Cooking time is about 30–40 minutes for white rice porridge. Brown rice or mixed grains need closer to 50–60 minutes. The porridge is done when the grains have broken down and the texture is creamy.
-
-* You can add ingredients during cooking or as toppings. Century eggs and lean pork are classic pairings. Ginger slivers added early infuse the porridge with warmth. Spring onions and cilantro go in at the very end.
-
-* A rice cooker with a porridge setting is the most hands-off approach. Add the rice and water, press the button, and let it handle the rest. Just keep an eye on the water level — porridge can bubble up and overflow if overfilled.
-
-* Leftover porridge thickens in the fridge. Reheat it with a splash of water to restore the original consistency. It keeps well for 2–3 days.
-
-* For a savory breakfast porridge, top it with a soft-boiled egg, soy sauce, and sesame oil. For something sweet, try red dates, goji berries, and a touch of rock sugar added during the last 10 minutes.
-
-* The same principle applies across cuisines — congee, risotto, oatmeal, and grits all follow the same pattern: grain + liquid + low heat + time. Once you master one, the others come naturally.
+* Add vegetables midway through cooking so they don't overcook.
+* Large pieces of meat can be torn apart by hand or sliced with a knife.
+* You can add large pieces of meat straight from the refrigerator into the porridge — no need to thaw.
 
 {: .centered }
 ![](assets/images/cooking/porridge1.jpg){: .responsive }
