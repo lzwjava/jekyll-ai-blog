@@ -92,6 +92,9 @@ jobs:
             git push
           }
 
+      - name: Install ww CLI
+        run: pip install git+https://github.com/lzwjava/ww.git
+
       - name: Run Unit Tests
         run: python -m unittest discover -s tests/workflow
 
