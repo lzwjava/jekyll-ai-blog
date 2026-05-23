@@ -50,7 +50,7 @@ Group Rules (Updated: 2026-05-16):
 
 18. We encourage sharing negative but real content, and we encourage seeking help here. If you lose your job, your company shuts down, housing prices halve, or you face family misfortune — the group owner will do their best to help: sharing their own stories, or rallying group members and friends to support you.
 
-19. The group owner may sync their recent messages (up to 20) from this group to other groups for knowledge sharing. This might include references to group members' WeChat display names — apologies in advance for any inconvenience. The group owner will balance privacy protection and knowledge sharing.
+19. The group owner may share his own messages from this group to other groups for knowledge sharing. This might include references to members' WeChat display names — apologies in advance. The group owner will protect your privacy when sharing.
 
 ---
 
