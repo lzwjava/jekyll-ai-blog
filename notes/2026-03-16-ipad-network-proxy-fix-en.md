@@ -54,7 +54,7 @@ Updated Clash rules:
 **Test commands for iPad:**
 ```bash
 nslookup google.com 192.168.201.1 # Should return fake IP (198.18.0.x)
-curl https://api.ipify.org # Should show 69.63.219.52 (US IP)
+curl https://api.ipify.org # Should show 69.63.0.0 (US IP)
 curl baidu.com # Should work (DIRECT)
 ```
 

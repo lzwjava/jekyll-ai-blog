@@ -54,7 +54,7 @@ iPad → Clash TUN → `192.168.1.x` → 回 WAN 接口 → 循环
 **iPad 测试命令：**
 ```bash
 nslookup google.com 192.168.201.1 # 应返回 fake IP (198.18.0.x)
-curl https://api.ipify.org # 应显示 69.63.219.52 (US IP)
+curl https://api.ipify.org # 应显示 69.63.0.0 (US IP)
 curl baidu.com # 应正常工作 (DIRECT)
 ```
 

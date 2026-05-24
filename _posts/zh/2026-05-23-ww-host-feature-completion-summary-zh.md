@@ -18,7 +18,7 @@ type: note
   - `ww host` → 所有 3 个主机（默认）
   - `ww host local` → remote=None
   - `ww host workstation` → remote=lzw@192.168.1.36
-  - `ww host dmit` → remote=root@69.63.219.52, services=hysteria
+  - `ww host dmit` → remote=root@69.63.0.0, services=hysteria
   - `ww host --help` → 不调用 get_machine_info
   - `ww host mars` → SystemExit(1)
   - `ww host local` 连接失败 → 输出 "Failed to connect"

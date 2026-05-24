@@ -18,7 +18,7 @@ Done. 32 tests passing, committed and pushed at `08c0d4c`.
   - `ww host` → all 3 hosts (default)
   - `ww host local` → remote=None
   - `ww host workstation` → remote=lzw@192.168.1.36
-  - `ww host dmit` → remote=root@69.63.219.52, services=hysteria
+  - `ww host dmit` → remote=root@69.63.0.0, services=hysteria
   - `ww host --help` → no get_machine_info call
   - `ww host mars` → SystemExit(1)
   - `ww host local` with failed connection → prints "Failed to connect"

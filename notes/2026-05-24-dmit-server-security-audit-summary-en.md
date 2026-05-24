@@ -9,10 +9,10 @@ translated: false
 type: note
 ---
 
-Now I have a complete picture. Here's the security audit of your DMIT server at 69.63.219.52:
+Now I have a complete picture. Here's the security audit of your DMIT server at 69.63.0.0:
 
 ============================================================
-  SECURITY AUDIT: 69.63.219.52 (DMIT Los Angeles)
+  SECURITY AUDIT: 69.63.0.0 (DMIT Los Angeles)
   Date: 2026-05-24
 ============================================================
 
@@ -92,8 +92,8 @@ RECOMMENDATIONS (prioritized)
 ============================================================
 
 1. CHECK regreSSHion patch status:
-   ssh lzw@69.63.219.52 "apt changelog openssh-server 2>/dev/null | head -20"
-   Or: ssh lzw@69.63.219.52 "dpkg -s openssh-server | grep Version"
+   ssh lzw@69.63.0.0 "apt changelog openssh-server 2>/dev/null | head -20"
+   Or: ssh lzw@69.63.0.0 "dpkg -s openssh-server | grep Version"
 
 2. ADD fail2ban if not already running:
    sudo apt install fail2ban
