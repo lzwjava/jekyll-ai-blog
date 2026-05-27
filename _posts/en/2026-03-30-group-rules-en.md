@@ -54,6 +54,8 @@ Group Rules (Updated: 2026-05-16):
 
 20. The group owner may share his own messages from this group to other groups for knowledge sharing. This might include references to members' WeChat display names — apologies in advance. The group owner will protect your privacy when sharing.
 
+21. Sharing is encouraged. For public content (mini-programs, websites, apps, GitHub repos, official articles) — forward freely, it helps the community grow. For personal opinions or private discussions shared by individuals, ask the sender first before forwarding to other groups.
+
 ---
 
 Networking tips:
