@@ -8,7 +8,7 @@ title: Subscribe
 type: post
 ---
 
-Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on X (Twitter).  
+Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on [HuggingFace](https://huggingface.co/lzwjava) or X (Twitter).  
 
 - RSS Feed:  
   Subscribe using this link: [https://lzwjava.github.io/feeds/feed.xml](https://lzwjava.github.io/feeds/feed.xml).  
@@ -27,6 +27,7 @@ Besides, here are some of my platform accounts:
 | Platform   | Link                                        |
 |----------------|-------------------------------------------------|
 | Code       | [GitHub](https://github.com/lzwjava)            |
+|                | [HuggingFace](https://huggingface.co/lzwjava)   |
 |                | [Codeforces](https://codeforces.com/profile/lzwjava) |
 |                | [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |
 |                | [Blog](https://lzwjava.github.io)               |
