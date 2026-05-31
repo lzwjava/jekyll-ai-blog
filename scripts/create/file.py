@@ -1,7 +1,59 @@
 import os
 import datetime
 import sys
+import re
+from pathlib import Path
 from delete import delete_md
+
+
+def _extract_content_without_frontmatter(file_path):
+    """Extract content without front matter."""
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        sections = content.split("---", 2)
+        if len(sections) >= 3:
+            return sections[2].strip()
+        return content.strip()
+    except Exception:
+        return ""
+
+
+def _are_notes_quick_similar(content1, content2):
+    """Fast similarity check between two note contents."""
+    if not content1 or not content2:
+        return False
+    len1 = len(content1)
+    len2 = len(content2)
+    if max(len1, len2) == 0:
+        return False
+    if abs(len1 - len2) / max(len1, len2) > 0.05:
+        return False
+    if len1 < 100 or len2 < 100:
+        return content1.strip() == content2.strip()
+    first200_1 = content1[:200]
+    first200_2 = content2[:200]
+    if first200_1[:100] == first200_2[:100]:
+        matches = sum(c1 == c2 for c1, c2 in zip(first200_1, first200_2))
+        if matches >= 180:
+            return True
+    return False
+
+
+def check_duplicate_before_create(content, notes_dir="notes"):
+    """Check if content is duplicate of existing notes."""
+    notes_path = Path(notes_dir)
+    if not notes_path.exists():
+        return False
+    note_files = sorted(
+        notes_path.glob("*.md"), key=lambda f: f.stat().st_mtime, reverse=True
+    )
+    for note_file in note_files[:200]:
+        existing_content = _extract_content_without_frontmatter(note_file)
+        if _are_notes_quick_similar(content, existing_content):
+            print(f"[warn] Duplicate detected: similar to {note_file.name}")
+            return True
+    return False
 
 
 def create_md(name, lang="en"):
@@ -47,6 +99,10 @@ def create_note(name, lang="en"):
         os.makedirs(notes_dir)
 
     note_file_path = os.path.join(notes_dir, f"{date_str}-{name}-{lang}.md")
+
+    # Check for duplicates before creating
+    if check_duplicate_before_create(name, notes_dir):
+        raise ValueError(f"Duplicate note detected for: {name}")
 
     # Note front matter (simplified version, adjust as needed)
     note_front_matter = f"""---
