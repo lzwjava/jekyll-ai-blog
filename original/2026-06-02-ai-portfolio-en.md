@@ -204,9 +204,7 @@ README.md
 
 ---
 
-## 🤖 Other AI Projects
-
-### Tree_Of_Thought — Physics Problem-Solving with Tree-of-Thought Reasoning
+## 🌳 Tree_Of_Thought — Physics Problem-Solving with Tree-of-Thought Reasoning
 
 [Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought) is a friend's project — an external Tree-of-Thought reasoning system for physics-heavy problem solving. Instead of relying on a model's hidden chain-of-thought in one opaque completion, it turns reasoning into an explicit, inspectable, controllable tree with live state, scoring, pruning, and deterministic tool support.
 
@@ -218,7 +216,9 @@ The system combines a FastAPI service for long-lived reasoning sessions, a brows
 
 ![Tree of Thought — terminal tree explorer with node inspection, frontier management, and branch pruning](/assets/images/ai-portfolio/tree-of-thought.jpg)
 
-### iclaw — Terminal AI Agent (REPL)
+---
+
+## 🤖 iclaw — Terminal AI Agent (REPL)
 
 [iclaw](https://github.com/lzwjava/iclaw) is a terminal AI agent that codes, searches, and runs commands autonomously — works on personal machines and locked-down enterprise ones. A minimal openclaw implementation, built as a plain Python CLI with no browser extensions or IDE plugins, powered by GitHub Copilot.
 
@@ -261,7 +261,9 @@ Available commands:
 
 ![iclaw — Execution log showing autonomous coding and shell commands](/assets/images/ai-portfolio/iclaw-log.png)
 
-### zz — Dataset Processing & Training Utilities
+---
+
+## ⚙️ zz — Dataset Processing & Training Utilities
 
 [zz](https://github.com/lzwjava/zz) is a toolkit for ML training pipelines — dataset download, tokenization, extraction, and inference utilities. Used during GPT-2 124M training runs on RunPod H200, DigitalOcean H100, and home RTX 4070. Also hosted on [Hugging Face](https://huggingface.co/lzwjava/zz).
 
