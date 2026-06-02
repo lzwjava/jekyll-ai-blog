@@ -75,11 +75,11 @@ $171.53 in one month. 2,555 requests. 115M+ tokens. 90.9% cache hit rate.
 
 ![SSSAICode Claude Usage — Opus 4.6, Opus 4.7, Sonnet 4.6, Haiku 4.5](/assets/images/ai-portfolio/sssaicode-usage.png)
 
-### Xiaomi MIMO Subscription — 3.88 Billion Tokens Used
+### Xiaomi MIMO Subscription — 500 Million Tokens Used
 
-Pro Monthly Plan with 38B main quota + 8.75B compensation quota. 3.88B tokens consumed (44% of compensation quota).
+Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free credit). 500M tokens consumed so far.
 
-![Xiaomi MIMO Pro Plan — 3.88B tokens consumed out of 8.75B compensation quota](/assets/images/ai-portfolio/xiaomi-mimo-usage.png)
+![Xiaomi MIMO Pro Plan — 500M tokens consumed, ~4.6B free credit remaining](/assets/images/ai-portfolio/xiaomi-mimo-usage.png)
 
 ### Summary
 
@@ -87,7 +87,7 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota. 3.88B tokens co
 |----------|--------|--------|------|
 | OpenRouter | 927M | Past year | $192 |
 | SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
-| Xiaomi MIMO | 3.88B | Current plan | Pro subscription |
+| Xiaomi MIMO | 500M | Current plan | Free 4.6B credit |
 | **Total** | **~1.5B+** | **Past year** | **—** |
 
 ---
