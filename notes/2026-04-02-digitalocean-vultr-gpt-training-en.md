@@ -29,12 +29,14 @@ Answer: For training **GPT-2 (124M)**, both providers are viable, but **Vultr** 
 * **GPT-3 (175B Parameters):** Training the full GPT-3 from scratch is **not feasible** on these platforms. It required thousands of specialized GPUs (V100s/A100s) and months of time, costing millions. However, for **fine-tuning** a smaller GPT-3 variant (like Ada or Babbage), **DigitalOcean** is better because its **Gradient** platform comes with pre-configured environments for LLM workflows, saving you hours of driver and library setup.
 
 ### Summary Recommendation
+
 * **Choose Vultr** if you want the **lowest hourly cost** for training GPT-2 124M and prefer managing your own Linux environment.
 * **Choose DigitalOcean** if you want a **managed experience** via Paperspace to quickly fine-tune models without worrying about infrastructure configuration.
 
 References:
-- [Top 12 Cloud GPU Providers for AI and Machine Learning in 2026](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)
-- [DigitalOcean vs. Vultr: side-by-side comparison](https://betterstack.com/community/guides/web-servers/digitalocean-vs-vultr/)
-- [Pretraining a 124-M Parameter GPT-2 Language Model](https://wandb.ai/bkkaggle/lm-finetuning/reports/Pretraining-a-124-M-Parameter-GPT-2-Language-Model--VmlldzoyMjg4NzA)
+
+* [Top 12 Cloud GPU Providers for AI and Machine Learning in 2026](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)
+* [DigitalOcean vs. Vultr: side-by-side comparison](https://betterstack.com/community/guides/web-servers/digitalocean-vs-vultr/)
+* [Pretraining a 124-M Parameter GPT-2 Language Model](https://wandb.ai/bkkaggle/lm-finetuning/reports/Pretraining-a-124-M-Parameter-GPT-2-Language-Model--VmlldzoyMjg4NzA)
 
 If you're planning to start training soon, I can help you compare the specific hourly rates for an NVIDIA A100 vs. H100 on these platforms to see which fits your budget better. Would you like me to look those up?

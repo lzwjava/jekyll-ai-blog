@@ -17,6 +17,7 @@ Answer:
 **Auto Top-Up** (also referred to as "自動增值" in Chinese) is a convenient feature in the **PayMe from HSBC** app that automatically adds funds to your PayMe wallet balance when it falls below a set threshold. This ensures you can continue making payments or transfers without manual top-ups each time.
 
 ### How It Works
+
 - You set a **minimum balance threshold** (e.g., when your PayMe balance drops below a certain amount).
 - When your balance falls below this threshold during a transaction or otherwise, PayMe automatically tops up your wallet from your linked funding source.
 - The top-up amount is predefined (you choose a fixed amount to add each time, typically in set options like HK$500, HK$1,000, up to HK$2,000 or similar).
@@ -25,6 +26,7 @@ Answer:
 - Funding sources: You can link either a **bank account** (from supported Hong Kong banks, including non-HSBC) or an **HSBC credit card** for automatic top-ups. HSBC credit card or bank account top-ups remain free, while non-HSBC credit cards may incur fees (1.2% handling fee since August 2024 for manual top-ups, and likely similar for auto).
 
 ### How to Set It Up
+
 1. Open the **PayMe app** (ensure it's updated to the latest version).
 2. Go to **Me** (or "我的賬戶") > **Settings** (設定).
 3. Look for **Auto Top-Up** (自動增值) section.

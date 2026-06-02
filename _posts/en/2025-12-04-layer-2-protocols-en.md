@@ -17,6 +17,7 @@ Answer:
 The **Data Link Layer (Layer 2)** is responsible for node-to-node delivery of frames over a physical link, error detection/correction, and medium access control. The following protocols, technologies, and functions typically operate at Layer 2:
 
 ### Common Layer 2 Protocols
+
 - **Ethernet** (IEEE 802.3) – the most widely used LAN technology
 - **Wi-Fi** (IEEE 802.11) – wireless LAN framing and medium access
 - **PPP** (Point-to-Point Protocol) – used on serial links (e.g., WANs, dial-up)
@@ -30,6 +31,7 @@ The **Data Link Layer (Layer 2)** is responsible for node-to-node delivery of fr
 - **ARP** (Address Resolution Protocol) – technically operates between Layer 2 and Layer 3 (resolves IP to MAC), but uses Layer 2 frames
 
 ### Layer 2 Technologies & Concepts
+
 - **MAC addresses** (48-bit hardware addresses)
 - **Switches** and **bridges** – primary Layer 2 devices
 - **VLANs** (802.1Q tagging)

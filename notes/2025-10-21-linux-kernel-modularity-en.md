@@ -17,6 +17,7 @@ Modularity in Linux primarily refers to the design of the Linux kernel, which is
 Think of it like LEGO blocks: The kernel is the base structure, but you can snap on (load) or remove (unload) pieces as needed, keeping the system lean and customizable. Most device drivers in Linux are implemented this way, which is why Linux can support vast hardware ecosystems without bloating the core kernel.
 
 #### Why Modularity Matters
+
 - **Flexibility**: Load only what's needed (e.g., a Wi-Fi driver when connecting to a network).
 - **Efficiency**: Reduces memory footprint by avoiding permanent inclusion of unused code.
 - **Maintainability**: Easier to update or debug individual components without touching the whole system.
@@ -25,9 +26,11 @@ Think of it like LEGO blocks: The kernel is the base structure, but you can snap
 This design has helped Linux endure for decades, as you mentioned in our earlier chat—it's easier to evolve than a rigid monolith.
 
 #### How Kernel Modules Work
+
 Kernel modules are compiled object files (`.ko` extension) written in C, using kernel headers and the kbuild system. They must match your kernel version (check with `uname -r`).
 
 A basic module includes:
+
 - **Initialization**: A function marked with `module_init()` that runs on load (e.g., registering a driver).
 - **Cleanup**: A function marked with `module_exit()` that runs on unload (e.g., freeing resources).
 - Metadata: Macros like `MODULE_LICENSE("GPL")` for licensing and authorship.
@@ -57,7 +60,9 @@ module_exit(hello_exit);
 ```
 
 To compile it (requires kernel headers installed, e.g., via `apt install linux-headers-$(uname -r)` on Debian-based systems):
+
 - Create a `Makefile`:
+
   ```
   obj-m += hello.o
   KDIR := /lib/modules/$(shell uname -r)/build
@@ -66,6 +71,7 @@ To compile it (requires kernel headers installed, e.g., via `apt install linux-h
   clean:
       make -C $(KDIR) M=$(PWD) clean
   ```
+
 - Run `make` to generate `hello.ko`.
 - Load with `sudo insmod hello.ko` (or `sudo modprobe hello` for dependency handling).
 - Check logs: `dmesg | tail` (you'll see the "Hello" message).
@@ -74,6 +80,7 @@ To compile it (requires kernel headers installed, e.g., via `apt install linux-h
 Messages from `printk` go to the kernel ring buffer (`dmesg`) or `/var/log/kern.log`.
 
 #### Managing Modules in Practice
+
 Use these commands (from the `kmod` package; install if needed: `sudo yum install kmod` on RHEL or `sudo apt install kmod` on Ubuntu).
 
 | Action | Command | Description/Example |
@@ -87,16 +94,21 @@ Use these commands (from the `kmod` package; install if needed: `sudo yum instal
 Modules live in `/lib/modules/$(uname -r)/kernel/`. Avoid unloading in-use modules (e.g., active drivers) to prevent crashes.
 
 #### Making Modules Persistent
+
 Changes aren't permanent across reboots:
+
 - **Load at boot**: Add to `/etc/modules-load.d/myfile.conf` (one module per line).<br>Example: `echo "hello" \| sudo tee /etc/modules-load.d/hello.conf`.
 - **Blacklist (prevent loading)**: Add to `/etc/modprobe.d/blacklist.conf`.<br>Example:
+
   ```
   blacklist bad_module
   install bad_module /bin/false
   ```
+
   Then regenerate initramfs: `sudo dracut -f` and reboot.
 
 #### Common Pitfalls and Tips
+
 - **Version mismatch**: Modules must match your kernel—recompile after updates.
 - **Dependencies**: `modprobe` handles them; check with `modinfo --depends <name>`.
 - **Debugging**: Use `pr_debug` for verbose logs (enable with `echo 8 > /proc/sys/kernel/printk`).

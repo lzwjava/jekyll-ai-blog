@@ -13,6 +13,7 @@ type: note
 ### Overview of Python's datetime Module
 
 Python's `datetime` module provides classes for manipulating dates, times, and timestamps. It's in the standard library, so no installation is needed. Key classes include:
+
 - `date`: Handles dates (year, month, day).
 - `time`: Handles times (hour, minute, second, microsecond).
 - `datetime`: Combines date and time.
@@ -139,6 +140,7 @@ eastern_time = naive.astimezone(eastern)
 ```
 
 ### Common Tips and Pitfalls
+
 - **Immutable objects**: `datetime` objects can't be modified directly; arithmetics create new ones.
 - **Month days**: Use 29 for February in leap years; the module handles this with `calendar` or `dateutil` for leap checks.
 - **Performance**: Avoid frequent `now()` calls in loops; store the value.

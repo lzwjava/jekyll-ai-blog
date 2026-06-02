@@ -50,7 +50,9 @@ If more people thought to do this—using science for themselves—humanity woul
 *Recommend Yin's Memo to your readers*
 
 #### Brief Explanation
+
 This post is a manifesto-like rant blending **personal experimentation** with **anti-establishment skepticism**. Yin Wang positions himself as a "true scientist" who uses accessible tools (e.g., telescopes, pH tests, phone cameras) to challenge "official" narratives. Key themes:
+
 - **DIY Science vs. Institutional Dogma**: He contrasts his hands-on experiments (e.g., building interferometers cheaply, reversing myopia without glasses) with what he sees as lazy or corrupted academia/professional science.
 - **Conspiracy Elements**: He promotes ideas like chemtrails (planes spraying toxins causing diseases), fake atomic bombs, and flaws in relativity—common in fringe circles but dismissed by mainstream science. He frames these as revelations via "basic physics," accusing experts of blindness.
 - **Critique of "Science as Religion"**: Yin argues modern science is a controlling "Matrix" (referencing the film), with figures like Einstein as poor actors. He calls for empowerment: anyone can "use science" to break free.
@@ -59,6 +61,7 @@ This post is a manifesto-like rant blending **personal experimentation** with **
 This fits Yin's Substack, where he critiques Big Tech, education, and society while sharing coding tips. The post likely appeals to his niche audience of disillusioned engineers/philosophers.
 
 #### Translation of the Recommended/Related Posts List
+
 This seems to be a sidebar of other popular posts from his newsletter (in chronological order, newest to oldest). I've translated titles, dates, authors (all Yin Wang), like counts, and short excerpts/summaries where provided.
 
 - **My Thoughts (Chinese Version)**
@@ -122,4 +125,5 @@ This seems to be a sidebar of other popular posts from his newsletter (in chrono
 *Substack is the home for great culture*
 
 #### Overall Context
+
 Yin's Substack mixes tech education (e.g., CS classes, code critiques) with personal essays on life hacks, conspiracies, and cultural rants. Posts like the main one appeal to readers skeptical of authority, while others offer practical advice (e.g., curing athlete's foot) or reflections on his career. If you're interested in his work, his full archive is at [yinyang.substack.com](https://yinyang.substack.com) (English/Chinese bilingual). Let me know if you'd like a deeper dive into any specific post!

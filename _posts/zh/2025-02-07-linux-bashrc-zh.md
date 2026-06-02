@@ -13,50 +13,50 @@ type: post
 
 **1. 基本设置：**
 
-   - `HISTCONTROL=ignoreboth`: 忽略历史记录中重复的命令和以空格开头的命令。
-   - `shopt -s histappend`: 将新的历史记录条目追加到历史记录文件。
-   - `HISTSIZE=1000`: 将内存中保留的历史记录条目数设置为1000。
-   - `HISTFILESIZE=2000`: 将历史记录文件的最大大小设置为2000。
-   - `shopt -s checkwinsize`: 更新终端窗口大小。
+- `HISTCONTROL=ignoreboth`: 忽略历史记录中重复的命令和以空格开头的命令。
+- `shopt -s histappend`: 将新的历史记录条目追加到历史记录文件。
+- `HISTSIZE=1000`: 将内存中保留的历史记录条目数设置为1000。
+- `HISTFILESIZE=2000`: 将历史记录文件的最大大小设置为2000。
+- `shopt -s checkwinsize`: 更新终端窗口大小。
 
 **2. 彩色提示符：**
 
-   - 如果终端支持，则配置彩色命令提示符。
+- 如果终端支持，则配置彩色命令提示符。
 
 **3. 窗口标题：**
 
-   - 将终端窗口标题设置为显示当前用户、主机和工作目录。
+- 将终端窗口标题设置为显示当前用户、主机和工作目录。
 
 **4. 目录颜色：**
 
-   - 如果可用，则为`ls`命令启用彩色输出。
+- 如果可用，则为`ls`命令启用彩色输出。
 
 **5. 别名：**
 
-   - `alias ll='ls -alF'`: 列出所有文件，并显示详细信息。
-   - `alias la='ls -A'`: 列出所有文件，包括隐藏文件。
-   - `alias l='ls -CF'`:  列出文件，以列的形式显示。
-   - `alias alert='notify-send ...'`: 命令结束后发送桌面通知。
+- `alias ll='ls -alF'`: 列出所有文件，并显示详细信息。
+- `alias la='ls -A'`: 列出所有文件，包括隐藏文件。
+- `alias l='ls -CF'`:  列出文件，以列的形式显示。
+- `alias alert='notify-send ...'`: 命令结束后发送桌面通知。
 
 **6. Bash别名文件：**
 
-   - 包含一个用于自定义别名的单独文件（`~/.bash_aliases`）。
+- 包含一个用于自定义别名的单独文件（`~/.bash_aliases`）。
 
 **7. Bash自动补全：**
 
-   - 如果可用，则启用bash自动补全。
+- 如果可用，则启用bash自动补全。
 
 **8. 路径配置：**
 
-   - `export PATH=...`: 将各种目录添加到`PATH`环境变量中，包括CUDA、Ruby gems、本地二进制文件和系统二进制文件的目录。
+- `export PATH=...`: 将各种目录添加到`PATH`环境变量中，包括CUDA、Ruby gems、本地二进制文件和系统二进制文件的目录。
 
 **9. 代理管理：**
 
-   - `export GLOBAL_PROXY='127.0.0.1:7890'`: 定义代理服务器地址的变量。
-   - `function start_proxy { ... }`: 设置`HTTP_PROXY`、`HTTPS_PROXY`、`http_proxy`、`https_proxy`和`ALL_PROXY`环境变量以使用指定的代理。
-   - `function start_proxy_without_prefix { ... }`: 与`start_proxy`类似，但是设置代理变量时不带`http://`前缀。
-   - `function stop_proxy { ... }`: 取消设置代理变量，有效地禁用代理。
-   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: 指定应绕过代理的主机。
+- `export GLOBAL_PROXY='127.0.0.1:7890'`: 定义代理服务器地址的变量。
+- `function start_proxy { ... }`: 设置`HTTP_PROXY`、`HTTPS_PROXY`、`http_proxy`、`https_proxy`和`ALL_PROXY`环境变量以使用指定的代理。
+- `function start_proxy_without_prefix { ... }`: 与`start_proxy`类似，但是设置代理变量时不带`http://`前缀。
+- `function stop_proxy { ... }`: 取消设置代理变量，有效地禁用代理。
+- `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: 指定应绕过代理的主机。
 
 **10. Git代理：**
 
@@ -70,30 +70,28 @@ type: post
 
 **12. Python别名：**
 
-   - `alias python=python3`: 将`python`设置为使用`python3`。
-   - `alias pip=pip3`: 将`pip`设置为使用`pip3`。
+- `alias python=python3`: 将`python`设置为使用`python3`。
+- `alias pip=pip3`: 将`pip`设置为使用`pip3`。
 
 **13. Git消息AI别名：**
 
-   - `function gpa { ... }`: 创建一个别名`gpa`来运行python脚本`gitmessageai.py`，使用mistral API，并允许拉取和推送。
-   - `function gca { ... }`: 创建一个别名`gca`来运行相同的脚本，但不推送更改。
-   - `function gm { ... }`: 创建一个别名`gm`来运行相同的脚本，并且只打印提交消息。
+- `function gpa { ... }`: 创建一个别名`gpa`来运行python脚本`gitmessageai.py`，使用mistral API，并允许拉取和推送。
+- `function gca { ... }`: 创建一个别名`gca`来运行相同的脚本，但不推送更改。
+- `function gm { ... }`: 创建一个别名`gm`来运行相同的脚本，并且只打印提交消息。
 
 **14. 使用拉取和变基的Git推送：**
 
-   - `function gpp { ... }`: 尝试推送更改，如果失败，则尝试使用变基拉取，然后再次推送。
+- `function gpp { ... }`: 尝试推送更改，如果失败，则尝试使用变基拉取，然后再次推送。
 
 **15. 预执行代理检查：**
 
-   - `preexec() { ... }`: 此函数在每个命令之前执行。它检查命令是否在网络相关命令列表中。如果是，并且设置了任何代理变量，则显示代理设置。
-   - `local network_commands=( ... )`: 此数组列出了被认为是网络相关的命令。
-   - `display_proxy() { ... }`: 此函数显示当前的代理设置。
+- `preexec() { ... }`: 此函数在每个命令之前执行。它检查命令是否在网络相关命令列表中。如果是，并且设置了任何代理变量，则显示代理设置。
+- `local network_commands=( ... )`: 此数组列出了被认为是网络相关的命令。
+- `display_proxy() { ... }`: 此函数显示当前的代理设置。
 
 **16. 检查代理函数：**
 
-   - `function checkproxy { ... }`: 显示当前的HTTP和HTTPS代理设置，以及Git代理设置。
-
-
+- `function checkproxy { ... }`: 显示当前的HTTP和HTTPS代理设置，以及Git代理设置。
 
 ```bash
 case $- in
@@ -119,9 +117,9 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	color_prompt=yes
+ color_prompt=yes
     else
-	color_prompt=
+ color_prompt=
     fi
 fi
 
@@ -185,22 +183,22 @@ function start_proxy {
 
 function start_proxy_without_prefix {
     export http_proxy=$GLOBAL_PROXY
-		export HTTP_PROXY=$GLOBAL_PROXY
-		export https_proxy=$GLOBAL_PROXY
+  export HTTP_PROXY=$GLOBAL_PROXY
+  export https_proxy=$GLOBAL_PROXY
     export HTTPS_PROXY=$GLOBAL_PROXY
     export HTTP_PROXY_REQUEST_FULLURI=false
     export HTTPS_PROXY_REQUEST_FULLURI=false
-		export ALL_PROXY=$http_proxy
+  export ALL_PROXY=$http_proxy
 }
 
 function stop_proxy {
     export http_proxy=
-		export HTTP_PROXY=
-		export https_proxy=
+  export HTTP_PROXY=
+  export https_proxy=
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=
+  export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"

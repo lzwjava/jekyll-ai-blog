@@ -24,6 +24,7 @@ Google Cloud 认证考试提供**两种选择** —— 你可以选择：
 大多数考生为了方便选择在线选项，尽管有些人更倾向于考试中心，以避免家庭环境配置问题（例如：严格的技术/环境要求）。
 
 ### 关于远程监考 (Online-Proctored) 考试
+
 这些考试通过真人监考（一名监考员实时通过远程监控你）结合监考软件来完成。主要的防作弊措施包括：
 
 - **真人实时监考 (Live human proctor)**：在整个考试过程中观看你的视频流，如果发生可疑行为，可以干预或终止考试。
@@ -45,6 +46,7 @@ Google Cloud 认证考试提供**两种选择** —— 你可以选择：
 了解最新详情（特别是 2026 年 2 月切换到 Pearson VUE 之后），请在预约考试时务必查看官方注册页面和监考要求。
 
 References:
+
 - [https://support.google.com/cloud-certification/answer/9907748](https://support.google.com/cloud-certification/answer/9907748) — Online Proctored Exams 详情
 - [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) — 注册与预约（提到两种选项）
 - [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) — 考试条款与条件（禁止行为和失效规则）

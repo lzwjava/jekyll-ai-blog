@@ -20,11 +20,13 @@ Staying awake for an entire night combined with cold water exposure on your head
 A single night of 24 hours without sleep causes impairment equivalent to a blood alcohol content of 0.10%, which significantly affects your cognitive abilities and coordination. The dangers include:
 
 **Immediate Effects:**
+
 - Impaired attention, higher pain sensitivity, and difficulty with concentration-dependent tasks
 - Increased anxiety, depression, anger, and confusion in adolescents and adults
 - Increased risk of falling asleep while driving or losing concentration, which contributes to thousands of transportation accidents annually
 
 **Physical Impact:**
+
 - Weakened immune system, making the body less able to fight infections
 - Higher blood pressure and stress hormone release
 - After 24 hours of sleep deprivation, the body becomes more sensitive to pain, pressure, and cold temperatures
@@ -54,11 +56,11 @@ An occasional all-nighter may not cause significant long-term damage if followed
 
 **References:**
 
-- https://my.clevelandclinic.org/health/diseases/23970-sleep-deprivation
-- https://www.health.harvard.edu/staying-healthy/effects-of-sleep-deprivation
-- https://www.health.harvard.edu/staying-healthy/how-sleep-deprivation-can-harm-your-health
-- https://health.clevelandclinic.org/happens-body-dont-get-enough-sleep
-- https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful
-- https://www.foxnews.com/health/sleep-deprivation-dangers-pulling-all-nighter-affects-physical-mental-health
-- https://www.vinmec.com/eng/blog/is-late-night-bathing-really-linked-to-stroke-en
-- https://www.medicalnewstoday.com/articles/benefits-of-cold-plunges-sleep-stress-may-be-short-lived-review-finds
+- <https://my.clevelandclinic.org/health/diseases/23970-sleep-deprivation>
+- <https://www.health.harvard.edu/staying-healthy/effects-of-sleep-deprivation>
+- <https://www.health.harvard.edu/staying-healthy/how-sleep-deprivation-can-harm-your-health>
+- <https://health.clevelandclinic.org/happens-body-dont-get-enough-sleep>
+- <https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful>
+- <https://www.foxnews.com/health/sleep-deprivation-dangers-pulling-all-nighter-affects-physical-mental-health>
+- <https://www.vinmec.com/eng/blog/is-late-night-bathing-really-linked-to-stroke-en>
+- <https://www.medicalnewstoday.com/articles/benefits-of-cold-plunges-sleep-stress-may-be-short-lived-review-finds>

@@ -81,7 +81,7 @@ def main():
     answer = call_copilot_llm("What is GitHub Copilot?")
     print("🤖 Copilot says:", answer)
 
-if __name__ == "__main__":
+if **name** == "**main**":
     main()  , also add refresh token logic
 
 ---
@@ -94,7 +94,6 @@ _Thinking:_
 
 I'm currently focused on dissecting the provided code snippets to understand the proposed authentication flow, especially the "refresh token logic." My immediate task is to identify how best to integrate these pieces into a coherent Python script that reliably manages GitHub Copilot authentication, focusing on the robustness of the token refreshing mechanism.
 
-
 **Refining Copilot Token Management**
 
 I'm now zeroing in on integrating the provided refresh token logic within a comprehensive structure for Copilot authentication. My focus is on synthesizing a complete implementation in Python, which should incorporate all necessary parts like GitHub token handling and the Copilot token exchange. I am also working on adding the functionality that was requested specifically, and handling the logic where the access token is returned.
@@ -103,10 +102,10 @@ I will implement a Python script that integrates the GitHub Device Flow for auth
 
 ### Implementation Plan
 
-1.  **Authentication Flow**: Implement `get_device_code` and `poll_for_access_token` using GitHub's OAuth API.
-2.  **Token Exchange**: Implement `get_copilot_token` to exchange the GitHub OAuth token for a temporary Copilot session token.
-3.  **LLM Interaction**: Implement `call_copilot_llm` to demonstrate using the cached token with the Copilot API.
-4.  **Background Refresh**: Integrate the `threading` logic you provided to keep the Copilot token valid indefinitely.
+1. **Authentication Flow**: Implement `get_device_code` and `poll_for_access_token` using GitHub's OAuth API.
+2. **Token Exchange**: Implement `get_copilot_token` to exchange the GitHub OAuth token for a temporary Copilot session token.
+3. **LLM Interaction**: Implement `call_copilot_llm` to demonstrate using the cached token with the Copilot API.
+4. **Background Refresh**: Integrate the `threading` logic you provided to keep the Copilot token valid indefinitely.
 
 I'll start by creating the `copilot_proxy.py` script.
 
@@ -280,6 +279,7 @@ if __name__ == "__main__":
 ```
 
 This implementation includes:
+
 - **Device Flow Authentication**: Uses the GitHub CLI Client ID to get an OAuth token.
 - **Persistence**: Saves the GitHub token to `~/.copilot_github_token` with restricted permissions.
 - **Threaded Refresh**: Periodically updates the short-lived Copilot session token (which usually expires in 25-30 minutes).

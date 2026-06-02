@@ -27,6 +27,7 @@ type: note
 对于一名没有高中竞赛背景的 985/211 高校大一新生来说，如果立刻将目标定为在毕业前获得 ACM/ICPC（国际大学生程序设计竞赛）世界级水平，往往是不现实的。Competitive programming 需要数千小时的刻意练习、模式识别、Algorithm 掌握和竞赛经验——在处理繁重的大学课程的同时，这些技能很难在短短 3-4 年内从零建立。
 
 一个更现实的路径：
+
 - 第一年：学习基础（C++/Python、Data Structures、基础 Algorithms），在 LeetCode、Codeforces 或洛谷等平台上解决 100–300 道简单及中等难度的题目。
 - 第二年：参加区域赛，提高解题速度和准确率，设定 Rating 阶段性目标（例如 Codeforces Specialist → Expert）。
 - 第三至四年：争取省级/国家级奖项，或在大型比赛中保持稳定的表现。

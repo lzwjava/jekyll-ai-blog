@@ -60,6 +60,7 @@ D. A/D 转换
 **标准的教科书/考试路由器结构模型（频繁考查）：**
 
 Router =
+
 - 输入端口 (Input ports)
 - 输出端口 (Output ports)
 - 交换结构 (Switching fabric)

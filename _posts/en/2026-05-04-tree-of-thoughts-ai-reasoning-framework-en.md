@@ -40,6 +40,7 @@ It expands into a **tree structure**:
 Each branch = a possible reasoning path.
 
 👉 The model:
+
 - generates multiple candidate “thoughts”
 - evaluates them
 - keeps the promising ones
@@ -53,21 +54,25 @@ This is very different from normal prompting.
 ## 2. Why this matters
 
 Traditional LLM reasoning (like Chain-of-Thought):
+
 - only explores **one path**
 - can get stuck early
 
 Tree of Thoughts:
+
 - explores **many paths**
 - compares them
 - chooses better ones
 
 This dramatically improves performance on:
+
 - math problems
 - planning tasks
 - puzzles
 - coding logic
 
 For example, in research:
+
 - success rate jumped from **4% → 74%** on some tasks citeturn0academia12
 
 ---
@@ -77,6 +82,7 @@ For example, in research:
 Your repo (Cerynitius version) is probably:
 
 ### A practical implementation of ToT
+
 Typical components include:
 
 - **Thought generator**
@@ -92,6 +98,7 @@ Typical components include:
   → tracks reasoning paths
 
 This matches common ToT architecture:
+
 - nodes = thoughts
 - edges = reasoning steps
 - search = exploration strategy citeturn0search9
@@ -131,11 +138,13 @@ It becomes:
 ## 6. Why you should care (given your background)
 
 Since you're into:
+
 - ML systems
 - LLM reasoning
 - agent frameworks
 
 This idea is foundational for:
+
 - **AI agents**
 - **AutoGPT-style systems**
 - **planning models (like OpenAI o-series, DeepMind work)**
@@ -174,5 +183,6 @@ But this small idea is actually one of the key steps toward:
 ---
 
 If you want, I can:
+
 - walk through the actual repo code structure
 - or show how ToT is implemented in practice (with GPT API)

@@ -30,6 +30,7 @@ type: note
    - Linux：`monospace`
 
 5. **显示服务器选择** 在 `main.rs:12-25` 中：
+
    ```
    #[cfg(not(any(feature = "x11", feature = "wayland", target_os = "macos", windows)))]
    compile_error!("...");  // 至少需要一个平台才能编译

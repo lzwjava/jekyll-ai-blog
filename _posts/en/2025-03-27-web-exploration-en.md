@@ -9,7 +9,9 @@ type: note
 ---
 
 ## 1. Browser Developer Tools
+
 ### Key Techniques
+
 - Open Chrome/Firefox DevTools (F12 or Right-click > Inspect)
 - Use Elements tab to inspect component structure
 - Network tab for monitoring API calls and network requests
@@ -17,7 +19,9 @@ type: note
 - Performance tab to analyze rendering and load times
 
 ## 2. Manual Interaction Testing
+
 ### Systematic Exploration Approach
+
 - Click every button and interactive element
 - Test input fields with:
   - Valid inputs
@@ -28,7 +32,9 @@ type: note
 - Test responsive design across different screen sizes
 
 ## 3. State and Navigation Testing
+
 ### Comprehensive Coverage
+
 - Navigate through all routes/pages
 - Test browser back/forward buttons
 - Verify state persistence
@@ -36,26 +42,33 @@ type: note
 - Test deep linking capabilities
 
 ## 4. DevTools for Framework-Specific Insights
+
 ### Framework Debugging Tools
+
 #### React
+
 - React DevTools Chrome/Firefox extension
 - Inspect component hierarchy
 - View props and state
 - Performance profiling
 
 #### Angular
+
 - Augury Chrome extension
 - Component tree visualization
 - Dependency injection exploration
 - Performance analysis
 
 #### Vue
+
 - Vue DevTools extension
 - Component inspector
 - Vuex state management tracking
 
 ## 5. API and Network Testing
+
 ### Comprehensive Request Analysis
+
 - Intercept and modify network requests
 - Use network tab to:
   - Examine request/response details
@@ -65,7 +78,9 @@ type: note
 - Verify authentication flows
 
 ## 6. Security Exploration
+
 ### Potential Vulnerability Checks
+
 - Test authentication mechanisms
 - Check for client-side input validation bypasses
 - Inspect token storage and management
@@ -73,7 +88,9 @@ type: note
 - Look for potential XSS vulnerabilities
 
 ## 7. Performance Profiling
+
 ### In-Depth Performance Analysis
+
 - Lighthouse audits
 - Performance tab CPU/memory profiling
 - Network throttling tests
@@ -81,21 +98,27 @@ type: note
 - Bundle size analysis
 
 ## 8. Advanced Testing Tools
+
 ### Recommended Tools
+
 - Postman/Insomnia for API testing
 - Cypress for end-to-end testing
 - Selenium WebDriver for automated interactions
 - Chrome Extensions for additional debugging
 
 ## 9. State Management Exploration
+
 ### Deep Dive Techniques
+
 - Trace state changes
 - Understand data flow
 - Test complex state interactions
 - Verify state persistence across components
 
 ## 10. Accessibility and Compatibility
+
 ### Comprehensive Checks
+
 - Screen reader compatibility
 - Keyboard navigation
 - Color contrast

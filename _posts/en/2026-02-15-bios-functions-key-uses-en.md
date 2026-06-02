@@ -18,6 +18,7 @@ Answer:
 Here are the main things BIOS is used for:
 
 ### Core Functions During Startup (Everyone Uses This Automatically)
+
 - Performs the **Power-On Self-Test (POST)** — checks that essential hardware (CPU, RAM, graphics card, storage devices, keyboard, etc.) is present and working correctly.
 - Initializes and configures hardware components so they are ready for the operating system.
 - Locates a boot device (hard drive, SSD, USB, etc.) and loads the bootloader, which then starts your operating system (Windows, Linux, etc.).
@@ -25,6 +26,7 @@ Here are the main things BIOS is used for:
 Without this process your computer simply would not start.
 
 ### Practical Uses — What Users Do in the BIOS Setup Screen
+
 You can enter the BIOS setup (usually by pressing Del, F2, F10, or Esc during startup — it varies by motherboard) to manually control several important settings:
 
 - Change the **boot order** (e.g., boot from USB first to install Windows or try Linux from a flash drive)
@@ -38,6 +40,7 @@ You can enter the BIOS setup (usually by pressing Del, F2, F10, or Esc during st
 - View basic hardware information (CPU temperature, detected RAM amount, storage devices, etc.)
 
 ### Additional / Less Common Uses
+
 - Update the BIOS/UEFI firmware itself to add support for new CPUs, fix bugs, improve stability, or unlock new features.
 - Troubleshoot hardware problems (POST beeps or codes often point to issues BIOS detects).
 - In very old systems (pre-UEFI era), BIOS provided direct low-level access for DOS programs to control hardware (keyboard, screen, disks) — this is almost never needed today.
@@ -46,6 +49,7 @@ You can enter the BIOS setup (usually by pressing Del, F2, F10, or Esc during st
 Most new motherboards and PCs use **UEFI** instead of classic BIOS. UEFI offers faster boot times, support for drives >2 TB, a graphical mouse-friendly interface, better security, and more features. However, people still say "enter the BIOS" even when they mean the UEFI setup utility.
 
 In short — BIOS (or UEFI) is mainly used to:
+
 - Make the computer start properly every time
 - Customize boot behavior and hardware settings
 - Solve startup or compatibility problems

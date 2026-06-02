@@ -21,6 +21,7 @@ type: note
 Google 的 monorepo（几乎所有代码都在一个仓库中）和 Piper 等工具可以实现频繁、小的提交（每天 45,000 次），但生产代码在部署前要经过严格的同行评审、测试和自动化。最近的 AI 集成（例如，Gemini 负责编写超过 25% 的代码）加速了样板代码和建议，但人类仍然主导架构、评审和集成——这可能会提高有效产出而不会增加原始 LOC。简而言之，虽然一些工程师在小众角色（例如，重度设计或维护）中可能会低于 1,000 LOC，但这不代表 Google 的“许多”工程师；大多数人都为生产系统做出了更有意义的贡献。
 
 参考文献：
+
 - [Quora: Lines of Code per Day at Google](https://www.quora.com/How-many-lines-of-code-does-a-good-performing-software-engineer-at-Google-write-per-day)
 - [Skeptics Stack Exchange: 10 LOC per Day Myth](https://skeptics.stackexchange.com/questions/17224/do-professional-software-developers-write-an-average-of-10-lines-of-code-per-day)
 - [WIRED: Google's 2 Billion Lines of Code](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)

@@ -23,17 +23,20 @@ Regarding your specific example (air fryer at 200°C for 20 minutes):
 - A common guideline is: air fryer temperature ≈ conventional oven temperature **+25°F / +14°C**, and air fryer time ≈ conventional oven time **× 0.8** (20% less).
 
 For your case:
+
 - 200°C in air fryer roughly corresponds to ≈ **175–185°C** in a conventional oven.
 - 20 minutes in air fryer roughly corresponds to ≈ **24–26 minutes** in a conventional oven.
 
 Your suggestion (240°C for 25 minutes in the oven) would be **much hotter** and a bit longer — this would likely overcook or burn the outside of most foods while possibly undercooking the inside compared to the air fryer version.
 
 **Better approximate conversion** for similar crispiness and doneness:
+
 - Try **180–190°C** in the electric oven for **24–28 minutes** (start checking at 24 minutes).
 - Exact numbers vary by food type, quantity, oven model (especially if it's fan-assisted/convection or not), and personal preference.
 - Always check doneness with a thermometer or by appearance, and flip/stir halfway if possible.
 
 **Quick summary of standard rules** (oven → air fryer direction, most common):
+
 - Reduce temperature by ≈14°C (25°F).
 - Reduce time by ≈20%.
 - The reverse applies when going air fryer → oven.

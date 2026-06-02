@@ -26,6 +26,7 @@ Answer:
 ### History of the Museum
 
 其根源可以追溯到 1968 年，当时 DEC 工程师 Gordon Bell 开始收集计算文物。早期的努力促成了：
+
 - 1975年：在 Digital Equipment Corporation (DEC) 举办了首次小型展览
 - 1979年：作为 The Digital Computer Museum 在马萨诸塞州向公众开放
 - 1984年：迁至波士顿，更名为 The Computer Museum

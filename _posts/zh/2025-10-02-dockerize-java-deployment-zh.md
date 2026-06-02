@@ -13,6 +13,7 @@ type: note
 完全正确，您的思路非常清晰！从直接部署 JAR 包（如您当前基于 Fabric 的部署方式）迁移到 Docker 化方案，确实是让未来服务器迁移更顺畅、更可靠的绝佳策略。让我简要分析并确认这个方案的合理性，同时提供一些入门指导。
 
 ### 为什么选择 Docker 部署这个 Java 项目？
+
 - **当前部署方式**：您目前通过 rsync/Fabric 将 JAR 文件（`blog-server-1.0.jar`）和配置文件（如 `application.properties` 或 `.env`）直接部署到 EC2 服务器。运行时，您可能在服务器上执行类似 `java -jar blog-server-1.0.jar` 的命令，这要求服务器已安装并配置好 Java 环境。单服务器部署尚可，但迁移时容易因环境差异（如 Java 版本、依赖项或环境变量不同）导致问题。
 
 - **Docker 的优势**：
@@ -25,11 +26,13 @@ type: note
 简而言之：将应用打包成 Docker 镜像并在服务器上以容器形式运行，是“面向未来”部署的正确选择，既能保持短期部署的简洁性，又为长期发展预留空间。
 
 ### Docker 化并运行 Java 应用的简明步骤
+
 假设这是一个标准的 Java Spring Boot 应用（基于配置文件判断），以下是 Docker 化运行的高阶步骤。请根据实际需求调整：
 
 1. **更新构建流程**：
    - 修改您的 `prepare_local_jar()` 函数或类似步骤，改为本地构建 Docker 镜像，而非仅复制 JAR 文件。
    - 示例代码：
+
      ```python
      @task
      def build_and_deploy(c):
@@ -51,6 +54,7 @@ type: note
 
 2. **创建 Dockerfile**：
    - 在项目根目录（或 tmp_dir 中）创建 `Dockerfile`，内容如下（以 OpenJDK 基础镜像为例）：
+
      ```
      # 使用 JDK 基础镜像
      FROM openjdk:17-jdk-slim
@@ -68,8 +72,9 @@ type: note
      # 启动 JAR
      ENTRYPOINT ["java", "-jar", "app.jar"]
      ```
+
    - 本地构建：在项目目录执行 `docker build -t blog-server:latest .`
-   - 本地测试：运行 `docker run -p 8080:8080 blog-server:latest`，然后访问 http://localhost:8080 验证。
+   - 本地测试：运行 `docker run -p 8080:8080 blog-server:latest`，然后访问 <http://localhost:8080> 验证。
 
 3. **部署到服务器**：
    - 确保 EC2 服务器已安装 Docker（Amazon Linux 执行 `sudo yum install docker`，并启用/启动服务）。
@@ -81,6 +86,7 @@ type: note
    - 迁移时：在新服务器安装 Docker，拉取镜像并运行即可。极其简洁！
 
 ### 注意事项与实用技巧
+
 - **环境变量**：若应用需要数据库凭证等配置，通过 `docker run -e KEY=value` 传递或挂载 .env 文件。
 - **持久化数据**：若应用需要持久化文件（如 tmp_dir），使用 Docker 卷（`-v` 参数）。
 - **资源限制**：若服务器资源受限，可在 `docker run` 中添加 `--cpus` 或 `--memory` 参数。

@@ -19,6 +19,7 @@ The 13167 Web Design and Production course (网页设计与制作) in China's Na
 Based on analyses of past exams (e.g., 2012–2021 papers) and preparation resources, here are key unpopular/overlooked areas, with examples of potential questions. These draw from rare question types in simulations and historical tests, such as multi-layer Photoshop operations or DNS intricacies, which are less emphasized in standard reviews.
 
 ### Overlooked Theoretical Concepts
+
 - **WWW Architecture and Protocols**: Details beyond basics, like Gopher vs. HTTP distinctions or multi-level domain structures.
   *Example Question (Multiple Choice)*: "下列关于IP地址与域名的说法正确的有（  ）。 A. IP地址以数字表示，域名用字符表示 B. IP地址是供全球识别的通信地址 C. IP地址与域名是一一对应的 D. 域名可以多于三个层次 E. IP地址与域名都限制在32位内"
   *Answer*: A, B, C, D (E is incorrect as domains aren't bit-limited). This tests DNS depth, rarely focused on.
@@ -28,6 +29,7 @@ Based on analyses of past exams (e.g., 2012–2021 papers) and preparation resou
   *Answer*: A, B, D, E (C is more personal/blog-style). Overlooked as it's conceptual, not hands-on.
 
 ### Advanced Tool Features (Dreamweaver/Photoshop)
+
 - **Layer Limits and Image Processing**: Photoshop's max layers or non-standard edits (e.g., batch processing weaknesses).
   *Example Question (Single Choice)*: "在Photoshop中，一张图最多可以建立的图层数为（  ）。"
   *Answer*: 8000 (per document; tests tool specs, not common in basics-focused prep).
@@ -37,6 +39,7 @@ Based on analyses of past exams (e.g., 2012–2021 papers) and preparation resou
   *Answer*: Poor cross-browser compatibility and code bloat from visual editing. Rarely asked, as exams favor practical demos.
 
 ### Practical/Integration Topics
+
 - **Dynamic Web Integration**: ASP connections or form validation edge cases, often skipped in static-focused study.
   *Example*: Questions on database linking in Dreamweaver, like ADO errors—uncommon but appear in 10–15% of papers.
 
@@ -45,6 +48,7 @@ Based on analyses of past exams (e.g., 2012–2021 papers) and preparation resou
   *Answer*: Cropping, resizing, color correction, layering, filtering. Overlooked for being tool-specific.
 
 ### Preparation Tips
+
 - Focus 20% of study time here; they comprise ~10–20% of exams but score high if mastered.
 - Review 2012–2021 past papers for patterns—tools like 自考生网 offer simulations.
 - Practice with older codes (e.g., 00900 variant) as content overlaps.
@@ -52,6 +56,7 @@ Based on analyses of past exams (e.g., 2012–2021 papers) and preparation resou
 These areas are "unpopular" due to their specificity and lower frequency (e.g., <5% in recent papers), per exam analyses.
 
 **References:**
+
 - [自考13167网页设计与制作模拟试题](https://www.zikaosw.cn/kaoshi/paper-111165.html)
 - [00900网页设计与制作多选题](https://blog.csdn.net/weixin_38779534/article/details/114831672)
 - [全国2012年7月高等教育自学考试网页设计与制作试题](http://www.zikao.zj.cn/wysjyzz/28043.html)

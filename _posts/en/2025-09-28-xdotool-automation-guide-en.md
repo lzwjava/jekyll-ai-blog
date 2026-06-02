@@ -13,6 +13,7 @@ type: note
 ## What is xdotool?
 
 xdotool is a command-line automation tool for X11 (Linux desktop environments) that allows you to:
+
 - Control mouse movements and clicks
 - Send keystrokes to applications
 - Manipulate windows (move, resize, focus)
@@ -43,7 +44,9 @@ sudo make install
 ### Window Information Commands
 
 #### `getactivewindow`
+
 Gets the window ID of the currently active/focused window.
+
 ```bash
 xdotool getactivewindow
 # Output: 52428807 (window ID)
@@ -53,13 +56,17 @@ xdotool getactivewindow getwindowname
 ```
 
 #### `getwindowfocus`
+
 Similar to getactivewindow but may behave differently in some window managers.
+
 ```bash
 xdotool getwindowfocus
 ```
 
 #### `getwindowname`
+
 Gets the title/name of a window.
+
 ```bash
 # Get name of active window
 xdotool getactivewindow getwindowname
@@ -69,13 +76,17 @@ xdotool getwindowname 52428807
 ```
 
 #### `getwindowpid`
+
 Gets the process ID (PID) associated with a window.
+
 ```bash
 xdotool getactivewindow getwindowpid
 ```
 
 #### `getwindowgeometry`
+
 Gets position and size information of a window.
+
 ```bash
 xdotool getactivewindow getwindowgeometry
 # Output: Window 52428807
@@ -84,7 +95,9 @@ xdotool getactivewindow getwindowgeometry
 ```
 
 #### `getdisplaygeometry`
+
 Gets the screen/display dimensions.
+
 ```bash
 xdotool getdisplaygeometry
 # Output: 1920x1080
@@ -93,7 +106,9 @@ xdotool getdisplaygeometry
 ### Window Search and Selection
 
 #### `search`
+
 Search for windows by various criteria.
+
 ```bash
 # Search by window name/title
 xdotool search --name "Firefox"
@@ -116,7 +131,9 @@ xdotool search --name --onlyvisible --maxdepth 1 "terminal"
 ```
 
 #### `selectwindow`
+
 Interactive window selection (click to select).
+
 ```bash
 xdotool selectwindow
 # Click on any window to get its ID
@@ -125,7 +142,9 @@ xdotool selectwindow
 ### Mouse Control
 
 #### `click`
+
 Simulate mouse clicks.
+
 ```bash
 # Left click at current position
 xdotool click 1
@@ -147,7 +166,9 @@ xdotool click --delay 500 1
 ```
 
 #### `getmouselocation`
+
 Get current mouse cursor position.
+
 ```bash
 xdotool getmouselocation
 # Output: x:500 y:300 screen:0 window:52428807
@@ -158,6 +179,7 @@ xdotool getmouselocation --shell
 ```
 
 #### Mouse Movement
+
 ```bash
 # Move mouse to absolute position
 xdotool mousemove 500 300
@@ -172,7 +194,9 @@ xdotool mousemove 500 300 click 1
 ### Keyboard Input
 
 #### `key`
+
 Send keystrokes to the active window.
+
 ```bash
 # Send single key
 xdotool key Return
@@ -197,6 +221,7 @@ xdotool key ctrl+l type "https://google.com" key Return
 ```
 
 #### Text Input
+
 ```bash
 # Type text (simulates typing each character)
 xdotool type "Hello World"
@@ -245,7 +270,9 @@ xdotool windowunmap WINDOW_ID
 ### Advanced Features
 
 #### `behave`
+
 Set up window event behaviors (triggers).
+
 ```bash
 # Execute command when window gains focus
 xdotool behave WINDOW_ID focus exec echo "Window focused"
@@ -257,7 +284,9 @@ xdotool behave WINDOW_ID create exec "notify-send 'New window'"
 ```
 
 #### `behave_screen_edge`
+
 Trigger actions when mouse reaches screen edges.
+
 ```bash
 # Execute command when mouse hits left edge
 xdotool behave_screen_edge left exec "echo 'Left edge hit'"
@@ -270,6 +299,7 @@ xdotool behave_screen_edge left exec "echo 'Left edge hit'"
 ### Basic Automation Scripts
 
 #### Open Terminal and Run Command
+
 ```bash
 #!/bin/bash
 # Open terminal and run ls command
@@ -280,6 +310,7 @@ xdotool key Return
 ```
 
 #### Screenshot Active Window
+
 ```bash
 #!/bin/bash
 WINDOW=$(xdotool getactivewindow)
@@ -288,6 +319,7 @@ import -window $WINDOW "screenshot_${NAME}.png"
 ```
 
 #### Focus Specific Application
+
 ```bash
 #!/bin/bash
 # Focus Firefox or open if not running
@@ -302,6 +334,7 @@ fi
 ### Window Management Scripts
 
 #### Tile Windows Side by Side
+
 ```bash
 #!/bin/bash
 # Get screen geometry
@@ -321,6 +354,7 @@ xdotool windowmove ${WINDOWS[1]} $HALF_WIDTH 0
 ```
 
 #### Center Active Window
+
 ```bash
 #!/bin/bash
 WINDOW=$(xdotool getactivewindow)
@@ -336,6 +370,7 @@ xdotool windowmove $WINDOW $NEW_X $NEW_Y
 ### Application-Specific Automation
 
 #### Browser Automation
+
 ```bash
 #!/bin/bash
 # Open new tab and navigate
@@ -346,6 +381,7 @@ xdotool key Return
 ```
 
 #### Text Editor Automation
+
 ```bash
 #!/bin/bash
 # Select all and copy to clipboard
@@ -357,6 +393,7 @@ xdotool key ctrl+c
 ## Tips and Best Practices
 
 ### Timing and Delays
+
 ```bash
 # Add delays for slow applications
 xdotool key ctrl+alt+t
@@ -368,6 +405,7 @@ xdotool key --delay 100 ctrl+alt+t
 ```
 
 ### Error Handling
+
 ```bash
 #!/bin/bash
 # Check if window exists before acting on it
@@ -381,6 +419,7 @@ fi
 ```
 
 ### Working with Multiple Windows
+
 ```bash
 #!/bin/bash
 # Act on all windows of a specific application
@@ -392,6 +431,7 @@ done
 ```
 
 ### Debugging
+
 ```bash
 # Enable verbose output
 xdotool --verbose key Return

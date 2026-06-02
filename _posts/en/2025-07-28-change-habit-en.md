@@ -25,7 +25,6 @@ type: post
    - Handle corporate tasks and messages specifically
    - Handle personal struggles silently and independently
 
-
 ## How to Change a Habit
 
 It is very hard to change a habit. Your brain holds so many memories associated with it. When you want to change it, it can be incredibly difficult.

@@ -46,6 +46,7 @@ Most career advice focuses on “working harder,” “networking more,” or �
 The brutal summary: Most career stalls aren’t due to external barriers or lack of opportunity. They’re emergent properties of human nature optimizing for comfort, risk avoidance, and self-deception once the paycheck is no longer scary.
 
 References:
+
 - [The Gervais Principle (Ribbonfarm)](https://www.ribbonfarm.com/the-gervais-principle/)
 - [Mimetic Theory of Career Success – Erik Torenberg](https://eriktorenberg.substack.com/p/the-mimetic-theory-of-career-success)
 - [Peter Principle Revisited – Various observations across tech/executive coaching circles, 2015–2025]

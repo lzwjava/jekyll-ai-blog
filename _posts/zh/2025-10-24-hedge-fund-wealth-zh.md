@@ -66,6 +66,7 @@ type: note
 这些榜单显示出显著的重叠——格里芬、英格兰德和科恩等经理人在财富/收益与基金规模方面均占据主导地位。2025年整体表现强劲，主要受AI/科技股上涨和宏观格局变动推动。
 
 **参考资料：**
+
 - [2025年美国最富有对冲基金经理](https://www.forbes.com/sites/hanktucker/2025/09/11/how-the-10-richest-american-hedge-fund-managers-got-20-billion-richer-in-a-year/)
 - [富豪榜：对冲基金经理年度收入排名](https://www.institutionalinvestor.com/article/2ekchq8rll8mbbn2glq80/hedge-funds/the-rich-list-the-24th-annual-ranking-of-the-highest-earning-hedge-fund-managers)
 - [按AUM排序的顶级对冲基金](https://www.wallstreetprep.com/knowledge/top-hedge-funds/)

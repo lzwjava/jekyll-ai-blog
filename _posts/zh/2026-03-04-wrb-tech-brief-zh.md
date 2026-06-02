@@ -20,6 +20,7 @@ Standard Chartered Bank 中的 **WRB Tech** 指的是专用于支持银行 **Wea
 - **WRB Tech** 是专业的 technology 组织（或更广泛的 Technology & Operations 函数中的“tribe”/domain），负责构建、维护和创新专为 WRB 业务设计的 digital platforms、applications、backend systems、frontend experiences、data/analytics/AI capabilities 以及其他 tech solutions。
 
 包括：
+
 - 开发 digital wealth products 和 propositions
 - 构建 mobile banking apps、digital onboarding、payments 和 investment tools
 - 处理 engineering roles（frontend、backend、full-stack）

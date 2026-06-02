@@ -30,18 +30,23 @@ This is essentially a **timeout** — Clash gave up waiting for a response.
 ## Common Situations Where This Occurs
 
 ### 1. Rule Provider / Proxy Provider Fetch Timeout
+
 When Clash tries to initialize a rule provider (e.g., a remote YAML rule list), it may fail with `initial rule provider [name] error: context deadline exceeded`. This means Clash could not download the remote rule file within the allowed time. Common causes:
+
 - The rule provider URL is inaccessible or blocked in your region
 - Your network is slow or the remote server is down
 - The file is very large and takes too long to fetch on startup
 
 ### 2. DNS Resolution Timeout
+
 Clash logs may show warnings like `dns resolve failed: context deadline exceeded` when trying to resolve domain names. This typically happens when:
+
 - The DNS servers configured in Clash are unreachable (especially DoH/DoT servers like `https://dns.alidns.com` or `tls://1.1.1.1`)
 - A routing loop is created where DNS queries are sent through the proxy, which itself needs DNS to resolve — causing a deadlock
 - System proxy is enabled while Clash's own DNS is misconfigured
 
 ### 3. Proxy Node Connection Timeout
+
 When Clash tries to test or connect to a proxy node (e.g., during health checks or URL tests), and the node doesn't respond in time, the same `context deadline exceeded` error appears.
 
 ---

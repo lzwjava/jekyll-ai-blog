@@ -34,6 +34,7 @@ Claude Code 原生支持 `ANTHROPIC_BASE_URL` 和 `ANTHROPIC_AUTH_TOKEN` 环境�
 claude-relay-service (pincc.ai) 是一个自托管的 Claude API 中继服务，它将 Claude、OpenAI 和 Gemini 订阅转换为标准 API 调用，并提供多账户管理和成本分摊功能。
 
 它主要针对 Claude Code 设计，并使用以下方式设置中继：
+
 ```bash
 export ANTHROPIC_BASE_URL="http://127.0.0.1:3000/api/"
 export ANTHROPIC_AUTH_TOKEN="your-key-from-dashboard"
@@ -84,6 +85,7 @@ export ANTHROPIC_AUTH_TOKEN="your-key-from-dashboard"
 ```
 
 然后设置环境变量：
+
 ```bash
 export ANTHROPIC_AUTH_TOKEN="your-pincc-api-key"
 ```
@@ -124,6 +126,7 @@ pincc.ai 中继路径是 `/api/`（例如 `https://v2-as.pincc.ai/api/`）。Ope
 ## 推荐
 
 如果您的目标只是使用 pincc.ai 中继访问 Claude：
+
 - **坚持使用 Claude Code**——它原生支持 `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN`。
 - 如果必须使用 OpenCode，请在 `opencode.json` 中配置**命名自定义 provider**，使用显式模型和 `baseURL`，并将 API 密钥使用 `{env:ANTHROPIC_AUTH_TOKEN}`。
 

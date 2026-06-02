@@ -67,6 +67,7 @@ A player wins the hand by being the first to form 4 sets and 1 pair. A set is a 
 At the start of each turn, a player draws a tile from the wall or claims the discard of a previous player. At the end of a turn, a player is required to discard a tile from their hand.
 
 **Claiming a discard:**
+
 - Any player can call **"Pung!"** to claim another player's discard to complete a triplet (takes priority).
 - Only the player whose turn is next can call **"Chow!"** to claim a discard for a sequence.
 - Any player can call **"Kong!"** to complete a set of four.

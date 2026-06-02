@@ -42,6 +42,7 @@ abstract class ChangeDetectorRef {
 ## How to Inject It
 
 {% raw %}
+
 ```typescript
 @Component({
   selector: 'app-my',
@@ -54,6 +55,7 @@ export class MyComponent {
   constructor(private cdr: ChangeDetectorRef) {}
 }
 ```
+
 {% endraw %}
 
 This is plain DI. Angular's internal Ivy compiler resolves `ChangeDetectorRef` as a **special token** tied to the component's current view — but the **component initialization process is identical** to any other component.

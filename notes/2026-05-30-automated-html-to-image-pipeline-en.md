@@ -32,6 +32,7 @@ Here's the full pipeline:
 8. **Verify** — Ran `vision_analyze` on the final image to confirm layout, readability, and no clipping.
 
 The key trick: browser screenshots always capture the full viewport (1280px wide by default), not just the content. So you either need to:
+
 - Resize the viewport to match content width, or
 - Crop after the fact with ImageMagick
 

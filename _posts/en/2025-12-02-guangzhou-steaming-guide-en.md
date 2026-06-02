@@ -15,6 +15,7 @@ Question: What foods (like fish, chicken, etc.) can I steam using water in Guang
 Answer: Steaming with water is one of the healthiest and most popular cooking methods in Guangzhou (Cantonese cuisine). Here are the best foods to steam and the typical equipment or setups you’ll find or can easily buy in Guangzhou:
 
 ### Recommended Foods for Steaming
+
 - **Fish** (very common):
   - Whole fresh grouper (石斑鱼 shí bān yú), sea bass (鲈鱼 lú yú), pomfret (斗鲳 dòu chāng)
   - Classic style: steamed with ginger, scallions, soy sauce, and hot oil poured at the end
@@ -39,6 +40,7 @@ Answer: Steaming with water is one of the healthiest and most popular cooking me
   - Shrimp dumplings (har gow), siu mai, char siu bao (steamed BBQ pork buns), etc.
 
 ### Equipment You Can Easily Get in Guangzhou
+
 1. **Traditional metal or bamboo steamers** (蒸笼 zhēng lóng)
    - Sold everywhere in kitchenware markets (e.g., near Haizhu Square or any wet market).
    - Stackable bamboo ones are cheap (¥20–50) and perfect for home wok steaming.
@@ -50,6 +52,7 @@ Answer: Steaming with water is one of the healthiest and most popular cooking me
    - Very popular for steaming multiple dishes at once (common in Guangzhou apartments).
 
 ### Where to Buy Equipment in Guangzhou
+
 - Any local wet market (e.g., Huangsha Seafood Market area)
 - Kitchenware street near Renmin North Road
 - Big stores: Carrefour, Vanguard, AEON, or Taobao/JD for delivery

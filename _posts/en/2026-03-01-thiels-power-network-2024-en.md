@@ -20,6 +20,7 @@ Thiel began his public intellectual and political activities at **Stanford Unive
 After Stanford, Thiel co-founded **PayPal** (originally through Confinity's merger with Elon Musk's X.com), which became highly successful and was sold to eBay in 2002. This generated substantial personal wealth and created the so-called **"PayPal Mafia"** — a network of alumni who went on to found or lead major companies (e.g., Tesla, YouTube, LinkedIn). Thiel leveraged this wealth and network through venture capital firms like **Founders Fund** and others, investing in tech startups while quietly building political leverage.
 
 A key element of Thiel's political approach involves **funding and mentoring** aligned figures to place them in positions of power. His most prominent success is with **JD Vance**:
+
 - Thiel met Vance in 2011 when Vance attended a Thiel talk at Yale Law School.
 - Vance later worked at Thiel's Mithril Capital.
 - Thiel backed Vance's venture fund, Narya Capital.
@@ -33,6 +34,7 @@ Thiel's company **Palantir Technologies** (co-founded in 2003, often misspelled 
 Regarding **Sam Altman** (CEO of OpenAI), Thiel has a business connection — he sponsored Altman's early venture fund, Hydrazine Capital. Their relationship appears more professional and philosophical (shared interests in tech and longevity) than deeply political. Altman has defended associating with Thiel despite political differences (e.g., Thiel's Trump support in 2016 vs. Altman's opposition), but Altman is not part of Thiel's right-wing political operations.
 
 Thiel's broader **ambitions** reflect libertarian and techno-authoritarian views — he has critiqued democracy (e.g., stating "freedom and democracy are no longer compatible" and criticizing women's suffrage's impact on capitalism). He seeks to advance tech-driven governance, reduce state interference in innovation, and counter "woke" or progressive influences. Operations include:
+
 - Large political donations (e.g., early Trump support in 2016 with $1.25 million, though he sat out 2024 before resuming GOP House support).
 - Backing candidates who align with deregulation, tech priorities, and nationalist views.
 - Using networks from PayPal, Stanford Review alumni, and VC to amplify influence without holding office himself.

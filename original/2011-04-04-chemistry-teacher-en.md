@@ -28,6 +28,7 @@ That... what? (Brother Di's classic catchphrase to help him think!)
 A student was taking notes, and Brother Di suddenly said, "Don't write, what are you writing!" (In my life, this is the first time I've encountered a teacher who strongly opposes students taking notes! Rare! Touching!)
 
 One day, Brother Di came early, and my classmates and I suggested starting class a minute or two earlier. Unexpectedly...
+
 - Teacher, let's start class earlier.
 - Since you strongly request it, then okay. (orz... worship)
 
@@ -175,6 +176,7 @@ The problem is big! (That's called passion!)
 Is it xǔe white or xǐe white, is it xǔe or xǐe? (Brother Di's attitude towards Chinese pronunciation is perfection!)
 
 (After PE class, chemistry class followed, and Brother Di was about to make an analogy)
+
 - This student, you use paper to wipe your sweat.
 Another student: Teacher, then what do you use to wipe after eating?
 Brother Di: I never wipe. (With a slight smile)

@@ -35,6 +35,7 @@ PUBG Mobile 提供多种 Battle Royale 地图，主要集中在 Classic mode，�
 - 地图可能会因地区/服务器而略有差异，但以上是 Global 版本的标准配置。
 
 References:
+
 - [PUBG Mobile Wiki - Maps](https://pubgmobile.fandom.com/wiki/Maps)
 - [PUBG Maps Wiki](https://pubg.fandom.com/wiki/Maps)
 - [PUBG Mobile Official Events](https://www.pubgmobile.com/en-US/events.shtml)

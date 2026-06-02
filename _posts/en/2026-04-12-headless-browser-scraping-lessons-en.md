@@ -41,6 +41,7 @@ curl -s -X POST http://127.0.0.1:9377/tabs \
 ```
 
 Response:
+
 ```json
 {"tabId": "ab2e2566-...", "url": "https://example.com/"}
 ```
@@ -102,6 +103,7 @@ The article loaded, and the snapshot gave me the full text -- headings, paragrap
 The final challenge: extract 10 story titles from Hacker News. The problem is that HN's table-based layout generates a snapshot with dozens of "link" entries per story: the upvote button, the story title, the domain link, the username, the time, the comment count. They're all just `<a>` tags to the accessibility tree.
 
 The structure I found:
+
 ```
 - row "1. upvote Small models also found...":
     - cell "1."

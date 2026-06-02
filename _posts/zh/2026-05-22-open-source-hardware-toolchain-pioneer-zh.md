@@ -43,6 +43,7 @@ Claire Xenia Wolf（she/her，之前名为 Clifford Wolf）是一位**奥地利�
 她的影响力堪比 **GCC 在 80/90 年代对软件的影响**——将编译民主化。她对硅片做了同样的事。
 
 具体来说：
+
 - **Google 的 OpenMPW** 项目（在 Skywater 130nm 上免费流片）基于 Yosys
 - **Efabless** 平台使用她的工具链
 - [opencores.org](https://opencores.org) 和 [ChipFoundry](https://chipfoundry.io) 上的数千个开源芯片设计都使用 Yosys

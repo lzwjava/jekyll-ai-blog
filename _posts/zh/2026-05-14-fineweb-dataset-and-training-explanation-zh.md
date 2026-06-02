@@ -16,10 +16,12 @@ type: note
 这两者是独立的。下载器填充一个**池子**；`max_iters` 决定**训练预算**。它们不必匹配。
 
 **磁盘上的语料库**（`data/fineweb/edu_fineweb100B/`）：
+
 - 1407 个训练分片 × 1亿 token + 1 个验证分片 = **约 140.7B token**（uint16 格式 .npy，263 GB）
 - 来自 `prepare_fineweb.py` 的每个分片精确为 `shard_size = 1e8`
 
 **训练预算**（配置文件 `train_fineweb_gpt3.py:29`）：
+
 - `max_iters = 19073` × 524,288 token/步 ≈ **10.0B token**
 - 该行注释明确写着：`# ~10B tokens; bump toward ~190k for full 100B`
 

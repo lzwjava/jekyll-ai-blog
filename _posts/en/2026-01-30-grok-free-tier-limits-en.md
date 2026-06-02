@@ -27,6 +27,7 @@ Here's a breakdown of approximate **free tier limits** based on current reports 
 - **ChatGPT (OpenAI)**: Very tight — typically **10 messages every 3–5 hours** on advanced models like GPT-5/GPT-4o (e.g., 10 per 5 hours), plus even stricter rules for reasoning modes (1 per day in some cases). This makes the free tier the most limited for sustained or frequent use.
 
 **Quick ranking for generosity** (higher = more usage allowed before hitting hard caps):
+
 1. **Gemini** — often the most permissive for everyday volume.
 2. **Claude** — decent daily total but slower resets.
 3. **Grok** — fast resets help, but low per-window caps hurt heavy use.

@@ -13,11 +13,13 @@ type: note
 Yes, you're spot on—WeChat has become a massive hub for business, networking, and everything in between in China over the past decade, but it's not without its pitfalls like account bans for spam, policy violations, or even competitive sabotage. Instead of constantly spinning up new accounts (which can be risky and against platform rules), focusing on building authentic, mutually respectful connections is a smarter, more sustainable approach. Here's why and how it works in practice:
 
 ### Why Real-Life Networking Beats "Account Hopping"
+
 - **Avoids Bans and Builds Trust**: Genuine relationships based on shared interests or in-person interactions are less likely to lead to reports or blocks. People are more forgiving (and supportive) when there's real mutual respect, rather than seeing you as just another sales pitch in their messages.
 - **Diverse Opportunities**: Expanding your circle beyond business-only contacts opens doors to unexpected collaborations. Street food vendors might connect you to local suppliers, colleagues could lead to job referrals, and hobby groups (like hiking clubs or book clubs) often spark organic business ideas.
 - **Long-Term Resilience**: WeChat policies evolve, but human networks endure. In real life, you're not at the mercy of an algorithm or a single report.
 
 ### Practical Tips to Add More "Mutual Respect" Contacts
+
 1. **Leverage Your Existing Circle**: Start with people you already know—colleagues, friends-of-friends, or even casual acquaintances from work events. Ask for warm intros: "Hey, I met [mutual friend] at that conference—mind if I add you on WeChat?"
 
 2. **Meet in Real Life (IRL) First**:

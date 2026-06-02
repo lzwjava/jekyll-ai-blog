@@ -26,14 +26,14 @@ But the conclusion is not “there’s nothing we can do”—it becomes:
 
 In systems like MySQL or IBM Db2 used by multiple services:
 
-### You *can’t control*:
+### You *can’t control*
 
 * Other teams’ SQL order
 * Their transaction boundaries
 * Their isolation levels
 * Their retry logic
 
-### You *can control*:
+### You *can control*
 
 * Your own lock ordering discipline
 * Your transaction length
@@ -76,13 +76,13 @@ This is not the key dimension.
 
 A better model:
 
-### Deadlock probability depends on:
+### Deadlock probability depends on
 
 * overlap of transactions
 * conflicting row access
 * lock order mismatch
 
-### NOT just:
+### NOT just
 
 * total lock duration
 

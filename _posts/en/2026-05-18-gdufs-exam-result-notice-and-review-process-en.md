@@ -23,11 +23,8 @@ Here are the key details outlined in the notice:
 * **Scope:** The review only checks for objective clerical or addition errors (e.g., miscalculations or missed grading sections). It does not re-evaluate the subjective strictness of the grading or regrade the paper.
 * **Feedback:** The office will conduct reviews on May 20, 2026. Only students whose scores are found to contain errors will receive an email notification with corrected results; if the score is correct, no response will be sent.
 
-
 * **Contact Information:** * **Address:** Room 211, 3rd Teaching Building, Guangdong University of Foreign Studies, No. 2 Baiyun Avenue North, Baiyun District, Guangzhou.
 * **Phone:** 020-36246578.
-
-
 
 References:
 

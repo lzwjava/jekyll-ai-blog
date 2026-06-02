@@ -27,16 +27,19 @@ type: note
 | **ACK**    | 单播                         | 不适用（它本身就是确认）              | 简单的数据包，不含数据，仅用于确认收到 Update/Query/Reply。 |
 
 ### EIGRP 可靠传输协议 (RTP) 的关键点
+
 - EIGRP 使用其自身的**可靠传输协议 (RTP)** 来保证某些数据包的传输。
 - 包含路由信息或影响路由表的控制信息的数据包 (**Update、Query、Reply**) 是**可靠地**发送的 → 它们总是单播（除了向新邻居的初始 Update），并且需要 **ACK**。
 - **Hello** 和 **ACK** 数据包是**不可靠地**发送的（不需要确认）。
 - ACK 是一个独立的 EIGRP 数据包（操作码 5），不含数据——仅仅是序列号确认。
 
 ### 为什么这个问题可能很棘手
+
 许多练习题会将 **Update** 作为唯一答案，因为它最常见是可靠的单播数据包。然而，从技术上讲，**Update、Query 和 Reply** 都符合以单播形式发送并需要确认的标准。
 
 如果问题强制选择单个答案，并且来自 Cisco 官方资料（例如 CCNP ENARSI），历史上最常见的预期答案是 **B) Update**。
 
 参考资料：
+
 - [Cisco EIGRP 数据包类型](https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html)
 - [EIGRP 可靠传输协议 (RFC 7868)](https://datatracker.ietf.org/doc/html/rfc7868)

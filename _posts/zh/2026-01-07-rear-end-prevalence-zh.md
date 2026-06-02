@@ -29,6 +29,7 @@ Answer:
 ### Why They Happen Frequently
 
 追尾事故通常由以下原因引起：
+
 - Distracted driving（例如使用手机）。
 - Tailgating（未保持安全车距）。
 - 交通流中的突然刹车。

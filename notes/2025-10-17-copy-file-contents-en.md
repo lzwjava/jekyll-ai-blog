@@ -15,7 +15,9 @@ type: note
 Based on your vi usage, I'll assume you want to select and copy/delete the entire contents of a file, then paste it into a new file. Vi doesn't have a direct "select all" like GUI editors, but you can achieve this efficiently in **command mode** (press `Esc` to ensure you're there). I'll cover both **copy** (leaving original intact) and **cut/delete** (moving content).
 
 ### Step-by-Step: Copy All Content to a New File
+
 1. Open your source file:
+
    ```
    vi oldfile.txt
    ```
@@ -38,9 +40,11 @@ Based on your vi usage, I'll assume you want to select and copy/delete the entir
 The original file remains unchanged.
 
 ### Step-by-Step: Delete All Content and Paste into a New File (Move)
+
 This deletes the original content after copying it.
 
 1. Open your source file:
+
    ```
    vi oldfile.txt
    ```
@@ -64,6 +68,7 @@ This deletes the original content after copying it.
    - `:wq`.
 
 ### Quick Tips
+
 - If you accidentally delete without yanking first, use `u` to undo.
 - To do this across files without opening a new one each time: Yank in first file, then use `vi newfile.txt`, paste, and save.
 - For large files, these commands are fast since vi handles buffers efficiently.

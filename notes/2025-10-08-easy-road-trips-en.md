@@ -32,6 +32,7 @@ Based on current 2025 policies, Chinese citizens enjoy visa-free or easy access 
    Chill Mekong River drives from Vientiane to Luang Prabang—karst mountains, slow boats, and hidden waterfalls. Less crowded than Thailand, more introspective (aligns with your self-taught journey). Super cheap (flights ~¥2,500 RT via Bangkok, 6 hours total). English is spotty but apps bridge it; freelance from riverside cafes with your ML knowledge.
 
 **Quick Tips to Get Rolling:**
+
 - Check your passport validity (6+ months) and grab travel insurance covering rentals.
 - Apps like Rome2Rio for routes, Turo/Avis for cars (international license via IDP).
 - With your 11 years in tech, remote work visas aren't needed here, but Malaysia/Singapore could extend if you want.

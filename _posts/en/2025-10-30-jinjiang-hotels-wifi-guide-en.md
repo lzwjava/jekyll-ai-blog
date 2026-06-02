@@ -10,19 +10,22 @@ translated: false
 type: note
 ---
 
-The Jinjiang Hotels WiFi portal (https://portal.jinjianghotels.com.cn/) is a captive portal designed for on-site access only—it's not fully publicly crawlable outside the hotel network, which is why direct browsing often returns empty or error pages. Based on user reports and guides, here's a breakdown of its typical "route" structure (meaning the main URL paths/endpoints) and how to access them. This is common for Vienna Hotels (a Jinjiang brand) and similar chains in China.
+The Jinjiang Hotels WiFi portal (<https://portal.jinjianghotels.com.cn/>) is a captive portal designed for on-site access only—it's not fully publicly crawlable outside the hotel network, which is why direct browsing often returns empty or error pages. Based on user reports and guides, here's a breakdown of its typical "route" structure (meaning the main URL paths/endpoints) and how to access them. This is common for Vienna Hotels (a Jinjiang brand) and similar chains in China.
 
 ### Main Route and Access Method
-- **Primary Route**: The root path `/` (i.e., https://portal.jinjianghotels.com.cn/ or http://portal.jinjianghotels.com.cn/).
+
+- **Primary Route**: The root path `/` (i.e., <https://portal.jinjianghotels.com.cn/> or <http://portal.jinjianghotels.com.cn/>).
   - This is the landing page that loads automatically when you try to access any non-HTTPS website while connected to the hotel WiFi.
   - **How to Access**:
     1. Connect your device to the hotel's WiFi SSID (e.g., "ViennaHotel", "Jinjiang_Free", or "Vienna_Free_WiFi"—no password needed initially).
-    2. Open a web browser and navigate to any HTTP site (e.g., http://neverssl.com or http://172.16.16.1—the local gateway IP mentioned in your first query).
+    2. Open a web browser and navigate to any HTTP site (e.g., <http://neverssl.com> or <http://172.16.16.1—the> local gateway IP mentioned in your first query).
     3. You'll be redirected to the portal's root `/` page. If it doesn't auto-redirect, manually enter `http://172.16.16.1` or the portal URL (use HTTP, not HTTPS, as captive portals often block or ignore HTTPS).
   - The page is in Chinese but simple: It shows hotel branding, terms of use, and login buttons. Use browser translation (e.g., Chrome's built-in) for English.
 
 ### Known Subroutes/Paths
+
 The portal uses a minimal structure—mostly a single-page app with form submissions rather than deep subpaths. No public docs list all endpoints, but from user videos and troubleshooting reports, common ones include:
+
 - **SMS Login Path**: Handled via a form on the root `/` (no separate `/sms` subroute; it's a POST request to an internal endpoint like `/auth/sms` or similar).
   - **How to Access/Use**: On the main page, click the SMS button (短信验证). Enter your phone number (+86 for China, or international format). A code arrives via SMS; submit it to authenticate. Access expires after 24 hours.
 - **Social Login Paths**: Links or iframes to third-party endpoints, e.g.:
@@ -36,6 +39,7 @@ The portal uses a minimal structure—mostly a single-page app with form submiss
 If you're on-site and need to inspect subroutes (e.g., for dev tools), open browser dev console (F12) on the portal page—it may reveal AJAX calls to endpoints like `/api/verify` for SMS submission.
 
 ### Troubleshooting Access
+
 - **No Redirect?** Clear browser cache, forget/rejoin WiFi, or toggle mobile data briefly.
 - **International Phone?** Works for most, but codes may delay—ask front desk for a shared code.
 - **Security Note**: All traffic routes through the hotel's gateway (172.16.16.x range), so use VPN post-login.

@@ -17,6 +17,7 @@ The post discusses a common issue with NumPy's `np.memmap` when processing large
 The linked answer (ID 61472122, accepted) pinpoints the "memory leak" as NumPy's memmap retaining the entire array in memory for caching, despite the read-only mode and single-pass access. It proposes two solutions:
 
 1. **Recreate the memmap object per chunk**: Delete and reinitialize `np.memmap` for each batch or chunk. This prevents the full array from building up in RAM, keeping usage low (tied to chunk size). There's minor CPU overhead from recreation, but it's negligible. Example code:
+
    ```python:disable-run
    def process_chunks(data_filename, chunk_size=4096):
        for start in range(0, total_size, chunk_size):
@@ -39,4 +40,5 @@ In the provided code from NanoGPT (a minimal GPT implementation for language mod
 NanoGPT trains on huge datasets (like billions of tokens), so loading the full file into memory isn't feasible. Instead, it uses memmap for efficient disk access, but without recreation, memory would balloon over epochs as NumPy caches more and more of the file. By remapping fresh each batch (via the `if split == 'train': data = np.memmap(...)` lines), it ensures low, stable RAM usage—critical for long training runs on limited hardware like a single GPU. The comment explicitly credits the SO post for this "memory leak avoidance" trick. This keeps the data loader lightweight while enabling random sampling (`torch.randint`) for x/y input-target pairs.
 
 [Stack Overflow: numpy memmap memory usage - want to iterate once](https://stackoverflow.com/questions/45132940/numpy-memmap-memory-usage-want-to-iterate-once/61472122#61472122)
+
 ```

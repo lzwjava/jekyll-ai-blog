@@ -33,20 +33,20 @@ These directly impact **SEO, user retention, and perceived quality**.
 
 👉 Measures how fast the main content appears.
 
-### Your data:
+### Your data
 
 * **92% Good**
 * **4% Needs Improvement**
 * **5% Poor**
 
-### Key values:
+### Key values
 
 * P50 (median): **470 ms**
 * P75: **1,122 ms**
 * P90: **2,205 ms**
 * P99: **12,736 ms**
 
-### Interpretation:
+### Interpretation
 
 * Most users get **very fast loading (<1.2s)** → excellent
 * But **long tail (P99 = 12s)** shows some users suffer very slow loads
@@ -60,13 +60,14 @@ From debug:
   ```
   shawn1.jpg → ~4939ms
   ```
+
 * Likely causes:
 
   * Large image size
   * No lazy loading
   * No CDN optimization or compression
 
-### Conclusion:
+### Conclusion
 
 ✔ Overall strong
 ⚠ But **image optimization is your bottleneck**
@@ -77,33 +78,34 @@ From debug:
 
 👉 Measures how fast your site reacts to user actions (click, scroll, typing).
 
-### Your data:
+### Your data
 
 * **87% Good**
 * **10% Needs Improvement**
 * **4% Poor**
 
-### Interpretation:
+### Interpretation
 
 * Most interactions feel smooth
 * But some users experience **laggy UI**
 
-### Debug insight:
+### Debug insight
 
 * Slow interaction tied to:
 
   ```
   #content > p.centered > img.responsive
   ```
+
 * Again → **images affecting interactivity**
 
-### Likely causes:
+### Likely causes
 
 * Large DOM updates
 * Heavy JS or layout recalculation
 * Images blocking rendering
 
-### Conclusion:
+### Conclusion
 
 ✔ Good baseline
 ⚠ Needs improvement for **interactive smoothness**
@@ -114,24 +116,24 @@ From debug:
 
 👉 Measures whether the page “jumps” during loading.
 
-### Your data:
+### Your data
 
 * **100% Good**
 * **0% issues**
 
-### Interpretation:
+### Interpretation
 
 * No annoying layout shifts
 * UI is stable and predictable
 
-### Examples tracked:
+### Examples tracked
 
 * `#content > ul`
 * `#content > p`
 
 All values are very low (e.g., 0.165, 0.115)
 
-### Conclusion:
+### Conclusion
 
 ✔ Excellent — no action needed
 
@@ -155,13 +157,13 @@ This tells you:
 
 # 6. Big Picture Diagnosis
 
-### Strengths:
+### Strengths
 
 * Fast loading for most users (LCP strong)
 * Stable layout (CLS perfect)
 * Decent responsiveness (INP mostly good)
 
-### Weakness:
+### Weakness
 
 * **Images are the core performance issue**
 
@@ -182,6 +184,7 @@ This tells you:
   ```html
   <img loading="lazy">
   ```
+
 * Use responsive images:
 
   ```html

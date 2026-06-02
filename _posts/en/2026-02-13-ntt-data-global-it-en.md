@@ -17,6 +17,7 @@ type: note
 **NTT DATA Group Corporation** (commonly known as NTT DATA) is a leading Japanese multinational **information technology (IT) services** and **consulting** company headquartered in Tokyo, Japan (specifically in Toyosu, Kōtō ward). Founded in 1988 as a spin-off from **Nippon Telegraph and Telephone Corporation (NTT)**, it has grown into one of the world's top global IT services providers.
 
 As of recent data (around 2025–2026), NTT DATA operates as a major player with:
+
 - Approximately **$30 billion** in annual revenue.
 - Around **190,000–198,000** employees worldwide.
 - Presence in over **50–70** countries and regions.
@@ -25,9 +26,11 @@ As of recent data (around 2025–2026), NTT DATA operates as a major player with
 It ranks among the **top 10 global IT services providers** and emphasizes innovation, digital transformation, and long-term client success. The company positions itself as a "Trusted Global Innovator," focusing on using technology to create new business paradigms, resolve social issues, and contribute to a more connected and sustainable society.
 
 ### Relationship to NTT
+
 NTT DATA originated as a **spin-off** from **NTT** (Nippon Telegraph and Telephone), Japan's major telecommunications conglomerate, which was privatized in 1985. NTT spun off its data communications division in 1988 to form NTT DATA, allowing it to focus on IT services for external clients (while other NTT subsidiaries like NTT Comware handle internal group needs).
 
 NTT remains the **parent** and controlling shareholder. NTT DATA has operated as a **publicly listed subsidiary** of NTT for much of its history, but underwent significant restructuring:
+
 - In 2022–2023, NTT and NTT DATA combined their international IT services businesses (including merging NTT Ltd.'s operations) to form a stronger global entity under **NTT DATA, Inc.** (overseas operations), creating a ~$30B+ powerhouse.
 - In 2023, NTT DATA transitioned to a **holding company structure**, renaming to **NTT DATA GROUP CORPORATION** (holding company) while establishing **NTT DATA JAPAN CORPORATION** for domestic operations.
 - By 2025, NTT moved toward making NTT DATA Group a **wholly owned subsidiary** through acquisition processes, further integrating it tightly within the NTT Group.
@@ -35,9 +38,11 @@ NTT remains the **parent** and controlling shareholder. NTT DATA has operated as
 Today, NTT DATA functions as part of the broader **NTT Group**, benefiting from NTT's massive R&D investment (over $3 billion annually) in areas like networks, AI, and connectivity. This relationship provides NTT DATA with strengths in infrastructure, global networks, and telecommunications-related technologies, while NTT DATA extends NTT's reach into enterprise IT services, consulting, and digital solutions beyond core telecom.
 
 ### What NTT DATA Does
+
 NTT DATA is a full-spectrum **business and technology services** provider specializing in **digital transformation** and **IT modernization**. It helps organizations innovate, optimize operations, and adapt to digital changes through a consultative approach, deep industry expertise, and scalable solutions.
 
 **Key services and offerings include:**
+
 - **Consulting** — Strategic advisory, digital strategy, and business transformation.
 - **Application Services** — Full-stack development, management, modernization, and maintenance (including SAP, Oracle, Salesforce, ServiceNow).
 - **Cloud Services** — Cloud infrastructure, migration, management, and AI-enabled cloud solutions (e.g., with partners like AWS, Microsoft Azure).

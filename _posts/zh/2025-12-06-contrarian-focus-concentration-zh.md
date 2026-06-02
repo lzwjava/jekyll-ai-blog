@@ -43,6 +43,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们威胁到了数十亿美元的生产力产业，该产业通过应用程序、课程和规划本销售着轻松实现僧侣般专注力的幻想。
 
 参考文献：
+
 - [多任务处理可以提高绩效（Paul & Mayer, 2021）](https://psycnet.apa.org/record/2021-37042-001)
 - [深度工作的兴衰（纽波特评论员综述）](https://www.calnewport.com/blog/2023/02/15/on-deep-work-criticism/)
 - [ADHD过度诊断荟萃分析（Kazda et al., 2023）](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2804629)

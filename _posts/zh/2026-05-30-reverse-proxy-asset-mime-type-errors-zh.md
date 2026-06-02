@@ -26,6 +26,7 @@ type: note
 **按可能性排序的最常见原因：**
 
 ### 1. SPA 兜底配置错误（最常见）
+
 服务器存在捕获所有未匹配路由并返回 `index.html` 的规则——包括 `/assets/*` 路径。这是 Nginx/Caddy 中常见的 SPA 配置错误：
 
 ```nginx
@@ -36,6 +37,7 @@ location / {
 ```
 
 修复方案：资源应在兜底规则之前被处理：
+
 ```nginx
 location /assets/ {
     root /var/www/dist;
@@ -48,14 +50,17 @@ location / {
 ```
 
 ### 2. 资源未部署/构建输出路径错误
+
 `/assets/` 目录未上传，或构建输出目录配置错误。服务器找不到文件 → 返回 404 HTML 页面。
 
 验证方法：`curl -I https://liber.davirain.xyz/assets/index-KsAjyADz.css`——如果返回 `200` 且 `Content-Type: text/html`，说明在返回 index.html。如果返回 `404`，则说明资源不存在。
 
 ### 3. CDN/代理剥离路径
+
 反向代理（Cloudflare、Nginx 上游服务器）将 `/assets/...` 重写为 `/`，并返回根目录的 HTML。
 
 ### 4. Vite/构建配置中 `base` 设置错误
+
 应用使用非根路径的 base（例如 `base: '/subpath/'`）构建，但部署在根路径下，导致资源 URL 解析到错误路径：
 
 ```js

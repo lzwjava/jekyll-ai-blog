@@ -11,9 +11,11 @@ type: note
 Searching is about finding data efficiently. Let’s explore binary search and linear search.
 
 ## 1. Binary Search: Logarithmic Efficiency
+
 Binary search works on sorted arrays, reducing the search space by half each step, with O(log n) time.
 
 ### Java Implementation
+
 ```java
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
@@ -34,12 +36,15 @@ public class BinarySearch {
     }
 }
 ```
+
 **Output:** `Found at: 3`
 
 ## 2. Linear Search: Simple Baseline
+
 Linear search checks every element sequentially, with O(n) time—useful for unsorted data.
 
 ### Java Implementation
+
 ```java
 public class LinearSearch {
     public static int linearSearch(int[] arr, int target) {
@@ -56,4 +61,5 @@ public class LinearSearch {
     }
 }
 ```
+
 **Output:** `Found at: 3`

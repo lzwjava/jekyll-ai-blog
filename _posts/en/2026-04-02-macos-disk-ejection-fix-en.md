@@ -12,6 +12,7 @@ type: note
 ## Quick Solutions
 
 ### 1. **Using Activity Monitor (GUI)**
+
 - Open **Activity Monitor** (Applications > Utilities)
 - Click the **Disk** tab
 - Look for processes using your external drive
@@ -20,7 +21,8 @@ type: note
 
 ### 2. **Using Terminal (Command Line)**
 
-#### Find what's using the disk:
+#### Find what's using the disk
+
 ```bash
 # Replace DISKNAME with your actual disk name (e.g., MyDrive, Untitled, etc.)
 lsof | grep DISKNAME
@@ -29,7 +31,8 @@ lsof | grep DISKNAME
 lsof +D /Volumes
 ```
 
-#### Identify the disk mount point:
+#### Identify the disk mount point
+
 ```bash
 # List all mounted volumes and their paths
 mount | grep -E "Volumes|media"
@@ -38,7 +41,8 @@ mount | grep -E "Volumes|media"
 diskutil list
 ```
 
-#### Find processes accessing your drive:
+#### Find processes accessing your drive
+
 ```bash
 # Replace /Volumes/DISKNAME with your actual path
 lsof | grep "/Volumes/DISKNAME"
@@ -46,7 +50,8 @@ lsof | grep "/Volumes/DISKNAME"
 # Shows process name and PID (Process ID)
 ```
 
-#### Kill the process:
+#### Kill the process
+
 ```bash
 # Replace PID with the actual process ID (e.g., 1234)
 kill -9 PID
@@ -75,32 +80,41 @@ killall -9 processname
 1. Open **Terminal** (Applications > Utilities)
 
 2. **Find your disk's mount point:**
+
    ```bash
    diskutil list
    ```
+
    Look for your external drive's name. Note the mount point (e.g., `/Volumes/MyDrive`)
 
 3. **Find processes using that disk:**
+
    ```bash
    lsof | grep "/Volumes/MyDrive"
    ```
+
    Replace "MyDrive" with your actual disk name
 
 4. **Check the output** - You'll see:
+
    ```
    COMMAND   PID    USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
    Finder    123   user   cwd    DIR    1,2        4096 1234 /Volumes/MyDrive
    ```
+
    - **COMMAND**: Process name
    - **PID**: Process ID (the number you'll need to kill)
 
 5. **Kill the process:**
+
    ```bash
    kill -9 123
    ```
+
    Replace 123 with the actual PID
 
 6. **Try ejecting again** from Finder or via Terminal:
+
    ```bash
    diskutil eject /Volumes/MyDrive
    ```

@@ -38,6 +38,6 @@ type: note
 
 参考：
 
-- https://openrouter.ai/state-of-ai（OpenRouter的2025年AI现状报告，包含100T token分析，显示编程的主导地位）
-- https://arxiv.org/html/2601.10088v1（基于OpenRouter数据的实证研究）
+- <https://openrouter.ai/state-of-ai（OpenRouter的2025年AI现状报告，包含100T> token分析，显示编程的主导地位）
+- <https://arxiv.org/html/2601.10088v1（基于OpenRouter数据的实证研究）>
 - X和Reddit上的各种讨论，指出某些流量段落在工作日有峰值而周末不活跃。

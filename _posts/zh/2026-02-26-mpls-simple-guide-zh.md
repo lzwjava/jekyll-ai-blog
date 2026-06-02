@@ -17,7 +17,7 @@ type: note
 
 它是一种高性能路由技术，用于电信和企业网络，根据简短的 **labels** 而非长网络地址（如 IP addresses）将数据从一个网络节点定向到下一个。
 
-### MPLS 的关键点：
+### MPLS 的关键点
 
 - **工作原理**
   包在进入 MPLS 网络时（在 Label Edge Router – LER 处）被分配一个简短、固定长度的标签（MPLS 头部中的 20-bit label）。

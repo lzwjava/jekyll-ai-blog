@@ -16,7 +16,7 @@ type: note
 
 Your answer: **A**
 
-### Explanation:
+### Explanation
 
 **Tunneling technology** 是连接两个远程、结构相似网络的典型方法。它在公共网络（如 Internet）上创建虚拟通道，使两个网络能够像本地连接一样进行通信。常见的 tunneling technologies 包括 IPSec、GRE 和 L2TP。
 

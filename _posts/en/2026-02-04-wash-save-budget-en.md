@@ -21,6 +21,7 @@ Dirt buildup around door seals, windows, and moving parts can also cause them to
 **Your budget-friendly approach:**
 
 You don't need professional car washes. Here's what actually works:
+
 - Wash it yourself every 2-3 months with basic soap and a bucket (costs almost nothing)
 - Focus on areas where dirt accumulates and holds moisture - wheel wells, door jambs, undercarriage if possible
 - Even a quick rinse with water alone removes a lot of harmful contaminants

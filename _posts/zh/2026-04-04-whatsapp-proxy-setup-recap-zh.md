@@ -28,6 +28,7 @@ type: note
 4. **二维码中继速度过慢** —— 等我将二维码转发至网页聊天界面再由您查看时，二维码已刷新多次。最终只能通过 SSH 直接扫码——这是唯一可靠的方法。
 
 **配置变更记录：**
+
 - 安装了 `@openclaw/whatsapp` 插件
 - 新增 `channels.whatsapp` 配置，设置 `dmPolicy: "pairing"`
 - 更新 systemd 服务，以 `proxychains4` 包装进程

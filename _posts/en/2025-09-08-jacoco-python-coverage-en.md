@@ -15,6 +15,7 @@ type: note
 ## Current Situation Analysis
 
 You've set up a multi-module Maven project with:
+
 - Parent POM (`PlaygroundLib`)
 - `PlaygroundUtils` module (JAR with utility classes)
 - `PlaygroundWeb` module (WAR with Spring MVC controllers)
@@ -137,6 +138,7 @@ mvn verify -Pintegration-test
 ```
 
 This will:
+
 1. Compile all modules
 2. Start Jetty with JaCoCo agent attached
 3. Run Python integration tests

@@ -46,6 +46,7 @@ rfkill list all
 Look for **Wireless LAN** lines.
 
 - If you see **Soft blocked: yes** → fix with:
+
   ```bash
   rfkill unblock wifi
   rfkill unblock all
@@ -102,6 +103,7 @@ dmesg | grep -i -E 'wlan|wifi|iwlwifi|rtl|ath|brcm|firm|error'
 Common errors:
 
 - "firmware load failed" → missing firmware (e.g., for Intel):
+
   ```bash
   sudo apt install linux-firmware
   sudo update-initramfs -u
@@ -109,6 +111,7 @@ Common errors:
   ```
 
 - iwlwifi or Realtek issues → sometimes unloading/reloading helps:
+
   ```bash
   sudo modprobe -r iwlwifi    # or rtl8723be / whatever your driver is
   sudo modprobe iwlwifi

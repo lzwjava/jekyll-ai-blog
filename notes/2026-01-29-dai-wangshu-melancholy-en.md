@@ -31,6 +31,7 @@ The central image is of a mysterious girl, also carrying an oil-paper umbrella, 
 **Longing and Loss**: The poem expresses a deep yearning for something beautiful but unattainable. The girl appears briefly and then vanishes "like a dream," leaving only emptiness.
 
 **Symbolism**: The "lilac-like girl" has been interpreted in multiple ways:
+
 - As romantic longing and unfulfilled love
 - As lost ideals and disillusionment with political hopes
 - As nostalgia for traditional Chinese culture in a rapidly modernizing world

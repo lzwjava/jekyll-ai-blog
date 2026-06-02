@@ -43,6 +43,7 @@ Answer:
 ### Main Topics Covered
 
 **Associate Cloud Engineer**
+
 - 设置 Cloud 解决方案环境
 - 规划和配置 Cloud 解决方案
 - 部署和实施 Cloud 解决方案 (Compute Engine, Kubernetes Engine, App Engine, Cloud Functions, Cloud Run)
@@ -52,6 +53,7 @@ Answer:
 重点：IAM, VPC, Networking 基础, Storage 选项, 基础 Container 部署, Billing 以及 Operations。
 
 **Professional Cloud Developer**
+
 - 设计高扩展性、可用且可靠的 Cloud-native applications
 - 构建和测试 Application
 - 部署 Application (App Engine, Cloud Run, GKE, Cloud Functions)

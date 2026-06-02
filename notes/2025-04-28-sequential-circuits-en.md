@@ -15,6 +15,7 @@ Sequential logic circuits are fundamental components in digital electronics that
 Flip-flops are the basic memory elements in digital systems that store one bit of information.
 
 ### RS Flip-Flop
+
 - **Function**: The Set-Reset flip-flop is the most basic memory element
 - **Inputs**: Set (S) and Reset (R)
 - **Behavior**:
@@ -25,6 +26,7 @@ Flip-flops are the basic memory elements in digital systems that store one bit o
 - **Applications**: Simple memory elements, but rarely used in modern circuits due to the invalid state issue
 
 ### D Flip-Flop
+
 - **Function**: Data or Delay flip-flop, most commonly used
 - **Inputs**: Data (D) and Clock (CLK)
 - **Behavior**: Output Q takes the value of input D when triggered by the clock
@@ -32,6 +34,7 @@ Flip-flops are the basic memory elements in digital systems that store one bit o
 - **Applications**: Registers, data storage, frequency division
 
 ### JK Flip-Flop
+
 - **Function**: More versatile than RS, resolves the invalid state problem
 - **Inputs**: J (similar to Set), K (similar to Reset), and Clock
 - **Behavior**:
@@ -42,6 +45,7 @@ Flip-flops are the basic memory elements in digital systems that store one bit o
 - **Applications**: Counters, shift registers, where toggle functionality is useful
 
 ### T Flip-Flop
+
 - **Function**: Toggle flip-flop, changes state with every clock pulse when enabled
 - **Inputs**: Toggle (T) and Clock
 - **Behavior**:
@@ -52,9 +56,11 @@ Flip-flops are the basic memory elements in digital systems that store one bit o
 ## Counters and Shift Registers
 
 ### Counters
+
 Counters are sequential circuits that go through a predetermined sequence of states upon the application of clock pulses.
 
 #### Asynchronous (Ripple) Counters
+
 - **Operating principle**: The clock is applied only to the first flip-flop; subsequent flip-flops are clocked by the output of the previous FF
 - **Features**:
   - Simpler design with fewer connections
@@ -63,6 +69,7 @@ Counters are sequential circuits that go through a predetermined sequence of sta
 - **Example**: 4-bit ripple counter using T flip-flops connected in series
 
 #### Synchronous Counters
+
 - **Operating principle**: Clock is applied to all flip-flops simultaneously
 - **Features**:
   - Faster operation as all FFs change state at the same time
@@ -71,21 +78,25 @@ Counters are sequential circuits that go through a predetermined sequence of sta
 - **Example**: 4-bit binary up counter with AND gates controlling the J-K inputs
 
 #### Types of Counters
+
 - **Up Counter**: Counts upward (0,1,2,...,n)
 - **Down Counter**: Counts downward (n,...,2,1,0)
 - **Up/Down Counter**: Can count in either direction based on a control signal
 - **Modulo-n Counter**: Counts from 0 to n-1 and then resets (e.g., mod-10 counter counts 0 to 9)
 
 ### Shift Registers
+
 Shift registers store and shift binary data either left or right.
 
 #### Types of Shift Registers
+
 - **SISO (Serial In, Serial Out)**: Data enters and exits one bit at a time
 - **SIPO (Serial In, Parallel Out)**: Data enters serially but can be read in parallel
 - **PISO (Parallel In, Serial Out)**: Data is loaded in parallel but shifts out serially
 - **PIPO (Parallel In, Parallel Out)**: Data enters and exits in parallel (all bits at once)
 
 #### Applications
+
 - Data storage and transfer between parallel and serial systems
 - Time delays
 - Sequence generators
@@ -94,6 +105,7 @@ Shift registers store and shift binary data either left or right.
 ## Sequential Circuit Analysis
 
 ### State Tables and Diagrams
+
 - **State Table**: A tabular representation showing:
   - Current state
   - Inputs
@@ -105,6 +117,7 @@ Shift registers store and shift binary data either left or right.
   - Labels on arrows indicating input/output relationships
 
 ### Analysis Process
+
 1. Identify flip-flop types and their characteristic equations
 2. Determine present state variables
 3. Create a state table showing transitions based on inputs
@@ -112,6 +125,7 @@ Shift registers store and shift binary data either left or right.
 5. Analyze timing concerns and potential race conditions
 
 ### FF Excitation Tables
+
 These tables help determine the required inputs to flip-flops to achieve desired state transitions:
 
 - For D flip-flops: D input must equal the desired next state
@@ -119,6 +133,7 @@ These tables help determine the required inputs to flip-flops to achieve desired
 - For T flip-flops: T=1 to change state, T=0 to maintain current state
 
 ### Design Considerations
+
 - Synchronous designs are generally preferred over asynchronous for:
   - Predictable timing
   - Easier debugging

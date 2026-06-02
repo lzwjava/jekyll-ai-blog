@@ -29,6 +29,7 @@ Key topics covered include:
 The course also features live sessions, office hours, and access to YC's library of essays and videos for deeper dives. It's open to anyone, with tracks for active founders and future entrepreneurs.
 
 References:
+
 - [Startup School Official Site](https://www.startupschool.org/)
 - [YC Startup Library](https://www.ycombinator.com/library)
 - [Startup School 2018 Curriculum](https://www.ycombinator.com/blog/startup-school-2018-curriculum/)

@@ -21,20 +21,26 @@ The recommended way is to create a **LaunchDaemon** (system-wide service that ru
 
 1. **Prepare the binary and config**
    - Rename your binary to `mihomo` for simplicity (optional but cleaner):
+
      ```
      mv mihomo-darwin-amd64-v1-alpha-3035ae8 mihomo
      chmod +x mihomo
      ```
+
    - Move it to a standard location:
+
      ```
      sudo mkdir -p /usr/local/bin
      sudo mv mihomo /usr/local/bin/mihomo
      ```
+
    - Put your config file in a good place, for example:
+
      ```
      mkdir -p ~/.config/mihomo
      mv config.yaml ~/.config/mihomo/config.yaml
      ```
+
      (You can also use `/etc/mihomo/config.yaml` or `/usr/local/etc/mihomo/config.yaml`)
 
 2. **Create the plist file**

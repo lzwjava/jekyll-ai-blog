@@ -17,10 +17,12 @@ type: note
 根据你的使用笔记，以下是一些注重实用性的优化建议：
 
 ### Shadowrocket 优化方案
+
 - **精准规则降低延迟**：建议用精细化规则替代全局代理。例如在Shadowrocket配置中采用以下流控逻辑：
   - **直连模式**：本地及区域流量（如微信、百度）默认直连
   - **代理/拒绝**：仅将高优先级被墙域名加入白名单（如ChatGPT、Claude、Google等路由至美国代理）
   - 规则示例（写入`.conf`文件）：
+
     ```
     [Rule]
     DOMAIN-KEYWORD,chatgpt.com,PROXY
@@ -29,16 +31,20 @@ type: note
     DOMAIN-KEYWORD,twitter.com,PROXY  # 仅当ChatGPT等服务依赖时启用
     MATCH,DIRECT  # 未匹配流量全部直连
     ```
+
   这样仅特定网站经过代理链路，可显著降低延迟。可通过Clash或Stash、Quantumult X等管理器快速生成规则。
 - **延迟测试**：配置后使用Fast.com或Ookla进行速度测试。若延迟仍较高，可尝试缩减代理链路层级——单跳美国代理可能比多级中转更高效。
 
 ### 轻量级iOS替代方案
+
 若Shadowrocket开销过大（你曾提及一日后即停用），以下方案更贴近澳门SIM卡的直连理念：
+
 - **按需启动的VPN应用**：ExpressVPN或NordVPN等支持按应用路由（仅对ChatGPT、Mistral等启用VPN），无需全局代理且兼容蜂窝数据
 - **Clash移植iOS**：若欣赏桌面端Python脚本的逻辑，可将简化版Clash配置移植至Surge或Stash。创建以"DIRECT"为首选、仅代理特定域名的规则集，延迟远低于全局代理
 - **SIM卡直连代理**：既然已倾向用澳门SIM卡访问Mistral和Grok，建议检查这些AI服务是否支持澳门IP直连，或尝试无痕模式访问以避免应用级路由
 
 ### 综合建议
+
 - **iOS电量与延迟**：长期代理会加速耗电，可通过系统工具监控并设置定时开关（如仅在高峰时段启用代理）
 - **服务稳定性**：zhs.cloud作为笔记本电脑VPN方案表现可靠，若扩展至iOS需确认其客户端兼容性。澳门CTM等运营商信号稳定，但需留意流量限额
 - **长期适用性**：离境后的备用方案值得考虑，建议搭配全球eSIM或漫游套餐。同时注意政策变动可能影响访问工具的有效性

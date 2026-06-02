@@ -53,6 +53,7 @@ Extreme Ultraviolet (EUV) lithography is considered one of the most complex indu
 In summary: EUV required simultaneously solving problems in plasma physics, atomic-layer precision optics, ultra-clean high-vacuum systems, and sub-nanometer metrology — all at industrial scale and reliability. It took roughly **25–30 years** from the first serious proposals in the 1990s to high-volume manufacturing (∼2019–2021) with the introduction of ASML’s NXE:3400C and High-NA systems now entering production in 2025–2026.
 
 References:
+
 - [ASML – How EUV lithography works](https://www.asml.com/en/technology/extreme-ultraviolet-lithography)
 - [Cymer (ASML) – LPP EUV Source Technology](https://www.cymer.com/euv-lithography)
 - [Zeiss – EUV Mirrors and Optics](https://www.zeiss.com/semiconductor-manufacturing-technology/products/photolithography-optics/euv-optics.html)

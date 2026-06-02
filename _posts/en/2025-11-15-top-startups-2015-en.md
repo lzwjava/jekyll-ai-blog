@@ -37,6 +37,7 @@ Below, I'll highlight 15 standout startups from 2015, drawn from major lists. I'
 These startups captured the 2015 zeitgeist: mobile-first, on-demand convenience, and data-driven disruption. Many (like DoorDash and Slack) not only survived but thrived into massive enterprises, while others (e.g., Yik Yak) highlight the risks. Globally, non-U.S. players like TransferWise (UK) and Deliveroo (UK, raised $195M) showed the scene's internationalization. If you're interested in a specific category or region, I can dive deeper!
 
 #### References
+
 - [Forbes Hottest Startups of 2015](https://www.forbes.com/hottest-startups/2015/)
 - [CNBC 20 Hottest Startups of 2015](https://www.cnbc.com/2015/11/19/20-of-the-worlds-hottest-start-ups-of-2015.html)
 - [Business Insider 25 Hottest Startups Launched in 2015](https://www.businessinsider.com/best-startups-that-launched-in-2015-2015-5)

@@ -19,7 +19,8 @@ Answer:
 - Done or undertaken by one person, party, or side alone, without the agreement, involvement, or consent of others involved.
 - Affecting or involving only one side.
 
-### Common Contexts and Examples:
+### Common Contexts and Examples
+
 - **In politics/diplomacy**: A country might "unilaterally declare independence" or "unilaterally impose sanctions," meaning it acts without international agreement.
 - **In decisions**: A person or organization can "unilaterally terminate a contract," meaning they end it without the other party's approval.
 - **In anatomy/medicine**: It can describe something affecting only one side of the body (e.g., "unilateral paralysis").

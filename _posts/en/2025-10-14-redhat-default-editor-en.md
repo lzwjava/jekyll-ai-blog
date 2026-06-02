@@ -15,11 +15,13 @@ type: note
 In Red Hat Enterprise Linux (RHEL), the default text editor is **Vi** (often aliased to **Vim**, which stands for "Vi IMproved"). Vi is a modal, command-line text editor that's been the standard on Unix-like systems since the 1970s. It's lightweight, ubiquitous, and pre-installed on most RHEL systems via the `vim-minimal` or `vim-enhanced` package.
 
 #### Why Vi/Vim?
+
 - It's efficient for server environments where GUI editors aren't practical.
 - Commands are keyboard-based: Insert mode for typing (`i`), and command mode for editing (e.g., `dd` to delete a line, `:wq` to save and quit).
 - If you're new to it, it has a learning curve but is powerful once mastered.
 
 #### Checking and Using It
+
 - Run `vi filename.txt` (or `vim filename.txt`) to open a file.
 - To check your current default editor: `echo $EDITOR` (usually outputs `/usr/bin/vi`).
 - If you prefer something else (like Emacs from your previous query), set it with `export EDITOR=emacs` in your `~/.bashrc`.

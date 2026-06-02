@@ -19,6 +19,7 @@ Alysa Liu is an American figure skater renowned for her technical prowess, groun
 Born on August 8, 2005, in Clovis, California, Liu is currently 20 years old. She stands at 5 ft 2 in (1.58 m) and trains in Oakland, California. She is the oldest of five siblings and attends (or has attended) the University of California, Los Angeles (UCLA). Liu began figure skating at age 5, inspired in part by her father's admiration for legends like Michelle Kwan. She quickly rose as a prodigy, becoming the youngest woman to land a triple Axel in international competition at age 12 and the first U.S. woman to land a quadruple jump (quad Lutz) in competition in 2019.
 
 Liu made history early in her career:
+
 - At age 13, she became the youngest-ever U.S. women's national champion in 2019.
 - She defended her title in 2020, becoming the youngest to win back-to-back senior national titles.
 - She was the first woman to land a triple Axel and a quad in the same program.
@@ -27,6 +28,7 @@ Liu made history early in her career:
 In 2022, at age 16, Liu competed at the Beijing Winter Olympics, finishing sixth in women's singles (the highest U.S. placement) and earning a bronze medal at the World Championships shortly after. She then announced her retirement from competitive skating, citing burnout and a desire for a normal teenage life.
 
 After a hiatus, Liu returned to competition in 2024. Her comeback was triumphant:
+
 - She won the 2025 World Championships in Boston, becoming the first U.S. woman to claim the world title since 2006.
 - She also secured the 2025–26 Grand Prix Final title and other major honors.
 

@@ -17,9 +17,11 @@ Answer:
 Texas Hold'em is the most popular poker variant. Here's a clear step-by-step guide to No-Limit Texas Hold'em (the version played in most casinos and the World Series of Poker).
 
 ### Objective
+
 Build the best 5-card poker hand (or convince others you have it) to win the pot.
 
 ### Basic Hand Rankings (from best to worst)
+
 1. Royal Flush (A-K-Q-J-10 same suit)
 2. Straight Flush (any five consecutive cards same suit)
 3. Four of a Kind
@@ -32,12 +34,14 @@ Build the best 5-card poker hand (or convince others you have it) to win the pot
 10. High Card
 
 ### Setup
+
 - 2 to 10 players
 - Standard 52-card deck (no jokers)
 - Dealer button (rotates clockwise each hand)
 - Two forced bets: Small Blind (left of button) and Big Blind (left of small blind)
 
 ### The Deal
+
 Each player is dealt **2 private cards** face down (called "hole cards").
 
 ### Betting Rounds (4 total)
@@ -60,11 +64,13 @@ Each player is dealt **2 private cards** face down (called "hole cards").
    - Final betting round
 
 ### Showdown
+
 - If 2+ players remain after river betting, they reveal hole cards
 - Best 5-card hand using **any combination** of their 2 hole cards + 5 community cards wins the pot
 - If everyone folds to a bet/raise, the last player wins without showing cards
 
 ### Player Actions (in order)
+
 - **Fold** – give up hand
 - **Check** – pass action (only if no bet before you)
 - **Bet** – put chips in (first voluntary bet)
@@ -73,10 +79,12 @@ Each player is dealt **2 private cards** face down (called "hole cards").
 - **All-in** – bet all your remaining chips
 
 ### Blinds & Antes
+
 - Blinds rotate each hand
 - In tournaments, antes (small forced bets from everyone) are added later
 
 ### Quick Example Hand
+
 - Blinds: $1/$2
 - You get A♠ K♠ in late position
 - Pre-flop: someone raises to $6, you call
@@ -86,6 +94,7 @@ Each player is dealt **2 private cards** face down (called "hole cards").
 - Opponent bets $20, you raise to $60, they fold → you win pot without showdown
 
 ### Key Tips for Beginners
+
 - Play tight-aggressive: only strong hands, bet/raise when you play them
 - Position matters: act last = big advantage
 - Don’t play every hand — most starting hands are trash

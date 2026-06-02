@@ -20,7 +20,9 @@ Yes, and this is a really sharp connection. Foreign language learning is arguabl
 ## Why Language Learning Is Hard Through This Lens
 
 ### 1. Your native language is the "edit button"
+
 When you struggle to express something in a foreign language, your brain almost always **falls back to your native language first** — either by:
+
 - Thinking in L1, then translating
 - Giving up mid-sentence and switching back
 - Using approximations instead of precise target vocabulary
@@ -28,7 +30,9 @@ When you struggle to express something in a foreign language, your brain almost 
 Each of these is the cognitive equivalent of hitting "edit." You solve the communication problem, but you **bypass the foreign language production pathway** entirely.
 
 ### 2. Real fluency requires first-attempt production
+
 True language fluency means your brain retrieves and produces the foreign language **directly**, without routing through your native language. That pathway only gets built through:
+
 - Attempting output in the foreign language first
 - Tolerating the discomfort of imprecision and silence
 - Not immediately rescuing yourself with your native tongue

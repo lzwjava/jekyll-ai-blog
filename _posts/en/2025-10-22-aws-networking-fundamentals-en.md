@@ -15,6 +15,7 @@ type: note
 AWS provides a flexible, isolated networking environment through its **Virtual Private Cloud (VPC)** service. This acts as your own logically isolated section of the AWS Cloud, where you can launch resources like EC2 instances, RDS databases, and more. Below, I'll break down the key components you mentioned (virtual network, gateway, subnets) and a few related ones ("etc.") in simple terms, with how they fit together.
 
 #### Virtual Network (VPC - Virtual Private Cloud)
+
 - **What it is**: The foundation of AWS networking. A VPC is a virtual network dedicated to your AWS account, similar to a traditional data center network but in the cloud. It spans one or more Availability Zones (AZs) in a region.
 - **Key features**:
   - You define its IP address range using CIDR blocks (e.g., 10.0.0.0/16, which allows ~65,000 IP addresses).
@@ -24,6 +25,7 @@ AWS provides a flexible, isolated networking environment through its **Virtual P
 - **Example**: Think of a VPC as your private backyard in the AWS "neighborhood"—you decide the fences, gates, and paths inside it.
 
 #### Subnets
+
 - **What they are**: Subdivisions of a VPC's IP address range. Each subnet is tied to a single Availability Zone and acts like a segmented zone within your network.
 - **Types**:
   - **Public subnet**: Resources here can access the internet directly (via an Internet Gateway).
@@ -36,6 +38,7 @@ AWS provides a flexible, isolated networking environment through its **Virtual P
 - **Example**: If your VPC is a city, subnets are neighborhoods: public ones near the highway (internet), private ones in gated communities.
 
 #### Gateways
+
 Gateways connect your VPC to the outside world or other networks. There are a few types:
 
 - **Internet Gateway (IGW)**:
@@ -55,6 +58,7 @@ Gateways connect your VPC to the outside world or other networks. There are a fe
   - **Transit Gateway**: Connects multiple VPCs and on-premises networks like a hub.
 
 #### Other Related Components ("Etc.")
+
 - **Route Tables**: Define how traffic routes within your VPC (e.g., to IGW, NAT, or peering connections). Each subnet has an associated route table—think of it as a traffic map.
 - **Network ACLs (Access Control Lists)**: Stateless firewalls at the subnet level, controlling inbound/outbound traffic by IP/protocol (e.g., allow port 80).
 - **Security Groups**: Stateful firewalls at the instance level, acting like personal bouncers for EC2/RDS (e.g., allow SSH from your IP).
@@ -62,6 +66,7 @@ Gateways connect your VPC to the outside world or other networks. There are a fe
 - **Elastic Network Interfaces (ENIs)**: Virtual network cards for instances, allowing multiple IPs or attachments.
 
 #### How It All Fits Together
+
 1. Create a VPC with a CIDR block.
 2. Add subnets (public/private) across AZs.
 3. Attach an Internet Gateway for public access.
@@ -74,6 +79,7 @@ This setup ensures scalability, security, and resilience. For hands-on, start wi
 If you need diagrams, code examples, or details on a specific part (e.g., peering), let me know!
 
 **References**:
+
 - [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 - [AWS Subnets Guide](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)
 - [AWS Gateways Overview](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html)

@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Overview
+
 The IELTS (International English Language Testing System) is a widely accepted English proficiency test offered in China through the National Education Examinations Authority (NEEA) and partners like the British Council and IDP Education. In Guangzhou, you can take either the paper-based or computer-delivered IELTS (Academic or General Training versions). Tests are typically held on Saturdays or Thursdays, up to four times a month, depending on availability. As of late 2024, IDP has launched services in China, providing more options alongside the British Council.
 
 ### Step-by-Step Application Process
+
 1. **Determine Your Test Type**: Decide if you need IELTS Academic (for higher education) or General Training (for work/migration). For UK visas, choose IELTS for UKVI if required. Confirm on the official site.
 
 2. **Register Online**:
@@ -30,17 +32,19 @@ The IELTS (International English Language Testing System) is a widely accepted E
 6. **Take the Test**: Arrive 30-45 minutes early. The test lasts about 2 hours 45 minutes (Listening, Reading, Writing, Speaking). Speaking may be on the same or next day.
 
 ### Test Centers in Guangzhou
+
 There are at least 3 authorized centers. Here's a summary:
 
 | Center Name | Address | Contact | Notes |
 |-------------|---------|---------|-------|
-| British Council Guangzhou | Room 06-07, 30F Teem Tower, 208 Tianhe Road, Tianhe District | Tel: +86 10 8234 5671<br>Email: ielts@mail.neea.edu.cn | Paper-based and computer-delivered; main hub. |
+| British Council Guangzhou | Room 06-07, 30F Teem Tower, 208 Tianhe Road, Tianhe District | Tel: +86 10 8234 5671<br>Email: <ielts@mail.neea.edu.cn> | Paper-based and computer-delivered; main hub. |
 | Guangdong University of Foreign Studies | No. 178, Waihuan Road East, Guangzhou Higher Education Mega Centre, Panyu District | Website: Check chinaielts.org | Popular for students; both formats available. |
 | IDP Education Guangzhou / Guangzhou Polytechnic of Sports | Varies by date (check site) | Website: ielts.idpchina.cn | Newer option; focuses on flexible scheduling. |
 
 For exact dates and bookings, visit [www.chinaielts.org/register/step1](http://www.chinaielts.org/register/step1) or [ielts.idpchina.cn/book](https://ielts.idpchina.cn/book).
 
 ### Results and Additional Info
+
 - **Results Timeline**: Available online 13 days after paper-based (3-5 days for computer-delivered). Access via your NEEA/IDP account.
 - **Delivery**: Download digitally or receive a physical Test Report Form by mail/collection. Nominate up to 5 institutions for free score sends.
 - **Preparation**: Use free resources on the official sites, including practice tests. British Council bookings include access to IELTS Ready Premium (40+ tests).
@@ -49,6 +53,7 @@ For exact dates and bookings, visit [www.chinaielts.org/register/step1](http://w
 If dates are full, check nearby cities like Shenzhen. For updates, contact the centers directly.
 
 ### References
+
 - [British Council China IELTS](https://www.britishcouncil.cn/en/exams/ielts)
 - [NEEA China IELTS](http://www.chinaielts.org)
 - [IDP China IELTS Launch](https://www.pw.live/exams/ielts/idp-launches-ielts-testing-in-china/)

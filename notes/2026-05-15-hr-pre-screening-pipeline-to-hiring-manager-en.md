@@ -26,6 +26,7 @@ The first step involves reviewing resumes and applications to identify candidate
 A large majority of companies — one report says 87% of employers globally — now use AI in at least one aspect of hiring. AI can dramatically speed up hiring by sorting through high volumes of applications in seconds, ensuring no resume is overlooked, and freeing up human recruiters to focus on final hiring decisions.
 
 **What gets filtered out here:**
+
 - Missing required qualifications
 - Resume keyword mismatches
 - Location/visa eligibility issues

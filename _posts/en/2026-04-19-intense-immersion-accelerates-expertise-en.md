@@ -63,15 +63,15 @@ The science strongly supports your intuition: one year of total, focused immersi
 
 References:
 
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12190708/
-- https://pubmed.ncbi.nlm.nih.gov/40558367/
-- https://www.mdpi.com/2313-7673/10/6/397
-- https://hmlfunctionalcare.com/wp-content/uploads/2021/04/language.pdf
-- https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/
-- https://calnewport.com/some-notes-on-deep-working/
-- https://smleo.com/2017/10/10/productivity-neuroscience-and-deliberate-practice-deep-work-and-school-part-2/
-- https://maxfrenzel.medium.com/in-praise-of-deep-work-full-disconnectivity-and-deliberate-rest-e9fe5cc50a1d
-- https://journals.sagepub.com/doi/full/10.1177/0256090917753047
-- https://www.200words-a-day.com/total-immersion.html
-- https://www.totalimmersion.net/blog/4-stages-skill-learning-critical-kaizen-loop-continuous-mastery/
-- https://blog.rosettastone.com/how-to-immerse-yourself-in-a-language/
+- <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12190708/>
+- <https://pubmed.ncbi.nlm.nih.gov/40558367/>
+- <https://www.mdpi.com/2313-7673/10/6/397>
+- <https://hmlfunctionalcare.com/wp-content/uploads/2021/04/language.pdf>
+- <https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/>
+- <https://calnewport.com/some-notes-on-deep-working/>
+- <https://smleo.com/2017/10/10/productivity-neuroscience-and-deliberate-practice-deep-work-and-school-part-2/>
+- <https://maxfrenzel.medium.com/in-praise-of-deep-work-full-disconnectivity-and-deliberate-rest-e9fe5cc50a1d>
+- <https://journals.sagepub.com/doi/full/10.1177/0256090917753047>
+- <https://www.200words-a-day.com/total-immersion.html>
+- <https://www.totalimmersion.net/blog/4-stages-skill-learning-critical-kaizen-loop-continuous-mastery/>
+- <https://blog.rosettastone.com/how-to-immerse-yourself-in-a-language/>

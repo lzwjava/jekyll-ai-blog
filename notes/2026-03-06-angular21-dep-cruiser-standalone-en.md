@@ -16,6 +16,7 @@ type: note
 **Dependency-cruiser** is an excellent choice for dependency analysis in Angular projects — including modern Angular versions (up to Angular 21 in 2026) — because it works at the **static source code level** and understands **TypeScript imports**.
 
 ### Key Advantages Over Tools Like Madge
+
 - Much more powerful **custom rules** (forbidden dependencies, layer violations, no circulars, no feature → core imports, etc.)
 - Excellent **circular dependency** detection (with full cycle paths shown)
 - Many **report formats** (err, json, html, dot/graphviz, svg, mermaid, d3, csv, ...)
@@ -23,12 +24,14 @@ type: note
 - Supports **TypeScript** very well (including path aliases from `tsconfig.json`)
 
 ### Does It Work With Angular 21 + Standalone Components?
+
 **Yes — it works perfectly well.**
 
 Angular 21 (like versions since ~19) uses **standalone: true** by default and eliminates most NgModules.
 Dependency-cruiser doesn't care about Angular's runtime module system or `@Component({ standalone: true, imports: […] })` — it only follows the **static import / export graph** in your TypeScript files.
 
 So it will correctly detect:
+
 - Regular `import { Something } from './something.component';`
 - Barrel re-exports (`export * from './comp';`)
 - Path aliases (`@app/shared`, `@core`, etc.)
@@ -40,6 +43,7 @@ Angular itself sometimes requires `forwardRef(() => OtherComponent)` in the `imp
 **Dependency-cruiser ignores forwardRef** — it still sees the static `import` statement and will report the cycle.
 
 This is actually **desirable** behavior in most teams:
+
 - You usually want to know about **architectural cycles** even if Angular can technically handle them via `forwardRef`
 - Many teams forbid cycles completely (except perhaps in very specific cases like recursive components)
 

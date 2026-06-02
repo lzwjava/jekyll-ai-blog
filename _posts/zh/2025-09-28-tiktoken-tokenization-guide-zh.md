@@ -23,17 +23,21 @@ TikToken 将文本转换为语言模型处理的基本单位——**标记**。�
 ## 代码详解
 
 ### 1. 基础编码 (`basic_encoding()`)
+
 ```python
 enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
 tokens = enc.encode("Hello, how are you doing today?")
 ```
+
 - 创建 GPT-3.5-turbo 专用的分词器
 - 将文本转换为标记ID列表：`[9906, 11, 1268, 527, 499, 3815, 3432, 30]`
 - 显示 "Hello, how are you doing today?" 对应 8 个标记
 - 可将标记解码还原为原始文本
 
 ### 2. 模型对比 (`different_models()`)
+
 比较不同模型对同一文本的分词结果：
+
 - **GPT-4**："The quick brown fox jumps over the lazy dog." = 10 个标记
 - **GPT-3.5-turbo**：10 个标记（编码相同）
 - **text-davinci-003**：10 个标记（编码相同）
@@ -41,19 +45,25 @@ tokens = enc.encode("Hello, how are you doing today?")
 不同模型可能使用不同的分词器，因此标记计数可能存在差异。
 
 ### 3. 批量处理 (`batch_processing()`)
+
 展示如何高效处理多段文本：
+
 - 处理 3 条不同长度的消息
 - 计算所有消息的总标记数（共 15 个）
 - 适用于发送多条消息时的成本预估
 
 ### 4. 特殊标记 (`special_tokens()`)
+
 处理特殊控制标记如 `<|endoftext|>`：
+
 - 显示模型可用的特殊标记
 - 演示包含特殊标记的文本编码
 - 使用 `allowed_special="all"` 处理特殊标记
 
 ### 5. 高效计数 (`count_tokens_efficiently()`)
+
 两种标记计数方法：
+
 - **方法一**：存储标记后计数 (`len(enc.encode(text))`)
 - **方法二**：直接计数（对大型文本更节省内存）
 - 计算标记-单词比例（本例为 1.29）

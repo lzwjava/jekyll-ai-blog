@@ -68,6 +68,7 @@ type: note
 这些技巧相结合，让优秀的参赛者能够可靠地在 5-15 分钟内解决 Div2 A/B/C，因为他们专注于“首先使它在示例+边界上工作”，而不是一开始就追求完美代码。
 
 参考文献：
+
 - [Codeforces 博客 – 如何高效练习](https://codeforces.com/blog/entry/17879)
 - [Errichto – 调试技巧和常见技巧 (YouTube)](https://www.youtube.com/watch?v=O45fH0b7bUQ)
 - [William Lin – 快速解决问题（直播亮点）](https://www.youtube.com/watch?v=6V3siDh2Buc)

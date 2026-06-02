@@ -16,6 +16,7 @@ Answer:
 The Nyquist formula determines the maximum data transmission rate in a noiseless channel. Here's the solution:
 
 **Given Information:**
+
 - Channel bandwidth (H) = 3 KHz
 - Number of discrete signal levels (N) = 16
 
@@ -26,6 +27,7 @@ According to the Nyquist theorem, the maximum symbol rate (baud rate) in a noise
 **Maximum symbol rate = 2 × H**
 
 Therefore:
+
 - Maximum symbol rate = 2 × 3 KHz = 6 kilobaud (symbols per second)
 
 The relationship between data transmission rate and symbol rate is:
@@ -35,6 +37,7 @@ The relationship between data transmission rate and symbol rate is:
 Where log₂(N) represents the number of bits per symbol.
 
 Since N = 16:
+
 - log₂(16) = 4 bits per symbol
 
 Therefore:

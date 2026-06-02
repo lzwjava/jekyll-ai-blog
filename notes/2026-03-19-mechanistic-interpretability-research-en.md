@@ -34,22 +34,27 @@ The core goal is essentially **reverse engineering neural networks** — treatin
 ## Key Research Milestones by Olah's Team
 
 ### 1. The Circuits Framework (2020–2021)
+
 A team led by Chris Olah at Anthropic discovered concrete, comprehensible algorithms in transformers for the first time in 2021. They identified "induction heads" — specialized attention mechanisms that recognize repetition patterns. When a model sees "Harry Potter went to Hogwarts. Hermione Granger went to…", the induction head "knows" that after "Hermione Granger went to" probably "Hogwarts" comes — not through vague statistics, but through a concrete algorithm that copies earlier patterns. This was revolutionary: for the first time, researchers could point to a specific mechanism and say "this performs exactly this calculation."
 
 ### 2. Superposition and the Polysemanticity Problem
+
 Anthropic's research team discovered in 2022 that individual neurons don't represent single concepts. This was a turning point: it explained why neural networks are so compact and efficient, but also why interpretability is so difficult. At the same time, it revealed the path to a solution: Sparse Autoencoders (SAEs) can unmix these superimposed features and make them interpretable again.
 
 ### 3. Towards Monosemanticity & Sparse Autoencoders (2023)
+
 Anthropic's study used sparse autoencoders to decompose transformer activations into more interpretable features. Their approach — dictionary learning with a 16× expansion trained on 8 billion residual-stream activations — extracted nearly 15,000 latent directions where human raters found 70% cleanly mapped to single concepts like Arabic script or DNA motifs.
 
 Sparse autoencoders (SAEs) for large language model interpretability were introduced by Anthropic.
 
 ### 4. Scaling Monosemanticity & The "Golden Gate Bridge" Experiment (2024)
+
 In May 2024, Olah's team at Anthropic made a breakthrough by applying these strategies to one of its most cutting-edge large language models. They found that they could identify groups of neurons within the model that correspond to different concepts and activities, like identifying bias or recognizing scam emails. Toggling those neuron groups on or off could alter the model's behavior, potentially giving AI researchers a new tool to make AI less dangerous.
 
 Through Sparse Autoencoders, they identified over 34 million such features in Claude Sonnet, from "sarcasm" to "DNA sequences" to "conspiracy theories." The most famous example is the "Golden Gate Bridge Neuron" — a feature that specifically reacts to the Golden Gate Bridge. When researchers artificially amplified this feature, Claude began to speak obsessively about the bridge, even with completely unrelated topics like cooking recipes.
 
 ### 5. Circuit Tracing & Attribution Graphs (March 2025)
+
 In March 2025, Anthropic introduced a major new technique called circuit tracing that combines several earlier methods into a unified framework. The approach replaces a model's MLPs with cross-layer transcoders (CLTs) — a new type of sparse autoencoder that reads from one layer's residual stream but can provide output to all subsequent MLP layers. This produces an interpretable "replacement model" where the building blocks are sparse, human-readable features rather than polysemantic neurons. The system then constructs attribution graphs: computational graphs for individual prompts where nodes represent active features and edges represent the linear dependencies between them.
 
 In a companion paper, they applied attribution graphs to study Claude 3.5 Haiku. Among findings: they discovered the model plans its outputs ahead of time when writing poetry — before beginning to write each line, the model identifies potential rhyming words that could appear at the end.

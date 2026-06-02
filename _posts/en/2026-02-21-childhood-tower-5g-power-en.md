@@ -22,7 +22,7 @@ The tower you remember is a **cellular base station**, also commonly known as a 
 
 When you were a kid, that tower was likely built for the **2G** or **early 3G** network. Its job was to receive a signal from your phone and connect it to the wider network via those backbone centers we discussed.
 
-### 🔄 Is the Tower Still in Use? Absolutely.
+### 🔄 Is the Tower Still in Use? Absolutely
 
 Yes, that tower is very likely still in use and has been continually upgraded. Telecommunication companies almost never abandon a good tower location. The tower itself—the physical steel structure—is a valuable piece of real estate . What changes over time is the equipment bolted to it.
 
@@ -36,11 +36,11 @@ This is the key question, and the answer is: **Yes, we need them more than ever!
 
 Here’s why those tower locations are so critical for 5G:
 
-1.  **The Need for Density:** 5G has different "flavors." Some use low-band spectrum that travels far and can penetrate buildings well . However, the fastest, most powerful type of 5G uses **high-frequency "millimeter wave" (mmWave) spectrum**. These high-frequency signals have a major weakness: they don't travel very far and can be blocked by things as simple as rain, trees, or even a brick wall . To solve this, carriers need to install many more small antennas much closer together. The existing tower infrastructure provides the perfect locations for many of these new antennas.
+1. **The Need for Density:** 5G has different "flavors." Some use low-band spectrum that travels far and can penetrate buildings well . However, the fastest, most powerful type of 5G uses **high-frequency "millimeter wave" (mmWave) spectrum**. These high-frequency signals have a major weakness: they don't travel very far and can be blocked by things as simple as rain, trees, or even a brick wall . To solve this, carriers need to install many more small antennas much closer together. The existing tower infrastructure provides the perfect locations for many of these new antennas.
 
-2.  **Keeping the Foundation:** The tower in your village isn't just a pole. It has a foundation, a power connection, and a physical connection (backhaul) to the rest of China Telecom's network. When upgrading to 5G, it is far more efficient for companies to use this existing site and just add new 5G radios and antennas rather than building a completely new tower from scratch somewhere else.
+2. **Keeping the Foundation:** The tower in your village isn't just a pole. It has a foundation, a power connection, and a physical connection (backhaul) to the rest of China Telecom's network. When upgrading to 5G, it is far more efficient for companies to use this existing site and just add new 5G radios and antennas rather than building a completely new tower from scratch somewhere else.
 
-3.  **Real-World Examples:** This strategy of upgrading existing sites is standard practice.
+3. **Real-World Examples:** This strategy of upgrading existing sites is standard practice.
     - **On Skyscrapers:** To provide 5G inside the Shanghai Tower, China's tallest building, the major carriers didn't build new towers. They installed new 5G equipment within the existing building's infrastructure to ensure coverage .
     - **In Cities:** In Jingzhou, the 5G equipment was installed on existing "pole towers" .
     - **In Remote Areas:** To cover the summit of Mount Everest with 5G, China Mobile didn't build a new tower network from the ground up. They upgraded and added to the infrastructure at the base camps at 5,300 and 5,800 meters, which were already used for communications .

@@ -52,7 +52,7 @@ Regrets about money and past decisions (house price dropping 50%, stock losses, 
    Almost everyone I know who lost 7- or 8-figure sums and eventually felt at peace wrote a blog post, recorded a podcast, or just told friends the full story. Owning it publicly kills the shame that fuels regret.
 
 Quick one-page version you can print and keep:
-“I lost X because ___. I paid expensive tuition for these lessons: ___. In 10 years this will be the story I tell younger people so they don’t make the same mistake. Until then I protect my capital, live below my means, and let time + compounding do the healing.”
+“I lost X because ___. I paid expensive tuition for these lessons:___. In 10 years this will be the story I tell younger people so they don’t make the same mistake. Until then I protect my capital, live below my means, and let time + compounding do the healing.”
 
 You’re not broken, you’re just mid-story. Almost every wealthy older person you admire has at least one “I lost everything” chapter. The regret fades when you decide the chapter was tuition, not the ending.
 

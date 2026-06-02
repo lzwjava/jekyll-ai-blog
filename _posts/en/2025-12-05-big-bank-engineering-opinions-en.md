@@ -35,6 +35,7 @@ Here are some genuinely unpopular (or at least rarely voiced openly) opinions fr
 These opinions tend to be unpopular because they clash with two dominant internet narratives: (1) “big banks are dinosaur employers paying peanuts for soul-crushing COBOL work,” and (2) “big banks pay the absolute most money in tech, period.” Reality is far more nuanced and role/team/location-dependent.
 
 References:
+
 - Discussions on TeamBlind “Investment Banking” forum (2023–2025 threads)
 - eFinancialCareers articles on banking layoffs and compensation (2024–2025)
 - Personal accounts from former engineers at Goldman Sachs, JPMorgan, Morgan Stanley, Barclays, etc., shared on Reddit r/cscareerquestions and private Slack/Discord groups

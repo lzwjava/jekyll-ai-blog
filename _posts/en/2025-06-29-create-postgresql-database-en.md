@@ -57,12 +57,14 @@ You're already in the PostgreSQL interactive terminal (`psql`) as the `postgres`
    \q
    ```
 
-### Notes:
+### Notes
+
 - The `Permission denied` error you saw (`could not change directory to "/home/lzw/projects/lzwjava.github.io"`) is because the `postgres` user doesn't have access to your home directory. This doesn't affect database creation but might show up when running `psql` from a restricted directory. You can avoid this by running `psql` from a directory the `postgres` user can access or by not changing directories (e.g., run `sudo -u postgres psql` from `/tmp`).
 - The `ls` command you tried in `psql` isn't valid. Use `\l` to list databases or `\dt` to list tables within a database.
 - Ensure the PostgreSQL service is running (`sudo systemctl start postgresql.service`), which you already did.
 
-### Example Session:
+### Example Session
+
 ```sql
 postgres=# CREATE DATABASE mydatabase;
 CREATE DATABASE

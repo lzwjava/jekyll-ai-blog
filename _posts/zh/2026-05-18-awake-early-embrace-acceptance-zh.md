@@ -23,11 +23,11 @@ type: note
 
 在没有运用森田疗法的情况下，情况是这样发展的：
 
-1.  你在凌晨5:30意外醒来
-2.  你**担心**睡眠不足
-3.  这种担心产生了**更多焦虑**
-4.  焦虑让你**更难入睡**
-5.  感觉更糟 → 更担心 → 睡得更少 → 循环往复
+1. 你在凌晨5:30意外醒来
+2. 你**担心**睡眠不足
+3. 这种担心产生了**更多焦虑**
+4. 焦虑让你**更难入睡**
+5. 感觉更糟 → 更担心 → 睡得更少 → 循环往复
 
 这就是森田描述的经典"恶性循环"：感觉吸引注意力，注意力强化感觉，进而吸引更多注意力——导致症状的形成和固化。
 
@@ -89,9 +89,9 @@ Arugamama 鼓励人们无论情绪状态如何，都要在生活中采取建设�
 
 **参考资料：**
 
--   [Morita Therapy – Taylor & Francis](https://taylorandfrancis.com/knowledge/Medicine_and_healthcare/Psychiatry/Morita_therapy/)
--   [Understanding Morita Therapy – happiness.com](https://www.happiness.com/magazine/health-body/understanding-morita-therapy/)
--   [Morita Therapy for anxiety disorders – NIH/PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10907974/)
--   [What is Morita Therapy? – Springer Nature](https://link.springer.com/article/10.1007/s10879-020-09464-6)
--   [Morita Therapy: Arugamama – Hana Counselling](https://www.hanacounselling.com/article/morita-therapy-arugamama)
--   [Morita Therapy pilot trial – PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4806496/)
+- [Morita Therapy – Taylor & Francis](https://taylorandfrancis.com/knowledge/Medicine_and_healthcare/Psychiatry/Morita_therapy/)
+- [Understanding Morita Therapy – happiness.com](https://www.happiness.com/magazine/health-body/understanding-morita-therapy/)
+- [Morita Therapy for anxiety disorders – NIH/PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10907974/)
+- [What is Morita Therapy? – Springer Nature](https://link.springer.com/article/10.1007/s10879-020-09464-6)
+- [Morita Therapy: Arugamama – Hana Counselling](https://www.hanacounselling.com/article/morita-therapy-arugamama)
+- [Morita Therapy pilot trial – PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4806496/)

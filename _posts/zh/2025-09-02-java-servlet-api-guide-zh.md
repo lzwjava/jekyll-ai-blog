@@ -238,11 +238,13 @@ public class UploadServlet extends HttpServlet {
   ```java
   req.getRequestDispatcher("/WEB-INF/view.jsp").forward(req, resp);
   ```
+
 * **包含**：包含另一资源的输出。
 
   ```java
   req.getRequestDispatcher("/fragment").include(req, resp);
   ```
+
 * **重定向**：客户端 302/303/307 到新 URL。
 
   ```java

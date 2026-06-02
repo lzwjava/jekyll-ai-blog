@@ -32,7 +32,6 @@ type: post
    - Error calculation guides learning adjustments
    - Dimensional understanding is crucial for comprehension
 
-
 ## How I Learned the KQV Mechanism in Transformers
 
 *2025.07.16*
@@ -57,7 +56,6 @@ The story of Georgi Gerganov is inspiring. As a new machine learning learner sta
 
 This kind of thing will happen again and again. So, for reinforcement learning and the latest AI knowledge, even though I am still not able to dedicate much time to them, I think I can find some time to quickly learn and try to think about them a lot. The brain will do its work.
 
-
 ---
 
 ## From Neural Network to GPT
@@ -78,7 +76,7 @@ The A.I. Hacker - Michael Phi - Illustrated Guide to Transformers Neural Network
 
 ### How I Learn
 
-Once I had read half of the book "Neural Networks and Deep Learning", I began to replicate the neural network example of recognizing handwritten digits. I created a repository on GitHub, https://github.com/lzwjava/neural-networks-and-zhiwei-learning.
+Once I had read half of the book "Neural Networks and Deep Learning", I began to replicate the neural network example of recognizing handwritten digits. I created a repository on GitHub, <https://github.com/lzwjava/neural-networks-and-zhiwei-learning>.
 
 That's the real hard part. If one can write it from scratch without copying any code, one understands very well.
 
@@ -117,9 +115,9 @@ About the masked here, we change the numbers of half of the matrix to the negati
 
 Continue to read code and papers and watch videos. Just have fun and follow my curiosity.
 
-https://github.com/karpathy/nanoGPT
+<https://github.com/karpathy/nanoGPT>
 
-https://github.com/jadore801120/attention-is-all-you-need-pytorch
+<https://github.com/jadore801120/attention-is-all-you-need-pytorch>
 
 ---
 
@@ -211,6 +209,7 @@ Code:
             activation = sigmoid(z)
             activations.append(activation)
 ```
+
 ### Output error
 
 > Output error $$\delta^{L}$$: Compute the vector $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$

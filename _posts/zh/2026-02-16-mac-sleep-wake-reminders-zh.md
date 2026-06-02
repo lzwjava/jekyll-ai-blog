@@ -64,6 +64,7 @@ Answer:
    更好的做法：创建一个 launchd plist 以在登录时自动启动（存在许多教程，或者如果 Homebrew 支持，使用 `brew services start sleepwatcher`）。
 
 **结果**：
+
 - 合盖 → Mac sleeps → `~/.sleep` 运行 → 你收到通知
 - 开盖 / 唤醒 Mac → `~/.wakeup` 运行 → 你收到通知
 

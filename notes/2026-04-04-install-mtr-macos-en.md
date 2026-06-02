@@ -42,16 +42,19 @@ brew install mtr
 After installation, you may need to run `mtr` with `sudo` because it requires raw socket access, which is restricted to root by default.
 
 **Interactive (live) mode:**
+
 ```bash
 sudo mtr api.binance.com
 ```
 
 **Report mode (equivalent to your Linux command — 100 cycles):**
+
 ```bash
 sudo mtr api.binance.com --report -c 100
 ```
 
 **Example output:**
+
 ```
 HOST: mba                         Loss%   Snt   Last   Avg  Best  Wrst StDev
   1.|-- 192.168.1.1               0.0%   100    0.7   0.9   0.4   7.9   1.0

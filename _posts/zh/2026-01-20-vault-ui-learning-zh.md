@@ -89,6 +89,7 @@ type: note
    对生产运维和容量规划非常有用。
 
 ### 建议的操作练习顺序
+
 1. 使用 root token 登录 → 探索 **Dashboard**
 2. 启用并使用 KV v2 引擎 → 尝试操作 secrets
 3. 创建一个简单的策略 → 附加到一个新 token
@@ -98,6 +99,7 @@ type: note
 7. (如果是 Enterprise 版) 查看 client count 和恢复选项
 
 ### 快速优先级总结 (80/20 原则)
+
 - 60% 精力 → **Secrets Engines** + **Policies** + **Access**
 - 20% 精力 → **Dashboard** + **Tools**
 - 20% 精力 → **Seal**, **Monitoring**, **Client Count**, **Recovery** (主要是运维 / Enterprise)

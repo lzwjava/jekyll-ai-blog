@@ -17,6 +17,7 @@ Answer:
 The "wisdom of programming" refers to the timeless principles, philosophies, and best practices that guide effective software development. These insights, distilled from decades of experience by pioneers and practitioners, emphasize clarity, maintainability, simplicity, and practicality over cleverness or complexity.
 
 ### Core Philosophies
+
 Two foundational frameworks capture much of this wisdom:
 
 - **Unix Philosophy**: Originated by Ken Thompson, Doug McIlroy, and others in the 1970s. It promotes minimalist, modular design:
@@ -39,6 +40,7 @@ Two foundational frameworks capture much of this wisdom:
   These encourage code that is easy to read, understand, and maintain.
 
 ### Timeless Principles and Quotes
+
 Many recurring themes appear across programming literature and advice:
 
 - **Prioritize Readability and Maintainability**:

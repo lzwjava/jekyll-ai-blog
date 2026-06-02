@@ -13,6 +13,7 @@ type: note
 The State-of-the-Art (SOTA) on ImageNet (specifically the ImageNet-1K validation set for image classification) has continued to advance steadily since the dramatic improvements post-2012. As of November 2025, the leading models achieve top-1 accuracies around 91%, corresponding to a top-1 error rate of ~9%. Top-5 accuracies are even higher, typically exceeding 99%, for a top-5 error rate below 1%.
 
 ### Key SOTA Models (Top-5 from Papers With Code Leaderboard)
+
 Here's a snapshot of the current top performers (fine-tuned on ImageNet-1K), based on top-1 accuracy. Top-5 accuracies aren't always explicitly re-reported for these very high-performing models (as they saturate near-perfect levels), but cross-referencing with similar recent architectures suggests top-5 errors under 1% for all:
 
 | Rank | Model | Top-1 Accuracy | Est. Top-5 Accuracy | Parameters | Notes |
@@ -24,6 +25,7 @@ Here's a snapshot of the current top performers (fine-tuned on ImageNet-1K), bas
 | 5 | ConvNeXt V2-Huge | 88.9% (11.1% error) | ~99.0% (~1.0% error) | 660M | CNN revival with masked autoencoder pretraining; efficient for edge devices. |
 
 ### Clarification on the "<3% Today"
+
 - This refers to the **top-5 error rate**, not top-1. Pre-2012 baselines (e.g., SVMs) hovered around 25% top-5 error. By 2017 (SENet), it dropped to ~2.3%. Modern SOTA models have pushed it below 1%, making top-5 predictions essentially reliable for most real-world use cases.
 - Top-1 error remains higher (~9%) because it demands the *exact* top prediction match, which is stricter and more sensitive to edge cases like ambiguous images.
 

@@ -17,6 +17,7 @@ Answer:
 Yes, politics at the highest levels—especially in authoritarian and one-party systems—has often been extremely fierce, brutal, and even deadly throughout history. The Mao–Lin Biao incident is one of the most dramatic examples from 20th-century China.
 
 ### Quick background on the Mao–Lin Biao case (1971)
+
 - Lin Biao was Mao Zedong’s officially designated successor after the Cultural Revolution began in 1966. He was written into the Communist Party constitution as Mao’s “close comrade-in-arms and successor.”
 - By 1970–1971 relations soured. Mao began criticizing Lin and his supporters (especially Lin’s powerful military faction).
 - According to the official Chinese version (released after 1971): Lin Biao, together with his wife Ye Qun and son Lin Liguo, plotted a coup codenamed “Project 571” to assassinate Mao (methods allegedly included bombing Mao’s train, air strikes, or poisoning).
@@ -30,7 +31,9 @@ Yes, politics at the highest levels—especially in authoritarian and one-party 
 Whatever the exact truth, thousands of military officers connected to Lin were arrested, imprisoned, or executed in the following years. Politics under Mao routinely ended with purges, forced suicides, or mysterious deaths (Liu Shaoqi, Peng Dehuai, He Long, etc.).
 
 ### Broader pattern
+
 This kind of extreme internal violence is not unique to China:
+
 - Stalin’s Soviet Union: almost the entire original Bolshevik leadership executed or murdered (Trotsky ice-axed in Mexico, etc.).
 - North Korea: Kim Jong-un had his uncle Jang Song-thaek executed and many senior officials purged.
 - Ancient Rome: emperors and senators regularly assassinated each other.

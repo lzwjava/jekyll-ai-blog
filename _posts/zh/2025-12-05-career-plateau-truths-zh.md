@@ -46,6 +46,7 @@ type: note
 残酷的总结：大多数职业停滞并非由于外部障碍或缺乏机会。它们是人性在薪水不再令人恐惧时，为了舒适、规避风险和自我欺骗而优化所产生的必然结果。
 
 参考资料：
+
 - [The Gervais Principle (Ribbonfarm)](https://www.ribbonfarm.com/the-gervais-principle/)
 - [Mimetic Theory of Career Success – Erik Torenberg](https://eriktorenberg.substack.com/p/the-mimetic-theory-of-career-success)
 - [Peter Principle Revisited – Various observations across tech/executive coaching circles, 2015–2025]

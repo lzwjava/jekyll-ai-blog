@@ -26,6 +26,7 @@ You want Nginx on macOS to listen on a **different port** than its default (80 f
   ```
   /opt/homebrew/etc/nginx/nginx.conf
   ```
+
 * If you installed manually, it may be `/usr/local/nginx/conf/nginx.conf`.
 
 ---
@@ -37,6 +38,7 @@ You want Nginx on macOS to listen on a **different port** than its default (80 f
    ```bash
    nano /opt/homebrew/etc/nginx/nginx.conf
    ```
+
 2. Find the `server` block:
 
    ```nginx
@@ -50,6 +52,7 @@ You want Nginx on macOS to listen on a **different port** than its default (80 f
        }
    }
    ```
+
 3. Change `listen 80;` to your desired port, e.g., 8080:
 
    ```nginx

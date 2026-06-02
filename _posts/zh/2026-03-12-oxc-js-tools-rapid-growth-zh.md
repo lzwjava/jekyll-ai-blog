@@ -22,6 +22,7 @@ Answer:
 ### 🏢 知名公司采用者
 
 OXC 感谢其 5,200 名早期采用者以及以下公司：
+
 - **Shopify**，其前端平台团队在 Shopify admin console 中使用 Oxlint。
 - **Airbnb**，他们在 126,000+ 个文件中使用多文件分析（`oxc/no-barrel-file` 和 `import/no-cycle`），在 CI 上仅用 7 秒完成。
 

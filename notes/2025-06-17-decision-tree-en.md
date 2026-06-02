@@ -17,6 +17,7 @@ This comprehensive guide will explain what a decision tree is, how it works, its
 ### **What is a Decision Tree?**
 
 A decision tree is a flowchart-like representation of decisions and their possible outcomes. It consists of nodes and branches:
+
 - **Nodes**: Represent decisions, conditions, or outcomes.
 - **Branches**: Represent the possible outcomes of a decision or condition.
 - **Leaves**: Represent the final output (e.g., a class label for classification or a numeric value for regression).
@@ -141,6 +142,7 @@ Building a decision tree involves the following steps:
 | 50  | High   | Long          | Yes  |
 
 **Step 1: Root Node**:
+
 - Evaluate all features (Age, Income, Browsing Time) for the best split.
 - Suppose "Income = High" gives the highest Information Gain.
 - Split the data:
@@ -148,12 +150,14 @@ Building a decision tree involves the following steps:
   - Income = Low or Medium: Mixed (continue splitting).
 
 **Step 2: Child Node**:
+
 - For the "Low or Medium Income" subset, evaluate remaining features.
 - Suppose "Age > 30" gives the best split:
   - Age > 30: Mostly "Yes."
   - Age ≤ 30: All "No."
 
 **Step 3: Stop**:
+
 - All nodes are pure (contain only one class) or meet stopping criteria.
 - The tree looks like:
   - Root: "Is Income High?"
@@ -163,6 +167,7 @@ Building a decision tree involves the following steps:
       - No → Leaf: "Not Buy"
 
 **Prediction**:
+
 - New customer: Age = 40, Income = Medium, Browsing Time = Short.
 - Path: Income ≠ High → Age = 40 > 30 → Predict "Buy."
 
@@ -180,6 +185,7 @@ Building a decision tree involves the following steps:
 | 800          | Rural    | 200        |
 
 **Step 1: Root Node**:
+
 - Evaluate splits (e.g., Size > 1200, Location = Urban).
 - Suppose "Size > 1200" minimizes variance.
 - Split:
@@ -187,6 +193,7 @@ Building a decision tree involves the following steps:
   - Size ≤ 1200: Prices = {200, 300} (mean = 250).
 
 **Step 2: Stop**:
+
 - Nodes are small enough or variance reduction is minimal.
 - Tree:
   - Root: "Size > 1200?"
@@ -194,6 +201,7 @@ Building a decision tree involves the following steps:
     - No → Leaf: Predict $250K.
 
 **Prediction**:
+
 - New house: Size = 1800, Location = Urban → Size > 1200 → Predict $500K.
 
 ---
@@ -331,11 +339,13 @@ This chart shows the data points in a 2D feature space. A decision tree might sp
 ### **Implementation in Practice**
 
 Decision trees can be implemented using libraries like:
+
 - **Python**: Scikit-learn (`DecisionTreeClassifier`, `DecisionTreeRegressor`), XGBoost, LightGBM.
 - **R**: `rpart`, `party`.
 - **Other Tools**: Weka, MATLAB, or Spark MLlib.
 
 Example in Python (Scikit-learn):
+
 ```python
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split

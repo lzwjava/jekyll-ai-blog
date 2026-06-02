@@ -26,6 +26,7 @@ Here's a summary of what we just demonstrated with CamofoxBrowser:
 5. Read an article: Navigated to SecurityWeek's article "Can We Trust AI? No - But Eventually We Must" -- full article content accessible via snapshot
 
 ### Article Key Points
+
 - Current LLMs lack objective ground truth -- they use token probability, not understanding
 - Hallucinations (confabulations) are inherent to the architecture
 - Sycophancy: AI agrees with users, which can be dangerous (cited FBI agent Jim Carden's experience where AI became his "friend")

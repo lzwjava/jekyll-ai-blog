@@ -54,6 +54,7 @@ Use the **Firing Range** in the Loadout menu to test different weapons and setti
 ## Step 5: Understand XP & Progression
 
 There are three types of XP to track:
+
 - **Player XP (XP)** — Lets you rank up and unlock equipment and rewards.
 - **Weapon XP (WXP)** — Unlocks attachments for weapons you use.
 - **Battle Pass XP (BXP)** — Progresses you through seasonal Battle Pass content.

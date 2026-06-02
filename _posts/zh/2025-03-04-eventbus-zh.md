@@ -111,6 +111,7 @@ public void onMessageEvent(MessageEvent event) {
 ```
 
 最佳实践：
+
 1. 始终在 `onDestroy()` 中取消注册以避免内存泄漏
 2. 使用特定的事件类而非通用对象
 3. 在订阅者方法中处理异常
@@ -156,6 +157,7 @@ public class ReceiverActivity extends AppCompatActivity {
 ```
 
 EventBus 特别适用于：
+
 - 解耦组件
 - Fragment 之间的通信
 - 从后台操作更新 UI

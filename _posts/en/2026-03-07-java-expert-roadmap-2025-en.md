@@ -24,6 +24,7 @@ This roadmap is structured for developers who already understand core Java basic
 Before anything else, solidify the foundations at a deep level, not just "how to use" but "why it works."
 
 **Java Language Internals**
+
 - Java Memory Model (JMM): happens-before, visibility, atomicity
 - Stack vs Heap, Metaspace, Code Cache, Object layout in memory
 - Classloading mechanism: Bootstrap, Extension, Application classloaders
@@ -31,6 +32,7 @@ Before anything else, solidify the foundations at a deep level, not just "how to
 - Java Platform Module System (JPMS / Java 9+)
 
 **Modern Java Features (Java 17–25 LTS)**
+
 - Focus on Java 25 LTS, released in September 2025 — mastering modern Java features that matter today.
 - Records, Sealed Classes, Pattern Matching, Switch Expressions
 - Text Blocks, `instanceof` pattern matching
@@ -38,6 +40,7 @@ Before anything else, solidify the foundations at a deep level, not just "how to
 - Project Panama (Foreign Function & Memory API), Project Valhalla (value types)
 
 **Functional Programming in Java**
+
 - Lambdas, method references, functional interfaces (`Function`, `Predicate`, `Supplier`)
 - Streams API: grouping, aggregation, lazy evaluation, parallel streams
 - Optional best practices
@@ -50,17 +53,20 @@ Before anything else, solidify the foundations at a deep level, not just "how to
 Understanding JVM internals, memory management, and garbage collection is what separates an experienced Java developer from a developer who just has years of experience.
 
 **JVM Deep Dive**
+
 - JVM memory: Heap (Young and Old Generations), Non-Heap (Metaspace, Code Cache)
 - JIT compiler: C1, C2, GraalVM compiler
 - Bytecode to native code compilation pipeline
 - Class Data Sharing (CDS) and AOT compilation
 
 **Garbage Collection Mastery**
+
 - Understand trade-offs between different collectors like G1GC, ZGC, and Shenandoah. Select and tune a collector based on application-specific requirements such as heap size, latency goals, and workload.
 - GC tuning flags: `-XX:+UseG1GC`, `-Xmx`, `-XX:MaxGCPauseMillis`
 - Diagnosing memory leaks with heap dumps
 
 **Profiling & Observability Tools**
+
 - Java Flight Recorder (JFR) and Java Mission Control (JMC) for identifying lock contention and concurrency hotspots in a running application
 - VisualVM, JProfiler, async-profiler
 - Distributed tracing: OpenTelemetry, Micrometer, Prometheus + Grafana
@@ -72,12 +78,14 @@ Understanding JVM internals, memory management, and garbage collection is what s
 In distributed systems and high-throughput applications, improper concurrency management is a primary source of bugs and performance bottlenecks. A senior engineer must be able to design and debug systems that perform reliably under heavy concurrent load.
 
 **Core Concurrency Toolkit**
+
 - `java.util.concurrent`: ExecutorService, ScheduledExecutor, ThreadPoolExecutor
 - Fork/Join Framework for parallel processing, ConcurrentHashMap for thread-safe collections, CompletableFuture for asynchronous programming
 - Locks: ReentrantLock, ReadWriteLock, StampedLock
 - Atomic classes (CAS-based): AtomicInteger, AtomicReference, LongAdder
 
 **Expert-Level Topics**
+
 - Lock-free and wait-free algorithms
 - For HFT systems that cannot afford overhead of traditional locks: lock-free algorithms and data structures using Compare-And-Swap (CAS) operations
 - ThreadLocal: usage, pitfalls, memory leaks
@@ -85,6 +93,7 @@ In distributed systems and high-throughput applications, improper concurrency ma
 - Virtual Threads (Project Loom) vs platform threads
 
 **Reactive Programming**
+
 - Spring WebFlux, built on Project Reactor, uses non-blocking I/O and sophisticated thread pool management to handle massive numbers of connections with a small number of threads
 - RxJava, Project Reactor: Mono, Flux, backpressure
 - When to use reactive vs virtual threads
@@ -94,6 +103,7 @@ In distributed systems and high-throughput applications, improper concurrency ma
 ## Phase 4 — Frameworks & Enterprise Stack
 
 **Spring Ecosystem (Primary)**
+
 - Spring Boot 3.x / 4.x: auto-configuration internals, starters
 - Spring Data JPA: N+1 problem, query optimization, projections
 - Spring Security: OAuth2, JWT, method-level security
@@ -102,10 +112,12 @@ In distributed systems and high-throughput applications, improper concurrency ma
 - Design patterns like Factory, Observer, and Strategy provide proven solutions to recurring design problems while improving code maintainability and team communication through shared vocabulary
 
 **Build & Dependency Management**
+
 - Gradle (advanced: custom plugins, build scripts) and Maven (lifecycle, profiles)
 - Dependency management strategies, BOM (Bill of Materials)
 
 **Testing Mastery**
+
 - JUnit 5: parameterized tests, extensions, lifecycle
 - Mockito, TestContainers (integration tests with real DBs/services)
 - Contract testing with Pact
@@ -119,6 +131,7 @@ In distributed systems and high-throughput applications, improper concurrency ma
 Mastery of microservices patterns, distributed data consistency, and fault tolerance is a fundamental requirement for senior Java engineers.
 
 **Microservices Architecture**
+
 - Domain-Driven Design (DDD): bounded contexts, aggregates, domain events
 - API Gateway patterns, service mesh (Istio, Linkerd)
 - Circuit Breaker (Resilience4j), Bulkhead, Retry patterns
@@ -126,11 +139,13 @@ Mastery of microservices patterns, distributed data consistency, and fault toler
 - Event-driven architecture: CQRS, Event Sourcing
 
 **Messaging & Streaming**
+
 - Apache Kafka: producers, consumers, partitioning, consumer groups, exactly-once semantics
 - RabbitMQ for async messaging
 - Kafka Streams for real-time data processing
 
 **Database Expertise**
+
 - RDBMS: indexing strategies, query planning, connection pooling (HikariCP)
 - NoSQL: Redis (caching, pub/sub), MongoDB, Cassandra
 - Database migration: Flyway, Liquibase
@@ -143,17 +158,20 @@ Mastery of microservices patterns, distributed data consistency, and fault toler
 Proficiency in cloud platforms like AWS, Azure, or Google Cloud, along with containerization with Docker and orchestration with Kubernetes, is essential for modern Java developers.
 
 **Cloud Platforms (Pick One to Master)**
+
 - AWS: EC2, ECS/EKS, Lambda, RDS, SQS/SNS, API Gateway
 - GCP: GKE, Cloud Run, Pub/Sub, Cloud SQL
 - Azure: AKS, Azure Functions, Service Bus
 
 **Containers & Orchestration**
+
 - Docker: multi-stage builds, image optimization for Java apps
 - Kubernetes: Deployments, Services, ConfigMaps, Secrets, HPA, resource limits
 - Helm charts for Java service deployment
 - GraalVM Native Image for fast startup/low memory
 
 **CI/CD Pipelines**
+
 - GitHub Actions / GitLab CI / Jenkins
 - Infrastructure as Code: Terraform, Pulumi
 - GitOps: ArgoCD, Flux
@@ -165,18 +183,21 @@ Proficiency in cloud platforms like AWS, Azure, or Google Cloud, along with cont
 Deep expertise in JVM performance, concurrency, distributed systems, and cloud-native architecture demonstrates expert-level knowledge that companies need to solve their most challenging problems.
 
 **System Design Skills**
+
 - Designing for scalability: horizontal vs vertical, sharding, partitioning
 - CAP theorem, BASE vs ACID in practice
 - Rate limiting, idempotency, distributed locks
 - API design: REST best practices, GraphQL, gRPC
 
 **Software Architecture**
+
 - Hexagonal Architecture (Ports & Adapters)
 - Clean Architecture
 - Strangler Fig pattern for legacy modernization
 - API versioning strategies
 
 **Security Engineering**
+
 - OWASP Top 10 for Java applications
 - Dependency vulnerability scanning (Snyk, OWASP Dependency-Check)
 - Secrets management (HashiCorp Vault, AWS Secrets Manager)

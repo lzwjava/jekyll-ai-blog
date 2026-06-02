@@ -111,7 +111,7 @@ AI-native:
 
 * money moves automatically based on intent
 
-### Examples:
+### Examples
 
 * surplus → invested
 * bills → optimized payment timing

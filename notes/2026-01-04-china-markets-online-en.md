@@ -17,6 +17,7 @@ Answer:
 In China's major cities, traditional local fresh food and vegetable markets (known as **wet markets**) have experienced a gradual decline in market share due to the rapid growth of e-commerce platforms and on-demand delivery apps for fresh produce. However, they remain resilient and continue to dominate the overall fresh food retail landscape, often complementing rather than being fully replaced by online channels.
 
 ### Key Trends
+
 - **E-commerce Growth**: Fresh food e-commerce has expanded significantly. In 2023, the gross merchandise volume (GMV) reached over 642 billion yuan, with a penetration rate of about 12.5%. User numbers exceeded 513 million, driven by platforms like Hema (Alibaba), Dingdong Maicai, and Meituan, offering 30-minute to one-hour deliveries. This convenience appeals especially to younger, busy urban consumers in tier-1 cities (e.g., Beijing, Shanghai, Shenzhen).
 
 - **Impact on Traditional Markets**: Wet markets have lost market share, particularly in first-tier cities where modern logistics and e-commerce are advanced. As of 2020 data (latest comprehensive figures available), wet markets still held about 56% of national fresh food retail sales, but this share is lower in big cities due to competition from supermarkets, community chains, and online delivery. Consumers cite perceived superior freshness, lower prices, haggling opportunities, and proximity as reasons for preferring wet markets, while online options win on convenience and variety (including imports and organics).

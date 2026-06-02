@@ -31,6 +31,7 @@ type: note
 这场主要由谷歌大脑苏黎世团队主导的合作，充分利用团队与TPU集群的地理优势开展大规模实验——累计超2.5万TPU日——证明了Transformer架构在文本领域之外的可行性。多数作者后续流向Meta、OpenAI和Anthropic等顶尖AI实验室，印证了ViT对领域的持久影响力。
 
 #### 参考文献
+
 - [《一幅图像价值16x16个词汇：规模化图像识别的Transformer模型》（arXiv）](https://arxiv.org/abs/2010.11929)
 - [Alexey Dosovitskiy谷歌学术档案](https://scholar.google.com/citations?user=FXNJRDoAAAAJ)
 - [Lucas Beyer谷歌学术档案](https://scholar.google.com/citations?user=p2gwhK4AAAAJ)

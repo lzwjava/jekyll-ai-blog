@@ -19,6 +19,7 @@ The FSEvents API is a macOS-specific framework that allows applications to recei
 Here’s a practical guide to using FSEvents to monitor a directory:
 
 ### Using FSEvents in C/Objective-C
+
 The FSEvents API is part of the CoreServices framework on macOS. Below is a basic example in C to monitor a directory for changes:
 
 1. **Include Necessary Headers**:
@@ -88,54 +89,67 @@ int main() {
 }
 ```
 
-#### Steps Explained:
+#### Steps Explained
+
 - **Paths to Watch**: You specify one or more directories (e.g., `/Users/yourusername`) in a `CFArray`.
 - **Callback**: The `callback` function is triggered when changes occur. It receives an array of affected paths and flags (e.g., `kFSEventStreamEventFlagItemCreated`).
 - **Stream Creation**: `FSEventStreamCreate` sets up the watcher. The latency (e.g., `1.0` seconds) batches events to avoid overwhelming the callback.
 - **Run Loop**: The stream integrates with a run loop (like `CFRunLoopRun`) to keep the program alive and responsive.
 - **Cleanup**: Stop and release the stream when done (not shown in this infinite loop example).
 
-#### Compilation:
+#### Compilation
+
 Compile with the CoreServices framework:
+
 ```bash
 gcc -o fsevents_example fsevents_example.c -framework CoreServices
 ```
 
 Run it:
+
 ```bash
 ./fsevents_example
 ```
 
-### Key Points:
+### Key Points
+
 - **Granularity**: By default, FSEvents monitors directory-level changes. For file-level events (e.g., specific file modifications), add the `kFSEventStreamCreateFlagFileEvents` flag.
 - **Latency**: The latency parameter (e.g., `1.0`) controls how often the callback fires. Lower values give faster updates but more calls.
 - **Scope**: FSEvents watches the entire directory tree recursively—no need to specify subdirectories.
 
 ### Alternative: Using a Tool
+
 If you’re looking for a command-line tool rather than coding it yourself, there’s no `fsevent_watch` in the standard macOS toolkit. However, third-party tools like `fswatch` leverage FSEvents. To use `fswatch`:
 
 1. **Install fswatch** (e.g., via Homebrew):
+
    ```bash
    brew install fswatch
    ```
 
 2. **Run it**:
+
    ```bash
    fswatch /path/to/watch
    ```
+
    This outputs paths as changes occur. For example:
+
    ```bash
    fswatch ~/Documents
    ```
+
    You’ll see lines like `/Users/yourusername/Documents/file.txt` when files change.
 
 3. **With a Script**:
    Pipe it to a script for custom actions:
+
    ```bash
    fswatch ~/Documents | while read -r file; do echo "Changed: $file"; done
    ```
 
 ### If You Meant Something Else
+
 If `fsevent_watch` refers to a specific library, tool, or typo (e.g., `fsevents-watch`), please provide more context—like the programming language or environment you’re working in—and I’ll tailor the response further.
 
 Let me know how I can refine this for you!

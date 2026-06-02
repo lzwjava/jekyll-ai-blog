@@ -15,8 +15,10 @@ type: note
 Spotless is a code formatting plugin available for both Maven and Gradle. Based on your mention of Maven's `-pl` (project list) flag, I'll assume you're using the **Spotless Maven plugin** in a multi-module Java project. This allows you to run formatting checks (e.g., via `spotless:check`) or apply fixes (e.g., via `spotless:apply`) selectively on specific modules, which is efficient for large projects where you might only need to format certain modules (e.g., during development on a specific submodule).
 
 #### Prerequisites
+
 - Your project uses Maven with a multi-module structure (defined in a parent `pom.xml` with `<modules>...</modules>`).
 - Spotless Maven plugin is configured in your project (typically in the parent POM or individual module POMs). If not, add it to your POM:
+
   ```xml
   <build>
     <plugins>
@@ -31,10 +33,12 @@ Spotless is a code formatting plugin available for both Maven and Gradle. Based 
     </plugins>
   </build>
   ```
+
   - Common rules include Google Java Format, Eclipse JDT for Java, or customizations for imports, spacing, etc.
   - Spotless supports many file types (Java, Kotlin, XML, etc.) and integrates well with CI tools for pre-commit hooks (via the `spotless:check` goal, which fails builds on unformatted code).
 
 #### Using `-pl` to Control Module Formatting
+
 Maven's `-pl` (project list) flag lets you specify a comma-separated list of modules to include in the build/plugin execution. By default, Maven runs on all modules, but `-pl` restricts it, saving time and avoiding unnecessary work on unaffected modules.
 
 - **Basic Command Structure**:
@@ -44,15 +48,19 @@ Maven's `-pl` (project list) flag lets you specify a comma-separated list of mod
 
 - **Examples**:
   1. **Check formatting only on the `core` module**:
+
      ```
      mvn spotless:check -pl core
      ```
+
      - This scans and validates only `core`'s source files. If any formatting issues exist, the build fails with details (e.g., "Please run `spotless:apply` to fix").
 
   2. **Apply formatting to multiple modules (`api` and `utils`)**:
+
      ```
      mvn spotless:apply -pl api,utils
      ```
+
      - This modifies files in-place to match your Spotless rules. Always commit changes after to avoid surprises in version control.
 
   3. **Exclude specific modules during a full project run**: Use `-pl !moduleToSkip` to run on everything *except* certain modules (Maven 3.2.1+ supports negation with `!`).

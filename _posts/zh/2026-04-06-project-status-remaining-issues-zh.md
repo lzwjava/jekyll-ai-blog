@@ -12,6 +12,7 @@ type: note
 好问题。目前状况如下：
 
 **✅ 已修复/正常：**
+
 - 数据库连接（数据库正确连接）
 - JSSDK、WeChatPlatform、Pay、Sms、LeanCloud 的 CI4 库
 - `localhost:8088/` → HTTP 200

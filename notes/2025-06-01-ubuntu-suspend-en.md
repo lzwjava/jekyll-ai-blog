@@ -10,11 +10,13 @@ type: note
 
 In Ubuntu, you can put your system to sleep or hibernate using several methods:
 
-## GUI Methods:
+## GUI Methods
+
 - **Top-right corner**: Click the power/settings icon in the top panel, then select "Suspend" (sleep) or "Hibernate" if available
 - **Activities menu**: Press the Super key, type "power" or "suspend", and select the power options
 
-## Command Line Methods:
+## Command Line Methods
+
 ```bash
 # To suspend (sleep)
 systemctl suspend
@@ -26,11 +28,13 @@ systemctl hibernate
 systemctl hybrid-sleep
 ```
 
-## Keyboard Shortcuts:
+## Keyboard Shortcuts
+
 - Many Ubuntu systems use **Fn + Sleep key** or **Ctrl + Alt + End** by default
 - You can customize these in Settings > Keyboard > Shortcuts
 
-## Important Notes:
+## Important Notes
+
 - **Sleep/Suspend**: Keeps RAM powered, quick wake-up but uses some battery
 - **Hibernate**: Saves everything to disk and shuts down, slower wake-up but no power consumption
 - Hibernate might not be enabled by default on newer Ubuntu versions due to potential issues with some hardware

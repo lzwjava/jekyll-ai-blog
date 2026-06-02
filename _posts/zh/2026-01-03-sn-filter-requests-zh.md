@@ -31,6 +31,7 @@ Answer:
 ### 在 List View 中使用 Filters
 
 进入 list view 后：
+
 - 在列表顶部，您会看到一个 **breadcrumb**（例如 "All"）和一个 filter builder。
 - 点击 **漏斗图标** 或 breadcrumb 旁边的区域以打开 condition builder。
 - 构建您的 filter：

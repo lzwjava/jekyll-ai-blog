@@ -29,6 +29,7 @@ type: note
    ```scss
    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
    ```
+
 4. 这就是你在开发者工具中看到的网络请求
 
 ---

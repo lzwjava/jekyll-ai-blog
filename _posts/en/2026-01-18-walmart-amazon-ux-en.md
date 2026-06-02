@@ -17,6 +17,7 @@ Answer:
 Here is a comparison of the desktop website user experience (UX) for **Walmart.com** and **Amazon.com**, based on recent analyses, reviews, and user feedback as of 2025-2026.
 
 ### Overall Winner
+
 Amazon.com generally provides a superior desktop experience in most areas, particularly for speed, polish, personalization, and ease of use. Walmart.com has improved significantly in recent years but is still often described as feeling less refined or slightly slower/clunkier.
 
 ### Key Comparison Areas
@@ -54,12 +55,14 @@ Amazon.com generally provides a superior desktop experience in most areas, parti
 ### Strengths Summary
 
 **Amazon.com strengths**
+
 - More polished and modern interface
 - Superior search, recommendations, and product information
 - Faster perceived performance
 - Better for discovery and impulse/add-on purchases
 
 **Walmart.com strengths**
+
 - Clean focus on everyday low prices and clear shipping/pickup info
 - Good integration with physical stores (e.g., easy in-store pickup)
 - Less overwhelming for straightforward shopping

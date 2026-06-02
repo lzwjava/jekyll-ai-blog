@@ -15,6 +15,7 @@ type: note
 CN2，全称**中国电信下一代承载网（ChinaNet Next Carrying Network）**，是由中国电信建设和运营的优质新一代国际骨干网络。该网络专为高质量、低延迟的全球互联设计，尤其针对中国与全球其他地区之间的流量传输。虽然它并非单一"光缆"，但通过结合先进的海底光缆系统（如全球海底光缆网络）与优化路由及对等互联协议，可提供卓越性能。可将其视为中国网络流量出海的"快速通道"，与拥堵的普通中国宽带网（CHINANET）基础设施形成鲜明对比。
 
 核心特性：
+
 - **核心目标**：通过专用带宽处理从中国到海外目的地（如欧美、亚太）的国际数据出口，缓解因防火墙、对等互联问题或普通线路高流量导致的瓶颈
 - **关键特征**：
   - **优化路由**：与全球主流运营商（如Level 3、NTT）直接对等互联，实现更快速路径
@@ -34,6 +35,7 @@ CN2，全称**中国电信下一代承载网（ChinaNet Next Carrying Network）
 若需建立连接，可通过中国电信美洲公司或云服务商（如通过CN2连接的AWS）获取相关服务。
 
 #### 参考资料
+
 - [CN2（AS 4809）| 中国电信美洲公司优质全球网络](https://www.ctamericas.com/company/global-network/cn2/)
 - [CN2为何成为中国国际IT运营的游戏规则改变者](https://edgenext.medium.com/why-cn2-is-a-game-changer-for-international-it-operations-in-china-5050cc8e9f69)
 - [全球网络/中国直连/CN2快速对比指南](https://www.krypt.com/knowledgebase/299/Quick-Comparison-Global-Network-vs-China-Direct-vs--CN2-with-Global-Network.html)

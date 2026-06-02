@@ -22,7 +22,7 @@ Answer:
 | 774M        | 1–2 days | **~1–2 weeks** |
 | 1.5B        | 3–7 days | **~3–5 weeks** |
 
-### Notes:
+### Notes
 
 1. **单 GPU 瓶颈**
 

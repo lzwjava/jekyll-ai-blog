@@ -21,7 +21,8 @@ Here are the most common real-world scenarios where an Ethernet **broadcast fram
 | **Wake-on-LAN (magic packet)**    | Ethernet dst=MAC FFFF.FFFF.FFFF (or directed broadcast)| Another host on the same segment              | To wake up a sleeping machine                                                             |
 | **Legacy IPX/SPX, AppleTalk, etc.**| Ethernet dst=MAC FFFF.FFFF.FFFF                       | Devices using those old protocols             | Service discovery in non-IP protocols                                                     |
 
-### Most frequent cases you will see in a modern network (99% of broadcast frames):
+### Most frequent cases you will see in a modern network (99% of broadcast frames)
+
 1. **ARP requests** → sent by **any host or router** that needs to learn a MAC for a local IP
    → Example: PC wants to ping 192.168.1.50 → sends ARP “Who has 192.168.1.50?” with dst MAC FFFF.FFFF.FFFF
 
@@ -29,12 +30,15 @@ Here are the most common real-world scenarios where an Ethernet **broadcast fram
    → The very first packet a device sends when it has no IP is almost always a DHCP Discover broadcast.
 
 ### Who never sends true Ethernet broadcasts in normal operation?
+
 - Layer-3 switches/routers (they forward them, but originate very few)
 - Properly configured modern servers (they usually have static IPs, so no DHCP broadcasts, and they cache ARP entries)
 
 ### Summary
+
 A broadcast frame (dst MAC = FFFF.FFFF.FFFF) is sent whenever a device on the local segment needs to reach **“everyone”** on Layer 2 because it does not yet know the specific unicast MAC of the target, or the protocol itself is designed as broadcast (old NetBIOS, etc.).
 
 Most common senders today:
+
 - Any PC/laptop/phone when it boots (DHCP)
 - Any device that needs to resolve an IP → MAC mapping (ARP)

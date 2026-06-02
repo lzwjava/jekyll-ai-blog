@@ -16,7 +16,8 @@ type: note
 
 In DB2 (IBM Db2), `WITH UR` is a clause you can add to a `SELECT` statement to specify the **Uncommitted Read** isolation level for that particular query.
 
-### What it does:
+### What it does
+
 ```sql
 SELECT * FROM employee WHERE dept = 'A00' WITH UR;
 ```
@@ -27,7 +28,7 @@ SELECT * FROM employee WHERE dept = 'A00' WITH UR;
 - Fastest possible read performance in most cases
 - Lowest isolation level in DB2
 
-### Comparison of common DB2 isolation levels:
+### Comparison of common DB2 isolation levels
 
 | Isolation level | Clause       | Locks taken          | Can read uncommitted data? | Typical use case                          |
 |-----------------|--------------|----------------------|-----------------------------|--------------------------------------------|
@@ -37,11 +38,13 @@ SELECT * FROM employee WHERE dept = 'A00' WITH UR;
 | RR             | WITH RR      | Strong repeatable read | No                        | Highest consistency, heavy locking        |
 
 ### Advantages of USING `WITH UR`
+
 - Avoids lock contention (your query almost never waits for other transactions)
 - Greatly improves performance on high-update tables when you only need approximate/current data
 - Very common in monitoring tools, dashboards, operational reports, and ad-hoc queries
 
 ### Disadvantages / Risks
+
 - You might read **dirty data** (changes that later get rolled back)
 - You might see **non-repeatable reads** and **phantom rows**
 - Do **not** use it when:
@@ -50,6 +53,7 @@ SELECT * FROM employee WHERE dept = 'A00' WITH UR;
   - Consistency within the result set is critical
 
 ### Summary
+
 `WITH UR` = "I accept dirty / uncommitted data in exchange for maximum speed and zero blocking."
 
 It's one of the most frequently used DB2-specific hints in production environments, especially on Db2 for z/OS.

@@ -26,6 +26,7 @@ Sexuality education was officially incorporated into the school curriculum in Ch
 ### What IS Actually Taught (Common Topics)
 
 Sexuality education in surveyed Chinese schools tends to cover **conventional topics** such as:
+
 - Physiological and psychological development during puberty
 - HIV and AIDS prevention
 - Interpersonal relationships with the opposite sex

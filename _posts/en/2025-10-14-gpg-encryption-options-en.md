@@ -21,10 +21,13 @@ The `gpg` command (GNU Privacy Guard) is a tool for encryption, decryption, and 
 - **`-r <user-id>` (or `--recipient <user-id>`)**: Specifies the recipient(s) for encryption. The `<user-id>` can be a key ID, email, or name associated with the public key. GPG will use the corresponding public key to encrypt the data. Multiple recipients can be listed for group encryption.
 
 #### Example Usage
+
 A common command combining these might look like:
+
 ```
 gpg --homedir /path/to/custom/dir -e -r recipient@example.com inputfile.txt
 ```
+
 This encrypts `inputfile.txt` for `recipient@example.com` using keys from `/path/to/custom/dir`, producing `inputfile.txt.gpg`.
 
 For full details, run `gpg --help` or check the man page.

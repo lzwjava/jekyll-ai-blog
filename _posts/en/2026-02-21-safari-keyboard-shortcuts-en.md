@@ -10,7 +10,7 @@ type: note
 ---
 
 Yes, you're correct:
-**Command + [`** and **Command + `]** are the shortcuts in Safari to go **back** and **forward** between pages.
+**Command + [`** and **Command +`]** are the shortcuts in Safari to go **back** and **forward** between pages.
 
 Here are some other useful Safari keyboard shortcuts to boost your browsing efficiency:
 

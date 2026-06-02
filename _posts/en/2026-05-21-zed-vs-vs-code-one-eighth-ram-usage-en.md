@@ -24,6 +24,7 @@ Same project (`jekyll-ai-blog`), fresh comparison:
 **Zed uses 1/8th the RAM** of VS Code for the exact same project directory.
 
 The difference is architectural:
+
 - **Zed** is native (Rust/GPUI) — minimal overhead, only 2 processes
 - **VS Code** is Electron (Chromium + Node) — each helper is a sandboxed process, 16 total
 

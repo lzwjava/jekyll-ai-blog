@@ -24,6 +24,7 @@ The personality you're describing sits at the intersection of **High Sensitivity
 ---
 
 ### 1. **HSP — Highly Sensitive Person**
+
 Coined by psychologist Dr. Elaine Aron, an HSP is someone whose nervous system is neurologically wired to process sensory and emotional data more deeply than others.
 
 - About 20% of the population is born with a gene that allows them to process sensory data much more deeply and thoroughly than other people do.
@@ -32,6 +33,7 @@ Coined by psychologist Dr. Elaine Aron, an HSP is someone whose nervous system i
 ---
 
 ### 2. **The "Rainforest Mind" (RFM)**
+
 A metaphor developed by psychotherapist Paula Prober for gifted adults who are also highly sensitive:
 
 - These kids were like the rainforest — they had particular traits and needs that were often overlooked because they were so smart. It is the nature of the RFM to be intense.
@@ -40,11 +42,13 @@ A metaphor developed by psychotherapist Paula Prober for gifted adults who are a
 ---
 
 ### 3. **The "Sensitive Striver"**
+
 A Sensitive Striver is someone who is both highly sensitive and high-achieving — a specific personality type that combines emotional depth with the drive to excel.
 
 ---
 
 ### 4. **Overexcitabilities (OEs) — Dabrowski's Theory**
+
 The scientific framework behind this type comes from Polish psychologist **Kazimierz Dabrowski**, whose *Theory of Positive Disintegration* explains the intense energy + sensitivity combination:
 
 These traits, known as overexcitabilities (OEs), can be psychomotor, sensual, imaginational, emotional, or intellectual. A psychomotor overexcitability involves a heightened energy level — a person with this OE might be constantly in motion, talk rapidly, or engage in multiple activities at once.

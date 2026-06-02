@@ -11,6 +11,7 @@ type: note
 为您的**Raspberry Pi Pico（带排针版）**——来自**Raspberry Pi Foundation**（假设“duistou”是拼写错误或经销商品牌），您需要合适的USB线缆在Ubuntu系统上进行配置。以下是所需信息：
 
 ### USB线缆要求
+
 1. **接口类型**：USB转Micro-USB线缆
    - 树莓派Pico（原装带排针版）使用**Micro-USB**接口进行供电和数据传输
    - 确保线缆支持**数据传输**而非仅支持充电。某些廉价Micro-USB线缆仅支持供电，无法用于编程或通信
@@ -25,6 +26,7 @@ type: note
    - 若仅有**USB-C接口**，需使用USB-C转Micro-USB线缆，或通过USB-C扩展坞配合USB-A转Micro-USB线缆
 
 ### 设置注意事项
+
 - **连接方式**：将Micro-USB端插入Pico，另一端连接Ubuntu电脑
 - **工作模式**：
   - **常规模式**：直接连接即可进行编程（如MicroPython、C/C++）
@@ -32,6 +34,7 @@ type: note
 - **验证连接**：连接后可通过我先前回复的步骤验证Ubuntu是否识别Pico（如`lsusb`、`ls /dev/tty*`或`lsblk`命令）
 
 ### 线缆问题排查
+
 - 若未检测到Pico（无`/dev/ttyACM0`设备或`RPI-RP2`驱动器），请更换线缆或USB接口
 - 避免使用USB集线器，可能引发设备识别问题
 - 通过连接其他设备（如手机）测试线缆是否支持数据传输

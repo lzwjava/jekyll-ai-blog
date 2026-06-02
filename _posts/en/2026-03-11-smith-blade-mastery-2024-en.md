@@ -70,6 +70,7 @@ Adjust your position to affect the trajectory of the flying swords; Gan Jiang Mo
 ### Key Strengths and Weaknesses
 
 **Strengths:**
+
 - High burst damage output from a distance
 - Unique dual-sword mechanic with Sword Energy stacking for increased damage
 - Excellent harassment ability in team fights
@@ -86,10 +87,10 @@ Close encounters with Hua Mulan are nightmares for most mages, including Gan Jia
 
 ## References
 
-- https://gaminggblog.com/honor-of-kings-gan-mo-build/
-- https://zathong.com/honor-of-kings-ganjiang-moye/
-- https://zathong.com/honor-of-kings-gan-mo/
-- https://hokbuild.com/hero/gan-mo/
-- https://honor-of-kings.fandom.com/wiki/Gan_%26_Mo
-- https://liquipedia.net/honorofkings/Gan_&_Mo
-- https://tvtropes.org/pmwiki/pmwiki.php/Characters/HonorOfKingsAndArenaOfValorMageHeroes
+- <https://gaminggblog.com/honor-of-kings-gan-mo-build/>
+- <https://zathong.com/honor-of-kings-ganjiang-moye/>
+- <https://zathong.com/honor-of-kings-gan-mo/>
+- <https://hokbuild.com/hero/gan-mo/>
+- <https://honor-of-kings.fandom.com/wiki/Gan_%26_Mo>
+- <https://liquipedia.net/honorofkings/Gan_&_Mo>
+- <https://tvtropes.org/pmwiki/pmwiki.php/Characters/HonorOfKingsAndArenaOfValorMageHeroes>

@@ -13,6 +13,7 @@ The **Key (K), Query (Q), and Value (V)** mechanism is a fundamental component o
 ---
 
 ### 1. **Intuition Behind K, Q, V in Self-Attention**
+
 The self-attention mechanism allows a Transformer model to process an input sequence by focusing on relevant parts of the sequence for each word (or token). The **K, Q, V** components are the building blocks of this process, enabling the model to dynamically determine which parts of the input are most relevant to each other.
 
 - **Query (Q):** Represents the "question" a token asks about other tokens in the sequence. For each token, the query vector encodes what information the token is looking for from the rest of the sequence.
@@ -22,6 +23,7 @@ The self-attention mechanism allows a Transformer model to process an input sequ
 The interaction between **Q** and **K** determines how much attention each token should pay to every other token, and the **V** vectors are then weighted and combined based on this attention to produce the output for each token.
 
 Think of it like a library search:
+
 - **Query**: Your search query (e.g., "machine learning").
 - **Key**: The titles or metadata of books in the library, which you compare to your query to find relevant books.
 - **Value**: The actual content of the books you retrieve after identifying relevant ones.
@@ -29,13 +31,16 @@ Think of it like a library search:
 ---
 
 ### 2. **How K, Q, V Work in Self-Attention**
+
 The self-attention mechanism computes a weighted sum of the **Value** vectors, where the weights are determined by the similarity between **Query** and **Key** vectors. Here’s a step-by-step breakdown of the process:
 
 #### Step 1: Input Representation
+
 - The input to a Transformer layer is a sequence of tokens (e.g., words or subwords), each represented as a high-dimensional embedding vector (e.g., dimension \\( d_{\text{model}} = 512 \\)).
 - For a sequence of \\( n \\) tokens, the input is a matrix \\( X \in \mathbb{R}^{n \times d_{\text{model}}} \\), where each row is the embedding of a token.
 
 #### Step 2: Linear Transformations to Generate K, Q, V
+
 - For each token, three vectors are computed: **Query (Q)**, **Key (K)**, and **Value (V)**. These are obtained by applying learned linear transformations to the input embeddings:
   \\[
   Q = X W_Q, \quad K = X W_K, \quad V = X W_V
@@ -48,6 +53,7 @@ The self-attention mechanism computes a weighted sum of the **Value** vectors, w
     - \\( V \in \mathbb{R}^{n \times d_v} \\): Value matrix for all tokens.
 
 #### Step 3: Compute Attention Scores
+
 - The attention mechanism computes how much each token should attend to every other token by calculating the **dot product** between the query vector of one token and the key vectors of all tokens:
   \\[
   \text{Attention Scores} = Q K^T
@@ -60,6 +66,7 @@ The self-attention mechanism computes a weighted sum of the **Value** vectors, w
   - This is called **scaled dot-product attention**.
 
 #### Step 4: Apply Softmax to Get Attention Weights
+
 - The scaled scores are passed through a **softmax** function to convert them into probabilities (attention weights) that sum to 1 for each token:
   \\[
   \text{Attention Weights} = \text{softmax}\left( \frac{Q K^T}{\sqrt{d_k}} \right)
@@ -68,6 +75,7 @@ The self-attention mechanism computes a weighted sum of the **Value** vectors, w
   - High attention weights indicate that the corresponding tokens are highly relevant to each other.
 
 #### Step 5: Compute the Output
+
 - The attention weights are used to compute a weighted sum of the **Value** vectors:
   \\[
   \text{Attention Output} = \text{softmax}\left( \frac{Q K^T}{\sqrt{d_k}} \right) V
@@ -75,18 +83,20 @@ The self-attention mechanism computes a weighted sum of the **Value** vectors, w
   - The output is a matrix \\( \in \mathbb{R}^{n \times d_v} \\), where each row is a new representation of a token, incorporating information from all other tokens based on their relevance.
 
 #### Step 6: Multi-Head Attention
+
 - In practice, Transformers use **multi-head attention**, where the above process is performed multiple times in parallel (with different \\( W_Q, W_K, W_V \\)) to capture different types of relationships:
   - The input is split into \\( h \\) heads, each with smaller \\( Q, K, V \\) vectors of dimension \\( d_k = d_{\text{model}} / h \\).
   - Each head computes its own attention output.
   - The outputs from all heads are concatenated and passed through a final linear transformation:
     \\[
-    \text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \text{head}_2, \dots, \text{head}_h) W_O
+    \text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \text{head}_2, \dots, \text{head}*h) W_O
     \\]
-    where \\( W_O \in \mathbb{R}^{h \cdot d_v \times d_{\text{model}}} \\) is a learned output projection matrix.
+    where \\( W_O \in \mathbb{R}^{h \cdot d_v \times d*{\text{model}}} \\) is a learned output projection matrix.
 
 ---
 
 ### 3. **Role of K, Q, V in Transformer LLMs**
+
 The **K, Q, V** mechanism is used in different parts of the Transformer architecture, depending on the type of attention:
 
 - **Self-Attention in Encoder (e.g., BERT):**
@@ -106,7 +116,9 @@ The **K, Q, V** mechanism is used in different parts of the Transformer architec
 ---
 
 ### 4. **Why K, Q, V Work So Well**
+
 The **K, Q, V** mechanism is powerful for several reasons:
+
 - **Dynamic Contextualization**: It allows each token to gather information from other tokens based on their content, rather than relying on fixed patterns (e.g., as in RNNs or CNNs).
 - **Parallelization**: Unlike recurrent neural networks, self-attention processes all tokens simultaneously, making it highly efficient on modern hardware like GPUs.
 - **Flexibility**: Multi-head attention enables the model to capture diverse relationships (e.g., syntactic, semantic) by learning different projections for \\( Q, K, V \\).
@@ -115,23 +127,26 @@ The **K, Q, V** mechanism is powerful for several reasons:
 ---
 
 ### 5. **Mathematical Summary**
+
 The scaled dot-product attention formula is:
 \\[
 \text{Attention}(Q, K, V) = \text{softmax}\left( \frac{Q K^T}{\sqrt{d_k}} \right) V
 \\]
 For multi-head attention:
 \\[
-\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \dots, \text{head}_h) W_O
+\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}*1, \dots, \text{head}*h) W_O
 \\]
 where:
 \\[
-\text{head}_i = \text{Attention}(Q W_{Q_i}, K W_{K_i}, V W_{V_i})
+\text{head}*i = \text{Attention}(Q W*{Q_i}, K W*{K_i}, V W*{V_i})
 \\]
 
 ---
 
 ### 6. **Practical Example**
+
 Consider the sentence: *"The cat sat on the mat."*
+
 - **Input**: Each word is converted to an embedding vector (e.g., via a word embedding layer).
 - **Q, K, V Computation**: For each token, the model computes query, key, and value vectors using learned weights.
 - **Attention Scores**: For the word "cat," the query vector might assign high attention scores to "sat" and "mat" because they are contextually relevant, while giving lower scores to "the."
@@ -140,6 +155,7 @@ Consider the sentence: *"The cat sat on the mat."*
 ---
 
 ### 7. **Extensions and Optimizations**
+
 - **Efficient Attention**: To handle long sequences, variants like Performer, Linformer, or Longformer reduce the computational complexity of attention.
 - **Positional Encodings**: Since self-attention is permutation-invariant, Transformers add positional encodings to the input embeddings to capture word order, which indirectly influences \\( Q, K, V \\).
 - **Layer Stacking**: Transformers stack multiple layers of self-attention, allowing \\( Q, K, V \\) to operate on increasingly abstract representations.
@@ -147,6 +163,7 @@ Consider the sentence: *"The cat sat on the mat."*
 ---
 
 ### 8. **Conclusion**
+
 The **K, Q, V** mechanism is the heart of the Transformer’s self-attention, enabling LLMs to model complex relationships in text efficiently and effectively. By computing attention scores based on queries and keys, and aggregating information from value vectors, Transformers achieve state-of-the-art performance in tasks like language modeling, translation, and more. Understanding this mechanism is key to grasping how modern LLMs process and generate human-like text.
 
 If you’d like a deeper dive into any specific aspect (e.g., multi-head attention, code implementation, or applications in specific models), let me know!

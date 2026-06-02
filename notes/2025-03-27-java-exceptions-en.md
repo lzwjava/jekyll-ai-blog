@@ -13,6 +13,7 @@ Here's an extensive list of Java exceptions, categorized into **Checked Exceptio
 ---
 
 ## **1. Checked Exceptions (Must be handled or declared using `throws`)**
+
 1. **IOException** – General I/O failure.
 2. **FileNotFoundException** – File is missing or inaccessible.
 3. **InterruptedException** – Thread interruption occurs.
@@ -59,6 +60,7 @@ Here's an extensive list of Java exceptions, categorized into **Checked Exceptio
 ---
 
 ## **2. Unchecked Exceptions (Runtime Exceptions)**
+
 43. **NullPointerException** – Accessing an object reference that is `null`.
 44. **ArrayIndexOutOfBoundsException** – Accessing an invalid array index.
 45. **StringIndexOutOfBoundsException** – Accessing an invalid string index.
@@ -98,6 +100,7 @@ Here's an extensive list of Java exceptions, categorized into **Checked Exceptio
 ---
 
 ## **3. Errors (Serious issues that should not be caught)**
+
 78. **StackOverflowError** – Too many recursive method calls.
 79. **OutOfMemoryError** – JVM runs out of memory.
 80. **VirtualMachineError** – Critical JVM error.
@@ -124,4 +127,5 @@ Here's an extensive list of Java exceptions, categorized into **Checked Exceptio
 ---
 
 ### **Conclusion**
+
 This is a comprehensive list of Java exceptions and errors. If you need more details on any specific exception, let me know! 🚀

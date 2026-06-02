@@ -18,12 +18,14 @@ The enterprise database market was valued at $99.31 billion in 2023 and is proje
 
 Based on the latest data, the top players in the enterprise database market include:
 
-### By Popularity/Usage (2024 Rankings):
+### By Popularity/Usage (2024 Rankings)
+
 1. **Oracle** - Remains the most popular database management system worldwide with a ranking score of 1244.08 as of June 2024
 2. **MySQL** - Rounds out the top three alongside Microsoft SQL Server
 3. **Microsoft SQL Server** - Holds 27.73% market share with 124,830 customers and 26.63% market share in the database category
 
-### Market Share Breakdown:
+### Market Share Breakdown
+
 - **Microsoft SQL Server**: 27.73% market share
 - **MySQL**: Significant presence with over 109,464 companies using it as their relational database tool in 2025
 - **PostgreSQL**: 17.11% market share as a top alternative

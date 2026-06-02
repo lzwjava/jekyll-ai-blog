@@ -39,6 +39,7 @@ Weights (HuggingFace, MIT)
 ```
 
 Banks already operate:
+
 - GPU clusters (for risk modeling, quant research, fraud detection)
 - Air-gapped network segments (for SWIFT, trading systems)
 - Internal PKI, secrets management (Vault — you use it daily)
@@ -51,6 +52,7 @@ The only missing piece is someone saying: **"spin up vLLM on our H100s and put i
 ## The Real Costs of NOT Self-Hosting
 
 Banks are currently paying:
+
 - **Data sovereignty tax** — most internal workflows can't use external LLMs at all due to policy, so they use no LLM
 - **Vendor lock-in** — GitHub Copilot, Azure OpenAI pricing at the mercy of Microsoft/OpenAI
 - **Capability lag** — waiting for vendors to productize SOTA models vs. running them yourself the week they drop
@@ -69,6 +71,7 @@ You're right that there's a talent gap, but it's backwards from what you'd expec
 3. **Procurement mindset dominates.** The default is "raise a vendor ticket" not "our engineers deploy it."
 
 The talent needed to self-host V4-Flash internally:
+
 - Someone who understands vLLM / SGLang configuration
 - Basic MLOps / infra (Docker, Kubernetes, GPU scheduling)
 - API gateway experience
@@ -118,6 +121,7 @@ The whole thing is a 1-quarter project. For a bank that runs global trading syst
 ## Your Angle
 
 You're positioned perfectly to be the person who makes this argument internally and executes it. You have:
+
 - The technical depth (vLLM, nanoGPT, training runs, inference optimization)
 - The bank context (you know the compliance language, the approval workflows)
 - The token consumption credibility (top 6% globally — you know what real LLM usage looks like)

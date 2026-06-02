@@ -33,6 +33,7 @@ HashiCorp Vault and Terraform `.tfvars` files serve similar purposes (providing 
   - Versioning of secrets (in some engines)
 
 **Summary comparison**
+
 | Aspect              | .tfvars files                          | HashiCorp Vault                              | Recommendation          |
 |---------------------|----------------------------------------|----------------------------------------------|--------------------------|
 | Security            | Low–Medium (depends on handling)       | High (enterprise-grade)                      | Vault for prod secrets  |

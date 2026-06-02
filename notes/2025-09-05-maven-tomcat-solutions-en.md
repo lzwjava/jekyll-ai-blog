@@ -32,6 +32,7 @@ No WAR needed; good for hacking.
      <version>9.4.54.v20240208</version>
    </plugin>
    ```
+
 2. Run:
 
    ```bash
@@ -47,12 +48,14 @@ This uses `javax.*`, matching Spring 5.
    ```xml
    <packaging>war</packaging>
    ```
+
 2. Ensure webapp layout exists:
 
    ```
    src/main/webapp/
    src/main/webapp/WEB-INF/web.xml   # optional if you have a Servlet 3 initializer
    ```
+
 3. (Optional) Add plugin config:
 
    ```xml
@@ -66,6 +69,7 @@ This uses `javax.*`, matching Spring 5.
      </configuration>
    </plugin>
    ```
+
 4. Run:
 
    ```bash

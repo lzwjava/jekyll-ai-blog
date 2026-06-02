@@ -18,10 +18,12 @@ type: note
 OpenClaw 是一个开源的、自托管的 AI agent（前身为 Clawdbot 或 Moltbot），设计为个人助理。它在您的计算机或专用设备上本地运行，并连接到 messaging apps 如 WhatsApp 或 Telegram。它可以执行日常任务，例如管理 emails、日历、发送消息、检查航班，或在您明确允许的情况下控制您自己的机器上的 apps 和 files。
 
 因为它有完全访问您计算机的权限（如果您授予它），它 *技术上* 可以运行您安装并指示它执行的任何 software 或 scripts。例如：
+
 - 您可以安装如 Nmap 之类的 tools 来在您自己的系统上进行 port scanning。
 - 您可以编写或运行 scripts 用于 web browsing 或 basic automation。
 
 然而，它 **不** 是为 hacking 构建或优化的：
+
 - 它没有内置的 hacking skills、exploits 或 specialized tools。
 - 它的性能完全取决于您连接的 large language model（例如 Claude 或 GPT）以及您给出的确切 commands。
 - 它不够“聪明”，无法在没有详细的人类 instructions 和预安装 tools 的情况下自主发现并利用真实世界的 vulnerabilities。
@@ -31,4 +33,4 @@ OpenClaw 是一个开源的、自托管的 AI agent（前身为 Clawdbot 或 Mol
 
 如果您对在您拥有且有明确权限测试的系统上进行 ethical security testing（white-hat hacking）感兴趣，您仍然需要手动安装 professional tools 并逐步指导 agent。即使如此，dedicated tools 和人类 expertise 也远比依赖 OpenClaw 有效。
 
-有关官方详情，请访问项目网站 https://openclaw.ai 或其 GitHub repository。如果您有关于为合法任务设置 OpenClaw 的其他、非 hacking 问题，请随时提问！
+有关官方详情，请访问项目网站 <https://openclaw.ai> 或其 GitHub repository。如果您有关于为合法任务设置 OpenClaw 的其他、非 hacking 问题，请随时提问！

@@ -30,7 +30,7 @@ The core idea behind garbage collection is to identify which objects in memory a
 
 Here's a simplified overview of the process:
 
-1.  **Identifying Live Objects (Marking):** The garbage collector starts by identifying the set of objects that are still reachable from the "root" objects. Root objects are typically objects that are directly accessible by the application, such as:
+1. **Identifying Live Objects (Marking):** The garbage collector starts by identifying the set of objects that are still reachable from the "root" objects. Root objects are typically objects that are directly accessible by the application, such as:
     * Local variables in currently executing methods.
     * Static variables.
     * Objects referenced by native code.
@@ -38,7 +38,7 @@ Here's a simplified overview of the process:
 
     The garbage collector traverses the object graph starting from these roots, marking all the objects that are reachable.
 
-2.  **Reclaiming Memory (Sweeping and Compacting):** Once the live objects are marked, the garbage collector needs to reclaim the memory occupied by the unmarked (unreachable) objects. Different garbage collection algorithms employ different strategies for this:
+2. **Reclaiming Memory (Sweeping and Compacting):** Once the live objects are marked, the garbage collector needs to reclaim the memory occupied by the unmarked (unreachable) objects. Different garbage collection algorithms employ different strategies for this:
 
     * **Mark and Sweep:** This algorithm identifies and marks the live objects, then sweeps through the memory, freeing the space occupied by the unmarked objects. This can lead to memory fragmentation (small, scattered blocks of free memory that are not large enough to allocate new objects).
     * **Mark and Compact:** This algorithm also marks live objects. After marking, it moves (compacts) the live objects together in memory, eliminating fragmentation and making it easier to allocate contiguous blocks of memory for new objects.
@@ -48,8 +48,8 @@ Here's a simplified overview of the process:
 
 * **Heap:** The area of memory where objects are allocated in Java. The garbage collector primarily operates on the heap.
 * **Young Generation (Nursery):** This is a portion of the heap where newly created objects are initially allocated. It's further divided into:
-    * **Eden Space:** Where most new objects are created.
-    * **Survivor Spaces (S0 and S1):** Used to hold objects that have survived a few minor garbage collection cycles.
+  * **Eden Space:** Where most new objects are created.
+  * **Survivor Spaces (S0 and S1):** Used to hold objects that have survived a few minor garbage collection cycles.
 * **Old Generation (Tenured Generation):** Objects that have survived multiple garbage collection cycles in the young generation are eventually moved to the old generation. Objects in the old generation are generally long-lived.
 * **Permanent Generation (PermGen) / Metaspace:** In older versions of Java (before Java 8), the Permanent Generation stored metadata about classes and methods. In Java 8 and later, this has been replaced by Metaspace, which is part of native memory (not the Java heap).
 * **Garbage Collection Algorithms:** Different algorithms are used for garbage collection, each with its own trade-offs in terms of performance and efficiency.
@@ -58,9 +58,9 @@ Here's a simplified overview of the process:
 
 Java HotSpot JVM (the most common JVM) uses a generational approach to garbage collection. This is based on the observation that most objects in an application have short lifespans.
 
-1.  **Minor GC (Young Generation GC):** When the Eden space becomes full, a minor GC is triggered. Live objects from Eden and one of the Survivor spaces (say, S0) are copied to the other Survivor space (S1). Objects that have survived a certain number of minor GC cycles are moved to the old generation. Unreachable objects are discarded.
+1. **Minor GC (Young Generation GC):** When the Eden space becomes full, a minor GC is triggered. Live objects from Eden and one of the Survivor spaces (say, S0) are copied to the other Survivor space (S1). Objects that have survived a certain number of minor GC cycles are moved to the old generation. Unreachable objects are discarded.
 
-2.  **Major GC (Old Generation GC) / Full GC:** When the old generation becomes full, a major GC (or sometimes a full GC, which can involve both young and old generations) is performed. This process is generally more time-consuming than a minor GC and can cause longer pauses in the application's execution.
+2. **Major GC (Old Generation GC) / Full GC:** When the old generation becomes full, a major GC (or sometimes a full GC, which can involve both young and old generations) is performed. This process is generally more time-consuming than a minor GC and can cause longer pauses in the application's execution.
 
 **Common Garbage Collectors in Java HotSpot JVM:**
 

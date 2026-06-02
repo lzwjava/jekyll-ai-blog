@@ -32,6 +32,7 @@ Here are some genuinely unpopular (often controversial or politically incorrect)
 These opinions are deeply unpopular in mainstream discourse, often labeled misogynistic, and are usually only expressed anonymously online or in certain counter-cultural circles.
 
 References:
+
 - [The Rational Male – Hypergamy](https://therationalmale.com/2011/08/30/there-is-no-one/)
 - [Paradox of Declining Female Happiness (NBER)](https://www.nber.org/papers/w14969)
 - [Divorce Initiation Statistics (American Sociological Association)](https://www.asanet.org/wp-content/uploads/savvy/images/press/docs/pdf/ASR_Feb_2015_Brines_News_Release.pdf)

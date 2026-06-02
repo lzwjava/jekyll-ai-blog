@@ -21,6 +21,7 @@ You're mostly on the right track with how the adjugate is constructed via cofact
 This signed minor setup comes from the Laplace expansion for computing determinants (more on that below). Your description sounds a bit like the determinant formula itself: `det(A) = sum over j of a(i,j) * C_ij` (along any row i), which *does* involve multiplying by `a(i,j)`. But the adjugate skips that multiplication—it's just the collection of those signed minors, transposed, to enable neat algebraic identities.
 
 For a quick 2x2 example to illustrate (let's say A = [[a, b], [c, d]]):
+
 - Cofactors: C_11 = (-1)^{1+1} det([d]) = d; C_12 = (-1)^{1+2} det([c]) = -c; C_21 = (-1)^{2+1} det([b]) = -b; C_22 = (-1)^{2+2} det([a]) = a.
 - Cofactor matrix C = [[d, -c], [-b, a]].
 - Adjugate adj(A) = C^T = [[d, -b], [-c, a]].

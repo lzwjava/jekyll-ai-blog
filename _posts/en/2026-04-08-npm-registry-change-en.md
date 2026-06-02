@@ -26,6 +26,7 @@ npm install --cache /tmp/my-cache
 ```
 
 npm's cache stores:
+
 - **Package tarballs** (`.tgz` files) keyed by content hash (SHA-512)
 - **Package metadata** (version info, dependency trees)
 
@@ -38,6 +39,7 @@ The cache is **content-addressable**, meaning files are keyed by their integrity
 `--prefer-online` forces npm to revalidate cached data (with HTTP 304 checks), ignoring any staleness checks, and refreshing the cache with revalidated, fresh data.
 
 In contrast:
+
 - `--prefer-offline` makes npm skip conditional requests (304 checks) for stale cache data, only hitting the network if something is missing from the cache.
 - `--offline` forces npm to use the cache or exit entirely, erroring with `ENOTCACHED` if anything isn't cached.
 
@@ -46,9 +48,11 @@ So `--prefer-online` is the "freshest" mode — it always goes out to the networ
 When using `--prefer-online` with no `package-lock.json` and the public registry, there can be a very high number of HTTP requests generated (around 2,800 for a typical project), because npm fetches both up-to-date metadata and package content.
 
 **Combining them:**
+
 ```bash
 npm install --cache /my/cache/dir --prefer-online
 ```
+
 This uses a custom cache directory but still goes online to revalidate everything. Useful in CI pipelines where you want a shared cache dir but always want fresh resolution.
 
 ---

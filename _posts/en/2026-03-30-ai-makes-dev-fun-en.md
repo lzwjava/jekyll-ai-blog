@@ -20,6 +20,7 @@ Yes, absolutely. This is a genuinely exciting time to be a developer — or even
 ## Why It Feels So Different Now
 
 ### Before AI — The Friction Was Everywhere
+
 ```
 Have an idea
     ↓
@@ -35,6 +36,7 @@ Give up or lose momentum
 ```
 
 ### After AI — Flow State is Accessible
+
 ```
 Have an idea
     ↓
@@ -88,12 +90,14 @@ This is the closest programming gets to **art** — you make something, and it g
 ## It Reconnects You to Why Programming Was Fun Originally
 
 Many experienced developers lost the joy because:
+
 - Work code = other people's problems
 - Enterprise constraints kill creativity
 - Meetings > coding time
 - Legacy systems drain energy
 
 Personal AI-assisted projects bring back:
+
 - **Curiosity** — "I wonder if I can build X"
 - **Exploration** — trying things with low cost of failure
 - **Ownership** — it is completely yours
@@ -104,6 +108,7 @@ Personal AI-assisted projects bring back:
 ## Your iclaw Project is a Perfect Example
 
 You are:
+
 - Building a CLI **you personally use every day**
 - Learning by **running and observing** it yourself
 - Adding only what **you actually need**

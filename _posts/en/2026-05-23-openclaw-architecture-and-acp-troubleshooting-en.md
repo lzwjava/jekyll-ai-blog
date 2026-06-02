@@ -41,7 +41,6 @@ OpenClaw has a fundamentally different architecture from Hermes Agent:
     WeChat iLink API                   JSON-RPC/stdio
     (long-poll)                        (ACP protocol)
 
-
 THE MESSAGE FLOW FOR YOUR FRIEND'S SETUP
 -----------------------------------------
 
@@ -64,9 +63,10 @@ In Hermes: Agent + Gateway + Channels = ONE process
 In OpenClaw: Agent can be a SEPARATE process (ACP runtime)
 
 The ACP agent process is defined in:
-  - src/acp/server.ts — ACP server that connects to Gateway as a client
-  - src/acp/translator.ts — translates ACP protocol ↔ Gateway calls
-  - src/agents/acp-spawn.ts — spawns ACP agent processes
+
+- src/acp/server.ts — ACP server that connects to Gateway as a client
+- src/acp/translator.ts — translates ACP protocol ↔ Gateway calls
+- src/agents/acp-spawn.ts — spawns ACP agent processes
 
 The ACP server connects to the Gateway via WebSocket and acts as a
 client that receives prompts and sends back responses.
@@ -91,20 +91,23 @@ The real question is: WHY is the ACP agent not sending responses back?
 THREE POSSIBILITIES:
 
 A) ACP AGENT PROCESS NOT RUNNING
-   - The NewsBot ACP agent process may not be started
-   - Gateway tries to connect but fails silently
-   - Check: `openclaw status` or gateway logs for ACP connection errors
+
+- The NewsBot ACP agent process may not be started
+- Gateway tries to connect but fails silently
+- Check: `openclaw status` or gateway logs for ACP connection errors
 
 B) ACP AGENT PROCESS CRASHES ON PROMPT
-   - The ACP agent process starts but crashes when receiving a prompt
-   - The error is swallowed in the ACP protocol layer
-   - Check: ACP agent process logs (stderr output)
+
+- The ACP agent process starts but crashes when receiving a prompt
+- The error is swallowed in the ACP protocol layer
+- Check: ACP agent process logs (stderr output)
 
 C) AGENT CONFIG MISMATCH
-   - The NewsBot agent config may point to a non-existent ACP backend
-   - Or the workspace (~/.openclaw/workspace-newsbot) doesn't have
+
+- The NewsBot agent config may point to a non-existent ACP backend
+- Or the workspace (~/.openclaw/workspace-newsbot) doesn't have
      the right config/skills/models
-   - Check: `~/.openclaw/config.yaml` for the `agents.list` entry
+- Check: `~/.openclaw/config.yaml` for the `agents.list` entry
      for "newsbot" — verify `acpBackend`, `model`, `workspace` fields
 
 ---
@@ -144,6 +147,7 @@ The "Hermes integration" at /tmp/VibApp/ is a red herring — it was
 never part of the OpenClaw pipeline.
 
 The friend needs to:
+
 1. Verify the NewsBot ACP agent process is actually running
 2. Check gateway logs for ACP connection/prompt errors
 3. Verify the agent config in ~/.openclaw/config.yaml

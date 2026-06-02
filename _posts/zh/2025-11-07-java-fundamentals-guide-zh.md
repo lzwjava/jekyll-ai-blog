@@ -19,6 +19,7 @@ type: note
 ## 1. Java语言规范、API、JDK和IDE工具
 
 ### **Java语言规范**
+
 Java语言规范定义了Java的语法和语义。需要理解的关键概念：
 
 - **平台独立性**："一次编写，到处运行" - Java代码编译为字节码，可在任何带有JVM的平台上运行
@@ -27,6 +28,7 @@ Java语言规范定义了Java的语法和语义。需要理解的关键概念：
 - **自动内存管理**：垃圾回收处理内存释放
 
 ### **Java API（应用程序编程接口）**
+
 Java API是由包组织的大量预编写类集合：
 
 - **核心包**：`java.lang`（自动导入）、`java.util`、`java.io`
@@ -35,6 +37,7 @@ Java API是由包组织的大量预编写类集合：
 - **使用方法**：使用`import`语句导入包
 
 ### **JDK（Java开发工具包）**
+
 JDK的基本组件：
 
 - **javac**：Java编译器（将.java文件转换为.class字节码文件）
@@ -45,11 +48,13 @@ JDK的基本组件：
 - **标准库**：完整的Java API实现
 
 **安装和设置**：
+
 - 从Oracle下载或使用OpenJDK
 - 设置JAVA_HOME环境变量
 - 将JDK bin目录添加到系统PATH
 
 ### **IDE（集成开发环境）工具**
+
 流行的Java开发IDE：
 
 1. **Eclipse** - 免费、开源，在教育领域广泛使用
@@ -58,6 +63,7 @@ JDK的基本组件：
 4. **VS Code** - 轻量级，带有Java扩展
 
 **IDE优势**：
+
 - 语法高亮和错误检测
 - 代码补全和建议
 - 集成调试工具
@@ -84,34 +90,41 @@ public class HelloWorld {
 ### **分步流程**
 
 **步骤1：创建Java程序**
+
 - 创建扩展名为`.java`的文本文件
 - 文件名必须与公共类名匹配（区分大小写）
 - 示例：类`HelloWorld`对应`HelloWorld.java`
 
 **步骤2：编译**
+
 ```bash
 javac HelloWorld.java
 ```
+
 - 这将创建`HelloWorld.class`（字节码文件）
 - 编译器检查语法错误
 - 如果存在错误，编译失败并显示错误消息
 
 **步骤3：运行**
+
 ```bash
 java HelloWorld
 ```
+
 - 注意：使用类名，不带`.class`扩展名
 - JVM加载类并执行main方法
 
 ### **命令行与IDE工作流程**
 
 **命令行**：
+
 - 打开终端/命令提示符
 - 导航到包含.java文件的目录
 - 使用`javac`编译，`java`运行
 - 有助于理解底层过程
 
 **IDE工作流程**：
+
 - 创建新的Java项目
 - 创建新类
 - 在编辑器中编写代码
@@ -141,6 +154,7 @@ java HelloWorld
 ### **代码格式**
 
 **缩进**：
+
 ```java
 public class Example {
     public static void main(String[] args) {
@@ -153,10 +167,12 @@ public class Example {
 ```
 
 **大括号**：
+
 - 左大括号在同一行（Java约定）
 - 右大括号单独一行，与语句对齐
 
 **间距**：
+
 ```java
 // 良好间距
 int sum = a + b;
@@ -170,12 +186,14 @@ if(x>0){
 ### **注释**
 
 **单行注释**：
+
 ```java
 // 这是单行注释
 int age = 20; // 代码后注释
 ```
 
 **多行注释**：
+
 ```java
 /*
  * 这是多行注释
@@ -184,6 +202,7 @@ int age = 20; // 代码后注释
 ```
 
 **Javadoc注释**（用于文档）：
+
 ```java
 /**
  * 计算两个数字的和。
@@ -217,9 +236,11 @@ public int add(int a, int b) {
 ### **错误类型**
 
 #### **A. 语法错误（编译时错误）**
+
 这些错误阻止编译，必须在运行前修复：
 
 **常见语法错误**：
+
 ```java
 // 缺少分号
 int x = 5  // 错误：缺少;
@@ -240,6 +261,7 @@ public class MyClass { // 错误：类名必须匹配文件名
 ```
 
 #### **B. 运行时错误**
+
 程序编译但在执行期间崩溃：
 
 ```java
@@ -256,6 +278,7 @@ int value = arr[5]; // ArrayIndexOutOfBoundsException
 ```
 
 #### **C. 逻辑错误**
+
 程序运行但产生不正确结果：
 
 ```java
@@ -272,17 +295,20 @@ if (age > 18) { // 对于"18岁及以上"应为>=
 ### **调试技巧**
 
 #### **1. 仔细阅读错误消息**
+
 ```
 HelloWorld.java:5: error: ';' expected
         int x = 5
                  ^
 1 error
 ```
+
 - **行号**：显示错误发生位置（第5行）
 - **错误类型**：告诉你问题所在（缺少分号）
 - **指针**：显示确切位置
 
 #### **2. 打印语句调试**
+
 ```java
 public static int calculateSum(int a, int b) {
     System.out.println("调试：a = " + a + ", b = " + b);
@@ -293,6 +319,7 @@ public static int calculateSum(int a, int b) {
 ```
 
 #### **3. 使用IDE调试器**
+
 - **断点**：在特定行暂停执行
 - **单步跳过**：执行当前行并移动到下一行
 - **单步进入**：进入方法调用查看内部执行
@@ -300,11 +327,13 @@ public static int calculateSum(int a, int b) {
 - **调用堆栈**：查看方法调用序列
 
 #### **4. 分而治之**
+
 - 注释掉代码部分以隔离问题
 - 独立测试小部分
 - 逐渐添加代码直到错误重新出现
 
 #### **5. 橡皮鸭调试**
+
 - 向某人（或某物）逐行解释你的代码
 - 通常能帮助你自己发现问题
 
@@ -320,6 +349,7 @@ public static int calculateSum(int a, int b) {
    - 必须完全匹配：`public static void main(String[] args)`
 
 4. **忘记导入包**
+
    ```java
    import java.util.Scanner; // 不要忘记这个！
    ```
@@ -328,6 +358,7 @@ public static int calculateSum(int a, int b) {
    - `String`不是`string`，`System`不是`system`
 
 6. **在条件中使用=而不是==**
+
    ```java
    if (x = 5) { // 错误：赋值，不是比较
    if (x == 5) { // 正确
@@ -378,6 +409,7 @@ public class test {
 ```
 
 **答案**：
+
 - 类名应为`Test`（大写T）且匹配文件名
 - `Public` → `public`，`Static` → `static`，`Void` → `void`
 - `string` → `String`

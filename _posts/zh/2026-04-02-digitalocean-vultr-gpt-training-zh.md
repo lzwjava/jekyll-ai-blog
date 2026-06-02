@@ -29,12 +29,14 @@ type: note
 * **GPT-3 (175B 参数)**：在这些平台上从头训练完整的 GPT-3 **不可行**。它需要数千个专用 GPU（V100/A100）和数月时间，成本数百万美元。然而，对于 **fine-tuning** 较小的 GPT-3 变体（如 Ada 或 Babbage），**DigitalOcean** 更好，因为其 **Gradient** 平台带有预配置的 LLM 工作流环境，可节省数小时的驱动和库设置时间。
 
 ### 总结推荐
+
 * 如果您希望以 **最低小时成本** 训练 GPT-2 124M 并偏好管理自己的 Linux 环境，请**选择 Vultr**。
 * 如果您希望通过 Paperspace 获得 **托管体验**，快速 fine-tune 模型而无需担心基础设施配置，请**选择 DigitalOcean**。
 
 参考文献：
-- [Top 12 Cloud GPU Providers for AI and Machine Learning in 2026](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)
-- [DigitalOcean vs. Vultr: side-by-side comparison](https://betterstack.com/community/guides/web-servers/digitalocean-vs-vultr/)
-- [Pretraining a 124-M Parameter GPT-2 Language Model](https://wandb.ai/bkkaggle/lm-finetuning/reports/Pretraining-a-124-M-Parameter-GPT-2-Language-Model--VmlldzoyMjg4NzA)
+
+* [Top 12 Cloud GPU Providers for AI and Machine Learning in 2026](https://www.runpod.io/articles/guides/top-cloud-gpu-providers)
+* [DigitalOcean vs. Vultr: side-by-side comparison](https://betterstack.com/community/guides/web-servers/digitalocean-vs-vultr/)
+* [Pretraining a 124-M Parameter GPT-2 Language Model](https://wandb.ai/bkkaggle/lm-finetuning/reports/Pretraining-a-124-M-Parameter-GPT-2-Language-Model--VmlldzoyMjg4NzA)
 
 如果您计划很快开始训练，我可以帮您比较这些平台上 NVIDIA A100 与 H100 的具体小时费率，看哪个更适合您的预算。您想让我查一下吗？

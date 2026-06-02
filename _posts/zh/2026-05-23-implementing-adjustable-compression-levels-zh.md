@@ -21,6 +21,7 @@ type: note
    - 如果在两次压缩之间没有新增消息，第二次很可能是空操作（已被压缩）
 
 3. **代码明确警告重复压缩的风险**（第 447-450 行）：
+
    ```python
    if _cc >= 2:
        agent._vprint(
@@ -30,6 +31,7 @@ type: note
    ```
 
 4. **压缩激进程度由以下参数控制**（config.yaml）：
+
    ```yaml
    compression:
      threshold: 0.50      # 何时自动压缩（上下文达到 50%）

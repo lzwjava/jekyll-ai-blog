@@ -20,6 +20,7 @@ type: note
 **Futu Holdings Limited (富途控股)** 是母公司，在 NASDAQ 上市，股票代码为 `FUTU`。它是一家由华人创办的 fintech 控股公司，运营数字化 brokerage 和 wealth management 平台。
 
 Futu 运营**两个独立的交易平台**：
+
 - **Futubull (富途牛牛)** —— 主要在香港和中国内地使用的平台。
 - **moomoo** —— 2018 年推出的**国际品牌**，专门为海外市场（美国、新加坡、澳大利亚、日本、加拿大、马来西亚等）设计。
 

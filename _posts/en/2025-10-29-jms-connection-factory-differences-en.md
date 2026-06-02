@@ -24,7 +24,9 @@ In IBM WebSphere Application Server (WAS), both connection factories and queue c
 | **Performance/Security**| Generally equivalent, but may require additional setup for cross-domain use. | Can be optimized for queue-only (e.g., bindings transport in MQ for faster throughput, ~30% improvement). |
 
 ### Example Usage in Code
+
 - **With Connection Factory** (unified, flexible):
+
   ```java
   ConnectionFactory factory = (ConnectionFactory) context.lookup("jms/ConnectionFactory");
   Connection conn = factory.createConnection();
@@ -35,6 +37,7 @@ In IBM WebSphere Application Server (WAS), both connection factories and queue c
   ```
 
 - **With Queue Connection Factory** (queue-only):
+
   ```java
   QueueConnectionFactory qFactory = (QueueConnectionFactory) context.lookup("jms/QueueConnectionFactory");
   QueueConnection qConn = qFactory.createQueueConnection();

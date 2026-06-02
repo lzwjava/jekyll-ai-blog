@@ -26,22 +26,22 @@ type: note
 
 * **操作：** \\(R_i \leftarrow R_i + c R_j\\)
 * **对行列式的影响：** 行列式**不**改变。
-    * 如果 \\(\det(A) = d\\)，那么 \\(\det(A') = d\\)。
-    * **示例：** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\)。\\(\det \begin{pmatrix} 1 & 2 \\ 3-2(1) & 4-2(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 1 & 0 \end{pmatrix} = -2\\)。
+  * 如果 \\(\det(A) = d\\)，那么 \\(\det(A') = d\\)。
+  * **示例：** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\)。\\(\det \begin{pmatrix} 1 & 2 \\ 3-2(1) & 4-2(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 1 & 0 \end{pmatrix} = -2\\)。
 
 ### 2. 某行乘以非零标量
 
 * **操作：** \\(R_i \leftarrow c R_i\\) (其中 \\(c \ne 0\\))
 * **对行列式的影响：** 行列式乘以标量 \\(c\\)。
-    * 如果 \\(\det(A) = d\\)，那么 \\(\det(A') = c \cdot d\\)。
-    * **示例：** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\)。\\(\det \begin{pmatrix} 1 & 2 \\ 3(2) & 4(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 6 & 8 \end{pmatrix} = 8-12 = -4\\)。这里，\\(c=2\\)，新的行列式是 \\(2 \cdot (-2) = -4\\)。
+  * 如果 \\(\det(A) = d\\)，那么 \\(\det(A') = c \cdot d\\)。
+  * **示例：** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\)。\\(\det \begin{pmatrix} 1 & 2 \\ 3(2) & 4(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 6 & 8 \end{pmatrix} = 8-12 = -4\\)。这里，\\(c=2\\)，新的行列式是 \\(2 \cdot (-2) = -4\\)。
 
 ### 3. 交换两行
 
 * **操作：** \\(R_i \leftrightarrow R_j\\)
 * **对行列式的影响：** 行列式乘以 \\(-1\\) (符号改变)。
-    * 如果 \\(\det(A) = d\\)，那么 \\(\det(A') = -d\\)。
-    * **示例：** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\)。\\(\det \begin{pmatrix} 3 & 4 \\ 1 & 2 \end{pmatrix} = 3(2) - 4(1) = 6-4 = 2\\)。这里，符号从 \\(-2\\) 变为 \\(2\\)。
+  * 如果 \\(\det(A) = d\\)，那么 \\(\det(A') = -d\\)。
+  * **示例：** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\)。\\(\det \begin{pmatrix} 3 & 4 \\ 1 & 2 \end{pmatrix} = 3(2) - 4(1) = 6-4 = 2\\)。这里，符号从 \\(-2\\) 变为 \\(2\\)。
 
 ---
 

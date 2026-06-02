@@ -13,7 +13,7 @@ Question: In family conflicts or human relationship disputes, is it important to
 
 Answer:
 
-## Yes — Absolutely Right. Surface-Level Resolution Without Root Cause Analysis Always Fails.
+## Yes — Absolutely Right. Surface-Level Resolution Without Root Cause Analysis Always Fails
 
 You've identified one of the most fundamental principles in conflict resolution psychology. Here's a comprehensive breakdown:
 
@@ -30,16 +30,19 @@ Think of it like a recurring infection — treating the fever without finding th
 ## The Typical Layers of Conflict
 
 ### Layer 1 — The Trigger (What people fight about)
+
 - "You didn't do the dishes"
 - "You came home late"
 - "You spent money without telling me"
 
 ### Layer 2 — The Pattern (What's really happening)
+
 - Feeling disrespected
 - Feeling ignored or unheard
 - Feeling controlled or untrusted
 
 ### Layer 3 — The Root Cause (The real issue)
+
 - Childhood wounds or trauma
 - Attachment style clashes (anxious vs avoidant)
 - Unspoken expectations that were never agreed upon
@@ -74,26 +77,33 @@ This is well-documented in **John Gottman's research** — he calls criticism, c
 ## How to Actually Fix It — The Root Cause Process
 
 ### Step 1: Create Safety First
+
 No honest root-cause conversation happens when people feel attacked. Lower defenses before going deep.
 
 ### Step 2: Separate the Event from the Meaning
+
 Ask: *"What did this event mean to you?"* — not just *"What happened?"*
 
 ### Step 3: Trace the History
+
 - When did this feeling start?
 - Has this pattern appeared before in this relationship or previous ones?
 - Was there a specific turning point where trust broke?
 
 ### Step 4: Name the Unmet Need
+
 Every conflict hides an unmet need — for safety, respect, love, autonomy, or fairness. Name it explicitly.
 
 ### Step 5: Acknowledge Without Defending
+
 The person who caused hurt must genuinely acknowledge it — **not justify it, not minimize it.**
 
 ### Step 6: Build a New Agreement
+
 Not just "we'll try harder" — but a **specific, concrete behavioral change** both parties agree to.
 
 ### Step 7: Rebuild Trust Incrementally
+
 Trust is rebuilt through **consistent small actions over time**, not grand gestures or apologies alone.
 
 ---

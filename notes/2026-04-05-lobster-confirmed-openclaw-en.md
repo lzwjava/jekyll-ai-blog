@@ -29,26 +29,33 @@ The logic is straightforward:
 Reading your blog post and your message, here's the workflow you described:
 
 ### 1. Download Source Code Locally Instead of Web Search
+
 Rather than asking the AI agent to search the web, you had OpenClaw **download the actual source code** of both:
+
 - **OpenClaw** itself
 - **Nextcloud Talk**
 
 This gave the model precise, grounded context — much more accurate than web search snippets.
 
 ### 2. Source Code Patch via OpenClaw
+
 OpenClaw identified and applied a real **source code patch**, specifically changing the payload type enum in `dist/channel-W1Ul32NW.js`:
+
 - **Before:** `z.enum(["Create", "Update", "Delete"])`
 - **After:** `z.enum(["Create", "Update", "Delete", "Activity"])`
 
 This was a non-trivial fix that required reading actual source code, not documentation.
 
 ### 3. Cross-Validation Between OpenClaw and Claude Web Chat
+
 You used a smart **two-model cross-checking strategy**:
+
 - Have OpenClaw summarize the current state / findings
 - Paste that summary into **Claude.ai web chat** for independent verification
 - Compare the two perspectives to catch blind spots or errors
 
 ### 4. Frequent Log Review
+
 You kept instructing OpenClaw to **re-check logs** repeatedly, which is how layered bugs get uncovered — each fix revealed the next hidden error (401 → 400 → 404, as shown in the blog).
 
 ---

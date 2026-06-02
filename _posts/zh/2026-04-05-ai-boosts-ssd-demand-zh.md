@@ -33,6 +33,7 @@ type: note
 AI 是 SSD 需求的强劲间接驱动力。随着更多开发者、研究人员和小型公司在本地运行 AI 工作负载，大容量、高速 SSD 的购买量很可能上升。这与去中心化、AI 赋能创新所驱动的科技时代大趋势相符。
 
 参考：
+
 * [AI 如何推动存储需求](https://www.techrepublic.com/article/ai-storage-demand-ssd/)
 * [AI 工作负载的 SSD 应用趋势](https://www.forbes.com/sites/bernardmarr/2023/06/20/how-ai-is-transforming-data-storage/)
 

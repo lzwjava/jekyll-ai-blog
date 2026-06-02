@@ -11,8 +11,6 @@ type: note
 
 Here's my analysis of this Weibo post.
 
-
-
     Post Overview
 
     Author: 王垠 (Wang Yin) — @最后的科学家·垠

@@ -17,6 +17,7 @@ type: note
 以下是根据张文库的《网络设备配置与管理项目教程（华为eNSP模拟器版）》一书，在eNSP中对华为路由器和交换机进行最常见基本配置的实践分步教程。所有命令均基于华为VRP系统（在eNSP上使用VRPC 8进行测试）。
 
 ### 1. 基本系统配置
+
 ```bash
 <Huawei> system-view                                      # 进入系统视图
 [Huawei] sysname R1                                        # 将设备重命名为R1
@@ -28,6 +29,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 2. VLAN配置（交换机）
+
 ```bash
 # 在L2交换机上（例如S5700）
 [S5700] vlan batch 10 20 30                                # 创建VLAN 10,20,30
@@ -42,6 +44,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 3. VLAN间路由（Router-on-a-Stick或L3交换机）
+
 ```bash
 # 方法1：L3交换机 (S5700/S6700)
 [S5700] vlan 10
@@ -58,6 +61,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 4. STP (Spanning Tree Protocol) 配置
+
 ```bash
 [SW1] stp enable                                           # 全局启用STP
 [SW1] stp mode rstp                                        # 使用RSTP（新设备默认）
@@ -68,6 +72,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 5. OSPF 配置
+
 ```bash
 # 路由器R1
 [R1] ospf 1 router-id 1.1.1.1
@@ -83,6 +88,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 6. RIP 配置
+
 ```bash
 [R1] rip 1
 [R1-rip-1] version 2
@@ -91,6 +97,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 7. ACL (Access Control List)
+
 ```bash
 # 基本ACL (2000–2999): 匹配源IP
 [ R1 ] acl 2000
@@ -108,6 +115,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 8. NAT (Static) NAT & Easy IP (PAT)
+
 ```bash
 # 静态NAT (一对一)
 [R1] nat static global 202.100.1.10 inside 192.168.10.10
@@ -126,6 +134,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 9. 保存配置
+
 ```bash
 [R1] save
 The current configuration will be written to the device.
@@ -133,6 +142,7 @@ Are you sure to continue? [Y/N]: y
 ```
 
 ### 10. 常用验证命令
+
 ```bash
 display ip interface brief
 display vlan

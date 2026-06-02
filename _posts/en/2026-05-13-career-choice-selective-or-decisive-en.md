@@ -24,10 +24,13 @@ This is one of the most important career decisions you face. Based on your backg
 Looking at your profile — 12 years of experience, AI engineering depth, startup founding experience, strong technical portfolio, and clear career direction — **you are not an average candidate**. You have leverage. Here's why you should be picky:
 
 ### 1. You Have a Clear North Star
+
 You want a role where AI, agents, and LLM work are the **main job, not a side project**. This is a very specific requirement. Accepting a job that is "mostly backend with a little AI on the side" will likely lead to regret within 6 months.
 
 ### 2. The Tech Lead / Team Culture Matters Enormously
+
 You mentioned worrying about whether the tech lead is someone you admire. **This concern is valid and important.** Working under a mediocre or politically-minded tech lead for 1–2 years can:
+
 - Slow your growth significantly
 - Drain your motivation
 - Damage your work quality and mental health
@@ -35,10 +38,13 @@ You mentioned worrying about whether the tech lead is someone you admire. **This
 If possible, always try to meet the direct manager AND senior peers in the interview process, not just HR.
 
 ### 3. You Can Afford to Be Patient — But Not Indefinitely
+
 Your current contract has been extended for another year, and you are performing in the top 20% among contractors at your vendor and top 6% in AI assistant usage globally. You are not in a desperate position. This means you have the luxury of being selective — use it.
 
 ### 4. Regret from a Bad Job is Very Real
+
 The specific fears you listed are legitimate evaluation criteria:
+
 - **Not doing work you're interested in** → kills motivation long-term
 - **Tech lead you don't respect** → stunts growth
 - **Company direction misaligned with AI-first work** → wastes your most productive years
@@ -50,12 +56,15 @@ The specific fears you listed are legitimate evaluation criteria:
 That said, "keep searching forever for the perfect job" is also a trap:
 
 ### 1. The Perfect Job Doesn't Exist
+
 Every job has trade-offs. More AI-centric roles may pay less. Startups may be exciting but risky. Big banks pay well but move slowly.
 
 ### 2. Decision Fatigue Is Real
+
 Endless searching without committing is exhausting and demoralizing. At some point, a "good enough" job that you commit to fully will produce better outcomes than a "perfect" job you're always second-guessing.
 
 ### 3. Opportunity Cost
+
 Every month you delay, you're not building new domain expertise, new relationships, or new skills in the new environment.
 
 ---

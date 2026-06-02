@@ -19,6 +19,7 @@ type: note
 Folder 通过逻辑分组、集中配置以及将设置继承给子对象（jobs 和 subfolders），帮助管理复杂的 workflows。
 
 ### Folder 的主要用途
+
 - 将相关的 jobs 分组（按 application、部门、业务流程、地理位置、客户等）
 - 在 folder 级别定义一次通用设置，而无需在每个 job 上重复定义
 - 支持继承机制 → jobs 和 subfolders 会自动从其父级 folder 继承许多属性
@@ -77,7 +78,9 @@ Folder 通过逻辑分组、集中配置以及将设置继承给子对象（jobs
   - 调整 events 行为
 
 ### Folder → Job 继承规则 (SMART Folder)
+
 大多数 folder 级别的定义（scheduling, events, resources, notifications, RunAs, Application, variables 等）会被以下对象**继承**：
+
 - 直接位于该 folder 下的所有 jobs
 - 所有 subfolders
 - subfolders 内部的所有 jobs
@@ -85,6 +88,7 @@ Folder 通过逻辑分组、集中配置以及将设置继承给子对象（jobs
 需要时，你可以在 job 或 subfolder 级别覆盖任何继承的设置。
 
 ### 实际组织示例
+
 - Finance_EndOfMonth (SMART Folder)
   - Finance_US (subfolder)
     - Process_Raw_Data
@@ -98,6 +102,7 @@ Folder 通过逻辑分组、集中配置以及将设置继承给子对象（jobs
 所有 jobs 都可以从顶级 folder 继承相同的 "End of Month" calendar 和 "wait for EOM confirmation event"。
 
 ### 总结 – 为什么 Folder 很重要
+
 - 减少重复工作 → 只需定义一次 schedule, events, notifications
 - 加强治理 → 统一的标签（Application, Business fields）
 - 实现层级化 → 处理复杂的业务流程

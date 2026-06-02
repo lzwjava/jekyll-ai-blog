@@ -20,6 +20,7 @@ Thiel 在**Stanford University** 开始了他的公共知识分子和政治活�
 离开 Stanford 后，Thiel 共同创立了**PayPal**（最初通过 Confinity 与 Elon Musk 的 X.com 合并），它取得了巨大成功，并于 2002 年出售给 eBay。这为他创造了巨额个人财富，并形成了所谓的**"PayPal Mafia"**——一群校友，他们后来创立或领导了主要公司（例如 Tesla、YouTube、LinkedIn）。Thiel 通过 Founders Fund 等风险投资公司利用这一财富和网络，投资科技初创企业，同时悄然建立政治影响力。
 
 Thiel 政治方法的一个关键要素是**资助和导师**志同道合的人物，将他们置于权力位置。他最突出的成功是与**JD Vance**的关系：
+
 - Thiel 于 2011 年在耶鲁法学院的一次 Thiel 演讲中遇到 Vance。
 - Vance 后来在 Thiel 的 Mithril Capital 工作。
 - Thiel 支持 Vance 的风险基金 Narya Capital。
@@ -33,6 +34,7 @@ Thiel 的公司**Palantir Technologies**（2003 年共同创立，常被误写�
 关于**Sam Altman**（OpenAI CEO），Thiel 与他有商业联系——他赞助了 Altman 的早期风险基金 Hydrazine Capital。他们的关系似乎更多是专业和哲学性的（共享对科技和长寿的兴趣），而非深度政治性的。Altman 尽管存在政治分歧（例如 Thiel 2016 年支持 Trump 而 Altman 反对），仍为与 Thiel 交往辩护，但 Altman 并非 Thiel 右翼政治行动的一部分。
 
 Thiel 的更广泛**野心**反映了自由意志主义和技术威权主义观点——他批评民主（例如称“freedom and democracy are no longer compatible”，并批评妇女选举权对资本主义的影响）。他寻求推进科技驱动的治理、减少国家对创新的干扰，并对抗“woke”或进步主义影响。行动包括：
+
 - 大额政治捐款（例如 2016 年早期支持 Trump 125 万美元，尽管 2024 年他缺席后恢复了对 GOP 众议院的资助）。
 - 支持支持放松管制、科技优先和民族主义观点的候选人。
 - 利用 PayPal、Stanford Review 校友和 VC 网络放大影响力，而不亲自担任公职。

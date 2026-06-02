@@ -11,6 +11,7 @@ type: note
 FastJSON 是阿里巴巴开发的高性能 Java JSON 处理库，广泛用于将 JSON 字符串解析为 Java 对象、将 Java 对象序列化为 JSON 以及高效处理 JSON 数据。以下是根据其核心功能使用 FastJSON 的指南。
 
 ### 第一步：将 FastJSON 添加到项目
+
 要使用 FastJSON，需要将其引入项目。如果使用 Maven，请在 `pom.xml` 中添加以下依赖：
 
 ```xml
@@ -30,9 +31,11 @@ implementation 'com.alibaba:fastjson:2.0.51'
 请在 [Maven 中央仓库](https://mvnrepository.com/artifact/com.alibaba/fastjson) 查看最新版本。
 
 ### 第二步：基本用法
+
 以下是使用 FastJSON 进行序列化和反序列化等常见任务的方法。
 
 #### 1. **将 Java 对象序列化为 JSON**
+
 使用 `JSON.toJSONString()` 将 Java 对象转换为 JSON 字符串。
 
 ```java
@@ -68,11 +71,13 @@ class User {
 ```
 
 **输出：**
+
 ```json
 {"age":25,"name":"Alice"}
 ```
 
 #### 2. **将 JSON 反序列化为 Java 对象**
+
 使用 `JSON.parseObject()` 将 JSON 字符串解析回 Java 对象。
 
 ```java
@@ -90,11 +95,13 @@ public class Main {
 ```
 
 **输出：**
+
 ```
 Name: Alice, Age: 25
 ```
 
 #### 3. **将 JSON 解析为列表**
+
 如果 JSON 表示对象列表，请使用 `JSON.parseArray()`。
 
 ```java
@@ -115,15 +122,18 @@ public class Main {
 ```
 
 **输出：**
+
 ```
 Name: Alice, Age: 25
 Name: Bob, Age: 30
 ```
 
 ### 第三步：高级功能
+
 FastJSON 提供额外的自定义选项：
 
 #### 1. **自定义序列化**
+
 使用 `SerializerFeature` 选项控制字段的序列化方式。
 
 ```java
@@ -142,18 +152,21 @@ public class Main {
 ```
 
 **输出：**
+
 ```json
 {
-	"age":25,
-	"name":"Alice"
+ "age":25,
+ "name":"Alice"
 }
 ```
 
 常用 `SerializerFeature` 选项：
+
 - `WriteNullListAsEmpty`：空列表输出为 `[]` 而非 `null`。
 - `WriteMapNullValue`：在输出中包含值为 `null` 的字段。
 
 #### 2. **处理复杂对象**
+
 对于嵌套对象，请确保内部类具有正确的 getter/setter 方法。
 
 ```java
@@ -208,12 +221,14 @@ class Address {
 ```
 
 **输出：**
+
 ```json
 {"address":{"city":"NY","street":"123 Main St"},"age":25,"name":"Alice"}
 NY
 ```
 
 ### 第四步：注意事项与最佳实践
+
 - **安全性**：旧版 FastJSON 存在漏洞（例如远程代码执行）。请始终使用最新版本，除非必要避免启用 `Feature.SupportAutoType`。
 - **性能**：FastJSON 针对速度进行了优化，但对于大型数据集，请根据具体使用场景进行测试。
 - **文档**：更多详细信息请参阅官方 [FastJSON GitHub 页面](https://github.com/alibaba/fastjson)。

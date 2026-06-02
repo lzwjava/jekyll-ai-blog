@@ -46,6 +46,7 @@ An aggressive reduction in the KV cache footprint isn't just some abstract softw
 After the original DeepSeek shock, HBM demand actually climbed even more steeply. This is explained by Jevons Paradox — when technological efficiency lowers the cost of a resource (in this case, inference), total usage explodes rather than contracts.
 
 The historical pattern with every compute efficiency gain in AI:
+
 - Cost per token drops → more applications become economically viable → aggregate token volume explodes → total HBM demand goes **up**, not down.
 
 This is what happened after DeepSeek R1 (Jan 2025), after FlashAttention, after quantization. Each time, analysts panicked about memory demand collapsing. Each time, they were wrong.

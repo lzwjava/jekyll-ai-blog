@@ -34,6 +34,7 @@ Novell NetWare (especially versions such as NetWare 3.x and 4.x) used two main c
    - Purpose: **detects write errors immediately**, ensuring data is not silently corrupted on unreliable media.
 
 These two techniques work together:
+
 - **Read-after-write** actively detects write problems in real time.
 - **Hot Fix** provides the mechanism to recover from and permanently avoid bad blocks.
 

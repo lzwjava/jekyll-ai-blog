@@ -13,6 +13,7 @@ Based on your profile as a highly technical, self-taught full-stack engineer wit
 The commands are grouped by category for clarity, with brief explanations emphasizing practical applications for your skill set. I’ve prioritized commands that enhance productivity, debugging, and system optimization, assuming you’re comfortable with terminal-based workflows and may use these in development, deployment, or research tasks. If you’d like, I can provide examples or scripts for specific commands or generate a chart to visualize command usage frequency based on your workflow (e.g., development vs. system admin tasks). Let me know!
 
 ### **File and Directory Management (15 Commands)**
+
 1. **ls** - List directory contents (`ls -la` for detailed view with hidden files).
 2. **cd** - Change directory (`cd ~/projects` to navigate to your GitHub project folder).
 3. **pwd** - Print working directory (useful for scripting or verifying paths).
@@ -30,6 +31,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 15. **chown** - Change file ownership (`chown user:group file` for deployment).
 
 ### **Text Processing and Manipulation (15 Commands)**
+
 16. **cat** - Display file contents (`cat log.txt` for quick log checks).
 17. **less** - View files interactively (`less server.log` for large logs).
 18. **more** - Paginate file output (`more README.md` for documentation).
@@ -47,6 +49,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 30. **diff** - Compare files (`diff old.java new.java` for code changes).
 
 ### **System Monitoring and Performance (15 Commands)**
+
 31. **top** - Monitor system processes interactively (real-time CPU/memory usage).
 32. **htop** - Enhanced process viewer (`htop` for better visualization).
 33. **ps** - List processes (`ps aux | grep java` for Java apps).
@@ -64,6 +67,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 45. **pmap** - Process memory map (`pmap -x <pid>` for memory debugging).
 
 ### **Networking and Connectivity (15 Commands)**
+
 46. **ping** - Test network connectivity (`ping google.com` for reachability).
 47. **curl** - Fetch data from URLs (`curl -X POST api` for API testing).
 48. **wget** - Download files (`wget file.tar.gz` for project dependencies).
@@ -81,6 +85,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 60. **nmap** - Network scanning (`nmap localhost` for open ports).
 
 ### **Development and Scripting (15 Commands)**
+
 61. **gcc** - Compile C programs (`gcc -o app code.c` for building).
 62. **javac** - Compile Java code (`javac Main.java` for your Java projects).
 63. **java** - Run Java programs (`java -jar app.jar` for execution).
@@ -98,6 +103,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 75. **strace** - Trace system calls (`strace -p <pid>` for debugging).
 
 ### **Package Management (10 Commands)**
+
 76. **apt** - Package manager (`apt install vim` for software installation).
 77. **apt-get** - Advanced package tool (`apt-get upgrade` for system updates).
 78. **dpkg** - Manage .deb packages (`dpkg -i package.deb` for manual installs).
@@ -110,6 +116,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 85. **apt-mark** - Mark packages (`apt-mark hold package` to prevent upgrades).
 
 ### **System Administration and Security (15 Commands)**
+
 86. **sudo** - Run commands as root (`sudo apt update` for admin tasks).
 87. **su** - Switch user (`su - user` for different accounts).
 88. **passwd** - Change passwords (`passwd user` for security).
@@ -127,6 +134,7 @@ The commands are grouped by category for clarity, with brief explanations emphas
 100. **env** - Display environment variables (`env | grep PATH` for debugging).
 
 ### **Notes for Your Context**
+
 - **Development Focus**: Commands like `git`, `mvn`, `docker`, and `kubectl` align with your full-stack and containerized workflows, especially for your 10 GitHub projects and cloud experience (AWS, Azure, Alibaba Cloud).
 - **Debugging and Performance**: Tools like `strace`, `gdb`, `htop`, and `dmesg` are included for your backend and system debugging needs, given your 8 years of backend experience.
 - **Networking**: Commands like `curl`, `netcat`, and `nmap` support your API and networking expertise, useful for testing microservices or cloud deployments.

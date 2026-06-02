@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question:** 这个视频说了什么？（引用自 https://www.youtube.com/watch?v=53wThFFuOqU）
+**Question:** 这个视频说了什么？（引用自 <https://www.youtube.com/watch?v=53wThFFuOqU）>
 
 **Answer:**
 
@@ -18,7 +18,7 @@ type: note
 
 Stanley Druckenmiller（Duquesne Family Office 主席兼 CEO）接受了 Bloomberg 的 Sonali Basak 的采访。所提供的部分（以及该片段显然的主要焦点）讨论的是美国财政问题而非直接讨论 AI —— 特别是福利支出增加、人口结构、政府债务以及赤字带来的长期风险。
 
-### 讨论要点：
+### 讨论要点
 
 - Druckenmiller 十多年来一直对美国福利支出（Social Security, Medicare, Medicaid）感到担忧，这是由人口结构驱动的。
 - 他引用了 20 世纪 90 年代的一篇论文，该论文预测由于婴儿潮一代（Baby Boomers）老龄化、老年人占政府支出的比例大幅上升（自 20 世纪 60 年代以来已从约 30% 升至约 58%）、出生率下降（低于替代水平）以及支撑退休人员的纳税工人减少，2020 年代将出现 “人口风暴”。

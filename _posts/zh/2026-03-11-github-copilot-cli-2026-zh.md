@@ -40,11 +40,13 @@ GitHub Copilot CLI 将 AI 驱动的编码辅助直接带到您的命令行中，
 有多种安装 Copilot CLI 的方式。最常见的方法包括：
 
 **通过 npm（所有平台）：**
+
 ```bash
 npm install -g @github/copilot
 ```
 
 **通过 shell 安装脚本（macOS/Linux）：**
+
 ```bash
 curl -fsSL https://github.com/github/copilot-cli/releases/latest/download/install.sh | bash
 ```
@@ -52,11 +54,13 @@ curl -fsSL https://github.com/github/copilot-cli/releases/latest/download/instal
 使用 `| sudo bash` 会安装到 `/usr/local/bin`。您可以设置 `PREFIX` 以安装到自定义目录，并设置 `VERSION` 以安装特定版本。
 
 **通过 Homebrew（macOS）：**
+
 ```bash
 brew install gh-copilot
 ```
 
 **通过 WinGet（Windows）：**
+
 ```powershell
 winget install GitHub.CopilotCLI
 ```
@@ -68,6 +72,7 @@ Copilot CLI 还包含在默认的 GitHub Codespaces 镜像中，并作为 Dev Co
 ### 认证
 
 安装后，使用您的 GitHub 凭据进行认证：
+
 ```bash
 copilot auth login
 ```
@@ -79,6 +84,7 @@ copilot auth login
 ### 基本用法
 
 只需运行以下命令即可启动 CLI：
+
 ```bash
 copilot
 ```
@@ -109,7 +115,6 @@ copilot
 ---
 
 ### 有用的 Slash 命令
-
 
 | 命令 | 描述 |
 |---|---|

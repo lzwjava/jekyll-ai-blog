@@ -16,9 +16,9 @@ While you won't see Zig as a primary language for massive new features at Google
 
 * **Compiler Toolchain Integration (zig cc):** This is where Zig often first appears in larger companies. Zig's fantastic C/C++ cross-compilation capabilities and its powerful build system (powered by `zig cc`) are extremely appealing. Companies like **Uber** have publicly discussed using `zig cc` for their infrastructure, not necessarily writing entire services in Zig, but leveraging its build system to improve existing C/C++ workflows.
 * **Performance-Critical Components:** For specific, highly optimized components where raw performance, minimal overhead, and predictable memory management are paramount, Zig is a strong contender. Think about things like:
-    * **Low-level infrastructure:** Network proxies, specialized data processing, or embedded systems.
-    * **Tooling:** Compilers, build tools, or performance analysis platforms.
-    * **WebAssembly (WASM):** Zig is gaining traction for compiling to WASM, which is relevant for web-facing applications requiring high performance client-side or in serverless environments.
+  * **Low-level infrastructure:** Network proxies, specialized data processing, or embedded systems.
+  * **Tooling:** Compilers, build tools, or performance analysis platforms.
+  * **WebAssembly (WASM):** Zig is gaining traction for compiling to WASM, which is relevant for web-facing applications requiring high performance client-side or in serverless environments.
 * **Experimentation and Niche Use Cases:** Engineers within big tech companies might be experimenting with Zig for new projects or in specific teams that value its unique characteristics. It's often adopted by passionate individuals or small, innovative teams.
 * **Indirect Influence:** Even if not directly using Zig for widespread production, its design principles (e.g., explicit memory management, `comptime` for metaprogramming, strong C interoperability) are influencing how engineers think about systems programming and even the design of other languages.
 
@@ -33,10 +33,10 @@ Startups are where Zig is seeing more direct and enthusiastic adoption for a few
 * **Lean and Efficient:** Startups often need to be lean with resources. Zig's focus on small, fast binaries and predictable performance helps optimize infrastructure costs and developer efficiency.
 * **Direct Control:** Many startups need fine-grained control over system resources and memory, which Zig provides without the steep complexity of C++ or the stricter paradigms of Rust.
 * **Examples of Startups Using Zig:**
-    * **Bun:** As mentioned, this JavaScript runtime is a prime example of a highly successful startup built on Zig, demonstrating its capability for high-performance user-facing tools.
-    * **TigerBeetle:** A financial database startup that chose Zig for its mission-critical safety and performance requirements. This highlights confidence in Zig for high-assurance systems.
-    * **Ghostty:** A promising terminal emulator, also a startup endeavor, leveraging Zig for a native, performant application.
-    * Many other smaller startups are using Zig for various components, from backend services to specialized tools. The "companies using Zig in production" list on GitHub is a good indicator of this growing trend.
+  * **Bun:** As mentioned, this JavaScript runtime is a prime example of a highly successful startup built on Zig, demonstrating its capability for high-performance user-facing tools.
+  * **TigerBeetle:** A financial database startup that chose Zig for its mission-critical safety and performance requirements. This highlights confidence in Zig for high-assurance systems.
+  * **Ghostty:** A promising terminal emulator, also a startup endeavor, leveraging Zig for a native, performant application.
+  * Many other smaller startups are using Zig for various components, from backend services to specialized tools. The "companies using Zig in production" list on GitHub is a good indicator of this growing trend.
 
 ### Challenges and Outlook
 

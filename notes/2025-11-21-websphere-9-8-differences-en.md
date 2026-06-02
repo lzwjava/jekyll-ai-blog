@@ -25,11 +25,13 @@ IBM WebSphere Application Server (WAS) is an enterprise-grade Java EE applicatio
 | **Migration Considerations** | N/A (baseline).                                                        | Easier migration from 8.x via tools like the Configuration Comparison Tool; automatic port alignment and deprecated API handling for Java SE 8 transition. |
 
 #### Key Takeaways
+
 - **Biggest Leap**: The shift to Java EE 7 and Java SE 8 is the most significant, enabling modern Java features and standards that were previewed in Liberty earlier. If you're running legacy Java EE 6 apps, migration to 9.0 is straightforward but may require testing for SE 8-specific changes.
 - **When to Upgrade**: Choose 9.0 for cloud/hybrid needs or EE 7 features; stick with 8.0 (or patch to 8.5.5) only for short-term maintenance of older apps.
 - For detailed migration guides, check IBM's official docs.
 
 **References**:
+
 - [IBM WebSphere Application Server Wikipedia](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server)
 - [Java SE 8 in WAS Traditional V9](https://www.ibm.com/docs/en/was/9.0.5?topic=waso-java-se-8-in-websphere-application-server-traditional-v9)
 - [WAS Version Comparison Slides](https://www.slideshare.net/ejlp12/ibm-websphere-application-server-version-to-version-comparison)

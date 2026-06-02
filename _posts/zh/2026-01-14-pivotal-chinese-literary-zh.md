@@ -42,11 +42,11 @@ Lao She 生动地描绘了北京的日常生活，在地方方言中融入了幽
 
 **References:**
 
-- https://en.wikipedia.org/wiki/Lu_Xun
-- https://en.wikipedia.org/wiki/Diary_of_a_Madman_(Lu_Xun)
-- https://en.wikipedia.org/wiki/Zhu_Ziqing
-- https://en.wikipedia.org/wiki/Mao_Dun
-- https://en.wikipedia.org/wiki/Family_(Ba_Jin_novel)
-- https://en.wikipedia.org/wiki/Lao_She
-- https://en.wikipedia.org/wiki/Rickshaw_Boy
-- https://en.wikipedia.org/wiki/Bing_Xin
+- <https://en.wikipedia.org/wiki/Lu_Xun>
+- <https://en.wikipedia.org/wiki/Diary_of_a_Madman_(Lu_Xun)>
+- <https://en.wikipedia.org/wiki/Zhu_Ziqing>
+- <https://en.wikipedia.org/wiki/Mao_Dun>
+- <https://en.wikipedia.org/wiki/Family_(Ba_Jin_novel)>
+- <https://en.wikipedia.org/wiki/Lao_She>
+- <https://en.wikipedia.org/wiki/Rickshaw_Boy>
+- <https://en.wikipedia.org/wiki/Bing_Xin>

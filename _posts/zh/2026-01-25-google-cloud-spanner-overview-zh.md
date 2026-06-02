@@ -60,6 +60,7 @@ Cloud Spanner 是 **Google Cloud 的全托管、水平可扩展、全球分布�
 ### When to Choose Cloud Spanner
 
 当您**同时**需要以下特性时，请选择 Spanner：
+
 - Relational model + SQL
 - Global strong consistency
 - 极大规模或极高的 transaction throughput

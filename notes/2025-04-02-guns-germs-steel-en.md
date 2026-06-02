@@ -29,6 +29,7 @@ Diamond's central question is: Why did Eurasian civilizations conquer or displac
 ## The Conquest of the Americas
 
 Diamond analyzes Pizarro's conquest of the Inca Empire as a case study. The Spanish had advantages in:
+
 - Weapons and military tactics (guns and steel)
 - Disease (smallpox had already devastated the Inca population)
 - Writing (allowing efficient information transfer)
@@ -38,6 +39,7 @@ Diamond analyzes Pizarro's conquest of the Inca Empire as a case study. The Span
 ## Africa, Australia, and New Guinea
 
 Diamond explains why these regions didn't develop comparable technologies:
+
 - Africa's north-south axis made crop diffusion difficult across diverse climate zones
 - Australia lacked domesticable animals and plant species
 - New Guinea's isolation and topography limited development

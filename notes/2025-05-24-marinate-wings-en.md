@@ -28,6 +28,7 @@ To marinate chicken wings for maximum flavor, follow these steps:
    - **Frying**: Fry in 375°F oil for 8–10 minutes until golden and cooked to 165°F internally.
 
 **Tips**:
+
 - For crispier wings, let them air-dry in the fridge for 30 minutes after marinating, uncovered.
 - Add 1 tsp of baking powder (not baking soda) to the marinade for extra crispy baked wings.
 - Always check the internal temperature (165°F) to ensure they’re fully cooked.

@@ -15,30 +15,36 @@ This output shows the results of running a Python script (`test_serpai.py`) that
 ---
 
 ### **1. Command Execution**
+
 ```sh
 source ~/.zprofile
 python scripts/llmtest/test_serpai.py
 ```
+
 - **`source ~/.zprofile`**: Loads environment variables (including proxy settings) from your shell configuration file.
 - **`python scripts/llmtest/test_serpai.py`**: Runs the Python script that queries SerpAPI for search results.
 
 ---
 
 ### **2. Proxy Detection**
+
 ```
 🚀 **Proxy Settings Detected:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
 ```
+
 - The script detects that your system is using a **local proxy** (likely **Clash** or another proxy tool) running on `127.0.0.1:7890`.
 - This means all HTTP/HTTPS traffic (including the API request) is routed through this proxy.
 
 ---
 
 ### **3. Search Results**
+
 The script returns **Google search results** for the query **"Coffee"** in two formats:
 
 #### **A. Top Results (Simplified)**
+
 ```
 Top results:
 - Coffee -> https://en.wikipedia.org/wiki/Coffee
@@ -47,9 +53,11 @@ Top results:
 - r/Coffee -> https://www.reddit.com/r/Coffee/
 - Coffee -> https://shop.smucker.com/collections/coffee
 ```
+
 - These are the **top 5 organic (non-ad) results** from Google.
 
 #### **B. Full JSON Response**
+
 ```json
 {
   "searchParameters": {
@@ -74,12 +82,14 @@ Top results:
   ]
 }
 ```
+
 - **`searchParameters`**: Shows the query details (search term, language, region, etc.).
 - **`organic`**: Contains the full list of search results with metadata (title, URL, snippet, position).
 
 ---
 
 ### **4. Key Observations**
+
 1. **SerpAPI Usage**:
    - The script uses **SerpAPI** (a paid API for Google search results) to fetch data programmatically.
    - Without SerpAPI, direct scraping of Google results would violate their ToS.
@@ -96,6 +106,7 @@ Top results:
 ---
 
 ### **5. How It Works (Behind the Scenes)**
+
 1. The script sends a request to **SerpAPI** with:
    - Query: `"Coffee"`
    - Region: `US` (`gl=us`)
@@ -106,10 +117,13 @@ Top results:
 ---
 
 ### **6. Potential Issues to Check**
+
 - **Proxy Errors**: If the proxy (`7890`) is down, the script may fail.
 - **SerpAPI Limits**: Free tiers have rate limits; exceeding them returns errors.
 - **Google Blocks**: If Google detects scraping, it may return CAPTCHAs (the proxy helps mitigate this).
 
 ---
+
 ### **Summary**
+
 This script demonstrates **programmatic Google searches** using SerpAPI, with results formatted for both human reading and machine processing. The proxy ensures reliable connectivity, and the output can be used in larger applications (e.g., chatbots, research tools).

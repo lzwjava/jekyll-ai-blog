@@ -215,13 +215,13 @@ Superwhisper is best understood as:
 
 Not just a typing replacement—but a **voice-first interface to LLMs**.
 
-### Best for:
+### Best for
 
 * Developers
 * Power users
 * Privacy-conscious professionals
 
-### Less ideal for:
+### Less ideal for
 
 * Casual users who want plug-and-play simplicity
 * Users sensitive to bugs or pricing

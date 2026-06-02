@@ -70,6 +70,7 @@ New users get up to $50 free credits for 30 days during beta.
 ### FastRouter vs OpenRouter
 
 Both are LLM gateway/aggregation platforms, but FastRouter differentiates itself with:
+
 - **No transaction fees** (pay only usage costs)
 - **Enterprise governance** (budgets, rate limits, roles)
 - **Custom virtual model lists** for policy-driven routing

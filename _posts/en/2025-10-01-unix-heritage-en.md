@@ -19,6 +19,7 @@ Supporting evidence: Unix's standards (e.g., POSIX) influenced both systems to e
 ### Why They Both Have the 'ps' Command
 
 The 'ps' (process status) command displays information about running processes and originates directly from Unix, where it was first implemented in the 1970s. Both macOS and Linux include 'ps' because:
+
 - It's part of their Unix heritage: macOS via Darwin/FreeBSD, and Linux via the PROC filesystem and standard utilities from GNU or POSIX specifications.
 - It's essential for system diagnostics, scripting, and administration, so it's bundled by default in their core toolsets (e.g., in macOS's Terminal or Linux's shell).
 

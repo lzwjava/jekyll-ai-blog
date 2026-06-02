@@ -70,7 +70,7 @@ Here’s a clearer look—without a giant table—comparing **OpenAI’s Codex**
 
 ---
 
-### TL;DR Verdict:
+### TL;DR Verdict
 
 There’s no absolute "better"—it depends on what you're optimizing for:
 

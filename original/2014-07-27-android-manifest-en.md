@@ -110,6 +110,7 @@ Now, let’s break it down into its core sections and explain the concepts behin
 ```
 
 This app requests several permissions:
+
 - `CAMERA`: To access the device’s camera.
 - `WRITE_EXTERNAL_STORAGE`: To save files (e.g., photos) to external storage.
 - `INTERNET`: For network access.
@@ -159,6 +160,7 @@ This app requests several permissions:
 The manifest lists several activities, which are the app’s UI screens:
 
 #### Example 1: Splash Screen (Launcher Activity)
+
 ```xml
 <activity
     android:name=".base.SplashActivity"
@@ -177,6 +179,7 @@ The manifest lists several activities, which are the app’s UI screens:
 **Pattern**: The launcher activity is a common starting point, often a splash screen or home screen.
 
 #### Example 2: Camera Activity
+
 ```xml
 <activity
     android:name=".deprecated.CameraActivity"
@@ -189,7 +192,9 @@ The manifest lists several activities, which are the app’s UI screens:
 **Pattern**: Activities often enforce orientation for specific use cases (e.g., camera apps work better in landscape).
 
 #### Other Activities
+
 The manifest lists more activities like `DrawActivity`, `ResultActivity`, `PhotoActivity`, etc., with similar patterns:
+
 - Most are landscape-oriented, suggesting a visual or media-focused app.
 - Some override the app’s default theme (e.g., `Theme.Holo.Light`).
 

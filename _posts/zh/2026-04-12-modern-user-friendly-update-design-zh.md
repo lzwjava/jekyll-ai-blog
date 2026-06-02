@@ -36,4 +36,5 @@ type: note
 如果你经常使用Hermes Agent，这种流畅的更新流程肯定能让维护工作变得不那么繁琐，更加愉快。
 
 参考：
-- https://github.com/NousResearch/Hermes-Agent.git
+
+- <https://github.com/NousResearch/Hermes-Agent.git>

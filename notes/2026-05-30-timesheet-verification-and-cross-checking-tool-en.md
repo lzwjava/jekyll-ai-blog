@@ -29,6 +29,7 @@ uv run tt verify -i input -m google/gemini-2.5-flash -t 0.60
 ```
 
 What `tt verify` does:
+
 1. Reads all images from `input/client/`, `input/vendor/punch/`, `input/vendor/timesheet/`
 2. Sends each to a vision LLM via OpenRouter to extract structured JSON
 3. Cross-references: flags days where client logged hours but vendor shows missed punch (and vice versa)

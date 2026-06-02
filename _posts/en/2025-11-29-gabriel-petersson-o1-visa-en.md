@@ -15,6 +15,7 @@ type: note
 Gabriel Petersson, a 24-year-old Swedish high school dropout, is a research scientist on OpenAI's Sora team, where he contributes to advanced video generation models (he's even credited on the official Sora 2 announcement). Despite lacking formal higher education, he secured an O-1 visa (often called the "Einstein visa") to work in the US, joining OpenAI in December 2024 after stints at Midjourney and Dataland. The O-1 is for individuals with "extraordinary ability" in sciences, arts, education, business, or athletics, requiring evidence of sustained acclaim like publications, awards, or high-impact work.
 
 #### How He Got the O-1 Visa
+
 Petersson's path highlights self-taught skills, strategic networking, and immigration expertise over traditional credentials. Here's a breakdown based on his interviews and public accounts:
 
 1. **Building a Portfolio of "Extraordinary" Evidence**:
@@ -39,9 +40,11 @@ Petersson's path highlights self-taught skills, strategic networking, and immigr
    - Now in San Francisco, he advocates for the visa: "America is still the launchpad for ambitious builders," despite immigration hurdles.
 
 #### Why This Matters
+
 Petersson's story flips the script on tech hiring: AI tools democratize learning, and visas like O-1 reward agency over pedigree. He lost "two years on bad decisions" early on but now inspires young Europeans to skip the "cool age" grind. For similar paths, focus on shipping (demos > resumes) and firms like Plymouth for O-1 navigation.
 
 **References**:
+
 - [Plymouth Street Profile on Gabriel Petersson](https://www.plymouthstreet.com/stories/gabriel-petersson)
 - [Business Insider: High School Dropout Hired at OpenAI via ChatGPT](https://www.businessinsider.com/high-school-dropout-openai-chatgpt-learn-ai-gabriel-petersson-2025-11)
 - [Medium: The 23-Year-Old Swedish Dropout Cracked OpenAI](https://medium.com/techx-official/the-23-year-old-swedish-dropout-cracked-openai-e4cc48bd83f7)

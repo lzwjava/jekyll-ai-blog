@@ -15,7 +15,9 @@ Below is the English translation of the provided outline and article list for th
 ### *University Chinese (2018 Edition)* Textbook Syllabus and Article Directory
 
 #### I. Syllabus Overview
+
 The *University Chinese* (course code 04729) syllabus aims to develop language proficiency, literary appreciation, and writing skills. The textbook is organized by genre, covering the following key areas:
+
 1. **Language Knowledge**: Includes classical Chinese vocabulary, sentence structures, and modern Chinese difficult words.
 2. **Literary Knowledge**: Covers author and work backgrounds, as well as genre characteristics (argumentative essays, expository essays, narrative essays, and poetry).
 3. **Reading Ability**: Requires understanding of texts’ main ideas, structures, expressive techniques, and emotional or ideological content.
@@ -23,15 +25,18 @@ The *University Chinese* (course code 04729) syllabus aims to develop language p
 The textbook is divided into units by genre, each containing representative articles, author introductions, genre knowledge, and study objectives. The syllabus emphasizes mastering “important” and “secondary” knowledge points and familiarity with selected texts.
 
 #### II. Article Directory
+
 Below is a typical article directory for *University Chinese (2018 Edition)*, compiled based on online resources (e.g., Self-Study Exam Network, Hubei Self-Study Exam Network). The textbook is generally organized into units by genre, including ancient and modern Chinese and foreign literary works. Since I cannot directly access the textbook, the list may not be exhaustive, and candidates should verify with the textbook or official sources. The following are common units and sample articles (indicative list):
 
 ##### 1. Introduction
+
 - **Content**: Introduces course objectives and genre knowledge (characteristics of argumentative essays, expository essays, narrative essays, and poetry).
 - **Sample Articles**:
   - *Selections from The Analects* (Confucius)
   - *Introduction to the University Chinese Course* (Textbook Editorial Team)
 
 ##### 2. Argumentative Essays Unit
+
 - **Theme**: Focuses on thought-provoking, logically structured essays to develop analytical and argumentative skills.
 - **Sample Articles**:
   - *The Analects: On Governance* (Confucius)
@@ -42,6 +47,7 @@ Below is a typical article directory for *University Chinese (2018 Edition)*, co
   - *On the Scientific Spirit* (Zhu Kezhen)
 
 ##### 3. Expository Essays Unit
+
 - **Theme**: Focuses on informative, scientific essays to develop comprehension and expressive skills.
 - **Sample Articles**:
   - *Chinese Stone Arch Bridges* (Mao Yisheng)
@@ -50,6 +56,7 @@ Below is a typical article directory for *University Chinese (2018 Edition)*, co
   - *The Balance of Nature* (Selected from foreign scientific works)
 
 ##### 4. Narrative Essays Unit
+
 - **Theme**: Focuses on narrative and expressive essays to develop emotional engagement and storytelling skills.
 - **Sample Articles**:
   - *The Story of Xiangji Pavilion* (Gui Youguang)
@@ -60,6 +67,7 @@ Below is a typical article directory for *University Chinese (2018 Edition)*, co
   - *My Mother* (Lao She)
 
 ##### 5. Poetry Unit
+
 - **Theme**: Focuses on classical and modern poetry to develop aesthetic and interpretive skills.
 - **Sample Articles**:
   - *Climbing High* (Du Fu)
@@ -69,6 +77,7 @@ Below is a typical article directory for *University Chinese (2018 Edition)*, co
   - *Facing the Sea, with Spring Blossoms* (Hai Zi)
 
 ##### 6. Foreign Literature Unit
+
 - **Theme**: Introduces foreign literary masterpieces to broaden cultural perspectives.
 - **Sample Articles**:
   - *Hamlet* (Excerpt, William Shakespeare, UK)
@@ -77,6 +86,7 @@ Below is a typical article directory for *University Chinese (2018 Edition)*, co
   - *The Metamorphosis* (Excerpt, Franz Kafka, Czech Republic)
 
 #### III. Unit Structure Notes
+
 - **Unit Structure**:
   - **Articles**: Each article includes an author introduction, background, and study objectives.
   - **Learning Requirements**: Include recall (authors, works, genre knowledge), comprehension (themes, structures, linguistic features), and application (analysis, appreciation, writing).
@@ -88,23 +98,27 @@ Below is a typical article directory for *University Chinese (2018 Edition)*, co
   - Poetry: ~20%, emphasizing aesthetics and imagery analysis.
 
 #### IV. Textbook Features
+
 - **Article Selection**: Includes works from ancient China to modern times, as well as foreign literature, emphasizing intellectual, artistic, and cultural value.
 - **Assessment Focus**: Exams primarily focus on textbook articles, though some reading comprehension questions may involve non-textbook texts.
 - **Supplementary Materials**: Includes genre introductions, study guides, and sample self-study exam questions.
 
 #### V. Study Tips
+
 - **Prioritize Key Content**: Thoroughly read each article, understand author backgrounds, themes, and genre characteristics, and focus on “important” and “secondary” knowledge points.
 - **Practice Past Papers**: Use past exam papers from 2008–2024 (available on platforms like Self-Study Exam Network) to familiarize yourself with question types (single-choice, multiple-choice, reading comprehension, writing).
 - **Resource Utilization**: Combine study with practice tests, mock exams, study notes, and video lectures (e.g., from Self-Study Exam Network or Youxue Network).
 
 #### VI. Notes
+
 - **Version Verification**: The article directory is based on the 2018 edition. If the textbook or syllabus has been updated, refer to the latest version from the local education examination authority.
-- **Directory Access**: The complete directory can be obtained from the textbook or self-study exam platforms (e.g., www.zikaosw.cn, www.ahzkw.com.cn).
+- **Directory Access**: The complete directory can be obtained from the textbook or self-study exam platforms (e.g., <www.zikaosw.cn>, <www.ahzkw.com.cn>).
 - **Additional Note**: As I cannot directly access the textbook, some articles may vary by edition. Verify with the textbook or contact the education examination authority.
 
 ---
 
 ### Additional Notes
+
 Since search results (e.g., Web IDs 0–24) did not directly provide the complete article directory for *University Chinese (2018 Edition)* and most were unrelated to the specific article list, the above content is compiled from general information on self-study exam websites (e.g., Self-Study Exam Network, Hubei Self-Study Exam Network). The actual directory likely includes 30–40 articles, and specific articles or unit divisions should be confirmed with the textbook.
 
 If you need detailed content for a specific unit, analysis of particular articles, or past paper explanations, please specify, and I can provide more targeted assistance! I hope this helps with your exam preparation. Best of luck!

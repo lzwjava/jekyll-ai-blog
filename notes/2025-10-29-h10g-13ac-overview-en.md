@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Overview
+
 The H10G-13AC (also stylized as H10g-13ac) is a **Converged Enterprise Gateway** developed by China Mobile Group Device Co., Ltd., a subsidiary of China Mobile focused on telecommunications equipment. It is an intelligent desktop terminal designed for enterprise networking, integrating multiple functions into a single device. This makes it suitable for small to medium-sized business environments or home offices requiring converged services.
 
 ### Key Features and Functions
+
 - **Integrated Capabilities**: Combines cloud desktop access, voice gateway (for VoIP calls), wireless routing (Wi-Fi connectivity), and network set-top box functionality (for streaming and media services).
 - **Core Networking Support**:
   - Uplink modes: PPPoE, DHCP, or static IP.
@@ -34,6 +36,7 @@ The H10G-13AC (also stylized as H10g-13ac) is a **Converged Enterprise Gateway**
 | **Controls** | Reset button, power switch |
 
 ### Additional Notes
+
 - **Version**: V7.0.0.1
 - **Classification**: Router (with enterprise-grade convergence).
 - **Target Use Case**: Ideal for businesses needing a multifunctional device for voice, data, and media over a single gateway, especially in fiber-optic (GPON) setups common in China Mobile's infrastructure.
@@ -41,5 +44,6 @@ The H10G-13AC (also stylized as H10g-13ac) is a **Converged Enterprise Gateway**
 For more technical details, refer to the official IPv6 certification page.
 
 ### References
+
 - [IPv6 Ready Logo Details for H10G-13AC](https://www.ipv6ready.org/db/index.php/public/logo/02-C-002504/)
 - [China Mobile Group Device Product Listing](https://device.report/china-mobile-group-device)

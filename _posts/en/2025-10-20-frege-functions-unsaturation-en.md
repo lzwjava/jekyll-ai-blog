@@ -15,6 +15,7 @@ type: note
 Gottlob Frege's short essay, originally titled *Was ist eine Funktion?* and published in a Festschrift for physicist Ludwig Boltzmann, is a concise clarification of the logical nature of functions in mathematics. Written late in Frege's career (after his major works like *Grundlagen der Arithmetik* and *Grundgesetze der Arithmetik*), it responds to ongoing confusions in mathematical practice and pedagogy—much like the issues you described with students mixing up graphical equations (y = x² + 3x) and functional notation (f(x) = x² + 3x). Frege doesn't rewrite math textbooks here, but he dissects why these notations mislead and offers a precise logical foundation for what functions *really* are. The paper is only about 8 pages in German, and its English translation (by Peter Geach) appears in collections like *Collected Papers on Mathematics, Logic, and Philosophy*.
 
 #### Key Arguments and Structure
+
 Frege starts by acknowledging the intuitive success of function notation in math (e.g., sin x, log x, or x²) but argues that sloppy usage hides deeper logical problems. He builds on his earlier ideas from "Function and Concept" (1891), where he first treated functions as building blocks of logic, not just arithmetic tools. The essay has three main threads:
 
 1. **The Unsaturated Nature of Functions**:
@@ -33,7 +34,9 @@ Frege starts by acknowledging the intuitive success of function notation in math
 The essay isn't a polemic; it's diagnostic, like a philosopher-logician debugging math's language. It influenced analytic philosophy (e.g., Wittgenstein, Russell) and modern type theory in logic/computing, where functions are indeed "unsaturated" operations.
 
 #### What Is a Function, According to Frege?
+
 In Frege's view, a function is **an unsaturated logical entity (or expression) that maps arguments to values by completing its incomplete structure**. Formally:
+
 - It's not the equation (y = f(x)), the graph, or even the set of outputs—those are derivative.
 - It's the "gap" in an expression, like f(ξ) = ξ² + 3ξ, where ξ signals incompleteness.
 - Properties: Extensional (same inputs → same outputs define identity); hierarchical (first-level functions take objects as arguments, return objects; second-level take functions); and predicative (concepts/relations as special cases).
@@ -44,6 +47,7 @@ This resolves your students' confusion: The "function" isn't the whole y = x² +
 If you'd like, I can suggest ways to explain this in a beginner class or dive into related Frege essays.
 
 **References**
+
 - [Russell and Frege on the Logic of Functions (PDF summary/discussion)](https://newprairiepress.org/cgi/viewcontent.cgi?article=1023&context=biyclc)
 - [The Philosophy of Gottlob Frege (excerpt on functions)](https://assets.cambridge.org/052183/6697/excerpt/0521836697_excerpt.htm)
 - [Stanford Encyclopedia of Philosophy: Gottlob Frege](https://plato.stanford.edu/entries/frege/)

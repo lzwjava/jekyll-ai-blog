@@ -120,12 +120,14 @@ watch -n 1 nvidia-smi
 Apply these fixes in order, from easiest to most involved:
 
 **Fix 1 — Reduce batch size further:**
+
 ```python
 batch_size = 2
 gradient_accumulation_steps = 64  # Keep effective batch = 128 tokens
 ```
 
 **Fix 2 — Enable gradient checkpointing** (in `model.py`, inside the Block class):
+
 ```python
 # In the forward pass, wrap with:
 from torch.utils.checkpoint import checkpoint
@@ -135,11 +137,13 @@ x = checkpoint(self.attn, x)
 This trades compute time for memory — roughly 30–40% more computation but saves significant VRAM.
 
 **Fix 3 — Reduce block size:**
+
 ```python
 block_size = 256  # Cuts quadratic attention memory in half vs 512
 ```
 
 **Fix 4 — Use `bfloat16` (make sure it's set):**
+
 ```python
 dtype = 'bfloat16'
 ```

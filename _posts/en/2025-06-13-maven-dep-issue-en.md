@@ -143,6 +143,7 @@ Below is the corrected `pom.xml` file with the necessary changes applied:
 
 - **Removal of `spring-aop` and `spring-aspects`:**
   - Removed the following dependencies:
+
     ```xml
     <dependency>
         <groupId>org.springframework</groupId>
@@ -155,6 +156,7 @@ Below is the corrected `pom.xml` file with the necessary changes applied:
         <version>5.3.23</version>
     </dependency>
     ```
+
   - `spring-aop` is already included in `spring-boot-starter-web` (via `spring-web`), and Spring Boot manages its version to 6.1.14, which is compatible with 3.4.2.
   - `spring-aspects` is not a standard dependency in Spring Boot starters. If the project explicitly requires it (e.g., for custom aspects), it can be re-added without a version (letting Spring Boot's dependency management handle it) or set to `6.1.14`. However, since the error occurs during startup and relates to auto-configuration rather than missing aspects, it’s likely unnecessary here and can be safely removed.
 

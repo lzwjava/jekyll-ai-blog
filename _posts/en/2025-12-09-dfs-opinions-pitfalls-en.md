@@ -37,6 +37,7 @@ Here are some genuinely unpopular or contrarian opinions about DFS that you’ll
 In short: DFS is powerful, but the community has a massive blind spot about its practical pitfalls and overhypes its theoretical beauty.
 
 References:
+
 - [Stack Overflow: Recursive DFS vs Iterative DFS](https://stackoverflow.com/questions/12946923/iterative-depth-first-traversal)
 - [LeetCode Discuss: DFS vs BFS for shortest path myths](https://leetcode.com/discuss/general-discussion/1053079/shortest-path-in-unweighted-graph-bfs-vs-dfs)
 - [Codeforces blogs on bitmask DP + DFS for NP-complete problems](https://codeforces.com/blog/entry/70647)

@@ -22,15 +22,16 @@ Calvin 处决 Servetus 的根本原因在于他**深信自己“不会错”的�
 
 ### 不容忍的连锁反应
 
-1.  **深信自己不会错** (Self-certainty)
+1. **深信自己不会错** (Self-certainty)
     ↓
-2.  **不能容忍任何和自己不同的思想信仰** (Inability to tolerate different views)
+2. **不能容忍任何和自己不同的思想信仰** (Inability to tolerate different views)
     ↓
-3.  **对“异端”和“异己”的迫害** (Persecution of "heresy" and "dissent")
+3. **对“异端”和“异己”的迫害** (Persecution of "heresy" and "dissent")
 
 ### 普遍适用性
 
 胡适认为这个原则解释了：
+
 - 一切对异端的迫害 (All persecution of heretics)
 - 一切对“异己”的摧残 (All suppression of "the different")
 - 一切宗教自由的禁止 (All prohibition of religious freedom)
@@ -39,14 +40,17 @@ Calvin 处决 Servetus 的根本原因在于他**深信自己“不会错”的�
 ## 为什么其他选项是不充分的
 
 **A - Servetus 对罗马天主教不满**
+
 - 这只是分歧的**内容** (content)
 - 并没有解释**为什么** Calvin 觉得杀掉他是合理的
 
 **C - 争取“基督教的人的自由” (Fighting for "Christian human freedom")**
+
 - 这具有讽刺意味——Calvin 声称在为自由而战，同时却在压制自由
 - 这是**借口** (pretext)，而不是**心理根源** (psychological root cause)
 
 **D - 宗教信仰与自由是不相容的**
+
 - 这个观点太宽泛且带有宿命论色彩
 - 胡适并没有主张宗教本质上反对自由
 - 相反，是那种**教条式的思维模式** (dogmatic mindset) 导致了这种结果

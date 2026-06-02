@@ -20,6 +20,7 @@ Answer:
 ## How WeChat Group Red Packets Work (UX Flow)
 
 ### Sending Side
+
 1. The sender taps the **`+` button** in the chat input bar.
 2. Selects **"Red Packet"**, sets the amount and number of recipients.
 3. After receiving a red packet within your chat, simply tap the chat bubble to open it and see what's inside.
@@ -33,9 +34,11 @@ Answer:
 - You simply **tap the red envelope icon/bubble** directly in the chat stream.
 
 ### The "First Come, First Served" Rule
+
 You can send a red packet to a group chat and choose the number of people who can open it — it is first come, first served. This is exactly **why** people rush to tap it immediately — they don't scroll, they react the moment they see the notification.
 
 ### Two Types of Group Red Packets
+
 There are two types: pairwise red packets (sent in a private chat between two users) and group red packets (distributed in a group chat). With the latter, after it is posted, the amount of money is randomly split and assigned to recipients.
 
 ---

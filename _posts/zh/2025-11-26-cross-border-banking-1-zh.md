@@ -15,6 +15,7 @@ type: note
 中国银行（香港）有限公司（BOCHK）隶属于中国银行集团，可实现香港与中国大陆之间的顺畅跨境互通。您可通过ATM取现或将资金从BOCHK账户电子转账至中国大陆的中行账户。两项服务均支持个人银行业务，集团内部交易费用低廉或免费。由于安全预设常设为零，请提前通过BOCHK手机应用、电话（+852 2853 8828）或分行激活境外ATM功能。所有信息基于2025年收费标准；请通过您的账户确认最新动态。
 
 #### ATM取现
+
 可使用BOCHK借记卡（如中银卡或银联卡）在中国大陆的中行ATM提取人民币。交易将扣除您香港账户的等值港币或人民币资金，如需货币转换按BOCHK汇率计算。中银万事达借记卡免收跨境交易费。
 
 | 事项 | 具体说明 | 费用（每笔） | 备注 |
@@ -26,6 +27,7 @@ type: note
 具体卡片费用请查阅BOCHK服务收费表。
 
 #### 资金转账
+
 通过中银快汇或中银特快等集团渠道可实现高效免费转账。使用手机应用、网上银行或分行服务可实时到账至中国大陆中行账户。支持港币、人民币或美元；个人账户适用。
 
 | 方式 | 描述 | 到账时间 | 费用 | 备注 |
@@ -41,6 +43,7 @@ type: note
 请登录BOCHK网银或联系客服获取准确报价。大额转账可能受法规影响。
 
 #### 参考链接
+
 - [BOCHK一般服务收费](https://www.bochk.com/en/servicecharge.html)
 - [BOCHK汇款服务](https://www.bochk.com/en/crossborder/personal/financialservicehk/remittance.html)
 - [中银快汇服务](https://www.bochk.com/en/crossborder/remittance/remittance.html)

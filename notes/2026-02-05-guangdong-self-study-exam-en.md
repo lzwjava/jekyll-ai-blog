@@ -33,6 +33,7 @@ Based on your situation with the Guangdong self-study examination (自考), here
 ## Recommendation
 
 Since you're close to finishing your associate degree (13 courses passed, 10 remaining), you should:
+
 - Complete your current associate degree courses first
 - **Start 预报名 for bachelor courses in the next registration period** (usually before each exam session in January, April, and October)
 - You can begin taking bachelor courses while finishing your last associate courses

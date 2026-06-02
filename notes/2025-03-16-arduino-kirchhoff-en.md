@@ -17,9 +17,11 @@ Since Arduino can’t directly measure current, we’ll infer it by measuring vo
 ### **Experiment 1: Verifying Kirchhoff’s Current Law (KCL)**
 
 #### **Objective**
+
 Demonstrate that the current entering a node equals the current leaving it.
 
 #### **Circuit Setup**
+
 - **Components:**
   - Arduino (e.g., Uno)
   - 3 resistors (e.g., R1 = 330Ω, R2 = 470Ω, R3 = 680Ω)
@@ -37,11 +39,13 @@ Demonstrate that the current entering a node equals the current leaving it.
 - **Note:** GND is the common reference point.
 
 #### **Theory**
+
 - Total current from 5V to Node A (\\( I_{in} \\)) splits into \\( I_1 \\), \\( I_2 \\), and \\( I_3 \\) through R1, R2, and R3.
 - KCL: \\( I_{in} = I_1 + I_2 + I_3 \\).
 - Measure voltage across each resistor, then calculate current: \\( I = V/R \\).
 
 #### **Arduino Code**
+
 ```cpp
 void setup() {
   Serial.begin(9600); // Start serial communication
@@ -85,6 +89,7 @@ void loop() {
 ```
 
 #### **Verification**
+
 - Open the Serial Monitor (Ctrl+Shift+M in Arduino IDE, set to 9600 baud).
 - Compare \\( I_{in} \\) (calculated from total resistance) to \\( I_1 + I_2 + I_3 \\). They should be approximately equal, verifying KCL.
 - Small discrepancies may arise from resistor tolerances or Arduino ADC precision.
@@ -94,9 +99,11 @@ void loop() {
 ### **Experiment 2: Verifying Kirchhoff’s Voltage Law (KVL)**
 
 #### **Objective**
+
 Show that the sum of voltage drops around a closed loop equals the supply voltage.
 
 #### **Circuit Setup**
+
 - **Components:**
   - Arduino
   - 2 resistors (e.g., R1 = 330Ω, R2 = 470Ω)
@@ -113,10 +120,12 @@ Show that the sum of voltage drops around a closed loop equals the supply voltag
 - **Note:** Use a voltage divider setup; ensure voltages don’t exceed 5V (Arduino’s limit).
 
 #### **Theory**
+
 - KVL: \\( V_{source} = V_{R1} + V_{R2} \\).
 - Measure each voltage drop and check if they sum to the source voltage (5V).
 
 #### **Arduino Code**
+
 ```cpp
 void setup() {
   Serial.begin(9600);
@@ -145,12 +154,14 @@ void loop() {
 ```
 
 #### **Verification**
+
 - In the Serial Monitor, check that \\( V_{source} \approx V_{R1} + V_{R2} \\).
 - For R1 = 330Ω and R2 = 470Ω in series, expect \\( V_{R1} \approx 2.1V \\) and \\( V_{R2} \approx 2.9V \\) (based on voltage divider: \\( V_{R1} = 5 \cdot \frac{R1}{R1+R2} \\)), summing to ~5V.
 
 ---
 
 ### **Tips and Considerations**
+
 - **Precision:** Arduino’s 10-bit ADC (0–1023) has a resolution of ~4.9mV, so expect minor errors. Use a multimeter to cross-check if needed.
 - **Safety:** Keep voltages below 5V and currents low to avoid damaging the Arduino.
 - **Scaling:** For more complex circuits, add more resistors or use external sensors (e.g., INA219 for direct current measurement).

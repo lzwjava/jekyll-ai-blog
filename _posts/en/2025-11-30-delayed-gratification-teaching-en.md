@@ -57,8 +57,9 @@ Here’s a practical, step-by-step way to guide them without just saying “no�
    A good rule many parents use: “One in, one out” (new toy comes in → choose one to donate). Prevents the endless “I want everything” spiral.
 
 10. Long-term motivators that work amazingly well
-   - Token boards or sticker charts for bigger rewards (5–10 stickers = choose a $5–10 toy)
-   - “Weekend Surprise Box” (small cheap items they earn by waiting well all week)
+
+- Token boards or sticker charts for bigger rewards (5–10 stickers = choose a $5–10 toy)
+- “Weekend Surprise Box” (small cheap items they earn by waiting well all week)
 
 Key mindset for you as the parent:
 You’re not being mean; you’re giving them a superpower. The ability to wait calmly is one of the strongest predictors of future success and happiness (look up the Marshmallow Experiment follow-up studies).

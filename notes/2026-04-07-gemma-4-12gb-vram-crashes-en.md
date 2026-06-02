@@ -14,10 +14,12 @@ Here's the full summary:
 ---
 
 **Model Download ✅**
+
 - Downloaded `gemma-4-26B-A4B-it-UD-IQ3_S.gguf` (10.4GB) from HuggingFace via proxychains
 - File location: `/home/lzw/projects/llama.cpp/models/`
 
 **Running on:**
+
 - **GPU:** RTX 4070 (12GB VRAM)
 - **VRAM usage:** ~10.7GB (31/31 layers offloaded)
 - **Context:** 512 tokens (max due to VRAM constraints)
@@ -29,6 +31,7 @@ The server crashes after each inference — it exits cleanly after processing on
 
 **Status:**
 Server is currently down. You'd need to restart it before each use, or we could try:
+
 1. A different GGUF variant (e.g., Q4_K_M instead of IQ3_S)
 2. Patching/updating llama.cpp to a newer build
 3. Reducing `-ngl` layers to free up more VRAM for compute buffers

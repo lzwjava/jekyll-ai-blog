@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What does Steve Jobs say in this talk? (https://www.youtube.com/watch?v=Gk-9Fd2mEnI&t=310s)
+Question: What does Steve Jobs say in this talk? (<https://www.youtube.com/watch?v=Gk-9Fd2mEnI&t=310s>)
 
 Answer:
 
@@ -18,7 +18,7 @@ This video is a recording of Steve Jobs speaking at the MIT Sloan School of Mana
 
 The talk is informal, consisting of Jobs' opening remarks followed by an extended Q&A session with MBA students. He discusses NeXT's technology, business strategy, reflections on Apple, management lessons, manufacturing innovations, and the future of computing.
 
-### Key Topics and Points Steve Jobs Makes:
+### Key Topics and Points Steve Jobs Makes
 
 - **NeXT's Mission and Technology**: Jobs explains that NeXT focuses on advanced software (NeXTSTEP operating system) for building custom enterprise applications quickly (5-10 times faster than competitors). This enables companies to improve operational productivity and bring products to market faster. He emphasizes object-oriented programming as a major breakthrough, bigger than graphical user interfaces: "The code that never breaks is the code that you don't write... so write less code."
 
@@ -40,4 +40,4 @@ The talk (around 1 hour 15 minutes long) is conversational, with Jobs answering 
 
 References:
 
-- https://www.youtube.com/watch?v=Gk-9Fd2mEnI
+- <https://www.youtube.com/watch?v=Gk-9Fd2mEnI>

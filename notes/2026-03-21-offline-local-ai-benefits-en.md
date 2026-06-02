@@ -18,6 +18,7 @@ Local AI models (also called local LLMs) run directly on your own hardware, such
 We need local models for several key reasons, and your OpenWRT troubleshooting example highlights one of the most practical and powerful advantages.
 
 ### Key Advantages of Local Models
+
 - **Offline / No Internet Required Functionality**
   The biggest benefit in your scenario: once the model is downloaded and running locally (using tools like Ollama, LM Studio, llama.cpp, or similar), it works completely without any network connection.
   When you brick an OpenWRT router, lose WAN connectivity, or are in the middle of a reconfiguration that breaks internet access, cloud-based AI becomes useless — you can't reach Claude, GPT, or any online service. A local model stays available on your laptop or another machine that still has power and can see the router via Ethernet or local Wi-Fi (even if the router has no upstream internet).
@@ -39,6 +40,7 @@ We need local models for several key reasons, and your OpenWRT troubleshooting e
   - **Full control and customization**: You can fine-tune prompts, use system instructions tailored to networking/OpenWRT, or even run specialized small models optimized for command-line help.
 
 ### In Practice for OpenWRT
+
 Many people keep a lightweight local model (e.g. 7B–13B parameter models like Llama 3.1 8B, Mistral, Phi-4, or Qwen 2.5) on their daily laptop specifically for exactly these situations.
 Even a mid-range laptop with 16–32 GB RAM can run quantized versions fast enough to be useful during recovery sessions.
 Tools like Ollama make it very simple to pull a model once (when you do have internet) and then use it forever offline.

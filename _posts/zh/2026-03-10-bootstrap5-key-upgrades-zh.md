@@ -79,6 +79,7 @@ Bootstrap 5 扩展了其颜色调色板，以探索项目的不同色调，包�
 Bootstrap 5 引入了新的浮动表单和组件，如折叠面板（Accordions）、带图标的警告（Alerts）和 Offcanvas，同时更新了现有组件，如 Buttons、Dropdowns、Navbars 和 Popovers，以实现更快的加载。
 
 关键新组件包括：
+
 - **Offcanvas** — 灵活的侧边栏/抽屉面板
 - **Accordion** — 重新设计的可折叠部分
 - **Floating labels** — 动画标签输入
@@ -91,6 +92,7 @@ Bootstrap 5 引入了新的浮动表单和组件，如折叠面板（Accordions�
 Bootstrap 4 依赖 `data-*` 属性命名来处理类。Bootstrap 5 引入了新的 `data-bs-*` 命名约定，以提高一致性和与原生 HTML 属性的分离。
 
 示例：
+
 - Bootstrap 4: `data-toggle="modal"`
 - Bootstrap 5: `data-bs-toggle="modal"`
 

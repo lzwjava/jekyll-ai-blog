@@ -19,6 +19,7 @@ macOS（前身为 OS X）和 Linux 在概念上均源于 Unix——这款开创�
 ### 为何两者都拥有 'ps' 命令
 
 'ps'（进程状态）命令用于显示运行进程的信息，其起源可直接追溯至 1970 年代首次实现该命令的 Unix 系统。macOS 和 Linux 都包含 'ps' 的原因是：
+
 - 这是它们 Unix 传承的一部分：macOS 通过 Darwin/FreeBSD 继承，Linux 则通过 PROC 文件系统及 GNU 或 POSIX 规范的标准工具集继承
 - 该命令对系统诊断、脚本编写和管理至关重要，因此默认捆绑在它们的核心工具集中（如 macOS 的终端或 Linux 的 shell）
 

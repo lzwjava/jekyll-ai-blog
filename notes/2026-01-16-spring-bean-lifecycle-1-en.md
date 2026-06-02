@@ -74,5 +74,5 @@ Very few developers implement `BeanPostProcessor` themselves anymore — librari
 
 **References:**
 
-- https://docs.spring.io/spring-framework/reference/core/beans/factory-lifecycle.html
-- https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/postconstruct-and-predestroy-annotations.html
+- <https://docs.spring.io/spring-framework/reference/core/beans/factory-lifecycle.html>
+- <https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/postconstruct-and-predestroy-annotations.html>

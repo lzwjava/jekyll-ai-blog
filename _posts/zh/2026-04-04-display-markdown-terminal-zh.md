@@ -47,10 +47,12 @@ llm_response = """
 ```python
 print("Hello World")
 ```
+
 """
 
 md = Markdown(llm_response)
 console.print(md)
+
 ```
 
 你也可以直接从命令行使用Markdown类——例如：`python -m rich.markdown README.md`
@@ -68,11 +70,13 @@ console.print(md)
 ### 有效的系统提示词措辞
 
 ```
+
 你是一个运行在终端CLI工具中的助手。
 在你的回答中不要使用任何Markdown格式。
 不要用加粗（**文本**）、斜体（*文本*）、标题（# 文本）、
 项目符号（-）以及反引号代码块。
 仅使用纯文本回答。
+
 ```
 
 ### 此方法有效的理由（及注意事项）
@@ -84,9 +88,11 @@ console.print(md)
 一个在实践中效果良好、明确且有力的系统提示词示例（源自实际使用）：
 
 ```
+
 用户将向你提问。
 请仅用纯文本回答——不要用markdown、不要用代码块、不要用项目符号（-）、不要用加粗或斜体语法。
 你的输出将直接打印到终端。
+
 ```
 
 ---

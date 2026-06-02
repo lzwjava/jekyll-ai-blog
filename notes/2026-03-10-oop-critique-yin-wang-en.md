@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What does the blog post at https://yinwang0.wordpress.com/2013/12/24/oop/ say?
+Question: What does the blog post at <https://yinwang0.wordpress.com/2013/12/24/oop/> say?
 
 Answer:
 

@@ -164,6 +164,7 @@ Below is a curated list of 30 notable open-source projects that are primarily wr
     - Why Notable: Critical for testing and emulation in development.
 
 ### Notes
+
 - **Selection Criteria**: Projects were chosen for their prominence, active maintenance, and significant C++ usage. Some (e.g., TensorFlow, Electron) use other languages for interfaces but rely on C++ for core functionality.
 - **Diversity**: The list covers game engines (Godot, Unreal), AI (TensorFlow, CNTK), databases (MongoDB, ClickHouse), multimedia (OBS, Kodi), and libraries (Boost, Abseil).
 - **Community & Maintenance**: Most projects have active communities, but some (e.g., CNTK) are less active but still impactful.

@@ -37,6 +37,7 @@ The question specifically asks about the **driver output** voltage requirement:
 - Taking the 2V noise margin into account, a low level (-3V to -15V) is defined as a logic 1 (marking) at the **receiver** input.
 
 So the distinction is:
+
 - **Driver output** (what the transmitter sends): **-5V to -15V** → This is **Answer D**
 - **Receiver threshold** (what is accepted as valid logic 1): -3V to -15V → This corresponds to Option C
 

@@ -33,4 +33,4 @@ Here is a tutorial on buffer and inverter circuits based on the provided YouTube
 * An inverter circuit outputs the opposite of the input.
 
 In summary, the video explains how transistor circuits can function as a buffer, which maintains the input signal, or as an inverter, which reverses the input signal.
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

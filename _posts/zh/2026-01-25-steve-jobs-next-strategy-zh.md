@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question:** Provide a comprehensive summary of the YouTube video at https://www.youtube.com/watch?v=CtnX1EJHbC0
+**Question:** Provide a comprehensive summary of the YouTube video at <https://www.youtube.com/watch?v=CtnX1EJHbC0>
 
 **Answer:**
 

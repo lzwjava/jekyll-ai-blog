@@ -35,11 +35,13 @@ Yes, hydrogen peroxide (typically 3% household grade) is an effective option for
    - The smell should be noticeably reduced or gone after this; if faint traces remain, repeat the process once more.
 
 **Pros of hydrogen peroxide vs. vinegar**:
+
 - Stronger at killing mold/bacteria on contact.
 - Leaves little to no residual smell (unlike vinegar, which can linger faintly until fully rinsed/dried).
 - Good for non-colorfast whites or light items.
 
 **Cons / cautions**:
+
 - Risk of bleaching or fading colored clothes — use only if test passes.
 - Not ideal for delicate fabrics like silk, wool, or some synthetics (check labels).
 - More expensive than vinegar if you need a lot.

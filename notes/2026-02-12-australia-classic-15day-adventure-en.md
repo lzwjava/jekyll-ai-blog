@@ -17,6 +17,7 @@ Answer:
 Here is a realistic and popular **15-day itinerary** for first-time visitors to Australia. It focuses on the country's most iconic highlights: vibrant cities, the **Great Barrier Reef**, the Red Centre (Uluru), and some coastal/outback variety. This plan minimizes excessive jet lag and domestic flights (usually 4–5 internal flights) while covering the "big four" experiences most people want to see.
 
 **Assumptions**:
+
 - You are a first-time visitor.
 - Traveling as a couple or small group (not backpacker budget or family with very young children).
 - Moderate budget (comfortable 4-star hotels, some guided tours).
@@ -97,6 +98,7 @@ Depending on your international flight: depart from Melbourne, or morning flight
 | 15   | Departure             | —                                   | —     |
 
 ### Tips
+
 - Book domestic flights early (Qantas, Virgin Australia, Jetstar).
 - Reef & Uluru tours book out → reserve 3–6 months ahead.
 - Consider travel insurance that covers adventure activities.

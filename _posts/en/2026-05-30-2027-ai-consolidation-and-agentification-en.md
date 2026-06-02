@@ -85,7 +85,7 @@ By 2027, models like future versions of:
 
 will likely change in nature:
 
-### What changes:
+### What changes
 
 * “Model version upgrades” become less visible to users
 * You interact with **agent systems powered by models**, not raw models

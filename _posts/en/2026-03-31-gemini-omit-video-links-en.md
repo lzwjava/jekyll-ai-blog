@@ -20,9 +20,11 @@ If you encounter a response that still includes these links, you can simply remi
 ---
 
 ### Key Benefits of This Customization
+
 * **Cleaner Formatting:** Responses remain in clean Markdown, which is ideal for pasting into code editors, notes, or documentation.
 * **Improved Reliability:** Eliminates the risk of the "copy" button becoming unresponsive due to rich media embeds.
 * **Focus on Content:** You receive the direct answer without the visual clutter of video thumbnails.
 
 References:
+
 * [Manage your Gemini Apps activity and data](https://support.google.com/gemini/answer/13594968)

@@ -15,6 +15,7 @@ type: note
 Dijkstra's algorithm is a fundamental way to find the shortest path between nodes in a graph where edges have non-negative weights (like distances or costs). It's named after Edsger W. Dijkstra and is widely used in GPS navigation, network routing, and more. The key intuition: it explores the graph greedily, always picking the closest unvisited node and updating paths from there, like a ripple effect from the starting point.
 
 #### Quick Prerequisites
+
 - **Graph Basics**: Think of a graph as a map of cities (nodes) connected by roads (edges) with lengths (weights). We assume weights are positive—no negative distances!
 - **Directed vs. Undirected**: Works for both, but examples here use undirected for simplicity.
 - **Shortest Path**: The path with the minimal total weight from source to target.
@@ -22,6 +23,7 @@ Dijkstra's algorithm is a fundamental way to find the shortest path between node
 If graphs are new, imagine a social network: people (nodes), friendships with "strength" scores (weights).
 
 #### How It Works: Step-by-Step Intuition
+
 Dijkstra builds the shortest path incrementally, using a **priority queue** (like a to-do list sorted by urgency—here, by current shortest known distance). It never revisits nodes once settled, making it efficient.
 
 1. **Initialize**:
@@ -42,6 +44,7 @@ The algorithm stops early if you only care about one target node.
 **Why it works**: It's like breadth-first search but weighted—always expanding the cheapest frontier first. Proof relies on the fact that once a node is settled, its distance can't improve (greedy choice property).
 
 #### Simple Example
+
 Imagine a graph with 4 cities: A (start), B, C, D. Edges and weights:
 
 - A → B: 4
@@ -51,6 +54,7 @@ Imagine a graph with 4 cities: A (start), B, C, D. Edges and weights:
 - C → D: 8
 
 ASCII visualization:
+
 ```
    4
 A ----- B
@@ -83,6 +87,7 @@ Path to D: A → B → D (total 9, shorter than A → C → D=10).
 You can trace back paths using a "previous node" array.
 
 #### Pseudocode
+
 Here's a simple implementation outline (Python-like):
 
 ```python
@@ -119,6 +124,7 @@ def dijkstra(graph, start):
 - Time Complexity: O((V+E) log V) with a binary heap (V=vertices, E=edges). Great for sparse graphs.
 
 #### Tips to Grasp It Deeper
+
 - **Visualize**: Draw your graph on paper, simulate steps with a table of distances/visited.
 - **Common Pitfalls**: Fails with negative weights (use Bellman-Ford instead). Assumes connected graph.
 - **Practice**: Try on small graphs, then code it for a map dataset.

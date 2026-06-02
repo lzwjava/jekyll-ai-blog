@@ -25,17 +25,21 @@ type: note
 | **DeepSeek-Instruct (14B)** | Q4_K_M           | ~9 GB     | 推理优化  |
 
 ## 推荐
+
 **Qwen2.5Instruct Q4_K_M** -- 完全可在  GPU 上运行，16–32k 上下文，在 4070 上约 40–60 tok/s。
 
 ## 极限尝试（部分卸载，速度较慢）
+
 - **Mistral-Small-24B Q4_K_M** （~14 GB） -- 卸载约 30/40 层，预计 10–20 tok/s
 - **Qwen2.5-32B Q3_K_M** （~14 GB） -- 同理，Q3 质量下降明显
 
 ## 快速启动命令
+
 ```bash
 ./llama-server -m qwen5-155_q4_m.gguf \
   -ngl 99 -c 16384 --host 0.0.0.0 --port 8 -fa
 ```
+
 层；`-ngl 99` = 所有层在 GPU；`-fa` = 闪存注意力（节省显卡内存）；如需要更大量化空间，可将 `-c` 降至 8192。
 
 需要我下载一个并跑跑看？

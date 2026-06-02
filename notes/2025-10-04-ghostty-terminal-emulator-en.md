@@ -27,6 +27,7 @@ It's a "passion project" that prioritizes user delight: intuitive controls, auto
 ## Supported Platforms
 
 Ghostty is cross-platform, with native implementations for:
+
 - **macOS**: Built using Swift, AppKit, and SwiftUI for a deeply integrated experience.
 - **Linux**: Implemented in Zig with GTK4 for compatibility across desktop environments like GNOME and KDE.
 
@@ -35,6 +36,7 @@ Windows support is in the roadmap, leveraging the same core library. This native
 ## Architecture
 
 Ghostty's secret sauce is its modular design, centered around `libghostty`—a cross-platform library handling terminal emulation, font rendering, and GPU-accelerated drawing. This core is shared between platforms:
+
 - On macOS, the GUI wraps it in native Swift components.
 - On Linux, Zig code interfaces with GTK4.
 
@@ -45,6 +47,7 @@ This separation allows for potential ecosystem growth, where other apps could em
 Ghostty's features are divided into **terminal features** (end-user enhancements) and **application features** (tools for developers building CLI apps). It ships with hundreds of themes, extensive keybindings, and a configuration file that's simple yet powerful (in TOML format).
 
 ### Terminal Features (For End-Users)
+
 - **Multi-Window, Tabs, and Splits**: Native UI for managing sessions—drag to rearrange, with platform-standard shortcuts (e.g., Cmd+T for new tabs on macOS).
 - **GPU-Accelerated Rendering**: Smooth scrolling and animations via Metal/OpenGL, making even large outputs feel instant.
 - **Themes and Appearance**: Auto-switch based on system dark/light mode; custom themes with ligatures, font features (e.g., auto-italicize), and grapheme clustering for proper emoji and RTL script handling (Arabic/Hebrew, left-to-right only).
@@ -54,6 +57,7 @@ Ghostty's features are divided into **terminal features** (end-user enhancements
 - **Hyperlinks and Inspector**: Clickable links; an interactive Terminal Inspector for debugging escape sequences.
 
 ### Application Features (For Developers)
+
 - **Kitty Protocols**: Full support for graphics (render images in-terminal) and keyboard enhancements.
 - **Synchronized Rendering**: Coordinates updates for smoother app performance.
 - **Light/Dark Mode Notifications**: Apps like Neovim or Zellij can react to theme changes.
@@ -70,6 +74,7 @@ Download from the official site for macOS (.dmg) or Linux (.deb/.rpm/AppImage). 
 Ghostty isn't just another terminal; it's a glimpse at what the command line could be—fast, beautiful, and effortlessly native. If you're tired of compromises, give it a spin.
 
 ## References
+
 - [Ghostty Official Website](https://ghostty.org/)
 - [About Ghostty](https://ghostty.org/docs/about)
 - [Ghostty Features](https://ghostty.org/docs/features)

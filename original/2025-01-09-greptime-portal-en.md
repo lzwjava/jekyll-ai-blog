@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-I submitted a GitHub issue, https://github.com/GreptimeTeam/docs/issues/1455, titled "GreptimeDB Portal: Large Purple Circular Graphic Exceeds the Viewport Boundaries on Smaller Screens."
+I submitted a GitHub issue, <https://github.com/GreptimeTeam/docs/issues/1455>, titled "GreptimeDB Portal: Large Purple Circular Graphic Exceeds the Viewport Boundaries on Smaller Screens."
 
 ![gt_1](https://github.com/user-attachments/assets/d191f9c7-a8c6-4ba6-96c5-9388f69bef30)
 

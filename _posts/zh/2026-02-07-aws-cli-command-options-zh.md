@@ -21,6 +21,7 @@ aws [global options] <service> <operation> [parameters]
 ```
 
 示例：
+
 ```bash
 aws s3 ls s3://my-bucket --recursive --profile dev --region us-east-1 --output table
 ```
@@ -45,6 +46,7 @@ aws s3 ls s3://my-bucket --recursive --profile dev --region us-east-1 --output t
 | `--version`             | —         | 显示 AWS CLI 版本                                                           | 检查安装的版本                               | `aws --version`                              |
 
 **最常用的组合**:
+
 ```bash
 aws ec2 describe-instances \
   --profile sandbox \
@@ -71,6 +73,7 @@ aws ec2 describe-instances   ← 在此处放置全局选项
 3. `--output text` → 简单的制表符分隔，适合 shell 脚本
 
 结合使用的示例：
+
 ```bash
 aws s3api list-objects-v2 \
   --bucket my-bucket \

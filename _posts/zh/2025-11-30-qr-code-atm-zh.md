@@ -27,6 +27,7 @@ type: note
 | **兰州银行** | 支持 | 2019年9月5日 | 区域性银行中的早期采纳者，旗下所有ATM均支持应用扫码取现。单笔限额5,000元，单日限额20,000元，收取0.3%手续费。 |
 
 #### 总体说明
+
 - **服务覆盖**：截至2025年，一线城市（如北京、上海、深圳）超90%主流银行ATM通过银联网络支持该服务。农村地区覆盖持续扩展但存在差异，可留意ATM设备粘贴的“银联二维码取现”标识。
 - **操作流程（标准版）**：1) 打开银行应用，选择取现金额/账户；2) 生成/确认请求（有效期约30-60分钟）；3) 在ATM选择二维码选项调出界面；4) 使用应用扫码，输入密码，提取现金。
 - **使用要求**：需开通手机银行服务、绑定借记卡/信用卡账户且支持银联功能。境外银行卡可在部分ATM使用但有限制（如境外卡单日取现上限10,000元）。
@@ -36,6 +37,7 @@ type: note
 最新动态请查询银行应用或银联ATM定位服务。跨境使用时建议提前通知发卡行以避免风控拦截。
 
 #### 参考资料
+
 - [工行推出二维码取款服务](https://www.icbc.com.cn/icbc/en/newsupdates/icbc%20news/ICBCLaunchesQRCodeWithdrawalService.htm)
 - [兰州银行推行ATM二维码取现](https://www.yicaiglobal.com/news/bank-of-lanzhou-rolls-out-qr-code-withdrawals-at-atms-negates-need-for-debit-card)
 - [建行银联二维码取现](https://www.asia.ccb.com/hongkong/personal/banking_channels/cardless-withdrawal.html)

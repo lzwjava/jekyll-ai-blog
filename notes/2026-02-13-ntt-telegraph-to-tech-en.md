@@ -17,13 +17,16 @@ type: note
 NTT (currently known as **NTT, Inc.**) is Japan's largest telecommunications company and one of the world's leading ICT (Information and Communications Technology) groups. Its history spans over 150 years, evolving from early telegraph services in the Meiji era to a modern global technology conglomerate.
 
 ### Early Beginnings (1868–1952)
+
 The roots of NTT trace back to the early introduction of telecommunications in Japan:
+
 - **1868–1870**: Telegraph services began in Japan shortly after the Meiji Restoration. The first telegraph line connected **Tokyo** and **Yokohama** in 1870 under the Ministry of Communications.
 - **1890**: The first telephone exchange service started in Tokyo and Yokohama.
 - Pre-WWII and wartime periods saw gradual expansion of telephone networks, but growth was limited and heavily disrupted during World War II (subscriber numbers dropped sharply).
 - **Post-WWII reconstruction**: Telecommunications remained under government control through the Ministry of Communications and later the Ministry of Telecommunications.
 
 ### Nippon Telegraph and Telephone Public Corporation (1952–1985)
+
 - **August 1, 1952**: The **Nippon Telegraph and Telephone Public Corporation** (commonly called "Dendenkosha") was established as a government-owned special public corporation. It took over all domestic telephone and telegraph services from the ministries.
 - The primary mission was rapid nationwide expansion of telephone infrastructure during Japan's high-economic-growth period.
 - Key achievements:
@@ -34,6 +37,7 @@ The roots of NTT trace back to the early introduction of telecommunications in J
 - In the late 1970s, NTT announced visionary concepts such as the **INS (Information Network System)** in 1979, an early blueprint for an advanced digital network.
 
 ### Privatization and the Birth of Modern NTT (1985–1999)
+
 - **April 1, 1985**: Under Prime Minister Yasuhiro Nakasone's reforms (similar to those for Japan Tobacco and Japanese National Railways), the public corporation was **privatized** and became **Nippon Telegraph and Telephone Corporation** (still commonly abbreviated as NTT).
 - Goals of privatization: Increase efficiency, introduce competition in telecommunications, and reduce government monopoly.
 - **1987**: NTT shares were listed on the Tokyo Stock Exchange (and later on other exchanges). The IPO was massive — NTT became the world's most valuable company by market capitalization in the late 1980s (peak during the Japanese asset bubble).
@@ -43,6 +47,7 @@ The roots of NTT trace back to the early introduction of telecommunications in J
   - **1992**: NTT Mobile Communications Network (later **NTT DOCOMO** — pioneered mobile internet with i-mode in 1999)
 
 ### Restructuring and Holding Company Structure (1999–2025)
+
 - **1999**: Major reorganization under telecommunications reform laws.
   - NTT became a **pure holding company**.
   - Main operating companies:
@@ -54,6 +59,7 @@ The roots of NTT trace back to the early introduction of telecommunications in J
 - The group expanded globally, especially in data centers, cloud services, managed services, and submarine cables.
 
 ### Recent Era — Global Tech Company and Name Change (2020s)
+
 - NTT Group has transformed into a comprehensive ICT provider with strong focus on:
   - **IOWN** (Innovative Optical and Wireless Network) — next-generation all-photonics network concept
   - AI, quantum computing research, 6G, sustainable technologies
@@ -65,6 +71,7 @@ The roots of NTT trace back to the early introduction of telecommunications in J
   - Operates through numerous subsidiaries in nearly 100 countries
 
 ### Summary Timeline
+
 - **1870** — First telegraph service (Tokyo–Yokohama)
 - **1952** — Nippon Telegraph and Telephone Public Corporation established
 - **1977** — Nationwide telephone service achieved

@@ -120,10 +120,12 @@ cd llvm-project && cmake -DLLVM_ENABLE_PROJECTS="mlir" ...
 This is frontier territory. Actual open GPU cores:
 
 - **Vortex** — RISC-V GPGPU, runs OpenCL, tapes out on FPGA
+
   ```bash
   git clone https://github.com/vortexgpgpu/vortex
   # Runs on Verilator simulation or actual FPGA
   ```
+
 - **NaxRiscv** — out-of-order RISC-V, serious uArch
 - **NVDLA** (NVIDIA open-sourced their DLA) — inference accelerator RTL
 

@@ -18,6 +18,7 @@ type: note
 ## 发生了什么
 
 OpenClaw 将 provider 凭据存储在如下路径的 JSON 文件中：
+
 ```
 /root/.openclaw/agents/main/agent/auth-profiles.json
 ```
@@ -39,11 +40,13 @@ openclaw agents add main
 ### 方案 2：手动编辑 `auth-profiles.json`
 
 1. 打开文件：
+
    ```bash
    nano /root/.openclaw/agents/main/agent/auth-profiles.json
    ```
 
 2. 按预期格式添加你的 OpenRouter key（通常如下所示）：
+
    ```json
    {
      "openrouter": {
@@ -51,6 +54,7 @@ openclaw agents add main
      }
    }
    ```
+
    *（确切的 schema 可能会有所不同 —— 请查看 OpenClaw 的文档以获取正确的结构。）*
 
 3. 保存并重试运行 agent。
@@ -58,6 +62,7 @@ openclaw agents add main
 ### 方案 3：从 main agent 目录复制 auth
 
 错误信息暗示了这一点：
+
 ```bash
 cp /root/.openclaw/agents/main/auth-profiles.json \
    /root/.openclaw/agents/main/agent/auth-profiles.json
@@ -81,6 +86,7 @@ cp /root/.openclaw/agents/main/auth-profiles.json \
 ## 检查 Logs
 
 如需了解失败的更多细节，请运行：
+
 ```bash
 openclaw logs --follow
 ```

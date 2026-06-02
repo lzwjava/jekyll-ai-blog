@@ -34,6 +34,7 @@ This makes the complete 8-byte synchronization sequence:
 The purpose of changing the last byte from 10101010 to 10101011 is to provide a clear, unambiguous indication that the frame data is about to start (breaking the repeating 1010 pattern).
 
 Key points:
+
 - IEEE 802.3 uses **10101011** as SFD.
 - This differs from Ethernet V2 (DIX Ethernet), which also uses 10101011 but has an 8-byte preamble of all 10101010.
 - The choice of 10101011 in IEEE 802.3 was also made to improve compatibility/distinguishability with IEEE 802.4 (Token Bus) and IEEE 802.5 (Token Ring) frame formats.

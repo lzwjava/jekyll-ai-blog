@@ -9,6 +9,7 @@ type: note
 ---
 
 Below is a Python script that compares two single-row CSV files containing strings (e.g., "P0001") and identifies:
+
 - Common items (present in both files)
 - Items unique to the first file
 - Items unique to the second file
@@ -94,7 +95,8 @@ if __name__ == "__main__":
     main()
 ```
 
-### How it works:
+### How it works
+
 1. **Input**: Takes two CSV file paths via command-line arguments.
 2. **Reading**: Reads only the first row from each CSV file.
 3. **Comparison**:
@@ -110,17 +112,21 @@ if __name__ == "__main__":
    - Each section is sorted alphabetically; "None" is written if a section is empty.
 5. **Error Handling**: Catches file-not-found errors and other exceptions.
 
-### Example usage:
+### Example usage
+
 Save the script as `compare_csv.py`. Create two CSV files, e.g.:
+
 - `file1.csv`: `P0001,P0002,P0003`
 - `file2.csv`: `P0001,P0004,P0003`
 
 Run the script:
+
 ```
 python compare_csv.py file1.csv file2.csv
 ```
 
 **Output** (`comparison.txt`):
+
 ```
 Comparison Results:
 
@@ -135,7 +141,8 @@ Items only in second file:
 P0004
 ```
 
-### Notes:
+### Notes
+
 - The script ignores the position of items and focuses only on presence/absence.
 - Duplicate items in a row are automatically handled (sets remove duplicates).
 - The output is written to `comparison.txt` in the directory of the first input file.

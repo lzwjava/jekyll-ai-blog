@@ -19,6 +19,7 @@ The same screenshot functionality existed in two places: `ww screenshot [DELAY]`
 A secondary issue: the help text said `--delay` (implying a flag) but the code uses `delay` as a positional argument.
 
 **How I fixed it — steps:**
+
 1. Read `main.py` and `screenshot.py` to understand the current routing and arg parsing
 2. Confirmed `ww screenshot` and `ww image screenshot` both call the same module (`ww.image.screenshot`) — pure duplicate
 3. In `main.py` help text: removed the two `ww image screenshot*` lines from Image section, added `ww screenshot-linux` to Screenshot section
@@ -36,16 +37,19 @@ A secondary issue: the help text said `--delay` (implying a flag) but the code u
 You explicitly asked for it. The command is conceptually about screenshots, not notes — it creates a note *from* screenshots. Grouping it under `screenshot` makes more semantic sense: "screenshot note" = "make a note about my screenshot."
 
 **How I fixed it — steps (via subagent):**
+
 1. Read `main.py` to understand `_pop_subcmd()` pattern and the current routing
 2. Removed `ww note screenshot-log` from the Note section in help text
 3. Added `ww screenshot note` to the Screenshot section in help text
 4. Removed the `screenshot-log` case from the `note` group handler
 5. Modified the `screenshot` group handler — the tricky part. Previously it was a simple direct call:
+
    ```python
    elif group == "screenshot":
        from ww.image.screenshot import main as m
        m()
    ```
+
    Now it needs to distinguish between `ww screenshot note` and `ww screenshot 3`. The key insight: check `sys.argv[1]` before popping. If it's `"note"`, pop it and route to `screenshot_log`. Otherwise, fall through to the screenshot module with all args intact (so `sys.argv` still has the DELAY number for argparse inside `screenshot.py`).
 6. Updated README: removed from Note table, added to Screenshot table
 7. Verified by running `ww` and checking the output

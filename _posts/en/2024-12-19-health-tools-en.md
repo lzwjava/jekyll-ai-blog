@@ -17,15 +17,18 @@ type: post
 Recently, I bought an electronic blood pressure monitor, a stethoscope, and a vision chart, all of which provided interesting learning experiences.
 
 ### Blood Pressure Monitor
+
 When I tested my blood pressure, I found some variations between my two arms. The first measurement using my left arm showed a systolic pressure of 140mmHg, diastolic pressure of 90mmHg, and a heart rate of 68bpm. The second measurement using my right arm was lower: 120mmHg systolic, 80mmHg diastolic, and 64bpm heart rate.
 
 The experience of using the monitor taught me the importance of technique. Initially, I struggled with properly wrapping the cuff around my arm. I learned that the correct method involves:
+
 1. Wrapping the cuff 360 degrees clockwise around your arm.
 2. Then wrapping an additional 60 degrees counterclockwise.
 
 I also discovered that the iOS health app can be used to record these readings for easy tracking.
 
 ### Stethoscope
+
 In addition to the blood pressure monitor, I bought a stethoscope to learn how to use it. To my surprise, I found an unexpected application: eavesdropping! By placing the chest piece against a wooden door, I was able to hear surprisingly clear sounds from the other side.
 
 <div style="text-align: center;">
@@ -34,6 +37,7 @@ In addition to the blood pressure monitor, I bought a stethoscope to learn how t
 </div>
 
 Beyond just eavesdropping, here are some other interesting uses for a stethoscope:
+
 - Listening Through Walls or Doors: Hear faint sounds from the other side.
 - Detecting Mechanical Noises: Identify problems in machines, like engines or appliances.
 - Detecting Leaks: Listen for air or water leaks in pipes.
@@ -48,6 +52,7 @@ These tools have practical uses, but it's important to use them responsibly and 
 ---
 
 ### Vision Chart
+
 I bought a vision chart to track my natural vision restoration progress. It only cost me around 10 RMB on JD. I installed it on my bedroom wall as shown below.
 
 <div style="text-align: center;">

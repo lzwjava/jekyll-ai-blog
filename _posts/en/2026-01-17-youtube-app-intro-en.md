@@ -17,6 +17,7 @@ type: note
 The **YouTube app** is the official mobile application from Google for watching, discovering, and interacting with videos on smartphones and tablets (available on both **Android** and **iOS**). It provides a richer, more optimized experience compared to using YouTube in a mobile browser.
 
 ### Main Sections/Tabs in the YouTube App
+
 - **Home**: Shows personalized video recommendations based on your watch history, subscriptions, and trending content. It includes Shorts (short-form vertical videos), popular uploads, and mixes.
 - **Explore / Trending**: Lets you browse trending videos, music, gaming, news, movies, learning content, and other categories. You can discover what's popular globally or in your region.
 - **Subscriptions**: Displays the latest videos from channels you follow. Great for keeping up with your favorite creators.
@@ -30,6 +31,7 @@ The **YouTube app** is the official mobile application from Google for watching,
 - **You** (or account/profile tab): Access to your account settings, Premium features, channel management, and more.
 
 ### Key Features of the YouTube Mobile App
+
 - **Video playback**: Swipe or tap to play videos, double-tap to skip forward/backward 10 seconds, pinch-to-zoom for closer view, and adjustable playback speed.
 - **Shorts**: Dedicated short vertical videos (similar to TikTok/Reels), with easy creation tools, remixing, and fast scrolling feed.
 - **Search**: Powerful search with filters, voice search, and suggestions.
@@ -46,6 +48,7 @@ The **YouTube app** is the official mobile application from Google for watching,
   - Picture-in-Picture on all devices
 
 ### Getting Started
+
 1. Download the official YouTube app from Google Play Store (Android) or App Store (iOS).
 2. Sign in with a Google account (or use without signing in for basic viewing).
 3. The app personalizes recommendations over time based on what you watch and like.

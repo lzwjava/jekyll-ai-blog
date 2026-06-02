@@ -24,6 +24,7 @@ It looks like you are encountering an issue with `latex` or `xelatex`, specifica
      ```
      ps aux | grep latex
      ```
+
    * Once you find the PID, use the `kill` command to terminate the process:
 
      ```

@@ -40,6 +40,7 @@ Their flagship HC1 chip (demonstrated in February 2026) achieves **~14,000–17,
    - **Path to "ubiquitous AI"** — Taalas explicitly aims for this: inference so fast and cheap that AI becomes ambient, always-on, and embedded in far more workflows.
 
 ### Caveats
+
 - Current demos focus on smaller models (8B–reasoning models planned for spring 2026); frontier-scale models (hundreds of billions/trillions of parameters) will require chip clusters, though simulations already show strong results (e.g., ~12k t/s/user on DeepSeek R1 with ~30 chips).
 - Extreme quantization and specialization may reduce accuracy in some edge cases.
 - Adoption depends on ecosystem momentum, software integration, and whether cloud providers or enterprises commit at scale.

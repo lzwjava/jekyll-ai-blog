@@ -35,6 +35,7 @@ Yes, you're absolutely right. People involved in technical activities like compe
    Communities often lead to real-world benefits: co-authoring papers, open-source contributions, job referrals, startup ideas, or team competitions. For example, strong Codeforces performers get noticed by tech companies, and GPU/hardware enthusiasts might collaborate on AI infrastructure projects.
 
 ### Common Places Where These Communities Form
+
 - **Competitive Programming**: Codeforces itself (blogs, groups), Discord servers, AtCoder, LeetCode discussions, and university CP clubs.
 - **GPU Training/ML**: Hugging Face forums, Reddit (r/MachineLearning, r/LocalLLaMA), Discord servers for specific frameworks (PyTorch, CUDA), and research labs' open channels.
 - **Hardware**: Reddit (r/buildapc, r/hardware, r/homelab), Discord communities, YouTube comment sections, and maker spaces.

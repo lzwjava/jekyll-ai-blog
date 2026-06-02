@@ -201,6 +201,7 @@ python3 train.py config/train_fineweb.py
 ---
 
 **Summary:**
+
 1. `git clone nanoGPT` + `pip install torch tiktoken`
 2. Run `prepare.py` (tokenizes + deletes raw text to free 61GB)
 3. `python3 train.py config/train_fineweb.py`

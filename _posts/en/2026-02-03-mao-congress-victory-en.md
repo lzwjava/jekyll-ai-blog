@@ -12,13 +12,14 @@ type: note
 
 The **7th National Congress of the Chinese Communist Party** (中国共产党第七次全国代表大会), often called the **Seventh Party Congress** or simply **"Qidahuì"** (七大会), was a pivotal meeting held in Yan'an from April 23 to June 11, 1945.
 
-## Key Points:
+## Key Points
 
 **Historical Context:** The congress took place near the end of World War II and the Second Sino-Japanese War, during a critical transition period for the Communist Party.
 
 **Significance:** This was the first party congress held after a 17-year gap (the previous one was in 1928), making it a major milestone in consolidating the party's direction and leadership.
 
 **Major Outcomes:**
+
 - Officially established **Mao Zedong Thought** (毛泽东思想) as the party's guiding ideology
 - Solidified Mao Zedong's position as the paramount leader
 - Adopted a new party constitution

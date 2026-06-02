@@ -11,12 +11,14 @@ type: note
 要将你的 `algorithm-solutions` 代码库转换为由 Maven 管理的多模块 Java 项目，你需要在根目录中放置一个父级 `pom.xml`，并为每个子模块（`nowcoder` 和 `uva`）分别创建独立的 `pom.xml` 文件。父级 `pom.xml` 将定义通用配置并管理子模块，而每个子模块的 `pom.xml` 将处理其特定设置。
 
 下面，我将提供父项目和两个子模块的 `pom.xml` 文件。我假设：
+
 - 项目使用 Java 17（现代项目的常用版本；如有需要可调整）。
 - `nowcoder` 和 `uva` 目录包含标准 Maven 结构（`src/main/java`）中的 Java 源文件。
 - 目前不需要外部依赖，但该结构允许轻松添加。
 - 每个子模块将打包为 JAR（因为这些很可能是独立的算法解决方案）。
 
 ### 目录结构
+
 设置完成后，你的目录结构应如下所示：
 
 ```
@@ -38,6 +40,7 @@ algorithm-solutions/
 ```
 
 ### 父级 `pom.xml`
+
 该文件位于根目录（`algorithm-solutions/pom.xml`）。它定义了父项目，列出了子模块，并设置了通用配置，如 Java 版本和编译器设置。
 
 ```xml
@@ -82,6 +85,7 @@ algorithm-solutions/
 ```
 
 ### Nowcoder 子模块 `pom.xml`
+
 该文件位于 `nowcoder` 目录（`nowcoder/pom.xml`）。它继承自父级，并指定其自身的构件详情。
 
 ```xml
@@ -120,6 +124,7 @@ algorithm-solutions/
 ```
 
 ### UVA 子模块 `pom.xml`
+
 该文件位于 `uva` 目录（`uva/pom.xml`）。它也继承自父级，并指定其自身的构件详情。由于 UVA 解决方案通常没有单一的 `Main` 类（每个问题可能是一个独立的程序），我在此不指定主类，但如有需要，你可以添加一个。
 
 ```xml
@@ -151,6 +156,7 @@ algorithm-solutions/
 ```
 
 ### 设置步骤
+
 1. **创建 Maven 目录结构**：
    - 将 `nowcoder` 中的 Java 文件移动到 `nowcoder/src/main/java/`。
    - 将 `uva` 中的 Java 文件移动到 `uva/src/main/java/`。
@@ -167,15 +173,19 @@ algorithm-solutions/
 
 4. **运行特定程序**：
    - 对于 `nowcoder`，如果 `Main.java` 是入口点，你可以使用以下命令运行：
+
      ```bash
      mvn -pl nowcoder exec:java -Dexec.mainClass="Main"
      ```
+
    - 对于 UVA 解决方案，由于每个文件可能是一个独立的程序，你可以使用以下命令运行特定类（例如 `100.java`）：
+
      ```bash
      mvn -pl uva exec:java -Dexec.mainClass="100"
      ```
 
 ### 注意事项
+
 - **Java 版本**：我使用了 Java 17。如果你需要不同的版本，请在父级 `pom.xml` 中更新 `<maven.compiler.source>` 和 `<maven.compiler.target>` 属性。
 - **依赖项**：如果你的解决方案需要库（例如用于输入/输出工具），请在子模块的 `pom.xml` 中的 `<dependencies>` 部分添加它们。
 - **文件命名**：确保你的 Java 文件与类名匹配（例如，`100.java` 应包含 `public class 100`）。

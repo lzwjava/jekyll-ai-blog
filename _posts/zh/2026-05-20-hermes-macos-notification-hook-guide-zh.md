@@ -111,4 +111,4 @@ sudo codesign --force --sign - /opt/homebrew/bin/terminal-notifier
 - **添加模型名称：** 在 Python 提取部分添加 `model = data.get('extra', {}).get('model', '')[:20]`，然后追加到副标题
 - **不同提示音：** 将 `"Glass"` 替换为 `"Basso"`、`"Frog"`、`"Pop"`、`"Submarine"`、`"Tink"` 或 `~/Library/Sounds/` 中的任何文件
 - **按平台过滤：** 如果平台是 `gateway`（来自 Telegram 等机器人的回复），则跳过通知
-- **静默模式：** 如果 `subtitle` 以 `msg:  ` 开头（空消息 — 可能是定时任务？），则跳过
+- **静默模式：** 如果 `subtitle` 以 `msg:` 开头（空消息 — 可能是定时任务？），则跳过

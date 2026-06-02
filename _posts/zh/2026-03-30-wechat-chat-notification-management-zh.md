@@ -30,6 +30,7 @@ type: note
 你可以屏蔽特定联系人的通知，这样如果他们发送过多消息，你仍然能接收到其他人的通知。这是个人聊天设置中的 "Mute Notifications" 选项。
 
 步骤：
+
 1. 打开一对一聊天窗口
 2. 点击右上角的 **"..."**（三个点）图标
 3. 开启 **"Mute Notifications"**
@@ -49,15 +50,19 @@ type: note
 ## 忙碌时管理通知的额外技巧
 
 ### 使用 "Do Not Disturb" (全局免打扰)
+
 进入 **WeChat → Me → Settings → Do Not Disturb**，然后开启 "Do Not Disturb"，在设定的时间段内屏蔽通知。你可以静音所有聊天的通知，同时仍允许接听电话。
 
 ### 为重要联系人使用 "Alert" 功能
+
 "Alert" 功能允许你在收到特定联系人的下一条消息时获得一次性提醒。当你预计在接下来的 3 小时内会有来自某人的重要回复时，可以使用此功能作为提醒，以免错过。WeChat 会在收到第一条消息时触发提醒，然后自动关闭该选项。
 
 ### Night Mode (夜晚模式)
+
 你可以选择 "Night Mode"，它会关闭 22:00 到 08:00 之间的所有通知。进入 **Me > Settings > Message Notifications > Other Feature Alerts**，选择 "Night Mode"。
 
 ### Sticky on Top (置顶聊天，针对优先级联系人)
+
 "Sticky on Top" 选项确保特定的聊天始终出现在 WeChat 列表的最顶部。进入聊天，点击右上角的三个点，然后开启 "Sticky on Top"。这样，即使你暂时屏蔽了某人，也不会漏掉他们的聊天动态。
 
 ---

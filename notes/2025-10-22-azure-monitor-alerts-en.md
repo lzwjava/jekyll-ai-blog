@@ -17,6 +17,7 @@ Azure Monitor alerts are a feature of Azure Monitor that proactively notify you 
 Alerts are stateful (they resolve automatically when the issue clears) or stateless (they fire repeatedly until manually closed), depending on your configuration. They support monitoring across single or multiple resources and are charged based on the number of time series monitored.
 
 #### Types of Alerts
+
 Azure Monitor supports several alert types tailored to different data sources:
 
 | Alert Type              | Description | Best For |
@@ -30,11 +31,13 @@ Azure Monitor supports several alert types tailored to different data sources:
 For most use cases, start with metric or log alerts.
 
 ### Prerequisites
+
 - An Azure subscription with active resources to monitor.
 - Permissions: Reader role on the target resource, Contributor on the resource group for the alert rule, and Reader on any action groups.
 - Familiarity with the Azure portal (portal.azure.com).
 
 ### How to Create and Use a Metric Alert Rule (Step-by-Step)
+
 Metric alerts are a common starting point. Here's how to create one in the Azure portal. This process takes about 5-10 minutes.
 
 1. **Sign in to the Azure Portal**: Go to [portal.azure.com](https://portal.azure.com) and log in.
@@ -89,12 +92,14 @@ Metric alerts are a common starting point. Here's how to create one in the Azure
 Once created, the alert will fire when conditions are met, sending notifications and updating its status (e.g., "Fired" to "Resolved").
 
 #### Managing Alerts
+
 - **View Alerts**: In Monitor > Alerts, see active/fired alerts. Filter by time, severity, or resource.
 - **Edit a Rule**: Go to Monitor > Alerts > Alert rules, select the rule, and click **Edit**.
 - **Test**: Use the preview in step 4 to simulate.
 - **Scale**: For multiple resources, use Azure CLI/PowerShell or ARM templates. Enable built-in recommended rules via resource insights.
 
 ### Best Practices
+
 - Start simple: One condition per rule initially.
 - Use dynamic thresholds for noisy metrics to reduce false positives.
 - Integrate with action groups for automated remediation (e.g., scale up a VM).

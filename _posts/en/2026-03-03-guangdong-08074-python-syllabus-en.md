@@ -20,6 +20,7 @@ This is a 3-credit written exam (笔试) course, usually paired with a 2-credit 
 As of 2026, the course uses **Python** as the primary programming language.
 
 **Textbook (as used in Guangdong self-study exam from recent years, including 2026 arrangements):**
+
 - Title: Python语言程序设计基础教程 (Python Programming Fundamentals Tutorial)
 - Authors: 傅清平 (Fu Qingping), 李雪斌 (Li Xuebin), 徐文 (Xu Wen) 等
 - Publisher: 清华大学出版社 (Tsinghua University Press)
@@ -44,18 +45,21 @@ Main topics usually include:
 - **Advanced Topics**: generators, iterators, context managers, multithreading/multiprocessing basics.
 
 **Exam Focus:**
+
 - Theoretical understanding of language features and programming paradigms.
 - Ability to write, analyze, and debug Python code.
 - Problem-solving with algorithms and data structures in Python.
 - Practical application through coding problems.
 
 The exam is typically a combination of:
+
 - Multiple-choice / true-false questions on concepts.
 - Short-answer / fill-in-the-blank on syntax and features.
 - Programming problems (write code snippets or complete functions).
 - Analysis of given code.
 
 For the most accurate and up-to-date syllabus details (knowledge points, assessment requirements, and any chapter breakdowns), candidates should:
+
 - Check the official Guangdong Education Examination Authority website (eea.gd.gov.cn).
 - Refer to the course syllabus/exam outline published in the Guangdong Self-study Exam Management System (under professional plan section for 080901).
 - Use the designated textbook above, as many exam outlines align closely with its chapters.

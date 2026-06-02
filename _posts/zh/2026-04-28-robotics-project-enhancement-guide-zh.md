@@ -109,6 +109,7 @@ MIT / Apache-2.0
 关键的Rust最佳实践：
 
 - **使用工作区**，如果您有多个Rust crate（例如，`world_model`、`comms`、`planner`）：
+
   ```toml
   # 根目录 Cargo.toml
   [workspace]
@@ -123,6 +124,7 @@ MIT / Apache-2.0
   - `dora-rs` — 一个为机器人AI设计的低延迟、可组合、分布式数据流框架
 
 - **在每次提交前运行 `clippy` 和 `rustfmt`**：
+
   ```bash
   cargo clippy -- -D warnings
   cargo fmt --check
@@ -135,6 +137,7 @@ MIT / Apache-2.0
 使用 GitHub Actions，在每次推送或拉取请求时触发，使用最新的稳定Rust工具链运行测试、代码检查（linting）和构建。
 
 示例 `.github/workflows/rust.yml`：
+
 ```yaml
 name: Rust CI
 on: [push, pull_request]

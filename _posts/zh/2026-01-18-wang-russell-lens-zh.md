@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question:** 根据《不幸福的代价》（*The Conquest of Happiness*），王垠（来自 https://www.yinwang.org）是否过着幸福的生活？
+**Question:** 根据《不幸福的代价》（*The Conquest of Happiness*），王垠（来自 <https://www.yinwang.org）是否过着幸福的生活？>
 
 **Answer:**
 
@@ -19,6 +19,7 @@ Bertrand Russell 的《不幸福的代价》（1930年）将不幸福归因于�
 王垠（yinwang.org 的作者）是一位拥有超过 20 年经验的 Computer Science 教育者和 Programmer。他的 Blog 专注于对 Programming 概念进行深入的、从零开始（ground-up）的解释，创新的教学方法（包括课程和实验），对教育/AI 的批判，以及偶尔涉及的个人话题，如自然视力恢复、大提琴学习或环境问题（例如对英国空气质量的投诉）。他正在撰写一本名为 *Ground-Up Computer Science* 的书，并运营着教学项目，并展示了学生的成功案例。
 
 从 Russell 的观点来看：
+
 - **Zest 与兴趣**：王垠对 Computer Science 基础、教学创新及相关实验表现出持久的智力热情。这种对有意义工作的深度投入，非常符合 Russell 的观点，即对世界的积极兴趣（尤其是非功利性的追求）是幸福的主要来源。
 - **工作**：他的主要活动——创建课程、编写技术内容和教育他人——是建设性的，且看起来令人满足，这契合了 Russell 对工作作为幸福核心要素的强调，即工作能提供目标感和成就感。
 - **向外关注**：他强调帮助他人学习（例如易于负担的教育、学生的进步），而不是单纯的自我关注。

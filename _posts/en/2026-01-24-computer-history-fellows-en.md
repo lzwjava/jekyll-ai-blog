@@ -16,7 +16,7 @@ type: note
 
 The Computer History Museum (CHM) recognizes distinguished technology pioneers through its **CHM Fellow Awards** program, which began in 1987 with the first Fellow, Grace Murray Hopper. The program honors individuals (and occasionally teams) for their outstanding contributions to computing and the evolution of the information age. Fellows are inducted into the museum's **Hall of Fellows**.
 
-The complete and up-to-date list of all Fellows is maintained on the official CHM website at the **Hall of Fellows** page: https://computerhistory.org/hall-of-fellows. This page showcases all honorees, including recent classes.
+The complete and up-to-date list of all Fellows is maintained on the official CHM website at the **Hall of Fellows** page: <https://computerhistory.org/hall-of-fellows>. This page showcases all honorees, including recent classes.
 
 Some notable past and recent Fellows include:
 

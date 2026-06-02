@@ -26,9 +26,11 @@ Students born in 2012 are now around **13–14 years old**, currently in **middl
 ## The AI Homework Reality
 
 ### In China
+
 A survey of around 700 secondary school students in northern China found that 40% had used mainland chatbots such as DeepSeek, Doubao, and Kimi for their winter break homework. About 31% used AI tools to understand questions and learn subjects, while 28% used them for information gathering and compilation.
 
 ### Globally
+
 Between May and December 2025, the percentage of middle school, high school, and college students using AI for homework rose from 48% to 62%, based on nationally representative survey data from RAND's American Youth Panel. The increase was driven largely by middle and high school students.
 
 So yes — your observation is correct. This is a **global, mainstream phenomenon**, not a fringe behavior.

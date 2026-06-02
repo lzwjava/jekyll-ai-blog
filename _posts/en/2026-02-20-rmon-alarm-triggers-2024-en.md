@@ -24,20 +24,22 @@ RMON is a standard monitoring specification that enables various network agents 
 The Alarm Group is designed to periodically take statistical samples from variables in the MIB and compare them against previously configured values. Its primary purpose is to detect when network performance metrics deviate from acceptable norms.
 
 **3. Mechanism of Alarm Triggering**
-*   **Sampling:** The network device samples specific performance variables (such as bandwidth utilization, packet errors, etc.) at regular intervals.
-*   **Threshold Comparison:** These sampled values are compared against configured **thresholds**. There are typically two types of thresholds:
-    *   **Rising Threshold:** Triggers an alarm if the value goes above this limit.
-    *   **Falling Threshold:** Triggers an alarm if the value goes below this limit.
-*   **Event Generation:** When a sampled value crosses (exceeds or falls below) these **thresholds**, an alarm event is generated and sent to the management console.
+
+* **Sampling:** The network device samples specific performance variables (such as bandwidth utilization, packet errors, etc.) at regular intervals.
+* **Threshold Comparison:** These sampled values are compared against configured **thresholds**. There are typically two types of thresholds:
+  * **Rising Threshold:** Triggers an alarm if the value goes above this limit.
+  * **Falling Threshold:** Triggers an alarm if the value goes below this limit.
+* **Event Generation:** When a sampled value crosses (exceeds or falls below) these **thresholds**, an alarm event is generated and sent to the management console.
 
 **4. Analysis of Options**
-*   **A (Minimum) & B (Maximum):** While thresholds can represent minimum or maximum acceptable limits, the technical term for the boundary that triggers an alarm in the RMON specification is a "threshold."
-*   **C (Threshold):** This is the correct terminology. The RMON Alarm Group specifically defines "alarm thresholds" that, when crossed, generate events.
-*   **D (Default):** Alarms are generated based on configured limits specific to the network's requirements, not merely based on factory default values.
+
+* **A (Minimum) & B (Maximum):** While thresholds can represent minimum or maximum acceptable limits, the technical term for the boundary that triggers an alarm in the RMON specification is a "threshold."
+* **C (Threshold):** This is the correct terminology. The RMON Alarm Group specifically defines "alarm thresholds" that, when crossed, generate events.
+* **D (Default):** Alarms are generated based on configured limits specific to the network's requirements, not merely based on factory default values.
 
 **Conclusion:**
 An alarm event is generated at the console when network performance metrics exceed the **threshold** (门限值) defined by the RMON alarm group.
 
 References:
 
-- [RFC 2819 - Remote Network Monitoring Management Information Base](https://datatracker.ietf.org/doc/html/rfc2819)
+* [RFC 2819 - Remote Network Monitoring Management Information Base](https://datatracker.ietf.org/doc/html/rfc2819)

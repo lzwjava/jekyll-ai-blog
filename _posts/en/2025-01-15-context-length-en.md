@@ -17,7 +17,7 @@ According to their documentation: [https://api-docs.deepseek.com/quick_start/pri
 
 Here's a comparison of context window sizes for several other models:
 
-*   **Claude 3 Family:** Launched in March 2024, these models offer context windows starting at 200,000 tokens.
-*   **GPT-4:** The standard version has a context window of 8,192 tokens, while the extended version (GPT-4-32k) supports 32,768 tokens.
-*   **Meta's LLaMA 2:** The base model supports 4,096 tokens, but fine-tuned versions can handle up to 16,384 tokens.
-*   **Mistral 7B:** Supports a context window of 8,000 tokens.
+* **Claude 3 Family:** Launched in March 2024, these models offer context windows starting at 200,000 tokens.
+* **GPT-4:** The standard version has a context window of 8,192 tokens, while the extended version (GPT-4-32k) supports 32,768 tokens.
+* **Meta's LLaMA 2:** The base model supports 4,096 tokens, but fine-tuned versions can handle up to 16,384 tokens.
+* **Mistral 7B:** Supports a context window of 8,000 tokens.

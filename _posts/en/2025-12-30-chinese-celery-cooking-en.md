@@ -17,12 +17,14 @@ Answer:
 Celery, known as 芹菜 (qíncài) in Chinese, is a popular ingredient in Chinese cuisine. Chinese celery differs from Western celery: it has thinner stalks, a stronger, more aromatic flavor (pungent when raw, mellow and sweet when cooked), and is rarely eaten raw. It's commonly used in stir-fries, soups, salads, and fillings for dumplings or buns. The leaves are nutritious (higher in vitamins than stalks) and can be used in dishes or soups.
 
 ### Common Ways to Use Celery in Chinese Cooking
+
 - **Stir-frying**: The most popular method. Quick high-heat cooking keeps it crisp-tender and enhances its flavor.
 - **Cold salads**: Blanched and tossed with seasonings for a refreshing appetizer.
 - **Soups and stews**: Adds aroma and freshness.
 - **Fillings**: Chopped for dumplings, meat pies, or zhajiangmian noodles.
 
 ### Popular Chinese Dishes with Celery
+
 1. **Stir-fried Celery with Pork (芹菜炒肉)**
    A classic home-style dish, especially in Beijing. Thinly sliced pork is marinated, stir-fried, then combined with celery for a savory, crunchy result.
 
@@ -42,6 +44,7 @@ Celery, known as 芹菜 (qíncài) in Chinese, is a popular ingredient in Chines
    Spicy Sichuan version with dried chilies.
 
 ### Basic Stir-fry Tips for Celery
+
 - Wash and cut into 2-3 inch pieces on the diagonal.
 - Peel stringy fibers if using thicker Western celery.
 - Blanch briefly (30-60 seconds) in boiling water for brighter color and tenderness, then shock in ice water.
@@ -49,7 +52,9 @@ Celery, known as 芹菜 (qíncài) in Chinese, is a popular ingredient in Chines
 - Cook quickly (2-4 minutes) to keep it crisp.
 
 ### Simple Recipe: Basic Stir-fried Celery with Pork
+
 **Ingredients** (serves 2-3):
+
 - 400g Chinese celery, cut into segments
 - 200g pork (thinly sliced)
 - 2 garlic cloves, minced
@@ -60,6 +65,7 @@ Celery, known as 芹菜 (qíncài) in Chinese, is a popular ingredient in Chines
 - Salt and oil
 
 **Steps**:
+
 1. Marinate pork with soy sauce, cornstarch, and a splash of wine for 10 minutes.
 2. Heat oil in wok, stir-fry pork until cooked; remove.
 3. Add garlic, ginger, chilies; stir-fry briefly.

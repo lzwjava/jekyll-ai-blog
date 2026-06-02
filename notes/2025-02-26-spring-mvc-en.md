@@ -15,6 +15,7 @@ To use **Spring MVC** without **Spring Boot**, you need to manually configure th
 ## Step-by-Step Guide
 
 ### 1. Set Up the Project Structure
+
 Create a standard web application structure. You can use an IDE like IntelliJ or Eclipse, or manually create the folders. The structure should look like this:
 
 ```
@@ -39,6 +40,7 @@ SimpleSpringMVCApp/
 - **`src/main/webapp/WEB-INF`**: Contains configuration files (`web.xml`, `spring-mvc-config.xml`) and JSP views.
 
 ### 2. Add Dependencies
+
 If you're using Maven, include the required dependencies in your `pom.xml`. For a simple Spring MVC application, you need the Spring Web MVC library and the Servlet API (provided by the container).
 
 Create or edit `pom.xml` with the following:
@@ -86,6 +88,7 @@ Create or edit `pom.xml` with the following:
   - If you're not using Maven, manually download the Spring MVC JARs and Servlet API JARs and add them to your project's classpath.
 
 ### 3. Configure the DispatcherServlet in `web.xml`
+
 The `web.xml` file is the deployment descriptor for your web application. It configures the `DispatcherServlet`, Spring MVC's front controller, to handle incoming requests.
 
 Create `src/main/webapp/WEB-INF/web.xml` with the following content:
@@ -122,6 +125,7 @@ Create `src/main/webapp/WEB-INF/web.xml` with the following content:
   - `<url-pattern>/</url-pattern>`: Maps the servlet to handle all requests to the application.
 
 ### 4. Create the Spring Configuration File
+
 Create `src/main/webapp/WEB-INF/spring-mvc-config.xml` to define Spring MVC beans, such as controllers and view resolvers.
 
 ```xml
@@ -155,6 +159,7 @@ Create `src/main/webapp/WEB-INF/spring-mvc-config.xml` to define Spring MVC bean
   - `InternalResourceViewResolver`: Maps view names to JSP files in `/WEB-INF/views/` with a `.jsp` suffix.
 
 ### 5. Create a Simple Controller
+
 Create a controller to handle HTTP requests. Add `HomeController.java` in `src/main/java/com/example/controllers/`:
 
 ```java
@@ -179,6 +184,7 @@ public class HomeController {
   - `return "home"`: Returns the view name `"home"`, which resolves to `/WEB-INF/views/home.jsp`.
 
 ### 6. Create a JSP View
+
 Create a simple JSP file to display the output. Add `home.jsp` in `src/main/webapp/WEB-INF/views/`:
 
 ```jsp
@@ -194,6 +200,7 @@ Create a simple JSP file to display the output. Add `home.jsp` in `src/main/weba
 ```
 
 ### 7. Build and Package the Application
+
 If using Maven, run the following command from the project root to build the WAR file:
 
 ```bash
@@ -205,11 +212,14 @@ This generates `SimpleSpringMVCApp-1.0-SNAPSHOT.war` in the `target` directory.
 - **Note**: If not using Maven, compile the Java files and package the project into a WAR file manually, maintaining the folder structure.
 
 ### 8. Deploy the Application
+
 Deploy the WAR file to a servlet container like Apache Tomcat:
+
 - Copy `SimpleSpringMVCApp-1.0-SNAPSHOT.war` to the `webapps` directory of your Tomcat installation.
 - Start Tomcat (e.g., run `startup.sh` or `startup.bat` from the Tomcat `bin` directory).
 
 ### 9. Access the Application
+
 Open a browser and navigate to:
 
 ```
@@ -217,6 +227,7 @@ http://localhost:8080/SimpleSpringMVCApp-1.0-SNAPSHOT/
 ```
 
 You should see:
+
 ```
 Welcome to Spring MVC without Spring Boot
 ```
@@ -226,7 +237,9 @@ Welcome to Spring MVC without Spring Boot
 ---
 
 ## Summary
+
 To use **Spring MVC without Spring Boot**:
+
 1. **Set up a web project** with a standard structure.
 2. **Add dependencies** for Spring MVC and the Servlet API.
 3. **Configure the DispatcherServlet** in `web.xml`.

@@ -50,6 +50,7 @@ Yes, that's very accurate for 2025–2026 — especially for most hobbyists, stu
    - Doing extremely low-level bare-metal work where every datasheet paragraph matters and you're already an expert
 
 For almost everyone else — especially when
+
 - combining parts from different vendors
 - trying a new sensor/module
 - porting code between platforms

@@ -114,6 +114,7 @@ ET.tostring(root, encoding='unicode')
 ```
 
 ### 注意事项
+
 - 处理命名空间时在查询中使用 `xmlns='{命名空间}'`，例如 `root.find('{http://example.com}tag')`
 - 处理大文件时可考虑使用 `ET.iterparse()` 进行迭代解析
 - 处理用户输入的 XML 时需警惕 XML 注入等安全漏洞

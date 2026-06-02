@@ -83,6 +83,7 @@ Here’s how to do it:
    Instead, stick with direct execution or `&`.
 
 ### Example Script
+
 Here’s a sample PowerShell script to run `mvn` and a WebSphere command in the current terminal:
 
 ```powershell
@@ -101,6 +102,7 @@ Write-Output "Starting WebSphere server..."
 ```
 
 ### Notes
+
 - Ensure the command-line tools (`mvn`, `startServer.bat`, etc.) are in your PATH or provide the full path to the executable.
 - If the command requires a specific working directory, use `Set-Location` (or `cd`) before running it:
 

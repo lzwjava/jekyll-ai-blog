@@ -164,6 +164,7 @@ plt.show()
 ```
 
 ### 工作原理（与论文关联）
+
 - **DecisionStump**：弱学习器通过单次分裂最小化MSE（类似论文中的浅层树）。为在小数据上保持效率，采用暴力搜索阈值。
 - **GradientBoostingRegressor**：
   - 从 \\( F_0 = \bar{y} \\) 开始（平方损失最小化器）。

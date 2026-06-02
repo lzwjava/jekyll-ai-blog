@@ -39,6 +39,7 @@ cat ~/.hermes/sessions/<session_id>.json | python3 -m json.tool | grep -A5 "usag
 ```
 
 The `usage` object in each API response follows the standard Anthropic shape:
+
 ```json
 {
   "input_tokens": 14200,

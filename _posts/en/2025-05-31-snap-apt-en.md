@@ -11,6 +11,7 @@ type: note
 **Snap** and **Apt** are both package management systems used in Linux, particularly on Ubuntu and Debian-based distributions, but they serve different purposes and have distinct characteristics. Here's a concise comparison:
 
 ### **Snap**
+
 - **Definition**: Snap is a universal package management system developed by Canonical, designed to work across different Linux distributions.
 - **Key Features**:
   - **Cross-Distribution**: Snaps are distribution-agnostic, meaning a single snap package can run on Ubuntu, Fedora, Arch, etc.
@@ -25,6 +26,7 @@ type: note
   - **File Format**: `.snap` files.
 
 ### **Apt**
+
 - **Definition**: Apt (Advanced Package Tool) is the traditional package manager for Debian-based systems like Ubuntu.
 - **Key Features**:
   - **System-Specific**: Designed for Debian/Ubuntu, tightly integrated with the system's package repositories.
@@ -53,10 +55,12 @@ type: note
 | **File Format**        | `.snap`                          | `.deb`                          |
 
 ### **When to Use**
+
 - **Use Snap**: For modern, cross-platform apps or when you want isolation and automatic updates (e.g., installing a GUI app like VS Code or Firefox).
 - **Use Apt**: For system-level packages, smaller footprint, or when integrating tightly with the OS (e.g., installing `nginx` or `python3`).
 
 ### **Example**
+
 - Install Firefox via Snap: `sudo snap install firefox`
 - Install Firefox via Apt: `sudo apt install firefox`
 

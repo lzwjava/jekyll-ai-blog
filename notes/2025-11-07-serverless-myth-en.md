@@ -19,9 +19,11 @@ Here's the reality check on "serverless" real-time communication:
 While **WebRTC** and other P2P technologies *do* enable direct connections, calling them "serverless" is misleading. You still need:
 
 ### 1. **Signaling Servers** (Mandatory)
+
 Before peers can connect directly, they must exchange metadata (IP addresses, encryption keys, session descriptions). This requires a temporary "meeting point" server. RustDesk uses this for ID/PW exchange, and WebRTC apps need signaling channels like WebSockets.
 
 ### 2. **NAT Traversal Infrastructure** (Practically Mandatory)
+
 Most devices are behind NATs/firewalls. **UDP hole punching** can establish direct connections, but it has critical limitations:
 
 - **Works**: For cone NATs when both peers coordinate simultaneous outbound packets
@@ -29,11 +31,13 @@ Most devices are behind NATs/firewalls. **UDP hole punching** can establish dire
 - **Requires**: **STUN servers** to discover public addresses and coordinate the "punch"
 
 ### 3. **TURN Relay Servers** (Essential Fallback)
+
 When hole punching fails (30-50% of cases), you **must** have a relay server (TURN) that forwards encrypted traffic. Without this, your app simply won't connect for many users.
 
 ## RustDesk Reality: Not Pure P2P
 
 RustDesk's "P2P" is actually:
+
 - **Direct mode**: Attempts UDP hole punching for direct connection
 - **Relay fallback**: **Self-hosted server** acts as TURN relay when direct fails
 - **Self-hosting**: You control the infrastructure, but infrastructure is still required
@@ -43,12 +47,14 @@ RustDesk's "P2P" is actually:
 Apps like **Secretum** (Solana-based), **DMail**, or **Matrix** do offer decentralized chat:
 
 ### ✅ **Advantages**
+
 - **Wallet-based identity**: No phone numbers/emails required
 - **End-to-end encryption**: XMTP protocol encrypts messages
 - **Federation**: Matrix servers can interconnect like email
 - **Censorship-resistant**: No single point of failure
 
 ### ❌ **Challenges**
+
 - **Scalability**: Pure P2P mesh networks break down with >4-6 participants (exponential bandwidth growth)
 - **Reliability**: Message delivery isn't guaranteed without persistent servers
 - **Mobile battery**: Constant P2P connections drain devices
@@ -77,4 +83,5 @@ Apps like **Secretum** (Solana-based), **DMail**, or **Matrix** do offer decentr
 4. **For true decentralization**: **Emerging**. Protocols like **QUIC-based P2P** aim to improve hole punching, but widespread symmetric NAT support remains unsolved.
 
 ### Bottom Line
+
 You can build **open-source, self-hosted, encrypted** communication that *minimizes* central servers, but **eliminating them entirely creates unreliable, unscalable apps**. The future is likely **hybrid**: P2P where possible, self-hosted relays where necessary, and blockchain for identity/storage—not as a complete server replacement.

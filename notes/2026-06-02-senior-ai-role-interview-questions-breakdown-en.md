@@ -66,6 +66,7 @@ Ah — **interview questions** for senior AI/agent/full-stack roles. Yeah, here'
 - **Understand failure modes**: What breaks with LLM systems? Hallucinations? Latency spikes? Token limits? Show you've debugged real systems.
 
 **For your specific profile**, emphasize:
+
 - Agent architecture (ww, iclaw, zz — walk them through)
 - Fine-tuning on domain data (financial systems are perfect)
 - Inference optimization at scale (H100 batching, quantization)

@@ -11,6 +11,7 @@ type: note
 Arduino Uno、Uno R3 和 Uno Mini 是热门 Arduino 微控制器板的不同版本，各自在设计、功能和应用场景上存在差异。以下是基于关键差异的简明对比：
 
 ### 1. **Arduino Uno（原版）与 Arduino Uno R3**
+
 Arduino Uno 和 Uno R3 本质上是同一款开发板，Uno R3 是原版 Uno 的第三次修订版（R3）。差异主要体现在可用性和兼容性的改进上。
 
 - **微控制器**：均采用 **ATmega328P**（8 位 AVR 架构，16 MHz 时钟频率）。
@@ -30,6 +31,7 @@ Arduino Uno 和 Uno R3 本质上是同一款开发板，Uno R3 是原版 Uno 的
 **核心差异**：Uno R3 是原版 Uno 的改进版本，具有更好的扩展板兼容性和更可靠的 USB 接口。对大多数用户而言，R3 是更优选择，因为它是当前标准版本。
 
 ### 2. **Arduino Uno R3 与 Arduino Uno Mini 限量版**
+
 Arduino Uno Mini 限量版是 Uno R3 的紧凑型特别版本，专为收藏家和需要小尺寸的项目设计。
 
 - **微控制器**：均采用 **ATmega328P**（8 位 AVR 架构，16 MHz 时钟频率）。
@@ -72,6 +74,7 @@ Arduino Uno Mini 限量版是 Uno R3 的紧凑型特别版本，专为收藏家�
 | **最适合场景**       | 遗留项目              | 通用原型开发          | 紧凑型/收藏类项目     |
 
 ### 如何选择？
+
 - **Arduino Uno R3**：多数用户的首选。支持广泛、兼容扩展板，适合初学者或通用项目。除非有特殊尺寸需求或收藏目的，否则建议选择此版本。
 - **Arduino Uno（原版）**：仅在与旧版预-R3 扩展板配合或持有旧板时适用。其他情况请选择 R3。
 - **Arduino Uno Mini 限量版**：适用于空间受限项目、偏好 USB-C 接口的用户或 Arduino 爱好者/收藏家。因不支持扩展板，通用性较低。

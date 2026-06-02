@@ -45,12 +45,14 @@ Traditional automated frontend testing uses fixed scripts (Playwright, Cypress, 
 ### Pros and Cons
 
 **Advantages**
+
 - Covers areas scripted tests usually miss (true exploratory coverage)
 - Almost zero maintenance when UI changes
 - Can run overnight / continuously on staging / preview environments
 - Great for catching regressions in dynamic SPAs, dashboards, design systems
 
 **Current limitations (early 2026)**
+
 - Still quite expensive (many LLM calls + vision tokens per session)
 - Can get "stuck" in loops or irrelevant areas without good guidance
 - Not deterministic → different runs find different things (which is actually good for exploration, bad for regression)
@@ -60,6 +62,7 @@ Traditional automated frontend testing uses fixed scripts (Playwright, Cypress, 
 ### Realistic 2026 usage pattern
 
 Many teams run:
+
 - **Scripted / agentic deterministic tests** → nightly regression in CI
 - **Agentic exploration** → long-running chaotic sessions on staging / after every major deploy
   → find new bugs before customers do

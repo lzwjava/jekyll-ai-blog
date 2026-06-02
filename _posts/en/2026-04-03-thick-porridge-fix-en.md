@@ -13,7 +13,7 @@ Question: I used 1 cup of rice and only 2.5 bottles of water instead of the reco
 
 Answer:
 
-## Don't Worry — This Is Very Easy to Fix!
+## Don't Worry — This Is Very Easy to Fix
 
 Good news: **porridge is one of the most forgiving dishes to cook**. Using slightly less water than usual just means your porridge will be a bit thicker, but it's simple to correct at any stage.
 

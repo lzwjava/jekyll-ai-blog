@@ -34,7 +34,9 @@ Both courses are part of China's National Higher Education Self-Study Examinatio
 ### Detailed Content Comparison
 
 #### 02141: Computer Networks (Core Topics)
+
 This course follows the classic structure of textbooks like Xie Xiren's *Computer Networks* or Zhang Haixia's edition, divided into units on usage, principles, and security:
+
 - **Network Fundamentals**: Origin, classification (LAN/WAN/MAN), topologies, OSI/TCP-IP models.
 - **Application Layer**: Protocols (HTTP, DNS, FTP), socket programming basics.
 - **Transport Layer**: UDP/TCP principles, reliable data transfer, flow/congestion control, sliding window protocols.
@@ -46,7 +48,9 @@ This course follows the classic structure of textbooks like Xie Xiren's *Compute
 The goal is to understand network behavior holistically, with about 70% theory and 30% examples.
 
 #### 13833: Switching and Routing Technologies (Core Topics)
+
 This course is project-based, using vendor-neutral but Huawei/Cisco-inspired content from books like *Routing and Switching Technology and Applications*. It's structured around data communication foundations and device applications:
+
 - **Data Communication Basics**: Transmission media, topologies, OSI/TCP-IP review, circuit/packet switching.
 - **Switching Technologies**: Ethernet switches, VLANs/trunking, STP/RSTP (spanning tree), MAC address learning, port security.
 - **Routing Technologies**: Static/dynamic routing, RIP/OSPF/BGP protocols, route redistribution, ACLs (access control lists).
@@ -57,6 +61,7 @@ This course is project-based, using vendor-neutral but Huawei/Cisco-inspired con
 About 40% theory and 60% hands-on, with emphasis on command-line interfaces and real topologies.
 
 ### Why the Distinction Matters
+
 - If you're studying for a general computer science degree, start with 02141 to grasp the big picture.
 - For network engineering or certification paths, 13833 builds directly on it, turning theory into deployable skills.
 - In the self-exam system, 02141 is more common (offered nationwide), while 13833 may vary by province and is geared toward vocational tracks.
@@ -64,6 +69,7 @@ About 40% theory and 60% hands-on, with emphasis on command-line interfaces and 
 For official syllabi or past papers, check the National Education Examinations Authority (教育部考试中心) website or provincial self-exam offices.
 
 **References**
+
 - [Self-Exam 02141 Computer Networks Past Papers](https://www.zikaosw.cn/lnzt/subject-791.html)
 - [Routing and Switching Technology Textbook Overview](https://www.ryjiaoyu.com/book/details/47556)
 - [MOOC: Computer Networks (Harbin Institute of Technology)](https://www.icourse163.org/course/HIT-154005)

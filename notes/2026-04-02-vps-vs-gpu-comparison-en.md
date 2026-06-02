@@ -62,6 +62,7 @@ for training anyway
 ```
 
 **Transfer once, done:**
+
 ```bash
 # From VPS to GPU droplet
 rsync -avz root@159.89.216.20:/root/zz/datasets/fineweb_extracted_all.txt root@<gpu-droplet>:~/

@@ -18,7 +18,7 @@ Answer:
 
 它通常带有被非常仔细地注视或评判的含义，有时带有批判性或怀疑的态度。
 
-### 常见含义与例句：
+### 常见含义与例句
 
 - **严密的/批判性的检查（Close/critical examination）**
   例句："The financial records came under intense scrutiny after the scandal."
@@ -32,7 +32,8 @@ Answer:
   例句："Celebrities live their lives under constant public scrutiny."
   → 名人生活在公众的持续关注和审视之下（人们总是在观察并评判他们）。
 
-### 包含 "scrutiny" 的常用短语：
+### 包含 "scrutiny" 的常用短语
+
 - under scrutiny = 正在接受仔细检查或批评
 - come under scrutiny = 开始受到严密审查
 - face scrutiny = 面临仔细的检查或评判

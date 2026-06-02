@@ -29,6 +29,7 @@ Google Cloud Console 自 2026 年初起已原生支持 **dark mode**（该功能
 - 主控制台 UI 已完全兼容 dark mode，但辅助元素（如 tutorials 或特定的 legacy/iframe-based 帮助内容）可能出于可读性或开发原因默认为 light mode。
 
 **可能的解决方案：**
+
 - 尝试在切换主题后刷新页面或关闭并重新打开 tutorial pane。
 - 如果问题持续存在，这可能是一个暂时的限制——Google 一直在积极改进各服务的 dark mode 覆盖范围（例如，Vertex AI、Cloud Shell Editor 等最近的更新显示出更好的支持）。
 - 为了在查看教程时获得更好的眼睛舒适度，你可以使用 Dark Reader 等浏览器扩展程序（尽管它可能会破坏某些交互式控制台元素，请谨慎使用）。

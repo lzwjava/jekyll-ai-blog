@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：在 https://www.youtube.com/watch?v=bQ6D77QeMMg 这个 YouTube 视频中讲了什么？
+问题：在 <https://www.youtube.com/watch?v=bQ6D77QeMMg> 这个 YouTube 视频中讲了什么？
 
 回答：
 

@@ -11,8 +11,6 @@ type: note
 
 You have a few options, from gentle to nuclear:
 
-
-
     Option A: Stop the spike now (indexing will resume later)
 
 

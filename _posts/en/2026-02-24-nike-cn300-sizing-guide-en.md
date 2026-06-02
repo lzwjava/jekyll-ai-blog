@@ -33,8 +33,6 @@ The Nike Air Kukini is a **laceless** shoe with a TPU "web" cage. This makes the
 * **Narrow/Normal Feet:** Go **True to Size (TTS)**.
 * **Wide Feet / High Instep:** Go **0.5 size up**. Since the Kukini doesn't have laces to loosen, sizing up is the only way to relieve pressure on the top of the foot.
 
-
-
 ### **Quick Reference Table**
 
 | Region | Your Target Size | The "CN 300" Size |

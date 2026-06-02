@@ -13,9 +13,9 @@ type: note
 
 它们通常具有以下特点：
 
-*   用于听起来现代、聪明或引人注目
-*   在对话或营销中被频繁重复
-*   有时含义模糊或被过度使用，缺乏明确的含义
+* 用于听起来现代、聪明或引人注目
+* 在对话或营销中被频繁重复
+* 有时含义模糊或被过度使用，缺乏明确的含义
 
 ### 简单解释
 
@@ -23,8 +23,8 @@ type: note
 
 ### 例子
 
-*   在科技领域：*AI*（人工智能）、*blockchain*（区块链）、*cloud-native*（云原生）、*Web3*
-*   在商业领域：*synergy*（协同效应）、*disruption*（颠覆）、*scalable*（可扩展）、*innovation*（创新）
+* 在科技领域：*AI*（人工智能）、*blockchain*（区块链）、*cloud-native*（云原生）、*Web3*
+* 在商业领域：*synergy*（协同效应）、*disruption*（颠覆）、*scalable*（可扩展）、*innovation*（创新）
 
 ### 核心观点
 

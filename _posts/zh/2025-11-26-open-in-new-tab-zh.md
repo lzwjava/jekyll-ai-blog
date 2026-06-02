@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-以下是创建指向 https://www.tsinghua.edu.cn 的超链接（在新标签页/窗口中打开）的完整最小 HTML 代码：
+以下是创建指向 <https://www.tsinghua.edu.cn> 的超链接（在新标签页/窗口中打开）的完整最小 HTML 代码：
 
 ```html
 <!DOCTYPE html>
@@ -27,6 +27,7 @@ type: note
 ```
 
 关键要点：
+
 - `target="_blank"` 强制链接在新标签页/窗口中打开
 - `rel="noopener noreferrer"` 是在使用 `target="_blank"` 时的安全/最佳实践补充，可防止新页面获得对原始页面的控制权
 

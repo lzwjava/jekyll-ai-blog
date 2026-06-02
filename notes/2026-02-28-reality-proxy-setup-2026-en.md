@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: How to use https://github.com/flq367/reality to install a proxy program on a server?
+Question: How to use <https://github.com/flq367/reality> to install a proxy program on a server?
 
 Answer:
 
@@ -39,7 +39,7 @@ The repository **flq367/reality** provides a simple one-click installation scrip
    The script is interactive in most similar Reality installers. You will likely be asked to:
    - Choose a port (default often 443)
    - Enter a domain name / SNI / serverName (for Reality camouflage)
-   - Select a fallback destination website (e.g. www.microsoft.com:443)
+   - Select a fallback destination website (e.g. <www.microsoft.com:443>)
    - Generate or input public/private keys for Reality
    - Choose whether to enable uTLS fingerprinting, etc.
 
@@ -64,6 +64,7 @@ The repository **flq367/reality** provides a simple one-click installation scrip
    - View logs: `journalctl -u xray -ef` or check `/var/log/xray/`
 
 ### Important Notes & Requirements
+
 - Use a **clean IP** (not previously used for proxies) — Reality works best with uncontaminated IPs.
 - Port 443 is strongly recommended (mimics HTTPS traffic).
 - You usually need a domain pointing to your server IP for best results (but short domain Reality setups are possible).
@@ -71,7 +72,9 @@ The repository **flq367/reality** provides a simple one-click installation scrip
 - If the script fails → try on a fresh Ubuntu 22.04 / 24.04 or Debian 12 server.
 
 ### If the script doesn't work or you want alternatives
+
 Popular maintained options in 2026 include:
+
 - Hiddify-Manager (panel + Reality support)
 - 3X-UI panel
 - AmneziaVPN self-hosted installer

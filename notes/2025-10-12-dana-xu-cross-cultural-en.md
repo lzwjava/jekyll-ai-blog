@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-The blog at http://danaxu.blogspot.com/ is a personal journal by Dana N. Xu, blending English and Chinese entries. It focuses on introspective reflections on daily life, cultural observations (especially while living in France), philosophy drawn from ancient Chinese texts, artistic inspirations like painting, family warmth, and simple joys in nature and food. Themes often emphasize personal growth, embracing change, the beauty of simplicity, and finding motivation in small moments—such as seasonal tree trimming in Paris or the metaphorical "challenge" of trying durian fruit.
+The blog at <http://danaxu.blogspot.com/> is a personal journal by Dana N. Xu, blending English and Chinese entries. It focuses on introspective reflections on daily life, cultural observations (especially while living in France), philosophy drawn from ancient Chinese texts, artistic inspirations like painting, family warmth, and simple joys in nature and food. Themes often emphasize personal growth, embracing change, the beauty of simplicity, and finding motivation in small moments—such as seasonal tree trimming in Paris or the metaphorical "challenge" of trying durian fruit.
 
 The blog appears inactive, with the most recent posts from 2013. Here's a quick look at the latest entries (from oldest to newest for context):
 

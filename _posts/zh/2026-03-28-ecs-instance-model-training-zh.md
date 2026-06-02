@@ -45,22 +45,27 @@ gn8 bare metal 系列专为 AI 模型训练和超大型模型设计。每个实�
 请参考以下决策过程：
 
 ### 第一步 — 确定你的 GPU 数量需求
+
 - **1 vGPU / 小型实验** → `ecs.vgn7i-[size].xlarge` (4 vCPU)
 - **1 块整 GPU / 中型训练** → `ecs.gn7i-c8g1.2xlarge`
 - **多 GPU / 大型训练** → `ecs.gn7-c13g1.13xlarge` 或 bare metal `ecs.ebmgn8`
 
 ### 第二步 — 将 vCPU 和 memory 与你的 data pipeline 匹配
+
 实例规格（xlarge, 2xlarge 等）控制的是 vCPU 和 RAM，而不仅仅是 GPU 数量。更多的 vCPU 有助于：
+
 - Data preprocessing（数据预处理）
 - Multi-worker DataLoader (PyTorch/TF)
 - 处理多个 GPU streams
 
 ### 第三步 — 考虑预算
+
 - `vgn7i` 系列 → 最便宜（shared/sliced GPU），适用于 inference 和轻量级 fine-tuning
 - `gn7i` / `gn7` → 中等价位，适合全量模型训练
 - `gn8` bare metal → 最贵，用于生产级 LLM 训练
 
 ### 第四步 — 检查地域可用性
+
 不同地域可购买的实例类型有所不同。你可以访问 Instance Types Available for Each Region 页面检查可用性，或使用 ECS Price Calculator 估算成本。
 
 ---

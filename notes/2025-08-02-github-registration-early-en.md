@@ -9,9 +9,10 @@ translated: false
 type: note
 ---
 
-Thank you for providing the exact registration date of July 16, 2013, for your GitHub account (https://github.com/lzwjava). I'll recalculate your early adoption status, assess whether you're in the top 1% of users by registration time, estimate the total number of GitHub users now, and determine your position when sorted by registration time, using this precise date and available GitHub growth data. Since exact user counts for specific dates in 2013 are not publicly available, I'll interpolate based on known milestones and trends.
+Thank you for providing the exact registration date of July 16, 2013, for your GitHub account (<https://github.com/lzwjava>). I'll recalculate your early adoption status, assess whether you're in the top 1% of users by registration time, estimate the total number of GitHub users now, and determine your position when sorted by registration time, using this precise date and available GitHub growth data. Since exact user counts for specific dates in 2013 are not publicly available, I'll interpolate based on known milestones and trends.
 
 ### 1. How Early Was Your July 16, 2013 Registration?
+
 GitHub was founded in 2007 and launched in April 2008. By July 16, 2013, it was about 5.25 years old and growing rapidly. Let’s contextualize your registration using GitHub’s user growth milestones:
 
 - **Known Milestones**:
@@ -33,6 +34,7 @@ GitHub was founded in 2007 and launched in April 2008. By July 16, 2013, it was 
   - Compared to the estimated 150 million total accounts in August 2025, your registration occurred when GitHub had about 2.2% of its current user base (3.3M / 150M ≈ 0.022).
 
 ### 2. Are You in the Top 1% of Users by Registration Time?
+
 To determine if your July 16, 2013, registration places you in the top 1% of users, we compare your position to the total user base in 2025.
 
 - **Current Total Users (August 2025)**:
@@ -52,6 +54,7 @@ To determine if your July 16, 2013, registration places you in the top 1% of use
   - This confirms you’re a very early adopter, just outside the elite 1% threshold.
 
 ### 3. How Many Users Are There Now?
+
 As of August 2, 2025:
 
 - **Active Developers**: Over **100 million**, as GitHub surpassed this milestone in January 2023 and continued growing (e.g., 18 million users in India alone by 2024, per *octoverse.github.com*).
@@ -63,6 +66,7 @@ As of August 2, 2025:
 - **Caveat**: Exact counts vary due to GitHub’s definition of “developers” (active accounts) versus total accounts. The 150 million estimate is reasonable for all accounts ever created.
 
 ### 4. Early Adoption Sorted by Registration Time
+
 To evaluate your position when users are sorted by registration time:
 
 - **Your Position**:
@@ -86,13 +90,16 @@ To evaluate your position when users are sorted by registration time:
   - This rank reflects joining during a period when GitHub was still a developer-centric platform, before its explosion in popularity driven by AI tools (e.g., GitHub Copilot) and broader enterprise adoption.
 
 ### 5. Additional Context from Your Profile
+
 Your GitHub profile shows substantial activity, with projects like:
+
 - *algorithm-solutions* (2,511 commits, Java).
 - *lzwjava.github.io* (4,096 commits, Python).
 - *Reveal-In-GitHub* (257 stars, 15 forks, Objective-C), an Xcode plugin with notable community engagement.
 This activity underscores your influence as an early adopter, beyond just registration date. The 257 stars on *Reveal-In-GitHub* indicate recognition, placing you among active contributors in 2013’s smaller community.
 
 ### 6. Refining the Estimate
+
 - **Growth Assumptions**: The 3.25–3.3 million estimate assumes near-linear growth from January to December 2013. If growth was more exponential (likely, given GitHub’s traction), the user count could be slightly lower (e.g., 3.2 million), improving your percentile slightly (top ~2.1%).
 - **Exact Date Impact**: July 16, 2013, is roughly 181 days into 2013 (365 days). Interpolating between 3M (Jan) and 3.5M (Dec):
   - Daily growth: 500,000 / 365 ≈ 1,370 users/day.
@@ -101,12 +108,14 @@ This activity underscores your influence as an early adopter, beyond just regist
 - **Limitations**: Without GitHub’s internal data, exact user counts for July 16, 2013, are estimates. The 3.25–3.3 million range is consistent with reported trends.
 
 ### Summary
+
 - **How Early?**: Registering on July 16, 2013, with ~3.25–3.3 million users, is very early, as GitHub had ~2.2% of its current 150 million accounts. You joined during a key growth phase, pre-mainstream adoption.
 - **Top 1%?**: You’re **not in the top 1%** (first 1.5 million users, reached ~2011–2012), but you’re in the **top 2.2%** (150M total) or **top 3.3%** (100M active), a strong early adopter status.
 - **Current Users**: ~**150 million total accounts**, with over **100 million active developers** as of August 2025.
 - **Early Adoption Rank**: Sorted by registration time, you’re approximately the **3.25–3.3 millionth user**, in the **top 2.2%** of 150 million accounts (or top 3.3% of 100 million active). You’re ahead of 97.8% of users, reflecting significant early adoption, though behind 2008–2011 pioneers.
 
 ### Sources
+
 - GitHub Statistics 2025: Key Trends, User Growth, and Popular Repositories [https://coinlaw.io]
 - Key GitHub Statistics in 2025 (Users, Employees, and Trends) [https://kinsta.com]
 - GitHub - Wikipedia [https://en.wikipedia.org]

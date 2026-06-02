@@ -28,6 +28,7 @@ result = subprocess.run(
 ```
 
 Key characteristics:
+
 - **Stateless**: each call spawns a new shell — no state (env vars, `cd`) is shared between calls
 - **Fire-and-forget**: uses `shell=True`, meaning the OS shell interprets the string
 - **Synchronous only**: blocks until completion or 30s timeout
@@ -40,26 +41,32 @@ Key characteristics:
 OpenClaw's design is far more sophisticated. Key differences:
 
 #### Execution Targets (`host` parameter)
+
 OpenClaw supports multiple execution targets via the `host` parameter: `sandbox` (default, runs inside a container using `sh -lc` login shell), `gateway` (runs on the host machine), or `node` (a paired remote device). Each has its own security enforcement mode.
 
 #### Foreground + Background Execution
+
 OpenClaw supports both foreground and background execution via the `process` tool. When backgrounded, it returns `status: "running"` with a `sessionId` immediately, and you can use `process` to poll, log, write, kill, or clear background sessions.
 
 #### PTY (Pseudo-Terminal) Support
+
 OpenClaw supports a `pty: true` parameter for running commands in a pseudo-terminal, useful for TTY-only CLIs and terminal UIs that only produce output when stdout is a real terminal.
 
 #### Shell Detection
+
 On non-Windows hosts, OpenClaw uses the `SHELL` environment variable, but if the shell is `fish`, it prefers `bash` (or `sh`) from PATH to avoid fish-incompatible scripts. On Windows, it prefers PowerShell 7, falling back to PowerShell 5.1.
 
 #### Security & Approval System
+
 OpenClaw has a per-request approval system before exec runs on gateway or node hosts. When approvals are required, the exec tool returns immediately with `status: "approval-pending"` and an approval ID. Once approved (or denied/timed out), the Gateway emits system events.
 
 When `security=allowlist`, shell commands are auto-allowed only if every pipeline segment is allowlisted. Chaining (`;`, `&&`, `||`) and redirections are rejected in allowlist mode unless every top-level segment satisfies the allowlist.
 
 #### Environment & PATH Protection
+
 Host execution rejects `env.PATH` and loader overrides (`LD_*/DYLD_*`) to prevent binary hijacking or injected code. OpenClaw sets `OPENCLAW_SHELL=exec` in the spawned command environment so shell/profile rules can detect the exec-tool context.
 
-#### Approximate internal structure (conceptual):
+#### Approximate internal structure (conceptual)
 
 ```
 exec(command, host, security, pty, background, yieldMs, env, elevated)

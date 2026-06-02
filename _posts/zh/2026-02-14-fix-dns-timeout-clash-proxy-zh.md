@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question: 在不导出 proxy 环境变量的情况下，Python 脚本查询 Cloudflare DoH (https://1.1.1.1/dns-query) 超时。如何在中国寻找合适的 DNS server，或者能否通过 Clash proxy 转发 DNS 请求？**
+**Question: 在不导出 proxy 环境变量的情况下，Python 脚本查询 Cloudflare DoH (<https://1.1.1.1/dns-query>) 超时。如何在中国寻找合适的 DNS server，或者能否通过 Clash proxy 转发 DNS 请求？**
 
 **Answer:**
 

@@ -24,7 +24,7 @@ Here is a side-by-side comparison of the most important differences:
 | **Reactivity primitive**      | RxJS / Observables dominant                    | **Signals** are the primary reactive primitive (stable since ~v16–v20) | Simpler mental model, fine-grained reactivity, better tree-shaking |
 | **Components**                | NgModules required (standalone in developer preview) | **Standalone components are the default** — NgModules rare | Much less boilerplate, easier tree-shaking, simpler project structure |
 | **Forms**                     | Reactive Forms + Template-driven Forms         | Classic forms still work + **new experimental Signal Forms** | Signal Forms offer simpler, more composable, signal-based form handling |
-| **Control Flow Syntax**       | *ngIf, *ngFor, *ngSwitch                      | **Built-in @if, @for, @switch** (stable since v17)    | Cleaner templates, better performance, no structural directive overhead |
+| **Control Flow Syntax**       | *ngIf,*ngFor, *ngSwitch                      | **Built-in @if, @for, @switch** (stable since v17)    | Cleaner templates, better performance, no structural directive overhead |
 | **Build Tool**                | Webpack                                        | **Vite + esbuild** (much faster dev & builds)         | 40–70% faster builds & HMR in modern projects        |
 | **Testing**                   | Mostly Karma + Jasmine                         | **Vitest** strongly preferred / better supported      | Faster test runs, modern DX, Vite-native             |
 | **Bundle size & performance** | Larger bundles, Zone.js overhead               | **Significantly smaller bundles**, faster runtime     | Real-world apps often 35–50%+ faster                 |

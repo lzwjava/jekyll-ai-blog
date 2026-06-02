@@ -22,6 +22,7 @@ Certainly! Here’s a concise English introduction to Mao Zedong’s *《论新�
 *On the New Stage* is a key political essay written by Mao Zedong during the Second Sino-Japanese War (1937–1945). In this work, Mao analyzes the shifting dynamics of the Chinese Revolution and the Communist Party of China’s (CPC) role in the context of the war against Japan. He argues that the Chinese Revolution had entered a "new stage" characterized by the united front between the CPC and the Nationalist Party (Kuomintang, KMT) to resist Japanese imperialism.
 
 **Key Themes:**
+
 1. **United Front:** Mao emphasizes the necessity of a broad united front to unite all patriotic forces—communists, nationalists, and other groups—against the common enemy, Japan.
 2. **Anti-Imperialism:** The essay underscores the struggle against Japanese imperialism as the primary task, temporarily setting aside internal conflicts between the CPC and KMT.
 3. **Role of the Communist Party:** Mao clarifies the CPC’s role in leading the revolution while cooperating with other forces, stressing the importance of maintaining independence and initiative within the united front.

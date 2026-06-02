@@ -18,6 +18,7 @@ type: note
 - **闲时折扣**：DeepSeek在闲时段（UTC时间16:30-00:30）提供额外折扣，若您的使用时间与之重合可进一步降低成本ue202turn0search2。
 
 **您未立即看到50%成本下降的原因：**
+
 - 降价可能未统一适用于所有token类型或使用场景
 - 您任务的特定token分布（输入/输出、缓存命中/未命中）可能与宣传的降价范围不完全吻合
 - 从公告发布到价格变更全面体现在所有计费系统或API可能存在延迟
@@ -25,5 +26,5 @@ type: note
 总之，虽然DeepSeek v32的降价真实且幅度显著，但实际节省成本取决于您的使用模式，未必与宣传百分比完全吻合ue202turn0search1,[1],[2]。
 
 引用来源：
-[1] https://x.com/deepseek_ai
-[2] https://www.facebook.com/groups/developerkaki/posts/2615893198756577/
+[1] <https://x.com/deepseek_ai>
+[2] <https://www.facebook.com/groups/developerkaki/posts/2615893198756577/>

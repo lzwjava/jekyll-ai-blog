@@ -17,6 +17,7 @@ type: note
 梦百合，国际上称为MLILY，是中国领先的床垫品牌，专注于“0压”记忆棉床垫。梦百合成立于2003年，于2015年开创了非温感记忆棉技术，并在多个国家获得专利。非温感记忆棉的柔软度和支撑度不受温度影响，不会像传统记忆棉那样在冷时变硬或在热时变软。
 
 其核心特点是0压记忆棉，它能紧密贴合身体（平均贴合率约82-88%），均匀分散压力，减少翻身次数，促进深度睡眠。独立测试和研究表明：
+
 - 入睡时间平均缩短49%。
 - 深度睡眠时间增加38.1%。
 - 快速眼动（REM）睡眠显著改善。
@@ -31,8 +32,8 @@ type: note
 
 参考资料：
 
-- https://zhuanlan.zhihu.com/p/646305752
-- https://zhuanlan.zhihu.com/p/1604490660
-- https://qiye.chinadaily.com.cn/a/202107/15/WS60eff313a3101e7ce9759d96.html
-- https://zhuanlan.zhihu.com/p/653085504
-- https://m.mlily.com/cn/home
+- <https://zhuanlan.zhihu.com/p/646305752>
+- <https://zhuanlan.zhihu.com/p/1604490660>
+- <https://qiye.chinadaily.com.cn/a/202107/15/WS60eff313a3101e7ce9759d96.html>
+- <https://zhuanlan.zhihu.com/p/653085504>
+- <https://m.mlily.com/cn/home>

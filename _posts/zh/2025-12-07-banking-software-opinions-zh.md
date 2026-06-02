@@ -49,6 +49,7 @@ type: note
 这些观点在公开场合（尤其是在领英上）很少被大声说出来，因为薪水太高，而且行业圈子很小，但它们在匿名论坛（如 Blind、Reddit r/cscareerquestions、银行 Slack 频道等）中非常普遍。
 
 参考文献：
+
 - [TeamBlind – “投资银行科技”话题](https://www.teamblind.com/topics/Finance/Investment-Banking)
 - [Reddit r/cscareerquestions – 银行搜索](https://www.reddit.com/r/cscareerquestions/search/?q=banking)
 - [Wall Street Oasis – 技术论坛](https://www.wallstreetoasis.com/forum/technology)

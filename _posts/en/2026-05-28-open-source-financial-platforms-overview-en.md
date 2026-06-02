@@ -20,16 +20,19 @@ Yes. Here are the most relevant ones:
 ## 1. Core Accounting / Ledger Engines
 
 ### [Hledger](https://github.com/simonmichael/hledger)
+
 - Plain-text double-entry accounting
 - Journal entries, balance sheets, P&L
 - Haskell — good for understanding ledger semantics formally
 
 ### [Ledger CLI](https://github.com/ledger/ledger)
+
 - The original plain-text accounting tool
 - Journal-level transaction model, exactly what you worked with
 - C++
 
 ### [Beancount](https://github.com/beancount/beancount)
+
 - Python-based double-entry bookkeeping
 - Strong import/validation/export pipeline — **directly mirrors your work**
 - Has a full plugin/transform layer you can extend with LLMs
@@ -46,17 +49,20 @@ Yes. Here are the most relevant ones:
 ## 2. Full ERP / Finance Platform
 
 ### [ERPNext / Frappe](https://github.com/frappe/erpnext)
+
 - Most complete open source ERP with GL, journal entries, approval workflows
 - Python + JavaScript (Frappe framework)
 - Has submission/approval workflow engine — **identical concept to enterprise bank work**
 - Active community, used by real enterprises
 
 ### [Odoo Community](https://github.com/odoo/odoo)
+
 - Full accounting module with journal entries, ledger, multi-currency
 - Python backend, OWL frontend
 - Approval workflows, import/export, bank reconciliation
 
 ### [Apache OFBiz](https://github.com/apache/ofbiz-framework)
+
 - Enterprise-grade, Java EE
 - GL, journal, financial reporting — deep accounting semantics
 - Legacy-style (similar to WebSphere-era systems you've decommissioned)
@@ -66,16 +72,19 @@ Yes. Here are the most relevant ones:
 ## 3. Banking / Fintech Specific
 
 ### [Mifos X / Fineract](https://github.com/apache/fineract)
+
 - Apache project — open source core banking
 - Loan accounts, journal entries, financial transactions
 - Java Spring Boot — **closest to enterprise bank stack**
 - Used by microfinance institutions globally
 
 ### [Hyperledger Fabric](https://github.com/hyperledger/fabric)
+
 - Distributed ledger for financial transactions
 - Relevant if your work touches blockchain settlement layers
 
 ### [Cyclos](https://github.com/cyclosproject/cyclos4-ui)
+
 - Banking/payment platform frontend (Angular) — matches Angular upgrade work
 
 ---
@@ -85,16 +94,19 @@ Yes. Here are the most relevant ones:
 These mirror the submission/approval workflow patterns you built:
 
 ### [Camunda](https://github.com/camunda/camunda)
+
 - BPMN-based workflow engine
 - Used in many bank approval workflows
 - Java, embeddable in Spring Boot
 
 ### [Temporal](https://github.com/temporalio/temporal)
+
 - Modern workflow orchestration
 - More AI-era than Camunda — agents use it too
 - Go + SDK for Python/Java/TypeScript
 
 ### [Flowable](https://github.com/flowable/flowable-engine)
+
 - BPMN/DMN/CMMN engine
 - Used in finance systems for multi-step approvals
 

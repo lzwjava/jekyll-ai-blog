@@ -75,7 +75,7 @@ def generate_share_card(
         font_title = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 72)
         font_invitation = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 48)
         font_notes = ImageFont.truetype("/System/Library/Fonts/Arial Bold.ttf", 36)
-    except:
+    except Exception:
         # Fallback to default font
         font_title = ImageFont.load_default()
         font_invitation = ImageFont.load_default()
@@ -119,7 +119,7 @@ def generate_share_card(
     img.paste(qr_img, (qr_x, qr_y))
 
     # Add QR code label - centered above QR code
-    label_height = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[3]
+    draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[3]
     label_y = qr_y - 40
     label_x = (
         WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]

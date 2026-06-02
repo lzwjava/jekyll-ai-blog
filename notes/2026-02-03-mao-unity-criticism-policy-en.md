@@ -18,10 +18,12 @@ This is a Chinese text about policies for handling "contradictions among the peo
 **Explanation:**
 
 This refers to Mao's 1957 theory distinguishing between two types of contradictions:
+
 - **Antagonistic contradictions** (between the people and their enemies)
 - **Non-antagonistic contradictions** (among the people themselves)
 
 The "unity—criticism—unity" formula means:
+
 1. **Unity** - Start from a position of shared political foundation
 2. **Criticism** - Engage in open criticism and debate to resolve differences
 3. **Unity** - Achieve a higher level of unity after working through disagreements

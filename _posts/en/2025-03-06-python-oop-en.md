@@ -13,9 +13,11 @@ Here's a comprehensive guide to Object-Oriented Programming (OOP) in Python. Thi
 ---
 
 ### 1. Classes and Objects
+
 A **class** is a blueprint for creating objects, defining their attributes (data) and methods (functions). An **object** is an instance of a class, with its own specific values for the attributes.
 
 **Example:**
+
 ```python
 class Dog:
     def __init__(self, name, breed):
@@ -33,9 +35,11 @@ my_dog.bark()  # Output: Buddy says woof!
 ---
 
 ### 2. Inheritance
+
 **Inheritance** allows a class (child class) to inherit attributes and methods from another class (parent class), promoting code reuse.
 
 **Example:**
+
 ```python
 class Animal:
     def __init__(self, name):
@@ -61,9 +65,11 @@ print(cat.speak())  # Output: Whiskers says meow!
 ---
 
 ### 3. Polymorphism
+
 **Polymorphism** enables objects of different classes to be treated as instances of a common superclass, allowing methods to be used interchangeably.
 
 **Example:**
+
 ```python
 def animal_sound(animal):
     print(animal.speak())
@@ -78,9 +84,11 @@ animal_sound(cat)  # Output: Whiskers says meow!
 ---
 
 ### 4. Encapsulation
+
 **Encapsulation** restricts direct access to some object components, promoting data hiding. In Python, private attributes are typically prefixed with `_` (convention) or `__` (name mangling).
 
 **Example:**
+
 ```python
 class BankAccount:
     def __init__(self, balance):
@@ -107,9 +115,11 @@ print(account.get_balance())  # Output: 1300
 ---
 
 ### 5. Abstraction
+
 **Abstraction** hides complex implementation details and exposes only essential features. In Python, abstract base classes (ABCs) from the `abc` module enforce abstraction.
 
 **Example:**
+
 ```python
 from abc import ABC, abstractmethod
 
@@ -133,9 +143,11 @@ print(rect.area())  # Output: 15
 ---
 
 ### 6. Special Methods (Magic Methods)
+
 Special methods (e.g., `__init__`, `__str__`, `__add__`) define behavior for built-in operations like initialization, string representation, and operator overloading.
 
 **Example:**
+
 ```python
 class Point:
     def __init__(self, x, y):
@@ -157,10 +169,12 @@ print(p3)  # Output: Point(4, 6)
 ---
 
 ### 7. Class and Static Methods
+
 - **Class methods** (`@classmethod`) are bound to the class and can access class-level data.
 - **Static methods** (`@staticmethod`) are utility functions that don’t access instance or class data.
 
 **Example:**
+
 ```python
 class MathUtils:
     @staticmethod
@@ -178,9 +192,11 @@ print(MathUtils.multiply(5, 3))  # Output: 15
 ---
 
 ### 8. Properties (Getters and Setters)
+
 **Properties** provide controlled access to attributes using the `@property` decorator, often with getters and setters.
 
 **Example:**
+
 ```python
 class Person:
     def __init__(self, name):

@@ -36,6 +36,7 @@ type: note
 | **重点** | 推理和“连接点”。 | 准确性和实时数据检索。 |
 
 参考文献：
+
 * [ChatGPT Deep Research: Guide to AI Agents & RAG](https://intuitionlabs.ai/articles/chatgpt-deep-research-guide-ai-agents-rag)
 * [ChatGPT Review: Is It Worth It in 2026?](https://juma.ai/blog/chatgpt-review)
 * [Perplexity vs ChatGPT: Which is Better in 2026](https://gurusup.com/blog/perplexity-vs-chatgpt)

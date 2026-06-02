@@ -18,6 +18,7 @@ For **10B tokens** on an H200:
 **My pick:** Go **1B or 1.5B** — you have the VRAM for it. With `bf16` mixed precision, a 1.5B model should fit comfortably on the H200 with room for a decent batch size.
 
 Quick memory estimate for 1.5B:
+
 - Weights: ~3GB (bf16)
 - Adam states: ~12GB
 - Gradients + activations: ~20-30GB

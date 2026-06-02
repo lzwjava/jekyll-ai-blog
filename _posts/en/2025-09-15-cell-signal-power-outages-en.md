@@ -13,6 +13,7 @@ type: note
 Yes, it's very likely that your building has a **distributed antenna system (DAS)** or a **4G/5G signal booster (repeater)** installed to provide cellular coverage in underground areas like the parking lot (floors -1, -2, etc.).
 
 ### Why Does This Happen?
+
 1. **Underground Areas Block Signals**
    - Basements and underground parking lots are typically shielded by thick concrete, steel, and other materials that block or weaken cellular signals from outside cell towers.
    - Without an internal signal distribution system, these areas would have **no signal at all**.
@@ -25,11 +26,13 @@ Yes, it's very likely that your building has a **distributed antenna system (DAS
    - Upper floors (ground level and above) usually get signal directly from nearby cell towers, so they are less affected by a power outage in the building.
 
 ### How to Confirm?
+
 - **Check for Small Antennas or Boxes** in the parking lot (often mounted on walls or ceilings).
 - **Ask Building Management** if they have a **cellular booster or DAS** installed.
 - **Observe Signal Behavior** – If signal returns when power is restored, it confirms the system is power-dependent.
 
 ### Possible Solutions if This Bothers You
+
 - If frequent outages are an issue, suggest to management that they install a **battery backup (UPS)** for the signal booster.
 - Use **Wi-Fi calling** (if your phone and carrier support it) as a backup when cellular fails.
 

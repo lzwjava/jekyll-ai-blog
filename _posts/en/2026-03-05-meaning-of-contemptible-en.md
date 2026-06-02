@@ -18,6 +18,7 @@ Answer:
 It describes people, actions, or things that are considered shameful,卑劣 (卑劣), or worthy of being looked down upon with disgust.
 
 ### Common synonyms
+
 - despicable
 - detestable
 - disgraceful
@@ -29,12 +30,14 @@ It describes people, actions, or things that are considered shameful,卑劣 (卑
 - pathetic (in the sense of pitifully inadequate and unworthy)
 
 ### Examples in sentences
+
 - He showed **contemptible** cowardice by abandoning his friends when they needed him most.
 - The way the company treated its lowest-paid workers was utterly **contemptible**.
 - Lying to get someone fired is one of the most **contemptible** things a person can do.
 - His **contemptible** behavior at the meeting made everyone lose respect for him.
 
 ### Quick contrast
+
 - **Contemptible** = deserving of contempt (very negative, blameworthy)
 - **Contemptuous** = showing contempt, looking down on others (arrogant / scornful attitude)
 

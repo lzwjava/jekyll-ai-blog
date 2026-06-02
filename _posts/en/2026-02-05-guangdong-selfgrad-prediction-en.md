@@ -12,7 +12,7 @@ type: note
 
 I'll help you understand how to use the 毕业预测模块 (Graduation Prediction Module) on that Guangdong education examination website.I wasn't able to directly access that page. This appears to be the Guangdong Province Self-Study Examination (自考) system's graduation prediction module. Let me search for information about how to use this feature.Based on the search results, here's how to use the **毕业预测模块 (Graduation Prediction Module)** in the Guangdong Self-Study Examination system:
 
-## Steps to Use the Graduation Prediction Module:
+## Steps to Use the Graduation Prediction Module
 
 1. **Log in to the system**
    - Go to the Guangdong Self-Study Examination Management System
@@ -30,7 +30,7 @@ I'll help you understand how to use the 毕业预测模块 (Graduation Predictio
    - Fill in your contact phone number
    - Click the "申请" (Apply) button
 
-## Important Notes:
+## Important Notes
 
 - **Browser compatibility**: It's recommended to use Google Chrome or 360 Browser. Avoid using IE browser as it may have compatibility issues.
 

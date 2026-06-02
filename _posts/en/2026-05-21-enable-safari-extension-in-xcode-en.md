@@ -28,9 +28,11 @@ After enabling, you'll see the TabsKiller icon appear in the Safari toolbar — 
 **Developer mode:** Safari → Settings → Advanced → check "Show Develop menu in menu bar". Then Develop → Web Extensions — you can see and reload the extension there.
 
 **App already built:** The app lives in Xcode's DerivedData. You can also copy it:
+
 ```bash
 open /Users/lzwjava/Library/Developer/Xcode/DerivedData/TabsKiller-*/Build/Products/Debug/TabsKiller.app
 ```
+
 Run it from there, then enable in Safari settings.
 
 ---

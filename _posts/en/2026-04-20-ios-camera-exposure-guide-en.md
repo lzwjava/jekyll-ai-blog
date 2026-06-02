@@ -77,7 +77,7 @@ There’s no direct conversion between them.
 
 You’re absolutely on the right track—this is where things get interesting.
 
-#### When you reduce exposure (especially during shooting):
+#### When you reduce exposure (especially during shooting)
 
 * Less light hits the sensor
 * Shadows get darker

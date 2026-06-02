@@ -36,6 +36,7 @@ dns:
    - `208.67.222.222` and `208.67.220.220` (OpenDNS)
 
 **If you want DNS-over-HTTPS (DoH)**, use this format instead:
+
 ```yaml
 dns:
   enable: true

@@ -28,16 +28,19 @@ Here’s a comprehensive breakdown of each EIGRP packet type regarding transmiss
 | **ACK**     | Unicast                      | N/A (it is the acknowledgment itself)      | Simple packet with no data, just to confirm receipt of Update/Query/Reply. |
 
 ### Key Points on EIGRP Reliable Transport Protocol (RTP)
+
 - EIGRP uses its own **Reliable Transport Protocol (RTP)** to guarantee delivery of certain packets.
 - Packets that contain routing information or control information that affects the routing table (**Update, Query, Reply**) are sent **reliably** → they are always unicast (except initial Updates to new neighbors) and require an **ACK**.
 - **Hello** and **ACK** packets are sent **unreliably** (no acknowledgment needed).
 - The ACK is a separate EIGRP packet (opcode 5) with no data — just a sequence number acknowledgment.
 
 ### Why the question can be tricky
+
 Many practice questions expect **Update** as the single answer because it is the most common reliable unicast packet. However, technically **Update, Query, and Reply** all meet the criteria of being sent as unicast and requiring acknowledgment.
 
 If the question forces a single choice and comes from Cisco’s official material (e.g., CCNP ENARSI), the historically most common expected answer is **B) Update**.
 
 References:
+
 - [Cisco EIGRP Packet Types](https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html)
 - [EIGRP Reliable Transport Protocol (RFC 7868)](https://datatracker.ietf.org/doc/html/rfc7868)

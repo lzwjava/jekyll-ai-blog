@@ -90,6 +90,7 @@ VERSIONS SHIPPED: 1.0.3 → 1.0.4 → 1.0.5 → 1.1.0 → 1.1.1 → 1.1.2 → 1.
 ============================================================
   HOTTEST FILES (by churn)
 ============================================================
+
   lib/clacky/web/     — 126 changes (UI overhaul)
   lib/clacky/server/  — 50 changes (API + infra)
   lib/clacky/agent/   — 17 changes (agent behavior)
@@ -100,14 +101,16 @@ VERSIONS SHIPPED: 1.0.3 → 1.0.4 → 1.0.5 → 1.1.0 → 1.1.1 → 1.1.2 → 1.
 ============================================================
   CONTRIBUTORS
 ============================================================
-  yafei@dao42.com               — primary author (68 changes)
-  huzhuangyongbiao@gmail.com    — 13 changes
-  leihaibo1992@gmail.com        — 7 changes
-  rina@RinadeMacBook-Air.local  — 2 changes
+
+  <yafei@dao42.com>               — primary author (68 changes)
+  <huzhuangyongbiao@gmail.com>    — 13 changes
+  <leihaibo1992@gmail.com>        — 7 changes
+  <rina@RinadeMacBook-Air.local>  — 2 changes
 
 ============================================================
   TAKEAWAY
 ============================================================
+
 This was a very intense sprint — 10 releases in 2 weeks. The main thrust was transforming OpenClacky from a CLI/TUI tool into a full platform with:
   (a) A polished streaming Web UI
   (b) Multi-channel messaging (Telegram/Discord/DingTalk/Feishu/WeChat)

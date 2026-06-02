@@ -90,6 +90,7 @@ Keep context tight  →  LLM stays sharp
 ### Practical Tag Strategy
 
 For each session, auto-generate:
+
 - **Topic tags**: `python`, `docker`, `finance`
 - **Action tags**: `debug`, `design`, `explain`
 - **Time tags**: `2025-Q1`, `recent`

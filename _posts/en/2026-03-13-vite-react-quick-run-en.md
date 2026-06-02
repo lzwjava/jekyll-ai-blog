@@ -30,6 +30,7 @@ _Thinking:_
 **Tool: bash**
 
 **Input:**
+
 ```json
 {
   "command": "ls -F",
@@ -38,6 +39,7 @@ _Thinking:_
 ```
 
 **Output:**
+
 ```
 eslint.config.js
 index.html
@@ -65,6 +67,7 @@ _Thinking:_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/package.json"
@@ -72,6 +75,7 @@ _Thinking:_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/package.json</path>
 <type>file</type>
@@ -113,6 +117,7 @@ _Thinking:_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/README.md"
@@ -120,6 +125,7 @@ _Thinking:_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/README.md</path>
 <type>file</type>
@@ -212,6 +218,7 @@ _Thinking:_
 **Tool: bash**
 
 **Input:**
+
 ```json
 {
   "command": "ls node_modules | head -n 5",
@@ -220,6 +227,7 @@ _Thinking:_
 ```
 
 **Output:**
+
 ```
 @babel
 @eslint
@@ -236,31 +244,41 @@ _Thinking:_
 To run this React + TypeScript + Vite application, follow these steps:
 
 ### 1. Install Dependencies
+
 If you haven't already, ensure all required packages are installed:
+
 ```bash
 npm install
 ```
 
 ### 2. Start Development Server
+
 To run the app in development mode with Hot Module Replacement (HMR):
+
 ```bash
 npm run dev
 ```
+
 Once started, Vite will typically provide a local URL (e.g., `http://localhost:5173`) where you can view the application.
 
 ### 3. Build for Production
+
 To create a production-ready bundle in the `dist/` directory:
+
 ```bash
 npm run build
 ```
 
 ### 4. Preview Production Build
+
 To test the production build locally before deploying:
+
 ```bash
 npm run preview
 ```
 
 ### Other Commands
+
 - **Linting:** Run `npm run lint` to check for code quality issues using ESLint.
 - **Type Checking:** Run `tsc` (or `npm run build` which includes it) to verify TypeScript types.
 

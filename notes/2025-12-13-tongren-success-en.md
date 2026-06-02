@@ -16,7 +16,7 @@ Answer:
 
 Beijing Tong Ren Tang (北京同仁堂), founded in 1669 during the Qing Dynasty, has endured for over 350 years as one of China's most iconic traditional Chinese medicine (TCM) brands. Its success and longevity stem from a combination of historical prestige, unwavering commitment to quality, cultural heritage, and strategic modernization.
 
-### Key Reasons for Success and Longevity:
+### Key Reasons for Success and Longevity
 
 - **Historical Prestige and Royal Endorsement**
   From 1723 to 1911, Tong Ren Tang exclusively supplied medicines to the Qing imperial court for 188 years, serving eight emperors. This royal patronage built immense trust, reputation, and a "gold standard" status in TCM, as the same high-quality medicines used for the emperor were available to the public.

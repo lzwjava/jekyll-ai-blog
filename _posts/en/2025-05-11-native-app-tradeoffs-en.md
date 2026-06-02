@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Confirmation on Native App Trade-offs
+
 Yes, it's generally true that a well-built native app offers a superior user experience (e.g., faster performance, better hardware integration, and smoother interactions), but at a higher development cost. Native apps require platform-specific coding (e.g., Swift for iOS, Kotlin for Android) and ongoing maintenance for each ecosystem, which can inflate expenses compared to cross-platform alternatives. However, for resource-rich companies like Meta, the investment often pays off in user retention and functionality depth.
 
 ### Comparison: Native Apps vs. WeChat Mini-Programs and Web Mobile
+
 Here's a side-by-side breakdown based on key factors like user experience, performance, accessibility, development, and limitations. This draws from industry standards and Meta's approach.
 
 | Aspect                  | Native Apps (e.g., Meta's Facebook/Instagram) | WeChat Mini-Programs | Web Mobile (e.g., Progressive Web Apps) |
@@ -29,6 +31,7 @@ Here's a side-by-side breakdown based on key factors like user experience, perfo
 **Overall Suitability**: Native apps excel for feature-rich, immersive experiences needing deep device integration (e.g., Meta's AR filters or end-to-end encrypted messaging). WeChat Mini-Programs are ideal for quick, ecosystem-bound utilities in China. Web Mobile suits broad, low-fidelity access where installation is a barrier.
 
 ### Why Facebook (Meta) Opts for Native Apps
+
 Meta (formerly Facebook) prioritizes native development for several strategic reasons, backed by their historical moves and public statements:
 
 - **Superior UX for Core Features**: Meta's apps handle high-stakes interactions like social networking, video calls, and VR/AR (e.g., Instagram Reels or Messenger). Native apps access device hardware directly (e.g., efficient camera for Stories), providing smoother performance that web or mini-programs can't match without compromises. Meta's data shows native users engage 2–3x more than web versions.

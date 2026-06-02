@@ -21,6 +21,7 @@ Mao emphasized that ideological development should be the top priority in Party 
 **Three Major Work Styles**
 
 Mao identified three excellent work styles that became hallmarks of the Party:
+
 - **Theory linked with practice** - combining Marxist theory with China's concrete reality
 - **Close ties with the masses** - maintaining deep connections with ordinary people
 - **Criticism and self-criticism** - honest evaluation of oneself and others to improve

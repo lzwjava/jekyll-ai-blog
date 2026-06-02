@@ -31,6 +31,7 @@ type: note
 ```
 
 ### Explanation
+
 - **flex-direction: column**: Changes the main axis from horizontal (row) to vertical, stacking the `select` and `.post-number` elements top-to-bottom.
 - **align-items: center**: Keeps horizontal centering of child elements.
 - **justify-content: center**: Centers the entire vertical stack within the container.

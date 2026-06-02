@@ -124,10 +124,13 @@ This command creates a new branch based on the commit where the stash was create
 **10. Removing stashes:**
 
 * To remove a specific stash:
+
     ```bash
     git stash drop stash@{1}
     ```
+
 * To remove all stashes:
+
     ```bash
     git stash clear
     ```
@@ -138,51 +141,66 @@ Here's how to use `git stash` to facilitate frequent switching between branches 
 
 **Scenario 1: Switching to another branch**
 
-1.  **Stash your current changes:**
+1. **Stash your current changes:**
+
     ```bash
     git stash save "WIP on current branch"
     ```
-2.  **Switch to the target branch:**
+
+2. **Switch to the target branch:**
+
     ```bash
     git checkout <target_branch_name>
     # or using the newer `git switch` command:
     git switch <target_branch_name>
     ```
-3.  **Do your work on the target branch.**
-4.  **When you need to go back to your original branch:**
+
+3. **Do your work on the target branch.**
+4. **When you need to go back to your original branch:**
+
     ```bash
     git checkout <original_branch_name>
     # or
     git switch <original_branch_name>
     ```
-5.  **Reapply your stashed changes:**
+
+5. **Reapply your stashed changes:**
+
     ```bash
     git stash pop  # If you want to apply and remove the stash
     # or
     git stash apply # If you want to apply and keep the stash
     ```
-6.  **Resolve any potential merge conflicts** that might arise if the original branch has diverged significantly since you stashed.
+
+6. **Resolve any potential merge conflicts** that might arise if the original branch has diverged significantly since you stashed.
 
 **Scenario 2: Switching to a tag**
 
 Switching directly to a tag puts you in a "detached HEAD" state, which is generally not recommended for making commits. If you just want to inspect the code at a specific tag:
 
-1.  **Stash your current changes:**
+1. **Stash your current changes:**
+
     ```bash
     git stash save "WIP before tag inspection"
     ```
-2.  **Switch to the tag:**
+
+2. **Switch to the tag:**
+
     ```bash
     git checkout <tag_name>
     ```
-3.  **Inspect the code.**
-4.  **To go back to your branch:**
+
+3. **Inspect the code.**
+4. **To go back to your branch:**
+
     ```bash
     git checkout <your_branch_name>
     # or
     git switch <your_branch_name>
     ```
-5.  **Reapply your stashed changes:**
+
+5. **Reapply your stashed changes:**
+
     ```bash
     git stash pop
     # or
@@ -193,21 +211,27 @@ Switching directly to a tag puts you in a "detached HEAD" state, which is genera
 
 If you want to start working on a new feature or fix based on a specific tag, and you have stashed changes from a previous context:
 
-1.  **Stash your current changes (if you haven't already):**
+1. **Stash your current changes (if you haven't already):**
+
     ```bash
     git stash save "WIP"
     ```
-2.  **Create a new branch from the tag:**
+
+2. **Create a new branch from the tag:**
+
     ```bash
     git checkout -b <new_branch_name> <tag_name>
     # or
     git switch -c <new_branch_name> <tag_name>
     ```
-3.  **Apply your stashed changes to the new branch:**
+
+3. **Apply your stashed changes to the new branch:**
+
     ```bash
     git stash pop # or git stash apply
     ```
-4.  **Resolve any potential merge conflicts.**
+
+4. **Resolve any potential merge conflicts.**
 
 **Important Considerations:**
 

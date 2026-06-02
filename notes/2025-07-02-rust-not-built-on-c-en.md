@@ -24,11 +24,11 @@ Yes, Rust has excellent interoperability with C libraries through its **Foreign 
 
 Here's how it generally works:
 
-1.  **`extern "C"` blocks:** You define an `extern "C"` block in your Rust code to declare the signatures of the C functions you want to call. This tells the Rust compiler that these functions adhere to the C Application Binary Interface (ABI), which dictates how functions are called and data is laid out in memory.
-2.  **`#[link]` attribute:** You use the `#[link(name = "foo")]` attribute to tell the Rust linker to link against the specified C library (e.g., `libfoo.so` or `foo.lib`).
-3.  **`unsafe` blocks:** Calls to C functions are typically wrapped in `unsafe` blocks in Rust. This is because Rust's strong memory safety guarantees cannot be enforced when interacting with "foreign" code that doesn't follow Rust's rules. You, as the programmer, are responsible for ensuring the safety of these calls.
-4.  **`bindgen`:** For larger C libraries, manually writing all the `extern "C"` declarations can be tedious. Tools like `bindgen` can automatically generate Rust FFI bindings from C header files, greatly simplifying the process.
-5.  **`cty` crate:** The `cty` crate provides C-compatible primitive types (like `c_int`, `c_char`, etc.) to ensure correct data type mapping between Rust and C.
+1. **`extern "C"` blocks:** You define an `extern "C"` block in your Rust code to declare the signatures of the C functions you want to call. This tells the Rust compiler that these functions adhere to the C Application Binary Interface (ABI), which dictates how functions are called and data is laid out in memory.
+2. **`#[link]` attribute:** You use the `#[link(name = "foo")]` attribute to tell the Rust linker to link against the specified C library (e.g., `libfoo.so` or `foo.lib`).
+3. **`unsafe` blocks:** Calls to C functions are typically wrapped in `unsafe` blocks in Rust. This is because Rust's strong memory safety guarantees cannot be enforced when interacting with "foreign" code that doesn't follow Rust's rules. You, as the programmer, are responsible for ensuring the safety of these calls.
+4. **`bindgen`:** For larger C libraries, manually writing all the `extern "C"` declarations can be tedious. Tools like `bindgen` can automatically generate Rust FFI bindings from C header files, greatly simplifying the process.
+5. **`cty` crate:** The `cty` crate provides C-compatible primitive types (like `c_int`, `c_char`, etc.) to ensure correct data type mapping between Rust and C.
 
 **Why use C libraries in Rust?**
 

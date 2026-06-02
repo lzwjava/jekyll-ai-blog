@@ -32,17 +32,20 @@ Many of history’s most prolific intellectuals and creators followed a surprisi
 | **Peter Higgs** (Nobel Physics) | ~3–4 hours       | Long walks in Edinburgh (Higgs boson idea came while walking after feeling “stuck”) | 2013 interviews |
 
 ### Common Pattern
+
 - Total deep-work time rarely exceeded **4–5 hours/day**, even at peak productivity.
 - Walking was nearly universal (Darwin, Dickens, Nietzsche, Tversky–Kahneman, Higgs, etc.).
 - Afternoon naps or lying-down periods were frequent (Darwin, Kahneman, Woolf, etc.).
 - Many explicitly reported that their best ideas arrived **not at the desk**, but during walks, naps, or idle moments (incubation effect).
 
 ### Modern Research Support
+
 - Mason Currey’s book *Daily Rituals: How Artists Work* (2013) documents ~160 eminent creators; the short-burst + walking pattern dominates.
 - Alex Soojung-Kim Pang’s *Rest: Why You Get More Done When You Work Less* (2016) analyzes dozens of cases and concludes 4 hours of creative work is the historical norm.
 - Cal Newport’s interviews with Nobel laureates and Fields medalists (Deep Work, 2016) show most still follow ~4-hour focused sessions with deliberate rest.
 
 ### Why It Works (Scientific Explanation)
+
 1. **Limited willpower & attention** – Classic Baumeister ego-depletion studies and modern attention-restoration theory (Kaplan & Berman) show the brain can only do ~4 hours of intense cognitive work before needing recovery.
 2. **Default-mode network activation** – fMRI studies (e.g., Raichle 2001; Buckner 2008) show mind-wandering and walking activate the brain’s idea-combining network.
 3. **Incubation effect** – Meta-analyses (Sio & Ormerod, 2009) confirm breaks, especially with low-demand activities (walking, napping), dramatically boost creative insight.

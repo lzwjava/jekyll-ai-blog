@@ -19,7 +19,6 @@ It’s an amazing experience. I think it’s much better than the WeChat Web exp
 
 I can imagine that a dedicated team has been working on it for years. I’m grateful for their efforts and can truly feel their passion for creating something valuable for the world.
 
-
 {: .centered }
 ![](assets/images/whatsapp/whatsappweb.png)
 *Source: screenshot*{: .caption }

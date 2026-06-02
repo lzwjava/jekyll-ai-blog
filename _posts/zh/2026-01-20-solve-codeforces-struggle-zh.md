@@ -30,6 +30,7 @@ Answer:
 这并不代表你“差劲” —— 绝大多数人都是通过这种方式在 competitive programming 中进步的。核心争论通常在于平衡：在单个问题上花费太长时间可能会减慢整体进度（看到的题目变少 → pattern recognition 变慢），但过快放弃则会错过重要的“顿悟”时刻和深度理解。
 
 常见的建议包括：
+
 - 独立尝试 **30 分钟 – 2 小时**（取决于你的水平以及你的思路看起来有多可靠）。
 - 如果卡住了，阅读 hints/editorial。
 - 理解之后，在不看题解的情况下重新实现一次（这一点非常重要）。
@@ -39,8 +40,8 @@ Answer:
 
 References:
 
-- https://codeforces.com/blog/entry/112965
-- https://codeforces.com/blog/entry/60810
-- https://codeforces.com/blog/entry/118644
-- https://codeforces.com/blog/entry/68849
-- https://www.reddit.com/r/codeforces/comments/ywycqn/how_much_time_should_one_spend_on_solving_one
+- <https://codeforces.com/blog/entry/112965>
+- <https://codeforces.com/blog/entry/60810>
+- <https://codeforces.com/blog/entry/118644>
+- <https://codeforces.com/blog/entry/68849>
+- <https://www.reddit.com/r/codeforces/comments/ywycqn/how_much_time_should_one_spend_on_solving_one>

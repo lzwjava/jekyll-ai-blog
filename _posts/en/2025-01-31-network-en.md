@@ -28,7 +28,6 @@ Below is a list of 100 key points that broadly cover the scope of a “Computer 
 
 10. Comparison of OSI and TCP/IP: Similarities (layered approach) and differences (number of layers and abstraction).
 
-
 11. Physical Layer Purpose: Concerned with the transmission of raw bits over a physical medium.
 
 12. Common Transmission Media: Twisted-pair cable, coaxial cable, optical fiber, and wireless.
@@ -168,7 +167,6 @@ Below is a list of 100 key points that broadly cover the scope of a “Computer 
 79. Network Management Protocols: SNMP (Simple Network Management Protocol).
 
 80. Logging and Monitoring: Syslog, event logs, SIEM solutions for real-time detection.
-
 
 81. Basic LAN Setup: Determining IP ranges, subnet masks, gateway, DNS servers.
 

@@ -17,6 +17,7 @@ To include executable scripts (i.e., command-line tools) in a Python package tha
 We'll use a simple example: a package called `mytools` with a script `greet` that prints a greeting.
 
 #### Step 1: Set Up Your Package Structure
+
 Create a directory structure like this:
 
 ```
@@ -30,11 +31,13 @@ mytools/
 ```
 
 In `src/mytools/__init__.py` (can be empty or with version info):
+
 ```python
 __version__ = "0.1.0"
 ```
 
 In `src/mytools/greet.py` (the function your script will call):
+
 ```python
 import sys
 
@@ -47,6 +50,7 @@ if __name__ == "__main__":
 ```
 
 #### Step 2: Configure Entry Points in `pyproject.toml`
+
 Use the `[project.scripts]` section to define console scripts. This tells pip to create executable wrappers.
 
 ```toml
@@ -70,6 +74,7 @@ greet = "mytools.greet:main"  # Format: script_name = package.module:function
 - `mytools.greet:main` points to the `main()` function in `greet.py`.
 
 If you prefer the older `setup.py` (still works but less recommended):
+
 ```python
 from setuptools import setup, find_packages
 
@@ -88,27 +93,34 @@ setup(
 ```
 
 #### Step 3: Build and Install the Package
+
 1. Install build tools: `pip install build twine` (or `hatchling` if using that backend).
 
 2. Build the package:
+
    ```
    python -m build
    ```
+
    This creates `dist/` with `.tar.gz` and `.whl` files.
 
 3. Install locally to test:
+
    ```
    pip install -e .  # Editable mode (changes reflect immediately)
    ```
+
    Or for a clean install: `pip install dist/mytools-0.1.0-py3-none-any.whl`.
 
 4. Test: Run `greet Alice` in your terminal. It should output "Hello, Alice!".
 
 #### Step 4: Distribute (Optional)
+
 - Upload to PyPI: `twine upload dist/*` (requires PyPI account).
 - Users can then `pip install mytools` and run `greet`.
 
 #### Tips
+
 - **Multiple scripts**: Add more lines to `[project.scripts]`, e.g., `another-script = mytools.other:main`.
 - **Arguments**: Use `argparse` in your `main()` for better CLI handling.
 - **Dependencies**: List them in `[project.dependencies]` (e.g., `click` for CLI frameworks).
@@ -118,5 +130,6 @@ setup(
 For more advanced setups (e.g., with Poetry or Flit), check the official docs.
 
 #### References
+
 - [Python Packaging User Guide: Entry Points](https://packaging.python.org/en/latest/guides/writing-entry-points/)
 - [PyPI: Building and Publishing](https://packaging.python.org/en/latest/tutorials/packaging-projects/)

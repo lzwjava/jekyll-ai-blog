@@ -45,6 +45,7 @@ dpkg -l | grep -i gdm
 ```
 
 This was the smoking gun: `rc  gdm3`. In dpkg language:
+
 - **`r`** = the package has been **removed** (binary deleted)
 - **`c`** = **config files** still exist on disk
 

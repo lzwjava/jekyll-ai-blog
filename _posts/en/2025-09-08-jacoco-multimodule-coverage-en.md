@@ -36,14 +36,16 @@ Here is a step-by-step guide to refactor your project for clean, aggregated cove
 
 First, create a new module exclusively for aggregation. This is a Maven best practice that keeps concerns separate.
 
-1.  In your root `pom.xml` (`PlaygroundLib`), add the new module:
+1. In your root `pom.xml` (`PlaygroundLib`), add the new module:
+
     ```xml
     <modules>
         <module>PlaygroundUtils</module>
         <module>PlaygroundWeb</module>
         <module>PlaygroundReports</module> </modules>
     ```
-2.  Create a new directory `PlaygroundReports` at the root with its own `pom.xml`.
+
+2. Create a new directory `PlaygroundReports` at the root with its own `pom.xml`.
 
 Your new project structure will look like this:
 
@@ -173,10 +175,10 @@ The `PlaygroundUtils` module needs no JaCoCo plugin configuration for integratio
 
 ## How This Solves the Problem
 
-1.  **Single Build:** You run `mvn clean verify` from the root directory just once.
-2.  **Correct Lifecycle:**
+1. **Single Build:** You run `mvn clean verify` from the root directory just once.
+2. **Correct Lifecycle:**
       * Maven builds `PlaygroundUtils`.
       * Maven builds `PlaygroundWeb`, starts Jetty with the JaCoCo agent, runs your Python tests (which hit code in both modules), stops Jetty, and produces `PlaygroundWeb/target/jacoco-it.exec`.
       * Maven builds `PlaygroundReports`. In the `verify` phase, the `report-aggregate` goal runs. It finds the `.exec` file from `PlaygroundWeb` and, because of the dependencies, it knows where to find the source code for both `PlaygroundWeb` and `PlaygroundUtils`.
       * It generates a **single, unified HTML report** with coverage for both modules.
-3.  **Scalability:** If you add ten more library modules, you just add them as dependencies to the `PlaygroundReports/pom.xml`. The core logic doesn't change. This is the clean, scalable solution you were looking for.
+3. **Scalability:** If you add ten more library modules, you just add them as dependencies to the `PlaygroundReports/pom.xml`. The core logic doesn't change. This is the clean, scalable solution you were looking for.

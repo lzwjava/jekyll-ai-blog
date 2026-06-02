@@ -14,7 +14,8 @@ type: note
 
 Based on its extensive collections, innovative tools, and alignment with Hong Kong's leading STEM university, the **Hong Kong University of Science and Technology (HKUST) Library** (also known as the Lee Shau Kee Library) stands out as the top choice for tech, IT engineers, AI, and STEM professionals or enthusiasts. HKUST itself is globally ranked among the best for science, technology, engineering, and mathematics (e.g., #27 in QS World University Rankings for Engineering & Technology in 2025), making its library a hub for cutting-edge resources.
 
-#### Why HKUST Library is Ideal for Tech/IT/AI/STEM:
+#### Why HKUST Library is Ideal for Tech/IT/AI/STEM
+
 - **Massive Digital Collections**: Over 1.8 million e-books, 144,000+ periodicals (print and electronic), 372 specialized databases (e.g., ACM Digital Library for computing, IEEE Xplore for engineering), and 233,000+ streaming media items focused on technical and scientific literature.
 - **AI and Research Support**: Hosts workshops, guides, and talks on AI tools for research and discovery. It manages DataSpace@HKUST, a repository for sharing STEM research data, and supports open access publishing—crucial for IT/AI engineers working on projects.
 - **Innovative Facilities**: Features a Learning Commons with zones for group study, creative media, and tech experimentation (e.g., early adopter of CD-ROM networks, XML-based discovery tools, and linked data for efficient tech searches). It's equipped for data analysis, coding, and collaborative STEM work.
@@ -23,6 +24,7 @@ Based on its extensive collections, innovative tools, and alignment with Hong Ko
 Location: Clear Water Bay, Kowloon (accessible via MTR to Choi Hung station, then bus). Website: [HKUST Library](https://library.hkust.edu.hk/).
 
 #### Strong Alternatives
+
 If you're looking for more public-friendly options without university affiliation requirements:
 
 | Library | Key Strengths for Tech/IT/AI/STEM | Public Access | Location |

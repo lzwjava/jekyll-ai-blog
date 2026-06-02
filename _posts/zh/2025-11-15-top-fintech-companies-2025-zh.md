@@ -51,7 +51,9 @@ type: note
 | **Mercury**    | 美国旧金山 | 2017年 | 20亿美元估值 | 初创企业银行服务；API驱动账户拥有10万+用户。在硅谷银行事件后凭借风险债务工具获得关注 |
 
 #### 值得关注的新兴初创企业
+
 更具创新力的新锐企业（据CB Insights和福布斯统计多数成立不足5年）：
+
 - **Bilt Rewards**（美国，2021年）：免手续费租金奖励；1000万+用户通过住房消费赚取积分
 - **Parafin**（美国，2020年）：利用现金流数据的中小企业贷方；为服务不足商户融资1亿+美元
 - **Synctera**（美国，2019年）：嵌入式银行即服务平台；为Chime等应用提供合规工具支持
@@ -61,6 +63,7 @@ type: note
 若您对特定地区、类别或深度分析（如融资轮次）感兴趣，欢迎告知！
 
 **参考资料**
+
 - [CB Insights 2025金融科技100强](https://www.cbinsights.com/research/report/top-fintech-startups-2025/)
 - [福布斯2025金融科技50强](https://www.forbes.com/lists/fintech50/)
 - [CNBC 2025全球顶尖金融科技公司](https://www.cnbc.com/the-worlds-top-fintech-companies-2025/)

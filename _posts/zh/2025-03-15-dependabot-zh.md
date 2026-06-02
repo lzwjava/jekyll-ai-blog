@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 步骤 1：禁用 Dependabot 版本更新
+
 Dependabot 版本更新会自动创建拉取请求以保持依赖项最新。这些拉取请求可能触发 GitHub Actions 工作流程。要禁用此功能：
 
 - **定位配置文件**：检查仓库中 `.github` 目录下是否存在名为 `dependabot.yml` 的文件。
@@ -22,6 +23,7 @@ Dependabot 版本更新会自动创建拉取请求以保持依赖项最新。这
 ---
 
 ### 步骤 2：禁用 Dependabot 安全更新
+
 Dependabot 安全更新会生成拉取请求以修复依赖项中的漏洞，这也可能触发 GitHub Actions 工作流程。要关闭此功能：
 
 - **进入仓库设置**：在 GitHub 仓库中，点击 **Settings** 标签页。
@@ -33,6 +35,7 @@ Dependabot 安全更新会生成拉取请求以修复依赖项中的漏洞，这
 ---
 
 ### 步骤 3：（可选）移除与 Dependabot 相关的自定义工作流程
+
 如果您设置了专门处理 Dependabot 拉取请求的 GitHub Actions 工作流程（例如自动合并、标签管理或使用 Dependabot 元数据），您可能需要清理这些工作流程：
 
 - **检查工作流程文件**：查看 `.github/workflows` 目录中的 YAML 文件。
@@ -44,10 +47,12 @@ Dependabot 安全更新会生成拉取请求以修复依赖项中的漏洞，这
 ---
 
 ### 补充说明
+
 - **现有拉取请求**：禁用 Dependabot 不会关闭其已创建的现有拉取请求。如果这些请求被更新，仍可能触发工作流程。如有需要，您可以手动关闭它们。
 - **Dependabot 警报**：如果您还想停止漏洞通知（与 GitHub Actions 无直接关联），请前往 **Settings > Security & analysis** 并禁用 **Dependabot alerts**。这是可选的，与工作流程触发器无关。
 
 ---
 
 ### 结果
+
 完成步骤 1 和 2 后，Dependabot 将不再在您的仓库中创建拉取请求，从而有效“移除”其对 GitHub Actions 的影响。如果您为 Dependabot 自定义了工作流程，步骤 3 可确保所有相关自动化都被清除。您的 GitHub Actions 现在将仅基于其他事件运行，不受 Dependabot 影响。

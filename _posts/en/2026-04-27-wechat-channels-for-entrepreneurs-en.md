@@ -96,15 +96,15 @@ So Video Channels are strong for:
 
 It depends on your goal:
 
-### If you want authority / intellectual positioning:
+### If you want authority / intellectual positioning
 
 → Subscription Account wins
 
-### If you want trust + sales + personal brand:
+### If you want trust + sales + personal brand
 
 → Video Channel wins (increasingly dominant)
 
-### If you want relationship maintenance:
+### If you want relationship maintenance
 
 → Moments is auxiliary only
 

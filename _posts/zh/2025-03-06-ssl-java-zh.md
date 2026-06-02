@@ -13,7 +13,9 @@ type: note
 ---
 
 ### **`javax.net.ssl` 概述**
+
 `javax.net.ssl` 包提供了安全套接字通信的工具。它包括：
+
 - **`SSLSocket`**：用于安全通信的客户端套接字。
 - **`SSLServerSocket`**：用于接受安全连接的服务器端套接字。
 - **`SSLSocketFactory`**：创建 `SSLSocket` 实例的工厂。
@@ -26,9 +28,11 @@ type: note
 ---
 
 ### **作为客户端使用 `javax.net.ssl`**
+
 对于连接到安全服务器（例如 HTTPS 服务器）的客户端应用，通常使用 `SSLSocketFactory` 创建 `SSLSocket`。方法如下：
 
 #### **步骤**
+
 1. **获取 `SSLSocketFactory`**：
    使用 Java 提供的默认工厂，该工厂依赖于系统的默认 SSL/TLS 设置和信任库（受信任证书的存储库）。
 
@@ -49,6 +53,7 @@ type: note
    使用套接字的输入和输出流发送和接收数据。SSL/TLS 握手（建立安全连接的过程）在你首次从套接字读取或写入时自动进行。
 
 #### **示例：发送 HTTP GET 请求**
+
 以下是一个连接到服务器并检索网页的完整示例：
 
 ```java
@@ -90,6 +95,7 @@ public class SSLClientExample {
 ```
 
 #### **关键说明**
+
 - **握手**：使用套接字时，SSL/TLS 握手会自动处理。
 - **信任**：默认情况下，Java 信任存储在其信任库中的由知名证书颁发机构（CA）签名的证书。如果服务器的证书不受信任，你需要配置自定义信任库（稍后详述）。
 - **主机名验证**：默认情况下，`SSLSocket` 不执行主机名验证（与 `HttpsURLConnection` 不同）。要启用它，请使用 `SSLParameters`：
@@ -106,9 +112,11 @@ public class SSLClientExample {
 ---
 
 ### **作为服务器使用 `javax.net.ssl`**
+
 对于接受安全连接的服务器，使用 `SSLServerSocketFactory` 创建 `SSLServerSocket`。服务器必须提供证书，通常存储在密钥库中。
 
 #### **步骤**
+
 1. **设置密钥库**：
    创建一个包含服务器私钥和证书的密钥库（例如，使用 Java 的 `keytool` 生成 `.jks` 文件）。
 
@@ -142,6 +150,7 @@ public class SSLClientExample {
    接受客户端连接并通过生成的 `SSLSocket` 进行通信。
 
 #### **示例：简单的 SSL 服务器**
+
 ```java
 import javax.net.ssl.*;
 import java.io.*;
@@ -185,15 +194,18 @@ public class SSLServerExample {
 ```
 
 #### **关键说明**
+
 - **密钥库**：服务器需要证书，通常存储在 `.jks` 文件中，你必须生成并配置该文件。
 - **客户端认证**：如果服务器要求客户端提供证书，请使用 `TrustManager` 初始化 `SSLContext` 并调用 `serverSocket.setNeedClientAuth(true)`。
 
 ---
 
 ### **高级配置**
+
 为了更精细地控制 SSL/TLS 行为，你可以自定义以下内容：
 
 #### **1. 自定义信任库**
+
 如果服务器的证书不是由受信任的 CA 签名，请加载自定义信任库：
 
 ```java
@@ -210,6 +222,7 @@ SSLSocketFactory factory = context.getSocketFactory();
 ```
 
 #### **2. 协议版本**
+
 指定安全协议（例如 TLS 1.2 或 1.3）以避免使用过时的不安全版本：
 
 ```java
@@ -217,6 +230,7 @@ socket.setEnabledProtocols(new String[] {"TLSv1.2", "TLSv1.3"});
 ```
 
 #### **3. 密码套件**
+
 限制用于加密的密码套件：
 
 ```java
@@ -226,7 +240,9 @@ socket.setEnabledCipherSuites(new String[] {"TLS_AES_128_GCM_SHA256"});
 ---
 
 ### **总结**
+
 要使用 `javax.net.ssl`：
+
 - **对于客户端**：使用 `SSLSocketFactory` 创建 `SSLSocket`，连接到服务器，并可选择使用 `SSLParameters` 配置主机名验证。
 - **对于服务器**：使用密钥库和 `KeyManager` 配置 `SSLContext`，然后使用 `SSLServerSocketFactory` 创建 `SSLServerSocket`。
 - **自定义**：使用 `SSLContext`、`KeyManager` 和 `TrustManager` 进行高级证书处理，并根据需要设置协议或密码套件。

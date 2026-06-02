@@ -63,6 +63,7 @@ mvn spring-boot:run
 会执行失败。
 
 如需迁移，您可以：
+
 * 添加正确的 Spring Boot starter 依赖
 * 将主类改为 `@SpringBootApplication`
 * 之后即可通过 `mvn spring-boot:run` 或 `java -jar target/app.jar` 直接运行

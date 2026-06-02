@@ -9,9 +9,10 @@ translated: true
 type: note
 ---
 
-OpenRouter 的排行榜页面（https://openrouter.ai/rankings）提供了各类 AI 模型、供应商及应用的令牌使用情况洞察，反映了实际应用中的采用趋势和使用模式。该页面展示了哪些模型和应用驱动着最多的令牌消耗，为观察 AI 经济动态提供了一个窗口。然而，关于 *令牌如何在 OpenRouter 中增长* 的具体细节——即令牌使用量如何扩展或增加——并未在排行榜页面上直接说明，但可以通过 OpenRouter 的文档和使用模式进行推断。
+OpenRouter 的排行榜页面（<https://openrouter.ai/rankings）提供了各类> AI 模型、供应商及应用的令牌使用情况洞察，反映了实际应用中的采用趋势和使用模式。该页面展示了哪些模型和应用驱动着最多的令牌消耗，为观察 AI 经济动态提供了一个窗口。然而，关于 *令牌如何在 OpenRouter 中增长* 的具体细节——即令牌使用量如何扩展或增加——并未在排行榜页面上直接说明，但可以通过 OpenRouter 的文档和使用模式进行推断。
 
 ### OpenRouter 中令牌的增长机制
+
 OpenRouter 中的令牌增长指的是令牌消耗量的增加。令牌是 AI 模型处理的文本单位（例如字符、单词或标点符号），用于输入（提示）和输出（完成）。这种增长是由平台结构、使用模式以及更广泛的 AI 生态系统驱动的。以下是根据现有信息进行的分析：
 
 1. **统一 API 与模型访问**：
@@ -46,12 +47,15 @@ OpenRouter 中的令牌增长指的是令牌消耗量的增加。令牌是 AI �
    - 在 Reddit 等平台上的帖子突显了开发者对 OpenRouter 能够提供无速率限制访问多个模型能力的热情，这进一步推动了使用量。[](https://www.reddit.com/r/ChatGPTCoding/comments/1fdwegx/eli5_how_does_openrouter_work/)
 
 ### 排行榜的关键洞察
+
 排行榜页面（截至 2025 年 8 月）显示：
+
 - **顶级供应商**：Google（25.4%）、Anthropic（22.6%）和 DeepSeek（15.1%）在令牌份额上领先，表明它们的模型（例如 Gemini、Claude、DeepSeek V3）使用量很大。[](https://openrouter.ai/rankings)
 - **顶级应用**：Cline（492 亿令牌）、Kilo Code（450 亿令牌）和 Roo Code（255 亿令牌）占据主导地位，反映了编码相关应用中的大量令牌使用。[](https://openrouter.ai/rankings)
 - **用例**：编程、角色扮演和营销是驱动令牌消耗的顶级类别之一，表明多样化的应用促进了增长。[](https://openrouter.ai/rankings)
 
 ### 驱动令牌增长的因素
+
 - **可访问性**：免费模型和灵活的定价（按需付费，推理成本无加价）降低了入门门槛，鼓励更多开发者进行试验和扩展。[](https://www.jamiiforums.com/threads/ai-platform-evaluator-requesty-ai-vs-openrouter-ai.2333548/)
 - **可扩展性**：大上下文窗口和高吞吐量选项（例如 `:nitro`）支持复杂的、令牌密集型工作流。[](https://openrouter.ai/docs/features/provider-routing)[](https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/)
 - **透明度**：排行榜和使用情况分析指导开发者选择高性能模型，增加了采用率和令牌使用量。[](https://openrouter.ai/docs/app-attribution)
@@ -59,19 +63,22 @@ OpenRouter 中的令牌增长指的是令牌消耗量的增加。令牌是 AI �
 - **开发者生态系统**：集成到 VSCode 等工具中以及对 Langchain.js 等框架的支持，使 OpenRouter 成为 AI 开发的中心，驱动了令牌消耗。[](https://menlovc.com/perspective/investing-in-openrouter-the-one-api-for-all-ai/)[](https://openrouter.ai/docs)
 
 ### 局限性与注意事项
+
 - **成本**：长会话（例如角色扮演）随着上下文的增长可能变得昂贵，尤其是使用付费模型时。开发者必须优化提示或使用缓存来管理成本。[](https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/)
 - **速率限制**：免费模型有每日请求限制（例如 50–1000 个请求），这可能限制部分用户的令牌增长，除非他们升级到付费计划。[](https://openrouter.ai/docs/api-reference/limits)
 - **模型可变性**：令牌化因模型而异（例如 GPT 与 PaLM），影响成本和用量模式。开发者在扩展时需要考虑到这一点。[](https://gist.github.com/rbiswasfc/f38ea50e1fa12058645e6077101d55bb)
 
 ### 结论
+
 OpenRouter 上的令牌增长由其统一 API、多样化的模型供应、透明的排行榜以及对高容量应用（如编码代理）的支持所驱动。该平台高效路由请求、提供免费和付费模型以及提供分析的能力，推动了开发者的采用，导致令牌使用量呈指数级增长（例如每年 100 万亿令牌）。排行榜页面通过展示主导供应商和应用反映了这种增长，而推理令牌和大上下文窗口则进一步放大了复杂任务的消耗量。
 
-有关定价或 API 使用的更多详细信息，请访问 https://openrouter.ai/docs 或查看模型页面了解每令牌费率。[](https://openrouter.ai/docs/faq)
+有关定价或 API 使用的更多详细信息，请访问 <https://openrouter.ai/docs> 或查看模型页面了解每令牌费率。[](https://openrouter.ai/docs/faq)
 
 **参考文献**：
-- OpenRouter 关于推理令牌的文档：https://openrouter.ai/docs[](https://openrouter.ai/docs/use-cases/reasoning-tokens)
-- OpenRouter 常见问题解答：https://openrouter.ai/docs/faq[](https://openrouter.ai/docs/faq)
-- OpenRouter 排行榜：https://openrouter.ai/rankings[](https://openrouter.ai/rankings)
-- 关于 OpenRouter 的 Reddit 讨论：https://www.reddit.com/r/SillyTavernAI/comments/1b3g7q/help_me_understand_context_and_token_price_on/[](https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/)
-- Menlo Ventures 关于 OpenRouter 的文章：https://menlovc.com/perspectives/investing-in-openrouter-the-one-api-for-all-ai/[](https://menlovc.com/perspective/investing-in-openrouter-the-one-api-for-all-ai/)
-- OpenRouter API 参考：https://openrouter.ai/docs/api[](https://openrouter.ai/docs/api-reference/overview)
+
+- OpenRouter 关于推理令牌的文档：<https://openrouter.ai/docs[>](<https://openrouter.ai/docs/use-cases/reasoning-tokens>)
+- OpenRouter 常见问题解答：<https://openrouter.ai/docs/faq[>](<https://openrouter.ai/docs/faq>)
+- OpenRouter 排行榜：<https://openrouter.ai/rankings[>](<https://openrouter.ai/rankings>)
+- 关于 OpenRouter 的 Reddit 讨论：<https://www.reddit.com/r/SillyTavernAI/comments/1b3g7q/help_me_understand_context_and_token_price_on/[>](<https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/>)
+- Menlo Ventures 关于 OpenRouter 的文章：<https://menlovc.com/perspectives/investing-in-openrouter-the-one-api-for-all-ai/[>](<https://menlovc.com/perspective/investing-in-openrouter-the-one-api-for-all-ai/>)
+- OpenRouter API 参考：<https://openrouter.ai/docs/api[>](<https://openrouter.ai/docs/api-reference/overview>)

@@ -21,6 +21,7 @@ Huawei's Versatile Routing Platform (VRP) is the operating system used in Huawei
 Navigating between views is done using specific commands (e.g., `system-view` to enter system view), and you can return to the previous view with the `return` command (Ctrl+Z) or `quit`.
 
 ### 1. User View (<Huawei>)
+
 - **Prompt**: `< >` (e.g., `<Huawei>`)
 - **Access**: This is the default view immediately after successful login (via console, Telnet, or SSH).
 - **Purpose**: Primarily for **monitoring** and **basic operational tasks**.
@@ -32,6 +33,7 @@ Navigating between views is done using specific commands (e.g., `system-view` to
 - **Use Case**: Quick checks of device status, connectivity testing, or viewing information without risking changes to the configuration.
 
 ### 2. System View ([Huawei])
+
 - **Prompt**: `[ ]` (e.g., `[Huawei]`)
 - **Access**: Enter from user view using the command `system-view`.
 - **Purpose**: The main view for **global and basic device configuration**.
@@ -46,6 +48,7 @@ Navigating between views is done using specific commands (e.g., `system-view` to
 - **Note**: This is the gateway to almost all other configuration views.
 
 ### 3. Interface View
+
 - **Prompt**: Usually `[Huawei-interface_type-number]` (e.g., `[Huawei-GigabitEthernet0/0/1]`)
 - **Access**: From system view, use `interface <type> <number>` (e.g., `interface GigabitEthernet 0/0/1`).
 - **Purpose**: Configure parameters specific to a particular physical or logical interface.
@@ -59,6 +62,7 @@ Navigating between views is done using specific commands (e.g., `system-view` to
 - **Use Case**: Setting up IP addresses on routed ports, configuring switch ports for VLAN access/trunking, or tuning physical layer parameters.
 
 ### 4. Protocol View
+
 - **Prompt**: Varies by protocol (e.g., `[Huawei-ospf-1]` for OSPF process 1, `[Huawei-bgp]` for BGP)
 - **Access**: From system view, enter the protocol command (e.g., `ospf 1`, `bgp 100`).
 - **Sub-levels**:
@@ -72,12 +76,14 @@ Navigating between views is done using specific commands (e.g., `system-view` to
 - **Use Case**: Enabling and tuning routing protocols to exchange routes with neighbors.
 
 ### Additional Important Views (Commonly Used)
+
 - **AAA View**: `[Huawei-aaa]` – For detailed authentication, authorization, and accounting configurations.
 - **User-Interface View**: `[Huawei-ui-console0]` or `[Huawei-ui-vty0-4]` – Configure console or VTY (Telnet/SSH) line settings.
 - **Security View**: For firewall policies, IPSec, etc.
 - **MPLS View**: For MPLS-related configurations.
 
 ### Key Principles
+
 - **Hierarchy**: User view → System view → Specialized views (interface, protocol, etc.).
 - **Command Availability**: Commands are context-sensitive; only relevant commands are available in each view.
 - **Safety**: Restricted access in lower views prevents accidental configuration changes.

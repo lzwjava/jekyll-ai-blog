@@ -17,6 +17,7 @@ You've got the right intuition! Let me clarify the key differences:
 When a TCP connection is **established** (via the 3-way handshake), both sides maintain **state information** about each other:
 
 **What each side stores:**
+
 - **Remote IP address and port** (who am I talking to?)
 - **Local IP address and port** (my endpoint)
 - **Sequence numbers** (for ordering and reliability)

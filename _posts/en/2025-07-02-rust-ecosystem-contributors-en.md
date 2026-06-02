@@ -51,15 +51,15 @@ It's challenging to provide a definitive "top 30" as contributions are diverse a
 
 Many open-source projects showcase Rust's strengths and have a significant impact:
 
-1.  **Rust Lang/Rust (the Rust Compiler and Standard Library):** The core project itself, empowering everyone to build reliable and efficient software.
-2.  **Tauri Apps/Tauri:** A framework for building smaller, faster, and more secure desktop and mobile applications with a web frontend, similar to Electron but more efficient.
-3.  **RustDesk/RustDesk:** An open-source remote desktop application, a popular alternative to TeamViewer.
-4.  **Alacritty/Alacritty:** A cross-platform, OpenGL terminal emulator known for its high performance.
-5.  **Tokio/Tokio:** The foundational asynchronous runtime for Rust, widely used for building high-performance network applications.
-6.  **Hyper/Hyper:** A fast and correct HTTP library for Rust, often used in conjunction with Tokio.
-7.  **Actix/Actix-web:** A powerful, fast, and highly concurrent web framework for Rust.
-8.  **Axum/Axum:** A web application framework built with Tokio and Hyper, emphasizing ergonomics and strong typing.
-9.  **Ripgrep (BurntSushi/ripgrep):** A line-oriented search tool that recursively searches directories for a regex pattern, significantly faster than `grep`.
+1. **Rust Lang/Rust (the Rust Compiler and Standard Library):** The core project itself, empowering everyone to build reliable and efficient software.
+2. **Tauri Apps/Tauri:** A framework for building smaller, faster, and more secure desktop and mobile applications with a web frontend, similar to Electron but more efficient.
+3. **RustDesk/RustDesk:** An open-source remote desktop application, a popular alternative to TeamViewer.
+4. **Alacritty/Alacritty:** A cross-platform, OpenGL terminal emulator known for its high performance.
+5. **Tokio/Tokio:** The foundational asynchronous runtime for Rust, widely used for building high-performance network applications.
+6. **Hyper/Hyper:** A fast and correct HTTP library for Rust, often used in conjunction with Tokio.
+7. **Actix/Actix-web:** A powerful, fast, and highly concurrent web framework for Rust.
+8. **Axum/Axum:** A web application framework built with Tokio and Hyper, emphasizing ergonomics and strong typing.
+9. **Ripgrep (BurntSushi/ripgrep):** A line-oriented search tool that recursively searches directories for a regex pattern, significantly faster than `grep`.
 10. **Bat (sharkdp/bat):** A `cat(1)` clone with wings, offering syntax highlighting, Git integration, and more.
 11. **Fd (sharkdp/fd):** A simple, fast, and user-friendly alternative to `find`.
 12. **Meilisearch/Meilisearch:** A powerful, fast, and relevant search engine.

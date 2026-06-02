@@ -15,7 +15,9 @@ type: note
 根据苹果官方指南和专家建议，释放 macOS（例如您使用的 15.6.1 版本）存储空间的方法包括使用内置工具优化存储、安全清理可移除缓存以及删除不必要的文件。系统数据通常包含缓存、临时文件和日志——其中大部分可通过手动或自动清理而不会损害 Mac。请避免删除关键系统文件，否则可能导致系统不稳定。您的系统显示 460 GiB 总容量中约 13 GiB 可用，使用率为 45%，建议优先清理缓存、下载文件和附件以快速释放空间。[1][2][3]
 
 ### 使用 macOS 内置存储管理工具
+
 苹果提供了无需第三方应用即可分析并释放空间的集成方案：
+
 1. **检查存储使用情况**：前往苹果菜单 > 系统设置 > 通用 > 存储空间。此处会显示颜色分类的存储构成（如应用、文档、系统数据）。点击任一类别可查看优化建议。[1]
 2. **自动优化存储**：在存储设置中开启“优化存储空间”以自动清理未使用的应用数据并管理附件。同时开启“30天后自动清倒废纸篓”。[1]
 3. **清倒废纸篓与下载目录**：系统数据包含废纸篓内容——需通过访达手动清空。检查 ~/Downloads 目录并删除旧文件。[1][2]
@@ -24,6 +26,7 @@ type: note
 如需深度清理，可通过存储设置中的“过往项目”标签页查看近期备份（如时间机器备份）并删除非必要内容。[2]
 
 ### 识别与清理可移除缓存文件
+
 缓存是加速应用运行的临时文件，但可能累积达数GB。可通过访达安全清理用户级缓存；除非苹果技术支持指导，请避免清理系统级缓存以防故障。Mac缓存位于资源库文件夹，可通过访达“显示简介”查看大小。
 
 1. **用户缓存目录（最安全清理区域）**：
@@ -42,6 +45,7 @@ type: note
    - 系统缓存深度清理终极大法：重启进入恢复模式（开机时按住Command+R），运行磁盘工具 > 急救，随后重启并使用存储管理工具。[2]
 
 ### 手动安全清理附加技巧
+
 - **清理临时与日志文件**：系统数据包含 `/private/var/log` 中的日志文件。可使用终端命令 `sudo rm -rf /private/var/log/asl/*.asl` 清理旧版苹果日志（操作前需先登出系统）。临时文件可通过 `sudo rm -rf /tmp/*` 清理（操作前请确认内容）。[2]
 - **数据外迁存储**：通过存储设置 > “储存在iCloud中”将照片/视频转移至iCloud或外接硬盘。[1]
 - **安全分析工具**：CleanMyMac（MacPaw出品）或OmniDiskSweeper等第三方工具可扫描大容量缓存/文件——建议作参考使用，操作前务必备份（如通过时间机器）。[3]
@@ -50,8 +54,8 @@ type: note
 若系统数据仍居高不下（如某些案例中的218GB），可能是隐藏备份或损坏文件所致——苹果技术支持建议在终端执行 `tmutil thinlocalsnapshots / 10000000000 4` 进行时间机器清理。[5] 操作前请确保已备份。以上方法可在Apple Silicon芯片Mac（如您的M2机型）上安全回收大量存储空间。[1][2][4]
 
 引用来源：
-[1] https://support.apple.com/en-us/102624
-[2] https://macpaw.com/how-to/clear-system-storage-mac
-[3] https://nektony.com/how-to/clean-up-system-storage-on-mac?srsltid=AfmBOorJjQPPX59Jw3MM47n0NZ8DQlerYQAbkZdymj0rUZM0rtLZlw1s
-[4] https://www.reddit.com/r/MacOS/comments/154rp99/how_to_do_i_clear_system_data_on_mac_os/
-[5] https://discussions.apple.com/thread/255084458
+[1] <https://support.apple.com/en-us/102624>
+[2] <https://macpaw.com/how-to/clear-system-storage-mac>
+[3] <https://nektony.com/how-to/clean-up-system-storage-on-mac?srsltid=AfmBOorJjQPPX59Jw3MM47n0NZ8DQlerYQAbkZdymj0rUZM0rtLZlw1s>
+[4] <https://www.reddit.com/r/MacOS/comments/154rp99/how_to_do_i_clear_system_data_on_mac_os/>
+[5] <https://discussions.apple.com/thread/255084458>

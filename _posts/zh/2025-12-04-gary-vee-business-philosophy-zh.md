@@ -55,6 +55,7 @@ Gary Vaynerchuk (Gary Vee) 的哲学围绕着“努力文化”（hustle culture
 简而言之：拼命工作，了解自己，先提供价值，抓住今天注意力所在之处，保持感恩，并打好持久战。
 
 参考资料：
+
 - [Crush It! (2009 book)](https://garyvaynerchuk.com/books/crush-it/)
 - [Jab, Jab, Jab, Right Hook (2013 book)](https://garyvaynerchuk.com/books/jab-jab-jab-right-hook/)
 - [The Thank You Economy (2011 book)](https://garyvaynerchuk.com/books/the-thank-you-economy/)

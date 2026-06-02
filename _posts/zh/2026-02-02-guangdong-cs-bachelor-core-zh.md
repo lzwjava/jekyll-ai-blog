@@ -46,6 +46,7 @@ type: note
 ## **关键点：**
 
 **总计：15 门课程**（部分课程包含独立的实践考核环节）
+
 - **笔试：** 11 门课程
 - **实践考试：** 5 个实践环节（与其对应的理论课程配套）
 - **毕业论文：** 1 篇（必修，但不计入总学分）
@@ -59,17 +60,21 @@ type: note
 ## **课程类别划分：**
 
 **思想政治 (4 学分):**
+
 - 中国近现代史纲要
 - 马克思主义基本原理概论
 
 **数学基础 (14 学分):**
+
 - 高等数学(工本) - 10 学分
 - 离散数学 - 4 学分
 
 **语言 (7 学分):**
+
 - 英语(专业课)
 
 **计算机核心专业课 (47 学分):**
+
 - Data structures, algorithms, programming, databases, operating systems, computer architecture, software engineering, networks, security, AI/big data
 
 ---

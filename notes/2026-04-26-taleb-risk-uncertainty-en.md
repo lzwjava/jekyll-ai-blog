@@ -47,7 +47,7 @@ An event that:
 2. Has **massive impact**
 3. Is explained *after the fact* as if it were predictable
 
-### Examples:
+### Examples
 
 * The **2008 financial crisis**
 * The rise of the internet

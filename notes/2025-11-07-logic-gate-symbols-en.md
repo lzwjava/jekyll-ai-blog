@@ -15,6 +15,7 @@ type: note
 In digital electronics, logic gates are the building blocks of circuits that perform basic operations like AND, OR, NOT, etc., on binary signals (0s and 1s). Each gate has a standard symbolic shape used in circuit diagrams (schematics) to represent its function. These symbols are defined by standards like ANSI/IEEE 91 or IEC 60617. I'll explain the "triangle" (which I assume you mean by "trigle") and the AND gate shapes below, and address your question about whether the triangle is "not right."
 
 #### AND Gate Shape
+
 - **Appearance**: The AND gate symbol looks like a **D** shape:
   - Straight vertical line on the left (where multiple inputs enter).
   - Curved semicircle on the right (where the single output exits).
@@ -23,6 +24,7 @@ In digital electronics, logic gates are the building blocks of circuits that per
 - **Why this shape?** The straight input side allows for easy connection of multiple wires, and the curve symbolizes the "confluence" of signals.
 
 #### Triangle Shape
+
 - **Appearance**: A simple **triangle** (often pointing right), sometimes with a small circle (bubble) at the pointed tip (output).
   - Without circle: This is a **buffer gate** (or non-inverting amplifier). It just passes the input signal unchanged, often used to boost signal strength.
   - With circle: This is a **NOT gate** (or inverter). The circle indicates inversion.
@@ -33,6 +35,7 @@ In digital electronics, logic gates are the building blocks of circuits that per
 - **Why this shape?** The triangle evokes an arrow or amplifier, common in analog circuits for op-amps (operational amplifiers), but in digital logic, it's simplified for buffers/inverters.
 
 #### Is the Triangle "Not Right"?
+
 - No, the triangle is **absolutely correct** as a standard symbol—it's not a mistake or outdated. However:
   - It might look "wrong" if you're confusing it with the AND gate (which is D-shaped, not triangular).
   - In some hand-drawn diagrams or non-standard notations, shapes can vary, leading to mix-ups.

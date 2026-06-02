@@ -63,7 +63,7 @@ type: note
 
 你描述的是现代 DevOps 已经通过自动化机器人实现的操作，而 AI 可以将其进一步提升：
 
-### 现有工具（非 AI）：
+### 现有工具（非 AI）
 
 **Renovate Bot** 是一种自动化依赖更新工具，当有新版本可用时，它会创建 pull requests，并支持包括 npm, Java, Python, Go, Docker 在内的大多数流行语言和平台——支持超过 90 个 package managers。
 
@@ -71,7 +71,7 @@ type: note
 
 关键区别：Renovate 可以将 Angular 的更新合并为一个单独的 PR 并自动合并 patch。在某案例中，与 Dependabot 每周产生 200 个独立 PR 的“轰炸”相比，Renovate 为团队每月节省了 15 小时。
 
-### AI-Native 升级（你所提议的）：
+### AI-Native 升级（你所提议的）
 
 AI agent（如 Claude/OpenClaw）可以超越 Dependabot/Renovate 的功能：
 

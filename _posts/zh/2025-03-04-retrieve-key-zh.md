@@ -91,11 +91,13 @@ public class MyClass {
 ```
 
 **输出：**
+
 ```
 Value: Hello, World!
 ```
 
-#### 流程说明：
+#### 流程说明
+
 - **步骤1**：`ExecutionContext.getCurrent()` 获取当前上下文（实际应用可能使用 `ThreadLocal` 确保线程隔离）
 - **步骤2**：`getNamespace("myNamespace")` 获取代表命名空间的 `Map`
 - **步骤3**：`ns.get("myKey")` 提取 `"myKey"` 对应的值
@@ -132,6 +134,7 @@ public class MyClass {
 若需访问会话作用域，将 `request.getAttribute(key)` 替换为 `request.getSession().getAttribute(key)`
 
 ### 关键注意事项
+
 - **框架特定API**：访问上下文和命名空间的具体方法因框架而异。例如：
   - Spring中可使用 `ApplicationContext`、`RequestContextHolder` 或 `Environment` 访问不同上下文
   - 自定义系统请参考其文档

@@ -26,16 +26,19 @@ Using a Raspberry Pi instead of an Arduino (like the ESP32-CAM) for detecting wh
 | **Best Use Case**          | Advanced image processing, flexible for future expansions (e.g., ML models).    | Simple, low-cost light detection with Telegram integration.             | Non-camera solutions (e.g., vibration or current sensors).              |
 
 **Raspberry Pi Advantages**:
+
 - Superior image processing with OpenCV for robust light detection.
 - Easier to debug and expand (e.g., add a web interface or multiple sensors).
 - Supports higher-quality cameras for better accuracy in varying light conditions.
 
 **Raspberry Pi Disadvantages**:
+
 - Requires more setup (OS installation, Python environment).
 - Higher power consumption, less ideal for battery-powered setups.
 - More expensive than ESP32-CAM.
 
 **Other Options**:
+
 - **NodeMCU/ESP8266**: Suitable for non-camera solutions (e.g., using a vibration sensor or current sensor). Limited processing power makes camera integration impractical.
 - **Vibration Sensor**: Detects machine vibrations instead of the panel light. Simple but may miss subtle cycle changes.
 - **Current Sensor**: Measures power draw (e.g., ACS712 module) to detect when the machine stops. Non-invasive but requires electrical setup.
@@ -45,7 +48,9 @@ Using a Raspberry Pi instead of an Arduino (like the ESP32-CAM) for detecting wh
 ### Raspberry Pi Implementation Guide
 
 #### Tech Stack
+
 **Hardware**:
+
 1. **Raspberry Pi**:
    - **Raspberry Pi Zero 2 W** ($15, compact, Wi-Fi enabled) or **Raspberry Pi 4** ($35+, more powerful).
 2. **Camera**:
@@ -56,6 +61,7 @@ Using a Raspberry Pi instead of an Arduino (like the ESP32-CAM) for detecting wh
    - Enclosure or adhesive mount to position the camera facing the washing machine’s panel light.
 
 **Software**:
+
 1. **OS**: Raspberry Pi OS (Lite for efficiency, Full for easier setup).
 2. **Programming Language**: Python.
 3. **Libraries**:
@@ -65,7 +71,9 @@ Using a Raspberry Pi instead of an Arduino (like the ESP32-CAM) for detecting wh
 4. **Telegram Bot**: Same setup as Arduino (use BotFather for bot token and chat ID).
 
 #### Algorithm
+
 The algorithm is similar to the Arduino approach but leverages OpenCV for more robust image processing:
+
 1. **Image Capture**: Use the Pi Camera or webcam to capture images periodically (e.g., every 10 seconds).
 2. **Region of Interest (ROI)**: Define a rectangle around the panel light in the image.
 3. **Image Processing**:
@@ -79,12 +87,14 @@ The algorithm is similar to the Arduino approach but leverages OpenCV for more r
 5. **Debouncing**: Implement a 5-minute delay to confirm the machine has stopped.
 
 #### Implementation Steps
+
 1. **Set Up the Raspberry Pi**:
    - Download and flash **Raspberry Pi OS** (Lite or Full) to an SD card using Raspberry Pi Imager.
    - Connect the Pi to Wi-Fi by editing `/etc/wpa_supplicant/wpa_supplicant.conf` or using the GUI.
    - Enable the camera interface via `raspi-config` (Interfacing Options > Camera).
 
 2. **Install Dependencies**:
+
    ```bash
    sudo apt update
    sudo apt install python3-opencv python3-picamera2 python3-pip
@@ -94,10 +104,13 @@ The algorithm is similar to the Arduino approach but leverages OpenCV for more r
 3. **Position the Camera**:
    - Mount the Pi Camera or USB webcam to face the washing machine’s panel light.
    - Test the camera with:
+
      ```bash
      libcamera-still -o test.jpg
      ```
+
      or for USB webcam:
+
      ```bash
      fswebcam test.jpg
      ```
@@ -174,9 +187,11 @@ if __name__ == "__main__":
    - Modify `STOP_DELAY` if needed.
 
 6. **Run the Script**:
+
    ```bash
    python3 washer_monitor.py
    ```
+
    - Run in the background with `nohup python3 washer_monitor.py &` or use a systemd service for reliability.
 
 7. **Test and Deploy**:
@@ -187,6 +202,7 @@ if __name__ == "__main__":
 ---
 
 ### Other Alternatives
+
 1. **Vibration Sensor**:
    - **Hardware**: Use a vibration sensor (e.g., SW-420) with an ESP8266 or Raspberry Pi.
    - **Setup**: Attach the sensor to the washing machine to detect vibrations.
@@ -194,6 +210,7 @@ if __name__ == "__main__":
    - **Pros**: Simple, low-cost, unaffected by ambient light.
    - **Cons**: May miss cycles with long pauses (e.g., soaking).
    - **Code Example (ESP8266)**:
+
      ```cpp
      #include <ESP8266WiFi.h>
      #include <UniversalTelegramBot.h>
@@ -238,6 +255,7 @@ if __name__ == "__main__":
 ---
 
 ### Recommendation
+
 - **Raspberry Pi**: Best for robust image processing and future expandability. Use if you’re comfortable with Python and want high reliability in varying light conditions.
 - **Arduino (ESP32-CAM)**: Best for a low-cost, simple setup. Ideal if you want minimal configuration and are okay with basic image processing.
 - **Vibration or Current Sensor**: Best for non-camera solutions, especially if the panel light is unreliable (e.g., dim or obscured). Use with ESP8266 for simplicity.

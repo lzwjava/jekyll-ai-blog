@@ -42,7 +42,8 @@ type: note
 简而言之：欧洲人在自我认知上不一定不那么个人主义；他们在更厚重、更高信任度、国家调解的社会秩序中是个人主义的，这种社会秩序要求并在更广泛的问题上获得顺从。美国人对国家是个人主义的，这在许多与权威相关的问题上产生了相反的实际行为。
 
 参考文献：
-- Hofstede Insights 国家比较工具 (https://www.hofstede-insights.com/country-comparison/)
+
+- Hofstede Insights 国家比较工具 (<https://www.hofstede-insights.com/country-comparison/>)
 - 世界价值观调查第 7 次浪潮 (2017–2022) 关于信任和服从的衡量
 - Markus Kemmelmeier 等人，“七个社会中的个人主义、集体主义和威权主义”（Journal of Cross-Cultural Psychology, 2003）
 - Michele Gelfand，《规则制定者，规则破坏者》（2018）——紧密型与松散型文化（大多数欧洲国家得分比美国“更紧密”）

@@ -113,6 +113,7 @@ Compiling a definitive list of the top 20 Japanese songs of all time is challeng
     - **Genre**: Enka
 
 ### Notes
+
 - **Sources**: The list leverages Billboard Japan data (e.g., Hot 100, streaming), YouTube view trends, JOYSOUND karaoke rankings, and historical significance from sources like Wikipedia and Japan Wonder Travel.[](https://www.billboard.com/charts/japan-hot-100/)[](https://blog.japanwondertravel.com/10-famous-japanese-songs-you-should-know-58626)[](https://www.ticketsinjapan.com/media/famous-japanese-songs/)
 - **YouTube/Music**: Exact view counts vary, but songs like “Idol” and “Lemon” exceed hundreds of millions. Older songs (e.g., “Sukiyaki”) rely more on historical sales data.
 - **KTV**: Anime songs dominate foreign karaoke, with 20 of JOYSOUND’s top 30 Japanese songs in 2024 being anime-related.[](https://essential-japan.com/news/top-songs-sang-by-tourists-at-japans-karaoke-stores-revealed/)

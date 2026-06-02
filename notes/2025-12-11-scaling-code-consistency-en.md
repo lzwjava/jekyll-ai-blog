@@ -38,6 +38,7 @@ Successful big-tech companies (Google, Meta, Amazon, Microsoft, etc.) use a very
 | Periodic “consistency sprints” or tech debt weeks | Fix accumulated mess in bulk instead of preventing every tiny deviation | Meta’s “Hackathons for cleanup, Google’s Fixits |
 
 ### Why consistency is inherently hard (even with the above)
+
 1. **Team turnover** – People who made the original decisions leave; new people don’t know the old context.
 2. **Local optima vs global optima** – A pattern that is slightly worse globally can be much faster locally, so teams pick it under deadline pressure.
 3. **Feature urgency always beats tech debt** – Business says “ship by Christmas or we lose $10 M”, nobody cares about perfect naming.
@@ -46,7 +47,9 @@ Successful big-tech companies (Google, Meta, Amazon, Microsoft, etc.) use a very
 6. **Tooling and language evolution** – The “correct” way in 2018 becomes legacy in 2024 (callback → Promise → async/await → React Server Components…).
 
 ### Bottom line
+
 No, you do **not** want one supreme gatekeeper in a big corp. You want:
+
 - Clear written standards
 - Ruthless automation of those standards
 - A small, rotating set of owners per component (not one hero)
@@ -55,6 +58,7 @@ No, you do **not** want one supreme gatekeeper in a big corp. You want:
 Companies that rely on a single heroic architect eventually hit a wall around ~50–100 engineers on the codebase. Companies that invest in automation and distributed ownership can keep 1,000+ engineers moving fast with surprisingly decent consistency.
 
 References:
+
 - [Google Engineering Practices – Code Review](https://google.github.io/eng-practices/)
 - [ThoughtWorks Tech Radar – Centralized vs Decentralized Ownership](https://www.thoughtworks.com/radar/techniques)
 - [The Architecture Bottleneck (Stripe engineering blog)](https://stripe.com/blog/scaling-engineering)

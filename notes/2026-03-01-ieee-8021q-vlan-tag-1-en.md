@@ -65,6 +65,7 @@ Bits:    15 14 13 12 11 10 9  8  7  6  5  4  3  2  1  0
 Total: 4 bytes = 32 bits = TPID (16 bits) + TCI (16 bits).
 
 This tag enables:
+
 - VLAN segmentation on a single physical link (trunking)
 - Quality of Service differentiation
 - Selective dropping during congestion

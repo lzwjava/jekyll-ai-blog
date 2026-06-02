@@ -131,6 +131,7 @@ python -m pdb xx.py         # 若 xx.py 调用了 unittest.main()
   ```bash
   python -X tracemalloc=25 -m unittest -v
   ```
+
 * 显示导入详情（卡顿排查很少需要）：
 
   ```bash

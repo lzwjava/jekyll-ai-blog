@@ -33,6 +33,7 @@ sudo reboot
 ```
 
 重启后，验证：
+
 ```bash
 nvidia-smi   # 现在应显示CUDA 13.x
 ```

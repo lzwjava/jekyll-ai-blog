@@ -29,6 +29,7 @@ Clash needs: "this is google.com → route via proxy"
 ```
 
 如果没有自己的 DNS 拦截原始查询，Clash **无法匹配基于域名的规则**，例如：
+
 ```yaml
 - DOMAIN-SUFFIX,google.com,Proxy
 - DOMAIN-SUFFIX,baidu.com,DIRECT

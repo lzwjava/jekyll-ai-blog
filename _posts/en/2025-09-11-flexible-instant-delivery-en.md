@@ -16,7 +16,9 @@ You're absolutely right—**instant delivery (即时配送) services** (like Mei
 ---
 
 ### **1. Instant Delivery (Meituan/Ele.me/Dada) – Best for Extra Help**
+
 These riders are **paid per order** and often have more flexibility to assist with small tasks, especially if you tip (even 2–5 RMB helps). Examples of what you can ask:
+
 - **Carry heavy items** (e.g., a box of water, large groceries) to your door:
   > *“帮忙送到家里，有点重，给您5块红包，谢谢！”*
   > (*"Please help bring it to my home—it’s heavy. I’ll give you a 5 RMB tip, thanks!"*)
@@ -28,6 +30,7 @@ These riders are **paid per order** and often have more flexibility to assist wi
   > (*"I’m slow coming down—could you wait 5 minutes? Thanks!"*)
 
 **Why they’ll help:**
+
 - They’re independent contractors (not tied to a single company like JD/Pinduoduo).
 - Tips are a big incentive (many rely on them for income).
 - Their routes are hyper-local (same building/community).
@@ -35,12 +38,15 @@ These riders are **paid per order** and often have more flexibility to assist wi
 ---
 
 ### **2. Standard E-Commerce (JD/Pinduoduo/Taobao) – Less Flexible**
+
 These deliveries are handled by **company employees** (JD’s own logistics, Cainiao for Taobao, etc.) with strict routes and time limits. They **won’t** help with extra tasks because:
+
 - **No tipping culture**: Their salaries are fixed; tips aren’t expected.
 - **High volume**: They deliver 100+ packages/day and can’t deviate.
 - **Company rules**: JD, for example, prohibits riders from accepting tips or doing errands.
 
 **What you *can* ask (politely):**
+
 - **Leave at a specific spot** (if they’re in a hurry):
   > *“放门口就行，谢谢！”* (*"Just leave it at the door, thanks!"*)
 - **Call before arrival** (if you need to buzz them in):
@@ -49,12 +55,16 @@ These deliveries are handled by **company employees** (JD’s own logistics, Cai
   > *“易碎品，轻放，谢谢！”* (*"Fragile—please handle with care, thanks!"*)
 
 **What they *won’t* do:**
+
 - Carry heavy items upstairs (unless it’s JD’s "上门安装" service for appliances).
 - Take your trash, buy things, or wait for you.
 
 ---
+
 ### **3. Workarounds for Heavy/bulky Items (JD/Pinduoduo)**
+
 If you need help with large purchases (e.g., water, furniture):
+
 - **JD.com**:
   - Choose **"上门安装" (doorstep installation)** for appliances (extra fee, but they’ll carry it up).
   - For water/heavy groceries, some JD Fresh (*京东到家*) riders *might* help if tipped (but not guaranteed).
@@ -65,7 +75,9 @@ If you need help with large purchases (e.g., water, furniture):
   - Use apps like **58同城** or **闪送** to hire someone to carry items upstairs (cheap, ~10–20 RMB).
 
 ---
+
 ### **4. Cultural Tips for Success**
+
 - **Phrase it as a request, not a demand**:
   > ❌ *“你必须帮我拿上去！”* (You must carry it up!)
   > ✅ *“麻烦您帮忙送到家里，可以吗？”* (Could you please help bring it to my home?)
@@ -75,6 +87,7 @@ If you need help with large purchases (e.g., water, furniture):
   > Many riders (especially JD) are overworked—don’t take it personally.
 
 ---
+
 ### **Summary Table**
 
 | **Request**               | **Instant Delivery (Meituan/Ele.me)** | **E-Commerce (JD/Pinduoduo)** |
@@ -87,7 +100,9 @@ If you need help with large purchases (e.g., water, furniture):
 | Handle fragile items      | ✅ Yes                                 | ✅ Yes (but no extra care)     |
 
 ---
+
 ### **Final Advice**
+
 - For **errands/help**, stick to **instant delivery apps** (Meituan/Ele.me/Dada).
 - For **e-commerce orders**, manage expectations—runners won’t go beyond basic delivery.
 - If you frequently need help with heavy items, consider **buying a small foldable cart** (like IKEA’s *Rull*) or using **local moving services** (闪送/58同城).

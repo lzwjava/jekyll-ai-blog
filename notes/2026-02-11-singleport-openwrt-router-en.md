@@ -19,17 +19,20 @@ Yes, that's a common limitation with many older laptops — only one built-in Et
 But it's still very doable and widely used. Here are the realistic options in order of recommendation (easiest/best first):
 
 ### 1. Best & simplest: Add a cheap USB Ethernet adapter (strongly recommended)
+
 - Plug in one USB-to-Ethernet adapter → now you have two physical ports.
 - Assign one (built-in) as WAN, the other (USB) as LAN — or vice versa.
 - Most modern USB adapters work out-of-the-box or with one package install.
 
 Popular/reliable chipsets in 2026 (good OpenWrt support):
+
 - **Realtek RTL8153 / RTL8156** (gigabit) → install `kmod-usb-net-rtl8152`
 - **ASIX AX88179** (gigabit USB 3.0)
 - **TP-Link UE300 / UE306** (very common, cheap, RTL8153-based)
 - Avoid very old USB 2.0-only adapters if you want gigabit speeds.
 
 Steps after OpenWrt is installed:
+
 1. Plug in the USB adapter.
 2. SSH or LuCI → System → Software → Update lists → Search/install the driver (e.g. `kmod-usb-net-rtl8152` or `kmod-usb-net-asix`).
 3. Reboot or hotplug — new interface appears (e.g. eth1).
@@ -43,7 +46,9 @@ Steps after OpenWrt is installed:
 This gives full router functionality (NAT, firewall, OpenClash/Clash, SQM, etc.) at gigabit speeds with low overhead.
 
 ### 2. Use VLANs on the single port + managed switch (more advanced, no extra hardware)
+
 If you don't want to buy anything:
+
 - Use a **managed/VLAN-capable switch** (e.g. cheap TP-Link TL-SG108E ~$20-30).
 - Configure two VLANs on the single Ethernet port:
   - VLAN 10 = WAN
@@ -60,11 +65,13 @@ If you don't want to buy anything:
 This works well but requires a VLAN-aware switch and more config (via LuCI: Network → Switch → add VLANs). Good for clean setups without USB.
 
 ### 3. Temporary / limited setups (not ideal for full router)
+
 - **Use built-in port as LAN only** → connect laptop Ethernet to existing router's LAN port. OpenWrt acts as AP / proxy box / ad-blocker (no NAT, no full routing).
 - **WiFi as WAN** (if card works) → but you said no WiFi.
 - **USB WiFi adapter as AP** → buy USB WiFi dongle supported by OpenWrt (e.g. mt7921u chipset), use as wireless LAN AP, wired port as WAN. But USB WiFi is often less stable/powerful than built-in.
 
 ### Summary
+
 - **Buy a $10-25 USB gigabit Ethernet adapter** → easiest path to proper dual-port router.
 - Your i5 + 8GB laptop will still crush most consumer routers in performance (VPN/proxy throughput, many clients, packages).
 - No WiFi? You can add a good USB WiFi adapter later for wireless AP (or use phone tethering temporarily).

@@ -131,6 +131,7 @@ For discovery runs, add `import pdb; pdb.set_trace()` at the suspected spot.
   ```bash
   python -X tracemalloc=25 -m unittest -v
   ```
+
 * Show import noise (rarely needed for hangs):
 
   ```bash

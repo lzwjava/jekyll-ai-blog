@@ -29,6 +29,7 @@ In a corporate/enterprise environment, Jenkins is one of the most widely adopted
 | **On-prem & hybrid cloud**      | Runs behind the corporate firewall (important for regulated industries) while still being able to reach cloud environments | Air-gapped or highly restricted networks still possible |
 
 ### Typical Enterprise Setup (2025)
+
 - Jenkins controller running on Kubernetes (Jenkins Operator or Helm chart) or VM
 - Hundreds/thousands of Jenkins agents (static VMs, Kubernetes pods, AWS EC2 Spot, Azure VMSS, etc.)
 - Shared libraries (Groovy) for reusable pipeline code across hundreds of teams
@@ -37,6 +38,7 @@ In a corporate/enterprise environment, Jenkins is one of the most widely adopted
 - Pipeline as Code (Jenkinsfile in repo) – mandatory in most mature organizations
 
 ### Bottom line
+
 In modern corporations, Jenkins is rarely “just a CI tool” anymore. It usually becomes the **central automation orchestrator** for the entire software delivery lifecycle and often for non-SDLC automation tasks as well.
 
 Virtually every Fortune 1000 company that develops or deploys software internally either uses Jenkins today or has used it in the past 10–15 years. Even organizations moving to GitHub Actions, GitLab CI, or ArgoCD usually still keep Jenkins for legacy systems or highly regulated workflows.

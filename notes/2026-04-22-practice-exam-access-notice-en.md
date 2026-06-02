@@ -42,13 +42,14 @@ The email notifies students that a **practice exam platform** for the course **"
 - **Organization:** Office of Higher Education Self-Study Examinations, GDUFS
 - **Address:** Room 211, Teaching Building 3, No. 2 Baiyun Avenue North, Baiyun District, Guangzhou
 - **Phone:** 020-36246578 *(available during working hours only; no staff on weekends or public holidays)*
-- **Website:** http://jxjy.gdufs.edu.cn
+- **Website:** <http://jxjy.gdufs.edu.cn>
 
 ---
 
 ### ✅ Summary
 
 In short, this email is telling students to:
+
 1. Register on **pintia.cn** with their real name
 2. Use the invitation code to join the practice group
 3. **Reply to the email** to confirm receipt

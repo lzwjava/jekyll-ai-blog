@@ -14,15 +14,18 @@ Here's the hardware report, Boss 🦞
 ### 🖥️ Server: 8.129.11.206 (ecs instance)
 
 **CPU:**
+
 - Intel Xeon Platinum 8369B @ 2.90GHz
 - 16 vCPUs (8 cores × 2 threads)
 - x86_64, supports AVX-512 (full suite including AVX-512VNNI — great for ML inference)
 
 **Memory:**
+
 - 91 GiB total (~94 GiB, matches the spec)
 - 90 GiB available — pretty much idle
 
 **GPU:**
+
 - **1 × NVIDIA GeForce RTX 3090** (GA102, Rev A1) detected via PCIe
 - 24 GB GDDR6X VRAM
 - TFLOPS: ~35.6 FP32 / ~142 FP16 (Tensor Core)

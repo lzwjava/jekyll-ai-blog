@@ -15,6 +15,7 @@ type: note
 ## 解决方案概述
 
 该脚本将执行以下步骤：
+
 1. **递归收集 `pom.xml` 文件**：遍历指定的根目录，查找所有 `pom.xml` 文件，无论其位置或结构如何。
 2. **解析模块信息**：从每个 `pom.xml` 中提取 `groupId`、`artifactId` 和依赖项。
 3. **处理 `groupId` 继承**：如果 `pom.xml` 未指定 `groupId`，则从 `<parent>` 声明中继承（如果存在）。
@@ -194,13 +195,16 @@ if __name__ == '__main__':
 ## 工作原理
 
 ### 1. **命令行输入**
+
 - 接受单个参数：`<根目录>`，作为递归搜索的起点。
 - 验证其是否为目录。
 
 ### 2. **查找 `pom.xml` 文件**
+
 - 使用 `os.walk` 递归遍历目录树，将所有 `pom.xml` 文件收集到列表中。
 
 ### 3. **解析模块信息**
+
 - **Group ID (`groupId`)**：
   - 从每个 `pom.xml` 中提取。
   - 如果不存在，则查找 `<parent>` 部分，并通过 `relativePath`（如果省略则默认为父目录）从引用的父 POM 解析 `groupId`。
@@ -209,12 +213,14 @@ if __name__ == '__main__':
 - **依赖项**：从 `<dependencies>` 部分提取 `(groupId, artifactId)` 对。
 
 ### 4. **依赖分析**
+
 - 构建所有模块的 `(groupId, artifactId)` 到 `pom_path` 的映射。
 - 对于每个 `pom.xml`，检查其依赖项与模块映射的匹配情况，以找到项目内依赖。
 - 排除自依赖（模块依赖自身的情况）。
 - 将依赖关系记录为 `(导入者_artifactId, 被导入者_artifactId)` 对。
 
 ### 5. **DOT 输出**
+
 - 以 DOT 格式输出有向图，为简化使用 `artifactId` 作为节点标签。
 
 ---

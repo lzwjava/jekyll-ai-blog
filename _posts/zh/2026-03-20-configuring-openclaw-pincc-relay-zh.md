@@ -102,6 +102,7 @@ openclaw auth set pincc:default --key "YOUR_PINCC_API_TOKEN_HERE"
 ```
 
 **步骤 4 — 验证、重启并测试**
+
 - 验证 JSON：`python3 -m json.tool ~/.openclaw/openclaw.json`
 - 重启：`openclaw restart`（或如果作为服务运行则 `sudo systemctl restart openclaw`）
 - 列出模型：`openclaw models list` — 查找 `pincc/...` 条目

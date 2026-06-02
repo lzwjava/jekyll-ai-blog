@@ -17,6 +17,7 @@ This guide covers the motivation, key concepts, specification, workflows, implem
 ## Motivation and Background
 
 Python packaging evolved from `distutils` (introduced in Python 1.6, 2000) to `setuptools` (2004), which added dependency management but introduced issues:
+
 - **Imperative and Fragile**: Builds relied on executing `python setup.py`, an arbitrary script that could fail due to environment assumptions (e.g., missing Cython for extensions).
 - **No Build Dependencies**: Tools needed for building (e.g., compilers, Cython) weren't declared, leading to manual installations and version conflicts.
 - **Tight Coupling**: Pip hardcoded `setup.py` invocation, blocking alternative build systems like Flit or Bento.
@@ -29,6 +30,7 @@ The result: A declarative, extensible ecosystem where `setup.py` is optional, an
 ## Key Concepts
 
 ### Source Trees and Distributions
+
 - **Source Tree**: A directory (e.g., VCS checkout) containing package code and `pyproject.toml`. Tools like `pip install .` build from it.
 - **Source Distribution (Sdist)**: A gzipped tarball (`.tar.gz`) like `package-1.0.tar.gz`, unpacking to a `{name}-{version}` directory with `pyproject.toml` and metadata (PKG-INFO). Used for releases and downstream packaging (e.g., Debian).
 - **Wheel**: A `.whl` binary distribution—pre-built, platform-specific, and installable without compilation. PEP 517 mandates wheels for reproducibility.
@@ -36,12 +38,15 @@ The result: A declarative, extensible ecosystem where `setup.py` is optional, an
 Legacy sdists (pre-PEP 517) unpack to executable trees but must now include `pyproject.toml` for compliance.
 
 ### pyproject.toml
+
 This TOML file centralizes configuration. The `[build-system]` section (from PEP 518/517) specifies:
+
 - `requires`: List of PEP 508 dependencies for the build (e.g., `["setuptools>=40.8.0", "wheel"]`).
 - `build-backend`: Entry point to the backend (e.g., `"setuptools.build_meta"` or `"poetry.masonry.api"`).
 - `backend-path` (optional): In-tree paths added to `sys.path` for self-hosted backends (e.g., `["src/backend"]`).
 
 Example minimal config:
+
 ```
 [build-system]
 requires = ["setuptools>=40.8.0", "wheel"]
@@ -51,6 +56,7 @@ build-backend = "setuptools.build_meta"
 Requirements form a DAG (no cycles; frontends detect and fail). Other sections like `[project]` (PEP 621) or `[tool.poetry]` hold metadata/dependencies.
 
 ### Build Backends and Frontends
+
 - **Backend**: Implements build logic via hooks (callable functions). Runs in a subprocess for isolation.
 - **Frontend**: Orchestrates (e.g., pip). Sets up isolation, installs requirements, calls hooks.
 - **Decoupling**: Frontends invoke standardized hooks, not `setup.py`. This supports diverse backends without pip changes.
@@ -60,18 +66,22 @@ Hooks use `config_settings` (dict for flags, e.g., `{"--debug": true}`) and may 
 ## The Specification
 
 ### [build-system] Details
+
 - `requires`: PEP 508 strings (e.g., `">=1.0; sys_platform == 'win32'"`).
 - `build-backend`: `module:object` (e.g., `flit_core.buildapi` imports `flit_core; backend = flit_core.buildapi`).
 - No sys.path pollution—backends import via isolation.
 
 ### Hooks
+
 Backends expose these as attributes:
 
 **Mandatory:**
+
 - `build_wheel(wheel_directory, config_settings=None, metadata_directory=None) -> str`: Builds wheel in `wheel_directory`, returns basename (e.g., `"myproj-1.0-py3-none-any.whl"`). Uses prior metadata if provided. Handles read-only sources via temps.
 - `build_sdist(sdist_directory, config_settings=None) -> str`: Builds sdist in `sdist_directory` (pax format, UTF-8). Raises `UnsupportedOperation` if impossible (e.g., no VCS).
 
 **Optional (defaults to `[]` or fallbacks):**
+
 - `get_requires_for_build_wheel(config_settings=None) -> list[str]`: Extra wheel deps (e.g., `["cython"]`).
 - `prepare_metadata_for_build_wheel(metadata_directory, config_settings=None) -> str`: Writes `{pkg}-{ver}.dist-info` metadata (per wheel spec, no RECORD). Returns basename; frontends extract from wheel if missing.
 - `get_requires_for_build_sdist(config_settings=None) -> list[str]`: Extra sdist deps.
@@ -79,6 +89,7 @@ Backends expose these as attributes:
 Hooks raise exceptions for errors. Frontends call in isolated envs (e.g., venv with only stdlib + requirements).
 
 ### Build Environment
+
 - Isolated venv: Bootstrap for `get_requires_*`, full for builds.
 - CLI tools (e.g., `flit`) in PATH.
 - No stdin; subprocesses per hook.
@@ -86,6 +97,7 @@ Hooks raise exceptions for errors. Frontends call in isolated envs (e.g., venv w
 ## How the Build Process Works
 
 ### Step-by-Step Workflow
+
 For `pip install .` (source tree) or sdist install:
 
 1. **Discovery**: Frontend reads `pyproject.toml`.
@@ -96,23 +108,28 @@ For `pip install .` (source tree) or sdist install:
 6. **Fallbacks**: If sdist unsupported, build wheel; if no hooks, legacy `setup.py`.
 
 For sdists: Unpack, treat as source tree. Developer workflow (e.g., `pip wheel .`):
+
 1. Isolate env.
 2. Call backend hooks for wheel/sdist.
 
 ### Build Isolation (PEP 518)
+
 Creates temp venv for builds, avoiding host pollution. Pip's `--no-build-isolation` disables (use cautiously). Tools like tox default to isolation.
 
 Old vs. New:
+
 - **Old**: `python setup.py install` in host env—risks conflicts.
 - **New**: Isolated hooks—reproducible, secure.
 
 ## Implementing a Build Backend
 
 To create one:
+
 1. Define a module with hooks (e.g., `mybackend.py`).
 2. Point `build-backend` to it.
 
 Minimal example (pure Python package):
+
 ```python
 # mybackend.py
 from zipfile import ZipFile
@@ -137,6 +154,7 @@ def prepare_metadata_for_build_wheel(metadata_directory, config_settings=None):
 ```
 
 In `pyproject.toml`:
+
 ```
 [build-system]
 requires = []
@@ -149,25 +167,31 @@ Use libraries like `pyproject-hooks` for boilerplate. For extensions, integrate 
 
 - **pip**: Auto-detects `pyproject.toml`; use `--use-pep517` (default since 19.1). For editable: `pip install -e .` calls hooks.
 - **Poetry**: Declarative tool. Generates:
+
   ```
   [build-system]
   requires = ["poetry-core>=1.0.0"]
   build-backend = "poetry.core.masonry.api"
   ```
+
   Installs via `poetry build`; pip-compatible.
 - **Flit**: Simple for pure Python. Uses:
+
   ```
   [build-system]
   requires = ["flit_core >=3.2,<4"]
   build-backend = "flit_core.buildapi"
   ```
+
   `flit publish` builds/uploads.
 - **Setuptools**: Legacy bridge:
+
   ```
   [build-system]
   requires = ["setuptools>=40.8.0", "wheel"]
   build-backend = "setuptools.build_meta"
   ```
+
   Supports `setup.cfg` for declarative metadata.
 
 Migrate legacy: Add `[build-system]`; remove `setup.py` calls.
@@ -186,6 +210,7 @@ Migrate legacy: Add `[build-system]`; remove `setup.py` calls.
 As of 2025, setuptools dominates (per surveys), but adoption of Poetry/Flit grows for simplicity.
 
 ## References
+
 - [PEP 517 – A build-system independent format for source trees](https://peps.python.org/pep-0517/)
 - [PEP 517 and 518 in Plain English](https://chadsmith-software.medium.com/pep-517-and-518-in-plain-english-47208ca8b7a6)
 - [Python packaging - Past, Present, Future](https://bernat.tech/posts/pep-517-518/)

@@ -11,6 +11,7 @@ type: note
 Below is a list of young (under 30 or achieved significant success before 30) software engineers, computer scientists, and related professionals who have made impactful contributions in the software area, akin to the innovative spirit of Cornelius Palm, Alexandr Wang, and George Hotz. These individuals are recognized for their work in software development, AI, systems programming, or related fields, often pushing boundaries in open-source projects, startups, or research. The selection draws on web sources like Forbes’ 30 Under 30, GitHub contributor profiles, and other tech-related reports, ensuring relevance as of April 20, 2025.
 
 ### Young Software Engineers and Scientists
+
 1. **Kairan Quazi** (Age: 16, born 2008)
    - **Field**: Software Engineering
    - **Achievements**: Youngest graduate of Santa Clara University at 14, now a software engineer at SpaceX’s Starlink team. Works on data-centric beam planning, low-latency computation, and real-time system design for satellite networks. Previously interned at Intel, contributing to machine learning frameworks.
@@ -52,11 +53,13 @@ Below is a list of young (under 30 or achieved significant success before 30) so
    - **Why Notable**: Her software addresses ethical AI and governance, tackling societal challenges in tech.
 
 ### Comparison to Palm, Wang, and Hotz
+
 - **Cornelius Palm** (Happyr Health): Palm’s healthtech software aligns with Bakshi and Zhou, who leverage AI to solve domain-specific problems (healthcare, code quality), emphasizing user impact.
 - **Alexandr Wang** (Scale AI): Wang’s AI data platform parallels Quazi, Sodha, and Valdarrama, who build or contribute to AI-driven software systems, focusing on scalability and real-time applications.
 - **George Hotz** (comma.ai): Hotz’s work on autonomous driving software resonates with Prabhudesai and Gao, whose software optimizes complex systems (cloud monitoring, social platforms) with performance-critical requirements.
 
 ### Notes
+
 - Selection focuses on software engineers and computer scientists under 30 (or successful by 30) with significant contributions in AI, systems programming, or software tools, based on sources like Forbes’ 30 Under 30 (2022–2024) and tech blogs.
 - Ages are estimated where exact birth years are unavailable, using achievement timelines (e.g., Forbes listings or project milestones).
 - Unlike the previous response, this list excludes non-software fields (e.g., biomedical, aerospace) and emphasizes coding, AI, and software systems.

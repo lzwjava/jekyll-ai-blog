@@ -17,6 +17,7 @@ Answer:
 **Run-rate revenue** (also called **annualized run rate** or **ARR run rate**) is a method to estimate what a company's revenue would be over a full year if the current performance continues at the same pace without any changes.
 
 It is commonly used by:
+
 - Startups and SaaS companies
 - Fast-growing businesses
 - Companies with recurring revenue

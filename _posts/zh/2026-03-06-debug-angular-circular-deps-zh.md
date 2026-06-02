@@ -43,6 +43,7 @@ npx madge --circular --extensions ts --image deps.svg src/
 ```
 
 - 输出示例：
+
   ```
   ✖ Found 3 circular dependencies!
   1) src/app/featureA.component.ts → src/app/shared/utils.service.ts → src/app/featureA.component.ts
@@ -132,8 +133,8 @@ imports: [forwardRef(() => ParentComponent)]
 
 **参考：**
 
-- https://angular.dev/errors/NG0919
-- https://medium.com/@vkrntteotia/how-to-automatically-detect-circular-dependencies-in-your-angular-project-using-a-tool-called-madge-9c2f8ab77b4f
-- https://timdeschryver.dev/blog/fixing-angular-standalone-components-that-have-a-circular-dependency
-- https://www.npmjs.com/package/madge
-- https://github.com/sverweij/dependency-cruiser
+- <https://angular.dev/errors/NG0919>
+- <https://medium.com/@vkrntteotia/how-to-automatically-detect-circular-dependencies-in-your-angular-project-using-a-tool-called-madge-9c2f8ab77b4f>
+- <https://timdeschryver.dev/blog/fixing-angular-standalone-components-that-have-a-circular-dependency>
+- <https://www.npmjs.com/package/madge>
+- <https://github.com/sverweij/dependency-cruiser>

@@ -13,6 +13,7 @@ Here’s a comprehensive guide on **how to use Liquibase** in a Spring Boot appl
 ---
 
 ### 1. Add Liquibase Dependency
+
 To get started, you need to include the Liquibase dependency in your project. If you’re using **Maven**, add this to your `pom.xml`:
 
 ```xml
@@ -33,6 +34,7 @@ This brings the Liquibase core library into your project.
 ---
 
 ### 2. Configure Liquibase
+
 Liquibase uses a **changelog file** to manage database schema changes. By default, Spring Boot looks for a file named `db/changelog/db.changelog-master.yaml`, `db/changelog/db.changelog-master.xml`, or `db/changelog/db.changelog-master.sql` in the classpath. You can customize this location by adding a property to your `application.properties` (or `application.yml`):
 
 ```properties
@@ -44,6 +46,7 @@ This tells Spring Boot where to find your changelog file.
 ---
 
 ### 3. Create a Changelog File
+
 The changelog file defines the changes you want to apply to your database. You can write it in formats like XML, YAML, or SQL. Here’s an example of an **XML changelog** file located at `src/main/resources/db/changelog/db.changelog-master.xml`:
 
 ```xml
@@ -72,7 +75,9 @@ This example creates a `users` table with three columns: `id`, `username`, and `
 ---
 
 ### 4. Run Your Spring Boot Application
+
 When you start your Spring Boot application, Liquibase automatically:
+
 - Reads the changelog file.
 - Checks which changesets have already been applied (tracked in a table called `DATABASECHANGELOG`).
 - Executes any new changesets against your database.
@@ -82,6 +87,7 @@ No additional code is needed—Spring Boot’s auto-configuration handles this f
 ---
 
 ### 5. Customize Liquibase (Optional)
+
 You can tweak Liquibase’s behavior using properties in `application.properties`. Here are some common options:
 
 ```properties
@@ -95,7 +101,9 @@ These settings allow you to adapt Liquibase to your environment or workflow.
 ---
 
 ### 6. Leverage Advanced Features
+
 Liquibase offers powerful features to enhance schema management:
+
 - **Contexts and Labels**: Control which changesets run in specific environments (e.g., `dev` vs. `prod`).
 - **Preconditions**: Ensure certain conditions (e.g., a table exists) are met before applying a changeset.
 - **Rollbacks**: Define how to undo a changeset if needed.
@@ -116,6 +124,7 @@ This changeset only runs in the `dev` context.
 ---
 
 ### 7. Test with an In-Memory Database
+
 For testing, pair Liquibase with an in-memory database like H2. Add the H2 dependency:
 
 ```xml
@@ -138,12 +147,15 @@ Liquibase will apply your changes to the in-memory database during tests.
 ---
 
 ### 8. Version Control Your Changelog
+
 Store your changelog files in version control (e.g., Git) alongside your application code. This ensures your database schema evolves in sync with your codebase, making deployments and rollbacks more predictable.
 
 ---
 
 ### Summary
+
 To use Liquibase in a Spring Boot application:
+
 1. Add the Liquibase dependency.
 2. Configure the changelog file location.
 3. Create a changelog file with your database changes.

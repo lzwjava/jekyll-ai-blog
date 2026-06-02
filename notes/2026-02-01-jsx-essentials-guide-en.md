@@ -51,6 +51,7 @@ JSX looks like HTML but has some important differences you need to know:
 **Inline styles are objects, not strings.** You pass a JavaScript object to the `style` attribute:
 
 {% raw %}
+
 ```jsx
 // ❌ Wrong
 <div style="color: red; font-size: 16px"></div>
@@ -58,6 +59,7 @@ JSX looks like HTML but has some important differences you need to know:
 // ✅ Correct
 <div style={{ color: "red", fontSize: "16px" }}></div>
 ```
+
 {% endraw %}
 
 The double curly braces here aren't special syntax — the outer `{}` is the JSX expression delimiter, and the inner `{}` is a regular JavaScript object literal.

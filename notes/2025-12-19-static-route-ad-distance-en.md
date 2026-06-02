@@ -21,6 +21,7 @@ In Cisco routers (the most common context for this question in networking certif
 This is why static routes override dynamically learned routes to the same destination unless the static route's AD is manually increased (e.g., for floating static backups).
 
 Evidence from reliable sources:
+
 - Cisco official documentation and community confirm static routes default to AD 1.
 - Standard AD tables list: Static = 1, OSPF = 110, RIP = 120.
 

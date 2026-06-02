@@ -15,7 +15,7 @@ Answer:
 
 **Wickedness** means the quality or state of being wicked — in other words, deliberate moral evil, extreme badness, or intentional cruelty and wrongdoing.
 
-### Main meanings and shades of "wickedness":
+### Main meanings and shades of "wickedness"
 
 1. **Moral / religious meaning** (most common and serious usage)
    - Evil character or behavior
@@ -43,7 +43,7 @@ Answer:
    - "That party was pure wickedness!" (= it was amazingly good)
    - This usage is slang and usually positive or neutral — very different from the serious meaning.
 
-### Quick comparison:
+### Quick comparison
 
 | Context              | Meaning of wickedness                  | Tone          | Example sentence                              |
 |----------------------|----------------------------------------|---------------|-----------------------------------------------|

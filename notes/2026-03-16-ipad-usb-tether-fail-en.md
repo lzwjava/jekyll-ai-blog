@@ -38,6 +38,7 @@ ip link show
 ```
 
 If `ip_forward` is `0`, that alone kills everything — fix it immediately:
+
 ```bash
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 ```
@@ -58,6 +59,7 @@ sudo tcpdump -i eth0 -n host 8.8.8.8
 ```
 
 Then from the iPad, try visiting any website. You should see:
+
 - **Terminal 1:** packets from `192.168.201.136` arriving
 - **Terminal 2:** those same packets appearing on the WAN side with the laptop's IP as source
 
@@ -69,6 +71,7 @@ If packets appear in **neither** → iPad is not sending traffic at all (check d
 ## Step 3: Verify iPad's Network Settings
 
 On the iPad, go to **Settings → Wi-Fi** (or in this case the USB network). Check:
+
 - **IP Address:** Should be `192.168.201.x`
 - **Subnet Mask:** `255.255.255.0`
 - **Router/Gateway:** Must be `192.168.201.1` ← **this is the most common failure point**
@@ -77,6 +80,7 @@ On the iPad, go to **Settings → Wi-Fi** (or in this case the USB network). Che
 If the **Router field is blank or wrong**, the iPad doesn't know where to send traffic. This can happen if dnsmasq's DHCP is not sending the `option:router` correctly.
 
 Verify dnsmasq config:
+
 ```bash
 # Check dnsmasq is actually sending gateway option
 grep -E "dhcp-option|gateway|router" /etc/dnsmasq.conf
@@ -114,6 +118,7 @@ Now test on iPad: can you load `http://1.1.1.1`? (IP only, no DNS needed.)
 If Clash is the bottleneck, check these:
 
 ### 5a. Confirm Clash TUN interface is up
+
 ```bash
 ip link show | grep -i tun
 # Should show a tun interface like "utun" or "Meta" etc.
@@ -121,6 +126,7 @@ ip addr show <tun_interface>
 ```
 
 ### 5b. Verify Clash is listening as DNS server
+
 ```bash
 # Clash DNS should be listening on 192.168.201.1:53
 sudo ss -ulnp | grep 53
@@ -129,6 +135,7 @@ sudo netstat -ulnp | grep 53
 ```
 
 ### 5c. Test DNS manually from the laptop (simulating iPad)
+
 ```bash
 # Query Clash DNS directly — should return fake-IP (198.18.x.x) for proxy domains
 dig google.com @192.168.201.1
@@ -137,7 +144,9 @@ dig google.com @192.168.201.1
 ```
 
 ### 5d. Check Clash config for TUN auto-route
+
 In your Clash `config.yaml`, the TUN section must have:
+
 ```yaml
 tun:
   enable: true

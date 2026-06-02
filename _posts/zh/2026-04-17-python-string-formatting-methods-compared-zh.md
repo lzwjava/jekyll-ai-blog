@@ -25,7 +25,7 @@ age = 25
 msg = f"{name} is {age} years old"
 ```
 
-### 为何这是最佳选择：
+### 为何这是最佳选择
 
 * ✅ **可读性**最强
 * ✅ 速度快（在CPython中通常最快）
@@ -52,12 +52,12 @@ msg = "{} is {} years old".format(name, age)
 msg = "{name} is {age}".format(name=name, age=age)
 ```
 
-### 优点：
+### 优点
 
 * 在旧版本Python（<3.6）中可用
 * 灵活的格式化系统
 
-### 缺点：
+### 缺点
 
 * ❌ 更冗长
 * ❌ 比f-strings慢
@@ -73,11 +73,11 @@ msg = "{name} is {age}".format(name=name, age=age)
 msg = "%s is %d years old" % (name, age)
 ```
 
-### 优点：
+### 优点
 
 * 在**日志记录**中仍有用途（特殊情况）
 
-### 缺点：
+### 缺点
 
 * ❌ 已过时
 * ❌ 灵活性差
@@ -93,7 +93,7 @@ msg = "%s is %d years old" % (name, age)
 msg = name + " is " + str(age) + " years old"
 ```
 
-### 缺点：
+### 缺点
 
 * ❌ 难以阅读
 * ❌ 容易出错
@@ -136,7 +136,7 @@ logging.info("User %s", name)  # ✅ 正确
 
 # 7. 最终建议
 
-### 使用以下规则：
+### 使用以下规则
 
 * ✅ **通用字符串格式化 → f-strings**
 * ✅ **日志记录 → 逗号分隔的 `%s`**

@@ -96,6 +96,7 @@ This is the cleanest solution if you want everything (SSH, curl, etc.) to bypass
 ## Why Your SSH Config Made It Worse
 
 From your verbose output:
+
 ```
 debug1: /Users/lzwjava/.ssh/config line 4: Skipping Host block because of negated match for 192.168.*.*
 debug1: /Users/lzwjava/.ssh/config line 6: Applying options for *

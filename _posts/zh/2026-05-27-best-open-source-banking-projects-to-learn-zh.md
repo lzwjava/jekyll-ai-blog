@@ -20,12 +20,14 @@ type: note
 ## 第一层 — 核心银行系统（最深入的学习）
 
 ### 1. **Apache Fineract** ⭐ 首选推荐
+
 **仓库：** `github.com/apache/fineract`
 **技术栈：** Java、Spring Boot、MySQL/PostgreSQL、Liquibase、REST
 
 这是真正的核心银行系统。Apache Fineract 是一个开源核心银行平台，为广泛的金融服务提供灵活、可扩展的基础。超过400家机构使用 Mifos 和 Fineract API，服务超过2000万客户。
 
 **你将学到：**
+
 - 客户数据管理、贷款和储蓄组合管理、集成实时会计以及广泛报表功能的强大特性。
 - 一套全面的 REST API 端点，用于与客户、账户、产品和交易交互，使用 MySQL/PostgreSQL 进行数据持久化，基于 OAuth2 的角色访问控制，以及用于定期任务（如利息计算和放款自动化）的调度器作业。
 - 多租户：真实银行如何在数据库层面隔离租户数据。
@@ -37,12 +39,14 @@ type: note
 ---
 
 ### 2. **Open Bank Project（OBP-API）**
+
 **仓库：** `github.com/OpenBankProject/OBP-API`
 **技术栈：** Scala、Lift 框架、http4s
 
 Open Bank Project 是一个面向银行的开源 API，使账户持有人能够通过更广泛的应用和服务与银行交互。OBP API 抽象了每个核心银行系统的特性，使大量应用能够代表账户持有人与多家银行交互。
 
 **你将学到：**
+
 - PSD2 / 开放银行监管 API 设计（欧盟/英国银行必须遵循的实际规范）。
 - 如何在遗留核心银行系统之上构建抽象层（这正是你在银行的工作）。
 - 同意管理和权限模型（交易数据的可配置视图）。
@@ -53,12 +57,14 @@ Open Bank Project 是一个面向银行的开源 API，使账户持有人能够�
 ## 第二层 — 会计引擎（最具可迁移性的概念）
 
 ### 3. **Firefly III**
+
 **仓库：** `github.com/firefly-iii/firefly-iii`
 **技术栈：** PHP/Laravel、REST API、Docker
 
 每笔交易都会影响两个账户。每一美元都有来源和去向——这就是复式记账法，也是专业会计的基础。它还支持基于规则的交易处理，你可以创建自己的规则。
 
 **你将学到：**
+
 - 复式账本实现（数据模型清晰易读）。
 - 自动分类的规则引擎架构——直接映射到你将构建的交易分类 AI。
 - 对账逻辑。
@@ -71,11 +77,13 @@ Open Bank Project 是一个面向银行的开源 API，使账户持有人能够�
 ## 第三层 — FINOS（金融 + 开源，被真实银行使用）
 
 ### 4. **FINOS 项目**（`github.com/finos`）
+
 **值得关注：** Legend（高盛数据模型）、Perspective（摩根大通流数据网格）、OpenMAMA、FDC3
 
 FINOS 的使命是推动金融服务领域的开放创新，拥有近100个项目和11个计划。
 
 **对你而言特别有价值：**
+
 - **Legend**（高盛）——其内部数据建模语言已开源。你将了解全球银行如何对金融工具建模。
 - **Perspective**——摩根大通的实时流分析库。WebAssembly + Arrow —— 交易台如何渲染数十亿数据点。
 

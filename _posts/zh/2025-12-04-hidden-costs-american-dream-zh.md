@@ -39,6 +39,7 @@ type: note
 这些观点在公开场合表达时，通常会被称为“忘恩负义”或“你就是讨厌美国”，这正是它们仍然不受欢迎的原因。
 
 参考文献：
+
 - [Reddit – r/expats 帖子“是什么让你离开了美国？”（2023–2025年不同日期）](https://www.reddit.com/r/expats/)
 - [Reddit – r/AmerExit 专区](https://www.reddit.com/r/AmerExit/)
 - [TeamBlind 匿名薪资和生活方式讨论（2024–2025年）](https://www.teamblind.com/)

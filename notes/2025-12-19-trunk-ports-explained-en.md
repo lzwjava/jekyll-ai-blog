@@ -16,7 +16,8 @@ Answer:
 
 A **trunk port** on a network switch is a special type of port configured to carry traffic for **multiple Virtual Local Area Networks (VLANs)** over a single physical link. This is in contrast to an **access port**, which is dedicated to a single VLAN and typically connects to end devices like computers or printers.
 
-### Key Characteristics of a Trunk Port:
+### Key Characteristics of a Trunk Port
+
 - **Multi-VLAN Support**: It allows frames from different VLANs to travel across the link (e.g., between two switches or from a switch to a router).
 - **VLAN Tagging**: To distinguish traffic from different VLANs, trunk ports use **tagging**. The most common standard is **IEEE 802.1Q**, which inserts a 4-byte tag into the Ethernet frame header containing the VLAN ID (VID). This ensures the receiving device knows which VLAN the frame belongs to.
 - **Native VLAN**: Trunk ports often have a "native VLAN" (usually VLAN 1 by default on Cisco devices). Frames for the native VLAN are sent **untagged**, while others are tagged. This provides backward compatibility with devices that don't support tagging.
@@ -25,7 +26,7 @@ A **trunk port** on a network switch is a special type of port configured to car
   - Linking a switch to a router (e.g., in "router-on-a-stick" setups for inter-VLAN routing).
   - Connecting to devices that understand VLAN tags, such as IP phones, servers with multiple virtual machines, or access points broadcasting multiple SSIDs.
 
-### Trunk Port vs. Access Port:
+### Trunk Port vs. Access Port
 
 | Feature              | Access Port                          | Trunk Port                              |
 |----------------------|--------------------------------------|-----------------------------------------|

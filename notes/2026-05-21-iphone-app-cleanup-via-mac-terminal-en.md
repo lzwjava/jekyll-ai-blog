@@ -16,11 +16,13 @@ Not connected yet, but once you plug in your iPhone, here's what we can do with 
 **Workflow to clean up iOS apps:**
 
 1. **List all user-installed apps** — shows bundle IDs + names:
+
    ```bash
    ideviceinstaller -l -o list_user
    ```
 
 2. **Uninstall unused apps** by bundle ID:
+
    ```bash
    ideviceinstaller -U com.example.unused-app
    ```

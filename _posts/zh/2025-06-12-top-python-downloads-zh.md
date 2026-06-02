@@ -222,7 +222,7 @@ type: note
 - **cartopy**：地图投影和派生产品。
 
 引用：
-[1] https://catswhocode.com/development/python-modules-list/
-[2] https://www.wscubetech.com/resources/python/libraries
-[3] https://github.com/lukasmasuch/best-of-python
-[4] https://www.stxnext.com/blog/most-popular-python-scientific-libraries
+[1] <https://catswhocode.com/development/python-modules-list/>
+[2] <https://www.wscubetech.com/resources/python/libraries>
+[3] <https://github.com/lukasmasuch/best-of-python>
+[4] <https://www.stxnext.com/blog/most-popular-python-scientific-libraries>

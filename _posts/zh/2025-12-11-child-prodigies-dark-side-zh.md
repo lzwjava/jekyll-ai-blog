@@ -37,6 +37,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们打破了神童是“天选之人”的童话，并迫使我们直面关于育儿、教育和成就终身分布的不适真相。
 
 参考文献：
+
 - Winner, E. (1996). *Gifted Children: Myths and Realities*.
 - Lubinski, D., et al. (SMPY longitudinal studies, various papers 2000–2023).
 - Ericsson, K. A., et al. (1993). The role of deliberate practice in the acquisition of expert performance.

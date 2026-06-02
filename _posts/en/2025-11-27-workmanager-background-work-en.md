@@ -26,9 +26,9 @@ WorkManager allows you to **defer** work until specific conditions are met (like
 
 This is the most critical feature. WorkManager stores your work request in an internal database, ensuring that the work **will be executed** even if:
 
-  * The user exits the app.
-  * The app process is killed.
-  * The device restarts.
+* The user exits the app.
+* The app process is killed.
+* The device restarts.
 
 ### 3\. Handles API and Device Compatibility
 

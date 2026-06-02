@@ -12,19 +12,21 @@ type: note
 
 Based on my search results, I can now provide you with accurate information about the Guangdong self-study examination system and the 2026 reforms:
 
-## Your Understanding is Mostly Correct:
+## Your Understanding is Mostly Correct
 
 **Theory Courses (统考/笔试):**
+
 - 3 exam sessions per year: January, April, and October
 - Maximum 4 courses per session
 - Total potential: 12 courses per year
 
 **Practical Courses (实践考核/校考):**
+
 - Generally 2-4 times per year, with specific timing determined by each examination institution
 - For "小自考" (minor self-study exam), there are 5 exam opportunities per year: 3 theory exams and 2 practical exams
 - The practical exams are typically scheduled around April-May and October-November
 
-## 2026 Reform Key Points:
+## 2026 Reform Key Points
 
 **What's changing starting January 2026:**
 

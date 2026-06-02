@@ -17,6 +17,7 @@ It sounds like you've found through real usage that Sonnet wasn't always the bes
 With Haiku being faster, you might find it works great for many tasks where you don't need Sonnet's extra reasoning power. If you're switching between Grok and Anthropic's models, you're essentially doing what makes sense: testing what actually performs best for *your* workflows rather than assuming a bigger model is always better.
 
 The key things worth considering when comparing:
+
 - **Latency** (how fast you get the first response and each token)
 - **Throughput** (cost and speed for processing volume)
 - **Reasoning quality** (does it solve your problem correctly?)

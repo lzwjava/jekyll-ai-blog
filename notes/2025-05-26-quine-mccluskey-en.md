@@ -10,7 +10,8 @@ type: note
 
 The **Quine-McCluskey** method is a systematic algorithm used in **digital electronics** to simplify **Boolean algebra expressions**, particularly for minimizing **logic functions** in the design of digital circuits. It is an alternative to the Karnaugh map (K-map) and is especially useful for functions with many variables where K-maps become impractical.
 
-### Key Points:
+### Key Points
+
 1. **Purpose**: The Quine-McCluskey method is used to find the **minimal sum-of-products (SOP)** or **product-of-sums (POS)** form of a Boolean function, reducing the complexity of logic circuits by minimizing the number of gates needed.
 
 2. **How It Works**:
@@ -36,8 +37,10 @@ The **Quine-McCluskey** method is a systematic algorithm used in **digital elect
    - Common in **VLSI design** and **FPGA programming** where automated tools apply the algorithm.
    - Helps in optimizing **truth tables** or **combinational logic** in digital systems.
 
-### Example:
+### Example
+
 For a Boolean function with minterms (0, 1, 2, 5, 7) for three variables A, B, C:
+
 - Minterms in binary: 000, 001, 010, 101, 111.
 - Group by number of 1s:
   - 0 ones: 000
@@ -50,7 +53,8 @@ For a Boolean function with minterms (0, 1, 2, 5, 7) for three variables A, B, C
 
 **Final Simplified Expression**: Depends on the prime implicants chosen, e.g., A'C + BC.
 
-### Why It Matters in Electronics:
+### Why It Matters in Electronics
+
 By reducing the complexity of Boolean expressions, the Quine-McCluskey method helps create **efficient digital circuits** with fewer components, improving performance and reducing manufacturing costs. It’s particularly valuable in automated design processes where manual simplification isn’t feasible.
 
 If you need a detailed example or a step-by-step walkthrough for a specific Boolean function, let me know!

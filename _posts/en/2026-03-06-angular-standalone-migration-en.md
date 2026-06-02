@@ -26,6 +26,7 @@ The migration process is composed of three steps. You must run it multiple times
 ### Prerequisites
 
 Your project must:
+
 - Be on **Angular 15.2.0 or later**
 - Build without any compilation errors
 - Be on a **clean Git branch** with all work saved
@@ -40,6 +41,7 @@ ng g @angular/core:standalone
 This automatically adds `standalone: true` to every component, directive, and pipe, and moves their dependencies into the `imports` array.
 
 **Before:**
+
 ```typescript
 @Component({
   selector: 'app-example',
@@ -50,6 +52,7 @@ export class ExampleComponent {}
 ```
 
 **After:**
+
 ```typescript
 @Component({
   selector: 'app-example',

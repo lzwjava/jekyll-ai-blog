@@ -74,6 +74,7 @@ def prepare_dataset(texts, tokenizer):
 ```
 
 This is pure next-token prediction (causal LM):
+
 - No instruction formatting, no chat template
 - The model learns to continue text in your writing style
 - `input_ids` = the tokenized posts, `attention_mask` = tells the model which tokens are real vs padding
@@ -160,6 +161,7 @@ tokenizer.save_pretrained(OUTPUT_DIR)
 ```
 
 HuggingFace `Trainer` handles:
+
 - Forward pass → compute loss
 - Backward pass → compute gradients
 - Gradient accumulation (4 steps → then update)
@@ -180,6 +182,7 @@ model = PeftModel.from_pretrained(base, "trained_model_qwen")
 ```
 
 Or merge into a single model:
+
 ```python
 model = model.merge_and_unload()  # Fuses LoRA weights back into base
 model.save_pretrained("merged_model")

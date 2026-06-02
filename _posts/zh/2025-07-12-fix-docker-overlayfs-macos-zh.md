@@ -22,13 +22,13 @@ type: note
 
 失败的容器是 `chat-mongodb`（ID：`ccd89a3f36a1528cb923c90de8755faeb36e229cab353c2285222948197b8d18`）。首先，尝试使用其名称或 ID 进行强制移除。
 
-1.  **停止整个堆栈**（以确保没有后台进程持有锁）：
+1. **停止整个堆栈**（以确保没有后台进程持有锁）：
 
     ```bash
     docker compose stop
     ```
 
-2.  使用 `-f` 标志**强制移除特定容器**：
+2. 使用 `-f` 标志**强制移除特定容器**：
 
     ```bash
     docker rm -f chat-mongodb
@@ -36,7 +36,7 @@ type: note
     # docker rm -f ccd89a3f36a1528cb923c90de8755faeb36e229cab353c2285222948197b8d18
     ```
 
-3.  **再次尝试运行您原来的命令**（`docker compose down` 或等效命令）。如果错误仍然存在，请转到步骤 2。
+3. **再次尝试运行您原来的命令**（`docker compose down` 或等效命令）。如果错误仍然存在，请转到步骤 2。
 
 -----
 
@@ -46,8 +46,8 @@ type: note
 
 ### 选项 A：使用菜单栏（推荐）
 
-1.  点击 macOS 菜单栏中的 **Docker 鲸鱼图标**。
-2.  选择 **Restart**。
+1. 点击 macOS 菜单栏中的 **Docker 鲸鱼图标**。
+2. 选择 **Restart**。
 
 ### 选项 B：使用终端
 
@@ -73,8 +73,8 @@ Docker 重启后，等待大约 30 秒让其完全启动，然后再次尝试运
 docker system prune -a --volumes
 ```
 
-  * **`-a`** (all) 移除所有未使用的镜像（不仅仅是悬空镜像）。
-  * **`--volumes`** 移除未使用的匿名卷（这可能是 `overlay2` 损坏的根源）。
+* **`-a`** (all) 移除所有未使用的镜像（不仅仅是悬空镜像）。
+* **`--volumes`** 移除未使用的匿名卷（这可能是 `overlay2` 损坏的根源）。
 
 系统将要求您确认。输入 `y` 并按回车键。清理完成后，再次尝试运行您原来的命令。
 
@@ -84,8 +84,8 @@ docker system prune -a --volumes
 
 这是**最后的手段**，因为它将**删除您所有的容器、镜像和卷**（包括您存储在非挂载卷中的任何本地数据）。它会强制内部 Docker VM 完全重新开始。
 
-1.  点击 macOS 菜单栏中的 **Docker 鲸鱼图标**。
-2.  转到 **Settings (或 Preferences)** $\rightarrow$ **Troubleshoot**。
-3.  点击 **Reset to factory settings...**
+1. 点击 macOS 菜单栏中的 **Docker 鲸鱼图标**。
+2. 转到 **Settings (或 Preferences)** $\rightarrow$ **Troubleshoot**。
+3. 点击 **Reset to factory settings...**
 
 重置后，Docker 将以全新状态重启，您应该能够运行 `docker compose up` 命令来重新构建您的环境。

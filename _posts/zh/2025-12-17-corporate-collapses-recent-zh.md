@@ -43,9 +43,9 @@ type: note
 
 参考文献：
 
-- https://en.wikipedia.org/wiki/Nortel
-- https://en.wikipedia.org/wiki/Dot-com_bubble
-- https://en.wikipedia.org/wiki/Enron_scandal
-- https://en.wikipedia.org/wiki/WorldCom_scandal
-- https://www.investopedia.com/terms/d/dotcom-bubble.asp
-- https://acquirersmultiple.com/2024/10/from-internet-backbone-to-bankruptcy-the-cautionary-tale-of-nortel/
+- <https://en.wikipedia.org/wiki/Nortel>
+- <https://en.wikipedia.org/wiki/Dot-com_bubble>
+- <https://en.wikipedia.org/wiki/Enron_scandal>
+- <https://en.wikipedia.org/wiki/WorldCom_scandal>
+- <https://www.investopedia.com/terms/d/dotcom-bubble.asp>
+- <https://acquirersmultiple.com/2024/10/from-internet-backbone-to-bankruptcy-the-cautionary-tale-of-nortel/>

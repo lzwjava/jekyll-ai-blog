@@ -34,8 +34,6 @@ The **B200** isn't just a bigger chip; it’s a **dual-die design** connected by
 * **HBM3e Utilization:** Both use HBM3e, but the B200 features 8 stacks of HBM3e (24GB each) compared to the H200's configuration. This allows for significantly larger KV (Key-Value) caches, which directly translates to supporting **longer context windows** in models like Llama 3 or GPT-4.
 * **Capacity for Trillion-Parameter Models:** The 192GB capacity allows larger models to stay entirely within GPU memory, reducing the need for slower multi-GPU communication across the network.
 
-
-
 ### **Compute & Efficiency**
 
 * **FP4 Support:** The B200 introduces **FP4 (4-bit Floating Point)** precision. While the H200 is excellent at FP8, the B200's FP4 capability allows it to deliver up to **15x the inference performance** of the previous generation for certain workloads.

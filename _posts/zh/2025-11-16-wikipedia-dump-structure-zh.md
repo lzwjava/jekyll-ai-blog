@@ -13,6 +13,7 @@ type: note
 核心区别在于维基百科全文内容在多个文件中的存储方式——具体来说，每个`.xml.bz2`文件是仅包含单一修订流（非多流格式），还是包含多个压缩流捆绑在一起（多流格式）。
 
 ### 1. 非多流数据文件（旧式格式，或默认的“pages-articles”文件）
+
 示例文件名：
 `enwiki-20251101-pages-articles1.xml-p1p41242.bz2`
 
@@ -23,6 +24,7 @@ type: note
 - `wget -c`可完美实现断点续传，因为文件是单一bzip2流
 
 ### 2. 多流数据文件（文件名包含“multistream”的文件）
+
 示例文件名（您链接的文件）：
 `enwiki-20251101-pages-articles-multistream1.xml-p1p41242.bz2`
 

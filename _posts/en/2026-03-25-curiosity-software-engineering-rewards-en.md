@@ -46,6 +46,7 @@ This means curiosity-driven work gives you **small, frequent dopamine hits throu
 ### 2. Extrinsic Rewards (Promotions) Are Slow, Unreliable, and Often Unsatisfying
 
 A promotion or salary raise is:
+
 - Delayed by months or years
 - Dependent on factors outside your control (manager politics, company budget, economic climate)
 - Often doesn't feel as good as expected once it arrives (the "hedonic treadmill")

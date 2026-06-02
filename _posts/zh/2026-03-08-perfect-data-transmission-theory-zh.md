@@ -57,6 +57,7 @@ Maximum Data Rate = 2 × Bandwidth × log₂(V)
 ```
 
 其中：
+
 - **Bandwidth** = 信道的带宽 (Hz)
 - **V** = 离散信号电平的数量
 

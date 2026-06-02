@@ -24,6 +24,7 @@ type: note
 | 家用路由器中的常见名称     | 通常在NAT处于活动状态时，“IP转发”或“路由”始终开启。 | 称为“端口转发”、“虚拟服务器”、“NAT规则”等。 |
 
 ### 总结
+
 - 在大多数家用/SOHO设置中，**仅IP转发**并不能让您的LAN中的计算机获得一个真实的外部/公共IP。它只是允许路由器在接口之间路由数据包。
 - 要使计算机可以从互联网访问，您通常需要**端口转发**（目标NAT）或**1:1 NAT / DMZ / IP直通**配置，它实际上将一个公共IP映射到内部设备。
 - 某些路由器/ISP提供真正的“IP直通”或“桥接”模式，其中一个LAN设备直接获得真实的公共IP；在这种情况下，IP转发仍在进行，但NAT被该设备绕过。
@@ -33,6 +34,7 @@ type: note
 使LAN计算机可以从外部访问 = 通常是端口转发或1:1 NAT，而不仅仅是“IP转发”。
 
 参考资料：
+
 - [维基百科 - 网络地址转换](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2)
 - [维基百科 - 端口转发](https://zh.wikipedia.org/wiki/%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91)
 - [思科 - 了解IP路由](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13748-24.html)

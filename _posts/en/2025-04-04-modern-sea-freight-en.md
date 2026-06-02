@@ -13,9 +13,9 @@ Today, in 2025, trade from Shantou and the broader Chaoshan region to Southeast 
 **Sea Freight:**
 
 * **Container Ships:** The vast majority of goods are transported via container ships. Direct routes from Shantou to major ports in Southeast Asia (like Singapore, Jakarta, Bangkok, Manila, Port Kelang, Ho Chi Minh City) generally take **between 5 days to 2 weeks**, depending on the specific origin and destination ports, the shipping line, and the frequency of direct services.
-    * For example, shipping from Shantou to Singapore can take around **6-7 days**.
-    * Shantou to Bangkok can take about **7 days**.
-    * Shantou to Jakarta around **6 days**.
+  * For example, shipping from Shantou to Singapore can take around **6-7 days**.
+  * Shantou to Bangkok can take about **7 days**.
+  * Shantou to Jakarta around **6 days**.
 * **Factors Affecting Time:** Weather conditions, port congestion at either end, customs clearance processes, and the specific route taken by the vessel can all influence the transit time.
 
 **Air Freight:**

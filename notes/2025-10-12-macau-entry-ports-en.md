@@ -32,6 +32,7 @@ Going to Macau, the main ports you can choose include the following, depending o
    - **Cross-border Industrial Zone Port**: Mainly for cargo and specific personnel exchanges, less used by ordinary travelers.
 
 **Notes**:
+
 - Different ports may have different customs clearance times and requirements, so it's recommended to confirm the specific opening hours in advance.
 - According to nationality and visa policies, prepare valid documents (such as Mainland Travel Permit for Hong Kong and Macao, passport, etc.).
 - For real-time information, you can check the official website of the Macau SAR Immigration Department or relevant port announcements.

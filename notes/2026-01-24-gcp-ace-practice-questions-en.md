@@ -318,5 +318,5 @@ Here are 50 multiple-choice questions covering key topics from the Associate Clo
 
 References:
 
-- https://cloud.google.com/learn/certification/cloud-engineer
-- https://cloud.google.com/learn/certification/guides/cloud-engineer
+- <https://cloud.google.com/learn/certification/cloud-engineer>
+- <https://cloud.google.com/learn/certification/guides/cloud-engineer>

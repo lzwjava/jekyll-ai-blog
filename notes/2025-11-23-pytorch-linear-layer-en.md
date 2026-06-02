@@ -18,20 +18,20 @@ The **nn.Linear** module in PyTorch performs a **linear transformation** of the 
 
 \\(\\)\mathbf{y} = \mathbf{x} \mathbf{W}^T + \mathbf{b}\\(\\)
 
-  * **\\(\mathbf{x}\\)** is the **input vector** of size \\(n\\) (your `input_dimension`).
-  * **\\(\mathbf{y}\\)** is the **output vector** of size \\(m\\) (your `output_dimension`).
-  * **\\(\mathbf{W}\\)** is the **weight matrix**.
-  * **\\(\mathbf{b}\\)** is the **bias vector**.
+* **\\(\mathbf{x}\\)** is the **input vector** of size \\(n\\) (your `input_dimension`).
+* **\\(\mathbf{y}\\)** is the **output vector** of size \\(m\\) (your `output_dimension`).
+* **\\(\mathbf{W}\\)** is the **weight matrix**.
+* **\\(\mathbf{b}\\)** is the **bias vector**.
 
 The layer has **two sets of trainable parameters**:
 
-1.  **Weight Matrix (\\(\mathbf{W}\\)):**
+1. **Weight Matrix (\\(\mathbf{W}\\)):**
 
       * Its size is \\(\mathbf{m \times n}\\) (output dimension \\(\times\\) input dimension).
       * This is the set of parameters you referred to. The total number of weights is \\(m \times n\\).
       * Your description of the operation is essentially correct: each output \\(y_i\\) is a **weighted sum** of all inputs \\(x_j\\).
 
-2.  **Bias Vector (\\(\mathbf{b}\\)):**
+2. **Bias Vector (\\(\mathbf{b}\\)):**
 
       * Its size is \\(\mathbf{m}\\) (output dimension).
       * There is one bias term added to each of the \\(m\\) outputs.
@@ -45,15 +45,15 @@ The layer has **two sets of trainable parameters**:
 
 The **weight matrix (\\(\mathbf{W}\\)) and bias vector (\\(\mathbf{b}\\)) are initialized automatically** when you create an `nn.Linear` layer.
 
-  * By default, PyTorch uses a method based on **Kaiming uniform initialization** (or similar variance-scaling methods) for the weights and initializes the biases to zero. You typically **do not** need to manually pass in initial values unless you have a specific reason (e.g., transfer learning).
+* By default, PyTorch uses a method based on **Kaiming uniform initialization** (or similar variance-scaling methods) for the weights and initializes the biases to zero. You typically **do not** need to manually pass in initial values unless you have a specific reason (e.g., transfer learning).
 
 ### 2\. Activation Functions: A Separate Step
 
 You mentioned passing **ReLU** or **Sigmoid** into `nn.Linear`. This is a common point of confusion:
 
-  * **`nn.Linear` only performs the *linear* part** (\\(\mathbf{x}\mathbf{W}^T + \mathbf{b}\\)).
-  * **Activation functions** (like ReLU, Sigmoid, Tanh) are **non-linear functions** that are applied **after** the linear transformation.
-  * The activation function is **always a separate layer** in the neural network model.
+* **`nn.Linear` only performs the *linear* part** (\\(\mathbf{x}\mathbf{W}^T + \mathbf{b}\\)).
+* **Activation functions** (like ReLU, Sigmoid, Tanh) are **non-linear functions** that are applied **after** the linear transformation.
+* The activation function is **always a separate layer** in the neural network model.
 
 **Correct Structure (Sequential Model Example):**
 

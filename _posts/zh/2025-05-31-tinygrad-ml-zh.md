@@ -11,11 +11,13 @@ type: note
 ---
 
 ### TinyGrad 简介
+
 TinyGrad 是一个轻量级、极简主义的 Python 机器学习和深度学习库，专为教育性和简洁性而设计。它实现了类似 PyTorch 的自动微分功能，但代码量要小得多——大约只有 1000 行。它非常适合学习机器学习概念或构建小型模型，无需大型库的开销。它支持张量、神经网络和基本操作，包括通过 PyTorch 或 Metal 实现的 GPU 加速。
 
 你可以在以下位置找到官方仓库：[tinygrad GitHub](https://github.com/geohot/tinygrad)。注意：它是实验性的，在生产使用中不如 PyTorch 或 TensorFlow 稳定。
 
 ### 安装
+
 通过 pip 安装 TinyGrad：
 
 ```bash
@@ -25,9 +27,11 @@ pip install tinygrad
 它依赖项极少，但可选地使用 PyTorch 作为某些后端。如需 GPU 支持，请确保已安装 PyTorch。
 
 ### 基本用法
+
 首先导入并设置上下文（TinyGrad 要求指定是训练还是推理，因为梯度计算方式不同）。
 
 #### 导入与上下文设置
+
 ```python
 from tinygrad import Tensor
 from tinygrad.nn import Linear, BatchNorm2d  # 用于神经网络
@@ -37,6 +41,7 @@ Tensor.training = True  # 启用梯度追踪
 ```
 
 #### 创建与操作张量
+
 张量是核心数据结构，类似于 NumPy 数组或 PyTorch 张量。
 
 ```python
@@ -54,6 +59,7 @@ print(e.numpy())               # 转换为 NumPy 以打印或进一步使用
 ```
 
 #### 自动微分（反向传播）
+
 TinyGrad 使用链式法则自动计算梯度。
 
 ```python
@@ -70,6 +76,7 @@ print(x.grad.numpy())         # x 的梯度：应为 [2, 2, 2]
 导出到 NumPy 时使用 `.numpy()`——除非重置，否则梯度会累积。
 
 #### 神经网络与训练
+
 TinyGrad 包含基本层和优化器。以下是一个简单的 MLP 示例：
 
 ```python
@@ -96,6 +103,7 @@ optim.Adam([model], lr=0.01).step()
 对于卷积网络，使用 `tinygrad.nn` 中的 `Conv2d`。
 
 ### 高级功能
+
 - **损失函数与激活函数**：在 `tinygrad.nn` 中可用（例如 `sigmoid`、`relu`、`cross_entropy`）。
 - **优化器**：`tinygrad.nn.optim` 中的 `SGD`、`Adam`。
 - **层**：`Linear`、`Conv2d`、`BatchNorm` 等。
@@ -106,6 +114,7 @@ optim.Adam([model], lr=0.01).step()
 完整示例请查看 GitHub 仓库中的 `examples/` 文件夹，例如图像分类或强化学习。
 
 ### 示例：训练神经网络
+
 以下是一个完整的简单脚本，用于在 XOR 问题上训练网络：
 
 ```python
@@ -134,6 +143,7 @@ print(model(Tensor([[0,0]])))  # 应接近 0
 ```
 
 ### 提示与注意事项
+
 - **模式切换**：训练时始终设置 `Tensor.training = True`；推理时切换到 `False` 以避免梯度计算。
 - **形状处理**：张量遵循 NumPy 风格的广播规则，但在小型模型中注意溢出问题。
 - **调试**：使用 `.numpy()` 检查值。如果失败，请检查形状不匹配。

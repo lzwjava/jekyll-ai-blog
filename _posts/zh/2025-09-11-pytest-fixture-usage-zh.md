@@ -157,6 +157,7 @@ def test_validate_header(financial_header):
 ## 何时使用 Fixture
 
 在以下情况下使用 fixture：
+
 - 设置测试数据或对象
 - 管理外部资源（数据库连接、文件等）
 - 在测试后执行清理

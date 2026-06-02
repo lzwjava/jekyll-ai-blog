@@ -15,6 +15,7 @@ type: note
 在 Maven 中，你可以通过以下标志（flags）来控制日志的详细程度：
 
 **`-X` 或 `--debug`** - 这是 Maven 中对应 npm 的 silly/verbose 日志。它会显示详细的 debug 输出，包括：
+
 - 完整的错误堆栈追踪（stack traces）
 - 详细的 plugin 执行信息
 - Dependency 解析详情
@@ -25,6 +26,7 @@ type: note
 **`-q` 或 `--quiet`** - 最简输出，仅显示错误
 
 用法示例：
+
 ```bash
 mvn clean install -X
 ```

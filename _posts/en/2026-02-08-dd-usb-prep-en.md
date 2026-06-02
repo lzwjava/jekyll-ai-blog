@@ -19,11 +19,13 @@ For creating a bootable USB using the `dd` command on macOS (such as writing a W
 The `dd` command writes directly to the raw device (e.g. `/dev/diskX` or `/dev/rdiskX`), completely overwriting the entire disk — including the partition table, all existing partitions, file systems, and data — from the very first byte. This makes any previous formatting irrelevant in almost all cases.
 
 ### When you usually do **not** need to erase/format first
+
 - Most standard hybrid ISOs (Ubuntu, Fedora, recent Windows 10/11 ISOs, many Linux distros)
 - The ISO itself contains a proper partition table and boot structure
 - `dd` simply copies this structure bit-for-bit → the USB becomes bootable
 
 Typical safe workflow (most common and recommended in 2025–2026):
+
 1. Insert USB
 2. Run `diskutil list` → identify the correct disk (e.g. `/dev/disk4`)
 3. Unmount volumes on it: `diskutil unmountDisk /dev/disk4`
@@ -33,6 +35,7 @@ Typical safe workflow (most common and recommended in 2025–2026):
 6. When finished: `diskutil eject /dev/disk4`
 
 ### When people sometimes erase/format first anyway
+
 You may want (or need) to do it in these situations:
 
 - The USB was previously used for something unusual (old partition styles, exotic file systems, damaged MBR/GPT) and macOS complains or `dd` behaves strangely

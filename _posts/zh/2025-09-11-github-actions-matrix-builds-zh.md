@@ -15,11 +15,13 @@ type: note
 ---
 
 ### GitHub Actions 中的矩阵构建
+
 **矩阵策略**允许您使用不同参数并行运行相同任务——例如跨多个 Python 或 Node 版本进行测试，或在不同操作系统上进行测试。
 
 一个最小化示例：
 
 {% raw %}
+
 ```yaml
 name: CI
 
@@ -46,6 +48,7 @@ jobs:
       - name: Run tests
         run: pytest
 ```
+
 {% endraw %}
 
 ---
@@ -62,6 +65,7 @@ jobs:
   - 如果您希望所有矩阵任务继续运行（即使其中一个失败），请设置 `fail-fast: false`。
 
   示例：
+
   ```yaml
   strategy:
     matrix:
@@ -70,6 +74,7 @@ jobs:
   ```
 
 - **限制总任务数:** 您可以排除某些组合：
+
   ```yaml
   strategy:
     matrix:
@@ -83,10 +88,12 @@ jobs:
 ---
 
 ### 并行运行测试
+
 - 每个**矩阵任务都在独立的运行器上并行运行**，因此您无需特殊处理。
 - 在每个任务内部，如果您想要**并行测试执行**（例如 pytest 的 `-n auto`），可以在测试命令级别添加。
 
 示例：
+
 ```yaml
 - name: Run pytest in parallel
   run: pytest -n auto
@@ -95,6 +102,7 @@ jobs:
 ---
 
 ✅ **总结:**
+
 - 使用 `strategy.matrix` 定义不同的参数组合。
 - 如果您希望所有矩阵任务即使有一个失败也能继续运行，请设置 `fail-fast: false`。
 - 矩阵任务会自动并行运行。

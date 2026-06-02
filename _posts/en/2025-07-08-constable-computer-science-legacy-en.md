@@ -25,9 +25,9 @@ Robert Lee Constable is a distinguished Professor Emeritus of Computer Science a
 * Constable earned his A.B. from Princeton University in 1964, where he worked with Alonzo Church, a pioneer of type theory.
 * He received his M.A. (1965) and Ph.D. (1968) in Mathematics from the University of Wisconsin, under the supervision of Stephen Kleene.
 * His significant contributions have been recognized with numerous accolades, including:
-    * Herbrand Award for Distinguished Contributions to Automated Reasoning (2014)
-    * ACM Fellow (1994)
-    * John Simon Guggenheim Fellowship (1990)
-    * Outstanding Educator Award (Cornell University, 1987)
+  * Herbrand Award for Distinguished Contributions to Automated Reasoning (2014)
+  * ACM Fellow (1994)
+  * John Simon Guggenheim Fellowship (1990)
+  * Outstanding Educator Award (Cornell University, 1987)
 
 Robert Constable's work has had a lasting impact on computer science, particularly in demonstrating the profound connections between logic, mathematics, and the construction of provably correct computer systems. His leadership at Cornell also shaped the landscape of computing education and research.

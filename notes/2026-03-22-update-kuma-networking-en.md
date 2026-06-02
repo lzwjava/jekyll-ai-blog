@@ -19,6 +19,7 @@ Uptime Kuma is already on `librechat_default`. Let me connect it to the other ne
 | Nextcloud | `nextcloud-app-1` | 80 | ✅ reachable (400 = responding, just needs proper request) |
 
 Now go into Uptime Kuma and update your monitor URLs to use the container names instead of IP addresses. Like:
+
 - `http://LibreChat:3080/`
 - `http://gitea:300/`
 - `http://searxng:8080/`

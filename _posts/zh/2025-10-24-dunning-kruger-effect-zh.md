@@ -33,6 +33,7 @@ type: note
 ### 影响与应对策略
 
 自我高估可能导致错误决策（如承接准备不足的项目或忽视建议），在工作场所、人际关系乃至选举中产生现实影响（例如资质不足的领导者获得不当信心）。缓解方法包括：
+
 - 定期寻求外部反馈
 - 接触该领域的专家级作品
 - 通过记录预测与结果的差异进行"元认知"训练
@@ -40,6 +41,7 @@ type: note
 理解这些模式并非自我贬低，而是为了培养更精准、更具成长性的自我认知。
 
 ### 参考文献
+
 - [邓宁-克鲁格效应 - 维基百科](https://en.wikipedia.org/wiki/Dunning%25E2%2580%2593Kruger_effect)
 - [邓宁-克鲁格效应运作机制 - Verywell Mind](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740)
 - [邓宁-克鲁格效应 - Psychology Today](https://www.psychologytoday.com/us/basics/dunning-kruger-effect)

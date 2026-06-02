@@ -26,11 +26,13 @@ He described his workflow in interviews (notably on the Lex Fridman Podcast #491
 This voice-driven conversational style was so intensive that he once **lost his voice** from overuse.
 
 He preferred this over typing long prompts because:
+
 - It felt more natural and faster for complex or iterative instructions.
 - It aligned with his "just talk to it" philosophy for agentic engineering.
 - He sometimes used **slash commands** for repetitive tasks (e.g., PR reviews), but mostly relied on free-form spoken conversation.
 
 Although native voice is missing in Claude Code / Codex, he bridged the gap with:
+
 - System-level or third-party **speech-to-text** tools (he has referenced tools like Wispr Flow in related contexts for dictation).
 - Custom hotkeys / PTT setups in his terminal/multiplexer environment (tmux or similar) to quickly dictate into the active agent session.
 

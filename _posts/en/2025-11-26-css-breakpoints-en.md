@@ -20,9 +20,10 @@ You're exactly right! Your understanding is perfect.
   → Applies the styles when the screen width is **greater than or equal to** the specified value.
   This is used when you want styles to kick in on **larger screens** (desktops, large tablets).
 
-### Common practical patterns:
+### Common practical patterns
 
 **Mobile-first approach** (most recommended today):
+
 ```css
 .container {
   flex-direction: column; /* default: stacked on small screens */
@@ -36,6 +37,7 @@ You're exactly right! Your understanding is perfect.
 ```
 
 **Desktop-first approach** (older but still seen):
+
 ```css
 .container {
   flex-direction: row; /* default: side-by-side on large screens */
@@ -51,6 +53,7 @@ You're exactly right! Your understanding is perfect.
 Both achieve the same result — you just pick one philosophy.
 
 So yes, your summary is 100% correct:
+
 - `max-width: 768px` → ≤ 768px (small screens)
 - `min-width: 769px` → ≥ 769px (large screens)
 

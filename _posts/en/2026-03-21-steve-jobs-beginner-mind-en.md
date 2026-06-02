@@ -67,15 +67,18 @@ After Apple, Steve Jobs started NeXT and purchased Pixar. His distaste for the b
 During his years away from Apple (1985–1997), the beginner's mindset manifested practically:
 
 **At NeXT:**
+
 - He experimented freely with operating system design
 - NeXT did not have commercial success, but had a broad impact on the computer industry — and the technology developed at NeXT became the heart of Apple's current renaissance when Apple bought NeXT in 1996.
 - The NeXT OS became the foundation of **macOS, iOS, and all modern Apple software** — arguably the most consequential "failure" in tech history.
 
 **At Pixar:**
+
 - Jobs founded NeXT and Pixar, two ventures that would reshape entire industries and redefine the boundaries of creativity. Pixar achieved unprecedented success with the release of *Toy Story*, heralding a new era in animation.
 - At Pixar, Jobs was a genuine beginner in filmmaking. He had no reputation to protect there. That openness allowed him to support creative risk-taking.
 
 **When He Returned to Apple (1997):**
+
 - Apple, after a decade of steady losses since firing Steve Jobs, acquired NeXT for the computer platform it was missing. Steve stepped in as interim CEO in 1997 and was appointed official CEO in 2000. Under his leadership, Apple was brought back from the brink of bankruptcy.
 - He returned with the beginner's mind *combined* with hard-won wisdom. He was no longer the arrogant 30-year-old. He was someone who had been humbled, had built two companies from scratch, and had learned to focus ruthlessly — famously cutting Apple's product line from dozens of products to just four.
 - He wasn't afraid to fail or pivot; instead, he saw every challenge as an opportunity to learn and refine.

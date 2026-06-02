@@ -13,6 +13,7 @@ type: note
 Mercury MCAP1200GP 是一款吸顶式无线接入点（AP）路由器，专为中大型空间的企业级WiFi覆盖设计，适用于酒店、办公室、餐厅或小型企业等场景。作为AC1200双频型号，它支持无缝漫游并通过PoE（以太网供电）技术供电，无需单独电源接口即可便捷安装。该设备支持"胖"（独立）和"瘦"（控制器管理）两种工作模式，满足灵活部署需求。
 
 ### 核心特性
+
 - **双频WiFi**：2.4GHz与5GHz双频并发，提升覆盖范围并减少信号干扰
 - **高速无线**：总速率高达1200Mbps（2.4GHz频段300Mbps + 5GHz频段867Mbps）
 - **千兆以太网**：配备1个10/100/1000Mbps RJ45有线接口
@@ -40,6 +41,7 @@ Mercury MCAP1200GP 是一款吸顶式无线接入点（AP）路由器，专为�
 本型号专注于专业场景部署而非家庭使用，强调可靠性与扩展性。
 
 **参考资料**
+
 - [Mercury官方产品规格](https://www.mercurycom.com.cn/m/product-383?type=spec)
 - [Yoycart产品页面](https://m.yoycart.com/Product/585666964167/)
 - [淘宝商品概览](https://world.taobao.com/lang/en-us/goods/-100109722363.htm)

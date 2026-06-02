@@ -24,40 +24,40 @@ JDK 24是一个**稳定的、生产就绪的版本**，已于2025年3月18日达
 
 JDK 24引入了24个JEP，分为核心库增强、语言改进、安全功能、HotSpot JVM优化和Java工具。其中，14个是永久功能，七个是预览功能，两个是实验性功能，一个是孵化器模块。以下是一些最值得注意的功能，重点关注与开发人员和部署相关的功能：
 
-1.  **Stream Gatherers (JEP 485)** - 永久功能
+1. **Stream Gatherers (JEP 485)** - 永久功能
     - 通过引入`Gatherer`接口增强Stream API，允许开发人员为流管道定义自定义中间操作。这使得数据转换更加灵活，补充了用于终端操作的现有`Collector`接口。
     - 示例：使用`StreamGatherers.groupBy`按长度对单词进行分组。
     - 好处：简化了开发人员的复杂流处理。
 
-2.  **Ahead-of-Time Class Loading & Linking (JEP 483)** - 实验性功能
+2. **Ahead-of-Time Class Loading & Linking (JEP 483)** - 实验性功能
     - 作为Project Leyden的一部分，此功能通过在准备阶段将类预加载和链接到缓存中，减少了Java应用程序的启动时间。缓存在运行时被重用，绕过了昂贵的类加载步骤。
     - 好处：提高了云和微服务应用程序的性能。
 
-3.  **Compact Object Headers (JEP 450)** - 实验性功能
+3. **Compact Object Headers (JEP 450)** - 实验性功能
     - 作为Project Lilliput的一部分，这将64位架构上的Java对象头大小从96-128位减少到64位，降低了堆使用量并提高了内存效率。
     - 好处：减少了内存占用并增强了数据局部性以提高性能。
 
-4.  **Generational Shenandoah Garbage Collector (JEP 404)** - 永久功能
+4. **Generational Shenandoah Garbage Collector (JEP 404)** - 永久功能
     - 将Shenandoah GC的分代模式从实验性功能过渡为产品功能，通过将对象分为年轻代和老年代来提高吞吐量、负载峰值恢复能力和内存利用率。
     - 好处：增强了要求苛刻工作负载的性能。
 
-5.  **Module Import Declarations (JEP 494)** - 第二次预览
+5. **Module Import Declarations (JEP 494)** - 第二次预览
     - 简化模块化编程，允许直接导入模块导出的所有包，而无需`module-info.java`文件（例如，`import module java.sql;`）。
     - 好处：减少了轻量级应用程序和脚本的开销，有助于初学者和快速原型设计。
 
-6.  **Flexible Constructor Bodies (JEP 492)** - 第三次预览
+6. **Flexible Constructor Bodies (JEP 492)** - 第三次预览
     - 允许在`super()`或`this()`调用之前的构造函数中放置语句，使得字段初始化逻辑可以更自然地放置，而无需辅助方法。
     - 好处：提高了代码的可靠性和可读性，特别是在子类化方面。
 
-7.  **Key Derivation Function (KDF) API (JEP 487)** - 预览功能
+7. **Key Derivation Function (KDF) API (JEP 487)** - 预览功能
     - 引入了用于加密密钥派生函数（如基于HMAC的提取和扩展以及Argon2）的API，支持安全密码哈希和与加密硬件的交互。
     - 好处：增强了需要高级加密技术的应用程序的安全性。
 
-8.  **Permanently Disable the Security Manager (JEP 486)** - 永久功能
+8. **Permanently Disable the Security Manager (JEP 486)** - 永久功能
     - 移除了在JDK 17中已弃用的Security Manager，因为它不再是保护Java应用程序的主要手段（已被基于容器的沙箱取代）。
     - 注意：依赖Security Manager的应用程序可能需要进行架构更改。
 
-9.  **Late Barrier Expansion for G1 Garbage Collector (JEP 464)** - 永久功能
+9. **Late Barrier Expansion for G1 Garbage Collector (JEP 464)** - 永久功能
     - 通过将屏障扩展移至编译管道的后期来简化G1 GC的屏障实现，从而减少编译时间并提高可维护性。
     - 好处：提高了使用G1 GC的应用程序的性能。
 
@@ -83,15 +83,16 @@ JDK 24引入了24个JEP，分为核心库增强、语言改进、安全功能、
 
 ### 补充说明
 
--   **预览和实验性功能**：许多功能（例如，Scoped Values、KDF API）处于预览或实验阶段，允许开发人员在它们成为JDK 25或更高版本的永久功能之前进行测试和提供反馈。这些功能在最终确定之前可能会发生变化。
--   **项目集成**：JDK 24引入了OpenJDK项目的元素，如Leyden（启动优化）、Lilliput（内存效率）和Panama（原生互操作性），为未来的增强奠定了基础。
--   **安全性和弃用**：诸如移除Security Manager和弃用32位x86端口等功能反映了Oracle通过逐步淘汰过时组件来现代化Java的关注点。
+- **预览和实验性功能**：许多功能（例如，Scoped Values、KDF API）处于预览或实验阶段，允许开发人员在它们成为JDK 25或更高版本的永久功能之前进行测试和提供反馈。这些功能在最终确定之前可能会发生变化。
+- **项目集成**：JDK 24引入了OpenJDK项目的元素，如Leyden（启动优化）、Lilliput（内存效率）和Panama（原生互操作性），为未来的增强奠定了基础。
+- **安全性和弃用**：诸如移除Security Manager和弃用32位x86端口等功能反映了Oracle通过逐步淘汰过时组件来现代化Java的关注点。
 
 ### 结论
 
 JDK 24是一个稳定、功能丰富的版本，提升了Java的性能、开发人员生产力和安全性。虽然它不是LTS版本，但其24个JEP提供了显著的改进，其中许多将在即将发布的LTS版本JDK 25中最终确定。开发人员可以利用诸如Stream Gatherers和Module Import Declarations等功能来获得即时生产力提升，而像Compact Object Headers和Ahead-of-Time Class Loading这样的实验性功能则标志着Java正在持续优化以适应现代工作负载。对于企业使用，建议坚持使用LTS版本（如JDK 21）或等待JDK 25，因为它们提供更长的支持期。
 
 有关更多详细信息，请访问：
--   [Oracle JDK 24 发布说明](https://www.oracle.com/java/technologies/javase/24-relnote-issues.html)
--   [OpenJDK JDK 24](https://openjdk.org/projects/jdk/24/)
--   [JavaOne 2025 会议](https://www.oracle.com/javaone) 了解功能亮点
+
+- [Oracle JDK 24 发布说明](https://www.oracle.com/java/technologies/javase/24-relnote-issues.html)
+- [OpenJDK JDK 24](https://openjdk.org/projects/jdk/24/)
+- [JavaOne 2025 会议](https://www.oracle.com/javaone) 了解功能亮点

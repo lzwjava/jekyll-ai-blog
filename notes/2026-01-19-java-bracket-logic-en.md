@@ -112,7 +112,7 @@ public class Main {
 
 ### Why this works for the example `(()(()))`
 
-s = ` ( ( ) ( ( ) ) )`
+s = `( ( ) ( ( ) ) )`
  indices   0 1 2 3 4 5 6 7
 
 When i=3 (0-based), s[3]=`)`
@@ -277,6 +277,6 @@ Good luck!
 
 **References:**
 
-- https://codeforces.com/contest/2190/problem/B1
-- https://codeforces.com/contest/2190/submission/283456789 (example of short n-2 solution)
-- https://codeforces.com/contest/2190/submission/283425017 (example of trying each position)
+- <https://codeforces.com/contest/2190/problem/B1>
+- <https://codeforces.com/contest/2190/submission/283456789> (example of short n-2 solution)
+- <https://codeforces.com/contest/2190/submission/283425017> (example of trying each position)

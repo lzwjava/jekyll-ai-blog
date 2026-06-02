@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What is an introduction to the platform at https://pintia.cn?
+Question: What is an introduction to the platform at <https://pintia.cn>?
 
 Answer:
 
@@ -40,6 +40,7 @@ PTA is a programming competition website and Online Judge (OJ) system. Users can
 **2. PAT Exam Support**
 
 One of the most notable uses of PTA is hosting the **PAT (Programming Ability Test)** — a standardized programming certification exam also originating from Zhejiang University. PAT has multiple levels:
+
 - PAT Advanced Level (甲级) — conducted in English
 - PAT Basic Level (乙级) — conducted in Chinese
 - PAT Top Level (顶级)
@@ -47,6 +48,7 @@ One of the most notable uses of PTA is hosting the **PAT (Programming Ability Te
 **3. Problem Sets**
 
 The platform hosts a wide variety of problem sets, including:
+
 - PAT Advanced/Basic/Top Level practice banks
 - Data Structures and Algorithm problem sets
 - Team Programming Ladder Competition (团体程序设计天梯赛) practice sets

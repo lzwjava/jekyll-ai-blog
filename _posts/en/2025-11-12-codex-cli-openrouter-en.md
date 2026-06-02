@@ -17,15 +17,19 @@ Codex CLI (from OpenAI) is a terminal-based coding agent that supports custom mo
 The configuration is stored in a TOML file at `~/.codex/config.toml` (create it if it doesn't exist). You'll define a **model provider** section for OpenRouter and then reference it in a **profile** for specific models.
 
 #### Step 1: Get Your OpenRouter API Key
+
 - Sign up at [openrouter.ai](https://openrouter.ai) if you haven't.
 - Generate an API key from your account dashboard.
 - Set it as an environment variable:
+
   ```
   export OPENROUTER_API_KEY=your_api_key_here
   ```
+
   Add this to your shell profile (e.g., `~/.bashrc` or `~/.zshrc`) for persistence.
 
 #### Step 2: Edit the Config File
+
 Open `~/.codex/config.toml` in your editor and add the following sections. This sets the base URL to OpenRouter's endpoint (`https://openrouter.ai/api/v1`), which is OpenAI-compatible (Codex appends `/chat/completions` automatically).
 
 ```toml
@@ -48,19 +52,25 @@ model = "openai/gpt-4o-mini"  # Replace with any OpenRouter model ID, e.g., "ant
   - You can add multiple profiles for different models (e.g., `[profiles.openrouter-claude]` with `model = "anthropic/claude-3.5-sonnet"`).
 
 #### Step 3: Use the Configuration
+
 - Install Codex CLI if needed: `npm install -g @openai/codex` (or via Homebrew: `brew install codex`).
 - Run Codex with your profile:
+
   ```
   codex --profile openrouter-gpt
   ```
+
   Or set a default profile in the config:
+
   ```toml
   [default_profile]
   name = "openrouter-gpt"
   ```
+
 - Test it: Run `codex` and give it a simple coding prompt. Check OpenRouter's dashboard for usage.
 
 #### Troubleshooting
+
 - **Auth errors**: Ensure `OPENROUTER_API_KEY` is set and exported.
 - **Model not found**: Verify the model ID on OpenRouter—it's case-sensitive and prefixed (e.g., "provider/model-name").
 - **Version check**: Use Codex CLI v0.13+ for full provider support. Update with `npm update -g @openai/codex`.

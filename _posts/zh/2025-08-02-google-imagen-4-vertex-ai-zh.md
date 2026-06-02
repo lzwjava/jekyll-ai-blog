@@ -20,10 +20,13 @@ type: note
 
 2. **设置环境**：
    - **身份验证**：使用 Google Cloud 凭据验证您的账户。您可以使用以下命令生成访问令牌：
+
      ```bash
      gcloud auth print-access-token
      ```
+
    - **项目和位置**：设置您的 Google Cloud 项目 ID 和位置（例如 `us-central1`）。示例：
+
      ```bash
      export GOOGLE_CLOUD_PROJECT=your-project-id
      export GOOGLE_CLOUD_LOCATION=us-central1
@@ -32,6 +35,7 @@ type: note
 3. **使用 Imagen 4 模型**：
    - **API 访问**：Imagen 4 Preview 0606 可通过 Vertex AI API 访问。使用模型端点 `imagen-4.0-generate-preview-06-06`。您可以使用 cURL 或 Google Gen AI SDK for Python 以编程方式与其交互。
    - **cURL 请求示例**：
+
      ```bash
      curl -X POST \
      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
@@ -39,8 +43,10 @@ type: note
      "https://${GOOGLE_CLOUD_LOCATION}-aiplatform.googleapis.com/v1/projects/${GOOGLE_CLOUD_PROJECT}/locations/${GOOGLE_CLOUD_LOCATION}/publishers/google/models/imagen-4.0-generate-preview-06-06:predict" \
      -d '{"instances": [{"prompt": "A cat reading a book"}], "parameters": {"sampleCount": 1}}'
      ```
+
      这将返回一个 base64 编码的图像。[](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview)
    - **Python SDK 示例**：
+
      ```python
      from google import genai
      from google.genai.types import GenerateImagesConfig
@@ -53,6 +59,7 @@ type: note
      image.generated_images[0].image.save("output-image.png")
      print(f"Created output image using {len(image.generated_images[0].image.image_bytes)} bytes")
      ```
+
      这将生成一个图像并将其保存为 PNG 文件。[](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview)
 
 4. **构建有效提示**：
@@ -75,12 +82,14 @@ type: note
    - Imagen 4 也可在第三方平台上使用，如 Replicate、fal.ai 或 AI/ML API，这些平台可能提供更简单的界面或沙盒环境用于测试。例如：
      - **Replicate**：使用提示如“A serene mountain landscape at sunset, hyperrealistic style.”运行 Imagen 4。请查阅 Replicate 的文档以了解 API 密钥和使用方法。[](https://replicate.com/blog/google-imagen-4)[](https://replicate.com/google/imagen-4-fast)
      - **fal.ai**：使用他们的 API 发出请求，例如：
+
        ```javascript
        const result = await fal.subscribe("fal-ai/imagen4/preview", {
            input: { prompt: "A serene mountain landscape at sunset, hyperrealistic style" }
        });
        console.log(result.images[0].url);
        ```
+
        定价各不相同（例如，Standard 为 $0.05/图像，Fast 为 $0.04/图像，Ultra 为 $0.06/图像）。[](https://fal.ai/models/fal-ai/imagen4/preview)
    - **Gemini 应用或 Google Workspace**：Imagen 4 已集成到 Gemini 应用、Google Slides、Docs 和 Vids 中，可直接在工作流中生成图像。例如，在 Google Docs 中，您可以生成图像以说明文档。[](https://www.stablediffusion.blog/imagen4)
 
@@ -89,6 +98,7 @@ type: note
    - 通过平台的仪表板监控 API 使用情况和成本，因为预览服务可能支持有限或功能会变化。[](https://fal.ai/models/fal-ai/imagen4/preview)
 
 ### 补充说明
+
 - **定价**：请查看 Vertex AI 定价页面了解 Imagen 4 的成本（例如，Standard 为 $0.04/图像，Ultra 为 $0.06/图像）。[](https://developers.googleblog.com/en/imagen-4-now-available-in-the-gemini-api-and-google-ai-studio/)[](https://fal.ai/models/fal-ai/imagen4/preview)
 - **限制**：Imagen 4 可能难以处理模糊提示、小面孔或完美居中的构图。使用清晰、结构化的提示以获得最佳效果。[](https://deepmind.google/models/imagen/)
 - **可用性**：作为预览服务，功能和支持可能会变化。请查看 Google Cloud 的发布阶段说明以获取更新。[](https://cloud.google.com/vertex-ai/generative-ai/docs/models/imagen/4-0-generate-preview-06-06)[](https://cloud.google.com/vertex-ai/generative-ai/docs/models/imagen/4-0-fast-generate-preview-06-06)

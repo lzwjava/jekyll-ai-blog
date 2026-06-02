@@ -9,6 +9,7 @@ type: note
 ---
 
 ## 目录
+
 1. [Oracle数据库概述](#oracle数据库概述)
 2. [安装与设置](#安装与设置)
 3. [Oracle数据库架构](#oracle数据库架构)
@@ -26,6 +27,7 @@ type: note
 Oracle数据库是由Oracle公司生产的多模型数据库管理系统。它是企业环境中使用最广泛的关系数据库管理系统（RDBMS）之一。
 
 ### 主要特性
+
 - **ACID合规性**：通过原子性、一致性、隔离性和持久性确保数据完整性
 - **多版本并发控制（MVCC）**：允许多个用户并发访问数据
 - **分区**：将大表分割成更小、更易管理的部分
@@ -34,6 +36,7 @@ Oracle数据库是由Oracle公司生产的多模型数据库管理系统。它�
 - **可扩展性**：支持海量数据库和高事务量
 
 ### Oracle数据库版本
+
 - **Express版（XE）**：免费、功能有限的版本，适用于开发和小型部署
 - **标准版**：具有核心功能的中端版本
 - **企业版**：具有高级功能的完整版本
@@ -44,11 +47,13 @@ Oracle数据库是由Oracle公司生产的多模型数据库管理系统。它�
 ### Oracle数据库安装
 
 #### 使用Oracle数据库XE（推荐用于开发）
+
 1. 从Oracle官网下载Oracle数据库XE
 2. 按照平台特定说明进行安装
 3. 使用数据库配置助手（DBCA）配置数据库
 
 #### Docker安装（快速设置）
+
 ```bash
 # 拉取Oracle数据库XE镜像
 docker pull container-registry.oracle.com/database/express:21.3.0-xe
@@ -63,6 +68,7 @@ docker run --name oracle-xe \
 ```
 
 ### 客户端工具
+
 - **SQL*Plus**：命令行界面
 - **SQL Developer**：基于GUI的开发环境
 - **Oracle Enterprise Manager**：基于Web的管理控制台
@@ -71,11 +77,13 @@ docker run --name oracle-xe \
 ## Oracle数据库架构
 
 ### 物理架构
+
 - **数据库文件**：数据文件、控制文件和重做日志文件
 - **参数文件**：配置设置（PFILE/SPFILE）
 - **归档日志文件**：用于恢复的重做日志文件备份
 
 ### 逻辑架构
+
 - **表空间**：包含一个或多个数据文件的逻辑存储单元
 - **模式**：由用户拥有的数据库对象集合
 - **段**：为数据库对象分配的空间
@@ -83,6 +91,7 @@ docker run --name oracle-xe \
 - **块**：最小的存储单元
 
 ### 内存架构
+
 - **系统全局区（SGA）**：共享内存区域
   - 数据库缓冲区缓存
   - 共享池
@@ -95,6 +104,7 @@ docker run --name oracle-xe \
 ### 数据定义语言（DDL）
 
 #### 创建表
+
 ```sql
 -- 创建表
 CREATE TABLE employees (
@@ -120,6 +130,7 @@ CREATE INDEX idx_emp_dept ON employees(department_id);
 ```
 
 #### Oracle特定数据类型
+
 - **NUMBER**：具有精度和小数位数的数值数据
 - **VARCHAR2**：可变长度字符串
 - **CHAR**：固定长度字符串
@@ -132,6 +143,7 @@ CREATE INDEX idx_emp_dept ON employees(department_id);
 ### 数据操作语言（DML）
 
 #### 高级查询
+
 ```sql
 -- 窗口函数
 SELECT
@@ -164,6 +176,7 @@ ORDER SIBLINGS BY last_name;
 ### PL/SQL编程
 
 #### 基本PL/SQL块
+
 ```sql
 DECLARE
     v_employee_count NUMBER;
@@ -191,6 +204,7 @@ END;
 ```
 
 #### 存储过程和函数
+
 ```sql
 -- 存储过程
 CREATE OR REPLACE PROCEDURE update_employee_salary(
@@ -235,6 +249,7 @@ END;
 ## 高级Oracle功能
 
 ### 分区
+
 ```sql
 -- 范围分区
 CREATE TABLE sales (
@@ -255,6 +270,7 @@ CREATE TABLE customers (
 ```
 
 ### 序列
+
 ```sql
 -- 创建序列
 CREATE SEQUENCE emp_seq
@@ -270,6 +286,7 @@ VALUES (emp_seq.NEXTVAL, 'John', 'Doe');
 ```
 
 ### 视图和物化视图
+
 ```sql
 -- 创建视图
 CREATE VIEW employee_details AS
@@ -294,6 +311,7 @@ GROUP BY d.department_name;
 ### JDBC驱动设置
 
 #### Maven依赖
+
 ```xml
 <dependency>
     <groupId>com.oracle.database.jdbc</groupId>
@@ -310,6 +328,7 @@ GROUP BY d.department_name;
 ```
 
 #### 基本JDBC连接
+
 ```java
 import java.sql.*;
 
@@ -335,6 +354,7 @@ public class OracleConnection {
 ### CRUD操作
 
 #### 数据访问对象（DAO）模式
+
 ```java
 public class Employee {
     private int employeeId;
@@ -460,6 +480,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 ```
 
 ### 使用存储过程
+
 ```java
 public class StoredProcedureExample {
 
@@ -500,6 +521,7 @@ public class StoredProcedureExample {
 ## 连接管理
 
 ### 使用Oracle UCP进行连接池管理
+
 ```java
 import oracle.ucp.jdbc.PoolDataSource;
 import oracle.ucp.jdbc.PoolDataSourceFactory;
@@ -534,6 +556,7 @@ public class ConnectionPoolManager {
 ```
 
 ### 事务管理
+
 ```java
 public class TransactionExample {
 
@@ -587,6 +610,7 @@ public class TransactionExample {
 ## ORM框架
 
 ### Hibernate配置
+
 ```xml
 <!-- hibernate.cfg.xml -->
 <?xml version="1.0" encoding="UTF-8"?>
@@ -615,6 +639,7 @@ public class TransactionExample {
 ```
 
 ### 具有Oracle特定功能的JPA实体
+
 ```java
 @Entity
 @Table(name = "employees")
@@ -660,6 +685,7 @@ public class Employee {
 ```
 
 ### Spring Boot与Oracle
+
 ```yaml
 # application.yml
 spring:
@@ -692,6 +718,7 @@ spring:
 ## 性能优化
 
 ### 查询优化
+
 ```sql
 -- 有效使用索引
 CREATE INDEX idx_emp_dept_salary ON employees(department_id, salary);
@@ -707,6 +734,7 @@ SELECT * FROM employees WHERE employee_id = :employee_id;
 ```
 
 ### Java性能提示
+
 ```java
 // 对多个插入使用批处理
 public void batchInsertEmployees(List<Employee> employees) {
@@ -759,6 +787,7 @@ public List<Employee> getAllEmployeesOptimized() {
 ## 安全最佳实践
 
 ### 连接安全
+
 ```java
 // 使用加密连接
 String url = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=localhost)(PORT=2484))(CONNECT_DATA=(SERVICE_NAME=XE)))" +
@@ -778,6 +807,7 @@ Connection conn = DriverManager.getConnection(url, props);
 ```
 
 ### SQL注入预防
+
 ```java
 // 始终使用参数化查询
 public Employee findEmployeeByEmail(String email) {
@@ -804,6 +834,7 @@ public Employee findEmployeeByEmail(String email) {
 ## 监控与维护
 
 ### 数据库监控查询
+
 ```sql
 -- 检查表大小
 SELECT table_name,
@@ -836,6 +867,7 @@ WHERE total.tablespace_name = free.tablespace_name(+);
 ```
 
 ### 应用程序监控
+
 ```java
 // 连接池监控
 public class ConnectionPoolMonitor {
@@ -886,6 +918,7 @@ public class QueryPerformanceMonitor {
 ## 最佳实践总结
 
 ### 数据库设计
+
 - 使用适当的数据类型和约束
 - 实施适当的索引策略
 - 对大表考虑分区
@@ -893,6 +926,7 @@ public class QueryPerformanceMonitor {
 - 适当规范化数据
 
 ### Java开发
+
 - 始终使用连接池
 - 实施适当的异常处理
 - 使用参数化查询防止SQL注入
@@ -900,6 +934,7 @@ public class QueryPerformanceMonitor {
 - 对复杂应用程序考虑使用ORM框架
 
 ### 性能
+
 - 监控和优化慢查询
 - 对批量数据操作使用批处理操作
 - 实施适当的缓存策略
@@ -907,6 +942,7 @@ public class QueryPerformanceMonitor {
 - 使用适当的获取大小
 
 ### 安全
+
 - 在生产环境中使用加密连接
 - 实施适当的身份验证和授权
 - 切勿硬编码凭据

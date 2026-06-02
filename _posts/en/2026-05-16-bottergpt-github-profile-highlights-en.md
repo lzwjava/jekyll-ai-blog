@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What are the cool projects on the GitHub profile https://github.com/bottergpt?
+Question: What are the cool projects on the GitHub profile <https://github.com/bottergpt>?
 
 Answer:
 
@@ -20,6 +20,7 @@ Answer:
 ---
 
 ## 🏆 1. Tencent2020_Top5 — *Most Popular Repo*
+
 **⭐ 87 stars | 🍴 27 forks**
 
 This is the **Top 5 solution** for the 2020 Tencent Advertising Algorithm Competition. The solution covers a full ML pipeline including data preprocessing, embedding generation, model training (using TF1, TF2, and PyTorch), out-of-fold predictions, and final stacking with Ridge regression. The team name was **BANJITINO**, and the final ensemble approach stacks 20-class classification models over ~4 million samples (`[400w, 20]` matrix).
@@ -29,6 +30,7 @@ This is the **Top 5 solution** for the 2020 Tencent Advertising Algorithm Compet
 ---
 
 ## 🌲 2. TreesBO — *Handy AutoML Utility*
+
 **⭐ 4 stars | 🍴 3 forks**
 
 **TreesBO** is a Bayesian optimization toolkit specifically designed for tree-based models. For **regression**, it supports LGBM, XGB, ExtraTrees (ET), and Random Forest (RF). For **classification**, LGBM is currently supported. The repo includes example notebooks (Jupyter).
@@ -38,6 +40,7 @@ This is the **Top 5 solution** for the 2020 Tencent Advertising Algorithm Compet
 ---
 
 ## 🌦️ 3. MeteoAI/awesome-atmos — *Most Starred Resource*
+
 **⭐ 214 stars | 🍴 80 forks**
 
 **awesome-atmos** is a curated list of awesome Python libraries, software, and resources covering **Atmosphere, Environment, and Machine Learning**, inspired by the famous `awesome-python` list. It organizes tools into categories including: Numerical Models (WRF, CESM, CMAQ), Data Assimilation, Radar processing, Satellite data, Atmospheric index calculation, Data processing/analysis, Machine Learning (scikit-learn, PyTorch, XGBoost, LightGBM, etc.), Visualization (Matplotlib, Cartopy, Basemap), and Resources (Pangeo, ECMWF notebooks, etc.).
@@ -47,6 +50,7 @@ This is the **Top 5 solution** for the 2020 Tencent Advertising Algorithm Compet
 ---
 
 ## 📄 4. PaperCollection — *Knowledge Repository*
+
 **⭐ 2 stars**
 
 A personal collection of ML/DL related papers and notes — useful for tracking research reading in deep learning and machine learning.
@@ -54,6 +58,7 @@ A personal collection of ML/DL related papers and notes — useful for tracking 
 ---
 
 ## 🔁 5. wsdm2022-xmrec-top1-solution (Fork)
+
 A fork of the **Top 1 solution** for the WSDM 2022 XMRec challenge, focused on cross-market recommendation systems — another competition ML solution worth studying.
 
 ---

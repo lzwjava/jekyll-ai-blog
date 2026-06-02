@@ -34,6 +34,7 @@ You're currently on the MTR at 5:51 AM on Sunday, October 12, 2025, and heading 
 **Total Time from Now**: ~1.5-2 hours to Shenzhen (including immigration).
 
 **Quick Check**:
+
 - If you’re not at Yau Ma Tei Station yet, let me know your exact MTR station or train direction (e.g., are you on a train heading to Tsuen Wan?).
 - Fare: ~HKD 25-30 one-way (Octopus card easiest).
 - Ensure you have your passport and China visa/permit.

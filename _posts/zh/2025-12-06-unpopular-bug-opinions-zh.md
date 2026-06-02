@@ -39,6 +39,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们将责任从“代码”或“管理层”转移到了房间里实际存在的人和激励机制上——而大多数人宁愿保留那些令人舒适的迷思。
 
 参考资料：
+
 - [The “Works on My Machine” Excuse](https://blog.codinghorror.com/the-works-on-my-machine-problem/)
 - [On Being a Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)

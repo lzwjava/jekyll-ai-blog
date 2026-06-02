@@ -10,16 +10,16 @@ translated: false
 type: note
 ---
 
-Question: How to register for the TOEFL exam on https://toefl.neea.cn
+Question: How to register for the TOEFL exam on <https://toefl.neea.cn>
 
 Answer:
 
-**Note:** The website https://toefl.neea.cn is the official registration portal for the TOEFL iBT test in **Mainland China** (operated by the National Education Examinations Authority - NEEA, under the Ministry of Education). It is primarily in Chinese, though some parts may offer English options. This is different from the global ETS site used in most other countries.
+**Note:** The website <https://toefl.neea.cn> is the official registration portal for the TOEFL iBT test in **Mainland China** (operated by the National Education Examinations Authority - NEEA, under the Ministry of Education). It is primarily in Chinese, though some parts may offer English options. This is different from the global ETS site used in most other countries.
 
-Here are the general steps to register for the TOEFL exam on https://toefl.neea.cn (based on official procedures for Mainland China test-takers):
+Here are the general steps to register for the TOEFL exam on <https://toefl.neea.cn> (based on official procedures for Mainland China test-takers):
 
 1. **Visit the website**
-   Go to https://toefl.neea.cn.
+   Go to <https://toefl.neea.cn>.
 
 2. **Read important information first**
    Before registering, carefully read the "考生须知" (Candidate Information/Notes) section. This covers exam rules, requirements, policies, test day procedures, and important notices. You must agree to the terms and the NEEA online registration agreement.
@@ -45,14 +45,15 @@ Here are the general steps to register for the TOEFL exam on https://toefl.neea.
    After payment, you will receive a confirmation. Download and print the registration form or admission ticket if required. Bring this and your ID to the test center.
 
 **Additional important tips:**
+
 - Register as early as possible — seats are limited and popular test dates fill quickly.
 - You can usually register up to about 7 days before the test date (late registration may incur extra fees if allowed).
-- For the **TOEFL iBT Home Edition** in China, use a different site: https://toefl.cn/at-home.
+- For the **TOEFL iBT Home Edition** in China, use a different site: <https://toefl.cn/at-home>.
 - If you need special accommodations (e.g., disability-related), contact NEEA support early.
-- For the latest dates, fees, test centers, and any policy changes, always check directly on https://toefl.neea.cn or the candidate notes section.
+- For the latest dates, fees, test centers, and any policy changes, always check directly on <https://toefl.neea.cn> or the candidate notes section.
 - If you encounter issues, use the online customer service chat on the site or contact NEEA support.
 
-This process is specific to Mainland China. If you're registering from outside Mainland China (e.g., Singapore), use the global ETS site at https://www.ets.org/toefl instead.
+This process is specific to Mainland China. If you're registering from outside Mainland China (e.g., Singapore), use the global ETS site at <https://www.ets.org/toefl> instead.
 
 References:
 

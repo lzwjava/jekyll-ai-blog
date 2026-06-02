@@ -17,10 +17,12 @@ Answer:
 **IO-bound** 和 **CPU-bound** 描述了限制程序或任务性能及吞吐量的主要瓶颈。
 
 ### CPU-bound (Compute-bound)
+
 - 任务的大部分时间都在 CPU 内部**进行实际计算**。
 - 程序受到 **CPU speed**、核心数量以及代码使用处理器的效率的限制。
 
 **典型特征：**
+
 - 密集型数值处理
 - 大量的数学运算、encryption/decryption、video encoding、科学模拟、machine learning training/inference、image processing、编译大型代码库等。
 - 非常高的 CPU usage（在所使用的核心上接近 100%）。
@@ -33,6 +35,7 @@ Answer:
 "This machine learning training job is strongly CPU-bound — even with 128 CPU cores it's still running at 100% CPU for hours."
 
 ### IO-bound
+
 - 任务的大部分时间都在**等待 input/output operations** 完成。
 - 在等待数据时，CPU 大部分时间处于空闲状态。
 
@@ -44,6 +47,7 @@ Answer:
 - **Pipe / socket communication** 进程间通信
 
 **典型特征：**
+
 - 低到中等的 CPU usage（通常 < 30–50%）
 - 在工具中可以看到较高的等待时间（iowait、network wait 等）
 - 通常受益于：
@@ -67,6 +71,7 @@ Answer:
 | Benefits from asyncio / event loop? | Usually no                        | Usually very much yes                 |
 
 简而言之：
+
 - CPU-bound → “我的 CPU 正在努力工作”
 - IO-bound → “我的 CPU 大多在等待”
 

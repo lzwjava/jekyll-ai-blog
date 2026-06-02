@@ -18,7 +18,7 @@ The three most commonly accepted **core principles** of visual design for web pa
 
 These are widely taught as the foundational triad in web and UI/UX design education and are referenced in most major design systems (Google Material Design, Apple Human Interface Guidelines, Nielsen Norman Group articles, etc.).
 
-### Why these three are considered “core”:
+### Why these three are considered “core”
 
 | Principle   | What it controls                                                                 | Impact on the user experience                                      |
 |-------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------|
@@ -27,6 +27,7 @@ These are widely taught as the foundational triad in web and UI/UX design educat
 | **Typography** | Font choice, scale (headings, body), line height, letter spacing, weight, readability | Affects legibility, reading speed, tone of voice, content hierarchy |
 
 ### Sometimes you’ll see slightly expanded lists
+
 Many designers and sources add 3–4 more principles, but they are usually considered supporting or derived from the core three:
 
 - Contrast (often treated as part of color + typography)

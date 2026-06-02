@@ -57,7 +57,7 @@ Answer:
 
 ## 🏆 Top Picks by Category
 
-### Best 3-letter prefix:
+### Best 3-letter prefix
 
 | Rank | Name | Why |
 |---|---|---|
@@ -65,7 +65,7 @@ Answer:
 | 🥈 | **`dotclaw`** | A dot is the smallest thing — minimal, iconic |
 | 🥉 | **`podclaw`** | Clean, modern, container feel |
 
-### Best 4-letter prefix:
+### Best 4-letter prefix
 
 | Rank | Name | Why |
 |---|---|---|

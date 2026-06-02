@@ -21,6 +21,7 @@ Manifold-Constrained Hyper-Connections (mHC) 是 DeepSeek-AI 在 2025 年 12 月
 mHC 基于近期提出的 **Hyper-Connections (HC)** 范式。HC 通过将 Residual Stream 拓宽为多个并行“通道”（使用 Expansion Factor，例如 n=4）并在这些通道之间引入可学习的 Mixing Matrices，扩展了传统的 Residual Connection。与标准单流 Residual Connection（如 ResNet 或 Transformers 中所见）相比，这种多样化允许更丰富的信息流和更好的性能。
 
 然而，无约束的 HC 会引入关键问题：
+
 - **Identity Mapping 属性丢失**：标准 Residual 能够保留一条“恒等”路径，确保信号和梯度在深层网络中稳定传播。HC 的混合机制破坏了这一点，导致信号爆炸/消失以及训练不稳定（例如梯度范数剧烈飙升）。
 - **Scalability 限制**：模型在大规模扩展时容易出现发散（Divergence）。
 - **效率开销**：在分布式训练中增加了内存访问和通信成本。
@@ -39,6 +40,7 @@ mHC 通过**将 Residual Mixing Matrices 约束在特定的数学流形（Manifo
 ### Empirical Results
 
 DeepSeek 研究人员在 3B、9B 和 27B 参数规模的模型上测试了 mHC：
+
 - **Stability**：消除了 HC 的训练发散问题；梯度范数保持在接近基线 Residual 的水平。
 - **Performance**：在 Benchmark 测试中（如 BBH、DROP、GSM8K、MMLU 的更高得分）优于标准 Residual 和无约束 HC。
 - **Scalability**：随着模型尺寸和训练 Token 数量的增加，表现出更好的 Loss 曲线和下游任务收益。

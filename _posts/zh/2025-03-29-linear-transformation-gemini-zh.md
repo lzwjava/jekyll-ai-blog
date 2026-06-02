@@ -16,8 +16,8 @@ type: note
 
 **定义：** 函数 \\(T: V \rightarrow W\\) 是一个线性变换，如果它满足以下两个性质，对于所有向量 \\(\mathbf{u}, \mathbf{v} \in V\\) 和所有标量 \\(c \in F\\)：
 
-1.  **可加性：** \\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})\\)
-2.  **齐次性（标量乘法）：** \\(T(c\mathbf{u}) = cT(\mathbf{u})\\)
+1. **可加性：** \\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})\\)
+2. **齐次性（标量乘法）：** \\(T(c\mathbf{u}) = cT(\mathbf{u})\\)
 
 这两个性质可以合并为一个条件：
 对于所有 \\(\mathbf{u}, \mathbf{v} \in V\\) 和所有标量 \\(c, d \in F\\)，有 \\(T(c\mathbf{u} + d\mathbf{v}) = cT(\mathbf{u}) + dT(\mathbf{v})\\)。
@@ -37,11 +37,11 @@ type: note
 
 让我们检查这是否是线性变换。设 \\(\mathbf{u} = \begin{pmatrix} x_1 \\ y_1 \end{pmatrix}\\) 和 \\(\mathbf{v} = \begin{pmatrix} x_2 \\ y_2 \end{pmatrix}\\)，并设 \\(c\\) 为一个标量。
 
-*   **可加性：**
+* **可加性：**
     \\(T(\mathbf{u} + \mathbf{v}) = T\left(\begin{pmatrix} x_1 + x_2 \\ y_1 + y_2 \end{pmatrix}\right) = \begin{pmatrix} (x_1 + x_2)\cos\theta - (y_1 + y_2)\sin\theta \\ (x_1 + x_2)\sin\theta + (y_1 + y_2)\cos\theta \end{pmatrix}\\)
     \\(= \begin{pmatrix} (x_1\cos\theta - y_1\sin\theta) + (x_2\cos\theta - y_2\sin\theta) \\ (x_1\sin\theta + y_1\cos\theta) + (x_2\sin\theta + y_2\cos\theta) \end{pmatrix} = T(\mathbf{u}) + T(\mathbf{v})\\)
 
-*   **齐次性：**
+* **齐次性：**
     \\(T(c\mathbf{u}) = T\left(\begin{pmatrix} cx_1 \\ cy_1 \end{pmatrix}\right) = \begin{pmatrix} (cx_1)\cos\theta - (cy_1)\sin\theta \\ (cx_1)\sin\theta + (cy_1)\cos\theta \end{pmatrix}\\)
     \\(= \begin{pmatrix} c(x_1\cos\theta - y_1\sin\theta) \\ c(x_1\sin\theta + y_1\cos\theta) \end{pmatrix} = c \begin{pmatrix} x_1\cos\theta - y_1\sin\theta \\ x_1\sin\theta + y_1\cos\theta \end{pmatrix} = cT(\mathbf{u})\\)
 
@@ -128,10 +128,10 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 
 **核的性质：**
 
-*   线性变换的核始终是定义域 \\(V\\) 的一个子空间。
-    *   **包含零向量：** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\)，所以 \\(\mathbf{0}_V \in \text{ker}(T)\\)。
-    *   **对加法封闭：** 如果 \\(\mathbf{u}, \mathbf{v} \in \text{ker}(T)\\)，那么 \\(T(\mathbf{u}) = \mathbf{0}_W\\) 且 \\(T(\mathbf{v}) = \mathbf{0}_W\\)。因此，\\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) = \mathbf{0}_W + \mathbf{0}_W = \mathbf{0}_W\\)，所以 \\(\mathbf{u} + \mathbf{v} \in \text{ker}(T)\\)。
-    *   **对标量乘法封闭：** 如果 \\(\mathbf{u} \in \text{ker}(T)\\) 且 \\(c\\) 是一个标量，那么 \\(T(c\mathbf{u}) = cT(\mathbf{u}) = c\mathbf{0}_W = \mathbf{0}_W\\)，所以 \\(c\mathbf{u} \in \text{ker}(T)\\)。
+* 线性变换的核始终是定义域 \\(V\\) 的一个子空间。
+  * **包含零向量：** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\)，所以 \\(\mathbf{0}_V \in \text{ker}(T)\\)。
+  * **对加法封闭：** 如果 \\(\mathbf{u}, \mathbf{v} \in \text{ker}(T)\\)，那么 \\(T(\mathbf{u}) = \mathbf{0}_W\\) 且 \\(T(\mathbf{v}) = \mathbf{0}_W\\)。因此，\\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) = \mathbf{0}_W + \mathbf{0}_W = \mathbf{0}_W\\)，所以 \\(\mathbf{u} + \mathbf{v} \in \text{ker}(T)\\)。
+  * **对标量乘法封闭：** 如果 \\(\mathbf{u} \in \text{ker}(T)\\) 且 \\(c\\) 是一个标量，那么 \\(T(c\mathbf{u}) = cT(\mathbf{u}) = c\mathbf{0}_W = \mathbf{0}_W\\)，所以 \\(c\mathbf{u} \in \text{ker}(T)\\)。
 
 **示例：求核**
 
@@ -154,12 +154,12 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 
 **像的性质：**
 
-*   线性变换的像始终是陪域 \\(W\\) 的一个子空间。
-    *   **包含零向量：** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\)，所以 \\(\mathbf{0}_W \in \text{im}(T)\\)。
-    *   **对加法封闭：** 如果 \\(\mathbf{w}_1, \mathbf{w}_2 \in \text{im}(T)\\)，那么存在 \\(\mathbf{v}_1, \mathbf{v}_2 \in V\\) 使得 \\(T(\mathbf{v}_1) = \mathbf{w}_1\\) 和 \\(T(\mathbf{v}_2) = \mathbf{w}_2\\)。那么 \\(\mathbf{w}_1 + \mathbf{w}_2 = T(\mathbf{v}_1) + T(\mathbf{v}_2) = T(\mathbf{v}_1 + \mathbf{v}_2)\\)。由于 \\(\mathbf{v}_1 + \mathbf{v}_2 \in V\\)，所以 \\(\mathbf{w}_1 + \mathbf{w}_2 \in \text{im}(T)\\)。
-    *   **对标量乘法封闭：** 如果 \\(\mathbf{w} \in \text{im}(T)\\) 且 \\(c\\) 是一个标量，那么存在 \\(\mathbf{v} \in V\\) 使得 \\(T(\mathbf{v}) = \mathbf{w}\\)。那么 \\(c\mathbf{w} = cT(\mathbf{v}) = T(c\mathbf{v})\\)。由于 \\(c\mathbf{v} \in V\\)，所以 \\(c\mathbf{w} \in \text{im}(T)\\)。
+* 线性变换的像始终是陪域 \\(W\\) 的一个子空间。
+  * **包含零向量：** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\)，所以 \\(\mathbf{0}_W \in \text{im}(T)\\)。
+  * **对加法封闭：** 如果 \\(\mathbf{w}_1, \mathbf{w}_2 \in \text{im}(T)\\)，那么存在 \\(\mathbf{v}_1, \mathbf{v}_2 \in V\\) 使得 \\(T(\mathbf{v}_1) = \mathbf{w}_1\\) 和 \\(T(\mathbf{v}_2) = \mathbf{w}_2\\)。那么 \\(\mathbf{w}_1 + \mathbf{w}_2 = T(\mathbf{v}_1) + T(\mathbf{v}_2) = T(\mathbf{v}_1 + \mathbf{v}_2)\\)。由于 \\(\mathbf{v}_1 + \mathbf{v}_2 \in V\\)，所以 \\(\mathbf{w}_1 + \mathbf{w}_2 \in \text{im}(T)\\)。
+  * **对标量乘法封闭：** 如果 \\(\mathbf{w} \in \text{im}(T)\\) 且 \\(c\\) 是一个标量，那么存在 \\(\mathbf{v} \in V\\) 使得 \\(T(\mathbf{v}) = \mathbf{w}\\)。那么 \\(c\mathbf{w} = cT(\mathbf{v}) = T(c\mathbf{v})\\)。由于 \\(c\mathbf{v} \in V\\)，所以 \\(c\mathbf{w} \in \text{im}(T)\\)。
 
-*   如果 \\(V\\) 是有限维的，且有一组基 \\(\{\mathbf{b}_1, \mathbf{b}_2, ..., \mathbf{b}_n\}\\)，那么 \\(T\\) 的像是基向量像的张成空间：
+* 如果 \\(V\\) 是有限维的，且有一组基 \\(\{\mathbf{b}_1, \mathbf{b}_2, ..., \mathbf{b}_n\}\\)，那么 \\(T\\) 的像是基向量像的张成空间：
     \\(\text{im}(T) = \text{span}\{T(\mathbf{b}_1), T(\mathbf{b}_2), ..., T(\mathbf{b}_n)\}\\)
 
 **示例：求像**
@@ -186,8 +186,9 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 **定理：** 线性变换 \\(T: V \rightarrow W\\) 是单射的，当且仅当其核是零子空间，即 \\(\text{ker}(T) = \{\mathbf{0}_V\}\\)。
 
 **证明：**
-*   **(\\(\Rightarrow\\)) 假设 \\(T\\) 是单射。** 如果 \\(\mathbf{v} \in \text{ker}(T)\\)，那么 \\(T(\mathbf{v}) = \mathbf{0}_W\\)。我们也知道 \\(T(\mathbf{0}_V) = \mathbf{0}_W\\)。由于 \\(T\\) 是单射且 \\(T(\mathbf{v}) = T(\mathbf{0}_V)\\)，必须有 \\(\mathbf{v} = \mathbf{0}_V\\)。因此，\\(\text{ker}(T) = \{\mathbf{0}_V\}\\)。
-*   **(\\(\Leftarrow\\)) 假设 \\(\text{ker}(T) = \{\mathbf{0}_V\}\\)。** 假设对于某个 \\(\mathbf{u}, \mathbf{v} \in V\\)，有 \\(T(\mathbf{u}) = T(\mathbf{v})\\)。那么 \\(T(\mathbf{u}) - T(\mathbf{v}) = \mathbf{0}_W\\)。由线性性，\\(T(\mathbf{u} - \mathbf{v}) = \mathbf{0}_W\\)。这意味着 \\(\mathbf{u} - \mathbf{v} \in \text{ker}(T)\\)。由于 \\(\text{ker}(T) = \{\mathbf{0}_V\}\\)，我们有 \\(\mathbf{u} - \mathbf{v} = \mathbf{0}_V\\)，这意味着 \\(\mathbf{u} = \mathbf{v}\\)。因此，\\(T\\) 是单射。
+
+* **(\\(\Rightarrow\\)) 假设 \\(T\\) 是单射。** 如果 \\(\mathbf{v} \in \text{ker}(T)\\)，那么 \\(T(\mathbf{v}) = \mathbf{0}_W\\)。我们也知道 \\(T(\mathbf{0}_V) = \mathbf{0}_W\\)。由于 \\(T\\) 是单射且 \\(T(\mathbf{v}) = T(\mathbf{0}_V)\\)，必须有 \\(\mathbf{v} = \mathbf{0}_V\\)。因此，\\(\text{ker}(T) = \{\mathbf{0}_V\}\\)。
+* **(\\(\Leftarrow\\)) 假设 \\(\text{ker}(T) = \{\mathbf{0}_V\}\\)。** 假设对于某个 \\(\mathbf{u}, \mathbf{v} \in V\\)，有 \\(T(\mathbf{u}) = T(\mathbf{v})\\)。那么 \\(T(\mathbf{u}) - T(\mathbf{v}) = \mathbf{0}_W\\)。由线性性，\\(T(\mathbf{u} - \mathbf{v}) = \mathbf{0}_W\\)。这意味着 \\(\mathbf{u} - \mathbf{v} \in \text{ker}(T)\\)。由于 \\(\text{ker}(T) = \{\mathbf{0}_V\}\\)，我们有 \\(\mathbf{u} - \mathbf{v} = \mathbf{0}_V\\)，这意味着 \\(\mathbf{u} = \mathbf{v}\\)。因此，\\(T\\) 是单射。
 
 **示例：检查单射性**
 
@@ -204,9 +205,10 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 **满射性与维数之间的关系：**
 
 如果 \\(T: V \rightarrow W\\) 是有限维向量空间之间的线性变换，那么：
-*   如果 \\(\text{dim}(V) < \text{dim}(W)\\)，则 \\(T\\) 不可能是满射。（根据秩-零化度定理，\\(\text{dim}(\text{im}(T)) \leq \text{dim}(V) < \text{dim}(W)\\)）。
-*   如果 \\(\text{dim}(V) > \text{dim}(W)\\)，则 \\(T\\) 不可能是单射（因为 \\(\text{dim}(\text{ker}(T)) = \text{dim}(V) - \text{dim}(\text{im}(T)) \geq \text{dim}(V) - \text{dim}(W) > 0\\)，所以核不仅仅是零向量）。
-*   如果 \\(\text{dim}(V) = \text{dim}(W)\\)，则 \\(T\\) 是单射当且仅当它是满射。（如果 \\(T\\) 是单射，则 \\(\text{dim}(\text{ker}(T)) = 0\\)，所以 \\(\text{dim}(\text{im}(T)) = \text{dim}(V) = \text{dim}(W)\\)，意味着 \\(\text{im}(T) = W\\)，所以 \\(T\\) 是满射。反之，如果 \\(T\\) 是满射，则 \\(\text{dim}(\text{im}(T)) = \text{dim}(W) = \text{dim}(V)\\)，所以 \\(\text{dim}(\text{ker}(T)) = 0\\)，意味着 \\(T\\) 是单射）。
+
+* 如果 \\(\text{dim}(V) < \text{dim}(W)\\)，则 \\(T\\) 不可能是满射。（根据秩-零化度定理，\\(\text{dim}(\text{im}(T)) \leq \text{dim}(V) < \text{dim}(W)\\)）。
+* 如果 \\(\text{dim}(V) > \text{dim}(W)\\)，则 \\(T\\) 不可能是单射（因为 \\(\text{dim}(\text{ker}(T)) = \text{dim}(V) - \text{dim}(\text{im}(T)) \geq \text{dim}(V) - \text{dim}(W) > 0\\)，所以核不仅仅是零向量）。
+* 如果 \\(\text{dim}(V) = \text{dim}(W)\\)，则 \\(T\\) 是单射当且仅当它是满射。（如果 \\(T\\) 是单射，则 \\(\text{dim}(\text{ker}(T)) = 0\\)，所以 \\(\text{dim}(\text{im}(T)) = \text{dim}(V) = \text{dim}(W)\\)，意味着 \\(\text{im}(T) = W\\)，所以 \\(T\\) 是满射。反之，如果 \\(T\\) 是满射，则 \\(\text{dim}(\text{im}(T)) = \text{dim}(W) = \text{dim}(V)\\)，所以 \\(\text{dim}(\text{ker}(T)) = 0\\)，意味着 \\(T\\) 是单射）。
 
 **示例：检查满射性**
 
@@ -222,13 +224,13 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 
 **关键概念总结：**
 
-*   **线性变换：** 向量空间之间保持向量加法和标量乘法的函数。
-*   **矩阵表示：** 将有限维向量空间之间的线性变换表示为矩阵的一种方式。
-*   **核（零空间）：** 定义域中被映射到陪域中零向量的向量集合。它是定义域的一个子空间。
-*   **像（值域）：** 陪域中是定义域中某个向量的像的向量集合。它是陪域的一个子空间。
-*   **单射性（一对一）：** 线性变换是单射的当且仅当其核是零子空间。
-*   **满射性（映上）：** 线性变换是满射的当且仅当其像等于陪域。
-*   **秩-零化度定理：** 对于线性变换 \\(T: V \rightarrow W\\) 且 \\(V\\) 是有限维的，有 \\(\text{dim}(\text{ker}(T)) + \text{dim}(\text{im}(T)) = \text{dim}(V)\\)。
-*   **同构：** 既是单射又是满射的线性变换。
+* **线性变换：** 向量空间之间保持向量加法和标量乘法的函数。
+* **矩阵表示：** 将有限维向量空间之间的线性变换表示为矩阵的一种方式。
+* **核（零空间）：** 定义域中被映射到陪域中零向量的向量集合。它是定义域的一个子空间。
+* **像（值域）：** 陪域中是定义域中某个向量的像的向量集合。它是陪域的一个子空间。
+* **单射性（一对一）：** 线性变换是单射的当且仅当其核是零子空间。
+* **满射性（映上）：** 线性变换是满射的当且仅当其像等于陪域。
+* **秩-零化度定理：** 对于线性变换 \\(T: V \rightarrow W\\) 且 \\(V\\) 是有限维的，有 \\(\text{dim}(\text{ker}(T)) + \text{dim}(\text{im}(T)) = \text{dim}(V)\\)。
+* **同构：** 既是单射又是满射的线性变换。
 
 这个详细的教程应该为理解线性变换提供了坚实的基础。记得练习各种例子来巩固你对这些概念的理解。祝您学习顺利！

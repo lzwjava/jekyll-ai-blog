@@ -14,6 +14,7 @@ type: note
 ### 🦞 我如何制作 Grep 教程视频
 
 **1. 安装 ffmpeg**
+
 ```
 sudo apt-get install -y ffmpeg
 ```
@@ -30,6 +31,7 @@ ffmpeg -y -f lavfi -i "color=c=0x1a1b26:s=1280x720:d=1" \
 ```
 
 关键技巧：
+
 - **`color=c=0x1a1b26`** — Tokyo Night 深色背景
 - **`drawtext`** 用逗号链式连接 — 在一张图像上堆叠多行文本
 - **`(w-text_w)/2`** — 水平居中文本
@@ -48,6 +50,7 @@ duration 6
 ```
 
 然后：
+
 ```bash
 ffmpeg -y -f concat -safe 0 -i concat.txt \
   -vf "fade=t=in:st=0:d=0.5,fade=t=out:st=93:d=1.5" \
@@ -58,6 +61,7 @@ ffmpeg -y -f concat -safe 0 -i concat.txt \
 **4. 脚本本身**
 
 整个过程由 `tutorial/grep_tutorial.py`（约 280 行 Python 代码）驱动。它：
+
 - 将 slide 内容定义为结构化数据（自动为以 `$`、`>`、`#` 开头的行着色）
 - 通过 `subprocess` 为每个 slide 调用 ffmpeg
 - 写入 concat 文件

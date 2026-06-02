@@ -18,10 +18,12 @@ Here are the steps based on the official documentation:
 4. Delete the API key (and any endpoint URL if applicable) from the fields, then save the changes. This should remove the model's availability from the picker.
 
 If you encounter issues (e.g., the API key field doesn't update or clear properly, which has been reported as a bug in some cases), try this workaround first:
+
 - Select a different model from the model picker in the Chat view to deselect the one you're trying to remove.
 - Return to Manage Models, edit the provider, and then delete the API key.
 
 Prerequisites and notes:
+
 - This only applies to chat features; it doesn't affect code completions or other tools.
 - Ensure your Copilot subscription allows access to multiple models (e.g., Individual, Pro, or preview features enabled for organizations).
 - If the model persists or you face errors, restart VS Code or check for extension updates.

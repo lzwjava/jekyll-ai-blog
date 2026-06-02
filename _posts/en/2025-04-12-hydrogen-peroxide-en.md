@@ -39,15 +39,16 @@ Hydrogen peroxide (H₂O₂) is a colorless liquid chemical compound with a slig
 
 Concentrated hydrogen peroxide's corrosiveness depends on its concentration, with higher concentrations posing greater risks. Here's a breakdown based on available information:
 
-- **3% Hydrogen Peroxide**: Commonly used for household and medical purposes, this concentration is generally considered safe and non-corrosive to skin and eyes with brief exposure. It may cause mild irritation in sensitive individuals or with prolonged contact, but it typically does not cause burns or significant tissue damage.
+* **3% Hydrogen Peroxide**: Commonly used for household and medical purposes, this concentration is generally considered safe and non-corrosive to skin and eyes with brief exposure. It may cause mild irritation in sensitive individuals or with prolonged contact, but it typically does not cause burns or significant tissue damage.
 
-- **25% Hydrogen Peroxide**: At this concentration, hydrogen peroxide is significantly more hazardous. It is classified as corrosive and can cause burns to the skin and eyes upon contact. According to safety guidelines, concentrations above 8% are generally considered corrosive, with the potential for chemical burns, severe irritation, and tissue damage increasing with concentration. A 25% solution would likely cause immediate irritation, redness, and potentially blistering or burns to skin and severe damage to eyes, including corneal burns, if not promptly flushed.
+* **25% Hydrogen Peroxide**: At this concentration, hydrogen peroxide is significantly more hazardous. It is classified as corrosive and can cause burns to the skin and eyes upon contact. According to safety guidelines, concentrations above 8% are generally considered corrosive, with the potential for chemical burns, severe irritation, and tissue damage increasing with concentration. A 25% solution would likely cause immediate irritation, redness, and potentially blistering or burns to skin and severe damage to eyes, including corneal burns, if not promptly flushed.
 
-- **Higher Concentrations (e.g., 35% or above)**: These are even more dangerous, often used industrially or in specialized applications (e.g., food-grade or laboratory settings). They can cause severe burns, whitening of the skin, and permanent eye damage without immediate intervention. Concentrations above 20% are explicitly labeled as corrosive in safety data sheets (SDS), requiring protective equipment like gloves and goggles.
+* **Higher Concentrations (e.g., 35% or above)**: These are even more dangerous, often used industrially or in specialized applications (e.g., food-grade or laboratory settings). They can cause severe burns, whitening of the skin, and permanent eye damage without immediate intervention. Concentrations above 20% are explicitly labeled as corrosive in safety data sheets (SDS), requiring protective equipment like gloves and goggles.
 
 **Key Factors**:
-- **Exposure Time**: Even lower concentrations can cause irritation with prolonged exposure, while brief exposure to higher concentrations (like 25%) can cause immediate damage.
-- **First Aid**: For exposure to concentrations like 25%, immediate flushing with water for at least 15 minutes is critical, followed by medical attention, especially for eye contact.
-- **Safety Thresholds**: The transition from irritant to corrosive typically occurs around 8-10% for skin and eyes, with 25% firmly in the corrosive range.
+
+* **Exposure Time**: Even lower concentrations can cause irritation with prolonged exposure, while brief exposure to higher concentrations (like 25%) can cause immediate damage.
+* **First Aid**: For exposure to concentrations like 25%, immediate flushing with water for at least 15 minutes is critical, followed by medical attention, especially for eye contact.
+* **Safety Thresholds**: The transition from irritant to corrosive typically occurs around 8-10% for skin and eyes, with 25% firmly in the corrosive range.
 
 **Conclusion**: A 3% solution is unlikely to cause burns under normal use, though it may irritate. A 25% solution is corrosive and can cause burns to skin and eyes, requiring careful handling and protective measures. Always consult safety data sheets and wear appropriate PPE when handling concentrations above 10%.

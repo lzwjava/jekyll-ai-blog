@@ -17,6 +17,7 @@ type: note
 * 虽然未直接显示**throughput**，但您提出的计算方式是“tokens ÷ tokens per second”
 
 请求参数显示：
+
 * `generation_time = 203477 ms` → 203.477秒
 * `tokens_completion = 9532`
 

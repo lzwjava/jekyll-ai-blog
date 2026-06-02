@@ -32,4 +32,5 @@ He ends with the memorable line (paraphrased):
 The essay is a direct rebuttal to the Gordon Gekko / “greed is good” ethos, arguing that in the specific game of technology startups, decency is a competitive advantage.
 
 References:
-- Paul Graham – Mean People Fail (original 2004 essay) → http://www.paulgraham.com/mean.html
+
+- Paul Graham – Mean People Fail (original 2004 essay) → <http://www.paulgraham.com/mean.html>

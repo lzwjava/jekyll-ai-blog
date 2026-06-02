@@ -20,18 +20,23 @@ Yes, absolutely — showing genuine interest in what others share or post in a W
 ## Why It Is Good Behavior
 
 ### 1. It Builds Community and Trust
+
 Research on WeChat group behavior shows that community managers and residents who actively engage — commenting, acknowledging others, and showing appreciation — help establish a warm and trusting community culture, and strive to create a community atmosphere with a sense of belonging. A group that lacks active engagement tends to become inactive and hollow.
 
 ### 2. It Encourages Others to Contribute
+
 Witnessing positive and kind behaviors from others can provide a moral elevation — a desire to be a better person — which motivates people to do good things for others, even for strangers. When you respond positively to someone's share, you inspire others to share more as well.
 
 ### 3. It Reflects Good Group Chat Etiquette
+
 Engaging with others by asking open-ended questions or seeking clarification demonstrates your interest in what others have to say and encourages meaningful discussions within the group chat. Showing appreciation for others' input — whether by acknowledging their viewpoints or expressing agreement — can foster a positive and collaborative atmosphere.
 
 ### 4. It Strengthens Relationships (Especially at Work)
+
 Commenting on a coworker's post or shared work can help build rapport. It demonstrates collaborative support, highlights shared accomplishments, and fosters team spirit.
 
 ### 5. It Keeps the Group Alive and Engaged
+
 Responding promptly to others' contributions shows that their input is noticed and encourages ongoing engagement. Facilitating peer interactions — encouraging members to reply to each other — builds connections within the group and fosters a supportive community.
 
 ---

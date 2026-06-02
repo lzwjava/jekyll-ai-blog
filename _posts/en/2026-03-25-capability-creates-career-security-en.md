@@ -46,6 +46,7 @@ Data confirms this pattern: tech workers broadly experienced a significant drop 
 Big Tech experience is highly marketable — it provides great branding for future jobs in industry, startups, or contract work. High performers or early joiners at startups may be promoted to tech lead, manager, or even CTO within 1–3 years if the company grows fast.
 
 This means strong performers build compounding optionality:
+
 - A senior engineer at Google or Meta who gets laid off receives dozens of recruiter messages within days.
 - A founding engineer at a startup that fails has a war story, new skills, and a network — all of which increase their market value.
 

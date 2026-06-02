@@ -27,6 +27,7 @@ nano ~/.hermes/SOUL.md
 ```
 
 示例内容：
+
 ```markdown
 # Soul
 你是一名资深 AI 工程师。请简洁直接。
@@ -73,6 +74,7 @@ EOF
 ```
 
 你可以编写自己的技能文件：
+
 ```bash
 mkdir -p ~/.hermes/skills
 cat > ~/.hermes/skills/my-style.md << 'EOF'

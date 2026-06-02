@@ -23,6 +23,7 @@ The FSM handles **search control** (expanding nodes, scoring, pruning) but knows
 | Loads domain config | `tot_domain_plugin_bundle` — provides domain plugin data |
 
 Key call sites:
+
 - `fsm/builder.py:1050` — calls `tot_hard_rule_check` during the calculation stage; if equations violate physics rules, that node is vetoed
 - `fsm/backend.py:111` — loads the domain plugin bundle
 - `fsm/backend.py:130` — fetches the prompt contract for the current reasoning stage

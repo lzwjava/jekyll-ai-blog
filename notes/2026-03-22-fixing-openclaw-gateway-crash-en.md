@@ -22,10 +22,11 @@ Your log shows **two distinct problems** — one is the fatal crash (the `--host
 This is the root cause of the crash loop (restart counter at 131+). The gateway startup command is passing a `--host` flag that is **not a valid option** for the current version of OpenClaw. The error message itself hints: `(Did you mean --port?)`.
 
 This typically happens when:
+
 - Your config has a `gateway.host` key that the CLI is incorrectly translating to a `--host` flag, OR
 - The systemd service unit was manually edited with `--host` in the `ExecStart` line, which is no longer valid in v2026.x
 
-### Fix Steps:
+### Fix Steps
 
 **Step 1 — Remove the invalid `gateway.host` config key:**
 

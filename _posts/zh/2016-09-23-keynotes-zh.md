@@ -15,7 +15,7 @@ type: post
 
 讲座：
 
-* [Git 高级操作和原理](#Git)
+* [Git 高级操作和原理](#git)
 * [WebSocket](#websocket)
 * [UnitTest](#unittest)
 * [毫无保留的直播技术](#live)
@@ -29,6 +29,7 @@ type: post
 在 Live 目录下。
 
 ## Git
+
 2016.5.3 斗鱼直播
 
 ![qq20160503-0 2x](https://cloud.githubusercontent.com/assets/5022872/14990617/f3886dc4-118f-11e6-93e6-094c778fe446.jpg)
@@ -65,7 +66,7 @@ type: post
 
 ## UnitTest
 
-2015.12.20 在斗鱼 TV 上直播的Keynote，关于单元测试、自动化、好用工具等。视频: http://reviewcode.cn/video.html?videoId=2
+2015.12.20 在斗鱼 TV 上直播的Keynote，关于单元测试、自动化、好用工具等。视频: <http://reviewcode.cn/video.html?videoId=2>
 
 ### 40 Pages
 

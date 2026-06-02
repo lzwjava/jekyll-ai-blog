@@ -71,6 +71,7 @@ If you're just curious whether someone unfriended you, the risk to your WeChat a
 ## Successor Project
 
 The author recommends migrating to **WeFriends**: [https://github.com/StrayMeteor3337/WeFriends](https://github.com/StrayMeteor3337/WeFriends), which claims:
+
 - Lower ban probability (uses hook-based approach instead of iPad protocol)
 - Supports international WeChat
 - No login/verification issues

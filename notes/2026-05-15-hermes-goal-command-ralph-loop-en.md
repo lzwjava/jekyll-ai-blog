@@ -46,13 +46,17 @@ User sets /goal <text>
 ## Key Components
 
 ### 1. GoalState (dataclass, line 130)
+
 Stores per-session goal state: `goal` text, `status` (active/paused/done/cleared), `turns_used`, `max_turns` (default 20), `subgoals` list, `consecutive_parse_failures`, etc. Persisted in SessionDB's `state_meta` table keyed by `goal:<session_id>`.
 
 ### 2. The Judge (`judge_goal()`, line 334)
+
 After every turn, an auxiliary model is called with a strict prompt asking: "Is the goal satisfied based on the agent's last response?" The judge must reply with a JSON verdict: `{"done": true/false, "reason": "..."}`. The judge is **fail-open** — any error defaults to "continue" so a broken judge doesn't stall progress. The turn budget is the backstop.
 
 ### 3. GoalManager (line 431)
+
 Orchestrates state. Key methods:
+
 - `set(goal)` — create new active goal, persisted to DB
 - `pause(reason)` / `resume()` — user controls
 - `clear()` — remove the goal
@@ -60,14 +64,18 @@ Orchestrates state. Key methods:
 - `next_continuation_prompt()` — builds the prompt fed back as a user message
 
 ### 4. CLI Handler (`_handle_goal_command`, cli.py line 8263)
+
 Dispatches subcommands:
+
 - `/goal <text>` — set a new goal (also immediately queues the goal text into `_pending_input` to kick off the loop)
 - `/goal status` — show current state
 - `/goal pause` / `/goal resume` — manual control
 - `/goal clear|stop|done` — remove the goal
 
 ### 5. The Loop Hook (`_maybe_continue_goal_after_turn`, cli.py line 8404)
+
 Called after every CLI turn. It:
+
 1. Skips if no active goal or a real user message is already queued (preemption)
 2. Auto-pauses if the turn was Ctrl+C interrupted
 3. Extracts the last assistant response from conversation history
@@ -75,7 +83,9 @@ Called after every CLI turn. It:
 5. If `should_continue`, pushes the continuation prompt onto `_pending_input` — triggering another turn automatically
 
 ### 6. Continuation Prompts (line 60-81)
+
 Two templates: one plain, one with subgoals. Example:
+
 ```
 [Continuing toward your standing goal]
 Goal: Refactor the auth module
@@ -96,9 +106,11 @@ If you believe the goal is complete, state so explicitly and stop.
 | `/goal pause` or `/goal clear` | Manual stop |
 
 ## Subgoals (`/subgoal`)
+
 Users can add extra criteria mid-loop via `/subgoal <text>`. These are appended to both the judge prompt (verdict must consider them) and the continuation prompt (agent sees them). Supports `remove <n>` and `clear` subcommands.
 
 ## Design Invariants
+
 - **No system prompt mutation** — continuation prompts are just user messages, so prompt caching stays intact
 - **Fail-open judge** — errors default to "continue"; turn budget is the real backstop
 - **User preemption** — real user messages always take priority over continuation prompts

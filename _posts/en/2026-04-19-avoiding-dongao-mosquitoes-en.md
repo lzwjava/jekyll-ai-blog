@@ -40,9 +40,9 @@ Your instinct that this should have been a day trip was absolutely correct. The 
 
 References:
 
-- https://link.springer.com/article/10.1186/s13071-020-04326-5
-- https://www.tripadvisor.com/Attraction_Review-g297418-d550737-Reviews-Dong_ao_Island-Zhuhai_Guangdong.html
-- https://www.trip.com/travel-guide/new-attraction/zhuhai/dong-ao-island-75888/
-- https://www.trip.com/moments/poi-dong-ao-island-75888/
-- https://www.tripadvisor.com/ShowTopic-g297418-i10040-k7154878-From_Zhuhai_to_Dong_ao_Island-Zhuhai_Guangdong.html
-- https://www.chinadaily.com.cn/specials/TimetableofFerriesManagedbyZhuhaiHigh-SpeedPassengerLiner.pdf
+- <https://link.springer.com/article/10.1186/s13071-020-04326-5>
+- <https://www.tripadvisor.com/Attraction_Review-g297418-d550737-Reviews-Dong_ao_Island-Zhuhai_Guangdong.html>
+- <https://www.trip.com/travel-guide/new-attraction/zhuhai/dong-ao-island-75888/>
+- <https://www.trip.com/moments/poi-dong-ao-island-75888/>
+- <https://www.tripadvisor.com/ShowTopic-g297418-i10040-k7154878-From_Zhuhai_to_Dong_ao_Island-Zhuhai_Guangdong.html>
+- <https://www.chinadaily.com.cn/specials/TimetableofFerriesManagedbyZhuhaiHigh-SpeedPassengerLiner.pdf>

@@ -38,7 +38,7 @@ codex
 ```
 
 → 浏览器打开 → 登录 ChatGPT 账号（Plus/Pro/... 包含访问权限）
-或者选择 "Use API key" 并粘贴你从 https://platform.openai.com/api-keys 获取的 OpenAI API key。
+或者选择 "Use API key" 并粘贴你从 <https://platform.openai.com/api-keys> 获取的 OpenAI API key。
 
 **选项 B – 无头模式 / 脚本友好（环境变量）**
 

@@ -37,6 +37,7 @@ type: note
 因此，是的，人们通常在有权力的人面前会小心翼翼。但当有人不谨慎时，你需要考虑**为什么**：自信、信念，还是缺乏认知。
 
 参考文献：
+
 * [Goffman, Erving. *The Presentation of Self in Everyday Life.* Anchor Books, 1959.](https://en.wikipedia.org/wiki/Erving_Goffman)
 * [Cialdini, Robert. *Influence: The Psychology of Persuasion.* Harper Business, 2006.](https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion)
 * [French, J.R.P., & Raven, B. *The Bases of Social Power.* 1959.](https://en.wikipedia.org/wiki/French_and_Raven%27s_bases_of_power)

@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: Noam Shazeer 在 YouTube 视频 https://www.youtube.com/watch?v=v0gjI__RyCY&t=4s 中说了什么？
+Question: Noam Shazeer 在 YouTube 视频 <https://www.youtube.com/watch?v=v0gjI__RyCY&t=4s> 中说了什么？
 
 Answer:
 

@@ -25,6 +25,7 @@ And typhoons? Spot on again—social media has turbocharged that. Pre-2010s, you
 In short, the 90s/00s had the tech for "fast" by that era's standards, but it was linear and gatekept. Now it's a wildfire—richer, messier, and relentless. What do you think drives the biggest difference: the tools or just more voices?
 
 **References**
+
 - [Timeline: Tiananmen protests - BBC News](https://www.bbc.com/news/world-asia-china-27404764)
 - [Timeline: What Led to the Tiananmen Square Massacre - PBS](https://www.pbs.org/wgbh/frontline/article/timeline-tiananmen-square/)
 - [September 11 Attacks: Facts, Background & Impact | HISTORY](https://www.history.com/topics/21st-century/9-11-attacks)

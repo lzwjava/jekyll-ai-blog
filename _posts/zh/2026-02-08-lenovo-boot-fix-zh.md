@@ -28,7 +28,7 @@ type: note
 
 ### 如何修复并进入 BIOS（如果你需要更改 Secure Boot/CSM 设置）
 
-1.  **在 Windows 中禁用 Fast Startup**（最常见的解决方法）：
+1. **在 Windows 中禁用 Fast Startup**（最常见的解决方法）：
     - 正常进入 Windows。
     - 前往 Settings → System → Power & sleep → Additional power settings → Choose what the power buttons do。
     - 点击 "Change settings that are currently unavailable"（需要管理员权限）。
@@ -36,18 +36,18 @@ type: note
     - 完全关机（不要选择重启）。
     - 现在开机并在标志处连续按下 **F2** 或 **Fn + F2** —— 这样进入 BIOS 的成功率会高得多。
 
-2.  **强制完全关机小技巧**：
+2. **强制完全关机小技巧**：
     - 在 Windows 登录界面：按住 **Shift** 键 → 点击电源图标 → 选择关机。
     - 这将强制执行彻底的掉电关机。
     - 然后开机并狂按 **F2** / **Fn + F2**。
 
-3.  **Novo Button**（如果你的 XiaoXin 配备了该按钮）：
+3. **Novo Button**（如果你的 XiaoXin 配备了该按钮）：
     - 许多 XiaoXin/IdeaPad 型号都有一个微小的针孔状 "Novo" 按钮（通常在侧面，靠近电源或充电口——图标是一个弯曲的箭头）。
     - 关机状态下 → 使用回形针或 SIM 卡针按下并按住 Novo 按钮 → 笔记本将开机并进入一个特殊菜单。
     - 从中选择 **BIOS Setup** 或 **Boot Menu**。
     - 这将完全绕过键盘热键，即使 F2/F12 失灵也能奏效。
 
-4.  **关于 Boot Menu (Fn + F12) 的其他提示**：
+4. **关于 Boot Menu (Fn + F12) 的其他提示**：
     - 如果单独按 **F12** 无效，请务必尝试 **Fn + F12**。
     - 某些型号需要切换 **Fn lock**（通常是 Fn + Esc）。
     - 尝试为你的 Ubuntu 驱动器换一个 USB 端口——某些端口的检测效果更好。

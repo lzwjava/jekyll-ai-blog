@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Apache Bench (ab) is a lightweight command-line tool bundled with Apache HTTP Server, designed for quick HTTP benchmarking. It simulates basic load by sending multiple requests to a single endpoint and measures simple metrics like throughput and latency.
 
 Apache JMeter is a comprehensive open-source application for load and performance testing, supporting a wide range of protocols beyond just HTTP. It allows for complex test scenarios, scripting, and detailed analysis.
@@ -32,6 +33,7 @@ Both are free and open-source, but ab is ideal for simple, one-off tests, while 
 | **Cons**           | No advanced logic (e.g., no conditionals); basic metrics only | Heavier resource footprint; overkill for simple tests |
 
 ### When to Choose Which?
+
 - Use **ab** for rapid prototyping or verifying basic performance on a single endpoint.
 - Use **JMeter** for realistic simulations involving user journeys, multiple protocols, or enterprise-scale loads.
 

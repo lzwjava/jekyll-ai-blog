@@ -51,6 +51,7 @@ VLAN tagging 是由 IEEE 802.1Q 标准定义的一种机制，用于在传输携
 ### Native VLAN
 
 Native VLAN 处理 Trunk ports 上的 **Untagged traffic**：
+
 - 传入的 Untagged 帧被放置在 Native VLAN 中。
 - 发往 Native VLAN 的传出帧以 Untagged 形式发送。
 - Trunk 链路两端的 Native VLAN 必须匹配，以避免不匹配（这可能导致 CDP 警告或丢帧等问题）。

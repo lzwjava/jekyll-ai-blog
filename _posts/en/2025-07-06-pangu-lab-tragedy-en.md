@@ -8,7 +8,7 @@ translated: false
 type: note
 ---
 
-https://github.com/HW-whistleblower/True-Story-of-Pangu
+<https://github.com/HW-whistleblower/True-Story-of-Pangu>
 
 ---
 

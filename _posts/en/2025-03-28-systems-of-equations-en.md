@@ -26,6 +26,7 @@ a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n &= b_m
 \\]
 
 where:
+
 - \\( x_1, x_2, \dots, x_n \\) are the unknown variables.
 - \\( a_{ij} \\) are the coefficients.
 - \\( b_1, b_2, \dots, b_m \\) are the constants on the right-hand side.
@@ -101,6 +102,7 @@ x \\
 y
 \end{bmatrix}
 =
+
 \begin{bmatrix}
 8 \\
 3
@@ -124,6 +126,7 @@ Augmented matrix:
 Gaussian elimination is a systematic method for solving systems of equations by transforming the augmented matrix into **row echelon form (REF)** and then solving for the variables using **back-substitution**.
 
 ### **Steps of Gaussian Elimination**
+
 1. **Convert the augmented matrix into an upper triangular (row echelon) form** by using row operations:
    - Swap rows if needed.
    - Multiply a row by a nonzero constant.
@@ -145,6 +148,7 @@ Solve the system:
 \\]
 
 #### **Step 1: Convert to Augmented Matrix**
+
 \\[
 \left[
 \begin{array}{ccc|c}
@@ -156,6 +160,7 @@ Solve the system:
 \\]
 
 #### **Step 2: Make the First Pivot 1**
+
 Divide row 1 by 2:
 \\[
 \left[
@@ -168,6 +173,7 @@ Divide row 1 by 2:
 \\]
 
 #### **Step 3: Eliminate First Column Below Pivot**
+
 Replace row 2 by subtracting 4 times row 1:
 Replace row 3 by adding 2 times row 1:
 
@@ -182,6 +188,7 @@ Replace row 3 by adding 2 times row 1:
 \\]
 
 #### **Step 4: Make Second Pivot 1**
+
 Divide row 2 by -8:
 
 \\[
@@ -195,6 +202,7 @@ Divide row 2 by -8:
 \\]
 
 #### **Step 5: Eliminate Second Column Below Pivot**
+
 Replace row 3 by subtracting 8 times row 2:
 
 \\[
@@ -208,7 +216,9 @@ Replace row 3 by subtracting 8 times row 2:
 \\]
 
 #### **Step 6: Back Substitution**
+
 Solve from bottom to top:
+
 - \\( 3z = 4 \Rightarrow z = \frac{4}{3} \\)
 - \\( y - 0.25z = 0.5 \Rightarrow y = 0.5 + 0.25(4/3) = \frac{7}{6} \\)
 - \\( x + 0.5y - 0.5z = 1.5 \Rightarrow x = 1.5 - 0.5(7/6) + 0.5(4/3) = \frac{11}{6} \\)
@@ -221,6 +231,7 @@ x = \frac{11}{6}, \quad y = \frac{7}{6}, \quad z = \frac{4}{3}
 ---
 
 ## **3. Solution Types**
+
 1. **Unique Solution**: A single solution for \\( x_1, x_2, \dots \\).
 2. **Infinite Solutions**: Many solutions (system is dependent).
 3. **No Solution**: Inconsistent system.
@@ -228,6 +239,7 @@ x = \frac{11}{6}, \quad y = \frac{7}{6}, \quad z = \frac{4}{3}
 ---
 
 ## **4. Homogeneous vs. Non-Homogeneous Systems**
+
 - **Homogeneous system**: \\( A\mathbf{x} = 0 \\)
   - Always has at least the **trivial solution** \\( \mathbf{x} = 0 \\).
   - May have infinitely many solutions if the determinant of \\( A \\) is zero.
@@ -238,6 +250,7 @@ x = \frac{11}{6}, \quad y = \frac{7}{6}, \quad z = \frac{4}{3}
 ---
 
 ## **Conclusion**
+
 - Gaussian elimination is a powerful method to solve systems.
 - The number of solutions depends on the **rank** of the matrix.
 - Homogeneous systems always have a trivial solution.

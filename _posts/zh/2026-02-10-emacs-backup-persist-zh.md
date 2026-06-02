@@ -80,6 +80,7 @@ rm -f ~/.emacs.d/init.el~
 ### 总结 – 你应该怎么做
 
 1. 删除现有的 backup：
+
    ```bash
    rm -f ~/.emacs.d/init.el~
    ```

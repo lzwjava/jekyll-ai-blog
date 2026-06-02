@@ -56,6 +56,7 @@ Per parameter: 2 (bf16 params) + 4 (fp32 master) + 4 (m) + 4 (v) + 2 (grad) ≈ 
 **Recommendation: 3B model (GPT-2 3B)**
 
 Why 3B over 7B:
+
 - 3B on 14.6B tokens = ~5× over-training. That's fine — LLaMA-1 7B was trained on 1T tokens (143× Chinchilla-optimal). Over-training always helps absolute loss.
 - 7B on 14.6B tokens = ~2× under-training. You'd get a model that hasn't converged.
 - 3B fits comfortably with large batch sizes → faster training

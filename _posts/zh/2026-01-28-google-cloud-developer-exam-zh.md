@@ -19,7 +19,7 @@ type: note
 
 ---
 
-### 1.
+### 1
 
 哪种 Google Cloud 服务最适合运行无需服务器管理且具有自动扩缩功能的无状态 HTTP 应用程序？
 
@@ -30,7 +30,7 @@ type: note
 
 ---
 
-### 2.
+### 2
 
 Cloud Run 服务需要安全地访问 Cloud SQL 实例。推荐的方法是什么？
 
@@ -41,7 +41,7 @@ Cloud Run 服务需要安全地访问 Cloud SQL 实例。推荐的方法是什�
 
 ---
 
-### 3.
+### 3
 
 哪种 Google Cloud 产品专为服务之间的异步事件驱动消息传递而设计？
 
@@ -52,7 +52,7 @@ Cloud Run 服务需要安全地访问 Cloud SQL 实例。推荐的方法是什�
 
 ---
 
-### 4.
+### 4
 
 Google Cloud service account 的主要目的是什么？
 
@@ -63,7 +63,7 @@ Google Cloud service account 的主要目的是什么？
 
 ---
 
-### 5.
+### 5
 
 哪种存储选项为 Google Cloud 中的对象存储提供强一致性 (strong consistency)？
 
@@ -74,7 +74,7 @@ Google Cloud service account 的主要目的是什么？
 
 ---
 
-### 6.
+### 6
 
 单次调用 Cloud Functions (2nd gen) 的最大执行时间是多少？
 
@@ -85,7 +85,7 @@ Google Cloud service account 的主要目的是什么？
 
 ---
 
-### 7.
+### 7
 
 推荐使用哪种工具在 Google Cloud 上管理 infrastructure as code？
 
@@ -96,7 +96,7 @@ Google Cloud service account 的主要目的是什么？
 
 ---
 
-### 8.
+### 8
 
 哪种 HTTP 负载均衡功能允许根据 URL 路径转发流量？
 
@@ -107,7 +107,7 @@ Google Cloud service account 的主要目的是什么？
 
 ---
 
-### 9.
+### 9
 
 Google Kubernetes Engine 中的默认部署单元是什么？
 
@@ -118,7 +118,7 @@ Google Kubernetes Engine 中的默认部署单元是什么？
 
 ---
 
-### 10.
+### 10
 
 哪个命令用于将服务部署到 Cloud Run？
 
@@ -129,7 +129,7 @@ Google Kubernetes Engine 中的默认部署单元是什么？
 
 ---
 
-### 11.
+### 11
 
 哪种 Google Cloud 数据库最适合全球分布且强一致性的关系型工作负载？
 
@@ -140,7 +140,7 @@ Google Kubernetes Engine 中的默认部署单元是什么？
 
 ---
 
-### 12.
+### 12
 
 Cloud Build 的主要目的是什么？
 
@@ -151,7 +151,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 13.
+### 13
 
 哪种 Google Cloud 服务针对使用 SQL 进行大规模分析查询进行了优化？
 
@@ -162,7 +162,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 14.
+### 14
 
 如何安全地存储敏感配置数据并供应用程序访问？
 
@@ -173,7 +173,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 15.
+### 15
 
 哪种 GKE 功能可确保零停机时间部署？
 
@@ -184,7 +184,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 16.
+### 16
 
 使用 managed instance groups 的主要好处是什么？
 
@@ -195,7 +195,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 17.
+### 17
 
 哪种服务为 Google Cloud 资源提供集中式日志记录？
 
@@ -206,7 +206,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 18.
+### 18
 
 对于在 GKE 上运行的应用程序，访问 Google Cloud API 的推荐身份验证方法是什么？
 
@@ -217,7 +217,7 @@ Cloud Build 的主要目的是什么？
 
 ---
 
-### 19.
+### 19
 
 Kubernetes 中的 readiness probe 表示什么？
 
@@ -228,7 +228,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 20.
+### 20
 
 哪种 Cloud Run 功能允许仅限内部服务进行私有访问？
 
@@ -239,7 +239,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 21.
+### 21
 
 哪种 Google Cloud 服务用于调度 cron 任务？
 
@@ -250,7 +250,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 22.
+### 22
 
 将 GKE 应用程序暴露给互联网的推荐方式是什么？
 
@@ -261,7 +261,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 23.
+### 23
 
 哪种工具有助于识别分布式应用程序中的性能瓶颈？
 
@@ -272,7 +272,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 24.
+### 24
 
 哪种 Google Cloud 服务最适合键值 (key-value) 和宽列 (wide-column) NoSQL 工作负载？
 
@@ -283,7 +283,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 25.
+### 25
 
 当 Cloud Run 服务缩容至零 (scale to zero) 时会发生什么？
 
@@ -294,7 +294,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 26.
+### 26
 
 哪种 GKE 网络模式会为每个 Pod 分配一个 VPC IP 地址？
 
@@ -305,7 +305,7 @@ Kubernetes 中的 readiness probe 表示什么？
 
 ---
 
-### 27.
+### 27
 
 Cloud Endpoints 的主要目的是什么？
 
@@ -316,7 +316,7 @@ Cloud Endpoints 的主要目的是什么？
 
 ---
 
-### 28.
+### 28
 
 哪种 IAM 角色最适合对 Cloud Storage 对象进行只读访问？
 
@@ -327,7 +327,7 @@ Cloud Endpoints 的主要目的是什么？
 
 ---
 
-### 29.
+### 29
 
 哪种 Google Cloud 服务提供内存数据存储以实现低延迟访问？
 
@@ -338,7 +338,7 @@ Cloud Endpoints 的主要目的是什么？
 
 ---
 
-### 30.
+### 30
 
 Cloud Build 使用哪种构建配置文件？
 
@@ -349,7 +349,7 @@ Cloud Build 使用哪种构建配置文件？
 
 ---
 
-### 31.
+### 31
 
 哪个选项允许在 GKE 中进行蓝绿部署 (blue-green deployments)？
 
@@ -360,7 +360,7 @@ Cloud Build 使用哪种构建配置文件？
 
 ---
 
-### 32.
+### 32
 
 Cloud Tasks 的主要用例是什么？
 
@@ -371,7 +371,7 @@ Cloud Tasks 的主要用例是什么？
 
 ---
 
-### 33.
+### 33
 
 哪种 Google Cloud 服务会自动收集应用程序错误报告？
 
@@ -382,7 +382,7 @@ Cloud Tasks 的主要用例是什么？
 
 ---
 
-### 34.
+### 34
 
 Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
@@ -393,7 +393,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 35.
+### 35
 
 将本地系统安全连接到 Google Cloud 的推荐方式是什么？
 
@@ -404,7 +404,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 36.
+### 36
 
 哪个部署平台使用 `app.yaml` 进行配置？
 
@@ -415,7 +415,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 37.
+### 37
 
 哪种 Google Cloud 服务支持实时数据摄取和流处理？
 
@@ -426,7 +426,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 38.
+### 38
 
 哪个 Kubernetes 对象为一组 Pod 提供稳定的网络？
 
@@ -437,7 +437,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 39.
+### 39
 
 哪项监控功能允许定义阈值并发送通知？
 
@@ -448,7 +448,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 40.
+### 40
 
 哪种 Cloud SQL 功能可以提高读取可扩展性 (read scalability)？
 
@@ -459,7 +459,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 41.
+### 41
 
 存储用于 Cloud Run 部署的 Docker 镜像的推荐方式是什么？
 
@@ -470,7 +470,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 42.
+### 42
 
 哪种 Google Cloud 服务负责编排服务之间的工作流？
 
@@ -481,7 +481,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 43.
+### 43
 
 哪个 Kubernetes 功能限制了容器的 CPU 和内存使用量？
 
@@ -492,7 +492,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 44.
+### 44
 
 哪种 Google Cloud 产品最适合批量 Spark 工作负载？
 
@@ -503,7 +503,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 45.
+### 45
 
 哪个 Cloud Run 设置控制每个容器的最大并发请求数？
 
@@ -514,7 +514,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 46.
+### 46
 
 哪种 Google Cloud 服务提供分布式配置存储？
 
@@ -525,7 +525,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 47.
+### 47
 
 零停机时间架构迁移的推荐方法是什么？
 
@@ -536,7 +536,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 48.
+### 48
 
 哪项 Google Cloud 功能会自动重启不健康的 VM？
 
@@ -547,7 +547,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 49.
+### 49
 
 哪种服务最适合处理 HTTP 流量的突然激增？
 
@@ -558,7 +558,7 @@ Cloud Storage 的哪项功能有助于降低不常用数据的成本？
 
 ---
 
-### 50.
+### 50
 
 哪种 Google Cloud 工具有助于分析一段时间内的应用程序 CPU 和内存使用情况？
 

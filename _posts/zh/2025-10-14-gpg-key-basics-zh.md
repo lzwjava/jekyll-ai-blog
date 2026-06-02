@@ -19,6 +19,7 @@ GPG 中的“信任网络”模型允许用户相互认证密钥，构建经过�
 ## 密钥结构
 
 GPG 密钥对不仅仅是单个密钥，而是一个组合：
+
 - **主密钥**：主签名密钥（例如 RSA 或 DSA），用于认证（签名）其他密钥并对密钥组件进行自签名。
 - **子密钥**：用于特定任务的可选从属密钥：
   - 签名子密钥：用于签名消息。
@@ -28,9 +29,11 @@ GPG 密钥对不仅仅是单个密钥，而是一个组合：
 - **自签名**：主密钥对其自身组件进行签名以防止篡改。
 
 以交互方式查看密钥结构：
+
 ```
 gpg --edit-key <密钥ID或邮箱>
 ```
+
 在菜单中，使用 `check` 验证自签名，或使用 `toggle` 查看私有部分（如果可用）。
 
 ## 生成密钥
@@ -45,17 +48,21 @@ gpg --edit-key <密钥ID或邮箱>
 6. 设置强密码（20 个以上字符，混合大小写/符号）。
 
 快速生成（非交互式）：
+
 ```
 gpg --quick-generate-key "Alice <alice@example.com>" rsa default 1y
 ```
 
 生成后，创建**撤销证书**（用于在密钥泄露时使其失效的文件）：
+
 ```
 gpg --output revoke.asc --gen-revoke <您的密钥ID>
 ```
+
 将其安全存储（例如打印存放在保险库中）——在需要之前请勿共享。
 
 稍后添加子密钥或 UID：
+
 - 输入 `gpg --edit-key <密钥ID>`，然后使用 `addkey`（用于子密钥）或 `adduid`（用于 UID）。这些将自动进行自签名。
 
 ## 列出和查看密钥
@@ -69,11 +76,13 @@ gpg --output revoke.asc --gen-revoke <您的密钥ID>
 ## 导出和导入密钥
 
 **导出**用于共享公钥或备份私钥：
+
 - 公钥：`gpg --armor --export <密钥ID> > mykey.asc`（ASCII 编码，适用于电子邮件）。
 - 私钥（仅用于备份）：`gpg --armor --export-secret-keys <密钥ID> > private.asc`。
 - 上传到密钥服务器：`gpg --keyserver hkps://keys.openpgp.org --send-keys <密钥ID>`。
 
 **导入**将其他人的密钥添加到您的公钥环：
+
 - `gpg --import <文件.asc>`（与现有密钥合并；添加新签名/子密钥）。
 - 从密钥服务器导入：`gpg --keyserver hkps://keys.openpgp.org --recv-keys <密钥ID>`。
 
@@ -82,6 +91,7 @@ gpg --output revoke.asc --gen-revoke <您的密钥ID>
 ## 签名和认证密钥
 
 建立信任：
+
 - 签名密钥（认证其有效性）：`gpg --sign-key <其他密钥ID>`（或使用 `lsign-key` 仅限本地）。
 - 快速签名：`gpg --quick-sign-key <指纹> "用户标识"`。
 - 设置信任级别：在 `--edit-key` 中，使用 `trust`（例如“5”表示绝对信任）。
@@ -91,6 +101,7 @@ gpg --output revoke.asc --gen-revoke <您的密钥ID>
 ## 撤销密钥
 
 撤销使密钥或组件失效而不删除它，确保其他人看到它不再有效：
+
 - 完整密钥：导入您的撤销证书：`gpg --import revoke.asc`，然后导出/发送更新后的密钥。
 - 子密钥/UID：在 `--edit-key` 中，使用 `key 1` 或 `uid 1` 选择，然后使用 `revkey` 或 `revuid`。
 - 快速撤销 UID：`gpg --quick-revoke-uid <密钥ID> <要撤销的UID>`。

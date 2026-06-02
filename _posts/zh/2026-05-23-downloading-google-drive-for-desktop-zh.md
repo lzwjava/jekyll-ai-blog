@@ -22,6 +22,7 @@ https://dl.google.com/drive-file-stream/GoogleDrive.dmg
 ```
 
 步骤：
+
 1. 下载 `.dmg` 文件
 2. 打开它
 3. 按照安装程序操作

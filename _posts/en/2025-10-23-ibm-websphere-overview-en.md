@@ -37,6 +37,7 @@ WAS comes in various editions (e.g., Liberty for lightweight/microservices, trad
 For more details, check the official IBM documentation or explore editions based on your requirements.
 
 ### References
+
 - [WebSphere Application Server Overview - IBM](https://www.ibm.com/docs/en/was/9.0.5?topic=websphere-application-server-overview)
 - [IBM WebSphere Application Server - Wikipedia](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server)
 - [Key Features of IBM WebSphere Application Server](https://itcodescanner.com/tutorials/ibm-websphere-application-server/key-features-of-ibm-websphere-application-server)

@@ -16,14 +16,17 @@ Even with powerful models like Grok, Claude, GPT-4o, etc., **you still need deep
 
 Here’s how it actually works in practice, using your Apple Vision Pro (VisionOS) example:
 
-### Old world (pre-2023):
+### Old world (pre-2023)
+
 - You Google “VisionOS SwiftUI tutorial”
 - Read Apple docs for 10–20 hours
 - Try examples, fail a lot, search Stack Overflow
 - Slowly figure out RealityKit, ARKit differences, spatial computing concepts, room tracking, hand input, etc.
 
-### New world (2025, with good LLMs):
+### New world (2025, with good LLMs)
+
 You can now ask:
+
 - “Act as a senior VisionOS engineer. I have iOS/SwiftUI experience. Give me the minimal working RealityKit + SwiftUI app that shows a 3D model floating in space, responds to hand tap, and uses volumetric window.”
 - Then: “Now convert this to an immersive space with passthrough.”
 - Then: “How do I add eye-tracking gaze selection?”
@@ -34,6 +37,7 @@ The AI can generate 90% correct, up-to-date code instantly, explain the new para
 But here’s the catch — **you still need to know what to ask, and you need to be able to read the generated code and spot when it’s wrong or outdated**.
 
 If you don’t already understand:
+
 - the difference between a WindowGroup, Volume, and ImmersiveSpace
 - how hand input works vs touch
 - that @Environment(\.dismissImmersiveSpace) exists

@@ -25,6 +25,7 @@ Here are the main reasons why vertical mice are still a minority choice, even th
 Result: Only about 5–10% of heavy computer users (8+ hours/day) end up switching long-term, mostly people who already have wrist pain or RSI/carpal tunnel issues. For everyone else, “it works fine” + low motivation to change wins.
 
 In Taiwan specifically, the most common comments on PTT/Mobile01/Dcard are:
+
 - “用習慣就好，但一開始超級怪”
 - “老闆看到會覺得我在摸魚”
 - “貴一倍，不確定值不值得”

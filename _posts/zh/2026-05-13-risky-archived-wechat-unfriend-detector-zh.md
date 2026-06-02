@@ -71,6 +71,7 @@ type: note
 ## 后续项目
 
 作者建议迁移至 **WeFriends**：[https://github.com/StrayMeteor3337/WeFriends](https://github.com/StrayMeteor3337/WeFriends)，该项目声称：
+
 - 封禁概率更低（采用基于 hook 的方式，而非 iPad 协议）
 - 支持国际版微信
 - 没有登录/验证问题

@@ -34,6 +34,7 @@ Additionally, in newer versions of OpenCode (e.g. v0.3.133+), simply setting `ba
 The claude-relay-service (pincc.ai) is a self-hosted Claude API relay that converts Claude, OpenAI, and Gemini subscriptions into standard API calls, with multi-account management and cost-splitting features.
 
 It is designed primarily for Claude Code, and sets the relay up using:
+
 ```bash
 export ANTHROPIC_BASE_URL="http://127.0.0.1:3000/api/"
 export ANTHROPIC_AUTH_TOKEN="your-key-from-dashboard"
@@ -84,6 +85,7 @@ Edit `~/.config/opencode/opencode.json`:
 ```
 
 Then set your env var:
+
 ```bash
 export ANTHROPIC_AUTH_TOKEN="your-pincc-api-key"
 ```
@@ -124,6 +126,7 @@ The pincc.ai relay path is `/api/` (e.g. `https://v2-as.pincc.ai/api/`). OpenCod
 ## Recommendation
 
 If your goal is just to use the pincc.ai relay for Claude access:
+
 - **Stick with Claude Code** — it works natively with `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN`.
 - If you must use OpenCode, configure a **named custom provider** in `opencode.json` with explicit models and `baseURL`, using `{env:ANTHROPIC_AUTH_TOKEN}` for the API key.
 

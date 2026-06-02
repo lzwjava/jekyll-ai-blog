@@ -17,6 +17,7 @@ Answer:
 An **Ethernet bridge** (also known as a network bridge) is a Layer 2 (Data Link layer) networking device that connects multiple Ethernet network segments into a single logical network. It filters and forwards Ethernet frames based on MAC addresses, reducing unnecessary traffic and collisions compared to hubs or repeaters.
 
 ### Key Characteristics
+
 - Operates at **OSI Layer 2**, using MAC addresses (not IP addresses like routers).
 - Creates one **broadcast domain** but separates **collision domains**.
 - "Transparent" to devices—end stations are unaware of its presence.
@@ -24,6 +25,7 @@ An **Ethernet bridge** (also known as a network bridge) is a Layer 2 (Data Link 
 - Modern equivalent: Multiport bridges evolved into **network switches** (switches are essentially high-port-count bridges with hardware acceleration).
 
 ### How It Works
+
 Ethernet bridges use a process called **transparent bridging** (IEEE 802.1D standard), involving learning, forwarding, filtering, and flooding:
 
 1. **Learning**:
@@ -44,6 +46,7 @@ Ethernet bridges use a process called **transparent bridging** (IEEE 802.1D stan
    - Uses **Spanning Tree Protocol (STP)** to detect and block redundant paths, preventing broadcast storms in looped topologies.
 
 ### Example
+
 - Segment A: Devices with MACs A1, A2 (connected to Port 1).
 - Segment B: Devices with MACs B1, B2 (connected to Port 2).
 - Device A1 sends a frame to B1.

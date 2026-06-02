@@ -15,7 +15,9 @@ Besides `xdotool`, there are several alternative tools and methods to get inform
 ## Alternative Tools
 
 ### 1. **wmctrl**
+
 A more robust alternative to xdotool:
+
 ```bash
 # Get active window
 wmctrl -a
@@ -28,6 +30,7 @@ wmctrl -l | grep -i firefox
 ```
 
 ### 2. **qdbus** (for KDE/Qt applications)
+
 ```bash
 # Get active window info
 qdbus org.kde.KWin /KWin activeWindow
@@ -37,7 +40,9 @@ qdbus org.kde.KWin /KWin windows
 ```
 
 ### 3. **xwininfo**
+
 Built-in X11 utility:
+
 ```bash
 # Interactive window selection
 xwininfo
@@ -50,7 +55,9 @@ xwininfo -id $(xprop -root _NET_ACTIVE_WINDOW | cut -d' ' -f5)
 ```
 
 ### 4. **xprop**
+
 Another X11 utility:
+
 ```bash
 # Get active window properties
 xprop -root _NET_ACTIVE_WINDOW
@@ -64,16 +71,19 @@ xprop -root | grep "_NET_ACTIVE_WINDOW(WINDOW)"
 If you're running Wayland, X11 tools won't work. Try these instead:
 
 ### 5. **swaymsg** (for Sway)
+
 ```bash
 swaymsg -t get_tree | jq -r '.. | select(.focused? == true)'
 ```
 
 ### 6. **hyprctl** (for Hyprland)
+
 ```bash
 hyprctl activewindow
 ```
 
 ### 7. **gdbus** (GNOME/GTK)
+
 ```bash
 gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval "global.get_window_actors()"
 ```
@@ -81,6 +91,7 @@ gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --met
 ## Python Solutions
 
 ### 8. **Python with Xlib**
+
 ```python
 from Xlib import X, display
 from Xlib.error import XError
@@ -107,6 +118,7 @@ print(get_active_window())
 ```
 
 ### 9. **Python with subprocess**
+
 ```python
 import subprocess
 
@@ -133,6 +145,7 @@ The "BadWindow" error usually means:
 3. **Wayland conflict**: You might be on Wayland instead of X11
 
 To check your display server:
+
 ```bash
 echo $XDG_SESSION_TYPE
 loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type

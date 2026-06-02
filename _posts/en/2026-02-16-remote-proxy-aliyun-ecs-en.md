@@ -16,6 +16,7 @@ Answer:
 Yes, this is a common and practical setup: run **Clash** (or a similar proxy tool) on your Aliyun ECS server in mainland China, then configure your laptop to use that server as a remote proxy (via HTTP/HTTPS or SOCKS5). This way, the complex rule-based routing logic (like the one in your log) lives only on the server, and your laptop stays clean — you just set a single proxy address in system settings, browser, or applications.
 
 ### Key Advantages of This Approach
+
 - Laptop becomes very simple: no Clash/Verge installation, no subscription management, no TUN/virtual network adapter, no background service eating resources.
 - All smart routing (Apple direct, GitHub/Singapore node, Google node, etc.) happens on the server.
 - You can still achieve domain-based or rule-based splitting if needed (by keeping rules on server).
@@ -26,11 +27,13 @@ Yes, this is a common and practical setup: run **Clash** (or a similar proxy too
 1. **Choose Clash mode on the server**
    - Use **Clash in mixed-port mode** (most common and easiest).
    - In your `config.yaml` on the server, enable:
+
      ```yaml
      mixed-port: 7890          # both HTTP and SOCKS5 listen on same port
      allow-lan: true           # very important — allows connections from your laptop
      bind-address: "0.0.0.0"   # listen on all interfaces (or your public IP)
      ```
+
    - Keep your existing rules/proxies/groups as they are (the ones from your log).
    - Start Clash normally (systemd service recommended for always-on).
 
@@ -42,10 +45,12 @@ Yes, this is a common and practical setup: run **Clash** (or a similar proxy too
    - **Do not expose 7890 directly to the whole internet** — high risk of abuse/scanning.
    - Best options (choose one):
      - **Authentication** — set `authentication` in config:
+
        ```yaml
        authentication:
          - "username:strongpassword"
        ```
+
        Then use `http://username:strongpassword@your-ip:7890` on laptop.
      - **IP whitelist** — use Aliyun security group to allow only your home/public IP to port 7890.
      - **SSH tunnel** (simplest & very secure, no port open):
@@ -70,6 +75,7 @@ Yes, this is a common and practical setup: run **Clash** (or a similar proxy too
    - But if you like your current rule logic (Apple direct, GitHub node, etc.), stick with Clash.
 
 ### Potential Downsides / Things to Watch
+
 - Latency: every packet goes laptop → Aliyun → target → Aliyun → laptop (adds ~10–60 ms depending on your location).
 - Bandwidth & cost: Aliyun mainland outbound traffic can be expensive if you watch a lot of YouTube/Netflix.
 - Stability: Clash on server needs to be monitored (restart on crash, log rotation).
@@ -77,6 +83,7 @@ Yes, this is a common and practical setup: run **Clash** (or a similar proxy too
 - Aliyun detection: heavy proxy traffic from mainland ECS sometimes gets QoS-limited or flagged — choose low-profile usage.
 
 In short: yes — this is one of the cleanest ways to remove complexity from your daily laptop while keeping smart routing. Most people who do this either:
+
 - Run full Clash + auth + security group restriction, or
 - Use SSH dynamic forwarding (-D) for zero-configuration security.
 

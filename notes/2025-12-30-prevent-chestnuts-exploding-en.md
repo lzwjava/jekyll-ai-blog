@@ -19,12 +19,15 @@ The popping sounds, bumping, and occasional bursting you're experiencing with ch
 This explosion can forcefully eject pieces of shell or the nut itself, which may push against the air fryer basket (causing it to "pump out" or pop open slightly) and trigger the machine's safety mechanism to stop operation. Many air fryers have a safety switch that shuts off the device if the basket is not fully inserted or if it's displaced.
 
 ### How to Prevent This
+
 The key solution is to **score** each chestnut properly before cooking:
+
 - Use a sharp knife (preferably serrated for better grip) to cut a deep "X" on the flat or rounded side of each chestnut.
 - Cut through the outer shell and the inner skin, but not too deep into the flesh.
 - This creates vents for steam to escape safely, preventing explosions.
 
 Additional tips for better results at 200°C (about 392°F):
+
 - **Soak the chestnuts first**: Place them in hot or cold water for 10–60 minutes (or even a quick boil for 5 minutes). This adds moisture, makes them softer, easier to peel, and reduces bursting risk.
 - Pat them dry after soaking.
 - Don't overcrowd the basket – leave space for even air circulation.

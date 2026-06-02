@@ -12,13 +12,17 @@ type: note
 Yes, that's expected—**macOS Recovery** (the mode you're in via startup options or Command-R / power hold on M2) runs a very stripped-down environment to keep it lightweight and secure. Many full-system commands like `networksetup` (located normally at `/usr/sbin/networksetup`) are **not included** in the Recovery partition's PATH or binaries. That's why you get "command not found."
 
 ### Quick Confirmation
+
 Run this in your current Terminal to see what's actually available:
+
 ```bash
 ls /usr/sbin
 ```
+
 (or `ls /bin`, `ls /usr/bin`) — you'll notice it's a short list compared to normal macOS. No `networksetup` there.
 
 ### Workarounds to Clear Proxy Settings
+
 Since we can't use `networksetup` here, here are the best options from this spot:
 
 1. **Best & Simplest: Boot to Safe Mode First (Bypasses Proxy Often)**
@@ -40,6 +44,7 @@ Since we can't use `networksetup` here, here are the best options from this spot
 
 3. **Advanced Hack: Mount Main Volume & Edit Proxy Plist Directly (If Comfortable with Terminal)**
    In Recovery Terminal:
+
    ```bash
    diskutil list   # Note your main disk, e.g. disk3s1 or disk1s5 — usually the biggest APFS volume labeled "Macintosh HD" or similar
    diskutil apfs list   # Confirm the volume group
@@ -49,11 +54,14 @@ Since we can't use `networksetup` here, here are the best options from this spot
    cd /Volumes/Macintosh\ HD/Library/Preferences/SystemConfiguration   # This folder holds network prefs
    ls   # Look for com.apple.airport.preferences.plist or preferences.plist
    ```
+
    - Unfortunately, editing plists properly requires `defaults` command or `plutil`, which may also be missing in Recovery.
    - If `defaults` works (try `defaults read`), you could do something like:
+
      ```bash
      defaults delete /Volumes/Macintosh\ HD/Library/Preferences/SystemConfiguration/preferences GlobalProxies
      ```
+
      But this is hit-or-miss—many tools are absent, so it often fails.
 
    If mounting/editing doesn't work easily, skip to option 1 or 2.

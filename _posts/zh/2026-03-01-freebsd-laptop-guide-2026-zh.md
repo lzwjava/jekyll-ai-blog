@@ -33,7 +33,7 @@ FreeBSD 在许多 ThinkPads、一些 Dell Latitudes/Precisions 和 Framework 笔
 ### 分步安装
 
 1. **下载正确的镜像**
-   前往 → https://www.freebsd.org/where/
+   前往 → <https://www.freebsd.org/where/>
    2026 年笔记本电脑的推荐选择：
 
    - **memstick.img**（最常见）→ 写入 ≥8 GB USB

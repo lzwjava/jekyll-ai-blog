@@ -32,6 +32,7 @@ Autonomous System (AS) 是一个由一个或多个网络运营商代表单一行
 每个 AS 都被分配一个唯一的标识符，称为 Autonomous System Number (ASN)。网络运营商需要 ASN 来控制其网络内的路由，并与其他 ISP 交换路由信息。
 
 ASN 有两种格式：
+
 - **2-byte ASN** 是一个 16 位数字，提供 65,536 个 ASN。**4-byte ASN** 是一个 32 位数字，提供超过 40 亿个 ASN。
 - 截至 2025 年，全球大约有 **120,000 allocated ASNs**。
 

@@ -15,7 +15,7 @@ type: note
 
 **Chubby** 是一个英语形容词，用来描述某人（或某物）**以一种愉快、可爱或看起来健康的方式略胖**——不是 obese 或非常超重。
 
-### 主要含义和常见用法：
+### 主要含义和常见用法
 
 - **For people**（最常见用法）：
   拥有柔软、圆润、略显丰满的身体——通常被认为吸引人或可爱，而不是负面。
@@ -38,7 +38,7 @@ type: note
 - **For objects**（较少见）：
   - chubby fingers, chubby crayons, chubby bottle（短而粗的形状）
 
-### 类似词的快速比较：
+### 类似词的快速比较
 
 - **skinny / thin** ← 对立面
 - **slim / slender** = attractively thin

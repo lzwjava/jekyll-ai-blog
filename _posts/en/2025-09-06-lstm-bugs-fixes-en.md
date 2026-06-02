@@ -213,6 +213,7 @@ loss += -np.sum(targets[t] * np.log(outputs[t] + eps))
   ```python
   b_f = np.ones((hidden_size, 1)) * 1.0
   ```
+
 * **Learning rate:** `lr=1e-1` with raw SGD is aggressive. Start `1e-2` or use Adam.
 * **Gradient clipping:** Good. Consider per-matrix norms if needed.
 

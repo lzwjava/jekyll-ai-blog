@@ -22,6 +22,7 @@ Sure，让我正确分解一下。
 ### 为什么从容器内部 `192.168.1.36` 不起作用
 
 你的主机在 LAN 上有 IP `192.168.1.36`。但 Docker 容器有自己的网络命名空间。当 Uptime Kuma 尝试访问 `http://192.168.1.36:3080/` 时，流量必须：
+
 1. 退出容器 → 到达 Docker bridge
 2. 通过主机的网络栈路由 → 找到 `192.168.1.36`
 3. 击中主机的防火墙/端口转发规则 → 到达端口 3080 上的 Docker proxy
@@ -40,9 +41,11 @@ Sure，让我正确分解一下。
 ### 修复方法（三个选项）
 
 **选项 1 — 快速且临时（我刚刚运行的）**
+
 ```bash
 docker network connect librechat_default uptime-kuma
 ```
+
 这将 Uptime Kuma 附加到 LibreChat 的网络作为第二个网络。立即生效，但**无法在容器重启后持续**——每次 `docker-compose up` 后都需要重新运行。
 
 **选项 2 — 永久：将外部网络添加到 Uptime Kuma 的 compose 文件**
@@ -88,10 +91,13 @@ networks:
 ### 网络修复之后
 
 在 Uptime Kuma 中将监视器 URL 从：
+
 ```
 http://192.168.1.36:3080/
 ```
+
 更新为：
+
 ```
 http://LibreChat:3080/
 ```

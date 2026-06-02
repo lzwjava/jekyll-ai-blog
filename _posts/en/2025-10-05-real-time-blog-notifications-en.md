@@ -15,10 +15,12 @@ Yes, you can set up a system to analyze Cloudflare logs or traffic in near real-
 The most practical and real-time approach is using **Cloudflare Workers** to intercept each incoming request to your blog. This runs serverless code on every visit, allowing you to log the event and immediately send a Telegram message via their API. It's free for low traffic (up to 100k requests/day), but high-traffic blogs could hit limits or incur costs—plus, you'd get spammed with notifications, so consider filtering (e.g., only for unique IPs or specific pages).
 
 ### Quick Setup Steps
+
 1. **Create a Telegram Bot**:
    - Message @BotFather on Telegram, use `/newbot` to create one, and note the bot token (e.g., `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`).
    - Start a chat with your bot, then message @userinfobot to get your chat ID (e.g., `123456789`).
    - Test sending a message via curl:
+
      ```
      curl -X POST "https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage" \
      -H "Content-Type: application/json" \
@@ -31,6 +33,7 @@ The most practical and real-time approach is using **Cloudflare Workers** to int
 
 3. **Add the Notification Code**:
    - Edit the worker's code to intercept requests and send to Telegram. Here's a basic example (replace placeholders):
+
      ```javascript
      export default {
        async fetch(request, env) {
@@ -57,6 +60,7 @@ The most practical and real-time approach is using **Cloudflare Workers** to int
        }
      };
      ```
+
      - This runs on every matching request, logs basic visitor info, and sends it via Telegram without delaying the page load.
 
 4. **Configure Environment Variables**:
@@ -75,6 +79,7 @@ The most practical and real-time approach is using **Cloudflare Workers** to int
    - Check worker logs in the dashboard for errors. If you hit rate limits (e.g., Telegram's 30 msgs/sec), add debouncing with KV storage.
 
 ### Alternatives If Workers Don't Fit
+
 - **For Batched Log Analysis**: Use Logpush to export HTTP request logs to a service like AWS S3 or Google Pub/Sub, then pipe to a tool like Zapier or n8n for Telegram alerts (e.g., summarize hourly visits). Not real-time, though.
 - **Integrations**: Tools like Albato or n8n can connect Cloudflare webhooks to Telegram for broader events, but not per-visit.
 - **Limitations**: Free Workers have 10ms CPU time per request—fine for this, but scale up if needed. Avoid on high-traffic sites without throttling.

@@ -22,16 +22,19 @@ There are multiple official ByteDance portals — not just Doubao. Here's a brea
 ### 🌏 For International Users (Outside China)
 
 #### 1. **Dreamina** *(Best option for international users)*
+
 - Website: **dreamina.capcut.com**
 - Dreamina is ByteDance's international creative platform and is the most feature-complete way to access Seedance 2.0 outside of China. New accounts receive approximately 800 seconds of free credits.
 - Paid plans range from $18/month (Basic) to $84/month (Advanced), offering progressively more generation credits and higher-resolution output.
 - Sign up with Google, TikTok, Facebook, CapCut, or email — **no Chinese phone number needed**.
 
 #### 2. **CapCut Pro** *(Newest access path)*
+
 - On March 26, 2026, ByteDance announced Seedance 2.0 integration directly into CapCut, the company's popular video editing platform, with rollout expanding in additional overseas markets as of April 1, 2026.
 - Available in select markets — good if you're already a CapCut user.
 
 #### 3. **BytePlus** *(For developers/API)*
+
 - Website: **console.byteplus.com**
 - BytePlus is ByteDance's international cloud platform. Its web-based Playground briefly offered Seedance 2.0, but following the Hollywood copyright controversy, only Seedance 1.5 Pro is currently available — free to try, no Chinese account needed, English interface.
 - Good for testing Seedance 1.5 Pro while waiting for 2.0 API to resume.
@@ -41,16 +44,20 @@ There are multiple official ByteDance portals — not just Doubao. Here's a brea
 ### 🇨🇳 For Users in China
 
 #### 1. **Jimeng AI (即梦 / Dreamina China version)**
+
 - Website: **jimeng.jianying.com**
 - Jimeng is ByteDance's flagship AI creation platform and currently offers the most complete Seedance 2.0 experience available anywhere, including "All-Round Reference" multi-modal mode and 2K upscaling. Login requires a Douyin account (Chinese TikTok), which requires a Chinese phone number.
 
 #### 2. **Xiaoyunque (小云雀 / Lark)**
+
 - ByteDance's Xiaoyunque app offers free users the ability to generate one video per day with Seedance 2.0.
 
 #### 3. **Doubao (豆包)**
+
 - Yes, Doubao is one of the official ByteDance apps where you can experience Seedance 2.0, alongside Jimeng and Xiaoyunque.
 
 #### 4. **Volcengine (火山引擎)** *(Enterprise)*
+
 - On April 2, 2026, Chinese media reported that Volcengine opened Seedance 2.0 API public beta for enterprise users — targeting businesses and developers in China.
 
 ---

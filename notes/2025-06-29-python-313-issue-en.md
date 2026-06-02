@@ -48,29 +48,37 @@ Here’s how to resolve the issue:
    - Ensure Python 3.11 or 3.12 is installed on your system (e.g., via your package manager or official Python website).
 
 2. **Create a Virtual Environment**
+
    ```bash
    virtualenv -p python3.11 venv
    ```
+
    This creates a virtual environment named `venv` using Python 3.11. Replace `python3.11` with `python3.12` if preferred.
 
 3. **Activate the Virtual Environment**
+
    ```bash
    source venv/bin/activate
    ```
 
 4. **Install CuPy**
+
    ```bash
    pip install cupy
    ```
+
    This installs the latest compatible version of CuPy for Python 3.11.
 
 5. **Run Your Script**
+
    ```bash
    python scripts/benchmark/cudamark.py
    ```
+
    Your script should now execute without the `AttributeError`.
 
 6. **Deactivate (When Done)**
+
    ```bash
    deactivate
    ```
@@ -78,27 +86,33 @@ Here’s how to resolve the issue:
 #### Option 2: Using `conda`
 
 1. **Create a Conda Environment**
+
    ```bash
    conda create -n cudabench python=3.11
    ```
+
    This creates an environment named `cudabench` with Python 3.11. Use `python=3.12` if you prefer Python 3.12.
 
 2. **Activate the Environment**
+
    ```bash
    conda activate cudabench
    ```
 
 3. **Install CuPy**
+
    ```bash
    pip install cupy
    ```
 
 4. **Run Your Script**
+
    ```bash
    python scripts/benchmark/cudamark.py
    ```
 
 5. **Deactivate (When Done)**
+
    ```bash
    conda deactivate
    ```

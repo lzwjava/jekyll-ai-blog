@@ -39,6 +39,7 @@ Audited the config against both Q&A docs. **Nothing material to change — no re
 ### Conclusion
 
 Your config already implements **every** recommendation from both Q&A docs, and the platform-level wins they mention (bf16 + flash SDPA + compile) are all confirmed active. The earlier smoke run validated:
+
 - Shards load, vocab right (50304)
 - No OOM at the chosen batch/grad-accum
 - Loss decreasing (11.04 → 10.56 over 4 iters)

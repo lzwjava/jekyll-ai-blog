@@ -15,7 +15,7 @@ Answer:
 
 To reconnect your **Xiaomi Smart Doorbell** (such as the Xiaomi Smart Doorbell 3 or 3S) to a new WiFi network after your WiFi has changed (new router, new SSID, or new password), you must perform a factory reset on the doorbell and set it up again in the Mi Home / Xiaomi Home app. Xiaomi doorbells do not have a simple "change WiFi" option without resetting.
 
-### Steps to Reset and Reconnect:
+### Steps to Reset and Reconnect
 
 1. **Prepare the app and phone**
    Make sure you have the latest **Mi Home** or **Xiaomi Home** app installed and are logged in to the correct account.

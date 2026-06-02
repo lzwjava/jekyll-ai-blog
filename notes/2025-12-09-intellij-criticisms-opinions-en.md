@@ -31,6 +31,7 @@ IntelliJ IDEA is widely praised as the gold standard for Java development, but i
 These views highlight how even top tools have pain points, especially as projects scale or hardware varies. If you're debating a switch, trying the Community Edition for a week often settles it.
 
 References:
+
 - [Why do people hate IntelliJ IDEA?](https://www.quora.com/Why-do-people-hate-IntelliJ-IDEA-What-are-its-disadvantages-compared-to-other-IDEs-like-NetBeans-or-Eclipse)
 - [Most unprofessional IDEA review](https://intellij-support.jetbrains.com/hc/en-us/community/posts/206320709-Most-unprofessional-IDEA-review)
 - [Am I the only one that doesn't like Intellij?](https://www.reddit.com/r/java/comments/4uburp/am_i_the_only_one_that_doesnt_like_intellij/)

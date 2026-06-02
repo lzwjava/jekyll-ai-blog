@@ -24,7 +24,7 @@ type: note
 
 苏剑林因其对复杂主题清晰且深入的解释而在中国 AI 社区享有极高声誉，被崇拜者称为“苏神”。他在 arXiv 和各类期刊上发表过多篇论文，其中他是 **RoFormer** 的共同作者（该论文引入了 Rotary Position Embedding，即 RoPE，目前被 LLaMA、GPT 变体和 Google 的模型广泛采用）。
 
-### 他的博客：科学空间 (Scientific Spaces) - https://kexue.fm
+### 他的博客：科学空间 (Scientific Spaces) - <https://kexue.fm>
 
 “科学空间”（Kexue.fm，也可通过 spaces.ac.cn 访问）品牌创建于 **2009年**，是苏剑林用于分享自然科学知识和生活感悟的个人博客。它最初是一个探索天文学、数学、物理、化学、生物以及摄影和生活见解的平台。
 

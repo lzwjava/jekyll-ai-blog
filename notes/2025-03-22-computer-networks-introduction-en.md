@@ -13,6 +13,7 @@ Below, I’ll focus on the **Introduction to Computer Networks** chapter, likely
 ---
 
 ### Main Points of "Introduction to Computer Networks"
+
 The introductory chapter typically lays the foundation for understanding computer networks. Here are the essential concepts to master:
 
 1. **Definition and Purpose**
@@ -46,6 +47,7 @@ The introductory chapter typically lays the foundation for understanding compute
 ---
 
 ### Learning Materials
+
 Here are recommended resources to study the "Introduction to Computer Networks" chapter:
 
 1. **Textbooks**
@@ -71,9 +73,11 @@ Here are recommended resources to study the "Introduction to Computer Networks" 
 ---
 
 ### Example Quiz Questions
+
 Here’s a sample quiz to test your understanding, with answers provided:
 
 #### Multiple Choice
+
 1. **What is the primary purpose of a computer network?**
    a) To store data locally
    b) To connect devices for resource sharing and communication
@@ -96,6 +100,7 @@ Here’s a sample quiz to test your understanding, with answers provided:
    - *Answer*: c) Entire network fails
 
 #### True/False
+
 4. **A bus topology uses a single shared cable for all devices.**
    - *Answer*: True
 
@@ -103,6 +108,7 @@ Here’s a sample quiz to test your understanding, with answers provided:
    - *Answer*: False (Wide Area Network)
 
 #### Short Answer
+
 6. **Name two examples of network applications.**
    - *Answer*: Web browsing (HTTP), email (SMTP)
 
@@ -112,6 +118,7 @@ Here’s a sample quiz to test your understanding, with answers provided:
 ---
 
 ### Study Tips Before the Exam
+
 1. **Focus on Key Concepts**
    - Memorize definitions (e.g., LAN vs. WAN) and topology pros/cons.
    - Draw topology diagrams (star, bus, etc.) to visualize connections.
@@ -134,6 +141,7 @@ Here’s a sample quiz to test your understanding, with answers provided:
 ---
 
 ### Quick Recap of Main Points
+
 - **What**: Networks connect devices to share data/resources.
 - **Types**: LAN (small), WAN (large), MAN, PAN.
 - **Topologies**: Star (central), Bus (shared), Ring (loop), Mesh (all connected).

@@ -34,6 +34,7 @@ Encoding efficiency（编码效率，也称为 code rate 或 information rate）
 "信息位 k，总长 k + r，效率 k / (k + r)"
 
 **为什么其他选项是错误的：**
+
 - A. r/(r+k) → 这是 redundancy ratio（冗余率），而不是效率。
 - B. 1/(k+r) → 在此语境下没有实际意义。
 - C. r/k → 这是相对冗余度，与效率的概念相反。

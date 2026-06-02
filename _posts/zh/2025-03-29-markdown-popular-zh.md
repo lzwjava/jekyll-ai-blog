@@ -28,12 +28,12 @@ Markdown 的流行源于多重因素共同解决了内容创作与格式化的�
 **4. 功能多样性**
 
 * **广泛的应用场景**：尽管语法简单，Markdown 能用于创建多种文档类型：
-    * 博客文章与专业稿件
-    * 说明文档（如 GitHub 的 README 文件）
-    * 笔记与待办清单
-    * 邮件撰写
-    * 演示文稿
-    * 简易网站（常配合静态站点生成器使用）
+  * 博客文章与专业稿件
+  * 说明文档（如 GitHub 的 README 文件）
+  * 笔记与待办清单
+  * 邮件撰写
+  * 演示文稿
+  * 简易网站（常配合静态站点生成器使用）
 * **可扩展性**：在核心语法基础上，多数 Markdown 处理器支持表格、脚注、代码块语法高亮等高级功能扩展。
 
 **5. 无缝转换 HTML**
@@ -44,11 +44,11 @@ Markdown 的流行源于多重因素共同解决了内容创作与格式化的�
 **6. 广泛的生态支持**
 
 * **主流平台采纳**：众多知名平台已将 Markdown 作为首选或支持的格式化语言：
-    * GitHub、GitLab、Bitbucket 的 README 文件、议题描述和评论
-    * Reddit 的发帖与评论
-    * Stack Overflow 及其他 Stack Exchange 站点的问答内容
-    * 多款博客平台与内容管理系统
-    * Obsidian、Typora、Bear 等笔记应用
+  * GitHub、GitLab、Bitbucket 的 README 文件、议题描述和评论
+  * Reddit 的发帖与评论
+  * Stack Overflow 及其他 Stack Exchange 站点的问答内容
+  * 多款博客平台与内容管理系统
+  * Obsidian、Typora、Bear 等笔记应用
 * **丰富的工具链**：广泛普及催生了完善的 Markdown 工具生态，涵盖各类编辑器、转换器及多编程语言处理库。
 
 **7. 专注内容创作**

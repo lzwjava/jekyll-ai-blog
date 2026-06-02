@@ -13,6 +13,7 @@ type: note
 Absolutely, you're spot on with the "soy milk / dòujiāng" example—repetition through typing (or writing) it out a few times isn't just rote; it's like wiring the word into your brain via muscle memory and focus. It's a classic active recall trick: you engage multiple senses (sight, touch, sound if you say it aloud), which sticks way better than just reading or hearing it once.
 
 This scales to everything you're mentioning:
+
 - **Words in English (or any language)**: Type "soy milk" five times while picturing a steaming bowl of dòujiāng with youtiao on the side. Boom—next time you see it on a menu, it's yours.
 - **Code**: Don't just copy-paste snippets. Type out that Python loop or JavaScript function yourself, tweak it, break it, fix it. Errors are your best teacher.
 - **Diagrams**: Sketch your own flowchart for, say, a machine learning pipeline. Even if it's messy, redrawing forces you to understand the connections, not just memorize shapes.

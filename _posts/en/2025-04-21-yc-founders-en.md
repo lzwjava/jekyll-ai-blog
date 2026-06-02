@@ -62,6 +62,7 @@ Below is a list of 50 notable founders from Y Combinator (YC) startups, focusing
 50. **Evan Wallace** (Figma, YC S12) - Co-founder of Figma, built cloud-based design tools.
 
 **Context and Notes**:
+
 - **Selection Criteria**: Founders were chosen from YC’s 5,000+ portfolio companies, prioritizing those behind unicorns (valued at $1B+), high-impact startups, or acquisitions (e.g., Twitch, Weebly). The list spans early batches (2005) to later ones (2017), covering fintech, hospitality, logistics, crypto, SaaS, and more.[](https://en.wikipedia.org/wiki/Y_Combinator)[](https://eqvista.com/top-100-y-combinator-companies/)
 - **Impact**: Collectively, these startups have a combined valuation exceeding $600B, with companies like Stripe, Airbnb, and DoorDash reshaping industries. Many founders (e.g., Collisons, Chesky) are thought leaders, while others (e.g., Kan, Shear) are serial entrepreneurs.[](https://eqvista.com/top-100-y-combinator-companies/)
 - **Diversity**: YC’s founder pool has diversified over time, though early batches were male-dominated. Recent batches include more underrepresented founders (37% Black, Latinx, or female in 2021).[](https://www.wired.com/story/how-y-combinator-changed-the-world/)[](https://techcrunch.com/2021/08/31/here-are-all-the-companies-from-y-combinators-summer-2021-demo-day-part-1/)

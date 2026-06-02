@@ -18,12 +18,12 @@ Git-Bash 是 Windows 上的 Bash 模拟器，我们可以使用 `DEBUG` 陷阱�
 
 #### **步骤：**
 
-1.  **定义网络相关命令列表。**
-2.  **创建一个函数来显示代理设置。**
-3.  **创建一个函数来检查命令和代理设置。**
-4.  **设置 `DEBUG` 陷阱，以便在每条命令之前运行检查。**
-5.  **定义一个手动的 `checkproxy` 函数，用于按需显示代理设置。**
-6.  **将所有配置添加到 `.bashrc` 文件中。**
+1. **定义网络相关命令列表。**
+2. **创建一个函数来显示代理设置。**
+3. **创建一个函数来检查命令和代理设置。**
+4. **设置 `DEBUG` 陷阱，以便在每条命令之前运行检查。**
+5. **定义一个手动的 `checkproxy` 函数，用于按需显示代理设置。**
+6. **将所有配置添加到 `.bashrc` 文件中。**
 
 #### **实现：**
 
@@ -121,17 +121,17 @@ checkproxy() {
 
 #### **工作原理：**
 
--   `network_commands` 数组列出了与网络相关的命令。
--   `display_proxy` 显示所有相关的代理环境变量（如果已设置）。
--   `proxy_check` 使用 `BASH_COMMAND`（在 `DEBUG` 陷阱中可用）获取正在执行的命令，提取第一个词，并检查它是否与任何网络命令匹配。如果设置了代理变量，则显示它们。
--   `trap 'proxy_check' DEBUG` 行确保 `proxy_check` 在每条命令之前运行。
--   `checkproxy` 允许您手动查看代理设置，包括 Git 特定的代理配置。
--   将此添加到 `.bashrc` 后，重新启动 Git-Bash 或运行 `source ~/.bashrc` 以应用更改。
+- `network_commands` 数组列出了与网络相关的命令。
+- `display_proxy` 显示所有相关的代理环境变量（如果已设置）。
+- `proxy_check` 使用 `BASH_COMMAND`（在 `DEBUG` 陷阱中可用）获取正在执行的命令，提取第一个词，并检查它是否与任何网络命令匹配。如果设置了代理变量，则显示它们。
+- `trap 'proxy_check' DEBUG` 行确保 `proxy_check` 在每条命令之前运行。
+- `checkproxy` 允许您手动查看代理设置，包括 Git 特定的代理配置。
+- 将此添加到 `.bashrc` 后，重新启动 Git-Bash 或运行 `source ~/.bashrc` 以应用更改。
 
 #### **用法：**
 
--   当您运行网络命令（例如 `git clone`、`curl`）时，如果配置了代理设置，它们将在命令执行前显示。
--   运行 `checkproxy` 以手动查看代理设置。
+- 当您运行网络命令（例如 `git clone`、`curl`）时，如果配置了代理设置，它们将在命令执行前显示。
+- 运行 `checkproxy` 以手动查看代理设置。
 
 ---
 
@@ -141,11 +141,11 @@ PowerShell 没有与 Bash 的 `DEBUG` 陷阱直接等效的功能，但我们可
 
 #### **步骤：**
 
-1.  **定义网络相关命令列表。**
-2.  **创建一个函数来显示代理设置。**
-3.  **设置 `CommandValidationHandler` 来检查命令和代理设置。**
-4.  **定义一个手动的 `checkproxy` 函数，用于按需显示代理设置。**
-5.  **将所有配置添加到您的 PowerShell 配置文件中。**
+1. **定义网络相关命令列表。**
+2. **创建一个函数来显示代理设置。**
+3. **设置 `CommandValidationHandler` 来检查命令和代理设置。**
+4. **定义一个手动的 `checkproxy` 函数，用于按需显示代理设置。**
+5. **将所有配置添加到您的 PowerShell 配置文件中。**
 
 #### **实现：**
 
@@ -243,62 +243,62 @@ function checkproxy {
 
 #### **工作原理：**
 
--   `$networkCommands` 是一个包含网络相关命令的数组。
--   `Display-Proxy` 显示所有相关的代理环境变量（如果已设置）。
--   `Set-PSReadLineOption -CommandValidationHandler` 定义了一个脚本块，在每条命令之前运行：
-    -   它提取命令的第一个词。
-    -   检查它是否在 `$networkCommands` 中。
-    -   如果设置了代理变量，则调用 `Display-Proxy`。
-    -   返回 `$true` 以确保命令执行。
--   `checkproxy` 允许手动查看代理设置，包括 Git 特定的代理。
--   添加到配置文件后，重新启动 PowerShell 或运行 `. $PROFILE` 以应用更改。
+- `$networkCommands` 是一个包含网络相关命令的数组。
+- `Display-Proxy` 显示所有相关的代理环境变量（如果已设置）。
+- `Set-PSReadLineOption -CommandValidationHandler` 定义了一个脚本块，在每条命令之前运行：
+  - 它提取命令的第一个词。
+  - 检查它是否在 `$networkCommands` 中。
+  - 如果设置了代理变量，则调用 `Display-Proxy`。
+  - 返回 `$true` 以确保命令执行。
+- `checkproxy` 允许手动查看代理设置，包括 Git 特定的代理。
+- 添加到配置文件后，重新启动 PowerShell 或运行 `. $PROFILE` 以应用更改。
 
 #### **要求：**
 
--   需要 `PSReadLine` 模块，该模块默认包含在 PowerShell 5.1 及更高版本中。
--   如果使用旧版本，您可能需要升级 PowerShell 或寻找替代方法（此处不涉及，因为大多数系统使用较新版本）。
+- 需要 `PSReadLine` 模块，该模块默认包含在 PowerShell 5.1 及更高版本中。
+- 如果使用旧版本，您可能需要升级 PowerShell 或寻找替代方法（此处不涉及，因为大多数系统使用较新版本）。
 
 #### **用法：**
 
--   当您运行网络命令（例如 `git pull`、`curl`）时，如果配置了代理设置，它们将在命令执行前显示。
--   运行 `checkproxy` 以手动查看代理设置。
+- 当您运行网络命令（例如 `git pull`、`curl`）时，如果配置了代理设置，它们将在命令执行前显示。
+- 运行 `checkproxy` 以手动查看代理设置。
 
 ---
 
 ### **关于"终端"的说明**
 
--   如果"终端"指的是 Windows 终端，它只是 Git-Bash、PowerShell 或命令提示符 (cmd.exe) 等 shell 的宿主。
--   上述实现在 Windows 终端内的 Git-Bash 或 PowerShell 会话中工作。
--   在命令提示符 (cmd.exe) 中实现类似功能是不切实际的，因为其脚本功能有限。建议改用 Git-Bash 或 PowerShell。
+- 如果"终端"指的是 Windows 终端，它只是 Git-Bash、PowerShell 或命令提示符 (cmd.exe) 等 shell 的宿主。
+- 上述实现在 Windows 终端内的 Git-Bash 或 PowerShell 会话中工作。
+- 在命令提示符 (cmd.exe) 中实现类似功能是不切实际的，因为其脚本功能有限。建议改用 Git-Bash 或 PowerShell。
 
 ---
 
 ### **其他注意事项**
 
--   **命令解析：**
-    -   两种实现都只检查命令的第一个词是否在网络的命令列表中。例如，`git clone` 会触发，因为 `git` 在列表中。
-    -   像 `bundle exec jekyll` 这样的多词命令，如果 `bundle` 在列表中，则会触发，这在大多数情况下已经足够。
-    -   如果需要，您可以修改代码以检查命令中的所有词，但这可能导致误报，并且通常没有必要。
+- **命令解析：**
+  - 两种实现都只检查命令的第一个词是否在网络的命令列表中。例如，`git clone` 会触发，因为 `git` 在列表中。
+  - 像 `bundle exec jekyll` 这样的多词命令，如果 `bundle` 在列表中，则会触发，这在大多数情况下已经足够。
+  - 如果需要，您可以修改代码以检查命令中的所有词，但这可能导致误报，并且通常没有必要。
 
--   **代理变量：**
-    -   两种实现都检查 `HTTP_PROXY`、`http_proxy`、`HTTPS_PROXY`、`https_proxy`、`ALL_PROXY` 和 `all_proxy`，以涵盖常见的变体。
-    -   在 Windows 中，环境变量不区分大小写，但为了与类 Unix 行为（尤其是在 Git-Bash 中）保持一致，我们检查了两种大小写形式。
+- **代理变量：**
+  - 两种实现都检查 `HTTP_PROXY`、`http_proxy`、`HTTPS_PROXY`、`https_proxy`、`ALL_PROXY` 和 `all_proxy`，以涵盖常见的变体。
+  - 在 Windows 中，环境变量不区分大小写，但为了与类 Unix 行为（尤其是在 Git-Bash 中）保持一致，我们检查了两种大小写形式。
 
--   **Git 代理设置：**
-    -   两个 shell 中的 `checkproxy` 函数都使用 `git config --get` 显示 Git 特定的代理设置。
+- **Git 代理设置：**
+  - 两个 shell 中的 `checkproxy` 函数都使用 `git config --get` 显示 Git 特定的代理设置。
 
 ---
 
 ### **测试**
 
--   **设置代理变量：**
-    -   在 Git-Bash 中：`export HTTP_PROXY=http://proxy.example.com:8080`
-    -   在 PowerShell 中：`$env:HTTP_PROXY = "http://proxy.example.com:8080"`
--   **运行网络命令：**
-    -   尝试诸如 `git --version`、`curl -V` 等命令。
-    -   代理设置应在命令输出之前显示。
--   **使用 `checkproxy`：**
-    -   在任一 shell 中运行 `checkproxy` 以手动查看代理设置。
+- **设置代理变量：**
+  - 在 Git-Bash 中：`export HTTP_PROXY=http://proxy.example.com:8080`
+  - 在 PowerShell 中：`$env:HTTP_PROXY = "http://proxy.example.com:8080"`
+- **运行网络命令：**
+  - 尝试诸如 `git --version`、`curl -V` 等命令。
+  - 代理设置应在命令输出之前显示。
+- **使用 `checkproxy`：**
+  - 在任一 shell 中运行 `checkproxy` 以手动查看代理设置。
 
 ---
 

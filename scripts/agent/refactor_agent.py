@@ -133,14 +133,11 @@ def refactor_python_code(file_path, model="kimi-k2"):
             tmpc.close()
             try:
                 py_compile.compile(tmpc.name, doraise=True)
-                compile_ok = True
                 print(f"Debug: Cleaned response compiled successfully: {tmpc.name}")
             except py_compile.PyCompileError as ce:
-                compile_ok = False
                 print(f"Debug: Compilation failed: {ce}")
         except Exception as e:
             print(f"Debug: Failed to attempt compile: {e}")
-            compile_ok = False
 
         is_valid, validation_msg = validate_code_quality(original_code, cleaned)
         print(f"Debug: Validation result: is_valid={is_valid}")

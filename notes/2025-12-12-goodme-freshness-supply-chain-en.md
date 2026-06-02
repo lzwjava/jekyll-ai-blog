@@ -19,6 +19,7 @@ The core issue raised in the interview aligns with a well-known challenge in the
 GoodMe (古茗), a leading Chinese tea-drink brand founded in 2010, excels in addressing this through innovative supply chain strategies that prioritize freshness, earning it a reputation as "so good" for affordable, high-quality fruit teas and juices. Here's why:
 
 ### Key Advantages of GoodMe's Approach
+
 - **Direct Sourcing and Self-Built Bases**: GoodMe sources seasonal fruits from origin farms, partnering with global suppliers like Dole and Sumifru for premium varieties. They've established their own massive lemon base in Yunnan (China's largest for Taiwanese fragrant lemons), where ideal climates (21-25°C with high day-night temperature swings) yield fuller-flavored fruits. This cuts transport distances dramatically—fruits travel hours, not days—ensuring they're picked at optimal ripeness for juicing.
 
 - **Advanced Cold Chain Logistics**: Unlike competitors' 4-day deliveries, GoodMe's "two-days-one-delivery" system uses 21 regional warehouses, 300+ refrigerated trucks, and third-party partners for bi-daily cold-chain shipments to 97% of its 9,778+ stores (as of late 2024). Full temperature control from farm to store retains nutrients and prevents over-maturation, mimicking that "cool on the road" freshness.
@@ -32,6 +33,7 @@ GoodMe (古茗), a leading Chinese tea-drink brand founded in 2010, excels in ad
 In essence, GoodMe doesn't just transport fruits—they reengineer the chain to deliver "farm-to-cup" vibrancy at scale, turning a industry pain point into a competitive edge. If you're trying it, go for their Hand-Peeled Granular Big Orange for that peak-fresh burst.
 
 References:
+
 - [古茗 Baidu Encyclopedia](https://baike.baidu.com/item/%E5%8F%A4%E8%8C%97/23861860)
 - [Gu Ming IPO: China's No. 2 Milk Tea Brand](https://pandayoo.com/post/gu-ming-ipo-chinas-no-2-milk-tea-brand-goes-public-amidst-market-frenzy/)
 - [古茗上市！GMV超200亿](https://zhuanlan.zhihu.com/p/32553657353)

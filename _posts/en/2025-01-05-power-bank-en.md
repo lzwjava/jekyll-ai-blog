@@ -56,7 +56,6 @@ Another solution is to use the Shortcuts app in iOS to set a notification to rem
 
 By the way, I thought of a new kind of charging method: a [Smart Universal Charger Box](./charger-box-en). I introduced it in another article. Actually, this is a different problem. It is about how to charge, not about solving the issue of forgetting to charge power banks.
 
-
 ---
 
 ## Smart Universal Charger Box
@@ -112,7 +111,6 @@ By the way, I thought of a new kind of charging method: a [Smart Universal Charg
   <!-- Label -->
   <text x="250" y="380" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Smart Universal Charger Box</text>
 </svg>
-
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
   <!-- Box - Isometric View -->
@@ -185,7 +183,6 @@ By the way, I thought of a new kind of charging method: a [Smart Universal Charg
   <!-- Label -->
   <text x="250" y="380" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Smart Universal Charger Box - Side View</text>
 </svg>
-
 
 People can invent a charger box. This box is like ultrasonic cleaner. When I used up a power bank, I just put it in the charger box. Then after few hours, the power bank is fully charged.
 

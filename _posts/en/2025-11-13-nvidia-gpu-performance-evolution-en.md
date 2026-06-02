@@ -17,6 +17,7 @@ Around 2010, NVIDIA's top consumer graphics cards supporting DirectX 11 were the
 Modern comparisons: **RTX 3090** (Ampere, 2020), **RTX 4070** (Ada Lovelace, 2023), and **RTX 4090** (Ada Lovelace, 2022). **No RTX 4090 Ti was ever released**—it was rumored in 2023 but canceled, with no updates even into 2025.
 
 #### FP32 TFLOPS (Theoretical Peak Single-Precision Performance)
+
 This measures raw shader compute power (higher = better theoretical FLOPS).
 
 | GPU          | Architecture | FP32 TFLOPS | Multiplier vs. GTX 480 |
@@ -30,6 +31,7 @@ This measures raw shader compute power (higher = better theoretical FLOPS).
 Modern cards deliver **20–60x** the raw FLOPS, thanks to massive core counts (5,888–16,384 shaders), higher clocks, and architectural efficiency.
 
 #### Real-World Performance (Relative to RTX 4090 = 100%)
+
 - **TechPowerUp Relative Performance**: Average across 1,000+ games/benchmarks (1080p/1440p rasterization-focused). Newer architectures excel more in real workloads due to better scheduling, caching, and features like DLSS/RT.
 - **PassMark G3D Mark**: Aggregate synthetic benchmark (average user-submitted scores).
 
@@ -48,6 +50,7 @@ Modern cards deliver **20–60x** the raw FLOPS, thanks to massive core counts (
   - Gaming example: In 2010 titles, GTX 480 hit ~60 FPS 1080p high. RTX 4090 does 4K ultra + RT at 200+ FPS today.
 
 **References**:
+
 - [TechPowerUp GTX 480 Specs](https://www.techpowerup.com/gpu-specs/geforce-gtx-480.c268)
 - [TechPowerUp GTX 580 Specs](https://www.techpowerup.com/gpu-specs/geforce-gtx-580.c270)
 - [TechPowerUp RTX 3090 Specs](https://www.techpowerup.com/gpu-specs/geforce-rtx-3090.c3622)

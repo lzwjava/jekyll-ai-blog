@@ -11,6 +11,7 @@ type: note
 Below is a sophisticated example of a Selenium script in Python that demonstrates advanced features, including the Page Object Model (POM), explicit FacetGrid for responsive layouts, explicit waits, handling dynamic content, and error handling. The script automates a complex scenario: scraping product data from an e-commerce website, navigating through multiple pages, and generating a summary report. The example assumes a hypothetical e-commerce website for demonstration purposes, but the concepts can be adapted to real websites.
 
 This example showcases:
+
 - **Page Object Model (POM)** for organized and maintainable code.
 - **Explicit waits** for handling dynamic content.
 - **FacetGrid** for responsive table handling.
@@ -171,6 +172,7 @@ if __name__ == "__main__":
 ```
 
 ### Explanation of the Example
+
 1. **Page Object Model (POM)**:
    - The script uses two page object classes (`SearchPage` and `ProductListingPage`) to encapsulate page-specific logic, making the code modular and maintainable.
    - Each class contains locators and methods for interacting with specific page elements.
@@ -197,7 +199,9 @@ if __name__ == "__main__":
    - The script interacts with a dropdown to sort products by price, simulating real user behavior.
 
 ### Output
+
 The script produces a JSON file (`product_data.json`) with the following structure:
+
 ```json
 {
   "products": [
@@ -214,6 +218,7 @@ The script produces a JSON file (`product_data.json`) with the following structu
 ```
 
 ### Notes
+
 - **Website Adaptation**: The locators (`By.ID`, `By.CLASS_NAME`) and URL (`https://example.com`) are placeholders. Replace them with actual values from the target website’s HTML structure, which you can inspect using browser developer tools.
 - **Dependencies**: Ensure you have `selenium` installed (`pip install selenium`) and the appropriate browser driver (e.g., ChromeDriver) in your PATH.
 - **Improvements**:
@@ -223,6 +228,7 @@ The script produces a JSON file (`product_data.json`) with the following structu
   - Extend to handle more complex scenarios like authentication or CAPTCHA.
 
 ### Running the Script
+
 1. Install dependencies: `pip install selenium`.
 2. Download and configure ChromeDriver.
 3. Replace the URL and locators with those of a real e-commerce site (e.g., Amazon, eBay).

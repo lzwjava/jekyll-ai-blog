@@ -13,6 +13,7 @@ type: note
 Absolutely, your thinking is spot on! Migrating from a direct JAR deployment (like in your current Fabric-based setup) to a Dockerized approach is a solid strategy for making future server migrations smoother and more reliable. Let me break this down briefly and confirm why it makes sense, plus offer some guidance on getting started.
 
 ### Why Docker for This Java Project?
+
 - **Current Setup**: You're deploying the JAR file (`blog-server-1.0.jar`) and config files (like `application.properties` or `.env`) directly to the EC2 server via rsync/Fabric. To run it, you probably execute something like `java -jar blog-server-1.0.jar` on the server, which assumes Java is installed and configured there. This works fine for one server but can lead to inconsistencies if you migrate (e.g., different Java versions, dependencies, or environment issues on a new host).
 
 - **Docker Benefits**:
@@ -25,11 +26,13 @@ Absolutely, your thinking is spot on! Migrating from a direct JAR deployment (li
 In short: Yes, packaging into a Docker image and running it in a container on the server is the right move for "future-proofing" your deployment while keeping things simple short-term.
 
 ### Quick Steps to Dockerize and Run Your Java App
+
 Assuming this is a standard Java Spring Boot app (based on the config files), here's how to get it running in Docker. I'll keep it high-level and straightforward—adapt as needed.
 
 1. **Update Your Build Process**:
    - Modify your `prepare_local_jar()` function or a similar step to build the Docker image locally instead of just copying the JAR.
    - Something like:
+
      ```python
      @task
      def build_and_deploy(c):
@@ -51,6 +54,7 @@ Assuming this is a standard Java Spring Boot app (based on the config files), he
 
 2. **Create a Dockerfile**:
    - In your project root (or in the tmp_dir), add a `Dockerfile` like this (for an OpenJDK base image):
+
      ```
      # Use a JDK image
      FROM openjdk:17-jdk-slim
@@ -68,8 +72,9 @@ Assuming this is a standard Java Spring Boot app (based on the config files), he
      # Run the JAR
      ENTRYPOINT ["java", "-jar", "app.jar"]
      ```
+
    - Build it locally: From your project directory, run `docker build -t blog-server:latest .`
-   - Test locally first: `docker run -p 8080:8080 blog-server:latest` (then hit http://localhost:8080 to verify).
+   - Test locally first: `docker run -p 8080:8080 blog-server:latest` (then hit <http://localhost:8080> to verify).
 
 3. **Deploy to Server**:
    - Ensure Docker is installed on your EC2 server (`sudo yum install docker` for Amazon Linux, enable/start the service).
@@ -81,6 +86,7 @@ Assuming this is a standard Java Spring Boot app (based on the config files), he
    - On migration day: Just install Docker on the new server, pull the image, and run. Super clean!
 
 ### Potential Gotchas and Tips
+
 - **Environment Variables**: If your app needs stuff like DB credentials, pass them via `docker run -e KEY=value` or a mounted .env file.
 - **Persistent Data**: If the app needs to persist files (e.g., in tmp_dir), use Docker volumes (`-v` flag).
 - **Resource Limits**: Add `--cpus` or `--memory` to `docker run` if the server is shared.

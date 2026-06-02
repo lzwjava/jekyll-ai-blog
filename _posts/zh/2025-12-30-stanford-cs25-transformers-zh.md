@@ -19,6 +19,7 @@ Stanford **CS25: Transformers United** 是 Stanford University 的一门热门�
 这是一门 1 学分的研讨课（成绩等级为 Satisfactorily/No Credit），没有考试或繁重的作业，主要的考核要求是出席讲座。该课程的形式是由来自顶尖研究机构的嘉宾进行讲座（例如 Geoffrey Hinton、Transformer 原作者之一 Ashish Vaswani、Andrej Karpathy，以及来自 OpenAI、Google、NVIDIA 的专家）。讲座通常会进行直播、录制并向公众开放，在 YouTube 上吸引了数百万次观看。预备知识包括基础的 Deep Learning 知识和对 Attention 机制的理解（或修过 CS224N、CS231N 或 CS230 等课程）。
 
 由于每个版本（如 2024 年的 V4、2025 年的 V5）都会根据最新的突破和新的嘉宾进行更新，因此没有固定的“标准”教学大纲。典型的主题包括：
+
 - Transformer 的历史和概览
 - Scaling Laws 和架构变体
 - Transformer 在语言、视觉、Multimodal Models、Diffusion、音频等领域的应用

@@ -15,6 +15,7 @@ type: note
 ## 逐步指南
 
 ### 1. 设置项目结构
+
 创建一个标准的 Web 应用程序结构。你可以使用 IntelliJ 或 Eclipse 等 IDE，或手动创建文件夹。结构应如下所示：
 
 ```
@@ -39,6 +40,7 @@ SimpleSpringMVCApp/
 - **`src/main/webapp/WEB-INF`**：包含配置文件（`web.xml`、`spring-mvc-config.xml`）和 JSP 视图。
 
 ### 2. 添加依赖项
+
 如果使用 Maven，请在 `pom.xml` 中包含所需的依赖项。对于简单的 Spring MVC 应用程序，你需要 Spring Web MVC 库和 Servlet API（由容器提供）。
 
 创建或编辑 `pom.xml`，内容如下：
@@ -86,6 +88,7 @@ SimpleSpringMVCApp/
   - 如果不使用 Maven，请手动下载 Spring MVC JAR 和 Servlet API JAR，并将其添加到项目的类路径中。
 
 ### 3. 在 `web.xml` 中配置 DispatcherServlet
+
 `web.xml` 文件是 Web 应用程序的部署描述符。它配置 `DispatcherServlet`（Spring MVC 的前端控制器）以处理传入请求。
 
 创建 `src/main/webapp/WEB-INF/web.xml`，内容如下：
@@ -122,6 +125,7 @@ SimpleSpringMVCApp/
   - `<url-pattern>/</url-pattern>`：将 Servlet 映射到处理所有应用程序请求。
 
 ### 4. 创建 Spring 配置文件
+
 创建 `src/main/webapp/WEB-INF/spring-mvc-config.xml` 以定义 Spring MVC Bean，例如控制器和视图解析器。
 
 ```xml
@@ -155,6 +159,7 @@ SimpleSpringMVCApp/
   - `InternalResourceViewResolver`：将视图名称映射到 `/WEB-INF/views/` 目录下的 JSP 文件，并添加 `.jsp` 后缀。
 
 ### 5. 创建简单控制器
+
 创建一个控制器来处理 HTTP 请求。在 `src/main/java/com/example/controllers/` 中添加 `HomeController.java`：
 
 ```java
@@ -179,6 +184,7 @@ public class HomeController {
   - `return "home"`：返回视图名称 `"home"`，解析为 `/WEB-INF/views/home.jsp`。
 
 ### 6. 创建 JSP 视图
+
 创建一个简单的 JSP 文件以显示输出。在 `src/main/webapp/WEB-INF/views/` 中添加 `home.jsp`：
 
 ```jsp
@@ -194,6 +200,7 @@ public class HomeController {
 ```
 
 ### 7. 构建和打包应用程序
+
 如果使用 Maven，从项目根目录运行以下命令以构建 WAR 文件：
 
 ```bash
@@ -205,11 +212,14 @@ mvn clean package
 - **注意**：如果不使用 Maven，请编译 Java 文件并手动将项目打包为 WAR 文件，同时保持文件夹结构。
 
 ### 8. 部署应用程序
+
 将 WAR 文件部署到 Servlet 容器（如 Apache Tomcat）：
+
 - 将 `SimpleSpringMVCApp-1.0-SNAPSHOT.war` 复制到 Tomcat 安装目录的 `webapps` 目录中。
 - 启动 Tomcat（例如，从 Tomcat 的 `bin` 目录运行 `startup.sh` 或 `startup.bat`）。
 
 ### 9. 访问应用程序
+
 打开浏览器并导航到：
 
 ```
@@ -217,6 +227,7 @@ http://localhost:8080/SimpleSpringMVCApp-1.0-SNAPSHOT/
 ```
 
 你将看到：
+
 ```
 Welcome to Spring MVC without Spring Boot
 ```
@@ -226,7 +237,9 @@ Welcome to Spring MVC without Spring Boot
 ---
 
 ## 总结
+
 要使用 **Spring MVC 而不使用 Spring Boot**：
+
 1. **设置 Web 项目**，采用标准结构。
 2. **添加依赖项**，包括 Spring MVC 和 Servlet API。
 3. **在 `web.xml` 中配置 DispatcherServlet**。

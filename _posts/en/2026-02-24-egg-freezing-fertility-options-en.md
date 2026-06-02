@@ -17,14 +17,14 @@ Here’s a detailed breakdown of how it works, why women choose it, and what the
 
 The core idea is to **preserve a woman's younger, healthier eggs** so they can be used in the future to attempt pregnancy. This addresses the reality of the "biological clock."
 
-1.  **Age and Egg Quality:** A woman is born with all the eggs she will ever have. As she ages, both the **quantity** and **quality** of her eggs decline. This decline accelerates significantly after age 35. Older eggs have a higher chance of having chromosomal abnormalities, which leads to:
+1. **Age and Egg Quality:** A woman is born with all the eggs she will ever have. As she ages, both the **quantity** and **quality** of her eggs decline. This decline accelerates significantly after age 35. Older eggs have a higher chance of having chromosomal abnormalities, which leads to:
     - Lower chances of conception each month.
     - Higher risk of miscarriage.
     - Higher risk of genetic conditions (like Down syndrome).
 
-2.  **The Freezing Process:** By freezing eggs in her 20s, 30s, or early 40s, a woman essentially "presses pause" on the aging process for those eggs. When she is ready to have a child later in life, those frozen eggs will be just as healthy and viable as they were on the day they were frozen.
+2. **The Freezing Process:** By freezing eggs in her 20s, 30s, or early 40s, a woman essentially "presses pause" on the aging process for those eggs. When she is ready to have a child later in life, those frozen eggs will be just as healthy and viable as they were on the day they were frozen.
 
-3.  **Future Use:** When she's ready to conceive, the eggs are thawed, fertilized with sperm in a lab (using a technique called ICSI), and the resulting embryo is transferred to her uterus. The success of this process depends heavily on the age of the egg at the time it was frozen, not the woman's age at the time of transfer.
+3. **Future Use:** When she's ready to conceive, the eggs are thawed, fertilized with sperm in a lab (using a technique called ICSI), and the resulting embryo is transferred to her uterus. The success of this process depends heavily on the age of the egg at the time it was frozen, not the woman's age at the time of transfer.
 
 ### Why Do Women Choose to Freeze Their Eggs?
 
@@ -33,9 +33,9 @@ Women opt for egg freezing for a variety of personal and medical reasons:
 - **Career or Education:** To focus on establishing a career, completing an advanced degree, or achieving financial stability before starting a family.
 - **Not Having Found the Right Partner:** To avoid the pressure of finding a partner by a certain age or having a child without a partner before they feel ready.
 - **Medical Reasons:** This is a crucial category. Women may freeze their eggs before undergoing medical treatments that could harm their fertility, such as:
-    - Chemotherapy or radiation for cancer.
-    - Surgery for conditions like endometriosis.
-    - For those with a family history of early menopause or genetic conditions (like the BRCA gene) that might lead them to have their ovaries removed preventively.
+  - Chemotherapy or radiation for cancer.
+  - Surgery for conditions like endometriosis.
+  - For those with a family history of early menopause or genetic conditions (like the BRCA gene) that might lead them to have their ovaries removed preventively.
 - **Preserving Future Fertility:** Simply wanting to keep the option open and reduce the anxiety associated with the biological clock.
 
 ### Important Considerations and Realistic Expectations
@@ -48,7 +48,7 @@ While egg freezing is a powerful tool, it's not a guarantee, and it's important 
 - **Cost and Accessibility:** Egg freezing is expensive, often costing $10,000 - $15,000 per cycle, plus annual storage fees. It is not always covered by insurance.
 - **Later Pregnancy Still Has Risks:** While the eggs are young, the woman's body is still aging. A pregnancy at age 45 carries higher risks for the mother, such as gestational diabetes and pre-eclampsia, regardless of the age of the egg used.
 
-### In Summary:
+### In Summary
 
 | Aspect | What it Means |
 | :--- | :--- |

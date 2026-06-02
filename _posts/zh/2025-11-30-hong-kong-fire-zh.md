@@ -31,6 +31,7 @@ type: note
 这场悲剧让社区震惊，对遗体仍在进行搜寻，幸存者也在获得支持。有关最新情况，请查阅香港消防处等官方消息来源。
 
 **参考资料**：
+
 - [What caused the deadly fire that has torn through a Hong Kong housing estate](https://www.cnn.com/2025/11/26/asia/hong-kong-apartment-fire-latam-intl) (CNN, 2025年11月29日)
 - [What to Know About the Deadly Fire at a Hong Kong Apartment Complex](https://www.nytimes.com/2025/11/26/world/asia/hong-kong-fire-what-to-know.html) (The New York Times, 2025年11月28日)
 - [Hong Kong building fire prompts serious questions about construction safety](https://www.abc.net.au/news/2025-11-28/hong-kong-fires-prompt-questions-about-construction-safety/106074568) (ABC News, 2025年11月28日)

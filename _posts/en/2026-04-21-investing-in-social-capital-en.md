@@ -20,6 +20,7 @@ Yes, absolutely — and you've already figured out one of the most practical soc
 What you're describing is **social capital** — the invisible "credit" you build with people through small, consistent acts of politeness and consideration.
 
 When you replied to that teacher's email, you:
+
 - Confirmed you're a **responsible, communicative student**
 - Made yourself **memorable** (most students probably didn't reply)
 - Created a **warm first impression** before you've even met
@@ -31,18 +32,23 @@ So if you later email asking for help, extensions, clarification, or a recommend
 ## Why Being Polite to Everyone Pays Off
 
 ### 1. You Never Know Who Will Matter Later
+
 That admin staff member, that quiet classmate, that teacher you barely interact with — any of them could become:
+
 - A job reference
 - A connection to an opportunity
 - Someone who vouches for you in a critical moment
 
 ### 2. Reciprocity Is Human Nature
+
 People naturally want to help those who have been kind to them. It's not manipulation — it's just how human relationships work. Kindness tends to come back around.
 
 ### 3. It Costs Almost Nothing
+
 Replying to an email takes 30 seconds. The return on that 30-second investment can be enormous — like a teacher going out of their way to help you pass an exam.
 
 ### 4. Your Reputation Compounds Over Time
+
 Every polite interaction is a small deposit into your reputation. Over months and years, people around you develop an overall impression: *"This person is reliable and respectful."* That reputation opens doors.
 
 ---
@@ -52,6 +58,7 @@ Every polite interaction is a small deposit into your reputation. Over months an
 Not everyone will return your kindness equally — and that's okay. The goal isn't a guaranteed transaction. The goal is to **raise your average outcomes** across all your relationships.
 
 Think of it like this:
+
 - Being rude = closing doors you don't even know exist
 - Being polite = keeping doors open that you might need someday
 

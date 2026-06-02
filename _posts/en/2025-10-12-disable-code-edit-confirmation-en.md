@@ -56,4 +56,5 @@ This should make your workflow faster without interruptions. If you're in an ent
 
 [Claude Code Settings Docs](https://docs.claude.com/en/docs/claude-code/settings)
 [Disable Claude Code Permission Prompts Guide](https://www.arsturn.com/blog/how-to-disable-claude-code-permission-prompts)
+
 ```

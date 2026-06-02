@@ -19,6 +19,7 @@ Answer:
 Written in 1597 and later revised and expanded in the 1612 and 1625 editions of his *Essays*, "Of Studies" is a concise yet profound reflection on the purposes, benefits, and proper methods of reading and learning. In this short piece, Bacon famously explores three main functions of study: "Studies serve for delight, for ornament, and for ability."
 
 He argues that:
+
 - Reading for **delight** brings personal pleasure and relaxation,
 - Reading for **ornament** improves discourse and conversation,
 - Reading for **ability** strengthens judgment and practical competence in business and life.

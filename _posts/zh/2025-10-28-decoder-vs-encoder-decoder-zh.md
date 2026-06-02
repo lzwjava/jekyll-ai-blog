@@ -15,6 +15,7 @@ type: note
 Transformer 是广泛应用于自然语言处理及其他领域的神经网络架构。原始 Transformer（发表于 2017 年论文《Attention is All You Need》）采用**编码器-解码器**结构，而现代大语言模型（如 GPT）通常采用**仅解码器**设计。这种转变源于仅解码器模型在自回归任务（如文本生成）中的简洁性和高效性。下面我将解析主要区别。
 
 #### 核心架构差异
+
 - **编码器-解码器**：
   - 包含对称双栈结构：**编码器**（通过自注意力并行处理整个输入序列，捕获双向上下文）和**解码器**（通过带因果掩码的自注意力及对编码器输出的交叉注意力，以自回归方式生成输出）。
   - 最适合**序列到序列**任务，其中输入输出明显不同（如机器翻译：英语→法语）。
@@ -39,11 +40,13 @@ Transformer 是广泛应用于自然语言处理及其他领域的神经网络�
 | **典型模型**       | GPT 系列、LLaMA、PaLM。                 | T5、BART、原始翻译用 Transformer。 |
 
 #### 为何更青睐仅解码器？
+
 仅解码器模型因易于在海量文本数据上预训练（仅需预测下一个词）并微调至多样下游任务而广受欢迎。这种“一模型通吃”的方式相比更专精的编码器-解码器简化了开发流程。然而，编码器-解码器在需要强输入输出对齐的场景（如条件生成）中表现更优。
 
 如果您正在具体实践或有特定用例，欢迎交流以获得更针对性的建议！
 
 #### 参考文献
+
 - [《Attention is All You Need》（原始 Transformer 论文）](https://arxiv.org/abs/1706.03762)
 - [《Language Models are Few-Shot Learners》（GPT-3，仅解码器范例）](https://arxiv.org/abs/2005.14165)
 - [《Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer》（T5，编码器-解码器范例）](https://arxiv.org/abs/1910.10683)

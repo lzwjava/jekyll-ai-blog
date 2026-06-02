@@ -28,9 +28,9 @@ type: note
 
 参考资料：
 
-- https://www.reddit.com/r/Seattle/comments/tvr2xr/whats_your_unpopular_seattle_opinion/
-- https://www.reddit.com/r/SeattleWA/comments/pvgxa2/share_your_most_unpopular_opinion_about_seattle/
-- https://sammamishwashington.com/hate-seattle/
-- https://thehonestlocal.com/living-seattle-pros-cons/
-- https://www.reddit.com/r/unpopularopinion/comments/csa4iq/seattle_is_overrated_as_shit_and_i_have_no_idea/
-- https://www.thestranger.com/features/2019/02/13/38868961/whats-the-worst-thing-about-seattle
+- <https://www.reddit.com/r/Seattle/comments/tvr2xr/whats_your_unpopular_seattle_opinion/>
+- <https://www.reddit.com/r/SeattleWA/comments/pvgxa2/share_your_most_unpopular_opinion_about_seattle/>
+- <https://sammamishwashington.com/hate-seattle/>
+- <https://thehonestlocal.com/living-seattle-pros-cons/>
+- <https://www.reddit.com/r/unpopularopinion/comments/csa4iq/seattle_is_overrated_as_shit_and_i_have_no_idea/>
+- <https://www.thestranger.com/features/2019/02/13/38868961/whats-the-worst-thing-about-seattle>

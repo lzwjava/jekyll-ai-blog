@@ -17,6 +17,7 @@ type: note
 该类遵循 `NSTableViewDataSource` 和 `NSTableViewDelegate` 协议，表明它处理自定义单元格视图内表格视图的数据和事件。它与应用范围内的单例（如用于持久化的 `RIGSetting` 和用于 UI 反馈的 `RIGUtils`）集成。
 
 主要职责：
+
 - 加载和显示可配置项（例如菜单标题、快捷键、正则表达式模式）。
 - 验证并保存更改。
 - 提供用于保存、清除默认仓库设置和重置为默认值的按钮。

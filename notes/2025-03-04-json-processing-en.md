@@ -13,6 +13,7 @@ To use the `com.fasterxml.jackson` package in a Java project for JSON processing
 ---
 
 ### 1. Add the Jackson Dependency to Your Project
+
 To use the `com.fasterxml.jackson` package, you need to include the Jackson library in your project. If you’re using Maven, add the following dependency to your `pom.xml` file:
 
 ```xml
@@ -31,6 +32,7 @@ After adding the dependency, run `mvn install` or refresh your project in your I
 ---
 
 ### 2. Create an `ObjectMapper` Instance
+
 The `ObjectMapper` class from the `com.fasterxml.jackson.databind` package is the primary tool for JSON operations. It’s thread-safe and resource-intensive to instantiate, so it’s best to create a single, reusable instance:
 
 ```java
@@ -46,9 +48,11 @@ Place this in a class where you’ll perform JSON operations.
 ---
 
 ### 3. Convert a Java Object to JSON (Serialization)
+
 To convert a Java object to a JSON string, use the `writeValueAsString` method. Here’s an example:
 
 #### Define a Java Class
+
 Create a class with fields you want to serialize. Ensure it has getters and setters, as Jackson uses these by default to access private fields:
 
 ```java
@@ -80,6 +84,7 @@ public class MyClass {
 ```
 
 #### Serialize to JSON
+
 Use `ObjectMapper` to convert the object to JSON:
 
 ```java
@@ -97,6 +102,7 @@ public class JsonExample {
 ```
 
 **Output**:
+
 ```json
 {"field1":"value1","field2":123}
 ```
@@ -104,6 +110,7 @@ public class JsonExample {
 ---
 
 ### 4. Convert JSON to a Java Object (Deserialization)
+
 To convert a JSON string back to a Java object, use the `readValue` method:
 
 ```java
@@ -133,9 +140,11 @@ try {
 ---
 
 ### 5. Customize JSON Processing with Annotations
+
 Jackson provides annotations to customize how fields are serialized or deserialized. Add these annotations from `com.fasterxml.jackson.annotation` to your class:
 
 #### Rename a Field
+
 Use `@JsonProperty` to map a Java field to a different JSON field name:
 
 ```java
@@ -150,11 +159,13 @@ public class MyClass {
 ```
 
 **Output**:
+
 ```json
 {"name":"value1","field2":123}
 ```
 
 #### Ignore a Field
+
 Use `@JsonIgnore` to exclude a field from serialization:
 
 ```java
@@ -169,11 +180,13 @@ public class MyClass {
 ```
 
 **Output**:
+
 ```json
 {"field1":"value1"}
 ```
 
 #### Format Dates
+
 Use `@JsonFormat` to specify how dates are serialized:
 
 ```java
@@ -189,6 +202,7 @@ public class MyClass {
 ```
 
 **Output** (example):
+
 ```json
 {"field1":"value1","date":"2023-10-25"}
 ```
@@ -196,9 +210,11 @@ public class MyClass {
 ---
 
 ### 6. Handle Advanced Scenarios
+
 Here are some additional features you might find useful:
 
 #### Pretty-Print JSON
+
 For readable JSON output, use `writerWithDefaultPrettyPrinter`:
 
 ```java
@@ -206,6 +222,7 @@ String prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(o
 ```
 
 **Output**:
+
 ```json
 {
   "field1" : "value1",
@@ -214,6 +231,7 @@ String prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(o
 ```
 
 #### Ignore Unknown Properties
+
 If the JSON contains fields not present in your Java class, configure `ObjectMapper` to ignore them:
 
 ```java
@@ -221,6 +239,7 @@ mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 ```
 
 #### Work with Files
+
 Read from or write to a file:
 
 ```java
@@ -232,6 +251,7 @@ MyClass obj = mapper.readValue(new File("input.json"), MyClass.class);
 ```
 
 #### Handle Lists or Generics
+
 For collections, use `TypeReference` to preserve generic type information:
 
 ```java
@@ -244,6 +264,7 @@ List<MyClass> list = mapper.readValue(json, new TypeReference<List<MyClass>>() {
 ---
 
 ### 7. Dynamic JSON Manipulation with `JsonNode`
+
 If you don’t want to map JSON to a specific class, use `JsonNode` for a tree-based approach:
 
 ```java
@@ -267,7 +288,9 @@ String json = mapper.writeValueAsString(node);
 ---
 
 ### Summary
+
 To use the `com.fasterxml.jackson` package:
+
 1. Add the `jackson-databind` dependency to your `pom.xml`.
 2. Create a single `ObjectMapper` instance for reuse.
 3. Use `writeValueAsString` to convert Java objects to JSON and `readValue` to convert JSON to Java objects.

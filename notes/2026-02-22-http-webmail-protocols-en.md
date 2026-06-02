@@ -28,6 +28,7 @@ When you access a web-based email service through your browser, the following co
 ## Key Differences from Traditional Email Protocols
 
 Traditional email systems use different protocols for different functions:
+
 - **SMTP** is used for mail transfer between servers and from clients to servers
 - **POP3** is used for downloading emails to local devices
 - **IMAP** is used for accessing and synchronizing emails on servers

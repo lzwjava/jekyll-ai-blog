@@ -62,7 +62,7 @@ def main():
 
     for filename in os.listdir(original_dir):
         if filename.endswith(".md"):
-            file_base = filename[:-3]
+            filename[:-3]
 
             if filename.endswith("-en.md"):
                 lang = "en"

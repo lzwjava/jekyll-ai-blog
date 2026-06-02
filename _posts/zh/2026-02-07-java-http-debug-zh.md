@@ -34,6 +34,7 @@ java -Djdk.httpclient.HttpClient.log=all MyApp
 ```
 
 或者通过编程方式：
+
 ```java
 HttpClient client = HttpClient.newBuilder()
     .version(HttpClient.Version.HTTP_2)
@@ -45,6 +46,7 @@ HttpClient client = HttpClient.newBuilder()
 ## 3. **Apache HttpClient (如果使用该库)**
 
 在你的 `log4j.properties` 或 `logback.xml` 中添加：
+
 ```properties
 log4j.logger.org.apache.http=DEBUG
 log4j.logger.org.apache.http.wire=DEBUG
@@ -70,6 +72,7 @@ log4j.logger.org.apache.http.wire=DEBUG
 ```
 
 最接近 `NODE_DEBUG=http,https` 的等价命令是：
+
 ```bash
 java -Djavax.net.debug=all -Djdk.httpclient.HttpClient.log=all MyApp
 ```

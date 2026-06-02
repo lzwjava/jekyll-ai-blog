@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：https://yinwang0.wordpress.com/2013/12/27/tests-and-static-anaysis/ 的博客文章说了什么？
+问题：<https://yinwang0.wordpress.com/2013/12/27/tests-and-static-anaysis/> 的博客文章说了什么？
 
 回答：
 

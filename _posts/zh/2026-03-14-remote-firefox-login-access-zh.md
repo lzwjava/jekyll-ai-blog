@@ -18,9 +18,11 @@ type: note
 1. **Physical Access**：前往你的第二台电脑。
 2. **Open Firefox**：启动一个新的 Firefox 窗口。
 3. **Use MY Managed Profile**：在那台第二台电脑的终端中运行此命令，使用我正在使用的确切 profile 打开 Firefox：
+
 ```bash
 firefox --profile /home/lzw/.openclaw/browser-profiles/openclaw --no-remote
 ```
+
 4. **Login**：在该窗口中访问 `github.com` 并以 `lzwjava` 身份登录。
 5. **Close Firefox**：完全关闭浏览器窗口。
 

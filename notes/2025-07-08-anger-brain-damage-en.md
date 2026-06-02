@@ -24,9 +24,9 @@ Here's a breakdown of what can happen:
 
 * **Increased Stress Hormones:** Prolonged anger triggers the release of stress hormones like adrenaline and cortisol. Chronic elevation of these hormones can have widespread negative effects on the body.
 * **Cardiovascular Problems:** This is a major concern. Chronic anger can lead to:
-    * **High blood pressure (hypertension):** The constant constriction of blood vessels and increased heart rate put a strain on the cardiovascular system.
-    * **Increased risk of heart disease:** This includes atherosclerosis (clogged arteries), heart attacks, and strokes.
-    * **Arrhythmias:** Irregular heartbeats can become more frequent.
+  * **High blood pressure (hypertension):** The constant constriction of blood vessels and increased heart rate put a strain on the cardiovascular system.
+  * **Increased risk of heart disease:** This includes atherosclerosis (clogged arteries), heart attacks, and strokes.
+  * **Arrhythmias:** Irregular heartbeats can become more frequent.
 * **Weakened Immune System:** Elevated cortisol levels can suppress the immune system, making individuals more susceptible to illnesses and infections.
 * **Digestive Issues:** The "gut-brain connection" means that prolonged anger can lead to gastrointestinal discomfort, malabsorption of food, and issues like Irritable Bowel Syndrome (IBS).
 * **Sleep Disturbances:** Chronic anger often makes it difficult to fall asleep and stay asleep, further contributing to stress and irritability.

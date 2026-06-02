@@ -84,6 +84,7 @@ PATH=/usr/local/bin:/usr/bin:/bin
 ```
 
 **5. cron vs launchd** — Apple prefers `launchd` (plist-based), but `cron` works fine for simple jobs. Only use launchd if you need:
+
 - Run on login/boot
 - Dependency management
 - Throttling/keepalive

@@ -15,6 +15,7 @@ type: note
 IBM WebSphere Application Server (WAS) 通过 Java Message Service (JMS) 与 IBM MQ（原 WebSphere MQ）集成来支持消息队列。配置通常通过 **WebSphere Integrated Solutions Console**（管理界面）完成，访问地址为 `https://your-server:9043/ibm/console`（默认安全端口；请根据实际情况调整）。本指南主要针对传统完整配置文件的 WAS（例如 9.0+ 版本），但步骤与 WebSphere Liberty 类似，只需稍作调整。
 
 #### 前提条件
+
 - IBM MQ 必须已安装、正在运行且可访问（例如，队列管理器已启动）。
 - WAS 服务器已启动，并且您拥有控制台的管理员访问权限。
 - 如果尚未安装，请将 IBM MQ JMS 客户端库（例如 `com.ibm.mq.allclient.jar`）下载并安装到 WAS 的共享库中（位于 **环境 > 共享库**）。
@@ -23,6 +24,7 @@ IBM WebSphere Application Server (WAS) 通过 Java Message Service (JMS) 与 IBM
 配置完成后，保存更改（顶部的 **保存** 按钮）并重新启动应用服务器以使更改生效。
 
 #### 步骤 1：创建 JMS 队列连接工厂
+
 连接工厂用于建立与 IBM MQ 队列管理器的连接。
 
 1. 登录到 WAS 管理控制台。
@@ -47,6 +49,7 @@ IBM WebSphere Application Server (WAS) 通过 Java Message Service (JMS) 与 IBM
 10. 单击 **测试连接** 进行验证。
 
 #### 步骤 2：创建 JMS 队列目标
+
 这定义了用于发送/接收消息的实际队列端点。
 
 1. 在导航窗格中，展开 **资源 > JMS > 队列**。
@@ -64,6 +67,7 @@ IBM WebSphere Application Server (WAS) 通过 Java Message Service (JMS) 与 IBM
 7. 保存配置。
 
 #### 步骤 3：（可选）为消息驱动 Bean (MDB) 创建激活规范
+
 如果使用 MDB 异步消费消息：
 
 1. 在导航窗格中，展开 **资源 > JMS > 激活规范**。
@@ -84,6 +88,7 @@ IBM WebSphere Application Server (WAS) 通过 Java Message Service (JMS) 与 IBM
 6. 单击 **确定** 并保存。
 
 #### 步骤 4：验证和测试
+
 - **在控制台中测试**：使用工厂和规范上的 **测试连接**。
 - **部署应用**：创建一个简单的 JMS 客户端或 MDB 应用，部署它，并通过 IBM MQ 工具（例如 MQ Explorer）发送/测试消息。
 - **监控**：在 **监控和调优 > 性能查看器** 或 **故障排除 > 日志** 下，检查与 JMS 相关的错误。
@@ -95,6 +100,7 @@ IBM WebSphere Application Server (WAS) 通过 Java Message Service (JMS) 与 IBM
 有关命令行替代方案（wsadmin 脚本），请参考 IBM 文档。根据您的版本进行调整（例如，WAS 9.0.5+ 支持 JMS 2.0）。
 
 #### 参考资料
+
 - [在 WebSphere Application Server 中配置 JMS 资源](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)
 - [WebSphere MQ 消息提供程序队列设置](https://www.ibm.com/docs/en/was/8.5.5?topic=settings-websphere-mq-messaging-provider-queue)
 - [创建 WebSphere MQ 消息提供程序队列连接工厂](https://help.hcl-software.com/commerce/7.0.0/com.ibm.commerce.integration.doc/tasks/tcvjmsqueuefactory.html)

@@ -17,6 +17,7 @@ Answer:
 As a **Chinese citizen** with **10 years of experience** as a **software engineer**, you are generally well-positioned for the **UK Skilled Worker visa**, since software engineering roles are eligible and in demand. However, the process is employer-driven and has strict requirements, especially under the rules in effect in 2026.
 
 ### Key Eligibility Requirements
+
 - **Job Offer and Sponsorship**: You must have a genuine job offer from a UK employer with a valid **Home Office sponsor licence**. The employer issues a **Certificate of Sponsorship (CoS)**, which is essential for your application.
 - **Eligible Occupation**: Software engineer roles (e.g., SOC codes like 2134 for programmers/software development professionals or 2137 for software engineers) qualify at **RQF Level 6** (graduate-level) or higher.
 - **Salary Threshold**: For new applications in 2026, you usually need:
@@ -34,6 +35,7 @@ As a **Chinese citizen** with **10 years of experience** as a **software enginee
 Your **10 years of experience** strengthens your application, as employers must confirm you meet the job's skill requirements, but the visa focuses more on the job offer, salary, and sponsorship than personal experience alone.
 
 ### Application Process (from Outside the UK)
+
 1. Secure a job offer from a licensed UK sponsor in an eligible software engineering role with sufficient salary.
 2. Employer assigns you a CoS reference number.
 3. Apply online via the official GOV.UK website (up to 3 months before your start date).
@@ -45,6 +47,7 @@ Your **10 years of experience** strengthens your application, as employers must 
 If approved, you get a visa vignette (sticker) in your passport for entry, then access your eVisa digitally. The visa is usually granted for up to 5 years (matching the CoS length) and can be extended.
 
 ### Challenges and Tips
+
 - No direct self-application without a sponsor—focus on job hunting (e.g., via LinkedIn, UK tech companies, or recruiters specializing in international hires).
 - Chinese nationals face no unique nationality-based barriers beyond standard rules (e.g., TB test).
 - High salary thresholds make senior/experienced roles more feasible.

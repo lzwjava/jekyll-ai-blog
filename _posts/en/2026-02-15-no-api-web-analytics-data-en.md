@@ -27,6 +27,7 @@ Key reasons and current status (as of early 2026):
   Even for proxied zones, monthly unique visitors are not directly available (you'd need to sum daily data yourself over many days, but uniques can't be accurately summed across days anyway — Cloudflare itself doesn't expose true monthly uniques via API in most cases). For Web Analytics, there is no equivalent daily/hourly breakdown exportable via API.
 
 ### What you can do instead
+
 1. **Manual export from dashboard (recommended for most users)**
    - Go to **Analytics & Logs** → **Web Analytics** → select your site (e.g., `username.github.io`)
    - View the **Visitors** or **Page views** chart

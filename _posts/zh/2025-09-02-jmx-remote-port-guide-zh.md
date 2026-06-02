@@ -25,6 +25,7 @@ type: note
   -Dcom.sun.management.jmxremote.authenticate=false
   -Dcom.sun.management.jmxremote.ssl=false
   ```
+
 * 启用后，JVM 会在指定端口启动 RMI（远程方法调用）连接器服务器
 
 ### 2. 关于 9091 端口
@@ -41,6 +42,7 @@ type: note
   ```bash
   jconsole 主机名:9091
   ```
+
 * 与监控系统集成（如 Prometheus JMX 导出器）
 * 故障排查时的远程管理（例如检查堆转储、线程状态、GC 行为）
 

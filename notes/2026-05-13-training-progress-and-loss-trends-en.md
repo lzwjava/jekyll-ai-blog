@@ -12,6 +12,7 @@ type: note
 ## Progress (02:14 HKT Wed, +3h09m since last check)
 
 **Current state:**
+
 - iter **~4,440 / 19,073** — **23.3% done** (was 17.9% at 23:05)
 - last val loss **3.3454** at iter 4000 (down from 3.40 at iter 3000)
 - recent train losses settled in **3.0–3.4** band, occasional dip below 3.0 (iter 3740: 2.99, iter 3940: 2.99, iter 4020: 2.94)

@@ -61,7 +61,7 @@ Steve Wozniak (co-founder of Apple Inc.) is exceptionally knowledgeable in areas
 
 ---
 
-### 🔍 Summary Table:
+### 🔍 Summary Table
 
 | **Topic Area**                            | **Wozniak’s Knowledge Level** | **Comment**                                   |
 | ----------------------------------------- | ----------------------------- | --------------------------------------------- |

@@ -30,6 +30,7 @@ openwrt/
 ```
 
 Key facts:
+
 - Latest commits from **2026-05-23** — this is a very recent checkout of the main branch
 - Recent activity includes kernel driver patches (hwmon, realtek NIC), fstools updates, and x86 ONIE installer support
 - The build system is **Kconfig + Makefile** based — you configure with `make menuconfig`, then `make` to cross-compile a full firmware image

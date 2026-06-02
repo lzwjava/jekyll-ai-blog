@@ -17,7 +17,7 @@ Answer:
 
 It is a high-performance routing technique used in telecommunications and enterprise networks to direct data from one network node to the next based on short **labels** rather than long network addresses (like IP addresses).
 
-### Key points about MPLS:
+### Key points about MPLS
 
 - **How it works**
   Packets are assigned a short, fixed-length label (20-bit label in the MPLS header) when they enter the MPLS network (at the Label Edge Router – LER).

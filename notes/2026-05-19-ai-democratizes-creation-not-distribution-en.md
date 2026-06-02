@@ -36,6 +36,7 @@ The market is more like **infinite shelf space** — like how the internet let t
 **1. Distribution is still zero-sum**
 
 Building is no longer the bottleneck. *Attention* is. Everyone vibe-coding unique products still has to compete for:
+
 - Google SEO rankings
 - App Store placement
 - Twitter/X mindshare
@@ -46,6 +47,7 @@ AI doesn't solve distribution. It arguably makes it worse — more products comp
 **2. Commoditization of the build layer**
 
 If *everyone* can vibe-code a CRM, a Notion clone, a financial dashboard — then the product itself has near-zero differentiation. The moat shifts to:
+
 - **Data** (proprietary datasets, network effects)
 - **Trust** (brand, reputation, compliance)
 - **Integration depth** (enterprise switching costs)
@@ -63,6 +65,7 @@ Custom silicon (Apple M-series, Google TPUs, Groq LPUs, Cerebras) is a massive c
 ## The Right Mental Model: Cambrian Explosion, Not Utopia
 
 Think of it like the App Store in 2009. Everyone *could* succeed. Many *did* find niches. But:
+
 - Most apps died in obscurity
 - The top 0.1% captured most revenue
 - Platform dependency became a new risk

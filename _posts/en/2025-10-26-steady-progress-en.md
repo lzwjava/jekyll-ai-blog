@@ -33,12 +33,14 @@ This shift won't erase insecurity overnight, but it makes persistence feel like 
 Based on your failed attempts (e.g., Networks at 21/44, Linear Algebra at 47/54), the patterns scream "practice over passive intake." Videos are a start, but they're like reading React docs without building an app—feels good, sticks poorly. Here's a tailored blueprint, focusing on your top pain points. Aim for 10-15 hours/week, split 60/40 active/passive.
 
 #### General Routine Upgrades
+
 - **Sleep & Logistics**: Spot-on advice. Add a "pre-exam ritual": 7-8 hours sleep, light review the night before (no cramming), and a 5-min location scout app (like Baidu Maps) to avoid chaos.
 - **Active Recall Loop**: Ditch "walking through videos." After each, close the tab and rewrite key concepts from memory. Then, quiz yourself with Anki flashcards—import exam-style questions from past papers.
 - **Time Blocking**: With your job, batch prep: 1-hour mornings for theory (e.g., Mao Zedong readings), evenings for practice. Use Pomodoro (25-min sprints) + your air fryer breaks for flow.
 - **Accountability Hack**: Since you document at work, start a private "degree repo" on GitHub. Commit weekly summaries—ties into your 500+ commit habit.
 
 #### Course-Specific Tips
+
 Focusing on your 7 preps, prioritizing the tech-heavy ones (Networks, Linear Algebra) since they align with your career curiosity. For the ideological ones (Mao Zedong, Ideological Cultivation), treat as "quick wins"—they're more memorization, less depth.
 
 | Course | Key Weakness (From Your Notes) | Actionable Fix | Resources (English-First) | Target Score Boost |
@@ -54,6 +56,7 @@ Focusing on your 7 preps, prioritizing the tech-heavy ones (Networks, Linear Alg
 For all: Source past exams from the self-study exam portal (if accessible) or forums like Zhihu. Track in a simple sheet: "Week X: Hours in, questions solved, confidence %."
 
 ### Next Steps: Execute Now
+
 - **This Week**: Pick 2 courses (say, Networks + Linear). Spend 2 hours/day on practice sets. Journal one "curiosity win" per session (e.g., "Ah, TCP handshakes explain my Redis latency!").
 - **Milestone**: By Dec 2025, aim to pass 3 more. Celebrate with a road trip snippet— you've earned it.
 - **If Stuck**: Share a specific pain (e.g., "Matrix inversion hell")—I can walk through examples or pseudocode.

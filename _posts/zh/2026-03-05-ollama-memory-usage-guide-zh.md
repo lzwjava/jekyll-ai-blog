@@ -20,6 +20,7 @@ type: note
 - Ollama 服务器进程在空闲或仅保持 API 开放时保持较小 (~100–300 MB)；繁重工作发生在 GPU 加速的 Metal buffers 或共享内存池中，macOS 并不总是清楚地将它们归属到一个进程。
 
 ### qwen3.5:9b 在 Mac M2/M3 上的典型真实内存使用量 (2026 年 3 月)
+
 - 磁盘上的模型文件：**6.6 GB**
 - 加载 + 短上下文推理：**~8–10 GB** unified memory 使用 (大部分通过 Metal 在 GPU 侧)
 - 更长上下文 (例如 8k–16k tokens)：**10–14 GB**，取决于确切配置
@@ -27,6 +28,7 @@ type: note
 - 在 24 GB+ Mac 上：感觉非常流畅，通常 40–70+ tokens/second
 
 ### 为什么最初看起来这么小
+
 - 在发送任何提示之前：模型可能尚未完全加载 (Ollama 会延迟加载或在不活动后卸载以节省资源)。
 - `ps`、`top` 或 Activity Monitor 的“Memory”选项卡针对 `ollama` 进程通常只显示 **~150–300 MB**，因为主体部分在：
   - Metal GPU buffers (不总是按进程列出)
@@ -38,6 +40,7 @@ type: note
 简而言之：**159 MB 对于空闲服务器进程是正常的**。模型在活动时实际使用数 GB——这是 Apple Silicon 上预期的且高效的。如果您看到性能差或错误，请检查总系统内存压力，而不是仅看进程大小。
 
 References:
+
 - [Ollama qwen3.5:9b 模型页面 (6.6 GB Q4_K_M)](https://ollama.com/library/qwen3.5:9b)
 - [Stack Overflow: 为什么 Ollama 不使用更多 RAM？(memory mapping 解释)](https://stackoverflow.com/questions/78068285/why-doesnt-ollama-use-more-ram)
 - [GitHub Ollama issues 关于内存报告 (file cache & under-reporting)](https://github.com/ollama/ollama/issues/2496)

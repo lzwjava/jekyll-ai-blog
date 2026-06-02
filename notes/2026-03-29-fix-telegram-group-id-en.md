@@ -21,6 +21,7 @@ Invalid allowFrom entry: "-4714712674"
 **What I did — two changes to `openclaw.json`:**
 
 **Before (wrong):**
+
 ```json
 "channels": {
   "telegram": {
@@ -31,6 +32,7 @@ Invalid allowFrom entry: "-4714712674"
 ```
 
 **After (correct):**
+
 ```json
 "channels": {
   "telegram": {
@@ -46,6 +48,7 @@ Invalid allowFrom entry: "-4714712674"
 ```
 
 **The distinction:**
+
 - `groupAllowFrom` → for **individual user IDs** (who can trigger the bot)
 - `groups` → for **group chat IDs** (which groups are allowed)
 

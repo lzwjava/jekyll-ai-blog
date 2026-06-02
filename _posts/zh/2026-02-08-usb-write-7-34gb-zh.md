@@ -42,6 +42,7 @@ type: note
 因此，对于使用 `dd … bs=1m` 写入同一 USB 驱动器的 7.34 GB 文件，你应该预期等待大约 **7 到 9 分钟**。
 
 可能使其更快的建议：
+
 - 如果尚未配置，请使用 USB 3.0/3.1 端口
 - 尝试使用另一个（更新/更快）的 USB flash drive
 - 使用 Etcher、Rufus 或 Ventoy 代替原始的 `dd` —— 它们有时能更好地处理 caching 和 I/O

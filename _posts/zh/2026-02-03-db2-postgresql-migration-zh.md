@@ -22,6 +22,7 @@ Answer:
 - **长期成本** — 通常**便宜得多**。PostgreSQL 是开源免费的，没有 Licensing 费用（不像 DB2 的 PVU 或按用户授权模式），运营成本更低，且在许多 Workload 下性能表现强劲。许多机构在迁移后报告了可观的资金节省。
 
 总成本取决于：
+
 - 数据库规模（如数据量、Object 数量）。
 - Stored Procedures 和 Functions 的数量及复杂度。
 - 应用程序代码对 DB2 特定特性的依赖程度。

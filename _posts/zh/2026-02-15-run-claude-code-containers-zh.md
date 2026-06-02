@@ -31,6 +31,7 @@ docker sandbox run claude ~/my-project
 - 设置成本极低
 
 你也可以直接传递 prompt：
+
 ```bash
 docker sandbox run claude -- "refactor this API client to use async/await"
 ```
@@ -43,7 +44,7 @@ docker sandbox run claude -- "refactor this API client to use async/await"
 
 1. 安装 **Docker Desktop** + **VS Code** + **Dev Containers** 扩展
 2. 使用 Anthropic 官方模板或社区模板：
-   - https://github.com/anthropics/claude-code (查找 `.devcontainer` 文件夹)
+   - <https://github.com/anthropics/claude-code> (查找 `.devcontainer` 文件夹)
    - 存在许多社区分支 / 模板（搜索 "claude code devcontainer"）
 3. 打开文件夹 → 选择 "Reopen in Container"
 4. Claude Code 在具有强隔离性的容器内运行
@@ -54,6 +55,7 @@ docker sandbox run claude -- "refactor this API client to use async/await"
 ### 3. 普通 Docker 容器 (自定义 / 云端 VPS 友好)
 
 最小化的 Dockerfile 示例：
+
 ```dockerfile
 FROM ubuntu:24.04
 
@@ -69,6 +71,7 @@ CMD ["claude"]
 ```
 
 构建并运行：
+
 ```bash
 docker build -t claude-code .
 docker run -it --rm \
@@ -78,6 +81,7 @@ docker run -it --rm \
 ```
 
 在 **云端 VPS** (RunPod, Hostinger, AWS EC2, DigitalOcean 等) 上：
+
 - 通过 SSH 进入服务器
 - 安装 Docker
 - 使用上述方法之一
@@ -93,6 +97,7 @@ docker run -it --rm \
 ### 5. 如果你想运行完全本地模型 (无 Anthropic API)
 
 一些人通过 **Docker Model Runner** 或 Ollama + Anthropic 兼容端点，将 Anthropic 后端替换为本地模型：
+
 ```bash
 ANTHROPIC_BASE_URL=http://localhost:12434 claude --model your-local-model ...
 ```
@@ -102,6 +107,7 @@ ANTHROPIC_BASE_URL=http://localhost:12434 claude --model your-local-model ...
 **安全提示**：始终在容器中运行 Claude Code —— 永远不要直接在你的主机器上带危险标志运行，特别是当交给它长时间运行的 / 自主任务时。
 
 根据你的目标选择方法：
+
 - 快速且本地使用 → `docker sandbox run claude`
 - 开发工作流 → VS Code Dev Container
 - 24/7 云端 agent → VPS + Docker 或托管 sandbox (E2B, Cloudflare, RunPod)

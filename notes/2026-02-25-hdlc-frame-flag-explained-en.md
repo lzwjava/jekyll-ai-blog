@@ -28,6 +28,7 @@ The flag field value is:
 ```
 
 This pattern serves dual purposes:
+
 - It marks the **end** of the previous frame
 - It marks the **beginning** of the next frame
 

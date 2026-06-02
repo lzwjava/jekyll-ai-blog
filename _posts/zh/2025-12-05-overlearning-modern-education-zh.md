@@ -16,7 +16,7 @@ type: note
 
 是的，在当今生活的许多领域——尤其是在正规教育、企业培训、自我提升文化和追求文凭方面——人们相对于实际应用或能产生实际结果而言，存在大量的**过度学习**。
 
-### 关于学习的冷门（但日益得到证实）观点：
+### 关于学习的冷门（但日益得到证实）观点
 
 - **大多数正规教育是伪装的过度学习**
   高中乃至大学所教授的大部分内容，90%以上毕业生在毕业后从未使用过。人们花费12-20年时间记忆事实、解决人为设置的问题，这些对成年生活或工作几乎没有转化价值。
@@ -48,6 +48,7 @@ type: note
 简而言之：社会目前奖励学习的表象远超实际掌握，所以是的——大规模的过度学习是常态，许多最受称赞的学习习惯要么效率低下，要么完全适得其反。
 
 参考文献：
-- Caplan, Bryan. *The Case Against Education* (2018) → https://press.princeton.edu/books/hardcover/9780691174655/the-case-against-education
+
+- Caplan, Bryan. *The Case Against Education* (2018) → <https://press.princeton.edu/books/hardcover/9780691174655/the-case-against-education>
 - Ericsson & Pool. *Peak: Secrets from the New Science of Expertise* (2016) (原始的刻意练习研究，常被误引)
 - Newport, Cal. 关于“深度工作”和大多数知识工作学习肤浅性的各种作品

@@ -17,7 +17,9 @@ Answer:
 **Using comments to build relationships on social media** is a powerful, low-pressure way to show care, support, and genuine interest without needing to create your own content. Many people build strong, warm connections precisely by being consistent commenters rather than frequent posters. This approach feels authentic because it focuses on others instead of self-promotion.
 
 ### Why "comment-only" people often develop good relationships
+
 People who rarely or never post but regularly comment (sometimes called "lurkers" or "silent engagers") tend to display traits like:
+
 - High emotional intelligence and thoughtfulness — they observe carefully before responding.
 - Strong privacy boundaries and lower need for external validation.
 - Genuine care for others — they prioritize supporting friends/connections over showcasing themselves.
@@ -26,6 +28,7 @@ People who rarely or never post but regularly comment (sometimes called "lurkers
 This creates a "warm" feeling because their engagement feels selfless. When someone consistently shows up in your comments with kindness, it signals: "I see you, I care, and I'm here for you" — without any agenda. Over time, this builds trust and closeness, often stronger than flashy posts.
 
 ### General principles for effective commenting (applies to most platforms)
+
 - **Be genuine and specific** — Avoid generic replies like "Nice!" or "Great post." Reference something particular from the content.
 - **Add value** — Share a related thought, personal experience, question, or encouragement that enriches the conversation.
 - **Be timely** — Comment soon after posting (especially on LinkedIn) for better visibility and response.
@@ -34,24 +37,29 @@ This creates a "warm" feeling because their engagement feels selfless. When some
 - **Keep it concise but meaningful** — Aim for 1–4 sentences that feel personal.
 
 ### Platform-specific tips
+
 **LinkedIn (professional networking)**
+
 - Focus on adding insights, data, frameworks, or questions that invite discussion (e.g., "Spot on about churn — we reduced it 18% with X strategy. What's your current benchmark?").
 - Comment on industry leaders or connections to get noticed and start conversations.
 - This strategy builds authority and leads without posting much — many people network successfully just by commenting thoughtfully.
 
 **WeChat (Moments — more personal/close-circle)**
+
 - Moments comments are visible only to mutual friends, making them intimate.
 - Use personalized, warm replies (e.g., reference shared memories or offer congratulations/support).
 - Consistent commenting shows you pay attention to friends' lives, strengthening real-world bonds in Chinese social culture where subtle care matters a lot.
 - Personalized interactions can significantly boost relationship quality.
 
 **Facebook (friends/family/community)**
+
 - Comments here feel more personal and conversational.
 - Like + comment on life events (birthdays, achievements, tough days) to show you're there.
 - Thoughtful replies foster community and deeper connections — science even shows deeper Facebook conversations improve well-being.
 - It's great for maintaining warm ties with less frequent posters.
 
 **Other platforms (Instagram, X/Twitter, etc.)**
+
 - Similar rules apply: value-adding, specific, empathetic comments stand out.
 - On visual platforms, reference details in photos/videos for extra warmth.
 

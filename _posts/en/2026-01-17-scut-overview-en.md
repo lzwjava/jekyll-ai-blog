@@ -17,6 +17,7 @@ Answer:
 **South China University of Technology (SCUT)** (华南理工大学) is one of China's top public research universities, located in **Guangzhou**, Guangdong Province.
 
 ### Key Facts
+
 - **Established**: 1952 (originally as South China Institute of Technology)
 - **Renamed**: 1988 to its current name
 - **Type**: Public university directly under the Ministry of Education, co-sponsored by Guangdong Province
@@ -27,9 +28,11 @@ Answer:
   - Guangzhou International Campus (newer, with strong international focus)
 
 ### Academic Profile
+
 SCUT started as a strong engineering-focused institution formed by merging the best engineering departments from several major universities in central and southern China (including parts of Sun Yat-sen University, Lingnan University, Hunan University, and others).
 
 Over the decades it has developed into a comprehensive, multidisciplinary university with particular strength in:
+
 - Engineering (its traditional core and still the strongest area)
 - Science
 - Business & Management
@@ -38,6 +41,7 @@ Over the decades it has developed into a comprehensive, multidisciplinary univer
 - Some medical-related disciplines
 
 It is especially renowned for fields such as:
+
 - Architecture
 - Chemical engineering
 - Materials science
@@ -47,12 +51,14 @@ It is especially renowned for fields such as:
 - Computer science & AI-related engineering
 
 ### Reputation & Achievements
+
 - Consistently ranks among China's top 20–30 universities (often top 10–15 in engineering & technology subjects)
 - Very strong in scientific research output and high-quality papers
 - High graduate employment rate (historically ~99%)
 - Produced over 290,000 alumni, many of whom became leading engineers, entrepreneurs, scientists, and senior executives in China
 
 ### Internationalization
+
 SCUT has developed strong international partnerships, offers many English-taught programs (especially at the Guangzhou International Campus), and actively recruits international students.
 
 In summary, SCUT is widely regarded as one of the best universities in southern China, particularly for students interested in engineering, technology, innovation, and related interdisciplinary fields.

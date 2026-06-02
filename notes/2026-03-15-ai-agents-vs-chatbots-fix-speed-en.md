@@ -33,6 +33,7 @@ Every iteration has **human latency** — copy, paste, read, type. A single apt 
 ### The New Way (Agent with sudo Access)
 
 The agent:
+
 1. **Runs** `sudo apt upgrade` itself
 2. **Sees** the NVIDIA conflict directly
 3. **Investigates** — checks `dpkg -l | grep nvidia`, reads `/var/log/apt/`, checks held packages
@@ -41,12 +42,14 @@ The agent:
 6. **Iterates in seconds**, not minutes
 
 For your specific error, it would likely chain:
+
 ```bash
 apt-cache policy nvidia-persistenced
 dpkg --get-selections | grep hold
 sudo apt-mark unhold <package>
 sudo apt --fix-broken install
 ```
+
 ...all without waiting for you.
 
 ---

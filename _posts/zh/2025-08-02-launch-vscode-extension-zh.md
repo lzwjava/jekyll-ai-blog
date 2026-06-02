@@ -17,6 +17,7 @@ type: note
 
 2. **验证扩展设置**：
    - 确保项目根目录中有有效的 `package.json` 文件，至少包含以下字段：
+
      ```json
      {
        "name": "your-extension-name",
@@ -32,8 +33,9 @@ type: note
        "contributes": {}
      }
      ```
+
    - 确保有 `extension.js`（或等效文件）作为扩展代码的入口点。
-   - 如果扩展使用 Node.js 模块，请在集成终端（`Ctrl+``）中运行 `npm install` 安装依赖项。
+   - 如果扩展使用 Node.js 模块，请在集成终端（`Ctrl+``）中运行`npm install` 安装依赖项。
 
 3. **按 F5 启动扩展开发宿主**：
    - 在 VSCode 中打开扩展项目时，按键盘上的 **F5**。
@@ -46,6 +48,7 @@ type: note
 4. **调试配置**：
    - VSCode 使用 `.vscode` 文件夹中的 `launch.json` 文件来配置调试。如果该文件不存在，当您首次按 F5 时，VSCode 会自动创建一个。
    - 典型的扩展 `launch.json` 如下所示：
+
      ```json
      {
        "version": "0.2.0",
@@ -61,6 +64,7 @@ type: note
        ]
      }
      ```
+
    - 确保 `preLaunchTask`（如果存在）与 `tasks.json` 中的任务匹配（例如用于编译 TypeScript）。
 
 5. **测试扩展**：
@@ -76,6 +80,7 @@ type: note
    - 如果扩展宿主未启动，请确保项目在 `package.json` 或主扩展文件中没有语法错误。
 
 **附加说明**：
+
 - 您还可以通过打开 **运行和调试** 面板（Windows/Linux 为 `Ctrl+Shift+D`，Mac 为 `Cmd+Shift+D`），从下拉菜单中选择“运行扩展”，然后单击绿色播放按钮来启动扩展开发宿主。
 - 要在进行更改后重新加载扩展宿主，请在扩展开发宿主窗口中使用 `Ctrl+R`（Windows/Linux）或 `Cmd+R`（Mac），或使用 F5 重新启动。
 

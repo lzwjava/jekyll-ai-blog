@@ -13,8 +13,10 @@ type: note
 ### 准备工作
 
 运行示例前请确保：
+
 1. **API 密钥**：有效的 Mistral AI API 密钥已存储在 `MISTRAL_API_KEY` 环境变量中
 2. **依赖项**：已安装所需的 Python 包。可通过以下命令安装：
+
    ```bash
    pip install requests numpy
    ```
@@ -117,12 +119,14 @@ if __name__ == "__main__":
 ### 运行方法
 
 1. **设置 API 密钥**：
+
    ```bash
    export MISTRAL_API_KEY="your_api_key_here"
    ```
 
 2. **保存并执行**：
    将脚本保存（如保存为 `embedding_example.py`）并运行：
+
    ```bash
    python embedding_example.py
    ```
@@ -130,6 +134,7 @@ if __name__ == "__main__":
 ### 预期输出
 
 假设 API 调用成功，您将看到类似以下的输出（具体值取决于返回的嵌入向量）：
+
 ```
 嵌入维度：1024
 
@@ -157,13 +162,17 @@ if __name__ == "__main__":
 ### 其他应用场景
 
 Mistral AI 的嵌入向量除了相似度检测外，还可应用于：
+
 - **聚类**：使用 K-means 等算法对相似文本进行分组（需要 `scikit-learn`）
+
   ```python
   from sklearn.cluster import KMeans
   kmeans = KMeans(n_clusters=2).fit(np.array(embeddings))
   print(kmeans.labels_)
   ```
+
 - **搜索**：嵌入查询并找到最相似的文本：
+
   ```python
   query = "Tell me about Python."
   query_emb = call_mistral_embeddings_api([query])[0]
@@ -171,6 +180,7 @@ Mistral AI 的嵌入向量除了相似度检测外，还可应用于：
   most_similar = texts[np.argmax(similarities)]
   print(f"最相似的文本：'{most_similar}'")
   ```
+
 - **分类**：在机器学习模型中使用嵌入向量作为特征
 
 ### 注意事项

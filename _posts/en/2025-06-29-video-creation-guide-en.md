@@ -9,11 +9,13 @@ type: note
 ---
 
 To create educational short videos with a black background and captions synchronized with audio generated from text using the DeepSeek API and Google Cloud Text-to-Speech API, you can use Python to orchestrate the process. Below is a step-by-step guide and a Python script that accomplishes this. The script will:
+
 1. Use DeepSeek API to generate or refine a script (assuming you provide the educational content).
 2. Use Google Cloud Text-to-Speech API to convert the script into audio.
 3. Use a library like `moviepy` to create a video with a black background and captions synchronized with the audio.
 
 ### Prerequisites
+
 - **DeepSeek API Key**: Sign up at [DeepSeek](https://api-docs.deepseek.com/) and obtain an API key.
 - **Google Cloud Text-to-Speech API**:
   - Set up a Google Cloud project and enable the Text-to-Speech API.
@@ -24,11 +26,13 @@ To create educational short videos with a black background and captions synchron
 - **FFmpeg**: Ensure FFmpeg is installed for `moviepy` to handle video rendering (download from [FFmpeg website](https://ffmpeg.org/) or install via package manager).
 
 ### Steps
+
 1. **Generate or Refine Script with DeepSeek API**: Use DeepSeek to create or polish the educational script, ensuring it’s concise and suitable for a 1-minute video.
 2. **Convert Text to Audio with Google Cloud Text-to-Speech**: Split the script into paragraphs, generate audio for each, and save as separate audio files.
 3. **Create Video with MoviePy**: Generate a video with a black background, display captions for each paragraph synchronized with the audio, and combine them into a final 1-minute video.
 
 ### Python Script
+
 The following script assumes you have a text file with the educational content (paragraphs) and generates a video with a black background and captions.
 
 ```python
@@ -149,6 +153,7 @@ if __name__ == "__main__":
 ```
 
 ### How to Use
+
 1. **Set Up Credentials**:
    - Replace `"path/to/your/google-credentials.json"` with the path to your Google Cloud service account JSON file.
    - Replace `"your_deepseek_api_key"` with your DeepSeek API key.
@@ -165,6 +170,7 @@ if __name__ == "__main__":
    - Audio files for each paragraph will be saved in the `audio` directory.
 
 ### Notes
+
 - **DeepSeek API**: The script uses the `deepseek-chat` model to refine the script. Ensure your API key is valid and you have sufficient credits. The DeepSeek API is used here to structure the script for video narration, as it excels in text generation and optimization.[](https://www.datacamp.com/tutorial/deepseek-api)
 - **Google Cloud Text-to-Speech**: The script uses the `en-US-Wavenet-D` voice for natural-sounding English narration. You can change the voice by modifying the `name` parameter in `VoiceSelectionParams` (see Google Cloud Text-to-Speech documentation for other voice options).
 - **MoviePy**: The video is created in 1280x720 resolution (HD). You can adjust the `size` parameter in `TextClip` and `ColorClip` for different resolutions.
@@ -172,12 +178,15 @@ if __name__ == "__main__":
 - **Dependencies**: Ensure FFmpeg is installed and accessible in your system’s PATH for `moviepy` to work correctly.
 
 ### Example Output
+
 If your input script is about machine learning, the refined script might look like:
+
 ```
 ["Machine learning, a branch of AI, enables computers to learn from data.",
  "It uses algorithms to find patterns and predict outcomes.",
  "Applications include image recognition and healthcare innovations."]
 ```
+
 - Each paragraph generates an audio file (e.g., `paragraph_1.mp3`, `paragraph_2.mp3`, etc.).
 - The final video shows a black background with white captions appearing sequentially, synchronized with the audio narration.
 

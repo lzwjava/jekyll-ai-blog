@@ -57,7 +57,7 @@ Upgrading directly from v20 to v30+ in one step is **not recommended** due to cu
 2. **Preparation Steps:**
    - Check your current framework (React, Angular, Vue, plain JS) and its version compatibility with target AG Grid version
    - Backup your project
-   - Review the official changelog for each major version: https://www.ag-grid.com/changelog/
+   - Review the official changelog for each major version: <https://www.ag-grid.com/changelog/>
 
 3. **Upgrade Steps (General):**
    - Update package.json dependencies:

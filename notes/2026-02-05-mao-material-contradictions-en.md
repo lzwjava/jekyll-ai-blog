@@ -16,6 +16,7 @@ This is a multiple-choice question about Mao Zedong's principles for handling di
 Regarding contradictions among the people concerning material interests and distribution, what principle did Mao Zedong propose?
 
 **Answer Options:**
+
 - A: "Unity—Criticism—Unity"
 - B: "Long-term Coexistence, Mutual Supervision"
 - C: "Let a Hundred Flowers Bloom, Let a Hundred Schools of Thought Contend"

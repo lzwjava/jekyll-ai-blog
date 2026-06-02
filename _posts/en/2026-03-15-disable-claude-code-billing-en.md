@@ -22,6 +22,7 @@ This is an **undocumented but real environment variable** that controls whether 
 ### What the Header Looks Like
 
 Starting with Claude Code version 2.1.36, Claude Code sends a special header that changes with every request. It looks like:
+
 ```
 x-anthropic-billing-header: cc_version=xxxx; cc_entrypoint=cli; cch=xxxx;...
 ```

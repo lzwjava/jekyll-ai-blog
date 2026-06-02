@@ -29,6 +29,7 @@ Under Wang's leadership, BYD expanded into EVs, solar panels, and energy storage
 Known for his modest, low-profile style—flying economy, eating in the company cafeteria, and living in employee housing—Wang remains deeply involved in BYD's operations. He set ambitious goals in 2008: dominate China's auto market by 2015 (achieved) and become the world's largest carmaker by 2025 (on track). A member of the Chinese Communist Party, Wang credits two key influences—his siblings for enabling his education and the battery institute for his expertise—as life-changers. His journey embodies China's economic miracle, proving that strategic vision and relentless execution can turn personal adversity into global dominance.
 
 References:
+
 - [Wang Chuanfu - Wikipedia](https://en.wikipedia.org/wiki/Wang_Chuanfu)
 - [BYD's founder Wang Chuanfu: Two people changed his whole life](https://www.ourchinastory.com/en/13225/BYD%27s-founder-Wang-Chuanfu:-Two-people-changed-his-whole-life)
 - [BYD founder Wang Chuanfu, the peasant who became China’s richest man](https://english.elpais.com/economy-and-business/2025-10-25/byd-founder-wang-chuanfu-the-peasant-who-became-chinas-richest-man.html)

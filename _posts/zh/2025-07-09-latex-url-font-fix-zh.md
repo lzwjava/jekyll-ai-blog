@@ -24,6 +24,7 @@ type: note
      ```
      ps aux | grep latex
      ```
+
    * 找到 PID 后，使用 `kill` 命令终止进程：
 
      ```

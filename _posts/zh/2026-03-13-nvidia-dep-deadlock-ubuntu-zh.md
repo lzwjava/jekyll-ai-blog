@@ -12,6 +12,7 @@ type: note
 ## 诊断
 
 你陷入了由 **mixed NVIDIA package versions**（混合 NVIDIA 软件包版本）引起的循环依赖地狱：
+
 - 某些软件包处于 `535.288.01-0ubuntu1` (Ubuntu repo)
 - 某些仍处于 `535.274.02-0ubuntu1` 或 `535.288.01-0ubuntu0.22.04.1` (NVIDIA repo)
 
@@ -29,6 +30,7 @@ sudo dpkg -i --force-overwrite \
 ```
 
 如果那些 `.deb` 文件已从缓存中消失，请重新下载它们：
+
 ```bash
 sudo apt-get download nvidia-kernel-common-535 libnvidia-extra-535
 sudo dpkg -i --force-overwrite nvidia-kernel-common-535_*.deb
@@ -45,11 +47,13 @@ sudo dpkg --remove --force-remove-reinstreq \
 ```
 
 或者更保守地，先列出它们：
+
 ```bash
 dpkg -l | grep -E 'nvidia|cuda|libnvidia' | awk '{print $2}'
 ```
 
 然后移除列出的所有内容：
+
 ```bash
 sudo apt purge --allow-remove-essential \
   nvidia-* libnvidia-* cuda-* nvidia-dkms-535 nvidia-kernel-common-535 \
@@ -78,6 +82,7 @@ grep -r nvidia /etc/apt/sources.list /etc/apt/sources.list.d/ 2>/dev/null
 ```
 
 如果你看到 **both** `ppa:graphics-drivers` 和 `developer.download.nvidia.com` 的条目，**移除其中一个** 以避免未来冲突：
+
 ```bash
 sudo rm /etc/apt/sources.list.d/cuda*.list
 # 或
@@ -85,6 +90,7 @@ sudo add-apt-repository --remove ppa:graphics-drivers/ppa
 ```
 
 然后更新：
+
 ```bash
 sudo apt update
 ```
@@ -98,6 +104,7 @@ sudo apt install nvidia-driver-535 nvidia-dkms-535
 ```
 
 或者如果你需要 CUDA：
+
 ```bash
 sudo apt install cuda-12-2
 ```

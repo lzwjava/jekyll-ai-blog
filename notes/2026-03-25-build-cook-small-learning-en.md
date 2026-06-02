@@ -43,6 +43,7 @@ He warns that many videos on YouTube/TikTok give the *appearance* of education, 
 He argues that actual learning of anything worth knowing takes time and focused mental effort — reading, taking notes, re-reading, rephrasing, processing, and manipulating the material.
 
 Your cooking experience is a perfect real-world parallel:
+
 - Following a TikTok recipe = watching an AI tutorial video passively
 - Making your own porridge with frozen meat = building nanoGPT from scratch
 

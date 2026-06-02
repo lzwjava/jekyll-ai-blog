@@ -33,6 +33,7 @@ In the "Nine Songs," these figures are split into the "Lord of the Xiang" (ÊπòÂê
 "The Lady of the Xiang" is a dramatic monologue spoken by the Lord of the Xiang, who waits anxiously for his divine consort. The poem unfolds as a succession of images depicting preparation for a rendezvous, the anguish of waiting, and the ultimate disappointment when the goddess fails to appear.
 
 The structure follows a pattern common to shamanistic ritual poetry:
+
 - **Invocation and preparation** (adorning a dwelling for the goddess)
 - **Eager anticipation** (watching for signs of her arrival)
 - **Growing anxiety** (as she fails to appear)
@@ -55,6 +56,7 @@ The poem operates on multiple levels: as a ritual hymn to river deities, as an a
 ## Literary Significance
 
 "The Lady of the Xiang" established enduring patterns in Chinese literature:
+
 - The use of natural imagery to express emotion
 - The conflation of romantic and political allegory
 - The figure of the loyal subject/lover separated from their lord/beloved

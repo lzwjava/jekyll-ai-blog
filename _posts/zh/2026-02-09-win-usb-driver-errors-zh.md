@@ -112,6 +112,7 @@ Windows Setup 将显示：
    convert gpt
    exit
    ```
+
 3. 关闭 CMD → 刷新 → 安装
 
 ---

@@ -17,6 +17,7 @@ Answer:
 This behavior is common in DBeaver with DB2 (especially DB2 LUW or z/OS), where background metadata loading or cache operations can appear stuck or take a very long time, while the main data fetch (e.g., opening a table's Data tab) often proceeds independently and shows results anyway.
 
 ### Why this happens
+
 - DBeaver runs several background tasks when you expand schemas/tables or open objects, such as:
   - Loading table/column metadata
   - Building procedure/argument caches (`Load ArgumentsCache`)
@@ -31,6 +32,7 @@ This behavior is common in DBeaver with DB2 (especially DB2 LUW or z/OS), where 
 - The actual table data load (SELECT * FROM table FETCH FIRST 200 ROWS ONLY by default) is a separate operation and often completes much faster, so you see data even when the background task is still running or appears hung.
 
 ### What you can do
+
 1. **Safely cancel the background task**
    - Go to **Window → Show View → Background Tasks** (or click the progress indicator in the bottom-right corner).
    - Find the long-running task (often named something like "Load DB2TableCache", "Load schema statistics", "Discover resultset metadata", etc.).

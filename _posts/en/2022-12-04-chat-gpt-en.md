@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-I finally got my OpenAI account to try ChatGPT. I knew that http://sms-activate.org to get my SMS code by a fake Indian phone number. However, the website still prompts the error, OpenAI's services are not available in your country. I try to register again on my mobile phone and with another email. This time, I succeed. Then I talk to ChatGPT. Here is the conversation between us. It is smart, however, I finally trap it that it isn't smart sometimes. Ha. Funny.
+I finally got my OpenAI account to try ChatGPT. I knew that <http://sms-activate.org> to get my SMS code by a fake Indian phone number. However, the website still prompts the error, OpenAI's services are not available in your country. I try to register again on my mobile phone and with another email. This time, I succeed. Then I talk to ChatGPT. Here is the conversation between us. It is smart, however, I finally trap it that it isn't smart sometimes. Ha. Funny.
 
 > 5+3
 

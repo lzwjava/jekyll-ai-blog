@@ -17,14 +17,18 @@ Answer:
 In Python, when creating distributable packages (e.g., uploading to PyPI or sharing code), two important files are commonly used with the older **setup.py**-based packaging system (still widely used, though moving toward pyproject.toml):
 
 ### 1. **setup.py**
+
 - **Purpose**: This is the build script for your Python package. It tells Python's packaging tools (like `setuptools`) how to install, build, or distribute your project.
 - **How it works**: You run commands like:
+
   ```bash
   python setup.py sdist    # creates a source distribution (tar.gz)
   python setup.py bdist_wheel  # creates a wheel (.whl)
   python setup.py install   # installs the package locally
   ```
+
 - **Common contents** (example):
+
   ```python
   from setuptools import setup, find_packages
 
@@ -47,9 +51,11 @@ In Python, when creating distributable packages (e.g., uploading to PyPI or shar
       },
   )
   ```
+
 - This file is executed as a Python script when building or installing the package.
 
 ### 2. **MANIFEST.in**
+
 - **Purpose**: Controls which **additional files** (not Python code) get included in the source distribution (`sdist`) created by `setup.py sdist`.
 - By default, `setuptools` includes:
   - All `.py` files
@@ -61,6 +67,7 @@ In Python, when creating distributable packages (e.g., uploading to PyPI or shar
 - **How it works**: It's a simple text file with declarative commands (one per line).
 
 - **Common examples** (`MANIFEST.in`):
+
   ```text
   include README.md
   include LICENSE
@@ -87,7 +94,9 @@ In Python, when creating distributable packages (e.g., uploading to PyPI or shar
 | Build a source distribution | `python setup.py sdist` | Uses both files |
 
 ### Modern Alternative (Recommended since 2020+)
+
 Use `pyproject.toml` + `setuptools` declarative config instead of `setup.py` and `MANIFEST.in`:
+
 ```toml
 # pyproject.toml
 [build-system]
@@ -108,6 +117,7 @@ where = ["src"]
 This avoids `MANIFEST.in` entirely and makes packaging cleaner.
 
 **In short**:
+
 - `setup.py` → the brain of your package (metadata, dependencies, build logic)
 - `MANIFEST.in` → the packing list for extra files in source distributions
 

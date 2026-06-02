@@ -24,16 +24,16 @@ The hang is likely happening because the script is consuming a critical resource
 
 Reading and writing large amounts of data to disk, especially with a loop that processes many files, can saturate the disk's capacity.
 
-  * **Parquet Reading:** Although Parquet is efficient, reading 20 large files involves a massive amount of sequential and potentially random disk reads.
-  * **Text Writing:** Repeatedly appending (writing) to the output file `fineweb_extracted_all.txt` causes continuous disk writes.
-  * **The Problem:** When the disk (especially a **SATA HDD** or a low-end **SATA SSD**) is completely saturated with the application's I/O operations, the system's ability to handle other I/O, including reading/writing data for the desktop environment, mouse movements, and kernel processes, severely degrades, leading to a system-wide freeze.
+* **Parquet Reading:** Although Parquet is efficient, reading 20 large files involves a massive amount of sequential and potentially random disk reads.
+* **Text Writing:** Repeatedly appending (writing) to the output file `fineweb_extracted_all.txt` causes continuous disk writes.
+* **The Problem:** When the disk (especially a **SATA HDD** or a low-end **SATA SSD**) is completely saturated with the application's I/O operations, the system's ability to handle other I/O, including reading/writing data for the desktop environment, mouse movements, and kernel processes, severely degrades, leading to a system-wide freeze.
 
 ### 2\. **Memory/Swap Thrashing (A possibility, but less likely given your code)**
 
 While your code doesn't *store* all the data in memory, the operating system and pandas still need **working memory** and **page caches**.
 
-  * **DataFrame Overhead:** Even if you process row-by-row, loading the *entire* DataFrame for a single Parquet file (`df = pd.read_parquet(parquet_file)`) still requires memory proportional to the size of that file. If your system has limited **RAM** and the DataFrames are large, the OS might start heavily using the **swap partition** on the disk.
-  * **The Problem:** Swap is much slower than RAM. If the system is constantly swapping data between RAM and the disk (**thrashing**), it exacerbates the I/O bottleneck (Cause 1) and effectively stalls the entire system.
+* **DataFrame Overhead:** Even if you process row-by-row, loading the *entire* DataFrame for a single Parquet file (`df = pd.read_parquet(parquet_file)`) still requires memory proportional to the size of that file. If your system has limited **RAM** and the DataFrames are large, the OS might start heavily using the **swap partition** on the disk.
+* **The Problem:** Swap is much slower than RAM. If the system is constantly swapping data between RAM and the disk (**thrashing**), it exacerbates the I/O bottleneck (Cause 1) and effectively stalls the entire system.
 
 ### 3\. **CPU Load Spikes (Less likely to cause a permanent hang)**
 
@@ -49,9 +49,9 @@ To fix this, you need to either reduce the load or monitor what's actually happe
 
 The next time you run the script, open a terminal *before* the script starts and run a system monitoring tool:
 
-  * **`htop`** (for CPU and Memory usage)
-  * **`iotop`** (for Disk I/O usage - *This is the most critical tool for your issue*)
-  * **`nmon`** (for a comprehensive view of all resources)
+* **`htop`** (for CPU and Memory usage)
+* **`iotop`** (for Disk I/O usage - *This is the most critical tool for your issue*)
+* **`nmon`** (for a comprehensive view of all resources)
 
 Watch **`iotop`** as the script runs. If the **IO** column for your Python process (or the overall disk utilization at the top) is consistently at or near **100%**, then Disk I/O Saturation is the cause.
 
@@ -59,7 +59,7 @@ Watch **`iotop`** as the script runs. If the **IO** column for your Python proce
 
 You can introduce a small, strategic delay to allow the disk to "catch up" and free up resources for the OS.
 
-  * **Add a small delay:** After processing a large batch of rows, add a `time.sleep()`.
+* **Add a small delay:** After processing a large batch of rows, add a `time.sleep()`.
 
 <!-- end list -->
 

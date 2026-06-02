@@ -25,6 +25,7 @@ Answer:
 - 他们的官方网站是 frame.work，你可以在那里配置并购买这些笔记本电脑。
 
 虽然其他公司也推出了更具 **serviceable** 或 **semi-modular** 设计的产品（特别是在 CES 2026 趋向于更易维修的趋势之后）：
+
 - Lenovo（例如 ThinkPad X1 Carbon Gen 14 采用 "Space Frame"，可以更轻松地访问 keyboard、battery、fans 等组件）。
 - Dell（新款 XPS 机型配备 modular USB-C ports 并提高了 repairability）。
 - Schenker（预告了计划于 2026 年推出的 Element 16 semi-modular gaming laptop 概念机）。

@@ -26,19 +26,23 @@ Human invention is not random creation from a vacuum. It is a **response to real
 ## The Philosophical Foundations
 
 ### 1. Empiricism — Knowledge Comes from Observation
+
 A central concept in science and the scientific method is that conclusions must be empirically based on the evidence of the senses. Philosophical empiricists hold that no knowledge is properly inferred or deduced unless it is derived from one's sense-based experience.
 
 In other words, before we can build anything meaningful, we must first *observe and experience* the world as it truly is.
 
 ### 2. Francis Bacon — Induction from Nature
+
 According to Bacon, scientific theories are obtained directly by induction from observation: scientific theories exist in nature, and scientists limit themselves to discovering them through observation.
 
 This means that even our theories are not "made up" — they are *extracted* from the truth already present in nature.
 
 ### 3. Aristotle — Observation as the Root of Knowledge
+
 Aristotle was a champion of empiricism, which promotes observation and physical evidence. He established the tabula rasa theory — that the human mind was a blank slate, and we could only find true knowledge by trusting our senses and observing our surroundings.
 
 ### 4. Galileo — Truth Even Against Belief
+
 Galileo argued that the ultimate aim of science should be the pursuit of truth, even if that truth goes against commonly held beliefs.
 
 This is the spirit of all great inventors and scientists — they follow truth wherever it leads, and *then* they build.

@@ -22,6 +22,7 @@ journalctl --user -u openclaw-gateway.service -n 100 --no-pager
 ```
 
 或实时跟踪重启过程：
+
 ```bash
 journalctl --user -u openclaw-gateway.service -f
 ```

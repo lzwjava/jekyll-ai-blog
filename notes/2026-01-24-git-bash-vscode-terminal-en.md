@@ -95,7 +95,7 @@ Add these optional but very popular settings:
 
 ### Quick Troubleshooting Checklist
 
-- Git is **not** installed → install from https://git-scm.com
+- Git is **not** installed → install from <https://git-scm.com>
 - Git Bash still not appearing → restart VS Code
 - Using portable Git? → use full path in `path` field
 - Using Scoop/Chocolatey custom location? → find real path with `where bash`

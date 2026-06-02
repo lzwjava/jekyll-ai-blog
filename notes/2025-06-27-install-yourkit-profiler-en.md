@@ -20,27 +20,35 @@ To install YourKit Java Profiler on Ubuntu, follow these steps based on the info
 3. **Unzip the Archive**:
    - Open a terminal and navigate to the directory where the downloaded file is located (e.g., `~/Downloads`).
    - Unzip the archive using the following command:
+
      ```bash
      unzip YourKit-JavaProfiler-2025.3-<build>.zip -d /opt/yourkit
      ```
+
      Replace `<build>` with the actual build number from the downloaded file. This command extracts the profiler to `/opt/yourkit`. You can choose another directory if preferred.[](https://www.yourkit.com/docs/java-profiler/latest/help/installation.jsp)
 
 4. **Run the Profiler**:
    - Navigate to the extracted directory:
+
      ```bash
      cd /opt/yourkit
      ```
+
    - Run the profiler using the provided script:
+
      ```bash
      ./bin/profiler.sh
      ```
+
      This launches the YourKit Java Profiler user interface.[](https://www.yourkit.com/docs/java-profiler/latest/help/installation.jsp)
 
 5. **Optional: Unattended Installation with License Key**:
    - If you have a license key and want to automate the installation, you can use command-line options to accept the EULA and apply the license key. For example:
+
      ```bash
      ./bin/profiler.sh -accept-eula -license-key=<key>
      ```
+
      Replace `<key>` with your actual license key. This is useful for automation or scripted setups.[](https://www.yourkit.com/docs/java-profiler/latest/help/installation.jsp)
 
 6. **Integrate with Development Environment (Optional)**:
@@ -56,9 +64,11 @@ To install YourKit Java Profiler on Ubuntu, follow these steps based on the info
 
 8. **Additional Notes**:
    - If you encounter issues, ensure Java (version 8 or higher) is installed on your system, as YourKit Java Profiler requires a compatible JVM. You can check your Java version with:
+
      ```bash
      java -version
      ```
+
    - For remote profiling, ensure SSH access is configured if profiling applications on remote servers.[](https://www.yourkit.com/java/profiler/)
    - YourKit offers a 15-day free trial, so no license key is required initially. For non-commercial open-source projects, you can contact YourKit sales for a free license.[](https://www.yourkit.com/java/profiler/download/)[](https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3125838019/Remote%2BJava%2BProfiling%2Busing%2BYourKit)
    - If the profiler fails to start (e.g., due to spaces in the installation directory), move the extracted folder to a path without spaces, such as `/opt/yourkit`.[](https://www.yourkit.com/changes/)

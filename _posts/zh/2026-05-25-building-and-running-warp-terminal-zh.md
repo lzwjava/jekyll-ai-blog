@@ -13,25 +13,31 @@ type: note
 
 前置条件
 -------------
+
 - Rust 1.92.0（通过 Homebrew 安装）
 - protoc（通过 `brew install protobuf` 安装）
 - Xcode 命令行工具（已存在）
 
 构建命令
 --------------
+
 cd /Users/lzwjava/projects/warp
 
 # 检查（仅类型检查，约2分钟）
+
 cargo check --bin warp-oss --features gui
 
 # 构建（编译二进制，约4.5分钟）
+
 cargo build --bin warp-oss --features gui
 
 # 运行
+
 ./target/debug/warp-oss
 
 发生了什么
 -------------
+
 1. cargo 从 Cargo.lock 解析了约500多个依赖项
 2. 从 crates/ 目录编译了65多个本地包
 3. 链接了 macOS 框架（Cocoa, Metal, CoreFoundation）
@@ -39,6 +45,7 @@ cargo build --bin warp-oss --features gui
 
 架构
 ------------
+
 - 语言：Rust
 - UI 框架：自定义 warpui/warpui_core（GPU 加速，Metal 后端）
 - 终端后端：Alacritty 的 VT 解析器 + 自定义 PTY 层
@@ -48,6 +55,7 @@ cargo build --bin warp-oss --features gui
 
 关键包
 ----------
+
 warp_terminal  - PTY、Shell 集成、终端状态
 warpui         - GPU 渲染、窗口管理、输入
 ai             - LLM 集成、代理功能
@@ -57,12 +65,14 @@ vim            - Vim 模式支持
 
 构建配置文件
 --------------
+
 cargo build                          # 调试版（721 MB，未优化）
 cargo build --release                # 发布版（优化，更小）
 cargo bundle --bin warp-oss --features gui  # macOS 的 .app 包
 
 官方脚本
 ----------------
+
 ./script/bootstrap --skip-common-skills -y  # 安装所有依赖
 ./script/run                                 # 构建并以 .app 形式启动
 ./script/presubmit                           # 格式化 + Clippy + 测试

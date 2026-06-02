@@ -21,11 +21,12 @@ Answer:
 
 这是给 Claude Code 持久指令的 **最推荐和原生** 方式。
 
-### 工作原理：
+### 工作原理
+
 - Claude Code 在每个会话开始时 **自动读取** `CLAUDE.md`
 - 您可以在不同级别拥有多个 `CLAUDE.md` 文件
 
-### 文件位置（按顺序全部读取）：
+### 文件位置（按顺序全部读取）
 
 | Location | Scope |
 |---|---|
@@ -33,7 +34,8 @@ Answer:
 | `<project-root>/CLAUDE.md` | Project-level — applies to this repo |
 | `<subdir>/CLAUDE.md` | Subdirectory-level — applies when working in that folder |
 
-### 示例 `~/.claude/CLAUDE.md` 用于您的格式规则：
+### 示例 `~/.claude/CLAUDE.md` 用于您的格式规则
+
 ```markdown
 ## Response Format Rules
 
@@ -88,6 +90,7 @@ claude --system-prompt "Always answer in English. Follow this format: ..."
 ```
 
 或在 SDK 中：
+
 ```javascript
 const claude = new Anthropic();
 // pass system prompt in your API call
@@ -98,9 +101,11 @@ const claude = new Anthropic();
 ## 5. `/memory` 命令（运行时）
 
 在 Claude Code 会话中，您可以使用：
+
 ```
 /memory
 ```
+
 这允许您 **添加或编辑内存**，该内存会跨会话持久存在——类似于 CLAUDE.md，但通过交互方式管理。
 
 ---

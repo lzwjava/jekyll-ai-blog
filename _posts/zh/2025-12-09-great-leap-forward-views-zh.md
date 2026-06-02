@@ -40,6 +40,7 @@ type: note
 这些观点在中国不受欢迎（在那里，质疑官方的“严重困难”表述仍然敏感），或在中国以外不受欢迎（在那里，淡化饥荒常被视为辩解）。今天，大多数专业历史学家都拒绝较低的死亡人数估计，并认为大跃进是一场由意识形态过度、强制集体化和压制负面反馈驱动的明确的政策灾难。
 
 参考文献：
+
 - [杨继绳 – 墓碑（中国禁书，估计饥荒死亡人数约3600万）](https://www.nytimes.com/2013/01/06/books/review/tombstone-the-great-chinese-famine-1958-1962-by-yang-jisheng.html)
 - [Frank Dikötter – Mao’s Great Famine（估计4500万）](https://www.frankdikotter.com/maos-great-famine)
 - [Utsa Patnaik 对高估数字的修正主义批判](https://monthlyreview.org/2017/05/01/revisiting-allegations-of-genocide-in-china/)

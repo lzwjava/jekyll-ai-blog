@@ -19,11 +19,13 @@ Without default typing, Jackson relies on the declared type (e.g., an abstract b
 ### How Does It Work?
 
 Enabling default typing modifies the serialization process:
+
 1. **Serialization**: When serializing an object graph, Jackson adds a special `@class` field or similar metadata to the JSON to indicate the runtime type of polymorphic objects. This happens only for types where the declared type doesn't fully specify the concrete class (e.g., `List` containing `String` and `Integer` objects, or abstract class fields).
 
 2. **Deserialization**: During deserialization, the mapper uses this embedded type info to look up and instantiate the exact class. It leverages Jackson's `TypeFactory` to resolve types dynamically.
 
 To enable it, you call one of these methods on an `ObjectMapper` instance:
+
 - `mapper.enableDefaultTyping()`: A deprecated method that enables constant-time polymorphic typing inclusion (susceptible to security issues).
 - `mapper.activateDefaultTyping(ObjectMapper.DefaultTyping policy)`: A safer, recommended alternative introduced in Jackson 2.10. It allows specifying a `DefaultTyping` enum value, such as:
   - `JAVA_LANG_OBJECT`: Includes typing for all `Object` references.
@@ -31,6 +33,7 @@ To enable it, you call one of these methods on an `ObjectMapper` instance:
   - `NON_FINAL`: Includes typing for non-final classes.
 
 Example usage:
+
 ```java
 import com.fasterxml.jackson.databind.ObjectMapper;
 import static com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping;

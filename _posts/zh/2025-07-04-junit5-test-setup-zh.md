@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 1. 更新 `pom.xml`（仅 JUnit）
+
 ```xml
 <dependencies>
     <!-- JUnit 5 -->
@@ -44,6 +45,7 @@ type: note
 ---
 
 ### 2. 目录结构
+
 ```
 src/
 ├── main/
@@ -57,6 +59,7 @@ src/
 ---
 
 ### 3. 示例测试类（`CF123ATest.java`）
+
 ```java
 package com.algorithm.solutions.codeforces;
 
@@ -95,7 +98,8 @@ class CF123ATest {
 
 ---
 
-### 4. 主要特性：
+### 4. 主要特性
+
 1. **输入重定向**
    - 从 `src/test/resources` 读取 `1.in` 作为 `System.in`。
    - 使用 `ByteArrayOutputStream` 捕获 `System.out`。
@@ -109,14 +113,17 @@ class CF123ATest {
 ---
 
 ### 5. 运行测试
+
 ```bash
 mvn test
 ```
+
 或通过 IDE（IntelliJ/Eclipse/VSCode）运行。
 
 ---
 
 ### 6. 替代方案：参数化测试（多组输入）
+
 ```java
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -133,7 +140,9 @@ void testMultipleCases(String input, String expected) {
     assertEquals(expected, out.toString().trim());
 }
 ```
+
 创建 `src/test/resources/codeforces/test_cases.csv`：
+
 ```csv
 input,expected
 1 2 3,6
@@ -143,6 +152,7 @@ input,expected
 ---
 
 这个方案提供了**轻量级测试设置**，包含：
+
 - 无 Mockito 依赖
 - 输入/输出重定向
 - 兼容 IDE/Maven

@@ -18,6 +18,7 @@ Answer:
 它是一款**企业级 SSL VPN client**，专为连接到基于 Cisco 的 VPN headends（如 ASA firewalls 或其他 Cisco 设备）的组织而设计。Cisco 不直接向个人消费者销售或提供该软件用于个人 VPN server 或通用用途。
 
 ### 可用性与“免费”方面
+
 - **客户端软件本身**通常可以从以下渠道免费下载（或看起来是免费的）：
   - 您雇主或大学的门户网站（他们会提供安装程序）。
   - Microsoft Store (Windows) 或第三方网站（但请务必使用官方来源以避免 malware）。
@@ -30,6 +31,7 @@ Answer:
 如果您个人没有可以连接的企业/大学 VPN server，AnyConnect 基本上是没用的——它只是一个 client，而不是像 NordVPN 那样完整的 VPN 服务。
 
 ### Cisco AnyConnect 的最佳免费/开源替代方案
+
 如果您需要类似的 SSL VPN client（特别是连接到现有的 Cisco AnyConnect 兼容服务器，例如办公/学校网络），或者只是想要一个好的 VPN 解决方案：
 
 1. **OpenConnect**（Cisco AnyConnect 协议的最佳直接替代品）

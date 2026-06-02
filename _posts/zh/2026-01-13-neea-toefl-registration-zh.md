@@ -10,16 +10,16 @@ translated: true
 type: note
 ---
 
-Question: 如何在 https://toefl.neea.cn 注册 TOEFL 考试
+Question: 如何在 <https://toefl.neea.cn> 注册 TOEFL 考试
 
 Answer:
 
-**注意：** 网站 https://toefl.neea.cn 是 **中国大陆** TOEFL iBT 考试的官方报名入口（由教育部教育考试院 - NEEA 运营）。该网站主要使用中文，部分环节可能提供英文选项。这与大多数其他国家使用的 ETS 全球官网不同。
+**注意：** 网站 <https://toefl.neea.cn> 是 **中国大陆** TOEFL iBT 考试的官方报名入口（由教育部教育考试院 - NEEA 运营）。该网站主要使用中文，部分环节可能提供英文选项。这与大多数其他国家使用的 ETS 全球官网不同。
 
-以下是在 https://toefl.neea.cn 注册 TOEFL 考试的一般步骤（基于中国大陆考生的官方流程）：
+以下是在 <https://toefl.neea.cn> 注册 TOEFL 考试的一般步骤（基于中国大陆考生的官方流程）：
 
 1. **访问网站**
-   前往 https://toefl.neea.cn。
+   前往 <https://toefl.neea.cn。>
 
 2. **首先阅读重要信息**
    在注册前，请仔细阅读“考生须知”部分。内容涵盖考试规则、要求、政策、考试日流程及重要通知。您必须同意相关条款和 NEEA 网上报名协议。
@@ -45,14 +45,15 @@ Answer:
    付款成功后，您将收到报名确认。根据要求下载并打印报名确认表或准考证。考试当天请携带此表及身份证件前往考点。
 
 **其他重要提示：**
+
 - 尽早报名——考位有限，热门考试日期很快就会报满。
 - 通常可以在考试日期前约 7 天报名（如果允许逾期报名，可能会产生额外费用）。
-- 针对中国地区的 **TOEFL iBT Home Edition**（选考版），请使用另一个网站：https://toefl.cn/at-home。
+- 针对中国地区的 **TOEFL iBT Home Edition**（选考版），请使用另一个网站：<https://toefl.cn/at-home。>
 - 如果您需要特殊考试便利（如残障相关辅助），请尽早联系 NEEA 客服。
-- 有关最新考试日期、费用、考点以及任何政策变化，请始终直接查询 https://toefl.neea.cn 或考生须知部分。
+- 有关最新考试日期、费用、考点以及任何政策变化，请始终直接查询 <https://toefl.neea.cn> 或考生须知部分。
 - 如果遇到问题，可使用网站上的在线客服聊天功能或联系 NEEA 支持部门。
 
-此流程仅适用于中国大陆。如果您在中国大陆以外（如新加坡）报名，请使用 ETS 全球官网：https://www.ets.org/toefl。
+此流程仅适用于中国大陆。如果您在中国大陆以外（如新加坡）报名，请使用 ETS 全球官网：<https://www.ets.org/toefl。>
 
 References:
 

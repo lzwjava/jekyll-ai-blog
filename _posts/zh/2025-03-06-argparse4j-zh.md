@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 1. **添加依赖**
+
 要在项目中引入 `argparse4j`，请将其添加为依赖项。如果使用 Maven，请在 `pom.xml` 中添加以下内容：
 
 ```xml
@@ -28,9 +29,11 @@ type: note
 ---
 
 ### 2. **创建 `ArgumentParser` 对象**
+
 首先使用 `ArgumentParsers.newFor("prog").build()` 创建 `ArgumentParser` 实例，其中 `"prog"` 是程序名称。您还可以添加描述并启用自动帮助生成。
 
 **示例：**
+
 ```java
 import net.sourceforge.argparse4j.ArgumentParsers;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
@@ -43,11 +46,14 @@ ArgumentParser parser = ArgumentParsers.newFor("Checksum").build()
 ---
 
 ### 3. **添加参数**
+
 使用 `parser.addArgument()` 定义程序将接受的命令行参数。您可以指定：
+
 - **可选参数**（如 `-t`、`--type`），包含标志、选项、默认值和帮助文本
 - **位置参数**（如 `file`），支持使用 `.nargs("*")` 的可变长度
 
 **示例：**
+
 ```java
 parser.addArgument("-t", "--type")
     .choices("SHA-256", "SHA-512", "SHA1")  // 限制为这些选项
@@ -62,9 +68,11 @@ parser.addArgument("file")
 ---
 
 ### 4. **解析命令行参数**
+
 使用 `parser.parseArgs()` 解析命令行参数（通常从 `main` 方法作为 `String[] args` 传入）。将其包装在 try-catch 块中以优雅处理解析错误。
 
 **示例：**
+
 ```java
 import net.sourceforge.argparse4j.inf.Namespace;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
@@ -95,9 +103,11 @@ public class Checksum {
 ---
 
 ### 5. **访问解析值**
+
 `parseArgs()` 方法返回包含解析后参数值的 `Namespace` 对象。使用 `getString()` 或 `getList()` 等方法获取这些值。
 
 **示例：**
+
 ```java
 String hashType = ns.getString("type");  // 例如 "SHA-256"
 List<String> files = ns.getList("file"); // 文件名列表
@@ -109,6 +119,7 @@ System.out.println("文件：" + files);
 ---
 
 ### 完整示例
+
 以下是一个完整示例：
 
 ```java
@@ -155,6 +166,7 @@ public class Checksum {
 ---
 
 ### 附加功能
+
 - **自动帮助**：使用 `-h` 或 `--help` 运行程序查看生成的帮助消息
 - **子命令**：对复杂命令使用 `parser.addSubparsers()`（如 `git commit`、`git push`）
 - **注解**：使用注解将参数绑定到类字段（详见用户手册）

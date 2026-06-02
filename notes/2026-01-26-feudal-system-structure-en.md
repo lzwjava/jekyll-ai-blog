@@ -17,6 +17,7 @@ Answer:
 **Feudal** refers to the social, political, and economic system that dominated medieval Europe (roughly 9th–15th centuries), and sometimes is used to describe similar hierarchical systems in other parts of the world.
 
 ### Core meaning of "feudal"
+
 A system based on **land-for-loyalty relationships** and strong **hierarchical personal ties** rather than centralized state power or money-based economies.
 
 ### Key characteristics of a feudal system

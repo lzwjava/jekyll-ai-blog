@@ -13,6 +13,7 @@ type: note
 Potatoes stored in a refrigerator at 6°C for two months can generally still be safe to eat, provided they show no signs of spoilage. Here’s a breakdown of your query regarding "Tudou" (potatoes) from Shandong, stored in Guangzhou, China, and cooked in an air fryer:
 
 ### Are the Potatoes Still Edible?
+
 1. **Storage Conditions**:
    - Potatoes stored at 6°C (typical fridge temperature) can last for 1–3 months, depending on their condition at purchase. The cool temperature slows sprouting and spoilage, but prolonged refrigeration can increase sugar content, potentially affecting taste and cooking properties.
    - Check for spoilage signs:
@@ -23,6 +24,7 @@ Potatoes stored in a refrigerator at 6°C for two months can generally still be 
 2. **Safety**: If the potatoes look and smell normal (firm, no green patches, no foul odor), they should be safe to eat after two months at 6°C. Discard any that show signs of spoilage.
 
 ### Cooking with an Air Fryer
+
 Slicing and cooking potatoes in an air fryer for 15 minutes is a great way to prepare them. Here’s a quick guide for your air fryer potato slices:
 
 1. **Preparation**:
@@ -38,10 +40,12 @@ Slicing and cooking potatoes in an air fryer for 15 minutes is a great way to pr
 3. **Safety Note**: If the potatoes taste unusually sweet or bitter (due to solanine from green spots), discard them.
 
 ### Local Context (Guangzhou, China)
+
 - Shandong potatoes are common in China and known for good quality. There’s no specific issue with Shandong potatoes stored in Guangzhou, as long as they were fresh when purchased and stored properly.
 - Guangzhou’s humid climate doesn’t affect fridge-stored potatoes, but ensure the fridge is functioning well to maintain consistent temperature.
 
 ### Final Recommendation
+
 If the potatoes are firm, free of green spots, sprouts, or bad odors, they are likely safe to eat. Slice them, season, and air fry at 190–200°C for 15–20 minutes, shaking the basket halfway through. Enjoy your crispy potato slices! If you notice any spoilage signs, discard the affected potatoes to avoid health risks.
 
 If you have further details (e.g., potato condition or air fryer model), let me know for more tailored advice!

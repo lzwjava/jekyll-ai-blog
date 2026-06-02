@@ -18,7 +18,8 @@ type: note
 
 ### 推荐方法
 
-1.  **一个单独的配置文件 + 环境变量（2025年最佳实践）**
+1. **一个单独的配置文件 + 环境变量（2025年最佳实践）**
+
     ```ini
     # config.ini (已提交)
     [db2]
@@ -29,15 +30,19 @@ type: note
     [paths]
     output_dir = /data/output/{country}/{env}
     ```
+
     然后在运行时：
+
     ```python
     country = os.getenv("COUNTRY_CODE")      # cn, tw, hk
     env     = os.getenv("ENV", "dev")        # dev, uat, prod
     ```
+
     → 仓库中没有敏感凭据，只有一个配置文件。
 
-2.  **一个基础配置 + 国家特定覆盖（非常清晰）**
+2. **一个基础配置 + 国家特定覆盖（非常清晰）**
     仓库结构：
+
     ```
     config/
       base.ini
@@ -49,10 +54,12 @@ type: note
         uat.ini
         prod.ini
     ```
+
     加载顺序：`base.ini → {country}.ini → env/{env}.ini`
     每个国家只有几行不同（例如，SSL设置、模式前缀、日期格式、CN的加密密钥）。
 
-3.  **单一配置文件，每个国家和环境都有单独的部分**
+3. **单一配置文件，每个国家和环境都有单独的部分**
+
     ```ini
     [db2:cn:prod]
     host = prod-db-cn.company.com
@@ -62,20 +69,22 @@ type: note
     host = uat-db-tw.company.com
     ssl = false
     ```
+
     最终只有一个文件，但仍有9个部分——比9个文件好，但更难阅读。
 
-4.  **可接受但不理想：3个国家文件 × 3个环境文件 = 9个文件**
+4. **可接受但不理想：3个国家文件 × 3个环境文件 = 9个文件**
     仅当差异巨大且你永远不希望有任何共享值时才考虑。即使如此，也要使用脚本从模板生成它们，或者将它们放在版本控制之外（见下文）。
 
 ### 大多数团队在实际项目中是如何做的
 
--   只提交 `config/base.ini` + 国家覆盖文件 (`cn.ini`, `tw.ini`, `hk.ini`)
--   从不提交生产凭据
--   使用 `.ini.example` 文件作为模板
--   将真实的环境特定值放入环境变量或秘密管理器中（AWS Secrets Manager, Hashicorp Vault, Azure Key Vault等）
--   在本地开发中：`local.env`文件（添加到.gitignore）或direnv
+- 只提交 `config/base.ini` + 国家覆盖文件 (`cn.ini`, `tw.ini`, `hk.ini`)
+- 从不提交生产凭据
+- 使用 `.ini.example` 文件作为模板
+- 将真实的环境特定值放入环境变量或秘密管理器中（AWS Secrets Manager, Hashicorp Vault, Azure Key Vault等）
+- 在本地开发中：`local.env`文件（添加到.gitignore）或direnv
 
 ### 推荐的最终结构
+
 ```
 config/
   base.ini

@@ -31,6 +31,7 @@ Broader scrutiny has fallen on Hong Kong's aging public housing infrastructure a
 This tragedy has left the community reeling, with ongoing searches for remains and support for survivors. For the latest updates, check official sources like the Hong Kong Fire Services Department.
 
 **References**:
+
 - [What caused the deadly fire that has torn through a Hong Kong housing estate](https://www.cnn.com/2025/11/26/asia/hong-kong-apartment-fire-latam-intl) (CNN, Nov 29, 2025)
 - [What to Know About the Deadly Fire at a Hong Kong Apartment Complex](https://www.nytimes.com/2025/11/26/world/asia/hong-kong-fire-what-to-know.html) (The New York Times, Nov 28, 2025)
 - [Hong Kong building fire prompts serious questions about construction safety](https://www.abc.net.au/news/2025-11-28/hong-kong-fires-prompt-questions-about-construction-safety/106074568) (ABC News, Nov 28, 2025)

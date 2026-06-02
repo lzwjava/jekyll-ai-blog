@@ -22,6 +22,7 @@ Yes, this is possible and is a quite common way to turn an old laptop into a sim
    - eth1 (USB → Ethernet adapter) → connect to a switch or directly to other devices that should go through the proxy
 
 2. **Basic traffic flow you want**
+
    ```
    Modem ── eth0 ── [Linux Mint laptop with Clash] ── eth1 ── your devices / switch
    ```
@@ -29,6 +30,7 @@ Yes, this is possible and is a quite common way to turn an old laptop into a sim
 3. **What you need to configure on Linux Mint**
 
    **A. Enable IP forwarding**
+
    ```bash
    sudo sysctl -w net.ipv4.ip_forward=1
    # make permanent
@@ -37,6 +39,7 @@ Yes, this is possible and is a quite common way to turn an old laptop into a sim
    ```
 
    **B. NAT / Masquerade outbound traffic (so clients can reach the internet through your laptop)**
+
    ```bash
    sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
    # or using nftables (newer Mint versions)
@@ -47,25 +50,31 @@ Yes, this is possible and is a quite common way to turn an old laptop into a sim
    Two common approaches:
 
    **Option 1 – Simple static IP (recommended for beginners)**
+
    ```bash
    sudo nmcli con mod "Wired connection 2" ipv4.method manual ipv4.addresses 192.168.201.1/24 ipv4.gateway "" ipv4.dns ""
    sudo nmcli con up "Wired connection 2"
    ```
+
    (check connection name with `nmcli connection show`)
 
    **Option 2 – Install & run a tiny DHCP server on eth1**
    Most popular & easy on Mint/Ubuntu: `dnsmasq`
+
    ```bash
    sudo apt update
    sudo apt install dnsmasq
    ```
+
    Minimal config `/etc/dnsmasq.d/custom.conf`:
+
    ```
    interface=eth1
    dhcp-range=192.168.201.50,192.168.201.150,12h
    dhcp-option=3,192.168.201.1      # gateway = laptop itself
    dhcp-option=6,192.168.201.1      # DNS = laptop (will forward later)
    ```
+
    Then `sudo systemctl restart dnsmasq`
 
    **D. Route all client traffic through Clash**
@@ -75,6 +84,7 @@ Yes, this is possible and is a quite common way to turn an old laptop into a sim
      - Start Clash with TUN enabled (`allow-lan: true`, `tun: enable`)
      - Make sure Clash creates the `utun` / `clash0` interface
      - Add policy routing so traffic coming from eth1 goes into Clash:
+
        ```bash
        ip rule add from 192.168.201.0/24 table 100
        ip route add default via 192.168.201.1 dev eth1 table 100

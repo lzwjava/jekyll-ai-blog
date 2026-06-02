@@ -29,6 +29,7 @@ Below is a side-by-side comparison of **TV screens** (typically LED/LCD/OLED TVs
 | **Best For**        | Bright living rooms, gaming, daily use, no setup hassle. | Cinema-like experience, large screens, dedicated dark rooms, budget big-screen. |
 
 ### Quick Verdict
+
 - **Choose a TV** if: You want hassle-free setup, bright-room viewing, low input lag for gaming, or all-in-one smart features.
 - **Choose a Projector** if: You crave 100"+ screens on a budget, have a dark/dedicated room, and don’t mind external audio + occasional maintenance (lamp models).
 

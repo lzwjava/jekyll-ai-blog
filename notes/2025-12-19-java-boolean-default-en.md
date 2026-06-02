@@ -17,6 +17,7 @@ Answer:
 In Java, instance variables (fields) of a class that are not explicitly initialized are automatically assigned default values based on their type.
 
 For primitive types:
+
 - `boolean` defaults to **false**
 - `int`, `byte`, `short`, `long` default to 0
 - `float`, `double` default to 0.0

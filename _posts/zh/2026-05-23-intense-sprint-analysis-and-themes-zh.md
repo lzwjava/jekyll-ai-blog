@@ -90,6 +90,7 @@ type: note
 ============================================================
   活跃度最高的文件（按变更次数）
 ============================================================
+
   lib/clacky/web/     — 126 次变更（UI 大修）
   lib/clacky/server/  — 50 次变更（API + 基础设施）
   lib/clacky/agent/   — 17 次变更（agent 行为）
@@ -100,14 +101,16 @@ type: note
 ============================================================
   贡献者
 ============================================================
-  yafei@dao42.com               — 主要作者（68 次变更）
-  huzhuangyongbiao@gmail.com    — 13 次变更
-  leihaibo1992@gmail.com        — 7 次变更
-  rina@RinadeMacBook-Air.local  — 2 次变更
+
+  <yafei@dao42.com>               — 主要作者（68 次变更）
+  <huzhuangyongbiao@gmail.com>    — 13 次变更
+  <leihaibo1992@gmail.com>        — 7 次变更
+  <rina@RinadeMacBook-Air.local>  — 2 次变更
 
 ============================================================
   总结
 ============================================================
+
 这是一个非常高强度的 sprint — 2 周内发布了 10 个版本。核心方向是将 OpenClacky 从 CLI/TUI 工具转变为一个完整平台，包括：
   (a) 精致的流式 Web UI
   (b) 多渠道消息（Telegram/Discord/DingTalk/Feishu/WeChat）

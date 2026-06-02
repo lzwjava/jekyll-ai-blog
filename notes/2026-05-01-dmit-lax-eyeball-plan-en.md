@@ -18,6 +18,7 @@ Answer:
 ### What Does the Name Mean?
 
 DMIT's product naming follows a standard structure: **Location + Hardware Platform + Network Line + Plan Size**. So `LAX.AN5.EB.TINY` means:
+
 - **LAX** = Los Angeles datacenter
 - **AN5** = AMD EPYC 9005 (AN5) hardware platform
 - **EB** = Eyeball Network routing
@@ -28,6 +29,7 @@ DMIT's product naming follows a standard structure: **Location + Hardware Platfo
 ### Specs of LAX.AN5.EB.TINY
 
 The LAX.AN5.EB.TINY plan includes:
+
 - **vCPU:** 1 vCore
 - **RAM:** 2.0 GB
 - **Storage:** 20 GB SSD
@@ -68,6 +70,7 @@ The **LAX.AN5.Pro.TINY** (Premium/CN2 GIA routing) gives only **1000 GB** bidire
 EB plans give significantly more transfer quota than Pro at the same price — worth it if you don't specifically need CN2 GIA routing.
 
 In short, the **1000GB** figure you see belongs to the **Pro (CN2 GIA) TINY** plan, not the EB TINY. The routing is different:
+
 - **Pro** = CN2 GIA (higher quality for China Telecom, but less bandwidth quota, 1 Gbps port)
 - **EB** = CMIN2 Eyeball (more bandwidth quota 1500GB, 2 Gbps port, slightly less premium routing)
 

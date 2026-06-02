@@ -15,8 +15,10 @@ type: note
 Spotless 是一款适用于 Maven 和 Gradle 的代码格式化插件。根据您提到的 Maven `-pl`（项目列表）参数，我将假设您正在多模块 Java 项目中使用 **Spotless Maven 插件**。这允许您选择性地在特定模块上运行格式化检查（例如通过 `spotless:check`）或应用修复（例如通过 `spotless:apply`），这对于大型项目非常高效——当您可能只需要格式化特定子模块时（例如在开发特定子模块期间）。
 
 #### 前提条件
+
 - 您的项目使用 Maven 并采用多模块结构（在父 `pom.xml` 中通过 `<modules>...</modules>` 定义）。
 - Spotless Maven 插件已在项目中配置（通常在父 POM 或各个模块的 POM 中）。如果尚未配置，请将其添加到 POM 中：
+
   ```xml
   <build>
     <plugins>
@@ -31,10 +33,12 @@ Spotless 是一款适用于 Maven 和 Gradle 的代码格式化插件。根据�
     </plugins>
   </build>
   ```
+
   - 常用规则包括 Google Java Format、Eclipse JDT（用于 Java）或针对导入、空格等的自定义规则。
   - Spotless 支持多种文件类型（Java、Kotlin、XML 等），并能与 CI 工具良好集成，用于预提交钩子（通过 `spotless:check` 目标，该目标会在代码未格式化时使构建失败）。
 
 #### 使用 `-pl` 参数控制模块格式化
+
 Maven 的 `-pl`（项目列表）参数允许您指定以逗号分隔的模块列表，以包含在构建/插件执行中。默认情况下，Maven 会在所有模块上运行，但 `-pl` 可以限制其范围，从而节省时间并避免对未受影响的模块进行不必要的工作。
 
 - **基本命令结构**：
@@ -44,15 +48,19 @@ Maven 的 `-pl`（项目列表）参数允许您指定以逗号分隔的模块�
 
 - **示例**：
   1. **仅检查 `core` 模块的格式化**：
+
      ```
      mvn spotless:check -pl core
      ```
+
      - 这仅扫描并验证 `core` 的源文件。如果存在任何格式化问题，构建将失败并显示详细信息（例如，“请运行 `spotless:apply` 以修复”）。
 
   2. **对多个模块（`api` 和 `utils`）应用格式化**：
+
      ```
      mvn spotless:apply -pl api,utils
      ```
+
      - 这会将文件就地修改以匹配您的 Spotless 规则。完成后请务必提交更改，以避免版本控制中出现意外。
 
   3. **在完整项目运行中排除特定模块**：使用 `-pl !moduleToSkip` 在所有模块上运行，*除了*指定的模块（Maven 3.2.1+ 支持使用 `!` 进行否定）。

@@ -15,12 +15,14 @@ type: note
 您当前的配置对于这类小型多模块项目来说非常稳健，特别是已经实现了核心流程：将 JaCoCo 代理附加到 Jetty、通过 Exec 插件运行外部 Python 集成测试，并在 `PlaygroundWeb` 模块中生成报告。这能捕获通过 Python `unittest` 测试的 API 端点的运行时覆盖率，正是 Spring Web 应用集成测试（IT）覆盖率所需的关键能力。
 
 核心优势：
+
 - **模块化与阶段绑定**：使用 Maven 阶段（`pre-integration-test` 启动 Jetty、`integration-test` 运行 Python 测试、`post-integration-test` 停止服务、`verify` 生成报告）确保了可靠性和可重复性
 - **代理附加机制**：Jetty 的 JVM 参数（`-javaagent:...`）正确实现了运行时检测，将覆盖率数据捕获到 `jacoco.it.exec`
 - **外部测试集成**：Exec 插件完美处理 Python 测试，将测试代码保留在仓库根目录（`${project.parent.basedir}/tests`）使其与 Java 模块解耦
 - **避免不必要的重复**：不在 `PlaygroundUtils`（无控制器模块）中运行 Jetty/Python，提升了效率
 
 已识别的挑战：
+
 - **库模块（如 `PlaygroundUtils`）的覆盖率**：由于工具类代码在 `PlaygroundWeb` 的 JVM 中运行（作为 WAR 依赖），它会被检测并出现在 `PlaygroundWeb` 的 `jacoco.it.exec` 中。但您的报告是模块特定的，因此除非聚合或包含，否则 `PlaygroundUtils` 的覆盖率不可见
 - **JaCoCo 的非自包含特性**：与 Checkstyle/Spotless（仅分析源码/静态产物）不同，JaCoCo 需要来自外部测试的运行时数据（`.exec` 文件）和代理附加。这使得在多模块场景中需要精细协调
 - **聚合目标限制**：`jacoco:report-aggregate` 需要每个模块的 `.exec` 文件（如单元测试生成），但您的覆盖率纯粹来自单个模块的集成测试。强制聚合会导致库模块（如 `PlaygroundUtils`）生成空报告
@@ -33,6 +35,7 @@ type: note
 专注于**在运行应用的模块（此处为 `PlaygroundWeb`）生成单一综合的 IT 覆盖率报告**，同时**包含依赖模块（如 `PlaygroundUtils`）的覆盖率数据**。这避免了多次运行测试，并利用了所有代码在单一 JVM 中执行的事实。
 
 为何选择此方案而非聚合？
+
 - 聚合（`report-aggregate`）更适合跨模块的分布式单元测试覆盖率。对于来自单一运行时的 IT 覆盖率（您的情况），它过于复杂且不自然
 - 统一报告提供应用覆盖率的整体视图，通常比孤立的每模块报告更有用（例如"整体覆盖率 80%，但工具层仅 60%"）
 - 对于大型项目，通过将"应用模块"（WAR/EAR）作为覆盖率中心来扩展，引入依赖项
@@ -98,6 +101,7 @@ type: note
 
 5. **可选：强制执行覆盖率阈值**：
    - 在 `PlaygroundWeb` 的 JaCoCo 插件中添加 `check` 执行，如果覆盖率低于阈值（如整体行覆盖率 70%）则使构建失败
+
      ```xml
      <execution>
          <id>check-it</id>
@@ -128,6 +132,7 @@ type: note
 
 - **在应用模块集中化 IT**：如果有一个主 WAR（如 `PlaygroundWeb`），将其设为"覆盖率中心"。为所有依赖库添加 `<additionalClassesDirectories>` 和 `<additionalSourceDirectories>`（例如通过循环或父 POM 中的属性列表）
   - 示例：在父属性中定义路径：
+
     ```xml
     <properties>
         <lib1.classes>${project.basedir}/Lib1/target/classes</lib1.classes>
@@ -135,6 +140,7 @@ type: note
         <!-- 为 10 个库重复定义 -->
     </properties>
     ```
+
   - 在 WAR 的 JaCoCo 报告配置中：动态引用它们
 
 - **如果有多个应用/WAR**：创建专用的 IT 模块（如 `App1-IT`、`App2-IT`），这些模块依赖 WAR，配置 Jetty/Exec/JaCoCo，并仅包含相关依赖的类/源码。这保持了构建的模块化（例如 `mvn verify -pl App1-IT` 进行针对性覆盖率分析）

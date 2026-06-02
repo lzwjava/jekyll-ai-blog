@@ -34,6 +34,7 @@ Settings → AI → uncheck "Enable AI features"
 ```
 
 Also worth disabling:
+
 ```
 Settings → Features → Disable "Warp Drive" (cloud command sharing)
 Settings → Privacy → set telemetry to minimal

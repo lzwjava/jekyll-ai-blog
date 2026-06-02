@@ -50,6 +50,7 @@ With your **IQ3_S** (10.4GB model on disk), your practical ceiling with Q8_0 KV 
 ## Recommended Next Steps to Push Context
 
 **Step 1 — Try Q4_0 KV cache to halve KV memory:**
+
 ```bash
 ./build/bin/llama-server \
   -m ./models/gemma-4-26B-A4B-it-UD-IQ3_S.gguf \

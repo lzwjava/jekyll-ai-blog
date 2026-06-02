@@ -11,7 +11,9 @@ type: note
 Java 中的 `java.security` 包提供了用于在应用程序中实现安全功能的类和接口。它属于 Java 标准库的一部分，包含用于加密操作、密钥管理、安全随机数生成、数字签名和访问控制的工具。由于该包涵盖范围广泛，本回答将概述其用途，并通过实际示例演示如何使用它。
 
 ### `java.security` 的用途是什么？
+
 `java.security` 包是 Java 加密架构（JCA）的基础组件。它提供多种与安全相关的功能，例如：
+
 - **加密操作**：对数据进行哈希处理（例如使用 `MessageDigest`）、对数据进行签名（例如使用 `Signature`）。
 - **密钥管理**：生成密钥（例如 `KeyPairGenerator`、`KeyGenerator`）和管理证书（例如 `KeyStore`）。
 - **安全随机数**：生成加密强度高的随机数（例如 `SecureRandom`）。
@@ -20,9 +22,11 @@ Java 中的 `java.security` 包提供了用于在应用程序中实现安全功�
 要使用 `java.security`，通常需要导入所需的特定类，并利用其 API 执行这些安全任务。
 
 ### 如何使用 `java.security`：分步示例
+
 让我们通过一个常见用例来演示：使用 `java.security` 中的 `MessageDigest` 类计算字符串的 SHA-256 哈希值。此示例将展示如何在实际中应用该包。
 
 #### 示例：计算 SHA-256 哈希值
+
 以下是一个完整的代码片段，用于对字符串 "Hello, World!" 进行 SHA-256 哈希计算，并将结果以十六进制字符串形式显示：
 
 ```java
@@ -61,6 +65,7 @@ public class HashExample {
 ```
 
 #### 代码解释
+
 1. **导入语句**：
    - `java.security.MessageDigest`：提供哈希功能。
    - `java.security.NoSuchAlgorithmException`：如果请求的算法（例如 "SHA-256"）不可用，则抛出此异常。
@@ -79,13 +84,17 @@ public class HashExample {
    - 代码包装在 `try-catch` 块中，以处理 `NoSuchAlgorithmException`，如果 Java 运行时环境不支持 SHA-256（尽管对于标准算法来说这种情况很少见），则可能发生此异常。
 
 运行此代码时，会输出类似以下内容：
+
 ```
 SHA-256 Hash: a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e
 ```
+
 此哈希值是 SHA-256 为 "Hello, World!" 生成的唯一指纹。
 
 ### 使用 `java.security` 的一般步骤
+
 虽然上述示例侧重于 `MessageDigest`，但使用 `java.security` 中其他类的方法遵循类似的模式：
+
 1. **导入类**：导入所需的特定类（例如 `java.security.KeyPairGenerator`、`java.security.SecureRandom`）。
 2. **实例化服务**：使用工厂方法（如 `getInstance`）创建实例（例如 `KeyPairGenerator.getInstance("RSA")`）。
 3. **配置和使用**：根据需要设置对象（例如使用密钥大小进行初始化）并调用其方法（例如 `generateKeyPair()`）。
@@ -93,7 +102,9 @@ SHA-256 Hash: a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e
 5. **保护敏感数据**：确保敏感数据（例如密钥、密码）得到谨慎处理，例如在使用后从内存中清除。
 
 ### `java.security` 中的其他常见类
+
 以下是一些其他有用的类及其典型用途：
+
 - **`SecureRandom`**：生成加密强度高的随机数。
   - 示例：`SecureRandom random = new SecureRandom(); byte[] bytes = new byte[16]; random.nextBytes(bytes);`
 - **`KeyPairGenerator`**：为非对称加密（例如 RSA）生成公钥/私钥对。
@@ -104,6 +115,7 @@ SHA-256 Hash: a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e
   - 示例：`Signature sig = Signature.getInstance("SHA256withRSA"); sig.initSign(privateKey); sig.update(data); byte[] signature = sig.sign();`
 
 ### 关键注意事项
+
 - **可用性**：`java.security` 包包含在 Java 标准库中（自 Java 9 起属于 `java.base` 模块的一部分），因此不需要外部依赖。
 - **安全最佳实践**：始终使用安全算法（例如使用 SHA-256 而非 MD5），处理异常时不泄露敏感信息，并在使用后从内存中清除敏感数据。
 - **可扩展性**：对于高级功能，可能需要将 `java.security` 与 `javax.crypto`（例如用于加密/解密）或第三方库（如 Bouncy Castle）结合使用。

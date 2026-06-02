@@ -42,7 +42,8 @@ This apparent paradox is well-documented in cross-cultural psychology and politi
 In short: Europeans are not necessarily less individualistic in their self-conception; they are individualistic within a much thicker, higher-trust, state-mediated social order that demands and receives conformity on a wider range of issues. Americans are individualistic against the state, which produces the opposite practical behavior on many authority-related questions.
 
 References:
-- Hofstede Insights country comparison tool (https://www.hofstede-insights.com/country-comparison/)
+
+- Hofstede Insights country comparison tool (<https://www.hofstede-insights.com/country-comparison/>)
 - World Values Survey Wave 7 (2017–2022) on trust and obedience measures
 - Markus Kemmelmeier et al., “Individualism, Collectivism, and Authoritarianism in Seven Societies” (Journal of Cross-Cultural Psychology, 2003)
 - Michele Gelfand, *Rule Makers, Rule Breakers* (2018) – tight vs. loose cultures (most of Europe scores “tighter” than the U.S.)

@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：Wang Yin 的文章《编程的智慧》（The Wisdom of Programming），位于 GitHub 链接 https://github.com/AlexiaChen/YinWangBak/blob/master/编程的智慧.md 中，内容是什么？
+问题：Wang Yin 的文章《编程的智慧》（The Wisdom of Programming），位于 GitHub 链接 <https://github.com/AlexiaChen/YinWangBak/blob/master/编程的智慧.md> 中，内容是什么？
 
 答案：
 
@@ -48,6 +48,7 @@ type: note
 真正的模块化不是将代码分散到许多文件和目录中——那只是表面上的，往往适得其反。真正的模块化是逻辑上的。一个模块应该像电路芯片一样，具有明确定义的输入和输出。已存在的最好的模块化工具就是简单的 **function**：每个 function 有明确的输入（参数）和输出（返回值）。
 
 模块化代码的关键原则：
+
 - **保持 function 简短**——理想情况下少于 40 行，这样整个 function 能在你的视野中完整显示而无需滚动。
 - **创建小的实用/辅助 function**——即使是一个两行的辅助函数也能大大简化主函数的逻辑。
 - **每个 function 应该只做一件简单的事**——避免根据条件在内部分支的多用途 function；相反，将它们拆分成单独的、专用的 function。
@@ -60,6 +61,7 @@ type: note
 真正优雅且可读的代码几乎不需要注释。如果你发现自己需要写很多注释，那很可能意味着你的代码逻辑不清晰。编程语言实际上比自然语言更强大、更精确——它们包含名词、动词、条件等等价物。如果你充分利用语言的表达能力，代码本身就会解释它在做什么。
 
 可读代码的具体提示：
+
 - 使用有意义的 function 和 variable 名称。
 - 在变量使用位置附近声明 local variables。
 - 保持 local variable 名称简短且特定于上下文。
@@ -73,6 +75,7 @@ type: note
 ## 5. 编写简单代码（避免过度工程）
 
 本文警告不必要的复杂性：
+
 - 避免深的继承层次和过度使用 design patterns。
 - 不要在真正需要之前添加 abstractions 或 generalization。
 - 抵制过早“未来证明”代码的诱惑——这通常会增加复杂性而无益处。

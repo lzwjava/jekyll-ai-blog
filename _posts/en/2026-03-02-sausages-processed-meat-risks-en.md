@@ -20,6 +20,7 @@ Processed meat is defined by major health organizations (such as the World Healt
 - Any meat that has been modified through salting, curing, fermentation, smoking, adding chemical preservatives (nitrates/nitrites), or other processes to enhance flavor or improve preservation.
 
 **Common examples of processed meats include:**
+
 - Sausages (fresh, cured, smoked, dried — Chinese腊肠/lap cheong, Italian salami, chorizo, pepperoni, breakfast sausage links/patties, hot dogs/frankfurters, bratwurst, etc.)
 - Bacon
 - Ham
@@ -29,6 +30,7 @@ Processed meat is defined by major health organizations (such as the World Healt
 - Deli/cold cuts (e.g. turkey ham, bologna, mortadella)
 
 **Exceptions / edge cases:**
+
 - Plain, unseasoned, freshly ground meat formed into a sausage shape and cooked immediately (with no curing, smoking, added nitrates, or preservatives) is usually **not** considered processed meat — but this is very rare in commercial sausages.
 - Almost all sausages sold in supermarkets, restaurants, or markets (including Chinese腊肠/lạp xưởng/lap cheong) undergo at least curing, salting, air-drying, smoking, or contain added preservatives → they fall under processed meat.
 

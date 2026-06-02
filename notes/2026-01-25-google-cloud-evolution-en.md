@@ -17,17 +17,21 @@ Answer:
 Google Cloud (including Google Cloud Platform, now Google Cloud) was built on Google's internal infrastructure expertise and evolved into a public cloud offering. Key figures include foundational architects from Google's early infrastructure and later leaders who shaped the commercial cloud business.
 
 ### Foundational / Early Key Architects and Engineers
+
 - **Urs Hölzle**: Often regarded as one of the most influential architects behind the infrastructure that powers Google Cloud. As Google's eighth employee and first VP of Engineering, he designed much of Google's early data center and technical infrastructure. He served as Senior Vice President of Technical Infrastructure until 2023 (overseeing Google Cloud's underlying systems) and is now a Google Fellow focused on Google Cloud infrastructure.
 
 Many core Google Cloud capabilities (like scalable compute, storage, and networking) trace back to Google's Borg cluster manager, Spanner database, and other internal systems developed under leaders like Jeff Dean, Sanjay Ghemawat, and others in Google's engineering organization.
 
 ### Leadership and Technical Executives (Recent / Current)
+
 - **Thomas Kurian**: CEO of Google Cloud since 2019. He has driven the overall strategy, growth, and product direction, transforming it into a major enterprise cloud provider.
 - **Amin Vahdat**: Chief Technologist for AI Infrastructure (and previously VP/GM of Networking and former leader in systems infrastructure). He has been instrumental in networking, data center design, and AI/ML infrastructure for Google Cloud.
 - **Brian Stevens** (former): Served as CTO of Google Cloud (around 2017 onward, after joining from Red Hat). He led the technology vision, emphasized open source (Kubernetes, etc.), and helped position Google Cloud for enterprise adoption. He left the role in later years.
 
 ### Other Notable Technical Influencers and Evangelists
+
 Google Cloud has many prominent developer relations and engineering leaders who shaped adoption and technical direction:
+
 - Francesc Campoy (developer advocate, Go/Kubernetes expert)
 - Mandy Waite (engineering leader in cloud tools)
 - Felipe Hoffa (BigQuery/data expert)

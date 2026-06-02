@@ -26,6 +26,7 @@ Valgrind 的架构是模块化的，因此可以轻松创建新工具。包含�
 ## 安装
 
 **在 Linux (Ubuntu/Debian) 上：**
+
 ```bash
 sudo apt-get install valgrind
 ```
@@ -47,6 +48,7 @@ gcc -g -O0 -Wall myprogram.c -o myprogram
 ### 步骤 2：使用 Valgrind 运行
 
 基本语法是：
+
 ```bash
 valgrind --tool=<toolname> <valgrind-options> ./myprogram [program-args]
 ```
@@ -60,11 +62,13 @@ Memcheck 是默认的 Valgrind 工具，可以使用 `valgrind program` 运行�
 Memcheck 是一个内存错误检测器。它能检测：访问不应访问的内存（例如，堆块溢出、释放内存后访问）、使用未定义/未初始化的值，以及内存泄漏。
 
 **基本命令：**
+
 ```bash
 valgrind ./myprogram
 ```
 
 **完整泄漏检查命令：**
+
 ```bash
 valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 ```
@@ -79,6 +83,7 @@ valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 | `-v` | 详细输出 |
 
 **内存泄漏示例输出：**
+
 ```
 ==17624== HEAP SUMMARY:
 ==17624==     in use at exit: 40 bytes in 1 blocks
@@ -96,6 +101,7 @@ valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 Massif 是一个堆分析器 — 它测量程序使用了多少堆内存。它可以提供堆使用量、堆管理字节和栈大小的信息。堆分析有助于减少程序使用的内存量。
 
 **运行 Massif：**
+
 ```bash
 valgrind --tool=massif ./myprogram
 ```
@@ -103,6 +109,7 @@ valgrind --tool=massif ./myprogram
 程序结束后，Massif 会打印摘要空间统计信息，并在名为 `massif.<pid>.ps` 的文件中生成表示程序堆使用情况的图表，该文件可由任何 PostScript 查看器读取。
 
 **可视化结果：**
+
 ```bash
 ms_print massif.out.<pid>
 ```
@@ -112,6 +119,7 @@ ms_print massif.out.<pid>
 ## Callgrind — 调用图和缓存分析器
 
 使用 Callgrind，只需传递程序可执行文件及其参数：
+
 ```bash
 valgrind --tool=callgrind --dump-instr=yes --simulate-cache=yes --collect-jumps=yes ./myprogram
 ```
@@ -145,6 +153,7 @@ Callgrind 会生成大量关于程序执行的数据。最容易理解的方法�
 3. **Xcode Instruments**：Apple 的 Xcode 包含 Instruments，提供内存分析功能，是官方推荐的 macOS 替代方案。
 
 4. **AddressSanitizer (ASan)**：一种基于编译器的替代方案，支持 Linux 和 macOS：
+
    ```bash
    clang -fsanitize=address -g ./myprogram.c -o myprogram
    ./myprogram

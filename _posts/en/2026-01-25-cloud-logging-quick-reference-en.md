@@ -65,6 +65,7 @@ Instead of plain text logs, emit JSON objects:
 ```
 
 Benefits:
+
 - Query by fields (`jsonPayload.user_id="u_12345"`)
 - Create distribution metrics
 - Better alerting

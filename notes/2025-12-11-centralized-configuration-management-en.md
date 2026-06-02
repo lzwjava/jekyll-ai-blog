@@ -19,6 +19,7 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
 ### Recommended Approaches
 
 1. **One single config file + environment variables (Best practice in 2025)**
+
    ```ini
    # config.ini (committed)
    [db2]
@@ -29,15 +30,19 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
    [paths]
    output_dir = /data/output/{country}/{env}
    ```
+
    Then at runtime:
+
    ```python
    country = os.getenv("COUNTRY_CODE")      # cn, tw, hk
    env     = os.getenv("ENV", "dev")        # dev, uat, prod
    ```
+
    → Zero sensitive credentials in repo, only one config file.
 
 2. **One base config + country-specific overrides (Very clean)**
    Repository structure:
+
    ```
    config/
      base.ini
@@ -49,10 +54,12 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
        uat.ini
        prod.ini
    ```
+
    Load order: `base.ini → {country}.ini → env/{env}.ini`
    Only a few lines differ per country (e.g., SSL settings, schema prefixes, date formats, encryption keys for CN).
 
 3. **Single config with sections per country and environment**
+
    ```ini
    [db2:cn:prod]
    host = prod-db-cn.company.com
@@ -62,6 +69,7 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
    host = uat-db-tw.company.com
    ssl = false
    ```
+
    You end up with one file but still 9 sections — better than 9 files, but harder to read.
 
 4. **Acceptable but not ideal: 3 country files × 3 env files = 9 files**
@@ -76,6 +84,7 @@ No, you should **not** have 9 separate .ini files in the central repository. Tha
 - In local dev: `local.env` file (added to .gitignore) or direnv
 
 ### Recommended final structure
+
 ```
 config/
   base.ini

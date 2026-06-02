@@ -17,6 +17,7 @@ Answer:
 In ServiceNow, change requests are stored in the **change_request** table. To search and filter them effectively, follow these steps:
 
 ### Accessing the Change Requests List
+
 1. Log in to your ServiceNow instance.
 2. In the left-hand navigation pane (Application Navigator), type "Change" in the filter navigator search bar.
 3. Under the **Change** module, select one of the predefined lists, such as:
@@ -28,7 +29,9 @@ In ServiceNow, change requests are stored in the **change_request** table. To se
    Alternatively, go directly to **Change > All** or search for "change_request.list" in the navigator to open the full list view.
 
 ### Using Filters in the List View
+
 Once in the list view:
+
 - At the top of the list, you'll see a **breadcrumb** (e.g., "All") and a filter builder.
 - Click the **funnel icon** or the area next to the breadcrumb to open the condition builder.
 - Build your filter:
@@ -40,14 +43,17 @@ Once in the list view:
 - Click **Run** to apply the filter and refresh the list.
 
 ### Quick Search Tips
+
 - Use the global search bar at the top: Type "CHG*" for change numbers or keywords.
 - In the list, use the search box above columns for quick text search.
 
 ### Saving and Reusing Filters
+
 - After building a filter, click the dropdown next to the breadcrumb and select **Save** to name and save it for future use.
 - Saved filters appear in the breadcrumb menu for quick access.
 
 ### Common Filter Examples
+
 - **My open changes**: Assignment group > is one of > My groups (dynamic) **AND** State > is one of > New, Assess, Authorize.
 - **Emergency changes this month**: Type > is > Emergency **AND** Created > on > This month.
 - **Approved changes**: Approval > is > Approved.

@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 1. **添加依赖项**
+
 要在 Java 项目中使用 `org.rocksdb`，您需要包含 RocksDB JNI（Java 原生接口）依赖项。如果使用 Maven，请将以下内容添加到 `pom.xml` 文件中：
 
 ```xml
@@ -34,6 +35,7 @@ implementation 'org.rocksdb:rocksdbjni:7.10.2'
 ---
 
 ### 2. **加载原生库**
+
 RocksDB 依赖于原生 C++ 代码，因此在使用前必须加载原生库。在代码开头添加以下行：
 
 ```java
@@ -45,6 +47,7 @@ RocksDB.loadLibrary();
 ---
 
 ### 3. **打开数据库**
+
 要开始使用 RocksDB，您需要通过指定数据库存储的文件路径来打开数据库实例。使用 `Options` 类来配置设置，例如在数据库不存在时创建数据库：
 
 ```java
@@ -61,14 +64,17 @@ RocksDB db = RocksDB.open(options, "/path/to/db");
 ---
 
 ### 4. **执行基本操作**
+
 RocksDB 是一个键值存储，其核心操作是 `put`、`get` 和 `delete`。键和值以字节数组形式存储，因此您需要将数据（例如字符串）转换为字节。
 
 - **Put**：插入或更新键值对。
+
   ```java
   db.put("key".getBytes(), "value".getBytes());
   ```
 
 - **Get**：检索与键关联的值。
+
   ```java
   byte[] value = db.get("key".getBytes());
   if (value != null) {
@@ -79,6 +85,7 @@ RocksDB 是一个键值存储，其核心操作是 `put`、`get` 和 `delete`。
   ```
 
 - **Delete**：删除键值对。
+
   ```java
   db.delete("key".getBytes());
   ```
@@ -86,6 +93,7 @@ RocksDB 是一个键值存储，其核心操作是 `put`、`get` 和 `delete`。
 ---
 
 ### 5. **关闭数据库**
+
 正确关闭数据库对于释放资源至关重要。最简单的方法是使用 try-with-resources 块，它会在操作完成后自动关闭数据库：
 
 ```java
@@ -99,6 +107,7 @@ try (RocksDB db = RocksDB.open(options, "/path/to/db")) {
 ---
 
 ### 6. **处理异常**
+
 RocksDB 操作可能会抛出 `RocksDBException`，因此请始终包含异常处理，以防止资源泄漏或数据损坏：
 
 ```java
@@ -112,6 +121,7 @@ try {
 ---
 
 ### 7. **配置选项**
+
 您可以使用 `Options` 类微调 RocksDB 的性能。例如：
 
 ```java
@@ -121,6 +131,7 @@ Options options = new Options()
 ```
 
 常见选项包括：
+
 - `setWriteBufferSize`：控制用于写入的内存。
 - `setMaxOpenFiles`：限制打开文件的数量。
 - `setCompactionStyle`：调整磁盘上数据的压缩方式。
@@ -130,6 +141,7 @@ Options options = new Options()
 ---
 
 ### 8. **简单示例**
+
 以下是一个完整示例，演示了打开数据库、存储键值对并检索它的过程：
 
 ```java
@@ -164,6 +176,7 @@ public class SimpleRocksDBExample {
 ---
 
 ### 关键注意事项
+
 - **嵌入式特性**：RocksDB 在应用程序进程内运行，而不是作为单独的服务器。
 - **字节数组**：键和值是 `byte[]`，因此您需要处理复杂对象的序列化/反序列化。
 - **性能**：RocksDB 在快速存储（例如 SSD）上表现出色，并用于高性能系统，如开发它的 Facebook。
@@ -172,6 +185,7 @@ public class SimpleRocksDBExample {
 ---
 
 ### 常见陷阱
+
 - **忘记 `RocksDB.loadLibrary()`**：导致 `UnsatisfiedLinkError`。
 - **资源管理不当**：不关闭数据库可能会导致问题，尤其是在资源受限的系统上。
 - **数据类型错误**：直接传递字符串或对象，而不是转换为 `byte[]`。
@@ -179,6 +193,7 @@ public class SimpleRocksDBExample {
 ---
 
 ### 进一步学习
+
 - **高级功能**：探索事务、快照或列族以应对更复杂的用例。
 - **资源**：查看 [RocksDB Java API](https://github.com/facebook/rocksdb/tree/main/java) 和 [RocksDB Wiki](https://github.com/facebook/rocksdb/wiki) 获取详细文档和示例。
 

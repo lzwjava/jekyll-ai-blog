@@ -13,6 +13,7 @@ type: note
 是的，macOS 完全可以安装 Chromium 作为 Google Chrome 的替代品。Chromium 是 Chrome 所基于的开源基础，因此功能非常相似，但缺少一些专有的 Google 功能，如自动更新和某些编解码器。
 
 ### 如何安装
+
 有几种简单的方法：
 
 1. **通过 Homebrew（对大多数用户来说最简单）**：

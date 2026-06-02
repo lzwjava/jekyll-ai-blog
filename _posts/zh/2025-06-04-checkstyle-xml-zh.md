@@ -13,6 +13,7 @@ type: note
 ---
 
 ### **概述**
+
 - **目的**：该文件定义了检查 Java、properties 和 XML 文件编码标准违规的规则，例如格式、命名约定、Javadoc 要求和代码结构。
 - **结构**：配置使用 `<module>` 元素按层次结构组织，从根模块 `Checker` 开始，该模块包含用于特定检查或过滤器的其他模块。
 - **标准**：它遵循：
@@ -29,6 +30,7 @@ type: note
 ---
 
 ### **根模块：`<module name="Checker">`**
+
 `Checker` 模块是协调所有检查和过滤器的顶级模块。
 
 - **属性**：
@@ -57,10 +59,13 @@ type: note
 ---
 
 ### **子模块：`<module name="TreeWalker">`**
+
 `TreeWalker` 模块处理 Java 源代码的抽象语法树（AST）以执行详细检查。它包含按类别分组的各种子模块。
 
 #### **Javadoc 检查**
+
 这些检查强制执行类、方法和变量的正确 Javadoc 注释：
+
 - `InvalidJavadocPosition`：确保 Javadoc 注释放置正确（例如，在类或方法之前，而不是其他地方）。
 - `JavadocMethod`：检查方法是否有正确的 Javadoc 注释，包括参数、返回类型和异常。
 - `JavadocType`：确保类、接口和枚举有 Javadoc 注释。
@@ -69,7 +74,9 @@ type: note
 - `MissingJavadocMethod`：标记缺少 Javadoc 注释的方法。
 
 #### **命名约定**
+
 这些检查确保标识符（变量、方法、类等）遵循命名约定：
+
 - `ConstantName`：常量（例如，`static final`）必须遵循命名模式（通常为 `UPPER_CASE`）。
 - `LocalFinalVariableName`：局部 `final` 变量必须遵循命名模式（例如，`camelCase`）。
 - `LocalVariableName`：局部变量必须遵循命名模式（例如，`camelCase`）。
@@ -81,19 +88,25 @@ type: note
 - `TypeName`：类/接口/枚举名称必须遵循命名模式（例如，`UpperCamelCase`）。
 
 #### **导入检查**
+
 这些检查规范 `import` 语句的使用：
+
 - `AvoidStarImport`：禁止通配符导入（例如，`import java.util.*`）。
 - `IllegalImport`：阻止从受限包导入（默认为 `sun.*`）。
 - `RedundantImport`：标记重复或不必要的导入。
 - `UnusedImports`：检测未使用的导入（忽略与 Javadoc 相关的导入，`processJavadoc="false"`）。
 
 #### **大小检查**
+
 这些检查限制方法和参数的大小：
+
 - `MethodLength`：确保方法不超过最大行数（默认通常为 150）。
 - `ParameterNumber`：限制方法中的参数数量（默认通常为 7）。
 
 #### **空白检查**
+
 这些检查强制执行代码中空白的一致使用：
+
 - `EmptyForIteratorPad`：检查空 `for` 循环迭代器中的填充（例如，`for (int i = 0; ; i++)`）。
 - `GenericWhitespace`：确保泛型类型周围的间距正确（例如，`List<String>`）。
 - `MethodParamPad`：检查方法参数列表前的间距。
@@ -106,12 +119,16 @@ type: note
 - `WhitespaceAround`：确保运算符和关键字周围的空白（例如，`if (x == y)`）。
 
 #### **修饰符检查**
+
 这些检查规范 Java 修饰符的使用：
+
 - `ModifierOrder`：确保修饰符顺序正确（例如，`public static final`，符合 JLS）。
 - `RedundantModifier`：标记不必要的修饰符（例如，`final` 类中的 `final`）。
 
 #### **块检查**
+
 这些检查强制执行代码块（`{}`）的正确使用：
+
 - `AvoidNestedBlocks`：禁止不必要的嵌套块（例如，`{ { ... } }`）。
 - `EmptyBlock`：标记空块（例如，`{}`），除非是故意的。
 - `LeftCurly`：确保左大括号（`{`）放置正确（例如，在一行的末尾）。
@@ -119,7 +136,9 @@ type: note
 - `RightCurly`：确保右大括号（`}`）放置正确（例如，在新行或同一行，取决于样式）。
 
 #### **编码问题检查**
+
 这些检查识别常见的编码问题：
+
 - `EmptyStatement`：标记空语句（例如，`;;`）。
 - `EqualsHashCode`：确保如果重写了 `equals()`，则也要重写 `hashCode()`。
 - `HiddenField`：检测被局部变量或参数遮蔽的字段。
@@ -132,7 +151,9 @@ type: note
 - `SimplifyBooleanReturn`：简化布尔返回语句（例如，`if (x) return true; else return false;`）。
 
 #### **类设计检查**
+
 这些检查强制执行良好的类设计实践：
+
 - `DesignForExtension`：确保非 final 类具有受保护或抽象方法以实现可扩展性。
 - `FinalClass`：将仅具有私有构造函数的类标记为 `final` 的候选。
 - `HideUtilityClassConstructor`：确保工具类（仅具有静态成员）具有私有构造函数。
@@ -140,18 +161,21 @@ type: note
 - `VisibilityModifier`：强制执行字段的正确可见性（例如，倾向于使用带有 getter/setter 的私有字段）。
 
 #### **杂项检查**
+
 - `ArrayTypeStyle`：强制执行一致的数组声明样式（例如，`int[]` 与 `int []`）。
 - `FinalParameters`：要求方法参数尽可能为 `final`。
 - `TodoComment`：标记代码中的 `TODO` 注释（用于跟踪未完成的工作）。
 - `UpperEll`：确保对 long 字面量使用字母 `L`（例如，`100L` 而不是 `100l`）。
 
 #### **抑制过滤器（在 TreeWalker 内部）**
+
 - `SuppressionXpathFilter`：允许使用文件中定义的 XPath 表达式来抑制检查（默认：`checkstyle-xpath-suppressions.xml`，可选）。
 - `SuppressWarningsHolder`：支持使用 `@SuppressWarnings("checkstyle:...")` 注解来抑制 AST 中的特定检查。
 
 ---
 
 ### **关键点**
+
 - **可配置性**：大多数模块具有默认设置，但可以通过属性进行自定义（例如，`LineLength` 可以设置特定的 `max` 长度）。
 - **抑制**：配置支持通过外部文件（`checkstyle-suppressions.xml`、`checkstyle-xpath-suppressions.xml`）或注解灵活地抑制检查。
 - **可扩展性**：可以添加额外的检查，并且可以通过注释掉或删除现有检查来禁用它们。
@@ -161,6 +185,7 @@ type: note
 ---
 
 ### **使用方式**
+
 1. **集成**：此文件通常与构建工具（如 Maven、Gradle）或 IDE 插件一起使用，以在构建过程或开发期间运行 Checkstyle。
 2. **违规报告**：当代码违反规则时（例如，一行超过最大长度），Checkstyle 会将其报告为错误（由于 `severity="error"`）。
 3. **抑制**：开发人员可以使用 `@SuppressWarnings("checkstyle:<check-name>")` 或通过在抑制文件中定义规则来抑制特定违规。
@@ -169,6 +194,7 @@ type: note
 ---
 
 ### **违规示例**
+
 - **JavadocMethod**：没有 Javadoc 的公共方法将触发错误。
 - **LineLength**：`.java` 文件中超过默认最大值（例如，80 个字符）的行将被标记。
 - **AvoidStarImport**：使用 `import java.util.*` 将导致错误。

@@ -15,7 +15,7 @@ type: note
 因此这个短语的意思是：
 “我们讨论的是编排工具，特指 Ansible 或 SaltStack。”
 
-### 快速对比说明此处的“Salt”：
+### 快速对比说明此处的“Salt”
 
 | 特性                   | Ansible                              | Salt (SaltStack)                          |
 |------------------------|--------------------------------------|-------------------------------------------|
@@ -31,10 +31,12 @@ type: note
 | 背后公司               | 红帽                                 | 原 SaltStack 公司，后被 VMware 收购，现属博通 |
 
 ### 为何人们会写“Ansible/Salt”
+
 它们是两种最流行的基于 Python 的开源工具，同时具备：
+
 - 配置管理（对服务器应用期望状态）
 - 编排（协调复杂的多步骤、多服务器操作）
 
 因此当有人说“编排（Ansible/Salt）”时，他们的意思是“我们使用 Ansible 或 SaltStack 来处理编排任务”。
 
-简而言之：**Salt = SaltStack**，即配置管理和编排平台（https://saltproject.io）。
+简而言之：**Salt = SaltStack**，即配置管理和编排平台（<https://saltproject.io）。>

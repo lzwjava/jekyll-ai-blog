@@ -35,24 +35,28 @@ ps
 ## Most Useful Commands
 
 **查看所有用户的所有 process：**
+
 ```bash
 ps aux          # BSD style
 ps -ef          # Unix style
 ```
 
 **以树状/层级结构查看 process：**
+
 ```bash
 ps auxf         # BSD style 带有 forest 视图
 ps -ef --forest # Unix style 带有 tree 视图
 ```
 
 **查看特定用户的 process：**
+
 ```bash
 ps -u username
 ps aux | grep username
 ```
 
 **通过 PID 查看 process：**
+
 ```bash
 ps -p 1234
 ps -p 1234,5678,9101  # 多个 PID
@@ -61,6 +65,7 @@ ps -p 1234,5678,9101  # 多个 PID
 ## Key Options Explained
 
 ### BSD Style (no dash)
+
 - `a` - 显示所有用户的 process
 - `u` - 显示面向用户的格式（显示 owner, CPU%, memory% 等）
 - `x` - 包含没有控制 terminal 的 process
@@ -69,6 +74,7 @@ ps -p 1234,5678,9101  # 多个 PID
 - `ww` - 无限制宽度
 
 ### Unix Style (with dash)
+
 - `-e` - 选择所有 process
 - `-f` - 全格式列出
 - `-l` - 长格式
@@ -120,32 +126,38 @@ ps aux --sort=-%mem | head    # 内存使用率最高的 process
 ## Practical Examples
 
 **查找特定 process：**
+
 ```bash
 ps aux | grep firefox
 ```
 
 **显示 threads：**
+
 ```bash
 ps -eLf          # 所有 threads
 ps -T -p 1234    # 特定 PID 的 threads
 ```
 
 **实时监控 process：**
+
 ```bash
 watch -n 1 'ps aux --sort=-%cpu | head -20'
 ```
 
 **查看带有完整 command line 的 process：**
+
 ```bash
 ps auxww | grep process_name
 ```
 
 **统计 process 数量：**
+
 ```bash
 ps aux | wc -l
 ```
 
 **从特定 process 查看 process 树：**
+
 ```bash
 ps -ef --forest | grep -A 5 process_name
 ```

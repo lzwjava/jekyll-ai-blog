@@ -11,6 +11,7 @@ type: note
 Oracle's major competitors vary by product area, but here are the key ones:
 
 **Database Management:**
+
 - Microsoft SQL Server
 - IBM DB2
 - MySQL (ironically, Oracle owns this but it competes with their commercial offerings)
@@ -19,18 +20,21 @@ Oracle's major competitors vary by product area, but here are the key ones:
 - MongoDB
 
 **Cloud Infrastructure:**
+
 - Amazon Web Services (AWS) - the dominant player
 - Microsoft Azure
 - Google Cloud Platform
 - IBM Cloud
 
 **Enterprise Software:**
+
 - SAP (major competitor in ERP and business applications)
 - Microsoft (Dynamics, Office 365)
 - Salesforce (CRM and cloud applications)
 - Workday (HR and financial management)
 
 **Java and Development Tools:**
+
 - Microsoft (.NET framework and Visual Studio)
 - IBM (WebSphere and development tools)
 - Various open-source alternatives

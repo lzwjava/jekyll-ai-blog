@@ -63,6 +63,7 @@ Answer:
   - Space Exploration
 
 **备考 Tips**:
+
 - 你 **不需要** 准备每一个可能的题目 —— 掌握 **8–10 个核心类别** 通常就足够了。
 - 学习每个领域特定的话题词汇 (topic-specific vocabulary)。
 - 针对这些话题练习全部五种主要的 essay 类型：

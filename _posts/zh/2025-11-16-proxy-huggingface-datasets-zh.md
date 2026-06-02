@@ -96,7 +96,7 @@ print(requests.get("https://api.ipify.org?format=json").text)
 
 ---
 
-# 如果您需要，我还可以演示：
+# 如果您需要，我还可以演示
 
 * 如何确保 NanoGPT 通过代理下载数据集
 * 如何本地缓存数据集避免重复下载

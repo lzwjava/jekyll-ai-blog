@@ -16,19 +16,19 @@ Here's a breakdown of how you can achieve this, focusing on the core concepts an
 
 The key to integrating Rust with Java lies in **Foreign Function Interface (FFI)**. This allows code written in one language (Java) to call functions implemented in another language (Rust), and vice versa. The primary mechanisms for FFI between Java and native code are:
 
-1.  **Java Native Interface (JNI):** This is the official, built-in framework provided by the JVM for interacting with native applications and libraries.
+1. **Java Native Interface (JNI):** This is the official, built-in framework provided by the JVM for interacting with native applications and libraries.
 
       * **How it works:** You define `native` methods in your Java code. Then, you implement these methods in Rust (or C/C++), adhering to specific naming conventions and using the `jni` crate in Rust to interact with the Java environment (e.g., accessing Java objects, throwing exceptions).
       * **Pros:** Official, highly optimized, direct access to JVM internals.
       * **Cons:** Can be verbose, requires careful handling of memory and object lifetimes across the language boundary, function names need to follow a strict pattern.
 
-2.  **JNA (Java Native Access) / JNR-FFI:** These are third-party libraries that simplify FFI by allowing you to call native libraries directly from Java without writing JNI C/C++ (or Rust) glue code.
+2. **JNA (Java Native Access) / JNR-FFI:** These are third-party libraries that simplify FFI by allowing you to call native libraries directly from Java without writing JNI C/C++ (or Rust) glue code.
 
       * **How it works:** You define a Java interface that mirrors the native library's C function signatures. JNA/JNR-FFI then dynamically loads the native library and maps the Java interface methods to the corresponding native functions.
       * **Pros:** Much less boilerplate code than JNI, easier to use.
       * **Cons:** Slightly less performant than raw JNI in some cases (though often negligible for typical use cases), might not support every complex JNI interaction directly.
 
-3.  **Project Panama (Modern FFI):** This is an ongoing OpenJDK project (available as a preview in recent Java versions, like Java 21+) that aims to provide a safer, more efficient, and easier-to-use API for FFI. It's the future of Java-native interoperability.
+3. **Project Panama (Modern FFI):** This is an ongoing OpenJDK project (available as a preview in recent Java versions, like Java 21+) that aims to provide a safer, more efficient, and easier-to-use API for FFI. It's the future of Java-native interoperability.
 
       * **How it works:** It uses `jextract` to generate Java bindings from C header files, allowing you to call native functions almost as if they were regular Java methods.
       * **Pros:** Designed for safety and performance, more idiomatic Java style.
@@ -40,12 +40,12 @@ The most common way to integrate Rust builds into a Maven project is by using a 
 
 Here's a conceptual outline of the Maven workflow:
 
-1.  **Define your Rust project:** Create a standard Rust project (a `cargo` crate) that contains your algorithm solutions.
+1. **Define your Rust project:** Create a standard Rust project (a `cargo` crate) that contains your algorithm solutions.
 
       * If using JNI, your Rust functions will need to follow the JNI naming conventions (e.g., `Java_com_lzw_solutions_YourClass_yourMethod`).
       * If using JNA/JNR-FFI, you can define more standard Rust functions with `#[no_mangle]` and `extern "C"`.
 
-2.  **Add a Rust Maven Plugin:**
+2. **Add a Rust Maven Plugin:**
 
       * Include a plugin like `rust-maven-plugin` in your `pom.xml`'s `<build><plugins>` section.
       * Configure it to:
@@ -54,14 +54,14 @@ Here's a conceptual outline of the Maven workflow:
           * Specify `cdylib` as the crate type in your `Cargo.toml` to produce a dynamic library (`.so`, `.dll`, `.dylib`).
           * Copy the compiled native library into your Java project's `target/classes` directory or a platform-specific subdirectory. This allows Maven to include it in the final JAR.
 
-3.  **Java Code to Load and Call Rust:**
+3. **Java Code to Load and Call Rust:**
 
       * In your Java code, you'll need to load the native library at runtime.
           * For JNI: `System.loadLibrary("your_rust_lib_name");` (or `System.load("path/to/your/lib")`).
           * For JNA/JNR-FFI: Use their respective `LibraryLoader` mechanisms.
       * Define `native` methods in your Java classes that correspond to the Rust functions you want to call.
 
-4.  **Maven Lifecycle Integration:**
+4. **Maven Lifecycle Integration:**
 
       * **`clean`:** The Rust Maven plugin should ensure that `mvn clean` also cleans the Rust build artifacts.
       * **`compile` / `package`:** The Rust plugin will invoke `cargo build` during these phases, compiling your Rust code and placing the native library in the correct location for packaging.
@@ -224,14 +224,14 @@ public class RustAlgorithm {
 }
 ```
 
-### Considerations and Best Practices:
+### Considerations and Best Practices
 
-  * **Error Handling:** In Rust, robust error handling across the FFI boundary is crucial. The `jni` crate provides mechanisms for throwing Java exceptions from Rust.
-  * **Data Conversion:** Carefully consider how data types are converted between Java and Rust. Primitives are generally straightforward, but complex objects, strings, and collections require more thought and often involve JNI calls to manipulate Java objects from Rust.
-  * **Memory Management:** Rust's ownership and borrowing system helps with memory safety. When interacting with Java via JNI, be mindful of who owns the memory and when resources should be released to avoid memory leaks or crashes.
-  * **Platform Specifics:** Native libraries are platform-dependent. The `rust-maven-plugin` and `JarJniLoader` (if used) can help manage platform-specific library loading.
-  * **Testing:** Write comprehensive unit and integration tests for both your Rust code and the Java integration layer.
-  * **Build Environment:** Ensure your build environment has Rust and Cargo installed and accessible to Maven.
-  * **Debugging:** Debugging FFI issues can be more complex, often requiring debugging tools for both Java (JVM) and native code.
+* **Error Handling:** In Rust, robust error handling across the FFI boundary is crucial. The `jni` crate provides mechanisms for throwing Java exceptions from Rust.
+* **Data Conversion:** Carefully consider how data types are converted between Java and Rust. Primitives are generally straightforward, but complex objects, strings, and collections require more thought and often involve JNI calls to manipulate Java objects from Rust.
+* **Memory Management:** Rust's ownership and borrowing system helps with memory safety. When interacting with Java via JNI, be mindful of who owns the memory and when resources should be released to avoid memory leaks or crashes.
+* **Platform Specifics:** Native libraries are platform-dependent. The `rust-maven-plugin` and `JarJniLoader` (if used) can help manage platform-specific library loading.
+* **Testing:** Write comprehensive unit and integration tests for both your Rust code and the Java integration layer.
+* **Build Environment:** Ensure your build environment has Rust and Cargo installed and accessible to Maven.
+* **Debugging:** Debugging FFI issues can be more complex, often requiring debugging tools for both Java (JVM) and native code.
 
 By following these principles and leveraging existing Maven plugins, you can effectively incorporate Rust-based algorithm solutions into your Java Maven project, gaining the benefits of both ecosystems.

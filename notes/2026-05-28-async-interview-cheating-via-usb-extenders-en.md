@@ -27,11 +27,13 @@ Candidate's screen     →    Shared to helper via screen share app
 ```
 
 **Hardware needed (~$30-100):**
+
 - USB extension over Cat5/Cat6 (e.g., ATEN UCE3250, runs 50m)
 - Or wireless USB extender
 - Or simply: two machines + remote desktop (AnyDesk hidden, TeamViewer, etc.)
 
 The hardware approach is almost undetectable because:
+
 - No suspicious software running
 - Candidate's hands visible on camera
 - Candidate can even look like they're "thinking"
@@ -49,6 +51,7 @@ The hardware approach is almost undetectable because:
 ## Why Proctoring Fails Here
 
 Most platforms (HackerRank, Codility, CoderPad) rely on:
+
 - Webcam (only sees face/hands, not helper behind camera)
 - Tab-switch detection (irrelevant if helper has own machine)
 - Browser lockdown (bypassed by second machine entirely)
@@ -66,6 +69,7 @@ None of these catch a physical USB extender at all.
 ## Industry Reality
 
 Companies like Google, Meta, Jane Street know this. That's why:
+
 - Top-tier companies always have a live human interviewer asking follow-ups
 - Final rounds are in-person or via verified video with system share
 - Coding screen is just a signal, not the verdict

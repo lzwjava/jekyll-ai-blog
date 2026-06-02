@@ -19,6 +19,7 @@ Your body temperature naturally drops as you fall asleep - this is part of your 
 **Your layering approach is smart:**
 
 What you're doing in Guangzhou is actually ideal sleep management. By using lighter blankets when it's 10-15°C and adjusting with layers, you're:
+
 - Allowing your body to regulate temperature naturally
 - Preventing overheating (which Sam Altman correctly notes disrupts sleep)
 - Staying flexible as temperatures change through the night
@@ -28,6 +29,7 @@ The thick blanket only being needed 5 times for those rare 3-5°C nights makes p
 **Why sweating is bad for sleep:**
 
 When you sweat during sleep, it means your body is working hard to cool down, which:
+
 - Pulls you out of deep sleep stages
 - Causes frequent micro-awakenings (even if you don't remember them)
 - Leads to that uncomfortable, restless feeling

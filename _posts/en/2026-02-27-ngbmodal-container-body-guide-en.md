@@ -21,6 +21,7 @@ What you are most likely seeing (or hearing about) is the combination of two sep
 - **`.modal-body`** class in the modal's HTML structure
 
 ### 1. The `container` option
+
 When you open a modal with `NgbModal.open(...)`, you can pass options:
 
 ```ts
@@ -45,6 +46,7 @@ This setting is important when:
 - You open modals inside deeply nested components
 
 ### 2. The `.modal-body` part
+
 This is **not** an option — it's part of the **HTML structure** you write inside your modal template:
 
 ```html

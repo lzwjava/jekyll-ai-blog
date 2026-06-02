@@ -13,6 +13,7 @@ type: note
 ### Top 20% Java Users & Teams in Competitive Programming
 
 Java holds **~15-20%** usage in major contests (Codeforces Div.1: ~18%, AtCoder: ~15%, ICPC World Finals: ~20-25%). It’s favored for:
+
 - Built-in **BigInteger** (no overflow worries),
 - Rich **standard library** (Collections, Streams),
 - Strong **OOP** for modeling complex problems,
@@ -60,6 +61,7 @@ Below are **famous individual users** (Grandmaster+ on Codeforces, IOI/ICPC meda
 | **No segfaults** | Safer than C++ in 5-hour ICPC Finals |
 
 **Downsides**:
+
 - Slower I/O → **must use fast input templates**
 - Verbose code → top users write **code generators/snippet libraries**
 

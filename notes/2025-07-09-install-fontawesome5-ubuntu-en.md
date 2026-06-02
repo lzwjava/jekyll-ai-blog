@@ -44,6 +44,7 @@ cd ~/texmf/tex/latex/fontawesome5
 ```
 
 3. Update the TeX database:
+
 ```bash
 texhash ~/texmf
 ```
@@ -68,11 +69,13 @@ Once installed, you can use it in your LaTeX documents:
 If you encounter issues:
 
 1. Check if your TeX Live installation is up to date:
+
 ```bash
 tlmgr --version
 ```
 
 2. Verify the package is installed:
+
 ```bash
 tlmgr info fontawesome5
 ```

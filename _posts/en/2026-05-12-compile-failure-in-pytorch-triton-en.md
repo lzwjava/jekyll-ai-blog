@@ -28,6 +28,7 @@ python -u train.py config/train_fineweb_gpt3.py --compile=False 2>&1 \
 The traceback paths are `/home/lzw/.local/lib/python3.11/...` — that's **system Python 3.11**, not the nanoGPT venv (which I used earlier was Python 3.14 at `/mnt/data/nanoGPT/venv/bin/python`). Did you forget `source venv/bin/activate` in your tmux session? That's not what's causing this error (the gcc failure would happen in either env), but you'll want consistency for the long run.
 
 Check:
+
 ```bash
 which python && python -c "import sys; print(sys.executable, sys.version)"
 ```
@@ -45,6 +46,7 @@ echo $CUDA_HOME
 ```
 
 Typical fixes:
+
 - `sudo apt install nvidia-cuda-toolkit` (gets the headers Triton needs)
 - `export CUDA_HOME=/usr/local/cuda` and `export PATH=$CUDA_HOME/bin:$PATH` before running
 - Or: re-run the smoke command — sometimes Triton's stale `~/.triton/cache` causes phantom failures; `rm -rf ~/.triton/cache` clears it

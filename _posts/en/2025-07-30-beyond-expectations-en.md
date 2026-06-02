@@ -32,8 +32,6 @@ type: post
    - Debt assumptions backfire harshly
    - Recovery demands prolonged discipline
 
-
-
 ## Beyond Expectations
 
 *2025.07.30*
@@ -65,8 +63,6 @@ There are already a lot of workers, products, and services. But things that are 
 ChatGPT is beyond expectation. DeepSeek is beyond expectation.
 
 Having results that are beyond expectation means that they are good, and somehow exceptionally good.
-
-
 
 ---
 

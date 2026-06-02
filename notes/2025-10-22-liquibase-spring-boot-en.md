@@ -15,10 +15,12 @@ type: note
 Liquibase is a popular open-source tool for managing database schema changes (migrations) in a version-controlled way. Spring Boot provides excellent auto-configuration support for Liquibase, making it easy to integrate. This guide assumes you're using Spring Boot 3.x (the latest as of 2025) with Maven, but the concepts apply to Gradle too. We'll cover the basics step by step.
 
 ### Prerequisites
+
 - A Spring Boot project set up (e.g., via Spring Initializr).
 - A database (e.g., H2 for testing, PostgreSQL/MySQL for production) configured in `application.properties`.
 
 ### Step 1: Add Liquibase Dependency
+
 Include the Liquibase Spring Boot starter in your `pom.xml`. This pulls in Liquibase and integrates it seamlessly.
 
 ```xml
@@ -33,6 +35,7 @@ Include the Liquibase Spring Boot starter in your `pom.xml`. This pulls in Liqui
 ```
 
 For Gradle, add to `build.gradle`:
+
 ```groovy
 implementation 'org.liquibase:liquibase-core'
 implementation 'org.springframework.boot:spring-boot-starter-jdbc'
@@ -41,9 +44,11 @@ implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 Run `mvn clean install` (or `./gradlew build`) to fetch dependencies.
 
 ### Step 2: Configure Liquibase
+
 Spring Boot auto-detects Liquibase if you place changelog files in the default location. Customize via `application.properties` (or `.yml` equivalent).
 
 Example `application.properties`:
+
 ```properties
 # Database setup (adjust for your DB)
 spring.datasource.url=jdbc:h2:mem:testdb
@@ -62,7 +67,9 @@ spring.liquibase.drop-first=false  # Set to true for dev to drop schema on start
 - For contexts/profiles, use `spring.liquibase.contexts=dev` to run specific changes.
 
 ### Step 3: Create Changelog Files
+
 Liquibase uses "changelogs" to define schema changes. Create a directory structure under `src/main/resources`:
+
 ```
 src/main/resources/
 └── db/
@@ -74,7 +81,9 @@ src/main/resources/
 ```
 
 #### Master Changelog (`db.changelog-master.xml`)
+
 This includes other changelogs:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog
@@ -89,7 +98,9 @@ This includes other changelogs:
 ```
 
 #### Sample Change (`001-create-users-table.xml`)
+
 Define a table creation:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
@@ -115,9 +126,11 @@ Define a table creation:
 - Run `java -jar target/your-app.jar` to start the app—Liquibase applies changes automatically on bootstrap.
 
 ### Step 4: Running and Testing
+
 - **On Startup**: Spring Boot runs Liquibase before your app fully starts.
 - **Rollback**: Use `spring.liquibase.rollback-file` or CLI for testing.
 - **CLI Integration**: For manual runs, add the Liquibase Maven plugin:
+
   ```xml
   <plugin>
       <groupId>org.liquibase</groupId>
@@ -131,11 +144,13 @@ Define a table creation:
       </configuration>
   </plugin>
   ```
+
   Then run `mvn liquibase:update`.
 
 - **Validation**: Enable `spring.liquibase.validate-on-migrate=true` to check changelogs.
 
 ### Common Tips
+
 - **Profiles**: Use `@Profile("dev")` on beans if needed, but Liquibase runs globally unless filtered.
 - **Preconditions**: Add `<preConditions>` in changesets to check DB state.
 - **SQL Format**: For raw SQL, create `.sql` files and include them: `<sqlFile path="changes/create-users.sql" relativeToChangelogFile="true"/>`.
@@ -145,6 +160,7 @@ Define a table creation:
 For advanced features like tagged rollbacks or custom extensions, refer to the docs.
 
 ### References
+
 - [Spring Boot Liquibase Auto-Configuration](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#io.liquibase)
 - [Liquibase Official Documentation](https://docs.liquibase.com/start/home.html)
 - [Baeldung Spring Boot + Liquibase Tutorial](https://www.baeldung.com/liquibase-refactor-schema-of-jpa-entity-in-spring-boot)

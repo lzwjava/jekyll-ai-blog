@@ -58,6 +58,7 @@ Beyond just the code, large corporations add:
 ## The Compound Interest of Technical Debt
 
 Every year you *don't* upgrade, the gap widens:
+
 - The new version diverges further from the old one
 - Migration guides get stale
 - Community support for the old version shrinks
@@ -81,6 +82,7 @@ This is why you still see banks running COBOL from the 1970s, or enterprise apps
 ## What Actually Forces the Change
 
 Just like with individuals, teams usually only move when:
+
 - A **security vulnerability** forces an emergency upgrade
 - A vendor **ends support** (e.g., Python 2 EOL, Log4j crisis)
 - A **new project** greenfields the modern stack and proves it out

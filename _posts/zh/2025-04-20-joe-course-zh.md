@@ -19,6 +19,7 @@ type: note
 总之，本课程通过理论讲解、实物元件剖析与实际应用相结合的方式，为电气行业从业者提供了全面的电学与电子学入门指导。
 
 **核心教学内容：**
+
 - 与电学相关的基础原子与分子结构
 - 四大电学基本属性：电压、电流、电阻、功率
 - 直流电路及交直流电差异
@@ -29,12 +30,5 @@ type: note
 
 <div style="text-align: center">⁂</div>
 
-[^1]: https://www.youtube.com/watch?v=SpqwAasxY7U
-[^2]: https://www.youtube.com/watch?v=_4zSRze0_bk
-[^3]: https://www.youtube.com/watch?v=FEK6lH_rtG8
-[^4]: https://www.youtube.com/watch?v=nb4ovfwqup8
-[^5]: https://www.youtube.com/watch?v=VRATZ7x7Kn8
-[^6]: https://catalog.lwtech.edu/content.php?catoid=4\&navoid=157
-[^7]: https://www.linkedin.com/posts/joe-gryniuk-9a23099_education-teaching-teaching-activity-6972980828175839233-u62m
-[^8]: https://www.youtube.com/watch?v=0cISPOtQyeE
-[^9]: https://cis.bbent.com/Resources/
+[^1]: <https://www.youtube.com/watch?v=SpqwAasxY7U>
+[^2]: <https://www.youtube.com/watch?v=_4zSRze0_bk>

@@ -13,10 +13,12 @@ type: note
 此问题的出现是因为 macOS 上的 Safari 对本地 URL 执行比 Chrome 更严格的安全策略。具体而言，Safari 要求安全的 HTTPS 环境才能允许持久性 Cookie 和认证会话，这防止了在 HTTP 上运行的应用（如 LibreChat）出现潜在登出循环或每次访问都需要重新认证的情况。Chrome 对本地 HTTP 更为宽松，因此认证能在 Chrome 中持久保持，但在 Safari 中则不行。[1][2][3]
 
 ### 影响因素
+
 - **浏览器策略**：Safari 等现代浏览器要求对本地使用 HTTPS，以避免混合内容警告和会话不安全问题。
 - **LibreChat 行为**：LibreChat 使用安全 Cookie 或基于 localStorage 的令牌进行认证，在 Safari 的 HTTP 环境下会因其对非安全源的严格处理而失效。
 
 ### 解决方案（按简易和有效性排序）
+
 1. **为本地设置 HTTPS（推荐）**：
    - LibreChat 官方文档和博客推荐此方法以防止 HTTP 引起的登出问题。[1]
    - 使用 `mkcert`（免费工具）生成并信任本地的 SSL 证书：
@@ -38,10 +40,10 @@ type: note
 如果以上方法均无效，请检查 LibreChat 日志中的认证错误，确保 `.env` 中没有冲突标志（例如 `ALLOW_ANONYMOUS=true` 会完全禁用认证，如需要），并确认未处于 Safari 的私密浏览模式，该模式会阻止持久存储。[6][7] 如果问题仍然存在，请提供您的 LibreChat 版本和 .env 配置以便进一步排查。
 
 引用：
-[1] https://www.librechat.ai/blog/2024-05-16_unsecured_http
-[2] https://github.com/danny-avila/LibreChat/discussions/529
-[3] https://stackoverflow.com/questions/46394682/safari-keeps-forcing-https-on-localhost
-[4] https://superuser.com/questions/30827/safari-is-unable-to-reach-localhost-127-0-0-1
-[5] https://apple.stackexchange.com/questions/422556/localhost-has-stopped-working-on-chrome-and-safari-since-upgrading-to-big-sur
-[6] https://www.librechat.ai/docs/configuration/authentication
-[7] https://discussions.apple.com/thread/255906354
+[1] <https://www.librechat.ai/blog/2024-05-16_unsecured_http>
+[2] <https://github.com/danny-avila/LibreChat/discussions/529>
+[3] <https://stackoverflow.com/questions/46394682/safari-keeps-forcing-https-on-localhost>
+[4] <https://superuser.com/questions/30827/safari-is-unable-to-reach-localhost-127-0-0-1>
+[5] <https://apple.stackexchange.com/questions/422556/localhost-has-stopped-working-on-chrome-and-safari-since-upgrading-to-big-sur>
+[6] <https://www.librechat.ai/docs/configuration/authentication>
+[7] <https://discussions.apple.com/thread/255906354>

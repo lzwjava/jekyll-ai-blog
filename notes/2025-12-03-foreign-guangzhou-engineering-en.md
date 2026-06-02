@@ -12,11 +12,12 @@ type: note
 
 ### Question: What foreign companies and banks in Guangzhou, China, have offices there and hire for permanent or contract engineering roles (e.g., similar to HSBC, DBS, Standard Chartered)?
 
-### Answer:
+### Answer
 
 Foreign banks and multinational companies with offices in Guangzhou actively recruit for engineering roles, often in IT, software, financial technology, automation, and related fields. These positions can be permanent (full-time with benefits) or contract-based, depending on the role and project needs. Guangzhou's status as a hub in the Greater Bay Area attracts global firms, particularly in finance, manufacturing, and tech. Below is a curated list based on current office presences and active or recent hiring trends. Note that job availability fluctuates, so check official career sites or platforms like LinkedIn, Glassdoor, and Zhaopin for the latest openings. Engineering roles typically require relevant degrees (e.g., in computer science, electrical engineering) and may prefer bilingual candidates.
 
 #### Foreign Banks with Guangzhou Offices Hiring Engineers
+
 These banks often seek software engineers, data engineers, and fintech specialists for their technology and operations centers.
 
 | Bank | Office Details | Engineering Roles Hired | Employment Types | Key Notes |
@@ -29,6 +30,7 @@ These banks often seek software engineers, data engineers, and fintech specialis
 | Crédit Agricole CIB China | Guangzhou Branch. | Financial Engineers (derivatives modeling). | Permanent and contract. | Investment banking tech; expertise in algo trading. Apply at [CA CIB Careers](https://www.ca-cib.com/careers). |
 
 #### Other Multinational Companies with Guangzhou Offices Hiring Engineers
+
 Beyond banks, these firms hire for hardware, automation, and R&D engineering, often through global service centers.
 
 | Company | Office Details | Engineering Roles Hired | Employment Types | Key Notes |
@@ -41,6 +43,7 @@ Beyond banks, these firms hire for hardware, automation, and R&D engineering, of
 | NES Fircroft (UK-based recruitment, places in multinationals) | Supports placements in Guangzhou IOCs/EPCs. | Oil & Gas/Engineering Contractors (e.g., fabrication yards). | Primarily contract. | For expats; covers mechanical, electrical roles. Explore [NES Fircroft China](https://www.nesfircroft.com/regions/recruitment-in-asia/china-jobs). |
 
 #### Tips for Applying
+
 - **Visa/Work Permits**: Foreign hires need a Z visa; companies like these sponsor for skilled roles (e.g., via "foreign expert" status for engineers).
 - **Salary Expectations**: Entry-level engineers: RMB 20,000–40,000/month; senior: RMB 50,000+. Contracts may include housing allowances.
 - **Challenges**: Competition is high; Mandarin proficiency boosts chances. Use recruitment agencies like Michael Page or HiredChina for tailored searches.
@@ -48,7 +51,8 @@ Beyond banks, these firms hire for hardware, automation, and R&D engineering, of
 
 For real-time listings, search "Guangzhou engineering jobs foreigner" on LinkedIn or Glassdoor.
 
-### References:
+### References
+
 - *[List of Foreign Banks in China](https://www.real-time-cny.com/china/foreign_banks.html)
 - *[HSBC Careers in China](https://www.about.hsbc.com.cn/careers)
 - *[Standard Chartered GBA Careers](https://www.sc.com/en/global-careers/experienced-hire/spotlight-career-opportunities/gba-careers-hk/)

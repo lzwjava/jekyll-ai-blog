@@ -29,6 +29,7 @@ type: note
 简而言之：工作或学习“太多”往往是合理化的懒惰——懒于构建更好的系统、懒于拒绝、懒于相信从长远来看深度胜过数量。
 
 参考资料：
+
 - Cal Newport – Deep Work（深度工作）(2016)
 - Alex Pang – Rest: Why You Get More Done When You Work Less（休息：少工作多办事）(2016)
 - Anders Ericsson – Peak: Secrets from the New Science of Expertise（刻意练习：如何成为一个高手）(2016)

@@ -42,6 +42,7 @@ type: note
 你目前通过合同安排担任 AI 工程师。汇丰内部职称体系通常为：软件工程师 → 高级软件工程师 → 主管/高级工程师 → **首席工程师** → 杰出工程师/院士。首席工程师通常是 GCB4 或同等职级——这是一个重要的跃升，需要承担架构所有权，而不仅仅是个人编码。鉴于你在 AI 工具方面的深度，结合你已在 AI 采用指标上展示的影响力，争取这一职称是一个现实的方向。
 
 **参考：**
+
 - [HSBC Principal Engineer Salary — Comparably](https://www.comparably.com/companies/hsbc/salaries/principal-engineer)
 - [HSBC Senior Software Engineer Salary — Glassdoor](https://www.glassdoor.com/Salary/HSBC-Holdings-Senior-Software-Engineer-Salaries-E3482_D_KO14,38.htm)
 - [HSBC Software Engineer Salary HK — Glassdoor](https://www.glassdoor.com.hk/Salary/HSBC-Software-Engineer-Hong-Kong-Salaries-EJI_IE3482.0,4_KO5,22_IL.23,32_IC2308631.htm)

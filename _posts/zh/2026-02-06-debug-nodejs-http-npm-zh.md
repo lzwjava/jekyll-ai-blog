@@ -28,6 +28,7 @@ NODE_DEBUG=http,https node your-script.js
 ```
 
 这将向你展示：
+
 - Socket 连接与复用
 - 正在发送的 Request headers
 - Response status codes
@@ -35,6 +36,7 @@ NODE_DEBUG=http,https node your-script.js
 - 内部状态转换
 
 **示例输出** 包含如下细节：
+
 ```
 HTTP 12345: call onSocket 0 0
 HTTP 12345: createConnection localhost:3000 {...}
@@ -57,6 +59,7 @@ npm install
 ```
 
 **使用 npm debug 标志的替代方案：**
+
 ```bash
 npm install --verbose
 # 或者
@@ -65,11 +68,13 @@ npm install -dd # 更加详细
 ```
 
 **若要查看包含 headers 的实际 HTTP 流量**，请结合使用 NODE_DEBUG：
+
 ```bash
 NODE_DEBUG=http,https npm install --loglevel silly
 ```
 
 这将向你展示：
+
 - 正在联系的 Registry URLs
 - Request/response headers
 - TLS/SSL handshakes
@@ -77,11 +82,13 @@ NODE_DEBUG=http,https npm install --loglevel silly
 - Cache 操作
 
 **提示**：如果输出内容过多，可以将其通过管道传输到文件中：
+
 ```bash
 NODE_DEBUG=http,https npm install --loglevel silly 2>&1 | tee npm-debug.log
 ```
 
 你可以使用以下命令将 npm logging 重置为正常状态：
+
 ```bash
 npm config set loglevel warn
 ```

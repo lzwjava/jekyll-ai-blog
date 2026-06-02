@@ -29,6 +29,7 @@ When dealing with a bee sting, two different creams can be helpful, each with a 
 **In simpler terms:** It's a **corticosteroid cream** that reduces inflammation and allergic symptoms.
 
 **Important to know:**
+
 * You **shouldn't use it for a long time or over large areas** of your skin.
 * Be careful to **avoid getting it in your eyes or on other mucous membranes** (like inside your nose or mouth).
 
@@ -38,7 +39,7 @@ These two creams offer different approaches to managing bee stings – one for i
 
 Here are the instructions translated into English:
 
-1.  **Topical Fucidin Cream:** Apply three times a day, 1 gram each time, for 7 consecutive days.
-2.  **Topical Hydrocortisone Butyrate Cream:** Apply twice a day, 1 gram each time, for 7 consecutive days.
-3.  **Regarding cyst rupture:** If there is a need to rupture a cyst, it is recommended to go to a public Grade A tertiary hospital for sterile processing.
-4.  **Regarding changes in condition:** If there are any changes in your condition, discomfort, or other concerns, please seek medical attention promptly offline (in person).
+1. **Topical Fucidin Cream:** Apply three times a day, 1 gram each time, for 7 consecutive days.
+2. **Topical Hydrocortisone Butyrate Cream:** Apply twice a day, 1 gram each time, for 7 consecutive days.
+3. **Regarding cyst rupture:** If there is a need to rupture a cyst, it is recommended to go to a public Grade A tertiary hospital for sterile processing.
+4. **Regarding changes in condition:** If there are any changes in your condition, discomfort, or other concerns, please seek medical attention promptly offline (in person).

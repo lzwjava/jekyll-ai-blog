@@ -38,26 +38,26 @@ translated: true
 
 ### 模型训练
 
-- 使用nanoGPT在FineWeb数据集上从头训练了**GPT-2 124M**两次——一次在**RunPod H200**上，一次在**DigitalOcean H100**上；还在家用服务器（**RTX 4070**）上进行了实验。
-- 使用**zz**（数据集处理与训练工具）下载、提取和分析FineWeb数据；脚本涵盖数据集下载、parquet提取、训练时长计算和指标评估。
-- 在Coursera上完成了**机器学习专项课程**（DeepLearning.AI & 斯坦福大学）和**深度学习专项课程**（DeepLearning.AI）。
+* 使用nanoGPT在FineWeb数据集上从头训练了**GPT-2 124M**两次——一次在**RunPod H200**上，一次在**DigitalOcean H100**上；还在家用服务器（**RTX 4070**）上进行了实验。
+* 使用**zz**（数据集处理与训练工具）下载、提取和分析FineWeb数据；脚本涵盖数据集下载、parquet提取、训练时长计算和指标评估。
+* 在Coursera上完成了**机器学习专项课程**（DeepLearning.AI & 斯坦福大学）和**深度学习专项课程**（DeepLearning.AI）。
 
 ### 个人AI项目
 
-- **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — 构建了一个AI驱动的博客平台，具备自动多语言翻译、Google Cloud TTS音频生成、XeLaTeX PDF/EPUB流水线以及GitHub Actions工作流。
-- **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — 个人博客和知识库，包含约400篇原创文章和约8000条AI回答笔记；上个月约7万次页面浏览（Cloudflare Analytics），新加坡为访问量最大的国家。
-- **[ww](https://github.com/lzwjava/ww)** — 跨平台CLI工具包，提升开发者生产力：包含AI提交信息的git工作流（Gemini Flash）、图像/PDF处理、网络搜索、GitHub Copilot聊天、系统工具以及LLM驱动的辅助功能。
-- **[iclaw](https://github.com/lzwjava/iclaw)** — 终端AI智能体（REPL），可自主编码、搜索和执行shell命令。支持GitHub Copilot（OAuth）和OpenRouter；专为个人机器和受限制的企业环境设计，无需安装IDE插件。
-- **[zz](https://github.com/lzwjava/zz)** — 用于机器学习项目的数据集处理与训练工具：FineWeb数据集下载/提取、训练日志分析以及在GPT-2训练过程中使用的评估脚本。
-- **[live-server](https://github.com/lzwjava/live-server)** — 使用OpenClaw（AI编码智能体）对之前的创业项目进行现代化改造：将应用Docker化，将CodeIgniter和Vue升级至当前版本，并对整个技术栈进行了现代化。
+* **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — 构建了一个AI驱动的博客平台，具备自动多语言翻译、Google Cloud TTS音频生成、XeLaTeX PDF/EPUB流水线以及GitHub Actions工作流。
+* **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — 个人博客和知识库，包含约400篇原创文章和约8000条AI回答笔记；上个月约7万次页面浏览（Cloudflare Analytics），新加坡为访问量最大的国家。
+* **[ww](https://github.com/lzwjava/ww)** — 跨平台CLI工具包，提升开发者生产力：包含AI提交信息的git工作流（Gemini Flash）、图像/PDF处理、网络搜索、GitHub Copilot聊天、系统工具以及LLM驱动的辅助功能。
+* **[iclaw](https://github.com/lzwjava/iclaw)** — 终端AI智能体（REPL），可自主编码、搜索和执行shell命令。支持GitHub Copilot（OAuth）和OpenRouter；专为个人机器和受限制的企业环境设计，无需安装IDE插件。
+* **[zz](https://github.com/lzwjava/zz)** — 用于机器学习项目的数据集处理与训练工具：FineWeb数据集下载/提取、训练日志分析以及在GPT-2训练过程中使用的评估脚本。
+* **[live-server](https://github.com/lzwjava/live-server)** — 使用OpenClaw（AI编码智能体）对之前的创业项目进行现代化改造：将应用Docker化，将CodeIgniter和Vue升级至当前版本，并对整个技术栈进行了现代化。
 
 ### 对他人项目的开源贡献
 
-- **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)**（1个PR）—— 为朋友的思维树推理系统做出贡献；添加了兼容OpenAI的请求器和`python-dotenv`配置。
+* **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)**（1个PR）—— 为朋友的思维树推理系统做出贡献；添加了兼容OpenAI的请求器和`python-dotenv`配置。
 
 ### LLM API使用情况
 
-- 过去一年通过OpenRouter及其他LLM提供商消耗了约**15亿个token**；仅上个月就消耗了约**5亿个token**——这反映了我深度、日常使用LLM进行编码、研究和自动化的工作方式。
+* 过去一年通过OpenRouter及其他LLM提供商消耗了约**15亿个token**；仅上个月就消耗了约**5亿个token**——这反映了我深度、日常使用LLM进行编码、研究和自动化的工作方式。
 
 ---
 
@@ -90,13 +90,13 @@ translated: true
 
 ### TEKsystems → 汇丰银行，AI工程师（合同工），2025.02 – 至今
 
-- 作为AI工程师外包至汇丰银行，利用Copilot及其API加速汇丰企业技术部金融转型平台的后端开发。
-- 维护金融数据处理功能（导入、验证、导出），增强提交/审批工作流；获得了会计、分类账和银行系统的实践经验。
-- 参与完整的开发生命周期——从本地开发到UAT再到生产。协助淘汰遗留的WebSphere应用，使用Ansible和Jenkins自动化发布，并协助进行了一次重大的Angular升级。
-- 主导集成和API测试，使用Copilot API自动生成约70个测试用例，涵盖Spring Filters、Python unittest、JSON截断、提示工程和区域端点。
-- 构建了个人AI智能体层——20个定制智能体、400个可重用脚本和1100条Copilot编写的指南——用于自动化脚本编写、日志记录和文档编写；在全球Copilot使用量中排名**前6%**（高级请求指标）。
-- 加入汇丰内部AI社区；因AIPlayer项目获得贡献奖。业余时间探索AI：在H200/RTX 4070上训练nanoGPT，通过OpenRouter和Claude Code进行个人项目，并学习llama.cpp、Transformers和推理技术。
-- 技术栈：Java、Spring、IBM Db2、Maven、Angular、Python、HashiCorp Vault、Ansible、Control-M、IBM WebSphere Liberty Profile、Copilot。
+* 作为AI工程师外包至汇丰银行，利用Copilot及其API加速汇丰企业技术部金融转型平台的后端开发。
+* 维护金融数据处理功能（导入、验证、导出），增强提交/审批工作流；获得了会计、分类账和银行系统的实践经验。
+* 参与完整的开发生命周期——从本地开发到UAT再到生产。协助淘汰遗留的WebSphere应用，使用Ansible和Jenkins自动化发布，并协助进行了一次重大的Angular升级。
+* 主导集成和API测试，使用Copilot API自动生成约70个测试用例，涵盖Spring Filters、Python unittest、JSON截断、提示工程和区域端点。
+* 构建了个人AI智能体层——20个定制智能体、400个可重用脚本和1100条Copilot编写的指南——用于自动化脚本编写、日志记录和文档编写；在全球Copilot使用量中排名**前6%**（高级请求指标）。
+* 加入汇丰内部AI社区；因AIPlayer项目获得贡献奖。业余时间探索AI：在H200/RTX 4070上训练nanoGPT，通过OpenRouter和Claude Code进行个人项目，并学习llama.cpp、Transformers和推理技术。
+* 技术栈：Java、Spring、IBM Db2、Maven、Angular、Python、HashiCorp Vault、Ansible、Control-M、IBM WebSphere Liberty Profile、Copilot。
 
 ---
 
@@ -193,8 +193,8 @@ translated: true
 
 ---
 
-* GitHub：https://github.com/lzwjava
-* 博客：https://lzwjava.github.io
-* 作品集：https://lzwjava.github.io/portfolio-en
+* GitHub：<https://github.com/lzwjava>
+* 博客：<https://lzwjava.github.io>
+* 作品集：<https://lzwjava.github.io/portfolio-en>
 
 我对任何涉及AI、系统工程和真实产品开发的交叉领域的职位都持开放态度。

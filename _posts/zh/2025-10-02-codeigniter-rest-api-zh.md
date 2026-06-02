@@ -13,6 +13,7 @@ type: note
 以下是一份清晰的分步指南，帮助您理解和使用您分享的 CodeIgniter REST API 配置文件（`application/config/rest.php`）。该文件用于配置 REST_Controller 库（一个用于在 CodeIgniter 中构建 RESTful API 的热门 PHP 库，例如 Phil Sturgeon 的 REST 库，现在某些版本中作为 CodeIgniter 框架的一部分进行维护）的行为。
 
 我将解释：
+
 - 该库的功能和关键前提条件。
 - 如何设置和使用它。
 - 您配置文件中的关键配置选项（附示例）。
@@ -22,22 +23,26 @@ type: note
 如果您的疑问涉及特定方面（例如身份验证或限制），请进一步说明以获得更有针对性的建议！
 
 ### 1. **前提条件和设置**
-   - **这是什么？** 这是用于 CodeIgniter（一个 PHP 框架）的 REST_Controller 库。它允许您通过让控制器继承 `REST_Controller` 来构建 RESTful API（例如，响应 GET/POST 请求并返回 JSON/XML 的端点）。您的配置文件控制全局设置，如身份验证、响应格式、速率限制和安全性。
 
-   - **要求：**
-     - CodeIgniter 3.x（或兼容版本；此配置适用于较旧的 3.x 版本）。
-     - 如果您的 CodeIgniter 安装中尚未包含 REST_Controller 库，请安装它（可以从 GitHub 下载：`chriskacerguis/codeigniter-restserver`）。将库文件放置在 `application/libraries/` 目录中，并在 `application/config/autoload.php` 中自动加载：
+- **这是什么？** 这是用于 CodeIgniter（一个 PHP 框架）的 REST_Controller 库。它允许您通过让控制器继承 `REST_Controller` 来构建 RESTful API（例如，响应 GET/POST 请求并返回 JSON/XML 的端点）。您的配置文件控制全局设置，如身份验证、响应格式、速率限制和安全性。
+
+- **要求：**
+  - CodeIgniter 3.x（或兼容版本；此配置适用于较旧的 3.x 版本）。
+  - 如果您的 CodeIgniter 安装中尚未包含 REST_Controller 库，请安装它（可以从 GitHub 下载：`chriskacerguis/codeigniter-restserver`）。将库文件放置在 `application/libraries/` 目录中，并在 `application/config/autoload.php` 中自动加载：
+
        ```php
        $autoload['libraries'] = ['rest_controller'];
        ```
-     - 数据库设置（可选；用于 API 密钥、日志记录或限制等功能）。运行配置注释中提供的 SQL 架构（例如，用于 `keys`、`logs`、`access`、`limits` 等表）。
-     - 在 CodeIgniter 中启用美观的 URL（`application/config/routes.php`），以使用干净的 API 端点，如 `/api/users`。
-     - 您的 `rest.php` 配置文件应放置在 `application/config/` 目录中，并在 `application/config/autoload.php` 中自动加载：
+
+  - 数据库设置（可选；用于 API 密钥、日志记录或限制等功能）。运行配置注释中提供的 SQL 架构（例如，用于 `keys`、`logs`、`access`、`limits` 等表）。
+  - 在 CodeIgniter 中启用美观的 URL（`application/config/routes.php`），以使用干净的 API 端点，如 `/api/users`。
+  - 您的 `rest.php` 配置文件应放置在 `application/config/` 目录中，并在 `application/config/autoload.php` 中自动加载：
+
        ```php
        $autoload['config'] = ['rest'];
        ```
 
-   - **基本安装步骤：**
+- **基本安装步骤：**
      1. 下载并解压 CodeIgniter。
      2. 添加 REST_Controller 库文件。
      3. 将您提供的 `rest.php` 复制到 `application/config/` 目录。
@@ -46,6 +51,7 @@ type: note
      6. 使用 Postman 或 curl 等工具进行测试。
 
 ### 2. **关键配置选项**
+
 我将总结您配置文件中的主要设置，按用途分组。这些设置控制全局行为。您可以根据需要修改它们（例如，启用 HTTPS 或更改默认格式）。
 
 - **协议和输出：**
@@ -86,10 +92,12 @@ type: note
 修改方法：编辑 `rest.php` 并重启您的应用。仔细测试更改！
 
 ### 3. **使用方法：分步使用指南**
+
 设置完成后，通过构建继承 `REST_Controller` 的控制器来创建 API 端点。以下是高级流程：
 
 1. **创建控制器：**
    - 在 `application/controllers/` 目录中，创建 `Api.php`（或例如，为特定资源创建 `Users.php`）：
+
      ```php
      <?php
      defined('BASEPATH') OR exit('No direct script access allowed');
@@ -142,6 +150,7 @@ type: note
    - 对于限制/日志记录，查询您的数据库表。
 
 ### 4. **常见提示和最佳实践**
+
 - **安全性：** 在生产环境中始终使用 HTTPS（`force_https = TRUE`）。如果向外部客户端公开，请启用密钥。对输入进行清理以防止 SQL 注入。
 - **错误处理：** 响应包含 `status` 和 `error` 字段（可在配置中自定义）。使用 CodeIgniter 的性能分析器进行调试。
 - **性能：** 如果启用了日志记录/限制，您的数据库将处理查询——监控性能是否变慢。

@@ -15,11 +15,14 @@ type: note
 鉴于您作为资深工程师的背景，拥有全栈开发、AI工具和自学实践的丰富经验，加上您对iTerm、VSCode和IDEA等工具的熟悉程度，您对两个项目间上下文切换的担忧是合理的——尤其是在AI时代，同时运行多个Claude Code实例并兼顾多个终端/编辑器可能导致混淆和错误。基于开发者社区的最佳实践，包括VS Code多根工作区文档和关于最小化上下文切换的讨论，以下提供一套平衡且实用的建议。目标是创建相互隔离的项目"上下文"，无需采用双笔记本等极端方案，同时充分利用现有工具。
 
 #### 为何不推荐双笔记本？
+
 - **过度配置且成本高昂**：虽然能彻底避免重叠，但这种方式效率低下、成本昂贵（您已配备三部手机并经常出差），且缺乏扩展性。大多数开发者通过更智能的组织方式在单台设备上管理多项目。
 - **更优替代方案**：聚焦于基于软件的隔离方案，必要时可搭配外接显示器。若您使用高性能笔记本（如搭载M系列芯片的MacBook），完全足以应对需求。
 
 #### 核心策略：通过命名会话和专属窗口实现上下文隔离
+
 避免"项目混淆"的关键在于**完全隔离**——不共享任何可能引发切换的标签页、窗口或工作区。将每个项目视为独立的虚拟"桌面"。此方案借鉴了Tmux多项目管理指南和VS Code多根工作区配置的经验。工作流结构应围绕以下要素构建：
+
 - 使用独立的编辑器实例/窗口进行编码
 - 通过命名持久化终端会话处理AI交互、命令执行和调试
 - 可选的系统级虚拟桌面实现视觉隔离
@@ -52,6 +55,7 @@ type: note
    - **设计原理**：物理/视觉隔离能有效防止上下文渗透，优于滚动标签页的切换方式。该方案成本低廉，且符合强调"极简整洁"工作区的效率提升指南。[4][5]
 
 #### 针对AI密集型工作流的特别建议
+
 - **日志与测试**：鉴于您需要大量日志记录，请使用项目专属日志文件或Observepy等工具。在隔离环境（如各项目的Docker容器）中进行测试以避免交叉影响
 - **自动化脚本**：编写启动脚本（如通过bash脚本为项目启动tmux+编辑器）。与您的"自主AI代理"工作风格结合——使用脚本在对应会话中启动Claude Code
 - **避免过度消耗**：虽然此配置支持并行处理，但切忌超负荷运作——在每个项目会话中专注单一任务/功能，以减轻精神疲劳。生产力指南指出过度切换可能导致40%的效率损失。[6][7]
@@ -61,12 +65,12 @@ type: note
 此方案充分运用您的技术专长（如全栈开发、容器化），无需新增开支。若项目共享资源（如相同MySQL实例），需添加防护措施（如各项目独立的Docker Compose配置）。建议试运行一天——根据您高效实验的风格进行调整。若提供更多项目细节或硬件信息，可进一步优化方案。[8][9]
 
 引用文献：
-[1] https://www.linkedin.com/pulse/how-i-work-multiple-projects-simultaneously-without-losing-ucghf
-[2] https://code.visualstudio.com/docs/editing/workspaces/multi-root-workspaces
-[3] https://www.youtube.com/watch?v=tjClWmKeYho
-[4] https://zachcolinwolpe.medium.com/workspaces-c0474018984a
-[5] https://spin.atomicobject.com/context-switching-developers/
-[6] https://www.dragapp.com/blog/context-switching-productivity/
-[7] https://morningmate.com/blog/how-to-manage-multiple-projects/
-[8] https://www.reddit.com/r/LocalLLaMA/comments/1jzqtsq/working_with_multiple_projects_in_cursor_ai/
-[9] https://www.quora.com/How-do-I-switch-between-2-3-projects-efficiently-especially-when-different-programming-language-are-used
+[1] <https://www.linkedin.com/pulse/how-i-work-multiple-projects-simultaneously-without-losing-ucghf>
+[2] <https://code.visualstudio.com/docs/editing/workspaces/multi-root-workspaces>
+[3] <https://www.youtube.com/watch?v=tjClWmKeYho>
+[4] <https://zachcolinwolpe.medium.com/workspaces-c0474018984a>
+[5] <https://spin.atomicobject.com/context-switching-developers/>
+[6] <https://www.dragapp.com/blog/context-switching-productivity/>
+[7] <https://morningmate.com/blog/how-to-manage-multiple-projects/>
+[8] <https://www.reddit.com/r/LocalLLaMA/comments/1jzqtsq/working_with_multiple_projects_in_cursor_ai/>
+[9] <https://www.quora.com/How-do-I-switch-between-2-3-projects-efficiently-especially-when-different-programming-language-are-used>

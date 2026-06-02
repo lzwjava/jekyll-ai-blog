@@ -12,6 +12,7 @@ type: note
 **Yale YMI70** 是一款来自 Yale（隶属于全球知名锁具集团 ASSA ABLOY）的高端推拉式智能指纹门锁，专为提升家居安全性和便利性而设计。该产品在亚洲市场（包括中国、香港、新加坡、马来西亚等地）广受欢迎，并在京东平台提供全国联保服务。
 
 ### 主要特点
+
 - **推拉式设计**：采用现代化推拉把手机制——外部验证后推动开门，内部拉动即可快速无障碍开启。
 - **多重开锁方式**（通常集成4–5种）：
   - **指纹识别** —— 高级生物识别扫描（常配备 "Easy Scan" 或一触式技术）；用户容量因地区/型号而异（20–100枚指纹，多数列表显示约40枚）。
@@ -46,6 +47,7 @@ type: note
 **注意**：具体规格（如指纹容量、App功能）可能因地区版本或京东商家而略有差异，请以实际商品页面为准。
 
 参考链接：
+
 - [Yale 官方产品页面（YMI70A型号）](https://www.yalehome.com/sg/en/products/smart-door-locks/wooden-door-smart-locks/yale-home-app-smart-locks/ymi70a)
 - [Yale YMI70 规格（香港/中国市场）](https://www.yalehome.com/hk/zh-hk/products/digital-door-lock/yale-link-app-smart-lock/ymi70)
 - [Yale YMI70 零售商特性介绍](https://www.builtinpro.hk/ymi70-bk)

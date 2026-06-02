@@ -19,7 +19,7 @@ Answer:
 - 由一个人、一方或一个方面单独完成或承担，而无需其他相关方的同意、参与或认可。
 - 仅影响或涉及一方。
 
-### 常见语境与示例：
+### 常见语境与示例
 
 - **在 Politics/Diplomacy 中**：一个国家可能会 "unilaterally declare independence"（单方面宣布独立）或 "unilaterally impose sanctions"（单方面实施制裁），意味着其行动未经国际共识。
 - **在决策中**：个人或组织可以 "unilaterally terminate a contract"（单方面终止合同），意味着他们在未经另一方同意的情况下终止合同。

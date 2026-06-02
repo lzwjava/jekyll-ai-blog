@@ -25,15 +25,19 @@ git check-ignore <pathname>...
 ```
 
 - **Example**: Check if a single file is ignored:
+
   ```
   git check-ignore path/to/myfile.txt
   ```
+
   - Output: If ignored, prints `path/to/myfile.txt`. If not, prints nothing.
 
 - **Example**: Check multiple files:
+
   ```
   git check-ignore file1.txt file2.txt dir/file3.txt
   ```
+
   - Outputs only the ignored paths, one per line.
 
 ### Key Options
@@ -53,6 +57,7 @@ git check-ignore <pathname>...
 
 2. **In Scripts**:
    - Check if a file should be added:
+
      ```
      if git check-ignore -q myfile.txt; then
          echo "File is ignored, skipping..."
@@ -63,11 +68,13 @@ git check-ignore <pathname>...
 
 3. **Batch Checking**:
    - List all ignored files in a directory:
+
      ```
      find . -type f -print0 | xargs -0 git check-ignore
      ```
 
 ### Tips
+
 - It respects the Git ignore stack: local `.gitignore`, global excludes, etc.
 - Works on untracked files or those already in the repo (but checks against ignore rules).
 - For more details, see the official docs.

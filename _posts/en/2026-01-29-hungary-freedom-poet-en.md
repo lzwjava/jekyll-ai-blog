@@ -13,6 +13,7 @@ type: note
 **Sándor Petőfi** (1823-1849) was one of Hungary's greatest poets and a key figure in Hungarian national literature.
 
 **Life**
+
 - Born into a poor Slovak-Hungarian family in Hungary
 - Worked as a wandering actor in his youth, experiencing hardship and poverty
 - Became actively involved in the Hungarian Revolution of 1848, emerging as the revolution's poet
@@ -20,12 +21,14 @@ type: note
 
 **Literary Achievements**
 Petőfi's poetry is characterized by:
+
 - Strong nationalist sentiment and love for Hungarian freedom
 - Passionate romanticism combined with folk traditions
 - Simple, accessible language that spoke to common people
 - Revolutionary themes advocating for liberty and social justice
 
 **Famous Works**
+
 - "Nemzeti dal" (National Song) - became the anthem of the 1848 revolution
 - "Szabadság, szerelem" (Liberty and Love) - contains his famous lines about preferring death to life without freedom or love
 - "János vitéz" (John the Valiant) - a narrative poem based on Hungarian folklore

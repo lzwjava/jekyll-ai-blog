@@ -33,8 +33,8 @@ Regional favorites include mustard greens (jiècài) for pickling in Sichuan, an
 
 References:
 
-- https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm
-- https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/
-- https://www.thespruceeats.com/chinese-vegetables-pictures-4121784
-- https://omnivorescookbook.com/chinese-greens/
-- https://www.chinaeducationaltours.com/guide/culture-chinese-food-top-vegetables.htm
+- <https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm>
+- <https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/>
+- <https://www.thespruceeats.com/chinese-vegetables-pictures-4121784>
+- <https://omnivorescookbook.com/chinese-greens/>
+- <https://www.chinaeducationaltours.com/guide/culture-chinese-food-top-vegetables.htm>

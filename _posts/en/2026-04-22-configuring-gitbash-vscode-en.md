@@ -94,7 +94,7 @@ If you use WSL:
 
 Yes—you can set it explicitly.
 
-#### Steps:
+#### Steps
 
 1. Open VS Code
 2. Go to Settings (`Ctrl + ,`)

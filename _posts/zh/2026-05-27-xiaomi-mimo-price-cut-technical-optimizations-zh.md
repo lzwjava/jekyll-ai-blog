@@ -47,6 +47,7 @@ SWA：每层 KV 缓存上限为 O(window_size × d_model)
 ```
 
 **HiCache** 是 SGLang 的分层 KV 缓存系统——它在以下层级间进行分层存储：
+
 - GPU HBM（快速、昂贵、容量小）
 - CPU RAM（较慢、廉价、容量大）
 - SSD（最慢、非常廉价、容量极大）
@@ -56,6 +57,7 @@ SWA：每层 KV 缓存上限为 O(window_size × d_model)
 ### 2. 专家并行优化
 
 MiMo 是一个 **MoE（混合专家）** 模型（基于其架构）。专家并行意味着不同 GPU 处理不同专家。优化可能涉及：
+
 - 更好的专家间负载均衡
 - 减少专家路由通信开销
 - 可能采用融合的 dispatch/combine 内核
@@ -83,6 +85,7 @@ buckets = [512, 1024, 2048, 4096, 8192]
 ## 这对你的意义
 
 如果你正在用中国大模型 API 构建任何东西（银行工作、智能体、CLI 工具），现在值得把 MiMo-V2.5 与以下模型进行 Benchmark 对比：
+
 - DeepSeek-V3（¥2/百万 tokens 输出，同级别）
 - Qwen-Plus
 - 你当前在处理非英语任务时使用的 Claude/GPT-4o

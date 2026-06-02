@@ -37,7 +37,8 @@ The provided text is a course description for "Lesson 2: Recursion," written in 
 
 > **Lesson 2: Recursion.** Recursion can be said to be one of the most important concepts in computer science (or mathematics). I start from the simplest recursive functions, guiding you to understand the essence of recursion and master a systematic way of thinking about it. Recursion is a concept that many people think they understand, but in reality, many haven't built a clear understanding. When many people mention recursion, they can only recall problems like the "Tower of Hanoi" or "Eight Queens," yet they can't apply it to solve real-world problems. Many programming books superficially emphasize the "drawbacks" of recursion and teach students how to "eliminate" it. This course will help you build a clear recognition of recursion and systematic thinking, enabling you to handle complex recursive problems with ease and apply it flexibly in your actual work.
 
-#### Key Thoughts Broken Down:
+#### Key Thoughts Broken Down
+
 - **Why Recursion Matters**: It's portrayed as a cornerstone of CS/math, not just a trick but a way to model natural problem-solving (e.g., how fractals or biological growth work recursively). The lesson builds from basics to avoid overwhelming learners.
 
 - **The Misunderstanding Trap**: People often "get" recursion superficially through toy examples like Tower of Hanoi (moving disks between pegs) or Eight Queens (placing queens on a chessboard without attacks). These are classic but artificial—they don't translate to everyday coding challenges like API parsing or graph algorithms. The text critiques this: true mastery means seeing recursion as a tool for *any* nested, self-similar problem, not just puzzles.

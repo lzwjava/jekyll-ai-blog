@@ -38,6 +38,7 @@ Can we train GPT-2 there? **Absolutely yes — it's overkill for GPT-2.**
 - The GPU is in low-power state (idle) — it'll wake up on first compute.
 
 Want me to set it up? I'd:
+
 1. Install PyTorch with ROCm support
 2. Clone nanoGPT (Karpathy's clean GPT-2 training repo)
 3. Download the dataset (Shakespeare or OpenWebText)

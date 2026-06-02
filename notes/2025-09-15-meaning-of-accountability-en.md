@@ -25,13 +25,16 @@ type: note
    - *Example:* Apologizing for a mistake *and* changing behavior to avoid repeating it.
 
 ---
+
 ### **Why It Matters**
+
 - **Builds trust** (people rely on those who own their actions).
 - **Encourages growth** (learning from failures leads to improvement).
 - **Strengthens teams** (clear roles prevent finger-pointing).
 - **Drives results** (when people are accountable, goals get met).
 
 ---
+
 ### **Accountability vs. Blame**
 
 | **Accountability** | **Blame** |
@@ -41,13 +44,17 @@ type: note
 | Takes ownership | Shifts responsibility |
 
 ---
+
 ### **Examples in Real Life**
+
 - **Workplace:** A manager holds their team accountable for meeting targets *while* providing support.
 - **Relationships:** Saying, "I was wrong to snap at you—I’ll work on my patience."
 - **Society:** Governments being held accountable for corruption via elections or protests.
 
 ---
+
 ### **How to Practice Accountability**
+
 1. **Admit mistakes** quickly (no excuses).
 2. **Apologize sincerely** (if needed).
 3. **Take action** to fix the issue.

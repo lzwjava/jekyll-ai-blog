@@ -21,6 +21,7 @@ During these initial years, Rust was developed in Hoare's spare time and remaine
 In **2009**, Mozilla officially recognized the potential of Rust and began sponsoring the project. Executives like Brendan Eich saw an opportunity to use Rust for a safer web browser engine. This led to a dedicated team of engineers joining Hoare, including Patrick Walton, Niko Matsakis, and Felix Klock, among others.
 
 This period marked a significant shift:
+
 * **Self-hosting compiler:** Work began on rewriting the Rust compiler in Rust itself, based on LLVM, a crucial step for the language's independence and maturity.
 * **Introduction of Ownership System:** The foundational concept of Rust's ownership system, which is central to its memory safety guarantees without a garbage collector, began to take shape around **2010**.
 
@@ -29,6 +30,7 @@ In **2010**, Rust was released as an open-source project, opening its developmen
 ### Evolution and Maturation (2012-2015)
 
 The years leading up to the 1.0 release were characterized by substantial and sometimes radical changes to the language. The development team was committed to refining Rust's core features and ensuring its stability. Key developments included:
+
 * **Removal of Typestates and Garbage Collector:** The initial typestates system was removed, and critically, the experimental garbage collector was phased out by **2013** in favor of the evolving ownership system. This decision was pivotal in solidifying Rust's identity as a high-performance, zero-cost abstraction language.
 * **Consolidation of Memory Management:** The ownership system, along with borrowing and lifetimes, was gradually expanded and solidified to prevent memory-related bugs at compile time.
 * **Influence from diverse languages:** Rust's design was influenced by various programming paradigms, borrowing ideas from C++ (for low-level performance), scripting languages (for package management like Cargo), and functional programming (for its type system).
@@ -39,6 +41,7 @@ The years leading up to the 1.0 release were characterized by substantial and so
 On **May 15, 2015**, six years after Mozilla's official sponsorship, the first stable release, **Rust 1.0**, was published. This was a monumental moment, signaling Rust's readiness for production use and its commitment to stability.
 
 Since 1.0, Rust has seen:
+
 * **Rapid community growth:** The compiler quickly accumulated thousands of contributors, and the package management website, Crates.io, saw a significant increase in third-party libraries.
 * **Widespread adoption:** Major companies like Amazon Web Services (AWS), Microsoft, Google, and Meta have adopted Rust for performance-critical backend systems, operating systems components, web services, and blockchain infrastructure. Mozilla itself used Rust to rewrite parts of Firefox's engine (like Stylo, the CSS engine), leading to performance improvements.
 * **Formation of the Rust Foundation:** In **2021**, the Rust Foundation was established, formalizing the governance of the language and ensuring its continued development and independence beyond its origins at Mozilla.

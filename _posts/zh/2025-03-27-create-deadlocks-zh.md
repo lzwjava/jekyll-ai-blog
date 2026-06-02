@@ -135,12 +135,12 @@ public class DeadlockGenerator {
 
 **代码说明:**
 
-1.  **数据库设置:**
+1. **数据库设置:**
     * `DB_URL`: 指定SQLite数据库文件的连接URL (`deadlock_example.db`)
     * `CREATE_TABLE_SQL`, `INSERT_ITEM_SQL`, `UPDATE_ITEM_SQL`: 定义创建表、插入初始数据和更新行的SQL语句
     * `createTableAndInitialData()`: 如果`items`表不存在则创建，并插入ID为1和2的两个初始行
 
-2.  **并发更新:**
+2. **并发更新:**
     * `ExecutorService`: 创建固定大小为2的线程池，模拟两个任务的并发执行
     * `UpdateTask`: 此内部类实现`Runnable`接口，每个实例代表一个尝试更新两行数据的事务
         * 构造函数接收要更新的两行的ID和新值
@@ -154,21 +154,21 @@ public class DeadlockGenerator {
             * **错误处理:** 包含`try-catch`块处理`SQLException`，如果发生异常（可能是死锁），则通过`conn.rollback()`尝试回滚事务
             * **Finally块:** 确保连接关闭并将`autoCommit`重置为`true`
 
-3.  **冲突顺序:**
+3. **冲突顺序:**
     * 在`main`方法中，向执行器提交两个`UpdateTask`实例:
         * 第一个任务尝试先更新行1再更新行2
         * 第二个任务尝试先更新行2再更新行1
     * 这种对相同资源（`items`表中的行）获取锁的顺序冲突是可能导致死锁的条件
 
-4.  **执行与输出:**
+4. **执行与输出:**
     * `executor.shutdown()`和`executor.awaitTermination()`: 确保执行器等待两个任务完成
     * `printFinalData()`: 线程完成后，此方法打印`items`表的最终内容以观察结果
 
 **运行方法:**
 
-1.  **保存:** 将代码保存为`DeadlockGenerator.java`
-2.  **编译:** 使用Java编译器编译代码: `javac DeadlockGenerator.java`
-3.  **运行:** 执行编译后的代码: `java DeadlockGenerator`
+1. **保存:** 将代码保存为`DeadlockGenerator.java`
+2. **编译:** 使用Java编译器编译代码: `javac DeadlockGenerator.java`
+3. **运行:** 执行编译后的代码: `java DeadlockGenerator`
 
 **预期结果:**
 

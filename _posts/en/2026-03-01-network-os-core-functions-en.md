@@ -16,18 +16,20 @@ type: note
 A **network operating system (NOS)** is an operating system specifically designed or optimized to run in a networked environment. It serves as the interface between users and network resources, enabling users, applications, and devices to access, share, and manage resources across the network in a coordinated and secure manner.
 
 It can be understood as:
+
 - The collection of various network service software and network protocols
 - The software platform that realizes resource sharing and network communication in a network environment
 - The management and control system for users to use network resources
 
-### General functions of a conventional operating system (shared with network OS):
+### General functions of a conventional operating system (shared with network OS)
+
 - Process management
 - Memory management
 - File management
 - Device management
 - Job management / user interface
 
-### Specific functions that distinguish a network operating system from a general (stand-alone) operating system:
+### Specific functions that distinguish a network operating system from a general (stand-alone) operating system
 
 - **File service**
   Provides centralized file storage, sharing, access control, synchronization, and locking mechanisms across the network (most fundamental and core function of NOS).

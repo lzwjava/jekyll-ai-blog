@@ -19,6 +19,7 @@ In simpler everyday language:
 Energy is what makes things happen — it is what allows you to move, lights to shine, cars to drive, food to be digested, stars to burn, and phones to work.
 
 ### Core idea in physics
+
 Energy is a **conserved quantity** — it can neither be created nor destroyed, only **transformed** from one form to another or **transferred** between objects/systems.
 (This is the law of conservation of energy — one of the most fundamental rules in the universe.)
 

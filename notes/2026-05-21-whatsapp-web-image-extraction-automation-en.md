@@ -30,6 +30,7 @@ ww image whatsapp
 ```
 
 It will:
+
 - Find the last message container on WhatsApp Web (in your open Safari tab)
 - Extract every `<img>` from it (both `data:` and `blob:` sources — canvas handles both)
 - Save as `whatsapp-1.jpg`, `whatsapp-2.jpg`, ... into `assets/images/cooking/`

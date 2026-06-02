@@ -17,6 +17,7 @@ Answer:
 Codeforces grandmasters (rated 2400+) and high-profile competitive programmers are driven by a mix of intrinsic and extrinsic factors. The primary motivation for many is **pure enjoyment of problem-solving**—treating competitive programming (CP) as a fun hobby, puzzle, or mental sport rather than a chore.
 
 ### Key Motivations
+
 - **Intrinsic enjoyment and passion**: High-rated programmers often emphasize that CP is inherently fun. They enjoy the intellectual challenge, the thrill of solving complex problems quickly, and the satisfaction of elegant solutions. Many continue even after achieving goals because they love the process.
 
 - **Personal improvement and growth**: A strong drive comes from wanting to get better at algorithms, data structures, and creative thinking. Progress is measured by rating increases, solving harder problems, or mastering new techniques, providing a sense of accomplishment.

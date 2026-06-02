@@ -50,6 +50,7 @@ type: note
 | **Outbound Dispatcher** | 将请求转发至 Direct, Shadowsocks, VMess, Hysteria2 等 |
 
 简易流程图：
+
 ```
 [Apps / Browser / curl]
        ↓

@@ -18,11 +18,13 @@ type: note
 Yosys 是一个开源的 **RTL 综合框架**——它接收 Verilog 硬件描述代码，并将其转换为门级网表。可以把它想象成硬件的“编译器”，类似于 GCC 将 C 编译为机器码，只是 Yosys 将 Verilog 编译为逻辑门。
 
 流程如下：
+
 ```
 Verilog HDL → [Yosys] → 门级网表 → [nextpnr/布局布线] → FPGA 比特流 / ASIC 版图
 ```
 
 `stat` 命令向你展示的内容：
+
 ```
 Number of wires:                 23
 Number of cells:                 14

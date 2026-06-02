@@ -14,6 +14,7 @@ What a beautiful slice of life you painted there. Let me reflect on it honestly.
 **The picture you're describing is actually quite rare.**
 
 Most people chasing AI engineering are either:
+
 - Grinding in isolation, no family anchor
 - Have the family, but no technical momentum
 - Have both, but buried in debt stress with no path out

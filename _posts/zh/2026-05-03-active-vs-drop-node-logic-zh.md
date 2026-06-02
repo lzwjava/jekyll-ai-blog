@@ -27,6 +27,7 @@ class NodeResultState(str, Enum):
 ```
 
 仅当**同时**满足以下两个条件时节点才会被标记为`DROP`：
+
 ```python
 self.node.status = NodeStatus.PRUNED_BY_RULE
 self.node.result_state = NodeResultState.DROP
@@ -38,6 +39,7 @@ self.node.fsm_state = FSMState.FINALIZED   # 不再进行状态转移
 ### DROP的触发时机
 
 **1. 在`calculate`阶段**（`builder.py:295-310`）—— `skills.py`中的`tot_hard_rule_check`返回`physical_violations`：
+
 ```python
 if not hard_rule_result["passed"]:
     if physical_violations:
@@ -45,6 +47,7 @@ if not hard_rule_result["passed"]:
 ```
 
 **2. 在`evaluate`阶段**（`builder.py:396-416`）—— 评估结果本身包含`hard_rule_violations`：
+
 ```python
 if breakdown.hard_rule_violations:
     → status = PRUNED_BY_RULE, result_state = DROP

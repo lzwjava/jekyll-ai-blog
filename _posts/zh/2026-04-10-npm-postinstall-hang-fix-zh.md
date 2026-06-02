@@ -15,7 +15,8 @@ type: note
 
 你的 npm 安装似乎在多个 postinstall 脚本执行完成后出现了卡顿（显示旋转器 ⠇ ⠋ ⠧）。这是一个常见问题，尤其是在 macOS 上，以下是最可能的原因和解决方法：
 
-### 卡顿的最常见原因：
+### 卡顿的最常见原因
+
 1. **@askjo/camoufox-browser 的 postinstall 脚本**
    命令 `npx camoufox-js fetch || true` 很可能是问题的根源。
    - 此脚本可能会下载一个较大的浏览器二进制文件（Camoufox 是一款基于 Firefox 的自动化/测试浏览器）。
@@ -37,7 +38,7 @@ type: note
    - npm 缓存损坏。
    - 解压或安装过程中磁盘空间或内存不足。
 
-### 解决方法：
+### 解决方法
 
 **立即操作（按顺序尝试）：**
 
@@ -46,27 +47,34 @@ type: note
 
 2. **取消并重新运行以获得更详细信息**
    按 `Ctrl + C` 停止，然后运行：
+
    ```bash
    npm install --loglevel=verbose
    ```
+
    这将显示更详细的输出，从而准确查看哪个环节卡住了。
 
 3. **跳过或修复有问题的 postinstall 脚本**
    尝试在安装时跳过可选依赖或脚本：
+
    ```bash
    npm install --ignore-scripts
    ```
+
    然后根据需要手动运行重要脚本：
+
    ```bash
    npx camoufox-js fetch
    ```
 
    或者强制暂时跳过 Camoufox 的下载：
+
    ```bash
    npm install --ignore-scripts
    ```
 
 4. **清除缓存并全新安装**（如果持续失败，推荐此方法）：
+
    ```bash
    rm -rf node_modules package-lock.json
    npm cache clean --force
@@ -79,19 +87,24 @@ type: note
    - 监控网络活动或尝试使用不同的网络/VPN。
 
 6. **更新 npm 和 Node.js**
+
    ```bash
    npm install -g npm@latest
    ```
+
    如果 Node 版本非常旧，也考虑更新它。
 
 7. **针对 camoufox-browser 的特定修复**
    如果下载持续卡住，可尝试手动运行并获取更详细的输出：
+
    ```bash
    npx camoufox-js fetch --verbose
    ```
+
    （请查阅包的文档以确认确切参数。）
 
-### 补充提示：
+### 补充提示
+
 - 这类卡顿问题常发生在浏览器自动化包（puppeteer、playwright、geckodriver、camoufox 等）中，因为它们需要下载较大的二进制文件（约 100MB 以上）。
 - 如果你使用的是 macOS（路径显示为 `/Users/lzwjava/...`），若不在真实的 Mac 上或缺少 Xcode 命令行工具，fsevents 失败属于正常现象。
 - 对于 `better-sqlite3`，如果将来安装失败，请确保已安装 Python 和构建工具。
@@ -101,4 +114,5 @@ type: note
 如果你在再次卡住后提供完整的详细输出，我可以更精确地帮你定位具体原因。
 
 参考：
+
 - 无

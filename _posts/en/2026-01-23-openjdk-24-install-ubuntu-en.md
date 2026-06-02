@@ -54,7 +54,7 @@ java --version
 Popular vendors that usually provide good .deb packages for non-LTS versions:
 
 - **Azul Zulu** (very reliable, free, TCK certified)
-  - Go to → https://www.azul.com/downloads/?version=java-24
+  - Go to → <https://www.azul.com/downloads/?version=java-24>
   - Select Linux / Ubuntu / .deb / JDK → download and install:
 
   ```bash
@@ -62,11 +62,11 @@ Popular vendors that usually provide good .deb packages for non-LTS versions:
   ```
 
 - **Eclipse Temurin** (Adoptium)
-  - https://adoptium.net/temurin/releases/?version=24
+  - <https://adoptium.net/temurin/releases/?version=24>
   - Choose .deb package
 
 - **Microsoft Build of OpenJDK**
-  - https://learn.microsoft.com/en-us/java/openjdk/install
+  - <https://learn.microsoft.com/en-us/java/openjdk/install>
   - They sometimes offer newer versions via their repo
 
 ### If you see openjdk-24-jdk in some PPAs or in Ubuntu devel/unstable
@@ -79,7 +79,7 @@ apt search openjdk-24
 
 If nothing shows up → use one of the methods above.
 
-### Quick summary – most people choose one of these two:
+### Quick summary – most people choose one of these two
 
 1. Official tar.gz from jdk.java.net (cleanest, no extra repo)
 2. Azul .deb package (easiest to install & update)

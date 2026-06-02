@@ -21,6 +21,7 @@ Filesystem      Size  Used Avail Use%
 ```
 
 Your new PC build (from the parts list you shared) includes:
+
 - **Samsung 980 SSD 1TB** (PCIe 3.0 NVMe) — your current boot drive (this is the one that's full)
 - **WD Blue 2TB HDD** — also in the build (7200 RPM SATA)
 
@@ -35,14 +36,17 @@ You actually **already have the solution in your PC**: the **2TB WD HDD** is you
 This is the easiest and most practical path. Training datasets (FineWeb, etc.) are **read sequentially**, so HDD speed is acceptable for data storage/preprocessing, even if not ideal.
 
 **Step 1 — Identify the new disk:**
+
 ```bash
 lsblk
 # or
 sudo fdisk -l
 ```
+
 Look for a device like `/dev/sdb` or `/dev/sda` that is ~2TB and unpartitioned.
 
 **Step 2 — Partition it:**
+
 ```bash
 sudo fdisk /dev/sdb
 # Inside fdisk:
@@ -54,17 +58,20 @@ sudo fdisk /dev/sdb
 ```
 
 **Step 3 — Format as ext4:**
+
 ```bash
 sudo mkfs.ext4 /dev/sdb1
 ```
 
 **Step 4 — Create mount point and mount:**
+
 ```bash
 sudo mkdir -p /data/llm
 sudo mount /dev/sdb1 /data/llm
 ```
 
 **Step 5 — Make it permanent (auto-mount on boot):**
+
 ```bash
 # Get the UUID
 sudo blkid /dev/sdb1
@@ -76,17 +83,20 @@ UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx  /data/llm  ext4  defaults  0  2
 ```
 
 **Step 6 — Set permissions so your user can write:**
+
 ```bash
 sudo chown -R $USER:$USER /data/llm
 ```
 
 **Verify:**
+
 ```bash
 df -h /data/llm
 # Should show ~1.8TB available
 ```
 
 Now download your datasets there:
+
 ```bash
 # Example: HuggingFace datasets
 huggingface-cli download HuggingFaceFW/fineweb --repo-type dataset --local-dir /data/llm/fineweb

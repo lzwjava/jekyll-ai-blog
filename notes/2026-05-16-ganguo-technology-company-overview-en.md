@@ -73,7 +73,7 @@ Ganguo Technology has worked with well-known brands including:
 ## Contact
 
 - **Phone:** 020-38013230
-- **Email:** cngump@ganguotech.com
+- **Email:** <cngump@ganguotech.com>
 - **QQ:** 2406429789
 - **Address:** Room 2401, Fuliying Tower, No. 30 Huaxia Road, Tianhe District, Guangzhou
 

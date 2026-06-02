@@ -13,11 +13,13 @@ type: note
 I'm sorry the first batch turned out too chip-like—dried squid can crisp up fast in the air fryer! To get a chewier, softer texture (more like tender grilled squid than brittle snacks), the key is more rehydration upfront and gentler cooking: longer soak, lower heat, and shorter time. Here's an adjusted method based on tested approaches for "half-dried" or rehydrated styles that emphasize chewiness.
 
 ### Adjusted Ingredients (for 1-2 servings)
+
 - 1-2 pieces dried squid (whole or strips)
 - 1 tsp butter or neutral oil (melted, for flavor and moisture)
 - Optional: A dash of soy sauce or chili flakes for taste (after cooking)
 
 ### Steps
+
 1. **Rehydrate Thoroughly**: Rinse the squid under cold water. Soak in room-temperature water for 20-30 minutes (longer than before—this plumps it up for chewiness without sogginess). Drain and gently pat dry, but leave it slightly damp to retain moisture during cooking.
 
 2. **Prep**: If whole, score shallow cuts on both sides (use scissors for ease—this helps it cook evenly without curling and promotes tenderness). Brush lightly with melted butter or oil to lock in softness and add savoriness.
@@ -29,6 +31,7 @@ I'm sorry the first batch turned out too chip-like—dried squid can crisp up fa
 5. **Rest and Serve**: Let it cool 1-2 minutes (it firms slightly but stays chewy). Slice if needed, and dip in soy-chili mix or mayo for extra flavor.
 
 ### Quick Tips
+
 - **Texture Control**: The extended soak is crucial for chew over crunch; if it's still too dry, try 40 minutes next time. Butter helps too— it steams internally for softness.
 - **Variations**: For even more tenderness, mix in a tsp of water or broth before frying (wrap loosely in foil for the first 2 minutes).
 - Times vary by squid thickness/air fryer, so err short and taste-test.

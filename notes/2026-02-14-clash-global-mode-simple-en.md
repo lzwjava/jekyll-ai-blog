@@ -23,22 +23,27 @@ Great question! "Global mode" in Clash means all traffic goes through the proxy.
 3. **Proxy Forwarding** — The resolved traffic is then sent through your configured proxy server(s) to reach the destination.
 
 **Why use global mode?**
+
 - Everything encrypted and routed through your proxy (more privacy)
 - Bypasses geo-blocking or restrictions everywhere
 - Useful when you want complete anonymity
 
 **The DNS configuration's role:**
+
 ```yaml
 nameserver:
     - 8.8.8.8
     - 1.1.1.1
 ```
+
 These resolve domain names to IPs. When Clash gets a DNS query, it uses these servers. The `fallback` servers are backups if the primary ones fail.
 
 **Fake-IP mode advantage:**
+
 ```yaml
 fake-ip-range: 198.18.0.1/16
 ```
+
 Instead of waiting for real DNS resolution, Clash assigns temporary fake IPs instantly and resolves in the background—faster response times.
 
 **Common issue:** If you're getting DNS errors in global mode, it usually means either the nameservers are unreachable or there's a conflict with your system's DNS settings. Make sure your proxy connection is working first before enabling global mode.

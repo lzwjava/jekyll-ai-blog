@@ -27,6 +27,7 @@ type: note
 | **Datascript**       | 内存 Datalog 数据库   | 极佳：序列化为 EDN（文本）文件便于差异对比。 | 容易：Clojure/JS 库。 | 专注查询功能；占用空间小。 | 查询/更新 → 写入 EDN 快照 → 提交。特别适合类关系型数据。 |
 
 #### 优缺点与推荐建议
+
 - **MongoDB**：如果数据是文档型（如嵌套 JSON 记录）则非常合适。本地使用时，MongoDB Embedded（通过 Realm SDK）可避免完整服务器部署。导出策略使其兼容 git——远胜于二进制转储。缺点：对 1-2 个表而言过于重型；设置需约 10-15 分钟。如果需要聚合查询则推荐使用。建议：若为 JSON 类结构则选用，否则选择更简单方案。
 
 - **Redis**：缓存/简单键值场景速度极快，但若无额外组件则不太适合持久化"表"存储。本地安装极简，通过 redis-dump 或 RIOT 等工具进行 JSON 转储可保持文本格式便于 git 管理。在您的数据规模下表现良好，但默认具有易失性（基于内存）。建议：仅当速度是关键需求且数据为键值结构时选用；需配合定期 JSON 同步脚本（例如 Python：`import redis; r.dump_to_json()`）。
@@ -40,6 +41,7 @@ type: note
 **首选方案**：从 **LowDB** 开始——它本质是"将 JSON 作为数据库"，提供文件存储适配器、查询功能和便捷的差异对比。无需服务器，体积微小（单个文件），且能支撑您的数据规模。若需要离线同步或关系型功能，可选择 PouchDB。若选用 Redis/MongoDB，请先原型化转储脚本以测试 git 工作流。
 
 LowDB 设置示例（Node.js）：
+
 ```js
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');

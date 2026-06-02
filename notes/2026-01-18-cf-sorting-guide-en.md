@@ -32,17 +32,16 @@ Yes, if the string is not already sorted. To do this, Alice needs to identify al
 1. Let  be the total number of zeros in the string .
 2. In a sorted string of length  with  zeros, the first  characters must be `0` and the remaining  characters must be `1`.
 3. Alice can pick the set of indices  where the characters are currently incorrect:
-* Any index  where .
-* Any index  where .
 
+* Any index  where .
+* Any index  where .
 
 4. **Validity Check**:
+
 * The characters at indices  (where ) always appear before the indices  (where ).
 * Therefore, the subsequence chosen is always a series of `1`s followed by a series of `0`s, which is **non-increasing**.
 * Sorting this subsequence swaps the `1`s to the back and the `0`s to the front, making the entire string sorted.
 * If the string is unsorted, this set  will contain at least one `1` and one `0`, making the move valid.
-
-
 
 ### **Algorithm**
 
@@ -51,11 +50,10 @@ Yes, if the string is not already sorted. To do this, Alice needs to identify al
 3. If the string is already sorted, output **Bob**.
 4. Otherwise, output **Alice**.
 5. To provide the move:
+
 * Find all indices  where .
 * Find all indices  where .
 * Combine these indices, sort them, and output them as Alice's first move.
-
-
 
 ### **Complexity**
 

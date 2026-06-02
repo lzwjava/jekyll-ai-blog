@@ -60,7 +60,7 @@ type: note
 
 ## 代码功能解析
 
-这是一个针对类Scheme小型语言的** Continuation-Passing Style (CPS) 转换器**实现。CPS是一种通过传递*continuation函数*来显式控制程序流程的代码重写方式。
+这是一个针对类Scheme小型语言的**Continuation-Passing Style (CPS) 转换器**实现。CPS是一种通过传递*continuation函数*来显式控制程序流程的代码重写方式。
 
 ### 核心组件
 

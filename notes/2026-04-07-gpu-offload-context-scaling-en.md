@@ -14,6 +14,7 @@ type: note
 ### Setup Journey
 
 **Starting point** (from your info):
+
 - llama-server running with `-ngl 20` (20 GPU layers)
 - Model: `gemma-4-E4B-it-Q5_K_M.gguf`
 - Context: 32k
@@ -67,6 +68,7 @@ Cost of doubling context: **+936 MiB idle**, **+528 MiB** extra during a 60k tok
 ### Performance Analysis
 
 **Speed vs context depth:**
+
 ```
 20k prompt → 51.6 tok/s  (baseline)
 40k prompt → 27.1 tok/s  (-47% vs 20k)
@@ -76,6 +78,7 @@ Cost of doubling context: **+936 MiB idle**, **+528 MiB** extra during a 60k tok
 This is expected — attention computation is **O(n²)** in sequence length, so generation slows as more tokens are in the KV cache. The model doesn't degrade in quality though — responses were coherent at all sizes.
 
 **Prefill throughput** (rough estimate from total time):
+
 - 20k tokens in ~3-4s → ~5,000–6,000 tokens/s prefill
 - 60k tokens in ~8-10s → ~6,000–7,500 tokens/s prefill
 
@@ -102,6 +105,7 @@ llama-server \
 | GPU layers | 43/43 | Full offload |
 
 **Potential next steps** if you want more speed:
+
 - Enable `--flash-attn on` (currently off) — could improve throughput at long contexts significantly
 - Try `-c 131072` (model's native max) — ~+1.5GB VRAM, still fits
 - Increase parallel slots (`-np`) if serving multiple users

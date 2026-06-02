@@ -62,7 +62,7 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 - `-v uptime-kuma:/app/data` — 将卷挂载到 `/app/data` 目录，确保数据持久化。
 - `--name uptime-kuma` — 为容器分配一个易识别的名称。
 
-运行后，通过 **http://localhost:3001** 访问 Uptime Kuma。
+运行后，通过 **<http://localhost:3001>** 访问 Uptime Kuma。
 
 #### 方法 2 — Docker Compose
 
@@ -93,7 +93,7 @@ pm2 startup && pm2 save
 
 ### 首次设置 — 创建管理员账户
 
-打开 **http://localhost:3001** 后，您将被提示创建管理员账户。创建账户后，将被重定向到仪表板，该仪表板显示监控服务的状态，并提供正常运行时间、中断时间和维护的洞察。
+打开 **<http://localhost:3001>** 后，您将被提示创建管理员账户。创建账户后，将被重定向到仪表板，该仪表板显示监控服务的状态，并提供正常运行时间、中断时间和维护的洞察。
 
 ---
 
@@ -110,8 +110,6 @@ pm2 startup && pm2 save
 ---
 
 ### 监控类型说明
-
-
 
 | Type | Use Case |
 |---|---|

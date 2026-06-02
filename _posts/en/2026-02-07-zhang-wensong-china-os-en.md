@@ -17,16 +17,19 @@ Answer:
 **章文嵩 (Zhang Wensong)** is one of the most influential figures in China's open source community and a pioneer in high-performance distributed systems. Born in 1973, he is widely recognized as the founder of **LVS (Linux Virtual Server)**, a landmark open source load balancing project that helped shape modern internet infrastructure in China and globally.
 
 ### Early Life and Education
+
 - Graduated with a PhD from the National University of Defense Technology (国防科技大学), one of China's top military-technical universities.
 - His technical career began in the late 1990s during the early days of the internet in China.
 
 ### Major Technical Contribution — LVS
+
 - In May 1998, while still in academia, Zhang Wensong created **LVS (Linux Virtual Server)** — an open source software project for building highly scalable and highly available server clusters using load balancing on Linux.
 - LVS implements IP load balancing at Layer 4 (transport layer) and became one of the earliest and most influential Chinese-origin open source projects.
 - From 2003 onward, the core LVS code (IPVS) has been officially integrated into the mainline Linux kernel and remains widely used worldwide in production environments (e.g., by cloud providers, CDNs, large websites).
 - LVS is often cited as a classic example of early Chinese contributions to global open source and helped establish China's reputation in the Linux kernel community.
 
 ### Career Highlights
+
 - Early 2000s: Co-founder and Chief Scientist at TelTel; co-founder of ChinaCluster.
 - Served as Associate Professor at National University of Defense Technology.
 - ~2009–2016: Joined Alibaba Group → became Senior Researcher, responsible for core infrastructure of Taobao/Alibaba; later Vice President and **CTO of Alibaba Cloud**.
@@ -36,6 +39,7 @@ Answer:
 - As of 2025–2026: Founder of Antomengqiu (Hangzhou) Technology Co., Ltd. (安托盟丘（杭州）科技有限公司); continues active involvement in open source ecosystem building.
 
 ### Open Source Advocacy and Impact in China
+
 - Often called one of the "six gentlemen of Chinese open source" (中国开源六君子) or one of the "five masters of early Chinese Linux".
 - Has been active in open source for over 25 years, insisting on the principle: **"benefiting from open source, must give back to open source"**.
 - Key leadership roles in the China Computer Federation (**CCF**):
@@ -51,6 +55,7 @@ Answer:
 - Frequently speaks on cloud-native, large-scale systems, open source governance, data infrastructure, and recently on topics like open-sourcing large model datasets and building China's compute infrastructure.
 
 ### Philosophy and Legacy
+
 Zhang Wensong is respected not only for his technical depth but also for his gentlemanly demeanor, long-term commitment to practical engineering, and consistent advocacy for open collaboration. He has bridged academia, industry giants (Alibaba, DiDi), investment, and community organizations, helping transition Chinese open source from early individual pioneers to a more systematic, company-supported ecosystem.
 
 In summary, he is regarded as **one of the founding fathers of open source in China**, whose LVS project remains a living symbol of early Chinese open source success and whose career continues to influence cloud computing, infrastructure, and open source strategy in 2026.

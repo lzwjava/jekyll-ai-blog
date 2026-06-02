@@ -19,6 +19,7 @@ John D. Rockefeller (1839–1937), the founder of Standard Oil and historically 
 Here are some of his most representative ideas and pieces of wisdom, grouped by theme:
 
 ### On Success and Ambition
+
 - **Don't settle for mediocrity** — "Don't be afraid to give up the good to go for the great."
   He believed people often limit themselves by accepting comfortable but unremarkable outcomes instead of pushing for excellence.
 - **Singleness of purpose** — "Singleness of purpose is one of the chief essentials for success in life, no matter what may be one's aim."
@@ -27,19 +28,23 @@ Here are some of his most representative ideas and pieces of wisdom, grouped by 
   He viewed failure and difficulty not as endpoints, but as essential ingredients.
 
 ### On Character and Principles
+
 - **Integrity first** — "I believe in the dignity of labor, whether with head or hand; that the world owes no man a living but that it owes every man an opportunity to make a living."
   He emphasized honesty, trustworthiness, and self-reliance.
 - **Character over wealth** — "I believe in the sacredness of a promise, that a man's word should be as good as his bond; that character not wealth or power or position is of supreme worth."
 - **Love and moral conviction** — "I believe that love is the greatest thing in the world; that it alone can overcome hate; that right can and will triumph over might."
 
 ### On Business and Management
+
 Rockefeller was famous for ruthless efficiency, attention to detail, and building trust in partnerships. Key ideas include:
+
 - Be honest and trustworthy in all dealings (he never tolerated fudging numbers).
 - Obsess over costs and operational efficiency — this was central to Standard Oil dominating the oil industry.
 - Trust others to build confidence and lasting relationships.
 - Self-discipline: "Be your own tyrant" — he scheduled his days rigorously and held himself to strict personal standards.
 
 ### On Wealth, Pleasure, and Philanthropy
+
 - **Wealth as a means, not an end** — "I can think of nothing less pleasurable than a life devoted to pleasure."
 - He saw great wealth as a stewardship responsibility → he gave away over $500 million (equivalent to tens of billions today), mostly through systematic philanthropy in education, medicine, and science (e.g., founding the University of Chicago and Rockefeller Foundation).
 

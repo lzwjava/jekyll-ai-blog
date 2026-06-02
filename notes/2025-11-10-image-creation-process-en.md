@@ -21,6 +21,7 @@ A projector is a device that takes a digital or analog input signal (like video 
 3. **Projection**: The shaped light beam passes through a projection lens and is thrown onto a surface. The image size depends on throw distance (how far the projector is from the screen) and lens zoom.
 
 Projectors differ by technology:
+
 - **DLP (Digital Light Processing)**: Common in portable models like the Jimi H6. Uses a spinning color wheel and a DMD (Digital Micromirror Device) chip with millions of tiny mirrors that flip to reflect light on/off.
 - **LCD (Liquid Crystal Display)**: Uses three LCD panels (for red, green, blue) to filter white light.
 - **LCOS (Liquid Crystal on Silicon)**: Hybrid of LCD and DLP, higher-end.
@@ -62,6 +63,7 @@ Here's a breakdown of typical components in a projector (using a DLP mini projec
    - Plastic/metal body, remote, touchscreen/on-body buttons. Includes keystone correction, auto-focus in some.
 
 In operation (e.g., Jimi H6):
+
 - Light from LEDs hits the color wheel → sequential RGB light → DMD mirrors flip to form image → light reflects through lens → projected image.
 - Brightness: Measured in ANSI lumens (Jimi H6 claims 200-400; real-world lower in eco mode).
 - Throw ratio: ~1.2:1 (projects 60-inch image from ~2 meters).

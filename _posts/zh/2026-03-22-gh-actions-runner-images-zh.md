@@ -12,9 +12,11 @@ type: note
 已修复。以下是更改内容：
 
 ### 问题
+
 旧的 runner labels 使用了 `node:16-bullseye` —— 一个纯净的 Node.js 镜像，没有 Python，没有 toolcache，没有任何对 GitHub Actions workflows 有用的东西。当 `actions/setup-python` 尝试安装 Python 3.13.2 时，它无法在该环境中找到兼容的预构建二进制文件。
 
 ### 修复方案
+
 切换到 **[catthehacker/ubuntu](https://github.com/catthehacker/docker_images)** 镜像 —— 这些是为 GitHub Actions 仿真专门构建的：
 
 | Label | Image | Pre-installed |

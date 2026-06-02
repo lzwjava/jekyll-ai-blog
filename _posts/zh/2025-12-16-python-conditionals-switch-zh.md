@@ -70,6 +70,7 @@ print(http_status(200))  # Output: OK
 ### 较旧的替代方法（Python 3.10 之前）
 
 模拟 Switch 的常见方法：
+
 - 使用字典：
 
 ```python

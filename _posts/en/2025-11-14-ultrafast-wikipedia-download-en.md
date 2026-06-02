@@ -47,7 +47,7 @@ echo "pip install wikiextractor"
 echo "wikiextractor --processes 16 -o extracted/ *.bz2"
 ```
 
-### How to use (one-liner if you want even faster):
+### How to use (one-liner if you want even faster)
 
 Just paste this single command in your terminal (no script file needed):
 

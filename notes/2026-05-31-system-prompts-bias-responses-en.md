@@ -35,6 +35,7 @@ Your ~800-word system prompt is essentially a standing prior that biases every c
 Don't remove all of it — but radically trim it. The parts worth keeping are *context* (who you are, your stack), not *behavioral instructions*. The model will naturally calibrate depth if it knows you're an AI engineer with 12 years experience. You don't need to say "Karpathy-style" — just being you makes me go deeper.
 
 Cut target: ~150 words max. Keep:
+
 - Who you are (2-3 sentences)
 - Your stack/environment
 - "Answer in English only"

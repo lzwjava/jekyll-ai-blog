@@ -36,6 +36,7 @@ I'll examine the project structure and source code to create an accurate README 
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/package.json"
@@ -43,6 +44,7 @@ I'll examine the project structure and source code to create an accurate README 
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/package.json</path>
 <type>file</type>
@@ -86,6 +88,7 @@ I'll examine the project structure and source code to create an accurate README 
 **Tool: glob**
 
 **Input:**
+
 ```json
 {
   "pattern": "src/**/*"
@@ -93,6 +96,7 @@ I'll examine the project structure and source code to create an accurate README 
 ```
 
 **Output:**
+
 ```
 /Users/lzwjava/projects/copilot-web/src/App.tsx
 /Users/lzwjava/projects/copilot-web/src/services/auth.ts
@@ -107,6 +111,7 @@ I'll examine the project structure and source code to create an accurate README 
 **Tool: glob**
 
 **Input:**
+
 ```json
 {
   "pattern": "*.{ts,tsx,js,jsx,json}"
@@ -114,6 +119,7 @@ I'll examine the project structure and source code to create an accurate README 
 ```
 
 **Output:**
+
 ```
 /Users/lzwjava/projects/copilot-web/package-lock.json
 /Users/lzwjava/projects/copilot-web/package.json
@@ -138,6 +144,7 @@ _Thinking:_
 Let me examine the key source files to understand what this project actually does, since the current README is just a generic Vite/React template. I need to see the actual application code to create a proper README.
 
 From what I can see:
+
 - package.json has a script "login": "node scripts/login.js"
 - There's a scripts/login.js file
 - There's src/services/auth.ts
@@ -149,6 +156,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/src/App.tsx"
@@ -156,6 +164,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/src/App.tsx</path>
 <type>file</type>
@@ -364,6 +373,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/src/main.tsx"
@@ -371,6 +381,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/src/main.tsx</path>
 <type>file</type>
@@ -392,6 +403,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/src/services/auth.ts"
@@ -399,6 +411,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/src/services/auth.ts</path>
 <type>file</type>
@@ -551,6 +564,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/scripts/login.js"
@@ -558,6 +572,7 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/scripts/login.js</path>
 <type>file</type>
@@ -613,24 +628,24 @@ This appears to be a Copilot Chat application. Let me check the main files to un
 50:     }
 51: }
 52:
-53: 	async function main() {
-54: 		try {
-55: 			const deviceData = await getDeviceCode();
-56: 			const githubToken = await pollForAccessToken(deviceData.device_code, deviceData.interval);
+53:  async function main() {
+54:   try {
+55:    const deviceData = await getDeviceCode();
+56:    const githubToken = await pollForAccessToken(deviceData.device_code, deviceData.interval);
 57:
-58: 			const config = {
-59: 				github_token: githubToken,
-60: 				created_at: new Date().toISOString()
-61: 			};
+58:    const config = {
+59:     github_token: githubToken,
+60:     created_at: new Date().toISOString()
+61:    };
 62:
-63: 			fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
-64: 			console.log(`\n✅ Saved GitHub token to ${CONFIG_PATH}`);
-65: 			console.log("🚀 Now you can run 'npm run dev' and the web app will use this token.");
-66: 		} catch (error) {
-67: 			console.error("\n❌ Error:", error.message);
-68: 			process.exit(1);
-69: 		}
-70: 	}
+63:    fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
+64:    console.log(`\n✅ Saved GitHub token to ${CONFIG_PATH}`);
+65:    console.log("🚀 Now you can run 'npm run dev' and the web app will use this token.");
+66:   } catch (error) {
+67:    console.error("\n❌ Error:", error.message);
+68:    process.exit(1);
+69:   }
+70:  }
 71:
 72: main();
 
@@ -660,6 +675,7 @@ The current README is just a generic template. I need to update it with actual p
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/vite.config.ts"
@@ -667,6 +683,7 @@ The current README is just a generic template. I need to update it with actual p
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/vite.config.ts</path>
 <type>file</type>
@@ -685,6 +702,7 @@ The current README is just a generic template. I need to update it with actual p
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/tsconfig.json"
@@ -692,6 +710,7 @@ The current README is just a generic template. I need to update it with actual p
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/tsconfig.json</path>
 <type>file</type>
@@ -728,6 +747,7 @@ Let me create the updated README.md.
 Based on my analysis, this is a **Copilot Chat** web application - a React + TypeScript + Vite project that provides a chat interface for GitHub Copilot. I'll update the README with accurate project information.
 
 Key aspects to document:
+
 - Project purpose: GitHub Copilot chat interface
 - Tech stack: React 19, TypeScript, Vite
 - Authentication: GitHub OAuth device flow via CLI
@@ -740,6 +760,7 @@ Now I'll update the README with accurate project information:
 **Tool: write**
 
 **Input:**
+
 ```json
 {
   "content": "# Copilot Chat\n\nA web-based chat interface for GitHub Copilot, built with React, TypeScript, and Vite.\n\n## Features\n\n- Chat with GitHub Copilot directly in your browser\n- Token-based authentication using GitHub OAuth\n- Automatic token refresh to maintain session\n- Clean, responsive chat interface\n- Support for Copilot's GPT-4o model\n\n## Tech Stack\n\n- **React 19** - UI framework\n- **TypeScript** - Type safety\n- **Vite** - Build tool and dev server\n- **GitHub Copilot API** - AI chat completions\n\n## Setup\n\n1. Install dependencies:\n   ```bash\n   npm install\n   ```\n\n2. Login using the CLI (required due to GitHub CORS restrictions):\n   ```bash\n   npm run login\n   ```\n   This will:\n   - Open a GitHub device authorization flow\n   - Save your GitHub token to `public/config.json`\n\n3. Start the development server:\n   ```bash\n   npm run dev\n   ```\n\n4. Open your browser to the URL shown (typically `http://localhost:5173`)\n\n## Available Scripts\n\n- `npm run dev` - Start development server\n- `npm run build` - Build for production\n- `npm run lint` - Run ESLint\n- `npm run preview` - Preview production build\n- `npm run login` - Authenticate with GitHub via device flow\n\n## Authentication\n\nThis app uses GitHub's OAuth Device Flow for authentication:\n\n1. Run `npm run login` in your terminal\n2. Visit the verification URL and enter the provided code\n3. Authorize the app on GitHub\n4. Your token is saved to `public/config.json`\n5. Refresh the web app to start chatting\n\n**Note:** Browser-based login is restricted by GitHub's CORS policies, which is why the CLI login is required.\n\n## API Integration\n\nThe app communicates with:\n- GitHub OAuth endpoints for device authorization\n- GitHub Copilot API for chat completions (`https://api.githubcopilot.com/chat/completions`)\n- Automatic token refresh using GitHub's Copilot internal token endpoint\n\n## Project Structure\n\n```\nsrc/\n├── App.tsx              # Main chat interface component\n├── main.tsx             # Application entry point\n├── services/\n│   └── auth.ts          # Authentication service\n└── assets/              # Static assets\n\nscripts/\n└── login.js             # CLI login utility\n\npublic/\n└── config.json          # Generated config (gitignored)\n```\n\n## Development Notes\n\n- Uses React 19's modern features\n- Token refresh happens automatically every ~24 minutes\n- Session data stored in localStorage\n- Copilot tokens include a 1-minute safety buffer before expiry\n",
@@ -748,6 +769,7 @@ Now I'll update the README with accurate project information:
 ```
 
 **Output:**
+
 ```
 Wrote file successfully.
 ```
@@ -793,6 +815,7 @@ Let me analyze the possible reasons:
 5. The token might be invalid or revoked
 
 The error occurs in App.tsx at lines 103-106:
+
 ```typescript
 } catch (err) {
   console.error('Failed to get copilot token:', err)
@@ -804,10 +827,12 @@ The error occurs in App.tsx at lines 103-106:
 This is triggered when `AuthService.fetchCopilotToken(githubToken)` fails.
 
 Looking at auth.ts, the fetchCopilotToken method calls `https://api.github.com/copilot_internal/v2/token`. This endpoint requires:
+
 - A valid GitHub token with the appropriate scopes
 - The user must have an active GitHub Copilot subscription
 
 Common reasons for this error:
+
 1. The GitHub token doesn't have the `copilot` scope. The device flow in login.js only requests `read:user` scope, not the Copilot scope.
 2. The user doesn't have a GitHub Copilot subscription.
 3. The token has expired or been revoked.
@@ -833,9 +858,10 @@ This error occurs when the app tries to exchange your GitHub token for a Copilot
 
 ## How to Fix
 
-1. **Verify Copilot subscription**: Ensure your GitHub account has an active Copilot subscription at https://github.com/settings/copilot
+1. **Verify Copilot subscription**: Ensure your GitHub account has an active Copilot subscription at <https://github.com/settings/copilot>
 
 2. **Re-authenticate**: Delete the token and login again:
+
    ```bash
    rm public/config.json
    npm run login
@@ -846,6 +872,7 @@ This error occurs when the app tries to exchange your GitHub token for a Copilot
 4. **Check token validity**: The GitHub token might be expired. If you previously authorized with a different GitHub account, make sure it's the correct one with Copilot access.
 
 5. **Test API manually**: You can verify by calling the endpoint directly:
+
    ```bash
    curl -H "Authorization: token YOUR_GITHUB_TOKEN" https://api.github.com/copilot_internal/v2/token
    ```

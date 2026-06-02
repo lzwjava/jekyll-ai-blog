@@ -12,6 +12,7 @@ type: note
 Here's what your MacBook Air M2 (16 GB unified memory) looks like right now:
 
 **Memory: critically tight**
+
 - 48% free reported — but 6 GB is compressed (the OS is working hard to keep things running)
 - 145 MB swap used (you're already overflowing to disk)
 - 54 GB free disk — enough buffer for now
@@ -65,12 +66,14 @@ Replace GitHub Desktop with `gh` CLI. Safari heavy tabs → close or suspend.
 **4. ML training — don't**
 
 The 16 GB M2 with no discrete GPU VRAM is not a training machine. Use it for:
+
 - Inference (MLX 4-bit, 3B - 8B models)
 - Embeddings generation (MLX)
 - Agent orchestration (API calls to OpenRouter, your RTX 4070, AMD cloud)
 - Eval + data engineering scripts
 
 Reserve actual training for:
+
 - 192.168.1.36 (RTX 4070 12 GB) — LoRA/QLoRA, nanoGPT
 - AMD MI300X cloud (192 GB HBM3) — full fine-tuning, large GRPO runs
 
@@ -89,6 +92,7 @@ sudo powermetrics --samplers gpu_power -n 1 -i 2000
 **6. For your workflow (AI engineer, API-first, agent builder)**
 
 Your actual workflow doesn't need local GPU at all — you route to OpenRouter, RTX 4070, and AMD cloud. On this MacBook:
+
 - The terminal + editor + browser IS the workflow
 - MLX for quick local inference/embeddings
 - Close WeChat + excess Safari/Chrome tabs → reclaim 1+ GB immediately

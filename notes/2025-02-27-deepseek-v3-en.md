@@ -8,6 +8,7 @@ type: note
 ---
 
 ### Overview and Key Highlights
+
 1. Model Name: DeepSeek-V3, a Mixture-of-Experts (MoE) language model with 671 billion parameters, of which 37 billion are activated per token.
 2. Training Dataset: Pre-trained on 14.8 trillion diverse, high-quality tokens.
 3. Core Innovations: Incorporates Multi-Head Latent Attention (MLA) and DeepSeekMoE architectures with auxiliary-loss-free load balancing for efficiency.
@@ -17,6 +18,7 @@ type: note
 ---
 
 ### Architectural Innovations
+
 6. Transformer-Based Framework: Retains the Transformer architecture for scalability and flexibility.
 7. Multi-Head Latent Attention (MLA): Reduces inference memory by compressing key-value caches without performance loss.
 8. DeepSeekMoE: Utilizes a combination of shared and routed experts for cost-effective training and high computational efficiency.
@@ -26,6 +28,7 @@ type: note
 ---
 
 ### Training Framework
+
 11. FP8 Mixed Precision Training: Leverages fine-grained quantization and low-precision storage to optimize memory and computation.
 12. DualPipe Algorithm: Overlaps computation and communication phases, reducing pipeline bubbles and improving parallelism.
 13. Efficient Cross-Node Communication: Employs optimized kernels for all-to-all operations, utilizing NVLink and InfiniBand bandwidths.
@@ -35,6 +38,7 @@ type: note
 ---
 
 ### Pre-Training Details
+
 16. Stable Training Process: No irrecoverable loss spikes or rollbacks occurred during pre-training.
 17. Context Length Extension: Extended context length to 32K and subsequently to 128K in two stages.
 18. Training Costs: Pre-training required 2.664M GPU hours, context extension 119K GPU hours, and post-training 5K GPU hours.
@@ -44,6 +48,7 @@ type: note
 ---
 
 ### Post-Training Enhancements
+
 21. Supervised Fine-Tuning (SFT): Aligns model outputs with human preferences.
 22. Reinforcement Learning (RL): Employs Group Relative Policy Optimization for fine-tuning.
 23. Knowledge Distillation: Integrates reasoning capabilities from DeepSeek-R1 models.
@@ -53,6 +58,7 @@ type: note
 ---
 
 ### Benchmark Performance
+
 26. MMLU (Educational Benchmarks): Achieves 88.5, surpassing other open-source models.
 27. GPQA (General Knowledge): Scores 59.1, comparable to GPT-4o and Claude-3.5-Sonnet.
 28. Math Benchmarks: State-of-the-art performance in mathematical reasoning tasks.
@@ -62,6 +68,7 @@ type: note
 ---
 
 ### Inference and Deployment
+
 31. Prefilling Stage: Combines tensor parallelism (TP4), sequence parallelism (SP), and expert parallelism (EP32) for efficiency.
 32. Decoding Stage: Utilizes EP320 with IBGDA for low-latency communication.
 33. Dynamic Redundancy: Adjusts expert loads dynamically to optimize resource utilization.
@@ -71,6 +78,7 @@ type: note
 ---
 
 ### Innovations in Load Balancing and Decoding
+
 36. Bias-Based Routing: Introduces bias terms to ensure balanced expert loads dynamically.
 37. Speculative Decoding: Enhances generation latency using MTP modules.
 38. Redundant Experts: Duplicates high-load experts to balance GPU workloads.
@@ -80,6 +88,7 @@ type: note
 ---
 
 ### Technical Details
+
 41. Cluster Configuration: Trained on a cluster with 2048 NVIDIA H800 GPUs.
 42. Pipeline Parallelism: Employs a 16-way parallelism scheme for scalability.
 43. Memory Footprint: Avoids costly tensor parallelism by optimizing memory usage.
@@ -89,6 +98,7 @@ type: note
 ---
 
 ### Evaluation and Results
+
 46. Comprehensive Benchmarks: Evaluated across diverse domains including education, coding, and reasoning.
 47. Open-Source Leadership: Emerges as the strongest open-source base model in its category.
 48. Comparison with Closed-Source Models: Performance comparable to GPT-4o and Claude-3.5-Sonnet.
@@ -98,6 +108,7 @@ type: note
 ---
 
 ### Future Directions
+
 51. Dynamic Redundancy Exploration: Investigating more adaptive redundancy strategies.
 52. Speculative Decoding Expansion: Exploring further uses of MTP for inference acceleration.
 53. Hardware Co-Design: Adapting to next-generation GPUs for enhanced performance.

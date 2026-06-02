@@ -24,7 +24,8 @@ Here are the main types of high-quality lossless content commonly found on The P
 - **Discographies or full artist packs** in FLAC — Some uploaders provide complete artist works in lossless format.
 - **Uploader-specific content** — The user **LosslessMusic** on The Pirate Bay has uploaded many FLAC releases over the years — browsing their profile often yields good results for high-quality audio.
 
-### Practical search tips on The Pirate Bay:
+### Practical search tips on The Pirate Bay
+
 - Use keywords: `FLAC`, `lossless`, `24bit`, `hi-res`, `ALAC` (less common), `WAV` (rare for music albums).
 - Add genre/artist: `piano FLAC`, `jazz lossless`, `classical FLAC 2025`.
 - Filter by category: Audio → FLAC (if available) or sort by seeders to find active, well-seeded torrents.

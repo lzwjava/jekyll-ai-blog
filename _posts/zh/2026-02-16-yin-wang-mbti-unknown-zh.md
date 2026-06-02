@@ -15,7 +15,7 @@ type: note
 
 目前**没有公开信息**或来自王垠本人的直接陈述表明他的 MBTI 性格类型，包括他是否为 INTP。
 
-- 他的博客 https://www.yinwang.org 专注于 Computer Science 教育、Programming Languages（Python、Java、Rust、C++）、对 AI/Machine Vision 的批判、教学方法论、个人经历（如视力改善、大提琴学习）以及偶尔的社会和教育评论。
+- 他的博客 <https://www.yinwang.org> 专注于 Computer Science 教育、Programming Languages（Python、Java、Rust、C++）、对 AI/Machine Vision 的批判、教学方法论、个人经历（如视力改善、大提琴学习）以及偶尔的社会和教育评论。
 - 该网站未提及 MBTI、INTP、性格/人格类型，也没有明确涉及 MBTI 范畴的自我描述。
 - 网页搜索结果（包括关于王垠的讨论）中，没有任何可靠来源显示他曾透露过自己的 MBTI 类型，也没有他人可靠地将其归类为 INTP。
 - 尽管在一些 MBTI 讨论中会出现名为 Yin Wang 或类似名字的人（例如虚构角色或其他个人），但均与 yinwang.org 的博主/教育者无关。

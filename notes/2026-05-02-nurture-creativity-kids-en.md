@@ -54,13 +54,13 @@ At 5 years old, the winning pattern is:
 
 So instead of “design prompts”, think:
 
-#### Scratch:
+#### Scratch
 
 * “click flag → character moves”
 * “press key → sound”
 * “change color → see magic”
 
-#### AI image tools (like Google Gemini or Pixel tools):
+#### AI image tools (like Google Gemini or Pixel tools)
 
 * she chooses words from a small set
 * or speaks instead of typing

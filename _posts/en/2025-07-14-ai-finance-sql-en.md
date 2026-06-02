@@ -11,6 +11,7 @@ type: note
 Based on your experience working on the Finance Transformation Platform, where you're handling backend systems for financial data processing, workflows, and integrations with tools like Java, Spring Boot, and Db2, AI can indeed play a transformative role. Your idea of using AI to "search financial headers" aligns well with natural language processing (NLP) applications, like converting user queries into SQL for efficient data retrieval. This can democratize access to complex financial datasets, allowing non-technical stakeholders (e.g., finance teams) to query things like ledger entries, transaction headers, or approval statuses without writing code. Your example of generating SQL from natural language is a perfect starting point—let's break it down and expand on broader applications.
 
 #### Analyzing Your SQL Generation Example
+
 Your natural language query ("get some users whose firstname is andy, created_at around the day last month, who are 20 years old as of 2025, and whose last_login like recent week") is a solid demonstration of how AI can bridge everyday language to database operations. The generated SQL query you provided is mostly effective and leverages PostgreSQL features well:
 
 ```sql
@@ -32,13 +33,17 @@ WHERE first_name ILIKE 'andy'
 
 - **Potential Improvements**:
   - The age condition (`EXTRACT(YEAR FROM AGE(date_of_birth)) = 20`) calculates the current age as of July 14, 2025, which would select users who are exactly 20 years old today (accounting for whether their birthday has passed). However, "20 years old as of 2025" might better mean users who turn 20 during the year 2025 (i.e., born in 2005). A simpler, more precise alternative could be:
+
     ```sql
     AND date_of_birth BETWEEN '2005-01-01' AND '2005-12-31'
     ```
+
     Or equivalently:
+
     ```sql
     AND EXTRACT(YEAR FROM date_of_birth) = 2005
     ```
+
     This avoids runtime age calculations and focuses on the birth year, which is often more stable for "as of [year]" queries in financial or compliance contexts (e.g., age-based eligibility for accounts).
   - To make it more robust, add limits (e.g., `LIMIT 10`) if you want "some users," and consider time zones for timestamps if the system is global.
   - In a financial project, adapt this to your Db2 database—PostgreSQL syntax like `AGE()` and `ILIKE` might need tweaks (e.g., use `CURRENT DATE - date_of_birth` for age and `LOWER(first_name) LIKE 'andy'`).
@@ -46,6 +51,7 @@ WHERE first_name ILIKE 'andy'
 AI tools like Copilot (which you mentioned using heavily) or advanced models (e.g., via APIs from OpenAI or Google Cloud) excel at this NL-to-SQL translation. In your setup, integrate it into workflows by building a chatbot interface that parses queries about financial headers (e.g., "Show unapproved headers from last quarter with balances over $10K") and generates/executes SQL safely, with guardrails for security.
 
 #### Broader Ways to Use AI in Financial Backend Systems
+
 In projects like yours—focusing on data import/validation/export, workflows, and banking systems—AI can boost efficiency, reduce errors, and enable innovation. Drawing from industry trends, here are practical applications tailored to backend engineering:
 
 - **Automating Data Processing and Validation**:
@@ -73,6 +79,7 @@ These approaches can lead to cost savings (e.g., 20–30% productivity gains in 
 If you're building that AI agent, consider open-source frameworks like LangChain for chaining log analysis with SQL generation. For pricing on APIs or subscriptions, check official sites as details vary.
 
 **References**
+
 - [AI and bank software development | Deloitte Insights](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html)
 - [AI in Banking: Applications, Benefits and Examples | Google Cloud](https://cloud.google.com/discover/ai-in-banking)
 - [Extracting value from AI in banking: Rewiring the enterprise | McKinsey](https://www.mckinsey.com/industries/financial-services/our-insights/extracting-value-from-ai-in-banking-rewiring-the-enterprise)

@@ -26,6 +26,7 @@ Done. Here is a summary of the changes:
 - `/Users/lzwjava/projects/ww/README.md` -- Updated docs
 
 To use it, set `SCREENSHOT_DIR` in your `.env`, e.g.:
+
 ```
 SCREENSHOT_DIR=/Users/lzwjava/projects/jekyll-ai-blog/assets/screenshots
 ```

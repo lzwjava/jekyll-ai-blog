@@ -17,16 +17,19 @@ Answer:
 Codeforces hosts a wide variety of programming contests, many of which are sponsored by tech companies, foundations, universities, and organizations. These sponsorships often fund prizes, provide problems, or support specific events like rounds, cups, or challenges. Based on recent and historical data (up to December 2025), here is a compiled list of notable sponsors. This is not exhaustive, as sponsorships rotate and new ones are added frequently, but it covers primary, title, and event-specific sponsors from official announcements, contests, and reports:
 
 ### Primary/Title Sponsors
+
 - **VK** (formerly Mail.ru Group): Long-term primary sponsor supporting the overall Codeforces platform and multiple rounds.
 - **TON Foundation**: Title sponsor since at least 2023, funding major events and community initiatives.
 
 ### Event and Round Sponsors
+
 - **Huawei**: Sponsors challenges like the 2025 Universal Cup Online Challenge and various prize-funded rounds.
 - **Yandex**: Supports contests like the Yandex Cup (e.g., 2025 edition, with problems featured in Codeforces Round 1069).
 - **Microsoft**: Has sponsored specialized contests, such as the Q# Coding Contest.
 - **Lyft**: Hosted challenges like the Lyft Level 5 Challenge.
 
 ### Other Notable Sponsors and Partners
+
 - **Citadel**: Co-sponsor for events like IICPC CodeFest 2025.
 - **Jump Trading**: Sponsor for competitive programming events like CodeFest.
 - **Jane Street**: Supports hiring-focused contests such as CodeFest.
@@ -41,6 +44,7 @@ Codeforces hosts a wide variety of programming contests, many of which are spons
 For the most up-to-date list, check the [Codeforces contests page](https://codeforces.com/contests) or official blog announcements, as sponsors are often listed per round.
 
 References:
+
 - [Codeforces Official Site](https://codeforces.com/)
 - [VK Sponsorship Announcement](https://codeforces.com/blog/entry/700)
 - [TON Sponsorship Blog](https://codeforces.com/blog/entry/104544)

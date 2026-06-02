@@ -10,7 +10,8 @@ type: note
 
 When considering the U.S. stock market holidays across the entire week (Monday through Friday), here’s how the holidays break down for each day:
 
-### U.S. Stock Market Holidays (by weekday):
+### U.S. Stock Market Holidays (by weekday)
+
 1. **Monday**:
    - **New Year's Day** (if January 1st is a Monday)
    - **Martin Luther King Jr. Day** (Third Monday in January)
@@ -43,14 +44,16 @@ When considering the U.S. stock market holidays across the entire week (Monday t
 
    **Total holidays on Friday: 2 (Good Friday is not always observed)**
 
-### Summary of U.S. Stock Market Holidays by Day:
+### Summary of U.S. Stock Market Holidays by Day
+
 - **Monday**: 5 or 6 holidays (depending on whether New Year's Day falls on a Monday)
 - **Tuesday**: 2 holidays
 - **Wednesday**: 0 holidays
 - **Thursday**: 1 holiday
 - **Friday**: 2 holidays (Good Friday is sometimes observed)
 
-### Conclusion:
+### Conclusion
+
 - **Wednesday** has **the least number of holidays** observed in the U.S. stock market.
 - If you want to avoid holidays altogether, **Wednesday** is the best day of the week in terms of having the least holiday impact on the market.
 

@@ -25,6 +25,7 @@ type: note
 - 夜猫子熬夜并非“逃避责任”——当世界安静下来，让他们独处时，他们往往是最有效率的。
 
 参考文献：
+
 - 美国国立卫生研究院（National Institutes of Health）关于时间类型与智力/收入相关性的研究
 - 马德里大学和列日大学（University of Madrid and Liège）的研究表明夜猫子在认知测试中表现更佳
 - 美国睡眠医学学会（American Academy of Sleep Medicine）对青少年晚开学时间的立场

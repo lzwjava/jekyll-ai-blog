@@ -18,6 +18,7 @@ Here's the full step-by-step breakdown of the conversion:
 First, I inspected the entire codebase to understand the extension:
 
 **Files inventoried (27 total):**
+
 - `manifest.json` — Chrome extension manifest (v2)
 - `background.html` / `background.js` — entry point using RequireJS module loader
 - `popup.html` / `popup.js` — settings UI (max tabs, whitelist)
@@ -26,6 +27,7 @@ First, I inspected the entire codebase to understand the extension:
 - `css/popup.css`, `README.md`, `app.build.js`, and vendor libs (jQuery, Bootstrap, Underscore, RequireJS)
 
 **Identified Chrome-only APIs:**
+
 | API | Found In | Issue |
 |---|---|---|
 | `chrome.storage.sync` | `settings.js` (lines 19, 67) | Not supported in Safari — must be `chrome.storage.local` |
@@ -45,12 +47,14 @@ Three targeted edits before running the converter:
 Safari Web Extensions only support `chrome.storage.local`. They do not have access to Chrome's cloud-sync infrastructure.
 
 **`js/settings.js` line 19:**
+
 ```diff
 - chrome.storage.sync.get(keys, function (items) {
 + chrome.storage.local.get(keys, function (items) {
 ```
 
 **`js/settings.js` line 67:**
+
 ```diff
 - chrome.storage.sync.set(items, fx);
 + chrome.storage.local.set(items, fx);
@@ -76,11 +80,13 @@ Rewrote the Install section to show the Safari build process instead of Chrome W
 ## 3. Ran the Safari Web Extension Converter
 
 The tool `safari-web-extension-converter` ships with Xcode at:
+
 ```
 /Applications/Xcode.app/Contents/Developer/usr/bin/safari-web-extension-converter
 ```
 
 **Command:**
+
 ```bash
 xcrun safari-web-extension-converter safari-tabs-killer \
   --app-name "TabsKiller" \
@@ -105,6 +111,7 @@ xcrun safari-web-extension-converter safari-tabs-killer \
 | `--no-prompt` | Non-interactive mode |
 
 **What the converter generated:**
+
 - `TabsKiller/TabsKiller.xcodeproj` — Xcode project file
 - `TabsKiller/TabsKiller/` — macOS host app (AppDelegate.swift, ViewController.swift, storyboard, assets)
 - `TabsKiller/TabsKiller Extension/` — Safari extension target
@@ -132,6 +139,7 @@ error: Embedded binary's bundle identifier is not prefixed with the parent app's
 Apple requires: extension bundle ID = parent bundle ID + suffix  (e.g. `com.lzw.TabsKiller.Extension`)
 
 **Fix:** Patched `project.pbxproj` to align case:
+
 ```
 com.lzw.tabskiller.Extension  →  com.lzw.TabsKiller.Extension
 ```

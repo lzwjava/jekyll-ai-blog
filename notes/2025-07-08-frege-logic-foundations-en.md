@@ -28,8 +28,8 @@ Here's a comprehensive introduction to his contributions:
 **3. Philosophy of Language and Meaning:**
 
 * **Sense and Reference (Sinn und Bedeutung):** Frege's theory of meaning, particularly his distinction between the "sense" (Sinn) and "reference" (Bedeutung) of linguistic expressions, was profoundly influential in semantics and the philosophy of language.
-    * **Reference:** The reference of a term is the object or entity it points to in the world (e.g., the reference of "Venus" is the planet Venus).
-    * **Sense:** The sense of a term is the mode of presentation or the way in which the reference is given (e.g., "the Morning Star" and "the Evening Star" have different senses but refer to the same object, Venus). This distinction helped to explain how sentences could be informative and how co-referential terms could have different cognitive values.
+  * **Reference:** The reference of a term is the object or entity it points to in the world (e.g., the reference of "Venus" is the planet Venus).
+  * **Sense:** The sense of a term is the mode of presentation or the way in which the reference is given (e.g., "the Morning Star" and "the Evening Star" have different senses but refer to the same object, Venus). This distinction helped to explain how sentences could be informative and how co-referential terms could have different cognitive values.
 * **Function and Concept:** He analyzed propositions in terms of functions and arguments, viewing concepts as functions that map objects to truth values. This analytic approach influenced the development of modern propositional and predicate logic.
 
 **4. Influence and Legacy:**

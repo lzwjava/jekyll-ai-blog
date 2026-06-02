@@ -15,10 +15,12 @@ type: note
 - 数字（0-9）允许在标识符中使用，但只能出现在**首字符之后**
 
 例如：
+
 - 有效的包名：`com.example`、`my_package`、`a123`
 - 无效的包名：`123example`、`1package`
 
 若尝试使用数字开头的包名，Java编译器将抛出语法错误。解决方案包括：
+
 - 使用字母或下划线作为包名开头，例如：`a123.example` 或 `_123.example`
 - 采用符合规范的描述性名称，如 `com.example.project123`
 

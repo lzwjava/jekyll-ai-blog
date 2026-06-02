@@ -42,6 +42,7 @@ HSBC China salaries are significantly lower than US/HK. A Principal Engineer in 
 You're currently an AI Engineer via a contract arrangement. The internal HSBC title ladder typically goes: Software Engineer → Senior SE → Lead/Staff → **Principal Engineer** → Distinguished/Fellow. Principal is usually GCB4 or equivalent — it's a meaningful jump that comes with architecture ownership, not just individual coding. Given your AI tooling depth, pushing for that title with demonstrated impact on AI adoption metrics (which you already have) is a realistic angle.
 
 **References:**
+
 - [HSBC Principal Engineer Salary — Comparably](https://www.comparably.com/companies/hsbc/salaries/principal-engineer)
 - [HSBC Senior Software Engineer Salary — Glassdoor](https://www.glassdoor.com/Salary/HSBC-Holdings-Senior-Software-Engineer-Salaries-E3482_D_KO14,38.htm)
 - [HSBC Software Engineer Salary HK — Glassdoor](https://www.glassdoor.com.hk/Salary/HSBC-Software-Engineer-Hong-Kong-Salaries-EJI_IE3482.0,4_KO5,22_IL.23,32_IC2308631.htm)

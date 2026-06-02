@@ -31,6 +31,7 @@ He argues that trying to push beyond roughly 4 hours of daily deep work usually 
 In short, the ~4-hour limit is not a sign of laziness among Nobel/Fields-level achievers—it’s a feature of how high-level creative cognition actually works.
 
 References:
+
 - Cal Newport, *Deep Work: Rules for Focused Success in a Distracted World* (2016), Chapter 1 and especially pp. 31–36 in most editions
 - Anders Ericsson et al., “The Role of Deliberate Practice in the Acquisition of Expert Performance” (Psychological Review, 1993)
 - Interviews with Terence Tao (e.g., 2015 AMS interview where he discusses his daily schedule)

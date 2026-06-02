@@ -21,6 +21,7 @@ This exception likely occurs not during the connection retrieval itself (which w
 To catch this exception, you need to wrap the code that initiates the transactional operation in a `try-catch` block. Here’s how you can do it:
 
 #### Example with Declarative Transaction Management
+
 If you’re using Spring’s `@Transactional` annotation to manage transactions, the exception would be thrown from the method where the transaction is defined. For instance:
 
 ```java
@@ -54,6 +55,7 @@ public void executeOperation() {
 ```
 
 #### Example with Programmatic Transaction Management
+
 If you’re managing transactions programmatically using `TransactionTemplate` or `PlatformTransactionManager`, you’d catch the exception around the transaction execution:
 
 ```java
@@ -75,7 +77,9 @@ public void executeOperation() {
 ```
 
 #### Considerations
+
 - **Exception Hierarchy**: If `SqlTransactionRollbackException` is a custom exception, verify its superclass. If it extends Spring’s `DataAccessException`, you could catch `DataAccessException` instead and check the specific type:
+
   ```java
   catch (DataAccessException e) {
       if (e instanceof SqlTransactionRollbackException) {
@@ -83,6 +87,7 @@ public void executeOperation() {
       }
   }
   ```
+
 - **Transaction Context**: The exception likely arises after the connection is fetched, when the transaction manager or JDBC driver detects an issue (e.g., a rollback-only state or a database error). Thus, catching it at the service or caller level is appropriate.
 
 ### Detailed Analysis of the Database Lock
@@ -90,6 +95,7 @@ public void executeOperation() {
 The mention of “this kind of database lock” in your query, combined with the rollback exception, strongly suggests a connection to a **deadlock**—a common database locking issue that can lead to transaction rollbacks. Let’s analyze this in detail.
 
 #### What is a Deadlock?
+
 A deadlock occurs in a database when two or more transactions are unable to proceed because each holds a lock that the other needs, creating a cyclic dependency. For example:
 
 - **Transaction T1**:
@@ -102,7 +108,9 @@ A deadlock occurs in a database when two or more transactions are unable to proc
 Here, T1 waits for T2 to release `TableB`, and T2 waits for T1 to release `TableA`, resulting in a deadlock.
 
 #### How Deadlocks Lead to Rollbacks
+
 Most relational databases (e.g., MySQL, PostgreSQL, Oracle) have deadlock detection mechanisms. When a deadlock is identified:
+
 1. The database selects a “victim” transaction (often the one with the least work done or based on a configurable policy).
 2. The victim transaction is rolled back, releasing its locks.
 3. The database throws a `SQLException` with a specific error code (e.g., MySQL error 1213, PostgreSQL error 40P01) to the application.
@@ -111,17 +119,21 @@ Most relational databases (e.g., MySQL, PostgreSQL, Oracle) have deadlock detect
 In your scenario, after `DataSourceUtils` fetches the connection, a database operation within the transaction encounters a deadlock, leading to a rollback and the throwing of `SqlTransactionRollbackException`.
 
 #### Lock Types Involved
+
 - **Shared Locks**: Used for read operations; multiple transactions can hold shared locks on the same resource.
 - **Exclusive Locks**: Used for write operations; only one transaction can hold an exclusive lock, and it conflicts with both shared and exclusive locks held by others.
 Deadlocks typically involve exclusive locks, as they are more restrictive.
 
 #### Why Deadlocks Happen
+
 Deadlocks arise due to:
+
 - **Inconsistent Locking Order**: Transactions accessing resources (e.g., tables, rows) in different sequences.
 - **Long Transactions**: Holding locks for extended periods increases the chance of conflicts.
 - **High Concurrency**: Multiple transactions operating on the same data simultaneously.
 
 #### Example Scenario
+
 Suppose two methods in your application update two tables:
 
 ```java
@@ -141,10 +153,12 @@ public void updateUserAndOrder2() {
 If these methods run concurrently, `updateUserAndOrder1` might lock `users` while waiting for `orders`, and `updateUserAndOrder2` might lock `orders` while waiting for `users`, causing a deadlock.
 
 #### Handling and Preventing Deadlocks
+
 1. **Catch the Exception**:
    As shown earlier, use a `try-catch` block to handle `SqlTransactionRollbackException`. You might:
    - Log the error for debugging.
    - Retry the operation (with caution to avoid infinite loops):
+
      ```java
      int retries = 3;
      for (int i = 0; i < retries; i++) {
@@ -175,12 +189,15 @@ If these methods run concurrently, `updateUserAndOrder1` might lock `users` whil
    - Use row-level locking where possible, though deadlocks can still occur at the row level.
 
 #### Analyzing Deadlocks
+
 To diagnose the specific deadlock:
+
 - **Database Logs**: Check the database server logs for deadlock details (e.g., involved transactions, locked resources).
 - **Spring Debugging**: Enable Spring transaction logging (`logging.level.org.springframework.transaction=DEBUG`) to trace transaction events.
 - **Application Tracing**: Log the sequence of operations leading to the exception.
 
 ### Conclusion
+
 To catch the `SqlTransactionRollbackException`, place a `try-catch` block around the code invoking the transactional operation, such as a service method marked with `@Transactional`. For the database lock—likely a deadlock—ensure transactions access resources in a consistent order, keep transactions short, and consider retry logic for transient failures. Deadlocks occur due to cyclic lock dependencies, and while databases resolve them by rolling back a victim transaction, proactive design can minimize their occurrence.
 
 ---
@@ -190,6 +207,7 @@ When dealing with a `SqlTransactionRollbackException` in a Spring application—
 ---
 
 ### Understanding the Problem
+
 The `SqlTransactionRollbackException` (or more likely `TransactionRollbackException` in Spring, as the former isn’t a standard Spring exception) indicates that a transaction could not be rolled back, possibly because another transaction is holding a lock on the required database resources. This lock contention causes the transaction manager to fail in fetching a connection, retry multiple times (around 20 in your case), and eventually throw the exception when the rollback cannot be completed. This suggests a concurrency issue, such as lock contention or a deadlock, compounded by Spring’s transaction management retrying internally before giving up.
 
 ---
@@ -197,18 +215,21 @@ The `SqlTransactionRollbackException` (or more likely `TransactionRollbackExcept
 ### Strategies to Handle the Exception
 
 #### 1. Minimize Lock Contention with Short Transactions
+
 Long-running transactions increase the likelihood of lock contention, as they hold database locks for extended periods, blocking other transactions. To reduce this risk:
 
 - **Design Short-Lived Transactions**: Ensure that your `@Transactional` methods perform their database operations quickly and commit or roll back promptly. Avoid including time-consuming business logic or external calls within the transaction scope.
 - **Break Down Large Transactions**: If a single transaction involves multiple operations, consider splitting it into smaller, independent transactions where possible. This reduces the duration that locks are held.
 
 #### 2. Optimize Database Queries
+
 Poorly optimized queries can exacerbate lock contention by holding locks longer than necessary. To address this:
 
 - **Analyze and Optimize Queries**: Use database profiling tools to identify slow queries. Add appropriate indexes, avoid unnecessary table scans, and minimize the scope of locked rows (e.g., use precise `WHERE` clauses).
 - **Avoid Overly Broad Locks**: Be cautious with statements like `SELECT ... FOR UPDATE`, which explicitly lock rows and can block other transactions. Use them only when necessary and ensure they affect the fewest rows possible.
 
 #### 3. Adjust Transaction Settings
+
 Spring’s `@Transactional` annotation provides attributes to fine-tune transaction behavior. While these won’t directly solve rollback failures, they can help manage concurrency:
 
 - **Isolation Level**: The default isolation level (`DEFAULT`) typically maps to the database’s default (often `READ_COMMITTED`). Increasing it to `REPEATABLE_READ` or `SERIALIZABLE` might ensure data consistency but could worsen lock contention. Conversely, sticking with `READ_COMMITTED` or lower (if supported) might reduce locking issues, depending on your use case. Test carefully to find the right balance.
@@ -216,6 +237,7 @@ Spring’s `@Transactional` annotation provides attributes to fine-tune transact
 - **Timeout**: Set a `timeout` value (in seconds) in `@Transactional(timeout = 10)` to fail transactions faster if they’re waiting on locks. This prevents prolonged retries but doesn’t fix the root cause.
 
 Example:
+
 ```java
 @Transactional(timeout = 5, propagation = Propagation.REQUIRES_NEW)
 public void performDatabaseOperation() {
@@ -224,10 +246,12 @@ public void performDatabaseOperation() {
 ```
 
 #### 4. Implement Retry Logic (With Caution)
+
 Since the exception occurs after multiple internal retries (around 20), Spring’s transaction manager is likely already attempting to handle the issue. However, you can implement custom retry logic at a higher level:
 
 - **Using Spring Retry**:
   Annotate a service method with `@Retryable` to retry on `TransactionRollbackException`. Specify the number of attempts and delay between retries. Pair it with a `@Recover` method to handle the failure after retries are exhausted.
+
   ```java
   import org.springframework.retry.annotation.Backoff;
   import org.springframework.retry.annotation.Retryable;
@@ -254,10 +278,12 @@ Since the exception occurs after multiple internal retries (around 20), Spring�
       }
   }
   ```
+
   **Note**: Each retry starts a new transaction, which might not be ideal if atomicity across retries is required. Apply this outside the `@Transactional` method if possible.
 
 - **Manual Retry with TransactionTemplate**:
   For more control, use `TransactionTemplate` to wrap your transactional code in a retry loop:
+
   ```java
   import org.springframework.transaction.PlatformTransactionManager;
   import org.springframework.transaction.TransactionStatus;
@@ -298,13 +324,16 @@ Since the exception occurs after multiple internal retries (around 20), Spring�
       }
   }
   ```
+
   **Caution**: Retrying may not resolve the issue if the lock persists, and it could lead to inconsistent states if partial changes are applied before rollback fails. Ensure retries are idempotent or safe.
 
 #### 5. Handle the Exception Gracefully
+
 If rollback fails due to persistent locks, the database state may become inconsistent, requiring careful handling:
 
 - **Catch and Log**:
   Wrap the transactional call in a try-catch block, log the exception, and notify administrators:
+
   ```java
   try {
       myService.performTransactionalWork();
@@ -321,11 +350,13 @@ If rollback fails due to persistent locks, the database state may become inconsi
 - **Fail Safely**: If the transaction’s state is uncertain, halt further operations that depend on it and signal the need for manual intervention.
 
 #### 6. Leverage Database Features
+
 Tune database settings to mitigate lock-related issues:
 
 - **Lock Timeout**: Configure the database to timeout quickly on lock waits (e.g., `SET LOCK_TIMEOUT 5000` in SQL Server or `innodb_lock_wait_timeout` in MySQL). This fails the transaction earlier, allowing Spring to handle the exception sooner.
 - **Deadlock Detection**: Ensure the database’s deadlock detection is enabled and configured to resolve conflicts by rolling back one transaction automatically.
 - **Optimistic Locking**: If using JPA, apply `@Version` to entities to use optimistic locking, reducing physical lock contention:
+
   ```java
   @Entity
   public class MyEntity {
@@ -336,9 +367,11 @@ Tune database settings to mitigate lock-related issues:
       // Other fields
   }
   ```
+
   This shifts conflict detection to commit time but may not directly address rollback failures.
 
 #### 7. Monitor and Investigate
+
 Frequent occurrences of this exception indicate an underlying issue:
 
 - **Add Monitoring**: Use tools like Spring Boot Actuator or a logging framework to track these exceptions and their frequency.
@@ -348,6 +381,7 @@ Frequent occurrences of this exception indicate an underlying issue:
 ---
 
 ### Why Rollback Fails
+
 The rollback failure after 20 attempts suggests that Spring’s transaction manager retries the rollback operation when it encounters a locked resource or lost connection, eventually giving up. This could stem from:
 
 - **Persistent Locks**: Another transaction holds a lock that doesn’t release within the retry window.
@@ -357,11 +391,13 @@ The rollback failure after 20 attempts suggests that Spring’s transaction mana
 ---
 
 ### Recommended Approach
+
 Here’s a practical solution combining the above strategies:
 
 1. **Optimize Transactions and Queries**: Keep transactions short and queries efficient to reduce lock duration.
 2. **Set a Transaction Timeout**: Use `@Transactional(timeout = 5)` to fail fast if locks persist.
 3. **Handle with Retry and Recovery**:
+
    ```java
    @Service
    public class MyService {
@@ -396,11 +432,13 @@ Here’s a practical solution combining the above strategies:
        }
    }
    ```
+
 4. **Monitor and Adjust**: Log the exception, set up alerts, and investigate lock contention causes.
 
 ---
 
 ### Conclusion
+
 To handle `SqlTransactionRollbackException` in Spring when another transaction holds a lock, causing connection fetch failures and repeated attempts, focus on minimizing lock contention through short transactions and optimized queries, adjust transaction settings as needed, implement cautious retry logic at a higher level, and handle the exception by logging and notifying appropriately. This ensures system stability and data integrity while addressing the root cause over time through monitoring and tuning.
 
 ---
@@ -482,6 +520,7 @@ public class DB2TransactionExample {
 ### Additional Considerations
 
 - **Driver Version**: Ensure you’re using a JDBC 4.0-compliant IBM DB2 driver (e.g., `db2jcc4.jar`). Older drivers (e.g., `db2jcc.jar`) may only throw `SQLException`, requiring you to check the error code manually. For example:
+
   ```java
   catch (SQLException e) {
       if (e.getErrorCode() == -911) {
@@ -489,8 +528,10 @@ public class DB2TransactionExample {
       }
   }
   ```
+
 - **SQL State and Error Codes**: DB2 uses SQL state `40001` for serialization failures (like deadlocks) and error code `-911` when the transaction is rolled back automatically. Error code `-913` indicates a statement failure due to deadlock, but the transaction remains active unless rolled back explicitly.
 - **Retry Logic**: For transient issues like deadlocks, you might implement a retry mechanism:
+
   ```java
   int maxRetries = 3;
   for (int attempt = 1; attempt <= maxRetries; attempt++) {

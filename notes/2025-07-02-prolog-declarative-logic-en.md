@@ -12,9 +12,9 @@ Prolog, short for "Programming in Logic," is a **declarative programming languag
 
 It's particularly well-suited for problems involving **logic, symbolic reasoning, and knowledge representation**, making it a cornerstone in the field of Artificial Intelligence (AI), natural language processing, and expert systems.
 
-### Key Concepts of Prolog:
+### Key Concepts of Prolog
 
-1.  **Facts:**
+1. **Facts:**
     Facts are fundamental truths about the world that you provide to Prolog. They represent unconditional assertions.
 
       * **Syntax:** `predicate(argument1, argument2, ...).`
@@ -24,7 +24,7 @@ It's particularly well-suited for problems involving **logic, symbolic reasoning
           * `parent(john, mary).` (John is a parent of Mary)
           * `capital_of(france, paris).` (Paris is the capital of France)
 
-2.  **Rules:**
+2. **Rules:**
     Rules define relationships between facts. They state that a certain fact is true if one or more other facts (or conditions) are true.
 
       * **Syntax:** `head :- body.` (Read as "head is true if body is true")
@@ -35,7 +35,7 @@ It's particularly well-suited for problems involving **logic, symbolic reasoning
           * `father(X, Y) :- parent(X, Y), male(X).` (X is the father of Y if X is a parent of Y AND X is male)
           * `grandparent(G, C) :- parent(G, P), parent(P, C).` (G is a grandparent of C if G is a parent of P AND P is a parent of C)
 
-3.  **Queries:**
+3. **Queries:**
     Once you've defined your facts and rules (your "knowledge base"), you can ask Prolog questions, called queries, to retrieve information or verify relationships.
 
       * **Syntax:** `?- query.`
@@ -45,42 +45,42 @@ It's particularly well-suited for problems involving **logic, symbolic reasoning
           * `?- parent(john, X).` (Who is John a parent of? - `X` is a variable)
           * `?- grandparent(elizabeth, william).` (Is Elizabeth a grandparent of William?)
 
-4.  **Variables:**
+4. **Variables:**
     Variables in Prolog are used to represent unknown values. They always start with an uppercase letter or an underscore (`_`). Unlike variables in imperative languages, they are not memory locations that can be reassigned; rather, they are placeholders that Prolog tries to unify with values to satisfy a query.
 
-5.  **Unification:**
+5. **Unification:**
     This is the core mechanism of Prolog. Unification is a pattern-matching process that attempts to make two terms identical by assigning values to variables. If a match is found, the variables are "bound" to those values. If no match is possible, the unification fails.
 
-6.  **Backtracking:**
+6. **Backtracking:**
     When Prolog tries to satisfy a query, it works through the facts and rules in a depth-first manner. If a path leads to a dead end (a goal cannot be satisfied), Prolog "backtracks" to a previous choice point and tries an alternative path. This systematic search allows it to find all possible solutions to a query.
 
-### How Prolog Works (Simplified):
+### How Prolog Works (Simplified)
 
-1.  You load a Prolog program (a collection of facts and rules) into the interpreter.
-2.  You pose a query.
-3.  Prolog tries to prove the query by matching it against its facts and the heads of its rules.
-4.  If a rule's head matches, Prolog then tries to prove the conditions in the rule's body (these become sub-goals).
-5.  This process continues recursively until all sub-goals are satisfied by facts or by successfully proven rules.
-6.  If a solution is found, Prolog presents the variable bindings. If multiple solutions exist, it can backtrack to find them.
+1. You load a Prolog program (a collection of facts and rules) into the interpreter.
+2. You pose a query.
+3. Prolog tries to prove the query by matching it against its facts and the heads of its rules.
+4. If a rule's head matches, Prolog then tries to prove the conditions in the rule's body (these become sub-goals).
+5. This process continues recursively until all sub-goals are satisfied by facts or by successfully proven rules.
+6. If a solution is found, Prolog presents the variable bindings. If multiple solutions exist, it can backtrack to find them.
 
-### Advantages of Prolog:
+### Advantages of Prolog
 
-  * **Declarative Nature:** Focus on *what* to solve, not *how*. This can lead to more concise and readable code for certain problems.
-  * **Built-in Logic and Inference:** Powerful mechanisms for logical reasoning and searching.
-  * **Excellent for Symbolic AI:** Ideal for expert systems, natural language processing, knowledge representation, and theorem proving.
-  * **Pattern Matching and Unification:** Simplifies complex data manipulation.
-  * **Backtracking:** Automates the search for solutions, which would be manually programmed in other languages.
+* **Declarative Nature:** Focus on *what* to solve, not *how*. This can lead to more concise and readable code for certain problems.
+* **Built-in Logic and Inference:** Powerful mechanisms for logical reasoning and searching.
+* **Excellent for Symbolic AI:** Ideal for expert systems, natural language processing, knowledge representation, and theorem proving.
+* **Pattern Matching and Unification:** Simplifies complex data manipulation.
+* **Backtracking:** Automates the search for solutions, which would be manually programmed in other languages.
 
-### Disadvantages of Prolog:
+### Disadvantages of Prolog
 
-  * **Learning Curve:** The declarative paradigm can be challenging for those used to imperative programming.
-  * **Performance:** Can be less efficient for numerical computations or I/O-intensive tasks compared to imperative languages.
-  * **Limited I/O and Graphics:** Not designed for complex user interfaces or graphical applications.
-  * **Debugging:** Tracing the execution flow in Prolog can sometimes be tricky due to backtracking.
+* **Learning Curve:** The declarative paradigm can be challenging for those used to imperative programming.
+* **Performance:** Can be less efficient for numerical computations or I/O-intensive tasks compared to imperative languages.
+* **Limited I/O and Graphics:** Not designed for complex user interfaces or graphical applications.
+* **Debugging:** Tracing the execution flow in Prolog can sometimes be tricky due to backtracking.
 
 -----
 
-### Prolog Code Examples:
+### Prolog Code Examples
 
 To run these examples, you'll need a Prolog interpreter (like SWI-Prolog, which is free and widely used). You typically save your code in a file with a `.pl` extension (e.g., `family.pl`) and then load it into the interpreter.
 

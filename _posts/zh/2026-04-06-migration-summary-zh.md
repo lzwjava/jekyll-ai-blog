@@ -17,9 +17,10 @@ type: note
 
 **构建状态：** `✓ 构建用时 1.21 秒`
 
-### 已完成的工作：
+### 已完成的工作
 
 **第一阶段 - 项目初始化：**
+
 - ✅ 创建了新的 Vite + Vue 3 项目结构
 - ✅ 安装了所有依赖项（vue, vue-router, axios, hls.js, weixin-js-sdk, marked, highlight.js, moment, qiniu-js, font-awesome, weui）
 - ✅ 配置了 vite.config.js，设置了 API 代理和 @ 路径别名
@@ -27,6 +28,7 @@ type: note
 - ✅ 复制了 img/, static/, plupload/ 至 public/
 
 **第二阶段 - 公共文件：**
+
 - ✅ src/common/util.js - 将所有工具函数迁移为 ES 模块
 - ✅ src/common/api.js - 基于 Axios 的 API 客户端（替换 vue-resource）
 - ✅ src/common/wechat.js - 微信 SDK 集成
@@ -34,26 +36,30 @@ type: note
 - ✅ src/common/qiniu.js - 七牛上传占位符
 
 **第三阶段 - 路由与应用：**
+
 - ✅ src/router/index.js - Vue Router 4，包含全部 22 条路由
 - ✅ src/App.vue - 根组件，包含遮罩层/提示系统
 - ✅ src/main.js - createApp 入口文件
 
 **第四阶段 - 组件（共 26 个）：**
+
 - ✅ 全部迁移至 Vue 3 `<script setup>` + Composition API
 - ✅ 使用 `defineEmits` 替换了 `$dispatch` 事件
 - ✅ 使用 `router.push()` 替换了 `this.$router.go()`
 - ✅ 修复了所有 Vue 3 兼容性问题
 
 **第五阶段 - 页面视图（共 22 个）：**
+
 - ✅ 全部迁移至 Vue 3 `<script setup>`
 - ✅ HomeView, ListView, LiveView, IntroView, ProfileView 等
 
-### 构建警告（非阻塞性）：
+### 构建警告（非阻塞性）
+
 - ⚠️ CSS 拼写错误：`heigth` 应为 `height`（位于 logo.vue）
 - ⚠️ 大文件块：markdown/highlight.js 为 976KB - 建议考虑代码分割
 - ⚠️ 部分相对图片路径需要 `/img/` 前缀以指向 public 文件夹
 
-### 需要手动处理的事项：
+### 需要手动处理的事项
 
 1. **LeanCloud 实时聊天** - LiveView 中的聊天功能使用了 LeanCloud Realtime SDK，需要完整集成。当前简化版本仅包含空的 `sendMsg()` 函数。
 
@@ -71,7 +77,8 @@ type: note
 
 8. **CSS 属性** - 修复拼写错误：logo.vue 中的 `heigth` → `height`
 
-### 文件结构：
+### 文件结构
+
 ```
 live-mobile-web/
 ├── src/

@@ -48,7 +48,7 @@ Make.com operates as an **authorized middleware**. It does not hack or scrape �
 
 ---
 
-#### For Social Media (Facebook, YouTube, Instagram, TikTok):
+#### For Social Media (Facebook, YouTube, Instagram, TikTok)
 
 | Platform | How Make.com Connects | What Access It Needs |
 |---|---|---|
@@ -58,6 +58,7 @@ Make.com operates as an **authorized middleware**. It does not hack or scrape �
 | **TikTok** | TikTok API (limited) | More restricted; often needs workarounds |
 
 **For the marketing pipeline described in your plan:**
+
 - You connect your **Facebook Business Page** to Make.com via official login
 - Make.com then **watches for new comments** on your posts
 - When a keyword triggers (e.g., "price," "how much"), it calls Dify, gets the AI reply, and **posts the response back** to that comment — all through Facebook's official API
@@ -65,7 +66,7 @@ Make.com operates as an **authorized middleware**. It does not hack or scrape �
 
 ---
 
-#### For WhatsApp:
+#### For WhatsApp
 
 WhatsApp automation is **not direct** — it goes through the **WhatsApp Business API (Cloud API)**, provided by Meta.
 
@@ -86,6 +87,7 @@ Customer receives response
 ```
 
 **What you need to set up:**
+
 1. A **WhatsApp Business Account** (verified business)
 2. A **Meta Business Manager** account
 3. A WhatsApp API provider — either directly through Meta or via providers like:
@@ -106,6 +108,7 @@ Customer receives response
 #### 1. 🗺️ Visual Scenario Builder (Drag & Drop)
 
 The core interface is a **canvas** where you:
+
 - Drag in **modules** (each module = one app action)
 - Connect them with lines to define the flow
 - Set filters, conditions, and data mappings visually
@@ -139,11 +142,13 @@ Make.com connects to an enormous ecosystem:
 Every scenario starts with a **trigger** (what starts the automation) and contains **actions** (what it does):
 
 **Trigger types:**
+
 - **Instant (Webhook):** Fires immediately when something happens (e.g., new WhatsApp message)
 - **Scheduled:** Runs at set intervals (every 15 min, hourly, daily)
 - **Polling:** Checks for new data on a schedule
 
 **Action types:**
+
 - Create, update, delete records
 - Send messages or emails
 - Make HTTP requests to any API
@@ -175,6 +180,7 @@ link reply     manager
 #### 5. 🌐 HTTP / Webhook Module (Connect Anything)
 
 Even if an app has no native Make.com module, you can connect it using:
+
 - **HTTP module** — call any REST API directly
 - **Webhook** — receive data from any external system
 - **GraphQL module** — for GraphQL APIs
@@ -201,6 +207,7 @@ Make.com has built-in tools to manipulate data mid-flow:
 #### 7. 📋 Scenario Templates
 
 Make.com has a **template library** with thousands of pre-built scenarios you can clone and customize:
+
 - "When someone comments on my Facebook post → send them a DM"
 - "New Shopify order → add to Google Sheets + notify Slack"
 - "OpenAI generates content → post to WordPress"

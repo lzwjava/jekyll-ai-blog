@@ -191,6 +191,7 @@ OPENCLAW 日志 (OpenClaw 向我们报告的内容):
 | **API 调用** | `http://localhost:8080` 有效 | `http://localhost`（80 端口）→ nginx → 404 | `room not found` |
 
 每个故障都隐藏在前一个故障背后，因为：
+
 1. 签名拒绝 = 负载从未被解析
 2. 负载拒绝 = API 从未被调用
 3. API 404 = 看起来像是房间问题，而不是 URL 问题

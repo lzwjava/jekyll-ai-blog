@@ -67,6 +67,7 @@ I'll provide a comprehensive comparison between Oracle and MySQL across key dime
 ## Use Case Recommendations
 
 **Choose Oracle when:**
+
 - Building large-scale enterprise applications
 - Requiring advanced analytical capabilities
 - Needing sophisticated security and compliance features
@@ -74,6 +75,7 @@ I'll provide a comprehensive comparison between Oracle and MySQL across key dime
 - Budget allows for enterprise-grade licensing
 
 **Choose MySQL when:**
+
 - Developing web applications or smaller to medium-scale systems
 - Prioritizing cost-effectiveness and open-source benefits
 - Needing rapid development and deployment

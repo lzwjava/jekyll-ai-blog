@@ -21,28 +21,35 @@ ELG 技术栈（通常作为 ELK 技术栈的变体，使用 Grafana 替代 Kiba
 本指南需具备 Linux 基础知识（以 Ubuntu/Debian 为例，其他系统请调整）。完整细节请参考官方文档。安装文件需从 elastic.co 和 grafana.com 官网下载。
 
 #### 1. 安装 Elasticsearch
+
 Elasticsearch 负责数据存储和索引。
 
 - **环境要求**：Java 11+（通过 `sudo apt update && sudo apt install openjdk-11-jdk` 安装）
 - 下载安装：
+
   ```
   wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
   echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
   sudo apt update && sudo apt install elasticsearch
   ```
+
 - 启动并设置开机自启：`sudo systemctl start elasticsearch && sudo systemctl enable elasticsearch`
 - 验证：访问 `http://localhost:9200` 应返回包含集群信息的 JSON 数据
 - 基础配置（编辑 `/etc/elasticsearch/elasticsearch.yml`）：设置 `network.host: 0.0.0.0` 支持远程访问（生产环境需配置 TLS/防火墙）
 
 #### 2. 安装 Logstash
+
 Logstash 从数据源（如文件、系统日志）提取数据并传输至 Elasticsearch。
 
 - 同步安装：
+
   ```
   sudo apt install logstash
   ```
+
 - 启动并设置开机自启：`sudo systemctl start logstash && sudo systemctl enable logstash`
 - 日志采集配置示例（`/etc/logstash/conf.d/simple.conf`）：
+
   ```
   input {
     file {
@@ -62,18 +69,22 @@ Logstash 从数据源（如文件、系统日志）提取数据并传输至 Elas
     stdout { codec => rubydebug }
   }
   ```
+
 - 测试管道：`sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/simple.conf`（持久化运行需转为后台进程）
 - 重载配置：`sudo systemctl restart logstash`
 
 #### 3. 安装 Grafana
+
 Grafana 提供可视化仪表盘展示 Elasticsearch 数据。
 
 - 安装步骤：
+
   ```
   wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
   echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee /etc/apt/sources.list.d/grafana.list
   sudo apt update && sudo apt install grafana
   ```
+
 - 启动并设置开机自启：`sudo systemctl start grafana-server && sudo systemctl enable grafana-server`
 - 访问：打开 `http://localhost:3000`（默认账号 admin/admin，首次登录需修改密码）
 - 连接 Elasticsearch：
@@ -82,6 +93,7 @@ Grafana 提供可视化仪表盘展示 Elasticsearch 数据。
   3. 保存并测试连接
 
 #### 构建完整 ELG 管道
+
 1. **数据流**：Logstash 收集解析日志 → 传输至 Elasticsearch → Grafana 查询可视化
 2. **典型工作流**：
    - 发送测试数据：使用 Logstash 输入插件或 `stdout` 等工具
@@ -91,6 +103,7 @@ Grafana 提供可视化仪表盘展示 Elasticsearch 数据。
 4. **监控措施**：启用 Elasticsearch 的 JVM 监控；Grafana 内置阈值告警功能
 
 #### 常见问题与技巧
+
 - **内存不足**：调整 `/etc/elasticsearch/jvm.options` 中的 JVM 堆参数（如 `-Xms1g -Xmx1g`）
 - **端口冲突**：默认端口 Elasticsearch 9200/9300，Logstash 5044，Grafana 3000 - 可通过 `netstat -tulpn` 检查
 - **性能优化**：轻量级数据采集建议使用 Beats（如 Filebeat）替代 Logstash

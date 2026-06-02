@@ -15,6 +15,7 @@ Setting parameters for an `ExecutorService` in Java involves configuring its thr
 ### Understanding ExecutorService and ThreadPoolExecutor
 
 The `ExecutorService` interface is typically implemented by classes like `ThreadPoolExecutor`, which allows fine-grained control over thread pool parameters. When configuring it for an 8-core CPU, you need to consider:
+
 - **Core Pool Size**: The number of threads to keep alive even when idle.
 - **Maximum Pool Size**: The maximum number of threads allowed in the pool.
 - **Queue Capacity**: The size of the task queue for holding tasks before they’re executed.
@@ -42,6 +43,7 @@ ThreadPoolExecutor executor = new ThreadPoolExecutor(
 ```
 
 #### Parameter Breakdown
+
 1. **`corePoolSize`**:
    - Minimum number of threads always kept alive.
    - For CPU-bound tasks: Set to the number of cores (e.g., 8).
@@ -77,6 +79,7 @@ ThreadPoolExecutor executor = new ThreadPoolExecutor(
 ### Configuring for an 8-Core CPU
 
 #### Scenario 1: CPU-Bound Tasks
+
 If your tasks are CPU-intensive (e.g., heavy computations), you want to match the thread count to the CPU cores to maximize throughput without overloading the system.
 
 ```java
@@ -104,6 +107,7 @@ public class ExecutorConfig {
 - **Why**: 8 threads fully utilize the 8 cores. Adding more threads would cause context switching overhead, reducing performance.
 
 #### Scenario 2: I/O-Bound Tasks (e.g., Database Validation)
+
 For your validation scenario with database access, tasks are I/O-bound—threads spend time waiting for database responses. You can use more threads than cores to keep the CPU busy while some threads wait.
 
 ```java
@@ -135,6 +139,7 @@ public class ExecutorConfig {
   - `CallerRunsPolicy`: Ensures the system degrades gracefully under overload by running tasks in the caller’s thread.
 
 #### Spring Boot Integration
+
 In a Spring Boot application, define the `ExecutorService` as a bean:
 
 ```java
@@ -168,6 +173,7 @@ public class AppConfig {
 - **Note**: Add Guava (`com.google.guava:guava`) to your dependencies for `ThreadFactoryBuilder`, or use `Executors.defaultThreadFactory()` if you don’t need custom naming.
 
 #### Using It in Your Validation Service
+
 Inject and use it as shown in your earlier examples:
 
 ```java
@@ -198,6 +204,7 @@ public class ValidationService {
 
 3. **Dynamic Calculation**:
    - Use `Runtime.getRuntime().availableProcessors()` to dynamically set the core pool size:
+
      ```java
      int cores = Runtime.getRuntime().availableProcessors(); // Returns 8 on an 8-core CPU
      int corePoolSize = cores * 2; // For I/O-bound tasks
@@ -211,6 +218,7 @@ public class ValidationService {
 ### Conclusion
 
 For an 8-core CPU running I/O-bound tasks like your validation rules with database access:
+
 - Use a `ThreadPoolExecutor` with `corePoolSize = 16`, `maximumPoolSize = 20`, and a bounded queue (e.g., `ArrayBlockingQueue(100)`).
 - Integrate it as a Spring bean for dependency injection.
 - Adjust based on profiling and database constraints.

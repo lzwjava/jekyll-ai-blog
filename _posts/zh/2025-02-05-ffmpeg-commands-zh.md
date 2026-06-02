@@ -11,7 +11,6 @@ type: post
 
 这里有一些我常用的ffmpeg命令。
 
-
 ```bash
 ffmpeg -i IMG_4066.mov -vf "fps=10,scale=320:-1:flags=lanczos" output.gif
 

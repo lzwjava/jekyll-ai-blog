@@ -11,32 +11,41 @@ type: note
 ---
 
 ### Overview of FineWeb Dataset
+
 The FineWeb dataset is a large-scale, high-quality English web text corpus developed by Hugging Face, derived from CommonCrawl snapshots (2013–2024). It contains over 15 trillion tokens after filtering and deduplication, making it suitable for pretraining large language models (LLMs). It's released under the Open Data Commons Attribution License (ODC-By) and hosted on Hugging Face Datasets.
 
 There are variants like FineWeb-Edu (filtered for educational content) and FineWeb2 (multilingual extension). For LLM training, the core `HuggingFaceFW/fineweb` is the starting point.
 
 ### Prerequisites
+
 - **Python Environment**: Python 3.8+ with the `datasets` library from Hugging Face.
 - **Storage**: The full dataset is massive (~16TB compressed). Use streaming for on-the-fly processing during training.
 - **Optional for Speed**: Install `huggingface_hub` with HF Transfer support:
+
   ```
   pip install huggingface_hub[hf_transfer]
   ```
+
   Then set the environment variable:
+
   ```
   export HF_HUB_ENABLE_HF_TRANSFER=1
   ```
+
 - **Hugging Face Account**: Optional but recommended for gated access or faster downloads (create a free account and log in via `huggingface-cli login`).
 
 ### How to Load the Dataset
+
 Use the `datasets` library to access it directly. Here's a step-by-step guide with code examples.
 
 #### 1. Install Dependencies
+
 ```bash
 pip install datasets
 ```
 
 #### 2. Load the Full Dataset (Streaming Mode for Training)
+
 Streaming avoids downloading the entire dataset upfront—ideal for training on limited storage. It yields data in batches.
 
 ```python
@@ -54,7 +63,9 @@ for example in dataset.take(5):
 - **Data Format**: Parquet files with columns including `text` (cleaned content), `url`, `date`, `quality_score`, etc. Text is tokenized-ready.
 
 #### 3. Load a Subset or Specific Config
+
 For testing or smaller-scale training:
+
 ```python
 # Load a specific CommonCrawl dump (e.g., 2023 data)
 dataset = load_dataset("HuggingFaceFW/fineweb", name="CC-MAIN-2023-50", split="train")
@@ -64,7 +75,9 @@ edu_dataset = load_dataset("HuggingFaceFW/fineweb-edu", split="train", streaming
 ```
 
 #### 4. Integrate with Training Pipelines
+
 For LLM training (e.g., with Transformers or custom loops), use the streaming iterator directly in your data loader:
+
 ```python
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
 
@@ -85,13 +98,17 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 - **Efficiency Tip**: Process in batches with `batched=True` in `.map()`. For distributed training, use Hugging Face Accelerate.
 
 #### 5. Download Full Dataset (Non-Streaming)
+
 If you need local storage (not recommended for full size):
+
 ```python
 dataset = load_dataset("HuggingFaceFW/fineweb", split="train")  # Downloads to ~/.cache/huggingface/datasets
 ```
+
 Use `dataset.save_to_disk("/path/to/save")` afterward.
 
 ### Additional Tips for Training
+
 - **Deduplication**: FineWeb is already deduplicated, but check metadata like `minhash_cluster_size` for upsampling if needed.
 - **Quality Filtering**: Use built-in `quality_score` (>0.5 threshold) to subsample high-quality samples.
 - **Variants**:

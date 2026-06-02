@@ -35,6 +35,7 @@ Here is a clear side-by-side comparison:
 | **Common Use Cases** | Home networks, offices, short runs, PoE devices (cameras, phones, Wi-Fi APs) | Data centers, long-distance links, ISPs, high-bandwidth backbones, campus connections |
 
 ### Summary: Which is better?
+
 - **Choose RJ45 copper cable** when:
   - Distance is under 100 m
   - You need PoE

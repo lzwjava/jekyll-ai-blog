@@ -35,6 +35,7 @@ I distilled your entire identity — 12 years of shipping, startup founding, mod
 **Where to paste this:**
 
 This works as-is in:
+
 - **Claude / ChatGPT** — paste into custom instructions or system prompt
 - **Cursor** — paste into `.cursorrules` or Rules for AI
 - **Any AI coding tool** — this is the "who I am" preamble

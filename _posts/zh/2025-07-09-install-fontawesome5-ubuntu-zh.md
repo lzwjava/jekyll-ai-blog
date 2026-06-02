@@ -44,6 +44,7 @@ cd ~/texmf/tex/latex/fontawesome5
 ```
 
 3. 更新 TeX 数据库：
+
 ```bash
 texhash ~/texmf
 ```
@@ -68,11 +69,13 @@ texhash ~/texmf
 若遇到问题：
 
 1. 检查 TeX Live 是否是最新版本：
+
 ```bash
 tlmgr --version
 ```
 
 2. 验证软件包是否安装成功：
+
 ```bash
 tlmgr info fontawesome5
 ```

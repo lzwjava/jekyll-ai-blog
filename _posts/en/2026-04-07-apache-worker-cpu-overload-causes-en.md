@@ -16,6 +16,7 @@ Looking at your `top` output, here's what's happening:
 **12+ Apache2 workers all at 100% CPU** — this is the root cause of your fan noise.
 
 Key observations:
+
 - Processes have been running for **35-58+ minutes** at sustained 100% CPU — not a burst
 - All are `www-data` (web server workers), not `root` (not startup/config)
 - Memory per process is normal (~61-71 MB RES), so it's **not a memory leak**
@@ -30,6 +31,7 @@ Key observations:
 ## Diagnose Now
 
 Check what requests are actively being served:
+
 ```bash
 # See open connections and what URLs are being hit
 sudo apachectl status          # or /server-status if mod_status enabled
@@ -44,6 +46,7 @@ sudo awk '{print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -rn | 
 ```
 
 Check if it's a PHP script looping:
+
 ```bash
 # See what each worker is actually executing
 sudo ls -la /proc/$(pgrep -f apache2 | head -1)/fd | grep php
@@ -56,6 +59,7 @@ sleep 3 && sudo kill %1
 ## Quick Mitigation
 
 If it's a DDoS:
+
 ```bash
 # Block top offending IPs
 sudo ufw deny from <attacker-ip>

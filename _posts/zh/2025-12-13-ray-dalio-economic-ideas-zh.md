@@ -17,7 +17,9 @@ type: note
 桥水基金（Bridgewater Associates）创始人瑞·达利欧（Ray Dalio）主要通过他的作品《经济机器是怎样运行的》（一个30分钟的视频解释）、《应对大型债务危机》（Principles for Navigating Big Debt Crises）和《国家如何破产：大周期》（How Countries Go Broke: The Big Cycle）来阐述他对债务和经济的看法。尽管他的许多观点与历史经济模式相符，但有些观点被认为是反主流或非主流的，因为它们挑战了对持续债务增长、仅靠货币政策的有效性以及当前财政路径（例如美国的财政路径）可持续性的主流乐观情绪。
 
 ### 核心框架：经济如何运行
+
 达利欧将经济描述为一个由交易驱动的简单机器，一个人的支出是另一个人的收入。关键驱动力包括：
+
 - **生产力增长**：财富的长期驱动力（稳定但缓慢）。
 - **短期债务周期**：持续5-8年；央行通过调整利率来管理繁荣和衰退。
 - **长期债务周期**：持续75-100年；债务积累到不可持续，导致重大危机（“大型债务危机”）。
@@ -25,6 +27,7 @@ type: note
 信用是核心：当信用被用于生产性用途时，它能放大增长；但当信用过度扩张时，它会制造泡沫。债务本身并非坏事——如果它资助能产生收入的投资，那就是好的；但当它资助无法偿还的消费时，那就是坏的。
 
 ### 潜在的非主流或反主流观点
+
 1. **不可持续的债务 inevitably 导致重大危机**
    高债务水平（例如，美国债务占GDP比重超过120%）将导致债务购买者出现“供需失衡”。国内外投资者可能停止借贷，迫使利率升高或货币化，从而导致货币贬值或危机。达利欧警告称，美国正接近“经济心脏病发作”，届时利息支付将挤占生产性支出。
 
@@ -43,8 +46,9 @@ type: note
 这些观点在乐观派（例如，一些MMT倡导者或主张无休止借贷的政策制定者）看来是“非主流”的，因为它们强调了限制和历史性痛苦的必然性，而不是通过债务实现永无止境的增长。批评者（例如，一些经济学家）认为，他的警告忽视了美元的独特地位或过度依赖历史类比。
 
 参考文献：
-- https://www.principles.com/big-debt-crises
-- https://economicprinciples.org/
-- https://fortune.com/2025/07/24/ray-dalio-billionaire-economy-national-debt-economic-heart-attack-crisis/
-- https://www.businessinsider.com/ray-dalio-us-debt-crisis-bridgewater-economy-billionaires-interest-payments-2025-8
-- https://www.npr.org/2025/10/23/nx-s1-5563827/its-really-a-political-problem-ray-dalio-on-the-u-s-debt-crisis
+
+- <https://www.principles.com/big-debt-crises>
+- <https://economicprinciples.org/>
+- <https://fortune.com/2025/07/24/ray-dalio-billionaire-economy-national-debt-economic-heart-attack-crisis/>
+- <https://www.businessinsider.com/ray-dalio-us-debt-crisis-bridgewater-economy-billionaires-interest-payments-2025-8>
+- <https://www.npr.org/2025/10/23/nx-s1-5563827/its-really-a-political-problem-ray-dalio-on-the-u-s-debt-crisis>

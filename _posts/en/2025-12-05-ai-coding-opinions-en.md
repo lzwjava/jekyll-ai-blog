@@ -17,6 +17,7 @@ Answer:
 Unpopular opinions about AI coding tools like Anthropic's Claude Code and OpenAI's Codex often highlight the gap between hype and real-world use, especially for complex projects. These views come from developers and users who've tested them extensively, revealing frustrations with reliability, usability, and overpromising. Below, I've compiled key unpopular takes, grouped by tool, based on community discussions. These challenge the narrative that AI is a full replacement for human coders.
 
 ### Unpopular Opinions on Claude Code
+
 - **It's overhyped and only shines for "vibe coders" who don't understand real engineering**: Many argue Claude Code excels at quick prototypes but fails on maintainable, large-scale codebases, producing unreadable or duplicated code. Users who "vibe code" (prompt vaguely without structure) love it, but experienced devs see it as a junior-level tool that ignores best practices like TDD or clean architecture.
 - **The terminal UX is clunky and inferior to IDE integrations like Cursor or Copilot**: Despite Claude's strong models, its code tool feels outdated—buggy file handling, poor plan mode, and no seamless inline edits make it frustrating for daily work. Devs prefer embedding Claude's brain in better UIs rather than using the native tool.
 - **It hallucinates too much and requires constant hand-holding, making it slower than manual coding**: Claude often invents non-existent methods, ignores specs, or fixates on syntax over logic, leading to endless debugging loops. It's great for simple tasks but exposes "vibe coders" who build insecure or broken apps without oversight.
@@ -24,6 +25,7 @@ Unpopular opinions about AI coding tools like Anthropic's Claude Code and OpenAI
 - **It's a privacy-respecting local tool, but that's its only edge—it's not revolutionary for non-devs**: While it handles local files without uploads (e.g., batch renaming or contract analysis), the terminal scares off business users. Most shared examples are too technical, limiting broad adoption.
 
 ### Unpopular Opinions on OpenAI Codex
+
 - **It's unusable for real codebases despite the hype—feels like a rushed competitor to Claude**: Lags, context limits, and poor error handling make it borderline ineffective for nontrivial work. Devs switch back to Claude after one try, calling it "anti-open-source" for its closed nature and half-baked CLI.
 - **Privacy nightmare: Your code trains their models without clear safeguards**: Enterprise users balk at the risk of proprietary code leaking into training data. No on-prem options or audit trails kill trust, especially at $200/month—it's a dealbreaker for pros guarding IP.
 - **Async features are transcendent for solos, but it's gated behind limits and feels early-stage**: The swarm-like parallel tasks crush backlogs, but no network access blocks dependency updates or builds, and UX lacks GitHub sync. It's powerful yet limiting, better for hype than production.
@@ -33,6 +35,7 @@ Unpopular opinions about AI coding tools like Anthropic's Claude Code and OpenAI
 Overall, these opinions underscore that AI coding tools amplify skilled users but expose weaknesses in prompting, context management, and integration. They're accelerators, not automators—success depends more on human oversight than the tool itself.
 
 References:
+
 - [r/ClaudeAI: Are people actually getting bad code from claude?](https://www.reddit.com/r/ClaudeAI/comments/1m6ienr/are_people_actually_getting_bad_code_from_claude/)
 - [r/ClaudeAI: Most of the people complaining about Claude likely are no code programmers](https://www.reddit.com/r/ClaudeAI/comments/1fqs6py/most_of_the_people_complaining_about_claude/)
 - [r/ClaudeAI: My hot take: the code produced by Claude Code isn't good enough](https://www.reddit.com/r/ClaudeAI/comments/1m4t7qk/my_hot_take_the_code_produced_by_claude_code_isnt/)

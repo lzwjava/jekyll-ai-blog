@@ -236,19 +236,24 @@ if __name__ == '__main__':
    - Be aware of API rate limits and data availability for certain symbols or time periods.
 
 ### Example Output
+
 Assuming the code runs successfully, you might see:
+
 - Console output showing training and validation loss per epoch (e.g., `Epoch 0, Training Loss: 0.1234, Validation Loss: 0.1345`).
 - A plot of training and validation loss over epochs, indicating convergence.
 - A plot comparing predicted vs. actual closing prices for the test set, showing how well the LSTM captures trends.
 
 ### Next Steps
+
 - **Enhance Features**: Incorporate technical indicators (e.g., MACD, Bollinger Bands) or sentiment data from X posts (if available via search).
 - **Backtesting**: Test the LSTM predictions in a simulated trading environment using historical data to evaluate profitability.
 - **Trading Integration**: Use the `place_order` function to execute trades based on LSTM predictions, with proper risk management.
 - **Hyperparameter Tuning**: Experiment with `sequence_length`, `hidden_size`, `num_layers`, and learning rate to optimize performance.
 
 ### Would It Work?
+
 Yes, combining historical stock data with an LSTM for analysis is a viable approach, widely used in algorithmic trading. However, success depends on:
+
 - Sufficient and clean data.
 - Proper preprocessing and feature engineering.
 - A well-tuned LSTM model.

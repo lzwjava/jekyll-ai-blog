@@ -15,6 +15,7 @@ HikariCP (HikariDataSource) 是 `javax.sql.DataSource` 接口的一项 **具体�
 ## javax.sql.DataSource
 
 这是一个 **标准 Java 接口** (JDBC 的一部分)，代表了数据库连接的工厂。它仅仅是一个定义了如下方法的契约 (contract)：
+
 - `getConnection()` - 获取数据库连接
 - `getConnection(String username, String password)` - 使用凭据获取连接
 

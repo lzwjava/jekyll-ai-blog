@@ -14,9 +14,11 @@ It's an 89-line script that does three things: build the model, encode your prom
 ## 1. Config + setup (`sample.py:11–32`)
 
 Lines 12–22 declare defaults as plain module-level variables (`init_from`, `start`, `num_samples`, `temperature`, `top_k`, etc.). Then line 23 does the magic:
+
 ```python
 exec(open('configurator.py').read())   # overrides from command line
 ```
+
 This runs `configurator.py` which walks `sys.argv` and overwrites those globals with your `--init_from=gpt2-xl --start="Hello, my name is" ...` flags. That's why you saw `Overriding: init_from = gpt2-xl` in the log.
 
 Lines 26–32 set the RNG seed, enable TF32 matmul (free speedup), and set up an `autocast(bfloat16)` context — every forward pass inside `with ctx:` runs in bf16 while keeping master weights in fp32.
@@ -29,6 +31,7 @@ Two paths depending on `init_from`:
 - `gpt2*` → call `GPT.from_pretrained('gpt2-xl', dict(dropout=0.0))` at line 49.
 
 That second path lives in `model.py:228–283`. It:
+
 1. Picks the right `n_layer/n_head/n_embd` from a hardcoded dict (`model.py:238–243`). For `gpt2-xl`: **48 layers, 25 heads, 1600 embed dim, 1.5B params**.
 2. Builds an **empty nanoGPT** with those dims.
 3. Downloads HuggingFace's `GPT2LMHeadModel.from_pretrained('gpt2-xl')` weights (this is the 6.5 GB you just downloaded).
@@ -39,11 +42,13 @@ Then `model.eval()` (disables dropout) and `model.to(device)` — done.
 ## 3. Tokenizer (`sample.py:56–74`)
 
 Since you used `gpt2-xl` (not `resume`), it falls into the `else` branch at line 70:
+
 ```python
 enc = tiktoken.get_encoding("gpt2")
 encode = lambda s: enc.encode(s, ...)
 decode = lambda l: enc.decode(l)
 ```
+
 `tiktoken` is OpenAI's fast Rust BPE tokenizer. `"Hello, my name is"` → `[15496, 11, 616, 1438, 318]` (5 tokens).
 
 ## 4. Encode prompt (`sample.py:77–81`)
@@ -52,6 +57,7 @@ decode = lambda l: enc.decode(l)
 start_ids = encode(start)
 x = (torch.tensor(start_ids, dtype=torch.long, device=device)[None, ...])
 ```
+
 Shape: `(1, 5)` — batch of one, sequence of 5 tokens. This goes to the GPU.
 
 ## 5. The generation loop (`sample.py:84–89` → `model.py:327–352`)
@@ -79,6 +85,7 @@ idx = torch.cat((idx, idx_next), dim=1)              # append, repeat
 This is **autoregressive sampling**: at each step the model sees everything generated so far, predicts a distribution over the ~50K vocab tokens for the *next* token, samples one, appends, repeats.
 
 The two knobs that matter:
+
 - **`temperature=0.8`** — divides logits before softmax. <1.0 sharpens the distribution (more conservative); >1.0 flattens it (more random).
 - **`top_k=200`** — at each step, keep only the 200 highest-probability tokens, zero out the rest. Prevents low-probability garbage from being sampled.
 
@@ -91,6 +98,7 @@ It's **not** because nanoGPT is doing anything clever — `sample.py` is a textb
 **1. GPT-2 XL is genuinely strong for its era.** It's 1.5B params trained on ~40GB of web text (WebText) for ~300B tokens. It learned English syntax, topic coherence over a few hundred tokens, and a lot of world knowledge. Your prompt `"Hello, my name is"` lands in a region of the distribution that the model has seen *millions* of times — personal blog posts, forum intros, bios — so it has very confident, well-shaped continuations.
 
 **2. Your sampling settings are well-tuned.**
+
 - `temperature=0.8` is the sweet spot. At 1.0 the model gets wild; at 0.5 it gets repetitive. 0.8 keeps it interesting but coherent.
 - `top_k=200` filters out the tail of nonsense tokens without forcing greediness.
 - That's why each sample is *different* (it's stochastic) but each one *holds together* (no random-word salad).

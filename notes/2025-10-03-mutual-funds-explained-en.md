@@ -12,7 +12,8 @@ type: note
 
 A mutual fund is an investment vehicle that pools money from many investors to buy a diversified portfolio of stocks, bonds, money market instruments, or other securities. It's essentially a "group investment" managed by professional fund managers who aim to generate returns based on the fund's objectives (like growth, income, or a mix).
 
-### How it works:
+### How it works
+
 - **Pooling resources**: You buy shares in the fund, and your money is combined with others' to create a larger pot for investing.
 - **Diversification**: This spreads risk across many assets, so you're not putting all your eggs in one basket.
 - **Types**: Common ones include equity funds (stock-focused), bond funds (debt-focused), index funds (track market benchmarks like the S&P 500), and balanced funds (a mix).

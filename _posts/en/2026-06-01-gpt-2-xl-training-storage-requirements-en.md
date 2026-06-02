@@ -23,6 +23,7 @@ bfloat16: 1.5B × 2 bytes = 3GB per checkpoint
 ```
 
 With optimizer states (AdamW stores 2 momentum terms):
+
 ```
 float32 model + AdamW:
   params:          6GB

@@ -18,6 +18,7 @@ Julia 的开发始于 2009 年，由麻省理工学院的 Jeff Bezanson、Stefan
 早期版本迭代迅速，语法和语义在 2018 年 8 月发布的 1.0 版本趋于稳定，该版本承诺 1.x 系列的向后兼容性。在 0.7 版本（2018 年作为 1.0 的过渡版本发布）之前，语言特性频繁变更。此后 Julia 保持稳定发布节奏，包括长期支持版本（如 1.6，后被 1.10.5 取代）和持续改进。
 
 重要里程碑包括：
+
 - Julia 1.7（2021 年 11月）：更快的随机数生成
 - Julia 1.8（2022年）：改进的编译程序分发机制
 - Julia 1.9（2023 年 5月）：增强的包预编译功能
@@ -30,6 +31,7 @@ Julia 社区显著壮大，GitHub 贡献者超千人。2014 年成为 NumFOCUS �
 ## 核心特性
 
 Julia 凭借其注重性能、灵活性与可用性的设计原则脱颖而出：
+
 - **多重分派**：核心范式，函数行为由所有参数类型共同决定，实现高效可扩展的多态代码，取代传统面向对象继承模式
 - **动态类型与类型推断**：动态类型语言但通过类型推断提升性能，支持可选类型标注，采用名义化、参数化的强类型系统，万物皆对象
 - **即时编译**：运行时编译为原生机器码，使 Julia 在多项基准测试中达到 C 语言速度
@@ -47,6 +49,7 @@ Julia 同样支持通用编程，包括 Web 服务器、微服务，甚至通过
 Julia 专为科学与数值计算"从头打造"，解决了需要先用慢速高级语言编写原型再改用快速语言重写的"双语言问题"。其速度可媲美 Fortran 或 C，同时保持类似 MATLAB 或 Python 的语法，特别适合模拟仿真、优化和数据分析。
 
 核心优势：
+
 - **性能表现**：基准测试显示 Julia 在数值任务中性能超越 Python 和 R，通常有数量级优势，这得益于 JIT 编译和类型特化
 - **生态系统**：超万款软件包，包括：
   - DifferentialEquations.jl 用于求解常微分方程/偏微分方程
@@ -66,11 +69,13 @@ Julia 语法简洁、基于表达式，对 Python、MATLAB 或 R 用户而言十
 基础示例：
 
 ### Hello World
+
 ```julia
 println("Hello, World!")
 ```
 
 ### 定义函数
+
 ```julia
 function square(x)
     return x^2  # ^ 表示乘方
@@ -80,6 +85,7 @@ println(square(5))  # 输出：25
 ```
 
 ### 矩阵运算
+
 ```julia
 A = [1 2; 3 4]  # 2x2 矩阵
 B = [5 6; 7 8]
@@ -89,6 +95,7 @@ println(C)  # 输出：[19 22; 43 50]
 ```
 
 ### 循环与条件判断
+
 ```julia
 for i in 1:5
     if i % 2 == 0
@@ -100,7 +107,9 @@ end
 ```
 
 ### 绘图（需 Plots.jl 包）
+
 在 REPL 中安装包：`using Pkg; Pkg.add("Plots")`
+
 ```julia
 using Plots
 x = range(0, stop=2π, length=100)
@@ -109,6 +118,7 @@ plot(x, y, label="sin(x)", xlabel="x", ylabel="y")
 ```
 
 ### 多重分派示例
+
 ```julia
 greet(::Int) = "你好，整数！"
 greet(::String) = "你好，字符串！"
@@ -122,6 +132,7 @@ println(greet("Hi"))  # 输出：你好，字符串！
 ## 安装指南
 
 Julia 支持 Windows、macOS、Linux 和 FreeBSD 系统。可从官网下载预编译二进制文件，例如：
+
 - 运行安装程序并将 Julia 添加到 PATH 环境变量
 - 在终端使用 `julia` 命令启动 REPL 管理软件包
 详细说明请参阅：支持平台包括 x86-64、ARM 等架构
@@ -129,6 +140,7 @@ Julia 支持 Windows、macOS、Linux 和 FreeBSD 系统。可从官网下载预�
 ## 社区与资源
 
 Julia 拥有活跃包容的社区，贡献者超千人。资源包括：
+
 - Discourse 论坛、Zulip 聊天室、Slack、Twitter（@JuliaLanguage）、YouTube 频道、LinkedIn 和 Twitch 直播
 - 年度 JuliaCon 大会
 - 官方文档：docs.julialang.org

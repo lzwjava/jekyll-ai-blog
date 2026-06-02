@@ -17,6 +17,7 @@ Tencent's Hunyuan represents a flagship suite of advanced AI models developed by
 Hunyuan's core strength lies in its efficiency and scalability, leveraging architectures like Mixture-of-Experts (MoE) for high performance with lower computational demands. It excels in long-context processing (up to 256K tokens), complex reasoning, and cross-modal tasks, making it ideal for enterprise workflows, creative tools, and consumer apps. Benchmarks consistently place Hunyuan models at or near the top of open-source leaderboards, often rivaling or surpassing global leaders like GPT-4.5 and Google's Imagen 3 in speed, accuracy, and versatility—particularly in Chinese-language and multimodal domains.
 
 #### Key Models and Recent 2025 Releases
+
 Hunyuan's portfolio spans dense LLMs, MoE variants, and specialized multimodal tools. Here's a breakdown of standout models, with emphasis on 2025 advancements:
 
 - **Hunyuan-A13B (Core LLM, Released 2024, Updated 2025)**: A lightweight MoE powerhouse with 80 billion total parameters but only 13 billion active during inference, enabling 3x faster processing via grouped query attention (GQA) and quantization support. It shines in mathematics, science, coding, and logical reasoning, achieving competitive scores on benchmarks like MMLU and GSM8K. Ideal for edge deployment and ecosystem integrations.
@@ -39,7 +40,9 @@ Hunyuan's portfolio spans dense LLMs, MoE variants, and specialized multimodal t
   - **HunyuanWorld-1.0 (July 2025)**: First open-source simulation-capable 3D world generator, creating immersive environments for VR/AR and simulations.
 
 #### Capabilities and Benchmarks
+
 Hunyuan models are engineered for breadth and depth:
+
 - **Reasoning and Language**: Superior in math (e.g., MATH benchmark), coding (HumanEval), and science (SciQ), with Hunyuan-T1 and -A13B often matching o1-level performance.
 - **Multimodal**: Seamless fusion of text, images, video, and 3D; e.g., Image 3.0 excels in photorealism and complex compositions.
 - **Efficiency**: MoE designs reduce costs; TurboS and A13B enable deployment on consumer hardware.
@@ -47,11 +50,13 @@ Hunyuan models are engineered for breadth and depth:
 Overall, Hunyuan ranks highly among China's open models (e.g., via C-Eval and CMMLU), with global parity in arenas like LMArena and Hugging Face Open LLM Leaderboard.
 
 #### Open-Source Ecosystem and Integrations
+
 Tencent has fully committed to open-sourcing Hunyuan, releasing inference code, model weights, and even training pipelines for commercial use. This has fostered a vibrant community, with models like Hunyuan3D-2.1 and Image 3.0 seeing rapid adoption. Integrations span Tencent's empire: powering WeChat's Yuanbao AI chatbot, Tencent Cloud's ADP3.0 for enterprise AI, and global tools for content creation. In September 2025, Tencent rolled out scenario-based AI capabilities worldwide, accelerating industrial efficiency in sectors like gaming, e-commerce, and media.
 
 As of October 2025, Hunyuan continues to evolve, with teasers for even larger unified models. Its blend of power, openness, and practicality positions it as a go-to for developers and businesses navigating the AI landscape.
 
 #### References
+
 - [Tencent Announces Global Rollout of Scenario-Based AI Capabilities](https://www.tencent.com/en-us/articles/2202183.html)
 - [Tencent Hunyuan Image 3.0 Complete Guide](https://dev.to/czmilo/tencent-hunyuan-image-30-complete-guide-in-depth-analysis-of-the-worlds-largest-open-source-57k3)
 - [Tencent's Hunyuan-Large-Vision Sets a New Benchmark](https://the-decoder.com/tencents-hunyuan-large-vision-sets-a-new-benchmark-as-chinas-leading-multimodal-model/)

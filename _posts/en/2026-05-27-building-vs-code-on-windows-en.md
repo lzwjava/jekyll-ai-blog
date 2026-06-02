@@ -52,9 +52,10 @@ npm run watch      # or: incremental dev mode
 ```
 
 **Or to skip the native tools check** (if you only need TypeScript compilation, not a full Electron build):
+
 ```
 set VSCODE_SKIP_NODE_VERSION_CHECK=1
 npm install
 ```
 
-The official full guide lives on the wiki: https://github.com/microsoft/vscode/wiki/How-to-Contribute — but the 4 tools above (Node, npm, Python, VS Build Tools) are the essentials. No separate Java, Rust, or Go needed for the main build.
+The official full guide lives on the wiki: <https://github.com/microsoft/vscode/wiki/How-to-Contribute> — but the 4 tools above (Node, npm, Python, VS Build Tools) are the essentials. No separate Java, Rust, or Go needed for the main build.

@@ -78,12 +78,15 @@ MCP server 或 hook timeouts 可能会发送中断信号，导致 API response �
 ## 中断时该怎么办
 
 ### 选项 1：从 Checkboxes 恢复
+
 当 session 中断时如果任务已部分完成，Plan 中未勾选的 checkboxes 是下一个 session 知道从何处恢复的唯一方式。勾选它们是状态日志（state log），而不仅仅是形式。
 
 只需告诉 Claude：**"Continue from where you left off — pick up at 'Propose approaches'"**
 
 ### 选项 2：将任务分解为较小的部分
+
 不要让 Superpowers 一口气运行完整的 pipeline，而是手动触发每个阶段：
+
 ```
 /brainstorming   ← 运行这个，等待它完成
 然后
@@ -91,10 +94,12 @@ MCP server 或 hook timeouts 可能会发送中断信号，导致 API response �
 ```
 
 ### 选项 3：减轻 Context 负载
+
 - 保持 `CLAUDE.md` 在 20K 字符以内
 - 在进行长时间的 Superpowers session 之前禁用不使用的 MCP servers
 
 ### 选项 4：增加 Timeout 设置
+
 ```bash
 # 为 session hooks 设置更高的 timeout
 CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS=30000 claude

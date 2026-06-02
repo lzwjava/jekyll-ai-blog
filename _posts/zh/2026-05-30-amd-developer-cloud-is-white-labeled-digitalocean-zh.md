@@ -61,6 +61,7 @@ droplets = manager.get_all_droplets()  # 列出您的 MI300X Droplet
 ```
 
 `doctl` 同样适用：
+
 ```bash
 doctl auth init --access-token $AMD_DEV_CLOUD_API_KEY
 doctl compute droplet list

@@ -83,6 +83,7 @@ top_k_indices = argsort(scores)[-k:]
 ```
 
 Why ReLU instead of softmax for indexing?
+
 - Softmax normalizes, which means low scores can still "win" in a sparse field. ReLU naturally zeros out irrelevant blocks — if the dot product is negative, the block is simply excluded.
 - FP4 is enough precision to rank blocks, not to compute final attention weights. The indexer is a **coarse filter**, not the attention mechanism itself.
 - This runs extremely fast — FP4 dot products on modern hardware (H100, MI300X) are 2-4x cheaper than FP8, and 4-8x cheaper than bf16.
@@ -139,6 +140,7 @@ This interleaving is principled: different layers develop different attention pa
 At 1M tokens, DeepSeek-V4-Pro requires 27% of single-token inference FLOPs compared with DeepSeek-V3.2, and 10% of the KV cache memory. V4-Flash drops these to 10% of the FLOPs and 7% of the KV cache. Compared against grouped query attention with 8 heads in bfloat16, DeepSeek-V4 requires roughly 2% of the cache size.
 
 The 2% KV cache figure compounds from three independent multipliers:
+
 - **4x** from CSA sequence compression
 - **~4x** from FP8 vs bf16 storage
 - **~4x** from sparse selection (only materializing top-k blocks)

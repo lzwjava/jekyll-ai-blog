@@ -15,10 +15,12 @@ type: note
 **通常情况下，是否能立即获得结果取决于表单创建者的配置：**
 
 **在以下情况下，你可能无法立即获得评分：**
+
 - 表单设置为人工审核（manual review）
 - 这是一个没有配置答案解析（answer keys）的练习测试
 
 **在以下情况下，你会立即获得结果：**
+
 - 表单创建者将其设置为 Google Forms 中的 "Quiz"
 - 他们配置了答案解析（answer keys）和分值
 - 他们启用了 "Release score immediately after submission" 选项

@@ -27,6 +27,7 @@ PPP adjusts for cost differences to compare living standards across countries. H
 - **2000s (for context, as data overlaps century end)**: PPP over GDP was 5.87–6.05 HKD per international dollar (2006–2010). GDP per capita PPP averaged ~$50,651 USD from 1990–2000.
 
 By the end of the century, Hong Kong's PPP-adjusted GDP per capita ranked among the world's highest (~12th globally by 2000), indicating strong purchasing power despite high costs. For informal PPP measures (e.g., Big Mac Index as a proxy for consumer goods):
+
 - In 1995, a Big Mac cost $9.50 HKD in Hong Kong vs. $2.32 USD in the US, implying a PPP rate of ~4.10 HKD/USD (vs. actual exchange ~7.80 HKD/USD), showing the HKD was undervalued nominally but goods were relatively affordable locally.
 
 ### Cost of Coca-Cola or a Normal Street Dinner

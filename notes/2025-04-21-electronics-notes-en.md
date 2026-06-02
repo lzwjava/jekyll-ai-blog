@@ -86,6 +86,7 @@ The voltage across the capacitor \\( V(t) \\) as a function of time \\( t \\) is
 - **\\( RC \\)**: The time constant, which determines how quickly the capacitor charges or discharges.
 
 **Understanding the Equation**:
+
 - When the switch is closed (at \\( t = 0 \\)), the capacitor begins to charge.
 - The term \\( (1 - e^{-\frac{t}{RC}}) \\) represents the charging curve. Initially, the voltage across the capacitor is zero, and it gradually increases to \\( V_0 \\) as time progresses.
 - The time constant \\( RC \\) indicates the time it takes for the capacitor to charge to approximately 63.2% of the applied voltage. After about 5 time constants, the capacitor is considered fully charged.
@@ -107,6 +108,7 @@ The current through the inductor \\( I(t) \\) as a function of time \\( t \\) is
 - **\\( L/R \\)**: The time constant, which determines how quickly the inductor's magnetic field builds up or collapses.
 
 **Understanding the Equation**:
+
 - When the switch is closed (at \\( t = 0 \\)), the inductor begins to allow current to flow.
 - The term \\( (1 - e^{-\frac{t}{L/R}}) \\) represents the current build-up curve. Initially, the current is zero, and it gradually increases to \\( I_0 \\) as time progresses.
 - The time constant \\( L/R \\) indicates the time it takes for the current to reach approximately 63.2% of its maximum value. After about 5 time constants, the current is considered to have reached its steady-state value.
@@ -121,6 +123,7 @@ The time constant is a crucial concept in both RC and RL circuits. It indicates 
 ### Visualizing the Transient Behavior
 
 Imagine the following:
+
 - For an RC circuit, think of the capacitor as a bucket being filled with water (charge). The resistor controls the flow rate (current). The time constant \\( RC \\) determines how quickly the bucket fills up.
 - For an RL circuit, think of the inductor as a flywheel that takes time to spin up to speed (current). The resistor provides friction, slowing down the spin-up process. The time constant \\( L/R \\) determines how quickly the flywheel reaches its maximum speed.
 
@@ -133,11 +136,13 @@ Bipolar Junction Transistors (BJTs) are fundamental components in electronics, w
 ### Structure of a BJT
 
 A BJT has three terminals:
+
 1. **Base (B)**: Controls the current flow between the other two terminals.
 2. **Collector (C)**: Collects the majority of the current flowing through the transistor.
 3. **Emitter (E)**: Emits electrons into the base and is the terminal through which the majority of the current exits the transistor.
 
 BJTs come in two types:
+
 - **NPN**: The majority carriers are electrons.
 - **PNP**: The majority carriers are holes.
 
@@ -176,6 +181,7 @@ The characteristic curves of a BJT show the relationship between the collector c
 ### Understanding BJT Behavior
 
 To visualize the behavior of a BJT, imagine a water tap where the base current acts like the handle:
+
 - A small turn of the handle (base current) allows a large flow of water (collector current) to pass through the tap.
 - The amount of water flowing (collector current) is much larger than the effort needed to turn the handle (base current), illustrating the amplification effect.
 
@@ -186,11 +192,13 @@ By understanding these concepts, you can analyze and design circuits that utiliz
 To express the given current \\( i = 12 \sin(\omega t - 45^\circ) \\) A in polar coordinate form, we interpret it as a sinusoidal signal, which can be represented as a phasor in the frequency domain.
 
 The general form of a sinusoidal current is \\( i(t) = I_m \sin(\omega t + \phi) \\), where:
+
 - \\( I_m \\) is the amplitude (maximum value),
 - \\( \omega \\) is the angular frequency,
 - \\( \phi \\) is the phase angle.
 
 For the given current \\( i = 12 \sin(\omega t - 45^\circ) \\):
+
 - The amplitude \\( I_m = 12 \\) A,
 - The phase angle \\( \phi = -45^\circ \\).
 
@@ -200,7 +208,8 @@ In polar coordinate form (phasor notation), a sinusoidal signal is represented a
 12 \angle -45^\circ
 \\]
 
-### Explanation:
+### Explanation
+
 - **Magnitude**: The coefficient 12 is the peak value of the sine wave, so the magnitude is 12 A.
 - **Phase**: The phase angle is \\(-45^\circ\\), indicating the sine wave is shifted by \\(-45^\circ\\) (or lagging by 45° relative to the reference).
 - The polar form omits the time-dependent part (\\(\omega t\\)) and frequency (\\(\omega\\)) because phasor notation focuses on amplitude and phase for a given frequency.
@@ -223,12 +232,14 @@ Each minterm is true (1) only for its specific input combination and false (0) f
 
 In logic circuits and digital design, a **sum-of-products** (SOP) is a standard way to express a Boolean function as a logical OR (sum) of multiple AND (product) terms, where each AND term is a **minterm** or a product of input variables (or their complements).
 
-### Explanation:
+### Explanation
+
 - **Product Term**: Each product term is an AND operation involving all input variables, either in their true form (e.g., A) or complemented form (e.g., A'). For example, for inputs A, B, and C, a product term could be A·B'·C (where A=1, B=0, C=1).
 - **Sum**: The product terms are combined using OR operations to form the complete function. The result is 1 if any of the product terms is 1.
 - **Minterms in SOP**: In its canonical form, each product term is a minterm, which corresponds to a specific row in the truth table where the function outputs 1. For example, if a function F(A, B, C) is 1 for the input combinations (A=1, B=0, C=1) and (A=0, B=1, C=1), the SOP expression would be F = A·B'·C + A'·B·C.
 
-### Example:
+### Example
+
 For a truth table with inputs A, B, and output F:
 
 | A | B | F |
@@ -239,12 +250,14 @@ For a truth table with inputs A, B, and output F:
 | 1 | 1 | 0 |
 
 The SOP expression for F is derived from rows where F=1:
+
 - Row (A=0, B=1): A'·B
 - Row (A=1, B=0): A·B'
 
 Thus, F = A'·B + A·B'.
 
-### Use in Digital Design:
+### Use in Digital Design
+
 - SOP expressions are used to implement logic circuits using AND gates (for product terms) and OR gates (to sum the products).
 - They can be simplified using techniques like Karnaugh maps or Boolean algebra to reduce the number of gates needed.
 

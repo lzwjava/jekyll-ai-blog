@@ -13,6 +13,7 @@ type: note
 Here's a breakdown of what this nanoGPT training run will **require** based on your exact config and hardware (RTX 4070 12GB assumed from the run name) and log.
 
 ### Tokens Processed
+
 - Tokens per iteration → 524,288 (16 sequences × 1024 context × 32 grad_acc)
 - max_iters → 20,000
 - **Total tokens seen** → 524,288 × 20,000 = **10.486 billion tokens** (~10.5B)
@@ -20,6 +21,7 @@ Here's a breakdown of what this nanoGPT training run will **require** based on y
 This is roughly 2.5–3× more than the original GPT-2 124M was trained on and very close to the 10B-token FineWeb-Edu subset many people use today to beat original GPT-2 performance.
 
 ### Compute (FLOPs)
+
 Your model has **40.56M parameters** (a bit smaller than the usual 124M/125M GPT-2 because n_embd=384 instead of 768).
 
 Rough transformer FLOPs estimate (6 × params × batch × seqlen per iteration, forward+backward):
@@ -29,6 +31,7 @@ Rough transformer FLOPs estimate (6 × params × batch × seqlen per iteration, 
 That is normal for a decent run on a ~40–125M model to ~10–11B tokens.
 
 ### Expected Wall-Clock Time on Your RTX 4070
+
 The first iteration took ~32 seconds because PyTorch was compiling the model (normal, happens once).
 
 After compilation, iteration times for a ~40–85M model on an RTX 4070 with torch.compile, flash-attention, and this batch size typically settle to **2.5 – 4.5 seconds per iteration** (often ~3–3.5 s/iter once warmed up).
@@ -45,6 +48,7 @@ So for 20,000 iterations:
 Most people running similar 85M–125M models on a 4070/4070 Ti report **15–22 hours** for ~10–11B tokens, so expect your run (slightly smaller model) to finish in **15–20 hours** of continuous training.
 
 ### GPU Memory (VRAM)
+
 Your config fits very comfortably in 12 GB:
 
 - Model ~40–45M params in fp16/bf16 ≈ 80–90 MB
@@ -52,11 +56,13 @@ Your config fits very comfortably in 12 GB:
 - You will see ~10–11.5 GB VRAM used → perfectly safe on a 4070/4070 Ti/4070 Super, no OOM.
 
 ### Electricity / Cost (if you care)
+
 RTX 4070 draws ≈ 180–220 W under full load here.
 
 20 hours × 200 W average = ~4 kWh → roughly $0.50–$1.00 USD depending on your electricity price.
 
 ### Summary – How much does this train “need”?
+
 - **Data** — Your ~3.68B-token FineWeb subset will be seen ≈ 2.85× (10.5B / 3.68B)
 - **Compute** — ~2.5 PFLOPs, 10.5 billion tokens
 - **Time on RTX 4070** — 15–20 hours (will finish sometime tomorrow morning/afternoon if you let it run overnight)

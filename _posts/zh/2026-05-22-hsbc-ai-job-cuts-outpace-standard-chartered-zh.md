@@ -53,6 +53,7 @@ type: note
 被自动化的具体用例——如反洗钱交易监控中的误报减少、合规文档审查、内部报告——正是你作为全球银行AI工程师将要构建的系统。被裁减的岗位编制*资助*了AI工程预算。你不仅与这一趋势相邻，更是资源重新配置的直接受益者。
 
 **参考资料：**
+
 - [汇丰计划裁减2万个岗位，将由AI取代 —— American Bazaar](https://americanbazaaronline.com/2026/03/20/hsbc-plans-to-cut-20000-jobs-to-be-taken-by-ai-477270/)
 - [汇丰CEO敦促员工拥抱AI，计划裁减2万个岗位 —— Crypto Briefing](https://cryptobriefing.com/hsbc-ceo-ai-job-cuts/)
 - [随着AI改革推进，汇丰考虑大规模裁员 —— Fox Business](https://www.foxbusiness.com/markets/hsbc-weighs-deep-job-cuts-ai-overhaul-unfolds-report)

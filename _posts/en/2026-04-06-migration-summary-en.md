@@ -17,9 +17,10 @@ The build succeeded. Let me provide a complete summary of the migration:
 
 **Build Status:** `✓ built in 1.21s`
 
-### What Was Done:
+### What Was Done
 
 **Phase 1 - Bootstrap:**
+
 - ✅ Created new Vite + Vue 3 project structure
 - ✅ Installed all dependencies (vue, vue-router, axios, hls.js, weixin-js-sdk, marked, highlight.js, moment, qiniu-js, font-awesome, weui)
 - ✅ Configured vite.config.js with API proxy and @ alias
@@ -27,6 +28,7 @@ The build succeeded. Let me provide a complete summary of the migration:
 - ✅ Copied img/, static/, plupload/ → public/
 
 **Phase 2 - Common Files:**
+
 - ✅ src/common/util.js - All utility functions migrated to ES modules
 - ✅ src/common/api.js - Axios-based API client (replacing vue-resource)
 - ✅ src/common/wechat.js - WeChat SDK integration
@@ -34,26 +36,30 @@ The build succeeded. Let me provide a complete summary of the migration:
 - ✅ src/common/qiniu.js - Qiniu upload placeholder
 
 **Phase 3 - Router & App:**
+
 - ✅ src/router/index.js - Vue Router 4 with all 22 routes
 - ✅ src/App.vue - Root component with overlay/toast system
 - ✅ src/main.js - createApp entry point
 
 **Phase 4 - Components (26 total):**
+
 - ✅ All migrated to Vue 3 `<script setup>` + Composition API
 - ✅ Replaced `$dispatch` events with `defineEmits`
 - ✅ Replaced `this.$router.go()` with `router.push()`
 - ✅ Fixed all Vue 3 compatibility issues
 
 **Phase 5 - Views (22 total):**
+
 - ✅ All migrated to Vue 3 `<script setup>`
 - ✅ HomeView, ListView, LiveView, IntroView, ProfileView, etc.
 
-### Build Warnings (non-blocking):
+### Build Warnings (non-blocking)
+
 - ⚠️ CSS typo: `heigth` should be `height` (in logo.vue)
 - ⚠️ Large chunks: markdown/highlight.js is 976KB - consider code splitting
 - ⚠️ Some relative image paths need `/img/` prefix for public folder
 
-### What Needs Manual Attention:
+### What Needs Manual Attention
 
 1. **LeanCloud Realtime Chat** - LiveView's chat functionality uses LeanCloud Realtime SDK which needs full integration. The simplified version just has empty `sendMsg()`.
 
@@ -71,7 +77,8 @@ The build succeeded. Let me provide a complete summary of the migration:
 
 8. **CSS Property** - Fix typo: `heigth` → `height` in logo.vue
 
-### Files Structure:
+### Files Structure
+
 ```
 live-mobile-web/
 ├── src/

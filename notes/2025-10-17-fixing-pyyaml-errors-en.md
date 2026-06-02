@@ -26,20 +26,25 @@ This output appears to be from a `python setup.py install` or `pip install pyyam
 ### Solutions
 
 #### Fix the Compilation Issue
+
 Install Cython first, then retry the PyYAML installation. This will generate the missing `_yaml.c` file and allow the C extension to build.
 
 - **Using pip (recommended)**:
+
   ```
   pip install cython
   pip install pyyaml
   ```
+
   - If you want the faster C extension with libyaml support (requires system libyaml-dev installed via your package manager, e.g., `sudo apt install libyaml-dev` on Ubuntu/Debian):
+
     ```
     pip install cython libyaml
     pip install --upgrade --force-reinstall --no-cache-dir pyyaml
     ```
 
 - **If using setup.py directly** (not recommended, prefer pip):
+
   ```
   pip install cython
   python setup.py build_ext --inplace
@@ -49,24 +54,30 @@ Install Cython first, then retry the PyYAML installation. This will generate the
 Note: Python 3.13 is relatively new, so ensure you're using the latest Cython (e.g., 3.0.11 or newer) for compatibility. If you're on a free-threaded Python build, there may be additional compilation tweaks needed—check PyYAML's GitHub issues for updates.
 
 #### Fix the Permission Issue
+
 - **Install to user directory** (safest, no sudo needed):
+
   ```
   pip install --user cython pyyaml
   ```
+
   - This installs to `~/.local/lib/python3.13/site-packages`.
 
 - **Use sudo for system-wide install** (use cautiously, as it can conflict with package managers):
+
   ```
   sudo pip install cython pyyaml
   ```
 
 - **Best Practice: Use a Virtual Environment**:
   To avoid permission issues entirely:
+
   ```
   python -m venv myenv
   source myenv/bin/activate  # On Linux/Mac
   pip install cython pyyaml
   ```
+
   This keeps everything isolated.
 
 After installation, test with `python -c "import yaml; print(yaml.__version__)"`. If it imports without errors, you're good.

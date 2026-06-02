@@ -67,7 +67,7 @@ public class Main {
 
 ```
 
-### Key Changes Made:
+### Key Changes Made
 
 * **移除了 `static`：** 字段 `in` 和 `out` 以及 method `solve()` 不再使用 `static` 修饰符。它们现在属于该 class 的特定 instance。
 * **Object Instantiation：** 在 `main` method 中，使用 `new Main().run()` 从 static context 跳转到 instance context。

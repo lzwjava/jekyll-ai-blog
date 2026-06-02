@@ -38,6 +38,7 @@ Add or update the `<proxies>` section in your Maven `settings.xml` file (located
 ```
 
 ### Explanation of the Snippet
+
 - **`<id>`**: Unique identifiers (`http-proxy` and `https-proxy`) for each proxy configuration.
 - **`<active>true</active>`**: Enables the proxy.
 - **`<protocol>`**: Set to `http` for the HTTP proxy and `https` for the HTTPS proxy, matching your `checkproxy` output.
@@ -47,6 +48,7 @@ Add or update the `<proxies>` section in your Maven `settings.xml` file (located
 - **No `<username>` or `<password>`**: Since your proxy output doesn’t indicate authentication, these fields are omitted. If authentication is required, add them with your credentials.
 
 ### Steps to Apply
+
 1. **Open `settings.xml`**:
    - If `~/.m2/settings.xml` exists, edit it (e.g., `nano ~/.m2/settings.xml`).
    - If it doesn’t exist, create it or edit the global file at `/usr/share/maven/conf/settings.xml` (requires `sudo`).
@@ -58,7 +60,9 @@ Add or update the `<proxies>` section in your Maven `settings.xml` file (located
 3. **Save and Close** the file.
 
 ### Verify the Configuration
+
 Run a Maven command that requires internet access to confirm the proxy is used:
+
 ```bash
 cd ~/Projects/blog-server
 mvn -X clean checkstyle:check
@@ -67,6 +71,7 @@ mvn -X clean checkstyle:check
 In the debug output (`-X`), look for lines indicating Maven is using the proxy (e.g., connections to `127.0.0.1:7890`). If the command downloads dependencies or completes without network errors, the proxy is working.
 
 ### Troubleshooting
+
 - **Proxy Not Working**:
   - Ensure the proxy server at `127.0.0.1:7890` is running (e.g., test with `curl -x http://127.0.0.1:7890 https://repo.maven.apache.org`).
   - Check for typos in the `settings.xml` file.
@@ -75,13 +80,16 @@ In the debug output (`-X`), look for lines indicating Maven is using the proxy (
   - If using the global file, ensure you edited `/usr/share/maven/conf/settings.xml` correctly.
 - **Authentication Required**:
   - If your proxy requires a username and password, add:
+
     ```xml
     <username>yourusername</username>
     <password>yourpassword</password>
     ```
+
     to each `<proxy>` block.
 
 ### Note on Previous Context
+
 Your `checkstyle:check` issue in the `blog-server` project (related to `checks.xml` and `SuppressWithNearbyTextFilter`) should be resolved separately by updating the `pom.xml` as previously suggested (using `maven-checkstyle-plugin:3.3.1` with Checkstyle `10.17.0` and `<configLocation>${project.basedir}/checks.xml</configLocation>`). The proxy settings above will ensure Maven can download any required artifacts for that fix.
 
 Let me know if you encounter issues or need help with the updated `pom.xml` or further proxy debugging!

@@ -35,6 +35,7 @@ keytool -importcert -file mycert.crt -keystore /path/to/jre/lib/security/cacerts
 在标准 JRE 安装（如 Oracle 或 OpenJDK 发行版）中，`cacerts` 文件的**默认密码**是 **"changeit"**。这是 Java 各个版本和发行版中广泛记录的默认值。"changeit" 这个名称旨在提醒管理员可能出于安全考虑需要更改密码，但在大多数标准的未修改安装中，此密码通常保持不变。
 
 由于您的命令因密码验证失败而报错，最可能的原因是：
+
 1. 未正确输入 "changeit"（例如拼写错误或大小写问题——密码区分大小写）
 2. 密码提示处理不当
 3. 在特定环境中默认密码已被修改（虽然对于 `cacerts` 这种情况较少见，除非系统管理员明确修改）
@@ -82,6 +83,7 @@ keytool -importcert -file mycert.crt -keystore /path/to/jre/lib/security/cacerts
 ### 如果 "changeit" 不是正确密码怎么办？
 
 如果 "changeit" 无效，请考虑以下可能性：
+
 - **自定义密码**：在极少数情况下，系统管理员可能修改了 `cacerts` 密码。您需要查阅系统文档或咨询管理员获取正确密码。若密码丢失无法直接恢复；如果确实无法获知，您可能需要用新 JRE 安装中的全新 `cacerts` 文件替换现有文件（这将重置密码为 "changeit"）。
 - **环境特定默认值**：某些非标准 Java 发行版（如 IBM JDK）可能使用不同的默认密码，但这种情况并不常见，且您的查询表明是典型设置。
 
@@ -90,6 +92,7 @@ keytool -importcert -file mycert.crt -keystore /path/to/jre/lib/security/cacerts
 ### 最终解决方案
 
 要解决您的问题：
+
 - 对于标准 JRE 环境，使用此命令：
 
   ```

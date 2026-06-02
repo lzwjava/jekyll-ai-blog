@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Understanding Your Query
+
 It looks like you're asking about using CoinUnit.io (a Bitcoin ATM service) to "charge" or deposit BTC, selecting the appropriate network, and then sending (withdrawing) that BTC to your Binance account—specifically, whether to choose the standard "Bitcoin" network or "BTC SegWit" on Binance. I'll break this down step-by-step based on how these services work, to help you avoid any risks like lost funds.
 
 ### Step 1: "Charging" BTC on CoinUnit.io
+
 - CoinUnit.io operates Bitcoin ATMs where you can **buy BTC by depositing cash** (this is what "charge" likely means in this context—topping up your wallet with BTC).
 - The process is straightforward at their ATMs (locations mainly in Hong Kong, with some international spots):
   1. Locate an ATM via their site or app.
@@ -27,12 +29,14 @@ It looks like you're asking about using CoinUnit.io (a Bitcoin ATM service) to "
 If you meant selling BTC for cash on their ATMs, that's the reverse ("Sell Bitcoin" option), but your query seems focused on acquiring and sending to Binance.
 
 ### Step 2: Sending BTC from Your Wallet to Binance
+
 - After buying on CoinUnit.io, you'll have BTC in your personal wallet. To transfer it to Binance:
   1. Log into Binance > Wallet > Deposit > Select "BTC" (Bitcoin).
   2. Binance will generate a deposit address and ask you to **choose a network**. This is where your question comes in.
 - **Key Warning**: The network you select on Binance **must match** the network your wallet uses to send the BTC. Mismatches can lead to permanent loss of funds (Binance can't recover them). Since CoinUnit.io uses the native Bitcoin network, stick to Bitcoin-based options on Binance.
 
 ### Step 3: Choose "Bitcoin" or "BTC SegWit" on Binance?
+
 - Binance supports multiple networks for BTC deposits, but only **Bitcoin-native ones** are safe for transfers from a standard wallet like the one you'd use at a CoinUnit.io ATM. Here's a quick comparison:
 
 | Network Option on Binance | Description | Address Starts With | Recommended? | Why? |
@@ -49,6 +53,7 @@ If you meant selling BTC for cash on their ATMs, that's the reverse ("Sell Bitco
 - Pro Tip: Always do a small test transaction first (e.g., 0.001 BTC) to confirm everything works before sending the full amount.
 
 ### Additional Tips
+
 - **Fees**: CoinUnit.io charges ~5-8% for buys (varies by location). Bitcoin network fees for the transfer to Binance are ~$1-5 USD (paid from your wallet). Binance deposits are free.
 - **Security**: Enable 2FA on Binance. Use a reputable wallet for the ATM scan. Avoid public Wi-Fi.
 - **If Issues Arise**: Contact CoinUnit.io support (email/phone via their FAQ) for ATM help, or Binance support for deposit queries.

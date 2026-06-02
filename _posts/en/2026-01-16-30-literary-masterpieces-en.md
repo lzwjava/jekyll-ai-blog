@@ -17,6 +17,7 @@ Answer:
 Here is a curated list of 30 highly regarded **literary novels** (focusing on classics and masterpieces of literary fiction) and some standout **long-form essays/nonfiction**, drawing from consensus across major lists like Modern Library's 100 Best Novels, Goodreads literary rankings, and aggregated "greatest books" sources. Your examples (*1984* by George Orwell and *The Old Man and the Sea* by Ernest Hemingway) are dystopian and concise literary classics, so the selection emphasizes thoughtful, impactful writing with depth, style, and enduring influence.
 
 ### Top Literary Novels (Fiction Classics)
+
 1. **1984** by George Orwell – Dystopian masterpiece on totalitarianism and truth.
 2. **The Old Man and the Sea** by Ernest Hemingway – Compact tale of human endurance and nature.
 3. **To Kill a Mockingbird** by Harper Lee – Profound exploration of racism, morality, and innocence.
@@ -44,6 +45,7 @@ Here is a curated list of 30 highly regarded **literary novels** (focusing on cl
 25. **The Brothers Karamazov** by Fyodor Dostoevsky – Philosophical epic on faith and morality.
 
 ### Notable Long-Form Essays / Essay Collections (Nonfiction)
+
 26. **A Room of One's Own** by Virginia Woolf – Extended essay on women and writing.
 27. **Politics and the English Language** by George Orwell – Influential critique of vague language.
 28. **A Modest Proposal** by Jonathan Swift – Satirical masterpiece on social issues.

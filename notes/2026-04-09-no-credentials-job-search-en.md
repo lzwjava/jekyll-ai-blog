@@ -35,6 +35,7 @@ So feeling bad is natural as an emotional reaction, but rationally, no one needs
 **Technically, yes — almost everything that can be learned from information is online for free or cheap.**
 
 You can learn:
+
 - Coding (freeCodeCamp, Odin Project, YouTube)
 - Digital marketing (HubSpot Academy, Google’s free courses)
 - Design (YouTube, Canva’s design school)

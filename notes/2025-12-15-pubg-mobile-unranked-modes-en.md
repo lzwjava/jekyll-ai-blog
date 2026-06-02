@@ -16,6 +16,7 @@ type: note
 In PUBG Mobile (the version where "unranked" is a distinct casual queue separate from ranked), there are **9 unranked (casual) modes** available. These are designed for practice, fun, or non-competitive play without affecting your rank points. They include a mix of battle royale, arena-style, and specialty modes.
 
 Here's the full list:
+
 - **Classic Mode**: Standard battle royale on maps like Erangel, Miramar, Sanhok, Vikendi, Livik, Karakin, Nusa, and Rondo (random or selected).
 - **Arcade Mode**: Quick, varied mini-games and challenges.
 - **Arctic Mode**: Snowy, cold-weather battle royale variant (often on Vikendi-themed).
@@ -29,6 +30,7 @@ Here's the full list:
 Note: Availability can rotate slightly with updates (e.g., seasonal events add temporary variants), but these are the core permanent unranked modes as of late 2025. Access them via the Unranked tab in the lobby. For PUBG PC (Battlegrounds), "unranked" refers to Normal Matches (not a separate tab), with modes like Normal BR, Team Deathmatch, and Hot Drop.
 
 **References:**
+
 - [PUBG Mobile Fandom Wiki - Game Modes](https://pubgmobile.fandom.com/wiki/Game_Modes)
 - [PUBG Mobile Game Modes Explained](https://news.codashop.com/us/pubg-mobile-game-modes-overview/)
 - [PUBG Mobile Classic Maps](https://gamerant.com/pubg-mobile-classic-maps-ranked/)

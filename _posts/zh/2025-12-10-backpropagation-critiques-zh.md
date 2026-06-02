@@ -37,6 +37,7 @@ type: note
 这些观点无疑是少数派观点——大多数从业者都喜欢反向传播，因为它有效且在 GPU 上效率极高——但它们由受尊敬的研究人员提出，并且随着该领域开始质疑 1986 年的方案是否能带领我们一路走向 AGI，这些观点正获得越来越多的关注。
 
 参考文献：
+
 - [Geoffrey Hinton’s Forward-Forward Algorithm (2022)](https://www.cs.toronto.edu/~hinton/FFA13.pdf)
 - [Feedback Alignment works almost as well as backprop (Lillicrap et al., 2016)](https://www.nature.com/articles/ncomms13276)
 - [Chollet’s “On the Measure of Intelligence” (2020) critiquing pure scaling](https://arxiv.org/abs/1911.01547)

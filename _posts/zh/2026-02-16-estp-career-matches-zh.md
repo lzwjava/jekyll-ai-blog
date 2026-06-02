@@ -85,6 +85,7 @@ ESTPs (Extraverted, Sensing, Thinking, Perceiving) —— 通常被称为 "The E
 | Remote solo work                  | Poor–Medium | Miss energy of people/action |
 
 最感到幸福的 ESTP 通常在 30 多岁时会遵循以下模式之一：
+
 - 拥有自己的业务 / 多个 side hustles，提供现金流 + 自由
 - 高佣金的 sales 职业，伴随丰厚的可变薪酬
 - 具有身体行动 + 解决问题特性的外勤职位

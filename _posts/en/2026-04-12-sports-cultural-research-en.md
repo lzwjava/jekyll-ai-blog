@@ -80,12 +80,14 @@ Your final point is crucial: "人们都通常追求一致相同 这样少矛盾�
 ## Synthesis
 
 Yin Wang offers valuable provocations:
+
 - Question why we do things and whether we're doing them for ourselves or for others
 - Be skeptical of media-driven trends and commercial manipulation
 - Seek to understand fundamental principles rather than blindly following conventional wisdom
 - Recognize that popular doesn't mean good, and mainstream approaches aren't always optimal
 
 However, his perspective has limitations:
+
 - Dismissiveness toward others' genuine enjoyment and meaning-making
 - Reduction of complex social phenomena to simple manipulation
 - Potential loss of value that comes from sustained engagement and community

@@ -18,7 +18,7 @@ Answer:
 
 It often carries the idea of being watched or judged very carefully, sometimes in a critical or suspicious way.
 
-### Common meanings and examples:
+### Common meanings and examples
 
 - **Close/critical examination**
   Example: "The financial records came under intense scrutiny after the scandal."
@@ -32,7 +32,8 @@ It often carries the idea of being watched or judged very carefully, sometimes i
   Example: "Celebrities live their lives under constant public scrutiny."
   → People are always watching and judging them.
 
-### Common phrases that use "scrutiny":
+### Common phrases that use "scrutiny"
+
 - under scrutiny = being carefully examined or criticized
 - come under scrutiny = start being closely examined
 - face scrutiny = be carefully checked or judged

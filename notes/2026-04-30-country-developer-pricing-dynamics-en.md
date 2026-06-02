@@ -121,12 +121,12 @@ For things like:
 * API usage billing
 * Dev tools
 
-### In the U.S.:
+### In the U.S
 
 * Easier to monetize individuals directly
 * Subscription model works well
 
-### In China:
+### In China
 
 * Harder to charge individuals
 * More success with:

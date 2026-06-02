@@ -38,6 +38,7 @@ type: note
 | 定期“一致性冲刺”或技术债务周 | 集中修复累积的混乱，而非阻止每一个微小偏差 | Meta的“清扫黑客马拉松”，Google的Fixits |
 
 ### 为什么一致性本身就很难（即使有上述方法）
+
 1. **团队人员流动** – 做出原始决策的人离开；新人不了解旧的背景。
 2. **局部最优与全局最优** – 一个全局稍差的模式在局部可能快得多，因此团队在截止日期压力下会选择它。
 3. **功能紧急性总是胜过技术债务** – 业务说“圣诞节前发布，否则损失1000万美元”，没人关心完美的命名。
@@ -46,7 +47,9 @@ type: note
 6. **工具和语言演进** – 2018年“正确”的方式在2024年就变成了遗留（回调 → Promise → async/await → React Server Components…）。
 
 ### 底线
+
 不，你**不**希望在大公司中有一个至高无上的守门人。你希望有：
+
 - 清晰的书面标准
 - 严格的自动化执行这些标准
 - 每个组件有一小组轮流的负责人（而不是一个英雄）
@@ -55,6 +58,7 @@ type: note
 依靠单一英雄架构师的公司最终会在代码库拥有约50-100名工程师时遇到瓶颈。投资于自动化和分布式所有权的公司，可以使1000多名工程师快速前进，并保持令人惊讶的良好一致性。
 
 参考文献：
+
 - [Google Engineering Practices – Code Review](https://google.github.io/eng-practices/)
 - [ThoughtWorks Tech Radar – Centralized vs Decentralized Ownership](https://www.thoughtworks.com/radar/techniques)
 - [The Architecture Bottleneck (Stripe engineering blog)](https://stripe.com/blog/scaling-engineering)

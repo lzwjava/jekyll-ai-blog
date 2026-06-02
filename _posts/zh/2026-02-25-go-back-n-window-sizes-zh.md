@@ -40,6 +40,7 @@ type: note
 ## 为什么不是选项 C（两者均 > 1）？
 
 选项 C 描述的是 **Selective Repeat (SR)** 协议，而不是 Go-Back-N。在 SR 中：
+
 - receiver **缓冲乱序帧**，因此 receiving window > 1。
 - 仅需重传特定的错误帧（无需重传所有后续帧）。
 

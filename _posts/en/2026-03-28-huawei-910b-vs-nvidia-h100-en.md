@@ -54,6 +54,7 @@ Using **raw FP16 TFLOPS** (theoretical peak):
 So: **≈17 RTX 4070s ≈ 1 H100** on pure TFLOPS paper math.
 
 > ⚠️ **But this is misleading in practice.** Raw TFLOPS doesn't equal real training performance. The H100 has:
+>
 > - **HBM3 memory** with 3.35 TB/s bandwidth (vs 4070's GDDR6X at ~504 GB/s)
 > - **NVLink** for multi-GPU scaling
 > - **Tensor Core efficiency** at massive batch sizes

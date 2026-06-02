@@ -12,6 +12,7 @@ type: post
 这是来自Github项目 [https://github.com/lzwjava/algorithm-solutions](https://github.com/lzwjava/algorithm-solutions) 的 `README.md`。
 
 ---
+
 # 算法问题解决方案
 
 一些在线评测平台中的算法问题解决方案。
@@ -116,7 +117,7 @@ type: post
 | 429: Word Transformation | 437: The Tower of Babylon | 438: The Circumference of the Circle |
 | 439: Knight Moves | 440: Eeny Meeny Moo | 441: Lotto |
 | 442: Matrix Chain Multiplication | 443: Humble Numbers | 444: Encoder and Decoder |
-| 445: Marvelous Mazes | 446: Kibbles `n' Bits `n' Bits `n' Bits | 455: Periodic Strings |
+| 445: Marvelous Mazes | 446: Kibbles `n' Bits`n' Bits `n' Bits | 455: Periodic Strings |
 | 457: Linear Cellular Automata | 458: The Decoder | 459: Graph Connectivity |
 | 465: Overflow | 469: Wetlands of Florida | 476: Points in Figures: Rectangles |
 | 477: Points in Figures: Rectangles and Circles | 478: Points in Figures: Rectangles, Circles, Triangles | 481: What Goes Up |

@@ -44,6 +44,7 @@ type: note
 这一角色会随团队发展阶段动态调整——成熟团队中编码占比更高，成长型团队则更侧重领导力。若您准备迎接这种动态挑战，请在深耕Java技术的同时注重软技能培养。
 
 ### 参考资料
+
 - [从Java开发到技术负责人：无人告知的关键步骤](https://rameshfadatare.medium.com/from-java-developer-to-tech-lead-the-steps-nobody-tells-you-077fda168e7c)
 - [技术负责人必备核心技能](https://www.lupahire.com/blog/tech-lead-skills)
 - [Java后端技术负责人分析师-副总裁 | 花旗招聘](https://jobs.citi.com/job/tampa/java-backend-technology-lead-analyst-vice-president/287/86442994816)

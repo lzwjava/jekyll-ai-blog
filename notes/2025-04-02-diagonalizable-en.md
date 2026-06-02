@@ -42,6 +42,7 @@ It has one eigenvalue (λ = 1) with algebraic multiplicity 2, but only one linea
 For option (b): Having distinct eigenvalues is sufficient but not necessary. When a matrix has distinct eigenvalues, the eigenvectors are automatically linearly independent. However, matrices with repeated eigenvalues can still be diagonalizable if they have enough linearly independent eigenvectors.
 
 For option (c): This is precisely the definition of diagonalizability. An n×n matrix is diagonalizable if and only if it has n linearly independent eigenvectors. This is because:
+
 - The diagonalization process requires that P be invertible
 - P is invertible if and only if its columns are linearly independent
 - The columns of P are the eigenvectors of A

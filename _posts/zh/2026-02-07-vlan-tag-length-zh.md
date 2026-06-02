@@ -21,16 +21,15 @@ Answer: 在 Virtual Local Area Network (VLAN) 环境中，VLAN tag 字段的长�
 这 4-byte (32-bit) 的 tag 进一步细分为以下子字段：
 
 1. **TPID (Tag Protocol Identifier) - 2 Bytes:**
+
 * 固定值为 `0x8100`。
 * 用于将该 frame 标识为 IEEE 802.1Q tagged frame。
 
-
 2. **TCI (Tag Control Information) - 2 Bytes:** 该部分又细分为：
+
 * **PCP (Priority Code Point):** 3 bits，用于 Quality of Service (QoS) 以确定流量优先级。
 * **DEI (Drop Eligible Indicator):** 1 bit，指示在拥塞时是否可以丢弃该 frame。
 * **VID (VLAN Identifier):** 12 bits，用于标识特定的 VLAN（支持多达 4,096 个唯一的 ID）。
-
-
 
 ### Key Takeaway
 

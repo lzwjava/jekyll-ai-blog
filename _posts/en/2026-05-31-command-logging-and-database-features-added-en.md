@@ -12,16 +12,19 @@ type: note
 Done. Here's what was built:
 
 **New files:**
+
 - `ww/db.py` — SQLite module: `get_db_path()`, `init_db()`, `log_command()`, `parse_command()`
 - `ww/db_stats.py` — `ww db` command with 5 subcommands: `stats`, `recent`, `top`, `errors`, `search`
 
 **Modified files:**
+
 - `ww/main.py` — `main()` now captures raw args and logs every invocation (success or error) via try/finally. Dispatch moved to `_main_dispatch()`.
 - `.env.example` — added `DB_PATH` documentation
 - `.env` — set `DB_PATH=/Users/lzwjava/projects/jekyll-ai-blog/ww.db`
 - `~/.zsh/completions/_ww` — added `db` command with all subcommands and `--limit` flag
 
 **Database schema:**
+
 ```sql
 command_log (
     id, timestamp, raw_command, group_name, subcmd, exit_code, cwd
@@ -29,6 +32,7 @@ command_log (
 ```
 
 **Usage:**
+
 ```
 ww db stats      -- overall stats, top groups, error rate, busiest days
 ww db recent     -- last 20 commands (use --limit N)

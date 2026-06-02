@@ -13,6 +13,7 @@ type: note
 Vigilant means being watchful, alert, and attentive to potential dangers or problems. It's about staying aware and ready to notice and respond to anything that might go wrong.
 
 For example:
+
 - A vigilant security guard carefully watches for any suspicious activity
 - Parents are vigilant about their children's safety near water
 - A vigilant driver stays alert to other cars and road conditions

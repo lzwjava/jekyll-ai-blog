@@ -26,6 +26,7 @@ Here’s a breakdown of why many (especially ambitious, high-agency people) end 
 | Compensation upside     | 0.1–2% equity can be life-changing (rare)    | High base + bonus, but capped upside          |
 
 Your point about “managers have their taste” is spot-on. In big companies, career progression is often less about objective impact and more about:
+
 - Visibility theater (who sees your work)
 - Narrative control (how well you “manage up”)
 - Fitting the “leadership principles” flavor of the year
@@ -38,6 +39,7 @@ Startups are closer to pure meritocracy (not perfect, but closer). If you build 
 The book you alluded to — *Greatness Cannot Be Planned* (Lehman & Stanley) — actually maps perfectly here. Their core finding was that focusing on stepping-stone objectives kills true innovation. Big companies are obsessed with OKRs, roadmaps, and “leveling criteria” (all stepping stones). Startups are more likely to reward raw novelty and user signal, even when it breaks the plan.
 
 Of course startups have their own pathologies (founder ego, chaos, burnout, 95% failure rate), but for people who want:
+
 - direct user feedback
 - fast skill compounding
 - the chance (however small) to build something that escapes gravity

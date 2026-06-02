@@ -24,12 +24,15 @@ How can you add `(B, T, n_embd)` + `(T, n_embd)`?
 **Answer: PyTorch automatically broadcasts the position embeddings across the batch dimension.**
 
 When PyTorch sees:
+
 ```python
 tok_emb + pos_emb
 ```
+
 it treats `pos_emb` (shape `(T, n_embd)`) as if it were `(1, T, n_embd)` and then **broadcasts** it to match `(B, T, n_embd)`.
 
 So this addition becomes:
+
 ```
 (B, T, n_embd)
      +

@@ -17,6 +17,7 @@ Answer:
 Your experience is quite common among non-native English speakers in professional settings, and your observation about the brain's adaptability has some truth to it, supported by research on second language acquisition.
 
 ### Why your listening score is stuck at Band 6
+
 Band 6 in IELTS Listening typically means you get about 23–29 out of 40 correct answers, indicating solid but incomplete understanding — you catch main ideas but often miss details, synonyms, accents, fast speech, or connected speech. After years of immersion in a global company, many people plateau around this level for these reasons:
 
 - **Accent challenges**: Indian English (one of the most common in global teams) features distinct pronunciation patterns — retroflex sounds, different stress/intonation, syllable-timed rhythm, and substitutions (e.g., "v" and "w", or "t" and "d"). These can make speech harder to segment even after long exposure if your ear isn't specifically tuned to them.
@@ -26,6 +27,7 @@ Band 6 in IELTS Listening typically means you get about 23–29 out of 40 correc
 Many test-takers report staying stuck at 6–6.5 in listening even after years of use, often because they don't address specific sub-skills like predicting answers, handling distractors, or adapting to varied accents.
 
 ### How using Zoom captions plays into this
+
 Zoom captions (AI-generated, English) act as **same-language captions/subtitles**, providing real-time text support alongside audio.
 
 Research on second language (L2) learning shows that same-language captions generally **help** rather than hurt:
@@ -36,6 +38,7 @@ Research on second language (L2) learning shows that same-language captions gene
 - Over time, this can lead to gradual improvement in unaided listening, as learners start relying less on text and more on audio (many reduce subtitle dependence naturally).
 
 In your case:
+
 - You mention initially depending heavily on captions (especially for relevant parts) but still needing repeats sometimes.
 - After weeks/months, you notice better listening — this aligns with how captions provide extra time to process (text lingers longer than speech) and help map sounds to words.
 - For accents like Indian English, captions can aid adaptation by showing "what was actually said," helping your brain recalibrate phonetic expectations (perceptual learning/adaptation to accents happens quickly with support, even in short exposures).
@@ -45,9 +48,11 @@ However, there's a nuance: if you **always** rely on captions without occasional
 Your brain **is** somewhat "magic" here: neuroplasticity allows adaptation to accents and speech patterns with consistent, supported exposure. You see this in navigation (GPS reduces spatial memory effort initially but can weaken it if over-relied on) and vocabulary (skipping unknowns caps growth, while looking up builds it slowly over years).
 
 ### Analogy to vocabulary building
+
 Your Paul Graham essay story is spot-on: active lookup (dictionary hunts) built your vocab from 3000 to much higher over 10 years, even if you still skip some words. Similarly, captions provide "lookup" for spoken words/phrases in real time. Without them, you might skip understanding (like ignoring unknown words), capping listening growth. With them, you get more comprehensible input → gradual gains.
 
 ### Suggestions to push beyond 6
+
 - Alternate: Turn captions off for parts of meetings (or practice sessions) to force listening, then check what you missed.
 - Target Indian accents: Listen to podcasts/YouTube with Indian speakers (e.g., TED talks by Indians), first with captions, then without.
 - IELTS-specific drills: Practice full tests, focus on Section 3/4 (conversations/lectures), analyze errors (accents? speed? synonyms?).

@@ -15,26 +15,26 @@ Answer:
 
 **Enzymatic** refers to anything related to or involving **enzymes**—biological molecules (usually proteins) that act as **catalysts** to speed up chemical reactions in living organisms.
 
-### Key idea:
+### Key idea
 
 * **Enzymatic = involving enzymes or enzyme-driven reactions**
 
-### Simple explanation:
+### Simple explanation
 
 Enzymes help reactions happen faster without being consumed. So when something is described as *enzymatic*, it means the process is **controlled or accelerated by enzymes**.
 
-### Examples:
+### Examples
 
 * **Enzymatic reaction**: A chemical reaction sped up by an enzyme (e.g., digestion of food).
 * **Enzymatic activity**: How effectively an enzyme is working.
 * **Enzymatic breakdown**: When enzymes help decompose substances (like food or waste).
 
-### Real-life analogy:
+### Real-life analogy
 
 Think of enzymes as **workers in a factory**.
 An *enzymatic process* is like a production line where workers (enzymes) make things happen faster and more efficiently.
 
-### In biology:
+### In biology
 
 * Digestion (breaking down proteins, fats, carbs)
 * DNA replication

@@ -14,7 +14,8 @@ type: note
 
 **Answer:**
 
-### Hewlett-Packard → HP Inc.
+### Hewlett-Packard → HP Inc
+
 **Complete Company Introduction (2025 Edition)**
 
 ### Quick Overview – Most Important Facts

@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: Transcribe the YouTube video at https://www.youtube.com/watch?v=R-JUOpCgTZc and restructure its content into a lecture format.
+Question: Transcribe the YouTube video at <https://www.youtube.com/watch?v=R-JUOpCgTZc> and restructure its content into a lecture format.
 
 Answer:
 

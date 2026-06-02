@@ -96,6 +96,7 @@ Answer:
 - **Post-Implementation Validation**：监控 48 小时；安排 PIR（Post-Implementation Review）。
 
 **填写的通用技巧**：
+
 - **具体且客观** — 包含数字、Ticket ID 和 Metrics。
 - **Impact** — 始终覆盖用户/业务面以及技术范围。
 - **Backout** — 必须切实可行且尽可能经过测试；明确回退决策的触发标准。

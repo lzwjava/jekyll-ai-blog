@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is https://grokipedia.com?
+**Question:** What is <https://grokipedia.com>?
 
 **Answer:**
 

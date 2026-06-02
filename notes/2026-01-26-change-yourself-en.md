@@ -40,6 +40,7 @@ Instead of wasting energy trying to force or persuade others to become the way *
 > Changing others is very hard, changing yourself is also very hard,
 > but **only by changing yourself do you have any hope of influencing others**.
 > Five practical ways people actually change:
+>
 > - Use exercise to change health
 > - Use self-discipline to change appearance
 > - Use sincerity to change relationships

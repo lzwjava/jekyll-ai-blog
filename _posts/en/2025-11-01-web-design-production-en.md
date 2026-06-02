@@ -20,9 +20,11 @@ The exam outline is structured around the textbook and assesses knowledge throug
 ## I. Course Nature and Objectives
 
 ### 1. Course Nature and Characteristics
+
 This is an interdisciplinary course integrating technology, humanities, and arts. It teaches standard web design knowledge and skills, including HTML5/CSS3 technologies, DIV+CSS layouts, and website building processes. Students learn to apply techniques for text, images, media, links, lists, tables, forms, and CSS styling to design, produce, and maintain web pages.
 
 ### 2. Course Objectives
+
 - Understand web basics and creation processes.
 - Master elements like text, images, audio, video, and hyperlinks.
 - Master lists and tables.
@@ -31,14 +33,18 @@ This is an interdisciplinary course integrating technology, humanities, and arts
 - Master web layout techniques.
 
 ### 3. Connections with Related Courses
+
 Prerequisites: "Computer Application Basics" and "Digital Media Basics."
 
 ### 4. Focus and Difficulties
+
 **Focus:** Web production elements (text, images, media, links, lists, tables, forms).
 **Difficulties:** CSS control and beautification (styles, layouts, positioning).
 
 ## II. Assessment Objectives
+
 The outline guides self-study, assistance, and exam design. Competency levels:
+
 - **Memorization:** Recall definitions, syntax, rules.
 - **Comprehension:** Understand concepts, differences, simple analysis.
 - **Application:** Integrate HTML/CSS to design complex pages via DIV+CSS.
@@ -46,6 +52,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 ## III. Course Content and Assessment Requirements
 
 ### Chapter 1: Web Basics
+
 **Learning Objectives:** Understand HTML concepts, file types, HTML5 overview, editors, elements, semantics, conventions.
 **Content:**
 1.1 Introduction to HTML
@@ -61,6 +68,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** HTML-web relationship. **Difficulty:** Development tools/technologies.
 
 ### Chapter 2: Hyperlinks and HTML5 Media Elements
+
 **Learning Objectives:** Master paths, hyperlinks (basic/anchor), images/hotspots, audio/video insertion, common tags.
 **Content:**
 2.1 Hyperlinks
@@ -74,6 +82,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Hyperlinks, HTML5 media. **Difficulty:** Path types.
 
 ### Chapter 3: Lists
+
 **Learning Objectives:** Master unordered/ordered/definition/nested lists.
 **Content:**
 3.1 Unordered
@@ -85,6 +94,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Unordered/ordered lists. **Difficulty:** Nesting.
 
 ### Chapter 4: Tables and Frames
+
 **Learning Objectives:** Master basic tables, attributes, spanning, frames.
 **Content:**
 4.1 Composition
@@ -97,6 +107,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Table creation/styling. **Difficulty:** Data layout with tables.
 
 ### Chapter 5: HTML Forms
+
 **Learning Objectives:** Master forms, controls (basic/new HTML5), attributes; design forms.
 **Content:**
 5.1 Form Tag
@@ -107,6 +118,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Control attributes. **Difficulty:** Form design.
 
 ### Chapter 6: Cascading Style Sheets
+
 **Learning Objectives:** Understand CSS development/syntax/properties; master usage/selectors.
 **Content:**
 6.1 Introduction
@@ -118,6 +130,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Text styles. **Difficulty:** Background/foreground design.
 
 ### Chapter 7: CSS Property Case Application - Navigation Creation
+
 **Learning Objectives:** Master CSS+UL for horizontal/vertical/drop-down navigation.
 **Content:**
 7.1 Horizontal Navigation
@@ -128,6 +141,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Horizontal/vertical navigation. **Difficulty:** Drop-down menus.
 
 ### Chapter 8: Web Layout Using CSS+DIV
+
 **Learning Objectives:** Understand layouts/DIV; master techniques, positioning; create multi-column layouts.
 **Content:**
 8.1 Overview
@@ -140,6 +154,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Layout concepts/DIV+CSS. **Difficulty:** Various page layouts.
 
 ### Chapter 9: Web Layout Examples
+
 **Learning Objectives:** Master blog homepage/right-float designs; complex layouts.
 **Content:**
 9.1 Blog Homepage
@@ -149,6 +164,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Blog design. **Difficulty:** Right-floating.
 
 ### Chapter 10: Filters, Transformations, and Animations
+
 **Learning Objectives:** Master CSS3 filters, 2D/3D transforms, animations.
 **Content:**
 10.1 Filters
@@ -160,6 +176,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Filters/2D transforms. **Difficulty:** 3D transforms/animations.
 
 ### Chapter 11: Practical Development - Electronic Product Shopping Website Homepage
+
 **Learning Objectives:** Integrate HTML5/CSS3 for layout/homepage development.
 **Content:**
 11.1 Top Area
@@ -170,6 +187,7 @@ The outline guides self-study, assistance, and exam design. Competency levels:
 **Focus:** Web layout. **Difficulty:** DIV+CSS realization.
 
 ## IV. Notes on the Outline and Assessment
+
 - Exams test the specified content; practice is key for application.
 - Question types: Multiple-choice, fill-in, short answer, comprehensive application (e.g., code writing, page design).
 - Passing requires balanced performance across levels.

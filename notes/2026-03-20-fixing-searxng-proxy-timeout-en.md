@@ -12,6 +12,7 @@ type: note
 ## How I Solved the SearXNG Proxy Issue
 
 ### The Problem
+
 SearXNG was timing out on all search engines (Google, Brave, DuckDuckGo, etc.) because it couldn't reach the internet. The fix needed was routing its traffic through the local Mihomo proxy.
 
 ---

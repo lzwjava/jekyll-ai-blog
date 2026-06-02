@@ -40,7 +40,8 @@ type: note
 
 Java 通过 **JAX-WS**（Java API for XML Web Services）和 **SAAJ**（SOAP with Attachments API for Java）库内置支持 SOAP，这些库是 JDK 的一部分（基本功能无需外部依赖）。
 
-#### 创建和发送 SOAP 消息的步骤：
+#### 创建和发送 SOAP 消息的步骤
+
 1. **创建 SOAP 消息**：使用 `javax.xml.soap` 以编程方式构建信封。
 2. **添加内容**：填充主体（以及头部，如果需要）。
 3. **通过 HTTP 发送**：使用 `HttpURLConnection` 或像 JAX-WS 这样的客户端进行完整的 Web 服务调用。

@@ -32,26 +32,32 @@ Jim 在南布朗克斯长大。尽管成长环境艰苦，但他还是追求了�
 ### 职业时间线
 
 #### Bell Labs（1980 年代早期）
+
 1983 年从 MIT 获得博士学位后，Jim Roskind 加入 Bell Labs，在那里他从事数据通信和网络项目的研究与开发，利用他在容错系统方面的专长。
 
 #### 自由职业与开源贡献（1983–1994）
+
 在加入 Infoseek 之前的 10 年，他是一名自由软件承包商，为太多公司工作，无法一一列举。一份编译器工作促使他编写了一个开源的 YACCable C++ 语法，并随后成为 ANSI C++ Formal Syntax Working Group 的负责人。
 
 #### Infoseek 联合创始人（1994）
+
 Roskind 于 1994 年与包括 Steve Kirsch 在内的其他 7 人共同创立了 Infoseek。同年晚些时候，Roskind 编写了 Python profiler，该 profiler 如今仍是 Python 标准库的一部分——这是他对开发者社区的持久贡献。
 
 #### Netscape / AOL — 首席架构师 & Java 安全架构师（1995–2003）
+
 Jim 在 Netscape 工作了 8 年，在那里他设计并部署了带有 Signed Java 的 Java Security 模型，还帮助设计了 SSL 2.0，并担任 Java Security Architect。他在此期间的安全工作帮助确立了互联网基础年代的早期 web 安全标准。
 
 1996 年在 Netscape 任职期间，他成功起诉 Morgan Stanley，认为他们出售他的股票的方式导致他获得的股价低于应得价格。该案上诉至美国最高法院，最高法院拒绝审理，从而保留了个人可以起诉股票经纪人违反州法的先例。
 
 #### Google（2008–2016）— 设计 QUIC
+
 他在 Google 工作了八年，在那里他设计了 QUIC 协议，并领导其在 Chrome 中的实现，该协议已演变为最近获批的 IETF 标准 HTTP/3。
 
 除了 QUIC 外，他在 Google 的更广泛工作包括：
 设计并实现客户端指标系统、speculative DNS pre-resolution、speculative TCP pre-connection、HTTP 上的 Shared Dictionary Compression (SDCH)，以及一个始终开启的内部 profiler。在离开 Google 前，他还花了一年时间从事 Machine Learning 研究。
 
 #### Amazon（2016–至今）— 副总裁兼杰出工程师
+
 Jim Roskind 是 Amazon 的副总裁兼杰出工程师，于 2016 年加入公司。Jim 在那里的主要工作重点是提高计算效率、eCommerce 可用性和应用延迟。
 
 ---

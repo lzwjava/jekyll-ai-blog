@@ -19,11 +19,13 @@ Yes, that's correct. On the JD.com app (and website), products that contribute t
 - In contrast, third-party merchant (3P marketplace) products do **not** have the "自营" label. These are sold by independent stores/merchants on the platform, and JD.com only earns service fees (commissions, advertising, etc.), which fall under **net service revenues**.
 
 Users often look for the "自营" tag because it signals:
+
 - Guaranteed authenticity and official genuine products.
 - Better after-sales support (faster returns, JD's own customer service).
 - Reliable fast delivery via JD's logistics.
 
 You can filter or find these easily in the app:
+
 - Search for a product → look for the "自营" badge next to the listing.
 - Or go to dedicated "自营" sections/zones on the homepage or via navigation.
 

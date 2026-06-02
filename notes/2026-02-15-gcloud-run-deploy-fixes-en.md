@@ -29,6 +29,7 @@ gcloud run deploy blog-server \
 zsh treats each line after the backslash as a new command if the continuation isn't handled correctly (common when copying from formatted text/markdown where line breaks are added).
 
 This results in:
+
 - `gcloud run deploy blog-server` runs (or partially runs)
 - Then `--allow-unauthenticated` is seen as a standalone command → "command not found"
 - Same for `--port`, `--memory`, etc.

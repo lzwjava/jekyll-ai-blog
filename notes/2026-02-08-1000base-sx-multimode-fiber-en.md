@@ -15,6 +15,7 @@ Thank you for sharing this question. Let me explain why the correct answer is **
 ## Understanding 1000Base-SX Standard
 
 The components of **1000Base-SX**:
+
 - **1000** = 1 Gigabit/s (one billion bits per second)
 - **Base** = Baseband transmission
 - **SX** = Short wavelength
@@ -24,12 +25,14 @@ The components of **1000Base-SX**:
 There are two main optical fiber versions for 1000Base Ethernet:
 
 **1000Base-SX (Short Wavelength)**
+
 - Wavelength: 850 nm
 - Transmission medium: **Multi-mode Fiber**
 - Maximum distance: 275m (full-duplex) or 550m (half-duplex)
 - Lower cost, suitable for short-range applications
 
 **1000Base-LX (Long Wavelength)**
+
 - Wavelength: 1310 nm
 - Transmission medium: **Single-mode Fiber**
 - Maximum distance: 5 km
@@ -38,6 +41,7 @@ There are two main optical fiber versions for 1000Base Ethernet:
 ## Why Does SX Use Multi-mode Fiber?
 
 The characteristics of short-wavelength lasers (850 nm) determine compatibility with multi-mode fiber:
+
 - Modal dispersion in multi-mode fiber is relatively small at 850 nm
 - More cost-effective and power-efficient
 - Ideal for campus networks and data centers with medium to short-distance transmission

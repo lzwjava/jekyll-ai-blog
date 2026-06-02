@@ -22,12 +22,14 @@ The TCP three-way handshake is designed to solve the following three key problem
 The detailed three-way handshake process between host A (client) and host B (server) is as follows:
 
 **Step 1 – SYN (Connection Request)**
+
 - A → B: Connection request segment
 - Flags: **SYN = 1**, **ACK = 0**
 - Sequence number: **seq = x** (A's initial sequence number)
 - Meaning: A tells B: "I want to establish a connection; my starting sequence number is x."
 
 **Step 2 – SYN-ACK (Acknowledgment + Connection Request)**
+
 - B → A: Acknowledgment and connection request segment
 - Flags: **SYN = 1**, **ACK = 1**
 - Acknowledgment number: **ack = x + 1** (confirms receipt of A's SYN)
@@ -35,6 +37,7 @@ The detailed three-way handshake process between host A (client) and host B (ser
 - Meaning: B tells A: "I received your request (ack = x+1), I agree to connect, and my starting sequence number is y."
 
 **Step 3 – ACK (Final Acknowledgment)**
+
 - A → B: Confirmation segment
 - Flags: **SYN = 0**, **ACK = 1**
 - Sequence number: **seq = x + 1** (next byte A will send)
@@ -46,4 +49,5 @@ After these three steps, both sides have synchronized their sequence numbers and
 This three-way (not two-way) handshake is necessary to avoid the "old duplicate connection request" problem in networks with delayed or duplicated packets.
 
 References:
+
 - None (standard TCP protocol description from RFC 793 and computer networking textbooks)

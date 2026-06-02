@@ -42,6 +42,7 @@ We’ll calculate the expected time for a **7.34 GB** file using both speeds (re
 So for a 7.34 GB file written to the same USB drive with `dd … bs=1m`, you should expect to wait roughly **7 to 9 minutes**.
 
 Tips to possibly make it faster:
+
 - Use a USB 3.0/3.1 port if you’re not already
 - Try a different (newer/faster) USB flash drive
 - Use Etcher, Rufus, or Ventoy instead of raw `dd` — they sometimes manage caching and I/O better

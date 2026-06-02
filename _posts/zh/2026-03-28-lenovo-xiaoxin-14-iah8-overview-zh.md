@@ -16,6 +16,7 @@ type: note
 ## 🖥️ Lenovo XiaoXin 14 IAH8 — 系统概览
 
 ### 💻 Laptop
+
 - **Model:** Lenovo XiaoXin 14 IAH8 (在某些市场也称为 IdeaPad Slim 5 14)
 - **Chassis:** Laptop (14-inch)
 - **Firmware:** LACN36WW (2024年6月)
@@ -38,6 +39,7 @@ type: note
 | **Current Freq** | 400-860 MHz (idle，节能模式) |
 
 **性能说明：**
+
 - Cinebench R23 Multi: ~10,043 pts
 - Cinebench R23 Single: ~1,596 pts
 - 多线程性能与旧款 Ryzen 7 5700U / i7-10750H 相当

@@ -13,6 +13,7 @@ type: post
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>
 
 ### Table of Contents
+
 1. [Introduction](#introduction)
 2. [Background](#background)
 3. [Methodology](#methodology)

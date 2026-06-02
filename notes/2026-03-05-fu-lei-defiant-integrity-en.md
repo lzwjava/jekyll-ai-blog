@@ -47,6 +47,6 @@ This translation aims to preserve the original's reflective, personal tone while
 
 References:
 
-- https://www.aisixiang.com/data/83698.html
-- https://baike.baidu.com/item/%E7%BA%AA%E5%BF%B5%E5%82%85%E9%9B%B7/6154920
-- http://read.99csw.com/article/3484.html
+- <https://www.aisixiang.com/data/83698.html>
+- <https://baike.baidu.com/item/%E7%BA%AA%E5%BF%B5%E5%82%85%E9%9B%B7/6154920>
+- <http://read.99csw.com/article/3484.html>

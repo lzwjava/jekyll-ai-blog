@@ -18,16 +18,16 @@ type: note
 
 **How RLHF Works (Typically in three stages):**
 
-1.  **Pre-training and Supervised Fine-tuning (SFT):**
+1. **Pre-training and Supervised Fine-tuning (SFT):**
     * A base language model is first pre-trained on a massive dataset of text and code to learn general language understanding and generation.
     * This pre-trained model is then often fine-tuned using supervised learning on a smaller dataset of high-quality demonstrations of the desired behavior (e.g., humans writing ideal responses to prompts). This step helps the model understand the format and style of the expected outputs.
 
-2.  **Reward Model Training:**
+2. **Reward Model Training:**
     * This is a crucial step in RLHF. A separate **reward model** is trained to predict human preferences.
     * Human annotators are presented with different outputs from the SFT model (or a later version) for the same input prompt. They rank or rate these outputs based on various criteria (e.g., helpfulness, coherence, safety).
     * This preference data (e.g., "output A is better than output B") is used to train the reward model. The reward model learns to assign a scalar reward score to any given model output, reflecting how much a human would prefer it.
 
-3.  **Reinforcement Learning Fine-tuning:**
+3. **Reinforcement Learning Fine-tuning:**
     * The original language model (initialized from the SFT model) is further fine-tuned using reinforcement learning.
     * The reward model trained in the previous step serves as the environment's reward function.
     * The RL agent (the language model) generates responses to prompts, and the reward model scores these responses.
@@ -36,17 +36,17 @@ type: note
 
 **How to Do RLHF (Simplified Steps):**
 
-1.  **Collect Human Preference Data:**
+1. **Collect Human Preference Data:**
     * Design prompts or tasks relevant to your desired AI behavior.
     * Generate multiple responses to these prompts using your current model.
     * Recruit human annotators to compare these responses and indicate their preferences (e.g., rank them, choose the best, or rate them).
     * Store this data as pairs of (prompt, preferred response, less preferred response) or similar formats.
 
-2.  **Train a Reward Model:**
+2. **Train a Reward Model:**
     * Choose a suitable model architecture for your reward model (often a transformer-based model similar to the language model).
     * Train the reward model on the collected human preference data. The goal is for the reward model to assign higher scores to the responses that humans preferred. A common loss function used is based on maximizing the margin between the scores of preferred and less preferred responses.
 
-3.  **Fine-tune the Language Model with Reinforcement Learning:**
+3. **Fine-tune the Language Model with Reinforcement Learning:**
     * Initialize your language model with the weights from the SFT step (if you performed one).
     * Use a reinforcement learning algorithm (like PPO).
     * For each training step:

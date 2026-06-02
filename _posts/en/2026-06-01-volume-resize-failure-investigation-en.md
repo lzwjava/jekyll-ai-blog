@@ -16,6 +16,7 @@ Here's the full investigation summary:
 ## Investigation: Why Volume Resize Fails via CLI
 
 ### The Problem
+
 The AMD Dev Cloud (DigitalOcean-based) web UI shows an "Increase storage size" modal for volume `volume-atl1-1780280110689`. Typing `200` in the size field shows "invalid size". The user wanted to do it via CLI instead.
 
 ### Step 1: Examined the doctl Codebase
@@ -62,6 +63,7 @@ doctl compute volume list
 ```
 
 Result:
+
 ```
 ID                                      Name                         Size       Region    Droplet IDs
 52743aec-...                            volume-atl1-1780280110689    100 GiB    atl1      [574422820]
@@ -95,6 +97,7 @@ Still `422`. Reattached the volume afterward.
 ### Step 9: Tested Different Request Formats
 
 Wrote another Python script testing:
+
 - With/without `droplet_id` in the body
 - With/without `region`
 - `size_gigabytes` as float (200.0) → `400 "error parsing request body"` (API expects int)
@@ -122,6 +125,7 @@ The token prefix `dop_v1_` indicates a **DigitalOcean Partner Cloud** token (AMD
 ---
 
 **Files created during investigation:**
+
 - `/tmp/resize_vol.py` — volume details + size brute-force
 - `/tmp/resize_vol2.py` — different request formats (PATCH, POST with extra fields)
 - `/tmp/resize_vol3.py` — type coercion tests (float, string, int)

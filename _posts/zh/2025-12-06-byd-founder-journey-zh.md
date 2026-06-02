@@ -29,6 +29,7 @@ type: note
 王传福以其谦逊、低调的风格而闻名，他乘坐经济舱，在公司食堂用餐，住在员工宿舍，并深度参与比亚迪的运营。他于2008年设定了雄心勃勃的目标：到2015年主导中国汽车市场（已实现），到2025年成为全球最大的汽车制造商（正按计划进行）。作为中国共产党员，王传福将两个关键影响归功于改变他一生的人：他的兄弟姐妹让他得以接受教育，以及电池研究所培养了他的专业知识。他的历程体现了中国的经济奇迹，证明战略眼光和不懈执行能够将个人逆境转化为全球霸主地位。
 
 参考文献：
+
 - [Wang Chuanfu - Wikipedia](https://en.wikipedia.org/wiki/Wang_Chuanfu)
 - [BYD's founder Wang Chuanfu: Two people changed his whole life](https://www.ourchinastory.com/en/13225/BYD%27s-founder-Wang-Chuanfu:-Two-people-changed-his-whole-life)
 - [BYD founder Wang Chuanfu, the peasant who became China’s richest man](https://english.elpais.com/economy-and-business/2025-10-25/byd-founder-wang-chuanfu-the-peasant-who-became-chinas-richest-man.html)

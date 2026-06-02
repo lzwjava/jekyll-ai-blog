@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: What does the article at https://ielts.idp.com/canada/prepare/article-how-computer-delivered-ielts-works say?
+Question: What does the article at <https://ielts.idp.com/canada/prepare/article-how-computer-delivered-ielts-works> say?
 
 Answer:
 

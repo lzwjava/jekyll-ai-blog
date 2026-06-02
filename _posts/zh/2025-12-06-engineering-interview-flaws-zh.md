@@ -49,6 +49,7 @@ type: note
 这些观点之所以不受欢迎，是因为当前的面试行业（训练营、LeetCode Premium、辅导等）是一个价值数十亿美元的生态系统，它受益于现状。改变其中任何一点都会威胁到许多商业模式和自尊心。
 
 参考文献：
+
 - [The Software Engineering Interview Process Is Broken](https://blog.pragmaticengineer.com/the-software-engineering-interview-process-is-broken/) – Gergely Orosz
 - [Why LeetCode-Style Interviews Fail](https://www.honeycomb.io/blog/why-leetcode-style-interviews-fail) – Charity Majors
 - [Take-Home Assignments Suck](https://sockpuppet.org/blog/2015/03/06/the-hiring-post/) – Thomas Ptacek

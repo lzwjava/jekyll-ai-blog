@@ -13,7 +13,7 @@ Question: What is the function of a domain name server, and what are the benefit
 
 Answer:
 
-The primary function of a **domain name server (DNS server)** is to perform **domain name to IP address resolution** (and in some cases the reverse: IP address to domain name). It translates human-readable domain names (such as www.example.com) into machine-readable IP addresses (such as 192.0.2.1) that computers use to communicate on the network.
+The primary function of a **domain name server (DNS server)** is to perform **domain name to IP address resolution** (and in some cases the reverse: IP address to domain name). It translates human-readable domain names (such as <www.example.com>) into machine-readable IP addresses (such as 192.0.2.1) that computers use to communicate on the network.
 
 **Benefits of DNS hierarchical / zone-based management** include:
 

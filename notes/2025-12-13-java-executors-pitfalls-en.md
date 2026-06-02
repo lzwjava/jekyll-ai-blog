@@ -34,11 +34,11 @@ These views highlight that while Executors are foundational, they require carefu
 
 References:
 
-- https://dzone.com/articles/the-challenges-and-pitfalls-of-using-executors-in
-- https://www.baeldung.com/java-executor-service-tutorial
-- https://dzone.com/articles/executorservice-10-tips-and
-- https://www.baeldung.com/java-executorservice-vs-completablefuture
-- https://openjdk.org/jeps/505
-- https://stackoverflow.com/questions/1647990/executorservices-surprising-performance-break-even-point-rules-of-thumb
-- https://stackoverflow.com/questions/70547255/when-should-i-use-executor-over-executorservice
-- https://javanexus.com/blog/understanding-java-executor-service-pitfalls
+- <https://dzone.com/articles/the-challenges-and-pitfalls-of-using-executors-in>
+- <https://www.baeldung.com/java-executor-service-tutorial>
+- <https://dzone.com/articles/executorservice-10-tips-and>
+- <https://www.baeldung.com/java-executorservice-vs-completablefuture>
+- <https://openjdk.org/jeps/505>
+- <https://stackoverflow.com/questions/1647990/executorservices-surprising-performance-break-even-point-rules-of-thumb>
+- <https://stackoverflow.com/questions/70547255/when-should-i-use-executor-over-executorservice>
+- <https://javanexus.com/blog/understanding-java-executor-service-pitfalls>

@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-## ✅ GPU 测试训练完成！
+## ✅ GPU 测试训练完成
 
 **GPU Droplet 已确认工作** — 100 次迭代仅需几秒，loss 从 10.84 降至 8.72（在 H200 上）。
 
@@ -18,6 +18,7 @@ type: note
 ## 📋 完整情况总结
 
 ### 🔄 61GB 传输（进行中）
+
 ```
 VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp───►  GPU Droplet
        61GB                      823MB / 61GB                  waiting
@@ -49,10 +50,12 @@ VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp─
 ## 🐌 传输速度问题
 
 VPS 仅推送 ~200MB/min，因为：
+
 - 1 vCPU 从可能较慢的磁盘读取
 - 到我的服务器的网络带宽
 
 **加速备选方案：**
+
 1. **直接从 VPS → GPU Droplet 传输**（SSH 密钥配置好后）
 2. **在 GPU Droplet 上直接从 VPS 恢复传输**
 3. **耐心等待** — 5 小时不算太糟

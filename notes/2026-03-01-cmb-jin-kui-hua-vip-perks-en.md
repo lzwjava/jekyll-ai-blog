@@ -17,7 +17,8 @@ type: note
 
 As of February 2026, the core benefits remain focused on personalized wealth management, priority services, exclusive privileges, and lifestyle enhancements. These are consistent based on official CMB descriptions and have not shown major changes in recent announcements.
 
-### Key Benefits:
+### Key Benefits
+
 - **Dedicated Wealth Management Services**
   - One-on-one professional wealth advisor (专属财富顾问) for personalized financial planning, including TREE asset allocation (covering investment, consumption, education, retirement, and inheritance).
   - Regular comprehensive asset reviews and dynamic rebalancing.

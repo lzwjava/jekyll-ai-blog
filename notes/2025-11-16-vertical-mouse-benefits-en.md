@@ -21,6 +21,7 @@ Here are the actual ergonomic benefits of a true vertical mouse (like the B.O.W 
 | Less pressure on carpal tunnel | Palm is supported, not resting on the desk → less direct compression on the median nerve. | Big help for people who already have mild carpal tunnel or tingling fingers. | Many PTT/Mobile01 users with early carpal tunnel symptoms report numbness gone in 2–4 weeks |
 
 Real-life summary from Taiwanese users (PTT, Mobile01, Dcard 2023–2025 posts):
+
 - Most common: “滑鼠手完全不痛了” (mouse-hand pain completely gone)
 - Second most common: “肩膀放鬆很多，不會聳肩了” (shoulders much more relaxed)
 - About 10 % still complain it’s not precise enough for Photoshop/gaming, but 90 % of office/programming users say the comfort is worth it once they pass the 2–3 week adaptation period.

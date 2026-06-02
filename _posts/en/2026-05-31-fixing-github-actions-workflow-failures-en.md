@@ -14,13 +14,17 @@ Here's the summary of what I found and fixed:
 ## GH Actions Failures — Root Causes & Fixes Applied
 
 ### 1. Lint & Security workflow (`lint.yml`) — ALL 3 jobs failing
+
 **Fix applied** (`/Users/lzwjava/projects/ww/.github/workflows/lint.yml`):
+
 - **ruff job**: Added `uv pip install ruff` after `uv sync` — ruff wasn't in pyproject.toml deps
 - **pyright job**: Added `uv pip install pyright` — same issue
 - **bandit job**: Added missing `uv sync` before `uv pip install bandit[toml]` — no venv existed
 
 ### 2. Unit Test workflow — 45 errors
+
 **Fixes applied**:
+
 - **`pyproject.toml`**: Added `PyJWT>=2.0.0` to dependencies (12 jwt-related test errors)
 - **`tests/test_main.py`**: Updated `_run()` helper with `sys.modules` fallback for modules that can't be imported (macOS-only on Linux). Added `MagicMock` import.
 - **`tests/test_main_extended.py`**: Updated `_dispatch()` with same `sys.modules` fallback pattern
@@ -29,9 +33,11 @@ Here's the summary of what I found and fixed:
 - **Ruff f-string**: Fixed `f"\n--- Creating ---"` → `"\n--- Creating ---"` in `ww/amd_dev_cloud/start_train.py`
 
 ### 3. Integration Test workflow — directory missing
+
 **Fix applied**: Created `integration_tests/__init__.py`
 
 ### Remaining ~20 pre-existing errors (NOT from my commits)
+
 These are all `ModuleNotFoundError` from optional deps not in `pyproject.toml`:
 
 | Test file | Missing module |

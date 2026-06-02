@@ -14,12 +14,15 @@ type: note
 There were three layered issues preventing Gemma from working in OpenClaw:
 
 ### 1. llama-server not running
+
 The OpenClaw config referenced `llama-server` provider at `http://192.168.1.36:8081/v1`, but no process was listening. The old `~/llama.sh` starts a different model on port 8000.
 
 ### 2. Gemma 4's thinking mode
+
 Once started, llama-server's `--reasoning auto` detected Gemma 4's thinking template and split output into `reasoning_content` (with the actual text) and `content` (empty). OpenClaw reads `content`, so it got blank responses. Fixed with `--reasoning off`.
 
 ### 3. llama-server binding + proxychains routing (the real blocker)
+
 This was the tricky one. Two things combined:
 
 - llama-server defaults to binding on `127.0.0.1` only, so `http://192.168.1.36:8081` was unreachable even from the same machine

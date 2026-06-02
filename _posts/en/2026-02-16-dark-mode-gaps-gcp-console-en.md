@@ -29,6 +29,7 @@ However, the **tutorial pane** (the guided walkthrough or contextual help panel 
 - The main console UI is fully dark-mode compatible, but auxiliary elements like tutorials or specific legacy/iframe-based help content may default to light mode for readability or development reasons.
 
 **Possible workarounds:**
+
 - Try refreshing the page or closing/reopening the tutorial pane after switching themes.
 - If it's persistent, it may be a temporary limitation—Google has been actively improving dark mode coverage across services (e.g., recent updates to Vertex AI, Cloud Shell Editor, etc., show better support).
 - For better eye comfort in tutorials, you can use browser extensions like Dark Reader (though it may break some interactive console elements, so use cautiously).

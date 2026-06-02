@@ -18,11 +18,13 @@ type: note
 ## 从想法到指令的管道（Keyboard-to-Intent Pipeline）
 
 传统工作流：
+
 ```
 想法 → Finder/Dock → 点击 → 导航 → 点击 → 打开
 ```
 
 AI 代理工作流：
+
 ```
 想法 → 自然语言 → 完成
 ```

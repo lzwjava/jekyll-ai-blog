@@ -15,6 +15,7 @@ type: note
 ---
 
 ### 🔹 什么是 Alpine 深色主题？
+
 AG Grid 提供了多种内置主题用于表格样式设计。
 其中之一是 **Alpine** 主题，它包含 **浅色** 和 **深色** 两种变体：
 
@@ -28,15 +29,18 @@ AG Grid 提供了多种内置主题用于表格样式设计。
 ### 🔹 在 Angular + AG Grid 中使用 Alpine 深色主题
 
 1. **安装 AG Grid 包**
+
    ```bash
    npm install ag-grid-community ag-grid-angular
    ```
+
    （如果需要企业版功能，还需添加 `ag-grid-enterprise`。）
 
 ---
 
 2. **在 Angular 中导入 AG Grid 模块**
    在你的 `app.module.ts` 文件中：
+
    ```ts
    import { AgGridModule } from 'ag-grid-angular';
    import { NgModule } from '@angular/core';
@@ -60,6 +64,7 @@ AG Grid 提供了多种内置主题用于表格样式设计。
 
 3. **引入 AG Grid 样式**
    在 `angular.json` 文件的 `styles` 部分，添加 Alpine 深色主题的 CSS：
+
    ```json
    "styles": [
      "node_modules/ag-grid-community/styles/ag-grid.css",
@@ -72,6 +77,7 @@ AG Grid 提供了多种内置主题用于表格样式设计。
 
 4. **在模板中应用主题**
    在你的 `app.component.html` 文件中：
+
    ```html
    <ag-grid-angular
      style="width: 100%; height: 500px;"
@@ -86,6 +92,7 @@ AG Grid 提供了多种内置主题用于表格样式设计。
 
 5. **在组件中定义数据**
    在 `app.component.ts` 文件中：
+
    ```ts
    import { Component } from '@angular/core';
    import { ColDef } from 'ag-grid-community';
@@ -119,18 +126,22 @@ AG Grid 提供了多种内置主题用于表格样式设计。
 ---
 
 ### 🔹 在 Alpine 浅色与深色主题之间切换
+
 你可以通过更改表格容器上的类来动态切换主题：
 
 {% raw %}
+
 ```html
 <ag-grid-angular
   class="{{ isDark ? 'ag-theme-alpine-dark' : 'ag-theme-alpine' }}"
   ...
 ></ag-grid-angular>
 ```
+
 {% endraw %}
 
 在你的组件中：
+
 ```ts
 isDark = true;
 ```

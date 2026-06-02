@@ -37,6 +37,7 @@ type: note
 这些初创企业体现了2015年的时代精神：移动优先、按需便利、数据驱动颠覆。部分企业（如DoorDash和Slack）不仅生存下来更发展为行业巨头，而另一些（如Yik Yak）则揭示了行业风险。全球范围内，TransferWise（英国）和Deliveroo（英国融资1.95亿美元）等非美国玩家展现了市场的国际化趋势。若您对特定领域或地区感兴趣，我可提供更深入解析！
 
 #### 参考资料
+
 - [福布斯2015年度最热门初创企业](https://www.forbes.com/hottest-startups/2015/)
 - [CNBC 2015年度20家最热门初创企业](https://www.cnbc.com/2015/11/19/20-of-the-worlds-hottest-start-ups-of-2015.html)
 - [商业内幕2015年度25家最热门新创企业](https://www.businessinsider.com/best-startups-that-launched-in-2015-2015-5)

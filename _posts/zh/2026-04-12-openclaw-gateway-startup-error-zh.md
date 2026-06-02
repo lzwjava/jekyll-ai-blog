@@ -38,12 +38,15 @@ type: note
 **立即修复：**
 
 1. **等待完全启动**：在日志显示网关已在端口上监听之前，不要发送请求。使用以下命令监控日志：
+
    ```bash
    openclaw logs --follow
    ```
+
    在访问仪表板之前，请等待显示网关已就绪的消息
 
 2. **运行诊断命令**：运行 `openclaw doctor --fix` 自动解决常见配置问题：
+
    ```bash
    openclaw doctor --fix
    openclaw gateway restart

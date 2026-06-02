@@ -13,6 +13,7 @@ type: note
 命令按类别清晰分组，附有简要说明，着重强调对您技能组合的实际应用。我优先选择了能提升生产力、调试效率和系统优化能力的命令，假设您熟悉基于终端的工作流，并可能将这些命令用于开发、部署或研究任务。如果您需要，我可以提供特定命令的示例或脚本，或根据您的工作流（如开发与系统管理任务）生成命令使用频率图表。请随时告知！
 
 ### **文件与目录管理（15个命令）**
+
 1. **ls** - 列出目录内容（`ls -la`查看详细信息及隐藏文件）
 2. **cd** - 切换目录（`cd ~/projects`导航至GitHub项目文件夹）
 3. **pwd** - 显示当前工作目录（适用于脚本编写或路径验证）
@@ -30,6 +31,7 @@ type: note
 15. **chown** - 修改文件属主（`chown user:group file`部署时使用）
 
 ### **文本处理与操作（15个命令）**
+
 16. **cat** - 显示文件内容（`cat log.txt`快速查看日志）
 17. **less** - 交互式查看文件（`less server.log`浏览大型日志）
 18. **more** - 分页显示文件输出（`more README.md`查看文档）
@@ -47,6 +49,7 @@ type: note
 30. **diff** - 比较文件差异（`diff old.java new.java`代码变更）
 
 ### **系统监控与性能（15个命令）**
+
 31. **top** - 交互式系统进程监控（实时CPU/内存使用情况）
 32. **htop** - 增强型进程查看器（`htop`更佳可视化）
 33. **ps** - 列出进程（`ps aux | grep java`查看Java应用）
@@ -64,6 +67,7 @@ type: note
 45. **pmap** - 进程内存映射（`pmap -x <pid>`内存调试）
 
 ### **网络与连接（15个命令）**
+
 46. **ping** - 测试网络连通性（`ping google.com`可达性测试）
 47. **curl** - 获取URL数据（`curl -X POST api`API测试）
 48. **wget** - 下载文件（`wget file.tar.gz`项目依赖）
@@ -81,6 +85,7 @@ type: note
 60. **nmap** - 网络扫描（`nmap localhost`开放端口扫描）
 
 ### **开发与脚本编写（15个命令）**
+
 61. **gcc** - 编译C程序（`gcc -o app code.c`构建应用）
 62. **javac** - 编译Java代码（`javac Main.java`Java项目）
 63. **java** - 运行Java程序（`java -jar app.jar`执行应用）
@@ -98,6 +103,7 @@ type: note
 75. **strace** - 追踪系统调用（`strace -p <pid>`调试用）
 
 ### **软件包管理（10个命令）**
+
 76. **apt** - 软件包管理器（`apt install vim`安装软件）
 77. **apt-get** - 高级包管理工具（`apt-get upgrade`系统更新）
 78. **dpkg** - 管理.deb包（`dpkg -i package.deb`手动安装）
@@ -110,6 +116,7 @@ type: note
 85. **apt-mark** - 标记软件包（`apt-mark hold package`防止升级）
 
 ### **系统管理与安全（15个命令）**
+
 86. **sudo** - 以root权限运行命令（`sudo apt update`管理任务）
 87. **su** - 切换用户（`su - user`切换账户）
 88. **passwd** - 修改密码（`passwd user`安全设置）
@@ -127,6 +134,7 @@ type: note
 100. **env** - 显示环境变量（`env | grep PATH`调试用）
 
 ### **针对您背景的特别说明**
+
 - **开发侧重**：`git`、`mvn`、`docker`和`kubectl`等命令契合您的全栈和容器化工作流，特别适用于您10个GitHub项目及云平台经验（AWS、Azure、阿里云）
 - **调试与性能**：包含`strace`、`gdb`、`htop`和`dmesg`等工具，满足您后端和系统调试需求（基于8年后端经验）
 - **网络功能**：`curl`、`netcat`和`nmap`等命令支持您的API和网络专业知识，适用于微服务或云部署测试

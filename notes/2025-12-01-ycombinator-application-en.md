@@ -17,6 +17,7 @@ Y Combinator (YC) runs four batches per year: Winter (January–March), Spring (
 The application process is straightforward, online, and free. YC receives over 10,000 applications per batch but accepts only about 1–1.5% (roughly 200–300 companies). They prioritize exceptional founders, clear thinking, and traction over polished ideas. You can apply even if you're pre-product or bootstrapped—many successful companies (e.g., Airbnb, Dropbox) applied early.
 
 #### Step-by-Step Application Process
+
 1. **Check Eligibility and Deadlines**:
    - Anyone can apply: solo founders, students, non-technical teams, or international applicants (though relocation to SF is required for the batch).
    - Batches open applications ~2–3 months in advance. For example:
@@ -46,6 +47,7 @@ The application process is straightforward, online, and free. YC receives over 1
    - **Rejection**: You can reapply to future batches (many alumni applied 2–4 times). Use feedback to iterate.
 
 #### Tips for Success
+
 - **Be Specific and Honest**: YC wants clarity on your problem, users, and growth potential. Avoid hype; back claims with evidence (e.g., "We interviewed 50 teachers and found 80% struggle with X").
 - **Show Progress**: Even small wins (e.g., 10 users, a MVP built) matter more than the idea.
 - **Team Focus**: YC bets on people—highlight unique strengths and prior collaborations.
@@ -57,6 +59,7 @@ The application process is straightforward, online, and free. YC receives over 1
 The form evolves slightly per batch, but core questions remain focused on your company, team, progress, and vision. Based on the latest templates (for Winter 2026), expect ~20–25 questions divided into sections. They're open-ended to reveal your thinking. Sample questions and advice (from YC's guide and alumni insights):
 
 #### Company Basics
+
 - **What is your company name?** (Or "TBD" if pre-incorporated.)
 - **What is your URL?** (Website, landing page, or "N/A.")
 - **What is your company’s one-sentence description?**
@@ -65,6 +68,7 @@ The form evolves slightly per batch, but core questions remain focused on your c
   *Advice*: Be user-focused: "We help X do Y by Z." Include target market size and why now.
 
 #### Progress and Traction
+
 - **What have you built to date? Please include links to demos, videos, etc.**
   *Advice*: Link everything; if nothing, explain your plan and any prototypes.
 - **What milestones have you hit to date? (e.g., launched a product, got X users, raised $Y)?**
@@ -73,6 +77,7 @@ The form evolves slightly per batch, but core questions remain focused on your c
   *Advice*: Show iteration—e.g., "Grew from 10 to 100 users in 2 months."
 
 #### Founders and Team
+
 - **Tell us about the founders: backgrounds, how you met, why you're the right team.**
   *Advice*: Specific stories, e.g., "We built X together at Google; combined, we have 10 years in edtech." Highlight grit (e.g., "I bootstrapped my first app at 16").
 - **Who are your co-founders, if any?** (Names, roles, % equity.)
@@ -80,6 +85,7 @@ The form evolves slightly per batch, but core questions remain focused on your c
   *Advice*: Personal, specific—e.g., "Wrote open-source tool used by 1K devs" vs. vague praise. YC sees this as the #1 question for founder fit.
 
 #### Idea and Market
+
 - **Why is now the right time for your company?**
   *Advice*: Tie to trends/tech (e.g., "AI APIs now make X scalable").
 - **How do you acquire customers? What’s your go-to-market strategy?**
@@ -90,18 +96,21 @@ The form evolves slightly per batch, but core questions remain focused on your c
   *Advice*: Clear revenue: "Subscription at $10/mo; targeting $1B TAM."
 
 #### Logistics and Commitment
+
 - **Full-time dedication dates?** (e.g., "Started Jan 2025; full-time since.")
 - **Legal status?** (Incorporated? Where?)
 - **Batch preference?** (Winter/Spring/etc.)
 - **Additional questions**: Funding history, prior YC apps, or "Anything else we should know?"
 
 #### Video and Final Notes
+
 - **Upload founder video**: 60 seconds max. Script: Who you are → Problem → Solution → Why you.
 - **Optional**: Progress since last app, or challenges/risks.
 
 For the full, up-to-date form, start it at [ycombinator.com/apply](https://www.ycombinator.com/apply)—you can save and exit. Alumni recommend answering as if pitching a smart friend: direct, evidence-based, and passionate.
 
 ### References
+
 - [Apply to Y Combinator](https://www.ycombinator.com/apply)
 - [How to Apply to Y Combinator](https://www.ycombinator.com/howtoapply)
 - [YC Application Questions Template](https://www.peakdigitalstudio.com/articles/yc-application-questions-template)

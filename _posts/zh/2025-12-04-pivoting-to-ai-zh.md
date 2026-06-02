@@ -31,6 +31,7 @@ type: note
 这些观点来自 Reddit 帖子、X 帖子和行业文章的混合，工程师们在其中分享了坦诚的遗憾和现实。如果你正在考虑转型，请首先专注于培养可转移的技能，如分析和协作——许多人强调，扎实的软件基础能让转型更顺利，而不是更困难。
 
 **参考文献：**
+
 - [Unpopular Opinion: AI is making me a better software engineer (Reddit)](https://www.reddit.com/r/webdev/comments/1mnl5t3/unpopular_opinion_ai_is_making_me_a_better/)
 - [Pivoting to an AI developer (Reddit)](https://www.reddit.com/r/webdev/comments/1cm3qjl/pivoting_to_an_ai_developer/)
 - [Hot Take: AI won’t replace that many software engineers (Reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1jum6ct/hot_take_ai_wont_replace_that_many_software/)

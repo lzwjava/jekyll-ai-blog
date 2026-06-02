@@ -28,6 +28,7 @@ type: note
 专门用瓶子，或将菠萝片“倒着”放入盐水中，并没有出现在任何可靠的来源中。这可能是为了方便储存而做的个人改动（例如，为了方便携带或节省冰箱空间，将切片放入可重复使用的瓶子中），但对于盐水的好处来说，这不是必需的。碗同样可以用于浸泡。
 
 如果目的是方便储存预先切好的菠萝：
+
 - 如果需要，可以在盐水中短暂浸泡。
 - 彻底沥干。
 - 存放在密封容器或罐子中，在冰箱中冷藏3-5天。
@@ -36,8 +37,8 @@ type: note
 
 参考资料：
 
-- https://www.tasteofhome.com/article/pineapple-in-salt-water/
-- https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/
-- https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/
-- https://www.thetakeout.com/1760955/how-to-make-bland-pineapple-sweeter/
-- https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/
+- <https://www.tasteofhome.com/article/pineapple-in-salt-water/>
+- <https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/>
+- <https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/>
+- <https://www.thetakeout.com/1760955/how-to-make-bland-pineapple-sweeter/>
+- <https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/>

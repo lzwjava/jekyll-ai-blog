@@ -22,11 +22,13 @@ In Chinese universities (and most large universities worldwide) in 2025, the cor
 - **Internal high-speed resources (videos, courses, mirrors, etc.)**: Still use the **campus intranet (private IPv4 address space)**, often with **10G or higher bandwidth between the core switches and the media servers. This is why internal videos and course platforms (such as Tsinghua XueTangX, UOOC, or school-specific video servers, software mirrors) can reach 100–500 MB/s or more when downloading, while the external Internet is much slower.
 
 **Authentication method**:
+
 - **802.1X** (the same as in 2013) is still the most widely used. You plug in the cable or connect to the campus Wi-Fi, then open the browser → captive portal → enter your **student ID + password** (or scan a QR code on the same student ID and password) to log in.
 - **Srun/BAS** (Deep Blue) is still the most popular in Chinese universities, and most schools use **Dr.COM**, **Srun (Srun) 3000/4000**, **Huawei iMaster NCE-Campus**, **H3Com/H3C** or **Ruijie/Cernet** solutions.
 - **IPv4** is still the main protocol used for internal services. Many schools are still using **IPv4** for the intranet, and only the gateway to the outside world is IPv6, so internal resources are still in the private 10.0.0.0/8, 172.16.0.0/12, etc., and the speed is very fast.
 
 **Why is the internal speed still so much faster than the external?**
+
 - The internal traffic does not go through the school’s expensive external bandwidth (the external bandwidth is usually only a few tens of Gbps, but the internal bandwidth is hundreds of Gbps, and the internal traffic is completely free of charge and has no traffic accounting.
 - The internal video servers, software mirrors (Tsinghua TUNA, USTC mirror, etc.) are placed in the school’s own data center or in the Cernet high-speed nodes, so the download speed can reach the upper limit of the local network card.
 

@@ -13,6 +13,7 @@ type: note
 I'll break down the LoRA demo code into key pieces, explaining each part in detail before moving to the next. This will help illustrate how LoRA works in a clear, step-by-step manner. The code is based on the previous example, using PyTorch to implement LoRA for a simple linear layer.
 
 ### Code Piece 1: LoRA Layer Definition
+
 ```python
 import torch
 import torch.nn as nn
@@ -30,6 +31,7 @@ class LoRALayer(nn.Module):
 ```
 
 #### Explanation
+
 This piece defines the `LoRALayer` class, which implements the LoRA technique. Here's what's happening:
 
 - **Imports and Class Setup**: We import PyTorch (`torch`) and its neural network module (`nn`). The `LoRALayer` class inherits from `nn.Module`, making it a PyTorch module that can be integrated into larger models.
@@ -43,6 +45,7 @@ This setup ensures that only the small `lora_A` and `lora_B` matrices are update
 ---
 
 ### Code Piece 2: LoRA Forward Pass
+
 ```python
     def forward(self, x):
         # Original linear transformation + LoRA adjustment
@@ -52,6 +55,7 @@ This setup ensures that only the small `lora_A` and `lora_B` matrices are update
 ```
 
 #### Explanation
+
 This piece defines the forward pass of the `LoRALayer`, which computes the output of the layer:
 
 - **Input**: The input `x` is a tensor of shape `(batch_size, in_features)`, representing a batch of input data.
@@ -64,6 +68,7 @@ The low-rank structure (`rank` is small, e.g., 4) ensures the adjustment is comp
 ---
 
 ### Code Piece 3: Toy Dataset and Training
+
 ```python
 def create_toy_dataset(n_samples=1000):
     X = torch.randn(n_samples, 64)  # Random input features
@@ -85,6 +90,7 @@ def train_model(model, X, y, epochs=10, lr=0.01):
 ```
 
 #### Explanation
+
 This piece creates a toy dataset and trains the LoRA-adapted model:
 
 - **Toy Dataset**: The `create_toy_dataset` function generates synthetic data for demonstration. `X` is a tensor of shape `(1000, 64)` (1000 samples, 64 features), and `y` is a tensor of shape `(1000, 10)` (1000 samples, 10 output dimensions). These are random tensors to simulate input-output pairs.
@@ -98,6 +104,7 @@ This setup demonstrates how LoRA fine-tunes only the low-rank matrices, keeping 
 ---
 
 ### Code Piece 4: Main Execution and Parameter Count
+
 ```python
 def main():
     # Set random seed for reproducibility
@@ -123,6 +130,7 @@ if __name__ == "__main__":
 ```
 
 #### Explanation
+
 This piece ties everything together and highlights LoRA's efficiency:
 
 - **Random Seed**: `torch.manual_seed(42)` ensures reproducibility of random initializations.
@@ -138,6 +146,7 @@ When you run this, you'll see the number of trainable parameters is much smaller
 ---
 
 ### Running the Code
+
 To run this, you need PyTorch installed (`pip install torch`). Save the full code as a `.py` file and execute it. The output will show the number of parameters and the training loss over 10 epochs, demonstrating LoRA's efficiency in fine-tuning.
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)

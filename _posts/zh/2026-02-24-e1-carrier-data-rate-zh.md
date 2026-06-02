@@ -15,7 +15,8 @@ type: note
 
 正确答案是 **B: 2.048 Mbps**。
 
-### 解释：
+### 解释
+
 **E1 carrier** 是一种数字传输格式，广泛用于欧洲和世界其他地区（北美和日本除外，它们使用 T1 标准）。它由 **International Telecommunication Union (ITU)** 标准化。
 
 - **Data Rate**：E1 线路的总数据速率是 **2.048 Mbps**。

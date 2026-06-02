@@ -61,6 +61,7 @@ Music is an aphrodisiac and is essential to setting the mood. Make sure you and 
 - R&B, Neo-Soul, Lo-fi beats, and slow acoustic tracks are also popular choices.
 
 **Tips:**
+
 - Create a dedicated playlist in advance — don't let algorithm recommendations break the mood.
 - Keep volume at a level that enhances the atmosphere without being distracting.
 - Aside from the device providing the music, put all other technology far away to minimize distractions.

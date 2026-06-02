@@ -17,12 +17,15 @@ Answer:
 **Dieter Rams** is one of the most influential industrial designers of the 20th century. Born on May 20, 1932, in Wiesbaden, Germany, he is best known for his long collaboration with **Braun** (the German consumer electronics company) and for developing the famous **"Ten Principles of Good Design"**, which continue to shape modern product design philosophy.
 
 ### Early Life and Education
+
 Rams grew up in a family environment influenced by craftsmanship—his grandfather was a carpenter, which sparked his early interest in making things. He initially trained in architecture and interior decoration, also studying carpentry. After working briefly as an architect, he joined Braun in 1955 at the age of 23. This marked the beginning of his most significant professional phase.
 
 ### Career at Braun
+
 From 1955 to 1995, Rams worked at Braun, becoming Chief Design Officer in 1961. During his nearly 40-year tenure, he led the design of hundreds of products, transforming Braun into a symbol of functional, minimalist, high-quality consumer electronics. His designs moved household appliances away from heavy, furniture-like appearances toward clean, modern, and user-focused forms.
 
 Some of his most iconic and famous designs for Braun include:
+
 - **SK 4 Phonosuper** (1956, often called "Snow White's Coffin") — a groundbreaking transparent-lid radio-phonograph that became a design milestone.
 - **TP 1** portable radio/phono combination (1959).
 - **T 3** pocket radio (1958).
@@ -34,9 +37,11 @@ Some of his most iconic and famous designs for Braun include:
 His work emphasized clarity, functionality, and restraint, often summarized in his personal motto: **"Weniger, aber besser"** ("Less, but better").
 
 ### Collaboration with Vitsœ
+
 In 1959, Rams began a long-term partnership with the British furniture company **Vitsœ** (originally Vitsœ-Zapf). His most enduring contribution there is the **606 Universal Shelving System** (1960), a modular, minimalist storage solution that remains in production today with only minor updates. This system exemplifies his belief in durable, adaptable, and unobtrusive design.
 
 ### The Ten Principles of Good Design
+
 In the late 1970s, concerned about increasing visual and material clutter in the world, Rams formulated his **Ten Principles of Good Design** (sometimes called the "Ten Commandments"). These were his answer to the question: "Is my design good design?"
 
 Here they are in full:
@@ -55,6 +60,7 @@ Here they are in full:
 These principles remain timeless and are widely taught in design schools. They have influenced countless designers and companies.
 
 ### Legacy and Influence
+
 Rams' functionalist, minimalist approach has had a profound impact on contemporary design. Apple’s Steve Jobs and Jony Ive openly acknowledged inspiration from Rams—many see echoes of his work in the iPod, iPhone, and macOS interfaces. His designs are held in major museums, including the Museum of Modern Art (MoMA).
 
 Even in his 90s, Rams continues to reflect on design through the **Dieter and Ingeborg Rams Foundation** and remains an advocate for responsible, sustainable design.

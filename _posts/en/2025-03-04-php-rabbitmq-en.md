@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Key Points
+
 - It seems likely that to use "php-amqplib/php-amqplib" version 2.6.*, you need to install it via Composer and follow basic steps for sending and receiving messages with RabbitMQ.
 - The process involves setting up a connection, declaring a queue, and using methods like `basic_publish` for sending and `basic_consume` with a loop for receiving, which may differ slightly from newer versions.
 - Research suggests that for version 2.6.*, the consuming process requires a manual loop with `wait()`, unlike newer versions that might use a `consume()` method.
@@ -16,6 +17,7 @@ type: note
 ---
 
 ### Installation and Setup
+
 To get started with "php-amqplib/php-amqplib" version 2.6.*, first install it using Composer by running:
 
 ```bash
@@ -25,6 +27,7 @@ composer require "php-amqplib/php-amqplib:2.6.*"
 Ensure RabbitMQ is installed and running on your system, typically accessible at `localhost:5672` with default credentials (`guest/guest`). Adjust these settings if your setup differs.
 
 ### Sending Messages
+
 To send a message, include the necessary PHP files and create a connection:
 
 ```php
@@ -53,6 +56,7 @@ $connection->close();
 ```
 
 ### Receiving Messages
+
 For receiving, set up similarly but define a callback for message handling:
 
 ```php
@@ -85,11 +89,13 @@ Note that for version 2.6.*, you need the loop with `wait()` to keep consuming, 
 This section provides a comprehensive guide on using the "php-amqplib/php-amqplib" library, specifically version 2.6.*, for interacting with RabbitMQ, a popular message queue system. The information is derived from official documentation, tutorials, and version-specific details, ensuring a thorough understanding for developers.
 
 #### Background and Context
+
 "php-amqplib/php-amqplib" is a PHP library for communicating with RabbitMQ, implementing the AMQP 0.9.1 protocol. Version 2.6.* is an older release, and while the library has evolved to version 3.x.x by March 2025, understanding its usage in this specific version is crucial for legacy systems or specific project requirements. The library is maintained by contributors including Ramūnas Dronga and Luke Bakken, with significant involvement from VMware engineers working on RabbitMQ ([GitHub - php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)).
 
 RabbitMQ tutorials, such as those on the official RabbitMQ website, provide examples that are generally applicable but may reflect newer versions. For version 2.6.*, adjustments are necessary, particularly in the consuming process, as detailed below.
 
 #### Installation Process
+
 To begin, install the library using Composer, the PHP dependency manager. Run the following command in your project directory:
 
 ```bash
@@ -99,6 +105,7 @@ composer require "php-amqplib/php-amqplib:2.6.*"
 This command ensures the library is downloaded and configured for use, with Composer managing dependencies. Ensure RabbitMQ is installed and running, typically accessible at `localhost:5672` with default credentials (`guest/guest`). For production, adjust host, port, and credentials as needed, and consult [CloudAMQP PHP Documentation](https://www.cloudamqp.com/docs/php.html) for managed broker setups.
 
 #### Sending Messages: Step-by-Step
+
 Sending messages involves establishing a connection and publishing to a queue. Here’s the process:
 
 1. **Include Required Files:**
@@ -143,6 +150,7 @@ Sending messages involves establishing a connection and publishing to a queue. H
 This process is standard across versions, with no significant changes noted in the changelog for version 2.6.* compared to later releases.
 
 #### Receiving Messages: Version-Specific Details
+
 Receiving messages in version 2.6.* requires careful attention, as the consuming mechanism differs from newer versions. Here’s the detailed process:
 
 1. **Include Required Files:**
@@ -202,11 +210,13 @@ Receiving messages in version 2.6.* requires careful attention, as the consuming
 An unexpected detail is the need for the manual loop in version 2.6.*, which may require additional error handling for production use, such as catching exceptions for connection issues.
 
 #### Version-Specific Considerations
-Version 2.6.* is part of the older releases, and while the changelog does not explicitly list it, versions around 2.5 to 2.7 show enhancements like heartbeat support and PHP 5.3 compatibility. For large messages, version 2.6.* supports `setBodySizeLimit` on the channel to handle memory limits, truncating messages if needed, with details in [GitHub - php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib).
+
+Version 2.6.*is part of the older releases, and while the changelog does not explicitly list it, versions around 2.5 to 2.7 show enhancements like heartbeat support and PHP 5.3 compatibility. For large messages, version 2.6.* supports `setBodySizeLimit` on the channel to handle memory limits, truncating messages if needed, with details in [GitHub - php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib).
 
 Comparing to version 3.2, changes include PHP 8 support and new methods like `consume()`, but the core functionality for sending and basic consuming remains similar. Users should test for compatibility, especially with PHP versions, as 2.6.* likely supports PHP 5.3 to 7.x, per changelog entries.
 
 #### Troubleshooting and Best Practices
+
 - If sending fails, check RabbitMQ logs for resource alarms, such as disk space below 50 MB, and adjust settings via [RabbitMQ Configuration Guide](https://www.rabbitmq.com/configure.html#config-items).
 - For consuming, ensure the consumer runs continuously; use tools like Supervisor for daemonizing in production.
 - List queues using `rabbitmqctl list_queues` on Linux or `rabbitmqctl.bat list_queues` on Windows as a privileged user, per [RabbitMQ Command Line Tools](https://www.rabbitmq.com/cli.html).
@@ -223,11 +233,13 @@ Comparing to version 3.2, changes include PHP 8 support and new methods like `co
 This table highlights the key difference in consuming, which is critical for version 2.6.* users.
 
 #### Conclusion
+
 Using "php-amqplib/php-amqplib" version 2.6.* involves standard Composer installation, with sending messages via `basic_publish` and receiving via `basic_consume` with a manual loop. While similar to newer versions, the consuming process requires additional attention, making it essential for developers to test and adjust for legacy systems. For further details, consult the official RabbitMQ tutorials and GitHub repository.
 
 ---
 
 ### Key Citations
+
 - [GitHub - php-amqplib/php-amqplib The most widely used PHP client for RabbitMQ](https://github.com/php-amqplib/php-amqplib)
 - [RabbitMQ tutorial - "Hello World!" PHP example](https://www.rabbitmq.com/tutorials/tutorial-one-php)
 - [CloudAMQP PHP Documentation Get started with CloudAMQP and PHP](https://www.cloudamqp.com/docs/php.html)

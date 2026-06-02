@@ -23,12 +23,14 @@ type: note
 既然您已拥有新版 `protoc` 二进制文件，只需补充缺失的头文件而无需降级：
 
 1. **下载完整 Protobuf 发布包**（需与您的 protoc 版本匹配，例如 27.3 或最新版）：
+
    ```
    wget https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protoc-27.3-linux-x86_64.zip
    unzip protoc-27.3-linux-x86_64.zip -d protoc-full
    ```
 
 2. **安装头文件**：
+
    ```
    sudo mkdir -p /usr/local/include/google/protobuf
    sudo cp -r protoc-full/include/google /usr/local/include/
@@ -42,6 +44,7 @@ type: note
    - 快速冒烟测试：在项目目录下执行 `protoc --proto_path=/usr/local/include proto/greptime/v1/ddl.proto --decode_raw=stdin < /dev/null`（忽略输出，仅确认无"File not found"错误）
 
 4. **重新构建**：
+
    ```
    make clean  # 清理部分构建结果
    make
@@ -50,6 +53,7 @@ type: note
 如果您使用的是支持 `apt` 的发行版（如 Ubuntu），替代方案是 `sudo apt install libprotobuf-dev`——但这可能安装旧版本（如 3.12），与您手动安装的 protoc 冲突。如果出现冲突，请坚持使用手动复制头文件的方式，并显式设置 `PROTOC=/usr/local/bin/protoc`。
 
 ### 补充说明
+
 - 如果持续报错（例如缺少 `wrappers.proto` 等其他 proto 文件），完整的 `include/google/` 拷贝应该能覆盖这些依赖
 - 对于容器化构建（Docker），请将这些步骤添加到 Dockerfile 中
 - 构建完成后，可通过 `cargo run --bin greptime -- standalone start` 测试 proto 集成是否正常

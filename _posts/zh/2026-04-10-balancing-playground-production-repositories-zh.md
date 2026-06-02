@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：对于仓库 https://github.com/lzwjava/blog-source 和 https://github.com/lzwjava/ww，如果从一开始就正确分离（将大型脚本分离到独立仓库），你还会有后来的迁移需求吗？如何平衡游乐场/实验性项目与面向公众使用的外部开源项目？
+问题：对于仓库 <https://github.com/lzwjava/blog-source> 和 <https://github.com/lzwjava/ww，如果从一开始就正确分离（将大型脚本分离到独立仓库），你还会有后来的迁移需求吗？如何平衡游乐场/实验性项目与面向公众使用的外部开源项目？>
 
 回答：
 
@@ -58,9 +58,9 @@ type: note
 
 参考文献：
 
-- https://kodus.io/en/monorepo-vs-multi-repo-strategy/
-- https://www.thoughtworks.com/insights/blog/agile-engineering-practices/monorepo-vs-multirepo
-- https://www.iteratorshq.com/blog/a-comprehensive-guide-on-project-folder-organization/
-- https://www.c-sharpcorner.com/article/common-software-engineering-practices-for-production-code/
-- https://mitcommlab.mit.edu/broad/commkit/file-structure/
-- https://iseoblue.com/iso-27001/annex-a/control-8-31/
+- <https://kodus.io/en/monorepo-vs-multi-repo-strategy/>
+- <https://www.thoughtworks.com/insights/blog/agile-engineering-practices/monorepo-vs-multirepo>
+- <https://www.iteratorshq.com/blog/a-comprehensive-guide-on-project-folder-organization/>
+- <https://www.c-sharpcorner.com/article/common-software-engineering-practices-for-production-code/>
+- <https://mitcommlab.mit.edu/broad/commkit/file-structure/>
+- <https://iseoblue.com/iso-27001/annex-a/control-8-31/>

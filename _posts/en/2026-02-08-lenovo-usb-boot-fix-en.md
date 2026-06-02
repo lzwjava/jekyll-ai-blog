@@ -22,6 +22,7 @@ When you create a standard Ubuntu USB (whether with `dd`, Etcher, Rufus, etc.), 
 - Second entry: Often labeled **lite** / **Lite** / **ubuntu (lite)** / **Veno** / **Ventoy** / **EFI USB Device (grub)** / or similar variations (this is typically the **fallback / safe / compatibility** boot path)
 
 ### Why the first option often fails on Lenovo XiaoXin
+
 - The first "Ubuntu" entry uses the standard GRUB EFI bootloader directly (`\EFI\ubuntu\shimx64.efi` or `\EFI\BOOT\BOOTX64.EFI` with signed shim).
 - On some Lenovo firmware (especially older XiaoXin models or ones with quirky UEFI implementations), this entry is either:
   - Ignored completely (even though Secure Boot is disabled)
@@ -29,11 +30,13 @@ When you create a standard Ubuntu USB (whether with `dd`, Etcher, Rufus, etc.), 
   - Immediately falls back to the internal Windows Boot Manager
 
 ### Why the second / "lite" / "Veno" option usually works
+
 - This is almost always the **EFI fallback path** (`\EFI\BOOT\BOOTX64.EFI` from the ISO's `/boot/grub/x86_64-efi/` or similar).
 - It uses a simpler, more compatible GRUB configuration that Lenovo firmware tends to handle better.
 - Many Lenovo users (especially on Chinese domestic models) report that selecting this second "lite" or "Veno"-looking entry successfully loads the Ubuntu live desktop / installer, while the first one does nothing or reboots to Windows.
 
 ### What to do next
+
 1. Restart the laptop with the Ubuntu USB plugged in.
 2. Spam **Fn + F12** (or F12) at the Lenovo logo to open the boot menu.
 3. Look carefully at the list — ignore the first "Ubuntu" or similar entry.
@@ -48,6 +51,7 @@ When you create a standard Ubuntu USB (whether with `dd`, Etcher, Rufus, etc.), 
 5. Press Enter and wait — it should now load the purple Ubuntu screen → GRUB menu → Try Ubuntu (or Install Ubuntu).
 
 If it still doesn't work:
+
 - Double-check that **Secure Boot is disabled** and **Boot Mode is set to Both / UEFI + Legacy** in BIOS (as explained before).
 - Try a different USB port.
 - Remake the USB with **Rufus** in **DD Image** mode (very reliable for Lenovo) or use **Ventoy** and copy the ISO to it — Ventoy usually shows a clean GRUB menu that bypasses these entry issues.

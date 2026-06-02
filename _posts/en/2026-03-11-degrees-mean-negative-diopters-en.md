@@ -28,6 +28,7 @@ In many Asian countries (Taiwan, China, Hong Kong), prescription strength is com
 > **100 degrees = 1.00 diopter (D)**
 
 So:
+
 - 150 degrees = **1.50 D**
 - 200 degrees = **2.00 D**
 - 500 degrees = **5.00 D**

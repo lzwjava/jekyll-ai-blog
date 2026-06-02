@@ -17,6 +17,7 @@ After  (8 workers):    4.8s for 5 repos  → 4.6x speedup
 ```
 
 For your 62-repo update:
+
 - Sequential: ~4.5 minutes (62 × ~4.4s each)
 - Parallel -j8: ~35 seconds (62 × 4.4s ÷ 8 workers)
 
@@ -27,6 +28,7 @@ Changes made:
 2. `~/.zsh/completions/_ww` — added completion for `projects update --jobs/-j/--category/-c/--list`.
 
 Usage:
+
 ```
 ww projects update              # all repos, 8 workers (default)
 ww projects update -j16         # more aggressive

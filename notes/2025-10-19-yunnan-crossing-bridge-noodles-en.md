@@ -11,9 +11,11 @@ type: note
 ---
 
 ### What is Guoqiao Mixian?
+
 Guoqiao mixian (过桥米线 in Chinese characters) is a famous Yunnan-style rice noodle soup, often translated as "crossing-the-bridge noodles." It's distinct from typical wheat-based noodles—it's made with thin, fresh rice vermicelli (mǐ xiàn) served in a hot broth with toppings like meat, vegetables, and eggs. The name comes from a legend about a wife delivering a hot meal to her husband across a bridge.
 
 ### Pronunciation Guide
+
 In Mandarin Chinese (using pinyin romanization):
 
 - **Full name**: Guō qiáo mǐ xiàn

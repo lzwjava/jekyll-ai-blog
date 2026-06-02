@@ -23,7 +23,8 @@ Its main responsibilities are:
 
 In short: The adapter supplies the data and generates/binds the views that represent each list item.
 
-### Quick comparison of the options:
+### Quick comparison of the options
+
 - **A. Manage layout inflation** → Partially true but incomplete. The adapter *does* inflate layouts inside `onCreateViewHolder()`, but that’s just one small part of its job.
 - **B. Provide data and create views for each item** → Correct and complete description.
 - **C. Handle network requests** → No, that’s done elsewhere (ViewModel, Repository, etc.).

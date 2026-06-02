@@ -26,11 +26,13 @@ type: note
 这会直接影响 Proof of Concept (POC) 的开展：
 
 ### 为什么仅靠本地测试是不够的
+
 - 在你本地机器上（可以自由安装任何东西）运行完美的 POC，在目标类生产环境中可能会完全失败。
 - 在本地非常简单的 dependencies（例如 `pip install`、`apt-get`、下载 browser drivers），在受限服务器上会变成重大的阻碍。
 - 环境差异（OS 版本、缺失的 system libraries、proxy 设置、firewall 规则）可能导致意料之外的失败。
 
 ### 你提到的例子
+
 - **Python/Java API 测试**：通常比较轻量。它们仅依赖于语言标准库或纯代码 packages（如 requests, httpclient 等）。这些可以通过内部 artifact repositories 或 vendoring 轻易引入，因此通常能以较小的代价运行。
 - **Selenium/Web UI automation**：问题要多得多，因为它通常需要：
   - 安装真实的 browser (Chrome, Firefox 等)。
@@ -40,6 +42,7 @@ type: note
   这些步骤在银行环境中经常被禁止，或者需要经过多重审批。
 
 ### 在此类环境中进行技术 POC 的最佳实践
+
 - 尽早在尽可能模拟生产环境的测试环境中进行验证（具有相同限制的 staging 或私有云服务器）。
 - 在受限环境中进行端到端的安装和执行步骤测试，而不仅仅是核心逻辑。
 - 考虑减少 dependencies 的替代方案：

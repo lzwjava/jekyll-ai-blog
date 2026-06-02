@@ -74,6 +74,7 @@ def prepare_dataset(texts, tokenizer):
 ```
 
 这是纯 next-token prediction（causal LM）：
+
 - 无 instruction formatting，无 chat template
 - 模型学习以你的写作风格继续文本
 - `input_ids` = tokenized 文章，`attention_mask` = 告知模型哪些 token 是真实 vs padding
@@ -160,6 +161,7 @@ tokenizer.save_pretrained(OUTPUT_DIR)
 ```
 
 Hugging Face `Trainer` 处理：
+
 - Forward pass → 计算 loss
 - Backward pass → 计算 gradients
 - Gradient accumulation（4 步 → 然后 update）
@@ -180,6 +182,7 @@ model = PeftModel.from_pretrained(base, "trained_model_qwen")
 ```
 
 或 merge 成单个模型：
+
 ```python
 model = model.merge_and_unload()  # Fuses LoRA weights back into base
 model.save_pretrained("merged_model")
@@ -188,8 +191,6 @@ model.save_pretrained("merged_model")
 ---
 
 ## VRAM 估算
-
-
 
 | 组件 | VRAM |
 |---|---|

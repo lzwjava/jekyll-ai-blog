@@ -21,6 +21,7 @@ Torri Huske was born on December 7, 2002, in Arlington, Virginia, making her 23 
 Her mother, Ying Weng Huske (originally from Guangzhou, China), was an architect there before immigrating to the United States in 1991 seeking better opportunities. Ying grew up during China's Cultural Revolution, including time in a rural labor camp setting after her family was relocated from Guangzhou. This background has been a major source of inspiration for Torri, who credits her mother's hard work and resilience for shaping her own work ethic. Torri also has a Chinese given name, 簡愛 (Jiǎn’ài). Her father, Jim Huske, is American (white), and the family resides in Arlington, Virginia.
 
 Torri rose to prominence as a young talent:
+
 - She qualified for the 2020 Tokyo Olympics (held in 2021), where she won a silver medal in the women's 4×100 m medley relay and placed 7th in the 100 m butterfly.
 - At the 2022 World Championships, she won multiple medals, including golds.
 - Her breakthrough came at the 2024 Paris Olympics, where she won the gold medal in the women's 100-meter butterfly (a close, dramatic finish), along with additional medals in relays (she is a six-time Olympic medalist overall in her career).

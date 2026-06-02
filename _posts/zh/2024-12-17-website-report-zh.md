@@ -17,10 +17,12 @@ type: post
 
 1. 致命错误（Fatal Error）：
    - 该网站出现了内存分配错误：
+
      ```
      Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 417792 bytes)
      in /www/wwwroot/xxx.e-xxx.com/wordpress/wp-includes/class-wpdb.php on line 2316
      ```
+
    - 这表明当前的 WordPress 内存限制不足。
 
 2. 语言切换功能：

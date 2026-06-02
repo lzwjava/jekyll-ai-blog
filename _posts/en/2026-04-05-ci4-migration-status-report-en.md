@@ -16,6 +16,7 @@ Here's the full review, Boss:
 ## 📊 CI4 Migration Status
 
 **Running stack (Docker):**
+
 - `live-server-web-1` — nginx on port 8088 ✅
 - `live-server-app-1` — PHP 8.5.4 FPM on 8081/9000 ✅
 - `live-server-database-1` — MySQL 5.7 ✅
@@ -44,6 +45,7 @@ Here's the full review, Boss:
 **Root cause:** `JSSDK` library uses CI3's `get_instance()` pattern — a global singleton removed in CI4.
 
 **Affected code flow:**
+
 ```
 Request → Home::index()
   → BaseController.__construct()
@@ -59,12 +61,14 @@ Request → Home::index()
 ## 🔧 Fix Options
 
 ### Option A: Deep CI4 Refactor
+
 - Rewrite `JSSDK` to use CI4 services
 - Rewrite `REST_Controller` (or replace with CI4 API resources)
 - Fix all controllers using `$this->load`
 - Estimated time: **~2 hours** with a coding agent
 
 ### Option B: PHP 8.3 + Keep CI3
+
 - Downgrade to PHP 8.3 (CI3-compatible)
 - Keep current app as-is
 - Skip CI4 migration entirely

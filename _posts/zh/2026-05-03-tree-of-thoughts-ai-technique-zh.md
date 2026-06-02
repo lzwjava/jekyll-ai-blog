@@ -70,4 +70,4 @@ type: note
 
 如果您需要，我可以解析该仓库的实际代码结构，或将其与链式思维及 ReAct 进行对比（它们密切相关，但行为方式差异显著）。
 
-[1]: https://arxiv.org/abs/2305.10601?utm_source=chatgpt.com “Tree of Thoughts: Deliberate Problem Solving with Large Language Models”
+[1]: <https://arxiv.org/abs/2305.10601?utm_source=chatgpt.com> “Tree of Thoughts: Deliberate Problem Solving with Large Language Models”

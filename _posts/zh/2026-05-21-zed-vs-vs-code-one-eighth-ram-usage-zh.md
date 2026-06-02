@@ -22,6 +22,7 @@ type: note
 **Zed 使用的内存仅为 VS Code 的 1/8**，在完全相同的项目目录下。
 
 区别在于架构：
+
 - **Zed** 是原生应用 (Rust/GPUI) — 开销极小，仅 2 个进程
 - **VS Code** 基于 Electron (Chromium + Node) — 每个辅助程序都是一个沙盒进程，共 16 个
 

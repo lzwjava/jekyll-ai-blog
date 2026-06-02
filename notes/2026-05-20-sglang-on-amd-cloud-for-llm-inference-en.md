@@ -69,6 +69,7 @@ resp = client.chat.completions.create(
 ## TL;DR for Your Work
 
 If you're running inference on AMD Developer Cloud (MI300X), SGLang is the **recommended serving backend** — better than vLLM for:
+
 - Long shared-prefix workloads (agents, RAG)
 - DeepSeek-class MoE models (large expert parallelism)
 - High-throughput batch workloads with speculative decoding

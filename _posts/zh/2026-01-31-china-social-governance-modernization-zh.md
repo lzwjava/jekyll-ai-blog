@@ -15,6 +15,7 @@ type: note
 ## (1) Innovating Social Governance Systems（创新社会治理体制）
 
 目标是完善具有以下特征的 Social Governance 体系：
+
 - **Party committee leadership**（党委领导）
 - **Government responsibility**（政府负责）
 - **Social collaboration**（社会协同）
@@ -26,6 +27,7 @@ type: note
 ## (2) Improving Social Governance Methods（改进社会治理方式）
 
 该方法强调四个核心原则：
+
 - **Systematic governance**（系统治理）—— 采取整体性方法
 - **Law-based governance**（依法治理）—— 遵循法律框架
 - **Source governance**（源头治理）—— 解决根本问题
@@ -34,6 +36,7 @@ type: note
 ## (3) Strengthening Mechanisms for Preventing and Resolving Social Conflicts（健全利益驱动机制和社会矛盾预防化解机制）
 
 这包括：
+
 - 完善社会矛盾排查预警体系
 - 建立重大决策 Social Stability Risk Assessment（社会稳定风险评估）机制
 - 完善多元化纠纷解决机制
@@ -42,6 +45,7 @@ type: note
 ## (4) Building Social Psychological Service Systems（加强社会心理服务体系建设）
 
 重点领域包括：
+
 - 加强思想政治工作
 - 在全社会弘扬 Socialist Core Values（社会主义核心价值观）
 - 健全惩恶扬善机制
@@ -50,6 +54,7 @@ type: note
 ## (5) Strengthening Community Governance Systems（加强社区治理体系建设）
 
 关键举措涉及：
+
 - 将资源、服务和管理下沉到社区层面
 - 赋予社区相应的责任、权力和资源
 - 为居民提供精准高效的服务

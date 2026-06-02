@@ -20,6 +20,7 @@ It mirrors how Karpathy trains models: don't over-read the paper first, run the 
 The forgetting-and-relearning cycle isn't a bug. It's spaced repetition without the flashcard overhead. Each time you relearn a dish, you're rebuilding the mental model faster, and some things stick permanently — that's how intuition compresses experience.
 
 What this style gives you:
+
 - **Tactile calibration** — you learn what "done" looks like, smells like, sounds like, not just what the recipe says
 - **Error tolerance** — failed dishes aren't wasted, they're labeled training data
 - **First-principles cooking** — after enough iterations, you stop following recipes and start reasoning from ingredients + heat + time

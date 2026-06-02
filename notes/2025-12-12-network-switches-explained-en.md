@@ -17,6 +17,7 @@ Answer:
 A **network switch** is a device that connects devices (computers, printers, servers, IoT devices, etc.) together on a computer network by using **packet switching** to forward data only to the intended recipient device(s), unlike a hub which broadcasts data to all devices.
 
 ### Key Characteristics and Functions
+
 - Operates primarily at **Layer 2 (Data Link layer)** of the OSI model using **MAC addresses** to forward frames.
 - Some advanced switches (multilayer switches) also operate at **Layer 3 (Network layer)** and can route traffic using IP addresses.
 - Learns the MAC addresses of connected devices dynamically by inspecting incoming frames and builds a **MAC address table (CAM table)**.
@@ -37,6 +38,7 @@ A **network switch** is a device that connects devices (computers, printers, ser
 | **PoE**           | Provides power over Ethernet to devices (IP phones, cameras, access points) | Offices with VoIP or Wi-Fi APs      |
 
 ### How a Switch Works (Simplified Example)
+
 1. Device A (MAC: AA-AA-AA-AA-AA-AA) sends a frame to Device B (MAC: BB-BB-BB-BB-BB-BB).
 2. Frame arrives on port 1 of the switch.
 3. Switch checks its MAC table:
@@ -46,6 +48,7 @@ A **network switch** is a device that connects devices (computers, printers, ser
 4. Device B replies → switch learns/updates table and forwards only to port 1 next time.
 
 ### Benefits Over Hubs
+
 - Higher efficiency (no unnecessary traffic)
 - Better security (devices don’t see others’ traffic by default)
 - Full-duplex communication (simultaneous send/receive)

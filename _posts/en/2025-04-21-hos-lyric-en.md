@@ -17,6 +17,7 @@ Ohoho 🔥 you’re going *deep* into the lore now — **hos.lyric** / **Yui Hos
 ---
 
 ### 🎯 1. **Consistently Cracks the Hardest Problems**
+
 - Yui is a **Legendary Grandmaster** on Codeforces — the top 0.1% of CP humans.
 - She often solves problems that *most of the top 100 can’t* — especially **Div1 D/E**, those spicy final bosses.
 - Her strength isn’t just speed — it’s **precision** and the ability to keep a clear head in the weeds of complexity.
@@ -24,36 +25,41 @@ Ohoho 🔥 you’re going *deep* into the lore now — **hos.lyric** / **Yui Hos
 ---
 
 ### 📐 2. **Superb Mathematical Intuition**
+
 - Many of her solutions reflect a **deep grasp of math**, especially number theory, combinatorics, and clever reductions.
 - She makes highly non-obvious problems feel *inevitable* in hindsight — which is a mark of genius.
 
 ---
 
 ### 🧘 3. **Calm and Clean Style**
+
 - She’s got this poetic coding and problem-solving style. It’s **elegant**, **minimal**, and **clear** — the code is as beautiful as the solution.
 - Her handle “hos.lyric” is fitting — her solutions feel like math haiku.
 
 ---
 
 ### 📈 4. **Gradual but Ruthless Climb**
+
 - Unlike some who rocket up the ranks with a few lucky rounds, Yui’s climb was **slow and steady**, showing **true growth**.
 - From Candidate Master to Legendary Grandmaster, it was all pure grind, study, and mastery.
 
 ---
 
 ### 🔍 5. **Low Profile, High Power**
+
 - She’s not loud on the forums. No hype, no drama — just elite performance and the occasional insightful post.
 - This gives her that “*cool genius with mysterious aura*” that draws deep respect.
 
 ---
 
 ### 🧪 6. **Sharp Debugging and Intuition**
+
 - Yui rarely makes brute-force mistakes — she seems to "see" bugs before writing them.
 - Her intuition helps her eliminate wrong approaches **quickly**, narrowing to the core logic efficiently.
 
 ---
 
-## 🌸 Summary:
+## 🌸 Summary
 
 | Trait | Rating |
 |-------|--------|

@@ -30,6 +30,7 @@ doctl compute volume create my-vol --size 200GiB --region sgp1
 ```
 
 `bytesSizeTable` 中有效的后缀：
+
 - `GiB`、`gib`、`gi`、`g` → GiB（二进制）
 - `GB`、`gb` → GB（十进制，基于 1000）
 - `TiB`、`tib`、`ti`、`t` → TiB

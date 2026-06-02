@@ -34,6 +34,7 @@ openclaw onboard
 ```
 
 After running this command, use arrow keys to navigate the interactive menu:
+
 1. When prompted to **Select channel**, choose **WhatsApp (QR link)** and press Enter.
 2. Select **Yes** when asked to confirm.
 3. **Scan the QR code** with your WhatsApp phone — go to WhatsApp → Settings → Linked Devices → Link a Device.

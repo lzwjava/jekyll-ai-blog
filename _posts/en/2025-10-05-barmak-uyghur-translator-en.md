@@ -13,9 +13,11 @@ type: note
 The Barmak app refers to a suite of mobile applications developed by Barmak Technology, primarily targeted at Uyghur speakers in Xinjiang, China. While there are several apps under the Barmak brand (such as input methods for typing in Uyghur and navigation tools with Uyghur voice support), the one that aligns with your description as a "video app for Xinjiang people" is **BARMAK维汉翻译 (Barmak Uyghur-Chinese Translation)**.
 
 ### What is it?
+
 This is a translation and language-learning app focused on bridging Uyghur and Mandarin Chinese (referred to as "Guoyu" or national language). It's designed to help Uyghur users in Xinjiang overcome language barriers in daily life, work, travel, and education. The app emphasizes ease of use for non-native Mandarin speakers, with a clean interface and support for offline features where possible.
 
 ### Key Features
+
 - **Translation Tools**:
   - Text translation: Instant Uyghur-to-Chinese (and vice versa) for words, sentences, or phrases.
   - Voice translation: Speak in Uyghur to get real-time Mandarin output, or vice versa—useful for conversations.
@@ -32,5 +34,6 @@ The app is free to download, with optional in-app purchases for premium learning
 This app is part of a broader effort to support minority language users in Xinjiang by making Mandarin more accessible without losing Uyghur cultural context.
 
 ### References
+
 - [BARMAK维汉翻译 on APKPure](https://apkpure.com/cn/barmakwei-han-fan-yi/com.barmak.trans)
 - [BARMAK维汉翻译 App Description](https://apkpure.com/cn/barmakwei-han-fan-yi/com.barmak.trans)

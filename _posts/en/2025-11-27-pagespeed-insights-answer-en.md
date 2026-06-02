@@ -24,5 +24,4 @@ The correct answer is **C. PageSpeed Insights**.
 ---
 You can watch a quick overview of the Google Search Console Page Speed Report, which is powered by PageSpeed Insights' data, in [this video](https://www.youtube.com/watch?v=OMTdcnp2L98).
 
-
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

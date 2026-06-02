@@ -17,6 +17,7 @@ Given your impressive background—top NOIP ranking, 1000+ algorithm problems, 1
 The goal: Build intuition for how software meets hardware, from process scheduling to reverse-engineering executables. This aligns with your entrepreneurial/product mindset—think applying it to optimize your GitHub repos or experiment with custom tools for your life hacks (e.g., a low-level app for gadget integration).
 
 #### Recommended Programming Languages
+
 - **C (Primary)**: The gold standard for OS development and low-level work. It's procedural, gives direct memory access, and underpins most kernels (e.g., Linux). Your Java/Spring experience will help with pointers and structs, but dive into unsafe ops like manual allocation.
 - **Assembly (x86-64 or ARM)**: Essential for binary-level understanding. Start with x86 (common on desktops) since your Lenovo setup likely uses it. Use NASM or GAS syntax.
 - **Rust (Advanced/Optional)**: For safer systems programming once comfortable with C. It's memory-safe without GC, ideal for modern kernels (e.g., Redox OS). Great for your ML/big data side—pairs well with Torch.
@@ -26,7 +27,9 @@ Avoid higher-level langs like Python/JS here; they're too abstracted. Total time
 #### Phased Learning Roadmap
 
 ##### Phase 1: OS Fundamentals (1-2 Months) – Theory + C Deep Dive
+
 Build conceptual foundation. Focus on how OS abstracts hardware, tying into your container/distributed systems knowledge.
+
 - **Key Topics**:
   - Processes/threads, scheduling, synchronization (mutexes, semaphores).
   - Memory management (virtual memory, paging, malloc/free internals).
@@ -40,7 +43,9 @@ Build conceptual foundation. Focus on how OS abstracts hardware, tying into your
 - **Time Tip**: 10 hours/week reading, 10 coding. Log experiments in your blog for reinforcement.
 
 ##### Phase 2: Low-Level Programming & Assembly (2 Months) – Hardware Interface
+
 Shift to binaries: Understand machine code generation and execution.
+
 - **Key Topics**:
   - CPU architecture (registers, ALU, pipeline).
   - Assembly basics: MOV, JMP, CALL; stack/heap ops.
@@ -54,7 +59,9 @@ Shift to binaries: Understand machine code generation and execution.
 - **Pro Tip**: Since you're in Guangzhou, join local meetups via WeChat groups for x86 hackers—leverage your English for global Discord communities like r/asm.
 
 ##### Phase 3: Binary Working & Reverse Engineering (2-3 Months) – Dissecting Code
+
 Apply to real binaries: Reverse-engineer apps, spot vulnerabilities.
+
 - **Key Topics**:
   - Disassembly, decompilation.
   - Tools: Ghidra (free), Radare2, objdump.
@@ -68,7 +75,9 @@ Apply to real binaries: Reverse-engineer apps, spot vulnerabilities.
 - **Tie to Your Life**: Analyze a gadget app's binary for custom mods—e.g., tweak an air fryer controller if open-source.
 
 ##### Phase 4: Integration & Advanced Projects (Ongoing, 3+ Months)
+
 Combine OS + low-level for real impact.
+
 - **Key Topics**: Kernel modules, custom drivers, virtualization (KVM).
 - **Projects**:
   - Fork xv6 (MIT's teaching OS) and add a new syscall for file encryption.
@@ -78,6 +87,7 @@ Combine OS + low-level for real impact.
 - **Career Angle**: This boosts your HSBC/outsourced roles—e.g., secure microservices or debug low-level banking apps. Share progress on your blog (aim for 60k+ views milestone).
 
 #### General Tips
+
 - **Tools/Setup**: QEMU for emulation, GCC/Clang for C, VS Code with extensions (C/C++ IntelliSense, Assembly). Your self-taught style shines—treat this like your myopia research: Experiment, log failures.
 - **Pacing**: With your reading habit (320+ books), alternate theory with 1-hour daily coding. Use AI (like me) for code reviews or grammar tweaks on posts.
 - **Communities**: r/osdev, OSDev.org forums, Stack Overflow. For Chinese resources, Zhihu threads on "操作系统内核开发".
@@ -86,11 +96,12 @@ Combine OS + low-level for real impact.
 This path turns your algorithm prowess into systems mastery—imagine forking Linux for a custom travel app that hacks hotel WiFi binaries. Dive in; your track record says you'll crush it.
 
 ### References
+
 - [Operating System Concepts (Dinosaur Book)](https://www.wiley.com/en-us/Operating+System+Concepts%2C+10th+Edition-p-9781119808874)
 - [GeeksforGeeks OS Tutorial](https://www.geeksforgeeks.org/operating-systems/operating-systems/)
 - [Programming from the Ground Up](https://pdos.csail.mit.edu/6.828/2023/reading.html) (related MIT resources)
 - [Nand2Tetris](https://www.nand2tetris.org/)
-- [Practical Malware Analysis](https://www.no Starch.com/malware)
+- [Practical Malware Analysis](<https://www.no> Starch.com/malware)
 - [RE-MA Roadmap](https://github.com/x86byte/RE-MA-Roadmap)
 - [OSDev Wiki](https://wiki.osdev.org/Main_Page)
 - [xv6 OS](https://pdos.csail.mit.edu/6.828/2023/xv6.html)

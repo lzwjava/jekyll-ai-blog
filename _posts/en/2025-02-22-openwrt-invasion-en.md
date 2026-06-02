@@ -23,7 +23,6 @@ After running the exploit, you can access the router's web interface at a URL si
 
 `http://192.168.1.28/cgi-bin/luci/;stok=fe9b14c5c4dee48709fbdf00e048d5ec/web/home`
 
-
 ```bash
 lzwjava@anonymous OpenWRTInvasion % python remote_command_execution_vulnerability.py
 Router IP address [press enter for using the default 'miwifi.com']: 192.168.1.28

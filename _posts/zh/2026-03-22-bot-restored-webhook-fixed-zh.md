@@ -12,6 +12,7 @@ type: note
 一切就绪。Gateway 已重启，webhook 正在 `0.0.0.0:8788` 上监听，group policy 设置为 `open`。让我从容器测试完整流程：Webhook 来自容器已接受。让我检查 OpenClaw 是否处理了它：流水线工作正常！测试消息已接收（它被标记为 "replayed" 因为我之前使用了相同的 message ID）。以下是我们当前状态的总结：
 
 **工作正常：**
+
 - ✅ Nextcloud Talk plugin 已安装并加载
 - ✅ 在 Nextcloud 中注册 Bot (`talk:bot:install`)
 - ✅ Webhook listener 在 `0.0.0.0:8788` 上

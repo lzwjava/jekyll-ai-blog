@@ -22,18 +22,21 @@ tests/llm/
 ## Test Types
 
 ### Unit Tests
+
 - **File Pattern**: `test_*_client.py`
 - **Description**: Test individual client functions in isolation using mocks
 - **Dependencies**: None (uses mocks for API calls)
 - **Run Command**: `python -m pytest tests/llm/test_*_client.py -v`
 
 ### Integration Tests
+
 - **File**: `test_integration.py`
 - **Description**: Test actual API calls with real services
 - **Dependencies**: Requires valid API keys set as environment variables
 - **Run Command**: `python -m pytest tests/llm/test_integration.py -v`
 
 ### Utility Tests
+
 - **File**: `test_utils.py`
 - **Description**: Test helper functions and test fixtures
 - **Dependencies**: None
@@ -42,13 +45,16 @@ tests/llm/
 ## Setup
 
 ### Install Dependencies
+
 ```bash
 cd tests/llm
 pip install -r requirements.txt
 ```
 
 ### Environment Variables
+
 For integration tests, set the following environment variables:
+
 ```bash
 export DEEPSEEK_API_KEY="your_deepseek_key"
 export GEMINI_API_KEY="your_gemini_key"
@@ -61,26 +67,31 @@ export OPENROUTER_API_KEY="your_openrouter_key"
 ## Running Tests
 
 ### Run All Tests
+
 ```bash
 python -m pytest tests/llm/ -v
 ```
 
 ### Run Only Unit Tests
+
 ```bash
 python -m pytest tests/llm/ -m unit -v
 ```
 
 ### Run Only Integration Tests
+
 ```bash
 python -m pytest tests/llm/ -m integration -v
 ```
 
 ### Run Tests with Coverage
+
 ```bash
 python -m pytest tests/llm/ --cov=scripts.llm --cov-report=html -v
 ```
 
 ### Run Specific Client Tests
+
 ```bash
 python -m pytest tests/llm/test_deepseek_client.py -v
 python -m pytest tests/llm/test_gemini_client.py -v
@@ -89,6 +100,7 @@ python -m pytest tests/llm/test_openrouter_client.py -v
 ```
 
 ### Run Tests Excluding Slow Tests
+
 ```bash
 python -m pytest tests/llm/ -v -m "not slow"
 ```
@@ -98,6 +110,7 @@ python -m pytest tests/llm/ -v -m "not slow"
 The tests cover the following scenarios:
 
 ### For Each Client
+
 - ✅ Successful API calls
 - ✅ Missing API keys
 - ✅ Network errors and timeouts
@@ -109,12 +122,14 @@ The tests cover the following scenarios:
 - ✅ Edge cases (empty prompts, long prompts)
 
 ### Integration Tests
+
 - ✅ Cross-client compatibility
 - ✅ Performance comparison
 - ✅ Error handling consistency
 - ✅ Response format validation
 
 ### Utility Tests
+
 - ✅ Mock response creation
 - ✅ Test fixture availability
 - ✅ Helper function validation
@@ -131,21 +146,25 @@ Tests are organized using pytest markers:
 ## Debugging Tests
 
 ### Verbose Output
+
 ```bash
 python -m pytest tests/llm/ -v -s
 ```
 
 ### Stop on First Failure
+
 ```bash
 python -m pytest tests/llm/ -v -x
 ```
 
 ### Run Specific Test Function
+
 ```bash
 python -m pytest tests/llm/test_deepseek_client.py::TestDeepseekClient::test_successful_api_call -v
 ```
 
 ### Debug Mode
+
 ```bash
 python -m pytest tests/llm/ --pdb
 ```

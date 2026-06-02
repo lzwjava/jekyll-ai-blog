@@ -52,6 +52,7 @@ type: note
 简言之：他是一位基础性发明家，在时常重写历史的领域里为完整叙事而战。充满激情？是的。过激？有时如此。但他的坚持确实揭示了学术归因的真实漏洞。
 
 ### 参考文献
+
 - [尤尔根·施密德胡伯维基百科](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber)
 - [现代AI注释史（施密德胡伯，2022）](https://people.idsia.ch/~juergen/deep-learning-history.html)
 - [剽窃获得的诺贝尔奖（施密德胡伯报告，2025）](https://people.idsia.ch/~juergen/nobel-prize-for-plagiarism.html)

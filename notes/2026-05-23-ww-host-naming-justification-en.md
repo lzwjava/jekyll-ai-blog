@@ -14,12 +14,14 @@ Good question. Here's my take:
 **`ww host`** is the right name.
 
 Why it fits:
+
 - Standard SSH/DevOps terminology for "a compute endpoint you interact with"
 - Covers all three: local Mac, self-built desktop, cloud VPS
 - Short, single syllable, easy to type
 - `ww host local`, `ww host workstation`, `ww host dmit` — reads naturally
 
 Why others don't:
+
 - `machine` — too vague, could mean anything physical
 - `computer` — excludes cloud VPS conceptually (it's not "your computer")
 - `box` — too informal

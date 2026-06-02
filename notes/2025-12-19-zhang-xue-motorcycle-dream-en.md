@@ -30,8 +30,8 @@ Zhang Xue's story is inspirational in the motorcycle community: from a poor rura
 
 References:
 
-- https://www.scmp.com/news/people-culture/china-personalities/article/3334052/chinese-man-chases-tv-crew-100km-show-motorcycle-skills-now-owns-us99-million-firm
-- https://news.imotorbike.com/en/2024/11/zhang-xue-kove-moto-chongqing/
-- https://www.rideapart.com/news/739322/kove-former-ceo-founder-zhang-xue/
-- https://www.advrider.com/look-where-koves-big-boss-ended-up/
-- https://barebonesmc.com/shock-news-kove-resignation/
+- <https://www.scmp.com/news/people-culture/china-personalities/article/3334052/chinese-man-chases-tv-crew-100km-show-motorcycle-skills-now-owns-us99-million-firm>
+- <https://news.imotorbike.com/en/2024/11/zhang-xue-kove-moto-chongqing/>
+- <https://www.rideapart.com/news/739322/kove-former-ceo-founder-zhang-xue/>
+- <https://www.advrider.com/look-where-koves-big-boss-ended-up/>
+- <https://barebonesmc.com/shock-news-kove-resignation/>

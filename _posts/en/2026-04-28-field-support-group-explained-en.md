@@ -48,7 +48,7 @@ A field support group may:
 
 ---
 
-### Simple way to remember:
+### Simple way to remember
 
 > “Field” = outside headquarters
 > “Support group” = team that helps solve problems

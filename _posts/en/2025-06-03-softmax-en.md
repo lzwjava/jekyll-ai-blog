@@ -19,12 +19,14 @@ The Softmax function is defined as follows for a vector \\( z = [z_1, z_2, \dots
 \\]
 
 Where:
+
 - \\( z_i \\): The input score (logit) for the \\( i \\)-th class.
 - \\( e^{z_i} \\): The exponential of the input score, which ensures positivity.
 - \\( \sum_{j=1}^n e^{z_j} \\): The sum of exponentials of all input scores, used for normalization.
 - The output \\( \text{Softmax}(z_i) \\) represents the probability of the \\( i \\)-th class.
 
 Key properties:
+
 - **Output range**: Each output value is between 0 and 1.
 - **Sum to 1**: The sum of all output values equals 1, making it a valid probability distribution.
 - **Amplifies differences**: The exponential function in Softmax emphasizes larger input values, making the output probabilities more decisive for larger logits.
@@ -61,6 +63,7 @@ The Softmax function is commonly used in the **output layer** of neural networks
    - Many frameworks combine Softmax with cross-entropy loss in a single operation (e.g., `torch.nn.CrossEntropyLoss` in PyTorch) for numerical stability, as computing Softmax separately can lead to issues like overflow with large logits.
 
 ### Practical Considerations
+
 - **Numerical Stability**: Direct computation of Softmax can lead to overflow due to the exponential function. A common trick is to subtract the maximum logit value from all logits (\\( z_i - \max(z) \\)) before applying Softmax, which doesn't change the output but prevents large exponentials.
 - **Softmax vs. Sigmoid**: For **binary classification**, the sigmoid function is often used instead of Softmax, as it handles two classes more efficiently. Softmax generalizes sigmoid to multiple classes.
 - **Limitations**:
@@ -68,7 +71,9 @@ The Softmax function is commonly used in the **output layer** of neural networks
   - Softmax can be overly confident in predictions due to the exponential function, which may amplify small differences in logits.
 
 ### Example Calculation
+
 Suppose a neural network outputs logits \\([1.5, 0.8, -0.2]\\) for a 3-class problem:
+
 1. Compute exponentials: \\( e^{1.5} \approx 4.482, e^{0.8} \approx 2.225, e^{-0.2} \approx 0.819 \\).
 2. Sum the exponentials: \\( 4.482 + 2.225 + 0.819 = 7.526 \\).
 3. Compute probabilities:
@@ -78,6 +83,7 @@ Suppose a neural network outputs logits \\([1.5, 0.8, -0.2]\\) for a 3-class pro
 4. Output: \\([0.596, 0.296, 0.109]\\), a valid probability distribution.
 
 ### Visualization of Softmax
+
 To illustrate how Softmax transforms logits into probabilities, consider the following chart showing logits and their corresponding Softmax probabilities:
 
 ```chartjs
@@ -134,4 +140,5 @@ To illustrate how Softmax transforms logits into probabilities, consider the fol
 This chart compares the raw logits with the probabilities after applying Softmax, highlighting how Softmax normalizes the values into a probability distribution.
 
 ### Summary
+
 The Softmax function is a cornerstone of multi-class classification in deep learning, transforming raw scores into a probability distribution. It is widely used in neural network output layers for tasks like image and text classification, enabling models to assign probabilities to multiple classes and facilitate training with loss functions like cross-entropy. Its exponential nature makes it sensitive to differences in logits, and careful implementation ensures numerical stability.

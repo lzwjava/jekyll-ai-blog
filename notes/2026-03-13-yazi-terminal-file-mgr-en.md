@@ -11,11 +11,11 @@ type: note
 
 I'll search for comprehensive information about Yazi to give you a detailed introduction to this file manager tool.Let me search for more information about Yazi's plugins and use cases.---
 
-## Question:
+## Question
 
 What is a comprehensive introduction to Yazi, a file manager tool?
 
-## Answer:
+## Answer
 
 ### Overview
 
@@ -79,7 +79,7 @@ Yazi is particularly valuable for developers and terminal enthusiasts who want t
 
 ---
 
-## References:
+## References
 
 - [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - [https://yazi-rs.github.io/](https://yazi-rs.github.io/)

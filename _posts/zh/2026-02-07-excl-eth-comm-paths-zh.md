@@ -20,9 +20,9 @@ Answer: 填入空格的正确答案是 **"exclusively occupy"** (或 **"dedicate
 
 **Switched Ethernet** 通过使用 **Network Switch** 改变了这种局面。以下是为什么答案是“独占”的原因：
 
-*   **Micro-segmentation:** Switch 在发送端和接收端之间建立了一条专用的电路通路。当 Host A 与 Host B 通信时，Switch 会将它们相互“指向”，创建一条私人通道。
-*   **Point-to-Point Links:** 因为 Switch 上的每个端口都是一个独立的 collision domain，所以每一对主机基本上都拥有该特定链路的完整带宽。它们不需要与 Host C 或 Host D 竞争。
-*   **Full-Duplex Communication:** 现代交换网络支持同时发送和接收。由于介质在特定会话中被该对主机“独占”使用，数据包不会与其他数据包发生冲突。
+* **Micro-segmentation:** Switch 在发送端和接收端之间建立了一条专用的电路通路。当 Host A 与 Host B 通信时，Switch 会将它们相互“指向”，创建一条私人通道。
+* **Point-to-Point Links:** 因为 Switch 上的每个端口都是一个独立的 collision domain，所以每一对主机基本上都拥有该特定链路的完整带宽。它们不需要与 Host C 或 Host D 竞争。
+* **Full-Duplex Communication:** 现代交换网络支持同时发送和接收。由于介质在特定会话中被该对主机“独占”使用，数据包不会与其他数据包发生冲突。
 
 ---
 

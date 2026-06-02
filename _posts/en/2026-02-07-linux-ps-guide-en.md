@@ -35,24 +35,28 @@ The `ps` command has three different option styles that can be mixed:
 ## Most Useful Commands
 
 **See all processes for all users:**
+
 ```bash
 ps aux          # BSD style
 ps -ef          # Unix style
 ```
 
 **See processes in a tree/hierarchy:**
+
 ```bash
 ps auxf         # BSD style with forest view
 ps -ef --forest # Unix style with tree
 ```
 
 **See processes for a specific user:**
+
 ```bash
 ps -u username
 ps aux | grep username
 ```
 
 **See processes by PID:**
+
 ```bash
 ps -p 1234
 ps -p 1234,5678,9101  # multiple PIDs
@@ -61,6 +65,7 @@ ps -p 1234,5678,9101  # multiple PIDs
 ## Key Options Explained
 
 ### BSD Style (no dash)
+
 - `a` - show processes for all users
 - `u` - display user-oriented format (shows owner, CPU%, memory%, etc.)
 - `x` - include processes without a controlling terminal
@@ -69,6 +74,7 @@ ps -p 1234,5678,9101  # multiple PIDs
 - `ww` - unlimited width
 
 ### Unix Style (with dash)
+
 - `-e` - select all processes
 - `-f` - full format listing
 - `-l` - long format
@@ -120,32 +126,38 @@ ps aux --sort=-%mem | head    # top memory users
 ## Practical Examples
 
 **Find a specific process:**
+
 ```bash
 ps aux | grep firefox
 ```
 
 **Show threads:**
+
 ```bash
 ps -eLf          # all threads
 ps -T -p 1234    # threads for specific PID
 ```
 
 **Watch processes in real-time:**
+
 ```bash
 watch -n 1 'ps aux --sort=-%cpu | head -20'
 ```
 
 **See process with full command line:**
+
 ```bash
 ps auxww | grep process_name
 ```
 
 **Count processes:**
+
 ```bash
 ps aux | wc -l
 ```
 
 **See process tree from specific process:**
+
 ```bash
 ps -ef --forest | grep -A 5 process_name
 ```

@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: 如果在 Clash 配置中更换为 Cloudflare DNS 服务器，例如使用 nameserver 8.8.8.8 和 1.1.1.1，并将 fallback 设置为 https://1.1.1.1/dns-query，效果如何？
+Question: 如果在 Clash 配置中更换为 Cloudflare DNS 服务器，例如使用 nameserver 8.8.8.8 和 1.1.1.1，并将 fallback 设置为 <https://1.1.1.1/dns-query，效果如何？>
 
 Answer:
 
@@ -54,8 +54,8 @@ dns:
 
 | 设置 | 你的提议 | 推荐方案（上方） | 为什么更好？ |
 | :--- | :--- | :--- | :--- |
-| `nameserver` | 8.8.8.8, 1.1.1.1 (普通 DNS) | DoH: https://1.1.1.1/dns-query | 加密 → 防止 ISP/政府查看或篡改 DNS 查询内容 |
-| `fallback` | https://1.1.1.1/dns-query | 多个 DoH + DoT | 冗余备份 → 避免单点故障或临时被封锁 |
+| `nameserver` | 8.8.8.8, 1.1.1.1 (普通 DNS) | DoH: <https://1.1.1.1/dns-query> | 加密 → 防止 ISP/政府查看或篡改 DNS 查询内容 |
+| `fallback` | <https://1.1.1.1/dns-query> | 多个 DoH + DoT | 冗余备份 → 避免单点故障或临时被封锁 |
 | `enhanced-mode` | 未设置 | fake-ip | 对 app 隐藏真实目标 IP，降低 DNS 污染及泄漏风险 |
 | `fallback-filter` | 未设置 | geoip + domain 规则 | 智能回退：仅对国外网站使用国外 DNS，对本地/代理外直连则保持直连 |
 
@@ -83,7 +83,7 @@ dns:
 ### 最终提示
 
 - 更改 DNS 设置后 → 请完全重启 Clash。
-- 测试泄漏：在浏览器中访问 https://ipleak.net 或 https://dnsleaktest.com（应该只显示 1.1.1.1 或你的 proxy IP）。
+- 测试泄漏：在浏览器中访问 <https://ipleak.net> 或 <https://dnsleaktest.com（应该只显示> 1.1.1.1 或你的 proxy IP）。
 - 如果使用 **TUN 模式**，请确保也启用了 `dns-hijack: [any:53]` — 这会强制所有系统 DNS 流量通过 Clash。
 - 如果遇到解析缓慢或失败 → 尝试彻底移除 8.8.8.8，仅保留 DoH。
 

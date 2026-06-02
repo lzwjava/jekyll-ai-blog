@@ -45,6 +45,7 @@ This exact formulation appears repeatedly in official CPC documents, textbooks, 
 > “科学发展观，第一要义是发展，核心是以人为本，基本要求是全面协调可持续，根本方法是统筹兼顾。”
 
 Therefore:
+
 - **以人为本** (C) is the **core** (核心), not the basic requirement.
 - **全面协调可持续** (B) is clearly defined as the **basic requirement** (基本要求).
 

@@ -60,6 +60,7 @@ Since you mentioned it — the `CalledProcessError` from GCC during Triton compi
 - Triton's NVIDIA backend path is broken in your local install
 
 Quick checks:
+
 ```bash
 # Check CUDA lib is visible
 ldconfig -p | grep libcuda

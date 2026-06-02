@@ -101,7 +101,7 @@ If nothing shows → SSH is NOT running on port 22.
 
 ## ✅ 5. Check firewall (VERY COMMON ISSUE)
 
-### If using UFW:
+### If using UFW
 
 ```bash
 sudo ufw status
@@ -116,7 +116,7 @@ sudo ufw reload
 
 ---
 
-### If using iptables:
+### If using iptables
 
 ```bash
 sudo iptables -L -n

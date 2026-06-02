@@ -22,6 +22,7 @@ In contrast, full-time exam preparation (especially for extremely competitive te
 In China's context, many young people quit jobs or study full-time after graduation for the civil service exam due to its prestige and job security appeal amid economic uncertainty. However, the exam's low pass rate (often <1-2% for popular positions), combined with financial/psychological strain from unemployment, leads to repeated failures. Some reach their 30s stuck in this cycle, as prolonged full-time prep without results damages re-entry into the private job market and increases despair.
 
 People with part-time jobs or balanced routines often perform better because the job provides:
+
 - Routine and structure that builds discipline.
 - A mental break from exam pressure.
 - Proof of employability, reducing existential fear.

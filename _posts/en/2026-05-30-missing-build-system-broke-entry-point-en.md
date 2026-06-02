@@ -37,6 +37,7 @@ Without a build system, `uv` installs the dependencies but **never registers the
 **`pyproject.toml`** — two edits:
 
 1. Added a build system (hatchling):
+
 ```toml
 [build-system]
 requires = ["hatchling"]
@@ -44,6 +45,7 @@ build-backend = "hatchling.build"
 ```
 
 2. Replaced the old setuptools package discovery with hatch's equivalent:
+
 ```toml
 # Before (setuptools — inert without setuptools as build-backend)
 [tool.setuptools.packages.find]

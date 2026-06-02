@@ -9,6 +9,7 @@ type: note
 ---
 
 Thanks for sharing the specific directory structure for your `uva/106` subdirectory. It seems your project has a more granular structure where each UVA problem (e.g., `106`) is a separate directory with its own `src` folder containing a `Main.java` file and possibly input files like `1.in`. This suggests that each problem might be treated as a separate subproject or module. To accommodate this in a Maven multi-module setup, we can either:
+
 1. Treat each problem directory (e.g., `uva/106`) as its own Maven submodule.
 2. Keep `uva` as a single module and organize problem files within its `src/main/java` directory.
 
@@ -21,6 +22,7 @@ However, I’ll also provide an alternative approach where each problem is a sep
 ### Option 1: Single `uva` Module with Problem Packages
 
 #### Updated Directory Structure
+
 ```
 algorithm-solutions/
 ├── pom.xml
@@ -59,6 +61,7 @@ algorithm-solutions/
 ```
 
 #### Parent `pom.xml` (Root: `algorithm-solutions/pom.xml`)
+
 This remains largely the same as before, defining `nowcoder` and `uva` as modules.
 
 ```xml
@@ -103,6 +106,7 @@ This remains largely the same as before, defining `nowcoder` and `uva` as module
 ```
 
 #### Nowcoder Submodule `pom.xml` (`nowcoder/pom.xml`)
+
 This is unchanged from the previous response, assuming `nowcoder` files are moved to `src/main/java/com/algorithm/solutions/nowcoder/`.
 
 ```xml
@@ -141,6 +145,7 @@ This is unchanged from the previous response, assuming `nowcoder` files are move
 ```
 
 #### UVA Submodule `pom.xml` (`uva/pom.xml`)
+
 This module includes a `resources` directory for input files like `1.in`. The `Main.java` files for each problem are organized in packages.
 
 ```xml
@@ -180,15 +185,18 @@ This module includes a `resources` directory for input files like `1.in`. The `M
 ```
 
 #### File Organization
+
 - **Move Java Files**:
   - For each problem (e.g., `uva/106/src/Main.java`), move `Main.java` to `uva/src/main/java/com/algorithm/solutions/uva/p106/Main.java`.
   - Update the `Main.java` file to include the package declaration:
+
     ```java
     package com.algorithm.solutions.uva.p106;
     public class Main {
         // ... existing code ...
     }
     ```
+
   - Do this for all problems (e.g., `p100`, `p10000`, etc.).
 
 - **Move Input Files**:
@@ -196,7 +204,9 @@ This module includes a `resources` directory for input files like `1.in`. The `M
   - This allows Maven to include these files in the JAR, accessible via `ClassLoader.getResource()` or similar in your Java code.
 
 #### Running a Program
+
 To run a specific UVA problem (e.g., problem 106):
+
 ```bash
 mvn -pl uva exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
 ```
@@ -204,9 +214,11 @@ mvn -pl uva exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
 ---
 
 ### Option 2: Each UVA Problem as a Submodule
+
 If you prefer each UVA problem (e.g., `106`, `100`) to be its own Maven module, here’s how to set it up. This is more granular but increases the number of `pom.xml` files.
 
 #### Updated Directory Structure
+
 ```
 algorithm-solutions/
 ├── pom.xml
@@ -245,6 +257,7 @@ algorithm-solutions/
 ```
 
 #### Parent `pom.xml` (Root: `algorithm-solutions/pom.xml`)
+
 Add each problem as a module.
 
 ```xml
@@ -301,9 +314,11 @@ Add each problem as a module.
 ```
 
 #### Nowcoder Submodule `pom.xml` (`nowcoder/pom.xml`)
+
 Same as above (unchanged).
 
 #### UVA Problem 106 Submodule `pom.xml` (`uva/106/pom.xml`)
+
 Each problem has its own `pom.xml`. Here’s an example for `uva/106`:
 
 ```xml
@@ -352,20 +367,25 @@ Each problem has its own `pom.xml`. Here’s an example for `uva/106`:
 - **Repeat for Other Problems**: Create similar `pom.xml` files for `uva/100`, `uva/10000`, etc., adjusting the `artifactId` (e.g., `uva-100`), `name`, and `mainClass` (e.g., `com.algorithm.solutions.uva.p100.Main`).
 
 #### File Organization
+
 - **Move Java Files**:
   - For `uva/106/src/Main.java`, move to `uva/106/src/main/java/com/algorithm/solutions/uva/p106/Main.java`.
   - Add package declaration:
+
     ```java
     package com.algorithm.solutions.uva.p106;
     public class Main {
         // ... existing code ...
     }
     ```
+
 - **Move Input Files**:
   - Move `uva/106/1.in` to `uva/106/resources/1.in`.
 
 #### Running a Program
+
 To run problem 106:
+
 ```bash
 mvn -pl uva/106 exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
 ```
@@ -373,40 +393,50 @@ mvn -pl uva/106 exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Mai
 ---
 
 ### Recommendation
+
 - **Option 1 (Single `uva` Module)** is simpler and more scalable, especially if you have many UVA problems. It avoids creating numerous `pom.xml` files and keeps the project structure clean. Use packages to organize problems logically.
 - **Option 2 (Per-Problem Modules)** is better if you want each problem to be completely independent (e.g., for separate deployment or testing). However, it requires more maintenance due to the number of modules.
 
 ### Steps to Implement Option 1
+
 1. **Create Directory Structure**:
    - Run these commands in the `algorithm-solutions` root:
+
      ```bash
      mkdir -p uva/src/main/java/com/algorithm/solutions/uva
      mkdir -p uva/src/main/resources/uva
      mkdir -p nowcoder/src/main/java/com/algorithm/solutions/nowcoder
      ```
+
 2. **Move Files**:
    - For each UVA problem (e.g., `106`):
+
      ```bash
      mkdir -p uva/src/main/java/com/algorithm/solutions/uva/p106
      mv uva/106/src/Main.java uva/src/main/java/com/algorithm/solutions/uva/p106/Main.java
      mkdir -p uva/src/main/resources/uva/p106
      mv uva/106/1.in uva/src/main/resources/uva/p106/1.in
      ```
+
    - For `nowcoder`:
+
      ```bash
      mv nowcoder/*.java nowcoder/src/main/java/com/algorithm/solutions/nowcoder/
      ```
+
 3. **Update Java Files**:
    - Add appropriate package declarations (e.g., `package com.algorithm.solutions.uva.p106;` for `uva/106/Main.java`).
 4. **Add `pom.xml` Files**:
    - Place the parent `pom.xml` in `algorithm-solutions/`.
    - Place the `nowcoder/pom.xml` and `uva/pom.xml` as shown.
 5. **Build**:
+
    ```bash
    mvn clean install
    ```
 
 ### Notes
+
 - **Input Files**: If your `Main.java` reads input files like `1.in`, update the code to access them via `getClass().getResource("/uva/p106/1.in")` or similar, since they’re now in `src/main/resources`.
 - **Ignoring `.iml` Files**: Add a `.gitignore` file with `*.iml` to exclude IntelliJ project files from version control.
 - **Other Directories**: For `codeforces`, `hacker_rank`, etc., you can create similar modules when ready. Let me know if you need `pom.xml` files for those.

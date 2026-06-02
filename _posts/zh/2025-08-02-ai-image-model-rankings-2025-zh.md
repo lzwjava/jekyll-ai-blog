@@ -12,6 +12,7 @@ type: note
 很高兴根据现有信息为您概述当前AI图像生成模型的排名情况。既然您询问的是“AI图像模型排名”，我将重点关注来自权威来源的最新评估结果，例如各类排行榜和专家评测，这些评估基于图像质量、提示词遵循度、文字渲染能力和生成速度等性能指标对文生图模型进行排序。以下是基于社区投票、专家测试和排行榜数据整理的2025年顶级模型概览。
 
 ### 顶级AI图像生成模型（2025年）
+
 本排名主要参考Artificial Analysis文生图排行榜、LMArena.ai及2025年各类专家评测。这些排名综合考量了提示词遵循度、美学质量、文字渲染能力和可访问性等指标。
 
 1. **Recraft V3**
@@ -75,17 +76,20 @@ type: note
     - **适用场景**：适合尝试新兴模型的用户。
 
 ### 关键观察
+
 - **排行榜洞察**：基于超40,000次社区投票的LMArena.ai文生图排行榜（采用Elo评分系统）显示，Recraft V3、Ideogram 2.0和FLUX.1系列变体排名靠前，Imagen 4.0 Ultra与GPT-Image-1并列第一。这反映了用户对提示词遵循度、语义理解和美学品质的偏好。
 - **性能指标**：Recraft V3和FLUX.1因编辑工具和高分辨率输出在专业应用领域表现卓越；Imagen 4.0和GPT-Image-1在可访问性和真实感方面优势明显；Ideogram则擅长文字渲染。
 - **可访问性**：通过谷歌ImageFX免费使用的Imagen 4.0和通过Poe等平台访问的FLUX.1使高质量图像生成更易获取。DALL·E 3（ChatGPT Plus）和Midjourney等付费选项提供高级功能但需订阅[](https://www.zdnet.com/article/best-ai-image-generator/)[](https://www.cnet.com/tech/services-and-software/best-ai-image-generators/)
 - **开源与闭源**：Stable Diffusion和FLUX.1提供开源灵活性，吸引开发者；而Imagen和DALL·E等闭源模型则提供更成熟友好的用户体验[](https://www.swiftask.ai/blog/text-to-image-ai-models)
 
 ### 排名说明
+
 - **动态发展**：AI图像生成领域快速发展，Reve Image等新模型和传闻中的模型（如red_panda）偶尔会登顶排行榜。
 - **主观性**：排名因使用场景而异。例如Midjourney适合艺术创作，而FLUX.1更适合追求速度和开源使用的场景[](https://www.swiftask.ai/blog/text-to-image-ai-models)
 - **伦理考量**：Stable Diffusion等开源模型存在生成不当内容的隐患，而DALL·E 3等闭源模型提供训练数据退出选项[](https://www.cnet.com/tech/services-and-software/best-ai-image-generators/)[](https://hackr.io/blog/best-ai-image-generators)
 
 ### 推荐建议
+
 - **专业用户**：设计类任务首选Recraft V3或Adobe Firefly
 - **初学者**：推荐易用且免费的Ideogram 2.0或谷歌Imagen 4.0
 - **开发者**：适合需要定制和开源工作流的FLUX.1或Stable Diffusion
@@ -94,6 +98,7 @@ type: note
 如果您有特定使用场景（如照片级真实感、文字渲染或预算限制），请告知以便提供更精准的建议！最新动态可查阅LMArena.ai或Artificial Analysis等排行榜[](https://lmarena.ai/leaderboard/text-to-image)[](https://www.aixploria.com/en/ai-text-to-image-top-20-best-model/)
 
 **数据来源**：
+
 - Artificial Analysis文生图排行榜[](https://www.swiftask.ai/blog/text-to-image-ai-models)
 - LMArena.ai文生图排行榜[](https://lmarena.ai/leaderboard/text-to-image)
 - ZDNET、CNET等机构专家评测[](https://www.zdnet.com/article/best-ai-image-generator/)[](https://www.cnet.com/tech/services-and-software/best-ai-image-generators/)

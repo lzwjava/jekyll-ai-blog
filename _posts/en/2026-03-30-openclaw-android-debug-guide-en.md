@@ -52,6 +52,7 @@ cd apps/android
 ```
 
 You can also run unit tests with:
+
 ```bash
 ./gradlew :app:testDebugUnitTest
 ```
@@ -100,6 +101,7 @@ Since the app uses Kotlin + Jetpack Compose, you can use **Android Studio Hedgeh
 Open the **Connect** tab in the app. Use **Setup Code** or **Manual** mode to connect. The Android app pairs with the Gateway as a node device.
 
 For the Gateway tunnel via ADB:
+
 ```bash
 adb reverse tcp:18789 tcp:18789
 ```
@@ -134,6 +136,7 @@ Reports are written to `apps/android/benchmark/build/reports/androidTests/connec
 ### ⚠️ Important Checklist Before Running/Debugging
 
 Before running tests or debugging:
+
 - The Android app must be connected to the Gateway and show as **paired + connected**.
 - The app must stay **unlocked and in the foreground** for the whole session.
 - The **Screen tab** must be open and active if canvas/A2UI commands are needed.

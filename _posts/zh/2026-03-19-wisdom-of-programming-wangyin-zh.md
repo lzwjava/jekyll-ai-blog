@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://www.infoq.cn/article/wisdom-of-programming 这篇文章说了什么？
+**问题：** <https://www.infoq.cn/article/wisdom-of-programming> 这篇文章说了什么？
 
 **回答：**
 
@@ -79,10 +79,13 @@ type: note
 即使显得更长，也选择更清晰、更显式的写法。例如，避免滥用 short-circuit evaluation（`&&`、`||`）作为 `if` 语句的替代。这很 confusing，因为 logical OR/AND 是为效率而设计，而不是控制流的可读性。
 
 而非：
+
 ```javascript
 if (action1() || action2() && action3()) { ... }
 ```
+
 写成显式版本：
+
 ```java
 if (!action1()) {
   if (action2()) {
@@ -124,11 +127,13 @@ if (!action1()) {
 ## 10. 防止过度工程
 
 过度工程的迹象：
+
 - 在解决当前问题前想得太远。
 - 在有 working code 前痴迷“code reuse”。
 - 过度的 test scaffolding 使简单代码复杂化。
 
 他的原则：
+
 - **先解决手头问题**，然后考虑未来可扩展性。
 - **先写 working code**，然后考虑 reuse。
 - **先写简单、明显正确的代码**，然后考虑 testing。

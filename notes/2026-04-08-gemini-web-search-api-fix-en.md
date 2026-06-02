@@ -12,6 +12,7 @@ type: note
 ## Session Summary
 
 ### Goal
+
 Fix the `web_search` tool in OpenClaw which was failing due to a missing `GEMINI_API_KEY`.
 
 ---
@@ -29,6 +30,7 @@ Fix the `web_search` tool in OpenClaw which was failing due to a missing `GEMINI
 1. **Backup created** — `~/.openclaw/openclaw.json.bak.20260408_041208`
 
 2. **Initial edit** — Added `apiKey` to `tools.web.search`:
+
    ```json
    "search": { "enabled": true, "provider": "gemini", "apiKey": "***" }
    ```
@@ -68,4 +70,5 @@ Fix the `web_search` tool in OpenClaw which was failing due to a missing `GEMINI
 ---
 
 ### Warnings Noted by Doctor (non-blocking)
+
 - Telegram, Signal, and Slack `groupPolicy` is `"allowlist"` but `groupAllowFrom` is empty — group messages will be silently dropped unless IDs are added or policy changed to `"open"`

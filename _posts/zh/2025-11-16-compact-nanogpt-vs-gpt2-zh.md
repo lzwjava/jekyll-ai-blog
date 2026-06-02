@@ -47,6 +47,7 @@ NanoGPT虽明确旨在OpenWebText等开放数据集上复现GPT-2的架构与训
 ### 改进建议与公平对比方案
 
 为将您的模型与GPT-2直接对标：
+
 1. **评估困惑度**：训练完成后，在OpenWebText验证集上运行nanoGPT的`eval.py`脚本。与Hugging Face的GPT-2小规模版（通过`transformers`库加载）在同一数据集的评估结果对比。
 2. **扩展规模**：切换至nanoGPT的莎士比亚或默认配置（1.24亿参数），该配置在OpenWebText上能紧密匹配GPT-2的损失曲线。[3]
 3. **微调策略**：从您的检查点出发，针对目标数据（如对话数据用于聊天场景）进行微调以提升可用性——GPT-2仅用3.54亿参数即可在对话AI领域展现优势。[7]
@@ -55,12 +56,12 @@ NanoGPT虽明确旨在OpenWebText等开放数据集上复现GPT-2的架构与训
 总体而言，您的模型是优质的教育或原型开发工具，但在深度上落后于GPT-2——可将其视为具备四分之一容量的“迷你版GPT-2”。生产环境建议以Hugging Face提供的GPT-2预训练权重作为基线参考。[3][9]
 
 引用文献：
-[1] https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html
-[2] https://openai.com/index/better-language-models/
-[3] https://github.com/karpathy/nanoGPT
-[4] https://www.reddit.com/r/LocalLLaMA/comments/1oslucq/whats_the_lowest_gpt2_pretraining_loss_achievable/
-[5] https://www.researchgate.net/figure/Comparing-a-generated-GPT-2-model-on-OpenWebText-to-training-from-scratch-Results-show_fig2_396143265
-[6] https://gitlab.au.dk/au204573/gitmal/-/blob/c660ef7dfa8447d956db7d00898536eeef29fe54/L11/NanoGPT/README.md
-[7] https://vatsadev.github.io/articles/nanochatgpt.html
-[8] https://arxiv.org/pdf/2506.00315
-[9] https://medium.com/@neuralnikitha/build-your-own-chatgpt-in-an-afternoon-the-nanogpt-guide-7a0425acf4cb
+[1] <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
+[2] <https://openai.com/index/better-language-models/>
+[3] <https://github.com/karpathy/nanoGPT>
+[4] <https://www.reddit.com/r/LocalLLaMA/comments/1oslucq/whats_the_lowest_gpt2_pretraining_loss_achievable/>
+[5] <https://www.researchgate.net/figure/Comparing-a-generated-GPT-2-model-on-OpenWebText-to-training-from-scratch-Results-show_fig2_396143265>
+[6] <https://gitlab.au.dk/au204573/gitmal/-/blob/c660ef7dfa8447d956db7d00898536eeef29fe54/L11/NanoGPT/README.md>
+[7] <https://vatsadev.github.io/articles/nanochatgpt.html>
+[8] <https://arxiv.org/pdf/2506.00315>
+[9] <https://medium.com/@neuralnikitha/build-your-own-chatgpt-in-an-afternoon-the-nanogpt-guide-7a0425acf4cb>

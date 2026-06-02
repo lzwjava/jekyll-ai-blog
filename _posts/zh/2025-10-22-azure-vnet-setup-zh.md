@@ -15,6 +15,7 @@ type: note
 为在 Azure 中搭建您描述的架构，我们将使用单个虚拟网络（VNet）以简化操作，并通过多个子网来隔离面向公众的资源（如 API 和管理服务）与内部资源（如 MQ/Redis 虚拟机）。这样既可通过私有 IP 实现安全的内部通信，又能通过网络安全性组（NSG）控制公共访问。我们还将配置仅限于您团队 IP 范围的 SSH 访问。
 
 核心原则：
+
 - **公共访问**：使用公共 IP 和 NSG，仅允许来自互联网或团队 IP 的特定端口入站流量（API 使用 443 端口，管理服务使用 80 端口）。
 - **内部通信**：同一 VNet 中的虚拟机可通过私有 IP 自由通信；使用 NSG 进行微调（例如，允许后端通过 6379 端口访问 MQ/Redis）。
 - **SSH 访问**：限制为仅允许来自团队 IP 通过堡垒机或直接 SSH 连接 22 端口。
@@ -23,7 +24,9 @@ type: note
 假设您使用 Azure 门户或 CLI；我将提供高级步骤及 CLI 示例以确保可重现性。VNet、虚拟机和公共 IP 均会产生费用。
 
 #### 步骤 1：创建虚拟网络和子网
+
 创建一个包含两个子网的 VNet：
+
 - **公共子网**（例如，用于 API 和管理虚拟机）：允许分配公共 IP。
 - **私有子网**（例如，用于 MQ/Redis 虚拟机）：不分配公共 IP；仅限内部访问。
 
@@ -50,6 +53,7 @@ az network vnet subnet create \
 ```
 
 #### 步骤 2：创建虚拟机并配置网络
+
 - **后端 API 虚拟机**（位于 PublicSubnet）：分配公共 IP 用于 443 端口访问。
 - **MQ/Redis 虚拟机**（位于 PrivateSubnet）：仅分配私有 IP。
 - **管理虚拟机**（位于 PublicSubnet）：分配公共 IP 用于 80 端口访问。
@@ -100,12 +104,15 @@ ADMIN_PUBLIC_IP=$(az vm show -d -g myResourceGroup -n adminVM --query publicIps 
 ```
 
 在虚拟机上：
+
 - 在 backendVM 上安装您的 API（例如，在 443 端口监听并启用 SSL）。
 - 在 mqVM 上安装 Redis/MQ（在 6379 端口监听）。
 - 在 adminVM 上安装管理服务（在 80 端口监听）。
 
 #### 步骤 3：配置网络安全性组（NSG）
+
 NSG 充当防火墙。为每个子网关联一个 NSG（或为每个 NIC 关联以实现更精细控制）。创建规则以允许：
+
 - 公共访问：443 端口访问 backendVM，80 端口访问 adminVM。
 - 内部通信：后端到 MQ 的 6379 端口。
 - SSH：来自团队 IP 的 22 端口访问（将 `TEAM_IPS` 替换为您的 CIDR，例如 203.0.113.0/24）。
@@ -210,17 +217,20 @@ az network vnet subnet update \
 - **默认拒绝**：NSG 默认隐式拒绝所有其他流量。
 
 #### 步骤 4：团队的 SSH 访问
+
 - 直接 SSH：从团队 IP 使用 `ssh azureuser@<VM_PUBLIC_IP> -p 22`（已在 NSG 中允许）。
 - 对于私有虚拟机：推荐使用 VNet 中的 Azure Bastion（更安全）。
   - 创建 Bastion：`az network bastion create --name myBastion --resource-group myResourceGroup --vnet-name myVNet --location eastus --sku Standard --bastion-subnet-address-prefix 10.0.3.0/26`（需先添加新的 BastionSubnet）。
   - 通过 Azure 门户 > Bastion > 使用私有 IP 连接到 mqVM。
 
 #### 步骤 5：访问服务
+
 - **公共 API**：`https://$API_PUBLIC_IP`（端口 443）。
 - **管理服务**：`http://$ADMIN_PUBLIC_IP`（端口 80，仅限团队访问）。
 - **内部测试**：从 backendVM 执行 `redis-cli -h $MQ_PRIVATE_IP -p 6379`。
 
 #### 其他最佳实践
+
 - **负载均衡器/应用程序网关**：在生产环境中，使用 Azure 应用程序网关为 API/管理服务提供前端，以实现 WAF/SSL 终止。
 - **私有端点**：对于 Redis，使用 Azure 私有链接以避免子网暴露。
 - **监控**：启用 Azure 网络观察程序以获取流量日志。

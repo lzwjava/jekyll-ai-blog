@@ -15,11 +15,13 @@ Kafka provides several command-line tools for managing and interacting with clus
 ## Core Tools
 
 ### kafka-topics.sh
+
 Manages topic creation, deletion, and configuration.
 
 **Common operations:**
 
 Creating a topic:
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --create \
@@ -30,11 +32,13 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 Listing topics:
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
 Describing a topic:
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --describe \
@@ -42,6 +46,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 Deleting a topic:
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --delete \
@@ -49,6 +54,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 Altering partitions:
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --alter \
@@ -57,6 +63,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 **Key options:**
+
 - `--bootstrap-server` - Kafka broker address (replaces deprecated --zookeeper)
 - `--topic` - Topic name
 - `--partitions` - Number of partitions
@@ -66,15 +73,18 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 - `--if-exists` - Only delete/alter if topic exists
 
 ### kafka-console-producer.sh
+
 Produces messages from the command line.
 
 **Basic usage:**
+
 ```bash
 kafka-console-producer.sh --bootstrap-server localhost:9092 \
   --topic my-topic
 ```
 
 With key-value pairs:
+
 ```bash
 kafka-console-producer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -83,12 +93,14 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 \
 ```
 
 From a file:
+
 ```bash
 kafka-console-producer.sh --bootstrap-server localhost:9092 \
   --topic my-topic < input.txt
 ```
 
 **Key options:**
+
 - `--property` - Producer properties (compression.type, acks, etc.)
 - `--producer-property` - Alternative way to set producer configs
 - `--compression-codec` - Compression type (none, gzip, snappy, lz4, zstd)
@@ -96,9 +108,11 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 \
 - `--timeout` - Message timeout in milliseconds
 
 ### kafka-console-consumer.sh
+
 Consumes messages from topics.
 
 **Basic usage:**
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -106,6 +120,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 
 With consumer group:
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -113,6 +128,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 
 Showing keys and timestamps:
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -122,6 +138,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 
 **Key options:**
+
 - `--from-beginning` - Consume from earliest offset
 - `--group` - Consumer group ID
 - `--partition` - Specific partition to consume from
@@ -132,14 +149,17 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 - `--isolation-level` - read_committed or read_uncommitted
 
 ### kafka-consumer-groups.sh
+
 Manages consumer groups and offsets.
 
 **List all groups:**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
 ```
 
 **Describe a group:**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -147,6 +167,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 **Reset offsets:**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -157,6 +178,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 **Reset offset options:**
+
 - `--to-earliest` - Reset to beginning
 - `--to-latest` - Reset to end
 - `--to-offset <offset>` - Reset to specific offset
@@ -165,6 +187,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 - `--by-duration <duration>` - Shift by duration (e.g., PT0H30M0S)
 
 **Delete a group:**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -172,9 +195,11 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-configs.sh
+
 Manages dynamic configurations for topics, brokers, and clients.
 
 **Add/modify topic config:**
+
 ```bash
 kafka-configs.sh --bootstrap-server localhost:9092 \
   --entity-type topics \
@@ -184,6 +209,7 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 ```
 
 **Describe topic configs:**
+
 ```bash
 kafka-configs.sh --bootstrap-server localhost:9092 \
   --entity-type topics \
@@ -192,6 +218,7 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 ```
 
 **Delete config:**
+
 ```bash
 kafka-configs.sh --bootstrap-server localhost:9092 \
   --entity-type topics \
@@ -201,12 +228,14 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 ```
 
 **Entity types:**
+
 - `topics` - Topic configurations
 - `brokers` - Broker configurations
 - `users` - User quotas
 - `clients` - Client quotas
 
 ### kafka-log-dirs.sh
+
 Describes log directory information.
 
 ```bash
@@ -217,9 +246,11 @@ kafka-log-dirs.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-reassign-partitions.sh
+
 Reassigns partitions across brokers.
 
 **Generate reassignment plan:**
+
 ```bash
 kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
   --topics-to-move-json-file topics.json \
@@ -228,6 +259,7 @@ kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
 ```
 
 **Execute reassignment:**
+
 ```bash
 kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
   --reassignment-json-file reassignment.json \
@@ -235,6 +267,7 @@ kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
 ```
 
 **Verify reassignment:**
+
 ```bash
 kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
   --reassignment-json-file reassignment.json \
@@ -242,6 +275,7 @@ kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-preferred-replica-election.sh
+
 Triggers preferred replica leader election.
 
 ```bash
@@ -250,6 +284,7 @@ kafka-preferred-replica-election.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-broker-api-versions.sh
+
 Checks API versions supported by brokers.
 
 ```bash
@@ -257,6 +292,7 @@ kafka-broker-api-versions.sh --bootstrap-server localhost:9092
 ```
 
 ### kafka-dump-log.sh
+
 Prints log segment contents.
 
 ```bash
@@ -265,12 +301,14 @@ kafka-dump-log.sh --files /var/kafka-logs/my-topic-0/00000000000000000000.log \
 ```
 
 **Options:**
+
 - `--print-data-log` - Print message contents
 - `--deep-iteration` - Use deep iteration instead of shallow
 - `--value-decoder-class` - Custom decoder for values
 - `--offsets-decoder` - Decode offset files
 
 ### kafka-verifiable-producer.sh / kafka-verifiable-consumer.sh
+
 Used for testing and verification, producing/consuming numbered messages.
 
 ```bash
@@ -288,11 +326,13 @@ kafka-verifiable-consumer.sh --bootstrap-server localhost:9092 \
 ## Common Patterns
 
 **Check cluster health:**
+
 ```bash
 kafka-broker-api-versions.sh --bootstrap-server localhost:9092
 ```
 
 **Monitor consumer lag:**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -300,6 +340,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 **Stream messages between topics:**
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic source-topic \
@@ -309,6 +350,7 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 \
 ```
 
 **Count messages in a topic:**
+
 ```bash
 kafka-run-class.sh kafka.tools.GetOffsetShell \
   --broker-list localhost:9092 \

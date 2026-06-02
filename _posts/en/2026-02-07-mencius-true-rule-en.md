@@ -17,11 +17,13 @@ Answer:
 《寡人之于国也》 is a famous chapter from the book **Mencius** (《孟子》), specifically from the section "Liang Hui Wang Shang" (梁惠王上). It records a dialogue between **Mencius** (孟子) and **King Hui of Liang** (梁惠王), and is one of the most important texts showcasing Mencius's core political philosophy of **"benevolent government" (仁政)**.
 
 ### Background
+
 - Time: Warring States period (around 335 BCE)
 - Context: King Hui of Liang (ruler of the state of Wei, also called Liang) invited Mencius to his court hoping to get practical advice to strengthen his state and increase its population. At that time, population size was seen as a key indicator of a state's power and prosperity, since people could freely migrate to better-governed states.
 - The king proudly claimed he had done his best for the country by relocating people and grain during famines, yet he was puzzled why his population did not grow compared to neighboring states.
 
 ### Main Content Summary
+
 The dialogue can be divided into three parts:
 
 1. **The King's Question**
@@ -50,6 +52,7 @@ The dialogue can be divided into three parts:
    He criticizes rulers who let dogs and pigs eat human food while people starve in the streets, then blame "bad years" instead of their own policies — comparing it to stabbing someone and saying "it wasn't me, it was the weapon."
 
 ### Core Ideas & Significance
+
 - Advocates **people-centered governance** (民本思想): the foundation of true kingship is winning the hearts of the people through benevolent policies, not through war, taxes, or temporary aid.
 - Contrasts **Kingly Way (王道)** with **Hegemonic Way (霸道)** — moral governance vs. force and profit.
 - The chapter is a classic example of Mencius's eloquent, persuasive, step-by-step debating style.

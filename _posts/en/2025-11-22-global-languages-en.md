@@ -41,9 +41,9 @@ Based on the 3-4 core choices above, here are the languages you should remove:
 
 If you must choose **only 3** to be as efficient as possible, your list should be:
 
-1.  **`en`** (English)
-2.  **`zh`** (Simplified Chinese)
-3.  **`es`** (Spanish)
+1. **`en`** (English)
+2. **`zh`** (Simplified Chinese)
+3. **`es`** (Spanish)
 
 This gives you a strong presence in North America, Europe (via English/Spanish), China, and Latin America.
 

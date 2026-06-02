@@ -11,11 +11,13 @@ type: note
 Based on your query, you want a script where, if the `level` parameter is 0 or not provided, it uses the entire package name (all parts of it), essentially treating `level = 0` as "infinite" or "use all parts," instead of limiting it to a specific number of parts (like only the first part when `level = 1`). Below, I’ll explain how this can be implemented in a Python script that analyzes Java files to extract package names, and I’ll provide a complete solution tailored to your request.
 
 ### Understanding the Requirement
+
 - **When `level = 0` or not provided**: Use the full package name as extracted from Java `import` statements (e.g., `java.util` or `com.google.common.eventbus`), without truncating it.
 - **When `level > 0`**: Truncate the package name to the first `level` parts (e.g., for `com.google.common.eventbus`, `level = 2` would give `com.google`).
 - The script should still process Java files, extract package names from `import` statements, and handle edge cases appropriately.
 
 ### Solution Approach
+
 1. **Argument Parsing**:
    - If only the root directory is provided (e.g., `python script.py /path/to/dir`), set `level = 0`, meaning use the full package name.
    - If `level` is provided (e.g., `python script.py /path/to/dir 2`), use it to truncate the package name, ensuring it’s a non-negative integer.
@@ -34,6 +36,7 @@ Based on your query, you want a script where, if the `level` parameter is 0 or n
    - List all unique packages found.
 
 ### Implementation
+
 Here’s the complete Python script that meets your requirements:
 
 ```python
@@ -176,17 +179,21 @@ if __name__ == '__main__':
 ```
 
 ### How It Works
+
 - **Running the Script**:
   - `python script.py /path/to/java/project`: Analyzes all `.java` files in the directory and uses full package names (`level = 0`).
   - `python script.py /path/to/java/project 2`: Truncates package names to the first 2 parts (e.g., `com.google.common.eventbus` becomes `com.google`).
 
 - **Example Output**:
   Suppose you have a Java file with:
+
   ```java
   import java.util.ArrayList;
   import com.google.common.eventbus.EventBus;
   ```
+
   - **With `level = 0` (or no level provided)**:
+
     ```
     [INFO] Starting analysis of directory: /path/to/java/project with full package names.
     [INFO] Entering directory: /path/to/java/project
@@ -199,7 +206,9 @@ if __name__ == '__main__':
     com.google.common.eventbus
     java.util
     ```
+
   - **With `level = 2`**:
+
     ```
     [INFO] Starting analysis of directory: /path/to/java/project at level: 2
     [INFO] Entering directory: /path/to/java/project
@@ -220,6 +229,7 @@ if __name__ == '__main__':
   - **Uniqueness**: Stores packages in a `set` to avoid duplicates.
 
 ### Edge Cases Handled
+
 - **Missing Level**: Defaults to `level = 0`, using full package names.
 - **Invalid Level**: Exits with an error if `level` is negative or not an integer.
 - **Short Packages**: If a package has fewer parts than `level` (e.g., `java` with `level = 2`), it uses the full package (`java`).

@@ -42,6 +42,7 @@ type: note
    - 成功编译并运行测试 CUDA 程序
 
 **使用的关键命令：**
+
 ```bash
 # Fix dpkg locks and kill stuck processes
 sudo kill -9 $(ps aux | grep dpkg | grep -v grep | awk '{print $2}')

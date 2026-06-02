@@ -27,6 +27,7 @@ Anthropic 的 CEO Dario Amodei 最近参加了 Dwarkesh Patel 主持的名为“
 - **地缘政治 (US-China 竞争)** —— 他强烈支持芯片出口管制，以防止威权政权（特别是中国）获得同等的先进 AI 能力。他认为双方同时拥有“天才国家”系统将是不稳定的（这是一个 offense-dominant 的世界，不同于核武器的 MAD 相互保证毁灭机制），存在灾难性滥用的风险。民主联盟应在制定规范方面发挥领导作用。他希望 AI 能够让威权主义过时（就像工业化终结了封建主义一样），但也承认其中的不确定性，以及确保民主价值占据主导地位的必要性。
 
 其他最近的露面包括：
+
 - 在《纽约时报》Ross Douthat 主持的“Interesting Times”访谈中（2026 年 2 月 12 日左右），他讨论了 AI consciousness（我们不知道 models 是否具有意识）、控制挑战（“某些事情会出错”，但这是可以解决的 engineering 问题）、乌托邦潜力（巨大的财富、治愈疾病）以及反乌托邦风险（社会动荡、misalignment）。
 - 2026 年早些时候的其他讨论（例如在达沃斯的 Bloomberg、世界经济论坛面板）涉及 AGI timelines、robotics 以及后 AGI 时代社会。
 

@@ -18,6 +18,7 @@ type: note
 This error comes from **OpenClaw** (or a compatible gateway tool like ClawdBot), and it means your configuration file has an **outdated/legacy value** for the `gateway.bind` setting.
 
 Older versions accepted raw IP addresses or hostname strings like:
+
 - `"0.0.0.0"`
 - `"localhost"`
 - `"127.0.0.1"`
@@ -52,6 +53,7 @@ The message says the config was **auto-migrated on load** — meaning the gatewa
 Open your config file (typically `~/.openclaw/openclaw.json` or wherever `OPENCLAW_CONFIG_PATH` points) and change the `gateway.bind` field:
 
 **Before (legacy — causes error):**
+
 ```json
 {
   "gateway": {
@@ -61,6 +63,7 @@ Open your config file (typically `~/.openclaw/openclaw.json` or wherever `OPENCL
 ```
 
 **After (correct):**
+
 ```json
 {
   "gateway": {

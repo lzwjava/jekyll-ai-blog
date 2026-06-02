@@ -20,6 +20,7 @@ Yes, there are several good options — ranging from very minimal to moderately 
 ## Understanding the Constraint: Banking / Enterprise
 
 For a banking environment you typically need:
+
 - **On-premise or private cloud deployment** (no data leaving your network)
 - **Azure OpenAI / Microsoft Copilot API** compatibility (since data stays within your Azure tenant)
 - **Auditability** (open source = code you can inspect and certify)

@@ -16,7 +16,8 @@ type: note
 
 是的，这是一种在 Java 和 Python 项目中处理本地或敏感配置的常见且推荐的最佳实践。
 
-### 工作原理：
+### 工作原理
+
 - 您将一个模板文件提交到仓库，通常命名为：
   - `local_example.properties` (Java/Android)
   - `config.example.py`、`example.env`、`.env.example` 或 `settings_local.example.py` (Python)
@@ -26,19 +27,23 @@ type: note
   - `.env`、`local_config.py`、`config_local.py` 等 (Python)
 - 您将实际的（非示例）文件名添加到 `.gitignore`，这样它永远不会被提交。
 
-### 优点：
+### 优点
+
 - 每个团队成员都可以从模板中获取结构和所需的键。
 - 每个开发人员都可以创建自己的本地版本，包含个人设置（API 密钥、数据库凭据、路径、调试标志等）。
 - 敏感或机器特定的数据永远不会提交到版本控制。
 - 新团队成员只需复制示例文件，重命名并填写其值。
 
-### Java/Android 示例（properties 文件）：
+### Java/Android 示例（properties 文件）
+
 **.gitignore**
+
 ```
 local.properties
 ```
 
 **仓库包含：**
+
 ```
 local_example.properties
 # 示例内容：
@@ -49,14 +54,17 @@ debug.mode=true
 
 每个开发人员将其复制到 `local.properties` 并进行自定义。
 
-### Python 示例（环境变量或配置）：
+### Python 示例（环境变量或配置）
+
 **.gitignore**
+
 ```
 .env
 local_config.py
 ```
 
 **仓库包含：**
+
 ```
 .env.example
 # 示例内容：

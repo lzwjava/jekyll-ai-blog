@@ -13,7 +13,7 @@ I'll search for best practices on sustaining long-term software projects to give
 
 ---
 
-## Answer:
+## Answer
 
 Your instinct is absolutely correct. Working on projects that genuinely ignite your excitement brings a deep sense of fulfillment and helps sustain your motivation. The key to finishing projects is building something you'll actually use.
 
@@ -51,12 +51,12 @@ Your instinct is sound. Build the blog for yourself, the learning tool for yours
 
 ---
 
-## References:
+## References
 
-- https://robsonsousa.com/staying-motivated-and-engaged-in-long-term-projects-tips-for-programmers/
-- https://medium.com/@zainjaffer-official/long-term-project-6-ways-to-maintain-momentum-and-motivation-3cc2732e850c
-- https://medium.com/@jpaulopiy/keeping-yourself-motivated-as-a-software-engineer-79c19125b33f
-- https://www.tempo.io/blog/stay-motivated-when-youre-working-on-the-never-ending-project-from-hell
-- https://neelraman.com/how-to-maintain-your-motivation-during-long-term-projects/
-- https://mccricardo.com/motivation-vs-consistency-fueling-long-term-success-in-software-engineering/
-- https://smartexe.com/blog/how-to-motivate-software-developers-strategies-to-pesonal-growth
+- <https://robsonsousa.com/staying-motivated-and-engaged-in-long-term-projects-tips-for-programmers/>
+- <https://medium.com/@zainjaffer-official/long-term-project-6-ways-to-maintain-momentum-and-motivation-3cc2732e850c>
+- <https://medium.com/@jpaulopiy/keeping-yourself-motivated-as-a-software-engineer-79c19125b33f>
+- <https://www.tempo.io/blog/stay-motivated-when-youre-working-on-the-never-ending-project-from-hell>
+- <https://neelraman.com/how-to-maintain-your-motivation-during-long-term-projects/>
+- <https://mccricardo.com/motivation-vs-consistency-fueling-long-term-success-in-software-engineering/>
+- <https://smartexe.com/blog/how-to-motivate-software-developers-strategies-to-pesonal-growth>

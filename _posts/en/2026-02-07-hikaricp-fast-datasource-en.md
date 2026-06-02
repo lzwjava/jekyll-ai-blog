@@ -15,6 +15,7 @@ HikariCP (HikariDataSource) is a **specific implementation** of the `javax.sql.D
 ## javax.sql.DataSource
 
 This is a **standard Java interface** (part of JDBC) that represents a factory for database connections. It's just a contract that defines methods like:
+
 - `getConnection()` - to obtain a database connection
 - `getConnection(String username, String password)` - with credentials
 

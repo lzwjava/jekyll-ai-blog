@@ -18,6 +18,7 @@ Answer:
 You do **not** have to follow the strict order of the questions.
 
 ### Listening (most flexible)
+
 - You hear the recording **only once**.
 - While listening, you can write answers directly on the question paper (or type if computer-based) in **any order**.
 - Most high-scoring students do **not** answer strictly 1→2→3→… .
@@ -28,6 +29,7 @@ You do **not** have to follow the strict order of the questions.
 - This “jump around” approach is usually **less stressful** because you catch the answers you are most likely to get right immediately.
 
 ### Reading (very flexible)
+
 - You have **no audio** — the text stays in front of you the whole time.
 - You can read and answer questions in **completely any order** you want.
 - Very popular and effective strategies among band 7.0+ candidates:
@@ -38,6 +40,7 @@ You do **not** have to follow the strict order of the questions.
 - There is **no penalty** for jumping between questions or even between passages.
 
 ### Summary — Why this flexibility helps you stay more relaxed
+
 - You can **skip hard questions** immediately and come back later → reduces anxiety.
 - You can **prioritize questions/types you are good at** → build confidence and score faster.
 - You avoid getting stuck on one difficult question and wasting 3–5 minutes (very common mistake).

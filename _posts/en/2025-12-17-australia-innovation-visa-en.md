@@ -18,7 +18,8 @@ The **Global Talent Visa (subclass 858)** was an Australian permanent residency 
 
 As of **December 6-7, 2024**, the Global Talent Visa program was closed and replaced by the **National Innovation Visa (NIV, still subclass 858)**. This new visa maintains the same subclass number but adopts a more selective, invitation-only approach to attract "the brightest and best" global talents who can significantly contribute to Australia's prosperity in key national interest areas.
 
-### Key Features of the Current National Innovation Visa (Subclass 858):
+### Key Features of the Current National Innovation Visa (Subclass 858)
+
 - **Permanent visa**: Allows holders to live, work, and study in Australia indefinitely, with access to Medicare and a pathway to citizenship.
 - **Eligibility**: Requires an internationally recognized record of exceptional and outstanding achievements in eligible fields (e.g., innovation, research, entrepreneurship, sports, arts, academia).
 - **Application process**: Invitation-only. Applicants must first submit an Expression of Interest (EOI); the Department of Home Affairs reviews and invites suitable candidates to apply.

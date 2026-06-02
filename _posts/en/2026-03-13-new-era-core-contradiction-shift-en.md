@@ -48,6 +48,6 @@ After decades of reform and opening-up, our country has achieved a historic brea
 
 References:
 
-- https://www.qstheory.cn/dukan/hqwg/2022-01/26/c_1128302456.htm
-- https://www.gov.cn/xinwen/2022-01/14/content_5668084.htm
-- http://m.mofcom.gov.cn/article/zt_topic19/bldjh/201801/20180102694117.shtml
+- <https://www.qstheory.cn/dukan/hqwg/2022-01/26/c_1128302456.htm>
+- <https://www.gov.cn/xinwen/2022-01/14/content_5668084.htm>
+- <http://m.mofcom.gov.cn/article/zt_topic19/bldjh/201801/20180102694117.shtml>

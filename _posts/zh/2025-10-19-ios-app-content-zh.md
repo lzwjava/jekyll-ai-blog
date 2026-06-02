@@ -20,6 +20,7 @@ type: note
 通常，您会在应用启动时加载这些数据（例如在 `AppDelegate` 或数据管理单例中），并在诸如 `UITableView`（用于分区/列表）或 `UILabel`（用于详细信息）等视图中显示。下面，我将展示如何使用这些类对指南内容进行建模，并提供 Objective-C 代码片段。（Swift 等效使用 `Array` 和 `String`，但由于您提到了 NSArray/NSString，我将坚持使用经典写法。）
 
 #### 1. 基础示例：将关键概念存储为 NSString 的 NSArray
+
 对于简单的列表，如电压、电流或公式，创建一个 `NSString` 对象的 `NSArray`。这可以用于填充表格视图单元格的副标题。
 
 ```objective-c
@@ -45,6 +46,7 @@ self.keyConcepts = @[
 这将创建一个可滚动的定义列表。对于公式，使用 Unicode/类 LaTeX 字符串（通过 `UILabel` 或像 iosMath 这样的数学库进行渲染以获得更好的显示效果）。
 
 #### 2. 使用嵌套数组对章节进行建模（例如，定律和示例）
+
 指南中有诸如“基本电路概念与定律”之类的章节。使用 `NSDictionary` 对象的 `NSArray`，其中每个字典都有用于标题、描述和子项（另一个用于步骤/示例的 `NSString` 的 `NSArray`）的 `NSString` 键/值。
 
 ```objective-c
@@ -108,6 +110,7 @@ self.guideSections = @[
 这自然地嵌套了数据：点击章节标题可展开示例。对于动态内容（例如用户笔记），使用 `NSMutableArray` 和 `NSMutableDictionary`。
 
 #### 3. 进阶：使用结构化数据进行暂态分析
+
 对于动态章节，如 RC/RL 电路，包含公式和基于时间的数据。使用 `NSString` 表示方程，内部 `NSArray` 表示阶跃响应。
 
 ```objective-c
@@ -139,6 +142,7 @@ formulaLabel.text = dict[@"formula"];
 ```
 
 #### 实现技巧
+
 - **数据源**：将这些数据存储在 plist 文件中（使用 `NSDictionary *data = [NSDictionary dictionaryWithContentsOfFile:path];` 加载）或如上所示进行硬编码以简化操作。
 - **UI 集成**：绑定到 `UITableView` 或 `UICollectionView` 以实现交互式测验（例如，从数组中随机选择示例）。使用 `NSString` 方法如 `stringByAppendingString:` 来处理动态文本（例如，为用户计算插入用户值）。
 - **性能**：数组是轻量级的；对于大型指南，如果添加持久化，请考虑使用 Core Data。

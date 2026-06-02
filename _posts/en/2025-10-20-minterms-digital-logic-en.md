@@ -14,7 +14,8 @@ type: note
 
 In digital logic design, a **minterm** (also called a canonical product term) is a fundamental building block used to represent Boolean functions in their sum-of-products (SOP) form. It's essentially a logical AND (product) of all input variables in a circuit, where each variable appears exactly once—either in its true form (uncomplemented) or complemented form (NOT). This combination evaluates to **1** only for one specific input combination out of all possible ones.
 
-#### Key Characteristics:
+#### Key Characteristics
+
 - **Purpose**: Minterms allow us to express any Boolean function as a sum (OR) of these terms. The full SOP form is called the **canonical SOP** or **disjunctive normal form (DNF)**.
 - **Notation**: For a function with *n* variables (e.g., A, B, C), a minterm is written as \\( m_k \\), where *k* is the decimal equivalent of the binary input pattern that makes it true.
   - Example: For variables A and B:
@@ -25,6 +26,7 @@ In digital logic design, a **minterm** (also called a canonical product term) is
 - **In Karnaugh Maps (K-Maps)**: Each cell in the grid corresponds to exactly one minterm. The map's rectangular grid organizes these by grouping adjacent cells (which differ by one variable) to simplify the function by combining minterms into larger product terms.
 
 #### Why Use Minterms?
+
 - They provide a complete, exhaustive way to list where a function outputs 1.
 - Essential for minimization techniques like K-maps or Quine-McCluskey to reduce gate count in hardware.
 

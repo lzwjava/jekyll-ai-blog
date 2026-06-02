@@ -32,20 +32,25 @@ type: note
 
 3. **重启 Docker 服务**：
    - 通过重启 Docker 来应用更改：
+
      ```
      sudo systemctl restart docker
      ```
+
      - 在非 systemd 系统上（例如较旧的 Linux 发行版），使用 `sudo service docker restart`。
    - 验证状态：`sudo systemctl status docker`。
 
 4. **测试配置**：
    - 运行一个测试容器并检查其 DNS 解析：
+
      ```
      docker run --rm busybox nslookup google.com
      ```
+
      - 它应该使用您配置的 DNS 服务器进行解析。
 
 ### 注意事项
+
 - **作用范围**：此配置针对主机上的 Docker 守护进程，影响容器的出站名称解析。它不会更改主机的系统 DNS。
 - **覆盖**：如果容器需要不同的 DNS（例如通过 `docker run` 中的 `--dns` 标志），它将覆盖此守护进程级别的设置。
 - **安全性**：对于大多数情况，使用公共 DNS（如 8.8.8.8）是可以的，但在企业环境中请考虑使用内部 DNS。

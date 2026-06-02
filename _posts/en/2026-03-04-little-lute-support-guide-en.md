@@ -16,6 +16,7 @@ Answer:
 Little Lute, also known as Cai Yan or Cai Wenji, is a Support hero (roamer lane) in Honor of Kings (the international version of King of Glory / 王者荣耀). She excels as a healing and crowd control support, providing strong team sustain, buffs, and disruption. Her kit is beginner-friendly, focusing on keeping allies alive in fights while controlling enemies. She's balanced across all game stages but shines in team fights.
 
 ### Skills
+
 - **Passive: Can't Touch This**
   When taking damage (from heroes, minions, or monsters), gain 35-70% decaying movement speed for 2s and heal for 250-530 (+50% magic power) HP per second for 2s (10s cooldown). Great for escaping ganks or sustaining in lane.
 
@@ -31,6 +32,7 @@ Little Lute, also known as Cai Yan or Cai Wenji, is a Support hero (roamer lane)
 **Skill Priority**: 1 > 2 > Ultimate. Take **Heal** or **Stun** summoner spell.
 
 ### Recommended Build
+
 Focus on magic power (for healing/damage), cooldown reduction (CDR), health, and survivability. She's squishy early, so build tanky-support items.
 
 | Slot | Core Item | Key Stats/Benefits |
@@ -45,31 +47,38 @@ Focus on magic power (for healing/damage), cooldown reduction (CDR), health, and
 **Arcana**: 10x Saint (healing/magic lifesteal), 10x Harmony/Tribute (magic power/CDR), 5x Hunt/Void (speed/penetration).
 
 ### Gameplay Guide
+
 #### Early Game (Laning/Roaming)
+
 - Start roaming lane or support ADC/mid. Use Skill 2 to clear waves with your carry for fast pushes.
 - Poke with Skill 2 on enemies/minions to trigger passive heals. Stay near allies for Skill 1 sustain.
 - Ward bushes, rotate for ganks—your CC sets up kills. Avoid solo fights; you're weak 1v1.
 
 #### Mid Game (Objectives/Skirmishes)
+
 - Follow carries to objectives (towers, jungle). Use ultimate to save low-HP allies during dives.
 - Interrupt channels (e.g., ults) with Skill 2 stuns. Heal through trades with Skill 1.
 
 #### Late Game (Team Fights)
+
 - Position behind frontline. Ult to shield/heal your lowest-HP carry (debuffs enemies too).
 - Combo: Skill 2 (stun group) > Skill 1 (heal/buff team) > Ult (sustain). Flash/Heal for repositions.
 - Prioritize protecting ADCs/mages—your heals scale massively with items.
 
 **Combos**:
+
 1. Poke/Trade: Skill 2 > AA > Skill 1.
 2. Team Fight: Ult > Skill 2 (CC) > Skill 1 (sustain).
 3. Escape: Passive trigger > Skill 1 (speed/heal).
 
 ### Synergies & Counters
+
 **Good With**: Gao Jianli (burst sustain), Di Renjie/Lu Bu (frontline), Luban No.7/Lady Sun (carries), Lam/Diaochan (divers).
 
 **Counters**: Stealth assassins (Lanling), burst (Mulan). Focus-fire her; she's squishy if isolated. Dodge Skill 2 bounces.
 
 **Tips**:
+
 - Trigger passive on minions/monsters for free heals (saves mana).
 - Ult near multiple allies; debuff melts tanks.
 - Vision control—your speed helps ward safely.
@@ -78,6 +87,7 @@ Focus on magic power (for healing/damage), cooldown reduction (CDR), health, and
 Master positioning and timing for massive impact!
 
 References:
+
 - [Honor of Kings Little Lute Guide](https://gaminggblog.com/honor-of-kings-little-lute-builds)
 - [Cai Yan Fandom Wiki](https://honor-of-kings.fandom.com/wiki/Cai_Yan)
 - [Cai Yan HoK Guide](https://www.joytify.com/blog/en-ph/cai-yan-honor-of-kings)

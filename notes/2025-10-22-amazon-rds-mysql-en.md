@@ -15,6 +15,7 @@ Amazon RDS (Relational Database Service) for MySQL is a managed database service
 **Note on Costs:** AWS Free Tier offers limited usage for new accounts, but you'll incur charges for resources beyond that. Always delete resources when done to avoid unexpected bills. For production, follow security best practices like using VPCs, encryption, and least-privilege access.
 
 ## Prerequisites
+
 - An AWS account (sign up at [aws.amazon.com](https://aws.amazon.com) if needed).
 - Basic familiarity with AWS console and MySQL.
 - For secure connection testing, we'll create an EC2 instance in the same VPC (Virtual Private Cloud). Determine your public IP address (e.g., via [checkip.amazonaws.com](https://checkip.amazonaws.com)) for SSH access.
@@ -23,6 +24,7 @@ Amazon RDS (Relational Database Service) for MySQL is a managed database service
 **Best Practice:** Use a private DB instance in a VPC to restrict access to trusted resources only. Enable SSL/TLS for encrypted connections.
 
 ## Step 1: Create an EC2 Instance for Connection
+
 This sets up a simple Linux server to connect to your private DB instance.
 
 1. Sign in to the [AWS Management Console](https://console.aws.amazon.com) and open the EC2 console.
@@ -42,6 +44,7 @@ This sets up a simple Linux server to connect to your private DB instance.
 **Security Tip:** Restrict SSH to your IP only. Download the key pair (.pem file) securely.
 
 ## Step 2: Create a MySQL DB Instance
+
 Use "Easy create" for quick setup with defaults.
 
 1. Open the [RDS console](https://console.aws.amazon.com/rds/).
@@ -62,28 +65,35 @@ Use "Easy create" for quick setup with defaults.
 **Best Practice:** For production, use "Standard create" to customize VPC, backups (enable automated), and storage. Enable deletion protection and multi-AZ for high availability.
 
 ## Step 3: Connect to the DB Instance
+
 Connect from your EC2 instance using the MySQL client.
 
 1. SSH into your EC2 instance:
+
    ```
    ssh -i /path/to/your-key-pair.pem ec2-user@your-ec2-public-dns
    ```
+
    (Replace with your details; e.g., `ssh -i ec2-database-connect-key-pair.pem ec2-user@ec2-12-345-678-90.compute-1.amazonaws.com`.)
 
 2. On the EC2 instance, update packages:
+
    ```
    sudo dnf update -y
    ```
 
 3. Install the MySQL client:
+
    ```
    sudo dnf install mariadb105 -y
    ```
 
 4. Connect to the DB:
+
    ```
    mysql -h your-db-endpoint -P 3306 -u admin -p
    ```
+
    Enter the master password when prompted.
 
 If successful, you'll see the MySQL prompt (`mysql>`).
@@ -93,12 +103,14 @@ If successful, you'll see the MySQL prompt (`mysql>`).
 **Security Tip:** Use `--ssl-mode=REQUIRED` for encrypted connections: `mysql -h endpoint -P 3306 -u admin -p --ssl-mode=REQUIRED`.
 
 ## Step 4: Basic Usage
+
 Once connected, you can run SQL commands. Examples:
 
 - Show databases: `SHOW DATABASES;`
 - Create a sample database: `CREATE DATABASE myapp;`
 - Use it: `USE myapp;`
 - Create a table:
+
   ```
   CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -106,6 +118,7 @@ Once connected, you can run SQL commands. Examples:
     email VARCHAR(100)
   );
   ```
+
 - Insert data: `INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');`
 - Query: `SELECT * FROM users;`
 - Exit: `EXIT;`
@@ -115,6 +128,7 @@ From applications (e.g., Python, Node.js), use standard MySQL drivers with the e
 **Best Practice:** Monitor performance via CloudWatch, enable automated backups, and scale vertically (instance size) or horizontally (read replicas) as needed.
 
 ## Cleanup: Delete Resources
+
 To stop charges:
 
 1. **Delete EC2 instance:** EC2 console > Select instance > **Instance state** > **Terminate** > Confirm.
@@ -125,6 +139,7 @@ Check the AWS Billing console for any running resources.
 For more advanced topics like migrations, performance tuning, or API/CLI usage, refer to the AWS documentation.
 
 ## References
+
 - [Creating and connecting to a MySQL DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html)
 - [Amazon RDS for MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html)
 - [Getting started with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html)

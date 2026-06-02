@@ -14,15 +14,18 @@ Yes, the URL you provided indicates that the image is stored in **Microsoft Azur
 ---
 
 ### **1. URL Structure**
+
 ```
 https://mistralaichatupprodswe.blob.core.windows.net/chat-images/assistant/be/75/da/be75da1d-cd84-46ef-a1a5-0fb7427ad357/01a20d1d-beff-430b-a263-55670cb3cc4f/3435c442-534e-4046-8238-4cf1e062d038/5b528d38-7a4a-495a-a832-9ca833506521.webp
 ```
+
 - **`mistralaichatupprodswe.blob.core.windows.net`**: This is the Azure Blob Storage endpoint. It follows the format `<account-name>.blob.core.windows.net`.
 - **`chat-images/assistant/...`**: This is the path to the blob (file) within the container. Azure Blob Storage organizes files in containers, and this path represents the virtual directory structure.
 
 ---
 
 ### **2. Query Parameters (SAS Token)**
+
 The query string after the `?` is a **Shared Access Signature (SAS) token**, which provides secure, time-limited access to the blob. Here’s what each parameter means:
 
 | Parameter | Value | Purpose |
@@ -37,6 +40,7 @@ The query string after the `?` is a **Shared Access Signature (SAS) token**, whi
 ---
 
 ### **3. How It Works**
+
 - **Access Control**: The SAS token allows temporary, controlled access to the blob without requiring Azure credentials. Anyone with this URL can access the blob **only within the specified time window** (`st` to `se`).
 - **Security**: The `sig` parameter is a cryptographic signature generated using the storage account key. It ensures the token hasn’t been tampered with.
 - **Permissions**: The `sp=rade` parameter grants **read** and **delete** permissions, but in practice, only **read** is typically used for sharing images.
@@ -44,6 +48,7 @@ The query string after the `?` is a **Shared Access Signature (SAS) token**, whi
 ---
 
 ### **4. Why Use Azure Blob Storage?**
+
 - **Scalability**: Azure Blob Storage is designed to handle massive amounts of unstructured data (like images, videos, etc.).
 - **Global Access**: Files can be accessed from anywhere via HTTP/HTTPS.
 - **Cost-Effective**: Pay only for the storage and bandwidth you use.
@@ -51,6 +56,7 @@ The query string after the `?` is a **Shared Access Signature (SAS) token**, whi
 ---
 
 ### **5. Practical Implications**
+
 - **Temporary Access**: The URL will stop working after `2026-02-19T19:46:54Z` (1 hour after generation).
 - **No Authentication Needed**: Anyone with the URL can access the image during the valid time window.
 

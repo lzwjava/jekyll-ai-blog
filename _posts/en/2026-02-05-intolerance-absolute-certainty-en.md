@@ -31,6 +31,7 @@ According to the essay, **all persecution stems from this psychological root**:
 ### Universal Application
 
 Hu Shi argues this principle explains:
+
 - All persecution of heretics (一切对异端的迫害)
 - All suppression of "the different" (一切对"异已"的摧残)
 - All prohibition of religious freedom (一切宗教自由的禁止)
@@ -39,14 +40,17 @@ Hu Shi argues this principle explains:
 ## Why the Other Options Are Insufficient
 
 **A - Servetus was dissatisfied with Roman Catholicism**
+
 - This is just the **content** of the disagreement
 - Doesn't explain **why** Calvin felt justified in killing him
 
 **C -争取"基督教的人的自由" (Fighting for "Christian human freedom")**
+
 - This is ironic - Calvin claimed to fight for freedom while suppressing it
 - This is the **pretext**, not the **psychological root cause**
 
 **D - Religious belief and freedom are incompatible**
+
 - This is too broad and fatalistic
 - Hu Shi doesn't argue that religion inherently opposes freedom
 - Rather, it's the **dogmatic mindset** that does

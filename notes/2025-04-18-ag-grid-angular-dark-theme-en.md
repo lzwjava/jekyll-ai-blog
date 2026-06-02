@@ -15,6 +15,7 @@ Got it — you’re asking about **Alpine Dark Theme** in **AG Grid** when using
 ---
 
 ### 🔹 What is Alpine Dark Theme?
+
 AG Grid provides several built-in themes for styling the grid.
 One of them is the **Alpine** theme, which comes in both **light** and **dark** variants:
 
@@ -28,15 +29,18 @@ So, **Alpine Dark** theme is simply the dark mode variant of AG Grid’s Alpine 
 ### 🔹 Using Alpine Dark Theme in Angular + AG Grid
 
 1. **Install AG Grid Packages**
+
    ```bash
    npm install ag-grid-community ag-grid-angular
    ```
+
    (If you want enterprise features, also add `ag-grid-enterprise`.)
 
 ---
 
 2. **Import AG Grid Module in Angular**
    In your `app.module.ts`:
+
    ```ts
    import { AgGridModule } from 'ag-grid-angular';
    import { NgModule } from '@angular/core';
@@ -60,6 +64,7 @@ So, **Alpine Dark** theme is simply the dark mode variant of AG Grid’s Alpine 
 
 3. **Include AG Grid Styles**
    In `angular.json`, under `styles`, add the CSS for Alpine Dark:
+
    ```json
    "styles": [
      "node_modules/ag-grid-community/styles/ag-grid.css",
@@ -72,6 +77,7 @@ So, **Alpine Dark** theme is simply the dark mode variant of AG Grid’s Alpine 
 
 4. **Apply the Theme in Template**
    In your `app.component.html`:
+
    ```html
    <ag-grid-angular
      style="width: 100%; height: 500px;"
@@ -86,6 +92,7 @@ So, **Alpine Dark** theme is simply the dark mode variant of AG Grid’s Alpine 
 
 5. **Define Data in Component**
    In `app.component.ts`:
+
    ```ts
    import { Component } from '@angular/core';
    import { ColDef } from 'ag-grid-community';
@@ -119,18 +126,22 @@ So, **Alpine Dark** theme is simply the dark mode variant of AG Grid’s Alpine 
 ---
 
 ### 🔹 Switching between Alpine Light & Dark Theme
+
 You can dynamically switch themes just by changing the class on the grid container:
 
 {% raw %}
+
 ```html
 <ag-grid-angular
   class="{{ isDark ? 'ag-theme-alpine-dark' : 'ag-theme-alpine' }}"
   ...
 ></ag-grid-angular>
 ```
+
 {% endraw %}
 
 And in your component:
+
 ```ts
 isDark = true;
 ```

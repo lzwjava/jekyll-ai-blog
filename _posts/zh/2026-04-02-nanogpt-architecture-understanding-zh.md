@@ -39,6 +39,7 @@ Linear Layer (lm_head) → Logits for next token
 ### 1. Embeddings：起点
 
 模型使用 **两个 embedding tables**：
+
 - **Token Embeddings** (`wte`)：将每个 token ID（0 到 vocab_size-1）映射到大小为 `n_embd` 的稠密向量
 - **Positional Embeddings** (`wpe`)：将每个位置（0 到 block_size-1）映射到大小为 `n_embd` 的向量
 
@@ -59,11 +60,13 @@ v = value(x)  # (B, T, head_size)
 ```
 
 注意力权重计算如下：
+
 ```python
 wei = q @ k.transpose(-2, -1) / sqrt(head_size)  # Scaled dot-product
 ```
 
 然后应用 **causal mask**，使用下三角矩阵防止查看未来 token：
+
 ```python
 tril = torch.tril(torch.ones(T, T))
 wei = wei.masked_fill(tril == 0, float('-inf'))
@@ -76,6 +79,7 @@ out = wei @ v  # Weighted aggregation
 ### 3. MLP/FeedForward 层
 
 这是一个简单但关键的两层网络，独立应用于每个 token：
+
 ```python
 class FeedForward(nn.Module):
     def __init__(self, n_embd, dropout):
@@ -93,6 +97,7 @@ class FeedForward(nn.Module):
 ### 4. Transformer Block 结构
 
 每个 block 遵循特定模式，并带有 residual connections：
+
 ```python
 def forward(self, x):
     # Self-attention with pre-normalization
@@ -106,8 +111,10 @@ def forward(self, x):
 
 这是许多人感到困惑的地方。关键洞察是 **模型在训练期间同时预测所有位置**。
 
-### 训练期间：
+### 训练期间
+
 给定输入序列 `[a, b, c]`，模型：
+
 1. 并行处理所有 token
 2. 由于 **causal masking**，位置 1 只看到 token 1，位置 2 看到 token 1-2，位置 3 看到 token 1-3
 3. `lm_head`（一个 linear layer）应用于 **每个位置**，以预测该位置的下一个 token
@@ -116,8 +123,10 @@ def forward(self, x):
 
 这就是训练高效的原因——模型在一次前向传播中从每个位置学习，而不是逐个 token。
 
-### 生成/推理期间：
+### 生成/推理期间
+
 生成新文本时，模型被反复调用：
+
 ```python
 for _ in range(max_new_tokens):
     # Crop to last block_size tokens
@@ -144,6 +153,7 @@ for _ in range(max_new_tokens):
 3. **顶层**：`GPT` 类堆叠多个 `Block` 实例
 
 模型配置控制一切：
+
 ```python
 class GPTConfig:
     block_size = 1024    # Max sequence length

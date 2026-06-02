@@ -39,6 +39,7 @@ Here are some genuinely unpopular (often suppressed or heavily debated) opinions
 These views are unpopular either inside China (where they threaten Party legitimacy) or outside (where they clash with both Sinological romanticism and simple anti-China sentiment). They are defended by scholars like Victor Mair, Patricia Ebrey, Ge Jianxiong, and some exiled Chinese historians, though rarely in mainstream textbooks.
 
 References:
+
 - [Continuity and Change in China (Ge Jianxiong lectures, various Chinese sources translated)](https://www.chinaheritagequarterly.org/)
 - [The Tyranny of History – Jens P. Becker](https://www.amazon.com/Tyranny-History-Classicists-Chinese-Tradition/dp/014016680X)
 - [China’s Population Fraud and Historical Demography debates (various papers by Ge Jianxiong)](http://www.iq.harvard.edu/files/carr/files/gejianxiongpresentation.pdf)

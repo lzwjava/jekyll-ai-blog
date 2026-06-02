@@ -11,13 +11,14 @@ type: note
 
 **Question: What is an introduction to Corporate and Institutional Banking (CIB) at Standard Chartered Bank?**
 
-**Answer: **
+**Answer:**
 
 **Standard Chartered Bank** 的 **Corporate and Institutional Banking (CIB)** 是银行的核心批发银行业务部门，专注于服务大型企业客户、金融機構、政府、开发组织和投资者。
 
 Standard Chartered 将自己定位为领先的国际跨境银行，重点连接客户与全球最具活力的市场增长机会——主要是 **Asia**、**Africa**、**Middle East**，并通过其网络日益扩展到其他地区。
 
 ### Standard Chartered 的 CIB 主要特点
+
 - **Client Base** — 大型（跨国）企业、本地企业、金融機構（银行和经纪交易商）、公共部门实体、投资者、开发组织和政府。
 - **Geographic Focus** — 在 Asia、Africa 和 Middle East 拥有无可比拟的网络，覆盖超过 50 个市场。它利用这一足迹促进跨境贸易、投资和资本流动（例如，Asia ↔ Africa/Middle East ↔ Europe/Americas）。
 - **Main Business Pillars**：

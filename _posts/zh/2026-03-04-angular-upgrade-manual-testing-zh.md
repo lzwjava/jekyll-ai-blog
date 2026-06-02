@@ -56,7 +56,7 @@ type: note
 - [ ] 手机/平板/桌面上的 responsive design
 - [ ] 浏览器后退/前进/刷新行为
 
-遵循官方 **Angular Update Guide**（https://angular.dev/update-guide）并阅读 10–14 版本的 release notes / breaking changes 摘要。
+遵循官方 **Angular Update Guide**（<https://angular.dev/update-guide）并阅读> 10–14 版本的 release notes / breaking changes 摘要。
 
 仔细的手动测试 + 良好的前后比较通常是“在我机器上能工作”和“生产环境崩溃”之间的区别。
 

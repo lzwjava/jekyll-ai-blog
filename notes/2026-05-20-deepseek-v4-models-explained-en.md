@@ -24,12 +24,15 @@ DeepSeek dropped V4 Pro and V4 Flash on April 24, 2026. Here's the full breakdow
 Three key innovations explain the cost/performance:
 
 ### 1. MoE with aggressive sparsity
+
 V4 Pro has 1.6T total parameters but only 49B active per token. V4 Flash has 284B total with 13B active. Inference costs are a fraction of what a dense model requires.
 
 ### 2. KV cache compression
+
 The model uses a combination of Compressed Sparse Attention and Hybrid Compression Attention that reduces KV cache memory to just 10% of what V3.2 required. This makes the 1M token context window actually viable for production use.
 
 ### 3. Manifold-Constrained Hyper-Connections (mHC) for stable training
+
 Standard residual connections pass a single vector forward. Hyper-Connections widen this into multiple parallel streams — theoretically improving expressivity. Unconstrained Hyper-Connections caused catastrophic training divergence in DeepSeek's 27B experiments, with signal amplification exceeding 3,000x. The mHC framework solves this by constraining the residual connection mixing matrices to the Birkhoff Polytope using the Sinkhorn-Knopp algorithm — dropping signal amplification to 1.6x, enabling stable training at 1.6T parameters.
 
 They also use the Muon optimizer for pre-training — chosen for faster convergence and greater stability compared to standard AdamW, and notably, trained V4 on Huawei Ascend 950PR chips, not NVIDIA hardware — a significant geopolitical and supply-chain signal.
@@ -55,13 +58,16 @@ V4 Flash even has a free tier on OpenRouter — $0/M input, $0/M output, with a 
 
 ## Benchmark Reality Check
 
-### Where V4 Pro genuinely leads (coding):
+### Where V4 Pro genuinely leads (coding)
+
 On SWE-bench Verified it scores 80.6% versus V4-Pro's 80.6% — within 0.2 points of Claude. On Terminal-Bench 2.0, V4-Pro leads Claude (67.9% vs 65.4%). On LiveCodeBench it hits 93.5% vs Claude's 88.8%.
 
-### Where V4 Flash holds up:
+### Where V4 Flash holds up
+
 V4-Flash is a genuinely serious model, not a stripped-down fallback. On SWE-bench Verified it scores 79.0% versus V4-Pro's 80.6% — a 1.6-point gap. On LiveCodeBench it hits 91.6% versus 93.5%. For most developer coding tasks, these are functionally equivalent results.
 
-### Where it still trails:
+### Where it still trails
+
 HLE (Humanity's Last Exam) at 37.7% puts V4-Pro below Claude (40.0%), GPT-5.4 (39.8%), and well below Gemini-3.1-Pro (44.4%). SimpleQA-Verified at 57.9% versus Gemini's 75.6% reveals a meaningful factual knowledge retrieval gap.
 
 ---

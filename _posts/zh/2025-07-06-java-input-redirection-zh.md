@@ -175,17 +175,17 @@ mvn exec:exec@run-my-java-app < input.txt
 
 **解释：**
 
-  * `mvn exec:exec@run-my-java-app`：使用 ID "run-my-java-app" 执行 `exec-maven-plugin` 的 `exec` 目标。
-  * `< input.txt`：这是一个标准的 shell 重定向操作符。它告诉您的 shell 获取 `input.txt` 的内容并将其作为标准输入提供给正在执行的命令（`java com.example.app.MyInputProgram`）。
+* `mvn exec:exec@run-my-java-app`：使用 ID "run-my-java-app" 执行 `exec-maven-plugin` 的 `exec` 目标。
+* `< input.txt`：这是一个标准的 shell 重定向操作符。它告诉您的 shell 获取 `input.txt` 的内容并将其作为标准输入提供给正在执行的命令（`java com.example.app.MyInputProgram`）。
 
 **`exec:exec` 的重要注意事项：**
 
-  * **`executable`：** 您需要明确指定 `java` 为可执行文件。
-  * **`arguments`：** 您需要手动构建 `java` 命令的参数，包括 `-classpath` 和 `mainClass`。`<classpath/>` 标签是一个特殊值，`exec-maven-plugin` 会将其替换为项目实际计算出的类路径。
-  * **`workingDirectory`：** 将 `workingDirectory` 设置为 `${project.build.directory}/classes` 通常很有帮助，这样 Java 可以找到您编译的 `.class` 文件。
-  * **`outputFile`（可选）：** `exec-maven-plugin` 的 `exec:exec` 目标还提供了一个 `<outputFile>` 配置选项，用于将程序的标准输出和错误重定向到文件，这直接在插件配置中完成，而不是依赖 shell 重定向。这对于日志记录很有用。
+* **`executable`：** 您需要明确指定 `java` 为可执行文件。
+* **`arguments`：** 您需要手动构建 `java` 命令的参数，包括 `-classpath` 和 `mainClass`。`<classpath/>` 标签是一个特殊值，`exec-maven-plugin` 会将其替换为项目实际计算出的类路径。
+* **`workingDirectory`：** 将 `workingDirectory` 设置为 `${project.build.directory}/classes` 通常很有帮助，这样 Java 可以找到您编译的 `.class` 文件。
+* **`outputFile`（可选）：** `exec-maven-plugin` 的 `exec:exec` 目标还提供了一个 `<outputFile>` 配置选项，用于将程序的标准输出和错误重定向到文件，这直接在插件配置中完成，而不是依赖 shell 重定向。这对于日志记录很有用。
 
 **总结：**
 
-  * 对于用户直接输入的交互式输入，`exec:java` 和 `System.in` 可以正常工作。
-  * 对于从文件或管道提供输入的情况，您需要切换到 `exec:exec` 并利用 shell 的输入重定向功能（`<`）。
+* 对于用户直接输入的交互式输入，`exec:java` 和 `System.in` 可以正常工作。
+* 对于从文件或管道提供输入的情况，您需要切换到 `exec:exec` 并利用 shell 的输入重定向功能（`<`）。

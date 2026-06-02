@@ -11,6 +11,7 @@ type: note
 `<cuda.h>` 头文件属于 **CUDA 驱动 API**，相较于更高级的 CUDA 运行时 API（例如 `cudaMalloc`、`cudaMemcpy`），这是一个底层 API。驱动 API 提供了对 GPU 资源（如上下文、模块、流）更精细的控制，常用于多 GPU 编程、动态内核加载或底层优化等高级场景。
 
 ### 常用 CUDA 驱动 API 函数
+
 以下是一些关键函数及其用途：
 
 | 函数                                | 描述                                                                                   |
@@ -28,7 +29,9 @@ type: note
 ---
 
 ### 工作流程示例
+
 以下是通过 CUDA 驱动 API 实现的简化示例流程：
+
 1. 初始化驱动
 2. 分配 GPU 内存
 3. 与 GPU 间传输数据
@@ -98,6 +101,7 @@ int main() {
 ---
 
 ### 重要说明
+
 1. **错误处理**：始终检查返回值（例如 `CUresult err = cuSomeFunction(...);`），可通过 `cuGetErrorString(err)` 解析错误信息
 2. **内核参数**：向 `cuLaunchKernel` 传递参数时需使用参数指针数组，确保顺序与内核预期参数顺序一致
 3. **PTX 文件**：内核必须编译为 PTX 格式（例如 `nvcc --ptx my_kernel.cu -o my_kernel.ptx`）
@@ -106,6 +110,7 @@ int main() {
 ---
 
 ### 何时使用驱动 API？
+
 - **动态内核加载**：运行时加载 PTX 模块
 - **多 GPU 控制**：显式管理多个 GPU 设备
 - **底层优化**：对上下文、流或内存进行细粒度控制

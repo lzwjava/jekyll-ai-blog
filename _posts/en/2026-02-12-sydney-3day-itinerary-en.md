@@ -17,6 +17,7 @@ Answer:
 Here's a practical guide on **how to visit Sydney** and a realistic **3-day itinerary** for first-time visitors (assuming you're arriving by air and it's your first time in the city). This plan focuses on the absolute must-see highlights: the harbour icons, beaches, and a taste of nature/local life.
 
 ### Getting to Sydney and Entry Basics (as of early 2026)
+
 Sydney is served by **Sydney Kingsford Smith Airport (SYD)**, about 8–10 km from the city center.
 
 - **International visitors**: Most need a visa or **Electronic Travel Authority (ETA)** before arrival (apply via the Australian ETA app or official site). U.S., EU, UK, and many other passport holders qualify for ETA for short tourist stays (up to 90 days). Check the Australian Department of Home Affairs website for your nationality.
@@ -29,6 +30,7 @@ Sydney is served by **Sydney Kingsford Smith Airport (SYD)**, about 8–10 km fr
 Use an **Opal card** (physical card) or contactless debit/credit card/phone pay. Buy an Opal card at the airport, train stations, or convenience stores (minimum top-up ~AUD 10). Fares have daily (~AUD 16–20) and weekly caps (~AUD 50), making it affordable for heavy use. Ferries, trains, buses, metro, and light rail all accept it. Download the **Opal Travel** or **Transport NSW** app for planning routes and real-time info.
 
 **Best areas to stay** (for first-timers):
+
 - Circular Quay / The Rocks (iconic views, walkable, expensive)
 - CBD / Darling Harbour (central, good transport)
 - Surry Hills / Darlinghurst (vibrant, food scene, 10–15 min walk to harbour)
@@ -64,6 +66,7 @@ Focus → See Sydney from the water + animals.
 - **Evening** — Relaxed dinner in CBD or Darling Harbour. If energy left → rooftop bar or night walk around the illuminated Opera House.
 
 ### Quick Tips
+
 - Summer (Dec–Feb) = hot & busy; book ferries/activities early. Winter (Jun–Aug) = milder, fewer crowds.
 - Wear comfortable walking shoes — Sydney is very walkable but spread out.
 - Budget: Expect AUD 150–300/day per person (excluding accommodation) for food, transport, and attractions.

@@ -17,6 +17,7 @@ Answer:
 Throughput in networking is the **actual rate at which data is successfully transferred from a sender to a receiver over a communication link or network path**, measured in bits per second (bps) or its multiples (e.g., Mbps, Gbps).
 
 ### Key Characteristics
+
 - **Real-world performance metric** – Unlike bandwidth (the theoretical maximum capacity of the link), throughput reflects what you actually achieve after accounting for real-world limitations.
 - **Affected by multiple factors**:
   - Packet loss and retransmissions
@@ -28,7 +29,9 @@ Throughput in networking is the **actual rate at which data is successfully tran
   - Competing traffic
 
 ### Simple Analogy
+
 Think of a highway:
+
 - Bandwidth = number of lanes (theoretical maximum cars per hour)
 - Throughput = actual cars that successfully reach the destination per hour (affected by traffic jams, accidents, speed limits, toll booths, etc.)
 
@@ -41,6 +44,7 @@ Think of a highway:
 | 4G/5G cellular                   | >100 Mbps | 10–80 Mbps         | Signal strength, tower load            |
 
 ### Goodput vs Throughput
+
 - **Throughput** – Total data including protocol headers and retransmitted packets
 - **Goodput** – Only the useful application-layer data (excludes headers and retransmissions)
 

@@ -18,6 +18,7 @@ You're already running a solid baseline. Here's what's worth adding, grouped by 
 ## High Value — Add These First
 
 ### `pytest` + `pytest-cov`
+
 ```yaml
 - repo: local
   hooks:
@@ -28,13 +29,17 @@ You're already running a solid baseline. Here's what's worth adding, grouped by 
       pass_filenames: false
       always_run: true
 ```
+
 Coverage gate:
+
 ```yaml
 entry: pytest --cov=ww --cov-fail-under=80 -q
 ```
 
 ### `bandit` — security linting
+
 Catches hardcoded secrets, shell injections, unsafe `eval`, etc.
+
 ```yaml
 - repo: https://github.com/PyCQA/bandit
   rev: 1.8.3
@@ -44,7 +49,9 @@ Catches hardcoded secrets, shell injections, unsafe `eval`, etc.
 ```
 
 ### `detect-secrets`
+
 Scans for API keys, tokens, passwords before they hit origin.
+
 ```yaml
 - repo: https://github.com/Yelp/detect-secrets
   rev: v1.5.0
@@ -52,6 +59,7 @@ Scans for API keys, tokens, passwords before they hit origin.
     - id: detect-secrets
       args: ['--baseline', '.secrets.baseline']
 ```
+
 Init once: `detect-secrets scan > .secrets.baseline`
 
 ---
@@ -59,18 +67,22 @@ Init once: `detect-secrets scan > .secrets.baseline`
 ## Medium Value — Situational
 
 ### `mypy` — strict type checking
+
 You have `pyright` already, but `mypy` catches different edge cases. Running both is overkill — stick with pyright unless a dep only has mypy stubs.
 
 ### `pip-audit` — dependency CVE scanning
+
 ```yaml
 - repo: https://github.com/pypa/pip-audit
   rev: v2.9.0
   hooks:
     - id: pip-audit
 ```
+
 Checks your `requirements.txt` / `pyproject.toml` against OSV/PyPI advisory DB.
 
 ### `vulture` — dead code detection
+
 ```yaml
 - repo: https://github.com/jendrikseipp/vulture
   rev: v2.14
@@ -78,9 +90,11 @@ Checks your `requirements.txt` / `pyproject.toml` against OSV/PyPI advisory DB.
     - id: vulture
       args: ["ww/", "--min-confidence", "80"]
 ```
+
 Useful for CLI tools like `ww` where commands accumulate.
 
 ### `interrogate` — docstring coverage
+
 ```yaml
 - repo: https://github.com/econchick/interrogate
   rev: 1.7.0

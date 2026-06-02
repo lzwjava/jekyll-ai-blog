@@ -28,21 +28,25 @@ type: note
 ### `ww/note/create_note_utils.py` — 调用方层
 
 **问题：** `_call_llm_or_exit` 隐藏了所有细节。原有代码如下：
+
 ```python
 result = call_openrouter_api(prompt, max_tokens=max_tokens)
 if not result:
     print("无法生成标题，最多6个词。退出。")
     sys.exit(1)
 ```
+
 其中未包含模型名称、提示词预览或异常详情。
 
 **修复：** 包裹在 try/except 中，打印：
+
 - `[error] LLM 调用失败。模型：<model>，max_tokens：<N>`
 - `[error] 提示词（前 300 个字符）：<prompt preview>`
 - `[error] 异常：<完整详情>`
 - 完整调用栈
 
 对于空结果路径（由于 LLM 客户端现在会针对空内容抛出异常，该情况不应再出现）：
+
 - `[error] LLM 返回空结果。模型：<model>，max_tokens：<N>`
 - `[error] 提示词（前 300 个字符）：<prompt preview>`
 

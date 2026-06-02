@@ -30,6 +30,7 @@ type: note
 这些观点在大多数在线空间中往往会引发强烈反弹，因为它们挑战了自2018年左右成为常态的“自由拉黑，无需解释”的主流文化。
 
 参考文献：
+
 - [Reddit 帖子：“拉黑别人是懦夫的行为”（r/unpopularopinion, 2023）](https://www.reddit.com/r/unpopularopinion/comments/10x1234/blocking_someone_is_a_cowards_way_out/)
 - [X 上关于“被拉黑 = 你赢了”情绪的帖子，各种日期 2022-2025](https://x.com/search?q=blocked%20means%20you%20won)
 - [文章：拉黑按钮的懦弱行为 – The Atlantic, 2019 (仍被广泛引用)](https://www.theatlantic.com/technology/archive/2019/08/the-cowardice-of-the-block-button/595865/)

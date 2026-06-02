@@ -32,6 +32,7 @@ Answer:
 - 应用 access controls 和 QoS 策略。
 
 **为什么其他选项是错误的：**
+
 - **A) Using only public IP addresses**: Public IPs 资源有限且昂贵；campus networks 通常使用 private IP addresses 并配合 NAT 进行互联网访问。
 - **C) Assigning the same subnet to all departments**: 这会创建一个巨大的单一 broadcast domain，导致拥塞、安全风险和较差的可管理性。
 - **D) Avoiding VLANs entirely**: VLANs 通常与 subnetting 结合使用，在不需要额外物理基础设施的情况下提供逻辑隔离。
@@ -41,5 +42,6 @@ Answer:
 如上所述，提供的答案 **B** 是正确的。
 
 References:
+
 - [Cisco Campus Network Design Basics](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Campus/campover.html)
 - [RFC 1918 - Address Allocation for Private Internets](https://tools.ietf.org/html/rfc1918)

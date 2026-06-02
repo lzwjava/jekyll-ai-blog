@@ -13,7 +13,7 @@ type: post
 
 - 优先使用5G WiFi信号或以太网线。
 
-- 使用Speedtest应用或访问https://www.speedtest.net定期测试您的网络连接。
+- 使用Speedtest应用或访问<https://www.speedtest.net定期测试您的网络连接。>
 
 - 使用traceroute、ping或dig/nslookup进行网络诊断。
 

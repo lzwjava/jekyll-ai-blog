@@ -15,6 +15,7 @@ type: note
 The Docker daemon can be configured to use an HTTP/HTTPS proxy for operations like pulling images or building containers from behind a corporate firewall. This is done by editing (or creating) the `/etc/docker/daemon.json` file. Note that this configuration applies to the daemon itself (e.g., for `docker pull` or `docker build`), not to individual containers (which would use environment variables or Docker build args).
 
 #### Prerequisites
+
 - You need root or sudo access on a Linux system (this is the primary OS for Docker daemon configuration; on Windows/Mac with Docker Desktop, use the GUI settings instead).
 - Docker installed and running.
 - Know your proxy server details (e.g., `http://proxy.company.com:8080` for HTTP/HTTPS proxy, and any no-proxy exceptions).
@@ -51,38 +52,51 @@ The Docker daemon can be configured to use an HTTP/HTTPS proxy for operations li
 3. **Save and Restart the Docker Daemon**:
    - Save the file.
    - Restart the Docker service to apply changes:
+
      ```
      sudo systemctl restart docker
      ```
+
      - On older systems or non-systemd setups, use `sudo service docker restart`.
    - Verify the daemon is running:
+
      ```
      sudo systemctl status docker
      ```
+
      - Check logs if there are issues: `sudo journalctl -u docker.service`.
 
 4. **Verify the Configuration**:
    - Test by pulling an image (which should now route through your proxy):
+
      ```
      docker pull hello-world
      ```
+
    - Check if the proxy settings are applied by inspecting the daemon config:
+
      ```
      docker info | grep -i proxy
      ```
+
      - You should see output like:
+
        ```
        HTTP Proxy: http://proxy.company.com:8080
        HTTPS Proxy: http://proxy.company.com:8080
        No Proxy: localhost,127.0.0.1,*.company.com,10.0.0.0/8
        ```
+
    - If you're using Docker in a build context, test with:
+
      ```
      docker build -t test-proxy .
      ```
+
      (Assuming a simple Dockerfile that pulls a base image.)
 
 #### Additional Notes
+
 - **Security**: Avoid hardcoding credentials in `daemon.json` on shared systems. Use environment variables if possible, or tools like `docker config` for more advanced setups.
 - **Common Issues**:
   - **Syntax Errors**: Invalid JSON will prevent the daemon from starting. Double-check with `cat /etc/docker/daemon.json` and a JSON validator.

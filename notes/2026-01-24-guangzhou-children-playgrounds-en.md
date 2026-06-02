@@ -17,6 +17,7 @@ Answer:
 Guangzhou has several excellent parks and playgrounds designed for children and families. The most prominent one matching your example is **Guangzhou Children's Park** (广州市儿童公园) in Baiyun District, which is widely regarded as the best and largest dedicated children's park in the city.
 
 ### Guangzhou Children's Park (Baiyun District)
+
 - **Location**: No. 61 Qixin Road, Baiyun New City, Baiyun District (near Baiyun Park Metro Station on Line 2, Exit D).
 - **Description**: This is the only city-level public children's theme park in Guangzhou's "1+12" children's park system. It spans about 230,000–318,800 square meters and focuses on natural ecology, science education, parent-child interaction, and interactive experiences. It features multiple playground areas for different ages, including:
   - Beach/sand playground (沙滩乐园)
@@ -31,6 +32,7 @@ Guangzhou has several excellent parks and playgrounds designed for children and 
 Guangzhou has a system of district-level children's parks, but the Baiyun one stands out as the flagship.
 
 ### Other Popular Kid-Friendly Parks and Playgrounds in Guangzhou
+
 - **Yuexiu Park** (越秀公园): A large classic park with boating, green spaces, some playground elements, and family activities; central location.
 - **Chimelong Resort Parks** (e.g., Chimelong Safari Park, Chimelong Water Park, Chimelong Paradise): Major family attractions with animal encounters, water slides, rides, and playgrounds; more theme-park style (ticketed, not free).
 - **Indoor/Other Options**:

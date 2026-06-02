@@ -97,7 +97,6 @@ type: post
   <polygon points="450,150 445,146 445,154" fill="#2196F3"/>
 </svg>
 
-
 This is a simple game I play with my baby to interact and amuse them.
 
 ### How to Play

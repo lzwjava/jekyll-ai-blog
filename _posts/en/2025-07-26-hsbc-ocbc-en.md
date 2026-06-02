@@ -74,8 +74,6 @@ The card I received is called the HSBC UnionPay Debit Card. However, when I went
 ![](assets/images/hsbc/hsbc1.jpg){: .responsive }
 *Source: Self-screenshot*{: .caption }
 
-
-
 ---
 
 ## Opening an OCBC Bank Account in China
@@ -92,11 +90,13 @@ In today's digital age, managing finances and accessing cloud services has becom
 
 ### Step 1: Open an OCBC Bank Account
 
-#### Requirements:
+#### Requirements
+
 1. Chinese Passport
 2. Chinese Identity Card
 
-#### Procedure:
+#### Procedure
+
 1. Download the OCBC Digital App:
    - Head to the App Store or Google Play Store and download the OCBC Digital app.
 

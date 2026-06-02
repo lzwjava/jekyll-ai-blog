@@ -16,6 +16,7 @@ Answer:
 This system prompt has some useful structural elements, but also some limitations and areas for improvement:
 
 **Strengths:**
+
 - Clear formatting requirements make responses predictable and scannable
 - Requiring references encourages sourcing and verification
 - The English-only rule provides consistency

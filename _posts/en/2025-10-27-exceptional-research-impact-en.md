@@ -15,6 +15,7 @@ type: note
 Yan Junjie, the founder and CEO of MiniMax (a leading Chinese AI company focused on multimodal models and applications), is widely regarded as one of the top researchers in computer vision and deep learning. With a PhD from the Chinese Academy of Sciences (2014), he spent over a decade at SenseTime as a key scientist before founding MiniMax in 2021. His research has had significant impact, particularly in advancing real-time visual tracking and detection techniques that underpin modern AI systems like autonomous driving and video analysis.
 
 His research ability is exceptional by academic standards:
+
 - **Total citations**: Over 34,790 (as of late 2025).
 - **h-index**: 80 (meaning he has 80 papers each cited at least 80 times).
 - **i10-index**: 125 (125 papers with at least 10 citations each).

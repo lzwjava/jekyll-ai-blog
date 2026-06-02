@@ -33,22 +33,27 @@ This is a **B2B industrial sales automation pipeline**, likely designed for a no
 
 ## Stage 1 — Public Traffic Interception (Social Media → WhatsApp)
 
-### What it does:
+### What it does
+
 AI monitors all public comments on Facebook posts and YouTube videos in real time.
 
-### Trigger:
+### Trigger
+
 When a potential customer comments keywords like **"price," "specifications," "how much,"** the system activates.
 
-### AI Action:
+### AI Action
+
 - Generates a **professional, warm reply** using Dify (which references a nonwoven fabric knowledge base)
 - Appends a call-to-action: *"For business privacy and detailed spec sheets, contact our official WhatsApp: [link]"*
 
-### Why this is smart:
+### Why this is smart
+
 - Avoids exposing pricing publicly (competitive sensitivity)
 - Moves the conversation to a **private, controllable channel**
 - Filters out casual browsers — only motivated buyers click through
 
-### Data Flow:
+### Data Flow
+
 ```
 Social Media Comment → Make.com listener → Dify (RAG knowledge base)
 → AI-generated reply → Make.com posts reply back to social platform
@@ -58,33 +63,39 @@ Social Media Comment → Make.com listener → Dify (RAG knowledge base)
 
 ## Stage 2 — Private Domain Reception (AI Sales Expert on WhatsApp)
 
-### What it does:
+### What it does
+
 The moment a customer sends their **first WhatsApp message**, Dify instantly role-plays as a knowledgeable, reliable sales expert.
 
-### AI Capabilities at this stage:
+### AI Capabilities at this stage
 
 **1. Technical Q&A**
+
 - Answers deep engineering questions, e.g.:
   - CD/MD strength ratios of SMS production lines
   - Principles of 1650mm cooling air chambers
   - Machine configurations, output speeds, etc.
 
 **2. Company Credibility**
+
 - Provides CE/ISO certifications, factory background, past projects
 
 **3. Needs Qualification**
+
 - Proactively collects key sales data:
   - Which country is the client from?
   - Required fabric width (幅宽)?
   - Gram weight range (克重)?
   - Production volume targets?
 
-### Why this is powerful:
+### Why this is powerful
+
 - Available **24/7** across all time zones
 - Handles technical depth that generic chatbots cannot
 - Qualifies leads so humans only deal with **serious buyers**
 
-### Data Flow:
+### Data Flow
+
 ```
 Customer WhatsApp message → WhatsApp API → Make.com
 → Dify (RAG over your technical documents) → Professional answer → Customer
@@ -94,10 +105,11 @@ Customer WhatsApp message → WhatsApp API → Make.com
 
 ## Stage 3 — Precision Human Takeover (AI Notifies Salesperson)
 
-### What it does:
+### What it does
+
 This is the **most critical handoff point**. The AI monitors conversation signals and decides when a human must step in to close the deal.
 
-### Three Trigger Conditions:
+### Three Trigger Conditions
 
 | Trigger Type | Signal | Meaning |
 |---|---|---|
@@ -105,17 +117,20 @@ This is the **most critical handoff point**. The AI monitors conversation signal
 | **Round Count Trigger** | 5–8 back-and-forth exchanges | High engagement = high intent |
 | **Intent Signal** | Customer shares email or installation address | Serious project in motion |
 
-### AI Action When Triggered:
+### AI Action When Triggered
+
 Make.com fires an **urgent alert** to the salesperson via WeChat / DingTalk / SMS:
 
 > *"Boss! A high-quality lead from South Africa/Germany is asking about SSMS production line pricing. AI has completed pre-qualification — please take over immediately!"*
 
-### Human Role at This Stage:
+### Human Role at This Stage
+
 1. Open the chat and **review the full AI conversation history**
 2. Send a formal **quotation (PI)** or invite a **video call**
 3. Close the deal with personal relationship and negotiation
 
-### Why this works:
+### Why this works
+
 - Human time is spent **only on hot leads**, not cold inquiry handling
 - Salesperson arrives fully informed — no repetitive questioning
 - Conversion rate improves because timing is precise

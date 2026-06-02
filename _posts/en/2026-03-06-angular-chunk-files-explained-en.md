@@ -34,20 +34,24 @@ Angular's build system performs **code splitting** — instead of bundling your 
 ### Types of Chunk Files
 
 #### 1. **Lazy-Loaded Module Chunks**
+
 The easiest way to apply lazy loading is to use Angular Router's built-in functionality with `loadChildren`. Based on the `import()` statement used, Webpack knows how to split the JS files so they can be loaded on an as-needed basis. When you serve or compile your application, you will see these code-split JS files (chunks) printed out on the console.
 
 For example:
+
 ```
 products-products-module.js
 orders-orders.module.js
 ```
 
 #### 2. **Common Chunk (`common.js`)**
+
 As soon as you have some shared piece — a shared module with components used by both the products and orders lazy-loaded modules — the Angular CLI by default groups all shared code (used in at least two locations) into a `common.js` chunk. This is usually a good idea in that shared code is de-duplicated. However, keep in mind that this JS file **is loaded at startup**, which may influence your app's startup speed.
 
 The common chunk is a place for all the things that more than one of your feature modules use. For example, if you have a custom grid component in a custom grid module and you import this grid module into both your user and admin feature modules, it ends up in the common chunk.
 
 #### 3. **Named/Hash Chunks (e.g., `chunk-XXXXX.js`)**
+
 After Angular was upgraded to version 16 and the builder `@angular-devkit/build-angular:browser-esbuild` is used, `chunk-xxx.js` files are added compared to earlier versions. These files have non-fixed names, so static file references cannot be matched easily.
 
 ---

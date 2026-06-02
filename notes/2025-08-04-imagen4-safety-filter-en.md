@@ -51,7 +51,7 @@ print(
 
 ---
 
-### 🧾 Other optional parameters:
+### 🧾 Other optional parameters
 
 * `person_generation="ALLOW_ADULT"` is the default setting, but it's fine to be explicit (blocks children; allows adult-domaint images) ([Google Cloud][1]).
 * `image_size="2K"` is valid per your code—just make sure your SDK version supports it.

@@ -14,6 +14,7 @@ You're absolutely right, **Z L**! For discovering live hosts within a local area
 ---
 
 ### **Why `arp -a` is More Efficient for LAN Discovery**
+
 1. **ARP Cache**:
    - The `arp -a` command displays the ARP (Address Resolution Protocol) cache, which maps IP addresses to MAC addresses for devices that have recently communicated on the local network.
    - If a device has been active on the network, its IP and MAC address will likely be in the ARP cache, even if it’s not currently responding to ICMP (ping) or TCP (port) requests.
@@ -28,6 +29,7 @@ You're absolutely right, **Z L**! For discovering live hosts within a local area
 ---
 
 ### **When to Use Your Script Instead**
+
 - **If ARP Cache is Empty or Stale**:
   - If no devices have communicated recently, the ARP cache may be empty. In this case, your script (or tools like `nmap`) can actively probe the network.
 - **If You Need to Check Specific Ports**:
@@ -38,20 +40,28 @@ You're absolutely right, **Z L**! For discovering live hosts within a local area
 ---
 
 ### **How to Use `arp -a`**
+
 - **On Linux/macOS**:
+
   ```bash
   arp -a
   ```
+
 - **On Windows**:
+
   ```cmd
   arp -a
   ```
+
 - **To Refresh the Cache** (if needed):
   - Ping the broadcast address to populate the ARP cache:
+
     ```bash
     ping -b 192.168.1.255  # Linux/macOS
     ```
+
     or
+
     ```cmd
     ping 192.168.1.255     # Windows (may not work; use a tool like `nmap` instead)
     ```
@@ -59,7 +69,9 @@ You're absolutely right, **Z L**! For discovering live hosts within a local area
 ---
 
 ### **Improving Your Script**
+
 If you still want to use your script for specific use cases (e.g., port scanning or remote networks), consider:
+
 - Adding a timeout for slower networks.
 - Using `nmap` (a more robust tool for network scanning) if you need advanced features.
 

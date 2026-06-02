@@ -107,6 +107,7 @@ claude --print --permission-mode bypassPermissions '重写JSSDK模块'
 ### 应用于您的CI4重构决策
 
 当OpenClaw显示**“立即生成编码代理，约2小时”**时，这意味着：
+
 1. 它将调用 `sessions_spawn` 或执行后台 `bash` 命令
 2. Codex/Claude Code代理在您的项目目录中启动
 3. 它自主编辑文件、运行测试并工作约2小时

@@ -25,6 +25,7 @@ AdamW was introduced in the 2017 paper "Decoupled Weight Decay Regularization" b
 Adam (Adaptive Moment Estimation), proposed by Kingma and Ba in 2014, is an adaptive gradient algorithm that combines ideas from Momentum and RMSProp.
 
 It maintains two moving averages:
+
 - **First moment** (mean of gradients, like momentum): \\( m_t \\)
 - **Second moment** (uncentered variance of gradients): \\( v_t \\)
 
@@ -46,6 +47,7 @@ The update rules for Adam are:
    \\( \theta_t = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} \\)
 
 Default hyperparameters:
+
 - Learning rate \\( \eta = 0.001 \\)
 - \\( \beta_1 = 0.9 \\)
 - \\( \beta_2 = 0.999 \\)
@@ -60,6 +62,7 @@ Weight decay is a regularization technique that penalizes large weights by addin
 In SGD, L2 regularization and true weight decay are equivalent (up to rescaling). But in adaptive optimizers like Adam, they are **not**.
 
 Most implementations of Adam (e.g., early PyTorch, TensorFlow) apply "weight decay" by adding \\( \lambda \theta \\) to the gradient (treating it as L2 regularization). This couples weight decay with the adaptive mechanism, causing:
+
 - Uneven regularization across parameters
 - Interference with adaptive learning rates
 - Poorer generalization compared to true weight decay
@@ -73,10 +76,12 @@ The update rules for AdamW are the same as Adam for moments (steps 1–4 above),
 \\( \theta_t = \theta_{t-1} - \eta \left( \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} + \lambda \theta_{t-1} \right) \\)
 
 Or equivalently (common implementation):
+
 - First, Adam step: \\( \theta_t' = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} \\)
 - Then, decay: \\( \theta_t = \theta_t' - \eta \lambda \theta_{t-1} \\) (or approximate with \\( (1 - \eta \lambda) \theta_t' \\))
 
 This ensures:
+
 - Weight decay is applied consistently (proportional to current weights, independent of gradient magnitude)
 - Adaptive learning rates remain unaffected by regularization
 - Hyperparameters (learning rate and weight decay) are independent

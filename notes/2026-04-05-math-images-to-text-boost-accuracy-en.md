@@ -28,10 +28,12 @@ So the model's **mathematical reasoning engine is fundamentally text/token based
 ## 2. Image Understanding Is a Separate Competency
 
 Vision-language models (VLMs) bolt on visual understanding via:
+
 - A vision encoder (e.g., ViT)
 - A projection layer mapping image tokens → language space
 
 But this projection is **lossy** — especially for:
+
 - Fine-grained mathematical symbols (∑, ∫, ∂, matrices)
 - Geometric diagrams with precise measurements
 - Handwritten equations

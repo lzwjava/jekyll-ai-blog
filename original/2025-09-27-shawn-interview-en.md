@@ -13,7 +13,6 @@ type: post
 ![](assets/images/shawn/shawn1.jpg){: .responsive }
 *Source: chatgpt.com*{: .caption }
 
-
 A: Zhiwei Li, Software Engineer working at the intersection of AI and finance.
 
 B: Shawn Shao, Software Engineer working on AI frameworks, agents, and MCP at an international bank.
@@ -56,7 +55,6 @@ The following conversations were transcribed using the Google Cloud Transcriptio
    - Learning should be joyful and process-oriented
    - Time management reshaped by AI efficiency
 
-
 ### Recording, Archiving, and Views on AI Media
 
 **A:** Can I record it and then anonymize it later? We'll organize the names a bit, then send it to you for review. After you review it, you can delete the parts that are okay with you. Posting it to my blog is just one consideration, but it will definitely go through your review first. Actually, my main purpose is to archive this content.
@@ -71,7 +69,7 @@ Generally speaking, videos are more like TikTok or Douyin; people are increasing
 
 **B:** What you just said, I think it's really true. In the past, you couldn't change those things. You think that for many things, just buy the current best or make the current best decision. Any decision can only be based on your current understanding.
 
-###  Career Beginnings, Certifications, and Early Struggles
+### Career Beginnings, Certifications, and Early Struggles
 
 **A:** What I'm thinking is, you've definitely experienced some painful moments, like taking the college entrance exam at 18; this decade must have had some tough times. But you've steadily made it to where you are now, with strong beliefs. At your age, many people are still doing outsourcing work.
 

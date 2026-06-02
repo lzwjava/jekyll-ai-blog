@@ -28,6 +28,7 @@ type: note
   - 撰写全面档案：梅尔斯亲自撰写了详细的类型描述，收录于其与儿子合著的《天赋各异》（1980 年）。这些描述强调整体类型动态而非孤立特质，解释动机、优势、盲点、成长路径和典型行为。
 
 简而言之，这些丰富的叙述性描述并非完全基于大规模实证数据（如现代五因素模型中的因素分析），而是融合了：
+
 - 荣格的原始理论观察。
 - 布里格斯和梅尔斯毕生的个人非正式观察。
 - 通过问卷测试和反馈的迭代改进。
@@ -35,6 +36,7 @@ type: note
 后续出版商（如 CPP/The Myers-Briggs Company）和网站（如 16personalities.com）扩展或重述了这些描述，常使其更具吸引力或积极性，但核心细节仍源自梅尔斯对理论与观察的综合。
 
 参考资料：
+
 - [Myers–Briggs Type Indicator - Wikipedia](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator)
 - [The history of the MBTI® assessment - The Myers-Briggs Company](https://eu.themyersbriggs.com/en/tools/MBTI/Myers-Briggs-history)
 - [How The Myers-Briggs Personality Test Began In A Mother's Living Room Lab - NPR](https://www.npr.org/2018/09/22/650019038/how-the-myers-briggs-personality-test-began-in-a-mothers-living-room-lab)

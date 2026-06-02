@@ -13,6 +13,7 @@ type: note
 ## 什么是 Ansible？
 
 Ansible 是一款**开源自动化工具**，能够自动化：
+
 - 配置管理
 - 应用部署
 - 任务自动化/编排
@@ -22,6 +23,7 @@ Ansible 是一款**开源自动化工具**，能够自动化：
 Ansible 隶属红帽公司，是当今最流行的 DevOps 工具之一。
 
 ### 核心优势
+
 - 简单易学（基于 YAML）
 - 无代理（利用现有 SSH 连接）
 - 幂等性（多次执行剧本结果一致）
@@ -61,6 +63,7 @@ python3 -m pip install --user ansible
 ```
 
 验证版本：
+
 ```bash
 ansible --version
 ```
@@ -68,6 +71,7 @@ ansible --version
 ## 主机清单
 
 ### 基础 INI 格式（`inventory.ini`）
+
 ```ini
 [webservers]
 web1.example.com
@@ -81,6 +85,7 @@ ansible_python_interpreter=/usr/bin/python3
 ```
 
 ### YAML 格式（`inventory.yaml`）
+
 ```yaml
 all:
   hosts:
@@ -98,6 +103,7 @@ all:
 ```
 
 测试连接：
+
 ```bash
 ansible all -i inventory.ini -m ping
 ```
@@ -123,6 +129,7 @@ ansible all -m reboot --become
 创建 `first_playbook.yml`：
 
 {% raw %}
+
 ```yaml
 ---
 - name: 配置 Web 服务器
@@ -163,9 +170,11 @@ ansible all -m reboot --become
         name: nginx
         state: restarted
 ```
+
 {% endraw %}
 
 执行剧本：
+
 ```bash
 ansible-playbook -i inventory.ini first_playbook.yml
 ```
@@ -186,6 +195,7 @@ ansible-playbook -i inventory.ini first_playbook.yml
 ## 变量与系统信息
 
 ### 变量优先级（从高到低）
+
 1. 命令行参数 `-e "var=value"`
 2. 角色默认变量
 3. 清单变量
@@ -193,7 +203,9 @@ ansible-playbook -i inventory.ini first_playbook.yml
 5. 主机信息/采集信息
 
 ### 变量使用示例
+
 {% raw %}
+
 ```yaml
 vars:
   app_name: myapp
@@ -208,20 +220,25 @@ tasks:
       name: "{{ app_user }}"
       shell: /bin/bash
 ```
+
 {% endraw %}
 
 ### 使用系统信息
+
 {% raw %}
+
 ```yaml
 - name: 显示操作系统信息
   debug:
     msg: "当前系统为 {{ ansible_facts['distribution'] }} {{ ansible_facts['distribution_version'] }}"
 ```
+
 {% endraw %}
 
 ## 条件与循环
 
 ### 条件判断
+
 ```yaml
 tasks:
   - name: 仅在 RedHat 系统安装 Apache
@@ -232,7 +249,9 @@ tasks:
 ```
 
 ### 循环操作
+
 {% raw %}
+
 ```yaml
 - name: 创建多个用户
   user:
@@ -254,6 +273,7 @@ tasks:
       - git
       - vim
 ```
+
 {% endraw %}
 
 ## 角色 – 最佳实践目录结构
@@ -277,6 +297,7 @@ myrole/
 ```
 
 在剧本中调用角色：
+
 ```yaml
 - hosts: webservers
   roles:
@@ -286,6 +307,7 @@ myrole/
 ```
 
 获取海量现成角色：
+
 ```bash
 ansible-galaxy search postgres
 ansible-galaxy install geerlingguy.postgres
@@ -309,19 +331,25 @@ ansible-galaxy install geerlingguy.postgres
 
 1. 复用代码优先使用角色结构
 2. 使用 `ansible-vault` 加密敏感数据
+
    ```bash
    ansible-vault create secrets.yml
    ansible-playbook site.yml --ask-vault-pass
    ```
+
 3. 使用 Git 进行剧本/角色版本控制
 4. 首次运行使用 `--check` 模式（预演）
+
    ```bash
    ansible-playbook site.yml --check
    ```
+
 5. 为任务打标签实现选择性运行
+
    ```yaml
    tags: ['nginx', 'web']
    ```
+
    执行：`ansible-playbook site.yml --tags web`
 6. 按需使用 `pre_tasks` 和 `post_tasks`
 7. 避免硬编码密码 – 使用 vault 或查询插件
@@ -340,9 +368,9 @@ ansible-galaxy collection install community.docker
 
 ## 学习资源
 
-- 官方文档：https://docs.ansible.com
-- Ansible Galaxy：https://galaxy.ansible.com
-- Jeff Geerling 优质角色集：https://github.com/geerlingguy
+- 官方文档：<https://docs.ansible.com>
+- Ansible Galaxy：<https://galaxy.ansible.com>
+- Jeff Geerling 优质角色集：<https://github.com/geerlingguy>
 - 书籍：《Ansible for DevOps》（Jeff Geerling 著）
 
 循序渐进：从临时命令 → 简单剧本 → 角色封装 → 完整基础设施即代码。

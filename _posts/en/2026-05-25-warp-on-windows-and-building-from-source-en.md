@@ -29,7 +29,7 @@ This is the more interesting part. Warp open-sourced its client on April 30, 202
 
 The Warp UI framework crates use the MIT license, while the rest of the code uses AGPL v3.
 
-The repo is at: **https://github.com/warpdotdev/warp**
+The repo is at: **<https://github.com/warpdotdev/warp>**
 
 ---
 

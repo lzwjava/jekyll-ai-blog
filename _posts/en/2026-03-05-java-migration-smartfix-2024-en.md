@@ -34,7 +34,7 @@ The most common successful pattern looks like this:
    - `SecurityManager` deprecation / removal (Java 17 → 21)
    - `Thread.stop()`, `Thread.destroy()`, `Runtime.runFinalizersOnExit()` gone
    - `ProcessBuilder` / `Process` API changes
-   - ` Nashorn` → `GraalJS` or external engine
+   - `Nashorn` → `GraalJS` or external engine
    - Record patterns, switch expressions, sealed classes (mostly new features, rarely break old code)
 
 3. **Pick the 2–4 most frequent & easiest-to-automate families** first

@@ -26,6 +26,7 @@ AMD Developer Cloud runs on DigitalOcean—devcloud.amd.com redirects to Digital
 Snapshots let you restore the exact state of your droplet without re-running setup, though they incur a small storage cost. In your workflow: snapshot after you've got ROCm, PyTorch, and your models/datasets configured. Then you can destroy the droplet to stop paying, and later spin up a fresh droplet from that snapshot in ~2 minutes—all your setup is preserved.
 
 **Practical workflow:**
+
 ```bash
 # 1. Configure your MI300X droplet, train models, etc.
 # 2. AMD DevCloud UI → Snapshots → Take Snapshot

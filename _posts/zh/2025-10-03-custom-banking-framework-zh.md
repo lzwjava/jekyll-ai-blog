@@ -51,6 +51,7 @@ type: note
   - **多家银行/保险公司**（如ING、安联）构建未命名的"内部平台"，常称为"服务框架"或"微服务启动器"，专注于合规与运维自动化
 
 其他值得关注的扩展方案（非纯Spring构建但兼容/受启发）：
+
 - **Spring Boot Actuator + Micrometer**：常被封装进定制监控框架实现可观测性
 - **JHipster**：开源项目脚手架，基于Spring Boot + Angular/React快速生成全栈应用，深受企业原型开发青睐
 
@@ -59,6 +60,7 @@ type: note
 若正在架构设计，建议以Spring Cloud为基础层向上定制。对于20-30个服务的规模，这将在开发速度与系统可靠性方面带来长期回报。
 
 **参考资料**：
+
 - [Top 12微服务框架 - TatvaSoft博客](https://www.tatvasoft.com/blog/top-12-microservices-frameworks/)
 - [原生云采用与微服务框架 | Next at Chase](https://medium.com/next-at-chase/driving-native-cloud-adoption-at-scale-through-a-microservice-framework-a461e87bb8f2)
 - [Top 7 Java微服务框架 - foojay](https://foojay.io/today/top-7-java-microservices-frameworks/)

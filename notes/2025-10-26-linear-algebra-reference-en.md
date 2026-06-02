@@ -13,6 +13,7 @@ type: note
 Quick reference for key concepts and formulas. Focus on matrices, determinants, linear systems, vector spaces, transformations, eigenvalues, and quadratic forms—core topics from past exams. Review definitions, properties, and computations.
 
 ## 1. Matrices
+
 - **Definition**: \\( A = [a_{ij}] \in \mathbb{R}^{m \times n} \\).
 - **Operations**:
   - Addition: \\( (A + B)_{ij} = a_{ij} + b_{ij} \\).
@@ -27,6 +28,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
   - Orthogonal: \\( A^T A = I \\) (columns orthonormal).
 
 ## 2. Determinants (det A)
+
 - **Properties**:
   - \\( \det(AB) = \det A \cdot \det B \\); \\( \det(A^T) = \det A \\); \\( \det(cA) = c^n \det A \\).
   - Row/Column swap: Multiplies by -1.
@@ -41,6 +43,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
 - **Cramer's Rule** (for \\( Ax = b \\), det A ≠ 0): \\( x_i = \frac{\det A_i}{\det A} \\) (A_i replaces i-th column with b).
 
 ## 3. Linear Systems (Ax = b)
+
 - **Gaussian Elimination**: Row reduce [A | b] to REF/RREF.
   - REF: Pivots (leading 1s) staircase down-right; zeros below pivots.
   - Back-substitution for unique solution.
@@ -53,6 +56,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
 - **Least Squares** (overdetermined): \\( \hat{x} = (A^T A)^{-1} A^T b \\) (if full rank).
 
 ## 4. Vector Spaces & Subspaces
+
 - **Vector Space**: Closed under addition/scalar mult.; axioms (e.g., 0 vector, inverses).
 - **Subspaces**: Span of vectors; closed, contains 0.
   - Column Space: Col(A) = span(columns of A); dim = rank A.
@@ -65,6 +69,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
 - **Rank**: # pivot columns = dim Col(A) = dim Row(A).
 
 ## 5. Linear Transformations
+
 - **Definition**: T: V → W linear if T(u + v) = T u + T v, T(cu) = c T u.
 - **Matrix Rep.**: [T] wrt bases = A where T(x) = A x (std. basis).
 - **Kernel**: Ker T = Nul(A); Image: Im T = Col(A).
@@ -72,6 +77,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
 - **Rank-Nullity**: dim Ker T + dim Im T = dim V.
 
 ## 6. Eigenvalues & Eigenvectors
+
 - **Definition**: A v = λ v (v ≠ 0 eigenvector, λ eigenvalue).
 - **Characteristic Eq.**: det(A - λ I) = 0; roots λi (algebraic multiplicity).
 - **Eigenvectors**: Solve (A - λ I) v = 0; geometric mult. = dim eigenspace.
@@ -82,6 +88,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
 - **Similar Matrices**: A ~ B if A = P B P^{-1}; same eigenvalues, trace, det.
 
 ## 7. Inner Products & Quadratic Forms
+
 - **Inner Product**: <u, v> = u^T v (Euclidean); ||v|| = √<v,v>.
 - **Orthogonal**: <u,v> = 0; Orthonormal basis: <ei, ej> = δij.
 - **Gram-Schmidt**: Orthogonalize basis {v1,...,vn} → {u1,...,un}.
@@ -91,6 +98,7 @@ Quick reference for key concepts and formulas. Focus on matrices, determinants, 
   - Diagonalize: q(x) = ∑ λi yi^2 (y = Q^T x).
 
 ## Quick Tips
+
 - Compute rank: Row reduce to find # pivots.
 - Check diagonalizable: Geometric mult. = algebraic mult. for each λ.
 - For exams: Practice row reduction, det expansion, eigenproblems on 2x2/3x3 matrices.

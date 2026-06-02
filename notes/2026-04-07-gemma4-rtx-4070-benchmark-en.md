@@ -29,6 +29,7 @@ type: note
 **Symptom:** Repeated CUDA errors in `ggml_backend_cuda_buffer_set_tensor` during `llama_decode`.
 
 **Cause:** Gemma4 has a heterogeneous architecture:
+
 - **25 SWA (Sliding Window Attention) layers** + **5 non-SWA layers**
 - **Different V embedding sizes across layers**
 - The Flash Attention CUDA kernels don't handle this mixed layout correctly, causing out-of-bounds buffer writes
@@ -49,6 +50,7 @@ All configs tested with `--flash-attn off`, model fully loaded (IQ2_M 9.3GB).
 | **Hybrid** | 32,768 | 20 | 20/11 | 9.2GB | 793 tok/s | **15 tok/s** | 26,828 tokens |
 
 **Failed configs:**
+
 | Config | Reason |
 |--------|--------|
 | 32K + ngl 99 | OOM at startup — compute buffer allocation failed |

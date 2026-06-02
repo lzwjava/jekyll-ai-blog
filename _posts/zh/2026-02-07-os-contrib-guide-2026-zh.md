@@ -66,8 +66,8 @@ Answer:
   → 非常活跃，欢迎各种形式的贡献
   → 理想的切入点：documentation, new model support, bug reports, small features
   → 需要 Sign-off commits (`git commit -s`)
-  → 主要指南：https://docs.vllm.ai/en/latest/contributing.html
-  → GitHub: https://github.com/vllm-project/vllm
+  → 主要指南：<https://docs.vllm.ai/en/latest/contributing.html>
+  → GitHub: <https://github.com/vllm-project/vllm>
 
 - **PyTorch** (非常大且成熟的项目)
   → 学习曲线较陡，但非常适合学习规范的 open source
@@ -75,14 +75,14 @@ Answer:
   → 必须签署 PyTorch Contributor License Agreement (CLA)
   → 涉及多个领域：Python/C++/build/documentation
   → 从 docs、小的 bug fixes、operator improvements 开始
-  → 主要指南：https://github.com/pytorch/pytorch/wiki/The-Ultimate-Guide-to-PyTorch-Contributions
+  → 主要指南：<https://github.com/pytorch/pytorch/wiki/The-Ultimate-Guide-to-PyTorch-Contributions>
 
 - **llama.cpp** (ggml-org/llama.cpp — 高效的 C/C++ LLM inference)
   → 社区非常活跃，支持大量的 hardware backends
   → 倾向于 minimal dependencies，代码简洁且 portable
   → good first issues 标记非常明确
   → 关于 AI 生成代码/PR 描述有严格规定（2025–2026 年有很多限制）
-  → 主要指南：https://github.com/ggml-org/llama.cpp/blob/master/CONTRIBUTING.md
+  → 主要指南：<https://github.com/ggml-org/llama.cpp/blob/master/CONTRIBUTING.md>
   → 寻找 "good first issue" 标签
 
 - **Maven** (Apache Maven — Java build tool)
@@ -90,8 +90,8 @@ Answer:
   → 你需要签署 **ICLA** (Individual Contributor License Agreement)
   → 从报告 bugs / 建议 improvements 开始 → 之后再涉及 code
   → 使用 Mailing list + Jira 处理 issues
-  → 指南：https://maven.apache.org/guides/development/
-  → 仓库：https://github.com/apache/maven (但决策主要在 Apache 基础设施上进行)
+  → 指南：<https://maven.apache.org/guides/development/>
+  → 仓库：<https://github.com/apache/maven> (但决策主要在 Apache 基础设施上进行)
 
 ### 成功的快捷提示
 

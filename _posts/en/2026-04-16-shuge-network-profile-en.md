@@ -57,13 +57,14 @@ The company focuses on the mobile internet sector and has successfully developed
 
 **Overseas Business Positioning**: Focused on developing and operating **engaging casual games** for global users
 
-**Official Website**: www.shugechina.com
+**Official Website**: <www.shugechina.com>
 
 ---
 
 ## Major News
 
 Based on public information searches, **no major news** has been found regarding Guangzhou Shuge Network Technology Co., Ltd., such as:
+
 - Funding announcements
 - Acquisition/merger news
 - Major strategic partnerships
@@ -101,7 +102,7 @@ The company currently has approximately **5 positions** actively recruiting, wit
 
 - **Company Address**: Tower B, Jiadou Smart Building, Xincen 4th Road, Tianhe District, Guangzhou
 - **Transportation**: Exit B of Tianhe Smart City Station on Metro Line 21, about 10 minutes walk
-- **Email**: sunjunqing@shugechina.com
+- **Email**: <sunjunqing@shugechina.com>
 - **Official Website**: booksgoo.com
 
 The company also appears on the employer list for 2024 full-time MBA graduates from Sun Yat-sen University Business School, indicating its attractiveness in talent recruitment.

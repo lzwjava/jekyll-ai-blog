@@ -39,7 +39,6 @@ RS-232C 连接两种类型的设备：DTE（Data Terminal Equipment，数据终�
 
 RS-232C 使用 **negative logic**（反转电压方案），这与标准 TTL logic 相反：
 
-
 | State | Meaning | Driver Voltage | Receiver Threshold |
 |---|---|---|---|
 | **MARK / Logic 1** | Binary "1" | **-5V to -15V** | -3V to -25V |
@@ -57,7 +56,6 @@ RS-232 数据通过 DB9 连接器的 9 个引脚系列或 DB25 连接器的 25 �
 RS-232C（“Recommended Standard 232C”）是一个广泛使用的版本，采用 25 引脚连接器，而后续修订引入了 22 引脚配置。现代实现通常使用 9 引脚 D 型公连接器（DB9），其中包含实际通信所需的最基本信号。
 
 **DB-9 连接器** 的关键引脚：
-
 
 | Pin | Signal | Direction | Function |
 |---|---|---|---|
@@ -117,7 +115,6 @@ RS-232C 支持两种类型的流控制：
 ---
 
 ## 11. RS-232C 与现代标准比较
-
 
 | Feature | RS-232C | RS-422 | RS-485 | USB |
 |---|---|---|---|---|

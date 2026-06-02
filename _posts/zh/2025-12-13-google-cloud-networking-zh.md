@@ -16,7 +16,8 @@ type: note
 
 Google Cloud 的主要网络服务是 **Virtual Private Cloud (VPC)**，它等同于 AWS VPC 或 Azure VNet。VPC 网络是一种全球性的、可扩展的虚拟网络，为 Compute Engine VM 实例、Google Kubernetes Engine (GKE) 集群和其他资源提供连接。
 
-### 主要功能和组件：
+### 主要功能和组件
+
 - **VPC Networks**：具有区域子网的全球资源（跨区域）。支持自动模式（每个区域自动创建子网）或自定义模式（手动控制）。VPC 支持 IPv4 和 IPv6、防火墙规则、路由以及通过对等连接、VPN 或 Interconnect 进行连接。
 - **Subnets**：VPC 中的区域划分，每个区域具有主（和可选的辅助）IP 范围。用于组织 VM 等资源。专用子网包括仅代理（用于负载均衡器）和 Private NAT 子网。
 - **Cloud NAT**：一种托管式分布式网络地址转换服务（不基于 VM 或设备）。

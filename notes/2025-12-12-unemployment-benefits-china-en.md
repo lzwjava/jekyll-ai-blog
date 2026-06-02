@@ -12,14 +12,16 @@ type: note
 
 ### Question: How to claim unemployment benefits in major Chinese cities, such as Guangzhou or Beijing?
 
-### Answer:
+### Answer
 
 Unemployment benefits in China, often referred to as unemployment insurance (失业保险, *shīyè bǎoxiǎn*), provide temporary financial support to eligible workers who lose their jobs involuntarily. This is part of the national social security system, but details like contribution rates, benefit amounts, and application processes vary by city. Major cities like Guangzhou and Beijing generally offer more streamlined processes and higher benefits compared to smaller areas. Benefits typically include monthly payments (around 1,500–2,000 RMB in big cities), medical coverage during the period, and access to job training or placement services.
 
 Foreign workers with valid work visas and labor contracts are also eligible if they've contributed to the system. Note that "unemployment pension" likely refers to these benefits, as there's no separate pension-like scheme for unemployment—pensions are for retirement.
 
 #### Eligibility Criteria (National Standard, Applies to Guangzhou and Beijing)
+
 To qualify, you must meet **all** of these:
+
 - Have contributed to unemployment insurance for at least 1 year (cumulative, via your employer).
 - Be unemployed due to non-personal fault (e.g., layoffs, company closure—not resignation or misconduct).
 - Register as unemployed and actively seek work (e.g., attend job fairs or interviews as required).
@@ -28,6 +30,7 @@ To qualify, you must meet **all** of these:
 If you've contributed less than 1 year, you may qualify for a one-time unemployment subsidy in some cities.
 
 #### General Application Process
+
 The process is similar across cities but can be done online or offline. Apply **within 60 days** of job loss to avoid delays. Benefits last 12–24 months, depending on contribution history (longer for more years paid in).
 
 1. **Obtain Proof from Employer**: Get a termination certificate (*jiěchú láodòng hétóng zhèngmíngshū*) from your ex-employer within 7 days of leaving. It confirms the reason for separation.
@@ -56,6 +59,7 @@ The process is similar across cities but can be done online or offline. Apply **
 | **Key Local Notes** | - Extended subsidies for COVID-era layoffs (up to 2022, but check extensions).<br>- Vocational training subsidies available during benefits.<br>- Apply via Guangdong HRSS website for "smooth handling" policies. | - Higher caps on salary base (~35,000 RMB max for contributions).<br>- Strict job-seeking requirements (e.g., report interviews).<br>- Pilot for auto-refunds/extensions in 2023 reforms. |
 
 #### Tips
+
 - **Track Contributions**: Use the national 12333 app to verify your payment history.
 - **If Delayed**: Contact the local Human Resources and Social Security (HRSS) bureau—delays often stem from missing employer proof.
 - **After Benefits End**: Re-apply after 1 year of new contributions if re-unemployed. Seek free job services at employment centers.
@@ -63,7 +67,8 @@ The process is similar across cities but can be done online or offline. Apply **
 
 Always verify latest details on official sites, as policies update annually (e.g., 2023 Beijing reforms raised bases).
 
-### References:
+### References
+
 - [Guide to Unemployment Insurance in China | FDI China](https://fdichina.com/blog/unemployment-insurance-in-china/)
 - [Unemployment Support in China - Cities Insider](https://citiesinsider.com/country/china/CountryWide/unemployment-support/en)
 - [How expats can access unemployment insurance benefits in Shanghai (applicable model)](https://english.shanghai.gov.cn/en-FAQS-WorkinShanghai/20240929/23e1a2703e164cc7a5927e01377b2319.html)

@@ -44,11 +44,13 @@ Red Hat Enterprise Linux (RHEL) 是由 **Red Hat 公司** 开发的商业 Linux 
     ```bash
     sudo dnf install httpd
     ```
+
   * 系统更新：
 
     ```bash
     sudo dnf update
     ```
+
   * 软件包搜索：
 
     ```bash
@@ -130,6 +132,7 @@ RHEL 同时支持 **应用流** 功能，可并行管理多版本软件（如 Py
   ```bash
   podman run -it centos /bin/bash
   ```
+
 * **OpenShift**：基于 Kubernetes 的容器编排平台
 
 ---

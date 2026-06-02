@@ -23,10 +23,13 @@ Answer:
 2. 运行以下命令之一：
 
    - 完整详细视图（推荐）：
+
      ```
      ip link show
      ```
+
      或
+
      ```
      ip addr show
      ```
@@ -34,6 +37,7 @@ Answer:
    在每个 network interface 下查找以 `link/ether` 开头的行。
 
    输出示例（您的显示内容会有所不同）：
+
    ```
    1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
        link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -50,10 +54,13 @@ Answer:
      - 忽略 `lo` (loopback — 它始终显示 `00:00:00:00:00:00`)。
 
 3. 如果只想查看 MAC addresses（简洁输出）：
+
    ```
    ip link show | grep -i ether
    ```
+
    或者（更简洁，每行一个）：
+
    ```
    LANG=C ip link show | awk '/link\/ether/ {print $2}'
    ```
@@ -61,23 +68,29 @@ Answer:
 ### 其他方法
 
 - 使用 `/sys/class/net`（非常可靠，无需额外解析）：
+
   ```
   cat /sys/class/net/*/address
   ```
+
   → 显示每个 interface 的 MAC（每行一个）。如果出现 `lo` 请忽略。
 
 - 针对特定 interface（例如名为 `enp3s0` 的 Ethernet）：
+
   ```
   cat /sys/class/net/enp3s0/address
   ```
 
 - 旧方法（在许多系统上仍然有效，但 `ifconfig` 已被弃用）：
+
   ```
   ifconfig -a | grep -i "ether\|HWaddr"
   ```
+
   （如果缺少 `ifconfig`，您可能需要先通过 `sudo apt install net-tools` 安装 `net-tools`。）
 
 ### 关于 Wake-on-LAN 的小提示
+
 如果您是为了 WOL 查找 MAC（例如在原始测试步骤中），请使用有线 Ethernet interface 的 MAC，因为 Wake-on-LAN 通常只在 Ethernet 上工作。
 
 References:

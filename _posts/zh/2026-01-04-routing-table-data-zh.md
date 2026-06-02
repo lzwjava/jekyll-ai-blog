@@ -17,6 +17,7 @@ Answer:
 **Routing table**（路由表）是由 router（以及支持 IP 的 host）维护的数据结构，用于根据目标 IP address 决定将 IP packets 转发到何处。
 
 ### Routing Table 的典型外观
+
 在大多数系统上，可以使用如下命令显示 routing table：
 
 - Linux/macOS: `ip route show` 或 `route -n`
@@ -41,6 +42,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 ```
 
 ### Routing Table 每个条目中存储的关键信息
+
 routing table 中的每个条目通常包含以下字段：
 
 - **Destination network/prefix**: 此路由适用的网络或主机 IP address 范围（例如 192.168.1.0/24 或用于默认路由的 0.0.0.0/0）。
@@ -52,6 +54,7 @@ routing table 中的每个条目通常包含以下字段：
 - **Flags**: 标识符，如 U (up/可用), G (gateway), H (host route), D (dynamic) 等。
 
 ### Routing Table 是否包含 MAC Addresses？
+
 **不包含。**
 Routing tables 运行在 OSI 模型的 **Layer 3 (IP layer)**，**不**存储 MAC addresses。MAC addresses 属于 Layer 2 (data link layer) 信息，由 **ARP table** (Address Resolution Protocol cache) 单独处理。
 
@@ -59,14 +62,18 @@ Routing tables 运行在 OSI 模型的 **Layer 3 (IP layer)**，**不**存储 MA
 - 一旦确定了 next-hop IP，如果 packet 必须通过本地链路（Ethernet, Wi-Fi 等）发送，系统会查询 **ARP table** 将 next-hop IP 解析为 MAC address，以便封装 Ethernet packet。
 
 ### Routing Table 是否包含 IP Addresses？
+
 **是的。**
+
 - Destination network (IP prefix)
 - Next-hop IP address (gateway)
 - 有时还包括用于该接口的 source IP
 
 ### 它是否告知“哪个 Packet 路由到哪里”？
+
 **是的。**
 Routing table 的主要目的正是如此：对于 packet 中给定的目标 IP address，对目标条目执行 **longest-prefix match**（最长前缀匹配）以决定：
+
 - 是将 packet 转发给特定的 next-hop router (gateway IP)，还是
 - 直接从本地 interface 发出（如果目的地在直接连接的网络上）。
 

@@ -30,6 +30,7 @@ Here are several genuinely unpopular (often downvoted or controversial) opinions
 These takes tend to trigger strong backlash in most online spaces because they challenge the dominant “block freely, no explanation needed” culture that has become the norm since ~2018.
 
 References:
+
 - [Reddit thread: “Blocking someone is a coward’s way out” (r/unpopularopinion, 2023)](https://www.reddit.com/r/unpopularopinion/comments/10x1234/blocking_someone_is_a_cowards_way_out/)
 - [X thread on “being blocked = you won” sentiment, various dates 2022-2025](https://x.com/search?q=blocked%20means%20you%20won)
 - [Article: The Cowardice of the Block Button – The Atlantic, 2019 (still widely cited)](https://www.theatlantic.com/technology/archive/2019/08/the-cowardice-of-the-block-button/595865/)

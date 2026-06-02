@@ -15,14 +15,18 @@ type: note
 nanoGPT is designed for easy training on text data, including custom datasets. The process involves preparing your text into binary token files, configuring the training parameters, and running the training script. Below, I'll outline the steps based on the repository's examples (e.g., Shakespeare or OpenWebText). You'll need Python 3.8+ and a GPU for efficient training (CPU works but is slower).
 
 #### 1. Install Dependencies
+
 First, set up the environment:
+
 ```
 pip install torch numpy transformers datasets tiktoken wandb tqdm
 ```
+
 - `torch`: For PyTorch (install with CUDA if using GPU: e.g., `pip install torch --index-url https://download.pytorch.org/whl/cu118`).
 - Others handle tokenization, data loading, and logging.
 
 #### 2. Prepare Your Custom Dataset
+
 nanoGPT expects your data as binary files (`train.bin` and `val.bin`) containing tokenized integers. You'll need to write a simple preparation script to process your raw text.
 
 - **Place Your Text File**: Put your raw text (e.g., `input.txt`) in a new folder under `data/`, like `data/my_dataset/`.
@@ -30,6 +34,7 @@ nanoGPT expects your data as binary files (`train.bin` and `val.bin`) containing
 - **Create a Preparation Script**: Copy and adapt an example from the repo (e.g., `data/shakespeare_char/prepare.py` for character-level or `data/openwebtext/prepare.py` for GPT-2 BPE token-level).
 
   **Example for Character-Level Tokenization** (simple for small datasets; treats each character as a token):
+
   ```python
   # Save as data/my_dataset/prepare.py
   import os
@@ -67,10 +72,13 @@ nanoGPT expects your data as binary files (`train.bin` and `val.bin`) containing
   print(f"Length of dataset in characters: {len(data)}")
   print(f"Vocab size: {vocab_size}")
   ```
+
   Run it:
+
   ```
   python data/my_dataset/prepare.py
   ```
+
   This creates `train.bin` and `val.bin`.
 
 - **For GPT-2 BPE Tokenization** (better for larger datasets; uses subwords):
@@ -82,9 +90,11 @@ nanoGPT expects your data as binary files (`train.bin` and `val.bin`) containing
   - Vocab size: ~65 for chars (Shakespeare); ~50k for BPE.
 
 #### 3. Configure Training
+
 Create a config file by copying an example (e.g., `config/train_shakespeare_char.py`) to `config/train_my_dataset.py` and edit it.
 
 Key parameters to tweak:
+
 ```python
 # Example config snippet
 out_dir = 'out-my_dataset'  # Output folder for checkpoints
@@ -99,27 +109,35 @@ lr = 6e-4                   # Learning rate
 dropout = 0.2               # Dropout rate
 init_from = 'scratch'       # 'scratch' for new model; 'gpt2' to load pretrained
 ```
+
 - For finetuning (start from pretrained GPT-2): Set `init_from = 'gpt2'` (or 'gpt2-medium').
 - For Apple Silicon: Add `device = 'mps'`.
 - Save checkpoints every 500 iters by default.
 
 #### 4. Run Training
+
 Train from scratch or finetune:
+
 ```
 python train.py config/train_my_dataset.py
 ```
+
 - For multi-GPU (e.g., 8 GPUs): `torchrun --standalone --nproc_per_node=8 train.py config/train_my_dataset.py`.
 - Monitor with WandB (logs losses, samples; enable in config with `wandb_log = True`).
 - Training time: Minutes for tiny models on GPU; hours/days for larger ones.
 
 #### 5. Generate Samples (Test the Model)
+
 After training, sample text:
+
 ```
 python sample.py --out_dir=out-my_dataset --start="Your prompt here"
 ```
+
 This loads the latest checkpoint and generates.
 
 #### Common Issues
+
 - **Memory Errors**: Reduce `batch_size` or `block_size`.
 - **No GPU**: Add `--device=cpu --compile=False` to commands.
 - **Large Datasets**: Use distributed training for scaling.

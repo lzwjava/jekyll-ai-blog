@@ -17,7 +17,9 @@ Answer:
 Here are some of the most famous and influential contributors associated with UC Berkeley's open source tradition (primarily the BSD era and modern projects like Apache Spark and RISC-V). Note that Richard Stallman is not directly connected to Berkeley's open source work — he founded the GNU Project and Free Software Foundation, which took a different (copyleft-focused) approach compared to Berkeley's permissive BSD license tradition.
 
 ### Classic BSD / CSRG Era (1970s–1990s)
+
 These individuals were central to the Berkeley Software Distribution (BSD) and laid the foundation for Berkeley's open source legacy:
+
 - **Bill Joy** — Led early BSD development; created the vi text editor and C shell (csh); co-founder of Sun Microsystems, where BSD influenced SunOS.
 - **Marshall Kirk McKusick** — Long-time BSD kernel hacker; developed the Berkeley Fast File System (FFS); key figure in 4.4BSD and later FreeBSD; often called a "pioneer of BSD."
 - **Sam Leffler** — Major contributor to 4.2BSD networking (TCP/IP stack) and other core features.
@@ -29,7 +31,9 @@ These individuals were central to the Berkeley Software Distribution (BSD) and l
 - **Bill Jolitz** (and Lynne Jolitz) — Created 386BSD, the first free BSD port to PCs, inspiring FreeBSD and NetBSD.
 
 ### Modern Berkeley Open Source Projects
+
 Berkeley has continued producing major open source software through research labs:
+
 - **Ion Stoica** — Professor at UC Berkeley; co-creator of Apache Spark (from AMPLab), Ray (distributed computing for AI), and Mesos; co-founder of Databricks and Anyscale; major figure in open source big data and AI infrastructure.
 - **Krste Asanović** — Professor who led the creation of RISC-V (open instruction set architecture) starting in 2010; co-founder of SiFive.
 - **Andrew Waterman** and **Yunsup Lee** — Graduate students who co-developed RISC-V with Asanović; co-founders of SiFive.

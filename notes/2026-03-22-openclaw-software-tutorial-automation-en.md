@@ -46,12 +46,14 @@ It reduces the friction of creation to zero. If you can send a text, you can mak
 Here's a step-by-step architecture for the "How to Use ChatGPT" tutorial use case:
 
 #### Step 1: Topic Input & Script Generation
+
 You give OpenClaw a prompt like:
 > *"Make a beginner video tutorial on how to use ChatGPT — cover signing up, writing prompts, and using custom instructions."*
 
 OpenClaw operates by reading skill definitions and creating execution plans. When you provide a prompt, OpenClaw performs several autonomous steps: Skill Discovery, Clarification (asking questions to refine requirements like duration, tone, target platform), Planning (creating a detailed execution plan), Workflow Generation (a structured workflow.json file), and Execution (invoking the appropriate tools in sequence).
 
 #### Step 2: Video Generation via a Partner Tool
+
 OpenClaw doesn't render video itself — it orchestrates. You pair it with a video generation engine.
 
 In this workflow, OpenClaw acts as your Creative Architect — it handles the high-level strategy, determining what you should say and how to structure your story for maximum impact.
@@ -59,9 +61,11 @@ In this workflow, OpenClaw acts as your Creative Architect — it handles the hi
 Use OpenClaw as the decision engine and a video generation API (like Frameloop) as the video generation engine to produce videos at scale. Let OpenClaw decide what to make while the partner tool handles video creation, voiceover, and render delivery.
 
 #### Step 3: Trend-Aware Content Generation
+
 You can set up an OpenClaw agent to wake up every morning, scan trending topics in your niche, generate 3–5 video concepts based on those trends, and send you a summary. You reply with a single choice, and the agent triggers the render. It can even schedule the upload to YouTube Shorts or Instagram Reels automatically.
 
 #### Step 4: Content Repurposing
+
 If you write a high-performing LinkedIn post, it should also be a video. With this integration, you can set up a "listener" workflow: when OpenClaw detects a new post on your blog or LinkedIn profile, it parses the text, summarizes the key points, and sends a request to generate a video version.
 
 ---
@@ -71,6 +75,7 @@ If you write a high-performing LinkedIn post, it should also be a video. With th
 The OpenClaw skills registry has 5,400+ skills filtered and categorized. Relevant ones include: `agents-skill-podcastifier` (turn text into a TTS podcast), `ai-video-gen` (end-to-end AI video generation from text), `ai-avatar-generation` (generate AI avatars from photos or text), `adobe-automator` (Universal Adobe application automation), and `captions` (extract captions from YouTube videos).
 
 This means you could build a tutorial pipeline that:
+
 - Generates a script
 - Creates a voice-over
 - Produces an AI avatar presenter
@@ -109,6 +114,7 @@ OpenClaw's design has drawn scrutiny from cybersecurity researchers due to the b
 There have been reports of agents deleting entire email inboxes during automated cleanup workflows. These examples highlight the need for caution when deploying autonomous agents on personal or professional hardware.
 
 Other practical challenges:
+
 - **Accuracy of tutorial content:** AI-generated tutorials may become outdated quickly as software UIs change
 - **Quality control:** Automated video may miss nuances that a human instructor would catch
 - **Voice and persona consistency:** For a branded tutorial channel, maintaining a consistent AI presenter requires extra configuration

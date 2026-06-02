@@ -36,24 +36,24 @@ Football（在某些国家也被称为 **soccer**）是一项简单且有趣的�
 
 ### Basic Skills to Practice (Most Important for School Kids)
 
-1.  **Dribbling**
+1. **Dribbling**
     奔跑时用脚内侧和外侧轻轻向前拨球。保持球靠近身体，以便快速改变方向。练习方式：绕过圆锥体或在朋友之间运球。
 
-2.  **Passing**
+2. **Passing**
     使用脚内侧（**inside**）进行短促且准确的传球（像推球一样）。
     使用脚背（**instep**/鞋带处）进行长传。
     练习方式：和朋友来回对传——瞄准对方的脚下。
 
-3.  **Shooting / Kicking**
+3. **Shooting / Kicking**
     使用脚背（**instep**）发力向球门射门。
     低头注视球，并保持随球动作。
     练习方式：对着墙壁或小球门练习射门。
 
-4.  **Stopping / Controlling the Ball**
+4. **Stopping / Controlling the Ball**
     当球滚向你时，用脚底或脚内侧轻轻将球停稳。
     这被称为 "first touch" —— 非常重要！
 
-5.  **Heading**（通常在年龄较大/中学阶段）
+5. **Heading**（通常在年龄较大/中学阶段）
     使用前额（不是头顶）。跳起并用力撞击球。
 
 ### Positions (Common in School Games)

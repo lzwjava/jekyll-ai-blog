@@ -37,6 +37,7 @@ sda             1.8T  空盘，无分区           ← WD Blue 机械硬盘，�
 **解决方案就摆在眼前。** 那块 2 TB 的 WD Blue 机械硬盘已物理安装，内核可见为 `/dev/sda`，但没有分区表——从未被使用过。
 
 NVMe 上的 868 GB 大致分配如下：
+
 - `~/projects/` — 518 GB（数据集、模型权重、llama.cpp、imagenet、coco……）
 - `~/.cache/huggingface` — 69 GB
 - `/var/lib/docker` — 43 GB

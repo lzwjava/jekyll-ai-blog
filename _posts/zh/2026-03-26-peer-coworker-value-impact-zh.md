@@ -24,16 +24,19 @@ You are making a sharp observation. The answer is: **it is easier than formal pe
 When you work closely with someone for a year, you naturally accumulate signals that no manager sitting in meetings can see:
 
 **The "imagine they leave" test** is genuinely powerful:
+
 - Who would cause a real gap vs. who would be quietly replaced in a week?
 - Whose name comes up when something breaks and needs fixing?
 - Whose opinion do people seek before making a decision?
 
 **Residual footprint in the system:**
+
 - Did they leave behind clean, documented, reusable code or work?
 - Or did they leave behind a pile of things only they understood?
 - Long-lived contributions are hard to fake over a year.
 
 **Relationship quality is visible:**
+
 - Who unblocks others, vs. who creates friction?
 - Who communicates clearly and honestly, vs. who hedges and disappears?
 - Good working relationships compound over time — peers feel this daily.

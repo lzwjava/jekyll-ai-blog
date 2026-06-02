@@ -20,17 +20,6 @@ Simply connecting two devices with one cable works for direct point-to-point com
 
 Here are some example diagrams of Ethernet switches showing their ports:
 
-
-
-
-
-
-
-
-
-
-
-
 Yes, switches are distinct from routers and computers:
 
 - **Switches** operate at Layer 2 (data link layer) of the OSI model. They connect devices **within the same network** and forward data based on MAC addresses for efficient local traffic.
@@ -43,16 +32,9 @@ Many home "routers" actually combine a router, switch, and wireless access point
 
 Here are comparison diagrams:
 
-
-
-
-
-
-
-
 References:
 
-- https://en.wikipedia.org/wiki/Network_switch
-- https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
-- https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/network-switch-vs-router.html
-- https://www.fortinet.com/resources/cyberglossary/what-is-ethernet-switching
+- <https://en.wikipedia.org/wiki/Network_switch>
+- <https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/>
+- <https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/network-switch-vs-router.html>
+- <https://www.fortinet.com/resources/cyberglossary/what-is-ethernet-switching>

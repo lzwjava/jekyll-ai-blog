@@ -23,6 +23,7 @@ In contrast, Japan in the 1980s and early 1990s was at the peak of its post-war 
 Historical exchange rates varied: in the mid-1980s, 1 CNY ≈ 40-50 JPY (overvalued official rate); by the early 1990s, around 1 CNY ≈ 15-20 JPY (after devaluations). Using approximate mid-period rates (e.g., 1 CNY ≈ 20-30 JPY), a Japanese daily wage of 15,000 JPY equated to roughly 500-750 CNY—close to the claimed 1000 CNY, especially for higher-paid roles in Tokyo or during peak bubble years when bonuses and overtime boosted earnings.
 
 The gap (Chinese monthly wage ≈ Japanese 1-2 days' wage in CNY terms) highlights:
+
 - **Development level**: Japan was a high-income, technology-driven economy; China was agrarian and just opening up.
 - **Productivity and capital**: Japanese workers benefited from advanced infrastructure, education, and capital investment.
 - **Bubble effects**: Japan's 1986-1991 asset bubble inflated wages temporarily.
@@ -32,9 +33,9 @@ By the 2000s, Chinese wages rose rapidly with industrialization, narrowing the g
 
 References:
 
-- https://www.sciencedirect.com/science/article/pii/S1043951X20300596
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/
-- https://www.bls.gov/opub/mlr/2005/08/art3full.pdf
-- https://www.asahi.com/ajw/articles/15166586
-- https://en.wikipedia.org/wiki/Economy_of_China
-- https://en.wikipedia.org/wiki/Lost_Decades
+- <https://www.sciencedirect.com/science/article/pii/S1043951X20300596>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/>
+- <https://www.bls.gov/opub/mlr/2005/08/art3full.pdf>
+- <https://www.asahi.com/ajw/articles/15166586>
+- <https://en.wikipedia.org/wiki/Economy_of_China>
+- <https://en.wikipedia.org/wiki/Lost_Decades>

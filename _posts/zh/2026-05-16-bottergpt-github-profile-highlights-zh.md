@@ -16,6 +16,7 @@ type: note
 ---
 
 ## 🏆 1. Tencent2020_Top5 —— *最受欢迎仓库*
+
 **⭐ 87 星 | 🍴 27 个分支**
 
 这是 **2020 腾讯广告算法大赛**的 **Top 5 解决方案**。该方案涵盖了完整的机器学习流水线，包括数据预处理、Embedding 生成、模型训练（使用 TF1、TF2 和 PyTorch）、折叠外预测，以及最终使用 Ridge 回归进行 Stacking。团队名称为 **BANJITINO**，最终集成方法在约 400 万个样本上堆叠了 20 类分类模型（`[400w, 20]` 矩阵）。
@@ -25,6 +26,7 @@ type: note
 ---
 
 ## 🌲 2. TreesBO —— *实用的 AutoML 工具*
+
 **⭐ 4 星 | 🍴 3 个分支**
 
 **TreesBO** 是一个专门为树模型设计的贝叶斯优化工具包。对于**回归**，支持 LGBM、XGB、ExtraTrees (ET) 和 Random Forest (RF)；对于**分类**，目前支持 LGBM。仓库中包含示例 notebook（Jupyter）。
@@ -34,6 +36,7 @@ type: note
 ---
 
 ## 🌦️ 3. MeteoAI/awesome-atmos —— *获得星数最多的资源*
+
 **⭐ 214 星 | 🍴 80 个分支**
 
 **awesome-atmos** 是一个精心策划的 Python 库、软件和资源列表，涵盖**大气、环境和机器学习**，灵感来源于著名的 `awesome-python` 列表。它将工具组织为以下类别：数值模型（WRF、CESM、CMAQ）、数据同化、雷达处理、卫星数据、大气指数计算、数据处理/分析、机器学习（scikit-learn、PyTorch、XGBoost、LightGBM 等）、可视化（Matplotlib、Cartopy、Basemap）以及资源（Pangeo、ECMWF notebooks 等）。
@@ -43,6 +46,7 @@ type: note
 ---
 
 ## 📄 4. PaperCollection —— *知识仓库*
+
 **⭐ 2 星**
 
 个人收集的机器学习/深度学习相关论文与笔记——有助于追踪深度学习与机器学习领域的研究阅读。
@@ -50,6 +54,7 @@ type: note
 ---
 
 ## 🔁 5. wsdm2022-xmrec-top1-solution (Fork)
+
 这是 **WSDM 2022 XMRec 挑战赛 Top 1 解决方案** 的一个分支，专注于跨市场推荐系统——另一个值得学习的竞赛机器学习解决方案。
 
 ---

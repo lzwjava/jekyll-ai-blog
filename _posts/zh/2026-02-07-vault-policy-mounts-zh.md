@@ -29,6 +29,7 @@ path "sys/mounts" {
 ```
 
 你可以授予的主要 capabilities 包括：
+
 - `create` - 创建新数据
 - `read` - 读取现有数据
 - `update` - 修改现有数据
@@ -45,6 +46,7 @@ path "sys/mounts" {
 - **重要性**：Secrets engines 是存储、生成或加密数据的组件。每种类型（如 KV, PKI, AWS, database）都会被 mount 在特定路径下
 
 **在 `sys/mounts` 上的常见操作：**
+
 - 在 `sys/mounts` 上执行 `read` - 列出所有已启用的 secrets engines
 - 在 `sys/mounts/*` 上执行 `create`/`update` - enable 新的 secrets engines
 - 在 `sys/mounts/*` 上执行 `delete` - disable secrets engines

@@ -16,12 +16,12 @@ GitHub Desktop version 3.4.13 (arm64) exhibits font rendering issues in the text
 - Japanese
 
 However, the following languages render correctly:
+
 - English
 - Spanish
 - German
 - Arabic
 - French
-
 
 ![](assets/images/github-desktop/hi.png)
 

@@ -13,6 +13,7 @@ type: note
 Yes, you're correct. In Git Bash on Windows (which runs on an MSYS2/Cygwin-like environment), using backslashes (`\`) in the `--homedir` path for `gpg` causes the shell to misinterpret the argument due to how escapes and path conversions work. This mangles the path (e.g., `C:\Users\me\.gnupg` might resolve to something invalid like `C:Usersme.gnupg` or get further garbled during auto-conversion to Windows format), making the directory unresolvable. As a result, GPG can't locate the key files, leading to a "no secret key" error (or similar, like "No such file or directory" for `pubring.kbx`).
 
 ### Quick Fix
+
 - Use forward slashes (`/`) with the MSYS2-style drive prefix: `gpg --homedir /c/Users/me/.gnupg ...`
 - This gets automatically converted by MSYS2 to the proper Windows path (e.g., `C:\Users\me\.gnupg`) when passed to the native GPG binary.
 - Avoid drive letters like `c:/` without the leading `/`—they're treated as relative paths, prepending your current working directory and causing the same lookup failure.

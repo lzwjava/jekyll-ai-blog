@@ -18,11 +18,13 @@ type: note
 然而，**真正的限制在于性能**，而非严格的上限。以下是基于当前 Web 性能指南（截至 2026 年）的清晰说明：
 
 ### DOM 规模的性能指南
+
 - 页面总 DOM 节点数 **少于 1,500** → 理想状态（Lighthouse/Chrome 推荐）。
 - 在 **1,500 至 5,000 个节点**之间 → 在许多情况下可接受，但可能会开始注意到交互变慢。
 - **超过 10,000 个节点** → 出现问题的风险较高（初始渲染慢、滚动卡顿、内存使用增加、点击或悬停等用户交互延迟）。
 
 你单个 `<li class="list-group-item">` 元素包含：
+
 - `<li>` 本身
 - 一个 `<a>` 标签
 - 几个 `<span>` 元素（日期、类型、标题）
@@ -41,7 +43,9 @@ type: note
   - 在低端设备或移动浏览器上可能无响应
 
 ### 为何大型列表会导致问题
+
 浏览器必须：
+
 - 构建庞大的 DOM 树
 - 为每个元素（包括屏幕外的元素）计算样式和布局
 - 当任何内容发生变化时处理重绘和重排
@@ -50,6 +54,7 @@ type: note
 即使列表渲染出来了，**滚动浏览 7000 多个或 20000 个项**也会在不优化的情况下变得不流畅。
 
 ### 推荐解决方案
+
 对于如此庞大的列表，**切勿**一次性渲染所有项。使用以下方法之一：
 
 1. **虚拟滚动 / 视窗化**（最适合 7k–20k+ 项）
@@ -76,7 +81,9 @@ type: note
    - 对于极端情况，可考虑使用固定布局的 `<table>` 或基于 canvas 的列表
 
 ### 快速测试建议
+
 尝试在隐身窗口中渲染你的 7000 个项，并检查：
+
 - Chrome DevTools → Performance 标签（记录一次滚动过程）
 - Lighthouse 审计中的“Avoid excessive DOM size”项目
 - 在中端笔记本电脑和手机上的滚动流畅度
@@ -84,12 +91,14 @@ type: note
 如果你在 7000 个项时注意到卡顿，那么在增加到 20000 个项之前就应该实施虚拟化。
 
 **总结**：
+
 - 7000 个项处于**临界状态**——可能能用，但不是最优的。
 - 20000 个项对于简单渲染的列表来说**太多了**，很可能会降低用户体验。
 
 采用虚拟滚动可以让你流畅地处理 20k、50k 甚至 100k+ 的项。
 
 **参考链接**：
-- https://developer.chrome.com/docs/lighthouse/performance/dom-size
-- https://web.dev/articles/dom-size-and-interactivity
-- https://www.debugbear.com/blog/excessive-dom-size
+
+- <https://developer.chrome.com/docs/lighthouse/performance/dom-size>
+- <https://web.dev/articles/dom-size-and-interactivity>
+- <https://www.debugbear.com/blog/excessive-dom-size>

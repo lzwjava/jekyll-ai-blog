@@ -16,6 +16,7 @@ Sure，以下是完整分析：
 ## 根本原因：Docker Daemon Proxy 未应用
 
 ### 错误信息
+
 ```
 Get "https://auth.docker.io/token?account=lzwjava&scope=repository%3Alibrary%2Fnode%3Apull&service=registry.docker.io": EOF
 ```
@@ -50,6 +51,7 @@ Docker Hub 在拉取任何镜像前都需要 auth token。流程如下：
 但问题是 — **Docker daemon 不会热重载 `daemon.json` 中的 proxy 配置**。编辑 `daemon.json` 后，运行中的 `dockerd` 进程不会读取变更。proxy 设置只是被*写入*，从未*应用*到运行中的 daemon。
 
 我确认了 proxy 本身工作正常：
+
 ```
 $ curl -x http://localhost:7890 https://registry-1.docker.io/v2/
 {"errors":[{"code":"UNAUTHORIZED","message":"authentication required"}]}

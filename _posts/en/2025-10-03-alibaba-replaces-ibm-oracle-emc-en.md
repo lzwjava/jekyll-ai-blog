@@ -15,6 +15,7 @@ type: note
 Alibaba's "Remove IOE" (or "去IOE") campaign, launched around 2008-2009, was a strategic effort to eliminate dependency on proprietary vendor stacks from **IBM**, **Oracle**, and **EMC** (IOE acronym). The goal was to reduce costs, improve scalability, and foster innovation by shifting to open-source and in-house developed technologies. This was crucial for Alibaba's e-commerce growth, as IOE systems were expensive and less flexible for massive scale.
 
 #### What Was Removed: The IOE Stack
+
 The "IOE" referred to a tightly integrated, high-end enterprise stack dominated by these vendors. Here's a breakdown of the key components Alibaba phased out:
 
 1. **IBM (Hardware and Middleware)**:
@@ -39,6 +40,7 @@ The "IOE" referred to a tightly integrated, high-end enterprise stack dominated 
 The overall IOE stack was a "closed" ecosystem: IBM servers running AIX, Oracle DB on top, stored on EMC arrays, with IBM middleware gluing it together. This was common in traditional enterprises but a bottleneck for Alibaba's needs.
 
 #### What Replaced the IOE Stack
+
 Alibaba rebuilt everything on open-source foundations, commodity hardware, and custom developments. Key replacements:
 
 - **Hardware/OS Layer (Replacing IBM)**:
@@ -64,6 +66,7 @@ Alibaba rebuilt everything on open-source foundations, commodity hardware, and c
   - In-house tools like SOFA (Scalable Open Framework Architecture).
 
 #### Impact and Legacy
+
 - **Cost Savings**: Reduced hardware/database costs by 70-80% initially.
 - **Scalability**: Enabled Alibaba to handle Double 11 (Singles' Day) peaks (e.g., 500,000+ orders/second).
 - **Innovation**: Sparked Alibaba's cloud business (Alibaba Cloud, now the world's largest by some metrics) and open-source contributions (e.g., OceanBase is used by banks globally).

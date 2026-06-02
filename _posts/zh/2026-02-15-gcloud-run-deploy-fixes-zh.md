@@ -29,6 +29,7 @@ gcloud run deploy blog-server \
 如果续行符处理不当（常见于从带有换行符的格式化文本/markdown 中复制时），zsh 会将反斜杠后的每一行视为新命令。
 
 这会导致：
+
 - `gcloud run deploy blog-server` 执行（或部分执行）
 - 接着 `--allow-unauthenticated` 被视为独立命令 → "command not found"
 - `--port`、`--memory` 等也是如此

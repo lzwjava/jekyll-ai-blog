@@ -18,10 +18,10 @@ type: note
 
 关键信息：
 
-  - 语言：        C#（.NET 8，解决方案：Git-Credential-Manager.sln）
-  - 仓库：        github.com/git-credential-manager/git-credential-manager
-  - 入口点：      src/shared/Git-Credential-Manager/Program.cs
-  - 界面框架：    Avalonia（跨平台 GUI，用于身份验证提示）
+- 语言：        C#（.NET 8，解决方案：Git-Credential-Manager.sln）
+- 仓库：        github.com/git-credential-manager/git-credential-manager
+- 入口点：      src/shared/Git-Credential-Manager/Program.cs
+- 界面框架：    Avalonia（跨平台 GUI，用于身份验证提示）
 
 架构：
 

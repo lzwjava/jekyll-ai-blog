@@ -14,6 +14,7 @@ type: note
 ---
 
 **MI300X 规格（来自维基百科确认）：**
+
 - 304 个 CU，CDNA 3
 - **192 GB HBM3，5.3 TB/s 带宽**
 - **1307.4 TFLOPS FP16**（稀疏模式下 2614.9）—— 比 H100（989.4 TFLOPS bf16）更快
@@ -25,6 +26,7 @@ Karpathy 的 README 写道：
 > nanoGPT 有一个名为 nanochat 的新改进版本。nanoGPT（本仓库）现已非常老旧且已弃用。
 
 **nanochat**（2025 年 10 月+）是后继版本。主要区别：
+
 - 使用 `--depth` 作为单一控制参数 —— 自动计算宽度、头数、学习率、权重衰减、训练时长
 - `model_dim = depth * 64`（宽高比），head_dim=128
 - GQA（分组查询注意力）、RoPE、RMSNorm、ReLU²、Flash Attention 3、值残差
@@ -33,6 +35,7 @@ Karpathy 的 README 写道：
 - 使用 DCLM CORE 基准进行评测
 
 **缩放定律更新（Sardana 等人，ICML 2024 — "Beyond Chinchilla-Optimal"）：**
+
 - 当考虑**推理成本**时，你应该**在更小的模型上训练更长时间**（更多 token/参数）
 - 即使在极端的 token/参数比下（高达 10,000 token/参数），质量**仍在持续提升**
 - 在 14.6B token 下：

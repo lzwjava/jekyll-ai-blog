@@ -12,6 +12,7 @@ type: note
 **You're extremely early.**
 
 From your activity page, you have:
+
 - **1 model published** (`lzwjava/zz`, just pushed within the last hour)
 - **0 followers** (though you're following 5 accounts)
 - **14 total likes** (mostly from liking other people's models over the past year)

@@ -13,6 +13,7 @@ To use Google Analytics, integrate it into your frontend project, and check the 
 ---
 
 ### 1. Set Up Google Analytics
+
 Before integrating Google Analytics into your project, you need to create an account and configure it:
 
 - **Create an Account**: Go to [analytics.google.com](https://analytics.google.com) and sign up with your Google account if you don’t already have one.
@@ -28,12 +29,15 @@ After setting up the data stream, you’ll get a **Measurement ID** (e.g., `G-XX
 ---
 
 ### 2. Integrate Google Analytics into Your Frontend Project
+
 The integration process depends on whether your frontend project is a website or a mobile app.
 
 #### For a Website
+
 - **Add the Google Tag**:
   - In your GA4 property, go to "Data Streams," select your web stream, and find the "Tagging Instructions."
   - Copy the provided **Google Tag** script, which looks like this:
+
     ```html
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_MEASUREMENT_ID"></script>
@@ -44,27 +48,35 @@ The integration process depends on whether your frontend project is a website or
       gtag('config', 'YOUR_MEASUREMENT_ID');
     </script>
     ```
+
   - Paste this code into the `<head>` section of your website’s HTML, replacing `YOUR_MEASUREMENT_ID` with your actual Measurement ID.
 - **For Single-Page Applications (SPAs)** (e.g., React, Angular, Vue):
   - The default script tracks only the initial page load. For SPAs, where pages don’t reload on route changes, use a library to track navigation. For example, in **React**:
     1. Install the `react-ga4` library:
+
        ```bash
        npm install react-ga4
        ```
+
     2. Initialize it in your app (e.g., in `index.js` or `App.js`):
+
        ```javascript
        import ReactGA from 'react-ga4';
        ReactGA.initialize('YOUR_MEASUREMENT_ID');
        ```
+
     3. Track page views on route changes (e.g., using React Router):
+
        ```javascript
        ReactGA.send({ hitType: "pageview", page: window.location.pathname });
        ```
+
        Call this whenever the route changes, such as in a `useEffect` hook tied to the router’s location.
   - Similar libraries exist for other frameworks (e.g., `ngx-analytics` for Angular, `vue-ga` for Vue—check for GA4 compatibility).
 - **Optional**: Use **Google Tag Manager** (GTM) instead of hardcoding the tag for easier management of tracking scripts.
 
 #### For a Mobile App
+
 - **Using Firebase (Recommended)**:
   - If your app uses Firebase, enable **Google Analytics for Firebase**:
     1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com).
@@ -80,6 +92,7 @@ The integration process depends on whether your frontend project is a website or
 ---
 
 ### 3. Verify the Integration
+
 - **For Websites**: After adding the tracking code:
   - Visit your website and open the **Real-time** report in Google Analytics (under "Reports" > "Real-time").
   - If you see your visit logged, the integration is working.
@@ -89,7 +102,9 @@ The integration process depends on whether your frontend project is a website or
 ---
 
 ### 4. Check the Data Using the App and Website
+
 Once Google Analytics starts collecting data, you can view it in two ways:
+
 - **Google Analytics Web Interface**:
   - Log in to [analytics.google.com](https://analytics.google.com).
   - Select your GA4 property.
@@ -106,14 +121,17 @@ Once Google Analytics starts collecting data, you can view it in two ways:
 ---
 
 ### Additional Notes
+
 - **If Your Project Includes Both a Website and an App**: You can add multiple data streams (e.g., one for the website, one for the app) under the same GA4 property. This allows you to view combined or separate analytics in the same interface.
 - **Tracking Events**: Beyond page views, track custom events (e.g., button clicks) using `gtag('event', ...)` for websites or Firebase’s `logEvent` for apps. Example for a website:
+
   ```javascript
   gtag('event', 'click', {
     'event_category': 'Button',
     'event_label': 'Submit'
   });
   ```
+
 - **GA4 vs. Universal Analytics**: Use GA4 for new projects, as Universal Analytics stopped processing data after July 1, 2023.
 
 By following these steps, you’ll successfully integrate Google Analytics into your frontend project and be able to monitor user data using both the Google Analytics website and mobile app. If your project type (website or app) requires specific clarification, adjust the integration steps accordingly!

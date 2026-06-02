@@ -22,11 +22,11 @@ type: note
 * **Git：** 版本控制必备工具，其命令行工具随处可用。图形界面客户端如 **GitKraken** 或 **GitHub Desktop** 也是跨平台的。
 * **Docker：** 用于容器化，允许你将应用程序及其依赖项打包，在各种环境中一致运行。
 * **跨平台开发框架（用于构建应用）：**
-    * **Flutter：**（谷歌）使用 Dart，非常适合从单一代码库构建移动端、网页和桌面端视觉吸引力强的应用。
-    * **React Native：**（Meta）使用 JavaScript，用于构建原生渲染的移动应用。
-    * **Xamarin (.NET MAUI)：**（微软）使用 C#，非常适合与 .NET 生态系统集成。
-    * **Ionic：** 使用 Web 技术（HTML、CSS、JavaScript）构建混合移动应用。
-    * **Kotlin Multiplatform：**（JetBrains）允许共享业务逻辑代码，同时保持平台特定的 UI。
+  * **Flutter：**（谷歌）使用 Dart，非常适合从单一代码库构建移动端、网页和桌面端视觉吸引力强的应用。
+  * **React Native：**（Meta）使用 JavaScript，用于构建原生渲染的移动应用。
+  * **Xamarin (.NET MAUI)：**（微软）使用 C#，非常适合与 .NET 生态系统集成。
+  * **Ionic：** 使用 Web 技术（HTML、CSS、JavaScript）构建混合移动应用。
+  * **Kotlin Multiplatform：**（JetBrains）允许共享业务逻辑代码，同时保持平台特定的 UI。
 
 **3. 生产力与办公套件：**
 

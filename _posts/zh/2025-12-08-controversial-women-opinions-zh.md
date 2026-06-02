@@ -32,7 +32,8 @@ type: note
 这些观点在主流 discurso 中极度不受欢迎，常被贴上厌女的标签，通常只在匿名在线或某些反文化圈子中表达。
 
 参考文献：
-- [男性理性——超偶](https://therationalmale.com/2011/08/30/there-is-no-one/)
-- [女性幸福感下降的悖论 (NBER)](https://www.nber.org/papers/w14969)
-- [离婚发起统计 (美国社会学协会)](https://www.asanet.org/wp-content/uploads/savvy/images/press/docs/pdf/ASR_Feb_2015_Brines_News_Release.pdf)
-- [综合社会调查幸福感趋势](https://gss.norc.org/)
+
+* [男性理性——超偶](https://therationalmale.com/2011/08/30/there-is-no-one/)
+* [女性幸福感下降的悖论 (NBER)](https://www.nber.org/papers/w14969)
+* [离婚发起统计 (美国社会学协会)](https://www.asanet.org/wp-content/uploads/savvy/images/press/docs/pdf/ASR_Feb_2015_Brines_News_Release.pdf)
+* [综合社会调查幸福感趋势](https://gss.norc.org/)

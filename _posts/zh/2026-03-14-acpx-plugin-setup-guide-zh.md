@@ -69,7 +69,7 @@ openclaw config set browser.profile openclaw
 
 1. 安装 **OpenClaw Browser Relay** 扩展
    → Chrome Web Store：搜索 "OpenClaw Browser Relay" 或直接访问
-   https://chromewebstore.google.com/detail/openclaw-browser-relay/……
+   <https://chromewebstore.google.com/detail/openclaw-browser-relay/……>
 
 2. 在 Chrome 中启用开发者模式 → 加载未打包 → 如果手动克隆，请指向文件夹
 
@@ -90,6 +90,7 @@ openclaw config set browser.websocket ws://127.0.0.1:9222/devtools/browser/…�
   `openclaw "open google.com and tell me what the Google logo says"`
 
 如果这些步骤后仍出现“acpx 插件未配置”错误，请分享：
+
 - 您运行的确切 OpenClaw 版本（`openclaw --version`）
 - 是否使用 docker / pip / binary
 - 启动 bridge 时的完整错误消息

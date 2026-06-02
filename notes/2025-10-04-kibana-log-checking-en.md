@@ -15,7 +15,9 @@ Kibana is an open-source data visualization and exploration tool developed by El
 This guide focuses on using Kibana to inspect and query logs. We'll cover setup, basic usage, log checking workflows, and advanced tips. Assume you're working with a basic ELK setup; if you're new to ELK, start by installing Elasticsearch and Logstash first (Kibana requires Elasticsearch to function).
 
 ## 1. Prerequisites
+
 Before using Kibana:
+
 - **Elasticsearch**: Version 8.x or later (Kibana is tightly coupled with Elasticsearch versions). Download from [elastic.co](https://www.elastic.co/downloads/elasticsearch).
 - **Java**: Elasticsearch requires JDK 11 or later.
 - **System Requirements**: At least 4GB RAM for development; more for production.
@@ -25,40 +27,50 @@ Before using Kibana:
 If you don't have logs yet, use tools like Filebeat to ship sample logs (e.g., system logs) to Elasticsearch.
 
 ## 2. Installing Kibana
+
 Kibana installation is straightforward and platform-agnostic. Download the latest version from [elastic.co/downloads/kibana](https://www.elastic.co/downloads/kibana) (match your Elasticsearch version).
 
-### On Linux (Debian/Ubuntu):
+### On Linux (Debian/Ubuntu)
+
 1. Add Elastic's repository:
+
    ```
    wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
    sudo apt-get install apt-transport-https
    echo "deb https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-8.x.list
    sudo apt-get update && sudo apt-get install kibana
    ```
+
 2. Start Kibana:
+
    ```
    sudo systemctl start kibana
    sudo systemctl enable kibana  # For auto-start on boot
    ```
 
-### On Windows:
+### On Windows
+
 1. Download the ZIP archive and extract it to `C:\kibana-8.x.x-windows-x86_64`.
 2. Open Command Prompt as Administrator and navigate to the extracted folder.
 3. Run: `bin\kibana.bat`
 
-### On macOS:
+### On macOS
+
 1. Use Homebrew: `brew tap elastic/tap && brew install elastic/tap/kibana-full`.
 2. Or download the TAR.GZ, extract, and run `./bin/kibana`.
 
 For Docker: Use the official image:
+
 ```
 docker run --name kibana -p 5601:5601 -e ELASTICSEARCH_HOSTS=http://elasticsearch:9200 docker.elastic.co/kibana/kibana:8.10.0
 ```
 
 ## 3. Basic Configuration
+
 Edit the configuration file `kibana.yml` (located in `/etc/kibana/` on Linux, or the `config/` folder on others).
 
 Key settings for log checking:
+
 ```yaml
 # Connect to Elasticsearch (default is localhost:9200)
 elasticsearch.hosts: ["http://localhost:9200"]
@@ -77,10 +89,12 @@ logging.verbose: true  # For debugging Kibana itself
 # Index pattern (optional default)
 defaultIndex: "logs-*"
 ```
+
 - Restart Kibana after changes: `sudo systemctl restart kibana`.
 - If using security features (X-Pack), generate certificates or use basic auth.
 
 ## 4. Starting and Accessing Kibana
+
 - Start Elasticsearch first (e.g., `sudo systemctl start elasticsearch`).
 - Start Kibana as above.
 - Open a web browser and go to `http://localhost:5601` (or your server's IP:5601).
@@ -89,6 +103,7 @@ defaultIndex: "logs-*"
 The interface includes apps like **Discover** (for logs), **Visualize**, **Dashboard**, **Dev Tools**, and **Management**.
 
 ## 5. Preparing Data: Index Patterns
+
 Logs in Elasticsearch are stored in **indices** (e.g., `logs-2023-10-01`). To query them in Kibana, create an **index pattern**.
 
 1. Go to **Stack Management** > **Index Patterns** (left sidebar, hamburger menu > Management).
@@ -101,21 +116,25 @@ Logs in Elasticsearch are stored in **indices** (e.g., `logs-2023-10-01`). To qu
 Refresh fields if your logs change. Use **Discover** to preview.
 
 ## 6. Using Discover to Check Logs
+
 The **Discover** app is your primary tool for inspecting logs. It's like a searchable log viewer.
 
-### Basic Navigation:
+### Basic Navigation
+
 1. Click **Discover** in the left sidebar.
 2. Select your index pattern from the dropdown (top-left).
 3. Set the time range (top-right): Use quick options like "Last 15 minutes" or custom (e.g., Last 7 days). This filters logs by `@timestamp`.
 
-### Viewing Logs:
+### Viewing Logs
+
 - **Hit Count**: Shows total matching logs (e.g., 1,234 hits).
 - **Document Table**: Displays raw log entries as JSON or formatted text.
   - Columns: Default is `@timestamp` and `_source` (full log). Drag fields from the left sidebar (e.g., `message`, `host.name`) to add columns.
   - Expand a row (click the arrow) to see the full JSON document.
 - **Histogram**: Top chart shows log volume over time. Zoom by dragging.
 
-### Searching Logs:
+### Searching Logs
+
 Use the search bar (top) for queries. Kibana uses **KQL (Kibana Query Language)** by default—simple and intuitive.
 
 - **Basic Search**:
@@ -132,11 +151,13 @@ Use the search bar (top) for queries. Kibana uses **KQL (Kibana Query Language)*
   - Switch to **Lucene query syntax** (via query language dropdown) for complex needs: `message:(error OR warn) AND host.name:prod*`.
   - Use **Query DSL** in Dev Tools for Elasticsearch-native queries (e.g., POST /logs-*/_search with JSON body).
 
-### Saving Searches:
+### Saving Searches
+
 - Click **Save** (top-right) to store a search for reuse.
 - Share via **Share** > CSV/URL for exports.
 
 Example Workflow: Checking Application Logs
+
 1. Ingest logs (e.g., via Logstash: input file > filter grok/parse > output Elasticsearch).
 2. In Discover: Time range "Last 24 hours".
 3. Search: `app.name:myapp AND level:ERROR`.
@@ -144,9 +165,11 @@ Example Workflow: Checking Application Logs
 5. Inspect: Look at `message` for stack traces, correlate with `@timestamp`.
 
 ## 7. Visualizing Logs
+
 While Discover is for raw checking, visualize for patterns.
 
-### Create Visualizations:
+### Create Visualizations
+
 1. Go to **Visualize Library** > **Create new visualization**.
 2. Choose type:
    - **Lens** (easy): Drag fields to buckets (e.g., X-axis: `@timestamp`, Y-axis: count of errors).
@@ -157,11 +180,13 @@ While Discover is for raw checking, visualize for patterns.
 4. Save and add to a **Dashboard** (Analytics > Dashboard > Create new > Add visualization).
 
 Example: Error Rate Dashboard
+
 - Visualize: Line chart of error logs per hour.
 - Filter: Global time range.
 - Embed in Dashboard for monitoring.
 
 ## 8. Advanced Features for Log Analysis
+
 - **Alerts and Monitoring**:
   - Use **Alerts** (Stack Management > Rules) to notify on log patterns (e.g., email if "critical" appears >5 times/hour).
   - **Uptime Monitoring** or **APM** for app logs.
@@ -171,6 +196,7 @@ Example: Error Rate Dashboard
 
 - **Dev Tools**:
   - Console for raw Elasticsearch queries: e.g.,
+
     ```
     GET logs-*/_search
     {
@@ -178,6 +204,7 @@ Example: Error Rate Dashboard
       "sort": [ { "@timestamp": "desc" } ]
     }
     ```
+
   - Test index patterns or ingest data.
 
 - **Roles and Security**:
@@ -194,8 +221,10 @@ Example: Error Rate Dashboard
   - For big data, shard indices and use ILM (Index Lifecycle Management).
 
 ## 9. Integrating with Log Sources
+
 - **Filebeat/Logstash**: Ship logs to Elasticsearch.
   - Example Filebeat config (`filebeat.yml`):
+
     ```yaml
     filebeat.inputs:
     - type: log
@@ -206,10 +235,12 @@ Example: Error Rate Dashboard
       hosts: ["localhost:9200"]
       index: "logs-%{+yyyy.MM.dd}"
     ```
+
   - Run: `./filebeat -e`.
 - **Cloud Logs**: Integrate with AWS S3, Azure, or Elastic Cloud for managed setups.
 
 ## 10. Troubleshooting Common Issues
+
 - **No Data in Discover**:
   - Check Elasticsearch connection: `curl localhost:9200/_cat/indices`.
   - Verify index pattern matches indices (e.g., no `*` mismatch).

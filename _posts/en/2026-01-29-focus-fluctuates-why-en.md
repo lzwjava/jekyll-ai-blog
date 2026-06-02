@@ -19,6 +19,7 @@ This extreme contrast in focus ability is extremely common — almost everyone w
 Here are the main reasons why focus can swing so dramatically:
 
 ### Biological / Physiological Reasons
+
 - **Sleep debt** (even 1–2 hours less the previous night can cut focus ability by 30–60%)
 - **Blood glucose** — sharp drops (especially after high-carb meals) or being in the post-lunch dip
 - **Caffeine timing** — either too much (anxiety/jittery focus) or withdrawal
@@ -28,18 +29,21 @@ Here are the main reasons why focus can swing so dramatically:
 - **Circadian rhythm misalignment** — most people have 2–4 hours of high executive-function time per day; outside of that window focus is naturally much harder
 
 ### Psychological / Emotional Reasons
+
 - **Task-relevance mismatch** — when the question/topic feels meaningful or you can see progress → flow state is easy; when it feels pointless → strong aversion
 - **Hidden emotional resistance** — fear of failure, fear of being average, imposter feelings, perfectionism → manifests as “I just can’t focus” rather than “I’m scared of the result”
 - **Decision fatigue / ego depletion** — after making many small decisions the brain literally has less willpower left
 - **Internal conflict** — part of you wants to study, another part wants to escape → produces paralysis (very common when you “should” do something but don’t truly want to)
 
 ### Environmental / Habit Triggers
+
 - Phone notifications / open tabs / visible temptations
 - Room too warm (>24 °C) or too stuffy → drops focus fast
 - Bright light in the evening → suppresses melatonin → poor focus the next morning
 - Lack of **activation energy ritual** — jumping straight into hard work without any warm-up often fails
 
 ### Quick Diagnostic Questions You Can Ask Yourself When Focus Disappears
+
 1. How many hours did I sleep last night? (≤6 h → huge effect)
 2. When did I last eat? Was it sugary/carby? (crash possible)
 3. Am I currently physiologically aroused/anxious? (racing heart, tense shoulders)
@@ -48,6 +52,7 @@ Here are the main reasons why focus can swing so dramatically:
 6. Is my body telling me I need movement / water / fresh air / to pee?
 
 ### Practical “Focus Reset” Menu (pick 1–2 that match your situation)
+
 - 10–20 min hard walk outside (no phone)
 - Very cold shower (2–3 min) — reliably increases dopamine & norepinephrine
 - Eat protein + fat + little carbs (e.g. eggs, nuts, Greek yogurt, cheese)

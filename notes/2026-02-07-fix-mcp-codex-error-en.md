@@ -19,6 +19,7 @@ The error occurs because Codex (OpenAI's coding agent/CLI tool) is trying to use
 MCP is a protocol (originally from Anthropic, now adopted widely including by OpenAI Codex) that lets AI agents connect to external tools/services. The built-in local filesystem access in Codex usually happens via direct file tools or shell commands — **not** via an MCP server called "files".
 
 ### Why this happens
+
 Codex's model sometimes confuses normal file reading with MCP-based reading (especially when it has seen many examples of MCP usage in Cursor, Windsurf, Claude, etc.). This is a known occasional behavior in agent models — it hallucinates or over-generalizes to an MCP call even when no such server exists.
 
 ### How to fix it

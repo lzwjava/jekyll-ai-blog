@@ -129,6 +129,7 @@ Modern computer systems are built on the principle that several hardware compone
 ## 7. Summary
 
 In this chapter, you learned:
+
 - **Bus Structures:** The various types of buses (data, address, control) and how they connect CPU, memory, and I/O devices.
 - **I/O Devices:** Their categorization, characteristics, and methods of interaction with the system (programmed I/O, interrupt-driven I/O, DMA).
 - **Communication Protocols:** How different protocols facilitate orderly and efficient data transfer, including serial and parallel communication and key examples like USB and PCIe.

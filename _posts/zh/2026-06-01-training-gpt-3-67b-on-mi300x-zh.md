@@ -57,6 +57,7 @@ python data/openwebtext/prepare.py
 ```
 
 要达到 GPT-3 规模，你需要更多数据 —— 使用 The Pile：
+
 ```python
 # data/pile/prepare.py —— 自行编写
 from datasets import load_dataset
@@ -82,6 +83,7 @@ arr = np.memmap('/mnt/data/tokens/train.bin', dtype=np.uint16, mode='w+', shape=
 两个关键修改：
 
 **修改 1 —— 梯度检查点：**
+
 ```python
 # model.py —— 在 GPT.forward() 中
 from torch.utils.checkpoint import checkpoint
@@ -96,6 +98,7 @@ for block in self.transformer.h:
 ```
 
 **修改 2 —— 修复数据路径配置：**
+
 ```python
 # 在 train.py 中，更新 data_dir 默认值
 data_dir = os.path.join('/mnt/data/tokens', dataset)
@@ -201,6 +204,7 @@ tail -f /mnt/data/logs/train.log
 ```
 
 预期输出：
+
 ```
 iter 0:    loss 11.07, time 4200ms, mfu 0.12%
 iter 100:  loss 7.43,  time 3800ms, mfu 38.2%
@@ -237,6 +241,7 @@ python train.py config/train_gpt3_6b.py
 ## 预期训练时间（粗略估计）
 
 GPT-3 6.7B，300B tokens（Pile 的子集）：
+
 ```
 MI300X 理论性能：约 200 TFLOPS bf16
 实际 MFU 约 40%：约 80 TFLOPS 有效性能
@@ -249,6 +254,7 @@ MI300X 理论性能：约 200 TFLOPS bf16
 ```
 
 按 $2/小时 计费：
+
 ```
 42 天 × 24 小时 × $2 = 约 $2,016
 ```

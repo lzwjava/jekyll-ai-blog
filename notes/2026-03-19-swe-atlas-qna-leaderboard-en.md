@@ -9,15 +9,16 @@ translated: false
 type: note
 ---
 
-Question: What is the https://labs.scale.com/leaderboard/sweatlas-qna leaderboard? Provide an introduction to it.
+Question: What is the <https://labs.scale.com/leaderboard/sweatlas-qna> leaderboard? Provide an introduction to it.
 
 Answer:
 
-The **SWE Atlas - Codebase QnA** leaderboard, hosted at https://labs.scale.com/leaderboard/sweatlas-qna, is part of Scale AI's **SWE Atlas** benchmark suite. SWE Atlas evaluates AI coding agents on professional software engineering tasks using real-world, complex codebases.
+The **SWE Atlas - Codebase QnA** leaderboard, hosted at <https://labs.scale.com/leaderboard/sweatlas-qna>, is part of Scale AI's **SWE Atlas** benchmark suite. SWE Atlas evaluates AI coding agents on professional software engineering tasks using real-world, complex codebases.
 
 **Codebase QnA** specifically measures **deep code comprehension and reasoning** — an upstream skill required before making any code changes. It tests how well AI agents can understand and explain the behavior of large, production-grade software systems.
 
 ### Key Features
+
 - **Dataset**: 124 challenging QA tasks from 11 actively maintained open-source repositories (selected from SWE-Bench Pro), covering Go, Python, C, and TypeScript. Examples include mail servers, terminal emulators, object storage systems, observability platforms, and secret scanners.
 - **Task Type**: Agents receive natural-language, often underspecified questions that mimic real engineer inquiries (e.g., "How does the system handle disk failure in this configuration?"). They must autonomously explore the codebase, build and run the software in a sandboxed Docker environment, trace execution paths across multiple files, analyze runtime behavior, and provide detailed, accurate answers.
 - **Constraints**: Agents can use shell tools (bash, grep, etc.) but are strictly prohibited from modifying any source code — violations result in automatic failure.
@@ -28,7 +29,9 @@ The **SWE Atlas - Codebase QnA** leaderboard, hosted at https://labs.scale.com/l
 - **Purpose**: Highlights gaps in current frontier models' ability to deeply reason about real code execution and architecture, beyond static analysis or simple bug fixing.
 
 ### Performance Highlights (as of March 2026)
+
 Even top models struggle significantly:
+
 - Leading scores are around **30–35%** resolve rate.
 - Top entries include:
   - gpt-5.4-codex (xHigh, Codex CLI): **35.48% ± 8.70**

@@ -17,6 +17,7 @@ The Muon Optimizer is a specialized, second-order-inspired optimization algorith
 Muon stands out for its token efficiency: it requires fewer training tokens than first-order optimizers like AdamW to achieve comparable performance, making it valuable for resource-intensive tasks like LLM pre-training. It aims to approximate second-order methods (e.g., Newton's method) without their full computational cost, focusing on eigenvalue adaptation via high-rank matrix updates. This is particularly useful in large-scale models where gradients are noisy, as Muon leverages preconditioning inspired by natural gradients and matrix square roots.
 
 #### Key Principles and Derivation
+
 - **Core Concept**: Muon is rooted in geometric optimization, adapting updates to the "energy landscape" of the loss function. It uses a preconditioner based on the Fisher information matrix (or approximations) to scale gradients, similar to AdaGrad or Shampoo but optimized for dense linear layers[1][2].
 - **Algorithm Steps**:
   1. **Gradient Computation**: Compute standard gradients \(\nabla W\) for weights \(W\) in linear layers.
@@ -26,6 +27,7 @@ Muon stands out for its token efficiency: it requires fewer training tokens than
 - **Efficiency Boost**: Muon can reduce the number of training steps by 20-50% in some benchmarks, as seen in its use with NanoGPT records[1].
 
 #### Advantages and Drawbacks
+
 - **Advantages**:
   - **Better Convergence on Linear Layers**: Excels in dense, high-dimensional spaces typical of LLMs, leading to lower loss with fewer tokens[4][6].
   - **Resource-Efficient**: Faster per-epoch training due to fewer gradient computations needed.
@@ -34,12 +36,13 @@ Muon stands out for its token efficiency: it requires fewer training tokens than
   - **Instability**: Prone to divergence in deeper networks or sparse layers; MuonClip addresses this by clipping attention scores (e.g., query-key products) during training[3][2].
   - **Layer Specificity**: Not ideal for convolutional or recurrent layers; it's biased toward linear/MoE architectures. Keras notes it shouldn't be used for non-linear layers[8].
   - **Hyperparameter Sensitivity**: Requires tuning for learning rate (\(\eta\)) and orthogonality-inducing moves; may not transfer across model sizes without adjustment[2].
-- **MuonClip Variant (Kimi-Specific)**: This is Muon's evolution, integrated with QK-clipping to prevent instability in 15.5 trillion-token pre-training. It stabilized Kimi K2's 32 billion activated parameters, enabling zero-loss-spike training and superior benchmarks (e.g., 66.1 on Tau2-Bench)[3][8]. Without public code yet, it's proprietary but builds on open Muon.
+- **MuonClip Variant (Kimi-Specific)**: This is Muon's evolution, integrated with QK-clipping to prevent instability in 15.5 trillion-token pre-training. It stabilized Kimi K2's 32 billion activated parameters, enabling zero-loss-spike training and superior benchmarks [e.g., 66.1 on Tau2-Bench][3](8). Without public code yet, it's proprietary but builds on open Muon.
 
 Muon has influenced the AI optimization landscape, appearing in benchmarks like Scion and discussions on Reddit/X, often praised for its "geometric intuition." For full derivations, see Jeremy Bernstein's blog[2]. Now, let's look at a practical implementation.
 
 ### Code Example: Implementing Muon Optimizer in PyTorch
-Below is a PyTorch implementation of the basic Muon optimizer, adapted from the official repository (https://github.com/KellerJordan/Muon). This is a simplified version for dense linear layers; it includes Newton-Schulz iterations for the preconditioner.
+
+Below is a PyTorch implementation of the basic Muon optimizer, adapted from the official repository (<https://github.com/KellerJordan/Muon>). This is a simplified version for dense linear layers; it includes Newton-Schulz iterations for the preconditioner.
 
 ```python
 import torch
@@ -107,18 +110,19 @@ for epoch in range(10):
 ```
 
 **Notes on Code**:
-- This is a stripped-down version; the full GitHub repo includes CUDA kernels for efficiency (e.g., Flash-Muon for faster matmuls)[3][4].
+
+- This is a stripped-down version; the full GitHub repo includes CUDA kernels for efficiency [e.g., Flash-Muon for faster matmuls][3](4).
 - For Keras/TensorFlow: Use `from keras.optimizers import Muon; opt = Muon(learning_rate=0.01)`[8].
 - Tuned hyperparameters (e.g., `lr_b=2e-3`) are crucial; experiment with your model. For Kimi K2's MuonClip, no public code exists, but it adds clipping logic in attention forward passes[2][5].
 
 If you need extensions or benchmarks, let me know!
 
 Citations:
-[1] https://kellerjordan.github.io/posts/muon/
-[2] https://jeremybernste.in/writing/deriving-muon
-[3] https://github.com/KellerJordan/Muon
-[4] https://github.com/nil0x9/flash-muon
-[5] https://www.lakernewhouse.com/writing/muon-2
-[6] https://medium.com/@kyeg/building-the-muon-optimizer-in-pytorch-a-geometric-approach-to-neural-network-optimization-17f4601be548
-[7] https://discuss.huggingface.co/t/tutorial-understanding-and-implementing-the-muon-optimizer/167717
-[8] https://keras.io/api/optimizers/muon/
+[1] <https://kellerjordan.github.io/posts/muon/>
+[2] <https://jeremybernste.in/writing/deriving-muon>
+[3] <https://github.com/KellerJordan/Muon>
+[4] <https://github.com/nil0x9/flash-muon>
+[5] <https://www.lakernewhouse.com/writing/muon-2>
+[6] <https://medium.com/@kyeg/building-the-muon-optimizer-in-pytorch-a-geometric-approach-to-neural-network-optimization-17f4601be548>
+[7] <https://discuss.huggingface.co/t/tutorial-understanding-and-implementing-the-muon-optimizer/167717>
+[8] <https://keras.io/api/optimizers/muon/>

@@ -11,6 +11,7 @@ type: note
 The Golden Gate Bridge in San Francisco was completed in 1937, a standout project of the 1930s. Several other notable bridges were built during that decade or within a few years on either side, reflecting a global surge in ambitious infrastructure projects—often spurred by economic recovery efforts, technological advances, or urban growth. Here’s a look at bridges from roughly that era, spanning the late 1920s to early 1940s:
 
 ### Bridges Built in the 1930s or Close Proximity
+
 1. **George Washington Bridge (New York City, USA)**
    - **Completed**: 1931
    - **Type**: Suspension
@@ -47,6 +48,7 @@ The Golden Gate Bridge in San Francisco was completed in 1937, a standout projec
    - **Details**: Linking Zealand and Falster, this 3,199-meter bridge (though not a single span) was one of Europe’s longest when built. Finished the same year as the Golden Gate, it reflects a similar push for connectivity, though its utilitarian truss design lacks the Golden Gate’s flair.
 
 ### Shared Context with the Golden Gate
+
 The 1930s were a golden age for suspension bridges, driven by advances in steel fabrication and cable technology. The Great Depression fueled many of these projects—Golden Gate, George Washington, and Triborough were all New Deal-era efforts, employing thousands and boosting morale. In North America especially, the decade saw bridges as symbols of progress, much like the Golden Gate’s role in San Francisco. Europe’s examples, like Storstrøm, leaned more toward practical transport needs post-WWI, while war loomed on the horizon.
 
 No bridge from this list matches the Golden Gate’s exact combination of scale, beauty, and cultural impact, but the George Washington and Lions Gate come closest in engineering ambition and timing. The Queshi Bridge (1992), by contrast, is decades removed—its concrete cable-stayed design belongs to a different technological and historical moment. The 1930s bridges share a pre-WWII optimism and steel-centric aesthetic that the Golden Gate epitomizes, a vibe absent from later 20th-century builds like Queshi.

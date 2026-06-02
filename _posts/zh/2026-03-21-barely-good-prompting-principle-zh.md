@@ -33,6 +33,7 @@ type: note
 ## 为什么 LLM 需要比你想象的少
 
 像 Claude 这样的 LLM 已经内化了：
+
 - Coding best practices、design patterns、languages
 - Writing styles、formats、genres
 - 医学、法律、科学、工程等领域的领域知识
@@ -47,11 +48,13 @@ type: note
 Claude Code 是一个 agentic coding tool。此处的 “barely enough” 提示词原则意味着：
 
 **告诉它：**
+
 - 目标是什么
 - 关键约束或非显而易见上下文
 - “done” 是什么样子（如果不明显）
 
 **不要告诉它：**
+
 - 如何编写每个函数
 - 哪些 libraries 存在（它知道）
 - 标准任务的 step-by-step 指示

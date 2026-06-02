@@ -17,6 +17,7 @@ Answer:
 Mental clarity and focus can fluctuate due to a variety of physiological, lifestyle, and environmental factors. This variation is normal and often referred to as "brain fog" when clarity is reduced—characterized by difficulty concentrating, memory issues, confusion, and reduced cognitive performance.
 
 ### Common Reasons for Fluctuations
+
 - **Sleep Quality and Quantity**: Poor or insufficient sleep impairs memory consolidation, attention, and decision-making. Even one night of disrupted sleep can cause fog, while consistent good sleep (7-9 hours) restores clarity.
 - **Stress and Anxiety**: Chronic stress elevates cortisol, which exhausts the brain, leading to mental fatigue and reduced focus. Acute stress can temporarily sharpen focus (fight-or-flight), but prolonged exposure causes the opposite.
 - **Diet and Nutrition**: Blood sugar fluctuations, dehydration, or deficiencies (e.g., in vitamins, omega-3s) affect brain function. A balanced diet supports sharpness; poor nutrition or skipped meals cause dips.
@@ -29,6 +30,7 @@ Mental clarity and focus can fluctuate due to a variety of physiological, lifest
 These fluctuations are often temporary and reversible by addressing the underlying cause. Persistent issues may warrant consulting a doctor to rule out conditions like depression, ADHD, or chronic fatigue.
 
 To improve consistency:
+
 - Prioritize sleep hygiene.
 - Manage stress through mindfulness or exercise.
 - Eat balanced meals and stay hydrated.

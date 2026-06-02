@@ -45,6 +45,7 @@ Answer:
 The key difference between JavaScript and TypeScript is that JavaScript lacks a type system. In JavaScript, variables can haphazardly change form, while TypeScript in strict mode forbids this.
 
 Example:
+
 ```js
 // JavaScript — no type enforcement
 let bar = "text";
@@ -104,12 +105,14 @@ The 2024 Developer Survey by GitHub reveals that TypeScript has become a preferr
 ### 11. When to Use Which?
 
 **Use JavaScript when:**
+
 - Building small to medium projects or prototypes
 - You need fast setup without a build step
 - Working with beginners or a team unfamiliar with type systems
 - Quick scripting or simple frontend interactions
 
 **Use TypeScript when:**
+
 - Building large-scale or enterprise applications
 - Working in a large team where code readability and contracts matter
 - Long-term maintainability is a priority

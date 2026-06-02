@@ -180,7 +180,7 @@ Prepare **for the examiner**, not the subject.
 
 ---
 
-### If You Want, I Can:
+### If You Want, I Can
 
 * Design a **custom exam-prep plan** for a specific exam
 * Generate:

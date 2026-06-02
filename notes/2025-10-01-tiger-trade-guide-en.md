@@ -31,12 +31,15 @@ To display buy/sell options in the app (assuming you're referring to stock or op
    - If no options display buy/sell (e.g., the list appears empty after clicking something), you may have switched to "My Positions" filter, which only shows options you hold. Switch back to "All Options" at the top of the chain [4].
 
 ### Regarding "Weekly Invest" Feature
+
 There is no feature explicitly named "Weekly Invest" or "AI Weekly Invest," but this likely refers to **Auto-Invest** (also called Tiger Invest), a regular investing tool for US stocks and ETFs:
+
 - It supports automated buys (not sells) at fixed intervals, such as weekly, starting from $2 USD (or equivalent in HKD/other currencies) using fractional shares [5] [5].
 - Access: Go to Portfolio > Auto-Invest (or search in app menus).
 - Does not affect buy/sell visibility on stock/pages—trading remains separate. If buy/sell buttons disappeared after interacting with Auto-Invest, restart the app or log out/in, as it may be a UI glitch in 9.4.0.2.
 
 If the buttons are still hidden post-adventure (e.g., after clicking a filter, chart toggle, or AI feature), check:
+
 - Ensure your account is funded and eligible for trading (Tiger supports fractional shares and options for eligible users [6]).
 - Disable TigerAI overlays or switch chart timeframes if interfering visually.
 - For app settings: Tap Profile > Settings > check for display options (no specific buy/sell toggle in mobile).
@@ -44,9 +47,9 @@ If the buttons are still hidden post-adventure (e.g., after clicking a filter, c
 For further help, visit the Tiger Trade help center or contact support. If this is for desktop Tiger Trade Windows/Mac, chart trading buttons can be enabled via Options > Chart Settings > Trading [2].
 
 Citations:
-[1] https://apps.apple.com/nz/app/tiger-trade-buy-us-asx-shares/id1023600494
-[2] https://support.tiger.com/english/windows/chart/chart-trading
-[3] https://www.itiger.com/sg/help/detail/option-trading
-[4] https://www.youtube.com/watch?v=5JKam5MP-nc
-[5] https://www.itiger.com/nz/help/detail/15849694
-[6] https://play.google.com/store/apps/details?id=com.tigerbrokers.stock&hl=en_US
+[1] <https://apps.apple.com/nz/app/tiger-trade-buy-us-asx-shares/id1023600494>
+[2] <https://support.tiger.com/english/windows/chart/chart-trading>
+[3] <https://www.itiger.com/sg/help/detail/option-trading>
+[4] <https://www.youtube.com/watch?v=5JKam5MP-nc>
+[5] <https://www.itiger.com/nz/help/detail/15849694>
+[6] <https://play.google.com/store/apps/details?id=com.tigerbrokers.stock&hl=en_US>

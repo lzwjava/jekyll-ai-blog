@@ -22,6 +22,7 @@ Here are the key points about unpaid leave:
 - It is different from **paid leave** (such as annual leave, sick leave, or maternity/paternity pay in many countries) where you continue to receive some or all of your regular pay.
 
 ### Common reasons people take unpaid leave
+
 - Extended personal reasons (family matters, travel, personal projects)
 - Caring for a sick family member when paid carers' leave has run out
 - Taking more time off than the paid vacation days allow
@@ -31,6 +32,7 @@ Here are the key points about unpaid leave:
 - Mental health breaks when no paid option exists
 
 ### Legal aspects (varies by country)
+
 - In many countries, certain types of unpaid leave are protected by law:
   - FMLA (Family and Medical Leave Act) in the United States → up to 12 weeks unpaid leave per year for serious health conditions, childbirth/adoption, caring for family (for eligible employees)
   - Parental leave extensions beyond paid maternity/paternity periods
@@ -39,6 +41,7 @@ Here are the key points about unpaid leave:
 - In some cases, unpaid leave is completely at the employer’s discretion (no legal right to it).
 
 ### Practical effects
+
 - No paycheck during the leave period
 - Usually no holiday/vacation days continue to accrue
 - Benefits (health insurance, pension contributions) may be affected or require employee contributions

@@ -15,6 +15,7 @@ type: note
 OpenShift 是由红帽（现属 IBM）开发的企业级开源容器应用平台。它构建于 Kubernetes（容器编排的事实标准）之上，并通过附加工具和服务进行功能扩展。OpenShift 提供完整的 PaaS（平台即服务）和 CaaS（容器即服务）解决方案，使开发人员能够大规模构建、部署和管理云原生应用。
 
 核心组件包括：
+
 - **Kubernetes 核心**：用于容器编排（如 Pod、服务、部署）
 - **开发工具**：内置 CI/CD 流水线（使用 Jenkins 或 Tekton）、Source-to-Image (S2I) 自动化构建功能及集成镜像仓库
 - **安全与运维**：基于角色的访问控制（RBAC）、多租户支持、镜像扫描，以及通过 Prometheus 和 Grafana 实现的监控功能
@@ -58,6 +59,7 @@ Pivotal Cloud Foundry（PCF）是开源 Cloud Foundry 平台的商业发行版�
 | **社区与支持**     | 庞大的开源社区（Kubernetes 基础），红帽企业级支持                           | 活跃的 CF 基金会社区，通过 VMware 提供企业支持。Pivotal 收购后发展势头减弱 |
 
 **核心差异**：
+
 - **设计哲学**：OpenShift 是"开箱即用的 Kubernetes"——侧重可扩展性和运维；PCF 是"开发者优先的 PaaS"——通过基础设施抽象加速迭代
 - **容器成熟度**：OpenShift 在容器时代（2015年后 Kubernetes 爆发）表现卓越；PCF 通过 CF for VMs 或 Tanzu 集成 Kubernetes 支持容器，但源自非容器 PaaS
 - **学习曲线**：PCF 对传统开发者更友好；OpenShift 需掌握 Kubernetes 知识但长期灵活性更优
@@ -66,6 +68,7 @@ Pivotal Cloud Foundry（PCF）是开源 Cloud Foundry 平台的商业发行版�
 ### 为何选择 OpenShift 而非 PCF？
 
 在以下场景选择 OpenShift：
+
 - 企业计划未来全面采用 Kubernetes/容器技术（据调查 80% 企业有此规划）
 - 需要深度定制、多租户或混合云支持——OpenShift 在受监管环境和大规模场景表现突出
 - 注重成本与开放性：大规模部署更具性价比且完全开源，避免 PCF 的高额授权费
@@ -73,6 +76,7 @@ Pivotal Cloud Foundry（PCF）是开源 Cloud Foundry 平台的商业发行版�
 - 倾向红帽/IBM 生态（例如与 RHEL、IBM Cloud 的集成）
 
 在以下场景选择 PCF：
+
 - 团队需要简易的低运维 PaaS 实现快速应用部署，且无需 Kubernetes 专业知识
 - 正在进行传统应用现代化改造（如单体应用转向 12 要素应用），并看重 VMware 工具链（如 Tanzu Kubernetes 扩展）
 - 简易性优先于扩展性，且已投入 VMware/AWS 技术栈

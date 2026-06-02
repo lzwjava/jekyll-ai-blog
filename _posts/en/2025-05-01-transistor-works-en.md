@@ -42,4 +42,4 @@ The video points out several critical factors:
 * **Depletion Region:** Overcoming the depletion region between the emitter and base is a necessary step to initiate the flow of current.
 
 In summary, a small current between the base and emitter effectively enables a large current flow from the emitter to the collector, thereby switching the transistor on and illustrating its function as a current-controlled switch and amplifier.
-http://googleusercontent.com/youtube_content/1
+<http://googleusercontent.com/youtube_content/1>

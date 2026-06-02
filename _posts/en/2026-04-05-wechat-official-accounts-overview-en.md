@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What is https://mp.weixin.qq.com, and how do you use it?
+Question: What is <https://mp.weixin.qq.com>, and how do you use it?
 
 Answer:
 

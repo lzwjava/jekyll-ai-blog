@@ -16,6 +16,7 @@ Answer:
 Angela (also known as 安琪拉 in the Chinese version of 王者荣耀) is a mid-lane mage in Honor of Kings, specializing in burst magic damage, crowd control (stun), and area-of-effect (AOE) attacks. She excels at clearing waves quickly, harassing enemies from range, and setting up kills with her stun and ultimate. Her kit revolves around stacking a passive "burn" effect for increased movement speed and damage amplification, making her strong in poke, ganks, and teamfights.
 
 ### Skills Overview
+
 - **Passive: Flame Incantation**
   Each skill hit on an enemy grants Angela bonus movement speed. Enemies hit take increasing damage from her subsequent skills (stacks up to 10 layers via multi-hit skills). Prioritize landing multiple hits from Skill 1 to max stacks quickly for burst potential.
 
@@ -33,6 +34,7 @@ Angela (also known as 安琪拉 in the Chinese version of 王者荣耀) is a mid
 **Summoner Spell**: Flash (mandatory for positioning Ult or dodging).
 
 ### Recommended Build (High Damage/Burst Focus - Meta 2026)
+
 Angela scales with magic power, penetration, and cooldown. Prioritize wave clear early, then burst.
 
 | Slot | Item | Why? |
@@ -48,12 +50,14 @@ Angela scales with magic power, penetration, and cooldown. Prioritize wave clear
 **Full Build Order**: Boots > Reverberation > Savant's > Tome > Void > Wisdom. Sell boots late for Ice Pulse Staff if full damage.
 
 **Arcana (Runes/Mingwen)**:
+
 - Nightmare x10 (magic power/pen)
 - Mind's Eye x10 (attack speed for passive procs)
 - Hunter/Avarice x10 (move speed/gold).
 Alt: 10 Dream Witch, 10 Heart Eye, 10 Hunt for pure burst.
 
 ### Combos (Key to Success)
+
 - **Standard Burst (Max Damage)**: 2 (stun) > 1 (stack burns) > 3 (channel beam). Lands ~80-100% HP on squishies mid-game.
 - **Poke/Harass**: 1 > 1 (double-cast for stacks) > AA (auto-attack).
 - **Wave Clear/Gank Setup**: 1 (clear) > 2 (stun incoming) > Flash-3.
@@ -63,6 +67,7 @@ Alt: 10 Dream Witch, 10 Heart Eye, 10 Hunt for pure burst.
 Pro Tip: Skill 2 is slow—bush ambush or predict. Never Ult without 2 landing first.
 
 ### Playstyle & Tips
+
 1. **Laning Phase (Early)**:
    - Clear waves fast with 1, poke with 1-1. Roam at lvl 4+ with jungler (2 stun sets up kills).
    - Goal: Hit lvl 4 first, pressure side lanes.
@@ -88,6 +93,7 @@ Pro Tip: Skill 2 is slow—bush ambush or predict. Never Ult without 2 landing f
 Master these, and Angela carries from Gold to Master easily—simple kit, huge reward.
 
 References:
+
 - [Honor of Kings Wiki - Angela](https://honor-of-kings.fandom.com/wiki/Angela)
 - [Best Angela Builds - BlueStacks](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-angela-builds-guide-en.html)
 - [Angela Build Guide - LapakGaming](https://www.lapakgaming.com/blog/en-my/angela-build-and-items-honor-of-kings)

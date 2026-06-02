@@ -35,6 +35,7 @@ Knowing the trigger helps you anticipate and plan.
 The easiest way to stop saying an unwanted word is to **immediately replace it with an acceptable alternative**.
 
 * ### **Find Your "Go-To" Word**
+
     Pick a few **new, non-offensive words** that you can consciously use instead. This is your "bridge" phrase to interrupt the old habit.
 
 | Original Word/Phrase | Suggested Replacement |
@@ -43,6 +44,7 @@ The easiest way to stop saying an unwanted word is to **immediately replace it w
 | **"Mother F***"** | "Mother of pearl," "Son of a biscuit," "Oh my goodness," "Holy cow," "Sugar honey iced tea" (S.H.I.T.) |
 
 * ### **Practice Out Loud**
+
     Say your chosen replacement words 10-20 times now, so your brain starts to associate them with the feeling of frustration. The next time you feel that trigger, the replacement is more likely to come out.
 
 ---

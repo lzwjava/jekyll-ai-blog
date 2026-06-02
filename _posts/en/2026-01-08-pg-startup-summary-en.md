@@ -17,9 +17,11 @@ Answer:
 Paul Graham's Lecture 3, titled "Before the Startup" (part of Y Combinator's 2014 "How to Start a Startup" course), focuses on the **counterintuitive nature of startups** and **how to generate good startup ideas**. He frames the advice as what he would tell his own children, emphasizing that startups are unnatural and often contradict everyday instincts, much like learning to ski as an adult.
 
 ### Main Theme
+
 Startups are highly counterintuitive, and success comes from suppressing misleading instincts (except those about people). The core requirement is to build something users truly want, rather than following conventional "startup mechanics" or gaming systems.
 
 ### Key Counterintuitive Aspects of Startups
+
 Graham lists several points that beginners must remember to avoid common mistakes:
 
 - **Instincts often fail**: Unlike normal life, many natural impulses lead astray in startups (e.g., leaning back to slow down while skiing causes loss of control). Founders frequently ignore advice because it feels wrong.
@@ -31,6 +33,7 @@ Graham lists several points that beginners must remember to avoid common mistake
 - **Hard to predict success without experience**: No prior analog makes it tough to gauge your ability.
 
 ### How to Generate Good Startup Ideas
+
 The second half shifts to idea generation, which happens unconsciously rather than by force:
 
 - **Prepare your mind**: Live in the future—learn deeply about cutting-edge technology and important problems. Pursue genuine curiosity ("gratify your interest") rather than hunting for ideas.
@@ -41,12 +44,14 @@ The second half shifts to idea generation, which happens unconsciously rather th
 Graham recommends his essay "How to Get Startup Ideas" for more depth.
 
 ### Advice for Students/Young People
+
 - Build domain expertise and broad knowledge.
 - Find great cofounders (hardest part).
 - Ultimate advice: **Just learn**—acquire knowledge voraciously; ideas and opportunities follow.
 - Don't start a startup in college unless compelled—focus on learning instead.
 
 ### Notable Quotes and Examples
+
 - On counterintuitiveness: "Startups are as unnatural as skiing."
 - On growth: "The way to make your startup grow is to make something users really love, and then tell them about it."
 - On faking: "Faking does work to some extent with investors... but you're pulling a confidence trick on yourself."

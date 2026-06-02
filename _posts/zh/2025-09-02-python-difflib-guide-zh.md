@@ -28,6 +28,7 @@ type: note
 最重要的类是 **`difflib.SequenceMatcher`**。
 
 **工作原理**：
+
 * 逐元素比较两个序列
 * 寻找最长公共子序列（不要求连续）
 * 生成操作列表（`replace`、`delete`、`insert`、`equal`）来描述如何将一个序列转换为另一个

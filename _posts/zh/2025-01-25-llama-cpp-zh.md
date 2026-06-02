@@ -54,8 +54,8 @@ brew install llama.cpp
 
 ## 资源
 
-*   [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
-*   [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
-*   [ggml GitHub Repository](https://github.com/ggerganov/ggml)
-*   [Ollama](https://ollama.com)
-*   [Ollamac](https://github.com/kevinhermawan/Ollamac)
+* [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
+* [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
+* [ggml GitHub Repository](https://github.com/ggerganov/ggml)
+* [Ollama](https://ollama.com)
+* [Ollamac](https://github.com/kevinhermawan/Ollamac)

@@ -38,8 +38,6 @@ Link encryption（也称为 **online encryption**）在 **Data Link Layer** 运�
 
 这是一个细微但关键的区别：
 
-
-
 | 位置 | 数据状态 |
 |---|---|
 | 在线路中（节点之间） | **Ciphertext** ✅ |
@@ -52,6 +50,7 @@ Link encryption（也称为 **online encryption**）在 **Data Link Layer** 运�
 这是 link encryption 的**最大漏洞**：每个中间节点都成为潜在的攻击面。攻击者只要攻破任何中间节点，就能完全访问 **plaintext** 数据。
 
 这与以下形成对比：
+
 - **Node encryption**：每个节点使用安全的硬件模块，因此 **plaintext** 永不在可读内存中暴露
 - **End-to-end encryption**：数据从发送方一直加密到最终接收方；中间节点仅看到 **ciphertext**
 

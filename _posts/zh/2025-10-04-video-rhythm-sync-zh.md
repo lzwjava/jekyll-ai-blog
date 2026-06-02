@@ -15,13 +15,16 @@ type: note
 是的，CapCut允许您调整视频速度（加快或减慢）来创造与音乐节拍完美同步的节奏效果，例如在高能量段落加速，在戏剧性停顿处减速。这通常通过速度渐变（或称"速率"特效）结合自动节拍检测来实现精准计时。CapCut内置的工具让这一过程变得简单直观，特别是其AI辅助的自动同步功能。
 
 ## 节奏匹配的核心功能
+
 CapCut提供：
+
 - **自动节拍检测**：通过可视标记自动标注音乐节拍，帮助您对齐视频剪辑点或速度变化点
 - **速度调节**：基础匀速变化（如2倍速或0.5倍慢速）或基于曲线的渐变速度实现平滑过渡
 - **速率特效**：支持根据音频波形动态调整速度的高级工具，特别适合音乐视频或抖音的节奏同步
 这些功能在CapCut移动端和PC端均可使用[1][2]
 
 ## 实现完美同步的步骤指南
+
 按照以下步骤导入视频、添加音乐、检测节拍并应用速度变化，即可实现精准匹配。整个过程均使用CapCut免费功能。
 
 1. **创建新项目并导入素材**：
@@ -55,6 +58,7 @@ CapCut提供：
    - 按需选择导出分辨率（如社交媒体常用的1080p）
 
 ## 完美同步实用技巧
+
 - **短片练习**：先用10-15秒片段测试速度与节拍的配合效果，再扩展至完整视频
 - **手动微调**：若自动检测遗漏细微节奏，可在关键点手动添加标记（点击音频轨道的"+"）
 - **常见问题**：采样率不匹配可能导致音画偏移，请确保使用高质量音源（如44.1kHz）。复杂节奏可分层处理多个不同速度的片段
@@ -63,11 +67,11 @@ CapCut提供：
 此方法可达到接近专业级的效果，如同热门抖音视频或音乐剪辑。需要视觉演示可参考YouTube教程（搜索"CapCut速率同步教程"）。移动端与PC端操作步骤类似，界面略有差异[2][3]
 
 引用来源：
-[1] https://www.youtube.com/watch?v=LKeyhTQMFoE
-[2] https://www.youtube.com/watch?v=wZ5TBRmoojs
-[3] https://www.youtube.com/watch?v=jnkatfFlDL4
-[4] https://www.youtube.com/watch?v=PfDzd4ApSFE
-[5] https://www.tiktok.com/@ugcwithjen/video/7291304045585747201?lang=en
-[6] https://www.reddit.com/r/CapCut/comments/1d13kbl/how_to_time_clips_with_beat/
-[7] https://www.youtube.com/watch?v=SMV59dlwRRs
-[8] https://www.capcut.com/resource/how-to-sync-audio-and-video
+[1] <https://www.youtube.com/watch?v=LKeyhTQMFoE>
+[2] <https://www.youtube.com/watch?v=wZ5TBRmoojs>
+[3] <https://www.youtube.com/watch?v=jnkatfFlDL4>
+[4] <https://www.youtube.com/watch?v=PfDzd4ApSFE>
+[5] <https://www.tiktok.com/@ugcwithjen/video/7291304045585747201?lang=en>
+[6] <https://www.reddit.com/r/CapCut/comments/1d13kbl/how_to_time_clips_with_beat/>
+[7] <https://www.youtube.com/watch?v=SMV59dlwRRs>
+[8] <https://www.capcut.com/resource/how-to-sync-audio-and-video>

@@ -26,8 +26,8 @@ type: note
 
 **参考资料：**
 
-- https://blogs.loc.gov/music/2020/04/the-unpopular-opinions-of-glenn-gould-or-how-mozart-became-a-bad-composer/
-- https://www.openculture.com/2020/10/glenn-gould-explains-why-mozart-was-a-bad-composer-in-a-controversial-public-tv-show-1968.html
-- https://www.youtube.com/watch?v=1wLMdi8R4qg（1968年电视节目完整版：《莫扎特如何成为一名糟糕的作曲家》）
-- https://www.azquotes.com/author/22110-Glenn_Gould（引语集，包括“莫扎特死得太晚而不是太早”）
-- https://glenngould.com/music/mozart-piano-sonatas-vol-1/（古尔德关于早期奏鸣曲的笔记）
+- <https://blogs.loc.gov/music/2020/04/the-unpopular-opinions-of-glenn-gould-or-how-mozart-became-a-bad-composer/>
+- <https://www.openculture.com/2020/10/glenn-gould-explains-why-mozart-was-a-bad-composer-in-a-controversial-public-tv-show-1968.html>
+- <https://www.youtube.com/watch?v=1wLMdi8R4qg（1968年电视节目完整版：《莫扎特如何成为一名糟糕的作曲家》）>
+- <https://www.azquotes.com/author/22110-Glenn_Gould（引语集，包括“莫扎特死得太晚而不是太早”）>
+- <https://glenngould.com/music/mozart-piano-sonatas-vol-1/（古尔德关于早期奏鸣曲的笔记）>

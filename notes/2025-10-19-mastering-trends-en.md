@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Why It's Tough and Why It Matters
+
 Grasping megatrends (like AI acceleration, climate shifts, or demographic changes), macroeconomics (inflation cycles, interest rates, supply chains), and global trends (geopolitics, tech disruptions) feels overwhelming as an individual because it's vast, fast-moving, and often buried in jargon. The good news? You don't need to be an expert overnight—consistent, bite-sized habits build intuition over time. This pays off hugely: for career growth (spotting in-demand skills), stock investing (betting on thematic winners), and life choices (like relocating or upskilling).
 
 ### Step-by-Step: How to Get Better at It
+
 Focus on **simplicity, curiosity, and application**. Aim for 30-60 minutes a day, 3-4 times a week. Here's a practical framework:
 
 1. **Build Foundations Without Overload**
@@ -37,11 +39,13 @@ Focus on **simplicity, curiosity, and application**. Aim for 30-60 minutes a day
    - Pro move: Set "trend alerts" via Google or tools like Feedly for keywords like "deglobalization" or "renewable boom."
 
 ### Tailoring to Your Goals
+
 - **Career Growth**: Align with megatrends like green tech or biotech. Scan reports for "jobs of the future" (e.g., roles in EV supply chains). Action: Update LinkedIn with trend-related keywords; network at industry webinars.
 - **Stock Investing**: Focus on "thematic" plays over single stocks—ETFs tracking AI, clean energy, or emerging markets. Understand macro via yield curves or PMI indexes for timing. Start small: Allocate 10-20% of portfolio to trends; use free screeners to spot undervalued plays.
 - **Life Choices**: Use trends for big decisions, like moving to climate-resilient cities or choosing family planning amid demographics. Example: If remote work persists, prioritize flexible skills over location-locked jobs.
 
 ### Recommended Resources
+
 Start here—these are timeless yet updated for 2025 vibes:
 
 - **Books for Basics**:

@@ -37,19 +37,24 @@ FFmpeg is a comprehensive multimedia framework that can decode, encode, transcod
 #### SRS Server Setup
 
 1. **Install SRS**: Clone the SRS repository from GitHub and compile it with SSL support.
+
     ```sh
     git clone https://github.com/ossrs/srs.git
     cd srs/trunk
     ./configure --disable-all --with-ssl
     make
     ```
+
 2. **Configure SRS**: Edit the `conf/rtmp.conf` file to configure your RTMP settings.
+
     ```sh
     listen 1935;
     max_connections 1000;
     vhost __defaultVhost__ { }
     ```
+
 3. **Start SRS**: Run the SRS server with your configuration file.
+
     ```sh
     ./objs/srs -c conf/rtmp.conf
     ```
@@ -58,10 +63,13 @@ FFmpeg is a comprehensive multimedia framework that can decode, encode, transcod
 
 1. **Install FFmpeg**: Install FFmpeg from the official website or through your package manager.
 2. **Stream with FFmpeg**: Use FFmpeg to push a video stream to your SRS server.
+
     ```sh
     ffmpeg -re -i input_video.flv -vcodec copy -acodec copy -f flv rtmp://your_server_ip/live/stream_key
     ```
+
 3. **Automate Streaming**: Create a script to continuously stream a video file.
+
     ```sh
     for ((;;)); do
         ffmpeg -re -i input_video.flv -vcodec copy -acodec copy -f flv rtmp://your_server_ip/live/stream_key;
@@ -72,24 +80,29 @@ FFmpeg is a comprehensive multimedia framework that can decode, encode, transcod
 ### Protocols and Formats
 
 **RTMP (Real-Time Messaging Protocol)**
+
 - RTMP is widely used for live streaming due to its low latency and reliable transmission.
 - It uses TCP and can maintain a persistent connection, ensuring smooth streaming.
 
 **HLS (HTTP Live Streaming)**
+
 - HLS breaks the video stream into small HTTP-based file segments, making it easy to deliver over standard web servers.
 - It introduces latency but is highly compatible with various devices and platforms.
 
 **HTTP-FLV**
+
 - Combines the FLV format with HTTP delivery for low-latency streaming.
 - Useful for browser-based streaming as it leverages existing HTTP infrastructure.
 
 ### Practical Applications
 
 **iOS and Android Streaming**
+
 - Use libraries like VideoCore and Ijkplayer to implement RTMP streaming on mobile devices.
 - Integrate FFmpeg for encoding and decoding tasks to enhance compatibility and performance.
 
 **Web-Based Streaming**
+
 - Implement video playback on web pages using HTML5 video elements with HLS or HTTP-FLV.
 - Utilize WebRTC for real-time communication and low-latency interactions.
 

@@ -100,7 +100,7 @@ type: note
 
    每次使用官方更新指南：
 
-   https://update.angular.dev/
+   <https://update.angular.dev/>
 
    在每个步骤运行 `ng update @angular/cli@next @angular/core@next`，并一次修复一个版本。
 
@@ -142,7 +142,7 @@ type: note
 
 **参考：**
 
-- https://stackoverflow.com/questions/73197135/angular-14-ng-serve-error-ngtools-webpack-src-ivy-index-js-error-maximum
-- https://github.com/angular/angular-cli/issues/26969
-- https://github.com/angular/angular-cli/issues/23597
-- https://github.com/angular/angular-cli/issues/23814
+- <https://stackoverflow.com/questions/73197135/angular-14-ng-serve-error-ngtools-webpack-src-ivy-index-js-error-maximum>
+- <https://github.com/angular/angular-cli/issues/26969>
+- <https://github.com/angular/angular-cli/issues/23597>
+- <https://github.com/angular/angular-cli/issues/23814>

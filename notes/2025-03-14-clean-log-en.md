@@ -175,30 +175,30 @@ Here's a breakdown of the code:
 - `lines_to_compare`: An integer specifying the number of consecutive lines to compare for similarity.
 
 - **Input Handling:**
-    - Reads lines from the input file or stdin.
-    - Handles `FileNotFoundError` if the input file does not exist.
+  - Reads lines from the input file or stdin.
+  - Handles `FileNotFoundError` if the input file does not exist.
 
 - **Output Handling:**
-    - Opens the output file for writing or uses stdout.
-    - Handles `IOError` if the output file cannot be opened.
+  - Opens the output file for writing or uses stdout.
+  - Handles `IOError` if the output file cannot be opened.
 
 - **Duplicate Removal Logic:**
-    - Iterates through the lines of the log file in chunks of `lines_to_compare`.
-    - For each chunk:
-        - Splits each line into parts based on the " | " delimiter, expecting four parts: level, timestamp, thread, and message.
-        - If a line doesn't have four parts, it's considered a "non-standard" line and is printed to the output without comparison.
-        - If all lines in the current chunk are standard, it compares them to the next `lines_to_compare` lines.
-        - It uses `SequenceMatcher` to calculate the similarity ratio between the joined strings of the current and next chunks' thread and message parts.
-        - If the similarity ratio is less than the `similarity_threshold`, the current chunk of lines is printed to the output.
-        - If the similarity ratio is greater than or equal to the `similarity_threshold`, the current chunk of lines is considered a duplicate and is skipped.
-    - Handles the remaining lines at the end of the file (less than `lines_to_compare` lines).
+  - Iterates through the lines of the log file in chunks of `lines_to_compare`.
+  - For each chunk:
+    - Splits each line into parts based on the " | " delimiter, expecting four parts: level, timestamp, thread, and message.
+    - If a line doesn't have four parts, it's considered a "non-standard" line and is printed to the output without comparison.
+    - If all lines in the current chunk are standard, it compares them to the next `lines_to_compare` lines.
+    - It uses `SequenceMatcher` to calculate the similarity ratio between the joined strings of the current and next chunks' thread and message parts.
+    - If the similarity ratio is less than the `similarity_threshold`, the current chunk of lines is printed to the output.
+    - If the similarity ratio is greater than or equal to the `similarity_threshold`, the current chunk of lines is considered a duplicate and is skipped.
+  - Handles the remaining lines at the end of the file (less than `lines_to_compare` lines).
 
 - **Statistics:**
-    - Keeps track of the number of removed lines.
-    - Prints the number of removed lines to the console.
+  - Keeps track of the number of removed lines.
+  - Prints the number of removed lines to the console.
 
 - **File Closing:**
-    - Closes the output file if it was opened.
+  - Closes the output file if it was opened.
 
 **3. `is_valid_similarity_threshold` function:**
 
@@ -210,10 +210,10 @@ Here's a breakdown of the code:
 - This block is executed when the script is run from the command line.
 - It uses `argparse` to create a command-line argument parser.
 - It defines the following arguments:
-    - `input_path`: The path to the input log file (optional).
-    - `-o` or `--output_path`: The path to the output log file (optional).
-    - `-s` or `--similarity`: The similarity threshold (default: 1.0).
-    - `-l` or `--lines`: The number of lines to compare (default: 1).
+  - `input_path`: The path to the input log file (optional).
+  - `-o` or `--output_path`: The path to the output log file (optional).
+  - `-s` or `--similarity`: The similarity threshold (default: 1.0).
+  - `-l` or `--lines`: The number of lines to compare (default: 1).
 - It parses the command-line arguments using `parser.parse_args()`.
 - It calls the `clean_log` function with the parsed arguments.
 

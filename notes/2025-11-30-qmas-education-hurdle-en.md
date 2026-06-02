@@ -17,6 +17,7 @@ Based on the details you've provided and the latest QMAS guidelines (as of Novem
 QMAS targets skilled professionals like you in IT/software engineering, especially with the 2025 Talent List expansion to 60 professions—including "software developers," "veteran systems architects," data scientists, and AI specialists—which could grant you a 30-point bonus (or automatic pass if aligned perfectly). Your full-stack, mobile, and ML experience fits well, but let's quantify it.
 
 #### 1. **Prerequisites: Do You Meet the Basics?**
+
 These are non-negotiable; failing any disqualifies you. Based on your profile:
 
 | Prerequisite | Your Status | Assessment |
@@ -32,6 +33,7 @@ These are non-negotiable; failing any disqualifies you. Based on your profile:
 **Verdict on Prerequisites**: You're close, but education is the blocker. Without it, no points test. ~78% of past approvals were mainland applicants, so it's doable if you fix this.
 
 #### 2. **Points Test: Estimated Score Under General Points Test (GPT)**
+
 QMAS uses GPT for most (ABPT is for elites like Nobel winners—you're not there). Minimum pass: 80/245, but top shortlists are 120-150+. Talent List match gives +30 points (not 50 as I previously noted—updated 2025 rules confirm 30 for eligible professions). Your software dev/full-stack role likely qualifies.
 
 Here's my conservative estimate based on your details (max per category shown; actuals depend on ImmD verification):
@@ -50,6 +52,7 @@ Here's my conservative estimate based on your details (max per category shown; a
 ABPT? Unlikely—needs global accolades (e.g., Olympic-level or Fortune 500 C-suite). Your NOIP top 300/1,000 problems solved and hackathon prize are impressive but not "exceptional achievement" tier.
 
 #### 3. **Strengths: What Makes You Stand Out**
+
 - **Technical Depth & Relevance**: 11 years in high-demand areas (full-stack, mobile, ML/big data, cloud on Alibaba/AWS/Azure) directly matches Hong Kong's tech/fintech needs. Portfolio shows real impact (e.g., HSBC microservices, PayMe auto-top-up with Kafka/Redis). NOIP/algorithm background + 10 OSS projects demonstrate innovation.
 - **Self-Driven Profile**: 320+ books read, 2,000 AI answers digested, 400 blog posts (60k views/year), and knowledge-sharing (e.g., corporate docs, AI-assisted grammar) show continuous learning—ImmD loves this for "quality migrant" vibe.
 - **Entrepreneurial Edge**: Product mindset (500+ apps tested), autonomous AI agent work, and life-hacking (e.g., gadgets, travel with 60+ English tutors) portray you as adaptable/innovative. Your myopia research papers (3 years experimentation) add a research angle, potentially tying into health-tech on Talent List.
@@ -57,6 +60,7 @@ ABPT? Unlikely—needs global accolades (e.g., Olympic-level or Fortune 500 C-su
 - **Holistic Fit**: At 30, you're young talent for long-term contribution. No job offer needed—arrive and job-hunt in HK's tech scene (e.g., Cyberport hubs).
 
 #### 4. **Weaknesses & What's Missing: Key Gaps to Address**
+
 - **Education/Qualifications (Critical Fix)**: This is your Achilles' heel. Self-taught associate (9 courses) isn't enough without a formal diploma or credential. Missing: Complete the associate degree ASAP (aim for award within 6 months) or get certified (e.g., Google Professional Cloud Developer, Oracle Java cert, or AWS/ML specialty—these count as "equivalent technical quals"). If possible, petition for recognition of your university year + experience via ImmD pre-assessment.
 - **Documentation for Freelance/Experience**: 3 freelance years need ironclad proof (tax records, client letters, income statements) to count fully toward 11 years.
 - **Family Details**: Unclear on spouse's quals (for extra points) or daughter's age/status. If including them, budget for their financial proof.
@@ -66,6 +70,7 @@ ABPT? Unlikely—needs global accolades (e.g., Olympic-level or Fortune 500 C-su
 - **Mainland Logistics**: Consent letter could delay; start networking with ex-employers now.
 
 #### 5. **Recommendations & Next Steps**
+
 - **Suitability Verdict**: Yes, pursue it—you're 70-80% there, especially with tech alignment. Odds: 20-30% if education fixed and score >130. Better than average for IT applicants, but apply soon (next exercise likely Q1 2026).
 - **Action Plan**:
   1. **Fix Education (1-3 months)**: Finish associate degree or get 1-2 industry certs. Consult ImmD via email for pre-qual check.
@@ -77,6 +82,7 @@ ABPT? Unlikely—needs global accolades (e.g., Olympic-level or Fortune 500 C-su
 Your profile screams "quality migrant"—tech-savvy, prolific, and entrepreneurial. Nail the education, and you're golden. If you share more (e.g., exact associate progress, income, family details), I can refine this.
 
 **References**:
+
 - [Quality Migrant Admission Scheme - Wikipedia](https://en.wikipedia.org/wiki/Quality_Migrant_Admission_Scheme)
 - [Hong Kong SAR: Key Updates for TTPS and QMAS](https://www.fragomen.com/insights/hong-kong-sar-key-updates-for-top-talent-pass-scheme-and-quality-migrant-scheme-introduced.html)
 - [Talent List Hong Kong](https://www.talentlist.gov.hk/en/talentlist.html)

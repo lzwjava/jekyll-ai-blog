@@ -161,7 +161,7 @@ He represents a specific type of tech leader:
 
 He builds **systems**, not just apps.
 
-### 3. bridge between:
+### 3. bridge between
 
 * big tech scale
 * startup speed

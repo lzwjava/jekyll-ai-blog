@@ -19,22 +19,26 @@ The entire essay uses **tree planting as an extended analogy for governing peopl
 ### The Analogical Structure
 
 **1. Basic principle:**
+
 - Tree planting → Governing people
 - "Following the nature of trees to fulfill their natural tendencies" (顺木之天，以致其性)
 - ↓↓↓ analogous to ↓↓↓
 - "Following the nature of people to fulfill their natural tendencies" (顺民之天以致民之性)
 
 **2. The caring approach:**
+
 - "When planting, treat them like children" (其莳也若子)
 - ↓↓↓ analogous to ↓↓↓
 - Officials should care for and protect the common people
 
 **3. The hands-off approach:**
+
 - "Once planted, leave them as if abandoned" (其置也若弃)
 - ↓↓↓ analogous to ↓↓↓
 - Let the people rest and recuperate without excessive interference (休养生息)
 
 **4. The negative example:**
+
 - "Other planters love too deeply, worry too frequently" (爱之太殷，忧之太勤)
 - ↓↓↓ analogous to ↓↓↓
 - "Those in authority issue too many troublesome orders" (长人者好烦其令)
@@ -42,6 +46,7 @@ The entire essay uses **tree planting as an extended analogy for governing peopl
 ## Layer-by-Layer Analogy (层层类比，环环相应)
 
 The essay systematically corresponds every aspect of tree cultivation to governance:
+
 - By explaining tree planting principles thoroughly
 - The principles of governing people are also made clear
 - This creates a complete, coherent argumentative structure

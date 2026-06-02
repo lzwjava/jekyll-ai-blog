@@ -11,6 +11,7 @@ type: note
 It seems like you’re asking about what happens when someone falls overboard during sailing and how sailors (or "sporters") handle this situation or other accidents. I’ll assume you mean a recreational or competitive sailor rather than a professional mariner, and I’ll break this down into clear steps and considerations based on standard sailing practices.
 
 ### Falling Overboard: What Happens and How It’s Handled
+
 When a sailor falls into the sea (a "man overboard" or MOB situation), it’s a serious emergency that requires quick, coordinated action. Here’s how it’s typically managed:
 
 1. **Immediate Alert**
@@ -39,32 +40,36 @@ When a sailor falls into the sea (a "man overboard" or MOB situation), it’s a 
    - If it’s a race, the team might continue; in recreational sailing, they might head to shore.
 
 ### Other Common Sailing Accidents and Responses
+
 Sailing involves other risks beyond falling overboard. Here’s how sailors handle them:
 
 - **Collision (with another boat or object)**
-   - **Response**: Assess damage (e.g., hull breach), deploy fenders or patch leaks, and signal for help if sinking is a risk. In races, collisions might lead to disqualification or protests.
-   - **Prevention**: Use radar, charts, and lookouts to avoid obstacles.
+  - **Response**: Assess damage (e.g., hull breach), deploy fenders or patch leaks, and signal for help if sinking is a risk. In races, collisions might lead to disqualification or protests.
+  - **Prevention**: Use radar, charts, and lookouts to avoid obstacles.
 
 - **Capsizing (boat tips over)**
-   - **Response**: Small boats (like dinghies) can often be righted by the crew standing on the keel and pulling lines. Larger boats might require external assistance or abandoning ship if they can’t be stabilized.
-   - **Prevention**: Proper sail management and weight distribution reduce this risk.
+  - **Response**: Small boats (like dinghies) can often be righted by the crew standing on the keel and pulling lines. Larger boats might require external assistance or abandoning ship if they can’t be stabilized.
+  - **Prevention**: Proper sail management and weight distribution reduce this risk.
 
 - **Boom Strike (hit by swinging sail arm)**
-   - **Response**: Treat head injuries or knockouts immediately—first aid kits are essential. If severe, call for a coast guard rescue.
-   - **Prevention**: Duck during tacks or jibes and wear helmets in rough conditions.
+  - **Response**: Treat head injuries or knockouts immediately—first aid kits are essential. If severe, call for a coast guard rescue.
+  - **Prevention**: Duck during tacks or jibes and wear helmets in rough conditions.
 
 - **Rope Entanglement or Gear Failure**
-   - **Response**: Cut tangled lines if someone’s trapped, or jury-rig broken equipment (e.g., a snapped mast) to limp to safety.
-   - **Prevention**: Regular maintenance and careful line handling.
+  - **Response**: Cut tangled lines if someone’s trapped, or jury-rig broken equipment (e.g., a snapped mast) to limp to safety.
+  - **Prevention**: Regular maintenance and careful line handling.
 
 ### Safety Gear and Training
+
 Sailors rely heavily on preparation to manage accidents:
+
 - **Life Jackets/PFDs**: Worn at all times, especially in rough weather or solo sailing.
 - **Harnesses and Tethers**: Clip to the boat to prevent falling off in the first place.
 - **EPIRB/PLB**: Emergency beacons to signal distress to rescue services.
 - **Training**: Courses like the U.S. Sailing Safety at Sea or RYA programs teach MOB drills and accident response.
 
 ### Real-World Context
+
 In competitive sailing (e.g., America’s Cup), teams practice MOB scenarios relentlessly, as seconds matter. For solo sailors (e.g., Vendée Globe racers), falling overboard is often fatal unless they’re tethered, as no one’s there to help. Recreational sailors might be less rigorous but still follow basic protocols.
 
 If you’re picturing a specific scenario—like a storm or a race—let me know, and I can refine the answer further!

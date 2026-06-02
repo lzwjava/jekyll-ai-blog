@@ -13,7 +13,7 @@ type: note
 
 **答案：**
 
-**firefox-decrypt**（最常指 https://github.com/unode/firefox_decrypt）是一个流行的开源 Python 脚本，旨在从基于 Mozilla 的浏览器/邮件配置文件中提取和解密保存的密码。
+**firefox-decrypt**（最常指 <https://github.com/unode/firefox_decrypt）是一个流行的开源> Python 脚本，旨在从基于 Mozilla 的浏览器/邮件配置文件中提取和解密保存的密码。
 
 它支持：
 
@@ -77,7 +77,7 @@ python3 firefox_decrypt.py /path/to/your/profile
 
 ### 值得了解的替代方案
 
-- **firepwd.py** (https://github.com/lclevy/firepwd) — 纯 Python，无 NSS 依赖，非常适合学习
+- **firepwd.py** (<https://github.com/lclevy/firepwd>) — 纯 Python，无 NSS 依赖，非常适合学习
 - **NSS-based tools** — 使用真实的 Mozilla NSS 库（pwdecrypt、modutil 等）
 - **LaZagne** — 多浏览器密码提取器（包含 Firefox 模块）
 - GUI 工具：PasswordFox (NirSoft)、Browser Password Recovery 工具

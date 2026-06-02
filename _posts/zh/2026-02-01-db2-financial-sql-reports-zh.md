@@ -194,6 +194,6 @@ END
 
 参考文献：
 
-- https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=procedures-example-simple-stored-procedure
-- https://medium.com/@lomso.dzingwa/automating-financial-reporting-with-sql-stored-procedures-cae13bf98d35
-- https://www.experts-exchange.com/questions/24573782/AS400-DB2-Query-To-Group-Date-By-Year-Month-and-Day.html
+- <https://www.ibm.com/docs/en/db2-for-zos/12.0.0?topic=procedures-example-simple-stored-procedure>
+- <https://medium.com/@lomso.dzingwa/automating-financial-reporting-with-sql-stored-procedures-cae13bf98d35>
+- <https://www.experts-exchange.com/questions/24573782/AS400-DB2-Query-To-Group-Date-By-Year-Month-and-Day.html>

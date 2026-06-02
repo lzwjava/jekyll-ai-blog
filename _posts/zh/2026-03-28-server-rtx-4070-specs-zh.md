@@ -21,6 +21,7 @@ type: note
 | **Utilization** | 0% |
 
 **理论 FLOPS (RTX 4070):**
+
 - **FP32:** ~29.1 TFLOPS
 - **FP16:** ~58.2 TFLOPS
 - **Tensor Cores (FP16, sparse):** ~233 TFLOPS

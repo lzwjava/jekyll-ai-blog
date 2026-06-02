@@ -29,6 +29,7 @@ RIP's roots trace back to early distance-vector routing concepts:
 - In 1988, RIP was standardized for IP networks in **RFC 1058** as **RIPv1** (classful routing, no subnet mask support, broadcast updates).
 
 Due to limitations in RIPv1 (e.g., no support for variable-length subnet masking, security vulnerabilities, and inefficient broadcasts), **RIPv2** was developed in 1993, published in 1994, and standardized in 1998 (RFC 2453). Key improvements included:
+
 - Classless routing (support for subnet masks and CIDR).
 - Multicast updates (to address 224.0.0.9) instead of broadcasts.
 - Authentication for security.
@@ -45,12 +46,14 @@ In networking, routers must know how to forward packets to destinations beyond d
 - Networks couldn't scale or self-heal dynamically.
 
 RIP addresses this by providing **dynamic routing**:
+
 - Routers automatically share and learn routes from neighbors.
 - It enables automatic discovery and maintenance of paths using a simple metric (hop count).
 - It prevents routing loops via the 15-hop limit and mechanisms like split horizon and route poisoning.
 - It is easy to configure and requires minimal resources, making it ideal for small to medium-sized networks.
 
 RIP was essential in early IP networks for enabling automated, distributed routing without complex configuration. Even today, it is used in:
+
 - Small or legacy networks.
 - Educational environments to teach routing concepts.
 - Scenarios prioritizing simplicity over advanced features.

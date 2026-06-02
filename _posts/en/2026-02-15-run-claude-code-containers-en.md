@@ -18,6 +18,7 @@ Answer:
 Here are the main practical ways people run it in 2026 (local container or cloud / VPS):
 
 ### 1. Quickest & Recommended: Use Docker Sandbox (local or cloud VM)
+
 Docker introduced built-in support for running coding agents like Claude Code in isolated sandboxes.
 
 ```bash
@@ -30,6 +31,7 @@ docker sandbox run claude ~/my-project
 - Very low setup effort
 
 You can also pass a prompt directly:
+
 ```bash
 docker sandbox run claude -- "refactor this API client to use async/await"
 ```
@@ -37,11 +39,12 @@ docker sandbox run claude -- "refactor this API client to use async/await"
 Works on Mac, Windows, Linux.
 
 ### 2. Run inside VS Code Dev Container (very popular & secure)
+
 Most developer-oriented way:
 
 1. Install **Docker Desktop** + **VS Code** + **Dev Containers** extension
 2. Use Anthropic's official template or community ones:
-   - https://github.com/anthropics/claude-code (look for `.devcontainer` folder)
+   - <https://github.com/anthropics/claude-code> (look for `.devcontainer` folder)
    - Many community forks / templates exist (search "claude code devcontainer")
 3. Open folder → "Reopen in Container"
 4. Claude Code runs inside the container with strong isolation
@@ -52,6 +55,7 @@ This setup is frequently used for long-running agents.
 ### 3. Plain Docker container (DIY / cloud VPS friendly)
 
 Minimal example Dockerfile:
+
 ```dockerfile
 FROM ubuntu:24.04
 
@@ -67,6 +71,7 @@ CMD ["claude"]
 ```
 
 Build & run:
+
 ```bash
 docker build -t claude-code .
 docker run -it --rm \
@@ -76,19 +81,23 @@ docker run -it --rm \
 ```
 
 On a **cloud VPS** (RunPod, Hostinger, AWS EC2, DigitalOcean, etc.):
+
 - SSH into the server
 - Install Docker
 - Use one of the above methods
 - Many people use `tmux` + `claude` or expose via **ShellHub** / Tailscale for remote access from phone/laptop
 
 ### 4. Cloud-specific / managed sandbox options
+
 - **Cloudflare Sandboxes** → run Claude Code via their sandbox SDK
 - **E2B**, **Daytona**, **Vercel Sandbox**, **Fly Machines** — offer managed secure containers for AI agents
 - **RunPod** — popular for GPU pods + Claude Code setups (good templates exist)
 - **AWS ECS Fargate** / **Google Cloud Run** — containerize Claude Code and run serverless / always-on
 
 ### 5. If you want fully local models (no Anthropic API)
+
 Some people replace the Anthropic backend with local models via **Docker Model Runner** or Ollama + Anthropic-compatible endpoint:
+
 ```bash
 ANTHROPIC_BASE_URL=http://localhost:12434 claude --model your-local-model ...
 ```
@@ -98,6 +107,7 @@ But most people still use real Claude models (Sonnet 3.7 / Opus 4 / etc.) via AP
 **Security note**: Always run Claude Code in a container — never directly on your main machine with dangerous flags, especially if giving it long-running / autonomous tasks.
 
 Choose method depending on your goal:
+
 - Quick & local → `docker sandbox run claude`
 - Development workflow → VS Code Dev Container
 - 24/7 cloud agent → VPS + Docker or managed sandbox (E2B, Cloudflare, RunPod)

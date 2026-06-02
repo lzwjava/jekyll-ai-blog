@@ -165,6 +165,7 @@ type: note
 遵循本指南，您将构建可扩展、可维护的多区域软件。请记住，“最佳方式”是不断发展的——定期审查和重构。
 
 ## 参考资料
+
 - [AWS 多区域应用最佳实践](https://aws.amazon.com/architecture/multi-region/)
 - [使用 Google Cloud 构建多区域应用](https://cloud.google.com/solutions/building-multi-region-applications)
 - [多区域架构最佳实践](https://www.cloudflare.com/learning/cloud/multi-region-architecture/)

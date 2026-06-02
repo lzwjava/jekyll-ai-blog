@@ -14,7 +14,7 @@ Question: Give a comprehensive introduction to Honeywell company.
 
 Answer:
 
-# Comprehensive Introduction to Honeywell International Inc.
+# Comprehensive Introduction to Honeywell International Inc
 
 Honeywell International Inc. 是一家总部位于 **美国北卡罗来纳州夏洛特 (Charlotte, North Carolina, USA)** 的跨国集团公司。截至 2026 年初，它作为一家领先的技术和制造公司运营，专注于 automation（自动化）、aviation（航空）和 energy transition（能源转型）领域的解决方案。该公司在 Nasdaq 上市（股票代码：HON），是 Dow Jones Industrial Average（道琼斯工业平均指数）、S&P 500（标准普尔 500 指数）和 Nasdaq-100（纳斯达克 100 指数）等主要指数的成份股。
 

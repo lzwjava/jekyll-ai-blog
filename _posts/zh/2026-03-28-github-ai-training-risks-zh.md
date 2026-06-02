@@ -25,21 +25,26 @@ type: note
 
 ---
 
-## 是的，API keys 和 secrets 确实会泄露 —— 方式如下：
+## 是的，API keys 和 secrets 确实会泄露 —— 方式如下
 
 ### 1. 直接训练数据暴露
+
 如果 developer 在 script 中硬编码了 API key，一旦进入 Copilot 的训练过程，它就可能变得容易被暴露。此外，一旦 key 被嵌入到训练数据中，仅仅从 repository 中识别并删除 secret 已不足以防止泄露 —— 它仍会被模型记住。
 
 ### 2. 本地文件上下文（甚至包括 `.env` 文件！）
+
 Copilot 会处理工作目录（working directory）中的任何内容。目前没有内置机制可以排除敏感文件。如果你在项目中有 API keys、database credentials 或 secrets —— 即使它们位于被 gitignore 的 `.env` 文件中 —— Copilot 在活动期间仍然可以看到它们，因为它读取的是你的本地文件，而不只是 git 中的内容。
 
 ### 3. 已证实的 Secret 泄露率
+
 GitGuardian 的研究发现，在抽样的约 20,000 个激活了 Copilot 的 repositories 中，超过 1,200 个泄露了至少一个 secret —— 发生率为 6.4%，这比在所有 public repositories 中观察到的比例高出 40%。
 
 ### 4. 模型可以向其他用户复现 Secrets
+
 研究结果表明，这些模型不仅会泄露其训练数据中存在的原始 secrets，还会建议在训练語料库其他地方遇到的其他 secrets —— 从而将敏感信息暴露给完全不同的用户。
 
 ### 5. 真实漏洞：CamoLeak Vulnerability
+
 一个被称为 CamoLeak 的严重漏洞（CVSS 评分 9.6）允许攻击者在 pull requests 内部不可见的 markdown comments 中隐藏恶意 prompts，诱导 Copilot Chat 在 repo 中搜索 API keys 和 tokens，然后通过隐蔽的图像加载通道（image-loading channel）逐个字符地外泄数据。GitHub 随后修补了这个特定的 attack vector，但它说明了暴露程度可能有多严重。
 
 ---

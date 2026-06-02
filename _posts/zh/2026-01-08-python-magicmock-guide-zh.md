@@ -23,6 +23,7 @@ Answer:
 `unittest.mock` 库（在 Python 3.3 中引入）允许你在测试期间用 mock objects 替换代码中的部分内容。这可以将 unit under test 与外部依赖项（如 databases、APIs、file systems）隔离开来。
 
 核心类：
+
 - `Mock`: 基础 mock object。
 - `MagicMock`: `Mock` 的子类，预先实现了 magic methods。
 

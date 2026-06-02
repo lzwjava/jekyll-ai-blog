@@ -24,6 +24,7 @@ iter 6000 → 3.2473  (delta -0.011)
 So the "iter 4000 flat" reading was noise, not the slow-progress regime — val resumed its decline. We've already blown past the ~3.30 target the snapshot put at the 5,000-iter stop (actual at 5000: **3.26**).
 
 Other vitals — all unchanged / nominal:
+
 - Step time **11.10–11.11 s/iter**, MFU **12.86%**
 - Checkpoints saved cleanly at 4500, 5000, 5500, 6000 (12 total now)
 - No errors, no slowdowns

@@ -88,6 +88,7 @@ systemctl restart openclaw-gateway.service
 | `plugins.allow is empty` | 无明确的插件信任列表 | 在配置中添加 `plugins.allow` 数组 |
 
 修复所有问题后，使用以下命令重启：
+
 ```bash
 systemctl restart openclaw-gateway.service
 ```

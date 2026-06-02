@@ -15,6 +15,7 @@ Is OpenRouter processing about 13 trillion tokens per **day or per week** recent
 Answer:
 
 ## 1. Is the **13 trillion tokens** figure per day or per week?
+
 The **13 trillion tokens** figure refers to **weekly token usage**, not daily.
 
 - In the **week ending February 9, 2026**, OpenRouter processed about **13 trillion tokens in a week**. citeturn0news12
@@ -26,6 +27,7 @@ Other reports confirm similar scale:
 - In **March 2025**, weekly usage was only **1.24 trillion tokens** for top models; by **February 2026**, it had risen to **~13.95 trillion tokens weekly**. citeturn0search5
 
 ### Approximate daily equivalent
+
 If the platform processes **13T tokens/week**:
 
 - **Daily ≈ 1.8T tokens/day**
@@ -40,6 +42,7 @@ So the correct interpretation is:
 ---
 
 # 2. Growth timeline (simplified)
+
 The growth has been extremely rapid.
 
 | Time | Weekly tokens |
@@ -59,9 +62,11 @@ This means:
 ---
 
 # 3. Why token usage grew so fast
+
 Several structural reasons explain the explosion.
 
 ## 1. AI agents replacing simple chat
+
 The biggest change is **agentic workflows**.
 
 Instead of:
@@ -83,6 +88,7 @@ Agent platforms such as autonomous coding tools and workflow automation systems 
 ---
 
 ## 2. Coding use cases dominate
+
 Programming tasks now consume **more than half of all tokens** on OpenRouter. citeturn0search7
 
 Examples:
@@ -97,6 +103,7 @@ These workflows require **long contexts and repeated calls**, dramatically incre
 ---
 
 ## 3. Much cheaper models
+
 Some models are **10–20× cheaper** than frontier models. citeturn0search3
 
 Example pricing comparison:
@@ -111,6 +118,7 @@ Lower cost → developers run **far more queries**.
 ---
 
 ## 4. Explosion of AI developer tools
+
 OpenRouter sits behind many tools:
 
 - coding IDE agents
@@ -125,9 +133,11 @@ That makes it a hub for **LLM infrastructure**, so usage grows with the entire e
 ---
 
 # 4. Projected token usage (next 2 years)
+
 No official forecast exists, but we can estimate using historical growth.
 
 ## Observed growth
+
 From 2025 → 2026:
 
 ```
@@ -154,6 +164,7 @@ Growth will likely **slow but remain very high**.
 | 2028 | ~120T |
 
 ### Aggressive scenario (agent explosion)
+
 If AI agents scale massively:
 
 - **>500T tokens/week by 2028**
@@ -161,6 +172,7 @@ If AI agents scale massively:
 ---
 
 # 5. Important perspective
+
 OpenRouter is only **one API gateway**, not the whole AI ecosystem.
 
 Large volumes also come from:
@@ -188,7 +200,7 @@ If you want, I can also show a **global estimate of total LLM tokens (OpenAI + A
 
 References:
 
-- https://www.businessinsider.com/openclaw-ai-demand-token-use-surge-nvidia-pricing-jumps-2026-2
-- https://dataconomy.com/2026/02/25/chinese-ai-models-hit-61-market-share-on-openrouter
-- https://eu.36kr.com/en/p/3700980530851712
-- https://gigazine.net/gsc_news/en/20251208-empirical-100-trillion-token-study
+- <https://www.businessinsider.com/openclaw-ai-demand-token-use-surge-nvidia-pricing-jumps-2026-2>
+- <https://dataconomy.com/2026/02/25/chinese-ai-models-hit-61-market-share-on-openrouter>
+- <https://eu.36kr.com/en/p/3700980530851712>
+- <https://gigazine.net/gsc_news/en/20251208-empirical-100-trillion-token-study>

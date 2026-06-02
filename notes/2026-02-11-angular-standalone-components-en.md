@@ -128,6 +128,7 @@ bootstrapApplication(AppComponent, {
 ### Mental Model – Think of Standalone Like This
 
 > A standalone component is like a small, self-contained mini-application:
+>
 > - It says “I need these pieces to work”
 > - Angular’s compiler bundles exactly those pieces
 > - No central “module registry” anymore
@@ -156,7 +157,7 @@ Standalone is not just a syntax — it’s Angular’s shift to a simpler, more 
 
 **References:**
 
-- https://angular.dev/guide/standalone-components
-- https://blog.angular.dev/introducing-standalone-components-58a418173aa3
-- https://blog.angular.dev/angular-v17-is-now-available-8c4c0d8d3169
-- https://angular.love/standalone-components-in-angular
+- <https://angular.dev/guide/standalone-components>
+- <https://blog.angular.dev/introducing-standalone-components-58a418173aa3>
+- <https://blog.angular.dev/angular-v17-is-now-available-8c4c0d8d3169>
+- <https://angular.love/standalone-components-in-angular>

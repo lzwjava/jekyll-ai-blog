@@ -22,24 +22,30 @@ oMLX is a native macOS inference server built on MLX, specifically optimized for
 The standout feature that distinguishes oMLX from alternatives like Ollama and LM Studio is its intelligent caching system. While Ollama and LM Studio cache the KV state in memory, when the context shifts mid-session — which happens constantly with coding agents — the entire cache gets invalidated and recomputed from scratch. oMLX persists every KV cache block to SSD, so previously cached portions are always recoverable, reducing TTFT (Time To First Token) from 30-90 seconds to under 5 seconds on long contexts.
 
 The cache operates in two tiers:
+
 - **Hot tier (RAM)**: Frequently accessed blocks remain in memory for fast access
 - **Cold tier (SSD)**: When the hot cache fills, blocks are offloaded to SSD in safetensors format and can be restored from disk instead of being recomputed
 
 ## Core Features
 
 ### Multi-Model Support
+
 oMLX supports text LLMs, vision-language models (VLM), OCR models, embeddings, and rerankers on Apple Silicon. Models are managed through automatic LRU eviction, manual load/unload controls, model pinning, and per-model TTL settings.
 
 ### Performance Optimization
+
 Continuous batching handles concurrent requests through mlx-lm's BatchGenerator, achieving up to 4.14× generation speedup at 8× concurrency. The system includes context scaling support specifically optimized for Claude Code.
 
 ### Native macOS Integration
+
 The application is a native PyObjC menubar app (not Electron) that allows users to start, stop, and monitor the server without opening a terminal. It includes persistent serving stats, auto-restart on crash, and in-app auto-update.
 
 ### Admin Dashboard
+
 A web UI at /admin provides real-time monitoring, model management, chat, benchmark, and per-model settings, supporting English, Korean, Japanese, and Chinese. The dashboard includes a built-in model downloader for searching and downloading MLX models from HuggingFace.
 
 ### API Compatibility
+
 oMLX serves as a drop-in replacement for OpenAI and Anthropic APIs, providing both OpenAI-compatible (/v1/chat/completions) and Anthropic-compatible (/v1/messages) API endpoints. It supports streaming, tool calling, structured output, and MCP (Model Context Protocol) integration.
 
 ## System Requirements

@@ -26,16 +26,19 @@ The mechanism operates on two key principles:
 NSA processes attention through three parallel branches that work together to create an efficient sparse attention pattern:[4]
 
 ### 1. **Compression Branch**
+
 This branch handles coarse-grained context aggregation by grouping consecutive tokens into blocks and compressing them into representative tokens. The compression mechanism reduces the number of tokens the model must attend to by creating summarized representations of token groups. For example, a 32,768-token sequence might be compressed down to approximately 2,046 compression tokens.[5]
 
 The compression uses learned gating mechanisms to determine how information from multiple tokens should be aggregated into single representative tokens, preserving global context awareness without the full computational burden.
 
 ### 2. **Selection Branch**
+
 This branch implements fine-grained token selection by dynamically identifying the most important tokens to attend to. Rather than attending to all tokens, the model computes importance scores and selectively attends only to tokens that are most relevant for the current query. This preserves local precision and captures critical details that might be lost through compression alone.
 
 The selection process is learned during training, allowing the model to adaptively determine which tokens carry the most information value for different contexts and tasks.[6]
 
 ### 3. **Sliding Window Branch**
+
 This branch maintains local context by allowing each token to attend to its immediate neighbors within a fixed window. This ensures that short-range dependencies are always captured, regardless of compression or selection decisions. The sliding window typically covers recent tokens within a defined radius.
 
 ## Mathematical Foundation
@@ -55,15 +58,19 @@ A critical innovation of NSA is its hardware-conscious design. Previous sparse a
 NSA achieves substantial speedups through:
 
 ### **Blockwise Memory Access Pattern**
+
 The algorithm organizes data into blocks that align with GPU memory hierarchies and Tensor Core operations. This maximizes coalesced memory loads and enables efficient use of GPU compute units.[3]
 
 ### **Arithmetic Intensity Balancing**
+
 The algorithm is designed to maintain high arithmetic intensity - the ratio of computation to memory access. This ensures GPUs remain compute-bound rather than memory-bound, maximizing hardware utilization.
 
 ### **Fused Kernel Implementation**
+
 NSA combines multiple operations into single fused kernels, eliminating redundant KV cache transfers and intermediate tensor materialization.[5] This dramatically reduces memory bandwidth requirements.
 
 ### **Optimized Loop Scheduling**
+
 Careful kernel-level optimization eliminates redundant memory operations and maximizes register reuse.
 
 ## Performance Gains
@@ -82,6 +89,7 @@ The speedup is particularly dramatic for longer sequences. For a 64k-token seque
 Unlike many previous sparse attention methods that only accelerated inference, **NSA enables end-to-end training, reducing pretraining computation without sacrificing model performance**[1]. The sparsity pattern is learned during training rather than being fixed or heuristic-based.
 
 This means:
+
 - The model learns which tokens to compress and which to select
 - Gradients flow through the sparse attention decisions
 - The compression and selection strategies adapt to the specific task and data distribution
@@ -119,12 +127,12 @@ DeepSeek recently announced DeepSeek-V3.2-Exp, which implements an advanced vers
 NSA represents a paradigm shift in attention mechanism design by simultaneously optimizing algorithmic efficiency, hardware utilization, and model trainability. By combining hierarchical compression, dynamic selection, and sliding windows with hardware-aligned implementation, it makes long-context modeling practical and efficient. The mechanism demonstrates that careful co-design of algorithms and hardware optimization can deliver order-of-magnitude improvements in both speed and memory efficiency without compromising model quality.
 
 Citations:
-[1] https://arxiv.org/abs/2502.11089
-[2] https://medium.com/data-science-in-your-pocket/deepseek-native-sparse-attention-advanced-attention-mechanism-for-llms-6ac68fc014ff
-[3] https://arxiv.org/pdf/2502.11089
-[4] https://shchegrikovich.substack.com/p/attention-vs-attention
-[5] https://medium.com/@nanda.yugandhar/the-illustrated-guid-to-native-sparse-attention-b657b5e76bbc
-[6] https://www.marktechpost.com/2025/02/18/deepseek-ai-introduces-nsa-a-hardware-aligned-and-natively-trainable-sparse-attention-mechanism-for-ultra-fast-long-context-training-and-inference/
-[7] https://medium.com/foundation-models-deep-dive/deepseeks-nsa-for-efficient-attention-14b6f01486d5
-[8] https://arxiv.org/html/2502.11089v1
-[9] https://api-docs.deepseek.com/news/news250929
+[1] <https://arxiv.org/abs/2502.11089>
+[2] <https://medium.com/data-science-in-your-pocket/deepseek-native-sparse-attention-advanced-attention-mechanism-for-llms-6ac68fc014ff>
+[3] <https://arxiv.org/pdf/2502.11089>
+[4] <https://shchegrikovich.substack.com/p/attention-vs-attention>
+[5] <https://medium.com/@nanda.yugandhar/the-illustrated-guid-to-native-sparse-attention-b657b5e76bbc>
+[6] <https://www.marktechpost.com/2025/02/18/deepseek-ai-introduces-nsa-a-hardware-aligned-and-natively-trainable-sparse-attention-mechanism-for-ultra-fast-long-context-training-and-inference/>
+[7] <https://medium.com/foundation-models-deep-dive/deepseeks-nsa-for-efficient-attention-14b6f01486d5>
+[8] <https://arxiv.org/html/2502.11089v1>
+[9] <https://api-docs.deepseek.com/news/news250929>

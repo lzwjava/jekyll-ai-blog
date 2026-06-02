@@ -20,6 +20,7 @@ Here are the most common reasons why students (especially Chinese/international 
 | **SAT / Digital SAT** | 1. Evidence-based Reading: cannot finish the reading sections on time (same root problem as GRE/TOEFL)<br>2. Vocabulary in context is still harder for non-native speakers even after College Board removed obscure words<br>3. Math “no calculator” section or tricky word problems that require real English comprehension<br>4. Took the paper SAT before 2024 and couldn’t adapt to the new digital adaptive format<br>5. Over-preparation on grammar rules but weak at actual reading speed and comprehension |
 
 ### Cross-cutting reasons that appear in almost all failures
+
 - English reading speed is too slow (biggest single predictor of low GRE Verbal, TOEFL, and SAT scores for Chinese students)
 - Exam anxiety and psychological pressure (especially bad for Gaokao and for students who “must” get 1500+ SAT or 330+ GRE)
 - Wrong learning method: endless question grinding without fixing root causes (vocabulary, speed, logic)
@@ -28,6 +29,7 @@ Here are the most common reasons why students (especially Chinese/international 
 - Started preparation too late (common for GRE/TOEFL done senior year or after graduation)
 
 If you want to succeed on any of these exams as a Chinese/international student, the brutal truth order of priority is usually:
+
 1. Build real English academic reading speed and vocabulary (for GRE/TOEFL/SAT)
 2. Master the exact question types and timing
 3. Fix mental game and anxiety

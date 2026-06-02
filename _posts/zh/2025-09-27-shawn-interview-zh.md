@@ -13,7 +13,6 @@ type: post
 ![](assets/images/shawn/shawn1.jpg){: .responsive }
 *Source: chatgpt.com*{: .caption }
 
-
 A: 李智维，软件工程师，专注于 AI 和金融的交叉领域。
 
 B: Shawn Shao，软件工程师，在一家国际银行从事 AI 框架、Agent 和 MCP 相关工作。
@@ -55,7 +54,6 @@ B: Shawn Shao，软件工程师，在一家国际银行从事 AI 框架、Agent 
    - 认为重大历史事件皆为捏造
    - 学习应是快乐且注重过程的
    - AI 效率重塑时间管理
-
 
 ### 录制、存档与对 AI 媒体的看法
 

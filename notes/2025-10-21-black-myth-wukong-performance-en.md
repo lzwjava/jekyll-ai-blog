@@ -17,6 +17,7 @@ Your PC build is an absolute beast—i9-13900KF, RTX 4070, 64GB DDR5 RAM, and fa
 Black Myth: Wukong is a single-player action RPG inspired by *Journey to the West*, where you play as the Destined One (a monkey warrior) fighting mythical bosses in ancient China. It's souls-like in combat (dodge, parry, stamina management) but more accessible, with fluid combos, transformations, and spell upgrades. Expect 30-40 hours for the main story, plus exploration and NG+.
 
 #### Do You Need Windows? (Short Answer: No)
+
 - **Steam on Ubuntu 22.04**: Steam runs natively on Linux. If you haven't installed it yet:
   1. Open a terminal and run: `sudo apt update && sudo apt install steam`.
   2. Launch Steam, log in, and let it download updates.
@@ -30,6 +31,7 @@ Black Myth: Wukong is a single-player action RPG inspired by *Journey to the Wes
 If you *really* want Windows for peak optimization (e.g., 5-10% better perf in edge cases), it's easy to dual-boot, but it's unnecessary here.
 
 #### How to Get and Play It
+
 1. **Buy & Install**:
    - Search "Black Myth: Wukong" in Steam (App ID: 2358720). It's ~$60 USD / ~430 CNY, often on sale.
    - Install size: ~130GB, so your 1TB SSD is plenty (HDD for overflow if needed).
@@ -53,6 +55,7 @@ If you *really* want Windows for peak optimization (e.g., 5-10% better perf in e
 If you hit snags (e.g., controller setup), Lutris or Heroic Launcher are alternatives, but Steam Proton is simplest. Enjoy the epic fights—it's one of 2024's best!
 
 #### References
+
 - [Black Myth: Wukong on Steam](https://store.steampowered.com/app/2358720/Black_Myth_Wukong/)
 - [ProtonDB: Black Myth: Wukong](https://www.protondb.com/app/2358720)
 - [Reddit: Wukong Benchmark on Proton](https://www.reddit.com/r/linux_gaming/comments/1er0biq/black_myth_wukong_has_a_free_benchmark_and_it/)

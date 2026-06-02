@@ -25,7 +25,7 @@ Means:
 
 ---
 
-### Breakdown:
+### Breakdown
 
 | Term | Meaning |
 |------|---------|
@@ -36,6 +36,6 @@ Means:
 
 ---
 
-### Summary:
+### Summary
 
 The technician is saying that **after you purchase the AMD GPU yourself, the labor charge for swapping out the old GPU and installing the new one is ¥120 RMB** (~$16–17 USD).

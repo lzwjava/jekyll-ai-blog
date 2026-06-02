@@ -46,6 +46,7 @@ pip install torch>=2.10.0 transformers>=5.0.0 safetensors>=0.7.0 \
 ```
 
 或使用 `uv`（更快）：
+
 ```bash
 uv venv --python 3.11 .venv
 source .venv/bin/activate

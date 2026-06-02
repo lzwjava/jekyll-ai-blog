@@ -54,8 +54,8 @@ If your goal is to reach Candidate Master / Master / Grandmaster as fast as poss
 
 **References:**
 
-- https://codeforces.com/blog/entry/55177
-- https://medium.com/student-technical-community-vit-vellore/c-java-or-python-which-language-is-better-for-competitive-coding-4f48063b1a73
-- https://www.reddit.com/r/codeforces/comments/1eays9b/anyone_who_uses_python_for_cf/
-- https://codeforces.com/blog/entry/103251
-- https://codeforces.com/blog/entry/21851
+- <https://codeforces.com/blog/entry/55177>
+- <https://medium.com/student-technical-community-vit-vellore/c-java-or-python-which-language-is-better-for-competitive-coding-4f48063b1a73>
+- <https://www.reddit.com/r/codeforces/comments/1eays9b/anyone_who_uses_python_for_cf/>
+- <https://codeforces.com/blog/entry/103251>
+- <https://codeforces.com/blog/entry/21851>

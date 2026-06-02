@@ -15,6 +15,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ## 🚨 **Architecture & Design Issues**
 
 ### **1. Massive View Controller Violation**
+
 ```objc
 // This controller handles too many responsibilities:
 - Network operations (message sending/receiving)
@@ -26,12 +27,14 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ```
 
 **Recommendation**: Split into specialized classes:
+
 - `MessageService` - for network operations
 - `MessageRepository` - for data persistence
 - `MediaProcessor` - for media handling
 - `MessageViewModel` - for business logic
 
 ### **2. Tight Coupling with Dependencies**
+
 ```objc
 // Direct dependency on LeanCloud framework throughout
 @property (nonatomic, strong, readwrite) AVIMConversation *conv;
@@ -42,6 +45,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 **Issue**: Hard to test, replace, or migrate services.
 
 ### **3. Poor Error Handling**
+
 ```objc
 - (BOOL)filterError:(NSError *)error {
     return [self alertError:error] == NO;  // Side effects in validation method
@@ -58,6 +62,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ## 🔧 **Memory Management Concerns**
 
 ### **1. Retain Cycles & Notification Issues**
+
 ```objc
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -67,6 +72,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ```
 
 **Fix**:
+
 ```objc
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -80,6 +86,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ```
 
 ### **2. Thread Safety Issues**
+
 ```objc
 @property (atomic, assign) BOOL isLoadingMsg;
 // atomic doesn't guarantee thread safety for complex operations
@@ -95,6 +102,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ## 📱 **UI & Performance Issues**
 
 ### **1. Main Thread Blocking**
+
 ```objc
 - (void)cacheMsgs:(NSArray *)msgs callback:(AVBooleanResultBlock)callback {
     [self runInGlobalQueue:^{
@@ -107,6 +115,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ```
 
 ### **2. Inefficient TableView Updates**
+
 ```objc
 - (void)insertMessage:(AVIMTypedMessage *)message {
     [self.messages addObject:xhMessage];
@@ -119,6 +128,7 @@ From an iOS engineer's perspective, here's a detailed code review with technical
 ## 🗂 **Code Organization Issues**
 
 ### **1. Mixed Abstraction Levels**
+
 ```objc
 // Low-level file operations mixed with high-level business logic
 NSData *imageData = UIImageJPEGRepresentation(image, 0.6);
@@ -130,6 +140,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **2. Long Methods**
+
 ```objc
 - (XHMessage *)getXHMessageByMsg:(AVIMTypedMessage *)msg {
     // 80+ lines method with multiple responsibilities
@@ -140,6 +151,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ## 🧪 **Testing & Maintainability**
 
 ### **1. Untestable Design**
+
 ```objc
 // Direct singleton usage prevents dependency injection
 [[CDChatManager manager] sendMessage:msg...]
@@ -149,6 +161,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **2. Violation of SOLID Principles**
+
 - **Single Responsibility**: Controller does everything
 - **Open/Closed**: Hard to extend without modifying
 - **Dependency Inversion**: Concrete dependencies everywhere
@@ -156,6 +169,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ## 🛠 **Recommended Refactoring**
 
 ### **1. Extract Service Layer**
+
 ```objc
 @interface MessageDataService : NSObject
 - (void)sendMessage:(AVIMTypedMessage *)message
@@ -169,6 +183,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **2. Use MVVM Architecture**
+
 ```objc
 @interface ChatRoomViewModel : NSObject
 @property (readonly) NSArray<MessageViewModel *> *messages;
@@ -178,6 +193,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **3. Implement Proper Data Binding**
+
 ```objc
 // Instead of manual table view updates
 self.viewModel.updateSignal = [RACObserve(self.viewModel, messages)

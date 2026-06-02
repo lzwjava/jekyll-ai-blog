@@ -16,6 +16,7 @@ type: note
 在 PUBG Mobile（其中“非排名”是一个与排位赛分开的休闲队列）中，有 **9 种非排名（休闲）模式**可用。这些模式旨在用于练习、娱乐或非竞技游戏，不影响您的排位积分。它们包括大逃杀、竞技场风格和特色模式的混合。
 
 以下是完整列表：
+
 - **经典模式（Classic Mode）**：标准大逃杀，地图包括 Erangel、Miramar、Sanhok、Vikendi、Livik、Karakin、Nusa 和 Rondo（随机或选择）。
 - **街机模式（Arcade Mode）**：快速、多样的迷你游戏和挑战。
 - **极寒模式（Arctic Mode）**：雪地、寒冷天气的大逃杀变体（通常以 Vikendi 为主题）。
@@ -29,6 +30,7 @@ type: note
 注意：可用性可能会随着更新而略有变化（例如，季节性活动会添加临时变体），但截至 2025 年末，这些是核心的永久非排名模式。通过大厅中的“非排名”选项卡访问它们。对于 PUBG PC（Battlegrounds），“非排名”指的是普通比赛（而不是一个单独的选项卡），模式包括普通大逃杀、团队死亡竞赛和快速降落。
 
 **参考文献：**
+
 - [PUBG Mobile Fandom Wiki - Game Modes](https://pubgmobile.fandom.com/wiki/Game_Modes)
 - [PUBG Mobile Game Modes Explained](https://news.codashop.com/us/pubg-mobile-game-modes-overview/)
 - [PUBG Mobile Classic Maps](https://gamerant.com/pubg-mobile-classic-maps-ranked/)

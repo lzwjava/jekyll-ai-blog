@@ -44,6 +44,6 @@ Answer:
 
 * [美国眼科学会：近视管理](https://www.aao.org/eye-health/diseases/what-is-myopia)
 * [哈佛健康：眼睛疲劳与计算机使用](https://www.health.harvard.edu/diseases-and-conditions/computer-vision-syndrome)
-* [国家眼科研究所：预防近视进展](https://www.nei.nih.gov/learn-about-eye-health/eye- health/eye-conditions-and-ditions-and-diseases/myopia-nearsightedness)
+* [国家眼科研究所：预防近视进展](<https://www.nei.nih.gov/learn-about-eye-health/eye-> health/eye-conditions-and-ditions-and-diseases/myopia-nearsightedness)
 
 如果你希望，我可以提供一个小型桌面配置方案，以优化这种“贴近+缩放”的使用方式。

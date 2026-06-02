@@ -13,9 +13,11 @@ type: note
 The error is clear and comes from this line in your `hello.yml` playbook:
 
 {% raw %}
+
 ```yaml
 content: "Managed by Ansible — hello from {{ ansible-playbook!\n"
 ```
+
 {% endraw %}
 
 You accidentally left an exclamation mark `!` inside the Jinja2 template braces, and then a literal `\n` that is not properly escaped or turned into a real newline.
@@ -28,26 +30,31 @@ Here are several clean ways to fix it, pick the one you like best:
 
 **Option 1 – Simple one-liner (recommended)**
 {% raw %}
+
 ```yaml
 - name: Create a file with some text
   ansible.builtin.copy:
     content: "Managed by Ansible — hello from {{ inventory_hostname }}\n"
     dest: /tmp/hello.txt
 ```
+
 {% endraw %}
 
 **Option 2 – If you really want to show the literal {% raw %}"{{ ansible_playbook }}"{% endraw %} string (not evaluate it)**
 {% raw %}
+
 ```yaml
 - name: Create a file with some text
   ansible.builtin.copy:
     content: "Managed by Ansible — hello from {{ '{{ ansible_playbook }}' }}\n"
     dest: /tmp/hello.txt
 ```
+
 {% endraw %}
 
 **Option 3 – Multi-line with | (literal block scalar)**
 {% raw %}
+
 ```yaml
 - name: Create a file with some text
   ansible.builtin.copy:
@@ -57,10 +64,12 @@ Here are several clean ways to fix it, pick the one you like best:
       This is line 3
     dest: /tmp/hello.txt
 ```
+
 {% endraw %}
 
 **Option 4 – Using > for folded style**
 {% raw %}
+
 ```yaml
 - name: Create a file with some text
   ansible.builtin.copy:
@@ -70,11 +79,13 @@ Here are several clean ways to fix it, pick the one you like best:
       Second line starts here.
     dest: /tmp/hello.txt
 ```
+
 {% endraw %}
 
 ### Full corrected minimal playbook (working example)
 
 {% raw %}
+
 ```yaml
 ---
 - name: Tiny demo
@@ -88,6 +99,7 @@ Here are several clean ways to fix it, pick the one you like best:
         dest: /tmp/hello_from_ansible.txt
         mode: '0644'
 ```
+
 {% endraw %}
 
 Run it again:

@@ -14,6 +14,7 @@ The **energy loss ratio** for an electric vehicle (EV) is typically expressed as
 ---
 
 ### **Typical Energy Consumption for EVs**
+
 - **Efficient EVs (e.g., Tesla Model 3, Hyundai Ioniq 6):**
   **12–16 kWh/100 km**
   These models are optimized for aerodynamics, weight, and regenerative braking.
@@ -29,6 +30,7 @@ The **energy loss ratio** for an electric vehicle (EV) is typically expressed as
 ---
 
 ### **Factors Affecting Energy Loss**
+
 1. **Driving Conditions:**
    - **City driving** (frequent stops, regenerative braking) is more efficient than **highway driving** (higher speeds, wind resistance).
    - **Cold weather** can increase consumption by 20–30% due to battery inefficiency and heating needs.
@@ -48,6 +50,7 @@ The **energy loss ratio** for an electric vehicle (EV) is typically expressed as
 ---
 
 ### **Is 15 kWh/100 km Good?**
+
 - **Yes, 15 kWh/100 km is excellent** and indicates a highly efficient EV, especially for smaller or well-optimized models.
 - For comparison, the **Tesla Model 3** often achieves ~14–16 kWh/100 km in real-world conditions.
 

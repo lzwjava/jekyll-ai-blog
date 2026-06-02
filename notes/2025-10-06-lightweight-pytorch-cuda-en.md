@@ -13,6 +13,7 @@ type: note
 If tinygrad feels overwhelming with its code volume, there are several lighter, more focused alternatives for diving into PyTorch-style frameworks or CUDA-based projects. These emphasize educational simplicity, often with just a few hundred lines of code, to help you grok the internals like autograd, tensors, or GPU kernels without the full framework bloat. I'll break them down by focus area.
 
 ### Minimal PyTorch-Like Implementations (for Learning DL Framework Basics)
+
 These are tiny re-implementations that mimic PyTorch's core mechanics (e.g., tensors, backprop) but strip everything else away.
 
 - **Micrograd**: A super-minimal autograd engine (under 200 lines) that powers neural nets from scratch. It's perfect for understanding PyTorch's backward pass and gradients. Andrej Karpathy's accompanying video tutorial walks through it step-by-step, building up to a simple MLP. Start here if you want the essence of PyTorch's dynamic computation graph.
@@ -22,6 +23,7 @@ These are tiny re-implementations that mimic PyTorch's core mechanics (e.g., ten
 - **Mamba Minimal**: A one-file PyTorch impl of the Mamba state-space model. It's tiny (~100 lines for the core) and matches the official output, helping you learn selective scan ops and sequence modeling internals.
 
 ### Tiny TensorFlow-Like Options
+
 Fewer pure "tiny" TensorFlow clones exist, but these scratch the surface:
 
 - **Mini TensorFlow from Scratch**: A from-scratch build of a basic TensorFlow-like library focusing on differentiable graphs and ops. It's a short tutorial-style project (Python-only) that explains tensor ops and backprop without GPU complexity—good for contrasting with PyTorch's eager mode.
@@ -29,6 +31,7 @@ Fewer pure "tiny" TensorFlow clones exist, but these scratch the surface:
 - **Tract**: A no-frills, self-contained TensorFlow/ONNX inference engine in Rust (but with Python bindings). It's tiny and focuses on runtime execution, useful for learning how TF models run under the hood without training overhead.
 
 ### General CUDA Projects/Tutorials (for GPU-Focused Learning)
+
 If you want to zoom in on CUDA kernels alongside a PyTorch vibe, these guide you through custom ops or full frameworks with GPU support:
 
 - **PyTorch from Scratch with CUDA**: A hands-on project to recreate PyTorch's core (tensors, autograd, optimizers) in C++/CUDA/Python. It includes GPU acceleration and ends with a working neural net—excellent for bridging high-level PyTorch to low-level CUDA without drowning in code.

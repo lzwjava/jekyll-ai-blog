@@ -88,6 +88,6 @@ brew tap hashicorp/tap
 
 References:
 
-- https://developer.apple.com/download/all/
-- https://github.com/hashicorp/homebrew-tap
-- https://formulae.brew.sh/formula/vault
+- <https://developer.apple.com/download/all/>
+- <https://github.com/hashicorp/homebrew-tap>
+- <https://formulae.brew.sh/formula/vault>

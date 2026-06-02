@@ -16,6 +16,7 @@ Now I have a clear picture. You already have 12 `ww macos` commands covering a s
 ## What Your Code Already Tells Me
 
 You're comfortable with:
+
 - **plistlib** — reading binary plists (Dock)
 - **networksetup** — system proxy config
 - **pmset** — power/battery management
@@ -54,7 +55,7 @@ yabai -m window --focus east
 
 What you'll learn: macOS Accessibility API, SIP (System Integrity Protection) — yabai needs partial SIP disable for full features, which teaches you exactly what SIP protects and how. Also teaches you macOS Spaces (virtual desktops) at the API level.
 
-https://github.com/koekeishiya/yabai
+<https://github.com/koekeishiya/yabai>
 
 ### 2. skhd — Global Hotkey Daemon (pairs with yabai)
 
@@ -70,7 +71,7 @@ alt - l : yabai -m window --focus east
 
 What you'll learn: how macOS captures keyboard events at the system level (CGEventTap, IOKit HID), how Input Monitoring permission works.
 
-https://github.com/koekeishiya/skhd
+<https://github.com/koekeishiya/skhd>
 
 ### 3. screencapture + Shortcuts CLI — fill your screenshot pipeline
 
@@ -168,7 +169,7 @@ cat $(which m)
 
 It wraps ~200 macOS admin tasks: Airport, Bluetooth, DNS, firewall, Time Machine, FileVault, parental controls, screen sharing, etc. Every command teaches you a native macOS tool you didn't know existed.
 
-https://github.com/rgcr/m-cli
+<https://github.com/rgcr/m-cli>
 
 ### 7. osx-cpu-temp / iStats — Thermal Monitoring
 
@@ -179,7 +180,7 @@ osx-cpu-temp  # reads from IOKit SMC (System Management Controller)
 
 What you'll learn: SMC (System Management Controller) — the embedded chip that manages thermals, fans, battery charging. IOKit SMC access is how you read CPU die temperature, fan RPM, and battery health at the hardware level.
 
-Source: https://github.com/lavoiesl/osx-cpu-temp
+Source: <https://github.com/lavoiesl/osx-cpu-temp>
 
 ### 8. macos-defaults — Configuration Catalog
 

@@ -106,22 +106,8 @@ type: note
 
 <div style="text-align: center">⁂</div>
 
-[^1]: https://people.ece.ubc.ca/~edc/464/lectures/lec17.pdf
-[^2]: https://spotpear.com/wiki/USB-TO-UART-I2C-SPI-JTAG-Wiki.html
-[^3]: https://home.mit.bme.hu/~rtamas/rendszerarchitekturak/eloadas/08_bus_introduction.pdf
-[^4]: https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/all
-[^5]: https://www.techtarget.com/searchwindowsserver/definition/ISA-Industry-Standard-Architecture
-[^6]: https://www.ratocsystems.com/english/download/pdffiles/usb61_e_10.pdf
-[^7]: https://webstor.srmist.edu.in/web_assets/srm_mainsite/files/files/PCI.pdf
-[^8]: https://www.infineon.com/dgdl/Infineon-USB-Serial_VCP_I2CSPI_API_Guide-Software-v01_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f6a8b015fe6\&da=t
-[^9]: https://network.nvidia.com/pdf/whitepapers/PCI_3GIO_IB_WP_120.pdf
-[^10]: https://people.scs.carleton.ca/~sivarama/org_book/org_book_web/slides/chap_1_versions/ch5_1.pdf
-[^11]: https://www.youtube.com/watch?v=BBobCtfOjbM
-[^12]: https://www.sciencedirect.com/topics/engineering/peripheral-component-interconnect-bus
-[^13]: http://mcatutorials.com/mca-tutorials-bus-standards-and-types.php
-[^14]: https://www.youtube.com/watch?v=YRJ9gWaxfJY
-[^15]: https://docs.nxp.com/bundle/UM12018/page/topics/connecting_to_a_target_through_a_usb-to-spi_or_usb.html
-[^16]: https://www.i2ctools.com/Downloads/USBtoI2Cpro/USB-to-SPI_Software_Users_Manual.pdf
-[^17]: https://www.youtube.com/watch?v=WIIR77fCHYc
-[^18]: https://ftdichip.com/wp-content/uploads/2021/08/AN_255_USB-to-I2C-Example-using-the-FT232H-and-FT201X-devices.pdf
-[^19]: https://www.youtube.com/watch?v=IyGwvGzrqp8
+[^1]: <https://people.ece.ubc.ca/~edc/464/lectures/lec17.pdf>
+[^3]: <https://home.mit.bme.hu/~rtamas/rendszerarchitekturak/eloadas/08_bus_introduction.pdf>
+[^4]: <https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/all>
+[^5]: <https://www.techtarget.com/searchwindowsserver/definition/ISA-Industry-Standard-Architecture>
+[^6]: <https://www.ratocsystems.com/english/download/pdffiles/usb61_e_10.pdf>

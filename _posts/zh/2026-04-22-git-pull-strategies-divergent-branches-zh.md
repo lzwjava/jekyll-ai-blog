@@ -113,7 +113,7 @@ git config pull.ff only
 
 基于典型的现代开发工作流：
 
-### 👉 通用最佳建议：
+### 👉 通用最佳建议
 
 ```bash
 git config --global pull.rebase true
@@ -127,7 +127,7 @@ git config --global pull.rebase true
 
 ---
 
-### 👉 若团队 Git 规范较宽松：
+### 👉 若团队 Git 规范较宽松
 
 ```bash
 git config --global pull.rebase false
@@ -135,7 +135,7 @@ git config --global pull.rebase false
 
 ---
 
-### 👉 若处于严格的生产/发布环境：
+### 👉 若处于严格的生产/发布环境
 
 ```bash
 git config --global pull.ff only

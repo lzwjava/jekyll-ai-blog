@@ -21,9 +21,11 @@ Answer:
 Cao Yu composed *Thunderstorm* during his final year as an undergraduate at Tsinghua University, drawing heavy inspiration from Western dramatists such as Henrik Ibsen, Eugene O'Neill, and ancient Greek tragedy. The play adheres closely to the classical unities of time, place, and action—all major events unfold within a single day in one location (the Zhou family mansion)—while blending intense psychological realism with symbolic and almost fateful elements.
 
 ### Plot Overview
+
 The story centers on the wealthy Zhou family, headed by the authoritarian industrialist Zhou Puyuan, in 1920s Tianjin, China. Through a series of revelations over one stormy day, long-buried secrets unravel: past adultery, hidden family ties, incestuous relationships, class conflict, and generational betrayal. The plot intertwines two families—the affluent Zhous and the working-class Lus—exposing how past sins haunt the present and lead to catastrophic destruction. The play culminates in a violent thunderstorm that mirrors the emotional and moral chaos, resulting in multiple tragic deaths.
 
 ### Major Themes
+
 - **Fate and Inevitability**: The characters appear trapped by an inexorable, almost cosmic force (symbolized by the thunderstorm), echoing Greek tragedy in the idea that human actions lead inescapably to ruin.
 - **Family Decay and Moral Hypocrisy**: The Zhou household represents the corruption within China's semi-feudal, semi-capitalist elite families, with patriarchal authority, repression, and hidden immorality.
 - **Class Struggle**: The confrontation between the bourgeois Zhou family and the proletarian Lu family highlights social inequality and exploitation in early 20th-century China.
@@ -33,6 +35,7 @@ The story centers on the wealthy Zhou family, headed by the authoritarian indust
 Cao Yu himself described writing *Thunderstorm* as an emotional outburst—a "cry" against the darkness, corruption, and repression of old Chinese society. He approached the characters with a sense of compassion rather than pure judgment, inviting audiences to view their struggles with pity and understanding.
 
 ### Significance and Legacy
+
 Upon publication in *Literary Quarterly* (文学季刊), the play quickly gained acclaim. Its first major performances in 1935 (in Shanghai and Tokyo) brought instant fame, and it has since become one of the most performed and studied modern Chinese plays. It has been adapted into films, operas, dance dramas, and various regional theater styles, remaining a staple in the repertoire of companies like the Beijing People's Art Theatre.
 
 *Thunderstorm* helped establish spoken drama as a serious literary and theatrical form in China, moving away from traditional opera toward modern realism. Its exploration of universal human flaws—greed, lust, guilt, and the weight of the past—combined with sharp social critique, ensures its enduring relevance nearly a century after its creation.

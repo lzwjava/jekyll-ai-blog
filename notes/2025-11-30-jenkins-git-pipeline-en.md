@@ -12,7 +12,7 @@ type: note
 
 Here’s how to configure a Jenkins Pipeline that loads the `Jenkinsfile` from an internal (enterprise) GitHub server (like GitHub Enterprise or self-hosted GitLab/Stash/Bitbucket Server, etc.).
 
-###  There are two main ways:
+### There are two main ways
 
   1. Pipeline script from SCM (recommended for real projects)
   2. Pipeline script (inline) – not what you want

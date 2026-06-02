@@ -11,6 +11,7 @@ type: note
 To configure TortoiseGit as the merge tool for Git, you need to set up TortoiseGitMerge (the merge tool included with TortoiseGit) in your Git configuration. Below are the steps to achieve this:
 
 ### Prerequisites
+
 - Ensure TortoiseGit is installed on your system. You can download it from [tortoisegit.org](https://tortoisegit.org).
 - Verify that the TortoiseGitMerge executable is available (typically located at `C:\Program Files\TortoiseGit\bin\TortoiseGitMerge.exe`).
 
@@ -85,7 +86,9 @@ To configure TortoiseGit as the merge tool for Git, you need to set up TortoiseG
    **Note**: If the conflict occurred during a rebase or cherry-pick, use the respective TortoiseGit dialogs (Rebase or Cherry-pick) to continue the process instead of the standard commit dialog.[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-conflicts.html)
 
 ### Using TortoiseGitMerge via TortoiseGit GUI
+
 If you prefer using the TortoiseGit GUI to resolve conflicts:
+
 1. Right-click on the conflicted file in Windows Explorer.
 2. Select **TortoiseGit → Edit Conflicts**.
 3. TortoiseGitMerge will open, allowing you to resolve conflicts as described above.
@@ -93,6 +96,7 @@ If you prefer using the TortoiseGit GUI to resolve conflicts:
 5. Commit the changes using TortoiseGit’s Commit dialog.
 
 ### Troubleshooting
+
 - **Error: "Unsupported merge tool 'tortoisemerge'"**
   - Ensure the path to `TortoiseGitMerge.exe` is correct and accessible.
   - Verify that the tool name matches exactly in the `merge.tool` and `mergetool.<tool>.cmd` configurations.
@@ -111,6 +115,7 @@ If you prefer using the TortoiseGit GUI to resolve conflicts:
   - If you previously used TortoiseSVN’s TortoiseMerge, ensure you’re pointing to `TortoiseGitMerge.exe`, as the executable name changed in TortoiseGit version 1.8.[](https://devstuffs.wordpress.com/2013/03/08/setting-tortoisegitmerge-in-msysgit-as-the-git-mergetool/)[](https://stackoverflow.com/questions/15881449/why-doesnt-tortoisemerge-work-as-my-mergetool)
 
 ### Additional Notes
+
 - TortoiseGitMerge supports a three-pane view for conflict resolution, which is ideal for merging. It automatically merges non-conflicting changes and highlights conflicts for manual resolution.[](https://tortoisegit.org/docs/tortoisegitmerge/tmerge-dug.html)[](https://manios.org/2018/05/30/git-merge-conflicts-using-tortoise-git-merge-windows)
 - If you want to use TortoiseGitMerge as a diff tool as well, configure it similarly:
 
@@ -123,6 +128,7 @@ If you prefer using the TortoiseGit GUI to resolve conflicts:
 - For advanced settings, you can configure TortoiseGit to wait for the merge tool to close and automatically mark files as resolved based on the exit code. In TortoiseGit Settings → External Programs → Merge Tool, select "Block TortoiseGit while executing the external merge tool" and enable "Trust exit code."[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-settings.html)
 
 ### Sources
+
 - TortoiseGit Documentation:[](https://tortoisegit.org/docs/tortoisegitmerge/tmerge-dug.html)[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-merge.html)[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-conflicts.html)
 - Stack Overflow and other web resources:[](https://devstuffs.wordpress.com/2013/03/08/setting-tortoisegitmerge-in-msysgit-as-the-git-mergetool/)[](https://stackoverflow.com/questions/5190188/why-cant-i-use-tortoisemerge-as-my-git-merge-tool-on-windows)[](https://stackoverflow.com/questions/16493368/can-tortoisemerge-be-used-as-a-difftool-with-windows-git-bash)
 

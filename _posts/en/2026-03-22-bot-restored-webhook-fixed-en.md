@@ -12,6 +12,7 @@ type: note
 Everything's up. Gateway restarted, webhook listening on `0.0.0.0:8788`, group policy set to `open`. Let me test the full flow from the container:Webhook accepted from the container. Let me check if OpenClaw processed it:The pipeline is working! The test message was received (it flagged as "replayed" because I used the same message ID earlier). Here's the summary of where we are:
 
 **Working:**
+
 - ✅ Nextcloud Talk plugin installed & loaded
 - ✅ Bot registered in Nextcloud (`talk:bot:install`)
 - ✅ Webhook listener on `0.0.0:8788`

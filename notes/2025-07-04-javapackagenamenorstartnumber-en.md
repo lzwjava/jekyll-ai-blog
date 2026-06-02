@@ -15,10 +15,12 @@ In Java, a package name **cannot start with a number**. According to the Java Na
 - Numbers (0-9) are allowed in identifiers, but only **after** the first character.
 
 For example:
+
 - Valid package names: `com.example`, `my_package`, `a123`
 - Invalid package names: `123example`, `1package`
 
 If you try to use a package name starting with a number, the Java compiler will throw a syntax error. To work around this, you can:
+
 - Start the package name with a letter or underscore, e.g., `a123.example` or `_123.example`.
 - Use a descriptive name that follows conventions, like `com.example.project123`.
 

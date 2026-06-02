@@ -103,6 +103,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
     ```
 
 ### Additional Notes
+
 - The error specifically points to `install_layout`, which was removed in newer versions of `setuptools`. This suggests `pyperclip`'s setup script may be outdated or incompatible with your `setuptools` version.
 - If you're working in a specific environment (e.g., Docker, WSL, or a custom Python build), ensure all dependencies like `build-essential` (for compiling wheels) are installed:
 
@@ -113,6 +114,7 @@ The error occurs during the installation of the `pyperclip` package, specificall
 - If the issue persists, provide more context (e.g., Python version, OS, and whether you're using a virtual environment) for further assistance.
 
 ### References
+
 - [Pyperclip GitHub](https://github.com/asweigart/pyperclip)
 - [Setuptools Documentation](https://setuptools.pypa.io/en/latest/)
 - [Pip Documentation](https://pip.pypa.io/en/stable/)

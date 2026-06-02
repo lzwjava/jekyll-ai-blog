@@ -11,18 +11,21 @@ type: note
 In the context of AI models, APIs, or streaming data systems, **Time to First Chunk**, **Time to First Token**, and **Response Time** are metrics used to measure performance and latency. Here's a clear explanation of each:
 
 ### 1. **Time to First Chunk (TTFC)**
+
 - **Definition**: The time it takes from when a request is sent to the system until the first piece (or "chunk") of the response is received by the client.
 - **Context**: Common in streaming APIs or systems where data is sent in chunks (e.g., partial responses in HTTP streaming or real-time data processing).
 - **Significance**: Measures how quickly a system begins delivering usable data. A low TTFC is critical for applications requiring real-time or near-real-time responses, like chatbots or live data feeds.
 - **Example**: In a streaming API for a chatbot, TTFC is the time from sending a user query to receiving the first part of the AI's response, even if it's incomplete.
 
 ### 2. **Time to First Token (TTFT)**
+
 - **Definition**: The time from when a request is made to when the first token (a small unit of data, like a word or subword in language models) is generated or received.
 - **Context**: Specific to generative AI models (e.g., LLMs like Grok) where text is generated token-by-token. Tokens are the building blocks of text output in such models.
 - **Significance**: TTFT indicates how fast the model starts producing output. It’s crucial for user experience in interactive applications, as a shorter TTFT feels more responsive.
 - **Example**: For an AI generating text, TTFT is the time from submitting a prompt to when the first word or subword is output.
 
 ### 3. **Response Time**
+
 - **Definition**: The total time from sending a request to receiving the complete response from the system.
 - **Context**: Applies broadly to any system, including APIs, web servers, or AI models. It encompasses the entire process, including processing, generation, and delivery of the full response.
 - **Significance**: Measures overall system performance. A shorter response time is critical for user satisfaction but doesn’t capture partial delivery (unlike TTFC or TTFT).
@@ -37,6 +40,7 @@ In the context of AI models, APIs, or streaming data systems, **Time to First Ch
 | **Response Time** | Time to complete response | End-to-end latency | General system performance |
 
 ### Practical Notes
+
 - **TTFC vs. TTFT**: TTFC is broader and applies to any chunked data, while TTFT is specific to token-based systems like LLMs. In some cases, they may overlap if the first chunk contains the first token.
 - **Factors Affecting These Metrics**:
   - Model size and complexity (larger models may have higher latency).

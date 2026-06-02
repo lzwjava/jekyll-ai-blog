@@ -22,6 +22,7 @@ Since you're on DigitalOcean (outside China), you can use **HuggingFace directly
 ## 🖥️ Recommended DigitalOcean Droplet
 
 For data prep only (no training):
+
 - **4 vCPU, 8GB RAM, 100GB+ disk** (CPU-optimized droplet)
 - Training should still happen on your RTX 4070 locally
 
@@ -69,6 +70,7 @@ print(f"Done. Total docs: {total_docs}")
 ```
 
 Run it:
+
 ```bash
 python download_fineweb.py
 ```

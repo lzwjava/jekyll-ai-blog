@@ -72,6 +72,7 @@ São Paulo's mobility is legendary for gridlock but innovative: Latin America's 
 In 2025, São Paulo remains a "city that never sleeps," blending grit with glamour—visit for the contrasts, stay for the soul.
 
 ## References
+
 - [São Paulo - Wikipedia](https://en.wikipedia.org/wiki/S%C3%A3o_Paulo)
 - [São Paulo - Culture, Diversity, Economy | Britannica](https://www.britannica.com/place/Sao-Paulo-Brazil/Cultural-life)
 - [A Local's Guide to Sao Paulo, Brazil - Go Ask A Local](https://goaskalocal.com/blog/local-guide-to-sao-paulo)

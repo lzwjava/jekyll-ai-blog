@@ -58,6 +58,7 @@ type: note
 许多尝试过这两种方法的人在几个月后最终都会经历 **Mint/Debian lightweight → OpenWrt** 的过程，但几乎没有人后悔先从更简单的 Mint 方法开始。
 
 如果你决定稍后尝试 OpenWrt，请寻找：
+
 - x86_64 generic image (或 netinstall)
 - 使用社区版本或 Mainline Snapshots，在 ThinkPad X220/T420/T520 等型号上有成功案例
 - 在切换前后使用 iperf3/speedtest-cli 对比吞吐量和延迟

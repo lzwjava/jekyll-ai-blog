@@ -16,6 +16,7 @@ type: note
 王琦（Wang Qi），亦使用化名Daniel Wang及昵称“大牛蛙”（或“大蛙子”），是中国备受尊敬的**白帽黑客**与网络安全专家。他最广为人知的身份是Keen Team（碁震安全研究团队）的创始人兼首席执行官，该团队在2010年代曾是全球顶尖的漏洞研究与进攻性安全团队之一。
 
 ### 背景与成就
+
 - **与微软的关联**：王琦于2005年左右加入微软，在建立微软中国安全响应中心（China MSRC）过程中发挥了关键作用，该中心是微软在美国总部之外设立的首个地区性安全响应中心。他曾担任亚太区域的技术负责人及漏洞研究专家。
 - **Keen Team**：2011年离开微软后，他创立了Keen Team，这支精英白帽黑客团队专注于发现并负责任地披露安全漏洞。团队成员才华出众，大多拥有顶尖学术背景（如高考状元或数学专业出身）及微软等公司的工作经验。
 - **主要成就**：
@@ -28,6 +29,7 @@ type: note
 他的技术水平在**漏洞发现、漏洞利用开发与进攻性安全研究**领域被视为顶尖水平。在2010年代中期竞争激烈的黑客圈中，王琦领导的Keen Team属于全球顶尖行列，擅长在防御严密的主流软件中挖掘零日漏洞。
 
 ### 与爱德华·斯诺登的比较
+
 爱德华·斯诺登（Edward Snowden）是美国国家安全局（NSA）前承包商雇员，2013年因泄露机密文件揭露美国政府大规模监控项目（如PRISM、XKeyscore等）而成为全球知名的吹哨人。他的影响主要体现在**隐私倡导、情报机构曝光及地缘政治**领域，而非实操性技术黑客。
 
 - **不同的技能组合与角色定位**：
@@ -44,8 +46,9 @@ type: note
 王琦的工作助力提升了消费级与企业级软件的安全性，他的团队也影响了全球漏洞赏金与漏洞披露文化的形成。有关他的信息主要来源于2014年至2017年左右的访谈与报道；近年来他虽保持较低公众曝光度，但仍活跃于安全行业。
 
 参考资料：
-- https://zhuanlan.zhihu.com/p/24461529
-- https://www.yicai.com/news/4702043.html
-- https://baike.baidu.com/item/Keen%20Team/12696729
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
-- https://www.vice.com/en/article/meet-the-keen-team/
+
+- <https://zhuanlan.zhihu.com/p/24461529>
+- <https://www.yicai.com/news/4702043.html>
+- <https://baike.baidu.com/item/Keen%20Team/12696729>
+- <https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html>
+- <https://www.vice.com/en/article/meet-the-keen-team/>

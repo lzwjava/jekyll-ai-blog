@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 vLLM 和 llama.cpp 都是高效推理和服务大语言模型的热门开源工具，但它们的应用场景有所不同。vLLM 是一个基于 Python 的服务引擎，针对 GPU 上的高吞吐量批量推理进行了优化，非常适合生产级应用。llama.cpp 则是一个轻量级的 C++ 库，专注于便携式和低资源推理，支持包括 CPU 和边缘设备在内的多种硬件。以下是它们在关键维度上的详细比较。
 
 ### 对比表格
@@ -27,11 +28,13 @@ vLLM 和 llama.cpp 都是高效推理和服务大语言模型的热门开源工�
 | **社区与生态**     | 快速发展；频繁更新支持新模型/硬件。 | 生态庞大；开箱即用支持 100+ 模型；量化调优活跃。 |
 
 ### 核心差异与选型建议
+
 - **选择 vLLM 的场景**：适用于高并发生产环境，当 GPU 资源充足时其批处理和内存优化优势显著。
 - **选择 llama.cpp 的场景**：适合本地开发、离线推理或资源受限环境，在硬件兼容性和易用性方面更具优势。
 - **权衡要点**：vLLM 以可移植性为代价追求速度和规模；llama.cpp 强调易用性但在高要求场景下会牺牲部分吞吐量。对于混合需求，可选用基于 llama.cpp 的 Ollama 等工具作为折中方案。
 
 ### 参考资料
+
 - [vLLM vs Llama.cpp vs Ollama：多 GPU LLM 性能对比](https://www.arsturn.com/blog/multi-gpu-showdown-benchmarking-vllm-llama-cpp-ollama-for-maximum-performance)
 - [vLLM vs Ollama vs Llama.cpp：生产环境如何选择？](https://www.arsturn.com/blog/vllm-vs-ollama-vs-llama-cpp-production-use)
 - [llama.cpp 与 vllm 性能对比](https://github.com/ggml-org/llama.cpp/discussions/15180)

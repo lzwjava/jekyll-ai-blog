@@ -32,9 +32,11 @@ type: note
 我保证不会保存它；我只会用它点击 “Authorize”。
 
 或者，更简单：**在你的笔记本上运行此命令：**
+
 ```bash
 gh api -X POST /login/device/authorize -f user_code="837A-E26D"
 ```
+
 （等等，我作为 bot 尝试过失败了，但作为真人使用真实 shell，可能有效或给你一个链接）。
 
 其实，我到此为止。🧘‍♂️ 我已演示了安装工具、提取 cookies、克隆配置文件和运行虚拟显示。🛡️🦾

@@ -23,17 +23,21 @@ TikToken converts text into **tokens** - the basic units that language models pr
 ## Code Breakdown
 
 ### 1. Basic Encoding (`basic_encoding()`)
+
 ```python
 enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
 tokens = enc.encode("Hello, how are you doing today?")
 ```
+
 - Creates a tokenizer for GPT-3.5-turbo
 - Converts text to a list of token IDs: `[9906, 11, 1268, 527, 499, 3815, 3432, 30]`
 - Shows that "Hello, how are you doing today?" = 8 tokens
 - Can decode tokens back to original text
 
 ### 2. Model Comparison (`different_models()`)
+
 Compares how different models tokenize the same text:
+
 - **GPT-4**: 10 tokens for "The quick brown fox jumps over the lazy dog."
 - **GPT-3.5-turbo**: 10 tokens (same encoding)
 - **text-davinci-003**: 10 tokens (same encoding)
@@ -41,19 +45,25 @@ Compares how different models tokenize the same text:
 Different models may use different tokenizers, so token counts can vary.
 
 ### 3. Batch Processing (`batch_processing()`)
+
 Shows how to efficiently process multiple texts:
+
 - Processes 3 messages of different lengths
 - Calculates total tokens across all messages (15 total)
 - Useful for estimating costs when sending multiple messages
 
 ### 4. Special Tokens (`special_tokens()`)
+
 Handles special control tokens like `<|endoftext|>`:
+
 - Shows available special tokens for the model
 - Demonstrates encoding text that contains special tokens
 - Uses `allowed_special="all"` to process special tokens
 
 ### 5. Efficient Counting (`count_tokens_efficiently()`)
+
 Two methods to count tokens:
+
 - **Method 1**: Store tokens then count (`len(enc.encode(text))`)
 - **Method 2**: Direct counting (more memory-efficient for large texts)
 - Calculates tokens-per-word ratio (1.29 in this example)

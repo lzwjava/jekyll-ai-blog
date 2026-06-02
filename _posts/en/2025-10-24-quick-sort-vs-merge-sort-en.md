@@ -21,6 +21,7 @@ Let me introduce Quick Sort with a natural, story-like lens: imagine sorting a m
 Quick Sort works because of **divide-and-conquer with a guarantee**: every partition step places *at least one element* (the pivot) in its correct final position, shrinking the problem by at least that much each time. In the best case, the pivot splits the array evenly (like halving in Merge Sort), leading to balanced recursion. In the worst case (e.g., already-sorted array with bad pivot choice), it degenerates to O(n²) like bubble sort—but good pivot choices make it blazing fast in practice.
 
 The key insight: **partitioning enforces invariants**. After one partition:
+
 - Everything left of pivot ≤ pivot.
 - Everything right of pivot ≥ pivot.
 - Pivot is now sorted forever—no need to touch it again.
@@ -59,6 +60,7 @@ Let's walk through one partition step. Array: `[3, 7, 1, 9, 4]`. Pivot = last = 
   3. Finally, swap pivot with arr[++i] to place it.
 
 Step-by-step:
+
 - j=0: 3 ≤4? Yes. i=0, swap arr[0] with arr[0] (noop). Array: [3,7,1,9,4]
 - j=1: 7 ≤4? No. Skip.
 - j=2: 1 ≤4? Yes. i=1, swap arr[1] (7) with arr[2] (1). Array: [3,1,7,9,4]

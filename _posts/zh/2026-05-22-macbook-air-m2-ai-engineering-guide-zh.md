@@ -12,6 +12,7 @@ type: note
 以下是您的 MacBook Air M2（16 GB 统一内存）当前的状况：
 
 **内存：极为紧张**
+
 - 报告显示 48% 空闲——但其中有 6 GB 已被压缩（操作系统正在努力维持运行）
 - 使用了 145 MB 交换内存（您已经溢出到磁盘）
 - 可用磁盘 54 GB——目前还有足够的缓冲
@@ -65,12 +66,14 @@ model, tokenizer = load("mlx-community/Llama-3.2-3B-4bit")
 **4. ML 训练——不建议进行**
 
 16 GB 的 M2 没有独立 GPU VRAM，不是训练机器。它适合用于：
+
 - 推理（MLX 4-bit，3B - 8B 模型）
 - 生成嵌入（MLX）
 - 智能体编排（调用 OpenRouter、您的 RTX 4070、AMD 云的 API）
 - 评估与数据工程脚本
 
 实际的训练保留给：
+
 - 192.168.1.36（RTX 4070 12 GB）——LoRA/QLoRA，nanoGPT
 - AMD MI300X 云（192 GB HBM3）——全量微调，大规模 GRPO 运行
 
@@ -89,6 +92,7 @@ sudo powermetrics --samplers gpu_power -n 1 -i 2000
 **6. 针对您的工作流（AI 工程师、API 优先、智能体构建者）**
 
 您实际的工作流根本不需要本地 GPU——您将请求路由到 OpenRouter、RTX 4070 和 AMD 云。在这台 MacBook 上：
+
 - 终端 + 编辑器 + 浏览器本身就是工作流
 - MLX 用于快速本地推理/嵌入
 - 关闭微信和多余的 Safari/Chrome 标签页→立即回收 1 GB 以上

@@ -46,25 +46,25 @@ type: note
 - **注重隐私 & 自由的移动 / 桌面应用**（许多类似 Gadgetbridge 的项目）
 - **ForgeFed / 联邦实验**（早期的 ActivityPub-for-git 工作）
 - **欧洲 / GDPR 专注的软件**（为主权原因从 GitHub 迁移的项目）
-- **Gentoo** 镜像 → https://codeberg.org/gentoo/gentoo（2026 年 2 月正式宣布，作为 GitHub 退出策略的一部分）
+- **Gentoo** 镜像 → <https://codeberg.org/gentoo/gentoo（2026> 年 2 月正式宣布，作为 GitHub 退出策略的一部分）
 - 托管在 translate.codeberg.org 的各种 Weblate 翻译项目
 - 来自避开大科技平台的 FOSS 爱好者的静态站点生成器、CLI 工具、小型实用工具
 
 ### 如何自己查找当前活跃 / “热门”项目
 
-1. 访问 https://codeberg.org/explore/repos
+1. 访问 <https://codeberg.org/explore/repos>
    - 按 **Most stars** 排序 → 显示历史最受欢迎的项目（Gadgetbridge 通常排名第一）
    - 按 **Recently updated** 排序 → 显示当前活跃开发的项目
    - 按 **Recently created** 排序 → 显示全新项目
 
-2. 查看 https://codeberg.org/explore/organizations → 大型组织通常有多个活跃仓库
+2. 查看 <https://codeberg.org/explore/organizations> → 大型组织通常有多个活跃仓库
 
 3. 检查主要组织的最近 commits / 活动：
-   - https://codeberg.org/forgejo
-   - https://codeberg.org/woodpecker-ci
-   - https://codeberg.org/Freeyourgadget
+   - <https://codeberg.org/forgejo>
+   - <https://codeberg.org/woodpecker-ci>
+   - <https://codeberg.org/Freeyourgadget>
 
-4. 关注 Codeberg 公告 / 博客，或加入 https://codeberg.org/Codeberg/Community issue tracker 以获取焦点讨论。
+4. 关注 Codeberg 公告 / 博客，或加入 <https://codeberg.org/Codeberg/Community> issue tracker 以获取焦点讨论。
 
 总之：Codeberg 更注重长期可持续的 FOSS，而不是病毒式每日趋势。**Gadgetbridge** 仍是杰出的“star 王者”。要查看当前动态，按最近更新排序 explore 页面，或关注 Forgejo/Woodpecker 组织。
 

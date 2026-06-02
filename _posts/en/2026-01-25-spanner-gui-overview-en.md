@@ -17,9 +17,11 @@ Answer:
 **Spanner Studio** is the web-based graphical user interface (GUI) built into the Google Cloud console for managing, exploring, and interacting with **Cloud Spanner** databases. It provides a convenient, no-code/low-code way to perform common database operations without needing to use the command line (gcloud CLI), client libraries, or external tools.
 
 ### Overview of Cloud Spanner
+
 Before diving into Spanner Studio, note that **Cloud Spanner** is Google's fully managed, globally distributed relational database service. It offers strong consistency, horizontal scalability, ACID transactions, and supports both GoogleSQL (standard SQL) and PostgreSQL dialects. It now also includes graph, vector search, and key-value capabilities in a single database.
 
 ### Key Features of Spanner Studio
+
 Spanner Studio is integrated directly into the Google Cloud console under the Spanner section. It includes the following main components and capabilities:
 
 - **Explorer Pane**
@@ -59,19 +61,23 @@ Spanner Studio is integrated directly into the Google Cloud console under the Sp
   - Manage backups, restores, and IAM permissions (though some advanced operations may still require gcloud or API)
 
 ### How to Access Spanner Studio
-1. Go to the Google Cloud console: https://console.cloud.google.com
+
+1. Go to the Google Cloud console: <https://console.cloud.google.com>
 2. Navigate to **Spanner** in the navigation menu (or search for "Spanner").
 3. Select your Spanner instance and database.
 4. Click **Spanner Studio** in the left-hand menu.
 
 ### Use Cases
+
 Spanner Studio is ideal for:
+
 - Database administrators performing quick schema changes or data fixes
 - Developers prototyping queries and schemas
 - Data analysts exploring data visually
 - Teams managing Spanner databases without scripting
 
 ### Limitations
+
 - Not all advanced operations are available (e.g., bulk data loading, complex backups, or programmatic access)
 - For automation or large-scale operations, use the Spanner API, client libraries, or gcloud CLI
 - Performance-intensive tasks (e.g., very large queries) are better handled via code

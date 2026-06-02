@@ -16,49 +16,49 @@ Here are 30 single-option multiple-choice quiz questions based on the provided o
 
 **Part I: Analog Electronics**
 
-1.  **Which of the following laws states that the algebraic sum of currents entering a node is zero?**
+1. **Which of the following laws states that the algebraic sum of currents entering a node is zero?**
     * Ohm's Law
     * Kirchhoff's Voltage Law
     * Kirchhoff's Current Law
     * Norton's Theorem
 
-2.  **In nodal analysis, what is the primary unknown variable solved for?**
+2. **In nodal analysis, what is the primary unknown variable solved for?**
     * Branch currents
     * Loop currents
     * Node voltages
     * Power dissipation
 
-3.  **Which semiconductor device is primarily used for rectification in DC power supplies?**
+3. **Which semiconductor device is primarily used for rectification in DC power supplies?**
     * BJT
     * Diode
     * Op-Amp
     * Transistor
 
-4.  **What is the typical voltage gain characteristic of a Common Collector (CC) amplifier configuration?**
+4. **What is the typical voltage gain characteristic of a Common Collector (CC) amplifier configuration?**
     * Very high voltage gain
     * Voltage gain approximately equal to 1
     * Very low voltage gain
     * Infinite voltage gain
 
-5.  **Which of the following is a key characteristic of an ideal operational amplifier (Op-Amp) in an inverting or non-inverting configuration?**
+5. **Which of the following is a key characteristic of an ideal operational amplifier (Op-Amp) in an inverting or non-inverting configuration?**
     * High output impedance
     * Finite open-loop gain
     * Zero input current (virtual open)
     * Large input offset voltage
 
-6.  **An Op-Amp circuit designed to produce an output voltage proportional to the integral of its input voltage is called a/an:**
+6. **An Op-Amp circuit designed to produce an output voltage proportional to the integral of its input voltage is called a/an:**
     * Differentiator
     * Comparator
     * Integrator
     * Buffer
 
-7.  **What is the primary function of a filter circuit in a DC power supply?**
+7. **What is the primary function of a filter circuit in a DC power supply?**
     * To increase the AC voltage
     * To convert AC to DC
     * To smooth out the pulsating DC output from the rectifier
     * To regulate the output voltage
 
-8.  **Which type of regulator typically offers higher efficiency, especially for larger voltage differences between input and output?**
+8. **Which type of regulator typically offers higher efficiency, especially for larger voltage differences between input and output?**
     * Linear regulator
     * Zener diode regulator
     * Switching regulator
@@ -66,7 +66,7 @@ Here are 30 single-option multiple-choice quiz questions based on the provided o
 
 **Part II: Digital Electronics**
 
-9.  **What is the binary equivalent of the decimal number 13?**
+9. **What is the binary equivalent of the decimal number 13?**
     * 1010
     * 1101
     * 1001

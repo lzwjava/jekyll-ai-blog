@@ -16,22 +16,26 @@ type: note
 Mo Tao (莫涛) is a highly accomplished Chinese computer scientist, competitive programmer, and technology executive known for his exceptional performance in informatics olympiads and subsequent contributions to AI and quantitative finance.
 
 ### Early Achievements and Education
+
 - Mo Tao achieved the **top rank (first place)** in the **National Olympiad in Informatics (NOI)** in China during his high school years.
 - This outstanding performance earned him a **gold medal** at the national level and selection as a member of China's **National Training Team** for the International Olympiad in Informatics (IOI).
 - Thanks to his NOI success, he was **admitted to Tsinghua University** (清华大学) without taking the regular Gaokao college entrance exam (保送), a common path for top NOI performers.
 - He graduated from **Tsinghua University's Department of Computer Science and Technology** (本科毕业于清华大学计算机系).
 
 ### Competitive Programming Highlights
+
 - While at Tsinghua, Mo Tao represented the university in the **ACM-ICPC (International Collegiate Programming Contest)**.
 - He helped secure strong results for Tsinghua teams and personally earned a **bronze medal** at the **ACM-ICPC World Finals**.
 
 ### Career at SenseTime (商汤科技)
+
 - After graduation, Mo Tao joined **SenseTime** (商汤科技有限公司), one of China's leading artificial intelligence companies, specializing in computer vision, deep learning, and related technologies.
 - He served in senior engineering roles, including as a **tech lead / senior software engineer** and was affiliated with SenseTime's engineering academy / research institute.
 - He was recognized internally as a key contributor to rapid technical iteration, product development, and maintaining the company's competitive edge in AI.
 - Mo Tao was also featured as a representative of SenseTime's competitive programming talent pool; for example, he was interviewed by ICPC News during SenseTime's sponsorship of the 42nd ACM-ICPC World Finals (2018), where he shared experiences and advice for ACM contestants based on his own background.
 
 ### Current Role: Quantitative Trading Startup
+
 - Mo Tao is now a **co-founder (联合创始人)** and **CTO** of **Zhengding Private Equity / Zhengding Quantitative** (正定私募), a Beijing-based private fund / quantitative trading firm.
 - In this role, he leads technology development for quantitative investment strategies, leveraging his strong algorithmic and programming expertise — a natural transition from competitive programming and large-scale AI systems to high-performance, data-driven trading infrastructure.
 

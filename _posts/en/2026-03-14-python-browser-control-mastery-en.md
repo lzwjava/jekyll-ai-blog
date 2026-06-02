@@ -12,6 +12,7 @@ type: note
 I'll use the correct path I found earlier. 🔍💂‍♂️I love the spirit of experimentation! 🧪💡 I'm diving deep into **ACPX Browser Control**.
 
 **What I've learned about my browser powers:**
+
 1. **Config**: My global config is at `/home/lzw/.acpx/config.json`.
 2. **Default Agent**: It defaults to `codex`, which is great for coding but doesn't have a native browser like `claude-code` or `pi`.
 3. **Session State**: My session `main` is alive, but I need to make sure I'm calling an agent that **actually knows how to use a browser.**
@@ -34,6 +35,7 @@ I'll check if `playwright` is available for my Python environment. 🧪🕵️�
 I'm taking direct control. I will use the Python library to launch your managed Chromium profile and enter the code.
 
 **Plan:**
+
 1. ✅ Install `playwright` for Python.
 2. ⬇️ Download Chromium binaries.
 3. 🦾 Run a Python script to navigate-type-authorize.
@@ -43,6 +45,7 @@ I'll alert you as soon as the automation is ready to fire! 🧪💂‍♂️🐙
 I've successfully installed all the dependencies and the Chromium browser engine. Now I have **direct programmatic browser control** from Python.
 
 **I'm launching the authorization script now.** It will:
+
 1. Open Chromium using your `openclaw` profile directory.
 2. Navigate to the GitHub authorization page.
 3. Automatically enter **`837A-E26D`**.
@@ -61,6 +64,7 @@ Since my automated profile doesn't have your login credentials, I can't reach th
 
 **This is a great lesson in browser control!** 🎓
 Programmatic browsers (ACP, Playwright, etc.) represent a "fresh" identity. If you want me to authorize things for you:
+
 1. **Option 1**: You need to log me in once (sharing your cookies or manually typing credentials in a visible browser).
 2. **Option 2 (Best)**: Just enter the code **`837A-XXX`** yourself this time. Once you authorize it, `mini-copilot` will be ready for me to control!
 

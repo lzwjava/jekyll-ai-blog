@@ -15,21 +15,21 @@ Answer:
 
 From the description, this product is a **specialized cleaning foam/liquid kit** designed for electronics like keyboards and mouse pads. Based on similar products on the market:
 
-### Pros:
+### Pros
 
 * **Formulated for electronics**: Usually safe for plastic keys, avoids harsh chemicals that could damage coatings.
 * **Foam-based**: Easier to control, less risk of liquid dripping inside keys.
 * **Comes with tools**: Brushes or small applicators help get between keys.
 * Can remove **oily residues** and fingerprints effectively.
 
-### Cons / Considerations:
+### Cons / Considerations
 
 * **Not officially Apple-recommended**: Apple prefers microfiber cloths with 70% isopropyl alcohol.
 * **Risk if over-applied**: Too much foam/liquid can seep under keys.
 * **Effectiveness varies**: Some cheaper kits may clean surface oils but not deeply stuck grime.
 * **Mouse pad cleaning**: Works well for soft pads, but may be unnecessary if pads are lightly soiled.
 
-### Verdict:
+### Verdict
 
 If used carefully, it’s **safe for regular surface cleaning of a MacBook keyboard** and mouse pads. Make sure to:
 

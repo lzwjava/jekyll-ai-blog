@@ -29,6 +29,7 @@ Victoria Harbour's story stretches back centuries, but its modern prominence tie
 The harbor symbolizes Hong Kong's blend of East and West, evolving from a colonial trading post to a symbol of resilience amid geopolitical shifts.
 
 ### References
+
 - [How Hong Kong's Victoria Harbour Came To Define The City](https://theculturetrip.com/asia/china/hong-kong/articles/how-hong-kongs-victoria-harbour-came-to-define-the-city)
 - [Interesting Facts About Iconic Victoria Harbour Hong Kong](https://expatliving.net/hong-kong/history-of-victoria-harbour-hong-kong-the-fragrant-harbour/)
 - [History of the Port of Hong Kong: Part 1](https://www.theshipyardblog.com/history-of-the-port-of-hong-kong-part-1/)

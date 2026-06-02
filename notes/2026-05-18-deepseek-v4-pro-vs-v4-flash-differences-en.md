@@ -52,6 +52,7 @@ V4 Pro and V4 Flash both have a very high hallucination rate of **94% and 96%** 
 ## 4. Capabilities (Shared)
 
 Both models support:
+
 - 1M token context window
 - Thinking / Non-Thinking modes
 - Tool calling

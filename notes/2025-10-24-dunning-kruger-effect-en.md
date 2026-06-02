@@ -33,6 +33,7 @@ These biases aren't universal; experts or those in humble cultures might underes
 ### Why It Matters and How to Counter It
 
 Overestimation can lead to poor decisions, like taking on unprepared projects or ignoring advice, with real-world ripple effects in workplaces, relationships, and even elections (e.g., unqualified leaders gaining undue confidence). To mitigate it:
+
 - Seek external feedback regularly.
 - Expose yourself to expert-level work in the domain.
 - Practice "metacognition" by journaling your predictions vs. outcomes.
@@ -40,6 +41,7 @@ Overestimation can lead to poor decisions, like taking on unprepared projects or
 Understanding these patterns isn't about self-deprecation—it's about fostering more accurate, growth-oriented self-views.
 
 ### References
+
 - [Dunning–Kruger effect - Wikipedia](https://en.wikipedia.org/wiki/Dunning%25E2%2580%2593Kruger_effect)
 - [How the Dunning-Kruger Effect Works - Verywell Mind](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740)
 - [Dunning-Kruger Effect - Psychology Today](https://www.psychologytoday.com/us/basics/dunning-kruger-effect)

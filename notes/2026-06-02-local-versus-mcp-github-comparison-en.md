@@ -16,6 +16,7 @@ type: note
 Looking at your `git_update.py` — you've already solved the hard part. Your script is doing the smart thing: **parallel fetch, selective pull, category organization**. You're not missing much.
 
 **What you have:**
+
 - ✅ Batch sync for 100-200 repos
 - ✅ Parallel workers (default 8 jobs)
 - ✅ Smart detection (only pull what changed)
@@ -35,6 +36,7 @@ Looking at your `git_update.py` — you've already solved the hard part. Your sc
 **What's actually missing (and worth adding):**
 
 1. **Semantic code search** — "find all GPU patterns across repos"
+
    ```bash
    # You have: grep, local scan
    # You need: BM25 index + vector embeddings
@@ -42,12 +44,14 @@ Looking at your `git_update.py` — you've already solved the hard part. Your sc
    ```
 
 2. **Write-back automation** — if you want agents to commit/push
+
    ```python
    # Currently: read-only
    # Need: git + GitHub token for PRs
    ```
 
 3. **Metadata without downloading** — if you want aggregate insights fast
+
    ```bash
    # Query: "show me all repos with commits in last 7 days"
    # Local: must git pull + git log
@@ -57,6 +61,7 @@ Looking at your `git_update.py` — you've already solved the hard part. Your sc
 **My honest take:** For **code analysis + pattern discovery**, your approach is better. You have all the code locally, agents can search/analyze fast. MCP shines for **operational tasks** (monitor 500 repos, auto-sync, write back). You're at 100-200 — local wins.
 
 If you want to evolve it, add:
+
 - **Vector index** of all code in your repos (embed locally, search fast)
 - **Git log aggregation** into a searchable DB (commits, authors, frequency)
 - **Agent hooks** to analyze patterns without re-downloading

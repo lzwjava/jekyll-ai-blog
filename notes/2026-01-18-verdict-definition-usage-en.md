@@ -30,6 +30,7 @@ type: note
 The word comes from Latin roots meaning roughly "true saying" or "true declaration" (ver = true + dictum = saying).
 
 In short:
+
 - Court/legal context → jury/judge's final decision
 - Casual context → your personal conclusion or opinion
 

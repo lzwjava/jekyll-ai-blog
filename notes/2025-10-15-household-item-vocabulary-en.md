@@ -15,6 +15,7 @@ type: note
 I'll break this down into categories for household items (daily life things), based on your examples like tissue, towel (I assume "tower" means towel), rubbish packet (garbage bag), kitchen tools, and cleaning chemicals. These are simple, common words used in homes. I've included pronunciations in simple phonetics (e.g., "tee-shoo") and short explanations.
 
 #### Bathroom Items
+
 | English Word | Pronunciation | What It's For |
 |--------------|---------------|---------------|
 | Tissue (or facial tissue) | TISH-oo | Soft paper for nose or face wiping |
@@ -26,6 +27,7 @@ I'll break this down into categories for household items (daily life things), ba
 | Toothpaste | TOOTH-paste | Paste for brushing teeth |
 
 #### Cleaning Supplies (Including Toilet Chemicals)
+
 | English Word | Pronunciation | What It's For |
 |--------------|---------------|---------------|
 | Bleach | BLEECH | Strong chemical to disinfect and whiten (use for toilet cleaning) |
@@ -37,6 +39,7 @@ I'll break this down into categories for household items (daily life things), ba
 | Bucket | BUCK-it | Container for water during cleaning |
 
 #### Kitchen Items (Often Used)
+
 | English Word | Pronunciation | What It's For |
 |--------------|---------------|---------------|
 | Knife | NYFE | For cutting food |
@@ -53,6 +56,7 @@ I'll break this down into categories for household items (daily life things), ba
 | Sink | SINK | Basin for washing dishes |
 
 #### General Home Items
+
 | English Word | Pronunciation | What It's For |
 |--------------|---------------|---------------|
 | Garbage bag (rubbish packet) | GAR-bij BAG | Plastic bag for throwing away trash |

@@ -40,6 +40,7 @@ RTX 5070 引入了显著的架构变革，最引人注目的是采用了 **GDDR7
 * **神经着色器：** 该技术使用小型 AI 网络来计算光照和材质，在实时渲染中提供电影级的真实感。
 
 ### **对比：RTX 5070 vs. RTX 4070**
+
 * **速度：** 平均而言，RTX 5070 在传统光栅化渲染上的性能比标准版 RTX 4070 快约 **20-30%**。
 * **能效：** 虽然 RTX 5070 性能更强，但其功耗也更高（**250W** vs 4070 的 **200W**）。
 * **显存：** 虽然两者均有 12GB 显存，但 5070 的 **GDDR7** 提供了更高的带宽（数据传输速度快 33%），这对 1440p 高清纹理和高刷新率游戏有显著帮助。
@@ -51,6 +52,7 @@ RTX 5070 引入了显著的架构变革，最引人注目的是采用了 **GDDR7
 截至 2026 年，RTX 5070 对于希望获得 **DLSS 4** 和 **光线重建** 等现代特性、但又不想跳至昂贵得多的 5080 或 5090 级别的用户来说，仍然是高性价比之选。它尤其适合 SFF（小型化紧凑型）装机方案，许多制造商都推出了紧凑型双风扇版本。
 
 参考资料：
+
 * [NVIDIA GeForce RTX 5070 规格 - TechPowerUp](https://www.techpowerup.com/gpu-specs/geforce-rtx-5070.c4218)
 * [GeForce RTX 5070 系列 - NVIDIA 官方](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/)
 * [RTX 4070 vs 5070：游戏帧率与基准测试 - HowManyFPS](https://howmanyfps.com/graphics-cards/comparisons/geforce-rtx-4070-vs-geforce-rtx-5070)

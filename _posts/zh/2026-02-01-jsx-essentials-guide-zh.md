@@ -51,6 +51,7 @@ JSX 看起来像 HTML，但有一些你需要了解的重要区别：
 **Inline styles 是 objects，而不是 strings。** 你需要向 `style` 属性传递一个 JavaScript object：
 
 {% raw %}
+
 ```jsx
 // ❌ 错误
 <div style="color: red; font-size: 16px"></div>
@@ -58,6 +59,7 @@ JSX 看起来像 HTML，但有一些你需要了解的重要区别：
 // ✅ 正确
 <div style={{ color: "red", fontSize: "16px" }}></div>
 ```
+
 {% endraw %}
 
 这里的双大括号并不是特殊的语法 —— 外层的 `{}` 是 JSX 表达式的分隔符，内层的 `{}` 是一个常规的 JavaScript object literal。

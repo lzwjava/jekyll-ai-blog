@@ -11,11 +11,13 @@ type: note
 Building genuine professional relationships in the corporate world—especially in tech, where interactions can feel superficial—requires consistent effort, authenticity, and a focus on mutual value rather than just networking for gain. It's not about collecting connections on LinkedIn; it's about fostering trust and support that lasts beyond job changes or layoffs. Yes, ideas like starting a blog or sending occasional DMs can help, but they're most effective when part of a broader strategy. Below, I'll break it down with practical tips, drawing from common advice in this area.
 
 ### Addressing Your Examples
+
 - **Starting a Blog**: This is a solid approach. By sharing your insights on industry trends, tech challenges, or lessons learned (e.g., via Medium, your own site, or LinkedIn articles), you position yourself as a thoughtful contributor rather than just a job-seeker. It attracts people who resonate with your ideas, leading to organic conversations in comments or DMs. Over time, this builds credibility and draws in collaborators or mentors. Tip: Keep it consistent (e.g., one post a month) and engage with readers' responses to turn it into two-way interactions.
 
 - **DMing People Once or Twice a Year**: This can maintain connections, but it's often too infrequent to feel "real" unless the messages are personalized and meaningful. A generic "Happy holidays!" might get ignored, but referencing a shared experience (e.g., "Saw your post on AI ethics—reminded me of our project at XYZ. How's that going?") shows genuine interest. Aim for quality: Use these touchpoints to offer help or share something useful, not just to check in.
 
 ### Broader Tips for Building Real Relationships
+
 Here are actionable steps to create deeper bonds. Start small, like with 3-5 people in your network, and expand as habits form.
 
 - **Be Authentic and Vulnerable**: People connect with real humans, not polished personas. Share your challenges (e.g., a tough project lesson) in conversations or posts, but keep it professional. This invites reciprocity and builds trust faster than surface-level chit-chat.

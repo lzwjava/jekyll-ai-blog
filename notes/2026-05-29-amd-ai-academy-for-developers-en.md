@@ -19,10 +19,12 @@ type: note
 **Relevant to you?** Yes, conditionally:
 
 **Immediate value:**
+
 - You have access to MI300X on AMD Dev Cloud but likely aren't extracting maximum value yet. Understanding ROCm's memory model, kernel optimization, and compilation pipeline could unlock 2-3x better utilization on your ML workloads.
 - If you're doing GPT-2 training or fine-tuning at scale, ROCm profiling and optimization beats flying blind.
 
 **Lower priority:**
+
 - Ryzen AI courses are for mobile/edge — not your focus right now.
 - RDNA architecture is interesting but only if you're doing custom kernel development. Most of the time, cuBLAS alternatives and existing GEMM kernels handle 95% of your compute.
 

@@ -16,23 +16,23 @@ type: note
 
 将 Rust 与 Java 集成的关键在于**外部函数接口（FFI）**。这使得用一种语言（Java）编写的代码能够调用用另一种语言（Rust）实现的函数，反之亦然。Java 与本地代码之间 FFI 的主要机制有：
 
-1.  **Java 本地接口（JNI）：** 这是 JVM 提供的官方内置框架，用于与本地应用程序和库交互。
+1. **Java 本地接口（JNI）：** 这是 JVM 提供的官方内置框架，用于与本地应用程序和库交互。
 
-    *   **工作原理：** 你在 Java 代码中定义 `native` 方法。然后，你在 Rust（或 C/C++）中实现这些方法，遵循特定的命名约定，并在 Rust 中使用 `jni` crate 与 Java 环境交互（例如，访问 Java 对象、抛出异常）。
-    *   **优点：** 官方支持、高度优化、可直接访问 JVM 内部。
-    *   **缺点：** 可能冗长，需要谨慎处理跨语言边界的内存和对象生命周期，函数名需遵循严格模式。
+    * **工作原理：** 你在 Java 代码中定义 `native` 方法。然后，你在 Rust（或 C/C++）中实现这些方法，遵循特定的命名约定，并在 Rust 中使用 `jni` crate 与 Java 环境交互（例如，访问 Java 对象、抛出异常）。
+    * **优点：** 官方支持、高度优化、可直接访问 JVM 内部。
+    * **缺点：** 可能冗长，需要谨慎处理跨语言边界的内存和对象生命周期，函数名需遵循严格模式。
 
-2.  **JNA（Java 本地访问）/ JNR-FFI：** 这些是第三方库，通过允许你直接从 Java 调用本地库而无需编写 JNI C/C++（或 Rust）胶水代码，从而简化了 FFI。
+2. **JNA（Java 本地访问）/ JNR-FFI：** 这些是第三方库，通过允许你直接从 Java 调用本地库而无需编写 JNI C/C++（或 Rust）胶水代码，从而简化了 FFI。
 
-    *   **工作原理：** 你定义一个 Java 接口，该接口镜像了本地库的 C 函数签名。然后 JNA/JNR-FFI 动态加载本地库并将 Java 接口方法映射到相应的本地函数。
-    *   **优点：** 比 JNI 的样板代码少得多，更易于使用。
-    *   **缺点：** 在某些情况下性能略低于原始 JNI（但对于典型用例通常可忽略），可能不直接支持所有复杂的 JNI 交互。
+    * **工作原理：** 你定义一个 Java 接口，该接口镜像了本地库的 C 函数签名。然后 JNA/JNR-FFI 动态加载本地库并将 Java 接口方法映射到相应的本地函数。
+    * **优点：** 比 JNI 的样板代码少得多，更易于使用。
+    * **缺点：** 在某些情况下性能略低于原始 JNI（但对于典型用例通常可忽略），可能不直接支持所有复杂的 JNI 交互。
 
-3.  **Project Panama（现代 FFI）：** 这是一个正在进行的 OpenJDK 项目（在最近的 Java 版本，如 Java 21+ 中作为预览功能提供），旨在为 FFI 提供更安全、更高效、更易于使用的 API。它是 Java 本地互操作的未来。
+3. **Project Panama（现代 FFI）：** 这是一个正在进行的 OpenJDK 项目（在最近的 Java 版本，如 Java 21+ 中作为预览功能提供），旨在为 FFI 提供更安全、更高效、更易于使用的 API。它是 Java 本地互操作的未来。
 
-    *   **工作原理：** 它使用 `jextract` 从 C 头文件生成 Java 绑定，允许你几乎像调用常规 Java 方法一样调用本地函数。
-    *   **优点：** 为安全性和性能而设计，更符合 Java 语言习惯。
-    *   **缺点：** 仍在发展中，可能需要较新的 Java 版本。
+    * **工作原理：** 它使用 `jextract` 从 C 头文件生成 Java 绑定，允许你几乎像调用常规 Java 方法一样调用本地函数。
+    * **优点：** 为安全性和性能而设计，更符合 Java 语言习惯。
+    * **缺点：** 仍在发展中，可能需要较新的 Java 版本。
 
 ### 与 Maven 集成
 
@@ -40,33 +40,33 @@ type: note
 
 以下是 Maven 工作流的概念性概述：
 
-1.  **定义你的 Rust 项目：** 创建一个标准的 Rust 项目（一个 `cargo` crate），其中包含你的算法解决方案。
+1. **定义你的 Rust 项目：** 创建一个标准的 Rust 项目（一个 `cargo` crate），其中包含你的算法解决方案。
 
-    *   如果使用 JNI，你的 Rust 函数需要遵循 JNI 命名约定（例如，`Java_com_lzw_solutions_YourClass_yourMethod`）。
-    *   如果使用 JNA/JNR-FFI，你可以定义更标准的 Rust 函数，使用 `#[no_mangle]` 和 `extern "C"`。
+    * 如果使用 JNI，你的 Rust 函数需要遵循 JNI 命名约定（例如，`Java_com_lzw_solutions_YourClass_yourMethod`）。
+    * 如果使用 JNA/JNR-FFI，你可以定义更标准的 Rust 函数，使用 `#[no_mangle]` 和 `extern "C"`。
 
-2.  **添加 Rust Maven 插件：**
+2. **添加 Rust Maven 插件：**
 
-    *   在你的 `pom.xml` 的 `<build><plugins>` 部分包含一个像 `rust-maven-plugin` 这样的插件。
-    *   配置它以：
-        *   指定你的 Rust crate 的路径。
-        *   定义构建目标（例如，`build`）。
-        *   在你的 `Cargo.toml` 中将 `cdylib` 指定为 crate 类型，以生成动态库（`.so`, `.dll`, `.dylib`）。
-        *   将编译后的本地库复制到你的 Java 项目的 `target/classes` 目录或平台特定的子目录中。这允许 Maven 将其包含在最终的 JAR 中。
+    * 在你的 `pom.xml` 的 `<build><plugins>` 部分包含一个像 `rust-maven-plugin` 这样的插件。
+    * 配置它以：
+        * 指定你的 Rust crate 的路径。
+        * 定义构建目标（例如，`build`）。
+        * 在你的 `Cargo.toml` 中将 `cdylib` 指定为 crate 类型，以生成动态库（`.so`, `.dll`, `.dylib`）。
+        * 将编译后的本地库复制到你的 Java 项目的 `target/classes` 目录或平台特定的子目录中。这允许 Maven 将其包含在最终的 JAR 中。
 
-3.  **用于加载和调用 Rust 的 Java 代码：**
+3. **用于加载和调用 Rust 的 Java 代码：**
 
-    *   在你的 Java 代码中，你需要在运行时加载本地库。
-        *   对于 JNI：`System.loadLibrary("your_rust_lib_name");`（或 `System.load("path/to/your/lib")`）。
-        *   对于 JNA/JNR-FFI：使用它们各自的 `LibraryLoader` 机制。
-    *   在你的 Java 类中定义 `native` 方法，这些方法对应于你想要调用的 Rust 函数。
+    * 在你的 Java 代码中，你需要在运行时加载本地库。
+        * 对于 JNI：`System.loadLibrary("your_rust_lib_name");`（或 `System.load("path/to/your/lib")`）。
+        * 对于 JNA/JNR-FFI：使用它们各自的 `LibraryLoader` 机制。
+    * 在你的 Java 类中定义 `native` 方法，这些方法对应于你想要调用的 Rust 函数。
 
-4.  **Maven 生命周期集成：**
+4. **Maven 生命周期集成：**
 
-    *   **`clean`：** Rust Maven 插件应确保 `mvn clean` 也能清理 Rust 构建产物。
-    *   **`compile` / `package`：** Rust 插件将在这些阶段调用 `cargo build`，编译你的 Rust 代码并将本地库放置在正确的位置以便打包。
-    *   **`test`：** Rust 插件也可以配置为在 `mvn test` 期间运行 `cargo test`。
-    *   **`verify` / `install` / `deploy`：** 这些阶段将包含你项目 JAR 或其他分发构件中的已编译 Rust 本地库。
+    * **`clean`：** Rust Maven 插件应确保 `mvn clean` 也能清理 Rust 构建产物。
+    * **`compile` / `package`：** Rust 插件将在这些阶段调用 `cargo build`，编译你的 Rust 代码并将本地库放置在正确的位置以便打包。
+    * **`test`：** Rust 插件也可以配置为在 `mvn test` 期间运行 `cargo test`。
+    * **`verify` / `install` / `deploy`：** 这些阶段将包含你项目 JAR 或其他分发构件中的已编译 Rust 本地库。
 
 ### `pom.xml` 代码片段示例（概念性）
 
@@ -224,14 +224,14 @@ public class RustAlgorithm {
 }
 ```
 
-### 注意事项和最佳实践：
+### 注意事项和最佳实践
 
-*   **错误处理：** 在 Rust 中，跨 FFI 边界的健壮错误处理至关重要。`jni` crate 提供了从 Rust 抛出 Java 异常的机制。
-*   **数据转换：** 仔细考虑数据类型如何在 Java 和 Rust 之间转换。基本类型通常很简单，但复杂对象、字符串和集合需要更多考虑，并且通常涉及从 Rust 操作 Java 对象的 JNI 调用。
-*   **内存管理：** Rust 的所有权和借用系统有助于内存安全。当通过 JNI 与 Java 交互时，请注意谁拥有内存以及何时应释放资源，以避免内存泄漏或崩溃。
-*   **平台特定性：** 本地库是平台相关的。`rust-maven-plugin` 和 `JarJniLoader`（如果使用）可以帮助管理平台特定的库加载。
-*   **测试：** 为你的 Rust 代码和 Java 集成层编写全面的单元测试和集成测试。
-*   **构建环境：** 确保你的构建环境已安装 Rust 和 Cargo，并且 Maven 可以访问它们。
-*   **调试：** 调试 FFI 问题可能更复杂，通常需要同时使用 Java（JVM）和本地代码的调试工具。
+* **错误处理：** 在 Rust 中，跨 FFI 边界的健壮错误处理至关重要。`jni` crate 提供了从 Rust 抛出 Java 异常的机制。
+* **数据转换：** 仔细考虑数据类型如何在 Java 和 Rust 之间转换。基本类型通常很简单，但复杂对象、字符串和集合需要更多考虑，并且通常涉及从 Rust 操作 Java 对象的 JNI 调用。
+* **内存管理：** Rust 的所有权和借用系统有助于内存安全。当通过 JNI 与 Java 交互时，请注意谁拥有内存以及何时应释放资源，以避免内存泄漏或崩溃。
+* **平台特定性：** 本地库是平台相关的。`rust-maven-plugin` 和 `JarJniLoader`（如果使用）可以帮助管理平台特定的库加载。
+* **测试：** 为你的 Rust 代码和 Java 集成层编写全面的单元测试和集成测试。
+* **构建环境：** 确保你的构建环境已安装 Rust 和 Cargo，并且 Maven 可以访问它们。
+* **调试：** 调试 FFI 问题可能更复杂，通常需要同时使用 Java（JVM）和本地代码的调试工具。
 
 通过遵循这些原则并利用现有的 Maven 插件，你可以有效地将基于 Rust 的算法解决方案集成到你的 Java Maven 项目中，从而获得两个生态系统的好处。

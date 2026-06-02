@@ -42,12 +42,14 @@ To get a reply rate >30–50%, you must make the message about **them and their 
    - “您好，我是XX（共同好友/前同事）的朋友，他让我直接找您，说贵司XX岗位急招，我正好…”
 
 ### What You Should NEVER Do
+
 - Send 200+ word self-introductions → instantly ignored
 - Start with “您好，我是XX，今年XX岁…” → looks like a robot
 - Only say “您好，在招XX吗？有兴趣聊聊” → too plain, zero differentiation
 - Attach resume in first message without context → most HR won’t open
 
 ### Ideal Message Structure (3 Lines Max)
+
 1. Hook (funny/personalized/pain-solving)
 2. Proof (one strong result or keyword match)
 3. Call-to-action (“10分钟电话/简历已投/方便时聊聊”)
@@ -60,5 +62,6 @@ Example that got 87% reply rate in my last test:
 Try the first 10 recruiters with the title-play template — you’ll see the reply rate explode immediately.
 
 References:
+
 - Multiple real tests on Zhipin 2024–2025 by career coaches and candidates on Xiaohongshu and Zhihu
 - Summary of 500+ successful Zhipin chat records (public datasets on Pulse & Xiaohongshu)

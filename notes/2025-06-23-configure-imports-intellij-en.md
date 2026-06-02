@@ -10,18 +10,18 @@ type: note
 
 IntelliJ IDEA provides settings to control how it handles imports, including preventing the use of wildcards. Here's how you can configure it to always use single-class imports:
 
-1.  **Open Settings/Preferences:**
+1. **Open Settings/Preferences:**
     * **Windows/Linux:** `Ctrl + Alt + S`
     * **macOS:** `Cmd + ,` (Comma)
 
-2.  **Navigate to Code Style for Java:**
+2. **Navigate to Code Style for Java:**
     * In the left-hand pane of the Settings dialog, navigate to:
         `Editor` -> `Code Style` -> `Java`
 
-3.  **Go to the "Imports" Tab:**
+3. **Go to the "Imports" Tab:**
     * On the right side, select the `Imports` tab.
 
-4.  **Configure Import Settings:**
+4. **Configure Import Settings:**
     You'll see a few important settings here:
 
     * **`Use single class import`**: **Check this checkbox.** This is the primary setting that tells IntelliJ to prefer individual class imports over wildcard imports.
@@ -32,7 +32,7 @@ IntelliJ IDEA provides settings to control how it handles imports, including pre
 
     * **`Packages to Use Imports with '*'`**: This table lists packages for which IntelliJ will *always* use wildcard imports, regardless of the other settings. **Ensure this table is empty** if you want to completely avoid wildcard imports. If you see entries like `java.util.*` or `java.awt.*`, remove them.
 
-5.  **Apply Changes:**
+5. **Apply Changes:**
     * Click `Apply` and then `OK` to save your changes.
 
 **After making these changes:**

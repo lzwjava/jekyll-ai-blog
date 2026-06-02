@@ -15,16 +15,19 @@ type: note
 The **Union-Find** algorithm (also called **Disjoint Set Union** or **DSU**) is a data structure and set of operations used to manage a collection of disjoint sets (groups of elements that don't overlap). It's efficient for problems involving grouping, merging, or checking connectivity, like in graph algorithms or clustering.
 
 Key operations:
+
 - **Find**: Determines which set an element belongs to (often by finding the "root" or representative of the set).
 - **Union**: Merges two sets into one.
 
 The algorithm shines due to optimizations like **path compression** (flattening the tree structure during finds) and **union by rank/size** (merging smaller trees into larger ones to keep the structure balanced). This makes it nearly O(1) amortized time per operation—super fast for large datasets.
 
 #### Core Data Structure
+
 - An array `p[]` (parent array): `p[i]` points to the parent of element `i`. Initially, each element is its own parent (`p[i] = i`).
 - Optional: A `rank[]` array for union by rank to balance merges.
 
 #### The Find Operation (with Path Compression)
+
 The `find` function traces back from an element to its root. The line you mentioned—`if (p[i] != -1) i = p[i]`—is a recursive or iterative step in this process. It follows the parent pointers until reaching the root (where `p[root] == root` or `p[root] == -1` for a sentinel).
 
 Here's a simple iterative implementation in pseudocode:
@@ -51,11 +54,14 @@ function find(i):
 - Without compression, repeated finds can make the structure a long chain (O(n) worst case). Compression makes it almost flat.
 
 #### The Union Operation
+
 To merge sets of `x` and `y`:
+
 1. Find roots: `rootX = find(x)`, `rootY = find(y)`.
 2. If `rootX != rootY`, link one to the other (e.g., by rank: attach smaller rank to larger).
 
 Pseudocode:
+
 ```
 function union(x, y):
     rootX = find(x)
@@ -71,6 +77,7 @@ function union(x, y):
 ```
 
 #### How to Use the Algorithm
+
 Union-Find is ideal for dynamic connectivity problems. Here's a step-by-step guide with examples:
 
 1. **Initialization**:
@@ -84,6 +91,7 @@ Union-Find is ideal for dynamic connectivity problems. Here's a step-by-step gui
 
 3. **Example: Detecting Connected Components in a Graph**
    Imagine a graph with 5 nodes (0-4) and edges like (0-1), (1-2), (3-4).
+
    ```
    // Init
    p = [-1, -1, -1, -1, -1]
@@ -105,6 +113,7 @@ Union-Find is ideal for dynamic connectivity problems. Here's a step-by-step gui
    - **Cycle Detection in Undirected Graphs**: Union endpoints; if already same set, cycle exists.
 
 #### Simple Python Implementation
+
 ```python
 class UnionFind:
     def __init__(self, n):

@@ -15,11 +15,10 @@ This is the README.md from github project [https://github.com/lzwjava/Keynotes](
 
 Keynotes:
 
-* [Advanced Git Operations and Principles](#Git)
+* [Advanced Git Operations and Principles](#git)
 * [WebSocket](#websocket)
 * [UnitTest](#unittest)
 * [Live Streaming Technology Without Reservation](#live)
-
 
 Welcome to discuss, if you have any questions, please raise an [issue](https://github.com/lzwjava/Keynotes/issues/new), and I will answer them as soon as possible.
 
@@ -29,8 +28,8 @@ Welcome to discuss, if you have any questions, please raise an [issue](https://g
 
 In the Live directory.
 
-
 ## Git
+
 2016.5.3 Live on Douyu
 
 ![qq20160503-0 2x](https://cloud.githubusercontent.com/assets/5022872/14990617/f3886dc4-118f-11e6-93e6-094c778fe446.jpg)
@@ -40,7 +39,6 @@ In the Live directory.
 ![qq20160502-3 2x](https://cloud.githubusercontent.com/assets/5022872/14990828/0d79bfc0-1191-11e6-8008-f2de6287f5a9.jpg)
 
 ![qq20160502-2 2x](https://cloud.githubusercontent.com/assets/5022872/14990614/f2dd76c6-118f-11e6-94c2-9cac2b917824.jpg)
-
 
 ## WebSocket
 
@@ -66,10 +64,9 @@ In the Live directory.
 
 ![qq20160423-9 2x](https://cloud.githubusercontent.com/assets/5022872/14762525/224a3874-09af-11e6-923f-c891b98f1ac1.jpg)
 
-
 ## UnitTest
 
-2015.12.20 Keynote live on Douyu TV, about unit testing, automation, useful tools, etc. Video: http://reviewcode.cn/video.html?videoId=2
+2015.12.20 Keynote live on Douyu TV, about unit testing, automation, useful tools, etc. Video: <http://reviewcode.cn/video.html?videoId=2>
 
 ### 40 Pages
 

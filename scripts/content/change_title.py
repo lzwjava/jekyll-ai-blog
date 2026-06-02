@@ -80,9 +80,6 @@ def change_post_title(file_path, new_title):
 
         # Generate new URL slug from new_title. This is used for updating hyperlinks.
         # The file itself will NOT be renamed. Its slug will remain old_url_slug.
-        new_url_slug = (
-            old_url_slug  # The slug remains the same as the filename won't change.
-        )
 
         # Pass old_title to find_and_replace_hyperlinks to update the link text
         if old_url_slug:  # Ensure we have a valid slug to search for

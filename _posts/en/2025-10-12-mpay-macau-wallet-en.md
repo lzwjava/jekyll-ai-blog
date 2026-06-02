@@ -12,7 +12,8 @@ type: note
 
 **MPay** is a mobile payment app and electronic wallet developed by Macau Pass SA, serving as Macau's first multi-functional third-party e-wallet. It supports linking multiple bank accounts and credit cards (including UnionPay cards from Macau and Hong Kong) for seamless online and offline transactions.
 
-### Key Features:
+### Key Features
+
 - **Payments**: Handles in-store purchases, online shopping, bus fares, and transfers.
 - **Bill Payments**: Covers utilities (water, electricity, gas), telecom bills, and ticketing.
 - **Top-Up Options**: Recharge via convenience stores like 7-Eleven or linked cards.

@@ -15,6 +15,7 @@ type: note
 [Official Instructions (very helpful)](https://www.irs.gov/pub/irs-pdf/iw8ben.pdf)
 
 ### Who fills this form?
+
 You are a **non-U.S. individual** (not a U.S. citizen, green-card holder, or U.S. tax resident) receiving U.S.-source income (dividends, interest, royalties, freelance payments, etc.).
 
 ### Line-by-Line Instructions (2021 version)

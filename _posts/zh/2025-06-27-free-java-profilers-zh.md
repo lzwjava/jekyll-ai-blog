@@ -19,17 +19,21 @@ type: note
      - 可视化堆转储和线程状态，用于基本的内存泄漏检测和性能分析。
    - **与 YourKit 的比较**：虽然功能不如 YourKit 丰富，但 VisualVM 轻量级且足以应对基本的性能分析任务。它缺乏 YourKit 的“假设”CPU 分析或详细的数据库查询分析等高级功能，但对于开发人员来说是一个很好的起点。
    - **在 Ubuntu 上的设置**：
+
      ```bash
      sudo apt update
      sudo apt install visualvm
      visualvm
      ```
+
      或者，从官方网站下载最新版本并运行：
+
      ```bash
      unzip visualvm_<version>.zip -d /opt/visualvm
      cd /opt/visualvm/visualvm_<version>/bin
      ./visualvm
      ```
+
    - **最适合**：初学者、小型项目或需要快速、零成本性能分析解决方案的开发人员。[](https://www.baeldung.com/java-profilers)
 
 2. **Java Mission Control (JMC)**：
@@ -42,13 +46,17 @@ type: note
    - **与 YourKit 的比较**：JMC 比 VisualVM 更先进，在生产环境分析方面与 YourKit 竞争激烈。它缺乏 YourKit 的一些高级 UI 功能（例如火焰图、详细的异常分析），但在分析 JVM 内部结构和优化长时间运行的应用程序方面非常强大。
    - **在 Ubuntu 上的设置**：
      - JMC 包含在 OpenJDK 或 Oracle JDK 中。要启动：
+
        ```bash
        jmc
        ```
+
      - 确保您的 JDK 版本为 7 或更高（例如 OpenJDK 11 或 17）：
+
        ```bash
        sudo apt install openjdk-17-jdk
        ```
+
      - 通过添加 JVM 标志为您的应用程序启用 JFR（例如，对于旧版 JDK，使用 `-XX:+UnlockCommercialFeatures -XX:+FlightRecorder`，新版则不需要）。
    - **最适合**：从事生产级应用程序开发并需要详细 JVM 洞察的开发人员和运维团队。[](https://www.bairesdev.com/blog/java-profiler-tool/)[](https://www.javacodegeeks.com/2024/04/top-java-profilers-for-2024.html)
 
@@ -62,14 +70,18 @@ type: note
    - **与 YourKit 的比较**：Async Profiler 在生成火焰图和剖析本地方法方面表现出色，YourKit 也支持这些功能，但 UI 更加精美。它缺乏 YourKit 全面的数据库查询分析和 GUI 驱动的分析功能，但在精确定位性能瓶颈方面非常有效。
    - **在 Ubuntu 上的设置**：
      - 从 [GitHub](https://github.com/async-profiler/async-profiler) 下载最新版本：
+
        ```bash
        wget https://github.com/async-profiler/async-profiler/releases/download/v3.0/async-profiler-3.0-linux-x64.tar.gz
        tar -xvzf async-profiler-3.0-linux-x64.tar.gz -C /opt/async-profiler
        ```
+
      - 在 Java 应用程序上运行分析器（将 `<pid>` 替换为进程 ID）：
+
        ```bash
        /opt/async-profiler/profiler.sh -d 30 -f profile.svg <pid>
        ```
+
      - 在浏览器中查看生成的火焰图（`profile.svg`）。
    - **最适合**：从事性能关键型应用程序开发的高级开发人员，特别是那些需要火焰图或本地方法分析的人员。[](https://www.reddit.com/r/java/comments/1brrdvc/java_profilers/)
 
@@ -83,10 +95,12 @@ type: note
    - **与 YourKit 的比较**：Arthas 不像 YourKit 那样以 GUI 驱动，并且侧重于实时诊断而非深度事后分析。它在内存泄漏检测方面不如 YourKit 全面，但在需要最小化中断的生产环境中表现出色。
    - **在 Ubuntu 上的设置**：
      - 下载并安装 Arthas：
+
        ```bash
        wget https://arthas.aliyun.com/arthas-boot.jar
        java -jar arthas-boot.jar
        ```
+
      - 按照交互式提示附加到正在运行的 JVM 进程。
    - **最适合**：需要在生产环境中进行实时诊断且无需复杂设置的运维团队和开发人员。[](https://www.javacodegeeks.com/2024/04/top-java-profilers-for-2024.html)
 
@@ -99,18 +113,23 @@ type: note
    - **与 YourKit 的比较**：MAT 专精于内存分析，缺乏 YourKit 的 CPU 或数据库分析能力。对于内存特定任务来说，它是一个强大的替代品，但不能完全替代 YourKit 的全面功能集。
    - **在 Ubuntu 上的设置**：
      - 下载并安装 MAT：
+
        ```bash
        sudo apt install eclipse-mat
        ```
+
      - 或者，从 Eclipse 网站下载独立版本并运行：
+
        ```bash
        unzip MemoryAnalyzer-<version>.zip -d /opt/mat
        /opt/mat/MemoryAnalyzer
        ```
+
      - 使用 `jmap` 或 YourKit 生成堆转储，然后在 MAT 中打开进行分析。
    - **最适合**：专注于内存泄漏检测和堆分析的开发人员。[](https://alternativeto.net/software/yourkit-java-profiler/)
 
-### 关键考虑因素：
+### 关键考虑因素
+
 - **功能差距**：VisualVM、JMC 和 Async Profiler 等免费工具功能强大，但可能缺乏 YourKit 的高级功能，例如详细的数据库查询分析、异常分析或“假设”CPU 分析功能。YourKit 精美的 UI 和与 IDE（例如 Eclipse、IntelliJ）的集成也使其在某些工作流程中更加用户友好。[](https://www.baeldung.com/java-profilers)[](https://digma.ai/9-best-java-profilers-to-use-in-2024/)
 - **使用场景**：
   - 对于**小型项目或初学者**，VisualVM 或 Eclipse MAT 足够且易于设置。

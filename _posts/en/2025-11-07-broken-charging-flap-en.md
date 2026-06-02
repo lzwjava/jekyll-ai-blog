@@ -15,7 +15,9 @@ It sounds like the rubber flap (or "dust lip/cover") on your Neta EV's charging 
 Since you're in Guangzhou, sticking to local platforms like Pinduoduo, Taobao, or JD.com is easiest for exact Neta fits (search in Chinese: "哪吒EV 充电口盖" or "哪吒汽车充电口翻盖"). For international sites like Amazon or Walmart, Neta-specific parts are rare (it's a China-focused brand), but universal EV replacements often work if they match the GB/T standard (China's DC fast-charging plug type). Here's how to search effectively:
 
 ### Recommended Search Terms
+
 Use these exact phrases on Amazon, Walmart, eBay, or AliExpress—they pull up the right "charging port flap" or "dust cover" style:
+
 - "EV charging port flap replacement"
 - "Electric vehicle charge port dust cover"
 - "GBT EV charging inlet flap"
@@ -23,12 +25,14 @@ Use these exact phrases on Amazon, Walmart, eBay, or AliExpress—they pull up t
 - "EVSE dust cap for charging port"
 
 Filter results by:
+
 - **Material**: Silicone or rubber (durable, weatherproof).
 - **Standard**: GB/T or CCS (Neta uses GB/T; CCS is similar for DC fast charging).
 - **Size/Fit**: Look for 50-70mm width ports; measure your broken one for accuracy.
 - **Price**: $5-15 USD for generics; OEM clips/guards ~$20+.
 
 ### Quick Product Examples
+
 - **Universal Option**: "EV Charger Plug Port Cover" (fits GB/T, ~$8 on Amazon)—this is a snap-on flap replacement that protects from dust/water.
 - **Clip/Guard Style**: "Charging Door Guard Plate Clip" (Neta-compatible, ~$10 on AliExpress)—secures the flap in place.
 - If it's just the hinge/clip broken: Search "EV charge port flap hinge repair kit".

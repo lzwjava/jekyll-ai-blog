@@ -42,6 +42,7 @@ The process is noisy and uncertain — it's not purely merit-based. Luck, timing
 Regarding **Wang Xing's "ostrich principle"** (鸵鸟原理): He uses the analogy of chickens/turkeys vs. an ostrich — small differences aren't convincing (a turkey looks only slightly bigger to a chicken), but a massive, obvious advantage (ostrich size) forces recognition. In competition (business or personal), marginal improvements often go unnoticed or debated; only when you're dramatically better do people (recruiters, competitors, markets) clearly acknowledge it.
 
 In job hunting, this suggests:
+
 - Being "a bit better" may not stand out in a sea of similar resumes/candidates.
 - Aim to be **obviously stronger** in something valuable: e.g., rare domain expertise, proven high-impact projects, exceptional coding speed/quality, strong GitHub portfolio, or referrals from respected engineers.
 - If you're clearly top-tier (e.g., ex-FAANG level skills + results), more doors open, and people "know" your value faster.

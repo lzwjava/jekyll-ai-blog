@@ -13,6 +13,7 @@ Matthias Felleisen is a German-American computer science professor and author, r
 He received his Ph.D. from Indiana University Bloomington and later served as a professor at Rice University for 14 years before joining the Khoury College of Computer Sciences at Northeastern University as a Trustee Professor.
 
 Felleisen's interests broadly encompass programming languages, including programming tools, program design, and software contracts. He is particularly noted for his work on:
+
 * **Operational semantics**: A way to formally define the meaning of programming language constructs.
 * **Type safety and gradual typing**: Concepts related to ensuring programs behave correctly with respect to data types, even when different typing approaches are mixed.
 * **Continuations and A-normal form**: Advanced concepts in functional programming that deal with control flow and program structure.

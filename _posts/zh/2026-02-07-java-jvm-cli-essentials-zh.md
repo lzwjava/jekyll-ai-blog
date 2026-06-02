@@ -17,11 +17,13 @@ Java 提供了丰富的命令行选项来控制 JVM 的行为。以下是针对�
 `-D` 标志用于设置应用程序在运行时可以访问的系统属性。
 
 **语法：**
+
 ```bash
 java -Dkey=value -Dkey2=value2 YourClass
 ```
 
 **常见示例：**
+
 ```bash
 # 设置自定义应用程序属性
 java -Dapp.environment=production -Dapp.port=8080 MyApp
@@ -37,6 +39,7 @@ java -Djava.io.tmpdir=/custom/temp MyApp
 ```
 
 **在代码中访问：**
+
 ```java
 String env = System.getProperty("app.environment");
 String port = System.getProperty("app.port", "8080"); // 带有默认值
@@ -47,6 +50,7 @@ String port = System.getProperty("app.port", "8080"); // 带有默认值
 内存设置用于控制 Heap 和非堆内存的分配。
 
 **Heap Memory：**
+
 ```bash
 # 初始 Heap 大小
 -Xms512m          # 以 512 MB 启动
@@ -61,6 +65,7 @@ java -Xms1g -Xmx4g MyApp
 ```
 
 **其他内存选项：**
+
 ```bash
 # Metaspace (类元数据，在 Java 8+ 中取代了 PermGen)
 -XX:MetaspaceSize=128m
@@ -74,6 +79,7 @@ java -Xms1g -Xmx4g MyApp
 ```
 
 **实用示例：**
+
 ```bash
 java -Xms2g -Xmx8g -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
      -Xss1m MyLargeApplication
@@ -84,6 +90,7 @@ java -Xms2g -Xmx8g -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
 控制 GC 行为和日志。
 
 **GC 算法选择：**
+
 ```bash
 # G1 GC (Java 9+ 的默认选择，良好的通用型 GC)
 -XX:+UseG1GC
@@ -99,6 +106,7 @@ java -Xms2g -Xmx8g -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
 ```
 
 **GC 调优：**
+
 ```bash
 # G1 GC 特定选项
 -XX:MaxGCPauseMillis=200        # 目标停顿时间
@@ -113,6 +121,7 @@ java -Xms2g -Xmx8g -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
 ### GC Logging
 
 **Java 8 及更早版本：**
+
 ```bash
 java -Xloggc:/path/to/gc.log \
      -XX:+PrintGCDetails \
@@ -125,6 +134,7 @@ java -Xloggc:/path/to/gc.log \
 ```
 
 **Java 9+ (Unified Logging)：**
+
 ```bash
 java -Xlog:gc*:file=/path/to/gc.log:time,level,tags \
      -Xlog:gc*=info:file=/path/to/gc.log:time,uptimemillis:filecount=10,filesize=100m \

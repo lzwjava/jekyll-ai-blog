@@ -125,11 +125,13 @@ if __name__ == "__main__":
 **用法：**
 
 1. **设置你的 auth token：**
+
    ```bash
    export NPM_AUTH_TOKEN="your-token-here"
    ```
 
 2. **运行脚本：**
+
    ```bash
    # 下载最新版本
    python script.py lodash

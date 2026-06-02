@@ -109,10 +109,10 @@ server dump testServer
 
 The official reference is usually found in IBM Docs under:
 
-"Server command options" → https://www.ibm.com/docs/en/was-liberty/base?topic=reference-server-command-options
+"Server command options" → <https://www.ibm.com/docs/en/was-liberty/base?topic=reference-server-command-options>
 
 For Open Liberty (very similar syntax, often identical in recent years):
-https://openliberty.io/docs/latest/reference/command/server-commands.html
+<https://openliberty.io/docs/latest/reference/command/server-commands.html>
 
 Run `server help` or `server help start` on your installed version for the exact options supported in your specific Liberty version.
 

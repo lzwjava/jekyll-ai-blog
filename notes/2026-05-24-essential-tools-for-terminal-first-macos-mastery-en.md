@@ -16,6 +16,7 @@ Good question. Given your profile — terminal-first, builds CLI tools, wants de
 ## Tier 1: Use Daily, Learn by Osmosis
 
 ### Homebrew
+
 You already use it, but studying its formula system teaches you macOS packaging, code signing, sandboxing, and how Apple's dependency ecosystem works.
 
 ```
@@ -24,14 +25,16 @@ brew cat fd
 brew info --json=v2 jq
 ```
 
-Source: https://github.com/Homebrew/brew
+Source: <https://github.com/Homebrew/brew>
 
 ### iTerm2
+
 If you're on Terminal.app, switch. iTerm2 is massively more configurable and open source. Triggers, profiles, scripting API, tmux integration.
 
-https://github.com/gnachman/iTerm2
+<https://github.com/gnachman/iTerm2>
 
 ### skhd / yabai
+
 **skhd** = hotkey daemon. **yabai** = tiling window manager. Together they give you i3-like control over macOS windows, entirely keyboard-driven. Studying yabai's source teaches you how macOS WindowServer, accessibility APIs, and SIP work.
 
 ```bash
@@ -39,8 +42,8 @@ brew install koekeishiya/formulae/skhd
 brew install koekeishiya/formulae/yabai
 ```
 
-https://github.com/koekeishiya/skhd
-https://github.com/koekeishiya/yabai
+<https://github.com/koekeishiya/skhd>
+<https://github.com/koekeishiya/yabai>
 
 This is the single biggest productivity unlock on macOS for someone with your workflow.
 
@@ -49,6 +52,7 @@ This is the single biggest productivity unlock on macOS for someone with your wo
 ## Tier 2: Deepen OS Understanding
 
 ### XNU Kernel Source
+
 You mentioned it — actually reading it is different. Start with:
 
 ```bash
@@ -58,11 +62,13 @@ uname -a
 ```
 
 Read these files in order:
+
 1. `osfmk/kern/startup.c` — boot sequence
 2. `bsd/kern/kern_proc.c` — how processes work
 3. `osfmk/ipc/` — Mach IPC (how macOS IPC actually works)
 
 ### launchd
+
 Understanding launchd is understanding macOS process management, scheduling, and daemon lifecycle. Read the source, then use `launchctl` fluently:
 
 ```bash
@@ -73,18 +79,20 @@ launchctl list | grep -v apple
 launchctl print gui/$(id -u)/com.apple.Finder
 ```
 
-https://github.com/apple-oss-distributions/launchd
+<https://github.com/apple-oss-distributions/launchd>
 
 ### libdispatch (GCD)
+
 GCD is everywhere in macOS. Reading its source teaches you concurrency primitives, thread pools, and how Apple thinks about parallelism.
 
-https://github.com/apple/swift-corelibs-libdispatch
+<https://github.com/apple/swift-corelibs-libdispatch>
 
 ---
 
 ## Tier 3: Tools That Teach You What macOS Can Do
 
 ### m-cli
+
 Swiss-army knife for macOS admin tasks. Study it to learn what `defaults`, `profiles`, `diskutil`, `scutil`, `networksetup`, and dozens of other native commands can do:
 
 ```bash
@@ -92,12 +100,13 @@ brew install m-cli
 m --help
 ```
 
-https://github.com/rgcr/m-cli
+<https://github.com/rgcr/m-cli>
 
 ### macos-defaults
+
 Comprehensive catalog of `defaults write` commands. Every option is documented with what it does. You'll discover features you didn't know existed.
 
-https://github.com/yannbertrand/macos-defaults
+<https://github.com/yannbertrand/macos-defaults>
 
 ```bash
 # Example: disable the "are you sure you want to open this" dialog
@@ -105,6 +114,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 ```
 
 ### osx-serial-number / powermetrics / fs_usage
+
 Not projects, but native tools most people never touch:
 
 ```bash
@@ -126,6 +136,7 @@ sudo dtrace -n 'syscall::open*:entry { printf("%s", copyinstr(arg0)); }'
 ## Tier 4: Security & Internals Research
 
 ### The Objective-See Foundation
+
 Patrick Wardle's tools — free, open-source macOS security. Studying these teaches you how macOS malware works, what the TCC database is, how entitlements work, and how to audit your own system.
 
 - **KnockKnock** — what persists on your Mac
@@ -133,12 +144,13 @@ Patrick Wardle's tools — free, open-source macOS security. Studying these teac
 - **RansomWhere?** — ransomware detection
 - **OverSight** — mic/camera access monitor
 
-https://objective-see.org/products.html
+<https://objective-see.org/products.html>
 
 ### macOS Security (on GitHub)
+
 Community-maintained docs on every macOS security mechanism: SIP, TCC, entitlements, AMFI, Gatekeeper, XProtect, MRT.
 
-https://github.com/drduh/macOS-Security-and-Privacy-Guide
+<https://github.com/drduh/macOS-Security-and-Privacy-Guide>
 
 ---
 

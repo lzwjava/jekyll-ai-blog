@@ -26,6 +26,7 @@ His extensive experience and leadership in computer science and academia led to 
 Morrisett's research primarily focuses on the application of programming language technology to build secure, reliable, and high-performance software systems. A consistent theme in his work is the development of systems-level languages and tools aimed at detecting or preventing common software vulnerabilities.
 
 Some of his notable research areas and contributions include:
+
 * **Typed assembly language:** A type system for the Intel x86 assembly language that allows for static verification of type safety in machine code.
 * **Proof-carrying code:** A mechanism for ensuring the correctness of code by attaching machine-verifiable proofs.
 * **Software fault isolation and control-flow isolation:** Techniques for enhancing software security and reliability.
@@ -36,6 +37,7 @@ He is a prolific author with highly cited works in programming languages, compil
 
 **Awards and Recognition:**
 Greg Morrisett has received numerous accolades for his contributions to programming languages, type systems, and software security, including:
+
 * Presidential Early Career Award for Scientists and Engineers (2000)
 * IBM Faculty Fellowship
 * National Science Foundation (NSF) Career Award (1999)

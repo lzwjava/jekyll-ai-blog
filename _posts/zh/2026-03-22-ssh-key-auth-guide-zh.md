@@ -23,18 +23,22 @@ id_ed25519.pub   → Public Key (share freely, paste into servers)
 对于 **Ed25519**（现代标准），它们实际包含的内容如下：
 
 **Private key** (`id_ed25519`)：
+
 ```
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtz
 c2gtZWQyNTUxOQAAACB4G3kR2f8J...  (base64 encoded binary data)
 -----END OPENSSH PRIVATE KEY-----
 ```
+
 包含：你的 **private scalar**（一个 256 位秘密数字）+ 你的 **public key** + 元数据。
 
 **Public key** (`id_ed25519.pub`)：
+
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTRoCy6Uo67vc1CJSAAnZQCHftNB5kbq9jf8ZsEsa+o lzwjava@gmail.com
 ```
+
 三个部分：
 
 | Part | Value | Meaning |

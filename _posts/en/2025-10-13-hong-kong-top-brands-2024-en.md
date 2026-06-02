@@ -30,12 +30,14 @@ Hong Kong's brand landscape is diverse, blending global giants with local icons 
 This list highlights Hong Kong's emphasis on digital payments, travel, and finance, with lifestyle apps like Yuu (a DFI Retail loyalty program) surging due to its massive user base.
 
 #### Your Examples
+
 - **HSBC**: A cornerstone of Hong Kong's economy since 1865, it's ranked #4 overall and consistently tops banking lists for its global reach and innovative services like AI-driven wealth tools.
 - **DBS**: A strong player from Singapore, it's among the top 6 banks in Hong Kong for digital banking and SME support but doesn't crack the BrandZ top 30 strongest overall.
 - **7-Eleven**: Not in the BrandZ top 30 (which focuses on equity over sheer popularity), but it's Hong Kong's most ubiquitous convenience store chain, with over 2,800 outlets offering everything from snacks to ATMs—far ahead of competitors like Circle K.
 - **Octopus**: Iconic and practical, it's #3 overall for revolutionizing contactless payments since 1997, used by over 98% of the population for transit, shopping, and more.
 
 #### Quick Category Spotlights
+
 - **Banks**: HSBC leads, followed by Bank of China (Hong Kong), Hang Seng, Standard Chartered, and DBS. These dominate due to Hong Kong's role as a financial hub.
 - **Convenience Stores**: 7-Eleven rules with its 24/7 accessibility and local adaptations (e.g., egg tarts and bubble tea). Circle K and OK Convenience are runners-up.
 - **Other Icons**: Beyond the top 10, brands like MTR (rail and mobile), Vitasoy (soy milk), and Chow Tai Fook (jewelry) embody everyday Hong Kong life.

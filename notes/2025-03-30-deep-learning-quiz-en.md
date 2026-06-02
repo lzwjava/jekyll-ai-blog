@@ -77,24 +77,29 @@ Here’s a quiz based on the content you provided:
 #### **True/False Questions:**
 
 11. **A Generative Model learns to classify data into predefined categories.**
-   - True
-   - False
+
+- True
+- False
 
 12. **In a Recurrent Neural Network (RNN), the model’s hidden state is passed through time steps.**
-   - True
-   - False
+
+- True
+- False
 
 13. **Dropout is a technique used to encourage overfitting.**
-   - True
-   - False
+
+- True
+- False
 
 14. **Attention Heads in Transformers allow the model to process input in parallel, improving representational power.**
-   - True
-   - False
+
+- True
+- False
 
 15. **Self-Attention mechanisms allow a model to consider the entire sequence when making predictions.**
-   - True
-   - False
+
+- True
+- False
 
 #### **Short Answer Questions:**
 
@@ -119,100 +124,118 @@ Here are more questions to expand the quiz:
 ### **Additional Multiple Choice Questions (MCQ):**
 
 21. **Which of the following is a key feature of the GPT model?**
-   - A) It uses recurrent layers for text generation.
-   - B) It is trained on sequential data using supervised learning.
-   - C) It uses the Transformer architecture and generates human-like text.
-   - D) It uses convolutional layers to process input data.
+
+- A) It uses recurrent layers for text generation.
+- B) It is trained on sequential data using supervised learning.
+- C) It uses the Transformer architecture and generates human-like text.
+- D) It uses convolutional layers to process input data.
 
 22. **Which of the following learning methods allows a model to improve based on feedback from human preferences?**
-   - A) Reinforcement Learning from Human Feedback (RLHF)
-   - B) Supervised Learning
-   - C) Unsupervised Learning
-   - D) Self-Supervised Learning
+
+- A) Reinforcement Learning from Human Feedback (RLHF)
+- B) Supervised Learning
+- C) Unsupervised Learning
+- D) Self-Supervised Learning
 
 23. **What does “Tokenization” refer to in NLP (Natural Language Processing)?**
-   - A) Splitting text into grammatical parts.
-   - B) Converting text into a fixed-size vector.
-   - C) Splitting text into individual words or subwords that the model processes.
-   - D) Encrypting sensitive text data.
+
+- A) Splitting text into grammatical parts.
+- B) Converting text into a fixed-size vector.
+- C) Splitting text into individual words or subwords that the model processes.
+- D) Encrypting sensitive text data.
 
 24. **What is the primary purpose of “Data Augmentation”?**
-   - A) To reduce the amount of data used for training.
-   - B) To artificially expand the training dataset and improve robustness.
-   - C) To improve model inference speed.
-   - D) To clean the dataset from outliers.
+
+- A) To reduce the amount of data used for training.
+- B) To artificially expand the training dataset and improve robustness.
+- C) To improve model inference speed.
+- D) To clean the dataset from outliers.
 
 25. **Which of the following is NOT a type of neural network used for sequential data?**
-   - A) Recurrent Neural Network (RNN)
-   - B) Long Short-Term Memory (LSTM)
-   - C) Convolutional Neural Network (CNN)
-   - D) Gated Recurrent Unit (GRU)
+
+- A) Recurrent Neural Network (RNN)
+- B) Long Short-Term Memory (LSTM)
+- C) Convolutional Neural Network (CNN)
+- D) Gated Recurrent Unit (GRU)
 
 26. **What is the role of the “Learning Rate” hyperparameter in training a neural network?**
-   - A) It determines how fast the model can predict new outputs.
-   - B) It controls how large the model’s architecture is.
-   - C) It affects how drastically the weights are updated during training.
-   - D) It influences how many epochs are needed to train the model.
+
+- A) It determines how fast the model can predict new outputs.
+- B) It controls how large the model’s architecture is.
+- C) It affects how drastically the weights are updated during training.
+- D) It influences how many epochs are needed to train the model.
 
 27. **Which of the following is a regularization technique to reduce overfitting by randomly dropping out neurons during training?**
-   - A) Batch Normalization
-   - B) Dropout
-   - C) Stochastic Gradient Descent
-   - D) Weight Decay
+
+- A) Batch Normalization
+- B) Dropout
+- C) Stochastic Gradient Descent
+- D) Weight Decay
 
 28. **In a “Confusion Matrix,” what does the term “True Positive” represent?**
-   - A) The number of correctly predicted negative examples.
-   - B) The number of correctly predicted positive examples.
-   - C) The number of incorrectly predicted negative examples.
-   - D) The number of incorrectly predicted positive examples.
+
+- A) The number of correctly predicted negative examples.
+- B) The number of correctly predicted positive examples.
+- C) The number of incorrectly predicted negative examples.
+- D) The number of incorrectly predicted positive examples.
 
 29. **Which of the following is a measure of how well a model predicts the next token in a sequence?**
-   - A) Precision
-   - B) Perplexity
-   - C) Accuracy
-   - D) Recall
+
+- A) Precision
+- B) Perplexity
+- C) Accuracy
+- D) Recall
 
 30. **Which technique in Machine Learning aims to combine multiple models to improve performance and stability?**
-   - A) Ensemble Methods
-   - B) Transfer Learning
-   - C) Data Preprocessing
-   - D) Data Augmentation
+
+- A) Ensemble Methods
+- B) Transfer Learning
+- C) Data Preprocessing
+- D) Data Augmentation
 
 ---
 
 ### **Additional True/False Questions:**
 
 31. **Generative Adversarial Networks (GANs) consist of a generator and a discriminator that compete with each other.**
-   - True
-   - False
+
+- True
+- False
 
 32. **In “Causal Language Modeling,” the model predicts the next token based on all previous tokens in a sequence.**
-   - True
-   - False
+
+- True
+- False
 
 33. **Precision is the ratio of true positive predictions to all predictions, including false positives.**
-   - True
-   - False
+
+- True
+- False
 
 34. **Batch Normalization helps in stabilizing the training of deep networks by normalizing layer outputs.**
-   - True
-   - False
+
+- True
+- False
 
 35. **The purpose of “Positional Encoding” in Transformers is to prevent the model from learning any sequence information.**
-   - True
-   - False
+
+- True
+- False
 
 36. **Residual connections in neural networks help mitigate the vanishing gradient problem by allowing the gradient to flow more easily through the network.**
-   - True
-   - False
+
+- True
+- False
 
 37. **Model Overfitting occurs when the model fails to perform well on training data but works well on new data.**
-   - True
-   - False
+
+- True
+- False
 
 38. **Federated Learning trains models across decentralized devices without exchanging local data.**
-   - True
-   - False
+
+- True
+- False
 
 ---
 

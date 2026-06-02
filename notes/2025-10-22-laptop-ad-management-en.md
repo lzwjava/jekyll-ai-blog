@@ -15,6 +15,7 @@ type: note
 Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks. It acts as a centralized database that stores and organizes information about network objects, such as user accounts, computer accounts, printers, shared folders, and other resources. This hierarchical structure allows administrators to manage and secure access to these resources across an organization efficiently.
 
 The core component is **Active Directory Domain Services (AD DS)**, which handles storing directory data and making it available to users and admins. Key features include:
+
 - **Security Integration**: Uses a single username and password for authentication and access control across the network.
 - **Schema**: Defines rules for object types (e.g., users, computers) and their attributes.
 - **Global Catalog**: A searchable index of all directory objects, enabling quick lookups regardless of location.

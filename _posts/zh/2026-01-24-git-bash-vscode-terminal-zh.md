@@ -95,7 +95,7 @@ C:\tools\Git\bin\bash.exe               ← 在 Scoop / 手动安装中常见
 
 ### 快速排错清单
 
-- 未安装 Git → 从 https://git-scm.com 安装
+- 未安装 Git → 从 <https://git-scm.com> 安装
 - Git Bash 仍未出现 → 重启 VS Code
 - 使用的是 Portable Git? → 在 `path` 字段中使用完整路径
 - 使用 Scoop/Chocolatey 的自定义位置? → 使用 `where bash` 命令查找真实路径

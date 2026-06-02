@@ -51,15 +51,15 @@ Rust编程语言的主要创始人是：
 
 以下开源项目充分展现Rust优势并产生重要影响：
 
-1.  **Rust Lang/Rust**：编译器与标准库核心项目，为构建可靠高效软件提供基础
-2.  **Tauri Apps/Tauri**：使用Web前端构建更轻量、快速、安全的桌面/移动应用框架
-3.  **RustDesk/RustDesk**：开源远程桌面应用，TeamViewer的流行替代方案
-4.  **Alacritty/Alacritty**：跨平台OpenGL终端模拟器，以高性能著称
-5.  **Tokio/Tokio**：奠定性的异步运行时，广泛用于构建高性能网络应用
-6.  **Hyper/Hyper**：快速准确的HTTP库，常与Tokio配合使用
-7.  **Actix/Actix-web**：强大、快速且高并发的Web框架
-8.  **Axum/Axum**：基于Tokio与Hyper的Web框架，注重易用性与强类型
-9.  **Ripgrep (BurntSushi/ripgrep)**：正则搜索工具，递归目录搜索速度显著优于`grep`
+1. **Rust Lang/Rust**：编译器与标准库核心项目，为构建可靠高效软件提供基础
+2. **Tauri Apps/Tauri**：使用Web前端构建更轻量、快速、安全的桌面/移动应用框架
+3. **RustDesk/RustDesk**：开源远程桌面应用，TeamViewer的流行替代方案
+4. **Alacritty/Alacritty**：跨平台OpenGL终端模拟器，以高性能著称
+5. **Tokio/Tokio**：奠定性的异步运行时，广泛用于构建高性能网络应用
+6. **Hyper/Hyper**：快速准确的HTTP库，常与Tokio配合使用
+7. **Actix/Actix-web**：强大、快速且高并发的Web框架
+8. **Axum/Axum**：基于Tokio与Hyper的Web框架，注重易用性与强类型
+9. **Ripgrep (BurntSushi/ripgrep)**：正则搜索工具，递归目录搜索速度显著优于`grep`
 10. **Bat (sharkdp/bat)**：增强版`cat`工具，支持语法高亮与Git集成
 11. **Fd (sharkdp/fd)**：简洁高效的`find`命令替代品
 12. **Meilisearch/Meilisearch**：强大快速的相关性搜索引擎

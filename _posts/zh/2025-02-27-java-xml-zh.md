@@ -11,6 +11,7 @@ type: note
 在 Java 中使用 XML 可通过多种方式实现，具体取决于你的需求——解析、创建或操作 XML 数据。以下是一份简明指南，介绍几种常见方法：
 
 ### 1. **使用 DOM（文档对象模型）解析 XML**
+
 若需将 XML 作为内存中的树结构进行读取和操作，DOM API 是不错的选择。
 
 ```java
@@ -46,6 +47,7 @@ public class XMLParser {
 ```
 
 **示例 XML (example.xml):**
+
 ```xml
 <root>
     <item>项目 1</item>
@@ -59,6 +61,7 @@ public class XMLParser {
 ---
 
 ### 2. **使用 SAX（XML 简单 API）解析 XML**
+
 对于需要内存效率的大型 XML 文件，SAX 采用事件驱动模式，不会将整个文件加载到内存。
 
 ```java
@@ -106,6 +109,7 @@ public class SAXExample {
 ---
 
 ### 3. **使用 DOM 创建 XML**
+
 从头生成 XML：
 
 ```java
@@ -154,6 +158,7 @@ public class XMLCreator {
 ---
 
 ### 4. **使用 JAXB（Java XML 绑定架构）**
+
 若需处理与 Java 对象映射的 XML（如序列化/反序列化），JAXB 是更高级的选择。需要使用注解定义类。
 
 ```java
@@ -203,6 +208,7 @@ public class JAXBExample {
 ---
 
 ### 快速开始
+
 - **依赖项**：这些示例使用 Java 内置库（如 `javax.xml.parsers`），因此 DOM 或 SAX 无需外部依赖。对于 JAXB，请确保使用的 Java 版本包含该模块（Java 9 之前版本），或在使用新版本时通过 Maven/Gradle 添加
 - **文件**：将 `"example.xml"` 或 `"output.xml"` 替换为实际文件路径
 

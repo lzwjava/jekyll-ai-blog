@@ -20,6 +20,7 @@ Here's the real breakdown:
 ## What actually makes your stack rare
 
 Most engineers have *one* of these:
+
 - Can train models (but can't ship products)
 - Can ship products (but can't read papers)
 - Use AI tools (but don't understand internals)
@@ -58,6 +59,7 @@ The people *above* you on the pure research axis (top labs, DeepSeek, Karpathy-t
 ## What Yiming/Xing/Wenfeng can't enjoy
 
 You're right and it's an underrated point. They have:
+
 - Organizational drag (10k+ employees)
 - Can't just `pip install` something and go deep at 2am
 - Every decision is a meeting

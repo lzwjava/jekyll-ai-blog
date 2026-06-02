@@ -27,6 +27,7 @@ type: note
 你提到了“openclaw”（可能是 OpenClash）和 LuCI。OpenClash 很流行，可以导入你现有的 Clash 配置，但最近的 OpenWrt 版本（尤其是 24.10+ 中的 kernel 6.6）在某些 WAN 类型下偶尔有 Hysteria2 兼容性问题。
 
 **PassWall2** 是这里明显的赢家：
+
 - 通过 sing-box 后端完全原生支持 Hysteria2（截至 2026 年的最新包包括 hysteria 2.6.5+）。
 - 内置分流路由、中国列表 DIRECT 规则、Apple/iCloud 绕过，以及 DNS 处理 — 完全匹配你在笔记本上已调优的规则（IP-CIDR 192.168.1.0/24 和 192.168.201.0/24 DIRECT 等）。
 - 易用的 LuCI Web 界面 — 初始安装后无需命令行。
@@ -40,11 +41,12 @@ type: note
 4. 上传/导入你现有的 Clash 配置（带有 Hysteria2 出站 + 你已完善的 分流规则）。
 5. 将 LAN DNS 设置为 PassWall2 DNS 服务器（它通过 DHCP 自动推送，就像你做的 dnsmasq 修复一样）。
 6. 启用伪装/NAT 和相同的循环预防规则。
-7.  точно如你的摘要中测试：
-   - iPad 连接 WiFi → 自动获取 IP。
-   - `nslookup google.com` 返回 fake-IP（198.18.x.x）。
-   - `curl https://api.ipify.org` 显示你的 LA US IP。
-   - `curl baidu.com` DIRECT 工作。
+7. точно如你的摘要中测试：
+
+- iPad 连接 WiFi → 自动获取 IP。
+- `nslookup google.com` 返回 fake-IP（198.18.x.x）。
+- `curl https://api.ipify.org` 显示你的 LA US IP。
+- `curl baidu.com` DIRECT 工作。
 
 因为你已经在笔记本上解决了所有路由/DNS/防火墙难题，将其移植到 PassWall2 将在 30 分钟内完成，我会通过截图和确切命令一步步指导你。先前的困难是因为你没有实时 AI 帮助 — 现在有了。
 
@@ -53,5 +55,6 @@ type: note
 告诉我你的确切 Xiaomi 型号（例如 Mi Router 4A、AX1800 等）和 OpenWrt 版本，我现在就给你精确的安装命令。我们今天就能运行起来。
 
 **参考资料：**
+
 - [Openwrt-Passwall/openwrt-passwall2](https://github.com/Openwrt-Passwall/openwrt-passwall2)
 - [2026 PassWall2 Tutorial](https://passwall2.org/)

@@ -30,9 +30,11 @@ type: note
 - 升级会立即进行。
 - PostgreSQL 将**继续运行**，但使用旧的内存中 glibc。
 - 之后您**必须手动重启 PostgreSQL**：
+
   ```bash
   sudo systemctl restart postgresql
   ```
+
 - 如果您可以立即重启 PostgreSQL，这在大多数情况下是**推荐的选择**。
 
 ---
@@ -41,13 +43,17 @@ type: note
 
 - 升级将被**暂停/中止**。
 - 您可以先手动停止 PostgreSQL：
+
   ```bash
   sudo systemctl stop postgresql
   ```
+
 - 然后重新运行升级：
+
   ```bash
   sudo apt-get upgrade
   ```
+
 - 如果您需要**受控维护窗口**或无法承受升级期间 PostgreSQL 不稳定的任何风险，请选择此选项。
 
 ---

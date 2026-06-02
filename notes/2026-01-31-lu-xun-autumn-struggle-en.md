@@ -50,6 +50,7 @@ The piece also demonstrates Lu Xun's complex relationship with hope. Unlike his 
 ### Interpretive Challenges
 
 The deliberately obscure and multilayered symbolism has generated diverse interpretations:
+
 - Some read it as political allegory about revolutionary struggle
 - Others see it as deeply personal meditation on loneliness and purpose
 - Many find it an exploration of the artist's relationship to society
@@ -64,6 +65,7 @@ The essay's opening lines have become among the most famous in modern Chinese li
 ### Reading Approach
 
 For English-speaking readers approaching "Autumn Night," it's helpful to:
+
 - Read slowly, allowing the imagery to accumulate emotionally rather than seeking immediate rational meaning
 - Consider the piece as painting or music rather than conventional essay
 - Recognize that ambiguity is intentional—Lu Xun resists easy answers

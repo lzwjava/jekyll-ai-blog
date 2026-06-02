@@ -16,6 +16,7 @@ Answer:
 **Type A Network Service** is characterized by having **acceptable residual error rates** and **acceptable failure notification rates**.
 
 In the context of network service classifications (often associated with the OSI model and transport layer services):
+
 - **Type A**: The underlying network provides reliable service with low error rates. Therefore, the transport layer does not need to implement extensive error recovery mechanisms. Both the residual error rate and the failure notification rate are considered acceptable for the user's needs.
 - **Type B**: The network has an acceptable residual error rate but an unacceptable failure notification rate (e.g., failures are not signaled properly).
 - **Type C**: The network has an unacceptable residual error rate, requiring the transport layer to handle significant error detection and recovery.

@@ -14,6 +14,7 @@ type: note
 ## ConPTY Library Loading
 
 Alacritty (conpty.rs:51-88):
+
 ```rust
 fn new() -> Self {
     match Self::load_conpty() {
@@ -32,6 +33,7 @@ fn load_conpty() -> Option<Self> {
 ## Pipe Architecture
 
 Alacritty (conpty.rs:118-119):
+
 ```rust
 let (conout, conout_pty_handle) = miow::pipe::anonymous(0)?;
 let (conin_pty_handle, conin) = miow::pipe::anonymous(0)?;
@@ -42,6 +44,7 @@ let (conin_pty_handle, conin) = miow::pipe::anonymous(0)?;
 ## Process Creation Flags
 
 Alacritty (conpty.rs:207-211):
+
 ```rust
 let mut creation_flags = EXTENDED_STARTUPINFO_PRESENT;
 // CREATE_UNICODE_ENVIRONMENT only if custom env is set
@@ -52,6 +55,7 @@ let mut creation_flags = EXTENDED_STARTUPINFO_PRESENT;
 ## ConPTY Flags
 
 Alacritty (conpty.rs:127):
+
 ```rust
 (api.create)(window_size.into(), conin_handle, conout_handle, 0, &mut pty_handle)
 ```

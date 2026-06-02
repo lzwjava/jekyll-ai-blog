@@ -19,6 +19,7 @@ Stanford **CS25: Transformers United** is a popular seminar course at Stanford U
 It is a 1-unit seminar (satisfactorily/no credit) with no exams or heavy homework—attendance at lectures is the main requirement. The format features guest lectures from leading researchers (e.g., Geoffrey Hinton, Ashish Vaswani—one of the original Transformer authors, Andrej Karpathy, and experts from OpenAI, Google, NVIDIA). Lectures are often livestreamed, recorded, and publicly available, attracting millions of YouTube views. Prerequisites include basic deep learning knowledge and understanding of attention mechanisms (or prior courses like CS224N, CS231N, or CS230).
 
 There is no fixed "standard" syllabus across versions, as each iteration (e.g., V4 in 2024, V5 in 2025) updates with the latest breakthroughs and new guest speakers. Topics typically include:
+
 - History and overview of Transformers
 - Scaling laws and architecture variants
 - Transformers in language, vision, multimodal models, diffusion, audio, etc.

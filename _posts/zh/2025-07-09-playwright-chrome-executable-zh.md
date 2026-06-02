@@ -17,6 +17,7 @@ type: note
 ---
 
 ### 1. 在 Playwright 配置中使用 `executablePath`
+
 默认情况下，Playwright 使用其自带的 Chromium，但如果您想使用**Google Chrome**（您自己安装的版本），则必须告知 Playwright `chrome.exe` 文件的位置。
 
 `playwright.config.js` 配置示例：
@@ -50,6 +51,7 @@ export default defineConfig({
 ---
 
 ### 2. 注意事项
+
 - 在 **Windows** 系统上，Chrome 的通常安装路径为：
   - `C:\Program Files\Google\Chrome\Application\chrome.exe`
   - 或 `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`
@@ -60,6 +62,7 @@ export default defineConfig({
 ---
 
 ### 3. 运行配置
+
 现在您可以使用以下命令运行测试：
 
 ```bash

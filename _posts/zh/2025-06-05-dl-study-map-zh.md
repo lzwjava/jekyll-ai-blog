@@ -15,9 +15,11 @@ type: note
 ## 机器学习、深度学习与 GPT 学习路径图
 
 ### 1. 基础概念（入门级）
+
 **目标**：建立坚实的机器学习、深度学习及 GPT 模型背景的理论与实践基础。
 
 #### 机器学习基础
+
 - **主题**：
   - **定义**：机器学习作为人工智能的子集，使系统能够从数据中学习而无需显式编程。
   - **机器学习类型**：
@@ -41,6 +43,7 @@ type: note
 - **项目**：预测房价（回归）、鸢尾花分类（分类）
 
 #### 深度学习入门
+
 - **主题**：
   - **神经网络**：感知机、多层感知机（MLP）
   - **激活函数**：Sigmoid、ReLU、Tanh
@@ -54,6 +57,7 @@ type: note
 - **项目**：构建简单前馈神经网络进行 MNIST 手写数字分类
 
 #### GPT 背景知识
+
 - **主题**：
   - **自然语言处理（NLP）**：分词、嵌入（如 Word2Vec、GloVe）
   - **语言模型**：N-gram、概率模型
@@ -68,9 +72,11 @@ type: note
 ---
 
 ### 2. 中级概念
+
 **目标**：深入理解高级机器学习算法、深度学习架构及 GPT 模型的演进。
 
 #### 高级机器学习
+
 - **主题**：
   - **集成方法**：装袋法、提升法（如 AdaBoost、梯度提升、XGBoost）
   - **特征工程**：特征选择、缩放、分类变量编码
@@ -84,6 +90,7 @@ type: note
 - **项目**：构建提升树模型预测客户流失
 
 #### 深度学习架构
+
 - **主题**：
   - **卷积神经网络（CNN）**：AlexNet（2012）、ResNet（2015）、批量归一化
   - **循环神经网络（RNN）**：LSTM、GRU、序列建模
@@ -97,6 +104,7 @@ type: note
 - **项目**：使用 ResNet 进行图像分类、使用 LSTM 进行文本生成
 
 #### GPT 与 Transformer
+
 - **主题**：
   - **GPT-1（2018）**：1.17 亿参数、单向 Transformer、BookCorpus 数据集
   - **GPT-2（2019）**：15 亿参数、零样本学习、WebText 数据集
@@ -111,9 +119,11 @@ type: note
 ---
 
 ### 3. 高级概念
+
 **目标**：掌握前沿技术、缩放定律及多模态 GPT 模型，聚焦研究与实际应用。
 
 #### 高级机器学习
+
 - **主题**：
   - **缩放定律**：计算量、数据量与模型规模的关系（Chinchilla，2022）
   - **人类反馈强化学习（RLHF）**：使模型与人类偏好对齐
@@ -126,6 +136,7 @@ type: note
 - **项目**：为小型语言模型实现 RLHF、实验联邦学习
 
 #### 深度学习与多模态
+
 - **主题**：
   - **多模态模型**：GPT-4（2023）、DALL-E（2021）、Sora（2024）
   - **扩散模型**：Stable Diffusion、DALL-E 2 图像生成
@@ -138,6 +149,7 @@ type: note
 - **项目**：使用 Stable Diffusion 生成图像、实验多模态输入
 
 #### GPT 与大语言模型
+
 - **主题**：
   - **GPT-3（2020）**：1750 亿参数、少样本学习
   - **GPT-4（2023）**：多模态能力、改进的推理
@@ -146,16 +158,18 @@ type: note
   - **智能体框架**：工具使用、规划、记忆增强模型
 - **资源**：
   - *论文*：《语言模型是少样本学习者》（GPT-3，2020）
-  - *工具*：Hugging Face、xAI Grok API（见 https://x.ai/api）
+  - *工具*：Hugging Face、xAI Grok API（见 <https://x.ai/api）>
   - *课程*：《高级 Transformer NLP》（在线）
 - **项目**：使用 GPT-3 API 构建聊天机器人、实验 LLaMA 进行研究任务
 
 ---
 
 ### 4. 实践应用与趋势
+
 **目标**：将知识应用于实际问题，并紧跟领域动态。
 
 #### 应用领域
+
 - **计算机视觉**：目标检测（YOLO）、图像分割（U-Net）
 - **自然语言处理**：聊天机器人、摘要、翻译
 - **多模态 AI**：文生图（DALL-E）、文生视频（Sora）
@@ -167,6 +181,7 @@ type: note
   - 开发基于 Codex 的代码助手
 
 #### 趋势（2010–2024）
+
 - **缩放定律**：更大模型、数据集与计算量（如 PaLM，2022）
 - **涌现能力**：上下文学习、零样本能力
 - **多模态**：文本、图像、音频的统一模型（如 GPT-4V）
@@ -174,14 +189,16 @@ type: note
 - **民主化**：开源模型（LLaMA）、易用 API（xAI Grok API）
 
 #### 保持更新
+
 - **会议**：NeurIPS、ICML、ICLR、ACL
 - **期刊/博客**：arXiv、Distill.pub、Hugging Face 博客
 - **社区**：X 推文（搜索 #机器学习 #深度学习）、Kaggle 论坛
-- **工具**：关注 xAI 更新：https://x.ai/grok、https://x.ai/api
+- **工具**：关注 xAI 更新：<https://x.ai/grok、https://x.ai/api>
 
 ---
 
 ### 5. 学习计划
+
 **时长**：6–12 个月，视基础与时间投入而定。
 
 - **第 1–2 月**：掌握机器学习基础（Scikit-learn、监督/无监督学习）
@@ -191,6 +208,7 @@ type: note
 - **第 10–12 月**：研究 GPT-3/4、多模态模型及实战项目
 
 **每周安排**：
+
 - 10–15 小时：学习理论（书籍、论文）
 - 5–10 小时：编程实践（Kaggle、GitHub）
 - 2–3 小时：跟踪动态（arXiv、X 推文）
@@ -198,14 +216,16 @@ type: note
 ---
 
 ### 6. 工具与平台
+
 - **编程**：Python、Jupyter Notebooks
 - **机器学习框架**：Scikit-learn、TensorFlow、PyTorch
 - **NLP 工具**：Hugging Face、spaCy、NLTK
-- **API**：xAI Grok API（https://x.ai/api）、OpenAI API
+- **API**：xAI Grok API（<https://x.ai/api）、OpenAI> API
 - **云平台**：Google Colab、AWS、Azure
 - **可视化**：Matplotlib、Seaborn、Chart.js（用于图表）
 
 **示例图表**（可视化 ML/DL 进展）：
+
 ```chartjs
 {
   "type": "line",
@@ -248,7 +268,8 @@ type: note
 ---
 
 ### 7. 补充说明
-- **xAI 产品**：在 grok.com、x.com 或移动应用（iOS/Android）访问 Grok 3。免费版有使用限制；SuperGrok 提供更高配额（详情见 https://x.ai/grok）。API 访问见 https://x.ai/api。注：截至 2024 年 10 月，Grok 3.5 尚未发布。
+
+- **xAI 产品**：在 grok.com、x.com 或移动应用（iOS/Android）访问 Grok 3。免费版有使用限制；SuperGrok 提供更高配额（详情见 <https://x.ai/grok）。API> 访问见 <https://x.ai/api。注：截至> 2024 年 10 月，Grok 3.5 尚未发布。
 - **伦理与安全**：学习 RLHF 与宪法 AI（如 Claude）以理解模型对齐。
 - **职业路径**：数据科学家、机器学习工程师、NLP 研究员、AI 伦理专家。
 

@@ -16,6 +16,7 @@ Answer:
 The **Yale YMI70** is a premium push-pull smart digital door lock from Yale (a well-known global lock brand under ASSA ABLOY), designed for enhanced home security and convenience. It is particularly popular in Asian markets (including China, Hong Kong, Singapore, Malaysia, and others) and sold on platforms like JD.com with national warranty support in China.
 
 ### Key Features
+
 - **Push-Pull Design**: Features a modern push-pull handle mechanism — push to open from outside (after verification) and pull from inside for quick, effortless access.
 - **Multiple Unlocking Methods** (typically 4–5 in one lock):
   - **Fingerprint** — Advanced biometric scanner (often "Easy Scan" or one-touch technology); user capacity varies by region/model variant (20–100 fingerprints, commonly around 40 in many listings).
@@ -50,6 +51,7 @@ This model balances high security (biometric + multi-mode) with modern convenien
 Note: Exact specifications (e.g., exact fingerprint capacity, app features) can vary slightly by regional version or seller on JD.com — always check the latest product page for the specific listing.
 
 References:
+
 - [Yale official product page (YMI70A variant)](https://www.yalehome.com/sg/en/products/smart-door-locks/wooden-door-smart-locks/yale-home-app-smart-locks/ymi70a)
 - [Yale YMI70 specifications (Hong Kong/Chinese market)](https://www.yalehome.com/hk/zh-hk/products/digital-door-lock/yale-link-app-smart-lock/ymi70)
 - [Yale YMI70 features on retailer site](https://www.builtinpro.hk/ymi70-bk)

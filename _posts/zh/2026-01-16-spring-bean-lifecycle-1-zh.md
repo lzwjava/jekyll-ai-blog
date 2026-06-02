@@ -74,5 +74,5 @@ Spring 容器通过一个定义良好的 **lifecycle** 来管理 Bean。以下�
 
 **References:**
 
-- https://docs.spring.io/spring-framework/reference/core/beans/factory-lifecycle.html
-- https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/postconstruct-and-predestroy-annotations.html
+- <https://docs.spring.io/spring-framework/reference/core/beans/factory-lifecycle.html>
+- <https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/postconstruct-and-predestroy-annotations.html>

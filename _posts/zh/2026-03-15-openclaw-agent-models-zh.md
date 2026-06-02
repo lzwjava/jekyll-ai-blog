@@ -18,6 +18,7 @@ OpenClaw 是一个开源的、本地优先的个人 AI agent 框架（本身不�
 截至 2026 年 3 月，以下是基于社区使用、docs、Reddit/Discord 反馈以及实际 tier lists 的最推荐和备受推崇的 OpenClaw 模型：
 
 ### 顶级层级 (S/A — 最适合严肃 agent 工作的可靠模型)
+
 - **Anthropic Claude family** (especially Sonnet 4 / Opus 4.5 / Opus 4.6)
   仍然被广泛认为是 OpenClaw 的黄金标准。极度一致的 JSON/tool calling，在多步骤推理方面出色，能够很好地从部分失败中恢复，并且在不丢失跟踪的情况下处理长上下文。
   - 大多数用户的最佳默认选择（日常任务、coding、research）。
@@ -33,16 +34,20 @@ OpenClaw 是一个开源的、本地优先的个人 AI agent 框架（本身不�
   出色的性价比，强大的 coding/math，可靠的工具使用在 agent loops 中。经常被推荐用于预算有限或高容量使用。
 
 ### 强大的本地 / 自托管选项 (via Ollama, LM Studio, llama.cpp)
+
 这些选项完全私有、无 API 成本（需要合适的硬件，例如 32GB+ RAM 的 Mac/PC 或 GPU）：
+
 - **Qwen series** (Qwen3-Coder 32B, Qwen3.5 variants, GLM-4.7 / GLM-5) — 顶级本地选择；非常稳定的 tool calling、高上下文、社区对 OpenClaw 的最爱。
 - **Devstral-Small-2-24B** 或类似 fine-tuned coding models — 在生产 agent 设置中已被证明可靠。
 - **Llama 3.3 70B / Llama 4 variants** — 当良好 quantized 时，具有坚实的通用性能。
 
 ### 其他经常提到的优秀表现者
+
 - Google Gemini (3 Pro / 2.5 Flash) — 非常适合 research/speed，原生长上下文。
 - OpenAI GPT family (GPT-5 series, GPT-4o) — 庞大的生态系统支持，但一些用户报告在长 agent 会话中 tool 一致性不如 Claude 可靠。
 
 ### 快速决策指南 (2026 社区共识)
+
 - **最佳整体可靠性/tool use** → Claude Sonnet/Opus
 - **最佳性价比 + 强大 agent 性能** → Kimi K2.5 或 DeepSeek V3.2
 - **最佳廉价/快速/heartbeats** → MiniMax Flash, GLM-4.7, Gemini Flash

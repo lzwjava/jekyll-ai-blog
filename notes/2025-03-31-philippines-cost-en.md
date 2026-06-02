@@ -18,12 +18,12 @@ Here's a more detailed look at the economic aspects of Manila:
 * **Service-Oriented Economy:** The economy of the Philippines, and particularly Metro Manila, is largely service-oriented. In 2023, the services sector contributed 62.3% to the national GDP. This sector includes trade, finance, transportation, communication, and tourism.
 * **Trade and Commerce:** Manila is a significant center for trade and finance in the Philippines. Most of the country's imports and exports pass through the Port of Manila. The districts north of the Pasig River are key areas for trade and commerce.
 * **Manufacturing:** While services dominate, Manila also has diverse manufacturing activities, including:
-    * Textile production
-    * Publishing and printing
-    * Food and tobacco processing
-    * Chemical processing
-    * Production of lumber and wood items, rope, soap, and other goods.
-    * Electronics
+  * Textile production
+  * Publishing and printing
+  * Food and tobacco processing
+  * Chemical processing
+  * Production of lumber and wood items, rope, soap, and other goods.
+  * Electronics
 * **Finance:** Many major financial institutions are headquartered in Manila, including the Development Bank of the Philippines, the Philippine National Bank, and numerous private commercial and development banks. The Philippine Stock Exchange is also located here.
 * **Global City Status:** Manila is considered part of the world's original set of global cities due to its historical commercial networks. In 2018, it was listed as an "Alpha-" global city by the Globalization and World Cities Research Network, ranking seventh in economic performance globally and second regionally.
 * **Contribution to National Economy:** Metro Manila's GDP equates to a significant portion of the Philippine GDP.
@@ -88,24 +88,24 @@ The cost of living in the Philippines can vary significantly depending on the lo
 **Major Expense Categories in Manila (Approximate Monthly Costs):**
 
 * **Rent:**
-    * **1-bedroom apartment in City Centre:** **₱17,200 to ₱50,000** (around **$313 to $909 USD**). Average around **₱27,810 ($506 USD)**.
-    * **1-bedroom apartment Outside City Centre:** Starting around **₱9,933** (around **$181 USD**). Average around **₱14,692 ($267 USD)**.
-    * **3-bedroom apartment in City Centre:** **₱37,023 to ₱100,000+** (around **$673 to $1,818+ USD**). Average around **₱94,615 ($1,720 USD)**.
-    * **3-bedroom apartment Outside City Centre:** Around **₱20,946 to ₱50,000** (around **$381 to $909 USD**). Average around **₱44,667 ($812 USD)**.
+  * **1-bedroom apartment in City Centre:** **₱17,200 to ₱50,000** (around **$313 to $909 USD**). Average around **₱27,810 ($506 USD)**.
+  * **1-bedroom apartment Outside City Centre:** Starting around **₱9,933** (around **$181 USD**). Average around **₱14,692 ($267 USD)**.
+  * **3-bedroom apartment in City Centre:** **₱37,023 to ₱100,000+** (around **$673 to $1,818+ USD**). Average around **₱94,615 ($1,720 USD)**.
+  * **3-bedroom apartment Outside City Centre:** Around **₱20,946 to ₱50,000** (around **$381 to $909 USD**). Average around **₱44,667 ($812 USD)**.
 * **Utilities (for 85m2 apartment):** Around **₱6,105 to ₱8,155** (around **$111 to $148 USD**) for basic utilities (electricity, water, cooling, heating, garbage).
 * **Internet (60 Mbps or more):** Around **₱1,661 to ₱1,732** (around **$30 to $32 USD**).
 * **Mobile Phone Plan (with calls and 10GB+ data):** Around **₱1,599 to ₱1,728** (around **$29 to $31 USD**).
 * **Food & Groceries:**
-    * **Meal at an inexpensive restaurant:** Around **₱234 to ₱300** (around **$4.25 to $5.45 USD**).
-    * **Meal for 2 at a mid-range restaurant:** Around **₱1,200 to ₱1,750** (around **$21.82 to $31.82 USD**).
-    * Monthly groceries for a single person can range from **₱8,000 to ₱12,000** (around **$145 to $218 USD**).
+  * **Meal at an inexpensive restaurant:** Around **₱234 to ₱300** (around **$4.25 to $5.45 USD**).
+  * **Meal for 2 at a mid-range restaurant:** Around **₱1,200 to ₱1,750** (around **$21.82 to $31.82 USD**).
+  * Monthly groceries for a single person can range from **₱8,000 to ₱12,000** (around **$145 to $218 USD**).
 * **Transportation:**
-    * **One-way local transport ticket:** Around **₱15 to ₱45** (around **$0.27 to $0.82 USD**).
-    * **Monthly public transport pass:** Around **₱582 to ₱670** (around **$10.58 to $12.18 USD**).
-    * **Taxi start fare:** Around **₱40 to ₱44.50** (around **$0.73 to $0.81 USD**).
+  * **One-way local transport ticket:** Around **₱15 to ₱45** (around **$0.27 to $0.82 USD**).
+  * **Monthly public transport pass:** Around **₱582 to ₱670** (around **$10.58 to $12.18 USD**).
+  * **Taxi start fare:** Around **₱40 to ₱44.50** (around **$0.73 to $0.81 USD**).
 * **Entertainment & Leisure:**
-    * **Fitness club monthly fee:** Around **₱1,778 to ₱2,433** (around **$32 to $44 USD**).
-    * **Cinema ticket:** Around **₱300 to ₱435** (around **$5.45 to $7.91 USD**).
+  * **Fitness club monthly fee:** Around **₱1,778 to ₱2,433** (around **$32 to $44 USD**).
+  * **Cinema ticket:** Around **₱300 to ₱435** (around **$5.45 to $7.91 USD**).
 
 **Factors Influencing Cost of Living:**
 

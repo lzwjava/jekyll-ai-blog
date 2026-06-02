@@ -11,6 +11,7 @@ type: note
 Using a repository as a data source in a Spring Boot project typically involves integrating Spring Data JPA (Java Persistence API) to manage database interactions. Here's a step-by-step guide on how to set this up:
 
 ### 1. Add Dependencies
+
 First, you need to add the necessary dependencies to your `pom.xml` file if you're using Maven. For Spring Data JPA, you'll need the following:
 
 ```xml
@@ -30,6 +31,7 @@ First, you need to add the necessary dependencies to your `pom.xml` file if you'
 ```
 
 ### 2. Configure the Database
+
 Configure your database settings in the `application.properties` file. For example, if you're using an H2 in-memory database:
 
 ```properties
@@ -42,6 +44,7 @@ spring.h2.console.enabled=true
 ```
 
 ### 3. Create an Entity
+
 Define an entity class that maps to a database table. Use JPA annotations to specify the mapping:
 
 ```java
@@ -63,6 +66,7 @@ public class User {
 ```
 
 ### 4. Create a Repository Interface
+
 Create a repository interface that extends `JpaRepository`. This interface will provide CRUD operations for the `User` entity:
 
 ```java
@@ -74,6 +78,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ```
 
 ### 5. Use the Repository in a Service
+
 Inject the repository into a service class to perform database operations:
 
 ```java
@@ -105,6 +110,7 @@ public class UserService {
 ```
 
 ### 6. Create a Controller
+
 Create a REST controller to expose endpoints for interacting with the `User` entity:
 
 ```java
@@ -142,6 +148,7 @@ public class UserController {
 ```
 
 ### 7. Run the Application
+
 Run your Spring Boot application. You should now be able to perform CRUD operations on the `User` entity using the REST endpoints.
 
 This setup provides a basic structure for using a repository as a data source in a Spring Boot project. You can extend it further by adding custom queries, handling exceptions, and implementing more complex business logic.

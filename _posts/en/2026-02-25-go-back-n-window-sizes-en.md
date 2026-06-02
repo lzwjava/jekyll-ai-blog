@@ -40,6 +40,7 @@ The correct answer is **B: Sending Window > 1, Receiving Window = 1**
 ## Why NOT Option C (both > 1)?
 
 Option C describes the **Selective Repeat (SR)** protocol, not Go-Back-N. In SR:
+
 - The receiver **buffers out-of-order frames**, so receiving window > 1.
 - Only the specific erroneous frame needs to be retransmitted (not all subsequent ones).
 

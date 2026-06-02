@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Pony.ai and comma.ai are both prominent players in the autonomous driving space, but they operate at different scales and focuses. Pony.ai is a well-funded, multinational company emphasizing commercial robotaxi and trucking services, primarily in China with U.S. roots. In contrast, comma.ai (founded by hacker George "geohot" Hotz) is a leaner, open-source-oriented startup delivering affordable, vision-based driver assistance upgrades for consumer vehicles. Pony.ai pursues large-scale deployment and regulatory approvals for fully driverless operations, while comma.ai prioritizes "making driving chill" through end-to-end machine learning and hands-off assistance.
 
 ### Key Comparison
@@ -28,13 +29,14 @@ Pony.ai and comma.ai are both prominent players in the autonomous driving space,
 | **Recent News (2025)** | Stock rally on AV progress; Push into European fleets; Short-seller reports on ops | Steady revenue growth; Community expansions for radar/lidar add-ons; No major pivots post-Hotz |
 
 ### Summary
+
 Pony.ai leads in enterprise-scale AV commercialization, backed by massive capital and regulatory wins, making it a direct rival to Waymo or Baidu Apollo. comma.ai excels in accessible, hackable tech for everyday drivers, bootstrapping profitability without VC bloat—ideal for enthusiasts but not yet at fleet level. If you're building a robotaxi empire, bet on Pony; for upgrading your daily commuter, comma.ai wins on cost and openness.
 
-[ Pony.ai Official Site](https://pony.ai/)
-[ comma.ai Official Site](https://comma.ai/)
-[ Pony.ai Crunchbase](https://www.crunchbase.com/organization/pony-ai)
-[ comma.ai Crunchbase](https://www.crunchbase.com/organization/comma)
-[ Pony.ai Wikipedia](https://en.wikipedia.org/wiki/Pony.ai)
-[ George Hotz Wikipedia](https://en.wikipedia.org/wiki/George_Hotz)
-[ Pony.ai Funding on Tracxn](https://tracxn.com/d/companies/pony.ai/__zBvpFx2SyAq78IOf8rDD1fl8kNKDsYuIByfnEW0BrMs/funding-and-investors)
-[ comma.ai PitchBook Profile](https://pitchbook.com/profiles/company/155326-69)
+[Pony.ai Official Site](https://pony.ai/)
+[comma.ai Official Site](https://comma.ai/)
+[Pony.ai Crunchbase](https://www.crunchbase.com/organization/pony-ai)
+[comma.ai Crunchbase](https://www.crunchbase.com/organization/comma)
+[Pony.ai Wikipedia](https://en.wikipedia.org/wiki/Pony.ai)
+[George Hotz Wikipedia](https://en.wikipedia.org/wiki/George_Hotz)
+[Pony.ai Funding on Tracxn](https://tracxn.com/d/companies/pony.ai/__zBvpFx2SyAq78IOf8rDD1fl8kNKDsYuIByfnEW0BrMs/funding-and-investors)
+[comma.ai PitchBook Profile](https://pitchbook.com/profiles/company/155326-69)

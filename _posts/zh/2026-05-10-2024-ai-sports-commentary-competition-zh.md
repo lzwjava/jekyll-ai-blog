@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://aistudio.baidu.com/competition/detail/1196/0/introduction 上的比赛是什么？团队"EverywhereWeGo"的排名是多少？如何加入这类比赛？
+**问题：** <https://aistudio.baidu.com/competition/detail/1196/0/introduction> 上的比赛是什么？团队"EverywhereWeGo"的排名是多少？如何加入这类比赛？
 
 **答案：**
 
@@ -30,6 +30,7 @@ type: note
 遗憾的是，**我无法获取该竞赛的具体排行榜数据**。百度AI Studio的排行榜页面需要登录才能查看，且数据无法通过网络抓取或搜索结果公开获取。团队名称"EverywhereWeGo"也未出现在任何公开索引结果中。
 
 要查看"EverywhereWeGo"的排名，你应该：
+
 1. 登录 [aistudio.baidu.com](https://aistudio.baidu.com)
 2. 直接访问排行榜页面：`https://aistudio.baidu.com/competition/detail/1196/0/leaderboard`
 
@@ -40,22 +41,28 @@ type: note
 以下是加入百度AI Studio竞赛的一般流程：
 
 **第一步 — 注册账号**
+
 - 前往 [aistudio.baidu.com](https://aistudio.baidu.com) 注册（支持国际用户；需要百度账号或手机号）。
 
 **第二步 — 查找并报名比赛**
+
 - 浏览比赛列表或直接使用你提供的链接。
 - 点击比赛页面上的"报名"按钮。
 
 **第三步 — 阅读规则并下载数据**
+
 - 每个比赛都提供数据集、评估指标和提交格式。仔细阅读介绍和任务说明。
 
 **第四步 — 使用平台工具**
+
 - 参赛者可登录AI Studio，利用平台的远程GPU训练集群获取免费的高性能算力支持进行模型训练。平台还会发布示例项目帮助参赛者操作。
 
 **第五步 — 提交结果**
+
 - 以要求的格式上传预测结果或模型输出。排行榜在评估后自动更新。
 
 **第六步 — 决赛（如有）**
+
 - 线上排名靠前的团队将被邀请到现场决赛进行展示。
 
 ---

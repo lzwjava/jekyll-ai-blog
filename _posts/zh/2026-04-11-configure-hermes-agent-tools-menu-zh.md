@@ -18,6 +18,7 @@ Hermes Agent（由 Nous Research 开发）提供交互式设置系统，用于�
 您看到的菜单是交互式配置界面的一部分（可能在运行 `hermes setup`、`hermes tools` 或启用特定工具集时显示）。以下是逐步使用和配置的方法：
 
 ### 1. **访问工具配置**
+
 - 在终端中运行以下命令之一（安装 Hermes Agent 后）：
   - `hermes setup` → 完整的交互式向导（推荐首次设置；包含模型和工具）。
   - `hermes tools` → 专门用于启用/禁用和配置工具。
@@ -28,6 +29,7 @@ Hermes Agent（由 Nous Research 开发）提供交互式设置系统，用于�
 - 按 **ESC 键** 取消/返回。
 
 ### 2. **各选项的功能**
+
 所列项目是不同工具后端的 API 密钥和设置：
 
 - **网络搜索与提取工具**：
@@ -55,16 +57,20 @@ Hermes Agent（由 Nous Research 开发）提供交互式设置系统，用于�
 启用后，界面通常会提示您粘贴相应的 API 密钥或 URL。
 
 ### 3. **配置如何保存**
+
 - **API 密钥和秘密**会自动保存到 `~/.hermes/.env`（安全，仅所有者可访问）。
 - **非秘密设置**（例如启用的工具、后端）保存到 `~/.hermes/config.yaml`。
 - 您也可以手动设置值：
+
   ```bash
   hermes config set FIRECRAWL_API_KEY fc-YourKeyHere
   hermes config set FIRECRAWL_API_URL http://localhost:3002
   ```
+
 - 对于网络搜索后端偏好，可以在 `config.yaml` 中的 `web: backend: firecrawl`（或 `tavily`、`exa` 等）下配置。
 
 ### 4. **推荐的快速设置流程**
+
 1. 运行 `hermes setup` 或 `hermes tools`。
 2. 启用您需要的工具（建议从 Firecrawl 或 Tavily 开始以支持网络功能——它们非常可靠）。
 3. 在提示时粘贴您的 API 密钥。
@@ -72,6 +78,7 @@ Hermes Agent（由 Nous Research 开发）提供交互式设置系统，用于�
 5. 确认并退出——Hermes 将在下次运行时加载工具。
 
 ### 5. **提示**
+
 - 您无需启用每个工具。从最小化开始（例如一个网络搜索后端 + 记忆）以避免不必要的依赖。
 - 许多工具可与本地模型（通过 Ollama、vLLM 等）开箱即用。
 - 配置后，通过与代理聊天（CLI 或通过 Telegram/Discord 集成）并让其执行网络相关任务来进行测试。
@@ -80,6 +87,7 @@ Hermes Agent（由 Nous Research 开发）提供交互式设置系统，用于�
 此设置使 Hermes Agent 具有高度可扩展性，而无需编写自定义代码。
 
 **参考：**
+
 - [Tools & Toolsets | Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/)
 - [Configuration | Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/)
 - [Environment Variables Reference](https://mintlify.com/NousResearch/hermes-agent/reference/environment-variables)

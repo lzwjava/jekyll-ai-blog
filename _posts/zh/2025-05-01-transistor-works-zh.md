@@ -42,4 +42,4 @@ type: note
 * **耗尽区：** 克服发射极与基极之间的耗尽区是启动电流流动的必要步骤。
 
 总而言之，基极与发射极之间的微小电流能有效开启从发射极到集电极的大电流通路，从而演示了晶体管作为电流控制开关和放大器的功能。
-http://googleusercontent.com/youtube_content/1
+<http://googleusercontent.com/youtube_content/1>

@@ -71,7 +71,7 @@ def call_mistral_api(prompt, model="mistral-small-latest"):
     try:
         print(f"Calling Mistral API with model: {model}")
         print(f"Prompt being sent: {prompt[:1000]}...")
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         response_json = response.json()
         print(f"Mistral API Response: {response_json}")

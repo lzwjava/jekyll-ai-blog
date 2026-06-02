@@ -21,6 +21,7 @@ map $http_origin $cors_origin {
 ```
 
 ### What it does
+
 - Creates a variable `$cors_origin` based on the value of the incoming `Origin` header (`$http_origin`).
 - If the request comes from `http://localhost:3000`, `https://example.com`, or `https://www.example.com`, it echoes that exact origin back.
 - For any other origin (or no origin), it defaults to `https://example.com`.
@@ -38,6 +39,7 @@ server {
 ```
 
 ### What it does
+
 - Listens on port 80 (HTTP).
 - Matches requests to `example.com` or `api.example.com`.
 - Permanently redirects (301) all traffic to the HTTPS version of the same URL.
@@ -77,6 +79,7 @@ server {
 ```
 
 ### What it does
+
 - **HTTPS server** for `example.com` on port 443 with SSL enabled.
 - Uses **Let’s Encrypt** certificates (auto-renewable, free).
 - Enforces modern TLS versions (`TLSv1.2`, `TLSv1.3`) and strong ciphers for security.
@@ -133,11 +136,13 @@ server {
 ```
 
 ### What it does
+
 - **HTTPS reverse proxy** for `api.example.com`.
 - Uses a **separate Let’s Encrypt cert** (likely due to multiple domains/SANs).
 - All traffic is proxied to a **local backend** running on `localhost:5000` (e.g., Flask, Node.js, etc.).
 
 #### CORS Handling
+
 - Uses the `$cors_origin` map to **dynamically allow** only approved origins.
 - **Clears any existing** `Access-Control-Allow-Origin` to prevent conflicts.
 - Handles **OPTIONS preflight**:
@@ -147,6 +152,7 @@ server {
 - For actual requests, adds CORS headers with `always` so they appear even on error responses.
 
 #### Proxy Settings
+
 - Forwards real client IP and protocol info to the backend.
 - High timeouts (10 minutes) → suitable for long-running API operations (e.g., file uploads, heavy computations).
 
@@ -164,6 +170,7 @@ server {
 | SSL                 | Let’s Encrypt, modern ciphers |
 
 ### Security Notes
+
 - Strong TLS config (A+ on SSL Labs likely).
 - CORS is **not wildcard** → prevents unauthorized sites from calling API.
 - Preflight handled efficiently.

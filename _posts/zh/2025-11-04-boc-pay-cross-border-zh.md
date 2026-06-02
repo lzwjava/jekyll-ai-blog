@@ -37,6 +37,7 @@ BOC Pay+是中国银行（香港）有限公司推出的一款移动应用，旨
 若用于内地行程，其跨境工具无需额外开户即可便捷使用。如需更多设置帮助，可查阅中银香港应用常见问题解答。
 
 ### 参考资料
+
 - [BOC Pay+ 官方页面](https://www.bochk.com/en/more/ebanking/bocpay.html)
 - [BOC Pay+ 充值常见问题](https://www.bochk.com/dam/more/bocpay/en/faq_N2.html)
 - [跨境服务概览](https://nzcchk.com/BOCHK_IBC_Meeting_presentation.pdf)

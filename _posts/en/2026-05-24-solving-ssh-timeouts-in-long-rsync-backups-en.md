@@ -38,10 +38,11 @@ WHAT HAPPENED EACH TIME:
     "io timeout after 1083 seconds" → SSH died again.
 
 WHY SSH DIES:
-  - The Photos library has 4,888 files, many are 10-80MB videos
-  - Total: ~30GB
-  - At ~3MB/s over LAN, that's ~3 hours of continuous SSH
-  - Anything can break it: WiFi sleep, router timeout, macOS
+
+- The Photos library has 4,888 files, many are 10-80MB videos
+- Total: ~30GB
+- At ~3MB/s over LAN, that's ~3 hours of continuous SSH
+- Anything can break it: WiFi sleep, router timeout, macOS
     power management, TCP idle timeout
 
 ========================================================================

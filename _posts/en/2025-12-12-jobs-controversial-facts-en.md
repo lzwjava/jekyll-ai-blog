@@ -43,8 +43,9 @@ Here are several well-documented but often downplayed or unpopular facts about S
 These facts come primarily from Walter Isaacson’s authorized biography (based on 40+ interviews with Jobs himself), accounts by early Apple employees (e.g., Andy Hertzfeld, Daniel Kottke), and Lisa Brennan-Jobs’ memoir *Small Fry*.
 
 References:
-- Walter Isaacson, *Steve Jobs* (2011) – https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539
-- Lisa Brennan-Jobs, *Small Fry* (2018) – https://www.groveatlantic.com/title/small-fry/
-- Andy Hertzfeld, *Revolution in the Valley* (2004) – https://www.folklore.org
+
+- Walter Isaacson, *Steve Jobs* (2011) – <https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539>
+- Lisa Brennan-Jobs, *Small Fry* (2018) – <https://www.groveatlantic.com/title/small-fry/>
+- Andy Hertzfeld, *Revolution in the Valley* (2004) – <https://www.folklore.org>
 - Jony Fadell, *Build* (2022) – multiple accounts of workplace behavior
 - Various interviews with former employees (e.g., Wired, Bloomberg, NYT archives)

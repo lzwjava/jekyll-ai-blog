@@ -21,6 +21,7 @@ type: note
 -「试图阻碍知识前进是徒劳的，无知永远比不上求知。」
 
 ## 参考资料
+
 - [维基语录 - 恩里科·费米](https://en.wikiquote.org/wiki/Enrico_Fermi)
 - [BrainyQuote - 恩里科·费米语录](https://www.brainyquote.com/authors/enrico-fermi-quotes)
 - [Goodreads - 恩里科·费米名言](https://www.goodreads.com/author/quotes/107005.Enrico_Fermi)

@@ -39,7 +39,9 @@ You asked if **GPT-4.1, GPT-5-mini, and GPT-4o** still receive updates for agent
 ---
 
 ### Why Copilot feels "Hard to Use" on Legacy Models
+
 When you use Copilot with a premium model (GPT-5.4), it uses **Parallel Function Calling**. It can look at multiple files and run a search simultaneously. Legacy models (GPT-4.1/4o) often have to do this sequentially—one tool call at a time—making the agent feel slow and prone to "forgetting" the context between turns.
 
 ### Next Steps
+
 Would you like me to help you **optimize your system prompt** or **tool definitions** so that GPT-5-mini or legacy models handle your agentic workflows more reliably?

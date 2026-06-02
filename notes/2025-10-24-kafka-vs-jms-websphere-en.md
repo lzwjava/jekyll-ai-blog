@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Apache Kafka and Java Message Service (JMS) are both used for messaging in enterprise applications, but they serve different paradigms. JMS is a standard Java API for traditional point-to-point and publish-subscribe messaging, while Kafka is a distributed event streaming platform designed for high-volume, real-time data pipelines. In the context of IBM WebSphere Application Server (WAS), JMS has native, seamless integration, whereas Kafka requires external setup and additional configuration. Below is a detailed comparison across key dimensions.
 
 ### Comparison Table
@@ -29,6 +30,7 @@ Apache Kafka and Java Message Service (JMS) are both used for messaging in enter
 | **Monitoring & Management** | Integrated with WAS tools (e.g., PMI for metrics, admin console for queues). | Relies on external tools (e.g., Kafka Manager, Prometheus). Limited WAS-native monitoring; custom integration needed. |
 
 ### When to Choose Which?
+
 - **Choose JMS** if your WAS application needs simple, standards-based messaging with tight container integration (e.g., MDBs for async processing). It's battle-tested for financial/transactional systems.
 - **Choose Kafka** if you're dealing with big data streams, need event replay, or want decoupling from WAS's ecosystem. It's more future-proof for cloud-native or hybrid setups, but plan for ops overhead.
 - Hybrid approaches exist: Use JMS for intra-WAS comms and Kafka for external streaming.
@@ -36,6 +38,7 @@ Apache Kafka and Java Message Service (JMS) are both used for messaging in enter
 For implementation, start with WAS docs for JMS setup and Kafka's Java client guide for integration.
 
 ### References
+
 - [Comparison: JMS Message Queue vs. Apache Kafka](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)
 - [JMS vs Kafka: Which Message Broker Should You Use?](https://www.turing.com/blog/kafka-vs-jms-key-differences)
 - [Configuring JMS resources in WebSphere Application Server](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)

@@ -40,6 +40,7 @@ Auto merge + deploy
 这是**大脑**——唯一直接与您对话的层。
 
 **它做什么：**
+
 - 接收您的单行指令
 - 将其分解为原子化的、独立的 tasks
 - 每个 task 必须：自包含、有明确的成功标准、不依赖其他进行中的 task
@@ -47,6 +48,7 @@ Auto merge + deploy
 - 监控死循环并升级
 
 **如何构建它：**
+
 ```python
 # Orchestrator prompt pattern
 system = """
@@ -72,6 +74,7 @@ Output format: JSON array of tasks
 每个 agent 都是**相同的**——没有 dev agent，没有 test agent。只有配备所有 tools 的 agent。
 
 **一个 agent 拥有什么：**
+
 ```
 - Full codebase access (read/write)
 - Terminal access (run commands)
@@ -82,6 +85,7 @@ Output format: JSON array of tasks
 ```
 
 **Agent loop：**
+
 ```
 1. Receive task + context
 2. Read relevant files
@@ -103,6 +107,7 @@ Output format: JSON array of tasks
 这里是 100x 真正发生的地方——**纯并行执行**。
 
 **实现：**
+
 ```python
 # Simple task queue
 task_queue = [
@@ -120,6 +125,7 @@ for task in task_queue:
 **关键洞见：** 对于大多数工作流，3 到 7 个 agents 效果最佳——低于 3 个时单个 agent 就足够，超过 7 个时协调复杂性会超过收益，除非使用分层结构。
 
 **每个 agent 都有自己的：**
+
 - Git branch
 - Sandbox environment
 - Context window (fresh, no pollution from other agents)
@@ -131,6 +137,7 @@ for task in task_queue:
 这是最具人类价值的关键层——**系统中您存在的唯一原因**。
 
 **死循环的样子：**
+
 ```
 Agent tries solution A → fails
 Agent tries solution B → fails
@@ -140,6 +147,7 @@ Agent tries solution D → variation of B → fails
 ```
 
 **如何检测它：**
+
 ```python
 def detect_loop(agent_history):
     # Check if last N attempts are semantically similar
@@ -151,6 +159,7 @@ def detect_loop(agent_history):
 ```
 
 **升级的样子：**
+
 ```
 [IM Notification]
 🚨 Agent t3 is stuck
@@ -173,6 +182,7 @@ Reply with hint or unblock:
 您**绝不检查仪表板**。系统主动与您对话。
 
 **渠道：**
+
 - Telegram Bot (simplest)
 - Slack Bot
 - WhatsApp via Twilio
@@ -189,6 +199,7 @@ Reply with hint or unblock:
 | 📋 **Daily Summary** | End of day | Read or ignore |
 
 **实现：**
+
 ```python
 async def notify_human(type, agent_id, context):
     message = format_message(type, agent_id, context)
@@ -206,6 +217,7 @@ async def notify_human(type, agent_id, context):
 Agents 绝不能被权限阻塞。**这是扼杀流程的东西**。
 
 **Agents 需要访问什么：**
+
 ```yaml
 permissions:
   - git: read/write all repos
@@ -218,6 +230,7 @@ permissions:
 ```
 
 **安全模型：**
+
 - **staging/dev** 上完全权限——绝不生产环境
 - 生产部署需要一人确认（单个 IM 回复）
 - 所有 agent 操作均记录以供审计

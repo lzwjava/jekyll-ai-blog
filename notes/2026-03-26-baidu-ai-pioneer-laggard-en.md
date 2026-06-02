@@ -16,6 +16,7 @@ type: note
 Baidu was indeed a global AI pioneer in the early 2010s, thanks to visionary leadership and aggressive early investment in deep learning. However, it has struggled to maintain dominance in the generative AI era due to shifts in business focus, data advantages, execution speed, and intense competition.
 
 ### Early Leadership in AI (2012–2017)
+
 - **Deep learning bet under Robin Li**: Baidu's CEO Robin Li recognized the potential of deep learning early. In 2013, Baidu established the Institute of Deep Learning. They hired top talent like Kai Yu and built one of the world's first large-scale GPU clusters for deep learning research.
 - **Andrew Ng era (2014–2017)**: Baidu poached Andrew Ng (co-founder of Google Brain) as Chief Scientist. Ng quickly ordered and received 1,000 GPUs within 24 hours — far faster than at Google — and scaled the AI team to about 1,300 people (including 300 in research). Baidu deployed AI across search, voice recognition (Deep Speech), image recognition, maps, and more. They positioned themselves as China's AI leader and even competed globally.
 - **Competition for Geoffrey Hinton**: In 2012–2013, after Hinton's breakthrough AlexNet paper, Baidu (along with Google, Microsoft, and DeepMind) bid aggressively in a secret auction for Hinton and his students' expertise (via a shell company called DNNresearch). Baidu reportedly offered around $12 million initially; Google ultimately won for about $44 million, but Baidu was a serious contender. This highlighted Baidu's ambition.
@@ -24,6 +25,7 @@ Baidu was indeed a global AI pioneer in the early 2010s, thanks to visionary lea
 Baidu's advantages included a fast-moving corporate culture (quicker procurement than Google), strong CEO support for AI, and China's growing talent pool and data from search.
 
 ### Why Baidu Lagged Behind (Especially Post-2022 Generative AI Boom)
+
 Several structural and strategic factors explain the relative decline:
 
 1. **Core Business Dependency and Missed Mobile/Social Shift**:
@@ -46,7 +48,9 @@ Several structural and strategic factors explain the relative decline:
    - Competitors: ByteDance leverages short-video data and scale; Alibaba ties AI to cloud/e-commerce; pure-play startups move with less legacy baggage.
 
 ### Current Status (2025–2026)
+
 Baidu is far from out. It continues heavy investment:
+
 - ERNIE series (up to 5.0) with multimodal capabilities, agentic features, and integration into search, cloud (Qianfan), Apollo Go (robotaxis), and digital humans.
 - Open-sourced parts of Ernie to boost adoption.
 - Own AI chips (Kunlun M series) and full-stack ecosystem (PaddlePaddle).
@@ -57,6 +61,7 @@ Baidu remains one of China's strongest AI companies technically, with patents an
 **In short**: Baidu's early lead came from bold vision, talent poaching, and hardware speed in the "pre-LLM" deep learning era. The lag stems from over-reliance on search, slower pivots to consumer-facing gen AI, richer data ecosystems at rivals, and a fragmented/hyper-competitive Chinese AI landscape where startups iterate faster. Baidu is catching up with applications and multimodal models, but regaining clear leadership will require sustained execution amid economic and regulatory headwinds.
 
 **References:**
+
 - [Andrew Ng on Baidu AI investments and GPU cluster](https://medium.com/machine-learnings/interview-with-andrew-ng-many-leading-ai-technologies-were-first-deployed-in-china-c5e9f196bb9f)
 - [VentureBeat on Ng joining Baidu and early GPU advantage](https://venturebeat.com/business/andrew-ng-baidu)
 - [Wired on Hinton auction involving Baidu](https://www.wired.com/story/secret-auction-race-ai-supremacy-google-microsoft-baidu/)

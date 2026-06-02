@@ -20,26 +20,31 @@ This is a very common issue with budget-friendly flat-pack chairs, and there are
 ---
 
 ### 1. **Micro-Movement & Vibration During Normal Use**
+
 Every time you sit down, shift weight, or stand up, the chair frame flexes slightly. Over months, this **repeated micro-movement** causes screws to gradually back themselves out — a physics phenomenon called **vibration loosening**.
 
 ---
 
 ### 2. **Flat-Pack Assembly = Pre-Drilled Holes**
+
 These chairs arrive disassembled and use **pre-drilled holes in metal or wood/composite frames**. If the hole diameter is even slightly too large for the screw, the screw has less grip from day one and loosens faster over time.
 
 ---
 
 ### 3. **No Thread-Locking Compound**
+
 Higher-quality furniture uses **thread-locking adhesive (like Loctite)** on critical screws. Budget reception chairs typically skip this step entirely, so nothing keeps the screw from unwinding.
 
 ---
 
 ### 4. **Sled Base = More Frame Stress Points**
+
 Unlike wheeled chairs (which distribute movement through casters), **sled-base chairs are rigid** — all the stress from sitting, rocking, or sliding the chair goes directly into the frame joints and screw connections, accelerating loosening.
 
 ---
 
 ### 5. **Thin Metal + Machine Screws**
+
 The iron frame on budget chairs is often thin gauge. Machine screws threading into thin metal have limited grip depth, so they strip or loosen more easily than screws going into thick material.
 
 ---
@@ -57,4 +62,5 @@ The iron frame on budget chairs is often thin gauge. Machine screws threading in
 ---
 
 ### Quick Tip
+
 **Loctite Blue 242** is the best DIY fix — it's removable if you ever need to disassemble, but strong enough to stop screws from vibrating loose. Available at hardware stores for a few dollars and works on any metal chair screw.

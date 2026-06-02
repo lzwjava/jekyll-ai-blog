@@ -49,6 +49,7 @@ Blanket "go explore anywhere" endorsements are legally weak. If the vendor write
 **3. Limiting Competitive Exposure**
 
 If the contractor interviews for 5 roles and lands one, the vendor:
+
 - Lost 4 interview cycles they can't bill for
 - Potentially weakened their relationship with 4 hiring managers who were involved
 - Lost leverage in future placement negotiations with those teams

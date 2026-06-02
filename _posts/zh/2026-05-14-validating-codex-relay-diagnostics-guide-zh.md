@@ -78,6 +78,7 @@ curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ### 6. 中继/胶水代码不是瓶颈
 
 ✅ 正确。编写良好的中继（如 Nginx 或 Caddy 反向代理到 `api.openai.com`）仅增加数毫秒。瓶颈几乎总是：
+
 - 网络路径（ISP 路由质量）
 - OpenAI API 上游延迟/拥塞
 - 模型处理时间
@@ -87,6 +88,7 @@ curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ### 7. 尝试新的新加坡服务器
 
 ✅ 好主意。不同的 VPS 提供商与中国 ISP 的**对等互联协议**不同。对于中国-新加坡路由，值得比较的提供商：
+
 - **DMIT**（如你所说 —— 以良好的 CN2 GIA 路由著称）
 - **Bandwagon Host（搬瓦工）** 使用 CN2 GIA
 - **Vultr / DigitalOcean**（标准路由，可能较慢）

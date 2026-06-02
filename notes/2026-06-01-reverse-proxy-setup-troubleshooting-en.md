@@ -22,6 +22,7 @@ Caddy config: /etc/caddy/Caddyfile
 Caddy is reverse proxying port 80 → `localhost:8888`. Port 8888 is the classic **Jupyter Notebook** port. The 502 means Jupyter isn't running right now.
 
 So the flow would be:
+
 ```
 Internet → :80 (Caddy) → localhost:8888 (Jupyter, currently dead)
 ```

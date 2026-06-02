@@ -16,7 +16,7 @@ type: note
 
 是的，Google Cloud 提供了一项名为 **Live Stream API** 的专用直播服务（属于 Google Cloud 媒体服务的一部分），其功能与阿里云（Aliyun）视频直播非常相似。
 
-### 核心功能及工作原理：
+### 核心功能及工作原理
 
 - **Ingest (推流)**：
   你在 Live Stream API 中创建一个 **input endpoint**。

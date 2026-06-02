@@ -16,7 +16,9 @@ Answer:
 Liu Zongyuan’s essay **“The Biography of Camelback Guo the Tree Planter”** provides one of the most elegant and timeless metaphors for successful long-term investing.
 
 ### The Core Principle in the Essay
+
 Guo the tree planter succeeds because he **follows nature** rather than forcing outcomes:
+
 - He prepares the tree properly at planting (good roots, correct soil, firm base).
 - After that he **does almost nothing**: no excessive touching, no constant checking, no over-fertilizing, no shaking the trunk to “test” it.
 - He explicitly says: excessive love and worry **harms** the tree — it damages the tree’s natural growth process.
@@ -24,6 +26,7 @@ Guo the tree planter succeeds because he **follows nature** rather than forcing 
 The other planters fail precisely **because they do too much**: they bind roots too tightly, change soil unnecessarily, over-fertilize, constantly inspect, scratch bark, shake trunks — all actions that express “care” but actually destroy the tree’s ability to thrive.
 
 ### Direct Parallel to Investing
+
 This maps almost perfectly onto the contrast between great long-term investors and ordinary active individual investors.
 
 | Aspect                        | Guo the Tree Planter (successful)                  | Other Planters (fail)                              | Great Investors (Buffett, Duan Yongping)          | Typical Retail / Active Traders                   |
@@ -35,11 +38,14 @@ This maps almost perfectly onto the contrast between great long-term investors a
 | Outcome                       | Trees grow strong, bear abundant fruit early & long| Trees weak, low yield                              | Extraordinary compounded returns over decades     | Average or below-average returns, often losses    |
 
 ### Buffett and Duan Yongping Explicitly Embody “Guo’s Way”
+
 - **Warren Buffett**: Famous for extreme inactivity after purchase. He often says his ideal portfolio would be a 10-stock portfolio he never needs to change. Berkshire Hathaway’s largest holdings (Apple, Coca-Cola, American Express, etc.) have been held for many years or decades with minimal changes.
 - **Duan Yongping** (founder of BBK / OPPO / vivo, huge investor in Apple, Tencent, etc.): Calls himself a “student of Buffett.” He repeatedly emphasizes: “Investing is waiting.” He buys when he has extreme conviction after deep research, then **does almost nothing** for many years. He has said publicly that most of his outperformance came simply from **not selling** great companies during volatility.
 
 ### The Tragedy of “Other Planters” in Modern Markets
+
 Most individual investors behave like the bad tree planters:
+
 - Constantly “checking the bark” (daily price watching, news obsession)
 - Over-fertilizing (chasing hot sectors, leverage, options)
 - Shaking the trunk (panic selling on dips, FOMO buying at peaks)

@@ -12,10 +12,12 @@ type: note
 Here's the full picture:
 
 **When trained:**
+
 - Started: **2025-11-16**
 - Checkpoint saved: **2025-11-21 21:51** (took ~5 days)
 
 **Training progress:**
+
 - Iteration: **11,500 / 12,000** (96% complete)
 - Best val loss: **3.3174**
 
@@ -33,6 +35,7 @@ Here's the full picture:
 | Checkpoint size | **1.4 GB** (includes optimizer state) |
 
 **Training config:**
+
 - Dataset: FineWeb
 - Batch size: 8 × grad_accum 64 = effective batch **512**
 - dtype: bfloat16

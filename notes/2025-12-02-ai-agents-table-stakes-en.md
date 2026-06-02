@@ -33,6 +33,7 @@ In big enterprises today, AI agents and workflows are no longer “nice-to-have�
 - **Data-heavy workflows**: Any process that previously required a human staring at spreadsheets or dashboards is being eaten by agents—marketing campaign optimization, supply-chain re-routing, legal contract review, compliance monitoring, etc.
 
 The tipping point happened around 2024-2025 when:
+
 - LLMs became cheap and fast enough (<$1 per million tokens, <1 second latency)
 - Tool-calling and structured output became reliable
 - Frameworks like LangChain/LangGraph, AutoGen, CrewAI, and OpenAI Swarm made multi-agent orchestration easy

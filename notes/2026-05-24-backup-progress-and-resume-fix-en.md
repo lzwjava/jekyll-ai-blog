@@ -35,11 +35,12 @@ Pictures: PARTIAL — needs resume
 ========================================================================
 
 What it does differently from fix_backup.sh:
-  - Transfers Photos library by subdirectory (not one giant rsync)
-  - Each subdir is 1-3GB (won't timeout)
-  - Uses --partial + --inplace so interrupted transfers RESUME
-  - ServerAliveInterval=15 keeps SSH alive
-  - Skips already-complete subdirs automatically (rsync checksum)
+
+- Transfers Photos library by subdirectory (not one giant rsync)
+- Each subdir is 1-3GB (won't timeout)
+- Uses --partial + --inplace so interrupted transfers RESUME
+- ServerAliveInterval=15 keeps SSH alive
+- Skips already-complete subdirs automatically (rsync checksum)
 
 Run on MacBook:
   bash ~/fix_backup2.sh

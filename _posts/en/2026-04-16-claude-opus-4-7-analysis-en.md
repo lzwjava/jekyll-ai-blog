@@ -32,25 +32,30 @@ Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, 
 ## Key Improvements Over Opus 4.6
 
 **1. Advanced Coding Capabilities**
+
 - Multiple companies reported significant improvements in coding benchmarks
 - On a 93-task coding benchmark, Claude Opus 4.7 lifted resolution by 13% over Opus 4.6, including four tasks neither Opus 4.6 nor Sonnet 4.6 could solve
 - Better at finding and fixing bugs, with improved code quality and fewer errors
 - More capable of handling multi-step workflows and long-running autonomous tasks
 
 **2. Enhanced Vision Capabilities**
+
 - It can see images in greater resolution, processing images up to 2,576 pixels on the long edge (~3.75 megapixels), more than three times as many as prior Claude models
 - Dramatically improved visual acuity in testing (98.5% on one benchmark versus 54.5% for Opus 4.6)
 
 **3. Better Instruction Following**
+
 - Opus 4.7 is substantially better at following instructions
 - Takes instructions more literally and precisely, though this means prompts written for earlier models may need adjustment
 
 **4. Improved Professional Output Quality**
+
 - More tasteful and creative when completing professional tasks
 - Produces higher-quality interfaces, slides, and documents
 - Better design decisions and stronger creative choices
 
 **5. Enhanced Finance and Knowledge Work**
+
 - State-of-the-art performance on finance agent evaluations
 - Opus 4.7 scored higher than its predecessor on benchmarks including finance agent evaluations and GDPval-AA, which measures economically valuable knowledge work across finance and legal domains
 
@@ -73,6 +78,7 @@ While Opus 4.7 represents an advancement, it remains less capable than Claude My
 Anthropic reduced the model's cyber capabilities during training compared to Mythos Preview and implemented safeguards that automatically detect and block requests indicating prohibited or high-risk cybersecurity uses.
 
 **3. Token Usage Changes**
+
 - Uses an updated tokenizer that can result in 1.0 to 1.35 times more tokens for the same input
 - May produce more output tokens at higher effort levels due to increased reasoning
 

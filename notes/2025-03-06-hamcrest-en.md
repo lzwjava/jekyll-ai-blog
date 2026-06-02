@@ -13,6 +13,7 @@ Let me guide you through using Hamcrest matchers in Java. Hamcrest is a framewor
 1. First, add the Hamcrest dependency to your project:
 
 For Maven, add this to your pom.xml:
+
 ```xml
 <dependency>
     <groupId>org.hamcrest</groupId>
@@ -23,6 +24,7 @@ For Maven, add this to your pom.xml:
 ```
 
 For Gradle, add this to your build.gradle:
+
 ```groovy
 testImplementation 'org.hamcrest:hamcrest:2.2'
 ```
@@ -59,6 +61,7 @@ public class ExampleTest {
 ```
 
 3. Common Hamcrest Matchers:
+
 - `is()`: Tests equality
 - `equalTo()`: Tests object equality
 - `containsString()`: Checks if string contains substring
@@ -72,6 +75,7 @@ public class ExampleTest {
 - `anyOf()`: Combines multiple matchers (OR)
 
 4. Custom Matcher Example:
+
 ```java
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
@@ -103,6 +107,7 @@ public void testPalindrome() {
 ```
 
 5. Combining Matchers:
+
 ```java
 @Test
 public void testCombined() {
@@ -116,12 +121,14 @@ public void testCombined() {
 ```
 
 Key Benefits:
+
 - More readable test assertions
 - Better failure messages
 - Flexible matching conditions
 - Extensible with custom matchers
 
 Tips:
+
 - Use `import static` to make code more concise
 - Combine matchers for complex conditions
 - Check the Hamcrest documentation for the full set of matchers

@@ -72,11 +72,8 @@ type: note
 
 <div style="text-align: center">⁂</div>
 
-[^1]: https://www.reddit.com/r/learnmachinelearning/comments/16m3gx7/do_aibased_trading_bots_actually_work_for/
-[^2]: https://www.securities.io/beyond-the-hype-what-ai-trading-bots-can-actually-do/
-[^3]: https://www.investopedia.com/terms/a/algorithmictrading.asp
-[^4]: https://www.captrader.com/en/blog/ai-trading/
-[^5]: https://www.ki-company.ai/en/blog-beitraege/ai-trading-how-artificial-intelligence-is-revolutionizing-retail
-[^6]: https://theconversation.com/humans-v-ai-heres-whos-better-at-making-money-in-financial-markets-174937
-[^7]: https://www.youtube.com/watch?v=-JrAii8hx5A
-[^8]: https://news.ycombinator.com/item?id=16922538
+[^1]: <https://www.reddit.com/r/learnmachinelearning/comments/16m3gx7/do_aibased_trading_bots_actually_work_for/>
+[^2]: <https://www.securities.io/beyond-the-hype-what-ai-trading-bots-can-actually-do/>
+[^3]: <https://www.investopedia.com/terms/a/algorithmictrading.asp>
+[^4]: <https://www.captrader.com/en/blog/ai-trading/>
+[^5]: <https://www.ki-company.ai/en/blog-beitraege/ai-trading-how-artificial-intelligence-is-revolutionizing-retail>

@@ -17,6 +17,7 @@ Answer:
 AG Grid (including `ag-grid-community` and `ag-grid-angular`) follows a regular release cycle with major versions every ~6 months and minor/patch releases more frequently. As of early 2026, the latest versions are around **35.x** (e.g., 35.0.1 or 35.1.0), which include many performance improvements, new features (like better date/time grouping, tool panel enhancements, and charting updates), and ongoing support for modern Angular versions.
 
 The **ag-grid-angular** package has evolved significantly:
+
 - Older versions (≈ v23–v27) were used with Angular 9–11.
 - Major breaking changes occurred around v28 (Ivy support improvements, removal of legacy wrappers).
 - From v30 onward, legacy support for very old Angular versions was dropped.

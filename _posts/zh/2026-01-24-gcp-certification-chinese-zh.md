@@ -20,10 +20,10 @@ type: note
 
 ### 注册步骤
 
-1. 访问 Google Cloud 认证官方页面：https://cloud.google.com/learn/certification
+1. 访问 Google Cloud 认证官方页面：<https://cloud.google.com/learn/certification>
 2. 选择您想要的认证（例如：Professional Cloud Architect）。
 3. 点击该认证页面上的 **Register** 或 **Schedule exam** 按钮。
-4. 如果您是新用户，请在 **CertMetrics (CM Connect)** 门户中创建一个账户（https://cp.certmetrics.com/google/en/login）。
+4. 如果您是新用户，请在 **CertMetrics (CM Connect)** 门户中创建一个账户（<https://cp.certmetrics.com/google/en/login）。>
 5. 登录后，点击 **Schedule/Launch an Exam** —— 这将带您进入 Kryterion Webassessor 平台。
 6. 搜索考试，选择交付方式：
    - **Online proctored**（远程在线监考，在家或办公室参加 —— 最受欢迎的方式）。

@@ -24,15 +24,17 @@ npm config set //registry.npmjs.org/:_auth "base64-encoded-credentials"
 
 注意语法：它是 `//registry.org/:_auth`（在 `_auth` 前有一个冒号），而不是 `//registry.org/_auth`。
 
-## Difference between _auth and _authToken
+## Difference between _auth and_authToken
 
 **`_authToken`** (现代方法):
+
 - 直接接收一个明文 authentication token
 - 被大多数现代 registries 使用 (npm, GitHub Packages 等)
 - token 将原样存储在你的 `.npmrc` 文件中
 - 示例: `//registry.npmjs.org/:_authToken=npm_abc123xyz...`
 
 **`_auth`** (旧版方法):
+
 - 需要 `username:password` 格式的 base64 编码凭据
 - 较旧的身份验证方法，现已较少使用
 - 你需要自行对其进行编码：`echo -n "username:password" | base64`

@@ -31,6 +31,7 @@ A network protocol consists of three core elements: **Syntax (语法)**, **Seman
 ### Detailed Breakdown of Each Element
 
 #### 1. Syntax (语法) — "How to communicate"
+
 Syntax defines the structure and format of data in the protocol, including the headers, fields, and markers of data packets. It specifies how data packets are organized and how to correctly parse and construct them.
 
 > Relates to **data format**, **encoding**, and **signal levels** — this corresponds to **Option A** and **Option C**, but these describe *syntax*, not semantics.
@@ -38,6 +39,7 @@ Syntax defines the structure and format of data in the protocol, including the h
 ---
 
 #### 2. Semantics (语义) — "What to communicate / What actions to take"
+
 Semantics refers to the control information that needs to be issued, the actions to be completed, and the responses to be made.
 
 More specifically, semantics focuses on the meaning and purpose of information. It defines the interpretation of each part of the control information, including what control information needs to be sent, what actions should be completed, and what kind of responses should be made.
@@ -47,6 +49,7 @@ More specifically, semantics focuses on the meaning and purpose of information. 
 ---
 
 #### 3. Timing / Time-sequence (时序) — "Order of communication"
+
 Timing defines the transmission order and timing of data in the protocol — it specifies the sequence in which data packets are sent and received, and the time intervals between sending and receiving.
 
 > This corresponds to **Option B: Event execution order**.
@@ -66,6 +69,7 @@ The question asks specifically what **semantics** is responsible for. The common
 Semantics explains the meaning of each part of the control information — it specifies what control information needs to be sent out, what actions are to be completed, and what kind of responses should be given.
 
 Therefore:
+
 - **A (Data format)** → describes **Syntax**
 - **B (Event execution order)** → describes **Timing**
 - **C (Data code type)** → also relates to **Syntax**

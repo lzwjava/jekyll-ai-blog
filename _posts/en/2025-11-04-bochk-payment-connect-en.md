@@ -15,6 +15,7 @@ Yes, Bank of China Hong Kong (BOCHK) allows Mainland Chinese citizens (non-HK re
 Unlike HSBC HK, which explicitly restricts Payment Connect to Hong Kong residents only (non-residents cannot use it for outbound transfers to the Mainland), BOCHK's service is open to all eligible personal customers without residency-based exclusions mentioned in their guidelines. As the sole settlement bank for the scheme, BOCHK supports seamless cross-border flows for its diverse customer base, including Mainland clients.
 
 ### Quick Setup/Notes
+
 - **Eligibility**: You need a BOCHK personal account (HKD-linked) and the recipient's Mainland bank details (account number or mobile). Mainland Chinese with BOCHK accounts can initiate via FPS ID.
 - **Fees/Limits**: Free or low fees (check app); daily HKD 10,000 cap; subject to SAFE forex rules (e.g., USD 50,000 annual equivalent for Mainland side).
 - **How**: Log into BOCHK app > FPS > Select Payment Connect > Enter payee info.

@@ -17,11 +17,13 @@ Answer:
 A **.whl** file (pronounced "wheel") is the standard binary distribution format for Python packages, introduced by PEP 427. It is the successor to the older `.egg` format and is designed to be faster and more reliable to install than installing from source tarballs (`.tar.gz`).
 
 ### Key advantages of wheel (.whl) over source distributions
+
 - **Pre-built and pre-compiled** — No need to compile C extensions or run `setup.py` during installation (much faster, especially on Windows).
 - **Pure Python or platform-specific** — Wheels can be pure Python (work everywhere) or built for specific OS/CPU architectures (e.g., manylinux, macOS, Windows).
 - **Deterministic and cacheable** — The file contains everything needed, so installations are reproducible and pip can cache them efficiently.
 
 ### Wheel filename convention
+
 A typical wheel filename looks like this:
 
 ```
@@ -31,6 +33,7 @@ package_name-1.2.3-cp39-cp39-manylinux_2_28_x86_64.whl
 ```
 
 Breakdown of the tags:
+
 - `package_name`: name of the package
 - `version`: version number (e.g., 1.2.3)
 - `cp39`: Python version tag (cp39 = Python 3.9, py3 = any Python 3, etc.)
@@ -48,13 +51,17 @@ Breakdown of the tags:
 | macOS universal/arm      | `macosx_11_0_arm64` or `universal2` | Intel or Apple Silicon Macs         |
 
 ### How pip uses wheels
+
 When you run `pip install package_name`:
+
 1. pip looks for a compatible `.whl` on PyPI first.
 2. If a suitable wheel exists, it downloads and installs it directly (very fast).
 3. Only if no wheel is available does pip fall back to a source distribution (`.tar.gz`) and build it locally.
 
 ### Building your own wheels
+
 You can create a wheel for your project with:
+
 ```bash
 python -m build    # recommended (creates both sdist and wheel)
 # or older way:

@@ -35,6 +35,7 @@ type: note
    - 更低的错误率 = 工具使用更可靠。
 
 **总结：**
+
 - **Google AI Studio** 的 throughput 稍好、latency 更低、端到端 latency 更低，意味着处理和返回结果更快。
 - **Google Vertex** 稍慢，并且在端到端处理方面可能有更多开销。
 - 如果您的任务涉及集成，Tool call error rate 很关键；没有数字，我们无法比较可靠性。

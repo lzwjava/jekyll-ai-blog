@@ -87,6 +87,7 @@ This uses another \\(O(N^2 d)\\) FLOPs but only \\(O(N)\\) extra memory (no \\(P
 ### I/O-Awareness and GPU Optimizations
 
 GPUs have a hierarchy: registers/SRAM (fast, small) >> HBM (slow, large). Standard attention thrashes HBM with \\(\Theta(N^2)\\) accesses per pass. FlashAttention's tiling ensures:
+
 - \\(K, V\\) loaded once (\\(O(N d)\\)).
 - \\(Q, O\\) loaded \\(T_c \approx N / B_c \approx N d / M\\) times (\\(O(N^2 d / M)\\)).
 - Lower bound: No exact algorithm beats \\(\Omega(N^2 d^2 / M)\\) for mid-range \\(M\\).

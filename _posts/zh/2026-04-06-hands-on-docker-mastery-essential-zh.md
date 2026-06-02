@@ -95,15 +95,15 @@ COPY . .
 
 ## 巩固你知识的具体后续步骤
 
-1.  **从头编写你自己的Dockerfile** —— 找一个你熟悉的Node.js或Python小应用，在不使用模板的情况下从头容器化它。
+1. **从头编写你自己的Dockerfile** —— 找一个你熟悉的Node.js或Python小应用，在不使用模板的情况下从头容器化它。
 
-2.  **在LibreChat上使用`docker compose build`** —— 如果你想让你本地的Docker安装反映对本地文件夹所做的更改，你可以在本地构建镜像：创建一个`docker-compose.override.yml`文件，指定`build: context: . target: node`，然后照常使用`docker compose build`。
+2. **在LibreChat上使用`docker compose build`** —— 如果你想让你本地的Docker安装反映对本地文件夹所做的更改，你可以在本地构建镜像：创建一个`docker-compose.override.yml`文件，指定`build: context: . target: node`，然后照常使用`docker compose build`。
 
-3.  **故意破坏网络** —— 尝试在compose中使用`localhost`而非服务名。观察它如何失败。修复它。这次失败比任何文章都教得更多。
+3. **故意破坏网络** —— 尝试在compose中使用`localhost`而非服务名。观察它如何失败。修复它。这次失败比任何文章都教得更多。
 
-4.  **检查运行中的容器** —— 使用`docker exec -it <container> /bin/sh`进入一个正在运行的LibreChat容器内部查看。看看文件系统是什么样子。用`env`检查环境变量。这会消除“黑盒”感。
+4. **检查运行中的容器** —— 使用`docker exec -it <container> /bin/sh`进入一个正在运行的LibreChat容器内部查看。看看文件系统是什么样子。用`env`检查环境变量。这会消除“黑盒”感。
 
-5.  **Docker → k8s的思维映射** —— 既然你接触过Azure k8s：Pod ≈ 容器，Deployment ≈ 带副本的docker compose服务，Service (k8s) ≈ Docker的内部DNS + 端口暴露，PersistentVolumeClaim ≈ Docker的命名卷。你的LibreChat经验可以直接转化。
+5. **Docker → k8s的思维映射** —— 既然你接触过Azure k8s：Pod ≈ 容器，Deployment ≈ 带副本的docker compose服务，Service (k8s) ≈ Docker的内部DNS + 端口暴露，PersistentVolumeClaim ≈ Docker的命名卷。你的LibreChat经验可以直接转化。
 
 ---
 

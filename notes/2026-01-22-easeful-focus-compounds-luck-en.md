@@ -54,6 +54,7 @@ Here is the core logic broken down step by step:
 
 In short:
 Life starts feeling "lucky" because sustained, relaxed focus lets you:
+
 - Build rare skills and results (real advantage)
 - Stay calm enough to notice and seize opportunities (serendipity amplifier)
 - Create a positive self-fulfilling cycle (optimism + action → better outcomes → more optimism)

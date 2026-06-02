@@ -11,8 +11,6 @@ type: note
 
 Here's the full picture of what was done:
 
-
-
     VS Code Installation — Complete Summary
 
     How it was installed

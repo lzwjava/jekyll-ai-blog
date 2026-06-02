@@ -18,6 +18,7 @@ In China, Lipton (known locally as 立顿) offers a range of tea products tailor
 Lipton entered China in 1992 and focuses on convenient teabags, which remain somewhat novel compared to traditional loose-leaf brewing. Their main offerings in China include:
 
 ### Teabag (Tea Packet) Varieties
+
 - **Black Tea (Red Tea / 红茶)** — The most classic and popular line.
   - Yellow Label / Classic Black Tea (黄牌精选红茶) — Often the signature strong, brisk black tea blend.
   - Warm & Mellow Black Tea (温润红茶).

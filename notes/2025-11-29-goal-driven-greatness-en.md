@@ -13,6 +13,7 @@ type: note
 **Why Greatness Cannot Be Planned** is a 2015 book by Kenneth O. Stanley (the AI researcher who invented NeuroEvolution and the novelty search algorithm) and Joel Lehman. Its core message is radical but backed by both computer science experiments and real-world examples:
 
 ### Main Thesis
+
 Greatness (major breakthroughs, world-changing innovations, or even personal achievements) is almost never achieved by directly pursuing it through explicit, step-by-step objectives. Instead, it emerges as a byproduct of following “interesting” or “novel” paths – what the authors call **the pursuit of interestingness** rather than goals.
 
 Chasing ambitious objectives directly is not just inefficient – it is actively counterproductive.
@@ -40,6 +41,7 @@ Chasing ambitious objectives directly is not just inefficient – it is actively
    - Personal advice: follow what fascinates you, not what “should” lead to success. Many people who became legends (Steve Wozniak, J.K. Rowling, Van Gogh, etc.) were not optimizing for fame or money at the time.
 
 ### One-Sentence Summary of the Book’s Message
+
 “If you want something truly great, stop trying to get it. Instead, follow whatever is most interesting right now, accumulate a large and diverse collection of stepping stones, and greatness will find you as an accidental side effect.”
 
 The book is short (≈150 pages), very readable, and mixes philosophy, computer science evidence, and historical anecdotes. It has become a cult classic in AI research (especially in open-endedness and quality-diversity algorithms) and among people who are skeptical of hyper-goal-oriented productivity culture.

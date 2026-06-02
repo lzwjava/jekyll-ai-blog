@@ -13,6 +13,7 @@ type: note
 Shenzhen JOOAN Technology Co., Ltd. (also known as Qiao An Technology) specializes in smart home security products, including a range of wireless IP cameras that integrate with their cloud platform, often referred to as QA Cloud or JOOAN Cloud for remote monitoring, storage, and P2P access via apps like Joolink or CAM720.
 
 ### Key IP Camera Products
+
 Their IP cameras are designed for home and outdoor surveillance, featuring WiFi/4G connectivity, motion detection, night vision, two-way audio, and optional cloud storage for event clips and live streaming. Popular models include:
 
 - **JA-366 HD 720p Cloud IP Camera**: A wireless indoor/outdoor model with 1280x720 resolution, pan-tilt zoom (PTZ), night vision up to 10m, and built-in cloud support for remote viewing on mobile apps. Supports SD card local storage or paid cloud plans.
@@ -28,6 +29,7 @@ These cameras are affordable (often $20–$60 on retail sites), compatible with 
 For more details, check their official site or app stores.
 
 ### References
+
 - [JOOAN Official Website](https://www.jooancam.com/)
 - [Shenzhen JOOAN Technology Product Page](http://www.qacctv.com/en/)
 - [JOOAN Cloud Storage Services](https://www.jooancam.com/products/jooan-camera-cloud-storage-services)

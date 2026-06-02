@@ -39,22 +39,22 @@ Here's a breakdown of their major differences, especially concerning output cont
 **Ability & Strengths:**
 
 * **Claude 4 Sonnet:**
-    * **Multi-step Reasoning:** Exceptional at breaking down complex problems.
-    * **Coding:** Strong in code generation, especially front-end web development, and systematic error analysis.
-    * **Transparency:** Provides step-by-step debugging approaches and explanations.
-    * **Context Window:** Around 200,000 tokens (500k for enterprise), which is substantial but less than GPT-4.1 or Gemini 2.5 Pro.
+  * **Multi-step Reasoning:** Exceptional at breaking down complex problems.
+  * **Coding:** Strong in code generation, especially front-end web development, and systematic error analysis.
+  * **Transparency:** Provides step-by-step debugging approaches and explanations.
+  * **Context Window:** Around 200,000 tokens (500k for enterprise), which is substantial but less than GPT-4.1 or Gemini 2.5 Pro.
 * **Gemini 2.5 Flash:**
-    * **Speed and Cost-Effectiveness:** Designed for high throughput and low latency.
-    * **Multimodality:** Excellent at processing and understanding visual inputs (screenshots, diagrams, sketches) for tasks like UI/UX development and system architecture.
-    * **Context Window:** A large 1 million token context window, with plans to expand to 2 million.
-    * **"Thinking Budget":** A unique feature allowing users to dial reasoning up or down based on task needs, balancing speed and intelligence.
-    * **Multilingual Capabilities:** Strong performance in various languages.
+  * **Speed and Cost-Effectiveness:** Designed for high throughput and low latency.
+  * **Multimodality:** Excellent at processing and understanding visual inputs (screenshots, diagrams, sketches) for tasks like UI/UX development and system architecture.
+  * **Context Window:** A large 1 million token context window, with plans to expand to 2 million.
+  * **"Thinking Budget":** A unique feature allowing users to dial reasoning up or down based on task needs, balancing speed and intelligence.
+  * **Multilingual Capabilities:** Strong performance in various languages.
 * **GPT-4.1:**
-    * **General-Purpose Powerhouse:** Highly versatile for a wide range of tasks.
-    * **Coding:** Excels at interpreting ambiguous coding requirements, generating clean and functional code, and RESTful API development.
-    * **Instruction Following:** Remarkable ability to follow complex, multi-step instructions precisely.
-    * **Context Window:** A massive 1 million token context window.
-    * **Speed (for simple tasks):** Provides rapid responses for straightforward problems.
+  * **General-Purpose Powerhouse:** Highly versatile for a wide range of tasks.
+  * **Coding:** Excels at interpreting ambiguous coding requirements, generating clean and functional code, and RESTful API development.
+  * **Instruction Following:** Remarkable ability to follow complex, multi-step instructions precisely.
+  * **Context Window:** A massive 1 million token context window.
+  * **Speed (for simple tasks):** Provides rapid responses for straightforward problems.
 
 **Key Differentiators and Considerations:**
 
@@ -63,8 +63,8 @@ Here's a breakdown of their major differences, especially concerning output cont
 * **Multimodality:** Gemini 2.5 Flash stands out with its native multimodal capabilities, allowing it to process images and videos alongside text, making it highly valuable for visual-centric tasks.
 * **Context Window:** While all three have impressive context windows (GPT-4.1 and Gemini 2.5 Flash at 1M tokens, Sonnet 4 at 200K/500K), the effective utilization of this window can vary. GPT-4.1 has shown strong ability to reference information throughout its large context.
 * **Specific Use Cases:**
-    * For highly precise, instruction-driven coding and general complex tasks: GPT-4.1.
-    * For cost-effective, fast, and multimodal applications: Gemini 2.5 Flash.
-    * For deep reasoning, systematic problem-solving, and transparent AI behavior, especially in coding: Claude 4 Sonnet.
+  * For highly precise, instruction-driven coding and general complex tasks: GPT-4.1.
+  * For cost-effective, fast, and multimodal applications: Gemini 2.5 Flash.
+  * For deep reasoning, systematic problem-solving, and transparent AI behavior, especially in coding: Claude 4 Sonnet.
 
 Ultimately, the "best" model depends heavily on your specific needs and priorities (e.g., speed, cost, precision, multimodal capabilities, transparency). Many users find value in experimenting with and even combining these models for different parts of their workflows.

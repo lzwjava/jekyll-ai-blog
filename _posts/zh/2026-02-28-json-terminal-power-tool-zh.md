@@ -55,4 +55,4 @@ apt install jq -y
 
 强烈推荐至少学习基础知识——它能节省海量时间。😄
 
-官方网站（那里有非常好的教程）：https://jqlang.org/
+官方网站（那里有非常好的教程）：<https://jqlang.org/>

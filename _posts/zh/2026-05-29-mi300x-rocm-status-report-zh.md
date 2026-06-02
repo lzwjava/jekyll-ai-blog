@@ -87,7 +87,7 @@ CPU
 
 状态
 
-  GPU:         已检测到且空闲
+GPU:         已检测到且空闲
   ROCm:        已完全安装
   工具:        全部存在 (hipcc, rocm-smi, rocminfo, rocgdb, rocprof)
   PATH:        已修复 (添加了 /opt/rocm/bin)
@@ -95,9 +95,10 @@ CPU
 ====================================================================
 
 关键要点：
-  - ROCm 7.2.0 已完全安装，包含所有开发/调试/性能分析工具
-  - MI300X (192GB HBM3) 已检测到，空闲，温度低 (43C)，随时可用
-  - PyTorch 未安装——如需，可安装 ROCm 版本的 PyTorch
-  - ROCM_PATH 和 HIP_PATH 环境变量未设置（可选但建议设置）
+
+- ROCm 7.2.0 已完全安装，包含所有开发/调试/性能分析工具
+- MI300X (192GB HBM3) 已检测到，空闲，温度低 (43C)，随时可用
+- PyTorch 未安装——如需，可安装 ROCm 版本的 PyTorch
+- ROCM_PATH 和 HIP_PATH 环境变量未设置（可选但建议设置）
 
 需要我安装支持 ROCm 的 PyTorch 或设置剩余的环境变量吗？

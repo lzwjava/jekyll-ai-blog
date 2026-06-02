@@ -23,6 +23,7 @@ type: note
 中文论坛（如 恩山无线论坛 Right.com.cn）中有关于在类似 XDR 系列 Router 上刷入 OpenWrt 的讨论，但这通常涉及硬件改装，例如更换 Flash Memory（例如从 16MB 升级到更大的 SPI-NAND）、使用 Custom Build，或通过 UART/Serial 接口进行恢复。对于 XDR3050 易展版，目前没有任何可靠、直接的方法可以在不冒“砖机”风险的情况下进行安装。
 
 如果您为了高级功能、Custom Firmware 或更好的控制权而考虑 OpenWrt：
+
 - 请查看 OpenWrt 官方 ToH 以获取受支持的 TP-Link 型号（许多 Archer 系列如 C6、AX 系列可以通过简单的 Firmware 上传运行）。
 - 对于 Mesh 需求，OpenWrt 支持 802.11s 或 batman-adv，但这与 TP-Link 私有的 EasyMesh 实现不同。
 - 新型基于 MediaTek 的 TP-Link Router 经常面临 Bootloader 限制，如果没有开发者的努力，移植将非常困难。

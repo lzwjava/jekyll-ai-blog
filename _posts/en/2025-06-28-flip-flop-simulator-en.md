@@ -11,6 +11,7 @@ type: note
 Let’s create a simple Python program to simulate the behavior of the different types of flip-flops (RS, D, JK, and T) described earlier. Since flip-flops are hardware components, we’ll model their logic in Python classes to mimic their behavior, including inputs, outputs, and state changes. The program will allow us to input values for the flip-flop controls (like S, R, D, J, K, T, and Clock) and show the output (Q) based on their rules. We’ll keep it simple and text-based, suitable for a beginner to understand, with a command-line interface to test each flip-flop.
 
 Here’s the plan:
+
 - Create a base `FlipFlop` class to handle common attributes like the current state (Q).
 - Create specific classes for `RSFlipFlop`, `DFlipFlop`, `JKFlipFlop`, and `TFlipFlop`, each implementing their unique behavior.
 - Simulate the clock by requiring a “tick” to update the state, mimicking how flip-flops work on clock pulses.
@@ -153,6 +154,7 @@ if __name__ == "__main__":
 ```
 
 **How to Run the Code:**
+
 1. Save the code to a file named `flip_flop_simulator.py`.
 2. Run it using Python (e.g., `python flip_flop_simulator.py`).
 3. Follow the prompts to choose a flip-flop (1-4) or exit (5).
@@ -161,6 +163,7 @@ if __name__ == "__main__":
 6. Choose to continue testing the same flip-flop or exit to the menu.
 
 **What It Does:**
+
 - The program simulates the behavior of each flip-flop type as described (RS, D, JK, T).
 - For example, in the RS Flip-Flop, entering S=1, R=0 sets Q to 1; entering S=1, R=1 warns about the invalid state.
 - The D Flip-Flop copies the D input to Q on each tick.

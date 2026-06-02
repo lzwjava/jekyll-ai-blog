@@ -26,6 +26,7 @@ Square bracket notation is mostly used by engineers and physicists, while mathem
 **The real difference:**
 
 The choice isn't really about "cleaner" in a universal sense. Rather:
+
 - **Plain text/bracket notation** (what Claude uses): Easier to read directly in raw format, simpler to type, good for informal contexts
 - **LaTeX**: Better for professional documents, renders beautifully in PDFs, more suitable for complex mathematical expressions
 

@@ -11,6 +11,7 @@ type: note
 Elon Musk is known for several core values and perspectives that guide his work across his various companies. Here are some of his primary values, notable quotes, and what he tends to support:
 
 ## Core Values
+
 - **Innovation and technological progress** - Pushing boundaries in technology
 - **Long-term thinking about humanity's future** - Particularly making humans multiplanetary
 - **First principles reasoning** - Breaking problems down to fundamental truths
@@ -18,6 +19,7 @@ Elon Musk is known for several core values and perspectives that guide his work 
 - **High-risk, high-reward endeavors** - Willingness to take big risks
 
 ## Notable Quotes
+
 - "When something is important enough, you do it even if the odds are not in your favor."
 - "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better."
 - "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not."
@@ -25,6 +27,7 @@ Elon Musk is known for several core values and perspectives that guide his work 
 - "Failure is an option here. If things are not failing, you are not innovating enough."
 
 ## What He Supports
+
 - **Space exploration and Mars colonization** - Through SpaceX
 - **Sustainable energy** - Through Tesla's electric vehicles and solar energy products
 - **Technological solutions to human problems** - Brain-computer interfaces (Neuralink), tunneling (The Boring Company)

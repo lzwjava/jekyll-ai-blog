@@ -46,13 +46,17 @@ type: note
 ## 关键组件
 
 ### 1. GoalState（数据类，第 130 行）
+
 存储每个会话的目标状态：`goal` 文本、`status`（激活/暂停/完成/清除）、`turns_used`、`max_turns`（默认 20）、`subgoals` 列表、`consecutive_parse_failures` 等。持久化存储于 SessionDB 的 `state_meta` 表中，键值为 `goal:<session_id>`。
 
 ### 2. 评判器（`judge_goal()`，第 334 行）
+
 每轮结束后，调用辅助模型并使用严格提示词询问："基于智能体的最后回复，目标是否已满足？" 评判器必须以 JSON 形式回复：`{"done": true/false, "reason": "..."}`。评判器采用 **容错开放** 机制 —— 任何错误默认视为"继续"，以防评判器故障阻碍进度。轮次预算作为最后保障。
 
 ### 3. GoalManager（第 431 行）
+
 协调状态管理。主要方法：
+
 - `set(goal)` —— 创建新的激活目标，持久化到数据库
 - `pause(reason)` / `resume()` —— 用户控制
 - `clear()` —— 移除目标
@@ -60,14 +64,18 @@ type: note
 - `next_continuation_prompt()` —— 构建反馈给用户的消息提示
 
 ### 4. CLI 处理器（`_handle_goal_command`，cli.py 第 8263 行）
+
 分发子命令：
+
 - `/goal <文本>` —— 设置新目标（同时将目标文本立即加入 `_pending_input` 队列以启动循环）
 - `/goal status` —— 显示当前状态
 - `/goal pause` / `/goal resume` —— 手动控制
 - `/goal clear|stop|done` —— 移除目标
 
 ### 5. 循环钩子（`_maybe_continue_goal_after_turn`，cli.py 第 8404 行）
+
 每次 CLI 轮次后调用。它：
+
 1. 如果没有激活目标或已存在用户消息队列则跳过（抢占机制）
 2. 如果该轮被 Ctrl+C 中断则自动暂停
 3. 从对话历史中提取最后一条助手回复
@@ -75,7 +83,9 @@ type: note
 5. 如果 `should_continue` 为真，将延续提示推入 `_pending_input` —— 自动触发下一轮
 
 ### 6. 延续提示（第 60-81 行）
+
 两种模板：一种简单版本，一种带子目标版本。示例：
+
 ```
 [继续朝着您的既定目标前进]
 目标：重构 auth 模块
@@ -96,9 +106,11 @@ type: note
 | `/goal pause` 或 `/goal clear` | 手动停止 |
 
 ## 子目标（`/subgoal`）
+
 用户可在循环中通过 `/subgoal <文本>` 添加额外条件。这些条件会附加到评判提示（判定时需考虑）和延续提示（智能体会看到）中。支持 `remove <n>` 和 `clear` 子命令。
 
 ## 设计原则
+
 - **不修改系统提示** —— 延续提示仅为用户消息，因此提示缓存保持不变
 - **容错开放的评判器** —— 错误默认视为"继续"；轮次预算是真正的最后保障
 - **用户抢占** —— 真实用户消息始终优先于延续提示

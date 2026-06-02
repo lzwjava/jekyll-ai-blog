@@ -93,5 +93,5 @@ I will not cry anymore.
 
 **References:**
 
-- https://baike.baidu.com/item/%E5%93%AD%E5%B0%8F%E5%BC%9F/5880012
-- https://read.99csw.com/book/10441/376630.html
+- <https://baike.baidu.com/item/%E5%93%AD%E5%B0%8F%E5%BC%9F/5880012>
+- <https://read.99csw.com/book/10441/376630.html>

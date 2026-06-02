@@ -17,10 +17,12 @@ type: note
 In Control-M (a workload automation/scheduling tool from BMC), **conditions** (also called **prerequisite conditions** or **events**) are the primary way to create dependencies between jobs. They act as flags or signals in the system to control job execution order.
 
 ### Core Concept
+
 - A job will not run until **all** of its **IN conditions** are satisfied (i.e., they exist in the active environment).
 - When a job completes (usually successfully), it can create or remove conditions via its **OUT conditions**.
 
 ### IN Conditions (Prerequisites / "wait for")
+
 - These are the conditions a job **requires** before it can be submitted for execution.
 - Defined in the job's definition (Conditions tab or IN conditions section).
 - A job waits in **Wait Condition** status if any IN condition is missing.
@@ -31,6 +33,7 @@ In Control-M (a workload automation/scheduling tool from BMC), **conditions** (a
 - Multiple IN conditions act as AND logic (all must be present).
 
 ### OUT Conditions (Signals / "post")
+
 - These are the conditions a job **adds** or **removes** when it finishes.
 - Defined with a **sign**:
   - **+** (ADD / plus sign): Adds/creates the condition (most common for signaling success).
@@ -42,11 +45,13 @@ In Control-M (a workload automation/scheduling tool from BMC), **conditions** (a
   - Job B: OUT condition `JOB-A-OK -` → removes it after Job B finishes (prevents stale conditions).
 
 ### Typical Flow Example
+
 1. Job A runs and ends OK → adds `JOB-A-OK` (OUT +).
 2. Job B has IN condition `JOB-A-OK` → now becomes eligible and runs.
 3. Job B ends OK → deletes `JOB-A-OK` (OUT -) to clean up.
 
 ### Related Concepts
+
 - **Global Conditions**: Static or long-lived conditions not tied to specific jobs (managed via Tools → Global Conditions).
 - **Resources** (separate from conditions):
   - **Quantitative Resources** (now often called Resource Pools): Limit concurrent usage (e.g., 5 database connections → jobs require 1 unit each).

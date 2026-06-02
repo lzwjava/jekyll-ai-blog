@@ -15,16 +15,19 @@ type: note
 ### 1. 使用 Maven（JVM 语言最常用）
 
 #### 方案 A：maven-deploy-plugin（命令行）
+
 ```bash
 mvn deploy -DaltDeploymentRepository=internal-nexus::default::https://your-nexus.company.com/repository/maven-releases/
 ```
 
 或用于快照版本：
+
 ```bash
 mvn deploy -DaltDeploymentRepository=internal-nexus::default::https://your-nexus.company.com/repository/maven-snapshots/
 ```
 
 #### 方案 B：在 pom.xml 中配置（推荐用于项目）
+
 ```xml
 <distributionManagement>
     <repository>
@@ -39,12 +42,15 @@ mvn deploy -DaltDeploymentRepository=internal-nexus::default::https://your-nexus
     </snapshotRepository>
 </distributionManagement>
 ```
+
 然后只需运行：
+
 ```bash
 mvn deploy
 ```
 
 确保在 `~/.m2/settings.xml` 中配置凭据：
+
 ```xml
 <servers>
   <server>
@@ -58,6 +64,7 @@ mvn deploy
 ### 2. 使用 Gradle
 
 在 `build.gradle`（Groovy）或 `build.gradle.kts`（Kotlin）中：
+
 ```groovy
 publishing {
     repositories {
@@ -74,7 +81,9 @@ publishing {
     }
 }
 ```
+
 然后运行：
+
 ```bash
 gradle publish
 ```
@@ -119,6 +128,7 @@ nuget push YourPackage.1.0.0.nupkg -Source InternalNexus
 ### 6. Raw / 通用仓库（任意文件）
 
 使用 curl 通过 Nexus REST API 上传：
+
 ```bash
 curl -v -u username:password \
      -H "Content-Type: application/octet-stream" \
@@ -127,6 +137,7 @@ curl -v -u username:password \
 ```
 
 用于带目录结构的原始托管仓库：
+
 ```bash
 curl -v -u user:pass \
      --upload-file myfile.tar.gz \

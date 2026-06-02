@@ -52,6 +52,7 @@ python train.py \
 ```
 
 **Critical: Check loss trajectory after 10K more steps (next 2-3 days).**
+
 - If loss drops to 3.0 or below: continue, you're on the right path.
 - If loss plateaus at 3.1-3.2: you have a data/hyperparameter problem, not a token problem.
 
@@ -102,6 +103,7 @@ LoRA on task-specific data can give you +0.3-0.5 loss equivalent in downstream m
 - [ ] Run 10 eval steps on held-out validation split (1-2 hours)
 
 **Compute timeline on MI300X:**
+
 - Per-step throughput: ~150-250 samples/sec (depends on seq_len, batch size)
 - To 200K steps from 76K: ~3-4 weeks continuous training
 - Cost: $2/hr × 24 × 21 = ~$1,000
@@ -109,6 +111,7 @@ LoRA on task-specific data can give you +0.3-0.5 loss equivalent in downstream m
 **If loss plateaus at 3.0-3.1 instead of dropping:**
 
 This signals:
+
 1. **Data quality issue** — curate/clean your training set
 2. **Hyperparameter mismatch** — learning rate too high (divergence) or too low (stalling)
 3. **Underfitting** — model capacity issue (1.3B instead of 760M)

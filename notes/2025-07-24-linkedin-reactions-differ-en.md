@@ -11,6 +11,7 @@ type: note
 Yes, this is a common observation on LinkedIn and in professional networking circles. When someone announces joining a big company (especially in a senior role like tech lead or manager), their post often gets flooded with likes, comments, and congratulations. It's celebratory, visible, and aligns with the platform's vibe of success and upward mobility. In contrast, posts about leaving a company—whether voluntarily or due to layoffs—tend to receive far fewer engagements. People might view, but they hesitate to interact publicly. This disparity can indeed highlight how many corporate relationships feel superficial or transactional, though it's not always the case. Let me break it down.
 
 ### Why the Difference in Reactions?
+
 Several factors contribute to this pattern, based on how people use LinkedIn and human psychology in professional settings:
 
 - **Positivity Bias on Social Platforms**: LinkedIn is essentially a career highlight reel. Users are more likely to engage with uplifting content like promotions or new roles because it feels good to celebrate wins—it's low-effort networking (e.g., a quick "Congrats!" comment). Negative or vulnerable posts, like announcing a layoff, can make others uncomfortable. They might worry about associating with "bad news" or simply not know what to say without sounding awkward or insincere.
@@ -22,6 +23,7 @@ Several factors contribute to this pattern, based on how people use LinkedIn and
 - **Cultural Norms Around Layoffs**: In tech and corporate worlds, layoffs are often stigmatized, even if they're not the individual's fault. Some view public layoff posts as "cringy" or oversharing, leading to silent sympathy rather than likes. However, well-crafted layoff announcements (e.g., focusing on gratitude and future openness to opportunities) can sometimes go viral and attract recruiter attention, but this is the exception, not the rule.
 
 ### Are Corporate Relationships Really That Weak?
+
 Not inherently, but often yes—many are built on convenience rather than deep bonds. Here's why:
 
 - **Transactional Nature**: Corporate environments prioritize results, projects, and hierarchies over personal connections. Colleagues bond over shared work stresses, but once someone leaves, the common ground vanishes. Research shows that most professional networks consist of "weak ties"—acquaintances who provide job leads but not emotional support. For example, studies indicate people land jobs more through distant connections than close friends, which explains why networks light up for new opportunities but dim for setbacks.

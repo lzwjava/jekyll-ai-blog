@@ -59,10 +59,10 @@ AI改变了这一点。你现在可以将某人多年的公开作品输入语言
 
 你提出的方法实际上是合理的，并且部分已经在进行中：
 
--   **收集**一位思考者所有的公开文章、博客帖子、社交媒体评论（带时间戳）
--   **提取**所有可证伪的预测（排除模糊或不可证伪的）
--   **对照**实际发生的情况为每个预测**打分**
--   **计算**一个校准分数——不仅仅是"对或错"，还包括其信心水平是否与结果发生的频率相匹配
+- **收集**一位思考者所有的公开文章、博客帖子、社交媒体评论（带时间戳）
+- **提取**所有可证伪的预测（排除模糊或不可证伪的）
+- **对照**实际发生的情况为每个预测**打分**
+- **计算**一个校准分数——不仅仅是"对或错"，还包括其信心水平是否与结果发生的频率相匹配
 
 基于AI的预测系统已经显示出，能够在基准问题上匹配或略微超过人类超级预测者的准确性，这意味着同样的AI机制可以反过来使用：用来*评判*其他人过去的记录。
 
@@ -78,9 +78,9 @@ AI改变了这一点。你现在可以将某人多年的公开作品输入语言
 
 参考资料：
 
--   [yinwang.org —— 王垠的博客](https://www.yinwang.org)
--   [paulgraham.com —— Paul Graham的文章](https://paulgraham.com)
--   [Good Judgment: 超级预测者的记录](https://goodjudgment.com/resources/the-superforecasters-track-record/)
--   [Real Sciences: 如何在政治预测中识别冒牌货](https://real-sciences.com/en/charlatans/how-to-spot-imposters-in-political-forecasting-professor-jiang-as-an-example/)
--   [维基百科: 超级预测者](<https://en.wikipedia.org/wiki/Superforecaster>)
--   [CAIS: 超人类的自动化预测](https://safe.ai/blog/forecasting)
+- [yinwang.org —— 王垠的博客](https://www.yinwang.org)
+- [paulgraham.com —— Paul Graham的文章](https://paulgraham.com)
+- [Good Judgment: 超级预测者的记录](https://goodjudgment.com/resources/the-superforecasters-track-record/)
+- [Real Sciences: 如何在政治预测中识别冒牌货](https://real-sciences.com/en/charlatans/how-to-spot-imposters-in-political-forecasting-professor-jiang-as-an-example/)
+- [维基百科: 超级预测者](<https://en.wikipedia.org/wiki/Superforecaster>)
+- [CAIS: 超人类的自动化预测](https://safe.ai/blog/forecasting)

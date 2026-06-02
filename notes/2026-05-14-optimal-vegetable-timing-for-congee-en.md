@@ -20,18 +20,22 @@ Yes, you are absolutely right! Timing your vegetable additions is the key to a g
 ### The Golden Rule: Add Vegetables Based on Their Hardness
 
 **Add at the very beginning (with the rice):**
+
 - Hard root vegetables like **carrots, sweet potatoes, yams**
 - Fresh vegetables such as diced carrots and sweet potato pieces need to be added at the same time you start cooking the congee, as they need time to cook until softened.
 
 **Add in the middle of cooking (~45 minutes in):**
+
 - Denser vegetables like mushrooms should go in when the congee has been cooking for 45 minutes. Sweet potatoes can also be stirred in at this mid-point, then covered and simmered for another 30 minutes.
 
 **Add near the end (last 10–15 minutes):**
+
 - Leafy greens like **spinach, collard greens, kale, chard, bok choy**
 - After 30 minutes of the mid-stage, stir in the collard greens and continue to simmer for another 15 minutes.
 - If you use spinach, you can add it at the very end.
 
 **Add after cooking is done (as toppings):**
+
 - Frozen vegetables like edamame, frozen mixed vegetables, and frozen corn should be added after the porridge has thickened — no thawing necessary.
 
 ---

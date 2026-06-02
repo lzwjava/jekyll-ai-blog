@@ -66,9 +66,11 @@ Your current file configures three main things:
 
 3. **Test it**
    Run in terminal:
+
    ```
    claude
    ```
+
    or use the VS Code sidebar / command palette → "Claude Code".
 
    If configured correctly you should see no login prompt and it should connect to `https://v2-as.pincc.ai` instead of Anthropic directly.

@@ -21,11 +21,13 @@ type: note
 盐水浸泡是一个众所周知的小窍门：将新鲜菠萝块短暂地（1-30分钟）浸泡在淡盐水（大约每杯水加1茶匙盐）中，可以使菠萝蛋白酶失活，这种酶会引起口腔刺痛或刺激感。它还可以增强甜味并降低感知的酸度。
 
 然而：
+
 - 浸泡通常是短暂的，之后需要沥干（并可选择冲洗）才能储存。
 - 不建议长期在盐水中储存，因为它会使菠萝变得过咸、软烂，或随着时间推移促进发酵/细菌生长。
 - 没有资料提及将切片“倒置”在液体中——这对于切好的菠萝块似乎没有任何作用（与将整个菠萝倒置以重新分配糖分不同，后者效果也有限）。
 
 为获得最佳效果和便利性：
+
 - 将菠萝一次性削皮、去核并切片。
 - 可选择将切片在盐水中短暂浸泡，以减少刺激。
 - 彻底沥干。
@@ -35,10 +37,10 @@ type: note
 
 参考文献：
 
-- https://www.tasteofhome.com/article/pineapple-in-salt-water/
-- https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/
-- https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/
-- https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/
-- https://www.marthaastewart.com/how-to-store-pineapple-11733822
-- https://www.simplyrecipes.com/how-to-store-cut-pineapple-del-monte-11758796
-- https://www.doesitgobad.com/how-to-store-pineapple/
+- <https://www.tasteofhome.com/article/pineapple-in-salt-water/>
+- <https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/>
+- <https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/>
+- <https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/>
+- <https://www.marthaastewart.com/how-to-store-pineapple-11733822>
+- <https://www.simplyrecipes.com/how-to-store-cut-pineapple-del-monte-11758796>
+- <https://www.doesitgobad.com/how-to-store-pineapple/>

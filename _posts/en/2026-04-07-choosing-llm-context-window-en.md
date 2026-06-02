@@ -38,12 +38,14 @@ For most use cases on 12 GB GPUs, 7B models hit the sweet spot of power, speed, 
 In summary, here's how to choose between the two:
 
 **Choose 16,384 (16K) if:**
+
 - You have 8–12 GB VRAM
 - Your tasks are chat, Q&A, code completion, or document summarization (single documents)
 - You want faster inference speed and lower memory pressure
 - You're running a larger model (e.g., Gemma 4 27B+) and need headroom for weights
 
 **Choose 32,768 (32K) if:**
+
 - You have 16+ GB VRAM
 - Your tasks involve long document analysis, multi-document RAG, code repositories, or long agentic conversations
 - You're running a smaller/quantized model (e.g., Gemma 4 E2B/E4B Q4)

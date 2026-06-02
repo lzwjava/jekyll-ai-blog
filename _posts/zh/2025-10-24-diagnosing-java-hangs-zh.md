@@ -14,26 +14,32 @@ type: note
 
 jstack 是 JDK 内置的命令行工具，可为正在运行的 Java 虚拟机（JVM）生成线程转储。线程转储能捕获特定时刻所有线程的执行状态，对于定位卡顿原因（如死锁、无限循环、阻塞式 I/O 或 CPU 密集型操作）至关重要。该工具在 Linux/Unix 系统或跨平台环境中尤为实用。
 
-#### jstack 使用步骤：
+#### jstack 使用步骤
+
 1. **定位 Java 进程 ID（PID）：**
    - 运行 `jps`（同属 JDK 工具）列出所有 Java 进程：
+
      ```
      jps -l
      ```
+
      输出示例：`12345 MyApp.jar`。记录 PID（如 12345）。
    - 在 Linux/macOS 系统中也可使用 `ps aux | grep java` 等系统命令。
 
 2. **生成线程转储：**
    - 通过 jstack 将转储内容输出至文件：
+
      ```
      jstack <PID> > thread-dump.txt
      ```
+
      - 将 `<PID>` 替换为实际进程 ID
      - 需获取更详细转储（含锁信息）时使用 `jstack -l <PID> > thread-dump.txt`
      - 若 JVM 对信号无响应，可使用 `jhsdb jstack --pid <PID>`（适用于 JDK 8+）
 
 3. **采集多份转储用于对比分析：**
    - 卡顿问题常需通过时间维度对比，建议按 10-30 秒间隔采集 3-5 份转储：
+
      ```
      jstack <PID> > dump1.txt
      sleep 10
@@ -41,6 +47,7 @@ jstack 是 JDK 内置的命令行工具，可为正在运行的 Java 虚拟机�
      sleep 10
      jstack <PID> > dump3.txt
      ```
+
      - 如需批量操作可通过 bash 脚本循环执行
 
 4. **分析转储文件：**
@@ -58,7 +65,8 @@ jstack 是 JDK 内置的命令行工具，可为正在运行的 Java 虚拟机�
 
 ProcDump 是 Windows 平台免费的 Sysinternals 工具，可创建进程的内存或 CPU 转储。该工具特别适用于捕获应用程序（包括 Java 程序）卡顿时的运行快照，尤其当进程失去响应时。通过生成完整内存转储，可结合 WinDbg 或 Visual Studio 进行深度分析
 
-#### ProcDump 使用步骤：
+#### ProcDump 使用步骤
+
 1. **下载配置：**
    - 从微软 Sysinternals 官网获取 procdump.exe
    - 以管理员身份运行命令提示符
@@ -69,21 +77,26 @@ ProcDump 是 Windows 平台免费的 Sysinternals 工具，可创建进程的内
 
 3. **捕获卡顿转储：**
    - 立即生成完整内存转储（适用于僵死进程）：
+
      ```
      procdump -ma <进程名或PID>
      ```
+
      - `-ma`：生成完整内存转储（包含所有线程和堆数据）
      - 示例：`procdump -ma java.exe` 或 `procdump -ma 12345`
 
    - 自动检测卡顿（在无响应时触发）：
+
      ```
      procdump -h <进程名或PID> -o
      ```
+
      - `-h`：监控窗口消息无响应超 5 秒的卡顿（对无窗口服务需配合 CPU 阈值，如 `-h 80` 表示 80% CPU 使用率）
      - `-o`：覆盖现有转储文件
      - 针对服务程序：可结合 `-e` 异常监控或 CPU 监控：`procdump -c 80 -h <服务程序>`
 
    - 采集多份转储：通过 `-n 3` 指定采集次数，`-t 10` 设置间隔（单位：秒）：
+
      ```
      procdump -ma -n 3 -t 10 <PID>
      ```
@@ -100,6 +113,7 @@ ProcDump 是 Windows 平台免费的 Sysinternals 工具，可创建进程的内
 ProcDump 尤其适合非交互式进程（如服务程序）；若卡顿为 CPU 密集型，可通过 `-c` 参数设置高 CPU 阈值触发
 
 ### 通用建议
+
 - **注意事项：** 转储文件可能占用 GB 级存储空间，需确保磁盘容量充足
 - **工具组合：** Windows 平台的 Java 应用建议先使用 jstack（轻量级），再通过 ProcDump 获取系统级深度信息
 - **预防措施：** 启用 `-XX:+PrintGCDetails` 等 JVM 参数记录日志，或使用 JFR 等分析工具进行性能剖析

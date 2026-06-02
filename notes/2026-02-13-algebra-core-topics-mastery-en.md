@@ -17,6 +17,7 @@ Answer:
 Here is a comprehensive yet concise guide covering high school Algebra 1 and Algebra 2 core topics. Each section includes key definitions, rules, methods, and examples.
 
 ### 1. Variables and Expressions
+
 - A **variable** is a symbol (usually a letter) that represents an unknown value.
 - A **constant** is a fixed number.
 - An **algebraic expression** combines variables, constants, and operations (no = sign).
@@ -27,9 +28,11 @@ Here is a comprehensive yet concise guide covering high school Algebra 1 and Alg
 → (3x − 2x) + (5 + 7) = x + 12
 
 ### 2. Linear Equations (one variable)
+
 Goal: Isolate the variable. Use inverse operations and the **Golden Rule**: Whatever you do to one side, do to the other.
 
 Steps for ax + b = cx + d:
+
 1. Move variable terms to one side.
 2. Move constants to the other side.
 3. Divide by coefficient of variable.
@@ -41,9 +44,11 @@ Steps for ax + b = cx + d:
 x = −7
 
 ### 3. Solving Linear Inequalities
+
 Similar to equations, but flip the inequality sign when multiplying or dividing by a negative number.
 
 **Rules**:
+
 - Add/subtract: sign stays the same.
 - Multiply/divide by positive: sign stays.
 - Multiply/divide by negative: sign flips.
@@ -55,11 +60,14 @@ x < −3 (flipped)
 Compound inequalities: −3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x < 3
 
 ### 4. Graphing Linear Equations (slope-intercept form)
+
 **Slope-intercept form**: y = mx + b
+
 - m = slope (rise/run, steepness)
 - b = y-intercept (where line crosses y-axis)
 
 **Steps**:
+
 1. Plot b on y-axis.
 2. From there, use slope (rise/run) to find another point.
 3. Draw line through points.
@@ -68,9 +76,11 @@ Compound inequalities: −3 ≤ 2x + 1 < 7 → −4 ≤ 2x < 6 → −2 ≤ x < 
 Start at (0, 4), down 3 right 2 → (2, 1), etc.
 
 ### 5. Systems of Linear Equations (solving methods)
+
 Two or more linear equations solved together. Solutions: one point (consistent), no solution (parallel), infinitely many (same line).
 
 Methods:
+
 - **Graphing**: intersection point.
 - **Substitution**: solve one for a variable, substitute into other.
 - **Elimination**: add/subtract equations to eliminate a variable.
@@ -82,7 +92,9 @@ Add → 6x = 18 → x = 3
 Then 2(3) + 3y = 8 → y = 2/3
 
 ### 6. Exponents and Radicals (properties)
+
 **Exponent rules**:
+
 - xᵐ · xⁿ = xᵐ⁺ⁿ
 - xᵐ / xⁿ = xᵐ⁻ⁿ
 - (xᵐ)ⁿ = xᵐⁿ
@@ -92,12 +104,14 @@ Then 2(3) + 3y = 8 → y = 2/3
 - (x/y)ⁿ = xⁿ/yⁿ
 
 **Radical rules** (√ = ^{1/2}):
+
 - √(ab) = √a · √b
 - √(a/b) = √a / √b
 - √(a²) = |a|
 - Rationalize denominator: multiply by conjugate.
 
 ### 7. Polynomials (addition, subtraction, multiplication)
+
 - **Polynomial**: terms with non-negative integer exponents.
 - **Degree**: highest exponent.
 - Addition/Subtraction: combine like terms.
@@ -106,6 +120,7 @@ Then 2(3) + 3y = 8 → y = 2/3
 **Example**: (2x² + 3x − 5)(x − 4) = 2x³ − 8x² + 3x² − 12x − 5x + 20 = 2x³ − 5x² − 17x + 20
 
 ### 8. Factoring Polynomials (various techniques)
+
 1. Greatest Common Factor (GCF)
 2. Difference of Squares: a² − b² = (a − b)(a + b)
 3. Perfect Square Trinomial: a² ± 2ab + b² = (a ± b)²
@@ -116,10 +131,13 @@ Then 2(3) + 3y = 8 → y = 2/3
 **Example**: x² − 7x − 18 = (x − 9)(x + 2)
 
 ### 9. Quadratic Equations (standard form)
+
 **Standard form**: ax² + bx + c = 0 (a ≠ 0)
 
 ### 10. Solving Quadratic Equations
+
 Methods:
+
 - Factoring (preferred when possible)
 - Square root property: x² = k → x = ±√k
 - Completing the square
@@ -129,7 +147,9 @@ Methods:
 **Example**: 2x² − 5x − 3 = 0 → x = [5 ± √(25 + 24)] / 4 = [5 ± 7]/4 → x = 3 or x = −1/2
 
 ### 11. Graphing Quadratic Functions (parabolas)
+
 **Vertex form**: y = a(x − h)² + k → vertex (h, k)
+
 - a > 0: opens up (minimum)
 - a < 0: opens down (maximum)
 - |a| > 1: narrower; |a| < 1: wider
@@ -138,10 +158,13 @@ Axis of symmetry: x = h
 y-intercept: (0, k + ah²)
 
 ### 12. Rational Expressions (simplifying, operations)
+
 **Rational expression**: fraction of polynomials
+
 - Simplify: factor numerator & denominator, cancel common factors (exclude where denominator = 0)
 
 Operations:
+
 - Multiply: factor, cancel, multiply
 - Divide: multiply by reciprocal
 - Add/Subtract: common denominator, combine
@@ -149,6 +172,7 @@ Operations:
 **Example**: (x² − 4)/(x² − x − 6) = (x−2)(x+2) / (x−3)(x+2) = (x−2)/(x−3)  (x ≠ −2, 3)
 
 ### 13. Solving Rational Equations
+
 1. Find LCD.
 2. Multiply both sides by LCD (clear denominators).
 3. Solve resulting equation.
@@ -157,17 +181,20 @@ Operations:
 **Example**: 3/(x−1) + 2/x = 5 → multiply by x(x−1): 3x + 2(x−1) = 5x(x−1)
 
 ### 14. Functions (definition, notation, domain, range)
+
 - **Function**: each input (x) has exactly one output (y) → vertical line test
 - Notation: f(x) = 2x + 3 → "f of x"
 - **Domain**: all possible x-values
 - **Range**: all possible y-values
 
 ### 15. Types of Functions
+
 - **Linear**: f(x) = mx + b → straight line
 - **Quadratic**: f(x) = ax² + bx + c → parabola
 - **Exponential**: f(x) = a·bˣ (b > 0, b ≠ 1) → growth/decay
 
 ### 16. Inverse Functions
+
 f and f⁻¹ undo each other: f(f⁻¹(x)) = x
 To find: swap x and y, solve for y.
 
@@ -176,10 +203,12 @@ To find: swap x and y, solve for y.
 One-to-one functions have inverses (horizontal line test).
 
 ### 17. Logarithmic Functions (definition, properties)
+
 **Logarithm**: log_b(a) = c means b^c = a
 **Common logs**: log = log₁₀, ln = log_e (natural log)
 
 **Properties**:
+
 - log_b(xy) = log_b x + log_b y
 - log_b(x/y) = log_b x − log_b y
 - log_b(x^k) = k log_b x
@@ -187,6 +216,7 @@ One-to-one functions have inverses (horizontal line test).
 - Change of base: log_b a = ln a / ln b
 
 ### 18. Solving Exponential and Logarithmic Equations
+
 - Exponential: isolate base, take log of both sides.
 - Logarithmic: exponentiate both sides (rewrite as exponential).
 
@@ -194,6 +224,7 @@ One-to-one functions have inverses (horizontal line test).
 **Example**: log₂(x + 3) = 4 → x + 3 = 2⁴ = 16 → x = 13
 
 ### 19. Sequences and Series
+
 - **Sequence**: ordered list (a₁, a₂, ...)
 - **Arithmetic**: common difference d
   aₙ = a₁ + (n−1)d
@@ -204,6 +235,7 @@ One-to-one functions have inverses (horizontal line test).
   Sum Sₙ = a₁ (1 − r^n)/(1 − r)  (|r| < 1 for infinite sum)
 
 ### 20. Absolute Value Equations and Inequalities
+
 - |x| = k → x = k or x = −k (k ≥ 0)
 - |x| < k → −k < x < k
 - |x| > k → x < −k or x > k

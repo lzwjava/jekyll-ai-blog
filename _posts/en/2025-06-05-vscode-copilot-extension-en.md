@@ -13,6 +13,7 @@ GitHub Copilot is a powerful AI-powered coding assistant integrated into Visual 
 ## Understanding Copilot’s Integration in VSCode
 
 GitHub Copilot doesn’t expose a traditional API (e.g., REST endpoints) for direct programmatic access. Instead, its functionality is available through:
+
 - **VSCode Chat API**: Enables extensions to create custom chat participants that interact with Copilot’s chat system for natural language queries.
 - **VSCode Language Model API**: Allows extensions to access Copilot’s large language models (LLMs) for tasks like code generation or analysis.
 - **VSCode Commands**: Permits triggering Copilot’s built-in features, such as opening the chat window with a predefined prompt.
@@ -69,7 +70,7 @@ Below is a step-by-step guide to creating a VSCode extension that opens Copilot�
 }
 ```
 
-   - **Using Copilot**: While editing `package.json`, Copilot may suggest fields like `contributes.commands` or `activationEvents` as you type. Accept these with `Tab` to speed up setup.
+- **Using Copilot**: While editing `package.json`, Copilot may suggest fields like `contributes.commands` or `activationEvents` as you type. Accept these with `Tab` to speed up setup.
 
 ### 2. Write the Extension Code
 
@@ -217,6 +218,7 @@ export function deactivate() {}
 ## Leveraging Copilot During Development
 
 GitHub Copilot can significantly speed up extension development:
+
 - **Code Suggestions**: As you type in `src/extension.ts`, Copilot suggests imports, command registrations, and error handling. For example, typing `vscode.commands.` prompts suggestions like `registerCommand`.
 - **Prompt Engineering**: Use clear comments like `// Trigger Copilot Chat with a user prompt` to guide Copilot’s suggestions. Refine comments if suggestions are inaccurate.
 - **Debugging**: If the extension fails, add comments like `// Log error details`, and Copilot may suggest `console.log` or `vscode.window.showErrorMessage`.

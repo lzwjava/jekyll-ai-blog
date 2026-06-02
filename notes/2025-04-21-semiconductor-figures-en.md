@@ -11,6 +11,7 @@ type: note
 **Dirk Meyer**, **Fred Weber**, and **Mike Clark** are notable figures in the semiconductor industry, particularly for their roles at **AMD** during the development of key microprocessor architectures. Below is a detailed overview of who they are and their contributions, focusing on their roles as chief architects for the **K7 (Athlon)** and **Zen** architectures, as referenced in the context of Jim Keller’s work.
 
 ### 1. **Dirk Meyer**
+
 - **Background**:
   - **Dirk Meyer** (full name: A. Douglas "Dirk" Meyer) is a veteran semiconductor engineer and executive with a long tenure at **AMD** and earlier experience at **Digital Equipment Corporation (DEC)**.
   - He earned a bachelor’s degree in computer engineering from the **University of Illinois** and an MBA from **Boston University**.
@@ -33,6 +34,7 @@ type: note
   - His leadership extended beyond technical design, shaping AMD’s product strategy during a transformative period.
 
 ### 2. **Fred Weber**
+
 - **Background**:
   - **Fred Weber** is a seasoned microprocessor architect and executive with deep expertise in CPU and system design.
   - Like Meyer and Keller, Weber worked at **Digital Equipment Corporation (DEC)** in the 1980s and early 1990s, contributing to the **Alpha** processor family, known for their high performance in the RISC architecture era.
@@ -54,6 +56,7 @@ type: note
   - His work on HyperTransport and x86-64 laid the groundwork for AMD’s future architectures and industry-wide standards.
 
 ### 3. **Mike Clark**
+
 - **Background**:
   - **Mike Clark** (often referred to as Michael T. Clark) is a distinguished CPU architect with a long career at AMD, known for his leadership in modern AMD architectures.
   - He holds a degree in electrical engineering and has been with AMD since the 1990s, working on multiple generations of processors.
@@ -79,6 +82,7 @@ type: note
   - His role as the “nuts-and-bolts” architect complemented Keller’s high-level vision, highlighting the collaborative nature of modern CPU design.
 
 ### Context and Relationship to Jim Keller
+
 - **K7 (Athlon)**:
   - **Dirk Meyer** and **Fred Weber** were the primary architects of the K7, with Keller playing a supporting role as a senior architect. Keller’s contributions were significant but secondary to Meyer and Weber’s leadership.
   - The K7’s success was a team effort, with Meyer and Weber’s DEC experience shaping its high-performance design, while Keller’s insights helped refine the architecture.
@@ -90,11 +94,13 @@ type: note
   - Keller’s reputation as a “fixer” and visionary contrasts with the more execution-focused roles of Meyer, Weber, and Clark, illustrating the complementary skills required for complex projects like K7 and Zen.
 
 ### Clarifications
+
 - The attribution of “chief architect” for K7 to Meyer and Weber is based on historical accounts from AMD and industry reports, as Keller’s role was prominent but not the lead.
 - Clark’s leadership of Zen is well-documented, though Keller often receives broader public credit due to his high-profile status and leadership role.
 - These individuals worked within large teams, and their contributions reflect collaborative efforts rather than solitary genius.
 
 ### Conclusion
+
 - **Dirk Meyer** and **Fred Weber** were the **chief architects** of the **K7 (Athlon)**, driving AMD’s breakthrough in the late 1990s with their expertise in CPU and system design, rooted in their DEC experience.
 - **Mike Clark** was the **lead architect** of the **Zen microarchitecture**, executing Jim Keller’s vision to create AMD’s highly successful Ryzen and EPYC processors.
 - Together, these engineers highlight the collaborative nature of microprocessor design, with each bringing unique skills to AMD’s landmark achievements.

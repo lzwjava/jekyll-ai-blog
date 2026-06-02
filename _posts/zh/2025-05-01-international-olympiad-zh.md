@@ -32,6 +32,7 @@ IMO作为最古老、最负盛名的科学奥林匹克竞赛，自1959年创办�
   - **来源**：维基百科IMO参赛者列表。[](https://en.wikipedia.org/wiki/List_of_International_Mathematical_Olympiad_participants)
 
 **趋势与说明**：
+
 - IMO将奖牌授予前50%的参赛者，金牌授予前1/12。满分（42/42）非常罕见，历史上仅有不到60名参赛者获得。[](https://en.wikipedia.org/wiki/International_Mathematical_Olympiad)
 - 中国、美国和韩国等国家在近几十年的团队排名中占据主导地位，自1990年以来中国已20次获得非官方团队冠军。[](https://en.wikipedia.org/wiki/List_of_countries_by_medal_count_at_International_Mathematical_Olympiad)
 - 由于长期数据有限，近期的明星（2010年后）较难确定，但像Zhuoqun (Alex) Song（美国，2010-2014年五枚金牌）和Yang Liu（中国，多枚金牌和满分）等名字出现在结果中。
@@ -58,6 +59,7 @@ IOI专注于竞争性编程，培养了许多以算法能力著称的明星，�
   - **来源**：IOI维基百科页面。[](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)
 
 **趋势与说明**：
+
 - IOI将奖牌授予前50%的参赛者，金牌授予前1/12，与IMO类似。由于任务复杂性（两天六道题，满分600分），满分非常罕见。[](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)
 - 东欧和亚洲国家（如中国、俄罗斯、波兰）常占主导地位，美国近年来崛起。
 - IOI在性别多样性方面面临挑战，为此于2021年推出了欧洲女子信息学奥林匹克（EGOI）等倡议。[](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)
@@ -79,6 +81,7 @@ IPhO测试理论和实验物理技能，其明星通常从事学术或研究职�
   - **来源**：IPhO结果和学术资料。
 
 **趋势与说明**：
+
 - IPhO将奖牌授予前50%的参赛者，金牌授予前8%。竞赛包括5小时理论考试（三道题）和5小时实验考试。[](https://www.kangaroomath.com.my/2023/01/international-science-olympiads/)
 - 中国、韩国和俄罗斯经常领先团队排名，美国和印度也是强有力的竞争者。
 - 个人记录不如IMO或IOI公开，使得识别持续多年的表现突出者更加困难。然而，IPhO奖牌获得者常进入麻省理工学院、加州理工学院或剑桥大学等顶尖学府。
@@ -100,6 +103,7 @@ IChO结合理论和实践化学，其明星通常在两方面都表现出色。 
   - **来源**：美国奥林匹克队记录。
 
 **趋势与说明**：
+
 - IChO将奖牌授予前50%的参赛者，金牌授予前10%。竞赛包括5小时理论考试和5小时实验考试，涵盖物理、有机和无机化学。[](https://www.kangaroomath.com.my/2023/01/international-science-olympiads/)
 - 中国、美国和韩国常占主导地位，印度和新加坡近年来崛起。
 - 由于疫情，IChO 2020-2022年缺少实验考试，可能影响了结果。[](https://www.kangaroomath.com.my/2023/01/international-science-olympiads/)

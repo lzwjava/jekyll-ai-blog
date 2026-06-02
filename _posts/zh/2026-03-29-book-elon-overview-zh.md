@@ -18,9 +18,9 @@ type: note
 * **形式：** 汇集了 Musk 二十年来在 tweets、podcasts、访谈和内部备忘录中的原话。
 * **侧重点：** 旨在提取 Musk 的“mental models（思维模型）”——特别是他如何思考 first principles（第一性原理）、engineering 和公司 scaling。
 * **“智力三部曲”：** Jorgenson 将其视为现代 Silicon Valley 教育的三大支柱：
-    1.  **Naval Ravikant**（财富/幸福）
-    2.  **Balaji Srinivasan**（技术/社会）
-    3.  **Elon Musk**（建设/执行）
+    1. **Naval Ravikant**（财富/幸福）
+    2. **Balaji Srinivasan**（技术/社会）
+    3. **Elon Musk**（建设/执行）
 
 ---
 
@@ -28,10 +28,10 @@ type: note
 
 本书围绕定义 Musk 成功的几个主要框架展开：
 
-1.  **First-Principles Thinking（第一性原理思维）：**
+1. **First-Principles Thinking（第一性原理思维）：**
     这是他方法论的基石。书中详细描述了 Musk 如何不通过类比推导（即由于过去怎么做所以现在怎么做），而是将问题拆解到最基础的真相（例如，一枚火箭原材料的原始成本），并以此为基础重新构建。
 
-2.  **“The Algorithm（算法）”：**
+2. **“The Algorithm（算法）”：**
     Musk 在 SpaceX 和 Tesla 著名的五步工程法：
     * **质疑每一项需求：** 每一项需求都必须附带负责人姓名（不能是“部门”需求）。
     * **删除部件或流程：** 如果你没有把删除内容的 10% 重新加回来，说明你删得还不够多。
@@ -39,7 +39,7 @@ type: note
     * **加速周期时间：** 提高行动速度。
     * **自动化：** 仅作为最后一步。
 
-3.  **Mission-Driven Intensity（使命驱动的强度）：**
+3. **Mission-Driven Intensity（使命驱动的强度）：**
     Jorgenson 探讨了“使命感作为引力”的概念。他认为 Musk 最大的优势不是智力或资本，而是对宏大文明目标（火星、可持续能源、AI safety）的痴迷，这使他能够承受极端风险并以他人认为不可能的速度工作。
 
 ### **为何它与其他 Musk 相关书籍不同**

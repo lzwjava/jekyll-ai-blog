@@ -35,7 +35,7 @@ ncat 本身没有问题。问题出在网络路径上。
 == 已应用解决方案 ==
 
 将 Qwen2.5-Coder 远程仓库改为使用 ghfast.top GitHub 镜像：
-  https://ghfast.top/https://github.com/QwenLM/Qwen2.5-Coder.git
+  <https://ghfast.top/https://github.com/QwenLM/Qwen2.5-Coder.git>
 
 现在获取操作瞬间完成。
 
@@ -46,9 +46,9 @@ ncat 本身没有问题。问题出在网络路径上。
 == 适用于所有 GitHub 仓库 ==
 
 要全局应用（所有 GitHub 仓库都使用 ghfast.top）：
-  git config --global url.https://ghfast.top/https://github.com/.insteadOf https://github.com/
+  git config --global url.<https://ghfast.top/https://github.com/.insteadOf> <https://github.com/>
 
 或者仅针对单个仓库。注意：通过镜像无法进行推送操作——你需要临时覆盖设置才能推送：
-  git push https://github.com/... main
+  git push <https://github.com/>... main
 
 需要我设置全局配置吗？

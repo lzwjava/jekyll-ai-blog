@@ -22,9 +22,11 @@ type: note
 
 * **修改首次提交信息**
   若需修改项目的初始提交信息，可运行：
+
   ```bash
   git rebase --root -i
   ```
+
   并将首个提交的 `pick` 改为 `reword`。
 
 * **将根提交与后续提交压缩**
@@ -46,6 +48,7 @@ git rebase --root -i
 ```
 
 你将看到如下编辑界面：
+
 ```
 pick a1b2c3d 初始提交
 pick d4e5f6g 新增功能 A
@@ -53,6 +56,7 @@ pick h7i8j9k 新增功能 B
 ```
 
 此时你可以：
+
 * 将根提交的 `pick` 改为 `reword` → 修改其提交信息
 * 将 `pick` 改为 `squash` → 将根提交与后续提交合并
 * 按需重新排序或拆分提交

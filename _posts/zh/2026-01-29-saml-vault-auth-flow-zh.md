@@ -13,6 +13,7 @@ type: note
 HashiCorp Vault 的 SAML login 通过将 Vault 与外部 SAML Identity Provider (IdP)（如 Okta、Azure AD 等）集成来工作。以下是 authentication flow 的工作原理：
 
 **Initial Setup：**
+
 - Vault 配置了 SAML auth method，其中包括 IdP 的 metadata（SSO URL、entity ID、certificate）
 - IdP 将 Vault 配置为 Service Provider (SP)，包括 Vault 的 callback URL 和 entity ID
 - Vault 中的 Policies 被映射到 SAML assertions（如 groups 或 attributes）

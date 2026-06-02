@@ -60,6 +60,7 @@ type: note
 - 本地安装中 Triton 的 NVIDIA 后端路径损坏
 
 快速检查：
+
 ```bash
 # 检查 CUDA 库是否可见
 ldconfig -p | grep libcuda

@@ -44,11 +44,13 @@ If you are on an organization or enterprise plan, your admin must have Copilot C
 There are multiple ways to install Copilot CLI. The most common methods are:
 
 **Via npm (all platforms):**
+
 ```bash
 npm install -g @github/copilot
 ```
 
 **Via shell install script (macOS/Linux):**
+
 ```bash
 curl -fsSL https://github.com/github/copilot-cli/releases/latest/download/install.sh | bash
 ```
@@ -56,11 +58,13 @@ curl -fsSL https://github.com/github/copilot-cli/releases/latest/download/instal
 Using `| sudo bash` installs to `/usr/local/bin`. You can set `PREFIX` to install to a custom directory, and set `VERSION` to install a specific version.
 
 **Via Homebrew (macOS):**
+
 ```bash
 brew install gh-copilot
 ```
 
 **Via WinGet (Windows):**
+
 ```powershell
 winget install GitHub.CopilotCLI
 ```
@@ -72,6 +76,7 @@ Copilot CLI is also included in the default GitHub Codespaces image and availabl
 ### Authentication
 
 After installation, authenticate using your GitHub credentials:
+
 ```bash
 copilot auth login
 ```
@@ -83,6 +88,7 @@ The CLI automatically inherits your organization's Copilot policies and governan
 ### Basic Usage
 
 Launch the CLI by simply running:
+
 ```bash
 copilot
 ```

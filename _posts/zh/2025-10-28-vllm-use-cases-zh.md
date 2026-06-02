@@ -27,6 +27,7 @@ vLLM 主要是一个专为大型语言模型（LLM）提供快速、内存高效
 这些应用充分发挥了 vLLM 在内存管理和批处理方面的核心优势，相比传统方法可实现高达 2-4 倍的推理加速。
 
 ### 参考资料
+
 - [vLLM 还是 llama.cpp：如何为你的用例选择正确的 LLM 推理引擎](https://developers.redhat.com/articles/2025/09/30/vllm-or-llamacpp-choosing-right-llm-inference-engine-your-use-case)
 - [vLLM：高性能 LLM 推理引擎](https://medium.com/%40mdaryousse.ds/vllm-a-high-performance-inference-engine-for-llms-0b9c6c18312c)
 - [LinkedIn 如何利用 vLLM 驱动生成式 AI 应用](https://www.linkedin.com/blog/engineering/ai/how-we-leveraged-vllm-to-power-our-genai-applications)

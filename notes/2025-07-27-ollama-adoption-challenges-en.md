@@ -28,6 +28,7 @@ Ollama is a popular open-source tool for running large language models (LLMs) lo
 In summary, while Ollama and Open-WebUI empower advanced users, the barriers of hardware, performance, and effort make them niche. As hardware improves and models get more efficient, adoption might grow, but for now, cloud services dominate for their simplicity and power.
 
 ### References
+
 - [Why Are All Local AI Models So Bad? No One Talks About This!](https://www.reddit.com/r/ollama/comments/1idqxto/why_are_all_local_ai_models_so_bad_no_one_talks/)
 - [Why I Stopped Using Ollama and Local Models (And Switched Back to OpenAI)](https://medium.com/@Shamimw/why-i-stopped-using-ollama-and-local-models-and-switched-back-to-openai-2d125f303e1c)
 - [Just Wanted to Run a Large AI Model, But It Turned Out Not So Simple](https://medium.com/@rifewang/just-wanted-to-run-a-large-ai-model-but-it-turned-out-not-so-simple-a6701823c4e4)

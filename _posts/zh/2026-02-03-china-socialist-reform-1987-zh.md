@@ -17,10 +17,12 @@ type: note
 **社会主义初级阶段理论（Primary Socialist Stage Theory）**：大会首次系统地阐述了中国正处于“社会主义初级阶段”的理论——本质上承认了中国仍处于建设社会主义的早期、发展中阶段，并将长期处于这一阶段。
 
 **“一个中心，两个基本点”政策**：大会明确定义了党的基本路线：
+
 - **一个中心**：以经济建设为中心
 - **两个基本点**：（1）坚持四项基本原则（坚持社会主义道路、坚持人民民主专政、坚持共产党的领导、坚持马克思列宁主义毛泽东思想），（2）改革开放政策
 
 **理论框架**：大会从三个 Marxist 视角系统总结了“中国特色社会主义（socialism with Chinese characteristics）”理论的主要内容：
+
 - Marxist philosophy（马克思主义哲学）
 - Political economy（政治经济学）
 - Scientific socialism（科学社会主义）

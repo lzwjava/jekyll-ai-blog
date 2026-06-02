@@ -27,6 +27,7 @@ IBM DB2, a robust enterprise relational database management system (RDBMS), is w
 These opinions reflect a divide: DB2 shines in regulated, high-stakes scenarios but struggles with accessibility and adaptability in a PostgreSQL- or MySQL-dominated world.
 
 References:
+
 - [IBM Db2 Pros and Cons on G2](https://www.g2.com/products/ibm-db2/reviews?qs=pros-and-cons)
 - [IBM Db2 Database Pros and Cons on PeerSpot](https://www.peerspot.com/products/ibm-db2-database-pros-and-cons)
 - [Pros and Cons of IBM DB2 on Quora](https://www.quora.com/What-are-pros-and-cons-of-using-IBM-DB2-as-a-database)

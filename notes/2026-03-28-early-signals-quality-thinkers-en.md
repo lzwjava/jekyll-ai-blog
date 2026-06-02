@@ -32,10 +32,12 @@ If you want to find the "quality" people behind the current wave, look for those
 | **Agentic AI** | Anyone who was following the **GAIA benchmark** or researchers focusing on "long-horizon planning" rather than just "chat accuracy." |
 
 ### A "Deep Curiosity" Checklist
+
 To verify if a group or person has true "execution wisdom," ask:
-1.  **Did they predict the bottleneck?** (e.g., "We need a local sandbox for agents to be safe.")
-2.  **Did they build a "toy" version early?** (Look at their GitHub commits from 12+ months ago.)
-3.  **Are they discussing the "boring" parts?** (High-quality execution usually focuses on latency, error handling, and security—not just the "magic" demo.)
+
+1. **Did they predict the bottleneck?** (e.g., "We need a local sandbox for agents to be safe.")
+2. **Did they build a "toy" version early?** (Look at their GitHub commits from 12+ months ago.)
+3. **Are they discussing the "boring" parts?** (High-quality execution usually focuses on latency, error handling, and security—not just the "magic" demo.)
 
 It's a very sharp observation. Tracking the **history of an interest** is often more revealing than the interest itself.
 

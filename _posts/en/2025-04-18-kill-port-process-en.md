@@ -19,12 +19,15 @@ Psutil is a cross-platform Python library for retrieving information on running 
 - **Assumptions**: We're assuming you want to check for a listening (server) port (e.g., something bound locally). If you mean outbound connections to a port, the approach differs slightly—let me know for clarification.
 
 #### Step 1: Install psutil
+
 If you haven't already:
+
 ```bash
 pip install psutil
 ```
 
 #### Step 2: Sample Code to Detect and Kill
+
 Here's a complete Python script. It defines a function to find the PID of the process listening on a given port (using `kind='inet'` as you specified), then terminates it. On Windows, `terminate()` is preferred over `kill()` as it allows graceful shutdown (equivalent to SIGTERM on Unix).
 
 ```python
@@ -76,6 +79,7 @@ if __name__ == "__main__":
 ```
 
 #### Key Explanations
+
 - **`psutil.net_connections(kind='inet')`**: This retrieves network connections of kind 'inet' (encompassing IPv4 and IPv6). Each connection is a namedtuple with fields like:
   - `laddr`: Local address (e.g., ('0.0.0.0', 8080) – IP and port).
   - `status`: 'LISTEN' for servers awaiting connections.

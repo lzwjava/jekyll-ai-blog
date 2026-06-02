@@ -18,6 +18,7 @@ type: note
 **Attempt 1: `datasets` streaming library → OOM killed**
 
 The `load_dataset(..., streaming=True)` promise is misleading. Even in "streaming" mode, the HF `datasets` library:
+
 - Loads the entire Arrow schema into memory
 - Buffers decompressed parquet chunks in an internal queue
 - Runs a Python iterator with significant per-object overhead
@@ -38,6 +39,7 @@ Better than full pandas, but `to_pandas()` on a row group still converts the ent
 **Attempt 4: `pyarrow.iter_batches(batch_size=4096)` → ✅ Works**
 
 This is the correct approach. It:
+
 - Streams small RecordBatches (4096 rows at a time)
 - Each batch is ~few MB in memory
 - Never loads the full parquet into RAM
@@ -75,12 +77,14 @@ You have 76M lines of raw text. Before training, this needs to become `train.bin
 ```
 
 The tokenization script needs to:
+
 - Read the text line by line (memory-safe)
 - Tokenize with `tiktoken` GPT-2 encoder
 - Write to binary `uint16` arrays
 - Split 90/10 train/val
 
 **Estimated tokenized size:**
+
 - 5 shards: ~6-8 GB (`train.bin` + `val.bin`)
 - 21 shards: ~24-30 GB
 
@@ -94,6 +98,7 @@ The tokenization script needs to:
 | **Total** | **20 GB** | **83 GB** ⚠️ |
 
 21 shards will **exceed the 77GB disk**. You need to either:
+
 - Tokenize shard-by-shard (download → extract → tokenize → delete text)
 - Upgrade to a larger disk
 - Use fewer shards (`sample-10BT` uses ~5 shards)
@@ -101,6 +106,7 @@ The tokenization script needs to:
 **3. The `sample-10BT` subset is not what's being downloaded**
 
 The parquet shards are from `CC-MAIN-2013-20`, which is the full FineWeb dataset, not the curated `sample-10BT`. For GPT-2 124M training, `sample-10BT` is better:
+
 - Curated quality filtering
 - ~10B tokens = right-sized for the model
 - No need to download 21 shards
@@ -114,16 +120,19 @@ You're downloading anonymously. HF limits unauthenticated downloads to ~1GB/hour
 ### Recommendations
 
 **Immediate (right now):**
+
 - You have 5 shards / ~13GB / ~3-4B tokens. That's enough to test the full pipeline.
 - Don't download more shards yet. Tokenize what you have, verify training works.
 
 **Before full download:**
+
 1. Set up HF token: `huggingface-cli login`
 2. Switch to `sample-10BT` subset (curated, right-sized)
 3. Write a shard-by-shard pipeline (download → extract → tokenize → cleanup) to stay under disk limit
 4. Transfer tokenized `train.bin`/`val.bin` to your RTX 4070 for actual training
 
 **For training:**
+
 - 5 shards (~3-4B tokens) with GPT-2 124M config will produce a decent model
 - `max_iters=~12000` at effective batch 524K tokens/iter ≈ 6.3B tokens seen (loops dataset once)
 - Matches your previous `train_log_fineweb3.txt` config

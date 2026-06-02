@@ -17,6 +17,7 @@ As of October 2025, **Waymo** (Alphabet) remains the global leader in autonomous
 China's ecosystem is booming, with over 30 cities permitting driverless operations and companies like Pony.ai and WeRide achieving international expansions (e.g., UAE, Singapore). Globally, the AV market is projected to reach $115 billion by 2033, driven by robotaxis and trucking. Rankings prioritize operational miles, commercial scale, safety records, and funding over market cap (which favors chipmakers like NVIDIA).
 
 #### Top 10 Autonomous Driving Companies (Global Ranking, 2025)
+
 | Rank | Company | Headquarters | Focus | Key 2025 Milestone |
 |------|---------|--------------|-------|--------------------|
 | 1 | Waymo | USA | Robotaxis (Level 4) | 250K+ weekly paid rides in 5+ U.S. cities; 96M+ rider-only miles |

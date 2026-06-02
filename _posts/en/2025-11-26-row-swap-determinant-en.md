@@ -22,7 +22,7 @@ The determinant can be computed using **cofactor expansion** along any row \\(i\
 
 where the cofactor \\(C_{ij} = (-1)^{i+j} M_{ij}\\), and \\(M_{ij}\\) is the minor (determinant of the submatrix obtained by deleting row \\(i\\) and column \\(j\\)).
 
-### When you swap two rows (say row \\(p\\) and row \\(q\\)):
+### When you swap two rows (say row \\(p\\) and row \\(q\\))
 
 - All the entries \\(a_{kj}\\) (for fixed column \\(j\\)) in those two rows are swapped.
 - But when you recompute the cofactors \\(C_{ij}\\) in the new matrix:

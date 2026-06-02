@@ -20,9 +20,11 @@ Ansible's control node (the machine from which you run `ansible` or `ansible-pla
 
 1. **os.set_blocking() is Unix-only**
    In several places (especially in Ansible's connection plugins and process handling), Ansible calls:
+
    ```python
    os.set_blocking(fd, False)   # to make a pipe or socket non-blocking
    ```
+
    This function **does not exist on Windows** — it is a POSIX-specific method added in Python 3.5+ only on Unix-like systems. On Windows attempting to call it raises `AttributeError`.
    This is used heavily in Ansible’s `ansible-connection` process and in the `persistent connection` logic.
 
@@ -54,6 +56,6 @@ Ansible's control node (the machine from which you run `ansible` or `ansible-pla
 
 In short: the direct technical blocker that causes immediate import/crash errors on Windows is `os.set_blocking()`, but the real reason is much deeper — Ansible was built from the ground up assuming a POSIX environment.
 
-* [Ansible Documentation – Platform Support](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements)
-* [GitHub Issue discussing os.set_blocking on Windows](https://github.com/ansible/ansible/issues/29676)
-* [Ansible Connection Framework – set_blocking usage](https://github.com/ansible/ansible/blob/devel/lib/ansible/executor/task_executor.py)
+- [Ansible Documentation – Platform Support](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements)
+- [GitHub Issue discussing os.set_blocking on Windows](https://github.com/ansible/ansible/issues/29676)
+- [Ansible Connection Framework – set_blocking usage](https://github.com/ansible/ansible/blob/devel/lib/ansible/executor/task_executor.py)

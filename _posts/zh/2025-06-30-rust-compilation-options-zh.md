@@ -12,7 +12,7 @@ type: note
 
 当你直接使用 `rustc` 时，有两个主要选项可以指定输出位置：
 
-1.  **`-o <输出文件名>`**：此选项指定编译后的可执行文件或库的*确切路径和文件名*。
+1. **`-o <输出文件名>`**：此选项指定编译后的可执行文件或库的*确切路径和文件名*。
 
     ```bash
     rustc scripts/rust/example.rs -o test/example
@@ -20,7 +20,7 @@ type: note
 
     这将编译 `example.rs` 并将名为 `example` 的可执行文件直接放入 `test/` 目录。如果 `test/` 目录不存在，`rustc` 会创建它。
 
-2.  **`--out-dir <输出目录>`**：此选项指定一个*目录*，`rustc` 应将所有生成的输出文件（可执行文件/库，以及任何中间文件，如 `.d`、`.rmeta` 等）放入该目录。
+2. **`--out-dir <输出目录>`**：此选项指定一个*目录*，`rustc` 应将所有生成的输出文件（可执行文件/库，以及任何中间文件，如 `.d`、`.rmeta` 等）放入该目录。
 
     ```bash
     rustc scripts/rust/example.rs --out-dir test/
@@ -45,7 +45,7 @@ my_project/
 
 如果你想控制 Cargo 的 `target` 目录，可以：
 
-  * **使用 `CARGO_TARGET_DIR` 环境变量**：
+* **使用 `CARGO_TARGET_DIR` 环境变量**：
 
     ```bash
     CARGO_TARGET_DIR=./test cargo build
@@ -53,7 +53,7 @@ my_project/
 
     这会将整个 `target` 目录（包含 `debug`、`release` 等）放入你的 `test/` 目录中。可执行文件将位于 `test/debug/my_project`。
 
-  * **使用 Cargo 的 `--target-dir` 命令行选项**：
+* **使用 Cargo 的 `--target-dir` 命令行选项**：
 
     ```bash
     cargo build --target-dir test/
@@ -61,14 +61,14 @@ my_project/
 
     这与使用环境变量的效果相同。
 
-  * **使用 `.cargo/config.toml`**：你可以通过将其添加到 `.cargo/config.toml` 文件中，为机器上的所有 Cargo 项目或特定的工作区设置默认的 `target-dir`。
+* **使用 `.cargo/config.toml`**：你可以通过将其添加到 `.cargo/config.toml` 文件中，为机器上的所有 Cargo 项目或特定的工作区设置默认的 `target-dir`。
 
 **为什么使用 Cargo？**
 
-  * **标准化的项目布局：** Cargo 强制执行通用的项目结构，使其他 Rust 开发人员易于理解你的代码。
-  * **依赖项管理：** Cargo 自动处理项目依赖项的下载和编译。
-  * **测试和基准测试：** Cargo 内置了用于运行测试（`cargo test`）和基准测试（`cargo bench`）的命令。
-  * **发布管理：** Cargo 有助于创建发布构建（`cargo build --release`）并将 crate 发布到 crates.io。
+* **标准化的项目布局：** Cargo 强制执行通用的项目结构，使其他 Rust 开发人员易于理解你的代码。
+* **依赖项管理：** Cargo 自动处理项目依赖项的下载和编译。
+* **测试和基准测试：** Cargo 内置了用于运行测试（`cargo test`）和基准测试（`cargo bench`）的命令。
+* **发布管理：** Cargo 有助于创建发布构建（`cargo build --release`）并将 crate 发布到 crates.io。
 
 除非你有非常特殊的理由，否则强烈建议将你的 Rust 代码组织到 Cargo 项目中。
 

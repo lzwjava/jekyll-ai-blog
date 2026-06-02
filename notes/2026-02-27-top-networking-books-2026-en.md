@@ -18,6 +18,7 @@ There is no single "best" book for everyone — it depends on your background, g
 **Computer Networking: A Top-Down Approach** (latest edition, currently 8th or 9th depending on the exact release year) by James F. Kurose and Keith W. Ross.
 
 ### Why this book is considered the best overall choice for most people
+
 - It uses a **top-down approach** — starting with applications (HTTP, DNS, email, etc.) that people already understand, then moving down to transport, network, link, and physical layers. This makes concepts much more approachable than the traditional bottom-up method.
 - Excellent balance of **theory, real-world examples**, and the modern Internet.
 - Regularly updated to cover current topics (HTTP/3, QUIC, SDN, 5G aspects, cloud networking, security basics, etc.).

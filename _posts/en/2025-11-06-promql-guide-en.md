@@ -17,6 +17,7 @@ PromQL (Prometheus Query Language) is a functional query language used to select
 ## Introduction
 
 PromQL enables users to:
+
 - Select time series using **instant vector selectors**.
 - Retrieve data over a time range using **range vector selectors**.
 - Apply **operators** (arithmetic, comparison, logical, aggregation).
@@ -24,6 +25,7 @@ PromQL enables users to:
 - Query data via the **HTTP API**.
 
 Expressions are evaluated in the Prometheus UI:
+
 - **Table tab**: Instant queries.
 - **Graph tab**: Range queries.
 
@@ -38,29 +40,39 @@ Time series selectors define which metrics and labels to retrieve.
 Selects the most recent sample for each matching time series.
 
 **Syntax**:
+
 ```
 <metric_name>{<label_matchers>}
 ```
 
 **Examples**:
+
 - All time series with metric `http_requests_total`:
+
   ```
   http_requests_total
   ```
+
 - Specific job and group:
+
   ```
   http_requests_total{job="prometheus", group="canary"}
   ```
+
 - Regex match on environment and exclude GET method:
+
   ```
   http_requests_total{environment=~"staging|testing|development", method!="GET"}
   ```
+
 - Match on `__name__`:
+
   ```
   {__name__=~"job:.*"}
   ```
 
 **Label Matchers**:
+
 - `=` : exact match
 - `!=` : not equal
 - `=~` : regex match (anchored)
@@ -75,12 +87,15 @@ Selects the most recent sample for each matching time series.
 Selects a range of samples over time.
 
 **Syntax**:
+
 ```
 <instant_selector>[<duration>]
 ```
 
 **Example**:
+
 - Last 5 minutes of `http_requests_total` for `prometheus` job:
+
   ```
   http_requests_total{job="prometheus"}[5m]
   ```
@@ -94,20 +109,27 @@ Selects a range of samples over time.
 Shifts evaluation time forward or backward.
 
 **Syntax**:
+
 ```
 <selector> offset <duration>
 ```
 
 **Examples**:
+
 - Value of `http_requests_total` 5 minutes ago:
+
   ```
   http_requests_total offset 5m
   ```
+
 - Rate from 1 week ago:
+
   ```
   rate(http_requests_total[5m] offset 1w)
   ```
+
 - Look ahead (negative offset):
+
   ```
   rate(http_requests_total[5m] offset -1w)
   ```
@@ -121,20 +143,27 @@ Shifts evaluation time forward or backward.
 Evaluates at a specific timestamp.
 
 **Syntax**:
+
 ```
 <selector> @ <timestamp>
 ```
 
 **Examples**:
+
 - Value at Unix timestamp `1609746000`:
+
   ```
   http_requests_total @ 1609746000
   ```
+
 - Rate at specific time:
+
   ```
   rate(http_requests_total[5m] @ 1609746000)
   ```
+
 - Use `start()` or `end()`:
+
   ```
   http_requests_total @ start()
   rate(http_requests_total[5m] @ end())
@@ -153,6 +182,7 @@ PromQL supports **rate** and **aggregation** operators to compute metrics over t
 Calculates per-second average rate of increase.
 
 **Example**:
+
 ```
 rate(http_requests_total[5m])
 ```
@@ -166,15 +196,21 @@ rate(http_requests_total[5m])
 Apply to instant vectors to combine time series.
 
 **Examples**:
+
 - Sum of all `http_requests_total`:
+
   ```
   sum(http_requests_total)
   ```
+
 - Average per instance:
+
   ```
   avg by (instance)(http_requests_total)
   ```
+
 - Count per job:
+
   ```
   count by (job)(http_requests_total)
   ```
@@ -237,6 +273,7 @@ Combine boolean expressions.
 PromQL includes built-in functions for transformation and analysis.
 
 **Common Functions**:
+
 - `rate(v range-vector)` – per-second rate.
 - `irate(v range-vector)` – instantaneous rate (last two points).
 - `avg(v)` – average value.
@@ -246,6 +283,7 @@ PromQL includes built-in functions for transformation and analysis.
 - `quantile(v instant-vector, q)` – percentile.
 
 **Example**:
+
 ```
 quantile by (job)(0.95, http_request_duration_seconds_bucket[5m])
 ```
@@ -265,11 +303,13 @@ PromQL queries can be sent via HTTP API.
 **Method**: `GET`
 
 **Parameters**:
+
 - `query`: PromQL expression
 - `time`: evaluation timestamp (Unix seconds, optional)
 - `timeout`: query timeout (e.g., `30s`)
 
 **Example**:
+
 ```
 GET /api/v1/query?query=http_requests_total{job="prometheus"}&time=1609746000
 ```
@@ -283,12 +323,14 @@ GET /api/v1/query?query=http_requests_total{job="prometheus"}&time=1609746000
 **Endpoint**: `/api/v1/query_range`
 
 **Parameters**:
+
 - `query`: PromQL expression
 - `start`: start time (Unix seconds)
 - `end`: end time (Unix seconds)
 - `step`: resolution step (e.g., `15s`)
 
 **Example**:
+
 ```
 GET /api/v1/query_range?query=rate(http_requests_total[5m])&start=1609746000&end=1609746600&step=10s
 ```
@@ -309,6 +351,7 @@ GET /api/v1/query_range?query=rate(http_requests_total[5m])&start=1609746000&end
 - **Staleness**: Series become stale after 5 minutes (default) without updates.
 
 - **Subquery**: Run instant query over a range:
+
   ```
   rate(http_requests_total[10m:5m])[5m]
   ```

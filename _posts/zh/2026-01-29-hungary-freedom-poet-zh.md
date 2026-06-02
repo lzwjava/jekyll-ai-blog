@@ -22,6 +22,7 @@ type: note
 **Literary Achievements**
 
 Petőfi 的诗歌具有以下特点：
+
 - 强烈的民族主义情感和对匈牙利自由的热爱
 - 激情的 Romanticism 与民间传统相结合
 - 语言简洁易懂，贴近普通民众

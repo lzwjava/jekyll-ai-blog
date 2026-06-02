@@ -36,7 +36,7 @@ def call_gemini_api(prompt, retries=3, backoff_factor=1):
 
     for attempt in range(retries):
         try:
-            response = requests.post(url, json=payload, params=params)
+            response = requests.post(url, json=payload, params=params, timeout=30)
             response.raise_for_status()
             response_json = response.json()
             print(response_json)
@@ -68,7 +68,7 @@ def call_mistral_api(prompt, model="mistral-small-2501", process_response=True):
     print(f"Mistral API URL: {url}")
     print(f"Mistral API Headers: {headers}")
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         response_json = response.json()
         print(response_json)
@@ -96,7 +96,9 @@ def call_ollama_api(prompt, model):
     data = {"messages": [{"role": "user", "content": prompt}], "model": model}
     print(f"Input to API: {data}")
     try:
-        response = requests.post(url, headers=headers, data=json.dumps(data))
+        response = requests.post(
+            url, headers=headers, data=json.dumps(data), timeout=30
+        )
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
@@ -114,7 +116,9 @@ def call_llama_api(prompt):
     data = {"messages": [{"role": "user", "content": prompt}]}
     print(f"Input to API: {data}")
     try:
-        response = requests.post(url, headers=headers, data=json.dumps(data))
+        response = requests.post(
+            url, headers=headers, data=json.dumps(data), timeout=30
+        )
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
@@ -136,7 +140,7 @@ def call_grok_api(prompt):
     data = {"model": "grok-2-latest", "messages": [{"role": "user", "content": prompt}]}
     print(f"Input to Grok API: {data}")
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         json_response = response.json()
         return json_response

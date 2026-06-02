@@ -35,7 +35,7 @@ Other frequently mentioned ones include cauliflower, carrots, radishes (daikon),
 
 References:
 
-- https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm
-- https://www.thespruceeats.com/chinese-vegetables-pictures-4121784
-- https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/
-- https://www.statista.com/statistics/1413362/china-per-capita-fresh-vegetable-consumption/
+- <https://www.chinahighlights.com/travelguide/chinese-food/top-10-vegetables.htm>
+- <https://www.thespruceeats.com/chinese-vegetables-pictures-4121784>
+- <https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/>
+- <https://www.statista.com/statistics/1413362/china-per-capita-fresh-vegetable-consumption/>

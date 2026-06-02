@@ -54,5 +54,5 @@ In short, Nonviolent Communication offers both a practical 4-step method and a p
 
 References:
 
-- Official English book page: https://www.nonviolentcommunication.com/learn-nonviolent-communication/book-nonviolent-communication
-- Center for Nonviolent Communication: https://www.cnvc.org/learn/nvc-foundations
+- Official English book page: <https://www.nonviolentcommunication.com/learn-nonviolent-communication/book-nonviolent-communication>
+- Center for Nonviolent Communication: <https://www.cnvc.org/learn/nvc-foundations>

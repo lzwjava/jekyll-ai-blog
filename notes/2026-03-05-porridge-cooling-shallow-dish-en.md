@@ -29,6 +29,7 @@ Here's why it works so well:
 As a rough estimate: if you spread the porridge from a typical deep bowl shape into a flat dish, the exposed surface area can easily become **3–6 times larger**, which can make it cool **several times faster**.
 
 Many cultures have similar habits:
+
 - Chinese congee → often poured into a small shallow bowl or dish to cool quickly
 - Japanese ochazuke or okayu → sometimes eaten from wide bowls for the same reason
 - Some people even stir it with chopsticks in a wide motion to increase cooling

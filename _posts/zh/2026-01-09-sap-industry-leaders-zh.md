@@ -15,6 +15,7 @@ SAP systems 为全球约 **230,000 多家机构**提供业务运营支持，其�
 ## 各行业领军企业
 
 **消费品与零售 (Consumer Products & Retail)**
+
 - Coca-Cola（管理全球饮料业务）
 - Unilever（协调 190 多个国家的供应链）
 - Nestlé（为全球最大的食品公司整合业务）
@@ -23,17 +24,20 @@ SAP systems 为全球约 **230,000 多家机构**提供业务运营支持，其�
 - IKEA（协调全球家具零售业务）
 
 **汽车与制造 (Automotive & Manufacturing)**
+
 - BMW, Mercedes-Benz, Volkswagen, Toyota, Ford（几乎所有主要汽车制造商都使用 SAP 进行生产计划和供应链管理）
 - Bosch（管理复杂的零部件制造）
 - Siemens（整合工程与制造）
 - General Electric（协调工业运营）
 
 **能源与公用事业 (Energy & Utilities)**
+
 - Shell, BP, ExxonMobil, Chevron（主要石油公司均依赖 SAP）
 - E.ON, Duke Energy（公用事业公司管理电网运营）
 - Schneider Electric（能源管理解决方案）
 
 **技术与电信 (Technology & Telecommunications)**
+
 - Apple（供应链及运营）
 - Microsoft（内部运营，尽管他们在 Cloud 领域存在竞争）
 - IBM（尽管拥有自己的软件）
@@ -41,21 +45,25 @@ SAP systems 为全球约 **230,000 多家机构**提供业务运营支持，其�
 - Verizon, AT&T, Vodafone（电信业务运营）
 
 **制药与医疗保健 (Pharmaceuticals & Healthcare)**
+
 - Pfizer, Johnson & Johnson, Novartis, Roche（制药巨头依靠 SAP 满足合规性 Regulatory Compliance 和供应链需求）
 - Abbott Laboratories, Merck
 - 全球众多医疗系统
 
 **金融服务 (Financial Services)**
+
 - 虽然银行通常使用专业的核心银行系统，但许多银行使用 SAP 处理后台业务：
 - Deutsche Bank, HSBC, BNP Paribas
 - 保险公司如 Allianz, AXA, Zurich Insurance
 
 **航空航天与国防 (Aerospace & Defense)**
+
 - Airbus（管理复杂的飞机制造）
 - Boeing（尽管面临挑战，仍广泛使用 SAP）
 - Lockheed Martin, Northrop Grumman
 
 **消费电子 (Consumer Electronics)**
+
 - Samsung（庞大的全球运营）
 - Sony, Panasonic
 - LG Electronics
@@ -77,6 +85,7 @@ SAP systems 为全球约 **230,000 多家机构**提供业务运营支持，其�
 **中型公司 (Midsize Companies)**：SAP 通过 SAP Business One 和 Cloud 产品努力开拓中型市场，尽管在这里面临来自 Microsoft Dynamics、Oracle NetSuite 等对手的激烈竞争。
 
 **公共部门 (Public Sector)**：全球许多政府机构使用 SAP：
+
 - 美国国防部 (US Department of Defense)
 - 欧洲各国政府部委
 - 全球各州及地方政府

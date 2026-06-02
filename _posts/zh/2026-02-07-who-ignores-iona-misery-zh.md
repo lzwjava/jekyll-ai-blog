@@ -17,6 +17,7 @@ type: note
 ---
 
 ### **正确答案：**
+
 **A. Soldier (军人)**
 **C. Doorman (看门人)**
 **D. Young cab drivers (青年车夫)**
@@ -24,6 +25,7 @@ type: note
 ---
 
 ### **解析：**
+
 在 *Misery* 中，cab driver Iona 试图向几个人诉说他对儿子去世的悲痛，但他们都无视了他：
 
 - **Soldier：** Iona 试图与一名 soldier 交谈，但 soldier 粗鲁地打发了他，甚至威胁他。

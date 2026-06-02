@@ -43,13 +43,9 @@ GreptimeDB is an open-source observability database that handles metrics, logs, 
 
 The three tiers follow exactly the same pattern as Dify:
 
-
-
 - **GreptimeDB OSS** — The open-sourced database for small to medium-scale observability and IoT use cases, ideal for personal projects or dev/test environments.
 - **GreptimeDB Enterprise** — A robust observability database with enhanced security, high availability, and enterprise-grade support.
 - **GreptimeCloud** — A fully managed, serverless DBaaS with elastic scaling and zero operational overhead, built for teams that need speed, flexibility, and ease of use out of the box.
-
-
 
 ---
 

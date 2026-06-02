@@ -35,6 +35,7 @@ The choice depends heavily on your personality, risk tolerance, financial needs,
 ### Pros and Cons Summary
 
 **Solo Entrepreneur Pros**
+
 - Complete freedom and ownership
 - Unlimited earning potential
 - Build something truly yours
@@ -42,12 +43,14 @@ The choice depends heavily on your personality, risk tolerance, financial needs,
 - No office politics or bureaucracy
 
 **Solo Entrepreneur Cons**
+
 - High financial and emotional risk
 - Isolation and heavy workload
 - No safety net (benefits, steady pay)
 - Everything depends on you
 
 **Big Corporation Employee Pros**
+
 - Stable income and benefits
 - Job security (relatively)
 - Resources, mentorship, and structure
@@ -55,6 +58,7 @@ The choice depends heavily on your personality, risk tolerance, financial needs,
 - Easier to build specialized expertise
 
 **Big Corporation Employee Cons**
+
 - Less autonomy and slower pace
 - Bureaucracy and politics
 - Capped personal upside

@@ -119,7 +119,7 @@ type: note
 
 17. Sapiens - YUVAL NOAH HARARI, accessed March 22, 2025, [https://resources.finalsite.net/images/v1685474627/jbhaorg/erkmxv5civrouuudevem/10thGLSapiensExcerpt.pdf](https://resources.finalsite.net/images/v1685474627/jbhaorg/erkmxv5civrouuudevem/10thGLSapiensExcerpt.pdf)
 
-18. www.litcharts.com, accessed March 22, 2025, [https://www.litcharts.com/lit/sapiens/terms/agricultural-revolution\#:\~:text=He%20thinks%20that%20when%20humans,humanity%E2%80%94it%20made%20it%20worse.](https://www.litcharts.com/lit/sapiens/terms/agricultural-revolution#:~:text=He%20thinks%20that%20when%20humans,humanity%E2%80%94it%20made%20it%20worse.)
+18. <www.litcharts.com>, accessed March 22, 2025, [https://www.litcharts.com/lit/sapiens/terms/agricultural-revolution\#:\~:text=He%20thinks%20that%20when%20humans,humanity%E2%80%94it%20made%20it%20worse.](https://www.litcharts.com/lit/sapiens/terms/agricultural-revolution#:~:text=He%20thinks%20that%20when%20humans,humanity%E2%80%94it%20made%20it%20worse.)
 
 19. "Sapiens" asks 'How did humans get smart?' | Bill Gates, accessed March 22, 2025, [https://www.gatesnotes.com/books/history/reader/sapiens\_a\_brief\_history\_of\_humankind](https://www.gatesnotes.com/books/history/reader/sapiens_a_brief_history_of_humankind)
 

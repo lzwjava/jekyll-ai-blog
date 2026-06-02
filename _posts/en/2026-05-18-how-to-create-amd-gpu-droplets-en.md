@@ -48,6 +48,7 @@ AMD is offering an initial **25 hours of complimentary cloud credit** to qualifi
 ## Step 5: Create a GPU Droplet
 
 Once signed in, you will be directed to the **Create a GPU Droplet** page, where your credits should appear at the top. Then:
+
 - **Select Hardware:** Choose a single MI300X instance
 - **Select Image:** Choose the ROCm Software image (or vLLM Quick Start if you want a ready-to-use LLM stack)
 - **Configure Access:** Add your SSH key

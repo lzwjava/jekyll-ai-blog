@@ -15,6 +15,7 @@ Your situation is interesting - you're balancing two important sleep factors: da
 **The air flow concern is real:**
 
 With your window closed and door closed, you're creating a sealed environment where:
+
 - CO2 levels gradually rise as you breathe throughout the night
 - Oxygen levels decrease
 - Air becomes stale

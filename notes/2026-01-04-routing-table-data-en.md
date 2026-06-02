@@ -17,6 +17,7 @@ Answer:
 A **routing table** is a data structure maintained by routers (and IP-enabled hosts) that determines where to forward IP packets based on their destination IP address.
 
 ### Typical Appearance of a Routing Table
+
 On most systems, the routing table is displayed using commands like:
 
 - Linux/macOS: `ip route show` or `route -n`
@@ -41,6 +42,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 ```
 
 ### Key Information Stored in Each Routing Table Entry
+
 Each entry in the routing table typically contains the following fields:
 
 - **Destination network/prefix**: The network or host IP address range this route applies to (e.g., 192.168.1.0/24 or 0.0.0.0/0 for default).
@@ -52,6 +54,7 @@ Each entry in the routing table typically contains the following fields:
 - **Flags**: Indicators such as U (up/usable), G (gateway), H (host route), D (dynamic), etc.
 
 ### Does the Routing Table Contain MAC Addresses?
+
 **No.**
 Routing tables operate at **Layer 3 (IP layer)** of the OSI model and do **not** store MAC addresses. MAC addresses are Layer 2 (data link layer) information and are handled separately by the **ARP table** (Address Resolution Protocol cache).
 
@@ -59,14 +62,18 @@ Routing tables operate at **Layer 3 (IP layer)** of the OSI model and do **not**
 - Once the next-hop IP is determined, if the packet must be sent over a local link (Ethernet, Wi-Fi, etc.), the system consults the **ARP table** to resolve the next-hop IP to a MAC address for framing the Ethernet packet.
 
 ### Does the Routing Table Contain IP Addresses?
+
 **Yes.**
+
 - Destination network (IP prefix)
 - Next-hop IP address (gateway)
 - Sometimes the source IP used for the interface
 
 ### Does It Tell "Which Packet to Route Where"?
+
 **Yes.**
 The primary purpose of the routing table is exactly that: for a given destination IP address in a packet, perform a **longest-prefix match** against the destination entries to decide:
+
 - Whether to forward the packet to a specific next-hop router (gateway IP), or
 - Send it directly out a local interface (if the destination is on a directly connected network).
 

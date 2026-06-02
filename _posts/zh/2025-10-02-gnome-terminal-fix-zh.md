@@ -15,6 +15,7 @@ type: note
 该问题似乎特定于 GNOME 终端应用（默认终端模拟器）在启动时卡在进度条或旋转图标上，而其他图形应用（如设置）和集成终端（如 VSCode 中的终端）工作正常。这通常指向配置问题、损坏的设置或 GNOME 组件的依赖问题，而不是系统范围的故障。下面，我将概述如何使用系统日志（通过 `journalctl` 命令）检查错误以及常见的修复方法。由于无法访问 GNOME 终端，请使用 VSCode 的集成终端进行命令行工作（打开 VSCode，转到“查看”>“终端”）。
 
 ### 使用系统日志（journalctl）检查错误
+
 您提到的“日志命令”很可能是指 `journalctl`，它是 systemd 的一部分，用于查看日志。它有助于识别 GNOME 终端尝试启动时发生的情况。以下是逐步使用方法：
 
 1. **访问可用的终端**：使用 VSCode 的终端（或按照以下说明切换到虚拟控制台）。
@@ -28,6 +29,7 @@ type: note
 如果您发现重复出现的错误（例如“org.gnome.Terminal”配置文件损坏），请记下它们以便进行特定修复。
 
 ### 可能的修复方法
+
 根据 Ubuntu 论坛和故障排除指南的常见报告[1][2]，请按顺序尝试以下方法，每次操作后重新启动会话（注销/登录或重启）。从非破坏性步骤开始。
 
 1. **使用虚拟控制台（TTY）进行紧急访问**：
@@ -67,14 +69,15 @@ type: note
    - 作为最后的手段，如果问题反复出现，考虑全新安装。
 
 ### 额外提示
+
 - **为什么 VSCode 终端可用**：它可能使用不同的后端（例如，内置控制台），不与 GNOME 的终端模拟器绑定。
 - **预防未来问题**：修复后，避免在没有备份的情况下手动编辑 `/etc/environment` 或 `~/.profile`。使用 `apt` 进行安装。
 - **如果图形崩溃持续存在**：检查硬件（例如，通过 `free -h` 检查 RAM）或在 TTY 中运行 `sudo -i` 进行提升测试。
 - 虽然没有提供确切的日志，但这些步骤解决了 80-90% 的情况（例如，配置文件重置或重新安装）。如果分享了来自 `journalctl` 的特定错误，我可以进一步优化此内容[1][2]。如果问题持续存在，请考虑在 Ask Ubuntu 论坛上报告您的确切设置。
 
 引用：
-[1] https://askubuntu.com/questions/1442350/terminal-not-launching-in-ubuntu-22-04
-[2] https://www.reddit.com/r/Ubuntu/comments/1fedcnz/cannot_open_the_terminal/
-[3] https://unix.stackexchange.com/questions/737169/ubuntu-fails-to-boot-due-to-gnome-display-manager-error
-[4] https://stackoverflow.com/questions/74985183/settings-menu-missing-ubuntu-22-04
-[5] https://superuser.com/questions/1331658/why-cant-i-scroll-in-the-terminal
+[1] <https://askubuntu.com/questions/1442350/terminal-not-launching-in-ubuntu-22-04>
+[2] <https://www.reddit.com/r/Ubuntu/comments/1fedcnz/cannot_open_the_terminal/>
+[3] <https://unix.stackexchange.com/questions/737169/ubuntu-fails-to-boot-due-to-gnome-display-manager-error>
+[4] <https://stackoverflow.com/questions/74985183/settings-menu-missing-ubuntu-22-04>
+[5] <https://superuser.com/questions/1331658/why-cant-i-scroll-in-the-terminal>

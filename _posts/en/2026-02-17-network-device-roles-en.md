@@ -27,8 +27,6 @@ These are the devices that either **originate** (send) or **interface** with the
 * Servers (Web servers, File servers)
 * IP Cameras and IoT devices
 
-
-
 ### 2. Intermediate Devices (Network Infrastructure)
 
 These devices connect the terminal devices to each other and ensure that data flows across the network efficiently. They operate "behind the scenes."
@@ -39,8 +37,6 @@ These devices connect the terminal devices to each other and ensure that data fl
 * **Routers:** Connect different networks and determine the best path for data.
 * **Firewalls:** Secure the network by filtering incoming and outgoing traffic.
 * **Wireless Access Points (WAPs):** Provide wireless connectivity to terminal devices.
-
-
 
 ---
 

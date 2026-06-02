@@ -18,6 +18,7 @@ type: note
 ## 为什么直接阅读源代码在这里就足够了
 
 你已经知道：
+
 - ✅ Webhook 签名验证正常
 - ✅ Nextcloud 正在发送 webhook
 - ✅ OpenClaw 能接收到它们
@@ -42,6 +43,7 @@ grep -r "mention" . --include="*.php"
 ## Claude Code 在这里是大材小用
 
 Claude Code 在以下情况下很有价值：
+
 - 代码库庞大且不熟悉
 - 需要跨多个文件追踪逻辑
 - 希望 AI **解释**复杂的逻辑

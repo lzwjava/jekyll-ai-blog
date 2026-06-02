@@ -12,6 +12,7 @@ type: note
 Short answer: **no — there is no tokenization script in this repo.** Only download + parquet→text extraction exists.
 
 What's here today (`scripts/`):
+
 - `download/` — fetches FineWeb parquet shards (and Wikimedia dumps)
 - `extract/extract_fineweb.py` — concatenates parquet rows into a single `.txt`, inserting `<|endoftext|>` separators (datasets/fineweb-edu/ already holds the raw parquet shards)
 - `analysis/` — log/eval helpers

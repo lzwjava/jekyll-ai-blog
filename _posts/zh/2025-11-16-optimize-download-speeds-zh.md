@@ -15,9 +15,11 @@ type: note
 要匹配维基媒体下载的 20–60 MB/s 速度，请采用以下优化方案——优先选择对亚洲网络友好的选项。所有方案均保留您的 Clash/台湾代理配置。
 
 ### 1. **切换至 HF 镜像站（中国/台湾地区最快——推荐）**
+
    HF 镜像站 (`hf-mirror.com`) 是社区运营的东亚优化 CDN（通过清华等国内网络代理）。它完整镜像所有 HF 数据集，包括 FineWeb 的 Parquet 文件。通过台湾代理下载可达 30–80 MB/s。
 
    更新您的脚本：
+
    ```bash
    #!/bin/bash
    # wget_fineweb_1.sh (速度优化版)
@@ -34,19 +36,24 @@ type: note
    ```
 
    运行：`./scripts/train/wget_fineweb_1.sh`
-   - 若镜像站延迟（罕见情况），可回退官方地址：`https://huggingface.co/datasets/...`（但需配合第2条速度优化技巧）
+
+- 若镜像站延迟（罕见情况），可回退官方地址：`https://huggingface.co/datasets/...`（但需配合第2条速度优化技巧）
 
 ### 2. **启用 hf_transfer 加速（适用于所有 HF 下载——断点续传速度提升100倍）**
+
    Hugging Face 官方推出的 Rust 工具，支持并行/多线程下载。具备自动重试机制，使用更多连接数，优质链路下速度可超 500 MB/s。可通过 `wget` 间接使用或通过 Python 直接调用（如果脚本使用 `huggingface_hub`）。
 
    安装（一次性操作，通过 pip——您的环境已具备）：
+
    ```bash
    pip install hf_transfer
    export HF_HUB_ENABLE_HF_TRANSFER=1
    ```
 
    重新运行原始脚本。该工具会加速底层对 HF URL 的 `wget` 调用。
-   - 专业建议：若需完整数据集流式传输（无需完整下载），请在管道中使用 Python：
+
+- 专业建议：若需完整数据集流式传输（无需完整下载），请在管道中使用 Python：
+
      ```python
      from datasets import load_dataset
      import os
@@ -55,18 +62,23 @@ type: note
      for example in ds.take(1000):  # 实时流式处理
          print(example)
      ```
+
      若设置 `HF_ENDPOINT=https://hf-mirror.com`，将通过镜像站延迟加载分片
 
 ### 3. **Clash 规则调优（若允许——极速直连）**
+
    若代理配置允许绕过 HF 或路由至香港/新加坡节点，可为 `huggingface.co` / `hf-mirror.com` 添加直连/国内路由规则。在 `clash.yaml` 中：
+
    ```
    rules:
      - DOMAIN-SUFFIX,hf-mirror.com,DIRECT  # 或您的国内镜像节点
      - DOMAIN-SUFFIX,huggingface.co,DIRECT
    ```
+
    重启 Clash 后下载。配合第1方案可通过清华镜像达到 50–100+ MB/s
 
 ### 速度匹配原理说明
+
 - 维基媒体：重定向器自动选择亚洲节点（日本/韩国/新加坡）→ 低延迟
 - HF：默认欧美节点 → 高延迟；镜像站 + 传输加速可切换至亚洲优化节点
 

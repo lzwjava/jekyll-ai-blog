@@ -15,6 +15,7 @@ type: note
 ## 集成概述
 
 此集成通常涉及：
+
 1. Jenkins 使用 JWT tokens 向 Vault 进行身份验证
 2. Vault 根据 JWT claims 授予访问权限
 3. Jenkins 读取存储在 Vault KV engine 中的 secrets（如 Terraform variables）
@@ -48,6 +49,7 @@ path "kv/data/terraform/*" {
 ```
 
 应用该 Policy：
+
 ```bash
 vault policy write terraform-read terraform-read-policy.hcl
 ```

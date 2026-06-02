@@ -15,6 +15,7 @@ type: note
 The "Hong Kong Gaocai" you're referring to is the **Top Talent Pass Scheme (TTPS)**, officially known in Chinese as **高才通計劃 (Gāo Cái Tōng Jìhuà)**, which translates to "High Talent Pass Scheme." Launched by the Hong Kong Immigration Department on December 28, 2022, it's a streamlined visa program designed to attract elite professionals and graduates from around the world—including mainland China—to live, work, or start businesses in Hong Kong. The scheme emphasizes flexibility, allowing applicants to enter without a pre-arranged job offer, making it particularly appealing for mainland talents seeking opportunities in Hong Kong's economy.
 
 #### Key Features
+
 - **Visa Duration**: Initial stay of up to 24 months (extended to 3 years for high-income Category A applicants as of 2025). Holders can freely switch jobs, start/join businesses, or explore opportunities during their stay.
 - **Family Inclusion**: Dependants (spouse and unmarried children under 18) can join and apply for dependant visas.
 - **No Job Requirement Upfront**: Unlike traditional work visas, no employment offer is needed initially, but extensions require proof of employment or business activity in Hong Kong.
@@ -26,6 +27,7 @@ The "Hong Kong Gaocai" you're referring to is the **Top Talent Pass Scheme (TTPS
 The program supports Hong Kong's goal of retaining and attracting global talent amid economic challenges, with added services like job fairs through the Hong Kong Talent Engage (HKTE) platform.
 
 #### Eligibility Criteria
+
 Applicants must fit one of three categories (you can only apply under one). Academic qualifications must be equivalent to a Hong Kong bachelor's degree.
 
 | Category | Requirements |
@@ -37,6 +39,7 @@ Applicants must fit one of three categories (you can only apply under one). Acad
 Income proof can be in HKD or 17 major foreign currencies; conversions are allowed with documentation.
 
 #### Application Process
+
 1. **Check Eligibility**: Use the official Immigration Department (ImmD) website to verify if your university qualifies or calculate income.
 2. **Online Submission**: Apply via the GovHK portal (for non-Mainland residents) or ImmD's TTPS page. Upload documents like passports, degree certificates, income proofs (e.g., tax returns, pay stubs), and work experience letters.
 3. **Pay Fees**: Non-refundable application fee (HK$200–400 per person) + visa label fee (HK$500+). Payable by credit card, FPS, or Mainland digital wallets (Alipay, WeChat Pay).
@@ -49,6 +52,7 @@ Applications are straightforward with minimal paperwork compared to other scheme
 If you're a mainland talent considering this, it's a fast track to Hong Kong residency—leading to permanent status after 7 years. For personalized advice, consult ImmD or a migration expert, as the scheme's future beyond 2025 isn't guaranteed.
 
 #### References
+
 - [Top Talent Pass Scheme - Immigration Department](https://www.immd.gov.hk/eng/services/visas/TTPS.html)
 - [Introduction of Admission Schemes for Talent, Professionals and Entrepreneurs - Immigration Department](https://www.immd.gov.hk/eng/useful_information/admission-schemes-talents-professionals-entrepreneurs.html)
 - [LCQ5: Top Talent Pass Scheme - Hong Kong Government Information Services](https://www.info.gov.hk/gia/general/202501/22/P2025012200218.htm)

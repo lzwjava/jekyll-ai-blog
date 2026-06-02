@@ -26,6 +26,7 @@ GPT-5.5 is OpenAI's newest frontier model, designed to understand what you're tr
 ## Why Some Developers Prefer GPT-5.5 / Codex Over Claude Code
 
 ### 1. Token Efficiency (Lower Real-World Cost)
+
 This is arguably the **biggest reason** for the shift in some communities.
 
 On the same coding tasks — identical prompts, identical goals — GPT-5.5 produces roughly 72% fewer output tokens than Claude Opus 4.7. If you're running a coding agent handling 500 tasks per day, and each task consumes an average of 2,000 output tokens on GPT-5.5, the same task would require roughly 7,100 output tokens on Opus 4.7. At current pricing tiers, that difference compounds into thousands of dollars per month at meaningful scale.
@@ -33,18 +34,23 @@ On the same coding tasks — identical prompts, identical goals — GPT-5.5 prod
 Additionally, GPT-5.5 uses significantly fewer tokens to achieve results comparable to GPT-5.4, and its Codex setup runs faster and delivers higher-quality results for most users. These efficiency gains support generous usage limits despite GPT-5.5 being a significantly more capable model.
 
 ### 2. Speed
+
 Fewer tokens means faster responses. GPT-5.5 returns results faster on equivalent tasks — both because it generates fewer tokens and because the architecture is optimized for structured output. In interactive workflows, that latency difference is noticeable. In a fully automated agentic pipeline, it determines throughput.
 
 ### 3. Agentic & Computer Use Capabilities
+
 GPT-5.5 scores 78.7% on OSWorld-Verified, which measures whether a model can operate real computer environments autonomously. It hits 98.0% on Tau2-bench Telecom for complex customer-service workflows. In Codex, GPT-5.5 can take on engineering work ranging from implementation and refactors to debugging, testing, and validation. It generates documents, spreadsheets, and presentations. Combined with computer use capabilities, it can see what's on screen, click, type, navigate interfaces, and move across tools with precision.
 
 ### 4. Tight Codex Ecosystem Integration
+
 GPT-5.5 is genuinely competitive on agentic tasks, especially when paired with Codex. The Codex integration gives GPT-5.5 a natural environment for sandbox execution, which matters when the model needs to run code, see the output, and iterate. That feedback loop is tighter in the OpenAI ecosystem than if you're running Opus 4.7 in a DIY setup.
 
 ### 5. Positive Engineer Testimonials
+
 Senior engineers who tested the model said GPT-5.5 was noticeably stronger than GPT-5.4 and Claude Opus 4.7 at reasoning and autonomy, catching issues in advance and predicting testing and review needs without explicit prompting. One engineer at NVIDIA who had early access went as far as to say: "Losing access to GPT-5.5 feels like I've had a limb amputated."
 
 ### 6. Wide Enterprise Adoption
+
 Over 10,000 NVIDIANs — across engineering, product, legal, marketing, finance, sales, HR, operations and developer programs — are already using GPT-5.5-powered Codex to achieve what they described as "mind-blowing" and "life-changing" results.
 
 ---

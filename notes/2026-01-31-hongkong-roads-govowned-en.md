@@ -15,10 +15,12 @@ In Hong Kong, roads and bridges are predominantly **publicly owned** by the gove
 Here's the breakdown:
 
 **Public ownership:**
+
 - Most roads, highways, and bridges are owned and managed by the **Transport Department** and **Highways Department** under the Hong Kong SAR Government
 - This includes major infrastructure like the Cross-Harbour Tunnel (now), Route 3, and most urban roads
 
 **Historical private involvement:**
+
 - Hong Kong had some privately-built and operated tunnels and bridges under Build-Operate-Transfer (BOT) or franchise arrangements
 - Notable examples included:
   - **Cross-Harbour Tunnel** (originally private, became government-owned in 1999)
@@ -26,6 +28,7 @@ Here's the breakdown:
   - **Western Harbour Crossing** (private until government buyback in 2023)
 
 **Current situation:**
+
 - The government has been buying back these privately-operated crossings to standardize tolls and improve traffic flow
 - Private developers may build roads within their developments (like roads in housing estates), but major public roads remain government infrastructure
 

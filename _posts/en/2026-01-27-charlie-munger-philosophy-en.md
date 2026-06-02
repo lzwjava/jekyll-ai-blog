@@ -17,6 +17,7 @@ Answer:
 **Charlie Munger** (full name: Charles Thomas Munger) was one of the most influential investors, thinkers, and business minds of the 20th and early 21st centuries. He is best known as the longtime vice chairman of **Berkshire Hathaway** and as Warren Buffett's closest partner and closest intellectual companion.
 
 ### Early Life and Education
+
 - Born: January 1, 1924, in Omaha, Nebraska (same city as Warren Buffett).
 - Grew up in a modest family; his father was a lawyer.
 - Showed early intellectual curiosity and work ethic.
@@ -24,11 +25,13 @@ Answer:
 - After the war, he briefly studied at Caltech (mathematics/physics track) before transferring to Harvard Law School, where he graduated magna cum laude in 1948 despite not having an undergraduate degree (Harvard made a special exception).
 
 ### Early Career
+
 - Practiced law in Los Angeles, co-founding the firm **Munger, Tolles & Olson** (still one of the most respected boutique law firms in the U.S.).
 - Became successful as a real-estate attorney and investor.
 - Ran his own investment partnership (Wheeler, Munger & Co.) in the 1960s with outstanding returns, but closed it in 1975 after a difficult period.
 
 ### Partnership with Warren Buffett
+
 - Met Buffett in Omaha in 1959 (introduced through mutual friends).
 - Although 7 years older, they quickly developed a deep intellectual bond.
 - Munger convinced Buffett to shift from strict Benjamin Graham-style "cigar-butt" investing (buying cheap, mediocre companies) to buying **wonderful businesses at fair prices** and holding them for the very long term.
@@ -37,6 +40,7 @@ Answer:
 - He played a key role in many of Berkshire's major investments, including See's Candies (a pivotal early win), Wesco Financial, Blue Chip Stamps, and influencing decisions on Coca-Cola, American Express, Apple, and others.
 
 ### Investment Philosophy and Mental Models
+
 Munger is famous for promoting a **multidisciplinary approach** to thinking and decision-making. His core idea:
 
 > "You must know the big ideas in the big disciplines and use them routinely — all of them, not just a few."
@@ -54,6 +58,7 @@ Some of his most influential concepts include:
 - Extreme emphasis on **patience**, rationality, and avoiding stupidity rather than chasing brilliance.
 
 ### Major Works and Speeches
+
 - **Poor Charlie's Almanack** (2005) — the most comprehensive collection of his talks, wisdom, and mental models (edited by Peter Kaufman).
 - Famous speeches:
   - "The Psychology of Human Misjudgment" (Harvard, later versions)
@@ -61,6 +66,7 @@ Some of his most influential concepts include:
   - "The Art of Stock Picking" and many Berkshire annual meeting Q&As.
 
 ### Personal Life and Character
+
 - Known for brutal honesty, sharp wit, and zero tolerance for nonsense.
 - Lived relatively frugally despite enormous wealth (net worth estimated > $2 billion at death).
 - Overcame major personal tragedies: severe eye disease (lost one eye in the 1970s), death of his son Teddy (age 9), and other family losses.
@@ -68,6 +74,7 @@ Some of his most influential concepts include:
 - Lifelong learner; read hundreds of books across many fields every year.
 
 ### Death and Legacy
+
 - Died on November 28, 2023, at a hospital in Santa Barbara, California, at age 99 (just 34 days before his 100th birthday).
 - Widely regarded as one of the greatest investors and thinkers of all time.
 - His framework of mental models has influenced millions of investors, business leaders, and decision-makers far beyond finance.

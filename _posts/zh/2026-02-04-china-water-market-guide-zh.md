@@ -29,11 +29,13 @@ type: note
 **功能水 (functional water)** - 添加了维生素、electrolytes 或其他成分。
 
 **按水源/产地分类：**
+
 - 冰川水 (Glacier/snow mountain water)
 - 火山水 (Volcanic water)
 - 深海水 (Deep sea water)
 
 **价格档次：**
+
 - 经济型：每箱 24 瓶 15-25 CNY（Wahaha、当地品牌）
 - 中端：30-50 CNY（Nongfu Spring 高端系列）
 - 高端：60 CNY 以上（进口品牌、Tibet 5100、Evian）

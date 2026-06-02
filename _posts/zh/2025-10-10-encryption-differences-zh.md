@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 对称算法
+
 对称算法，也称为对称密钥加密，使用**相同的密钥**进行数据加密（加扰）和解密（解扰）。这使得它们能够快速高效地处理大量数据，但挑战在于如何在不被截获的情况下安全地在各方之间共享密钥。
 
 - **示例**：AES（高级加密标准）、DES（数据加密标准）
@@ -18,6 +19,7 @@ type: note
 - **缺点**：密钥分发与管理存在风险
 
 ### 非对称算法
+
 非对称算法，通常称为非对称加密或公钥加密，使用**一对关联密钥**：公钥（自由共享用于加密）和私钥（秘密保存用于解密）。这种机制消除了安全交换单一密钥的需求。
 
 - **示例**：RSA、ECC（椭圆曲线密码学）
@@ -36,5 +38,6 @@ type: note
 实际应用中常结合使用：非对称加密用于初始密钥交换，对称加密用于实际数据传输（例如TLS/SSL协议）。
 
 扩展阅读：
+
 - [对称与非对称加密差异 - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-symmetric-and-asymmetric-key-encryption/)
 - [对称与非对称加密 - AWS](https://aws.amazon.com/what-is/symmetric-encryption/)

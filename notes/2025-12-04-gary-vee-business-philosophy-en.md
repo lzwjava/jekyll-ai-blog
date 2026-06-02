@@ -55,6 +55,7 @@ Gary Vaynerchuk (Gary Vee) has built his philosophy around hustle culture, self-
 In short: Work like hell, know yourself, give value first, capture attention wherever it is today, stay grateful, and play the long game.
 
 References:
+
 - [Crush It! (2009 book)](https://garyvaynerchuk.com/books/crush-it/)
 - [Jab, Jab, Jab, Right Hook (2013 book)](https://garyvaynerchuk.com/books/jab-jab-jab-right-hook/)
 - [The Thank You Economy (2011 book)](https://garyvaynerchuk.com/books/the-thank-you-economy/)

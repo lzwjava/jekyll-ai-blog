@@ -35,6 +35,7 @@ The GPU **dynamically shifts between these two values** in real time, depending 
 AMD's RDNA 3 uses a technique called **"decoupled clocks"** — the shaders run at a slower clock independent of the front end. This is a key architectural feature of the chiplet-based RDNA 3 design.
 
 Essentially, the GPU has **two separate clock domains**:
+
 - **Front End Clock** (higher) — handles command processing, geometry, display output
 - **Shader Clock** (lower) — handles the actual compute/rendering workloads
 
@@ -79,6 +80,7 @@ You divided by 5 (377 vs 523) — that's just scaling, but the ratio tells the r
 $$\frac{2615}{1885} \approx 1.39$$
 
 That means boost clock is about **39% higher than base clock**. For RDNA 3, this is perfectly normal and expected. The wide range gives the GPU flexibility to:
+
 - **Save power** when not needed (drop toward base)
 - **Maximize performance** when conditions allow (surge toward boost)
 

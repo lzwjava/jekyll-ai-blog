@@ -24,17 +24,20 @@ brew install dust
 ```
 
 在 Linux 上：
+
 ```bash
 cargo install du-dust    # 如果你有 Rust/Cargo
 sudo apt install dust    # Debian/Ubuntu（某些发行版）
 ```
 
 在 macOS 上使用 MacPorts：
+
 ```bash
 sudo port install dust
 ```
 
 验证安装：
+
 ```bash
 dust --version
 ```
@@ -44,21 +47,25 @@ dust --version
 ## 基本用法
 
 **扫描当前目录：**
+
 ```bash
 dust
 ```
 
 **扫描特定文件夹：**
+
 ```bash
 dust ~/Downloads
 ```
 
 **扫描主目录：**
+
 ```bash
 dust ~
 ```
 
 **扫描整个系统（需要 sudo）：**
+
 ```bash
 sudo dust /
 ```
@@ -79,11 +86,13 @@ sudo dust /
 ```
 
 **各列含义：**
+
 - **第一个数字** = 文件夹大小
 - **条形图** = 视觉表示（彩色、比例）
 - **文件夹名称** = 目录名称
 
 **默认情况下，dust：**
+
 - 按大小排序（从最大开始）
 - 只显示顶级项目
 - 使用颜色提高可读性
@@ -229,11 +238,13 @@ dust -z ~
 ### 10. **自定义单位显示**
 
 以兆字节显示大小：
+
 ```bash
 dust -m ~/Downloads
 ```
 
 或吉字节：
+
 ```bash
 dust -g ~
 ```
@@ -249,6 +260,7 @@ sudo dust -d 2 ~/Library | head -20
 ```
 
 查找：
+
 - `Caches` — 安全删除
 - `Logs` — 通常安全删除
 - `Application Support` — 删除前检查
@@ -368,6 +380,7 @@ dust ~ -d 10 | grep GiB
 | **最适合** | 脚本/管道 | 快速概述 | 探索与清理 |
 
 **何时使用每个：**
+
 - **`dust`** — 你想要快速、美观的摘要：`dust ~/Downloads`
 - **`du`** — 你在编写脚本或需要原始数据：`du -sh */ | sort -hr`
 - **`ncdu`** — 你需要交互式探索和删除：`ncdu ~`
@@ -388,6 +401,7 @@ alias dustlibs='sudo dust ~/Library -d 2'
 ```
 
 然后只需：
+
 ```bash
 dustdown
 ```
@@ -439,6 +453,7 @@ dust -A ~/Downloads
 ### 与 grep 结合进行过滤
 
 只显示包含“GiB”的项目（大项目）：
+
 ```bash
 dust ~ | grep GiB
 ```
@@ -466,22 +481,27 @@ dust ~ -d 5 | grep -E '\.iso|\.dmg|\.zip'
 ## 故障排除
 
 **dust 运行太慢？**
+
 ```bash
 dust -z -X 'node_modules|\.git' ~
 ```
+
 跳过隐藏文件和大依赖文件夹。
 
 **想要排除多个模式？**
+
 ```bash
 dust -X 'node_modules|\.git|\.cache|__pycache__' ~
 ```
 
 **权限被拒绝？**
+
 ```bash
 sudo dust /
 ```
 
 **想要纯文本输出（无颜色）？**
+
 ```bash
 dust -C ~ > results.txt
 ```
@@ -509,6 +529,7 @@ dust -C ~ > output.txt         # 无颜色导出
 ## 总结
 
 `dust` 完美适用于：
+
 - ✅ 快速磁盘使用概述
 - ✅ 快速找到空间占用大户
 - ✅ 美观、彩色输出

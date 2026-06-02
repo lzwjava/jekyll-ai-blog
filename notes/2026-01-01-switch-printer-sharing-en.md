@@ -17,10 +17,12 @@ Answer:
 Yes, you are correct—a network switch is very helpful in this scenario.
 
 ### Key Advantages of Switches
+
 - **Multiple ports**: A switch typically has 4, 8, 16, or more Ethernet (RJ45) ports, allowing many devices to be physically connected to the same network.
 - **Computers have only one Ethernet port** (usually): This means a single computer can directly connect to only one other device via cable. To connect multiple computers together, you need a device with multiple ports—like a switch.
 
 ### How a Switch Helps Share a Printer
+
 There are two common ways printers are shared in a small network:
 
 1. **Network-enabled printer (most modern setup)**:
@@ -38,4 +40,5 @@ There are two common ways printers are shared in a small network:
 In both cases, the switch is essential because it provides the physical connectivity that lets multiple computers be part of the same local area network (LAN), enabling resource sharing such as printers, files, or internet access (when combined with a router).
 
 ### Summary
+
 Without a switch (or router with switch ports), you would be limited to connecting only two devices directly (e.g., one computer to one printer), or you'd need complex and slow daisy-chaining. The switch efficiently connects multiple devices, allowing seamless sharing of resources like printers among several computers.

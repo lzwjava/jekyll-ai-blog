@@ -20,6 +20,7 @@ type: note
 - **底层机制**：使用 `urllib3` 库处理 HTTP 请求。创建 `Session` 时会初始化 `cookies`（RequestsCookieJar 实例）、`headers` 等属性。例如，来自某响应的 Cookie 会自动包含在后续同域请求中
 
 基础使用示例：
+
 ```python
 import requests
 
@@ -36,6 +37,7 @@ response2 = session.post('https://example.com/data', data={'key': 'value'})
 # 访问会话中存储的 Cookie
 print(session.cookies)
 ```
+
 这种方式可自动处理 Cookie（如会话 ID）而无需手动干预。
 
 ### 使用 Python 调用 Java/Spring 项目 API
@@ -46,6 +48,7 @@ print(session.cookies)
 - **调用方法**：使用标准 HTTP 方法（GET、POST 等）。若 Spring API 需要 JSON 载荷，需传递 `json=数据参数`
 
 登录 Spring 认证 API 并调用其他端点的示例：
+
 ```python
 import requests
 
@@ -62,6 +65,7 @@ if response.ok:
 else:
     print("登录失败")
 ```
+
 Spring API 默认无状态，但可通过服务端存储（如 Tomcat 或嵌入式服务器）管理会话。请确保 Python 客户端处理 Spring 要求的 CORS、CSRF 或自定义请求头。
 
 ### 与 Java/Spring 服务端 JSESSIONID 的关联

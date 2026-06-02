@@ -49,6 +49,7 @@ Here are some genuinely unpopular (but increasingly common among experienced peo
 In short: the “startups good, 9-to-5 bad” mantra is one of the biggest pieces of survivorship-bias propaganda in modern professional life.
 
 References:
+
 - [Why I’d rather work at Google than start another company](https://medium.com/@maanham/why-id-rather-work-at-google-than-start-another-company-7d8e8e8e8e8e) (representative sentiment, not exact link)
 - [The startup founder's regret thread on Hacker News](https://news.ycombinator.com/item?id=34567890) (multiple real examples)
 - [“I made $10M from my startup and I’m miserable” confessions on Blind](https://www.teamblind.com) (search “startup exit regret”)

@@ -15,6 +15,7 @@ type: note
 豆浆常与油条搭配食用，用于蘸取。在西方语境中，它类似于市售豆奶，但家庭自制版本通常更新鲜且质地更稀。
 
 参考资料：
+
 - [汉英拼音词典 - 豆浆](https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=dou%2Bjiang)
 - [豆奶 - 维基百科](https://en.wikipedia.org/wiki/Soy_milk)
 - [豆奶及类乳豆制品发展史](https://www.soyinfocenter.com/HSS/soymilk1.php)

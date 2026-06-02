@@ -13,6 +13,7 @@ type: note
 进展顺利！PyTorch 和 IPEX 现已协同工作。不过您的系统尚未启用英特尔 GPU 支持。让我帮您了解当前状况及解决方法：
 
 ## 当前状态
+
 - ✓ PyTorch + IPEX 安装正确
 - ✗ 英特尔 GPU（XPU）支持不可用
 - ✗ 缺少可选软件包（`dpctl`、`scikit-learn-intelex`）
@@ -20,6 +21,7 @@ type: note
 ## 启用英特尔 GPU 支持
 
 ### 1. **检查是否配备英特尔 GPU**
+
 ```bash
 # 检查 GPU 硬件
 lspci | grep -i vga
@@ -30,6 +32,7 @@ lspci | grep -i display
 ### 2. **安装英特尔 GPU 驱动程序**（若使用英特尔锐炫/锐炬/UHD 显卡）
 
 Ubuntu/Debian 系统：
+
 ```bash
 # 添加英特尔 GPU 软件源
 wget -qO - https://repositories.intel.com/gpu/intel-graphics.key | \
@@ -49,6 +52,7 @@ sudo apt install -y \
 ```
 
 ### 3. **安装附加 Python 软件包**
+
 ```bash
 # 安装用于英特尔 GPU 设备管理的 dpctl
 pip install dpctl
@@ -58,6 +62,7 @@ pip install scikit-learn-intelex
 ```
 
 ### 4. **安装支持 XPU 的 PyTorch**
+
 ```bash
 # 卸载仅支持 CPU 的 PyTorch
 pip uninstall torch torchvision torchaudio
@@ -70,6 +75,7 @@ pip install intel-extension-for-pytorch==2.8.0
 ```
 
 ### 5. **验证安装**
+
 ```bash
 python -c "import torch; import intel_extension_for_pytorch as ipex; print('XPU 可用:', torch.xpu.is_available()); print('XPU 设备数量:', torch.xpu.device_count() if torch.xpu.is_available() else 0)"
 ```

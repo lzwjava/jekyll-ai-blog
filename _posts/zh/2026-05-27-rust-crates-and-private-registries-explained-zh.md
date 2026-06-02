@@ -71,6 +71,7 @@ https://index.crates.io/
 ```
 
 当你执行 `cargo add serde` 时，Cargo：
+
 1. 获取 `https://index.crates.io/se/rd/serde` —— 一个 JSON 文件，列出所有版本、yanked 状态和校验和
 2. 根据语义化版本约束选取最佳版本
 3. 下载 `https://static.crates.io/crates/serde/1.0.193/download`
@@ -115,6 +116,7 @@ internal-sdk = { version = "0.1", registry = "my-company" }
 ```
 
 认证通过 `~/.cargo/credentials.toml`：
+
 ```toml
 [registries.my-company]
 token = "Bearer eyJ..."
@@ -133,6 +135,7 @@ docker run -d \
 ```
 
 然后在配置中：
+
 ```toml
 [registries]
 kellnr = { index = "sparse+http://registry.internal:8000/api/v1/crates/index/" }
@@ -177,6 +180,7 @@ serde = { version = "1", features = ["derive"] }
 ```
 
 每个成员的 `Cargo.toml` 继承：
+
 ```toml
 [dependencies]
 tokio = { workspace = true }
@@ -193,6 +197,7 @@ cargo vendor                    # 将全部依赖下载到 ./vendor/
 ```
 
 生成 `vendor/` 目录及配置片段：
+
 ```toml
 # .cargo/config.toml（自动生成）
 [source.crates-io]
@@ -224,6 +229,7 @@ cargo deny check
 ```
 
 `cargo-deny` 配置：
+
 ```toml
 # deny.toml
 [licenses]

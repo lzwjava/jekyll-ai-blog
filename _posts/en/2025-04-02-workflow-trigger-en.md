@@ -75,7 +75,7 @@ This is often a lightweight and cost-effective solution for simple API endpoints
             }
     ```
 
-    * **Important:** You would configure an environment variable (e.g., `GITHUB_TOKEN`) in your serverless platform to securely store your GitHub Personal Access Token.
+  * **Important:** You would configure an environment variable (e.g., `GITHUB_TOKEN`) in your serverless platform to securely store your GitHub Personal Access Token.
 
     **Frontend Code (Modified `nytimes.js`):**
 
@@ -179,7 +179,7 @@ If you have your own web server (e.g., using Node.js, Python/Flask, etc.), you c
     });
     ```
 
-    * **Important:** Use a `.env` file (and ensure it's not committed to your repository) to store your `GITHUB_TOKEN` and access it using a library like `dotenv`.
+  * **Important:** Use a `.env` file (and ensure it's not committed to your repository) to store your `GITHUB_TOKEN` and access it using a library like `dotenv`.
 
     **Frontend Code (Modified `nytimes.js`):**
 
@@ -209,10 +209,10 @@ However, these options don't provide the immediate, on-demand update you likely 
 
 **Steps to Implement (Using Serverless Functions as an Example):**
 
-1.  **Create a Serverless Function:** Write the code for your serverless function (e.g., in Python or Node.js) that includes the logic to call the GitHub API.
-2.  **Securely Store Your GitHub Token:** Configure an environment variable in your serverless platform's settings to store your GitHub Personal Access Token.
-3.  **Deploy Your Serverless Function:** Deploy the function to your chosen platform (e.g., Netlify, Vercel, AWS Lambda with API Gateway). You'll get a URL for your deployed function.
-4.  **Update Your Frontend Code:** Modify your `nytimes.js` file to make a `POST` request to the URL of your deployed serverless function when the button is clicked.
-5.  **Test:** Deploy your updated frontend and test if clicking the button successfully triggers your GitHub Actions workflow.
+1. **Create a Serverless Function:** Write the code for your serverless function (e.g., in Python or Node.js) that includes the logic to call the GitHub API.
+2. **Securely Store Your GitHub Token:** Configure an environment variable in your serverless platform's settings to store your GitHub Personal Access Token.
+3. **Deploy Your Serverless Function:** Deploy the function to your chosen platform (e.g., Netlify, Vercel, AWS Lambda with API Gateway). You'll get a URL for your deployed function.
+4. **Update Your Frontend Code:** Modify your `nytimes.js` file to make a `POST` request to the URL of your deployed serverless function when the button is clicked.
+5. **Test:** Deploy your updated frontend and test if clicking the button successfully triggers your GitHub Actions workflow.
 
 By implementing one of these backend-based solutions, you can provide a button to trigger your GitHub workflow securely without exposing your sensitive API token in your frontend code. Remember to choose the approach that best fits your current infrastructure and technical skills.

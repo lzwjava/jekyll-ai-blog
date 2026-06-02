@@ -75,6 +75,7 @@ huggingface-cli login
 **5. Tokenizer 不匹配风险。**
 
 现有的 `extract_fineweb.py` 写入的是 raw text。你的 `prepare.py` 需要使用 GPT-2 BPE (`tiktoken`) 进行 tokenize。请确保：
+
 - Tokenizer vocab 匹配（GPT-2 = 50,257 tokens → 存储为 `uint16`, 最大 65,535 ✅）
 - `<|endoftext|>` 被作为特殊 token 处理，而不是普通文本
 - 没有重复编码（不要 encode 之后再 encode 一次）
@@ -86,6 +87,7 @@ Repo 中有下载脚本和训练日志，但**没有 tokenization 脚本**。你
 **7. 训练配置使用了 `max_iters=600000`，但 `sample-10BT` 只有约 10B tokens。**
 
 当有效 batch = 512 × 1024 = 524K tokens/iter 时：
+
 - 600K iters × 524K tokens = **314B tokens** —— 远超数据集大小
 - 你需要将 `max_iters` 设置为约 19,000 (10B ÷ 524K)，或者循环遍历数据集
 - 你之前的 `train_log_fineweb3.txt` 使用了 `max_iters=12000`，约为 6.3B tokens —— 这更符合实际

@@ -1,7 +1,7 @@
 LANGUAGES = ["en", "zh", "ja", "es", "hi", "fr", "de", "ar", "hant"]
 
-import os
-import shutil
+import os  # noqa: E402
+import shutil  # noqa: E402
 
 OUTPUT_DIRECTORY = "assets/pdfs"
 

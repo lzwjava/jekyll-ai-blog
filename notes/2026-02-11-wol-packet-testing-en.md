@@ -17,9 +17,11 @@ type: note
 Here are the most practical and reliable ways to verify that Wake-on-LAN magic packets are reaching the target computer (while it is already powered on):
 
 ### 1. Best & most direct method: Use packet capture on the target computer
+
 While the PC is powered on and connected:
 
 **Windows**
+
 - Install Wireshark (free)
 - Start capture on the Ethernet interface
 - Use capture filter: `udp port 7 or udp port 9 or eth.dst == ff:ff:ff:ff:ff:ff`
@@ -27,6 +29,7 @@ While the PC is powered on and connected:
 - Look for packets containing your MAC address repeated 16 times after 6 bytes of FF:FF:FF:FF:FF:FF
 
 **Linux / macOS**
+
 ```bash
 # Quick one-liner (shows magic packets containing your MAC)
 sudo tcpdump -i eth0 -n -v ether dst ff:ff:ff:ff:ff:ff and udp port 7 or udp port 9
@@ -38,6 +41,7 @@ tcpdump -r wol-test.pcap -X | grep -A 2 -B 2 "FF FF FF FF FF FF"
 ```
 
 You should see something like:
+
 ```
 FF FF FF FF FF FF  04 7c 16 d9 54 5b  ...  04 7c 16 d9 54 5b  (repeated 16 times)
 ```
@@ -45,6 +49,7 @@ FF FF FF FF FF FF  04 7c 16 d9 54 5b  ...  04 7c 16 d9 54 5b  (repeated 16 times
 If you see this pattern → the magic packet **is reaching the NIC**.
 
 ### 2. Quick method — check link/activity LED behavior (works on many NICs)
+
 - Put computer to sleep (S3) or hibernation (S4) — **not** full shutdown if your BIOS/NIC only listens in S5 after boot
 - Send WoL packet
 - Watch the Ethernet port LEDs on the computer:
@@ -52,13 +57,16 @@ If you see this pattern → the magic packet **is reaching the NIC**.
   - This is not 100% reliable but is a very quick "did it arrive?" indicator
 
 ### 3. Enable WoL logging via driver / OS (less common but very clean)
+
 **Windows (some Intel & Realtek drivers):**
+
 - Device Manager → Network adapters → your Ethernet → Properties → Advanced
 - Look for: "Wake on Magic Packet", "Wake on Pattern Match", "Energy Efficient Ethernet" → make sure enabled
 - Advanced → "Log Wake Source" or similar (some drivers have this)
 - Event Viewer → Windows Logs → System → look for events with source "e1dexpress" / "Netwtw" / "rt640x64" containing "Wake" or "Magic Packet"
 
 **Linux:**
+
 ```bash
 # Show WoL status
 ethtool eth0 | grep -i wake
@@ -71,6 +79,7 @@ dmesg -w | grep -i "magic\|wol\|wake"
 ```
 
 ### 4. Simplest test loop (recommended practical method)
+
 1. Boot the computer normally
 2. From another machine send WoL packets every 10–15 seconds (your python script is fine)
 3. On target PC run Wireshark or tcpdump with filter shown above

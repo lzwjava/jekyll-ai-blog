@@ -13,7 +13,9 @@ type: note
 ---
 
 ### **javax.security.sasl 概述**
+
 `javax.security.sasl` 包提供了一个 SASL 认证框架，常用于 LDAP、IMAP 等协议或自定义应用中。它包括：
+
 - **`Sasl`**：一个工具类，包含创建 `SaslClient` 和 `SaslServer` 实例的静态方法。
 - **`SaslClient`**：代表 SASL 认证过程的客户端。
 - **`SaslServer`**：代表 SASL 认证过程的服务器端。
@@ -26,10 +28,13 @@ type: note
 ### **使用 javax.security.sasl 的步骤**
 
 #### **1. 确定你的角色（客户端或服务器）**
+
 决定你的应用是作为客户端（向服务器认证）还是服务器（认证客户端）。这将决定你是使用 `SaslClient` 还是 `SaslServer`。
 
 #### **2. 选择 SASL 机制**
+
 SASL 支持多种机制，例如：
+
 - `PLAIN`：简单的用户名/密码认证（无加密）。
 - `DIGEST-MD5`：基于密码的挑战-响应认证。
 - `GSSAPI`：基于 Kerberos 的认证。
@@ -37,6 +42,7 @@ SASL 支持多种机制，例如：
 选择客户端和服务器都支持的机制。为简单起见，本指南以 `PLAIN` 机制为例。
 
 #### **3. 实现 CallbackHandler**
+
 需要一个 `CallbackHandler` 来提供或验证认证凭据。你需要实现 `javax.security.auth.callback.CallbackHandler` 接口。
 
 - **对于客户端**：提供用户名和密码等凭据。
@@ -95,6 +101,7 @@ public class ServerCallbackHandler implements CallbackHandler {
 ```
 
 #### **4. 客户端实现**
+
 作为客户端进行认证：
 
 1. **创建 SaslClient**：
@@ -140,6 +147,7 @@ public class ServerCallbackHandler implements CallbackHandler {
    对于 `PLAIN`，客户端在初始响应中发送凭据，服务器通常无需进一步挑战即响应成功或失败。
 
 #### **5. 服务器端实现**
+
 作为服务器认证客户端：
 
 1. **创建 SaslServer**：
@@ -186,13 +194,16 @@ public class ServerCallbackHandler implements CallbackHandler {
    对于 `PLAIN`，服务器在初始响应中验证凭据，无需额外挑战即可完成认证。
 
 #### **6. 可选：使用安全层**
+
 如果机制（如 `DIGEST-MD5`）支持安全层：
+
 - 在客户端使用 `sc.wrap()` 和 `sc.unwrap()`，或在服务器端使用 `ss.wrap()` 和 `ss.unwrap()`，在认证后加密/解密消息。
 - `PLAIN` 不支持安全层。
 
 ---
 
 ### **关键点**
+
 - **集成**：将 SASL 交换嵌入到应用的通信协议中（例如 LDAP Bind 请求、IMAP AUTHENTICATE 命令）。
 - **错误处理**：使用 try-catch 块包装代码以处理 `SaslException` 和其他潜在错误。
 - **属性**：如果机制支持，使用 `props` 映射配置选项，如保护质量（`"javax.security.sasl.qop"`）。
@@ -200,7 +211,9 @@ public class ServerCallbackHandler implements CallbackHandler {
 ---
 
 ### **示例用例**
+
 对于使用 `PLAIN` 认证的 LDAP 客户端：
+
 1. 使用 `PLAIN` 机制创建一个 `SaslClient`。
 2. 发送带有机制和初始响应（`sc.evaluateChallenge(new byte[0])`）的 LDAP `BindRequest`。
 3. 处理服务器的 `BindResponse` 以确认成功。

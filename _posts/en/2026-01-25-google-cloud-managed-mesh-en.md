@@ -17,9 +17,11 @@ type: note
 Cloud Service Mesh is Google Cloud's **fully managed service mesh** solution. It helps simplify, secure, observe, and manage communication between microservices in modern distributed applications.
 
 ### What is a service mesh in general?
+
 A service mesh is a dedicated infrastructure layer that handles service-to-service communication in microservices architectures. It provides features like traffic routing, load balancing, retries, circuit breaking, mutual TLS encryption, observability (metrics, logs, traces), and policy enforcement — all without requiring changes to application code.
 
 ### Cloud Service Mesh specifics
+
 Google Cloud Service Mesh (previously known as **Anthos Service Mesh** in many contexts) is built on the open-source **Istio** project but offered as a **managed**, Google-operated control plane with these key characteristics:
 
 - **Fully managed** control plane — Google handles installation, upgrades, scaling, and high availability of the Istio control plane (no need to manage istiod yourself).
@@ -35,13 +37,16 @@ Google Cloud Service Mesh (previously known as **Anthos Service Mesh** in many c
   - Google Cloud Armor and other security services
 
 ### Core capabilities provided
+
 - **Traffic management** — advanced routing, canary/blue-green deployments, fault injection, timeouts, retries, circuit breakers
 - **Security** — automatic mutual TLS (mTLS), authorization policies, request authentication, end-to-end encryption
 - **Observability** — golden signals (latency, traffic, errors, saturation), distributed tracing, service-level dashboards, access logs
 - **Policy enforcement** — rate limiting, quotas, and custom policies
 
 ### When to use Cloud Service Mesh
+
 Use it when you have (or plan to build):
+
 - Microservices running on Kubernetes (especially GKE)
 - Need consistent traffic control, strong security (mTLS), and deep observability across hybrid/multi-cloud environments
 - Want to avoid the operational burden of running Istio yourself

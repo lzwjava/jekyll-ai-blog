@@ -20,6 +20,7 @@ type: note
 ## 先决条件
 
 最低系统要求：
+
 - 2 vCPU
 - 2 GB RAM（重要：0.5–1 GB RAM 会崩溃；swap 无法修复此问题）
 - 20 GB SSD

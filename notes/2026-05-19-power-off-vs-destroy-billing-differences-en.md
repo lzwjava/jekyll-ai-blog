@@ -39,6 +39,7 @@ Honestly? **For billing purposes alone — there is no point.** You pay either w
 ### The Practical Mental Model
 
 Think of it like a **hotel room**:
+
 - **Power off** = you're in the room sleeping. The room is still yours, you still pay.
 - **Destroy** = you checked out. No more charges.
 - **Snapshot → Destroy** = you packed your bags, stored them at the front desk, and checked out. Small storage fee, but no room charge.

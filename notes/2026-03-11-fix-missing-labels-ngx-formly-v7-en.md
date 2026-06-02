@@ -26,6 +26,7 @@ This is one of the most common breaking changes people hit when upgrading ngx-fo
 ### 1. Field Configuration (your component `.ts` file)
 
 **Before (Angular 14 / formly v5):**
+
 ```ts
 fields: FormlyFieldConfig[] = [
   {
@@ -41,6 +42,7 @@ fields: FormlyFieldConfig[] = [
 ```
 
 **After (Angular 21 / formly v7):**
+
 ```ts
 fields: FormlyFieldConfig[] = [
   {
@@ -63,21 +65,25 @@ If you wrote a custom wrapper, the template likely reads `field.templateOptions?
 
 **Before:**
 {% raw %}
+
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ to.label }}</label>           <!-- old shorthand for templateOptions -->
 <label>{{ field.templateOptions?.label }}</label>
 <ng-container #fieldComponent></ng-container>
 ```
+
 {% endraw %}
 
 **After:**
 {% raw %}
+
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ props.label }}</label>        <!-- use props directly -->
 <ng-container #fieldComponent></ng-container>
 ```
+
 {% endraw %}
 
 The modern custom wrapper pattern exposes `props.label` directly in the template, like: `<h3 class="card-header">{{ props.label }}</h3>`.
@@ -88,6 +94,7 @@ The modern custom wrapper pattern exposes `props.label` directly in the template
 
 **Before:**
 {% raw %}
+
 ```ts
 @Component({
   template: `
@@ -97,10 +104,12 @@ The modern custom wrapper pattern exposes `props.label` directly in the template
 })
 export class CustomInputType extends FieldType {}
 ```
+
 {% endraw %}
 
 **After:**
 {% raw %}
+
 ```ts
 import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 
@@ -113,6 +122,7 @@ import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 export class CustomInputType extends FieldType<FieldTypeConfig> {}
 //                                             ^^^^^^^^^^^^^^^ also add generic
 ```
+
 {% endraw %}
 
 ---
@@ -120,6 +130,7 @@ export class CustomInputType extends FieldType<FieldTypeConfig> {}
 ### 4. `expressionProperties` that reference `templateOptions.*`
 
 **Before:**
+
 ```ts
 expressionProperties: {
   'templateOptions.label': '"Dynamic " + model.name',
@@ -128,6 +139,7 @@ expressionProperties: {
 ```
 
 **After:**
+
 ```ts
 expressions: {
   'props.label': '"Dynamic " + model.name',

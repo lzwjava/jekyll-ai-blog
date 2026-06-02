@@ -17,6 +17,7 @@ type: note
 生成树协议 (STP) 是一种第 2 层协议，通过创建无环逻辑拓扑来防止具有冗余链路的以太网网络中出现环路。提供的摘要大部分是准确的，但由于过度简化和细微不准确（例如，所有交换机不会每 2 秒连续发送 BPDU 声称自己是根——只在初始收敛或发生变化时），可能会令人困惑。以下是经典 IEEE 802.1D STP 过程的清晰、逐步解释：
 
 ### 1. 初始状态和 BPDU 交换
+
 - 当交换机启动或新的链路联机时，**每个交换机最初都假定自己是根桥**。
 - 每个交换机都会通过所有活动端口发送**配置 BPDU**（桥协议数据单元）。这些 BPDU 包含：
   - 发送者的桥 ID (BID)：优先级（默认 32768）+ MAC 地址（越低越好）。
@@ -26,6 +27,7 @@ type: note
 - BPDU 每隔 **Hello Time**（默认 2 秒）发送一次，但一旦收敛完成，只有当选的根桥才继续定期发送它们。非根交换机会转发更优的 BPDU。
 
 ### 2. 优于劣的 BPDU
+
 - **更优的 BPDU** 具有更好的（更低）信息：
   - 更低的根 BID，**或**
   - 相同的根 BID 但到根的路径开销更低，**或**
@@ -40,13 +42,16 @@ type: note
 这种交换使网络收敛，直到所有交换机就同一个根桥达成一致。
 
 ### 3. 根桥选举
+
 - 具有**最低 BID** 的交换机成为根桥。
 - BID = 优先级（可配置，4096 的倍数）+ MAC 地址。
 - 决胜局：如果优先级相等，则选择最低的 MAC 地址。
 - 根桥的所有端口都视为**指定端口**（转发）。
 
 ### 4. 非根交换机上的端口角色选举
+
 根选举后：
+
 - **根端口**（每个非根交换机一个）：连接到根桥的累积路径开销最低的端口。
   - 决胜局：最低的发送者 BID → 最低的发送者端口 ID。
   - 根端口向根转发流量。
@@ -59,6 +64,7 @@ type: note
 所有根端口和指定端口最终都会转发；阻塞端口保持阻塞。
 
 ### 5. 拓扑变化通知 (TCN) 过程
+
 - 当发生拓扑变化时（例如，链路故障、端口启用/禁用影响转发）：
   - 检测到的非根交换机会通过其根端口发送一个 **TCN BPDU**。
   - 上游交换机通过 TCA（在下一个 BPDU 中）确认并向根中继 TCN。
@@ -72,7 +78,7 @@ type: note
 
 References:
 
-- https://www.networkacademy.io/ccna/spanning-tree/how-stp-works
-- https://www.geeksforgeeks.org/root-bridge-election-in-spanning-tree-protocol/
-- https://networklessons.com/spanning-tree/spanning-tree-topology-change-notification-tcn
-- https://www.networkacademy.io/ccna/spanning-tree/stp-topology-changes
+- <https://www.networkacademy.io/ccna/spanning-tree/how-stp-works>
+- <https://www.geeksforgeeks.org/root-bridge-election-in-spanning-tree-protocol/>
+- <https://networklessons.com/spanning-tree/spanning-tree-topology-change-notification-tcn>
+- <https://www.networkacademy.io/ccna/spanning-tree/stp-topology-changes>

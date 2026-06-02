@@ -24,6 +24,7 @@ Answer:
 全球版本于2024年6月推出（此前在巴西/土耳其/中东和北非地区进行了区域测试），目前已扩展到160多个国家。通过类似于《无尽对决》(Mobile Legends) 的吸引力在东南亚地区获得了广泛采用，但与成熟的竞争对手（如《无尽对决》）相比仍面临挑战。通过与《冰雪奇缘》(Frozen)、三丽鸥 (Sanrio)、《咒术回战》(Jujutsu Kaisen) 等品牌的合作实现增长，但98%的收入依赖中国市场限制了其“全球”规模。
 
 ### 用户最多的国家（2025年数据）
+
 主要依据全球下载量/收入份额（发布数据）+活跃度排名。中国市场遥遥领先（用户/收入占比超过90%）。
 
 | 排名 | 国家          | 关键数据（下载量/用户/收入）                     |
@@ -42,6 +43,7 @@ Answer:
 **备注**：活跃度排名来自ActivePlayer.io（Google Play代理数据，2025年12月）。东南亚地区在全球服务器中占据主导地位（印度尼西亚/菲律宾/马来西亚/台湾/越南合计超过70%）。巴西/美国/欧洲地区正在缓慢增长。预测：东南亚地区将持续主导；随着电竞赛事的推动，到2026年，非中国地区的全球MAU可能达到2000万+。
 
 参考文献：
+
 - [Sensor Tower Top Mobile Games Aug 2025](https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-august-2025)
 - [CGTN: 139M DAU Record](https://news.cgtn.com/news/2025-10-27/Honor-of-Kings-sets-new-record-with-139-million-daily-active-users-1HO6FItdj6o/p.html)
 - [Udonis Most Played 2025](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)

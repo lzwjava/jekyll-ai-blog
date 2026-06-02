@@ -17,6 +17,7 @@ As a seasoned traveler with road trip expertise, tech background, and a life-hac
 The itinerary divides into three phases: East Coast tech/history loop (Days 1–10), a Southern road trip for cultural hacks (Days 11–20), and West Coast innovation drive (Days 21–30). Emphasize autonomy: Use AI tools like ChatGPT for real-time translations or itinerary tweaks, and log experiments (e.g., testing US vs. China apps for productivity). Pack light—your multi-phone setup for daughter’s English learning could double as a hotspot for remote freelancing.
 
 #### Phase 1: East Coast Tech & History Immersion (Days 1–10, NYC to Boston)
+
 Fly into NYC (JFK or EWR) for easy jet lag recovery. Focus on tech scenes to spark ideas for your open-source projects, plus English convos in diverse neighborhoods. Rent a car mid-week for short drives.
 
 - **Days 1–3: New York City (Base: Manhattan/Astoria for Asian eats)**
@@ -32,6 +33,7 @@ Fly into NYC (JFK or EWR) for easy jet lag recovery. Focus on tech scenes to spa
   *Lodging:* Hostel in Back Bay (~$80/night). *Meals:* Legal Sea Foods for local flavor.
 
 #### Phase 2: Southern Road Trip – Culture & Life Hacks (Days 11–20, DC to Nashville via Atlanta)
+
 Fly to DC if needed, then rent a midsize SUV for ~1,000-mile loop. Lean into your entrepreneurial side: Scout Southern innovation (e.g., music tech), with stops for gadget testing and English immersion in laid-back settings. Your air fryer love? Pack a portable one for hotel hacks.
 
 - **Days 11–13: Atlanta (Fly ~2 hours from DC)**
@@ -47,6 +49,7 @@ Fly to DC if needed, then rent a midsize SUV for ~1,000-mile loop. Lean into you
   *Lodging:* Inn on the Battery (~$130/night). *Drive tip:* Scenic US-17; fuel stops for podcast binges on AI ethics.
 
 #### Phase 3: West Coast Innovation Drive (Days 21–30, SF to LA)
+
 Fly to SFO (~5 hours from Charleston). Ultimate road trip: Pacific Coast Highway (PCH) for 400 miles of hacks and views. Tie into your ML/big data experience with Valley visits; end with LA's creative energy.
 
 - **Days 21–24: San Francisco & Silicon Valley (Base: SF)**
@@ -62,6 +65,7 @@ Fly to SFO (~5 hours from Charleston). Ultimate road trip: Pacific Coast Highway
   *Lodging:* Beachfront in Santa Monica (~$150/night). *Meals:* In-N-Out for simple wins.
 
 ### Practical Tips & Hacks
+
 - **Transport:** ~$500 for car rentals (Turo for peer-to-peer deals); Amtrak/United flights ~$300 internal. Use Waze for real-time hacks.
 - **English Boost:** Apps like Tandem for daily 15-min calls; aim for 60 "Filipino-style" convos with diverse locals.
 - **Health/Research:** Pack blue-light glasses for your myopia work; journal experiments daily.

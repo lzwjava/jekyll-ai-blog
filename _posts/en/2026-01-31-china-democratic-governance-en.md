@@ -24,6 +24,7 @@ The term describes China's approach to democracy as a comprehensive system that 
 
 **1. Temporal Scope ("Whole-Process")**
 The "whole-process" element emphasizes that democratic participation occurs continuously throughout policy cycles:
+
 - Electoral democracy (selecting representatives)
 - Consultative democracy (ongoing dialogue and feedback)
 - Decision-making processes
@@ -32,6 +33,7 @@ The "whole-process" element emphasizes that democratic participation occurs cont
 
 **2. Institutional Framework**
 The system operates through several interconnected institutions:
+
 - **People's Congresses** at various levels (national, provincial, local) serve as organs of state power
 - **Chinese People's Political Consultative Conference (CPPCC)** provides a platform for consultation across different social sectors
 - **Grassroots autonomous organizations** including residents' committees and villagers' committees
@@ -39,6 +41,7 @@ The system operates through several interconnected institutions:
 
 **3. Forms of Participation**
 Citizens are said to participate through:
+
 - Elections at local levels (village and urban community committees, local people's congresses)
 - Public consultations on legislation and policy
 - Petitions and feedback mechanisms
@@ -86,6 +89,7 @@ International observers and critics raise several concerns:
 ### International Context
 
 China presents whole-process people's democracy as:
+
 - An alternative to Western liberal democratic models
 - Part of broader arguments about "democracy with Chinese characteristics"
 - Evidence that different political systems can be legitimate based on different historical and cultural contexts
@@ -96,6 +100,7 @@ This concept has become increasingly prominent in Chinese political discourse, f
 ### Significance
 
 Understanding whole-process people's democracy is important for:
+
 - Comprehending China's self-perception and political legitimacy claims
 - Analyzing contemporary Chinese governance
 - Engaging with global debates about democracy and political systems

@@ -13,6 +13,7 @@ type: note
 The key difference is how the full Wikipedia article text is split across multiple files — specifically whether one `.xml.bz2` file contains only one stream of revisions (non-multistream) or many compressed streams bundled together (multistream).
 
 ### 1. Non-multistream dumps (older style, or the default “pages-articles” files)
+
 Example filename:
 `enwiki-20251101-pages-articles1.xml-p1p41242.bz2`
 
@@ -23,6 +24,7 @@ Example filename:
 - `wget -c` works perfectly in the simple way: it resumes exactly where it stopped because the file is one single bzip2 stream.
 
 ### 2. Multistream dumps (the files that contain “multistream” in the name)
+
 Example filename (the one you linked):
 `enwiki-20251101-pages-articles-multistream1.xml-p1p41242.bz2`
 

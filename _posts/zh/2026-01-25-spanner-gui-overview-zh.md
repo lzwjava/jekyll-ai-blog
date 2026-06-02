@@ -62,7 +62,7 @@ Spanner Studio 直接集成在 Google Cloud 控制台的 Spanner 栏目下，包
 
 ### 如何访问 Spanner Studio
 
-1. 前往 Google Cloud 控制台: https://console.cloud.google.com
+1. 前往 Google Cloud 控制台: <https://console.cloud.google.com>
 2. 在导航菜单中找到 **Spanner** (或搜索 "Spanner")。
 3. 选择您的 Spanner Instance 和数据库。
 4. 点击左侧菜单中的 **Spanner Studio**。
@@ -70,6 +70,7 @@ Spanner Studio 直接集成在 Google Cloud 控制台的 Spanner 栏目下，包
 ### 使用场景
 
 Spanner Studio 非常适合：
+
 - 执行快速 Schema 变更或数据修正的数据库管理员
 - 进行查询和 Schema 原型设计的开发人员
 - 通过可视化方式探索数据的数据分析师

@@ -18,6 +18,7 @@ You need to work around the network restriction. Here are the practical fixes, r
 ## 1. **Use your enterprise's private package mirror** (most likely)
 
 Your enterprise probably runs Artifactory, Nexus, or similar. Ask your DevOps/infra team for:
+
 - The internal mirror URL (e.g., `https://artifactory.company.com/artifactory/api/npm/npm/`)
 - Credentials if needed
 
@@ -86,6 +87,7 @@ make build  # or go build, cargo build, etc.
 ---
 
 **What you should ask your DevOps team:**
+
 - "What's the internal package mirror URL for [language/package manager]?"
 - "What credentials do we use to authenticate?"
 - "Is there a proxy I need to configure?"

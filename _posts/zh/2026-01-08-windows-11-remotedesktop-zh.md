@@ -50,5 +50,6 @@ Microsoft 的 Remote Desktop 功能允许你从另一台设备连接并控制一
 - Troubleshooting：如果连接失败，请检查主机是否处于唤醒状态、凭据是否正确，以及两台设备是否可以互相访问（尝试 ping 主机）。
 
 References:
+
 - [How to use Remote Desktop - Microsoft Support](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)
 - [Enable Remote Desktop on your PC | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remotepc/remote-desktop-allow-access)

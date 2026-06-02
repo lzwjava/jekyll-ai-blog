@@ -15,10 +15,12 @@ type: note
 The web context root defines the base URL path for your web application (e.g., `/myapp`). In IBM WebSphere Application Server, you can update it either during initial deployment or for an existing application via the Administrative Console. Below are the steps for an existing application. Ensure you have administrative access to the WAS console.
 
 #### Prerequisites
+
 - Access to the WebSphere Administrative Console (typically at `https://your-server:9043/ibm/console`).
 - The application must be installed and stopped (recommended) before making changes to avoid conflicts.
 
 #### Steps to Update Context Root
+
 1. **Log in to the Administrative Console**:
    - Open a web browser and navigate to the WAS console URL.
    - Enter your admin credentials.
@@ -52,6 +54,7 @@ The web context root defines the base URL path for your web application (e.g., `
    - Check server logs (e.g., `SystemOut.log`) for any errors related to the deployment.
 
 #### Additional Notes
+
 - **During Initial Deployment**: If deploying a new app, specify the context root in the **Select installation options** step under **Context root** for each web module.
 - **EAR Files**: For applications bundled in an EAR, ensure the `application.xml` doesn't hardcode the context root; overrides in the console take precedence.
 - **Common Issues**:
@@ -63,6 +66,7 @@ The web context root defines the base URL path for your web application (e.g., `
 For more details, refer to the official IBM documentation or community guides.
 
 #### References
+
 - [Context root for web modules settings](https://www.ibm.com/docs/SSEQTP_9.0.5/com.ibm.websphere.base.doc/ae/uweb_contextroot.html)
 - [IBM WebSphere - Context root of an application](https://www.freekb.net/Article?id=1647)
 - [WebSphere 8.5 context root change not applying to WAR file](https://stackoverflow.com/questions/24472790/websphere-8-5-context-root-change-not-applying-to-war-file)

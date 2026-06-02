@@ -43,6 +43,7 @@ Tokens:    ~5 tokens × 2 bytes = 10 bytes  (GPT-2 BPE tokenization)
 ## Real-World Comparison
 
 nanoGPT's standard Shakespeare dataset:
+
 - Raw text: ~1MB
 - Tokenized `train.bin`: ~1MB
 - FineWeb full (10B tokens): ~20GB tokenized

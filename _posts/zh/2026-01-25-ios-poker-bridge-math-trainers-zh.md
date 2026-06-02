@@ -55,6 +55,7 @@ Bridge 涉及大量的叫牌数学（点力计算、牌型分配）和出牌猜�
 **建议**：从免费版本或试用版开始。对于 Poker，可以结合使用 Odds Teacher（学习）和 Cruncher（验证）。对于 Bridge，使用 NeuralPlay 进行出牌计算，使用 bid72 进行叫牌猜测。请在 App Store 搜索确切名称获取链接。这些技能通过重复训练会显著提升——建议每日练习以获取更高分数和进度。
 
 参考资料：
+
 - [PokerCruncher](https://apps.apple.com/us/app/pokercruncher-advanced-odds/id294379237)
 - [Poker Odds Teacher](https://apps.apple.com/us/app/poker-odds-teacher/id308077124)
 - [Bridge by NeuralPlay](https://apps.apple.com/us/app/bridge-by-neuralplay/id1544516848)

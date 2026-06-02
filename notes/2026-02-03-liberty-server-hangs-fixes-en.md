@@ -33,6 +33,7 @@ In IBM WebSphere Liberty Profile on Windows, there are several scenarios where a
 **Wait for shutdown timeout** - Liberty has a default shutdown timeout (30 seconds). After this, it will forcibly terminate remaining threads.
 
 **Configure shutdown timeout in server.xml**:
+
 ```xml
 <executor name="defaultExecutor"
           coreThreads="5"
@@ -45,6 +46,7 @@ In IBM WebSphere Liberty Profile on Windows, there are several scenarios where a
 ```
 
 **Force kill the process on Windows**:
+
 ```cmd
 rem Find the Java process
 tasklist | findstr java
@@ -57,11 +59,13 @@ taskkill /F /IM java.exe
 ```
 
 **Use server stop with force option**:
+
 ```cmd
 server stop myServer --force
 ```
 
 **Implement proper shutdown hooks** - In your application code, ensure background tasks can be interrupted:
+
 ```java
 @PreDestroy
 public void cleanup() {
@@ -79,6 +83,7 @@ public void cleanup() {
 ```
 
 **For scheduled tasks, make them interruptible**:
+
 ```java
 @Schedule(hour="*", minute="*/5", persistent=false)
 public void scheduledTask() {

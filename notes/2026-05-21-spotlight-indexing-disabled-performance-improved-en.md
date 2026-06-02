@@ -19,6 +19,7 @@ Spotlight is **permanently disabled**. Here's what happened:
 | Post-reboot: 15 min of CPU hell | Post-reboot: nothing |
 
 **What changed**:
+
 - `sudo mdutil -a -i off` — indexing turned off on `/`, `/System/Volumes/Data`, `/System/Volumes/Preboot`
 - mds daemon is still alive (Apple locks that) but it's **idle at 471 MB and 0% CPU** instead of 14 GB + 90% CPU
 - `Cmd+Space` will still launch apps from the existing index, but won't search file contents or index new files

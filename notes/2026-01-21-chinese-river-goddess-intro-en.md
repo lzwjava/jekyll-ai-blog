@@ -23,6 +23,7 @@ The *Nine Songs* consists of eleven ritual hymns (despite the title saying "nine
 "Xiang Furen" is the fourth piece in the conventional sequence. It forms a pair with the previous poem "Xiang Jun" (湘君, The God/Lord of the Xiang), which is addressed to the male river deity. Together they represent the divine couple associated with the Xiang River (a major tributary of the Yangtze in Hunan province).
 
 ### Main Themes and Content
+
 - The poem is written from the perspective of a male shaman or devotee anxiously awaiting and longing for the arrival of the goddess **Xiang Furen**.
 - It opens with some of the most celebrated lines in Chinese poetry:
   - "帝子降兮北渚，目眇眇兮愁予。袅袅兮秋风，洞庭波兮木叶下。"
@@ -33,6 +34,7 @@ The *Nine Songs* consists of eleven ritual hymns (despite the title saying "nine
 - It ends with the famous line: "时不可兮骤得，聊逍遥兮容与。" (Time cannot be hastened; for now I wander freely and drift at ease.)
 
 ### Literary and Cultural Significance
+
 - "Xiang Furen" is regarded as a masterpiece of early Chinese **romantic lyricism** and one of the finest expressions of unrequited love in ancient Chinese literature.
 - Its imagery of fragrant plants (polypody, orchids, angelica, etc.), water, autumn wind, and falling leaves became iconic and deeply influenced later Chinese poetry, painting, and literature.
 - Scholars debate whether the piece is purely a religious shaman song, an allegorical expression of Qu Yuan's political frustration and loyalty to his king, or a blend of both.

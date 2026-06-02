@@ -18,6 +18,7 @@ type: note
 ---
 
 ### Free Plan
+
 The Free plan provides access to Claude on the web, iOS, Android, and desktop. Users can generate code, analyze text and images, create content, and search the web. However, the free plan does not support Claude Code access — you need at least a Pro subscription or API credits to use Claude Code.
 
 ---

@@ -62,6 +62,7 @@ mtr api.binance.com -T -P 443 -c 100 --report
 如果您的环境中可用 MTR，请用它替代 traceroute — 它对于同时诊断延迟和数据包丢失更为全面。
 
 **需要关注的示例输出：**
+
 - `Loss%` — 所有跳转处应为 0.0%
 - `Avg`（平均往返时间，单位毫秒）— 在东京，预计到 `api.binance.com` 远低于 5 毫秒
 - `StDev` — 低抖动对量化交易很重要

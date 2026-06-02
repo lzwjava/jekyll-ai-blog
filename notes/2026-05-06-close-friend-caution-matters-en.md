@@ -30,6 +30,7 @@ The human brain is wired with a **negativity bias** — negative experiences are
 ### 💔 The Problem with "We're Close, So It's Fine"
 
 Many people become *less careful* with close friends, thinking:
+
 - "They know I didn't mean it"
 - "We're too close to let this ruin things"
 - "They'll forget about it"
@@ -41,6 +42,7 @@ But this logic often backfires. **Closeness doesn't erase pain** — in fact, hu
 ### 🔁 The "Reminder Loop" You Mentioned
 
 Once an unhappy memory is formed, it tends to:
+
 - **Surface during future conflicts** — old wounds reopen
 - **Reframe past memories** — you start seeing the friendship differently
 - **Create emotional distance** — even if the friendship continues outwardly

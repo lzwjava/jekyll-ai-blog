@@ -16,7 +16,9 @@ Answer:
 ## HDLC Bit Stuffing Explanation
 
 ### Rule
+
 In HDLC, the flag byte is `01111110`. To prevent this pattern from appearing inside data, **bit stuffing** is applied:
+
 - **Sender:** After every **5 consecutive 1s**, automatically insert a `0`
 - **Receiver:** After every **5 consecutive 1s**, automatically remove the following `0`
 

@@ -19,12 +19,14 @@ Apache Bench (ab) is a simple command-line tool included with Apache HTTP Server
 ab comes bundled with Apache HTTP Server. Here's how to install it:
 
 - **On Ubuntu/Debian (Linux)**:
+
   ```
   sudo apt update
   sudo apt install apache2-utils
   ```
 
 - **On macOS (via Homebrew)**:
+
   ```
   brew install httpd
   ```
@@ -38,6 +40,7 @@ ab comes bundled with Apache HTTP Server. Here's how to install it:
 ### Basic Usage
 
 The core command syntax is:
+
 ```
 ab [options] URL
 ```
@@ -45,6 +48,7 @@ ab [options] URL
 - **URL format**: Must be a full HTTP URL, e.g., `http://example.com/`. (For HTTPS, use a wrapper like `openssl s_client` or switch to tools like `wrk`.)
 
 Key options:
+
 - `-n <requests>`: Number of requests to perform (default: 1). Start with 100–1000 for testing.
 - `-c <concurrency>`: Number of multiple requests to make at a time (default: 1). Keep it low (e.g., 10–50) to avoid overwhelming your server.
 - `-t <seconds>`: Run for a specified time instead of requests.
@@ -58,10 +62,13 @@ Key options:
 
 1. **Test a simple GET request**:
    Simulate 100 requests with 10 concurrent users against a local server:
+
    ```
    ab -n 100 -c 10 http://localhost:8080/
    ```
+
    Output sample:
+
    ```
    Server Software:        Apache/2.4.41
    Server Hostname:        localhost
@@ -80,11 +87,13 @@ Key options:
 
 2. **Test with POST data** (e.g., form submission):
    Create a `postdata.txt` file with your payload (e.g., `key=value`).
+
    ```
    ab -n 50 -c 5 -p postdata.txt -T application/x-www-form-urlencoded http://example.com/api/endpoint
    ```
 
 3. **Run for a duration**:
+
    ```
    ab -n 10000 -c 20 -t 30 http://example.com/  # Up to 10k requests or 30 seconds
    ```

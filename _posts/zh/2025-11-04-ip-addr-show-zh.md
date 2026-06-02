@@ -15,6 +15,7 @@ type: note
 这条命令显示了以太网接口（enp4s0）的详细信息，该接口负责处理我们之前讨论的路由表中的本地局域网连接。它已启动并运行顺畅——这对基础连接来说非常理想。我将逐行解析，然后进行总结。
 
 #### 关键部分解析
+
 - **接口状态**：
   `2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`
   - 索引 2（继 lo 之后的第二个接口）。

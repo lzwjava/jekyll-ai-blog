@@ -16,6 +16,7 @@ Answer:
 As of early March 2026, the tech and AI landscape continues its rapid evolution, shifting from hype and experimentation toward scaled deployment, infrastructure buildout, agentic systems, and real-world impact. Here are some of the most prominent themes and developments highlighted across recent reports and predictions:
 
 ### Major Trends Shaping AI and Tech in 2026
+
 - **Agentic AI and Autonomous Systems** — 2026 is widely seen as the breakthrough year for **agentic AI**, where systems move beyond chat-based tools to handle complex, multi-step tasks independently. Improvements in self-verification, memory, context windows, and error reduction enable reliable long-term workflows. This positions AI as a true "partner" rather than just an assistant.
 - **AI as Core Infrastructure** — Massive investments in **hyperscale AI data centers** by companies like OpenAI, Google, Microsoft, Meta, and Amazon (hundreds of billions of dollars) are transforming AI into foundational infrastructure. Governments are also investing heavily, with global AI spending projected to reach trillions.
 - **Open-Source and Chinese Model Momentum** — Chinese open models (e.g., DeepSeek's influence continuing from 2025) are enabling more Silicon Valley apps to build on cost-effective, high-performance open-source LLMs. This democratizes access and accelerates innovation outside closed ecosystems.
@@ -25,6 +26,7 @@ As of early March 2026, the tech and AI landscape continues its rapid evolution,
 - **Enterprise and Workforce Shifts** — AI moves into mainstream workflows, with focus on "change fitness," governance for agentic adoption, ambient AI, and workforce impacts (including job displacement concerns alongside productivity gains).
 
 ### Notable Early 2026 Highlights (Jan–Mar)
+
 - Ongoing releases and iterations of frontier models (e.g., updates from Google Gemini, Anthropic Claude, OpenAI variants, and xAI Grok).
 - Major conferences kicking off the year, including CES 2026 (January) showcasing consumer AI devices and robotics, and NVIDIA GTC (March) as a key "Woodstock of AI" for infrastructure and developer announcements.
 - Continued infrastructure surge, with reports of surging CapEx in AI compute and energy-backed data centers.

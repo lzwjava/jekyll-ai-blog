@@ -30,6 +30,7 @@ LightGBM, a popular gradient boosting framework known for its speed and efficien
 These views aren't universal—LightGBM remains a go-to for Kaggle winners and large-scale apps—but they highlight trade-offs often glossed over in tutorials.
 
 References:
+
 - [Common Mistakes & Best Practices for LightGBM](https://www.datasciencebase.com/supervised-ml/algorithms/gradient-boosting/LightGBM/common-mistakes/)
 - [Interview - Which models to compare LightGBM with?](https://www.reddit.com/r/datascience/comments/10xf4vc/interview_which_models_to_compare_lightgbm_with/)
 - [Evaluating the Trade-Offs Between XGBoost and LightGBM](https://medium.com/@rithpansanga/evaluating-the-trade-offs-between-xgboost-and-lightgbm-c1b17fdc4f5e)

@@ -42,7 +42,7 @@ So your observation is exactly how modern LLMs are built.
 
 ---
 
-### 2. Understanding batch size, block size, etc.
+### 2. Understanding batch size, block size, etc
 
 This is **one of the most important insights**.
 

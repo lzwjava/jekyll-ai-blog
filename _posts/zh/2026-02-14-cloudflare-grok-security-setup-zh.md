@@ -34,6 +34,7 @@ Grok.x.ai 可能结合使用了 Cloudflare WAF managed rules + bot fight mode + 
 ### 分步指南：集成 Cloudflare Turnstile（推荐用于表单/聊天保护）
 
 **Step 1: 在 Cloudflare 中创建 Turnstile widget**
+
 - 前往 dash.cloudflare.com → Turnstile
 - 点击 "Add widget"
 - 选择模式：
@@ -113,6 +114,7 @@ app.post('/submit', async (req, res) => {
 **Python (Flask/FastAPI), PHP, Go 等** —— 原理相同：向 `/siteverify` 发送带有 secret + token 的 POST 请求。
 
 **Step 4: 可选 —— 结合 WAF**
+
 - 在 Cloudflare dashboard → Security → WAF → Create rule
 - 字段：`cf.turnstile.score < 0.3` → 操作：Block / Managed Challenge
 - 这让 Cloudflare 能够自动 challenge 低置信度的访问者

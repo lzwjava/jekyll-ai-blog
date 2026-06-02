@@ -54,6 +54,7 @@ type: note
 如果你在中国蜜雪冰城门店购买，可以向店员咨询当地的小贴士，因为他们的软冰淇淋最好新鲜享用！
 
 #### 参考资料
+
 - [冰淇淋生产步骤](https://www.milkfacts.info/Milk%20Processing/Ice%20Cream%20Production.htm)
 - [Ben & Jerry's 制造过程](https://www.benjerry.com/about-us/how-we-make-ice-cream)
 - [IDFA 冰淇淋储存指南](https://www.idfa.org/tips-on-storing-handling-ice-cream)

@@ -20,6 +20,7 @@ type: note
 在传统的 LANs（尤其是使用集线器或早期总线拓扑的 Ethernet）中，数据链路层最常见和基本的传输方法是 **broadcast**。
 
 主要特点：
+
 - 当设备发送数据帧时，该帧会传输到同一本地网络段上的**所有设备**。
 - LAN 上的所有设备都会接收该帧。
 - 只有 MAC 地址与帧中目标地址匹配的设备才会处理它，其他设备则丢弃它。
@@ -27,6 +28,7 @@ type: note
 这就是为什么 LANs 通常被描述为使用 **broadcast transmission**（或广播域内的“一对所有”传输）。
 
 常见相关概念：
+
 - **Unicast**（单播）：one-to-one（在知道目标 MAC 后实际数据传输最常见）
 - **Broadcast**（广播）：one-to-all（用于 ARP、DHCP、发现协议等）
 - **Multicast**（组播）：one-to-many（特定组）

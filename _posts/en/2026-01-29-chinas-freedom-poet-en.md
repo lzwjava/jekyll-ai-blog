@@ -19,6 +19,7 @@ Born in Zhejiang Province to a wealthy family, Xu received a Western education t
 **Literary Significance**
 
 Xu Zhimo pioneered modern Chinese poetry by:
+
 - Breaking from classical Chinese poetic forms to embrace vernacular language
 - Introducing Western romantic ideals and free verse techniques
 - Writing with emotional intensity and lyrical beauty that resonated with readers seeking cultural renewal

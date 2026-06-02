@@ -30,6 +30,7 @@ Convergence generally means **the process of coming together, meeting, or unitin
 In short: **convergence = things that were separate or different becoming closer, united, or reaching the same endpoint**.
 
 References:
+
 - [Convergence (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Convergence_(mathematics))
 - [Media Convergence - Britannica](https://www.britannica.com/topic/media-convergence)
 - [Convergent Evolution - National Geographic](https://education.nationalgeographic.org/resource/convergent-evolution/)

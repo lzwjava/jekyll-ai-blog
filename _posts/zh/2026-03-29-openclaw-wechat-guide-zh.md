@@ -14,33 +14,43 @@ type: note
 ---
 
 ## Method 1: The Official Plugin (推荐)
+
 这是最快的方法（约耗时 5 分钟），通过扫描二维码即可支持个人微信账号。
 
 ### 1. Prerequisites
+
 * **OpenClaw CLI:** 确保版本为最新（v2026.3.22 或更高）。
 * **Node.js:** 已安装在您的机器上。
 * **WeChat App:** 准备好手机以便扫码。
 
 ### 2. Installation Steps
+
 在终端中运行以下命令：
 
 * **Step A: One-Click Install**
+
     ```bash
     npx -y @tencent-weixin/openclaw-weixin-cli install
     ```
+
 * **Step B: Login via QR Code**
     运行登录命令以在终端生成二维码：
+
     ```bash
     openclaw channels login --channel openclaw-weixin
     ```
+
     使用手机微信扫码并确认授权。
 * **Step C: Restart the Gateway**
+
     ```bash
     openclaw gateway restart
     ```
 
 ### 3. Usage
+
 一旦 Gateway 重启，您发送给自己的任何消息（或根据配置收到的消息）都将由 OpenClaw AI agent 处理。您可以要求它：
+
 * “总结我的未读消息。”
 * “提醒我下午 6 点去看望父母。”
 * “为这段文字草拟一份专业的回复。”
@@ -48,38 +58,48 @@ type: note
 ---
 
 ## Method 2: Community Bridge (Docker Method)
+
 如果您在 Linux 服务器上运行 OpenClaw，或者想要更精细的控制（例如“ClawBot”风格的集成），可以使用 Community Bridge。
 
 ### 1. Requirements
+
 * **Docker Desktop** (>= 4.0)
 * **OpenClaw Gateway** 已在运行。
 
 ### 2. Deployment
-1.  **Clone the bridge repository:**
+
+1. **Clone the bridge repository:**
+
     ```bash
     git clone https://github.com/laolin5564/openclaw-wechat.git
     cd openclaw-wechat
     ```
-2.  **Start the Protocol Service:**
+
+2. **Start the Protocol Service:**
+
     ```bash
     cd wechat-service
     ./start.sh
     ```
+
     这将启动包含 WeChat protocol、MySQL 和 Redis 的 Docker 容器。
-3.  **Link to OpenClaw:**
+3. **Link to OpenClaw:**
     进入 bridge 文件夹并运行设置：
+
     ```bash
     cd ../bridge
     npm install
     npm run setup
     ```
+
     系统会提示您输入 **OpenClaw Gateway Token**（可在 `~/.openclaw/openclaw.json` 中找到）。
-4.  **Scan and Chat:**
+4. **Scan and Chat:**
     终端将出现一个二维码。扫码以绑定您的账号。
 
 ---
 
 ## Key Configurations
+
 为确保消息处理正确，请检查 `~/.openclaw/openclaw.json` 中的以下设置：
 
 | Setting | Command to Set | Description |

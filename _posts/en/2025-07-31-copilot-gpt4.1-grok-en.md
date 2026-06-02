@@ -12,12 +12,14 @@ type: note
 When you select "managed models" in GitHub Copilot and still see GPT-4.1 as the default, or can't use Grok or Kimi models from OpenRouter as expected, there are a few potential reasons and steps to address this. Here's a breakdown of the issue and how to configure Copilot to use Grok or Kimi models via OpenRouter:
 
 ### Why GPT-4.1 Is Still Used
+
 1. **Default Model Setting**: GitHub Copilot defaults to GPT-4.1 for Copilot Chat, Edits, and Agent Mode unless explicitly changed. Even when you select "managed models," the default model may persist if you haven't fully configured OpenRouter integration or selected a specific model.[](https://github.blog/changelog/2025-05-08-openai-gpt-4-1-is-now-generally-available-in-github-copilot-as-the-new-default-model/)
 2. **Context-Specific Model Usage**: The "fix box" (inline chat or code completion) in Copilot might not support switching to custom models like Grok or Kimi in certain contexts. For example, the Copilot Chat panel or inline suggestions might use the default model (GPT-4.1) unless you explicitly switch to a custom model in the immersive view or Agent Mode.[](https://docs.github.com/en/copilot/how-tos/use-ai-models/change-the-chat-model)
 3. **OpenRouter Integration Limitations**: OpenRouter allows access to models like Grok (created by xAI) and Kimi (from Moonshot AI), but Copilot's integration with OpenRouter requires a specific setup, and not all models may be immediately available due to API limitations or configuration issues. For instance, OpenRouter’s API may not announce tool support for all models, which can prevent Agent Mode or certain features from working with Grok or Kimi.[](https://bas.codes/posts/how-to-use-third-party-models-in-copilot-agent-mode/)[](https://dev.to/bascodes/agent-mode-with-third-party-models-in-copilot-317k)
 4. **Subscription or Configuration Restrictions**: If you're using a free tier or a non-Pro/Business Copilot subscription, you might be limited to default models like GPT-4.1. Additionally, some models (e.g., Grok or Kimi) may require specific configurations or premium access through OpenRouter.[](https://www.reddit.com/r/LocalLLaMA/comments/1jslnxb/github_copilot_now_supports_ollama_and_openrouter/)[](https://github.com/microsoft/vscode-copilot-release/issues/10193)
 
 ### How to Use Grok or Kimi Models in Copilot via OpenRouter
+
 To use Grok or Kimi models from OpenRouter in Copilot, particularly for the "fix box" (inline chat or code completion), follow these steps:
 
 1. **Set Up OpenRouter with Copilot**:
@@ -39,6 +41,7 @@ To use Grok or Kimi models from OpenRouter in Copilot, particularly for the "fix
 
 3. **Workaround for OpenRouter Models**:
    - **Proxy Solution**: Since OpenRouter’s API doesn’t always announce tool support (required for Agent Mode or advanced features), you can use a proxy like `litellm` to enable Grok or Kimi in Copilot. Edit the `config.yaml` file to include:
+
      ```yaml
      model_list:
        - model_name: grok
@@ -48,6 +51,7 @@ To use Grok or Kimi models from OpenRouter in Copilot, particularly for the "fix
          litellm_params:
            model: openrouter/moonshotai/kimi-k2
      ```
+
      - Follow the setup instructions from sources like [Bas codes](https://bas.codes) or [DEV Community](https://dev.to) for detailed steps on configuring the proxy.[](https://bas.codes/posts/how-to-use-third-party-models-in-copilot-agent-mode/)[](https://dev.to/bascodes/agent-mode-with-third-party-models-in-copilot-317k)
    - **Restart VS Code**: After configuring the proxy, restart VS Code to ensure the new models are available in the model picker.
 
@@ -66,11 +70,13 @@ To use Grok or Kimi models from OpenRouter in Copilot, particularly for the "fix
    - For a more seamless experience, you might explore other IDEs or tools like Cursor, which has been noted to work well with OpenRouter’s Kimi K2 model.[](https://openrouter.ai)
 
 ### Additional Notes
+
 - **Model Performance**: Grok is optimized for reasoning and truth-seeking, making it suitable for complex debugging or architectural tasks, while Kimi (K2) may excel in specific coding scenarios. Test both to see which performs better for your use case.[](https://github.blog/ai-and-ml/github-copilot/which-ai-model-should-i-use-with-github-copilot/)
 - **Community Feedback**: Some users report issues with OpenRouter models not appearing in Copilot’s model picker, especially with free-tier accounts. This might require a paid OpenRouter plan or Copilot Pro subscription to resolve.[](https://github.com/microsoft/vscode-copilot-release/issues/10193)[](https://www.reddit.com/r/GithubCopilot/comments/1la87wr/why_are_gh_copilot_pro_models_so_much_worse_than/)
 - **Ongoing Limitations**: There’s an open discussion about enabling custom API endpoints directly in Copilot (see [microsoft/vscode-copilot-release#7518](https://github.com/microsoft/vscode-copilot-release/issues/7518)). Until this is implemented, the proxy workaround is the most reliable method for using Grok or Kimi.[](https://bas.codes/posts/how-to-use-third-party-models-in-copilot-agent-mode/)[](https://dev.to/bascodes/agent-mode-with-third-party-models-in-copilot-317k)
 
 ### Citations
+
 - [Changing the AI model for Copilot Chat - GitHub Docs](https://docs.github.com/en/copilot/managing-copilot/changing-the-ai-model-for-copilot-chat)[](https://docs.github.com/en/copilot/how-tos/use-ai-models/change-the-chat-model)
 - [How to Use Third Party Models in GitHub Copilot Agent Mode - Bas codes](https://bas.codes)[](https://bas.codes/posts/how-to-use-third-party-models-in-copilot-agent-mode/)
 - [Openrouter - openrouter.ai](https://openrouter.ai)[](https://openrouter.ai/models)

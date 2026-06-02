@@ -14,7 +14,8 @@ type: note
 答案：
 “Spiral loop”（螺旋循环）不是王者荣耀中的官方术语或特定技能名称。对游戏维基、指南、官方网站和社区讨论（包括中文来源的王者荣耀）的广泛搜索均未找到匹配的辅助技能、召唤师技能或英雄技能。它不指 Recall（回城）、Recovery（恢复）、Sprint（疾跑），或任何非进攻性实用技能如 Flash、Purify 或 Heal。
 
-### 可能的解释：
+### 可能的解释
+
 1. **记错或翻译术语为移动技巧（“Spiral Walk”或“Spiral Drift”）**：
    - “螺旋”通常指**“螺旋走位/飘移”（螺旋走位 或 螺旋飘）**，一种高技巧**风筝/闪避技巧**，在使用之字形或圆形移动的同时攻击/回城。
      - 示例：英雄如**Luna (露娜)**使用“spiral Z-drift”（1AA333A3 连招）在回城或交战时闪避技能。
@@ -28,7 +29,6 @@ type: note
      - **Recovery + Sprint**启用快速重新轮换，形成辅助的“recovery sprint loop”。
    - **Guan Yu**“回城流”：大招 → 冲锋中回城用于poke/逃生循环。
 
-
 | 技巧/流派 | 描述 | 涉及的实用技能 | 英雄/辅助 |
 |-----------|------|----------------|----------|
 | **Spiral Walk (螺旋走位)** | 之字形飘移在移动/回城时闪避 | Sprint + Recovery | Luna, Guan Yu, Marco Polo |
@@ -40,6 +40,7 @@ type: note
 如果这指特定英雄/皮肤/视频（例如，剪辑标题），请提供更多上下文以进行更深入搜索！
 
 参考资料：
+
 - [Honor of Kings Wiki - Common Skills](https://honor-of-kings.fandom.com/wiki/Common_Skills)
 - [Liquipedia HoK Skills](https://liquipedia.net/honorofkings/Common_Skills)
 - [Moegirl WangZhe RongYao Skills](https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/%E5%B1%80%E5%86%85%E6%8A%80%E8%83%BD)

@@ -22,15 +22,15 @@ type: note
 
 **现代风潮与YouTube霸主（高YouTube播放量，近期公告牌佳绩）：**
 
-1.  **Ed Sheeran - Shape of You:**（YouTube播放量巨大，全球榜单统治力强，传唱度高）
-2.  **Wiz Khalifa ft. Charlie Puth - See You Again:**（YouTube播放量极高，情感冲击力强，全球影响力）
-3.  **Mark Ronson ft. Bruno Mars - Uptown Funk:**（高YouTube播放量，节奏欢快，派对和KTV热门）
-4.  **Ed Sheeran - Perfect:**（高YouTube播放量，浪漫情歌，婚礼和KTV热门）
-5.  **Justin Bieber - Sorry:**（高YouTube播放量，流行赞歌，标志性舞蹈动作）
-6.  **Ed Sheeran - Thinking Out Loud:**（高YouTube播放量，浪漫，KTV常备曲目）
-7.  **Maroon 5 - Sugar:**（高YouTube播放量，旋律抓耳，KTV热门）
-8.  **Katy Perry - Roar:**（高YouTube播放量，励志赞歌，KTV最爱）
-9.  **OneRepublic - Counting Stars:**（高YouTube播放量，广为流传，节奏明快）
+1. **Ed Sheeran - Shape of You:**（YouTube播放量巨大，全球榜单统治力强，传唱度高）
+2. **Wiz Khalifa ft. Charlie Puth - See You Again:**（YouTube播放量极高，情感冲击力强，全球影响力）
+3. **Mark Ronson ft. Bruno Mars - Uptown Funk:**（高YouTube播放量，节奏欢快，派对和KTV热门）
+4. **Ed Sheeran - Perfect:**（高YouTube播放量，浪漫情歌，婚礼和KTV热门）
+5. **Justin Bieber - Sorry:**（高YouTube播放量，流行赞歌，标志性舞蹈动作）
+6. **Ed Sheeran - Thinking Out Loud:**（高YouTube播放量，浪漫，KTV常备曲目）
+7. **Maroon 5 - Sugar:**（高YouTube播放量，旋律抓耳，KTV热门）
+8. **Katy Perry - Roar:**（高YouTube播放量，励志赞歌，KTV最爱）
+9. **OneRepublic - Counting Stars:**（高YouTube播放量，广为流传，节奏明快）
 10. **Adele - Hello:**（高YouTube播放量，嗓音有力，情感 ballad，KTV挑战曲目）
 11. **Justin Bieber - Baby ft. Ludacris:**（最早的YouTube超级热门单曲之一，一代人的标志）
 12. **The Chainsmokers ft. Halsey - Closer:**（流媒体播放量巨大，千禧一代赞歌，KTV对唱）
@@ -80,9 +80,9 @@ type: note
 
 **方法论与考量因素：**
 
-*   **YouTube数据：** 重点考量播放量达数十亿的歌曲，表明其巨大的全球影响力和当代流行度。这通常更偏向近期热门歌曲。
-*   **公告牌榜单：** 考量了在榜单历史上取得显著成功的歌曲，包括长期占据榜首和年终榜单排名。这涵盖了不同时代商业上的统治力。
-*   **历史影响力：** 收录了公认对音乐流派、文化运动或社会变革产生影响的歌曲。这些通常是超越单纯商业成功的、备受讨论的经典之作。
-*   **KTV热度：** 优先选择了卡拉OK中点唱率高的歌曲，表明其在社交语境下的易记性、可唱性和广泛的文化认可度。
+* **YouTube数据：** 重点考量播放量达数十亿的歌曲，表明其巨大的全球影响力和当代流行度。这通常更偏向近期热门歌曲。
+* **公告牌榜单：** 考量了在榜单历史上取得显著成功的歌曲，包括长期占据榜首和年终榜单排名。这涵盖了不同时代商业上的统治力。
+* **历史影响力：** 收录了公认对音乐流派、文化运动或社会变革产生影响的歌曲。这些通常是超越单纯商业成功的、备受讨论的经典之作。
+* **KTV热度：** 优先选择了卡拉OK中点唱率高的歌曲，表明其在社交语境下的易记性、可唱性和广泛的文化认可度。
 
 此列表力求多元化，涵盖多种流派和时代，同时承认由于个人偏好和不断变化的潮流，任何“最佳50首”列表都必将引发讨论。

@@ -24,10 +24,12 @@ This preface (《新五代史·伶官传序》) is one of Ouyang Xiu's most famo
 Ouyang Xiu uses the rise of the Later Tang under Emperor Zhuangzong (Li Cunxu) — who achieved great military success through diligence and hardship — and its rapid collapse due to indulgence in music, theater, and favorites (including actors/伶官) as a concrete historical lesson.
 
 The central message contrasts two paths:
+
 - **Diligence, hardship, and vigilance** → lead to the founding and strengthening of a state.
 - **Indulgence, extravagance, and relaxation** → inevitably lead to decline and destruction.
 
 Among the options:
+
 - A (Prosperity and decline depend on heaven's mandate) → This is closer to a traditional fatalistic view that Ouyang Xiu actually argues **against** in this piece.
 - B (Calamities accumulate from small oversights, and wisdom/courage often fail due to indulgence) → This is true in a general sense and appears in some of Ouyang's other writings (e.g., his remarks on gradual decline), but it is not the central, most famous thesis of this particular preface.
 - C (Diligence builds a country, indulgence destroys it) → This is the direct and most accurate summary of the main argument.

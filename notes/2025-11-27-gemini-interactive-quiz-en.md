@@ -27,8 +27,8 @@ While **Grok** and **ChatGPT** (powered by models like GPT-4) are certainly capa
 
 * **Generating Questions:** You can ask any of these models, "Write 10 multiple-choice questions about the French Revolution with the correct answer for each," and they will perform this task very well.
 * **The Difference is the Experience:** The distinction is often in the user experience:
-    * **Gemini:** Provides an **interactive quiz mode** where you select an answer and get immediate feedback/hints, making it feel more like a dedicated study tool.
-    * **ChatGPT/Grok:** Will typically output the questions as a **list of text**, requiring you to manage the answers yourself. However, developers can and do build dedicated quiz tools *on top of* their APIs (like the Gemini API) to create these interactive experiences.
+  * **Gemini:** Provides an **interactive quiz mode** where you select an answer and get immediate feedback/hints, making it feel more like a dedicated study tool.
+  * **ChatGPT/Grok:** Will typically output the questions as a **list of text**, requiring you to manage the answers yourself. However, developers can and do build dedicated quiz tools *on top of* their APIs (like the Gemini API) to create these interactive experiences.
 
 ### **Summary Table**
 

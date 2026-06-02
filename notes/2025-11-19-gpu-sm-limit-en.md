@@ -15,11 +15,13 @@ The warning "Not enough SMs to use max_autotune_gemm" comes from PyTorch's Torch
 PyTorch considers a GPU "big enough" only if it has a substantial number of SMs (typically ≥68–80, depending on the exact PyTorch version; e.g., RTX 3080/3090 borderline, A100/H100/RTX 4090 comfortably above). On smaller GPUs (e.g., RTX 3060, 3070, 2080 Ti, T4, etc.), it disables the full `max_autotune_gemm` path to avoid excessive compilation time or suboptimal choices.
 
 ### Why it happens and impact
+
 - Autotuning benchmarks many kernel variants at compile time. Full GEMM autotuning needs enough parallelism (SMs) to make the most aggressive templates worthwhile.
 - The warning is **harmless** — compilation still succeeds, and you get good (but not absolute maximum) performance. Other autotuning (non-GEMM parts, less aggressive GEMM search) still runs.
 - It does **not** mean padding/inefficiency due to batch size or model architecture in the way you might think. The user's suggested interpretation is close but not quite accurate here — this specific warning is purely about GPU size, not input/shape padding.
 
 ### How to improve or work around it
+
 1. **Use a GPU with more SMs** (best fix for true max performance):
    - Recommended minimum for reliable full `max_autotune_gemm`: RTX 4090 (128 SMs), A100 (108 SMs), H100 (132+ SMs), or newer datacenter cards.
    - Consumer cards below ~80 SMs (e.g., RTX 3070 = 46 SMs, RTX 3080 = 68 SMs) will trigger this.
@@ -36,14 +38,17 @@ PyTorch considers a GPU "big enough" only if it has a substantial number of SMs 
    - Use `mode="max-autotune-no-cudagraphs"` — keeps most autotuning benefits but skips CUDA graphs and the SM-gated GEMM path. Often nearly as fast with much shorter compile times on smaller GPUs.
    - Or `mode="reduce-overhead"` — lighter, uses CUDA graphs for low latency, good for inference.
    - Example:
+
      ```python
      compiled_model = torch.compile(model, mode="max-autotune-no-cudagraphs", fullgraph=True)
      ```
 
 3. **Enable high-precision matmuls** (helps any mode/GPU):
+
    ```python
    torch.set_float32_matmul_precision("high")  # or "highest"
    ```
+
    This allows TensorFloat-32 / better cuBLAS kernels.
 
 4. **Force more aggressive tuning anyway** (hacky, not officially supported):

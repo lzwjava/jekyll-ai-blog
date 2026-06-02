@@ -30,5 +30,6 @@ In the semiconductor industry — and specifically in its partnership with ASML 
 In short: ZEISS is the indispensable optics partner that makes ASML’s world-leading lithography machines possible.
 
 References:
+
 - [ZEISS Semiconductor Manufacturing Technology](https://www.zeiss.com/semiconductor-manufacturing-technology)
 - [ASML and ZEISS partnership on EUV](https://www.asml.com/en/technology/euv-lithography)

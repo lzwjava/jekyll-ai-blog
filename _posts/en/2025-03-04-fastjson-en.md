@@ -11,6 +11,7 @@ type: note
 FastJSON is a high-performance JSON processing library for Java, developed by Alibaba. It’s widely used for parsing JSON strings into Java objects, serializing Java objects into JSON, and handling JSON data efficiently. Below is a guide on how to use FastJSON based on its core features.
 
 ### Step 1: Add FastJSON to Your Project
+
 To use FastJSON, you need to include it in your project. If you're using Maven, add the following dependency to your `pom.xml`:
 
 ```xml
@@ -30,9 +31,11 @@ implementation 'com.alibaba:fastjson:2.0.51'
 Check the [Maven Central Repository](https://mvnrepository.com/artifact/com.alibaba/fastjson) for the latest version.
 
 ### Step 2: Basic Usage
+
 Here’s how to use FastJSON for common tasks like serialization and deserialization.
 
 #### 1. **Serializing Java Objects to JSON**
+
 You can convert a Java object to a JSON string using `JSON.toJSONString()`.
 
 ```java
@@ -68,11 +71,13 @@ class User {
 ```
 
 **Output:**
+
 ```json
 {"age":25,"name":"Alice"}
 ```
 
 #### 2. **Deserializing JSON to Java Objects**
+
 You can parse a JSON string back into a Java object using `JSON.parseObject()`.
 
 ```java
@@ -90,11 +95,13 @@ public class Main {
 ```
 
 **Output:**
+
 ```
 Name: Alice, Age: 25
 ```
 
 #### 3. **Parsing JSON into a List**
+
 If your JSON represents a list of objects, use `JSON.parseArray()`.
 
 ```java
@@ -115,15 +122,18 @@ public class Main {
 ```
 
 **Output:**
+
 ```
 Name: Alice, Age: 25
 Name: Bob, Age: 30
 ```
 
 ### Step 3: Advanced Features
+
 FastJSON offers additional customization options:
 
 #### 1. **Customizing Serialization**
+
 You can control how fields are serialized using `SerializerFeature` options.
 
 ```java
@@ -142,18 +152,21 @@ public class Main {
 ```
 
 **Output:**
+
 ```json
 {
-	"age":25,
-	"name":"Alice"
+ "age":25,
+ "name":"Alice"
 }
 ```
 
 Common `SerializerFeature` options:
+
 - `WriteNullListAsEmpty`: Empty lists are written as `[]` instead of `null`.
 - `WriteMapNullValue`: Include fields with `null` values in the output.
 
 #### 2. **Handling Complex Objects**
+
 For nested objects, ensure the inner classes have proper getters/setters.
 
 ```java
@@ -208,12 +221,14 @@ class Address {
 ```
 
 **Output:**
+
 ```json
 {"address":{"city":"NY","street":"123 Main St"},"age":25,"name":"Alice"}
 NY
 ```
 
 ### Step 4: Notes and Best Practices
+
 - **Security**: FastJSON has had vulnerabilities in older versions (e.g., remote code execution). Always use the latest version and avoid enabling `Feature.SupportAutoType` unless necessary.
 - **Performance**: FastJSON is optimized for speed, but test it with your specific use case for large datasets.
 - **Documentation**: Refer to the official [FastJSON GitHub page](https://github.com/alibaba/fastjson) for more details.

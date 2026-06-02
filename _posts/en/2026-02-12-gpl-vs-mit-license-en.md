@@ -42,6 +42,7 @@ Key differences between **GPL** and **MIT**:
 | **Popular examples**    | Linux kernel, Git, WordPress, MySQL         | React, Vue.js, Ruby on Rails, lots of small libraries |
 
 **In simple terms**:
+
 - Choose **MIT** if you want your code to be used as widely as possible — even in closed-source commercial products.
 - Choose **GPL** if you want to force derivatives to stay open source and give back changes to the community.
 

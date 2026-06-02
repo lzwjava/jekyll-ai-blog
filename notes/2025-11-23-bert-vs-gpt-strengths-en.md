@@ -28,10 +28,8 @@ The primary differences stem from their **architecture** and **training objectiv
 | **Directionality** | **Bidirectional** (Looks at context from both left and right) | **Unidirectional** (Looks only at the words that came *before* the current word) |
 | **Context** | Excellent at capturing deep, full context. | Excellent at sequential, causal context (what word should follow). |
 
-
-
 * **BERT's Bidirectional Advantage:** BERT uses a full Transformer **Encoder** stack, which allows it to process the entire input sentence at once. This **bidirectional** view enables it to build a rich, contextual representation for every word, making it excel at tasks where understanding the complete meaning is critical.
-    * *Example:* In the sentence "The **bank** was near the river," BERT can look at "river" to immediately understand that "bank" means "riverbank," not a financial institution.
+  * *Example:* In the sentence "The **bank** was near the river," BERT can look at "river" to immediately understand that "bank" means "riverbank," not a financial institution.
 * **GPT's Unidirectional Design:** GPT uses a **Decoder-only** stack with a **masked attention** mechanism that forces it to only look at previous tokens. This **unidirectional** flow is precisely what makes it an effective **autoregressive** model—it learns to generate a sequence by predicting one word after the other.
 
 ---

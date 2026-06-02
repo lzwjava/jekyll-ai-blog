@@ -21,28 +21,36 @@ type: note
 
 2. **更新软件包列表**
    - 安装软件前，最好先更新软件包列表以确保获取最新版本。运行以下命令：
+
      ```bash
      sudo apt update
      ```
+
    - 出现提示时输入密码。此命令将刷新可用软件包列表。
 
 3. **安装 VLC**
    - 更新完成后，运行以下命令安装 VLC：
+
      ```bash
      sudo apt install vlc
      ```
+
    - 需要再次输入密码。系统可能会要求您输入 `y` 并按回车键确认安装。此操作将下载 VLC 及其必要依赖项。
 
 4. **验证安装**
    - 安装完成后，可通过以下命令启动 VLC 进行验证：
+
      ```bash
      vlc
      ```
+
    - 如果成功启动 VLC 播放器，说明安装成功。
    - 也可通过以下命令查看 VLC 版本：
+
      ```bash
      vlc --version
      ```
+
    - 将显示类似“VLC media player 3.0.11.1 Vetinari”的版本信息（具体版本号可能不同）。
 
 5. **可选：测试 VLC**
@@ -71,25 +79,30 @@ type: note
 ### **补充说明**
 
 - **保持 VLC 更新**
-   - 若通过终端安装，可定期运行以下命令保持更新：
+  - 若通过终端安装，可定期运行以下命令保持更新：
+
      ```bash
      sudo apt update
      sudo apt upgrade
      ```
-   - 这将更新 VLC 及系统其他软件包。若使用软件中心安装，通常可通过同一界面管理更新。
+
+  - 这将更新 VLC 及系统其他软件包。若使用软件中心安装，通常可通过同一界面管理更新。
 
 - **插件与编解码器**
-   - 通过 `sudo apt install vlc` 安装的 VLC 已包含基本插件（如 `vlc-plugin-base`）和编解码器，可支持常见媒体格式（如 MP4、AVI）。若遇到特殊文件格式问题，可后续安装额外编解码器，例如通过以下命令安装 `ubuntu-restricted-extras`：
+  - 通过 `sudo apt install vlc` 安装的 VLC 已包含基本插件（如 `vlc-plugin-base`）和编解码器，可支持常见媒体格式（如 MP4、AVI）。若遇到特殊文件格式问题，可后续安装额外编解码器，例如通过以下命令安装 `ubuntu-restricted-extras`：
+
      ```bash
      sudo apt install ubuntu-restricted-extras
      ```
 
 - **通过 Snap 安装**
-   - VLC 也提供 Snap 包版本。若倾向此方式，可运行：
+  - VLC 也提供 Snap 包版本。若倾向此方式，可运行：
+
      ```bash
      sudo snap install vlc
      ```
-   - 但对大多数用户而言，推荐使用 `apt` 安装以获得更好的系统集成性。
+
+  - 但对大多数用户而言，推荐使用 `apt` 安装以获得更好的系统集成性。
 
 ---
 
@@ -104,6 +117,7 @@ type: note
 ### **解决方案**
 
 #### **步骤 1：安装 `ubuntu-restricted-extras` 软件包**
+
 该软件包提供对多种编解码器的支持，包括您可能缺失的 MPEG-4 AAC（音频）和 H.265（HEVC）视频编解码器。
 
 1. **打开终端**
@@ -111,15 +125,18 @@ type: note
 
 2. **更新软件包列表**
    - 运行以下命令确保系统软件包列表为最新状态：
+
      ```bash
      sudo apt update
      ```
 
 3. **安装 `ubuntu-restricted-extras`**
    - 运行以下命令：
+
      ```bash
      sudo apt install ubuntu-restricted-extras
      ```
+
    - 可能需要输入密码。安装过程中可能会提示您接受某些组件的最终用户许可协议（EULA）——请按照屏幕指示同意并继续。
 
 4. **重启 VLC**
@@ -128,10 +145,12 @@ type: note
 ---
 
 #### **步骤 2：安装额外编解码器包（如需要）**
+
 若完成步骤 1 后问题依旧，请安装为 H.265 等编解码器提供额外支持的特定软件包。
 
 1. **安装 `libde265-0` 和 `libavcodec-extra`**
    - 运行以下命令安装 H.265 解码库和额外编解码器支持：
+
      ```bash
      sudo apt install libde265-0 libavcodec-extra
      ```
@@ -142,14 +161,18 @@ type: note
 ---
 
 #### **步骤 3：额外故障排除（如需要）**
+
 若问题仍未解决，请尝试以下补充步骤：
 
 - **检查 VLC 版本**
   - 确保使用最新版 VLC。可通过以下命令查看当前版本：
+
     ```bash
     vlc --version
     ```
+
   - 若版本过旧，可通过以下命令更新：
+
     ```bash
     sudo apt update
     sudo apt upgrade vlc
@@ -160,14 +183,17 @@ type: note
 
 - **查看 VLC 日志获取详情**
   - 进行高级故障排除时，可通过终端运行 VLC 并输出详细信息：
+
     ```bash
     vlc --verbose 2
     ```
+
   - 尝试播放文件并观察关于缺失编解码器的详细错误信息。
 
 ---
 
 ### **补充说明**
+
 - **问题成因**：MKV 是一种容器格式，可使用多种编解码器（如 MPEG-4 AAC 音频和 H.265 视频）。由于专有软件的版权限制，Ubuntu 默认安装的 VLC 可能缺少这些编解码器。
 - **硬件加速**：若系统支持 H.265 硬件解码（如通过现代 GPU），请确保显卡驱动为最新版本。但当前错误提示表明缺少软件解码器，硬件加速可能不是主因。
 - **后续措施**：若以上方法均无效，可考虑重新安装 VLC，或在 Ubuntu/VLC 论坛提交系统环境和具体 MKV 文件详情寻求帮助。

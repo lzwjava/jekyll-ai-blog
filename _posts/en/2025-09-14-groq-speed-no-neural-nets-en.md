@@ -118,10 +118,10 @@ Overall ≈ 40 ms – fast enough for many UI experiences, but **the bottlen
 
 ## 5. TL;DR for your exact question
 
-- **GROQ does not use transformers, K‑Q‑V attention, or any tensor‑matrix math.**
-- Its speed comes from **database‑engine optimisations** (column store, index‑driven filtering, compiled plans, streaming, parallel workers, caching).
-- **If you add a transformer to the pipeline** (e.g., embeddings for semantic search), that part will be **slower** than the pure GROQ query; the overall latency is the sum of the two.
-- Sanity’s “fast” claim **only applies to the GROQ portion**. Any AI‑heavy step is separate and will have the latency characteristics of the underlying model and serving infrastructure.
+* **GROQ does not use transformers, K‑Q‑V attention, or any tensor‑matrix math.**
+* Its speed comes from **database‑engine optimisations** (column store, index‑driven filtering, compiled plans, streaming, parallel workers, caching).
+* **If you add a transformer to the pipeline** (e.g., embeddings for semantic search), that part will be **slower** than the pure GROQ query; the overall latency is the sum of the two.
+* Sanity’s “fast” claim **only applies to the GROQ portion**. Any AI‑heavy step is separate and will have the latency characteristics of the underlying model and serving infrastructure.
 
 ---
 

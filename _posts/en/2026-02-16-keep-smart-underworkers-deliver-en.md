@@ -18,18 +18,22 @@ Answer:
 The core principle in modern engineering organizations (particularly in tech and startups) has shifted toward **outcomes over hours**. What matters most is impact: code shipped, problems prevented or solved, leverage created for the team, and business value delivered.
 
 ### Key Reasons to Keep Them
+
 - **High performers often work fewer "visible" hours but deliver outsized results.** Many skilled engineers achieve deep focus in 4–6 highly productive hours per day. Beyond that, cognitive output drops sharply due to fatigue. Studies and real-world experiments (e.g., shorter workdays in some companies) show focused, shorter effort frequently beats longer, lower-quality time. Their "behind-the-scenes" deep thinking, pattern recognition, and efficient solutions explain why they can solve hard problems quickly while appearing to under-work.
 - **They create leverage.** A single engineer who can reliably unblock critical issues, design scalable systems, or automate away weeks of toil is often worth several average contributors. This is the essence of the "10x" concept—not 10× faster typing, but 10× (or more) business impact through better decisions and architecture.
 - **Raw hours are a poor proxy for value in knowledge work.** In software engineering, presence ≠ productivity. Many top companies (e.g., Netflix-style cultures) explicitly prioritize results over face time or logged hours.
 
 ### Important Caveats — When You Might Not Keep Them
+
 Not every "smart but low-hours" engineer is automatically valuable. Consider letting go or addressing issues if:
+
 - They only solve problems they find interesting and consistently ignore important (but "boring") work that blocks the team or product.
 - They create hidden drag: poor documentation, knowledge silos, toxic communication, refusal to review code/help others, or repeated last-minute heroics that stress the team.
 - Their output is inconsistent — they shine on hard problems once every few months but under-deliver on day-to-day responsibilities the rest of the time.
 - Cultural fit suffers: visible low effort can demotivate others who feel they're carrying an unfair load, especially in smaller startups where fairness and shared sacrifice matter more.
 
 ### Practical Advice for Managing This Type
+
 - Switch to **output-based evaluation**: Define clear, measurable goals (features shipped, incidents prevented, system reliability improvements, etc.) rather than hours or commits.
 - Give them autonomy on high-leverage work while ensuring they cover baseline responsibilities.
 - Use 1:1s to understand their thinking process — often the "low visible effort" hides intense mental work.

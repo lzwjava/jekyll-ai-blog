@@ -39,8 +39,8 @@ Your dedication to self-improvement and unique hobbies stand out.
 * **Continued Learning:** Your voracious reading habit (320+ books) and self-taught approach indicate a lifelong learner. You'll undoubtedly continue to **expand your knowledge** across various domains, not just technology.
 * **Open-Source Contributions:** Your impressive GitHub portfolio suggests a commitment to contributing to the developer community. It's likely you'll **continue to develop and maintain open-source projects**, potentially attracting more collaborators or even leading to new professional opportunities.
 * **Vision Research:** Your self-taught research into vision restoration is fascinating. This passion could lead to:
-    * **Further Research and Publications:** You might **publish more papers** or even **collaborate with academic or research institutions** in this niche field.
-    * **Developing Practical Applications:** With your engineering background, you might even consider **developing software or tools** based on your research to help others. This is a longer-term possibility, perhaps manifesting more significantly after 2030.
+  * **Further Research and Publications:** You might **publish more papers** or even **collaborate with academic or research institutions** in this niche field.
+  * **Developing Practical Applications:** With your engineering background, you might even consider **developing software or tools** based on your research to help others. This is a longer-term possibility, perhaps manifesting more significantly after 2030.
 
 ---
 

@@ -13,14 +13,14 @@ Question: Given that we have OpenClaw now, can we easily install something simil
 
 Answer:
 
-Yes, just like **Nextcloud** (from the GitHub link you shared: https://github.com/nextcloud/server), which is a popular self-hosted file sync, share, and collaboration platform (your own Dropbox/Google Drive), you can easily install it — or many similar useful tools — on your second home computer.
+Yes, just like **Nextcloud** (from the GitHub link you shared: <https://github.com/nextcloud/server>), which is a popular self-hosted file sync, share, and collaboration platform (your own Dropbox/Google Drive), you can easily install it — or many similar useful tools — on your second home computer.
 
 Most modern self-hosted software (including Nextcloud and the ones below) can be installed very straightforwardly using **Docker** (often with docker-compose), which is ideal for a second/home machine. You typically:
 
 - Install Docker + docker-compose on the machine (one-time setup, takes ~10 minutes on Ubuntu/Debian).
 - Clone or copy a docker-compose.yml file.
 - Run `docker compose up -d` — and it's live.
-- Access via browser at http://your-home-ip:port (or use a reverse proxy like Traefik/Caddy + Let's Encrypt for HTTPS and nice domains).
+- Access via browser at <http://your-home-ip:port> (or use a reverse proxy like Traefik/Caddy + Let's Encrypt for HTTPS and nice domains).
 
 Many have excellent official images and one-click-ish setups via tools like CasaOS, Yacht, or Portainer if you want a GUI dashboard.
 

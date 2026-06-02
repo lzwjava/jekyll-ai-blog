@@ -37,6 +37,7 @@ Child prodigies often spark admiration, but several evidence-based or logically 
 These views are unpopular because they deflate the fairy tale that prodigies are “chosen ones” and force us to confront uncomfortable truths about parenting, education, and the distribution of achievement over a lifetime.
 
 References:
+
 - Winner, E. (1996). *Gifted Children: Myths and Realities*.
 - Lubinski, D., et al. (SMPY longitudinal studies, various papers 2000–2023).
 - Ericsson, K. A., et al. (1993). The role of deliberate practice in the acquisition of expert performance.

@@ -25,6 +25,7 @@ type: note
 ```
 
 每个子代理获得：
+
 - 全新的 AIAgent 实例（没有父代理的对话历史）
 - 自己的 task_id（自己的终端会话、文件操作缓存）
 - 受限的工具集（禁止使用 delegate_task、clarify、memory、send_message、execute_code）

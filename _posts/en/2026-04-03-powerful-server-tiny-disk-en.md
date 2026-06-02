@@ -12,21 +12,25 @@ type: note
 Here's your server report, Boss:
 
 ### 🖥️ CPU
+
 - **Model:** AMD EPYC 7443P 24-Core
 - **Cores/Threads:** 24 cores / 48 threads
 - **Architecture:** x86_64
 
 ### 🧠 RAM
+
 - **Total:** 251 GB
 - **Used:** 37 GB | **Available:** 211 GB
 - **Swap:** None configured
 
 ### 💾 Disk
+
 - **Total:** 20 GB (overlay filesystem — this is a container)
 - **Used:** 16 MB | **Available:** 20 GB
 - ⚠️ Only 20 GB disk — pretty tight
 
 ### 🎮 GPU
+
 - **NVIDIA RTX 2000 Ada Generation** — 16 GB VRAM
 - **Driver:** 550.127.05 | **CUDA:** 12.4
 - **Status:** Idle, 23°C, 7W draw

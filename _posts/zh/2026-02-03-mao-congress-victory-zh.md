@@ -12,13 +12,14 @@ type: note
 
 **中国共产党第七次全国代表大会**（The 7th National Congress of the Chinese Communist Party），通常被称为**中共七大**或简称**“七大”**，是1945年4月23日至6月11日在延安举行的一次关键会议。
 
-## Key Points:
+## Key Points
 
 **Historical Context：** 大会召开于第二次世界大战和中国抗日战争即将结束之际，正值中国共产党发展的关键转型期。
 
 **Significance：** 这是在时隔17年（上一次大会于1928年召开）后举行的第一次全国代表大会，成为巩固党的路线和领导权的重要里程碑。
 
 **Major Outcomes：**
+
 - 正式确立**毛泽东思想**（Mao Zedong Thought）为党的指导思想
 - 巩固了毛泽东作为最高领导人的地位
 - 通过了新的党章

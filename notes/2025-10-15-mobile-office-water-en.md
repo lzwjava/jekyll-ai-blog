@@ -29,6 +29,7 @@ This setup turns your car into a "nomad office" with built-in therapy. If you ro
 Guangzhou has plenty of understated water features—think small ponds, streams, man-made waterfalls, and wetland edges—that offer that soothing trickle without the tourist bustle. These are great for parking nearby and setting up. Use Baidu Maps or Amap (local apps) to search "小池塘" (small pond) or "溪流公园" (stream park) filtered by your districts; they show real-time parking and quiet ratings. Google Maps works too, but Baidu is more accurate for China.
 
 #### In Huangpu District (Closer to Central Guangzhou, ~20-40 min drive from Atour)
+
 Huangpu leans urban-green, with compact parks hugging rivers or lakes. Aim for spots with benches or shaded parking for easy car access.
 
 - **Zhongshan Park (中山公园):** A peaceful riverside oasis with a small man-made waterfall and ponds amid bamboo groves. Super quiet mid-week; park along the edge for water views. Great for 1-2 hour sessions.
@@ -40,6 +41,7 @@ Huangpu leans urban-green, with compact parks hugging rivers or lakes. Aim for s
 - **Xiangxue Park (香雪公园):** Seasonal ponds with flowering trees (plums in winter). Quiet corners for reflection; easy parking loop around the perimeter.
 
 #### In Zengcheng District (More Rural, ~45-60 min drive, Litchi Heartland)
+
 Zengcheng offers natural, less polished spots—streams and falls in forested parks. Roads are winding but scenic; weekends get busier with locals.
 
 - **Baishui Village Waterfall Park (白水寨):** Features cascading falls into small pools at the base—climb steps for private nooks with pooling water. Park at the entrance lot; the sound is more dynamic here, perfect for energizing work breaks.
@@ -52,10 +54,10 @@ Zengcheng offers natural, less polished spots—streams and falls in forested pa
 
 Start with Huangpu for quick hops, then venture to Zengcheng for a fuller escape. Check weather apps for rain (enhances sounds but watch for floods). If you're mapping routes, input these names directly—they pop up with photos and reviews.
 
-[ Tianlu Lake Forest Park on Trip.com ](https://www.trip.com/travel-guide/attraction/guangzhou/tianlu-lake-forest-park-15055063/)
-[ Zhongshan Park Moments on Trip.com ](https://www.trip.com/moments/theme/destination-huangpu-district-2015109-attractions-993137/)
-[ Huangpu Xinyang East Mini Park on China Services Info ](https://chinaservicesinfo.com/nationaldevelopmentzones/gdd/attractions)
-[ Baishui Village Waterfall on Tripadvisor ](https://www.tripadvisor.com/Attraction_Review-g1152546-d1843395-Reviews-Baishui_Village_Waterfall_of_Zengcheng-Zengcheng_Guangdong.html)
-[ Jinkeng Forest Park on Tripadvisor ](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)
-[ Baijiang Lake Moments on Trip.com ](https://sg.trip.com/moments/theme/poi-baijiang-lake-58280012-attraction-993137/)
-[ Relaxing Spots in Guangzhou on NewsGD ](https://www.newsgd.com/node_99363c4f3b/e39ce5939c.shtml)
+[Tianlu Lake Forest Park on Trip.com](https://www.trip.com/travel-guide/attraction/guangzhou/tianlu-lake-forest-park-15055063/)
+[Zhongshan Park Moments on Trip.com](https://www.trip.com/moments/theme/destination-huangpu-district-2015109-attractions-993137/)
+[Huangpu Xinyang East Mini Park on China Services Info](https://chinaservicesinfo.com/nationaldevelopmentzones/gdd/attractions)
+[Baishui Village Waterfall on Tripadvisor](https://www.tripadvisor.com/Attraction_Review-g1152546-d1843395-Reviews-Baishui_Village_Waterfall_of_Zengcheng-Zengcheng_Guangdong.html)
+[Jinkeng Forest Park on Tripadvisor](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)
+[Baijiang Lake Moments on Trip.com](https://sg.trip.com/moments/theme/poi-baijiang-lake-58280012-attraction-993137/)
+[Relaxing Spots in Guangzhou on NewsGD](https://www.newsgd.com/node_99363c4f3b/e39ce5939c.shtml)

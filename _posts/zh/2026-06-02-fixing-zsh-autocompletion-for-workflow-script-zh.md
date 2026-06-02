@@ -14,6 +14,7 @@ type: note
 以下是我所做的修改：
 
 **`ww/action/action.py`** —— 重写为使用 argparse 并设置默认值：
+
 - 默认工作流程：`gh-pages.yml`
 - 默认仓库：`lzwjava/jekyll-ai-blog`（与 `actions check` 保持一致）
 - 新增 `--repo` 和 `--ref` 标志

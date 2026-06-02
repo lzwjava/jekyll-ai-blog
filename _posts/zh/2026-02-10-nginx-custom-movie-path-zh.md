@@ -28,7 +28,7 @@ server {
 }
 ```
 
-### 替代版本（使用 `root` 代替 `alias` – 也非常常见）：
+### 替代版本（使用 `root` 代替 `alias` – 也非常常见）
 
 ```nginx
 server {
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-### 最推荐的版本（简洁 + 安全）：
+### 最推荐的版本（简洁 + 安全）
 
 ```nginx
 server {
@@ -73,7 +73,7 @@ server {
    或
    `sudo nginx -s reload`
 
-现在 http://your-server-ip/movies/ 应该会显示 `/home/lzw/qDownloads/` 的内容。
+现在 <http://your-server-ip/movies/> 应该会显示 `/home/lzw/qDownloads/` 的内容。
 
 **References:**
 

@@ -25,6 +25,7 @@ There are several **types of soft shoe insoles** (also called shoe pads or inser
 Thicker and softer insoles (like thick wool, fleece, or heavy foam ones) are generally **better for comfort** than slim, thin ones because they provide more cushioning, reduce foot fatigue, absorb impact better, and feel plush underfoot. Slim insoles are usually basic (for light support or fit adjustment) and less comfortable for all-day wear or when you want extra softness.
 
 For **winter in Guangzhou**, the weather is quite mild. Average winter temperatures (December–February) are:
+
 - Highs: around 18–21°C (64–70°F)
 - Lows: around 9–12°C (48–54°F)
 - Rarely drops below 5°C, and no real freezing or snow.
@@ -34,6 +35,7 @@ It's "cold" for locals used to warmer weather (especially with indoor heating of
 Thicker, softer insoles (especially warm ones with wool, fleece, or thermal layers) can be **good and helpful** in Guangzhou winter because they add extra insulation and coziness to your feet when it's chilly, damp, or windy. Many people in southern China use warmer or thicker insoles during the cooler months for better comfort.
 
 However, a **normal/standard insole** (medium thickness, soft foam or basic cushion) is usually **fine** for most people. You don't strictly need super-thick winter-specific ones unless:
+
 - Your feet get cold easily.
 - You wear thin-soled shoes or stand/walk a lot outdoors.
 - You prefer maximum softness and warmth.

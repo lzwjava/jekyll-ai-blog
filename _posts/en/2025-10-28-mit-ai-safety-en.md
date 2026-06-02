@@ -19,6 +19,7 @@ Since May 2023, Mądry has been on leave from MIT to join OpenAI as a Member of 
 He is active on X (formerly Twitter) as @aleks_madry, where he shares updates on his research, including recent work on using smaller "proxy" models to analyze training data effects on large AI systems.
 
 ### References
+
 - [Aleksander Mądry Homepage](http://madry.mit.edu/)
 - [Madry Lab](https://madrylab.mit.edu/)
 - [Aleksander Mądry LinkedIn](https://www.linkedin.com/in/aleksander-madry-61115b233)

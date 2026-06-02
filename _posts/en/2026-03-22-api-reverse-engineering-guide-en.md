@@ -47,6 +47,7 @@ You must use the `anthropic-messages` format — setting `api: "anthropic-messag
 ## How to Go Deeper From Here
 
 ### Inspect → Reproduce → Modify
+
 Now that you can dump requests, the next step is a **local proxy** that intercepts and lets you modify them in real time. Tools to explore:
 
 - **mitmproxy** — intercept and script HTTP/HTTPS traffic with Python
@@ -56,9 +57,11 @@ Now that you can dump requests, the next step is a **local proxy** that intercep
 Write a mitmproxy script that injects the missing headers automatically. This turns your "inspection" skill into an **automation** skill.
 
 ### Build Your Own Thin Relay
+
 OpenClaw's API follows the OpenAI HTTP API format — the same request shape works against an OpenClaw gateway. This compatibility is intentional: it lets you swap an OpenClaw agent into existing integrations with minimal friction.
 
 You already know what headers the relay wants. You can write a tiny Node.js or Python proxy (50–100 lines) that:
+
 1. Accepts requests from OpenClaw
 2. Injects the correct `anthropic-beta` and `User-Agent` headers
 3. Forwards to the relay service
@@ -66,9 +69,11 @@ You already know what headers the relay wants. You can write a tiny Node.js or P
 This is exactly what `claude-max-api-proxy` is, except you'll understand every line because you built it yourself.
 
 ### Read OpenClaw Source Code
+
 OpenClaw is a standalone local process (Node.js) that manages sessions, routes messages, and maintains the tool registry. It speaks to messaging platforms via adapters and to the LLM via API. The entire codebase is open source. When you find something odd in a dump, go read the source to confirm your hypothesis. This is a tight feedback loop: **observe → hypothesize → verify in source → understand**.
 
 ### Learn From the `invalid beta flag` Error Pattern
+
 AWS Bedrock and Google Vertex AI don't support Anthropic's experimental beta features. When OpenClaw or its underlying libraries automatically attach a beta header, Bedrock rejects those requests. This same pattern plays out in many relay services. Understanding it means you can debug *any* Claude-compatible relay, not just the one you're using now.
 
 ---

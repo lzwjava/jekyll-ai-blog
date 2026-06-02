@@ -68,6 +68,7 @@ hy2://password@your-domain.com:443/?sni=your-domain.com&insecure=0
 - 或：在 Shadowrocket → + → Import from Clipboard（或如果有二维码，则 Scan QR）。
 
 ### 常见提示与故障排除
+
 - **连接失败？**
   - 仔细检查 UDP 443 未被阻塞（使用 sing-box desktop 等其他客户端测试服务器可达性）。
   - 确保 SNI 完全匹配（区分大小写）。

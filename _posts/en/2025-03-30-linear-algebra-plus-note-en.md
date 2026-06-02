@@ -14,17 +14,20 @@ In linear algebra, two square matrices \\( A \\) and \\( B \\) are said to be si
 
 This relationship is known as a similarity transformation. The matrix \\( P \\) is called the change of basis matrix, and it transforms the matrix \\( A \\) into the matrix \\( B \\).
 
-### Key Properties of Similar Matrices:
+### Key Properties of Similar Matrices
+
 1. **Same Eigenvalues**: Similar matrices have the same eigenvalues. This is because the eigenvalues are preserved under similarity transformations.
 2. **Same Determinant**: The determinant of similar matrices is the same because \\(\det(P^{-1}AP) = \det(A)\\).
 3. **Same Trace**: The trace (sum of the diagonal elements) of similar matrices is the same because \\(\text{tr}(P^{-1}AP) = \text{tr}(A)\\).
 4. **Same Rank**: Similar matrices have the same rank.
 5. **Same Characteristic Polynomial**: Similar matrices share the same characteristic polynomial.
 
-### Intuition:
+### Intuition
+
 Similar matrices represent the same linear transformation but in different bases. The matrix \\( P \\) can be thought of as a change of coordinates, transforming the basis in which the linear transformation is represented.
 
-### Example:
+### Example
+
 Consider two matrices \\( A \\) and \\( B \\):
 
 \\[ A = \begin{pmatrix} 1 & 2 \\ 0 & 3 \end{pmatrix}, \quad B = \begin{pmatrix} 3 & 0 \\ 2 & 1 \end{pmatrix} \\]
@@ -129,20 +132,24 @@ You can find the exact values for \\( U \\) and \\( V \\) by solving the eigenva
 
 The statement describes the behavior of the matrix as a linear transformation. Let's break it down to understand why this happens:
 
-### Matrix as a Linear Transformation:
+### Matrix as a Linear Transformation
+
 - **Input Space**: The matrix operates on vectors from a 3-dimensional space (since it has 3 columns). This means it takes 3-component vectors as input.
 - **Output Space**: The matrix maps these vectors to a 2-dimensional space (since it has 2 rows). This means it produces 2-component vectors as output.
 
-### Null Space:
+### Null Space
+
 - **Definition**: The null space (or kernel) of a matrix consists of all vectors that, when multiplied by the matrix, result in the zero vector.
 - **Dimension**: The nullity of the matrix is the dimension of this null space. In this case, the nullity is 1, meaning there is a 1-dimensional subspace of vectors that get mapped to zero.
 - **Interpretation**: This 1-dimensional subspace represents a line (in the 3-dimensional input space) of vectors that are "collapsed" or "squashed" to the zero vector in the 2-dimensional output space.
 
-### Why This Happens:
+### Why This Happens
+
 - **Rank-Nullity Theorem**: The theorem states that for any \\(m \times n\\) matrix, the rank (dimension of the column space) plus the nullity (dimension of the null space) equals the number of columns \\(n\\). Here, the rank is 2 and the number of columns is 3, so the nullity must be 1.
 - **Linear Dependence**: The existence of a null space with dimension 1 indicates that there is some redundancy or linear dependence among the columns of the matrix. This means that one of the columns can be expressed as a linear combination of the other two.
 
-### Visualization:
+### Visualization
+
 - Imagine a 3D space where all points on a specific line (the null space) are mapped to the origin in a 2D space. This line represents the vectors that are "lost" or "ignored" by the transformation defined by the matrix.
 
 This behavior is a fundamental aspect of linear transformations and highlights how matrices can reduce the dimensionality of the space they act upon.

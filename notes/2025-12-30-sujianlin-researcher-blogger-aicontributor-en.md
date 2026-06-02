@@ -15,6 +15,7 @@ type: note
 **Answer:**
 
 ### About Su Jianlin
+
 Su Jianlin (苏剑林), born in 1993 in a small village in Yunfu, Guangdong, China, is a Chinese researcher, blogger, and machine learning practitioner known online as **BoJone**. He holds a Bachelor's degree in Mathematics from South China Normal University and a Master's degree in Fundamental Mathematics (with a focus on mathematical biology applications) from Sun Yat-sen University (graduated in 2019).
 
 From a young age, he showed strong interest in science, particularly mathematics and chemistry, which later expanded to physics, astronomy, and computing. He idolizes physicist Richard Feynman and describes himself as someone who loves "drilling into the corners" of problems—persistently exploring deep details until breakthroughs. His hobbies include reading, writing, Chinese chess, cooking, and theoretical pursuits in various sciences.
@@ -23,7 +24,8 @@ After graduation, he joined Zhuiyi Technology (a company focused on NLP and AI) 
 
 Su is highly regarded in the Chinese AI community for his clear, in-depth explanations of complex topics, often called "苏神" (God Su) by admirers. He has published papers on arXiv and in journals, including co-authorship on **RoFormer** (introducing Rotary Position Embedding, widely adopted in models like LLaMA, GPT variants, and Google's models).
 
-### His Blog: 科学空间 (Scientific Spaces) - https://kexue.fm
+### His Blog: 科学空间 (Scientific Spaces) - <https://kexue.fm>
+
 Launched in **2009**, "科学空间" (Kexue.fm, also accessible via spaces.ac.cn) is Su Jianlin's personal blog dedicated to sharing knowledge in natural sciences and reflections on life. It started as a platform for exploring astronomy, mathematics, physics, chemistry, biology, and more general topics like photography and life insights.
 
 Over time, the blog evolved heavily toward **machine learning, natural language processing (NLP), deep learning optimization, generative models (e.g., diffusion models, VAEs, GANs), and Transformer architectures**. It now features thousands of articles spanning 16+ years (copyright up to 2025), with categories including Mathematics, Physics-Chemistry, Big Data/Information Era, Astronomy, Biology, and others.
@@ -33,6 +35,7 @@ The blog's style is technical yet accessible: long-form articles with mathematic
 It encourages reader interaction through comments, supports open reprinting under CC license, and has received support from institutions like the National Astronomical Observatories (LAMOST project). Su also built tools like **Cool Papers** (papers.cool), an AI-assisted paper browsing site using models like Kimi for summaries and FAQs.
 
 ### His Work and Contributions
+
 Su Jianlin's primary impact is in **NLP and deep learning**, bridging rigorous mathematics with practical implementations:
 
 - **Open-Source Projects** (via GitHub @bojone, 12k+ followers):

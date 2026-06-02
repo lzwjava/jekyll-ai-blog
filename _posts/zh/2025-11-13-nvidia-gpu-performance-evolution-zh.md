@@ -17,6 +17,7 @@ type: note
 现代对比型号：**RTX 3090**（安培架构，2020年）、**RTX 4070**（Ada Lovelace架构，2023年）和**RTX 4090**（Ada Lovelace架构，2022年）。**RTX 4090 Ti从未发布**——2023年曾有传闻但最终取消，截至2025年仍无更新消息。
 
 #### FP32 TFLOPS（理论峰值单精度性能）
+
 此项指标衡量着色器原始计算能力（数值越高代表理论浮点性能越强）。
 
 | GPU          | 架构         | FP32 TFLOPS | 相对GTX 480倍数 |
@@ -30,6 +31,7 @@ type: note
 现代显卡凭借核心数量暴增（5,888-16,384个着色器）、更高时钟频率及架构效率，实现了**20-60倍**的原始浮点性能提升。
 
 #### 实际性能表现（以RTX 4090为100%基准）
+
 - **TechPowerUp相对性能**：基于1,000+游戏/测试数据的平均值（聚焦1080p/1440p光栅化性能）。新架构凭借更优的任务调度、缓存技术及DLSS/光追等功能，在实际负载中表现更突出。
 - **PassMark G3D Mark**：聚合性基准测试（用户提交分数平均值）。
 
@@ -48,6 +50,7 @@ type: note
   - 游戏实例：2010年游戏在GTX 480上可实现1080p高画质60帧，而RTX 4090现可达成4K极致画质+光追200+帧。
 
 **参考资料**：
+
 - [TechPowerUp GTX 480规格](https://www.techpowerup.com/gpu-specs/geforce-gtx-480.c268)
 - [TechPowerUp GTX 580规格](https://www.techpowerup.com/gpu-specs/geforce-gtx-580.c270)
 - [TechPowerUp RTX 3090规格](https://www.techpowerup.com/gpu-specs/geforce-rtx-3090.c3622)

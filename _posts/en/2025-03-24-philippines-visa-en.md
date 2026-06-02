@@ -30,7 +30,7 @@ As a Chinese citizen residing in Guangzhou, to apply for a Philippine travel vis
 
 - **Address**: 21st Floor, Guangdong International Building, 339 Huanshi Dong Road, Yuexiu District, Guangzhou, Guangdong 510098
 - **Telephone**: (+86-20) 8331-1461; 8331-0996
-- **Email**: guangzhou.pcg@dfa.gov.ph
+- **Email**: <guangzhou.pcg@dfa.gov.ph>
 - **Office Hours**: Monday to Friday, 8:30 AM to 5:30 PM
 citeturn0search2
 

@@ -13,9 +13,11 @@ type: note
 ---
 
 ### 1. 添加 Spring Data REST 依赖
+
 要使用 Spring Data REST，你需要在项目中添加其依赖。如果使用 **Spring Boot**（常见场景），请在构建文件中添加以下依赖：
 
 - **Maven**：
+
   ```xml
   <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -24,6 +26,7 @@ type: note
   ```
 
 - **Gradle**：
+
   ```gradle
   implementation 'org.springframework.boot:spring-boot-starter-data-rest'
   ```
@@ -33,6 +36,7 @@ type: note
 ---
 
 ### 2. 定义实体类
+
 使用 JPA（Java Persistence API）等持久化技术定义实体类来创建领域模型。例如：
 
 ```java
@@ -66,6 +70,7 @@ public class User {
 ---
 
 ### 3. 创建仓库接口
+
 通过扩展 Spring Data 的仓库接口（如 `JpaRepository`）为实体定义仓库接口。例如：
 
 ```java
@@ -80,6 +85,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ---
 
 ### 4. 运行应用程序
+
 添加依赖并定义实体和仓库后，启动 Spring Boot 应用程序。Spring Data REST 将基于仓库自动生成 REST 端点。针对上述 `UserRepository`，可访问：
 
 - **GET /users**：获取所有用户列表
@@ -99,10 +105,12 @@ curl http://localhost:8080/users
 ---
 
 ### 5. （可选）自定义 REST 端点
+
 可通过注解或配置自定义仓库的暴露方式：
 
 - **修改端点路径**：
   使用 `@RepositoryRestResource` 注解指定自定义路径：
+
   ```java
   import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
@@ -110,10 +118,12 @@ curl http://localhost:8080/users
   public interface UserRepository extends JpaRepository<User, Long> {
   }
   ```
+
   此时端点将变为 `/people` 而非 `/users`
 
 - **全局配置**：
   通过实现 `RepositoryRestConfigurer` 自定义基础路径等设置：
+
   ```java
   import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
   import org.springframework.context.annotation.Configuration;
@@ -127,11 +137,13 @@ curl http://localhost:8080/users
       }
   }
   ```
+
   配置后，用户数据将可通过 `/api/users` 访问
 
 ---
 
 ### Spring Data REST 核心特性
+
 - **HATEOAS 支持**：响应包含超媒体链接指向相关资源
 - **分页与排序**：使用 `?page=0&size=10&sort=name,asc` 等查询参数进行分页和排序
 - **过滤功能**：在仓库中添加自定义查询方法（如 `findByName(String name)`）可暴露额外端点
@@ -139,7 +151,9 @@ curl http://localhost:8080/users
 ---
 
 ### 总结
+
 使用 `spring-data-rest-core` 的步骤：
+
 1. 引入 Spring Data REST 依赖（如 Spring Boot 项目使用 `spring-boot-starter-data-rest`）
 2. 使用相应注解（如 JPA 的 `@Entity`）定义实体
 3. 创建扩展 Spring Data 接口（如 `JpaRepository`）的仓库接口

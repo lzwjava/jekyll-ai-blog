@@ -28,41 +28,41 @@ Most characters in a regex match themselves literally. For example:
 
 Metacharacters are the building blocks that give regex its power. They have special meanings and don't match themselves literally. Here are the most common ones:
 
-1.  **`.` (Dot):** Matches any single character *except* a newline character (`\n` by default).
+1. **`.` (Dot):** Matches any single character *except* a newline character (`\n` by default).
     * `a.c` will match "abc", "adc", "a1c", "a c", but not "ac" or "abbc".
 
-2.  **`^` (Caret):**
+2. **`^` (Caret):**
     * **Inside a character set (see below):** Negates the set, matching any character *not* in the set.
     * **Outside a character set:** Matches the beginning of a string (or the beginning of a line in multiline mode).
         * `^hello` will match "hello world" but not "say hello".
 
-3.  **`$` (Dollar Sign):** Matches the end of a string (or the end of a line in multiline mode).
+3. **`$` (Dollar Sign):** Matches the end of a string (or the end of a line in multiline mode).
     * `world$` will match "hello world" but not "world hello".
 
-4.  **`*` (Asterisk):** Matches the preceding character or group zero or more times.
+4. **`*` (Asterisk):** Matches the preceding character or group zero or more times.
     * `ab*c` will match "ac", "abc", "abbc", "abbbc", and so on.
 
-5.  **`+` (Plus Sign):** Matches the preceding character or group one or more times.
+5. **`+` (Plus Sign):** Matches the preceding character or group one or more times.
     * `ab+c` will match "abc", "abbc", "abbbc", but not "ac".
 
-6.  **`?` (Question Mark):**
+6. **`?` (Question Mark):**
     * Matches the preceding character or group zero or one time (making it optional).
         * `ab?c` will match "ac" and "abc", but not "abbc".
     * Used as a quantifier modifier to make a match non-greedy (see Quantifiers section).
 
-7.  **`{}` (Curly Braces):** Specifies the exact number or range of occurrences of the preceding character or group.
+7. **`{}` (Curly Braces):** Specifies the exact number or range of occurrences of the preceding character or group.
     * `a{3}` matches exactly three "a"s (e.g., "aaa").
     * `a{2,4}` matches between two and four "a"s (e.g., "aa", "aaa", "aaaa").
     * `a{2,}` matches two or more "a"s (e.g., "aa", "aaa", "aaaa", ...).
 
-8.  **`[]` (Square Brackets):** Defines a character set, matching any single character within the brackets.
+8. **`[]` (Square Brackets):** Defines a character set, matching any single character within the brackets.
     * `[abc]` will match either "a", "b", or "c".
     * `[a-z]` will match any lowercase letter from "a" to "z" (range).
     * `[0-9]` will match any digit from "0" to "9".
     * `[A-Za-z0-9]` will match any alphanumeric character.
     * `[^abc]` (with `^` at the beginning) will match any character *except* "a", "b", or "c".
 
-9.  **`\` (Backslash):** Escapes the next character, treating a metacharacter as a literal character or introducing a special character sequence.
+9. **`\` (Backslash):** Escapes the next character, treating a metacharacter as a literal character or introducing a special character sequence.
     * `\.` will match a literal dot ".".
     * `\*` will match a literal asterisk "*".
     * `\d` matches any digit (equivalent to `[0-9]`).
@@ -149,16 +149,16 @@ If you need to group parts of a regex without creating a capturing group, you ca
 Lookarounds are zero-width assertions that check for a pattern before or after the current position in the string without including the matched lookaround part in the overall match.
 
 * **Positive Lookahead `(?=...)`:** Asserts that the pattern inside the parentheses must follow the current position.
-    * `\w+(?=:)` will match any word followed by a colon, but the colon itself will not be part of the match (e.g., in "name:", it will match "name").
+  * `\w+(?=:)` will match any word followed by a colon, but the colon itself will not be part of the match (e.g., in "name:", it will match "name").
 
 * **Negative Lookahead `(?!...)`:** Asserts that the pattern inside the parentheses must *not* follow the current position.
-    * `\w+(?!:)` will match any word not followed by a colon (e.g., in "name value", it will match "name" and "value").
+  * `\w+(?!:)` will match any word not followed by a colon (e.g., in "name value", it will match "name" and "value").
 
 * **Positive Lookbehind `(?<=...)`:** Asserts that the pattern inside the parentheses must precede the current position. The pattern inside the lookbehind must have a fixed width (no variable quantifiers like `*` or `+`).
-    * `(?<=\$)\d+` will match one or more digits that are preceded by a dollar sign, but the dollar sign itself will not be part of the match (e.g., in "$100", it will match "100").
+  * `(?<=\$)\d+` will match one or more digits that are preceded by a dollar sign, but the dollar sign itself will not be part of the match (e.g., in "$100", it will match "100").
 
 * **Negative Lookbehind `(?<!...)`:** Asserts that the pattern inside the parentheses must *not* precede the current position. The pattern inside the lookbehind must have a fixed width.
-    * `(?<!\$)\d+` will match one or more digits that are not preceded by a dollar sign (e.g., in "100$", it will match "100").
+  * `(?<!\$)\d+` will match one or more digits that are not preceded by a dollar sign (e.g., in "100$", it will match "100").
 
 **VII. Flags (Modifiers): Controlling Regex Behavior**
 
@@ -177,10 +177,10 @@ Regex is used extensively in various domains:
 
 * **Text Editors (e.g., Notepad++, Sublime Text, VS Code):** Finding and replacing text based on patterns.
 * **Programming Languages (e.g., Python, JavaScript, Java, C#):**
-    * Validating user input (e.g., email addresses, phone numbers, URLs).
-    * Extracting specific information from text (e.g., dates, numbers, tags).
-    * Replacing parts of a string based on a pattern.
-    * Parsing log files or other structured text data.
+  * Validating user input (e.g., email addresses, phone numbers, URLs).
+  * Extracting specific information from text (e.g., dates, numbers, tags).
+  * Replacing parts of a string based on a pattern.
+  * Parsing log files or other structured text data.
 * **Command-Line Tools (e.g., `grep`, `sed`, `awk`):** Searching and manipulating text files.
 * **Web Development:** Form validation, URL routing, content processing.
 * **Data Science:** Data cleaning, data extraction, pattern recognition.

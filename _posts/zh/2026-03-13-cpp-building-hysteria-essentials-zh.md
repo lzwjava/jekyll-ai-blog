@@ -13,7 +13,7 @@ type: note
 
 ---
 
-**问题：** 如果我用 C++ 构建 Hysteria（https://github.com/apernet/hysteria）？需要哪些库？
+**问题：** 如果我用 C++ 构建 Hysteria（<https://github.com/apernet/hysteria）？需要哪些库？>
 
 **答案：**
 
@@ -94,6 +94,7 @@ Hysteria 协议支持一个可选的混淆层称为“Salamander”，它通过�
 ## 构建复杂度
 
 用 C++ 构建 Hysteria 的挑战远高于 Clash-core。考虑从以下开始：
+
 - MsQuic 用于 QUIC 传输（生产就绪，文档完善）
 - nghttp3 用于 HTTP/3 兼容性
 - wolfSSL 用于密码学（包含 BLAKE2b）

@@ -46,7 +46,6 @@ type: post
    - Practiced via Upwork client projects
    - Focused on immersion over memorization
 
-
 ## Affordable English Practice with Native Speakers
 
 *2025.02.15*

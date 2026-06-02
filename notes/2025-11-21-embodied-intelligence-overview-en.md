@@ -15,6 +15,7 @@ type: note
 Embodied intelligence, also known as embodied AI, refers to artificial intelligence systems that are physically situated in the world through a body (e.g., a robot) and learn, reason, and act via direct interaction with their environment. Unlike traditional AI, which processes abstract data in isolation (e.g., language models like GPT), embodied AI emphasizes that true intelligence emerges from sensory-motor loops: perceiving the world, acting upon it, and adapting based on feedback. This paradigm draws from cognitive science, where cognition is seen as rooted in physical embodiment rather than pure computation.
 
 Key principles include:
+
 - **Multimodal perception**: Integrating vision, touch, proprioception, and sometimes language or sound.
 - **Interaction-driven learning**: Agents improve through trial-and-error in the real world or high-fidelity simulations (sim-to-real transfer).
 - **Generalization and adaptation**: Handling unstructured, dynamic environments with long-horizon tasks, multimodality (e.g., combining vision and language), and robustness to perturbations.
@@ -26,6 +27,7 @@ As of 2025, embodied AI has exploded due to foundation models (large pre-trained
 These three represent state-of-the-art approaches to learning robotic policies (mappings from observations to actions) via imitation learning—training on human or expert demonstrations without explicit rewards.
 
 #### ACT (Action Chunking with Transformer)
+
 - **Origin**: Introduced in 2023 by Tony Zhao et al. (Covariant.ai, formerly from UC Berkeley) as part of the ALOHA system for low-cost bimanual manipulation.
 - **Core Idea**: A transformer-based policy that predicts **chunks** of future actions (e.g., 100 steps at once) instead of one action per timestep. This reduces temporal errors (compounding mistakes over long horizons) and enables smooth, high-frequency control (e.g., 50Hz).
 - **Architecture**: Uses a Variational Autoencoder (VAE) or transformer backbone. Input: Multi-view RGB images + proprioception (joint states). Output: Chunked joint positions/velocities.
@@ -37,6 +39,7 @@ These three represent state-of-the-art approaches to learning robotic policies (
 - **Real-World Impact**: Powers systems like ALOHA (mobile manipulators) and has been widely adopted for bimanual tasks.
 
 #### Diffusion Policy
+
 - **Origin**: 2023 paper by Cheng Chi et al. (Columbia University, Toyota Research Institute, MIT). Extended in works like 3D Diffusion Policy and ScaleDP (up to 1B parameters in 2025).
 - **Core Idea**: Treats robot actions as generative samples from a diffusion model (inspired by image generators like Stable1. No, Stable Diffusion). Start with noisy actions, iteratively denoise them conditioned on observations to produce high-quality, multimodal action sequences.
 - **Architecture**: Conditional denoising diffusion model (often with transformers). Learns the "score function" (gradient of action distribution). Inference uses receding-horizon control: Plan a sequence, execute first action, replan.
@@ -49,6 +52,7 @@ These three represent state-of-the-art approaches to learning robotic policies (
 - **Real-World Impact**: Widely used for visuomotor manipulation; integrated into systems like PoCo (policy composition) and scaled models.
 
 #### RT-2 (Robotics Transformer 2)
+
 - **Origin**: 2023 by Google DeepMind (building on RT-1). Part of the Vision-Language-Action (VLA) family.
 - **Core Idea**: Co-fine-tune a large pre-trained vision-language model (e.g., PaLM-E or PaLI-X, up to 55B parameters) on robot trajectories. Actions are tokenized as text strings, allowing the model to output actions directly while leveraging web-scale knowledge (images + text).
 - **Architecture**: Transformer that takes images + language instructions → tokenized actions. Emergent skills from web pre-training (e.g., reasoning about symbols, chain-of-thought).

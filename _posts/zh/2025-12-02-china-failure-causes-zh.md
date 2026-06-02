@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 提问
+
 为什么中国人会在生活中失败？
 
 ### 回答
@@ -50,6 +51,7 @@ type: note
 简而言之，在中国，“失败”与其说是懒惰或糟糕的选择，不如说是**在一系列高风险、零和博弈中未能获胜**（高考 → 就业市场 → 住房/婚姻 → 35岁以后保住工作），并且身处大多数发达国家都没有如此严重制度限制的环境中。
 
 参考文献
+
 - [China’s Youth Unemployment Crisis (Caixin Global)](https://www.caixinglobal.com/2023-08-16/in-depth-chinas-youth-unemployment-crisis-101927528.html)
 - [The Hukou System and Intergenerational Poverty (Stanford FSI)](https://fsi.stanford.edu/publication/chinas-hukou-system)
 - [35-Year-Old Curse in Chinese Tech (Sixth Tone)](https://www.sixthtone.com/news/1009418)

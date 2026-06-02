@@ -54,12 +54,14 @@ The "sweet spot" appears to be modest markups on convenience items, with premium
 ## Business Sustainability Assessment
 
 **Strengths**:
+
 - Low overhead (mobile unit vs. building rental)
 - Disaster flexibility
 - Protected from excessive competition
 - Serves essential need (convenience items for tourists/residents)
 
 **Challenges**:
+
 - Dependence on external transport means the supply of goods depends almost entirely on maritime transport, creating vulnerability to ferry disruptions
 - Limited growth potential due to small market size
 - Seasonal tourism fluctuations

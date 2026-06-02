@@ -26,6 +26,7 @@ OASIS is an open-source social media simulator that uses large language model ag
 ### Use Cases
 
 The platform supports diverse research and industry applications including:
+
 - Research simulations studying social phenomena
 - Content interaction analysis
 - User behavior prediction

@@ -44,21 +44,25 @@ Sourcegraph search has its own query language that’s flexible and powerful. He
   ```
   repo:github.com/myorg/myrepo
   ```
+
 * `file:` → match file path (regex supported)
 
   ```
   file:\.java$
   ```
+
 * `lang:` → restrict to a programming language
 
   ```
   lang:python requests
   ```
+
 * `content:` → force a text search (ignores structural matches)
 
   ```
   content:"SELECT * FROM"
   ```
+
 * `case:yes` → make search case-sensitive
 
 ---
@@ -109,11 +113,13 @@ if (:[cond]) { :[body] }
   ```
   TODO lang:go
   ```
+
 * Search only in `src/` folder for Java methods:
 
   ```
   file:^src/ lang:java "public static"
   ```
+
 * Search across multiple repos:
 
   ```

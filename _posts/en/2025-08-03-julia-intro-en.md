@@ -18,6 +18,7 @@ Julia's development began in 2009 by Jeff Bezanson, Stefan Karpinski, Viral B. S
 Early versions evolved rapidly, with syntax and semantics stabilizing at version 1.0 in August 2018, which promised backward compatibility for the 1.x series. Prior to version 0.7 (also released in 2018 as a bridge to 1.0), there were frequent changes. The language has seen steady releases since, with long-term support (LTS) versions like 1.6 (later replaced by 1.10.5) and ongoing improvements.
 
 Key milestones include:
+
 - Julia 1.7 (November 2021): Faster random-number generation.
 - Julia 1.8 (2022): Better distribution of compiled programs.
 - Julia 1.9 (May 2023): Enhanced package precompilation.
@@ -30,6 +31,7 @@ The Julia community has grown significantly, with over 1,000 contributors on Git
 ## Key Features
 
 Julia stands out due to its design principles, which emphasize performance, flexibility, and usability:
+
 - **Multiple Dispatch**: A core paradigm where function behavior is determined by the types of all arguments, enabling polymorphic code that's efficient and extensible. This replaces traditional object-oriented inheritance with composition.
 - **Dynamic Typing with Type Inference**: Julia is dynamically typed but uses type inference for performance, allowing optional type annotations. It's nominative, parametric, and strong, with everything being an object.
 - **Just-in-Time (JIT) Compilation**: Code compiles to native machine code at runtime, making Julia as fast as C in benchmarks for many tasks.
@@ -47,6 +49,7 @@ Julia supports general-purpose programming too, including web servers, microserv
 Julia was built "from the ground up" for scientific and numerical computing, addressing the "two-language problem" where prototypes are written in slow, high-level languages and then rewritten in faster ones. Its speed rivals Fortran or C while maintaining a syntax similar to MATLAB or Python, making it ideal for simulations, optimization, and data analysis.
 
 Key strengths:
+
 - **Performance**: Benchmarks show Julia outperforming Python and R in numerical tasks, often by orders of magnitude, due to JIT and type specialization.
 - **Ecosystem**: Over 10,000 packages, including:
   - DifferentialEquations.jl for solving ODEs/PDEs.
@@ -66,11 +69,13 @@ Julia's syntax is clean, expression-based, and familiar to users of Python, MATL
 Here are some basic examples:
 
 ### Hello World
+
 ```julia
 println("Hello, World!")
 ```
 
 ### Defining a Function
+
 ```julia
 function square(x)
     return x^2  # ^ is exponentiation
@@ -80,6 +85,7 @@ println(square(5))  # Output: 25
 ```
 
 ### Matrix Operations
+
 ```julia
 A = [1 2; 3 4]  # 2x2 matrix
 B = [5 6; 7 8]
@@ -89,6 +95,7 @@ println(C)  # Output: [19 22; 43 50]
 ```
 
 ### Looping and Conditionals
+
 ```julia
 for i in 1:5
     if i % 2 == 0
@@ -100,7 +107,9 @@ end
 ```
 
 ### Plotting (Requires Plots.jl Package)
+
 First, install the package in the REPL: `using Pkg; Pkg.add("Plots")`
+
 ```julia
 using Plots
 x = range(0, stop=2π, length=100)
@@ -109,6 +118,7 @@ plot(x, y, label="sin(x)", xlabel="x", ylabel="y")
 ```
 
 ### Multiple Dispatch Example
+
 ```julia
 greet(::Int) = "Hello, integer!"
 greet(::String) = "Hello, string!"
@@ -122,6 +132,7 @@ These examples can be run in the Julia REPL for interactive testing.
 ## Installation
 
 Julia is available for Windows, macOS, Linux, and FreeBSD. Download binaries from the official site. For example:
+
 - Run the installer and add Julia to your PATH.
 - Use the REPL to manage packages: `julia` in terminal.
 Detailed instructions: Supported platforms include x86-64, ARM, and more.
@@ -129,6 +140,7 @@ Detailed instructions: Supported platforms include x86-64, ARM, and more.
 ## Community and Resources
 
 Julia has a vibrant, inclusive community with over 1,000 contributors. Resources include:
+
 - Discourse forum, Zulip chat, Slack, Twitter (@JuliaLanguage), YouTube channel, LinkedIn, and Twitch streams.
 - Annual JuliaCon conference.
 - Documentation at docs.julialang.org.

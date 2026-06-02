@@ -12,9 +12,11 @@ type: note
 要识别最早的 GitHub 用户并非易事，因为 GitHub 不会公开大多数账户的确切注册时间，且“知名度”具有主观性——可能基于贡献、粉丝数或影响力。不过，根据现有信息，以下将介绍一些 2008 年 GitHub 上线初期的知名早期用户，重点关注像 TJ Holowaychuk 这样在早期就活跃且有影响力的用户。
 
 ### 2008 年的 GitHub 背景
+
 GitHub 由 Tom Preston-Werner、Chris Wanstrath、P.J. Hyett 和 Scott Chacon 于 2007 年创立，并于 2008 年 4 月正式上线。早期用户多为 Ruby on Rails 开发者，因为该平台使用 Ruby 构建并吸引了该社区，同时也有其他使用 Git 进行版本控制的开发者。到 2009 年，GitHub 已拥有超过 10 万用户和 9 万个公共仓库，增长迅速。[](https://en.wikipedia.org/wiki/GitHub)[](https://nira.com/github-history/)
 
 ### 知名早期 GitHub 用户（2008 年左右）
+
 以下是一些著名的早期 GitHub 用户，包括 TJ Holowaychuk 及其他在 2008 年左右活跃或有影响力的人物：
 
 1. **TJ Holowaychuk (tj)**
@@ -58,20 +60,24 @@ GitHub 由 Tom Preston-Werner、Chris Wanstrath、P.J. Hyett 和 Scott Chacon �
    - **影响力**：jQuery 的流行使他的 GitHub 存在感显著，吸引了开发者加入该平台。
 
 ### 其他值得注意的用户
+
 - **Linus Torvalds (torvalds)**：Git 和 Linux 的创建者，Torvalds 在 2008–2009 年左右拥有 GitHub 账户，尽管他的主要贡献通过其他渠道进行。他的存在（到 2011 年有 2.2 万粉丝）为 GitHub 增添了可信度。[](https://gist.github.com/mgechev/1d863046e5a9814df27d)[](https://www.reddit.com/r/github/comments/41ccio/list_of_celebrity_programmers_who_have_a_github/)
 - **Jeremy Ashkenas (jashkenas)**：*Backbone.js* 和 *CoffeeScript* 的创建者，他在 2008–2009 年左右活跃于 Ruby 和 JavaScript 社区，到 2011 年拥有 6700 名粉丝。[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 - **Max Ogden (maxogden)**：早期 Node.js 贡献者，大约在 2008–2009 年活跃，到 2011 年拥有 19 个组织。[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 
 ### 这些用户脱颖而出的原因
+
 - **Ruby on Rails 关联**：GitHub 的上线与 Ruby on Rails 社区采用 Git 的时间相吻合，正如 Linus Torvalds 在 2025 年的一次采访中所指出的。许多早期用户，如 TJ Holowaychuk，是 Ruby 或 JavaScript 开发者，被 GitHub 相对于 CVS 等旧系统的易用性所吸引。[](https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds/)
 - **贡献和粉丝数**：2011 年的列表（例如）突出了像 *tj*、*paulirish* 和 *addyosmani* 这样的用户，因为他们的高贡献记录和组织参与度，反映了他们的早期活跃性。[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 - **平台增长**：GitHub 的快速增长（2009 年 2 月 4.6 万个仓库，2009 年 7 月 10 万用户）是由开发者之间的口碑推动的，这些早期采用者塑造了其社区。[](https://nira.com/github-history/)
 
 ### 确定“最早”用户的挑战
+
 - **无公开注册数据**：GitHub 不公开确切的加入日期，且一些早期账户（如 *user1* 到 *user10*）是测试或已删除账户。像“最老 GitHub 账户”拥有 2004 年（早于 GitHub）仓库的说法很可能是异常情况或回溯导入。[](https://www.reddit.com/r/webdev/comments/1bdlmsl/i_came_across_the_oldest_github_account/)
 - **定义知名度**：2008 年的知名度与贡献（如 TJ 的 Express.js）或平台参与度（如联合创始人）相关。后来的指标如粉丝数或星标数在早期并不突出。
 
 ### 来源
+
 - GitHub - 维基百科[](https://en.wikipedia.org/wiki/GitHub)
 - 顶级 GitHub 用户 · GitHub[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 - GitHub 如何 democratized 编码[](https://nira.com/github-history/)

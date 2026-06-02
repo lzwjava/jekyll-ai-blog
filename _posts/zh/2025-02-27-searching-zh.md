@@ -11,9 +11,11 @@ type: note
 搜索的核心在于高效地查找数据。让我们来探讨二分查找和线性查找。
 
 ## 1. 二分查找：对数级效率
+
 二分查找适用于已排序数组，每一步都将搜索空间减半，时间复杂度为 O(log n)。
 
 ### Java 实现
+
 ```java
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
@@ -34,12 +36,15 @@ public class BinarySearch {
     }
 }
 ```
+
 **输出：** `Found at: 3`
 
 ## 2. 线性查找：基础基准
+
 线性查找按顺序检查每个元素，时间复杂度为 O(n)——适用于未排序数据。
 
 ### Java 实现
+
 ```java
 public class LinearSearch {
     public static int linearSearch(int[] arr, int target) {
@@ -56,4 +61,5 @@ public class LinearSearch {
     }
 }
 ```
+
 **输出：** `Found at: 3`

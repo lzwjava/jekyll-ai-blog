@@ -13,6 +13,7 @@ type: note
 我将把 LoRA 演示代码分解成关键部分，在进入下一部分之前详细解释每一部分。这将有助于清晰地展示 LoRA 的工作原理。这段代码基于之前的示例，使用 PyTorch 为简单线性层实现 LoRA。
 
 ### 代码片段 1：LoRA 层定义
+
 ```python
 import torch
 import torch.nn as nn
@@ -30,6 +31,7 @@ class LoRALayer(nn.Module):
 ```
 
 #### 解释
+
 这段代码定义了实现 LoRA 技术的 `LoRALayer` 类：
 
 - **导入和类设置**：我们导入 PyTorch（`torch`）及其神经网络模块（`nn`）。`LoRALayer` 类继承自 `nn.Module`，使其成为可以集成到更大模型中的 PyTorch 模块。
@@ -43,6 +45,7 @@ class LoRALayer(nn.Module):
 ---
 
 ### 代码片段 2：LoRA 前向传播
+
 ```python
     def forward(self, x):
         # 原始线性变换 + LoRA 调整
@@ -52,6 +55,7 @@ class LoRALayer(nn.Module):
 ```
 
 #### 解释
+
 这段代码定义了 `LoRALayer` 的前向传播，计算层的输出：
 
 - **输入**：输入 `x` 是一个形状为 `(batch_size, in_features)` 的张量，代表一批输入数据。
@@ -64,6 +68,7 @@ class LoRALayer(nn.Module):
 ---
 
 ### 代码片段 3：玩具数据集和训练
+
 ```python
 def create_toy_dataset(n_samples=1000):
     X = torch.randn(n_samples, 64)  # 随机输入特征
@@ -85,6 +90,7 @@ def train_model(model, X, y, epochs=10, lr=0.01):
 ```
 
 #### 解释
+
 这段代码创建一个玩具数据集并训练 LoRA 适应模型：
 
 - **玩具数据集**：`create_toy_dataset` 函数生成用于演示的合成数据。`X` 是一个形状为 `(1000, 64)` 的张量（1000 个样本，64 个特征），`y` 是一个形状为 `(1000, 10)` 的张量（1000 个样本，10 个输出维度）。这些是随机张量，用于模拟输入-输出对。
@@ -98,6 +104,7 @@ def train_model(model, X, y, epochs=10, lr=0.01):
 ---
 
 ### 代码片段 4：主执行和参数计数
+
 ```python
 def main():
     # 设置随机种子以确保可重现性
@@ -123,6 +130,7 @@ if __name__ == "__main__":
 ```
 
 #### 解释
+
 这段代码将所有内容整合在一起，并突出显示 LoRA 的效率：
 
 - **随机种子**：`torch.manual_seed(42)` 确保随机初始化的可重现性。
@@ -138,6 +146,7 @@ if __name__ == "__main__":
 ---
 
 ### 运行代码
+
 要运行此代码，您需要安装 PyTorch（`pip install torch`）。将完整代码保存为 `.py` 文件并执行。输出将显示参数数量和 10 个周期内的训练损失，展示 LoRA 在微调中的效率。
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)

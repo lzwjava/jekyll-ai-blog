@@ -14,9 +14,11 @@ type: note
 
 1. **检查 Beyond Compare 安装**
    确保 Beyond Compare 已安装且可通过命令行访问。可通过运行以下命令验证：
+
    ```
    bcomp
    ```
+
    如果无法识别，请确保 Beyond Compare 可执行文件（例如 Windows 上的 `BCompare.exe` 或 macOS/Linux 上的 `bcomp`）位于系统的 PATH 环境变量中。
 
 2. **配置 Git 使用 Beyond Compare**
@@ -85,6 +87,7 @@ type: note
    查找类似 `diff.tool=bc` 和 `difftool.bc.path` 的条目。
 
 ### 其他提示
+
 - **比较特定文件**：使用 `git difftool <文件>` 比较特定文件。
 - **比较分支**：使用 `git difftool 分支1 分支2` 比较两个分支之间的差异。
 - **Beyond Compare 设置**：在 Beyond Compare 中，可通过其界面自定义比较规则（例如忽略空格）以获得更好的差异可视化效果。

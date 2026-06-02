@@ -23,6 +23,7 @@ type: note
 简而言之，这是AI热潮与规模化挑战碰撞的典型范例：虽怀揣雄心壮志，但在从日益庞大的模型中榨取最后一点能力时遭遇技术壁垒。
 
 ### 参考资料
+
 - [马克·扎克伯格谈Llama 4训练进展](https://www.reddit.com/r/LocalLLaMA/comments/1id6gcj/mark_zuckerberg_on_llama_4_training_progress/)
 - [Llama 4正式发布 | 马克·扎克伯格](https://www.facebook.com/zuck/videos/llama-4-is-here-/1334337587862376/)
 - [AI的未来：基于Llama构建](https://ai.meta.com/blog/future-of-ai-built-with-llama/)

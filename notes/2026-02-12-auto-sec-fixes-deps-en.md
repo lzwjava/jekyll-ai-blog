@@ -19,15 +19,18 @@ type: note
 Here's a clear breakdown of what it does and how it works:
 
 ### What `npm audit` does first
+
 ```bash
 npm audit
 ```
+
 - Scans your dependency tree (everything in `package-lock.json` or `npm-shrinkwrap.json`)
 - Checks against the npm security database
 - Reports known vulnerabilities with severity (low / moderate / high / critical)
 - Shows which packages are vulnerable and suggests fixed versions
 
 ### What `npm audit fix` actually does
+
 ```bash
 npm audit fix
 ```
@@ -55,6 +58,7 @@ npm audit fix
 ```bash
 npm audit fix --force
 ```
+
 - Also installs **breaking** (major) version updates when needed
 - Very risky — can break your application
 - Use only when you are prepared to test and fix breaking changes
@@ -62,11 +66,13 @@ npm audit fix --force
 ```bash
 npm audit fix --dry-run
 ```
+
 - Shows what *would* be changed without actually modifying files
 
 ```bash
 npm audit fix --package-lock-only
 ```
+
 - Only updates `package-lock.json`, doesn't touch `node_modules`
 - Useful in CI / lockfile-only workflows
 
@@ -94,6 +100,7 @@ Most teams now prefer:
    → create PRs for both version updates **and** security fixes
 
 `npm audit fix` is convenient, but it's not magic — it cannot fix vulnerabilities that require:
+
 - code changes in your app
 - major version upgrades
 - removing the dependency completely

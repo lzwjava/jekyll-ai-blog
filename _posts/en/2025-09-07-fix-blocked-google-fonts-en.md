@@ -79,6 +79,7 @@ rg -n "display=swap"
    }
    body { font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
    ```
+
 3. Remove the Google Fonts `<link>`/`@import`.
 
 **C) Leave it as-is but stop the request from failing**

@@ -16,6 +16,7 @@ Python `requests` 库中的 `Session` 是一种在多个 HTTP 请求间保持特
 `requests` 库在 Python 中被广泛用于发起 HTTP 请求。虽然你可以使用独立函数如 `requests.get()` 或 `requests.post()`，但 `Session` 对象允许你创建一个持久化会话，在多个请求间保留配置（例如 cookies、headers 或认证凭证）。这对于需要状态交互的网站或 API 交互特别有用，例如保持登录状态或复用 TCP 连接。
 
 `Session` 对象：
+
 - 在请求间保持 cookies 持久化
 - 复用底层 TCP 连接（通过连接池），在向同一主机发起多个请求时提升性能
 - 允许设置默认参数（如 headers、超时时间），这些参数将应用于该会话的所有请求
@@ -59,6 +60,7 @@ session.close()
 ```
 
 在此示例中：
+
 - 创建了 `Session`，并为所有请求设置了自定义 `User-Agent` header
 - 会话自动处理 cookies，因此如果 `response1` 设置了 cookie，它会随 `response2` 发送
 - 会话复用到 `api.example.com` 的连接，提升了性能
@@ -66,6 +68,7 @@ session.close()
 ## 主要特性与示例
 
 ### 1. **保持 Cookies 持久化**
+
 会话对于使用 cookies 保持状态的网站特别有用，例如登录会话。
 
 ```python
@@ -89,6 +92,7 @@ session.close()
 这里，会话存储了登录请求的认证 cookie，并在后续请求中将其发送到受保护页面。
 
 ### 2. **设置默认参数**
+
 你可以为会话中的所有请求设置默认 headers、认证或其他参数。
 
 ```python
@@ -113,6 +117,7 @@ session.close()
 ```
 
 ### 3. **连接池**
+
 当向同一主机发起多个请求时，`Session` 会复用连接，这比独立请求更高效。
 
 ```python
@@ -137,6 +142,7 @@ session.close()
 基于会话的请求通常更快，因为它们复用了 TCP 连接。
 
 ### 4. **认证**
+
 会话简化了认证处理，例如 HTTP 基本认证或自定义基于令牌的认证。
 
 ```python
@@ -154,6 +160,7 @@ session.close()
 ```
 
 ### 5. **自定义适配器**
+
 你可以挂载自定义适配器来控制重试或连接池行为等。
 
 ```python
@@ -179,6 +186,7 @@ session.close()
 ## 何时使用 `Session`
 
 在以下情况下使用 `requests.Session`：
+
 - 需要在多个请求间保持状态（例如 cookies），例如用于认证
 - 向同一主机发起多个请求，并希望受益于连接池
 - 希望在请求间应用一致的配置（headers、超时等）
@@ -205,10 +213,12 @@ with requests.Session() as session:
 ```
 
 ## 高级说明
+
 - **线程安全**：`Session` 对象不是线程安全的。如果使用多线程，请为每个线程创建单独的 `Session`
 - **代理**：可以通过 `session.proxies = {'http': 'http://proxy.com', 'https': 'https://proxy.com'}` 在会话上设置代理
 - **SSL 验证**：默认情况下，`Session` 会验证 SSL 证书。要禁用（生产环境不推荐），使用 `session.verify = False`
 
 ## 参考资料
+
 [Requests 文档](https://requests.readthedocs.io/en/latest/)
 [Requests 会话对象](https://requests.readthedocs.io/en/latest/user/advanced/#session-objects)

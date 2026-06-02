@@ -19,16 +19,19 @@ This question tests knowledge of Su Shi's life circumstances when he wrote the f
 ## Background Story
 
 **Su Shi's Marriage:**
+
 - Married Wang Fu (王弗) at age 19
 - They had a loving marriage for 10 years
 - Wang Fu died tragically, leaving Su Shi devastated
 
 **Political Context:**
+
 - Su Shi became embroiled in court factional struggles
 - To escape political turmoil and pursue local governance
 - He requested external posting
 
 **Career Progression:**
+
 - First: Hangzhou Vice Magistrate (杭州通判)
 - Then: **Mizhou Prefect (密州知州)** ← When he wrote this poem
 
@@ -37,6 +40,7 @@ This question tests knowledge of Su Shi's life circumstances when he wrote the f
 **Opening lines:** "十年生死两茫茫" (Ten years between life and death, two worlds apart)
 
 This deeply emotional poem was written:
+
 - **Ten years after** his wife's death
 - **While serving in Mizhou**
 - As a memorial to his deceased wife Wang Fu

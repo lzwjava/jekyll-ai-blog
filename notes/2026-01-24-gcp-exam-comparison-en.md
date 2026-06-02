@@ -43,6 +43,7 @@ Here is a detailed comparison between the two Google Cloud certifications: **Ass
 ### Main Topics Covered
 
 **Associate Cloud Engineer**
+
 - Setting up a cloud solution environment
 - Planning and configuring a cloud solution
 - Deploying and implementing a cloud solution (Compute Engine, Kubernetes Engine, App Engine, Cloud Functions, Cloud Run)
@@ -52,6 +53,7 @@ Here is a detailed comparison between the two Google Cloud certifications: **Ass
 Heavy emphasis on: IAM, VPC, networking basics, storage options, basic container deployment, billing, and operations.
 
 **Professional Cloud Developer**
+
 - Designing highly scalable, available, and reliable cloud-native applications
 - Building and testing applications
 - Deploying applications (App Engine, Cloud Run, GKE, Cloud Functions)

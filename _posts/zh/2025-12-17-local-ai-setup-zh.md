@@ -17,6 +17,7 @@ type: note
 要在本地计算机上开发AI应用程序——涵盖编程辅助、小型模型实验、在小型数据集上进行微调或训练、轻量级数据库以及交互式产品的快速原型设计——以下是截至2025年末使用免费、开源工具的全面设置。
 
 ### 运行小型本地AI模型（推理和实验）
+
 使用Microsoft Phi-3/Phi-4、Google Gemma 2/3、Meta Llama 3.2或Qwen 2.5等小型模型（3B–8B参数），以便在消费级硬件（CPU或适度GPU）上快速测试。
 
 - **推荐工具**：
@@ -27,18 +28,22 @@ type: note
 这些工具可以离线运行，支持量化以减少RAM/VRAM使用，并实现快速迭代。
 
 ### 训练或微调小型模型
+
 针对小型数据集和模型：
+
 - 使用Hugging Face库（transformers，peft用于LoRA/QLoRA高效微调）。
 - 使用Axolotl或Unsloth等工具简化微调脚本。
 - 在本地CPU/GPU上运行；从3B–7B模型开始，以避免高资源需求。
 
 ### 用于原型设计的轻量级数据库
+
 - **SQLite**：默认选择。零配置、基于文件，非常适合事务性数据（用户记录、设置）。直接嵌入Python应用程序中。
 - **DuckDB**：非常适合对小型/中型数据集（CSV/Parquet）进行分析查询。比SQLite更快地进行聚合/连接；非常适合RAG原型或数据探索。
 
 两者都是嵌入式（无服务器）、轻量级，并与Python无缝集成（通过sqlite3或duckdb包）。
 
 ### 交互式AI产品的快速原型设计
+
 使用Python快速构建具有用户交互（聊天机器人、演示、工具）的Web应用程序。
 
 - **Gradio**：最快用于ML/AI演示。可在几分钟内创建带有输入/输出（文本、图像、音频）的界面。可共享链接，Hugging Face集成。
@@ -51,10 +56,10 @@ type: note
 
 参考文献：
 
-- https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips
-- https://www.unite.ai/best-llm-tools-to-run-models-locally/
-- https://pinggy.io/blog/top_5_local_llm_tools_and_models_2025/
-- https://www.kdnuggets.com/top-5-small-ai-coding-models-that-you-can-run-locally
-- https://betterstack.com/community/guides/scaling-python/duckdb-vs-sqlite/
-- https://www.gradio.app/
-- https://clickup.com/blog/streamlit-alternatives/
+- <https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips>
+- <https://www.unite.ai/best-llm-tools-to-run-models-locally/>
+- <https://pinggy.io/blog/top_5_local_llm_tools_and_models_2025/>
+- <https://www.kdnuggets.com/top-5-small-ai-coding-models-that-you-can-run-locally>
+- <https://betterstack.com/community/guides/scaling-python/duckdb-vs-sqlite/>
+- <https://www.gradio.app/>
+- <https://clickup.com/blog/streamlit-alternatives/>

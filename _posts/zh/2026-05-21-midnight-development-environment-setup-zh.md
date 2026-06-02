@@ -34,6 +34,7 @@ type: note
 ## Hermes / LLM 修复（在你的 `ww` 项目中）
 
 **推理模型 token 限制** — DeepSeek v4 Flash 是推理模型，`max_tokens=60` 太小（推理过程消耗了全部预算）。已提升至 300，修改位置：
+
 - `ww/note/create_note_utils.py`
 - `ww/note/screenshot_log.py`
 

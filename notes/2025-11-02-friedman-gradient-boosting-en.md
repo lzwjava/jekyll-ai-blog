@@ -19,6 +19,7 @@ Jerome Harold Friedman, born on December 29, 1939, in the small town of Yreka, C
 Friedman's landmark paper, *"Greedy Function Approximation: A Gradient Boosting Machine"*, published in the *Annals of Statistics* in August 2001, formalized gradient boosting as a versatile ensemble method for regression and classification. Building on earlier boosting ideas from computer scientists like Yoav Freund and Robert Schapire (who focused on classification error), Friedman extended it to arbitrary loss functions using a "functional gradient descent" framework. The core idea: iteratively add weak learners (often simple decision trees) that fit the negative gradient of the loss on the current residuals, effectively minimizing errors step-by-step like stochastic gradient descent in function space.
 
 Key innovations included:
+
 - **Shrinkage (learning rate)**: A regularization parameter to prevent overfitting by scaling each new tree, reducing variance without increasing bias.
 - **Flexibility**: Applicable to any differentiable loss (e.g., squared error for regression, log-loss for classification), making it a general-purpose tool.
 - **Statistical interpretation**: Collaborating with Trevor Hastie and Robert Tibshirani, he showed boosting reduces correlation among weak learners, improving ensemble performance.
@@ -34,6 +35,7 @@ His Ph.D. in high-energy particle physics followed in 1967, focusing on meson re
 In 1972, he landed as head of the Computation Research Group at Stanford Linear Accelerator Center (SLAC), commuting from Berkeley with his wife and young daughter. Leading ~10 programmers, he tackled graphics, algorithms, and physicist tools on cutting-edge hardware. Sabbaticals—like at CERN (1976–1977), where he built adaptive Monte Carlo code—broadened him, but SLAC's intensity suited his style. Interface conferences introduced him to stats giants: John Tukey (projection pursuit, 1974), Leo Breiman (CART collaboration, 1977 onward), and Werner Stuetzle (regression extensions).
 
 By 1982, he joined Stanford's Statistics Department half-time (full Professor by 1984; Chairman 1988–1991; Emeritus 2007), balancing SLAC leadership until 2003. His "random walk" research—solving thorny problems via code and empiricism—yielded breakthroughs:
+
 - **1970s**: k-d trees for fast nearest neighbors (1977) and projection pursuit to spot "clumps" in high dimensions.
 - **1980s**: CART (trees for classification/regression) and ACE (nonparametric transformations, 1985).
 - **1990s**: MARS (spline-based adaptive regression, 1991); critiques of PLS; bump hunting (PRIM, 1999).
@@ -46,6 +48,7 @@ A prolific consultant (e.g., Google 2011–2014, Yahoo 2004–2005), he commerci
 As of 2025, at age 85, Friedman remains affiliated with Stanford University's Department of Statistics as Professor Emeritus, continuing to influence the field through his legacy and occasional work. His Stanford profile lists him as an active researcher in machine learning, and recent updates (e.g., American Academy of Arts and Sciences, September 2025) highlight his ongoing recognition. No indications of full retirement—he's likely consulting or mentoring sporadically, given his history. He resides in the Bay Area, true to his California roots.
 
 **References**
+
 - [Jerome H. Friedman - Wikipedia](https://en.wikipedia.org/wiki/Jerome_H._Friedman)
 - [Jerome H. Friedman | Department of Statistics, Stanford](https://statistics.stanford.edu/people/jerome-h-friedman)
 - [A Conversation with Jerry Friedman (arXiv PDF)](https://arxiv.org/pdf/1507.08502)

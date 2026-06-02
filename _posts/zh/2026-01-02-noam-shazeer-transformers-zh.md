@@ -17,6 +17,7 @@ Answer:
 作为 Transformer 架构的核心发明者之一，Noam Shazeer 在讨论它时语气随性、热情且直率——听起来通常像是一位对实际突破感到兴奋而非盲目吹捧的工程师。他经常使用“Heck yeah!”之类的短语来表达兴奋，并用简单易懂的语言描述观点。
 
 ### 起源与动机
+
 Shazeer 将 Transformer 的诞生追溯到对比循环神经网络 (RNN)（尤其是 LSTM）的挫败感，后者在 2017 年之前是处理语言任务的 state-of-the-art。
 
 他说：“在 Transformer 之前，我一直在研究 state-of-the-art 的语言架构 LSTM……用所有这些激活填充内存会限制模型的规模和可处理序列的长度。Transformer 可以解决这些问题，因为你可以同时处理整个序列。”
@@ -28,6 +29,7 @@ Shazeer 将 Transformer 的诞生追溯到对比循环神经网络 (RNN)（尤�
 这种 parallelism 是提高训练速度和 scalability 的关键转折点。
 
 ### 对 Attention 的核心贡献
+
 在《Attention Is All You Need》论文的致谢中提到，Shazeer“提出了 scaled dot-product attention、multi-head attention 和 parameter-free position representation，并成了几乎参与了每一个细节的另一个人”。他开发了 multi-headed self-attention 机制，这成为了该架构的核心。
 
 他直观地描述了 attention：“Attention 本身……有点像你在创建一个巨大的 key value 关联内存，你在建立一个大表，序列中的每个词都有一个条目……这里的洞察是：嘿，你可以使用同样的 attention 机制来回看你试图生成的序列的过去。”
@@ -35,6 +37,7 @@ Shazeer 将 Transformer 的诞生追溯到对比循环神经网络 (RNN)（尤�
 受机器翻译（如 Google Translate）的启发，attention 充当了“对索引或内存的 soft lookup”。
 
 ### 影响与反思
+
 Shazeer 认为 Transformer 在本质上更适合语言处理：“Transformer 是理解语言更好的工具。这非常令人兴奋，它将影响许多应用。”
 
 他对模型更广泛的成功感到惊讶，尤其是 transfer learning：“我对 Transformer 的 transfer learning 感到非常惊喜，这真正始于 BERT。事实上，你可以投入大量计算资源训练一次模型，然后非常廉价地利用它来解决各种问题。”

@@ -14,6 +14,7 @@ It is definitely "yummy" to cook squid with porridge, but if it feels off, it’
 Here is how to make it better and avoid the common mistakes:
 
 ### 1. The "Flash-Cook" Method (Best for Fresh Squid)
+
 If you are using fresh squid, do not boil it with the rice from the beginning. This is the #1 reason it becomes tough.
 
 * **Prep:** Cut the squid into thin rings or score them in a diamond pattern so they curl up beautifully.
@@ -21,17 +22,23 @@ If you are using fresh squid, do not boil it with the rice from the beginning. T
 * **The Finish:** Turn the heat to high so the porridge is bubbling, drop the squid in, and stir for only **1 to 2 minutes** maximum. Turn off the heat immediately. The residual heat will finish cooking the squid without making it rubbery.
 
 ### 2. The "Stir-Fry First" Secret
+
 Instead of just boiling the squid, many chefs suggest a quick sauté to lock in flavor:
+
 * Quickly stir-fry the squid in a separate pan with **ginger and a splash of rice wine (Shaoxing wine)** for 30 seconds.
 * Pour the squid (and the flavorful juices from the pan) into the porridge right before serving. This removes the "fishy" raw smell and adds a savory depth.
 
 ### 3. Using Dried Squid (The Umami Bomb)
+
 In traditional Cantonese or Teochew cooking, **dried squid** is often used instead of (or with) fresh squid.
+
 * **Why:** It provides a much deeper "seafood" flavor that fresh squid lacks.
 * **How:** Soak the dried squid until soft, julienne it into very thin strips, and add it to the pot about **20 minutes** before the porridge is finished. This gives it enough time to soften and release its oils into the rice.
 
 ### 4. Flavor Balancing
+
 To make it taste professional, you need "aromatics" to cut through the seafood scent:
+
 * **Essential:** Always add **slivered ginger** and **white pepper**. Ginger neutralizes the fishiness, and white pepper provides the classic "warmth" found in seafood congee.
 * **Toppings:** Top with chopped **scallions**, **cilantro**, and a few drops of **sesame oil** or **light soy sauce** right before eating.
 

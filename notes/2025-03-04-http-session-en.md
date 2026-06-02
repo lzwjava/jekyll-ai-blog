@@ -64,6 +64,7 @@ public class SetSessionServlet extends HttpServlet {
 ```
 
 In this code:
+
 - `request.getSession()` ensures a session is available.
 - `session.setAttribute("username", "Alice")` stores the string `"Alice"` under the key `"username"`.
 
@@ -109,6 +110,7 @@ public class GetSessionServlet extends HttpServlet {
 ```
 
 In this code:
+
 - `request.getSession(false)` retrieves the existing session or returns `null`.
 - `session.getAttribute("username")` fetches the value, cast to `String`.
 - Null checks prevent errors if the session or attribute doesn’t exist.
@@ -175,6 +177,7 @@ When a client accesses `SetSessionServlet`, the session stores `"Bob"`. Later, a
       <session-timeout>30</session-timeout> <!-- in minutes -->
   </session-config>
   ```
+
 - **Ending a Session**: Use `session.invalidate()` (e.g., for logout).
 - **Security**: Use HTTPS to protect the session ID from interception. Avoid storing highly sensitive data without encryption.
 - **Type Casting**: Always cast `getAttribute` results, as it returns `Object`.

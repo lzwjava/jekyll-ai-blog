@@ -14,6 +14,7 @@ type: note
 SCB 使用 **band/grade system**（通常为 Bands 1–9 或类似，内部代码如 M16–M23），并辅以面向客户的或职能性职位头衔。
 
 ### 常见层级结构（特别是在前/中台，例如 CIB、新加坡/英国/全球）
+
 从初级到高级，根据员工论坛（Glassdoor、Fishbowl、Salary.sg）的一致报告：
 
 - **Analyst** → 通常为 Band 8（入门级，新毕业生）
@@ -30,6 +31,7 @@ SCB 使用 **band/grade system**（通常为 Bands 1–9 或类似，内部代�
 - 它可能在层级上相当于 "Associate" 但经验/年资更多，或是通往 Manager/Associate Director 的步骤。
 
 ### 关键区别
+
 - **Associate** — 中级（Band 7），在许多领域常见；积累专业知识，处理独立工作或小型团队。
 - **Senior Associate** — 通常是在类似 band 内经验的提升（特别是 ops/GBS），或在 "Associate" 单独使用显得太初级的地方使用。它不像面向客户的角色中 Associate → Associate Director 那样是通用的“下一级”。
 

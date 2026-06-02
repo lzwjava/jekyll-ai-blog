@@ -26,7 +26,8 @@ Here is a breakdown of how each platform supports custom prompts:
 ### 🤔 The Case of DeepSeek
 
 You correctly noted that **DeepSeek does not natively support custom prompts** in its official interface. However, if customization is essential, there is a third-party option:
--   **DeepSeek Pro Browser Extension**: This Chrome extension adds a layer of functionality to the DeepSeek web interface, allowing users to create and save custom prompts to fine-tune the AI's language, tone, and writing style. Please note that this is an unofficial tool.
+
+- **DeepSeek Pro Browser Extension**: This Chrome extension adds a layer of functionality to the DeepSeek web interface, allowing users to create and save custom prompts to fine-tune the AI's language, tone, and writing style. Please note that this is an unofficial tool.
 
 ### ✨ How to Use Custom Instructions Effectively
 

@@ -24,6 +24,7 @@ Control-M v9.0.21 is a BMC workload automation product. On Windows, it can be in
 Control-M v9.0.21 supports a Full Installation that installs all components including Application Plug-ins and add-ons on Windows via an interactive or automatic installation. You can install with the default settings, or choose the custom installation to select the database server, database names, usernames, hostnames, and port settings.
 
 The two installation modes are:
+
 - **Interactive Install** — GUI-guided wizard, step by step on screen
 - **Automatic (Silent) Install** — uses a pre-generated XML parameter file for unattended installation
 
@@ -32,6 +33,7 @@ The two installation modes are:
 ### 2. Pre-requisites Before Running Setup.exe
 
 Before starting the installation on Windows, you must:
+
 - Verify that your operating system and database software is compatible with the current version of Control-M (per Control-M Full Installation System Requirements).
 - Verify that you have met Java requirements (Control-M External Java Installation).
 - Verify that the target computer is clean and does not have any previous Control-M version installed.
@@ -43,6 +45,7 @@ Before starting the installation on Windows, you must:
 ### 3. Running the Windows Installer (Setup.exe)
 
 To begin installation:
+
 1. Log in to the computer with a user ID that has Administrator permissions.
 2. From a command prompt window, run: `<source_path>\Setup.exe`
 3. Select the **Control-M 9.0.21.100 - Full Installation** option and continue with the on-screen instructions until installation is complete.
@@ -58,6 +61,7 @@ During the Self Service and Web component setup, you must verify that either the
 
 **EM and Server Communication Ports:**
 Key ports that are required for firewall rules and bidirectional communication include:
+
 - Control-M/EM TCP/IP Port: **2370**
 - Configuration Agent Port: **2369**
 - Agent-to-Server Port: **7005**
@@ -74,17 +78,23 @@ If you are installing Control-M/EM and Control-M/Server on the same computer, yo
 ### 5. Automatic (Silent) Installation
 
 For the Automatic Install, you proceed through the wizard until the Summary window, click **Generate** to create an XML parameter file, then run:
+
 ```
 <source_path>\Setup.exe -silent <xml_path>\<filename.xml>
 ```
+
 To encrypt a password in the installation, run:
+
 ```
 <source_path>\Setup.exe -encrypt <password>
 ```
+
 Installation logs are saved at:
+
 ```
 <installFolder>\BMCINSTALL\log\BMC_Control-M_Install_<date-time>.log
 ```
+
 Note: The generated XML parameter file is relevant only for computers with the same Agent instance name. A separate file must be created or manually modified for each computer with a different name.
 
 ---
@@ -92,6 +102,7 @@ Note: The generated XML parameter file is relevant only for computers with the s
 ### 6. Control-M/Agent on Windows (Separate Component)
 
 To install the Control-M/Agent on Windows:
+
 1. Log in with Administrator permissions.
 2. Copy installation files to the home directory.
 3. From a command prompt, run `<source_path>\setup.exe`.

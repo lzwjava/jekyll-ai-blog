@@ -30,6 +30,7 @@ far_point = 1 / 3.50 = ~28.6 cm
 ```
 
 For screen work at ~50-60cm, you need:
+
 ```
 accommodation_needed = 1/0.5 - 3.5 = 2.0 - 3.5 = -1.5D of accommodation
 ```
@@ -43,16 +44,19 @@ The "arm's length test" (phone at ~60-70cm, just barely clear) is a reasonable p
 ## What the Evidence Actually Says
 
 **What's established:**
+
 - Chronic hyperopic defocus (overcorrection) accelerates axial elongation in animal models (chick, primate) — very robust data
 - Myopic defocus (undercorrection) has protective/slowing effects in animal models
 - Outdoor time and reduced near work slow progression — solid epidemiological evidence
 
 **What's contested:**
+
 - Whether these mechanisms transfer cleanly to adult humans (most axial elongation slows naturally post-~21)
 - The specific magnitude: "25-50 degrees per year reduction" is anecdotal, not RCT-backed
 - The Endmyopia community has self-reported data, not blinded clinical trials
 
 **What's probably happening when people report improvement:**
+
 1. Genuine small axial length reduction (rare in adults, but documented in some ortho-K studies)
 2. Reduced ciliary muscle spasm → pseudomyopia resolution (real, can be 0.25-0.75D)
 3. Measurement variability (autorefractors have ±0.25D noise)

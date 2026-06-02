@@ -22,6 +22,7 @@ type: note
 ### Header 的样子
 
 从 Claude Code 版本 2.1.36 开始，Claude Code 在每个请求中发送一个特殊的 header，它每次请求都会变化。样子如下：
+
 ```
 x-anthropic-billing-header: cc_version=xxxx; cc_entrypoint=cli; cch=xxxx;...
 ```

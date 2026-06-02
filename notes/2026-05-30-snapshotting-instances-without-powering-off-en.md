@@ -22,6 +22,7 @@ These two platforms have different behaviors:
 DigitalOcean does support "live snapshots" (snapshot while running), but they explicitly warn that this can result in **inconsistent/corrupted filesystem state** — essentially a crash-consistent snapshot, not application-consistent. For anything stateful (databases, in-progress training runs with open files), powering off is the safe path.
 
 Their docs recommend:
+
 ```
 # Power off cleanly before snapshotting
 doctl compute droplet-action power-off <droplet-id> --wait

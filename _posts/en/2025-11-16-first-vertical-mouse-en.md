@@ -15,6 +15,7 @@ The vertical mouse was invented in 1994.
 The first commercially available vertical mouse is widely credited to **Jack Lo** (a Canadian inventor) with the **ErgoMouse** (also sometimes called the "Handshake Mouse"). It was patented in the early 1990s and released in **1994** by a company called Hobar Tech (later known as Evoluent).
 
 ### Key milestones
+
 - **1992–1994**: Jack Lo files patents for a vertical computer mouse designed to keep the hand in a neutral “handshake” position to reduce wrist pronation and strain.
 - **1994**: The first vertical mouse hits the market under the name **ErgoMouse**.
 - **2002**: Evoluent releases the **Evoluent VerticalMouse** (version 1), which becomes one of the most popular and long-lasting vertical mouse designs still sold today (now in version 4/5).

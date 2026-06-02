@@ -59,6 +59,7 @@ A 50% salary lift for an overseas posting is realistic and common. A full double
 In the banking sector, specialists in niche areas command premiums of up to 20% over market rate, while general job movers can expect increments of 10–15%. The more specialized your skill set (risk, compliance, regulatory, fintech, GBA cross-border), the stronger your hand.
 
 **What headhunters and HRs will look for:**
+
 - Cross-border or GBA (Greater Bay Area) experience
 - English + Mandarin bilingual capability
 - Specific banking domain depth (compliance, credit, treasury, operations)

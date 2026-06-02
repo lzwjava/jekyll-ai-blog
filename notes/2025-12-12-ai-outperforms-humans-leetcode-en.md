@@ -17,6 +17,7 @@ Answer:
 AI (especially large language models like GPT-4, Claude 3.5, or Grok 4) has reached a point where it can solve ~85–95 % of LeetCode “Easy” and “Medium” problems and ~50–80 % of “Hard” problems on the first or second try, often faster and with cleaner than the average human candidate. In 2024–2025 blind benchmarks (e.g., LiveCodeBench, Aider, SWE-bench Verified), the best models now outperform the 90–95th percentile of human competitive programmers on brand-new contest problems they have never seen before.
 
 Yet in real interviews:
+
 - 60–80 % of applicants with 3–10 years of experience still fail to solve a single LeetCode Medium cleanly in 30–45 minutes.
 - Even senior engineers at FAANG companies routinely fail mock interviews when put on the spot.
 
@@ -34,6 +35,7 @@ This paradox is easy to explain once you separate the different skills being mea
 | Handling ambiguous requirements    | Sometimes over-fits or misreads                | Often better at asking clarifying questions |
 
 In short: AI is solving the algorithmic puzzle part much better than almost all humans, but coding interviews are not pure algorithmic puzzles. They are a high-stress performance test that also measures:
+
 - Working memory under pressure
 - Verbalizing partial thoughts coherently
 - Recovering from mistakes quickly
@@ -46,6 +48,7 @@ So the conclusion is not “AI isn’t advanced”; it’s “LeetCode interview
 When companies switch to take-home projects, pair-programming sessions, or AI-allowed interviews, the “failure rate” of strong engineers drops dramatically — which proves the bottleneck was never raw intelligence.
 
 References:
-- LiveCodeBench leaderboard (2025): https://livecodebench.github.io
-- SWE-bench Verified results ( frontier models vs humans): https://www.swebench.com
+
+- LiveCodeBench leaderboard (2025): <https://livecodebench.github.io>
+- SWE-bench Verified results ( frontier models vs humans): <https://www.swebench.com>
 - 2024–2025 studies on interviewer bias and LeetCode failure rates (e.g., interviewing.io anonymized data)

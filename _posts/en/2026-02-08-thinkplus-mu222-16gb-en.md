@@ -18,7 +18,8 @@ The **Thinkplus MU222** is a compact USB flash drive (also called a U disk or pe
 
 This model is an entry-level, affordable USB 2.0 storage device commonly sold in 8GB, 16GB, 32GB, and 64GB capacities. The 16GB version provides enough space for documents, photos, music, small videos, software installers, or backups—suitable for students, office workers, or casual users who don't need very large storage.
 
-### Main Features:
+### Main Features
+
 - **Interface** — USB 2.0 (backward compatible with USB 3.0/3.1 ports, but limited to USB 2.0 speeds)
 - **Material** — Zinc alloy / metal casing — gives it a premium feel, makes it sturdy, shock-resistant, and somewhat waterproof/splash-resistant in many listings
 - **Design** — Capless (no lost cap), with a built-in key ring hole for easy attachment to bags or keys
@@ -30,14 +31,16 @@ This model is an entry-level, affordable USB 2.0 storage device commonly sold in
   - Write speed: ≈ 6–10 MB/s
   These are standard USB 2.0 figures — good for everyday file transfer but slower than modern USB 3.x drives.
 
-### Typical Use Cases:
+### Typical Use Cases
+
 - Transferring office files (Word, Excel, PDF)
 - Carrying presentation materials
 - Storing photos or MP3 music
 - Installing operating systems or running portable apps
 - Backup of important small files
 
-### Notes:
+### Notes
+
 - This is a budget-oriented product, often priced very affordably (equivalent to a few dollars in many markets).
 - Actual usable capacity is slightly less than 16GB (≈ 14.5–14.9GB) due to formatting and file system overhead — this is normal for all USB drives.
 - Performance can vary depending on the exact flash memory controller/chip used in each batch.

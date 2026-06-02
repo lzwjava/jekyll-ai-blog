@@ -26,19 +26,24 @@ Yes, this is generally considered **good terminal UI design**. Here's why:
 ### ✅ Benefits of Visual Separation with Boxes
 
 **1. Cognitive chunking**
+
 - Boxes group related content together, making it easier for your brain to process each "unit" of information separately.
 - e.g., the agent's *reasoning* is clearly separated from *command output*.
 
 **2. Scanability**
+
 - Users can quickly scan and find the part they care about (the error, the command, the explanation) without reading everything linearly.
 
 **3. Role clarity**
+
 - Different box styles (e.g., `⚕ Hermes` vs `💻 $`) instantly signal *who is speaking* — the AI, the shell, or the system.
 
 **4. Error/status visibility**
+
 - Errors like `[error]` stand out clearly in their own visual block rather than being buried in a wall of text.
 
 **5. Aesthetic professionalism**
+
 - Rich terminal UIs using boxes (like those from libraries such as `rich`, `blessed`, `bubbletea`) feel polished and modern compared to plain stdout text.
 
 ---
@@ -57,6 +62,7 @@ Yes, this is generally considered **good terminal UI design**. Here's why:
 ### 🔧 Libraries That Power This Style
 
 Tools like Hermes likely use one of:
+
 - **Python**: `rich` (most popular), `textual`
 - **Go**: `bubbletea` + `lipgloss`
 - **Node.js**: `ink`, `blessed`

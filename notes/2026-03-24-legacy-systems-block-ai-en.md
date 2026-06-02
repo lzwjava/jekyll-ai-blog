@@ -49,6 +49,7 @@ Every single one of these made sense **when they were created**. Now they're the
 Your point about hiring → layoff → rehire is exactly what's happening:
 
 **The cycle looks like:**
+
 1. Hired 10,000 engineers to write code manually
 2. AI writes most of that code now
 3. Must layoff — but politically and legally brutal

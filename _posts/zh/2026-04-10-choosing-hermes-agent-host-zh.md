@@ -18,6 +18,7 @@ Hermes-agent 是一种本地 AI 代理框架（常与 Ollama、LM Studio 或其�
 ### 关键对比
 
 **M2 Air（Apple Silicon 笔记本电脑）：**
+
 - **优点：**
   - 能效极高，电池续航出色。
   - 运行安静且便携。
@@ -30,6 +31,7 @@ Hermes-agent 是一种本地 AI 代理框架（常与 Ollama、LM Studio 或其�
   - 不适合“持续运行”的服务器式使用——你很可能需要合上盖子或让其休眠。
 
 **家庭局域网服务器（i9 + RTX 4070，Ubuntu 24.04）：**
+
 - **优点：**
   - 针对 AI 工作负载的性能强大得多。RTX 4070 支持 CUDA，与 Apple Silicon 相比，可显著加速大多数本地 LLM 框架（如 Ollama、vLLM 等）。
   - 内存更高，持续性能更佳，不易快速热降频。
@@ -44,12 +46,14 @@ Hermes-agent 是一种本地 AI 代理框架（常与 Ollama、LM Studio 或其�
 **将 Hermes-agent 安装在 Ubuntu 台式服务器（i9 + RTX 4070）上。**
 
 这在几乎所有场景下都是更好的选择，原因如下：
+
 - Hermes 代理通常涉及运行具有工具使用、记忆以及可能视觉或其他模态的本地 LLM。NVIDIA CUDA 相比 M2 Air 带来巨大的速度优势。
 - 你可以从 M2 Air 远程访问代理（通过浏览器、API 或 SSH），同时保持笔记本电脑轻便凉爽。
 - 台式机可作为你家庭局域网上专用的、随时可用的 AI 服务器。
 -p Ubuntu 24.04 非常适用于 AI 工具链（NVIDIA 驱动 + CUDA 安装简便）。
 
 **设置建议：**
+
 1. 在 Ubuntu 服务器上：
    - 安装 NVIDIA 驱动和 CUDA。
    - 设置 Ollama 或你偏好的支持 GPU 的本地 LLM 后端。
@@ -57,10 +61,11 @@ Hermes-agent 是一种本地 AI 代理框架（常与 Ollama、LM Studio 或其�
    - 配置其开机启动。
 
 2. 在你的 M2 Air 上：
-   - 将其作为客户端使用：连接到服务器的 IP（例如 http://192.168.x.x:端口），或设置 Tailscale/ZeroTier 以实现安全的远程访问，即使不在家中也能使用。
+   - 将其作为客户端使用：连接到服务器的 IP（例如 <http://192.168.x.x:端口），或设置> Tailscale/ZeroTier 以实现安全的远程访问，即使不在家中也能使用。
 
 **你可能仍会选择 M2 Air 的情况：**
 -L 如果你的 Hermes 使用非常轻量（小模型、偶尔查询、无重型代理循环）。
+
 - 你希望所有功能都集中在单一便携设备上，且很少需要高性能。
 - 你优先考虑静音、零额外功耗和简洁性。
 

@@ -26,12 +26,15 @@ One downside of keeping the favorites bar visible is that people nearby can spot
 **Yes, and it's actually quite a smart minimalist approach.** Here's why it works:
 
 ### ✅ What LLMs Replace Well
+
 - **Pure text tasks** — summarizing, explaining, writing, coding, research synthesis
 - **Quick lookups** — instead of bookmarking "LLM Arena leaderboard," you just ask an LLM or type it in once
 - **Navigation shortcuts** — LLMs can fetch, explain, or guide you to text-based content directly
 
 ### ✅ The "Core 4" Navigation Model
+
 Many power users are converging on a similar minimal set:
+
 | Tool | Purpose |
 |------|---------|
 | **LLM (Claude, ChatGPT, etc.)** | Text tasks, Q&A, writing, code |
@@ -42,7 +45,9 @@ Many power users are converging on a similar minimal set:
 You don't need to bookmark these — they're memorable and searchable in seconds.
 
 ### ✅ Video/Images Still Need Direct Access
+
 This is the **one real exception** to the "LLMs handle everything" model:
+
 - **YouTube** — LLMs can't stream video for you
 - **Image-heavy sites** — design references, photography, visual media
 - **Interactive dashboards** — real-time charts, maps

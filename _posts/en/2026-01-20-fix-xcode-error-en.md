@@ -88,6 +88,6 @@ After that the fake "update to Xcode 26" message should disappear.
 
 References:
 
-- https://developer.apple.com/download/all/
-- https://github.com/hashicorp/homebrew-tap
-- https://formulae.brew.sh/formula/vault
+- <https://developer.apple.com/download/all/>
+- <https://github.com/hashicorp/homebrew-tap>
+- <https://formulae.brew.sh/formula/vault>

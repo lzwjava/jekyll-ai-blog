@@ -14,7 +14,8 @@ type: note
 
 There is no built-in support for specifying a different timezone directly in the workflow YAML. If you want a job to run at a specific local time (e.g., 9:00 AM PST), you must convert that to the equivalent UTC time and write the cron expression accordingly.
 
-### Key points from official documentation:
+### Key points from official documentation
+
 - Scheduled workflows use POSIX cron syntax and run at specific **UTC times**.
 - Example: `cron: '0 5 * * *'` runs daily at 5:00 AM UTC (not your local time).
 

@@ -17,6 +17,7 @@ type: note
 Eating sunflower seeds (especially in-shell ones) is a classic example of a **"fidget-eating"** or **secondary sensory-motor task**. It provides a repetitive, low-effort physical action (cracking shells with teeth, separating seed from hull, chewing) that occupies just enough brain resources to prevent mind-wandering during passive activities like watching YouTube videos. This boosts arousal, dopamine, and sustained attention without demanding full focus.
 
 ### Similar activities (fidget-eating or oral/hand-based options)
+
 These share the key traits: repetitive, tactile/oral, automatic after a short learning curve, and hands/mouth busy but not cognitively taxing.
 
 - **Chewing gum** (especially strong/minty or long-lasting types) — provides constant jaw movement and flavor stimulation.
@@ -27,6 +28,7 @@ These share the key traits: repetitive, tactile/oral, automatic after a short le
 - **Carrot/celery sticks or apple slices** — crunching provides sensory feedback.
 
 ### Other non-eating fidget activities while watching videos
+
 These use hands, feet, or body for similar mild stimulation. Choose ones that feel automatic and don't pull eyes away from the screen.
 
 - **Fidget toys**: stress ball squeezing, fidget cube clicking/spinning (without looking), worry stone rubbing.
@@ -38,6 +40,7 @@ These use hands, feet, or body for similar mild stimulation. Choose ones that fe
 - **Playing with small objects**: paper clips, beaded bracelet, or smooth stone in pocket/hand.
 
 ### How to use this behavior more effectively
+
 To maximize focus benefits (especially for passive video watching or similar low-stimulation tasks):
 
 - **Keep it secondary/automatic** — the fidget should require minimal conscious thought after setup. Avoid anything too novel, complex, or visually demanding (e.g., don't use a fidget spinner that needs watching to spin fast — it becomes primary and distracts).

@@ -52,6 +52,7 @@ It is possible to end up with the same phone number associated with two Apple ID
 **Bottom line:** A phone number **can** be bound to multiple Apple IDs as a trusted/verification number, but Apple recommends keeping your iMessage/FaceTime reachability and account identity tied to one primary Apple ID to avoid confusion and delivery issues.
 
 References:
+
 - [Can I use one phone number on 2 Apple IDs? – Apple Community](https://discussions.apple.com/thread/253763886)
 - [Can you have the same number for multiple Apple IDs? – Apple Community](https://discussions.apple.com/thread/255648707)
 - [Use same phone number in two Apple ID – Apple Community](https://discussions.apple.com/thread/255852851)

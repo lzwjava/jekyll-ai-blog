@@ -10,18 +10,18 @@ type: post
 
 ### Foreword
 
-My teacher Yin Wang wrote an essay with a similar title in 2019. You could check it out http://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy. I read it probably 30 times in these 4 years and recommend it to friends for probably the same times. Besides sharing it by direct messages, I also share it on the social network several times. You could know how I love this essay and am beneficial from this.
+My teacher Yin Wang wrote an essay with a similar title in 2019. You could check it out <http://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy>. I read it probably 30 times in these 4 years and recommend it to friends for probably the same times. Besides sharing it by direct messages, I also share it on the social network several times. You could know how I love this essay and am beneficial from this.
 
 Yin Wang joined 3 PhD programs at Tsinghua University, Cornell University and Indiana University Bloomington. And in these years, he shared a lot on Weibo and his blog. I dropped out of a top university in Chinese before. Now, it is 2023, so in these 4 years, I can say that I took my Ph.D. program online and was mentored by him. He taught me every day with new knowledge. The knowledge is precious because he thought out them and few people in the world knew it.
 
 Let me share more YinWang's website:
 
 Chinese Weibo account: 不再关心人类de垠
-Chinese WordPress: https://yinwang1.wordpress.com
-Chinese Blog: http://www.yinwang.org
-English Substack: https://yinwang0.substack.com
-English WordPress: https://yinwang0.wordpress.com
-English Twitter: https://twitter.com/yinwang0
+Chinese WordPress: <https://yinwang1.wordpress.com>
+Chinese Blog: <http://www.yinwang.org>
+English Substack: <https://yinwang0.substack.com>
+English WordPress: <https://yinwang0.wordpress.com>
+English Twitter: <https://twitter.com/yinwang0>
 
 I will introduce him more in the future. Now let's focus on the discussion about the wisdom of learning.
 

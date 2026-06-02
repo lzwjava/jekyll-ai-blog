@@ -28,10 +28,13 @@ type: note
    - 提交更改：`git commit -m "你的提交说明"`
 
 ### 可选方案：使用 Git 钩子自动化
+
 若要在每次 `git commit` 前自动运行 `mvn compile`，可配置 Git 预提交钩子：
+
 1. 进入仓库的 `.git/hooks` 目录
 2. 创建或编辑 `pre-commit` 文件（无扩展名）
 3. 添加如下脚本：
+
    ```bash
    #!/bin/sh
    mvn compile
@@ -40,10 +43,12 @@ type: note
        exit 1
    fi
    ```
+
 4. 赋予可执行权限：`chmod +x .git/hooks/pre-commit`
    - 此后仅当 `mvn compile` 成功时，`git commit` 才会执行
 
 ### 注意事项
+
 - **依赖管理**：确保 `pom.xml` 配置正确且依赖包已下载（必要时可运行 `mvn dependency:resolve`）
 - **性能影响**：每次提交前执行编译能确保代码质量，但对于大型项目可能会降低工作流程效率
 - **替代命令**：若需包含测试环节，可使用 `mvn test` 替代 `mvn compile` 来同时执行编译和单元测试

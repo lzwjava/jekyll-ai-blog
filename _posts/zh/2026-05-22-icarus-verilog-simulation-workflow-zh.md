@@ -18,6 +18,7 @@ type: note
 计数器模块没有 testbench。在它旁边编写一个：
 
 **`counter_tb.v`**
+
 ```verilog
 `timescale 1ns / 1ps
 
@@ -72,6 +73,7 @@ vvp counter.vvp
 ```
 
 输出将类似于：
+
 ```
 time=0     count=0
 time=200   count=0

@@ -26,6 +26,7 @@ This means the server is **returning an HTML page** (likely a 404 or index.html 
 **Most likely causes, in order of probability:**
 
 ### 1. SPA fallback misconfiguration (most common)
+
 The server has a catch-all rule that serves `index.html` for all unmatched routes — including `/assets/*`. This is a common Nginx/Caddy misconfiguration for SPAs:
 
 ```nginx
@@ -36,6 +37,7 @@ location / {
 ```
 
 Fix: assets should be served before the fallback:
+
 ```nginx
 location /assets/ {
     root /var/www/dist;
@@ -48,14 +50,17 @@ location / {
 ```
 
 ### 2. Assets not deployed / wrong build output path
+
 The `/assets/` directory wasn't uploaded or the build output dir is wrong. Server can't find the file → returns 404 HTML page.
 
 Check: `curl -I https://liber.davirain.xyz/assets/index-KsAjyADz.css` — if you get `200` with `text/html`, it's serving index.html. If `404`, assets aren't there.
 
 ### 3. CDN/proxy stripping the path
+
 A reverse proxy (Cloudflare, Nginx upstream) is rewriting `/assets/...` to `/` and serving the root HTML.
 
 ### 4. Wrong `base` in Vite/build config
+
 The app was built with a non-root base (e.g. `base: '/subpath/'`) but deployed to root, so asset URLs resolve to wrong paths:
 
 ```js

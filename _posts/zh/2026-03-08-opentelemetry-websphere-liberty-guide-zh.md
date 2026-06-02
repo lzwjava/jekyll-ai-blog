@@ -141,6 +141,7 @@ public void myTracedMethod() {
 ```
 
 **代理限制需注意：**
+
 - 配置在部署到服务器的所有应用程序之间共享。配置属性仅从系统属性和环境变量读取 — 不从 MicroProfile Config 配置源读取。由于代理在启动过程早期读取其配置，因此系统属性不会从 `bootstrap.properties` 文件读取。相反，在 `jvm.options` 中使用语法 `-Dname=value` 设置系统属性。
 - 该代理与 Java 2 安全不兼容。
 

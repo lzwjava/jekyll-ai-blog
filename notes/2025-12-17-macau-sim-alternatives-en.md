@@ -32,9 +32,9 @@ These options provide reliable speeds in cities, though rural coverage varies. e
 
 References:
 
-- https://prepaid-data-sim-card.fandom.com/wiki/Macau
-- https://www.getnomad.app/blog/do-esims-work-in-china
-- https://cybernews.com/best-esim-providers/china/
-- https://myroami.com/best-esims/esim-china/
-- https://prepaid-data-sim-card.fandom.com/wiki/Hong_Kong
-- https://www.reddit.com/r/travelchina/comments/1h5d7ar/esim_recommendations_for_china/
+- <https://prepaid-data-sim-card.fandom.com/wiki/Macau>
+- <https://www.getnomad.app/blog/do-esims-work-in-china>
+- <https://cybernews.com/best-esim-providers/china/>
+- <https://myroami.com/best-esims/esim-china/>
+- <https://prepaid-data-sim-card.fandom.com/wiki/Hong_Kong>
+- <https://www.reddit.com/r/travelchina/comments/1h5d7ar/esim_recommendations_for_china/>

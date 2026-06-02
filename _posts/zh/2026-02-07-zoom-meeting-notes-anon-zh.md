@@ -28,20 +28,24 @@ type: note
 **Alternative Automated Approach:**
 
 除了每 5 分钟提问一次，你还可以：
+
 - 让 AI Companion 记录整个会议
 - 会议结束后提问："Provide a timeline summary broken down by 5-minute intervals, without participant names"
 
 ## Consolidating the Outputs
 
 **Method 1 - During Meeting:**
+
 - 将每 5 分钟的 summary 粘贴到 Google Doc 或记事本中
 - 手动添加 timestamps（例如："0:00-5:00", "5:00-10:00"）
 
 **Method 2 - Post-Meeting:**
+
 - 使用 AI Companion 生成的 meeting summary
 - 要求它："Break down this meeting into 5-minute segments showing what was discussed in each period, omitting all names"
 
 **Tips:**
+
 - AI Companion summary 在会议结束后可保存 30 天
 - 你可以通过要求 "focus on decisions and action items" 或 "highlight main topics only" 来优化 prompts
 - 考虑要求使用 bullet points 而不是段落，以便于整理

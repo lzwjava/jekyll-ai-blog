@@ -10,7 +10,7 @@ type: note
 
 Ben Eater is an American YouTuber, software developer, and educator known for his engaging and in-depth technical content. He gained popularity through his YouTube channel, [Ben Eater](https://www.youtube.com/c/8bitguy1), where he originally focused on retro computing, hardware hacking, and explaining complex computer science concepts in an accessible way.
 
-### Key Points About Ben Eater:
+### Key Points About Ben Eater
 
 - **Channel Focus**:
   Initially, his channel was dedicated to exploring vintage computers like the Commodore 64, Apple II, and IBM PC compatibles. He often demonstrated how older hardware works, repaired old machines, and explained the inner workings of classic technology.

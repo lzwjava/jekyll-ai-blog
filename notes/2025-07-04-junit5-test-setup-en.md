@@ -13,6 +13,7 @@ Here's a simplified setup using **only JUnit 5** (without Mockito) for testing y
 ---
 
 ### 1. Update `pom.xml` (JUnit Only)
+
 ```xml
 <dependencies>
     <!-- JUnit 5 -->
@@ -44,6 +45,7 @@ Here's a simplified setup using **only JUnit 5** (without Mockito) for testing y
 ---
 
 ### 2. Directory Structure
+
 ```
 src/
 ├── main/
@@ -57,6 +59,7 @@ src/
 ---
 
 ### 3. Example Test Class (`CF123ATest.java`)
+
 ```java
 package com.algorithm.solutions.codeforces;
 
@@ -95,7 +98,8 @@ class CF123ATest {
 
 ---
 
-### 4. Key Features:
+### 4. Key Features
+
 1. **Input Redirection**
    - Reads `1.in` from `src/test/resources` as `System.in`.
    - Uses `ByteArrayOutputStream` to capture `System.out`.
@@ -109,14 +113,17 @@ class CF123ATest {
 ---
 
 ### 5. Run Tests
+
 ```bash
 mvn test
 ```
+
 Or via IDE (IntelliJ/Eclipse/VSCode).
 
 ---
 
 ### 6. Alternative: Parameterized Tests (Multiple Inputs)
+
 ```java
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -133,7 +140,9 @@ void testMultipleCases(String input, String expected) {
     assertEquals(expected, out.toString().trim());
 }
 ```
+
 Create `src/test/resources/codeforces/test_cases.csv`:
+
 ```csv
 input,expected
 1 2 3,6
@@ -143,6 +152,7 @@ input,expected
 ---
 
 This gives you a **lightweight testing setup** with:
+
 - No Mockito dependencies
 - Input/output redirection
 - IDE/Maven compatibility

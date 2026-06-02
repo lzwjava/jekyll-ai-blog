@@ -68,6 +68,7 @@ In **Cloud Foundry**, there is no built-in dedicated "secrets manager" like Vaul
    Use libraries like `cfenv` (Node.js), `cloudfoundry-client` (Java), `vcap` helpers (Python), etc.
 
 2. **Avoid: cf set-env (Plain user-provided environment variables)**
+
    ```bash
    cf set-env my-app DATABASE_PASSWORD "verySecret2026!"
    cf restage my-app

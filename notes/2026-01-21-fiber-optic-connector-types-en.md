@@ -23,6 +23,7 @@ Answer:
 These are the most widely used types of **duplex** (two-fiber) patch cords in networking, data centers, telecom, and fiber-to-the-home installations.
 
 ### What do LC and SC stand for?
+
 - **LC** → **Lucent Connector** (also called Little Connector or Local Connector)
   - Uses a small **1.25 mm** ceramic ferrule.
   - Very compact size (about half the footprint of SC).
@@ -48,6 +49,7 @@ These are the most widely used types of **duplex** (two-fiber) patch cords in ne
 Both LC and SC provide excellent optical performance (low insertion loss and high return loss) and can be used with **single-mode** or **multi-mode** fiber.
 
 ### Other common notations you might see
+
 - **LC-SC** → Hybrid cable (one end LC, one end SC) — often used when connecting new equipment to older infrastructure.
 - **LC-LC Duplex** → Specifies two fibers (most common patch cable style).
 - **LC/UPC-LC/UPC** → Adds polish type (UPC = Ultra Physical Contact, most common; APC = Angled Physical Contact for lower reflection in some single-mode applications).

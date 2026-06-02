@@ -41,6 +41,7 @@ snapshot = server.create_snapshot(name=f"{server.name}-snapshot")
 # 改为：
 snapshot = client.servers.create_snapshot(server, description=f"{server.name}-snapshot")
 ```
+
 此更改在 client.servers 对象上调用 create_snapshot 方法，并将 server 作为参数传递，同时使用正确的参数名称 'description' 而不是 'name'。
 
 ## 修复其他问题
@@ -102,6 +103,7 @@ snapshot = server.create_snapshot(name=f"{server.name}-snapshot")
 # 改为：
 response = client.servers.create_image(server, description=f"{server.name}-snapshot", type="snapshot")
 ```
+
 修复成功，服务器 sg5 的快照已创建，ID 为 225649148。
 
 所做的主要更改：

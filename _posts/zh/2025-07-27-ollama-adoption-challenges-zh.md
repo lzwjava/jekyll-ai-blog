@@ -28,6 +28,7 @@ Ollama 是一款流行的开源工具，可在本地机器上运行大语言模�
 总之，尽管 Ollama 和 Open-WebUI 为高级用户提供了强大能力，但硬件、性能和精力方面的障碍使其仍属小众选择。随着硬件改进和模型效率提升，采用率或许会增长，但目前而言，云端服务因其简单易用和强大能力而占据主导地位。
 
 ### 参考资料
+
 - [为何所有本地 AI 模型都这么差？没人谈论这一点！](https://www.reddit.com/r/ollama/comments/1idqxto/why_are_all_local_ai_models_so_bad_no_one_talks/)
 - [为何我停止使用 Ollama 和本地模型（并转回 OpenAI）](https://medium.com/@Shamimw/why-i-stopped-using-ollama-and-local-models-and-switched-back-to-openai-2d125f303e1c)
 - [只想运行一个大 AI 模型，结果并不简单](https://medium.com/@rifewang/just-wanted-to-run-a-large-ai-model-but-it-turned-out-not-so-simple-a6701823c4e4)

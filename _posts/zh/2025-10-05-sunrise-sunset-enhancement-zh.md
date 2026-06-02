@@ -38,6 +38,7 @@ type: note
 你目前最心仪的观赏点是哪里？期待与你交流更多灵感！
 
 ### 参考资料
+
 - [日落疗愈：观赏日出日落的益处](https://unplugged.rest/blog/sunset-therapy-benefits-of-watching-sunrise-and-sunset)
 - [如何拍摄更出色的日出日落照片](https://www.rei.com/learn/expert-advice/how-to-take-better-sunrise-and-sunset-photos.html)
 - [全球十大日出日落观赏胜地](http://theluxurytravelexpert.com/top-10-best-places-in-the-world-to-watch-the-sunrise-sunset/)

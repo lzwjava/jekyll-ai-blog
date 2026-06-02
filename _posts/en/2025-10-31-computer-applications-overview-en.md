@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 510201 Professional Overview
+
 In China's National Higher Education Self-study Examination (Self-study Examination), 510201 is the code for the "Computer Application Technology" junior college (associate degree) program. This major belongs to the engineering category, with main examining institutions typically being relevant universities in Guangdong Province (such as South China University of Technology or Guangzhou University). The program aims to train students to master basic knowledge of computer hardware and software, possess skills in developing, operating, and maintaining computer application systems, and is suitable for roles in computer application development, system maintenance, network management, and related work.
 
 - **Professional Level**: Junior College (Associate Degree)
@@ -20,6 +21,7 @@ In China's National Higher Education Self-study Examination (Self-study Examinat
 - **Applicable Time**: According to the regulations of the Guangdong Province Self-study Examination Committee, the 2025 plan still uses the old code 610201, but starting from January 2026, the new code 510201 examination plan will be officially implemented (adjusted in 2024). Current candidates (October 2025) can refer to the new plan for preparation.
 
 ### Examination Plan Starting from 2026 (Professional Code: 510201)
+
 The following is the complete course list for this major in Guangdong Self-study Examination, including course codes, names, credits, examination methods, and notes. Ideological and political courses are required, and public courses such as English must all be passed.
 
 | No. | Course Code | Course Name                                      | Credits | Type    | Examination Method | Notes |
@@ -49,6 +51,7 @@ The following is the complete course list for this major in Guangdong Self-study
 | 017 | 14568      | Mobile Application Development Technology        | 1      | Required | Practical Assessment |   |
 
 **Notes**:
+
 - Practical assessment subjects can only be taken after passing the corresponding written exam and are usually organized by the main examining institution through experiments or project assessments.
 - Textbooks should be based on the latest announcements from the Guangdong Education Examination Authority (such as the 2025 January exam textbook list). It is recommended that candidates log in to the Guangdong Education Examination Authority official website (eea.gd.gov.cn) to check the latest exam times, textbooks, and registration information.
 - Additional subjects (optional or for Hong Kong, Macao, and Taiwan candidates): Such as Introduction to Law (00040, 6 credits, written exam); Hong Kong, Macao, and Taiwan candidates must take it to substitute for ideological and political courses.

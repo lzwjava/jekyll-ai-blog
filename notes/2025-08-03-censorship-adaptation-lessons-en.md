@@ -48,6 +48,7 @@ Most points in the post are reasonable based on the author's personal context an
 In summary, ~90% of the points are reasonable as experiential advice, especially for tech-savvy users in censored environments. The myopia parallels add inspirational value but should be taken with skepticism—consult professionals for health claims. Risks like legal issues with VPNs in China (technically illegal without approval) aren't mentioned, so users should proceed cautiously.
 
 References:
+
 - [Using Macau SIM cards for uncensored internet in China](https://www.reddit.com/r/China/comments/10zq0z8/macau_sim_card_for_uncensored_internet/)
 - [Todd Becker on Reversing Myopia](https://gettingstronger.org/2014/05/reverse-myopia/)
 - [zhs.cloud (VPN Provider Summary)](https://zhs.cloud) – A Chinese-language site offering cloud-based VPN/proxy services with servers in Hong Kong, Singapore, etc., focused on bypassing censorship.

@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: Provide a more comprehensive transcript of the YouTube video at https://www.youtube.com/watch?v=kKvK2foOTJM.
+Question: Provide a more comprehensive transcript of the YouTube video at <https://www.youtube.com/watch?v=kKvK2foOTJM>.
 
 Answer:
 

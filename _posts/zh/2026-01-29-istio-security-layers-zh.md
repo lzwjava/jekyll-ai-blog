@@ -34,6 +34,7 @@ type: note
 - **What it can do**：
   - 基于 JWT claims、源身份 (SPIFFE)、headers、paths、methods 等进行授权。
   - 非常细粒度的规则：
+
     ```yaml
     apiVersion: security.istio.io/v1beta1
     kind: AuthorizationPolicy
@@ -57,6 +58,7 @@ type: note
         - key: request.headers[authorization]
           values: ["Bearer valid-token-*"]
     ```
+
 - **Key advantage**：基于身份（使用 mTLS 提供的身份），支持 JWT，支持 DENY 策略，基于条件的规则。
 - 仅适用于通过 Istio proxy 的流量（即 mesh 内部）。
 

@@ -20,6 +20,7 @@ Here's a practical breakdown of what you're dealing with, based on current 2026 
 ## Your Current Setup
 
 You seem to be on a **legacy/older base plan** (低月租老套餐) with:
+
 - **¥19/month base** — likely a minimal "keep-alive" plan with only ~10GB bundled, not the new promotional cards
 - **¥10/add-on packs** valid 3 days — these are standard short-validity top-up data packs (叠加流量包) that Telecom sells via the 电信APP or 10000号
 

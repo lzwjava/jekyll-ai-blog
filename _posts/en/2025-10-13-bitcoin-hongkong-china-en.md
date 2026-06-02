@@ -15,6 +15,7 @@ type: note
 Thanks for sharing that story—it's a perfect snapshot of how crypto like Bitcoin plays out differently just across the border. Meeting a shop owner casually chatting about Bitcoin ATMs and confirming a transaction works? That's classic Hong Kong: open, accessible, and integrated into everyday life. In contrast, spotting the same in mainland China feels rare because of the heavy regulations, as you noted with the low penetration, Great Firewall (GFW) blocking info, and outright bans on trading/mining. Let's break down how this shows up in real life today (as of October 2025), based on adoption trends, infrastructure, and on-the-ground vibes.
 
 #### Hong Kong: Crypto as Part of the Daily Grind
+
 HK has positioned itself as Asia's "Web3 hub," with supportive policies that make Bitcoin feel like just another payment option. Your encounter with the CoinUnit ATM isn't unusual—it's one of over 200 Bitcoin ATMs scattered across the city, from malls like K11 Art Mall to commercial centers in Tsim Sha Tsui and Shek Tong Tsui. These machines let people buy/sell BTC with cash or cards in minutes, often with low fees (around 5-8%) and multilingual support.
 
 - **Real-life examples**:
@@ -25,6 +26,7 @@ HK has positioned itself as Asia's "Web3 hub," with supportive policies that mak
 It's normalized—your shop owner knowing it and seeing transactions succeed? That's the ecosystem at work: reliable, visible, and low-drama.
 
 #### Mainland China: Underground and Whispered
+
 On the mainland, the 2021 ban on crypto trading, mining, and ICOs is still ironclad in 2025—no exchanges, no ATMs, and the GFW blocks most global sites like Binance or CoinMarketCap. The People's Bank of China enforces this to protect financial stability and push their digital yuan (e-CNY). Result? Super low official penetration (under 5% openly), but underground interest simmers—estimates put 78 million "owners" (mostly holding via offshore wallets, not active trading).
 
 - **Real-life examples**:
@@ -37,6 +39,7 @@ In short, China's setup makes crypto a shadow game: high curiosity, low visibili
 If you're planning more trips or want tips on safe ATM use in HK, hit me up!
 
 #### References
+
 - [China's incubating crypto in Hong Kong but the city's strict rules are ...](https://www.cnn.com/2025/09/02/business/china-hong-kong-crypto-regulation-intl-hnk-dst)
 - [China and Crypto: A ban on the Mainland but experimentation in ...](https://english.ckgsb.edu.cn/knowledge/article/china-and-crypto-a-ban-on-the-mainland-but-experimentation-in-hong-kong/)
 - [A Guide to China's Cryptocurrency Landscape in 2025](https://www.panewslab.com/en/articles/eb0b44fe-97be-4f18-bba7-cc6b7fd14fb9)

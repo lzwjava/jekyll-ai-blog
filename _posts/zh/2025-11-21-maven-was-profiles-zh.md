@@ -13,15 +13,18 @@ type: note
 针对 IBM WebSphere Application Server（传统 WAS，非 Liberty），标准打包格式是 **EAR** 文件（即使是简单 Web 应用，WAS 也优先使用 EAR 而非独立 WAR）。处理不同环境（如本地开发环境使用固定/硬编码测试账号，服务器/生产环境使用 SSO 或正规安全域）的最佳实践是在单个 `pom.xml` 中使用 **Maven 构建配置档**。这能避免维护多个独立 POM 文件（如 `pom.xml` 和 `build_pom.xml`），既容易出错也不符合 Maven 惯例。
 
 ### 为何选择配置档而非多 POM？
+
 - 单一可信源（单个 POM）
 - 灵活激活：`mvn package -Plocal` 或 `mvn package -Pserver`
 - 配置档可实现资源过滤、文件覆盖、插件配置调整或绑定修改（如 WAS 专用认证的 `ibm-web-bnd.xml`、`ibm-application-ext.xml`）
 - 常用于开发/测试/生产环境差异配置，包括认证设置
 
 ### 推荐结构
+
 使用 Maven 资源插件配合过滤功能 + 配置档专属资源目录，实现配置文件切换（如 `web.xml`、属性文件、Spring 安全配置或 WAS 绑定文件）
 
 目录结构示例：
+
 ```
 src/
 ├── main/
@@ -44,6 +47,7 @@ src/
 ```
 
 ### pom.xml 配置示例
+
 ```xml
 <project ...>
     <modelVersion>4.0.0</modelVersion>
@@ -148,12 +152,14 @@ src/
 ```
 
 ### 认证差异配置要点
+
 - **本地环境**：在 `web.xml` 或属性文件中配置表单登录与简单用户/角色，或完全禁用安全约束（移除 `<security-constraint>`）
 - **生产环境**：在 `web.xml` 中配置 WAS 专用 SSO（如结合 SPNEGO 的 `<auth-method>FORM</auth-method>`，或传统 WAS 常用的 LTPA + 全局安全域）。WAS 绑定文件（`ibm-web-bnd.xml`）也可按配置档覆盖用户/角色映射
 - 若使用 Spring Security：通过相同方式切换 `applicationContext-security.xml` 或属性文件
 - 本地硬编码用户：避免真实凭证，建议使用测试用户映射到本地 `users.properties` 或通过标志位禁用认证检查
 
 ### 构建命令
+
 - 本地环境（默认）：`mvn clean package`
 - 生产环境：`mvn clean package -Pserver`
 

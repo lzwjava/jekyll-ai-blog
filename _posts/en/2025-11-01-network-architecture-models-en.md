@@ -13,22 +13,27 @@ type: note
 This chapter lays the foundation for understanding how computer networks are structured and how data is transmitted across them. In the context of the *Computer Networks Technology* course (自考 code 02141 or similar), it emphasizes theoretical models like OSI and TCP/IP, which are core to exam questions on layering, protocols, and data flow. Focus on memorizing layer names, functions, and mappings between models. Expect multiple-choice, short-answer, or diagram-based questions testing comparisons and responsibilities.
 
 ## 1. Introduction to Layered Architectures
+
 Networks use **layered architectures** to simplify complex communication by dividing tasks into modular layers. Each layer:
+
 - Handles specific functions (e.g., error checking, routing).
 - Interacts only with adjacent layers via standardized interfaces.
 - Uses **encapsulation** (adding headers/trailers) when sending data down the stack and **decapsulation** when receiving.
 
 **Benefits**:
+
 - Modularity: Easy to develop, test, and update individual layers.
 - Interoperability: Devices from different vendors can communicate.
 - Scalability: Layers can evolve independently (e.g., new transport protocols).
 
 **Responsibilities** (general across models):
+
 - **Lower layers**: Focus on hardware and reliable data transfer (physical transmission, error detection).
 - **Upper layers**: Handle user-facing tasks (e.g., file transfer, web browsing).
 - Data flows **down** the sender's stack (encapsulation) and **up** the receiver's stack (decapsulation).
 
 ## 2. OSI Reference Model
+
 The **Open Systems Interconnection (OSI)** model is a conceptual 7-layer framework developed by ISO in 1984. It's theoretical, not implemented directly, but used as a standard for understanding protocols. Mnemonic: **Please Do Not Throw Sausage Pizza Away** (Physical → Application).
 
 | Layer Number | Layer Name       | Key Functions and Protocols | PDU (Protocol Data Unit) | Devices/Examples |
@@ -42,12 +47,14 @@ The **Open Systems Interconnection (OSI)** model is a conceptual 7-layer framewo
 | 1           | Physical        | Bit transmission over physical medium (e.g., signaling, cabling, topology). Deals with hardware specs. | Bit | RJ-45, Fiber optics; Hubs, Cables |
 
 **Key Notes**:
+
 - Layers 1-2: Media-focused (LAN/WAN).
 - Layers 3-4: Host-to-host (internetworking).
 - Layers 5-7: User-oriented (application support).
 - Exam Tip: Draw the stack and label PDUs/headers (e.g., TCP segment has TCP header + data).
 
 ## 3. TCP/IP Protocol Suite
+
 The **TCP/IP model** (or Internet Protocol Suite) is a practical 4-layer model developed in the 1970s for the ARPANET (basis of the internet). It's implemented worldwide and maps loosely to OSI. Mnemonic: **LITA** (Link → Application).
 
 | Layer Number | Layer Name       | Key Functions and Protocols | PDU                  | Devices/Examples |
@@ -58,11 +65,13 @@ The **TCP/IP model** (or Internet Protocol Suite) is a practical 4-layer model d
 | 1           | Link (or Network Access) | Physical + Data Link (OSI Layers 1-2): Hardware delivery on local network. | Frame/Bit | Ethernet, Wi-Fi; Switches, Cables |
 
 **Key Notes**:
+
 - No dedicated session/presentation layers; handled within Application.
 - TCP/IP is "protocol family" – e.g., IP is core, with TCP/UDP on top.
 - Exam Tip: Emphasize real-world use (e.g., TCP ensures reliability via acknowledgments, while UDP is lightweight for video streaming).
 
 ## 4. Comparison of OSI and TCP/IP Models
+
 Use this table for quick revision. OSI is theoretical (reference), TCP/IP is practical (implementation).
 
 | Aspect              | OSI Model                          | TCP/IP Model                       |
@@ -78,27 +87,33 @@ Use this table for quick revision. OSI is theoretical (reference), TCP/IP is pra
 | **Weaknesses**     | Overly complex, not practical     | Less detailed for upper layers    |
 
 **Key Differences**:
+
 - **Granularity**: OSI separates session/presentation; TCP/IP merges them into Application for simplicity.
 - **Addressing**: OSI uses service access points (SAPs); TCP/IP uses ports/IP addresses.
 - **Reliability**: Both have transport reliability, but TCP/IP's TCP is connection-oriented like OSI's Transport.
 - Exam Tip: Questions often ask for mappings (e.g., "Which OSI layer corresponds to TCP?") or advantages (e.g., TCP/IP's adaptability led to the internet's growth).
 
 ## 5. Layered Architecture Functions and Responsibilities
+
 **Core Principles**:
+
 - **Abstraction**: Each layer hides lower-layer details (e.g., Transport doesn't care about physical cables).
 - **Service Primitives**: Layers provide services like CONNECT, DATA, DISCONNECT to upper layers.
 - **Error Handling**: Lower layers detect errors; upper layers recover (e.g., Transport retransmits lost packets).
 - **Addressing**: Hierarchical – physical (MAC), logical (IP), service (ports).
 
 **Data Transmission Example**:
+
 1. Application data → Transport adds segment header (ports, seq. no.) → Network adds packet header (IP addresses) → Link adds frame header/trailer (MAC) → Physical sends bits.
 2. Reverse at receiver.
 
 **Common Pitfalls**:
+
 - Don't confuse layers: Physical is bits/signals; Data Link is frames/error-free frames.
 - TCP/IP Link layer = OSI 1+2 combined.
 
 ## Study Tips for 自考 Exam
+
 - **Memorization**: Use mnemonics and draw layered diagrams daily. Focus on 80% exam weight on OSI/TCP/IP descriptions.
 - **Practice**:
   - Compare layers in essays (200-300 words).
@@ -110,5 +125,6 @@ Use this table for quick revision. OSI is theoretical (reference), TCP/IP is pra
 Master this chapter for a strong start – it's referenced in later topics like protocols (e.g., IP in Chapter 3). Next, tackle physical layer details.
 
 **References**:
+
 - [Computer Networking: A Top-Down Approach by Kurose & Ross](https://www.pearson.com/us/higher-education/program/Kurose-Computer-Networking-A-Top-Down-Approach-8th-Edition/PGM1836378.html) (for TCP/IP depth).
 - [OSI Model Explained - GeeksforGeeks](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/) (visual aids).

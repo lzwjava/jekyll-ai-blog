@@ -30,6 +30,7 @@ Key elements of the change include:
 Regarding **"IC can be partner" (individual contributors reaching partner level)**: The changes do not explicitly eliminate the traditional partner track or fully flatten the structure to make pure ICs partners. However, the introduction of "leaders" as a new senior category, combined with the skills-focused redesign and emphasis on tailored career experiences, suggests Deloitte is creating more pathways for senior individual contributors or specialists to achieve high-equivalent status and recognition at the top level without strictly requiring the classic sales/business development-heavy partner route. This aligns with broader industry trends toward skills-based organizations, where deep expertise can lead to senior impact roles.
 
 The stated goals are to:
+
 - Provide more tailored career experiences.
 - Better align titles with skills and client needs in an AI-influenced era.
 - Improve clarity, consistency, and market relevance.

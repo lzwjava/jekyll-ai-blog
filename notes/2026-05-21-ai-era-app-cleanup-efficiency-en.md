@@ -16,14 +16,17 @@ Answer:
 Exactly right, and it's a real behavioral shift worth naming clearly.
 
 **The old cycle (painful):**
+
 - Install app → forget it exists → years later, mystery startup item → manually hunt down uninstall instructions → leave residual files everywhere
 
 **The AI-era cycle (fast):**
+
 - Install freely, experiment broadly → AI scans startup items, login items, LaunchAgents, LaunchDaemons → bulk identify what's dead weight → clean surgically
 
 Hermes (or similar tools like [Keka](https://www.keka.io/), CleanMyMac, etc.) + AI assistant = the friction of cleanup collapses. You went from "I should probably clean my Mac someday" to actually doing it in one session.
 
 **Your specific cleanup is rational:**
+
 - 搜狗输入法 → redundant, WeChat IME covers it, and 搜狗 has aggressive background processes
 - HP printer software → classic "installed once, running forever" offender, LaunchDaemons often survive even if you delete the app manually
 - KindlePreviewer → you read via LLM now, this is dead weight

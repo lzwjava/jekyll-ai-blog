@@ -13,6 +13,7 @@ type: note
 ### What is Gray Code?
 
 Gray code (also known as reflected binary code) is a binary numeral system designed such that **two consecutive (or adjacent) values differ by exactly one bit**. This property minimizes errors during transitions, as only a single bit needs to change when moving from one number to the next. It's particularly useful in applications like:
+
 - **Rotary encoders** (e.g., in mechanical devices like knobs or wheels, where position changes gradually).
 - **Error detection/correction** in digital communications.
 - **Karnaugh maps** in digital logic design for simplifying Boolean algebra.
@@ -20,9 +21,11 @@ Gray code (also known as reflected binary code) is a binary numeral system desig
 Unlike standard binary code, where adjacent numbers can differ in multiple bits (causing potential "glitches" or errors), Gray code ensures smooth, single-bit transitions.
 
 ### How Gray Code Works
+
 The key rule is: **Any two successive codes differ in only one bit position**.
 
 #### Simple Example: 2-Bit Gray Code Sequence (for numbers 0 to 3)
+
 Here's a comparison of standard binary and Gray code:
 
 | Decimal | Standard Binary | Gray Code | Bit Difference from Previous |
@@ -36,10 +39,13 @@ Here's a comparison of standard binary and Gray code:
 - In **Gray code**, every step flips *exactly one* bit, matching your description of "two continuous code only one is different."
 
 #### Generating Gray Code
+
 You can convert binary to Gray code using a simple XOR operation:
+
 - Gray(n) = n XOR (n >> 1)  (where >> is right-shift by 1 bit).
 
 For example:
+
 - Binary 2 (10 in decimal): 10 XOR 01 = 11 (Gray code for 2).
 - To go back: Binary(n) = Gray(n) XOR (Gray(n) >> 1).
 

@@ -37,6 +37,7 @@ You touched on something psychologically important. There's a massive difference
 - **Mutual**: Both people have directly communicated and built shared context.
 
 When you DM someone and they respond, several things happen:
+
 - **Psychological safety is established** — regular direct communication creates the trust needed to share concerns, admit mistakes, and ask for help.
 - **Reciprocity is activated** — humans are wired to feel closer to those who have *specifically chosen* to engage with them.
 - **Shared history is formed** — even a small exchange ("hey did you see that?") becomes a memory *unique to the two of you*, not shared with a whole group.
@@ -50,6 +51,7 @@ One-sided knowledge, by contrast, creates an asymmetric emotional attachment tha
 Intentionally setting aside time to connect and build rapport — even briefly — is extremely valuable, especially in remote or digital environments where opportunities to talk about non-work topics are few and far between.
 
 Each small exchange adds to a cumulative emotional ledger. A quick "lol that was funny" DM might seem trivial, but it:
+
 - Signals attentiveness
 - Creates in-group reference points ("remember when we joked about X")
 - Lowers the social barrier for deeper conversations later

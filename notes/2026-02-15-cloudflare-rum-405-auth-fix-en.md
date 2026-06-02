@@ -20,6 +20,7 @@ The key part is:
 This is a Cloudflare-specific error indicating that the authentication method (how you're sending the credentials) does not support the HTTP method of your request (e.g., GET, POST, DELETE, PATCH).
 
 ### Common Causes
+
 1. Using **API Token** authentication (via `Authorization: Bearer <token>`) but the endpoint or method does not fully support it for certain operations.
    Older or specific endpoints (including some RUM/Web Analytics ones) historically had better/more consistent support with the **Global API Key** (via `X-Auth-Email` + `X-Auth-Key` headers) rather than scoped API Tokens.
 
@@ -34,6 +35,7 @@ This is a Cloudflare-specific error indicating that the authentication method (h
 4. In rare cases: The endpoint itself has restrictions on token auth for non-GET methods (seen in community reports for PATCH/PUT/DELETE on various APIs).
 
 ### How to Fix It (Step-by-Step)
+
 1. **Verify you're using the correct HTTP method**
    For listing Web Analytics sites (most common starting point):
    - Endpoint: `GET https://api.cloudflare.com/client/v4/accounts/{account_id}/rum/site_info`
@@ -42,17 +44,21 @@ This is a Cloudflare-specific error indicating that the authentication method (h
 2. **Switch to Global API Key authentication** (most reliable fix for this exact error on RUM-related endpoints)
    - Go to Cloudflare Dashboard → **My Profile** → **API Tokens** tab → Scroll to **Global API Key** section → View / Generate if needed.
    - Use these headers in your request (instead of Bearer token):
+
      ```
      X-Auth-Email: your@email.com
      X-Auth-Key: YOUR_GLOBAL_API_KEY_HERE
      ```
+
    - Example curl to list sites:
+
      ```bash
      curl -X GET "https://api.cloudflare.com/client/v4/accounts/YOUR_ACCOUNT_ID/rum/site_info" \
      -H "X-Auth-Email: your@email.com" \
      -H "X-Auth-Key: YOUR_GLOBAL_API_KEY_HERE" \
      -H "Content-Type: application/json"
      ```
+
    - This often resolves the "authentication scheme" mismatch for older/legacy-style endpoints.
 
 3. **If you must use an API Token (Bearer auth)**

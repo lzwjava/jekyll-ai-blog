@@ -12,6 +12,7 @@ type: note
 Great question! Here are some app name ideas for a natural vision restoration tool:
 
 **Professional/Scientific:**
+
 - **VisionRestore** - Clean, direct, medical-sounding
 - **ClearSight** - Implies improvement and clarity
 - **MyopiaReverse** - Descriptive and searchable
@@ -19,6 +20,7 @@ Great question! Here are some app name ideas for a natural vision restoration to
 - **PrescriptionTaper** - Technical but accurate
 
 **User-Friendly:**
+
 - **JustClear** - References the "Just Barely Clear" principle from the article
 - **EyeEase** - Friendly, suggests comfort
 - **FocusGradual** - Implies slow, steady progress
@@ -26,6 +28,7 @@ Great question! Here are some app name ideas for a natural vision restoration to
 - **SeeBetter** - Positive, action-oriented
 
 **Project Names (for GitHub/development):**
+
 - `vision-restoration`
 - `myopia-reversal`
 - `just-clear-app`

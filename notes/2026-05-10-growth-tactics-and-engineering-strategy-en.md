@@ -108,7 +108,7 @@ The real problem is not “scale vs no scale” — it’s **signal quality vs n
 
 Instead of spam-scale, use **selective high-intent scaling**:
 
-### Better version of your idea:
+### Better version of your idea
 
 * identify 50–200 truly relevant targets
 * build something *they already need*

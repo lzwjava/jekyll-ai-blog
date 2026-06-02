@@ -20,11 +20,13 @@ type: note
 ### 1. ConPTY 库：静态库 vs 捆绑的 DLL
 
 **Windows Terminal** 将 ConPTY 作为静态库从源码构建：
+
 - `src/inc/conpty-static.h` — 直接符号链接
 - 使用较新的 API：`ConptyReparentPseudoConsole`、`ConptyPackPseudoConsole`、`ConptyClearPseudoConsole`
 - ConPTY 代码位于 `src/winconpty/winconpty.cpp` — 与 Terminal 一同构建，始终是最新版本，包含所有 fork() 修复
 
 **Warp** 在运行时动态加载 `conpty.dll`：
+
 - `conpty_api.rs:57`：`HSTRING::from("conpty.dll")`
 - 从 `assets/windows/{arch}/conpty.dll` 捆绑而来
 - 仅加载：`CreatePseudoConsole`、`ResizePseudoConsole`、`ClosePseudoConsole`、`ConptyShowHidePseudoConsole`、`ConptyReleasePseudoConsole`
@@ -35,6 +37,7 @@ type: note
 ### 2. 管道架构：双工 vs 分离
 
 **Windows Terminal** 使用单个双工管道同时用于 ConPTY 的两个方向：
+
 ```cpp
 // ConptyConnection.cpp:411-412
 auto pipe = Utils::CreateOverlappedPipe(PIPE_ACCESS_DUPLEX, 128 * 1024);
@@ -43,6 +46,7 @@ ConptyCreatePseudoConsole(size, pipe.client.get(), pipe.client.get(), _flags, &_
 ```
 
 **Warp** 使用独立的管道：
+
 ```rust
 // mod.rs:131-135
 let pipes::DuplexPipe { client, server } = pipes::create_async_anonymous_pipe()?;
@@ -54,12 +58,14 @@ Windows Terminal 中的双工管道意味着 ConPTY 服务器通过同一个句�
 ### 3. CREATE_BREAKAWAY_FROM_JOB
 
 **Windows Terminal**：
+
 ```cpp
 // ConptyConnection.cpp:172
 EXTENDED_STARTUPINFO_PRESENT | CREATE_UNICODE_ENVIRONMENT
 ```
 
 **Warp**：
+
 ```rust
 // mod.rs:194-197
 PROCESS_CREATION_FLAGS(0)
@@ -73,6 +79,7 @@ PROCESS_CREATION_FLAGS(0)
 ### 4. ConPTY 标志：0 vs 功能标志
 
 **Windows Terminal** 传递功能标志：
+
 ```cpp
 // ConptyConnection.cpp:412
 ConptyCreatePseudoConsole(size, in, out, _flags, &_hPC)
@@ -81,6 +88,7 @@ ConptyCreatePseudoConsole(size, in, out, _flags, &_hPC)
 ```
 
 **Warp** 传递 0：
+
 ```rust
 // mod.rs:135
 conpty_api.create(size.to_coord(), client, 0)  // flags = 0

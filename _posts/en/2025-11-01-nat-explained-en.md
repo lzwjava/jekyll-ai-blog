@@ -15,6 +15,7 @@ type: note
 NAT is a networking technique used to modify IP addresses (and sometimes port numbers) in the headers of packets as they pass through a router or firewall. Its main purpose is to allow multiple devices on a private (local) network to share a single public IP address when connecting to the internet. This helps conserve public IP addresses, improves security by hiding internal network details, and enables private networks to communicate with the public internet.
 
 There are a few common types of NAT:
+
 - **Source NAT (SNAT)**: Translates the source IP of outgoing packets (e.g., from private to public IP).
 - **Destination NAT (DNAT)**: Translates the destination IP of incoming packets (e.g., to forward traffic to a specific internal server).
 - **Port Address Translation (PAT)**: A variant of SNAT that also remaps ports, allowing many private devices to share one public IP.
@@ -48,6 +49,7 @@ If that's not the exact program you meant, feel free to clarify!
 ### NAT in AWS
 
 AWS uses NAT extensively for cloud networking:
+
 - **NAT Gateway**: A managed service in a public subnet that allows instances in private subnets (e.g., with private IPs like 10.0.1.x) to initiate outbound internet access (e.g., for software updates) without exposing them directly. It translates private source IPs to the gateway's public Elastic IP.
 - **NAT Instance**: A DIY alternative using an EC2 instance as a NAT router (less common now).
 - This keeps your private resources secure while enabling one-way outbound traffic—perfect for VPCs (Virtual Private Clouds).

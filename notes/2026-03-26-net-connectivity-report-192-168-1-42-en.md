@@ -19,6 +19,7 @@ Boss, here's what I found:
 - **Nearby:** 192.168.1.45 is up and responding fine, so the network segment is working
 
 **This looks like the .42 machine is either:**
+
 1. **Powered off / crashed** — most likely, since ARP is stale
 2. **Network interface stuck** — hardware up but OS unresponsive
 3. **Firewall blocking everything** — less likely since even ICMP fails
@@ -26,6 +27,7 @@ Boss, here's what I found:
 **What I can't do remotely:** This machine needs physical access or a remote management interface (IPMI/iDRAC/KVM). There's no way to "reset config" if I can't reach it.
 
 **Next steps:**
+
 - Can you physically access the .42 machine? Power cycle it, or check if it's even on?
 - If it's a virtual machine, check it from the hypervisor
 - Is there another way to reach it (serial console, IPMI, etc.)?

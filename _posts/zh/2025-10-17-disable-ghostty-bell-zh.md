@@ -20,26 +20,31 @@ type: note
 
 要取消或禁用此响铃标题通知（以及可能的其他响铃行为），请编辑你的 Ghostty 配置文件。默认位置在 Linux 上是 `~/.config/ghostty/config`，在 macOS 上是 `~/Library/Application Support/com.mitchellh.Ghostty/config`。
 
-1.  在你喜欢的编辑器中打开配置文件。
-2.  添加或修改以下行以专门禁用标题表情符号（同时保留其他响铃功能，如注意力请求）：
+1. 在你喜欢的编辑器中打开配置文件。
+2. 添加或修改以下行以专门禁用标题表情符号（同时保留其他响铃功能，如注意力请求）：
+
     ```
     bell-features = no-title
     ```
+
     - 这会从标签页标题中移除 🔔，但允许其他响铃效果（例如系统音频或窗口高亮）。
 
-3.  要更彻底地禁用（无标题表情符号、无注意力请求等），请使用：
+3. 要更彻底地禁用（无标题表情符号、无注意力请求等），请使用：
+
     ```
     bell-features = false
     ```
+
     - 这会完全关闭所有响铃功能。
 
-4.  保存文件并在 Ghostty 中重新加载配置：
+4. 保存文件并在 Ghostty 中重新加载配置：
     - 按 `Cmd/Ctrl + Shift + ,`（或在另一个终端中运行 `ghostty --reload-config`）。
     - 新窗口/标签页将使用更新后的设置；现有的窗口/标签页可能需要重启。
 
 如果这不是你指的确切通知（例如，如果是应用内提示如“已复制到剪贴板”或来自终端应用的桌面通知），你也可以禁用它们：
--   对于应用内提示（仅限 Linux GTK）：`app-notifications = false`
--   对于来自终端应用的桌面通知：`desktop-notifications = false`
+
+- 对于应用内提示（仅限 Linux GTK）：`app-notifications = false`
+- 对于来自终端应用的桌面通知：`desktop-notifications = false`
 
 可以通过运行触发响铃的命令进行测试，例如 `echo -e '\a'`。
 

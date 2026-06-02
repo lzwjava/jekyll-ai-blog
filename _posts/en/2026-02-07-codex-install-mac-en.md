@@ -26,9 +26,11 @@ Here's why and how to confirm which method was used:
 
   1. **Check which command provides the binary** (most definitive method):
      Run:
+
      ```
      which codex
      ```
+
      - If the result is something like:
        `/opt/homebrew/bin/codex` or `/usr/local/bin/codex` (Homebrew locations)
        → **You are using the Homebrew cask version**.
@@ -38,27 +40,34 @@ Here's why and how to confirm which method was used:
        → **You are using the npm version**.
 
   2. **Check Homebrew cask status**:
+
      ```
      brew list --cask | grep codex
      ```
+
      - If it shows `codex` → Installed via Homebrew cask.
 
      Or run:
+
      ```
      brew info --cask codex
      ```
+
      If it's installed, you'll see details including the version and "Installed" status.
 
   3. **Check npm global packages**:
+
      ```
      npm list -g @openai/codex
      ```
+
      - If it shows the package (with a version) → Installed via npm.
      - If it says "empty" or not found → Not installed via npm.
 
 In practice, most users on macOS who see the clean `codex` command without path issues and are using Homebrew tend to install via `brew install --cask codex`, especially since the project officially recommends it as one of the two equal options.
 
 Your version (0.36.0) appears to be an older release from late 2025 or early 2026 — consider updating to get the latest features and models:
+
 - For Homebrew: `brew upgrade --cask codex`
 - For npm: `npm install -g @openai/codex@latest`
 

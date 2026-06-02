@@ -49,7 +49,9 @@ This Git command fetches updates from the `origin` remote repository with severa
 In short, it’s a lightweight way to update your local view of the remote repository, focusing on recent changes and avoiding extra data like tags, submodules, or full history. This might be used to save bandwidth, speed up the process, or keep your local repository minimal.
 
 ### Example Scenario
+
 Imagine you’re working on a project with a large repository, and you only need the latest changes from the `main` branch to check something quickly. Running this command would:
+
 - Update `origin/main` with the last 5 commits.
 - Remove any outdated branches (e.g., if `origin/feature-x` was deleted remotely).
 - Skip tags and submodules, keeping your fetch fast and focused.

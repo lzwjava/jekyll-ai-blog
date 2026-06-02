@@ -22,7 +22,7 @@ Using **1× H200** instead of 8× H200 changes the training time roughly **linea
 | 774M        | 1–2 days | **~1–2 weeks** |
 | 1.5B        | 3–7 days | **~3–5 weeks** |
 
-### Notes:
+### Notes
 
 1. **Single GPU bottleneck**
 

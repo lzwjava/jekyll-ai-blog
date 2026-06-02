@@ -23,33 +23,33 @@ type: note
 
 这实际上是最健康的影响力形式之一：
 
-*   扎根于实际工作
-*   基于实践经验
-*   缓慢积累
-*   对普通人有用
-*   较少依赖炒作
+* 扎根于实际工作
+* 基于实践经验
+* 缓慢积累
+* 对普通人有用
+* 较少依赖炒作
 
 互联网之所以在历史上变得强大，正是因为普通专业人士开始分享：
 
-*   博客文章
-*   教程
-*   论坛回答
-*   视频
-*   开源项目
-*   技术笔记
-*   教学材料
-*   工作流程记录
+* 博客文章
+* 教程
+* 论坛回答
+* 视频
+* 开源项目
+* 技术笔记
+* 教学材料
+* 工作流程记录
 
 如今许多全球知识的存在，都源于有人不经意间记录了自己的工作。
 
 例如：
 
-*   程序员撰写技术博客
-*   机械师上传维修视频
-*   教师分享教案
-*   医生解释医学基础
-*   技工记录实用技巧
-*   翻译分享语言笔记
+* 程序员撰写技术博客
+* 机械师上传维修视频
+* 教师分享教案
+* 医生解释医学基础
+* 技工记录实用技巧
+* 翻译分享语言笔记
 
 多年下来，这些微小的贡献汇聚成了集体知识。
 
@@ -57,11 +57,11 @@ type: note
 
 即使是简单的文档也有帮助：
 
-*   “我如何解决这个问题”
-*   “初学者常犯的错误”
-*   “我十年后学到的东西”
-*   “日常工作流程”
-*   “这个行业的真实运作方式”
+* “我如何解决这个问题”
+* “初学者常犯的错误”
+* “我十年后学到的东西”
+* “日常工作流程”
+* “这个行业的真实运作方式”
 
 这些可以激励年轻人，并保存那些否则会消失的实用知识。
 
@@ -69,19 +69,19 @@ type: note
 
 人们常常认为影响力意味着：
 
-*   彻底改变世界
-*   变得出名
-*   赚大钱
-*   拥有数百万粉丝
+* 彻底改变世界
+* 变得出名
+* 赚大钱
+* 拥有数百万粉丝
 
 但许多有意义的影响却更小：
 
-*   帮助100个人
-*   改善一个社区
-*   教导晚辈
-*   记录经验
-*   减少困惑
-*   保存专业知识
+* 帮助100个人
+* 改善一个社区
+* 教导晚辈
+* 记录经验
+* 减少困惑
+* 保存专业知识
 
 一位上传优秀教学方法的小学教师，可能比许多“网红”影响更多人的生活。
 
@@ -91,15 +91,15 @@ type: note
 
 当然，平衡很重要：
 
-*   保护隐私
-*   避免伤害雇主或客户
-*   避免泄露机密信息
-*   避免因追逐关注而 burnout
+* 保护隐私
+* 避免伤害雇主或客户
+* 避免泄露机密信息
+* 避免因追逐关注而 burnout
 
 但总体而言，公开分享有用的专业经验对社会通常是积极的事情。
 
 参考资料：
 
-*   [https://en.wikipedia.org/wiki/Knowledge_sharing](https://en.wikipedia.org/wiki/Knowledge_sharing)
-*   [https://en.wikipedia.org/wiki/Open-source_software](https://en.wikipedia.org/wiki/Open-source_software)
-*   [https://en.wikipedia.org/wiki/Communities_of_practice](https://en.wikipedia.org/wiki/Communities_of_practice)
+* [https://en.wikipedia.org/wiki/Knowledge_sharing](https://en.wikipedia.org/wiki/Knowledge_sharing)
+* [https://en.wikipedia.org/wiki/Open-source_software](https://en.wikipedia.org/wiki/Open-source_software)
+* [https://en.wikipedia.org/wiki/Communities_of_practice](https://en.wikipedia.org/wiki/Communities_of_practice)

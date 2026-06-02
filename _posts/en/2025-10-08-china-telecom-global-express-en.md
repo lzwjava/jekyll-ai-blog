@@ -15,6 +15,7 @@ type: note
 CN2, short for **ChinaNet Next Carrying Network (CN2)**, is a premium, next-generation international backbone network developed and operated by China Telecom. It's designed specifically for high-quality, low-latency global connectivity, especially for traffic moving between China and the rest of the world. While it's not a single "cable" per se, it leverages advanced undersea fiber-optic cables (like those in the global submarine cable network) along with optimized routing and peering agreements to provide superior performance. Think of it as China's upgraded "express lane" for internet traffic export/import, contrasting with the more congested standard ChinaNet (CHINANET) infrastructure.
 
 In essence:
+
 - **Purpose**: It handles international data export from China to overseas destinations (e.g., US, Europe, Asia-Pacific) with dedicated bandwidth, reducing bottlenecks caused by the Great Firewall, peering issues, or high traffic volumes on regular lines.
 - **Key Features**:
   - **Optimized Routing**: Direct peering with major global ISPs (e.g., Level 3, NTT) for faster paths.
@@ -34,6 +35,7 @@ Yes, CN2 is generally **faster and more reliable** than standard China Telecom n
 If you're setting up a connection, providers like China Telecom Americas or cloud hosts (e.g., AWS via CN2) often bundle it for seamless overseas access.
 
 #### References
+
 - [CN2 (AS 4809) | China Telecom Americas Premium Global Network](https://www.ctamericas.com/company/global-network/cn2/)
 - [Why CN2 is a Game Changer for International IT Operations in China](https://edgenext.medium.com/why-cn2-is-a-game-changer-for-international-it-operations-in-china-5050cc8e9f69)
 - [Quick Comparison Global Network vs China Direct vs CN2](https://www.krypt.com/knowledgebase/299/Quick-Comparison-Global-Network-vs-China-Direct-vs--CN2-with-Global-Network.html)

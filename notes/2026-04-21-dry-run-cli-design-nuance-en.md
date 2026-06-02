@@ -50,6 +50,7 @@ Git doesn't protect you from those. A developer built a reporting application th
 CLI guidelines suggest: for "moderate" danger — bigger local changes like deleting a directory, a remote change, or a complex bulk modification that can't be easily undone — you usually want to prompt for confirmation, and consider giving the user a way to "dry run" the operation.
 
 So dry-run is most justified when the operation is:
+
 1. **Irreversible** (can't be undone by Git or any rollback)
 2. **Broad in scope** (affects many files, records, or remote systems)
 3. **Non-interactive** (runs in scripts, automation, CI/CD)

@@ -31,6 +31,7 @@ IntelliJ IDEA 被广泛誉为 Java 开发的黄金标准，但也有持强烈反
 这些观点突显了即使是顶级的工具也存在痛点，尤其是在项目规模扩大或硬件各异时。如果你正在考虑切换，试用社区版一周通常就能解决问题。
 
 参考资料：
+
 - [Why do people hate IntelliJ IDEA?](https://www.quora.com/Why-do-people-hate-IntelliJ-IDEA-What-are-its-disadvantages-compared-to-other-IDEs-like-NetBeans-or-Eclipse)
 - [Most unprofessional IDEA review](https://intellij-support.jetbrains.com/hc/en-us/community/posts/206320709-Most-unprofessional-IDEA-review)
 - [Am I the only one that doesn't like Intellij?](https://www.reddit.com/r/java/comments/4uburp/am_i_the_only_one_that_doesnt_like_intellij/)

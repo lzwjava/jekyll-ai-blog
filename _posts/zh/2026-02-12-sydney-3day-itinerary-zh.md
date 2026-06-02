@@ -17,6 +17,7 @@ Answer:
 这份指南将为您提供实用的 **Sydney 游览指南** 以及针对初次游客的 **3 日行程表**（假设您乘飞机抵达且是第一次来到这座城市）。该计划侧重于绝对不容错过的亮点：海港标志性建筑、海滩以及对自然和当地生活的体验。
 
 ### 前往 Sydney 及入境基础知识（截至 2026 年初）
+
 Sydney 的主要枢纽是 **Sydney Kingsford Smith Airport (SYD)**，距离市中心约 8–10 公里。
 
 - **国际游客**：大多数游客在抵达前需要签证或 **Electronic Travel Authority (ETA)**（通过 Australian ETA App 或官方网站申请）。美国、欧盟、英国及许多其他国家/地区的护照持有者有资格申请用于短期旅游停留（最多 90 天）的 ETA。请根据您的国籍咨询 Australian Department of Home Affairs 网站。
@@ -29,6 +30,7 @@ Sydney 的主要枢纽是 **Sydney Kingsford Smith Airport (SYD)**，距离市�
 使用 **Opal card**（实体卡）或感应式借记卡/信用卡/手机支付。可以在机场、火车站或便利店购买 Opal card（最低充值约 AUD 10）。票价设有每日（约 AUD 16–20）和每周（约 AUD 50）上限。Ferries、trains、buses、metro 和 light rail 均接受此类支付方式。下载 **Opal Travel** 或 **Transport NSW** App 以规划路线并获取实时信息。
 
 **住宿推荐区域**（适合初次访客）：
+
 - Circular Quay / The Rocks（标志性景观，步行便利，价格昂贵）
 - CBD / Darling Harbour（中心地带，交通便利）
 - Surry Hills / Darlinghurst（充满活力，美食聚集，步行至海港约 10–15 分钟）
@@ -64,6 +66,7 @@ Sydney 的主要枢纽是 **Sydney Kingsford Smith Airport (SYD)**，距离市�
 - **晚上** — 在 CBD 或 Darling Harbour 享用轻松的晚餐。如果体力允许 → 前往天台酒吧，或在灯光照耀下的歌剧院周围进行夜间漫步。
 
 ### 快捷提示
+
 - 夏季（12月–2月） = 天气炎热且繁忙；建议尽早预订轮渡和活动。冬季（6月–8月） = 气候较温和，游客较少。
 - 穿着舒适的步行鞋 — Sydney 虽适合步行，但景点分布较广。
 - 预算：预计每人每天约 AUD 150–300（不含住宿），用于餐饮、交通和门票。

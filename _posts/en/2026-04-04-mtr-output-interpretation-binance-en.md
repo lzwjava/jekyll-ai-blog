@@ -32,28 +32,35 @@ type: note
 ### Hop-by-Hop Breakdown
 
 **Hop 1 — `192.168.1.1` (Your Home Router)**
+
 - Loss: 0.0% ✅
 - Avg: 9.9ms, Best: 5.3ms, Wrst: 61.2ms, StDev: 10.0
 - Your local router is healthy with no loss. The high Wrst (61ms) and StDev suggest occasional Wi-Fi or router CPU spikes, but not a real issue.
 
 **Hop 2 — `100.69.0.1` (Your ISP's First Gateway)**
+
 - Loss: 0.0% ✅
 - Avg: 17.1ms, Best: 9.1ms, Wrst: 80.9ms, StDev: 16.0
 - Still healthy. The latency increase (~7ms) is expected as packets leave your home network and enter the ISP backbone. The higher StDev indicates some jitter at the ISP edge.
 
 **Hop 3 — `(waiting for reply)` ⚠️**
+
 - This hop shows as `???` because it did not send a TTL time-exceeded message in response to the probe. This is not uncommon and is nothing to worry about if the missing hops are in the middle of the trace — the trace continued beyond this hop, so it is not a problem.
 
 **Hop 4 — `14.147.135.205` — Loss: 64.4% 🚨**
+
 - This is a major red flag on the surface, but context matters. If a network hop shows a loss percentage, check the subsequent hops. If any subsequent hop shows 0% loss, it is not actual packet loss — it is caused by the hop not generating ICMP Time Exceeded replies. However, since hop 5 also shows loss, this needs closer scrutiny.
 
 **Hop 5 — `14.147.135.206` — Loss: 59.1% 🚨**
+
 - Also high loss. When different amounts of loss appear across multiple hops, trust the reports from later hops. Always trace from both directions as some loss can be explained by problems in the return route.
 
 **Hop 6 — `14.147.5.141` — Loss: 22.2% ⚠️**
+
 - Loss drops significantly here. This is a positive sign. If the loss continues for more than one hop, it means there are some actual packet loss or routing problems. However, take the lowest percentage of loss in a sequence as the actual loss.
 
 **Hop 7 — `(waiting for reply)`**
+
 - If the report shows question marks but no packet loss at the destination, there is no network connection problem. Question marks are caused by a router discarding ICMP. The trace appears to still be in progress at this point (you only had 46 packets sent), and `api.binance.com` itself hasn't yet appeared as a final hop.
 
 ---
@@ -75,11 +82,13 @@ The pattern here — high loss at hops 4–5 (64%, 59%), dropping to 22% at hop 
 ### What to Do Next
 
 1. **Run more cycles to confirm:**
+
    ```bash
    sudo mtr api.binance.com --report -c 200
    ```
 
 2. **Try TCP mode on port 443** (bypasses ICMP rate limiting entirely):
+
    ```bash
    sudo mtr api.binance.com -T -P 443 --report -c 100
    ```

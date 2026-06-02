@@ -19,6 +19,7 @@ Yes, exactly right! When your CLI tool has well-separated subcommands/modules, y
 2. If two instances both *write* to `main.py` (e.g. adding a new CLI entry point), you'll get conflicts. Coordinate those changes manually, or stagger them — finish one instance's work and merge before the next touches shared files.
 
 **Practical workflow:**
+
 - Spin up one Claude Code per subcommand, each pointed at its own subdirectory
 - Give each instance context limited to that folder: `claude --context github/`
 - Handle `main.py` / routing changes yourself as the integrator, or do them in a separate sequential step after the subcommand work is done

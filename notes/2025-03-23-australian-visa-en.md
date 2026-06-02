@@ -35,4 +35,4 @@ It's advisable to apply at least 6-8 weeks before your planned travel date. Cons
 
 The Australian Consulate-General in Guangzhou can provide further information:
 Phone: +86 20 3814 0111
-Email: guangzhou.consular@dfat.gov.au
+Email: <guangzhou.consular@dfat.gov.au>

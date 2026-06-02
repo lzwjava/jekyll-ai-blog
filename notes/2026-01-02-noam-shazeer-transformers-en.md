@@ -17,6 +17,7 @@ Answer:
 Noam Shazeer, one of the key inventors behind the Transformer architecture, has a casual, enthusiastic, and straightforward tone when discussing it—often sounding like an excited engineer who's thrilled by practical breakthroughs rather than hype. He frequently uses phrases like "Heck yeah!" to express excitement and describes ideas in simple, relatable terms.
 
 ### Origins and Motivation
+
 Shazeer traces the Transformer's birth to frustration with recurrent neural networks (RNNs), particularly LSTMs, which were the state-of-the-art for language tasks before 2017.
 
 He said: "I’d been working with LSTMs, the state-of-the-art language architecture before transformer... Filling up memory with all those activations limits the size of your model and the length of the sequences you can process. Transformers can solve those problems because you process the entire sequence simultaneously."
@@ -28,6 +29,7 @@ In interviews, he explains RNNs vs. Transformers simply: "The recurrent neural n
 This parallelism was a game-changer for training speed and scalability.
 
 ### Key Contributions to Attention
+
 In the "Attention Is All You Need" paper acknowledgments, it's noted that Shazeer "proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail." He developed the multi-headed self-attention mechanism, which became core to the architecture.
 
 He describes attention intuitively: "Attention itself... It's kind of like you're creating this big key value associative memory where you're like building this big table like with one entry for every word in the sequence... The insight here was hey, you can use the same attention thing to like look back at the past of this sequence that you're trying to produce."
@@ -35,6 +37,7 @@ He describes attention intuitively: "Attention itself... It's kind of like you'r
 Inspired by machine translation (like Google Translate), attention acts as a "soft lookup into an index" or memory.
 
 ### Impact and Reflections
+
 Shazeer views the Transformer as fundamentally superior for language: "Transformer is a better tool for understanding language. That’s very exciting, and it’s going to affect a lot of applications."
 
 He was surprised by its broader success, especially transfer learning: "I’ve been very pleasantly surprised by transfer learning for transformers, which really kicked off with BERT. The fact that you could spend a lot of computation and train a model once, and very cheaply use that to solve all sorts of problems."

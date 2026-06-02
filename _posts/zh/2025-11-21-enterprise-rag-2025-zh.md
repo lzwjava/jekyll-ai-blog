@@ -19,6 +19,7 @@ type: note
 - 元数据过滤 + 混合搜索 + 重排序
 
 ### 1. 环境安装（一次性）
+
 ```bash
 pip install llama-index llama-index-llms-azure-openai llama-index-embeddings-azure-openai \
             llama-index-vector-stores-pinecone llama-index-readers-confluence \
@@ -27,6 +28,7 @@ pip install llama-index llama-index-llms-azure-openai llama-index-embeddings-azu
 ```
 
 ### 2. 环境变量配置
+
 ```env
 AZURE_OPENAI_API_KEY=...
 AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
@@ -36,6 +38,7 @@ GITHUB_TOKEN=ghp_...
 ```
 
 ### 3. 数据摄取脚本（每日运行或通过webhook触发）
+
 ```python
 # ingest.py
 import os
@@ -147,6 +150,7 @@ print(f"已索引 {len(nodes)} 个节点")
 ```
 
 ### 4. 查询引擎（FastAPI/Streamlit/Slack机器人）
+
 ```python
 # query.py
 from llama_index.core import VectorStoreIndex, get_response_synthesizer

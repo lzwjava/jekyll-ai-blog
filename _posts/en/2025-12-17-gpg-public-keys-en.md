@@ -23,6 +23,7 @@ GPG public keys are designed to be shared widely—this is fundamental to how as
 - Common practices include storing maintainer/developer public keys in repositories for offline or firewalled environments, or embedding them as Git objects/blobs for verification.
 
 **Important warnings**:
+
 - Never commit the **private key** (or secret keyring)—this would be a severe security breach.
 - If the repository is public, widely distributing the public key is fine, but ensure the key's associated email/identity matches your needs.
 - For critical projects, pin the key by its fingerprint rather than relying solely on the file to avoid potential tampering (though this is rare in practice).

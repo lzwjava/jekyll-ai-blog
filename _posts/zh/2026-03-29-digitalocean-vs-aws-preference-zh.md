@@ -16,11 +16,13 @@ Answer:
 是的，正如你所描述的，许多用户和开发者确实更倾向于选择 DigitalOcean (DO) 而非 Google Cloud Platform (GCP) 和 Amazon Web Services (AWS)。以下是具体的分析：
 
 ### 为什么用户喜欢 DigitalOcean 的简洁性
+
 - **直观的基础设施**：DigitalOcean 专注于核心的 compute (Droplets)、storage (Volumes, Spaces) 和 networking，没有沉重的 managed services 层。你获得的是一种接近 bare metal 的纯净 VPS 或 VM 体验。许多用户表示它“好用且直观”，无需在复杂的控制面板或意外的 abstraction 中挣扎。
 - **开发者友好的定价和体验**：Instance 非常易于理解（CPU、RAM、storage 都是透明的）。计费可预测，UI/CLI 非常简单。这对 startups、indie hackers、小团队以及想要避开“企业级臃肿”的开发者非常有吸引力。
 - **Bare metal 和贴近硬件的感受**：虽然 DigitalOcean 主要以虚拟化的 Droplets 闻名，但它们提供良好的 performance，你可以轻松运行自己的 open source stack（如 Docker、通过 DOKS 运行 Kubernetes，但许多人更喜欢 self-managed）。该平台鼓励使用 Docker、Compose、Ansible、Terraform 等工具进行自建（self-setup）。
 
 ### 与 GCP 和 AWS 的对比
+
 - **Abstraction 层**：AWS 和 GCP 提供数以百计（甚至数千计）的服务并进行深度集成。这对于大规模、复杂的 workload 非常强大，但往往会带来：
   - 更高的学习曲线（IAM roles、VPCs、像 EKS/GKE、Lambda、Cloud Run 这样的 managed services 等）
   - 通过专有服务引入的潜在 vendor lock-in
@@ -42,6 +44,7 @@ Answer:
   由于底层 OS 是标准的 Linux，你拥有完全的控制权，并且可以轻松地在不同 provider 之间复制配置。
 
 ### DigitalOcean 的局限性（为什么它规模较小）
+
 - 较少的先进 managed services（例如，在相同规模下没有直接等同于 AWS Lambda、SageMaker 或 GCP 进阶 AI/ML 工具的服务）。
 - 与 AWS/GCP 庞大的 data center 足迹相比，在某些地区的 global reach 较小。
 - 扩展到极大型 Enterprise 级别（每秒数百万次请求、复杂的 multi-region 架构）可能需要更多手动工作。
@@ -50,6 +53,7 @@ Answer:
 然而，对于大多数**并非**处于 hyperscale 级别的用户和公司来说，这些局限性很少产生影响。许多成功的业务在 DigitalOcean 上稳定运行了多年。
 
 ### 谁通常更青睐 DigitalOcean？
+
 - Indie 开发者和独立创始人
 - 中小型 startups（尤其是 bootstrapped 自筹资金型）
 - 重视简洁性和低认知负荷（cognitive load）的团队
@@ -61,7 +65,8 @@ Answer:
 在开发者社区中，许多人会公开表示：“对于非企业级项目，我从 AWS 转向了 DigitalOcean，并且从未后悔。”
 
 References:
-- https://www.digitalocean.com/
-- https://www.digitalocean.com/pricing
-- https://www.reddit.com/r/webdev/comments/ (various threads comparing DO vs AWS)
-- https://news.ycombinator.com/ (frequent discussions on DO simplicity)
+
+- <https://www.digitalocean.com/>
+- <https://www.digitalocean.com/pricing>
+- <https://www.reddit.com/r/webdev/comments/> (various threads comparing DO vs AWS)
+- <https://news.ycombinator.com/> (frequent discussions on DO simplicity)

@@ -18,11 +18,13 @@ type: note
 Yosys is an open-source **RTL synthesis framework** — it takes Verilog hardware description code and converts it into a gate-level netlist. Think of it as the "compiler" for hardware, analogous to how GCC compiles C to machine code, except Yosys compiles Verilog to logic gates.
 
 The pipeline:
+
 ```
 Verilog HDL → [Yosys] → Gate-level netlist → [nextpnr/place-and-route] → FPGA bitstream / ASIC layout
 ```
 
 What that `stat` command shows you:
+
 ```
 Number of wires:                 23
 Number of cells:                 14

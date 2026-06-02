@@ -18,6 +18,7 @@ Hermes-agent is a local AI agent framework (often used with tools like Ollama, L
 ### Key Comparison
 
 **M2 Air (Apple Silicon laptop):**
+
 - **Pros:**
   - Very efficient power usage and excellent battery life.
   - Silent operation and portable.
@@ -30,6 +31,7 @@ Hermes-agent is a local AI agent framework (often used with tools like Ollama, L
   - Not suitable for "always-on" server-style usage — you’ll likely close the lid or put it to sleep.
 
 **Home LAN Server (i9 + RTX 4070, Ubuntu 24.04):**
+
 - **Pros:**
   - Much stronger performance for AI workloads. The RTX 4070 supports CUDA, which accelerates most local LLM frameworks (Ollama, vLLM, etc.) significantly compared to Apple Silicon.
   - Higher RAM and better sustained performance without thermal throttling as quickly.
@@ -44,12 +46,14 @@ Hermes-agent is a local AI agent framework (often used with tools like Ollama, L
 **Install Hermes-agent on the Ubuntu desktop server (i9 + RTX 4070).**
 
 This is the better choice in almost all scenarios for the following reasons:
+
 - Hermes agents often involve running local LLMs with tool use, memory, and possibly vision or other modalities. NVIDIA CUDA gives a massive speed advantage over M2 Air.
 - You can access the agent remotely from your M2 Air (via browser, API, or SSH) while keeping your laptop light and cool.
 - The desktop can act as a dedicated always-available AI server on your home LAN.
 - Ubuntu 24.04 is excellent for AI tooling (easy NVIDIA driver + CUDA installation).
 
 **Setup Suggestion:**
+
 1. On the Ubuntu server:
    - Install NVIDIA drivers and CUDA.
    - Set up Ollama or your preferred local LLM backend with GPU support.
@@ -57,9 +61,10 @@ This is the better choice in almost all scenarios for the following reasons:
    - Configure it to start on boot.
 
 2. On your M2 Air:
-   - Use it as the client: connect to the server’s IP (e.g., http://192.168.x.x:port) or set up Tailscale/ZeroTier for secure remote access even when away from home.
+   - Use it as the client: connect to the server’s IP (e.g., <http://192.168.x.x:port>) or set up Tailscale/ZeroTier for secure remote access even when away from home.
 
 **When you might still choose the M2 Air:**
+
 - If your Hermes usage is very light (small models, occasional queries, no heavy agent loops).
 - You want everything local on one portable device and rarely need high performance.
 - You prioritize silence, zero extra power draw, and simplicity.

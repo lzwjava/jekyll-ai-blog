@@ -15,6 +15,7 @@ type: note
 A **service mesh** is an infrastructure layer designed to handle communication between microservices in a cloud-native application architecture. It acts as a "mesh" of proxies (sidecar or otherwise) that intercept and manage traffic between services, abstracting away the complexities of networking, security, and observability. This allows developers to focus on business logic while the mesh handles the "plumbing."
 
 #### Key Features of Service Meshes
+
 - **Traffic Management**: Routing, load balancing, retries, circuit breaking, and fault injection (e.g., for testing resilience).
 - **Security**: Automatic mutual TLS (mTLS) encryption, authentication, and authorization policies.
 - **Observability**: Built-in metrics, distributed tracing, and logging without instrumenting application code.
@@ -24,6 +25,7 @@ A **service mesh** is an infrastructure layer designed to handle communication b
 Service meshes are especially useful in Kubernetes environments, where microservices scale dynamically and need reliable inter-service communication.
 
 #### Istio as a Popular Example
+
 **Istio** is one of the most widely used open-source service meshes, originally developed by Google, IBM, and Lyft. It's particularly Kubernetes-native and has become a de facto standard.
 
 - **How It Works**:
@@ -43,7 +45,9 @@ Service meshes are especially useful in Kubernetes environments, where microserv
 - **Getting Started**: Install via `istioctl` on a Kubernetes cluster. Check the official docs at [istio.io](https://istio.io) for tutorials.
 
 #### Other Service Meshes
+
 If Istio feels heavyweight, consider these alternatives:
+
 - **Linkerd**: Lightweight, focused on simplicity and ease of use. Great for beginners; uses Rust-based proxies for performance.
 - **Consul (by HashiCorp)**: Combines service mesh with service discovery and configuration management. Supports non-Kubernetes environments too.
 - **AWS App Mesh** or **Azure Service Fabric Mesh**: Cloud-provider specific, if you're locked into a particular ecosystem.

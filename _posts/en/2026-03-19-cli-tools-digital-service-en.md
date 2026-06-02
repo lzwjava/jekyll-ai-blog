@@ -36,6 +36,7 @@ scb pay --bill electricity --amount auto
 ```
 
 **What's possible today:**
+
 - DBS & SCB both have developer APIs (PayLah, RAPID API)
 - Open Banking regulations (MAS in Singapore, BoT in Thailand) are pushing this
 - Claude Code could auto-pay bills, alert on anomalies, rebalance savings
@@ -54,6 +55,7 @@ pinduoduo group-buy --join cheapest --category electronics
 ```
 
 **What's possible today:**
+
 - Amazon has a Product Advertising API
 - Temu/Pinduoduo have no official public APIs yet
 - Could be built via browser automation (Playwright + Claude)
@@ -72,6 +74,7 @@ openrouter spend --this-month --breakdown-by-model
 ```
 
 **What's possible today:**
+
 - OpenRouter already has a REST API — a CLI wrapper is trivially buildable
 - This is the **most immediately feasible** category
 - Claude Code could auto-select cheapest model per task type
@@ -103,6 +106,7 @@ The real power emerges when Claude Code connects **all of them**:
 ```
 
 Claude Code would:
+
 1. `dbs balance` → confirm funds ✅
 2. `amazon search` + `temu search` → compare prices
 3. `amazon buy` → purchase
@@ -134,6 +138,7 @@ Claude Code would:
 ## The MCP Angle (Already Happening)
 
 Claude Code's **MCP (Model Context Protocol)** is exactly the infrastructure for this. Anyone can build an MCP server for:
+
 - DBS → `dbs-mcp-server`
 - Amazon → `amazon-mcp-server`
 - OpenRouter → `openrouter-mcp-server`

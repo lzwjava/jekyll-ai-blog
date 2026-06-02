@@ -11,6 +11,7 @@ type: note
 Let’s break this down step-by-step to explain how radio waves and electromagnetic waves work, and how electricity and magnetism tie into transmitting signals.
 
 ### How Do Radio Waves Work?
+
 Radio waves are a type of electromagnetic wave used to transmit information—like sound, data, or video—through the air without wires. Here’s how they function:
 
 1. **Generation**: A radio transmitter creates an electrical signal (like audio from a microphone). This signal is an alternating current (AC) that oscillates at a specific frequency, say 100 MHz for an FM station.
@@ -24,6 +25,7 @@ Radio waves are a type of electromagnetic wave used to transmit information—li
 5. **Reception**: A receiving antenna picks up the radio waves, converting them back into an electrical signal. A radio tuner filters out the desired frequency, and a demodulator extracts the original information (e.g., the music), which is then amplified and played through a speaker.
 
 ### How Do Electromagnetic Waves Work?
+
 Electromagnetic (EM) waves, including radio waves, are waves of energy made up of oscillating electric and magnetic fields. Here’s the basics:
 
 - **Structure**: An EM wave has two components: an electric field and a magnetic field, perpendicular to each other and to the direction of the wave’s travel. Imagine a wave moving forward while electric field lines wiggle up-down and magnetic field lines wiggle left-right.
@@ -35,6 +37,7 @@ Electromagnetic (EM) waves, including radio waves, are waves of energy made up o
 - **No Medium Needed**: Unlike sound waves, EM waves don’t need air or water to travel—they can move through a vacuum (e.g., space), which is why we can get radio signals from satellites.
 
 ### How Does Electricity Produce Magnetism to Transmit Signals?
+
 Yes, electricity and magnetism are deeply connected, and this relationship (electromagnetism) is what makes radio transmission possible:
 
 1. **Electric Current and Magnetic Fields**: When electric current flows through a wire, it creates a magnetic field around it (discovered by Hans Christian Ørsted). If the current oscillates (switches direction rapidly), the magnetic field also oscillates.
@@ -43,7 +46,8 @@ Yes, electricity and magnetism are deeply connected, and this relationship (elec
 
 3. **Signal Transmission**: The frequency of the oscillation determines the radio wave’s frequency (e.g., 101.5 MHz). The wave carries the modulated information through space until it’s picked up by another antenna, where the process reverses: the EM wave induces an electric current in the receiver.
 
-### In Short:
+### In Short
+
 - Radio waves are electromagnetic waves created by oscillating electric currents in an antenna.
 - Electromagnetic waves are self-sustaining oscillations of electric and magnetic fields that travel through space.
 - Electricity produces magnetism (and vice versa) because they’re two sides of the same force—electromagnetism. This interplay lets us transmit signals wirelessly.

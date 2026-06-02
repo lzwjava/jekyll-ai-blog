@@ -17,12 +17,15 @@ Answer:
 This is the official exam timetable for **January 2026 Open College (公开学院)** delegated written exams and practical assessments in mainland China (likely Guangdong Radio & TV University / Open University system).
 
 ### Exam Dates and Sessions
+
 The exams are held on **three consecutive days**:
+
 - **January 12, 2026 (Monday)**
 - **January 13, 2026 (Tuesday)**
 - **January 14, 2026 (Wednesday)**
 
 Each day has two sessions:
+
 - Morning: starts at **9:00 AM**
 - Afternoon: starts at **14:30 (2:30 PM)**
 
@@ -81,6 +84,7 @@ Each day has two sessions:
 |                         | 13498       | Animation Quick Sketching                          |       |
 
 ### Important Note (备注)
+
 Courses marked in **red font** in the original file will be held simultaneously at both the **University Town Campus (大学城校区)** and **Baiyunshan Campus (白云山校区)**. Exam rooms will be assigned according to the campus where the student is currently enrolled.
 
 This timetable mainly covers practical, skill-based, and some language/specialized courses that require supervised on-site or delegated exams.

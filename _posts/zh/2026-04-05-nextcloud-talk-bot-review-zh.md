@@ -43,6 +43,7 @@ OpenClaw nextcloud-talk 配置:
 ### ⚠️ 日志中发现的一个问题
 
 旧日志（在 ~02:49 HKT 重新安装前）显示：
+
 ```
 nextcloud-talk: 丢弃房间 7df4dtc5（未列入允许名单）
 nextcloud-talk 最终回复失败：未找到房间
@@ -53,6 +54,7 @@ nextcloud-talk 最终回复失败：未找到房间
 ### 🚀 需进行的测试
 
 **请立即在 Nextcloud Talk 房间中发送一条消息**。自重新安装以来（约 ~02:49 HKT），情况如下：
+
 - ✅ Nextcloud 错误日志中无错误
 - ✅ 机器人错误计数 = 0
 

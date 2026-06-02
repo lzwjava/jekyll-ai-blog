@@ -36,26 +36,26 @@ You can find a more extensive list of the largest companies in the search result
 
 For the startup scene, "top" is often measured by innovation, funding, and growth potential. Instead of a rigid top 50, here are some of the most notable Singaporean startups across various sectors in 2026, based on data from startup tracking platforms :
 
-*   **Fintech:**
-    *   **Coda Payments:** A unicorn startup that helps digital content providers monetize across global markets .
-    *   **Aspire:** An all-in-one finance platform for modern businesses .
-    *   **Bitget:** A leading cryptocurrency exchange with a focus on social trading .
-    *   **Thunes:** Builds a global payment infrastructure for businesses to make cross-border transactions .
+* **Fintech:**
+  * **Coda Payments:** A unicorn startup that helps digital content providers monetize across global markets .
+  * **Aspire:** An all-in-one finance platform for modern businesses .
+  * **Bitget:** A leading cryptocurrency exchange with a focus on social trading .
+  * **Thunes:** Builds a global payment infrastructure for businesses to make cross-border transactions .
 
-*   **E-commerce & Logistics:**
-    *   **Ninja Van:** A major player in e-commerce logistics, specializing in last-mile delivery across Southeast Asia .
-    *   **ShopBack:** A popular platform that gives consumers cashback when they shop online .
-    *   **Moglix:** A B2B e-commerce platform for industrial supplies, valued as a unicorn .
+* **E-commerce & Logistics:**
+  * **Ninja Van:** A major player in e-commerce logistics, specializing in last-mile delivery across Southeast Asia .
+  * **ShopBack:** A popular platform that gives consumers cashback when they shop online .
+  * **Moglix:** A B2B e-commerce platform for industrial supplies, valued as a unicorn .
 
-*   **Deep Tech & Biotech:**
-    *   **Aires Applied Quantum Technology:** A homegrown company developing proprietary post-quantum cryptography and quantum-safe solutions .
-    *   **Horizon Quantum Computing:** Developing quantum software development tools to make quantum computing more accessible .
-    *   **MiRXES:** A biotechnology company specializing in microRNA-based diagnostics for early disease detection .
-    *   **Shiok Meats:** A cellular agriculture company focused on developing cultured seafood .
+* **Deep Tech & Biotech:**
+  * **Aires Applied Quantum Technology:** A homegrown company developing proprietary post-quantum cryptography and quantum-safe solutions .
+  * **Horizon Quantum Computing:** Developing quantum software development tools to make quantum computing more accessible .
+  * **MiRXES:** A biotechnology company specializing in microRNA-based diagnostics for early disease detection .
+  * **Shiok Meats:** A cellular agriculture company focused on developing cultured seafood .
 
-*   **Other Innovative Startups:**
-    *   **Airalo:** Provides eSIMs for travelers, offering instant data connectivity in over 200 countries .
-    *   **Transcelestial Technologies:** Developing a space-based laser communication network to improve global connectivity .
-    *   **LingoAce:** An online education platform making Mandarin Chinese learning fun and engaging for kids globally .
+* **Other Innovative Startups:**
+  * **Airalo:** Provides eSIMs for travelers, offering instant data connectivity in over 200 countries .
+  * **Transcelestial Technologies:** Developing a space-based laser communication network to improve global connectivity .
+  * **LingoAce:** An online education platform making Mandarin Chinese learning fun and engaging for kids globally .
 
 I hope this breakdown gives you a clearer picture of Singapore's dynamic corporate and startup landscape. Are you interested in a particular sector or type of company? I can help you dive deeper.

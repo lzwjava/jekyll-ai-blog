@@ -37,7 +37,9 @@ Tony Fadell is best known as one of the key figures behind the creation of the i
 ---
 
 ### 📚 Knowledge Shared in His Book *Build*
+
 Tony Fadell shares practical and philosophical insights in his book *Build: An Unorthodox Guide to Making Things Worth Making*. Topics include:
+
 - How to deal with difficult bosses (like Steve Jobs).
 - How to manage teams and grow careers.
 - Product intuition vs. data-driven decisions.

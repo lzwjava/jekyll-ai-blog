@@ -16,24 +16,29 @@ CodeIgniter 的路由系统允许你将 URL（URI）映射到特定的控制器�
 
 提供的代码片段来自 CodeIgniter 的 `routes.php` 配置文件。它定义了一个关联数组 `$route`，其中每个键都是一个 URI 模式，值可以是一个字符串（`controller/method`）或一个按 HTTP 方法（例如 GET、POST）指定不同行为的数组。这种设置支持标准路由和特定方法路由。
 
-我将基于 CodeIgniter 的标准行为和你代码中的示例，详细说明**如何定义路由**、**路由的工作原理**以及**如何使用路由**。完整细节请参考 CodeIgniter 官方用户指南关于路由的部分：https://codeigniter.com/userguide4/general/routing.html。
+我将基于 CodeIgniter 的标准行为和你代码中的示例，详细说明**如何定义路由**、**路由的工作原理**以及**如何使用路由**。完整细节请参考 CodeIgniter 官方用户指南关于路由的部分：<https://codeigniter.com/userguide4/general/routing.html。>
 
 #### 1. **如何定义路由**
+
 路由在 `application/config/routes.php` 中定义为数组。你向 `$route[]` 添加条目。以下是语法：
 
 - **基本路由**：将任何 HTTP 方法映射到控制器/方法。
+
   ```
   $route['uri_segment'] = 'controller/method';
   ```
+
   - 示例：`$route['login'] = 'users/login';` 表示任何对 `/login` 的请求都会路由到 `Users::login()`。
 
 - **方法特定路由**：对于 RESTful API，你可以为每个 HTTP 方法（GET、POST、PUT 等）指定不同的控制器/方法。这使用数组。
+
   ```
   $route['uri_segment'] = array(
       'METHOD1' => 'controller/method1',
       'METHOD2' => 'controller/method2'
   );
   ```
+
   - 你代码中的示例：`$route['self'] = array('POST' => 'users/update', 'GET' => 'users/self');` 表示：
     - POST 到 `/self` → `Users::update()`。
     - GET 到 `/self` → `Users::self()`。
@@ -55,12 +60,15 @@ CodeIgniter 的路由系统允许你将 URL（URI）映射到特定的控制器�
 - **HTTP 方法**：如果未指定，路由适用于所有方法。你的代码使用数组进行精确指定，这对于 API 非常有用。
 
 **在你的代码中定义路由的提示**：
+
 - 在 `$route['translate_uri_dashes']` 之前添加新路由。
 - 使用像 Postman 这样的工具测试 API 路由，以确保命中正确的控制器/方法。
 - 对于复杂的应用，按部分分组路由（如你使用注释 `// users` 所做的那样）。
 
 #### 2. **路由的工作原理**
+
 CodeIgniter 的路由器按以下顺序处理每个传入请求：
+
 1. **解析 URI**：将 URL 分解为段（例如 `/users/123/edit` → 段：`users`、`123`、`edit`）。
 2. **匹配路由**：从上到下检查 `$route` 数组。它首先查找精确匹配，然后查找带通配符的模式。
    - 如果找到匹配，则映射到指定的控制器/方法，并将动态部分（例如 `123`）作为方法参数传递。
@@ -70,17 +78,20 @@ CodeIgniter 的路由器按以下顺序处理每个传入请求：
 5. **回退**：未匹配的请求触发 404，或者如果设置了 `$route['404_override']`，则使用该设置。
 
 **示例流程**：
+
 - 请求：`POST https://example.com/lives`
 - 匹配：`$route['lives']['POST'] = 'lives/create';`
 - 结果：调用 `Lives::create()`，无参数。
 - 如果请求是 `GET https://example.com/lives/456`，它将匹配 `$route['lives/(\d+)']['GET'] = 'lives/one/$1';` → `Lives::one(456)`。
 
 **关键机制**：
+
 - **动态参数**：捕获的组（例如 `$1`）作为参数传递给方法。确保你的控制器方法期望它们。
 - **安全性**：路由通过隐藏 URL 来防止直接访问敏感控制器。
 - **性能**：简单的数组查找；除非有数百个路由，否则没有显著开销。
 
 #### 3. **如何使用路由**
+
 使用路由意味着如上所述设置它们，然后在你的应用程序（控制器、视图等）中利用它们。
 
 - **在控制器中**：假设路由处理 URL 映射；编写期望路由请求的方法。

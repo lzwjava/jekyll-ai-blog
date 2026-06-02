@@ -49,10 +49,10 @@ Perlman 的天才并非昙花一现。她在网络领域的众多其他方面做
 - **职业历程**：在漫长的职业生涯中，Perlman 在主要科技公司担任过重要职位，包括 **DEC、Novell、Sun Microsystems 和 Intel**。截至 2022 年，她是 **Dell Technologies** 的 Fellow。
 - **作者与教育者**：她是备受推崇的网络教材 **"Interconnections: Bridges, Routers, Switches, and Internetworking Protocols"** 的作者，以及热门安全教材 **"Network Security: Private Communication in a Public World"** 的合著者。她还在 Harvard、MIT 和 University of Washington 等顶尖大学教授课程。
 - **专利与荣誉**：Perlman 拥有**超过 100 项美国专利**。她的开创性工作获得了众多 prestigious 奖项，包括：
-    - 当选 **National Academy of Engineering** (2019)。
-    - 入选 **Internet Hall of Fame** (2014)。
-    - 入选 **National Inventors Hall of Fame** (2016)。
-    - 来自 **USENIX** (2006) 和 **ACM SIGCOMM** (2010) 的终身成就奖。
+  - 当选 **National Academy of Engineering** (2019)。
+  - 入选 **Internet Hall of Fame** (2014)。
+  - 入选 **National Inventors Hall of Fame** (2016)。
+  - 来自 **USENIX** (2006) 和 **ACM SIGCOMM** (2010) 的终身成就奖。
 
 ### 🤔 谦逊的遗产
 

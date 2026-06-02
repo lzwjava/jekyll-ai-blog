@@ -47,6 +47,7 @@ AI loop:    intent → generate → reward_fn() → gradient step → repeat (10
 ```
 
 The blocker isn't motivation or tooling. It's:
+
 1. **No automated reward signal** for your knowledge — what makes one note "better" than another is hard to formalize
 2. **No self-modification** — the AI doesn't update its own weights or your KB based on output quality
 3. **Human bandwidth** is the rate-limiting step

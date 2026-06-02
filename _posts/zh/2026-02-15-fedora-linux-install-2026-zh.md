@@ -25,7 +25,7 @@ type: note
 #### 步骤 1 – 下载 Fedora
 
 - 访问官方网站：
-  https://getfedora.org/
+  <https://getfedora.org/>
 
 - 选择 **Fedora Workstation**（最受欢迎的选择）
 
@@ -62,6 +62,7 @@ sudo dd if=Fedora-Workstation-Live-x86_64-42-1.2.iso of=/dev/sdX bs=4M status=pr
 - 选择 USB 驱动器
 
 如果它没有出现 → 进入 BIOS/UEFI（通常是 Del, F2, F10）并：
+
 - 禁用 **Secure Boot**（建议首次安装时关闭）
 - 将 USB 设置为第一启动设备或启用 “UEFI USB boot”
 
@@ -97,6 +98,7 @@ sudo dd if=Fedora-Workstation-Live-x86_64-42-1.2.iso of=/dev/sdX bs=4M status=pr
 - 点击 **Reboot**
 
 首次启动：
+
 - 出现 GNOME 欢迎界面 / 导览
 - 如果需要，连接 Wi-Fi
 - 使用您创建的用户登录

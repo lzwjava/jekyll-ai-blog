@@ -15,6 +15,7 @@ type: note
 Since you're looking beyond just Huangpu and Zengcheng, Guangzhou has a wealth of hidden and accessible water features scattered throughout its districts—from urban wetlands in the south to forested streams in the outskirts. These spots emphasize small ponds, gentle streams, and mini-waterfalls that provide that calming trickle for car-based work sessions. I've focused on quieter, less touristy ones with nearby parking, using apps like Amap or Baidu Maps for navigation (search terms: "小池塘" for small ponds or "溪流瀑布" for streams/waterfalls). Prioritize weekdays for solitude, and always scout for shaded parking to beat the humidity.
 
 #### Central Districts (Yuexiu, Liwan, Tianhe – Quick 10-30 min drives from most areas)
+
 These are more accessible from downtown, blending city vibes with peaceful water edges.
 
 - **Liuhua Lake Park (流花湖公园, Yuexiu District):** Encircles a large lake with small connecting ponds and streams lined by willows. Rent a paddleboat if you want, but the benches and paths by the water are perfect for quiet focus. Ample lakeside parking; the sound of rippling water is constant and soothing.
@@ -28,6 +29,7 @@ These are more accessible from downtown, blending city vibes with peaceful water
 - **Waterscape Falls in East Station Plaza (东站广场水景瀑布, Tianhe District):** Man-made waterfall cascading into a shallow pool near the high-speed rail station. Surprisingly quiet off-peak; park in the plaza lots for direct views and sounds.
 
 #### Southern Districts (Haizhu, Nansha – Green escapes, 20-50 min drives)
+
 Wetland-heavy areas with natural water flows, great for birdwatching audio.
 
 - **Haizhu National Wetland Park (海珠国家湿地公园, Haizhu District):** Vast lakes and shallow ponds connected by boardwalks, surrounded by forests. Spot birds while the water laps softly—prime for extended sessions. Parking at multiple entrances.
@@ -41,6 +43,7 @@ Wetland-heavy areas with natural water flows, great for birdwatching audio.
 - **Nansha Wetland Park (南沙湿地公园, Nansha District):** Mangrove-lined ponds and tidal streams in a huge nature reserve. Feels remote; the subtle water flow is meditative. Visitor parking lots available.
 
 #### Northern/Outskirts Districts (Huadu, Conghua – Nature immersion, 40-90 min drives)
+
 For a fuller escape with more dynamic water, like mini-falls amid hills.
 
 - **Huadu Lake Park (花都湖公园, Huadu District):** Lotus ponds, rockeries, and streams in a Lingnan-style garden. Compact and pretty; pavilions overlook the water for shaded work views. Free parking loops.

@@ -11,6 +11,7 @@ type: note
 Using XML in Java can be done in several ways depending on what you want to achieve—parsing, creating, or manipulating XML data. Here’s a concise guide to get you started with some common approaches:
 
 ### 1. **Parsing XML with DOM (Document Object Model)**
+
 If you want to read and manipulate XML as a tree structure in memory, the DOM API is a good choice.
 
 ```java
@@ -46,6 +47,7 @@ public class XMLParser {
 ```
 
 **Example XML (example.xml):**
+
 ```xml
 <root>
     <item>Item 1</item>
@@ -59,6 +61,7 @@ public class XMLParser {
 ---
 
 ### 2. **Parsing XML with SAX (Simple API for XML)**
+
 For large XML files where memory efficiency matters, SAX is event-driven and doesn’t load the whole file into memory.
 
 ```java
@@ -106,6 +109,7 @@ public class SAXExample {
 ---
 
 ### 3. **Creating XML with DOM**
+
 To generate XML from scratch:
 
 ```java
@@ -154,6 +158,7 @@ This creates an `output.xml` file with the structure shown earlier.
 ---
 
 ### 4. **Using JAXB (Java Architecture for XML Binding)**
+
 If you’re working with XML that maps to Java objects (e.g., serialization/deserialization), JAXB is a higher-level option. You’ll need to define a class with annotations.
 
 ```java
@@ -203,6 +208,7 @@ public class JAXBExample {
 ---
 
 ### Getting Started
+
 - **Dependencies**: These examples use Java’s built-in libraries (like `javax.xml.parsers`), so no external dependencies are needed for DOM or SAX. For JAXB, ensure you’re using a Java version that includes it (pre-Java 9) or add it via Maven/Gradle if using a newer version.
 - **File**: Replace `"example.xml"` or `"output.xml"` with your actual file paths.
 

@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Prompt
+
 Why do people fail in their lives in China?
 
 ### Answer
@@ -50,6 +51,7 @@ Why do people fail in their lives in China?
 In short, in China “failure” is less about laziness or bad choices and more about **failing to win in a series of high-stakes, zero-sum tournaments** (gaokao → job market → housing/marriage → keeping the job past 35) under institutional constraints that most developed countries do not have at this severity.
 
 References
+
 - [China’s Youth Unemployment Crisis (Caixin Global)](https://www.caixinglobal.com/2023-08-16/in-depth-chinas-youth-unemployment-crisis-101927528.html)
 - [The Hukou System and Intergenerational Poverty (Stanford FSI)](https://fsi.stanford.edu/publication/chinas-hukou-system)
 - [35-Year-Old Curse in Chinese Tech (Sixth Tone)](https://www.sixthtone.com/news/1009418)

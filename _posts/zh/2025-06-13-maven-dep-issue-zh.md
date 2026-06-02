@@ -143,6 +143,7 @@ type: note
 
 - **移除 `spring-aop` 和 `spring-aspects`：**
   - 移除了以下依赖项：
+
     ```xml
     <dependency>
         <groupId>org.springframework</groupId>
@@ -155,6 +156,7 @@ type: note
         <version>5.3.23</version>
     </dependency>
     ```
+
   - `spring-aop` 已经包含在 `spring-boot-starter-web` 中（通过 `spring-web`），并且 Spring Boot 将其版本管理为 6.1.14，这与 3.4.2 兼容。
   - `spring-aspects` 不是 Spring Boot starter 中的标准依赖项。如果项目明确需要它（例如，用于自定义切面），可以不加版本号重新添加（让 Spring Boot 的依赖管理来处理）或将其版本设置为 `6.1.14`。然而，由于错误发生在启动期间并且与自动配置相关而不是缺少切面功能，因此这里很可能不需要它，可以安全地移除。
 

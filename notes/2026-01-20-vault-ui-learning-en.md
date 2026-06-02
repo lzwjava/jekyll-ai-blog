@@ -89,6 +89,7 @@ Here is a prioritized learning path for the **HashiCorp Vault web UI**, based on
    Useful for production operations and capacity planning.
 
 ### Suggested Hands-on Learning Sequence
+
 1. Log in with root token → Explore **Dashboard**
 2. Enable + use KV v2 engine → Play with secrets
 3. Create a simple policy → Attach to a new token
@@ -98,6 +99,7 @@ Here is a prioritized learning path for the **HashiCorp Vault web UI**, based on
 7. (If Enterprise) Look at client count and recovery options
 
 ### Quick Priority Summary (80/20 rule)
+
 - 60% effort → **Secrets Engines** + **Policies** + **Access**
 - 20% effort → **Dashboard** + **Tools**
 - 20% effort → **Seal**, **Monitoring**, **Client Count**, **Recovery** (mostly ops / Enterprise)

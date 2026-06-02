@@ -23,6 +23,7 @@ In October 2024, the government unveiled Smart Nation 2.0, a refreshed strategy 
 The core objectives of Smart Nation 2.0 revolve around three pillars: **Growth**, **Community**, and **Trust**. These guide efforts to harness technology for a thriving, equitable digital future.
 
 #### Key Pillars and Strategies
+
 1. **Growth (Powering the Digital Economy)**:
    - Future-proof digital infrastructure, including upgrading the National Broadband Network (NBN) to 10 Gbps by 2026, doubling submarine cable landings, and promoting sustainable data centers via the Green Data Centre Roadmap.
    - Advance AI adoption through the National AI Strategy 2.0, with over S$1 billion in investments, including S$120 million for AI in scientific discovery.
@@ -39,15 +40,18 @@ The core objectives of Smart Nation 2.0 revolve around three pillars: **Growth**
    - Prepare the next generation with student-led Digital Citizenship Boards and the 2025 Smart Nation Educator Fellowship to train teachers on digital ethics.
 
 #### Broader Focus Areas
+
 - **Improving Daily Lives**: Digital tools for health (e.g., Healthy365 app), caregiving, sustainable living, and lifelong learning, with ongoing iteration based on citizen feedback.
 - **Global Collaboration**: Singapore leads in international efforts, such as the ASEAN Guide on AI Governance (2024), Digital Economy Agreements, and capacity-building pledges like S$10 million to the UN's Partner2Connect initiative.
 
 ### Impact and Future Outlook
+
 Smart Nation has transformed Singapore into a global digital hub, with initiatives like the 2024 UN E-Government Development Index ranking (3rd) reflecting its success. Looking ahead, the government emphasizes continuous consultation with citizens and businesses, ethical AI governance, and addressing risks like deepfakes. By 2030, the focus will be on personalizing services, bridging digital divides, and exporting Singapore's model for "tech for good" worldwide.
 
 For more details, visit the official resources below.
 
 **References**
+
 - [Smart Nation Singapore Official Website](https://www.smartnation.gov.sg/)
 - [Smart Nation 2.0 Report](https://file.go.gov.sg/smartnation2-report.pdf)
 - [Smart Nation on Wikipedia](https://en.wikipedia.org/wiki/Smart_Nation)

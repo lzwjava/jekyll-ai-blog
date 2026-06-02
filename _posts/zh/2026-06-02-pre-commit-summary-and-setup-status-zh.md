@@ -33,6 +33,7 @@ Pre-commit 已设置并运行。以下是总结：
 ```
 
 关键修改:
+
 - 通过 `uv tool install pre-commit` 安装了 pre-commit（v4.6.0）
 - 将 unit-tests 的入口从 `uv run python -m pytest` 改为 `python3 -m unittest discover -s tests/workflow -q`（与 CI 匹配，避免 llm 测试中缺少 OPENROUTER_API_KEY）
 - 移除了 `detect-secrets` 钩子（不存在 `.secrets.baseline` 文件）

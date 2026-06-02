@@ -74,20 +74,20 @@ The 2022 MacBook Air balances modern connectivity with the welcome return of a d
 To help you decide if this is the right laptop for you, here's a quick summary of its strengths and weaknesses based on expert reviews .
 
 - **Pros:**
-    - **Beautiful Redesign**: The new flat-edge design is modern and fresh.
-    - **Excellent Performance**: The M2 chip handles daily tasks and creative work with ease.
-    - **Gorgeous Display**: The larger, brighter Liquid Retina screen is a joy to use.
-    - **Improved 1080p Webcam**: A significant upgrade for video conferencing.
-    - **MagSafe is Back**: Frees up ports and adds a safety measure.
-    - **Long Battery Life**: Easily lasts through a full day.
+  - **Beautiful Redesign**: The new flat-edge design is modern and fresh.
+  - **Excellent Performance**: The M2 chip handles daily tasks and creative work with ease.
+  - **Gorgeous Display**: The larger, brighter Liquid Retina screen is a joy to use.
+  - **Improved 1080p Webcam**: A significant upgrade for video conferencing.
+  - **MagSafe is Back**: Frees up ports and adds a safety measure.
+  - **Long Battery Life**: Easily lasts through a full day.
 
 - **Cons:**
-    - **Higher Price**: The starting price is notably higher than the M1 model it replaced.
-    - **Only One External Display**: Power users needing multiple monitors will be limited.
-    - **Throttling Under Heavy Load**: The fanless design means performance can dip during sustained, intense tasks.
-    - **The Notch**: A divisive design choice that some users may not like.
-    - **Fingerprint Magnet**: The Midnight finish requires frequent cleaning.
-    - **Limited Ports**: Still only two Thunderbolt ports, though MagSafe helps.
+  - **Higher Price**: The starting price is notably higher than the M1 model it replaced.
+  - **Only One External Display**: Power users needing multiple monitors will be limited.
+  - **Throttling Under Heavy Load**: The fanless design means performance can dip during sustained, intense tasks.
+  - **The Notch**: A divisive design choice that some users may not like.
+  - **Fingerprint Magnet**: The Midnight finish requires frequent cleaning.
+  - **Limited Ports**: Still only two Thunderbolt ports, though MagSafe helps.
 
 ## 🤔 MacBook Air M2 vs. M1: A Quick Comparison
 

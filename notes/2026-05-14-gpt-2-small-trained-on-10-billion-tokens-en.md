@@ -17,6 +17,7 @@ It's **GPT-2 small (124M)** — not medium.
 - Despite the filename `gpt3`, the architecture is GPT-2 small with GPT-3-style 10B-token training schedule
 
 For reference (you're not running these):
+
 - medium: 24L / 16H / 1024d (350M)
 - large: 36L / 20H / 1280d (774M)
 - XL: 48L / 25H / 1600d (1.5B)

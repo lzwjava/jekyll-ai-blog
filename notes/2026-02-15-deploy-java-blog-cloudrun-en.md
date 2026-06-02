@@ -22,17 +22,20 @@ Here are the most common and recommended ways in 2026 to deploy your **Dockerize
 You don't even need to build the Docker image locally.
 
 1. Make sure you have the Google Cloud SDK installed and authenticated:
+
    ```bash
    gcloud auth login
    gcloud config set project YOUR-PROJECT-ID
    ```
 
 2. Enable necessary APIs (run once):
+
    ```bash
    gcloud services enable run.googleapis.com artifactregistry.googleapis.com cloudbuild.googleapis.com
    ```
 
 3. From the project root (where `pom.xml` and `Dockerfile` are), run:
+
    ```bash
    gcloud run deploy blog-server \
      --source . \
@@ -50,6 +53,7 @@ You don't even need to build the Docker image locally.
 Useful when you want more control or already have CI/CD.
 
 1. Build and tag the image locally:
+
    ```bash
    docker build -t gcr.io/YOUR-PROJECT-ID/blog-server:latest .
    # or use Artifact Registry (newer & recommended):
@@ -57,6 +61,7 @@ Useful when you want more control or already have CI/CD.
    ```
 
 2. Push the image:
+
    ```bash
    gcloud auth configure-docker
    docker push gcr.io/YOUR-PROJECT-ID/blog-server:latest
@@ -66,6 +71,7 @@ Useful when you want more control or already have CI/CD.
    ```
 
 3. Deploy to Cloud Run:
+
    ```bash
    gcloud run deploy blog-server \
      --image gcr.io/YOUR-PROJECT-ID/blog-server:latest \
@@ -75,6 +81,7 @@ Useful when you want more control or already have CI/CD.
    ```
 
    Or using Artifact Registry image:
+
    ```bash
    --image asia-northeast1-docker.pkg.dev/YOUR-PROJECT-ID/my-repo/blog-server:latest
    ```
@@ -84,10 +91,13 @@ Useful when you want more control or already have CI/CD.
 - Your **Dockerfile** should expose the correct port (usually `EXPOSE 8080`)
 - App should listen on `0.0.0.0` (not `localhost`)
 - For production add:
+
   ```bash
   --cpu 1 --memory 512Mi --concurrency 80 --max-instances 10
   ```
+
 - If you use environment variables / secrets:
+
   ```bash
   --set-env-vars "SPRING_PROFILES_ACTIVE=prod,DATABASE_URL=..."
   ```
@@ -102,7 +112,7 @@ Cloud Run is usually the best balance of price, simplicity, and scaling for a bl
 
 After deployment you will get a URL like:
 
-https://blog-server-abc123-uc.a.run.app
+<https://blog-server-abc123-uc.a.run.app>
 
 Good luck!
 

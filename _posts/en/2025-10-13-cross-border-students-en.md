@@ -32,13 +32,15 @@ Challenges include long queues (up to 2 hours during peaks), health checks durin
 
 For Shenzhen residents or other Mainland Chinese citizens without HK residency, the process differs by education level—it's harder for school than university, as free public schooling is reserved for HK residents. Non-residents can't easily become daily commuters like kuaijing sheng without residency.
 
-#### For Primary/Secondary School:
+#### For Primary/Secondary School
+
 - **Eligibility**: Limited spots for non-local students via private international schools (e.g., ESF schools) or direct applications to public ones, but these are fee-paying (HK$50,000-150,000/year) and competitive.
 - **Visa**: Apply for a student visa through the Immigration Department (ImmD), sponsored by the school. Submit proof of acceptance, finances, and accommodation.
 - **Living Arrangement**: Most live in HK full-time (dorms or family rentals), but Shenzhen residents could commute if approved for multiple-entry permits. Daily crossing requires an EEP and school coordination.
 - **Challenges**: High costs and quotas; not as seamless as for residents.
 
-#### For University (Undergraduate/Postgraduate):
+#### For University (Undergraduate/Postgraduate)
+
 - **Application**: Mainland students apply via non-JUPAS (for international quals like IB/A-levels) or Gaokao (national exam) through the Joint Entrance Examination system. Top unis like HKU, CUHK, or HKUST admit ~8,000-10,000 Mainland undergrads yearly, often 75% of non-local intake.
   - Gaokao route: Score well and apply via the National Colleges system; unis set quotas.
   - Non-Gaokao: Submit transcripts, English tests (IELTS/TOEFL), and interviews.
@@ -48,6 +50,7 @@ For Shenzhen residents or other Mainland Chinese citizens without HK residency, 
 Overall, ~75% of HK unis' non-local undergrads are from the Mainland, drawn by global rankings and English programs.
 
 ### For Guangzhou Citizens (or Further Afield)
+
 Guangzhou students follow the same university application process as other Mainlanders, but without HK residency, school-level commuting is impractical due to distance (1-2 hours by train to border). To mimic kuaijing sheng:
 
 - **Rent in Shenzhen**: Many do this—affordable apartments near Futian (RMB 3,000-6,000/month) make daily HK commutes feasible for university classes. It's a "Greater Bay Area hack" for lower costs while accessing HK education. For school, families might relocate temporarily or use boarding.

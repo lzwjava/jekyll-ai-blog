@@ -26,11 +26,13 @@ You're essentially correct — the value gap between the two options has narrowe
 **Not necessarily — it depends on your use case.** Here's the breakdown:
 
 **DGX Spark advantages:**
+
 - The GB10 Grace Blackwell Superchip delivers up to 1 petaFLOP of AI inferencing performance (FP4), with 128GB of LPDDR5X coherent unified memory, plus a ConnectX 7 NIC running at up to 200 Gbps.
 - It comes preloaded with the NVIDIA AI software stack (CUDA, TensorRT-LLM), which provides a polished day-one experience with extensive documentation and pre-configured playbooks.
 - A CES 2026 software update delivered up to 2.5x performance improvements on select workloads through TensorRT-LLM optimizations and NVFP4 quantization.
 
 **AMD 395 mini PC advantages:**
+
 - Even at elevated prices, the cheapest 128GB AMD 395 machines (Corsair at ~$2,499, Bosgame at ~$2,399) are still noticeably cheaper than the DGX Spark at $4,699.
 - The AMD Strix Halo platform offers better token-generation throughput per dollar — the Framework Desktop at $2,566 (December 2025 pricing) offered more tokens per second per dollar than the DGX Spark at $4,000.
 - AMD 395 machines run standard Windows or Linux, giving more flexibility for general workloads beyond AI.

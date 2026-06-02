@@ -13,6 +13,7 @@ Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a
 ---
 
 ## 🗺️ **Overview of Hunan Province**
+
 - **Location**: South-central China, bordered by Hubei, Jiangxi, Guangdong, Guangxi, Guizhou, and Chongqing.
 - **Capital**: Changsha (长沙)
 - **Famous For**: Zhangjiajie, spicy Hunan cuisine (湘菜), ancient towns, revolutionary history, and stunning landscapes.
@@ -22,6 +23,7 @@ Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a
 ## 📍 **Top Destinations**
 
 ### 1. **Zhangjiajie National Forest Park (张家界国家森林公园)**
+
 - **Why go**: Avatar’s Hallelujah Mountains were inspired by this park. Tall sandstone pillars, misty scenery, and surreal beauty.
 - **Don’t miss**:
   - Tianzi Mountain (天子山)
@@ -33,6 +35,7 @@ Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a
 ---
 
 ### 2. **Fenghuang Ancient Town (凤凰古城)**
+
 - **Why go**: One of China’s most beautiful ancient towns, with stilt houses on the Tuojiang River, cobbled streets, and Miao minority culture.
 - **Activities**:
   - River cruise
@@ -42,6 +45,7 @@ Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a
 ---
 
 ### 3. **Changsha (长沙)**
+
 - **Why go**: The energetic capital city and cultural hub.
 - **Attractions**:
   - Yuelu Academy (岳麓书院) – ancient Confucian academy
@@ -53,6 +57,7 @@ Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a
 ---
 
 ### 4. **Shaoshan (韶山)**
+
 - **Why go**: Birthplace of Mao Zedong, for those interested in modern Chinese history.
 - **Highlights**:
   - Mao Zedong’s Former Residence
@@ -62,12 +67,14 @@ Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a
 ---
 
 ### 5. **Dongting Lake (洞庭湖)**
+
 - **Why go**: China’s second-largest freshwater lake, great for birdwatching and boat rides.
 - **Nearby**: Yueyang Tower (岳阳楼) – one of the Three Great Towers of Jiangnan
 
 ---
 
 ## 🍲 **What to Eat – Hunan Cuisine (湘菜)**
+
 Spicy, sour, and bold flavors!
 
 - **Signature Dishes**:
@@ -80,6 +87,7 @@ Spicy, sour, and bold flavors!
 ---
 
 ## 🧭 **Getting Around**
+
 - **Airports**: Changsha Huanghua International Airport (CSX); Zhangjiajie Hehua Airport
 - **High-Speed Rail**: Links major cities like Changsha, Hengyang, and Loudi
 - **Local Transport**: Buses, subways (Changsha), taxis, and shared bikes
@@ -87,6 +95,7 @@ Spicy, sour, and bold flavors!
 ---
 
 ## 🏞️ **Best Times to Visit**
+
 - **Spring (Mar–May)**: Lush greenery and cool weather
 - **Autumn (Sep–Nov)**: Clear skies, colorful mountains
 - Avoid summer if you're heat-sensitive—Hunan gets hot and humid.
@@ -94,6 +103,7 @@ Spicy, sour, and bold flavors!
 ---
 
 ## 🛍️ **What to Buy**
+
 - Hunan embroidery (湘绣)
 - Miao silver jewelry and crafts
 - Dried chili products and local snacks
@@ -102,6 +112,7 @@ Spicy, sour, and bold flavors!
 ---
 
 ## 🌐 **Tips for Travelers**
+
 - **Language**: Mandarin is spoken, but the local dialect (Xiang) may sound very different.
 - **Spice Warning**: Even locals joke that “Hunan people eat chili like rice.”
 - **Cashless Society**: Alipay/WeChat Pay is king. Carry some cash for small vendors.

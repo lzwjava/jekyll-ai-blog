@@ -65,6 +65,7 @@ Your blog at `lzwjava.github.io` — if you've ever uploaded photos directly, th
 ## How to defend
 
 **Strip at upload time (ImageMagick):**
+
 ```bash
 # Strip all metadata
 mogrify -strip *.jpg
@@ -77,6 +78,7 @@ exiftool -GPSLatitude= -GPSLongitude= -GPSAltitude= -overwrite_original *.jpg
 ```
 
 **Build it into your publishing pipeline:**
+
 ```bash
 # Pre-commit hook or CI step
 find ./static/images -name "*.jpg" -o -name "*.jpeg" | \
@@ -84,6 +86,7 @@ find ./static/images -name "*.jpg" -o -name "*.jpeg" | \
 ```
 
 **Or in Python, extend your own tool to also strip:**
+
 ```python
 from PIL import Image
 import piexif
@@ -99,6 +102,7 @@ def strip_gps(input_path, output_path):
 ## The subtler threat: metadata correlation
 
 Even without GPS, EXIF contains:
+
 - **Camera make/model** → narrows identity
 - **Lens serial number** → unique identifier
 - **Software version** → OS fingerprint

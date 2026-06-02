@@ -10,13 +10,14 @@ translated: false
 type: note
 ---
 
-Question: What is the content of the YouTube video at https://www.youtube.com/watch?v=pCcJFdYNamc? Please provide a refined and organized version of its transcript.
+Question: What is the content of the YouTube video at <https://www.youtube.com/watch?v=pCcJFdYNamc>? Please provide a refined and organized version of its transcript.
 
 Answer:
 
 The YouTube video is titled **"Default Gateway Explained"** by the channel *PowerCert Animated Videos*. It is an educational animated video explaining what a default gateway is in computer networking, how it works, and related concepts like IP addresses and subnet masks.
 
 ### Key Summary
+
 - A **default gateway** is a device (usually a router) that forwards data packets from one network to another, allowing devices on a local network to communicate with external networks like the internet.
 - Devices on the same local network can communicate directly without needing the gateway.
 - The video uses IP addresses and subnet masks to explain how devices determine if a destination is on the same network or requires the gateway.

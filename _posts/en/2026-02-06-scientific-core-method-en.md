@@ -15,6 +15,7 @@ This question tests knowledge of the **fundamental method** of the Scientific Ou
 ## Question Analysis
 
 **The Scientific Outlook on Development consists of:**
+
 - **Core principle (核心)**: People-oriented (以人为本)
 - **Basic requirement (基本要求)**: Comprehensive, coordinated, and sustainable development (全面协调可持续)
 - **Fundamental method (根本方法)**: **Overall planning and all-round consideration (统筹兼顾)** ✓
@@ -23,11 +24,13 @@ This question tests knowledge of the **fundamental method** of the Scientific Ou
 ## Why the answer is C (Overall planning and all-round consideration)
 
 **Overall planning and all-round consideration (统筹兼顾)** is the fundamental method because it:
+
 - Embodies the scientific application of materialist dialectics to development issues
 - Reveals the basic path to achieving scientific development and promoting social harmony
 - Provides guidelines and principles for correctly handling major relationships in economic and social development
 
 This method requires balancing various aspects such as:
+
 - Urban and rural development
 - Regional development
 - Economic and social development
@@ -44,6 +47,7 @@ This method requires balancing various aspects such as:
 ## Memory Framework
 
 **Scientific Outlook on Development structure:**
+
 - **Core** → People-oriented (以人为本)
 - **Basic requirement** → Comprehensive, coordinated, sustainable (全面协调可持续)
 - **Fundamental method** → Overall planning and all-round consideration (统筹兼顾)

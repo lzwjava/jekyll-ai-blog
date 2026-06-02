@@ -160,14 +160,14 @@ sudo dd if=linuxmint.iso of=/dev/rdisk2 bs=4m status=progress
 
 ## 8. 何时该用哪一个
 
-### 在以下情况下使用 Etcher：
+### 在以下情况下使用 Etcher
 
 * 你想要最高的安全性
 * 你更倾向于使用 GUI
 * 你只是偶尔创建开机启动 USB
 * 你不想去研究磁盘标识符 (disk identifiers)
 
-### 在以下情况下使用 `dd`：
+### 在以下情况下使用 `dd`
 
 * 你非常了解磁盘设备
 * 你需要自动化或编写脚本

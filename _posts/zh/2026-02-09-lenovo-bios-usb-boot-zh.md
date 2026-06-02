@@ -65,6 +65,6 @@ Answer:
 
 References:
 
-- https://support.lenovo.com/us/en/solutions/ht500222-recommended-ways-to-enter-bios-boot-menu-thinkpad-thinkcentre-thinkstation
-- https://support.lenovo.com/us/en/solutions/ht500216-recommended-way-to-enter-bios-ideapad
-- https://www.wikihow.com/Enter-the-BIOS-on-a-Lenovo-Laptop
+- <https://support.lenovo.com/us/en/solutions/ht500222-recommended-ways-to-enter-bios-boot-menu-thinkpad-thinkcentre-thinkstation>
+- <https://support.lenovo.com/us/en/solutions/ht500216-recommended-way-to-enter-bios-ideapad>
+- <https://www.wikihow.com/Enter-the-BIOS-on-a-Lenovo-Laptop>

@@ -25,10 +25,12 @@ The joke/meme arises because:
 - As a result, the straw stays **permanently bent or folded down**, so it no longer **pops up** properly — defeating the whole point of having a convenient pop-up straw for easy drinking.
 
 This turns the "fancy" feature into something useless or even worse than a normal bottle, leading to humorous complaints like:
+
 - "Bought a bottle with straw → poured hot water → straw bent forever → now it's just decoration"
 - "The straw said: I can handle cold drinks, but hot water? Nope, I'm retiring in this curved position."
 
 It's especially funny in Chinese online communities because:
+
 - Chinese people commonly carry insulated bottles and drink **hot/boiling water** daily (unlike many Western countries where cold water is preferred).
 - Many budget bottles advertise "hot water safe" or "straw design," but the cheap materials can't actually withstand repeated hot use without deforming.
 - Higher-quality brands (like Thermos, Xiaomi's better lines, or imported ones) use heat-resistant silicone or better plastics that don't have this problem, but the joke targets the ultra-cheap JD.com/Taobao knockoffs.

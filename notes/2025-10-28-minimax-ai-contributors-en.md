@@ -35,6 +35,7 @@ The listed individuals are primarily members of MiniMax AI's research and engine
 These individuals form part of MiniMax's ~200-person team, heavily skewed toward R&D (per company profiles). The broader founding team includes co-founders Yang Bin (Technical Partner, ex-Uber AI and autonomous driving expert) and Zhou Yucong, both SenseTime alumni. For deeper insights, MiniMax's open-source repos (e.g., GitHub/MiniMax-AI) highlight collaborative contributions without granular role breakdowns.
 
 #### References
+
 - [MiniMax-M1 Technical Report](https://arxiv.org/abs/2506.13585)
 - [MiniMax Company Wikipedia](https://en.wikipedia.org/wiki/MiniMax_(company))
 - [Yan Junjie Profile (Crunchbase)](https://www.crunchbase.com/person/junjie-yan)

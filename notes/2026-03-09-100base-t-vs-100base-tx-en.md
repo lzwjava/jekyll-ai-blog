@@ -53,6 +53,7 @@ The T4 variant uses **all four available pairs** in a Cat5 UTP cable and also su
 The term **100BASE-T** might sometimes be used in a broader sense or refer to earlier/less specific implementations of Fast Ethernet, while **100BASE-TX** precisely denotes the standard requiring **Category 5 cabling** for 100 Mbps Ethernet over two twisted pairs. In many practical discussions, 100BASE-T and 100BASE-TX are used **interchangeably** to refer to the same thing.
 
 In short:
+
 - **100BASE-T** = the whole Fast Ethernet family on twisted pair
 - **100BASE-TX** = the specific, most widely used member of that family
 

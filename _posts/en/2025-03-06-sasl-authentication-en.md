@@ -13,7 +13,9 @@ To use the `javax.security.sasl` package in Java, you need to leverage its class
 ---
 
 ### **Overview of javax.security.sasl**
+
 The `javax.security.sasl` package provides a framework for SASL authentication, commonly used in protocols like LDAP, IMAP, or custom applications. It includes:
+
 - **`Sasl`**: A utility class with static methods to create `SaslClient` and `SaslServer` instances.
 - **`SaslClient`**: Represents the client side of the SASL authentication process.
 - **`SaslServer`**: Represents the server side of the SASL authentication process.
@@ -26,10 +28,13 @@ The process involves creating a `SaslClient` or `SaslServer`, supplying a callba
 ### **Steps to Use javax.security.sasl**
 
 #### **1. Determine Your Role (Client or Server)**
+
 Decide whether your application acts as a client (authenticating to a server) or a server (authenticating a client). This determines whether you’ll use `SaslClient` or `SaslServer`.
 
 #### **2. Choose a SASL Mechanism**
+
 SASL supports various mechanisms, such as:
+
 - `PLAIN`: Simple username/password authentication (no encryption).
 - `DIGEST-MD5`: Password-based with challenge-response.
 - `GSSAPI`: Kerberos-based authentication.
@@ -37,6 +42,7 @@ SASL supports various mechanisms, such as:
 Select a mechanism supported by both client and server. For simplicity, this guide uses the `PLAIN` mechanism as an example.
 
 #### **3. Implement a CallbackHandler**
+
 A `CallbackHandler` is required to provide or verify authentication credentials. You’ll need to implement the `javax.security.auth.callback.CallbackHandler` interface.
 
 - **For a Client**: Supply credentials like username and password.
@@ -95,6 +101,7 @@ public class ServerCallbackHandler implements CallbackHandler {
 ```
 
 #### **4. Client-Side Implementation**
+
 To authenticate as a client:
 
 1. **Create a SaslClient**:
@@ -140,6 +147,7 @@ To authenticate as a client:
    For `PLAIN`, the client sends credentials in the initial response, and the server typically responds with success or failure without further challenges.
 
 #### **5. Server-Side Implementation**
+
 To authenticate a client as a server:
 
 1. **Create a SaslServer**:
@@ -186,13 +194,16 @@ To authenticate a client as a server:
    For `PLAIN`, the server verifies the credentials in the initial response and completes authentication without additional challenges.
 
 #### **6. Optional: Use Security Layers**
+
 If the mechanism (e.g., `DIGEST-MD5`) supports a security layer:
+
 - Use `sc.wrap()` and `sc.unwrap()` on the client, or `ss.wrap()` and `ss.unwrap()` on the server, to encrypt/decrypt messages post-authentication.
 - `PLAIN` does not support security layers.
 
 ---
 
 ### **Key Points**
+
 - **Integration**: Embed the SASL exchange into your application’s communication protocol (e.g., LDAP Bind requests, IMAP AUTHENTICATE commands).
 - **Error Handling**: Wrap code in try-catch blocks to handle `SaslException` and other potential errors.
 - **Properties**: Use the `props` map to configure options like quality of protection (`"javax.security.sasl.qop"`) if supported by the mechanism.
@@ -200,7 +211,9 @@ If the mechanism (e.g., `DIGEST-MD5`) supports a security layer:
 ---
 
 ### **Example Use Case**
+
 For an LDAP client authenticating with `PLAIN`:
+
 1. Create a `SaslClient` with the `PLAIN` mechanism.
 2. Send an LDAP `BindRequest` with the mechanism and initial response (`sc.evaluateChallenge(new byte[0])`).
 3. Process the server’s `BindResponse` to confirm success.

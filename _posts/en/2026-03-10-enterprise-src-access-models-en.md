@@ -26,12 +26,15 @@ type: note
 There are actually three distinct scenarios, not just "open" or "closed":
 
 ### 1. Fully Closed / Binary Only (Classic Enterprise)
+
 The enterprise add-ons are compiled binaries or plugins. The customer gets no source code whatsoever. They deploy a pre-built artifact. The company creates a closed fork of the free software codebase, or provides the additional proprietary features as modules to avoid violating the free software license. Examples: older Elastic plugins, some Confluent connectors.
 
 ### 2. Source-Available (Modern Trend)
+
 The enterprise code *is* visible to paying customers — they can read and even modify it — but they **cannot redistribute it or use it without a commercial agreement**. For enterprise software, providing source code is now table stakes. The days of source code escrow are over. Customers expect access. If you won't provide it, they'll find someone who will. This is rapidly becoming the dominant model because enterprise buyers — especially in regulated industries — demand code auditability for security reviews.
 
 ### 3. Fully Open Source (Rare for Enterprise Features)
+
 Everything is open source, including enterprise features. Revenue comes from support, SLAs, and managed hosting. Red Hat/RHEL is the canonical example of this approach.
 
 ---

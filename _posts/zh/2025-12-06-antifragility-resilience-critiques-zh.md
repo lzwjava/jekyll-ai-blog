@@ -40,6 +40,7 @@ type: note
 简而言之：反脆弱性是真实且强大的，但它比流行科学版本所暗示的更稀有、更残酷、更偏向系统层面——在许多高风险领域，无聊而古老的韧性（或规避）是更明智的目标。
 
 参考文献：
+
 - [反脆弱：从无序中获益（Antifragile: Things That Gain from Disorder） 作者：Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Antifragile_(book))
 - [非对称风险（Skin in the Game） 作者：Nassim Nicholas Taleb（关于幸存者偏差和系统与个体的一章）](https://en.wikipedia.org/wiki/Skin_in_the_Game_(book))
 - [失败的逻辑（The Logic of Failure） 作者：Dietrich Dörner（关于复杂系统为何常常需要稳定性而不是压力的论述）](https://www.amazon.com/Logic-Failure-Recognizing-Avoiding-Situations/dp/0201479486)

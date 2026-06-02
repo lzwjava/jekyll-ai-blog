@@ -13,6 +13,7 @@ type: note
 The discrepancy arises because **theoretical peak FLOPS** (floating-point operations per second) measures raw arithmetic throughput under ideal conditions—assuming perfect utilization of all execution units, no memory bottlenecks, and infinite bandwidth. In real workloads (especially AI/training/inference), performance is gated by **memory subsystem inefficiencies**, not just compute. The 2010 Fermi GPUs (e.g., GTX 480) were particularly bad at this, inflating the "expected" gap when compared to modern cards like the RTX 4090.
 
 ### Key Reasons Fermi Underutilized Its Theoretical FLOPS
+
 1. **Poor Cache Hierarchy and Memory Coalescing**
    - Fermi had only 64 KB L1 cache per SM (shared with registers) and a tiny 768 KB L2 (entire chip).
    - No proper cache coherence; global memory accesses were uncoalesced → **~10–30% effective bandwidth** in real kernels.
@@ -45,4 +46,5 @@ The discrepancy arises because **theoretical peak FLOPS** (floating-point operat
 *Sources: NVIDIA papers, MLPerf benchmarks, AnandTech.*
 
 ### Bottom Line
+
 Theoretical FLOPS assumed Fermi could sustain ~70% utilization—it couldn't (real ~15–25%). Modern architectures close that gap to **~70–90%**, so **effective compute scales closer to Moore's Law + arch improvements** (~10–17x over 12 years), not the 60x+ peak FLOPS suggest. The rest is "paper performance."

@@ -17,6 +17,7 @@ It sounds like you're remembering a cool sound-reactive LED project from 2021—
 For a super simple version (no microcontroller needed, just basic components), you can build one that lights up multiple LEDs in rhythm with nearby music or sound. This uses an electret microphone (often listed as a "speaker" in basic tutorials, but it acts as a mic here) to pick up audio, some diodes for signal processing, and transistors implicitly through the zeners for driving the LEDs. It's breadboard-friendly and costs under $10 in parts.
 
 #### Hardware Components Needed
+
 Here's a minimal list for 6 LEDs (scale down if you want fewer):
 
 | Component       | Value/Spec      | Quantity |
@@ -34,6 +35,7 @@ Here's a minimal list for 6 LEDs (scale down if you want fewer):
 Optional for "volume control": Add a 10kΩ potentiometer in series with the mic to adjust sensitivity (like turning down the "volume" of the input signal).
 
 #### Quick Build Overview
+
 1. **Setup the Mic Input**: Connect the microphone between power and ground via a capacitor (for AC audio signal). This picks up sound vibrations and converts them to electrical pulses.
 2. **Signal Processing**: Use the diodes and zener diodes in a rectifier/filter setup to convert the audio waveform into pulses that trigger the LEDs at different intensities based on volume/beat strength. The zeners protect against voltage spikes.
 3. **LED Driving**: Wire each LED in parallel with a 56Ω resistor to limit current. Connect the processed signal to the LED anodes—louder bass or beats will make them flicker brighter/faster.

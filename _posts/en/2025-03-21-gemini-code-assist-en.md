@@ -13,6 +13,7 @@ To use **Gemini Code Assist**, an AI-powered coding assistant developed by Googl
 ---
 
 ### Step 1: Install the Gemini Code Assist Extension
+
 - Open **VSCode**.
 - Navigate to the **Extensions** view by clicking the Extensions icon in the Activity Bar or pressing `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS).
 - In the search bar, type **"Gemini Code Assist"**.
@@ -21,6 +22,7 @@ To use **Gemini Code Assist**, an AI-powered coding assistant developed by Googl
 ---
 
 ### Step 2: Sign In with Your Google Account
+
 - After installation, locate the **Gemini Code Assist icon** in the Activity Bar (on the left side of VSCode).
 - Click the icon to open the Gemini pane.
 - Select **"Sign in with Google"** and follow the authentication prompts using your Google account.
@@ -30,13 +32,16 @@ To use **Gemini Code Assist**, an AI-powered coding assistant developed by Googl
 ---
 
 ### Step 3: Start Using Gemini Code Assist
+
 Once signed in, you can leverage its features in several ways:
 
 #### a. Code Completion
+
 - As you type in the editor, Gemini automatically suggests code completions.
 - Accept these suggestions by pressing `Tab` (or another configured key).
 
 #### b. Code Generation and Explanations via Chat
+
 - Open the **Gemini pane** by clicking its icon in the Activity Bar.
 - Type a natural language prompt, such as:
   - "Explain this code"
@@ -46,17 +51,20 @@ Once signed in, you can leverage its features in several ways:
 - Gemini will respond in the chat pane, and you can insert any generated code into your file if desired.
 
 #### c. Code Transformation
+
 - Access the Quick Pick menu by pressing `Ctrl+I` (Windows/Linux) or `Cmd+I` (macOS).
 - Enter a command like `/generate function to create a Cloud Storage bucket`.
 - Review the suggested changes in a diff view and apply them as needed.
 
 #### d. Inline Suggestions
+
 - While coding, Gemini may offer inline suggestions for completing lines or blocks of code.
 - These appear as you type and can be accepted with a key press.
 
 ---
 
 ### Additional Tips
+
 - **Walkthrough**: Upon first use, you might see an option to launch a walkthrough in VSCode. This interactive guide introduces the extension’s features.
 - **Supported Languages**: Gemini Code Assist works with all programming languages in the public domain, such as Python, JavaScript, and Java.
 - **Validate Suggestions**: Always review AI-generated code, as it may occasionally be plausible but incorrect.
@@ -65,6 +73,7 @@ Once signed in, you can leverage its features in several ways:
 ---
 
 ### Potential Considerations
+
 - **Network**: If you’re behind a proxy, configure VSCode’s network settings accordingly.
 - **Usage Limits**: The free version provides up to 6,000 code-related requests and 240 chat requests daily, which is ample for most users.
 - **GitHub Integration**: For AI-powered code reviews on GitHub, additional setup is required, but this is separate from the core IDE functionality.

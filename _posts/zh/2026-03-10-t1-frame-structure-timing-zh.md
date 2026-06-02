@@ -22,6 +22,7 @@ Answer:
 ## 关键概念
 
 ### 1. T1 Carrier 概述
+
 T1 是北美数字传输标准，使用 **Time Division Multiplexing (TDM)** 多路复用 **24 voice channels**。
 
 ---

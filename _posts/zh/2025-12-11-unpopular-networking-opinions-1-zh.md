@@ -35,6 +35,7 @@ type: note
 这些观点突显了华丽营销与实际现实之间的紧张关系，尤其是在我们迈向 6G 和更深入的 AI 集成之际。
 
 参考资料：
+
 - [网络安全专家分享不受欢迎的观点](https://www.itbrew.com/stories/2025/05/06/cybersecurity-experts-share-their-most-unpopular-opinions-on-the-industry)
 - [r/networking: 你希望在 2025 年消亡的网络趋势](https://www.reddit.com/r/networking/comments/1hn6so4/whats_a_networking_trend_you_hope_will_die_in_2025/)
 - [r/networking: 防火墙集群的非主流观点](https://www.reddit.com/r/networking/comments/1mslzx9/unpopular_take_firewall_clustering_is_not/)

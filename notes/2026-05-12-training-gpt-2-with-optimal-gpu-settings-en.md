@@ -45,6 +45,7 @@ gradient_accumulation_steps = 128   # keep same OR raise to compensate half bloc
 ```
 
 If you want to go even faster with `batch_size=16`:
+
 ```python
 batch_size = 16
 block_size = 512
@@ -70,6 +71,7 @@ This is the key tradeoff. `block_size` = the model's **memory / attention window
 Priority order for a single RTX 4070:
 
 ### Priority 1: Total tokens seen (biggest lever)
+
 The model improves with more training tokens. Your current config targets ~10B tokens. If you run longer, you'll get better results — but it takes proportionally more time.
 
 ```python
@@ -87,15 +89,19 @@ lr_decay_iters = 19073
 ```
 
 ### Priority 2: Keep `block_size = 1024`
+
 Long context = coherent multi-sentence output. Don't sacrifice this for speed if fluency is your goal.
 
 ### Priority 3: Enable `compile = True`
+
 This gives 20–30% free speedup after a ~2 min warmup — no quality cost at all. Already in your config, keep it.
 
 ### Priority 4: Data quality
+
 You're already using FineWeb-Edu which is excellent — curated educational web text. This is probably the best dataset choice you could make for fluent output from a 124M model.
 
 ### Priority 5: `batch_size` doesn't change final quality much
+
 As long as total tokens/step stays ~500k, whether you do it as `batch_size=4, grad_accum=128` or `batch_size=8, grad_accum=64` makes essentially no difference to the final model.
 
 ---

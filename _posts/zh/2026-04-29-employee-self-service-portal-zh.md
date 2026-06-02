@@ -72,6 +72,7 @@ ESS 为员工和管理者提供各种活动和任务的全面概览，例如待�
 **参考资料：**
 
 -g- [Interact HRMS Employee Self-Service](https://2interact.us/iemployee-employee-self-service/)
+
 - [GSA Employee Timesheet Guide](https://www.gsa.gov/buy-through-us/shared-services/support-services-for-commissions-and-boards/hr-links-user-guides/time-and-leave/create-a-timesheet)
 - [Pulpstream Leave Management System](https://pulpstream.com/resources/blog/leave-management-system)
 - [Calamari HR Tools](https://www.calamari.io/)

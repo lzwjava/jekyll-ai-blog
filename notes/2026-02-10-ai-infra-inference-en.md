@@ -19,12 +19,15 @@ Answer:
 It differs from traditional IT infrastructure because AI workloads are extremely compute-intensive, memory-hungry, and often involve massive parallel processing, huge datasets, and low-latency requirements.
 
 ### Main phases AI infra supports
+
 - **Training** — building/fine-tuning models (very GPU-heavy, long-running jobs)
 - **Inference** — running a trained model to generate predictions, answers, images, etc. for users (the dominant cost for most deployed AI products today)
 
 ### What "inference" means in this context
+
 **Inference** is the "serving" or "production" phase where a pre-trained model takes new input (a prompt, an image, etc.) and produces output.
 For large models like GPT, Llama, Claude, etc.:
+
 - It is autoregressive (generates one token at a time)
 - It is memory-intensive (especially due to the KV cache that grows with context length)
 - It needs to be fast (low latency for chat/apps) and cheap (high throughput to serve many users)
@@ -32,7 +35,9 @@ For large models like GPT, Llama, Claude, etc.:
 Inference usually consumes far more total compute dollars than training once a model is widely deployed.
 
 ### What an "inference scheduler" (or just "scheduler") is
+
 A **scheduler** in AI infra (especially for **inference**) is the software component that intelligently decides:
+
 - Which requests (user prompts) to process next
 - How to **batch** multiple requests together to maximize GPU utilization
 - How to allocate GPU memory and compute across concurrent users
@@ -40,6 +45,7 @@ A **scheduler** in AI infra (especially for **inference**) is the software compo
 - How to route requests to the best GPU/node (considering load, prefix caching, etc.)
 
 Popular examples in 2025–2026:
+
 - vLLM scheduler (continuous batching, PagedAttention)
 - TensorRT-LLM scheduler
 - Run:AI scheduler (enterprise/multi-tenant fairness)
@@ -48,6 +54,7 @@ Popular examples in 2025–2026:
 Good schedulers dramatically improve **throughput** (tokens/second), reduce **tail latency**, and lower cost per million tokens.
 
 ### What AI infra typically involves (key components)
+
 - **Compute** — mostly NVIDIA GPUs (H100, H200, B200, Blackwell), sometimes AMD Instinct, Google TPUs, or custom silicon
 - **High-speed networking** — InfiniBand or ultra-low-latency Ethernet for connecting thousands of GPUs
 - **Storage** — fast NVMe, distributed file systems (e.g., for checkpoints, datasets), object storage for massive training data

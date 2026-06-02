@@ -9,6 +9,7 @@ type: note
 ---
 
 ## Table of Contents
+
 1. [Oracle Database Overview](#oracle-database-overview)
 2. [Installation and Setup](#installation-and-setup)
 3. [Oracle Database Architecture](#oracle-database-architecture)
@@ -26,6 +27,7 @@ type: note
 Oracle Database is a multi-model database management system produced by Oracle Corporation. It's one of the most widely used relational database management systems (RDBMS) in enterprise environments.
 
 ### Key Features
+
 - **ACID Compliance**: Ensures data integrity through Atomicity, Consistency, Isolation, and Durability
 - **Multi-version Concurrency Control (MVCC)**: Allows multiple users to access data concurrently
 - **Partitioning**: Divides large tables into smaller, manageable pieces
@@ -34,6 +36,7 @@ Oracle Database is a multi-model database management system produced by Oracle C
 - **Scalability**: Supports massive databases and high transaction volumes
 
 ### Oracle Database Editions
+
 - **Express Edition (XE)**: Free, limited version for development and small deployments
 - **Standard Edition**: Mid-range edition with core features
 - **Enterprise Edition**: Full-featured version with advanced capabilities
@@ -44,11 +47,13 @@ Oracle Database is a multi-model database management system produced by Oracle C
 ### Oracle Database Installation
 
 #### Using Oracle Database XE (Recommended for Development)
+
 1. Download Oracle Database XE from Oracle's official website
 2. Install following the platform-specific instructions
 3. Configure the database using Database Configuration Assistant (DBCA)
 
 #### Docker Installation (Quick Setup)
+
 ```bash
 # Pull Oracle Database XE image
 docker pull container-registry.oracle.com/database/express:21.3.0-xe
@@ -63,6 +68,7 @@ docker run --name oracle-xe \
 ```
 
 ### Client Tools
+
 - **SQL*Plus**: Command-line interface
 - **SQL Developer**: GUI-based development environment
 - **Oracle Enterprise Manager**: Web-based management console
@@ -71,11 +77,13 @@ docker run --name oracle-xe \
 ## Oracle Database Architecture
 
 ### Physical Architecture
+
 - **Database Files**: Data files, control files, and redo log files
 - **Parameter Files**: Configuration settings (PFILE/SPFILE)
 - **Archive Log Files**: Backup of redo log files for recovery
 
 ### Logical Architecture
+
 - **Tablespaces**: Logical storage units containing one or more data files
 - **Schemas**: Collection of database objects owned by a user
 - **Segments**: Space allocated for database objects
@@ -83,6 +91,7 @@ docker run --name oracle-xe \
 - **Blocks**: Smallest unit of storage
 
 ### Memory Architecture
+
 - **System Global Area (SGA)**: Shared memory area
   - Database Buffer Cache
   - Shared Pool
@@ -95,6 +104,7 @@ docker run --name oracle-xe \
 ### Data Definition Language (DDL)
 
 #### Creating Tables
+
 ```sql
 -- Create a table
 CREATE TABLE employees (
@@ -120,6 +130,7 @@ CREATE INDEX idx_emp_dept ON employees(department_id);
 ```
 
 #### Oracle-Specific Data Types
+
 - **NUMBER**: Numeric data with precision and scale
 - **VARCHAR2**: Variable-length character strings
 - **CHAR**: Fixed-length character strings
@@ -132,6 +143,7 @@ CREATE INDEX idx_emp_dept ON employees(department_id);
 ### Data Manipulation Language (DML)
 
 #### Advanced Queries
+
 ```sql
 -- Window functions
 SELECT
@@ -164,6 +176,7 @@ ORDER SIBLINGS BY last_name;
 ### PL/SQL Programming
 
 #### Basic PL/SQL Block
+
 ```sql
 DECLARE
     v_employee_count NUMBER;
@@ -191,6 +204,7 @@ END;
 ```
 
 #### Stored Procedures and Functions
+
 ```sql
 -- Stored Procedure
 CREATE OR REPLACE PROCEDURE update_employee_salary(
@@ -235,6 +249,7 @@ END;
 ## Advanced Oracle Features
 
 ### Partitioning
+
 ```sql
 -- Range partitioning
 CREATE TABLE sales (
@@ -255,6 +270,7 @@ CREATE TABLE customers (
 ```
 
 ### Sequences
+
 ```sql
 -- Create sequence
 CREATE SEQUENCE emp_seq
@@ -270,6 +286,7 @@ VALUES (emp_seq.NEXTVAL, 'John', 'Doe');
 ```
 
 ### Views and Materialized Views
+
 ```sql
 -- Create view
 CREATE VIEW employee_details AS
@@ -294,6 +311,7 @@ GROUP BY d.department_name;
 ### JDBC Driver Setup
 
 #### Maven Dependencies
+
 ```xml
 <dependency>
     <groupId>com.oracle.database.jdbc</groupId>
@@ -310,6 +328,7 @@ GROUP BY d.department_name;
 ```
 
 #### Basic JDBC Connection
+
 ```java
 import java.sql.*;
 
@@ -335,6 +354,7 @@ public class OracleConnection {
 ### CRUD Operations
 
 #### Data Access Object (DAO) Pattern
+
 ```java
 public class Employee {
     private int employeeId;
@@ -460,6 +480,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 ```
 
 ### Working with Stored Procedures
+
 ```java
 public class StoredProcedureExample {
 
@@ -500,6 +521,7 @@ public class StoredProcedureExample {
 ## Connection Management
 
 ### Connection Pooling with Oracle UCP
+
 ```java
 import oracle.ucp.jdbc.PoolDataSource;
 import oracle.ucp.jdbc.PoolDataSourceFactory;
@@ -534,6 +556,7 @@ public class ConnectionPoolManager {
 ```
 
 ### Transaction Management
+
 ```java
 public class TransactionExample {
 
@@ -587,6 +610,7 @@ public class TransactionExample {
 ## ORM Frameworks
 
 ### Hibernate Configuration
+
 ```xml
 <!-- hibernate.cfg.xml -->
 <?xml version="1.0" encoding="UTF-8"?>
@@ -615,6 +639,7 @@ public class TransactionExample {
 ```
 
 ### JPA Entity with Oracle-specific Features
+
 ```java
 @Entity
 @Table(name = "employees")
@@ -660,6 +685,7 @@ public class Employee {
 ```
 
 ### Spring Boot with Oracle
+
 ```yaml
 # application.yml
 spring:
@@ -692,6 +718,7 @@ spring:
 ## Performance Optimization
 
 ### Query Optimization
+
 ```sql
 -- Use indexes effectively
 CREATE INDEX idx_emp_dept_salary ON employees(department_id, salary);
@@ -707,6 +734,7 @@ SELECT * FROM employees WHERE employee_id = :employee_id;
 ```
 
 ### Java Performance Tips
+
 ```java
 // Use batch processing for multiple inserts
 public void batchInsertEmployees(List<Employee> employees) {
@@ -759,6 +787,7 @@ public List<Employee> getAllEmployeesOptimized() {
 ## Security Best Practices
 
 ### Connection Security
+
 ```java
 // Use encrypted connections
 String url = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=localhost)(PORT=2484))(CONNECT_DATA=(SERVICE_NAME=XE)))" +
@@ -778,6 +807,7 @@ Connection conn = DriverManager.getConnection(url, props);
 ```
 
 ### SQL Injection Prevention
+
 ```java
 // Always use parameterized queries
 public Employee findEmployeeByEmail(String email) {
@@ -804,6 +834,7 @@ public Employee findEmployeeByEmail(String email) {
 ## Monitoring and Maintenance
 
 ### Database Monitoring Queries
+
 ```sql
 -- Check table sizes
 SELECT table_name,
@@ -836,6 +867,7 @@ WHERE total.tablespace_name = free.tablespace_name(+);
 ```
 
 ### Application Monitoring
+
 ```java
 // Connection pool monitoring
 public class ConnectionPoolMonitor {
@@ -886,6 +918,7 @@ public class QueryPerformanceMonitor {
 ## Best Practices Summary
 
 ### Database Design
+
 - Use appropriate data types and constraints
 - Implement proper indexing strategy
 - Consider partitioning for large tables
@@ -893,6 +926,7 @@ public class QueryPerformanceMonitor {
 - Normalize data appropriately
 
 ### Java Development
+
 - Always use connection pooling
 - Implement proper exception handling
 - Use parameterized queries to prevent SQL injection
@@ -900,6 +934,7 @@ public class QueryPerformanceMonitor {
 - Consider using ORM frameworks for complex applications
 
 ### Performance
+
 - Monitor and optimize slow queries
 - Use batch operations for bulk data operations
 - Implement proper caching strategies
@@ -907,6 +942,7 @@ public class QueryPerformanceMonitor {
 - Use appropriate fetch sizes
 
 ### Security
+
 - Use encrypted connections in production
 - Implement proper authentication and authorization
 - Never hardcode credentials

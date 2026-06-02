@@ -25,6 +25,7 @@ type: note
 ## 适用于您的 config.toml
 
 对于优先考虑成本效率且包含 tool calling 的自定义 provider 设置，我建议：
+
 1. **GPT-4o Mini** 用于通用任务
 2. **GPT-4.1 Mini** 如果您需要更好的指令遵循能力
 3. **o3-Mini** 用于预算紧张且需要重度 reasoning 的任务

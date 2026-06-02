@@ -20,21 +20,25 @@ This question asks about the **surface narrative structure** (表层叙事结构
 ## Analysis of Each Option
 
 **Option A: Yingning playing with flowers — giving flowers — planting flowers**
+
 - These are **recurring motifs/symbols** in the story
 - Not the main plotline structure
 
 **Option B: Ghost mother raises fox-girl — teaches fox-girl — marries off fox-girl**
+
 - This is the **DEEP/HIDDEN narrative**
 - The underlying truth that's gradually revealed
 - What's really happening behind the scenes
 
 **Option C: Wang Zifu meets beautiful girl — searches for beautiful girl — marries beautiful girl** ✓
+
 - This is the **SURFACE narrative**
 - What the reader experiences as the main plot
 - The obvious storyline from the protagonist's perspective
 - Follows a classic romance structure: encounter → pursuit → union
 
 **Option D: Yingning laughs constantly — vows not to laugh again — laughs at appropriate times**
+
 - This traces Yingning's **character development**
 - A thematic arc, not the narrative structure
 

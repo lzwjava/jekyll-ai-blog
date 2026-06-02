@@ -53,6 +53,7 @@ If your XML file starts with tags like `<JOB JOBNAME="..." ...>`, it's the **cla
    - Use XML syntax highlighting and folding
 
 2. **Look at the top-level structure**
+
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <JOB
@@ -69,6 +70,7 @@ If your XML file starts with tags like `<JOB JOBNAME="..." ...>`, it's the **cla
    ```
 
    or folder style:
+
    ```xml
    <FOLDER NAME="Finance_Daily">
        <JOB ...> ... </JOB>

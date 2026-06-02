@@ -100,7 +100,7 @@ It shows up very early — usually on **main.ts** and **polyfills.ts** — becau
 
    Use official update guide each time:
 
-   https://update.angular.dev/
+   <https://update.angular.dev/>
 
    Run `ng update @angular/cli@next @angular/core@next` at each step and fix one version at a time.
 
@@ -142,7 +142,7 @@ This error is **almost never an Angular bug** — it's your project's import gra
 
 **References:**
 
-- https://stackoverflow.com/questions/73197135/angular-14-ng-serve-error-ngtools-webpack-src-ivy-index-js-error-maximum
-- https://github.com/angular/angular-cli/issues/26969
-- https://github.com/angular/angular-cli/issues/23597
-- https://github.com/angular/angular-cli/issues/23814
+- <https://stackoverflow.com/questions/73197135/angular-14-ng-serve-error-ngtools-webpack-src-ivy-index-js-error-maximum>
+- <https://github.com/angular/angular-cli/issues/26969>
+- <https://github.com/angular/angular-cli/issues/23597>
+- <https://github.com/angular/angular-cli/issues/23814>

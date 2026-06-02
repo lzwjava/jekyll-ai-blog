@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 GPT-3, released by OpenAI in 2020, represents a massive leap forward from GPT-2 (released in 2019). While both models share a similar transformer-based architecture, GPT-3's primary advancements stem from its enormous scale in parameters and training data, leading to superior performance in natural language understanding, generation, and task adaptation. Below, I'll break down the key improvements with a comparison table for specs and qualitative highlights.
 
 ### Key Specifications Comparison
@@ -23,6 +24,7 @@ GPT-3, released by OpenAI in 2020, represents a massive leap forward from GPT-2 
 | **Model Variants** | Single size (1.5B)            | Multiple (e.g., davinci at 175B) | Scalability for different use cases, from lightweight to full power. |
 
 ### Qualitative Improvements
+
 - **Coherence and Quality**: GPT-2 often produced repetitive or nonsensical outputs ("gibberish") on complex prompts. GPT-3 generates far more coherent, creative, and contextually relevant text, making it suitable for real-world applications like writing assistants or storytelling.
 
 - **Zero-Shot and Few-Shot Learning**: GPT-2 required fine-tuning for most tasks. GPT-3 excels at "prompt engineering"—performing tasks like translation, summarization, or Q&A with minimal or no examples, thanks to its scale.
@@ -34,6 +36,7 @@ GPT-3, released by OpenAI in 2020, represents a massive leap forward from GPT-2 
 These advancements made GPT-3 a foundational model for later systems like ChatGPT, though it still has limitations like high computational costs.
 
 ### References
+
 - [What is the difference between GPT-2 and GPT-3?](https://www.reddit.com/r/learnmachinelearning/comments/mwduf8/what_is_the_difference_between_gpt2_and_gpt3_is/)
 - [GPT-2 vs GPT-3: The OpenAI Showdown](https://www.exxactcorp.com/blog/Deep-Learning/gpt2-vs-gpt3-the-openai-showdown)
 - [GPT-2 vs GPT-3](https://medium.com/@gianetan/gpt-2-vs-gpt-3-e915ac43e981)

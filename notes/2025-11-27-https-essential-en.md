@@ -22,19 +22,17 @@ An **SSL Certificate** (or more accurately, a **TLS - Transport Layer Security**
 
 It is installed on a web server and contains:
 
-1.  **Public Key:** A cryptographic key used to encrypt data sent *to* the server.
-2.  **Identity Information:** Details about the certificate's owner (the domain name, organization, etc.).
-3.  **Digital Signature:** A signature from a trusted third party, called a **Certificate Authority (CA)** (e.g., Let's Encrypt, DigiCert), which verifies the identity of the certificate owner.
-4.  **Expiry Information:** The valid date range for the certificate.
+1. **Public Key:** A cryptographic key used to encrypt data sent *to* the server.
+2. **Identity Information:** Details about the certificate's owner (the domain name, organization, etc.).
+3. **Digital Signature:** A signature from a trusted third party, called a **Certificate Authority (CA)** (e.g., Let's Encrypt, DigiCert), which verifies the identity of the certificate owner.
+4. **Expiry Information:** The valid date range for the certificate.
 
 ### How It Works
 
 When a browser connects to a website over HTTPS, the server presents its SSL/TLS certificate. The browser then performs the following steps:
 
-1.  **Verification (Authentication):** The browser checks the CA's digital signature to confirm that the certificate is legitimate and that the server is who it claims to be. This prevents impostor websites.
-2.  **Key Exchange (Encryption):** The client and server use the public key in the certificate to establish a unique, temporary **session key**. All subsequent data transferred during that session is encrypted using this key.
-
-
+1. **Verification (Authentication):** The browser checks the CA's digital signature to confirm that the certificate is legitimate and that the server is who it claims to be. This prevents impostor websites.
+2. **Key Exchange (Encryption):** The client and server use the public key in the certificate to establish a unique, temporary **session key**. All subsequent data transferred during that session is encrypted using this key.
 
 ---
 

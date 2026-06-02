@@ -46,6 +46,7 @@ Yes, this explanation is **mostly accurate** as a simplified overview of jet eng
 Overall, this is about 90% correct—reliable for explaining the "wow" factor without diving into equations like the Schmidt-Appleman criterion (which predicts contrail formation based on exhaust temp, pressure, and ambient conditions). It's a great starting point for curiosity about aviation weather.
 
 For more details:
+
 - [Contrails - Wikipedia](https://en.wikipedia.org/wiki/Contrail)
 - [Contrails - Federal Aviation Administration](https://www.faa.gov/contrails)
 - [The Evolution of a Contrail - NASA Earth Observatory](https://earthobservatory.nasa.gov/images/78154/the-evolution-of-a-contrail)

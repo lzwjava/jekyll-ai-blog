@@ -15,6 +15,7 @@ type: note
 CSS provides two main categories of units: **absolute** and **relative**.
 
 #### 1. Absolute Units
+
 These have a fixed, real-world size that does **not** change based on anything else in the document (except device pixel ratio on screens).
 
 | Unit | Name              | Description                                                                 | Typical Use Case                     |
@@ -30,6 +31,7 @@ These have a fixed, real-world size that does **not** change based on anything e
 From your options, only **px (A)** is absolute.
 
 #### 2. Relative Units
+
 These scale based on something else (parent, root, viewport, etc.). This makes layouts responsive and accessible.
 
 | Unit | Name              | Relative to what?                                              | Common Uses & Behavior                                                                                 |

@@ -13,50 +13,50 @@ This `bashrc` file configures the Bash shell environment in Linux. It customizes
 
 **1. Basic Settings:**
 
-   - `HISTCONTROL=ignoreboth`: Ignores duplicate commands and commands starting with a space in the history.
-   - `shopt -s histappend`: Appends new history entries to the history file.
-   - `HISTSIZE=1000`: Sets the number of history entries to keep in memory.
-   - `HISTFILESIZE=2000`: Sets the maximum size of the history file.
-   - `shopt -s checkwinsize`: Updates the terminal window size.
+- `HISTCONTROL=ignoreboth`: Ignores duplicate commands and commands starting with a space in the history.
+- `shopt -s histappend`: Appends new history entries to the history file.
+- `HISTSIZE=1000`: Sets the number of history entries to keep in memory.
+- `HISTFILESIZE=2000`: Sets the maximum size of the history file.
+- `shopt -s checkwinsize`: Updates the terminal window size.
 
 **2. Color Prompt:**
 
-   - Configures a colored command prompt if the terminal supports it.
+- Configures a colored command prompt if the terminal supports it.
 
 **3. Window Title:**
 
-   - Sets the terminal window title to display the current user, host, and working directory.
+- Sets the terminal window title to display the current user, host, and working directory.
 
 **4. Directory Colors:**
 
-   - Enables colored output for `ls` command if `dircolors` is available.
+- Enables colored output for `ls` command if `dircolors` is available.
 
 **5. Aliases:**
 
-   - `alias ll='ls -alF'`: Lists all files with detailed information.
-   - `alias la='ls -A'`: Lists all files, including hidden ones.
-   - `alias l='ls -CF'`: Lists files in columns.
-   - `alias alert='notify-send ...'`: Sends a desktop notification after a command finishes.
+- `alias ll='ls -alF'`: Lists all files with detailed information.
+- `alias la='ls -A'`: Lists all files, including hidden ones.
+- `alias l='ls -CF'`: Lists files in columns.
+- `alias alert='notify-send ...'`: Sends a desktop notification after a command finishes.
 
 **6. Bash Aliases File:**
 
-   - Includes a separate file for custom aliases (`~/.bash_aliases`).
+- Includes a separate file for custom aliases (`~/.bash_aliases`).
 
 **7. Bash Completion:**
 
-   - Enables bash completion if available.
+- Enables bash completion if available.
 
 **8. Path Configuration:**
 
-   - `export PATH=...`: Adds various directories to the `PATH` environment variable, including those for CUDA, Ruby gems, local binaries, and system binaries.
+- `export PATH=...`: Adds various directories to the `PATH` environment variable, including those for CUDA, Ruby gems, local binaries, and system binaries.
 
 **9. Proxy Management:**
 
-   - `export GLOBAL_PROXY='127.0.0.1:7890'`: Defines a variable for the proxy server address.
-   - `function start_proxy { ... }`: Sets the `HTTP_PROXY`, `HTTPS_PROXY`, `http_proxy`, `https_proxy`, and `ALL_PROXY` environment variables to use the specified proxy.
-   - `function start_proxy_without_prefix { ... }`: Similar to `start_proxy`, but sets the proxy variables without the `http://` prefix.
-   - `function stop_proxy { ... }`: Unsets the proxy variables, effectively disabling the proxy.
-   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: Specifies hosts that should bypass the proxy.
+- `export GLOBAL_PROXY='127.0.0.1:7890'`: Defines a variable for the proxy server address.
+- `function start_proxy { ... }`: Sets the `HTTP_PROXY`, `HTTPS_PROXY`, `http_proxy`, `https_proxy`, and `ALL_PROXY` environment variables to use the specified proxy.
+- `function start_proxy_without_prefix { ... }`: Similar to `start_proxy`, but sets the proxy variables without the `http://` prefix.
+- `function stop_proxy { ... }`: Unsets the proxy variables, effectively disabling the proxy.
+- `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: Specifies hosts that should bypass the proxy.
 
 **10. Git Proxy:**
 
@@ -70,30 +70,28 @@ This `bashrc` file configures the Bash shell environment in Linux. It customizes
 
 **12. Python Aliases:**
 
-   - `alias python=python3`: Sets `python` to use `python3`.
-   - `alias pip=pip3`: Sets `pip` to use `pip3`.
+- `alias python=python3`: Sets `python` to use `python3`.
+- `alias pip=pip3`: Sets `pip` to use `pip3`.
 
 **13. Git Message AI Aliases:**
 
-   - `function gpa { ... }`: Creates an alias `gpa` to run a python script `gitmessageai.py` with the mistral API and allow pull and push.
-   - `function gca { ... }`: Creates an alias `gca` to run the same script without pushing changes.
-   - `function gm { ... }`: Creates an alias `gm` to run the same script and only print the commit message.
+- `function gpa { ... }`: Creates an alias `gpa` to run a python script `gitmessageai.py` with the mistral API and allow pull and push.
+- `function gca { ... }`: Creates an alias `gca` to run the same script without pushing changes.
+- `function gm { ... }`: Creates an alias `gm` to run the same script and only print the commit message.
 
 **14. Git Push with Pull and Rebase:**
 
-   - `function gpp { ... }`: Attempts to push changes, and if it fails, it tries to pull with rebase and then push again.
+- `function gpp { ... }`: Attempts to push changes, and if it fails, it tries to pull with rebase and then push again.
 
 **15. Pre-Execution Proxy Check:**
 
-   - `preexec() { ... }`: This function is executed before every command. It checks if the command is in a list of network-dependent commands. If it is, and if any proxy variables are set, it displays the proxy settings.
-   - `local network_commands=( ... )`: This array lists commands that are considered network-dependent.
-   - `display_proxy() { ... }`: This function displays the current proxy settings.
+- `preexec() { ... }`: This function is executed before every command. It checks if the command is in a list of network-dependent commands. If it is, and if any proxy variables are set, it displays the proxy settings.
+- `local network_commands=( ... )`: This array lists commands that are considered network-dependent.
+- `display_proxy() { ... }`: This function displays the current proxy settings.
 
 **16. Check Proxy Function:**
 
-   - `function checkproxy { ... }`: Displays the current HTTP and HTTPS proxy settings, as well as Git proxy settings.
-
-
+- `function checkproxy { ... }`: Displays the current HTTP and HTTPS proxy settings, as well as Git proxy settings.
 
 ```bash
 case $- in
@@ -119,9 +117,9 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	color_prompt=yes
+ color_prompt=yes
     else
-	color_prompt=
+ color_prompt=
     fi
 fi
 
@@ -185,22 +183,22 @@ function start_proxy {
 
 function start_proxy_without_prefix {
     export http_proxy=$GLOBAL_PROXY
-		export HTTP_PROXY=$GLOBAL_PROXY
-		export https_proxy=$GLOBAL_PROXY
+  export HTTP_PROXY=$GLOBAL_PROXY
+  export https_proxy=$GLOBAL_PROXY
     export HTTPS_PROXY=$GLOBAL_PROXY
     export HTTP_PROXY_REQUEST_FULLURI=false
     export HTTPS_PROXY_REQUEST_FULLURI=false
-		export ALL_PROXY=$http_proxy
+  export ALL_PROXY=$http_proxy
 }
 
 function stop_proxy {
     export http_proxy=
-		export HTTP_PROXY=
-		export https_proxy=
+  export HTTP_PROXY=
+  export https_proxy=
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=
+  export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"

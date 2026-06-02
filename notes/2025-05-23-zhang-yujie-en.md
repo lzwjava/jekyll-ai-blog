@@ -40,6 +40,7 @@ The sources provide limited personal details about Zhang Yujie, such as their bi
 ---
 
 ### Summary
+
 Zhang Yujie was a key figure in the establishment of CATL, serving as its honorary chairman and contributing to its transformation from a consumer electronics battery manufacturer (ATL) to a global leader in EV and energy storage batteries. Their partnership with Chen in 2009 and collaboration with Robin Zeng were instrumental in CATL’s rise to dominance by 2014. While detailed biographical information is scarce, Zhang Yujie’s legacy is evident in CATL’s strategic advancements and the entrepreneurial ethos they inspired. Their passing in 2022 marked the loss of a significant, though less publicly documented, contributor to China’s new energy revolution.[](https://english.news.cn/20250214/aeaab2bc6c7f4b7995af5c6f2403501e/c.html)[](https://slguardian.org/trailblazing-leader-in-chinas-energy-revolution/)[](https://equalocean.com/briefing/20220215230119888)
 
 If you require further details or clarification, please let me know, and I can conduct a deeper search or refine the focus of this introduction!

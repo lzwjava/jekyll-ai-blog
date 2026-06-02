@@ -21,6 +21,7 @@ ncat 目录：/Users/lzwjava/projects/nmap/ncat/
 ncat 源码位于 `/Users/lzwjava/projects/nmap/ncat/` — 你已获得包含 ncat 的完整 nmap 源码树。仓库通过 HTTPS 干净克隆（公开仓库无需认证，凭据管理器作为后备可用）。
 
 关键 ncat 文件：
+
 - `ncat/ncat_main.c` — 入口点
 - `ncat/ncat_core.c` — 核心连接逻辑
 - `ncat/ncat_ssl.c` — SSL/TLS 支持

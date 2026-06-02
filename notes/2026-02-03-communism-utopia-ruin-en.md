@@ -19,6 +19,7 @@ or
 **"Communism promises equality but delivers poverty"**
 
 There are several similar formulations that circulate on social media:
+
 - "They promise bread but deliver starvation"
 - "They promise freedom but deliver tyranny"
 - "They promise prosperity but deliver misery"

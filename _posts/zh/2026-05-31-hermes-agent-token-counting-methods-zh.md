@@ -40,6 +40,7 @@ cat ~/.hermes/sessions/<session_id>.json | python3 -m json.tool | grep -A5 "usag
 ```
 
 每个 API 响应中的 `usage` 对象遵循标准 Anthropic 格式：
+
 ```json
 {
   "input_tokens": 14200,

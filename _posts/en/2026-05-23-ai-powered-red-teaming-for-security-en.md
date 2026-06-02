@@ -20,11 +20,13 @@ This is exactly the right mental model. It's called **LLM-powered red teaming** 
 ## The Core Idea: AI as Adversarial Agent
 
 Traditional pen testing is:
+
 - Manual → slow, expensive, human-bottlenecked
 - Periodic → snapshots, not continuous
 - Bounded by the tester's knowledge
 
 LLM agents flip this:
+
 - Automated → run 24/7
 - Composable → chain recon → exploit → pivot
 - Breadth-first → try more attack surfaces than any human team
@@ -205,11 +207,13 @@ Be methodical. Use tools iteratively based on what you discover."""
 Your thesis: *"if the best AI can't break it, it's safe"* — this is **directionally correct but needs caveats**:
 
 **✅ Strong signal:**
+
 - LLMs have broad attack knowledge (trained on CVEs, exploit DBs, security papers)
 - Agents are tireless — they'll try thousands of permutations
 - They chain steps humans miss (recon → correlate → exploit)
 
 **⚠️ Caveats:**
+
 1. **LLMs are biased toward known CVEs** — 0-days they won't find
 2. **Physical/supply chain attacks** — out of scope entirely
 3. **Social engineering** — a separate agent class
@@ -242,6 +246,7 @@ Run this on every deploy. The agent's memory accumulates — it learns your atta
 ## Practical Next Step for You
 
 Given your setup (RTX 4070 workstation), you could run a **local red team agent** using:
+
 - **Ollama + qwen2.5-coder:32b** as the reasoning engine (fits in 12GB with Q4)
 - **Tool layer**: nmap, nuclei, ffuf, sqlmap as subprocess calls
 - **Target**: your own homelab or a dedicated VulnHub/HackTheBox VM

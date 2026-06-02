@@ -19,6 +19,7 @@ The **latest version** of Linux Mint (as of early 2026) is in the **22.x series*
 According to the **official Linux Mint FAQ** and consistent across recent releases (including 22.x), the **minimum** and **recommended** system requirements are the same for all editions, including Cinnamon:
 
 ### Official Minimum Requirements
+
 - **RAM**: 2 GB (lowest / minimum)
 - **Disk space**: 20 GB of free storage (for installation)
 - **Resolution**: 1024 × 768
@@ -26,12 +27,14 @@ According to the **official Linux Mint FAQ** and consistent across recent releas
 - **Other**: A 64-bit processor capable of running a modern Linux distribution (no strict GHz or core count listed officially)
 
 ### Recommended for Comfortable / Smooth Usage
+
 - **RAM**: 4 GB or more (strongly recommended for Cinnamon; 2 GB works but feels slow with multiple apps/tabs open)
 - **Disk space**: 100 GB or more (gives room for updates, apps, documents, etc.)
 - **Processor**: Modern dual-core or better (e.g., Intel Core i3 / AMD Ryzen 3 or equivalent from the last 10–15 years) for good responsiveness
 - **Graphics**: Integrated graphics (Intel HD, AMD Radeon, etc.) are fine; dedicated GPU is optional
 
 ### Real-World Notes for Cinnamon (2025–2026 context)
+
 - With exactly **2 GB RAM**: It installs and runs basic tasks (web browsing, documents, media), but multitasking, heavy web tabs, or modern websites often cause swapping/slowdown.
 - **4 GB RAM** → noticeably better daily use (most users' sweet spot).
 - **6–8 GB RAM** → very comfortable, even with many apps open.

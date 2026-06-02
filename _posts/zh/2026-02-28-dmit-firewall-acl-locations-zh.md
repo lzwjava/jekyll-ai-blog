@@ -18,7 +18,7 @@ DMIT.io 宣传所有云 VM 实例都配备可自定义的前端（外部）firew
 以下是您找不到它的最可能原因及解决步骤：
 
 1. **检查控制面板中的正确位置**
-   - 登录 https://www.dmit.io/ 或您的计费/客户端区域（SolusVM、自定义面板或基于 WHMCS 的门户）。
+   - 登录 <https://www.dmit.io/> 或您的计费/客户端区域（SolusVM、自定义面板或基于 WHMCS 的门户）。
    - 转到 **Services** → **My Services** → 选择您的特定云实例/VM。
    - 查找以下标签或部分：
      - "Firewall"
@@ -35,26 +35,34 @@ DMIT.io 宣传所有云 VM 实例都配备可自定义的前端（外部）firew
 
 3. **您的问题几乎肯定不是 DMIT 外部 firewall**
    - 您已经运行：
+
      ```
      sudo ufw allow 13000:14000/tcp
      sudo ufw allow 13000:14000/udp
      sudo ufw reload
      ```
+
      但看到：**Firewall not enabled (skipping reload)**
    - 这意味着 **UFW 当前在您的 VPS 上处于禁用/非活动状态**。没有规则（即使是允许的规则）被强制执行，因为 firewall 未运行。
    - **首先修复这个问题**——这是即使添加规则后端口仍被阻塞的最常见原因：
+
      ```
      sudo ufw enable
      ```
+
      对提示回答“y”（它警告可能中断 SSH——确保您通过 DMIT 面板有控制台访问权限，以防锁死）。
      然后重新加载：
+
      ```
      sudo ufw reload
      ```
+
      验证状态：
+
      ```
      sudo ufw status verbose
      ```
+
      现在您应该看到 13000:14000 规则列为 ALLOW，并且 firewall 显示为“active”。
 
 4. **启用 UFW 后测试连通性**
@@ -69,6 +77,7 @@ DMIT.io 宣传所有云 VM 实例都配备可自定义的前端（外部）firew
    - DMIT 支持团队通常对这些问题很乐于助人，可以指导您找到确切的面板部分（或确认您的计划是否不可用户编辑）。
 
 **总结**
+
 - 首先启用 UFW（`sudo ufw enable`）——这是目前阻塞您端口的原因，而不是 DMIT 那边。
 - DMIT 外部 ACL 界面按其网站存在，但可能难以找到或受限；如需使用支持团队。
 - 向 0.0.0.0/0 开放像 1000 个端口这样的大范围很危险——如果您的应用允许，请限制源 IP。

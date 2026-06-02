@@ -33,6 +33,7 @@ Huh’s career skyrocketed. He proved major conjectures, including the Heron–R
 7. **Resilience Through Setbacks**: Despite rejections and self-doubt, Huh persevered. His story underscores the value of resilience, especially for those from less privileged backgrounds who may not have the “luxury” of multiple chances.[](https://www.econjobrumors.com/topic/someone-please-summarize-what-june-huhs-academic-career-teaches-us)[](https://profilesinfo.com/june-huh-wiki-networth-age/)
 
 ### Critical Reflection
+
 While Huh’s narrative is inspiring, some argue it’s shaped by privilege—his parents’ academic status likely afforded him second chances, such as admission to Seoul National University despite his record. This raises questions about access and opportunity in academia, where systemic barriers can limit others with similar potential. Still, Huh’s ability to capitalize on opportunities through hard work and originality remains a powerful lesson.[](https://www.reddit.com/r/math/comments/vs6y0f/june_huh_high_school_dropout_wins_the_fields/)[](https://www.econjobrumors.com/topic/someone-please-summarize-what-june-huhs-academic-career-teaches-us)
 
 Huh’s story teaches us that success doesn’t require a straight path or early brilliance. By embracing curiosity, seeking mentors, and thinking unconventionally, anyone can uncover their potential—though systemic inequities remind us that opportunity isn’t equally distributed.[](https://photonlines.substack.com/p/lessons-from-june-huh-from-high-school)

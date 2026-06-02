@@ -13,6 +13,7 @@ n8n is an open-source, fair-code workflow automation platform designed to stream
 n8n stands out for its native AI capabilities, allowing users to build AI-powered workflows and agents using Large Language Models (LLMs) like OpenAI, Google Gemini, or DeepSeek. These AI agents can perform tasks such as automated customer support, content generation, data analysis, and email processing by integrating with tools like vector databases, APIs, and services such as Gmail, Slack, or Notion. Its AI Agent node and LangChain integration simplify the creation of intelligent workflows, enabling dynamic decision-making and tool usage (e.g., Wikipedia, SerpAPI, or custom code).
 
 Key features include:
+
 - **Visual Workflow Builder**: Create workflows using nodes for triggers, actions, and AI functions.
 - **AI Integration**: Embed LLMs and tools for advanced automation, like chatbots or RAG (Retrieval-Augmented Generation) systems.
 - **Self-Hosting or Cloud**: Offers full data control with self-hosted options or a cloud-based service with a free trial.

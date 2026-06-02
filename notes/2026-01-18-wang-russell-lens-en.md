@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-**Question:** According to "The Conquest of Happiness," is Yin Wang (from https://www.yinwang.org) living a happy life?
+**Question:** According to "The Conquest of Happiness," is Yin Wang (from <https://www.yinwang.org>) living a happy life?
 
 **Answer:**
 
@@ -19,6 +19,7 @@ Bertrand Russell's *The Conquest of Happiness* (1930) divides unhappiness into c
 Yin Wang (author of yinwang.org) is a computer science educator and programmer with over 20 years of experience. His blog focuses on deep, ground-up explanations of programming concepts, innovative teaching methods (including courses and experiments), critiques of education/AI, and occasional personal topics like natural vision improvement, cello learning, or environmental issues (e.g., UK air quality complaints). He is writing a book called *Ground-Up Computer Science* and runs educational programs with student successes highlighted.
 
 From a Russellian perspective:
+
 - **Zest and interest**: Yin Wang shows sustained intellectual passion for computer science fundamentals, teaching innovation, and related experiments. This deep engagement in meaningful work aligns strongly with Russell's view that active interest in the world (especially impersonal pursuits) is a major source of happiness.
 - **Work**: His primary activities—creating courses, writing technical content, and educating others—are constructive and appear fulfilling, matching Russell's emphasis on work as a central happiness factor when it provides purpose and achievement.
 - **Outward focus**: He emphasizes helping others learn (e.g., accessible education, student progress) rather than pure self-focus.

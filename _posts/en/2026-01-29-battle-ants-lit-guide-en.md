@@ -25,6 +25,7 @@ The work is notable for its meticulous observation of nature and its ability to 
 **Why Study This Text:**
 
 For Chinese language learners at the university level, 《蚂蚁大战》 provides excellent material for:
+
 - Analyzing descriptive and narrative techniques in Chinese prose
 - Expanding vocabulary related to nature, animals, and action
 - Exploring how Chinese writers use concrete observations to convey abstract ideas

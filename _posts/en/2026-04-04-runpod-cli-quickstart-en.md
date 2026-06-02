@@ -109,7 +109,6 @@ runpodctl pod stop <id>         # stop a running pod
 runpodctl pod delete <id>       # delete a pod
 ```
 
-
 You can also start a spot pod with a bid price:
 
 ```bash
@@ -120,8 +119,6 @@ The bid price you set is the price you will pay if not outbid.
 
 #### 2. Serverless Endpoint Management
 
-
-
 ```bash
 runpodctl serverless list          # list endpoints (alias: sls)
 runpodctl serverless get <id>      # get endpoint details
@@ -129,7 +126,6 @@ runpodctl serverless create        # create endpoint
 runpodctl serverless update <id>   # update endpoint
 runpodctl serverless delete <id>   # delete endpoint
 ```
-
 
 #### 3. File Transfer (`send` / `receive`)
 
@@ -157,10 +153,7 @@ Other resources managed by `runpodctl` include:
 - `registry` (alias: `reg`) — manage container registry auth
 - `model` — manage model repository
 
-
 #### 5. Info and Utility Commands
-
-
 
 ```bash
 runpodctl user         # show account info and balance (alias: me)
@@ -170,7 +163,6 @@ runpodctl billing      # view billing history
 runpodctl doctor       # diagnose and fix CLI issues
 runpodctl ssh          # manage SSH keys and connections
 ```
-
 
 #### 6. SSH Key Management
 
@@ -191,7 +183,6 @@ runpodctl pod list --output=table    # human-readable table
 runpodctl pod list --output=yaml     # YAML format
 ```
 
-
 ---
 
 ### RunPod Projects — Dockerless Serverless Workflow
@@ -199,16 +190,17 @@ runpodctl pod list --output=yaml     # YAML format
 RunPod introduced a "Dockerless" feature in `runpodctl` version 1.11.0+, which simplifies the AI development process by allowing you to deploy custom endpoints on the serverless platform without the complexities of Docker.
 
 The process involves:
+
 1. Configuring `runpodctl` with your API key
 2. Creating a new project (prompts for settings and creates a project folder)
 3. Starting a development session
 4. Deploying your serverless endpoint
 
 Project files generated include:
+
 - `.runpodignore` — specifies files to exclude during deployment
 - `builder/requirements.txt` — pip dependencies
 - `runpod.toml` — project config and deployment settings
-
 
 ```bash
 # Create a new project

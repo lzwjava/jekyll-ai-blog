@@ -36,6 +36,7 @@ Answer:
    This helps them break down tough plant material (cellulose) more effectively through extra chewing and microbial fermentation in a specialized stomach (usually four compartments).
 
 **Quick summary of which meaning is intended**:
+
 - When people say "stop ruminating" or "you're ruminating too much" → almost always the **psychological** meaning
 - When talking about cows chewing cud → the **biological** meaning
 

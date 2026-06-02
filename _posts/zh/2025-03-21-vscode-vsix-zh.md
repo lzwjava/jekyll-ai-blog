@@ -24,14 +24,18 @@ type: note
 
 3. **构造下载 URL**
    - 可以使用 Marketplace 提供的特定 URL 模式直接下载 `.vsix` 文件。通用格式为：
+
      ```
      https://<publisher>.gallery.vsassets.io/_apis/public/gallery/publisher/<publisher>/extension/<extension-name>/latest/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
      ```
+
    - 将 `<publisher>` 替换为发布者名称，`<extension-name>` 替换为扩展名称。
    - 对于 Python 扩展（`ms-python.python`），URL 为：
+
      ```
      https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/latest/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
      ```
+
    - 将此 URL 粘贴到浏览器中，将触发 `.vsix` 文件的下载。
 
 4. **替代方法：使用 Marketplace 页面上的“下载扩展”链接（如果可用）**
@@ -48,31 +52,42 @@ type: note
    - 选择**从 VSIX 安装**，然后浏览并选择下载的 `.vsix` 文件。
 
 ### 示例演练
+
 假设你需要 Dirk Baeumer 的 **ESLint** 扩展：
+
 - Marketplace URL：`https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint`
 - 发布者：`dbaeumer`
 - 扩展名称：`vscode-eslint`
 - 下载 URL：
+
   ```
   https://dbaeumer.gallery.vsassets.io/_apis/public/gallery/publisher/dbaeumer/extension/vscode-eslint/latest/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
   ```
+
 - 在浏览器中打开此 URL，`.vsix` 文件（例如 `dbaeumer.vscode-eslint-<version>.vsix`）将被下载。
 
 ### 注意事项
+
 - **版本**：URL 中的 `/latest/` 部分确保你获得最新版本。如果你需要特定版本，通常需要访问版本号（在 Marketplace 的“版本历史”选项卡中可见），并可能需要调整 URL 或使用像 `ovsx` 这样的工具（见下文），尽管 Marketplace API 并不总是通过直接 URL 轻松公开旧版本。
 - **下载被阻止**：如果 URL 不起作用，可能是发布者限制了直接访问，或者你的浏览器/网络阻止了它。在这种情况下，尝试使用不同的浏览器或下载管理器。
 - **替代工具**：你可以使用像 `ovsx`（来自 Open VSX Registry）这样的命令行工具下载扩展。通过 npm 安装（`npm install -g ovsx`），然后运行：
+
   ```
   ovsx download ms-python.python
   ```
+
   这将通过编程方式下载 `.vsix` 文件。
 
 ### 最终步骤
+
 要手动下载 VS Code 扩展的 `.vsix` 文件：
+
 1. 访问 [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode) 上的扩展页面。
 2. 识别发布者和扩展名称（例如 `ms-python.python`）。
 3. 在浏览器中使用此 URL 格式：
+
    ```
    https://<publisher>.gallery.vsassets.io/_apis/public/gallery/publisher/<publisher>/extension/<extension-name>/latest/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
    ```
+
 4. 下载 `.vsix` 文件，并可选地在 VS Code 中安装它。

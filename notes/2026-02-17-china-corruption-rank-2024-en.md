@@ -28,6 +28,7 @@ The global average score in 2025 is around 42, so China's score is slightly abov
 Other perspectives include the World Bank's **Worldwide Governance Indicators** (Control of Corruption percentile rank), where China scores around the 50th–60th percentile range in recent years (slightly above world average in some updates, with a 2024 estimate near 0.09 on the -2.5 to +2.5 scale, roughly in the middle globally).
 
 Key notes:
+
 - The CPI focuses on **perceived** public sector corruption (e.g., bribery, misuse of power).
 - China's government has run large-scale anti-corruption campaigns since 2012, targeting high-level officials, which some credit for modest improvements in earlier years, though perceptions remain middling.
 - Rankings can vary slightly by source and year, but Transparency International's CPI is the most widely referenced for international comparisons.

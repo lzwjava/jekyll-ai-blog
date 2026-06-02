@@ -17,6 +17,7 @@ type: note
 Here are the most practical and commonly used hints/approaches to solve this problem efficiently:
 
 ### Core Idea
+
 Two DFAs accept the same language ⇔ their minimized versions are isomorphic (same number of states, same structure up to state renaming).
 
 Since N ≤ 2000 per automaton and T ≤ 26, direct minimization + isomorphism check is feasible but needs to be implemented carefully.
@@ -64,6 +65,7 @@ Since N ≤ 2000 per automaton and T ≤ 26, direct minimization + isomorphism c
    (These are fast filters before doing full minimization.)
 
 6. **Practical implementation order that works well**
+
    ```
    For each DFA:
    1. Read N, transitions, accepting flags

@@ -66,6 +66,7 @@ mtr api.binance.com -T -P 443 -c 100 --report
 If MTR is available in your environment, use it instead of traceroute — it is more comprehensive for diagnosing both latency and packet loss simultaneously.
 
 **Sample output to look for:**
+
 - `Loss%` — should be 0.0% on all hops
 - `Avg` (average RTT in ms) — in Tokyo, expect well under 5ms to `api.binance.com`
 - `StDev` — low jitter is important for quant trading
@@ -113,7 +114,6 @@ To intercept traffic coming from Binance's WebSocket endpoint and measure actual
 ```bash
 sudo tcpdump -i eth0 tcp port 9443 -w capture.pcap
 ```
-
 
 After capturing, open the `.pcap` file with **Wireshark** on your local machine to inspect individual packet timestamps and measure WebSocket frame latency precisely.
 

@@ -14,9 +14,9 @@ That's a fantastic memory! You are absolutely right about the immense popularity
 
 You're also correct about the three main groups, or **races**, in the game, though they are usually referred to as:
 
-1.  **Terran** (The Human faction)
-2.  **Zerg** (The insectoid/animalistic faction)
-3.  **Protoss** (The advanced, psionic/god-like alien faction)
+1. **Terran** (The Human faction)
+2. **Zerg** (The insectoid/animalistic faction)
+3. **Protoss** (The advanced, psionic/god-like alien faction)
 
 ---
 

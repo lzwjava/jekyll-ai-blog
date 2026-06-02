@@ -17,6 +17,7 @@ type: note
 在 Java 中，未明确初始化的类实例变量（字段）会根据其类型自动赋默认值。
 
 对于原始类型：
+
 - `boolean` 默认为 **false**
 - `int`、`byte`、`short`、`long` 默认为 0
 - `float`、`double` 默认为 0.0

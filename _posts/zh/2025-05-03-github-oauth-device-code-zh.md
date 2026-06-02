@@ -19,6 +19,7 @@ type: note
 该代码作为 Node.js 脚本运行，使用 `fetch` 发起 HTTP 请求，通过 `process` 读取环境变量。运行需确保 Node.js 支持 `fetch`（新版本或通过 polyfill 实现）。若认证成功，代码将持续轮询 GitHub 服务器直至用户完成授权或超时。
 
 **重要提示：**
+
 - 需设置环境变量 `MY_COPILOT_CLIENT_ID`（应为注册 GitHub Copilot 的 OAuth 应用客户端 ID）
 - 错误处理较为简单（如获取失败时仅记录日志并继续执行或退出）
 - 访问令牌的存储或记录存在安全风险（其具备 API 访问权限）。本代码直接将完整令牌对象输出至控制台，实际使用中可能引发隐私/安全问题（建议加密存储并定期轮换）
@@ -28,6 +29,7 @@ type: note
 ### 逐步解析
 
 #### 1. 环境检查
+
 ```javascript
 const clientId = process.env.MY_COPILOT_CLIENT_ID;
 
@@ -36,11 +38,13 @@ if (!clientId) {
   process.exit(1);
 }
 ```
+
 - 从环境变量获取 `MY_COPILOT_CLIENT_ID`（可通过 `export MY_COPILOT_CLIENT_ID=your_client_id` 设置）
 - 若未设置则记录错误并退出脚本（进程代码 1 表示失败）
 - 该客户端 ID 需来自已注册的 GitHub OAuth 应用
 
 #### 2. 通用请求头设置
+
 ```javascript
 const commonHeaders = new Headers();
 commonHeaders.append("accept", "application/json");
@@ -50,6 +54,7 @@ commonHeaders.append("content-type", "application/json");
 commonHeaders.append("user-agent", "GithubCopilot/1.155.0");
 commonHeaders.append("accept-encoding", "gzip,deflate,b");
 ```
+
 - 创建包含键值对的 `Headers` 对象用于 HTTP 请求
 - 这些请求头使请求看似来自 GitHub Copilot Vim 插件（Neovim 0.6.1 的 1.16.0 版本），可能用于伪装用户代理以模拟 Copilot 的 API 调用
 - `"accept": "application/json"`：期望 JSON 格式响应
@@ -57,6 +62,7 @@ commonHeaders.append("accept-encoding", "gzip,deflate,b");
 - `"accept-encoding"`：支持 gzip/deflate 压缩以节省带宽
 
 #### 3. `getDeviceCode()` 函数
+
 ```javascript
 async function getDeviceCode() {
   const raw = JSON.stringify({
@@ -79,6 +85,7 @@ async function getDeviceCode() {
   return data;
 }
 ```
+
 - **功能**：通过向 GitHub 请求设备码来启动设备码认证流程
 - 构建包含以下内容的 JSON 载荷：
   - `client_id`：OAuth 客户端 ID（用于应用认证）
@@ -89,6 +96,7 @@ async function getDeviceCode() {
 - 返回 GitHub 的解析后 JSON 数据对象
 
 #### 4. `getAccessToken(deviceCode: string)` 函数
+
 ```javascript
 async function getAccessToken(deviceCode: string) {
   const raw = JSON.stringify({
@@ -111,6 +119,7 @@ async function getAccessToken(deviceCode: string) {
     .catch((error) => console.error(error));
 }
 ```
+
 - **功能**：在用户授权后，通过轮询 GitHub 将设备码兑换为访问令牌
 - 接收上一步获取的 `device_code`
 - 构建包含以下内容的 JSON：
@@ -124,6 +133,7 @@ async function getAccessToken(deviceCode: string) {
 - 错误（如 fetch 失败）会被记录但未显式处理，调用方需检查返回值
 
 #### 5. 主执行逻辑（立即调用异步函数）
+
 ```javascript
 (async function () {
   const { device_code, user_code, verification_uri, expires_in } =
@@ -143,6 +153,7 @@ async function getAccessToken(deviceCode: string) {
   }
 })();
 ```
+
 - **整体流程**：协调完整的 OAuth 2.0 设备码授权流程
 - 调用 `getDeviceCode()` 并解构响应变量（假设执行成功且包含相应属性）
 - 输出用户指引：
@@ -161,9 +172,10 @@ async function getAccessToken(deviceCode: string) {
   - 访问令牌输出至控制台存在暴露风险，生产环境应安全存储（如保存至文件或数据库）
 
 ### 端到端运行原理
+
 1. **步骤 1：请求设备码** → 脚本从 GitHub 获取临时代码
 2. **步骤 2：用户授权** → 用户访问 GitHub 并输入代码授予权限
 3. **步骤 3：轮询令牌** → 脚本持续向 GitHub 查询直至获得令牌
 4. **结果**：获取指定作用域的访问令牌（如通过 GitHub API 读取用户数据）
 
-此代码模拟了 GitHub CLI 等工具的工作机制，并适配于 Copilot 场景。关于 GitHub OAuth 的官方文档请参阅 https://docs.github.com/zh/developers/apps/building-oauth-apps/authorizing-oauth-apps#device-flow。如需构建类似功能，请确保符合 OAuth 标准及 GitHub 政策。若对修改或运行此代码有疑问，欢迎咨询！
+此代码模拟了 GitHub CLI 等工具的工作机制，并适配于 Copilot 场景。关于 GitHub OAuth 的官方文档请参阅 <https://docs.github.com/zh/developers/apps/building-oauth-apps/authorizing-oauth-apps#device-flow。如需构建类似功能，请确保符合> OAuth 标准及 GitHub 政策。若对修改或运行此代码有疑问，欢迎咨询！

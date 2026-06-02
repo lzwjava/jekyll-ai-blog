@@ -12,6 +12,7 @@ type: note
 GloVe向量是纯文本文件。每行包含一个标记及其嵌入值，所有内容以空格分隔。**没有文件头**（与许多word2vec文本文件不同）。
 
 示例（300维GloVe）：
+
 ```
 the 0.418 0.24968 -0.41242 0.1217 ... 0.34527   # 共300个浮点数
 to   0.68047 -0.039263 -0.67412 0.056051 ... -0.067549
@@ -29,6 +30,7 @@ U.S. 0.3459  0.21513  -0.09982  0.25344 ... 0.024118
 * 没有特殊的`<unk>`行；未登录词处理需自行实现
 
 您的加载器
+
 ```python
 def read_glove_vecs(glove_file):
     with open(glove_file, 'r', encoding='utf-8') as f:
@@ -41,14 +43,17 @@ def read_glove_vecs(glove_file):
             word_to_vec_map[curr_word] = np.array(line[1:], dtype=np.float64)
     return words, word_to_vec_map
 ```
+
 符合该格式。建议进行两项小优化：
 
 1. 使用float32节省一半内存：
+
 ```python
 vec = np.asarray(line[1:], dtype=np.float32)
 ```
 
 2. 跳过意外出现的“文件头”或异常行（某些重新打包的文件会添加）：
+
 ```python
 parts = line.rstrip().split(' ')
 if len(parts) < 2:

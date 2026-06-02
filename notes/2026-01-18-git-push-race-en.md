@@ -75,6 +75,6 @@ It happens precisely **because you are pushing from two terminals almost simulta
 
 References:
 
-- https://stackoverflow.com/questions/11796580/git-pull-error-error-remote-ref-is-at-but-expected
-- https://graphite.com/guides/git-error-cannot-lock-ref
-- https://stackoverflow.com/questions/12416643/notorious-git-error-remote-rejected-failed-to-lock
+- <https://stackoverflow.com/questions/11796580/git-pull-error-error-remote-ref-is-at-but-expected>
+- <https://graphite.com/guides/git-error-cannot-lock-ref>
+- <https://stackoverflow.com/questions/12416643/notorious-git-error-remote-rejected-failed-to-lock>

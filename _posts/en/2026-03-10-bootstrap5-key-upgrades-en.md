@@ -77,6 +77,7 @@ Additionally, Bootstrap 5 introduces built-in dark mode and support for custom c
 Bootstrap 5 introduces new floating forms and components like Accordions, Alerts with icons, and Offcanvas, while also updating existing components like Buttons, Dropdowns, Navbars, and Popovers to load faster.
 
 Key new components include:
+
 - **Offcanvas** — a flexible sidebar/drawer panel
 - **Accordion** — redesigned collapsible sections
 - **Floating labels** — animated label inputs
@@ -89,6 +90,7 @@ Key new components include:
 Bootstrap 4 relied on `data-*` attribute naming for classes. Bootstrap 5 introduces a new `data-bs-*` naming convention for improved consistency and separation from native HTML attributes.
 
 Example:
+
 - Bootstrap 4: `data-toggle="modal"`
 - Bootstrap 5: `data-bs-toggle="modal"`
 

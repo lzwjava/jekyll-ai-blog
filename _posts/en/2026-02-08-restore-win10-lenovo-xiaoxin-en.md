@@ -17,6 +17,7 @@ If you want both Windows 10 and Ubuntu on your machine, you can use your bootloa
 
 **Option 2: Reinstall Windows 10 (Erase Ubuntu)**
 If you want Windows 10 back as your only OS, you'll need to:
+
 1. Back up any important files from Ubuntu first
 2. Create a Windows 10 installation USB drive on another computer using the Windows Media Creation Tool (downloadable from Microsoft)
 3. Boot from that USB drive and reinstall Windows 10, which will overwrite Ubuntu
@@ -24,6 +25,7 @@ If you want Windows 10 back as your only OS, you'll need to:
 
 **Option 3: Use Your Original Recovery Partition**
 Lenovo laptops often come with a recovery partition or recovery media. Check if you have:
+
 - Lenovo Vantage app (if Windows is still accessible)
 - Original recovery DVDs or USB that came with your laptop
 - A hidden recovery partition on the drive
@@ -31,6 +33,7 @@ Lenovo laptops often come with a recovery partition or recovery media. Check if 
 If you have these, you might be able to restore Windows 10 to factory settings without needing an installation disk.
 
 **What you'll need:**
+
 - Windows 10 installation media or recovery media
 - Another computer to create the installation USB
 - Time for the installation process

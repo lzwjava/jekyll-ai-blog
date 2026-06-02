@@ -13,9 +13,9 @@ It's a common challenge that IP addresses of servers can be easily blocked by th
 
 The script allows you to:
 
-*   Check if a reserved IP is assigned to a specific droplet.
-*   Reassign a new reserved IP to a droplet if the current one is blocked.
-*   Check if port 80 is open on the reserved IP (a simple way to check if the IP is working).
+* Check if a reserved IP is assigned to a specific droplet.
+* Reassign a new reserved IP to a droplet if the current one is blocked.
+* Check if port 80 is open on the reserved IP (a simple way to check if the IP is working).
 
 Here's the Python script:
 
@@ -191,30 +191,33 @@ if __name__ == '__main__':
 
 **Explanation:**
 
-1.  **Import Libraries:** Imports necessary libraries for network operations, environment variables, argument parsing, JSON handling, HTTP requests, and time delays.
-2.  **`get_digitalocean_headers()`:** Retrieves the DigitalOcean API key from environment variables and constructs the necessary headers for API requests.
-3.  **`fetch_reserved_ips()`:** Fetches all reserved IPs associated with your DigitalOcean account using the API. It also saves the raw response to `response.json` for debugging purposes.
-4.  **`unassign_ip_from_droplet()`:** Unassigns a given reserved IP from a specified droplet.
-5.  **`assign_ip_to_droplet()`:** Assigns a given reserved IP to a specified droplet.
-6.  **`process_reserved_ips()`:** This is the core logic:
-    *   It iterates through all reserved IPs.
-    *   If a `droplet_name` is provided, it checks if the IP is assigned to that droplet.
-    *   If `only_check` is true, it checks if port 80 is open and returns the IP.
-    *   If not `only_check`, it unassigns the current IP, creates a new one, and assigns the new IP to the droplet.
-7.  **`create_new_reserved_ip()`:** Creates a new reserved IP in the `sgp1` region (you can change this).
-8.  **`check_port_80()`:** Checks if port 80 is open on a given IP address. This is a simple way to verify if the IP is reachable.
-9.  **`get_reserved_ip()`:** Orchestrates the process of fetching and processing reserved IPs.
+1. **Import Libraries:** Imports necessary libraries for network operations, environment variables, argument parsing, JSON handling, HTTP requests, and time delays.
+2. **`get_digitalocean_headers()`:** Retrieves the DigitalOcean API key from environment variables and constructs the necessary headers for API requests.
+3. **`fetch_reserved_ips()`:** Fetches all reserved IPs associated with your DigitalOcean account using the API. It also saves the raw response to `response.json` for debugging purposes.
+4. **`unassign_ip_from_droplet()`:** Unassigns a given reserved IP from a specified droplet.
+5. **`assign_ip_to_droplet()`:** Assigns a given reserved IP to a specified droplet.
+6. **`process_reserved_ips()`:** This is the core logic:
+    * It iterates through all reserved IPs.
+    * If a `droplet_name` is provided, it checks if the IP is assigned to that droplet.
+    * If `only_check` is true, it checks if port 80 is open and returns the IP.
+    * If not `only_check`, it unassigns the current IP, creates a new one, and assigns the new IP to the droplet.
+7. **`create_new_reserved_ip()`:** Creates a new reserved IP in the `sgp1` region (you can change this).
+8. **`check_port_80()`:** Checks if port 80 is open on a given IP address. This is a simple way to verify if the IP is reachable.
+9. **`get_reserved_ip()`:** Orchestrates the process of fetching and processing reserved IPs.
 10. **`if __name__ == '__main__':`:**  Parses command-line arguments (`--droplet-name` and `--only-check`) and calls `get_reserved_ip` to execute the script.
 
 **How to Use:**
 
-1.  **Set up DigitalOcean API Key:** Set the `DO_API_KEY` environment variable with your DigitalOcean API key.
-2.  **Run the script:**
-    *   To check if an IP is assigned to a droplet and if port 80 is open:
+1. **Set up DigitalOcean API Key:** Set the `DO_API_KEY` environment variable with your DigitalOcean API key.
+2. **Run the script:**
+    * To check if an IP is assigned to a droplet and if port 80 is open:
+
         ```bash
         python your_script_name.py --droplet-name your_droplet_name --only-check
         ```
-    *   To reassign a new IP to a droplet:
+
+    * To reassign a new IP to a droplet:
+
         ```bash
         python your_script_name.py --droplet-name your_droplet_name
         ```

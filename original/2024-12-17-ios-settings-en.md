@@ -64,7 +64,6 @@ The update method used by OKX is fascinating. Users need to slide to initiate an
 ![](assets/images/ios-settings/update.jpg){: .responsive }
 *Source: tradingview.com*{: .caption }
 
-
 ---
 
 ## Left Swipe and Apps

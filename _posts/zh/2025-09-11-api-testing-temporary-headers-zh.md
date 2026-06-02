@@ -16,6 +16,7 @@ type: note
 ## 推荐方案：使用pytest夹具
 
 `pytest`通常更适合此用例，因为：
+
 - 具有更强大的夹具管理功能
 - 更简洁的setup/teardown语法
 - 更好的依赖注入支持

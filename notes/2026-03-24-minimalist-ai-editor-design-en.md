@@ -50,11 +50,13 @@ The insight is the same: **don't assume you need it until you feel the absence o
 If you stripped VSCode/Cursor down to "AI-first blank slate" and only added back what you truly needed, you'd probably end up with:
 
 **Things you'd add back quickly:**
+
 - Approve / reject AI diff (unavoidable human judgment)
 - Jump to a specific file you *know* you want (not search, direct intent)
 - Run a specific test you're watching
 
 **Things you'd never add back:**
+
 - Multi-cursor editing
 - Manual refactor menus
 - File tree navigation (AI discovers context)
@@ -62,6 +64,7 @@ If you stripped VSCode/Cursor down to "AI-first blank slate" and only added back
 - Tab switching shortcuts
 
 **Things you'd realize were always redundant:**
+
 - `Ctrl+P` file search → just tell AI what file/function you mean
 - `Ctrl+Shift+F` global search → "find all places where X is used"
 - Snippet shortcuts → AI generates boilerplate on demand

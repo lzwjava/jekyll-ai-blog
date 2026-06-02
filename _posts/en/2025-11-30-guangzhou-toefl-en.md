@@ -15,6 +15,7 @@ type: note
 The TOEFL (Test of English as a Foreign Language) is primarily offered as the TOEFL iBT (internet-based test) in China, administered by ETS in partnership with the National Education Examinations Authority (NEEA). It's available **offline at authorized test centers** in Guangzhou, which is one of the major cities with multiple venues. There is no paper-based version; all in-person tests are computer-based at these centers. The Home Edition (online from home) is also an option, but since you asked for offline choices, I'll focus on test center options below.
 
 #### Step-by-Step Guide to Register and Take the TOEFL Offline in Guangzhou
+
 1. **Create an Account and Register Online**:
    - Visit the official NEEA TOEFL website: [toefl.neea.cn](https://toefl.neea.cn) (Chinese interface; use a browser translator if needed, or try the English version via ETS global site).
    - Create a free account using your personal details (name, email, passport/ID number). You'll need a valid passport for identification.
@@ -25,11 +26,13 @@ The TOEFL (Test of English as a Foreign Language) is primarily offered as the TO
 2. **Choose a Test Center in Guangzhou**:
    - Guangzhou has several authorized centers (over 140 nationwide, with multiple in Guangdong province). Availability varies by date—check the site for real-time slots.
    - Known centers (based on official listings; confirm addresses on the registration site as they may update):
+
      | Test Center Name | Address | Notes |
      |------------------|---------|-------|
      | Guangzhou Education Examination Authority (or similar NEEA-affiliated center) | Typically in Tianhe District, e.g., near Tianhe Sports Center or university campuses like Sun Yat-sen University. Exact: Search "广州市教育考试院" on the site. | Main venue; offers multiple sessions weekly. |
      | Sun Yat-sen University Test Center | Higher Education Mega Center, Panyu District, Guangzhou | University-based; quiet environment. |
      | Guangdong University of Foreign Studies | Baiyun District, Guangzhou | Popular for language tests; check for STN code like 8505 (legacy ID). |
+
    - During registration, the site lists all options with maps and directions. If no slots show, try nearby dates or centers in Shenzhen (1-hour train away).
 
 3. **Prepare Required Documents and What to Expect**:
@@ -48,6 +51,7 @@ The TOEFL (Test of English as a Foreign Language) is primarily offered as the TO
 Yes, offline options are widely available in Guangzhou—tests run frequently. For the latest dates and exact addresses, head straight to [toefl.neea.cn](https://toefl.neea.cn) and search for Guangzhou slots.
 
 #### References
+
 - [TOEFL China Official Registration Site](https://toefl.neea.cn) – For centers and booking.
 - [ETS TOEFL iBT Testing Options](https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html) – Global overview with China specifics.
 - [TOEFL Testing Centers in China](https://www.toefl.givemesomeenglish.com/toefl-testing-centers-in-china/) – List of venues including Guangzhou.

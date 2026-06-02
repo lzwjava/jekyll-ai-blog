@@ -15,6 +15,7 @@ Here’s a step-by-step guide to get you started:
 ---
 
 ### 1. **Understand the Basics**
+
 - **What it does**: The IoC Container creates, configures, and manages beans (your application objects) based on metadata you provide (via XML, Java annotations, or Java code).
 - **Key concepts**:
   - **Beans**: Objects managed by the container.
@@ -24,9 +25,12 @@ Here’s a step-by-step guide to get you started:
 ---
 
 ### 2. **Set Up Your Project**
+
 To use Spring IoC, you need a Spring project. If you’re starting fresh:
+
 - Use **Spring Boot** (simplest way) or plain Spring.
 - Add dependencies in your `pom.xml` (if using Maven):
+
   ```xml
   <dependency>
       <groupId>org.springframework</groupId>
@@ -34,7 +38,9 @@ To use Spring IoC, you need a Spring project. If you’re starting fresh:
       <version>6.1.3</version> <!-- Use the latest version -->
   </dependency>
   ```
+
 - For Spring Boot, use:
+
   ```xml
   <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -46,11 +52,14 @@ To use Spring IoC, you need a Spring project. If you’re starting fresh:
 ---
 
 ### 3. **Define Your Beans**
+
 You can define beans in three main ways:
 
 #### a) **Using Annotations (Most Common)**
+
 - Create a simple Java class and annotate it with `@Component` (or specialized annotations like `@Service`, `@Repository`, etc.).
 - Example:
+
   ```java
   import org.springframework.stereotype.Component;
 
@@ -63,8 +72,10 @@ You can define beans in three main ways:
   ```
 
 #### b) **Using Java Configuration**
+
 - Create a configuration class with `@Configuration` and define beans with `@Bean`.
 - Example:
+
   ```java
   import org.springframework.context.annotation.Bean;
   import org.springframework.context.annotation.Configuration;
@@ -79,7 +90,9 @@ You can define beans in three main ways:
   ```
 
 #### c) **Using XML (Legacy Approach)**
+
 - Define beans in an XML file (e.g., `beans.xml`):
+
   ```xml
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -92,10 +105,13 @@ You can define beans in three main ways:
 ---
 
 ### 4. **Initialize the IoC Container**
+
 You need to start the container to manage your beans.
 
 #### a) **With Spring Boot**
+
 - Spring Boot does this automatically. Just create a main class with `@SpringBootApplication`:
+
   ```java
   import org.springframework.boot.SpringApplication;
   import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -107,10 +123,13 @@ You need to start the container to manage your beans.
       }
   }
   ```
+
 - The container scans for `@Component` classes and manages them.
 
 #### b) **With Plain Spring (Annotation-Based)**
+
 - Use `AnnotationConfigApplicationContext`:
+
   ```java
   import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -126,7 +145,9 @@ You need to start the container to manage your beans.
   ```
 
 #### c) **With XML**
+
 - Use `ClassPathXmlApplicationContext`:
+
   ```java
   import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -144,9 +165,11 @@ You need to start the container to manage your beans.
 ---
 
 ### 5. **Inject Dependencies**
+
 The IoC Container can inject dependencies into your beans.
 
 #### a) **Constructor Injection (Recommended)**
+
 ```java
 @Component
 public class MyController {
@@ -163,6 +186,7 @@ public class MyController {
 ```
 
 #### b) **Setter Injection**
+
 ```java
 @Component
 public class MyController {
@@ -176,6 +200,7 @@ public class MyController {
 ```
 
 #### c) **Field Injection (Less Preferred)**
+
 ```java
 @Component
 public class MyController {
@@ -187,14 +212,17 @@ public class MyController {
     }
 }
 ```
+
 - Use `@Autowired` (Spring-specific) or `@Inject` (JSR-330 standard) to mark injection points.
 
 ---
 
 ### 6. **Run and Use the Beans**
+
 - Once the container is running, it wires your beans and their dependencies. You can retrieve beans with `context.getBean()` (plain Spring) or let Spring Boot handle it automatically via injection.
 
 Example with Spring Boot:
+
 ```java
 @SpringBootApplication
 public class MyApp {
@@ -209,6 +237,7 @@ public class MyApp {
 ---
 
 ### 7. **Additional Tips**
+
 - **Scopes**: By default, beans are singletons. Use `@Scope("prototype")` for new instances per request.
 - **Component Scanning**: Add `@ComponentScan` to your configuration class if beans are in different packages.
 - **Profiles**: Use `@Profile` to activate beans in specific environments (e.g., "dev", "prod").

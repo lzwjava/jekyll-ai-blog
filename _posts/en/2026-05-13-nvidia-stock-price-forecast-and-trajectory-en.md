@@ -26,6 +26,7 @@ NVDA is trading around **$220–$230**, having already rallied strongly. NVIDIA 
 37 analysts covering NVIDIA have a **consensus "Strong Buy" rating**, with an **average 12-month price target of $272**, forecasting ~24% upside. The lowest target is $195 and the highest is **$360**.
 
 Specific notable targets:
+
 - **Wells Fargo** raised its price target to **$315** (from $265), maintaining an Overweight rating, citing new GPU capacity-driven demand.
 - **Citi analyst Atif Malik** reiterates a Buy with a **$300 price target** amid strong AI accelerator growth and raised long-term EPS estimates.
 - **24/7 Wall St.** sets a 12-month target at **$241.91**, with an optimistic scenario reaching **$283.87** and a bear case floor at **$201.80**.
@@ -39,12 +40,14 @@ So yes — **$250 and $280 are firmly within the mainstream bull case**, and **$
 This is the key question. Here are the two dominant scenarios:
 
 **🟢 Bull Case — Continued Climb toward $280–$315:**
+
 - Microsoft, Amazon, Alphabet, and Meta collectively signaled AI infrastructure spending of approximately **$725 billion in 2026**, a ~77% increase from 2025 — all flowing largely through NVIDIA.
 - AWS has committed to purchasing **1 million GPUs through 2027**, giving NVIDIA long-term revenue visibility.
 - GuruFocus values NVDA's GF Value at **$322.64**, suggesting the stock is currently **31.6% undervalued** at ~$220.
 - Some long-term forecasting models project NVDA hitting **$250 by mid-2026**, **$300 by mid-2027**, and **$350+ in 2028**.
 
 **🔴 Bear / Consolidation Case — Chop at $230–$280 for 6–12 months:**
+
 - The earnings event on May 20 carries a "sell the news" risk: if results merely meet (not blow past) elevated whisper numbers, the high beta (2.24) could push it back toward $198–$200 support.
 - Key risks include China export restrictions (NVIDIA took a **$4.5B H20 charge** in Q1 FY2026, and current guidance assumes **zero China data center compute**), customer concentration, and rising competition from custom silicon (ASICs, FPGAs).
 - Some analysts note that if growth slows or margins compress, "technical exhaustion" after years of outsized gains could cause a valuation normalization period.

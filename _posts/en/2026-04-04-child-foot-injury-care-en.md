@@ -58,6 +58,7 @@ Largely, yes — for minor injuries, the body is remarkably capable. Minor sprai
 Pain and swelling typically peak on day 2 or 3, and most swelling is gone within 7 days. Pain may take up to 2 weeks to fully resolve.
 
 That said, "trusting the body" works best when:
+
 - A doctor has already ruled out serious injury
 - You monitor for signs of infection or worsening
 - You follow basic care (RICE: Rest, Ice, Compression, Elevation)

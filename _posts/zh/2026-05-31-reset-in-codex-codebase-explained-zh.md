@@ -18,10 +18,12 @@ type: note
 **1. `/clear` 斜杠命令（UI 重置 + 新聊天）**
 
 `/clear` 命令执行两件事：
+
 - 清除终端 UI（transcript 单元格、覆盖层、延迟历史行、回溯状态）
 - 开始一次全新的聊天会话
 
 来自 `event_dispatch.rs:32`：
+
 ```rust
 AppEvent::ClearUi => {
     self.clear_terminal_ui(tui, /*redraw_header*/ false)?;
@@ -34,6 +36,7 @@ AppEvent::ClearUi => {
 ```
 
 `reset_app_ui_state_after_clear()` 方法清除：
+
 - transcript 单元格
 - 覆盖层
 - 延迟历史行
@@ -44,6 +47,7 @@ AppEvent::ClearUi => {
 **2. `/new` 斜杠命令（新聊天，不清除 UI）**
 
 更简单——仅启动一个新会话，不清除终端：
+
 ```rust
 AppEvent::NewSession => {
     self.start_fresh_session_with_summary_hint(
@@ -56,6 +60,7 @@ AppEvent::NewSession => {
 **3. WebSocket 会话重置（传输层）**
 
 在 `core/src/client.rs:958` 中，`reset_websocket_session()` 丢弃当前的 WebSocket 连接状态：
+
 ```rust
 fn reset_websocket_session(&mut self) {
     self.websocket_session.connection = None;
@@ -64,6 +69,7 @@ fn reset_websocket_session(&mut self) {
     ...
 }
 ```
+
 这是一个传输层面的关注点——当需要重新建立 WebSocket 时，它会清除过时的连接状态。
 
 **4. 记忆重置（`memory/reset` API）**

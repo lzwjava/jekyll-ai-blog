@@ -123,14 +123,14 @@ This combination gives you:
 
 Don’t just “post”—build a **content system**:
 
-#### Your niche (very strong already):
+#### Your niche (very strong already)
 
 * LLM training
 * engineering insights
 * practical AI workflows
 * bilingual (this is a huge advantage)
 
-#### Content loop:
+#### Content loop
 
 1. Learn / build something
 2. Turn it into:

@@ -24,11 +24,13 @@ This question tests knowledge of the goal of China's economic system reform form
 ## Why the answer is D (Socialist market economy system)
 
 At the **14th National Congress in 1992**:
+
 - Jiang Zemin, based on Deng Xiaoping's Southern Tour speeches, explicitly proposed using the term "socialist market economy system"
 - The Congress **formally established** building a socialist market economy system as the goal of China's economic reform
 - This was a breakthrough that resolved the long-standing debate about whether a market economy was compatible with socialism
 
 **Key significance:**
+
 - Recognized that the market economy is not inherently capitalist
 - Affirmed that market mechanisms can be combined with socialist public ownership
 - Marked a historic turning point in China's economic reform

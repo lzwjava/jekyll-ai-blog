@@ -53,14 +53,17 @@ with anthropic.messages.stream(
 When non-streaming is required (e.g., batch jobs, structured JSON output, pipelines), here are proven UX patterns:
 
 ### 1. Immediate Acknowledgment
+
 At minimum, show the user their message immediately, disable duplicate submits, and show an in-progress state. This is basic web UX, but it's where many LLM apps fall short.
 
 ### 2. Progress Bars / Status Indicators
+
 Add progress bars or task completion indicators, giving users real-time feedback on their request's status, making the wait feel shorter.
 
 The psychological effect is significant: in one study, an optimized progress bar design made processes feel 11% faster than a plain version. In another, users with a moving progress bar were willing to wait about 3× longer than those with no indicator.
 
 ### 3. Async + Polling Pattern
+
 For very long calls (1–5 min), the best architecture is:
 
 ```
@@ -72,15 +75,18 @@ User submits request
 ```
 
 This lets you show real pipeline stage updates like:
+
 - ✅ Request received
 - ⏳ Processing context (128k tokens)
 - ⏳ Generating response…
 - ✅ Done!
 
 ### 4. Escape Hatches
+
 If generation takes time, users tend to want escape hatches: the ability to stop generating, regenerate, continue, or ask a follow-up while the model is still finishing.
 
 ### 5. Progressive Disclosure for Long Outputs
+
 Long answers feel slower because they're visually heavy. A short summary up front, expandable sections, "show sources" toggles, or "open in editor" for big outputs can all help reduce the perceived heaviness.
 
 ---

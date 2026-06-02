@@ -15,6 +15,7 @@ Question: Continue translating and neatly formatting the remaining part of the G
 Answer:
 
 # Guangdong Province Higher Education Self-Examination
+
 **Course: Web Design and Production (Practical)**
 **Course Code: 13168**
 **(Full English Translation & Formatted Version)**
@@ -29,13 +30,15 @@ Answer:
 According to the provided reference image/screenshot, design and complete the webpage with the following operations:
 
 **Specific Requirements**
+
 1. In the folder “D:\考生文件夹”, create a new file named “CandidateName_html题.html” (replace CandidateName with your actual name).
 2. Insert the specified image “logo.jpg” and set its width to 600 pixels and center it horizontally.
 3. Use a level-2 heading (`<h2>`) for the title and center it.
-4. Make the text “百度” (Baidu) a hyperlink pointing to https://www.baidu.com and open in a new window.
+4. Make the text “百度” (Baidu) a hyperlink pointing to <https://www.baidu.com> and open in a new window.
 5. Add the required paragraph text, lists, and other elements exactly as shown in the reference image.
 
 **Scoring Points**
+
 - Correct HTML5 document type declaration and basic structure
 - Proper use and nesting of all required tags
 - Image displays correctly with complete attributes (`alt`, `width`, centering)
@@ -48,6 +51,7 @@ According to the provided reference image/screenshot, design and complete the we
 According to the provided effect image, design the webpage and complete the following operations:
 
 **Specific Requirements**
+
 1. In the folder “D:\考生文件夹”, create a new file named “CandidateName_CSS题.html”.
 2. Create the HTML structure for a “Course Grade Table” using `<table>`.
 3. Use **internal CSS** (inside `<style>` tags in the same file) to achieve the following styling:
@@ -59,6 +63,7 @@ According to the provided effect image, design the webpage and complete the foll
    - All text centered vertically and horizontally where appropriate
 
 **Scoring Points**
+
 - Correct HTML table structure (`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`)
 - Accurate use of CSS selectors (tag, class, :nth-child(odd/even), etc.)
 - Proper border settings (including `border-collapse: collapse`)
@@ -71,6 +76,7 @@ According to the provided effect image, design the webpage and complete the foll
 According to the provided layout image, use DIV + CSS to design a complete webpage with the following structure:
 
 **Specific Requirements**
+
 1. In the folder “D:\考生文件夹”, create a new file named “CandidateName_综合题.html”.
 2. Use HTML5 semantic tags and DIVs to divide the page into the following sections:
    - Top title area (header)
@@ -86,6 +92,7 @@ According to the provided layout image, use DIV + CSS to design a complete webpa
 4. Overall page width centered (e.g., 1200px max-width, `margin: 0 auto`)
 
 **Scoring Points**
+
 - Clear separation of structure (HTML) and presentation (CSS)
 - Correct use of DIV IDs/classes (e.g., #container, #header, #nav, #sidebar, #main, #footer)
 - Proper use of `float`, `width`, `margin`, `padding`, `box-sizing: border-box` as needed

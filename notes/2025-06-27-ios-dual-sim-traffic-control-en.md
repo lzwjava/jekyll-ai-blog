@@ -158,6 +158,7 @@ func setupVPN() {
 ### Conclusion
 
 While iOS does not offer a native API to dynamically route traffic to specific SIMs based on app or destination, you can achieve traffic separation by:
+
 1. Using the Macao SIM for unrestricted access to bypass GFW without a VPN.
 2. Using the China Telecom SIM for local services, paired with a VPN (configured via `NEVPNManager` or a third-party app) to access blocked services.
 3. Manually switching the active data SIM in Settings for different tasks.

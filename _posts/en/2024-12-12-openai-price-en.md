@@ -19,7 +19,8 @@ ChatGPT Plus should transition to a flexible pricing model based on token usage 
 2. To overcome the limitations of iOS fixed-price subscriptions, OpenAI could implement a wallet system.
 3. Users would deposit funds (e.g., $20), with token usage deducted either in real-time or daily. A minimum balance (e.g., $10) would be required to maintain uninterrupted service.
 
-### Benefits:
+### Benefits
+
 - Flexibility: Low-usage users aren’t overcharged, while high-usage users pay proportionally.
 - Fairness: Users pay only for what they consume.
 - Adaptability: Integrates seamlessly with existing subscription models.

@@ -36,6 +36,7 @@ This matches the standard E1 rate.
 **Additional context (why E1 is 2.048 Mbps):**
 
 E1 uses synchronous time-division multiplexing and contains:
+
 - 30 voice channels × 64 kbps = 1,920 kbps
 - 2 signaling/control channels × 64 kbps = 128 kbps (usually implemented as 16 time slots of 8 bits each, but effectively 2 × 64 kbps)
 - Plus 1 framing bit per frame

@@ -19,6 +19,7 @@ Memorystore is **Google Cloud's fully managed in-memory data store service**. It
 As of 2025–2026, Memorystore supports two main engines:
 
 ### 1. Memorystore for Redis (including Redis Cluster)
+
 - The original and most widely used option
 - Fully compatible with open-source Redis
 - Two deployment modes:
@@ -29,6 +30,7 @@ As of 2025–2026, Memorystore supports two main engines:
 - Automatic failover, monitoring, and scaling
 
 ### 2. Memorystore for Valkey
+
 - Newer option introduced after the Redis license change (2024–2025)
 - Fully managed **Valkey** (open-source fork of Redis 7.2.4 maintained by Linux Foundation)
 - 100% protocol-compatible with Redis OSS ≤ 7.2
@@ -38,12 +40,14 @@ As of 2025–2026, Memorystore supports two main engines:
 - Many users are migrating to Valkey-based Memorystore for long-term open-source compatibility
 
 ### 3. Memorystore for Memcached (still available but less emphasized)
+
 - Fully managed Memcached
 - Simpler key-value caching (no persistence, lists, sets, etc.)
 - Multi-threaded, very high throughput for pure caching
 - Being used less frequently now that Redis/Valkey cover most use cases
 
 ### Key Benefits of Memorystore (common to all variants)
+
 - **Fully managed** — no OS patching, no Redis/Valkey config tuning required
 - Sub-millisecond latency (in-memory)
 - Automatic replication & failover

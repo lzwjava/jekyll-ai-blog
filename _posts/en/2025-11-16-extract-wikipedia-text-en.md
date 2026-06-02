@@ -15,6 +15,7 @@ Here are the most common and effective ways to extract plain text from Wikipedia
 ### Recommended Tools & Methods (from easiest to most efficient)
 
 #### 1. Use wikiextractor (best for most people – fast and clean)
+
 This is the standard tool used by almost everyone in NLP/ML for Wikipedia dumps.
 
 ```bash
@@ -27,6 +28,7 @@ wikiextractor enwiki-latest-pages-articles1.xml-p1p41242.bz2 --output wiki_text
 
 - Output: creates a folder `wiki_text/` with subfolders AA, AB, … containing `.bz2` files of clean JSON/text.
 - To get plain text (one article per line):
+
 ```bash
 wikiextractor enwiki-latest-pages-articles1.xml-p1p41242.bz2 --processes 8 -o wiki_text --json
 # Then convert JSON to plain text if needed
@@ -62,6 +64,7 @@ bzip2 -dc enwiki-latest-pages-articles1.xml-p1p41242.bz2 | \
 ```
 
 #### 4. If you have the full dump and want everything fast (parallel)
+
 Your file is only the first chunk (p1p41242), but if you have all ~30+ chunks later:
 
 ```bash
@@ -69,7 +72,7 @@ Your file is only the first chunk (p1p41242), but if you have all ~30+ chunks la
 ls *.bz2 | xargs -P 8 -I {} wikiextractor {} --output wiki_extracted
 ```
 
-### Summary – What I recommend for you right now:
+### Summary – What I recommend for you right now
 
 ```bash
 pip install wikiextractor
@@ -79,6 +82,7 @@ wikiextractor enwiki-latest-pages-articles1.xml-p1p41242.bz2 -o extracted_wiki -
 This will give you clean, readable articles in a few minutes (your file is only ~2-3 GB compressed, so very manageable).
 
 Let me know if you want:
+
 - Only main namespace (real articles, not talk pages)
 - Plain text instead of JSON
 - Tokenized output

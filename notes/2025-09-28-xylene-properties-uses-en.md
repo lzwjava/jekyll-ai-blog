@@ -19,6 +19,7 @@ Xylene is an organic chemical compound with the formula C₈H₁₀. It's an aro
 - **para-xylene (p-xylene)**
 
 **Common uses of xylene include:**
+
 - Solvent in paints, varnishes, and adhesives
 - Cleaning agent and degreaser
 - Raw material in plastic production (especially PET bottles from para-xylene)
@@ -27,6 +28,7 @@ Xylene is an organic chemical compound with the formula C₈H₁₀. It's an aro
 - Paint thinner
 
 **Properties:**
+
 - Clear, colorless liquid
 - Sweet aromatic odor
 - Flammable

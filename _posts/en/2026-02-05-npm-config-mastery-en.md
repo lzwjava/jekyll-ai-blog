@@ -19,6 +19,7 @@ npm config list
 ```
 
 This command displays your current npm configuration settings. It shows:
+
 - User-specific settings (from `~/.npmrc`)
 - Global settings
 - Built-in npm defaults
@@ -26,16 +27,19 @@ This command displays your current npm configuration settings. It shows:
 ## Common Variations
 
 **List only user and global settings (without defaults):**
+
 ```bash
 npm config list --json
 ```
 
 **List in JSON format for easier parsing:**
+
 ```bash
 npm config list -l
 ```
 
 **Show all config options including defaults:**
+
 ```bash
 npm config list -l
 ```
@@ -43,6 +47,7 @@ npm config list -l
 ## What You'll See
 
 The output typically includes settings like:
+
 - Registry URL (`registry`)
 - Package installation prefix (`prefix`)
 - Cache location (`cache`)
@@ -53,21 +58,25 @@ The output typically includes settings like:
 ## Related Useful Commands
 
 **Get a specific config value:**
+
 ```bash
 npm config get registry
 ```
 
 **Set a config value:**
+
 ```bash
 npm config set registry https://registry.npmjs.org/
 ```
 
 **Delete a config value:**
+
 ```bash
 npm config delete proxy
 ```
 
 **Edit config in your default editor:**
+
 ```bash
 npm config edit
 ```

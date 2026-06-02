@@ -11,12 +11,12 @@ type: note
 
 To optimize the cost-effectiveness and advanced capabilities of the model configuration, you should consider balancing model performance with pricing. Here's a potential configuration based on your requirements:
 
-### Key Considerations:
+### Key Considerations
 
 * **Cost-Effectiveness:** Selecting models that are affordable for everyday usage but can handle complex tasks efficiently.
 * **Advanced Features:** Ensuring that the models you choose can handle tasks such as long context processing, complex reasoning, or web search integration.
 
-### Proposed Configuration:
+### Proposed Configuration
 
 ```json
 {
@@ -31,7 +31,7 @@ To optimize the cost-effectiveness and advanced capabilities of the model config
 }
 ```
 
-### Explanation:
+### Explanation
 
 * **"default"** and **"background"**: Using **Gemini 2.5 Flash** is a great choice for regular and background tasks, as it offers a balance between cost and performance, while still maintaining decent speed.
 * **"think"**: **Claude Sonnet 4** is selected here because it provides enhanced performance for reasoning tasks at a reasonable price. It's more advanced than the base models.

@@ -16,7 +16,7 @@ Answer:
 
 The "wisdom of growing rice" primarily refers to profound life lessons and cultural values derived from rice cultivation, especially in Asian societies where rice farming has shaped philosophies, proverbs, and social norms for centuries.
 
-### Key Lessons from Growing Rice:
+### Key Lessons from Growing Rice
 
 - **Humility**: The most famous metaphor is that a mature rice stalk, heavy with grains, bows its head low, while an empty one stands upright. This teaches that true wisdom, achievement, or fullness leads to greater humility. Empty or immature stalks (people) are arrogant, but those "full" of knowledge or success bend in modesty.
   - Japanese haiku/proverb: "Minoru hodo kōbe o tareru inaho kana" (The riper the rice, the lower it bows).

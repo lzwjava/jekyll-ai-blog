@@ -11,6 +11,7 @@ type: note
 ---
 
 ### What is Coax?
+
 Coax refers to **coaxial cable** (often shortened to "coax"). It's a type of electrical cable designed for transmitting high-frequency signals, like radio waves, TV signals, or internet data.
 
 - **Structure**: It has a central copper wire (conductor) surrounded by a layer of insulation, then a braided metal shield, and an outer protective jacket. This setup minimizes signal loss and interference.
@@ -20,6 +21,7 @@ Coax refers to **coaxial cable** (often shortened to "coax"). It's a type of ele
 It's been around since the 1880s and is still widely used for its durability and cost-effectiveness.
 
 ### What is Fiber?
+
 Fiber refers to **fiber optic cable** (or "optical fiber"). It's a high-speed data transmission medium that uses light instead of electricity.
 
 - **Structure**: Thin strands (as fine as a human hair) of pure glass or plastic, coated with a cladding layer that has a slightly different refractive index to trap light inside via total internal reflection.
@@ -38,6 +40,7 @@ Invented in the 1970s, it's revolutionized global connectivity with minimal sign
 In short: Coax is great for shorter runs with electrical signals; fiber excels at long-haul, high-bandwidth light-based transmission.
 
 ### Does Nature Have This Kind of Material?
+
 Yes, but not in the engineered, mass-produced way we use today—nature has analogs that mimic these properties through evolution, often for sensing or communication in organisms. These aren't direct "cables" but show similar physics (e.g., waveguiding light or signals).
 
 - **For Fiber-Like Materials (Optical Waveguides)**:
@@ -56,6 +59,7 @@ These natural versions are inspirational for tech (e.g., biomimicry in designing
 If this ties back to a specific context (like signal delays in tech), let me know for more details!
 
 **References**:
+
 - [Coaxial Cable Basics](https://en.wikipedia.org/wiki/Coaxial_cable)
 - [Fiber Optic Cable Explained](https://en.wikipedia.org/wiki/Optical_fiber)
 - [Natural Optical Waveguides in Biology](https://www.nature.com/articles/s41598-019-52307-1)

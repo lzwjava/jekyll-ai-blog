@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-Question: 什么是 SHL Direct (https://www.shl.com/shldirect/en/)，它提供哪些内容？
+Question: 什么是 SHL Direct (<https://www.shl.com/shldirect/en/)，它提供哪些内容？>
 
 Answer:
 
@@ -22,21 +22,27 @@ Answer:
 ## SHL Direct 提供哪些内容？
 
 ### 1. Practice Tests
+
 SHL Direct 允许候选人参加完整长度的练习测试，以便为即将到来的测评做好准备。测试提供多种语言版本。
 
 ### 2. Example Questions
+
 该网站提供示例问题，并附有答案解析，以便候选人了解他们可能面临的测试类型。
 
 ### 3. Assessment Advice
+
 该平台提供有关测评技巧和测评流程的专家建议，涵盖了雇主使用的各种典型测评方法。
 
 ### 4. Neurodiversity Hub
+
 SHL Direct 为候选人设立了专门的神经多样性（Neurodiversity）信息中心，提供全面的信息和资源，旨在为神经多样化人才创造更具包容性的测评体验。
 
 ### 5. Accessibility Support
+
 该平台还为在申请使用 SHL 测评的职位时需要合理便利（accommodations）的候选人提供无障碍支持（accessibility support）。
 
 ### 6. Candidate Support
+
 候选人可以针对测试过程中的技术问题访问常见问题解答，并可以直接联系支持团队寻求进一步帮助。
 
 ---

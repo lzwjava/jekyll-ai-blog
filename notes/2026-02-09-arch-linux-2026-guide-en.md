@@ -17,6 +17,7 @@ Answer:
 **Arch Linux** is one of the most respected and influential **Linux distributions** in 2026. It follows a philosophy of **simplicity**, **minimalism**, **user-centric design**, and providing the most up-to-date software through a **rolling release** model.
 
 ### Core Philosophy and Principles
+
 Arch Linux is guided by these key ideas (often summarized in the Arch Way):
 
 - **Simplicity** — Avoid unnecessary additions; keep the base system very small
@@ -49,9 +50,11 @@ Two realistic paths exist:
    - Takes 30–120 minutes depending on experience
 
 2. **Guided installer** (much more popular for first-timers since ~2022)
+
    ```bash
    archinstall
    ```
+
    - Menu-driven (console-based but user-friendly)
    - Supports disk encryption, Btrfs with subvolumes, desktop profiles (GNOME, KDE, Hyprland, COSMIC, etc.), NVIDIA, UKI, zram, etc.
    - Can finish a fully usable desktop in 15–40 minutes

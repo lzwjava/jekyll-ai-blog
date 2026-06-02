@@ -14,7 +14,8 @@ type: note
 
 **MTU** stands for **Maximum Transmission Unit**. It refers to the largest size (in bytes) of a single data packet that can be transmitted over a network interface or protocol without needing to be fragmented into smaller pieces.
 
-#### Key Details:
+#### Key Details
+
 - **Typical Values**:
   - Ethernet networks often use an MTU of 1500 bytes (the standard for most IP-based networks).
   - Jumbo frames can go up to 9000 bytes or more on supported hardware.

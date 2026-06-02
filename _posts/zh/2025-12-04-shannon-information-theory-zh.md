@@ -45,6 +45,7 @@ type: note
    信源编码（压缩）和信道编码（纠错）可以单独和优化地设计——这一结果促成了现代数字通信的整个架构。
 
 ### 影响
+
 - 实现了可靠的数字通信（手机、互联网、卫星、CD/DVD、硬盘）
 - 现代纠错码（Turbo 码、LDPC）接近香农极限
 - 数据压缩（ZIP、JPEG、MP3、视频编解码器）
@@ -53,6 +54,7 @@ type: note
 - 几乎所有数字设备的存在都归功于香农的定理
 
 ### 趣闻与性格
+
 - 建造了 Theseus，最早的人工学习“老鼠”之一（1950年）
 - 建造了无用的机器（著名的“终极机器”，能自动关闭自身）
 - 杂耍数学家（写了第一个杂耍的数学理论）
@@ -60,6 +62,7 @@ type: note
 - 利用早期信息理论思想成功投资股市
 
 ### 必读清单
+
 1. “通信的数学理论”（1948年）——原始论文（出奇的可读）
 2. “The Bandwagon”（1956年）——香农对信息理论炒作的警告
 3. “Claude Elwood Shannon: Collected Papers”（IEEE出版社，1993年）
@@ -68,6 +71,7 @@ type: note
 香农的工作是科学中罕见的情况之一，一个人 L 实际上创建了一个完整领域，而该领域如今支撑着现代数字世界。
 
 参考文献：
+
 - [A Mathematical Theory of Communication (1948)](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
 - [A Symbolic Analysis of Relay and Switching Circuits (1937)](https://dspace.mit.edu/handle/1721.1/11173)
 - [A Mind at Play – Biography](https://www.simonandschuster.com/books/A-Mind-at-Play/Jimmy-Soni/9781476766683)

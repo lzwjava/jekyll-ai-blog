@@ -17,6 +17,7 @@ type: note
 - **请求体**：适用于 POST/PUT 等方法（注意：请求体是流，因此我们包装请求以便读取，同时不影响下游处理）。
 
 日志输出将采用结构化 JSON 格式。我们将使用：
+
 - **SLF4J** 进行日志记录（Spring 中常用）。
 - **Jackson** 将数据序列化为 JSON（Spring Boot 默认包含）。
 - 自定义 `HttpServletRequestWrapper` 以安全读取请求体。
@@ -24,7 +25,9 @@ type: note
 该过滤器可全局注册以拦截所有请求。
 
 ### 步骤 1：依赖项
+
 如果使用 Spring Boot，请确保在 `pom.xml`（Maven）或 `build.gradle`（Gradle）中包含以下内容：
+
 ```xml
 <dependencies>
     <dependency>
@@ -40,6 +43,7 @@ type: note
 ```
 
 ### 步骤 2：自定义请求包装器
+
 该包装器允许多次读取请求体（通过将其缓存为字符串）。
 
 ```java
@@ -143,6 +147,7 @@ public class ContentCachingRequestWrapper extends HttpServletRequestWrapper {
 ```
 
 ### 步骤 3：自定义过滤器
+
 该过滤器使用 SLF4J 将结构化数据记录为 JSON，适用于所有请求。
 
 ```java
@@ -201,6 +206,7 @@ public class LoggingFilter extends OncePerRequestFilter {
 ```
 
 ### 步骤 4：注册过滤器（在 Spring Boot 中自动注册）
+
 在 Spring Boot 中，过滤器上的 `@Component` 注解会自动注册它。如果使用纯 Spring MVC（非 Boot），可以手动注册：
 
 ```java
@@ -216,6 +222,7 @@ public FilterRegistrationBean<LoggingFilter> loggingFilter() {
 ```
 
 ### 日志输出示例
+
 当收到类似 `POST /api/users` 的请求，请求体为 `{"name": "John"}`，查询参数为 `?id=123` 时，日志将如下所示（假设日志记录器配置为 JSON 输出，例如通过 Logback 的 JSON 附加器）：
 
 ```json
@@ -230,6 +237,7 @@ public FilterRegistrationBean<LoggingFilter> loggingFilter() {
 ```
 
 - **日志记录器配置**：要获取完整的 JSON 日志，请在 Logback（在 `logback-spring.xml` 或 `application.properties` 中）配置 JSON 编码器，例如 `net.logstash.logback.encoder.LogstashEncoder`。例如，在 `application.yml` 中：
+
   ```yaml
   logging:
     pattern:
@@ -237,6 +245,7 @@ public FilterRegistrationBean<LoggingFilter> loggingFilter() {
   ```
 
 ### 注意事项
+
 - **请求体读取限制**：我们仅读取非 GET 方法的请求体。对于 GET 方法，请求体为空。这避免了处理大请求体或多次读取的问题。
 - **安全性**：注意记录敏感数据（如请求体/查询中的密码）。可能需要屏蔽某些字段。
 - **性能**：缓存请求体会占用内存；对于非常大的请求体，请考虑限制（例如仅读取前 N 字节）。

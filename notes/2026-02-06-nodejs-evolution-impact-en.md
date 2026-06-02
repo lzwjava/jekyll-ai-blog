@@ -17,6 +17,7 @@ Node.js revolutionized JavaScript by bringing it to the server side, fundamental
 Node.js was created by **Ryan Dahl** and first presented at the inaugural European JSConf in November 2009. Dahl was frustrated with the limitations of Apache HTTP Server in handling concurrent connections and saw an opportunity in Google's newly released V8 JavaScript engine (2008). His key insight was using JavaScript's event-driven, non-blocking I/O model to handle thousands of concurrent connections efficiently.
 
 The initial design principles were:
+
 - Non-blocking, event-driven I/O to maximize throughput
 - JavaScript on the server (leveraging V8's performance)
 - A minimal core with functionality provided by userland modules
@@ -44,6 +45,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 **Key characteristics:** Experimental phase, rapid iteration, breaking changes common
 
 **Notable features:**
+
 - Initial implementation of V8, event loop, and core APIs
 - Introduction of npm
 - CommonJS module system
@@ -57,6 +59,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 **The reunion release** - First version after io.js merger
 
 **Major changes:**
+
 - Combined io.js improvements with Node.js stability
 - ES6 features: arrow functions, classes, template literals, `let`/`const`, Promises
 - V8 4.5 engine with significant performance improvements
@@ -69,6 +72,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v6.x LTS (April 2016)
 
 **Major changes:**
+
 - V8 5.0 with 93% ES6 feature coverage
 - Default use of ES6 features without flags
 - Improved debugging with V8 Inspector
@@ -82,6 +86,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v8.x LTS (May 2017)
 
 **Major changes:**
+
 - V8 5.8 and later 6.1 with TurboFan + Ignition compiler pipeline (major performance boost)
 - Native async/await support (no transpilation needed)
 - `util.promisify()` for converting callback-based APIs to Promises
@@ -95,6 +100,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v10.x LTS (April 2018)
 
 **Major changes:**
+
 - V8 6.6 with ES modules experimental support
 - Native HTTP/2 (stable)
 - `fs` promises API (experimental)
@@ -109,6 +115,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v12.x LTS (April 2019)
 
 **Major changes:**
+
 - V8 7.4 with async stack traces, faster async/await, better memory usage
 - ES modules support (unflagged but experimental)
 - Private class fields
@@ -124,6 +131,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v14.x LTS (April 2020)
 
 **Major changes:**
+
 - V8 8.1 with performance improvements and WebAssembly enhancements
 - Optional chaining (`?.`) and nullish coalescing (`??`) operators
 - Diagnostic report stable
@@ -139,6 +147,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v16.x LTS (April 2021)
 
 **Major changes:**
+
 - V8 9.0 with super-property access speedup
 - Timers Promises API stable
 - Experimental Web Crypto API
@@ -154,6 +163,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v18.x LTS (April 2022)
 
 **Major changes:**
+
 - V8 10.1 with `findLast`/`findLastIndex` array methods
 - **Native Fetch API** (no need for `node-fetch` or `axios` for basic HTTP)
 - Native Test Runner (experimental `node:test` module)
@@ -169,6 +179,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v20.x LTS (April 2023)
 
 **Major changes:**
+
 - V8 11.3 with new features and performance improvements
 - **Stable Test Runner** with coverage reports, mocking, and watch mode
 - Permission Model (experimental) for restricting file system and other operations
@@ -184,6 +195,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v21.x (October 2023) - Not LTS
 
 **Major changes:**
+
 - V8 11.8 with Array grouping methods
 - Stable fetch and WebStreams
 - navigator and WebCrypto globals
@@ -194,6 +206,7 @@ Since the merger, Node.js has followed a predictable release schedule with Long-
 ## Node.js v22.x (April 2024) - Current
 
 **Major changes:**
+
 - V8 12.4 with WebAssembly garbage collection
 - **Stable Watch Mode** for development
 - require() for ESM synchronous graphs (experimental)

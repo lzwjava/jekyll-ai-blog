@@ -19,15 +19,18 @@ type: note
 以下是它的具体功能和工作原理的详细说明：
 
 ### `npm audit` 首先做什么
+
 ```bash
 npm audit
 ```
+
 - 扫描你的 dependency tree（`package-lock.json` 或 `npm-shrinkwrap.json` 中的所有内容）
 - 对比 npm 安全数据库
 - 报告已知漏洞及其严重程度 (low / moderate / high / critical)
 - 显示哪些 package 存在漏洞并建议修复版本
 
 ### `npm audit fix` 实际做了什么
+
 ```bash
 npm audit fix
 ```
@@ -55,6 +58,7 @@ npm audit fix
 ```bash
 npm audit fix --force
 ```
+
 - 必要时也会安装 **breaking** (major) 版本更新
 - 风险很高 —— 可能会破坏你的应用程序
 - 仅在准备好测试和修复 breaking changes 时使用
@@ -62,11 +66,13 @@ npm audit fix --force
 ```bash
 npm audit fix --dry-run
 ```
+
 - 显示 *将会* 更改的内容，而不实际修改文件
 
 ```bash
 npm audit fix --package-lock-only
 ```
+
 - 仅更新 `package-lock.json`，不触动 `node_modules`
 - 适用于 CI / 仅 lockfile 的工作流
 
@@ -94,6 +100,7 @@ npm audit fix --package-lock-only
    → 为版本更新 **和** 安全修复自动创建 PR
 
 `npm audit fix` 很方便，但它不是万能的 —— 它无法修复需要以下操作的漏洞：
+
 - 修改应用代码
 - major 版本升级
 - 完全移除该 dependency

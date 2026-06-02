@@ -10,15 +10,16 @@ translated: true
 type: note
 ---
 
-问题：https://testing.googleblog.com 上的博客是什么？
+问题：<https://testing.googleblog.com> 上的博客是什么？
 
 回答：
 
-https://testing.googleblog.com 上的博客是 **Google Testing Blog**，一个由 Google 工程师运营的官方博客，专注于软件测试、代码质量和软件开发中的最佳实践。
+<https://testing.googleblog.com> 上的博客是 **Google Testing Blog**，一个由 Google 工程师运营的官方博客，专注于软件测试、代码质量和软件开发中的最佳实践。
 
 它分享实用的见解、技术、工具和建议，以改进测试策略、代码可维护性、可靠性和整体代码健康状况。许多博文改编自 Google 内部的“Testing on the Toilet” (TotT) 系列——最初发布在办公室洗手间的简短教育剧集，旨在推广工程最佳实践——后来更名为“Tech on the Toilet” (TotT)。
 
 主要议题包括：
+
 - 测试策略（例如，单元测试、端到端测试、测试不稳定性）
 - 代码组织和可读性
 - 工具和模式（例如，功能核心/命令式外壳、配置行排序）

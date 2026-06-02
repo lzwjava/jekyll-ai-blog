@@ -17,9 +17,11 @@ type: note
 
 1. **从未安装到 /Applications/**
    扩展仅从Xcode的DerivedData中加载：
+
    ```
    ~/Library/Developer/Xcode/DerivedData/TabsKiller-xxx/...
    ```
+
    每次Xcode清理、重建或自动清除旧的DerivedData时，路径被破坏，Safari就会卸载该扩展。
 
 2. **缺少扩展源文件**
@@ -55,11 +57,13 @@ type: note
 4. 通过 `xcodebuild -scheme TabsKiller -configuration Debug` 构建。
 
 5. 将构建好的应用复制到 `/Applications/`：
+
    ```bash
    cp -R ~/Library/Developer/Xcode/DerivedData/TabsKiller-*/Build/Products/Debug/TabsKiller.app /Applications/
    ```
 
 6. 从pluginkit中清理了过期的DerivedData注册信息：
+
    ```bash
    rm -rf ~/Library/Developer/Xcode/DerivedData/TabsKiller-*
    pluginkit -r -i com.lzw.TabsKiller.Extension

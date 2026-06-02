@@ -124,6 +124,7 @@ type: note
 这是一个 **AMD DevCloud ATL1 实例**——一个云分配的 MI300X 开发节点。它刚刚启动，完全空闲，配备 192 GB 的大规模 GPU，适合处理大型模型。
 
 **即时建议：**
+
 1. **挂载 5TB 磁盘** — 执行 `mount /dev/vdc1 /data` 或类似操作，然后添加到 fstab
 2. **为 ROCm 安装 PyTorch** — `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2`
 3. **唤醒 GPU** — 低功耗状态是正常的；加载工作负载后会自唤醒

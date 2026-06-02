@@ -72,6 +72,7 @@ On paper, the RTX 2000 Ada represents a major step up from the RTX A2000, delive
 The RTX 2000 Ada actually has around 15% fewer CUDA cores than the RTX A2000 12GB, yet the improved performance comes from the new Ada Lovelace architecture rather than raw core count. It delivers up to 1.6× higher performance in professional workloads, with the most significant gains in generative AI tasks.
 
 In specific professional applications:
+
 - Viewport performance in 3ds Max and Maya averages 1.3× faster than the prior-gen card, DaVinci Resolve video editing is also 1.3× faster, and GPU rendering in KeyShot and V-Ray shows a 1.5× speed boost.
 - Compared to the much older Quadro P2200, the RTX 2000 Ada achieves 2× higher performance in SOLIDWORKS SPECviewperf 2020 and up to 4× in SOLIDWORKS Visualize benchmarks.
 
@@ -101,6 +102,7 @@ This card is specifically designed for professional workstation use, not consume
 ### How Good Is It? — Honest Assessment
 
 **Strengths:**
+
 - 16 GB ECC VRAM in a half-height form factor is genuinely unique and very useful
 - The Ada Lovelace architecture brings massive AI/Tensor core improvements (3× over Ampere)
 - Low 70W power draw with no external connector — perfect for SFF systems
@@ -108,6 +110,7 @@ This card is specifically designed for professional workstation use, not consume
 - Strong software ecosystem (ISV-certified for professional apps, Quadro drivers)
 
 **Limitations:**
+
 - Despite its impressive professional capabilities, its 70W TDP and 2,816 shader count means it is not a raw gaming powerhouse; it is best thought of as an energy-efficient professional GPU.
 - Priced at $625 MSRP — about 22% more expensive than the RTX A2000 at its launch price — though given current A2000 market prices it remains reasonably competitive.
 - It sits well below the RTX 4000 Ada SFF in raw compute throughput, which delivers 19.2 TFLOPS FP32 for around twice the cost.

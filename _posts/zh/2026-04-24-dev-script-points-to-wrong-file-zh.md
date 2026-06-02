@@ -14,6 +14,7 @@ type: note
 ### `npm run dev` 失败原因
 
 `package.json` 中的 dev 脚本原配置为：
+
 ```json
 "dev": "nodemon --exec ts-node src/index.ts"
 ```
@@ -32,6 +33,7 @@ if (require.main === module) {
 ```
 
 通过以下命令直接运行该文件：
+
 ```bash
 npx ts-node src/server.ts
 ```
@@ -41,6 +43,7 @@ npx ts-node src/server.ts
 ### 根本原因
 
 `package.json` 中的 `dev` 脚本指向了错误的文件（应为 `server.ts` 而非 `index.ts`）。正确的配置应为：
+
 ```json
 "dev": "nodemon --exec ts-node src/server.ts"
 ```

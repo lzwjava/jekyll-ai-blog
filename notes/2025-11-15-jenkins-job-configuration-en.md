@@ -15,6 +15,7 @@ type: note
 Jenkins supports different types of jobs (also called projects), with the most common being **Freestyle projects** (for simple builds) and **Pipeline projects** (for more complex, scripted workflows using Jenkinsfile). I'll outline the steps for both below. These assume you have Jenkins installed and running (e.g., via Docker or on a server). Access the Jenkins dashboard at `http://localhost:8080` (or your server's URL) and log in.
 
 #### Steps for Creating and Configuring a Freestyle Project
+
 Freestyle projects are straightforward and use a GUI to configure steps. They're great for beginners or simple tasks like building and testing code.
 
 1. **Create a New Job**:
@@ -63,6 +64,7 @@ Freestyle projects are straightforward and use a GUI to configure steps. They're
    - View the console output for details.
 
 #### Steps for Creating and Configuring a Pipeline Project
+
 Pipelines are defined as code (declarative or scripted) and are more flexible for CI/CD workflows.
 
 1. **Create a New Job**:
@@ -78,6 +80,7 @@ Pipelines are defined as code (declarative or scripted) and are more flexible fo
 4. **Pipeline Definition**:
    - Choose **Pipeline script** for inline code or **Pipeline script from SCM** to pull from a repo (e.g., a `Jenkinsfile` in Git).
    - Example declarative pipeline script:
+
      ```
      pipeline {
          agent any
@@ -107,6 +110,7 @@ Pipelines are defined as code (declarative or scripted) and are more flexible fo
          }
      }
      ```
+
    - This defines stages (Build, Test, Deploy) with steps.
 
 5. **Save and Run**:
@@ -120,6 +124,7 @@ Jenkins has many options in each section, so explore based on your needs (e.g., 
 Jenkins is highly extensible through **plugins** (over 2,000 available), allowing it to integrate with virtually any tool in the DevOps ecosystem. These integrations enable triggering builds, deployments, testing, notifications, and more. Plugins can be installed via **Manage Jenkins > Manage Plugins**.
 
 #### Common Integrations by Category
+
 - **Version Control**: Git, GitHub, GitLab, Bitbucket, SVN – For pulling code and triggering builds on commits/push events via webhooks.
 - **Containerization and Orchestration**: Docker (build/push images), Kubernetes (deploy to clusters), Helm – For container-based workflows.
 - **Cloud Providers**: AWS (EC2, S3, Lambda via plugins), Azure, Google Cloud – For deploying to cloud infrastructure.
@@ -135,6 +140,7 @@ For example, with GitHub, install the GitHub plugin to enable webhook triggers. 
 To explore more, check the official plugin index. Always update plugins regularly for security.
 
 #### References
+
 - [Working with projects - Jenkins](https://www.jenkins.io/doc/book/using/working-with-projects/)
 - [Jenkins - Setup Build Jobs - Tutorials Point](https://www.tutorialspoint.com/jenkins/jenkins_setup_build_jobs.htm)
 - [How to Create and Configure Build Jobs in Jenkins | BrowserStack](https://www.browserstack.com/guide/build-jobs-in-jenkins)

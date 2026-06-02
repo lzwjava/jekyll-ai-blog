@@ -38,10 +38,13 @@ Answer:
 大脑不会在做有趣的事情*之前*释放 dopamine —— 它是在过程中和之后释放的。你不能等待“准备好了”的感觉出现。
 
 ### The Discomfort Phase
+
 工作的前 5–20 分钟会引发轻微的压力（prefrontal cortex 的阻力）。这是真实的生理现象，而不是软弱。这就是为什么开始时的感觉如此糟糕。
 
 ### Flow State After the Threshold
+
 一旦度过了那个摩擦期，大脑就会进入 **flow state**：
+
 - Dopamine 和 norepinephrine 水平上升
 - 自我监控减少
 - 时间感知发生扭曲

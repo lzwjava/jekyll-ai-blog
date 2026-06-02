@@ -16,6 +16,7 @@ Answer:
 Scorchette is a popular skin for **Angela**, a versatile **Mid Lane Mage** in Honor of Kings (HoK). She's beginner-friendly with strong AoE burst, CC (crowd control), and self-sustain via her ultimate's shield and immunity. Angela excels at wave clear, ganks, and teamfights, with a ~53% win rate in Diamond+ (A/S-tier in Dec 2025 meta). Play her for safe farming and explosive damage.
 
 ### Abilities
+
 Angela's fiery kit revolves around stacking passive damage amps via skills, then bursting with CC.
 
 | Ability          | Type                  | Description |
@@ -28,6 +29,7 @@ Angela's fiery kit revolves around stacking passive damage amps via skills, then
 **Core Combo**: 2 (stun/slow) → 1 (burst) → Ult (sustained damage + protect). Level order: 2 > 1 > Ult > 1.
 
 ### Build (Top Meta - hokbuild.com, 2025)
+
 Focus magic power, CDR (cooldown reduction), penetration for one-shots.
 
 | Slot       | Item                  | Why? |
@@ -46,12 +48,14 @@ Focus magic power, CDR (cooldown reduction), penetration for one-shots.
 - **Total Gold**: ~13k for full build.
 
 ### Playstyle by Phase
+
 - **Early (0-5 min)**: Farm mid safely with 1+2. Take blue buff. Poke with 1, stun ganks with 2. Rotate for Tyrant.
 - **Mid (5-12 min)**: Clear waves fast, gank sidelanes (ult shield lets you dive). Group for Overlord.
 - **Late**: Backline in fights—2 for peel, 1+ult for AoE delete. Ult beam shreds grouped enemies.
 - **Positioning**: Stay behind tanks. Use passive stacks for roams. Minimap for dives.
 
 ### Tips & Counters
+
 - **Strengths**: Easy combos, self-peel, scales well. Pairs with divers (Arthur) or poke (Hou Yi).
 - **Weaknesses**: Squishy pre-items, predictable ult channel.
 - **Beginner Tips**: Practice 2 aim (predict paths). Ult during CC chains. Farm > kills early. Ping roams.
@@ -61,6 +65,7 @@ Focus magic power, CDR (cooldown reduction), penetration for one-shots.
 Master in Practice mode. Watch pro replays for rotations. Angela's simple but high ceiling—climb to Plat easily!
 
 References:
+
 - [Liquipedia Angela Guide](https://liquipedia.net/honorofkings/Angela)
 - [HoKBuild Angela Build](https://hokbuild.com/hero/angela/)
 - [Fandom Wiki Abilities](https://honor-of-kings.fandom.com/wiki/Angela)

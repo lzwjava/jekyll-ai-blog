@@ -13,6 +13,7 @@ type: note
 MSYS2 is a free, open-source software distribution and building platform designed for Windows. It provides a Unix-like environment (similar to Linux or macOS shells) right on Windows, complete with tools like Bash, GCC compilers, and a package manager called Pacman. This makes it easier to develop, build, install, and run native Windows applications—especially those that originate from Unix/Linux ecosystems—without needing a full virtual machine or dual-boot setup.
 
 ### Key Features
+
 - **Package Management**: Uses Pacman to install thousands of pre-built packages (e.g., libraries, tools like Git, Python, or Vim) from repositories.
 - **Environments**: Includes three subsystems:
   - **MSYS**: For POSIX-compatible tools.

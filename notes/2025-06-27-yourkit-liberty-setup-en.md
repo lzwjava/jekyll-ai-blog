@@ -11,6 +11,7 @@ type: note
 Using YourKit Java Profiler with WebSphere Liberty Server on Windows involves integrating the YourKit agent into the WebSphere Liberty JVM and configuring it for profiling. Below are the steps to set this up, based on available information and best practices for YourKit and WebSphere Liberty integration:
 
 ### Prerequisites
+
 - **YourKit Java Profiler**: Installed on your Windows machine. Download from [YourKit's official site](https://www.yourkit.com/) and ensure you have a valid license or trial key.
 - **WebSphere Liberty**: Installed and running on your Windows system. Ensure you have administrative access to the server configuration files.
 - **Java JDK**: WebSphere Liberty uses a Java runtime (IBM JDK or OpenJDK). Confirm the JDK version is compatible with YourKit (YourKit supports Java 5 and later, but verify compatibility with your specific version).
@@ -24,61 +25,80 @@ Using YourKit Java Profiler with WebSphere Liberty Server on Windows involves in
 
 2. **Locate the YourKit Agent**
    - The YourKit agent for Windows is typically located at:
+
      ```
      C:\Program Files\YourKit-Java-Profiler-<version>\bin\win64\yjpagent.dll
      ```
+
      (Use `win32` instead of `win64` if running a 32-bit JVM.)
    - Ensure the agent matches the JVM architecture (32-bit or 64-bit) used by WebSphere Liberty.
 
 3. **Configure WebSphere Liberty to Use the YourKit Agent**
    - **Locate the `jvm.options` File**:
      - Navigate to your WebSphere Liberty server’s configuration directory, typically:
+
        ```
        <LIBERTY_INSTALL_DIR>\usr\servers\<server_name>\jvm.options
        ```
+
        Replace `<LIBERTY_INSTALL_DIR>` with the path to your WebSphere Liberty installation (e.g., `C:\wlp`), and `<server_name>` with the name of your server (e.g., `defaultServer`).
      - If the `jvm.options` file doesn’t exist, create it in the server directory.
    - **Add the YourKit Agent Path**:
      - Open `jvm.options` in a text editor with administrative privileges.
      - Add the following line to include the YourKit agent:
+
        ```
        -agentpath:C:\Program Files\YourKit-Java-Profiler-<version>\bin\win64\yjpagent.dll=disablestacktelemetry,disableexceptiontelemetry,delay=10000,probe_disable=*,sessionname=WebSphereLiberty
        ```
+
        - Replace `<version>` with your YourKit version (e.g., `2023.9`).
        - The options (`disablestacktelemetry`, `disableexceptiontelemetry`, `probe_disable=*`) reduce overhead by disabling unnecessary telemetry. The `delay=10000` ensures the agent starts after the server initializes, and `sessionname=WebSphereLiberty` identifies the profiling session.
        - Example:
+
          ```
          -agentpath:C:\Program Files\YourKit-Java-Profiler-2023.9\bin\win64\yjpagent.dll=disablestacktelemetry,disableexceptiontelemetry,delay=10000,probe_disable=*,sessionname=WebSphereLiberty
          ```
+
    - **Save the File**: Ensure you have write permissions for the `jvm.options` file.
 
 4. **Verify JVM Compatibility**
    - WebSphere Liberty often uses IBM JDK or OpenJDK. YourKit is compatible with both, but if you encounter issues (e.g., `NoSuchMethodError` as noted in some IBM JDK cases), add `probe_disable=*` to the agent path to disable probes that may cause conflicts with IBM JDK.[](https://www.yourkit.com/forum/viewtopic.php?f=3&t=8042)
    - Check the Java version used by Liberty:
+
      ```
      <LIBERTY_INSTALL_DIR>\java\bin\java -version
      ```
+
      Ensure it’s supported by YourKit (Java 5 or later for older versions; modern versions support Java 8+).
 
 5. **Start WebSphere Liberty**
    - Start your WebSphere Liberty server as usual:
+
      ```
      <LIBERTY_INSTALL_DIR>\bin\server start <server_name>
      ```
+
      Example:
+
      ```
      C:\wlp\bin\server start defaultServer
      ```
+
    - Check the server logs (`<LIBERTY_INSTALL_DIR>\usr\servers\<server_name>\logs\console.log` or `messages.log`) for any errors related to the YourKit agent.
    - Look for the YourKit agent log in:
+
      ```
      %USERPROFILE%\.yjp\log\<session_name>-<pid>.log
      ```
+
      Example:
+
      ```
      C:\Users\<YourUsername>\.yjp\log\WebSphereLiberty-<pid>.log
      ```
+
      The log should indicate the agent is loaded and listening on a port (default: 10001):
+
      ```
      Profiler agent is listening on port 10001
      ```
@@ -126,11 +146,13 @@ Using YourKit Java Profiler with WebSphere Liberty Server on Windows involves in
 10. **Stop Profiling**
     - To disable profiling, remove or comment out the `-agentpath` line in `jvm.options` and restart the server.
     - Alternatively, stop the server:
+
       ```
       <LIBERTY_INSTALL_DIR>\bin\server stop <server_name>
       ```
 
 ### Additional Notes
+
 - **License**: No license key is required for the YourKit agent on the server; the license is applied in the YourKit UI. For remote profiling from another Windows machine, ensure the UI has a valid license.[](https://www.yourkit.com/forum/viewtopic.php?f=3&t=11385)[](https://www.yourkit.com/forum/viewtopic.php?t=11385)
 - **Remote Profiling**: If profiling from a different machine, ensure network connectivity to the agent port (default: 10001) and use the **Profile Remote Java Server or Application** option with the server’s hostname/IP.
 - **Performance Considerations**: Profiling can increase memory and CPU usage. For production systems, start with minimal profiling options (e.g., CPU sampling) and monitor server health.[](https://www.jahia.com/blog/analyzing-system-performance-with-yourkit-java-profiler)
@@ -138,7 +160,9 @@ Using YourKit Java Profiler with WebSphere Liberty Server on Windows involves in
 - **Documentation**: Refer to YourKit’s official documentation for detailed profiling options: [YourKit Java Profiler Help](https://www.yourkit.com/docs/java/help/).[](https://www.jahia.com/blog/analyzing-system-performance-with-yourkit-java-profiler)
 
 ### Example Configuration
+
 Here’s a sample `jvm.options` file:
+
 ```
 -Xmx4G
 -Xms4G
@@ -146,6 +170,7 @@ Here’s a sample `jvm.options` file:
 ```
 
 ### Testing the Setup
+
 - After starting the server, access your application (e.g., `https://localhost:9443`) to ensure it’s running.
 - In the YourKit UI, verify that telemetry data (CPU, memory, threads) is displayed.
 - If issues arise, check the YourKit agent log and Liberty logs for errors.

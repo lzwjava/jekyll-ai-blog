@@ -38,6 +38,7 @@ Device management（也称为 I/O management）是 operating system 的核心组
   检测设备故障并尽可能进行恢复。
 
 在经典的 I/O request 生命周期中：
+
 1. User process 发出 I/O 请求（通过 system call）
 2. OS kernel 检查 device 状态和 allocation policy
 3. 如果设备可用（或可以调度），OS 将其 **allocates** 给进程（直接或虚拟）

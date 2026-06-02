@@ -11,7 +11,7 @@ type: note
 
 Done. Pushed `3d8090e` → `master`.
 
-Final repo structure at https://github.com/lzwjava/TabsKiller:
+Final repo structure at <https://github.com/lzwjava/TabsKiller>:
 
 ```
 README.md           ← English, dual Chrome + Safari

@@ -42,5 +42,5 @@ Gupta 剥离了那些给人安慰的叙事（如“我已经尽力了”、“�
 
 References:
 
-*   [Siddha Performance 官方网站 (Kapil Gupta 的平台)](https://www.kapilguptamd.com/)
-*   kapilguptamd.com 上的各种论述和语录集（其中出现了类似不妥协的声明）
+* [Siddha Performance 官方网站 (Kapil Gupta 的平台)](https://www.kapilguptamd.com/)
+* kapilguptamd.com 上的各种论述和语录集（其中出现了类似不妥协的声明）

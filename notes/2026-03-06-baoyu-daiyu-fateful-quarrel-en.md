@@ -67,5 +67,5 @@ This scene highlights the mutual deep (yet hidden) love, jealousy, insecurity, a
 
 **References:**
 
-- https://zh.wikisource.org/zh-hans/紅樓夢/第029回
+- <https://zh.wikisource.org/zh-hans/紅樓夢/第029回>
 - David Hawkes translation (*The Story of the Stone*, Penguin Classics, Vol. 2) for Chapter 29

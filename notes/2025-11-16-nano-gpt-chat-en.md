@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Overview
+
 nanoGPT and nanochat are both open-source projects created by Andrej Karpathy, designed to make large language model (LLM) training accessible and educational. nanoGPT (released in 2023) focuses on the fundamentals of training GPT-style models from scratch, while nanochat (released in October 2025) builds on it as a more comprehensive "full-stack" pipeline for creating a ChatGPT-like chatbot. The key differences lie in scope, training stages, codebase complexity, and end-to-end usability—nanochat essentially evolves nanoGPT into a complete production-like system for conversational AI.
 
 ### Key Differences in Training Code
+
 The training code in nanochat is an extension and refinement of nanoGPT's approach, but it incorporates additional stages, optimizations, and integrations tailored for chat applications. Here's a breakdown:
 
 | Aspect                  | nanoGPT                                                                 | nanochat                                                                 |
@@ -28,12 +30,14 @@ The training code in nanochat is an extension and refinement of nanoGPT's approa
 | **Educational Goal**   | Build the "guts" of a language model (brain). Great for beginners experimenting with architectures. | Build a full ChatGPT clone (from brain to interface). Capstone for advanced courses like LLM101n; potential research benchmark. |
 
 ### When to Use Each
+
 - **Choose nanoGPT** if you're new to LLMs and want a lightweight intro to pre-training (e.g., tweaking architectures or datasets). It's simpler but limited to non-conversational models.
 - **Choose nanochat** for end-to-end chatbot development. It outperforms nanoGPT on chat tasks (e.g., 58% improvement in some RLHF tests) and includes everything needed to go from data to a working UI in one repo.
 
 Both emphasize hackability—e.g., nanochat allows easy scaling (change model depth) or customization (add synthetic data for personality). nanochat even gives the model self-awareness (e.g., it knows its own size and limitations).
 
 For hands-on exploration:
+
 - [nanoGPT GitHub](https://github.com/karpathy/nanoGPT)
 - [nanochat GitHub](https://github.com/karpathy/nanochat)
 

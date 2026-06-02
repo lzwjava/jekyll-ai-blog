@@ -171,13 +171,13 @@ type: note
 
 ### **最终实践路径**
 
-1.  深入学习数学与 Python。
-2.  亲手构建小模型。
-3.  理解从 CNN/RNN 到 Transformer 的演进。
-4.  研究 BERT、GPT、Qwen、DeepSeek 的架构。
-5.  探索多模态（如 Sora 类）模型。
-6.  构建集成模型与工具的智能体。
-7.  每月持续跟进最新研究。
+1. 深入学习数学与 Python。
+2. 亲手构建小模型。
+3. 理解从 CNN/RNN 到 Transformer 的演进。
+4. 研究 BERT、GPT、Qwen、DeepSeek 的架构。
+5. 探索多模态（如 Sora 类）模型。
+6. 构建集成模型与工具的智能体。
+7. 每月持续跟进最新研究。
 
 ---
 

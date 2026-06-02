@@ -30,6 +30,7 @@ _思考：_
 **工具： bash**
 
 **输入：**
+
 ```json
 {
   "command": "ls -F",
@@ -38,6 +39,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 eslint.config.js
 index.html
@@ -65,6 +67,7 @@ _思考：_
 **工具： read**
 
 **输入：**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/package.json"
@@ -72,6 +75,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/package.json</path>
 <type>file</type>
@@ -113,6 +117,7 @@ _思考：_
 **工具： read**
 
 **输入：**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/README.md"
@@ -120,6 +125,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/README.md</path>
 <type>file</type>
@@ -212,6 +218,7 @@ _思考：_
 **工具： bash**
 
 **输入：**
+
 ```json
 {
   "command": "ls node_modules | head -n 5",
@@ -220,6 +227,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 @babel
 @eslint
@@ -236,31 +244,41 @@ _思考：_
 要运行此 React + TypeScript + Vite 应用程序，请按照以下步骤操作：
 
 ### 1. 安装依赖项
+
 如果尚未安装，请确保安装所有必需的软件包：
+
 ```bash
 npm install
 ```
 
 ### 2. 启动开发服务器
+
 在带有 Hot Module Replacement (HMR) 的开发模式下运行应用：
+
 ```bash
 npm run dev
 ```
+
 一旦启动，Vite 通常会提供一个本地 URL（例如，`http://localhost:5173`），您可以在其中查看应用程序。
 
 ### 3. 为生产环境构建
+
 在 `dist/` 目录中创建生产就绪的捆绑包：
+
 ```bash
 npm run build
 ```
 
 ### 4. 预览生产构建
+
 在部署前本地测试生产构建：
+
 ```bash
 npm run preview
 ```
 
 ### 其他命令
+
 - **Linting：** 运行 `npm run lint` 以使用 ESLint 检查代码质量问题。
 - **Type Checking：** 运行 `tsc`（或包含它的 `npm run build`）以验证 TypeScript 类型。
 

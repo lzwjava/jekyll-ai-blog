@@ -10,11 +10,13 @@ type: note
 ---
 
 ## **1. 先决条件检查**
+
 - **Docker & Docker Compose**：容器化部署所需
 - **Port 3001**：必须可用（可能需要调整防火墙规则）
 - **User Permissions**：当前用户应加入 `docker` 组，以无需 `sudo` 运行容器
 
 ## **2. 目录结构**
+
 ```
 ~/uptime-kuma/
 ├── docker-compose.yml          # Service definition
@@ -22,6 +24,7 @@ type: note
 ```
 
 ## **3. Docker Compose 配置**
+
 ```yaml
 services:
   uptime-kuma:
@@ -39,12 +42,14 @@ services:
 ```
 
 ### **关键决策说明：**
+
 - **Volume Mapping**：`./uptime-kuma-data:/app/data` 确保数据在容器重建后仍存活
 - **Restart Policy**：`unless-stopped` 平衡自动化与手动控制
 - **Port 3001**：Uptime Kuma 标准端口；冲突时可更改
 - **Timezone**：对准确的正常运行时间计算和警报时机至关重要
 
 ## **4. 部署过程**
+
 ```bash
 # Create directory and navigate
 mkdir -p ~/uptime-kuma && cd ~/uptime-kuma
@@ -61,12 +66,14 @@ docker-compose logs -f uptime-kuma  # Monitor startup logs
 ```
 
 ## **5. 安装后验证**
+
 - **Container Status**：30 秒内应显示 `Up (healthy)`
 - **Web Interface**：`http://localhost:3001` 重定向至 `/dashboard`
 - **Health Check**：`curl -s http://localhost:3001/api/status` 返回 JSON
 - **Logs**：`docker-compose logs` 中无错误消息
 
 ## **6. 初始设置（首次访问）**
+
 1. 导航至 `http://server-ip>:3001`
 2. **创建管理员账户**：
    - Username（推荐：admin 或自定义）
@@ -78,6 +85,7 @@ docker-compose logs -f uptime-kuma  # Monitor startup logs
    - 设置检查间隔和超时时间
 
 ## **7. 持久化数据管理**
+
 - **Location**：`~/uptime-kuma/uptime-kuma-data/`
 - **Contents**：
   - SQLite 数据库（`kuma.db`）
@@ -87,6 +95,7 @@ docker-compose logs -f uptime-kuma  # Monitor startup logs
 - **Backup Strategy**：定期备份此目录
 
 ## **8. 维护命令**
+
 ```bash
 # Stop service
 cd ~/uptime-kuma && docker-compose down
@@ -105,12 +114,14 @@ docker-compose down -v
 ```
 
 ## **9. 安全考虑**
+
 - **Firewall**：如果公网暴露，限制端口 3001 仅限受信任 IP
 - **Reverse Proxy**：推荐用于 SSL/TLS（nginx、Caddy、Traefik）
 - **Authentication**：Uptime Kuma 内置用户管理
 - **Database**：SQLite（本地文件）；确保卷权限（推荐 600）
 
 ## **10. 集成选项**
+
 - **Notifications**：支持 20+ 服务（Telegram、Discord、Slack、email、webhooks）
 - **API**：REST API 可用，位于 `/api/*` 端点
 - **Metrics**：Prometheus 导出位于 `/metrics`
@@ -125,6 +136,7 @@ docker-compose down -v
 | Dashboard shows "Disconnected" | Browser cache or WebSocket issue | Clear cache or check reverse proxy config |
 
 ## **12. 下一步**
+
 1. **设置监控目标**（从关键服务开始）
 2. **配置警报**（使用 Telegram/Discord 测试）
 3. **考虑反向代理**以实现 HTTPS 访问

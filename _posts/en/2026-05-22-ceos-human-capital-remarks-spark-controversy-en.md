@@ -50,6 +50,7 @@ This is becoming a playbook across big banks: announce AI-driven restructuring �
 For you specifically: the roles being cut are back-office ops, compliance manual work, transaction monitoring (false-positive review), and administrative functions. The roles being *added* are exactly what you do — AI engineering, automation, and the systems that replace those manual workflows.
 
 **References:**
+
 - [Standard Chartered to Cut 7,000 Back-Office Jobs by 2030 — TechTimes](http://www.techtimes.com/articles/316851/20260519/standard-chartered-cut-7000-back-office-jobs-2030-first-major-bank-put-ai-layoff-schedule.htm)
 - [Standard Chartered CEO walks back "lower-value human capital" comments — Fox Business](https://www.foxbusiness.com/technology/standard-chartered-ceo-walks-back-comments-about-replacing-lower-value-human-capital-ai)
 - [Halimah Yacob slams StanChart CEO — The Online Citizen](https://theonlinecitizen.com/2026/05/20/halimah-yacob-slams-stan-chart-ceo-over-lower-value-human-capital-remarks-amid-ai-job-cuts)

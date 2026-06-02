@@ -52,6 +52,7 @@ sudo apt install -y postgresql postgresql-contrib
 ```
 
 这会安装 PostgreSQL 16（Ubuntu 24.04 自带）。它会自动创建：
+
 - 一个 `postgres` 超级用户（OS 用户 + DB 角色）
 - 默认的 `main` 集群在端口 **5433**（不是 5432 — 端口 5432 有之前安装的过时/损坏集群）
 
@@ -96,6 +97,7 @@ host gitea gitea 172.16.0.0/12 scram-sha-256
 | `scram-sha-256` | 现代密码认证（不是旧的 `md5`） |
 
 编辑后，我们重启了 PostgreSQL：
+
 ```bash
 sudo systemctl restart postgresql@16-main
 ```

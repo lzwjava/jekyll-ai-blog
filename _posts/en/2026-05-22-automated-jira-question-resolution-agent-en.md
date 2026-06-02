@@ -48,6 +48,7 @@ Let me build this as a working artifact you can paste your JIRA comments into:Th
 **Why single LLM call instead of a chain?**
 
 50 comments fits in one context window (~3-5k tokens). Multi-agent overhead isn't worth it here. The key insight: the model reads the *entire thread at once*, so it naturally handles cross-comment resolution like:
+
 - `[Bob]: Alice's question about load testing is still open` — Bob is referencing Alice, not asking himself
 - `[Frank]: Dave's concern was addressed in the design doc` — retroactive resolution with citation
 

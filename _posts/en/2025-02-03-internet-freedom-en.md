@@ -46,26 +46,25 @@ type: post
    - Payment restrictions with Chinese Visa cards
    - Chinese identity documents help sometimes
 
-
 ## Proxy Solutions in China
 
 *2024.12.29*
 
-* The best way is to get a China Macao SIM card to use cellular data directly when needed. Visit [https://www.1888.com.mo](https://www.1888.com.mo). It costs around 80 CNY for 10 GB of cellular data, offering a fast and painless experience.
+- The best way is to get a China Macao SIM card to use cellular data directly when needed. Visit [https://www.1888.com.mo](https://www.1888.com.mo). It costs around 80 CNY for 10 GB of cellular data, offering a fast and painless experience.
 
-* China Telecom Macao SIM cards are available in two types: red and blue. Red cards offer daily plans, typically costing 2, 3, or 5 Macao dollars per day. Blue cards provide data plans, such as 10GB for 98 Macao dollars or 20GB for 198 Macao dollars, without monthly charges.
+- China Telecom Macao SIM cards are available in two types: red and blue. Red cards offer daily plans, typically costing 2, 3, or 5 Macao dollars per day. Blue cards provide data plans, such as 10GB for 98 Macao dollars or 20GB for 198 Macao dollars, without monthly charges.
 
-* If you need more network data or use a laptop frequently, consider using [Falemon](https://falz.pics). It provides access to approximately 15 global proxy servers for just 30 CNY per month.
+- If you need more network data or use a laptop frequently, consider using [Falemon](https://falz.pics). It provides access to approximately 15 global proxy servers for just 30 CNY per month.
 
-* On iOS, use Shadowrocket with Shadowsocks rules: [https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever). Configure global routing to separate China traffic from overseas traffic.
+- On iOS, use Shadowrocket with Shadowsocks rules: [https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever). Configure global routing to separate China traffic from overseas traffic.
 
-* On Android, use V2Ray. On Fire TV, use the V2Ray app. On Apple TV, use the Shadowrocket app. On Mac, use the ShadowsocksX-NG or ClashX app.
+- On Android, use V2Ray. On Fire TV, use the V2Ray app. On Apple TV, use the Shadowrocket app. On Mac, use the ShadowsocksX-NG or ClashX app.
 
-* It is not recommended to set up a proxy server by yourself. Protocols like Shadowsocks, VMess, or Trojan are easily banned, regardless of the server used.
+- It is not recommended to set up a proxy server by yourself. Protocols like Shadowsocks, VMess, or Trojan are easily banned, regardless of the server used.
 
-* To switch the App Store to the USA region, turn on a global proxy (USA), and it will show the payment option of "None," allowing you to switch openly.
+- To switch the App Store to the USA region, turn on a global proxy (USA), and it will show the payment option of "None," allowing you to switch openly.
 
-* Use a Visa card to buy gift cards from Amazon or use the Apple gift card portal to charge your App Store account.
+- Use a Visa card to buy gift cards from Amazon or use the Apple gift card portal to charge your App Store account.
 
 ---
 
@@ -81,7 +80,7 @@ Between 2014 and 2015, I used Qujing (曲径) for proxying and followed its auth
 
 From June 2016 to July 2018, I used Digital Ocean to host my shadowsocks proxy server.
 
-Starting in 2019, I began using https://zhs.cloud.
+Starting in 2019, I began using <https://zhs.cloud>.
 
 In March 2023, I started using a Macao SIM card in my mobile phone for internet access without a proxy or VPN. This cost around 150 CNY per month for 20GB of cellular data, and I used this method for about a year.
 
@@ -89,20 +88,19 @@ In 2024, I began using Outline Manager again with my shadowsocks proxy server, e
 
 In Feb 2025, my preferred setup is Outline Manager with an Aliyun Hong Kong server for daily use and a non-Hong Kong server (like Singapore or Japan) for AI tools. I maintain the same proxy rules configuration used in Shadowrocket or Clash.
 
-From June 2025, I started using a Python script on my laptop to automatically select a proxy server every 10 minutes based on speed test results. The script prioritizes Singapore servers over Hong Kong servers for using AI tools. For more details, please check [Automating Clash Proxy Management](/clash-en). For the VPN cloud provider, I still used https://zhs.cloud.
+From June 2025, I started using a Python script on my laptop to automatically select a proxy server every 10 minutes based on speed test results. The script prioritizes Singapore servers over Hong Kong servers for using AI tools. For more details, please check [Automating Clash Proxy Management](/clash-en). For the VPN cloud provider, I still used <https://zhs.cloud>.
 
 Additionally, on iOS, I switched back to using a Macao SIM card, costing 150 CNY per month for 20GB of data. I also purchased an extra 5GB of data three times for 20 MOP each, totaling around 200 CNY for 35GB of data on my mobile phone.
 
 Starting from mid-October 2025, I stopped using my Macau SIM card plan because I've been using around 35 GB a month in recent months. It would cost cellular data to use Chinese apps, which account for about one-third of my data usage—mostly in WeChat.
 
-I began using the iOS Shadowsocks app again with proxy servers from https://zhs.cloud. And I started learning some knowledge about CN2 cables.
+I began using the iOS Shadowsocks app again with proxy servers from <https://zhs.cloud>. And I started learning some knowledge about CN2 cables.
 
 Starting from the end of December, I restarted using a Macau SIM card in my mobile phone due to the frustration of proxy servers.
 
 Starting from January 2026, I started using [Falemon](https://falz.pics). One friend recommended it.
 
 Starting in February 2026, due to a DNS failure with my Falemon subscription address, I switched to DMIT.io and set up Hysteria2 on their server. After using it for one week, the IP address got banned. However, I was able to freely change to a new IP on DMIT.io, which was great. They utilize CN2 GIA lines.
-
 
 #### The Difference Compared to Reversing Myopia
 
@@ -160,7 +158,6 @@ When, after reversing myopia for two years, I told my friend that my reversing m
 
 He said that it was no problem, it was fine, not a waste of time, and that it was still early. Yeah. These things are fundamental. Like myopia, people should discover it earlier. Todd Becker shared this discovery on YouTube in 2014, and the videos gained more than 1 million views. And now it is 2025, how many people really know about it in the world? I guess it will be less than 10 thousand.
 
-
 ---
 
 ## Macau SIM Cards
@@ -176,23 +173,27 @@ During my weekend visit to Macau in 2023, I bought a China Telecom Easy+ SIM Mac
 Easy to Use Anytime!
 
 ### Key Points
+
 - No deposit; automatic activation for Mainland China, Macau, and Hong Kong.
 - No contract or termination fee; ready to use upon purchase.
 - Macau number included; optional Mainland China number for dual-number use.
 - Top up online or with value cards.
 
 ### Daily Fee Options
+
 - $2/day: 4GB high-speed, then unlimited at reduced speed; 5,000 minutes local calls.
 - $3/day: 10GB high-speed, then unlimited at reduced speed; 5,000 minutes local calls.
 - $5/day: 20GB high-speed, then unlimited at reduced speed; 5,000 minutes local calls.
 
 ### Extras
+
 - Data usage in Hong Kong: $0.1/MB.
 - Change plans anytime by sending a text message.
 
 #### Blue Macau SIM Card
 
 ### Key Points
+
 - No monthly rent; pay as you use.
 - Local calls: 0.39 MOP/minute; Internet: 0.1 MOP/MB; SMS: 1 MOP/message.
 - Optional no-expiry data packages: 10GB for 98 MOP, 20GB for 188 MOP, 40GB for 288 MOP.
@@ -243,7 +244,7 @@ It sounds like you're experiencing connectivity issues with your Shadowsocks pro
    - Configuration: Ensure that your device settings are correctly configured for using Shadowsocks. Sometimes, switching networks (from 5G to 4G or home Wi-Fi) can cause settings to reset or change.
    - App Permissions: Make sure that the Shadowsocks app has the necessary permissions to operate on different networks.
 
-### Troubleshooting Steps:
+### Troubleshooting Steps
 
 1. Check Network Settings:
    - Ensure that your Shadowsocks settings are correctly configured for both 5G and 4G networks.
@@ -271,8 +272,6 @@ Update:
 Actually, my home Wi-Fi uses China Mobile Communications Corporation, and its address is like 120.235.8.xx.
 
 Interestingly, I've observed inconsistent connectivity patterns - while my proxy server functions normally on cellular data and China Telecom networks, it occasionally fails to connect when using my home Wi-Fi network.
-
-
 
 ---
 

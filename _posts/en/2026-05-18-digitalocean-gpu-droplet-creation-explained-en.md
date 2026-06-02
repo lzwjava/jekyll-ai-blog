@@ -28,11 +28,13 @@ DigitalOcean GPU Droplets are virtualized servers with high-performance AMD GPUs
 You are choosing between two hardware configurations, both using the **AMD Instinct MI300X** GPU:
 
 ### MI300X x8 (8-GPU Plan)
+
 - 8 GPUs, 1.5 TB total VRAM, 160 vCPU, 1920 GB RAM
 - Boot disk: 2 TB NVMe | Scratch disk: 40 TB NVMe
 - **$1.99/GPU/hr** (= ~$15.92/hr total for all 8 GPUs)
 
 ### MI300X x1 (Single GPU Plan)
+
 - 1 GPU, 192 GB VRAM, 20 vCPU, 240 GB RAM
 - Boot disk: 720 GB NVMe | Scratch disk: 5 TB NVMe
 - **$1.99/GPU/hr**
@@ -48,9 +50,11 @@ The MI300X is based on next-generation AMD CDNA 3 architecture, delivering high-
 This section lets you pick the operating system and software stack pre-installed on your Droplet.
 
 ### Bare OS
+
 - **ROCm Software** — A clean OS with AMD's ROCm driver stack installed. You install any AI tools yourself manually. Best for users who want full control over their environment.
 
 ### Quick Start Packages
+
 These are pre-configured Docker-based environments with ready-to-use JupyterLab notebooks, accessible via SSH or browser. Each package bundles ROCm with a specific AI framework:
 
 | Package | Version | Purpose |

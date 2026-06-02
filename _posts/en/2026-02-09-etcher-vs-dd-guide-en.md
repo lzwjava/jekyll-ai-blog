@@ -162,14 +162,14 @@ sudo dd if=linuxmint.iso of=/dev/rdisk2 bs=4m status=progress
 
 ## 8. When to Use Which
 
-### Use **Etcher** if:
+### Use **Etcher** if
 
 * You want maximum safety
 * You prefer a GUI
 * You are creating a bootable USB occasionally
 * You don’t want to think about disk identifiers
 
-### Use **`dd`** if:
+### Use **`dd`** if
 
 * You understand disk devices well
 * You want automation or scripting

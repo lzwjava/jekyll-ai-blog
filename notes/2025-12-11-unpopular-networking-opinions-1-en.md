@@ -35,6 +35,7 @@ Unpopular opinions in the networking tech space often challenge the hype around 
 These opinions highlight a tension between flashy marketing and practical realities, especially as we head into 6G and deeper AI integration.
 
 References:
+
 - [Cybersecurity Experts Share Unpopular Opinions](https://www.itbrew.com/stories/2025/05/06/cybersecurity-experts-share-their-most-unpopular-opinions-on-the-industry)
 - [r/networking: Networking Trend You Hope Dies in 2025](https://www.reddit.com/r/networking/comments/1hn6so4/whats_a_networking_trend_you_hope_will_die_in_2025/)
 - [r/networking: Unpopular Take on Firewall Clustering](https://www.reddit.com/r/networking/comments/1mslzx9/unpopular_take_firewall_clustering_is_not/)

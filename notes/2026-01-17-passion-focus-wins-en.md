@@ -19,6 +19,7 @@ Yes — **genuine interest + deep focus** is indeed one of the most underrated f
 Here’s why this principle appears again and again across different domains:
 
 ### Language learning & input
+
 - Massive input only becomes really powerful when the brain is **emotionally & cognitively engaged**.
 - When you love the content (K-drama, favorite YouTuber, novel in English, gaming stream, stand-up comedy, etc.), two crucial things happen automatically:
   - You get much higher **attention density** → far more sentences are actually processed deeply
@@ -27,6 +28,7 @@ Here’s why this principle appears again and again across different domains:
 - Conclusion: **hours × engagement** matters much more than hours alone.
 
 ### Work & career
+
 The pattern repeats almost exactly:
 
 - Long hours with low engagement → burnout, mediocre results, hating Monday mornings
@@ -37,6 +39,7 @@ The pattern repeats almost exactly:
   - Stay in the field 10× longer → compound effect becomes enormous
 
 ### Life in general
+
 This is why the following statements are among the strongest predictors of long-term outcomes:
 
 - “Fall in love with the process” beats “force yourself through the process” almost every time

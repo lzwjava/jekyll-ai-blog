@@ -48,7 +48,9 @@ type: note
 ## 通信模式
 
 ### 同步（请求/响应）
+
 在需要即时反馈时使用：
+
 ```python
 # 客户端请求
 POST /api/v1/auth/login
@@ -83,6 +85,7 @@ class AuthService:
 ```
 
 ### 异步（事件驱动）
+
 用于不需要即时反馈的操作（通知、Webhook、分析）：
 
 ```python
@@ -369,6 +372,7 @@ def verify_password(plain: str, hashed: str) -> bool:
 ## 关键设计决策
 
 ### 1. **每个服务独立数据库**
+
 每个服务拥有自己的数据库。用户服务 ≠ 支付服务数据库。这防止了紧耦合。
 
 ```python
@@ -381,6 +385,7 @@ SELECT * FROM users u JOIN payments p ON u.id = p.user_id
 ```
 
 ### 2. **服务间内部调用（同步）**
+
 使用 HTTP + 内部认证令牌进行服务间调用。保持低延迟：
 
 ```python
@@ -395,6 +400,7 @@ async with httpx.AsyncClient(timeout=2.0) as client:  # 2秒超时
 ```
 
 ### 3. **副作用使用事件驱动**
+
 通知、Webhook、审计 → 通过队列异步处理。永远不要让主请求因副作用失败。
 
 ```python
@@ -408,6 +414,7 @@ await queue.publish("payment.success", {...})
 ```
 
 ### 4. **管理后台作为独立服务**
+
 管理后台有不同的认证规则（基于角色）、审计日志，且不影响用户请求。
 
 ```python
@@ -419,7 +426,9 @@ POST /api/v1/admin/users/{id}/suspend
 ```
 
 ### 5. **消息队列模式**
+
 根据吞吐量选择 RabbitMQ、Redis 或 Kafka：
+
 - **RabbitMQ**（10万 msg/秒）：路由、重试逻辑，适合大多数场景
 - **Redis Streams**（100万 msg/秒）：简单，如果已使用 Redis 则推荐
 - **Kafka**（100万+ msg/秒）：分布式、持久化，对初创公司来说可能过于庞大

@@ -17,6 +17,7 @@ type: note
 字节跳动的“豆包手机”并非该公司独立制造的设备，而是与中兴通讯合作推出的，首次亮相为努比亚M153工程原型机。该手机于2025年12月1日进行了技术预览，定位为一款由字节跳动豆包大语言模型（LLM）驱动的AI智能手机。16GB RAM + 512GB存储版本售价为3,499元人民币（约合495美元），目前限量预售，目标用户是开发者、科技爱好者和行业专业人士，而非普通消费者。字节跳动强调这还不是一个成熟的消费级产品，计划在2026年3月前每两周进行一次更新，以完善功能。
 
 ### 性能和用户体验
+
 从演示、预览和有限的上手报告来看，早期印象总体积极，凸显了其作为日常使用设备（尽管仍是原型机）的潜力。主要方面包括：
 
 - **硬件规格**：它搭载了旗舰级别的内部组件，包括高通骁龙8 Elite Gen 5处理器、6.78英寸LTPO显示屏和50MP三摄后置摄像头系统。这些配置为浏览、多任务处理和媒体消费等日常任务提供了流畅的性能，初步测试未报告明显延迟。电池续航优化良好，玻璃后盖使其在中端价格区间内具有高级感。
@@ -30,6 +31,7 @@ type: note
 总的来说，它作为一款性能稳定的中高端手机，凭借其开创性的AI智能，在免提生产力方面表现出色。如果您是早期采用者并对AI实验感兴趣，它很有前景；对于日常使用的可靠性，请等待消费版本。
 
 ### 创新水平
+
 在1-10分制中，我将其创新性评为8.5分——在智能体AI（能够像个人智能体一样自主行动的AI）方面具有高度前瞻性，但它是在现有趋势上发展，而不是发明全新的范式。原因如下：
 
 - **创新优势**：
@@ -41,8 +43,8 @@ type: note
 
 在中国竞争激烈的AI手机竞赛（与苹果、华为相比）中，这使得字节跳动在“智能体”设备领域处于领先地位，并可能推动新一轮的升级周期。未来的更新可能会增加AR/图像理解功能，使其更具创新性。
 
-* [ByteDance Launches Doubao Real-Time AI Voice Assistant for Phones](https://www.scientificamerican.com/article/bytedance-launches-doubao-real-time-ai-voice-assistant-for-phones/)
-* [ByteDance teams up with ZTE as China races to take on Apple in agentic AI phones](https://www.scmp.com/tech/article/3334743/bytedance-teams-zte-china-races-take-apple-agentic-ai-smartphones)
-* [ByteDance rolls out AI voice assistant for Chinese smartphones](https://www.reuters.com/world/china/bytedance-rolls-out-ai-voice-assistant-chinese-smartphones-2025-12-01/)
-* [Doubao Phone Assistant Technical Preview Debuts as First True System-Level AI](https://pandaily.com/doubao-phone-assistant-technical-preview-debuts-as-first-true-system-level-ai-nubia-demo-phone-priced-at-3-499-rmb)
-* [ByteDance’s New AI Sidekick Gives ZTE Phones A Head Start](https://finimize.com/content/bytedances-new-ai-sidekick-gives-zte-phones-a-head-start)
+- [ByteDance Launches Doubao Real-Time AI Voice Assistant for Phones](https://www.scientificamerican.com/article/bytedance-launches-doubao-real-time-ai-voice-assistant-for-phones/)
+- [ByteDance teams up with ZTE as China races to take on Apple in agentic AI phones](https://www.scmp.com/tech/article/3334743/bytedance-teams-zte-china-races-take-apple-agentic-ai-smartphones)
+- [ByteDance rolls out AI voice assistant for Chinese smartphones](https://www.reuters.com/world/china/bytedance-rolls-out-ai-voice-assistant-chinese-smartphones-2025-12-01/)
+- [Doubao Phone Assistant Technical Preview Debuts as First True System-Level AI](https://pandaily.com/doubao-phone-assistant-technical-preview-debuts-as-first-true-system-level-ai-nubia-demo-phone-priced-at-3-499-rmb)
+- [ByteDance’s New AI Sidekick Gives ZTE Phones A Head Start](https://finimize.com/content/bytedances-new-ai-sidekick-gives-zte-phones-a-head-start)

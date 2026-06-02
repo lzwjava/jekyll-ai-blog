@@ -37,12 +37,15 @@ Doing good work is not enough. Even great engineers can start to feel stuck. You
 What separates people who shine from those who don't:
 
 ### A. They Work on High-Profile Projects
+
 The easiest way to build political capital is to actively work to make a high-profile project successful. If your company is heavily investing in something — these days, likely an AI project — using your engineering skill to make it successful is a politically advantageous move for whatever VP or executive is spearheading that project. In return, you get the rewards executives can give: bonuses, help with promotions, and positions on future high-profile projects.
 
 ### B. They Solve Problems Leadership Didn't Know Existed
+
 A winning recipe for impressing leadership is to spot and address a big problem nobody knew existed. It shows judgment, initiative, and a desire to help. "Seeing around corners" — highlighting and solving looming problems currently out of sight to your manager — is also highly prized. Become the "go-to" person by developing unique technical expertise that others, including higher-level colleagues, turn to you for.
 
 ### C. They Make Their Work Visible
+
 Bragging and boasting are not characteristics of mature professionals — but **visibility** is. Having a reputation for being a person who delivers results has the added benefit that there is less for someone else to attack. Office politics can be a matter of perception.
 
 ---
@@ -71,6 +74,7 @@ Advancing to senior staff / principal / distinguished engineer requires delibera
 Reputation is cumulative and self-reinforcing. A big part of the responsibility of a senior+ engineer in a large tech company is lifting up junior colleagues — helping them grow, and making their work visible to the organization so they can be rewarded. You cannot effectively make their work visible if you are not respected by your management chain. When you tell managers that a particular piece of work was difficult or impressive, they will believe you in proportion to your own credibility.
 
 People with strong reputations tend to:
+
 - Get assigned to strategically important projects
 - Have their technical opinions taken more seriously in design reviews
 - Be cited in promotion cases by others
@@ -103,6 +107,7 @@ Junior engineers need political support more than technical guidance in many cas
 Organizational interest comes in waves. When it's "reliability time," VPs are desperate to fund reliability projects. When there's a big product ship, the last thing they want is engineers spending time on internal refactors invisible to customers. So if you want to get something technical done, wait for the appropriate wave and align your proposals with whatever the company is currently prioritizing.
 
 Key unwritten rules:
+
 - **Alignment beats brilliance** — a mediocre idea that aligns with company strategy beats a brilliant idea that doesn't
 - **Credit flows upstream** — executives take credit, but they also sponsor the people who made them look good
 - **Networks are leverage** — who knows your name in the room where promotions are decided matters enormously

@@ -37,6 +37,7 @@ type: note
 在 macOS 上，**CLion 在 2025 年脱颖而出，成为通用 C++ 开发的最佳整体 IDE**，尤其是在其免费层推出之后。它在 Apple Silicon (M1/M2/M3/M4) 上运行流畅，通过 LLDB 提供顶级调试体验，并能与 Homebrew 等 macOS 工具良好集成以管理依赖项。其跨平台特性使其非常适合不局限于 Apple 生态系统的用户，且最近的更新优化了远程开发和格式化功能——非常适合 macOS 的类 Unix 环境。
 
 然而，"最佳"选择取决于你的需求：
+
 - **对于 Apple 原生或 iOS/macOS 应用开发**：Xcode 是无与伦比的——免费、与 Swift/Objective-C 互操作深度集成，并针对 Metal/图形进行了优化。但对于 Apple 框架之外的纯 C++ 项目则显得笨拙。
 - **对于轻量级/通用用途**：VSCode 仍然是一个强有力的竞争者；根据 2025 年的一些榜单，它因其速度和生态系统而最受欢迎。
 - **其他值得注意的**：面向开源爱好者的 Eclipse CDT（免费、可扩展），或者如果你正在构建 GUI，Qt Creator 是个不错的选择。
@@ -44,6 +45,7 @@ type: note
 如果你从事纯粹的 C++ 开发（例如，系统、游戏或跨平台库），请选择 CLion——它因其功能强大和体验完善的平衡而经常在 macOS 特定推荐中排名第一或第二。
 
 ### 参考资料
+
 - [CLion 2025.2 发布说明](https://blog.jetbrains.com/clion/2025/08/clion-2025-2-release)
 - [G2 上的 CLion 评测](https://www.g2.com/products/clion/reviews)
 - [Capterra 上的 CLion 评测](https://www.capterra.com/p/246695/CLion/reviews/)

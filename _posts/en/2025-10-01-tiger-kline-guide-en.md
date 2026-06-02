@@ -14,7 +14,8 @@ In the Tiger Trade Global mobile app (latest version 9.4.0.2 as of September 202
 
 If buy/sell signals disappeared after accidental clicks (e.g., toggling indicators off), you may need to re-enable or add them back.
 
-### Steps to Show/Add Buy/Sell Indicators on the K-Line Chart:
+### Steps to Show/Add Buy/Sell Indicators on the K-Line Chart
+
 1. **Open the App and Select a Stock**:
    - Search for a stock (e.g., AAPL) and tap it to open the detail page.
 
@@ -41,7 +42,7 @@ If this doesn't match your experience (e.g., no edit icon or indicators not work
 For visual examples, search for "Adding Indicators to the K Chart" on Tiger Brokers YouTube or forums. If the issue persists, contact app support via Profile > Help.
 
 Citations:
-[1] https://www.youtube.com/watch?v=5xgmRavEkFE
-[2] https://www.itiger.com/about/app/update
-[3] https://www.itiger.com/sg/learn/detail/lnfogp3rckf7pksfpbd
-[4] https://support.tiger.com/english/windows/chart/chart-settings
+[1] <https://www.youtube.com/watch?v=5xgmRavEkFE>
+[2] <https://www.itiger.com/about/app/update>
+[3] <https://www.itiger.com/sg/learn/detail/lnfogp3rckf7pksfpbd>
+[4] <https://support.tiger.com/english/windows/chart/chart-settings>

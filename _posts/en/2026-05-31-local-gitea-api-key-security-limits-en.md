@@ -26,6 +26,7 @@ Significantly safer than GitHub, but still not the right tool for secrets. Here'
 | Internet-exposed attack surface | ✅ always | ❌ LAN-only (if configured right) |
 
 So if your Gitea is:
+
 - LAN-only (not port-forwarded, not behind a public domain)
 - Only you have access
 - Running on your `192.168.1.36` workstation
@@ -37,6 +38,7 @@ So if your Gitea is:
 ## But These Risks Remain
 
 ### 1. Git history is still permanent
+
 Same problem as GitHub — if you ever `git log`, the key is there forever. Rotation becomes painful.
 
 ```bash
@@ -45,15 +47,19 @@ git log -p | grep "sk-ant-"
 ```
 
 ### 2. Gitea itself has vulnerabilities
+
 Gitea has had CVEs. If your workstation is on a shared network (office, university, etc.), a network attacker could exploit Gitea.
 
 ### 3. Backup leakage
+
 If you back up your workstation (Time Machine, rsync, cloud backup), your Gitea data — including all git history — goes with it. Now your keys are wherever your backups are.
 
 ### 4. Repo clones on multiple machines
+
 You said you have a MacBook Air + workstation + AMD cloud. If you clone the repo to all three, the keys are on all three machines and in transit over SSH/HTTPS.
 
 ### 5. Discipline failure over time
+
 Today it's just you. Tomorrow you add a collaborator, or accidentally expose Gitea to the internet for convenience. The key is already in history.
 
 ---

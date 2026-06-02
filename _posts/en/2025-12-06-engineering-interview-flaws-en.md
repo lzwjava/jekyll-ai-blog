@@ -49,6 +49,7 @@ Here are some genuinely unpopular (but increasingly common among experienced eng
 These opinions are unpopular because the current interview industry (bootcamps, LeetCode Premium, coaching, etc.) is a multi-billion-dollar ecosystem that benefits from the status quo. Changing any of this would threaten a lot of business models and egos.
 
 References:
+
 - [The Software Engineering Interview Process Is Broken](https://blog.pragmaticengineer.com/the-software-engineering-interview-process-is-broken/) – Gergely Orosz
 - [Why LeetCode-Style Interviews Fail](https://www.honeycomb.io/blog/why-leetcode-style-interviews-fail) – Charity Majors
 - [Take-Home Assignments Suck](https://sockpuppet.org/blog/2015/03/06/the-hiring-post/) – Thomas Ptacek

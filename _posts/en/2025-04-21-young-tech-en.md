@@ -11,6 +11,7 @@ type: note
 Below is a list of young, successful tech entrepreneurs who have made significant impacts in the industry, similar to Cornelius Palm, Alexandr Wang, and George Hotz. These individuals are under 30 (or were when they achieved notable success) and have founded or significantly contributed to innovative tech companies. I’ve included their key achievements, ages (approximate or at the time of notable success), and companies, drawing on relevant information from the web and general knowledge of the tech landscape as of April 20, 2025.
 
 ### Young Successful Tech Entrepreneurs
+
 1. **Austin Russell** (Age: 29, born 1995)
    - **Company**: Luminar Technologies
    - **Achievements**: Founded Luminar at 17, focusing on LIDAR technology for autonomous vehicles. Dropped out of Stanford to pursue his venture. Luminar went public in 2020, valuing the company at $3.4 billion, making Russell one of the youngest self-made billionaires. His tech is used by companies like Volvo and Toyota for self-driving systems.
@@ -47,11 +48,13 @@ Below is a list of young, successful tech entrepreneurs who have made significan
    - **Why Notable**: Blended tech with a unique consumer product, gaining traction in a niche market while young.[](https://www.inc.com/30-under-30)
 
 ### Comparison to Palm, Wang, and Hotz
+
 - **Cornelius Palm** (Happyr Health): Like Palm, who founded Happyr Health to address chronic pain through tech, Archer and Liu focus on niche, impactful problems (personalized memorials and VR cameras). Palm’s healthtech focus aligns with Russell’s LIDAR for safety.
 - **Alexandr Wang** (Scale AI): Wang, who founded Scale AI at 19 and became a billionaire by 25, shares similarities with Russell and Buterin, who also built billion-dollar tech at young ages. Wang’s AI data labeling mirrors Perkins’ scalable, user-focused tech.[](https://www.entrepreneur.com/entrepreneurs/15-young-founders-rethinking-everything-from-artificial/432612)[](https://studyinternational.com/news/youngest-entrepreneurs-education/)
 - **George Hotz** (comma.ai): Hotz, known for hacking and founding comma.ai for self-driving tech, parallels Russell’s autonomous vehicle work and Liu’s hardware innovation. Hotz’s DIY ethos resonates with Buterin’s decentralized vision.[](https://www.forbes.com/sites/mikemontgomery/2016/11/03/the-cautionary-tale-of-george-hotz-and-the-self-driving-car/)[](https://lookupbio.com/george-hotz/)
 
 ### Notes
+
 - These entrepreneurs were selected for their age (under 30 at time of major success), tech innovation, and significant impact (e.g., billion-dollar valuations, widespread adoption).
 - I excluded older founders (e.g., Mark Zuckerberg, now 40) and focused on those who achieved success in their 20s, like the referenced trio.
 - Some ages are estimated based on birth years or success timelines, as exact current ages may vary slightly.

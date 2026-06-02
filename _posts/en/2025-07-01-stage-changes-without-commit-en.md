@@ -11,6 +11,7 @@ type: note
 To integrate the changes from the `update_notes_link.py` script into the current commit (instead of creating a separate commit) during a pre-commit hook, you’ll need to modify the hook to stage the updated files without committing them separately. This way, the changes from the Python script will be included in the user’s commit. Below, I’ll provide a revised pre-commit hook script that achieves this.
 
 ### Key Changes
+
 - **No Separate Commit**: Instead of running `git commit` in the hook, the script will only stage the updated files (`git add`) so they’re included in the user’s commit.
 - **Preserve User’s Commit Message**: The hook won’t create a new commit, ensuring the user’s original commit message is used.
 - **Error Handling**: If the Python script fails, the hook will exit with a non-zero status to prevent the commit.
@@ -72,6 +73,7 @@ exit 0
    - Place the script in `.git/hooks/pre-commit` in your repository.
 
 2. **Make It Executable**:
+
    ```bash
    chmod +x .git/hooks/pre-commit
    ```
@@ -86,6 +88,7 @@ exit 0
 If you prefer using the `pre-commit` framework, you can define the same logic in a `.pre-commit-config.yaml` file. This approach is more portable and allows you to specify which files trigger the hook.
 
 1. **Install pre-commit**:
+
    ```bash
    pip install pre-commit
    ```
@@ -124,6 +127,7 @@ repos:
 ```
 
 3. **Install the Hook**:
+
    ```bash
    pre-commit install
    ```
@@ -149,6 +153,7 @@ repos:
 ### Verification
 
 To verify:
+
 1. Modify a file or ensure the Python script updates `original/2025-01-11-notes-en.md`.
 2. Run `git commit -m "Test commit"`.
 3. Check `git show` to confirm that the updated files are included in the commit with your original message.

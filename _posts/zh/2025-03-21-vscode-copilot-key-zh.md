@@ -17,9 +17,11 @@ type: note
 - **第三方插件**：市场上可能还有其他第三方 VSCode 扩展支持多种 AI 供应商，并允许您使用包括 Gemini 在内的自定义 API 密钥。这些插件可以让您连接到 Gemini API 以获取代码建议，尽管可能需要额外的设置。
 
 ### 为何 Copilot 不支持自定义密钥
+
 GitHub Copilot 是一款专有工具，为其自身生态系统进行了优化。尽管近期的发展显示 GitHub 与 Google 合作将 Gemini 模型集成到 Copilot 中，但该集成由 GitHub 管理，不允许用户直接输入自己的 Gemini API 密钥。相反，对任何支持的模型（包括 Gemini，如果可用）的访问都是通过 Copilot 服务本身在 GitHub 的控制下提供的。
 
 ### 实用建议
+
 如果您的目标是在 VSCode 中使用您的 Gemini 密钥，安装 **Gemini Code Assist 扩展**是最直接且官方支持的选择。您可以按以下步骤操作：
 
 1. 打开 VSCode。

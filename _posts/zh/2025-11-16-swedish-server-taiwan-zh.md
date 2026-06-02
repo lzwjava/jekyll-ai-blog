@@ -26,6 +26,7 @@ type: note
 而现在你强制使用瑞典服务器，导致流量必须经过广州 → 台湾 → 跨太平洋海底光缆 → 瑞典 → 再原路返回。往返延迟从约 30 ms 飙升至 280–350 ms，带宽也被严重限制。
 
 ### 实际测试佐证（2025年11月）
+
 当前从台湾出口节点实测：
 
 - `mirror.accum.se` → 重定向至 `ftp-osl.wikimedia.org`（奥斯陆）或亚洲缓存节点 → 仍然较慢
@@ -37,16 +38,20 @@ type: note
 ### 快速解决方案（任选其一）
 
 1. **最佳且最快速**：切换至东亚镜像节点（推荐）
+
    ```bash
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles2.xml-p41243p151573.bz2
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles3.xml-p151574p311329.bz2
    ```
+
    通过台湾代理下载可轻松达到 30–80 MB/s。
 
 2. 恢复使用智能重定向器
+
    ```bash
    wget -c https://mirror.accum.se/mirror/wikimedia.org/dumps/enwiki/20251101/...
    ```
+
    系统会根据你的台湾 IP 自动分配最快可用镜像。
 
 3. 若 Clash 规则允许，可添加规则使 `*.wikimedia.org` 流量直连，从国内镜像下载（速度峰值可达 100+ MB/s，使用清华/上交镜像）。

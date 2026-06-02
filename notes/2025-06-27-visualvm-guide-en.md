@@ -13,6 +13,7 @@ type: note
 VisualVM is a powerful, open-source Java profiling and monitoring tool that provides a graphical interface for analyzing the performance of Java applications. It is included with the Java Development Kit (JDK) and is particularly useful for diagnosing performance issues, memory leaks, and thread-related problems. This guide covers VisualVM’s features, setup, usage, and best practices for developers and system administrators.
 
 ## Table of Contents
+
 1. [What is VisualVM?](#what-is-visualvm)
 2. [Key Features of VisualVM](#key-features-of-visualvm)
 3. [System Requirements](#system-requirements)
@@ -54,6 +55,7 @@ Originally developed by Sun Microsystems, VisualVM is now part of the Oracle JDK
 ## System Requirements
 
 To use VisualVM, ensure the following:
+
 - **Operating System**: Windows, macOS, Linux, or any OS supporting喧騒with a JVM.
 - **Java Version**: JDK 6 or later (VisualVM is bundled with JDK 8 and later).
 - **Memory**: At least 512 MB of free RAM for lightweight monitoring; 1 GB or more for heap dump analysis.
@@ -80,6 +82,7 @@ VisualVM is included with Oracle JDK 8 and later, located in the `bin` directory
 ## Launching VisualVM
 
 To start VisualVM:
+
 - **On Windows**: Double-click `jvisualvm.exe` in the JDK’s `bin` folder or the standalone installation directory.
 - **On macOS/Linux**: Run `./jvisualvm` from the terminal in the `bin` directory.
 - The VisualVM interface will open, displaying a list of local Java applications on the left panel.
@@ -89,12 +92,15 @@ To start VisualVM:
 VisualVM can monitor both local and remote Java applications.
 
 ### Local Applications
+
 - Upon launching, VisualVM automatically detects running Java applications on the local machine.
 - Double-click an application in the left panel to open its monitoring dashboard.
 - If an application is not listed, ensure it is running under a compatible JVM.
 
 ### Remote Applications
+
 To monitor a remote Java application:
+
 1. Enable JMX on the remote application by adding JVM arguments (e.g., `-Dcom.sun.management.jmxremote`).
 2. In VisualVM, go to **File > Add JMX Connection**.
 3. Enter the remote host’s IP address and port (e.g., `hostname:port`).
@@ -108,6 +114,7 @@ To monitor a remote Java application:
 VisualVM provides several tabs and tools for analyzing Java applications. Below is a detailed breakdown of each feature.
 
 ### Overview Tab
+
 - Displays general information about the application, including:
   - JVM arguments
   - System properties
@@ -116,6 +123,7 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
 - Useful for verifying the application’s configuration.
 
 ### Monitor Tab
+
 - Provides real-time graphs for:
   - **CPU Usage**: Tracks application and system CPU usage.
   - **Heap Memory**: Monitors heap usage (Eden, Old Gen, PermGen/Metaspace) and garbage collection activity.
@@ -124,11 +132,13 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
 - Allows triggering garbage collection or heap dumps manually.
 
 ### Threads Tab
+
 - Visualizes thread states (Running, Sleeping, Waiting, etc.) over time.
 - Provides thread dump functionality to capture the current state of all threads.
 - Useful for identifying deadlocks, blocked threads, or excessive thread usage.
 
 ### Sampler
+
 - Offers lightweight CPU and memory sampling for performance analysis.
 - **CPU Sampling**:
   - Captures method-level execution time.
@@ -139,6 +149,7 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
 - Sampling has lower overhead than profiling but provides less detailed data.
 
 ### Profiler
+
 - Provides in-depth CPU and memory profiling.
 - **CPU Profiling**:
   - Measures the execution time of methods.
@@ -149,6 +160,7 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
 - **Note**: Profiling has higher overhead than sampling and may slow down the application.
 
 ### Heap Dump Analysis
+
 - A heap dump is a snapshot of the application’s memory.
 - To generate a heap dump:
   1. Go to the **Monitor** tab.
@@ -161,6 +173,7 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
 - Use the **OQL (Object Query Language)** console for advanced heap queries.
 
 ### Thread Dump Analysis
+
 - Captures the state of all threads at a specific moment.
 - To generate a thread dump:
   1. Go to the **Threads** tab.
@@ -172,6 +185,7 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
   - Thread contention issues
 
 ### MBeans
+
 - Accesses JMX MBeans for managing and monitoring the application.
 - Features:
   - View and modify MBean attributes.
@@ -182,26 +196,32 @@ VisualVM provides several tabs and tools for analyzing Java applications. Below 
 ## Remote Monitoring
 
 To monitor remote Java applications:
+
 1. **Configure the Remote JVM**:
    - Add the following JVM arguments to the remote application:
+
      ```bash
      -Dcom.sun.management.jmxremote
      -Dcom.sun.management.jmxremote.port=<port>
      -Dcom.sun.management.jmxremote.ssl=false
      -Dcom.sun.management.jmxremote.authenticate=false
      ```
+
    - For secure connections, enable SSL and authentication:
+
      ```bash
      -Dcom.sun.management.jmxremote.ssl=true
      -Dcom.sun.management.jmxremote.authenticate=true
      -Dcom.sun.management.jmxremote.password.file=<password_file>
      ```
+
 2. **Set Up VisualVM**:
    - Add a JMX connection in VisualVM using the remote host’s IP and port.
    - Provide credentials if required.
 3. **Firewall Configuration**:
    - Ensure the JMX port is open on the remote host.
    - Use SSH tunneling for secure remote access if needed:
+
      ```bash
      ssh -L <local_port>:<remote_host>:<remote_port> user@remote_host
      ```
@@ -209,6 +229,7 @@ To monitor remote Java applications:
 ## Extending VisualVM with Plugins
 
 VisualVM supports plugins to enhance its functionality:
+
 1. **Install Plugins**:
    - Go to **Tools > Plugins**.
    - Browse the Plugin Center for available plugins (e.g., Visual GC, BTrace, JConsole plugins).
@@ -245,9 +266,11 @@ VisualVM supports plugins to enhance its functionality:
   - Test connectivity using `telnet <host> <port>`.
 - **OutOfMemoryError in VisualVM**:
   - Increase VisualVM’s heap size by editing the `visualvm.conf` file:
+
     ```bash
     -J-Xmx<memory_size>m
     ```
+
 - **Heap Dump Analysis is Slow**:
   - Use a machine with more RAM.
   - Filter classes to reduce the scope of analysis.

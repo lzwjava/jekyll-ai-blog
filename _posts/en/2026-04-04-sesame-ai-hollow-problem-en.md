@@ -21,7 +21,7 @@ Sesame is a voice AI startup co-founded by **Brendan Iribe** (Oculus co-founder)
 
 ---
 
-### Did It Go Viral? Yes, Massively.
+### Did It Go Viral? Yes, Massively
 
 When Sesame released its early demo in February 2025, more than one million people tried it within the first few weeks, generating over five million minutes of conversation.
 

@@ -11,6 +11,7 @@ type: note
 I'll explain how to use the `javax.json` package, which is part of the Java API for JSON Processing (JSON-P) to work with JSON data in Java. Here's a comprehensive guide:
 
 1. First, add the dependency to your project (if using Maven):
+
 ```xml
 <dependency>
     <groupId>javax.json</groupId>
@@ -28,6 +29,7 @@ I'll explain how to use the `javax.json` package, which is part of the Java API 
 2. Basic examples of using `javax.json`:
 
 a) Creating a JSON Object:
+
 ```java
 import javax.json.Json;
 import javax.json.JsonObject;
@@ -51,6 +53,7 @@ public class JsonExample {
 ```
 
 b) Creating a JSON Array:
+
 ```java
 JsonArray jsonArray = Json.createArrayBuilder()
     .add("Apple")
@@ -62,6 +65,7 @@ JsonArray jsonArray = Json.createArrayBuilder()
 ```
 
 c) Parsing JSON from String:
+
 ```java
 import javax.json.JsonReader;
 import java.io.StringReader;
@@ -77,6 +81,7 @@ int age = parsedObject.getInt("age");
 ```
 
 d) Writing JSON to String:
+
 ```java
 import javax.json.JsonWriter;
 import java.io.StringWriter;
@@ -94,6 +99,7 @@ String result = stringWriter.toString();
 ```
 
 3. Key Classes and Interfaces:
+
 - `Json`: Factory class for creating JSON builders and readers
 - `JsonObject`: Represents a JSON object
 - `JsonArray`: Represents a JSON array
@@ -103,6 +109,7 @@ String result = stringWriter.toString();
 - `JsonWriter`: Writes JSON to output source
 
 4. Handling different JSON value types:
+
 ```java
 JsonObject obj = // ... some JSON object
 String stringValue = obj.getString("key");
@@ -118,6 +125,7 @@ if (obj.containsKey("key") && !obj.isNull("key")) {
 ```
 
 5. Streaming API example (for large JSON):
+
 ```java
 import javax.json.stream.JsonParser;
 import java.io.StringReader;
@@ -142,6 +150,7 @@ parser.close();
 ```
 
 Tips:
+
 - Always close `JsonReader`, `JsonWriter`, and `JsonParser` when done
 - Handle `javax.json.JsonException` for potential parsing errors
 - Use the streaming API (`JsonParser`) for large JSON documents

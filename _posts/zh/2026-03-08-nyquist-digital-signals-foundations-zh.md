@@ -75,6 +75,7 @@ Nyquist的两篇论文，连同R.V.L. Hartley的一篇，被引述在Claude Shan
 他的思想对其他理论家产生了关键影响；他早期发现传输信息所需的带宽要求，为数学家和科学家Claude Shannon奠定了基础，从而导致了信息理论的发展。
 
 以Nyquist命名的术语和概念包括：
+
 - Nyquist Frequency
 - Nyquist Rate
 - Nyquist Stability Criterion (Nyquist Plot)

@@ -71,6 +71,7 @@ This is a very common issue with newer terminal emulators (similar problems happ
    Or follow Ghostty's official terminfo instructions: copy the compiled terminfo entry to remote machines. Some newer distros may include `xterm-ghostty` in `ncurses-term` or similar packages by 2026.
 
 ### Recommendation
+
 Use option 1 (set `term = xterm-256color` in Ghostty config) — it's the simplest and most reliable for most people. You lose only Ghostty-specific advanced features over SSH (which usually aren't needed for `htop`/`top` anyway).
 
 After applying the fix, both `htop` and `top` should launch normally.

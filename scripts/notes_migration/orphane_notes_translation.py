@@ -114,7 +114,7 @@ def print_summary(notes_coverage, notes_per_lang):
 
     # Check for orphaned translations (exist in other languages but not English)
     orphaned_translations = []
-    for lang in [l for l in LANGUAGES if l != "en"]:
+    for lang in [lang for lang in LANGUAGES if lang != "en"]:
         lang_notes = notes_per_lang[lang]
         english_notes = notes_per_lang.get("en", set())
 

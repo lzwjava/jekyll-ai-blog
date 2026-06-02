@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-**Question: Without exporting proxy environment variables, the Python script times out when querying Cloudflare DoH (https://1.1.1.1/dns-query). How to find a proper DNS server in China, or can we route DNS requests through the Clash proxy?**
+**Question: Without exporting proxy environment variables, the Python script times out when querying Cloudflare DoH (<https://1.1.1.1/dns-query>). How to find a proper DNS server in China, or can we route DNS requests through the Clash proxy?**
 
 **Answer:**
 

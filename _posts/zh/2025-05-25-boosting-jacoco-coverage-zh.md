@@ -15,6 +15,7 @@ type: note
 ## 1. **配置优化**
 
 ### Maven配置
+
 ```xml
 <plugin>
     <groupId>org.jacoco</groupId>
@@ -59,6 +60,7 @@ type: note
 ```
 
 ### 多模块设置（如适用）
+
 ```xml
 <!-- 在父pom中 -->
 <plugin>
@@ -86,6 +88,7 @@ type: note
 ## 2. **分层测试策略**
 
 ### 单元测试（最高优先级）
+
 ```java
 // 服务层测试
 @ExtendWith(MockitoExtension.class)
@@ -140,6 +143,7 @@ class UserRepositoryTest {
 ```
 
 ### 集成测试
+
 ```java
 @SpringBootTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
@@ -169,6 +173,7 @@ class UserIntegrationTest {
 ```
 
 ### 控制器测试
+
 ```java
 @WebMvcTest(UserController.class)
 class UserControllerTest {
@@ -196,6 +201,7 @@ class UserControllerTest {
 ## 3. **覆盖率提升技巧**
 
 ### 测试数据构建器
+
 ```java
 public class UserTestBuilder {
 
@@ -213,6 +219,7 @@ User user = UserTestBuilder.defaultUser().build();
 ```
 
 ### 参数化测试
+
 ```java
 @ParameterizedTest
 @ValueSource(strings = {"valid@email.com", "test@domain.com", "user@example.org"})
@@ -223,6 +230,7 @@ void shouldValidateEmailFormat(String email) {
 ```
 
 ### 异常测试
+
 ```java
 @Test
 void shouldThrowUserNotFoundException() {
@@ -239,6 +247,7 @@ void shouldThrowUserNotFoundException() {
 ## 4. **常见的低覆盖率区域目标**
 
 ### 配置类
+
 ```java
 @Test
 void shouldLoadConfigurationProperties() {
@@ -259,6 +268,7 @@ void shouldLoadConfigurationProperties() {
 ```
 
 ### 异常处理器
+
 ```java
 @Test
 void shouldHandleValidationException() throws Exception {
@@ -275,6 +285,7 @@ void shouldHandleValidationException() throws Exception {
 ```
 
 ### 映射器和转换器
+
 ```java
 @Test
 void shouldMapUserToUserResponse() {
@@ -293,6 +304,7 @@ void shouldMapUserToUserResponse() {
 ## 5. **高级技巧**
 
 ### 条件逻辑的测试覆盖
+
 ```java
 @Test
 void shouldCoverAllUserStatusScenarios() {
@@ -311,6 +323,7 @@ void shouldCoverAllUserStatusScenarios() {
 ```
 
 ### 使用Testcontainers的集成测试
+
 ```java
 @Testcontainers
 @SpringBootTest
@@ -336,11 +349,13 @@ class UserRepositoryIT {
 ## 6. **CI/CD集成**
 
 ### 覆盖率的Maven命令
+
 ```bash
 mvn clean verify jacoco:report
 ```
 
 ### 流水线中的覆盖率检查
+
 ```yaml
 # GitHub Actions示例
 - name: Test and Coverage
@@ -358,6 +373,7 @@ mvn clean verify jacoco:report
 ## 8. **监控和报告**
 
 ### 生成报告
+
 ```bash
 # 生成HTML报告
 mvn jacoco:report

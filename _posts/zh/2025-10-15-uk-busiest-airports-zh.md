@@ -30,6 +30,7 @@ type: note
 这些机场是国际旅行的重要门户，其中希思罗机场作为欧洲最繁忙的机场，更是全球主要航空枢纽。其他值得关注的机场包括以商务航班为主的伦敦城市机场（LCY），以及纽卡斯尔机场（NCL）、利兹布拉德福德机场（LBA）等区域性机场。
 
 ### 参考资料
+
 - [英国最繁忙机场列表 - 维基百科](https://en.wikipedia.org/wiki/List_of_busiest_airports_in_the_United_Kingdom)
 - [英国最大机场 - Flightright UK](https://www.flightright.co.uk/blog/largest-airports-in-the-uk)
 - [英国前20大机场列表 - 世界机场代码](https://www.world-airport-codes.com/uk-top-20-airports.html)

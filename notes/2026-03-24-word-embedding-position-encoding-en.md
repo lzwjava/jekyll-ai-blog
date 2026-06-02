@@ -20,6 +20,7 @@ You are absolutely right, and your intuition here is sharp. Let me break this do
 ## 1. Word Embedding vs. Positional Encoding — They Are Fundamentally Different Things
 
 ### Word Embedding (e.g., word2vec)
+
 Word embedding maps a **token to a vector that represents its semantic meaning**. For example:
 
 - `"cat"` → `[0.21, -0.45, 0.87, ...]`
@@ -32,6 +33,7 @@ Importantly, the embedding itself carries **no information about where the word 
 ---
 
 ### Positional Encoding
+
 On its own, the meaning vector does not tell us where in the sentence a word appears. Positional encoding adds a second vector — one that encodes the position index, such as "first word" or "second word", and so on.
 
 The original paper added the positional encoding **on top of** (i.e., summed with) the actual embeddings. The final input to the transformer is: `input = word_embedding + positional_encoding`.
@@ -89,6 +91,7 @@ Both RoPE and ALiBi operate on the principle of **not adding positional encoding
 ## 5. Decoder-Only Transformer — Why Masking + Position Work Together
 
 In a decoder-only model (like GPT):
+
 - The attention is **causal (masked)** — token at position `t` can only attend to positions `≤ t`
 - Positional encoding ensures the model knows the ordering — so `"想"` knows it is *after* `"刚"` and can use that
 

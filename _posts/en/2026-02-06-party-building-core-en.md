@@ -31,6 +31,7 @@ According to the material (p.197), comprehensive strict Party governance include
 ## Why B (Institutional Building) is Correct
 
 Institutional building is characterized as having:
+
 - **Fundamental nature** (根本性)
 - **Comprehensive nature** (全局性)
 - **Stability** (稳定性)

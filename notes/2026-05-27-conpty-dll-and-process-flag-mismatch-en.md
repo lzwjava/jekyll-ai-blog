@@ -20,11 +20,13 @@ There are 5 key architectural differences, and the combination is what causes th
 ### 1. ConPTY Library: Static vs Bundled DLL
 
 **Windows Terminal** builds ConPTY from source as a static library:
+
 - `src/inc/conpty-static.h` — direct symbol linkage
 - Uses newer APIs: `ConptyReparentPseudoConsole`, `ConptyPackPseudoConsole`, `ConptyClearPseudoConsole`
 - The ConPTY code is at `src/winconpty/winconpty.cpp` — built alongside Terminal, always the latest version with all fork() fixes
 
 **Warp** loads `conpty.dll` dynamically at runtime:
+
 - `conpty_api.rs:57`: `HSTRING::from("conpty.dll")`
 - Bundled from `assets/windows/{arch}/conpty.dll`
 - Only loads: `CreatePseudoConsole`, `ResizePseudoConsole`, `ClosePseudoConsole`, `ConptyShowHidePseudoConsole`, `ConptyReleasePseudoConsole`
@@ -35,6 +37,7 @@ This is likely the **primary cause**. Windows Terminal's ConPTY has been patched
 ### 2. Pipe Architecture: Duplex vs Split
 
 **Windows Terminal** uses a single duplex pipe for both ConPTY directions:
+
 ```cpp
 // ConptyConnection.cpp:411-412
 auto pipe = Utils::CreateOverlappedPipe(PIPE_ACCESS_DUPLEX, 128 * 1024);
@@ -43,6 +46,7 @@ ConptyCreatePseudoConsole(size, pipe.client.get(), pipe.client.get(), _flags, &_
 ```
 
 **Warp** uses separate pipes:
+
 ```rust
 // mod.rs:131-135
 let pipes::DuplexPipe { client, server } = pipes::create_async_anonymous_pipe()?;
@@ -54,12 +58,14 @@ The duplex pipe in Windows Terminal means the ConPTY server reads and writes thr
 ### 3. CREATE_BREAKAWAY_FROM_JOB
 
 **Windows Terminal**:
+
 ```cpp
 // ConptyConnection.cpp:172
 EXTENDED_STARTUPINFO_PRESENT | CREATE_UNICODE_ENVIRONMENT
 ```
 
 **Warp**:
+
 ```rust
 // mod.rs:194-197
 PROCESS_CREATION_FLAGS(0)
@@ -73,6 +79,7 @@ PROCESS_CREATION_FLAGS(0)
 ### 4. ConPTY Flags: 0 vs Feature Flags
 
 **Windows Terminal** passes feature flags:
+
 ```cpp
 // ConptyConnection.cpp:412
 ConptyCreatePseudoConsole(size, in, out, _flags, &_hPC)
@@ -81,6 +88,7 @@ ConptyCreatePseudoConsole(size, in, out, _flags, &_hPC)
 ```
 
 **Warp** passes 0:
+
 ```rust
 // mod.rs:135
 conpty_api.create(size.to_coord(), client, 0)  // flags = 0

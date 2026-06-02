@@ -23,7 +23,7 @@ Agent harness 是管理 AI agents 在现实世界中执行任务方式的操作�
 
 Harness 不是进行思考的“大脑”；相反，它是为大脑提供所需工具、记忆和安全限制的环境，以使其正常运行。
 
-### Agent Harness 的关键组件：
+### Agent Harness 的关键组件
 
 **Tool Execution and Orchestration：** 当 AI model 输出工具调用（例如搜索或代码执行）时，harness 会监控模型的输出，识别这些工具调用，暂停文本生成，在外部世界执行请求的操作，并将结果反馈回模型。
 
@@ -33,7 +33,7 @@ Harness 不是进行思考的“大脑”；相反，它是为大脑提供所需
 
 **Safety and Control：** Harness 确保模型在每个步骤获得所需的上下文或工具，并可以通过验证快速取消或纠正错误路径。
 
-### 为什么 Harness 重要：
+### 为什么 Harness 重要
 
 虽然 agent framework 提供了构建 agent 的库，但 harness 是实际的运行时系统，它管理 agent 在现实世界设置中的行为。Agent 负责“什么”和“为什么”，而 harness 处理“如何”和“在哪里”。
 
@@ -49,7 +49,7 @@ AI Harness Engineering 是通过约束、反馈循环、护栏和监督机制，
 
 **参考资料：**
 
-- https://parallel.ai/articles/what-is-an-agent-harness
-- https://www.salesforce.com/agentforce/ai-agents/agent-harness/
-- https://blog.langchain.com/the-anatomy-of-an-agent-harness/
-- https://medium.com/be-open/what-is-ai-harness-engineering-your-guide-to-controlling-autonomous-systems-30c9c8d2b489
+- <https://parallel.ai/articles/what-is-an-agent-harness>
+- <https://www.salesforce.com/agentforce/ai-agents/agent-harness/>
+- <https://blog.langchain.com/the-anatomy-of-an-agent-harness/>
+- <https://medium.com/be-open/what-is-ai-harness-engineering-your-guide-to-controlling-autonomous-systems-30c9c8d2b489>

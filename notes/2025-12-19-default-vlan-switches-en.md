@@ -24,6 +24,7 @@ On most network switches (particularly Cisco switches and many other vendors tha
 - Best practices recommend changing the native VLAN and avoiding the use of VLAN 1 for regular data traffic due to security concerns (e.g., potential VLAN hopping attacks).
 
 Other options:
+
 - **VLAN 0**: Typically reserved or not usable (often for internal purposes like blackholing traffic).
 - **VLAN 100**: Not a default; part of extended VLAN range, user-configurable.
 - **VLAN 1001**: Usually in the reserved range (1002–1005 are defaults for legacy token ring/FDDI on Cisco), and 1001 is not used as default.

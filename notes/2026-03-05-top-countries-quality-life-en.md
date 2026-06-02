@@ -21,6 +21,7 @@ Here are the most prominent and up-to-date rankings as of early 2026:
 This is one of the most comprehensive and frequently updated indices for overall quality of life by country.
 
 Top 10 countries:
+
 1. **Netherlands** - 213.6
 2. **Denmark** - 212.2
 3. **Luxembourg** - 211.9
@@ -38,6 +39,7 @@ Top 10 countries:
 This perception-based ranking emphasizes factors like job market, affordability, family-friendliness, income equality, and political stability.
 
 Top countries:
+
 1. **Denmark**
 2. **Sweden**
 3. **Switzerland**

@@ -38,6 +38,7 @@ To make this work with VS Code specifically:
 Before this feature was added (in older versions), double-clicking typically just showed the diff inside GitHub Desktop itself, and you'd have to right-click → "Open in Visual Studio Code" (or use the menu/keyboard shortcut) to open the full file in the editor. Some users reported accidental opens due to fast clicking being interpreted as double-clicks in certain updates.
 
 If double-click doesn't open VS Code for you:
+
 - Confirm VS Code is correctly set as the external editor.
 - Ensure you're double-clicking the file name/entry in the list (not the diff area).
 - Update GitHub Desktop to the latest version, as this is a relatively modern addition.

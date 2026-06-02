@@ -27,17 +27,21 @@ Dr. Jane Goodall (born April 3, 1934) is a world-renowned **British primatologis
 ### 🧠 **What Are Her Ideas?**
 
 #### 1. **Empathy-Driven Science**
+
 Jane Goodall approached her research with empathy and respect for animals, seeing them as individuals with personalities, emotions, and intelligence. This was revolutionary at a time when scientists were expected to remain strictly objective and detached.
 
 #### 2. **Observation-Based Learning**
+
 She emphasized **long-term, patient observation** over rigid hypothesis testing. By living among chimpanzees and documenting their behaviors daily, she uncovered complex social behaviors previously thought unique to humans.
 
 > Example: She famously observed chimpanzees using tools — like stripping leaves off twigs to fish termites — a discovery that redefined the boundary between humans and animals.
 
 #### 3. **Interconnectedness of Life**
+
 Goodall believes in the deep interconnection between people, animals, and the environment. She advocates for **holistic conservation**, where protecting wildlife also involves supporting local communities through education and sustainable development.
 
 #### 4. **Hope and Action for Environmental Stewardship**
+
 Despite witnessing environmental degradation, she remains a strong voice for **hope and positive change**. She encourages individual action and empowers young people to become agents of change.
 
 ---
@@ -72,13 +76,15 @@ However, one of her most famous and widely read books is:
 ---
 
 ### 📘 **"In the Shadow of Man" (1971)**
+
 This is one of Jane Goodall’s most well-known books and is a must-read for anyone interested in her work.
 
 #### 🌿 What Is It About?
 
 "In the Shadow of Man" tells the **story of her early years studying chimpanzees in Gombe Stream National Park, Tanzania**. Written for a general audience, it blends vivid storytelling with scientific observation.
 
-##### 🧾 Key Themes:
+##### 🧾 Key Themes
+
 - Her **first encounters** with wild chimpanzees.
 - The challenges she faced while living in the jungle — loneliness, danger, and perseverance.
 - Groundbreaking discoveries like:
@@ -87,7 +93,8 @@ This is one of Jane Goodall’s most well-known books and is a must-read for any
   - Emotions like grief, joy, and affection in animals.
 - Her **deep respect for nature** and how animals are more like humans than many people believed at the time.
 
-##### ✨ Why It's Important:
+##### ✨ Why It's Important
+
 - Brought the lives of chimpanzees into public awareness.
 - Helped change the way scientists view animal intelligence and emotion.
 - Encourages readers to see animals as individuals, not just subjects of study.

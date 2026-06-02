@@ -170,6 +170,7 @@ Since your BIOS is already **AHCI**:
    ```bash
    sudo parted /dev/nvme0n1 mklabel gpt
    ```
+
 2. Shut down
 3. Boot Windows USB
 4. Select **Unallocated Space**

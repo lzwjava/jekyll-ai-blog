@@ -19,18 +19,21 @@ This is a typical output from `git push` when you send new commits to GitHub (or
 ```text
 Delta compression using up to 8 threads
 ```
+
 Git is compressing the data you're sending using **delta compression** (storing changes relative to other objects instead of full copies).
 It decided to use up to **8 CPU threads** to do this compression in parallel.
 
 ```text
 Compressing objects: 100% (4/4), done.
 ```
+
 Git compressed **4** objects (usually commits + trees + blobs).
 All 4 were successfully compressed → **100% (4/4)**.
 
 ```text
 Writing objects: 100% (4/4), 2.44 KiB | 2.44 MiB/s, done.
 ```
+
 Git wrote **4** objects to the packfile that will be sent.
 Total size of these objects (after compression) = **2.44 KiB**
 Writing speed during this local pack creation = **2.44 MiB/s**
@@ -38,6 +41,7 @@ Writing speed during this local pack creation = **2.44 MiB/s**
 ```text
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 ```
+
 - **Total 4** objects are being sent
 - **delta 2** of them are stored as deltas (changes relative to other objects)
 - **reused 0** → no objects were reused from the local repository's existing packfiles
@@ -46,7 +50,9 @@ Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 ```text
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 ```
+
 On **GitHub's side**:
+
 - There were **2** delta objects in the pack you sent
 - GitHub applied/reconstructed those deltas successfully (**100%**)
 - It used **2 local objects** (already existing on GitHub) as the base to apply those deltas
@@ -54,6 +60,7 @@ On **GitHub's side**:
 ```text
 Transferred: sent 6904, received 4540 bytes, in 18.9 seconds
 ```
+
 Total network traffic during this push:
 
 - You **sent** **6904 bytes** to GitHub
@@ -63,6 +70,7 @@ Total network traffic during this push:
 ```text
 Bytes per second: sent 364.8, received 239.9
 ```
+
 Effective transfer speeds (very low in this case):
 
 - Upload speed ≈ **364.8 bytes/second** (~2.9 kbit/s)
@@ -71,6 +79,7 @@ Effective transfer speeds (very low in this case):
 ```text
 To github.com:lzwjava/blog-source.git
 ```
+
 The final line just shows which remote repository you pushed to.
 
 ### Quick summary – what was actually sent?
@@ -81,6 +90,7 @@ The final line just shows which remote repository you pushed to.
 - The push took **almost 19 seconds** → very slow connection (~3 kbit/s upload)
 
 This kind of output is typical when:
+
 - you're pushing very small changes
 - you have a very slow / high-latency / throttled internet connection
 - or you're pushing to a repository for the first time after a long time (lots of negotiation)

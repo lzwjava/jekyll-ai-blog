@@ -19,6 +19,7 @@ In mainland China, IELTS tests are managed through the NEEA (National Education 
 Your refund status shows "正在处理" (processing) for ¥1,990 via Alipay (original payment method), applied on 2026-01-13.
 
 **Refund processing time in China:**
+
 - The refund is typically processed and received **4 to 6 weeks** after the request is approved or after contacting the test center.
 - For online payments (like Alipay) made within one year, the refund returns directly to the original payment card/method without bank fees.
 - If the original card cannot receive it (or payment >1 year), it may be transferred via bank remittance to a provided account.
@@ -27,6 +28,7 @@ Your refund status shows "正在处理" (processing) for ¥1,990 via Alipay (ori
 Since your application was on January 13, 2026, and it's now mid-January, the status is still in early processing. Refunds can take several weeks to fully credit to Alipay.
 
 **Recommendations:**
+
 - Check your NEEA account regularly for updates on status or balance.
 - If no update after 4-6 weeks, contact the IELTS service hotline or your test center via the official NEEA IELTS website.
 - The exact time can vary based on the reason for refund (e.g., cancellation timing, exceptional circumstances) and processing volume.

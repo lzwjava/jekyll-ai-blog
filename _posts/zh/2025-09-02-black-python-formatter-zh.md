@@ -84,6 +84,7 @@ black --line-length 100 --diff src/
       hooks:
         - id: black
   ```
+
 * **CI/CD**：在持续集成流程中加入 `black --check .` 命令
 
 ---

@@ -16,6 +16,7 @@ type: note
 王琦（亦被称为 Daniel Wang 或 大蛙子）在全球白帽黑客社区中拥有**极高的水准**，尤其在 2010 年代期间的漏洞研究、漏洞利用开发和攻击安全领域表现突出。他创立并领导了 Keen Team（后演变为 DarkNavy），该团队是 Pwn2Own 竞赛中最成功的队伍之一——而 Pwn2Own 被广泛视为道德黑客的“奥运会”。在他的带领下，团队通过发现并负责任地披露苹果 Safari、Windows、Adobe Flash、iOS 等主流系统的零日漏洞，甚至在特斯拉汽车等设备上演示漏洞利用，取得了瞩目的胜利和优异的名次。
 
 他的贡献包括：
+
 - 职业生涯早期参与建立微软中国安全响应中心。
 - 组织创办 GeekPwn（现 GeekCon），这是一个专注于智能设备和物联网安全的重要国际会议与竞赛，促进了中国乃至全球的道德黑客文化。
 - 强调负责任披露和教育，以提升整体网络安全，而非利用漏洞进行破坏。
@@ -25,6 +26,7 @@ type: note
 然而，他的个人声誉更突出地体现在**中国网络安全圈内**以及熟悉 Pwn2Own 历史的人群中。在更广泛的国际社区里，他因团队的成就而受到认可，但可能不像一些持续赢得近期 Pwn2Own 冠军、或通过演讲、工具和长期研究公开做出贡献的独立研究人员那样拥有同等的广泛知名度。
 
 ### 谁拥有更好或相当的声誉？
+
 白帽黑客领域的声誉是主观的，取决于竞赛胜利、披露漏洞的数量/影响力、公开贡献（演讲、工具、书籍）、持久力以及对领域的影响力等多重指标。没有哪个人被普遍认为是“最好的”，但以下个人和团队通常被认为拥有同等或更高的全球可见度和声誉：
 
 - **Charlie Miller**：常被列为顶级白帽黑客之一。以多次 Pwn2Own 获胜、广泛的苹果和汽车漏洞研究以及公开演讲而闻名。他拥有博士学位，曾在美国国家安全局工作，后成为知名的独立研究员。
@@ -39,8 +41,9 @@ type: note
 总体而言，王琦在漏洞研究和社区领导力方面属于精英级别，尤其在他的时代更是如此，但全球白帽社区竞争激烈，许多才华横溢的研究人员通过个人成就获得了相似或更高的可见度。
 
 参考文献：
-- https://www.vice.com/en/article/meet-the-keen-team/
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
-- https://www.sixthtone.com/news/1014449/white-hat%2C-black-hat%3A-bringing-hackers-out-of-the-shadows
-- https://en.wikipedia.org/wiki/Pwn2Own
-- https://www.scmp.com/lifestyle/article/1844014/not-all-hackers-are-bad-look-world-chinese-white-hats
+
+- <https://www.vice.com/en/article/meet-the-keen-team/>
+- <https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html>
+- <https://www.sixthtone.com/news/1014449/white-hat%2C-black-hat%3A-bringing-hackers-out-of-the-shadows>
+- <https://en.wikipedia.org/wiki/Pwn2Own>
+- <https://www.scmp.com/lifestyle/article/1844014/not-all-hackers-are-bad-look-world-chinese-white-hats>

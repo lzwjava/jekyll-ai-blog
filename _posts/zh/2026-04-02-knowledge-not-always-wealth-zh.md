@@ -19,9 +19,11 @@ type: note
 ---
 
 # 1. Talking ≠ Doing (Knowledge–Action Gap)
+
 有些人积累的是**观点**，而不是**执行经验**。
 
 他们可能：
+
 - 阅读很多
 - 看视频
 - 在网上争论
@@ -32,6 +34,7 @@ type: note
 所以他们听起来很聪明，但产出很少。
 
 这被称为：
+
 - **intellectualization without execution**
 - **analysis paralysis**
 - **armchair expertise**
@@ -44,13 +47,16 @@ type: note
 ---
 
 # 2. Intelligence is not economically rewarded by default
+
 市场**不会**为以下付出报酬：
+
 - 正确
 - 逻辑性
 - 知道很多事实
 - 有强烈观点
 
 市场会为以下付出报酬：
+
 - 解决痛苦问题
 - 为他人创造价值
 - 构建系统
@@ -58,6 +64,7 @@ type: note
 - 长期一致性
 
 某人可能很“聪明”，但：
+
 - 不擅长沟通
 - 不擅长团队合作
 - 回避风险
@@ -69,14 +76,17 @@ type: note
 ---
 
 # 3. Ego protection mechanism
+
 有些人**夸大知识**，因为现实令人不适。
 
 如果某人：
+
 - 职业失败
 - 收入低
 - 生活不稳定
 
 他们可能会通过以下方式补偿：
+
 - 批评他人
 - 表现得高人一等
 - 辩论一切
@@ -89,18 +99,22 @@ type: note
 ---
 
 # 4. Internet amplifies "pseudo-experts"
+
 在线环境奖励：
+
 - 自信
 - 强烈观点
 - 反主流看法
 - 快速回应
 
 而不奖励：
+
 - 深度工作
 - 长期构建
 - 安静的胜任
 
 所以你看到很多：
+
 - 喧闹的声音
 - 现实世界影响低
 
@@ -110,17 +124,21 @@ type: note
 ---
 
 # 5. Real experts often look less confident
+
 讽刺的是：
+
 - 初学者以确定性说话
 - 专家以概率说话
 
 真正专家会说：
+
 - “取决于”
 - “不确定”
 - “权衡取舍”
 - “实践中很复杂”
 
 什么都懂的人会说：
+
 - “总是”
 - “显然”
 - “人人皆知”
@@ -133,7 +151,9 @@ type: note
 ---
 
 # 6. Knowledge without leverage stays poor
+
 要赚更多钱，知识必须与以下结合：
+
 - 产品
 - code
 - 系统
@@ -144,6 +164,7 @@ type: note
 否则只是**孤立的思考**。
 
 例子：
+
 - 深刻理解 startups → 但从未构建一个
 - 知道投资理论 → 但从未投资
 - 批判 AI → 但从未训练 model
@@ -153,14 +174,17 @@ type: note
 ---
 
 # 7. Some actually value ideas more than money
+
 同样重要：
 不是每个人都想要：
+
 - 高收入
 - 竞争
 - 压力
 - 风险
 
 有些人更喜欢：
+
 - 阅读
 - 辩论
 - 简单生活
@@ -172,6 +196,7 @@ type: note
 ---
 
 # 简单总结
+
 你注意到了这个模式：
 
 **说话能力 > 执行能力**
@@ -183,13 +208,16 @@ type: note
 ---
 
 # 相反模式也存在
+
 你也会看到：
+
 - 安静的工程师
 - 小企业主
 - 交易员
 - 构建者
 
 他们：
+
 - 少说话
 - 赚很多钱
 - 深刻了解
@@ -200,6 +228,7 @@ type: note
 ---
 
 你的观察实际上是你在区分的迹象：
+
 - 知识表演 🎭
 vs
 - 现实世界效能 ⚙️

@@ -28,6 +28,7 @@ Key reasons for the problems:
 Hong Kong isn't fully banned (Steam/PC version reportedly works there, and mobile appears available), but it may not be in the primary Global or Garena rollout regions, leading to partial support or login limitations. This is common for games from Chinese developers due to separate mainland China versions, regulatory approvals, and publisher territories.
 
 **Possible workarounds** (use at your own risk, as they may violate terms):
+
 - Try logging in with other methods besides Google (e.g., email/password, Apple ID, or guest if available).
 - Ensure your device region and App Store country match (avoid mixing US/HK).
 - Clear app cache/data, reinstall, or check for updates.

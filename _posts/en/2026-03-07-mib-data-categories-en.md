@@ -31,16 +31,19 @@ As a **logical structure**, the MIB organizes its data into **three categories**
 ---
 
 ### 1. Structural Data (结构数据)
+
 This refers to the **static, descriptive information** about the network and its devices — things like device types, network topology, interface configurations, and hardware attributes. This data defines *what* the network looks like and does not change frequently.
 
 ---
 
 ### 2. Dynamic Data (动态数据)
+
 This refers to **real-time, changing operational information** collected during network operation. MIB data can be static (such as manufacturer information) or dynamic (such as current interface traffic). Network management systems access this dynamic data periodically through polling or event-driven mechanisms to perform management operations. Examples include current traffic load, error counters, CPU utilization, and interface states.
 
 ---
 
 ### 3. Control Data (控制数据)
+
 This refers to **operational commands and configuration parameters** used to actively manage and configure devices. Managed objects must maintain certain control and status information that can be read or written by the management program — these objects form a virtual information store known as the MIB. Control data enables the NMS to issue Set operations to change device behavior or configuration.
 
 ---

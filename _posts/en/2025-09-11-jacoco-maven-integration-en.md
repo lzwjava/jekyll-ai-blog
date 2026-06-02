@@ -42,6 +42,7 @@ Got it—here’s how the JaCoCo pieces in **your exact POM** work together, ste
     <jacoco.it.exec>${project.build.directory}/jacoco-it.exec</jacoco.it.exec>
   </properties>
   ```
+
 * You start Jetty **with its own JaCoCo agent** pointing to that file:
 
   ```xml
@@ -144,6 +145,7 @@ Got it—here’s how the JaCoCo pieces in **your exact POM** work together, ste
        </configuration>
      </execution>
      ```
+
    * Result: HTML goes to `target/site/jacoco-it/index.html` summarizing only **integration** coverage (from Jetty).
 
 > Note: If you also want a **unit-test** report, you could add another `jacoco:report` execution that points at the default `target/jacoco.exec` and outputs to `target/site/jacoco`—keeping unit and IT reports separate.
@@ -164,6 +166,7 @@ Got it—here’s how the JaCoCo pieces in **your exact POM** work together, ste
   ```xml
   -javaagent:...org.jacoco.agent-...-runtime.jar=destfile=${jacoco.it.exec},append=false
   ```
+
 * If you ever want to merge multiple `.exec` files on purpose, use `jacoco:merge` before `jacoco:report`.
 
 ---

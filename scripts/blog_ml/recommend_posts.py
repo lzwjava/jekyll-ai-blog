@@ -51,7 +51,7 @@ class Autoencoder(nn.Module):
         return self.decoder(emb)
 
 
-model = Autoencoder(vocab_size)
+model = Autoencoder(X_tensor.shape[1])
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 loss_fn = nn.MSELoss()
 
@@ -75,7 +75,7 @@ for i in range(len(texts)):
     print(f"Recs for post {i}: {rec_indices}")
 
 # Save embeddings to JSON for Jekyll
-import json
+import json  # noqa: E402
 
 with open("embeddings.json", "w") as f:
     json.dump(

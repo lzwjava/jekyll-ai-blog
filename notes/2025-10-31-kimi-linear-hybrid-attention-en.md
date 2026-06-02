@@ -15,10 +15,12 @@ type: note
 Kimi Linear is an experimental mixture-of-experts (MoE) language model architecture developed by Moonshot AI, released in late October 2025. It's designed to handle extremely long contexts (up to 1 million tokens) with high efficiency, making it particularly suited for tasks involving extended reasoning, long-form generation, and reinforcement learning (RL) scenarios. The architecture is open-sourced under the MIT license and available on Hugging Face as models like Kimi-Linear-48B-A3B-Instruct.
 
 At its core, Kimi Linear uses a **hybrid attention mechanism** that combines:
+
 - **Kimi Delta Attention (KDA)**: A linear attention variant that's a refined version of Gated DeltaNet. KDA employs a more efficient gating mechanism on finite-state RNN memory, allowing it to approximate full attention while drastically reducing computational overhead. This makes it "linear" in complexity (O(N) instead of O(N²) for sequence length N).
 - **Multihead Latent Attention (MLA)**: Integrated globally in a 3:1 ratio (3 parts KDA to 1 part MLA) for better modeling of complex dependencies.
 
 The models have 48 billion total parameters but only 3 billion activated per forward pass (typical for MoE designs), trained on 5.7 trillion tokens. Key benefits include:
+
 - Up to 75% reduction in KV cache memory usage.
 - Up to 6x faster decoding throughput for long contexts.
 - Superior performance in benchmarks for short-context tasks, long-context retrieval, and RL scaling laws.
@@ -44,6 +46,7 @@ Kimi Linear isn't a direct replacement for MLA but builds on it as a hybrid, add
 Overall, Kimi Linear represents an evolution toward "hybrid" attentions, blending linear scalability with latent compression for next-gen long-context models. It's especially promising for open-source deployments where hardware constraints matter.
 
 **References**
+
 - [Kimi-Linear Collection on Hugging Face](https://huggingface.co/collections/moonshotai/kimi-linear)
 - [Reddit Discussion on Kimi Linear Release](https://www.reddit.com/r/LocalLLaMA/comments/1ojzekg/moonshotaikimilinear48ba3binstruct_hugging_face/)
 - [Gated DeltaNet Paper (KDA Basis)](https://arxiv.org/abs/2412.06464)

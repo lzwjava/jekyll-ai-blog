@@ -25,9 +25,9 @@ This message is a notification or reminder from the Guangdong Province Higher Ed
    - This refers to an official rule/policy from the Guangdong Education Examination Authority.
    - The system requires five key pieces of information to be complete: name, valid ID number, gender, birth date, and a photo.
    - If any of these are missing or incorrect in your existing record (e.g., no photo, blank ID field, etc.), the system will block you from registering for exams.
-   - You must log in to check your information (via https://www.eeagd.edu.cn/selfec/ → Candidate Entrance). If anything is wrong or incomplete, contact your local city or district self-study exam office (自学考试办公室) as soon as possible to submit an application for correction (考籍信息变更).
+   - You must log in to check your information (via <https://www.eeagd.edu.cn/selfec/> → Candidate Entrance). If anything is wrong or incomplete, contact your local city or district self-study exam office (自学考试办公室) as soon as possible to submit an application for correction (考籍信息变更).
 
-3. **If you have forgotten your candidate number, please use the "Retrieve Candidate Number" function in the Candidate Entrance at https://www.eeagd.edu.cn/selfec/. This function is only available for candidate numbers that are bound to a mobile phone under the same ID. If you have not bound a mobile phone, please consult your local self-study examination office.**
+3. **If you have forgotten your candidate number, please use the "Retrieve Candidate Number" function in the Candidate Entrance at <https://www.eeagd.edu.cn/selfec/>. This function is only available for candidate numbers that are bound to a mobile phone under the same ID. If you have not bound a mobile phone, please consult your local self-study examination office.**
 
    - Forgetting the 准考证号 is common, but recovery is limited.
    - The online tool works only if your candidate record has a linked/bound mobile phone number.

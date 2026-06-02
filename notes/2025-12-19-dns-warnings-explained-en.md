@@ -17,22 +17,26 @@ type: note
 These warning logs in Clash (likely Clash for Windows or a similar client like Clash Verge) indicate repeated failed attempts to resolve and connect to the hostname **lzwjava.local** on port 59822.
 
 ### Key Breakdown of the Log
+
 - **DomainSuffix/local**: A rule in your Clash configuration matches domains ending in `.local` (common for local network/multicast DNS hosts) and routes them to **DIRECT** (bypassing proxy).
 - **127.0.0.1:... --> lzwjava.local:59822**: An application on your local machine (localhost, using different source ports like 49245–49255) tries to connect to `lzwjava.local:59822`.
 - **error: couldn't find ip**: Clash attempts DNS resolution for `lzwjava.local` but fails to get an IP address.
 
 ### Why This Happens
+
 - `.local` domains use **mDNS (multicast DNS)**, typically handled by services like Avahi (Linux) or Bonjour (Windows/macOS).
 - Clash's built-in DNS resolver does not support mDNS queries. When routing DIRECT for `.local`, it relies on standard DNS, which cannot resolve `lzwjava.local` → failure.
 - No IP found → connection fails → warning logged.
 
 ### Why So Many Logs
+
 - An application on your machine repeatedly tries to connect to `lzwjava.local:59822`.
 - Port **59822** suggests a service like **IntelliJ IDEA** or another Java IDE (JetBrains products) in "remote development" or "thin client" mode, where the IDE frontend connects to a backend server on a remote host or VM using a `.local` hostname.
 - The app likely polls or retries the connection frequently (e.g., every few seconds for heartbeat/status checks), producing multiple rapid attempts (11 in quick succession here).
 - Common triggers: IDE checking server status, auto-reconnect attempts, or background sync.
 
 ### How to Fix or Reduce Logs
+
 1. **Add Host Mapping** (Quick Fix):
    - Edit your system's `hosts` file:
      - Windows: `C:\Windows\System32\drivers\etc\hosts`

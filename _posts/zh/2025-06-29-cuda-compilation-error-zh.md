@@ -16,29 +16,38 @@ type: note
    - 确保系统已安装NVIDIA CUDA工具包。可从 [NVIDIA CUDA工具包官网](https://developer.nvidia.com/cuda-downloads) 下载。
    - 根据操作系统（根据提示信息应为Linux）按照安装说明进行操作。
    - 安装后通过以下命令验证：
+
      ```bash
      nvcc --version
      ```
+
      若安装正确，将显示CUDA版本信息。
 
 2. **使用 `nvcc` 编译**：
    - 由于文件是CUDA源文件（`.cu`），应使用 `nvcc` 替代 `gcc` 编译。将：
+
      ```bash
      gcc scripts/benchmark/cudamark.c
      ```
+
      替换为：
+
      ```bash
      nvcc scripts/benchmark/cudamark.cu
      ```
+
    - 注意：确保文件扩展名与实际文件匹配（代码中为 `.cu`，而非错误提示中的 `.c`）。
 
 3. **配置CUDA环境**：
    - 确保环境变量包含CUDA工具包路径。将以下内容添加到 `~/.bashrc` 或等效的shell配置文件中：
+
      ```bash
      export PATH=/usr/local/cuda/bin:$PATH
      export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
      ```
+
      随后执行：
+
      ```bash
      source ~/.bashrc
      ```
@@ -93,13 +102,16 @@ type: note
 
 6. **编译更新后的代码**：
    - 将代码保存为 `cudamark.cu` 后编译：
+
      ```bash
      nvcc -o cudamark scripts/benchmark/cudamark.cu
      ```
+
    - 若出现链接错误，请确认CUDA库路径可访问（参考步骤3）。
 
 7. **运行程序**：
    - 执行编译后的二进制文件：
+
      ```bash
      ./cudamark
      ```
@@ -107,11 +119,14 @@ type: note
 8. **补充说明**：
    - **文件扩展名**：确保文件扩展名为 `.cu`，这是 `nvcc` 正确处理CUDA文件的必要条件。
    - **GPU可用性**：确保具备支持CUDA的GPU并安装正确驱动。可通过以下命令检查：
+
      ```bash
      nvidia-smi
      ```
+
    - **Thrust与CUDA版本**：确认CUDA版本支持Thrust。建议使用CUDA 11.x或更高版本以获得现代Thrust功能支持。
    - **计时精度**：`clock()` 函数测量的是CPU时间，而非GPU执行时间。如需更精确的GPU计时，建议使用CUDA事件：
+
      ```cuda
      cudaEvent_t start, stop;
      cudaEventCreate(&start);
@@ -127,18 +142,23 @@ type: note
 
 9. **若问题仍存在**：
    - 若仍提示找不到 `cuda.h`，请验证CUDA工具包安装路径（例如 `/usr/local/cuda/include`）。可能需要显式指定包含路径：
+
      ```bash
      nvcc -I/usr/local/cuda/include -o cudamark scripts/benchmark/cudamark.cu
      ```
+
    - 确保文件路径 `scripts/benchmark/cudamark.cu` 相对于当前目录正确。
 
 ### 更新后的编译命令
+
 ```bash
 nvcc -o cudamark scripts/benchmark/cudamark.cu
 ```
 
 ### 预期输出
+
 解决问题后，运行 `./cudamark` 应输出类似以下内容：
+
 ```
 Run,TimeTakenSeconds
 1,0.123456

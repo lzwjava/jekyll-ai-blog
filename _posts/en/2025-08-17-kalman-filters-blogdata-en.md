@@ -163,8 +163,8 @@ In `Makefile`:
 
 ```make
 kalman:
-	python3 scripts/kalman/smooth_series.py --in assets/data/pageviews.csv \
-		--out-prefix assets/kalman/pageviews --dt 1.0 --q 0.05 --r 4.0
+ python3 scripts/kalman/smooth_series.py --in assets/data/pageviews.csv \
+  --out-prefix assets/kalman/pageviews --dt 1.0 --q 0.05 --r 4.0
 ```
 
 Run:

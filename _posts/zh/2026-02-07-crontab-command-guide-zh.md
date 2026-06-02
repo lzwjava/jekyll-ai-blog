@@ -17,17 +17,21 @@ Answer:
 Linux/Unix 系统中的 `crontab` 命令用于管理用户的 cron tables —— 这些文件安排了由 cron daemon 自动执行的定期任务（cron jobs）。
 
 ### Main crontab command modes
+
 主要有两种语法形式：
 
 1. **从文件（或 stdin）安装/替换 crontab**：
+
    ```
    crontab [ -u username ] filename
    crontab [ -u username ] -
    ```
+
    - 从指定文件（或在使用 `-` 时从标准输入）读取 crontab 内容，并将其安装为该用户的 crontab。
    - 这是批量导入或恢复 cron jobs 最常用的方式。
 
 2. **操作当前/现有的 crontab**：
+
    ```
    crontab [ -u username ] -l | -r | -e [options]
    ```

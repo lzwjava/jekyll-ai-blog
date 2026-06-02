@@ -197,7 +197,7 @@ Since you said:
 
 I recommend:
 
-### MVP stack:
+### MVP stack
 
 * Embedding: **BAAI BGE**
 * Vector DB: **FAISS (start)** → later Milvus
@@ -250,7 +250,7 @@ This is basically:
 
 Once MVP works:
 
-### Add:
+### Add
 
 * memory per user
 * metadata filtering (date, tags)

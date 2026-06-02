@@ -15,6 +15,7 @@ type: note
 Xinjiang, China's vast northwestern frontier, blends stunning natural landscapes, ancient Silk Road history, and vibrant Uyghur culture. This 15-day itinerary focuses on a classic loop through southern and northern Xinjiang, starting and ending in Urumqi (the main international gateway). It assumes mid-2025 travel (e.g., June–September for milder weather; avoid winter extremes). Expect long drives (4–8 hours on some days) across diverse terrains—book a private driver/guide for ease, as public transport is limited. Total estimated cost per person (mid-range, excluding flights): $1,500–2,500 USD, covering lodging, meals, and entry fees.
 
 **Key Logistics:**
+
 - **Visa & Permits:** Most visitors need a China tourist visa (L-visa). For border areas like Kashgar or Tashkurgan, apply for a free Xinjiang Border Permit 1–2 months ahead via a travel agency.
 - **Getting There:** Fly into Urumqi Diwopu International Airport (URC). Domestic flights from Beijing/Shanghai (~3–4 hours) or international from Central Asia.
 - **Transportation:** High-speed trains for Urumqi–Turpan; otherwise, private car/van (essential for remote spots). Renting a self-drive car requires an international permit.
@@ -45,6 +46,7 @@ Xinjiang, China's vast northwestern frontier, blends stunning natural landscapes
 **Customizations:** If you prefer nature over culture, swap Hotan for Kanas Lake in northern Xinjiang (add Days 12–13 there for forests and autumn foliage). For families, shorten drives with more flights. Solo? Join group tours via China Discovery.
 
 **References:**
+
 - [Silk Road Journey in China's Xinjiang Region - 15 Days](https://www.kimkim.com/c/silk-road-journey-in-chinas-xinjiang-region-15-days)
 - [15-day Silk Road and Xinjiang Tour](https://www.lilysunchinatours.com/Silk-Road-Tour/15-day-Silk-Road-and-Xinjiang-Tour.html)
 - [Xinjiang Travel Guide](https://www.fabionodariphoto.com/en/things-do-xinjiang-china/)

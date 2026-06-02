@@ -12,6 +12,7 @@ type: note
 ## 快速解决方案
 
 ### 1. **使用 Activity Monitor (GUI)**
+
 - 打开 **Activity Monitor** (Applications > Utilities)
 - 点击 **Disk** 选项卡
 - 查找使用外部驱动器的进程
@@ -20,7 +21,8 @@ type: note
 
 ### 2. **使用 Terminal (命令行)**
 
-#### 查找使用磁盘的内容：
+#### 查找使用磁盘的内容
+
 ```bash
 # 将 DISKNAME 替换为实际磁盘名称（例如 MyDrive、Untitled 等）
 lsof | grep DISKNAME
@@ -29,7 +31,8 @@ lsof | grep DISKNAME
 lsof +D /Volumes
 ```
 
-#### 识别磁盘挂载点：
+#### 识别磁盘挂载点
+
 ```bash
 # 列出所有已挂载卷及其路径
 mount | grep -E "Volumes|media"
@@ -38,7 +41,8 @@ mount | grep -E "Volumes|media"
 diskutil list
 ```
 
-#### 查找访问驱动器的进程：
+#### 查找访问驱动器的进程
+
 ```bash
 # 将 /Volumes/DISKNAME 替换为实际路径
 lsof | grep "/Volumes/DISKNAME"
@@ -46,7 +50,8 @@ lsof | grep "/Volumes/DISKNAME"
 # 显示进程名称和 PID (进程 ID)
 ```
 
-#### 终止进程：
+#### 终止进程
+
 ```bash
 # 将 PID 替换为实际进程 ID（例如 1234）
 kill -9 PID
@@ -75,32 +80,41 @@ killall -9 processname
 1. 打开 **Terminal** (Applications > Utilities)
 
 2. **查找磁盘挂载点：**
+
    ```bash
    diskutil list
    ```
+
    查找外部驱动器名称。记下挂载点（例如 `/Volumes/MyDrive`）
 
 3. **查找使用该磁盘的进程：**
+
    ```bash
    lsof | grep "/Volumes/MyDrive"
    ```
+
    将 "MyDrive" 替换为实际磁盘名称
 
 4. **检查输出** - 你会看到：
+
    ```
    COMMAND   PID    USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
    Finder    123   user   cwd    DIR    1,2        4096 1234 /Volumes/MyDrive
    ```
+
    - **COMMAND**：进程名称
    - **PID**：进程 ID（需要终止的数字）
 
 5. **终止进程：**
+
    ```bash
    kill -9 123
    ```
+
    将 123 替换为实际 PID
 
 6. **再次尝试弹出**，从 Finder 或通过 Terminal：
+
    ```bash
    diskutil eject /Volumes/MyDrive
    ```

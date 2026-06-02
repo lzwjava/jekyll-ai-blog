@@ -14,11 +14,13 @@ Question: Can we run MTR through a local proxy like Mihomo or Clash on port 7890
 Answer:
 
 ### Short Answer
+
 **No, not directly and not reliably.**
 
 MTR (and the underlying `traceroute` + `ping` tools it uses) operates at a low network level using **ICMP** (for ping) and **UDP** or **ICMP** (for traceroute). Most local proxies like **Clash**, **Mihomo**, or similar tools primarily handle **TCP** (and sometimes UDP) traffic through **SOCKS5** or **HTTP** proxies. They do not natively support or forward raw **ICMP** packets in a way that standard command-line tools like `mtr` can use.
 
 ### Why It Usually Doesn't Work
+
 - **Protocol Limitation**:
   - Ping/MTR sends **ICMP Echo Request** packets.
   - SOCKS5 proxies (the mixed-port 7890/7891/7892 in Mihomo/Clash) are designed for TCP/UDP connections, not raw ICMP.
@@ -34,6 +36,7 @@ MTR (and the underlying `traceroute` + `ping` tools it uses) operates at a low n
   - Ignores the proxy and goes direct.
 
 ### Possible Workarounds (Limited Success)
+
 Here are the realistic options, ranked from easiest to most complex:
 
 1. **Use TUN Mode in Mihomo/Clash (Best for most users)**
@@ -64,6 +67,7 @@ Here are the realistic options, ranked from easiest to most complex:
    Use `redir`/`iptables` + `socat` or tools like `iproxy` to forward ICMP, but this is fragile and not worth it for most people.
 
 ### Recommendation
+
 - For quick diagnostics of your **actual** network path (including the proxy effect), enable **TUN mode** and test MTR.
 - To see the path **inside** the proxy network, run MTR from a machine/VPS that is already behind the proxy.
 - If you only need latency/loss to the final destination (not hop-by-hop), use `ping` wrapped with `proxychains` or just test via curl/wget which respect the proxy.
@@ -73,4 +77,5 @@ In practice, most network engineers run MTR **without** the local proxy active w
 If you tell me your operating system (Linux, macOS, Windows) and exact Mihomo/Clash setup (TUN enabled? mixed-port or SOCKS-only?), I can give more precise commands.
 
 References:
+
 - None

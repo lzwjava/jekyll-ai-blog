@@ -169,6 +169,7 @@ public extension TelegramEngine {
 ```
 
 消费者代码中的用法如下：
+
 ```swift
 context.engine.data.subscribe(
     EngineData.Item.Peer(id: peerId),
@@ -231,6 +232,7 @@ public extension Signal where E == NoError {
 ```
 
 `|>` 管道操作符被广泛使用——它将信号链转变为可读的管道：
+
 ```swift
 context.engine.data.subscribe(EngineData.Item.Peer(id: peerId))
 |> map { peer -> String in peer.debugDisplayableName }
@@ -274,6 +276,7 @@ public protocol ValueBox {
 ```
 
 关键设计决策：
+
 - `ValueBoxKey` 是类型化的键（二进制或 int64）——没有字符串类型的混乱
 - `ReadBuffer` 返回原始指针以实现零拷贝读取
 - `MemoryBuffer` 用于写入——避免 Data 分配开销
@@ -319,6 +322,7 @@ genrule(
 ```
 
 构建系统使用：
+
 - 每个子模块使用 `swift_library`（细粒度依赖跟踪）
 - 使用 `genrule` 进行代码生成（字符串、意图）
 - 使用 `config_setting` 切换调试/发布/扩展

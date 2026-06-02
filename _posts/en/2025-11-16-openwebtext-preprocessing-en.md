@@ -11,7 +11,9 @@ type: note
 ---
 
 ### Overview
+
 This Python script processes a large text file containing the OpenWebText dataset (a corpus of web-scraped text similar to what's used for training models like GPT-2). The goal is to:
+
 - Split the raw text into manageable "documents" (chunks of text).
 - Create a Hugging Face `Dataset` object for easy handling.
 - Tokenize the text using the GPT-2 Byte Pair Encoding (BPE) tokenizer from TikToken (ignoring special tokens and appending an end-of-text marker).
@@ -25,6 +27,7 @@ The script prints proxy settings at the start (likely for debugging network issu
 ### Step-by-Step Breakdown
 
 #### 1. Imports and Initial Setup
+
 ```python
 import os
 import tarfile
@@ -51,6 +54,7 @@ enc = tiktoken.get_encoding("gpt2")
 
 datasets.logging.set_verbosity_info()
 ```
+
 - **Purpose**: Imports libraries for file handling (`os`, `tarfile`), progress bars (`tqdm`), numerical operations (`numpy`), tokenization (`tiktoken`), and Hugging Face utilities (`huggingface_hub`, `datasets`).
 - **Proxy prints**: Logs environment variables for HTTP/HTTPS proxies, useful if the script encounters network restrictions (e.g., for downloading tokenizer models, though TikToken handles this internally).
 - **Workers**: Sets `num_proc=8` for parallel processing in tokenization (roughly half the CPU cores for balance). `num_proc_load_dataset` matches it but isn't used here (leftover from the inspiration code, which loads from Hugging Face).
@@ -60,6 +64,7 @@ datasets.logging.set_verbosity_info()
 The `if __name__ == '__main__':` guard ensures the main logic runs only when the script is executed directly (not imported).
 
 #### 2. Reading and Splitting the Text File
+
 ```python
 if __name__ == '__main__':
     # Read the local openwebtext.txt file
@@ -98,15 +103,17 @@ if __name__ == '__main__':
 
         print(f"Created {len(texts)} documents from the text file")
 ```
+
 - **File reading**: Opens `openwebtext.txt` (assumed to be in the same directory as the script) in UTF-8 mode, ignoring encoding errors. Reads the entire content into `full_text` and strips whitespace.
 - **Splitting logic**: Attempts to divide the text into "documents" (logical chunks like paragraphs or articles):
   - **Primary**: Split by double newlines (`\n\n`), common for separating documents in corpora.
   - **Fallback 1**: If that yields ≤1 chunk (e.g., no double newlines), split by single newlines (`\n`) for line-based text.
-  - **Fallback 2**: If still ≤1 chunk (e.g., a single block of text), split into sentences by `. ` (period + space), then group every 100 sentences into a "document" chunk. This prevents overly long single entries. Adds a period to the end of each chunk for completeness.
+  - **Fallback 2**: If still ≤1 chunk (e.g., a single block of text), split into sentences by `.` (period + space), then group every 100 sentences into a "document" chunk. This prevents overly long single entries. Adds a period to the end of each chunk for completeness.
 - **Output**: Stores non-empty, stripped documents in `texts` list. Prints the total number created (e.g., 10k examples for a subset).
 - **Why this way?** OpenWebText is a concatenation of web pages, so splitting creates training examples that aren't just raw dumps. This mimics how datasets like BookCorpus are processed.
 
 #### 3. Creating and Splitting the Dataset
+
 ```python
     # Create dataset from texts
     dataset = datasets.Dataset.from_dict({'text': texts})
@@ -115,6 +122,7 @@ if __name__ == '__main__':
     split_dataset = dataset.train_test_split(test_size=0.0005, seed=2357, shuffle=True)
     split_dataset['val'] = split_dataset.pop('test') # rename the test split to val
 ```
+
 - **Dataset creation**: Wraps the `texts` list into a Hugging Face `Dataset` with a single column `'text'`. This enables efficient parallel operations like mapping.
 - **Splitting**: Uses `train_test_split` to divide into train (99.95%) and test (0.05%) sets. The small validation size is intentional for huge datasets—enough for evaluation without wasting compute.
   - `test_size=0.0005`: 0.05% for val (e.g., ~50 examples from 100k).
@@ -123,6 +131,7 @@ if __name__ == '__main__':
 - **Rename**: Pops `'test'` and renames to `'val'`. Now `split_dataset` is a dict with `'train'` and `'val'` keys, each a `Dataset` object.
 
 #### 4. Tokenization Function
+
 ```python
     # we now want to tokenize the dataset. first define the encoding function (gpt2 bpe)
     def process(example):
@@ -132,12 +141,14 @@ if __name__ == '__main__':
         out = {'ids': ids, 'len': len(ids)}
         return out
 ```
+
 - **Purpose**: Converts text to token IDs for model input.
 - **`encode_ordinary`**: Tokenizes the text string into a list of integers (GPT-2 vocab). Ignores any non-standard tokens in the text.
 - **Append EOT**: Adds the end-of-text token (ID 50256 for GPT-2) at the end. This signals the sequence boundary during training. (The comment notes a potential prepend vs. append debate, but appending is common in causal LM setups like GPT.)
 - **Output**: Returns a dict with `'ids'` (list of token IDs) and `'len'` (sequence length, for later summing).
 
 #### 5. Applying Tokenization
+
 ```python
     # tokenize the dataset
     tokenized = split_dataset.map(
@@ -147,11 +158,13 @@ if __name__ == '__main__':
         num_proc=num_proc,
     )
 ```
+
 - **Mapping**: Applies `process` to every example in the train/val datasets using parallel workers (`num_proc=8`).
 - **`remove_columns=['text']`**: Drops the original text to save memory (we only need tokens now).
 - **Progress**: Shows a progress bar via `desc`. This step can take time for large datasets due to encoding.
 
 #### 6. Saving Tokenized Data to Binary Files
+
 ```python
     # concatenate all the ids in each dataset into one large file we can use for training
     for split, dset in tokenized.items():
@@ -177,6 +190,7 @@ if __name__ == '__main__':
                 idx += len(arr_batch)
         arr.flush()
 ```
+
 - **Loop over splits**: For `'train'` and `'val'`, compute total token count (`arr_len`) by summing `'len'` fields.
 - **Memory-mapped array**: Creates a NumPy memmap file (`train.bin` or `val.bin`) as a writable array of uint16 integers (fits GPT-2's 50,256 max token value; saves ~50% space vs. int32). Shape is 1D: `(total_tokens,)`.
 - **Batching for efficiency**: Divides the dataset into up to 1024 shards (`total_batches`) to avoid loading everything into RAM at once. For small datasets (<1024 examples), uses the exact number.
@@ -187,6 +201,7 @@ if __name__ == '__main__':
 - **Why binary/memmap?** These files are huge but streamable. During training, you can load them with `np.memmap('train.bin', dtype=np.uint16, mode='r')` without loading everything into memory.
 
 #### 7. Comments on Output and Usage
+
 ```python
     # train.bin is ~17GB, val.bin ~8.5MB
     # train has ~9B tokens (9,035,582,198)
@@ -195,10 +210,12 @@ if __name__ == '__main__':
     # to read the bin files later, e.g. with numpy:
     # m = np.memmap('train.bin', dtype=np.uint16, mode='r')
 ```
+
 - These are example sizes for the full OpenWebText (your local file might differ).
 - **Reading tip**: Use memmap for read-only access. In training loops, you can sample random starting indices and read fixed-length sequences (e.g., 1024 tokens) from the flat array.
 
 ### Potential Issues and Notes
+
 - **Memory usage**: Reading the full `openwebtext.txt` into RAM could fail for very large files (40GB+). Consider streaming reads if needed.
 - **EOT placement**: The comment questions appending vs. prepending EOT; in practice, appending works for autoregressive models (it marks the end after content).
 - **Customization**: Assumes a local file; the inspiration code downloads from Hugging Face, but this version reads locally (faster, no auth needed).

@@ -11,6 +11,7 @@ type: note
 The polar coordinate system is a two-dimensional coordinate system in which each point on a plane is determined by a distance from a reference point and an angle from a reference direction. This is in contrast to the Cartesian coordinate system, which uses x and y coordinates to define a point.
 
 In polar coordinates, a point is represented as \\((r, \theta)\\), where:
+
 - \\(r\\) is the radial distance from the origin (the reference point).
 - \\(\theta\\) is the angular coordinate, usually measured in radians from the positive x-axis (the reference direction).
 

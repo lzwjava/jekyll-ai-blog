@@ -18,7 +18,7 @@ DMIT.io advertises a customizable front-end (external) firewall with ACL rules f
 Here are the most likely reasons you can't find it and steps to resolve:
 
 1. **Check the correct location in the control panel**
-   - Log in to https://www.dmit.io/ or your billing/client area (SolusVM, custom panel, or WHMCS-based portal).
+   - Log in to <https://www.dmit.io/> or your billing/client area (SolusVM, custom panel, or WHMCS-based portal).
    - Go to **Services** → **My Services** → select your specific cloud instance/VM.
    - Look for tabs or sections like:
      - "Firewall"
@@ -35,26 +35,34 @@ Here are the most likely reasons you can't find it and steps to resolve:
 
 3. **Your issue is almost certainly NOT the DMIT external firewall**
    - You already ran:
+
      ```
      sudo ufw allow 13000:14000/tcp
      sudo ufw allow 13000:14000/udp
      sudo ufw reload
      ```
+
      But then saw: **Firewall not enabled (skipping reload)**
    - This means **UFW is currently disabled/inactive** on your VPS. No rules (even allowed ones) are being enforced because the firewall isn't running.
    - **Fix this first** — it's the most common reason ports remain blocked even after adding rules:
+
      ```
      sudo ufw enable
      ```
+
      Answer "y" to the prompt (it warns about possibly disrupting SSH — make sure you have console access via the DMIT panel in case of lockout).
      Then reload again:
+
      ```
      sudo ufw reload
      ```
+
      Verify status:
+
      ```
      sudo ufw status verbose
      ```
+
      You should now see your 13000:14000 rules listed as ALLOW and the firewall as "active".
 
 4. **Test connectivity after enabling UFW**
@@ -69,6 +77,7 @@ Here are the most likely reasons you can't find it and steps to resolve:
    - DMIT support is generally helpful for these questions and can guide you to the exact panel section (or confirm if it's not user-editable on your plan).
 
 **Summary**
+
 - Enable UFW first (`sudo ufw enable`) — that's blocking your ports right now, not DMIT's side.
 - The DMIT external ACL interface exists per their site but may be hard to locate or limited; use support if needed.
 - Opening a large range like 1000 ports to 0.0.0.0/0 is risky — restrict source IPs if your application allows it.

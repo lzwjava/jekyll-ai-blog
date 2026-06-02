@@ -12,7 +12,7 @@ type: note
 
 I'll search for the most current information about obtaining an electronic visa under the ASMTP scheme in Hong Kong.Based on the information from Hong Kong's Immigration Department, here's how to get your electronic visa (e-Visa) after ASMTP approval:
 
-## Steps to Get Your e-Visa:
+## Steps to Get Your e-Visa
 
 **1. Application Approval**
 After your ASMTP application is approved (which typically takes 4 weeks), you'll receive a notification of the application result via email, fax, or post.

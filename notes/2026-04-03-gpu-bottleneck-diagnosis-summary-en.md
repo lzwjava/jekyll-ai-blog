@@ -14,6 +14,7 @@ Here’s the step-by-step reasoning I used to arrive at that diagnosis and solut
 ## Step 1: Identify the core anomaly
 
 **21 seconds per iteration** on an H200 GPU is immediately suspicious. For context:
+
 - A single H200 can do ~300-500 TFLOPs (FP16/BF16)
 - GPT-2 XL (1.5B params) forward+backward on 1M tokens should take **~0.5-1.5 seconds** on this hardware
 - Even with overhead, anything over 3-5 seconds signals a bottleneck
@@ -23,6 +24,7 @@ The MFU reading of **150%+** confirms something is broken in the measurement, no
 ## Step 2: Calculate the actual data load
 
 Looking at your config:
+
 ```
 batch_size = 16
 block_size = 1024
@@ -30,6 +32,7 @@ gradient_accumulation_steps = 64
 ```
 
 Per iteration:
+
 - Each micro-batch: 16 × 1024 = 16,384 tokens
 - 64 accumulations = **1,048,576 tokens per iteration**
 - That's ~4MB of data (4 bytes per token)
@@ -38,6 +41,7 @@ Per iteration:
 ## Step 3: Trace the data path in nanoGPT
 
 Standard `get_batch()` in nanoGPT:
+
 ```python
 def get_batch(split):
     data = train_data if split == 'train' else val_data
@@ -48,6 +52,7 @@ def get_batch(split):
 ```
 
 This does **random indexing into a numpy/memory-mapped array**. With `gradient_accumulation_steps=64`, you're doing:
+
 - 64 calls to `get_batch()` per iteration
 - Each call: 16 random indices × 1024 token lookups = 16,384 random memory accesses
 - Total per iteration: **1,048,576 random memory accesses**
@@ -57,6 +62,7 @@ Even with SSDs, random access at this scale is deadly.
 ## Step 4: Consider storage location on DigitalOcean
 
 DigitalOcean H200 droplets typically have:
+
 - **Boot disk**: Network-attached, moderate IOPS (2,000-5,000)
 - **Scratch NVMe**: Local, high IOPS (100,000+)
 
@@ -77,6 +83,7 @@ I recalled there's a specific PR in the nanoGPT repo: "Fix for gradient_accumula
 ## Step 7: Prioritize the fixes
 
 Most impactful first:
+
 1. **Reduce `gradient_accumulation_steps`** → cuts disk reads by 16x
 2. **Increase `batch_size`** → fewer random indices per read
 3. **Use `DataLoaderLite`** → prefetches and batches efficiently

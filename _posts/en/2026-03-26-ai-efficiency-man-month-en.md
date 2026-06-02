@@ -35,6 +35,7 @@ So 4 people doing a 1-month task often takes **2+ months**, not 2 weeks.
 ### Why the AI-Augmented Solo Developer / "10x Individual" Is Now Even More Valuable
 
 In the **pre-AI era**, a highly skilled individual was valuable but still bottlenecked by:
+
 - Hours in a day
 - Context switching
 - Boilerplate/repetitive coding
@@ -73,11 +74,13 @@ This is exactly Brooks' point — **the man-month is a dangerous myth** because 
 ### Strategic Implication for Corporations & Startups
 
 **For Startups:**
+
 - One AI-powered generalist can cover full-stack, DevOps, and documentation
 - Fewer people = less burn rate, faster decisions, less politics
 - This is why solo founders or 2-person teams can now build products that used to require 10+
 
 **For Big Corps:**
+
 - An AI-augmented individual contributor who ships independently is **disproportionately valuable**
 - They reduce the need for coordination structures (managers, PMs, QA handoffs)
 - They are essentially a **force multiplier** — one person doing the output of a small team

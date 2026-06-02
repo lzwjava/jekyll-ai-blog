@@ -14,7 +14,8 @@ type: note
 
 Tauri is an open-source framework for building lightweight, secure, and high-performance desktop (and mobile) applications. It's primarily written in Rust for the backend, which handles core logic, system interactions, and security, while allowing you to use any web technology (HTML, CSS, JavaScript/TypeScript) for the frontend. This makes it a popular choice for developers who want to leverage web skills without the overhead of traditional tools like Electron, resulting in much smaller app binaries (often under 10MB).
 
-#### Key Features:
+#### Key Features
+
 - **Cross-Platform**: Supports building for Windows, macOS, Linux, Android, and iOS from a single codebase.
 - **Security-Focused**: Rust's memory safety and Tauri's permission model minimize vulnerabilities; no full browser engine means less attack surface.
 - **Frontend Flexibility**: Works with frameworks like React, Vue, Svelte, or even vanilla JS—whatever compiles to web assets.

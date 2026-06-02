@@ -34,12 +34,14 @@ The key mechanism: the mirror service **intercepts your API requests** and forwa
 Your "bus" analogy is spot-on. This is colloquially called **拼车 (carpooling)** or **合租 (shared rental)** in Chinese developer communities. Here's how the business model works:
 
 **The operator's side:**
+
 - Someone purchases a Claude Max plan ($100–$200/month) or an Anthropic API key
 - They deploy a reverse proxy / relay server (tools like `claude-relay-service` or custom API gateways)
 - They resell access to many users, charging per-token or via a subscription fee in RMB
 - The operator collects revenue from many people and uses it to cover the official plan cost, keeping profit on top
 
 **The user's side:**
+
 - Users pay in RMB (Chinese yuan) — often around 200–300 RMB/month
 - These mirror sites often allow registration with a regular email address, bypassing the need for foreign phone numbers or addresses, and pricing is usually presented in RMB. For instance, plans around 359 RMB/month for standard use may be offered, which can be more cost-effective than direct conversion and fees.
 - Users get an API endpoint + API key, and just set `ANTHROPIC_BASE_URL` to the mirror's URL

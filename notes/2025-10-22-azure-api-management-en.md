@@ -15,6 +15,7 @@ type: note
 Azure API Management (APIM) is the fully managed service that acts as an API gateway, providing features like API publishing, security, analytics, and developer portals. Below is a step-by-step guide to create an APIM instance via the Azure portal.
 
 #### Prerequisites
+
 - An active Azure subscription. If you don't have one, create a [free Azure account](https://azure.microsoft.com/free/).
 
 #### Steps to Create an API Management Instance
@@ -29,6 +30,7 @@ Azure API Management (APIM) is the fully managed service that acts as an API gat
 
 3. **Configure the Basics**
    On the **Create API Management** page, switch to the **Basics** tab and fill in the details:
+
    | Setting              | Description                                                                 |
    |----------------------|-----------------------------------------------------------------------------|
    | Subscription         | Select the Azure subscription for this instance.                            |
@@ -57,6 +59,7 @@ Azure API Management (APIM) is the fully managed service that acts as an API gat
    - On the **Overview** page, confirm the status is "Online". You're now ready to import APIs, configure policies, or set up the developer portal.
 
 #### Next Steps
+
 - Import your first API: Follow the [tutorial to import and publish an API](https://learn.microsoft.com/en-us/azure/api-management/import-and-publish).
 - Secure it: Add policies for authentication, rate limiting, etc.
 - Clean up: If testing, delete the resource group via the portal to avoid charges (search for **Resource groups** > select group > **Delete resource group**).

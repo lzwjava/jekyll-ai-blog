@@ -167,10 +167,12 @@ $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)
 # Training — Data, Loss, and Gradient Accumulation
 
 **Data:** next-token prediction on massive text corpora.
+
 - Input: `[The, pizza, came]` → Target: `[pizza, came, out]`
 - Loss: **cross-entropy** between predicted and actual next token
 
 **Gradient accumulation** simulates larger batch sizes on limited GPU memory:
+
 - Instead of 1 batch of 64, do 8 mini-batches of 8
 - Accumulate gradients, then update weights once
 - Same math, fits in GPU memory
@@ -201,6 +203,7 @@ Each iteration was **21 seconds** on H200 — way too slow.
 - MFU reported >100% — artifact (nanoGPT's MFU baseline is A100, not H200)
 
 **Fix:**
+
 - `grad_accum: 64 → 4`, `batch_size: 16 → 256` (same effective batch, **16× fewer disk reads**)
 - Move `train.bin` to local NVMe scratch (`/mnt/scratch`)
 - Target after fix: **<1 sec/iter, >100k tokens/sec**

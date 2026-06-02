@@ -222,6 +222,7 @@ build-input/*
 ```
 
 This is where the build system writes:
+
 - `build-input/data/variables.bzl` — generated from the configuration JSON
 - `build-input/configuration-repository-workdir/` — cloned + decrypted codesigning repo
 

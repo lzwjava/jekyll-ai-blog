@@ -42,11 +42,13 @@ The core idea he keeps coming back to:
    - Typical outcome: wake up one day dominating the market (Stripe, Airbnb, GitHub, etc. were all “quiet” for a very long time)
 
 Real-world examples he loves:
+
 - Stripe (Collison brothers): almost pathologically low-key, just kept building for 10+ years.
 - Airbnb: three founders grinding manually for years, rejected by everyone.
 - Larry Page & Sergey Brin: grad students quietly working in a garage while the loud portals (Yahoo, Excite) dominated headlines.
 
 In life (outside startups) he applies the same lens:
+
 - Writers, scientists, artists who produce the best work over decades are rarely the flashy prodigies; they’re the ones who show up every single day, quietly, for 40 years.
 - Relationships, health, skills – everything important compounds through boring consistency, not dramatic moves.
 
@@ -56,6 +58,7 @@ His one-sentence summary (paraphrased from several essays):
 So when you see someone very loud, very bold, very “alpha” on Twitter or at conferences – remember Paul Graham’s rule of thumb: the quieter and more stubbornly persistent person in the room is usually the one who will still be standing (and winning) a decade later.
 
 References:
+
 - [How to Do Great Work](http://paulgraham.com/greatwork.html) (2023)
 - [Mean People Fail](http://paulgraham.com/fail.html) (2014)
 - [Do Things That Don’t Scale](http://paulgraham.com/ds.html) (2013)

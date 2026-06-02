@@ -38,6 +38,7 @@ Answer:
 > **Description:** Deployed at Standard Chartered Bank — 负责 [你的实际项目/Stack]
 
 这样做可以让你获得：
+
 - ✅ **看似永久雇员的身份** (Chinasoft/TEKsystems)
 - ✅ **银行级的项目公信力** (在 Description 中提到 SCB/DBS)
 - ✅ **更长的任期表现** (如果你在同一家 Vendor 旗下参与了多个 Deployment)

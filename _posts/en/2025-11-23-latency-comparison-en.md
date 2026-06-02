@@ -26,7 +26,7 @@ When a project is small, say 1,000 lines of code, the execution time is often do
 
 * **Low-Level Languages (C/C++/Rust):** These languages give the programmer **direct control** over memory management and hardware. They typically compile to very efficient machine code. In a large project, their predictability and minimal runtime overhead (e.g., no heavy Garbage Collection) lead to consistently **low and predictable latency**. When you have millions of operations, not having to pause for Garbage Collection is a massive advantage.
 * **Managed/Garbage Collected Languages (Java):** Java compiles to **bytecode** which runs on the **Java Virtual Machine (JVM)**. The JVM provides features like automatic **Garbage Collection (GC)**. In a large, high-throughput system:
-    * **Latency Spikes:** The GC, while convenient, can introduce momentary **"stop-the-world" pauses** where all application threads stop so memory can be cleaned up. In a small project, you might not notice a 10ms pause. In a large project serving real-time requests, a sudden 100ms or 1-second pause due to a major GC cycle is a **critical latency spike** and a key difference you'd compare against C/C++/Rust.
+  * **Latency Spikes:** The GC, while convenient, can introduce momentary **"stop-the-world" pauses** where all application threads stop so memory can be cleaned up. In a small project, you might not notice a 10ms pause. In a large project serving real-time requests, a sudden 100ms or 1-second pause due to a major GC cycle is a **critical latency spike** and a key difference you'd compare against C/C++/Rust.
 
 ---
 
@@ -47,7 +47,7 @@ A big project means you use a lot of third-party or standard libraries.
 
 **Yes, the latency differences are easier to compare** in a big project because you can use **benchmarking tools** and **profilers** to measure:
 
-1.  **Average Latency:** The typical time it takes to complete a request/task.
-2.  **Tail Latency (P99/P99.9):** This is the time it takes for the slowest 1% or 0.1% of requests. This is where the differences are **most apparent**. A C++ or Rust application might have a P99 latency of 10ms, while a Java application might have a P99 latency of 150ms due to GC, making the choice of language a crucial factor for service reliability.
+1. **Average Latency:** The typical time it takes to complete a request/task.
+2. **Tail Latency (P99/P99.9):** This is the time it takes for the slowest 1% or 0.1% of requests. This is where the differences are **most apparent**. A C++ or Rust application might have a P99 latency of 10ms, while a Java application might have a P99 latency of 150ms due to GC, making the choice of language a crucial factor for service reliability.
 
 The overall runtime and perceived responsiveness become a direct measure of the initial choices made about the **language** and its **compiler/runtime model**.

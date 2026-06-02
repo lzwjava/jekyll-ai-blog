@@ -19,6 +19,7 @@ The primary purpose of VLANs (Virtual Local Area Networks) in a switched network
 - By creating VLANs, you confine Layer 2 broadcast traffic (ARP requests, etc.) to only the ports that belong to that specific VLAN, reducing unnecessary traffic, improving performance, and enhancing security.
 
 Why the other options are incorrect:
+
 - **A) Increase broadcast domain size** → Wrong. VLANs actually decrease the effective size of each broadcast domain.
 - **C) Replace the need for routers** → Wrong. VLANs are Layer 2 constructs. Communication between different VLANs still requires a Layer 3 device (router or Layer 3 switch) for inter-VLAN routing.
 - **D) Provide Layer 3 encryption** → Wrong. VLANs have nothing to do with encryption (that’s handled by protocols like IPsec, SSL/TLS, etc.).

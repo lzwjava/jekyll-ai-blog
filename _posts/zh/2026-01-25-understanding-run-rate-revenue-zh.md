@@ -17,6 +17,7 @@ Answer:
 **Run-rate revenue**（也称为 **annualized run rate** 或 **ARR run rate**）是一种根据当前的业绩表现，假设在没有任何变化的情况下持续发展，来推算公司全年总收入的方法。
 
 它通常被以下对象使用：
+
 - Startups 和 SaaS 公司
 - 快速增长的企业
 - 拥有 Recurring revenue（经常性收入）的公司

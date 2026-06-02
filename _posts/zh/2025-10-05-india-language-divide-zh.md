@@ -33,6 +33,7 @@ type: note
 这些冲突超越语言范畴，关乎身份认同、联邦体制及对中央集权的抵制。尽管印地语因宝莱坞和人口流动已获数千万国民使用，南方抵抗运动仍守护了泰米尔语的活力，并影响了印度教育领域的“三语公式”政策。
 
 #### 参考文献
+
 - [印度语言 - 维基百科](https://en.wikipedia.org/wiki/Languages_of_India)
 - [达罗毗荼语系 - 维基百科](https://en.wikipedia.org/wiki/Dravidian_languages)
 - [印度的语言战争：为何印地语引发南北割裂？](https://www.aljazeera.com/news/2025/4/10/indias-language-war-why-is-hindi-causing-a-north-south-divide)

@@ -30,6 +30,7 @@ type: note
 NVIDIA 明确将特定的 DLI 课程与相应的认证考试相关联。您应该优先考虑这些官方课程，而不是第三方 YouTube 教程或通用的 Udemy 课程。
 
 对于 Generative AI 候选人 (NCP-GENL)，将时间重点放在这些官方 DLI 课程上：
+
 - **Building Transformer-Based Natural Language Processing Applications**
 - **Building LLM Applications with Prompt Engineering**
 - **Getting Started With Deep Learning**
@@ -51,12 +52,13 @@ NVIDIA DLI 在线课程有两种格式：涵盖特定技术的 2 小时课程，
 
 按考试百分比权重学习每个领域。**不要** 平等地学习它们 — 按比例分配时间。
 
-### 领域优先级顺序（按考试权重）：
+### 领域优先级顺序（按考试权重）
 
 **🔴 优先级 1 — Model Optimization (17%) + GPU Acceleration (14%)**
 这两个领域总计 = 考试的 31%。首先掌握这些。
 
 学习资源：
+
 - **TensorRT-LLM GitHub** — 阅读关于 `paged_attention`、`in_flight_batching`、engine building 的文档
 - **vLLM documentation** — 理解 paged attention 与 static KV cache allocation 的区别
 - **DeepSpeed ZeRO docs** — 确切了解 ZeRO-1、2 和 3 各自分片的内容；optimizer states、gradients 和 parameters
@@ -70,12 +72,14 @@ NVIDIA DLI 在线课程有两种格式：涵盖特定技术的 2 小时课程，
 **🟠 优先级 2 — Fine-Tuning (13%) + Prompt Engineering (13%)**
 
 对于 Fine-Tuning：
+
 - **Hugging Face PEFT library docs** — LoRA、QLoRA、adapter 方法；理解 `r` 和 `lora_alpha` 超参数
 - **QLoRA 论文 (Dettmers et al.)** — 为什么 4-bit quantization + LoRA 能够在有限硬件上实现微调
 - **NeMo Framework docs** — NVIDIA 的 SFT、RLHF 工具；如何在 NeMo 中配置微调作业
 - 理解 DPO 与 RLHF 的区别：DPO 没有单独的 reward model，直接在 preference pairs 上训练
 
 对于 Prompt Engineering：
+
 - **NVIDIA NeMo Guardrails GitHub** — 学习 Colang 语法；topical/safety/fact-check rails 的定义方式
 - 使用任何 LLM API 自己构建一个小型 CoT / ReAct prompt chain
 - 练习 structured output prompting（通过 constrained decoding 强制 JSON schema 合规）
@@ -85,11 +89,13 @@ NVIDIA DLI 在线课程有两种格式：涵盖特定技术的 2 小时课程，
 **🟡 优先级 3 — Model Deployment (9%) + Data Preparation (9%)**
 
 对于 Model Deployment：
+
 - **NVIDIA Triton Inference Server docs** — model repository 布局、`config.pbtxt` 结构、ensemble models、versioning directories
 - **NVIDIA NIM docs** — 理解 NIM 是什么：预打包容器，带有预配置的 Triton + TensorRT-LLM
 - Kubernetes + GPU Operator：理解 `nvidia.com/gpu` 资源请求语法；GPU Operator 在 K8s 集群中自动安装的内容
 
 对于 Data Preparation：
+
 - 重点关注 BPE tokenization — vocabulary 的构建方式、merge rules、处理 OOV tokens
 - MinHash deduplication — 为什么它对预训练数据质量重要
 - Alpaca 与 ShareGPT 微调数据格式 — 了解每个的确切 JSON 结构
@@ -99,21 +105,25 @@ NVIDIA DLI 在线课程有两种格式：涵盖特定技术的 2 小时课程，
 **🟢 优先级 4 — Evaluation (7%) + Production Monitoring (7%) + LLM Architecture (6%) + Safety (5%)**
 
 对于 Evaluation：
+
 - 了解 BLEU、ROUGE、BERTScore、perplexity、pass@k for code — 以及*何时*使用每个
 - MMLU、HumanEval、MT-Bench — 每个基准测量什么，其局限性
 - LLM-as-judge 方法论 — 为什么使用它，其偏差（position bias、verbosity bias）
 
 对于 Production Monitoring：
+
 - 了解关键指标：Time to First Token (TTFT)、tokens per second、GPU utilization、queue depth
 - Prometheus + Grafana 栈是标准；了解 Triton 原生暴露的指标
 - 理解 data drift 与 concept drift 的区别；如何触发自动化再训练
 
 对于 LLM Architecture：
+
 - Scaled dot-product attention 公式：`softmax(QKᵀ / √dₖ) · V`
 - KV Cache：存储什么、何时填充、为什么用内存换速度
 - 了解 decoder-only (GPT) 与 encoder-only (BERT) 与 encoder-decoder (T5) — 每个何时使用
 
 对于 Safety：
+
 - NVIDIA NeMo Guardrails — Colang 语言、topical/safety/fact-check rail 类型
 - 了解 bias detection 框架（AI Fairness 360 概念）和缓解策略：pre-processing、in-processing、post-processing
 - RAG 用于 hallucination 缓解 与 微调用于 hallucination 缓解 — 关键区别

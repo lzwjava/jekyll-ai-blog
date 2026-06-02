@@ -14,13 +14,16 @@ Looking at the code path, a lock isn't the root cause. The duplicate happens bec
 **The race path the user hypothesizes (concurrent `ww note`):**
 
 Two invocations on the same machine can race past `check_duplicate_notes()`:
+
 1. Both pass `check_uncommitted_changes()` and `git pull --rebase`
 2. Both call `check_duplicate_notes()` — neither sees the other's file yet
 3. Both call `create_filename()` — one gets `...-en.md`, the other hits the fallback at `create_note_utils.py:77-79`:
+
    ```python
    while os.path.exists(file_path):
        file_path = os.path.join(notes_dir, f"{date_str}-{short_title}-{counter}-en.md")
    ```
+
 4. Both commit & push — end result: two near-identical notes.
 
 A lock would prevent *this* race. But it wouldn't prevent the more common path.

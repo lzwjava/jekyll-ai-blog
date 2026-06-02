@@ -26,6 +26,7 @@ type: note
 ### 1. 字段配置（您的组件 `.ts` 文件）
 
 **之前（Angular 14 / formly v5）：**
+
 ```ts
 fields: FormlyFieldConfig[] = [
   {
@@ -41,6 +42,7 @@ fields: FormlyFieldConfig[] = [
 ```
 
 **之后（Angular 21 / formly v7）：**
+
 ```ts
 fields: FormlyFieldConfig[] = [
   {
@@ -63,21 +65,25 @@ fields: FormlyFieldConfig[] = [
 
 **之前：**
 {% raw %}
+
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ to.label }}</label>           <!-- templateOptions 的旧简写 -->
 <label>{{ field.templateOptions?.label }}</label>
 <ng-container #fieldComponent></ng-container>
 ```
+
 {% endraw %}
 
 **之后：**
 {% raw %}
+
 ```html
 <!-- my-label-wrapper.component.html -->
 <label>{{ props.label }}</label>        <!-- 直接使用 props -->
 <ng-container #fieldComponent></ng-container>
 ```
+
 {% endraw %}
 
 现代自定义包装器模式在模板中直接暴露 `props.label`，例如：`<h3 class="card-header">{{ props.label }}</h3>`。
@@ -88,6 +94,7 @@ fields: FormlyFieldConfig[] = [
 
 **之前：**
 {% raw %}
+
 ```ts
 @Component({
   template: `
@@ -97,10 +104,12 @@ fields: FormlyFieldConfig[] = [
 })
 export class CustomInputType extends FieldType {}
 ```
+
 {% endraw %}
 
 **之后：**
 {% raw %}
+
 ```ts
 import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 
@@ -113,6 +122,7 @@ import { FieldType, FieldTypeConfig } from '@ngx-formly/core';
 export class CustomInputType extends FieldType<FieldTypeConfig> {}
 //                                             ^^^^^^^^^^^^^^^ 同时添加泛型
 ```
+
 {% endraw %}
 
 ---
@@ -120,6 +130,7 @@ export class CustomInputType extends FieldType<FieldTypeConfig> {}
 ### 4. 引用 `templateOptions.*` 的 `expressionProperties`
 
 **之前：**
+
 ```ts
 expressionProperties: {
   'templateOptions.label': '"Dynamic " + model.name',
@@ -128,6 +139,7 @@ expressionProperties: {
 ```
 
 **之后：**
+
 ```ts
 expressions: {
   'props.label': '"Dynamic " + model.name',

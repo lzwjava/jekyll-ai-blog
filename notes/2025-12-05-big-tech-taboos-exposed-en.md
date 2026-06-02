@@ -49,6 +49,7 @@ Here are some genuinely unpopular (often career-limiting to say out loud) opinio
 These takes are extremely common in private Slack/Discord channels and off-the-record conversations at Big Tech campuses, but you’ll rarely see them on LinkedIn or public forums because they’re reputationally radioactive.
 
 References:
+
 - [The Missing README (book by ex-Google/Microsoft engineers)](https://www.missingreadme.com/)
 - [Big Tech internal memes and leaked docs compiled on Hacker News threads 2022–2025] (multiple, no single link)
 - Personal experience + anonymized conversations with ~200 L6+ engineers across FAANG 2020–2025

@@ -25,6 +25,7 @@ However, most sources note that people usually don't eat it because:
 For kids especially, it's better to remove the skin to avoid choking risks (due to its toughness) or digestive discomfort from eating large amounts of hard fiber. If your child likes the skin, you could try small, well-washed pieces, but it's not common or necessary — the sweet flesh is the best part anyway.
 
 Some people do use melon rinds creatively:
+
 - Pickled (similar to watermelon rind pickles).
 - Cooked in stir-fries or soups (after peeling the outer green/yellow layer if too tough).
 - But these are uncommon for honeydew compared to watermelon.

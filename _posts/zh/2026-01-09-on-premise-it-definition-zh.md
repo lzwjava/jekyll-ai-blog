@@ -15,6 +15,7 @@ type: note
 例如，如果一家公司在自己大楼内的数据中心运行其 email servers，这就是 on-premise。相比之下，使用 Gmail 或 Office 365 则属于 cloud-based。
 
 **核心特征：**
+
 - 组织拥有或租赁物理 hardware
 - IT 人员直接维护和管理系统
 - 数据保留在公司的物理位置内

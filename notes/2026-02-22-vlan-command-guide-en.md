@@ -19,29 +19,40 @@ To create a VLAN on a Cisco switch (or similar CLI-based network devices) after 
 vlan <vlan-id>
 ```
 
-### Explanation:
+### Explanation
+
 - **`vlan`**: This is the command keyword that tells the switch you want to create or configure a VLAN.
 - **`<vlan-id>`**: This is a placeholder for the actual VLAN number you wish to create. Valid VLAN IDs typically range from **1 to 4094**, though some ranges are reserved (e.g., VLAN 1 is default, VLANs 1002–1005 are reserved for legacy token ring/FDDI).
 
-### Step-by-Step Example:
+### Step-by-Step Example
+
 1. Log in to the switch.
 2. Enter privileged EXEC mode:
+
    ```bash
    enable
    ```
+
 3. Enter global configuration mode:
+
    ```bash
    configure terminal
    ```
+
 4. Create a VLAN (for example, VLAN 10):
+
    ```bash
    vlan 10
    ```
+
 5. (Optional) Name the VLAN:
+
    ```bash
    name Sales
    ```
+
 6. Exit configuration mode:
+
    ```bash
    end
    ```

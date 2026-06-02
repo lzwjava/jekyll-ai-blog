@@ -36,6 +36,7 @@ type: note
 **Yes and No — 取决于你的账户类型：**
 
 ### For Enterprise/Organization Admins ✅
+
 GitHub 为 Copilot metrics 提供了 REST API endpoints，可通过 `https://api.github.com/orgs/ORG/copilot/metrics` 访问，需要具有 `manage_billing:copilot`、`read:org` 或 `read:enterprise` 权限的 PAT。
 
 Enterprise 管理员、billing managers 以及授权用户可以通过 API 获取 Copilot metrics 报告，历史数据最长可追溯至当前日期起 1 年。
@@ -43,6 +44,7 @@ Enterprise 管理员、billing managers 以及授权用户可以通过 API 获�
 GitHub 还宣布：正在推出专门用于 premium request analytics 数据的 API endpoint，允许用户构建内部 dashboards，创建自定义 usage reports，并轻松跟踪各团队的支出。
 
 ### For Individual Users ❌ (Not Yet Officially Supported)
+
 对于个人 GitHub Copilot 订阅者，目前没有官方支持的公开 API 来实时获取 premium request 使用情况。VS Code 可以在产品内显示使用情况，因为它与 GitHub 的内部 endpoints 通信，但这些 endpoints 并未公开记录，且不保证稳定性。官方支持的个人账户查看方式是通过 GitHub 网页端的 Settings → Billing → Copilot。
 
 ---

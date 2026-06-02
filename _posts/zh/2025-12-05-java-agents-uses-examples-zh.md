@@ -35,11 +35,13 @@ Java agent 是强大的工具，它利用 **Java Instrumentation API**（Java 5 
 | **GC 与运行时洞察** | 自定义 GC 日志记录、安全点分析、JVM 内部结构 | JCmd + 自定义 agent、Java Mission Control with Flight Recorder agent        |
 
 ### 您提到的实际示例
+
 - **JaCoCo** → 使用 Java agent (`-javaagent:jacocoagent.jar`) 即时插桩类并收集覆盖率数据。
 - **YourKit** → 提供一个分析 agent (`-agentpath:` 或 `-javaagent:`)，用于跟踪 CPU 时间、分配、锁等。
 - **调试** → 您可以编写一个微型 agent，打印“方法 X 已进入/退出”或为特定类/方法转储堆栈跟踪，而无需修改源代码。
 
 ### 何时编写自己的 agent
+
 - 需要现有 APM 工具未涵盖的自定义指标。
 - 需要强制执行运行时策略（例如，阻止某些 JDBC 驱动程序）。
 - 构建测试实用程序（模拟 final、存根 static）。
@@ -48,6 +50,7 @@ Java agent 是强大的工具，它利用 **Java Instrumentation API**（Java 5 
 简而言之，Java agent 是在 JVM 生态系统中进行非侵入式、生产安全插桩的标准方法。您使用的几乎所有现代可观测性或性能分析工具都是基于它们构建的。
 
 参考：
+
 - [Java Instrumentation Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.instrument/java/lang/instrument/package-summary.html)
 - [JaCoCo Java Agent](https://www.jacoco.org/jacoco/trunk/doc/agent.html)
 - [YourKit Java Profiler](https://www.yourkit.com/docs/java/)

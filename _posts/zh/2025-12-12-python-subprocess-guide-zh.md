@@ -17,6 +17,7 @@ type: note
 Python 中的 `subprocess` 模块允许您生成新进程、连接到它们的输入/输出/错误管道，并获取它们的返回码。推荐的高级函数（在 Python 3.5 中引入）是 `subprocess.run()`，它运行一个命令并等待其完成。
 
 ### 基本用法
+
 导入模块并调用 `subprocess.run()`，将命令作为字符串列表（出于安全考虑首选）或单个字符串。
 
 ```python
@@ -32,6 +33,7 @@ result = subprocess.run(["ls", "-l"])
 默认情况下，这将运行命令并将输出打印到控制台。该函数返回一个 `CompletedProcess` 对象，其中包含 `returncode` 等属性（0 通常表示成功）。
 
 ### 捕获输出
+
 要捕获标准输出（以及可选的标准错误）：
 
 ```python
@@ -48,6 +50,7 @@ print(result.returncode)  # 退出状态
 - `text=True`：将输出作为字符串返回（而不是字节）。
 
 ### 处理错误
+
 使用 `check=True` 以在命令失败（非零返回码）时引发异常：
 
 ```python
@@ -58,6 +61,7 @@ except subprocess.CalledProcessError as e:
 ```
 
 ### 提供输入
+
 将数据传递给命令的标准输入：
 
 ```python
@@ -66,6 +70,7 @@ print(result.stdout)
 ```
 
 ### 使用 Shell 功能
+
 对于 shell 内置命令、管道或通配符，设置 `shell=True`（但请谨慎处理不受信任的输入，因为存在安全风险）：
 
 ```python

@@ -103,6 +103,7 @@ type: note
    - 如果命令存在，运行 `openclaw config path`，或检查启动日志
 
 2. 在编辑器中打开文件
+
    ```bash
    nano ~/.openclaw/config.json    # 或使用 vim、code 等
    ```
@@ -112,6 +113,7 @@ type: note
 4. 保存并退出
 
 5. 验证并重启
+
    ```bash
    openclaw doctor                # 现在应该通过或显示其他问题
    openclaw restart               # 或如果作为服务运行，使用 systemctl restart openclaw
@@ -119,6 +121,7 @@ type: note
 
 6. 测试
    再次尝试该命令：
+
    ```bash
    openclaw doctor --fix
    ```

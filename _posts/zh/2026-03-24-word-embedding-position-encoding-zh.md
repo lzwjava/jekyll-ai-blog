@@ -20,6 +20,7 @@ type: note
 ## 1. Word Embedding vs. Positional Encoding —— 它们本质上是不同的东西
 
 ### Word Embedding (例如 word2vec)
+
 Word Embedding 将 **Token 映射到一个表示其语义含义的 Vector**。例如：
 
 - `"cat"` → `[0.21, -0.45, 0.87, ...]`
@@ -32,6 +33,7 @@ Word Embeddings 在高维空间中捕捉单词的语义 —— 基本上，相�
 ---
 
 ### Positional Encoding
+
 仅凭语义 Vector 无法告诉我们单词在句子中的位置。Positional Encoding 添加了第二个 Vector —— 一个用于编码位置索引（如“第一个词”或“第二个词”等）的 Vector。
 
 原始论文将 Positional Encoding **叠加**（即相加）在实际的 Embedding 之上。Transformer 的最终输入为：`input = word_embedding + positional_encoding`。
@@ -89,6 +91,7 @@ RoPE 和 ALiBi 的运行原理都是**不对 Word Embedding 添加 Positional En
 ## 5. Decoder-Only Transformer —— 为什么 Masking + Position 协同工作
 
 在 Decoder-only 模型（如 GPT）中：
+
 - Attention 是 **因果性的 (Causal/Masked)** —— 位置 `t` 的 Token 只能关注位置 `≤ t` 的 Token
 - Positional Encoding 确保模型知道顺序 —— 因此 `"想"` 知道它在 `"刚"` 之后，并可以利用这一点
 

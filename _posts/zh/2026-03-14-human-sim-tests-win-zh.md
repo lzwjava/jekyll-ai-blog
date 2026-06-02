@@ -18,10 +18,13 @@ type: note
 ## 为什么模拟人类的 Integration Tests 胜出
 
 ### “只是做事情”的问题
+
 当 AI agent 仅执行动作（deploy、restart、open port）而没有从**用户的视角**验证结果时，它会产生一种虚假的完成感。上面的 agent 打开了端口 5000 并声明成功 — 但从未确认 frontend 实际加载并端到端工作。
 
 ### Unit Tests 的问题
+
 Unit tests 检查孤立组件：
+
 - “API 返回 200 吗？” ✅
 - “DB insert 成功吗？” ✅
 - 但它们会遗漏：**browser CORS 失败、firewall 阻塞、DNS resolution、frontend JS 错误** — 正是本次失败的情况。
@@ -35,6 +38,7 @@ Unit tests 检查孤立组件：
 | **模拟人类的 integration test** | **✅** | **✅** |
 
 OpenClaw 的适当最终 integration test 应该：
+
 1. **在 browser/headless browser 中打开实际 URL**（Playwright、Selenium）
 2. **像真实用户一样点击 UI**
 3. **提交 form、创建 task、验证它出现**

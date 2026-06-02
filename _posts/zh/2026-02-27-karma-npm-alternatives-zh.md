@@ -18,11 +18,13 @@ Karma（包名：**karma**）是一个流行的（但现在已**deprecated**）J
 注意：截至 2024–2026 年，Karma 项目已被正式弃用，不再接收新功能或一般 bug 修复。社区推荐迁移到现代替代品，如 **Web Test Runner**、**Jest** 或 **Vitest**。
 
 ### 核心包
+
 - **karma**
   → 主要的测试运行器本身
   → npmjs.com/package/karma
 
 ### 最常用的相关包（典型的 Angular / 经典设置）
+
 - **karma-jasmine** — Jasmine 测试框架的适配器
 - **jasmine-core** — 实际的 Jasmine 库（通常与之一同安装）
 - **karma-chrome-launcher** — 启动 Chrome / Chromium
@@ -30,6 +32,7 @@ Karma（包名：**karma**）是一个流行的（但现在已**deprecated**）J
 - **karma-coverage** — 使用 Istanbul 的代码覆盖率报告
 
 ### 其他流行 / 经典 Karma 插件
+
 - **karma-mocha** — Mocha 的适配器
 - **karma-qunit** — QUnit 的适配器
 - **karma-junit-reporter** — JUnit XML reporter（CI / Jenkins 友好）
@@ -41,6 +44,7 @@ Karma（包名：**karma**）是一个流行的（但现在已**deprecated**）J
 - **karma-ng-html2js-preprocessor** — 将 Angular 模板编译为 JS
 
 ### 搜索更多
+
 npm 上有**超过 1000 个**与 Karma 相关的包。您可以通过搜索发现它们：
 
 ```bash
@@ -50,6 +54,7 @@ npm search karma-plugin
 ```
 
 大多数插件遵循以下命名模式之一：
+
 - `karma-*`（例如 karma-jasmine、karma-chrome-launcher）
 - 在 package.json 中包含关键字 `karma-plugin`
 

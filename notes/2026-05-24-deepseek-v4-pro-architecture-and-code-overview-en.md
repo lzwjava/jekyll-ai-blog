@@ -18,6 +18,7 @@ Location: ~/projects/deepseek-v4-inference/
 ### Architecture (from config.json)
 
 DeepSeek-V4-Pro is a massive Mixture-of-Experts model:
+
 - 129,280 vocab, 7168 hidden dim, 61 layers
 - 384 routed experts, 1 shared expert, 6 activated per token
 - 128 attention heads, 512 head dim (with 64-dim RoPE component)
@@ -31,6 +32,7 @@ DeepSeek-V4-Pro is a massive Mixture-of-Experts model:
 ### File-by-File
 
 **model.py** (38K, 827 lines) — the core:
+
 - `ModelArgs` dataclass: all hyperparameters
 - `ParallelEmbedding`: vocab-sharded embedding with all-reduce
 - `Linear` / `ColumnParallelLinear` / `RowParallelLinear`: supports BF16, FP8, FP4 weight formats with per-block scaling
@@ -46,6 +48,7 @@ DeepSeek-V4-Pro is a massive Mixture-of-Experts model:
 - `Transformer`: full model with `ParallelEmbedding`, layers, `RMSNorm`, `lm_head`, KV cache management
 
 **kernel.py** (22K, 536 lines) — tilelang JIT kernels:
+
 - `act_quant_kernel`: block-wise FP8 quantization (block_size=128), optional in-place quant-dequant
 - `fp4_quant_kernel`: block-wise FP4 quantization (block_size=32), power-of-2 scales
 - `fp8_gemm_kernel`: FP8 matmul with per-block A/B scaling, L2 swizzle, 4-stage pipeline
@@ -54,6 +57,7 @@ DeepSeek-V4-Pro is a massive Mixture-of-Experts model:
 - `hc_split_sinkhorn_kernel`: Sinkhorn normalization for HC (Hash Compress) routing — iteratively normalizes row/col of a combination matrix
 
 **generate.py** (6.1K, 155 lines) — entry point:
+
 - `sample()`: Gumbel-max trick (faster than multinomial on GPU, avoids CPU sync)
 - `generate()`: batch generation with left-padding, prefill+decode phases
 - Interactive mode: chat loop with `/exit` and `/clear` commands
@@ -62,6 +66,7 @@ DeepSeek-V4-Pro is a massive Mixture-of-Experts model:
 - Uses `encode_messages` / `parse_message_from_completion_text` from an external `encoding` module (not included — ../encoding/encoding_dsv4.py)
 
 **convert.py** (6.9K, 168 lines) — weight conversion:
+
 - Converts HuggingFace safetensors to model-parallel shards
 - Maps HF weight names to internal names (e.g., self_attn -> attn, mlp -> ffn)
 - Handles FP4->FP8 lossless conversion (e2m1fn to e4m3fn) with careful scale handling
@@ -70,6 +75,7 @@ DeepSeek-V4-Pro is a massive Mixture-of-Experts model:
 - Copies tokenizer files alongside weights
 
 **requirements.txt**:
+
 - torch>=2.10.0, transformers>=5.0.0, safetensors>=0.7.0
 - fast_hadamard_transform (for rotate_activation in Indexer)
 - tilelang==0.1.8 (JIT kernel compiler for quantization + attention kernels)

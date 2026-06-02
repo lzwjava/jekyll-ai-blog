@@ -33,5 +33,6 @@ type: note
 如今，这个词常被负面地用来描述一种不劳而获、期望获得回报或尊重的态度，但其最初和中性的含义仅仅是指对某物拥有合法权利或主张。
 
 参考文献：
+
 - [Merriam-Webster Dictionary – Entitlement](https://www.merriam-webster.com/dictionary/entitlement)
 - [Oxford Learner’s Dictionaries – Entitlement](https://www.oxfordlearnersdictionaries.com/definition/english/entitlement)

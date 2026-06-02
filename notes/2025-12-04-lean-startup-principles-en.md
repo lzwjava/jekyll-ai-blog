@@ -17,6 +17,7 @@ Answer:
 "The Lean Startup" (2011) introduces a scientific, iterative approach to building startups and products in conditions of extreme uncertainty. Instead of following the traditional "write a big business plan → raise money → build the product in stealth → launch" model, Eric Ries advocates treating a startup as a series of experiments designed to learn what customers actually want as quickly and cheaply as possible.
 
 ### Core Concept
+
 The startup’s goal is **validated learning**—rapidly testing whether your vision matches reality.
 
 ### The Five Key Principles and Tools
@@ -76,10 +77,12 @@ The startup’s goal is **validated learning**—rapidly testing whether your vi
   A root-cause analysis technique: keep asking “why” five times to uncover the real problem and invest proportionally to fix it.
 
 ### Overall Philosophy
+
 “Startups exist not to make stuff, make money, or serve customers. Startups exist to learn how to build a sustainable business.” Everything else (product, revenue, etc.) is a means to that end.
 
 The book popularized terms like MVP, pivot, and validated learning, and it became the foundation for much of modern startup methodology, Y Combinator’s approach, and the entire “lean” movement in entrepreneurship.
 
 References:
+
 - [The Lean Startup official website & summary](https://theleanstartup.com/)
 - [Eric Ries – The Lean Startup (full book, 2011)](https://www.penguinrandomhouse.com/books/203928/the-lean-startup-by-eric-ries/)

@@ -13,8 +13,8 @@ While OpenAI hasn't released a detailed technical paper on Sora's architecture, 
 **1. Diffusion Transformer Model:**
 
 * Sora is described by OpenAI as a **diffusion transformer**. This means it combines the strengths of two powerful AI architectures:
-    * **Diffusion Models:** These models learn to generate data by reversing a noise process. They start with random noise and gradually refine it over many steps to produce a realistic image or video frame that matches the given prompt. Think of it like starting with static and gradually seeing a picture emerge.
-    * **Transformer Networks:** Originally designed for natural language processing, transformers excel at understanding context and relationships within sequences of data. In Sora's case, the "sequence" isn't words, but rather a series of visual patches or tokens across space and time.
+  * **Diffusion Models:** These models learn to generate data by reversing a noise process. They start with random noise and gradually refine it over many steps to produce a realistic image or video frame that matches the given prompt. Think of it like starting with static and gradually seeing a picture emerge.
+  * **Transformer Networks:** Originally designed for natural language processing, transformers excel at understanding context and relationships within sequences of data. In Sora's case, the "sequence" isn't words, but rather a series of visual patches or tokens across space and time.
 
 **2. Patches and Tokens:**
 

@@ -55,6 +55,7 @@ Hitachi is also dedicated to environmental sustainability, with ambitious goals 
 ### Global Reach and Innovation
 
 Hitachi operates globally through a network of subsidiaries, joint ventures, and research centers. Notable subsidiaries include:
+
 - **Hitachi Rail**: A leader in railway systems, with projects in Europe, Asia, and North America.
 - **Hitachi Energy**: Focused on power grids and renewable energy integration.
 - **Hitachi Vantara**: Specializes in data storage and IT infrastructure solutions.

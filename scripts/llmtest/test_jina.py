@@ -26,7 +26,7 @@ if args.job == "url":
     headers = {"Authorization": f"Bearer {api_key}"}
     print(f"URL: {url}")
     print(f"Headers: {headers}")
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=30)
     print(response.text)
 
 elif args.job == "search":
@@ -39,7 +39,7 @@ elif args.job == "search":
     }
     print(f"URL: {url}")
     print(f"Headers: {headers}")
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=30)
     print(response.text)
 
 else:

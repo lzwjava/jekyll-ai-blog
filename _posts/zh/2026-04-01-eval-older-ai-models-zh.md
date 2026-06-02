@@ -24,6 +24,7 @@ type: note
 
 **速度考量：**
 虽然你认为旧模型可能因为使用量较低而更快，但实际的速度差异更为复杂：
+
 - 响应速度取决于多个因素：服务器负载、model architecture 效率以及基础设施分配。
 - 供应商通常不会故意限制新模型；相反，他们可能会为新模型分配更多资源。
 - Claude Haiku 4.5 专门被设计为“快速且经济”的选择，这表明速度是刻意的设计选择，而不仅仅取决于使用量。
@@ -31,6 +32,7 @@ type: note
 ## 策略性 Model 选择
 
 **何时使用旧模型是有意义的：**
+
 1. **成本效率**：旧模型通常每个 token 的价格更便宜。
 2. **能力充足**：对于简单的任务，旧模型的表现已经足够。
 3. **可用性**：某些平台可能只提供特定版本的 model。
@@ -38,6 +40,7 @@ type: note
 
 **跨平台灵活性：**
 你提到的跨站点灵活性是有效的——不同平台提供不同的 model 访问权限：
+
 - Claude.ai 提供最新的 Claude 模型。
 - API 访问提供了更多的 model 版本控制。
 - 第三方平台可能会有延迟的 model 更新。
@@ -45,6 +48,7 @@ type: note
 ## 实践建议
 
 与其假设旧模型因使用量低而“更好”，不如考虑：
+
 - **任务匹配**：使用适当的 model 层级（Opus 用于复杂推理，Sonnet 用于平衡性能，Haiku 用于速度/成本）。
 - **测试**：针对你的具体用例对比响应质量和速度。
 - **成本效益分析**：评估性能的提升是否值得在速度或成本上做出妥协。
@@ -53,5 +57,5 @@ type: note
 
 References:
 
-- https://www.anthropic.com/news/claude-4-6
-- https://docs.anthropic.com/en/docs/about-claude/models/model-comparison-table
+- <https://www.anthropic.com/news/claude-4-6>
+- <https://docs.anthropic.com/en/docs/about-claude/models/model-comparison-table>

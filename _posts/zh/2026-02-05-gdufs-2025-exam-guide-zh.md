@@ -30,7 +30,7 @@ type: note
 
 3. **座号查询：**
    - 查询期间：10月26日 - 11月2日
-   - 网站：http://service.qidaedu.com/practiceLogin.jsp
+   - 网站：<http://service.qidaedu.com/practiceLogin.jsp>
    - 使用准考证号和密码登录
 
 4. **重要规则：**
@@ -40,6 +40,6 @@ type: note
 
 5. **联系方式：**
    - 电话：020-36246578
-   - 电子邮件：gwdzkb@163.com
+   - 电子邮件：<gwdzkb@163.com>
 
 该通知由 GDUFS 高等教育自学考试办公室于2025年10月24日发布。

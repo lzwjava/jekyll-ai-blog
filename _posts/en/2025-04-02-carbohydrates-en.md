@@ -21,7 +21,7 @@ Here's a breakdown of what carbohydrates are:
 
 Carbohydrates are broadly classified into two main categories based on their chemical structure and how quickly the body digests and absorbs them:
 
-1.  **Simple Carbohydrates (Sugars):** These are made up of one or two sugar molecules. They are easily digested and absorbed, leading to a quicker rise in blood sugar.
+1. **Simple Carbohydrates (Sugars):** These are made up of one or two sugar molecules. They are easily digested and absorbed, leading to a quicker rise in blood sugar.
     * **Monosaccharides:** These are single sugar units. Examples include:
         * **Glucose:** The body's main source of energy; often called blood sugar.
         * **Fructose:** Found in fruits, honey, and some vegetables.
@@ -31,7 +31,7 @@ Carbohydrates are broadly classified into two main categories based on their che
         * **Lactose:** Milk sugar (glucose + galactose).
         * **Maltose:** Found in malted grains (glucose + glucose).
 
-2.  **Complex Carbohydrates (Polysaccharides):** These are made up of long chains of sugar molecules linked together. They take longer for the body to break down into glucose, providing a more sustained release of energy. They are generally more nutrient-dense and higher in fiber than simple carbohydrates.
+2. **Complex Carbohydrates (Polysaccharides):** These are made up of long chains of sugar molecules linked together. They take longer for the body to break down into glucose, providing a more sustained release of energy. They are generally more nutrient-dense and higher in fiber than simple carbohydrates.
     * **Starches:** Found in starchy vegetables (potatoes, corn, peas), grains (bread, pasta, rice), and legumes (beans, lentils).
     * **Fiber:** A type of complex carbohydrate that the body cannot digest. It's essential for digestive health, helps regulate blood sugar and cholesterol levels, and promotes feelings of fullness. Found in fruits, vegetables, whole grains, legumes, nuts, and seeds.
     * **Glycogen:** The storage form of glucose in animals, found in the liver and muscles.

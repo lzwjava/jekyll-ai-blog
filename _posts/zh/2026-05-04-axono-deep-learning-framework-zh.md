@@ -22,6 +22,7 @@ type: note
 ## 架构
 
 ### 层级栈
+
 ```
 Python API (axono.*)
       ↕  pybind11
@@ -32,6 +33,7 @@ CUDA 后端 (NVIDIA GPU)
 ```
 
 ### 构建系统
+
 - **CMake** (C++17) 配合 pybind11 生成 Python 绑定
 - 自动检测架构：在 x86 上启用 AVX2+FMA，在 ARM 上启用通用回退模式
 - 编译选项：`-O3 -march=native -ffast-math` 以实现最大 CPU 性能
@@ -42,7 +44,9 @@ CUDA 后端 (NVIDIA GPU)
 ## 核心组件
 
 ### `axono.core.Tensor`
+
 基于 C++ `Tensor` 类的 Python 封装。核心功能：
+
 - **数据类型**：`int8/16/32/64`、`float32/64`、`bool`
 - **设备**：支持 `"cpu"` 或 `"cuda:<id>"`，可通过 `.to(device)` 切换
 - **工厂方法**：`Tensor.zeros()`、`Tensor.ones()`、`Tensor.full()`、`Tensor.randn()`
@@ -51,7 +55,9 @@ CUDA 后端 (NVIDIA GPU)
 - **可变操作**：`.reshape()`、`.resize()`、`.fill()`、`.fill_zero()`
 
 ### `axono.core.operators` / `axono.core.ops`
+
 精简的 Python 包装器，将运算委托至 C++ 实现：
+
 - `matmul(a, b)` —— 矩阵乘法（CPU：OpenMP+SIMD，CUDA：类 cuBLAS 内核）
 - `add(a, b)` —— 逐元素加法
 - `relu(x, inplace=False)` —— ReLU 激活函数
@@ -59,6 +65,7 @@ CUDA 后端 (NVIDIA GPU)
 每个运算符在 `include/axono/ops/{cpu,cuda}/` 目录下均有独立的 CPU 和 CUDA 内核头文件。
 
 ### `axono.nn`
+
 - **`Module`** —— 基类，追踪 `_parameters` 字典，仿照 PyTorch 的 `nn.Module`。包含 `add_weight()`、`parameters()`、`train()` 方法
 - **`Linear`** —— 全连接层：`y = x @ W.T + b`，权重采用 He 初始化（`scale = sqrt(2/in_features)`）
 
@@ -101,6 +108,7 @@ include/axono/core/
 ## 示例
 
 `examples/` 目录展示了 **愿景中的 API**（目前尚未完全实现）：
+
 - `mnist_classification.py` —— 在 MNIST 数据集上使用 `axono.models.CNN`、`axono.train.Trainer`、`axono.data.DataLoader`、`axono.viz` 实现 CNN 分类 —— 这些模块大多在当前代码库中尚未存在，代表了未来的发展路线图
 - `text_classification.py`、`time_series_prediction.py` —— 同为愿景示例
 

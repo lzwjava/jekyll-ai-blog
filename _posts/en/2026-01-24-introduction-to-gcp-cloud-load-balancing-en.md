@@ -17,6 +17,7 @@ Answer:
 Cloud Load Balancing in **Google Cloud Platform (GCP)** is a fully managed, distributed, software-defined load balancing service. It distributes incoming traffic across multiple backend instances (such as Compute Engine VMs, Google Kubernetes Engine clusters, Cloud Run services, or VM instance groups) to ensure high availability, scalability, and performance.
 
 ### Key Characteristics
+
 - **Fully distributed**: Uses Google's global **Anycast IP** infrastructure — the same frontend IP can be announced from many points of presence worldwide.
 - **No pre-warming** required — it scales automatically with traffic.
 - **Integrated health checking** — automatically removes unhealthy backends.
@@ -24,6 +25,7 @@ Cloud Load Balancing in **Google Cloud Platform (GCP)** is a fully managed, dist
 - **Premium Tier** (global, uses Google's backbone) vs **Standard Tier** (regional, lower cost but uses public internet for some paths).
 
 ### Main Types of Load Balancers
+
 Google Cloud offers several load balancer types. The two main categories are:
 
 1. **Application Load Balancers** (Layer 7 – content-aware)
@@ -52,6 +54,7 @@ Google Cloud offers several load balancer types. The two main categories are:
 | Internal Passthrough Network    | Regional  | L4    | TCP, UDP                   | Internal TCP/UDP traffic                  | Yes (direct)        |
 
 ### Core Components
+
 - **Frontend** — IP address + port + protocol (the entry point)
 - **Backend service** — Defines how traffic is routed to backends + health checks + session affinity
 - **Backend** — Instance groups, NEGs (Network Endpoint Groups), Cloud Run, etc.
@@ -60,6 +63,7 @@ Google Cloud offers several load balancer types. The two main categories are:
 - **Autoscaling** — Works seamlessly with MIGs (Managed Instance Groups)
 
 ### Common Use Cases
+
 - Distributing global user traffic to the nearest healthy instance (low latency)
 - Blue/green deployments and canary releases via traffic splitting
 - Exposing internal services securely within VPC

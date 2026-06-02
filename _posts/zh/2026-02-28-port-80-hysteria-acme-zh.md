@@ -20,7 +20,7 @@ Let's Encrypt 主要使用两种 Hysteria 支持的验证方法：
 - **http-01** challenge → 需要 **TCP port 80** 公网可达。
 - **tls-alpn-01** challenge → 需要 **TCP port 443** 公网可达。
 
-默认情况下，当你在 Hysteria 的配置文件中配置 `acme` 部分（例如 `listenHTTP: :80`）时，它使用 **http-01** challenge。Let's Encrypt 服务器会连接到你的域名 **http://yourdomain.com/.well-known/acme-challenge/...**（纯 HTTP，端口 80）来验证你控制该域名。
+默认情况下，当你在 Hysteria 的配置文件中配置 `acme` 部分（例如 `listenHTTP: :80`）时，它使用 **http-01** challenge。Let's Encrypt 服务器会连接到你的域名 **<http://yourdomain.com/.well-known/acme-challenge/...**（纯> HTTP，端口 80）来验证你控制该域名。
 
 如果你的防火墙（例如 UFW）中 **port 80 被阻塞**，验证将失败，并出现如下错误：
 
@@ -54,7 +54,7 @@ Hysteria 的文档明确警告：
 
 **参考：**
 
-- https://v2.hysteria.network/docs/advanced/Full-Server-Config
-- https://letsencrypt.org/docs/allow-port-80
-- https://letsencrypt.org/docs/challenge-types
-- https://github.com/apernet/hysteria/issues/942
+- <https://v2.hysteria.network/docs/advanced/Full-Server-Config>
+- <https://letsencrypt.org/docs/allow-port-80>
+- <https://letsencrypt.org/docs/challenge-types>
+- <https://github.com/apernet/hysteria/issues/942>

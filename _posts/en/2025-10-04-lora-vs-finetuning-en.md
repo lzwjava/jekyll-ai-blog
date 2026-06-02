@@ -51,4 +51,4 @@ Anticipated from theory, this holds because RL losses (e.g., PPO clips) emphasiz
 These insights reveal LoRA as a pragmatic tool for most post-training needs, especially in resource-constrained environments, but not a universal replacement for FullFT on expansive data. Future work might explore adaptive ranks or layer-specific scaling to bridge gaps. Developers should benchmark on their dataset scale and monitor batch effects early.[1] Overall, LoRA democratizes fine-tuning without regret in targeted scenarios, aligning with the shift toward efficient AI development.
 
 Citations:
-[1] https://tinker-docs.thinkingmachines.ai/lora-primer
+[1] <https://tinker-docs.thinkingmachines.ai/lora-primer>

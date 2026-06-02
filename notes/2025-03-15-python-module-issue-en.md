@@ -37,6 +37,7 @@ The error `ImportError: attempted relative import with no known parent package` 
 - When you run a script directly using `python scripts/nytimes/nytimes.py`, Python treats it as the **main module** (with `__name__ = "__main__"`) and does not assign it a package context. Without a package context, Python cannot resolve relative imports because it doesn't know what the "parent package" is.
 
 In your case:
+
 - The script `nytimes.py` is located at `/Users/lzwjava/projects/lzwjava.github.io/scripts/nytimes/nytimes.py`.
 - The relative import `from ..llm.test_mistral import call_mistral_api` suggests a directory structure like this:
 
@@ -149,6 +150,7 @@ This suggests your script or a library it uses is detecting proxy settings, like
 
 1. **Try the solution**:
    - From the `lzwjava.github.io` directory, run:
+
      ```bash
      python -m scripts.nytimes.nytimes
      ```

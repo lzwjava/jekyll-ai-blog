@@ -34,7 +34,7 @@ Below is a more detailed walk‑through that explains why this separation exists
 |---------|--------------------------------------|------------------------------------------|
 | **Filtering** (`*[_type == "post" && publishedAt < now()]`) | “Give me every post that is already published.” | Scans the `_type` and `publishedAt` **columns** of the Content Lake. Uses a B‑tree/bitmap index to jump directly to matching rows. |
 | **Projection** (`{title, slug, author->{name}}`) | “Only return these fields, and resolve the author reference.” | Reads only the `title`, `slug`, and `author._ref` columns, then does a **join** by looking up the referenced author document (again column‑wise). |
-| **Ordering & slicing** (`|order(publishedAt desc)[0...10]`) | “Give me the 10 newest posts.” | Uses the sorted `publishedAt` column to produce a **pre‑ordered stream**; stops after 10 items (no need to materialise the rest). |
+| **Ordering & slicing** (`|order[publishedAt desc](0...10)`) | “Give me the 10 newest posts.” | Uses the sorted `publishedAt` column to produce a **pre‑ordered stream**; stops after 10 items (no need to materialise the rest). |
 | **Full‑text match** (`title match "react*"`) | “Find titles that start with ‘react’.” | Leverages a **text index** (inverted index) that lives alongside the column store, similar to how Elasticsearch works, but built directly into the lake. |
 | **Streaming** | Results start arriving after the first few rows are ready. | The engine pipelines: source → filter → map → serializer → HTTP response, sending bytes as soon as they’re produced. |
 
@@ -71,6 +71,7 @@ All of those operations are **deterministic, integer‑based, and I/O‑bounded*
 
 1. **Create a serverless function** (e.g., Vercel, Cloudflare Workers, AWS Lambda) that receives a request like `POST /api/generate`.
 2. Inside that function:
+
    ```js
    // 1️⃣ Pull the context you need
    const ctx = await sanityClient.fetch(`*[_id == $docId]{title, body}[0]`, {docId});
@@ -93,6 +94,7 @@ All of those operations are **deterministic, integer‑based, and I/O‑bounded*
    // 4️⃣ Store the result back in Sanity (fast GROQ mutation)
    await sanityClient.patch(docId).set({summary: content}).commit();
    ```
+
 3. The **latency you see** in the client is the sum of:
    - Network round‑trip to the LLM (often 30‑120 ms if the LLM is on a fast edge location).
    - LLM inference time (depends on model size; small models < 50 ms, large GPT‑4‑class > 300 ms).
@@ -112,6 +114,7 @@ If you need sub‑100 ms total latency for a *chat* UI, you typically **run th
 | **Hybrid retrieval‑augmented generation (RAG)** | Combine exact keyword match (GROQ) with a small LLM for the final answer. | You only call the LLM on a *few* retrieved documents, reducing token count dramatically. |
 
 **Best practice:**
+
 - **Use GROQ first** to *narrow* the candidate set (e.g., fetch all posts of a certain type, or all docs that contain a specific tag).
 - **If you need a “semantic” ranking**, run those candidates through a *vector similarity* step (still cheap).
 - **Only then** call the LLM for generation or summarisation on the *top‑N* items.

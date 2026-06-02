@@ -15,6 +15,7 @@ vLLM is an open-source library designed for fast and memory-efficient inference 
 ## Key Features
 
 vLLM stands out for its performance and flexibility:
+
 - **PagedAttention**: Efficiently manages key-value (KV) cache memory to reduce waste and enable higher throughput.
 - **Continuous Batching**: Dynamically batches incoming requests without waiting for full batches, improving resource utilization.
 - **Optimized Kernels**: Integrates FlashAttention, FlashInfer, and custom CUDA/HIP graphs for faster execution.

@@ -62,11 +62,11 @@ Cucumber 支持用日常语言编写可执行规范，使测试具备可读性�
 该框架通过协作式自动化测试确保软件符合用户期望，已在各行业广泛应用。[4]
 
 引用文献：
-[1] https://cucumber.io/
-[2] https://cucumber.io/docs/
-[3] https://www.browserstack.com/guide/learn-about-cucumber-testing-tool
-[4] https://en.wikipedia.org/wiki/Cucumber_(software)
-[5] https://testgrid.io/blog/cucumber-testing/
-[6] https://www.headspin.io/blog/cucumber-testing-a-complete-guide
-[7] https://www.accelq.com/blog/cucumber-testing-framework/
-[8] https://www.geeksforgeeks.org/software-testing/what-is-cucumber-framework/
+[1] <https://cucumber.io/>
+[2] <https://cucumber.io/docs/>
+[3] <https://www.browserstack.com/guide/learn-about-cucumber-testing-tool>
+[4] <https://en.wikipedia.org/wiki/Cucumber_(software)>
+[5] <https://testgrid.io/blog/cucumber-testing/>
+[6] <https://www.headspin.io/blog/cucumber-testing-a-complete-guide>
+[7] <https://www.accelq.com/blog/cucumber-testing-framework/>
+[8] <https://www.geeksforgeeks.org/software-testing/what-is-cucumber-framework/>

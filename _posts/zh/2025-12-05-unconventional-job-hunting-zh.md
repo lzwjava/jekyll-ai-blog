@@ -49,6 +49,7 @@ type: note
 这些想法之所以不受欢迎，是因为它们违反了职业顾问和 LinkedIn 影响者所推崇的“好好表现，遵守规则，保持耐心”的叙事。实际上，就业市场是一个混乱、不对称的游戏，那些以这种方式对待它的人往往能最快获胜。
 
 参考文献：
+
 - [“申请 100 份工作”的神话](https://www.kalzumeus.com/2011/10/28/dont-apply-to-jobs-online/)
 - [不，你不是“资历过高”——Patrick McKenzie 谈职位要求](https://www.kalzumeus.com/2012/01/26/how-to-get-a-job/)
 - [简历黑洞——Lou Adler 关于回应率的研究](https://www.linkedin.com/pulse/why-most-online-applications-never-get-read-lou-adler/)

@@ -17,6 +17,7 @@ type: note
    "search.useIgnoreFiles": false,      // 不遵循 .gitignore
    "search.useGlobalIgnoreFiles": false // 不遵循全局 gitignore
    ```
+
 2. **确保你的排除规则不会隐藏这些文件**
    默认情况下 VS Code 会将 `files.exclude` 中的所有模式继承到 `search.exclude`。如果你曾手动排除了 `.gitignore` 中的目录，请重新启用它们：
 
@@ -27,6 +28,7 @@ type: note
      // …其他需要覆盖的匹配模式
    }
    ```
+
 3. **重新加载窗口**
    保存用户或工作区设置后，运行 **开发者：重新加载窗口** (⇧ ⌘ P → “Reload Window”)，让文件索引器获取更改。
 

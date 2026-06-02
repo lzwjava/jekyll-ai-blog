@@ -24,17 +24,17 @@ Here's a comprehensive guide to understanding FPGAs:
 A typical FPGA architecture consists of three main types of programmable elements:
 
 * **Configurable Logic Blocks (CLBs):** These are the fundamental building blocks that implement the logic functions. A CLB typically contains:
-    * **Look-Up Tables (LUTs):** These are small memory arrays that can be programmed to implement any Boolean function of a certain number of inputs (e.g., 4-input or 6-input LUTs are common).
-    * **Flip-Flops (FFs):** These are memory elements used to store the state of the logic. They are essential for implementing sequential circuits.
-    * **Multiplexers (MUXs):** These are used to select between different signals, allowing for flexible routing and function selection within the CLB.
+  * **Look-Up Tables (LUTs):** These are small memory arrays that can be programmed to implement any Boolean function of a certain number of inputs (e.g., 4-input or 6-input LUTs are common).
+  * **Flip-Flops (FFs):** These are memory elements used to store the state of the logic. They are essential for implementing sequential circuits.
+  * **Multiplexers (MUXs):** These are used to select between different signals, allowing for flexible routing and function selection within the CLB.
 * **Programmable Interconnect:** This is a network of wires and programmable switches that connects the CLBs and other resources on the FPGA. The interconnect allows designers to route signals between different logic blocks to create complex circuits. Key components include:
-    * **Switch Boxes:** These contain programmable switches that allow connections between horizontal and vertical routing channels.
-    * **Connection Boxes:** These connect the routing channels to the input and output pins of the CLBs.
-    * **Routing Channels:** These are the actual wires that carry signals across the FPGA.
+  * **Switch Boxes:** These contain programmable switches that allow connections between horizontal and vertical routing channels.
+  * **Connection Boxes:** These connect the routing channels to the input and output pins of the CLBs.
+  * **Routing Channels:** These are the actual wires that carry signals across the FPGA.
 * **Input/Output (I/O) Blocks:** These provide the interface between the internal logic of the FPGA and the external world. They can be configured to support various signaling standards (e.g., LVCMOS, LVDS) and can include features like:
-    * **Programmable Drive Strength:** Adjusting the output current.
-    * **Slew Rate Control:** Controlling the rate of voltage change.
-    * **Pull-up/Pull-down Resistors:** Setting a default logic level.
+  * **Programmable Drive Strength:** Adjusting the output current.
+  * **Slew Rate Control:** Controlling the rate of voltage change.
+  * **Pull-up/Pull-down Resistors:** Setting a default logic level.
 
 **Beyond the Core:** Modern FPGAs often include additional specialized blocks:
 
@@ -54,15 +54,15 @@ FPGAs are typically programmed using Hardware Description Languages (HDLs) such 
 
 The typical FPGA design flow involves the following steps:
 
-1.  **Specification:** Defining the desired functionality of the digital circuit or system.
-2.  **Design Entry:** Writing the HDL code that describes the circuit's behavior and structure. This can also involve using graphical design tools.
-3.  **Synthesis:** The HDL code is translated into a netlist, which is a description of the circuit in terms of basic logic gates and their connections.
-4.  **Implementation:** This stage involves several sub-steps:
+1. **Specification:** Defining the desired functionality of the digital circuit or system.
+2. **Design Entry:** Writing the HDL code that describes the circuit's behavior and structure. This can also involve using graphical design tools.
+3. **Synthesis:** The HDL code is translated into a netlist, which is a description of the circuit in terms of basic logic gates and their connections.
+4. **Implementation:** This stage involves several sub-steps:
     * **Placement:** Assigning the logic elements from the netlist to specific physical locations on the FPGA.
     * **Routing:** Determining the paths for the interconnect wires to connect the placed logic elements.
     * **Bitstream Generation:** Creating a configuration file (bitstream) that contains the information needed to program the FPGA's internal switches and logic.
-5.  **Verification:** Testing the design through simulation and hardware testing on the FPGA to ensure it meets the specifications.
-6.  **Configuration:** Loading the generated bitstream onto the FPGA. This configures the internal logic and interconnect, effectively "programming" the device to perform the desired function.
+5. **Verification:** Testing the design through simulation and hardware testing on the FPGA to ensure it meets the specifications.
+6. **Configuration:** Loading the generated bitstream onto the FPGA. This configures the internal logic and interconnect, effectively "programming" the device to perform the desired function.
 
 FPGA vendors (like Xilinx and Intel) provide comprehensive software toolchains that automate these steps. These tools include:
 

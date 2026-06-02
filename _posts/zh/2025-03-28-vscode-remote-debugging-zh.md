@@ -13,23 +13,29 @@ type: note
 ---
 
 ### 步骤 1：以调试模式启动 WebSphere Liberty Server
+
 1. 打开终端或命令提示符。
 2. 导航到您的 WebSphere Liberty 安装目录。
 3. 运行以下命令以调试模式启动服务器：
+
    ```
    server debug default
    ```
+
    - 如果您的服务器名称不同，请将 `default` 替换为您的服务器名称。
 4. 服务器将以调试模式启动，通常监听端口 **7777**。
 5. 检查服务器的控制台输出或日志，寻找类似以下的消息：
+
    ```
    Listening for transport dt_socket at address: 7777
    ```
+
    - 这确认了调试端口。如果端口不同（例如由于冲突），请记下显示的数字。
 
 ---
 
 ### 步骤 2：在 VSCode 中配置远程调试
+
 1. **在 VSCode 中打开您的项目**：
    - 确保您的 Java 项目（包含部署到服务器的源代码）已在 VSCode 中打开。这允许调试器将断点映射到运行中的代码。
 
@@ -43,6 +49,7 @@ type: note
 
 4. **添加调试配置**：
    - 在 `launch.json` 文件中，确保包含一个用于附加到远程 JVM 的配置。以下是一个示例：
+
      ```json
      {
          "version": "0.2.0",
@@ -57,6 +64,7 @@ type: note
          ]
      }
      ```
+
    - **字段说明**：
      - `"type": "java"`：指定 Java 调试器。
      - `"name": "Attach to WebSphere Liberty"`：此配置的描述性名称。
@@ -70,6 +78,7 @@ type: note
 ---
 
 ### 步骤 3：启动调试会话
+
 1. **确保服务器正在运行**：
    - 验证 WebSphere Liberty Server 是否仍以调试模式运行（来自步骤 1）。
 
@@ -89,6 +98,7 @@ type: note
 ---
 
 ### 附加说明
+
 - **本地与远程服务器**：
   - 如果服务器在不同的机器上运行，请在 `launch.json` 文件中将 `"localhost"` 替换为服务器的主机名或 IP 地址。确保调试端口可通过网络访问（例如未被防火墙阻止）。
 

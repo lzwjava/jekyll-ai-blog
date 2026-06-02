@@ -20,7 +20,7 @@ type: note
 1. 在 OpenCode 中选择“使用 GitHub Copilot 登录”
 2. 选择部署类型：GitHub.com 或 GitHub Enterprise
 3. OpenCode 访问 `https://github.com/login/device/code`，携带 client_id `Ov23li8tweQw6odWQebz`
-4. 你会获得一个用户码和验证地址（https://github.com/login/device）
+4. 你会获得一个用户码和验证地址（<https://github.com/login/device）>
 5. 在浏览器中输入该码并授权
 6. OpenCode 轮询 `https://github.com/login/oauth/access_token`，直到获取 access token
 7. 该 token 将作为所有 Copilot API 调用的 Bearer 认证凭据
@@ -28,6 +28,7 @@ type: note
 **API 端点**：`https://api.githubcopilot.com`（Enterprise 版本为 `https://copilot-api.<your-ghe-domain>`）
 
 **支持的功能**：
+
 - Chat completions API 和 OpenAI Responses API
 - 视觉请求（图片）
 - Agent 模式（通过 `x-initiator` 标头自动检测）
@@ -36,6 +37,7 @@ type: note
 - 支持自定义 URL 的 GitHub Enterprise
 
 **使用方法**：
+
 ```
 # 在 OpenCode TUI 中，进入提供者设置
 # 选择 "github-copilot" -> "使用 GitHub Copilot 登录"

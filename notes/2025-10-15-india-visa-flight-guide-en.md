@@ -11,7 +11,9 @@ type: note
 ---
 
 ### Visa Requirements
+
 As a traveler from China (assuming based on your location in Guangzhou), you'll need a visa to enter India. Chinese citizens are eligible for an **e-Tourist Visa (e-TV)**, which is the easiest option for tourism. Key details:
+
 - **Validity**: Up to 5 years with multiple entries (from October 2019 policy).
 - **Duration per stay**: Up to 180 days.
 - **Application**: Apply online via the official Government of India website (indianvisaonline.gov.in). Processing typically takes 2-4 days.
@@ -22,9 +24,11 @@ Since you're in Guangzhou, check the Consulate General of India there for any lo
 Apply well in advance—aim for 1-2 weeks before travel.
 
 ### Flight Options
+
 There are **no direct flights** from Guangzhou Baiyun International Airport (CAN) to Goa Dabolim Airport (GOI) or Manohar International Airport (MOPA). Expect 1-2 stops, with total travel time of 10-20 hours. Common routes go via Mumbai (BOM), Delhi (DEL), Bangkok (BKK), or Singapore (SIN).
 
 #### Cheapest Recent Fares (Indicative for October 2025)
+
 Based on current searches, one-way fares start from ~$195-390 USD (₹16,000-32,000), and round-trip from ~$500 USD. Prices fluctuate—book early for deals. Here's a summary:
 
 | Route Example | Airlines | Stops | Duration | One-Way Price (USD) |
@@ -39,6 +43,7 @@ Based on current searches, one-way fares start from ~$195-390 USD (₹16,000-32,
 - **Airport Tips**: Arrive 3 hours early for international flights. Goa has two airports—GOI for domestic vibes, MOPA for international arrivals.
 
 ### Other Travel Tips
+
 - **Best Time**: October-November is shoulder season—pleasant weather (25-30°C), fewer crowds than peak winter.
 - **Getting Around Goa**: Rent a scooter (~$5/day) or use taxis/Uber. Flights land in South/North Goa—specify based on your stay.
 - **COVID/Health**: Check for any entry rules (currently minimal), and get travel insurance.
@@ -47,6 +52,7 @@ Based on current searches, one-way fares start from ~$195-390 USD (₹16,000-32,
 Book flights soon for your dates—use the sites below for real-time quotes.
 
 ### References
+
 - [Guangzhou to Goa Flights - MakeMyTrip](https://www.makemytrip.com/international-flights/guangzhou-goa-cheap-airtickets.html)
 - [Cheap Flights from Guangzhou to Goa - Skyscanner](https://www.skyscanner.co.in/routes/can/goi/guangzhou-to-goa.html)
 - [Cheap Flights from Guangzhou to Goa - Trip.com](https://www.trip.com/flights/guangzhou-to-goa/airfares-can-goi/)

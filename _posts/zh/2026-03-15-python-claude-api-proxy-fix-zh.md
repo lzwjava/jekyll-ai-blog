@@ -183,6 +183,7 @@ print(response.text)  # raw response text, better than .json() when it fails
 ```
 
 常见错误含义：
+
 - **401** → API 密钥错误或认证头格式错误
 - **403** → 客户端身份检查失败（User-Agent / beta 头）
 - **404** → 端点路径错误

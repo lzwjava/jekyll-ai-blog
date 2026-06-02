@@ -17,14 +17,18 @@ type: note
 在 Python 中，当创建可分发包（例如，上传到 PyPI 或共享代码）时，通常会使用基于较旧的 **setup.py** 的打包系统（仍然广泛使用，尽管正在向 pyproject.toml 发展）的两个重要文件：
 
 ### 1. **setup.py**
+
 - **目的**：这是你的 Python 包的构建脚本。它告诉 Python 的打包工具（如 `setuptools`）如何安装、构建或分发你的项目。
 - **工作原理**：你运行如下命令：
+
   ```bash
   python setup.py sdist    # 创建一个源代码分发包 (tar.gz)
   python setup.py bdist_wheel  # 创建一个 wheel (.whl)
   python setup.py install   # 在本地安装包
   ```
+
 - **常见内容**（示例）：
+
   ```python
   from setuptools import setup, find_packages
 
@@ -47,9 +51,11 @@ type: note
       },
   )
   ```
+
 - 构建或安装包时，此文件作为一个 Python 脚本执行。
 
 ### 2. **MANIFEST.in**
+
 - **目的**：控制在 `setup.py sdist` 创建的源代码分发包 (`sdist`) 中包含哪些**额外文件**（非 Python 代码）。
 - 默认情况下，`setuptools` 会包含：
   - 所有 `.py` 文件
@@ -61,6 +67,7 @@ type: note
 - **工作原理**：它是一个简单的文本文件，包含声明性命令（每行一个）。
 
 - **常见示例** (`MANIFEST.in`)：
+
   ```text
   include README.md
   include LICENSE
@@ -87,7 +94,9 @@ type: note
 | 构建源代码分发包 | `python setup.py sdist` | 同时使用这两个文件 |
 
 ### 现代替代方案（2020 年后推荐）
+
 使用 `pyproject.toml` + `setuptools` 声明性配置，而不是 `setup.py` 和 `MANIFEST.in`：
+
 ```toml
 # pyproject.toml
 [build-system]
@@ -108,6 +117,7 @@ where = ["src"]
 这完全避免了 `MANIFEST.in`，使打包更清晰。
 
 **简而言之**：
+
 - `setup.py` → 包的大脑（元数据、依赖项、构建逻辑）
 - `MANIFEST.in` → 源代码分发中额外文件的打包清单
 

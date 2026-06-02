@@ -11,6 +11,7 @@ type: note
 To enable parallel test execution in your Maven project, particularly for the provided `MavenTest.java` class, you can configure the Maven Surefire Plugin to run tests in parallel. The `MavenTest.java` class uses JUnit 4 with dynamic tests to execute Maven commands for different problems, and the stack trace from your original error indicates that tests are already running in parallel (evidenced by `ForkJoinPool` in the stack trace). However, you can explicitly control parallel execution by configuring the Surefire Plugin in your `pom.xml` file. Below, I’ll explain how to set up parallel test execution and address the use of a `-DParallel` flag as requested.
 
 ### Why Parallel Execution Is Happening
+
 Your test output shows `ForkJoinPool` in the stack trace, indicating that JUnit or Maven is already using a thread pool for parallel execution. The `MavenTest` class uses `@TestFactory` with `DynamicTest`, and the tests are likely running in parallel due to JUnit’s default behavior or an existing Surefire configuration. The goal now is to explicitly configure parallel execution and allow control via a command-line flag like `-DParallel`.
 
 ### Steps to Configure Parallel Test Execution
@@ -151,6 +152,7 @@ Your test output shows `ForkJoinPool` in the stack trace, indicating that JUnit 
    Alternatively, keep `p10009` in the skip list until the issue is resolved.
 
 ### Notes on Parallel Execution
+
 - **Performance**: Parallel execution with `parallel=classes` is suitable for your `MavenTest` class, as each `DynamicTest` represents a distinct problem. This minimizes overhead compared to `methods` or `both`.[](https://maven.apache.org/surefire/maven-surefire-plugin/examples/fork-options-and-parallel-execution.html)
 - **Resource Usage**: Parallel execution increases CPU and memory usage. Monitor your system to ensure `threadCount` (e.g., `4`) doesn’t overwhelm your hardware. Use `forkCount` to isolate tests in separate JVMs if memory issues arise.[](https://www.baeldung.com/maven-junit-parallel-tests)
 - **Timeouts**: The `parallelTestsTimeoutInSeconds` setting ensures tests don’t hang indefinitely, aligning with your `TEST_TIMEOUT` of 10 seconds in `MavenTest.java`.[](https://maven.apache.org/surefire/maven-surefire-plugin/examples/fork-options-and-parallel-execution.html)
@@ -158,6 +160,7 @@ Your test output shows `ForkJoinPool` in the stack trace, indicating that JUnit 
 - **Debugging**: If tests fail unexpectedly in parallel mode, run them sequentially (`-DParallel=false`) to isolate issues.
 
 ### Example Full Command
+
 To run tests in parallel, skipping `p10009`, with four threads:
 
 ```bash
@@ -171,6 +174,7 @@ mvn test -DParallel=false -Dproblem=p10009
 ```
 
 ### Additional Considerations
+
 - **JUnit 4 Limitations**: Your project uses JUnit 4 (based on the `org.junit.jupiter.api` imports and `DynamicTest`). JUnit 4.7+ supports parallel execution via Surefire, but JUnit 5 offers more flexible parallelization options. Consider upgrading to JUnit 5 if you need advanced features like per-class parallelism or custom strategies.[](https://rieckpil.de/parallelize-only-java-unit-tests-with-junit-5-and-maven/)[](https://www.baeldung.com/junit-5-parallel-tests)
 - **Maven Version**: Ensure you’re using a recent version of Maven (e.g., 3.9.10, as in your error output) and Surefire (e.g., 3.5.3) for optimal parallel execution support.
 - **Error Handling**: To make tests more robust, consider catching exceptions in `runMavenExecTests` (as suggested in the previous response) to log failures without stopping the test suite:

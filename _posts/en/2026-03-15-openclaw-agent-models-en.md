@@ -18,6 +18,7 @@ OpenClaw is an open-source, local-first personal AI agent framework (not an LLM 
 As of March 2026, here are the most recommended and highly regarded models for OpenClaw, based on community usage, docs, Reddit/Discord feedback, and practical tier lists:
 
 ### Top Tier (S/A — most reliable for serious agent work)
+
 - **Anthropic Claude family** (especially Sonnet 4 / Opus 4.5 / Opus 4.6)
   Still widely considered the gold standard for OpenClaw. Extremely consistent JSON/tool calling, excellent at multi-step reasoning, recovers well from partial failures, and handles long contexts without losing track.
   - Best default for most users (daily tasks, coding, research).
@@ -33,16 +34,20 @@ As of March 2026, here are the most recommended and highly regarded models for O
   Excellent price/performance, strong coding/math, reliable tool use in agent loops. Frequently recommended for budget-conscious or high-volume use.
 
 ### Strong Local / Self-Hosted Options (via Ollama, LM Studio, llama.cpp)
+
 These run fully private/no API cost (need decent hardware, e.g., 32GB+ RAM Mac/PC or GPU):
+
 - **Qwen series** (Qwen3-Coder 32B, Qwen3.5 variants, GLM-4.7 / GLM-5) — Top local picks; very stable tool calling, high context, community favorite for OpenClaw.
 - **Devstral-Small-2-24B** or similar fine-tuned coding models — Proven reliable in production agent setups.
 - **Llama 3.3 70B / Llama 4 variants** — Solid general performance when quantized well.
 
 ### Other Frequently Mentioned Good Performers
+
 - Google Gemini (3 Pro / 2.5 Flash) — Great for research/speed, native long context.
 - OpenAI GPT family (GPT-5 series, GPT-4o) — Huge ecosystem support, but some users report less reliable tool consistency vs Claude in long agent sessions.
 
 ### Quick Decision Guide (2026 community consensus)
+
 - **Best overall reliability/tool use** → Claude Sonnet/Opus
 - **Best value + strong agent performance** → Kimi K2.5 or DeepSeek V3.2
 - **Best cheap/fast/heartbeats** → MiniMax Flash, GLM-4.7, Gemini Flash

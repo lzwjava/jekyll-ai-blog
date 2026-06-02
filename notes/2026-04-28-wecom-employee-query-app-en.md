@@ -25,29 +25,34 @@ There are two main approaches depending on your technical capability:
 
 This is the **fastest approach**, especially after WeCom 5.0. WeCom's "Intelligent Robot" feature allows brands to upload internal knowledge sets and build dedicated AI-powered assistants tailored to various departments — such as a Store Assistant, IT Assistant, or HR Assistant. These intelligent assistants can provide instant responses to employee inquiries.
 
-### Steps:
+### Steps
 
 **Step 1: Log into the WeCom Admin Console**
+
 - Go to [work.weixin.qq.com](https://work.weixin.qq.com) and log in as the admin.
 - Navigate to **应用管理 (App Management)**.
 
 **Step 2: Create a Self-Built Application**
+
 - Click **创建应用 (Create Application)**.
 - Upload a logo, set the app name (e.g., "HR Support", "IT Helpdesk"), write a description.
 - Set **Visibility Scope** to the relevant employee groups or the entire organization.
 - Click **创建 (Create)**.
 
 **Step 3: Enable the AI Bot / Intelligent Robot**
+
 - Inside the newly created app settings, find **AI Robot / 智能机器人**.
 - Upload your company's knowledge base documents (FAQs, HR policies, IT guides, product manuals, etc.).
 - Configure the bot's greeting message and auto-reply rules.
 - The intelligent assistant can provide instant responses and generate personalized scripts — knowledge can include department-specific institutional information, and employees can query this 24/7.
 
 **Step 4: Configure Auto-Reply and FAQ Rules**
+
 - Under **消息接收 (Message Reception)**, enable keyword-based auto-replies.
 - Map common employee questions (e.g., "How do I apply for leave?", "What is the IT helpdesk number?") to pre-written answers.
 
 **Step 5: Publish to Employees**
+
 - Save and publish the app. Employees will see it in their WeCom app under the **工作台 (Workbench)** tab.
 - Employees simply open the app and type their question to receive an instant reply.
 
@@ -73,19 +78,22 @@ Backend calls WeCom API to send reply back
 Employee receives answer in WeCom app
 ```
 
-### Step-by-Step:
+### Step-by-Step
 
 **Step 1: Register the App in Admin Console**
+
 - Go to **App Management → Create App** (same as above).
 - Note down: `CorpID`, `AgentId`, `AgentSecret`.
 
 **Step 2: Set Up Message Receiving (Webhook)**
+
 - In the app settings, go to **接收消息 (Receive Messages) → Set API Reception**.
 - Generate a random `Token` and `EncodingAESKey`.
 - Enter your server's callback URL (must be publicly accessible via HTTPS).
 - WeCom will verify the URL by sending a GET request — your server must respond correctly.
 
 **Step 3: Configure Trusted IP Whitelist**
+
 - The enterprise WeChat application receiving messages needs to configure a list of trusted IPs. This list consists of the outbound IPs of the server where your service is located. Failure to configure this list will result in communication failure between Enterprise WeChat and your system.
 
 **Step 4: Build Your Backend Server**
@@ -133,11 +141,13 @@ def send_wecom_message(to_user, content):
 **Step 5: Connect to a Knowledge Base or LLM (Optional but Powerful)**
 
 For intelligent responses, connect your backend to:
+
 - A **FAQ database** (e.g., MySQL, Notion, Google Sheets via API)
 - An **LLM** like Claude or GPT via API for natural language understanding
 - A **RAG (Retrieval-Augmented Generation)** system that searches your internal documents
 
 **Step 6: Test and Deploy**
+
 - Send a test message from an employee account inside WeCom.
 - Verify the bot receives the message and replies correctly.
 - Monitor logs for errors.
@@ -151,6 +161,7 @@ If you don't want to code at all, several third-party platforms integrate with W
 Platforms like SaleSmartly deeply integrate with AI engines like DeepSeek and ChatGPT. Businesses can configure automated replies, FAQ responses, and order tracking within such platforms through API connections to WeCom, dramatically accelerating response times.
 
 Other options include:
+
 - **Hengshi SENSE** — for data Q&A bots connected to business datasets
 - **Omnichat** — for multi-channel customer support management
 - **SaleSmartly** — for CRM + AI chatbot automation

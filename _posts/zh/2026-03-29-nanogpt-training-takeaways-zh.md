@@ -42,7 +42,7 @@ type: note
 
 ---
 
-### 2. 理解 batch size, block size 等。
+### 2. 理解 batch size, block size 等
 
 这是**最重要的见解之一**。
 

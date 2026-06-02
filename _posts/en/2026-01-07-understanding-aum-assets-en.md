@@ -16,7 +16,8 @@ Answer:
 
 **Assets Under Management (AUM)** is a key term in finance that refers to the total market value of all the financial assets—such as stocks, bonds, cash, or other investments—that a financial institution, investment firm, fund manager, or portfolio manager controls and invests on behalf of its clients.
 
-### Key Points:
+### Key Points
+
 - **Definition**: AUM represents the current market value of investments managed for clients, not owned by the manager itself.
 - **Common Users**: It applies to mutual funds, hedge funds, private equity firms, venture capital firms, wealth managers, and even decentralized finance (DeFi) protocols.
 - **Why It Matters**:

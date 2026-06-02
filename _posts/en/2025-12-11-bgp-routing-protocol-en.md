@@ -17,6 +17,7 @@ Answer:
 **Border Gateway Protocol (BGP)** is the standardized exterior gateway protocol used to exchange routing and reachability information between autonomous systems (AS) on the Internet.
 
 ### Key Points
+
 - **Purpose**: BGP is the protocol that makes the global Internet routing work. It allows different networks (owned by ISPs, companies, universities, etc.), each identified by an Autonomous System Number (ASN), to tell each other which IP address blocks (prefixes) they can be reached through them.
 - **Type**: It is a **path-vector protocol** (an advanced form of distance-vector routing). Instead of just using metrics like hop count or bandwidth, BGP routers exchange full paths (lists of ASNs) to reach a destination. This helps detect and prevent routing loops.
 - **Versions**:

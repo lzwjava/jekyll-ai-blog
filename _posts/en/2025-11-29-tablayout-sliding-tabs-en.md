@@ -16,6 +16,7 @@ The correct answer is **A. TabLayout**.
 In Android development (especially with the AndroidX libraries), **TabLayout** is the class specifically designed to create sliding tab interfaces that work seamlessly with **ViewPager** or **ViewPager2**.
 
 Typical setup:
+
 ```xml
 <com.google.android.material.tabs.TabLayout
     android:id="@+id/tabLayout"
@@ -36,6 +37,7 @@ tabLayout.setupWithViewPager(viewPager);  // This links them for sliding behavio
 ```
 
 The other options:
+
 - **Toolbar** → App bar, not for tabs
 - **DrawerLayout** → For navigation drawers (slide-in menu)
 - **CoordinatorLayout** → Advanced layout for coordinating behaviors (often used as root with AppBarLayout + TabLayout), but not the tab creator itself

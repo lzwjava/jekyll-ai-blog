@@ -18,17 +18,20 @@ Yes, this works — and it's a solid AI-native workflow for enterprises. But the
 ## What Works
 
 **The pattern:**
+
 ```
 Zoom meeting → 3-min summaries (Zoom AI) → combined markdown → Copilot + Excel context → Python code
 ```
 
 This is defensible because:
+
 - Zoom AI Companion captures meeting context without manual notetaking
 - Markdown aggregation is format-agnostic and cheap to process
 - Copilot with multimodal input (text + Excel schema) can infer intent from both
 - Python + Excel is a natural fit for enterprise automation (openpyxl, pandas, xlwings)
 
 **Where it shines:**
+
 - Rapid prototyping of data pipelines described in meetings
 - Converting informal requirements (meeting notes) → structured code
 - Avoiding "but nobody wrote down what we decided" 2 weeks later
@@ -36,11 +39,13 @@ This is defensible because:
 ## Critical Limitations
 
 **Zoom AI Companion summaries are lossy:**
+
 - 3-minute windows fragment context. A complex requirement that spans 12 minutes gets chopped across 4 summaries.
 - Zoom AI tends to summarize *what was said*, not *what was decided*. You lose intent.
 - No speaker attribution by default — unclear who owns what.
 
 **Copilot + Excel schema inference is fragile:**
+
 - If your Excel has 20 sheets with ambiguous naming, Copilot will guess wrong on relationships.
 - It won't know unmapped columns, hidden rows, or data quality issues.
 - Generated code often lacks error handling and doesn't match your actual data shape.
@@ -122,6 +127,7 @@ print(prompt)
 ## At Your Bank
 
 Given you're at a financial institution:
+
 - **Do this** for data pipelines, report automation, reconciliation logic
 - **Don't rely solely on this** for compliance/audit workflows (you need explainability)
 - **Layer validation**: Generated code should always include schema checks, null handling, and audit logs
@@ -130,6 +136,7 @@ Given you're at a financial institution:
 ## Faster Alternative: Claude API + Structured Output
 
 Instead of Copilot + manual feeding, you could:
+
 1. Export Zoom summaries to JSON
 2. Send directly to Claude API with your Excel schema
 3. Request JSON output specifying the generated code + confidence notes
@@ -150,6 +157,7 @@ code = response.content[0].text
 ```
 
 This gives you:
+
 - Full programmatic control
 - Faster iteration (no UI friction)
 - Ability to log/audit what was generated and why
@@ -158,6 +166,7 @@ This gives you:
 ## Bottom Line
 
 Your pattern is **architecturally sound** for enterprises, but it works best when you:
+
 - Don't over-rely on Zoom AI's natural language fragmentation
 - Add explicit schema/requirements between summaries and code
 - Validate generated code immediately (don't assume it's production-ready)

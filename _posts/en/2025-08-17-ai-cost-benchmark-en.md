@@ -15,6 +15,7 @@ Got it — let me unpack what you wrote and translate the idea into English, the
 ---
 
 ### Restating the context
+
 - In the LLM ecosystem, there isn’t yet a **standardized tool** that can accurately measure the cost of completing a specific *task* using different providers’ models.
 - Existing dashboards (like OpenRouter’s) only show prices, but *actual costs* depend on highly **variable factors**: prompt length, context window usage, caching efficiency (prompt re-use or "cache hits vs misses"), and output length.
 - Because of this, people often just *guess* and choose a model balancing cost and quality, without precise cost prediction.
@@ -23,6 +24,7 @@ Got it — let me unpack what you wrote and translate the idea into English, the
 ---
 
 ### On the cache metrics you mentioned
+
 - **Cache miss goes down by ~50%.** That means fewer tokens had to be fully recomputed from scratch — saving compute.
 - **Cache hit is slightly more than half.** So some portion of requests benefited from reusing precomputed activations.
 - **Output tokens dropped by ~⅔.** So the responses were also shorter, leading to major cost reduction because output is often more expensive per token than input.
@@ -32,11 +34,14 @@ This triple effect (better caching, fewer tokens, shorter answers) can create *n
 ---
 
 ### Your observation with DeepSeek v3.2 pricing
+
 You noticed:
+
 - "Price drop 50% (advertised)."
 - But when you checked your actual task costs, the reduction wasn’t exactly 50%.
 
 **Why this happens:**
+
 1. **Headline pricing ≠ Effective cost.**
    Providers lower “per million tokens" prices, but if your usage pattern is dominated by cache hits or shorter completions, the *marginal* realized savings may be very different.
 
@@ -55,6 +60,7 @@ You noticed:
 ---
 
 ### Big picture
+
 - The **core problem** is that effective cost depends on *workload structure* (cache hit patterns, average output length, etc.), while providers only publish *static per-token prices*.
 - That’s why you saw: *advertised price cut ≠ real cost cut*.
 - The industry would benefit from a **benchmark framework for cost-efficiency**, the same way we have quality benchmarks — e.g. running representative task suites through multiple models and reporting *net real-world cost per solved task*.

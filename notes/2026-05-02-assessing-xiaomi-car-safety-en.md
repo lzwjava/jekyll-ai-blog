@@ -50,7 +50,7 @@ That’s why companies like:
 
 move slowly toward higher autonomy levels.
 
-### Key concept:
+### Key concept
 
 Most current systems are **NOT full self-driving**, but:
 
@@ -106,12 +106,12 @@ What you said:
 
 This is partially reasonable:
 
-### Useful:
+### Useful
 
 * Emergency window breaker (especially in water scenarios)
 * Seatbelt cutter
 
-### But reality check:
+### But reality check
 
 * Most accidents don’t require breaking windows manually
 * If structure is severely damaged, tools may not help anyway

@@ -19,6 +19,7 @@ type: note
 The **New Democratic Revolution** (Chinese: 新民主主义革命) is a core concept in modern Chinese Communist Party (CCP) theory, primarily developed and theorized by **Mao Zedong** in the 1930s and 1940s. It served as the guiding strategy for the Chinese revolution from approximately 1921 (founding of the CCP) until 1949 (foundation of the People's Republic of China).
 
 #### 1. Historical Background
+
 After the **May Fourth Movement (1919)** and the founding of the Chinese Communist Party (1921), China was still a **semi-colonial and semi-feudal society**. The old democratic revolution (led by Sun Yat-sen and the Kuomintang) had failed to thoroughly solve China's problems of imperialism, feudalism, and bureaucratic capitalism.
 
 Mao Zedong argued that China needed a **new type** of democratic revolution — one that was led by the **proletariat (working class)** through the **Communist Party**, rather than by the bourgeoisie as in Western bourgeois democratic revolutions.

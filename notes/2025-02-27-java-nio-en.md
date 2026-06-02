@@ -13,11 +13,13 @@ Let me explain how to use NIO (New Input/Output) in Java with some practical exa
 Here’s a breakdown of the key components and a simple example:
 
 ### Key NIO Components
+
 1. **Buffers**: Containers for data (e.g., `ByteBuffer`).
 2. **Channels**: Streams for reading/writing data (e.g., `FileChannel`, `SocketChannel`).
 3. **Selectors**: For multiplexing multiple channels in non-blocking mode.
 
 ### Basic Example: Reading a File with NIO
+
 Here’s how you can read a file using `FileChannel` and `ByteBuffer`:
 
 ```java
@@ -62,6 +64,7 @@ public class NIOFileReader {
 ```
 
 ### How It Works
+
 1. **FileChannel**: Opens a connection to the file.
 2. **ByteBuffer**: Acts as a temporary storage for data. You allocate its size (e.g., 1024 bytes).
 3. **Buffer Operations**:
@@ -72,6 +75,7 @@ public class NIOFileReader {
 ---
 
 ### Writing to a File with NIO
+
 Here’s an example of writing data to a file:
 
 ```java
@@ -115,6 +119,7 @@ public class NIOFileWriter {
 ---
 
 ### Non-Blocking Example with Selector
+
 For network programming (e.g., a server), you can use `Selector` with `SocketChannel`:
 
 ```java
@@ -175,6 +180,7 @@ public class NIOServer {
 ```
 
 ### Tips for Using NIO
+
 - **Buffer Management**: Always `flip()` after writing to a buffer and before reading, and `clear()` when reusing it.
 - **Non-Blocking**: Use `configureBlocking(false)` and `Selector` for scalable network apps.
 - **Performance**: NIO shines in scenarios with many concurrent connections or large data transfers.

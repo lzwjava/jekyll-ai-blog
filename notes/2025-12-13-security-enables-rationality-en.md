@@ -18,7 +18,7 @@ Duan Yongping (段永平), the renowned Chinese entrepreneur and investor (found
 
 The quote—"people without a secure heart can't be rational" (or more accurately translated as "without a sense of security, it's hard for people to be rational" / "没有安全感的人很难理性")—means that emotional insecurity triggers fear, anxiety, or survival instincts, which override logical thinking and lead to irrational behavior.
 
-### Key aspects of this idea:
+### Key aspects of this idea
 
 - **In child education**: Duan believes parents' primary role is to build a strong sense of security in children through trust, clear boundaries, and avoiding actions that diminish security (e.g., scolding, hitting, or excessive pressure). A secure child develops the ability to think rationally, make independent decisions, and handle failure calmly. In contrast, insecure children may become overly reactive, fearful, or unable to judge situations objectively.
 

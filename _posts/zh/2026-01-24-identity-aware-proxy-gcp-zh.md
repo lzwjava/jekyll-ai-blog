@@ -19,6 +19,7 @@ Answer:
 ### Core Purpose
 
 IAP 通过确保以下几点来帮助实现 **Zero Trust** 原则：
+
 - 只有经过身份验证和授权的用户才能访问您的应用程序
 - 访问决策在 **application level**（而非仅在网络层）做出
 - 资源保持 **private** 状态（无需打开公共防火墙端口）
@@ -35,6 +36,7 @@ IAP 通过确保以下几点来帮助实现 **Zero Trust** 原则：
 ### Supported Resources (2026 status)
 
 IAP 保护：
+
 - **Cloud Run** 服务
 - **App Engine** 应用程序
 - **Compute Engine** VMs (HTTP(S) load balancers)

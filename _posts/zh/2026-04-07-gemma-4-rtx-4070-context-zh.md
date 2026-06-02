@@ -16,6 +16,7 @@ type: note
 **unsloth/gemma-4-E4B-it-GGUF** 是Google Gemma 4 E4B（高效4B）指令调优模型的量化GGUF版本。这是一个紧凑的密集模型，拥有约4–4.5亿有效参数（含嵌入层约8B）。它专为高效的本地推理设计，并支持原生的最大上下文长度 **128K tokens**（而非256K，后者是为更大的Gemma 4变体保留的，例如26B-A4B MoE或31B模型）。
 
 ### 在RTX 4070（12 GB显存）上使用llama.cpp的推荐上下文长度
+
 - **模型加载**：该~4B级别模型的典型Q4_K_M或Q4_K_S GGUF量化版本，仅需 **约3–6 GB显存** 用于权重本身（具体取决于量化方案以及是否将所有层卸载至GPU）。这为您的12 GB RTX 4070留下了充足的余量。
 - **KV缓存影响**：KV（键值）缓存是随上下文长度增长的主要因素。Gemma 4采用了滑动窗口注意力（512 tokens）加上完整的注意力机制，这使得其在超长上下文下的缓存比标准的Llama风格模型更占内存。然而，对于小型的4B模型而言，开销仍在可管理范围内。
 - **实际限制**：
@@ -25,6 +26,7 @@ type: note
   - **更高（最高128K）**：在12 GB显存且全GPU卸载的情况下不推荐。KV缓存很可能将总占用推至12 GB以上，导致内存不足错误。
 
 ### 在OpenClaw中使用llama.cpp的运行提示
+
 OpenClaw通过与llama.cpp集成（通常通过`llama-server`等OpenAI兼容服务器）。为获得最佳效果，请使用以下参数：
 
 - `--ctx-size 32768`（或从安全的16384开始）
@@ -41,6 +43,7 @@ OpenClaw通过与llama.cpp集成（通常通过`llama-server`等OpenAI兼容服�
 简而言之：**在OpenClaw/llama.cpp中使用此模型，在RTX 4070上实现32K上下文是现实且推荐的**。您应该能获得可靠性能，并且还有余量。
 
 参考文献：
-- https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF
-- https://ai.google.dev/gemma/docs/core/model_card_4 (Gemma 4上下文规格说明)
+
+- <https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF>
+- <https://ai.google.dev/gemma/docs/core/model_card_4> (Gemma 4上下文规格说明)
 - 关于12 GB GPU上小型Gemma 4模型在llama.cpp中显存占用的社区报告。

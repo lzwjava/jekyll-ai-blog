@@ -53,7 +53,7 @@ print(f"Created OG image using {len(image.generated_images[0].image.image_bytes)
 
 ---
 
-### 🔍 To generate a **custom-sized image** like `1200x630`:
+### 🔍 To generate a **custom-sized image** like `1200x630`
 
 The current Gemini/Imagen public APIs **do not support** arbitrary image sizes. If you need 1200×630 (e.g., for OG images), your options are:
 

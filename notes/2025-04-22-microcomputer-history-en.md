@@ -15,9 +15,11 @@ The course **Microcomputer and Interface Technology**, as outlined, focuses on t
 ### **1. The Microcomputer: Origins and Evolution**
 
 #### **What is a Microcomputer?**
+
 A microcomputer is a small, affordable computer built around a microprocessor, integrating CPU, memory, and I/O capabilities. The course begins with an overview of microcomputer systems, rooted in the **Von Neumann architecture** (a CPU, memory for instructions and data, and I/O connected via buses).
 
 #### **History and Discovery**
+
 - **Pre-1970s: Foundations**
   - The concept of a programmable computer dates to **Charles Babbage**’s Analytical Engine (1830s), though it was never built. **Alan Turing**’s theoretical work (1936) and **John von Neumann**’s 1945 report on the EDVAC formalized the stored-program computer, where instructions and data share memory. This **Von Neumann architecture** became the blueprint for microcomputers.
   - Early computers (e.g., ENIAC, 1945) were massive, using vacuum tubes. The invention of the **transistor** (1947, **John Bardeen**, **Walter Brattain**, **William Shockley** at Bell Labs) and the **integrated circuit** (1958, **Jack Kilby** at Texas Instruments and **Robert Noyce** at Fairchild) enabled compact electronics.
@@ -35,6 +37,7 @@ A microcomputer is a small, affordable computer built around a microprocessor, i
 - **Course Context**: The course focuses on the **Intel 8086/8088**, introduced in 1978, which powered the **IBM PC** (1981), standardizing microcomputers for business and home use.
 
 #### **Key Figures**
+
 - **Federico Faggin**: Led 4004 design, later co-founded Zilog (Z80 processor).
 - **Ted Hoff**: Conceived the microprocessor concept.
 - **Robert Noyce and Gordon Moore**: Intel founders, drove IC and microprocessor development.
@@ -45,9 +48,11 @@ A microcomputer is a small, affordable computer built around a microprocessor, i
 ### **2. The Intel 8086/8088 Microprocessor**
 
 #### **What is It?**
+
 The 8086 (16-bit, 5-10 MHz) and 8088 (8-bit external bus) are microprocessors central to the course, known for their segmented memory model, 1 MB address space, and x86 architecture, which remains dominant today.
 
 #### **History and Discovery**
+
 - **1976-1978: Development**
   - **Who Discovered It?**: Intel’s team, led by **Stephen Morse** (architecture and instruction set), **Bruce Ravenel** (microcode), and **Jim McKevitt** (project management), designed the 8086, released in June 1978. The 8088 followed in 1979.
   - **Story**: Intel aimed to leapfrog 8-bit processors (e.g., 8080, Z80) to compete in a growing market. The 8086 was designed as a 16-bit processor with a 20-bit address bus, supporting 1 MB of memory (vs. 64 KB for 8-bit chips). Its instruction set was backward-compatible with the 8080, easing software transitions. The 8088, with an 8-bit external bus, reduced system cost, making it attractive for IBM.
@@ -62,6 +67,7 @@ The 8086 (16-bit, 5-10 MHz) and 8088 (8-bit external bus) are microprocessors ce
   - **Course Context**: The course covers memory expansion (e.g., address decoding), critical for 8086 systems with 1 MB address spaces.
 
 #### **Key Figures**
+
 - **Robert Noyce**: Co-invented the IC, enabling dense memory chips.
 - **Ted Hoff**: Early DRAM designs at Intel.
 - **Dov Frohman**: Invented EPROM at Intel.
@@ -71,9 +77,11 @@ The 8086 (16-bit, 5-10 MHz) and 8088 (8-bit external bus) are microprocessors ce
 ### **5. I/O and Interface Technology**
 
 #### **What is It?**
+
 I/O interfaces connect the CPU to peripherals (e.g., keyboards, printers). The course covers **8255A** (parallel), **8253/8254** (timer), **8251A** (serial), and interrupt systems (e.g., **8259A**).
 
 #### **History and Discovery**
+
 - **1970s: Need for I/O**
   - Early microcomputers used simple I/O ports, but peripherals demanded specialized chips. Intel developed a family of peripheral controllers for the 8080 and 8086.
   - **Story**: As microcomputers grew complex, direct CPU control of I/O became inefficient. Intel’s peripheral chips offloaded tasks, improving performance.
@@ -104,6 +112,7 @@ I/O interfaces connect the CPU to peripherals (e.g., keyboards, printers). The c
   - **DMA**: The **Intel 8237** DMA controller (1980) enabled high-speed transfers, used in disk controllers.
 
 #### **Key Figures**
+
 - **Intel Engineers**: Unnamed teams designed these chips, building on 8080/8086 ecosystems.
 - **Gary Kildall**: CP/M OS leveraged these chips, influencing PC I/O standards.
 
@@ -112,9 +121,11 @@ I/O interfaces connect the CPU to peripherals (e.g., keyboards, printers). The c
 ### **6. Buses and Expansion**
 
 #### **What is It?**
+
 Buses standardize CPU-memory-peripheral communication. The course covers **ISA**, **PCI**, and modern interfaces (**USB**, **SPI**, **I²C**).
 
 #### **History and Discovery**
+
 - **1970s: Early Buses**
   - The **S-100 bus** (1975, Ed Roberts, MITS) was an early standard for Altair-like systems, adopted by hobbyists.
   - **Story**: The S-100’s openness fostered a microcomputer ecosystem but lacked standardization.
@@ -136,6 +147,7 @@ Buses standardize CPU-memory-peripheral communication. The course covers **ISA**
   - **Story**: USB emerged from the need for a universal connector, replacing serial/parallel ports. SPI and I²C were designed for embedded systems, simplifying chip communication.
 
 #### **Key Figures**
+
 - **Ajay Bhatt**: USB’s lead architect.
 - **IBM Engineers**: Defined ISA for the PC.
 - **Intel Teams**: Drove PCI and USB standards.
@@ -163,6 +175,7 @@ Buses standardize CPU-memory-peripheral communication. The course covers **ISA**
 ---
 
 ### **Modern Relevance**
+
 - **Embedded Systems**: Microcontroller-based systems use similar I/O, interrupt, and timing concepts.
 - **Legacy Systems**: Some industrial and military systems still use 8086-based designs.
 - **Education**: The 8086’s simplicity makes it a timeless teaching tool for computer architecture.

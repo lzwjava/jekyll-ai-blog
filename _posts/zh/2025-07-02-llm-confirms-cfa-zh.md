@@ -8,9 +8,9 @@ translated: true
 type: note
 ---
 
-https://weibo.com/6347862377/5183994120372979
+<https://weibo.com/6347862377/5183994120372979>
 
-https://substack.com/inbox/post/167355695
+<https://substack.com/inbox/post/167355695>
 
 ---
 
@@ -18,7 +18,7 @@ https://substack.com/inbox/post/167355695
 
 距离2009-2010年开发PySonar2（Python类型推断与静态分析器）已过去十余年，最近与ChatGPT讨论控制流分析时，不禁想起十年前与某位“CFA学生”的争论。
 
-https://www.yinwang.org/blog-cn/2016/04/07/cfa
+<https://www.yinwang.org/blog-cn/2016/04/07/cfa>
 
 （当年上传到网站的截图已失效，各位姑且看剩余文字）
 
@@ -50,4 +50,4 @@ PySonar2完全独立开发，未参考任何学术成果。它直指问题本质
 
 现将我与ChatGPT关于CFA的对话分享给各位，希望对相关领域研究者有所启发：
 
-https://chatgpt.com/share/6864e9a1-66c8-8002-b9f5-55e845fde7ae
+<https://chatgpt.com/share/6864e9a1-66c8-8002-b9f5-55e845fde7ae>

@@ -108,6 +108,7 @@ type: note
 **必须掌握的关键概念：**
 
 **Quantization：**
+
 - **INT8 quantization** — 将权重从 **FP32**/**FP16** 降至 **INT8**；内存减少 2 倍，准确性损失最小
 - **INT4 quantization** — 4 位权重；用于边缘/消费级 GPU 部署的激进压缩
 - **GPTQ** — 使用二阶权重更新的后训练量化；LLM 部署最常见
@@ -115,6 +116,7 @@ type: note
 - **Quantization-aware training (QAT)** 与 **post-training quantization (PTQ)**
 
 **Inference Optimization：**
+
 - **TensorRT-LLM** — NVIDIA 的开源库，用于优化 LLM 推理；kernel fusion、in-flight batching、paged attention
 - **Paged Attention (vLLM)** — 使用虚拟内存分页管理 **KV cache** 的内存；通过减少 **KV cache** 碎片大幅提高吞吐量
 - **Continuous batching** — 也称 in-flight batching；允许新请求在中途加入生成，与 static batching 不同
@@ -123,6 +125,7 @@ type: note
 - **Model pruning** — structured 与 unstructured pruning；移除冗余权重或注意力头
 
 **Serving Infrastructure：**
+
 - **NVIDIA Triton Inference Server** — 多框架模型服务（**TensorRT**、**PyTorch**、**ONNX**、**vLLM** 后端）；dynamic batching、ensemble pipelines、model versioning
 - **Kubernetes orchestration** — 使用 **NVIDIA GPU Operator** 的水平扩展；管理 GPU 节点池；自动扩展推理 pod
 - **ONNX** — **Open Neural Network Exchange** 格式；框架无关的模型导出用于部署
@@ -138,25 +141,30 @@ type: note
 **必须掌握的关键概念：**
 
 **Full Fine-Tuning：**
+
 - 更新所有模型权重；需要与预训练相同的 GPU 内存；灾难性遗忘风险
 
 **Parameter-Efficient Fine-Tuning (PEFT)：**
+
 - **LoRA (Low-Rank Adaptation)** — 在注意力层插入低秩矩阵 A 和 B；仅训练 A 和 B（通常 <1% 参数）；推理时合并到基础权重；rank r 控制容量
 - **QLoRA** — 在 4 位量化基础模型上应用 **LoRA**；可在单个 48GB GPU 上微调 65B 模型
 - **Adapters** — 在 transformer 层之间插入小型 bottleneck 层；仅训练 adapters
 - **Prefix tuning / Prompt tuning** — 在输入前添加可训练虚拟 token；无权重修改
 
 **Instruction Tuning：**
+
 - 在（instruction, response）对上进行 **Supervised Fine-Tuning (SFT)**；教模型遵循指令
 - **RLHF (Reinforcement Learning from Human Feedback)** — **SFT** → 奖励模型训练 → **PPO** 优化；**ChatGPT**-style 对齐工作原理
 - **DPO (Direct Preference Optimization)** — **RLHF** 的更简单替代；直接在偏好对上训练，无需单独奖励模型
 
 **Training Hyperparameters：**
+
 - 学习率调度（warmup + cosine decay）；典型微调 LR：1e-5 至 3e-4
 - **Gradient accumulation** — 在有限 GPU 内存上模拟大批量大小
 - **Gradient checkpointing** — 通过在反向传播中重新计算激活，以计算换内存
 
 **NVIDIA Tools：**
+
 - **NeMo Framework** — NVIDIA 的 LLM 训练和微调工具包；支持 **LoRA**、**SFT**、**RLHF** 在多 GPU 集群上
 - **NVIDIA NeMo Curator** — 用于准备微调数据集的数据管道工具
 
@@ -171,6 +179,7 @@ type: note
 **必须掌握的关键概念：**
 
 **Automatic Metrics：**
+
 - **Perplexity** — 模型对测试数据的惊讶程度；越低越好；用于语言模型质量
 - **BLEU score** — 生成文本与参考文本的 n-gram 重叠；用于翻译任务
 - **ROUGE** — 召回导向重叠；**ROUGE-1**、**ROUGE-2**、**ROUGE-L**；用于摘要
@@ -178,6 +187,7 @@ type: note
 - **Exact Match (EM) / F1** — 用于 QA 任务（**SQuAD** 基准）
 
 **Benchmarks：**
+
 - **MMLU** — **Massive Multitask Language Understanding**；57 个学术科目；测试通用知识
 - **HellaSwag** — 常识推理
 - **HumanEval** — 代码生成评估（**pass@k** 指标）
@@ -185,11 +195,13 @@ type: note
 - **TruthfulQA** — 衡量对常见误解的幻觉倾向
 
 **Evaluation Framework Design：**
+
 - 保留测试集；污染检测（训练/测试重叠）；统计显著性测试
 - **LLM-as-judge** — 使用强模型评分输出；适用于开放任务的成本效益方法
 - **Human evaluation** — 金标准但昂贵；A/B 偏好测试；基于 rubric 的评分
 
 **Error Analysis：**
+
 - 幻觉检测和分类（事实性、忠实性、可归因性）
 - 失败模式分类：重复、拒绝、指令遵循失败
 
@@ -204,12 +216,14 @@ type: note
 **必须掌握的关键概念：**
 
 **GPU Memory Architecture：**
+
 - **A100**/**H100** 上的 **HBM (High Bandwidth Memory)** 与消费级 GPU 上的 **VRAM**
 - **Memory bandwidth vs compute** — LLM 推理通常受内存带宽限制，而非计算限制
 - **NVLink / NVSwitch** — 高带宽 GPU 间互连；对 tensor parallelism 至关重要
 - **A100 SXM**（80GB **HBM2e**，2TB/s 带宽）与 **H100 SXM**（80GB **HBM3**，3.35TB/s 带宽）
 
 **Parallelism Strategies：**
+
 - **Data Parallelism (DP)** — 在每个 GPU 上复制模型，拆分 batch；通过 **AllReduce** 梯度同步；适用于模型适合单 GPU 时
 - **Tensor Parallelism (TP)** — 将单个权重矩阵跨 GPU 拆分；需要 **NVLink** 以高效；**Megatron**-style column/row splitting
 - **Pipeline Parallelism (PP)** — 将 transformer 层跨 GPU 拆分（stages）；micro-batching 隐藏 bubble 开销；**GPipe** 与 **1F1B** 调度
@@ -217,11 +231,13 @@ type: note
 - **3D Parallelism** — 结合 **DP + TP + PP**；**Megatron-DeepSpeed** 用于 100B+ 模型
 
 **Optimization Libraries：**
+
 - **DeepSpeed ZeRO** — **Zero Redundancy Optimizer**；**ZeRO-1**（optimizer state sharding）、**ZeRO-2**（+gradient sharding）、**ZeRO-3**（+parameter sharding）；启用海量模型训练
 - **FSDP (Fully Sharded Data Parallel)** — **PyTorch** 原生等价于 **ZeRO-3**
 - **NVIDIA Nsight Systems / Nsight Compute** — GPU 分析工具；识别计算瓶颈、内存瓶颈、kernel 低效
 
 **Mixed Precision Training：**
+
 - **BF16 / FP16** — 相对于 **FP32** 内存减少 2 倍；**BF16** 因更宽指数范围而优于训练稳定性
 - **Automatic Mixed Precision (AMP)** — 维护 **FP32** 主权重，在 **FP16**/**BF16** 中计算；梯度缩放防止下溢
 

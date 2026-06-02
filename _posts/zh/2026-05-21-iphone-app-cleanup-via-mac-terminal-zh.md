@@ -16,11 +16,13 @@ type: note
 **清理 iOS 应用的工作流程：**
 
 1. **列出所有用户安装的应用**——显示 bundle ID 和名称：
+
    ```bash
    ideviceinstaller -l -o list_user
    ```
 
 2. **按 bundle ID 卸载不用的应用**：
+
    ```bash
    ideviceinstaller -U com.example.unused-app
    ```

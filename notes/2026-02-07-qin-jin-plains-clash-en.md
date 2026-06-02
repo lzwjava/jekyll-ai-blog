@@ -23,7 +23,7 @@ Answer:
 
 The fundamental cause of the Battle of Xiao (殽之战, 627 BCE) was **the struggle between Qin and Jin for hegemony in the Central Plains**.
 
-### Detailed Explanation:
+### Detailed Explanation
 
 During the mid-Spring and Autumn period, the Eastern Zhou royal house had become extremely weak and could no longer effectively control the various feudal states. Real power had shifted to the stronger regional states, which competed fiercely to become the dominant hegemon (霸主) of the Central Plains — the political, cultural, and military heartland of the Chinese world at that time.
 
@@ -37,10 +37,12 @@ Key background:
 This action directly challenged Jin’s dominant position in the Central Plains and threatened the entire system of alliances and order that Jin had established under Duke Wen.
 
 From Jin’s perspective:
+
 - Qin’s attack on Zheng was not just an attack on a small state — it was a direct encroachment on Jin’s sphere of influence and an open challenge to Jin’s hegemonic status.
 - Jin could not tolerate a rising western power (Qin) breaking through the strategic buffer zone and establishing a foothold in the Central Plains.
 
 Thus, even though superficial triggers included:
+
 - Qin’s discourtesy when passing through the royal domain (周天子 territory),
 - Qin’s failure to observe proper mourning etiquette toward the recently deceased Duke Wen of Jin,
 - The defection of the Qin commanders who had been stationed in Zheng (杞子、逢孙、扬孙),

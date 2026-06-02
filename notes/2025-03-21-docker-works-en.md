@@ -13,12 +13,15 @@ Let’s dive into how Docker works, focusing on its use of Linux’s filesystem 
 ---
 
 ### What is Docker, at its Core?
+
 Docker is a platform that allows you to package, distribute, and run applications inside lightweight, isolated environments called **containers**. Unlike virtual machines (VMs), which include an entire operating system, Docker containers share the host OS kernel and use its features to provide isolation and efficiency.
 
 ---
 
 ### How Docker Works
+
 Docker leverages several Linux kernel features to create and manage containers:
+
 1. **Namespaces** - For isolation.
 2. **Control Groups (cgroups)** - For resource management.
 3. **Union Filesystems** - For efficient storage and layering.
@@ -28,6 +31,7 @@ Here’s how these pieces come together:
 ---
 
 #### 1. Linux Namespaces: Isolation Mechanism
+
 Namespaces create isolated "views" of system resources, ensuring that processes in one container don’t interfere with those in another. Key namespaces Docker uses include:
 
 - **PID Namespace**: Each container has its own process ID space. Process ID 1 inside a container is isolated from the host’s PID 1 (usually `init` or `systemd`).
@@ -42,12 +46,15 @@ Namespaces create isolated "views" of system resources, ensuring that processes 
 ---
 
 #### 2. Control Groups (cgroups): Resource Limits
+
 Cgroups limit and monitor resource usage (CPU, memory, disk I/O, etc.) for each container. This prevents one container from hogging all system resources and starving others.
 
 - **How it works**: Docker assigns a cgroup to each container. You can set limits like:
+
   ```bash
   docker run --memory="512m" --cpus="0.5" myapp
   ```
+
   This restricts the container to 512 MB of RAM and half a CPU core.
 
 - **Isolation**: While namespaces isolate visibility, cgroups isolate resource consumption.
@@ -55,6 +62,7 @@ Cgroups limit and monitor resource usage (CPU, memory, disk I/O, etc.) for each 
 ---
 
 #### 3. Union Filesystems: Layered Storage
+
 Docker uses a **union filesystem** (e.g., OverlayFS, AUFS) to manage container images and their filesystems efficiently. This is how it ties into the Linux filesystem:
 
 - **Image Layers**: A Docker image is built from stacked, read-only layers. Each layer represents a set of changes (e.g., installing a package, copying files) defined in your `Dockerfile`.
@@ -73,6 +81,7 @@ Docker uses a **union filesystem** (e.g., OverlayFS, AUFS) to manage container i
 ---
 
 ### How Apps Are Isolated from Each Other
+
 Here’s how the above components work together to isolate applications:
 
 1. **Process Isolation (PID Namespace)**:
@@ -95,6 +104,7 @@ Here’s how the above components work together to isolate applications:
 ---
 
 ### Simplified Workflow
+
 1. **Build**: You create an image with a `Dockerfile`, defining the app and its dependencies. Docker stacks these into layers using a union filesystem.
 2. **Run**: Docker creates a container by:
    - Setting up namespaces for isolation.
@@ -106,12 +116,15 @@ Here’s how the above components work together to isolate applications:
 ---
 
 ### Why Linux?
+
 Docker relies on Linux kernel features (namespaces, cgroups, union filesystems) that are deeply integrated into how it operates. On macOS or Windows, Docker runs a lightweight Linux VM (via HyperKit or WSL2) to provide these capabilities, then maps them to the host OS.
 
 ---
 
 ### Visual Analogy
+
 Think of Docker containers as apartments in a building:
+
 - **Namespaces**: Walls and doors keep tenants separate.
 - **Cgroups**: The landlord limits water or electricity per unit.
 - **UnionFS**: All apartments share a common blueprint (image layers), but each tenant can decorate their space (writable layer).

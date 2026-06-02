@@ -18,6 +18,7 @@ type: note
 首先，我检查了整个代码库以了解该扩展：
 
 **清点的文件（共27个）：**
+
 - `manifest.json` — Chrome 扩展清单（v2）
 - `background.html` / `background.js` — 使用 RequireJS 模块加载器的入口
 - `popup.html` / `popup.js` — 设置界面（最大标签页数、白名单）
@@ -26,6 +27,7 @@ type: note
 - `css/popup.css`、`README.md`、`app.build.js` 以及第三方库（jQuery、Bootstrap、Underscore、RequireJS）
 
 **识别出的仅限 Chrome 的 API：**
+
 | API | 所在位置 | 问题 |
 |---|---|---|
 | `chrome.storage.sync` | `settings.js`（第 19、67 行） | Safari 不支持 — 必须改用 `chrome.storage.local` |
@@ -45,12 +47,14 @@ type: note
 Safari Web Extensions 仅支持 `chrome.storage.local`。它们无法访问 Chrome 的云同步基础设施。
 
 **`js/settings.js` 第 19 行：**
+
 ```diff
 - chrome.storage.sync.get(keys, function (items) {
 + chrome.storage.local.get(keys, function (items) {
 ```
 
 **`js/settings.js` 第 67 行：**
+
 ```diff
 - chrome.storage.sync.set(items, fx);
 + chrome.storage.local.set(items, fx);
@@ -76,11 +80,13 @@ Safari Web Extensions 仅支持 `chrome.storage.local`。它们无法访问 Chro
 ## 3. 运行 Safari Web Extension 转换器
 
 工具 `safari-web-extension-converter` 随 Xcode 提供，路径为：
+
 ```
 /Applications/Xcode.app/Contents/Developer/usr/bin/safari-web-extension-converter
 ```
 
 **命令：**
+
 ```bash
 xcrun safari-web-extension-converter safari-tabs-killer \
   --app-name "TabsKiller" \
@@ -105,6 +111,7 @@ xcrun safari-web-extension-converter safari-tabs-killer \
 | `--no-prompt` | 非交互模式 |
 
 **转换器生成的内容：**
+
 - `TabsKiller/TabsKiller.xcodeproj` — Xcode 项目文件
 - `TabsKiller/TabsKiller/` — macOS 主机应用（AppDelegate.swift、ViewController.swift、故事板、资源）
 - `TabsKiller/TabsKiller Extension/` — Safari 扩展目标
@@ -132,6 +139,7 @@ error: Embedded binary's bundle identifier is not prefixed with the parent app's
 Apple 要求：扩展的 Bundle ID = 父应用的 Bundle ID + 后缀（例如 `com.lzw.TabsKiller.Extension`）
 
 **修复：** 修改 `project.pbxproj` 以使大小写一致：
+
 ```
 com.lzw.tabskiller.Extension  →  com.lzw.TabsKiller.Extension
 ```

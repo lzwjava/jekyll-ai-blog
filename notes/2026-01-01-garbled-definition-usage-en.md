@@ -16,7 +16,8 @@ Answer:
 
 "Garbled" is an adjective that describes something that is confused, distorted, or mixed up in a way that makes it difficult to understand or recognize clearly.
 
-### Common Meanings and Uses:
+### Common Meanings and Uses
+
 - **In communication or transmission**: Information (especially speech, text, or data) that has become jumbled or corrupted, often due to errors or interference.
   Example: "The radio message was garbled because of static."
 

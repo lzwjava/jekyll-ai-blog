@@ -53,7 +53,6 @@ Besides, here are some of my platform accounts:
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | Other      | [Quora](https://www.quora.com/profile/Lzw-2)    |
 
-
 Social Impact:
 
 | Platform | Followers/Connections |

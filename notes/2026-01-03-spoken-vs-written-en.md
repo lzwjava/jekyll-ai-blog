@@ -16,7 +16,7 @@ Answer:
 
 I largely agree with this observation. Spoken explanations, especially in casual formats like YouTube videos, often have distinct advantages over densely written comprehensive introductions.
 
-### Why spoken content can be superior in many cases:
+### Why spoken content can be superior in many cases
 
 - **Natural flow and human thinking**: When people speak extemporaneously, they tend to follow the actual path their thoughts take—starting from basic assumptions, addressing potential confusions as they arise, and building ideas incrementally. This mirrors how most learners think and struggle with new material, making it easier to follow than a polished, logical-but-compact written text.
 
@@ -26,7 +26,7 @@ I largely agree with this observation. Spoken explanations, especially in casual
 
 - **Lower cognitive load initially**: Spoken explanations often prioritize intuition and motivation before rigor. They get you excited and give you an overview feeling quickly, which is perfect for beginners or when exploring a new topic. Comprehensive written materials are better for reference or deep study later.
 
-### When written comprehensive intros are still better:
+### When written comprehensive intros are still better
 
 - For precision and reference: If you need exact definitions, proofs, or something to cite and revisit without ambiguity, well-structured written text wins.
 - For self-paced deep learning: You can skim, re-read sentences instantly, and jump between sections in a way that’s harder with video/audio.

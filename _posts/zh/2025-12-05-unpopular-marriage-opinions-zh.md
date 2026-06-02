@@ -30,6 +30,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们与关于终身浪漫爱情、婚姻的神圣性以及婚姻中性别平等的文化叙事相冲突。公开表达这些观点的人经常被指责为苦涩、厌女或愤世嫉俗——即使其潜在数据支持部分主张。
 
 参考文献：
-- Brinig & Allen (2000) – “These Boots Are Made for Walking: Why Most Divorce Filers Are Women” - https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1442&context=law_faculty_scholarship
-- German Socio-Economic Panel (SOEP) long-term marriage happiness studies - https://www.diw.de/documents/publikationen/73/diw_01.c.347354.de/diw_sp0312.pdf
-- American Psychological Association (2011) – Meta-analysis on parenthood and marital satisfaction - https://psycnet.apa.org/record/2010-23626-001
+
+- Brinig & Allen (2000) – “These Boots Are Made for Walking: Why Most Divorce Filers Are Women” - <https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1442&context=law_faculty_scholarship>
+- German Socio-Economic Panel (SOEP) long-term marriage happiness studies - <https://www.diw.de/documents/publikationen/73/diw_01.c.347354.de/diw_sp0312.pdf>
+- American Psychological Association (2011) – Meta-analysis on parenthood and marital satisfaction - <https://psycnet.apa.org/record/2010-23626-001>

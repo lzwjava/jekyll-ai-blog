@@ -29,6 +29,7 @@ type: note
 ### 为什么浏览 USB 时什么都没有显示
 
 即使你将这些 .exe 文件复制到了 FAT32 USB：
+
 - Windows 安装程序**无法运行 .exe 安装包** —— 它只能识别原始驱动文件（.inf + .sys + .cat）。
 - 你必须先（在另一台电脑上）**提取**正确的 RST .exe，找到包含 .inf 文件的子文件夹（通常在 `f6flpy-x64`, `VMD`, `Production`, 或 `Win64` 中），然后**只将该文件夹**（或其内容）复制到 USB 根目录或简单的文件夹（如 `\IRST`）中。
 - 你目前的文件中没有这些存储相关的 .inf 文件，因此浏览时显示没有兼容的驱动 → “未发现驱动程序”或列表为空。
@@ -36,6 +37,7 @@ type: note
 ### 推荐的修复方法：两条路径（任选其一）
 
 **路径 1：最简单且最可靠 —— 在 BIOS 中禁用 VMD（无需驱动程序）**
+
 - 重启笔记本 → 在出现 Lenovo 标志时反复按 **F2** (或 Fn+F2) 进入 BIOS。
 - 前往 **Configuration** 选项卡（或 **Advanced** / **Device Configuration**）。
 - 查找以下选项：
@@ -46,13 +48,16 @@ type: note
 - 这是因为 VMD 会在标准 Windows 安装程序中隐藏 NVMe SSD，除非加载了专门的 VMD 驱动程序。禁用它会使用原生 AHCI/NVMe 模式（对大多数用户来说足够，除非你需要 RAID）。
 
 **路径 2：保持 VMD 开启 —— 加载正确的 RST/VMD 驱动程序**
+
 1. 在另一台 Windows 电脑上，下载**最新的 Intel RST 驱动程序**（包含对 13 代/14 代处理器的 VMD 支持）：
-   - 来自 Intel 官网：https://www.intel.com/content/www/us/en/download/720755/intel-rapid-storage-technology-driver-installation-software-with-intel-optane-memory.html (或搜索 "Intel RST driver VMD")。
-   - 或来自 Lenovo 全球支持站对应 IdeaPad Slim 3 14IAH8 (等效机型)：在 https://pcsupport.lenovo.com 搜索 "IdeaPad Slim 3 14IAH8" → Drivers → Storage → Intel Rapid Storage Technology。
+   - 来自 Intel 官网：<https://www.intel.com/content/www/us/en/download/720755/intel-rapid-storage-technology-driver-installation-software-with-intel-optane-memory.html> (或搜索 "Intel RST driver VMD")。
+   - 或来自 Lenovo 全球支持站对应 IdeaPad Slim 3 14IAH8 (等效机型)：在 <https://pcsupport.lenovo.com> 搜索 "IdeaPad Slim 3 14IAH8" → Drivers → Storage → Intel Rapid Storage Technology。
 2. 使用命令运行 .exe 进行提取（在下载文件夹中打开 Command Prompt）：
+
    ```
    SetupRST.exe -extractdrivers C:\ExtractedRST
    ```
+
    (如果 -extractdrivers 不起作用，请尝试使用 7-Zip 提取。)
 3. 在提取后的文件夹中，找到包含 .inf 文件的子文件夹 (例如 `f6flpy-x64`, `VMD`, `Drivers\VMD`)。
    - 常见文件：iaStorVD.inf, iaStorAC.inf, VMD.inf。

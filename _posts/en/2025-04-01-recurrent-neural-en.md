@@ -26,15 +26,15 @@ Here's a simplified way to think about it:
 RNNs are particularly effective in tasks where the order and context of the data matter. Here are some examples:
 
 * **Natural Language Processing (NLP):**
-    * **Language Modeling:** Predicting the next word in a sentence.
-    * **Text Generation:** Creating new text, like poems or articles.
-    * **Machine Translation:** Translating text from one language to another.
-    * **Sentiment Analysis:** Determining the emotional tone of a piece of text.
-    * **Named Entity Recognition:** Identifying and classifying entities (like names of people, organizations, and locations) in text.
+  * **Language Modeling:** Predicting the next word in a sentence.
+  * **Text Generation:** Creating new text, like poems or articles.
+  * **Machine Translation:** Translating text from one language to another.
+  * **Sentiment Analysis:** Determining the emotional tone of a piece of text.
+  * **Named Entity Recognition:** Identifying and classifying entities (like names of people, organizations, and locations) in text.
 * **Time Series Analysis:**
-    * **Stock Price Prediction:** Forecasting future stock prices based on historical data.
-    * **Weather Forecasting:** Predicting future weather conditions.
-    * **Anomaly Detection:** Identifying unusual patterns in time-based data.
+  * **Stock Price Prediction:** Forecasting future stock prices based on historical data.
+  * **Weather Forecasting:** Predicting future weather conditions.
+  * **Anomaly Detection:** Identifying unusual patterns in time-based data.
 * **Speech Recognition:** Converting spoken language into text.
 * **Video Analysis:** Understanding the content and temporal dynamics of videos.
 * **Music Generation:** Creating new musical pieces.
@@ -46,8 +46,8 @@ In essence, RNNs excel when the output at a given time step depends not only on 
 Despite their effectiveness in many sequential tasks, traditional RNNs suffer from several key limitations:
 
 * **Vanishing and Exploding Gradients:** This is the most significant problem. During the training process, the gradients (which are used to update the network's weights) can either become extremely small (vanishing) or extremely large (exploding) as they are backpropagated through time.
-    * **Vanishing Gradients:** When gradients become very small, the network struggles to learn long-range dependencies. Information from earlier time steps gets lost, making it difficult for the network to remember context over long sequences. This is the core of the "long-term dependency" problem mentioned in your prompt.
-    * **Exploding Gradients:** When gradients become very large, they can cause instability in the training process, leading to weight updates that are too large and make the network diverge.
+  * **Vanishing Gradients:** When gradients become very small, the network struggles to learn long-range dependencies. Information from earlier time steps gets lost, making it difficult for the network to remember context over long sequences. This is the core of the "long-term dependency" problem mentioned in your prompt.
+  * **Exploding Gradients:** When gradients become very large, they can cause instability in the training process, leading to weight updates that are too large and make the network diverge.
 * **Difficulty Learning Long-Term Dependencies:** As mentioned above, the vanishing gradient problem makes it challenging for traditional RNNs to learn relationships between elements in a sequence that are far apart. For example, in the sentence "The cat, which had been chasing mice all morning, finally went to sleep," a traditional RNN might struggle to connect "cat" with "went to sleep" because of the intervening words.
 * **Computational Cost:** Training RNNs can be computationally expensive, especially for long sequences, due to the recurrent nature of the computations.
 * **Sequential Processing:** RNNs inherently process data sequentially, which can limit their ability to be parallelized and can make them slower for very long sequences compared to models that can process data in parallel.

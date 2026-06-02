@@ -13,7 +13,7 @@ I'll search for information about Hysteria and how to build a similar project in
 
 ---
 
-**Question:** What if I use C++ to build Hysteria (https://github.com/apernet/hysteria)? What libraries will be needed?
+**Question:** What if I use C++ to build Hysteria (<https://github.com/apernet/hysteria>)? What libraries will be needed?
 
 **Answer:**
 
@@ -94,6 +94,7 @@ The Hysteria protocol supports an optional obfuscation layer called "Salamander"
 ## Build Complexity
 
 Building Hysteria in C++ would be significantly more challenging than Clash-core. Consider starting with:
+
 - MsQuic for QUIC transport (production-ready, well-documented)
 - nghttp3 for HTTP/3 compatibility
 - wolfSSL for cryptography (includes BLAKE2b)

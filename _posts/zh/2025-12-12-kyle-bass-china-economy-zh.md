@@ -16,7 +16,8 @@ type: note
 
 海曼资本管理公司（Hayman Capital Management）创始人兼首席投资官凯尔·巴斯（Kyle Bass）多年来一直是中国经济的强烈批评者。他认为，中国经济正处于由结构性弱点、政府管理不善和过度杠杆化驱动的严重、不可逆转的衰退中。他将中国经济描述为“正在走向崩溃”，面临着“没有尽头的经济螺旋”，并且即将崩溃，情况远比官方报告所暗示的要糟糕。巴斯强调，中国的挑战比2008年美国金融危机更深层次，面临着巨额债务、房地产泡沫破裂、银行资不抵债、青年失业率飙升、出生率暴跌以及数据被操纵以掩盖问题真实程度等问题。
 
-### 巴斯的主要批评：
+### 巴斯的主要批评
+
 - **房地产和银行危机**：近40%的中国银行资产与房地产挂钩，而房地产价值已下跌30-50%。加上3.5倍的杠杆，这使得银行资不抵债。仅地方政府债务就相当于13万亿美元，总体债务与GDP之比约为350%。
 - **青年失业和人口结构**：失业率超过20%（官方数据严重低报），生育率降至灾难性的每名妇女1.2个孩子，人口下降加速。巴斯警告称，这些不满的青年可能会在习近平领导下激化社会动荡或军国主义。
 - **数据操纵和增长**：官方GDP数据（例如2025年第一季度5.4%）是捏造的，零通胀掩盖了通货紧缩压力。中国10年期国债收益率约为1.6%，预示着即将到来的衰退或萧条——与北京的统计数据不同，债券“不会撒谎”。
@@ -26,6 +27,7 @@ type: note
 巴斯通过访谈、播客和X（前Twitter）帖子分享的观点与乐观的叙述形成对比，将中国定位为一个中等强国（经济规模约为美国的60%），其实力被购买力平价（PPP）扭曲等宣传所支撑，这些扭曲源于国家控制的价格和补贴。
 
 参考文献：
+
 - [Kyle Bass Says China's Economy Is 'Circling the Drain'](https://www.bloomberg.com/news/videos/2023-09-11/kyle-bass-says-china-s-economy-is-circling-the-drain-video)
 - [Kyle Bass: Why the Chinese Economy is Going to Collapse](https://www.youtube.com/watch?v=cYZqkVGOT4g)
 - [China’s Economy Spirals With No End in Sight, Says Kyle Bass](https://www.theepochtimes.com/china/chinas-economy-spirals-with-no-end-in-sight-says-kyle-bass-5879345)

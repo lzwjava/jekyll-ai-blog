@@ -17,6 +17,7 @@ Answer:
 For Lenovo laptops from around 2011, the keys depend on whether it's a **ThinkPad** series or an **IdeaPad** / consumer series model. Here are the most common options:
 
 ### 1. Entering BIOS Setup
+
 - **Most common for ThinkPad models** (very typical for 2010–2012 business laptops like T410, T420, X220, L420, etc.):
   Power off the laptop completely.
   Press the power button → immediately and repeatedly tap **F1** (or sometimes Fn + F1).
@@ -33,9 +34,11 @@ For Lenovo laptops from around 2011, the keys depend on whether it's a **ThinkPa
 Tip: Watch the screen carefully during boot — many Lenovo laptops briefly display "Press [key] to enter Setup" (usually F1 or F2).
 
 ### 2. Booting from USB (Linux Mint)
+
 There are two main ways:
 
 **Way A — Use the one-time Boot Menu (recommended and easiest)**
+
 - Insert your Linux Mint USB (properly created, e.g., with Rufus or dd).
 - Power on the laptop and immediately start tapping one of these keys:
   - **F12** — most common boot menu key on Lenovo laptops (both ThinkPad and IdeaPad) around 2011
@@ -45,6 +48,7 @@ There are two main ways:
   Press Enter → it should start booting Linux Mint.
 
 **Way B — Change boot order permanently in BIOS**
+
 - Enter BIOS (F1 or F2 as above).
 - Go to the **Startup** or **Boot** tab (use arrow keys).
 - Find the boot priority / boot order list.
@@ -55,11 +59,12 @@ There are two main ways:
 After saving, the laptop should boot from the USB automatically on the next restart.
 
 **Quick summary for 2011 Lenovo laptop**
+
 - BIOS → try **F1** first (ThinkPad style), then **F2**
 - Boot from USB → tap **F12** at startup for the boot menu (fastest way)
 
 References:
 
-- https://support.lenovo.com/us/en/solutions/ht500222-recommended-ways-to-enter-bios-boot-menu-thinkpad-thinkcentre-thinkstation
-- https://support.lenovo.com/us/en/solutions/ht500216-recommended-way-to-enter-bios-ideapad
-- https://www.wikihow.com/Enter-the-BIOS-on-a-Lenovo-Laptop
+- <https://support.lenovo.com/us/en/solutions/ht500222-recommended-ways-to-enter-bios-boot-menu-thinkpad-thinkcentre-thinkstation>
+- <https://support.lenovo.com/us/en/solutions/ht500216-recommended-way-to-enter-bios-ideapad>
+- <https://www.wikihow.com/Enter-the-BIOS-on-a-Lenovo-Laptop>

@@ -13,6 +13,7 @@ type: note
 Yes, China's economy remains heavily reliant on manufacturing and construction, which together form a significant portion of its GDP. These sectors fall under the broader "secondary industry" category, which accounted for about 36.5% of GDP in 2024—more than double the share in many developed economies like the United States (around 18%). Manufacturing alone contributed roughly 25% of GDP, underscoring China's role as the world's largest manufacturer.
 
 ### Key Breakdown of China's 2024 GDP by Sector
+
 China's total GDP in 2024 was approximately 134.9 trillion yuan (about $18.6 trillion USD), with 5.0% year-over-year growth.
 
 | Sector                  | Share of GDP | Value Added (trillion yuan) | YoY Growth | Notes |

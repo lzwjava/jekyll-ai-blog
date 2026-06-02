@@ -17,6 +17,7 @@ type: note
 Here is a clear, up-to-date guide (as of 2026) to deploy a **Hysteria 2** server on a Linux VPS (most common case, Ubuntu/Debian/CentOS/etc.).
 
 ### Prerequisites
+
 - VPS with **public IP** (IPv4 and/or IPv6)
 - A **domain name** pointed to the server's IP (A/AAAA record)
 - Root or sudo access
@@ -24,23 +25,28 @@ Here is a clear, up-to-date guide (as of 2026) to deploy a **Hysteria 2** server
 - Optional but strongly recommended: ability to get a real TLS certificate (via ACME/Let's Encrypt)
 
 ### Recommended Method: Use the Official One-Click Installation Script
+
 This is the easiest and most maintained way for Linux servers.
 
 1. Run the official bash script (installs binary + creates systemd service):
+
    ```bash
    bash <(curl -fsSL https://get.hy2.sh/)
    ```
+
    - It downloads the latest Hysteria 2 binary for your architecture (amd64/arm64)
    - Installs to `/usr/local/bin/hysteria`
    - Creates `/etc/hysteria/config.yaml` (example config)
    - Sets up systemd service: `hysteria-server.service`
 
 2. Edit the configuration file:
+
    ```bash
    nano /etc/hysteria/config.yaml
    ```
 
    **Minimal working example (ACME auto-cert + password auth):**
+
    ```yaml
    listen: :443
 
@@ -61,6 +67,7 @@ This is the easiest and most maintained way for Linux servers.
    ```
 
    **Alternative (if you already have your own cert/key):**
+
    ```yaml
    listen: :443
 
@@ -86,12 +93,14 @@ This is the easiest and most maintained way for Linux servers.
    - Save and exit
 
 3. Start & enable the service:
+
    ```bash
    systemctl start hysteria-server
    systemctl enable hysteria-server
    ```
 
 4. Check status and logs:
+
    ```bash
    systemctl status hysteria-server
    journalctl -u hysteria-server -e -f
@@ -100,7 +109,9 @@ This is the easiest and most maintained way for Linux servers.
    Look for: `server up and running` → success!
 
 ### Alternative: Manual Installation (No Script)
+
 1. Download latest binary:
+
    ```bash
    wget https://download.hysteria.network/app/latest/hysteria-linux-amd64   # or -arm64
    chmod +x hysteria-linux-amd64
@@ -108,6 +119,7 @@ This is the easiest and most maintained way for Linux servers.
    ```
 
 2. Allow binding low ports without root:
+
    ```bash
    setcap cap_net_bind_service=+ep /usr/local/bin/hysteria
    ```
@@ -115,6 +127,7 @@ This is the easiest and most maintained way for Linux servers.
 3. Create config file (e.g. `/etc/hysteria/config.yaml`) as above.
 
 4. Run manually (for testing):
+
    ```bash
    hysteria server -c /etc/hysteria/config.yaml
    ```
@@ -122,14 +135,17 @@ This is the easiest and most maintained way for Linux servers.
 5. Create systemd service yourself (or use the script method above).
 
 ### Firewall (ufw example)
+
 ```bash
 ufw allow 443/udp
 ufw reload
 ```
 
 ### After Setup
+
 - The server prints (or logs) a `hysteria2://` URI → share it directly with clients (e.g. NekoBox, sing-box, Shadowrocket)
 - Example client snippet:
+
   ```yaml
   server: your.domain.com:443
   auth: YOUR_STRONG_PASSWORD_HERE
@@ -139,6 +155,7 @@ ufw reload
   ```
 
 ### Common Tips / Troubleshooting
+
 - Make sure **UDP 443** is not blocked by VPS provider/firewall
 - If ACME fails → check DNS propagation, port 80 open temporarily (for http-01 challenge), or use DNS-01 challenge
 - No masquerade = server returns 404 → still works but easier to detect

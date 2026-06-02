@@ -31,9 +31,9 @@ Cloud Shell 提供了一个临时的 **基于 Debian 的 Linux VM**（Compute En
 
 ### 如何启动 Cloud Shell
 
-1. 访问 Google Cloud Console → https://console.cloud.google.com
+1. 访问 Google Cloud Console → <https://console.cloud.google.com>
 2. 点击右上角工具栏中的 **Cloud Shell 图标**（终端符号）
-   → 或使用直接链接：https://shell.cloud.google.com
+   → 或使用直接链接：<https://shell.cloud.google.com>
 3. 第一次使用时 → 系统会置备机器（大约需要 10–30 秒）
 4. 你会在屏幕底部获得一个 Bash 终端（可以弹出到新标签页中）
 

@@ -25,6 +25,7 @@ type: note
 - **航空航天与国防**：高超音速导弹、太空技术及卫星星座系统。
 
 #### 机器人技术聚焦
+
 机器人技术确实是中国表现尤为突出的领域——在"中国制造2025"战略中被列为"国家优先事项"。2024年中国工业机器人装机量占全球超50%，目前正转向人形机器人和服务机器人领域。在2025世界机器人大会上，中国企业展示了能完成百米冲刺、工厂集成等复杂任务的先进人形机器人。创新成果包括无人车与巡逻机器人的AI-机器人融合技术，相关企业凭借成本效益优势超越竞争对手。到2025年，中国计划实现制造业全自动化，以应对人口结构变化带来的劳动力短缺问题。虽然核心芯片技术仍存挑战，但AI融合技术为中国提供了竞争优势。
 
 ### 中国顶尖科技企业
@@ -62,6 +63,7 @@ type: note
 这些发明强调实用性与可扩展性，常优先满足粮食安全、城镇化等国内需求。虽受地缘政治限制影响部分出口，但正重塑全球供应链格局。
 
 ### 参考文献
+
 - [中国在前沿研究中领先的9个领域](https://qz.com/9-areas-where-china-is-leading-the-way)
 - [中国正快速成为先进产业创新引领者](https://itif.org/publications/2024/09/16/china-is-rapidly-becoming-a-leading-innovator-in-advanced-industries/)
 - [中国在除少数领域外全面领先美国技术竞争](https://www.theguardian.com/world/2023/mar/02/china-leading-us-in-technology-race-in-all-but-a-few-fields-thinktank-finds)

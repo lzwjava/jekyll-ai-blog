@@ -31,6 +31,7 @@ Xvfb（X Virtual Framebuffer）是一种 X11 显示服务器，可在无需物�
 
 4. **与工具的集成**：
    - 像 pyvirtualdisplay（如错误跟踪中所示）这样的库封装了 Xvfb，以便更容易从代码中启动/停止。例如，在 Python 中：
+
      ```python
      from pyvirtualdisplay import Display
      display = Display(visible=0, size=(1024, 768))
@@ -38,6 +39,7 @@ Xvfb（X Virtual Framebuffer）是一种 X11 显示服务器，可在无需物�
      # 在此运行您的图形应用程序
      display.stop()
      ```
+
    - 它在后台运行，您的应用程序设置 `DISPLAY` 环境变量（例如 `export DISPLAY=:99`）以指向虚拟服务器。
 
 5. **限制**：

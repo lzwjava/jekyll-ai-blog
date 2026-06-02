@@ -16,15 +16,18 @@ Now I have a clear picture. Here's my take:
 **Keep them separate.** Here's why:
 
 **They're fundamentally different things:**
+
 - **live-server** = PHP backend (CodeIgniter 4) — REST API, DB, WeChat integration, RTMP hooks, payments
 - **live-mobile-web** = Vue 3 frontend — mobile web UI, calls the API via `/api` proxy
 
 **Current relationship:**
+
 - `live-mobile-web` proxies `/api` → `api.quzhiboapp.com` in dev (via Vite proxy)
 - In production, nginx serves the static Vue build and proxies `/api` to the PHP backend
 - They're already decoupled — the frontend doesn't need the backend code to build
 
 **Why combining would be bad:**
+
 - Mixing PHP and Node.js in one repo = messy dependency management, confusing builds
 - They have different deployment cycles (update UI without redeploying backend)
 - Different runtimes, different Docker images, different scaling needs

@@ -18,6 +18,7 @@ Nextcloud Talk sends `X-Nextcloud-Talk-Backend: http://localhost` (from `overwri
 Changed `baseUrl` from `http://172.17.0.1:8080` → `http://localhost`
 
 **Current Config:**
+
 ```json
 {
   "baseUrl": "http://localhost",       ← Fixed!
@@ -30,6 +31,7 @@ Changed `baseUrl` from `http://172.17.0.1:8080` → `http://localhost`
 ```
 
 **Status:**
+
 - ✅ No more "Invalid backend" errors after 02:25 HKT
 - ✅ Gateway restarted successfully
 - ✅ Webhook listening

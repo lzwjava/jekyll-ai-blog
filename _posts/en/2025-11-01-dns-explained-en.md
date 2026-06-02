@@ -19,12 +19,14 @@ DNS works hierarchically: Your device queries a DNS server (a specialized server
 ### Configuring DNS on macOS or Windows
 
 When you configure network settings on macOS (in System Settings > Network) or Windows (in Settings > Network & Internet > Ethernet/Wi-Fi > Properties), the **DNS** section lets you specify DNS servers manually or use defaults provided by your network. Common defaults include:
+
 - Your ISP's DNS servers.
 - Public ones like Google's `8.8.8.8` and `8.8.4.4`, or Cloudflare's `1.1.1.1`.
 
 If you leave it on "Automatic" (often via DHCP, as you mentioned), your router or network provides these DNS servers for you.
 
 The other details you listed:
+
 - **192.168.1.1**: This is typically your router's local IP address (the "default gateway"). It's the door to the outside internet from your home network.
 - **IPv4 Use DHCP**: DHCP (Dynamic Host Configuration Protocol) is a service that automatically assigns IP addresses and other network info to devices on your network. "Use DHCP" means your computer doesn't pick a static IP; instead, it asks the DHCP server (usually your router) for one dynamically.
 

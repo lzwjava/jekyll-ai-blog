@@ -14,30 +14,35 @@ type: note
 
 按照以下步骤在您的 Ubuntu 系统上安装 Outline Client：
 
-1.  **打开终端**
+1. **打开终端**
     启动您 Ubuntu 系统上的终端应用程序。您可以通过在应用程序菜单中搜索“Terminal”或按 `Ctrl + Alt + T` 来执行此操作。
 
-2.  **安装 Outline 的软件仓库密钥**
+2. **安装 Outline 的软件仓库密钥**
     运行以下命令，将软件仓库的签名密钥下载并添加到系统的受信任密钥中。这可以确保来自该软件仓库的软件包经过真实性验证：
+
     ```bash
     wget -qO- https://us-apt.pkg.dev/doc/repo-signing-key.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/gcloud-artifact-registry-us.gpg
     ```
 
-3.  **添加 Outline Client 软件仓库**
+3. **添加 Outline Client 软件仓库**
     通过运行以下命令，将 Outline Client 软件仓库添加到系统的源列表中。这会告诉 Ubuntu 在哪里可以找到 Outline Client 软件包：
+
     ```bash
     echo "deb [arch=amd64] https://us-apt.pkg.dev/projects/jigsaw-outline-apps outline-client main" | sudo tee /etc/apt/sources.list.d/outline-client.list
     ```
+
     - 注意：`[arch=amd64]` 部分指定这是用于 64 位系统。大多数现代 Ubuntu 安装都是 64 位的，但您可以通过运行 `uname -m` 来确认您系统的架构。如果输出是 `x86_64`，则表示您使用的是 64 位系统，此命令将按原样工作。
 
-4.  **更新软件包列表**
+4. **更新软件包列表**
     刷新系统的软件包列表以包含新添加的 Outline 软件仓库：
+
     ```bash
     sudo apt update
     ```
 
-5.  **安装 Outline Client**
+5. **安装 Outline Client**
     使用以下命令安装最新版本的 Outline Client：
+
     ```bash
     sudo apt install outline-client
     ```
@@ -46,12 +51,15 @@ type: note
 
 - **启动 Outline Client**：安装后，您可以在应用程序菜单中找到 Outline Client，或者通过在终端中输入 `outline-client` 来启动它。
 - **保持更新**：要检查并安装更新，请使用 Ubuntu 的标准更新命令：
+
   ```bash
   sudo apt update
   sudo apt upgrade
   ```
+
   这些命令将更新所有已安装的软件包，包括 Outline Client，因为它通过软件仓库进行管理。请注意，从 1.15 版本开始，Linux 版 Outline Client 的应用内自动更新功能已被禁用，因此依赖软件包管理器是保持最新的最佳方式。
 - **卸载**：如果您需要移除 Outline Client，请运行：
+
   ```bash
   sudo apt purge outline-client
   ```
@@ -59,6 +67,7 @@ type: note
 ### 为什么使用推荐的方法？
 
 推荐使用软件仓库方法，因为：
+
 - 它与 Ubuntu 的 `apt` 软件包管理器集成，允许您与其他系统软件包一起更新 Outline Client。
 - 您无需手动下载和安装新版本，这与替代方法不同，在替代方法中，您需要为每次更新重复下载和安装过程。
 
@@ -70,14 +79,19 @@ type: note
 ### 替代方法（可选）
 
 如果您不想添加软件仓库，可以直接下载并安装 Debian 软件包：
-1.  下载软件包：
+
+1. 下载软件包：
+
     ```bash
     wget -O ./outline-client.deb https://s3.amazonaws.com/outline-releases/client/linux/stable/outline-client_amd64.deb
     ```
-2.  安装它：
+
+2. 安装它：
+
     ```bash
     sudo apt install ./outline-client.deb
     ```
+
 但是，您需要为更新手动重复此过程，这不太方便。
 
 ### 结论

@@ -12,6 +12,7 @@ type: note
 Honest take: this is a common belief but it's actually a half-truth.
 
 Unit tests are great FOR:
+
 - Pure logic, algorithms, data transformations
 - Edge cases in business rules
 - Fast feedback loops during development

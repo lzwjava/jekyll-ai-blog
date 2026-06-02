@@ -171,6 +171,6 @@ type: note
 
 参考资料：
 
-- https://lzwjava.github.io/resume-en
-- https://lzwjava.github.io/job-search-en
-- https://lzwjava.github.io/plan-2026-en
+- <https://lzwjava.github.io/resume-en>
+- <https://lzwjava.github.io/job-search-en>
+- <https://lzwjava.github.io/plan-2026-en>

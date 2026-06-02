@@ -110,6 +110,7 @@ type: post
 ```
 
 这个应用请求了几个权限：
+
 - `CAMERA`：访问设备的摄像头。
 - `WRITE_EXTERNAL_STORAGE`：将文件（例如照片）保存到外部存储。
 - `INTERNET`：用于网络访问。
@@ -193,6 +194,7 @@ type: post
 #### 其他活动
 
 清单中列出了更多活动，如`DrawActivity`、`ResultActivity`、`PhotoActivity`等，具有类似的模式：
+
 - 大多数是横向模式，表明这是一个视觉或媒体为中心的应用。
 - 一些覆盖了应用的默认主题（例如，`Theme.Holo.Light`）。
 

@@ -12,15 +12,18 @@ type: note
 这是 **PyTorch** 仓库——Meta 的开源 machine learning 框架。以下是概述：
 
 **它是什么：**
+
 - 一个 Python-first 的 deep learning 框架，提供 tensor computation 与 GPU acceleration，以及基于 tape 的 autograd 系统用于训练 neural networks
 - 版本：**2.13.0a0**（dev/trunk 构建）
 - 从 `git@github.com:pytorch/pytorch.git` 克隆
 
 **代码库规模：**
+
 - 约 4,464 个 Python 文件，约 2,077 个 C++ 文件（不含 third_party）
 - 磁盘占用约 224 MB（不含 .git）
 
 **关键目录：**
+
 - `torch/` —— 核心 Python 包
   - `nn/` —— neural network 模块（Linear, Conv, Transformer 等）
   - `distributed/` —— 分布式训练（DDP, FSDP, RPC, device mesh）
@@ -39,6 +42,7 @@ type: note
 - `docs/` —— 文档源文件
 
 **活跃开发：**
+
 - 近期提交涉及 ROCm 修复、Dynamo operator 支持以及 Native DSL 工作
 - 这是一个实时主干检出，并非发布分支
 

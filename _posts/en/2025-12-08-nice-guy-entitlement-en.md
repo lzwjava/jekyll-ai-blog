@@ -26,6 +26,7 @@ Key distinctions that make the critique land:
 - “Nice Guy” kindness is often strategic and collapses into resentment when the expected payoff doesn’t appear.
 
 Real-world examples people cite:
+
 - The guy who complains in online forums that he’s been “friend-zoned” despite doing everything “right.”
 - Orbiters who invest huge amounts of time/emotion/money in a woman, then feel cheated when she dates someone else.
 - Sudden tone shift from compliments to insults the moment romantic interest is clearly off the table.

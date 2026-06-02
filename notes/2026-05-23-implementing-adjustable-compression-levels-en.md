@@ -21,6 +21,7 @@ Now I have a complete picture. Here's what the code tells us:
    - If you run it twice without new messages between them, the second pass is likely a no-op (already compressed)
 
 3. **The code explicitly warns about repeated compression** (line 447-450):
+
    ```python
    if _cc >= 2:
        agent._vprint(
@@ -30,6 +31,7 @@ Now I have a complete picture. Here's what the code tells us:
    ```
 
 4. **Compression aggressiveness is controlled by these parameters** (config.yaml):
+
    ```yaml
    compression:
      threshold: 0.50      # when to auto-compress (50% of context)

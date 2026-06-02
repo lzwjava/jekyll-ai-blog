@@ -31,7 +31,8 @@ type: note
 
 ## 🔧 快速修复方案
 
-**1. 生成正式的 secrets** — 访问 https://www.librechat.ai/toolkit/creds_generator 并在 `.env` 中更新以下各项：
+**1. 生成正式的 secrets** — 访问 <https://www.librechat.ai/toolkit/creds_generator> 并在 `.env` 中更新以下各项：
+
 ```
 CREDS_IV=your_generated_value
 JWT_SECRET=your_generated_value

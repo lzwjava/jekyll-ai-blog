@@ -45,6 +45,7 @@ Research from Nielsen Norman Group found that light mode won across all dimensio
 | Moving between environments | **System mode** ✅ |
 
 **System mode wins** because:
+
 - Modern OS (macOS, Windows, iOS, Android) can auto-switch based on time of day, which roughly approximates ambient light changes (sunrise/sunset).
 - Some devices (especially phones) have ambient light sensors that influence this further.
 - You don't have to think about it — it adapts automatically.

@@ -64,6 +64,7 @@ vnstat -i eth0 --json   # outputs JSON with daily/monthly stats
 ```
 
 Or a one-liner to get current month's usage:
+
 ```bash
 vnstat -m --json | python3 -c "
 import json,sys

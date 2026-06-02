@@ -16,7 +16,7 @@ Answer:
 
 在 form 中创建 dropdown list（也称为 select menu）的正确 HTML element 是 **`<select>`**，它通常与用于定义具体选项的 `<option>` elements 配合使用。
 
-### Explanation:
+### Explanation
 
 - `<select>` element 定义了 dropdown list 本身。
 - 在其内部，多个 `<option>` elements 指定了可供选择的项目。
@@ -35,5 +35,6 @@ Answer:
 由于提供的选项（A) B) C) D)）似乎不完整，且其中一个列出的 `<dropdown>` **不是有效的 HTML element**，因此标准且正确的答案是 **`<select>`**。
 
 References:
+
 - [MDN Web Docs - <select> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 - [W3Schools - HTML <select> Tag](https://www.w3schools.com/tags/tag_select.asp)

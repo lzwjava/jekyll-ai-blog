@@ -39,6 +39,7 @@ Superpowers solves this by enforcing a structured dialogue. Instead of accepting
 The workflow is: Brainstorm first → Isolate your branch → Write a detailed plan → Then execute. Every step gates the next.
 
 Specifically:
+
 - The **brainstorming** skill explores user intent through one-question-at-a-time dialogue, proposes 2–3 approaches with trade-offs, and produces an approved design document before a single line of code is written.
 - The **writing-plans** skill then converts an approved design into a step-by-step implementation plan detailed enough for a junior engineer to follow.
 - The **verification-before-completion** skill requires running actual verification commands and confirming real output before Claude can claim a task is "done" or "fixed."

@@ -12,7 +12,8 @@ type: note
 To simplify the given **IPv6 address**:
 **AC62:0000:0000:0000:0000:73FA:0000:0000**
 
-### IPv6 Simplification Rules:
+### IPv6 Simplification Rules
+
 1. **Remove leading zeros in each hextet**:
    - `0000` → `0`
    - `0000` → `0`
@@ -31,11 +32,13 @@ To simplify the given **IPv6 address**:
    - After removing leading zeros: `AC62:0:0:0:0:73FA:0:0`
    - After replacing consecutive zeros: `AC62::73FA:0:0`
 
-### Final Simplified IPv6 Address:
+### Final Simplified IPv6 Address
+
 **`AC62::73FA:0:0`**
 
 ---
 
 **Note:**
+
 - The reference answer `AC62::73FA:0000:0000` is also correct, but it is less simplified than the standard form.
 - The most simplified form is **`AC62::73FA:0:0`**.

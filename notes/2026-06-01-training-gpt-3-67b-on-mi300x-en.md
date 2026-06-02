@@ -57,6 +57,7 @@ python data/openwebtext/prepare.py
 ```
 
 For GPT-3 scale you really want more data — use The Pile:
+
 ```python
 # data/pile/prepare.py — write this yourself
 from datasets import load_dataset
@@ -82,6 +83,7 @@ arr = np.memmap('/mnt/data/tokens/train.bin', dtype=np.uint16, mode='w+', shape=
 Two critical patches:
 
 **Patch 1 — Gradient Checkpointing:**
+
 ```python
 # model.py — in GPT.forward()
 from torch.utils.checkpoint import checkpoint
@@ -96,6 +98,7 @@ for block in self.transformer.h:
 ```
 
 **Patch 2 — Fix config path for data:**
+
 ```python
 # in train.py, update data_dir default
 data_dir = os.path.join('/mnt/data/tokens', dataset)
@@ -201,6 +204,7 @@ tail -f /mnt/data/logs/train.log
 ```
 
 Expected output:
+
 ```
 iter 0:    loss 11.07, time 4200ms, mfu 0.12%
 iter 100:  loss 7.43,  time 3800ms, mfu 38.2%
@@ -238,6 +242,7 @@ python train.py config/train_gpt3_6b.py
 ## Expected Training Time (Rough)
 
 GPT-3 6.7B, 300B tokens (subset of Pile):
+
 ```
 MI300X theoretical: ~200 TFLOPS bf16
 Realistic MFU ~40%: ~80 TFLOPS effective
@@ -250,6 +255,7 @@ Realistic MFU ~40%: ~80 TFLOPS effective
 ```
 
 At $2/hr:
+
 ```
 42 days × 24hr × $2 = ~$2,016
 ```

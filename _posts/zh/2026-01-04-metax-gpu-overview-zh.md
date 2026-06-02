@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: 请对 https://www.metax-tech.com 上的公司进行全面介绍。
+Question: 请对 <https://www.metax-tech.com> 上的公司进行全面介绍。
 
 Answer:
 
@@ -19,6 +19,7 @@ MetaX Tech（中文名称：沐曦 MetaX，上海证券交易所科创板股票�
 ### 公司概况与使命
 
 MetaX 致力于自主研发全栈高性能 GPU 芯片和异构计算平台。其解决方案针对以下高需求领域：
+
 - 智能计算（AI 训练与推理）
 - 通用计算
 - 云渲染与图形处理
@@ -43,6 +44,7 @@ MetaX 致力于自主研发全栈高性能 GPU 芯片和异构计算平台。其
 ### 核心产品与解决方案
 
 MetaX 提供一系列 GPU 系列及配套软件：
+
 - **C-Series（例如：曦云 C600, C500/C550）**：用于高性能计算、AI 和通用工作负载的通用 GPU（GPGPUs）。基于自主知识产权架构和先进国内工艺构建。
 - **N-Series**：专注于云端智能推理，配备高带宽内存（HBM），用于强大的 AI 和视频处理。
 - **G-Series**：用于元宇宙、云游戏、数字孪生、XR 和娱乐的图形渲染 GPU。

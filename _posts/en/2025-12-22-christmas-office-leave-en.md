@@ -16,7 +16,8 @@ Answer:
 
 Yes, there is typically a significant amount of employee leave and reduced activity around Christmas in international banks and multinational corporations, though it varies by country, company policy, and sector.
 
-### Key Patterns:
+### Key Patterns
+
 - **Public Holidays**: Christmas Day (December 25) is a **bank holiday** and public holiday in most Western countries (e.g., US, UK, Europe, Australia, Canada). Many also observe December 26 as **Boxing Day** or a second Christmas holiday. Banks and financial institutions close on these days, and stock markets are shut.
 - **Extended Closures**: Many multinational companies implement a "Christmas shutdown" or encourage/require leave during the week between Christmas and New Year's. This is common because business activity slows (fewer clients, partners off), productivity is low, and it allows employees extended time off. Examples include tech firms like HP, Dell, and Adobe shutting down for weeks, and similar practices in manufacturing, law firms, and offices worldwide.
 - **In Banks Specifically**:
@@ -31,10 +32,10 @@ Overall, the period from mid-December to early January features reduced operatio
 
 References:
 
-- https://www.officeholidays.com/
-- https://www.frbservices.org/about/holiday-schedules
-- https://www.levro.com/blog/bank-holiday-payment-delays
-- https://focusme.com/blog/reasons-to-consider-closing-your-office-for-christmas-week/
-- https://seniorexecutive.com/c-suite-debate-prep-what-to-know-about-closing-your-offices-between-christmas-and-new-years/
-- https://www.wallstreetoasis.com/forum/investment-banking/when-do-investment-bankers-take-time-off-during-christmas-and-new-years
-- https://www.efinancialcareers.com/news/investment-bank-christmas-parties
+- <https://www.officeholidays.com/>
+- <https://www.frbservices.org/about/holiday-schedules>
+- <https://www.levro.com/blog/bank-holiday-payment-delays>
+- <https://focusme.com/blog/reasons-to-consider-closing-your-office-for-christmas-week/>
+- <https://seniorexecutive.com/c-suite-debate-prep-what-to-know-about-closing-your-offices-between-christmas-and-new-years/>
+- <https://www.wallstreetoasis.com/forum/investment-banking/when-do-investment-bankers-take-time-off-during-christmas-and-new-years>
+- <https://www.efinancialcareers.com/news/investment-bank-christmas-parties>

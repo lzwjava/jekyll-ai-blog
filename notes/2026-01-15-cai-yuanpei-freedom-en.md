@@ -23,6 +23,7 @@ Cai Yuanpei (蔡元培), as the president of Peking University (Beijing Universi
 - His famous statement appears in the foreword to the *Peking University Monthly* (《北京大学月刊发刊词》), where he described the university as a place to "encompass great classics and gather various schools" (囊括大典，网罗众家), and explicitly promoted **"following the principle of thought freedom, adopting the doctrine of compatibility and inclusiveness"** (循思想自由原则，采兼容并包主义).
 
 In contrast:
+
 - **Hu Shi** (B) was a key figure in the New Culture Movement, promoted pragmatism and literary reform, and worked under Cai Yuanpei at Peking University, but he did not originate these specific educational principles.
 - **Tao Xingzhi** (C) focused on popular education, rural education reform, and "life education" theories, influenced by John Dewey, but not primarily known for advocating academic freedom and inclusive tolerance in higher education.
 - **Liang Qichao** (D) was an influential reformer, journalist, and thinker during the late Qing and early Republic, promoting new ideas and constitutionalism, but he did not serve as a university president or coin these particular slogans for educational freedom.

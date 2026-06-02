@@ -22,7 +22,8 @@ The correct answer is **C) res/drawable**.
 
 In an Android project, drawable resources such as images (PNG, JPEG, SVG), vector drawables, and other graphical assets that can be drawn on the screen should be placed in the `res/drawable` folder (or its density-specific variants like `drawable-hdpi`, `drawable-mdpi`, etc.).
 
-### Brief explanation of each option:
+### Brief explanation of each option
+
 - **A) res/values**: This folder is for XML files defining simple values like strings, dimensions, colors, styles, and arrays — not images or drawables.
 - **B) res/layout**: This folder contains XML layout files that define the UI structure of activities, fragments, etc.
 - **C) res/drawable**: Correct folder for bitmap files, vector drawables, shapes, selectors, and other drawable resources.

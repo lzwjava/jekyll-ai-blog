@@ -28,9 +28,9 @@ This is the most significant category of complaints. An analysis of user reviews
 - **Unreliable Sending and Receiving:** A massive number of users report frequent "message sending failures," with emails getting stuck with a "waiting to send" status . This is a critical, show-stopping flaw for an email app. As one user put it, "whenever I send messages it's always fail and it's always ask me to resend it which normally distort the whole flow of the chatting" .
 - **Broken or Unreliable Notifications:** Many users report that they don't receive notifications for new emails, or that notifications arrive without a message preview . This defeats the purpose of an app designed for quick, chat-like communication. One frustrated user wrote, "Every other app will notify you that you get message like normal notification. The app fail to do that until you open the app before you know you get a message" .
 - **Poor Technical Performance:**
-    - **Slow Syncing/Loading:** The app often gets stuck on an "updating..." screen or takes over a minute to load new messages, making it impractical for quick checks .
-    - **Bugs and Instability:** Users report the app freezing, crashing after updates, or failing to open at all .
-    - **Poor Email Formatting:** The "content-parsing engine" frequently fails, resulting in emails that are poorly formatted, missing sender names, or not displaying properly on mobile devices .
+  - **Slow Syncing/Loading:** The app often gets stuck on an "updating..." screen or takes over a minute to load new messages, making it impractical for quick checks .
+  - **Bugs and Instability:** Users report the app freezing, crashing after updates, or failing to open at all .
+  - **Poor Email Formatting:** The "content-parsing engine" frequently fails, resulting in emails that are poorly formatted, missing sender names, or not displaying properly on mobile devices .
 
 ### 🧩 Feature Gaps and Missing Functionality
 
@@ -38,10 +38,10 @@ Beyond bugs, MailTime lacks many standard features that users expect, especially
 
 - **Incomplete Account Support:** For a long time, the app lacked support for standard **IMAP** accounts, meaning users with custom email domains or accounts from smaller providers couldn't use it . Even after updates promised support, users reported it was still missing or broken .
 - **Missing Basic Email Features:**
-    - No support for **email aliases**, a deal-breaker for many .
-    - Inability to customize **swipe actions** (e.g., swipe right to delete) .
-    - No access to **email folders** (like Sent, Spam, or custom folders) for organization .
-    - Lack of a **unified inbox**, a feature removed in an update that angered long-time users .
+  - No support for **email aliases**, a deal-breaker for many .
+  - Inability to customize **swipe actions** (e.g., swipe right to delete) .
+  - No access to **email folders** (like Sent, Spam, or custom folders) for organization .
+  - Lack of a **unified inbox**, a feature removed in an update that angered long-time users .
 
 ### 🔒 Privacy and Trust Concerns
 

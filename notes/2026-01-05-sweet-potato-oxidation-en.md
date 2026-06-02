@@ -21,6 +21,7 @@ Sweet potatoes contain phenolic compounds (like chlorogenic acid) that react wit
 When you cook sweet potatoes **whole** (with skin on), the flesh isn't exposed to air, so no oxidation occurs before or during cooking. That's why you didn't see these spots before.
 
 During air frying of slices:
+
 - The exposed surfaces oxidize before cooking if there's any delay.
 - High heat can accelerate or intensify the darkening in already-oxidized areas.
 - In some cases, overcooking can cause caramelization or slight burning of sugars, leading to darker spots (though you described them as appearing on the surface, likely pre-cooking oxidation).
@@ -29,6 +30,7 @@ During air frying of slices:
 Yes, these oxidation spots are completely harmless and do not affect taste or safety. You can eat them as is, or cut off the darkened parts if you prefer for appearance.
 
 **How to prevent it next time:**
+
 - Peel and cut the sweet potatoes just before cooking to minimize air exposure.
 - As you peel and slice, immediately place the pieces in a bowl of cold water (this blocks oxygen). You can add a splash of lemon juice, vinegar, or a bit of salt to the water for extra protection (the acid helps slow the reaction).
 - Pat the slices dry thoroughly before tossing with oil and air frying.

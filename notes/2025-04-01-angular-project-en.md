@@ -13,11 +13,11 @@ Reading frontend code built with Angular requires understanding its specific arc
 **1. Understand Your Goal:**
 
 * **Why are you reading the code?** Are you trying to:
-    * Debug a UI issue?
-    * Understand how a specific feature is implemented?
-    * Contribute to the project?
-    * Learn Angular best practices?
-    * Evaluate the codebase for maintainability or performance?
+  * Debug a UI issue?
+  * Understand how a specific feature is implemented?
+  * Contribute to the project?
+  * Learn Angular best practices?
+  * Evaluate the codebase for maintainability or performance?
 
 **2. Start with the Entry Point and Core Modules:**
 
@@ -28,24 +28,24 @@ Reading frontend code built with Angular requires understanding its specific arc
 **3. Explore the Project Structure:**
 
 * **`app/` directory:** This is usually where most of your application code resides. Look for common folders like:
-    * `components/`: Contains the UI building blocks.
-    * `services/`: Contains business logic and data fetching.
-    * `modules/`: Contains feature-specific or reusable modules.
-    * `models/` or `interfaces/`: Defines data structures.
-    * `guards/`: Controls route access.
-    * `interceptors/`: Handles HTTP request and response modifications.
-    * `pipes/`: Transforms data for display.
-    * `directives/`: Extends the functionality of HTML elements.
-    * `assets/`: Contains static assets like images and fonts.
+  * `components/`: Contains the UI building blocks.
+  * `services/`: Contains business logic and data fetching.
+  * `modules/`: Contains feature-specific or reusable modules.
+  * `models/` or `interfaces/`: Defines data structures.
+  * `guards/`: Controls route access.
+  * `interceptors/`: Handles HTTP request and response modifications.
+  * `pipes/`: Transforms data for display.
+  * `directives/`: Extends the functionality of HTML elements.
+  * `assets/`: Contains static assets like images and fonts.
 * **Feature Modules:** Large Angular applications often use feature modules to organize related components, services, and routes. Identify these modules and their responsibilities.
 
 **4. Focus on Specific Features or Components:**
 
 * **Don't try to understand the entire application at once.** Pick a specific feature or UI element you want to understand.
 * **Trace the flow:** For a particular UI element, identify its corresponding component. Then, follow the data flow:
-    * **Template (`.html` file):** How is the UI rendered? Look for data bindings (`{{ ... }}`, `[]`, `()`), event bindings (`(click)`, `(input)`, etc.), and structural directives (`*ngIf`, `*ngFor`).
-    * **Component Class (`.ts` file):** What data does the component hold? How does it interact with services? Look at the properties, methods, and lifecycle hooks (`OnInit`, `OnDestroy`, etc.).
-    * **Styles (`.css`, `.scss`, `.less` file):** How is the component styled?
+  * **Template (`.html` file):** How is the UI rendered? Look for data bindings (`{{ ... }}`, `[]`, `()`), event bindings (`(click)`, `(input)`, etc.), and structural directives (`*ngIf`, `*ngFor`).
+  * **Component Class (`.ts` file):** What data does the component hold? How does it interact with services? Look at the properties, methods, and lifecycle hooks (`OnInit`, `OnDestroy`, etc.).
+  * **Styles (`.css`, `.scss`, `.less` file):** How is the component styled?
 
 **5. Understand Key Angular Concepts:**
 
@@ -54,9 +54,9 @@ Reading frontend code built with Angular requires understanding its specific arc
 * **Services:** Encapsulate reusable business logic and data fetching. Look for the `@Injectable()` decorator and how services are injected into components and other services.
 * **Dependency Injection (DI):** A core concept in Angular. Understand how dependencies are provided and injected.
 * **Directives:** Extend the functionality of HTML elements.
-    * **Component Directives:** Components are also directives.
-    * **Structural Directives (`*ngIf`, `*ngFor`, `*ngSwitch`):** Modify the DOM structure.
-    * **Attribute Directives (`[ngClass]`, `[ngStyle]`):** Change the appearance or behavior of an element.
+  * **Component Directives:** Components are also directives.
+  * **Structural Directives (`*ngIf`, `*ngFor`, `*ngSwitch`):** Modify the DOM structure.
+  * **Attribute Directives (`[ngClass]`, `[ngStyle]`):** Change the appearance or behavior of an element.
 * **Pipes:** Transform data for display in the template.
 * **Routing:** How the application navigates between different views. Examine the `app-routing.module.ts` and the `RouterModule`. Look for `<router-outlet>` in templates.
 * **State Management (Optional but Common in Large Apps):** Large Angular applications often use state management libraries like NgRx, Akita, or Zustand. Understanding the chosen library's patterns (e.g., reducers, actions, selectors in NgRx) is crucial.
@@ -72,10 +72,10 @@ Reading frontend code built with Angular requires understanding its specific arc
 **7. Use Angular DevTools:**
 
 * This browser extension is invaluable for inspecting Angular applications. It allows you to:
-    * Inspect the component tree and their properties.
-    * View the change detection cycles.
-    * Profile the application's performance.
-    * Inspect the state of NgRx or other state management libraries.
+  * Inspect the component tree and their properties.
+  * View the change detection cycles.
+  * Profile the application's performance.
+  * Inspect the state of NgRx or other state management libraries.
 
 **8. Read Documentation and Tests:**
 
@@ -103,13 +103,13 @@ Reading frontend code built with Angular requires understanding its specific arc
 
 **Example Approach for an Angular Feature:**
 
-1.  **Identify the UI element or feature you want to understand.**
-2.  **Find the main component responsible for that feature.**
-3.  **Examine its template (`.html`) to see how it's rendered and what data it displays.**
-4.  **Look at the component class (`.ts`) to understand where the data comes from (properties) and how it interacts with other parts of the application (methods, service calls).**
-5.  **If the component uses any child components, investigate those as well.**
-6.  **Trace any service calls to understand how data is fetched or manipulated.**
-7.  **Look at the associated styles (`.css`, `.scss`, `.less`) to understand how the UI is styled.**
-8.  **Check the unit tests (`.spec.ts`) to see how the component is tested and what its expected behavior is.**
+1. **Identify the UI element or feature you want to understand.**
+2. **Find the main component responsible for that feature.**
+3. **Examine its template (`.html`) to see how it's rendered and what data it displays.**
+4. **Look at the component class (`.ts`) to understand where the data comes from (properties) and how it interacts with other parts of the application (methods, service calls).**
+5. **If the component uses any child components, investigate those as well.**
+6. **Trace any service calls to understand how data is fetched or manipulated.**
+7. **Look at the associated styles (`.css`, `.scss`, `.less`) to understand how the UI is styled.**
+8. **Check the unit tests (`.spec.ts`) to see how the component is tested and what its expected behavior is.**
 
 By following these steps, you can systematically approach reading and understanding Angular frontend code, even in large and complex projects. Remember that patience and persistence are key.

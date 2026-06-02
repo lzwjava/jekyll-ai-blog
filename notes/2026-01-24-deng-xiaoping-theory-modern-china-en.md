@@ -24,7 +24,6 @@ The theory is built on several pragmatic concepts that shifted China away from r
 * **The "One Center, Two Basic Points" (一个中心, 两个基本点):** * **One Center:** Economic development.
 * **Two Basic Points:** Upholding the Four Cardinal Principles (political stability) and adhering to Reform and Opening-up.
 
-
 * **Socialism with Chinese Characteristics:** The belief that China is in the "primary stage of socialism" and must use market mechanisms to develop its "productive forces" before achieving true communism.
 * **"One Country, Two Systems":** A diplomatic framework created to resolve the issues of Hong Kong, Macau, and Taiwan, allowing different economic systems to exist within one sovereign nation.
 

@@ -29,6 +29,7 @@ Here's the full picture:
 ### ⚠️ Data Limitation
 
 The data preparation was **killed mid-process**. Current state:
+
 - **Val**: 100M tokens (1 shard) — full shard 0
 - **Train**: 14M tokens (partial shard 1) — **only ~14% of 1 shard**
 - **Full dataset**: Would be ~610 shards × 100M = **~61B tokens** (61GB raw text)
@@ -64,7 +65,8 @@ A **single A100 40GB** or **RTX 4090 24GB** is more than enough.
 
 ## 🚀 How to Transfer to GPU Droplet & Train
 
-### Step 1 — Copy everything from VPS to your machine/laptop:
+### Step 1 — Copy everything from VPS to your machine/laptop
+
 ```bash
 # Copy the prepared data (only ~220MB for the sample)
 scp -r root@159.89.216.20:/root/nanoGPT/data/fineweb ./data/
@@ -76,7 +78,8 @@ scp -r root@159.89.216.20:/root/nanoGPT/* ./
 # Actually better to: pip install torch numpy tiktoken tqdm transformers
 ```
 
-### Step 2 — On GPU droplet:
+### Step 2 — On GPU droplet
+
 ```bash
 # Install deps
 pip install torch numpy tiktoken tqdm transformers wandb
@@ -88,7 +91,8 @@ pip install torch numpy tiktoken tqdm transformers wandb
 python train.py config/train_fineweb.py
 ```
 
-### Step 3 — Monitor:
+### Step 3 — Monitor
+
 ```bash
 # Watch loss
 python sample.py --out_dir=out-fineweb
@@ -114,6 +118,7 @@ python prepare_fineweb.py
 ```
 
 But **much faster** — prepare directly on the GPU droplet:
+
 ```bash
 # On GPU droplet — just link the raw file and run prepare.py there
 ln -sf /path/to/fineweb_extracted_all.txt ./data/fineweb/train_fineweb.txt

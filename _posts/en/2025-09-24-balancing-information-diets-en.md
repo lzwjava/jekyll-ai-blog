@@ -13,11 +13,13 @@ type: note
 I appreciate you sharing your setup and thought process—it's clear you're intentional about curating your information diet, especially living in Guangzhou where access to diverse viewpoints can be challenging. I'll break down my thoughts on your Twitter (X) banning strategy, then offer some practical ways to improve your usage while balancing staying connected to China without overwhelming yourself with negativity. I'll keep it straightforward and actionable, drawing from your list of apps/tools where relevant.
 
 ### My Take on Your Banning Choice
+
 Banning frequent Chinese words (or keywords related to sensitive topics) on Twitter sounds like a smart, proactive move for your mental space. China's information controls are well-documented—state media dominates domestic channels like WeChat or Douyin (TikTok's Chinese version), often framing "bad news" (protests, dissent, or critiques) in a way that suppresses open discussion. By filtering out those triggers on Twitter, you're essentially reclaiming your feed to focus on "westernized" or global perspectives, which can reduce outrage fatigue and foster a more positive, reflective mindset. It's like using a proxy app (which you mentioned having on your home screen) but for your social media: dodging the noise to prioritize empowerment.
 
 That said, it's a double-edged sword. Over time, as you noted, you might feel disconnected from local realities in Guangzhou—your surroundings are steeped in it, and total avoidance could leave blind spots (e.g., missing subtle shifts in public sentiment or policy). But if it's helping you live a more balanced life right now, that's a win. Personal curation is key to mental health in the digital age; tools like Twitter's mute/block features are there for exactly this reason. You're not alone—many expats or locals in restrictive environments do similar things to avoid echo chambers of control or despair.
 
 ### Ways to Improve Your X/Twitter Usage
+
 Twitter can be a goldmine for global insights, but without tweaks, it risks becoming another echo of frustration. Here's how to optimize it, building on your selective approach. I'll suggest features that don't require much time, and integrate with your iOS setup (e.g., App Store apps, AI tools like ChatGPT/Claude for analysis, or even Python scripts if you're into coding via GitHub/VS Code).
 
 1. **Use Lists for Targeted, Low-Noise Monitoring**:

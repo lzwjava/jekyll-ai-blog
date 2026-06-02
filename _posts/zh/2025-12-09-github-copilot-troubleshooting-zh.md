@@ -17,6 +17,7 @@ type: note
 Visual Studio Code (VS Code) 中的 GitHub Copilot 扩展在 Windows 上变得无响应或冻结可能是由于几个常见问题造成的，尤其是在使用 Chat 视图（具有 Ask 提问、Edit 修改代码或 Agent 自主任务等模式）等功能时。这通常表现为界面卡顿，需要完全重新加载或打开一个新窗口来解决，并且由于扩展主机进程卡住而无法在模式之间进行切换。根据用户报告和官方故障排除，最可能的原因和修复方法如下：
 
 ### 常见原因
+
 - **扩展或 VS Code 缓存/加载问题**：Copilot 的聊天功能依赖于后台进程来处理 AI 请求。如果这些进程卡住（例如，在 Agent 模式下执行长时间任务时），UI 就会冻结。在 Agent 任务运行时切换窗口或选项卡会中断进程，从而加剧此问题。
 - **过时或冲突的版本**：不兼容的 VS Code 或 Copilot 版本可能导致模式切换失败。例如，最近的更新（如 VS Code 1.102+）存在模式选择器无响应的 bug。
 - **身份验证或订阅限制**：如果使用的是免费的 Copilot 计划，可能会达到每月聊天限制，导致卡顿。令牌故障或会话过期也会阻止 Agent 模式等功能。
@@ -24,6 +25,7 @@ Visual Studio Code (VS Code) 中的 GitHub Copilot 扩展在 Windows 上变得�
 - **Agent 模式特有 bug**：Agent 模式资源消耗更大，更容易出现无限的“Working...”循环，尤其是在任务被中断后或使用某些模型（例如，GPT 变体）时。这不会影响更简单的 Ask 模式。
 
 ### 故障排除步骤
+
 按顺序尝试以下步骤——大多数用户无需重新安装即可解决问题：
 
 1. **快速重新加载**：
@@ -53,6 +55,7 @@ Visual Studio Code (VS Code) 中的 GitHub Copilot 扩展在 Windows 上变得�
 如果这些方法没有帮助，请通过 `Ctrl+Shift+P` > “GitHub Copilot: Collect Diagnostics”收集诊断信息，并在 [VS Code GitHub issues](https://github.com/microsoft/vscode/issues) 上报告。对于持续冻结，暂时禁用其他扩展以隔离冲突。
 
 参考资料：
+
 - [GitHub Copilot FAQ](https://code.visualstudio.com/docs/copilot/faq)
 - [Stack Overflow: GitHub Copilot not working suddenly](https://stackoverflow.com/questions/71806576/why-is-my-github-copilot-not-working-all-of-a-sudden)
 - [VS Code Issue: Unable to switch Copilot modes](https://github.com/microsoft/vscode/issues/260293)

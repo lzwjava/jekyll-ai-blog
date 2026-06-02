@@ -30,8 +30,8 @@ type: note
 
 参考资料：
 
-- https://www.reddit.com/r/unpopularopinion/comments/1nnipph/cooking_every_day_is_a_hassle_and_ultimately_a/
-- https://www.reddit.com/r/unpopularopinion/comments/p75b80/im_tired_of_people_acting_like_home_cooked_food/
-- https://www.reddit.com/r/Cooking/comments/1c3lttr/your_actual_unpopular_food_opinion/
-- https://www.reddit.com/r/unpopularopinion/comments/dya16o/meal_prepping_freaks_me_out_and_is_a_disgusting/
-- https://www.reddit.com/r/unpopularopinion/comments/w7ti64/home_cooking_is_a_terrible_practice_we_accept/
+- <https://www.reddit.com/r/unpopularopinion/comments/1nnipph/cooking_every_day_is_a_hassle_and_ultimately_a/>
+- <https://www.reddit.com/r/unpopularopinion/comments/p75b80/im_tired_of_people_acting_like_home_cooked_food/>
+- <https://www.reddit.com/r/Cooking/comments/1c3lttr/your_actual_unpopular_food_opinion/>
+- <https://www.reddit.com/r/unpopularopinion/comments/dya16o/meal_prepping_freaks_me_out_and_is_a_disgusting/>
+- <https://www.reddit.com/r/unpopularopinion/comments/w7ti64/home_cooking_is_a_terrible_practice_we_accept/>

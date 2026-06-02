@@ -11,6 +11,7 @@ type: note
 Spring Data Redis is a fantastic tool for integrating Redis—a high-performance, in-memory data store—into your Spring application. It simplifies working with Redis by providing a familiar repository-style interface and abstractions over low-level Redis operations. Let’s walk through how to set it up and use it step-by-step.
 
 ### 1. **Set Up Your Project**
+
 First, include the Spring Data Redis dependency in your project. If you’re using Maven, add this to your `pom.xml`:
 
 ```xml
@@ -46,6 +47,7 @@ This includes the Redis client (Jedis or Lettuce—Lettuce is the default). If y
 ```
 
 ### 2. **Configure Redis**
+
 Configure your Redis connection in `application.properties` or `application.yml`. For a local Redis instance running on the default port (6379):
 
 ```properties
@@ -58,6 +60,7 @@ spring.redis.database=0 # Default database index
 If you’re using a remote Redis server or a service like AWS ElastiCache, update the host and credentials accordingly.
 
 ### 3. **Basic Usage with RedisTemplate**
+
 Spring Data Redis provides `RedisTemplate` for low-level operations. You can autowire it into your service or component:
 
 ```java
@@ -88,6 +91,7 @@ public class RedisService {
 - `opsForValue()` is for simple key-value operations. Other methods include `opsForList()`, `opsForSet()`, `opsForHash()`, etc., for different Redis data structures.
 
 ### 4. **Using with Objects**
+
 To store and retrieve Java objects, configure `RedisTemplate` with serializers. Spring Boot auto-configures it, but you can customize it if needed:
 
 ```java
@@ -156,6 +160,7 @@ public class PersonRedisService {
 ```
 
 ### 5. **Repository Approach**
+
 For a higher-level abstraction, use Spring Data Redis repositories. Define an entity and a repository:
 
 ```java
@@ -211,6 +216,7 @@ public class PersonService {
 - The repository provides CRUD operations out of the box.
 
 ### 6. **Run Your Application**
+
 Ensure Redis is running locally (e.g., via Docker: `docker run -d -p 6379:6379 redis`) or connect to a remote instance. Then start your Spring Boot app:
 
 ```java
@@ -226,11 +232,13 @@ public class Application {
 ```
 
 ### 7. **Advanced Features**
+
 - **TTL (Time-to-Live):** Set expiration on keys with `redisTemplate.expire(key, 10, TimeUnit.MINUTES)`.
 - **Hashes:** Use `opsForHash()` to work with Redis hashes directly.
 - **Pub/Sub:** Use `RedisMessageListenerContainer` for messaging.
 
 ### Example Workflow
+
 1. Save a `Person` object with `repository.save()` or `redisTemplate.opsForValue().set()`.
 2. Retrieve it with `repository.findById()` or `redisTemplate.opsForValue().get()`.
 3. Check your Redis instance (e.g., with `redis-cli`) to see the data.

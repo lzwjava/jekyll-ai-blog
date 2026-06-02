@@ -56,6 +56,7 @@ The history of food is full of such serendipitous discoveries — douchi, cheese
 ### Practical Takeaway
 
 The optimal method is exactly what you did:
+
 1. Let the mango ripen fully at room temperature.
 2. Transfer it to the refrigerator for 1–2 days.
 3. Eat it cold — enjoy the "mango juice + ice" experience.

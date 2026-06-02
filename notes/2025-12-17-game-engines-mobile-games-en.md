@@ -23,12 +23,14 @@ These popular mobile games primarily rely on established game engines for their 
 | **Genshin Impact** | Unity         | No Unreal. Developed using a heavily customized version of the Unity engine by miHoYo (HoYoverse). This enables its open-world features across mobile, PC, and consoles. Future miHoYo projects may shift to Unreal Engine 5, but Genshin remains on Unity. |
 
 **Underlying tech summary:**
+
 - **Unreal Engine**: Excellent for high-fidelity graphics and shooters like PUBG Mobile, with strong mobile optimizations.
 - **Unity**: Ideal for mobile MOBAs and open-world games like Honor of Kings and Genshin Impact due to its lightweight footprint, ease of cross-platform deployment (Android/iOS), and asset ecosystem.
 
 No major engine changes reported as of late 2025.
 
 **References:**
+
 - [PUBG Mobile - Wikipedia](https://en.wikipedia.org/wiki/PUBG_Mobile)
 - [PUBG MOBILE \| LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/gamedetail/pubg-mobile.html)
 - [Arena of Valor - Official Arena of Valor Wiki](https://arenaofvalor.fandom.com/wiki/Arena_of_Valor)

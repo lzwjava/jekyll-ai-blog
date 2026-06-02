@@ -17,6 +17,7 @@ Answer:
 **孔雀东南飞** (The Peacock Flies Southeast) is one of the most famous long narrative poems in Chinese literary history. It is generally regarded as **the pinnacle of Han dynasty yuefu poetry** (乐府诗) and is often called **the longest and most accomplished "ancient-style" narrative poem of the Han period**.
 
 ### Basic Information
+
 - **Chinese title**: 孔雀东南飞 (Kǒngquè Dōngnán Fēi)
 - **Alternative titles**:
   - 古诗为焦仲卿妻作 (The Ancient Poem Written for Jiao Zhongqing's Wife)
@@ -26,6 +27,7 @@ Answer:
 - **First major appearance**: Preserved in **《玉台新咏》** (New Songs from a Jade Terrace), compiled by Xu Ling around 545 CE during the Liang dynasty.
 
 ### Main Story Summary
+
 The poem tells a tragic love story between **Jiao Zhongqing** (焦仲卿), a minor official, and his wife **Liu Lanzhi** (刘兰芝).
 
 - Liu Lanzhi is beautiful, talented, hardworking, and completely devoted to her husband.
@@ -50,6 +52,7 @@ The poem tells a tragic love story between **Jiao Zhongqing** (焦仲卿), a min
   They face each other and sing, every night until the fifth watch…)
 
 ### Literary Significance
+
 - Considered **China's first long narrative poem** with realistic characters and detailed psychological描写.
 - One of the representative works of **“汉乐府民歌”** (Han folk yuefu songs).
 - Together with **《木兰诗》** (Mulan), **《陌上桑》**，and **《上邪》**，it represents the highest achievement of Han narrative poetry.

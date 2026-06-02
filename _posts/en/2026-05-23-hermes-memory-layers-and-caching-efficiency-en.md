@@ -62,6 +62,7 @@ shutdown()            → clean exit
 ```
 
 **Honcho is the most sophisticated.** It has three recall modes:
+
 - `context` — prefetch peer context (summary, representation, peer card) into system prompt
 - `tools` — expose honcho_search/honcho_reasoning/honcho_profile as tools, agent decides when to query
 - `hybrid` — both (default)
@@ -87,6 +88,7 @@ Three approaches:
 3. **Manual memory tool:** The agent can call `memory(action="add", target="user", content="...")` or `memory(action="add", target="memory", content="...")` at any time. The tool enforces char limits and deduplication.
 
 **What goes where:**
+
 - `target="user"` → WHO the user is (preferences, role, style) — 1375 char limit
 - `target="memory"` → WHAT the agent learned (environment facts, conventions, quirks) — 2200 char limit
 
@@ -101,6 +103,7 @@ Memory uses **character counts**, not tokens. This is model-independent — 2200
 ### 2. Frozen snapshot + prefix cache
 
 The system prompt is stable across all turns. Memory writes update disk but not the prompt. This means:
+
 - Zero cache invalidation cost per turn
 - Memory is "eventually consistent" — fresh entries appear next session
 
@@ -109,6 +112,7 @@ The system prompt is stable across all turns. Memory writes update disk but not 
 External providers implement `prefetch(query)` — called before each API call. The key design rule: **implementations should be fast — use background threads for the actual recall and return cached results here.**
 
 Honcho implements this with:
+
 - `queue_prefetch(query)` after each turn → fires a background thread
 - `prefetch(query)` on next turn → returns the cached result (non-blocking)
 - `context_cadence` — minimum turns between context API calls (default 1)
@@ -125,6 +129,7 @@ The system prompt explicitly instructs the agent:
 ```
 
 This creates a natural efficiency hierarchy:
+
 - **Hot path:** Curated memory in system prompt (free, always present)
 - **Warm path:** Provider prefetch (cached, cadence-gated)
 - **Cold path:** session_search (FTS5 query, only when needed)
@@ -132,6 +137,7 @@ This creates a natural efficiency hierarchy:
 ### 5. Memory vs Skills separation
 
 The system prompt draws a sharp line:
+
 - **Memory** = who the user is, environment facts, stable conventions
 - **Skills** = how to do things, procedural knowledge, workflows
 
@@ -140,6 +146,7 @@ If you discover a new way to do something, it goes in a skill (SKILL.md), not me
 ### 6. Security: injection scanning
 
 Since memory is injected into the system prompt, every write is scanned for:
+
 - Prompt injection patterns (`ignore previous instructions`, role hijacking)
 - Exfiltration attempts (curl with `$KEY`, reading `.env`)
 - Invisible unicode characters

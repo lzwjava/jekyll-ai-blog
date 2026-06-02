@@ -30,9 +30,9 @@ The most likely required excerpts and their core meanings are:
 #### 2. The Debate on the Joy of Fish (濠梁之辯 / Háo Liáng zhī Biàn)
 
 * **Content:** Zhuangzi and his friend Huizi (惠施) are walking over a bridge above the Hao River.
-    * **Zhuangzi:** "See how the fish leap and dart! That is the joy of fish."
-    * **Huizi:** "You are not a fish; how do you know the joy of fish?"
-    * **Zhuangzi:** "You are not me; how do you know I don't know the joy of fish? (And, you asked *how* I know, which already admits the premise that I know.)"
+  * **Zhuangzi:** "See how the fish leap and dart! That is the joy of fish."
+  * **Huizi:** "You are not a fish; how do you know the joy of fish?"
+  * **Zhuangzi:** "You are not me; how do you know I don't know the joy of fish? (And, you asked *how* I know, which already admits the premise that I know.)"
 * **Meaning:** This section is a witty defense of **intuitive knowledge and empathy**. It challenges the limits of logical, objective reasoning and suggests that we can understand the feelings of others (even fish) through a form of non-analytical, shared experience.
 
 ---
@@ -41,8 +41,8 @@ The most likely required excerpts and their core meanings are:
 
 For a **"College Chinese"** self-study exam, the selected excerpt teaches:
 
-1.  **The Relativity of Perspective:** The scale of greatness is not absolute; all things are relative.
-2.  **The Folly of Arrogance:** Don't let limited knowledge lead to self-satisfaction.
-3.  **The Nature of Intuition:** We can intuitively understand others beyond the constraints of logic and proof.
+1. **The Relativity of Perspective:** The scale of greatness is not absolute; all things are relative.
+2. **The Folly of Arrogance:** Don't let limited knowledge lead to self-satisfaction.
+3. **The Nature of Intuition:** We can intuitively understand others beyond the constraints of logic and proof.
 
 Would you like me to find a specific translation of one of these famous passages from the *Autumn Floods* chapter?

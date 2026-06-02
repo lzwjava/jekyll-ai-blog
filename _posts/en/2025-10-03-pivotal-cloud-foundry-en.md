@@ -11,14 +11,17 @@ type: note
 ---
 
 ### Overview of Pivotal Cloud Foundry (PCF)
+
 Pivotal Cloud Foundry (PCF), now part of VMware Tanzu after VMware's acquisition of Pivotal in 2019, is a commercial distribution of the open-source Cloud Foundry platform. It's a Platform as a Service (PaaS) designed to simplify the deployment, scaling, and management of cloud-native applications. PCF abstracts away the complexities of underlying infrastructure (IaaS), allowing developers to focus on code rather than servers, networking, or orchestration. It's particularly popular in regulated industries like banking due to its emphasis on security, compliance, and portability.
 
 PCF is not a standalone cloud provider like AWS, Azure, or GCP—it's a layer that can run *on top of* those IaaS providers, as well as on-premises data centers or private clouds. This makes it a "cloud operating system" for applications.
 
 ### PCF/Cloud Foundry Design and Architecture
+
 Cloud Foundry's design is modular, opinionated, and built around the "12-factor app" principles for scalable, maintainable software. Here's a high-level breakdown:
 
 #### Core Components and Flow
+
 1. **Diego (Runtime Engine)**: The heart of PCF. It replaces the older Garden container system with a modern orchestration layer using containers (based on Linux containers or later, Garden/Linux for isolation). Diego manages application instances across "cells" (virtual machines or bare-metal servers). It handles staging (building apps from source code into runnable droplets), routing traffic, and scaling via auto-scaling groups.
 
 2. **Routing and Load Balancing**: The Gorouter (a high-performance reverse proxy) directs incoming requests to the right app instances based on routes (e.g., `app.example.com`). It supports sticky sessions and health checks.
@@ -36,6 +39,7 @@ Cloud Foundry's design is modular, opinionated, and built around the "12-factor 
 7. **Monitoring and Logging**: Integrated tools like Loggregator (for structured logs) and Firehose (for streaming metrics) feed into tools like ELK Stack or Splunk. Ops Metrics provide built-in observability.
 
 #### Key Design Principles
+
 - **Self-Service and Developer-Centric**: Developers push apps via `cf push` CLI, and the platform handles the rest (scaling, health checks, zero-downtime deploys).
 - **Multi-Tenancy**: Multiple teams or orgs can share the platform securely via "spaces" and quotas.
 - **Horizontal Scaling**: Apps scale out by replicating instances across cells, with built-in fault tolerance (e.g., if a cell fails, Diego reschedules tasks).
@@ -47,6 +51,7 @@ The architecture is horizontally scalable and runs on IaaS like vSphere, AWS, Az
 Challenges in design include its Java-heavy heritage (can be resource-intensive) and the learning curve for ops teams, but it's battle-tested since 2011.
 
 ### Why Do Some Banks Choose PCF?
+
 Banks (e.g., HSBC, Barclays, Capital One, or BBVA) often select PCF for its alignment with financial services' needs. Here's why:
 
 1. **Regulatory Compliance and Security**:
@@ -70,6 +75,7 @@ Case studies: Capital One pioneered PCF for its "cloud-first" strategy in 2015, 
 Not all banks use PCF—it's more common in enterprises with complex, regulated workloads than fintech startups.
 
 ### Why Not Just Choose Azure, AWS, or GCP Directly?
+
 Banks *do* use Azure/AWS/GCP extensively, but PCF is often layered on top rather than replaced. Native public cloud PaaS (e.g., AWS Elastic Beanstalk, Azure App Service, Google App Engine) are great for simple apps, but here's why PCF might be preferred or used alongside:
 
 1. **Avoiding Vendor Lock-In**:
@@ -93,6 +99,7 @@ Banks *do* use Azure/AWS/GCP extensively, but PCF is often layered on top rather
 In practice, many banks use a mix: PCF on AWS for core apps, native services for analytics (e.g., Azure Synapse).
 
 ### Why Have PCF "In the Middle"?
+
 PCF acts as an abstraction layer (PaaS) between your applications (top) and IaaS (bottom). Think of the cloud stack:
 
 - **IaaS (Foundation)**: AWS EC2, Azure VMs, GCP Compute Engine—provides raw compute/storage/networking.
@@ -100,6 +107,7 @@ PCF acts as an abstraction layer (PaaS) between your applications (top) and IaaS
 - **Apps (Top)**: Your microservices, APIs, UIs.
 
 **Benefits of the Middleman**:
+
 - **Simplification**: Devs don't learn cloud-specific APIs; push code once, run anywhere.
 - **Portability**: Move from AWS to GCP without app changes—key for banks fearing lock-in or needing geo-redundancy.
 - **Ops Efficiency**: Centralizes governance (e.g., security policies, cost controls) across clouds.

@@ -32,26 +32,31 @@ Playwright 和 Selenium 都是用于浏览器自动化的开源工具，主要�
 ### Pros and Cons
 
 **Playwright Pros:**
+
 - 通过智能 auto-waits 和 assertions 显著减少测试的不稳定性。
 - 非常适合现代单页应用（SPAs）和动态内容。
 - 卓越的调试功能（trace viewer，失败时的截图/视频）。
 - 更容易维护，CI/CD 流水线速度更快。
 
 **Playwright Cons:**
+
 - 社区规模目前比 Selenium 小。
 - 不提供对旧版浏览器或原生移动应用的内置支持（仅限模拟 emulation）。
 
 **Selenium Pros:**
+
 - 无与伦比的浏览器和语言兼容性。
 - 巨大的生态系统、插件和集成（例如用于移动端测试的 Appium）。
 - 在具有遗留系统的大规模企业环境中经过验证。
 
 **Selenium Cons:**
+
 - 更多的样板代码（boilerplate code）和配置工作。
 - 如果没有精细的等待管理，测试不稳定性更高。
 - 在复杂场景下执行速度较慢。
 
 ### When to Choose Which (as of 2026)
+
 - **选择 Playwright**：适用于新项目、现代 Web 应用、快速反馈循环，或以最小化不稳定性和维护成本为优先的情况。它是许多测试 SPAs 团队的首选，并迅速成为新项目自动化的默认选择。
 - **选择 Selenium**：适用于需要支持旧版浏览器、广泛的语言需求、维护现有的庞大测试套件，或需要最大兼容性的受监管环境。
 - 许多团队会同时使用两者：Playwright 用于新功能或核心路径，Selenium 用于兼容性覆盖。

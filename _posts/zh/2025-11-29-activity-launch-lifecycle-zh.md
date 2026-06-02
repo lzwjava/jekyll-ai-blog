@@ -12,7 +12,7 @@ type: note
 
 正确答案是 **A. onCreate() → onStart() → onResume()**
 
-### Android Activity 生命周期首次启动说明：
+### Android Activity 生命周期首次启动说明
 
 当 Activity 首次创建时（例如应用启动或用户跳转到新 Activity），系统会按以下固定顺序调用回调方法：
 
@@ -33,6 +33,7 @@ type: note
 **onCreate() → onStart() → onResume()**
 
 其他选项错误原因：
+
 - **B 和 C** 以 onStart() 或 onResume() 开头——这是不可能的，因为 onCreate() 必须首先执行
 - **D** 将 onResume() 置于 onStart() 之前——顺序错误，onStart() 始终在 onResume() 之前执行
 

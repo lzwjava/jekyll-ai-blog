@@ -26,6 +26,7 @@ Valgrind's architecture is modular, so new tools can be created easily. The main
 ## Installation
 
 **On Linux (Ubuntu/Debian):**
+
 ```bash
 sudo apt-get install valgrind
 ```
@@ -47,6 +48,7 @@ gcc -g -O0 -Wall myprogram.c -o myprogram
 ### Step 2: Run with Valgrind
 
 The basic syntax is:
+
 ```bash
 valgrind --tool=<toolname> <valgrind-options> ./myprogram [program-args]
 ```
@@ -60,11 +62,13 @@ Memcheck is the default Valgrind tool and can be run with `valgrind program` wit
 Memcheck is a memory error detector. It can detect: accessing memory you shouldn't (e.g., overrunning heap blocks, accessing memory after it has been freed), using undefined/uninitialized values, and memory leaks.
 
 **Basic command:**
+
 ```bash
 valgrind ./myprogram
 ```
 
 **Full leak check command:**
+
 ```bash
 valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 ```
@@ -79,6 +83,7 @@ valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all -v ./myprogram
 | `-v` | Verbose output |
 
 **Example output for a memory leak:**
+
 ```
 ==17624== HEAP SUMMARY:
 ==17624==     in use at exit: 40 bytes in 1 blocks
@@ -96,6 +101,7 @@ Programs run ten to thirty times more slowly with Memcheck than when run normall
 Massif is a heap profiler — it measures how much heap memory your program uses. It can give you information about heap usage, heap admin bytes, and stack sizes. Heap profiling is useful to help reduce the amount of memory your program uses.
 
 **Run Massif:**
+
 ```bash
 valgrind --tool=massif ./myprogram
 ```
@@ -103,6 +109,7 @@ valgrind --tool=massif ./myprogram
 When the program finishes, Massif prints summary space statistics and creates a graph representing the program's heap usage in a file called `massif.<pid>.ps`, which can be read by any PostScript viewer.
 
 **Visualize results:**
+
 ```bash
 ms_print massif.out.<pid>
 ```
@@ -112,10 +119,10 @@ ms_print massif.out.<pid>
 ## Callgrind — Call Graph & Cache Profiler
 
 To use Callgrind, simply pass the program executable along with any arguments:
+
 ```bash
 valgrind --tool=callgrind --dump-instr=yes --simulate-cache=yes --collect-jumps=yes ./myprogram
 ```
-
 
 Callgrind produces a large amount of data about the program's execution. It is most easily understood using the **kcachegrind** GUI tool, which creates a list of function calls along with timing information.
 
@@ -146,6 +153,7 @@ The official Valgrind does **not** support modern macOS versions (especially App
 3. **Xcode Instruments**: Apple's Xcode includes Instruments, which provides memory profiling capabilities and is the officially recommended macOS alternative.
 
 4. **AddressSanitizer (ASan)**: A compiler-based alternative that works on both Linux and macOS:
+
    ```bash
    clang -fsanitize=address -g ./myprogram.c -o myprogram
    ./myprogram

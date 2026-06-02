@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-The website (https://www.yinwang.org/, titled "当然我在扯淡") appears to be a custom-built blog. Based on the provided HTML source:
+The website (<https://www.yinwang.org/>, titled "当然我在扯淡") appears to be a custom-built blog. Based on the provided HTML source:
 
 - **Framework**: It's primarily built with **Vue.js** (version 3 likely), evident from Vue-specific attributes like `data-v-app`, `data-v-[hash]` for scoped CSS, and component references (e.g., `HomeView`, `PostView`, `router-link-active` for Vue Router handling navigation).
 - **Build tool**: **Vite** is used for bundling and development, shown by the favicon (`/vite.svg`), module-preloaded scripts with hashed filenames (e.g., `/assets/index-DS_1rR7p.js`), and the overall asset structure typical of Vite's output.

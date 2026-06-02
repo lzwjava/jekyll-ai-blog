@@ -17,14 +17,17 @@ Answer:
 Frank Hutter is a prominent German computer scientist and one of the leading figures in the field of **Automated Machine Learning (AutoML)**. He is widely recognized for pioneering methods that automate the design and optimization of machine learning pipelines, making advanced ML more accessible and efficient.
 
 ### Biography and Career
+
 Frank Hutter obtained his Diplom (equivalent to MSc) in computer science from TU Darmstadt in 2004. He then pursued a PhD at the University of British Columbia (UBC) in Canada, completing it in 2009 under supervisors Holger H. Hoos and Kevin Leyton-Brown. His doctoral thesis focused on automating the configuration of algorithms for hard computational problems. From 2009 to 2013, he worked as a postdoctoral researcher at UBC.
 
 In 2013, he returned to Germany to lead an Emmy Noether Research Group at the University of Freiburg. He became a Full Professor (W3) for Machine Learning there in 2017 and heads the Machine Learning Lab. Currently, he is on leave from Freiburg, serving as a Hector-Endowed Fellow and Principal Investigator at the ELLIS Institute Tübingen. Additionally, he is the co-founder and CEO of PriorLabs, a company specializing in tabular foundation models.
 
 ### Key Contributions to Machine Learning
+
 Hutter is best known for shaping the field of AutoML, which aims to automate tedious aspects of machine learning, such as hyperparameter optimization, neural architecture search (NAS), and meta-learning. His work addresses the reliance on human experts for tuning ML models and enables "AI that builds and improves AI."
 
 Major contributions include:
+
 - **Hyperparameter Optimization**: Pioneering efficient methods like Bayesian optimization for tuning hyperparameters, foundational to many AutoML systems.
 - **AutoML Systems**: Co-developing influential tools such as Auto-WEKA (2013), Auto-sklearn (which won the first two ChaLearn AutoML challenges), and Auto-PyTorch. Auto-WEKA received a Test of Time Award at KDD 2023.
 - **Neural Architecture Search**: Advancing techniques to automatically design neural network architectures.
@@ -35,9 +38,11 @@ He co-edited the first comprehensive book on AutoML: *Automated Machine Learning
 His research extends to deep learning, Bayesian optimization, and trustworthy AI (e.g., fairness, robustness).
 
 ### Impact and Recognition
+
 Hutter's publications have garnered over 114,000 citations (as of recent data), making him the most highly cited researcher in AutoML. He is a Fellow of ELLIS (European Laboratory for Learning and Intelligent Systems) and EurAI (European Association for Artificial Intelligence), and director of the ELLIS unit in Freiburg.
 
 Awards and honors include:
+
 - 2010 CAIAC Doctoral Dissertation Award (best AI thesis in Canada)
 - Multiple best paper awards and competition prizes
 - Three ERC grants (Starting Grant 2016, Consolidator Grant, Proof of Concept 2020)

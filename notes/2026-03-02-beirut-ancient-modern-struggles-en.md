@@ -16,12 +16,14 @@ Answer:
 **Beirut** is the capital and largest city of **Lebanon**, located on a peninsula along the eastern Mediterranean coast at the foot of the Lebanon Mountains. It serves as the country's chief port and economic center.
 
 ### Key Facts
+
 - **Population**: Greater Beirut has approximately 2.4 million residents (as of 2025 estimates), accounting for nearly half of Lebanon's total population.
 - **History**: One of the oldest continuously inhabited cities in the world, Beirut has been settled for more than 5,000 years. It has been home to Phoenician, Hellenistic, Roman, Arab, Ottoman, and French influences. The Latin motto *Berytus Nutrix Legum* ("Beirut, mother of laws") reflects its historical importance as a center of Roman law studies.
 - **Nicknames**: Often called the "Paris of the Middle East" or "Pearl of the Middle East" due to its pre-civil war cosmopolitan reputation, blending sophisticated Western influences with vibrant Arab culture.
 - **Character**: Beirut is famous for its contrasts — historic sites next to modern districts, a lively nightlife, world-renowned Lebanese cuisine, beaches, and nearby mountains for skiing and hiking. It features a mix of religious communities (Christian, Muslim, Druze, and others) living side by side.
 
 ### Historical and Modern Context
+
 Beirut flourished as a major cultural and financial hub in the mid-20th century but suffered severe damage during the Lebanese Civil War (1975–1990). Extensive reconstruction in the 1990s and 2000s restored much of downtown Beirut (especially the Solidere area) and revived its role as a regional destination.
 
 The city remains a dynamic place with bustling markets, cafes, historic landmarks (like the Mohammad Al-Amin Mosque, Roman ruins, and the National Museum), and a reputation for resilience despite political and economic challenges.

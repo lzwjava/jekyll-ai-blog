@@ -84,6 +84,7 @@ Below are **50 representative sample questions** compiled in the typical style a
 **Code Analysis / Short Answer (程序阅读或简答题)**
 
 21. What is the output of the following code?
+
     ```python
     def func(x, y=5):
         return x * y
@@ -94,6 +95,7 @@ Below are **50 representative sample questions** compiled in the typical style a
 22. Explain the difference between `==` and `is` operators in Python.
 
 23. What will happen if you run this code? (Identify the error)
+
     ```python
     try:
         x = 1 / 0
@@ -104,6 +106,7 @@ Below are **50 representative sample questions** compiled in the typical style a
 24. Describe what a generator function is and give one advantage over a normal list.
 
 25. Write the output of:
+
     ```python
     s = "hello world"
     print(s.capitalize())

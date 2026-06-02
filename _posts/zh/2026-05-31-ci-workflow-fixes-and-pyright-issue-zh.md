@@ -23,6 +23,7 @@ type: note
 **代码检查与安全工作流** — `lint.yml`：ruff/pyright 通过 `uv pip install` 安装，bandit 任务在安装前执行 `uv sync`。
 
 **单元测试工作流** — 全部 45 个错误已消除：
+
 - 在 pyproject.toml 中添加 PyJWT（修复 JWT 测试）
 - 当目标模块无法导入时（在 Linux 上使用仅限 macOS 的模块），`_dispatch()` / `_run()` 辅助函数现在回退到 `sys.modules` 注入
 - 注释测试：添加 `NOTE_ENTER_CONFIRM=1` 补丁确保能触发 `input()` 的 mock
@@ -43,6 +44,7 @@ type: note
 这些是可选依赖项，未在 `pyproject.toml` 中声明，但被无条件导入。CI 运行环境中没有这些包，因此 pyright 报告 `reportMissingImports`。
 
 **修复方案**（任选其一）：
+
 1. 在 pyproject.toml 的 `[tool.pyright]` 中添加 `reportMissingImports = false`
 2. 将这些可选包添加到 `pyproject.toml` 的依赖项中
 3. 将以下模块从 pyright 检查中排除：`exclude = [".venv/", "ww/ml/", "tests/", "ww/clash/", "ww/audio/", "ww/agent/speech_to_text_agent.py"]`

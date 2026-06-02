@@ -43,6 +43,7 @@ If you intend to destroy a Droplet and want the most up-to-date image, you must 
 DigitalOcean snapshots are charged at **$0.06/GB per month**, and if you destroy the droplet and create a new one from a snapshot, there is a very strong possibility you will **lose your IP address.**
 
 So with DigitalOcean the workflow is:
+
 1. Power down Droplet
 2. Manually take a snapshot (costs time + storage fees)
 3. Destroy the Droplet
@@ -68,6 +69,7 @@ So with DigitalOcean the workflow is:
 If you stop your pod but leave behind a large container disk, you are still billed at **double the normal storage rate** for that disk until you delete it. Stopping a pod doesn't stop the storage meter.
 
 So for long-term "cold storage," the best RunPod strategy is:
+
 - Use a **Network Volume** for your important data
 - **Terminate** the pod (not just stop) to avoid the idle disk double-billing
 - Reattach the Network Volume to a new pod when you're ready

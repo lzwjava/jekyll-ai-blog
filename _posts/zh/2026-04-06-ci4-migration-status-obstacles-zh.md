@@ -16,6 +16,7 @@ type: note
 ## 🦞 CI4 迁移 — 剩余障碍
 
 ### ✅ 今晚修复的内容（正常路由）
+
 `/`, `/users/isRegister`, `/lives/count`, `/lives/recommend`, `/wechat/sign`, `/wechat/menu`, `/jobs/alive`, `/topics`, `/applications/me`, `/accounts/me` — 全部返回 **HTTP 200**。
 
 ---

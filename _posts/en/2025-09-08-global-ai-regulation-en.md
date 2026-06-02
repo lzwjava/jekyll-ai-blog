@@ -30,6 +30,7 @@ The EU's AI Act (effective August 2024, with phased implementation through 2027)
 | **Innovation vs. Control Balance** | Promotes "trustworthy AI" with sandboxes for testing; supports SMEs. | Deregulatory (2025 EO removes barriers); emphasizes U.S. leadership vs. China. | Promotes via "Made in China 2025"; lax enforcement on startups but strict on content/security. |
 
 #### Impacts for Citizens
+
 AI regulations shape daily life by influencing privacy, fairness, access to services, and exposure to misinformation or surveillance. Here's how each framework affects citizens:
 
 - **EU (Strong Protections for Rights and Safety)**: Citizens benefit from robust safeguards against discriminatory or invasive AI. High-risk systems (e.g., in hiring or policing) must undergo bias audits and transparency checks, reducing unfair outcomes in jobs, loans, or healthcare. Banned practices like social scoring prevent dystopian surveillance, protecting dignity and equality. Labeling of AI content (e.g., deepfakes) combats misinformation, empowering informed decisions. However, strict rules may limit AI innovation, potentially slowing access to advanced tools. Overall, the focus on fundamental rights (e.g., non-discrimination, privacy) enhances trust but could increase costs for services. Enforcement via the AI Office ensures accountability, with citizens able to report violations.

@@ -12,7 +12,7 @@ type: note
 
 Here’s a clear English explanation of the Chinese post you shared:
 
-The author is sharing an interesting piece of news: Graydon Hoare (the original creator of the Rust programming language) gave a talk this year at the University of British Columbia (UBC) about the history of compilers. In that talk he mentioned the Chez Scheme compiler. Unfortunately the talk wasn’t recorded, but people who are interested can read an article about Graydon’s compiler history reflections here: https://thenewstack.io/rust-creator-graydon-hoare-recounts-the-history-of-compilers
+The author is sharing an interesting piece of news: Graydon Hoare (the original creator of the Rust programming language) gave a talk this year at the University of British Columbia (UBC) about the history of compilers. In that talk he mentioned the Chez Scheme compiler. Unfortunately the talk wasn’t recorded, but people who are interested can read an article about Graydon’s compiler history reflections here: <https://thenewstack.io/rust-creator-graydon-hoare-recounts-the-history-of-compilers>
 
 The author then gives his personal opinion:
 

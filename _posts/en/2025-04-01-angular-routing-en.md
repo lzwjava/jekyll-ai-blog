@@ -55,14 +55,15 @@ Sub-routes, or child routes, allow you to create nested layouts within your appl
 
 **Steps:**
 
-1.  **Create Parent and Child Components:**
+1. **Create Parent and Child Components:**
+
     ```bash
     ng generate component admin
     ng generate component users
     ng generate component settings
     ```
 
-2.  **Configure Child Routes in the Parent's Routing Module (or the main `AppRoutingModule`):**
+2. **Configure Child Routes in the Parent's Routing Module (or the main `AppRoutingModule`):**
 
     ```typescript
     import { NgModule } from '@angular/core';
@@ -111,7 +112,7 @@ Sub-routes, or child routes, allow you to create nested layouts within your appl
     ];
     ```
 
-3.  **Add `<router-outlet>` in the Parent Component's Template (`admin.component.html`):**
+3. **Add `<router-outlet>` in the Parent Component's Template (`admin.component.html`):**
 
     ```html
     <h1>Admin Dashboard</h1>
@@ -137,7 +138,7 @@ Query parameters are used to pass optional information to a route. They appear i
 
 **Steps:**
 
-1.  **Configure the Route (No special configuration needed for query parameters):**
+1. **Configure the Route (No special configuration needed for query parameters):**
 
     ```typescript
     // In AppRoutingModule
@@ -147,7 +148,7 @@ Query parameters are used to pass optional information to a route. They appear i
     ];
     ```
 
-2.  **Navigate with Query Parameters:** You can navigate to the route with query parameters using the `Router` service:
+2. **Navigate with Query Parameters:** You can navigate to the route with query parameters using the `Router` service:
 
     ```typescript
     import { Router } from '@angular/router';
@@ -169,7 +170,7 @@ Query parameters are used to pass optional information to a route. They appear i
     }
     ```
 
-3.  **Access Query Parameters in the Component:** Use the `ActivatedRoute` service to access the query parameters:
+3. **Access Query Parameters in the Component:** Use the `ActivatedRoute` service to access the query parameters:
 
     ```typescript
     import { Component, OnInit } from '@angular/core';

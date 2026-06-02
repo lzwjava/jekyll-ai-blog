@@ -31,6 +31,7 @@ type: note
 **总结：** 你的计划深思熟虑，符合长期财富积累与知识复利的原则。只需确保将风险管理、债务控制和流动性作为优先事项。小步试错、持续学习比急于追求短期收益更有价值。
 
 **参考资料：**
+
 * [Investopedia：定投策略](https://www.investopedia.com/terms/d/dollarcostaveraging.asp)
 * [哈佛商业评论：财务素养的重要性](https://hbr.org/2016/03/why-financial-literacy-is-so-important)
 * [福布斯：教孩子管理金钱](https://www.forbes.com/advisor/personal-finance/teach-kids-about-money/)

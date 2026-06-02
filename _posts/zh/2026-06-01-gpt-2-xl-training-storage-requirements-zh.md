@@ -23,6 +23,7 @@ bfloat16: 1.5B × 2 字节 = 每份检查点 3GB
 ```
 
 加上优化器状态（AdamW 存储两个动量项）：
+
 ```
 float32 模型 + AdamW:
   params:          6GB

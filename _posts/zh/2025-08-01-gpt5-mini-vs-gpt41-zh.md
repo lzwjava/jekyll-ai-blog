@@ -11,27 +11,33 @@ type: note
 ---
 
 ### 概述
+
 GPT-5-mini 与 GPT-4.1 同属 OpenAI 产品序列，其中 GPT-5-mini 是侧重复杂推理的 GPT-5 精简版本，而 GPT-4.1 则是专注响应速度的非推理优化模型。GPT-5-mini 在需要深度分析的复杂任务中表现卓越，但代价是更高延迟和潜在成本；GPT-4.1 则优先保证轻量交互的响应效率。下文将基于现有基准测试、定价策略和功能特性进行详细对比。**所有对比数据均来自相关技术讨论**。[1][2][3][4][5]
 
 ### 智能与性能
+
 - **推理深度**：GPT-5-mini 搭载高级推理模式（如应对复杂任务的高阶模式），支持多跳逻辑、分步分析与自主任务执行。在 SWE-bench Verified（74.9% 通过率 vs 54.6%）和 Aider 多语言代码编辑（88% 通过率 vs ~52%）等基准测试中均优于 GPT-4.1。在智能体任务中，GPT-5-mini 能持续保持上下文连贯，而 GPT-4.1 可能需更多用户提示。**GPT-5 的推理稳定性使其在规划与执行中更具主动性**。[3][4][6]
 - **编程与数学**：GPT-5-mini 更擅长处理真实代码库、调试及多语言编辑，在数学推理（如 AIME 基准）中得分更高。GPT-4.1 虽擅长基础编程，但缺乏独立生成解决方案的深度。**GPT-5-mini 生成可用代码补丁的可靠性更胜一筹**。[3][4]
 - **其他能力（如幻觉控制、语言任务）**：GPT-5-mini 在任务中减少混淆中断频率，两者在通用语言任务中均表现熟练，但 GPT-5-mini 在分析型企业级应用中优势明显。**针对复杂提示，GPT-5-mini 的幻觉率更低**。[3][4]
 
 ### 价格与成本效益
+
 - **输入令牌**：GPT-5-mini 每百万令牌收费 0.25 美元，GPT-4.1 为 2 美元（输入成本降低约 8 倍）。GPT-4.1 mini 比 GPT-5-mini 贵约 1.6 倍。**尽管推理模式可能增加令牌消耗，GPT-5-mini 在成本效益写作场景中价值更高**。[5][7][8]
 - **输出令牌**：GPT-5-mini 每百万令牌收费 2 美元，GPT-4.1 为 8 美元（输出成本降低约 4 倍）。GPT-4.1 mini 输出成本比 GPT-5-mini 低 0.8 倍，但整体平衡使用仍属 GPT-5-mini 更经济。**因推理产生的令牌消耗可能达 100 倍，会部分抵消成本优势**。[3][5][7][8]
 - **总成本权衡**：GPT-4.1 在高频简单任务中凭借速度优势实现更低单次查询成本；GPT-5-mini 适用于精度优先场景，Azure 定价随用量浮动。**另有 -nano 等变体满足进一步成本优化**。[3][5]
 
 ### 速度与延迟
+
 - **响应时间**：GPT-4.1 具备更低延迟（首令牌约 720ms），适合需要瞬时响应的交互场景。GPT-5-mini 因推理深度导致较高延迟（约 1000ms），不推荐用于实时语音助手等应用。**即使在最小推理模式下，GPT-5-mini 仍存在轻微延迟**。[3][4]
 - **吞吐量与优化**：GPT-4.1 在高吞吐场景（如聊天机器人）中表现优异，能快速生成简洁回复。GPT-5-mini 在处理复杂任务时可能产生卡顿，但能提供更深度、更完整的输出。**GPT-4.1 为速度优化，GPT-5-mini 则精度优先于即时性**。[1][3]
 
 ### 上下文窗口与功能
+
 - **上下文窗口**：GPT-5-mini 支持最高 40 万输入令牌（27.2 万输入/12.8 万输出）；GPT-4.1 支持 12.8 万短上下文或最高 100 万长上下文模式。**GPT-4.1 在超长对话场景中具备更大容量优势**。[3][6]
 - **输出长度与视角**：GPT-5-mini 支持结构化分析型输出；GPT-4.1 专注于简洁的对话式回复。**各变体均提供涡轮模式满足定制需求**。[3][1]
 
 ### 适用场景与最佳匹配
+
 - **GPT-5-Mini 适用**：复杂推理、代码生成/审查、智能体工具调用、商业研究、多步骤任务。适合需要高级编程或数学解决方案的开发人员。**在企业级深度应用场景中价值显著**。[3][4]
 - **GPT-4.1 适用**：实时对话、客户支持、轻量摘要、简短查询、高并发部署。更适配直播互动等低延迟需求。**GPT-4.1 变体（如 mini）适合成本敏感型简单工作负载**。[3][4][5]
 - **权衡示例**：GPT-5-mini 因“更智能且更经济”被推荐用于成本效益写作，而 GPT-4.1 在即时反馈场景中胜出。**Azure 提供 GPT-5-nano、GPT-4.1-mini 等变体支持精准部署**。[3][7]
@@ -51,11 +57,11 @@ GPT-5-mini 与 GPT-4.1 同属 OpenAI 产品序列，其中 GPT-5-mini 是侧重�
 本对比基于截至 2025 年 9 月的当前数据，模型细节可能持续演进。具体实施请参阅 OpenAI API 或 Azure AI Foundry 技术文档。[2][3]
 
 引用来源：
-[1] https://artificialanalysis.ai/models/comparisons/gpt-5-mini-vs-gpt-4-1
-[2] https://platform.openai.com/docs/models/compare?model=gpt-4-1-mini
-[3] https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/how-to/model-choice-guide
-[4] https://medium.com/@leucopsis/how-gpt-5-compares-to-gpt-4-1-21fad92c2a3a
-[5] https://blog.galaxy.ai/compare/gpt-4-1-mini-vs-gpt-5-mini
-[6] https://llm-stats.com/models/compare/gpt-4-1-2025-04-14-vs-gpt-5-mini-2025-08-07
-[7] https://www.reddit.com/r/ChatGPTPro/comments/1mq5qu0/gpt_41_mini_vs_5_mini_for_cost_effective_writing/
-[8] https://community.openai.com/t/gpt-5-100x-token-usage-compared-to-gpt-4-1/1345419
+[1] <https://artificialanalysis.ai/models/comparisons/gpt-5-mini-vs-gpt-4-1>
+[2] <https://platform.openai.com/docs/models/compare?model=gpt-4-1-mini>
+[3] <https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/how-to/model-choice-guide>
+[4] <https://medium.com/@leucopsis/how-gpt-5-compares-to-gpt-4-1-21fad92c2a3a>
+[5] <https://blog.galaxy.ai/compare/gpt-4-1-mini-vs-gpt-5-mini>
+[6] <https://llm-stats.com/models/compare/gpt-4-1-2025-04-14-vs-gpt-5-mini-2025-08-07>
+[7] <https://www.reddit.com/r/ChatGPTPro/comments/1mq5qu0/gpt_41_mini_vs_5_mini_for_cost_effective_writing/>
+[8] <https://community.openai.com/t/gpt-5-100x-token-usage-compared-to-gpt-4-1/1345419>

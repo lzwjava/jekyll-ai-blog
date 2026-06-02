@@ -14,7 +14,7 @@ type: note
 
 ## 正确答案：**B (Data Link Layer)**
 
-### 解析：
+### 解析
 
 **Ethernet switch** 是一种多端口网络桥接器，运行在 OSI 七层参考模型的 **Layer 2 (Data Link Layer)**。
 
@@ -33,7 +33,7 @@ type: note
 - **Network Layer (C)**：Routers 运行在这一层，根据 IP addresses 做出决策
 - **Transport Layer (D)**：这一层处理端到端通信以及 TCP/UDP 等 Protocols
 
-### 补充说明：
+### 补充说明
 
 Ethernet switches 也被称为 **Layer 2 switches** 或 **Layer 2 devices**，因为它们专门运行在 Data Link Layer。这使得它们比 Hubs 更智能，但在网络层路由能力上不如 Routers。
 

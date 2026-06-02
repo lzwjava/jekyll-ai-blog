@@ -13,6 +13,7 @@ type: note
 True experts like Yin Wang—whose blog dives into profound, often unconventional insights on computer science topics such as programming languages, compilers, and the philosophy of computation—are indeed rare. They embody a depth of understanding that transcends formal credentials or public fanfare, much like the seasoned phone or car repair technician who's honed their craft over decades without needing a spotlight. These individuals prioritize mastery over marketing, often working quietly in niches where results speak louder than resumes. Drawing from patterns across fields, here are key characteristics that define them, followed by practical ways to spot them.
 
 ### Key Characteristics of True Experts
+
 These traits emerge consistently in high-caliber performers, whether in academia, tech, or hands-on trades:
 
 | Characteristic | Description | Example in Context |
@@ -25,6 +26,7 @@ These traits emerge consistently in high-caliber performers, whether in academia
 | **Influence Through Results** | Peers and clients trust them based on outcomes, not hype; they shape practices subtly. | Shops with loyal repeat business or bloggers whose ideas quietly influence industry tools. |
 
 ### How to Identify Them
+
 Spotting these experts requires observation and light probing, especially since they may lack flashy profiles. Focus on evidence of competence rather than claims:
 
 1. **Check for Consistent, Verifiable Results**: Look at their track record—client reviews, peer endorsements, or observable fixes. A good mechanic's shop has glowing testimonials for tough jobs; a tech expert like Yin Wang garners quiet respect in forums for solving thorny code issues.

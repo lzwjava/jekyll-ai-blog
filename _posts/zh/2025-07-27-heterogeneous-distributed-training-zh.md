@@ -13,9 +13,11 @@ type: note
 尽管如此，你可以使用像 Ray 这样的高级编排库来实现分布式训练，它抽象了硬件差异。其他选项如 Dask 或自定义框架也存在，但在深度学习方面功能较为有限。下面我将概述可行性、推荐方法和替代方案。
 
 ### 推荐方法：使用 Ray 进行分布式训练
+
 Ray 是一个基于 Python 的分布式计算框架，它与硬件无关，支持在混合机器（例如，macOS on Apple Silicon 和 Windows/Linux on NVIDIA）上扩展 ML 工作负载。它可以在两个平台上安装，并通过在每个机器的可用硬件（Mac 上的 MPS，台式机上的 CUDA）上运行任务来处理异构加速器。
 
 #### 工作原理
+
 - **设置**：通过 pip 在两台机器上安装 Ray（`pip install "ray[default,train]"`）。启动一个 Ray 集群：一台机器作为头节点（例如你的台式机），并通过网络将 Mac 连接为工作节点。Ray 通过自己的协议处理通信。
 - **训练模式**：使用 Ray Train 来扩展像 PyTorch 或 TensorFlow 这样的框架。对于异构设置：
   - 采用“参数服务器”架构：一个中央协调器（在一台机器上）管理模型权重。
@@ -36,18 +38,22 @@ Ray 是一个基于 Python 的分布式计算框架，它与硬件无关，支�
 一个名为 "distributed-hetero-ml" 的框架提供了实际示例和代码，它简化了异构硬件的处理。
 
 #### 为什么 Ray 适合你的设置
+
 - 跨平台：适用于 macOS（Apple Silicon）、Windows 和 Linux。
 - 与 PyTorch 集成：使用 Ray Train 来扩展你现有的代码。
 - 不需要相同的硬件：它在 Mac 上检测并使用 MPS，在台式机上使用 CUDA。
 
 ### 替代方案：使用 Dask 进行分布式工作负载
+
 Dask 是另一个用于并行计算的 Python 库，适用于分布式数据处理和一些 ML 任务（例如通过 Dask-ML 或 XGBoost）。
+
 - **方法**：设置一个 Dask 集群（一个调度器在你的台式机上，工作器在两台机器上）。在 NVIDIA 端使用像 CuPy/RAPIDS 这样的库进行 GPU 加速，在 Mac 上回退到 CPU/MPS。
 - **用例**：适用于集成方法、超参数搜索或 scikit-learn 风格的模型。对于深度学习，可以与 PyTorch/TensorFlow 配对使用，但同步是手动的，并且效率低于 Ray。
 - **限制**：未针对同步深度学习训练进行优化（例如没有内置参数服务器）；更适合易并行任务。GPU 支持在 NVIDIA 上需要 CUDA，但 Mac 将使用 CPU 或有限的 MPS 集成。
 - **设置**：`pip install dask distributed`，然后启动集群并提交作业。
 
 ### 其他选项和注意事项
+
 - **Horovod**：这个分布式训练包装器（用于 PyTorch/TensorFlow）可以安装在 macOS 上，但缺乏明确的 MPS 支持。它可以使用 Gloo 或 MPI 进行通信（跨平台），但在 Mac 上没有 NCCL 的情况下效率会下降。对于你的具体混合配置是可能的但未经测试——如果 Ray 不合适可以尝试它。
 - **自定义框架**：像 HetSeq 这样的工具允许异构 GPU 训练，但它们主要针对混合 NVIDIA/AMD，而不是 Apple Silicon + CUDA。
 - **所有方案的挑战**：

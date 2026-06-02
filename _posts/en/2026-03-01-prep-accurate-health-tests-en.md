@@ -16,6 +16,7 @@ Answer:
 These recommendations are common for a **routine health checkup** (especially one including **blood tests** like lipid profile, glucose, etc.) to ensure the most **accurate results**.
 
 ### 1. Not eating after evening (fasting overnight)
+
 Many blood tests require **fasting** for 8–12 hours (often from after dinner until the morning appointment).
 Eating food — especially in the evening or night — affects key measurements because nutrients get absorbed into your bloodstream:
 
@@ -29,6 +30,7 @@ By not eating after evening and scheduling the checkup early morning, most of th
 Drinking anything except plain water (no coffee, tea, juice, milk, soda, etc.) is also usually required because these can contain calories, caffeine, or sugars that interfere with results. Plain water is allowed and even encouraged (it keeps you hydrated and makes veins easier to draw blood from).
 
 ### 2. Good sleep the night before
+
 Good sleep helps in several ways during a health checkup:
 
 - **More accurate vital signs**: Poor sleep or sleep deprivation can temporarily raise **blood pressure**, **heart rate**, and stress hormones (like cortisol), which may give misleading readings during the physical exam or measurements.
@@ -36,6 +38,7 @@ Good sleep helps in several ways during a health checkup:
 - **Mental clarity and cooperation**: You feel more alert, which helps during any questionnaires, physical exams, or procedures (like ECG, ultrasound, etc.).
 
 In short:
+
 - **No food/drink after evening** → Gives clean, fasting-state blood results (especially for sugar, fats, and related markers).
 - **Good sleep** → Helps keep blood pressure, heart rate, and metabolic markers closer to your normal baseline and improves how you feel during the visit.
 

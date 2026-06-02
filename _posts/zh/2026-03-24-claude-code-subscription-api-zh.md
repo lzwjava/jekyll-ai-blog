@@ -56,6 +56,7 @@ export AWS_REGION=us-east-1
 Bedrock 采用按量计费 (pay-as-you-go) —— 无席位费，无合同。你直接向 AWS 支付每 token 的价格。没有单独的 Anthropic 账单。
 
 Bedrock 的主要优势包括：
+
 - 统一计费：Claude Code 的使用情况将与 EC2、S3 等其他服务一起出现在你的 AWS 账单中。无需单独的供应商关系或支付方式。
 - 集中访问控制：开发人员使用现有的 AWS IAM 或 IAM Identity Center (SSO) 进行身份验证，而无需管理单独的 API keys。
 

@@ -18,6 +18,7 @@ type: note
 
 开放端口
 ----------
+
 65535个端口中仅开放1个：
 
   22/tcp  SSH  OpenSSH 9.6p1 Ubuntu 3ubuntu13.14
@@ -34,7 +35,7 @@ SSH配置分析
   ✓ 强加密算法：chacha20-poly1305、aes256-gcm（无CBC模式）
   ✓ 强MAC：优先使用所有ETM变体（加密后MAC）
   ✓ ED25519 + ECDSA主机密钥（无RSA密钥 — 良好）
-  ✓ kex-strict-s-v00@openssh.com（Terrapin攻击缓解）
+  ✓ <kex-strict-s-v00@openssh.com>（Terrapin攻击缓解）
   ✓ 不支持SSHv1
   ✓ zlib压缩仅在请求时启用（非强制）
 
@@ -44,7 +45,7 @@ SSH配置分析
   ⚠ ecdh-sha2-nistp256/384/521 仍被提供
     — 在某些威胁模型中，NIST曲线存在信任问题
     — curve25519 是首选，因此实际风险较低
-  ⚠ zlib@openssh.com 压缩已启用
+  ⚠ <zlib@openssh.com> 压缩已启用
     — 压缩可能通过压缩比攻击泄露信息（类似CRIME/BREACH）。如不需要，建议禁用。
 
 ============================================================
@@ -64,8 +65,9 @@ SSH配置分析
   缓解措施：升级到OpenSSH 9.8p1+ 或应用Ubuntu补丁。
 
 低 — OpenSSH 9.6 存在其他几个低严重性问题：
-  - CVE-2023-48795 (Terrapin)：已通过 kex-strict-s-v00@openssh.com 缓解 ✓
-  - CVE-2023-51385：通过包含主机名展开的ProxyCommand进行OS命令注入。
+
+- CVE-2023-48795 (Terrapin)：已通过 <kex-strict-s-v00@openssh.com> 缓解 ✓
+- CVE-2023-51385：通过包含主机名展开的ProxyCommand进行OS命令注入。
     仅在你使用用户可控主机名的ProxyCommand时相关。
 
 ============================================================
@@ -93,7 +95,7 @@ SSH配置分析
    sudo systemctl enable fail2ban
 
 3. 在 /etc/ssh/sshd_config 中禁用弱MAC算法：
-   MACs hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,umac-128-etm@openssh.com
+   MACs <hmac-sha2-256-etm@openssh.com>,<hmac-sha2-512-etm@openssh.com>,<umac-128-etm@openssh.com>
 
 4. 如果不需要，禁用压缩：
    Compression no

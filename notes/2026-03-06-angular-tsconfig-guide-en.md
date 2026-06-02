@@ -34,6 +34,7 @@ When you generate a new Angular project with the CLI, you typically get **three 
 A `tsconfig.json` file can inherit configurations from another file using the `extends` property. The `extends` is a top-level property (alongside `compilerOptions`, `files`, `include`, and `exclude`). Its value is a string containing a path to another configuration file to inherit from. The configuration from the base file is loaded first, then overridden by those in the inheriting config file.
 
 For example, `tsconfig.app.json` typically looks like:
+
 ```json
 {
   "extends": "./tsconfig.json",
@@ -94,6 +95,7 @@ The `include` property is an array of file globs that should be included in the 
 The `exclude` option only changes which files are included as a result of the `include` setting. A file specified in `exclude` can still become part of your codebase due to an import statement in your code. It is not a mechanism that prevents a file from being included — it simply changes what the `include` setting finds.
 
 Example:
+
 ```json
 "include": ["src/**/*.ts"],
 "exclude": ["node_modules", "dist", "e2e"]

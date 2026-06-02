@@ -12,11 +12,13 @@ type: note
 All synced and verified. Here's the summary:
 
 **Synced to lzw@192.168.1.36:**
+
 - `~/.hermes/plugins/note/__init__.py` — plugin code
 - `~/.hermes/plugins/note/plugin.yaml` — manifest
 - `~/.hermes/config.yaml` — with `note` in `plugins.enabled`
 
 **Verified on remote:**
+
 - `ww` package importable (create_note_from_content exists)
 - Plugin files loadable
 - Config has `plugins.enabled: [note]`

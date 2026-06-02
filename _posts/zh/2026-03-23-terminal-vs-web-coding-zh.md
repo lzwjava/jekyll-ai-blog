@@ -45,6 +45,7 @@ Terminal 编码工具（如 Claude Code）在系统 Prompt 下运行，其核心
 - 它们将 Web/通用查询和本地项目查询视为**不同的模式（modes）**，而不是默认将所有内容都投入项目上下文模式
 
 这使得它们在混合工作流中效率更高，例如在以下问题间切换时：
+
 - "What does this function do?" *(需要本地上下文)*
 - "Who founded Anthropic?" *(Web/通用知识，不需要本地上下文)*
 

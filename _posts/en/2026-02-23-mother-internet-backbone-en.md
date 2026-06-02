@@ -26,9 +26,9 @@ Radia Perlman is an American computer programmer and network engineer often hail
 
 - **The Problem of Loops**: In the early 1980s, Perlman was working as a consulting engineer at **Digital Equipment Corporation (DEC)** . The challenge was to build reliable networks with redundancy. If one path failed, another could take over. However, in the Ethernet technology of the time, these redundant paths created "loops." Data packets would be forwarded endlessly, causing the network to collapse in a broadcast storm .
 - **The Elegant Solution**: In 1984, Perlman invented the **Spanning Tree Protocol (STP)** to solve this . Her algorithm cleverly turned a physical network with potential loops into a logical tree-like structure with a single active path between any two points. It worked by having network bridges communicate to:
-    1.  Elect a single "root bridge" as the reference point.
-    2.  Calculate the shortest path from every other bridge to that root.
-    3.  Automatically **disable any redundant paths** that were not part of this shortest-path tree, thereby eliminating loops while keeping them available as backups .
+    1. Elect a single "root bridge" as the reference point.
+    2. Calculate the shortest path from every other bridge to that root.
+    3. Automatically **disable any redundant paths** that were not part of this shortest-path tree, thereby eliminating loops while keeping them available as backups .
 - **A Standard is Born**: This protocol allowed networks to have redundancy for reliability without the risk of catastrophic failure. It was later standardized by the **Institute of Electrical and Electronics Engineers (IEEE) as 802.1D**, becoming a cornerstone of Ethernet networking .
 - **A Poetic Touch**: Characteristically, Perlman published a poem alongside her technical paper to explain STP, which she called 'Algorhyme' :
 
@@ -49,10 +49,10 @@ Perlman's genius was not a one-time event. She has made foundational contributio
 - **Career Path**: Over her long career, Perlman has held influential positions at major technology companies, including **DEC, Novell, Sun Microsystems, and Intel** . As of 2022, she is a Fellow at **Dell Technologies** .
 - **Author and Educator**: She is the author of the highly respected networking textbook **"Interconnections: Bridges, Routers, Switches, and Internetworking Protocols"** and co-author of the popular security textbook **"Network Security: Private Communication in a Public World"** . She has also taught courses at prestigious universities like Harvard, MIT, and the University of Washington .
 - **Patents and Honors**: Perlman holds **over 100 U.S. patents** . Her groundbreaking work has been recognized with numerous prestigious awards, including:
-    - Election to the **National Academy of Engineering** (2019) .
-    - Induction into the **Internet Hall of Fame** (2014) .
-    - Induction into the **National Inventors Hall of Fame** (2016) .
-    - Lifetime Achievement Awards from **USENIX** (2006) and **ACM SIGCOMM** (2010) .
+  - Election to the **National Academy of Engineering** (2019) .
+  - Induction into the **Internet Hall of Fame** (2014) .
+  - Induction into the **National Inventors Hall of Fame** (2016) .
+  - Lifetime Achievement Awards from **USENIX** (2006) and **ACM SIGCOMM** (2010) .
 
 ### 🤔 A Legacy of Humility
 

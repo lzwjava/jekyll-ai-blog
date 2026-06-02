@@ -17,11 +17,13 @@ Java provides extensive command-line options to control the JVM's behavior. Here
 The `-D` flag sets system properties that your application can access at runtime.
 
 **Syntax:**
+
 ```bash
 java -Dkey=value -Dkey2=value2 YourClass
 ```
 
 **Common examples:**
+
 ```bash
 # Set custom application properties
 java -Dapp.environment=production -Dapp.port=8080 MyApp
@@ -37,6 +39,7 @@ java -Djava.io.tmpdir=/custom/temp MyApp
 ```
 
 **Accessing in code:**
+
 ```java
 String env = System.getProperty("app.environment");
 String port = System.getProperty("app.port", "8080"); // with default
@@ -47,6 +50,7 @@ String port = System.getProperty("app.port", "8080"); // with default
 Memory settings control heap and non-heap memory allocation.
 
 **Heap Memory:**
+
 ```bash
 # Initial heap size
 -Xms512m          # Start with 512 MB
@@ -61,6 +65,7 @@ java -Xms1g -Xmx4g MyApp
 ```
 
 **Other Memory Options:**
+
 ```bash
 # Metaspace (class metadata, replaced PermGen in Java 8+)
 -XX:MetaspaceSize=128m
@@ -74,6 +79,7 @@ java -Xms1g -Xmx4g MyApp
 ```
 
 **Practical example:**
+
 ```bash
 java -Xms2g -Xmx8g -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
      -Xss1m MyLargeApplication
@@ -84,6 +90,7 @@ java -Xms2g -Xmx8g -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
 Control GC behavior and logging.
 
 **GC Algorithm Selection:**
+
 ```bash
 # G1 GC (default in Java 9+, good general purpose)
 -XX:+UseG1GC
@@ -99,6 +106,7 @@ Control GC behavior and logging.
 ```
 
 **GC Tuning:**
+
 ```bash
 # G1 GC specific
 -XX:MaxGCPauseMillis=200        # Target pause time
@@ -113,6 +121,7 @@ Control GC behavior and logging.
 ### GC Logging
 
 **Java 8 and earlier:**
+
 ```bash
 java -Xloggc:/path/to/gc.log \
      -XX:+PrintGCDetails \
@@ -125,6 +134,7 @@ java -Xloggc:/path/to/gc.log \
 ```
 
 **Java 9+ (Unified Logging):**
+
 ```bash
 java -Xlog:gc*:file=/path/to/gc.log:time,level,tags \
      -Xlog:gc*=info:file=/path/to/gc.log:time,uptimemillis:filecount=10,filesize=100m \

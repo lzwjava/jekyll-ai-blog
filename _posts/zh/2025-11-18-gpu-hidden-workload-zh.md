@@ -30,6 +30,7 @@ type: note
 | 浏览器游戏与网页应用  | Canva、Figma、网页版 Photoshop、Google Earth      | 全部通过 WebGL/WebGPU 渲染                              |
 
 ### 彩蛋：这些场景也大量使用 GPU（可能被你忽略了）
+
 - Windows 11 / macOS 系统动画（毛玻璃、亚克力效果、窗口贴靠）
 - 多台 4K/8K 显示器同时工作（仅驱动像素就需要 GPU 性能）
 - 全盘杀毒扫描（部分如 Windows Defender 现使用 GPU 进行机器学习检测）

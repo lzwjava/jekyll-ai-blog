@@ -37,16 +37,19 @@ Training is healthy. Quick status:
 **Don't end early under normal circumstances.** The cosine LR schedule decays from 4e-4 → 4e-5 over all 8,000 iters; cutting short means the last fraction of training never gets the low-LR refinement that locks in final loss.
 
 **Signals it's healthy — let it run:**
+
 - val loss at iter 250 < ~7 (down from 10.99)
 - val loss at iter 1000 in the 5–6 range
 - val loss monotonically decreasing every checkpoint
 
 **Signals to investigate (not panic-stop):**
+
 - val loss > train loss by a wide margin → data issue
 - loss spike or NaN → grad explosion (rare; grad_clip=1.0 should catch it)
 - val loss plateaus for 3+ consecutive evals (~750 iters) at any value > 3.5 → optimization stuck
 
 **Reasonable early-stop:**
+
 - If val loss reaches ~2.95 before iter 6000, you *could* stop — you're close to the model's capacity anyway. But the last 25% of training typically buys an extra ~0.05 loss, so I'd still let it finish.
 
 Want me to set up a background watcher that pings you when iter 250 hits (first real signal) and at each subsequent val checkpoint? Or just check in periodically when you ask?

@@ -21,6 +21,7 @@ Let me break it down in detail.
 ---
 
 ### 1. Code reasoning & execution
+
 Claude (and other frontier LLMs) don’t actually *execute* code directly inside the model—they **simulate code reasoning** by predicting tokens of code or logic steps.
 
 - In **normal text mode**, Claude can "write" code by continuing a pattern, but it doesn’t internally run it.
@@ -33,6 +34,7 @@ So the intelligence is in the loop: LLM generates → external runner executes �
 ---
 
 ### 2. JSON schema checking
+
 Many APIs (Claude, OpenAI, etc) now support **structured output mode**, where you can attach a JSON schema. Here’s how it works internally:
 
 - You pass a **JSON schema definition** with your request.
@@ -45,6 +47,7 @@ This ensures the output is syntactically and semantically correct JSON, which is
 ---
 
 ### 3. Tool-use & routing
+
 Tool-use is handled via something like a **router layer** between the LLM and a tool execution environment:
 
 - **Routing logic**: The model is prompted to *decide which tool to call* (or to respond directly).
@@ -53,12 +56,14 @@ Tool-use is handled via something like a **router layer** between the LLM and a 
 - **Chained reasoning (ReAct-style)**: The LLM “thinks aloud” (might produce reasoning steps hidden from user), then issues tool calls when necessary, progressively arriving at a final answer.
 
 For example:
+
 ```json
 {
   "tool": "web_search",
   "query": "latest research on quantum error correction"
 }
 ```
+
 → Router sees `"tool": "web_search"`, validates schema, runs web search, puts results back into model’s context, and the model continues reasoning.
 
 Anthropic’s Claude, OpenAI’s GPTs, LangChain, and others all support this pattern.
@@ -66,6 +71,7 @@ Anthropic’s Claude, OpenAI’s GPTs, LangChain, and others all support this pa
 ---
 
 ### 🔑 Summary
+
 - **Claude code**: Doesn’t run code internally; generates code → sandbox executes → results returned → iterative reasoning.
 - **JSON schema checking**: Uses constrained decoding / schema validation to ensure valid structured output.
 - **Tool use routing**: LLM selects tool calls in JSON, orchestration engine validates & executes them, feeds results back in loop.

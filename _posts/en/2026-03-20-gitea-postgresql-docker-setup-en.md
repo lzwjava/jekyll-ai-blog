@@ -52,6 +52,7 @@ sudo apt install -y postgresql postgresql-contrib
 ```
 
 This installs PostgreSQL 16 (ships with Ubuntu 24.04). It auto-creates:
+
 - A `postgres` superuser (OS user + DB role)
 - A default `main` cluster on port **5433** (not 5432 — port 5432 had a stale/broken cluster from a previous install)
 
@@ -96,6 +97,7 @@ host gitea gitea 172.16.0.0/12 scram-sha-256
 | `scram-sha-256` | Modern password auth (not the old `md5`) |
 
 After editing, we restarted PostgreSQL:
+
 ```bash
 sudo systemctl restart postgresql@16-main
 ```

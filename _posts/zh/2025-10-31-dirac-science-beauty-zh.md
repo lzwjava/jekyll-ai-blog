@@ -28,6 +28,7 @@ type: note
 这些论述折射出狄拉克对数学美学的执着、对宗教的审慎态度，以及对人类探索活动中诗意对照的洞察。
 
 ### 参考文献
+
 - [保罗·狄拉克 - 维基语录](https://en.wikiquote.org/wiki/Paul_Dirac)
 - [狄拉克名言集 - 圣安德鲁斯大学数学史](https://mathshistory.st-andrews.ac.uk/Biographies/Dirac/quotations/)
 - [保罗·狄拉克25大名言 - A-Z语录](https://www.azquotes.com/author/3996-Paul_Dirac)

@@ -17,6 +17,7 @@ type: note
 下面是**常用的Cisco交换机命令**的分类列表，包括其用途和示例。这些对于配置、监控和故障排除至关重要。
 
 ### CLI 模式
+
 - `enable` — 进入特权EXEC模式（从用户EXEC模式）。
 - `configure terminal` (或 `conf t`) — 进入全局配置模式。
 - `exit` or `end` — 退出当前模式。
@@ -24,6 +25,7 @@ type: note
 - `interface range <range>` (例如，`interface range Gi1/0/1 - 24`) — 同时配置多个端口。
 
 ### 基本配置和管理
+
 - `hostname <name>` — 设置交换机主机名。
 - `enable secret <password>` — 设置加密的特权模式密码。
 - `line console 0` → `password <pass>` → `login` — 保护控制台访问。
@@ -33,11 +35,13 @@ type: note
 - `ip default-gateway <ip>` — 设置管理默认网关（二层交换机）。
 
 ### 管理IP（用于远程访问）
+
 - `interface vlan 1` (或其他VLAN)
 - `ip address <ip> <mask>`
 - `no shutdown`
 
 ### VLAN 配置
+
 - `vlan <id>` — 创建VLAN（全局配置）。
 - `name <vlan-name>` — 命名VLAN。
 - `interface <port>` → `switchport mode access` — 将端口设置为接入端口。
@@ -47,6 +51,7 @@ type: note
 - `switchport trunk native vlan <id>` — 设置中继上的本地VLAN。
 
 ### 端口配置和安全
+
 - `interface <port>` → `description <text>` — 添加端口描述。
 - `interface <port>` → `shutdown` / `no shutdown` — 禁用/启用端口。
 - `interface <port>` → `switchport port-security maximum <num>` — 限制MAC地址数量。
@@ -54,6 +59,7 @@ type: note
 - `switchport port-security mac-address sticky` — 动态学习MAC地址。
 
 ### 监控和显示命令
+
 - `show running-config` (或 `sh run`) — 显示当前配置。
 - `show startup-config` — 显示已保存的配置。
 - `show vlan brief` — 列出VLAN和分配的端口。
@@ -65,6 +71,7 @@ type: note
 - `show spanning-tree` — 生成树协议状态。
 
 ### 保存和其他实用程序
+
 - `copy running-config startup-config` (或 `wr`) — 保存配置。
 - `reload` — 重启交换机。
 - `ping <ip>` — 测试连接。

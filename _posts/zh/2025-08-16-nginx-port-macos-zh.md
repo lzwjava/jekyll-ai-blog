@@ -26,6 +26,7 @@ type: note
   ```
   /opt/homebrew/etc/nginx/nginx.conf
   ```
+
 * 如果手动安装，可能位于 `/usr/local/nginx/conf/nginx.conf`。
 
 ---
@@ -37,6 +38,7 @@ type: note
    ```bash
    nano /opt/homebrew/etc/nginx/nginx.conf
    ```
+
 2. 找到 `server` 块：
 
    ```nginx
@@ -50,6 +52,7 @@ type: note
        }
    }
    ```
+
 3. 将 `listen 80;` 更改为你想要的端口，例如 8080：
 
    ```nginx

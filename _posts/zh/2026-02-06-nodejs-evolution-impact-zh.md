@@ -17,6 +17,7 @@ Node.js 通过将 JavaScript 引入服务端，从根本上改变了开发者构
 Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 上首次亮相。Dahl 对 Apache HTTP Server 在处理并发连接方面的限制感到沮丧，并在 Google 新发布的 V8 JavaScript engine (2008) 中看到了机会。他的核心洞察是利用 JavaScript 的 event-driven、non-blocking I/O 模型来高效处理数千个并发连接。
 
 最初的设计原则是：
+
 - Non-blocking、event-driven I/O 以最大化吞吐量
 - 服务端 JavaScript（利用 V8 的性能）
 - 一个极简的核心，功能由 userland 模块提供
@@ -44,6 +45,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 **核心特征：** 实验阶段，快速迭代，破坏性变更（breaking changes）常见
 
 **显著特性：**
+
 - V8、event loop 和核心 API 的初始实现
 - 引入 npm
 - CommonJS 模块系统
@@ -57,6 +59,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 **重聚版本** —— io.js 合并后的第一个版本
 
 **重大变更：**
+
 - 结合了 io.js 的改进与 Node.js 的稳定性
 - ES6 特性：arrow functions、classes、template literals、`let`/`const`、Promises
 - V8 4.5 引擎带来了显著的性能提升
@@ -69,6 +72,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v6.x LTS (2016年4月)
 
 **重大变更：**
+
 - V8 5.0 实现了 93% 的 ES6 特性覆盖
 - 默认使用 ES6 特性而无需 flag 标志
 - 使用 V8 Inspector 改进了调试功能
@@ -82,6 +86,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v8.x LTS (2017年5月)
 
 **重大变更：**
+
 - V8 5.8 及后来的 6.1 版本引入了 TurboFan + Ignition 编译器流水线（重大的性能飞跃）
 - 原生 async/await 支持（无需 transpilation）
 - `util.promisify()` 用于将基于 callback 的 API 转换为 Promises
@@ -95,6 +100,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v10.x LTS (2018年4月)
 
 **重大变更：**
+
 - V8 6.6 提供了 ES modules 的实验性支持
 - 原生 HTTP/2（稳定版）
 - `fs` promises API（实验性）
@@ -109,6 +115,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v12.x LTS (2019年4月)
 
 **重大变更：**
+
 - V8 7.4 带来了 async stack traces、更快的 async/await 和更好的内存利用率
 - ES modules 支持（移除 flag 但仍为实验性）
 - Private class fields（私有类字段）
@@ -124,6 +131,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v14.x LTS (2020年4月)
 
 **重大变更：**
+
 - V8 8.1 提升了性能并增强了 WebAssembly
 - Optional chaining (`?.`) 和 nullish coalescing (`??`) 运算符
 - 诊断报告进入稳定版
@@ -139,6 +147,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v16.x LTS (2021年4月)
 
 **重大变更：**
+
 - V8 9.0 提升了 super-property 访问速度
 - Timers Promises API 进入稳定版
 - 实验性 Web Crypto API
@@ -154,6 +163,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v18.x LTS (2022年4月)
 
 **重大变更：**
+
 - V8 10.1 引入了 `findLast`/`findLastIndex` 数组方法
 - **原生 Fetch API**（基础 HTTP 请求不再需要 `node-fetch` 或 `axios`）
 - 原生 Test Runner（实验性 `node:test` 模块）
@@ -169,6 +179,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v20.x LTS (2023年4月)
 
 **重大变更：**
+
 - V8 11.3 带来了新特性和性能改进
 - **稳定的 Test Runner**，包含覆盖率报告、mocking 和 watch mode
 - 权限模型 (Permission Model)（实验性），用于限制文件系统和其他操作
@@ -184,6 +195,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v21.x (2023年10月) - 非 LTS
 
 **重大变更：**
+
 - V8 11.8 引入了数组分组方法
 - fetch 和 WebStreams 进入稳定版
 - navigator 和 WebCrypto 全局变量
@@ -194,6 +206,7 @@ Node.js 由 **Ryan Dahl** 创建，并于 2009 年 11 月在首届欧洲 JSConf 
 ## Node.js v22.x (2024年4月) - 当前版本
 
 **重大变更：**
+
 - V8 12.4 支持 WebAssembly 垃圾回收
 - **稳定的 Watch Mode** 用于开发
 - `require()` 支持 ESM 同步图（实验性）

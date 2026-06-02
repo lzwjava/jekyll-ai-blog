@@ -37,6 +37,7 @@ Every time you try a new tool, you're paying a mental overhead cost — reading 
 **When Does Change Actually Happen?**
 
 Usually one of these forces it:
+
 - A **hard blocker** — the old tool breaks, gets deprecated, or can't do something critical
 - A **gradual parallel use** — using the new tool for small tasks until it becomes familiar
 - A **social nudge** — teammates or the community normalize the new tool

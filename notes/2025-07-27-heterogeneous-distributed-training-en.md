@@ -13,9 +13,11 @@ Yes, you can use Python for distributed training of machine learning models acro
 That said, you can achieve distributed training using higher-level orchestration libraries like Ray, which abstracts away the hardware differences. Other options like Dask or custom frameworks exist but are more limited for deep learning. I'll outline the feasibility, recommended approach, and alternatives below.
 
 ### Recommended Approach: Use Ray for Distributed Training
+
 Ray is a Python-based distributed computing framework that's hardware-agnostic and supports scaling ML workloads across mixed machines (e.g., macOS on Apple Silicon and Windows/Linux on NVIDIA). It installs on both platforms and can handle heterogeneous accelerators by running tasks on each machine's available hardware (MPS on Mac, CUDA on desktop).
 
 #### How It Works
+
 - **Setup**: Install Ray on both machines via pip (`pip install "ray[default,train]"`). Start a Ray cluster: one machine as the head node (e.g., your desktop), and connect the Mac as a worker node over the network. Ray handles communication via its own protocol.
 - **Training Pattern**: Use Ray Train for scaling frameworks like PyTorch or TensorFlow. For heterogeneous setups:
   - Employ a "parameter server" architecture: A central coordinator (on one machine) manages model weights.
@@ -36,18 +38,22 @@ Ray is a Python-based distributed computing framework that's hardware-agnostic a
 A practical example and code are available in a framework called "distributed-hetero-ml", which simplifies this for heterogeneous hardware.
 
 #### Why Ray Fits Your Setup
+
 - Cross-platform: Works on macOS (Apple Silicon), Windows, and Linux.
 - Integrates with PyTorch: Use Ray Train to scale your existing code.
 - No need for identical hardware: It detects and uses MPS on Mac and CUDA on desktop.
 
 ### Alternative: Dask for Distributed Workloads
+
 Dask is another Python library for parallel computing, suitable for distributed data processing and some ML tasks (e.g., via Dask-ML or XGBoost).
+
 - **How**: Set up a Dask cluster (one scheduler on your desktop, workers on both machines). Use libraries like CuPy/RAPIDS on the NVIDIA side for GPU accel, and fall back to CPU/MPS on Mac.
 - **Use Cases**: Good for ensemble methods, hyperparameter search, or scikit-learn-style models. For deep learning, pair with PyTorch/TensorFlow, but sync is manual and less efficient than Ray.
 - **Limitations**: Not optimized for synchronized deep learning training (e.g., no built-in parameter server); better for embarrassingly parallel tasks. GPU support requires CUDA on NVIDIA, but Mac would use CPU or limited MPS integration.
 - **Setup**: `pip install dask distributed`, then start a cluster and submit jobs.
 
 ### Other Options and Considerations
+
 - **Horovod**: This distributed training wrapper (for PyTorch/TensorFlow) installs on macOS, but lacks explicit MPS support. It can use Gloo or MPI for communication (cross-platform), but efficiency drops without NCCL on the Mac. Possible but untested for your exact mix—try it if Ray doesn't fit.
 - **Custom Frameworks**: Tools like HetSeq allow heterogeneous GPU training, but they're geared toward mixed NVIDIA/AMD, not Apple Silicon + CUDA.
 - **Challenges Across All**:

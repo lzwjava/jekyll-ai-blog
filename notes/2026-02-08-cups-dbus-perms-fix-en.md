@@ -27,6 +27,7 @@ This loop started because the original chown -R command you ran on /usr/ (from t
 **Fix steps** (do them in this order)
 
 1. **Stop CUPS immediately** to stop the logging flood and free CPU/disk I/O
+
    ```
    sudo systemctl stop cups
    # or if systemctl doesn't work yet:
@@ -34,6 +35,7 @@ This loop started because the original chown -R command you ran on /usr/ (from t
    ```
 
 2. **Free space right now** (truncate is safer than rm if you want to keep old logs)
+
    ```
    sudo truncate -s 0 /var/log/cups/error_log
    # or delete it:
@@ -43,12 +45,14 @@ This loop started because the original chown -R command you ran on /usr/ (from t
 3. **Fix the permissions on the notifier file**
    The correct permissions are usually **755** (executable by owner, readable/executable by others) and owned by **root:root** (or sometimes daemon:lp / lp:lp on some distros — but root:root is safe and common).
    Run:
+
    ```
    sudo chown root:root /usr/lib/cups/notifier/dbus
    sudo chmod 755 /usr/lib/cups/notifier/dbus
    ```
 
    If the whole notifier directory was affected, also fix it (safe overkill):
+
    ```
    sudo chown -R root:root /usr/lib/cups/notifier
    sudo chmod -R 755 /usr/lib/cups/notifier
@@ -56,34 +60,41 @@ This loop started because the original chown -R command you ran on /usr/ (from t
 
 4. **(Optional but often needed) Clear stuck subscriptions**
    Broken subscriptions can keep retrying even after fix:
+
    ```
    sudo rm -f /etc/cups/subscriptions.conf*
    sudo systemctl restart cups   # or sudo service cups restart
    ```
 
 5. **Restart CUPS and verify**
+
    ```
    sudo systemctl start cups
    sudo systemctl status cups
    ```
 
    Then watch the log briefly:
+
    ```
    tail -f /var/log/cups/error_log
    ```
-   The repeating errors should stop. If printing still doesn't work, go to http://localhost:631 and check/delete problematic printers.
+
+   The repeating errors should stop. If printing still doesn't work, go to <http://localhost:631> and check/delete problematic printers.
 
 **If sudo still doesn't work** (from your earlier chown damage):
 Use the live USB / recovery mode method from before to run these chown/chmod commands as root.
 
 **Prevention / better defaults**
 After recovery, set a less verbose log level in `/etc/cups/cupsd.conf` (or `/etc/cups/cupsd.conf.d/` files):
+
 ```
 LogLevel warn
 ```
+
 Then restart CUPS.
 
 If you don't use printing at all, you can disable CUPS permanently:
+
 ```
 sudo systemctl disable --now cups
 ```

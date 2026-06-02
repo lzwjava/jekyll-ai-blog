@@ -41,6 +41,7 @@ The analogy is clean:
 | Gained hardware-level intuition | Same outcome |
 
 AMD ROCm is actually **less painful** than Ascend adaptation because:
+
 - HIP is syntactically near-identical to CUDA
 - PyTorch ROCm support is solid (MI300X is now a first-class target)
 - Triton works on AMD via the ROCm backend

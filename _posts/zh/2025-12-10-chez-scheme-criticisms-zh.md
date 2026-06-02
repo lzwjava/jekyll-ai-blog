@@ -29,6 +29,7 @@ Chez Scheme是一种高性能的Scheme方言，以其原生代码编译器和速
 这些观点突出了一个矛盾：Chez在基准测试和低级控制方面表现出色，但在可访问性和生态系统支持方面却滞后。如果您正在探索Scheme，将其与Racket结合使用可能会缓解一些问题。
 
 参考文献：
+
 - [Chez Scheme vs Guile Scheme](https://www.reddit.com/r/lisp/comments/r47z2k/chez_scheme_vs_guile_scheme/)
 - [Beautiful Racket: Thoughts on Racket & Chez Scheme](https://beautifulracket.com/appendix/racket-and-chez-scheme.html)
 - [Why is Chez Scheme Fast?](https://www.reddit.com/r/scheme/comments/hgzluo/why_is_chez_scheme_fast/)

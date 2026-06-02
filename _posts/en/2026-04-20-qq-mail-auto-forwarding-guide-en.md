@@ -24,7 +24,7 @@ this option is often **hidden, moved, or only visible in the web desktop version
 
 You need to use **desktop web version**, not app.
 
-### Steps (important details):
+### Steps (important details)
 
 1. Open: [https://mail.qq.com](https://mail.qq.com)
 2. Login
@@ -104,7 +104,7 @@ Since you already enabled:
 
 You can do this:
 
-### In Gmail:
+### In Gmail
 
 1. Settings
 2. Accounts & Import

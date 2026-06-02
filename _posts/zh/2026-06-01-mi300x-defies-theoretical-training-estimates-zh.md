@@ -31,6 +31,7 @@ python3 train.py config/train_fineweb_760m.py
 ```
 
 配置文件：`/root/nanoGPT/config/train_fineweb_760m.py`
+
 - 756.8M 参数，24 层，1536 维度，24 个注意力头
 - batch=32，block=1024，445K 步，14.6B token
 - lr=3e-4，warmup=2K 步，余弦衰减

@@ -117,7 +117,7 @@ Solved: 568, Submissions: 1776
 | 429: Word Transformation | 437: The Tower of Babylon | 438: The Circumference of the Circle |
 | 439: Knight Moves | 440: Eeny Meeny Moo | 441: Lotto |
 | 442: Matrix Chain Multiplication | 443: Humble Numbers | 444: Encoder and Decoder |
-| 445: Marvelous Mazes | 446: Kibbles `n' Bits `n' Bits `n' Bits | 455: Periodic Strings |
+| 445: Marvelous Mazes | 446: Kibbles `n' Bits`n' Bits `n' Bits | 455: Periodic Strings |
 | 457: Linear Cellular Automata | 458: The Decoder | 459: Graph Connectivity |
 | 465: Overflow | 469: Wetlands of Florida | 476: Points in Figures: Rectangles |
 | 477: Points in Figures: Rectangles and Circles | 478: Points in Figures: Rectangles, Circles, Triangles | 481: What Goes Up |

@@ -26,6 +26,7 @@ BCE 是 **BC** ("Before Christ") 在现代宗教中立语境下的对应表达�
 - **CE** = Common Era（公元）
 
 BC 和 BCE 指向相同的年份。例如：
+
 - 500 BC = 500 BCE
 - 44 BC（Julius Caesar 去世的那一年）= 44 BCE
 

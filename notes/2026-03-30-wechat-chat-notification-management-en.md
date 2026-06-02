@@ -30,6 +30,7 @@ Most people know to mute **group chats** because they can flood your notificatio
 You can mute notifications from a specific person so that if they are sending too many messages, you still receive notifications from others. This is the "Mute Notifications" option in the individual chat settings.
 
 Steps:
+
 1. Open the one-on-one chat
 2. Tap the **"..."** (three dots) icon in the top-right corner
 3. Toggle on **"Mute Notifications"**
@@ -49,15 +50,19 @@ This stops pop-up banners and sound alerts from that conversation while the desk
 ## Bonus Tips for Managing Notifications When Busy
 
 ### Use "Do Not Disturb" (Global Mute)
+
 Go to **WeChat → Me → Settings → Do Not Disturb**, then toggle "Do Not Disturb" to block notifications during a set time range. You can silence notifications for all chats while still allowing calls.
 
 ### Use "Alert" Feature for Important Contacts
+
 The "Alert" feature lets you receive a one-time alert when you get the next message from a specific person. You can use this as a reminder when you're expecting an important response from someone in the next 3 hours so you won't miss it. WeChat will trigger an alert for the first message received and then automatically turn the option off.
 
 ### Night Mode
+
 You can select "Night Mode" which turns off all notifications between 22:00 and 08:00. Go to **Me > Settings > Message Notifications > Other Feature Alerts**, and select "Night Mode".
 
 ### Sticky on Top (for priority contacts)
+
 The "Sticky on Top" option ensures a specific chat always appears at the top of your WeChat list. Go into the chat, press the three dots in the top-right corner, and enable "Sticky on Top." This way, even if you mute someone temporarily, you won't lose track of their chat.
 
 ---

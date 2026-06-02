@@ -21,11 +21,12 @@ Great question. Claude Code has several mechanisms for injecting persistent inst
 
 This is the **most recommended and native** way to give Claude Code persistent instructions.
 
-### How it works:
+### How it works
+
 - Claude Code **automatically reads** `CLAUDE.md` at the start of every session
 - You can have multiple `CLAUDE.md` files at different levels
 
-### File locations (all are read, in order):
+### File locations (all are read, in order)
 
 | Location | Scope |
 |---|---|
@@ -33,7 +34,8 @@ This is the **most recommended and native** way to give Claude Code persistent i
 | `<project-root>/CLAUDE.md` | Project-level — applies to this repo |
 | `<subdir>/CLAUDE.md` | Subdirectory-level — applies when working in that folder |
 
-### Example `~/.claude/CLAUDE.md` for your formatting rules:
+### Example `~/.claude/CLAUDE.md` for your formatting rules
+
 ```markdown
 ## Response Format Rules
 
@@ -88,6 +90,7 @@ claude --system-prompt "Always answer in English. Follow this format: ..."
 ```
 
 Or in the SDK:
+
 ```javascript
 const claude = new Anthropic();
 // pass system prompt in your API call
@@ -98,9 +101,11 @@ const claude = new Anthropic();
 ## 5. `/memory` Command (Runtime)
 
 Inside a Claude Code session, you can use:
+
 ```
 /memory
 ```
+
 This lets you **add or edit memory** that persists across sessions — similar to CLAUDE.md but managed interactively.
 
 ---

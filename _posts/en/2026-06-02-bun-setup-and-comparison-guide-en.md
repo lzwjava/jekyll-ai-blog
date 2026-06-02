@@ -18,6 +18,7 @@ type: note
 Bun is an all-in-one JavaScript runtime + package manager + bundler + test runner written in Zig, built on JavaScriptCore (Safari's engine) instead of V8. Key design goals: be fast by default, replace Node.js/npm/webpack/jest in one binary.
 
 **Core components in one binary:**
+
 - Runtime (`bun run`)
 - Package manager (`bun install`, `bun add`)
 - Bundler (`bun build`)
@@ -49,24 +50,29 @@ Bun is an all-in-one JavaScript runtime + package manager + bundler + test runne
 ## Set Custom Registry
 
 ### Global (all packages)
+
 ```bash
 bun config set registry https://your-registry.example.com
 ```
 
 Or edit `~/.bunfig.toml`:
+
 ```toml
 [install]
 registry = "https://your-registry.example.com"
 ```
 
 ### Scoped registry (e.g. `@myorg`)
+
 In `bunfig.toml` (project or `~/.bunfig.toml`):
+
 ```toml
 [install.scopes]
 "@myorg" = { registry = "https://npm.myorg.internal", token = "YOUR_TOKEN" }
 ```
 
 ### With auth (npm-style token)
+
 ```toml
 [install]
 registry = "https://your-registry.example.com"
@@ -85,12 +91,14 @@ token = "YOUR_NPM_TOKEN"
 This is the pain point for corporate environments (e.g. your bank's internal proxy with a self-signed CA).
 
 ### Option 1 — `caFile` in bunfig.toml
+
 ```toml
 [install]
 caFile = "/path/to/your-ca-bundle.pem"
 ```
 
 ### Option 2 — System trust store
+
 Bun respects the system's CA store on Linux/macOS. Add your cert to the system store:
 
 ```bash
@@ -103,13 +111,16 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 ```
 
 ### Option 3 — `NODE_EXTRA_CA_CERTS` (Node compat env var)
+
 ```bash
 export NODE_EXTRA_CA_CERTS=/path/to/ca-bundle.pem
 bun install
 ```
+
 Bun respects this env var for compatibility.
 
 ### Option 4 — Disable TLS verification (dev only, never prod)
+
 ```toml
 [install]
 tlsRejectUnauthorized = false

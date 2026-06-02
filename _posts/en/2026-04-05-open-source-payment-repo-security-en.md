@@ -35,6 +35,7 @@ WeChat Pay's official documentation explicitly warns: **never put your private k
 If these PEM files or certificates are **committed in the repo's Git history**, even if you delete them now and open source the repo, **they remain in the commit history** and can be extracted by anyone who clones or forks the repo. This is a critical risk.
 
 **Immediate action if PEM files were ever committed:**
+
 - Revoke/regenerate your Alipay and WeChat Pay certificates immediately on their respective merchant platforms
 - Use `git filter-repo` or BFG Repo Cleaner to purge the files from the entire git history before making public
 - Rotate all secrets (API keys, app secrets, merchant IDs, tokens)
@@ -44,19 +45,23 @@ If these PEM files or certificates are **committed in the repo's Git history**, 
 ### 🟡 Other Security Risks When Open Sourcing
 
 **1. Hardcoded Secrets in Config Files**
+
 - `config/alipay.php`, `config/database.php`, `WxPay.Config.php` likely contain app IDs, merchant IDs, app secrets, signing keys
 - Even if PEM files are separate, these config values are dangerous if hardcoded
 
 **2. Business Logic Exposure**
+
 - Open sourcing reveals how payments are validated, how callbacks are handled, and how orders are verified
 - Attackers can study `Charges.php`, `Rewards.php`, `Withdraws.php` to find logic vulnerabilities
 - Research has shown that attackers can exploit payment notification logic — for example, sending fake Alipay notifications to a merchant server that isn't verifying signatures properly — to obtain products for free
 
 **3. Database Schema Exposure**
+
 - The `db/` folder likely contains schema migrations
 - Attackers can learn your table structures, which helps with SQL injection planning
 
 **4. Internal API Documentation**
+
 - `api.md` is included in the repo — this documents all your endpoints, which is useful for attackers
 
 ---

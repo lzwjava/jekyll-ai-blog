@@ -22,11 +22,13 @@ Here's a summary of everything that was fixed across 7 commits:
 ## Fixes Applied
 
 **Lint & Security workflow:**
+
 - Install ruff/pyright explicitly via `uv pip install` (not in project deps)
 - Add `uv sync` before bandit install (creates venv first)
 - Expand bandit skip list for legitimate CLI patterns (B101, B104-B107, B110, B112, B311, B404, B405, B603, B607, B608, B615)
 
 **Unit Test workflow (45 → 0 errors):**
+
 - Add PyJWT to dependencies (12 jwt test errors)
 - `_dispatch()`/`_run()` helpers: `sys.modules` fallback when target module can't be imported
 - Note tests: `NOTE_ENTER_CONFIRM=1` env patch
@@ -36,14 +38,17 @@ Here's a summary of everything that was fixed across 7 commits:
 - Skip screenshot tests on Linux (macOS-only Quartz)
 
 **Integration Test workflow:**
+
 - Created `integration_tests/` directory with `__init__.py` and placeholder test
 
 **Pyright (0 errors):**
+
 - Added deps: dnspython, speedtest-cli, pydub, matplotlib, pandas, selenium, pyobjc-CoreText, pyobjc-UserNotifications
 - Excluded from pyright: ww/ml/, ww/macos/, ww/trading/, ww/wandbrun/, ww/agent/speech_to_text_agent.py, ww/audio/speech_to_text.py, ww/java/java_agent.py, ww/arduino/, ww/ansible/, ww/pico/
 - Fixed gen_image.py null-safety on `generated_images` response
 
 **Ruff:**
+
 - Fixed f-string without placeholders in amd_dev_cloud/start_train.py
 - Added tests/ to E402 per-file-ignores
 - Added tests/ to pyright exclude

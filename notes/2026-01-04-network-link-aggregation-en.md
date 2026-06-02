@@ -22,6 +22,7 @@ Link aggregation (also known as EtherChannel in Cisco terminology, or LACP/IEEE 
 - **Redundancy/fault tolerance**: If one physical link fails, traffic is redistributed over the remaining links, preventing outage.
 
 The other options are incorrect because:
+
 - **A)** Preventing network loops is the role of Spanning Tree Protocol (STP), not link aggregation.
 - **C)** Automatic IP address assignment is handled by DHCP.
 - **D)** Traffic encryption between switches is provided by protocols like MACsec, not link aggregation.

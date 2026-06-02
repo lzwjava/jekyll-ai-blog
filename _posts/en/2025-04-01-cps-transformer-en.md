@@ -166,21 +166,21 @@ This Scheme code implements a Continuation-Passing Style (CPS) transformation fo
 * It takes two arguments: the expression `exp` to be transformed and the current continuation `ctx`.
 * It uses the `pmatch` library for pattern matching to handle different types of expressions:
 
-    * **Literals and Variables:** If the expression is not a pair (a literal or a variable), it's already a value. The current continuation `ctx` is applied to this value: `(ctx x)`.
+  * **Literals and Variables:** If the expression is not a pair (a literal or a variable), it's already a value. The current continuation `ctx` is applied to this value: `(ctx x)`.
 
-    * **`if` Expressions:** This is a key part of the transformer that handles tail calls and avoids context duplication.
-        * It first transforms the `test` expression with a continuation that takes the result of the test (`t`).
-        * If the current context `ctx` is a tail context (`ctx0`) or the initial identity context (`id`), it means the `if` expression itself is in a tail position. In this case, the `if` structure is preserved, and the `conseq` and `alt` branches are CPSed with the same context `ctx`.
-        * If the current context is not a tail context, it means the result of the `if` expression needs to be used later. A new continuation `k` is created that takes the result of the `if` and applies the original context `ctx` to it. The `conseq` and `alt` branches are then CPSed with the tail context `ctx0`, and the entire `if` expression is wrapped in a `let` that introduces `k`.
+  * **`if` Expressions:** This is a key part of the transformer that handles tail calls and avoids context duplication.
+    * It first transforms the `test` expression with a continuation that takes the result of the test (`t`).
+    * If the current context `ctx` is a tail context (`ctx0`) or the initial identity context (`id`), it means the `if` expression itself is in a tail position. In this case, the `if` structure is preserved, and the `conseq` and `alt` branches are CPSed with the same context `ctx`.
+    * If the current context is not a tail context, it means the result of the `if` expression needs to be used later. A new continuation `k` is created that takes the result of the `if` and applies the original context `ctx` to it. The `conseq` and `alt` branches are then CPSed with the tail context `ctx0`, and the entire `if` expression is wrapped in a `let` that introduces `k`.
 
-    * **`lambda` Expressions:** A `lambda` expression `(lambda (x) body)` is transformed into a new `lambda` expression that takes an additional argument `k` (the continuation): `(lambda (x k) (cps1 body ctx0))`. The body of the original lambda is CPSed with the tail context `ctx0`.
+  * **`lambda` Expressions:** A `lambda` expression `(lambda (x) body)` is transformed into a new `lambda` expression that takes an additional argument `k` (the continuation): `(lambda (x k) (cps1 body ctx0))`. The body of the original lambda is CPSed with the tail context `ctx0`.
 
-    * **Binary Operations (`op a b`):** The operands `a` and `b` are CPSed sequentially. The continuation for `a` takes its result `v1`, and then CPSes `b` with a continuation that takes its result `v2`. Finally, the original context `ctx` is applied to the expression formed by the operator `op` and the CPSed results `v1` and `v2`.
+  * **Binary Operations (`op a b`):** The operands `a` and `b` are CPSed sequentially. The continuation for `a` takes its result `v1`, and then CPSes `b` with a continuation that takes its result `v2`. Finally, the original context `ctx` is applied to the expression formed by the operator `op` and the CPSed results `v1` and `v2`.
 
-    * **Function Applications (`rator rand`):** The `rator` (function) and `rand` (argument) are CPSed sequentially.
-        * If the `rator` is a `trivial?` operator, the current context `ctx` is directly applied to the result of applying the operator to the operand.
-        * If the current context is a tail context (`ctx0`), the CPSed function `r` is called with the CPSed argument `d` and the current continuation `k`. This ensures proper tail calls.
-        * Otherwise (non-tail call), a new continuation is created that takes the result of the function call and applies the original context `ctx` to it. The CPSed function `r` is called with the CPSed argument `d` and this new continuation.
+  * **Function Applications (`rator rand`):** The `rator` (function) and `rand` (argument) are CPSed sequentially.
+    * If the `rator` is a `trivial?` operator, the current context `ctx` is directly applied to the result of applying the operator to the operand.
+    * If the current context is a tail context (`ctx0`), the CPSed function `r` is called with the CPSed argument `d` and the current continuation `k`. This ensures proper tail calls.
+    * Otherwise (non-tail call), a new continuation is created that takes the result of the function call and applies the original context `ctx` to it. The CPSed function `r` is called with the CPSed argument `d` and this new continuation.
 
 **5. Tests:**
 

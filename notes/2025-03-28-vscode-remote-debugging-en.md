@@ -13,23 +13,29 @@ To perform remote debugging in Visual Studio Code (VSCode) for a WebSphere Liber
 ---
 
 ### Step 1: Start the WebSphere Liberty Server in Debug Mode
+
 1. Open a terminal or command prompt.
 2. Navigate to your WebSphere Liberty installation directory.
 3. Run the following command to start your server in debug mode:
+
    ```
    server debug default
    ```
+
    - Replace `default` with your server's name if it’s different.
 4. The server will start with debugging enabled, typically listening on port **7777**.
 5. Check the server’s console output or logs for a message like:
+
    ```
    Listening for transport dt_socket at address: 7777
    ```
+
    - This confirms the debug port. If it’s a different port (e.g., due to a conflict), note the number displayed.
 
 ---
 
 ### Step 2: Configure Remote Debugging in VSCode
+
 1. **Open Your Project in VSCode**:
    - Ensure your Java project (containing the source code deployed to the server) is open in VSCode. This allows the debugger to map breakpoints to the running code.
 
@@ -43,6 +49,7 @@ To perform remote debugging in Visual Studio Code (VSCode) for a WebSphere Liber
 
 4. **Add a Debug Configuration**:
    - In the `launch.json` file, ensure it contains a configuration for attaching to the remote JVM. Here’s an example:
+
      ```json
      {
          "version": "0.2.0",
@@ -57,6 +64,7 @@ To perform remote debugging in Visual Studio Code (VSCode) for a WebSphere Liber
          ]
      }
      ```
+
    - **Explanation of Fields**:
      - `"type": "java"`: Specifies the Java debugger.
      - `"name": "Attach to WebSphere Liberty"`: A descriptive name for this configuration.
@@ -70,6 +78,7 @@ To perform remote debugging in Visual Studio Code (VSCode) for a WebSphere Liber
 ---
 
 ### Step 3: Start the Debugging Session
+
 1. **Ensure the Server is Running**:
    - Verify that the WebSphere Liberty Server is still running in debug mode from Step 1.
 
@@ -89,6 +98,7 @@ To perform remote debugging in Visual Studio Code (VSCode) for a WebSphere Liber
 ---
 
 ### Additional Notes
+
 - **Local vs. Remote Server**:
   - If the server runs on a different machine, replace `"localhost"` with the server’s hostname or IP address in the `launch.json` file. Ensure the debug port is accessible through the network (e.g., not blocked by a firewall).
 

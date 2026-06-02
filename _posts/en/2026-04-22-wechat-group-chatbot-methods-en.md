@@ -29,6 +29,7 @@ The most reliable and compliant method is using **WeChat Work (WeCom)** which pr
 Since personal WeChat doesn't officially support bots, you'll need to use reverse-engineered solutions:
 
 ### 1. **Wechaty Framework**
+
 - Open-source conversational SDK for WeChat
 - Supports multiple protocols (Puppet providers)
 - Can join and interact in WeChat groups
@@ -36,12 +37,14 @@ Since personal WeChat doesn't officially support bots, you'll need to use revers
 - Works with both personal WeChat and WeChat Work
 
 ### 2. **ComWeChatRobot**
+
 - Windows-based WeChat bot framework
 - Uses WeChat PC client hooks
 - Supports group message listening and replying
 - Can be integrated with external APIs
 
 ### 3. **Openwechat (Go-based)**
+
 - Golang library for WeChat automation
 - Supports group chat operations
 - Can be deployed on servers
@@ -56,6 +59,7 @@ Since personal WeChat doesn't officially support bots, you'll need to use revers
 4. Deploy on a server for 24/7 operation
 
 **Basic workflow:**
+
 - Bot listens to group messages
 - Filters messages (e.g., @mentions or keywords)
 - Sends message to OpenRouter/LLM API
@@ -64,11 +68,13 @@ Since personal WeChat doesn't officially support bots, you'll need to use revers
 ## Important Considerations
 
 **Risks:**
+
 - Personal WeChat automation violates WeChat's Terms of Service
 - Risk of account suspension or ban
 - Third-party solutions may break with WeChat updates
 
 **Recommendations:**
+
 - Use WeChat Work for business/production environments
 - Keep personal WeChat bots low-profile (limited message frequency)
 - Implement rate limiting to avoid detection
@@ -77,6 +83,7 @@ Since personal WeChat doesn't officially support bots, you'll need to use revers
 
 **Alternative Approach:**
 If WeChat automation is too risky, consider:
+
 - Building a standalone web/mobile app that uses WeChat login
 - Using WeChat Mini Programs with cloud functions
 - Directing users to platforms with official bot support (Telegram, Discord, Slack)

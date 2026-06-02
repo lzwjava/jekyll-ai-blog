@@ -26,6 +26,7 @@ These Chinese labels (**即穿**, **储藏**, **熨烫**) on Haier dryers (espec
 
 **How to select them:**
 On most Haier dryer control panels (especially those with Chinese interfaces), these options appear as selectable dryness levels for compatible programs (like Cotton, Mixed, or Synthetic cycles).
+
 1. Turn on the dryer and select your desired drying program (e.g., Cotton).
 2. Look for a button labeled "干度" (gān dù = dryness degree/level), "程度" (chéng dù), or a similar icon (often with droplet or dryness symbols).
 3. Press it repeatedly to cycle through the options: usually 熨烫 → 即穿 → 储藏 (or in reverse). Some models show icons or abbreviations like "熨" / "即" / "储".

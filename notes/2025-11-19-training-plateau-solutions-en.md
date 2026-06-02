@@ -15,6 +15,7 @@ The training log you posted shows a classic **severe plateau** in a small-scale 
 Here are the real reasons why your model stopped improving (ranked by importance for this exact setup):
 
 ### 1. You are massively overfitting a single Parquet file
+
 - Your run name: `125M-single-parquet-4070`
 - You are training a 40M–125M model (the log says 40.56M params, probably the original GPT-2 small config) on **one single FineWeb parquet** (probably 10–15 GB → ~3–4 billion tokens at most, but likely much less after filtering).
 - By iter 14 000 with batch_size=16, grad_accum=32, block_size=1024 you have already seen:
@@ -23,19 +24,23 @@ Here are the real reasons why your model stopped improving (ranked by importance
 - FineWeb-edu is high-quality but still has a lot of near-duplicates and boilerplate. After 1.5–2 epochs on the same file(s), a 40M–125M model will memorize almost everything useful and loss plateaus hard.
 
 ### 2. Learning rate is now too high after the plateau
+
 - You use `learning_rate = 1e-3`, cosine decay to `min_lr = 1e-4` over 20 000 iters.
 - At iter 14 000 the LR is still ~2.5e-4 (cosine decay is slow at the beginning).
 - Once the model has learned everything the data has to offer, keeping LR at hundreds of micro-lr units prevents it from fine-tuning further and actually starts hurting generalization → val loss slowly climbs.
 
 ### 3. Model size vs data diversity mismatch
+
 A 125M (or even the 40M you actually initialized) model on a single parquet file is like giving a college student only one textbook and asking him to keep studying it for years. After a while he can recite it perfectly, but test-time performance on new text stops improving and even degrades slightly due to catastrophic forgetting of earlier patterns.
 
 ### 4. No regularization strong enough
+
 - dropout = 0.1 is okay, but not enough when you overfit this hard
 - weight_decay = 0.1 is standard, but still not sufficient for 2+ epochs on tiny data
 - No gradient clipping (nanoGPT default is 1.0, but sometimes people set 0.5 or lower for small data)
 
 ### 5. Tokens seen vs real diversity
+
 Even though you saw 7+ billion tokens, the **effective diversity** is maybe 1–1.5B unique high-quality tokens after dedup, boilerplate, low-edu-score samples, etc. That’s just not enough for a 125M model to keep improving past ~3.5–3.6 loss on this text distribution.
 
 ### Evidence from your own log

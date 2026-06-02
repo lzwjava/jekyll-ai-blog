@@ -28,6 +28,7 @@ type: note
 | Usage | `workit note`, `workit git`, `workit pdf` |
 
 **为什么它胜出：**
+
 - 简短、易记、基于动词（以行动为导向）
 - 自然的子命令模式：`workit <tool>`
 - 完美适用于仓库名称和 CLI 二进制名称
@@ -69,6 +70,7 @@ workit/
 ```
 
 用法：
+
 ```bash
 workit note
 workit git pull
@@ -80,6 +82,7 @@ workit pdf merge a.pdf b.pdf
 ### 最终裁决
 
 选择 **`workit`** 作为仓库名称和 CLI 名称。它是：
+
 - ✅ 以行动为导向
 - ✅ 在终端中易输入
 - ✅ 自然扩展子命令

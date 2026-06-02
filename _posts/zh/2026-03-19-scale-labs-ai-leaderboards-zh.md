@@ -9,11 +9,12 @@ translated: true
 type: note
 ---
 
-**https://labs.scale.com/leaderboard** 页面是 Scale AI 的主要 **Scale Labs Leaderboards** 枢纽。它作为一个中央仪表板，展示专家驱动的基准测试，用于测试前沿 AI 模型、agentic capabilities、reasoning、coding、tool use、安全等方面。排行榜在 20 多个严格的、往往面向真实世界的基准上评估了来自主要实验室（OpenAI、Anthropic、Google、Meta 和开源贡献者）的 100 多个模型。
+**<https://labs.scale.com/leaderboard>** 页面是 Scale AI 的主要 **Scale Labs Leaderboards** 枢纽。它作为一个中央仪表板，展示专家驱动的基准测试，用于测试前沿 AI 模型、agentic capabilities、reasoning、coding、tool use、安全等方面。排行榜在 20 多个严格的、往往面向真实世界的基准上评估了来自主要实验室（OpenAI、Anthropic、Google、Meta 和开源贡献者）的 100 多个模型。
 
 Scale Labs 专注于通过超出简单问答的任务挑战当前 AI 极限——强调 long-horizon agentic behavior、deep reasoning、honest/safe outputs、multimodal understanding 以及 professional-domain expertise。
 
 ### Key Highlighted Benchmarks (as of March 19, 2026)
+
 以下是一些突出的可用排行榜：
 
 - **SWE Atlas - Codebase QnA**

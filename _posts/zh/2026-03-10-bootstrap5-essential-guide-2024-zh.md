@@ -64,6 +64,7 @@ npm install bootstrap
 ```
 
 然后在您的 Sass 中导入：
+
 ```scss
 @import "../node_modules/bootstrap/scss/bootstrap";
 ```
@@ -77,6 +78,7 @@ npm install bootstrap
 Bootstrap 5 的网格系统是一个强大的工具，用于创建响应式布局。它采用 **12 列系统**，可适应各种屏幕尺寸。关键概念包括：Containers（最外层元素）、Rows（列的水平组）、Columns（基本构建块）和 Breakpoints（布局根据屏幕尺寸调整的点）。
 
 **基本网格结构：**
+
 ```html
 <div class="container">
   <div class="row">
@@ -108,12 +110,14 @@ Bootstrap 包含六个默认 Breakpoints，有时称为网格层级，用于构�
 由于 Bootstrap 是采用移动优先方式开发的，它会应用最少的样式以使布局在最小 Breakpoint 上正常工作，然后叠加样式以调整设计适应更大设备。这优化了 CSS，提高了渲染时间，并为访客提供出色的体验。
 
 **响应式列示例：**
+
 ```html
 <div class="row">
   <div class="col-12 col-md-6 col-lg-4">Responsive Column</div>
   <div class="col-12 col-md-6 col-lg-8">Responsive Column</div>
 </div>
 ```
+
 这表示：在移动设备上全宽，在平板上半宽（md），在桌面上一分为四/八（lg）。
 
 ---
@@ -123,7 +127,9 @@ Bootstrap 包含六个默认 Breakpoints，有时称为网格层级，用于构�
 Bootstrap 提供丰富的预构建组件，简化常见网站元素。以下是最重要的组件：
 
 ### 1. Navbar
+
 一个响应式导航栏，在小屏幕上会折叠。
+
 ```html
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
@@ -142,6 +148,7 @@ Bootstrap 提供丰富的预构建组件，简化常见网站元素。以下是�
 ```
 
 ### 2. Buttons
+
 ```html
 <button class="btn btn-primary">Primary</button>
 <button class="btn btn-secondary">Secondary</button>
@@ -150,7 +157,9 @@ Bootstrap 提供丰富的预构建组件，简化常见网站元素。以下是�
 ```
 
 ### 3. Cards
+
 灵活的内容容器。
+
 ```html
 <div class="card" style="width: 18rem;">
   <img src="image.jpg" class="card-img-top" alt="...">
@@ -163,6 +172,7 @@ Bootstrap 提供丰富的预构建组件，简化常见网站元素。以下是�
 ```
 
 ### 4. Modal
+
 ```html
 <!-- Trigger -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
@@ -187,6 +197,7 @@ Bootstrap 提供丰富的预构建组件，简化常见网站元素。以下是�
 ```
 
 ### 5. Alerts
+
 ```html
 <div class="alert alert-success" role="alert">Success! Operation completed.</div>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -196,7 +207,9 @@ Bootstrap 提供丰富的预构建组件，简化常见网站元素。以下是�
 ```
 
 ### 6. Forms
+
 Bootstrap 5 重新设计了表单系统：
+
 ```html
 <form>
   <div class="mb-3">
@@ -212,6 +225,7 @@ Bootstrap 5 重新设计了表单系统：
 ```
 
 ### 7. 其他关键组件
+
 - **Carousel** — 使用 `data-bs-ride="carousel"` 的图像/内容幻灯片
 - **Accordion** — 可折叠内容面板
 - **Tabs / Pills** — 导航标签
@@ -228,28 +242,33 @@ Bootstrap 5 重新设计了表单系统：
 Bootstrap 5 提供以实用类为主的类，用于间距、颜色、对齐、阴影、边框和响应式可见性，而无需编写自定义 CSS。
 
 **Spacing** — 使用模式 `{property}{side}-{size}`，其中 size 为 0–5 或 `auto`：
+
 ```html
 <div class="mt-3 mb-2 px-4 py-2">Spaced element</div>
 <!-- mt = margin-top, px = padding x-axis, etc. -->
 ```
 
 **Typography：**
+
 ```html
 <p class="text-center text-primary fw-bold fs-4">Styled Text</p>
 ```
 
 **Display：**
+
 ```html
 <div class="d-none d-md-block">Visible only on md and up</div>
 <div class="d-flex justify-content-between align-items-center">Flexbox row</div>
 ```
 
 **Colors：**
+
 ```html
 <p class="text-success bg-light p-2">Green text on light background</p>
 ```
 
 **Borders & Shadows：**
+
 ```html
 <div class="border border-primary rounded shadow-sm p-3">Styled box</div>
 ```

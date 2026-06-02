@@ -71,10 +71,12 @@ ffmpeg -i temp_video.mp4 -i combined.mp3 \
 
 `-c:v copy` means no re-encoding the video (fast), just muxes the audio in.
 
-### The full script is at:
+### The full script is at
+
 `tutorial/add_voice.py` — ~180 lines of Python orchestrating edge-tts + ffmpeg.
 
 Want to swap the voice? Some options:
+
 - `en-US-JennyNeural` — friendly female
 - `en-GB-RyanNeural` — British male
 - `en-AU-WilliamNeural` — Australian male

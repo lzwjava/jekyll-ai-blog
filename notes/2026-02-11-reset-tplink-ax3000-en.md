@@ -32,8 +32,9 @@ There are two main methods. The **hardware reset** is strongly recommended, espe
 7. Wait until the router fully restarts and the lights stabilize.
 
 **After successful reset:**
+
 - Default Wi-Fi name (SSID) and password → printed on the label on the bottom or back of the router (usually starts with **TP-Link_XXXX** and a random password).
-- Web management address → http://tplinkwifi.net or http://192.168.0.1 or http://192.168.1.1
+- Web management address → <http://tplinkwifi.net> or <http://192.168.0.1> or <http://192.168.1.1>
 - Default login → username: **admin** / password: **admin**
   (Note: On many newer firmware versions there is no default admin/admin; the first login forces you to create a new password.)
 
@@ -42,18 +43,20 @@ There are two main methods. The **hardware reset** is strongly recommended, espe
 ### Method 2: Software Reset (via web interface – only if you can still log in)
 
 1. Connect your computer or phone to the router’s current Wi-Fi network, or connect directly via an Ethernet cable to one of the LAN ports.
-2. Open a web browser and go to http://tplinkwifi.net or http://192.168.0.1 (or http://192.168.1.1).
+2. Open a web browser and go to <http://tplinkwifi.net> or <http://192.168.0.1> (or <http://192.168.1.1>).
 3. Log in with your current admin username and password.
 4. Go to **Advanced** → **System Tools** (or **System**) → **Backup & Restore** or **Factory Defaults**.
 5. Click **Factory Defaults** / **Restore to Factory Default Settings** and confirm the action.
 6. Wait for the router to reboot (usually 1–2 minutes).
 
 After either method, you will need to set up the router again:
+
 - Re-enter your ISP broadband credentials (PPPoE username/password if required).
 - Create a new Wi-Fi name and password.
 - Set a new admin password during first-time setup.
 
 **Troubleshooting notes:**
+
 - If the router still does not broadcast the default Wi-Fi SSID or the lights behave abnormally after reset, it may indicate a hardware issue.
 - Check the exact model (e.g. Archer AX55, AX3000 Pro, etc.) on the TP-Link official support website for model-specific LED behavior and reset timing.
 - Slight differences exist between firmware versions and sub-models, but holding RESET for 10 seconds is almost universally effective across the AX3000 series.

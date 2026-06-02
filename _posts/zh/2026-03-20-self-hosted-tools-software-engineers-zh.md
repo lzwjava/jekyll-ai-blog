@@ -13,14 +13,14 @@ Question: 鉴于我们现在有了 OpenClaw，我们能否轻松在第二台家�
 
 Answer:
 
-是的，就像 **Nextcloud**（来自你分享的 GitHub 链接：https://github.com/nextcloud/server），这是一个流行的自托管文件同步、共享和协作平台（你自己的 Dropbox/Google Drive），你可以在第二台家用电脑上轻松安装它——或者许多类似的有用工具。
+是的，就像 **Nextcloud**（来自你分享的 GitHub 链接：<https://github.com/nextcloud/server），这是一个流行的自托管文件同步、共享和协作平台（你自己的> Dropbox/Google Drive），你可以在第二台家用电脑上轻松安装它——或者许多类似的有用工具。
 
 大多数现代自托管软件（包括 Nextcloud 和下面列出的那些）都可以使用 **Docker**（通常配合 docker-compose）非常简单地安装，这非常适合第二台/家用机器。通常：
 
 - 在机器上安装 Docker + docker-compose（一次性设置，在 Ubuntu/Debian 上大约 10 分钟）。
 - 克隆或复制 docker-compose.yml 文件。
 - 运行 `docker compose up -d` —— 就启动了。
-- 通过浏览器访问 http://your-home-ip:port（或者使用像 Traefik/Caddy + Let's Encrypt 这样的反向代理来实现 HTTPS 和漂亮的域名）。
+- 通过浏览器访问 <http://your-home-ip:port（或者使用像> Traefik/Caddy + Let's Encrypt 这样的反向代理来实现 HTTPS 和漂亮的域名）。
 
 许多工具都有优秀的官方镜像，并且可以通过 CasaOS、Yacht 或 Portainer 等工具实现一键式设置，如果你想要 GUI 仪表板。
 

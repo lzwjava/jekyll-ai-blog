@@ -36,25 +36,31 @@ Answer:
 你必须手动配置 **SSH client** 本身来使用代理 —— 常见方法如下：
 
 1. **HTTP CONNECT proxy**（大多数公司级 HTTP 代理）
+
    ```bash
    # 在 ~/.ssh/config 中
    Host github.com
        ProxyCommand connect -H proxy.example.com:8080 %h %p
    ```
+
    （需要 `connect` 工具或类似工具 —— 可通过 brew install connect 安装）
 
 2. **SOCKS5 proxy**（常用于 Shadowsocks, v2ray, Clash 等工具）
+
    ```bash
    # 在 ~/.ssh/config 中
    Host github.com
        ProxyCommand nc -x 127.0.0.1:1080 %h %p
    ```
+
    或者
+
    ```bash
    GIT_SSH_COMMAND="ssh -o ProxyCommand='nc -x 127.0.0.1:1080 %h %p'" git pull --rebase
    ```
 
 3. **Jump host / bastion** (ProxyJump)
+
    ```bash
    GIT_SSH_COMMAND="ssh -J user@bastion.example.com" git pull --rebase
    ```

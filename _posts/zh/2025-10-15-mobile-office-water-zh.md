@@ -29,6 +29,7 @@ type: note
 广州遍布着许多低调的水景——如小池塘、溪流、人工瀑布及湿地边缘——这些地方既能提供舒缓的流水声，又避开了游客喧嚣，非常适合停车办公。使用百度地图或高德地图（本地应用）搜索"小池塘"或"溪流公园"，并按区域筛选；这些应用会显示实时停车信息与静谧指数。谷歌地图亦可使用，但在中国境内百度地图精度更高。
 
 #### 黄埔区（靠近广州主城，距亚朵约20-40分钟车程）
+
 黄埔区呈现都市绿洲风貌，拥有众多依河傍湖的精致公园。建议选择配备长椅或林荫车位的临水区域。
 
 - **中山公园**：竹影婆娑的河畔静地，设有人工瀑布与池塘。工作日尤为宁静，沿河停车可览水景，适合1-2小时短时办公。
@@ -40,6 +41,7 @@ type: note
 - **香雪公园**：季节性池塘与花树（冬有梅林）相映成趣。园内静隅适合沉思，环园停车动线便捷。
 
 #### 增城区（更具乡野气息，距亚朵约45-60分钟车程，荔枝之乡）
+
 增城保留着原生态的天然景致——森林公园内的溪流与瀑布。道路蜿蜒却风景如画，周末当地游客较多。
 
 - **白水寨瀑布公园**：阶梯式瀑布汇入山下清潭，可攀登石阶寻得私密水湾。入口停车场便捷，跌宕水声尤其适合需要提神的工作间隙。
@@ -52,10 +54,10 @@ type: note
 
 建议从黄埔区开始短途尝试，再深入增城完成沉浸式体验。出行前查看天气预报（雨水会增强水声效果，但需警惕洪水）。若规划路线，直接输入上述名称即可获取带实景照片与评价的导航信息。
 
-[ 天麓湖森林公园在Trip.com的页面 ](https://www.trip.com/travel-guide/attraction/guangzhou/tianlu-lake-forest-park-15055063/)
-[ 中山公园在Trip.com的游记 ](https://www.trip.com/moments/theme/destination-huangpu-district-2015109-attractions-993137/)
-[ 黄埔新阳东迷你公园在中国服务资讯网的介绍 ](https://chinaservicesinfo.com/nationaldevelopmentzones/gdd/attractions)
-[ 白水寨瀑布在Tripadvisor的点评 ](https://www.tripadvisor.com/Attraction_Review-g1152546-d1843395-Reviews-Baishui_Village_Waterfall_of_Zengcheng-Zengcheng_Guangdong.html)
-[ 金山公园在Tripadvisor的景点列表 ](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)
-[ 白江湖在Trip.com的游记 ](https://sg.trip.com/moments/theme/poi-baijiang-lake-58280012-attraction-993137/)
-[ 广州休闲景点在NewsGD的报道 ](https://www.newsgd.com/node_99363c4f3b/e39ce5939c.shtml)
+[天麓湖森林公园在Trip.com的页面](https://www.trip.com/travel-guide/attraction/guangzhou/tianlu-lake-forest-park-15055063/)
+[中山公园在Trip.com的游记](https://www.trip.com/moments/theme/destination-huangpu-district-2015109-attractions-993137/)
+[黄埔新阳东迷你公园在中国服务资讯网的介绍](https://chinaservicesinfo.com/nationaldevelopmentzones/gdd/attractions)
+[白水寨瀑布在Tripadvisor的点评](https://www.tripadvisor.com/Attraction_Review-g1152546-d1843395-Reviews-Baishui_Village_Waterfall_of_Zengcheng-Zengcheng_Guangdong.html)
+[金山公园在Tripadvisor的景点列表](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)
+[白江湖在Trip.com的游记](https://sg.trip.com/moments/theme/poi-baijiang-lake-58280012-attraction-993137/)
+[广州休闲景点在NewsGD的报道](https://www.newsgd.com/node_99363c4f3b/e39ce5939c.shtml)

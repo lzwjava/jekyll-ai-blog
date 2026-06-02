@@ -16,6 +16,7 @@ type: note
 **Type A Network Service** 以具有 **acceptable residual error rates** 和 **acceptable failure notification rates** 为特征。
 
 在网络服务分类的上下文中（通常与 OSI model 和 transport layer services 相关）：
+
 - **Type A**：底层网络提供具有低错误率的可靠服务。因此，transport layer 不需要实现广泛的错误恢复机制。residual error rate 和 failure notification rate 都被认为对用户需求是可接受的。
 - **Type B**：网络具有可接受的 residual error rate，但 failure notification rate 不可接受（例如，故障未正确通知）。
 - **Type C**：网络具有不可接受的 residual error rate，需要 transport layer 处理大量的错误检测和恢复。

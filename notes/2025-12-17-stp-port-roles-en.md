@@ -38,6 +38,7 @@ Spanning Tree Protocol (STP) prevents loops in Ethernet networks with redundant 
    - Purpose: Prevents loops. If the topology changes (e.g., a link fails), a blocked port can transition to forwarding.
 
 ### Path Costs (Classic STP values – IEEE 802.1D)
+
 These are the default costs used to calculate the best paths:
 
 - 10 Mbps: cost 100
@@ -48,6 +49,7 @@ These are the default costs used to calculate the best paths:
 (Note: Modern Rapid STP uses different scaling where 10 Gbps = 2,000, but the concept remains the same.)
 
 ### Simple Example
+
 Imagine three switches: A (root), connected redundantly to B and C, and B connected to C.
 
 - On A (root): Both ports to B and C → **Designated** (forwarding).
@@ -55,6 +57,7 @@ Imagine three switches: A (root), connected redundantly to B and C, and B connec
 - On C: Port toward A → **Root Port**. Port toward B → **Blocked** (to prevent loop).
 
 ### Quick Way to Remember
+
 - Root bridge: "I'm the boss – all my ports are **designated** (sending traffic out)."
 - Non-root switches: "I pick one **root port** (my uplink to the boss) and compete to be **designated** on downstream segments."
 - Losers on redundant links: "**Blocked** – stay quiet unless something breaks."

@@ -58,6 +58,7 @@ git pull origin main
 ```
 
 ### What Happens?
+
 - **After Step 1**: Your local repository knows the latest state of `origin/main`.
 - **After Step 2**: You’ve identified the common ancestor commit (e.g., a hash like `abc123`).
 - **After Step 3**: Your local `main` is reset to `abc123`, losing the 74 unique local commits.
@@ -66,6 +67,7 @@ git pull origin main
 The result is that your local `main` matches `origin/main` exactly, fulfilling your goal of using the remote branch.
 
 ### Optional Backup
+
 If you’re unsure about discarding your local commits and want to preserve them for later, create a backup branch before resetting:
 
 ```bash
@@ -75,10 +77,13 @@ git branch backup-main
 Run this before the `git reset` command. Your 74 local commits will remain on `backup-main`, and you can revisit them later if needed.
 
 ### Important Notes
+
 - **Uncommitted Changes**: If you have uncommitted changes (in your working directory or staging area) that you want to keep, stash them before resetting:
+
   ```bash
   git stash
   ```
+
   After completing the process, you can retrieve them with `git stash pop`.
 - **Why This Works**: Resetting to the common ancestor and pulling ensures a clean fast-forward to `origin/main`, avoiding merge conflicts that might arise from directly pulling with diverged branches.
 

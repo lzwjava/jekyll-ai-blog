@@ -15,10 +15,11 @@ Question: Translate the information about major code 510201 to English, and prov
 Answer:
 
 ### Major: Computer Application Technology (510201)
+
 - **Education Level**: Specialist (Diploma/Associate Degree)
 - **Exam Type**: Practical Assessment
 
-#### Practical Assessment Courses:
+#### Practical Assessment Courses
 
 | Course Sequence | Course Code | Course Name                  | Exam Plan          | Exam Time          | Exam Fee     | Application Conditions |
 |-----------------|-------------|------------------------------|--------------------|--------------------|--------------|------------------------|

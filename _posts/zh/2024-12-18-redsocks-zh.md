@@ -56,9 +56,11 @@ Shadowsocks-NG 是一个流行且用户友好的 macOS Shadowsocks 客户端。
 
 3. 导入 Shadowsocks URL：
    - 复制您的 Shadowsocks URL：
+
      ```
      ss://[ENCRYPTED_PASSWORD]@xxx.xxx.xxx.xxx:xxxxx/?outline=1
      ```
+
    - 导入方法：
      - 点击 "Import"。
      - 粘贴您的 Shadowsocks URL。
@@ -143,7 +145,7 @@ Clash 是一个多功能的代理客户端，支持包括 Shadowsocks 在内的�
 
 默认情况下，Shadowsocks 客户端将代理绑定到 `localhost` (`127.0.0.1`)，这意味着只有 Mac 可以使用该代理。要允许您的 OpenWRT 路由器使用此代理，您需要将代理绑定到 Mac 的局域网 IP。
 
-### 对于 Shadowsocks-NG：
+### 对于 Shadowsocks-NG
 
 1. 打开偏好设置：
    - 点击菜单栏中的 ShadowsocksX-NG 图标。
@@ -160,7 +162,7 @@ Clash 是一个多功能的代理客户端，支持包括 Shadowsocks 在内的�
    - 点击 "OK" 保存更改。
    - 重启 Shadowsocks-NG 客户端以应用新设置。
 
-### 对于 Clash：
+### 对于 Clash
 
 1. 编辑配置文件：
    - 确保在您的 `config.yaml` 中启用了 `allow-lan: true` 设置。
@@ -177,7 +179,7 @@ Clash 是一个多功能的代理客户端，支持包括 Shadowsocks 在内的�
 
 为了确保 OpenWRT 路由器与 Mac 之间的连接稳定，请在您的本地网络中为 Mac 分配一个静态 IP。
 
-### 在 macOS 上分配静态 IP 的步骤：
+### 在 macOS 上分配静态 IP 的步骤
 
 1. 打开系统偏好设置：
    - 点击 Apple 菜单，选择 "系统偏好设置"。

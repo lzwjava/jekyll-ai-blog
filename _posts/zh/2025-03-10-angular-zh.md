@@ -13,6 +13,7 @@ Angular 是一个用于构建动态单页面应用（SPA）的强大框架。本
 ---
 
 ## 第一步：环境搭建与安装
+
 在开始使用 Angular 前，请确保你的开发环境准备就绪。
 
 - **环境要求**：
@@ -21,34 +22,43 @@ Angular 是一个用于构建动态单页面应用（SPA）的强大框架。本
 
 - **安装 Angular CLI**：
   Angular 命令行工具（CLI）能简化项目创建和管理流程。全局安装命令：
+
   ```bash
   npm install -g @angular/cli
   ```
 
 - **创建新项目**：
   通过以下命令生成 Angular 应用：
+
   ```bash
   ng new my-angular-app
   ```
+
   在设置过程中会提示：
   - 是否启用路由（SPA 应用建议开启）
   - 选择样式表格式（如 CSS 或 SCSS）
 
 - **启动应用**：
   运行开发服务器：
+
   ```bash
   ng serve
   ```
+
   在浏览器访问 `http://localhost:4200/` 查看实时应用
 
 ---
 
 ## 第二步：核心概念
+
 Angular 应用围绕几个基本概念构建。
 
 ### 组件
+
 组件是用户界面的构建单元，每个组件包含独立的 HTML、CSS 和 TypeScript 逻辑
+
 - 示例（`app.component.ts`）：
+
   ```typescript
   import { Component } from '@angular/core';
 
@@ -63,8 +73,11 @@ Angular 应用围绕几个基本概念构建。
   ```
 
 ### 模块
+
 模块将应用组织为内聚的功能块，根模块为 `AppModule`
+
 - 示例（`app.module.ts`）：
+
   ```typescript
   import { NgModule } from '@angular/core';
   import { BrowserModule } from '@angular/platform-browser';
@@ -79,14 +92,19 @@ Angular 应用围绕几个基本概念构建。
   ```
 
 ### 服务
+
 服务用于处理共享逻辑或数据访问，通过依赖注入提供给组件
+
 - 生成服务：
+
   ```bash
   ng generate service data
   ```
 
 ### 数据绑定
+
 数据绑定将组件数据与 UI 连接，Angular 支持：
+
 - **插值表达式**：`{{ value }}`
 - **属性绑定**：`[property]="value"`
 - **事件绑定**：`(event)="handler()"`
@@ -95,6 +113,7 @@ Angular 应用围绕几个基本概念构建。
 ---
 
 ## 第三步：路由配置
+
 Angular 路由器支持 SPA 的无刷新页面导航。
 
 - **初始化设置**：
@@ -102,6 +121,7 @@ Angular 路由器支持 SPA 的无刷新页面导航。
 
 - **定义路由**：
   在 `app-routing.module.ts` 中配置：
+
   ```typescript
   import { NgModule } from '@angular/core';
   import { RouterModule, Routes } from '@angular/router';
@@ -125,6 +145,7 @@ Angular 路由器支持 SPA 的无刷新页面导航。
 
 - **导航链接**：
   使用 `routerLink` 创建链接：
+
   ```html
   <a routerLink="/">首页</a>
   <a routerLink="/about">关于</a>
@@ -133,14 +154,19 @@ Angular 路由器支持 SPA 的无刷新页面导航。
 ---
 
 ## 第四步：表单处理
+
 Angular 提供两种处理用户输入的表单方案。
 
 ### 模板驱动表单
+
 简单表单场景可使用 `ngModel` 实现双向绑定，需导入 `FormsModule`
 
 ### 响应式表单（推荐）
+
 响应式表单提供更强控制力，适合复杂场景
+
 - 示例（`my.component.ts`）：
+
   ```typescript
   import { Component } from '@angular/core';
   import { FormBuilder, FormGroup } from '@angular/forms';
@@ -160,7 +186,9 @@ Angular 提供两种处理用户输入的表单方案。
     }
   }
   ```
+
 - 模板（`my.component.html`）：
+
   ```html
   <form [formGroup]="form">
     <input formControlName="name" placeholder="姓名">
@@ -171,10 +199,12 @@ Angular 提供两种处理用户输入的表单方案。
 ---
 
 ## 第五步：HTTP 请求
+
 通过 Angular 的 `HttpClient` 从后端获取数据。
 
 - **初始配置**：
   在 `app.module.ts` 中导入 `HttpClientModule`：
+
   ```typescript
   import { HttpClientModule } from '@angular/common/http';
 
@@ -186,6 +216,7 @@ Angular 提供两种处理用户输入的表单方案。
 
 - **发起请求**：
   创建服务（`data.service.ts`）：
+
   ```typescript
   import { Injectable } from '@angular/core';
   import { HttpClient } from '@angular/common/http';
@@ -204,6 +235,7 @@ Angular 提供两种处理用户输入的表单方案。
 
 - **组件调用**：
   订阅 Observable 数据流：
+
   ```typescript
   import { Component } from '@angular/core';
   import { DataService } from './data.service';
@@ -224,6 +256,7 @@ Angular 提供两种处理用户输入的表单方案。
 ---
 
 ## 第六步：最佳实践
+
 - **善用 TypeScript**：通过类型和接口提升代码安全性与整洁度
 - **保持组件精简**：将大型组件拆分为可复用模块
 - **惰性加载模块**：在路由中使用 `loadChildren` 提升性能
@@ -234,6 +267,7 @@ Angular 提供两种处理用户输入的表单方案。
 ---
 
 ## 进阶学习
+
 - [Angular 官方文档](https://angular.io/docs)
 - [Angular 大学](https://angular-university.io/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/angular) 社区答疑

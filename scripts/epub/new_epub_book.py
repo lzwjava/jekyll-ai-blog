@@ -345,7 +345,7 @@ def main():
 
     langs_input = args.langs if args.langs else detect_languages()
     # Restrict to the requested target set, preserving CLI order if provided
-    langs = [l for l in langs_input if l in TARGET_LANGS]
+    langs = [lang for lang in langs_input if lang in TARGET_LANGS]
     if not langs:
         langs = TARGET_LANGS
 

@@ -194,15 +194,15 @@ Okay, you've arrived in Shantou much earlier than planned! That's great news, as
 
 * **10:00 AM (or later):** Wake up and have a relaxed breakfast at your hotel or a local eatery. No need to rush.
 * **Morning/Early Afternoon (Flexible):** Explore Shantou at your own pace. Here are some options:
-    * **Old Town (Xiaogongyuan):** Wander through the historic streets, admire the architecture, and soak in the local atmosphere.
-    * **Shantou Museum:** Learn about the city's history and culture.
-    * **Hai Bin Road:** Enjoy a stroll along the waterfront.
+  * **Old Town (Xiaogongyuan):** Wander through the historic streets, admire the architecture, and soak in the local atmosphere.
+  * **Shantou Museum:** Learn about the city's history and culture.
+  * **Hai Bin Road:** Enjoy a stroll along the waterfront.
 * **1:00 PM - 2:30 PM:** Lunch in Shantou. Try some local Shantou cuisine.
 
 * **Afternoon:** Continue exploring Shantou or relax. You could:
-    * **Visit Queshi Scenic Area:** Enjoy the coastal views and perhaps a short hike.
-    * **Explore a local market:** Experience the vibrant local life.
-    * **Relax at a cafe.**
+  * **Visit Queshi Scenic Area:** Enjoy the coastal views and perhaps a short hike.
+  * **Explore a local market:** Experience the vibrant local life.
+  * **Relax at a cafe.**
 
 * **Late Afternoon (around 5:00 PM - 6:00 PM):** **Charge your EV.** Find a convenient charging station in Shantou. Given your early arrival, you have ample time to fully charge.
 
@@ -248,15 +248,15 @@ Alright, since you've arrived in Chaozhou much earlier than planned (it's curren
 * **Morning (Relaxed Start):** Wake up whenever you feel rested. Enjoy a leisurely breakfast at your hotel or find a local spot.
 
 * **Late Morning/Early Afternoon (Extended Chaozhou Exploration):** You now have ample time to explore Chaozhou. Here's a more relaxed and comprehensive list of things you can do:
-    * **Kaiyuan Temple:** Visit this significant Buddhist temple with its beautiful architecture and serene atmosphere. Take your time to explore the different halls and courtyards.
-    * **Guangji Bridge (Xiangzi Bridge):** Explore this unique ancient bridge with its floating pontoon section. You can walk across it and enjoy the views of the Han River. Consider visiting during the day to see it fully open (if it does).
-    * **Ancient City Walls:** Wander along the well-preserved city walls and gates. You'll get a great perspective of the old city.
-    * **Paifang Street (Memorial Archway Street):** Stroll down this historic street lined with beautifully decorated memorial archways, showcasing the city's rich history and culture. It's also a great place for snacks and souvenirs.
-    * **Chaozhou West Lake Park:** Enjoy a peaceful walk around the lake, rent a boat, or simply relax and take in the scenery.
-    * **Han Wen Gong Temple:** Visit this temple dedicated to the Tang Dynasty scholar Han Yu, who played a significant role in Chaozhou's development.
-    * **Local Tea Houses:** Experience the Gongfu tea ceremony, which is deeply rooted in Chaozhou culture. Find a traditional tea house and enjoy a cup of local tea.
-    * **Explore Local Alleys and Streets:** Get lost in the charming narrow alleys of the old city, discovering hidden gems and local life.
-    * **Chaozhou Cuisine:** Take your time to sample various local delicacies for lunch and perhaps an afternoon snack. Chaozhou is known for its seafood, beef hot pot, and various small dishes.
+  * **Kaiyuan Temple:** Visit this significant Buddhist temple with its beautiful architecture and serene atmosphere. Take your time to explore the different halls and courtyards.
+  * **Guangji Bridge (Xiangzi Bridge):** Explore this unique ancient bridge with its floating pontoon section. You can walk across it and enjoy the views of the Han River. Consider visiting during the day to see it fully open (if it does).
+  * **Ancient City Walls:** Wander along the well-preserved city walls and gates. You'll get a great perspective of the old city.
+  * **Paifang Street (Memorial Archway Street):** Stroll down this historic street lined with beautifully decorated memorial archways, showcasing the city's rich history and culture. It's also a great place for snacks and souvenirs.
+  * **Chaozhou West Lake Park:** Enjoy a peaceful walk around the lake, rent a boat, or simply relax and take in the scenery.
+  * **Han Wen Gong Temple:** Visit this temple dedicated to the Tang Dynasty scholar Han Yu, who played a significant role in Chaozhou's development.
+  * **Local Tea Houses:** Experience the Gongfu tea ceremony, which is deeply rooted in Chaozhou culture. Find a traditional tea house and enjoy a cup of local tea.
+  * **Explore Local Alleys and Streets:** Get lost in the charming narrow alleys of the old city, discovering hidden gems and local life.
+  * **Chaozhou Cuisine:** Take your time to sample various local delicacies for lunch and perhaps an afternoon snack. Chaozhou is known for its seafood, beef hot pot, and various small dishes.
 
 * **Late Afternoon (Flexible EV Charging):** Depending on your EV's current charge and your desired comfort level for the drive back, find a convenient charging station in Chaozhou. You have plenty of time to fully charge if needed. Aim to start charging around **4:00 PM - 5:00 PM**, but this is flexible.
 

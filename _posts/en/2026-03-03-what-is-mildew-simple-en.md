@@ -40,4 +40,5 @@ Quick comparison people often confuse:
 In everyday language, when people say "mildew" they usually mean the white/grayish thin fungal growth in damp household areas (especially bathrooms), while darker, thicker, more toxic growth is usually called "mold".
 
 References:
+
 - None needed for this basic definition

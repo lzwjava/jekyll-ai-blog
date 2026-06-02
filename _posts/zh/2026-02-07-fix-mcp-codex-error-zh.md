@@ -19,6 +19,7 @@ Answer:
 MCP 是一种协议（最初由 Anthropic 发起，现在被包括 OpenAI Codex 在内的工具广泛采用），旨在让 AI agents 连接到外部 tools/services。Codex 内置的本地文件系统访问通常是通过直接的 file tools 或 shell commands 实现的，而**不是**通过名为 "files" 的 MCP server。
 
 ### 为什么会发生这种情况
+
 Codex 的 model 有时会混淆普通的文件读取逻辑与基于 MCP 的读取逻辑（尤其是当它在 Cursor, Windsurf, Claude 等工具中见过大量 MCP 使用示例时）。这是 agent models 中已知的一种偶发行为 —— 即便不存在这样的 server，它也会产生幻觉 (hallucinates) 或过度泛化为 MCP 调用。
 
 ### 如何修复

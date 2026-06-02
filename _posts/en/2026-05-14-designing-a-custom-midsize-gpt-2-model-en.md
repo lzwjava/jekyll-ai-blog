@@ -30,7 +30,6 @@ The four standard configs in nanoGPT's `model.py` are:
 | gpt2-large | 36 | 20 | 1280 | 774M |
 | gpt2-xl | 48 | 25 | 1600 | 1558M |
 
-
 These are just defaults. nanoGPT's `GPTConfig` accepts arbitrary values, so you can design anything in between.
 
 ---
@@ -40,27 +39,33 @@ These are just defaults. nanoGPT's `GPTConfig` accepts arbitrary values, so you 
 There is no single canonical ~200M config, but here are three well-behaved options. The rule of thumb: `n_embd` must be divisible by `n_head`, and prefer powers-of-2-friendly numbers for GPU efficiency.
 
 **Option A — Wider, shallower (~190M)**
+
 ```python
 n_layer = 16
 n_head  = 16
 n_embd  = 896   # 896 / 16 = 56 head_dim (fine)
 ```
+
 Estimated params: ~190M
 
 **Option B — Balanced (~220M)**
+
 ```python
 n_layer = 18
 n_head  = 16
 n_embd  = 896
 ```
+
 Estimated params: ~215M
 
 **Option C — Closer to medium (~260M)**
+
 ```python
 n_layer = 20
 n_head  = 16
 n_embd  = 960   # 960 / 16 = 60 head_dim
 ```
+
 Estimated params: ~255M
 
 You can use nanoGPT's own `transformer_sizing.ipynb` notebook to get exact parameter counts for any config before committing to training.

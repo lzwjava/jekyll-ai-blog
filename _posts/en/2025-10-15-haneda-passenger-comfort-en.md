@@ -13,12 +13,15 @@ type: note
 Yeah, your memory sounds spot on—Haneda's been a standout for exactly those kinds of experiences, even back in 2016-2017. It's one of those airports that punches way above its weight in passenger comfort, especially during hiccups like delays. Let me break it down with some context to show why it lines up so well, based on what was going on at the time.
 
 ### Cleanliness and Those Smart Toilets
+
 Haneda was already earning global props for spotless facilities by the mid-2010s. It snagged top rankings in cleanliness surveys around then, with passengers raving about the floors, security areas, and especially the restrooms staying immaculate even during peak hours. The auto-cleaning, heated-seat toilets? Total Japan staple—those bidet-equipped "washlets" with self-sanitizing nozzles and warm air dryers were standard in airports like Haneda by 2016. They even deodorize automatically, which keeps things fresh without that typical airport funk. Your 12-hour layover would've felt way less grueling thanks to that tech; it's designed for efficiency in high-traffic spots.
 
 ### The Delay and Free Hotel Perk
+
 Flight delays from the U.S. to Tokyo were (and still are) a common headache, often due to weather or mechanical issues, but Japanese carriers like JAL or ANA stepped up big time for international routes. Their policies back then covered hotel stays, meals, and transport if the delay was on their end and pushed things overnight—exactly matching your "hours late" turning into a full night. A 12-hour wait sounds like it tipped into the next day, triggering that comp. It was a nice contrast to U.S. carriers, where you'd often fend for yourself unless it hit EU-style regs. Haneda's setup made coordinating that seamless, with on-site desks to sort vouchers on the spot.
 
 ### Polite Service and That Noodle Win
+
 Staff courtesy? Haneda's ground crew has long been a highlight in reviews—efficient bows, clear English directions, and zero attitude, even when jet-lagged crowds are grumpy. Travelers from 2016 noted it as a refreshing switch from chaotic U.S. hubs, with service ladies (common in Japan for roles like info desks) going the extra mile on smiles and patience.
 
 As for the noodles: Spot-on at ~1,000 yen. Airport ramen spots like Ramen Setagaya or Rokurinsha were dishing out solid tonkotsu or shoyu bowls for 800-1,200 yen then—decent portions with toppings, nothing fancy but way better than sad lounge pretzels. Prices have crept up since (hello, inflation and tourist boom), but your recall nails the value-for-money vibe of that era.

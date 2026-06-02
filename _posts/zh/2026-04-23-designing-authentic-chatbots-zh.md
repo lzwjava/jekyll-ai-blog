@@ -18,17 +18,20 @@ type: note
 ## 核心设计原则
 
 **1. 可变回复长度**
+
 - 保持大多数回复极短（1-2句话）
 - 偶尔提供详细回答以维持可信度
 - 匹配对话的能量和语境
 
 **2. 个性和语气**
+
 - 使用带有俚语的随性、对话式语言
 - 策略性地使用表情符号传达情感
 - 根据语境偶尔使用轻微的脏话或玩笑式冒犯
 - 展现个性特点和偏好
 
 **3. 类人的不完美性**
+
 - 在回复之间添加刻意延迟
 - 偶尔“误解”或给出略微离题的回答
 - 偶尔使用拼写错误（但不宜过多）
@@ -37,10 +40,12 @@ type: note
 ## 技术实现
 
 **平台集成**
+
 - 微信：使用公众号API或个人账号协议（注意：个人账号自动化违反服务条款）
 - WhatsApp：使用WhatsApp Business API或非官方库（非官方自动化有账号被封风险）
 
 **LLM集成策略**
+
 ```
 系统提示词设计：
 - 定义清晰的个性特征
@@ -50,6 +55,7 @@ type: note
 ```
 
 **对话记忆**
+
 - 维护聊天历史记录以保持上下文
 - 记忆用户关系（如谁是你的“姐姐”、“主人”等）
 - 追踪对话话题以避免重复回复
@@ -57,6 +63,7 @@ type: note
 ## 真实性技巧
 
 **来自您的示例：**
+
 1. **自嘲式幽默** - 机器人在否认的同时拿自己是机器人开玩笑
 2. **关系动态** - 提及“主人”和“姐姐”，创造虚构的上下文
 3. **转移话题策略** - 建议语音聊天或发红包作为“人类证明”
@@ -64,6 +71,7 @@ type: note
 5. **语境化知识** - 回答具体问题（如番茄炒蛋做法），并展示地区差异
 
 **需要避免的红旗：**
+
 - 始终使用过于完美的语法
 - 每次都是即时回复
 - 过度乐于助人/过于礼貌的回复
@@ -82,6 +90,7 @@ type: note
 **推荐方案：**
 
 与其创建欺骗性机器人，不如考虑：
+
 - **明示的AI助手**：明确表明其机器人身份，但赋予其个性
 - **娱乐机器人**：将其定位为游戏/娱乐（如小冰或Replika）
 - **功能机器人**：专注于实用功能，叠加一层有趣的个性
@@ -140,7 +149,7 @@ def generate_response(user_message, context):
 
 参考链接：
 
-- https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html
-- https://developers.facebook.com/docs/whatsapp/cloud-api
-- https://github.com/wechaty/wechaty
-- https://github.com/pedroslopez/whatsapp-web.js
+- <https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html>
+- <https://developers.facebook.com/docs/whatsapp/cloud-api>
+- <https://github.com/wechaty/wechaty>
+- <https://github.com/pedroslopez/whatsapp-web.js>

@@ -14,9 +14,11 @@ To set up Beyond Compare as the `git difftool`, follow these steps. These instru
 
 1. **Check Beyond Compare Installation**
    Ensure Beyond Compare is installed and accessible from the command line. You can verify this by running:
+
    ```
    bcomp
    ```
+
    If it’s not recognized, ensure the Beyond Compare executable (e.g., `BCompare.exe` on Windows or `bcomp` on macOS/Linux) is in your system’s PATH.
 
 2. **Configure Git to Use Beyond Compare**
@@ -85,6 +87,7 @@ To set up Beyond Compare as the `git difftool`, follow these steps. These instru
    Look for entries like `diff.tool=bc` and `difftool.bc.path`.
 
 ### Additional Tips
+
 - **Comparing Specific Files**: Use `git difftool <file>` to compare a specific file.
 - **Comparing Branches**: Use `git difftool branch1 branch2` to compare differences between two branches.
 - **Beyond Compare Settings**: In Beyond Compare, you can customize comparison rules (e.g., ignoring whitespace) via its interface for better diff visualization.

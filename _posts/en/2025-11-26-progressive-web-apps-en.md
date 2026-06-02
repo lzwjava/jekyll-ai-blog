@@ -68,12 +68,14 @@ PWAs were introduced by Google in 2015 and have become a standard supported by a
 ### When Should You Use a PWA?
 
 Great choice if you want:
+
 - Fast loading and offline capability
 - Reach users on both iOS and Android with one codebase
 - Avoid app store fees and review processes
 - High engagement (push notifications, home-screen icon)
 
 Not ideal if you need:
+
 - Deep access to device hardware (e.g., AR, advanced Bluetooth, in-app purchases via store billing)
 
 In short: PWAs blur the line between websites and native apps, giving you most of the benefits of a native app with the reach and simplicity of the web.

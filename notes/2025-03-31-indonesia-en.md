@@ -24,9 +24,9 @@ Indonesia, officially the Republic of Indonesia, is a transcontinental country s
 Indonesia has a **mixed economy with dirigiste characteristics**, and it is classified as an **emerging market economy** and a **newly industrialized country**. It is the **largest economy in Southeast Asia** and a member of the G20.
 
 * **Key Sectors (2017 est.):**
-    * Services: 45.4% of GDP
-    * Industry: 41% of GDP (including manufacturing)
-    * Agriculture: 13.7% of GDP
+  * Services: 45.4% of GDP
+  * Industry: 41% of GDP (including manufacturing)
+  * Agriculture: 13.7% of GDP
 * **Top Industries:** Petroleum and natural gas, textiles, automotive, electrical appliances.
 * **Trade Partners (2021):** China, United States, and Japan are the top three trade partners.
 * **Top Exported Goods (2021):** Oil & mineral fuels, fats & oils, and iron & steel.
@@ -51,11 +51,11 @@ Indonesia is experiencing rapid digital growth, driven by increasing internet pe
 * **Internet Penetration:** Approached 79% in 2024, with over 180 million smartphone users.
 * **Fintech:** Significant advancements have led to a substantial increase in financial inclusion.
 * **Artificial Intelligence (AI):**
-    * Gaining momentum across public and private sectors with increasing investment in research and development.
-    * National AI Strategy 2020-2045 outlines the vision for AI development, focusing on collaboration between government, industry, and academia.
-    * Key sectors prioritized for AI development include healthcare, bureaucratic reform, research and education, food security, and mobility and smart cities.
-    * AI is being applied in various sectors such as fintech (fraud detection, personalized banking), e-commerce (recommendations, supply chain optimization), logistics, cybersecurity, healthcare (diagnostics, telemedicine), education (personalized learning), and agriculture (precision farming).
-    * Initiatives like the AI Innovation Center (PIKA) and "Collaboration to accelerate Indonesian Artificial Intelligence innovation" (KORIKA) aim to foster AI growth.
+  * Gaining momentum across public and private sectors with increasing investment in research and development.
+  * National AI Strategy 2020-2045 outlines the vision for AI development, focusing on collaboration between government, industry, and academia.
+  * Key sectors prioritized for AI development include healthcare, bureaucratic reform, research and education, food security, and mobility and smart cities.
+  * AI is being applied in various sectors such as fintech (fraud detection, personalized banking), e-commerce (recommendations, supply chain optimization), logistics, cybersecurity, healthcare (diagnostics, telemedicine), education (personalized learning), and agriculture (precision farming).
+  * Initiatives like the AI Innovation Center (PIKA) and "Collaboration to accelerate Indonesian Artificial Intelligence innovation" (KORIKA) aim to foster AI growth.
 
 ### Regulatory Stance on Cryptocurrencies
 
@@ -86,22 +86,22 @@ Here's a breakdown of the cost of living in Indonesia:
 **Cost of Living in Major Cities:**
 
 * **Jakarta:** Generally the most expensive city in Indonesia.
-    * A single person's monthly expenses (excluding rent) could be around **IDR 8,125,143.7**.
-    * Expats might spend around **IDR 20,000,000 to IDR 25,000,000 per month** (approximately USD 1,350) depending on their lifestyle.
-    * **Rent:**
-        * 1-bedroom apartment in the city center: **IDR 4,000,000 to IDR 12,000,000 per month**.
-        * 1-bedroom apartment outside the center: **IDR 3,000,000 to IDR 7,000,000 per month**.
-        * 3-bedroom apartment in the city center: **IDR 10,000,000 to IDR 45,000,000 per month**.
-    * **Food:** A simple meal at an inexpensive restaurant costs around **IDR 30,000**.
+  * A single person's monthly expenses (excluding rent) could be around **IDR 8,125,143.7**.
+  * Expats might spend around **IDR 20,000,000 to IDR 25,000,000 per month** (approximately USD 1,350) depending on their lifestyle.
+  * **Rent:**
+    * 1-bedroom apartment in the city center: **IDR 4,000,000 to IDR 12,000,000 per month**.
+    * 1-bedroom apartment outside the center: **IDR 3,000,000 to IDR 7,000,000 per month**.
+    * 3-bedroom apartment in the city center: **IDR 10,000,000 to IDR 45,000,000 per month**.
+  * **Food:** A simple meal at an inexpensive restaurant costs around **IDR 30,000**.
 * **Bali:** Can be relatively expensive, especially in tourist areas.
-    * A single person might need around **IDR 10,428,160 per month** (excluding rent) for a comfortable life.
-    * **Rent:**
-        * 1-bedroom apartment: **IDR 3,500,000 to IDR 6,500,000 per month**.
+  * A single person might need around **IDR 10,428,160 per month** (excluding rent) for a comfortable life.
+  * **Rent:**
+    * 1-bedroom apartment: **IDR 3,500,000 to IDR 6,500,000 per month**.
 * **Surabaya, Bandung, Medan:** Generally have a lower cost of living compared to Jakarta and Bali.
-    * **Rent for a 1-bedroom apartment:**
-        * Surabaya: **IDR 2,500,000 to IDR 5,000,000**.
-        * Bandung: **IDR 2,500,000 to IDR 6,000,000**.
-        * Medan: **IDR 2,000,000 to IDR 4,000,000**.
+  * **Rent for a 1-bedroom apartment:**
+    * Surabaya: **IDR 2,500,000 to IDR 5,000,000**.
+    * Bandung: **IDR 2,500,000 to IDR 6,000,000**.
+    * Medan: **IDR 2,000,000 to IDR 4,000,000**.
 
 **Food Costs:**
 
@@ -110,11 +110,11 @@ Here's a breakdown of the cost of living in Indonesia:
 * **Inexpensive restaurants:** A simple meal might range from **IDR 15,000 to IDR 60,000**.
 * **Mid-range restaurants:** A meal for two could cost between **IDR 150,000 to IDR 600,000**.
 * **Groceries (average prices):**
-    * Milk (1 liter): around **IDR 20,000**.
-    * Rice (1 kg): around **IDR 14,000**.
-    * Eggs (12): around **IDR 25,000 - IDR 31,000**.
-    * Bread: around **IDR 16,000 - IDR 18,000** per loaf.
-    * Chicken (1 kg): around **IDR 23,000 - IDR 25,000**.
+  * Milk (1 liter): around **IDR 20,000**.
+  * Rice (1 kg): around **IDR 14,000**.
+  * Eggs (12): around **IDR 25,000 - IDR 31,000**.
+  * Bread: around **IDR 16,000 - IDR 18,000** per loaf.
+  * Chicken (1 kg): around **IDR 23,000 - IDR 25,000**.
 
 **Transportation Costs:**
 
@@ -159,23 +159,23 @@ Okay, here's the information on the cost of living in Indonesia, with approximat
 **Cost of Living in Major Cities (USD):**
 
 * **Jakarta:** Generally the most expensive city.
-    * A single person's monthly expenses (excluding rent): around **$508 USD**.
-    * Expats might spend around **$1,250 to $1,560 USD per month** depending on lifestyle.
-    * **Rent:**
-        * 1-bedroom apartment in the city center: **$250 to $750 USD per month**.
-        * 1-bedroom apartment outside the center: **$188 to $438 USD per month**.
-        * 3-bedroom apartment in the city center: **$625 to $2,813 USD per month**.
-    * **Food:** A simple meal at an inexpensive restaurant costs around **$1.88 USD**.
+  * A single person's monthly expenses (excluding rent): around **$508 USD**.
+  * Expats might spend around **$1,250 to $1,560 USD per month** depending on lifestyle.
+  * **Rent:**
+    * 1-bedroom apartment in the city center: **$250 to $750 USD per month**.
+    * 1-bedroom apartment outside the center: **$188 to $438 USD per month**.
+    * 3-bedroom apartment in the city center: **$625 to $2,813 USD per month**.
+  * **Food:** A simple meal at an inexpensive restaurant costs around **$1.88 USD**.
 * **Bali:** Can be relatively expensive, especially in tourist areas.
-    * A single person might need around **$652 USD per month** (excluding rent) for a comfortable life.
-    * **Rent:**
-        * 1-bedroom apartment: **$219 to $406 USD per month**.
+  * A single person might need around **$652 USD per month** (excluding rent) for a comfortable life.
+  * **Rent:**
+    * 1-bedroom apartment: **$219 to $406 USD per month**.
 * **Surabaya:** Lower cost of living compared to Jakarta and Bali.
-    * **Rent for a 1-bedroom apartment:** **$156 to $313 USD**.
+  * **Rent for a 1-bedroom apartment:** **$156 to $313 USD**.
 * **Bandung:** Lower cost of living compared to Jakarta and Bali.
-    * **Rent for a 1-bedroom apartment:** **$156 to $375 USD**.
+  * **Rent for a 1-bedroom apartment:** **$156 to $375 USD**.
 * **Medan:** Lower cost of living compared to Jakarta and Bali.
-    * **Rent for a 1-bedroom apartment:** **$125 to $250 USD**.
+  * **Rent for a 1-bedroom apartment:** **$125 to $250 USD**.
 
 **Food Costs (USD):**
 
@@ -183,14 +183,14 @@ Okay, here's the information on the cost of living in Indonesia, with approximat
 * **Inexpensive restaurants:** A simple meal might range from **$0.94 to $3.75 USD**.
 * **Mid-range restaurants:** A meal for two could cost between **$9.38 to $37.50 USD**.
 * **Groceries (average prices):**
-    * Milk (1 liter): around **$1.25 USD**.
-    * Rice (1 kg): around **$0.88 USD**.
-    * Eggs (12): around **$1.56 to $1.94 USD**.
-    * Bread: around **$1 to $1.13 USD** per loaf.
-    * Chicken (1 kg): around **$1.44 to $1.56 USD**.
-    * Local food (warungs): **$2-$4 USD per meal**.
-    * Western-style cafes: **$5-$10 USD per meal**.
-    * Groceries (local produce): **$150-$300 USD/month**.
+  * Milk (1 liter): around **$1.25 USD**.
+  * Rice (1 kg): around **$0.88 USD**.
+  * Eggs (12): around **$1.56 to $1.94 USD**.
+  * Bread: around **$1 to $1.13 USD** per loaf.
+  * Chicken (1 kg): around **$1.44 to $1.56 USD**.
+  * Local food (warungs): **$2-$4 USD per meal**.
+  * Western-style cafes: **$5-$10 USD per meal**.
+  * Groceries (local produce): **$150-$300 USD/month**.
 
 **Transportation Costs (USD):**
 
@@ -241,11 +241,11 @@ The income of average people and IT workers in Indonesia varies significantly ba
 
 * Minimum wages in Indonesia are set regionally at the provincial and sometimes even city/district level.
 * For **2024**, provincial minimum wages varied significantly. For example:
-    * **Jakarta (highest):** IDR 5,067,381 per month (around **$317 USD**).
-    * **West Java (lowest):** IDR 2,057,495 per month (around **$129 USD**).
+  * **Jakarta (highest):** IDR 5,067,381 per month (around **$317 USD**).
+  * **West Java (lowest):** IDR 2,057,495 per month (around **$129 USD**).
 * For **2025**, there has been an average increase of 6.5%. Some of the announced minimum wages for 2025 include:
-    * **Jakarta (highest estimated):** IDR 5,396,760 per month (around **$337 USD**).
-    * **West Java (lowest estimated):** IDR 2,191,232 per month (around **$137 USD**).
+  * **Jakarta (highest estimated):** IDR 5,396,760 per month (around **$337 USD**).
+  * **West Java (lowest estimated):** IDR 2,191,232 per month (around **$137 USD**).
 * The minimum wage is often lower than the average income, reflecting the large informal work sector and job demand exceeding supply.
 
 **3. Income of IT Workers:**
@@ -253,8 +253,8 @@ The income of average people and IT workers in Indonesia varies significantly ba
 * IT workers generally earn significantly more than the average income in Indonesia due to the demand for their skills.
 * **Average Monthly Salary for IT Workers:** In large cities like Jakarta, the average monthly salary for an IT worker ranges from **IDR 12,000,000 to IDR 15,000,000** (approximately **$750 to $938 USD**).
 * **Software Engineer Salaries:**
-    * Mid-level software engineers might earn around **IDR 15,000,000** (approximately **$938 USD**) per month.
-    * Senior software engineers can earn considerably more.
+  * Mid-level software engineers might earn around **IDR 15,000,000** (approximately **$938 USD**) per month.
+  * Senior software engineers can earn considerably more.
 * **IT Manager Salaries:** Average around **IDR 11,166,200** (approximately **$698 USD**) per month.
 * **IT Director Salaries:** Average around **IDR 12,543,200** (approximately **$784 USD**) per month.
 * **Factors Affecting IT Salaries:** Experience, specific skills (e.g., cybersecurity, AI), the size and type of the company (multinational corporations often pay higher), and location all play a role in determining the salary of IT professionals.

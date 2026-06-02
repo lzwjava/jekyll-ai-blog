@@ -26,6 +26,7 @@ Together, they form a **20-core Armv9 hybrid (big.LITTLE) CPU** in the Grace par
 The numbers **do not have to be identical** in general Arm big.LITTLE designs — many configurations use uneven splits (e.g., 8 big + 4 little). However, in the specific DGX Spark / GB10 design, NVIDIA chose a balanced **10 + 10** split for optimal AI workloads on a desktop-scale system. This provides strong performance without excessive power draw or heat in a compact form factor.
 
 In short:
+
 - The two "10"s refer to the count of each type of core in this particular 20-core Arm CPU.
 - Cortex-X925 = performance-focused cores.
 - Cortex-A725 = efficiency-focused cores.
@@ -35,6 +36,7 @@ This setup pairs with a powerful Blackwell GPU (up to 1 petaFLOP AI performance 
 If you're seeing this in system specs, logs, or `lscpu`/`cat /proc/cpuinfo` output on a DGX Spark running DGX OS, that's exactly what it describes.
 
 References:
-- https://docs.nvidia.com/dgx/dgx-spark/hardware.html
-- https://www.nvidia.com/en-us/products/workstations/dgx-spark/
-- https://newsroom.arm.com/blog/arm-nvidia-dgx-spark-high-performance-ai
+
+- <https://docs.nvidia.com/dgx/dgx-spark/hardware.html>
+- <https://www.nvidia.com/en-us/products/workstations/dgx-spark/>
+- <https://newsroom.arm.com/blog/arm-nvidia-dgx-spark-high-performance-ai>

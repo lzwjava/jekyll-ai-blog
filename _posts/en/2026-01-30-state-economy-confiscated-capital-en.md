@@ -16,7 +16,7 @@ Answer:
 
 After the founding of the People's Republic of China (New China) in 1949, **the main source of the state-owned economy was the confiscation of bureaucratic capital**.
 
-### Explanation:
+### Explanation
 
 - **新中国诞生后** = After the birth / founding of New China (refers to October 1, 1949, when the People's Republic of China was officially established).
 - **国营经济** = State-owned economy / state sector / economy owned and operated by the government (also called "state-run economy" or "socialist state economy" at that time).

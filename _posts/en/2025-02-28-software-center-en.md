@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Key Points
+
 - It seems likely that services.msc is a tool to manage Windows services, and checking the sms agent host service here is crucial for fixing download issues.
 - Research suggests adaptiveclient is likely the Adaptiva Client Service, part of a system management tool that may conflict with Configuration Manager, potentially affecting downloads.
 - The evidence leans toward the wmi performance adapter being a Windows service for performance data, which Configuration Manager uses and should be running for proper function.
@@ -17,6 +18,7 @@ type: note
 ---
 
 ### What Are These Services and Their Role?
+
 **services.msc Overview**
 services.msc is the Microsoft Management Console for services, allowing you to view and manage all services on your Windows machine. To fix the software center download issue, you should use it to ensure the sms agent host service is running. If it's not, starting it might resolve the problem.
 
@@ -30,7 +32,9 @@ The wmi performance adapter is a Windows service that provides performance data 
 The sms agent host is the service that runs the Configuration Manager client on the machine ([Microsoft Documentation on Configuration Manager Client Management](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients)). It's essential for the software center and deployments. If it's not running, the download won't proceed.
 
 ### How They Relate to Fixing the Download Issue
+
 To fix the software center download issue stuck at 0%, follow these steps:
+
 - Open services.msc and ensure the sms agent host service is running. If not, start it.
 - Check if the wmi performance adapter service is running, as it might be required for some Configuration Manager functions.
 - If adaptiveclient is running and potentially interfering, consider stopping it or seeking further assistance from Adaptiva's support.
@@ -121,6 +125,7 @@ This comprehensive analysis highlights the importance of ensuring the sms agent 
 ---
 
 ### Key Citations
+
 - [Adaptiva Official Website, Comprehensive Endpoint Management Solutions](https://adaptiva.com)
 - [Microsoft Documentation on Configuration Manager Client Management, Manage Clients in ConfigMgr](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients)
 - [Troubleshoot WMI Performance Issues, Guide to Solving WMI Performance Problems](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/scenario-guide-troubleshoot-wmi-performance-issues)

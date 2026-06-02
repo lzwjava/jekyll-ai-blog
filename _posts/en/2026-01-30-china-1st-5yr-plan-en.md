@@ -15,6 +15,7 @@ The **First Five-Year Plan (1953–1957)** was China’s inaugural centralized e
 ---
 
 ### **Key Objectives**
+
 1. **Industrialization**: Prioritize heavy industry (e.g., steel, coal, machinery) to build a self-sufficient industrial base.
 2. **Agricultural Collectivization**: Increase agricultural output and transition from individual farming to collective farming (e.g., cooperatives).
 3. **Infrastructure Development**: Expand transportation, energy, and communication networks.
@@ -23,6 +24,7 @@ The **First Five-Year Plan (1953–1957)** was China’s inaugural centralized e
 ---
 
 ### **Major Achievements**
+
 - **Industrial Growth**: Output of heavy industries like steel, coal, and electricity surged. For example, steel production increased from 1.35 million tons in 1952 to 5.35 million tons in 1957.
 - **Agricultural Output**: Grain production rose, though collectivization later led to challenges.
 - **Infrastructure**: Construction of railways, roads, and factories accelerated, including projects like the Wuhan Yangtze River Bridge.
@@ -31,6 +33,7 @@ The **First Five-Year Plan (1953–1957)** was China’s inaugural centralized e
 ---
 
 ### **Challenges and Criticisms**
+
 - **Overemphasis on Heavy Industry**: Consumer goods were neglected, leading to shortages.
 - **Agricultural Strain**: Forced collectivization disrupted rural life and reduced farmer incentives.
 - **Labor Intensity**: Relied heavily on mass mobilization (e.g., labor campaigns), sometimes at the cost of efficiency.
@@ -39,6 +42,7 @@ The **First Five-Year Plan (1953–1957)** was China’s inaugural centralized e
 ---
 
 ### **Legacy**
+
 The First Five-Year Plan laid the foundation for China’s industrialization but also set precedents for later economic policies, including the Great Leap Forward (1958–1962). It demonstrated the potential and pitfalls of centralized planning in a developing economy.
 
 Would you like more details on a specific aspect, such as its impact on daily life or comparisons with later plans?

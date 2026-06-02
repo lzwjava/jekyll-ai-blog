@@ -21,6 +21,7 @@ After the founding of the People's Republic of China in 1949, the economy consis
 **Time Period**: 1953-1956
 
 **Process**:
+
 - Started with mutual aid teams (互助组) where farmers helped each other seasonally
 - Progressed to elementary agricultural producers' cooperatives (初级农业生产合作社), where land remained privately owned but was pooled for collective use
 - Advanced to higher-level cooperatives (高级农业生产合作社), where land became collectively owned
@@ -32,6 +33,7 @@ After the founding of the People's Republic of China in 1949, the economy consis
 **Time Period**: 1954-1956
 
 **Process**:
+
 - Individual craftspeople were organized into cooperatives
 - Similar progression from simple cooperation groups to production cooperatives
 - Preserved traditional skills while introducing collective management
@@ -43,6 +45,7 @@ After the founding of the People's Republic of China in 1949, the economy consis
 **Time Period**: 1954-1956
 
 **Process**:
+
 - Used "赎买政策" (redemption policy) - a peaceful approach rather than confiscation
 - Implemented "公私合营" (public-private joint management), where the state gradually increased control
 - Former owners received fixed interest payments (定息) for several years

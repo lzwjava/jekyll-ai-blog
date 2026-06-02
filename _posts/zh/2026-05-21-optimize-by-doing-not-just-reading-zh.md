@@ -31,6 +31,7 @@ AI 在 **循环内部** 最为有用，而不是在循环之前。你不要抽�
 ## 具体示例：ROCm 内核优化
 
 **第一步：找到真实的目标**
+
 ```python
 # 你正在运行一个 Transformer —— 分析注意力内核
 import torch
@@ -48,6 +49,7 @@ print(f"{start.elapsed_time(end):.2f} ms")
 ```
 
 **第二步：编写一个简单的 HIP 内核**
+
 ```cpp
 __global__ void naive_matmul(float* A, float* B, float* C, int N) {
     int row = blockIdx.y * blockDim.y + threadIdx.y;
@@ -60,12 +62,14 @@ __global__ void naive_matmul(float* A, float* B, float* C, int N) {
 ```
 
 **第三步：使用 rocprof 进行分析**
+
 ```bash
 rocprof --stats -o profile.csv ./my_kernel
 # 查看：FETCH_SIZE, L2CacheHit, wavefront occupancy
 ```
 
 **第四步：带着证据向 AI 提问**
+
 ```
 这是我的内核：[粘贴]
 这是我的 rocprof 输出：[粘贴]
@@ -77,6 +81,7 @@ L2 命中率为 23%。我的假设是 B 矩阵的访问模式是非合并的。�
 ## 真正的洞见
 
 大多数优化知识 **并不在阅读中** —— 它存在于以下两者之间的差距中：
+
 - 你 *认为* 会很快的方式
 - 分析器 *实际指出* 正在发生的情况
 

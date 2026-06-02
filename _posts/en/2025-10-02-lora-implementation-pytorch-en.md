@@ -18,6 +18,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 # Define LoRA layer
+
 class LoRALayer(nn.Module):
     def __init__(self, in_features, out_features, rank=4):
         super(LoRALayer, self).__init__()
@@ -36,12 +37,14 @@ class LoRALayer(nn.Module):
         return original + lora_adjustment
 
 # Toy dataset for demonstration
+
 def create_toy_dataset(n_samples=1000):
     X = torch.randn(n_samples, 64)  # Random input features
     y = torch.randn(n_samples, 10)  # Random target outputs
     return X, y
 
 # Training function
+
 def train_model(model, X, y, epochs=10, lr=0.01):
     criterion = nn.MSELoss()
     optimizer = optim.Adam([param for param in model.parameters() if param.requires_grad], lr=lr)
@@ -56,6 +59,7 @@ def train_model(model, X, y, epochs=10, lr=0.01):
         print(f"Epoch {epoch+1}/{epochs}, Loss: {loss.item():.4f}")
 
 # Main execution
+
 def main():
     # Set random seed for reproducibility
     torch.manual_seed(42)

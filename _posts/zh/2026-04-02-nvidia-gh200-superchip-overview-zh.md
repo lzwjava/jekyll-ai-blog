@@ -25,9 +25,10 @@ Answer: 这种特定配置，通常标记为 **vbm-72c-480gb-gh200-gpu**，代�
 ---
 
 ### **为什么这很特别**
-1.  **消除 PCIe 瓶颈：** 在标准系统中，数据通过 PCIe（约 128 GB/s）在 CPU 和 GPU 之间移动。GH200 使用 NVLink-C2C，速度 **快 7 倍 (900 GB/s)**。
-2.  **巨型模型支持：** 凭借 576 GB 可寻址内存，您可以运行巨型模型（如 Llama 3 70B 或更大），具有极长的上下文窗口，而无需将模型拆分到多个独立 GPU 上。
-3.  **效率：** Grace CPU 提供的性能功耗比约为传统 x86 服务器 CPU 的 **2 倍**，使其非常适合持续的云工作负载。
+
+1. **消除 PCIe 瓶颈：** 在标准系统中，数据通过 PCIe（约 128 GB/s）在 CPU 和 GPU 之间移动。GH200 使用 NVLink-C2C，速度 **快 7 倍 (900 GB/s)**。
+2. **巨型模型支持：** 凭借 576 GB 可寻址内存，您可以运行巨型模型（如 Llama 3 70B 或更大），具有极长的上下文窗口，而无需将模型拆分到多个独立 GPU 上。
+3. **效率：** Grace CPU 提供的性能功耗比约为传统 x86 服务器 CPU 的 **2 倍**，使其非常适合持续的云工作负载。
 
 ### **技术规格**
 
@@ -42,6 +43,7 @@ Answer: 这种特定配置，通常标记为 **vbm-72c-480gb-gh200-gpu**，代�
 > **注意：** 由于使用了 **ARM-based CPU**，您必须确保您的软件和 Docker 容器为 `arm64/aarch64` 编译。大多数现代 AI 框架 (PyTorch, TensorFlow, NVIDIA NIM) 原生支持此架构，但较旧的仅 x86 二进制文件在没有仿真的情况下无法运行。
 
 参考资料：
+
 * [NVIDIA GH200 Grace Hopper Superchip Official Page](https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/)
 * [Vultr GH200 Cloud GPU Documentation](https://www.vultr.com/products/cloud-gpu/nvidia-gh200/)
 * [Grace Hopper Architecture In-Depth - NVIDIA Technical Blog](https://developer.nvidia.com/blog/nvidia-grace-cpu-superchip-architecture-in-depth/)

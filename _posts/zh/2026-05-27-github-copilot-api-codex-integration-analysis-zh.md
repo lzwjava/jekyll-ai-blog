@@ -30,6 +30,7 @@ pub enum WireApi {
 ```
 
 GitHub Copilot 暴露了：
+
 - `https://api.githubcopilot.com/chat/completions` — Chat Completions 格式
 - `https://models.inference.ai.azure.com/v1/chat/completions` — GitHub Models
 
@@ -44,6 +45,7 @@ pip install litellm[proxy]
 ```
 
 `litellm_config.yaml`：
+
 ```yaml
 model_list:
   - model_name: gpt-4o
@@ -57,6 +59,7 @@ litellm --config litellm_config.yaml --port 4000
 ```
 
 然后在 `~/.codex/config.toml` 中：
+
 ```toml
 model_provider = "copilot"
 
@@ -88,6 +91,7 @@ experimental_bearer_token = "sk-litellm-dummy"
    - 当 `WireApi::Responses` 时，使用现有的 `ResponsesClient`
 
 4. **`config.toml`** 用于你的企业：
+
 ```toml
 model_provider = "copilot"
 

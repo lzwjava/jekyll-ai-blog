@@ -17,6 +17,7 @@ type: note
 用于连接 IBM DB2 的 Python 包名为 `ibm_db`（通常称为“ibm_db”或 IBM DB2 包）。它需要 IBM DB2 CLI/ODBC 驱动程序 (clidriver) 才能运行，因为它依赖于驱动程序的 DLL（例如 `db2cli.dll` 及其他文件）。
 
 ### 推荐的现代方法（适用于最新版本，最简单）
+
 最新版本的 `ibm_db`（PyPI 上的 wheels）包含一个捆绑的轻量级 clidriver，其中包含所有必需的 DLL。
 
 - 只需运行：
@@ -25,10 +26,12 @@ type: note
 这会自动将驱动程序 DLL 安装到您的 Python site-packages 目录中（通常在 `site-packages\clidriver\bin` 下）。
 
 通常不需要手动添加到 PATH，因为软件包会处理捆绑驱动程序的加载。如果遇到“DLL load failed”错误：
+
 - 如果使用 64 位设置，请确保您的 Python 也是 64 位（通过 `python -c "import struct; print(struct.calcsize('P') * 8)"` 检查——应该输出 64）。
 - 安装后重新启动您的 IDE 或命令提示符。
 
 ### 如果使用外部或单独的 DB2 驱动程序
+
 如果您单独安装了 IBM Data Server Driver for ODBC and CLI（或需要特定版本）：
 
 1. 从 IBM Fix Central 下载驱动程序 ZIP 文件（例如，适用于 64 位 Windows 的 `ntx64_odbc_cli.zip`）：

@@ -23,6 +23,7 @@ vLLM是一款常被推荐用于高效部署开源权重模型的开源推理引�
 | **DeepSeek AI** | 是 | DeepSeek基于vLLM开源了定制化推理引擎，融入了其研究成果的优化技术。该引擎已应用于DeepSeek-V3、R1等模型，并为vLLM项目贡献代码。 |
 
 ### 参考资料
+
 - [DeepSeek开源基于vLLM的定制推理引擎](https://www.ainews.com/p/deepseek-open-sources-custom-inference-engine-built-on-vllm)
 - [DeepSeek推理引擎的开源之路](https://news.ycombinator.com/item?id=43682088)
 - [MiniMax-M1混合架构与vLLM的融合实践](https://blog.vllm.ai/2025/06/30/minimax-m1.html)

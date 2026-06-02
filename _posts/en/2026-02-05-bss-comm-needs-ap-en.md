@@ -23,27 +23,31 @@ D. Hub
 
 ---
 
-## Detailed Explanation:
+## Detailed Explanation
 
 When a mobile device within a BSS (Basic Service Set) needs to communicate with devices outside its BSS, it must go through the **AP (Access Point)** within that BSS.
 
-### Key Concepts:
+### Key Concepts
 
 **BSS (Basic Service Set):**
+
 - A fundamental unit in a wireless local area network (WLAN)
 - Consists of one or more mobile devices and one AP
 - Forms a single wireless coverage area
 
 **Communication within BSS:**
+
 - Mobile devices can communicate directly with each other through wireless channels
 - No need to go through the AP for intra-BSS communication (in some configurations)
 
 **Communication outside BSS:**
+
 - Mobile devices **must** use the AP as an intermediary
 - The AP acts as a bridge/gateway to external networks
 - Data flow: Mobile Device → AP → External Network → Destination Device
 
 **Role of the AP:**
+
 - Serves as a critical relay point
 - Enables connectivity between the wireless BSS and wired/external networks
 - Manages authentication, association, and routing for devices in its BSS

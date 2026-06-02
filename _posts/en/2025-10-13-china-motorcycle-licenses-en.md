@@ -16,6 +16,7 @@ In mainland China, neither the C1 nor C2 driver's license category is for motorc
 - **C2**: Specifically for automatic transmission light motor vehicles (a subset of C1, often for those who only want to drive automatics).
 
 Motorcycles fall under separate categories:
+
 - **D**: Ordinary three-wheel motorcycles (over 50cc displacement and 50 km/h speed).
 - **E**: Ordinary two-wheel motorcycles (over 50cc displacement and 50 km/h speed; this is the standard for most full-sized bikes).
 - **F**: Light motorcycles (50cc or less displacement and 50 km/h or less speed; for smaller scooters).

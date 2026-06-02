@@ -30,12 +30,11 @@ SSH 计时
 
 SSH 配置现已设置：
 
-
 ssh dmit       # -> 直接连接 69.63.219.0（绕过 SOCKS5 代理）
 ssh amd-cloud  # -> 通过 dmit 跳转连接 134.199.205.0
 
-
 工作原理：
+
 - Host dmit 设置了 ProxyCommand none，以绕过你的 !192.168.*.* SOCKS5 通配符
 - Host amd-cloud 使用 ProxyJump dmit，这会覆盖 SOCKS5 的 ProxyCommand（ProxyJump 优先级更高）
 - 其他所有非本地主机仍像以前一样通过 hysteria2 代理

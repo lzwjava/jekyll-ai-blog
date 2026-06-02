@@ -17,7 +17,7 @@ Answer:
 
 It refers to **Asynchronous Transfer Mode** — a high-speed, cell-based telecommunications networking technology that was widely used in the 1990s and early 2000s, mainly in telephone company (telco) backbones, early broadband access networks (e.g., ADSL infrastructure), and some enterprise environments.
 
-### Quick clarification of the two completely different meanings of "ATM":
+### Quick clarification of the two completely different meanings of "ATM"
 
 | Term                  | Full name                              | Meaning                                                                 | Time period of relevance          | Still in use today?          |
 |-----------------------|----------------------------------------|-------------------------------------------------------------------------|-----------------------------------|------------------------------|

@@ -18,10 +18,12 @@ This post was originally written in Chinese and published on Qzone.
 1. First, choose an icon you like. The icon file extension should be `.ico`.
 2. Copy the icon file to your USB drive and create a new text document on the USB drive.
 3. In the text document, write the following:
+
    ```
    [autorun]
    ICON=\xxx.ico,0
    ```
+
    Where `xxx.ico` is the name of your icon file (including the extension).
 4. Save the text file as `autorun.inf`.
    **Note:** It's crucial to change the extension to `.inf`, not `.txt`. If the file icon changes to one with a yellow gear, you've done it correctly.
@@ -32,6 +34,7 @@ This post was originally written in Chinese and published on Qzone.
 
 1. First, choose a background image you like and copy it to your USB drive.
 2. Create a new text file and copy the following into it:
+
    ```
    [ExtShellFolderViews]
    {BE098140-A513-11D0-A3A4-00C04FD706EC}={BE098140-A513-11D0-A3A4-00C04FD706EC}
@@ -42,6 +45,7 @@ This post was originally written in Chinese and published on Qzone.
    [.ShellClassInfo]
    ConfirmFileOp=0
    ```
+
    This code means:
 
    Where `aaa.jpg` is the name of your chosen image file (including the extension).
@@ -50,16 +54,16 @@ This post was originally written in Chinese and published on Qzone.
 
    Color codes are:
 
-   *   Red: `0x000000FF`
-   *   Yellow: `0x0000FFFF`
-   *   Blue: `0x00FF0000`
-   *   Gray: `0x00808080`
-   *   Lime Green: `0x006BDEC7`
-   *   Black: `0x00000000`
-   *   Excel Background Color: `0x00848284`
-   *   White: `0x00FFFFFF`
-   *   Green: `0x00008000`
-   *   Purple: `0x00C000C0`
+   * Red: `0x000000FF`
+   * Yellow: `0x0000FFFF`
+   * Blue: `0x00FF0000`
+   * Gray: `0x00808080`
+   * Lime Green: `0x006BDEC7`
+   * Black: `0x00000000`
+   * Excel Background Color: `0x00848284`
+   * White: `0x00FFFFFF`
+   * Green: `0x00008000`
+   * Purple: `0x00C000C0`
 
    Choose a color you like (that complements your background) and replace the existing color code.
 

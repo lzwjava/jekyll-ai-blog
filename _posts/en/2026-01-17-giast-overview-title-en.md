@@ -19,6 +19,7 @@ Answer:
 The school's Guangzhou campus is situated in Zhucun (朱村), specifically at **No. 432 Zhucun Avenue East, Zhucun Street, Zengcheng District, Guangzhou City, Guangdong Province** (广州市增城区朱村街朱村大道东432号). "Zhucun" refers to this Zhu Village area in Zengcheng, where the main Guangzhou campus is based.
 
 ### Key Facts
+
 - **History**: Founded in 2000 as Songtian College of Guangzhou University (广州大学松田学院), an independent college. In December 2020, it was approved by the Ministry of Education to transition from an independent college to an independently run private undergraduate institution and renamed Guangzhou Institute of Applied Science and Technology.
 - **Campuses**: It operates two campuses — the Guangzhou campus (in Zhucun, Zengcheng) and a newer campus in Zhaoqing (肇庆校区, in Dinghu District, which opened around 2021).
 - **Scale**: The school covers a total area of approximately 1,064–1,770 mu (around 70–118 hectares, with varying figures across sources). It enrolls students nationwide and has over 26,000–32,000 students (figures vary by recent reports).

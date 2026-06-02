@@ -22,11 +22,13 @@ Apple's Clock app arrived on Mac with macOS Ventura (released October 2022). It'
 Honestly — it's mediocre for a Mac power user. Here's the breakdown:
 
 **What works:**
+
 - World clock shows sunrise/sunset and a day/night map overlay — the macOS version does display sunrise and sunset time and a map showing where it is currently night and day, unlike the iOS version.
 - Timer and stopwatch are functional. Since iOS 17, multiple timers can be set simultaneously with a recent timers list.
 - The app icon dynamically shows the current time — a small but nice touch.
 
 **What's weak:**
+
 - It's an iOS app ported to macOS via Catalyst/SwiftUI — not a native Mac app with Mac idioms. It shows in the UI feel.
 - No menubar integration (unlike third-party apps like "The Clock" or "Hour" which put world clocks right in your menubar).
 - The alarm feature on Mac is nearly useless in practice — your Mac has to be awake and the app open (or at least not killed).
@@ -64,5 +66,6 @@ If you want world clock visibility as a developer working across time zones (e.g
 - For alarms that matter: use iPhone. The Mac Clock alarm is a toy.
 
 References:
+
 - [Clock (Apple) — Wikipedia](https://en.wikipedia.org/wiki/Clock_(Apple))
 - [The Clock — Mac App Store](https://apps.apple.com/us/app/the-clock/id488764545?mt=12)

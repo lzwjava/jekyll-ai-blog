@@ -32,11 +32,13 @@ Yes — this pattern is **real and quite common** among high-achieving students,
    - The interests feed cognitive growth → easier to maintain top ranks with moderate exam-specific work.
 
 Empirical observations (very rough prevalence among genuinely exceptional students):
+
 - ~35–55% lean heavily toward type 1 (passion → broad learning → exams become easy side-effect)
 - ~20–35% lean heavily toward type 2 (deliberate exam optimization is the main path)
 - ~25–40% are reasonably balanced hybrids
 
 Important boundary conditions:
+
 - The "hobby-first → still get top grades with little exam prep" pattern is **most visible / most extreme** in subjects and systems that reward reasoning, transfer, and deep understanding (math, physics, computer science olympiads, theoretical subjects, some parts of US/UK university admissions, research-oriented competitions).
 - It is **much harder / less common** in ultra-high-stakes, high-volume-memory, speed-oriented systems (certain versions of gaokao, JEE-Advanced in its hardest years, some medical entrance exams) where sheer volume of practiced content and test-specific技巧 matters enormously.
 

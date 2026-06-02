@@ -19,7 +19,7 @@ The correct answer is **Synchronous Time Division Multiplexing (STDM)**, often s
 
 In this multiplexing technique, the total bandwidth of the communication channel is divided into specific **time slots**. Each input source is pre-assigned a dedicated slot in every frame, regardless of whether that source has data to send or not.
 
-#### Key Characteristics:
+#### Key Characteristics
 
 * **Fixed Assignment:** Every device gets a "turn" at a specific, repeating time.
 * **No Transferability:** If a signal source (Source A) is idle and has no data to transmit, its time slot remains **empty**. Source B cannot "borrow" or use Source A's slot.

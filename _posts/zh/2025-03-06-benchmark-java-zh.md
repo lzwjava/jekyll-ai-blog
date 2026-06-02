@@ -17,6 +17,7 @@ Java 微基准测试工具（JMH）是一个功能强大的工具，用于在 Ja
 要使用 JMH，您需要将其包含在项目中。以下是使用 Maven 或 Gradle 的方法：
 
 ### **Maven**
+
 将以下依赖项添加到您的 `pom.xml` 中：
 
 ```xml
@@ -34,6 +35,7 @@ Java 微基准测试工具（JMH）是一个功能强大的工具，用于在 Ja
 ```
 
 ### **Gradle**
+
 将以下行添加到您的 `build.gradle` 中：
 
 ```groovy
@@ -111,6 +113,7 @@ public class MyBenchmark {
 要执行基准测试，您可以使用 JMH 运行器。以下是使用 Maven 的方法：
 
 ### **添加 Maven Shade 插件**
+
 在您的 `pom.xml` 中包含以下内容以创建可执行的 JAR：
 
 ```xml
@@ -142,6 +145,7 @@ public class MyBenchmark {
 ```
 
 ### **构建和运行**
+
 1. 构建 JAR：`mvn clean package`
 2. 运行基准测试：`java -jar target/benchmarks.jar`
 
@@ -173,6 +177,7 @@ MyBenchmark.testMethod avgt    5  1.234 ± 0.012  ns/op
 JMH 提供了其他工具用于更复杂的场景：
 
 ### **参数化**
+
 使用 `@Param` 测试不同输入的代码：
 
 ```java
@@ -191,6 +196,7 @@ public class MyBenchmark {
 ```
 
 ### **黑洞**
+
 使用 `Blackhole` 防止 JVM 优化掉未使用的结果：
 
 ```java

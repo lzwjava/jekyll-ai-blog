@@ -29,7 +29,9 @@ Below is a step-by-step solution to resolve this issue and successfully complete
 ---
 
 ### Step 1: Understand the Problem
+
 The log shows that pip is installing the following packages:
+
 - `pyperclip`
 - `typing-extensions`
 - `packaging`
@@ -42,24 +44,28 @@ The "typing-extensions None" in the error message suggests that pip cannot deter
 ---
 
 ### Step 2: Fix the `typing-extensions` Installation
+
 To resolve this, you need to repair the broken `typing-extensions` installation. The suggested command from the hint is the best approach:
 
 ```bash
 pip install --force-reinstall --no-deps typing-extensions==4.14.0
 ```
 
-#### What This Command Does:
+#### What This Command Does
+
 - **`pip install`**: Installs the specified package.
 - **`--force-reinstall`**: Forces pip to reinstall `typing-extensions`, even if it’s already present, overwriting the existing installation.
 - **`--no-deps`**: Prevents pip from installing any dependencies of `typing-extensions`. Since `typing-extensions` is a standalone pure Python package with no dependencies, this flag ensures a clean reinstall without affecting other packages.
 - **`typing-extensions==4.14.0`**: Specifies version 4.14.0, which is likely the version pip was trying to install when the error occurred.
 
 Running this command will:
+
 - Reinstall `typing-extensions` version 4.14.0.
 - Create a proper RECORD file in the package’s directory (typically in `site-packages`).
 - Fix the corrupted or incomplete installation.
 
-#### Run the Command:
+#### Run the Command
+
 Open your terminal and execute:
 
 ```bash
@@ -71,6 +77,7 @@ After this command completes successfully, the `typing-extensions` package shoul
 ---
 
 ### Step 3: Retry the Original Installation
+
 Once `typing-extensions` is fixed, you can proceed with installing the packages you originally intended to install. Based on the log, it seems you were running a command like:
 
 ```bash
@@ -79,7 +86,8 @@ pip install pyperclip
 
 This command likely triggered the installation of `pyperclip`, `typing-extensions`, `packaging`, and `jmespath` because `pyperclip` or another package has dependencies on them. Now that `typing-extensions` is properly installed, the uninstallation issue should no longer occur.
 
-#### Run the Original Command:
+#### Run the Original Command
+
 Retry the installation by running:
 
 ```bash
@@ -91,6 +99,7 @@ This should now complete without errors, installing all collected packages succe
 ---
 
 ### Why This Works
+
 - The missing RECORD file prevented pip from uninstalling the old `typing-extensions` installation, causing the process to fail.
 - Force-reinstalling `typing-extensions` with the specified version ensures that pip can manage the package correctly moving forward.
 - The `--no-deps` flag keeps the fix isolated to `typing-extensions`, avoiding unnecessary changes to other packages.
@@ -98,6 +107,7 @@ This should now complete without errors, installing all collected packages succe
 ---
 
 ### Additional Notes
+
 - **Safety**: Since `typing-extensions` is a pure Python package and not a system-level dependency, force-reinstalling it is safe and won’t disrupt your Python environment.
 - **Version Confirmation**: The hint specifies version 4.14.0, which is likely the version required by one of the packages you’re installing. If you need a different version, you can check the requirements of `pyperclip`, `packaging`, or `jmespath` (e.g., via their documentation or `pip show <package>` after installation).
 - **Manual Cleanup (Not Recommended)**: You could manually delete the `typing-extensions` folder from `site-packages`, but this is riskier and unnecessary since `pip --force-reinstall` handles it cleanly.
@@ -105,11 +115,15 @@ This should now complete without errors, installing all collected packages succe
 ---
 
 ### Final Steps
+
 1. Fix `typing-extensions`:
+
    ```bash
    pip install --force-reinstall --no-deps typing-extensions==4.14.0
    ```
+
 2. Install your packages:
+
    ```bash
    pip install pyperclip
    ```

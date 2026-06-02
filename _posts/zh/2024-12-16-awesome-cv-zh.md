@@ -16,6 +16,7 @@ type: post
 ---
 
 ### 为什么选择 Awesome-CV？
+
 - 可定制：您可以个性化设置部分内容、颜色和格式。
 - 专业外观：简洁的设计，完美适用于求职申请。
 - 易于使用：只需最基本的 LaTeX 知识即可操作。
@@ -90,16 +91,16 @@ RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
 awesome-cv: $(foreach x, coverletter resume-zh resume, $x.pdf)
 
 resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+ $(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 resume-zh.pdf: $(EXAMPLES_DIR)/resume-zh.tex $(RESUME_ZH_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+ $(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+ $(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+ rm -rf $(EXAMPLES_DIR)/*.pdf
 ```
 
 ### 工作原理
@@ -110,7 +111,6 @@ clean:
    • `coverletter.pdf`：求职信
 
 2. 运行 `make clean` 删除所有生成的 PDF 文件。
-
 
 ### 结论
 

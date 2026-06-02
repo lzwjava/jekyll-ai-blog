@@ -33,6 +33,7 @@ type: note
 7. **在挫折中坚韧前行**：尽管遭遇拒绝与自我怀疑，许埈珥始终 persevere。他的经历尤其启示那些缺乏特权背景的追梦者：韧性是突破困境的关键。[](https://www.econjobrumors.com/topic/someone-please-summarize-what-june-huhs-academic-career-teaches-us)[](https://profilesinfo.com/june-huh-wiki-networth-age/)
 
 ### 批判性思考
+
 尽管许埈珥的经历充满激励，但也有观点指出其背后存在的特权因素——父母学术背景带来的二次机会（例如仍能被首尔国立大学录取）。这引发对学术机会公平性的思考：系统性障碍可能阻碍具有同等潜力的普通人。然而，许埈珥通过努力与原创性把握机遇的能力，依然具有深刻启示意义。[](https://www.reddit.com/r/math/comments/vs6y0f/june_huh_high_school_dropout_wins_the_fields/)[](https://www.econjobrumors.com/topic/someone-please-summarize-what-june-huhs-academic-career-teaches-us)
 
 许埈珥的故事揭示：成功无需直线攀升或过早绽放。只要保持好奇、寻求良师、敢于突破常规，每个人都能发掘潜能——尽管社会资源分配不均的现实提醒我们，机遇之门并非向所有人平等敞开。[](https://photonlines.substack.com/p/lessons-from-june-huh-from-high-school)

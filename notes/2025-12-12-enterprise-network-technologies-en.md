@@ -17,6 +17,7 @@ Answer:
 Enterprise networks are large-scale, mission-critical networks that support organizations with high availability, security, performance, and scalability requirements. Below is a structured, comprehensive introduction to some of the most important technologies used in modern enterprise environments.
 
 ### 1. First-Hop Redundancy Protocols (FHRP)
+
 These protocols provide gateway redundancy for hosts, ensuring continuous connectivity if a default gateway fails.
 
 - **VRRP (Virtual Router Redundancy Protocol)**
@@ -32,9 +33,11 @@ These protocols provide gateway redundancy for hosts, ensuring continuous connec
 - **GLBP (Gateway Load Balancing Protocol)** – Cisco proprietary, provides load balancing
 
 ### 2. Quality of Service (QoS)
+
 QoS manages bandwidth, latency, jitter, and packet loss to prioritize critical traffic (voice, video, business apps) over less important traffic.
 
 #### Core QoS Concepts
+
 - **Classification** – Identifying traffic (using ACLs, NBAR, DSCP/IPP/CoS markings)
 - **Marking** – Setting Layer 2 (CoS) or Layer 3 (IP Precedence, DSCP) values
 - **Policing** – Rate-limiting (drops or remarks excess traffic)
@@ -43,6 +46,7 @@ QoS manages bandwidth, latency, jitter, and packet loss to prioritize critical t
 - **Congestion Avoidance** – WRED (Weighted Random Early Detection)
 
 #### Key Marking Standards
+
 | Layer | Field        | Bits | Common Values                     |
 |-------|--------------|------|-----------------------------------|
 | L2    | 802.1p CoS   | 3    | 0 (Best Effort), 5 (Voice), 3 (Call Signaling) |
@@ -50,6 +54,7 @@ QoS manages bandwidth, latency, jitter, and packet loss to prioritize critical t
 | L3    | DSCP         | 6    | EF (46 – voice), AF41 (34), CS3 (24) |
 
 #### Typical Enterprise QoS Policy (12-class model example)
+
 | Class              | DSCP | Queuing Treatment        |
 |--------------------|------|--------------------------|
 | Voice              | EF   | Priority Queue (LLQ)     |
@@ -62,9 +67,11 @@ QoS manages bandwidth, latency, jitter, and packet loss to prioritize critical t
 | Best Effort        | 0    | Default queue            |
 
 ### 3. MPLS (Multiprotocol Label Switching)
+
 Foundation for modern service provider and large enterprise WANs.
 
 #### How MPLS Works
+
 - Replaces IP longest-match routing with label switching in the core
 - Labels are 20-bit values inserted between L2 and L3 headers
 - **Push** (imposition), **Swap**, **Pop** (disposition) operations
@@ -73,12 +80,14 @@ Foundation for modern service provider and large enterprise WANs.
 - **Customer Edge (CE)** – customer router
 
 #### MPLS VPN Types
+
 | Type       | Description                                   | Common Use Case                  |
 |------------|-----------------------------------------------|----------------------------------|
 | L3VPN      | BGP-based (RFC 4364), PE routers hold customer VRFs and run MP-BGP | Most common enterprise WAN      |
 | L2VPN      | Point-to-point (VPWS) or multipoint (VPLS/EVPN) | Legacy protocol transport, DCI  |
 
 #### L3 MPLS VPN Key Components
+
 - **VRF (Virtual Routing and Forwarding)** – separate routing table per customer/VPN
 - **Route Distinguisher (RD)** – makes overlapping IPs unique in BGP
 - **Route Target (RT)** – controls import/export of routes between VRFs
@@ -99,6 +108,7 @@ Foundation for modern service provider and large enterprise WANs.
 | NetFlow/sFlow/IPFIX   | Traffic accounting and monitoring                                       | Used for capacity planning and security   |
 
 ### Typical Large Enterprise Network Layers
+
 1. **Campus/Branch LAN** – High-speed switching, 802.1X, VXLAN/EVPN fabric
 2. **Data Center** – Spine-leaf fabric, VXLAN/EVPN, ACI or NSX overlay
 3. **WAN Edge** – MPLS L3VPN or SD-WAN overlay

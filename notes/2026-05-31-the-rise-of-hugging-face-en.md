@@ -20,6 +20,7 @@ type: note
 The story starts in Paris, 2016. Julien Chaumond was a software engineer at Stupeflix when he reconnected with Thomas Wolf, who he knew from engineering school — they used to play in a rock band doing Alanis Morissette covers. Together with Clément Delangue, who Chaumond already knew, the three launched Hugging Face.
 
 The founders' backgrounds were complementary from the start:
+
 - Clément Delangue brought business acumen, Julien Chaumond engineering skills, and Thomas Wolf a research background.
 - Thomas Wolf had a Ph.D. in physics and had authored research papers in machine learning.
 

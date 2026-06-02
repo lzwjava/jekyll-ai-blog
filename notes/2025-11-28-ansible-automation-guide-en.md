@@ -13,6 +13,7 @@ type: note
 ## What is Ansible?
 
 Ansible is an **open-source automation tool** that automates:
+
 - Configuration management
 - Application deployment
 - Task automation/orchestration
@@ -22,6 +23,7 @@ It is **agentless** (no software/agent needed on managed nodes), uses **SSH** (o
 Ansible is part of Red Hat and is one of the most popular DevOps tools today.
 
 ### Key Advantages
+
 - Simple & easy to learn (YAML-based)
 - Agentless (uses existing SSH)
 - Idempotent (running playbook multiple times gives same result)
@@ -61,6 +63,7 @@ python3 -m pip install --user ansible
 ```
 
 Check version:
+
 ```bash
 ansible --version
 ```
@@ -68,6 +71,7 @@ ansible --version
 ## Inventory
 
 ### Simple INI format (`inventory.ini`)
+
 ```ini
 [webservers]
 web1.example.com
@@ -81,6 +85,7 @@ ansible_python_interpreter=/usr/bin/python3
 ```
 
 ### YAML format (`inventory.yaml`)
+
 ```yaml
 all:
   hosts:
@@ -98,6 +103,7 @@ all:
 ```
 
 Test connectivity:
+
 ```bash
 ansible all -i inventory.ini -m ping
 ```
@@ -123,6 +129,7 @@ ansible all -m reboot --become
 Create `first_playbook.yml`:
 
 {% raw %}
+
 ```yaml
 ---
 - name: Configure web servers
@@ -163,9 +170,11 @@ Create `first_playbook.yml`:
         name: nginx
         state: restarted
 ```
+
 {% endraw %}
 
 Run it:
+
 ```bash
 ansible-playbook -i inventory.ini first_playbook.yml
 ```
@@ -186,6 +195,7 @@ ansible-playbook -i inventory.ini first_playbook.yml
 ## Variables & Facts
 
 ### Variable precedence (highest to lowest)
+
 1. Command line `-e "var=value"`
 2. Role defaults
 3. Inventory variables
@@ -193,7 +203,9 @@ ansible-playbook -i inventory.ini first_playbook.yml
 5. Host facts / gathered facts
 
 ### Example using variables
+
 {% raw %}
+
 ```yaml
 vars:
   app_name: myapp
@@ -208,20 +220,25 @@ tasks:
       name: "{{ app_user }}"
       shell: /bin/bash
 ```
+
 {% endraw %}
 
 ### Using facts
+
 {% raw %}
+
 ```yaml
 - name: Show OS distribution
   debug:
     msg: "This is {{ ansible_facts['distribution'] }} {{ ansible_facts['distribution_version'] }}"
 ```
+
 {% endraw %}
 
 ## Conditionals & Loops
 
 ### When (conditional)
+
 ```yaml
 tasks:
   - name: Install Apache on RedHat only
@@ -232,7 +249,9 @@ tasks:
 ```
 
 ### Loops
+
 {% raw %}
+
 ```yaml
 - name: Create multiple users
   user:
@@ -254,6 +273,7 @@ tasks:
       - git
       - vim
 ```
+
 {% endraw %}
 
 ## Roles – Best Practice Structure
@@ -277,6 +297,7 @@ myrole/
 ```
 
 Use roles in playbook:
+
 ```yaml
 - hosts: webservers
   roles:
@@ -286,6 +307,7 @@ Use roles in playbook:
 ```
 
 Find thousands of ready roles:
+
 ```bash
 ansible-galaxy search postgres
 ansible-galaxy install geerlingguy.postgres
@@ -309,19 +331,25 @@ ansible-galaxy install geerlingguy.postgres
 
 1. Always use roles for reusable code
 2. Use `ansible-vault` to encrypt sensitive data
+
    ```bash
    ansible-vault create secrets.yml
    ansible-playbook site.yml --ask-vault-pass
    ```
+
 3. Use Git to version control your playbooks/roles
 4. Use `--check` mode first (dry-run)
+
    ```bash
    ansible-playbook site.yml --check
    ```
+
 5. Tag your tasks for selective runs
+
    ```yaml
    tags: ['nginx', 'web']
    ```
+
    Run: `ansible-playbook site.yml --tags web`
 6. Use `pre_tasks` and `post_tasks` when needed
 7. Never hardcode passwords – use vault or lookup plugins
@@ -340,9 +368,9 @@ ansible-galaxy collection install community.docker
 
 ## Learning Resources
 
-- Official docs: https://docs.ansible.com
-- Ansible Galaxy: https://galaxy.ansible.com
-- Awesome roles by Jeff Geerling: https://github.com/geerlingguy
+- Official docs: <https://docs.ansible.com>
+- Ansible Galaxy: <https://galaxy.ansible.com>
+- Awesome roles by Jeff Geerling: <https://github.com/geerlingguy>
 - Book: "Ansible for DevOps" by Jeff Geerling
 
 Start small → write ad-hoc commands → simple playbooks → roles → full infrastructure as code.

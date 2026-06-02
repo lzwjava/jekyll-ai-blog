@@ -16,7 +16,7 @@ Answer:
 
 The "lying flat" (tang ping) movement, originating in China around 2021, involves young people rejecting intense societal pressures for overwork, consumerism, marriage, and high achievement in favor of a minimalist, low-effort lifestyle prioritizing personal well-being. While popular among some disillusioned youth as a form of passive resistance, several unpopular or critical views challenge its appeal and implications.
 
-### Unpopular Ideas and Criticisms:
+### Unpopular Ideas and Criticisms
 
 - **It's shameful and irresponsible**: Official Chinese media and commentators have labeled "lying flat" as morally wrong, unjust, and a betrayal of societal duties. It's seen as disappointing parents, taxpayers, and the nation, conflicting with values of hard work and contribution.
 
@@ -32,10 +32,10 @@ These views, often from official sources, older generations, or economic analyst
 
 References:
 
-- https://en.wikipedia.org/wiki/Tang_ping
-- https://www.brookings.edu/articles/the-lying-flat-movement-standing-in-the-way-of-chinas-innovation-drive/
-- https://www.scmp.com/economy/china-economy/article/3153362/what-lying-flat-and-why-are-chinese-officials-standing-it
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC9709313/
-- https://madeinchinajournal.com/2023/01/08/lying-flat-profiling-the-tangping-attitude/
-- https://www.reddit.com/r/simpleliving/comments/11quhj3/everyones_thoughts_on_the_lying_flat_movement/
-- https://www.reddit.com/r/geopolitics/comments/1blsfqa/the_angst_behind_chinas_lying_flat_youth/
+- <https://en.wikipedia.org/wiki/Tang_ping>
+- <https://www.brookings.edu/articles/the-lying-flat-movement-standing-in-the-way-of-chinas-innovation-drive/>
+- <https://www.scmp.com/economy/china-economy/article/3153362/what-lying-flat-and-why-are-chinese-officials-standing-it>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC9709313/>
+- <https://madeinchinajournal.com/2023/01/08/lying-flat-profiling-the-tangping-attitude/>
+- <https://www.reddit.com/r/simpleliving/comments/11quhj3/everyones_thoughts_on_the_lying_flat_movement/>
+- <https://www.reddit.com/r/geopolitics/comments/1blsfqa/the_angst_behind_chinas_lying_flat_youth/>

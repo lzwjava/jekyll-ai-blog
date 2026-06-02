@@ -13,7 +13,6 @@ type: post
 ![](/assets/images/hf/hf1.jpg){: .responsive }
 *Source: chatgpt.com*{: .caption }
 
-
 A: Zhiwei Li, Software Engineer working at the intersection of AI and finance.
 
 B: Haifeng Jin, Software Engineer working on AI Infra.

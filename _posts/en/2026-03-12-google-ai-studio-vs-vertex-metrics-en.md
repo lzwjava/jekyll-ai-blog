@@ -39,6 +39,7 @@ The data you provided lists several performance metrics for two AI platforms, **
    - Lower error rate = more reliable tool usage.
 
 **Summary:**
+
 - **Google AI Studio** has slightly better throughput, lower latency, and lower end-to-end latency, meaning it processes and returns results faster.
 - **Google Vertex** is slightly slower and may have more overhead in E2E processing.
 - Tool call error rate is critical if your tasks involve integrations; without numbers, we can’t compare reliability here.

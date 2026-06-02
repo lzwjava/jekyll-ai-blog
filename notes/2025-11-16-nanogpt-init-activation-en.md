@@ -26,6 +26,7 @@ In Andrej Karpathy's **NanoGPT** (the popular minimal GPT implementation from la
 | Attention output projection    | Extra scaling: `cproj.weight *= 0.02` or similar | Even smaller (to compensate for residual path)     | Very important for deep models |
 
 ### Special initialization trick in NanoGPT
+
 In `model.py`, after creating each `nn.Linear` layer, Karpathy does something like this (exact values depend on config):
 
 ```python
@@ -47,6 +48,7 @@ std = 0.02 / math.sqrt(2 * n_layer)   # helps with deeper models
 This ensures the residual stream variance doesn’t explode or vanish as depth increases.
 
 ### Summary: NanoGPT does NOT use ReLU
+
 - Activation: **GELU** (not ReLU)
 - Main initialization std: **~0.02**
 - Extra scaling on output projections: **0.02 or smaller** (especially important)

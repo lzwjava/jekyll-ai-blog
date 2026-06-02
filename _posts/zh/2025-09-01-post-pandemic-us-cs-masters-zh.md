@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-https://mp.weixin.qq.com/s/9FeX8D-q2xy_4eYztTMj3A
+<https://mp.weixin.qq.com/s/9FeX8D-q2xy_4eYztTMj3A>
 
 ---
 

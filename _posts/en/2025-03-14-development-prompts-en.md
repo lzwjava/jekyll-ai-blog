@@ -13,6 +13,7 @@ Below are often-used prompts for various development engineer tasks related to t
 ---
 
 ### Using GitHub Copilot in Visual Studio Code
+
 These prompts help you leverage GitHub Copilot for coding, debugging, and understanding tasks in Visual Studio Code (VSCode):
 
 - **Code Generation**
@@ -34,6 +35,7 @@ These prompts help you leverage GitHub Copilot for coding, debugging, and unders
 ---
 
 ### Debugging Spring Boot Applications in Visual Studio Code
+
 These prompts focus on setting up and troubleshooting debugging for Spring Boot applications in VSCode:
 
 - **Setting Up Debugging**
@@ -55,6 +57,7 @@ These prompts focus on setting up and troubleshooting debugging for Spring Boot 
 ---
 
 ### How Locking Works in IBM Db2 Database
+
 These prompts help you understand and manage locking mechanisms in IBM Db2:
 
 - **Understanding Locking**
@@ -76,6 +79,7 @@ These prompts help you understand and manage locking mechanisms in IBM Db2:
 ---
 
 ### Configuring launch.json for Spring Boot in VSCode
+
 These prompts assist with setting up and troubleshooting the `launch.json` file for debugging Spring Boot applications in VSCode:
 
 - **Basic Configuration**
@@ -97,6 +101,7 @@ These prompts assist with setting up and troubleshooting the `launch.json` file 
 ---
 
 ### Specifying the JDK for WebSphere Liberty
+
 These prompts help configure and troubleshoot the JDK for WebSphere Liberty:
 
 - **Path Configuration**
@@ -118,6 +123,7 @@ These prompts help configure and troubleshoot the JDK for WebSphere Liberty:
 ---
 
 ### General Programming Prompt Patterns
+
 These prompts cover common patterns across programming tasks, such as configuration, verbose output, and other aspects like optimization and security:
 
 - **Path Configuration**

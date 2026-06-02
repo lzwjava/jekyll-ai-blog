@@ -57,6 +57,7 @@ type: note
 
 **安全提示**：
 给予任何 AI agent 通过 SSH 访问 sudo 的权限虽强大但也存在风险。最佳实践包括：
+
 - 使用专门的低权限 service account，并限制 sudo 权限（如果可能，仅限特定命令）
 - 将 SSH key 访问限制在特定 IP 地址
 - 监控 agent 执行的任务日志和命令
@@ -65,4 +66,5 @@ type: note
 你需要一份可以交给 agent 的 CUDA + Ollama 安装 bash script 模板，还是关于如何为此类 digital employee 设置安全配置 SSH/sudo 的建议？
 
 References:
+
 - None

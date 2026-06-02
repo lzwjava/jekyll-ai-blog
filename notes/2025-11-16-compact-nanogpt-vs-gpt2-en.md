@@ -47,6 +47,7 @@ These estimates highlight a ~2-3x performance gap in perplexity for your model v
 ### Recommendations for Improvement and Fair Comparison
 
 To benchmark your model directly against GPT-2:
+
 1. **Evaluate Perplexity**: After training, run nanoGPT's `eval.py` on OpenWebText validation splits. Compare to Hugging Face's GPT-2 small (load via `transformers` library) evaluated on the same data.
 2. **Scale Up**: Switch to nanoGPT's Shakespeare or default config for 124M params; it closely matches GPT-2's loss curves on OpenWebText. [3]
 3. **Finetuning**: Start from your checkpoint and finetune on targeted data (e.g., dialogue for chat) to boost usability—GPT-2 shines here with just 354M params for conversational AI. [7]
@@ -55,12 +56,12 @@ To benchmark your model directly against GPT-2:
 Overall, your model is a solid educational or prototyping tool but lags GPT-2 in depth due to size—think of it as a "mini-GPT-2" with 1/4 the capacity. For production, consider pretrained GPT-2 weights from Hugging Face as a baseline. [3][9]
 
 Citations:
-[1] https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html
-[2] https://openai.com/index/better-language-models/
-[3] https://github.com/karpathy/nanoGPT
-[4] https://www.reddit.com/r/LocalLLaMA/comments/1oslucq/whats_the_lowest_gpt2_pretraining_loss_achievable/
-[5] https://www.researchgate.net/figure/Comparing-a-generated-GPT-2-model-on-OpenWebText-to-training-from-scratch-Results-show_fig2_396143265
-[6] https://gitlab.au.dk/au204573/gitmal/-/blob/c660ef7dfa8447d956db7d00898536eeef29fe54/L11/NanoGPT/README.md
-[7] https://vatsadev.github.io/articles/nanochatgpt.html
-[8] https://arxiv.org/pdf/2506.00315
-[9] https://medium.com/@neuralnikitha/build-your-own-chatgpt-in-an-afternoon-the-nanogpt-guide-7a0425acf4cb
+[1] <https://www.kdnuggets.com/2023/05/deep-dive-gpt-models.html>
+[2] <https://openai.com/index/better-language-models/>
+[3] <https://github.com/karpathy/nanoGPT>
+[4] <https://www.reddit.com/r/LocalLLaMA/comments/1oslucq/whats_the_lowest_gpt2_pretraining_loss_achievable/>
+[5] <https://www.researchgate.net/figure/Comparing-a-generated-GPT-2-model-on-OpenWebText-to-training-from-scratch-Results-show_fig2_396143265>
+[6] <https://gitlab.au.dk/au204573/gitmal/-/blob/c660ef7dfa8447d956db7d00898536eeef29fe54/L11/NanoGPT/README.md>
+[7] <https://vatsadev.github.io/articles/nanochatgpt.html>
+[8] <https://arxiv.org/pdf/2506.00315>
+[9] <https://medium.com/@neuralnikitha/build-your-own-chatgpt-in-an-afternoon-the-nanogpt-guide-7a0425acf4cb>

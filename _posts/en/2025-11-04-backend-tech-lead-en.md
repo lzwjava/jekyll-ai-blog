@@ -44,6 +44,7 @@ Here's a breakdown of their main concerns, drawn from common practices in enterp
 This role evolves with the team— in mature squads, they code more; in growing ones, they lead more. If you're prepping for this dynamic, focus on building soft skills alongside your Java expertise.
 
 ### References
+
 - [From Java Developer to Tech Lead: The Steps Nobody Tells You](https://rameshfadatare.medium.com/from-java-developer-to-tech-lead-the-steps-nobody-tells-you-077fda168e7c)
 - [Essential Tech Lead Skills Every Technical Lead Should Have](https://www.lupahire.com/blog/tech-lead-skills)
 - [Java Backend Technology Lead Analyst - Vice President | Citi Careers](https://jobs.citi.com/job/tampa/java-backend-technology-lead-analyst-vice-president/287/86442994816)

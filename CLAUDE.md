@@ -60,10 +60,13 @@ Don't blindly use every language feature. Stick to a reliable, battle-tested sub
 Choose the clearer, more explicit approach even if it appears longer. For example, avoid abusing short-circuit evaluation (`&&`, `||`) as a replacement for `if` statements. This is confusing because logical OR/AND were designed for efficiency, not for control flow readability.
 
 Instead of:
+
 ```javascript
 if (action1() || action2() && action3()) { ... }
 ```
+
 Write the explicit version:
+
 ```java
 if (!action1()) {
   if (action2()) {
@@ -105,11 +108,13 @@ Always have **two branches in every `if` statement** to force yourself to think 
 ## 10. Prevent Over-Engineering
 
 Signs of over-engineering:
+
 - Thinking too far into the future before solving the present problem.
 - Obsessing over "code reuse" before you have working code.
 - Excessive test scaffolding that makes simple code complex.
 
 His principles:
+
 - **Solve the problem at hand first**, then consider future extensibility.
 - **Write working code first**, then consider reuse.
 - **Write simple, obviously-correct code first**, then consider testing.

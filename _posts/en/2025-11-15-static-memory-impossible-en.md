@@ -76,6 +76,7 @@ For a general-purpose language that supports:
 - unrestricted control flow
 
 … you **cannot** decide memory lifetimes completely statically without either:
+
 - rejecting safe programs (unsound approval), or
 - accepting unsafe programs (leaks or dangling pointers).
 

@@ -20,11 +20,13 @@ A more accurate view is:
 On your second point: yes, some people do learn faster, reflect better, and turn experience into wisdom faster than others.
 
 But wisdom is not only:
+
 - IQ
 - speed of learning
 - amount of knowledge
 
 It also depends on:
+
 - honesty with oneself
 - ability to reflect after failure
 - emotional stability

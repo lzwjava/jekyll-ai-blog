@@ -61,6 +61,7 @@ The essay constructs a **fictional dialogue between the River God (河伯, He Bo
 ### Key Literary Technique
 
 The essay excels at **transforming abstract philosophy into concrete imagery** (化抽象为形象):
+
 - The opening landscape description (flooding river vs. boundless sea) metaphorically sets up the two cognitive realms.
 - Analogies are layered and cumulative, inviting the reader to think progressively deeper.
 - The Hai Ruo figure is the **mouthpiece of Daoist truth** — the character the author positively endorses.

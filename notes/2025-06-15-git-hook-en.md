@@ -28,10 +28,13 @@ Yes, you can run `mvn compile` in a local Git repository before executing `git c
    - Commit changes: `git commit -m "Your commit message"`.
 
 ### Optional: Automate with Git Hooks
+
 To ensure `mvn compile` runs before every `git commit`, you can use a Git pre-commit hook:
+
 1. Navigate to `.git/hooks` in your repository.
 2. Create or edit `pre-commit` (no file extension).
 3. Add a script like:
+
    ```bash
    #!/bin/sh
    mvn compile
@@ -40,10 +43,12 @@ To ensure `mvn compile` runs before every `git commit`, you can use a Git pre-co
        exit 1
    fi
    ```
+
 4. Make it executable: `chmod +x .git/hooks/pre-commit`.
    - Now, `git commit` will only proceed if `mvn compile` succeeds.
 
 ### Notes
+
 - **Dependencies**: Ensure `pom.xml` is correctly configured, and dependencies are downloaded (`mvn dependency:resolve` if needed).
 - **Performance**: Running `mvn compile` before every commit ensures code quality but may slow down your workflow for large projects.
 - **Alternative Commands**: If you want to include tests, use `mvn test` instead of `mvn compile` to compile and run unit tests.

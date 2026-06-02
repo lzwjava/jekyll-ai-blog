@@ -45,6 +45,7 @@ Here are several genuinely unpopular (or at least minority) opinions held by som
 These opinions range from “quietly held by many researchers” to “openly fought over in curriculum debates.” You’ll find strong defenders on both sides, especially about pedagogy (determinants vs. no determinants, coordinates-first vs. abstract-first).
 
 References:
+
 - [Down with Determinants! – Sheldon Axler](https://www.axler.net/DWD.html)
 - [Linear Algebra Done Right – Sheldon Axler (Chapter on determinants)](https://linear.axler.net/)
 - [Terence Tao’s blog posts on determinants and exterior algebra](https://terrytao.wordpress.com/?s=determinant)

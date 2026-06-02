@@ -93,14 +93,14 @@ You’ll often find:
 
 ## 2. What you should NOT copy blindly
 
-### ❌ Don’t copy:
+### ❌ Don’t copy
 
 * Their schedule (not age-appropriate)
 * Their exam strategy (too late-stage)
 * Their stress level (often unhealthy)
 * Their exact subjects/path (e.g., AP track)
 
-### ❌ Don’t over-focus on:
+### ❌ Don’t over-focus on
 
 * “Top 70 in district” — that’s selection bias
 * Test scores — they hide variance in personality, luck, teachers

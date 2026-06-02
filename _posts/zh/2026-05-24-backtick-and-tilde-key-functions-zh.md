@@ -24,6 +24,7 @@ type: note
 ```
 
 所以 `` ` `` 的位置是：
+
 - **在 `1` 的左边**
 - **在 `Tab` 的上方**
 - **在 `Esc` 的下方**
@@ -42,12 +43,14 @@ type: note
 ### 此键的重要性（尤其对您而言）
 
 **1. Shell — `cd` 到家目录的快捷方式**
+
 ```bash
 cd ~        # ~ 展开为 $HOME
 cd ~/projects/lzwjava.github.io
 ```
 
 **2. Markdown 中的反引号 — 内联代码和代码块**
+
 ````
 `内联代码`
 
@@ -57,11 +60,13 @@ cd ~/projects/lzwjava.github.io
 ````
 
 **3. Python/JS 模板字面量（JS）**
+
 ```js
 const msg = `Hello ${name}, tokens used: ${count}`;
 ```
 
 **4. Vim — 跳转到上次光标位置**
+
 ```
 ``    # 跳回精确位置
 `^    # 跳到最后插入位置
@@ -70,11 +75,13 @@ const msg = `Hello ${name}, tokens used: ${count}`;
 
 **5. tmux / 终端 — 反引号作为前缀键**
 某些 tmux 配置使用 `` ` `` 作为前缀键替代 `Ctrl-b`：
+
 ```bash
 set -g prefix `
 ```
 
 **6. Bash — 命令替换（旧式风格）**
+
 ```bash
 # 旧式风格（反引号）—— 新脚本中避免使用
 result=`ls -la`

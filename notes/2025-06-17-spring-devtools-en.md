@@ -11,6 +11,7 @@ type: note
 When you run a Spring Boot application using `mvn spring-boot:run`, file watchers and auto-restart or hot-reload capabilities are not enabled by default. However, you can enable them by adding the `spring-boot-devtools` dependency to your project. This module provides features like automatic restarts and LiveReload for faster development.
 
 ### Details
+
 1. **Default Behavior Without DevTools**:
    - Running `mvn spring-boot:run` without `spring-boot-devtools` does not include file watchers or auto-restart. You need to manually stop and restart the application to apply changes to Java classes, static resources, or templates.
    - Static resources (e.g., HTML, CSS, JS) may require a full rebuild or restart unless configured otherwise.
@@ -21,6 +22,7 @@ When you run a Spring Boot application using `mvn spring-boot:run`, file watcher
    - **LiveReload**: Changes to static resources (e.g., HTML, CSS, JS in `/static`, `/public`, or `/templates`) or templates (e.g., Thymeleaf) trigger a browser refresh instead of aBelow is an example of how to configure `spring-boot-devtools` for file watching, auto-restart, and hot-reloading in your Spring Boot application using a `application.yml` file. This configuration is tailored to your `blog-server` project, based on the logs you provided, which show DevTools is active and monitoring `target/classes`.
 
 ### `application.yml` Configuration
+
 ```yaml
 spring:
   devtools:
@@ -44,6 +46,7 @@ spring:
 ```
 
 ### Explanation of Settings
+
 - **`spring.devtools.restart.enabled`**: Enables auto-restart when classpath files change (e.g., `target/classes`, as seen in your log: `file:/home/lzw/Projects/blog-server/target/classes/`).
 - **`spring.devtools.restart.additional-paths`**: Monitors extra directories (e.g., `/home/lzw/Projects/blog-server/config`) for changes to trigger restarts.
 - **`spring.devtools.restart.exclude`**: Prevents restarts for changes in `static/`, `public/`, `templates/`, `logs/`, or `generated/` directories, while allowing LiveReload for static resources (e.g., HTML, CSS, JS).
@@ -53,8 +56,10 @@ spring:
 - **`spring.devtools.livereload.enabled`**: Enables the LiveReload server, which triggers browser refreshes for changes in `static/` or `templates/` (requires a LiveReload browser extension).
 
 ### Steps to Apply
+
 1. Create or update `src/main/resources/application.yml` with the above configuration.
 2. Ensure `spring-boot-devtools` is in your `pom.xml`:
+
    ```xml
    <dependency>
        <groupId>org.springframework.boot</groupId>
@@ -63,10 +68,12 @@ spring:
        <optional>true</optional>
    </dependency>
    ```
+
 3. Run `mvn spring-boot:run`. DevTools will monitor `target/classes` and `/home/lzw/Projects/blog-server/config` (if added), restarting the app on Java or properties file changes and refreshing the browser on static resource changes.
-4. For LiveReload, install a browser extension (e.g., from http://livereload.com/extensions/) or integrate a LiveReload client in your front-end.
+4. For LiveReload, install a browser extension (e.g., from <http://livereload.com/extensions/>) or integrate a LiveReload client in your front-end.
 
 ### Notes
+
 - Your logs show a fast startup (0.8 seconds), so the default `poll-interval` and `quiet-period` should be fine. Adjust them (e.g., `poll-interval: 500`) if restarts feel sluggish in a larger project.
 - If you don’t need LiveReload (e.g., using a separate front-end dev server), set `livereload.enabled: false`.
 - For manual restarts, create `.restart` in your project root and update it when needed.
@@ -85,10 +92,12 @@ This YAML configuration should work seamlessly with your setup, enhancing the fi
                     errorOutput.append(errorLine).append(System.lineSeparator());
                 }
             }
-   - **Exclusions**: By default, resources in `/META-INF/maven`, `/META-INF/resources`, `/resources`, `/static`, `/public`, and `/templates` don’t trigger a restart but do trigger a LiveReload. You can customize this with `spring.devtools.restart.exclude`.[](https://docs.spring.io/spring-boot/reference/using/devtools.html)
+
+- **Exclusions**: By default, resources in `/META-INF/maven`, `/META-INF/resources`, `/resources`, `/static`, `/public`, and `/templates` don’t trigger a restart but do trigger a LiveReload. You can customize this with `spring.devtools.restart.exclude`.[](https://docs.spring.io/spring-boot/reference/using/devtools.html)
 
 3. **Setup for DevTools**:
    Add the following dependency to your `pom.xml`:
+
    ```xml
    <dependency>
        <groupId>org.springframework.boot</groupId>
@@ -97,16 +106,18 @@ This YAML configuration should work seamlessly with your setup, enhancing the fi
        <optional>true</optional>
    </dependency>
    ```
+
    - The `<optional>true</optional>` ensures DevTools is not included in production builds.[](https://www.concretepage.com/spring-boot/spring-boot-automatic-restart-using-developer-tools-with-maven)
    - Run the application with `mvn spring-boot:run`. DevTools will automatically enable file watching and auto-restart.
 
 4. **Behavior in IDEs**:
    - **Eclipse**: Saving changes (Ctrl+S) automatically triggers a build, which DevTools detects and restarts the application.[](https://docs.spring.io/spring-boot/docs/1.5.7.RELEASE/reference/html/howto-hotswapping.html)
    - **IntelliJ IDEA**: You need to manually trigger a build (Ctrl+F9 or "Make Project") for DevTools to detect changes, unless you configure auto-build. Alternatively, enable "Build project automatically" in IntelliJ settings for seamless restarts.[](https://www.codejava.net/frameworks/spring-boot/spring-boot-auto-restart-and-live-reload-in-intellij-idea)
-   - For LiveReload, install the browser extension from http://livereload.com/extensions/ and enable it.[](https://www.codejava.net/frameworks/spring-boot/spring-boot-auto-reload-changes-using-livereload-and-devtools)
+   - For LiveReload, install the browser extension from <http://livereload.com/extensions/> and enable it.[](https://www.codejava.net/frameworks/spring-boot/spring-boot-auto-reload-changes-using-livereload-and-devtools)
 
 5. **Alternative: Spring Loaded**:
    - Instead of DevTools, you can use Spring Loaded for more advanced hot-swapping (e.g., method signature changes). Add it to the `spring-boot-maven-plugin`:
+
      ```xml
      <plugin>
          <groupId>org.springframework.boot</groupId>
@@ -120,10 +131,12 @@ This YAML configuration should work seamlessly with your setup, enhancing the fi
          </dependencies>
      </plugin>
      ```
+
    - Spring Loaded is less recommended than DevTools, as it’s not as actively maintained and may not support all frameworks.[](https://docs.spring.io/spring-boot/docs/1.5.7.RELEASE/reference/html/howto-hotswapping.html)[](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/howto-hotswapping.html)
 
 6. **Hot-Reloading Static Resources**:
    - Without DevTools, you can enable hot-reloading of static resources by setting `spring-boot-maven-plugin`’s `addResources` property:
+
      ```xml
      <plugin>
          <groupId>org.springframework.boot</groupId>
@@ -133,6 +146,7 @@ This YAML configuration should work seamlessly with your setup, enhancing the fi
          </configuration>
      </plugin>
      ```
+
    - This adds `src/main/resources` to the classpath, allowing in-place editing of static files, but it’s less comprehensive than DevTools.[](https://docs.spring.io/spring-boot/maven-plugin/run.html)
 
 7. **Caveats**:
@@ -142,6 +156,7 @@ This YAML configuration should work seamlessly with your setup, enhancing the fi
    - If restarts are slow, adjust `spring.devtools.restart.poll-interval` and `spring.devtools.restart.quiet-period` to optimize file watching.[](https://docs.spring.io/spring-boot/reference/using/devtools.html)
 
 ### Steps for a Simple App
+
 1. Create a basic Spring Boot app (e.g., using Spring Initializr with `spring-boot-starter-web`).
 2. Add the `spring-boot-devtools` dependency to `pom.xml`.
 3. Run `mvn spring-boot:run`.
@@ -149,7 +164,9 @@ This YAML configuration should work seamlessly with your setup, enhancing the fi
 5. Observe the auto-restart (for Java/properties) or browser refresh (for static resources with LiveReload enabled).
 
 ### Example
+
 For a simple app with a REST controller:
+
 ```java
 @RestController
 public class HelloController {
@@ -159,10 +176,12 @@ public class HelloController {
     }
 }
 ```
+
 - Add DevTools, run `mvn spring-boot:run`, and change the `hello()` method’s return value. The app will restart automatically.
 - Add an `index.html` in `src/main/resources/static`, install the LiveReload extension, and modify the HTML. The browser will refresh without a restart.
 
 ### Conclusion
+
 For a simple Spring Boot app, adding `spring-boot-devtools` is the easiest way to enable file watchers, auto-restart, and hot-reloading. Use `mvn spring-boot:run` with DevTools for a seamless development experience. If you need more advanced hot-swapping, consider Spring Loaded or JRebel, but DevTools is sufficient for most cases.[](https://www.geeksforgeeks.org/hot-reload-with-spring-boot-devtools/)[](https://docs.spring.io/spring-boot/how-to/hotswapping.html)
 
 ---
@@ -170,6 +189,7 @@ For a simple Spring Boot app, adding `spring-boot-devtools` is the easiest way t
 Below is an example of how to configure `spring-boot-devtools` for file watching, auto-restart, and hot-reloading in your Spring Boot application using a `application.yml` file. This configuration is tailored to your `blog-server` project, based on the logs you provided, which show DevTools is active and monitoring `target/classes`.
 
 ### `application.yml` Configuration
+
 ```yaml
 spring:
   devtools:
@@ -193,6 +213,7 @@ spring:
 ```
 
 ### Explanation of Settings
+
 - **`spring.devtools.restart.enabled`**: Enables auto-restart when classpath files change (e.g., `target/classes`, as seen in your log: `file:/home/lzw/Projects/blog-server/target/classes/`).
 - **`spring.devtools.restart.additional-paths`**: Monitors extra directories (e.g., `/home/lzw/Projects/blog-server/config`) for changes to trigger restarts.
 - **`spring.devtools.restart.exclude`**: Prevents restarts for changes in `static/`, `public/`, `templates/`, `logs/`, or `generated/` directories, while allowing LiveReload for static resources (e.g., HTML, CSS, JS).
@@ -202,8 +223,10 @@ spring:
 - **`spring.devtools.livereload.enabled`**: Enables the LiveReload server, which triggers browser refreshes for changes in `static/` or `templates/` (requires a LiveReload browser extension).
 
 ### Steps to Apply
+
 1. Create or update `src/main/resources/application.yml` with the above configuration.
 2. Ensure `spring-boot-devtools` is in your `pom.xml`:
+
    ```xml
    <dependency>
        <groupId>org.springframework.boot</groupId>
@@ -212,10 +235,12 @@ spring:
        <optional>true</optional>
    </dependency>
    ```
+
 3. Run `mvn spring-boot:run`. DevTools will monitor `target/classes` and `/home/lzw/Projects/blog-server/config` (if added), restarting the app on Java or properties file changes and refreshing the browser on static resource changes.
-4. For LiveReload, install a browser extension (e.g., from http://livereload.com/extensions/) or integrate a LiveReload client in your front-end.
+4. For LiveReload, install a browser extension (e.g., from <http://livereload.com/extensions/>) or integrate a LiveReload client in your front-end.
 
 ### Notes
+
 - Your logs show a fast startup (0.8 seconds), so the default `poll-interval` and `quiet-period` should be fine. Adjust them (e.g., `poll-interval: 500`) if restarts feel sluggish in a larger project.
 - If you don’t need LiveReload (e.g., using a separate front-end dev server), set `livereload.enabled: false`.
 - For manual restarts, create `.restart` in your project root and update it when needed.

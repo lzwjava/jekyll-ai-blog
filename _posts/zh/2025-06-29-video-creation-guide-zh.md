@@ -9,11 +9,13 @@ type: note
 ---
 
 要创建具有黑色背景和与音频同步字幕的教育类短视频，并使用 DeepSeek API 和 Google Cloud Text-to-Speech API 从文本生成音频，您可以使用 Python 来编排整个过程。以下是分步指南和实现此功能的 Python 脚本。该脚本将：
+
 1. 使用 DeepSeek API 生成或优化脚本（假设您提供教育内容）。
 2. 使用 Google Cloud Text-to-Speech API 将脚本转换为音频。
 3. 使用 `moviepy` 等库创建带有黑色背景和与音频同步字幕的视频。
 
 ### 前提条件
+
 - **DeepSeek API 密钥**：在 [DeepSeek](https://api-docs.deepseek.com/) 注册并获取 API 密钥。
 - **Google Cloud Text-to-Speech API**：
   - 设置 Google Cloud 项目并启用 Text-to-Speech API。
@@ -24,11 +26,13 @@ type: note
 - **FFmpeg**：确保安装 FFmpeg，以便 `moviepy` 处理视频渲染（从 [FFmpeg 网站](https://ffmpeg.org/) 下载或通过包管理器安装）。
 
 ### 步骤
+
 1. **使用 DeepSeek API 生成或优化脚本**：使用 DeepSeek 创建或润色教育脚本，确保其简洁且适合 1 分钟视频。
 2. **使用 Google Cloud Text-to-Speech 将文本转换为音频**：将脚本拆分为段落，为每个段落生成音频，并保存为单独的音频文件。
 3. **使用 MoviePy 创建视频**：生成带有黑色背景的视频，为每个段落显示与音频同步的字幕，并将它们组合成最终的 1 分钟视频。
 
 ### Python 脚本
+
 以下脚本假设您有一个包含教育内容（段落）的文本文件，并生成带有黑色背景和字幕的视频。
 
 ```python
@@ -149,6 +153,7 @@ if __name__ == "__main__":
 ```
 
 ### 使用方法
+
 1. **设置凭证**：
    - 将 `"path/to/your/google-credentials.json"` 替换为您的 Google Cloud 服务账号 JSON 文件路径。
    - 将 `"your_deepseek_api_key"` 替换为您的 DeepSeek API 密钥。
@@ -165,6 +170,7 @@ if __name__ == "__main__":
    - 每个段落的音频文件将保存在 `audio` 目录中。
 
 ### 注意事项
+
 - **DeepSeek API**：脚本使用 `deepseek-chat` 模型优化脚本。确保您的 API 密钥有效且有足够的额度。DeepSeek API 在此用于为视频叙述构建脚本，因为它在文本生成和优化方面表现出色。[](https://www.datacamp.com/tutorial/deepseek-api)
 - **Google Cloud Text-to-Speech**：脚本使用 `en-US-Wavenet-D` 语音进行自然发音的英语叙述。您可以通过修改 `VoiceSelectionParams` 中的 `name` 参数来更改语音（有关其他语音选项，请参阅 Google Cloud Text-to-Speech 文档）。
 - **MoviePy**：视频以 1280x720 分辨率（高清）创建。您可以调整 `TextClip` 和 `ColorClip` 中的 `size` 参数以获取不同分辨率。
@@ -172,12 +178,15 @@ if __name__ == "__main__":
 - **依赖项**：确保 FFmpeg 已安装并可在系统的 PATH 中访问，以便 `moviepy` 正常工作。
 
 ### 示例输出
+
 如果您的输入脚本是关于机器学习的，优化后的脚本可能如下所示：
+
 ```
 ["Machine learning, a branch of AI, enables computers to learn from data.",
  "It uses algorithms to find patterns and predict outcomes.",
  "Applications include image recognition and healthcare innovations."]
 ```
+
 - 每个段落生成一个音频文件（例如 `paragraph_1.mp3`、`paragraph_2.mp3` 等）。
 - 最终视频显示黑色背景，白色字幕依次出现，与音频叙述同步。
 

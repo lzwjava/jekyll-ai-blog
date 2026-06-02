@@ -13,6 +13,7 @@ type: note
 **FineWeb** 数据集（HuggingFaceFW/fineweb 上的 15T+ 词元英文版本）总共包含**约 35,000 至 50,000** 个 `.parquet` 文件。
 
 ### 详细说明
+
 - 它包含 **96** 个独立的 Common Crawl 快照（数据转储，例如 `CC-MAIN-2013-20`、`CC-MAIN-2024-10` 等）。
 - 每个数据转储都存储在 `/data/` 下的独立子目录中，并分割成许多分片的 `.parquet` 文件，命名格式为 `000_00000.parquet`、`000_00001.parquet`……（零填充，顺序编号）。
 - 每个数据转储的 parquet 文件数量因其大小而异：

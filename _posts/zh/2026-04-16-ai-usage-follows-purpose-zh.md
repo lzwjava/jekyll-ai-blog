@@ -41,6 +41,7 @@ type: note
 ### 那么实际情况是什么？
 
 当前模式并非“品质vs廉价”——而是**按需选用**：
+
 - **复杂智能体编码** → Claude Opus/Sonnet（对专业人士而言物有所值）
 - **高吞吐量或成本敏感任务** → 免费Gemini、Nemotron、小米
 - **通用对话** → DeepSeek、MiniMax

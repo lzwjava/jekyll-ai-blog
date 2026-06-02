@@ -15,6 +15,7 @@ type: note
 It sounds like you're into vibrant or shiny green colors for long-sleeved tops and shirts—great choice for a bold, eye-catching look! I'll break down some common English terms for different types of men's long-sleeved clothing. These are all "tops" that cover the upper body, often casual or semi-formal. I'll include examples of how to describe them in your preferred "shining green" style (think glossy, metallic, or bright emerald green fabric).
 
 #### Casual Long-Sleeved Tops
+
 - **Long-sleeve T-shirt**: A basic fitted or loose shirt made of cotton or knit fabric, with a crew neck and no buttons.
   *Example*: "Shiny green long-sleeve T-shirt for everyday wear."
 
@@ -28,6 +29,7 @@ It sounds like you're into vibrant or shiny green colors for long-sleeved tops a
   *Example*: "Bright shining green sweatshirt."
 
 #### Button-Up or Semi-Formal Long-Sleeved Shirts
+
 - **Button-Down Shirt** (or Oxford Shirt): A collared shirt with buttons down the front, often in cotton or chambray for a smart-casual vibe.
   *Example*: "Shiny green button-down shirt tucked into jeans."
 
@@ -41,6 +43,7 @@ It sounds like you're into vibrant or shiny green colors for long-sleeved tops a
   *Example*: "Shining green long-sleeve polo for golf or brunch."
 
 #### Other Long Top Styles
+
 - **Longline Shirt** (or Oversized Top): A longer version of a T-shirt or button-up that hits mid-hip or below, for a modern, elongated silhouette.
   *Example*: "Shiny green longline shirt layered over pants."
 
@@ -66,5 +69,6 @@ When shopping or describing these, add details like "fitted," "oversized," "slim
 | Longline Shirt    | Trendy         | Fashion-forward outfits  |
 
 References:
+
 - [Men's Clothing Glossary - GQ](https://www.gq.com/story/mens-clothing-glossary)
 - [Types of Men's Shirts - Real Men Real Style](https://www.realmenrealstyle.com/types-mens-shirts/)

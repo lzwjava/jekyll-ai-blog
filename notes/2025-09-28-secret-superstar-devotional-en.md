@@ -62,7 +62,8 @@ Chham chham chhaliye ho
 
 "Nachdi Phira" is a joyful, devotional folk-inspired track that celebrates themes of love, devotion, and liberation through dance. The title itself translates to "I Dance and Twirl" in English, evoking the image of a woman spinning freely in ecstatic surrender, much like a Sufi dancer or a bride lost in bliss. The song draws heavily from Punjabi folk traditions, blending elements of bhakti (devotional love) with romantic longing, where the "love" in question can be interpreted as either divine (for God) or earthly (for a beloved).
 
-#### Key Themes and Breakdown:
+#### Key Themes and Breakdown
+
 - **Devotion and Surrender (Ishq)**: The recurring motif of wearing the "chola" (robe) and "chooda" (bangles) of love symbolizes adorning oneself in the colors of devotion. Lines like "Tere ishq da chola pehan ke / Main tujhme hi rang jaungi" ("Wearing the robe of your love / I will blend into you") suggest complete immersion in the beloved, losing one's identity to merge with the divine or the loved one. This echoes Sufi poetry, where love erases the self.
 
 - **Loss and Gain in Love**: In Verse 2, the singer reflects on worldly perceptions ("Kehti hai duniya / Main hoon banwariya" – "The world says / I am a madwoman"). She describes forsaking sanity ("Sudh se gayi main / Khud se gayi main" – "I've lost my senses / I've lost myself") to become "Teri ho gayi main" ("I've become yours"). Yet, this loss is a gain: "Kho kar khud ko / Paa kar tujh ko" ("By losing myself / I've found you"). It's a poignant commentary on how true love transforms madness into ecstasy, defying societal judgment.
@@ -74,6 +75,7 @@ In the context of *Secret Superstar*, which follows a young girl's pursuit of he
 Overall, the song's upbeat rhythm, laced with dhol and flute, creates an infectious energy that invites listeners to embrace vulnerability as strength. It's a reminder that in love – whether for God, a person, or one's passion – true fulfillment comes from letting go and spinning into the unknown.
 
 **References:**
+
 - [AZLyrics - Nachdi Phira Lyrics](https://www.azlyrics.com/lyrics/bollywood/nachdiphira.html)
 - [Bollywood Hungama - Nachdi Phira Lyrics](https://www.bollywoodhungama.com/song-lyrics/char/S/movie/secret-superstar/song/nachdi-phira/)
 - [Musixmatch - Nachdi Phira Lyrics](https://www.musixmatch.com/lyrics/Amit-Trivedi-Meghna-Mishra/Nachdi-Phira-From-Secret-Superstar)

@@ -13,15 +13,19 @@ The "can't resolve .../fonts/fontawesome-webfont.woff2" error typically occurs w
 ---
 
 ### 1. Verify Font Awesome Installation
+
 Ensure Font Awesome is properly installed in your project.
 
 - **If using npm**:
+
   ```bash
   npm install @fortawesome/fontawesome-free
   ```
+
   This installs the free version of Font Awesome.
 
 - Check that the package is listed in your `package.json`:
+
   ```json
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.x.x"
@@ -31,6 +35,7 @@ Ensure Font Awesome is properly installed in your project.
 ---
 
 ### 2. Check Font File Path in CSS
+
 The error often occurs because the `fontawesome.css` file references font files in a relative path (e.g., `../fonts/fontawesome-webfont.woff2`) that doesn't align with your project's file structure or build process.
 
 - **Locate the CSS file**:
@@ -38,6 +43,7 @@ The error often occurs because the `fontawesome.css` file references font files 
 
 - **Inspect the font-face declaration**:
   Open the CSS file and look for the `@font-face` rule. It might look like this:
+
   ```css
   @font-face {
     font-family: 'FontAwesome';
@@ -52,12 +58,15 @@ The error often occurs because the `fontawesome.css` file references font files 
 ---
 
 ### 3. Fix Path Issues
+
 If the font files are not being resolved, you may need to adjust how the paths are handled in your build process.
 
 #### Option 1: Copy Font Files to Your Public Directory
+
 Manually copy the font files to a directory accessible by your application (e.g., `public/fonts` or `src/fonts`).
 
 - **Copy the files**:
+
   ```bash
   mkdir -p public/fonts
   cp -r node_modules/@fortawesome/fontawesome-free/webfonts/* public/fonts/
@@ -65,6 +74,7 @@ Manually copy the font files to a directory accessible by your application (e.g.
 
 - **Update the CSS**:
   Modify the `fontawesome.css` file to point to the new font location:
+
   ```css
   @font-face {
     font-family: 'FontAwesome';
@@ -76,15 +86,18 @@ Manually copy the font files to a directory accessible by your application (e.g.
 - Alternatively, use a CSS preprocessor or post-processor to rewrite the paths.
 
 #### Option 2: Configure Webpack (or Other Bundlers)
+
 If you're using Webpack, ensure it can resolve and load font files.
 
 - **Install file-loader or url-loader**:
+
   ```bash
   npm install file-loader --save-dev
   ```
 
 - **Update Webpack configuration** (`webpack.config.js`):
   Add a rule to handle font files:
+
   ```javascript
   module: {
     rules: [
@@ -106,14 +119,17 @@ If you're using Webpack, ensure it can resolve and load font files.
   ```
 
 - Ensure the Font Awesome CSS is imported in your JavaScript:
+
   ```javascript
   import '@fortawesome/fontawesome-free/css/all.css';
   ```
 
 #### Option 3: Use a CDN
+
 If you don't want to bundle the font files, you can use a CDN to load Font Awesome.
 
 - Replace the local import with a CDN link in your HTML:
+
   ```html
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   ```
@@ -123,6 +139,7 @@ If you don't want to bundle the font files, you can use a CDN to load Font Aweso
 ---
 
 ### 4. Check for Case Sensitivity
+
 File paths are case-sensitive on some systems (e.g., Linux). Ensure the file names and paths in your CSS match the actual file names exactly.
 
 - For example, if the file is `fontawesome-webfont.woff2`, but the CSS references `FontAwesome-WebFont.woff2`, it will fail.
@@ -130,20 +147,24 @@ File paths are case-sensitive on some systems (e.g., Linux). Ensure the file nam
 ---
 
 ### 5. Clear Cache and Rebuild
+
 Sometimes, stale caches cause resolution issues.
 
 - Clear the npm cache:
+
   ```bash
   npm cache clean --force
   ```
 
 - Delete `node_modules` and `package-lock.json`, then reinstall:
+
   ```bash
   rm -rf node_modules package-lock.json
   npm install
   ```
 
 - Rebuild your project:
+
   ```bash
   npm run build
   ```
@@ -151,10 +172,12 @@ Sometimes, stale caches cause resolution issues.
 ---
 
 ### 6. Alternative: Use Font Awesome via SCSS
+
 If you're using SCSS, you can import Font Awesome's SCSS files and configure the font path.
 
 - Install Font Awesome as above.
 - Import the SCSS in your main SCSS file:
+
   ```scss
   $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
   @import '~@fortawesome/fontawesome-free/scss/fontawesome';
@@ -166,12 +189,14 @@ If you're using SCSS, you can import Font Awesome's SCSS files and configure the
 ---
 
 ### 7. Debugging Tips
+
 - **Check the browser console**:
   Look for 404 errors for the font files and note the requested URL.
 - **Inspect the build output**:
   Verify that font files are included in the output directory (e.g., `dist/fonts/`).
 - **Use `resolve-url-loader`**:
   If you're using Webpack with SCSS, install `resolve-url-loader` to help resolve relative URLs:
+
   ```bash
   npm install resolve-url-loader --save-dev
   ```
@@ -179,17 +204,21 @@ If you're using SCSS, you can import Font Awesome's SCSS files and configure the
 ---
 
 ### 8. If Using a Framework
+
 Some frameworks (e.g., React, Vue, Angular) may require additional configuration:
 
 - **React**:
   Ensure you're importing the CSS in your `index.js` or `App.js`:
+
   ```javascript
   import '@fortawesome/fontawesome-free/css/all.css';
   ```
+
   Use the Webpack configuration above if needed.
 
 - **Vue**:
   If using Vue CLI, add the Webpack rule to `vue.config.js`:
+
   ```javascript
   module.exports = {
     chainWebpack: (config) => {
@@ -209,6 +238,7 @@ Some frameworks (e.g., React, Vue, Angular) may require additional configuration
 
 - **Angular**:
   Add the Font Awesome CSS to `angular.json`:
+
   ```json
   "styles": [
     "node_modules/@fortawesome/fontawesome-free/css/all.css",
@@ -219,15 +249,19 @@ Some frameworks (e.g., React, Vue, Angular) may require additional configuration
 ---
 
 ### 9. Test the Fix
+
 - Run your development server:
+
   ```bash
   npm start
   ```
+
 - Open your app in the browser and verify that Font Awesome icons load correctly without console errors.
 
 ---
 
 ### 10. If the Issue Persists
+
 - **Check for conflicting versions**:
   Ensure you're not mixing different versions of Font Awesome (e.g., v5 and v6).
 - **Search for similar issues**:

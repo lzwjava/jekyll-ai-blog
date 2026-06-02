@@ -29,6 +29,7 @@ Yu Xin's literary career divides into two phases:
 - **Later period (in the north)**: Marked by profound sorrow, homesickness, and a fusion of southern refinement with northern vigor. His style matured into "old and accomplished" (老成), as praised by **Du Fu**: "Yu Xin's writing grew even finer with age, his bold brush soaring freely" (庾信文章老更成，凌云健笔意纵横).
 
 **Key representative works**:
+
 - Poetry: *Ni Yonghuai* (拟咏怀, 27 poems imitating Ruan Ji, expressing personal lament and exile), *Yan Ge Xing* (燕歌行), *Yang Liu Ge* (杨柳歌), small poignant poems like *Ji Wang Lin* (寄王琳) and *Ji Xu Ling* (寄徐陵).
 - Fu (rhapsodies): *Ai Jiangnan Fu* (哀江南赋, Lament for the South — his masterpiece, a grand lament for the fallen Liang), *Ku Shu Fu* (枯树赋, Rhapsody on a Withered Tree), *Xiao Yuan Fu* (小园赋), *Zhu Zhang Fu* (竹杖赋), *Shangxin Fu* (伤心赋).
 

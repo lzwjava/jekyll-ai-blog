@@ -11,9 +11,11 @@ type: note
 要使用 Spring 的 `ApplicationContextAware` 接口在普通 Java 对象（如 Kafka 消费者）中访问 `ApplicationContext`，需要一种桥接 Spring 托管 Bean 与普通对象的方法。具体操作如下：
 
 ### 通用方法
+
 `ApplicationContextAware` 接口允许 Spring 托管的 Bean 自动从 Spring 接收 `ApplicationContext`。通过此接口，可使未受 Spring 管理的普通 Java 对象（即非 Spring 容器创建的 Bean）也能获取上下文。
 
 #### 访问 ApplicationContext 的步骤
+
 1. **创建 Spring 托管的辅助类**：
    定义一个实现 `ApplicationContextAware` 接口并由 Spring 管理的类（例如使用 `@Component` 注解）。该类将在 Spring 应用启动时接收 `ApplicationContext`。
 
@@ -91,9 +93,11 @@ type: note
    - 此方法避免使用静态变量，使依赖关系显式化并提升可测试性
 
 ### Kafka 消费者专用方案
+
 若使用 **Spring Kafka** 处理 Kafka 消费者，推荐将消费者直接集成到 Spring 生态中，而非作为普通 Java 对象处理。
 
 #### 使用 `@KafkaListener`
+
 将 Kafka 消费者定义为包含 `@KafkaListener` 方法的 Spring 托管 Bean，从而直接自动注入 `ApplicationContext` 或其他 Bean。
 
 ```java
@@ -123,9 +127,11 @@ public class MyKafkaConsumer {
 - 自动注入在多数情况下无需手动获取上下文
 
 #### 手动创建 Kafka 消费者
+
 如需手动创建 `KafkaConsumer`（例如直接使用 Kafka 客户端库），应在 Spring 托管的 Bean 中创建，并按前述显式传递方式传入 `ApplicationContext`。
 
 ### 建议方案
+
 - **对于 Kafka 消费者**：尽可能在 Spring 托管的 Bean 中使用 Spring Kafka 的 `@KafkaListener`。此方式能充分利用 Spring 与 Kafka 的集成，简化对 `ApplicationContext` 及其他 Bean 的访问
 - **对于普通 Java 对象**：根据实际场景选择静态 `ApplicationContextProvider` 方案，或通过 Spring 托管 Bean 显式传递 `ApplicationContext`。在可行情况下，显式传递方案更受推荐，因其能避免静态状态并提升可测试性
 

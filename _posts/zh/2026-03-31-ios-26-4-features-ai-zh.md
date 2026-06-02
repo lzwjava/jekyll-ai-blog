@@ -40,6 +40,7 @@ type: note
 * **离线音乐识别：** 控制中心里的 Shazam/音乐识别现在可以在没有网络连接的情况下识别歌曲，并在恢复联网后显示结果。
 
 References:
+
 * [iOS 26.4 Features: Everything New in iOS 26.4](https://www.macrumors.com/guide/ios-26-4-features/)
 * [iOS 26.4 expands Apple Intelligence, adds smarter translation, creator tools and more](https://m.economictimes.com/magazines/panache/ios-26-4-expands-apple-intelligence-adds-smarter-translation-creator-tools-and-more/articleshow/129845125.cms)
 * [About iOS 26 Updates](https://support.apple.com/en-us/123075)

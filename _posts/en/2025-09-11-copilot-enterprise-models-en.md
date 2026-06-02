@@ -44,7 +44,7 @@ You're asking about which model could be used for **Copilot Enterprise**, specif
 
 ---
 
-### Quick rundown (without wide tables, per your preference):
+### Quick rundown (without wide tables, per your preference)
 
 * **GPT-4o**: Default in GitHub Copilot Enterprise; known for speed and quality in enterprise chat.
 * **GPT-4.1**: More powerful successor—better at code, instruction following, and long contexts. Available in GitHub Copilot if enabled, and now default in Visual Studio Copilot. ([OpenAI][7])

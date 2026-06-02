@@ -26,6 +26,7 @@ Key reasons this works:
 - **Efficient use of time**: Skipping prolonged preparation and jumping in prevents procrastination disguised as "getting ready."
 
 This approach is backed by research on learning:
+
 - Concepts like **desirable difficulties** (Robert Bjork) show that introducing challenges during learning leads to better long-term retention.
 - The **zone of proximal development** (Vygotsky) suggests optimal learning occurs just beyond current abilities.
 - Expert performance studies (Ericsson's deliberate practice) emphasize effortful, focused practice on hard tasks.

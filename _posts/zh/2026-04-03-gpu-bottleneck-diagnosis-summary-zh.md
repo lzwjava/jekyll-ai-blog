@@ -14,6 +14,7 @@ type: note
 ## 步骤 1：识别核心异常
 
 **每迭代 21 秒** 在 H200 GPU 上立即令人怀疑。作为背景：
+
 - 单张 H200 可以达到 ~300-500 TFLOPs (FP16/BF16)
 - GPT-2 XL (1.5B params) 在 1M tokens 上的 forward+backward 应该在该硬件上花费 **~0.5-1.5 秒**
 - 即使有开销，超过 3-5 秒的任何时间都表明存在瓶颈
@@ -23,6 +24,7 @@ type: note
 ## 步骤 2：计算实际数据负载
 
 查看您的配置：
+
 ```
 batch_size = 16
 block_size = 1024
@@ -30,6 +32,7 @@ gradient_accumulation_steps = 64
 ```
 
 每迭代：
+
 - 每个 micro-batch：16 × 1024 = 16,384 tokens
 - 64 次累积 = **1,048,576 tokens 每迭代**
 - 那大约是 4MB 数据（每个 token 4 bytes）
@@ -38,6 +41,7 @@ gradient_accumulation_steps = 64
 ## 步骤 3：在 nanoGPT 中追踪数据路径
 
 nanoGPT 中的标准 `get_batch()`：
+
 ```python
 def get_batch(split):
     data = train_data if split == 'train' else val_data
@@ -48,6 +52,7 @@ def get_batch(split):
 ```
 
 这会**对 numpy/内存映射数组进行随机索引**。当 `gradient_accumulation_steps=64` 时，您会执行：
+
 - 每迭代 64 次 `get_batch()` 调用
 - 每次调用：16 个随机索引 × 1024 个 token 查找 = 16,384 次随机内存访问
 - 每迭代总计：**1,048,576 次随机内存访问**
@@ -57,6 +62,7 @@ def get_batch(split):
 ## 步骤 4：考虑 DigitalOcean 上的存储位置
 
 DigitalOcean 的 H200 droplets 通常具有：
+
 - **Boot disk**：网络附加，中等 IOPS (2,000-5,000)
 - **Scratch NVMe**：本地，高 IOPS (100,000+)
 
@@ -77,6 +83,7 @@ DigitalOcean 的 H200 droplets 通常具有：
 ## 步骤 7：优先级排序修复
 
 按影响最大排序：
+
 1. **减少 `gradient_accumulation_steps`** → 将磁盘读取减少 16x
 2. **增加 `batch_size`** → 每次读取更少的随机索引
 3. **使用 `DataLoaderLite`** → 高效预取和批处理

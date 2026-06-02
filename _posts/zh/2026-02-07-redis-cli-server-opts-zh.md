@@ -156,7 +156,7 @@ redis-cli EVAL "return redis.call('SET', KEYS[1], ARGV[1])" 1 mykey value
 
 **References:**
 
-- https://redis.io/docs/latest/operate/oss_and_stack/management/config
-- https://redis.io/docs/latest/develop/tools/cli
-- https://redis.io/docs/latest/commands
-- https://stackoverflow.com/questions/55078246/docs-for-redis-server-command-line-options
+- <https://redis.io/docs/latest/operate/oss_and_stack/management/config>
+- <https://redis.io/docs/latest/develop/tools/cli>
+- <https://redis.io/docs/latest/commands>
+- <https://stackoverflow.com/questions/55078246/docs-for-redis-server-command-line-options>

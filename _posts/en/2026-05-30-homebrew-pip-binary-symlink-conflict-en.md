@@ -14,6 +14,7 @@ type: note
 
 **Root Cause**
 A pip-installed `huggingface-hub` package (v0.29.3) had already placed console scripts at:
+
 - `/opt/homebrew/bin/hf` — Python script targeting `python3.14`
 - `/opt/homebrew/bin/tiny-agents` — Python script targeting `python3.14`
 
@@ -23,6 +24,7 @@ The Homebrew `hf` formula (v1.8.0) tries to symlink the exact same paths, so lin
 Both pip and Homebrew manage files in `/opt/homebrew/bin/` on your setup because Homebrew's Python is the system Python. When you `pip install` a package with CLI entry points, pip writes scripts into Homebrew's bin directory. Homebrew doesn't know about these pip-managed files and vice versa — no conflict detection exists between the two.
 
 **Options Considered**
+
 1. `brew link --overwrite hf` — forces Homebrew's symlinks, but leaves two copies of huggingface-hub installed (brew + pip). Maintenance headache.
 2. `pip uninstall huggingface-hub && brew link hf` — clean, but swaps pip for brew as the manager. Downgrade from 1.12.0 → 1.8.0.
 3. `brew uninstall hf` — remove the brew copy entirely, keep pip. **Chosen approach.**

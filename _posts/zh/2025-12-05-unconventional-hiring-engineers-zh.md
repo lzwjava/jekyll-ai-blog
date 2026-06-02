@@ -49,6 +49,7 @@ type: note
 这些想法之所以不受欢迎，是因为它们摩擦力更大，在某些司法管辖区法律上更复杂，或者冒犯了常见的公平直觉——但那些哪怕只采用其中几种想法的团队，往往能建立起显著更强大的工程组织。
 
 参考文献：
+
 - [没有裤子的一年 – Scott Berkun（关于Basecamp的无LeetCode招聘）](https://scottberkun.com/yearwithoutpants/)
 - [招聘与柠檬市场 – Dan Luu](https://danluu.com/programmer-moneyball/)
 - [不要招聘最好的人 – Keith Rabois（YouTube演讲）](https://www.youtube.com/watch?v=5yJ1zE1U9uE)

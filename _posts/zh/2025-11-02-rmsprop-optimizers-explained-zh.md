@@ -29,6 +29,7 @@ RMSProp（均方根传播）是一种自适应优化算法，用于通过梯度�
 这些优化器通常在PyTorch或TensorFlow等框架中实现（例如`torch.optim.RMSprop`）。对于大多数深度学习任务，可以从RMSProp或Adam开始，因为它们能很好地处理各种问题。对于稀疏数据，可以尝试Adagrad；对于RNN/LSTM，RMSProp或Adam表现突出。
 
 ### 参考资料
+
 - [理解深度学习优化器：动量、AdaGrad、RMSProp和Adam](https://towardsdatascience.com/understanding-deep-learning-optimizers-momentum-adagrad-rmsprop-adam-e311e377e9c2)
 - [我的机器学习项目应该使用哪种优化器？](https://www.lightly.ai/blog/which-optimizer-should-i-use-for-my-machine-learning-project)
 - [深度学习优化器综合指南](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/)

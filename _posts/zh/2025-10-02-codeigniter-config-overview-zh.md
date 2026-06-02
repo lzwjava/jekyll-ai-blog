@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 该文件说明
+
 这是 [CodeIgniter 框架](https://codeigniter.com/) 的 `config.php` 文件（一个流行的 PHP Web 应用程序框架，目前有 3.x 或 4.x 等后续版本，但根据语法和注释判断这似乎是较旧版本）。它定义了 CodeIgniter 用于处理 URL、日志记录、会话、安全性等方面的各种配置设置。这些设置在框架执行早期加载，用于自定义应用程序的运行方式。
 
 该文件通常位于 CodeIgniter 项目的 `application/config/config.php` 路径中。它并非直接"运行"的文件——而是在应用启动时由 CodeIgniter 自动包含。

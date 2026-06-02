@@ -66,13 +66,13 @@ http://mydashboard.local:3001/dashboard
 
 Sometimes changes apply instantly, but if not:
 
-### macOS:
+### macOS
 
 ```bash
 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 ```
 
-### Linux (if using systemd-resolved):
+### Linux (if using systemd-resolved)
 
 ```bash
 sudo systemd-resolve --flush-caches

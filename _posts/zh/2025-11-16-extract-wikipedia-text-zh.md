@@ -15,6 +15,7 @@ type: note
 ### 推荐工具与方法（按从易到难排序）
 
 #### 1. 使用wikiextractor（适合多数用户——快速且干净）
+
 这是自然语言处理/机器学习领域处理维基百科转储的标准工具。
 
 ```bash
@@ -27,6 +28,7 @@ wikiextractor enwiki-latest-pages-articles1.xml-p1p41242.bz2 --output wiki_text
 
 - 输出：创建`wiki_text/`文件夹，内含AA、AB等子文件夹，包含干净的JSON/文本文件。
 - 获取纯文本（每篇文章一行）：
+
 ```bash
 wikiextractor enwiki-latest-pages-articles1.xml-p1p41242.bz2 --processes 8 -o wiki_text --json
 # 如需将JSON转为纯文本
@@ -62,6 +64,7 @@ bzip2 -dc enwiki-latest-pages-articles1.xml-p1p41242.bz2 | \
 ```
 
 #### 4. 处理完整转储且需要高速并行（适用于后续所有分块）
+
 您的文件仅是第一个分块（p1p41242），但如果后续需要处理全部约30+个分块：
 
 ```bash
@@ -69,7 +72,7 @@ bzip2 -dc enwiki-latest-pages-articles1.xml-p1p41242.bz2 | \
 ls *.bz2 | xargs -P 8 -I {} wikiextractor {} --output wiki_extracted
 ```
 
-### 当前推荐方案总结：
+### 当前推荐方案总结
 
 ```bash
 pip install wikiextractor
@@ -79,6 +82,7 @@ wikiextractor enwiki-latest-pages-articles1.xml-p1p41242.bz2 -o extracted_wiki -
 几分钟内即可获得清晰可读的文章（您的压缩文件仅约2-3GB，非常易于处理）。
 
 如需以下定制处理请告知：
+
 - 仅需主名字空间（真实文章，非讨论页）
 - 纯文本而非JSON格式
 - 分词后输出

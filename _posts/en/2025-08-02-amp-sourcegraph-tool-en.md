@@ -29,4 +29,4 @@ Sourcegraph's Amp is an agentic coding tool designed to maximize the capabilitie
 
 However, some users note its credit-based pricing can be expensive, with costs tied to LLM usage and additional tools like web search. For example, one user reported spending $4 on 2,000 lines of code.[](https://www.reddit.com/r/ClaudeAI/comments/1ll0kow/sourcegraph_cody_discontinued_replaced_by_cody/)
 
-Amp is available at ampcode.com with $10 in free credits upon signup (plus $30 extra for Enterprise Starter users). For pricing details, visit https://x.ai/grok or contact amp-billing-help@sourcegraph.com.[](https://ampcode.com/manual)[](https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans)
+Amp is available at ampcode.com with $10 in free credits upon signup (plus $30 extra for Enterprise Starter users). For pricing details, visit <https://x.ai/grok> or contact <amp-billing-help@sourcegraph.com>.[](https://ampcode.com/manual)[](https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans)

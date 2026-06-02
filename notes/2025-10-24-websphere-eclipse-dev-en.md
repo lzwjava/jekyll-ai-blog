@@ -15,16 +15,19 @@ type: note
 IBM WebSphere Application Server (WAS) is a Java EE application server, and Eclipse serves as an excellent IDE for developing, assembling, and deploying applications to it. The primary tool for this integration is the **IBM WebSphere Application Server Developer Tools for Eclipse** (often abbreviated as WDT). This plugin provides server management, project creation, deployment, and debugging capabilities directly within Eclipse. It supports both traditional WAS (e.g., v8.5 and v9.x) and the lightweight Liberty profile.
 
 #### Required Plugin
+
 - **IBM WebSphere Application Server Developer Tools for Eclipse**: This is the essential plugin. Choose the version matching your WAS runtime (e.g., V8.5x or V9.x tools). It's available for free on the Eclipse Marketplace and supports recent Eclipse releases like 2024-06 or 2025-03.
 
 No other plugins are strictly required, but for full Java EE development, ensure your Eclipse installation includes the Web Tools Platform (WTP), which is standard in the Eclipse IDE for Java EE Developers package.
 
 #### Prerequisites
+
 - Eclipse IDE for Java EE Developers (version 2023-09 or later recommended for compatibility).
 - IBM WAS runtime installed locally (traditional or Liberty) for testing and deployment.
 - Internet access for Marketplace installation (or download offline files).
 
 #### Installation Steps
+
 You can install WDT via the Eclipse Marketplace (easiest method), update site, or downloaded files. Restart Eclipse after installation.
 
 1. **Via Eclipse Marketplace** (Recommended):
@@ -47,6 +50,7 @@ You can install WDT via the Eclipse Marketplace (easiest method), update site, o
 After installation, verify by checking **Window > Show View > Servers**—WAS should appear as a server type option.
 
 #### Basic Steps to Develop and Deploy WAS Applications
+
 Once installed, you can create, build, and run Java EE applications targeted at WAS.
 
 1. **Create a New Project**:
@@ -80,6 +84,7 @@ Once installed, you can create, build, and run Java EE applications targeted at 
 If you encounter issues (e.g., compatibility errors), check IBM's known issues page or ensure your Eclipse and WAS versions align.
 
 #### References
+
 - [IBM WebSphere Application Server Developer Tools Overview](https://www.ibm.com/docs/en/wasdtfe?topic=websphere-developer-tools-overview)
 - [Eclipse Marketplace: V9.x Tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools)
 - [Eclipse Marketplace: V8.5x Tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v85x-developer-tools)

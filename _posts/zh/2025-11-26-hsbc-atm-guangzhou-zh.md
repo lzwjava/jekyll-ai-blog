@@ -15,6 +15,7 @@ type: note
 使用汇丰香港账户在汇丰广州分行（中国大陆）的ATM机取款，通常被视为跨境交易。汇丰香港卡（特别是银联关联的ATM/借记卡）兼容中国大陆的汇丰ATM机，支持提取人民币（CNY）。取现金额将按汇丰的汇率从港币（或您账户的币种）折算，并可能附加外汇溢价（汇丰卡通常为0-1%，具体取决于卡种）。
 
 #### 主要费用
+
 费用主要取决于您的汇丰香港账户类型和客户等级。以下是基于标准费率的明细：
 
 | 客户等级 | 汇丰香港每次取款手续费 | 中国大陆ATM手续费 | 预计总费用 | 备注 |
@@ -34,6 +35,7 @@ type: note
 关于您的具体账户情况，请登录汇丰香港网上银行或致电客服热线（+852 2233 3000）确认。费率可能更新——最新信息截至2025年中。
 
 #### 参考链接
+
 - [汇丰香港境外ATM取款指南](https://www.hsbc.com.hk/help/travel/atm-withdrawal/)
 - [汇丰香港银行费率指南（2025年6月）](https://www.hsbc.com.hk/content/dam/hsbc/hk/docs/ways-to-bank/bank-tariff/20240601-guide.pdf)
 - [汇丰卓越理财权益](https://www.hsbc.com.hk/international/travel-services/)

@@ -13,9 +13,11 @@ type: note
 Got it. You're using **GitHub Copilot in VS Code**, and you're asking if there's a way to **accept all edits/suggestions at once**, similar to `Accept All Changes` in an editor like Word.
 
 ### Key Point
+
 GitHub Copilot generates suggestions inline as **ghost text**. These suggestions are *not actual edits* until you explicitly accept them. Because of this design, there is **no "accept all" button** — you can only accept suggestions one at a time.
 
 ### Options You Have
+
 1. **Accept a suggestion:**
    - Press `Tab` or `Ctrl`+`Enter` (depending on your keybinding) when the ghost text appears.
    - This applies the suggestion into the buffer.

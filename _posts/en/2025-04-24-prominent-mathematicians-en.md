@@ -131,6 +131,7 @@ The contributions of mathematicians have shaped the foundations of science, tech
     - **Impact**: His work laid the theoretical foundation for computing and AI.[](https://www.businessinsider.com/important-mathematicians-modern-world-2012-7)[](https://www.oxford-royale.com/articles/famous-mathematicians-throughout-history)
 
 ### Notes
+
 - **Selection Criteria**: Mathematicians were chosen for their transformative contributions, influence across fields, and historical significance. The list spans ancient to modern times, balancing pure and applied mathematics. Some, like Ramanujan, were included for exceptional brilliance despite short careers, while others, like Euler, dominate for their vast output.[](https://www.rankred.com/famous-greatest-mathematicians/)
 - **Omissions**: Notable figures like John von Neumann, Andrey Kolmogorov, and Terence Tao were considered but excluded due to the top 30 limit or focus on pre-1930 births (per some sources’ criteria). Women like Maryam Mirzakhani and modern mathematicians were also considered but constrained by historical scope.[](https://fabpedigree.com/james/greatmm.htm)[](https://academicinfluence.com/rankings/people/most-influential-mathematicians-today)
 - **Cultural Diversity**: The list includes mathematicians from Greece, India, the Islamic world, Europe, and beyond, reflecting mathematics’ global evolution.[](https://www.mashupmath.com/blog/famous-mathematicians-in-history)

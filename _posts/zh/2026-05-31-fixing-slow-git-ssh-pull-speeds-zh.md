@@ -95,6 +95,7 @@ GIT_TRACE=1 git -C /Users/lzwjava/projects/Qwen2.5-Coder fetch --depth=1
 ```
 
 从追踪信息看时间戳：
+
 ```
 14:01:45.303  index-pack started (receiving data)
 14:03:02.436  index-pack done
@@ -117,6 +118,7 @@ Qwen3:          已经是 HTTPS（无需更改）
 ```
 
 使用的命令：
+
 ```bash
 git -C /path/to/repo remote set-url origin https://github.com/QwenLM/RepoName.git
 ```

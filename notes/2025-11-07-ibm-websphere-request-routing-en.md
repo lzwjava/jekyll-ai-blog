@@ -17,6 +17,7 @@ Let me explain how IBM WebSphere Application Server (WAS) handles incoming reque
 When a request comes to IBM WAS, here's the typical flow:
 
 **1. Web Server Layer (Optional)**
+
 - Request first hits IBM HTTP Server (IHS) or another web server
 - Web server plugin routes to appropriate WAS instance
 
@@ -32,10 +33,12 @@ com.ibm.ws.webcontainer.*
 The routing happens through several components:
 
 **Transport Channel Framework**
+
 - `com.ibm.ws.channel.*` - handles network communication
 - HTTP transport channels receive the request
 
 **Web Container Processing**
+
 ```
 com.ibm.ws.webcontainer.servlet.ServletWrapper
 com.ibm.ws.webcontainer.filter.WebAppFilterManager
@@ -63,6 +66,7 @@ Filters work exactly like standard Java Servlet filters but managed by WAS:
 ```
 
 **Filter execution order:**
+
 1. WAS loads filter configurations at application startup
 2. WebAppFilterManager creates filter chain
 3. On each request: Request → Filter1 → Filter2 → ... → Servlet
@@ -70,6 +74,7 @@ Filters work exactly like standard Java Servlet filters but managed by WAS:
 ## Main Packages in IBM WAS
 
 **Core packages:**
+
 - `com.ibm.ws.webcontainer.*` - Web container implementation
 - `com.ibm.ws.runtime.*` - Runtime services
 - `com.ibm.websphere.servlet.*` - WAS-specific servlet extensions
@@ -80,22 +85,26 @@ Filters work exactly like standard Java Servlet filters but managed by WAS:
 ## Routing Mechanism
 
 **Virtual Host Routing:**
+
 - Configured in WAS admin console
 - Maps `hostname:port` combinations to applications
 - Configuration: `VirtualHost → Host Aliases → Applications`
 
 **Context Root Routing:**
+
 - Each application has a context root (e.g., `/myapp`)
 - WAS maintains a registry of deployed applications
 - URI mapping: `http://server:port/contextRoot/servletPath`
 
 **Servlet Mapping:**
+
 - Defined in web.xml or annotations
 - Pattern matching (exact, path, extension, default)
 
 ## Application Startup Sequence
 
 When application starts:
+
 1. **ClassLoader initialization** - App gets its own classloader
 2. **web.xml parsing** - Filters, servlets, listeners loaded
 3. **ServletContextListeners fire** - `contextInitialized()`

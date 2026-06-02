@@ -120,16 +120,19 @@ CF runs apps behind its routing layer; you typically cannot expose a JDWP port d
    ```
    cf set-env <APP> JBP_CONFIG_DEBUG '{enabled: true, port: 7777}'
    ```
+
 2. Restage:
 
    ```
    cf restage <APP>
    ```
+
 3. Open an SSH tunnel:
 
    ```
    cf ssh -N -L 7777:localhost:7777 <APP>
    ```
+
 4. In IntelliJ, attach to `localhost:7777`.
 
 **Option 2: Use CF SSH JMX/Diagnostics instead of JDWP**

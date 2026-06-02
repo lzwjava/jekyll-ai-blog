@@ -17,12 +17,14 @@ Answer:
 "种树郭橐驼传" (often translated as "The Biography of Camelback Guo the Tree Planter" or "Guo the Camel, the Tree Planter") is a famous classical Chinese prose essay written by **柳宗元** (Liu Zongyuan, 773–819), one of the leading figures of the Tang Dynasty literary movement called the **古文运动** (Classical Prose Movement).
 
 ### Basic Information
+
 - Author: Liu Zongyuan (柳宗元)
 - Genre: 传 (zhuan) – a biographical sketch (but in reality a very short allegorical essay)
 - Period: Mid-Tang Dynasty (around 805–810 CE, during Liu’s exile in Yongzhou)
 - Length: Very short — usually only about 500–600 characters
 
 ### Main Content Summary
+
 The essay tells the story of a poor, ugly, humpbacked gardener nicknamed **郭橐驼** (Guo Tuotuo = Camel Guo) who is extraordinarily skilled at planting trees. No matter what kind of tree he plants — fruit trees, ornamental trees, large or small — they all grow vigorously, bear abundant fruit, and live long.
 
 When people ask him his secret, he gives very simple answers:
@@ -31,6 +33,7 @@ When people ask him his secret, he gives very simple answers:
 > ("I merely do not harm the tree’s roots, do not force its growth, and follow its natural tendencies.")
 
 He then sharply criticizes ordinary gardeners who:
+
 - Damage roots while transplanting
 - Over-fertilize
 - Force trees to grow too fast
@@ -43,6 +46,7 @@ At the end, Liu Zongyuan turns the story into a powerful political allegory:
 > The same principle applies to governing people. Officials who “love” the people too much — constantly issuing new orders, making endless demands, interfering in every detail — actually harm the people, just like those bad gardeners harm trees. True good governance should follow the natural way (顺其天性), reduce interference, and let the people live and develop naturally.
 
 ### Core Theme & Famous Lines
+
 The most quoted and philosophically important sentence is:
 
 > **“苟能顺木之天，以致其性焉尔。”**
@@ -51,6 +55,7 @@ The most quoted and philosophically important sentence is:
 This line embodies Daoist ideas (无为而治 / wuwei – governing by non-interference) while also serving as a sharp critique of the excessive, micromanaging bureaucracy of the Tang government.
 
 ### Literary & Historical Significance
+
 - One of the most famous examples of **寓言式散文** (allegorical prose) in classical Chinese literature
 - Masterpiece of **唐代古文** (Tang ancient-style prose)
 - Frequently included in Chinese middle school and high school textbooks

@@ -12,11 +12,13 @@ type: note
 所有内容均已同步并验证。以下是总结：
 
 **已同步至 lzw@192.168.1.36：**
+
 - `~/.hermes/plugins/note/__init__.py` — 插件代码
 - `~/.hermes/plugins/note/plugin.yaml` — 清单文件
 - `~/.hermes/config.yaml` — 已包含 `plugins.enabled` 中的 `note`
 
 **在远程端已验证：**
+
 - `ww` 包可导入（`create_note_from_content` 存在）
 - 插件文件可加载
 - 配置中已包含 `plugins.enabled: [note]`

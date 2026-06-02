@@ -23,12 +23,14 @@ The process hit ~61 GB resident on a 62 GB machine.
 Each shard is ~2.2 GB compressed parquet → roughly 6–10 GB of Python objects when loaded as a DataFrame (strings have huge per-object overhead). Even though `df` is reassigned each iteration, pyarrow/pandas allocators don't reliably return memory to the OS, so RSS grows roughly monotonically. After ~10 shards you're at ~60 GB and the kernel kills you.
 
 Two design issues amplify it:
+
 - `pd.read_parquet(file)` loads the entire shard at once.
 - `df.iterrows()` is slow and allocates a Series per row — millions of temporaries.
 
 **Fixes (cheapest first)**
 
 1. Stream batches with pyarrow instead of loading whole files, and free explicitly:
+
    ```python
    import pyarrow.parquet as pq, gc
    pf = pq.ParquetFile(parquet_file)
@@ -38,6 +40,7 @@ Two design issues amplify it:
                f.write(t.strip() + "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n")
    del pf; gc.collect()
    ```
+
 2. Drop `iterrows()` even if you keep `read_parquet` — use `df["text"].to_list()`.
 3. Bigger picture: writing a single text file across 176 × 2.2 GB shards = ~hundreds of GB on disk that you'll then re-read to tokenize. The standard nanoGPT FineWeb pipeline tokenizes directly from parquet into `.bin` shards — skip the giant intermediate `.txt` entirely.
 

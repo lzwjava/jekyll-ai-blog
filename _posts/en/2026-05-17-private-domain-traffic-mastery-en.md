@@ -47,15 +47,19 @@ The deliberate waiting period is not a logistics problem — it's a **psychologi
 ## 4. Why Are Chinese Companies So Good at This?
 
 ### A. Public Traffic Is Extremely Expensive and Competitive
+
 Rising ad costs and shifting consumer behaviors have made private traffic — brand-owned consumer engagement — a critical strategy. Unlike public traffic, where brands compete for visibility on shared platforms, private traffic allows direct, owned engagement channels.
 
 ### B. WeChat Is the Perfect Private Traffic Infrastructure
+
 WeChat has over 1.2 billion monthly active users. It is more than just a messaging app — it is a comprehensive platform integrating social media, payment services, and various other functions. Features such as WeChat Channels (视频号), Official Accounts (公众号), and Moments (朋友圈) are invaluable entry points, allowing brands to create a closed-loop engagement process.
 
 ### C. The "Fission" Growth Model (裂变)
+
 **Fission (裂变)** is considered the most characteristic Chinese marketing method. There are 2 key steps: first, designing a complete mechanism to close the loop (sharing → conversion); second, giving enough incentive for users to participate and share further. This means every new user is a potential recruiter of more users.
 
 ### D. The Proven Playbook
+
 Brands follow these steps to tap into user value on WeChat: 1) Attract potential customers via a public account with marketing content; 2) Retain users through regular communication and sharing promotions or new information; 3) Drive sales not only through one-on-one communication but also by setting up multiple WeChat groups for one-to-many interactions.
 
 ---

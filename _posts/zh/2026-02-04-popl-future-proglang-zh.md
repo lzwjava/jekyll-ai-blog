@@ -15,6 +15,7 @@ POPL 全称是 **Principles of Programming Languages** —— 它是 Computer Sc
 以下是关于它的核心要点：
 
 **Focus areas：**
+
 - Programming languages 的理论基础
 - Type systems 和 Semantics
 - Program verification 与 Analysis
@@ -22,12 +23,14 @@ POPL 全称是 **Principles of Programming Languages** —— 它是 Computer Sc
 - Computer science 中的 Logic
 
 **学术影响力：**
+
 - 这是一个顶级会议（被评为 "A*" 或 "Rank 1" 级别）
 - 竞争非常激烈 —— 录用率通常在 20-25% 左右
 - 在 POPL 发表论文对于研究者来说是一项重大成就
 - 论文通常会引入具有影响力的全新概念和技术
 
 **参会人群：**
+
 - 来自学术界和工业界的 Programming language 研究人员
 - 攻读 PL theory 方向的 PhD students
 - 对前沿语言研究感兴趣的从业者

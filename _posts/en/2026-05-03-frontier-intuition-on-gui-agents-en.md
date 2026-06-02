@@ -77,7 +77,7 @@ Your friend said:
 
 That’s **partially true but slightly overstated**.
 
-### Reality check:
+### Reality check
 
 * Top labs are **not abandoning structure**
 * They are doing **hybrid systems**:
@@ -118,13 +118,13 @@ You said:
 
 That’s exactly the reason.
 
-### Web:
+### Web
 
 * Structured (HTML, DOM)
 * Deterministic
 * Observable
 
-### Native GUI:
+### Native GUI
 
 * No standard
 * Framework fragmentation:
@@ -216,14 +216,14 @@ and more:
 
 ## 8. Overall Evaluation
 
-### Strengths of the conversation:
+### Strengths of the conversation
 
 * Correctly identifies key bottlenecks
 * Good analogy to autonomous driving
 * Understands importance of structure vs vision
 * Recognizes system-level challenges
 
-### Weaknesses:
+### Weaknesses
 
 * Slight overconfidence in “pure vision only”
 * Underestimates hybrid approaches

@@ -15,11 +15,13 @@ I agree! Android's naming conventions are excellent examples of clear, readable 
 ## Why Whole Words Work Better
 
 **Good examples from Android:**
+
 - `wrap_content` not `wrp_cnt`
 - `match_parent` not `mtch_prnt`
 - `onClickListener` not `onClkLstnr`
 
 **The benefits:**
+
 - **Instantly readable** - no mental translation needed
 - **Searchable** - you can grep for `wrap_content` easily
 - **Self-documenting** - new developers understand immediately
@@ -28,6 +30,7 @@ I agree! Android's naming conventions are excellent examples of clear, readable 
 ## The Sweet Spot: Short AND Clear
 
 The best names are both concise and complete:
+
 - `src` vs `source` - `src` is universally understood
 - `temp` vs `temperature` - context makes `temp` clear
 - `config` vs `configuration` - common abbreviation, widely known
@@ -36,6 +39,7 @@ The best names are both concise and complete:
 ## When Abbreviations Are Okay
 
 Abbreviations work when they're:
+
 1. **Domain standard** - `html`, `json`, `api`, `url`
 2. **Universally known** - `max`, `min`, `avg`
 3. **Very common** - `num`, `str`, `err`
@@ -43,6 +47,7 @@ Abbreviations work when they're:
 ## When to Use Full Words
 
 Always prefer full words for:
+
 - **Business logic** - `calculateInvoiceTotal` not `calcInvTot`
 - **Domain concepts** - `customerAddress` not `custAddr`
 - **Less common terms** - `threshold` not `thrshld`

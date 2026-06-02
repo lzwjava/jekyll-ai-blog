@@ -16,7 +16,7 @@ Answer:
 
 **Expropriate** (verb) means to take away property or land from its owner, usually by a government or authority, for public use or other official purposes. It typically involves some form of compensation (though not always fair or adequate), and it is done through legal or official procedures.
 
-### Main meanings and usage:
+### Main meanings and usage
 
 1. **Government taking private property** (most common meaning today)
    - The state/government seizes private land or assets for public projects (roads, airports, railways, hospitals, etc.).
@@ -31,7 +31,7 @@ Answer:
    - Frequently used when talking about nationalization or land reform.
    - Example: "In the 1950s–60s many countries in Latin America and Africa expropriated foreign-owned oil fields and mines."
 
-### Quick comparison:
+### Quick comparison
 
 - **Expropriate** → usually done by government / authority, often with some legal process
 - **Confiscate** → usually punishment / crime-related, often without compensation

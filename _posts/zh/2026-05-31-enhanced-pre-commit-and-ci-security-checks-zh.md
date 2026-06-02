@@ -20,10 +20,10 @@ type: note
    + detect-secrets — 凭证泄漏预防
 
 2. pyproject.toml — 添加了 [tool.bandit] 部分：
-   - 排除 ww/ml/ 和 tests/
-   - 跳过误报：B113（超时）、B602/B605（子进程 shell）、
+   + 排除 ww/ml/ 和 tests/
+   + 跳过误报：B113（超时）、B602/B605（子进程 shell）、
      B301/B314（pickle/xml）、B310（urllib）、B108（tmp）、B104（绑定所有地址）、B307（eval）
-   - 仍会捕获真实问题：B608（SQL 注入）、B614（不安全的 pickle）、
+   + 仍会捕获真实问题：B608（SQL 注入）、B614（不安全的 pickle）、
      B615（未固定版本的 HF 下载）
 
 3. .github/workflows/lint.yml — 新的工作流，包含 4 个并行任务：
@@ -36,8 +36,8 @@ type: note
    + coverage --fail-under=60（之前无阈值）
 
 5. .secrets.baseline — 新文件：
-   - 基线化了 11 个文件（测试夹具、配置文件）
-   - 排除 .env、.venv、ww/ml/
+   + 基线化了 11 个文件（测试夹具、配置文件）
+   + 排除 .env、.venv、ww/ml/
 
 == bandit 仍会捕获的内容（7 个真实问题）==
    B608：ww/photo/ 模块中 4 处 SQL 注入

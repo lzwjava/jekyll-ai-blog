@@ -28,6 +28,7 @@ find . -name "*.yaml" -o -name "*.toml" -o -name "*.json" | xargs grep -l "herme
 ## 2. 常见禁用模式
 
 **如果在配置文件中是一个标志：**
+
 ```yaml
 # 代理配置
 planning: false
@@ -36,6 +37,7 @@ review_steps: []
 ```
 
 **如果是 CLI 标志：**
+
 ```bash
 mimo --no-plan
 mimo --disable-hermes
@@ -43,6 +45,7 @@ mimo --mode direct   # 跳过编排层
 ```
 
 **如果是代码——找到编排循环：**
+
 ```python
 # 查找类似下面的内容并短路它
 class Hermes:

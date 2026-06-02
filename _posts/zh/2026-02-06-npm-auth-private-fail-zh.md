@@ -12,7 +12,7 @@ type: note
 
 你描述的是在使用需要身份验证的私有 registry（例如 Sonatype Nexus）时，npm 的一种常见行为。让我分析一下具体情况：
 
-## 当 `node_modules` 为空时（全新安装）：
+## 当 `node_modules` 为空时（全新安装）
 
 ```bash
 npm install
@@ -23,7 +23,7 @@ npm install
 - 错误信息：`Need: Basic realm "Sonatype Nexus"`（或类似的身份验证挑战）
 - 多个 package 下载会迅速失败
 
-## 当 `node_modules` 不为空时（已存在安装）：
+## 当 `node_modules` 不为空时（已存在安装）
 
 行为有所不同：
 
@@ -37,19 +37,22 @@ npm install
 ## 为什么会有这种差异？
 
 当 `node_modules` 存在时，npm 在尝试下载之前会执行额外的检查：
+
 - 验证已存在的 packages
 - 更彻底地检查 authentication 状态
 - 可能会先尝试验证 registry 连接
 
-## 解决方案：
+## 解决方案
 
 1. **正确配置 npm 身份验证：**
+
    ```bash
    npm config set registry https://your-nexus-url/repository/npm-group/
    npm login --registry=https://your-nexus-url/repository/npm-group/
    ```
 
 2. **或者使用 `.npmrc` 文件：**
+
    ```
    registry=https://your-nexus-url/repository/npm-group/
    //your-nexus-url/repository/npm-group/:_auth=<base64-encoded-credentials>

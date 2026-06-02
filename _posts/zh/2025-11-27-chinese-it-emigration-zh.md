@@ -38,4 +38,4 @@ type: note
 
 这段视频对比了2000年至2025年间外籍人士在中国的经历变迁，为理解中国劳动力市场动态变化如何影响出海决策提供了背景参考。[中国梦2.0？外籍人士在华职业发展历程（2000-2025）](https://www.youtube.com/watch?v=qrClCTgmcm4)
 
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

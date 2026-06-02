@@ -67,6 +67,7 @@ plt.show()
 ```
 
 ### How It Works (Tied to the Paper)
+
 - **Data**: Synthetic regression data with noise, similar to the paper's empirical tests.
 - **Model**: Uses least-squares loss by default, fitting trees to negative gradients (residuals).
 - **Training**: Sequential addition of trees with shrinkage (`learning_rate=0.1`) to prevent overfitting, as recommended.

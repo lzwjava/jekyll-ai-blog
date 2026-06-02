@@ -16,6 +16,7 @@ Answer:
 **Carl Gustav Jung (1875–1961)** was a Swiss psychiatrist, psychoanalyst, and thinker who founded **analytical psychology**, a major school of depth psychology distinct from Sigmund Freud's psychoanalysis. Widely regarded as one of the most influential psychologists of the 20th century, Jung's ideas extended far beyond clinical practice into mythology, religion, anthropology, literature, philosophy, and the study of human symbolism.
 
 ### Early Life and Career
+
 Jung was born on July 26, 1875, in Kesswil, Switzerland, to a pastor father and a mother from a family with interests in the occult and spiritualism. He studied medicine at the University of Basel and specialized in psychiatry at the Burghölzli Hospital in Zurich under Eugen Bleuler. His early work on word association experiments revealed emotionally charged "complexes" in the unconscious, earning him international recognition.
 
 In 1907, Jung met Sigmund Freud, and their collaboration lasted about six years. Jung became president of the International Psychoanalytical Association. However, fundamental disagreements—especially over the nature of libido (Jung saw it as general psychic energy, not primarily sexual) and the structure of the unconscious—led to a permanent break in 1913.
@@ -23,6 +24,7 @@ In 1907, Jung met Sigmund Freud, and their collaboration lasted about six years.
 After the split, Jung experienced a prolonged period of inner turmoil (1913–1919), confronting his own unconscious through visions, dreams, and active imagination. He documented this in *The Red Book* (Liber Novus), published posthumously in 2009, which many consider the seedbed of his later theories.
 
 ### Key Concepts in Analytical Psychology
+
 Jung's psychology emphasizes the integration of conscious and unconscious elements to achieve psychological wholeness.
 
 - **Personal Unconscious** — Contains forgotten memories, repressed experiences, and emotionally charged complexes unique to the individual.
@@ -37,6 +39,7 @@ Jung's psychology emphasizes the integration of conscious and unconscious elemen
 Jung also explored synchronicity (meaningful coincidences without causal connection), alchemy as symbolic of psychological transformation, and the psychological interpretation of religion and myth.
 
 ### Major Works
+
 Jung was a prolific writer. His ideas appear in numerous essays, lectures, and books, many collected in the 20-volume *Collected Works* (1953–1979, Princeton University Press edition).
 
 Key individual books and influential publications include:
@@ -53,6 +56,7 @@ Key individual books and influential publications include:
 - *Man and His Symbols* (1964) — Posthumous collaborative work (Jung wrote the main chapter) designed as an accessible introduction with illustrations.
 
 ### Legacy
+
 Jung's influence remains strong in psychotherapy (Jungian analysis), dream work, creativity studies, mythology, comparative religion, and popular culture. His concepts appear in literature, film analysis, and even psychedelic research (where his framework helps interpret altered states). Critics sometimes view his work as mystical or unscientific, but supporters value its holistic approach to meaning, spirituality, and personal development in an increasingly secular world.
 
 Jung died on June 6, 1961, in Küsnacht, Switzerland, leaving a rich, complex body of thought that continues to inspire exploration of the depths of the human psyche.

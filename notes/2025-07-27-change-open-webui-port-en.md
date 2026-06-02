@@ -11,13 +11,16 @@ type: note
 
 To change the port when running Open WebUI using the `open-webui serve` command (typically after installing via pip), use the `--port` flag followed by your desired port number. The default port is 8080.
 
-### Steps:
+### Steps
+
 1. Ensure Open WebUI is installed:
+
    ```
    pip install open-webui
    ```
 
 2. Run the server on a different port (e.g., 3000):
+
    ```
    open-webui serve --port 3000
    ```
@@ -26,6 +29,7 @@ To change the port when running Open WebUI using the `open-webui serve` command 
    - Note: The `PORT` environment variable is ignored when using the `serve` command; you must use the `--port` flag instead.
 
 If you're using Docker instead of direct installation:
+
 - Set the `PORT` environment variable, e.g., `docker run -e PORT=3000 ...`.
 - Map the port externally with `-p <host_port>:3000` (adjust as needed).
 

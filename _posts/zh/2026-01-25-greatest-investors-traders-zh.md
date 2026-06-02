@@ -17,6 +17,7 @@ Answer:
 并没有唯一的“最伟大”投资者或交易员，因为这取决于评判标准，例如长期复利回报、Risk-adjusted performance、对行业的影响力、数十年的稳定性，或者是传奇性的单次交易。根据历史表现、声誉和影响力，以下是不同类别中公认最顶尖的一些名字。
 
 ### 传奇的 Value / Long-Term Investors
+
 这些人专注于购买优质企业并持有数年或数十年。
 
 - **Warren Buffett** — 被许多人广泛认为是史上最伟大的投资者。通过 Berkshire Hathaway，他利用来自 Benjamin Graham 的 Value Investing 原则，在 60 多年的时间里实现了非凡的复利回报。
@@ -25,6 +26,7 @@ Answer:
 - **Peter Lynch** — 管理 Fidelity Magellan Fund 期间实现了约 29% 的年化收益率（1977-1990），是历史上表现最好的 Mutual Fund 记录之一。
 
 ### 最伟大的 Hedge Fund Managers / Quantitative Traders
+
 这些人通常提供卓越的 Risk-adjusted 或绝对回报，且往往活跃于 Hedge Funds。
 
 - **Jim Simons** (Renaissance Technologies) — Medallion Fund 的创始人，被广泛认为拥有史上最佳的业绩记录（1988-2018+ 年间扣除费用前年化收益约为 66%）。一位开创了 Quantitative Trading 的数学家。
@@ -35,6 +37,7 @@ Answer:
 - **Israel Englander** (Millennium Management) — 领导着盈利最高且规模最大的 Hedge Funds 之一；采用 Multi-manager 平台，业绩稳定。
 
 ### 传奇的 Short-Term / Speculative Stock Traders
+
 这些人更多地以短期交易、巨额下注或 Technical approaches 闻名。
 
 - **Jesse Livermore** — 常被称为史上最伟大的投机者/交易员；在 20 世纪初多次赚取并失去巨额财富；经典著作 *Reminiscences of a Stock Operator* 的原型。
@@ -42,6 +45,7 @@ Answer:
 - **John Paulson** — 在 2007-2008 年通过做空次级抵押贷款获利数十亿美元。
 
 ### 快速对比要点
+
 - **长期稳定性** → Buffett, Lynch, Simons (Medallion)。
 - **最高原始回报** → Jim Simons 的 Medallion Fund 独占鳌头。
 - **单次交易影响最大** → Soros (1992 年英镑), Paulson (2008 年危机)。

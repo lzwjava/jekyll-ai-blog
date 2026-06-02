@@ -17,12 +17,14 @@ This question tests your understanding of the structural layers in Liu Yong's po
 Let's examine the structure of this ci poem:
 
 **Upper stanza**: Describes scenery, depicting the desolation of autumn
+
 - "Facing the twilight rain sprinkling the river and sky..."
 - "Everywhere red fades and green diminishes, gradually the beautiful things cease" (flowers and grass withering everywhere, beautiful scenery gradually disappearing)
 
 **Transitional line**: "**Unable to bear climbing high and gazing far, looking toward my distant homeland, thoughts of return are hard to contain**"
 
 **Lower stanza**: Expresses emotion, conveying homesickness
+
 - "Sighing at the traces of years gone by..."
 - "Imagining my beloved gazing from her tower..."
 
@@ -46,6 +48,7 @@ Let's examine the structure of this ci poem:
 **Why A is the transitional line:**
 
 The line "Unable to bear climbing high and gazing far":
+
 - **Connects upward**: Because of seeing the bleak autumn scenery of "red fading, green diminishing" and "beautiful things ceasing," therefore "unable to bear" looking further
 - **Leads downward**: Introduces "looking toward my distant homeland, thoughts of return are hard to contain," naturally transitioning to the theme of homesickness
 

@@ -12,9 +12,11 @@ type: post
 ---
 
 \#:
+
 - 500px
 
 A:
+
 - Adobe Scan
 - Affirm
 - Agoda
@@ -44,6 +46,7 @@ A:
 - 爱康
 
 B:
+
 - Balance
 - BBC
 - Benkyō
@@ -69,6 +72,7 @@ B:
 - 百度网盘
 
 C:
+
 - Calm
 - Canva
 - CapCut
@@ -106,6 +110,7 @@ C:
 - 菜鸟
 
 D:
+
 - Darkroom
 - das Image
 - Dasher
@@ -135,6 +140,7 @@ D:
 - 当当
 
 E:
+
 - Easy Korean
 - eBay
 - Economist
@@ -152,6 +158,7 @@ E:
 - Explain Every...
 
 F:
+
 - Facebook
 - FarOut
 - FGTS
@@ -172,6 +179,7 @@ F:
 - Friday AI
 
 G:
+
 - Gaana
 - Gauth
 - Gemini
@@ -211,6 +219,7 @@ G:
 - 高德地图
 
 H:
+
 - Habit
 - Healow
 - Headspace
@@ -225,6 +234,7 @@ H:
 - 华住会
 
 I:
+
 - IELTS
 - IKEA宜家家居
 - iHeart
@@ -238,6 +248,7 @@ I:
 - iSH
 
 J:
+
 - Japan Airlines
 - JapanTransit
 - Japanese
@@ -249,6 +260,7 @@ J:
 - Jyutping
 
 K:
+
 - Kanji!
 - Kaomoji
 - Keeta
@@ -260,6 +272,7 @@ K:
 - Kono
 
 L:
+
 - Layout
 - Lazada
 - Learn Japanese
@@ -282,6 +295,7 @@ L:
 - 领英职场
 
 M:
+
 - Manga
 - MARIO RUN
 - Mastodon
@@ -313,6 +327,7 @@ M:
 - 美团外卖
 
 N:
+
 - NBC
 - Netflix
 - NewsBreak
@@ -330,12 +345,14 @@ N:
 - 南网在线
 
 O:
+
 - Octal
 - OCBC
 - OneDrive
 - Outlook
 
 P:
+
 - Pandora
 - Panels
 - Paramount+
@@ -362,12 +379,14 @@ P:
 - PS Express
 
 Q:
+
 - Quizlet
 - Quora
 - QQ
 - QQ Mail
 
 R:
+
 - RareJob
 - Reddit
 - Reelshort
@@ -380,6 +399,7 @@ R:
 - Roku
 
 S:
+
 - Sam's Club
 - Shazam
 - SHEIN
@@ -416,6 +436,7 @@ S:
 - 水滴保
 
 T:
+
 - Talabat
 - Target
 - Teams
@@ -450,6 +471,7 @@ T:
 - 天猫
 
 U:
+
 - Uber
 - Uber Eats
 - Udemy
@@ -458,6 +480,7 @@ U:
 - U-Haul
 
 V:
+
 - Video Lite
 - Viator
 - VK
@@ -466,6 +489,7 @@ V:
 - Vrbo
 
 W:
+
 - Walgreens
 - Walmart
 - Wash Post
@@ -480,6 +504,7 @@ W:
 - 无线新闻
 
 X:
+
 - X
 - Xbox
 - 小红书
@@ -487,6 +512,7 @@ X:
 - 小米商城
 
 Y:
+
 - Yahoo Mail
 - Yahoo News
 - Yelp
@@ -500,6 +526,7 @@ Y:
 - 易车汽车报价
 
 Z:
+
 - Zelle
 - Zillow
 - Zillow Rentals

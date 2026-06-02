@@ -29,6 +29,7 @@ Here's why daily chores and a structured routine (including work) can actually h
 - **Real-world evidence**: In high-stakes exam cultures (like China's gaokao, postgraduate entrance exam, or civil service exam), many successful candidates actually maintained part-time jobs or daily routines rather than isolating themselves completely. Those who quit everything to study full-time sometimes underperform due to pressure and lack of balance.
 
 Your current approach—working, cooking ~1 hour daily, and studying in the remaining time—is realistic and psychologically sound. If you want to optimize further:
+
 - Protect your study blocks as sacred time (no distractions).
 - Use chores as rewards or transitions between study sessions.
 - Track your progress weekly to ensure you're moving forward.

@@ -15,7 +15,7 @@ type: note
 
 这是一份 **Google Cloud Platform (GCP)** 的成本估算，用于运行一个超大型、高性能的 virtual machine（可能是自定义配置或 A3/A4 series 实例）。该估算显示的是“按需付费”（pay-as-you-go）模式，按秒计费，且无需提前承诺（no upfront commitment）。
 
-### 成本构成分析：
+### 成本构成分析
 
 - **月度总估算**：$64,598.70
   这是假设该实例全月持续运行（约 730 小时）的预计费用。
@@ -24,7 +24,7 @@ type: note
   计算方式为：$64,598.70 ÷ 730 小时 ≈ $88.49/小时。
   由于包含顶级硬件组件，该实例的运行成本极高。
 
-### 逐项说明：
+### 逐项说明
 
 1. **208 vCPU + 1,872 GB memory** — $6,905.84/月
    这是基础 Compute Engine virtual machine（CPU + RAM）的成本。
@@ -53,7 +53,7 @@ type: note
    - Snapshot schedules（自动备份）
    这些成本取决于实际使用量（记录了多少数据、监控了多少指标等），在估算中未计入固定费用。
 
-### 核心结论：
+### 核心结论
 
 - **这是按需价格** —— 你只需为使用的时长付费，按秒计费。如果你停止实例，你将停止支付 vCPU、memory 和 GPUs 的费用（但磁盘可能仍会产生少量费用）。
 - **为什么这么贵？** 8 个 H100 GPUs 是主要原因。这些是用于前沿 AI、machine learning 和高性能计算（HPC）的企业级加速器。
@@ -71,5 +71,6 @@ type: note
 如果你需要帮助计算更短时间内的成本、对比承诺使用折扣（committed pricing），或了解如何在 GCP 中创建类似的实例，请随时告知。
 
 参考资源：
+
 - Google Cloud Pricing Calculator（了解估算的工具）
 - Google Cloud Compute Engine Pricing Documentation（查看 vCPU、memory 和 GPU 的费率）

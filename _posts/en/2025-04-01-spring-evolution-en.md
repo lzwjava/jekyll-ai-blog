@@ -13,9 +13,11 @@ Spring Framework and Spring Boot have evolved significantly since their inceptio
 ---
 
 ## **Spring Framework Evolution**
+
 The **Spring Framework** was created by **Rod Johnson** in 2003 as an alternative to the heavyweight **Enterprise JavaBeans (EJB)** model in Java EE. It introduced a lightweight **Inversion of Control (IoC)** and **Dependency Injection (DI)** model, making Java development more modular and testable.
 
 ### **Major Milestones in Spring Framework**
+
 1. **Spring Framework 1.x (2004)**
    - Introduced **IoC (Dependency Injection)** and **AOP (Aspect-Oriented Programming)**.
    - Provided alternatives to heavy Java EE applications.
@@ -47,9 +49,11 @@ The **Spring Framework** was created by **Rod Johnson** in 2003 as an alternativ
 ---
 
 ## **Spring Boot Evolution**
+
 Spring Boot was first introduced in **2014** to simplify the setup and development of Spring-based applications by removing excessive configuration.
 
 ### **Major Milestones in Spring Boot**
+
 1. **Spring Boot 1.x (2014)**
    - Introduced **auto-configuration** and **Spring Initializr**.
    - Embedded servers like **Tomcat, Jetty** (no need for WAR deployment).
@@ -68,6 +72,7 @@ Spring Boot was first introduced in **2014** to simplify the setup and developme
 ---
 
 ## **Future of Spring**
+
 - **Spring AI**: New module for AI integration.
 - **Better Virtual Thread & GraalVM support** for cloud-native applications.
 - **Improved Kubernetes & Serverless capabilities**.

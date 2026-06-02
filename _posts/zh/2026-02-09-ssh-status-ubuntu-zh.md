@@ -23,12 +23,15 @@ type: note
 ```bash
 sudo systemctl status ssh
 ```
+
 或者
+
 ```bash
 systemctl status ssh
 ```
 
 查找以下关键行：
+
 - `Active: active (running)` → SSH 正在 **running**
 - `Active: inactive (dead)` → SSH 已 **stopped**
 - `Active: failed` → SSH 启动失败（请查看下方的错误信息）
@@ -40,7 +43,9 @@ systemctl status ssh
 ```bash
 systemctl is-active ssh
 ```
+
 输出：
+
 - `active`   → running
 - `inactive` → stopped
 - `failed`   → crashed
@@ -58,6 +63,7 @@ sudo ss -tuln  | grep ':22.*LISTEN'
 ```
 
 如果你看到类似以下的输出 → 说明 SSH **正在监听**：
+
 ```
 tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*
 # 或
@@ -94,6 +100,7 @@ nc -zv 192.168.1.100 22
 ```
 
 输出：
+
 - `succeeded!` → SSH port 已开启且可访问
 - `Connection refused` / timeout → SSH 已关闭、受 firewall 拦截或存在网络问题
 

@@ -21,6 +21,7 @@ type: note
 - **驾车时间**：通常为 **55–70 分钟**，取决于交通状况和路线（经由 National Highway 1 或其他高速公路）。
 
 **常见的交通方式**：
+
 - **High Speed Rail (THSR / Taiwan High Speed Rail)** — 最快且最受欢迎的选择
   - 旅程时间：**31–36 分钟**（大部分车次约为 34 分钟）
   - 行驶距离：约 78–80 km

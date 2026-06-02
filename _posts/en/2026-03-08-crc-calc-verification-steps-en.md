@@ -40,6 +40,7 @@ After appending:     101101100000   ← this is D × 2^r
 The process of modulo-2 binary division works just like familiar long division, except that instead of subtraction, XOR is used at each step.
 
 **Rules:**
+
 - If the current leading bit is `1` → XOR with the generator `11001`
 - If the current leading bit is `0` → XOR with `00000` (i.e., just shift/bring down)
 - The result of each XOR becomes the next working value; bring down the next bit

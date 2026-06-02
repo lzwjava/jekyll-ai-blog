@@ -99,6 +99,7 @@ def find_pages_by_person(username):
 ```
 
 **跨团队工作中实际有用的 CQL 模式：**
+
 ```
 # 查找所有引用某个工单的页面
 text ~ "PROJ-1234"
@@ -156,6 +157,7 @@ def get_linked_issues(issue_key):
 ```
 
 **跨团队的 JQL 模式：**
+
 ```
 # 任何项目中与你团队组件相关的所有内容
 component in ("Auth", "Gateway") AND project != MYTEAM

@@ -12,6 +12,7 @@ type: note
 Depends on your goal. For a **1.5B model to be decent**, you'd want ~100B-1T tokens ideally. FineWeb sample-10BT is ~10B tokens — so 60GB (assuming ~1T tokens total in full FineWeb) is a solid chunk but not the full dataset.
 
 **If you want to use the H200 properly:**
+
 - **1.5B model** → needs ~100B tokens for good training. 60GB of FineWeb (~maybe 200B+ tokens?) would be plenty
 - **2.8B model** → needs ~200B+ tokens
 

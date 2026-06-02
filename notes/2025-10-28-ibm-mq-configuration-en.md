@@ -11,7 +11,9 @@ type: note
 ---
 
 ### Prerequisites
+
 Before configuring IBM MQ (formerly WebSphere MQ) in IBM WebSphere Application Server (WAS), ensure the following:
+
 - IBM MQ is installed on a dedicated server (or the same as WAS for local bindings mode).
 - A queue manager is created in IBM MQ (e.g., using `crtmqm QMNAME`).
 - Required queues are created in the queue manager (e.g., using MQ Explorer or `runmqsc`).
@@ -20,6 +22,7 @@ Before configuring IBM MQ (formerly WebSphere MQ) in IBM WebSphere Application S
 - For non-root users on Unix-like systems, use `setmqaut` to grant permissions.
 
 ### Step-by-Step Configuration
+
 The configuration involves setting up the JMS provider, connection factories, and destinations in the WAS Administrative Console. This assumes a distributed (client) mode connection over TCP/IP; adjust for bindings mode if local.
 
 1. **Access the WAS Administrative Console**:
@@ -91,6 +94,7 @@ The configuration involves setting up the JMS provider, connection factories, an
    - For clusters: Synchronize configurations across nodes.
 
 ### Troubleshooting Tips
+
 - **ClassNotFoundException**: Ensure MQ JARs are in the classpath.
 - **Connection failures**: Check firewall on port 1414, channel status (`DISPLAY CHSTATUS(*)` in runmqsc).
 - **Bindings mode issues**: Verify native libs and user in `mqm` group.

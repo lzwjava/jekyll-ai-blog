@@ -15,30 +15,36 @@ As a Chinese user, you may face restrictions accessing Anthropic's Claude API di
 OpenRouter's API is compatible with OpenAI's format, so you can use familiar libraries like the OpenAI Python SDK. Below, I'll outline the steps to get started and provide code examples for using Claude in Python.
 
 #### Step 1: Sign Up for OpenRouter
-1. Visit the OpenRouter website: https://openrouter.ai.
+
+1. Visit the OpenRouter website: <https://openrouter.ai>.
 2. Click on "Sign Up" or "Get Started" (usually in the top right).
 3. Create an account using your email (or GitHub/Google login if available). No VPN is needed, as the site works in China.
 4. After signing up, verify your email if required.
 5. Go to the dashboard and add a payment method (e.g., credit card) to fund your account. OpenRouter charges based on token usage, but you can start with a small deposit. Check their pricing page for details on Claude models.
 
 #### Step 2: Generate an API Key
+
 1. In your OpenRouter dashboard, navigate to the "API Keys" or "Keys" section.
 2. Create a new API key (it will look like a long string, e.g., `sk-or-v1-...`).
 3. Copy and save it securely—treat it like a password. You'll use this in your code instead of an Anthropic key.
 
 #### Step 3: Choose a Claude Model
+
 OpenRouter lists Anthropic's Claude models with IDs like:
+
 - `anthropic/claude-3.5-sonnet` (recommended for most tasks; balanced and capable).
 - `anthropic/claude-3-opus` (more powerful but expensive).
-- Newer versions (e.g., Claude 3.7 if available in 2025) will be listed on https://openrouter.ai/models?providers=anthropic.
+- Newer versions (e.g., Claude 3.7 if available in 2025) will be listed on <https://openrouter.ai/models?providers=anthropic>.
 
 You can browse the models page to see costs, context limits, and availability.
 
 #### Step 4: Set Up Your Environment
+
 - Install Python if you don't have it (version 3.8+ recommended).
 - Install the OpenAI library: Run `pip install openai` in your terminal.
 
 #### Step 5: Use Claude in Code
+
 Use the OpenAI SDK with OpenRouter's base URL (`https://openrouter.ai/api/v1`). Specify the Claude model ID in your requests.
 
 Here's a simple Python example to chat with Claude 3.5 Sonnet:
@@ -101,6 +107,7 @@ print(data['choices'][0]['message']['content'])
   - If you encounter rate limits or errors, check your balance or try a different model.
 
 #### Troubleshooting
+
 - **API Errors**: Ensure your key is correct and funded. Test with a cheap model first.
 - **Regional Issues**: If any blocks occur (unlikely), use a VPN, but OpenRouter is designed to bypass such restrictions for supported models.
 - **Free Alternatives**: For limited free access, explore proxies like Puter.js (but they may have limitations).

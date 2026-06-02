@@ -13,6 +13,7 @@ Cloudflare's adoption of Rust has been transformative, driven by its unique blen
 ---
 
 ### **Why Cloudflare Uses Rust**
+
 1. **Memory Safety Without Compromising Performance**
    - Rust’s ownership model eliminates entire classes of vulnerabilities (e.g., buffer overflows, use-after-free errors) that plague C/C++ code, which was critical for Cloudflare’s security-first infrastructure .
    - Unlike garbage-collected languages, Rust achieves this without runtime overhead, making it ideal for high-performance systems like proxies and edge computing .
@@ -35,6 +36,7 @@ Cloudflare's adoption of Rust has been transformative, driven by its unique blen
 ---
 
 ### **Results of Using Rust**
+
 - **Pingora**: Replaced NGINX, handling trillions of monthly requests with **lower latency** and **stronger DDoS resilience** .
 - **Workers**: Rust support enables compute-heavy tasks (e.g., AI inference) with near-native speed, attracting high-profile clients like fintech and delivery platforms .
 - **Reliability**: Rust’s safety features reduced crashes in critical services like QUIC and TLS (e.g., BoringSSL integration in Oxy) .
@@ -43,13 +45,16 @@ Cloudflare's adoption of Rust has been transformative, driven by its unique blen
 ---
 
 ### **Challenges and Mitigations**
+
 - **Learning Curve**: Rust’s complexity required upfront training, but Cloudflare mitigated this with internal libraries (e.g., `workers-rs`) and templates .
 - **Wasm Limitations**: Early Workers Rust support had size constraints, but tools like `wasm-opt` and `worker-build` now optimize binaries effectively .
 
 ---
 
 ### **Future Directions**
+
 Cloudflare continues to expand Rust’s role, including:
+
 - **Containers**: Rust-based Durable Objects power new container orchestration (launching June 2025) .
 - **AI**: Workers AI leverages Rust for low-latency model inference .
 

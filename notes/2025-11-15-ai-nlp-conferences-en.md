@@ -27,6 +27,7 @@ Academic conferences in AI (Artificial Intelligence), LLM (Large Language Models
 | EACL | European Chapter of the ACL | European NLP perspectives, LLMs, ethical NLP | March 17–21, St. Julian's, Malta | Emphasizes European languages and policy in AI. |
 
 #### Additional Insights
+
 - **LLM-Specific Tracks**: LLMs are a hot topic across all these, with dedicated workshops (e.g., NeurIPS's "LLM Alignment" or ACL's "Generative AI"). For pure LLM focus, check sub-events like the Future of Large Language Models (FLLM) conference (dates TBD for 2025).
 - **Submission Deadlines**: Use resources like [AI Deadlines](https://aideadlin.es/) for real-time updates—e.g., ICML abstract deadline is ~January 2025.
 - **Why These?** These are "major" based on impact (h-index, citations) and attendance (1,000–10,000 participants). They attract top academics from institutions like Stanford, MIT, and MBZUAI.
@@ -34,6 +35,7 @@ Academic conferences in AI (Artificial Intelligence), LLM (Large Language Models
 For more details or 2026 previews, I recommend browsing the official sites. If you need info on a specific conference or region (e.g., Asia-focused), let me know!
 
 #### References
+
 - [Evidently AI: ML Conferences 2025](https://www.evidentlyai.com/blog/ml-conferences)
 - [Deepchecks: Best AI/ML Conferences 2025](https://www.deepchecks.com/the-best-ai-and-ml-conferences-of-2024/)
 - [AI Deadlines](https://aideadlin.es/)

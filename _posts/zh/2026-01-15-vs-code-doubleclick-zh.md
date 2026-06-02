@@ -38,6 +38,7 @@ type: note
 在此功能添加之前（在旧版本中），双击通常只是在 GitHub Desktop 内部显示 diff，你必须通过右键点击 → "Open in Visual Studio Code"（或使用菜单/键盘快捷键）才能在编辑器中打开完整文件。部分用户曾反馈，在某些更新中，快速点击会被误判为双击，从而导致意外打开文件。
 
 如果双击没有为你打开 VS Code：
+
 - 确认 VS Code 已正确设置为 External editor。
 - 确保你双击的是列表中的文件名/条目（而不是 diff 区域）。
 - 将 GitHub Desktop 更新到最新版本，因为这是一个相对较新的功能。

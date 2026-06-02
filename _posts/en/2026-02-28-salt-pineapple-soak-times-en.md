@@ -22,6 +22,7 @@ Recommended soaking times from reliable sources vary, but shorter times are most
 - **15–20 minutes or up to 30 minutes** — Suggested in some methods for stronger effect, but longer soaks risk making the pineapple too salty or mushy.
 
 **How to do it**:
+
 1. Cut the pineapple into chunks or slices (peeled and cored).
 2. Prepare a solution: Mix about 1 teaspoon of salt (kosher or sea salt works best) per 1 cup of water.
 3. Soak the pieces for your chosen time (start with 1–2 minutes if you're unsure).

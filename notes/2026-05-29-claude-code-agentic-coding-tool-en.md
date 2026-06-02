@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is https://claude.com/product/claude-code?
+**Question:** What is <https://claude.com/product/claude-code>?
 
 **Answer:**
 
@@ -18,11 +18,13 @@ That's the official product page for **Claude Code** — Anthropic's agentic cod
 **What it is:** A terminal-first AI coding agent that operates directly in your codebase. Not a chat assistant — it's an agent that reads files, runs commands, writes code, and opens PRs autonomously.
 
 **Install:**
+
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
 **Where it runs:**
+
 - Terminal (primary)
 - VS Code / JetBrains IDE extensions
 - Desktop app (parallel task management, visual diffs)
@@ -31,6 +33,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 - Mobile → delegates to your local machine (research preview)
 
 **Key capabilities:**
+
 - Agentic codebase search — no manual context file selection, it figures out the relevant code itself
 - Multi-file coordinated edits
 - Full GitHub/GitLab workflow: reads issues → writes code → runs tests → opens PR
@@ -40,11 +43,13 @@ curl -fsSL https://claude.ai/install.sh | bash
 **Models it uses:** Sonnet 4.6 and Opus 4.7 (per the pricing table on the page — note Opus 4.7 appears to be a newer model listed here).
 
 **Pricing:**
+
 - Included in **Pro** ($17/mo) — limited usage, small codebases
 - **Max 5x** ($100/mo) — everyday use in larger codebases
 - **Max 20x** ($200/mo) — power user tier
 
 **Recent notable features (2026):**
+
 - **Routines** — schedule tasks, trigger via API or events (April 2026)
 - **Auto mode** — safer long-running alternative to `--dangerously-skip-permissions` (March 2026)
 - Redesigned desktop app for parallel task management (April 2026)

@@ -13,7 +13,9 @@ type: note
 The Guangdong Public Service Platform (commonly known as the Guangdong Government Services Network or "广东政务服务网") is an official online and offline integrated system for provincial administrative services, including those accessible to Guangzhou citizens. It supports "one-stop" handling of government matters across Guangdong's cities, with many services available via app (like "Yue Sheng Shi" mini-program), website, self-service kiosks, and mobile terminals. For Guangzhou residents, it's a key hub for everyday administrative tasks, and it integrates with self-service machines (e.g., at exit-entry service halls) for checking application receipts, status updates, or results—like for HK/Macau travel endorsements.
 
 ### Key Services Related to HK/Macau Endorsements
+
 These are handled under the "Passport and Travel Permits" category, often via online appointment and self-service verification:
+
 - Issuance, renewal, or replacement of the Mainland Travel Permit for Hong Kong and Macao (港澳通行证).
 - Adding endorsements (签注) for tourism, business, visiting relatives, or multiple entries to HK/Macau.
 - Status checks and receipt verification at self-service kiosks, which link directly to the platform for real-time updates.
@@ -21,6 +23,7 @@ These are handled under the "Passport and Travel Permits" category, often via on
 Guangzhou citizens can book appointments online, upload photos/documents, and collect permits at local police stations or service centers. Processing typically takes 7-10 working days, with options for expedited service.
 
 ### Other Typical Services for Guangzhou Citizens
+
 The platform covers over 3,000 service items across major categories, with high-frequency ones "one-network" accessible province-wide (including cross-city handling). Here's a breakdown of main categories with examples relevant to daily life in Guangzhou:
 
 | Category | Examples of Services |

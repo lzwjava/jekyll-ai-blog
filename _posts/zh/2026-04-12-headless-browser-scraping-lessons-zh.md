@@ -41,6 +41,7 @@ curl -s -X POST http://127.0.0.1:9377/tabs \
 ```
 
 响应：
+
 ```json
 {"tabId": "ab2e2566-...", "url": "https://example.com/"}
 ```
@@ -102,6 +103,7 @@ curl -X POST http://127.0.0.1:9377/tabs/ab2e2566.../navigate \
 最终挑战：从Hacker News提取10条新闻标题。问题在于，HN基于表格的布局生成的快照中，每条新闻包含数十个“链接”条目：点赞按钮、新闻标题、域名链接、用户名、发布时间、评论数量。在无障碍访问树中，它们都只是 `<a>` 标签。
 
 我发现的页面结构：
+
 ```
 - 行 "1. upvote Small models also found...":
     - 单元格 "1."

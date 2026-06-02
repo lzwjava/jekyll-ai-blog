@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Key Points from "What I Wish Someone Had Told Me"
+
 This is Sam Altman's 2014 essay distilling hard-won wisdom on startups, leadership, and building things that matter. It's 17 concise, numbered points (starting from 0) that pack a punch—timeless for anyone chasing big goals.
 
 0. Optimism, obsession, self-belief, raw horsepower and personal connections are how things get started.

@@ -63,6 +63,7 @@ When the time comes to tell your manager, consider this type of framing:
 > *"I wanted to be transparent with you — I've been exploring an opportunity for a permanent role internally. I see this as a long-term commitment to the bank, and I wanted you to hear it from me directly rather than through HR. Your support has meant a lot to me and I'd value your guidance."*
 
 This approach:
+
 - **Preempts them finding out through other channels** (which looks worse)
 - **Frames the move as stability**, not instability (going perm = committing to the bank)
 - **Invites them to be an advocate**, not an obstacle

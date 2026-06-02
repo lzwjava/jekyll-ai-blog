@@ -13,6 +13,7 @@ Sure! Here’s a detailed tutorial on **Matrices and Operations**, covering nota
 ---
 
 ## **1. Matrices and Their Notation**
+
 A **matrix** is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. The general notation for a matrix is:
 
 \\[
@@ -20,12 +21,15 @@ A = \begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdot
 \\]
 
 where:
+
 - \\( A \\) is an \\( m \times n \\) matrix.
 - \\( a_{ij} \\) represents the element in the **i-th row** and **j-th column**.
 - \\( m \\) is the number of **rows**, and \\( n \\) is the number of **columns**.
 
 ### **Types of Matrices**
+
 #### **1.1 Square Matrix**
+
 A matrix is **square** if it has the same number of rows and columns (\\( m = n \\)):
 
 \\[
@@ -33,6 +37,7 @@ A = \begin{bmatrix} 2 & -1 \\ 4 & 3 \end{bmatrix}
 \\]
 
 #### **1.2 Identity Matrix**
+
 A square matrix where all diagonal elements are **1**, and all off-diagonal elements are **0**:
 
 \\[
@@ -45,6 +50,7 @@ A \cdot I = I \cdot A = A
 \\]
 
 #### **1.3 Zero (Null) Matrix**
+
 A matrix in which all elements are **zero**:
 
 \\[
@@ -56,7 +62,9 @@ Multiplying any matrix by the zero matrix results in a zero matrix.
 ---
 
 ## **2. Matrix Operations**
+
 ### **2.1 Matrix Addition and Subtraction**
+
 For two matrices \\( A \\) and \\( B \\) of the same dimension (\\( m \times n \\)):
 
 \\[
@@ -64,6 +72,7 @@ A + B = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
 +
 \begin{bmatrix} b_{11} & b_{12} \\ b_{21} & b_{22} \end{bmatrix}
 =
+
 \begin{bmatrix} a_{11} + b_{11} & a_{12} + b_{12} \\ a_{21} + b_{21} & a_{22} + b_{22} \end{bmatrix}
 \\]
 
@@ -74,16 +83,19 @@ A - B = \begin{bmatrix} a_{11} - b_{11} & a_{12} - b_{12} \\ a_{21} - b_{21} & a
 \\]
 
 **Conditions for Addition/Subtraction**:
+
 - Matrices must have the **same dimensions**.
 
 ---
 
 ### **2.2 Scalar Multiplication**
+
 Multiplying a matrix by a scalar (a real number \\( k \\)) means multiplying each element by \\( k \\):
 
 \\[
 kA = k \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
 =
+
 \begin{bmatrix} k \cdot a_{11} & k \cdot a_{12} \\ k \cdot a_{21} & k \cdot a_{22} \end{bmatrix}
 \\]
 
@@ -92,24 +104,29 @@ Example:
 \\[
 3 \times \begin{bmatrix} 1 & -2 \\ 4 & 0 \end{bmatrix}
 =
+
 \begin{bmatrix} 3 & -6 \\ 12 & 0 \end{bmatrix}
 \\]
 
 ---
 
 ### **2.3 Matrix Multiplication**
+
 Matrix multiplication is **not element-wise** but follows a special rule.
 
 #### **2.3.1 Conditions for Multiplication**
+
 - If \\( A \\) is of size \\( m \times n \\) and \\( B \\) is of size \\( n \times p \\), then \\( A \cdot B \\) is defined and results in an \\( m \times p \\) matrix.
 
 #### **2.3.2 Formula for Matrix Multiplication**
+
 \\[
 (A \cdot B)_{ij} = \sum_{k=1}^{n} A_{ik} B_{kj}
 \\]
 Each element is found by taking the **dot product** of the corresponding row of \\( A \\) and column of \\( B \\).
 
 #### **Example Calculation**
+
 If
 
 \\[
@@ -129,6 +146,7 @@ A \cdot B = \begin{bmatrix} (1 \times 2 + 2 \times 1) & (1 \times 0 + 2 \times 3
 ---
 
 ## **3. Matrix Transpose**
+
 The **transpose** of a matrix \\( A \\), denoted as \\( A^T \\), is obtained by swapping rows and columns.
 
 \\[
@@ -140,6 +158,7 @@ A^T = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}
 \\]
 
 ### **Properties of Transpose**
+
 1. \\( (A^T)^T = A \\)
 2. \\( (A + B)^T = A^T + B^T \\)
 3. \\( (kA)^T = kA^T \\)
@@ -148,6 +167,7 @@ A^T = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}
 ---
 
 ## **4. Matrix Inverse**
+
 The **inverse** of a square matrix \\( A \\), denoted as \\( A^{-1} \\), satisfies:
 
 \\[
@@ -155,10 +175,12 @@ A A^{-1} = A^{-1} A = I
 \\]
 
 ### **4.1 Conditions for Inverse**
+
 - Only **square** matrices have an inverse.
 - The determinant **must be nonzero** (\\( \det(A) \neq 0 \\)).
 
 ### **4.2 Finding the Inverse (2×2 Case)**
+
 For a 2×2 matrix:
 
 \\[

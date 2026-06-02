@@ -29,11 +29,13 @@ Here are other water options you'll find on JD.com in China:
 **功能水 (functional water)** - Added vitamins, electrolytes, or other ingredients
 
 **By source/region:**
+
 - Glacier/snow mountain water (冰川水)
 - Volcanic water (火山水)
 - Deep sea water (深海水)
 
 **Price tiers:**
+
 - Budget: 15-25 CNY per 24 bottles (Wahaha, local brands)
 - Mid: 30-50 CNY (Nongfu Spring premium lines)
 - Premium: 60+ CNY (imported, Tibet 5100, Evian)

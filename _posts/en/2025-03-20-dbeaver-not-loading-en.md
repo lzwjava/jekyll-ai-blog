@@ -13,6 +13,7 @@ If you're able to view schemas in an IBM DB2 database using Squirrel SQL on Wind
 ---
 
 #### 1. Verify the DB2 Driver in DBeaver
+
 DBeaver requires the correct driver to connect to your IBM DB2 database. Using the wrong driver (e.g., "Db2 for LUW" vs. "Db2 for z/OS") can cause issues with schema loading.
 
 - **Steps**:
@@ -25,6 +26,7 @@ DBeaver requires the correct driver to connect to your IBM DB2 database. Using t
 ---
 
 #### 2. Adjust the "Metadata Source" Property
+
 DBeaver uses a property called "metadata source" to control how it retrieves schema and table information. For DB2, adjusting this setting can resolve schema loading problems.
 
 - **Steps**:
@@ -40,6 +42,7 @@ DBeaver uses a property called "metadata source" to control how it retrieves sch
 ---
 
 #### 3. Check User Permissions
+
 Although Squirrel SQL displays the schemas, DBeaver might query the database differently, requiring specific permissions to access metadata.
 
 - **Steps**:
@@ -50,6 +53,7 @@ Although Squirrel SQL displays the schemas, DBeaver might query the database dif
 ---
 
 #### 4. Rule Out Network or Firewall Issues
+
 A network restriction or firewall could prevent DBeaver from fully retrieving schema data, even if Squirrel SQL works.
 
 - **Steps**:
@@ -60,6 +64,7 @@ A network restriction or firewall could prevent DBeaver from fully retrieving sc
 ---
 
 #### 5. Update DBeaver to the Latest Version
+
 Older versions of DBeaver may have bugs affecting DB2 schema loading.
 
 - **Steps**:
@@ -72,6 +77,7 @@ Older versions of DBeaver may have bugs affecting DB2 schema loading.
 ---
 
 #### 6. Enable Debug Logging for Further Troubleshooting
+
 If the above steps don’t resolve the issue, enable debug logging to identify specific errors during schema loading.
 
 - **Steps**:
@@ -84,12 +90,14 @@ If the above steps don’t resolve the issue, enable debug logging to identify s
 ---
 
 ### Why This Happens
+
 - **DBeaver vs. Squirrel SQL**: DBeaver is a more feature-rich tool and retrieves additional metadata compared to Squirrel SQL’s simpler approach. This can lead to compatibility issues with DB2 if settings aren’t optimized.
 - **Common Fix**: Adjusting "metadata source" to `0` is a known workaround for DB2 schema loading problems in DBeaver.
 
 ---
 
 ### Next Steps
+
 Start with steps 1 and 2 (driver verification and metadata source adjustment), as they are the most likely fixes. If the issue persists, proceed through the remaining steps. If none work, consider posting your debug logs to the [DBeaver community](https://github.com/dbeaver/dbeaver/issues) for additional help.
 
 This should resolve the "loading item 0%" issue and allow you to view schemas in DBeaver as you do in Squirrel SQL!

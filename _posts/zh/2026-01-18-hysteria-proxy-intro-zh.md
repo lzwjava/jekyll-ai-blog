@@ -47,8 +47,8 @@ Hysteria 本身不是传统的 VPN；它主要是一种具有多种输出模式�
 - 相比 WireGuard/OpenVPN → 隐蔽性更强（看起来像 HTTPS），在恶劣条件下通常更快，但它不是完整的 L3 VPN（在 TUN 模式下默认不支持 ICMP/Ping）。
 - 相比 Reality/VLESS → 伪装策略不同（HTTP/3 vs TLS-in-TLS）；Hysteria 通常在不稳定链路上胜出。
 
-官方项目：https://github.com/apernet/hysteria
-文档 (Hysteria 2)：https://v2.hysteria.network/
+官方项目：<https://github.com/apernet/hysteria>
+文档 (Hysteria 2)：<https://v2.hysteria.network/>
 
 **References:**
 

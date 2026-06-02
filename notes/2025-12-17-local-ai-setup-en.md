@@ -17,6 +17,7 @@ Answer:
 To develop AI applications locally on your computer—covering programming assistance, experimenting with small models, fine-tuning or training on small datasets, lightweight databases, and rapid prototyping of interactive products—here is a comprehensive setup using free, open-source tools as of late 2025.
 
 ### Running Small Local AI Models (Inference and Experimentation)
+
 Use small models (3B–8B parameters) like Microsoft Phi-3/Phi-4, Google Gemma 2/3, Meta Llama 3.2, or Qwen 2.5 for quick testing on consumer hardware (CPU or modest GPU).
 
 - **Recommended Tools**:
@@ -27,18 +28,22 @@ Use small models (3B–8B parameters) like Microsoft Phi-3/Phi-4, Google Gemma 2
 These run offline, support quantization for lower RAM/VRAM use, and enable fast iteration.
 
 ### Training or Fine-Tuning Small Models
+
 For small datasets and models:
+
 - Use Hugging Face libraries (transformers, peft for LoRA/QLoRA efficient fine-tuning).
 - Tools like Axolotl or Unsloth for simplified fine-tuning scripts.
 - Run on CPU/GPU locally; start with 3B–7B models to avoid high resource needs.
 
 ### Lightweight Databases for Prototyping
+
 - **SQLite**: Default choice. Zero-config, file-based, perfect for transactional data (user records, settings). Embed directly in Python apps.
 - **DuckDB**: Excellent for analytical queries on small/medium datasets (CSV/Parquet). Faster aggregations/joins than SQLite; great for RAG prototypes or data exploration.
 
 Both are embedded (no server), lightweight, and integrate seamlessly with Python (via sqlite3 or duckdb packages).
 
 ### Quick Prototyping of Interactive AI Products
+
 Build web apps with user interactions (chatbots, demos, tools) rapidly in Python.
 
 - **Gradio**: Fastest for ML/AI demos. Create interfaces in minutes with inputs/outputs (text, image, audio). Shareable links, Hugging Face integration.
@@ -51,10 +56,10 @@ This local stack enables full-cycle development: experiment with models, handle 
 
 References:
 
-- https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips
-- https://www.unite.ai/best-llm-tools-to-run-models-locally/
-- https://pinggy.io/blog/top_5_local_llm_tools_and_models_2025/
-- https://www.kdnuggets.com/top-5-small-ai-coding-models-that-you-can-run-locally
-- https://betterstack.com/community/guides/scaling-python/duckdb-vs-sqlite/
-- https://www.gradio.app/
-- https://clickup.com/blog/streamlit-alternatives/
+- <https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips>
+- <https://www.unite.ai/best-llm-tools-to-run-models-locally/>
+- <https://pinggy.io/blog/top_5_local_llm_tools_and_models_2025/>
+- <https://www.kdnuggets.com/top-5-small-ai-coding-models-that-you-can-run-locally>
+- <https://betterstack.com/community/guides/scaling-python/duckdb-vs-sqlite/>
+- <https://www.gradio.app/>
+- <https://clickup.com/blog/streamlit-alternatives/>

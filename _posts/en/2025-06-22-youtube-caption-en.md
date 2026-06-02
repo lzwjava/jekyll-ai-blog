@@ -11,6 +11,7 @@ type: note
 To get all captions of a YouTube video, follow these steps, depending on your needs and whether you want a manual or automated approach. Note that captions must be available for the video (either auto-generated or uploaded by the creator).
 
 ### Manual Method (Using YouTube's Built-in Transcript Feature)
+
 1. **Open the Video**: Go to YouTube in a web browser and navigate to the desired video.
 2. **Check for Captions**: Click the video to pause it. Look for a "CC" (Closed Captions) icon near the bottom-right corner of the player. If visible, captions are available.
 3. **Access the Transcript**:
@@ -25,7 +26,9 @@ To get all captions of a YouTube video, follow these steps, depending on your ne
 **Note**: This method only works on the YouTube website, not the mobile app.[](https://www.wikihow.com/Download-YouTube-Video-Subtitles)
 
 ### For Content Creators (Downloading Captions from Your Own Video)
+
 If you own the video, you can download captions directly from YouTube Studio:
+
 1. **Log in to YouTube Studio**: Go to [studio.youtube.com](https://studio.youtube.com).
 2. **Select Video**: Click "Content" in the left menu, then choose the video.
 3. **Access Subtitles**: Click "Subtitles" in the left menu, then select the language.
@@ -35,7 +38,9 @@ If you own the video, you can download captions directly from YouTube Studio:
 **Note**: You can only download caption files for videos on channels you manage.[](https://ito-engineering.screenstepslive.com/s/ito_fase/a/1639680-how-do-i-download-a-caption-file-from-youtube)
 
 ### Automated Method (Using Third-Party Tools)
+
 If you need captions in a specific format (e.g., `.srt`) or for videos you don’t own, use a reputable third-party tool:
+
 1. **Choose a Tool**: Popular options include:
    - **DownSub**: A free online tool for downloading subtitles.
    - **Notta**: Offers transcription and subtitle downloads with high accuracy.[](https://www.notta.ai/en/blog/download-subtitles-from-youtube)
@@ -50,28 +55,36 @@ If you need captions in a specific format (e.g., `.srt`) or for videos you don�
 **Caution**: Use trusted tools to avoid security risks. Some tools may have ads or require payment for advanced features.[](https://gotranscript.com/blog/how-to-download-subtitles-from-youtube)
 
 ### Using the YouTube API (For Developers)
+
 For bulk caption extraction or app integration, use the YouTube Data API:
+
 1. **Set Up API Access**: Create a project in the [Google Cloud Console](https://console.cloud.google.com), enable the YouTube Data API v3, and obtain an API key.
 2. **List Caption Tracks**: Use the `captions.list` endpoint to retrieve available caption tracks for a video. Example:
+
    ```
    GET https://www.googleapis.com/youtube/v3/captions?part=snippet&videoId=VIDEO_ID&key=API_KEY
    ```
+
 3. **Download Captions**: Use the `captions.download` endpoint to fetch a specific caption track. Example:
+
    ```
    GET https://www.googleapis.com/youtube/v3/captions/CAPTION_ID?tfmt=srt&key=API_KEY
    ```
+
 4. **Limitations**:
    - You can only download captions for your own videos unless the video owner has made them publicly accessible.
    - API usage has quota limits (approximately 200 units per caption download).[](https://developers.google.com/youtube/v3/docs/captions)[](https://stackoverflow.com/questions/73863672/how-can-i-get-captions-of-a-youtube-video-and-display-it-separately)
 5. **Alternative**: Some developers scrape the timed text URL (e.g., `https://www.youtube.com/api/timedtext?...`) from the video page source, but this is unreliable, may violate YouTube’s terms, and risks IP blocking.[](https://stackoverflow.com/questions/73863672/how-can-i-get-captions-of-a-youtube-video-and-display-it-separately)
 
 ### Additional Tips
+
 - **Language Selection**: If captions are available in multiple languages, select your preferred language from the "Subtitles/CC" settings or the transcript’s dropdown menu.[](https://riverside.fm/blog/youtube-transcription)
 - **Auto-Generated Captions**: These may have errors due to accents, background noise, or complex audio. Review and edit if accuracy is critical.[](https://support.google.com/youtube/answer/6373554?hl=en)
 - **Accessibility**: Captions enhance accessibility for deaf or hard-of-hearing viewers and improve SEO by making content searchable.[](https://www.descript.com/blog/article/transcript-of-youtube-videos)
 - **No Captions Available?**: If the video lacks captions, consider using transcription services like Rev or Notta to generate a transcript from the audio.[](https://www.rev.com/resources/how-to-download-youtube-subtitles-as-text-files)[](https://www.notta.ai/en/blog/download-subtitles-from-youtube)
 
 ### Limitations
+
 - Not all videos have captions, especially if the creator disabled them or YouTube’s auto-captioning isn’t supported for the language or audio quality.[](https://support.google.com/youtube/answer/6373554?hl=en)
 - The YouTube mobile app doesn’t support transcript viewing, but you can enable captions via the "CC" button.[](https://riverside.fm/blog/youtube-transcription)
 - Some third-party tools or API methods may not work for auto-generated captions or restricted videos.[](https://stackoverflow.com/questions/9611397/how-to-extract-closed-caption-transcript-from-youtube-video)

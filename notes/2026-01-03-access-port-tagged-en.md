@@ -24,6 +24,7 @@ When an access port receives a frame:
 Therefore, the correct answer is **D) It drops all tagged frames**.
 
 Options A, B, and C are incorrect for access ports:
+
 - A) Forwarding unchanged would imply treating it as a trunk port.
 - B) Adding a tag is done only for untagged ingress frames.
 - C) Removing the tag (stripping) occurs on **egress** when sending frames out an access port to an untagged device, not on ingress.

@@ -19,6 +19,7 @@ PORT   STATE SERVICE
 Your SSH config routes non-local IPs through a SOCKS5 proxy (localhost:7891), but even through the proxy, port 22 is closed on that host.
 
 A few possibilities:
+
 - The firewall/security group on the server doesn't allow port 22
 - SSH is on a non-standard port (I scanned ~15 common alternatives — none open)
 - The server might be down or SSH service not running

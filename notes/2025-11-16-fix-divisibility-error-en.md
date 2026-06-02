@@ -33,14 +33,17 @@ n_embd  = 512
 Here are the **safe, proven combinations** that work perfectly on your 12 GB 4070 with a single FineWeb Parquet file:
 
 #### Option 1 – Recommended (125M params, best quality/speed trade-off)
+
 ```python
 n_layer = 12
 n_head  = 12
 n_embd  = 576        # ← 576 ÷ 12 = 48 exactly
 ```
+
 → ~125M params, still fits easily in ~10.5 GB VRAM with batch_size=16 + grad_acc=32 + block_size=1024
 
 #### Option 2 – Slightly larger head dim (130M params)
+
 ```python
 n_layer = 12
 n_head  = 12
@@ -48,6 +51,7 @@ n_embd  = 720        # 720 ÷ 12 = 60
 ```
 
 #### Option 3 – Very safe & common (115M params)
+
 ```python
 n_layer = 12
 n_head  = 12
@@ -55,6 +59,7 @@ n_embd  = 480        # 480 ÷ 12 = 40
 ```
 
 #### Option 4 – If you want to keep n_embd=512 (original GPT-2 style)
+
 ```python
 n_layer = 12
 n_head  = 8          # 512 ÷ 8 = 64

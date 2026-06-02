@@ -23,6 +23,7 @@ Yes, you're basically correct, but let me clarify it a bit more precisely:
    - Your router sends PPPoE packets through the ONT to the ISP’s access network, and the ISP’s BRAS authenticates your username/password and assigns you a public (or sometimes NATed) IP address.
 
 So in normal home usage in China:
+
 - The “dial-up” is done by the router, not by your computer.
 - Your computer or phone just gets a normal LAN IP (192.168.x.x) from the router via DHCP and has no idea PPPoE even exists.
 - Only in some very old ADSL setups or when you bypass the router and plug the fiber ONT directly into a PC do you need to run PPPoE software on the computer itself (such as Windows built-in PPPoE dialer or third-party clients like RasPPPoE).

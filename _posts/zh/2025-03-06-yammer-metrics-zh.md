@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 步骤 1：添加依赖
+
 由于 `com.yammer.metrics` 已演进为 Dropwizard Metrics，您应使用 Dropwizard Metrics 库。若使用 Maven，请在 `pom.xml` 中添加以下依赖：
 
 ```xml
@@ -24,6 +25,7 @@ type: note
 ```
 
 根据需求，您可能还需要添加其他模块：
+
 - `metrics-jvm`：用于 JVM 相关指标
 - `metrics-httpclient`：用于 HTTP 客户端指标
 - `metrics-jersey`：用于 Jersey Web 框架集成
@@ -33,6 +35,7 @@ type: note
 ---
 
 ### 步骤 2：创建指标注册表
+
 `MetricRegistry` 是存储所有指标的中央容器，通常为应用创建单个实例：
 
 ```java
@@ -48,9 +51,11 @@ public class MyApplication {
 ---
 
 ### 步骤 3：使用不同类型的指标
+
 Dropwizard Metrics 支持多种指标类型，分别适用于不同监控场景：
 
 #### **计数器**
+
 计数器用于追踪可增减的数值（如已处理请求数）：
 
 ```java
@@ -63,6 +68,7 @@ counter.dec();  // 减少 1
 ```
 
 #### **测量器**
+
 测量器提供特定时刻的数值快照（如当前队列大小）。通过实现 `Gauge` 接口定义测量器：
 
 ```java
@@ -77,6 +83,7 @@ registry.register("queue.size", new Gauge<Integer>() {
 ```
 
 #### **直方图**
+
 直方图追踪数值的统计分布（如请求大小）：
 
 ```java
@@ -87,6 +94,7 @@ histogram.update(150); // 记录数值
 ```
 
 #### **计量器**
+
 计量器测量事件发生率（如每秒请求数）：
 
 ```java
@@ -97,6 +105,7 @@ meter.mark(); // 记录事件
 ```
 
 #### **计时器**
+
 计时器同时测量事件的发生率与持续时间（如请求处理时间）：
 
 ```java
@@ -115,6 +124,7 @@ try {
 ---
 
 ### 步骤 4：报告指标
+
 为使指标产生价值，需将其报告至特定目标。Dropwizard Metrics 支持控制台、JMX、Graphite 等多种报告器。以下示例创建每 10 秒记录指标的控制台报告器：
 
 ```java
@@ -133,6 +143,7 @@ reporter.start(10, TimeUnit.SECONDS); // 每 10 秒报告一次
 ---
 
 ### 步骤 5：与框架集成（可选）
+
 若使用 Jersey 等 Web 框架，可通过 `metrics-jersey` 模块自动检测端点。此外，`@Timed` 或 `@Counted` 等注解能简化指标采集：
 
 ```java
@@ -153,6 +164,7 @@ public class ExampleResource {
 ---
 
 ### 最佳实践
+
 - **命名规范**：采用层次化命名方案（如 `com.example.myapp.requests.total`）提升可读性
 - **性能考量**：注意指标数量与采集频率，过度采集可能影响性能
 - **文档参考**：查阅 [Dropwizard Metrics 文档](https://metrics.dropwizard.io/)获取最新示例和高级功能
@@ -160,6 +172,7 @@ public class ExampleResource {
 ---
 
 ### 示例：完整实践
+
 以下示例整合了多个概念：
 
 ```java
@@ -198,4 +211,5 @@ public class MetricsExample {
 ---
 
 ### 重要说明
+
 `com.yammer.metrics` 库已演进为 Dropwizard Metrics，请始终使用 `io.dropwizard.metrics` 组的最新版本。对于新项目，也可考虑 Micrometer 等现代替代方案，但 Dropwizard Metrics 仍是许多 Java 应用的可靠选择。更多细节请参阅官方文档！

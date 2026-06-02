@@ -14,24 +14,29 @@ type: note
 ### 操作内容
 
 **1. 二进制安装**
+
 - 从 GitHub releases 下载 mihomo v1.19.24 (linux/amd64)
 - 安装至 `~/.local/bin/mihomo`（用户空间，无需 sudo）
 - 在 `~/.bashrc` 中将 `~/.local/bin` 添加至 `$PATH`
 
 **2. 配置文件**
+
 - 将完整的 `~/.config/mihomo/config.yaml` 从 Mac 复制到 Linux 机器
 - 配置包含：SS 代理、Hysteria2 代理、规则集（Global/China/ChinaIP）、20+ 域名规则
 
 **3. Systemd 用户服务**
+
 - 创建 `~/.config/systemd/user/mihomo.service`
 - 已启用（用户登录时自动启动）
 - 以用户 `xiaoxin` 运行，非 root 权限
 
 **4. 系统代理（Cinnamon 桌面环境）**
+
 - 通过 `gsettings` 配置（通过 SSH 使用 `/run/user/1000/bus` 访问）
 - 模式：`manual`，HTTP/HTTPS → `127.0.0.1:7890`
 
 **5. 终端代理**
+
 - 在 `~/.bashrc` 中添加 `http_proxy`、`https_proxy` 等环境变量
 
 ---
@@ -50,32 +55,40 @@ type: note
 ### 已知问题 / 缺失项
 
 **端口 53 的 DNS — 权限被拒绝**
+
 - 配置设置为 `listen: 0.0.0.0:53`，但非 root 用户无法绑定端口 53
 - `fake-ip` 模式失效 — DNS 解析回退到系统解析器
 - 修复方案：
+
   ```bash
   sudo setcap cap_net_bind_service=+ep ~/.local/bin/mihomo
   systemctl --user restart mihomo
   ```
+
   或将配置改为 `listen: 0.0.0.0:5353` 并用 iptables 重定向
 
 **系统二进制路径需要 sudo**
+
 - 二进制文件位于 `~/.local/bin/` 而非 `/usr/local/bin/`，因为 SSH 非交互环境下无密码时无法执行 sudo
 - 后果：仅用户 `xiaoxin` 可访问 `mihomo`，非系统全局可用
 
 **用户服务 vs 系统服务**
+
 - `systemctl --user` 仅在 `xiaoxin` 登录时运行，除非设置 `loginctl enable-linger xiaoxin`
 - 未启用 linger 时，mihomo 在 xiaoxin 登出后停止
 - 修复方案：
+
   ```bash
   sudo loginctl enable-linger xiaoxin
   ```
 
 **规则集下载待处理**
+
 - 首次启动时，mihomo 从 `cdn.jsdmirror.cn` 下载 Global/China/ChinaIP 规则集
 - 这些下载需要不经过代理的网络访问（先有鸡还是先有蛋问题）— 但由于 CDN 位于中国，DIRECT 策略可正常工作
 
 **`allow-lan: true` 但无防火墙规则**
+
 - Mihomo 监听 `*:7890`（所有网络接口），意味着局域网设备可将其作为代理使用
 - 若非本意，需添加防火墙规则：`sudo ufw deny from any to any port 7890 comment "limit mihomo"`
 

@@ -13,6 +13,7 @@ To remove Dependabot from GitHub Actions, you need to disable its ability to cre
 ---
 
 ### Step 1: Disable Dependabot Version Updates
+
 Dependabot version updates automatically create pull requests to keep your dependencies up to date. These pull requests can trigger GitHub Actions workflows. To disable this feature:
 
 - **Locate the Configuration File**: Check your repository for a file named `dependabot.yml` in the `.github` directory.
@@ -22,6 +23,7 @@ Dependabot version updates automatically create pull requests to keep your depen
 ---
 
 ### Step 2: Disable Dependabot Security Updates
+
 Dependabot security updates generate pull requests to fix vulnerabilities in your dependencies, which can also trigger GitHub Actions workflows. To turn this off:
 
 - **Go to Repository Settings**: In your GitHub repository, click on the **Settings** tab.
@@ -33,6 +35,7 @@ This prevents Dependabot from creating pull requests for security fixes.
 ---
 
 ### Step 3: (Optional) Remove Custom Dependabot-Related Workflows
+
 If you’ve set up GitHub Actions workflows specifically to handle Dependabot pull requests (e.g., auto-merging, labeling, or using Dependabot metadata), you may want to clean them up:
 
 - **Check Workflow Files**: Look in the `.github/workflows` directory for YAML files.
@@ -44,10 +47,12 @@ This step is optional because disabling Dependabot in Steps 1 and 2 will stop it
 ---
 
 ### Additional Notes
+
 - **Existing Pull Requests**: Disabling Dependabot doesn’t close existing pull requests it created. These may still trigger workflows if updated. You can manually close them if needed.
 - **Dependabot Alerts**: If you also want to stop vulnerability notifications (not directly tied to GitHub Actions), go to **Settings > Security & analysis** and disable **Dependabot alerts**. This is optional and unrelated to workflow triggers.
 
 ---
 
 ### Result
+
 By completing Steps 1 and 2, Dependabot will no longer create pull requests in your repository, effectively "removing" its influence on GitHub Actions. If you’ve customized workflows for Dependabot, Step 3 ensures all related automation is gone. Your GitHub Actions will now only run based on other events, unaffected by Dependabot.

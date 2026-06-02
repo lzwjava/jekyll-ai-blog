@@ -21,9 +21,11 @@ OpenClaw（开源个人 AI 助手框架）目前没有内置的全局设置来�
    终端界面（`openclaw tui` 或 `openclaw tui chat`）通常会完全展开工具输出，或以更可滚动/可读的格式显示，而不会折叠行为。
    许多用户在大量使用工具时更喜欢它，因为它完全避免了点击展开的麻烦。
    以此方式运行：
+
    ```
    openclaw tui chat
    ```
+
    或直接在终端模式下开始聊天。
 
 2. **要求 agent 总结或内联重要部分**
@@ -46,7 +48,7 @@ OpenClaw（开源个人 AI 助手框架）目前没有内置的全局设置来�
    这不是官方的，并且在更新后容易失效。
 
 5. **请求此功能**
-   该项目在 GitHub (https://github.com/openclaw/openclaw) 上非常活跃。
+   该项目在 GitHub (<https://github.com/openclaw/openclaw>) 上非常活跃。
    打开一个 issue 或为现有 issue +1，请求“auto-expand tool output cards”或“web UI 中工具结果的持久展开状态”。维护者对 UX 反馈响应迅速。
 
 **简短回答：** 目前没有直接的配置/标志——切换到 TUI 以获得最佳体验，或提示 agent 内联更多内容。

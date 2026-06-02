@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 vLLM and llama.cpp are both popular open-source tools for efficient inference and serving of large language models (LLMs), but they target different scenarios. vLLM is a Python-based serving engine optimized for high-throughput, batched inference on GPUs, making it ideal for production-scale applications. llama.cpp is a lightweight C++ library focused on portable, low-resource inference, supporting a wide range of hardware including CPUs and edge devices. Below is a detailed comparison across key dimensions.
 
 ### Comparison Table
@@ -27,11 +28,13 @@ vLLM and llama.cpp are both popular open-source tools for efficient inference an
 | **Community & Ecosystem** | Growing (UC Berkeley/PyTorch-backed); frequent updates for new models/hardware. | Massive (thousands of contributors); supports 100+ models out-of-box; active for quantization tweaks. |
 
 ### Key Differences and Recommendations
+
 - **When to Choose vLLM**: Opt for it in production environments with high user traffic (e.g., API services, chatbots at scale) where GPU resources are abundant. Its batching and memory optimizations shine in batched, concurrent workloads, but it's overkill for personal or low-power use.
 - **When to Choose llama.cpp**: Ideal for local development, offline inference, or resource-constrained setups (e.g., laptops, servers without top-tier GPUs). It's more versatile across hardware and easier to tinker with, but may require custom tweaks for peak multi-GPU performance.
 - **Trade-offs**: vLLM prioritizes speed and scale at the cost of portability; llama.cpp emphasizes accessibility but sacrifices some throughput in demanding scenarios. For hybrid needs, tools like Ollama (built on llama.cpp) can bridge the gap for simpler serving.
 
 ### References
+
 - [vLLM vs Llama.cpp vs Ollama: Multi-GPU LLM Performance](https://www.arsturn.com/blog/multi-gpu-showdown-benchmarking-vllm-llama-cpp-ollama-for-maximum-performance)
 - [vLLM vs Ollama vs Llama.cpp: Which to Use in Production?](https://www.arsturn.com/blog/vllm-vs-ollama-vs-llama-cpp-production-use)
 - [llama.cpp vs vllm performance comparison (GitHub Discussion)](https://github.com/ggml-org/llama.cpp/discussions/15180)

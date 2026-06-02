@@ -43,7 +43,9 @@ Outliers: The Story of Success (2008) by Malcolm Gladwell challenges the popular
    He writes: "The successful are not the ones who work the hardest. They are the ones who have been given the best opportunities to work really hard."
 
 ### Overall Message
+
 Outliers reframes success away from the myth of the self-made lone genius toward a more sociological view:
+
 - Talent and effort are necessary but rarely sufficient.
 - Extraordinary achievement usually requires being given extraordinary opportunities that most people never receive.
 

@@ -77,11 +77,13 @@ The Silicon Valley trip changed my perspective. I met people who had left Google
 The startup journey wasn't smooth. After receiving a ¥500K investment from Li Xiaolai (李笑来), I made classic first-time founder mistakes: hired too fast, managed too loosely, spent too freely. I felt like a CEO and stopped doing the hard work myself. Within months, I had burned through ¥450K.
 
 The failure was painful but educational. I learned that:
+
 - **Founders must do the core work themselves** in the early stage
 - **Don't hire before you have a clear business model**
 - **Easy money corrupts** — when cash comes too easily, you lose discipline
 
 I rebuilt. Pivoted to software outsourcing, personally took on every client call, every project review, every line of critical code. By 2018, the company had:
+
 - ¥2M+ in revenue (first half of 2018)
 - ¥500K+ profit
 - 40+ completed projects for clients like Xiaoyuan Souti (小猿搜题) and Cogtu (中科视拓)
@@ -146,6 +148,7 @@ The British Council's feedback was precise: "Expand vocabulary via extensive rea
 I maintain a public knowledge base at [lzwjava.github.io/notes-en](https://lzwjava.github.io/notes-en) with ~8,000 AI-generated notes covering topics from dark mode implementations to GPU compute, Linux kernel internals, and deep learning. My blog has ~400 technical posts at [lzwjava.github.io](https://lzwjava.github.io).
 
 Writing publicly serves multiple purposes:
+
 - **Accountability**: When you publish your learning, you can't fake understanding
 - **Searchability**: My future self can find what I learned months ago
 - **Connection**: Other engineers find my notes useful and reach out
@@ -172,12 +175,14 @@ Family grounds you. Startups come and go, code gets rewritten, models get deprec
 ## 🎯 Philosophy & Influences
 
 My technical philosophy is heavily influenced by **Yin Wang** (王垠) — a Chinese programmer known for his deep, sometimes controversial critiques of programming languages, operating systems, and the software industry. His writing taught me to:
+
 - Question accepted wisdom
 - Think from first principles
 - Prefer simplicity over complexity
 - Be intellectually honest about what I don't understand
 
 **Paul Graham** shaped my entrepreneurial thinking. His essays on startups, wealth, and hacking taught me that:
+
 - Startups are about making something people want
 - The best ideas seem obvious in hindsight
 - Working with great people matters more than working on great ideas
@@ -218,6 +223,7 @@ Self-taught through China's higher education self-study examination system (自�
 ## 🏃 What's Next
 
 The journey continues. I'm transitioning fully into AI engineering — not as a side activity, but as the main career. The goal is deep competency in:
+
 - Training and fine-tuning models
 - Agent architectures and LLM systems
 - AI-native developer tooling

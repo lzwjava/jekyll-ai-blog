@@ -31,6 +31,7 @@ CLion 是 JetBrains 面向 C 和 C++ 的跨平台 IDE，因其重构工具、调
 这些意见反映了少数对 CLion 的企业重点感到沮丧的人的声音，但它们强调了 IDE 偏好通常归结为项目规模、硬件和工作流程需求。
 
 参考：
+
 - [Opinions on CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/1fde2de/opinions_on_clion/)
 - [Is CLion worth it as an IDE for C++ development? (Quora)](https://www.quora.com/Is-CLion-worth-it-as-an-IDE-for-C-development)
 - [CLion vs VSCode in 2023 for C++ (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/10pvgto/clion_vs_vscode_in_2023_for_c/)

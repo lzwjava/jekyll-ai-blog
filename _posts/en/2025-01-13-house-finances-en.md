@@ -25,7 +25,6 @@ As the later table is based on previous numbers, it is better to check the numbe
 
 The code below helps generate a PDF from the markdown. It has some special settings to support Chinese character rendering in PDF.
 
-
 ```python
 import os
 import subprocess

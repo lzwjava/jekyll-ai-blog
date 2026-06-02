@@ -14,15 +14,18 @@ type: note
 ### 🖥️ Server: 8.129.11.206 (ecs instance)
 
 **CPU:**
+
 - Intel Xeon Platinum 8369B @ 2.90GHz
 - 16 vCPUs (8 cores × 2 threads)
 - x86_64，支持 AVX-512 (完整指令集包括 AVX-512VNNI — 非常适合 ML inference)
 
 **Memory:**
+
 - 总计 91 GiB (~94 GiB，符合规格)
 - 可用 90 GiB — 基本处于 idle 状态
 
 **GPU:**
+
 - 通过 PCIe 检测到 **1 × NVIDIA GeForce RTX 3090** (GA102, Rev A1)
 - 24 GB GDDR6X VRAM
 - TFLOPS: ~35.6 FP32 / ~142 FP16 (Tensor Core)

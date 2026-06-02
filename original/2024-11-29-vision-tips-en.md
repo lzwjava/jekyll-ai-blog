@@ -52,19 +52,19 @@ type: post
 
 *Last updated in August 2025*
 
-* [Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker
+- [Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker
 
-* [Myopia: a modern yet reversible disease](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/), Todd Becker
+- [Myopia: a modern yet reversible disease](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/), Todd Becker
 
-* [Experimental Verification of Yin Wang's Natural Vision Restoration Method](https://lzwjava.github.io/vision-restoration-en), Zhiwei Li
+- [Experimental Verification of Yin Wang's Natural Vision Restoration Method](https://lzwjava.github.io/vision-restoration-en), Zhiwei Li
 
-* [The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape](https://lzwjava.github.io/astigmatism-en), Zhiwei Li
+- [The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape](https://lzwjava.github.io/astigmatism-en), Zhiwei Li
 
-* [Natural Vision Restoration: The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en), Zhiwei Li
+- [Natural Vision Restoration: The Principle of "Just Barely Clear"](https://lzwjava.github.io/barely-clear-en), Zhiwei Li
 
-* [Natural Vision Restoration Tips](https://lzwjava.github.io/vision-tips-en), Zhiwei Li
+- [Natural Vision Restoration Tips](https://lzwjava.github.io/vision-tips-en), Zhiwei Li
 
-* [Using Multifocal Progressive Lenses to Reverse Myopia](https://lzwjava.github.io/multifocal-en), Zhiwei Li
+- [Using Multifocal Progressive Lenses to Reverse Myopia](https://lzwjava.github.io/multifocal-en), Zhiwei Li
 
 ---
 
@@ -72,50 +72,49 @@ type: post
 
 *2024.11.29*
 
-* The reason people worsen their eyesight is that they use glasses with full prescription (which lets them see a blackboard clearly at 5m) to look at phones, computers, or books most of the time. This causes their eyeballs to deform.
+- The reason people worsen their eyesight is that they use glasses with full prescription (which lets them see a blackboard clearly at 5m) to look at phones, computers, or books most of the time. This causes their eyeballs to deform.
 
-* For prescription strength expression, a lens weakened by 1.50 D in Western countries is equivalent to a 150-degree reduction in many Asian countries.
+- For prescription strength expression, a lens weakened by 1.50 D in Western countries is equivalent to a 150-degree reduction in many Asian countries.
 
-* After using glasses with the lens weakened by 1.50 D for several days, you won't want to go back to full prescription glasses. The latter becomes very uncomfortable.
+- After using glasses with the lens weakened by 1.50 D for several days, you won't want to go back to full prescription glasses. The latter becomes very uncomfortable.
 
-* Understanding myopia is key - it's caused by eye muscle changes, not just genetics or light exposure.
+- Understanding myopia is key - it's caused by eye muscle changes, not just genetics or light exposure.
 
-* The most important principle is "just barely clear" - wear glasses that make things just clear enough without straining.
+- The most important principle is "just barely clear" - wear glasses that make things just clear enough without straining.
 
-* For computer or phone use, a −1.50 D undercorrection often works well.
+- For computer or phone use, a −1.50 D undercorrection often works well.
 
-* Expect slow progress — about −0.25 D reduction every three months is good.
+- Expect slow progress — about −0.25 D reduction every three months is good.
 
-* Use the formula: Myopia (in diopters) = 1 / clear distance (in meters) for rough assessment.
+- Use the formula: Myopia (in diopters) = 1 / clear distance (in meters) for rough assessment.
 
-* Keep a stronger prescription pair for driving and essential tasks requiring perfect vision.
+- Keep a stronger prescription pair for driving and essential tasks requiring perfect vision.
 
-* Don't aim for perfect clarity. Slightly blurry vision is part of the improvement process.
+- Don't aim for perfect clarity. Slightly blurry vision is part of the improvement process.
 
-* Don't force yourself to see clearly - let your eyes adjust naturally.
+- Don't force yourself to see clearly - let your eyes adjust naturally.
 
-* Learn about your eye mechanics - understanding how external eye muscles work helps make better vision choices.
+- Learn about your eye mechanics - understanding how external eye muscles work helps make better vision choices.
 
-* Myopia requires wearing glasses, which can be troublesome during activities like playing basketball or when wearing a hat. The hat cannot stretch to cover more skin and provide warmth because the glasses take up space. Forgetting to wear glasses also affects vision.
+- Myopia requires wearing glasses, which can be troublesome during activities like playing basketball or when wearing a hat. The hat cannot stretch to cover more skin and provide warmth because the glasses take up space. Forgetting to wear glasses also affects vision.
 
-* While some people may feel too old or lazy to address their myopia, it's crucial to take action for the sake of future generations to prevent the same challenges.
+- While some people may feel too old or lazy to address their myopia, it's crucial to take action for the sake of future generations to prevent the same challenges.
 
-* The improvement process takes time - myopia developed over years will take time to improve.
+- The improvement process takes time - myopia developed over years will take time to improve.
 
-* The point is that most of the time, our eyes can clearly see the objects we want to view. If we move objects about 10 cm farther away, they become unclear. This indicates that we are using our eyes correctly.
+- The point is that most of the time, our eyes can clearly see the objects we want to view. If we move objects about 10 cm farther away, they become unclear. This indicates that we are using our eyes correctly.
 
-* Since we use phones or computers most of the time, we need to reduce the prescription strength of our eyeglasses to use our eyes correctly.
+- Since we use phones or computers most of the time, we need to reduce the prescription strength of our eyeglasses to use our eyes correctly.
 
-* Consider the case of presbyopia lenses. As people age, their eye muscles change shape in a direction opposite to that in myopia. We can apply the principles used in presbyopia lenses to myopia lenses.
+- Consider the case of presbyopia lenses. As people age, their eye muscles change shape in a direction opposite to that in myopia. We can apply the principles used in presbyopia lenses to myopia lenses.
 
-* I recommend multifocal progressive lenses. Based on your prescription, assuming correct vision is 0.9, the suggestion is to make the additional correction for near vision +1.75 D in myopia (with astigmatism remaining unchanged), while the additional correction for far vision is +1.00 D in myopia (with astigmatism remaining unchanged).
+- I recommend multifocal progressive lenses. Based on your prescription, assuming correct vision is 0.9, the suggestion is to make the additional correction for near vision +1.75 D in myopia (with astigmatism remaining unchanged), while the additional correction for far vision is +1.00 D in myopia (with astigmatism remaining unchanged).
 
-* The core idea is to categorize your life scenarios. Most daily situations don't require perfect vision — we navigate familiar environments without strain. The two main categories are driving (needs full prescription) and phone/computer use (needs −1.50 D undercorrection). Keep two pairs of glasses and be precise about which to use in each situation.
+- The core idea is to categorize your life scenarios. Most daily situations don't require perfect vision — we navigate familiar environments without strain. The two main categories are driving (needs full prescription) and phone/computer use (needs −1.50 D undercorrection). Keep two pairs of glasses and be precise about which to use in each situation.
 
-* I personally would not undergo myopia surgery. I haven't tried it and don't fully understand its long-term implications. My experience suggests surgery is unnecessary for most people willing to try the undercorrection approach.
+- I personally would not undergo myopia surgery. I haven't tried it and don't fully understand its long-term implications. My experience suggests surgery is unnecessary for most people willing to try the undercorrection approach.
 
-* With glasses reduced by 1.50 D, I have comfortably used phones and computers for 14 hours a day over three years without any eye fatigue — just as natural as wearing full-prescription glasses to see a blackboard clearly. Over those three years, both my myopia and astigmatism have each reduced by roughly 100 degrees.
-
+- With glasses reduced by 1.50 D, I have comfortably used phones and computers for 14 hours a day over three years without any eye fatigue — just as natural as wearing full-prescription glasses to see a blackboard clearly. Over those three years, both my myopia and astigmatism have each reduced by roughly 100 degrees.
 
 ---
 
@@ -231,7 +230,6 @@ It is really easy to talk, but harder to perform actual experiments, work out a 
 
 It's easy to make mistakes without hands-on experience. After making tons of mistakes, you will realize that compared to the losses or pain that the mistakes cause us, the trouble of doing a lot of hands-on experiments to get to the truth and avoid mistakes is negligible. That said, like in stock investing, one day you will know that compared to the losses or pain that investing mistakes cause us, the trouble of performing hands-on, thorough experimental efforts to invest successfully is negligible.
 
-
 ---
 
 ## The Journey of Reversing Myopia Naturally
@@ -245,7 +243,6 @@ Besides three papers about reversing myopia, I want to share more about this dis
 > Li, Zhiwei. (Jun 2023). Astigmatism in Reversing Myopia. Zhiwei’s Blog. Web. PDF.
 >
 > Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of ‘Just Barely Clear’. Zhiwei’s Blog. Web. PDF.
-
 
 ### Patience
 

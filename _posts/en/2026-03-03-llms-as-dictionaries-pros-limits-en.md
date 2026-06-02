@@ -53,4 +53,5 @@ So yes — for 90–95% of daily life usage, LLMs are **excellent practical dict
 But when precision, history, or verifiability really matter, they remain **only an approximation** of real lexicographic resources.
 
 **References:**
+
 - None (general knowledge about LLM capabilities and dictionary standards as of early 2026)

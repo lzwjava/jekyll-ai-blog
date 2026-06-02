@@ -64,6 +64,7 @@ There are several practical ways to achieve this on macOS. The most reliable and
    Better: create a launchd plist to auto-start it at login (many guides exist, or use `brew services start sleepwatcher` if Homebrew supports it).
 
 **Result**:
+
 - Close lid → mac sleeps → `~/.sleep` runs → you get notification
 - Open lid / wake Mac → `~/.wakeup` runs → you get notification
 

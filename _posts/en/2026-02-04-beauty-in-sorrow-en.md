@@ -13,6 +13,7 @@ type: note
 **Poignant** means evoking a strong sense of sadness or emotion, often with a bittersweet quality. It describes something that touches you deeply, typically in a way that's both beautiful and painful.
 
 For example:
+
 - A poignant memory of a late grandparent
 - A poignant scene in a film where characters say goodbye
 - The poignant contrast between childhood innocence and adult understanding

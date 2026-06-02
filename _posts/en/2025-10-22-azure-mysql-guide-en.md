@@ -15,6 +15,7 @@ Azure Database for MySQL is a fully managed relational database service powered 
 This guide covers creating a server, connecting to it, and performing basic operations. It's based on the Azure portal for simplicity.
 
 ## Prerequisites
+
 - An active Azure subscription (create one at [azure.microsoft.com](https://azure.microsoft.com/free/) if needed).
 - Access to the Azure portal (portal.azure.com).
 - Basic familiarity with MySQL concepts.
@@ -22,6 +23,7 @@ This guide covers creating a server, connecting to it, and performing basic oper
 - MySQL Workbench installed for connection (download from [mysql.com](https://dev.mysql.com/downloads/workbench/)).
 
 ## Step 1: Create a Flexible Server in the Azure Portal
+
 Follow these steps to provision your server.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
@@ -53,6 +55,7 @@ Follow these steps to provision your server.
 7. Once done, pin to dashboard and go to the resource's **Overview** page. Default databases include `information_schema`, `mysql`, etc.
 
 ## Step 2: Connect to Your Server
+
 Use MySQL Workbench for a GUI connection. (Alternatives: Azure Data Studio, mysql CLI, or Azure Cloud Shell.)
 
 1. In the portal, go to your server's **Overview** and note:
@@ -80,9 +83,11 @@ Use MySQL Workbench for a GUI connection. (Alternatives: Azure Data Studio, mysq
 6. Click **OK** to save. Double-click the connection tile to open a query editor.
 
 ## Step 3: Create and Manage Databases
+
 Once connected, manage databases via portal or client.
 
-### Via Azure Portal:
+### Via Azure Portal
+
 1. On your server's page, select **Databases** from the left menu.
 2. Click **+ Add**:
    - **Database name**: e.g., `testdb`.
@@ -92,7 +97,8 @@ Once connected, manage databases via portal or client.
 
 To delete: Select database(s), click **Delete**.
 
-### Via MySQL Workbench (SQL Queries):
+### Via MySQL Workbench (SQL Queries)
+
 Run these in the query editor:
 
 - Create database: `CREATE DATABASE testdb CHARACTER SET utf8 COLLATE utf8_general_ci;`
@@ -105,6 +111,7 @@ Run these in the query editor:
 Commit changes with `COMMIT;` if not auto-committing.
 
 ## Basic Usage Tips
+
 - **Scaling**: From **Overview** > **Compute + storage**, adjust vCores/storage/IOPS (no downtime for most changes).
 - **Backups**: Automated daily; point-in-time restore up to 35 days (configure in **Backup** settings).
 - **Monitoring**: Use **Metrics** for CPU/storage insights; set alerts.
@@ -116,6 +123,7 @@ Commit changes with `COMMIT;` if not auto-committing.
 For advanced features like read replicas or server parameters, explore the portal's left menu.
 
 ## References
+
 - [Quickstart: Create a Flexible Server Using the Azure Portal](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/quickstart-create-server-portal)
 - [Connect Using MySQL Workbench](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/connect-workbench)
 - [Create and Manage Databases](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/how-to-create-manage-databases)

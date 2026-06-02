@@ -35,7 +35,7 @@ type: note
    该脚本在大多数类似 Reality 安装程序中是交互式的。您可能会被要求：
    - 选择端口（默认通常为 443）
    - 输入域名 / SNI / serverName（用于 Reality 伪装）
-   - 选择回退目标网站（例如 www.microsoft.com:443）
+   - 选择回退目标网站（例如 <www.microsoft.com:443）>
    - 生成或输入 Reality 的公钥/私钥
    - 选择是否启用 uTLS 指纹等。
 
@@ -60,6 +60,7 @@ type: note
    - 查看日志：`journalctl -u xray -ef` 或检查 `/var/log/xray/`
 
 ### 重要说明与要求
+
 - 使用 **clean IP**（之前未用于代理的 IP）—— Reality 在未污染的 IP 上效果最佳。
 - 强烈推荐使用端口 443（模拟 HTTPS 流量）。
 - 通常需要一个指向服务器 IP 的域名以获得最佳效果（但短域名 Reality 设置也是可能的）。
@@ -67,7 +68,9 @@ type: note
 - 如果脚本失败 → 请尝试在全新的 Ubuntu 22.04 / 24.04 或 Debian 12 服务器上运行。
 
 ### 如果脚本无效或您想要替代方案
+
 2026 年的热门维护选项包括：
+
 - Hiddify-Manager（面板 + Reality 支持）
 - 3X-UI 面板
 - AmneziaVPN 自托管安装程序

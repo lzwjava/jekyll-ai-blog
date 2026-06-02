@@ -20,6 +20,7 @@ Short answer: it's not categorically better — it depends on what you're optimi
 ## What Warp Actually Is
 
 Warp is a terminal emulator with AI baked into the UI layer:
+
 - Block-based command output (each command is a discrete "block")
 - Warp AI: inline natural language → shell command
 - Agent mode: multi-step task execution in terminal

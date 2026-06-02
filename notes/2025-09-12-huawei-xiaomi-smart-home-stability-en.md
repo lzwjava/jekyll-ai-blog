@@ -14,6 +14,7 @@ type: note
 It looks like your question is about smart home setups, specifically wanting something stable that could integrate with a PLC (Programmable Logic Controller) for control, whether Huawei uses a specific protocol for this, and if Huawei's smart home ecosystem is more stable than Xiaomi's. I'll break it down step by step based on available info.
 
 ### Does Huawei Use a PLC-Related Protocol for Smart Homes?
+
 Yes, Huawei incorporates PLC (Power Line Communication) technology extensively in its smart home solutions, particularly through its proprietary **PLC-IoT protocol**. This is a narrowband IoT standard that transmits data over existing electrical wiring, making it highly reliable for whole-home connectivity without needing extra cables or Wi-Fi hotspots everywhere. It's designed for stability in scenarios like controlling lights, appliances, security systems, and HVAC—perfect if you're integrating a PLC for industrial or automated home control.
 
 - Huawei's "All-in-One Smart Home" solution uses PLC-IoT as a core "home bus" for low-bandwidth, always-on connections (up to 2 Mbit/s over kilometers via multi-hop networking). It integrates with HarmonyOS for seamless device linking and supports IPv6 for broad IoT compatibility.
@@ -23,6 +24,7 @@ Yes, Huawei incorporates PLC (Power Line Communication) technology extensively i
 Xiaomi, by contrast, relies more on Zigbee, Wi-Fi, and Bluetooth via its Mi Home app—great for affordability but less focused on wired PLC-like stability.
 
 ### Is Huawei's Smart Home More Stable Than Xiaomi's?
+
 Overall, **yes, Huawei edges out Xiaomi in long-term stability and reliability**, especially for whole-home setups. Huawei's ecosystem (built on HarmonyOS and PLC-IoT) emphasizes robust, interference-proof networking and open interoperability, while Xiaomi's (on Mi Home/HyperOS) shines in short-term affordability but can suffer from ecosystem fragmentation.
 
 - **Stability Pros for Huawei**:

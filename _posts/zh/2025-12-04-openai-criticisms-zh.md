@@ -30,6 +30,7 @@ type: note
 这些观点凸显了日益增长的分歧：OpenAI 早期的魔力在许多人眼中已经消退，取而代之的是对其发展方向的怀疑。尽管有些人捍卫其以消费者为中心，但日益增长的不满情绪表明，该公司必须重建信任才能保持主导地位。
 
 **参考资料：**
+
 - [Reddit: Does anybody else despise OpenAI?](https://www.reddit.com/r/MachineLearning/comments/13kfxzy/d_does_anybody_else_despise_openai/)
 - [Reddit: Unpopular opinion: AI is still very far from being able to generate actual human-like outputs](https://www.reddit.com/r/OpenAI/comments/1aje68s/unpopular_opinion_ai_is_still_very_far_from_being/)
 - [Reddit: I honestly can’t believe into what kind of trash OpenAI has turned lately](https://www.reddit.com/r/OpenAI/comments/1os85np/i_honestly_cant_believe_into_what_kind_of_trash/)

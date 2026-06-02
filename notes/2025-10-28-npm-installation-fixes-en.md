@@ -21,6 +21,7 @@ This is an npm installation failure during a global update (or install) of the `
   - Rarely, npm's internal move-file logic hits a race condition.
 
 Your setup:
+
 - Node: v22.18.0
 - npm: v11.6.1
 - OS: Linux 6.14.0-29-generic (likely Ubuntu/Debian)
@@ -37,21 +38,26 @@ The package seems to be Anthropic's Claude Code tool (CLI for AI coding assistan
 
 2. **Manually Clean the Directory**:
    - Remove the existing package and binary:
+
      ```
      sudo rm -rf /usr/lib/node_modules/@anthropic-ai/claude-code
      sudo rm -f /usr/bin/claude
      ```
+
    - This bypasses npm's backup step. Then retry the install:
+
      ```
      sudo npm install -g @anthropic-ai/claude-code
      ```
 
 3. **Clear npm Cache and Retry**:
    - Run:
+
      ```
      sudo npm cache clean --force
      sudo npm install -g @anthropic-ai/claude-code
      ```
+
    - If it persists, add `--no-optional` to skip optional deps like the Sharp image lib.
 
 4. **Alternative: Use npx or Avoid Global**:

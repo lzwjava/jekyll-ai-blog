@@ -16,7 +16,7 @@ Here's the status:                                                              
 │             2. Installed all dependencies (torch 2.8+cu129, transformers, safetensors, etc.)                                                │
 │             3. Detected your GPU: RTX 4070 with 12GB VRAM -- perfect for FLUX.2 [klein] 4B                                                  │
 │             4. First download attempt from huggingface.co was crawling at ~54 KB/s                                                          │
-│             5. Switched to hf-mirror.com (HF_ENDPOINT=https://hf-mirror.com) -- got ~30 MB/s                                                │
+│             5. Switched to hf-mirror.com (HF_ENDPOINT=<https://hf-mirror.com>) -- got ~30 MB/s                                                │
 │             6. The smaller safetensors file (778MB) finished downloading                                                                    │
 │             7. The large safetensors file (4.41GB) was at ~74% and still downloading when I hit the iteration limit                         │
 │                                                                                                                                             │
@@ -29,7 +29,7 @@ Here's the status:                                                              
 │             ```bash                                                                                                                         │
 │             cd /home/lzw/projects/flux2                                                                                                     │
 │             HF_ENDPOINT=https://hf-mirror.com .venv/bin/python scripts/cli.py                                                               │
-│             ```                                                                                                                             │
+│```                                                                                                                             │
 │             Then pick option 1 (flux.2-klein-4b) when prompted. The partially downloaded model files will resume from cache. Once all       │
 │ weights are downloaded, you'll get an interactive prompt where you can type any text prompt to generate images.                             │
 │                                                                                                                                             │

@@ -107,6 +107,7 @@ Never start Codex inside your OpenClaw state directory (`$OPENCLAW_STATE_DIR`, d
 ### Applied to Your CI4 Refactor Decision
 
 When OpenClaw says **"spawn coding agent now, ~2h"**, it means:
+
 1. It will call `sessions_spawn` or execute a background `bash` command
 2. A Codex/Claude Code agent starts in your project directory
 3. It autonomously edits files, runs tests, and works for ~2 hours

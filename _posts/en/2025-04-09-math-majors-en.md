@@ -11,6 +11,7 @@ type: note
 Mathematics majors at universities like MIT and Stanford typically cover a range of core and advanced topics. Here are some of the main courses and requirements:
 
 ### Stanford University
+
 1. **Core Requirements**:
    - 57 units of math courses, including single-variable calculus and multi-variable calculus series.
    - At least 8 math courses above introductory levels.
@@ -25,6 +26,7 @@ Mathematics majors at universities like MIT and Stanford typically cover a range
    - At least 32 units must be taken at Stanford.
 
 ### MIT
+
 1. **Programs**:
    - General Mathematics
    - Applied Mathematics

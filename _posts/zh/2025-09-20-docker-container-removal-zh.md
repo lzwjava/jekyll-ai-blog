@@ -116,9 +116,9 @@ docker run --rm -v myvolume:/data -v ~/docker-vol-backups:/backup alpine \
 
 打开 Docker Desktop → 点击 **Troubleshoot** 图标（或 Preferences → Troubleshoot）。按顺序尝试以下操作：
 
-1.  **Restart Docker**（如果你在终止 hyperkit 后还没有重启过）。
-2.  **Clean / Purge data** — 这会移除镜像/容器/卷。**具有破坏性**。
-3.  **Reset to factory defaults** — **具有破坏性**，将 Docker Desktop 状态重置为出厂设置。
+1. **Restart Docker**（如果你在终止 hyperkit 后还没有重启过）。
+2. **Clean / Purge data** — 这会移除镜像/容器/卷。**具有破坏性**。
+3. **Reset to factory defaults** — **具有破坏性**，将 Docker Desktop 状态重置为出厂设置。
 
 如果你希望在重置前保留重要的镜像/卷，请告诉我 `docker images` 和 `docker volume ls`（来自步骤 1）的输出，我会给出精确的保存/导出命令。
 
@@ -130,8 +130,8 @@ docker run --rm -v myvolume:/data -v ~/docker-vol-backups:/backup alpine \
 
 **警告——这将删除 Docker Desktop 的所有容器、镜像和卷。**
 
-1.  退出 Docker Desktop。
-2.  在 Finder 或终端中，删除 Docker 的数据文件夹：
+1. 退出 Docker Desktop。
+2. 在 Finder 或终端中，删除 Docker 的数据文件夹：
 
 ```bash
 # 先退出 docker
@@ -142,7 +142,7 @@ rm -rf ~/Library/Containers/com.docker.docker
 rm -rf ~/.docker
 ```
 
-3.  再次启动 Docker Desktop（它会重新创建状态）。然后运行 `docker system prune -a --volumes` 来清理剩余的任何内容。
+3. 再次启动 Docker Desktop（它会重新创建状态）。然后运行 `docker system prune -a --volumes` 来清理剩余的任何内容。
 
 ---
 
@@ -150,7 +150,7 @@ rm -rf ~/.docker
 
 如果你希望在执行破坏性步骤之前让我进一步分析，请生成 Docker Desktop 诊断信息并将诊断 ID 粘贴到这里：
 
-*   Docker Desktop → Troubleshoot → **Get Support** 或 **Generate Diagnostics** — 它会提供一个诊断 ID。分享那个 ID（或完整的诊断存档文件），我可以解读日志并推荐针对性的修复方案。
+* Docker Desktop → Troubleshoot → **Get Support** 或 **Generate Diagnostics** — 它会提供一个诊断 ID。分享那个 ID（或完整的诊断存档文件），我可以解读日志并推荐针对性的修复方案。
 
 你也可以粘贴这些命令的输出（无损）：
 
@@ -164,12 +164,12 @@ docker inspect ccd89a3f36a1528cb923c90de8755faeb36e229cab353c2285222948197b8d18 
 
 ## 推荐的简短路径（总结）
 
-1.  退出并重启 Docker Desktop。再次尝试 `docker rm -f`。
-2.  如果仍然卡住：终止 hyperkit (sudo kill -9 PID)，重启 Docker Desktop。重试。
-3.  运行 `docker system prune` / `volume prune`。重试。
-4.  导出/保存你需要的任何镜像/卷。
-5.  如果你能承受数据丢失，使用 Docker Desktop → Troubleshoot → **Clean / Purge data**（或 Reset）。
-6.  如果你希望在执行破坏性步骤之前让我帮你解读日志，请粘贴 `docker info` 和 `docker ps -a` 的输出或诊断 ID。
+1. 退出并重启 Docker Desktop。再次尝试 `docker rm -f`。
+2. 如果仍然卡住：终止 hyperkit (sudo kill -9 PID)，重启 Docker Desktop。重试。
+3. 运行 `docker system prune` / `volume prune`。重试。
+4. 导出/保存你需要的任何镜像/卷。
+5. 如果你能承受数据丢失，使用 Docker Desktop → Troubleshoot → **Clean / Purge data**（或 Reset）。
+6. 如果你希望在执行破坏性步骤之前让我帮你解读日志，请粘贴 `docker info` 和 `docker ps -a` 的输出或诊断 ID。
 
 ---
 

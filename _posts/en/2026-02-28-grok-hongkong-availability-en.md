@@ -22,6 +22,7 @@ In early 2026, Grok faced global controversy due to its image-generation feature
 Hong Kong users and local reports (including LinkedIn posts and Reddit discussions about Grok 4 being "VPN-free" in Hong Kong) indicate it continues to be available via grok.com, the X platform, or apps. No evidence shows Hong Kong implementing a block like the Southeast Asian cases.
 
 In summary:
+
 - **Early support (2023–2024)**: Yes, it rolled out progressively and was usable in Hong Kong.
 - **Current status (2026)**: Still supported and not banned — only regulatory warnings exist over content risks.
 

@@ -25,12 +25,14 @@ type: note
 
 ---
 
-### GitHub 单行简介（用于仓库描述字段）：
+### GitHub 单行简介（用于仓库描述字段）
+
 ```
 一个由Rust驱动的机器人平台，使用Arduino + Raspberry Pi并搭载实时世界模型。
 ```
 
-### 可添加至README的徽章：
+### 可添加至README的徽章
+
 ```markdown
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino)

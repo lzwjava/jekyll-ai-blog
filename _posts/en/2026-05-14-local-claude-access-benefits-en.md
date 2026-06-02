@@ -46,6 +46,7 @@ This is impossible in the web chat — Claude there only responds turn-by-turn; 
 Not a developer? You still benefit from local Claude via **Cowork** in Claude Desktop. Cowork runs directly on your computer, giving Claude access to the files you choose to share. It breaks complex work into subtasks, runs code and shell commands in an isolated virtual machine on your computer, and coordinates multiple workstreams in parallel if appropriate.
 
 Examples of what it can do locally:
+
 - Organize a messy Downloads folder
 - Batch rename thousands of files
 - Process receipts into expense reports

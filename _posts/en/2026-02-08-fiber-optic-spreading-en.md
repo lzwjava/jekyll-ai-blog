@@ -23,6 +23,7 @@ Think of it like this: when you send a pulse of light down a fiber, different co
 **Why it matters for 1000Base-SX:**
 
 The 275m full-duplex limit exists partly because of dispersion. Over longer distances, the signal spreads so much that:
+
 - Pulses overlap with each other
 - The receiver can't distinguish between 1s and 0s clearly
 - Bit errors increase

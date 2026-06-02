@@ -22,6 +22,7 @@ type: note
 Moat 是城堡的防御线之一——这个充满水的沟渠本质上意味着“禁止进入！”
 
 **其他物理用途：**
+
 - 在 **zoo** 中围绕一个区域挖的深而宽的坑，用于防止动物逃脱。
 
 **词源：**
@@ -38,6 +39,7 @@ Moat 是城堡的防御线之一——这个充满水的沟渠本质上意味着
 这个经济原则由 Warren Buffett 在 1999 年提出，他建议投资于“拥有宽阔、可持续 moats 的企业”。理念是：无论你的公司产品多么优秀，如果没有 moat，竞争对手就会入侵你的城堡并烧毁它。
 
 商业 moats 的例子包括：
+
 - Brand loyalty
 - Patents and intellectual property
 - Network effects

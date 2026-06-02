@@ -15,6 +15,7 @@ In nanoGPT (and essentially in any GPT-style training, including the original GP
 Here’s why and exactly how it’s done in practice with FineWeb (and in Andrej’s nanoGPT code):
 
 ### What you should do (correct way)
+
 1. Concatenate **all** the individual articles into **one huge .txt file** (or multiple large shard files), separated only by a special end-of-text token `<|endoftext|>` (or whatever separator you choose).
 2. During training, nanoGPT will:
    - Load the entire concatenated text into one giant token array.
@@ -24,10 +25,11 @@ Here’s why and exactly how it’s done in practice with FineWeb (and in Andrej
 This is exactly how OpenAI trained GPT-2 and GPT-3, and it’s what Andrej does with Shakespeare, OpenWebText, FineWeb-Edu, etc.
 
 ### What the extract_fineweb.py script is doing
+
 That script you ran is already doing the right thing:
 
 ```bash
-$ python ./scripts/train/extract_fineweb.py
+python ./scripts/train/extract_fineweb.py
 ```
 
 It reads all the parquet files, extracts only the `text` column of every row (i.e., every webpage/article), writes the raw text one after another into `fineweb_extracted.txt`, and (in the latest versions) automatically inserts the `<|endoftext|>` separator between documents.
@@ -41,6 +43,7 @@ So the resulting file looks like:
 That’s perfect. You should train on that single giant file (or the sharded bin files that `train.py` will create from it).
 
 ### What you should NOT do
+
 - Do **not** feed each article as a separate example/sequence to the model and restart attention for every article.
 - Do **not** truncate or pad every article to exactly block_size and train only within-document.
 - Do **not** use Document-level batching where each sequence in the batch is one full document.
@@ -48,6 +51,7 @@ That’s perfect. You should train on that single giant file (or the sharded bin
 That would destroy the model’s ability to learn long-range dependencies that span multiple documents and would drastically hurt performance.
 
 ### Summary
+
 Yes → Train on **one single massive concatenated text file** (exactly what `extract_fineweb.py` produces).
 No → Do **not** train article-by-article as separate sequences.
 

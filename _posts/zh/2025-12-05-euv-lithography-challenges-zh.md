@@ -53,6 +53,7 @@ type: note
 综上所述：EUV要求同时解决等离子体物理、原子层级精密光学、超净高真空系统和亚纳米级计量学方面的问题——所有这些都必须达到工业规模和可靠性。从1990年代首次提出认真提案到实现大批量生产（约2019-2021年）以及ASML的NXE:3400C和即将于2025-2026年投入生产的High-NA系统的推出，大约花费了**25-30年**。
 
 参考文献：
+
 - [ASML – How EUV lithography works](https://www.asml.com/en/technology/extreme-ultraviolet-lithography)
 - [Cymer (ASML) – LPP EUV Source Technology](https://www.cymer.com/euv-lithography)
 - [Zeiss – EUV Mirrors and Optics](https://www.zeiss.com/semiconductor-manufacturing-technology/products/photolithography-optics/euv-optics.html)

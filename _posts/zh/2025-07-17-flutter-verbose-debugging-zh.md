@@ -19,16 +19,19 @@ type: note
 只需添加 `-v`（或 `--verbose`）参数：
 
 - 清理项目：
+
   ```bash
   flutter clean -v
   ```
 
 - 获取依赖：
+
   ```bash
   flutter pub get -v
   ```
 
 - 运行应用：
+
   ```bash
   flutter run -v
   ```
@@ -38,6 +41,7 @@ type: note
 ---
 
 ### 📌 查看详细日志的技巧
+
 - 重点关注**最后几行**输出 → 这里会显示进程卡在哪一步
 - 常见卡顿场景：
   - **CocoaPods** 依赖解析（网络缓慢/仓库过期）

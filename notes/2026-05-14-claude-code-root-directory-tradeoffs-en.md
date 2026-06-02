@@ -34,6 +34,7 @@ If `@` file mentions aren't finding files, the bundled ripgrep binary may be the
 ### 2. The File Picker Slowdown Is a Known Issue
 
 If your project is a large monorepo where the default file picker is slow, you can replace it with a custom command via the `fileSuggestion` setting in `settings.json`:
+
 ```json
 {
   "fileSuggestion": {
@@ -42,6 +43,7 @@ If your project is a large monorepo where the default file picker is slow, you c
   }
 }
 ```
+
 The command receives JSON via stdin with a `query` field and outputs newline-separated file paths.
 
 ### 3. `@` Autocomplete Slowdown Is a Confirmed Bug Too
@@ -57,9 +59,11 @@ The context window is the most important resource to manage. A single debugging 
 Instead of running from `/`, run Claude Code **inside your primary project** and add other project directories as needed:
 
 Claude Code's multi-directory support lets you work across multiple directories in one session using the `--add-dir` flag:
+
 ```bash
 claude --add-dir /path/to/backend --add-dir /path/to/frontend
 ```
+
 This lets you work across frontend, backend, and shared modules without switching sessions, while maintaining good performance.
 
 ## Summary

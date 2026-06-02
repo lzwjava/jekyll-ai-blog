@@ -18,16 +18,19 @@ type: note
 
 然而，虽然它是**正确**的，但连续重复“in”（特别是连续两个或更多）可能会让母语使用者觉得句子听起来很笨拙、不流畅或不够优雅。这 V是一个**风格和清晰度**问题，而不是严格的语法问题。
 
-### 对你例子的分析：
+### 对你例子的分析
+
 - “common commands in switches in networking”
 
 这个短语包含两个连续的“in”介词：
+
 - “in switches” → 指示设备的位置/类型
 - “in networking” → 指示更广泛的领域/上下文
 
 语法上讲没问题，但感觉有点重复，可以改进以使阅读更流畅。
 
-### 更好的替代方案（建议以实现自然流畅）：
+### 更好的替代方案（建议以实现自然流畅）
+
 - “common commands in networking switches”（网络交换机中的常用命令）
 - “common commands for switches in networking”（网络中交换机的常用命令）
 - “common switch commands in networking”（网络中的常用交换机命令）
@@ -35,14 +38,18 @@ type: note
 
 这些改写避免了连续的“in”，同时保留了原意。
 
-### 其他连续使用“in”的例子：
+### 其他连续使用“in”的例子
+
 可以接受但在风格上显得笨拙：
+
 - “There was a cat in a hat in a box in the room.”（房间里有一个戴着帽子的猫在一个盒子里。）（语法正确，但听起来很奇怪）
 
 改进后：
+
 - “There was a cat in a hat inside a box in the room.”（房间里有一个戴着帽子的猫在一个盒子里面。）
 
-### 总结：
+### 总结
+
 - **语法上**：是的，允许连续使用多个“in”。
 - **风格上**：通常最好通过改写来避免重复，以提高清晰度和表达的优雅性，尤其是在正式或专业的写作中。
 

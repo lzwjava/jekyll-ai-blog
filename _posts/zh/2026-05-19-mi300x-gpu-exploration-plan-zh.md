@@ -167,6 +167,7 @@ EOF
 ### 3b. 与你的 H100/H200 数据对比
 
 需要记录的关键指标：
+
 - 训练 tokens/sec（MFU — 模型 FLOP 利用率）
 - 推理 tokens/秒的推理吞吐量（batch size 为 1、8、32 时）
 - 内存带宽利用率（`rocm-smi -d 0 --showrascount` + compute）

@@ -15,6 +15,7 @@ Helm is the package manager for Kubernetes, often called "the yum or apt for Kub
 Think of a Helm chart like a Docker image for Kubernetes manifests: it packages YAML files, templates, defaults, and logic into a single unit that can be installed with one command.
 
 In CI/CD pipelines like **Jenkins**, Helm is commonly used to:
+
 - Build and test charts.
 - Push charts to repositories (e.g., ChartMuseum, Harbor, Nexus).
 - Deploy applications to staging/production clusters securely.
@@ -36,6 +37,7 @@ In CI/CD pipelines like **Jenkins**, Helm is commonly used to:
 ## Core Concepts
 
 ### 1. **Chart**
+
 - Directory structure containing Kubernetes manifests and metadata.
 - Example: `my-app-chart/`
 
@@ -51,14 +53,17 @@ my-app-chart/
 ```
 
 ### 2. **Release**
+
 - An instance of a chart running in a cluster.
 - One chart → multiple releases (e.g., `myapp-dev`, `myapp-prod`).
 
 ### 3. **Repository**
+
 - HTTP server hosting indexed charts (like npm registry).
 - Common: ChartMuseum, Harbor, Nexus, GitHub Pages, S3.
 
 ### 4. **Tiller** (Deprecated)
+
 - Helm v2 used a server-side component called Tiller.
 - **Helm v3+ removes Tiller** → client-only, more secure.
 
@@ -87,6 +92,7 @@ my-app-chart/
 ## Chart Structure Deep Dive
 
 ### `Chart.yaml` (Required)
+
 ```yaml
 apiVersion: v2
 kind: Chart
@@ -108,6 +114,7 @@ icon: https://example.com/logo.png
 ```
 
 ### `values.yaml` (Defaults)
+
 ```yaml
 replicaCount: 2
 image:
@@ -124,7 +131,9 @@ resources:
 ```
 
 ### `templates/deployment.yaml`
+
 {% raw %}
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -150,10 +159,13 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
 ```
+
 {% endraw %}
 
 ### `_helpers.tpl` (Best Practice)
+
 {% raw %}
+
 ```tpl
 {{/* Generate basic labels */}}
 {{- define "my-app.labels" -}}
@@ -162,6 +174,7 @@ app.kubernetes.io/name: {{ include "my-app.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 ```
+
 {% endraw %}
 
 ---
@@ -233,6 +246,7 @@ pipeline {
 ```
 
 ### Key Jenkins Plugins
+
 - **Kubernetes CLI** (`kubectl`)
 - **Helm** (via `helm` binary in agent)
 - **Pipeline Utility Steps** (`readYaml`, `writeYaml`)

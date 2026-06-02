@@ -13,7 +13,9 @@ type: note
 Traceroute is definitely available on Linux—it's a standard network diagnostic tool that traces the route packets take to a destination. However, it's often **not installed by default** in many modern distributions (like Ubuntu, Fedora, or Debian minimal installs) to keep base systems lightweight. That's why it's not showing up in your tab completion for "trac".
 
 ### Quick Fix
+
 Install it via your package manager:
+
 - **Debian/Ubuntu**: `sudo apt update && sudo apt install traceroute`
 - **Fedora/RHEL/CentOS**: `sudo dnf install traceroute` (or `sudo yum install traceroute` on older versions)
 - **Arch**: `sudo pacman -S traceroute`

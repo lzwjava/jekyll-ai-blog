@@ -52,6 +52,7 @@ An LSTM unit operates on sequences of inputs \\( x_t \\) at time step \\( t \\),
 
 The cell state \\( c_t \\) is updated as:
 \\[ c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t \\]
+
 - First term: Forgets irrelevant info from the past.
 - Second term: Adds new relevant info.
 
@@ -128,6 +129,7 @@ Resources for hands-on: Official TensorFlow tutorials or the original paper.
 LSTMs revolutionized sequence modeling, paving the way for today's AI advancements. If you're diving deeper, focus on understanding the gates through visualization tools like LSTM flowcharts.
 
 ## References
+
 - [Original LSTM Paper: Long Short-Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf)
 - [Colah's Blog: Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Towards Data Science: A Gentle Introduction to LSTMs](https://towardsdatascience.com/understanding-lstm-and-its-diagrams-37e2f46f1714)

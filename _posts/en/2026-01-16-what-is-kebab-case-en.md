@@ -43,18 +43,24 @@ background-color-red-500
 ### Where kebab-case is most commonly used (2025–2026)
 
 - CSS class names and IDs
+
   ```css
   .card-header-title { … }
   .is-active { … }
   ```
+
 - HTML data attributes
+
   ```html
   <div data-user-id="123" data-created-at="2025-01-01"></div>
   ```
+
 - URL slugs
+
   ```text
   https://example.com/blog/how-to-learn-rust-in-2026
   ```
+
 - Many modern CSS-in-JS libraries & utility-first frameworks
   (Tailwind CSS, UnoCSS, Panda CSS, etc.)
 - Git branch names (very common pattern)

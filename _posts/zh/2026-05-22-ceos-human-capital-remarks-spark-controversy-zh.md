@@ -50,6 +50,7 @@ type: note
 对你而言：被裁撤的岗位包括后台运营、合规手工操作、交易监控（虚假阳性审查）以及行政职能。而*新增*的岗位正是你所从事的工作——AI工程、自动化以及取代这些手工流程的系统。
 
 **参考资料：**
+
 - [渣打银行计划到2030年裁员7000个后台岗位 — TechTimes](http://www.techtimes.com/articles/316851/20260519/standard-chartered-cut-7000-back-office-jobs-2030-first-major-bank-put-ai-layoff-schedule.htm)
 - [渣打银行CEO收回"低价值人力资本"言论 — Fox Business](https://www.foxbusiness.com/technology/standard-chartered-ceo-walks-back-comments-about-replacing-lower-value-human-capital-ai)
 - [哈莉玛·雅各布抨击渣打银行CEO — The Online Citizen](https://theonlinecitizen.com/2026/05/20/halimah-yacob-slams-stan-chart-ceo-over-lower-value-human-capital-remarks-amid-ai-job-cuts)

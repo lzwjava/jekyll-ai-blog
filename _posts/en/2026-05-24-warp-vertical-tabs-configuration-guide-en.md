@@ -64,6 +64,7 @@ split_direction = "horizontal"
 Right-click any tab in the vertical tabs panel or horizontal tab bar, then click **"Save as new config"** — Warp generates a `.toml` file from the tab's layout, commands, and directory.
 
 Tab configs live at:
+
 ```
 ~/.local/share/warp-terminal/tab_configs/   # stable
 ~/.local/share/warp-terminal-preview/tab_configs/  # preview

@@ -15,10 +15,12 @@ A **monic polynomial** (or monic variable in the context of polynomials) is a po
 ---
 
 ### **Use Case: Root Finding and Factorization**
+
 **Scenario:**
 When solving polynomial equations or factoring polynomials, monic polynomials are often preferred because they simplify calculations.
 
 **Why?**
+
 - **Simplified Form:** A monic polynomial is in its simplest form for root-finding algorithms (e.g., the Rational Root Theorem).
 - **Easier Factorization:** If you want to factor a polynomial, it’s often easier to work with a monic polynomial. For example, if you have a quadratic equation like \\(2x^2 + 4x + 2\\), you can factor out the leading coefficient to make it monic:
   \\(2(x^2 + 2x + 1)\\), and then factor further as \\(2(x+1)^2\\).

@@ -17,21 +17,21 @@ Here’s a breakdown of why you experience this split, and some practical strate
 
 ### Why Music Helps Sometimes
 
-1.  **Arousal and Mood:** Music, especially upbeat or familiar tunes, can increase your physiological arousal. It wakes you up, puts you in a better mood, and makes a boring or tedious task more enjoyable. This can lead to higher productivity and persistence.
-2.  **Noise Masking:** Music can act as a "sound blanket," masking intermittent and distracting noises from your environment (people talking, traffic, construction). It replaces unpredictable sounds with predictable ones, which is less distracting.
-3.  **The "Flow" State:** For repetitive or well-learned tasks, music can help you enter a "flow" state by providing a steady, rhythmic backdrop that keeps your brain engaged without requiring conscious effort.
+1. **Arousal and Mood:** Music, especially upbeat or familiar tunes, can increase your physiological arousal. It wakes you up, puts you in a better mood, and makes a boring or tedious task more enjoyable. This can lead to higher productivity and persistence.
+2. **Noise Masking:** Music can act as a "sound blanket," masking intermittent and distracting noises from your environment (people talking, traffic, construction). It replaces unpredictable sounds with predictable ones, which is less distracting.
+3. **The "Flow" State:** For repetitive or well-learned tasks, music can help you enter a "flow" state by providing a steady, rhythmic backdrop that keeps your brain engaged without requiring conscious effort.
 
 ### Why Music is Disturbing Sometimes
 
 This is the crucial part that explains your second feeling.
 
-1.  **The Language Conflict (Verbal Overload):** This is the biggest factor. If you are **reading, writing, or coding**, you are using the **verbal centers** of your brain. If you listen to music **with lyrics**, you are also engaging those same verbal centers. Your brain now has two streams of language to process simultaneously. It's like trying to have two conversations at once. Your brain will involuntarily switch its attention to the lyrics, pulling focus away from your work.
+1. **The Language Conflict (Verbal Overload):** This is the biggest factor. If you are **reading, writing, or coding**, you are using the **verbal centers** of your brain. If you listen to music **with lyrics**, you are also engaging those same verbal centers. Your brain now has two streams of language to process simultaneously. It's like trying to have two conversations at once. Your brain will involuntarily switch its attention to the lyrics, pulling focus away from your work.
     - **Coding** involves "reading" code, which is a form of language processing. Lyrics can directly interfere with this.
     - **Learning/Reading** is pure language processing. Lyrics are highly disruptive.
 
-2.  **Novelty and Surprise:** Our brains are wired to pay attention to new and unexpected stimuli. When a new song starts, or when there's a change in tempo, rhythm, or a particularly catchy hook, your brain's attentional filter detects this novelty and briefly shifts focus to it. This creates a "micro-distraction" that breaks your concentration. It can take several minutes to get back to your previous level of focus after each interruption.
+2. **Novelty and Surprise:** Our brains are wired to pay attention to new and unexpected stimuli. When a new song starts, or when there's a change in tempo, rhythm, or a particularly catchy hook, your brain's attentional filter detects this novelty and briefly shifts focus to it. This creates a "micro-distraction" that breaks your concentration. It can take several minutes to get back to your previous level of focus after each interruption.
 
-3.  **Working Memory Overload:** Your working memory is the mental space where you hold and manipulate information. It has a limited capacity. Music, especially complex or engaging music, takes up some of that capacity. When you're doing hard, complex work, you need every bit of your working memory. The music then becomes cognitive "clutter" that makes the task feel harder.
+3. **Working Memory Overload:** Your working memory is the mental space where you hold and manipulate information. It has a limited capacity. Music, especially complex or engaging music, takes up some of that capacity. When you're doing hard, complex work, you need every bit of your working memory. The music then becomes cognitive "clutter" that makes the task feel harder.
 
 ### Strategies to Get the Best of Both Worlds
 
@@ -40,12 +40,12 @@ The goal isn't to decide if music is "good" or "bad," but to learn when and how 
 **1. Match the Music to the Task:**
 
 - **For High-Focus, Language-Heavy Tasks (Learning, Reading, Complex Coding):** This is when you need to minimize distraction.
-    - **Go Instrumental:** Listen to music without lyrics. This provides the mood-boosting and noise-masking benefits without the verbal conflict.
-        - **Genres:** Classical, ambient, lo-fi hip-hop (the "beats to study/relax to" genre), post-rock, jazz, video game soundtracks (specifically designed to be engaging but not distracting), or nature sounds.
-        - **Video game soundtracks are often perfect** because they are engineered to keep you in a game for hours without being distracting.
+  - **Go Instrumental:** Listen to music without lyrics. This provides the mood-boosting and noise-masking benefits without the verbal conflict.
+    - **Genres:** Classical, ambient, lo-fi hip-hop (the "beats to study/relax to" genre), post-rock, jazz, video game soundtracks (specifically designed to be engaging but not distracting), or nature sounds.
+    - **Video game soundtracks are often perfect** because they are engineered to keep you in a game for hours without being distracting.
 
 - **For Lower-Focus, Repetitive, or Boring Tasks (Data entry, organizing files, routine email, chores):**
-    - **Go with Familiar, Upbeat Music.** This is where you can enjoy your favorite pop, rock, or electronic music. Because the task doesn't require deep thought, the music helps with arousal and mood without significantly harming performance.
+  - **Go with Familiar, Upbeat Music.** This is where you can enjoy your favorite pop, rock, or electronic music. Because the task doesn't require deep thought, the music helps with arousal and mood without significantly harming performance.
 
 **2. Use Music Strategically, Not Constantly:**
 

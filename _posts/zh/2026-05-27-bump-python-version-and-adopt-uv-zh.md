@@ -36,17 +36,21 @@ type: note
 
 现在的运行方式：
 
-  # 全新克隆 + 安装
+# 全新克隆 + 安装
+
   uv sync          # 创建 .venv，根据 lockfile 安装依赖
   uv run ww note   # 通过 uv 运行任意命令
 
-  # 或作为全局工具安装
+# 或作为全局工具安装
+
   uv tool install -e .
 
-  # pip 仍然像以前一样可用
+# pip 仍然像以前一样可用
+
   pip install -e .
 
 关键说明：
+
 - uv sync 会尊重现有的 .venv/（如果存在），否则会创建新的
 - uv lock 锁定所有传递依赖，确保跨机器/CI 的可重复安装
 - CI 现在使用 astral-sh/setup-uv，自动缓存依赖——比 pip 快得多

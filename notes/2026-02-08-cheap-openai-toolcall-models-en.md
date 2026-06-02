@@ -25,6 +25,7 @@ I'll search for more affordable OpenAI model options that still support tool cal
 ## For Your config.toml
 
 For a custom provider setup prioritizing cost-efficiency with tool calling, I'd recommend:
+
 1. **GPT-4o Mini** for general-purpose tasks
 2. **GPT-4.1 Mini** if you need better instruction following
 3. **o3-Mini** for reasoning-heavy tasks on the tightest budget

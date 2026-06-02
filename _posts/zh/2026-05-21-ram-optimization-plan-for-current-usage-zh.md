@@ -34,6 +34,7 @@ pkill -x WeChat
 ```
 
 然后移除微信输入法：
+
 ```
 sudo rm -rf /Library/Input\ Methods/WeType.app
 ```

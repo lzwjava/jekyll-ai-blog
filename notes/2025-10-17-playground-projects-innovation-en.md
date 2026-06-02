@@ -15,6 +15,7 @@ Absolutely, you're spot on—having a "playground" project (or sandbox) is a gam
 Quick iteration *is* core to good software development—it's not just "doing anything." It fuels faster learning, catches edge cases early, and keeps momentum high in a team. Without it, you risk overthinking in isolation or polluting the main repo with half-baked ideas. In small teams, this setup also builds shared knowledge organically (e.g., "Hey, check this playground branch for that regex hack").
 
 ### Quick Tips to Make It Work
+
 - **Keep it lightweight**: Use a separate Git branch or repo (e.g., `my-project-playground`), with Jupyter notebooks or simple scripts for Python experiments.
 - **Integrate loosely**: Link it back to the main project via comments or a shared wiki—turn experiments into polished features when ready.
 - **Team buy-in**: Suggest it in standups as a "spike" for unfamiliar bits; tools like GitHub Codespaces or VS Code Live Share make it collaborative without overhead.

@@ -17,6 +17,7 @@ type: note
 ### **Step 1: 确认信息 (Confirm Information)**
 
 在申请毕业前，请登录系统并核实：
+
 - 姓名 (Name)
 - 性别 (Gender)
 - 身份证号码 (ID number)
@@ -26,6 +27,7 @@ type: note
 请务必在确认所有信息准确无误后再进行后续操作。
 
 **本科考生注意**：在申请毕业前，你还必须完成前置学历信息 (Prior academic credentials) 的登记：
+
 - 上半年：6月1日前完成登记
 - 下半年：12月1日前完成登记
 
@@ -34,12 +36,13 @@ type: note
 ### **Step 2: 申请毕业并采集毕业证照 (Apply for Graduation & Collect Graduation Photo)**
 
 **办理时间**：
+
 - **上半年**：6月中旬（通常为6月12-17日）
 - **下半年**：12月中旬（通常为12月12-17日）
 
 **流程**：
 
-1. **登录系统**：https://www.eeagd.edu.cn/selfec/
+1. **登录系统**：<https://www.eeagd.edu.cn/selfec/>
    - 点击“考生入口” (Student Entrance)
    - 进入毕业管理模块 (Graduation management module)
 
@@ -82,6 +85,7 @@ type: note
 **地点**：你所选择的当地市/区考办 (Local examination office)
 
 **需携带材料**：
+
 - 身份证原件及复印件 (ID card original and photocopy)
 - 打印好的《毕业生登记表》 (Graduate Registration Form)
 - 专业要求的其他特殊证明材料

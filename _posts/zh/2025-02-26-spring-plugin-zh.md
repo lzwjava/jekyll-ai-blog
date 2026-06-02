@@ -13,11 +13,13 @@ type: note
 ---
 
 ### **1. 确保项目是 Spring Boot 项目**
+
 在使用 `spring-boot-maven-plugin` 之前，请确认您的项目已设置为 Spring Boot 项目。这通常包括：
 
 - **继承 `spring-boot-starter-parent`（推荐）**：
   - 在 `pom.xml` 中将 `spring-boot-starter-parent` 设置为父项目，以管理 Spring Boot 依赖项和插件版本。
   - 示例：
+
     ```xml
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,6 +32,7 @@ type: note
 - **或者，使用 `spring-boot-dependencies` BOM（物料清单）**：
   - 如果无法使用 `spring-boot-starter-parent`，请在 `dependencyManagement` 部分导入 `spring-boot-dependencies` BOM。
   - 示例：
+
     ```xml
     <dependencyManagement>
         <dependencies>
@@ -49,11 +52,13 @@ type: note
 ---
 
 ### **2. 将 `spring-boot-maven-plugin` 添加到 `pom.xml`**
+
 要使用该插件，需要在 `pom.xml` 的 `<build><plugins>` 部分声明它。
 
 - **如果使用 `spring-boot-starter-parent`**：
   - 添加插件时无需指定版本，因为父项目已管理版本。
   - 示例：
+
     ```xml
     <build>
         <plugins>
@@ -68,6 +73,7 @@ type: note
 - **如果不使用 `spring-boot-starter-parent`**：
   - 明确指定版本，确保与使用的 Spring Boot 版本匹配。
   - 示例：
+
     ```xml
     <build>
         <plugins>
@@ -83,12 +89,14 @@ type: note
 ---
 
 ### **3. 使用插件目标**
+
 `spring-boot-maven-plugin` 提供了多个目标，帮助构建、运行和管理 Spring Boot 应用程序。以下是最常用的目标：
 
 - **`spring-boot:run`**
   - 使用嵌入式 Web 服务器（例如 Tomcat）直接从 Maven 运行 Spring Boot 应用程序。
   - 适用于开发和测试。
   - 命令：
+
     ```
     mvn spring-boot:run
     ```
@@ -97,10 +105,13 @@ type: note
   - 将 `mvn package` 生成的 JAR 或 WAR 文件重新打包为包含所有依赖项的可执行“fat JAR”或 WAR。
   - 如果配置了该插件，此目标会在 `package` 阶段自动执行。
   - 命令：
+
     ```
     mvn package
     ```
+
   - 运行后，可以使用以下命令启动应用程序：
+
     ```
     java -jar target/myapp.jar
     ```
@@ -108,6 +119,7 @@ type: note
 - **`spring-boot:start` 和 `spring-boot:stop`**
   - 用于集成测试，分别在 `pre-integration-test` 和 `post-integration-test` 阶段启动和停止应用程序。
   - 示例：
+
     ```
     mvn spring-boot:start
     mvn spring-boot:stop
@@ -117,6 +129,7 @@ type: note
   - 生成包含构建信息（例如构建时间、版本）的 `build-info.properties` 文件。
   - 该信息可以通过 Spring Boot 的 `BuildProperties` Bean 或 `@Value` 注解在应用程序中访问。
   - 命令：
+
     ```
     mvn spring-boot:build-info
     ```
@@ -124,11 +137,13 @@ type: note
 ---
 
 ### **4. 自定义插件配置（可选）**
+
 您可以通过在 `pom.xml` 中添加配置选项来自定义 `spring-boot-maven-plugin` 的行为。以下是一些常见的自定义配置：
 
 - **指定主类**：
   - 如果插件无法自动检测到主类，请手动指定。
   - 示例：
+
     ```xml
     <build>
         <plugins>
@@ -146,6 +161,7 @@ type: note
 - **从 Fat JAR 中排除依赖项**：
   - 排除由运行时环境（例如外部 servlet 容器）提供的依赖项。
   - 示例：
+
     ```xml
     <build>
         <plugins>
@@ -168,6 +184,7 @@ type: note
 - **设置应用程序参数**：
   - 配置在运行 `spring-boot:run` 时传递给应用程序的参数。
   - 在 `pom.xml` 中的示例：
+
     ```xml
     <build>
         <plugins>
@@ -183,17 +200,22 @@ type: note
         </plugins>
     </build>
     ```
+
   - 或者，通过命令行传递参数：
+
     ```
     mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8081
     ```
 
 - **构建 WAR 文件**：
   - 如果要构建 WAR 文件以部署到外部 servlet 容器，请确保在 `pom.xml` 中将项目打包方式设置为 `war`：
+
     ```xml
     <packaging>war</packaging>
     ```
+
   - 如果环境提供了嵌入式 servlet 容器（例如 Tomcat），可能需要排除它们。将以下依赖项添加为 `provided`：
+
     ```xml
     <dependencies>
         <dependency>
@@ -207,6 +229,7 @@ type: note
 ---
 
 ### **5. 关键注意事项**
+
 - **默认行为**：
   - 当运行 `mvn package` 时，插件会在 `package` 阶段自动重新打包 JAR/WAR，使其可执行。
   - 重新打包后的工件是主要工件，原始 JAR/WAR 会附加分类器（例如 `original`）。
@@ -221,7 +244,9 @@ type: note
 ---
 
 ### **总结**
+
 要使用 `spring-boot-maven-plugin`：
+
 1. 确保您的项目是 Spring Boot 项目，通常通过继承 `spring-boot-starter-parent` 或使用 `spring-boot-dependencies` BOM 实现。
 2. 将插件添加到 `pom.xml` 的 `<build><plugins>` 部分。
 3. 使用 Maven 命令，例如：

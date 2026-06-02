@@ -28,6 +28,6 @@ Zed stands out in a crowded field of editors (like VS Code or Vim) due to its fo
 
 Overall, Zed is minimalistic yet powerful, avoiding bloat while pushing boundaries in speed and AI—ideal for developers who want a modern, future-proof tool without the overhead of heavier editors.
 
-[ Zed Official Site](https://zed.dev/)
-[ Zed on Wikipedia](https://en.wikipedia.org/wiki/Zed_%28text_editor%29)
-[ Zed GitHub Repository](https://github.com/zed-industries/zed)
+[Zed Official Site](https://zed.dev/)
+[Zed on Wikipedia](https://en.wikipedia.org/wiki/Zed_%28text_editor%29)
+[Zed GitHub Repository](https://github.com/zed-industries/zed)

@@ -15,13 +15,15 @@ Answer:
 
 Yes, you're right — using the command line (terminal/SSH) is generally the better and more reliable approach for running long training jobs, while keeping OpenClaw (or similar IDE/web UI) mainly for code editing and quick experiments.
 
-### Why command line is preferred for training:
+### Why command line is preferred for training
 
 - **Better process control**: You can easily start training with `nohup`, `screen`, or `tmux` so the process keeps running even if your connection drops or you close the terminal.
   Example basic command:
+
   ```
   nohup python train.py --seq_len 512 > training.log 2>&1 &
   ```
+
   Or better, use **tmux** (recommended for long runs):
   - Create a new session: `tmux new -s training`
   - Run your training command inside tmux
@@ -38,7 +40,7 @@ Yes, you're right — using the command line (terminal/SSH) is generally the bet
 
 - **Resource management**: Command line gives you direct access to environment variables, CUDA settings, and precise control over batch size, sequence length (good that you reduced it to 512 to fix OOM), etc.
 
-### Recommended workflow:
+### Recommended workflow
 
 1. **Use OpenClaw** for:
    - Editing code
@@ -50,7 +52,8 @@ Yes, you're right — using the command line (terminal/SSH) is generally the bet
    - Monitoring with tools like `htop`, `nvidia-smi`, `tensorboard` (if used)
    - Running background jobs safely
 
-### Quick tips after your OOM fix:
+### Quick tips after your OOM fix
+
 - Confirm the sequence length change is applied (double-check config or argparse in your script).
 - Start with a small test run on command line first to verify stability with 512 tokens.
 - Consider adding checkpoint saving every N steps so you can resume if needed.

@@ -59,13 +59,13 @@ The high rate of glasses among young children you've observed is indeed a reflec
 
 **References:**
 
-- https://link.springer.com/article/10.1186/s12889-025-24903-6
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC11808669/
-- https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(25)00021-5/fulltext
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6941318/
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC10912377/
-- https://link.springer.com/article/10.1007/s40123-024-00887-1
-- https://journals.sagepub.com/doi/10.1177/00315125241230764
-- https://www.nature.com/articles/s41598-024-68076-5
-- https://www.sciencedirect.com/science/article/pii/S2666606525001142
-- https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(25)00114-2/fulltext
+- <https://link.springer.com/article/10.1186/s12889-025-24903-6>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC11808669/>
+- <https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(25)00021-5/fulltext>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC6941318/>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC10912377/>
+- <https://link.springer.com/article/10.1007/s40123-024-00887-1>
+- <https://journals.sagepub.com/doi/10.1177/00315125241230764>
+- <https://www.nature.com/articles/s41598-024-68076-5>
+- <https://www.sciencedirect.com/science/article/pii/S2666606525001142>
+- <https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(25)00114-2/fulltext>

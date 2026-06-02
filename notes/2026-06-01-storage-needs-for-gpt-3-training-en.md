@@ -23,6 +23,7 @@ bfloat16: 175B × 2 bytes = 350GB per checkpoint
 ```
 
 With AdamW optimizer states (float32 master copy + moments):
+
 ```
 float32 master weights:  700GB
 gradients:               700GB
@@ -41,6 +42,7 @@ GPT-3 fp16:     350GB minimum (weights alone)
 ```
 
 Even with model parallelism across multiple MI300X, a single droplet won't cut it. True GPT-3 training requires:
+
 - 800-1000x A100 80GB (as OpenAI used)
 - Or ~50x MI300X with tensor+pipeline parallelism
 

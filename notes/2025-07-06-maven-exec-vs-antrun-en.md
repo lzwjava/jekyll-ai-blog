@@ -16,10 +16,12 @@ Here's a comparison:
 
 **Purpose:**
 The `maven-exec-plugin` is primarily designed for executing Java applications or external system commands/scripts. It offers two main goals:
+
 * `exec:java`: Executes a Java main class within the same JVM as Maven. This is useful for running utilities, code generators, or simple Java applications directly as part of your build without needing to create a JAR first.
 * `exec:exec`: Executes an external program or script (e.g., a shell script, Python script, or any executable in your system's PATH) in a separate process.
 
 **Key Features:**
+
 * **Java Execution:** Easily run Java main classes with configurable classpath, arguments, and system properties.
 * **External Command Execution:** Run any command-line executable.
 * **Environment Variables:** Configure environment variables for the executed process.
@@ -28,6 +30,7 @@ The `maven-exec-plugin` is primarily designed for executing Java applications or
 * **Classpath Control:** Offers options to manage the classpath for Java executions, including adding project dependencies.
 
 **When to use `maven-exec-plugin`:**
+
 * You need to run a Java main class as part of your build process (e.g., a custom code generator written in Java, a utility to prepare data, or a small test runner).
 * You need to execute an external command or script that is readily available on the system where the build is running (e.g., `npm install`, `python your_script.py`, `sh cleanup.sh`).
 * You want to integrate a simple, single command or a Java application into a specific Maven lifecycle phase.
@@ -39,12 +42,14 @@ The `maven-exec-plugin` is primarily designed for executing Java applications or
 The `maven-antrun-plugin` allows you to run Ant tasks directly from your Maven POM. This is particularly useful when you have existing Ant build logic that you want to reuse within a Maven project, or when Maven's native capabilities don't directly support a specific build step that Ant can handle easily.
 
 **Key Features:**
+
 * **Ant Integration:** Embed Ant tasks directly within your `pom.xml` or reference existing `build.xml` files.
 * **Rich Task Library:** Access to the extensive Ant task library, which includes tasks for file manipulation (copy, delete, move), directory creation, archiving (zip, jar), executing commands, compiling, and more.
 * **Flexibility:** Ant's declarative nature and vast task collection provide significant flexibility for complex build operations.
 * **Properties and Classpath:** Ant tasks can access Maven project properties and the project's classpath (compile, runtime, test, plugin scopes).
 
 **When to use `maven-antrun-plugin`:**
+
 * You are migrating a legacy project from Ant to Maven and want to gradually incorporate existing Ant build logic without a full rewrite.
 * You need to perform complex file system operations (e.g., precise file copying, filtering, or deletion based on patterns) that are more cumbersome to achieve with Maven's standard plugins.
 * You require a specific build step that is easily accomplished with an Ant task but doesn't have a direct Maven equivalent or is poorly supported by other Maven plugins.

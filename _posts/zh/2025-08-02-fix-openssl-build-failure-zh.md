@@ -40,6 +40,7 @@ type: note
    [dependencies]
    openssl = { version = "0.10", features = ["vendored"] }
    ```
+
 2. 然后重新构建：
 
    ```bash

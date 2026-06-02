@@ -23,11 +23,13 @@ type: note
 **对于你的 GPU droplet，你需要：**
 
 1. **复制准备好的数据：**
+
    ```bash
    scp -r root@159.89.216.20:/root/nanoGPT/data/fineweb ./data/
    ```
 
 2. **复制完整的 nanoGPT 代码：**
+
    ```bash
    scp -r root@159.89.216.20:/root/nanoGPT/* ./
    ```
@@ -35,6 +37,7 @@ type: note
 3. **使用真实的训练配置** (`config/train_fineweb.py`)，带有 GPU settings — 更大的 batch size，合适的模型 (125M params)，`compile=True` 等。
 
 4. **在 GPU droplet 上，使用以下命令训练：**
+
    ```bash
    python train.py config/train_fineweb.py
    ```

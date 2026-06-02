@@ -25,6 +25,7 @@ GPG（GNU隐私卫士）是一款用于安全通信的开源工具，主要通�
 ### 代码层面是否存在重叠？
 
 GPG与比特币核心实现之间不存在显著的直接代码重叠：
+
 - 比特币核心采用C++编写，使用自研的优化加密库libsecp256k1处理椭圆曲线运算，并通过SHA-256等哈希算法（旧版依赖OpenSSL，现已模块化）。其代码既不依赖也未包含GPG/Libgcrypt组件。
 - GPG则依赖自有加密后端Libgcrypt实现哈希、加密和ECC支持等基础功能。虽然两个项目都实现了相同标准（如ECDSA、SHA-256），但它们的代码库相互独立——不存在共享模块、分叉或直接引用。
 
@@ -33,6 +34,7 @@ GPG与比特币核心实现之间不存在显著的直接代码重叠：
 总而言之，二者的关系更接近于隐私保护工作流中的互补工具，而非代码层面的交织。若想通过GPG生成比特币兼容密钥，可使用`gpg --expert --full-generate-key`命令并选择ECC选项开始操作。
 
 ### 参考资料
+
 - [PGP与比特币的融合](https://coingeek.com/pgp-meets-bitcoin/)
 - [能否将PGP密钥用作比特币地址？](https://bitcoin.stackexchange.com/questions/18174/is-it-possible-to-use-a-pgp-key-as-a-bitcoin-address)
 - [比特币核心下载与验证指南](https://bitcoincore.org/en/download/)

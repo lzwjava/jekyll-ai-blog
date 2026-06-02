@@ -89,7 +89,7 @@ That specific phrase strongly suggests:
 * progress is written to stdout or a log file
 * the monitor is attached via:
 
-### Linux-style implementation:
+### Linux-style implementation
 
 ```bash
 tail -f download.log
@@ -123,6 +123,7 @@ The monitor stops when it detects:
   ```
   INSTALL COMPLETE
   ```
+
 * or checksum verification passes
 
 So internally:

@@ -12,16 +12,16 @@ The Singapore Medical Council (SMC), a statutory board under the Ministry of Hea
 
 As of the information available from the Singapore Medical Council's list of registrable basic medical qualifications, here are four recognized medical schools in China:
 
-1.  **Peking University Health Science Centre (PUHSC)**
+1. **Peking University Health Science Centre (PUHSC)**
     * Recognized qualifications: Master of Medicine, Doctor of Medicine
     * Year of addition to the list: 2009
-2.  **Fudan University, Shanghai Medical College**
+2. **Fudan University, Shanghai Medical College**
     * Recognized qualification: Doctor of Medicine
     * Year of addition to the list: 2009
-3.  **Tsinghua University, Peking Union Medical College (PUMC)**
+3. **Tsinghua University, Peking Union Medical College (PUMC)**
     * Recognized qualification: Doctor of Medicine
     * Year of addition to the list: 2009
-4.  **Shanghai Jiao Tong University School of Medicine**
+4. **Shanghai Jiao Tong University School of Medicine**
     * Recognized qualification: Doctor of Medicine
     * Year of addition to the list: 2009
 

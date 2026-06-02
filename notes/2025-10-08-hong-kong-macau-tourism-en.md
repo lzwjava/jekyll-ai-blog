@@ -12,7 +12,8 @@ type: note
 
 Yes, for Mainland China residents applying for HK and Macau endorsements (港澳签注) on the Exit-Entry Permit for Travelling to and from Hong Kong and Macao (commonly called the "Home Return Permit"), the options for personal tourism (G-type visa) include shorter single-entry versions like 3 months single or 1 year single, alongside double-entry (up to twice) or multiple-entry options where available. Most people do indeed prefer the longer or multiple-entry ones for convenience, as they allow more flexibility without needing to reapply as often—especially the 1-year multiple-entry endorsement in eligible pilot cities (like Guangzhou), which has no entry limit within the year and costs just 80 RMB.
 
-### Quick Breakdown of Tourism Endorsement Options (Personal/G-Type):
+### Quick Breakdown of Tourism Endorsement Options (Personal/G-Type)
+
 - **Hong Kong**:
   - 3 months single: Valid for 3 months, 1 entry, stay ≤7 days per visit.
   - 3 months double: Valid for 3 months, 2 entries, stay ≤7 days per visit.

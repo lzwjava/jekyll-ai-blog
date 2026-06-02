@@ -12,6 +12,7 @@ type: note
 很好的问题！这里有一些自然视力恢复工具的 App 名称想法：
 
 **专业/科学类：**
+
 - **VisionRestore** - 简洁、直接、听起来像医疗的
 - **ClearSight** - 暗示改善和清晰
 - **MyopiaReverse** - 描述性强，便于搜索
@@ -19,6 +20,7 @@ type: note
 - **PrescriptionTaper** - 技术性强但准确
 
 **用户友好类：**
+
 - **JustClear** - 参考文章中的“Just Barely Clear”原则
 - **EyeEase** - 友好，暗示舒适
 - **FocusGradual** - 暗示缓慢、稳定的进步
@@ -26,6 +28,7 @@ type: note
 - **SeeBetter** - 积极、行动导向
 
 **项目名称（用于 GitHub/开发）：**
+
 - `vision-restoration`
 - `myopia-reversal`
 - `just-clear-app`

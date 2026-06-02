@@ -22,6 +22,7 @@ type: note
   ```
   POST https://github.com/login/device/code
   ```
+
 * 同时传递 Copilot 专属的 **client_id**
 * GitHub 返回包含以下字段的响应：
   * `device_code`（用于轮询的内部代码）
@@ -38,6 +39,7 @@ type: note
   ```
   POST https://github.com/login/oauth/access_token
   ```
+
 * 请求携带 `device_code` 和 `client_id`
 * 当用户在浏览器完成授权后，GitHub 返回：
   * `access_token`（用于 Copilot 的 GitHub OAuth 令牌）
@@ -57,7 +59,9 @@ type: note
   POST https://api.github.com/copilot_internal/v2/token
   Authorization: Bearer <GitHub OAuth access_token>
   ```
+
 * 响应格式为：
+
   ```json
   {
     "token": "<copilot_internal token>",
@@ -65,6 +69,7 @@ type: note
     "user": { ... }
   }
   ```
+
 * 这个 **`copilot_internal` v2 令牌**才是客户端与 **Copilot 推理服务**（如 `https://copilot-proxy.githubusercontent.com`）通信时使用的凭证
 
 ---
@@ -76,6 +81,7 @@ type: note
   ```
   Authorization: Bearer <copilot_internal token>
   ```
+
 * 该令牌有效期较短（通常约 1 小时），且与 GitHub 账户及 Copilot 订阅状态绑定
 * 客户端通过重新兑换 GitHub OAuth 访问令牌进行定期刷新
 

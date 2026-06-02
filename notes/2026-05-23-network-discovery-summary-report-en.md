@@ -60,7 +60,6 @@ Step 6 - Elimination
   .49 is unreachable -> likely asleep
   .20 is responsive -> most likely the other Mac
 
-
 RESULTS
 =======
 
@@ -78,17 +77,17 @@ RESULTS
   192.168.1.53    Active       Unknown             XX:XX:XX:AA:E1:0E
   192.168.1.54    Active       Unknown             XX:XX:XX:A2:3F:9D
 
-
 VERDICT
 =======
 
   Your other Mac is most likely: 192.168.1.20
 
   Evidence:
-  - Apple OUI (manufacturer = Apple Inc.)
-  - Responsive to ARP (powered on, connected to WiFi)
-  - No open ports (consistent with macOS default firewall)
-  - Not a known device (not router, not workstation, not this Mac)
+
+- Apple OUI (manufacturer = Apple Inc.)
+- Responsive to ARP (powered on, connected to WiFi)
+- No open ports (consistent with macOS default firewall)
+- Not a known device (not router, not workstation, not this Mac)
 
   Alternative: 192.168.1.49 is also Apple but unreachable
   (possibly asleep or using randomized MAC that rotated).

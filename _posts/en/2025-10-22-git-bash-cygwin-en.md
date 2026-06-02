@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Git Bash and Cygwin are both tools that bring a Unix-like shell experience to Windows, allowing users to run bash commands and Unix tools. However, they serve different needs: Git Bash is a lightweight option bundled with Git for Windows, ideal for version control and basic scripting, while Cygwin is a more robust POSIX compatibility layer for running a wider range of Unix software on Windows.
 
 ### Key Differences
@@ -30,6 +31,7 @@ Git Bash and Cygwin are both tools that bring a Unix-like shell experience to Wi
 In summary, choose Git Bash if you want something simple and Git-focused without much setup. Opt for Cygwin if you need a deeper Unix emulation for advanced development or legacy tools.
 
 ### References
+
 - [Git Bash vs Cygwin vs WSL (Reddit discussion)](https://www.reddit.com/r/git/comments/fkpjou/windows_git_bash_vs_cygwin_vs_windows_subsystem/)
 - [Can Git Bash and Cygwin do the same things? (Super User)](https://superuser.com/questions/1191805/can-git-bash-and-cygwin-shell-do-the-same-things)
 - [Why Git Bash is more popular than Cygwin (Hacker News)](https://news.ycombinator.com/item?id=30222001)

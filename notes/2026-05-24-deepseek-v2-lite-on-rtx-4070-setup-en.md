@@ -36,6 +36,7 @@ Already had: torch 2.6.0, transformers 4.48.3, safetensors 0.5.2.
 First tried HF mirror (`hf-mirror.com`) for speed — failed with `LocalEntryNotFoundError`. Fell back to direct HuggingFace.
 
 Download ran in background, took ~35 minutes for 30GB:
+
 - 4 safetensor shards (8.1GB ×3 + 5.3GB ×1)
 - Plus tokenizer, config, modeling code (~15 small files)
 - Speed: ~1 GB/min sustained

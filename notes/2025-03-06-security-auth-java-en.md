@@ -13,6 +13,7 @@ To use the `javax.security.auth` package in Java, you need to understand that it
 ---
 
 ### **Overview of Key Concepts**
+
 Before diving into the steps, here’s a brief explanation of the core components in `javax.security.auth`:
 
 - **Subject**: Represents an entity (e.g., a user or service) being authenticated. It can have multiple identities (Principals) and credentials (e.g., passwords or certificates).
@@ -29,6 +30,7 @@ With these concepts in mind, let’s explore how to use the package.
 ### **Steps to Use `javax.security.auth`**
 
 #### **1. Set Up a JAAS Configuration**
+
 The authentication process relies on a configuration that specifies which `LoginModule`(s) to use. This can be defined in a configuration file or programmatically.
 
 For example, create a file named `jaas.config` with the following content:
@@ -52,6 +54,7 @@ System.setProperty("java.security.auth.login.config", "jaas.config");
 Alternatively, you can set the configuration programmatically, but a file is simpler for most cases.
 
 #### **2. Implement a CallbackHandler**
+
 A `CallbackHandler` collects input from the user, such as a username and password. Here’s a simple implementation using the console:
 
 ```java
@@ -81,6 +84,7 @@ public class MyCallbackHandler implements CallbackHandler {
 - **PasswordCallback**: Prompts for and retrieves the password (stored as a `char[]` for security).
 
 #### **3. Implement a LoginModule**
+
 A `LoginModule` defines the authentication logic. Below is a basic example that checks against a hardcoded username and password (in practice, you’d use a database or external service):
 
 ```java
@@ -173,6 +177,7 @@ class MyPrincipal implements Principal {
 - **abort()** and **logout()**: Handle cleanup or cancellation.
 
 #### **4. Authenticate Using LoginContext**
+
 Now, use `LoginContext` to perform the authentication in your main application:
 
 ```java
@@ -214,6 +219,7 @@ public class Main {
 - **`lc.getSubject()`**: Retrieves the authenticated `Subject`.
 
 #### **5. Perform Authorized Actions (Optional)**
+
 Once authenticated, you can use the `Subject` to execute code with its privileges using `Subject.doAs()`:
 
 ```java
@@ -233,6 +239,7 @@ This is useful for authorization, where actions are restricted based on the `Sub
 ---
 
 ### **Putting It All Together**
+
 1. **Configuration**: Define `jaas.config` with your `LoginModule`.
 2. **CallbackHandler**: Implement `MyCallbackHandler` to collect user input.
 3. **LoginModule**: Implement `MyLoginModule` with your authentication logic.
@@ -240,6 +247,7 @@ This is useful for authorization, where actions are restricted based on the `Sub
 5. **Authorization**: Use `Subject.doAs()` for privileged actions if needed.
 
 When you run the `Main` class, it will:
+
 - Prompt for a username and password.
 - Authenticate using `MyLoginModule`.
 - Print the `Subject` and its `Principals` if successful.
@@ -247,6 +255,7 @@ When you run the `Main` class, it will:
 ---
 
 ### **Additional Notes**
+
 - **Real-World Usage**: Replace hardcoded credentials in `MyLoginModule` with checks against a database, LDAP, or another service. Java provides standard modules like `Krb5LoginModule` (Kerberos) or `JndiLoginModule` (LDAP), but they may require additional setup.
 - **Multiple LoginModules**: The configuration can specify multiple modules with flags (`required`, `sufficient`, etc.) to create complex authentication flows.
 - **Security**: Use secure practices, such as avoiding `String` for passwords (use `char[]`) and integrating with existing security frameworks.

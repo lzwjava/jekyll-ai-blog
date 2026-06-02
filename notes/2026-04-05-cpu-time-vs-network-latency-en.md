@@ -13,7 +13,7 @@ Question: Does 54ms or 10ms represent an enormous amount of time from a CPU inst
 
 Answer:
 
-## Yes — Absolutely Enormous. Here's the Scale:
+## Yes — Absolutely Enormous. Here's the Scale
 
 The gap between **network latency** and **CPU execution speed** is one of the most staggering mismatches in all of computing.
 
@@ -42,6 +42,7 @@ At 3 GHz, in **10 milliseconds** a single CPU core executes approximately:
 > **30,000,000 clock cycles**
 
 In practical terms, a modern CPU can execute:
+
 - A **simple instruction** (add, compare, branch) in 1 cycle
 - A **complex algorithm** (sorting 1 million numbers) in a few milliseconds
 - An **entire trading strategy calculation** — signal detection, risk check, order sizing — in **under 1 microsecond** on optimized code
@@ -71,10 +72,12 @@ The CPU is essentially **instant** relative to the network. This is why:
 ## The Memory Hierarchy Makes It Worse
 
 Even **RAM access** at ~100ns is:
+
 - 100x slower than L1 cache
 - But still **100,000x faster** than a 10ms network hop
 
 This is why HFT systems:
+
 - Keep all critical data in **L1/L2 cache** (pre-loaded, never touching disk)
 - Use **kernel bypass networking** (DPDK, RDMA) to cut OS overhead from ~50 microseconds to ~1 microsecond
 - Use **FPGA hardware** to process market data in nanoseconds, bypassing the CPU entirely
@@ -88,6 +91,7 @@ The 54ms vs 10ms difference (NY→Tokyo vs colocated Tokyo) represents:
 > **~132,000,000 CPU cycles wasted per order round-trip**
 
 A competitor colocated in Tokyo who is 44ms faster than you has already:
+
 - Received the fill confirmation
 - Updated their risk model
 - Potentially sent a **second order** to hedge or follow up

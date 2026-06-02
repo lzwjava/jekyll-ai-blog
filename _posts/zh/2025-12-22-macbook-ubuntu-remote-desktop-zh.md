@@ -21,16 +21,17 @@ MacBook（包括 M2 Air）不支持通过电缆作为物理外部显示器（没
 以下是从 macOS 客户端到 Ubuntu 主机实现低延迟图形远程桌面的最佳选择：
 
 ### 推荐：Sunshine + Moonlight (性能最佳)
+
 这种组合专为低延迟流媒体设计（最初用于游戏，但非常适合桌面使用）。它利用您的 RTX 4070 GPU 进行硬件编码，提供最流畅的体验。
 
 - **在 Ubuntu PC (主机) 上**：
   - 安装 **Sunshine** (开源服务器)。
-  - 遵循官方指南：从 https://github.com/LizardByte/Sunshine 下载 Debian 包或使用 AppImage/Flatpak。
+  - 遵循官方指南：从 <https://github.com/LizardByte/Sunshine> 下载 Debian 包或使用 AppImage/Flatpak。
   - Sunshine 包含一个内置的“Desktop”应用程序，用于流式传输整个 Ubuntu 桌面（无需启动游戏）。
   - 将其作为服务运行，用于自动启动。
 
 - **在 MacBook Air M2 (客户端) 上**：
-  - 从 https://moonlight-stream.org 或 Mac App Store (Moonlight 应用程序) 安装 **Moonlight** (开源客户端)。
+  - 从 <https://moonlight-stream.org> 或 Mac App Store (Moonlight 应用程序) 安装 **Moonlight** (开源客户端)。
   - 在本地网络上与您的 PC 配对。
   - 选择“Desktop”条目并以全屏模式进行流式传输。
 
@@ -44,6 +45,7 @@ MacBook（包括 M2 Air）不支持通过电缆作为物理外部显示器（没
 这非常适合您的*高端 PC* 和*卧室使用*。
 
 ### 简单替代方案：内置 Ubuntu 远程桌面 (RDP 协议)
+
 Ubuntu 22.04+ 内置的 RDP 支持非常出色（优于 VNC）。
 
 - **在 Ubuntu PC 上**：
@@ -64,12 +66,14 @@ Ubuntu 22.04+ 内置的 RDP 支持非常出色（优于 VNC）。
   - macOS 上的原生体验。
 
 ### 其他选项
-- **NoMachine**：非常快速和可靠。在 Ubuntu 上安装服务器，在 Mac 上安装客户端（个人使用免费）。从 https://www.nomachine.com 下载。
+
+- **NoMachine**：非常快速和可靠。在 Ubuntu 上安装服务器，在 Mac 上安装客户端（个人使用免费）。从 <https://www.nomachine.com> 下载。
 - **RustDesk**：TeamViewer 的开源替代品，低延迟，设置简单。跨平台工作良好。
 
 避免使用经典的 VNC（例如 Ubuntu 较旧的屏幕共享）——它的延迟高于上述方法。
 
 ### 获得最佳体验的技巧
+
 - 将两台设备连接到同一个快速 Wi-Fi (5GHz) 或使用以太网适配器以获得更低的延迟。
 - 在客户端上，启用全屏模式和高比特率/质量设置。
 - 确保您的 Ubuntu PC 已登录（或设置自动登录）以实现无缝访问。
@@ -79,7 +83,7 @@ Sunshine + Moonlight 将为您提供最接近“仅仅是一个显示器”的�
 
 参考资料：
 
-- https://github.com/LizardByte/Sunshine
-- https://moonlight-stream.org
-- https://www.nomachine.com
-- https://ubuntu.com/tutorials/access-remote-desktop
+- <https://github.com/LizardByte/Sunshine>
+- <https://moonlight-stream.org>
+- <https://www.nomachine.com>
+- <https://ubuntu.com/tutorials/access-remote-desktop>

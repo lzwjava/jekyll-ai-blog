@@ -31,17 +31,20 @@ The npm link command creates a symbolic link between your local package and a pr
    ```
 
 2. **Install dependencies and build**:
+
    ```bash
    npm install
    npm run build  # Check package.json for the build script
    ```
 
 3. **Create the global link** in the package directory:
+
    ```bash
    npm link
    ```
 
 4. **Link to your project**: In your main project directory:
+
    ```bash
    npm link form-data
    ```
@@ -49,6 +52,7 @@ The npm link command creates a symbolic link between your local package and a pr
 5. **Make changes**: Edit the code in the forked package and test immediately.
 
 6. **Clean up when done**:
+
    ```bash
    npm unlink form-data      # in your main project
    npm unlink                 # in the package directory
@@ -67,6 +71,7 @@ You can point to a local folder directly using relative paths:
 ```
 
 Then run:
+
 ```bash
 npm install
 ```
@@ -75,9 +80,10 @@ This creates a link to the actual folder inside node_modules and saves you addit
 
 ## Method 3: GitHub URL with Branch Pointer
 
-Instead of using the github url of the fork of the library, include the branch you were working on, for example: yarn upgrade form-data@https://github.com/yourname/form-data.git#your-branch-name.
+Instead of using the github url of the fork of the library, include the branch you were working on, for example: yarn upgrade form-data@<https://github.com/yourname/form-data.git#your-branch-name>.
 
 In package.json:
+
 ```json
 {
   "dependencies": {
@@ -126,13 +132,13 @@ To ensure the package works correctly, all build files within the forked repo mu
 
 **References:**
 
-- https://schalkneethling.com/posts/using-npm-link-for-local-package-development/
-- https://medium.com/@ruben.alapont/npm-link-developing-and-testing-local-npm-packages-b50a32b50c4a
-- https://teambrookvale.com.au/articles/modifying-npm-packages-the-right-way
-- https://www.pluralsight.com/resources/blog/guides/how-to-use-forked-npm-dependencies
-- https://medium.com/@chrisdmasters/how-to-fork-a-dependency-and-use-it-locally-in-a-project-707c80d3449c
-- https://dev.to/one-beyond/different-approaches-to-testing-your-own-packages-locally-npm-link-4hoj
-- https://maecapozzi.com/blog/how-to-locally-test-an-npm-package
-- https://dev.to/azophy/how-to-edit-replace-npm-package-dependency-1b5e
-- https://nickconfrey.medium.com/how-to-edit-a-node-module-locally-1cb8d3530d78
-- http://debuggable.com/posts/how-to-fork-patch-npm-modules:4e2eb9f3-e584-44be-b1a9-3db7cbdd56cb
+- <https://schalkneethling.com/posts/using-npm-link-for-local-package-development/>
+- <https://medium.com/@ruben.alapont/npm-link-developing-and-testing-local-npm-packages-b50a32b50c4a>
+- <https://teambrookvale.com.au/articles/modifying-npm-packages-the-right-way>
+- <https://www.pluralsight.com/resources/blog/guides/how-to-use-forked-npm-dependencies>
+- <https://medium.com/@chrisdmasters/how-to-fork-a-dependency-and-use-it-locally-in-a-project-707c80d3449c>
+- <https://dev.to/one-beyond/different-approaches-to-testing-your-own-packages-locally-npm-link-4hoj>
+- <https://maecapozzi.com/blog/how-to-locally-test-an-npm-package>
+- <https://dev.to/azophy/how-to-edit-replace-npm-package-dependency-1b5e>
+- <https://nickconfrey.medium.com/how-to-edit-a-node-module-locally-1cb8d3530d78>
+- <http://debuggable.com/posts/how-to-fork-patch-npm-modules:4e2eb9f3-e584-44be-b1a9-3db7cbdd56cb>

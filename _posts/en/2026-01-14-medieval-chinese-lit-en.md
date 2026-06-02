@@ -17,6 +17,7 @@ Answer:
 Here are comprehensive introductions to these five major figures in Chinese literary history, focusing on their lives, contributions to poetry and prose, key themes, and lasting influence during the relevant periods (Jin for Tao Yuanming; Tang for Li Bai, Du Fu, and Han Yu; Song for Su Shi).
 
 ### 5. Tao Yuanming (陶渊明, 365–427 CE)
+
 Tao Yuanming, also known as Tao Qian (陶潜), was a poet and minor official during the Eastern Jin dynasty (a period often grouped with the broader Six Dynasties era leading into medieval times). He is widely regarded as the pioneer of **pastoral poetry** (tianyuan shi, or "fields and gardens poetry") and the foremost representative of reclusive, nature-oriented verse in Chinese literature.
 
 After brief and unsatisfactory stints in government service—marked by disillusionment with political corruption and social chaos—Tao retired around age 41 to a rural life of farming near Lushan (Mount Lu) in modern Jiangxi province. He lived simply with his family, supporting himself through agriculture despite frequent hardships like poverty and food shortages.
@@ -26,6 +27,7 @@ His poetry emphasizes themes of **reclusion**, harmony with nature, contentment 
 Tao's style is spare, limpid, direct, and natural, avoiding ornate language or allusions common in his era. Though not fully appreciated in his time (due to preferences for elaborate styles), he gained immense admiration from the Tang onward—Su Shi, for example, wrote matching poems—and influenced later landscape and hermit poetry. He is celebrated for embodying authenticity, spontaneity, and the joy of a cultivated rural life.
 
 ### 6. Li Bai (李白, 701–762 CE)
+
 Li Bai, courtesy name Taibai and often called the "Poet Immortal" (Shixian) or "Banished Immortal," was one of the greatest Tang dynasty poets during the High Tang golden age of poetry. A wandering, romantic figure, he traveled extensively across China, rarely holding stable official posts despite brief service at Emperor Xuanzong's court.
 
 Influenced by Daoism, Li Bai's poetry bursts with vivid imagery of nature (mountains, rivers, moon), wine, freedom, transcendence, and heroic abandon. He celebrated spontaneity, immortality-seeking, and ecstatic experiences—often through drinking (earning the nickname "Wine Immortal"). Iconic works include "Drinking Alone Beneath the Moon," "Quiet Night Thoughts," and grand yuefu-style ballads like "The Road to Shu Is Hard."
@@ -33,6 +35,7 @@ Influenced by Daoism, Li Bai's poetry bursts with vivid imagery of nature (mount
 His style is exuberant, imaginative, and musical, blending old forms like gushi (ancient-style verse) with innovative flair. Li Bai's romanticism contrasts with more grounded contemporaries; he viewed himself as a transcendent spirit exiled to earth. With around 1,100 surviving poems, he remains a symbol of poetic genius and liberation. His influence spans centuries, inspiring Mao Zedong and modern readers, and he is paired with Du Fu as one of China's two supreme poets.
 
 ### 7. Du Fu (杜甫, 712–770 CE)
+
 Du Fu, known as the "Poet Sage" (Shisheng) or "Poet-Historian," was another Tang giant, often ranked alongside (or even above) Li Bai for depth and moral seriousness. Born into an aristocratic family, he struggled with poverty, failed civil exams, and the chaos of the An Lushan Rebellion (755–763), which devastated the Tang empire.
 
 Du Fu's early poems were confident, but his mature work reflects realism, social critique, compassion for the suffering (soldiers, civilians, the poor), and patriotic grief amid war, famine, and corruption. Famous series include "Three Officials" and "Three Partings" (depicting conscription horrors), "A Spring View," and "My Thatched Hut Wrecked by the Autumn Wind."
@@ -40,6 +43,7 @@ Du Fu's early poems were confident, but his mature work reflects realism, social
 He mastered regulated verse (lüshi) and innovated by broadening poetry's scope to include personal hardship, family life, everyday events, and historical commentary—earning the label "poetic history" (shishi). His style is technically precise, emotionally profound, and morally engaged, rooted in Confucianism. With nearly 1,500 surviving poems, Du Fu's influence on later poetry (including Song writers) is immense; he is seen as the epitome of humane, socially conscious verse.
 
 ### 8. Han Yu (韩愈, 768–824 CE)
+
 Han Yu (courtesy name Tuizhi) was a late Tang essayist, poet, and Confucian thinker who led the **Ancient Prose Movement** (Guwen Yundong). Amid Tang decline and Buddhist/Daoist dominance, he advocated reviving classical prose (guwen) modeled on pre-Han and early Han writers—clear, concise, logical, and argumentative—over the ornate, parallel prose (pianwen) then fashionable.
 
 Han Yu's essays, like "On the Way" (Yuan Dao), fiercely defended Confucianism against Buddhism (famously criticizing emperor worship of relics) and promoted moral cultivation, centralized authority, and orthodox learning. His prose is vigorous, direct, and innovative, prioritizing ideas over rhetoric.
@@ -47,6 +51,7 @@ Han Yu's essays, like "On the Way" (Yuan Dao), fiercely defended Confucianism ag
 He also wrote poetry and influenced the Neo-Confucian revival. As one of the "Eight Great Prose Masters of Tang and Song," Han Yu's guwen style shaped Song literature (e.g., Ouyang Xiu, Su Shi) and became the standard for classical Chinese prose until the 20th century.
 
 ### 9. Su Shi (苏轼, 1037–1101 CE), also known as Su Dongpo
+
 Su Shi (courtesy name Zizhan, art name Dongpo Jushi) was a Northern Song polymath—poet, essayist, calligrapher, painter, gastronome, and official—often called one of China's greatest literati. Exiled multiple times for political criticism (opposing Wang Anshi's reforms), he lived in places like Huangzhou, where he farmed and wrote prolifically.
 
 Su excelled in shi poetry, revolutionized ci lyrics (founding the haofang or "heroic abandon" school with bold, expansive themes beyond love), and wrote masterful prose (including travel records and essays). Works include "Red Cliff Rhapsody" (Qian Chibi Fu), ci like "Nian Nu Jiao: Nostalgia at Red Cliff," and nature-infused poems reflecting Buddhist, Daoist, and Confucian ideas.

@@ -21,6 +21,7 @@ Glad to hear switching to MiniMax M2 has smoothed things out—it's been picking
 xAI's team is iterating on Grok models for tighter tool integration, so expect refinements soon. What specific coding tasks are you tackling where MiniMax shines for you?
 
 ### References
+
 - [Bug: Grok Code Fast 1 not update to do list correctly](https://github.com/Kilo-Org/kilocode/issues/3180)
 - [Problem with x-ai/grok-code-fast-1](https://github.com/cline/cline/issues/6269)
 - [MiniMax M2 vs GrokCodeFast discussion](https://www.reddit.com/r/CLine/comments/1ok67as/minimax_m2_vs_grokcodefast/)

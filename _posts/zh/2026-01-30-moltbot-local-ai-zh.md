@@ -37,6 +37,7 @@ Moltbot 是一个运行在本地机器上的个人 AI assistant，它可以连�
 ## How It Works
 
 Moltbot 在您的电脑上运行一个 Gateway control plane，该平面将 messaging channels 连接到由 Claude 或 GPT 等 models 驱动的 AI agent。Gateway 在以下各项之间进行协调：
+
 - 您的 messaging apps (WhatsApp, Telegram 等)
 - AI model (Claude, GPT, 或 local models)
 - System tools (browser, files, commands)
@@ -65,6 +66,7 @@ Moltbot 由 Peter Steinberger 和开源社区为 "Clawd"（被描述为一个太
 ## Use Cases
 
 人们正在将 Moltbot 用于：
+
 - Email management 以及退订垃圾邮件
 - Calendar management 和行程提醒
 - 自动化 coding tasks 和 workflows

@@ -37,6 +37,7 @@ Robert Greene’s 1st Law of Power—“Never Outshine the Master”—is usuall
 In short, the truly unpopular idea is that “never outshine the master” is a survival rule for courtiers and middle managers, not a success rule for founders, creators, or anyone who intends to become the master eventually. At some point you have to break the rule—or choose masters who don’t need it enforced.
 
 References:
+
 - [The 48 Laws of Power by Robert Greene (original source of the law)](https://en.wikipedia.org/wiki/The_48_Laws_of_Power)
 - [Zero to One by Peter Thiel (implicit counter-take on outshining in startups)](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296)
 - [The Hard Thing About Hard Things by Ben Horowitz (on dealing with brilliant but threatening subordinates)](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205)

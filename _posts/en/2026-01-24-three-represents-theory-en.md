@@ -19,17 +19,16 @@ Answer: The **"Three Represents"** (Sāngè Dàibiǎo) is a fundamental politica
 The theory asserts that the CPC must always represent:
 
 1. **The requirements for developing China's advanced social productive forces:**
+
 * This focused on **economic and technological growth**. It shifted the party's focus toward modernization, science, and the private sector, rather than just traditional industrial labor.
 
-
 2. **The orientation of China's advanced culture:**
+
 * This emphasized the development of a national, scientific, and popular socialist culture. It aimed to balance traditional Chinese values with modern global developments.
 
-
 3. **The fundamental interests of the overwhelming majority of the Chinese people:**
+
 * This moved the party away from being strictly a "vanguard of the working class" (proletariat) to a broader representative of **all** people, including entrepreneurs and the middle class.
-
-
 
 ---
 

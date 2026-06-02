@@ -23,7 +23,7 @@ Answer:
 
 在 Android 开发（使用 Java 或 Kotlin）中，以编程方式为 `Button`（或任何 `View`）设置 onClick listener 的标准且最常用的方法是 `setOnClickListener()`。该方法接受 `View.OnClickListener` 接口的实现，通常通过匿名内部类、lambda（在 Kotlin 中）或单独的 listener 对象提供。
 
-### Java 示例：
+### Java 示例
 
 ```java
 button.setOnClickListener(new View.OnClickListener() {
@@ -34,7 +34,7 @@ button.setOnClickListener(new View.OnClickListener() {
 });
 ```
 
-### Kotlin 示例：
+### Kotlin 示例
 
 ```kotlin
 button.setOnClickListener {
@@ -51,5 +51,6 @@ button.setOnClickListener {
 注意：用户选择的 "C" 是错误的。正确选项是 A。
 
 References:
+
 - [https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener)](https://developer.android.com/reference/android/view/View#setOnClickListener(android.view.View.OnClickListener))
 - [https://developer.android.com/develop/ui/views/components/button](https://developer.android.com/develop/ui/views/components/button)

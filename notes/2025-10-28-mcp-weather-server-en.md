@@ -15,6 +15,7 @@ type: note
 The Model Context Protocol (MCP) is an open standard that defines how applications and AI systems (like large language models) exchange context, such as tools, resources, and prompts. It enables seamless integration between LLMs (e.g., Claude) and external services, making it easier to build extensible AI agents. This guide focuses on setting up a basic MCP server using plain Python (no `uv`), based on the official quickstart tutorial for a simple weather server that connects to the National Weather Service API. This server exposes two tools: `get_alerts` (for state weather alerts) and `get_forecast` (for location forecasts).
 
 ### Prerequisites
+
 - Basic familiarity with Python and LLMs (e.g., Claude).
 - Python 3.10 or higher installed.
 - Access to a terminal (macOS/Linux recommended; Windows instructions similar but use PowerShell).
@@ -22,34 +23,41 @@ The Model Context Protocol (MCP) is an open standard that defines how applicatio
 - Note: MCP servers communicate via JSON-RPC over stdio (stdin/stdout). Avoid printing to stdout in your code to prevent message corruption; use logging to stderr instead.
 
 ### Step 1: Set Up Your Environment
+
 1. Create a new project directory:
+
    ```
    mkdir weather
    cd weather
    ```
 
 2. Create and activate a virtual environment:
+
    ```
    python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
 3. Upgrade pip (recommended for reliability):
+
    ```
    python -m pip install --upgrade pip
    ```
 
 4. Install dependencies (MCP SDK and HTTP client):
+
    ```
    pip install "mcp[cli]" httpx
    ```
 
 5. Create the server file:
+
    ```
    touch weather.py  # Or use your editor to create it
    ```
 
 ### Step 2: Build the MCP Server
+
 Open `weather.py` in your editor and add the following code. This uses the `FastMCP` class from the MCP SDK, which auto-generates tool schemas from type hints and docstrings.
 
 ```python
@@ -159,16 +167,21 @@ if __name__ == "__main__":
   - For production, add logging (e.g., via `logging` module to stderr) and rate limiting.
 
 ### Step 3: Test the Server Locally
+
 Run the server:
+
 ```
 python weather.py
 ```
+
 It should start listening on stdio without output (that's normal). To test manually, you'd need an MCP client, but proceed to integration for full testing.
 
 ### Step 4: Connect to a Host (e.g., Claude for Desktop)
+
 1. Download and install Claude for Desktop from [claude.ai/download](https://claude.ai/download).
 
 2. Configure the app by creating/editing `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or the equivalent on Windows (`%APPDATA%\Claude\claude_desktop_config.json`):
+
    ```json
    {
      "mcpServers": {
@@ -182,6 +195,7 @@ It should start listening on stdio without output (that's normal). To test manua
      }
    }
    ```
+
    - Use absolute paths (e.g., `/Users/yourname/weather/weather.py` on macOS).
    - On Windows, use forward slashes `/` or double backslashes `\\`.
    - Ensure your virtual environment is activated when testing locally, but for Claude, it runs the Python executable from your system (make sure the venv's site-packages are accessible or install globally if preferred—though venv is recommended).
@@ -199,6 +213,7 @@ It should start listening on stdio without output (that's normal). To test manua
    - Note: This API only supports US locations.
 
 ### Troubleshooting
+
 - **Server not appearing in Claude**: Verify JSON syntax, absolute paths, and full restart of the app. Check logs at `~/Library/Logs/Claude/mcp*.log`.
 - **Tool errors**: Ensure the server runs error-free locally. Add delays for API rate limits if needed.
 - **Non-US queries**: The NWS API is US-only; extend with other APIs for global support.
@@ -207,6 +222,7 @@ It should start listening on stdio without output (that's normal). To test manua
 This sets up a functional MCP server using plain Python. For TypeScript/Node.js alternatives or more examples, check the resources below.
 
 ### References
+
 - [Build an MCP Server (Official Docs)](https://modelcontextprotocol.io/docs/develop/build-server)
 - [MCP Quickstart Guide](https://modelcontextprotocol.info/docs/quickstart/quickstart/)
 - [Model Context Protocol Guide with Demo](https://www.datacamp.com/tutorial/mcp-model-context-protocol)

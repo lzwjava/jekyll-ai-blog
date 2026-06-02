@@ -15,6 +15,7 @@ You're hitting a classic OOM on an RTX 4070 (12 GB VRAM) while training a ~77M p
 Even though 77M is small, the effective micro-batch is huge because of how nanoGPT computes loss in `estimate_loss()` — it runs the full forward/backward pass on the evaluation batches without gradient accumulation tricks, so during eval it suddenly tries to put a much larger effective batch into memory.
 
 ### Root Cause
+
 In `estimate_loss()`, nanoGPT does this by default:
 
 ```python
@@ -41,12 +42,15 @@ eval_iters = 100           # can reduce a bit more
 nanoGPT respects `eval_batch_size` if you add it (recent versions do). This makes evaluation use only 4 sequences instead of 16 → ~4× less memory during eval.
 
 **Option 2: Reduce block_size for eval only (keeps accuracy)**
+
 ```python
 eval_block_size = 512      # or 256
 ```
+
 Add this to config — some forks support it, or patch `get_batch` to use a different block size when split=='val'.
 
 **Option 3: Lower eval_iters and accept slightly noisier eval loss**
+
 ```python
 eval_iters = 50   # still decent estimate
 ```

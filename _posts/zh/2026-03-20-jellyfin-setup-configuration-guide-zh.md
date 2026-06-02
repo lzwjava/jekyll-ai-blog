@@ -40,6 +40,7 @@ type: note
 ### 4. 客户端应用
 
 在任何设备上安装：
+
 - **Android/Android TV** → [Jellyfin on Play Store](https://play.google.com/store/apps/details?id=org.jellyfin.mobile)
 - **iOS/Apple TV** → [Jellyfin on App Store](https://apps.apple.com/app/jellyfin-mobile/id1480192618)
 - **Desktop** → [Jellyfin Media Player](https://github.com/jellyfin/jellyfin-media-player)

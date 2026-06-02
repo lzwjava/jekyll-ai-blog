@@ -35,6 +35,7 @@ On the surface, it's because Yang Guifei (Imperial Consort Yang) was favored, an
 **Understanding the Deep Meaning:**
 
 When Bai Juyi wrote this line, **superficially** it describes worldly opportunism, but **essentially**:
+
 1. Through changes in social customs, it reflects the ruler's moral failure
 2. Emperor favors one person → relatives gain excessive power → social morality deteriorates
 3. **The criticism is aimed at Xuanzong**, not ordinary people

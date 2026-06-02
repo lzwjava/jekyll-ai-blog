@@ -15,13 +15,17 @@ Question: Guangdong Higher Education Self-Examination Syllabus for "Data Structu
 Answer:
 
 # Guangdong Higher Education Self-Examination
+
 ## Data Structures (Practical Assessment) Course Syllabus
+
 **(Course Code: 13182)**
 
 ### I. Assessment Objectives
+
 "Data Structures" is a core professional course for the Higher Education Self-Examination Computer Application (Associate Degree) program. The practical component aims to develop candidates' ability to apply data structures to solve real-world problems through theoretical study and hands-on experiments.
 
 Candidates are required to:
+
 - Start from practical problems and requirements
 - Select appropriate storage structures
 - Design corresponding algorithms
@@ -31,13 +35,16 @@ Candidates are required to:
 - Master fundamental algorithm implementation techniques and enhance comprehensive application skills
 
 ### II. Prescribed Textbook
+
 《Data Structures》
 Edited by the National Higher Education Self-Examination Guidance Committee
 Authored by Xin Yunwei and Chen Shuoying
 Published by China Machine Press, 2023 Edition
 
 ### III. Assessment Content
+
 Candidates must master the following:
+
 1. Structure and operations of linked lists; solve application problems using linked list operations
 2. Sequential stack and circular queue storage characteristics and basic operations
 3. Two-dimensional array storage and random access by subscript; solve problems using 2D arrays
@@ -47,6 +54,7 @@ Candidates must master the following:
 7. Understand sequential and binary search principles and implement the search process
 
 ### IV. Exam Structure
+
 Closed-book written exam, 120 minutes, total 100 points
 
 | Question Type           | Description                                                                 | Number of Questions | Points |
@@ -58,27 +66,33 @@ Closed-book written exam, 120 minutes, total 100 points
 | **Total**               |                                                                             |                     | **100** |
 
 ### V. Exam Requirements
+
 1. Closed-book, paper-based exam only
 2. Duration: 120 minutes
 3. Must cover all knowledge points in Section III
 4. Difficulty distribution: Easy 20%, Moderately Easy 35%, Moderately Difficult 35%, Difficult 10%
 
 ### VI. Network Environment
+
 None required (offline paper exam)
 
 ### VII. Important Notes
+
 1. Answers must be written in black or blue ink pen (pencil not allowed)
 2. All code (fill-in, function, and programming questions) must be written in **C language**
 
 ### VIII. Sample Questions
 
 #### 1. Multiple Choice (10 questions, 20 points)
+
 **Q1.** To check whether parentheses in an expression are properly matched, the most suitable data structure is:
 A. Linear list B. Queue C. Tree D. Stack
 **Answer:** D
 
 #### 2. Code Fill-in-the-Blank (2 questions, 20 points)
+
 **Q1.** Complete the circular queue implementation (10 points)
+
 ```c
 // Key blanks and answers:
 (1) (q->rear + 1) % MAX_SIZE == q->front
@@ -89,7 +103,9 @@ A. Linear list B. Queue C. Tree D. Stack
 ```
 
 #### 3. Function Question (2 questions, 20 points)
+
 **Q1.** Delete the node at position `i` in a singly linked list with a head node (10 points)
+
 ```c
 int deli(Node* head, int i) {
     if (head == NULL || i < 1) return 0;
@@ -111,7 +127,9 @@ int deli(Node* head, int i) {
 ```
 
 #### 4. Programming Questions (3 questions, 40 points total)
+
 **Q1.** Direct Insertion Sort – Output the array after each pass (15 points)
+
 ```c
 #include <stdio.h>
 #define MAX_SIZE 100

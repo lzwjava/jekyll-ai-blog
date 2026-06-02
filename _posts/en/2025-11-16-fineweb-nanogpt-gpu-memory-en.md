@@ -27,6 +27,7 @@ Your current config is already quite conservative and good for a single consumer
 Your current config (`6L 6H 384embd`) is safe but a bit small. You can go larger.
 
 ### Best Config for 24 GB GPU (RTX 4090 / 3090) on FineWeb
+
 This is the most popular setup in the nanoGPT community right now:
 
 ```python
@@ -60,6 +61,7 @@ beta2 = 0.99
 → This is ~160M parameters, runs comfortably on a 4090 with ~20–22 GB VRAM usage.
 
 ### Even Better: 200M+ Model (if you have 24 GB+)
+
 ```python
 n_layer = 12
 n_head = 12
@@ -70,6 +72,7 @@ block_size = 1024
 learning_rate = 5e-4
 max_iters = 60000
 ```
+
 Many people train this successfully on a single 4090.
 
 ### Key Rules of Thumb for FineWeb + nanoGPT
@@ -96,6 +99,7 @@ Many people train this successfully on a single 4090.
    Use the 100B subset: `fineweb100B` or full `fineweb` (truncated to your disk).
 
 6. **Optional but helpful**
+
 ```python
 compile = True          # PyTorch 2.0 compile, ~20–30% faster
 bias = False            # no bias in Linear layers (like LLaMA)
@@ -103,6 +107,7 @@ weight_decay = 0.1
 ```
 
 ### Quick Command to Download FineWeb (100B version)
+
 ```bash
 pip install datasets
 python -c "
@@ -111,9 +116,11 @@ ds = load_dataset('HuggingFaceFW/fineweb', name='sample-100BT', split='train')
 ds.save_to_disk('data/fineweb100B')
 "
 ```
+
 Then point nanoGPT to that folder.
 
 ### Summary: Upgrade Your Current Config
+
 Replace your current model part with this (for 24 GB GPU):
 
 ```python

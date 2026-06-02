@@ -26,7 +26,8 @@ This growth isn't explosive across all domains but is steady and targeted, drive
 
 Given your background as an experienced full-stack engineer with 11 years in the field (heavy on Java/Spring backend, JS frameworks like Vue/React/Angular, mobile dev, and some ML/big data), learning Rust could be a solid move in 2025, but it depends on your goals. Here's a personalized assessment:
 
-#### Pros for You:
+#### Pros for You
+
 - **Complements Your Skills**: Your Java experience will make Rust's syntax feel somewhat familiar (both are C-like with strong typing), but Rust excels in areas where Java can be verbose or less performant, like low-level systems work, concurrency, or optimizing distributed systems. With your familiarity in networking, containers, microservices, and cloud platforms (Alibaba, AWS, Azure), Rust could enhance your backend toolkit—e.g., building faster APIs, CLI tools, or integrating with Rust-based services like those in AWS (which increasingly uses Rust internally).
 
 - **Career and Opportunity Boost**: Rust's rising adoption opens doors to high-demand roles in tech giants, fintech (aligning with your HSBC/DBS outsourcing experience), web3/blockchain, or embedded/IoT projects. As a freelancer with open-source contributions (your 10 GitHub projects), adding Rust could let you tackle performance-critical OSS work or contribute to ecosystems like Actix (web) or Tokio (async). Your algorithm-solving background (1000+ problems, NOIP top 300) will help with Rust's borrow checker challenges, and your self-taught nature (dropping out, associate degree via self-study) suits Rust's steep but rewarding learning curve.
@@ -35,7 +36,8 @@ Given your background as an experienced full-stack engineer with 11 years in the
 
 - **Timing in 2025**: With trends showing maturation (better tools, more tutorials), now's a good time. Rust's community is active, and resources are abundant—your book-reading habit (320+ books) could include "The Rust Programming Language" book. It might take 3-6 months to get proficient, but your 8 years in backend could accelerate that.
 
-#### Cons and Considerations:
+#### Cons and Considerations
+
 - **Learning Curve and Time Cost**: Rust's ownership model and lifetimes can be frustrating initially, especially if you're used to GC languages like Java/JS. If your current stack (Java, JS, mobile) meets most needs, Rust might not be urgent unless you're eyeing specific domains like systems programming or replacing C/C++ in projects.
 
 - **Relevance to Your Work**: Your roles have been in banking/outsourcing (TEKsystems, LeanCloud), which often prioritize rapid development over micro-optimizations. Rust shines in greenfield projects or rewrites, but adoption in enterprise full-stack might lag behind Java/Go. If you're focusing on frontend/ML, it could be overkill.

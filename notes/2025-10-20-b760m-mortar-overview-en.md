@@ -17,6 +17,7 @@ The MSI MAG B760M Mortar WiFi is a robust Micro-ATX gaming motherboard from MSI'
 ![MSI MAG B760M Mortar WiFi Hero Image](https://storage-asset.msi.com/global/picture/image/feature/mb/B760M/mag-b760m-mortar-wifi/msi-b760m-mortar-wifi-hero-01.png)
 
 #### Key Features
+
 - **Performance and Power**: Equipped with Core Boost and digital PWM for precise multi-core CPU power, Load-Line Calibration for voltage stability, and Memory Boost supporting DDR5 up to 7200+ MHz (OC) with XMP profiles. Includes Resizable BAR for optimized GPU performance and a 60-day AIDA64 Extreme trial for monitoring.
 - **Storage and Expansion**: Dual Lightning Gen4 M.2 slots (up to 64Gbps) with M.2 Shield Frozr cooling, plus 4x SATA 6Gbps ports. Features PCIe 5.0 x16 slot with Steel Armor for bandwidth up to 128GB/s, reducing lag in graphics-intensive games.
 - **Connectivity**: 2.5Gbps LAN for wired gaming, Wi-Fi 6E with Bluetooth 5.3 for low-latency wireless, and Lightning USB 3.2 Gen2x2 (20Gbps) via rear Type-C and front headers. Supports HDMI/DP outputs and Mystic Light for RGB synchronization.
@@ -24,6 +25,7 @@ The MSI MAG B760M Mortar WiFi is a robust Micro-ATX gaming motherboard from MSI'
 - **Audio and Extras**: Audio Boost delivers studio-grade sound with isolated signals and de-pop protection. Mystic Light Extension adds RGB support for peripherals, and it's Windows 11 compatible.
 
 #### Main Specifications
+
 | Category       | Details |
 |----------------|---------|
 | **Chipset**    | Intel B760 |

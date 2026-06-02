@@ -10,7 +10,7 @@ Which tools would you like to configure?
    [ ] Browserbase project ID (optional — only needed for cloud browser) → browser_navigate, browser_click
    [ ] Browser Use API key for cloud browser (optional — local browser works without this) → browser_navig
    [ ] Firecrawl browser session TTL in seconds (optional, default 300) → browser_navigate, browser_click
-   [ ] Camofox browser server URL for local anti-detection browsing (e.g. http://localhost:9377) → browser
+   [ ] Camofox browser server URL for local anti-detection browsing (e.g. <http://localhost:9377>) → browser
    [ ] FAL API key for image generation → image_generate
    [ ] Tinker API key for RL training → rl_start_training, rl_check_status
    [ ] Weights & Biases API key for experiment tracking → rl_get_results, rl_check_status

@@ -47,31 +47,38 @@ Little Lute，也称为 Cai Yan 或 Cai Wenji，是 Honor of Kings（《王者�
 **铭文**：10x Saint（治疗/magic lifesteal），10x Harmony/Tribute（magic power/CDR），5x Hunt/Void（速度/穿透）。
 
 ### 玩法指南
+
 #### 早期游戏（对线/游走）
+
 - 从游走路开始，或辅助 ADC/mid。用 Skill 2 和你的 carry 清线快速推进。
 - 用 Skill 2 消耗敌人/小兵触发被动治疗。靠近盟友使用 Skill 1 续航。
 - 插眼草丛，旋转支援 gank——你的 CC 能制造击杀。避免单挑；1v1 较弱。
 
 #### 中期游戏（目标/小规模战斗）
+
 - 跟随 carry 前往目标（塔、野区）。用大招在 dive 时拯救低 HP 盟友。
 - 用 Skill 2 击晕打断通道（如大招）。用 Skill 1 在对拼中治疗。
 
 #### 后期游戏（团队战）
+
 - 定位在前排身后。用大招为最低 HP carry 提供护盾/治疗（同时削弱敌人）。
 - 连招：Skill 2（晕群体）> Skill 1（治疗/增益团队）> Ult（续航）。Flash/Heal 调整位置。
 - 优先保护 ADC/mage——你的治疗随装备大幅提升。
 
 **连招**：
+
 1. 消耗/对拼：Skill 2 > AA > Skill 1。
 2. 团队战：Ult > Skill 2（CC）> Skill 1（续航）。
 3. 逃生：被动触发 > Skill 1（速度/治疗）。
 
 ### 搭配与克制
+
 **良好搭配**：Gao Jianli（爆发续航），Di Renjie/Lu Bu（前排），Luban No.7/Lady Sun（carry），Lam/Diaochan（突进）。
 
 **克制**：隐身刺客（Lanling），爆发（Mulan）。集火她；孤立时她很脆。躲避 Skill 2 弹跳。
 
 **提示**：
+
 - 在小兵/野怪上触发被动获取免费治疗（节省法力）。
 - 大招靠近多个盟友；debuff 能融化坦克。
 - 视野控制——你的速度有助于安全插眼。
@@ -80,6 +87,7 @@ Little Lute，也称为 Cai Yan 或 Cai Wenji，是 Honor of Kings（《王者�
 掌握走位和时机，即可发挥巨大影响力！
 
 参考资料：
+
 - [Honor of Kings Little Lute Guide](https://gaminggblog.com/honor-of-kings-little-lute-builds)
 - [Cai Yan Fandom Wiki](https://honor-of-kings.fandom.com/wiki/Cai_Yan)
 - [Cai Yan HoK Guide](https://www.joytify.com/blog/en-ph/cai-yan-honor-of-kings)

@@ -15,7 +15,8 @@ type: note
 
 ---
 
-### 🔑 Key Characteristics:
+### 🔑 Key Characteristics
+
 - **Ultra-fast execution** – Trades happen far faster than any human could react
 - **High volume** – Millions of trades can be executed per day
 - **Small profits per trade** – Captures tiny price differences, but at massive scale
@@ -24,7 +25,8 @@ type: note
 
 ---
 
-### ⚙️ How It Works:
+### ⚙️ How It Works
+
 1. The system collects **real-time market data** directly from exchanges
 2. Algorithms **analyze the data** to detect micro-opportunities (e.g., price discrepancies between exchanges)
 3. A **smart order router** places the trade automatically
@@ -32,7 +34,7 @@ type: note
 
 ---
 
-### 📊 Common HFT Strategies:
+### 📊 Common HFT Strategies
 
 | Strategy | Description |
 |---|---|
@@ -43,19 +45,22 @@ type: note
 
 ---
 
-### ✅ Pros:
+### ✅ Pros
+
 - Improves **market liquidity**
 - Narrows **bid-ask spreads**
 - Enables faster and more efficient **price discovery**
 
-### ❌ Cons:
+### ❌ Cons
+
 - Can contribute to **market instability** (e.g., the 2010 Flash Crash)
 - Gives **unfair advantages** to large institutions over retail investors
 - Creates **"phantom liquidity"** that can disappear suddenly
 
 ---
 
-### 📈 Market Impact:
+### 📈 Market Impact
+
 As of 2016, HFT accounted for **10–40% of equity trading volume** and **10–15% of forex and commodities volume**, making it a dominant force in modern financial markets.
 
 > In short, HFT is Wall Street on autopilot — trading at the speed of light for razor-thin profits, repeated millions of times a day.

@@ -41,21 +41,27 @@ The ring is usually placed in the vagina and left in place for 3 weeks. After 3 
 ## How Does It Relate to Sexual Activity?
 
 ### 1. Can You Have Sex While Wearing It?
+
 The ring should be left in place during sex. Most people do not notice it during intercourse. Even if someone does notice it, it usually is not too bothersome.
 
 ### 2. Can the Partner Feel It?
+
 In research, less than half of male partners reported physically feeling the ring during intercourse. Many found the sensation dissipated as natural lubrication increased during sex. Over half reported never noticing the ring at all.
 
 ### 3. What If It's Uncomfortable?
+
 If your partner feels the ring during sex, you can try to reposition it deeper into the vagina. It cannot get lost inside.
 
 ### 4. Can You Remove It for Sex?
+
 The vaginal ring can be removed for up to 3 hours during intercourse without losing effectiveness. However, it must be rinsed with lukewarm water and reinserted promptly. The Annovera ring has a stricter limit of only 2 hours total removal time across the 21-day wear period.
 
 ### 5. Does It Affect Sexual Satisfaction?
+
 Studies comparing the vaginal ring to the combined oral contraceptive pill found that both methods resulted in a global improvement of sexual function. Ring users were also more likely to continue with their method after the study was completed than pill users.
 
 ### 6. Important Note on STI Protection
+
 The birth control ring does not protect against sexually transmitted infections (STIs). Using condoms every time you have sex lowers the chance of getting or spreading STDs.
 
 ---

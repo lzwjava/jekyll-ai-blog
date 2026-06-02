@@ -21,6 +21,7 @@ Answer:
 It forms a core part of what later scholars summarized as **Zhu Xi's Six Reading Principles** (朱子读书法), and is especially emphasized in works such as *Zhuzi Yulei* (朱子语类 — Classified Conversations of Master Zhu) and *Tongmeng Xuzhi* (童蒙须知 — Essentials for Beginners).
 
 ### Core Meaning
+
 - **熟读 (Shú dú)**: Read repeatedly until very familiar → "make its words seem as if they come from my own mouth" (使其言皆若出于吾之口).
 - **精思 (Jīng sī)**: Think deeply and carefully → "make its meaning seem as if it comes from my own mind/heart" (使其意皆若出于吾之心).
 

@@ -34,6 +34,7 @@ To cook potatoes in an air fryer, follow these steps for crispy, delicious resul
    - Remove and serve immediately. Optionally, sprinkle with extra salt or fresh herbs.
 
 **Tips**:
+
 - **Soak for Fries**: For extra-crispy fries, soak cut potatoes in cold water for 20-30 minutes to remove excess starch, then dry thoroughly before seasoning.
 - **Don’t Overfill**: Cook in batches if necessary to avoid steaming.
 - **Experiment**: Try adding parmesan, cayenne, or ranch seasoning for variety.

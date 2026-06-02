@@ -9,6 +9,7 @@ type: note
 ---
 
 ### 核心要点
+
 - 该视频似乎以简短的6分钟形式讲解了Kubernetes（k8s）架构基础，涵盖控制平面和工作节点等关键组件。
 - 研究表明内容包含API Server、Scheduler、Controller Manager、etcd、Kubelet、Kube-Proxy和Pods，重点阐述它们之间的交互机制。
 - 证据表明视频提供了适合初学者的高层级概述，其中对Pods作为具有单一IP的最小单元这一角色的着重讲解出乎意料。
@@ -22,12 +23,14 @@ Kubernetes（常简称为k8s）是一款开源系统，用于自动管理和部�
 Kubernetes架构包含两大主要部分：控制平面和工作节点。
 
 #### 控制平面
+
 - **API Server**：接收集群管理指令的入口，如启动或停止应用。
 - **Scheduler**：根据资源可用性决定应用应运行在哪个计算节点上。
 - **Controller Manager**：维持系统平稳运行，确保应用副本数量符合预期。
 - **etcd**：存储集群所有配置和状态的分布式存储系统。
 
 #### 工作节点
+
 - **Kubelet**：确保节点上的容器（应用）按预期运行。
 - **Kube-Proxy**：像交通指挥员一样将网络流量路由到正确的应用。
 - **Pods**：最小调度单元，组合一个或多个共享网络的容器，每个Pod拥有独立IP。
@@ -71,6 +74,7 @@ Kubernetes架构包含两大主要部分：控制平面和工作节点。
 所讨论的Kubernetes架构并非固定模式，具体集群设置可能存在差异。例如ByteByteGo在2023年博文《EP35：什么是Kubernetes》中指出，生产环境中控制平面组件可跨多台计算机运行以实现容错和高可用性，这对企业级环境尤为关键，在需要弹性扩展和韧性的云部署中更是如此。
 
 实践中这些组件支撑着以下关键领域：
+
 - **部署自动化**：API Server与Scheduler协同实现Pod自动调度，减少人工干预，常见于微服务CI/CD流水线
 - **状态管理**：Controller Manager与etcd确保持续维护集群期望状态，应对节点宕机等故障，对高可用应用至关重要
 - **网络通信**：Kube-Proxy与具有单一IP的Pods简化了集群内通信，影响服务暴露方式，在多租户环境中表现显著
@@ -88,6 +92,7 @@ Kubernetes概念源自Google的Borg系统，自2014年开源以来持续演进�
 本分析基于视频潜在内容，辅以广泛博文调研，强调了Kubernetes架构在计算领域的持久重要性，并呼吁通过适应技术变革来实现最优系统设计。
 
 #### 关键引用
+
 - [EP35：什么是Kubernetes - Alex Xu](https://blog.bytebytego.com/p/ep35-what-is-kubernetes)
 - [Kubernetes速成课程](https://blog.bytebytego.com/p/a-crash-course-in-kubernetes)
 - [Kubernetes入门指南：容器编排初学者路线图](https://blog.bytebytego.com/p/kubernetes-made-easy-a-beginners)

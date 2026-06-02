@@ -21,7 +21,7 @@ Frame Relay indeed "fades out / simplifies" the strict layering concept on switc
 
 The correct word to fill in the blank is **数据链路** (data link).
 
-### Explanation:
+### Explanation
 
 Traditional packet-switched networks (such as X.25) clearly separate:
 

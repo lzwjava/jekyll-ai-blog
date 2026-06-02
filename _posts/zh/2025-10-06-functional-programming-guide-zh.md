@@ -15,12 +15,14 @@ type: note
 ## 1. Java 函数式编程简介
 
 函数式编程（FP）强调：
+
 - **纯函数**：无副作用的函数（例如不改变可变状态）
 - **不可变性**：数据创建后不可更改
 - **高阶函数**：可接收或返回其他函数的函数
 - **声明式风格**：关注"做什么"而非"如何做"（例如使用流替代循环）
 
 Java 并非 Haskell 那样的纯函数式语言，而是将 FP 与面向对象特性融合。关键支撑技术：
+
 - Lambda 表达式（匿名函数）
 - 函数式接口（仅含单个抽象方法的接口）
 - 用于集合函数式处理的 Streams API
@@ -32,7 +34,9 @@ Java 并非 Haskell 那样的纯函数式语言，而是将 FP 与面向对象�
 Lambda 是用于简短一次性实现的匿名函数，是 Java 中进入 FP 世界的入口。
 
 ### 基础语法
+
 Lambda 格式：`(参数) -> { 函数体 }`
+
 - 单参数时可省略括号
 - 单表达式时可省略大括号（隐式返回）
 - 通常支持类型推断，也可显式声明类型
@@ -52,6 +56,7 @@ lambda.run();
 ```
 
 ### 带参数示例
+
 ```java
 // 二元运算符示例
 BinaryOperator<Integer> add = (a, b) -> a + b;
@@ -65,7 +70,9 @@ Comparator<String> comparator = (s1, s2) -> {
 ```
 
 ### 变量捕获（实质最终）
+
 Lambda 可访问外部变量，但变量必须是**实质最终**（未被重新赋值）
+
 ```java
 int threshold = 10;
 Predicate<Integer> isHigh = x -> x > threshold; // 正确
@@ -77,6 +84,7 @@ Predicate<Integer> isHigh = x -> x > threshold; // 正确
 函数式接口是仅含一个抽象方法（SAM - Single Abstract Method）的接口。Java 在 `java.util.function` 包中提供了内置接口。
 
 ### 内置示例
+
 - `Predicate<T>`：`boolean test(T t)`
 - `Function<T, R>`：`R apply(T t)`
 - `Consumer<T>`：`void accept(T t)`
@@ -84,6 +92,7 @@ Predicate<Integer> isHigh = x -> x > threshold; // 正确
 - `BiFunction<T, U, R>` 等双参数接口
 
 自定义接口：
+
 ```java
 @FunctionalInterface  // 可选标注，但推荐使用
 interface Transformer {
@@ -97,7 +106,9 @@ System.out.println(upper.transform("java")); // JAVA
 使用 `@FunctionalInterface` 强制保证 SAM 规范。
 
 ### 默认与静态方法
+
 函数式接口可包含默认方法（Java 8+），如 `Optional.orElse()`
+
 ```java
 default int compare(String a, String b) { ... } // 允许
 static void utility() { ... } // 允许
@@ -108,12 +119,14 @@ static void utility() { ... } // 允许
 是调用现有方法的 lambda 简写形式。语法：`类名::方法名` 或 `实例::方法名`
 
 类型：
+
 - 静态方法：`类名::静态方法`
 - 特定类型实例方法：`类名::实例方法`
 - 任意对象实例方法：`对象::实例方法`
 - 构造器：`类名::new`
 
 示例：
+
 ```java
 // Lambda: x -> System.out.println(x)
 Consumer<String> printer = System.out::println;
@@ -134,6 +147,7 @@ Supplier<List<String>> listSupplier = ArrayList::new;
 流以声明式方式处理集合：创建 → 转换 → 收集。采用惰性求值（中间操作在终端操作触发前不执行）
 
 ### 创建流
+
 ```java
 import java.util.*;
 import java.util.stream.*;
@@ -152,7 +166,9 @@ Stream<Integer> infinite = Stream.iterate(0, n -> n + 1);
 ```
 
 ### 中间操作（惰性）
+
 可链式调用，终端操作前不执行计算
+
 - `filter(Predicate)`：保留匹配元素
 - `map(Function)`：转换每个元素
 - `flatMap(Function<? super T, ? extends Stream<? extends R>>)`：展平嵌套流
@@ -167,7 +183,9 @@ List<Integer> evensSquared = numbers.stream()
 ```
 
 ### 终端操作（急切）
+
 触发计算并返回结果
+
 - `collect(Collector)`：收集到列表、集合、映射等
 - `forEach(Consumer)`：副作用操作（尽量避免）
 - `reduce()`：聚合操作（如求和）
@@ -187,7 +205,9 @@ Map<Integer, List<String>> byLength = names.stream()
 ```
 
 ### 并行流
+
 使用 `parallelStream()` 或 `.parallel()` 实现并行处理。需谨慎使用（调试困难）
+
 ```java
 long count = names.parallelStream().count(); // 3
 ```
@@ -197,6 +217,7 @@ long count = names.parallelStream().count(); // 3
 来自 `java.util.stream.Collectors`，用于构建复杂归约操作
 
 常用收集器：
+
 - `toList()`、`toSet()`、`toMap()`
 - `joining()`：字符串拼接
 - `summingInt()`、`averagingDouble()`
@@ -219,11 +240,13 @@ Map<Boolean, List<Integer>> partitions = numbers.stream()
 通过包装可能为 null 的值避免 `NullPointerException`，鼓励显式空值处理
 
 创建方式：
+
 - `Optional.of(value)`：非空值
 - `Optional.ofNullable(value)`：空值转为空容器
 - `Optional.empty()`
 
 操作：
+
 - `isPresent()`、`ifPresent(Consumer)`
 - `orElse(默认值)`、`orElseThrow()`
 - `map()`、`flatMap()` 用于链式调用
@@ -242,7 +265,9 @@ String upper = opt.map(String::toUpperCase).orElse("DEFAULT");
 ## 8. 进阶主题
 
 ### 可组合函数
+
 `Function.andThen()`、`Function.compose()` 用于链式组合
+
 ```java
 Function<String, Integer> len = String::length;
 Function<Integer, String> toStr = i -> "长度: " + i;
@@ -252,15 +277,19 @@ System.out.println(chain.apply("Java")); // 长度: 4
 ```
 
 ### 递归与尾调用
+
 Java 缺乏尾调用优化，但可使用 `Stream.iterate()` 实现迭代式递归
 
 ### 不可变性辅助工具
+
 使用 `Collections.unmodifiableList()` 或 Guava/Immutable Collections 等库（Java 10+ 内置 `List.of()`）
 
 `List.of("a", "b")` 创建不可变列表（Java 9+）
 
 ### 模式匹配（Java 21+ 预览/稳定版）
+
 通过 switch 中的解构增强 FP 能力
+
 ```java
 // 预览特性：使用 --enable-preview 启用
 String desc = switch (obj) {
@@ -271,6 +300,7 @@ String desc = switch (obj) {
 ```
 
 ### 虚拟线程（Java 21+）
+
 FP 与轻量级线程结合，为并发流处理增色
 
 ## 9. 最佳实践
@@ -284,6 +314,7 @@ FP 与轻量级线程结合，为并发流处理增色
 - **可读性**：简单 lambda 可直接使用；复杂逻辑提取为方法
 
 常见陷阱：
+
 - 在 lambda 中修改外部状态
 - 忘记终端操作（流不执行任何操作！）
 - 过度使用并行流（并非总是更快）
@@ -336,6 +367,7 @@ public class FunctionalExample {
 Lambda 和函数式编程将 Java 从命令式转变为表达式风格。从简单替换开始（如用 `forEach` 替代循环），逐步构建处理管道。在实际项目中实践以达到精通水平。如需深入探索，可在 IDE 中实验各种特性。
 
 ### 参考资源
+
 - [Oracle Java 教程：Lambda 表达式](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
 - [Baeldung：Java 8 函数式接口](https://www.baeldung.com/java-functional-interfaces)
 - [Java 流式处理指南](https://www.baeldung.com/java-8-streams)

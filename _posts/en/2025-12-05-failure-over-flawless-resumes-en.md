@@ -22,7 +22,7 @@ People who have lived through big, visible failures—and can articulate what we
 - **Pattern recognition for doom**
   They’ve seen the exact sequence of small, innocent-looking decisions that snowball into catastrophe: premature scaling, ignoring unit economics, founder fights disguised as “strategic disagreements,” engineering hubris, etc. That muscle memory is almost impossible to teach in a classroom or during 5 safe years at a big company.
 
-- ** antifragile mindset**
+- **antifragile mindset**
   Having already “died” once, they no longer have career fragility. They’ll push back on bad ideas, ship ugly but working code if needed, and won’t optimize for resume-building over company survival.
 
 - **Higher ceiling on ownership**

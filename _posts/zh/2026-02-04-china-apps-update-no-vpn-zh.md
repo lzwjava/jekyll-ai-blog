@@ -15,11 +15,13 @@ type: note
 情况如下：
 
 **App 更新无需 VPN 的原因：**
+
 - 用于下载/更新的 App Store 服务器使用的是 Apple 的 CDN (Content Delivery Network)
 - 这些 CDN 服务器在中国通常是可以访问的
 - 下载过程本身并不要求你必须“位于” USA 地区
 
 **什么情况下需要 VPN：**
+
 - **浏览/搜索** App Store（商店界面在没有 VPN 的情况下可能加载缓慢或出现问题）
 - **下载新 App**（第一次下载时，有时不使用 VPN 也可以，但通常不稳定）
 - **App 本身需要 VPN 才能运行**（例如 Google 旗下的 App、Facebook 等）

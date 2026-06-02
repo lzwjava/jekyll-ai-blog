@@ -30,5 +30,6 @@ MetaMask 和 Phantom 都是热门的非托管型加密钱包，赋予用户对�
 总结来说，若您深耕以太坊/DeFi 领域或需要强大的开发者功能，请选择 MetaMask；若更看重 Solana 的速度/低成本、易用性或 NFT 管理，则推荐 Phantom。
 
 ### 参考资料
+
 - [MetaMask vs. Phantom：入门级非托管钱包对比](https://www.cointracker.io/blog/metamask-vs-phantom)
 - [主流加密钱包（如 Trust Wallet、Metamask 和 Phantom）运作原理详解](https://trustwallet.com/blog/guides/how-do-popular-crypto-wallets-like-trust-wallet-metamask-and-phantom-works)

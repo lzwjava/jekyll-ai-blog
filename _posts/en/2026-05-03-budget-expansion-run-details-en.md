@@ -15,6 +15,7 @@ Clear. Here's exactly what **RUN BUDGET** means:
 - **RUN BUDGET input** = `additional_budget` — how many **more** expansions to add on top of what's already been done when you click "Run Next Step".
 
 **What happens:**
+
 - `budget = 0` → just re-runs the scheduler against the **existing** budget (resumes if it was paused mid-budget)
 - `budget = 4` → adds 4 more expansion slots and immediately runs them
 

@@ -45,6 +45,7 @@ Main psychological and neuroscientific reasons:
 In short, procrastination is less about laziness or poor time management and more about managing emotions, impulses, and self-concept in the moment. The brain chooses short-term emotional relief over long-term gain, even when we consciously know better.
 
 References:
-- Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. Psychological Bulletin. https://psycnet.apa.org/record/2007-01058-006
-- Sirois, F. M., & Pychyl, T. A. (2013). Procrastination and the priority of short-term mood regulation. Personality and Social Psychology Review. https://journals.sagepub.com/doi/10.1177/1088868313494632
-- Tice, D. M., & Baumeister, R. F. (1997). Longitudinal study of procrastination, performance, stress, and health. Psychological Science. https://journals.sagepub.com/doi/10.1111/j.1467-9280.1997.tb00461.x
+
+- Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. Psychological Bulletin. <https://psycnet.apa.org/record/2007-01058-006>
+- Sirois, F. M., & Pychyl, T. A. (2013). Procrastination and the priority of short-term mood regulation. Personality and Social Psychology Review. <https://journals.sagepub.com/doi/10.1177/1088868313494632>
+- Tice, D. M., & Baumeister, R. F. (1997). Longitudinal study of procrastination, performance, stress, and health. Psychological Science. <https://journals.sagepub.com/doi/10.1111/j.1467-9280.1997.tb00461.x>

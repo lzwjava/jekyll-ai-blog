@@ -9,9 +9,11 @@ type: note
 ---
 
 ### 理解错误原因
+
 该错误信息通常出现在 macOS 系统中，当你尝试移动、复制、删除或操作文件/文件夹时（例如清空废纸篓或拖拽项目），系统遇到权限问题、文件被锁定或只读限制。虽然错误提示本身提供了基础解决方案，但若问题持续存在，可能需要采取额外步骤，包括使用终端命令、修复磁盘权限或处理顽固文件。
 
 ### 分步解决方案
+
 请按顺序尝试以下方法（从最简单开始）。这些方案适用于 macOS 系统（如 Ventura、Sonoma 或更新版本），请确保以管理员账户登录。
 
 1. **解锁文件并调整权限（按错误提示操作）**：
@@ -65,6 +67,7 @@ type: note
 如果完成以上步骤后问题仍然存在，请提供更多详细信息，包括 macOS 版本、具体操作内容（例如删除特定文件），以及问题出现在废纸篓还是其他位置。
 
 ### 参考文档
+
 [Apple 支持：在 Mac 上更改文件、文件夹或磁盘的权限](https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/mac)
 [如何修复 Mac 上的「操作无法完成」错误](https://www.macrumors.com/how-to/fix-operation-cant-be-completed-error-mac/)
 [当提示文件正在使用时清空废纸篓](https://apple.stackexchange.com/questions/52257/empty-trash-when-it-says-files-are-in-use)

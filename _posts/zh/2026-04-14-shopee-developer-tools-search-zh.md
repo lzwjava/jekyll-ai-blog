@@ -22,6 +22,7 @@ type: note
 根据现有信息，Shopee的工程团队使用以下技术：
 
 **开发技术：**
+
 - **前端：** JavaScript、React、Redux、Webpack、Babel
 - **后端：** Python（用于机器学习/数据分析）、Java（用于可扩展服务）、PHP（用于网页）
 - **数据工程：** Spark和Scala用于批处理，Flink和Java用于流处理
@@ -43,6 +44,7 @@ Shopee在其运营范围内（包括新加坡总部、深圳及其他东南亚�
 ## 建议
 
 如果您因求职或合作需要获取Shopee开发者政策的具体信息，建议：
+
 - 直接联系Shopee的人力资源或招聘团队
 - 通过LinkedIn联系Shopee的现任工程师
 - 查看Shopee官方招聘页面或工程博客，寻找公开文档

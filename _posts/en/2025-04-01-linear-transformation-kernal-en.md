@@ -10,21 +10,24 @@ type: note
 
 The **kernel** of a linear transformation is the set of all input vectors that the transformation maps to the zero vector.
 
-### Definition:
+### Definition
+
 If \\( T: V \to W \\) is a linear transformation between two vector spaces \\( V \\) and \\( W \\), then the **kernel** (or **null space**) of \\( T \\) is:
 
 \\[
 \ker(T) = \{ v \in V \mid T(v) = 0 \}
 \\]
 
-### Key Properties:
+### Key Properties
+
 1. **Subspace**: The kernel of a linear transformation is always a subspace of the domain \\( V \\).
 2. **Dimension**: The dimension of the kernel is called the **nullity** of the transformation.
 3. **Relation to Injectivity**:
    - If \\( \ker(T) = \{0\} \\), then \\( T \\) is **injective** (one-to-one).
    - If \\( \ker(T) \\) has dimension greater than zero, then \\( T \\) is not injective.
 
-### Example:
+### Example
+
 Consider the matrix transformation \\( T: \mathbb{R}^3 \to \mathbb{R}^2 \\) given by:
 
 \\[
@@ -40,7 +43,6 @@ T \begin{bmatrix} x \\ y \\ z \end{bmatrix} =
 \begin{bmatrix} x \\ y \\ z \end{bmatrix}
 $$
 </div>
-
 
 To find the kernel, solve:
 

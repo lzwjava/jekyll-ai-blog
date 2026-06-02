@@ -20,7 +20,7 @@ Yes, you can securely access your Nextcloud installation from outside your home 
 1. **Use a Mesh VPN like Tailscale (or Headscale/WireGuard self-hosted) – Top Recommendation for Home Users**
    - **Why best for many?** No port forwarding, no public exposure of your server, zero open ports on your router/firewall. Your home Nextcloud stays fully private.
    - Tailscale creates a private virtual network (tailnet) between your devices using WireGuard. Install Tailscale on your home server + phone/laptop → they connect peer-to-peer securely.
-   - Access Nextcloud via its local IP (e.g., https://192.168.x.x:port or magic DNS name like http://second-pc.tailnet-name.ts.net).
+   - Access Nextcloud via its local IP (e.g., <https://192.168.x.x:port> or magic DNS name like <http://second-pc.tailnet-name.ts.net>).
    - Pros: Extremely secure, easy setup (5–10 min), works behind CGNAT, fast, free for personal use (up to 3 users/100 devices).
    - Cons: All access requires Tailscale client/app installed and logged in (great for you/family, not ideal for sharing links with others).
    - Setup steps:
@@ -34,7 +34,7 @@ Yes, you can securely access your Nextcloud installation from outside your home 
 2. **Cloudflare Tunnel (Zero Trust / cloudflared) – Great for Public Access Without Port Forwarding**
    - Outbound-only tunnel: Your server connects to Cloudflare → no inbound ports open on your router.
    - Cloudflare handles HTTPS, DDoS protection, optional WAF.
-   - Get a free domain (or use yours), set up tunnel → point subdomain (e.g., cloud.yourdomain.com) to your local Nextcloud (http://localhost:80 or Docker port).
+   - Get a free domain (or use yours), set up tunnel → point subdomain (e.g., cloud.yourdomain.com) to your local Nextcloud (<http://localhost:80> or Docker port).
    - Pros: No router changes, strong security, free tier sufficient, easy mobile/desktop client access via domain.
    - Cons: Relies on Cloudflare (some privacy concerns), slightly more setup than Tailscale.
    - Setup: Install `cloudflared`, create tunnel in Cloudflare dashboard, run daemon on server.
@@ -62,6 +62,7 @@ Yes, you can securely access your Nextcloud installation from outside your home 
 - Hybrid: Use Tailscale for admin/full access, Cloudflare Tunnel for read-only shares or public calendars.
 
 ### Next Steps
+
 - Start with Tailscale — it's the quickest win for remote access without risk.
 - Then add Cloudflare Tunnel if you need public-facing features (e.g., sharing files with non-family).
 - Update your Nextcloud `config.php` with external domain/IP if needed (overwriteprotocol, overwrite.cli.url, trusted_domains).

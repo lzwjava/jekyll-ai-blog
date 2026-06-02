@@ -27,14 +27,14 @@ Between 1840 and 1940, the Chaoshan region, with Shantou as its key port after 1
 **Key Exports from Shantou and the Chaoshan Region:**
 
 * **Agricultural Products:**
-    * **Sugar:** The Chaoshan region was a significant sugar-producing area, and sugar was a major export.
-    * **Rice:** Rice was another important agricultural export, although sometimes subject to fluctuations based on local harvests and demand.
-    * **Tea:** While not as dominant as in some other parts of China, tea was also exported.
-    * **Tobacco:** Tobacco grown in the region was also traded.
+  * **Sugar:** The Chaoshan region was a significant sugar-producing area, and sugar was a major export.
+  * **Rice:** Rice was another important agricultural export, although sometimes subject to fluctuations based on local harvests and demand.
+  * **Tea:** While not as dominant as in some other parts of China, tea was also exported.
+  * **Tobacco:** Tobacco grown in the region was also traded.
 * **Handicrafts and Local Products:**
-    * **Paper:** Shantou was known for its paper production, which was exported.
-    * **Ceramics:** While Chaozhou was the main center, ceramics from the broader region were likely traded through Shantou.
-    * **Lace and Embroidery:** These were important cottage industries in the Chaoshan area and contributed to exports.
+  * **Paper:** Shantou was known for its paper production, which was exported.
+  * **Ceramics:** While Chaozhou was the main center, ceramics from the broader region were likely traded through Shantou.
+  * **Lace and Embroidery:** These were important cottage industries in the Chaoshan area and contributed to exports.
 * **Marine Products:** Dried and salted fish and other seafood were traditional exports.
 
 **Trade Dynamics:**

@@ -43,6 +43,7 @@ Rodney Mullen is widely regarded as the most influential and technically innovat
 In short: he’s “so good” because he literally invented the language of modern street skating, combined obsessive practice with a brilliant analytical mind, and has board control that still looks superhuman 40 years later—even in his mid-50s he can still land double kickflip late flips and primo variations that most pros half his age can’t do consistently.
 
 References:
+
 - [Rodney Mullen – Wikipedia](https://en.wikipedia.org/wiki/Rodney_Mullen)
 - [The Man Who Invented Street Skating (Red Bull feature)](https://www.redbull.com/us-en/rodney-mullen-skateboarding-godfather-interview)
 - [Rodney Mullen: From the Ground Up (TED Talk transcript)](https://www.ted.com/talks/rodney_mullen_pop_an_ollie_and_innovate/transcript)

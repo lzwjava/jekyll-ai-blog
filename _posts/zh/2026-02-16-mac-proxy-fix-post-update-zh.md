@@ -36,12 +36,14 @@ Installer Log 中的 fetch URL 错误完全符合我们的预期：在更新后�
    这将移除导致正常网络阻塞的 Clash 残留 Proxy 设置。
 
    或者（更快速的方法），登录后立即打开 **Terminal** 并运行：
+
    ```bash
    networksetup -setwebproxystate "Wi-Fi" off
    networksetup -setsecurewebproxystate "Wi-Fi" off
    networksetup -setsocksfirewallproxystate "Wi-Fi" off
    networksetup -setautoproxystate "Wi-Fi" off
    ```
+
    （如果你的服务名称不同，请将 "Wi-Fi" 替换为实际名称——可以通过 `networksetup -listallnetworkservices` 查看。）
 
 3. **重新开启 Wi-Fi**
@@ -59,9 +61,11 @@ Installer Log 中的 fetch URL 错误完全符合我们的预期：在更新后�
    - 在进行重大 macOS 更新或重启之前，考虑完全退出 Clash。
 
 你基本上已经完成了——离线设置绕过是一个完美的变通方案。在清除 Proxies 并重新连接后，所有功能（App Store、iCloud、Safari 等）都应恢复正常。如果执行第 2 步后仍看到抓取错误或无法连接，请在 Terminal 中运行此命令并分享输出：
+
 ```bash
 scutil --proxy
 ```
+
 这将显示系统范围内是否仍有任何 Proxy 处于活动状态。
 
 你已经熬过了最困难的部分——排查做得很好！

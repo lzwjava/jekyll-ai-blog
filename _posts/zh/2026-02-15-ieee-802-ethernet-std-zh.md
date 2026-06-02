@@ -30,4 +30,5 @@ Answer:
 你之前的选择（B. IEEE 802.4）是错误的 —— IEEE 802.4 是 Token Bus，而不是 Ethernet。
 
 References:
+
 - 无（这是基于 IEEE 规范的标准网络知识）

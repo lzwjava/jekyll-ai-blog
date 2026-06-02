@@ -16,6 +16,7 @@ type: note
 PUBG Mobile全球应用（不包括中国的“和平精英”或印度的BGMI等区域版本）将玩家分为多个服务器区域，如欧洲、北美（NA）、东南亚（SEA）、亚洲（例如巴基斯坦、孟加拉国）、中东、越南、韩国/日本（KRJP）和台湾/香港/澳门。由于Krafton没有提供官方的每服务器统计数据，因此很难确定活跃用户最多的确切区域，但根据玩家报告、下载量和分析数据，**东南亚（SEA）**是人口最稠密的区域。
 
 主要证据：
+
 - **东南亚庞大的玩家基础**：印度尼西亚（30M+下载量）、菲律宾（20M+）和泰国等国家/地区推动了高活跃度。东南亚在排位赛模式中也始终保持快速匹配和满员房间。
 - **玩家报告（2025）**：最近的讨论证实，东南亚以及亚洲和欧洲/中东是玩家最活跃的服务器之一，排队时间最短，人口密度高。
 - **全球背景**：PUBG Mobile全球每日活跃用户（DAU）约为25-30M，每月活跃用户（MAU）为89-146M。亚洲（包括东南亚）被描述为“最大热点”，这些市场的高移动游戏普及率是原因。
@@ -32,6 +33,7 @@ PUBG Mobile全球应用（不包括中国的“和平精英”或印度的BGMI�
 东南亚因人口密度和持续的峰值活动报告而略胜一筹。如需实时检查，请监控游戏内排队时间或Reddit等社区论坛。
 
 **参考资料：**
+
 - [PUBG MOBILE Live Player Count & Statistics (2025) - ActivePlayer.io](https://activeplayer.io/pubg-mobile/)
 - [PUBG Mobile Player Count 2025: 30M Daily Users Comeback](https://news.bittopup.com/news/pubg-mobile-player-count-2025-30m-daily-users-comeback)
 - [PUBG Mobile Player Count, Revenue & Stats [2025]](https://www.blog.udonis.co/mobile-marketing/mobile-games/pubg-mobile-player-count)

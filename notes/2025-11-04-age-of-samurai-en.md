@@ -13,6 +13,7 @@ type: note
 The series you're describing sounds like **Age of Samurai: Battle for Japan**, a 2021 Netflix docudrama miniseries (6 episodes) set during Japan's chaotic Sengoku period (roughly 1550–1616). It's known for its intense, visceral reenactments of feudal battles, with samurai wielding katanas (long swords) in brutal, close-quarters combat that often includes graphic beheadings. The show leans heavily on visual storytelling through these action sequences, with minimal spoken dialogue in the reenacted scenes—making it feel mostly silent and atmospheric—while relying on voice-over narration and historian interviews to explain the context.
 
 ### Quick Story Overview
+
 The series chronicles the bloody power struggles among Japan's daimyo (warlords) as they fight to unify a fractured country torn by civil war. It focuses on three key figures who rise from the chaos:
 
 - **Oda Nobunaga** (Episodes 1–3): A ruthless innovator who inherits a small clan and uses clever tactics (like guns and surprise attacks) to conquer rivals. He burns temples, slaughters thousands, and earns the nickname "Demon King" for his ferocity, but he's betrayed and forced to commit seppuku (ritual suicide) by one of his own generals.
@@ -24,6 +25,7 @@ The series chronicles the bloody power struggles among Japan's daimyo (warlords)
 It's structured chronologically, blending high-stakes sword fights, archery volleys, and castle sieges with historical facts. The tone is epic and unflinching—think Game of Thrones meets a history lesson, but way more focused on raw violence and strategy than politics or romance.
 
 ### The Head-Displaying Scene
+
 You're spot-on about that grim post-battle ritual: it's a recurring element drawn from real samurai customs, where victorious warriors presented severed enemy heads (often on pikes or trays) to their lords as proof of kills and to demoralize survivors. This happens multiple times, like after key victories (e.g., the Battle of Okehazama or Sekigahara), where rows of heads are lined up for inspection—super eerie and silent, emphasizing the horror without much talk. It's one of the show's most striking, brutal visuals, highlighting the era's "no mercy" code.
 
 If this isn't the one (maybe you're thinking of the 2024 *Shōgun* adaptation, which has similar vibes but more dialogue and isn't primarily on Netflix), feel free to give more details!

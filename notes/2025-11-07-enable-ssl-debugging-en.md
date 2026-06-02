@@ -24,9 +24,11 @@ To enable detailed logging for SSL/TLS-related activities in Java (e.g., handsha
 
 2. **Set the Property When Running Your Java Application**:
    - **Command-Line Execution** (e.g., via `java` command):
+
      ```
      java -Djavax.net.debug=ssl:handshake -jar your-app.jar
      ```
+
      Replace `your-app.jar` with your actual application or class (e.g., `com.example.Main`).
 
    - **In an IDE (e.g., IntelliJ IDEA, Eclipse)**:
@@ -36,12 +38,15 @@ To enable detailed logging for SSL/TLS-related activities in Java (e.g., handsha
 
    - **In a Build Tool (e.g., Maven or Gradle)**:
      - **Maven** (in `pom.xml` under `<build><plugins><plugin>` for surefire):
+
        ```xml
        <configuration>
          <argLine>-Djavax.net.debug=ssl:handshake</argLine>
        </configuration>
        ```
+
      - **Gradle** (in `build.gradle`):
+
        ```groovy
        test {
          jvmArgs '-Djavax.net.debug=ssl:handshake'
@@ -51,16 +56,20 @@ To enable detailed logging for SSL/TLS-related activities in Java (e.g., handsha
 3. **Capture the Logs**:
    - The output appears in your console/terminal.
    - Redirect to a file for easier review:
+
      ```
      java -Djavax.net.debug=ssl:handshake -jar your-app.jar > ssl-debug.log 2>&1
      ```
+
    - Look for lines starting with `***` (e.g., `*** ClientHello` for handshake starts) or `javax.net.ssl` prefixes.
 
 4. **Disable It**:
    - Simply remove the `-D` flag when done—it's not set by default to avoid performance overhead.
 
 #### Example Output Snippet
+
 When enabled, you'll see something like:
+
 ```
 *** ServerHello, TLSv1.2
 RandomCookie:  GMT: 1731000000 bytes = { ... }
@@ -70,6 +79,7 @@ Compression Method: 0
 ```
 
 #### Tips
+
 - This works for Java 8+ (including 11, 17, 21). In newer versions, you might also enable `-Djdk.tls.client.protocols=TLSv1.2,TLSv1.3` for protocol-specific logs.
 - High verbosity can slow down your app and flood logs—test in a dev environment.
 - If using a framework like Spring Boot, add it to `application.properties`: `debug=true` (for general) or via command-line args.

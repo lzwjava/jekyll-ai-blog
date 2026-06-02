@@ -29,6 +29,7 @@ type: note
 这些痛点普遍存在，尽管有些合同工通过同时接多个项目或谈判更优条款而成功。若考虑此路径，建议预留应急资金并发展副业以增强稳定性。
 
 #### 参考资料
+
 - [在大科技公司担任合同工的利弊](https://www.quora.com/What-are-the-pros-and-cons-of-being-a-contractor-at-BigTech-The-salary-and-benefits-are-much-worse-than-regular-employees-the-work-is-tough-and-the-resume-doesnt-look-good-does-it)
 - [科技合同工的利弊有哪些？](https://medium.com/%40TylerYamashiro/what-are-the-pros-and-cons-of-being-a-tech-contractor-e5d246227ed9)
 - [科技行业合同工的利弊](https://www.halcyonknights.com.au/blog/pros-and-cons-of-contracting-in-tech)

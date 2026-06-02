@@ -17,6 +17,7 @@ Answer:
 **《静夜思》 (Jìng Yè Sī) – Quiet Night Thoughts** is one of the most famous and most memorized classical Chinese poems in history. It was written by **Li Bai** (李白, 701–762), the greatest romantic poet of the Tang Dynasty, often called the "Immortal Poet" or "Poet Transcendent".
 
 ### Original Text (Tang Dynasty Chinese)
+
 ```
 床前明月光，
 疑是地上霜。
@@ -25,6 +26,7 @@ Answer:
 ```
 
 ### Modern Chinese (simplified characters, with punctuation)
+
 床前明月光，
 疑是地上霜。
 举头望明月，
@@ -54,12 +56,14 @@ I bend my head and think of home.
 5. **Taught to almost every Chinese child** — usually the **first** or **second** classical poem children learn in school (often at age 6–7)
 
 ### Quick Context
+
 - Written during the **High Tang** period (~8th century), golden age of Chinese poetry
 - Li Bai was famous for writing about nature, wine, the moon, immortality, and freedom
 - The moon is one of his favorite images — it appears in many of his most famous works
 - This poem was probably written when he was traveling far from home (he spent much of his life wandering)
 
 ### Cultural Status Today (2026)
+
 - Still appears in every Chinese language textbook
 - Frequently quoted in daily life, songs, advertisements, Mid-Autumn Festival greetings
 - Many people still recite it automatically when they see moonlight at night

@@ -53,6 +53,7 @@ type: note
 
 - **Ideal chunk size** — 一个错误家族 + 8–40 个示例位置（取决于模型上下文窗口）
 - **最有效的提示风格**：
+
   ```
   你只允许更改与 [确切问题名称，例如 "javax → jakarta namespace migration"] 相关的代码。
   不要触碰：
@@ -67,6 +68,7 @@ type: note
 
   只对实际更改的行显示 BEFORE → AFTER。
   ```
+
 - 接受一批后 → **重新编译项目** → 将**同一家族**的**新**剩余错误反馈到下一个提示中（这利用了早期修复往往揭示同一家族隐藏成员的事实）。
 - 当工具允许时，每个家族使用单独的聊天会话/项目上下文（Cursor projects、Claude projects、Continue.dev named contexts 等）。
 

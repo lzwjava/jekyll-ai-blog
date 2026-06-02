@@ -26,12 +26,14 @@ Gitea（在 Docker 中运行）无法连接到 PostgreSQL（在主机上运行�
 **发生的情况：** PostgreSQL 的默认配置仅绑定到 `127.0.0.1`。这意味着它只接受来自主机本身的连接 — 而不是来自 Docker 容器的连接。
 
 **如何发现：**
+
 ```bash
 sudo ss -tlnp | grep 5433
 # 输出显示：127.0.0.1:5433 — 仅 localhost！
 ```
 
 **修复方法：**
+
 ```bash
 # 在 /etc/postgresql/16/main/postgresql.conf 中更改：
 # listen_addresses = 'localhost'        ← 旧的（注释掉的默认值）
@@ -50,6 +52,7 @@ listen_addresses = '*'                  ← 新（监听所有接口）
 
 **如何发现：**
 {% raw %}
+
 ```bash
 docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}}: {{$v.Gateway}}{{"\n"}}{{end}}'
 # 输出：gitea_default: 172.22.0.1
@@ -57,6 +60,7 @@ docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}
 docker exec gitea sh -c "getent hosts host.docker.internal"
 # 输出：172.17.0.1  host.docker.internal
 ```
+
 {% endraw %}
 
 Docker Compose 为每个项目创建自己的网络。`host.docker.internal` 映射使用默认桥接 IP，但来自自定义网络的流量并不总是能干净地路由到默认桥接。
@@ -70,6 +74,7 @@ Docker Compose 为每个项目创建自己的网络。`host.docker.internal` 映
 **发生的情况：** 即使修复了上述两个问题，连接仍然超时。真正的阻塞者是 iptables — Linux 防火墙悄无声息地丢弃了来自 Docker 到主机 5433 端口的数据包。
 
 **如何发现：**
+
 ```bash
 # 修复 listen_addresses 后，再试一次：
 docker exec gitea sh -c "timeout 3 bash -c 'echo > /dev/tcp/host.docker.internal/5433'"
@@ -83,6 +88,7 @@ sudo iptables -I INPUT -p tcp --dport 5433 -j ACCEPT
 Docker 有自己的 iptables 链。当容器尝试连接主机时，数据包会通过主机的 `INPUT` 链。如果没有规则允许，它就会被丢弃。
 
 **永久修复：**
+
 ```bash
 sudo ufw allow from 172.16.0.0/12 to any port 5433 proto tcp comment 'postgresql-docker'
 ```

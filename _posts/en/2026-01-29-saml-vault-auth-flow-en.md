@@ -13,6 +13,7 @@ type: note
 HashiCorp Vault's SAML login works by integrating Vault with an external SAML Identity Provider (IdP) like Okta, Azure AD, or others. Here's how the authentication flow works:
 
 **Initial Setup:**
+
 - Vault is configured with the SAML auth method, which includes the IdP's metadata (SSO URL, entity ID, certificate)
 - The IdP is configured with Vault as a Service Provider (SP), including Vault's callback URL and entity ID
 - Policies in Vault are mapped to SAML assertions (like groups or attributes)

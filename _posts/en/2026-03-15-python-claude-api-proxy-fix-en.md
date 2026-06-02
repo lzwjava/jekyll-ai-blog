@@ -183,6 +183,7 @@ print(response.text)  # raw response text, better than .json() when it fails
 ```
 
 Common error meanings:
+
 - **401** → wrong API key or auth header format
 - **403** → client identity check failing (User-Agent / beta header)
 - **404** → wrong endpoint path

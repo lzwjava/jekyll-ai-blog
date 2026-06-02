@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Both IBM WebSphere Application Server (WAS, traditional or Liberty) and Spring Boot support the concept of a **request processing chain** based on the standard Java Servlet API's `javax.servlet.Filter` and `FilterChain`. This is where incoming HTTP requests pass through a series of filters before reaching servlets (or controllers/handlers), and responses can be modified on the way back.
 
 - Filters allow pre-processing (e.g., authentication, logging, compression) and post-processing of requests/responses.
@@ -35,6 +36,7 @@ There is no fundamental difference in how a basic "request chain filter" works. 
 ### Practical Examples
 
 **Standard Custom Filter (same code works in both):**
+
 ```java
 @Component  // Spring Boot only; in WAS declare in web.xml
 @Order(1)
@@ -53,6 +55,7 @@ Just the class above + `@Component`.
 
 **In WAS:**
 Add to `web.xml`:
+
 ```xml
 <filter>
     <filter-name>LoggingFilter</filter-name>
@@ -65,6 +68,7 @@ Add to `web.xml`:
 ```
 
 ### When to Choose Which
+
 - **Use WAS filters** if you are in a legacy IBM environment, need full Java EE features, or must apply filters globally across many apps without code changes.
 - **Use Spring Boot filters** (especially with Spring Security) for new/greenfield projects, microservices, fast iteration, or when you want multiple security chains and easy ordering.
 

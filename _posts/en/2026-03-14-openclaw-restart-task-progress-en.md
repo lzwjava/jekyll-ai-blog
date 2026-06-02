@@ -65,6 +65,7 @@ To be safe before restarting: run `/compact` in the chat to compress session sta
 ### For Your Flask Backend Task Specifically
 
 Since files were being written to `/home/lzw/.openclaw/workspace/pro-todo/backend`:
+
 - ✅ All files already written to disk are **safe**
 - After restart, just say **"continue building the Flask backend"** and it will pick up from where it left off using the session history + existing files on disk
 

@@ -18,11 +18,13 @@ No, you cannot directly "SSH" into a Linux installation on a USB drive from macO
 Here is why this doesn't work and what your realistic options are:
 
 ### Why the proposed approach doesn't work
+
 - macOS cannot natively **chroot** or fully switch into a Linux root filesystem because macOS (Darwin/BSD-based kernel) and Linux have completely different kernels, system calls, libraries (glibc vs libSystem), device handling, and binary formats (ELF vs Mach-O).
 - Mounting the Linux partitions (e.g., ext4) on macOS is possible with third-party tools like ext4fuse or Paragon, but this only lets you read/write files — it does **not** let you run Linux binaries or boot the Linux environment.
 - There is no simple command like `ssh /dev/disk10` to enter the Linux OS. SSH requires a running Linux system with an SSH server (sshd) already active, which isn't the case when the USB is just plugged in and macOS is running.
 
 ### Closest realistic alternatives
+
 1. **Boot into Linux from the USB (recommended if you want full Linux with Mac hardware)**
    - Install a full Linux system (not just live) onto the USB drive. Many distros (Ubuntu, Fedora, Debian, Arch, etc.) support installing to USB like an internal disk.
    - On Intel Macs: Restart, hold **Option (Alt)** key → select the USB (often shown as "EFI Boot").
@@ -44,6 +46,7 @@ Here is why this doesn't work and what your realistic options are:
    - These are usually more trouble than they're worth.
 
 ### Summary
+
 If your goal is **full Linux experience with Mac's hardware speed** → boot directly from the USB (best for Intel Macs).
 
 If you want **to stay in macOS** and still use Linux → run a VM (easiest and most practical).
@@ -52,6 +55,6 @@ The "SSH into USB Linux from macOS" idea unfortunately isn't feasible in a clean
 
 **References:**
 
-- https://askubuntu.com/questions/826943/booting-ubuntu-on-mac-from-usb
-- https://www.jeffgeerling.com/blog/2024/mounting-ext4-linux-usb-drive-on-macos-2024
-- https://www.kali.org/docs/usb/live-usb-install-with-mac
+- <https://askubuntu.com/questions/826943/booting-ubuntu-on-mac-from-usb>
+- <https://www.jeffgeerling.com/blog/2024/mounting-ext4-linux-usb-drive-on-macos-2024>
+- <https://www.kali.org/docs/usb/live-usb-install-with-mac>

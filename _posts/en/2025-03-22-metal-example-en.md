@@ -125,15 +125,19 @@ int main() {
 ```
 
 ### Prerequisites
+
 1. **macOS**: This code runs on macOS with a compatible GPU (any modern Mac should work).
 2. **Xcode**: Install Xcode to get the Metal framework and command-line tools.
 3. **Compile**: Use `clang++` with Metal frameworks:
+
    ```bash
    clang++ -framework Metal -framework Foundation vector_add.mm -o vector_add
    ```
+
    Note: Save the file with a `.mm` extension since it uses Objective-C++ (Metal requires Objective-C runtime).
 
 ### Key Low-Level Aspects
+
 1. **Manual Resource Management**: Explicitly creating buffers with `newBuffer` and managing memory without high-level wrappers.
 2. **Direct Shader Definition**: The Metal Shading Language (MSL) kernel is defined inline as a string, compiled at runtime.
 3. **Thread Configuration**: Manually calculating grid and threadgroup sizes, similar to CUDA's blocks and threads.
@@ -141,7 +145,9 @@ int main() {
 5. **No Abstractions**: Avoids MetalKit or other high-level frameworks, sticking to core Metal APIs.
 
 ### Output
+
 Running this will produce something like:
+
 ```
 0 + 0 = 0
 1 + 2 = 3
@@ -151,11 +157,13 @@ Running this will produce something like:
 ```
 
 ### Differences from CUDA
+
 - **API Style**: Metal uses an Objective-C++-based API with `NS::` objects, unlike CUDA's C-style API.
 - **Memory Model**: Metal's shared storage mode (`MTL::ResourceStorageModeShared`) allows CPU/GPU access to the same memory, simplifying transfers compared to CUDA's explicit `cudaMemcpy`.
 - **Thread Model**: Metal uses `dispatchThreads` with grid/threadgroup sizes, conceptually similar to CUDA's grid/block model but with different terminology and configuration.
 
 ### Tips for Metal on macOS
+
 - **Debugging**: Use Xcode's Metal debugger to inspect GPU execution.
 - **Documentation**: Check Apple's Metal documentation for deeper details (available in Xcode or online at developer.apple.com).
 - **Performance**: For larger datasets, optimize threadgroup sizes based on `maxTotalThreadsPerThreadgroup`.

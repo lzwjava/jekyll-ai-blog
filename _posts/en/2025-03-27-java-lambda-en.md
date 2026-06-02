@@ -84,14 +84,14 @@ Let's look at some examples to understand how lambda expressions work:
 
 Method references are a shorthand syntax for lambda expressions that simply call an existing method. They make your code even more concise. There are four kinds of method references:
 
-1.  **Reference to a static method:** `ClassName::staticMethodName`
+1. **Reference to a static method:** `ClassName::staticMethodName`
 
     ```java
     java.util.function.Function<String, Integer> stringToInt = Integer::parseInt;
     int number = stringToInt.apply("123"); // number will be 123
     ```
 
-2.  **Reference to an instance method of a particular object:** `instance::instanceMethodName`
+2. **Reference to an instance method of a particular object:** `instance::instanceMethodName`
 
     ```java
     String message = "Hello";
@@ -99,6 +99,7 @@ Method references are a shorthand syntax for lambda expressions that simply call
     java.util.function.Supplier<Integer> getLength = message::length;
     int len = getLength.get(); // len will be 5
     ```
+
     **Correction:** The `Consumer` example should take an argument. Here's a better example:
 
     ```java
@@ -106,6 +107,7 @@ Method references are a shorthand syntax for lambda expressions that simply call
     java.util.function.Consumer<String> printContains = s -> message.contains(s);
     printContains.accept("ll"); // This will execute message.contains("ll")
     ```
+
     For a `Supplier`, it's more like:
 
     ```java
@@ -114,14 +116,14 @@ Method references are a shorthand syntax for lambda expressions that simply call
     int len = getLength.get(); // len will be 5
     ```
 
-3.  **Reference to an instance method of an arbitrary object of a particular type:** `ClassName::instanceMethodName`
+3. **Reference to an instance method of an arbitrary object of a particular type:** `ClassName::instanceMethodName`
 
     ```java
     java.util.function.BiPredicate<String, String> checkStartsWith = String::startsWith;
     boolean starts = checkStartsWith.test("Java", "Ja"); // starts will be true
     ```
 
-4.  **Reference to a constructor:** `ClassName::new`
+4. **Reference to a constructor:** `ClassName::new`
 
     ```java
     java.util.function.Supplier<String> createString = String::new;

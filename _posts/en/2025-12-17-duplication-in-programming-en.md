@@ -16,7 +16,7 @@ Answer:
 
 In programming, it is practically impossible to completely avoid all forms of duplication, and that's not always desirable. Duplication (or repetition) is a natural and often necessary part of code and data. The key is distinguishing between **beneficial duplication** (which improves clarity, performance, or expressiveness) and **harmful duplication** (which leads to maintenance issues, bugs, or inefficiency).
 
-### When we should intentionally allow or introduce duplicates:
+### When we should intentionally allow or introduce duplicates
 
 1. **For readability and expressiveness**
    Repeating values or patterns makes intent clearer.
@@ -35,7 +35,7 @@ In programming, it is practically impossible to completely avoid all forms of du
 5. **When abstraction adds complexity**
    Trying to eliminate every repeated character or value can lead to overly complex code. For example, generating `"hello"` without repeating any letter is impossible in English while keeping it meaningful.
 
-### When we should eliminate duplicates:
+### When we should eliminate duplicates
 
 1. **Configuration and magic values**
    Repeated hardcoded values (e.g., `42` scattered across code) should be extracted into named constants.
@@ -54,7 +54,7 @@ In programming, it is practically impossible to completely avoid all forms of du
 5. **Memory or storage efficiency**
    In resource-constrained environments, removing unnecessary duplicates saves space (e.g., string interning, flyweight pattern).
 
-### Summary guideline:
+### Summary guideline
 
 - **Allow duplicates** when they carry meaning, improve clarity, or when removing them adds unnecessary complexity.
 - **Eliminate duplicates** when they are accidental, represent the same concept in multiple places, or cause maintenance/scalability issues.

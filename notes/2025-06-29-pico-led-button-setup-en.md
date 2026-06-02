@@ -11,6 +11,7 @@ type: note
 To set up a Raspberry Pi Pico to run the provided MicroPython code, which controls an LED based on a button press, follow these steps:
 
 ### Hardware Requirements
+
 - **Raspberry Pi Pico** (or Pico W)
 - **LED** (with an appropriate current-limiting resistor, e.g., 220–330 ohms)
 - **Pushbutton switch**
@@ -19,6 +20,7 @@ To set up a Raspberry Pi Pico to run the provided MicroPython code, which contro
 - **USB cable** (to connect the Pico to your computer)
 
 ### Hardware Setup
+
 1. **Connect the LED**:
    - Connect the LED's anode (longer leg) to **GPIO 25** (physical pin 30) on the Pico.
    - Connect the LED's cathode (shorter leg) to a **ground (GND)** pin (e.g., physical pin 3) through a 220–330 ohm resistor to limit current.
@@ -33,6 +35,7 @@ To set up a Raspberry Pi Pico to run the provided MicroPython code, which contro
    - Refer to the Pico pinout diagram (available online or in the Pico datasheet) to confirm pin assignments.
 
 ### Software Setup
+
 1. **Install MicroPython on the Pico**:
    - Download the latest MicroPython UF2 firmware for the Raspberry Pi Pico from the [official MicroPython website](https://micropython.org/download/rp2-pico/).
    - Connect the Pico to your computer via a USB cable while holding the **BOOTSEL** button.
@@ -47,6 +50,7 @@ To set up a Raspberry Pi Pico to run the provided MicroPython code, which contro
 
 3. **Upload and Run the Code**:
    - Copy the provided code into a file named `main.py`:
+
      ```python
      from machine import Pin
      import time
@@ -61,19 +65,23 @@ To set up a Raspberry Pi Pico to run the provided MicroPython code, which contro
              led.off()
          time.sleep(0.05)
      ```
+
    - In Thonny:
      - Open a new file, paste the code, and save it to the Pico as `main.py` (MicroPython automatically runs `main.py` on boot).
      - Click the **Run** button or press **F5** to upload and execute the code.
    - Alternatively, use `ampy` to upload the file:
+
      ```bash
      ampy --port /dev/ttyACM0 put main.py
      ```
+
      Replace `/dev/ttyACM0` with your Pico’s port.
 
 4. **Test the Program**:
    - Once the code is uploaded, the LED should turn on when the button is pressed and turn off when released. The `time.sleep(0.05)` adds a 50ms delay to debounce the button and reduce CPU load.
 
 ### Troubleshooting
+
 - **LED doesn’t light up**:
   - Check LED polarity (anode to GPIO 25, cathode to GND via resistor).
   - Verify the GPIO pin (25) matches the code and physical connection.
@@ -87,7 +95,9 @@ To set up a Raspberry Pi Pico to run the provided MicroPython code, which contro
   - Check the USB connection and port settings in your IDE.
 
 ### Notes
+
 - The code assumes the button connects GPIO 14 to 3.3V when pressed. If your button connects to GND instead, modify the code to use `Pin.PULL_UP` and reverse the logic:
+
   ```python
   button = Pin(14, Pin.IN, Pin.PULL_UP)
   while True:
@@ -97,6 +107,7 @@ To set up a Raspberry Pi Pico to run the provided MicroPython code, which contro
           led.off()
       time.sleep(0.05)
   ```
+
 - If you experience button bounce (flickering LED), increase the `time.sleep` value or implement software debouncing.
 - For a Pico W, the setup is identical, but ensure you’re using the correct GPIO pins, as the pinout is the same.
 

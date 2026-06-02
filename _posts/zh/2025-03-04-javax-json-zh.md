@@ -11,6 +11,7 @@ type: note
 我将解释如何使用 `javax.json` 包（Java API for JSON Processing 的一部分）来处理 Java 中的 JSON 数据。以下是详细指南：
 
 1. 首先，在项目中添加依赖（如果使用 Maven）：
+
 ```xml
 <dependency>
     <groupId>javax.json</groupId>
@@ -28,6 +29,7 @@ type: note
 2. 使用 `javax.json` 的基础示例：
 
 a) 创建 JSON 对象：
+
 ```java
 import javax.json.Json;
 import javax.json.JsonObject;
@@ -51,6 +53,7 @@ public class JsonExample {
 ```
 
 b) 创建 JSON 数组：
+
 ```java
 JsonArray jsonArray = Json.createArrayBuilder()
     .add("Apple")
@@ -62,6 +65,7 @@ JsonArray jsonArray = Json.createArrayBuilder()
 ```
 
 c) 从字符串解析 JSON：
+
 ```java
 import javax.json.JsonReader;
 import java.io.StringReader;
@@ -77,6 +81,7 @@ int age = parsedObject.getInt("age");
 ```
 
 d) 将 JSON 写入字符串：
+
 ```java
 import javax.json.JsonWriter;
 import java.io.StringWriter;
@@ -94,6 +99,7 @@ String result = stringWriter.toString();
 ```
 
 3. 关键类和接口：
+
 - `Json`：创建 JSON 构建器和读取器的工厂类
 - `JsonObject`：表示 JSON 对象
 - `JsonArray`：表示 JSON 数组
@@ -103,6 +109,7 @@ String result = stringWriter.toString();
 - `JsonWriter`：将 JSON 写入输出源
 
 4. 处理不同的 JSON 值类型：
+
 ```java
 JsonObject obj = // ... 某个 JSON 对象
 String stringValue = obj.getString("key");
@@ -118,6 +125,7 @@ if (obj.containsKey("key") && !obj.isNull("key")) {
 ```
 
 5. 流式 API 示例（用于大型 JSON）：
+
 ```java
 import javax.json.stream.JsonParser;
 import java.io.StringReader;
@@ -142,6 +150,7 @@ parser.close();
 ```
 
 提示：
+
 - 使用完毕后始终关闭 `JsonReader`、`JsonWriter` 和 `JsonParser`
 - 处理 `javax.json.JsonException` 以应对可能的解析错误
 - 对于大型 JSON 文档使用流式 API（`JsonParser`）

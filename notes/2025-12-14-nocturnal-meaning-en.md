@@ -18,7 +18,8 @@ Answer:
 
 It derives from the adjective "nocturnal," which means "of, relating to, or occurring in the night" (often used for animals active at night, like owls or bats).
 
-### Examples:
+### Examples
+
 - Many animals, such as bats, feed **nocturnally**.
 - Some flowers are pollinated **nocturnally** by moths.
 - The patient's symptoms appear **nocturnally**.

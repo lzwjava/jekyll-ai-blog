@@ -13,13 +13,16 @@ type: note
 ---
 
 ### 使用命令行 `code --install-extension`
+
 您可以通过命令行安装扩展，并查看安装过程的相关信息，这有助于诊断代理问题。
 
 1. **使用详细输出安装**
    运行以下命令安装扩展并查看更详细的输出：
+
    ```bash
    code --install-extension <扩展ID> --verbose
    ```
+
    - 将 `<扩展ID>` 替换为扩展的实际 ID（例如 `vscodevim.vim`）。
    - `--verbose` 标志会增加输出的详细程度，显示进度和可能的错误，例如代理或网络问题。
 
@@ -27,19 +30,24 @@ type: note
    如果您位于代理之后，可能会干扰安装。尝试以下方法：
    - **设置代理环境变量**：
      在运行命令之前，配置代理设置：
+
      ```bash
      export HTTP_PROXY=http://您的代理服务器:端口
      export HTTPS_PROXY=http://您的代理服务器:端口
      code --install-extension <扩展ID>
      ```
+
      - 在 Windows 上，使用 `set` 而不是 `export`：
+
        ```cmd
        set HTTP_PROXY=http://您的代理服务器:端口
        set HTTPS_PROXY=http://您的代理服务器:端口
        code --install-extension <扩展ID>
        ```
+
    - **直接指定代理**：
      使用 `--proxy-server` 标志：
+
      ```bash
      code --install-extension <扩展ID> --proxy-server=http://您的代理服务器:端口
      ```
@@ -51,6 +59,7 @@ type: note
 ---
 
 ### 在 VSCode 中检查日志
+
 如需更详细的日志——特别是在安装尝试之后——可以使用 VSCode 的内置日志功能：
 
 1. **打开日志文件夹**
@@ -70,14 +79,17 @@ type: note
 ---
 
 ### 代理故障排除的额外步骤
+
 由于您怀疑是代理问题，以下是一些额外提示以确保配置正确：
 
 - **在 VSCode 中配置代理**
   - 打开 VSCode 设置（`文件 > 首选项 > 设置` 或 `Ctrl+,`）。
   - 搜索 `proxy` 并设置：
+
     ```json
     "http.proxy": "http://您的代理服务器:端口"
     ```
+
   - 可选调整 `"http.proxyStrictSSL"`（如果需要，设置为 `false`）或 `"http.proxyAuthorization"`（用于需要认证的代理）。
   - 这些设置适用于 VSCode 内部的安装，不一定适用于 CLI。
 
@@ -85,14 +97,17 @@ type: note
   - 手动测试代理是否允许访问 VSCode 市场：
     - 从市场网站找到扩展的 VSIX 文件 URL。
     - 使用 `curl` 等工具：
+
       ```bash
       curl -x http://您的代理服务器:端口 <vsix-url>
       ```
+
     - 如果失败，可能是代理阻止了连接。
 
 ---
 
 ### 推荐方法
+
 - **对于 CLI 安装**：使用 `code --install-extension <扩展ID> --verbose` 并配合代理环境变量或 `--proxy-server` 以查看即时输出。检查终端中的错误。
 - **对于详细日志**：通过 VSCode 界面（市场）安装扩展，并检查 **输出 > Extensions** 面板或日志文件夹（`exthost.log`）。
 - **代理检查**：确保系统和 VSCode 中的代理设置正确。

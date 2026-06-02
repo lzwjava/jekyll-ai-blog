@@ -15,7 +15,7 @@ Summary of the HTTPS migration:
 
 Your `ww projects update` was failing/slow on several repos because:
 
-1. 43 out of 60 repos used SSH remotes (git@github.com:...) which routed through ncat → SOCKS5 → mihomo → DMIT LA proxy → GitHub. This path was slow and unreliable for large transfers.
+1. 43 out of 60 repos used SSH remotes (<git@github.com>:...) which routed through ncat → SOCKS5 → mihomo → DMIT LA proxy → GitHub. This path was slow and unreliable for large transfers.
 
 2. One repo (Qwen2.5-Coder) had 296 stale fork commits causing `git pull` to fail with "divergent branches".
 
@@ -34,7 +34,7 @@ ghfast.top was the only one that actually worked at the time, so I used it. You 
 
 == WHAT CHANGED ==
 
-- 53 repos: SSH (git@github.com:) → HTTPS (https://github.com/)
+- 53 repos: SSH (<git@github.com>:) → HTTPS (<https://github.com/>)
 - 1 repo: weird `org-14957082@github.com:` → HTTPS (codex)
 - 1 repo: Qwen2.5-Coder reset to upstream (dropped 296 stale fork commits)
 - repos.json: added nmap + clash-core (were in FALLBACK_REPOS but missing from config)

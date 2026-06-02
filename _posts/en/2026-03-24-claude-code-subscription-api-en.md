@@ -56,6 +56,7 @@ export AWS_REGION=us-east-1
 Bedrock is pay-as-you-go — no seats, no contracts. You pay a single per-token price to AWS. There is no separate Anthropic bill.
 
 Key benefits of Bedrock include:
+
 - Unified billing: Claude Code usage appears in your AWS bill alongside EC2, S3, and other services. No separate vendor relationships or payment methods needed.
 - Centralized access control: developers authenticate using your existing AWS IAM or IAM Identity Center (SSO) instead of managing separate API keys.
 

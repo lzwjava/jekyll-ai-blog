@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What does the article "编程的智慧" (The Wisdom of Programming) by Wang Yin say, as found at the GitHub link https://github.com/AlexiaChen/YinWangBak/blob/master/编程的智慧.md?
+Question: What does the article "编程的智慧" (The Wisdom of Programming) by Wang Yin say, as found at the GitHub link <https://github.com/AlexiaChen/YinWangBak/blob/master/编程的智慧.md>?
 
 Answer:
 
@@ -48,6 +48,7 @@ Elegant code also has a tree-like structure. Programs mostly deal with informati
 True modularity is not about splitting code across many files and directories — that is only a superficial and often counterproductive approach. Real modularity is logical. A module should behave like a circuit chip with well-defined inputs and outputs. The best modularization tool that already exists is simply the **function**: each function has clear inputs (parameters) and outputs (return values).
 
 Key principles for modular code:
+
 - **Keep functions short** — ideally under 40 lines, so the whole function fits in your visual field without scrolling.
 - **Create small utility/helper functions** — even a two-line helper can greatly simplify the main function's logic.
 - **Each function should do one simple thing** — avoid multi-purpose functions that branch internally based on conditions; split them into separate, specialized functions instead.
@@ -60,6 +61,7 @@ Key principles for modular code:
 Truly elegant and readable code hardly needs comments. If you find yourself needing to write many comments, it likely means your code's logic is unclear. Programming languages are actually more powerful and precise than natural languages — they contain the equivalent of nouns, verbs, conditionals, and so on. If you use the language's expressive power fully, the code itself explains what it does.
 
 Specific tips for readable code:
+
 - Use meaningful function and variable names.
 - Declare local variables close to where they are used.
 - Keep local variable names short and context-specific.
@@ -73,6 +75,7 @@ Specific tips for readable code:
 ## 5. Write Simple Code (Avoid Over-Engineering)
 
 The article warns against unnecessary complexity:
+
 - Avoid deep inheritance hierarchies and over-use of design patterns.
 - Don't add abstractions or generalization until you actually need them.
 - Resist the temptation to "future-proof" code prematurely — this usually adds complexity without benefit.

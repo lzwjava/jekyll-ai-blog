@@ -70,6 +70,7 @@ The `match` statement is more powerful than traditional switch because it suppor
 ### Older alternatives (before Python 3.10)
 
 Common ways to simulate switch:
+
 - Using a dictionary:
 
 ```python

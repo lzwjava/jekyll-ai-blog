@@ -11,6 +11,7 @@ type: note
 I assume you meant "java.io.Serializable" - a key interface in Java used for object serialization. Here's a practical guide on how to use it:
 
 ### What is Serializable?
+
 `java.io.Serializable` is a marker interface (no methods to implement) that tells the Java runtime that a class can be serialized - converted into a byte stream to be saved to a file, sent over a network, or stored in a database, and later deserialized back into an object.
 
 ### Basic Steps to Use Serializable
@@ -99,6 +100,7 @@ I assume you meant "java.io.Serializable" - a key interface in Java used for obj
    Add this to your `Person` class.
 
 - **Transient Fields**: Fields marked with `transient` won’t be serialized.
+
    ```java
    private transient String temporaryData;
    ```
@@ -108,6 +110,7 @@ I assume you meant "java.io.Serializable" - a key interface in Java used for obj
 - **Inheritance**: If a superclass implements `Serializable`, subclasses are serializable too. If not, the superclass must have a no-arg constructor for deserialization to work.
 
 ### Example with transient and serialVersionUID
+
 ```java
 import java.io.Serializable;
 
@@ -131,20 +134,25 @@ public class Employee implements Serializable {
 ```
 
 ### Testing It
+
 Serialize and deserialize `Employee`. You’ll notice `password` is `null` after deserialization because it’s `transient`.
 
 ### Common Use Cases
+
 - Saving object state to a file (e.g., game saves).
 - Sending objects over a network (e.g., in RMI or distributed systems).
 - Caching objects.
 
 ### Pitfalls
+
 - **Security**: Serialization can expose private fields if not handled carefully. Consider custom `writeObject` and `readObject` methods for sensitive data.
 - **Performance**: Serialization can be slow for complex objects.
 - **Versioning**: Class changes (e.g., adding fields) can break deserialization unless `serialVersionUID` is managed.
 
 ### Custom Serialization (Optional)
+
 If you need control over serialization, implement these methods:
+
 ```java
 private void writeObject(ObjectOutputStream out) throws IOException {
     out.defaultWriteObject();

@@ -23,6 +23,7 @@ To Graham, painting represents a profound tool for heightened awareness, curiosi
 Graham's opinions on painting are insightful and often comparative, especially in his essay "Hackers and Painters," where he argues that true painters (like hackers) are "makers" driven by curiosity and a desire to create beautiful, functional work, using paint as a medium for expression similar to code for programmers. He believes great painting, as in 15th-century Florence, thrived because artists believed in objective standards of quality and aimed to make things that were both innovative and skillfully executed—factors enabled by the city's wealth, sophistication, and pre-photography economics. In contrast, he critiques modern art for abandoning these ideals, claiming that declaring "taste is subjective" undermines the possibility of "good art" altogether, allowing mediocrity to flourish under the guise of personal vision. Learning to paint, he asserts, happens through relentless practice—sketching, experimenting, and iterating—not formal courses, a lesson he applies to hacking and writing. Overall, he views painting as a richer, more human pursuit than abstract theory, one that rewards those who pursue excellence amid constraints, and he regrets only that contemporary institutions often stifle this spirit.
 
 References:
+
 - [Hackers and Painters](https://www.paulgraham.com/hp.html)
 - [How Art Can Be Good](https://paulgraham.com/goodart.html)
 - [Paul Graham - "Hackers and Painters" - The Artian](https://theartian.com/paul-graham-hackers-and-painters/)

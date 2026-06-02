@@ -11,6 +11,7 @@ type: note
 ---
 
 ### What Is a Growth Mindset?
+
 A growth mindset, popularized by psychologist Carol Dweck, is the belief that abilities and intelligence can be developed through dedication, effort, and learning from experiences. It contrasts with a fixed mindset, where talents are seen as innate and unchangeable. Cultivating a growth mindset boosts resilience, motivation, and long-term success in academics, work, and personal growth. Below, I'll outline practical techniques drawn from established strategies—start small, like picking one or two to try this week.
 
 ### Key Techniques to Build a Growth Mindset

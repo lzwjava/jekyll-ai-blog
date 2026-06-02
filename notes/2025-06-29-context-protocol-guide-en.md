@@ -13,7 +13,9 @@ To build a **model context protocol** for your Jekyll blog with 500 original pos
 ---
 
 ### 1. Understand the Purpose of the Model Context Protocol
+
 A model context protocol is a framework that provides structured metadata, access rules, and usage guidelines for your content. For your blog, this means:
+
 - **Context**: Metadata about your posts (e.g., topics, dates, categories, authors).
 - **Access**: How others can retrieve or query your content (e.g., via API, RSS, or direct links).
 - **Usage**: Licensing and rules for how others can use or reference your posts.
@@ -23,10 +25,13 @@ Your goal is to make your 500 posts discoverable, machine-readable, and usable w
 ---
 
 ### 2. Organize Your Jekyll Blog Content
+
 Since your blog is built on Jekyll, a static site generator, your posts are likely stored as Markdown files in the `_posts` directory. To create a protocol, ensure your content is well-organized and metadata-rich.
 
-#### Steps:
+#### Steps
+
 - **Standardize Post Metadata**: Ensure each post’s front matter (the YAML block at the top of each Markdown file) includes consistent fields. Example:
+
   ```yaml
   ---
   title: "How to Build a Model Context Protocol"
@@ -38,11 +43,13 @@ Since your blog is built on Jekyll, a static site generator, your posts are like
   license: CC BY-SA 4.0
   ---
   ```
+
   Add fields like `summary`, `license`, and `keywords` to make posts more discoverable.
 
 - **Categorize and Tag Posts**: Review your 500 posts and ensure they have relevant categories and tags. This helps users filter content by topic (e.g., tech, tutorials, personal).
 
 - **Create an Index**: Generate a master index of all posts (e.g., a JSON or YAML file) that lists metadata for each post. Example:
+
   ```json
   [
     {
@@ -56,6 +63,7 @@ Since your blog is built on Jekyll, a static site generator, your posts are like
     ...
   ]
   ```
+
   You can use a Jekyll plugin like `jekyll-data` or a custom script to generate this.
 
 - **Clean URLs**: Ensure your blog uses permalinks (e.g., `/year/month/day/title/`) for consistent referencing.
@@ -63,9 +71,11 @@ Since your blog is built on Jekyll, a static site generator, your posts are like
 ---
 
 ### 3. Define the Context Protocol
+
 The protocol should describe how your content is structured, accessed, and used. Create a dedicated page or file (e.g., `context-protocol.md` or `/context-protocol/` on your blog) with the following sections:
 
-#### Protocol Components:
+#### Protocol Components
+
 1. **Content Description**:
    - Describe your blog: “A Jekyll-based blog with 500 original posts covering topics like [list topics, e.g., tech, AI, tutorials].”
    - Highlight the types of content (e.g., articles, tutorials, opinion pieces).
@@ -74,6 +84,7 @@ The protocol should describe how your content is structured, accessed, and used.
 2. **Metadata Schema**:
    - Document the metadata fields available for each post (e.g., `title`, `date`, `categories`, `tags`, `summary`, `license`).
    - Example:
+
      ```markdown
      ### Metadata Schema
      - **title**: The title of the post (string).
@@ -88,6 +99,7 @@ The protocol should describe how your content is structured, accessed, and used.
    - **Direct Access**: Provide the base URL of your blog (e.g., `https://yourblog.com`).
    - **RSS Feed**: Ensure your Jekyll blog generates an RSS feed (e.g., `/feed.xml`). Most Jekyll setups include this by default or via plugins like `jekyll-feed`.
    - **API (Optional)**: If you want to make your content programmatically accessible, host a JSON file of your post index or set up a simple API using a tool like GitHub Pages with a serverless function (e.g., Netlify Functions or Cloudflare Workers). Example:
+
      ```markdown
      ### API Endpoint
      - **URL**: `https://yourblog.com/api/posts.json`
@@ -98,6 +110,7 @@ The protocol should describe how your content is structured, accessed, and used.
 4. **Usage Guidelines**:
    - Specify the license for your content (e.g., Creative Commons CC BY-SA 4.0 for attribution and share-alike).
    - Example:
+
      ```markdown
      ### Usage Rules
      - Content is licensed under CC BY-SA 4.0.
@@ -113,20 +126,24 @@ The protocol should describe how your content is structured, accessed, and used.
 ---
 
 ### 4. Implement Technical Enhancements
+
 To make your protocol practical for others to use, enhance your Jekyll blog with tools and features:
 
 - **Static API**: Generate a JSON file of your posts’ metadata using a Jekyll build script or plugin. For example, add this to your `_config.yml`:
+
   ```yaml
   collections:
     posts:
       output: true
       permalink: /:categories/:year/:month/:day/:title/
   ```
+
   Then, create a script to output a `posts.json` file during the build process.
 
 - **Host on GitHub Pages**: If your blog is hosted on GitHub Pages, ensure it’s publicly accessible. Push your `_posts` directory to a public repository so others can fork or parse it.
 
 - **Add Schema.org Markup**: Enhance your posts with structured data (e.g., JSON-LD) to make them machine-readable by search engines and AI systems. Example:
+
   ```html
   <script type="application/ld+json">
   {
@@ -142,6 +159,7 @@ To make your protocol practical for others to use, enhance your Jekyll blog with
   }
   </script>
   ```
+
   Use a Jekyll plugin like `jekyll-seo-tag` to automate this.
 
 - **Version Control**: If you update posts, maintain a changelog or version history in your protocol to track changes.
@@ -149,16 +167,20 @@ To make your protocol practical for others to use, enhance your Jekyll blog with
 ---
 
 ### 5. Publish and Share the Protocol
+
 - **Host the Protocol**: Create a dedicated page on your blog (e.g., `https://yourblog.com/context-protocol/`) or a Markdown file in your repository (e.g., `context-protocol.md`).
 - **Promote It**: Share the protocol on social media, X, or developer communities (e.g., GitHub, DEV.to). Example post:
+
   ```markdown
   I've published a model context protocol for my Jekyll blog with 500 original posts! 📝 Access metadata, RSS, or JSON API to reference my content. Licensed under CC BY-SA 4.0. Check it out: [link]
   ```
+
 - **Link in README**: If your blog’s source is on GitHub, add the protocol details to your repository’s README.
 
 ---
 
 ### 6. Maintain and Update
+
 - **Regular Updates**: As you add new posts, ensure they follow the same metadata schema and are included in your index or API.
 - **Feedback Loop**: Invite users to provide feedback on the protocol (e.g., via a contact form or GitHub issues).
 - **Monitor Usage**: Use analytics (e.g., Google Analytics or Matomo) to track how others are accessing your content.
@@ -166,6 +188,7 @@ To make your protocol practical for others to use, enhance your Jekyll blog with
 ---
 
 ### Example Protocol Page
+
 Here’s a simplified example of what your protocol page might look like:
 
 ```markdown
@@ -205,6 +228,7 @@ This blog contains 500 original posts on topics like tech, AI, and blogging, bui
 ---
 
 ### 7. Optional: Advanced Features
+
 - **API with Authentication**: If you want to control access, set up an API with rate-limiting or API keys using a serverless platform.
 - **Content Syndication**: Allow others to syndicate your content via RSS or Atom feeds with clear attribution rules.
 - **Semantic Web Compatibility**: Use RDF or other semantic web standards for advanced interoperability.
@@ -212,6 +236,7 @@ This blog contains 500 original posts on topics like tech, AI, and blogging, bui
 ---
 
 ### Notes
+
 - **Licensing**: Choose a clear license (e.g., CC BY-SA 4.0) to avoid ambiguity. If you’re unsure, consult a legal expert.
 - **Scalability**: If your blog grows beyond 500 posts, ensure your index and API can handle larger datasets.
 - **Privacy**: Avoid exposing sensitive data in your metadata or public repository.

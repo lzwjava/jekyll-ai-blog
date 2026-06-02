@@ -22,6 +22,7 @@ As of 2026, **Hysteria 2** is the actively maintained version with better protoc
 The official one-click installation script is the easiest and most reliable method for Ubuntu (works on 20.04, 22.04, 24.04, etc.).
 
 1. **Run the installation script** (installs latest version, sets up systemd service):
+
    ```bash
    bash <(curl -fsSL https://get.hy2.sh/)
    ```
@@ -29,11 +30,13 @@ The official one-click installation script is the easiest and most reliable meth
    - This downloads the binary, creates `/etc/hysteria/config.yaml`, and sets up `hysteria-server.service`.
 
 2. **Edit the configuration file**:
+
    ```bash
    nano /etc/hysteria/config.yaml
    ```
 
    Minimal working example (replace values):
+
    ```yaml
    listen: :443   # UDP port (usually 443)
 
@@ -57,25 +60,29 @@ The official one-click installation script is the easiest and most reliable meth
    - Full config options → official docs.
 
 3. **Start and enable the service**:
+
    ```bash
    systemctl daemon-reload
    systemctl enable --now hysteria-server
    ```
 
 4. **Check status and logs**:
+
    ```bash
    systemctl status hysteria-server
    journalctl -u hysteria-server -ef
    ```
 
 5. **Firewall** (if using ufw):
+
    ```bash
    ufw allow 443/udp
    ```
 
 6. **Update later** → just re-run the same install command.
 
-**Note**: If GitHub is blocked, download the binary manually from https://github.com/apernet/hysteria/releases and use:
+**Note**: If GitHub is blocked, download the binary manually from <https://github.com/apernet/hysteria/releases> and use:
+
 ```bash
 bash <(curl -fsSL https://get.hy2.sh/) --local /path/to/hysteria-linux-amd64
 ```
@@ -83,6 +90,7 @@ bash <(curl -fsSL https://get.hy2.sh/) --local /path/to/hysteria-linux-amd64
 ### Installing Original Hysteria 1.x (Legacy – Not Recommended)
 
 Use the old repo/script if you specifically need compatibility with old clients:
+
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/apernet/hysteria/master/scripts/install_server.sh)
 ```

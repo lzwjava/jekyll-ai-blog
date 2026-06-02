@@ -10,36 +10,35 @@ type: note
 
 This JSON file contains various VS Code settings that customize the editor's behavior and appearance. Here's a brief overview of what each setting does:
 
-*   `eslint.autoFixOnSave`: Automatically fixes ESLint issues when saving a file.
-*   `java.errors.incompleteClasspath.severity`: Configures how VS Code handles incomplete Java classpath errors. In this case, it ignores them.
-*   `files.associations`: Associates specific file extensions with languages for syntax highlighting and language support.
-*   `emmet.syntaxProfiles`: Defines syntax profiles for Emmet abbreviations in specific file types.
-*   `editor.suggestSelection`: Determines how suggestions are selected in the editor.
-*   `vsintellicode.modify.editor.suggestSelection`: Modifies the editor's suggestion selection behavior using VS IntelliCode.
-*   `git.ignoreMissingGitWarning`: Disables the warning for missing Git repositories.
-*   `python.jediEnabled`: Disables Jedi as the completion engine for Python (Pylance is preferred).
-*   `editor.codeActionsOnSave`: Specifies code actions to run on save, such as ESLint fixes.
-*   `python.languageServer`: Sets the Python language server to Pylance.
-*   `editor.renderWhitespace`: Controls how whitespace is rendered in the editor.
-*   `workbench.editorAssociations`: Associates file patterns with specific editors.
-*   `debug.console.fontSize`: Sets the font size for the debug console.
-*   `terminal.integrated.fontSize`: Sets the font size for the integrated terminal.
-*   `terminal.integrated.shell.osx`: Specifies the shell to use on macOS.
-*   `explorer.confirmDelete`: Disables confirmation dialogs when deleting files in the Explorer.
-*   `ruby.codeCompletion`: Sets the code completion engine for Ruby.
-*   `ruby.intellisense`: Configures Ruby IntelliSense.
-*   `C_Cpp.updateChannel`: Sets the update channel for the C/C++ extension.
-*   `editor.formatOnType`: Enables formatting as you type.
-*   `[Log]`: Specific editor settings for files identified as "Log".
-*   `files.exclude`: Excludes specified files and folders from the Explorer.
-*   `redhat.telemetry.enabled`: Enables or disables Red Hat telemetry.
-*   `java.configuration.runtimes`: Configures Java runtime environments.
-*   `java.debug.settings.vmArgs`: Sets VM arguments for Java debugging.
-*   `mssql.connections`: Stores connection information for MSSQL databases.
-
-
+* `eslint.autoFixOnSave`: Automatically fixes ESLint issues when saving a file.
+* `java.errors.incompleteClasspath.severity`: Configures how VS Code handles incomplete Java classpath errors. In this case, it ignores them.
+* `files.associations`: Associates specific file extensions with languages for syntax highlighting and language support.
+* `emmet.syntaxProfiles`: Defines syntax profiles for Emmet abbreviations in specific file types.
+* `editor.suggestSelection`: Determines how suggestions are selected in the editor.
+* `vsintellicode.modify.editor.suggestSelection`: Modifies the editor's suggestion selection behavior using VS IntelliCode.
+* `git.ignoreMissingGitWarning`: Disables the warning for missing Git repositories.
+* `python.jediEnabled`: Disables Jedi as the completion engine for Python (Pylance is preferred).
+* `editor.codeActionsOnSave`: Specifies code actions to run on save, such as ESLint fixes.
+* `python.languageServer`: Sets the Python language server to Pylance.
+* `editor.renderWhitespace`: Controls how whitespace is rendered in the editor.
+* `workbench.editorAssociations`: Associates file patterns with specific editors.
+* `debug.console.fontSize`: Sets the font size for the debug console.
+* `terminal.integrated.fontSize`: Sets the font size for the integrated terminal.
+* `terminal.integrated.shell.osx`: Specifies the shell to use on macOS.
+* `explorer.confirmDelete`: Disables confirmation dialogs when deleting files in the Explorer.
+* `ruby.codeCompletion`: Sets the code completion engine for Ruby.
+* `ruby.intellisense`: Configures Ruby IntelliSense.
+* `C_Cpp.updateChannel`: Sets the update channel for the C/C++ extension.
+* `editor.formatOnType`: Enables formatting as you type.
+* `[Log]`: Specific editor settings for files identified as "Log".
+* `files.exclude`: Excludes specified files and folders from the Explorer.
+* `redhat.telemetry.enabled`: Enables or disables Red Hat telemetry.
+* `java.configuration.runtimes`: Configures Java runtime environments.
+* `java.debug.settings.vmArgs`: Sets VM arguments for Java debugging.
+* `mssql.connections`: Stores connection information for MSSQL databases.
 
 {% raw %}
+
 ```json
 {
       "eslint.autoFixOnSave": true,
@@ -167,4 +166,5 @@ This JSON file contains various VS Code settings that customize the editor's beh
       "tabnine.experimentalAutoImports": true,
 }
 ```
+
 {% endraw %}

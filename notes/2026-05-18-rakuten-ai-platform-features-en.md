@@ -32,6 +32,7 @@ Rakuten Group's mission is a company-wide effort called "AI-nization" — infusi
 ## Key Features
 
 Rakuten AI offers specialized AI skills, including:
+
 - AI chat
 - AI search with deep think
 - Voice mode

@@ -13,6 +13,7 @@ type: note
 Yes, you can purchase servers (specifically ECS instances) on Alibaba Cloud (Aliyun) that support high-speed international connectivity, including options that leverage premium routes similar to CN2 for better outbound performance from mainland China to overseas locations. However, it's not always explicitly labeled as "CN2" in mainland regions like cn-guangzhou, and availability can depend on your configuration. Here's a breakdown based on current offerings:
 
 ### Mainland China Options (e.g., cn-guangzhou Region)
+
 - Alibaba Cloud's ECS instances in mainland regions use BGP multi-line networking by default, which connects to major carriers like China Telecom, China Unicom, and China Mobile. This can route through premium paths, including CN2 (China Telecom's high-quality international backbone), but it's not guaranteed for every instance— it depends on traffic routing and carrier optimization.
 - For optimized high-speed outbound to overseas (what you call "export port"), you can enable **Global Internet Access (GIA)**. This service provides dedicated, premium links between mainland China and international destinations, reducing latency (often to ~1ms for cross-border traffic) and improving speed/reliability. It's designed exactly for scenarios like yours, where you need fast exports from China.
   - How to set it up: Purchase an ECS instance in the cn-guangzhou region (ideal since you're in Guangzhou for low local latency). Then, associate an Elastic IP (EIP) with premium bandwidth via NAT Gateway. Enable GIA on the EIP for enhanced international routing.
@@ -21,16 +22,19 @@ Yes, you can purchase servers (specifically ECS instances) on Alibaba Cloud (Ali
 - Note: If your goal is purely high-speed to overseas, mainland instances may still face some GFW-related slowdowns or congestion on non-premium routes. GIA helps mitigate this.
 
 ### Hong Kong Region Alternative (Recommended for Guaranteed CN2)
+
 - If you want explicit CN2 connectivity, opt for the China (Hong Kong) region (cn-hongkong). Alibaba Cloud advertises CN2 lines here for premium international bandwidth, which is optimized for fast outbound from China to global locations (bypassing some mainland routing issues).
   - Why this fits: Guangzhou is very close to HK, so your local access to the server would have minimal latency (~10-20ms). It's essentially "from China" but with better overseas export speeds.
   - Setup: Buy an ECS instance in cn-hongkong, and select premium EIP. CN2 is integrated for international traffic.
   - This is popular for users in southern China needing high-speed global access, as HK isn't subject to the same mainland restrictions.
 
 ### How to Buy
+
 1. Log in to your Aliyun account (or create one at aliyun.com/international for the global version).
 2. Go to the ECS console, select the region (cn-guangzhou for mainland or cn-hongkong for CN2-guaranteed).
 3. Choose instance type, OS, and bandwidth (select premium/international options during EIP setup).
 4. For GIA in mainland: Enable it via the NAT Gateway or EIP console after instance creation.
+
 - If you're new, real-name verification is required for mainland resources.
 - Test speeds post-setup using tools like speedtest.net to overseas servers.
 

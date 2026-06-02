@@ -15,6 +15,7 @@ Here are several key takeaways or things we can learn from Reid Barton:
 ---
 
 ### 1. **Deep Understanding Over Memorization**
+
 Barton’s success stems not just from knowing formulas or tricks but from deeply understanding mathematical concepts. He applies creative thinking and insight to solve complex problems, often seeing connections others miss.
 
 - **Lesson**: Focus on mastering the *why* behind concepts rather than just the *how*. Deep conceptual understanding allows flexibility and creativity in problem-solving.
@@ -22,6 +23,7 @@ Barton’s success stems not just from knowing formulas or tricks but from deepl
 ---
 
 ### 2. **Consistent Practice and Deliberate Effort**
+
 Barton didn't become one of the top mathematical minds overnight. His multiple IMO golds and Putnam Fellowships show years of consistent practice, tackling increasingly difficult problems.
 
 - **Lesson**: Mastery comes through persistence, repetition, and deliberate practice — regularly pushing your limits with challenging material and reflecting on mistakes.
@@ -29,6 +31,7 @@ Barton didn't become one of the top mathematical minds overnight. His multiple I
 ---
 
 ### 3. **Problem-Solving as a Skill**
+
 He treats problem-solving as a skill that can be honed, not an innate talent. His approach involves recognizing patterns, breaking problems into smaller parts, and experimenting with different techniques.
 
 - **Lesson**: Problem-solving is a trainable skill. Learn common strategies (e.g., induction, contradiction, pigeonhole principle), and practice applying them across varied contexts.
@@ -36,6 +39,7 @@ He treats problem-solving as a skill that can be honed, not an innate talent. Hi
 ---
 
 ### 4. **Thinking Like a Computer Scientist (and Vice Versa)**
+
 In addition to math olympiads, Barton excelled in programming contests like the ACM ICPC. This dual expertise allowed him to combine algorithmic thinking with mathematical rigor.
 
 - **Lesson**: Interdisciplinary thinking enhances creativity. Learning computer science fundamentals — algorithms, data structures, logic — helps in both theoretical and applied problem-solving.
@@ -43,6 +47,7 @@ In addition to math olympiads, Barton excelled in programming contests like the 
 ---
 
 ### 5. **Competing at the Highest Level Builds Resilience**
+
 His repeated participation and success in elite competitions show resilience under pressure, time management skills, and the ability to stay calm and focused in intense environments.
 
 - **Lesson**: Exposure to competition builds mental toughness. Learn to manage stress, accept failure as feedback, and keep improving.
@@ -50,6 +55,7 @@ His repeated participation and success in elite competitions show resilience und
 ---
 
 ### 6. **Early Exposure and Curiosity Matter**
+
 Barton started competing and solving advanced problems at a young age. His curiosity and early exposure to Olympiad-style problems gave him a head start.
 
 - **Lesson**: Start early when possible, but more importantly, cultivate curiosity. Ask questions, explore beyond the curriculum, and seek out challenging problems.
@@ -57,6 +63,7 @@ Barton started competing and solving advanced problems at a young age. His curio
 ---
 
 ### 7. **Mentorship and Community Are Crucial**
+
 Barton benefited from strong mathematical communities and likely learned from and collaborated with other top students and mentors.
 
 - **Lesson**: Surround yourself with people who challenge and inspire you. Engage in study groups, online forums (like Art of Problem Solving), or local math circles.
@@ -64,6 +71,7 @@ Barton benefited from strong mathematical communities and likely learned from an
 ---
 
 ### 8. **Transition Beyond Competitions**
+
 After competitions, Barton continued in academia and research, showing that these contests can be a gateway to deeper exploration in mathematics and computer science.
 
 - **Lesson**: Competitions are a powerful training ground, but they're just the beginning. Use these skills to tackle open problems, conduct research, or contribute to real-world applications.
@@ -73,6 +81,7 @@ After competitions, Barton continued in academia and research, showing that thes
 ### Bonus: Study Resources Inspired by Reid Barton
 
 While there may not be books specifically written by Barton, his influence appears in:
+
 - The **Art of Problem Solving (AoPS)** community, where he was active.
 - Past IMO and Putnam problems — many of which he solved beautifully.
 - Online archives of his contest performances and solutions.

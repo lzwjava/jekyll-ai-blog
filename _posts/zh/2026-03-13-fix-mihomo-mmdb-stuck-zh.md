@@ -28,7 +28,9 @@ INFO Can't find MMDB, start download
 ## 根本原因
 
 ### 1. **网络 / 连接问题（最常见）**
+
 mihomo 正在尝试访问远程 URL（通常托管在 GitHub 或 jsDelivr CDN 上）来下载 `Country.mmdb` 或 `geoip.metadb`。如果你的机器：
+
 - 在启动时尚未有互联网访问
 - 位于防火墙/代理后面，阻塞了 GitHub raw 文件下载
 - 位于 GitHub CDN 缓慢或不可靠的地区
@@ -36,9 +38,11 @@ mihomo 正在尝试访问远程 URL（通常托管在 GitHub 或 jsDelivr CDN �
 ...下载就会挂起，而不会显示超时错误消息。
 
 ### 2. **默认下载 URL 被阻塞**
+
 默认 MMDB 来源 URL 通常指向 GitHub releases，在中国和其他一些地区经常被限流或阻塞。
 
 ### 3. **没有预存的 MMDB 文件**
+
 如果 mihomo 的工作/配置目录中没有缓存的 MMDB 文件，它**必须**在继续之前下载一个。没有后备方案。
 
 ---
@@ -70,6 +74,7 @@ geox-url:
 ```
 
 或者使用其他镜像：
+
 ```yaml
 mmdb: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/country.mmdb"
 ```

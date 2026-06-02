@@ -18,6 +18,7 @@ Answer:
 Standard Chartered positions itself as a leading international cross-border bank, with a strong emphasis on connecting clients to growth opportunities in the world's most dynamic markets — primarily **Asia**, **Africa**, the **Middle East**, and increasingly other regions through its network.
 
 ### Key Features of CIB at Standard Chartered
+
 - **Client Base** — Large (multinational) corporations, local corporates, financial institutions (banks and broker-dealers), public sector entities, investors, development organizations, and governments.
 - **Geographic Focus** — Unparalleled network in Asia, Africa, and the Middle East, with presence in over 50 markets. It leverages this footprint to facilitate cross-border trade, investment, and capital flows (e.g., between Asia ↔ Africa/Middle East ↔ Europe/Americas).
 - **Main Business Pillars**:

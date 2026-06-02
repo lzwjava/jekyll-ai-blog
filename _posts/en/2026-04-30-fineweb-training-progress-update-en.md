@@ -14,6 +14,7 @@ type: note
 **Config:** `train_fineweb.py` — 124M params, max_iters=12000
 
 **Latest progress:** iter 6800 / 12000 (~57% done)
+
 - train loss: 3.4861, val loss: 3.4225 (at step 6500, last eval)
 - loss dropping smoothly: 10.99 → 3.48 over the run
 - ~9.34s per iter, mfu ~13–15%

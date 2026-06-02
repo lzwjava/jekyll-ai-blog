@@ -142,9 +142,11 @@ int main() {
 ---
 
 ### Compilation and Usage
+
 - Compile: `gcc tcp_decode.c -o tcp_decode`
 - Run (as root): `sudo ./tcp_decode`
 - Example output (when TCP traffic is present, e.g., browsing the web):
+
   ```
   Listening for TCP packets...
 
@@ -166,7 +168,9 @@ int main() {
 ---
 
 ### Key Structures
+
 - **IP Header (`struct iphdr`)**:
+
   ```c
   struct iphdr {
       unsigned int ihl:4;    // Header length (in 32-bit words)
@@ -184,6 +188,7 @@ int main() {
   ```
 
 - **TCP Header (`struct tcphdr`)**:
+
   ```c
   struct tcphdr {
       uint16_t source;       // Source port
@@ -208,6 +213,7 @@ int main() {
 ---
 
 ### Notes
+
 - **Root Privileges**: Raw sockets require `sudo` because they access the network stack directly.
 - **Promiscuous Mode**: This captures only packets destined for the host. For all traffic (like Wireshark), you’d need `libpcap` or a different approach (e.g., `PF_PACKET` sockets with promiscuous mode).
 - **Byte Order**: Network byte order (big-endian) is converted to host byte order using `ntohs` (16-bit) and `ntohl` (32-bit).

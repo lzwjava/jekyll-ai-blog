@@ -18,6 +18,7 @@ Now I have a complete picture. Here's the security audit of your DMIT server at 
 
 OPEN PORTS
 ----------
+
 Only 1 port open out of 65535:
 
   22/tcp  SSH  OpenSSH 9.6p1 Ubuntu 3ubuntu13.14
@@ -34,7 +35,7 @@ GOOD (hardened):
   ✓ Strong ciphers: chacha20-poly1305, aes256-gcm (no CBC mode)
   ✓ Strong MACs: all ETM variants preferred (encrypt-then-MAC)
   ✓ ED25519 + ECDSA host keys (no RSA key — good)
-  ✓ kex-strict-s-v00@openssh.com (Terrapin attack mitigation)
+  ✓ <kex-strict-s-v00@openssh.com> (Terrapin attack mitigation)
   ✓ No SSHv1 support
   ✓ zlib compression only on request (not forced)
 
@@ -45,7 +46,7 @@ MINOR CONCERNS:
   ⚠ ecdh-sha2-nistp256/384/521 still offered
     — NIST curves have trust issues in some threat models
     — curve25519 is preferred, so low practical risk
-  ⚠ zlib@openssh.com compression enabled
+  ⚠ <zlib@openssh.com> compression enabled
     — Compression can leak info via compression ratio attacks
       (similar to CRIME/BREACH). Disable if not needed.
 
@@ -68,9 +69,10 @@ CRITICAL — CVE-2024-6387 (regreSSHion):
   MITIGATION: Upgrade to OpenSSH 9.8p1+ or apply Ubuntu patch.
 
 LOW — OpenSSH 9.6 has a few other low-severity issues:
-  - CVE-2023-48795 (Terrapin): Already mitigated by
-    kex-strict-s-v00@openssh.com ✓
-  - CVE-2023-51385: OS command injection via ProxyCommand
+
+- CVE-2023-48795 (Terrapin): Already mitigated by
+    <kex-strict-s-v00@openssh.com> ✓
+- CVE-2023-51385: OS command injection via ProxyCommand
     with Hostname expansion. Only relevant if you use
     ProxyCommand with user-controlled hostnames.
 
@@ -100,7 +102,7 @@ RECOMMENDATIONS (prioritized)
    sudo systemctl enable fail2ban
 
 3. DISABLE weak MACs in /etc/ssh/sshd_config:
-   MACs hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,umac-128-etm@openssh.com
+   MACs <hmac-sha2-256-etm@openssh.com>,<hmac-sha2-512-etm@openssh.com>,<umac-128-etm@openssh.com>
 
 4. DISABLE compression if not needed:
    Compression no

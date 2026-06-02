@@ -40,6 +40,7 @@ Answer:
 | 对比两个版本 | `それが大事 红日 original` |
 
 **在 YouTube Music 上的逐步操作：**
+
 1. 打开 YouTube Music 应用，或访问 [music.youtube.com](https://music.youtube.com)
 2. 点击搜索图标
 3. 输入：`それが大事`（复制粘贴此日文文本以获得最佳结果）

@@ -15,6 +15,7 @@ type: note
 This is a classic Chinese nourishing soup with a clear, sweet, and savory flavor, perfect for autumn and winter tonics. The ingredients are simple, and the method is straightforward. Here's a recipe for 4-6 servings.
 
 #### **Main Ingredients**
+
 - Pork bones (marrow bones or ribs): 800g–1kg (with some meat for better flavor)
 - Corn: 2–3 ears (cut into large segments)
 - Lotus root: 500g (peeled and cut into thick slices or rolls)
@@ -23,6 +24,7 @@ This is a classic Chinese nourishing soup with a clear, sweet, and savory flavor
 - Goji berries: 1 small handful (about 10g, add later, optional)
 
 #### **Seasonings**
+
 - Salt: To taste (add at the end)
 - Shaoxing wine: 1 tablespoon (for removing impurities)
 - Water: 2.5–3 liters
@@ -56,6 +58,7 @@ This is a classic Chinese nourishing soup with a clear, sweet, and savory flavor
 ---
 
 #### **Tips**
+
 - **Milky Soup Color**: Blanch thoroughly + simmer on low heat + crack the bones slightly to release marrow.
 - **Prevent Lotus Root Browning**: Soak slices immediately in water, or add a few drops of white vinegar.
 - **For Richer Flavor**: Add 1–2 carrots or a few shiitake mushrooms.

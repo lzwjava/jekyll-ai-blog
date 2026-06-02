@@ -48,6 +48,7 @@ Here's the full landscape, broken down by category:
 | **Latent Space** | Podcast + newsletter, very builder-focused |
 
 ### Newsletters (InfoQ-style but AI)
+
 - **TLDR AI** — 500K+ subs, daily bullet digest
 - **Import AI** (Jack Clark) — deep, researcher-grade
 - **The Batch** (deeplearning.ai) — Andrew Ng's weekly

@@ -31,6 +31,7 @@ Both **ENTP** and **ESTP** are extroverted, thinking, perceiving types (ExTP) in
 | **Inferior function**   | Inferior Si — struggles with routine, details, consistency | Inferior Ni — struggles with long-term vision, reading between the lines, foreseeing consequences |
 
 ### Quick Real-World Indicators
+
 - When something exciting happens nearby (a loud noise, sudden opportunity, physical challenge):
   - **ESTP** reacts instantly and physically — jumps in, grabs it, or handles it right away.
   - **ENTP** first thinks "what does this mean?", connects it to 5 other ideas, then maybe acts (or just keeps talking about it).

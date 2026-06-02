@@ -17,6 +17,7 @@ There are a few ways properties/environment variables work in Jenkins:
 1. **Environment variables** - Jenkins automatically provides built-in variables like `BUILD_NUMBER`, `JOB_NAME`, `WORKSPACE`, etc.
 
 2. **Pipeline properties** - In declarative pipelines, you can set properties using the `environment` directive:
+
    ```groovy
    pipeline {
        environment {

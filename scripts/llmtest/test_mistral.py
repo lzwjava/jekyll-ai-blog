@@ -56,7 +56,7 @@ def call_mistral_api(prompt, model="mistral-small-2501", use_function_calling=Fa
     print(f"Mistral API Headers: {headers}")
     print(f"Mistral API Data: {data}")
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         response_json = response.json()
         print(response_json)
@@ -106,7 +106,7 @@ def call_codestral_api(prompt, model="codestral-latest"):
     print(f"Codestral API Headers: {headers}")
     print(f"Codestral API Data: {json.dumps(data)}")
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         response_json = response.json()
         print(response_json)

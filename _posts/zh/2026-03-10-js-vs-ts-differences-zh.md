@@ -45,6 +45,7 @@ type: note
 JavaScript 和 TypeScript 的关键区别在于 JavaScript 缺少类型系统。在 JavaScript 中，变量可以随意改变类型，而 TypeScript 在 strict 模式下禁止这种行为。
 
 示例：
+
 ```js
 // JavaScript — no type enforcement
 let bar = "text";
@@ -104,12 +105,14 @@ TypeScript 的类型检查仅发生在开发和编译时。在运行时，你的
 ### 11. 何时使用哪个？
 
 **使用 JavaScript 的场景：**
+
 - 构建中小型项目或原型
 - 需要快速设置而无需构建步骤
 - 与初学者或不熟悉类型系统的团队合作
 - 快速脚本或简单的前端交互
 
 **使用 TypeScript 的场景：**
+
 - 构建大规模或企业级应用程序
 - 在大型团队中工作，代码可读性和契约很重要
 - 长期可维护性是优先级

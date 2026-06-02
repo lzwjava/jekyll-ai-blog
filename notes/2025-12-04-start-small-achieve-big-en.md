@@ -17,6 +17,7 @@ Answer:
 Yes, absolutely. It is one of the most powerful principles in learning, problem-solving, and achieving real results.
 
 This approach is known by many names across different fields:
+
 - “Minimum Viable Product” (MVP) in startups
 - “One sample first” in competitive programming and debugging
 - “Spike solution” or “tracer bullet” in software engineering
@@ -25,6 +26,7 @@ This approach is known by many names across different fields:
 - “Do one trade perfectly” in trading/investing
 
 Why it works so well:
+
 1. **Reduces overwhelm** – A huge task feels impossible; one tiny task feels doable.
 2. **Gives immediate feedback** – You learn what actually works vs. what you thought would work.
 3. **Builds real confidence** – Theoretical knowledge ≠ experience. One real success (even small) beats ten perfect plans.
@@ -32,6 +34,7 @@ Why it works so well:
 5. **Creates momentum** – Finishing the first one makes the second, third, and hundredth dramatically easier.
 
 Real-world examples:
+
 - Almost every top Codeforces grandmaster started by solving A problems slowly, one at a time.
 - Warren Buffett’s first investment was just a few shares in one company when he was 11.
 - Many millionaire real-estate investors began with a single small duplex or even a house hack (living in one room and renting the others).

@@ -27,11 +27,13 @@ Wang's account is a valid *personal* critique rooted in real expertise—he's im
 That said, his broader claims—especially calling Rust's core design "seriously flawed" and dooming its future—feel overstated and subjective. Here's a balanced breakdown:
 
 #### Strengths of His View
+
 - **Learning Curve for Interpreters**: Spot-on for newcomers. Rust excels at safe, concurrent systems programming (e.g., web servers, CLI tools), but interpreters often require graph-like structures with cycles or interior mutability, which ownership resists by design. This forces "clever" workarounds (e.g., arenas for allocation, or `Rc` for reference counting), amplifying boilerplate. Studies and surveys (e.g., from the Rust team) acknowledge this as a common pain point, with ~20–30% of users citing borrow-checking as a top hurdle in early adoption.
 - **Distraction from Semantics**: Fair. In dynamic languages, you prototype semantics quickly; in Rust, safety proofs happen at compile time, shifting effort. Wang's "brainpower burden" echoes complaints from other PL researchers (e.g., in academic papers on embedding DSLs in Rust).
 - **Exploration Pays Off**: He rightly notes the payoff—mastering ownership/lifetimes demystifies them, turning Rust into a superpower for bug-free code.
 
 #### Weaknesses and Counterpoints
+
 - **Not "Unnecessary Difficulties" for All**: Rust's strictness *prevents* the memory leaks, use-after-free bugs, or GC pauses that plague interpreter implementations in C, Python, or even Lisp. Once past the hump, it's often *easier* to reason about (no runtime surprises). For functional-style interpreters, crates like `im` (immutable collections) or `generational-arena` make it smoother, reducing RefCell reliance.
 - **Reference Code Exists (Contrary to His Claim)**: By late 2024/early 2025, GitHub is full of solid examples:
   - [RustPython](https://github.com/RustPython/RustPython): A full Python interpreter in Rust, handling eval, ASTs, and mutability elegantly.

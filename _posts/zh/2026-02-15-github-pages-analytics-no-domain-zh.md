@@ -26,9 +26,11 @@ Cloudflare Web Analytics 专为这种场景设计：它是一个**隐私优先�
    - 用户/组织站点：`username.github.io`
    - 项目站点：`username.github.io/repo-name`
 5. Cloudflare 将生成一小段 JavaScript snippet（通常约 1 KB），看起来像这样：
+
    ```html
    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "YOUR_UNIQUE_TOKEN_HERE"}'></script>
    ```
+
 6. 将此 snippet 添加到你网站 HTML 文件的 `<head>` 部分（如果你使用静态网站生成器，则添加到 Jekyll/Hugo 等的 layout template 中）。
    - 对于纯 HTML：编辑 `index.html` 和其他页面。
    - 对于 Jekyll：将其添加到 `_includes/head.html` 或等效文件中。

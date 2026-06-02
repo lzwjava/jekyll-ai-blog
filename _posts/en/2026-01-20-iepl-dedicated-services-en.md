@@ -19,6 +19,7 @@ Answer:
 In the context of VPN or proxy providers (especially those offering dedicated or high-performance lines for bypassing restrictions, low-latency access, or stable connections to regions like China/Asia), IEPL refers to a premium type of **dedicated international private line service**. It provides a point-to-point, fully dedicated, Layer 2 Ethernet connection between locations in different countries.
 
 Key characteristics include:
+
 - **Dedicated bandwidth** — The full bandwidth is exclusively for the customer (no sharing with others).
 - **Low latency** and **low jitter** — Better performance compared to regular internet or shared VPNs.
 - **High security** — Private circuit with no public internet routing in the core path.
@@ -29,12 +30,14 @@ Proxy/VPN providers advertise "IEPL" when their service uses this underlying car
 
 **What kind of cable is it?**
 IEPL is transported over **fiber-optic cables**, including:
+
 - **Submarine (undersea) fiber cables** for international/long-haul segments (e.g., connecting Asia to Europe/US).
 - **Terrestrial (land-based) fiber** for connections within or between nearby regions.
 
 It uses modern optical transport technologies like SDH/MSTP/OTN or EoMPLS to carry the Ethernet signal end-to-end. It is not a specific physical "cable type" but a **service** delivered via high-capacity fiber infrastructure (often submarine cables for cross-border links).
 
 Compared to similar terms:
+
 - **IPLC** (International Private Leased Circuit) — Older technology, often TDM-based, less flexible than IEPL.
 - Regular **VPN** — Usually over shared public internet, higher latency/variable performance.
 - **MPLS VPN** — Virtualized/shared core, more flexible for multi-site but not purely dedicated like IEPL.

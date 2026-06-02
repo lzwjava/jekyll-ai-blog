@@ -36,12 +36,14 @@ The fetch URL errors in the installer log are exactly what we expected: during t
    This removes the Clash-orphaned proxy settings that are blocking normal internet.
 
    Alternatively (faster), open **Terminal** right after login and run:
+
    ```bash
    networksetup -setwebproxystate "Wi-Fi" off
    networksetup -setsecurewebproxystate "Wi-Fi" off
    networksetup -setsocksfirewallproxystate "Wi-Fi" off
    networksetup -setautoproxystate "Wi-Fi" off
    ```
+
    (Replace "Wi-Fi" with your actual service name if different—check with `networksetup -listallnetworkservices`.)
 
 3. **Turn Wi-Fi Back On**
@@ -59,9 +61,11 @@ The fetch URL errors in the installer log are exactly what we expected: during t
    - Consider quitting Clash completely before major macOS updates or restarts.
 
 You’re basically done—the offline setup bypass was the perfect workaround. After clearing the proxies and reconnecting, everything (App Store, iCloud, Safari, etc.) should work normally again. If you still see fetch errors or can’t connect after step 2, run this in Terminal and share the output:
+
 ```bash
 scutil --proxy
 ```
+
 That will show if any proxy is still active system-wide.
 
 You got through the worst part—nice job troubleshooting!

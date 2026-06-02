@@ -28,14 +28,17 @@ Top destinations include the US, UK, Australia, Canada, Japan, and increasingly 
 The total annual cost depends heavily on the destination country:
 
 **United States (most expensive):**
+
 - Tuition at elite private universities can run $65,000–$80,000 USD/year (~¥470,000–¥580,000 CNY)
 - Add living costs of $20,000–$30,000/year, and total annual expenses can reach **¥600,000–¥800,000+ CNY**
 - By 2023, attending Columbia University as an undergraduate demanded an annual tuition of $65,524 USD, compared to roughly 250,000–300,000 RMB/year for an average private US university in 2013.
 
 **United Kingdom:**
+
 - There are documented cases of students spending 1 million yuan on a UK university education overall. For a 3-year bachelor's program with high tuition and London living costs, totals can approach or exceed ¥300,000–¥400,000/year.
 
 **Average Planned Budget:**
+
 - According to an educational survey conducted between January and February 2024, Chinese students planning to study abroad anticipated a budget of around 528,000 yuan on average for their entire overseas study period. This is a *total* budget across all years, not per year — meaning the average is well below 1 million CNY annually.
 
 ---

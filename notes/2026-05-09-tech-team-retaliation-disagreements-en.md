@@ -22,12 +22,15 @@ This is a real and well-documented phenomenon in engineering teams. When senior 
 ## Why Retaliation / Fallback Happens
 
 ### 1. Ego and Identity
+
 Engineers — especially senior ones — are deeply invested in their technical opinions. Software engineers are an opinionated lot; they are passionate about their programming languages, frameworks, and ways of doing things. When a decision goes against them, it can feel like a personal attack on their competence and judgment.
 
 ### 2. Unresolved Conflict Festers
+
 If you leave discussions unresolved, they may lead to mutual distrust and passive-aggressive actions between team members. Even when a decision is formally made, if the dissenting engineer never feels heard, resentment builds underground.
 
 ### 3. Power Dynamics Are Complicated
+
 Technical disagreements represent the most common trigger in tech workplaces, occurring when team members hold divergent views on architectural decisions or technical solutions — and unlike other industries where procedures are standardized, technology work frequently requires making decisions with incomplete information. This ambiguity gives dissenters room to argue "I told you so" later.
 
 ---
@@ -55,15 +58,19 @@ If not addressed properly, disagreements can lead to frustration, resentment, an
 ## How Good Tech Leads and Teams Prevent This
 
 ### Make Dissenting Engineers Feel Heard — Before the Decision
+
 The Architectural Decision Record (ADR) practice is useful not just as documentation but as a forcing function: writing down the context, the decision, the alternatives considered, and the trade-offs helps clarify whether there's enough information to decide, and gives the team something concrete to interrogate rather than a feeling to argue with.
 
 ### Time-Box Debates and Assign a Tie-Breaker Role Upfront
+
 Every team needs a designated tie-breaker role (usually the technical lead). Every debate needs to be time-boxed, and at the end the tie-breaker takes the decision. The team agrees to hold this decision as final and moves forward.
 
 ### Keep Performance Reviews Objective
+
 One effective approach is to keep performance reviews focused solely on objective metrics and demonstrate to the engineer that the disagreement didn't affect their evaluation. Dissenters are more likely to accept a loss when they trust they won't be punished for speaking up.
 
 ### Build Psychological Safety
+
 Teams with high psychological safety are more likely to handle conflicts constructively, as team members feel safe to express their disagreements openly and respectfully.
 
 ---

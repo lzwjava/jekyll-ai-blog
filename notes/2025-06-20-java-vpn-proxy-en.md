@@ -11,6 +11,7 @@ type: note
 To build a Clash VPN proxy client in Java using Netty or Spring Boot, we need a robust framework to handle networking, YAML configuration parsing, and proxy protocols like SOCKS, HTTP, and Shadowsocks. Netty is ideal for high-performance networking, while Spring Boot can simplify configuration and dependency management. Below, I’ll outline the core logic, main libraries, and provide a sample implementation focusing on Netty for the networking layer, as it’s better suited for low-level proxy operations. The client will support popular Clash YAML configurations (e.g., for proxies, rules, and DNS).
 
 ### Main Logic
+
 1. **Configuration Parsing**:
    - Parse Clash-compatible YAML configuration files (e.g., `config.yaml`) containing proxy servers, rules, and DNS settings.
    - Support common proxy types: HTTP, SOCKS5, Shadowsocks, etc.
@@ -41,6 +42,7 @@ To build a Clash VPN proxy client in Java using Netty or Spring Boot, we need a 
    - Provide detailed logs for debugging.
 
 ### Main Libraries
+
 - **Netty**: For high-performance networking and event-driven I/O. Handles client connections, proxy forwarding, and protocol encoding/decoding.
 - **SnakeYAML**: To parse Clash-compatible YAML configuration files.
 - **Bouncy Castle**: For cryptographic operations (e.g., Shadowsocks AEAD encryption).
@@ -50,7 +52,9 @@ To build a Clash VPN proxy client in Java using Netty or Spring Boot, we need a 
 - **DNSJava (optional)**: For custom DNS resolution if needed.
 
 ### Core Implementation
+
 Below is a simplified Netty-based implementation of a Clash-like VPN proxy client. It focuses on:
+
 - Parsing a Clash YAML config.
 - Setting up a SOCKS5 proxy server.
 - Forwarding requests to an upstream proxy or destination.
@@ -183,6 +187,7 @@ public class ClashProxyClient {
 ```
 
 ### Sample YAML Configuration
+
 Here’s an example `config.yaml` compatible with the above code:
 
 ```yaml
@@ -201,6 +206,7 @@ rules:
 ```
 
 ### Explanation of Core Logic
+
 - **YAML Parsing**: The `loadConfig` method uses SnakeYAML to parse the Clash configuration into a `ProxyConfig` object, which holds proxy definitions and routing rules.
 - **Netty Server**: The `start` method sets up a Netty server listening on port 7890, handling SOCKS5 protocol requests using Netty’s built-in SOCKS5 codecs.
 - **Request Handling**: The `ProxyHandler` processes SOCKS5 command requests, applies routing rules, and selects an upstream proxy or direct connection.
@@ -208,6 +214,7 @@ rules:
 - **Extensibility**: The code is modular, allowing easy addition of new protocols (e.g., Shadowsocks) by extending the `ProxyHandler`.
 
 ### Next Steps
+
 1. **Protocol Support**: Add handlers for Shadowsocks (using Bouncy Castle for encryption) and HTTP proxies.
 2. **Advanced Routing**: Implement full Clash rule parsing (e.g., GEOIP, DOMAIN-SUFFIX) using regex or a rule engine.
 3. **DNS Handling**: Integrate DNSJava or a custom resolver for Clash’s DNS settings.
@@ -215,6 +222,7 @@ rules:
 5. **Spring Boot (Optional)**: If you prefer Spring Boot, use it for configuration management and REST endpoints for monitoring, but keep Netty for the core proxy logic.
 
 ### Dependencies (Maven)
+
 Add these to your `pom.xml`:
 
 ```xml

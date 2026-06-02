@@ -13,12 +13,15 @@ To use the `"predis/predis": "1.1"` library in PHP, you're referring to a Redis 
 ---
 
 ### 1. **Install Composer (if not already installed)**
+
 If you don’t have Composer installed, download and install it from [getcomposer.org](https://getcomposer.org/). It’s a dependency manager for PHP.
 
 ---
 
 ### 2. **Set Up Your Project**
+
 If you don’t already have a project, create a directory for it:
+
 ```bash
 mkdir my-redis-project
 cd my-redis-project
@@ -27,13 +30,17 @@ cd my-redis-project
 ---
 
 ### 3. **Add Predis to Your Project**
+
 Run the following Composer command to install version 1.1 of Predis:
+
 ```bash
 composer require predis/predis:1.1
 ```
+
 This will download Predis version 1.1 and generate a `composer.json` file (and a `vendor` directory with the library).
 
 Alternatively, if you already have a `composer.json` file, you can manually add this line to it:
+
 ```json
 {
     "require": {
@@ -41,7 +48,9 @@ Alternatively, if you already have a `composer.json` file, you can manually add 
     }
 }
 ```
+
 Then run:
+
 ```bash
 composer install
 ```
@@ -49,7 +58,9 @@ composer install
 ---
 
 ### 4. **Include the Autoloader**
+
 In your PHP script, include the Composer autoloader to load Predis:
+
 ```php
 require 'vendor/autoload.php';
 ```
@@ -57,6 +68,7 @@ require 'vendor/autoload.php';
 ---
 
 ### 5. **Basic Usage Example**
+
 Here’s a simple example of how to connect to a Redis server and use Predis:
 
 ```php
@@ -90,7 +102,9 @@ print_r($list); // Outputs: Array ( [0] => item2 [1] => item1 )
 ---
 
 ### 6. **Configuration Options**
+
 You can customize the connection by passing an array of options to the `Client` constructor. For example:
+
 ```php
 $redis = new Client([
     'scheme' => 'tcp',
@@ -104,7 +118,9 @@ $redis = new Client([
 ---
 
 ### 7. **Common Commands**
+
 Predis supports most Redis commands directly as methods. Here are a few examples:
+
 - **Strings**: `set`, `get`, `incr`, `decr`
 - **Lists**: `lpush`, `rpush`, `lpop`, `rpop`, `lrange`
 - **Sets**: `sadd`, `smembers`, `srem`
@@ -115,7 +131,9 @@ For a full list, check the [Predis documentation](https://github.com/predis/pred
 ---
 
 ### 8. **Error Handling**
+
 Wrap your Redis calls in a try-catch block to handle potential connection or runtime errors:
+
 ```php
 try {
     $redis->set('test', 'value');
@@ -128,6 +146,7 @@ try {
 ---
 
 ### 9. **Prerequisites**
+
 - Ensure you have a Redis server running (e.g., locally via `redis-server` or on a remote host).
 - PHP 5.3.0 or higher (Predis 1.1 is compatible with older PHP versions, but check your environment).
 

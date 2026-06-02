@@ -17,6 +17,7 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
 ### **Step 1: Design a Two-Mesh Circuit**
 
 #### **Circuit Description**
+
 - **Components:**
   - Arduino (e.g., Uno)
   - 3 resistors (e.g., R1 = 330Ω, R2 = 470Ω, R3 = 680Ω)
@@ -37,6 +38,7 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
   - A2: Voltage across R3 (Node A to Node C).
 
 #### **Schematic Concept**
+
 ```
 5V ---- Node A ---- R1 ---- Node B ---- R2 ---- Node C (GND)
        |                        |
@@ -48,10 +50,12 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
 ### **Step 2: Perform Mesh Analysis Theoretically**
 
 #### **Define Mesh Currents**
+
 - \\( I_1 \\): Current in Mesh 1 (clockwise through 5V, R1, R2, GND).
 - \\( I_2 \\): Current in Mesh 2 (clockwise through 5V, R3, GND).
 
 #### **Apply KVL to Each Mesh**
+
 1. **Mesh 1 (5V → R1 → R2 → GND):**
    - Voltage source: +5V (going from GND to 5V in the loop direction).
    - Voltage drop across R1: \\( -R1 \cdot I_1 \\).
@@ -65,6 +69,7 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
    - Equation: \\( 5 - R3 \cdot I_2 + R2 \cdot (I_1 - I_2) = 0 \\).
 
 #### **Substitute Values**
+
 - R1 = 330Ω, R2 = 470Ω, R3 = 680Ω.
 - Mesh 1: \\( 5 - 330 I_1 - 470 (I_1 - I_2) = 0 \\)
   - Simplify: \\( 5 - 330 I_1 - 470 I_1 + 470 I_2 = 0 \\)
@@ -74,6 +79,7 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
   - \\( 5 + 470 I_1 - 1150 I_2 = 0 \\) → (2)
 
 #### **Solve the Equations**
+
 - From (1): \\( 5 = 800 I_1 - 470 I_2 \\) → \\( I_1 = \frac{5 + 470 I_2}{800} \\).
 - Substitute into (2): \\( 5 + 470 \left( \frac{5 + 470 I_2}{800} \right) - 1150 I_2 = 0 \\).
 - Multiply through by 800 to clear the fraction:
@@ -84,6 +90,7 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
 - Back-substitute: \\( I_1 = \frac{5 + 470 \cdot 0.00908}{800} = \frac{5 + 4.2676}{800} \approx 0.01158 \, \text{A} = 11.58 \, \text{mA} \\).
 
 #### **Calculate Voltages**
+
 - \\( V_{R1} = R1 \cdot I_1 = 330 \cdot 0.01158 \approx 3.82 \, \text{V} \\).
 - \\( V_{R2} = R2 \cdot (I_1 - I_2) = 470 \cdot (0.01158 - 0.00908) \approx 1.18 \, \text{V} \\).
 - \\( V_{R3} = R3 \cdot I_2 = 680 \cdot 0.00908 \approx 6.17 \, \text{V} \\) (but capped at 5V due to source).
@@ -93,6 +100,7 @@ Below, I’ll guide you through designing a simple two-mesh circuit, performing 
 ### **Step 3: Verify with Arduino**
 
 #### **Arduino Code**
+
 ```cpp
 void setup() {
   Serial.begin(9600); // Start serial communication
@@ -134,6 +142,7 @@ void loop() {
 ```
 
 #### **Wiring Notes**
+
 - Connect A0 between Node A (5V) and Node B.
 - Connect A1 between Node B and Node C (GND).
 - Connect A2 between Node A (5V) and Node C (GND).
@@ -144,6 +153,7 @@ void loop() {
 ### **Step 4: Compare Results**
 
 #### **Expected vs. Measured**
+
 - **Theoretical (from Mesh Analysis):**
   - \\( I_1 \approx 11.58 \, \text{mA} \\)
   - \\( I_2 \approx 9.08 \, \text{mA} \\)
@@ -152,6 +162,7 @@ void loop() {
 - **Measured:** Open the Serial Monitor (9600 baud) and compare the Arduino’s output to these values.
 
 #### **Verification**
+
 - Check if \\( V_{R1} + V_{R2} \approx 5V \\) (Mesh 1 loop).
 - Check if \\( V_{R3} \approx 5V \\) (Mesh 2 loop).
 - Confirm \\( I_1 - I_2 \\) matches the current through R2.
@@ -159,6 +170,7 @@ void loop() {
 ---
 
 ### **Tips and Troubleshooting**
+
 - **Accuracy:** Arduino’s ADC has ~4.9mV resolution, and resistor tolerances may cause slight deviations. Use a multimeter for precise validation.
 - **Adjustments:** If voltages exceed 5V (unlikely here), use a voltage divider to scale them down.
 - **Extensions:** Add more meshes or components for complexity, but keep pin limits (A0–A5) in mind.

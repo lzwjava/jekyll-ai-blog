@@ -13,6 +13,7 @@ type: note
 MSYS2 是一款面向 Windows 的免费开源软件发行与构建平台。它在 Windows 系统上提供类 Unix 环境（类似 Linux 或 macOS shell），完整配备 Bash、GCC 编译器及名为 Pacman 的软件包管理器。这让原生 Windows 应用程序（尤其源自 Unix/Linux 生态的软件）的开发、构建、安装和运行变得更加便捷，无需配置完整的虚拟机或双系统。
 
 ### 核心特性
+
 - **软件包管理**：通过 Pacman 从软件仓库安装数千种预构建包（如 Git、Python、Vim 等工具库）
 - **多环境支持**：包含三大子系统：
   - **MSYS**：提供 POSIX 兼容工具链

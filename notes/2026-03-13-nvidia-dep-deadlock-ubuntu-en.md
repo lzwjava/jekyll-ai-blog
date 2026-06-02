@@ -16,6 +16,7 @@ Answer:
 ## Diagnosis
 
 You're stuck in a circular dependency hell caused by **mixed NVIDIA package versions**:
+
 - Some packages are at `535.288.01-0ubuntu1` (Ubuntu repo)
 - Some are still at `535.274.02-0ubuntu1` or `535.288.01-0ubuntu0.22.04.1` (NVIDIA repo)
 
@@ -33,6 +34,7 @@ sudo dpkg -i --force-overwrite \
 ```
 
 If those `.deb` files are gone from cache, re-download them:
+
 ```bash
 sudo apt-get download nvidia-kernel-common-535 libnvidia-extra-535
 sudo dpkg -i --force-overwrite nvidia-kernel-common-535_*.deb
@@ -49,11 +51,13 @@ sudo dpkg --remove --force-remove-reinstreq \
 ```
 
 Or more conservatively, list them first:
+
 ```bash
 dpkg -l | grep -E 'nvidia|cuda|libnvidia' | awk '{print $2}'
 ```
 
 Then remove everything listed:
+
 ```bash
 sudo apt purge --allow-remove-essential \
   nvidia-* libnvidia-* cuda-* nvidia-dkms-535 nvidia-kernel-common-535 \
@@ -82,6 +86,7 @@ grep -r nvidia /etc/apt/sources.list /etc/apt/sources.list.d/ 2>/dev/null
 ```
 
 If you see entries from **both** `ppa:graphics-drivers` AND `developer.download.nvidia.com`, **remove one** to avoid future conflicts:
+
 ```bash
 sudo rm /etc/apt/sources.list.d/cuda*.list
 # or
@@ -89,6 +94,7 @@ sudo add-apt-repository --remove ppa:graphics-drivers/ppa
 ```
 
 Then update:
+
 ```bash
 sudo apt update
 ```
@@ -102,6 +108,7 @@ sudo apt install nvidia-driver-535 nvidia-dkms-535
 ```
 
 Or if you need CUDA:
+
 ```bash
 sudo apt install cuda-12-2
 ```

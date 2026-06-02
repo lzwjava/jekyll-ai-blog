@@ -21,6 +21,7 @@ It is **exclusively available free of charge** (valued at approximately US$170) 
 The platform is powered by GEL IELTS Prep and combines official content, adaptive learning features, and modern tools like AI feedback to make preparation more effective and targeted.
 
 ### Key Features
+
 - **40 full-length practice tests** covering all four skills (Listening, Reading, Writing, Speaking), with automatic scoring for Listening and Reading
 - **Detailed feedback and analysis** — especially for Reading and Listening questions; optional paid AI scoring/feedback for Writing and Speaking (sometimes offered free or at low cost like US$9.99 per task)
 - **Personalized study plan** that adapts based on your performance and progress

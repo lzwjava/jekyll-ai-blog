@@ -64,6 +64,7 @@ Stock rose after the print, reversing the trend of Nvidia beating but selling of
 **TL;DR:** Nvidia crushed it. $81.6B vs $78.8B estimate. Data center +92% YoY. Agentic AI demand is real and compounding. Vera Rubin is the next catalyst. If Q2 guidance holds above $86B, the bull case remains fully intact.
 
 **References:**
+
 - [Nvidia Investor Relations — Q1 FY2027 Press Release](https://investor.nvidia.com/financial-info/financial-reports/default.aspx)
 - [Earnings Call Transcript — Investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-nvidia-q1-2027-beats-expectations-stock-rises-93CH-4702696)
 - [Kiplinger Live Coverage](https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026)

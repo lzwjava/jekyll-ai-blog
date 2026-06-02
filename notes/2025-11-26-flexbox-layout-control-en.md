@@ -30,6 +30,7 @@ Example:
 ```
 
 Explanation of why the others are wrong:
+
 - **B. flex-wrap** – controls whether items wrap onto multiple lines, not the main direction (row vs column)
 - **C. media query** – this is the *technique* used to apply changes at different screen sizes, but it’s not a CSS *property*. The actual property you change is `flex-direction`.
 - **D. grid-template** – this belongs to CSS Grid, not Flexbox

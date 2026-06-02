@@ -11,6 +11,7 @@ type: note
 要将 TortoiseGit 配置为 Git 的合并工具，您需要在 Git 配置中设置 TortoiseGitMerge（TortoiseGit 附带的合并工具）。以下是实现此目标的步骤：
 
 ### 前提条件
+
 - 确保系统已安装 TortoiseGit。您可以从 [tortoisegit.org](https://tortoisegit.org) 下载。
 - 确认 TortoiseGitMerge 可执行文件可用（通常位于 `C:\Program Files\TortoiseGit\bin\TortoiseGitMerge.exe`）。
 
@@ -85,7 +86,9 @@ type: note
    **注意**：如果冲突发生在 rebase 或 cherry-pick 过程中，请使用相应的 TortoiseGit 对话框（Rebase 或 Cherry-pick）继续过程，而不是标准的提交对话框。[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-conflicts.html)
 
 ### 通过 TortoiseGit GUI 使用 TortoiseGitMerge
+
 如果您更喜欢使用 TortoiseGit GUI 解决冲突：
+
 1. 在 Windows 资源管理器中右键点击冲突文件。
 2. 选择 **TortoiseGit → 编辑冲突**。
 3. TortoiseGitMerge 将打开，允许您如上所述解决冲突。
@@ -93,6 +96,7 @@ type: note
 5. 使用 TortoiseGit 的提交对话框提交更改。
 
 ### 故障排除
+
 - **错误：“不支持的合并工具 ‘tortoisemerge’”**
   - 确保 `TortoiseGitMerge.exe` 的路径正确且可访问。
   - 验证工具名称在 `merge.tool` 和 `mergetool.<tool>.cmd` 配置中完全匹配。
@@ -111,6 +115,7 @@ type: note
   - 如果您之前使用过 TortoiseSVN 的 TortoiseMerge，请确保指向 `TortoiseGitMerge.exe`，因为可执行文件名称在 TortoiseGit 1.8 版本中已更改。[](https://devstuffs.wordpress.com/2013/03/08/setting-tortoisegitmerge-in-msysgit-as-the-git-mergetool/)[](https://stackoverflow.com/questions/15881449/why-doesnt-tortoisemerge-work-as-my-mergetool)
 
 ### 附加说明
+
 - TortoiseGitMerge 支持用于冲突解决的三窗格视图，非常适合合并。它会自动合并非冲突更改并高亮显示冲突以供手动解决。[](https://tortoisegit.org/docs/tortoisegitmerge/tmerge-dug.html)[](https://manios.org/2018/05/30/git-merge-conflicts-using-tortoise-git-merge-windows)
 - 如果您也想将 TortoiseGitMerge 用作差异工具，类似地配置：
 
@@ -123,6 +128,7 @@ type: note
 - 对于高级设置，您可以配置 TortoiseGit 等待合并工具关闭并根据退出代码自动将文件标记为已解决。在 TortoiseGit 设置 → 外部程序 → 合并工具中，选择“在执行外部合并工具时阻止 TortoiseGit”并启用“信任退出代码”。[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-settings.html)
 
 ### 来源
+
 - TortoiseGit 文档：[](https://tortoisegit.org/docs/tortoisegitmerge/tmerge-dug.html)[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-merge.html)[](https://tortoisegit.org/docs/tortoisegit/tgit-dug-conflicts.html)
 - Stack Overflow 及其他网络资源：[](https://devstuffs.wordpress.com/2013/03/08/setting-tortoisegitmerge-in-msysgit-as-the-git-mergetool/)[](https://stackoverflow.com/questions/5190188/why-cant-i-use-tortoisemerge-as-my-git-merge-tool-on-windows)[](https://stackoverflow.com/questions/16493368/can-tortoisemerge-be-used-as-a-difftool-with-windows-git-bash)
 

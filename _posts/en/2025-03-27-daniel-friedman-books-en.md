@@ -13,6 +13,7 @@ Daniel P. Friedman is a legend in programming languages and functional programmi
 ---
 
 ### **Daniel P. Friedman's Essential Books**
+
 1. **"The Little Schemer"** (with Matthias Felleisen)
    A mind-bending journey into recursion and functional programming via Socratic dialogue. Uses Scheme to teach you to "think recursively" through playful Q&A.
 
@@ -40,6 +41,7 @@ Daniel P. Friedman is a legend in programming languages and functional programmi
 ---
 
 ### **Why Friedman’s Books Stand Out**
+
 - **Socratic style**: His books use dialogue and incremental puzzles to force you to *think*, not just read.
 - **Deep focus on recursion**: Unlocks functional programming and language design in a way few other books do.
 - **Bridging theory and practice**: Many of his works build interpreters, compilers, or provers from scratch.
@@ -48,7 +50,9 @@ Daniel P. Friedman is a legend in programming languages and functional programmi
 ---
 
 ### **Comparisons to Your Original List**
+
 If you liked:
+
 - **SICP**: Try *Essentials of Programming Languages* (EOPL) or *The Little Schemer*.
 - **CLRS (Algorithms)**: *The Reasoned Schemer* offers a logic-programming perspective on problem-solving.
 - **Types and Programming Languages**: *The Little Typer* is a gentler intro to advanced type systems.

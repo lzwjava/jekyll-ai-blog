@@ -20,12 +20,15 @@ type: note
 ## What Actually Causes Agent Task Interruptions
 
 ### 1. Network / Infrastructure (what they're claiming)
+
 - API timeouts, connection drops → **yes, network stability helps**
 - Rate limiting (RPM/TPM limits) → network is fine, but you still get cut off
 - Provider-side outages (Anthropic, OpenAI) → out of your control
 
 ### 2. Context Window Exhaustion — **most common silent killer**
+
 Long tasks accumulate tokens fast:
+
 - Tool outputs pile up
 - File contents get read repeatedly
 - Multi-turn history grows
@@ -33,16 +36,19 @@ Long tasks accumulate tokens fast:
 Eventually hits `max_context` → agent **dies mid-task**, no warning. This has nothing to do with network.
 
 ### 3. Tool / Shell Failures
+
 - A bash command hangs indefinitely → agent waits forever or times out
 - File permission errors, missing deps → agent may loop or give up
 - Subprocess exits with non-zero → depends on error handling
 
 ### 4. Model Hallucination / Logic Loops
+
 - Agent convinces itself a subtask is done when it isn't
 - Infinite retry loops on a failing tool call
 - "Routine" tasks can still hit edge cases the model handles poorly
 
 ### 5. Cost / Token Budget Limits
+
 You're tracking hourly token burn yourself — but if a hard budget cap exists in the agent runner, it will kill the task abruptly.
 
 ---

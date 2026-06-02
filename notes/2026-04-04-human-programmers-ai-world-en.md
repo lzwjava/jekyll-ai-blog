@@ -63,6 +63,7 @@ This is much more parallelizable than synchronous back-and-forth. The agent beco
 ### Bottom Line
 
 The future programmer isn't someone who codes faster — it's someone who:
+
 1. Defines problems precisely enough that agents don't go off-rails
 2. Detects when an agent has hit a dead-end and intervenes
 3. Manages the *portfolio* of agent work, not individual lines of code

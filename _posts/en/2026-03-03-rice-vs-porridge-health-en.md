@@ -18,6 +18,7 @@ When using the **same amount of raw rice** (e.g., 50g uncooked rice), the total 
 However, the **form** matters significantly for health effects. Here's a clear comparison:
 
 ### Key Differences
+
 - **Glycemic Index (GI) / Blood Sugar Impact**
   Porridge has a **higher GI** than steamed rice.
   Long cooking + high water breaks down starch more (greater gelatinization), making it digested and absorbed faster → quicker blood sugar rise.
@@ -52,9 +53,11 @@ However, the **form** matters significantly for health effects. Here's a clear c
 | Best when sick / elderly| Better                             | Worse                              | Porridge               |
 
 ### Bottom Line
+
 For most healthy adults, especially if concerned about blood sugar, weight, or long-term metabolic health → **rice form is better**.
 
 Porridge is better mainly when:
+
 - You have poor digestion / feeling unwell
 - Need hydration + gentle food
 - Want a low-calorie-density option (but watch total rice used)

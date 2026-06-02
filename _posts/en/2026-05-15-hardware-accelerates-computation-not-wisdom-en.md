@@ -41,6 +41,7 @@ The RTX 4070 Super is considered a solid budget pick for deep learning — 12GB 
 In fact, for beginners and intermediate practitioners in 2025, a used RTX 3080 or a new RTX 4070 Super is the recommended starting point.
 
 There is enormous depth to explore with an RTX 4070:
+
 - Fine-tuning LLMs with LoRA / QLoRA
 - Training small transformers from scratch
 - Running quantized models (GGUF, GPTQ)

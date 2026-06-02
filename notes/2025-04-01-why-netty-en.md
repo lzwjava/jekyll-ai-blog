@@ -11,6 +11,7 @@ type: note
 Netty is a powerful, open-source, asynchronous event-driven network application framework for Java. It’s widely used to build high-performance, scalable, and maintainable networked applications. Let me break down what you can use Netty for and how it’s applied:
 
 ### What Can You Use Netty For?
+
 Netty simplifies the development of networked applications by providing a robust foundation for handling low-level networking tasks. Here are some key use cases:
 
 1. **Building Servers and Clients**:
@@ -41,6 +42,7 @@ Netty simplifies the development of networked applications by providing a robust
    - Netty is often embedded in larger frameworks or middleware (e.g., JBoss, Vert.x, or Apache Cassandra) to handle networking tasks.
 
 ### How Does Netty Work in Applications?
+
 Netty abstracts the complexities of Java’s NIO (Non-blocking I/O) and provides a higher-level API that’s easier to use. Here’s how it’s typically applied:
 
 1. **Core Components**:
@@ -62,6 +64,7 @@ Netty abstracts the complexities of Java’s NIO (Non-blocking I/O) and provides
    - Start the server and handle multiple clients concurrently with minimal resource overhead.
 
    Here’s a simplified code snippet (Java):
+
    ```java
    import io.netty.bootstrap.ServerBootstrap;
    import io.netty.channel.*;
@@ -108,11 +111,13 @@ Netty abstracts the complexities of Java’s NIO (Non-blocking I/O) and provides
    - **Performance**: Optimized for speed and low memory usage, outperforming traditional blocking I/O in many scenarios.
 
 ### Real-World Applications
+
 - **Apache Cassandra**: Uses Netty for its networking layer to handle distributed database communication.
 - **Twitter**: Leverages Netty (via Finagle) for high-throughput services.
 - **Minecraft Servers**: Many custom servers use Netty for efficient multiplayer networking.
 
 ### Why Choose Netty?
+
 - **Scalability**: Handles thousands of concurrent connections effortlessly.
 - **Flexibility**: Works with any protocol or data format you define.
 - **Community**: Large ecosystem with extensive documentation and support.

@@ -15,6 +15,7 @@ Yes, you're on the right track with understanding the **NanoGPT** architecture (
 ---
 
 ### NanoGPT Overview (Typical Config)
+
 NanoGPT is a **from-scratch GPT-2-like model** trained on Shakespeare (or tiny datasets). The default config is roughly **GPT-2 small** scaled down.
 
 | Parameter | Typical Value in NanoGPT |
@@ -28,7 +29,7 @@ But for **smaller demos**, it uses even tinier configs (e.g., 64M or less).
 
 ---
 
-### Your Question Breakdown:
+### Your Question Breakdown
 
 > "for every 512 tokens, they have GPT model"
 
@@ -36,6 +37,7 @@ But for **smaller demos**, it uses even tinier configs (e.g., 64M or less).
 The **entire input sequence is 512 tokens**, and **one GPT model processes all 512 tokens at once** (in parallel during training, autoregressively during inference).
 
 So:
+
 - Input: batch of sequences, each up to **512 tokens**
 - One single GPT model processes **all 512 positions in parallel** (thanks to attention masking)
 
@@ -52,6 +54,7 @@ Let’s clarify **multi-head attention**:
 - **Head dimension** = `n_embd // n_head` = `768 // 12 = 64`
 
 So:
+
 - Each head operates on **64-dimensional vectors**
 - There are **12 heads**, each looking at all **512 tokens**
 - Total: 12 heads × 64 dim = 768 dim
@@ -135,7 +138,9 @@ Each block has **12 attention heads**, each doing attention over **all 512 posit
 ---
 
 ### Reference (NanoGPT code)
+
 From `model.py`:
+
 ```python
 self.transformer = nn.ModuleDict(dict(
     wte = nn.Embedding(vocab_size, n_embd),
@@ -146,6 +151,7 @@ self.transformer = nn.ModuleDict(dict(
 ```
 
 And in `Block`:
+
 ```python
 self.attn = CausalSelfAttention(n_embd, n_head)  # n_head=12, head_size=64
 ```
@@ -155,6 +161,7 @@ self.attn = CausalSelfAttention(n_embd, n_head)  # n_head=12, head_size=64
 ### Final Answer to Your Question
 
 > **Yes**, in NanoGPT:
+
 - The model takes **up to 512 tokens** as input.
 - It uses **multi-head attention** (e.g., 12 heads).
 - Each head works with **64-dimensional vectors**.

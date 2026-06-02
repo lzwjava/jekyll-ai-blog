@@ -32,6 +32,7 @@ Let me look into the specific details for this situation.Great question. Here's 
 The self-exam policy does not require you to have an associate degree certificate before registering for a bachelor's program. However, when you apply for the bachelor's degree graduation certificate, you must first have obtained a nationally recognized associate degree (or above) as a prerequisite.
 
 In other words:
+
 - ✅ You **can** take bachelor's-level exam subjects while still working on your associate degree.
 - ❌ You **cannot** graduate with the bachelor's degree until you have already graduated with the associate degree first.
 

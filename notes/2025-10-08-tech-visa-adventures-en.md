@@ -32,6 +32,7 @@ Your tech background (full-stack, ML) will love the co-working spots and hackath
    Top 20 safest, K-pop clean streets. Tech rocket: Samsung's AI labs, Seoul's 6G pilots, and Gangnam's startup alleys (your Android/iOS chops would thrive). Massive energy—drive the 400km coastal road from Seoul to Busan for beaches and bullet trains. Flights 4 hours direct. If solo, visa's easy online; otherwise, join a tech tour group for the trial waiver. Pairs with your 2000+ AI reads—visit KAIST university.
 
 **Pro Tips for Safe, Smooth Sailing:**
+
 - Safety apps: Download local ones like Singapore's TraceTogether or Japan's Yurekuru for quake alerts.
 - Tech twist: Pack your laptop—remote work from WeWork equivalents; your Alibaba/AWS knowledge transfers seamlessly.
 - Road ready: Get an International Driving Permit (~¥500 in Guangzhou); rentals from ¥200/day. Budget ¥10,000-20,000 for 1-2 weeks incl. flights.

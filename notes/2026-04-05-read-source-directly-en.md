@@ -18,6 +18,7 @@ Yes — and that's actually the **simplest, most direct approach**. You don't ne
 ## Why Direct Source Reading Works Fine Here
 
 You already know:
+
 - ✅ Webhook signature verification works
 - ✅ Nextcloud is sending webhooks
 - ✅ OpenClaw receives them
@@ -42,6 +43,7 @@ That's it. `grep` will pinpoint the exact file and line. Then you read 20–50 l
 ## Claude Code Is Overkill Here
 
 Claude Code is valuable when:
+
 - The codebase is huge and unfamiliar
 - You need to trace across many files
 - You want AI to **explain** complex logic

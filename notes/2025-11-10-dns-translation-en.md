@@ -17,10 +17,13 @@ ByteByteGo, created by Alex Xu (author of *System Design Interview* books), is a
 The episode uses a clean, step-by-step diagram to illustrate the process, emphasizing DNS's hierarchical, distributed design for scalability. It's a quick 5-10 minute read/watch, perfect for interviews or learning system design basics. Below, I'll explain the key concepts from the episode, including how DNS works in practice.
 
 #### Why DNS Matters
+
 Without DNS, you'd need to type raw IP addresses into your browser—impractical for billions of sites. DNS is decentralized: no single server holds all mappings. Instead, it's a tree-like hierarchy managed by organizations like ICANN (Internet Corporation for Assigned Names and Numbers). This setup handles trillions of queries daily with low latency.
 
 #### Core Components of DNS
+
 The episode highlights these main players:
+
 - **Stub Resolver**: Your device (browser/OS) initiates the query.
 - **Recursive Resolver**: Often your ISP's DNS server (e.g., 8.8.8.8 from Google). It does the heavy lifting, chasing down the answer.
 - **Root Name Servers**: 13 global clusters (e.g., a.root-servers.net) that point to TLD servers. They don't store IPs but know where to start.
@@ -28,6 +31,7 @@ The episode highlights these main players:
 - **Authoritative Name Servers**: The final source for a domain's records (e.g., example.com's servers). They hold the actual IP mappings.
 
 #### How DNS Lookup Works: Step-by-Step
+
 The episode's diagram shows a recursive lookup for `www.example.com`. Here's the flow (assuming no cache hit for a full explanation):
 
 1. **User Enters Domain**: You type `www.example.com` in your browser. The stub resolver sends a query to the recursive resolver.
@@ -51,7 +55,9 @@ This is usually iterative (each server responds directly) but recursive from the
 | 3 | Recursive Resolver | Authoritative Server | IP address (e.g., `192.0.2.1`) |
 
 #### DNS Record Types (Bonus from Related Episodes)
+
 EP 51 focuses on the lookup process, but ByteByteGo's later content (e.g., EP 143: DNS Record Types) expands on common records returned in step 6:
+
 - **A/AAAA**: Maps domain to IPv4/IPv6 address.
 - **NS**: Specifies authoritative name servers.
 - **CNAME**: Aliases one domain to another (e.g., `www.example.com` → `example.com`).
@@ -61,10 +67,13 @@ EP 51 focuses on the lookup process, but ByteByteGo's later content (e.g., EP 14
 - **SOA**: Zone admin info.
 
 #### Caching and Performance
+
 A key takeaway: DNS is fast because of multi-layer caching (browser → OS → resolver → ISP). But issues like cache poisoning (DNS spoofing) can redirect traffic—use DNSSEC for security.
 
 #### Real-World Example
+
 Query `www.google.com`:
+
 - Root → `.com` TLD → Google's authoritative servers → IP like `142.251.46.238`.
 - Cached for ~5 minutes (Google's TTL).
 

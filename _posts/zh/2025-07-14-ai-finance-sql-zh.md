@@ -11,6 +11,7 @@ type: note
 基于您在财务转型平台的工作经验，该平台主要处理财务数据后端系统、工作流以及与Java、Spring Boot、Db2等工具的集成，人工智能确实能发挥变革性作用。您关于使用AI“搜索财务标题”的想法与自然语言处理（NLP）应用高度契合，例如将用户查询转换为SQL以实现高效数据检索。这能够降低复杂财务数据集的访问门槛，让非技术利益相关者（如财务团队）无需编写代码即可查询分类账条目、交易标题或审批状态等。您提出的从自然语言生成SQL的示例是个完美的起点——让我们深入分析并拓展更广泛的应用场景。
 
 #### 分析您的SQL生成示例
+
 您的自然语言查询（“获取一些名字为andy、上月左右创建、截至2025年年龄为20岁、且最近一周有登录的用户”）很好地展示了AI如何连接日常语言与数据库操作。您提供的生成SQL查询总体有效，并充分利用了PostgreSQL特性：
 
 ```sql
@@ -32,13 +33,17 @@ WHERE first_name ILIKE 'andy'
 
 - **改进空间**：
   - 年龄条件（`EXTRACT(YEAR FROM AGE(date_of_birth)) = 20`）计算的是截至2025年7月14日的当前年龄，这将筛选出当天正好20岁的用户（需考虑生日是否已过）。但“截至2025年年龄为20岁”更准确的含义应是在2025年期间年满20岁的用户（即2005年出生）。更简洁精确的替代方案可以是：
+
     ```sql
     AND date_of_birth BETWEEN '2005-01-01' AND '2005-12-31'
     ```
+
     或等效写法：
+
     ```sql
     AND EXTRACT(YEAR FROM date_of_birth) = 2005
     ```
+
     这避免了运行时的年龄计算，专注于出生年份，在财务或合规场景中（如基于年龄的账户资格审核）通常更稳定
   - 为增强稳健性，可添加限制条件（如`LIMIT 10`）以匹配“部分用户”的诉求，并为时间戳考虑时区（若系统为全球部署）
   - 在财务项目中，需适配您的Db2数据库——PostgreSQL的`AGE()`和`ILIKE`等语法可能需要调整（例如使用`CURRENT DATE - date_of_birth`计算年龄，`LOWER(first_name) LIKE 'andy'`进行匹配）
@@ -46,6 +51,7 @@ WHERE first_name ILIKE 'andy'
 您提到的深度使用的Copilot等AI工具，或通过OpenAI/Google Cloud API接入的先进模型，都擅长此类自然语言到SQL的转换。在您的架构中，可将其集成至工作流，构建能解析财务标题查询（如“显示上季度余额超过1万美元的未审批标题”）的聊天机器人界面，并安全生成/执行SQL，同时设置安全防护机制。
 
 #### 人工智能在财务后端系统中的更广泛应用
+
 在您这样专注于数据导入/验证/导出、工作流和银行系统的项目中，AI能提升效率、减少错误并推动创新。结合行业趋势，以下是为后端工程定制的实际应用场景：
 
 - **自动化数据处理与验证**：
@@ -73,6 +79,7 @@ WHERE first_name ILIKE 'andy'
 若正在构建AI代理，可考虑LangChain等开源框架来串联日志分析与SQL生成。关于API或订阅定价，请查阅官方站点了解详情。
 
 **参考资料**
+
 - [人工智能与银行软件开发 | 德勤洞察](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html)
 - [银行业AI应用：场景、优势与案例 | 谷歌云](https://cloud.google.com/discover/ai-in-banking)
 - [银行业AI价值挖掘：企业重构 | 麦肯锡](https://www.mckinsey.com/industries/financial-services/our-insights/extracting-value-from-ai-in-banking-rewiring-the-enterprise)

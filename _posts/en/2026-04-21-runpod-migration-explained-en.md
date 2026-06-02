@@ -26,6 +26,7 @@ So the message you're seeing — **"Migration queued and being compressed"** —
 ## What "Queued and Being Compressed" Means
 
 The migration process goes through stages:
+
 1. **Queued** — RunPod is finding a new machine with your requested GPU type (RTX 2000 Ada).
 2. **Being Compressed** — Your pod's container/disk data is being compressed in preparation for transfer to the new machine.
 3. After this, it will be **transferred and provisioned** on the new host.

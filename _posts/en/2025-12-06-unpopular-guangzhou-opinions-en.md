@@ -17,6 +17,7 @@ Answer:
 Living in Guangzhou, a bustling southern Chinese metropolis known for its Cantonese culture and dim sum, elicits strong reactions from residents and expats. While many praise its food and green spaces, unpopular opinions often highlight its chaotic underbelly, relentless humidity, and social frictions. Below, I've compiled a list of recurring unpopular takes drawn from expat forums, social media, and personal accounts. These are subjective views that challenge the city's "underrated gem" narrative.
 
 ### Unpopular Opinions on Guangzhou Living
+
 - **The humidity and heat make it unlivable for much of the year**: Unlike drier northern cities, Guangzhou's subtropical climate turns summers into a steamy nightmare—floors get slick with moisture, mold invades fridges, and even high-rises require mosquito nets. One expat called it "absolutely fucking miserable," arguing it's worse than most Chinese cities for non-natives.
 - **It's chaotic and "third-world" despite the skyscrapers**: The city feels like a "fancier version of Calcutta"—e-scooters dart through traffic like lawless herds, streets reek of unidentifiable odors (one visitor likened it to "the smell of mating"), and rundown areas pop up just blocks from glitzy districts. Critics say the organic sprawl lacks the polished efficiency of Shenzhen.
 - **Social disconnection and boundary issues abound**: People keep to themselves in crowds but invade personal space—tight-queuing, no elevator courtesy, and staring at foreigners are norms. Expats report it's hard to make genuine friends, with locals seeming closed-off or overly career-focused, leading to a "shallow zombie" vibe in social scenes.
@@ -29,6 +30,7 @@ Living in Guangzhou, a bustling southern Chinese metropolis known for its Canton
 These views aren't universal—some love the food and history—but they represent the contrarian chorus from those who've stuck it out. If you're considering a move, short-term visits help gauge the vibe.
 
 References:
+
 - [Pros and cons of Shanghai, Hangzhou, Guangzhou?](https://www.reddit.com/r/chinalife/comments/17pkpjd/pros_and_cons_of_shanghai_hangzhou_guangzhou/)
 - [I wish I came as a tourist instead of living here](https://www.reddit.com/r/chinalife/comments/1fivaww/i_wish_i_came_as_a_tourist_instead_of_living_here/)
 - [Good and Bad of Guangzhou](https://www.reddit.com/r/guangzhou/comments/1c4rsu/good_and_bad_of_guangzhou/)

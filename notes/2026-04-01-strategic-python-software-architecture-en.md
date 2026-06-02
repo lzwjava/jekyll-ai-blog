@@ -34,11 +34,13 @@ The core problem with AI-generated scripts dumped into a single file or folder: 
 ## The Right Mental Model: "Design Boundaries Before Writing Code"
 
 ### 1. **Single Responsibility Principle (SRP)**
+
 Each microservice — or module — should concentrate on one specific task or business function. This optimizes the development process and allows teams to work independently and efficiently.
 
 Applied even to a small Python project: don't let your database logic, business logic, and API routing live in the same file.
 
 ### 2. **Domain-Driven Design (DDD)**
+
 Microservices should be designed around business capabilities using Domain-Driven Design (DDD). This enables high-level functionality and provides loosely coupled services. The strategic phase ensures the design architecture encapsulates business capabilities, while the tactical phase allows development of a domain model using different design patterns.
 
 Think in terms of business domains first: `users`, `orders`, `payments`, `notifications` — not in terms of technical layers like `helpers.py` or `utils.py`.
@@ -66,7 +68,6 @@ my_project/
 └── .env
 ```
 
-
 This structure separates concerns clearly. If you ever need to split into microservices later, each folder is already a candidate for its own service.
 
 ---
@@ -90,7 +91,6 @@ microservices-platform/
 │   └── product-service/
 ```
 
-
 Notice each service has its own `models`, `schemas`, `repository`, and `service` — completely self-contained.
 
 ---
@@ -98,18 +98,23 @@ Notice each service has its own `models`, `schemas`, `repository`, and `service`
 ## Key Principles to Avoid the Painful Migration
 
 ### Avoid Tight Coupling
+
 Each service should be independent and loosely coupled with other services. A change in one service should not directly affect other services. This isolation allows for easier scaling and deployment, as each service can be scaled or updated independently.
 
 ### Use Interfaces / Contracts Between Modules
+
 Define clear API contracts between your modules from the start. Whether it's REST, gRPC, or just Python abstract base classes, having explicit boundaries means you can refactor internals without breaking callers.
 
 ### Choose the Right Framework for the Right Job
+
 Use the right framework: FastAPI for high-performance APIs, Django for full-featured applications, and Flask for lightweight services. Ensure service independence — decouple services to improve scalability and fault isolation.
 
 ### Build Testing In From the Start
+
 Clean architecture makes testing boring — and boring is good. If your code is hard to unit test, it's a sign the architecture is wrong. Testability and modularity go hand-in-hand.
 
 ### Observability Is Not Optional
+
 Enable observability — use Prometheus, Grafana, and AWS CloudWatch for real-time monitoring. Without monitoring and logging, debugging in a distributed system becomes very difficult.
 
 ---

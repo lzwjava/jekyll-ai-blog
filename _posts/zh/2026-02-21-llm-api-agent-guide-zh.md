@@ -31,6 +31,7 @@ type: note
 ## 3. 翻译与多语言能力
 
 您的观察准确。在翻译任务中，模型在不同语言对上的表现差异显著：
+
 - **Gemini 3.0 Pro** 擅长长文档和多模态内容翻译；
 - **Qwen 3/2.5** 在中/日/韩语翻译中表现突出，亚洲技术内容术语准确率达 95%；
 - **Claude 3.5 Sonnet** 在专业翻译评测中获得 78% 的“好”评价，排名最高；
@@ -40,6 +41,7 @@ type: note
 ## 4. 速度与推理延迟
 
 正确。输出速度差异巨大：
+
 - **Granite 3.3 8B** 生成速度达 521 Token/秒；
 - 部分推理模型（如 OpenAI o1、DeepSeek R1）以推理质量换取速度；
 - 最低延迟模型包括 **Apriel-v1.5-15B-Thinker**（0.19 秒）。
@@ -47,6 +49,7 @@ type: note
 ## 5. 工具调用与函数能力
 
 您的观点有效。在 LangChain 中，工具选择依赖 LLM 的自然语言推理而非直接函数调用，增加了 Token 消耗和执行时间。**Swarm** 和 **LangGraph** 更注重效率：
+
 - **Swarm** 将任务分配给专业代理，工具以原生 Python 函数连接，LLM 仅在必要时介入，降低 Token 使用并提升速度；
 - **Anthropic 的 Claude 4 系列** 专为代理用例优化，如工具调用、文件访问、扩展内存和长期推理。
 
@@ -55,6 +58,7 @@ type: note
 您未提及的一个重要因素：截至 2025 年 11 月，**Artificial Analysis Intelligence Index** 显示，前五大开源模型中有四个来自 **MiniMax、阿里巴巴、DeepSeek 和 Z.ai**，许多科技公司正迁移至中文模型，因其成本远低于 OpenAI 和 Anthropic 替代方案，同时性能相当。
 
 **参考资料**：
+
 - [R1dacted: Investigating Local Censorship in DeepSeek's R1 Language Model](https://arxiv.org/html/2505.12625v1)
 - [Chinese Open-Source LLMs Are Winning Silicon Valley](https://recodechinaai.substack.com/p/chinese-open-source-llms-are-winning)
 - [Best LLMs for Extended Context Windows in 2026](https://aimultiple.com/ai-context-window)

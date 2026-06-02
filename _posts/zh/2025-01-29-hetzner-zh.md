@@ -32,7 +32,7 @@ type: post
 
 防火墙设置非常易于使用。虽然这是我第一次使用它，但我很快就为我的代理服务器设置了正确的配置。
 
-> sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
+> sudo bash -c "$(wget -qO- <https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh>)"
 
 赫尔辛基的Hetzner服务器速度非常快。使用iOS上的Speedtest应用程序，下载速度为423 Mbps，上传速度为56.1 Mbps。
 

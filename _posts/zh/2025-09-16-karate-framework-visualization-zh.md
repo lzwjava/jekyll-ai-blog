@@ -13,6 +13,7 @@ type: note
 以下是使用 NetworkX 和 Matplotlib 绘制 Karate 测试框架高层架构/流程的独立 Python 脚本。该脚本按角色对组件进行分组（编写、执行、运行时、协议/IO、外部系统和报告），并展示了从特性文件通过引擎到协议和报告的典型流程。
 
 使用说明：
+
 - 执行 pip install networkx matplotlib
 - 如需更美观的布局可选择性安装 pygraphviz 或 pydot + graphviz；脚本会自动检测并回退到弹簧布局
 
@@ -162,6 +163,7 @@ plt.show()
 ```
 
 该示意图传达的信息：
+
 - 编写层：编写 .feature 文件，可复用其他特性，通过 karate-config 配置，并注入数据
 - 执行层：通过 CLI/JUnit5/Maven/Gradle 运行，支持并行执行
 - 运行时层：Karate 引擎解释 DSL，使用 JS 引擎处理表达式，并管理场景状态

@@ -34,4 +34,4 @@ type: note
 如今以杨命名的概念——模量、狭缝、方程、理论——已渗透至物理、工程与医学领域。他预见了光速不变原理对相对论的启示，并影响了量子力学发展。爱因斯坦誉其为"真正的原创天才"。伦敦托马斯·杨研究中心秉承其跨学科精神，持续提醒着我们：曾有这样一座思想灯塔，几乎照亮了人类知识的每个角落。
 
 [托马斯·杨（科学家）- 维基百科](https://en.wikipedia.org/wiki/Thomas_Young_(scientist))
-《最后一个知晓万物的人》安德鲁·鲁宾逊 著](https://en.wikipedia.org/wiki/The_Last_Man_Who_Knew_Everything)
+《最后一个知晓万物的人》安德鲁·鲁宾逊 著](<https://en.wikipedia.org/wiki/The_Last_Man_Who_Knew_Everything>)

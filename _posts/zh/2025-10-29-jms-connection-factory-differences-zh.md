@@ -24,7 +24,9 @@ type: note
 | **性能/安全**         | 性能表现基本相当，但跨域使用时可能需要额外配置。                                   | 可针对纯队列场景优化（例如 MQ 中的绑定传输可实现更高吞吐量，约提升 30%）。                   |
 
 ### 代码示例
+
 - **使用连接工厂**（统一 API，灵活）：
+
   ```java
   ConnectionFactory factory = (ConnectionFactory) context.lookup("jms/ConnectionFactory");
   Connection conn = factory.createConnection();
@@ -35,6 +37,7 @@ type: note
   ```
 
 - **使用队列连接工厂**（仅限队列）：
+
   ```java
   QueueConnectionFactory qFactory = (QueueConnectionFactory) context.lookup("jms/QueueConnectionFactory");
   QueueConnection qConn = qFactory.createQueueConnection();

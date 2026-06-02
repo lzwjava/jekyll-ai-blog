@@ -19,9 +19,11 @@ type: note
 下面，我将根据可靠的方法概述详细的步骤方案。这些方案假设您的 Ubuntu 电脑最初在同一个家庭网络中进行设置，并且您是进行远程访问（例如从外部通过互联网）。对于外部访问，您需要通过端口转发、VPN 或第三方服务来安全地触达您的家庭网络。请务必通过使用强密码、Firewalls 并避免不必要的端口暴露来优先保证安全性。
 
 ### 1. **Wake-on-LAN (WoL) 结合 SSH 进行命令行访问**
+
 这是最轻量且省电的选项，因为 SSH 是基于文本的，不需要图形会话。如果您主要需要通过终端在 Ubuntu 上运行命令或脚本，这是理想之选。
 
 **步骤设置：**
+
 - **在 Ubuntu 电脑上启用 WoL：**
   1. 进入 BIOS/UEFI（通常在启动时按 Del、F2 或 F10），并在电源管理设置下启用 "Wake-on-LAN" 或 "PCIe/PCI Wake"。保存并退出。
   2. 在 Ubuntu 上安装 ethtool 包：`sudo apt update && sudo apt install ethtool`。
@@ -43,9 +45,11 @@ type: note
 - **优点：** 资源占用极低，命令行操作安全。**缺点：** 需要初始唤醒步骤；图形访问需要额外工具如 X forwarding（例如 `ssh -X`）。
 
 ### 2. **WoL 结合 TeamViewer 或类似 GUI 工具进行完整桌面访问**
+
 如果您需要图形化远程控制（例如使用 Ubuntu 的桌面环境），请使用集成了 WoL 功能的工具。
 
 **使用 TeamViewer（个人免费版）的步骤设置：**
+
 - **在 Ubuntu 上安装：**
   1. 从官方网站下载：`wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb`。
   2. 安装：`sudo dpkg -i teamviewer_amd64.deb`（使用 `sudo apt install -f` 修复依赖项）。
@@ -66,9 +70,11 @@ type: note
 - **优点：** 图形界面易用，跨平台，处理远程唤醒。**缺点：** 第三方服务；潜在的隐私顾虑（尽管是端到端加密的）。
 
 ### 3. **使用 RDP/VNC 结合 Gnome 扩展进行锁定访问**
+
 如果您更倾向于使用 Ubuntu 原生工具进行图形访问，可以设置 RDP 或 VNC，然后配合 WoL 进行唤醒。
 
 **步骤：**
+
 - **在 Ubuntu 上启用远程桌面 (Ubuntu 22.04+)：**
   1. 转到 Settings > Sharing > Remote Desktop > Enable。
   2. 设置用户名/密码。
@@ -79,6 +85,7 @@ type: note
 - **优点：** 内置功能，无需额外软件。**缺点：** 安全性低于 SSH；需要手动唤醒步骤。
 
 ### 附加建议
+
 - **电源管理：** 将 Ubuntu 配置为在闲置一段时间后挂起 (`Settings > Power`)，但要确保 WoL 在挂起状态下能正常工作（需进行测试）。
 - **安全性：** 所有的远程访问都建议使用 VPN（如 WireGuard），以避免端口暴露。开启 Ubuntu Firewall (`sudo ufw enable`)。
 - **节能效果：** 使用 WoL 后，PC 仅在需要时运行。Raspberry Pi 网关的功耗约为 3-5W，而 PC 待机功耗约为 50-100W。

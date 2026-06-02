@@ -38,12 +38,14 @@ Answer:
 
 **为什么可能达到 300 GB**
 单行日志约为 100–200 bytes。如果以每秒 10–1000 行的速度增长（在紧密循环中很容易达到），空间会迅速填满：
+
 - ~100 lines/sec → 每小时 ~1 GB → 每天 ~24 GB
 - 更快的循环（如 dbus retry storms）每小时可达数 GB。
 
 **紧急处理措施**（当磁盘已满时）
 
 1. 立即停止 CUPS 以终止 logging
+
    ```
    sudo systemctl stop cups
    # 如果系统因空间不足导致 systemd 异常：
@@ -51,6 +53,7 @@ Answer:
    ```
 
 2. 通过 truncate 或删除巨大的 log 文件来释放空间
+
    ```
    sudo truncate -s 0 /var/log/cups/error_log
    # 或者
@@ -58,6 +61,7 @@ Answer:
    ```
 
 3. 重启 CUPS（仅在修复根本原因后）
+
    ```
    sudo systemctl start cups
    ```
@@ -65,14 +69,16 @@ Answer:
 **长期预防**
 
 - 在 CUPS 中查找并移除/修复有问题的 printer
-  → http://localhost:631 → Administration → Manage Printers → 删除可疑的打印机
+  → <http://localhost:631> → Administration → Manage Printers → 删除可疑的打印机
 
 - 降低 `/etc/cups/cupsd.conf` 中的 log level
+
   ```
   LogLevel warn        # 或 error / info (代替 debug)
   ```
 
   然后重启 CUPS：
+
   ```
   sudo systemctl restart cups
   ```

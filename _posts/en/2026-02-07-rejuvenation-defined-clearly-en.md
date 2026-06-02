@@ -18,7 +18,7 @@ Answer:
 
 It comes from the Latin word *juvenis* = "young".
 
-### Main meanings and common uses:
+### Main meanings and common uses
 
 1. **Personal / biological rejuvenation**
    - Making a person feel or appear younger
@@ -45,7 +45,7 @@ It comes from the Latin word *juvenis* = "young".
    - Refers to partially or fully reversing biological aging markers
    - Examples: cellular reprogramming (Yamanaka factors), epigenetic rejuvenation, plasma dilution, senolytic drugs, partial reprogramming protocols
 
-### Quick summary – most common meanings today:
+### Quick summary – most common meanings today
 
 - Feel/look/physically younger or more energetic again
 - Restore youthfulness or vitality

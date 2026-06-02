@@ -15,7 +15,9 @@ type: note
 ## 替代工具
 
 ### 1. **wmctrl**
+
 比 xdotool 更健壮的替代方案：
+
 ```bash
 # 获取活动窗口
 wmctrl -a
@@ -28,6 +30,7 @@ wmctrl -l | grep -i firefox
 ```
 
 ### 2. **qdbus**（适用于 KDE/Qt 应用程序）
+
 ```bash
 # 获取活动窗口信息
 qdbus org.kde.KWin /KWin activeWindow
@@ -37,7 +40,9 @@ qdbus org.kde.KWin /KWin windows
 ```
 
 ### 3. **xwininfo**
+
 内置的 X11 工具：
+
 ```bash
 # 交互式窗口选择
 xwininfo
@@ -50,7 +55,9 @@ xwininfo -id $(xprop -root _NET_ACTIVE_WINDOW | cut -d' ' -f5)
 ```
 
 ### 4. **xprop**
+
 另一个 X11 工具：
+
 ```bash
 # 获取活动窗口属性
 xprop -root _NET_ACTIVE_WINDOW
@@ -64,16 +71,19 @@ xprop -root | grep "_NET_ACTIVE_WINDOW(WINDOW)"
 如果运行的是 Wayland，X11 工具将无法工作。请尝试以下替代方案：
 
 ### 5. **swaymsg**（适用于 Sway）
+
 ```bash
 swaymsg -t get_tree | jq -r '.. | select(.focused? == true)'
 ```
 
 ### 6. **hyprctl**（适用于 Hyprland）
+
 ```bash
 hyprctl activewindow
 ```
 
 ### 7. **gdbus**（GNOME/GTK）
+
 ```bash
 gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval "global.get_window_actors()"
 ```
@@ -81,6 +91,7 @@ gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --met
 ## Python 解决方案
 
 ### 8. **使用 Xlib 的 Python**
+
 ```python
 from Xlib import X, display
 from Xlib.error import XError
@@ -107,6 +118,7 @@ print(get_active_window())
 ```
 
 ### 9. **使用 subprocess 的 Python**
+
 ```python
 import subprocess
 
@@ -133,6 +145,7 @@ print(get_firefox_windows())
 3. **Wayland 冲突**：可能运行的是 Wayland 而不是 X11
 
 检查显示服务器：
+
 ```bash
 echo $XDG_SESSION_TYPE
 loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type

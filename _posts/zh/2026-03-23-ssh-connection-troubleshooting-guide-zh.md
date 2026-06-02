@@ -18,16 +18,19 @@ type: note
 ### 第 1 步：检查 Proxy 配置
 
 **命令：**
+
 ```bash
 env | grep -i proxy
 ```
 
 **揭示的信息：**
+
 - 所有与 Proxy 相关的环境变量
 - 是否设置了 HTTP_PROXY, HTTPS_PROXY, ALL_PROXY
 - NO_PROXY 排除了哪些内容
 
 **你的结果：**
+
 ```
 HTTP_PROXY=http://127.0.0.1:7890
 HTTPS_PROXY=http://127.0.0.1:7890
@@ -42,15 +45,18 @@ NO_PROXY=localhost,127.0.0.1,.example.com,::1
 ### 第 2 步：验证 Proxy 服务是否运行
 
 **命令：**
+
 ```bash
 lsof -i :7890
 ```
 
 **揭示的信息：**
+
 - 是否有进程在监听 Proxy 端口
 - 哪个进程拥有该 Proxy 连接
 
 **你的结果：**
+
 ```
 node       1870 lzwjava   19u  IPv4 ... TCP localhost:55717->localhost:7890 (ESTABLISHED)
 AMPLibrar  2729 lzwjava   13u  IPv4 ... TCP localhost:55704->localhost:7890 (ESTABLISHED)
@@ -63,15 +69,18 @@ AMPLibrar  2729 lzwjava   13u  IPv4 ... TCP localhost:55704->localhost:7890 (EST
 ### 第 3 步：测试基础网络连通性
 
 **命令：**
+
 ```bash
 ping -c 3 192.168.2.1
 ```
 
 **揭示的信息：**
+
 - 主机在网络层（ICMP）是否可达
 - 往返时间（RTT）和丢包率
 
 **你的结果：**
+
 ```
 3 packets transmitted, 3 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 6.923/7.855/9.023/0.874 ms
@@ -84,15 +93,18 @@ round-trip min/avg/max/stddev = 6.923/7.855/9.023/0.874 ms
 ### 第 4 步：在无 Proxy 变量的情况下测试 SSH
 
 **命令：**
+
 ```bash
 env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY ssh -o ConnectTimeout=5 root@192.168.2.1 exit
 ```
 
 **揭示的信息：**
+
 - 移除 Proxy 变量是否能解决问题
 - 问题是与 Proxy 相关还是其他原因
 
 **你的结果：**
+
 ```
 ssh: connect to host 192.168.2.1 port 22: Operation timed out
 ```
@@ -104,15 +116,18 @@ ssh: connect to host 192.168.2.1 port 22: Operation timed out
 ### 第 5 步：检查 SSH 配置
 
 **命令：**
+
 ```bash
 cat ~/.ssh/config
 ```
 
 **揭示的信息：**
+
 - SSH 是否配置了 Proxy 命令
 - 特定主机的连接规则
 
 **你的结果：**
+
 ```
 Host !192.168.*.*
     ProxyCommand ncat --proxy localhost:7891 --proxy-type socks5 %h %p
@@ -125,15 +140,18 @@ Host !192.168.*.*
 ### 第 6 步：直接测试 22 端口
 
 **命令：**
+
 ```bash
 nc -zv -w 3 192.168.2.1 22
 ```
 
 **揭示的信息：**
+
 - 22 端口是否开放并接受连接
 - 绕过 SSH 协议直接测试原始 TCP 连通性
 
 **你的结果：**
+
 ```
 192.168.2.1 22 (ssh): Operation timed out
 ```
@@ -145,15 +163,18 @@ nc -zv -w 3 192.168.2.1 22
 ### 第 7 步：检查本地网络配置
 
 **命令：**
+
 ```bash
 ifconfig | grep -A 2 "inet 192.168"
 ```
 
 **揭示的信息：**
+
 - 你的 Mac 处于哪个子网
 - 你的本地 IP 地址
 
 **你的结果：**
+
 ```
 inet 192.168.1.37 netmask 0xffffff00 broadcast 192.168.1.255
 ```
@@ -165,15 +186,18 @@ inet 192.168.1.37 netmask 0xffffff00 broadcast 192.168.1.255
 ### 第 8 步：检查 ARP 表
 
 **命令：**
+
 ```bash
 arp -n 192.168.2.1
 ```
 
 **揭示的信息：**
+
 - 你的 Mac 是否在二层（Layer 2）直接与路由器通信
 - 路由器是否在同一个物理网络段
 
 **你的结果：**
+
 ```
 192.168.2.1 (192.168.2.1) -- no entry
 ```
@@ -185,15 +209,18 @@ arp -n 192.168.2.1
 ### 第 9 步：检查路由表
 
 **命令：**
+
 ```bash
 route -n get 192.168.2.1
 ```
 
 **揭示的信息：**
+
 - 你的 Mac 如何路由到 192.168.2.1 的流量
 - 使用了哪个网关
 
 **你的结果：**
+
 ```
 route to: 192.168.2.1
 destination: 192.168.2.1
@@ -266,6 +293,7 @@ SSH 到 192.168.2.1 失败
 ## 确凿证据 (The Smoking Gun)
 
 以下现象的结合：
+
 - ✅ Ping 正常（ICMP 已路由）
 - ❌ 即使没有 Proxy，SSH 依然失败
 - ❌ 通过 netcat 发现 22 端口不可达

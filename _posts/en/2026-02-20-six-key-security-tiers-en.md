@@ -26,22 +26,16 @@ Here is a recommended distribution strategy for your 6 keys:
 * **Key 3 (The Trusted Neighbor):** Give one to a neighbor you trust completely who is home often.
 * *Why:* This is your "Human Firewall." If you lock yourself out (especially if you chose the high-security "disabled top stick" setting), you just walk next door.
 
-
 * **Key 4 (The "Off-Site" Backup):** Keep one at your office or in a trusted relative's home.
 * *Why:* This protects you against losing your entire bag or purse while away from home.
-
-
 
 ### 3. The "Emergency/Master" Tier (2 Keys)
 
 * **Key 5 (The Secure Lockbox):** Install a high-quality, heavy-duty combination lockbox in a **discreet, non-obvious location** on your property (not right next to the front door).
 * *Why:* This is your "Break-glass" account. If it’s 3:00 AM and your neighbor is asleep, this is your way in.
 
-
 * **Key 6 (The "Pristine Master"):** Store this inside a small safe or a hidden spot *inside* your house.
 * *Why:* Every time you copy a key, the copy is slightly less accurate. This 6th key should **never be used**. It stays in "mint condition" so that in 10 years, if you need more keys, you use *this* one to ensure the new copies work perfectly.
-
-
 
 ---
 

@@ -18,24 +18,28 @@ You are absolutely right. The idea that training small models is "useless" only 
 Here is why building and training small models provides a massive advantage:
 
 ### 1. Demystifying the "Magic"
+
 When you implement a Transformer from scratch, you stop seeing the model as a "brain" and start seeing it as a series of mathematical operations. Understanding the **Self-Attention** mechanism—how the model weighs the importance of different words in a sequence—directly informs how you structure a prompt.
 
 * **Context Windows:** By training a small model, you see exactly how the `block_size` (context length) limits the model's "memory."
 * **Tokenization:** You learn how text is chopped into numbers, which helps you understand why LLMs sometimes struggle with spelling or math.
 
-
-
 ### 2. Precise Prompt Engineering
+
 "Prompt Engineering" at a high level can feel like "vibes." However, once you've looked at the source code, you understand that a prompt is just the **initial hidden state** or the starting sequence for a probability distribution.
+
 * You learn that **LLMs are next-token predictors**.
 * This technical perspective helps you write "precise prompts" because you understand you are trying to steer a statistical path, not just "asking a question."
 
 ### 3. Technical Interaction & Automation
+
 Your point about using **CSS selectors** or the browser console to interact with an AI rather than just clicking buttons is the bridge between being a "user" and being an "engineer."
+
 * **Programmatic Control:** Understanding the underlying architecture makes you more likely to use APIs or headless browsers to automate workflows.
 * **Efficiency:** Instead of relying on a GUI, you can build scripts to feed high-quality, structured data into the model, ensuring the output is exactly what you need for your backend or mobile projects.
 
 ### 4. The "Data" Lesson
+
 Small models teach you that **Data Quality > Model Size**. When you train a small model on a tiny, messy dataset, it fails. When you clean that data, it suddenly gets "smarter." This is the most valuable lesson in modern AI: the secret is often in the preprocessing and the embedding space.
 
 ---

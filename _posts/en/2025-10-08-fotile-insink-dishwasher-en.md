@@ -13,7 +13,9 @@ type: note
 Fotile is a Chinese kitchen appliance brand (Ningbo Fotile Kitchen Ware Co., Ltd.) specializing in high-end products like range hoods, cooktops, ovens, and innovative dishwashers. They don't produce traditional laundry washing machines, but their popular "washing machines" likely refer to their compact in-sink dishwashers, which are often translated or referred to as "dish washing machines" in some contexts (especially from Chinese origins).
 
 ### Key Features of Fotile In-Sink Dishwashers
+
 These are space-saving units designed for small kitchens, fitting directly into the sink cabinet. Popular models include:
+
 - **3-in-1 or 2-in-1 In-Sink Dishwasher**: Combines dishwashing, fruit/vegetable cleaning, and sterilization in one unit. Uses HydroJet technology for high-pressure water jets (up to 167°F for sanitization), eliminating 99.99% of bacteria. Features include:
   - Multiple cycles (e.g., 4-5 modes for dishes, produce, and quick wash).
   - Energy-efficient (around 155 kWh/year) and water-saving.

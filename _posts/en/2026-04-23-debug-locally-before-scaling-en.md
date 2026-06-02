@@ -46,6 +46,7 @@ On one A100 GPU, the Shakespeare character-level training run takes about 3 minu
 On a local machine without a dedicated training setup, it takes about 520–530ms per iteration — much slower than RunPod's ~60–65ms — but it still works fine for learning and debugging.
 
 **2. Practice your full workflow locally first:**
+
 - Learn how `train.py`, `sample.py`, and config files work
 - Understand `batch_size`, `block_size`, `n_layer`, `n_head`, `n_embd`
 - Read and understand the loss curves (training loss vs. validation loss)

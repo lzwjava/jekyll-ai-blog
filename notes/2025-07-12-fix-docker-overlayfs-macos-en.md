@@ -22,13 +22,13 @@ Here is the safest and most effective sequence of steps to resolve this on macOS
 
 The container that failed is `chat-mongodb` (ID: `ccd89a3f36a1528cb923c90de8755faeb36e229cab353c2285222948197b8d18`). First, try a forced removal using its name or ID.
 
-1.  **Stop the entire stack** (to ensure no background process is holding a lock):
+1. **Stop the entire stack** (to ensure no background process is holding a lock):
 
     ```bash
     docker compose stop
     ```
 
-2.  **Force-remove the specific container** using the `-f` flag:
+2. **Force-remove the specific container** using the `-f` flag:
 
     ```bash
     docker rm -f chat-mongodb
@@ -36,7 +36,7 @@ The container that failed is `chat-mongodb` (ID: `ccd89a3f36a1528cb923c90de8755f
     # docker rm -f ccd89a3f36a1528cb923c90de8755faeb36e229cab353c2285222948197b8d18
     ```
 
-3.  **Try running your original command again** (`docker compose down` or equivalent). If the error persists, move to step 2.
+3. **Try running your original command again** (`docker compose down` or equivalent). If the error persists, move to step 2.
 
 -----
 
@@ -46,8 +46,8 @@ A simple restart often clears up transient lock issues or corrupted states withi
 
 ### Option A: Using the Menu Bar (Recommended)
 
-1.  Click the **Docker Whale icon** in your macOS menu bar.
-2.  Select **Restart**.
+1. Click the **Docker Whale icon** in your macOS menu bar.
+2. Select **Restart**.
 
 ### Option B: Using the Terminal
 
@@ -73,8 +73,8 @@ Run the following command in your terminal:
 docker system prune -a --volumes
 ```
 
-  * **`-a`** (all) removes all unused images (not just dangling ones).
-  * **`--volumes`** removes unused anonymous volumes (which might be the source of the `overlay2` corruption).
+* **`-a`** (all) removes all unused images (not just dangling ones).
+* **`--volumes`** removes unused anonymous volumes (which might be the source of the `overlay2` corruption).
 
 You will be asked to confirm. Type `y` and press Enter. After the prune completes, try running your original command again.
 
@@ -84,8 +84,8 @@ You will be asked to confirm. Type `y` and press Enter. After the prune complete
 
 This is the **last resort** as it will **delete all your containers, images, and volumes** (including any local data you have stored in non-mounted volumes). It forces a completely fresh start of the internal Docker VM.
 
-1.  Click the **Docker Whale icon** in your macOS menu bar.
-2.  Go to **Settings (or Preferences)** $\rightarrow$ **Troubleshoot**.
-3.  Click **Reset to factory settings...**
+1. Click the **Docker Whale icon** in your macOS menu bar.
+2. Go to **Settings (or Preferences)** $\rightarrow$ **Troubleshoot**.
+3. Click **Reset to factory settings...**
 
 After the reset, Docker will restart with a clean slate, and you should be able to run your `docker compose up` command to rebuild your environment.

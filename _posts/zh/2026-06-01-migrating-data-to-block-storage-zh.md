@@ -16,10 +16,12 @@ type: note
 ## 第一步：创建卷
 
 在创建云主机时，在 DigitalOcean 界面中，选择**“Add a Volume”**下的 **“Create new”**：
+
 - 大小：**150GB**（留出余量）
 - 将在创建时附加
 
 如果云主机已存在，也可以通过 `doctl` 创建：
+
 ```bash
 doctl compute volume create my-ml-data \
   --region sfo3 \
@@ -61,6 +63,7 @@ rm -rf /root/data/
 ```
 
 如果数据在**本地机器或工作站**（192.168.1.36）上，可以直接推送到卷：
+
 ```bash
 # 从工作站执行
 rsync -avh --progress --compress \
@@ -71,6 +74,7 @@ rsync -avh --progress --compress \
 ## 第四步：使挂载持久化（同一云主机会话内）
 
 若要在同一云主机重启时自动挂载：
+
 ```bash
 # 获取 UUID
 blkid /dev/sda

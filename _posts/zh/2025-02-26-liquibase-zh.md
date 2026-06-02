@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 1. 添加 Liquibase 依赖
+
 首先需要在项目中引入 Liquibase 依赖。如果使用 **Maven**，请在 `pom.xml` 中添加：
 
 ```xml
@@ -33,6 +34,7 @@ implementation 'org.liquibase:liquibase-core'
 ---
 
 ### 2. 配置 Liquibase
+
 Liquibase 使用 **变更日志文件** 来管理数据库架构变更。默认情况下，Spring Boot 会在类路径中查找名为 `db/changelog/db.changelog-master.yaml`、`db/changelog/db.changelog-master.xml` 或 `db/changelog/db.changelog-master.sql` 的文件。你可以通过向 `application.properties`（或 `application.yml`）添加属性来自定义位置：
 
 ```properties
@@ -44,6 +46,7 @@ spring.liquibase.change-log=classpath:/db/changelog/db.changelog-master.xml
 ---
 
 ### 3. 创建变更日志文件
+
 变更日志文件用于定义要应用于数据库的变更。支持 XML、YAML 或 SQL 格式。以下是一个位于 `src/main/resources/db/changelog/db.changelog-master.xml` 的 **XML 变更日志** 示例：
 
 ```xml
@@ -72,7 +75,9 @@ spring.liquibase.change-log=classpath:/db/changelog/db.changelog-master.xml
 ---
 
 ### 4. 运行 Spring Boot 应用
+
 启动 Spring Boot 应用时，Liquibase 会自动执行以下操作：
+
 - 读取变更日志文件
 - 检查已应用的变更集（通过 `DATABASECHANGELOG` 表记录）
 - 对数据库执行新增的变更集
@@ -82,6 +87,7 @@ spring.liquibase.change-log=classpath:/db/changelog/db.changelog-master.xml
 ---
 
 ### 5. 自定义 Liquibase（可选）
+
 可通过 `application.properties` 中的属性调整 Liquibase 行为。常用配置如下：
 
 ```properties
@@ -95,7 +101,9 @@ spring.liquibase.contexts=dev,prod     # 仅在特定环境中运行变更集
 ---
 
 ### 6. 使用高级功能
+
 Liquibase 提供增强架构管理的强大功能：
+
 - **上下文与标签**：控制特定环境（如 `dev` 与 `prod`）中运行的变更集
 - **前置条件**：确保应用变更集前满足特定条件（如表已存在）
 - **回滚**：定义撤销变更集的方式
@@ -116,6 +124,7 @@ Liquibase 提供增强架构管理的强大功能：
 ---
 
 ### 7. 使用内存数据库测试
+
 测试时可将 Liquibase 与 H2 等内存数据库结合。添加 H2 依赖：
 
 ```xml
@@ -138,12 +147,15 @@ spring.liquibase.change-log=classpath:/db/changelog/db.changelog-master.xml
 ---
 
 ### 8. 版本控制变更日志
+
 将变更日志文件与应用程序代码共同存储在版本控制系统（如 Git）中。这能确保数据库架构与代码库协同演进，使部署和回滚更可控。
 
 ---
 
 ### 总结
+
 在 Spring Boot 应用中使用 Liquibase 的步骤：
+
 1. 添加 Liquibase 依赖
 2. 配置变更日志文件路径
 3. 创建包含数据库变更的日志文件

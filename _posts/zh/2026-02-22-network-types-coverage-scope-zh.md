@@ -18,10 +18,11 @@ type: note
 ### 1. 按覆盖范围对计算机网络的分类
 
 计算机网络通常分为以下四种类型：
-*   **Local Area Network (LAN)**
-*   **Metropolitan Area Network (MAN)**
-*   **Wide Area Network (WAN)**
-*   **Internet (or Internetwork)**
+
+* **Local Area Network (LAN)**
+* **Metropolitan Area Network (MAN)**
+* **Wide Area Network (WAN)**
+* **Internet (or Internetwork)**
 
 ### 2. 与具体场景的对应关系
 
@@ -33,7 +34,8 @@ type: note
 | **全球** | **Internet** | 使用标准 Internet 协议套件 (TCP/IP) 的全球互联计算机网络系统。它本质上是覆盖整个地球的“网络的网络”。 |
 
 **匹配摘要：**
-*   “一个单位（学校）” $\rightarrow$ **Local Area Network (LAN)**
-*   “一个城市” $\rightarrow$ **Metropolitan Area Network (MAN)**
-*   “一个或几个国家” $\rightarrow$ **Wide Area Network (WAN)**
-*   “全球” $\rightarrow$ **Internet**
+
+* “一个单位（学校）” $\rightarrow$ **Local Area Network (LAN)**
+* “一个城市” $\rightarrow$ **Metropolitan Area Network (MAN)**
+* “一个或几个国家” $\rightarrow$ **Wide Area Network (WAN)**
+* “全球” $\rightarrow$ **Internet**

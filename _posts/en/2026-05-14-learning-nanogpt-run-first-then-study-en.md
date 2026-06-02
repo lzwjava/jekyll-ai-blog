@@ -32,17 +32,20 @@ The excerpt you shared reflects expert intuition that only comes from *having tr
 ## Practical Learning Path
 
 ### Phase 1 — Just Run It (Week 1)
+
 ```bash
 # Clone and run the Shakespeare char-level demo first
 git clone https://github.com/karpathy/nanoGPT
 python data/shakespeare_char/prepare.py
 python train.py config/train_shakespeare_char.py
 ```
+
 - Watch the loss curve drop in real time
 - Note when it flattens
 - Try intentionally breaking things (huge LR, tiny batch) to see what happens
 
 ### Phase 2 — Scale to Your Hardware (Week 2)
+
 On an RTX 4070 (12GB VRAM), reasonable configs:
 
 | Model Size | Batch Size | Context | Approx Time |
@@ -54,6 +57,7 @@ On an RTX 4070 (12GB VRAM), reasonable configs:
 Start small, validate your setup, then scale.
 
 ### Phase 3 — Read the Papers (Parallel, not after)
+
 Read *while* a run is in progress. Good order:
 
 1. **Attention Is All You Need** (2017) — the Transformer architecture you're training
@@ -62,7 +66,9 @@ Read *while* a run is in progress. Good order:
 4. **The Karpathy "Let's build GPT" video** — bridges code ↔ paper perfectly
 
 ### Phase 4 — Interpret Your Runs
+
 Now re-read your own training logs with paper knowledge:
+
 - Why did loss flatten at step 12k?
 - Was your run compute-optimal (Chinchilla ratio)?
 - What would a 350M run realistically cost you?

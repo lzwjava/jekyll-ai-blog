@@ -115,4 +115,4 @@ But `osascript` always works without signing. However, `osascript`'s `display no
 - **Include the model name:** add `model = data.get('extra', {}).get('model', '')[:20]` in the Python extract, then append to subtitle
 - **Different sounds:** replace `"Glass"` with `"Basso"`, `"Frog"`, `"Pop"`, `"Submarine"`, `"Tink"`, or any file in `~/Library/Sounds/`
 - **Per-platform filtering:** skip notification if platform is `gateway` (bot responses from Telegram etc.)
-- **Silent mode:** skip if `subtitle` would start with `msg:  ` (empty message — cron job?)
+- **Silent mode:** skip if `subtitle` would start with `msg:` (empty message — cron job?)

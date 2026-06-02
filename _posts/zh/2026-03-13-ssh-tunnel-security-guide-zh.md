@@ -19,7 +19,6 @@ type: note
 
 ### 1. `192.168.1.x` 是私有 IP 地址
 
-
 | IP 范围 | 类型 | 可从互联网访问？ |
 |---|---|---|
 | `192.168.0.0/16` | 私有 LAN | ❌ 否 |
@@ -34,6 +33,7 @@ type: note
 ### 2. SSH 隧道绑定到 `127.0.0.1`（仅本地主机）
 
 您的隧道命令：
+
 ```bash
 ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36
 ```
@@ -87,6 +87,7 @@ sudo nano /etc/ssh/sshd_config
 ```
 
 设置以下内容：
+
 ```
 PasswordAuthentication no
 PermitRootLogin no
@@ -94,6 +95,7 @@ PubkeyAuthentication yes
 ```
 
 然后重新加载：
+
 ```bash
 sudo systemctl reload sshd
 ```
@@ -116,7 +118,6 @@ sudo systemctl start fail2ban
 ---
 
 ## 总结
-
 
 | 风险 | 您的设置 | 判定 |
 |---|---|---|

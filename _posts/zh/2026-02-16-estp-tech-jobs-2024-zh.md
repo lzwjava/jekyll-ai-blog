@@ -34,14 +34,17 @@ ESTP 人格类型（通常被称为“企业家”或“动力源”）是精力
 - **Quality Assurance (QA) / Software Testing**（特别是 Manual Testing、Exploratory Testing 或在快节奏的 Agile 团队中） —— 通过动手探索寻找 Bugs，创造性地寻找系统漏洞，并以 Sprints 的形式工作，而不是重复性的脚本测试。
 
 关于 **Software Engineering / Coding**：
+
 - 纯粹的 Backend、长期的架构设计或高度理论化的 Software Engineering（例如深层 Algorithm 设计或维护遗留代码）通常不太适合，因为这些工作过于孤立、重复且注重细节。
 - 然而，某些形式会更合适：Frontend 开发、Startups 中的 Full-stack，或者涉及快速原型制作（Prototyping）、面向用户功能或高多样性项目的角色。如果环境是 Agile 的、协作的且节奏明快，ESTP 就能获得成功。
 
 对于 **AI 相关角色**：
+
 - 纯研究或理论化的 AI/ML Engineering（涉及大量数学、长周期的训练循环、抽象建模）通常不是理想选择。
 - 更适合的选择包括应用型 AI 角色，如 AI Solutions Engineer、生产环境中的 Prompt Engineering、AI 实施/咨询，或 AI Ops/Incident Response 角色，在这些领域快速适应和实际部署至关重要。
 
 总的来说，ESTP 在具有以下特征的技术岗位中表现卓越：
+
 - 高多样性和刺激感
 - 即时反馈和看得见的影响力
 - 人际互动或团队合作

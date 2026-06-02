@@ -17,6 +17,7 @@ Answer:
 **A-level education** refers to the **A-level** (Advanced Level) qualification, a major academic program in the United Kingdom (England, Wales, Northern Ireland) and some other countries following the British education system.
 
 ### Key Features of A-levels
+
 - **Age group**: Usually taken by students aged 16–18 (after completing GCSEs or equivalent qualifications).
 - **Duration**: Normally **2 years** of study.
 - **Structure**:
@@ -29,11 +30,13 @@ Answer:
 - **Purpose**: Main pathway for entry to UK universities (and widely accepted by universities worldwide). Grades in specific subjects are often used in university offers (e.g., "AAA" or "A*AA").
 
 ### Comparison to Other Systems
+
 - Roughly equivalent to the final 2 years of high school in many countries, but much more specialized.
 - In the US: Similar in level to **Advanced Placement (AP)** courses or the **International Baccalaureate (IB)** Higher Level subjects, but A-levels are usually more in-depth per subject and form the main school-leaving qualification.
 - In many Asian countries: Comparable to Year 12–13 or pre-university programs (e.g., similar role to Japan's high school exit exams or India's Class 12 boards, but with fewer subjects and greater depth).
 
 ### Who Takes A-levels?
+
 - Students in UK sixth forms / colleges.
 - International schools worldwide (especially Cambridge International or Edexcel A-levels).
 - Private candidates or adult learners.

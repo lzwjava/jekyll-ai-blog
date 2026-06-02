@@ -37,11 +37,13 @@ Many experienced users (including in TP-Link communities and Reddit discussions)
 ### Recommendation
 
 Start with **different SSIDs** (as you suggested) for the following reasons:
+
 - Better troubleshooting visibility.
 - More reliable connections (no buggy roaming surprises).
 - Easier to verify/expand the mesh (you clearly see source vs. child nodes).
 
 Once everything is stable, well-placed, and tested:
+
 - If the seamless roaming works reliably in your environment (minimal drops, good handoffs), switch to the **same SSID** for a cleaner, more user-friendly experience.
 - If issues appear (devices sticking to weak nodes, interruptions), revert to separate SSIDs—reliability trumps seamlessness.
 

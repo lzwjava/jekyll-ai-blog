@@ -131,6 +131,7 @@ vault write database/config/mydb2 \
 **3. Create a Role for Dynamic Credentials**
 
 {% raw %}
+
 ```bash
 vault write database/roles/myapp-role \
     db_name=mydb2 \
@@ -138,6 +139,7 @@ vault write database/roles/myapp-role \
     default_ttl="1h" \
     max_ttl="24h"
 ```
+
 {% endraw %}
 
 **4. Spring Boot Configuration**
@@ -237,6 +239,7 @@ public class VaultDB2Integration {
 ## Security Best Practices
 
 1. **Use AppRole Authentication** instead of tokens in production:
+
 ```yaml
 spring:
   cloud:

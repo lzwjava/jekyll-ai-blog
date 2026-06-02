@@ -25,6 +25,7 @@ IBM WebSphere Application Server Liberty Profile (often abbreviated as WLP or si
 | **Market Momentum** | By ~2018–2020, surveys showed Tomcat (embedded in Spring Boot) had ~60% share of Java runtimes, dwarfing all full app servers combined. In 2025, Spring Boot is used by >18,000 known companies; traditional app servers are niche. | Liberty/Open Liberty remains popular in IBM-heavy enterprises and for Jakarta EE/MicroProfile, but far behind in greenfield adoption. |
 
 ### Where Liberty Still Wins (Niche Cases)
+
 - Pure Jakarta EE / MicroProfile apps without Spring dependencies.
 - Enterprises already locked into IBM stack (Red Hat OpenShift with WebSphere licenses, IBM Cloud Pak).
 - Optimized Spring Boot deployments (Liberty can run Spring Boot apps with smaller Docker images and higher throughput than embedded Tomcat in some benchmarks).

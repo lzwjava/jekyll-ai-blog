@@ -57,6 +57,7 @@ The Nobel Prize in Physics has recognized several breakthroughs that directly ad
 ---
 
 ### Notes
+
 - **Scope**: These awards directly impacted electronics through components (transistors, LEDs, integrated circuits), phenomena (photoelectric effect, tunneling, GMR), or tools (microscopes). Other physics prizes (e.g., quantum mechanics foundations) indirectly influenced electronics but are excluded for focus.
 - **Impact**: These discoveries underpin modern electronics, from computing (transistors, integrated circuits) to storage (GMR) and displays/lighting (LEDs). They also enabled precision manufacturing (STM) and optoelectronics (photoelectric effect, heterostructures).
 - **Limitations**: The Nobel’s three-laureate limit and “tested by time” rule may exclude contributors or recent electronics advances (e.g., flexible electronics or quantum dots, though the latter won Chemistry in 2023).

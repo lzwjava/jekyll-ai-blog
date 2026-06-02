@@ -27,19 +27,23 @@ However, if we think carefully about this, if I were to design bifocals for myse
 ---
 
 ### Vision
+
 - **Visual Acuity:** 0.9
 
 ### Pupillary Distance (PD)
+
 - **Measurement:** 70 mm
 
 ---
 
 ### Right Eye (OD)
+
 - **Myopia:** -4.25 D
 - **Astigmatism:** -1.25 D
 - **Axis:** 171°
 
 ### Left Eye (OS)
+
 - **Myopia:** -2.50 D
 - **Astigmatism:** -1.00 D
 - **Axis:** 2°
@@ -49,6 +53,7 @@ However, if we think carefully about this, if I were to design bifocals for myse
 ## Plan
 
 **Objective:** Transition to Multifocal Progressive Lenses
+
 - **Minimum Progressive Power:** +0.75 D
 
 ---
@@ -56,11 +61,13 @@ However, if we think carefully about this, if I were to design bifocals for myse
 ### Near Vision Prescription
 
 #### Right Eye (OD)
+
 - **Myopia:** -2.50 D
 - **Astigmatism:** -1.25 D
 - **Axis:** 171°
 
 #### Left Eye (OS)
+
 - **Myopia:** -0.75 D
 - **Astigmatism:** -1.00 D
 - **Axis:** 2°
@@ -71,11 +78,13 @@ However, if we think carefully about this, if I were to design bifocals for myse
 ### Far Vision Prescription
 
 #### Right Eye (OD)
+
 - **Myopia:** -3.25 D
 - **Astigmatism:** -1.25 D
 - **Axis:** 171°
 
 #### Left Eye (OS)
+
 - **Myopia:** -1.50 D
 - **Astigmatism:** -1.00 D
 - **Axis:** 2°

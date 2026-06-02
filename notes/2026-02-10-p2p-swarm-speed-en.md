@@ -17,6 +17,7 @@ Answer:
 BitTorrent (and modern P2P protocols in general) can achieve very high download speeds — often 10–100+ MB/s on good connections — because of how the protocol fundamentally works compared to classic direct (HTTP/FTP) downloads. Here's why it's often dramatically faster:
 
 ### 1. You download from **many sources at the same time** (not just one server)
+
 - In normal downloads (e.g. from a website), you connect to **one single server**.
   - Your max speed = that one server's upload speed to you + your download bandwidth.
   - Most home servers or even cloud servers rarely give >50–100 Mbps per connection to one user.
@@ -27,27 +28,32 @@ BitTorrent (and modern P2P protocols in general) can achieve very high download 
   → If 50 peers each give you just 200–500 KB/s, you already reach 10–25 MB/s easily.
 
 ### 2. The more popular the torrent = the faster it goes (swarm effect)
+
 - Popular torrents (Linux ISOs, new movies, big games) often have **hundreds or thousands of seeders**.
 - More seeders → more parallel connections → more bandwidth available to you.
 - On well-seeded torrents it's common to saturate a 1 Gbit/s (≈125 MB/s) home connection completely.
 
 ### 3. You give back while downloading ( Tit-for-Tat / reciprocal uploading)
+
 - BitTorrent clients upload pieces to others while downloading.
 - This "helps the swarm" → other peers prioritize **you** ( unchoke you) because you're uploading to them.
 - Good upload speed from you → you get unchoked by more peers → even higher download speed.
 - This creates a **positive feedback loop**: fast uploaders get the fastest downloads.
 
 ### 4. Very efficient piece selection & rarest-first strategy
+
 - BitTorrent uses **rarest-first** piece selection: you first download the pieces that fewest people have.
 - This spreads rare pieces quickly across the swarm → prevents bottlenecks.
 - Combined with **end-game mode** (when almost finished, it aggressively requests missing blocks from everyone) → final pieces arrive very fast.
 
 ### 5. Multiple TCP connections = better bandwidth utilization
+
 - Modern home internet (especially fiber) can be asymmetric or have per-connection limits.
 - BitTorrent opens **50–500 simultaneous connections** (configurable).
 - Many small TCP connections often achieve higher total throughput than one big HTTP connection (due to TCP window scaling, congestion control, ISP QoS, etc.).
 
 ### Real-world examples of 10+ MB/s
+
 - 100 Mbps fiber (~12.5 MB/s theoretical max) → easily saturated with 20–40 good peers.
 - 1 Gbps fiber (~125 MB/s) → very common to hit 50–120 MB/s on popular Linux distro torrents, game updates, or new movie releases.
 - Gigabit connections with good routing and 200+ seeders → peaks of 150–200+ MB/s are reported regularly in 2025–2026.

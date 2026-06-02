@@ -30,9 +30,9 @@ The documentary's power lies in its raw depiction of sacrifice, resilience, and 
 
 References:
 
-- https://baike.baidu.com/item/%E4%B8%81%E5%B0%9A%E5%BD%AA/10472911
-- https://zh.wikipedia.org/wiki/%E5%90%AB%E6%B3%AA%E6%B4%BB%E7%9D%80
-- https://movie.douban.com/subject/2342568/
-- https://user.guancha.cn/main/content?id=183782
-- https://www.sohu.com/a/731823692_639570
-- https://zhuanlan.zhihu.com/p/23301207
+- <https://baike.baidu.com/item/%E4%B8%81%E5%B0%9A%E5%BD%AA/10472911>
+- <https://zh.wikipedia.org/wiki/%E5%90%AB%E6%B3%AA%E6%B4%BB%E7%9D%80>
+- <https://movie.douban.com/subject/2342568/>
+- <https://user.guancha.cn/main/content?id=183782>
+- <https://www.sohu.com/a/731823692_639570>
+- <https://zhuanlan.zhihu.com/p/23301207>

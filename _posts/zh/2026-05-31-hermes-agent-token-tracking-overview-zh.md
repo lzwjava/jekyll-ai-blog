@@ -47,6 +47,7 @@ agent.session_estimated_cost_usd += cost
 ## 2. /usage 斜杠命令
 
 在 CLI 或网关中，输入 `/usage`。它会：
+
 - 读取活动代理的实时会话计数器（在回合中）或缓存代理（回合之间）
 - 调用 `agent/account_usage.py` 中的 `fetch_account_usage()` 获取提供商级别的速率限制
 - 调用 `agent/usage_pricing.py` 中的 `estimate_usage_cost()` 进行成本估算

@@ -37,6 +37,7 @@ IELTS rounds the average to the nearest half or whole band according to these of
 This is a competent level overall (Band 6.5 means you have a generally effective command of English with some inaccuracies and misunderstandings in unfamiliar situations). Your very strong Reading (8.5) helps pull the average up, but the lower Speaking (5.0) pulls it down — this is quite a common pattern. Many universities and immigration programs require at least 6.0–6.5 overall (sometimes with no band below 6.0), so check your specific requirements.
 
 **Summary**:
+
 - Overall band score: **6.5**
 - Strengths: Excellent Reading
 - Areas to improve (if retaking): Speaking (fluency, pronunciation, vocabulary range) and possibly Writing for balance

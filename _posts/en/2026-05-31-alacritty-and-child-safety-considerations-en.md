@@ -25,6 +25,7 @@ Practically speaking, that's quite low risk:
 - **5 seconds** — minimal context for anyone to extract anything meaningful
 
 The main residual risks are minor:
+
 - Background details (specific landmarks, interiors) could hint at location if you're in a very recognizable spot
 - If posted on a platform tied to your real identity, it links "this child exists in my life" — which you've already accepted by posting
 

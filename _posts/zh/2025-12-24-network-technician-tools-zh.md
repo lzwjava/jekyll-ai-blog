@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：总结 YouTube 视频 https://www.youtube.com/watch?v=HAceoquch1c 的内容
+问题：总结 YouTube 视频 <https://www.youtube.com/watch?v=HAceoquch1c> 的内容
 
 答案：
 
@@ -18,7 +18,7 @@ YouTube 视频 “Networking Tools - Hardware” 是来自 **PowerCert Animated 
 
 它解释了网络技术人员用于创建、测试和故障排除网线（包括双绞线、同轴电缆和光纤）的基本硬件工具。该视频使用清晰的动画和分步演示，即使是初学者也能轻松理解这些概念。
 
-### 涵盖的关键工具及其用途：
+### 涵盖的关键工具及其用途
 
 - **剥线钳 (Wire Stripper)**：去除电缆的外绝缘层，露出内部导线。
 - **压线钳 (Wire Crimper)**：通过按正确顺序（T568A 或 T568B 标准）排列导线并牢固压接，将 RJ45 连接器连接到双绞线电缆。

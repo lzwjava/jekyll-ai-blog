@@ -17,7 +17,8 @@ Yes, you're correct!
 
 Here's the breakdown:
 
-## For npm 8.3.0 and later:
+## For npm 8.3.0 and later
+
 ```json
 {
   "overrides": {
@@ -29,8 +30,10 @@ Here's the breakdown:
 }
 ```
 
-## Before npm 8.3.0:
+## Before npm 8.3.0
+
 If you were using **Yarn**, you could use:
+
 ```json
 {
   "resolutions": {
@@ -40,6 +43,7 @@ If you were using **Yarn**, you could use:
 ```
 
 If you were using **npm < 8.3.0**, you had limited options:
+
 - Use `npm-force-resolutions` package as a workaround
 - Manually use `npm shrinkwrap`
 - Switch to Yarn to use `resolutions`

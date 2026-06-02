@@ -22,9 +22,11 @@ When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "
    Replace `XXX` with the specific update version (e.g., `231` for JDK 1.8.0_231). Inside this directory, the `javaw.exe` file is located in the `bin` subdirectory (e.g., `C:\Program Files\Java\jdk1.8.0_XXX\bin\javaw.exe`).
 
    **Tip**: To confirm the version and architecture, open a command prompt, navigate to the `bin` directory (e.g., `cd C:\Program Files\Java\jdk1.8.0_XXX\bin`), and run:
+
    ```
    java -version
    ```
+
    Look for "64-Bit" or "32-Bit" in the output to verify the architecture. Ensure it matches your Eclipse version (likely 64-bit if downloaded recently).
 
 3. **Find the `eclipse.ini` File**
@@ -35,13 +37,16 @@ When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "
 
    - **Check the Existing Content**: Look for a `-vm` argument. If it’s already present, it will be followed by a path on the next line (e.g., `-vm` followed by `C:/some/path/bin/javaw.exe`). If it points to the problematic `Oracle\Java\javapath\javaw.exe`, you’ll replace it. If no `-vm` argument exists, you’ll add it.
    - **Add or Modify the `-vm` Argument**: Insert the following two lines before the `-vmargs` section (if it exists) or near the top of the file after initial startup parameters:
+
      ```
      -vm
      C:/Program Files/Java/jdk1.8.0_XXX/bin/javaw.exe
      ```
+
      - Use forward slashes (`/`) instead of backslashes (`\`) to avoid parsing issues.
      - Replace `C:/Program Files/Java/jdk1.8.0_XXX` with the actual path to your Java installation.
    - **Ensure Proper Placement**: The `-vm` argument must appear before the `-vmargs` section, which typically starts with `-vmargs` followed by JVM options like `-Xms256m` or `-Xmx1024m`. For example, your `eclipse.ini` might look like this after editing:
+
      ```
      -startup
      plugins/org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar
@@ -54,12 +59,14 @@ When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "
      -Xms256m
      -Xmx1024m
      ```
+
    - **Avoid Extra Spaces or Blank Lines**: Ensure there are no unnecessary spaces or blank lines immediately after the `-vm` or path lines, as this can cause Eclipse to misinterpret the configuration.
 
 5. **Save and Test**
    Save the `eclipse.ini` file, then double-click `eclipse.exe` to start Eclipse. If configured correctly, Eclipse should launch without the "Java was started but returned exit code" error.
 
 ### Additional Notes
+
 - **Architecture Match**: Ensure the JVM architecture (32-bit or 64-bit) matches your Eclipse installation. A 64-bit Eclipse requires a 64-bit JVM, typically found in `C:\Program Files\Java`, while a 32-bit Eclipse needs a 32-bit JVM from `C:\Program Files (x86)\Java`.
 - **Verify the Path**: Double-check that `javaw.exe` exists at the specified location. If the path is incorrect, Eclipse will fail to start.
 - **Fallback Option**: If this doesn’t work, consider setting the `JAVA_HOME` environment variable (e.g., `C:\Program Files\Java\jdk1.8.0_XXX`) and updating the system PATH to include `%JAVA_HOME%\bin`. However, modifying `eclipse.ini` is the preferred and more reliable method for Eclipse.

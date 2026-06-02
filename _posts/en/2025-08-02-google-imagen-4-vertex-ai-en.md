@@ -20,10 +20,13 @@ To use Google Imagen 4 Preview 0606, you need to access it through Google’s Ve
 
 2. **Set Up the Environment**:
    - **Authentication**: Authenticate your account using Google Cloud credentials. You can generate an access token using the command:
+
      ```bash
      gcloud auth print-access-token
      ```
+
    - **Project and Location**: Set your Google Cloud project ID and location (e.g., `us-central1`). Example:
+
      ```bash
      export GOOGLE_CLOUD_PROJECT=your-project-id
      export GOOGLE_CLOUD_LOCATION=us-central1
@@ -32,6 +35,7 @@ To use Google Imagen 4 Preview 0606, you need to access it through Google’s Ve
 3. **Use the Imagen 4 Model**:
    - **API Access**: Imagen 4 Preview 0606 can be accessed via the Vertex AI API. Use the model endpoint `imagen-4.0-generate-preview-06-06`. You can interact with it programmatically using tools like cURL or the Google Gen AI SDK for Python.
    - **Example cURL Request**:
+
      ```bash
      curl -X POST \
      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
@@ -39,8 +43,10 @@ To use Google Imagen 4 Preview 0606, you need to access it through Google’s Ve
      "https://${GOOGLE_CLOUD_LOCATION}-aiplatform.googleapis.com/v1/projects/${GOOGLE_CLOUD_PROJECT}/locations/${GOOGLE_CLOUD_LOCATION}/publishers/google/models/imagen-4.0-generate-preview-06-06:predict" \
      -d '{"instances": [{"prompt": "A cat reading a book"}], "parameters": {"sampleCount": 1}}'
      ```
+
      This returns a base64-encoded image.[](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview)
    - **Python SDK Example**:
+
      ```python
      from google import genai
      from google.genai.types import GenerateImagesConfig
@@ -53,6 +59,7 @@ To use Google Imagen 4 Preview 0606, you need to access it through Google’s Ve
      image.generated_images[0].image.save("output-image.png")
      print(f"Created output image using {len(image.generated_images[0].image.image_bytes)} bytes")
      ```
+
      This generates an image and saves it as a PNG file.[](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview)
 
 4. **Craft Effective Prompts**:
@@ -75,12 +82,14 @@ To use Google Imagen 4 Preview 0606, you need to access it through Google’s Ve
    - Imagen 4 is also available on third-party platforms like Replicate, fal.ai, or AI/ML API, which may offer simpler interfaces or sandbox environments for testing. For example:
      - **Replicate**: Run Imagen 4 with a prompt like “A serene mountain landscape at sunset, hyperrealistic style.” Check Replicate’s documentation for API keys and usage.[](https://replicate.com/blog/google-imagen-4)[](https://replicate.com/google/imagen-4-fast)
      - **fal.ai**: Use their API with a request like:
+
        ```javascript
        const result = await fal.subscribe("fal-ai/imagen4/preview", {
            input: { prompt: "A serene mountain landscape at sunset, hyperrealistic style" }
        });
        console.log(result.images[0].url);
        ```
+
        Pricing varies (e.g., $0.05/image for Standard, $0.04 for Fast, $0.06 for Ultra).[](https://fal.ai/models/fal-ai/imagen4/preview)
    - **Gemini App or Google Workspace**: Imagen 4 is integrated into the Gemini app, Google Slides, Docs, and Vids for direct image generation in workflows. For example, in Google Docs, you can generate images to illustrate documents.[](https://www.stablediffusion.blog/imagen4)
 
@@ -89,6 +98,7 @@ To use Google Imagen 4 Preview 0606, you need to access it through Google’s Ve
    - Monitor API usage and costs via the platform’s dashboard, as preview offerings may have limited support or changing features.[](https://fal.ai/models/fal-ai/imagen4/preview)
 
 ### Additional Notes
+
 - **Pricing**: Check the Vertex AI pricing page for Imagen 4 costs (e.g., $0.04/image for Standard, $0.06/image for Ultra).[](https://developers.googleblog.com/en/imagen-4-now-available-in-the-gemini-api-and-google-ai-studio/)[](https://fal.ai/models/fal-ai/imagen4/preview)
 - **Limitations**: Imagen 4 may struggle with vague prompts, small faces, or perfectly centered compositions. Use clear, structured prompts for best results.[](https://deepmind.google/models/imagen/)
 - **Availability**: As a preview offering, features and support may change. Check Google Cloud’s launch stage descriptions for updates.[](https://cloud.google.com/vertex-ai/generative-ai/docs/models/imagen/4-0-generate-preview-06-06)[](https://cloud.google.com/vertex-ai/generative-ai/docs/models/imagen/4-0-fast-generate-preview-06-06)

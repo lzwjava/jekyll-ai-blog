@@ -101,7 +101,7 @@ sudo ss -tlnp | grep :22
 
 ## ✅ 5. 检查防火墙（非常常见问题）
 
-### 如果使用 UFW：
+### 如果使用 UFW
 
 ```bash
 sudo ufw status
@@ -116,7 +116,7 @@ sudo ufw reload
 
 ---
 
-### 如果使用 iptables：
+### 如果使用 iptables
 
 ```bash
 sudo iptables -L -n

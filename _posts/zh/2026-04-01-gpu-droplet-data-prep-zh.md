@@ -28,7 +28,8 @@ type: note
                                             ready for training
 ```
 
-### 在 GPU Droplet 上（大磁盘，快速 CPU）：
+### 在 GPU Droplet 上（大磁盘，快速 CPU）
+
 ```bash
 # 传输原始文本文件
 rsync -avz --progress root@159.89.216.20:/root/zz/datasets/fineweb_extracted_all.txt ./

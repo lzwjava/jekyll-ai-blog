@@ -16,7 +16,7 @@ Answer:
 
 **Invariant**（不变性/不变量）是指在某些变换、操作或条件下保持不变或恒定的事物。
 
-### Common Contexts:
+### Common Contexts
 
 - **Mathematics**：在特定操作（如 rotations、translations 或其他 transformations）下不发生变化的属性或数值。
   例如：在几何学中，两点之间的距离在 rotation 或 translation 下是 invariant 的。

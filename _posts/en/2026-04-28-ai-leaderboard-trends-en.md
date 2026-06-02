@@ -108,7 +108,7 @@ This is explicitly observed in community analysis:
 
 ## Big picture summary
 
-### What’s happening in 2026 Arena leaderboard:
+### What’s happening in 2026 Arena leaderboard
 
 * 🔁 Very fast model iteration cycles (weekly updates)
 * 🧠 Claude / Gemini / GPT forming a tight top cluster

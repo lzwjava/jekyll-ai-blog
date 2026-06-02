@@ -55,4 +55,4 @@ Basically: if you work with APIs, Kubernetes, Terraform output, Docker metadata,
 
 Highly recommended to learn at least the basics — it saves insane amounts of time. 😄
 
-Official site (very good tutorial there): https://jqlang.org/
+Official site (very good tutorial there): <https://jqlang.org/>

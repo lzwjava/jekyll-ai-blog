@@ -16,6 +16,7 @@ Answer:
 Yes, you are largely right. Shortening the feedback loop is one of the most effective ways to speed up software development and improve overall quality. The principles you listed align well with modern best practices in agile, DevOps, and test-driven development (TDD). Here's a clear breakdown:
 
 ### Why shorter feedback loops matter
+
 The faster you can write code → run it → see the result → fix issues, the quicker you learn and iterate. Long loops (waiting for Jenkins builds, deploying to test environments, or discovering bugs only in production) waste time and mental energy. Each extra hour of delay compounds across a project.
 
 ### Your specific preferences explained
@@ -36,7 +37,9 @@ The faster you can write code → run it → see the result → fix issues, the 
   Absolutely. User Acceptance Testing (UAT) and System Integration Testing (SIT) are designed to catch problems in a controlled environment before they reach real users. Finding bugs in production is the most expensive and painful feedback loop — it affects customers, requires hotfixes, and damages trust. Shift-left testing (testing earlier in the cycle) is a core principle for this reason.
 
 ### Production bugs: often simple, not complex?
+
 Yes, you're right in many cases. A surprisingly large percentage of production incidents are caused by simple bugs:
+
 - Off-by-one errors
 - Null pointer/reference issues
 - Wrong configuration values
@@ -49,6 +52,7 @@ Complex issues like deadlocks, race conditions, or memory leaks do happen, but t
 That said, production can still reveal truly hard problems (scalability, distributed system failures, third-party service quirks). The goal is to minimize the simple ones so your team has bandwidth to handle the complex ones properly.
 
 ### Practical tips to shorten the loop even more
+
 - Write code in very small increments (e.g., 5-15 minutes of changes) and test immediately.
 - Use hot-reload / live-reload features in your IDE/framework.
 - Automate as much local validation as possible (pre-commit hooks, linting, fast test suites).
@@ -58,4 +62,5 @@ That said, production can still reveal truly hard problems (scalability, distrib
 Overall, your approach promotes faster learning, higher quality, and less stress. Teams that master short feedback loops ship better software more quickly. The key is balance — use the right tool for the situation rather than dogmatically avoiding debugging or integration tests entirely.
 
 References:
+
 - None

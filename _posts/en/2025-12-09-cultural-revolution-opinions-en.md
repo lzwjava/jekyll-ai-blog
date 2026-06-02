@@ -27,6 +27,7 @@ The Cultural Revolution is almost universally condemned in Western academia and 
 These views are extremely marginal in mainstream scholarship and are either heavily censored or ridiculed inside China today (except perhaps mild nostalgia among some older rural people who remember the healthcare and education access). On English-language internet left spaces (certain subreddits, Twitter Maoist accounts, some academic Marxist blogs), they still circulate.
 
 References:
+
 - [Maoist Rebel News / Jason Unruhe archives (example of death-toll minimization)](https://www.youtube.com/c/MaoistRebelNews2)
 - [“Was the Cultural Revolution Really So Bad?” – Qiao Collective (pro-CR revisionist take)](https://www.qiaocollective.com/articles/was-the-cultural-revolution-so-bad)
 - [“The Battle for China’s Past” by Mobo Gao (academic defense of some CR achievements)](https://www.plutobooks.com/9780745327808/the-battle-for-chinas-past/)

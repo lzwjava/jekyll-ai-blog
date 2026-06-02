@@ -29,10 +29,12 @@ The replay guard runs FIRST, so even with `requireMention: false` correctly set,
 **Fix options:**
 
 1. **Quick fix — clear the replay dedupe file:**
+
    ```bash
    rm /home/lzw/.openclaw/nextcloud-talk/replay-dedupe/*.json
    echo '{}' > /home/lzw/.openclaw/nextcloud-talk/replay-dedupe/*.json
    ```
+
    Then send a new message with a unique ID.
 
 2. **Or restart the gateway** to pick up the config fresh.

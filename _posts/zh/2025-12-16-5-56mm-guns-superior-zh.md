@@ -29,6 +29,7 @@ type: note
 **建议**：首先选择M416（5.56毫米）+配件——它最容易上手，也符合版本。搭配一把7.62毫米的副武器（例如Beryl）以增加多样性。在训练模式中练习后坐力！
 
 参考文献：
+
 - [PUBG 武器等级列表（Esports Insider，2025年11月）](https://esportsinsider.com/pubg-best-weapons-tier-list)
 - [PUBG 数据挖掘统计](https://battlegrounds.party/weapons/)
 - [Topuplive 步枪指南](https://www.topuplive.com/news/complete-guide-to-pubg-mobile-rifles-best-weapons-attachments.html)

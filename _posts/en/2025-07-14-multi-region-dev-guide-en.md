@@ -165,6 +165,7 @@ Post-launch, focus on observability.
 By following this guide, you'll build scalable, maintainable multi-region software. Remember, the "best way" evolves—regularly review and refactor.
 
 ## References
+
 - [Best Practices for Multi-Region Applications on AWS](https://aws.amazon.com/architecture/multi-region/)
 - [Building Multi-Region Applications with Google Cloud](https://cloud.google.com/solutions/building-multi-region-applications)
 - [Multi-Region Architecture Best Practices](https://www.cloudflare.com/learning/cloud/multi-region-architecture/)

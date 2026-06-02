@@ -21,5 +21,6 @@ type: note
 在楼天城的指导下，团队将这一方法与先进的强化学习技术相结合，使系统能够自主生成合成数据并优化策略。这不仅加速了开发进程，还提高了安全性和效率，使小马智行能够实现L4级自动驾驶出租车（robotaxi）运营等里程碑，累计无干预驾驶时数超过10,000小时。他多年的竞技编程背景——通过在编程挑战中快速迭代而磨练出来——影响了这种亲力亲为、实验至上的精神，培养了一种团队优先考虑可衡量结果而非理论积累的文化。
 
 参考文献：
+
 - [Inside Pony.ai’s staying power and the mindset of its CTO, Lou Tiancheng](https://kr-asia.com/inside-pony-ais-staying-power-and-the-mindset-of-its-cto-lou-tiancheng)
 - [Tiancheng Lou - Wikipedia](https://en.wikipedia.org/wiki/Tiancheng_Lou)

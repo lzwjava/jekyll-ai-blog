@@ -58,7 +58,8 @@ This section is straightforward but sets the tone with a bold background image a
 </section>
 ```
 
-### Key Features:
+### Key Features
+
 1. **Dynamic Data Binding**: The `:src` and `v-html` directives bind data from the `reviews` array (defined in the script) to the template. This allows the app to render content dynamically based on fetched or hardcoded data.
 2. **Event Handling**: The `@click="goDetail(reviews[0].reviewId)"` directive triggers a method to navigate to a detailed view of the review, showcasing Vue’s seamless event system.
 3. **Loops with `v-for`**: The `v-for` directive iterates over arrays like `authors` and `tags`, rendering multiple elements efficiently. This is perfect for showcasing multiple contributors or metadata without hardcoding.
@@ -92,6 +93,7 @@ import Contactus from '../components/contactus.vue';
 ```
 
 These components are registered and used within the template, like `<reviewer :reviewers="reviewers"></reviewer>` and `<guide></guide>`. This modular approach:
+
 - **Reduces redundancy**: Common UI elements (e.g., reviewer cards) are reused across pages.
 - **Improves maintainability**: Each component encapsulates its own logic and styles.
 
@@ -167,7 +169,8 @@ The styling, written in Stylus, combines flexibility with aesthetics. Take the `
             opacity 1.0
 ```
 
-### Highlights:
+### Highlights
+
 - **Hover Effects**: The `&:hover` pseudo-class scales images and shifts text, creating a smooth, interactive experience.
 - **Flexibility**: The `clearfix()` mixin and `pull-left()` utility ensure a responsive grid layout.
 - **Visual Polish**: Shadows and transitions (e.g., `transition: all 0.35s ease 0s`) add depth and fluidity.
@@ -177,6 +180,7 @@ The use of variables from `variables.styl` (e.g., colors like `#1CB2EF`) ensures
 ## Takeaways for Your Next Project
 
 This code review platform offers valuable lessons:
+
 1. **Leverage Vue’s Reactivity**: Bind data dynamically and use components to keep your app modular.
 2. **Plan for Scalability**: Replace hardcoded data with API calls as your app grows.
 3. **Style Smart**: Use preprocessors like Stylus for maintainable, reusable styles.

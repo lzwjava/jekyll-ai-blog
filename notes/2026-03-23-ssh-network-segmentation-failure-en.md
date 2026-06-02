@@ -30,12 +30,14 @@ Your Mac (192.168.1.37) → Gateway (192.168.1.1) → Router (192.168.2.1)
 ```
 
 The router is on a **different subnet**. When you try SSH:
+
 - Ping works because ICMP is routed through the gateway
 - SSH port 22 is **blocked or not accessible** across the network boundary
 
 ### Why Your Proxy Theory Was Wrong
 
 Your SSH config shows:
+
 ```
 Host !192.168.*.*
     ProxyCommand ncat --proxy localhost:7891 --proxy-type socks5 %h %p
@@ -46,10 +48,12 @@ This means "use proxy for everything EXCEPT 192.168.*.*" — so 192.168.2.1 **sh
 ### How to Fix
 
 **Option 1: Connect directly to the router's network**
+
 - Physically connect to the 192.168.2.0/24 network
 - Or configure your gateway to allow SSH forwarding
 
 **Option 2: Check if SSH is actually enabled on the router**
+
 ```bash
 # Try telnet first (if enabled on OpenWrt)
 telnet 192.168.2.1
@@ -60,6 +64,7 @@ curl -I http://192.168.2.1
 
 **Option 3: SSH through the gateway**
 If your gateway (192.168.1.1) can reach the router:
+
 ```bash
 ssh -J user@192.168.1.1 root@192.168.2.1
 ```
@@ -67,6 +72,7 @@ ssh -J user@192.168.1.1 root@192.168.2.1
 ### Test This Theory
 
 Run this to confirm the router is actually unreachable on port 22:
+
 ```bash
 # This should also timeout (proving it's not the proxy)
 env -u ALL_PROXY -u HTTP_PROXY -u HTTPS_PROXY \

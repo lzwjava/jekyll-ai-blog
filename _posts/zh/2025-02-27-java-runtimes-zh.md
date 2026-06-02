@@ -63,11 +63,13 @@ type: note
    - 这将打开一个视图，显示可用于项目的 JDK。在 "Project JDKs" 选项卡下验证您配置的运行时是否出现。
 
 ### 工作原理
+
 - **非托管文件夹**：对于没有构建工具的项目（例如纯 Java 文件），VS Code 使用 `java.configuration.runtimes` 中指定的 `default` JDK。
 - **托管项目（Maven/Gradle）**：对于有构建工具的项目，JDK 版本由构建配置（例如 `pom.xml` 或 `build.gradle`）决定，但 VS Code 仍会识别此处列出的运行时以确保兼容性。
 - **语言服务器**：Java 语言服务器（Java 扩展的一部分）需要 JDK 17+ 才能运行。如果需要，您可以使用 `java.jdt.ls.java.home` 单独指定（例如 `"java.jdt.ls.java.home": "C:/Program Files/Java/jdk-17.0.6"`）。
 
 ### 多 JDK 配置示例
+
 如果您在 Mac 上通过 Homebrew 安装了 JDK 8 和 17，您的配置可能如下所示：
 
 ```json
@@ -87,6 +89,7 @@ type: note
 ```
 
 ### 提示
+
 - 使用正确的 `name` 格式（`JavaSE-<version>`），与 Java 版本匹配（例如，Java 11 使用 `JavaSE-11`）。
 - 如果您只有一个 JDK，仍可以列出它以确保 VS Code 明确使用它。
 - 要查找 JDK 路径，请在终端中运行 `java -version`，并检查安装目录（例如，在 Windows 上使用 `where java`，在类 Unix 系统上使用 `which java`，然后追溯到 JDK 根目录）。

@@ -10,7 +10,8 @@ translated: false
 type: note
 ---
 
-#!/usr/bin/env python3
+# !/usr/bin/env python3
+
 import gi
 gi.require_version('Wnck', '3.0')
 from gi.repository import Wnck
@@ -36,6 +37,7 @@ def get_firefox_windows():
     return firefox_windows
 
 # Get active Firefox window
+
 windows = get_firefox_windows()
 active_firefox = [w for w in windows if w['is_active']]
 print("Active Firefox window:", active_firefox)

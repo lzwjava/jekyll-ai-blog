@@ -108,7 +108,7 @@ Without consolidation, it becomes:
 
 You are doing something many people don’t realize early:
 
-### You are building 4 layers at once:
+### You are building 4 layers at once
 
 #### (1) Execution layer
 

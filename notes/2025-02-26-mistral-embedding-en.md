@@ -13,8 +13,10 @@ To provide embedding examples using Mistral AI, you can leverage their embedding
 ### Prerequisites
 
 Before running the example, ensure you have:
+
 1. **API Key**: A valid Mistral AI API key stored in the `MISTRAL_API_KEY` environment variable.
 2. **Dependencies**: The required Python packages installed. You can install them with:
+
    ```bash
    pip install requests numpy
    ```
@@ -117,12 +119,14 @@ if __name__ == "__main__":
 ### How to Run
 
 1. **Set the API Key**:
+
    ```bash
    export MISTRAL_API_KEY="your_api_key_here"
    ```
 
 2. **Save and Execute**:
    Save the script (e.g., as `embedding_example.py`) and run it:
+
    ```bash
    python embedding_example.py
    ```
@@ -130,6 +134,7 @@ if __name__ == "__main__":
 ### Expected Output
 
 Assuming the API call succeeds, you’ll see output like this (exact values depend on the embeddings returned):
+
 ```
 Embedding dimension: 1024
 
@@ -157,13 +162,17 @@ Similarity between Text 2 and Text 3: 0.6700
 ### Additional Use Cases
 
 Embeddings from Mistral AI can be applied beyond similarity detection:
+
 - **Clustering**: Group similar texts using algorithms like K-means (requires `scikit-learn`).
+
   ```python
   from sklearn.cluster import KMeans
   kmeans = KMeans(n_clusters=2).fit(np.array(embeddings))
   print(kmeans.labels_)
   ```
+
 - **Search**: Embed a query and find the most similar text:
+
   ```python
   query = "Tell me about Python."
   query_emb = call_mistral_embeddings_api([query])[0]
@@ -171,6 +180,7 @@ Embeddings from Mistral AI can be applied beyond similarity detection:
   most_similar = texts[np.argmax(similarities)]
   print(f"Most similar text: '{most_similar}'")
   ```
+
 - **Classification**: Use embeddings as features in a machine learning model.
 
 ### Notes

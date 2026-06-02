@@ -25,7 +25,8 @@ Answer: This specific cloud instance represents a high-end, industrial-grade pow
     The storage configuration provides approximately 28.6 TB of high-speed NVMe capacity. This is critical for high-speed checkpoints during AI training and rapid loading of large-scale datasets.
 
 ### Primary Use Cases
-1.  **Large Language Model (LLM) Training:** The VRAM capacity and interconnect speeds are ideal for training or fine-tuning models like GPT-4 or Llama 3.
-2.  **Generative AI Video & 3D:** Processing high-resolution video generation or complex 3D rendering pipelines.
-3.  **Scientific Research:** Climate modeling, molecular dynamics, and genomic sequencing that require massive parallel computing.
-4.  **High-Performance Computing (HPC):** Any workload requiring petabytes of throughput and low-latency communication between CPU and GPU.
+
+1. **Large Language Model (LLM) Training:** The VRAM capacity and interconnect speeds are ideal for training or fine-tuning models like GPT-4 or Llama 3.
+2. **Generative AI Video & 3D:** Processing high-resolution video generation or complex 3D rendering pipelines.
+3. **Scientific Research:** Climate modeling, molecular dynamics, and genomic sequencing that require massive parallel computing.
+4. **High-Performance Computing (HPC):** Any workload requiring petabytes of throughput and low-latency communication between CPU and GPU.

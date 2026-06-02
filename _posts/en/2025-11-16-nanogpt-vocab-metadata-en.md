@@ -10,9 +10,10 @@ translated: false
 type: note
 ---
 
-In **nanoGPT** (https://github.com/karpathy/nanoGPT), the file **meta.pkl** is an optional pickle file that stores the vocabulary and encoding metadata for the dataset. It is used when you train on your own custom text dataset (not the default OpenWebText or Shakespeare char-level datasets).
+In **nanoGPT** (<https://github.com/karpathy/nanoGPT>), the file **meta.pkl** is an optional pickle file that stores the vocabulary and encoding metadata for the dataset. It is used when you train on your own custom text dataset (not the default OpenWebText or Shakespeare char-level datasets).
 
 ### What meta.pkl typically contains
+
 It’s a dictionary with these keys (example):
 
 ```python
@@ -37,7 +38,7 @@ It’s a dictionary with these keys (example):
      it means nanoGPT couldn’t find a meta.pkl file in your data directory.
    - So it falls back to the default GPT-2 BPE tokenizer (the same one used by OpenAI’s GPT-2) with vocab_size = 50257. That’s why your 29.94M parameter model (which is the smallest GPT-2 124M config but incorrectly reported sometimes) works fine even without meta.pkl when you train on OpenWebText or similar datasets.
 
-### So, in short:
+### So, in short
 
 | Situation                              | What meta.pkl does                                      |
 |----------------------------------------|----------------------------------------------------------|

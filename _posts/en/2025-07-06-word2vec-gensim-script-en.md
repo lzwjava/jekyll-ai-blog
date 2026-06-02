@@ -10,8 +10,8 @@ type: note
 
 To provide you with a Python script for Word2Vec, I need to make a couple of assumptions about what you're looking for, as "a script about Word2Vec" can be quite broad. I'll provide two common scenarios:
 
-1.  **A simple script using `gensim` for training and basic usage:** This is the most common and practical way to use Word2Vec in Python.
-2.  **A very basic, conceptual implementation from scratch:** This is more for understanding the core algorithms, but less practical for real-world use due to complexity and optimization.
+1. **A simple script using `gensim` for training and basic usage:** This is the most common and practical way to use Word2Vec in Python.
+2. **A very basic, conceptual implementation from scratch:** This is more for understanding the core algorithms, but less practical for real-world use due to complexity and optimization.
 
 Given your request, I'll prioritize the `gensim` approach as it's what most people would use.
 
@@ -21,11 +21,11 @@ Given your request, I'll prioritize the `gensim` approach as it's what most peop
 
 This script will demonstrate:
 
-  * Preparing sample text data.
-  * Training a Word2Vec model.
-  * Finding most similar words.
-  * Performing word analogies.
-  * Saving and loading the model.
+* Preparing sample text data.
+* Training a Word2Vec model.
+* Finding most similar words.
+* Performing word analogies.
+* Saving and loading the model.
 
 **Prerequisites:**
 
@@ -176,26 +176,26 @@ print("\nScript execution complete.")
 
 **How to Run the Script:**
 
-1.  Save the code above as a Python file (e.g., `word2vec_gensim_example.py`).
-2.  Open your terminal or command prompt.
-3.  Navigate to the directory where you saved the file.
-4.  Run the script using: `python word2vec_gensim_example.py`
+1. Save the code above as a Python file (e.g., `word2vec_gensim_example.py`).
+2. Open your terminal or command prompt.
+3. Navigate to the directory where you saved the file.
+4. Run the script using: `python word2vec_gensim_example.py`
 
 -----
 
 ### Key Concepts in Word2Vec (`gensim` implementation)
 
-  * **`gensim.models.Word2Vec`**: The main class for training.
-  * **`sentences`**: An iterable of iterables, where the outer iterable is the corpus and the inner iterables are lists of words (tokenized sentences).
-  * **`vector_size`**: The number of dimensions for the word vectors. Higher dimensions can capture more nuances but require more data and computation.
-  * **`window`**: The maximum distance between the current word and the words around it in a sentence.
-  * **`min_count`**: Words that appear fewer times than `min_count` are ignored. This helps filter out very rare words that might not have meaningful embeddings.
-  * **`sg` (Skip-gram vs. CBOW)**:
-      * `sg=0` (CBOW - Continuous Bag of Words): Predicts the current word based on its context. Faster to train.
-      * `sg=1` (Skip-gram): Predicts surrounding words given the current word. Generally performs better for rare words.
-  * **`workers`**: Number of CPU cores to use for training, speeding up the process.
-  * **`epochs`**: Number of times the algorithm iterates over the entire dataset. More epochs can lead to better quality embeddings but also take longer.
-  * **`model.wv`**: The "word vectors" object (`KeyedVectors`) which contains the trained word embeddings and methods like `most_similar`, `similarity`, etc. You can also access vectors directly like `model.wv['word']`.
+* **`gensim.models.Word2Vec`**: The main class for training.
+* **`sentences`**: An iterable of iterables, where the outer iterable is the corpus and the inner iterables are lists of words (tokenized sentences).
+* **`vector_size`**: The number of dimensions for the word vectors. Higher dimensions can capture more nuances but require more data and computation.
+* **`window`**: The maximum distance between the current word and the words around it in a sentence.
+* **`min_count`**: Words that appear fewer times than `min_count` are ignored. This helps filter out very rare words that might not have meaningful embeddings.
+* **`sg` (Skip-gram vs. CBOW)**:
+  * `sg=0` (CBOW - Continuous Bag of Words): Predicts the current word based on its context. Faster to train.
+  * `sg=1` (Skip-gram): Predicts surrounding words given the current word. Generally performs better for rare words.
+* **`workers`**: Number of CPU cores to use for training, speeding up the process.
+* **`epochs`**: Number of times the algorithm iterates over the entire dataset. More epochs can lead to better quality embeddings but also take longer.
+* **`model.wv`**: The "word vectors" object (`KeyedVectors`) which contains the trained word embeddings and methods like `most_similar`, `similarity`, etc. You can also access vectors directly like `model.wv['word']`.
 
 -----
 

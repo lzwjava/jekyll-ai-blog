@@ -30,6 +30,7 @@ type: note
   infra-network (+6): mihomo, chroma, qdrant, localGPT, quivr, llm-app
 
 重点推荐：
+
 - vllm (★81k) — 高吞吐量推理，服务部署必备
 - ollama (★173k) — 本地模型运行器，同类中最受欢迎
 - transformers (★161k) — HuggingFace 模型框架，基础性工具

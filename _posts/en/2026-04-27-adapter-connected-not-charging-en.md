@@ -22,6 +22,7 @@ Yes — this is a very practical and solvable problem. The key insight is that m
 The command `pmset -g batt` in Terminal reports the charge status of your battery, including whether it's drawing from AC Power or Battery Power, and the charging state.
 
 The output of `pmset -g batt` can contain statuses like:
+
 - `charging` — adapter connected and actively charging
 - `discharging` — running on battery
 - `not charging` — adapter is **plugged in**, but power is NOT flowing (your socket switch problem!)
@@ -176,12 +177,14 @@ if __name__ == "__main__":
 ## How to Run It
 
 **Step 1 — Save the file:**
+
 ```bash
 nano ~/mac_charge_watcher.py
 # paste the script, then Ctrl+O to save, Ctrl+X to exit
 ```
 
 **Step 2 — Run it:**
+
 ```bash
 python3 ~/mac_charge_watcher.py
 ```

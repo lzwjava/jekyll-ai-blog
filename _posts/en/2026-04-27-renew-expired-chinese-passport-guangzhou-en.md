@@ -26,6 +26,7 @@ Your passport has **expired** (not just near expiry), which qualifies you for a 
 Guangzhou is one of the 20 pilot cities where residents aged 16 and above (excluding government workers and active military) can submit passport replacement applications entirely online through the National Immigration Administration's service platform — via webpage, APP, WeChat, or Alipay mini-programs, without needing to visit in person at all.
 
 **Online platforms to use:**
+
 - **移民局12367** WeChat/Alipay mini-program
 - **国家移民管理局政务服务平台** (National Immigration Administration website)
 
@@ -52,6 +53,7 @@ You **must** book an appointment before visiting. Options:
 ## 📄 Step 4 — Required Documents
 
 The documents you need to bring are:
+
 1. **Application form** (can be pre-printed or filled out at the hall)
 2. **One recent front-facing, hatless, blue-background color photo**
 3. **Digital photo verification receipt** (valid within Guangdong Province — obtained through the "照片回执号" WeChat mini-program)

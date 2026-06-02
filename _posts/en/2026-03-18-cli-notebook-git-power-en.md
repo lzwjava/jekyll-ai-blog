@@ -9,13 +9,14 @@ translated: false
 type: note
 ---
 
-**Question:** Provide a comprehensive introduction to https://github.com/xwmx/nb?tab=readme-ov-file#-revision-history
+**Question:** Provide a comprehensive introduction to <https://github.com/xwmx/nb?tab=readme-ov-file#-revision-history>
 
 **Answer:**
 
 `nb` (short for "notebook") is a powerful, portable **command-line tool** (and local web interface) for plain-text note-taking, bookmarking, archiving, and building a personal knowledge base. Developed by xwmx, it is written as a single Bash script and stores everything in ordinary plain-text files (primarily Markdown) inside Git repositories. This design makes it lightweight, future-proof, fully searchable, versioned, syncable, and independent of proprietary formats or cloud services.
 
 ### Core Philosophy
+
 - Data in plain text files using standard formats (Markdown, Org, etc.)
 - Git handles versioning and synchronization automatically and transparently
 - No database — just normal directories and files you can manage with any tool
@@ -23,6 +24,7 @@ type: note
 - Very close digital equivalent to a physical Zettelkasten system
 
 ### Key Features
+
 - **Notes** — Create, edit, view, delete Markdown files with titles, tags, and content
 - **Bookmarks** — Save URLs with full cached content, quotes, comments, tags; full-text searchable
 - **Todos & Tasks** — Dedicated `.todo.md` files with checkboxes, due dates, subtasks, and status tracking (`do` / `undo`)
@@ -41,6 +43,7 @@ type: note
 - **Interactive Shell** — `nb shell` for REPL-style usage
 
 ### How Revision History Works
+
 The section **#-revision-history** in the README explains Git-based versioning:
 
 - Every add, edit, move, delete, or other modification automatically creates a Git commit in the background.
@@ -56,19 +59,23 @@ The section **#-revision-history** in the README explains Git-based versioning:
 This gives every note, bookmark, and todo immutable version control similar to a lightweight personal wiki with full change tracking.
 
 ### Installation (as of 2026)
+
 - **Homebrew** (macOS/Linux): `brew install xwmx/taps/nb`
 - **npm**: `npm install -g nb.sh`
 - **Manual** (most portable):
+
   ```bash
   sudo wget https://raw.githubusercontent.com/xwmx/nb/master/nb -O /usr/local/bin/nb
   sudo chmod +x /usr/local/bin/nb
   nb completions install
   ```
+
 - **Update**: `nb update` (when not installed via package manager)
 - **Required**: Bash + Git
 - **Optional (highly recommended)**: pandoc, ripgrep/rga, bat, tig, w3m/lynx, socat/ncat (for browse)
 
 ### Quick Start Examples
+
 ```bash
 # Create a note
 nb add "Meeting notes 2026-03" --tags projectX meeting
@@ -93,13 +100,16 @@ nb sync --all
 ```
 
 ### Strengths & Trade-offs
+
 **Pros**:
+
 - Extremely portable and long-term sustainable (plain text + Git)
 - Powerful linking and search for knowledge work
 - Zero vendor lock-in
 - Active development (recent commits in March 2026, version ~7.25.x)
 
 **Cons / Considerations**:
+
 - Requires comfort with terminal and basic Git
 - Conflict resolution during sync is manual (Git-style)
 - Advanced rendering (images, complex tables) depends on optional tools

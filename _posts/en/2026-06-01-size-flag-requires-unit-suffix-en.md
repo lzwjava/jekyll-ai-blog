@@ -30,6 +30,7 @@ doctl compute volume create my-vol --size 200GiB --region sgp1
 ```
 
 Valid suffixes from the `bytesSizeTable`:
+
 - `GiB`, `gib`, `gi`, `g` → GiB (binary)
 - `GB`, `gb` → GB (decimal, 1000-based)
 - `TiB`, `tib`, `ti`, `t` → TiB

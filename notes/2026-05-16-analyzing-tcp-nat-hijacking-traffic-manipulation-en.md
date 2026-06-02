@@ -117,6 +117,7 @@ iptables -t nat -A PREROUTING -p tcp -j REDSOCKS
   ```bash
   tcpdump -i any port 53 -vv
   ```
+
 * Check if your DNS queries resolve correctly.
 
 ---

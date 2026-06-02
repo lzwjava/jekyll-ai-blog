@@ -23,6 +23,7 @@ type: note
 | `rocm` 容器 | 115 KB | 11 天前已退出，运行过 Jupyter Lab |
 
 **`rocm` 容器的操作：**
+
 - 运行 `jupyter lab`，具有 ROCm GPU 访问权限，笔记本目录为 `/home/rocm-user/jupyter`
 - 创建于 5 月 20 日，约 5 月 21 日退出
 - 日志显示有机器人扫描 PHP 漏洞（常见的网络流量，进入了暴露的 Jupyter 端口）
@@ -30,6 +31,7 @@ type: note
 **关键发现：** `rocm:latest` 容器镜像与宿主机上已安装在 `/opt/rocm-7.2.0/`（根磁盘占用 22GB）的内容**重复**。容器镜像 + 宿主机安装 = 约 58GB 的冗余 ROCm 文件。
 
 **可以安全删除的内容：**
+
 - `docker container prune` — 移除已退出的 `rocm` 容器（节省约 115KB）
 - `docker builder prune --all` — 移除 36GB 的过时构建缓存（节省 **36 GB**）
 - `docker rmi rocm:latest` — 移除容器镜像（节省 **36 GB**），因为 ROCm 已安装在宿主机上

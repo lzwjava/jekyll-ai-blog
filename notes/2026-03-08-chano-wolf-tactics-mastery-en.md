@@ -24,6 +24,7 @@ The hero in Honor of Kings that best combines all three mechanics you're asking 
 Whenever Chano moves through brush, he gains bonus Movement Speed and his next Basic Attack becomes a double shot that deals extra damage. He also leaps forward when emerging from the brush.
 
 **How to use it:**
+
 - Always fight near brush to trigger your enhanced attacks and maintain mobility advantage.
 - The Marksman hero has a unique passive that helps him gain a speed boost when hiding in the bushes, helping him assassinate enemies and flee from the scene quickly.
 - This passive is the core of Chano's playstyle. Position yourself in or near brushes constantly — before trades, ambushes, and escapes.
@@ -35,6 +36,7 @@ Whenever Chano moves through brush, he gains bonus Movement Speed and his next B
 Chano leaps into the air, gaining a Movement Speed boost and the ability to traverse terrain. While airborne, his Basic Attack is enhanced into a powerful long-range arrow, dealing physical damage and knocking back enemies. If he does not use the enhanced Basic Attack while airborne, he will store an enhanced Basic Attack with normal Attack Range for three seconds upon landing.
 
 **How to use it:**
+
 - Use it to initiate trades or escape ganks. Use offensively for knockback or defensively to reposition.
 - Chano can shred turrets instantly with his ultimate and his wolves, as they can become Chano's shield against them. Use Skill 1 to leap over terrain and reposition when pushing turrets, letting wolves tank turret shots while you deal damage.
 
@@ -45,6 +47,7 @@ Chano leaps into the air, gaining a Movement Speed boost and the ability to trav
 Chano throws a wolf spirit trap at the target location, exposing the enemy that triggers it and dealing physical damage. A wolf spirit is also summoned at the trap's location to attack the enemy that triggered it. Traps become invisible two seconds after deploying. Up to four traps can be deployed simultaneously. The wolf spirits inherit 25% of Chano's base stats and half of his Critical Damage. Each attack by the wolf slows the target by 5–10% for one second, for up to five stacks.
 
 **Two main ways to use traps:**
+
 - The first is by using it defensively, spreading it to nearby brushes to prevent enemy jungler ganks. The second way is to use it aggressively as a follow-up to your knockback, as it will instantly spawn a wolf near your target.
 - Whenever you sense an enemy hero approaching, set up the maximum number of Lupine Traps in the bushes, position yourself in a nearby bush, and wait. Once an enemy triggers the trap(s) and summons the wolf spirits, reveal yourself from the bush and use Chano's passive for the double shot.
 - Place Lupine Trap around objectives like Overlord or Tyrant to provide vision and to actively zone enemy junglers attempting to contest it.
@@ -56,6 +59,7 @@ Chano throws a wolf spirit trap at the target location, exposing the enemy that 
 Chano activates his Leader Stance, summoning wolf spirits to charge in a designated direction, consuming stored charges of Lupine Trap and activating all nearby traps. He gains the Mounted Archery ability, allowing him to move while attacking and increasing his Movement Speed by 10–20%, Physical Attack by 50–100, and Attack Speed by 20–40% for 8 seconds.
 
 **How to use it:**
+
 - Your ultimate ability, Leader Stance, should be saved for core team fights or critical pushes/defenses, as its 8-second buff window can melt enemy tanks and squishies alike.
 - Use it during turret pushes — the massive attack speed boost lets Chano tear down turrets very quickly, and wolf spirits act as shields by drawing turret aggression.
 

@@ -47,18 +47,21 @@ These minerals are present in **very small quantities**, so while they contribut
 ## 🧂 Uses of Himalayan Pink Salt
 
 ### 1. **Culinary Use**
+
 - **Cooking & Seasoning**: Used as a finishing salt or in cooking for its mild flavor and aesthetic appeal.
 - **Salt Blocks**: Large slabs used for cooking, grilling, or serving sushi, meats, fruits, and cheeses. They retain cold and heat well.
 - **Salt Grinders & Shakers**: Popular in kitchens worldwide for both taste and visual appeal.
 - **Brining & Curing**: Used in preserving meats and vegetables.
 
 ### 2. **Health & Wellness**
+
 - **Salt Lamps**: Believed by some to emit negative ions that purify air and improve mood, although scientific evidence is limited.
 - **Bath Salt**: Dissolved in warm water for relaxation and skin health.
 - **Tongue Scrub/Brushing**: Some people use it for oral hygiene.
 - **Salt Inhalers**: Used in salt therapy (halotherapy) for respiratory issues.
 
 ### 3. **Decorative & Practical Items**
+
 - Carved into lamps, candle holders, cutting boards, mortars, and pestles.
 - Used in spas for massage treatments and foot scrubs.
 
@@ -130,12 +133,14 @@ Let’s take a closer look at whether these claims hold up to scientific scrutin
 
 ## 🔬 Do Himalayan Salt Lamps Actually Clean the Air?
 
-### ✅ What Supporters Claim:
+### ✅ What Supporters Claim
+
 - The salt attracts moisture from the air (since it is hygroscopic).
 - When the lamp is warm, it supposedly pulls in water vapor along with **pollutants, allergens, or bacteria**.
 - Once absorbed, the water evaporates, leaving the pollutants "trapped" in the salt.
 
-### 🧪 Scientific Evidence:
+### 🧪 Scientific Evidence
+
 - There is **very limited scientific evidence** supporting the effectiveness of salt lamps for air purification.
 - Any air-purifying effect would be **extremely minimal** compared to dedicated air purifiers.
 - Studies show that **even if negative ions are released**, the amount from a salt lamp is far too low to make a measurable difference in air quality.
@@ -186,7 +191,7 @@ If you're looking to improve air quality in your home, consider:
 
 ---
 
-## 🧾 Final Verdict:
+## 🧾 Final Verdict
 
 > **No, Himalayan pink salt itself does not clean the air**, and salt lamps are not scientifically proven to purify or significantly improve air quality. Any benefits they provide are likely **aesthetic or psychological**, not medical or environmental.
 

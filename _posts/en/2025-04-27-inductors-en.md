@@ -17,6 +17,7 @@ The operation of an inductor is governed by fundamental principles of electromag
 $E = -N \frac{d\Phi_B}{dt}$
 
 Where:
+
 * $E$ is the induced emf (voltage)
 * $N$ is the number of turns in the coil
 * $\frac{d\Phi_B}{dt}$ is the rate of change of magnetic flux through each turn
@@ -47,6 +48,7 @@ An inductor's behavior differs significantly depending on whether it is in a DC 
 $X_L = 2\pi f L$
 
 Where:
+
 * $X_L$ is the inductive reactance in ohms ($\Omega$)
 * $f$ is the frequency of the AC current in Hertz (Hz)
 * $L$ is the inductance in Henries (H)

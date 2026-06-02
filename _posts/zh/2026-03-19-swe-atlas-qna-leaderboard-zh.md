@@ -9,11 +9,12 @@ translated: true
 type: note
 ---
 
-**SWE Atlas - Codebase QnA** 排行榜，托管在 https://labs.scale.com/leaderboard/sweatlas-qna，是 Scale AI 的 **SWE Atlas** 基准套件的一部分。SWE Atlas 使用真实世界的复杂代码库，在专业软件工程任务上评估 AI coding agents。
+**SWE Atlas - Codebase QnA** 排行榜，托管在 <https://labs.scale.com/leaderboard/sweatlas-qna，是> Scale AI 的 **SWE Atlas** 基准套件的一部分。SWE Atlas 使用真实世界的复杂代码库，在专业软件工程任务上评估 AI coding agents。
 
 **Codebase QnA** 专门衡量 **deep code comprehension and reasoning** ——在进行任何代码更改之前所需的上游技能。它测试 AI 代理理解和解释大型生产级软件系统行为的能力。
 
 ### Key Features
+
 - **Dataset**：来自 11 个活跃维护的开源仓库（从 SWE-Bench Pro 中选取）的 124 个具有挑战性的 QA 任务，涵盖 Go、Python、C 和 TypeScript。示例包括邮件服务器、终端仿真器、对象存储系统、可观测性平台和秘密扫描器。
 - **Task Type**：代理接收自然语言的、往往不完整的查询，这些查询模仿真实工程师的询问（例如，“How does the system handle disk failure in this configuration?”）。它们必须自主探索代码库，在沙箱化的 Docker 环境中构建和运行软件，追踪跨多个文件的执行路径，分析运行时行为，并提供详细、准确的答案。
 - **Constraints**：代理可以使用 shell 工具（bash、grep 等），但严格禁止修改任何源代码——违规将导致自动失败。
@@ -24,7 +25,9 @@ type: note
 - **Purpose**：突出当前前沿模型在深度推理真实代码执行和架构方面的差距，超出静态分析或简单 bug fixing。
 
 ### Performance Highlights (as of March 2026)
+
 即使顶级模型也面临重大挑战：
+
 - 领先分数约为 **30–35%** resolve rate。
 - 顶级条目包括：
   - gpt-5.4-codex (xHigh, Codex CLI)：**35.48% ± 8.70**

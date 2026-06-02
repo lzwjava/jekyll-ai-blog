@@ -12,6 +12,7 @@ type: note
 The IT, CS, and AI fields are filled with brilliant individuals who achieve extraordinary success away from the spotlight. Their stories are diverse, ranging from foundational pioneers to modern innovators who took unconventional paths. Here are some remarkable low-profile figures grouped by their type of contribution.
 
 ### 🏛️ Foundational Pioneers
+
 These historical figures laid the groundwork for modern computing, yet their names are not as universally known as they should be.
 
 | **Name** | **Field(s)** | **Key Contribution(s)** | **Why They're Low-Profile** |
@@ -22,6 +23,7 @@ These historical figures laid the groundwork for modern computing, yet their nam
 | **Alan Turing** | Computer Science, AI | Formulated the concept of a universal machine (Turing machine), was a founder of AI, and played a pivotal role in cracking German ciphers during WWII. | His immense contributions were long overshadowed by his unjust prosecution and the classified nature of his wartime work. |
 
 ### 🤖 Modern AI & Tech Innovators
+
 These contemporary figures have made pivotal contributions to the AI revolution or significant tech projects, often working behind the scenes or in supporting roles.
 
 | **Name** | **Field(s)** | **Key Contribution(s)** | **Why They're Low-Profile** |
@@ -31,6 +33,7 @@ These contemporary figures have made pivotal contributions to the AI revolution 
 | **Barbara Liskov** | Computer Science | Invented key programming languages (CLU, Argus) that laid the foundation for modern object-oriented programming (OOP), influencing languages like Java, C++, and Python. | Her work is at the level of fundamental computer science theory, which underpins but is not visible in everyday coding. |
 
 ### 🛠️ The Unconventional Achievers
+
 These individuals demonstrate that a traditional academic path is not the only route to the highest levels of success in tech. Their journeys are defined by curiosity, persistence, and a willingness to learn.
 
 | **Name** | **Field(s)** | **Key Contribution(s)** | **Why They're Low-Profile** |
@@ -44,6 +47,7 @@ These individuals demonstrate that a traditional academic path is not the only r
 | **Ajay Bhatt** | Computer Architecture | The co-inventor of **USB (Universal Serial Bus)** , a standard without which modern computing would be unimaginable. | The technology is ubiquitous, but the inventor's name is not. |
 
 ### 💡 Common Threads: How They Achieved Success
+
 What unites these individuals, especially the modern innovators, are several key traits:
 
 - **Deep, intrinsic curiosity**: A genuine passion for problem-solving and understanding how things work, from the inner workings of electronics to elegant mathematical equations.

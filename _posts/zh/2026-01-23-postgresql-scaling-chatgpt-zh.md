@@ -10,13 +10,13 @@ translated: true
 type: note
 ---
 
-**Question:** https://openai.com/index/scaling-postgresql/ 上的 OpenAI blog post 说了什么？
+**Question:** <https://openai.com/index/scaling-postgresql/> 上的 OpenAI blog post 说了什么？
 
 **Answer:**
 
 这篇标题为 **"Scaling PostgreSQL to power 800 million ChatGPT users"** 的 blog post 由 OpenAI 发布于 2026 年 1 月 22 日。它描述了 OpenAI 如何扩展单个 unsharded PostgreSQL 数据库（运行在 Azure PostgreSQL Flexible Server 上），以处理 ChatGPT 及其 API 的海量全球流量，支撑了 8 亿用户和每秒数百万次的 queries (QPS)，其中大部分是 read-heavy 负载。
 
-### 文章核心要点：
+### 文章核心要点
 
 - **实现的规模 (Scale achieved)**
   PostgreSQL 负载在过去一年中增长了 10 倍以上。

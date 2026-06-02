@@ -11,19 +11,23 @@ type: note
 ---
 
 ### 概述
+
 这是一个来自 CodeIgniter Web 框架的 PHP 配置文件，专门用于其**表情符号助手**。CodeIgniter 是用于构建 Web 应用程序的 PHP MVC 框架。该文件定义了一组表情符号映射，供框架的 `smiley_helper` 使用，以自动将基于文本的表情符号（如 `:-)`）替换为显示对应 GIF 图片的 HTML `<img>` 标签。
 
 该文件通过 `defined('BASEPATH') OR exit('No direct script access allowed');` 阻止直接访问，这是 CodeIgniter 中防止未经授权的直接脚本执行的安全措施。
 
 ### 核心组件
+
 - **用途**：将用户生成内容（如论坛帖子或评论）中的纯文本表情符号转换为视觉图像，以提升用户体验。
 - **数据结构**：`$smileys` 是一个 PHP 关联数组，具有以下正式结构：
+
   ```
   $smileys = array(
       'smiley_code' => array('image_file', 'width', 'height', 'alt_text'),
       // ...
   );
   ```
+
   - **smiley_code**：要匹配的文本模式（例如 `:-)`、`:lol:`、`>:(`）。
   - **image_file**：表情符号目录中 GIF 图片的名称（在 CodeIgniter 中默认为 `application/views/smileys/`）。
   - **width/height**：`<img>` 标签的像素尺寸（此处均为 `'19'`，表示 19x19px 的 GIF 图片）。
@@ -34,6 +38,7 @@ type: note
     输出：`I'm happy <img src="http://example.com/smileys/smile.gif" width="19" height="19" alt="smile">`
 
 ### 条目详解
+
 该数组包含 40 多个映射，按情感类型分组。大多数图片为 19x19px 的 GIF 文件。以下是摘要视图（含示例）：
 
 | 表情符号代码 | 图片 | 替代文本 | 备注 |
@@ -53,6 +58,7 @@ type: note
 | `:exclaim:`, `:question:` | exclaim.gif, question.gif | exclaim, question | 标点符号等价物（!、?）。 |
 
 ### 扩展与自定义
+
 - **添加表情符号**：追加新条目，例如 `':fire:' => array('fire.gif', '19', '19', 'fire');`。
 - **更改图片**：如果使用 PNG/JPG 替换 GIF，请更新文件名（并相应调整宽度/高度）。
 - **目录**：确保图片存在于 CodeIgniter 的表情符号路径中。

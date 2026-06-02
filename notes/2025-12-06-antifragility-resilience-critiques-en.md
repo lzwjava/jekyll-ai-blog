@@ -40,6 +40,7 @@ Antifragility (a system that *gains* from disorder, stress, and volatility) and 
 In short: antifragility is real and powerful, but it is rarer, crueler, and more system-level than the pop-sci version suggests—and in many high-stakes domains, boring old resilience (or avoidance) is the wiser goal.
 
 References:
+
 - [Antifragile: Things That Gain from Disorder by Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Antifragile_(book))
 - [Skin in the Game by Nassim Nicholas Taleb (chapter on survivorship bias and systems vs individuals)](https://en.wikipedia.org/wiki/Skin_in_the_Game_(book))
 - [The Logic of Failure by Dietrich Dörner (on why complex systems often need stability more than stress)](https://www.amazon.com/Logic-Failure-Recognizing-Avoiding-Situations/dp/0201479486)

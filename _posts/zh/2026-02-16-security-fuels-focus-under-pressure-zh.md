@@ -22,6 +22,7 @@ type: note
 在中国语境下，许多年轻人因经济不确定性下公务员职位的声望和稳定性吸引力，毕业后辞职或全职备考。然而，国考的低通过率（热门岗位常低于1-2%）加上失业带来的财务和心理压力，导致屡战屡败。一些人陷入这种循环直至30多岁，长期全职备考却无成果，反而损害重返私营职场的竞争力，加剧绝望感。
 
 相比之下，兼职工作或保持平衡生活的人往往表现更佳，因为工作能提供：
+
 - 例行化的结构，培养自律。
 - 考试压力外的心理缓冲。
 - 就业能力的证明，减轻生存焦虑。
@@ -30,6 +31,7 @@ type: note
 简而言之，**安全感促进真正的专注**，而**不安全感（财务+结果的不确定性）常导致僵化或低效努力**，即使投入更多时间。这解释了为何全职备考中“耗时而不专注”（伪勤奋）的现象普遍。
 
 **参考资料：**
+
 - [财务忧虑与心理困扰](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806009/)
 - [财务安全感降低压力并改善心态](https://www.mutualofomaha.com/advice/health-and-well-being/mental-health/how-financial-security-can-impact-your-mental-well-being)
 - [财务压力损害认知表现和生产力](https://engageforsuccess.org/unpacking-the-link-between-financial-security-and-work-efficiency)

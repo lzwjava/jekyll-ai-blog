@@ -30,7 +30,6 @@ After using the SIM for a month, I needed to recharge it. I attempted to do so t
 
 Consequently, I recharged through the JD.com store where I originally purchased the SIM, paying 39 CNY for a 5 USD credit.
 
-
 ---
 
 ## UK SIM Card in China: A Giffgaff Experience
@@ -46,7 +45,6 @@ I also installed Deliveroo, a British online food delivery company. But actually
 After trying Giffgaff, I became more aware of what is happening in the UK. Then I noticed that petitions for a general election in the UK are going on through X (formerly Twitter).
 
 I am looking forward to learning more about digital life in the UK.
-
 
 Reference:
 

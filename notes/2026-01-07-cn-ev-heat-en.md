@@ -21,6 +21,7 @@ Many modern electric vehicles (EVs), especially popular Chinese brands like BYD,
 - Heat pumps or PTC (resistive) heaters prioritize quick warm-up and dehumidification in cold weather, making even "low" settings feel hot initially.
 
 ### Recommended Solutions
+
 Here are practical ways to achieve a cooler, more comfortable cabin without excessive heat:
 
 - **Switch to Auto mode**: This is the most effective fix for many EV owners. Auto allows the climate control to intelligently adjust fan speed, air temperature, and blending (mixing cooler outside air). Set your desired temperature (e.g., 20–22°C) in Auto—it will maintain it comfortably without constant hot blasts. Many users report that manual mode ignores finer temperature control, while Auto modulates properly.

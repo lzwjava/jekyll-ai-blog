@@ -17,6 +17,7 @@ type: note
 IELTS One Skill Retake (also called single skill retake or 单科重考) allows you to retake **only one** of the four skills — Listening, Reading, Writing, or Speaking — instead of the entire test, if you want to improve your score in that specific area.
 
 ### Key Rules and How It Works
+
 - **Eligibility requirements**:
   - Your original test must have been a **computer-delivered IELTS** (Academic or General Training; paper-based is not eligible in most/current cases).
   - The original test must have been taken at a test center that offers One Skill Retake.

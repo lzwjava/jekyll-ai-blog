@@ -47,6 +47,7 @@ Overall, the system emphasizes personal responsibility and low government interv
 ### Mandatory Aspects: Company and Government Enforcement
 
 Yes, certain elements are enforced by law:
+
 - **Taxes**: Fully mandatory; non-compliance leads to penalties, audits, and potential jail time.
 - **MPF**: Strictly enforced by the Mandatory Provident Fund Schemes Authority (MPFA). Employers must enroll employees within 60 days of starting work; the government monitors via audits and can prosecute violators.
 - **Employees' Compensation**: Mandatory for all employers; non-provision results in fines up to HKD 100,000 and civil liability.

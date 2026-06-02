@@ -35,16 +35,20 @@ Here's the full post-mortem:
 ## ✅ The Fix — What We Did
 
 ### 1. Emergency — Stop the bleeding
+
 ```
 docker restart nextcloud-app-1
 ```
+
 Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in seconds, fan quieted.
 
 ### 2. Root cause — Uptime-Kuma polling the wrong URL
+
 - Changed monitor from `http://192.168.1.36:8080/apps/dashboard/` → `http://192.168.1.36:8080/status.php`
 - `/status.php` is Nextcloud's dedicated health endpoint — returns `{"installed":true,"maintenance":false}` instantly, no app loading, no PHP heavy lifting
 
 ### 3. Patch the wound — Upgrade Nextcloud 33.0.0 → 33.0.2
+
 - Downloaded new Nextcloud tarball
 - Used `rsync` to overlay new source files onto the volume (preserving `config/`, `data/`, `custom_apps/`, `themes/`)
 - Ran `php occ upgrade` — migrated DB schema, updated 13 apps
@@ -54,7 +58,7 @@ Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in
 
 ## 🛡️ How to Prevent This
 
-### For Nextcloud specifically:
+### For Nextcloud specifically
 
 | Do | Don't |
 |---|---|
@@ -62,12 +66,15 @@ Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in
 | Set Uptime-Kuma interval ≥ 60s for PHP apps | Rapid polling of PHP apps |
 | Monitor container CPU individually | Only look at host `load average` |
 
-### General fan/noise prevention:
+### General fan/noise prevention
+
 1. **Set up alerting on container CPU** — run this cron to alert before it gets bad:
 {% raw %}
+
    ```
    docker stats --no-stream --format "{{.Name}}: {{.CPUPerc}}" | awk -F: '$2>80 {print $1" high CPU"}'
    ```
+
 {% endraw %}
 2. **Rotate logs** — prevent log files in containers from filling disk and causing swap pressure
 3. **Restart containers periodically** — many PHP apps (Nextcloud, LibreChat) benefit from occasional restarts to clear memory leaks
@@ -77,6 +84,7 @@ Cleared all 9 stuck Apache workers immediately. Load dropped from 11 → 3.68 in
 ## 🔧 Quick Diagnostic Commands
 
 {% raw %}
+
 ```bash
 # Find what's hottest
 docker stats --no-stream
@@ -93,6 +101,7 @@ curl -s http://localhost:8080/status.php
 # Full system load
 uptime && top -b -n1 | head -8
 ```
+
 {% endraw %}
 
 Any container at sustained >50% CPU for more than a few minutes = investigate immediately.

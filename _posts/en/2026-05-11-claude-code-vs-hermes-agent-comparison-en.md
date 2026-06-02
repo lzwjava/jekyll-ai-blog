@@ -22,6 +22,7 @@ These two tools serve **fundamentally different purposes**, so "better" depends 
 Hermes Agent is an open-source autonomous AI agent built by Nous Research, released in February 2026. It is not a coding copilot tethered to an IDE or a chatbot wrapper around a single API — it lives on your server, remembers what it learns, and gets more capable the longer it runs.
 
 Key features:
+
 - Persistent cross-session memory, a self-improving skills system, multi-platform messaging (Telegram, Discord, Slack, WhatsApp), 40+ built-in tools, and runs on any infrastructure from a $5 VPS to serverless cloud.
 - Scheduled automations with built-in cron, ability to spawn isolated subagents for parallel workstreams, full web control (search, extract, browse, vision), and MCP support to connect to any MCP server.
 - It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions.

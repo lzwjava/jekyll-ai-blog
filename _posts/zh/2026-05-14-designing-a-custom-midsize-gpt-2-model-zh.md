@@ -39,27 +39,33 @@ nanoGPT 的 `model.py` 中提供了四种标准配置：
 虽然没有唯一的 ~200M 标准配置，但这里有三个表现良好的选项。经验法则：`n_embd` 必须能被 `n_head` 整除，并且优先选择接近 2 的幂的数字以提高 GPU 效率。
 
 **选项 A — 更宽、更浅（~190M）**
+
 ```python
 n_layer = 16
 n_head  = 16
 n_embd  = 896   # 896 / 16 = 56 head_dim（没问题）
 ```
+
 预估参数量：~190M
 
 **选项 B — 均衡型（~220M）**
+
 ```python
 n_layer = 18
 n_head  = 16
 n_embd  = 896
 ```
+
 预估参数量：~215M
 
 **选项 C — 更接近中型（~260M）**
+
 ```python
 n_layer = 20
 n_head  = 16
 n_embd  = 960   # 960 / 16 = 60 head_dim
 ```
+
 预估参数量：~255M
 
 你可以使用 nanoGPT 自带的 `transformer_sizing.ipynb` 笔记本，在开始训练前获得任意配置的精确参数量。

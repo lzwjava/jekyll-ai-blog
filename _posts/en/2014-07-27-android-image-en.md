@@ -152,6 +152,7 @@ public class BitmapUtils {
 ```
 
 ##### What’s Inside?
+
 - **Grayscale Conversion**:
   - `convertGreyImg`: Uses a pixel array to batch-process the bitmap into grayscale.
   - `toGreyImg`: Works pixel-by-pixel on a mutable copy, offering an alternative approach.
@@ -219,6 +220,7 @@ public class Crop {
 ```
 
 ##### What’s Happening Here?
+
 - `startPhotoCrop`: Launches the system crop activity with a specified `Uri`, aspect ratio (simplified using GCD), and output path. It assumes `App.drawWidth` and `App.drawHeight` are defined elsewhere (e.g., in a base `App` class).
 - `gcd`: A recursive method to compute the greatest common divisor, ensuring the aspect ratio is in its simplest form.
 
@@ -268,6 +270,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 **Notes**:
+
 - Ensure proper storage permissions in your `AndroidManifest.xml` and runtime checks for file operations.
 - The `App` class (referenced in `Crop`) should define `drawWidth` and `drawHeight`.
 

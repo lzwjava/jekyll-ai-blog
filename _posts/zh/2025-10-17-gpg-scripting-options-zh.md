@@ -25,6 +25,7 @@ type: note
 这些选项常组合运用于脚本场景，例如 `gpg --batch --yes -o decrypted.txt --pinentry-mode loopback --decrypt encrypted.gpg` 可实现全自动化运行。
 
 #### 参考文档
+
 - [GPG 手册页](https://linux.die.net/man/1/gpg)
 - [GnuPG 代理选项](https://www.gnupg.org/documentation/manuals/gnupg/Agent-Options.html)
 - [GnuPG 官方手册](https://www.gnupg.org/documentation/manuals/gnupg/index.html)

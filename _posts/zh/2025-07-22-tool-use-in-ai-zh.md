@@ -13,6 +13,7 @@ type: note
 工具使用，通常被称为“工具调用”或“函数调用”，是 AI API 中的一项功能，允许大型语言模型（LLMs）与外部工具、函数或 API 进行交互。模型不再仅仅依赖其内部知识生成响应，而是可以决定调用预定义的函数来获取实时数据、执行计算或执行操作。这使得 AI 对于诸如查询天气、搜索数据库或与其他服务集成等任务更加动态和实用。
 
 该过程通常如下工作：
+
 - 您以 JSON 格式定义具有描述和参数的**工具**（函数）。
 - 模型分析用户的查询，并在需要时输出一个包含函数名称和参数的 **"工具调用"**。
 - 您的应用程序执行该函数并将结果反馈给模型。
@@ -41,9 +42,11 @@ Mistral AI 和 DeepSeek AI 都在其 API 中支持工具调用，这使得它们
 要使用工具调用，您需要从相应的提供商处获取 API 密钥（在 mistral.ai 注册 Mistral 或在 platform.deepseek.com 注册 DeepSeek）。两者都使用与 OpenAI 类似的 Python SDK。以下是一个简单天气查询工具的分步示例。
 
 #### 使用 Mistral AI 进行工具调用
+
 Mistral 的 API 通过其 `MistralClient` 在聊天补全中支持工具调用。使用 `pip install mistralai` 安装 SDK。
 
 **Python 代码示例**（改编自官方和社区来源）：
+
 ```python
 from mistralai import Mistral
 
@@ -111,9 +114,11 @@ else:
 此代码发送查询，检查工具调用，执行它（此处为模拟），并获取最终答案。对于基于智能体的设置，可以使用 Mistral 的 beta 版智能体 API 来处理更复杂的工作流。
 
 #### 使用 DeepSeek AI 进行工具调用
+
 DeepSeek 的 API 与 OpenAI 兼容，因此您可以使用 OpenAI Python SDK。使用 `pip install openai` 安装。
 
 **Python 代码示例**（来自官方文档）：
+
 ```python
 from openai import OpenAI
 
@@ -175,6 +180,7 @@ print(f"模型>\t {message.content}")
 对于高级用法，请查看速率限制、成本和模型特定文档。在沙盒环境中进行测试以处理诸如无效参数之类的错误。
 
 ### 参考资料
+
 - [Mistral AI 函数调用文档](https://docs.mistral.ai/agents/function_calling/)
 - [DeepSeek API 函数调用指南](https://api-docs.deepseek.com/guides/function_calling)
 - [Mistral AI 函数调用代码示例](https://medium.com/@jcrsch/mistral-ai-function-calling-a-simple-example-with-code-72f3a762550f)

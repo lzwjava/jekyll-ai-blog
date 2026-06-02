@@ -43,7 +43,6 @@ bars_dict = quote_client.get_bars(
 bars = bars_dict.get('00700', [])
 ```
 
-
 ### Step 2: Extract features and labels
 
 A simple approach:

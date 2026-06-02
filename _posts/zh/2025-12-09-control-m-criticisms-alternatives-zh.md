@@ -24,6 +24,7 @@ Control-M 是 BMC Software 的工作负载自动化和编排平台，被广泛�
 这些观点突显了一个分歧：虽然 Control-M 在大型混合环境中表现出色，但在敏捷、云原生自动化时代，它常常因遗留包袱而受到批评。
 
 参考文献：
+
 - [Control-M Thoughts? Worth it in 2024? (Reddit r/devops)](https://www.reddit.com/r/devops/comments/1cmkkax/controlm_thoughts_worth_it_in_2024/)
 - [Control-M Reviews & Ratings 2025 (TrustRadius)](https://www.trustradius.com/products/control-m/reviews)
 - [Compare Top 10 Control-M Alternatives (AIMultiple)](https://research.aimultiple.com/controlm-alternatives/)

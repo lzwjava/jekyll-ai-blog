@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-**Question:** What does the webpage at https://gwkszx.gdufs.edu.cn/info/1070/3543.htm say?
+**Question:** What does the webpage at <https://gwkszx.gdufs.edu.cn/info/1070/3543.htm> say?
 
 **Answer:**
 
@@ -18,14 +18,14 @@ The page is an official notice from the Guangdong University of Foreign Studies 
 
 Published on **March 6, 2025**, it provides important guidelines for candidates taking the IELTS exam at the GDUFS test center to ensure smooth entry and participation.
 
-### Key points from the notice:
+### Key points from the notice
 
 - **Test Locations (University Town Campus):**
   - Paper-based Writing test: Building of Arts (艺术楼)
   - Speaking test (paper-based): Staff Recreation Centre (教工活动中心)
   - Computer-delivered tests (both Writing and Speaking): Laboratory Building Zone E (实验楼E区)
   - Recommended entry gate: Northeast Gate (No. 178, Waihuan Road East / 外环东路178号大门)
-  - Campus map link: https://gwkszx.gdufs.edu.cn/jtzy/jtzn.htm
+  - Campus map link: <https://gwkszx.gdufs.edu.cn/jtzy/jtzn.htm>
   - No external vehicles (taxis, ride-hailing, private cars) are allowed on campus — use public transportation. Only test-takers can enter during the test period (including those under 18).
 
 - **Required Documents:**

@@ -43,6 +43,7 @@ Before her work, open-source hardware design was mostly theoretical. The EDA (El
 Her impact is comparable to what **GCC did for software** in the 80s/90s — democratizing compilation. She did it for silicon.
 
 Concretely:
+
 - **Google's OpenMPW** program (free ASIC tapeouts on Skywater 130nm) is built on Yosys
 - **Efabless** platform uses her toolchain
 - Thousands of open-source chip designs on [opencores.org](https://opencores.org) and [ChipFoundry](https://chipfoundry.io) use Yosys

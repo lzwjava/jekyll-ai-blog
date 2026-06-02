@@ -46,26 +46,25 @@ type: post
    - 中国 Visa 卡支付限制
    - 中国身份文件有时有帮助
 
-
 ## 中国代理解决方案
 
 *2024.12.29*
 
-* 最佳方法是获取一张中国澳门 SIM 卡，在需要时直接使用蜂窝数据。访问 [https://www.1888.com.mo](https://www.1888.com.mo)。它提供约 10 GB 蜂窝数据，费用约 80 元人民币，体验快速无痛。
+- 最佳方法是获取一张中国澳门 SIM 卡，在需要时直接使用蜂窝数据。访问 [https://www.1888.com.mo](https://www.1888.com.mo)。它提供约 10 GB 蜂窝数据，费用约 80 元人民币，体验快速无痛。
 
-* 中国电信澳门 SIM 卡有两种类型：红色和蓝色。红色卡提供每日套餐，通常每天 2、3 或 5 澳门元。蓝色卡提供数据套餐，例如 10GB 98 澳门元或 20GB 198 澳门元，无月租费。
+- 中国电信澳门 SIM 卡有两种类型：红色和蓝色。红色卡提供每日套餐，通常每天 2、3 或 5 澳门元。蓝色卡提供数据套餐，例如 10GB 98 澳门元或 20GB 198 澳门元，无月租费。
 
-* 如果需要更多网络数据或经常使用笔记本电脑，考虑使用 [Falemon](https://falz.pics)。它每月仅 30 元人民币，提供约 15 个全球代理服务器访问。
+- 如果需要更多网络数据或经常使用笔记本电脑，考虑使用 [Falemon](https://falz.pics)。它每月仅 30 元人民币，提供约 15 个全球代理服务器访问。
 
-* 在 iOS 上，使用 Shadowrocket 配合 Shadowsocks 规则：[https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)。配置全局路由，将中国流量与海外流量分离。
+- 在 iOS 上，使用 Shadowrocket 配合 Shadowsocks 规则：[https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)。配置全局路由，将中国流量与海外流量分离。
 
-* 在 Android 上，使用 V2Ray。在 Fire TV 上，使用 V2Ray 应用。在 Apple TV 上，使用 Shadowrocket 应用。在 Mac 上，使用 ShadowsocksX-NG 或 ClashX 应用。
+- 在 Android 上，使用 V2Ray。在 Fire TV 上，使用 V2Ray 应用。在 Apple TV 上，使用 Shadowrocket 应用。在 Mac 上，使用 ShadowsocksX-NG 或 ClashX 应用。
 
-* 不推荐自己搭建代理服务器。Shadowsocks、VMess 或 Trojan 等协议很容易被封禁，无论使用什么服务器。
+- 不推荐自己搭建代理服务器。Shadowsocks、VMess 或 Trojan 等协议很容易被封禁，无论使用什么服务器。
 
-* 要将 App Store 切换到 USA 地区，开启全局代理（USA），它会显示“None”支付选项，允许公开切换。
+- 要将 App Store 切换到 USA 地区，开启全局代理（USA），它会显示“None”支付选项，允许公开切换。
 
-* 使用 Visa 卡从 Amazon 购买礼品卡，或使用 Apple 礼品卡门户为 App Store 账户充值。
+- 使用 Visa 卡从 Amazon 购买礼品卡，或使用 Apple 礼品卡门户为 App Store 账户充值。
 
 ---
 
@@ -81,7 +80,7 @@ type: post
 
 从 2016 年 6 月到 2018 年 7 月，我使用 Digital Ocean 托管 shadowsocks 代理服务器。
 
-从 2019 年开始，我开始使用 https://zhs.cloud。
+从 2019 年开始，我开始使用 <https://zhs.cloud。>
 
 2023 年 3 月，我开始在手机中使用澳门 SIM 卡上网，无需代理或 VPN。这每月约 150 元人民币，提供 20GB 蜂窝数据，我使用了大约一年。
 
@@ -89,20 +88,19 @@ type: post
 
 2025 年 2 月，我首选的设置是使用 Outline Manager，日常使用阿里云香港服务器，对于 AI 工具使用非香港服务器（如新加坡或日本）。我保持与 Shadowrocket 或 Clash 中相同的代理规则配置。
 
-从 2025 年 6 月开始，我在笔记本电脑上使用 Python 脚本，每 10 分钟基于速度测试结果自动选择代理服务器。该脚本优先选择新加坡服务器而非香港服务器用于 AI 工具。更多详情，请查看 [Automating Clash Proxy Management](/clash-en)。对于 VPN 云提供商，我仍然使用 https://zhs.cloud。
+从 2025 年 6 月开始，我在笔记本电脑上使用 Python 脚本，每 10 分钟基于速度测试结果自动选择代理服务器。该脚本优先选择新加坡服务器而非香港服务器用于 AI 工具。更多详情，请查看 [Automating Clash Proxy Management](/clash-en)。对于 VPN 云提供商，我仍然使用 <https://zhs.cloud。>
 
 此外，在 iOS 上，我切换回使用澳门 SIM 卡，每月 150 元人民币 20GB 数据。我还三次额外购买 5GB 数据，每次 20 澳门元，总计约 200 元人民币，手机上 35GB 数据。
 
 从 2025 年 10 月中旬开始，我停止使用澳门 SIM 卡套餐，因为最近几个月我每月使用约 35 GB。使用中国应用会消耗蜂窝数据，这些应用占我数据使用量的约三分之一——主要是微信。
 
-我开始再次使用 iOS Shadowsocks 应用，配合 https://zhs.cloud 的代理服务器。我还开始学习一些关于 CN2 线路的知识。
+我开始再次使用 iOS Shadowsocks 应用，配合 <https://zhs.cloud> 的代理服务器。我还开始学习一些关于 CN2 线路的知识。
 
 从 12 月底开始，由于代理服务器的挫败感，我重新开始在手机中使用澳门 SIM 卡。
 
 从 2026 年 1 月开始，我开始使用 [Falemon](https://falz.pics)。一位朋友推荐的。
 
 从 2026 年 2 月开始，由于 Falemon 订阅地址的 DNS 故障，我切换到 DMIT.io 并在其服务器上设置 Hysteria2。使用一周后，IP 地址被封禁。然而，我能够在 DMIT.io 上自由更换新 IP，这很棒。他们使用 CN2 GIA 线路。
-
 
 #### 与逆转近视的差异
 
@@ -160,7 +158,6 @@ type: post
 
 他说没问题，没事，不浪费时间，还早着呢。是的。这些事情是基础的。像近视一样，人们应该早点发现。Todd Becker 在 2014 年在 YouTube 上分享了这个发现，视频获得超过 100 万观看。现在是 2025 年，全世界有多少人真正知道？我想不到 1 万人。
 
-
 ---
 
 ## 澳门 SIM 卡
@@ -176,23 +173,27 @@ type: post
 随时易用！
 
 ### 关键点
+
 - 无押金；在大陸中国、澳门和香港自动激活。
 - 无合约或终止费；购买即用。
 - 包含澳门号码；可选大陆中国号码用于双号。
 - 在线充值或使用充值卡。
 
 ### 每日费用选项
+
 - $2/天：4GB 高速，然后无限降速；5000 分钟本地通话。
 - $3/天：10GB 高速，然后无限降速；5000 分钟本地通话。
 - $5/天：20GB 高速，然后无限降速；5000 分钟本地通话。
 
 ### 额外
+
 - 香港数据使用：$0.1/MB。
 - 通过发送短信随时更改套餐。
 
 #### 蓝澳门 SIM 卡
 
 ### 关键点
+
 - 无月租；按量付费。
 - 本地通话：0.39 澳门元/分钟；互联网：0.1 澳门元/MB；短信：1 澳门元/条。
 - 可选无到期数据套餐：10GB 98 澳门元，20GB 188 澳门元，40GB 288 澳门元。
@@ -243,7 +244,7 @@ Mistral:
    - 配置：确保设备设置正确配置用于 Shadowsocks。有时切换网络（从 5G 到 4G 或家庭 Wi-Fi）会导致设置重置或更改。
    - 应用权限：确保 Shadowsocks 应用在不同网络上有必要权限。
 
-### 排查步骤：
+### 排查步骤
 
 1. 检查网络设置：
    - 确保 Shadowsocks 设置正确配置用于 5G 和 4G 网络。
@@ -271,8 +272,6 @@ Mistral:
 实际上，我的家庭 Wi-Fi 使用中国移动通信集团，其地址如 120.235.8.xx。
 
 有趣的是，我观察到不一致的连接模式——虽然我的代理服务器在蜂窝数据和中国电信网络上正常工作，但在使用家庭 Wi-Fi 网络时偶尔无法连接。
-
-
 
 ---
 

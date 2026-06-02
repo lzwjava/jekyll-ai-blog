@@ -12,6 +12,7 @@ type: note
 这是 **Git 源代码**——由 Linus Torvalds 编写的实际分布式版本控制系统。你当前位于 `/Users/lzwjava/projects/git` 目录，其中包含 git 本身的完整 C 源代码树。
 
 你会找到的关键文件：
+
 - **Core**：`builtin/`（命令）、`object-store/`、`refs/`、`diff.c`、`merge.c`
 - **xdiff/**：diff/merge 算法（patience, histogram）
 - **Transport**：`remote-curl.c`、`send-pack.c`、`fetch-pack.c`（协议处理）

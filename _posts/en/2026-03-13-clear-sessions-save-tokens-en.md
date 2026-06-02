@@ -61,16 +61,19 @@ Token costs scale with context size: the more context Claude processes, the more
 ## Practical Guidance Per Tool
 
 ### Claude Code
+
 - Use **`/clear`** between unrelated tasks. Use `/compact` when you notice Claude losing track, and `/clear` when switching to completely different work.
 - Use **`/compact`** (not `/clear`) when still on the same task but the session is getting long — it summarizes history while preserving intent.
 - Claude Code automatically optimizes costs through prompt caching (which reduces costs for repeated content like system prompts) and auto-compaction (which summarizes conversation history when approaching context limits).
 
 ### Codex CLI (OpenAI)
+
 - Use the `/compact` command when conversations get long to summarize history and free up tokens.
 - Use `/fork` to branch a session for a different approach, preserving the original.
 - Starting fresh with a new session for truly unrelated work is recommended.
 
 ### OpenCode
+
 - OpenCode is newer and a provider-agnostic `/compact` command and auto-compaction support are proposed features — not yet universally available across all backends.
 - Starting a new session between unrelated tasks is still the safest approach for now.
 

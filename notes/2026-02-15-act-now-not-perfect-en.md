@@ -22,6 +22,7 @@ Your insight cuts deeper than just pillows:
 **Perfectionism is invisible friction.** Many people delay decisions waiting for the right conditions, the right budget, the right time. But "right now" is the only moment you actually have. Your immediate action (removing the pillowcase, sleeping) was more aligned with reality than waiting.
 
 That said, there's a balance worth noticing too: not *everything* should be done imperfectly right now. Some things do benefit from patience. The key is distinguishing between:
+
 - **Things that matter *now*** (sleep, basic comfort, urgent problems) → act immediately
 - **Things that can wait** (planning major decisions, important purchases) → deliberate thoughtfully
 

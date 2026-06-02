@@ -15,6 +15,7 @@ FMDB 是一个基于 SQLite 的 Objective-C 封装库，为 iOS 和 macOS 开发
 ## 什么是 FMDB？
 
 FMDB 为 SQLite 提供了更清晰、面向对象的接口，具备以下特性：
+
 - 自动连接管理
 - 错误处理机制
 - 线程安全支持
@@ -23,17 +24,21 @@ FMDB 为 SQLite 提供了更清晰、面向对象的接口，具备以下特性�
 ## 安装方式
 
 ### 使用 CocoaPods
+
 在 Podfile 中添加：
+
 ```ruby
 pod 'FMDB'
 ```
 
 ### 使用 Swift Package Manager
+
 添加包依赖：`https://github.com/ccgus/fmdb`
 
 ## 基础用法
 
 ### 1. 导入与设置
+
 ```swift
 import FMDB
 
@@ -49,6 +54,7 @@ class DatabaseManager {
 ```
 
 ### 2. 打开与关闭数据库
+
 ```swift
 func openDatabase() -> Bool {
     guard database.open() else {
@@ -64,6 +70,7 @@ func closeDatabase() {
 ```
 
 ### 3. 创建数据表
+
 ```swift
 func createTables() {
     guard openDatabase() else { return }
@@ -89,6 +96,7 @@ func createTables() {
 ```
 
 ### 4. 插入数据
+
 ```swift
 func insertUser(name: String, email: String, age: Int) -> Bool {
     guard openDatabase() else { return false }
@@ -109,6 +117,7 @@ func insertUser(name: String, email: String, age: Int) -> Bool {
 ```
 
 ### 5. 查询数据
+
 ```swift
 func getAllUsers() -> [User] {
     guard openDatabase() else { return [] }
@@ -138,6 +147,7 @@ func getAllUsers() -> [User] {
 ```
 
 ### 6. 更新数据
+
 ```swift
 func updateUserAge(userId: Int, newAge: Int) -> Bool {
     guard openDatabase() else { return false }
@@ -158,6 +168,7 @@ func updateUserAge(userId: Int, newAge: Int) -> Bool {
 ```
 
 ### 7. 删除数据
+
 ```swift
 func deleteUser(userId: Int) -> Bool {
     guard openDatabase() else { return false }

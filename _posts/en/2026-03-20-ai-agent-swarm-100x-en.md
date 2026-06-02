@@ -24,11 +24,13 @@ Answer:
 ## 📈 The Three Levels Explained
 
 ### Level 1 — Normal Engineer (1x)
+
 - Writes code manually
 - Reviews everything
 - Bottlenecked by human speed
 
 ### Level 2 — 10x Engineer
+
 - Does **not read code** at all
 - Directs AI to write everything
 - But still manually monitors AI progress
@@ -38,6 +40,7 @@ Answer:
 - **Problem: your attention is the bottleneck.** You can only run so many parallel tasks before your brain maxes out
 
 ### Level 3 — 100x Engineer (the goal)
+
 - You set the direction **once**
 - A task-decomposition agent breaks it into small units
 - Multiple developer agents pick up tasks in parallel

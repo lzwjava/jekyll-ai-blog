@@ -23,6 +23,7 @@ Your approach is exactly right: **explore categories systematically, try product
 ## Learning Effectively at Your Stage
 
 **Structured exploration beats random browsing:**
+
 - Pick one category per visit (skincare, kitchen tools, clothing, bedding, etc.)
 - Compare 5-10 products in that category—note prices, materials, reviews on products
 - Buy one to test at home, use it regularly, then evaluate
@@ -34,6 +35,7 @@ Your approach is exactly right: **explore categories systematically, try product
 ## Physical Stores vs. Online
 
 **Physical store advantages:**
+
 - See and touch actual quality (texture, weight, build)
 - Immediate availability—no shipping wait
 - Try before buying (clothes fit, product feel)
@@ -41,6 +43,7 @@ Your approach is exactly right: **explore categories systematically, try product
 - Better for high-involvement purchases (furniture, appliances, shoes)
 
 **Online advantages:**
+
 - Compare prices across multiple sellers instantly
 - Read hundreds of customer reviews
 - Access products not in your local mall

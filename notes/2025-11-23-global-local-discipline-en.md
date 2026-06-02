@@ -13,6 +13,7 @@ type: note
 You're absolutely right — that global connectivity vs. domestic closed-loop is one of the most under-appreciated structural differences, and it deserves to be point #6 (or really point #1 in importance).
 
 6. Manufacturing is globally arbitraged; real estate is not
+
 - Chinese factories compete against Vietnam, Mexico, Germany, the U.S., etc. Every single day. If a Shenzhen electronics factory or a Ningbo die-casting shop falls behind on price, quality, or delivery time, the overseas buyer simply routes the next PO (purchase order) elsewhere. This is brutal, real-time discipline from the entire planet.
 - Housing is almost 100 % a closed domestic market. A developer in Zhengzhou or Changsha isn’t competing with developers in Jakarta or Dallas. The only buyers are Chinese households (or speculators using Chinese savings). There is no global price arbitrage, no foreign buyer who says “this apartment is suddenly 30 % cheaper than an equivalent one in Bangkok, let’s load up 10,000 units.”
 → Result: manufacturing overcapacity gets crushed instantly (zombie factories close in months), while housing overcapacity can linger for a decade or more because no external force is clearing the inventory.

@@ -17,6 +17,7 @@ type: note
 许多流行的 JavaScript 库（如 React、Express、Lodash）是在 TypeScript 出现之前，或是未考虑 TypeScript 的情况下用纯 JavaScript 编写的。当你在 TypeScript 项目中使用这些库时，TypeScript 无法识别该库的函数所期望或返回的类型。
 
 `@types/` 包提供了这些类型定义。例如：
+
 - `@types/react` - React 的类型定义
 - `@types/node` - Node.js 的类型定义
 - `@types/express` - Express 的类型定义
@@ -24,6 +25,7 @@ type: note
 这些包维护在 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 仓库中，这是一个旨在提供高质量 TypeScript 类型定义的社区项目。
 
 **你什么时候需要它们？**
+
 - 如果一个包是用 JavaScript 编写的，且没有包含自己的类型定义。
 - 现代的包通常会包含自己的类型定义（直接捆绑在包内），这种情况下你不需要单独安装 `@types/` 包。
 

@@ -13,6 +13,7 @@ type: note
 ---
 
 ### **模板与数据绑定错误**
+
 1. **`ExpressionChangedAfterItHasBeenCheckedError`**
    - **原因**：在 Angular 变更检测周期后修改组件数据（例如在 `ngAfterViewInit` 或 `ngOnChanges` 中）
    - **修复**：使用 `ChangeDetectorRef.detectChanges()` 或确保数据变更在变更检测完成前发生
@@ -28,6 +29,7 @@ type: note
 ---
 
 ### **依赖注入错误**
+
 4. **`NullInjectorError: No provider for XService`**
    - **原因**：服务未在模块/组件中提供或存在循环依赖
    - **修复**：将服务添加到模块/组件的 `providers` 数组中
@@ -39,6 +41,7 @@ type: note
 ---
 
 ### **TypeScript 与构建错误**
+
 6. **`Type 'X' is not assignable to type 'Y'`**
    - **原因**：类型不匹配（例如向组件传递错误的数据类型）
    - **修复**：确保类型一致或使用类型断言（如属故意行为）
@@ -50,6 +53,7 @@ type: note
 ---
 
 ### **组件与模块错误**
+
 8. **`Component is not part of any NgModule`**
    - **原因**：组件未在模块中声明或模块未导入
    - **修复**：将组件添加到所属模块的 `declarations` 中或导入对应模块
@@ -61,6 +65,7 @@ type: note
 ---
 
 ### **HTTP 与 API 错误**
+
 10. **`HttpClient provider not found`**
     - **原因**：模块中缺少 `HttpClientModule` 导入
     - **修复**：在 `AppModule` 中导入 `HttpClientModule`
@@ -72,6 +77,7 @@ type: note
 ---
 
 ### **路由错误**
+
 12. **`Route not found`**
     - **原因**：路由定义错误或缺少懒加载模块
     - **修复**：检查路由路径和懒加载语法（`loadChildren: () => import(...)`）
@@ -79,6 +85,7 @@ type: note
 ---
 
 ### **表单错误**
+
 13. **`FormControl not found`**
     - **原因**：使用 `formControlName` 时未用 `[formGroup]` 包裹
     - **修复**：确保父级表单组已初始化和绑定
@@ -86,6 +93,7 @@ type: note
 ---
 
 ### **其他错误**
+
 14. **`Maximum call stack size exceeded`**
     - **原因**：递归函数或循环依赖
     - **修复**：重构代码消除递归/循环引用
@@ -101,6 +109,7 @@ type: note
 ---
 
 ### **避免错误的最佳实践**
+
 - 使用 `async` 管道自动管理可观察对象订阅
 - 启用严格 TypeScript 检查（在 `tsconfig.json` 中设置 `strict: true`）
 - 运行 `ng lint` 捕捉代码质量问题

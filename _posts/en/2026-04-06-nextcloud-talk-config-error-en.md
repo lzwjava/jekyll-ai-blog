@@ -16,6 +16,7 @@ Looking at the schema in `extensions/nextcloud-talk/src/config-schema.ts`, the t
 The keys you have (`enabled`, `baseUrl`, `botSecret`, `dmPolicy`, `allowFrom`, `rooms`, `webhookPublicUrl`, `network`) are all valid account-level keys — so they should work at the top level too since the top-level schema extends the account schema.
 
 This likely means either:
+
 1. Your config has a slightly different structure than expected (maybe an extra nesting level or typo)
 2. The schema was recently tightened and your config predates it
 

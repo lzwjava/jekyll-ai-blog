@@ -213,7 +213,7 @@ public class User {
 
 1. 启动您的 Spring Boot 应用程序。
 2. 打开浏览器并导航至：
-   **http://localhost:8080/swagger-ui.html**
+   **<http://localhost:8080/swagger-ui.html>**
    此 URL 将显示 Swagger UI，这是一个基于注解生成的 API 文档的交互式界面。
 
 ---

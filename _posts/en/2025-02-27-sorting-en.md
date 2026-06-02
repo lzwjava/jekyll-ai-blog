@@ -11,9 +11,11 @@ type: note
 Sorting is a fundamental operation in programming, and Java shines with its flexibility for implementing various sorting algorithms. Let’s explore quicksort, merge sort, and bubble sort—three popular sorting techniques with different characteristics.
 
 ## 1. Quicksort: Divide and Conquer
+
 Quicksort picks a pivot, partitions the array, and recursively sorts the subarrays. It’s efficient with an average time complexity of O(n log n).
 
 ### Java Implementation
+
 ```java
 public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
@@ -48,12 +50,15 @@ public class QuickSort {
     }
 }
 ```
+
 **Output:** `Sorted: [1, 5, 7, 8, 9, 10]`
 
 ## 2. Merge Sort: Stable Sorting
+
 Merge sort splits the array, sorts the halves, and merges them back. It’s stable and guarantees O(n log n) time.
 
 ### Java Implementation
+
 ```java
 public class MergeSort {
     public static void mergeSort(int[] arr, int l, int r) {
@@ -83,12 +88,15 @@ public class MergeSort {
     }
 }
 ```
+
 **Output:** `Sorted: [5, 6, 7, 11, 12, 13]`
 
 ## 3. Bubble Sort: Simple but Slow
+
 Bubble sort repeatedly swaps adjacent elements if they’re out of order. It’s O(n²) but easy to understand.
 
 ### Java Implementation
+
 ```java
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
@@ -111,4 +119,5 @@ public class BubbleSort {
     }
 }
 ```
+
 **Output:** `Sorted: [11, 12, 22, 25, 34, 64, 90]`

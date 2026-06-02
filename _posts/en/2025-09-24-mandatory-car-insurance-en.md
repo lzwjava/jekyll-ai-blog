@@ -13,6 +13,7 @@ type: note
 Yes, buying car insurance is essential in China—specifically, third-party liability insurance (which covers damages or injuries you cause to others) is **mandatory** under Chinese law. You can't legally drive without at least the minimum coverage, and skipping it could lead to fines, license suspension, or worse if you're in an accident. Your father's advice makes a lot of sense, especially in big cities like Beijing, Shanghai, or Guangzhou, where luxury cars (e.g., Mercedes, BMWs, or even supercars) are common, and repair/replacement costs can easily exceed 1 million RMB. Let me break this down to help you decide on the 1M, 2M, or 3M levels for property damage coverage (the bodily injury parts are usually fixed at higher minimums).
 
 ### Quick Basics of Third-Party Insurance in China
+
 - **Minimum requirements**:
   - Bodily injury: 50,000 RMB per person / 100,000 RMB per accident (often bundled higher in policies).
   - Property damage: 100,000 RMB minimum, but almost everyone buys more because it's not enough for modern cars.
@@ -21,6 +22,7 @@ Yes, buying car insurance is essential in China—specifically, third-party liab
 - **Key point**: If your claim exceeds your coverage, you'll pay the difference out of pocket. In a big city accident with an expensive car, that could bankrupt you.
 
 ### Should You Go for 1M, 2M, or 3M Coverage?
+
 Your father's suggestion of 3 million RMB for property damage is spot-on for big cities. Here's why, with a comparison:
 
 - **1 Million RMB**:
@@ -39,11 +41,14 @@ Your father's suggestion of 3 million RMB for property damage is spot-on for big
   - Best for: Big cities with heavy traffic and expensive cars, like where you are. If you're in a Tier 1 city, this is what I'd recommend as a minimum.
 
 ### My Recommendation
+
 Go for **at least 2 million, but ideally 3 million** if your budget allows—especially since you're in a big city. The extra cost is worth it to avoid financial ruin from one bad accident. For example:
+
 - If you drive a standard sedan in Shanghai and scrape a Ferrari, 3M could save you hundreds of thousands.
 - Check your risk: If you drive a lot in high-traffic areas (e.g., highways or downtown), bump it up. If it's mostly local errands, 2M might suffice.
 
 ### Other Tips
+
 - **Total cost**: Factor in your full policy. Third-party is just part—consider adding comprehensive (for your own car) if you can afford it (another 1,000–3,000 RMB/year).
 - **Discounts**: Safe driving records, no-claim history, or bundling with other insurance can lower premiums by 20–30%.
 - **Get quotes**: Use apps like "中国人保" (PICC), "平安好车主" (Ping An), or comparison sites. Input your car details for personalized pricing.

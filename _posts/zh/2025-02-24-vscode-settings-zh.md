@@ -38,6 +38,7 @@ type: note
 * `mssql.connections`：存储MSSQL数据库连接信息
 
 {% raw %}
+
 ```json
 {
       "eslint.autoFixOnSave": true,
@@ -165,4 +166,5 @@ type: note
       "tabnine.experimentalAutoImports": true,
 }
 ```
+
 {% endraw %}

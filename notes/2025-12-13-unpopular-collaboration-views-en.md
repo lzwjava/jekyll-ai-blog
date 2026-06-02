@@ -32,10 +32,10 @@ These ideas are "unpopular" because they push back against dominant corporate cu
 
 References:
 
-- https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/
-- https://stackoverflow.blog/2020/06/29/does-scrum-ruin-great-engineers-or-are-you-doing-it-wrong/
-- https://devops.com/agile-scrum-is-a-failure-heres-why/
-- https://newsletter.pragmaticengineer.com/p/project-management-in-tech
-- https://age-of-product.com/engineers-despise-agile/
-- https://dev.to/ragnarkon/a-criticism-of-scrum-21al
-- https://www.reddit.com/r/cscareerquestions/comments/1l0wg36/big_tech_engineering_culture_has_gotten/
+- <https://michaelochurch.wordpress.com/2015/06/06/why-agile-and-especially-scrum-are-terrible/>
+- <https://stackoverflow.blog/2020/06/29/does-scrum-ruin-great-engineers-or-are-you-doing-it-wrong/>
+- <https://devops.com/agile-scrum-is-a-failure-heres-why/>
+- <https://newsletter.pragmaticengineer.com/p/project-management-in-tech>
+- <https://age-of-product.com/engineers-despise-agile/>
+- <https://dev.to/ragnarkon/a-criticism-of-scrum-21al>
+- <https://www.reddit.com/r/cscareerquestions/comments/1l0wg36/big_tech_engineering_culture_has_gotten/>

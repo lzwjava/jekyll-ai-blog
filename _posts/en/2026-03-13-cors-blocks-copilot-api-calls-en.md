@@ -54,6 +54,7 @@ Server-to-server requests (e.g., via Node.js) don't face CORS restrictions. The 
 ### ✅ Use a Backend Proxy (Recommended)
 
 Build a **backend server** (Node.js, Python Flask, etc.) that:
+
 1. Receives requests from your frontend
 2. Forwards them to `api.githubcopilot.com`
 3. Returns the response to your frontend

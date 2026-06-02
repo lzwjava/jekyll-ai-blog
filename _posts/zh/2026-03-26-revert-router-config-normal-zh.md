@@ -16,14 +16,17 @@ type: note
 ## Session Summary: 将 192.168.1.42 从 Router 恢复为普通主机
 
 ### Goal
+
 在 192.168.1.42 (lzwjava-Lenovo-G490) 配置为通过 USB ethernet adapter 给 iPad 做 Router 后，将其重置回普通机器。
 
 ### Step 1: SSH Connection
+
 - 需要 `sshpass`，因为服务器 (lzw-server) 没有可以进行交互式密码输入的 ssh-askpass
 - 凭据：`lzwjava@192.168.1.42`，密码 `88888888`
 - 必须将密码通过管道传给远程端的 `sudo -S`，因为 sudo 也需要交互式身份验证
 
 ### Step 2: Discovery (检查哪些部分仍处于 "routerified" 状态)
+
 对你列出的所有配置区域运行了全面审核。结果如下：
 
 | Component | Status |
@@ -37,6 +40,7 @@ type: note
 | Netplan | 使用 `renderer: NetworkManager` — 未做更改 |
 
 ### Step 3: Reverting (我所做的操作)
+
 使用 `sudo -S` 运行了一条远程命令，执行了以下操作：
 
 1. **Disabled IP forwarding** — 注释掉了 `/etc/sysctl.conf` 中的 `net.ipv4.ip_forward=1`，并将运行时值设为 `0`
@@ -48,13 +52,17 @@ type: note
 输出显示这五项操作全部成功。
 
 ### Step 4: Machine Went Dark
+
 紧接着，机器停止了响应：
+
 - SSH 连接失败，返回 exit code 255
 - Ping 192.168.1.42 显示 100% packet loss
 - 在约 2 分钟内的多次重试均告失败
 
 ### What Likely Went Wrong
+
 **iptables flush** 可能过于激进了。TPROXY 模式下的 Clash 会通过以下规则挂载到网络栈：
+
 - `TPROXY` 规则用于拦截流量
 - `mangle` 表规则用于 packet marking
 - 可能还存在 `filter` 表的 INPUT/OUTPUT 规则
@@ -64,12 +72,14 @@ type: note
 或者，机器可能由于某些系统反应而直接重启了，目前仍处于 boot 过程中。
 
 ### What Was Definitely Fixed
+
 - IP forwarding: **off** ✅
 - dnsmasq: **stopped + disabled** ✅
 - USB LAN DHCP config: **removed** ✅
 - Clash: **killed** ✅
 
 ### What Still Needs Verification (待机器恢复后)
+
 - 主以太网接口仍能从 Router (192.168.1.1) 获取 DHCP
 - Default route 正确
 - 没有残留的 iptables 规则
@@ -77,4 +87,5 @@ type: note
 - `enx00e04c362f89` USB adapter 可以被忽略或从配置中移除
 
 ### Lesson Learned
+
 应该对 iptables 采取更精确的操作 — 只 flush `nat` 和 `mangle` 表（Clash TPROXY 规则所在处），而不是清除所有内容。虽然 `filter` 表的默认策略 (ACCEPT) 理论上没问题，但 flush 操作可能对 connection tracking 或其他 kernel networking 状态产生了副作用。

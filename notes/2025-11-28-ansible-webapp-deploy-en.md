@@ -17,6 +17,7 @@ Git checkout → pip install → gunicorn → nginx reverse proxy
 ```
 
 ### Directory structure (recommended)
+
 ```
 inventory.ini
 deploy.yml
@@ -34,6 +35,7 @@ roles/
 ```
 
 ### 1. inventory.ini
+
 ```ini
 [webservers]
 app.example.com ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/yourkey.pem
@@ -47,7 +49,9 @@ python_version=3.11
 ```
 
 ### 2. deploy.yml (main playbook)
+
 {% raw %}
+
 ```yaml
 ---
 - name: Deploy Python web application with Gunicorn + Nginx
@@ -61,10 +65,13 @@ python_version=3.11
   roles:
     - webapp
 ```
+
 {% endraw %}
 
 ### 3. roles/webapp/tasks/main.yml
+
 {% raw %}
+
 ```yaml
 ---
 - name: Install system dependencies
@@ -143,10 +150,13 @@ python_version=3.11
     state: absent
   notify: Reload nginx
 ```
+
 {% endraw %}
 
 ### 4. roles/webapp/templates/gunicorn.service.j2
+
 {% raw %}
+
 ```ini
 [Unit]
 Description=Gunicorn instance for {{ app_name }}
@@ -166,10 +176,13 @@ RestartSec=3
 [Install]
 WantedBy=multi-user.target
 ```
+
 {% endraw %}
 
 ### 5. roles/webapp/templates/nginx-site.conf.j2
+
 {% raw %}
+
 ```nginx
 server {
     listen 80;
@@ -190,10 +203,13 @@ server {
     # }
 }
 ```
+
 {% endraw %}
 
 ### 6. roles/webapp/handlers/main.yml
+
 {% raw %}
+
 ```yaml
 ---
 - name: Reload systemd
@@ -210,17 +226,21 @@ server {
     name: nginx
     state: reloaded
 ```
+
 {% endraw %}
 
 ### Run the deployment
+
 ```bash
 ansible-playbook -i inventory.ini deploy.yml
 ```
 
 ### Subsequent deployments (zero-downtime)
+
 Just run the same command again. Git pull + pip install will trigger Gunicorn restart automatically thanks to the handlers.
 
 ### Optional improvements
+
 - Add `--collect-static` for Django
 - Add SSL with Certbot (separate role)
 - Use `supervisor` instead of systemd if preferred

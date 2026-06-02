@@ -57,6 +57,7 @@ Automakers certify AEB, lane keeping, collision avoidance. Chassis wear from par
 ## Your Friend Is Right
 
 Dry steering absolutely accelerates wear on:
+
 - Ball joints → looseness, clunking
 - Tie rod ends → steering play
 - Tires → uneven shoulder wear

@@ -87,12 +87,12 @@ Yes—this is actually one of the **most important life skills**.
 
 The idea that “you cannot change your environment” is only **partially true**:
 
-### What you *can’t* easily change:
+### What you *can’t* easily change
 
 * macro system (education system, country policy)
 * other people’s thinking
 
-### What you *can* change:
+### What you *can* change
 
 * **your location** (city, country, online communities)
 * **your domain** (academia, startup, open source, etc.)

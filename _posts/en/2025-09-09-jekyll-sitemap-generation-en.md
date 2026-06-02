@@ -30,6 +30,7 @@ You have a couple of approaches:
    ```ruby
    gem 'jekyll-sitemap'
    ```
+
 2. In your `_config.yml`, add:
 
    ```yaml
@@ -48,6 +49,7 @@ If you prefer more control:
 2. Add this Liquid template:
 
 {% raw %}
+
    ```xml
    ---
    layout: nil
@@ -70,6 +72,7 @@ If you prefer more control:
      {% endfor %}
    </urlset>
    ```
+
 {% endraw %}
 3. Make sure your `_config.yml` has `url: "https://yourdomain.com"` so links generate correctly.
 

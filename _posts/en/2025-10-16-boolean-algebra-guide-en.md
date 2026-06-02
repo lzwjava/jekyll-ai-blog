@@ -16,7 +16,8 @@ This guide covers the fundamentals of Boolean algebra and the basic logic gates 
 
 Boolean algebra is a mathematical system for analyzing logical operations using binary variables. It was developed by George Boole in the 19th century and is essential for designing digital circuits.
 
-### Key Elements:
+### Key Elements
+
 - **Variables**: Represented by letters (e.g., A, B). Each can be either 0 (false) or 1 (true).
 - **Constants**: 0 (false) or 1 (true).
 - **Operations**:
@@ -42,6 +43,7 @@ These laws help simplify complex expressions, like turning A · (A + B) into A.
 Logic gates are electronic circuits that implement Boolean operations. They have inputs and one output, all binary.
 
 ### NOT Gate (Inverter)
+
 - **Symbol**: Triangle with a circle at the output.
 - **Function**: Output is the inverse of the input.
 - **Truth Table**:
@@ -55,6 +57,7 @@ Logic gates are electronic circuits that implement Boolean operations. They have
 - **Use**: Flips a signal (e.g., active-low to active-high).
 
 ### AND Gate
+
 - **Symbol**: D-shaped with flat input side.
 - **Function**: Output is 1 only if all inputs are 1.
 - **Truth Table** (for 2 inputs):
@@ -70,6 +73,7 @@ Logic gates are electronic circuits that implement Boolean operations. They have
 - **Use**: For conditions that require all factors to be true (e.g., security system: all sensors clear).
 
 ### OR Gate
+
 - **Symbol**: Curved input side.
 - **Function**: Output is 1 if any input is 1.
 - **Truth Table** (for 2 inputs):
@@ -110,11 +114,13 @@ Combinational logic circuits produce outputs based solely on current inputs—no
   - Examples: Adders, multiplexers, encoders.
 
 ### Building Circuits
+
 1. Write the Boolean expression for the desired output.
 2. Simplify using algebra or Karnaugh maps (K-maps).
 3. Implement with gates.
 
 #### Example: Half-Adder (Adds two bits)
+
 - Outputs: Sum (S) and Carry (C).
 - Expressions:
   - S = A ⊕ B = A · ¯B + ¯A · B (XOR)
@@ -133,7 +139,9 @@ Truth Table for Half-Adder:
 | 1 | 1 | 0       | 1         |
 
 #### Simplification with K-Map
+
 For expressions with 3-4 variables, use a grid to group 1s and minimize terms.
+
 - Example for Y = A · B + A · ¯B + ¯A · B (simplifies to A + B):
   - K-Map (rows: A; columns: B):
 
@@ -142,14 +150,16 @@ For expressions with 3-4 variables, use a grid to group 1s and minimize terms.
 | A=0 | 0   | 1   |
 | A=1 | 1   | 1   |
 
-  - Group the three 1s → Y = A + B.
+- Group the three 1s → Y = A + B.
 
 ## 5. Practical Tips
+
 - **Tools**: Simulate with software like Logisim or Tinkercad.
 - **Common Pitfalls**: Forgetting NOT inversions; not simplifying (leads to more gates/cost).
 - **Extensions**: Learn NAND/NOR (universal gates) for all-logic implementation; move to sequential logic (flip-flops) next.
 
 ## References
+
 - [Boolean Algebra Basics](https://en.wikipedia.org/wiki/Boolean_algebra)
 - [Logic Gates Tutorial](https://www.electronics-tutorials.ws/logic/logic_1.html)
 - [Combinational Logic Circuits](https://www.allaboutcircuits.com/textbook/digital/chpt-7/combinational-logic-functions/)

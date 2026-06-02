@@ -13,17 +13,21 @@ type: note
 Here’s why rice noodles (or rice vermicelli) need to be soaked before cooking:
 
 ### 1. **Softens the Texture**
+
 Dry rice noodles are hard and brittle. Soaking them in water softens the texture, making them chewy and tender when cooked. This also prevents them from breaking apart during cooking.
 
 ### 2. **Reduces Cooking Time**
+
 Soaked noodles cook faster and more evenly, ensuring they’re fully tender without being mushy on the outside and hard inside.
 
 ### 3. **Removes Impurities**
+
 Soaking helps rinse off excess starch or dust from the surface, making the noodles cleaner.
 
 ---
 
 #### **Tips for Soaking Rice Noodles**
+
 - **Water Temperature**: Use warm water (40–60°C or 104–140°F) to soak. Avoid boiling water, as it can make the noodles too soft or sticky.
 - **Time**: Soak for 10–20 minutes, depending on the thickness of the noodles.
 - **Water Ratio**: Use just enough water to cover the noodles. Drain well before cooking to avoid sogginess.

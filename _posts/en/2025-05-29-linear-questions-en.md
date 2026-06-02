@@ -95,6 +95,7 @@ We want to express $\alpha_3$ as a linear combination of $\alpha_1$ and $\alpha_
 $\alpha_3 = c_1 \alpha_1 + c_2 \alpha_2$
 $(-2, 1, 1)^T = c_1 (1, 1, -2)^T + c_2 (1, -2, 1)^T$
 This gives the system of equations:
+
 1) $c_1 + c_2 = -2$
 2) $c_1 - 2c_2 = 1$
 3) $-2c_1 + c_2 = 1$
@@ -147,10 +148,10 @@ The fundamental basis of solutions for the homogeneous system is $\{\begin{pmatr
 **Answer:**
 The characteristic equation is $\det(A - \lambda I) = 0$.
 $A - \lambda I = \begin{pmatrix} x-\lambda & 0 & y \\\ 0 & 2-\lambda & 0 \\\ y & 0 & -2-\lambda \end{pmatrix}$.
-$\det(A - \lambda I) = (x-\lambda)[(2-\lambda)(-2-\lambda) - 0] - 0 + y[0 - y(2-\lambda)]$
+$\det(A - \lambda I) = [x-\lambda]((2-\lambda)(-2-\lambda) - 0) - 0 + y[0 - y(2-\lambda)]$
 $= (x-\lambda)(2-\lambda)(-2-\lambda) - y^2(2-\lambda)$
-$= (2-\lambda)[(x-\lambda)(-2-\lambda) - y^2]$
-$= (2-\lambda)[-2x - x\lambda + 2\lambda + \lambda^2 - y^2] = 0$.
+$= [2-\lambda]((x-\lambda)(-2-\lambda) - y^2)$
+$= [2-\lambda](-2x - x\lambda + 2\lambda + \lambda^2 - y^2) = 0$.
 The eigenvalues are $\lambda_1 = 2$, and the roots of $\lambda^2 + (2-x)\lambda - (2x+y^2) = 0$.
 We are given that one eigenvalue is -3.
 If $2 = -3$, this is false. So, -3 must be a root of $\lambda^2 + (2-x)\lambda - (2x+y^2) = 0$.
@@ -165,6 +166,7 @@ $= -4x - 2y^2 = -12$
 Divide by -2: $2x + y^2 = 6$ (Equation 2)
 
 Now we have a system of two equations with x and y:
+
 1) $x - y^2 = -3$
 2) $2x + y^2 = 6$
 Add Equation 1 and Equation 2:
@@ -178,17 +180,17 @@ $y^2 = 4 \Rightarrow y = \pm 2$.
 So the values are $x=1$ and $y=2$, or $x=1$ and $y=-2$.
 
 Let's check the eigenvalues for both cases.
-The characteristic polynomial factors as $(2-\lambda)[\lambda^2 + (2-x)\lambda - (2x+y^2)] = 0$.
+The characteristic polynomial factors as $[2-\lambda](\lambda^2 + (2-x)\lambda - (2x+y^2)) = 0$.
 If $x=1, y=2$:
-$(2-\lambda)[\lambda^2 + (2-1)\lambda - (2(1)+2^2)] = 0$
-$(2-\lambda)[\lambda^2 + \lambda - (2+4)] = 0$
+$[2-\lambda](\lambda^2 + (2-1)\lambda - (2(1)+2^2)) = 0$
+$[2-\lambda](\lambda^2 + \lambda - (2+4)) = 0$
 $(2-\lambda)(\lambda^2 + \lambda - 6) = 0$
 $(2-\lambda)(\lambda+3)(\lambda-2) = 0$.
 The eigenvalues are $\lambda = 2, -3, 2$. This is consistent with an eigenvalue being -3.
 
 If $x=1, y=-2$:
-$(2-\lambda)[\lambda^2 + (2-1)\lambda - (2(1)+(-2)^2)] = 0$
-$(2-\lambda)[\lambda^2 + \lambda - (2+4)] = 0$
+$[2-\lambda](\lambda^2 + (2-1)\lambda - (2(1)+(-2)^2)) = 0$
+$[2-\lambda](\lambda^2 + \lambda - (2+4)) = 0$
 $(2-\lambda)(\lambda^2 + \lambda - 6) = 0$
 $(2-\lambda)(\lambda+3)(\lambda-2) = 0$.
 The eigenvalues are $\lambda = 2, -3, 2$. This is also consistent.
@@ -223,6 +225,7 @@ Since $(t+1)^2 \ge 0$, and for it not to be zero, $t \neq -1$.
 So we need $t-2 > 0$, which means $t > 2$.
 
 Combining the conditions:
+
 1) $t > 0$
 2) $t > 1$
 3) $t > 2$

@@ -17,6 +17,7 @@ Answer:
 For your PC with the **MSI MAG B760M Mortar WiFi** motherboard (MSI B760 series), follow these exact steps to enter the BIOS and enable Wake-on-LAN (WoL). The process is standard for recent MSI gaming motherboards like yours.
 
 ### Step 1: Enter the BIOS/UEFI
+
 1. Completely **power off** the computer (full shutdown, not sleep or hibernate).
 2. Press the **power button** to start the system.
 3. Immediately and **repeatedly tap the Delete (Del) key** right after pressing the power button (start tapping even before the screen lights up).
@@ -28,12 +29,14 @@ For your PC with the **MSI MAG B760M Mortar WiFi** motherboard (MSI B760 series)
    - If Windows Fast Startup is enabled, it can make the boot too fast to catch the key — use the Windows alternative method below first if needed.
 
 **Alternative method from inside Windows** (if you can boot to the OS):
+
 1. Open **Settings** → **System** → **Recovery**.
 2. Under **Advanced startup**, click **Restart now**.
 3. After reboot: **Troubleshoot** → **Advanced options** → **UEFI Firmware Settings** → **Restart**.
 4. This boots directly into BIOS.
 
 ### Step 2: Enable Wake-on-LAN in BIOS
+
 Once inside the BIOS (it may start in EZ Mode — press **F7** to switch to Advanced Mode if needed):
 
 1. Use the mouse or arrow keys to select **SETTINGS** (usually on the top/left menu).
@@ -49,7 +52,9 @@ Once inside the BIOS (it may start in EZ Mode — press **F7** to switch to Adva
 8. The system will restart into Windows.
 
 ### Additional Important Steps (After BIOS)
+
 For WoL to fully work after shutdown:
+
 - In Windows: Open **Device Manager** → **Network adapters** → right-click your Ethernet controller (likely Realtek Gaming 2.5GbE Family Controller) → **Properties** → **Power Management** tab:
   - Check **Allow this device to wake the computer**.
   - Check **Only allow a magic packet to wake the computer** (optional, but more secure).

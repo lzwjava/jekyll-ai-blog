@@ -152,6 +152,7 @@ type: note
     -javaagent:...
   </jvmArgs>
   ```
+
 * 确保`8081`端口没有被其他进程占用，如有占用请将启动和停止配置改为其他空闲端口
 * 如果集成测试崩溃或卡住，`post-integration-test`可能永远不会执行；这种情况下可添加`verify`阶段的终止回退方案（见下文）
 
@@ -162,6 +163,7 @@ type: note
 通过写入文件的PID强制终止分叉的Jetty：
 
 1. 在`run-forked`/`start`配置中添加：
+
 ```
 <pidFile>${project.build.directory}/jetty.pid</pidFile>
 ```

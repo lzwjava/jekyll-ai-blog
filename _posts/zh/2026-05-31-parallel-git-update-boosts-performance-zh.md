@@ -17,6 +17,7 @@ After  (8 workers):    4.8s for 5 repos  → 4.6x speedup
 ```
 
 对于你的 62 个仓库更新：
+
 - 顺序执行：约 4.5 分钟（每个仓库约 4.4 秒）
 - 并行 -j8：约 35 秒（62 × 4.4 秒 ÷ 8 个 worker）
 
@@ -27,6 +28,7 @@ After  (8 workers):    4.8s for 5 repos  → 4.6x speedup
 2. `~/.zsh/completions/_ww` — 为 `projects update --jobs/-j/--category/-c/--list` 添加了命令补全。
 
 用法：
+
 ```
 ww projects update              # 所有仓库，8 个 worker（默认）
 ww projects update -j16         # 更激进

@@ -13,12 +13,14 @@ type: note
 Here’s the simplest possible Ansible playbook demo you can run in under 2 minutes — from zero to “wow, it works!”
 
 ### Step 1: Create a project folder
+
 ```bash
 mkdir ~/ansible-demo
 cd ~/ansible-demo
 ```
 
 ### Step 2: Create an inventory file (inventory.ini)
+
 ```ini
 # inventory.ini
 [webservers]
@@ -31,12 +33,15 @@ ansible_ssh_private_key_file=~/.ssh/id_rsa   # only needed for real servers
 ```
 
 If you’re just testing on your own laptop, you only need this one line:
+
 ```ini
 localhost ansible_connection=local
 ```
 
 ### Step 3: Create the world’s simplest playbook (hello.yml)
+
 {% raw %}
+
 ```yaml
 # hello.yml
 ---
@@ -69,9 +74,11 @@ localhost ansible_connection=local
         state: started
         enabled: yes
 ```
+
 {% endraw %}
 
 ### Step 4: Run the playbook
+
 ```bash
 # Dry-run first (highly recommended)
 ansible-playbook hello.yml -i inventory.ini --check
@@ -81,11 +88,13 @@ ansible-playbook hello.yml -i inventory.ini
 ```
 
 If you want to be asked for the sudo password (when using become: yes):
+
 ```bash
 ansible-playbook hello.yml -i inventory.ini --ask-become-pass
 ```
 
 ### Expected output (shortened)
+
 ```
 PLAY [My first Ansible playbook] ****************************************
 
@@ -115,12 +124,14 @@ You now have nginx installed and running on every machine with a single command!
 ### Even simpler version (if you just want to try right now on localhost only)
 
 inventory.ini:
+
 ```ini
 localhost ansible_connection=local
 ```
 
 tiny.yml:
 {% raw %}
+
 ```yaml
 ---
 - name: Tiny demo
@@ -139,9 +150,11 @@ tiny.yml:
       ansible.builtin.debug:
         msg: "{{ file_content.stdout_lines }}"
 ```
+
 {% endraw %}
 
 Run:
+
 ```bash
 ansible-playbook tiny.yml
 ```

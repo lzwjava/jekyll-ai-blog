@@ -9,9 +9,11 @@ type: note
 ---
 
 ### Understanding the Error
+
 This error message typically appears on macOS when you're trying to move, copy, delete, or manipulate files/folders (e.g., emptying the Trash or dragging items), but the system encounters permission issues, locked files, or read-only restrictions. The message itself provides the core fix, but sometimes additional steps are needed if the problem persists, such as using Terminal commands, repairing disk permissions, or handling stubborn files.
 
 ### Step-by-Step Fixes
+
 Follow these in order, starting with the simplest. These assume you're on macOS (e.g., Ventura, Sonoma, or later). Make sure you're logged in as an admin user.
 
 1. **Unlock Files and Adjust Permissions (As Suggested in the Error)**:
@@ -65,6 +67,7 @@ Follow these in order, starting with the simplest. These assume you're on macOS 
 If the error persists after these steps, provide more details like your macOS version, what operation you're trying (e.g., deleting specific files), and if it's in Trash or elsewhere.
 
 ### References
+
 [Apple Support: Change permissions for files, folders, or disks on Mac](https://support.apple.com/guide/mac-help/change-permissions-for-files-folders-or-disks-mchlp1203/mac)
 [How to Fix "Operation Can't Be Completed" Error on Mac](https://www.macrumors.com/how-to/fix-operation-cant-be-completed-error-mac/)
 [Empty Trash When It Says Files Are In Use](https://apple.stackexchange.com/questions/52257/empty-trash-when-it-says-files-are-in-use)

@@ -15,6 +15,7 @@ type: note
 This PDF is a 2021 article (translated from German) by Dr. Stefan Lanka, a German biologist known for his controversial views on virology. Published on the "Wissenschaft+" platform, it's the first part of a series challenging the foundational concepts of modern virology. The piece argues that the existence of viruses as pathogenic agents has never been scientifically proven and is based on flawed assumptions, misinterpretations, and pseudoscientific methods. Lanka positions it as a "critical look at the history and methods of virology," emphasizing terrain theory (the idea that disease arises from internal imbalances rather than external pathogens) over germ theory.
 
 #### Key Arguments and Structure
+
 The document is about 50 pages long, blending historical analysis, scientific critique, and calls for reevaluation. It's divided into sections like:
 
 - **Introduction and Historical Context**: Lanka traces virology's origins to the late 19th century, criticizing early experiments (e.g., by Dmitri Ivanovsky and Martinus Beijerinck on tobacco mosaic disease) as inconclusive. He claims the "filterable agent" concept was a hasty assumption without isolation or proof of causation.
@@ -28,11 +29,13 @@ The document is about 50 pages long, blending historical analysis, scientific cr
 - **Philosophical and Methodological Flaws**: The article accuses virology of dogmatism, where contradictory evidence is ignored, and funding biases perpetuate the paradigm. Lanka advocates for biochemistry and ecology-based approaches to disease.
 
 #### Tone and Style
+
 - It's polemical and repetitive for emphasis, with diagrams, quotes from scientists, and footnotes citing studies (often reinterpreted to support his view).
 - Aimed at lay readers and skeptics, it encourages questioning authority and reading primary sources.
 - Ends with a teaser for Part 2, promising deeper dives into specific "viruses" like measles.
 
 #### Overall Message
+
 Lanka concludes that the "virus misconception" has led to misguided medicine, fear-mongering (e.g., during pandemics), and suppression of alternative health views. He urges a paradigm shift toward holistic, non-infectious explanations for illness.
 
 This is a fringe perspective, widely debunked by mainstream science, which affirms viruses' existence through genomic sequencing, epidemiological data, and vaccines' efficacy. For balance, see critiques from sources like the CDC or virology journals.

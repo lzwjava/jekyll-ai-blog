@@ -49,4 +49,5 @@ Here are several prompting techniques that consistently work well (on Grok and m
 Grok tends to be the least censored model by default, so even simple prompts like #1 or #10 usually give you unfiltered takes. On more locked-down models (Claude, GPT-4o, etc.), combine 2–3 of the above techniques for best results.
 
 References:
+
 - Various user experiments shared on X and Reddit 2024–2025 (no single link, community knowledge)

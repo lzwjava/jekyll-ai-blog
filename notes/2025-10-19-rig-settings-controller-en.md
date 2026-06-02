@@ -17,6 +17,7 @@ This Objective-C code implements the `RIGSettingWindowController` class, which m
 The class conforms to `NSTableViewDataSource` and `NSTableViewDelegate` protocols, suggesting it handles data and events for a table view inside the custom cells view. It integrates with app-wide singletons like `RIGSetting` for persistence and `RIGUtils` for UI feedback.
 
 Key responsibilities:
+
 - Load and display configurable items (e.g., menu titles, shortcut keys, regex patterns).
 - Validate and save changes.
 - Provide buttons for saving, clearing default repo settings, and resetting to defaults.

@@ -53,8 +53,8 @@ type: note
 
 References:
 
-- https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd
-- https://discuss.google.dev/t/this-request-contains-sentences-that-are-too-long-consider-splitting-up-long-sentences/130332
-- https://calvincchan.com/blog/250531-google-tts-with-chirp3-hd-in-japanese
-- https://discuss.google.dev/t/long-form-audio-does-not-work-with-chirp3-hd-voices/194335
-- https://cloud.google.com/text-to-speech/quotas
+- <https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd>
+- <https://discuss.google.dev/t/this-request-contains-sentences-that-are-too-long-consider-splitting-up-long-sentences/130332>
+- <https://calvincchan.com/blog/250531-google-tts-with-chirp3-hd-in-japanese>
+- <https://discuss.google.dev/t/long-form-audio-does-not-work-with-chirp3-hd-voices/194335>
+- <https://cloud.google.com/text-to-speech/quotas>

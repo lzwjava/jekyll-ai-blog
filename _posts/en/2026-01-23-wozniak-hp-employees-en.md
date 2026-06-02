@@ -19,6 +19,7 @@ Steve Wozniak (Woz) has spoken positively about his time at Hewlett-Packard (HP)
 Note that this refers to the original Hewlett-Packard in the 1970s, famous for its innovative and employee-friendly culture under founders Bill Hewlett and Dave Packard. The modern HP Inc. (the PC and printer business after the 2015 split from Hewlett Packard Enterprise) is a different entity from that historical HP.
 
 For current HP Inc. (as of recent data around 2024–2025):
+
 - Glassdoor ratings average around 4.0 out of 5 stars, with about 77–78% of employees recommending it to a friend.
 - Work-life balance is rated highly (around 4.1/5).
 - Great Place to Work certification shows 84% of employees consider it a great place to work (compared to 57% at typical U.S. companies), with strong marks for feeling welcome, cared for, and supported.

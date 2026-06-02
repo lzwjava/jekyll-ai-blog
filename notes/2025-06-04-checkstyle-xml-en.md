@@ -13,6 +13,7 @@ This is a Checkstyle configuration file written in XML, designed to enforce codi
 ---
 
 ### **Overview**
+
 - **Purpose**: The file defines rules for checking Java, properties, and XML files for coding standard violations, such as formatting, naming conventions, Javadoc requirements, and code structure.
 - **Structure**: The configuration is organized hierarchically using `<module>` elements, starting with a root `Checker` module, which contains other modules for specific checks or filters.
 - **Standards**: It aligns with:
@@ -29,6 +30,7 @@ This is a Checkstyle configuration file written in XML, designed to enforce codi
 ---
 
 ### **Root Module: `<module name="Checker">`**
+
 The `Checker` module is the top-level module that orchestrates all checks and filters.
 
 - **Properties**:
@@ -57,10 +59,13 @@ The `Checker` module is the top-level module that orchestrates all checks and fi
 ---
 
 ### **Submodule: `<module name="TreeWalker">`**
+
 The `TreeWalker` module processes the abstract syntax tree (AST) of Java source code to perform detailed checks. It contains a variety of submodules grouped by category.
 
 #### **Javadoc Checks**
+
 These enforce proper Javadoc comments for classes, methods, and variables:
+
 - `InvalidJavadocPosition`: Ensures Javadoc comments are placed correctly (e.g., before a class or method, not elsewhere).
 - `JavadocMethod`: Checks that methods have proper Javadoc comments, including parameters, return types, and exceptions.
 - `JavadocType`: Ensures classes, interfaces, and enums have Javadoc comments.
@@ -69,7 +74,9 @@ These enforce proper Javadoc comments for classes, methods, and variables:
 - `MissingJavadocMethod`: Flags methods missing Javadoc comments.
 
 #### **Naming Conventions**
+
 These ensure that identifiers (variables, methods, classes, etc.) follow naming conventions:
+
 - `ConstantName`: Constants (e.g., `static final`) must follow a naming pattern (typically `UPPER_CASE`).
 - `LocalFinalVariableName`: Local `final` variables must follow a naming pattern (e.g., `camelCase`).
 - `LocalVariableName`: Local variables must follow a naming pattern (e.g., `camelCase`).
@@ -81,19 +88,25 @@ These ensure that identifiers (variables, methods, classes, etc.) follow naming 
 - `TypeName`: Class/interface/enum names must follow a naming pattern (e.g., `UpperCamelCase`).
 
 #### **Import Checks**
+
 These regulate the use of `import` statements:
+
 - `AvoidStarImport`: Prohibits wildcard imports (e.g., `import java.util.*`).
 - `IllegalImport`: Blocks imports from restricted packages (defaults to `sun.*`).
 - `RedundantImport`: Flags duplicate or unnecessary imports.
 - `UnusedImports`: Detects unused imports (ignores Javadoc-related imports with `processJavadoc="false"`).
 
 #### **Size Checks**
+
 These limit the size of methods and parameters:
+
 - `MethodLength`: Ensures methods do not exceed a maximum number of lines (default typically 150).
 - `ParameterNumber`: Limits the number of parameters in a method (default typically 7).
 
 #### **Whitespace Checks**
+
 These enforce consistent use of whitespace in code:
+
 - `EmptyForIteratorPad`: Checks padding in empty `for` loop iterators (e.g., `for (int i = 0; ; i++)`).
 - `GenericWhitespace`: Ensures proper spacing around generic types (e.g., `List<String>`).
 - `MethodParamPad`: Checks spacing before method parameter lists.
@@ -106,12 +119,16 @@ These enforce consistent use of whitespace in code:
 - `WhitespaceAround`: Ensures whitespace around operators and keywords (e.g., `if (x == y)`).
 
 #### **Modifier Checks**
+
 These regulate the use of Java modifiers:
+
 - `ModifierOrder`: Ensures modifiers are in the correct order (e.g., `public static final`, per JLS).
 - `RedundantModifier`: Flags unnecessary modifiers (e.g., `final` in a `final` class).
 
 #### **Block Checks**
+
 These enforce proper use of code blocks (`{}`):
+
 - `AvoidNestedBlocks`: Prohibits unnecessary nested blocks (e.g., `{ { ... } }`).
 - `EmptyBlock`: Flags empty blocks (e.g., `{}`) unless intentional.
 - `LeftCurly`: Ensures opening braces (`{`) are placed correctly (e.g., at the end of a line).
@@ -119,7 +136,9 @@ These enforce proper use of code blocks (`{}`):
 - `RightCurly`: Ensures closing braces (`}`) are placed correctly (e.g., on a new line or same line, depending on style).
 
 #### **Coding Problem Checks**
+
 These identify common coding issues:
+
 - `EmptyStatement`: Flags empty statements (e.g., `;;`).
 - `EqualsHashCode`: Ensures that if `equals()` is overridden, `hashCode()` is also overridden.
 - `HiddenField`: Detects fields shadowed by local variables or parameters.
@@ -132,7 +151,9 @@ These identify common coding issues:
 - `SimplifyBooleanReturn`: Simplifies boolean return statements (e.g., `if (x) return true; else return false;`).
 
 #### **Class Design Checks**
+
 These enforce good class design practices:
+
 - `DesignForExtension`: Ensures non-final classes have protected or abstract methods for extensibility.
 - `FinalClass`: Flags classes with only private constructors as candidates for `final`.
 - `HideUtilityClassConstructor`: Ensures utility classes (with only static members) have private constructors.
@@ -140,18 +161,21 @@ These enforce good class design practices:
 - `VisibilityModifier`: Enforces proper visibility for fields (e.g., prefers private fields with getters/setters).
 
 #### **Miscellaneous Checks**
+
 - `ArrayTypeStyle`: Enforces consistent array declaration style (e.g., `int[]` vs. `int []`).
 - `FinalParameters`: Requires method parameters to be `final` where possible.
 - `TodoComment`: Flags `TODO` comments in code (useful for tracking incomplete work).
 - `UpperEll`: Ensures the letter `L` is used for long literals (e.g., `100L` instead of `100l`).
 
 #### **Suppression Filters (Inside TreeWalker)**
+
 - `SuppressionXpathFilter`: Allows suppression of checks using XPath expressions defined in a file (default: `checkstyle-xpath-suppressions.xml`, optional).
 - `SuppressWarningsHolder`: Supports `@SuppressWarnings("checkstyle:...")` annotations for suppressing specific checks within the AST.
 
 ---
 
 ### **Key Points**
+
 - **Configurability**: Most modules have default settings but can be customized via properties (e.g., `LineLength` can set a specific `max` length).
 - **Suppression**: The configuration supports flexible suppression of checks via external files (`checkstyle-suppressions.xml`, `checkstyle-xpath-suppressions.xml`) or annotations.
 - **Extensibility**: Additional checks can be added, and existing ones can be disabled by commenting them out or removing them.
@@ -161,6 +185,7 @@ These enforce good class design practices:
 ---
 
 ### **How It’s Used**
+
 1. **Integration**: This file is typically used with a build tool like Maven, Gradle, or an IDE plugin to run Checkstyle during the build process or in development.
 2. **Violation Reporting**: When code violates a rule (e.g., a line exceeds the maximum length), Checkstyle reports it as an error (due to `severity="error"`).
 3. **Suppression**: Developers can suppress specific violations using `@SuppressWarnings("checkstyle:<check-name>")` or by defining rules in suppression files.
@@ -169,6 +194,7 @@ These enforce good class design practices:
 ---
 
 ### **Example Violations**
+
 - **JavadocMethod**: A public method without Javadoc will trigger an error.
 - **LineLength**: A line in a `.java` file exceeding the default max (e.g., 80 characters) will be flagged.
 - **AvoidStarImport**: Using `import java.util.*` will cause an error.

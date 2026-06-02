@@ -15,7 +15,9 @@ type: note
 ---
 
 ## **1. 4070 Ti 能做什么**
+
 ### **A. 模型训练与微调**
+
 - **中小型模型（最高约200亿参数）：**
   - **大语言模型：** 对 Llama 2/3（7B/13B）、Mistral（7B）、Phi-2 或 Gemma（2B/7B）等模型进行微调或推理。
   - **视觉模型：** 训练或微调 ViT、ResNet 或 Stable Diffusion（需适当优化）。
@@ -27,17 +29,21 @@ type: note
   - 利用 **LoRA/QLoRA** 以最低显存消耗微调LLM。
 
 ### **B. 推理**
+
 - 通过 **4位/8位量化**（使用 `bitsandbytes` 或 `GGML` 等库）运行 **7B–13B LLM**（如 Llama、Mistral、Phi）。
 - 部署 **Stable Diffusion** 进行图像生成或 **Whisper** 进行语音转文本。
 
 ### **C. 研究与学习**
+
 - 实验**强化学习、GAN、Transformer 或扩散模型**。
 - 复现论文或参与开源项目。
 
 ---
 
 ## **2. 如何将GPU用于ML/DL**
+
 ### **A. 软件环境配置**
+
 - **CUDA & cuDNN：** 安装适用于你GPU的最新版本。
 - **框架：** 使用支持GPU的PyTorch或TensorFlow。
 - **工具库：**
@@ -47,25 +53,33 @@ type: note
   - `peft`（用于LoRA/QLoRA微调）
 
 ### **B. 实践工作流**
+
 #### **1. 微调大语言模型**
+
 - 使用 **QLoRA** 在你的数据集上微调7B/13B模型。
 - 示例：
+
   ```bash
   pip install -q -U bitsandbytes transformers accelerate peft
   ```
+
   随后使用类似[此脚本](https://github.com/artidoro/qlora)微调Llama或Mistral。
 
 #### **2. 运行MiniGPT-4或LLaVA**
+
 - 克隆代码库，安装依赖，并使用7B/13B LLM作为骨干模型。
 - [MiniGPT-4](https://minigpt-4.github.io/)示例：
+
   ```bash
   git clone https://github.com/Vision-CAIR/MiniGPT-4
   pip install -r requirements.txt
   ```
 
 #### **3. 训练视觉模型**
+
 - 使用PyTorch Lightning或Hugging Face `Trainer` 进行高效训练。
 - 示例：
+
   ```python
   from transformers import AutoModelForImageClassification, TrainingArguments, Trainer
   model = AutoModelForImageClassification.from_pretrained("google/vit-base-patch16-224")
@@ -73,7 +87,9 @@ type: note
   ```
 
 #### **4. 量化推理**
+
 - 通过 **4位精度** 加载模型以节省显存：
+
   ```python
   from transformers import AutoModelForCausalLM, BitsAndBytesConfig
   quantization_config = BitsAndBytesConfig(load_in_4bit=True)
@@ -96,6 +112,7 @@ type: note
 ---
 
 ## **4. GPU性能优化技巧**
+
 - **批处理大小：** 触及显存限制时减小批处理量。
 - **梯度检查点：** 训练时启用以节省内存。
 - **CPU卸载：** 使用 `model.cpu()` 或 `accelerate` 进行数据卸载。
@@ -104,6 +121,7 @@ type: note
 ---
 
 ## **5. 学习资源**
+
 - **课程：**
   - [Fast.ai](https://course.fast.ai/)（实用深度学习）
   - [Hugging Face课程](https://huggingface.co/course/)（自然语言处理）
@@ -115,6 +133,7 @@ type: note
 ---
 
 ### **你想首先聚焦哪个方向？**
+
 - 微调大语言模型？
 - 多模态模型（如MiniGPT-4）？
 - 训练定制视觉模型？

@@ -50,6 +50,7 @@ The question asks about how information **exists at the nodes** — not on the l
 This is the **biggest vulnerability of link encryption**: every intermediate node becomes a potential attack surface. An attacker who compromises any intermediate node gains full access to plaintext data.
 
 This contrasts with:
+
 - **Node encryption**: Uses a secure hardware module at each node so plaintext is never exposed in readable memory
 - **End-to-end encryption**: Data stays encrypted all the way from sender to final recipient; intermediate nodes only see ciphertext
 

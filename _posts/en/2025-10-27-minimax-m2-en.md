@@ -15,6 +15,7 @@ type: note
 MiniMax M2 is a newly released open-source large language model (LLM) from MiniMax AI, a Chinese AI company focused on foundation models for text, audio, image, and video. Launched just hours ago (as of October 27, 2025), it's a Mixture of Experts (MoE) model optimized for coding and agentic workflows—think autonomous AI agents that plan, execute tools, and handle complex tasks like full-stack development, data analysis, or multi-step research. It's not a generalist like GPT or Claude but shines in end-to-end programming and agent applications, integrating seamlessly with tools like Claude Code, Cursor, or browser/shell interpreters.
 
 Key specs:
+
 - **Parameters**: 230 billion total, but only 10 billion active (for efficiency).
 - **Context Length**: Up to 128K tokens.
 - **Deployment**: Available on Hugging Face under MIT license; supports frameworks like SGLang and vLLM for self-hosting.

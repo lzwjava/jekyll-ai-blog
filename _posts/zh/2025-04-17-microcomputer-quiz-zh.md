@@ -13,60 +13,70 @@ type: note
 ---
 
 **1. 大多数微机系统采用的主要架构模型是什么？**
+
 * 哈佛架构
 * 冯·诺依曼架构
 * RISC架构
 * CISC架构
 
 **2. 8086微处理器包含哪些内部寄存器？**
+
 * 累加器、基址、计数、数据寄存器
 * AX、BX、CX、DX寄存器
 * PC、SP、LR、FP寄存器
 * MAR、MDR、IR、PC寄存器
 
 **3. 存储器映射I/O与独立I/O有何区别？**
+
 * 存储器映射I/O与内存共享地址空间，独立I/O使用独立地址空间
 * 存储器映射I/O比独立I/O速度慢
 * 独立I/O只能与DMA配合使用
 * 存储器映射I/O需要中断，独立I/O不需要
 
 **4. 下列哪项不属于数据传输模式？**
+
 * 程序控制传输
 * 中断驱动传输
 * 直接存储器访问
 * 多线程
 
 **5. 8259A芯片的主要功能是什么？**
+
 * 定时器/计数器
 * 并行接口
 * 中断控制器
 * 串行通信
 
 **6. 8255A并行接口芯片支持多少种工作模式？**
+
 * 1种
 * 2种
 * 3种
 * 4种
 
 **7. 8086汇编语言中哪类指令用于循环和条件跳转？**
+
 * 数据传送指令
 * 算术运算指令
 * 控制流指令
 * 逻辑运算指令
 
 **8. 存储器系统中地址译码的目的是什么？**
+
 * 提高存储器速度
 * 根据地址线选择特定存储位置或设备
 * 加密存储器中的数据
 * 转换数据格式
 
 **9. 哪种总线标准较古老且早期PC架构普遍使用？**
+
 * PCI
 * USB
 * ISA
 * SPI
 
 **10. 下列哪种协议用于微机接口中的串行通信？**
+
 * SPI
 * I²C
 * SPI与I²C均可
@@ -83,60 +93,70 @@ type: note
 ### 微机与接口技术进阶测验
 
 **11. 下列哪项最准确描述直接存储器访问？**
+
 * CPU直接读写内存而不经过外设
 * 外设在不占用CPU的情况下直接与内存传输数据
 * DMA期间仅CPU能访问内存
 * DMA仅用于串行通信
 
 **12. ARM Cortex-M微控制器中NVIC（嵌套向量中断控制器）的主要功能是什么？**
+
 * 管理总线仲裁
 * 控制GPIO引脚方向
 * 处理和优先化中断请求
 * 执行模数转换
 
 **13. 微控制器与外部设备同步数据传输通常使用哪种信号？**
+
 * 复位信号
 * 时钟信号
 * 电源信号
 * 接地信号
 
 **14. 在微控制器接口设计中，运算放大器的主要用途是什么？**
+
 * 存储器扩展
 * 信号调理
 * 总线仲裁
 * 中断处理
 
 **15. 同步串行通信与异步串行通信的关键区别是什么？**
+
 * 同步通信使用共享时钟，异步通信不需要
 * 异步通信速度始终更快
 * 同步通信所需导线更少
 * 异步通信不能使用UART
 
 **16. 连接微控制器与需要实时数据采集的高速外部传感器，最适合采用哪种接口？**
+
 * UART
 * SPI
 * I²C
 * GPIO
 
 **17. 汇编语言编程中栈的功能是什么？**
+
 * 存储程序代码
 * 保存临时数据与子程序返回地址
 * 控制时钟速度
 * 译码存储器地址
 
 **18. 下列哪项属于人机接口设备？**
+
 * 8255A芯片
 * LCD触摸屏
 * 8253定时器
 * SPI总线
 
 **19. 设计微控制器与键盘接口时，通常采用哪类I/O？**
+
 * 串行I/O
 * 并行I/O
 * 模拟I/O
 * PWM输出
 
 **20. 在简单微控制器应用中，轮询方式相比中断的主要优势是什么？**
+
 * CPU开销更低
 * 实现更简单
 * 响应速度更快
@@ -148,11 +168,6 @@ type: note
 
 <div>⁂</div>
 
-[^1]: https://www.uoguelph.ca/engineering/sites/uoguelph.ca.engineering/files/public/outlines/3640_0.pdf
-[^2]: https://www.uoguelph.ca/engineering/system/files/3640_1.pdf
-[^3]: https://drive.uqu.edu.sa/_/cis_ce/files/courses/Microcomputers System Design.pdf
-[^4]: https://www.uoguelph.ca/engineering/sites/uoguelph.ca.engineering/files/public/outlines/eng3640.pdf
-[^5]: https://www.uoguelph.ca/engineering/sites/uoguelph.ca.engineering/files/public/outlines/ENGG3640_1.pdf
-[^6]: https://slideplayer.com/slide/13585404/
-[^7]: https://www.cs.vassar.edu/courses/cs325/top
-[^8]: https://books.google.com/books/about/Microcomputer_Interfacing.html?id=SsAjAAAAMAAJ
+[^1]: <https://www.uoguelph.ca/engineering/sites/uoguelph.ca.engineering/files/public/outlines/3640_0.pdf>
+[^2]: <https://www.uoguelph.ca/engineering/system/files/3640_1.pdf>
+[^5]: <https://www.uoguelph.ca/engineering/sites/uoguelph.ca.engineering/files/public/outlines/ENGG3640_1.pdf>

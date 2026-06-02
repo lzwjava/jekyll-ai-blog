@@ -21,6 +21,7 @@ ncat dir:   /Users/lzwjava/projects/nmap/ncat/
 The ncat source is at `/Users/lzwjava/projects/nmap/ncat/` — you've got the full nmap source tree with ncat included. The repo cloned cleanly via HTTPS (no auth needed for a public repo, credential manager was available as fallback).
 
 Key ncat files:
+
 - `ncat/ncat_main.c` — entry point
 - `ncat/ncat_core.c` — core connection logic
 - `ncat/ncat_ssl.c` — SSL/TLS support

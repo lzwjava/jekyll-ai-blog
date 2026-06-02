@@ -38,6 +38,7 @@ error_log("Room type: " . $roomType);
 ```
 
 Then:
+
 - Trigger the webhook again
 - Collect the logs
 - Feed logs to Claude / OpenClaw agent
@@ -46,6 +47,7 @@ Then:
 ## Stage 6 — Full Debug Session
 
 Step-through debugging with breakpoints:
+
 - For PHP: Xdebug + VS Code
 - Lets you pause execution at exact line
 - Inspect every variable in real time
@@ -58,6 +60,7 @@ Add log → Run → Collect output → AI analyzes → Hypothesis → Add more t
 ```
 
 This loop is extremely powerful because:
+
 - You get **real runtime data**, not theory
 - AI analysis improves with each iteration
 - Each cycle **narrows the problem** quickly

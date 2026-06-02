@@ -37,6 +37,7 @@ type: note
 这些工具强调了有趣且混乱的雪地机动性：结合 Snowmobile 进行团队旅行，利用 Skates/Launcher 进行单人飞行和冰建筑制作。建议在 Training Mode 中练习滑行和助推。该模式还包括其他冬季道具，如 Winterland Kar98K（冰爆效果）和 NPC 伙伴（例如 Ninja Penguin）。
 
 References:
+
 - [Liquipedia PUBG Mobile Version 4.1 Patch Notes](https://liquipedia.net/pubgmobile/Version_4.1)
 - [Carry1st PUBG Mobile 4.1 Update Overview](https://www.carry1st.com/blog/pubg-mobile-update-overview-frosty-funland)
 - [BitTopup Frosty Funland Guide](https://bittopup.com/article/PUBG-Mobile-41-Frosty-Funland-Complete-Guide-Pro-Tips)

@@ -35,6 +35,7 @@ In the context of China's internet infrastructure, particularly China Telecom (t
 | **Best For**        | Budget access, non-critical apps      | Balanced performance/cost            | Gaming, VoIP, finance, real-time apps | General worldwide traffic                           |
 
 **Key Takeaways:**
+
 - CN1 provides broad, inexpensive access but performs significantly worse than typical global internet routes for cross-border traffic due to congestion.
 - CN2 (especially GIA) often outperforms standard global routes when connecting to/from China, offering lower latency and higher reliability than many non-premium international paths — this is why premium VPS/CDN providers heavily market "CN2 GIA to China."
 - Global internet routing is more decentralized and peering-rich, but accessing China specifically remains challenging without premium routes like CN2 due to China's unique exit points and policies.

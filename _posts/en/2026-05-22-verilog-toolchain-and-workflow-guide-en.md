@@ -128,6 +128,7 @@ code .
 ```
 
 Create `counter.v`:
+
 ```verilog
 module counter(
     input clk, rst,
@@ -140,6 +141,7 @@ endmodule
 ```
 
 Create `counter_tb.v`:
+
 ```verilog
 module counter_tb;
     reg clk = 0, rst = 1;
@@ -159,6 +161,7 @@ endmodule
 ```
 
 Terminal inside VSCode:
+
 ```bash
 iverilog -o sim counter.v counter_tb.v && ./sim
 # WaveTrace extension auto-detects wave.vcd — click to open waveform

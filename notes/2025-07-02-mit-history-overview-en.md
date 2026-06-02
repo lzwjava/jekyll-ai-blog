@@ -14,7 +14,7 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
 
 ## 🏛️ **Founding and Early Years (1861–1900)**
 
-### 🔹 Origins:
+### 🔹 Origins
 
 * **Founded:** April 10, 1861, by **William Barton Rogers**, a distinguished natural scientist and educator.
 * Rogers envisioned a new kind of higher education institution, one that emphasized:
@@ -23,15 +23,15 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
   * Integration of science and engineering.
   * Service to society through innovation.
 
-### 🔹 Civil War Delay:
+### 🔹 Civil War Delay
 
 * Although chartered in 1861, classes didn’t begin until **1865** due to the American Civil War.
 
-### 🔹 First Campus:
+### 🔹 First Campus
 
 * Initially located in **Boston’s Back Bay**, MIT earned the nickname "**Boston Tech**".
 
-### 🔹 Unique Pedagogy:
+### 🔹 Unique Pedagogy
 
 * MIT emphasized the **"learning by doing"** philosophy, contrasting with classical liberal arts education.
 * One of the first U.S. institutions to embrace **laboratory-based instruction**.
@@ -40,7 +40,7 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
 
 ## 🏗️ **Growth and Maturation (1900–1940)**
 
-### 🔹 Expansion of Disciplines:
+### 🔹 Expansion of Disciplines
 
 * MIT broadened its scope beyond engineering to include:
 
@@ -49,12 +49,12 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
   * Architecture
   * Economics and political science
 
-### 🔹 New Campus:
+### 🔹 New Campus
 
 * In **1916**, MIT moved across the Charles River to **Cambridge**, Massachusetts.
 * The move was made possible by a major gift from the **George Eastman** (founder of Eastman Kodak), who donated anonymously.
 
-### 🔹 Development of Reputation:
+### 🔹 Development of Reputation
 
 * During this time, MIT started to build a national reputation for scientific excellence and rigor.
 
@@ -62,7 +62,7 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
 
 ## 🧪 **World War II and Technological Innovation (1940–1960)**
 
-### 🔹 Wartime Contributions:
+### 🔹 Wartime Contributions
 
 * MIT became **crucial to the U.S. war effort**, contributing to:
 
@@ -71,7 +71,7 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
   * Early computer research.
   * Operational research.
 
-### 🔹 Post-War Boom:
+### 🔹 Post-War Boom
 
 * After WWII, MIT experienced a huge influx of **federal research funding**, especially from:
 
@@ -79,7 +79,7 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
   * National Science Foundation (NSF)
   * NASA
 
-### 🔹 Key Inventions:
+### 🔹 Key Inventions
 
 * **Whirlwind computer** (one of the first real-time computers).
 * Advancements in **nuclear engineering**, **electronic engineering**, and **aeronautics**.
@@ -88,19 +88,19 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
 
 ## 🧠 **Cold War and the Rise of Big Science (1960–1980)**
 
-### 🔹 Lincoln Laboratory:
+### 🔹 Lincoln Laboratory
 
 * Established in **1951**, it became a major center for **defense R\&D**, especially in electronics and communications.
 
-### 🔹 Artificial Intelligence:
+### 🔹 Artificial Intelligence
 
 * MIT became a **pioneer in AI** through the **MIT AI Lab**, founded by **John McCarthy and Marvin Minsky**.
 
-### 🔹 Project MAC:
+### 🔹 Project MAC
 
 * Led to key developments in **time-sharing**, **human-computer interaction**, and ultimately inspired the creation of **Multics**, a precursor to **Unix**.
 
-### 🔹 Criticism and Student Protests:
+### 🔹 Criticism and Student Protests
 
 * During the Vietnam War, MIT faced internal controversy over military-funded research.
 * Students protested against the institute’s ties to defense industries.
@@ -109,23 +109,23 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
 
 ## 🌐 **Modern Era and Global Influence (1980–Present)**
 
-### 🔹 Biotechnology & Internet:
+### 🔹 Biotechnology & Internet
 
 * MIT played a critical role in:
 
   * **Biotechnology revolution** (e.g., work in genetic engineering, bioinformatics).
   * **Internet protocols** (e.g., TCP/IP research at MIT’s Laboratory for Computer Science).
 
-### 🔹 OpenCourseWare (OCW):
+### 🔹 OpenCourseWare (OCW)
 
 * Launched in **2001**, MIT became the **first major university to offer nearly all course materials online for free**, setting a global trend for open education.
 
-### 🔹 MIT Media Lab:
+### 🔹 MIT Media Lab
 
 * Founded in 1985 by Nicholas Negroponte.
 * Known for **interdisciplinary innovation**—from digital interfaces to wearables and affective computing.
 
-### 🔹 Entrepreneurship:
+### 🔹 Entrepreneurship
 
 * MIT alumni and faculty have launched **thousands of companies** including:
 
@@ -135,7 +135,7 @@ The **Massachusetts Institute of Technology (MIT)** is one of the world’s most
   * Akamai Technologies
 * These firms collectively generate **trillions of dollars** in revenue.
 
-### 🔹 Key Partnerships and Initiatives:
+### 🔹 Key Partnerships and Initiatives
 
 * Collaboration with Harvard (e.g., the Broad Institute for genomics).
 * The **MIT Schwarzman College of Computing**, launched in 2019, focuses on AI, ethics, and computing across disciplines.

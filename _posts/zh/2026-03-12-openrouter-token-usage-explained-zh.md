@@ -10,6 +10,7 @@ type: note
 ---
 
 ## 1. **13 trillion tokens** 这一数字是**每天还是每周**？
+
 **13 trillion tokens** 数字指的是**每周 token 使用量**，不是每天。
 
 - 在**2026 年 2 月 9 日结束的那一周**，OpenRouter 处理了大约**一周 13 trillion tokens**。citeturn0news12
@@ -21,6 +22,7 @@ type: note
 - 在**2025 年 3 月**，顶级模型的每周使用量仅为**1.24 trillion tokens**；到**2026 年 2 月**，已上升至**每周 ~13.95 trillion tokens**。citeturn0search5
 
 ### 近似每日等价值
+
 如果平台每周处理**13T tokens**：
 
 - **每日 ≈ 1.8T tokens/天**
@@ -35,6 +37,7 @@ type: note
 ---
 
 # 2. 增长时间线（简化）
+
 增长极其迅速。
 
 | Time | Weekly tokens |
@@ -54,9 +57,11 @@ type: note
 ---
 
 # 3. token 使用量为什么增长如此迅速
+
 几个结构性原因解释了这一爆发。
 
 ## 1. AI agents 取代简单聊天
+
 最大的变化是**agentic workflows**。
 
 不再是：
@@ -78,6 +83,7 @@ AI agent → search → code → call APIs → think → retry → answer
 ---
 
 ## 2. 编码用例主导
+
 编程任务现在消耗 OpenRouter 上**超过一半的所有 tokens**。citeturn0search7
 
 示例：
@@ -92,6 +98,7 @@ AI agent → search → code → call APIs → think → retry → answer
 ---
 
 ## 3. 模型价格大幅降低
+
 一些模型比 frontier models **便宜 10–20×**。citeturn0search3
 
 示例定价比较：
@@ -106,6 +113,7 @@ AI agent → search → code → call APIs → think → retry → answer
 ---
 
 ## 4. AI 开发者工具爆发
+
 OpenRouter 位于许多工具的背后：
 
 - coding IDE agents
@@ -120,9 +128,11 @@ OpenRouter 位于许多工具的背后：
 ---
 
 # 4. 预计 token 使用量（未来 2 年）
+
 没有官方预测，但我们可以基于历史增长进行估算。
 
 ## 观察到的增长
+
 从 2025 → 2026：
 
 ```
@@ -149,6 +159,7 @@ OpenRouter 位于许多工具的背后：
 | 2028 | ~120T |
 
 ### 激进情景（agent 爆发）
+
 如果 AI agents 大规模扩展：
 
 - **到 2028 年 >500T tokens/周**
@@ -156,6 +167,7 @@ OpenRouter 位于许多工具的背后：
 ---
 
 # 5. 重要视角
+
 OpenRouter 只是**一个 API gateway**，不是整个 AI 生态系统。
 
 大量量也来自：
@@ -183,7 +195,7 @@ OpenRouter 只是**一个 API gateway**，不是整个 AI 生态系统。
 
 References:
 
-- https://www.businessinsider.com/openclaw-ai-demand-token-use-surge-nvidia-pricing-jumps-2026-2
-- https://dataconomy.com/2026/02/25/chinese-ai-models-hit-61-market-share-on-openrouter
-- https://eu.36kr.com/en/p/3700980530851712
-- https://gigazine.net/gsc_news/en/20251208-empirical-100-trillion-token-study
+- <https://www.businessinsider.com/openclaw-ai-demand-token-use-surge-nvidia-pricing-jumps-2026-2>
+- <https://dataconomy.com/2026/02/25/chinese-ai-models-hit-61-market-share-on-openrouter>
+- <https://eu.36kr.com/en/p/3700980530851712>
+- <https://gigazine.net/gsc_news/en/20251208-empirical-100-trillion-token-study>

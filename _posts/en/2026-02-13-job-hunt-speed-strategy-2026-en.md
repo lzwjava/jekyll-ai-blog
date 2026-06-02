@@ -17,21 +17,26 @@ type: note
 No, applying to only **3 jobs once a month** (about 3 applications per month total) is generally **too slow** for an effective job search in 2026, especially in competitive fields like banking (DBS, SCB, HSBC, etc.) where roles can attract hundreds of applicants and hiring processes are selective. The market favors consistent volume combined with high quality — not extremely low volume.
 
 ### Recommended Strategy Overview (2026 Job Market Reality)
+
 Quality > Quantity, but you still need enough volume to create opportunities. Recent data shows:
+
 - Many job seekers need 30–200+ applications to land one offer (success rate per application often 0.1–2%).
 - Banking/finance roles tend to be more structured with fewer openings → favor **fewer but highly tailored** applications compared to tech.
 
 **General benchmarks for weekly applications** (most experts agree on this range in 2025–2026 advice):
+
 - **10–15 applications per week** → The most commonly recommended "sweet spot" for balance (≈2–3 per day, 5 days/week).
 - **If unemployed/full-time search** → Scale to 15–25 or even 20–30 per week if you can maintain tailoring.
 - **If currently employed/side search** → 5–15 per week (more sustainable, 1–3 per day max).
 - **Banking/finance specific** → Often lean toward lower end (5–10–15 per week) because roles are scarcer and require deep customization (e.g., compliance knowledge, specific regulations, or quantitative skills).
 
 **Why 3 per month is usually not enough**:
+
 - At that pace, you'd submit only ~36 applications per year — far below what's typically needed to generate interviews in competitive sectors.
 - Momentum matters: Recruiters and ATS systems favor active, recent applicants. Sporadic applying can make your profile look inactive.
 
 ### Better Practical Strategy
+
 1. **Aim for consistency over bursts**
    Apply **daily or 4–5 days/week** instead of once a month. Even 2 high-quality applications per day beats 3 random ones monthly.
 

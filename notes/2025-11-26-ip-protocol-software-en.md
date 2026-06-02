@@ -26,6 +26,7 @@ Here’s where the IP protocol actually runs:
 | Even some “smart” appliances, IoT devices, cars, etc. | Tiny embedded TCP/IP stacks (lwIP, uIP, etc.)                                      | Runs in firmware |
 
 Key points:
+
 - There is **no hardware IP chip** in normal devices that magically handles IP by itself. Even when people say “hardware routing” or “ASICs do forwarding,” the **control plane** (routing tables, ICMP, fragmentation, etc.) is still handled by software/firmware running on a CPU. The ASIC only accelerates the **data-plane forwarding** (looking up the routing table very fast) after the software has built the table.
 - On end devices (PCs, phones), the entire IP layer is pure software inside the OS kernel.
 - On routers/switches, the IP protocol suite is still software — just highly optimized and running on dedicated routing hardware.

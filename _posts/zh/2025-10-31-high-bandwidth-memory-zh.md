@@ -15,6 +15,7 @@ type: note
 高带宽内存（HBM）是一种先进的计算机内存技术，专为极高数据吞吐量和能效而设计，尤其适用于图形处理器（GPU）、人工智能（AI）加速器、高性能计算（HPC）和数据中心等要求严苛的应用场景。与DDR或GDDR等传统内存类型不同，HBM优先考虑超大带宽而非原始容量或成本，这使其成为需要快速数据访问任务（如训练大型AI模型或渲染复杂图形）的理想选择。
 
 #### 核心特性与工作原理
+
 - **3D堆叠架构**：HBM采用3D堆叠设计，将多层同步动态随机存取存储器（SDRAM）晶片垂直集成在单个芯片上。通过硅通孔（TSV）连接，相比传统2D内存布局可实现更短更宽的数据通道。
 - **高带宽**：通过超宽内存接口（每堆栈最高1024位以上）实现每秒数太字节（TB/s）的数据传输速率。例如HBM3每堆栈带宽超过1TB/s，远超GDDR6约1TB/s的总带宽。
 - **低功耗与小尺寸**：堆叠设计可降低功耗（通常比同等GDDR低20-30%）并缩小占地面积，这对AI服务器等高密度、功耗敏感系统至关重要。
@@ -40,6 +41,7 @@ type: note
 总之，在计算进入“带宽饥渴”时代的背景下，尤其是随着AI技术的兴起，HBM已成为首选内存技术——快速传输海量数据集比廉价存储更为重要。
 
 #### 参考资料
+
 - [高带宽内存 - 维基百科](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)
 - [什么是HBM（高带宽内存）？ - Simms International](https://www.simms.co.uk/tech-talk/what-is-hbm-high-bandwidth-memory/)
 - [高带宽内存（HBM） - 半导体工程](https://semiengineering.com/knowledge_centers/memory/volatile-memory/dynamic-random-access-memory/high-bandwidth-memory/)

@@ -29,6 +29,7 @@ That implies a full year of stable data, which you don't have.
 **What you SHOULD write (several honest options):**
 
 ### Option 1 — State the Run Rate with Context (Most Transparent)
+>
 > "In April 2026, lzwjava.github.io reached **75,000 page views**, putting it on a **~900K page views/year run rate** — up from a ~200K annualized run rate just two months prior."
 
 This borrows the tech convention cleanly. Run rate annualizes the revenue (or traffic) from a specific period — typically a month — to estimate the total if current conditions continue for a full year. You're using it exactly as intended.
@@ -36,6 +37,7 @@ This borrows the tech convention cleanly. Run rate annualizes the revenue (or tr
 ---
 
 ### Option 2 — Show the Growth Story (Most Compelling)
+>
 > "Monthly page views grew from **17K → 75K** in two months — a **4.4× increase** — reaching an annualized run rate of **~900K page views/year**."
 
 The growth delta (4.4×) is the real achievement. It shows momentum, not just a snapshot.
@@ -43,6 +45,7 @@ The growth delta (4.4×) is the real achievement. It shows momentum, not just a 
 ---
 
 ### Option 3 — Minimal, Just the Month + Trend (Most Conservative)
+>
 > "lzwjava.github.io reached **75,000 page views in April 2026**, compared to 17,000 two months earlier."
 
 No annualization at all — just the honest numbers. Simple, credible, no inflation risk.
@@ -66,6 +69,7 @@ For a resume, GitHub profile, or portfolio:
 > **"lzwjava.github.io: 75K page views/month (April 2026), up from 17K two months prior — ~900K annualized run rate."**
 
 This is:
+
 - **Honest** — cites the exact month and basis
 - **Achievement-showing** — the 4.4× growth speaks for itself
 - **Not bragging** — you're not claiming 900K is the annual truth, just the trajectory

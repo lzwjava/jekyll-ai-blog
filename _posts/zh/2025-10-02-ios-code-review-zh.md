@@ -15,6 +15,7 @@ type: note
 ## 🚨 **架构与设计问题**
 
 ### **1. 庞大视图控制器违规**
+
 ```objc
 // 该控制器承担过多职责：
 - 网络操作（消息发送/接收）
@@ -26,12 +27,14 @@ type: note
 ```
 
 **建议**：拆分为专用类：
+
 - `MessageService` - 网络操作
 - `MessageRepository` - 数据持久化
 - `MediaProcessor` - 媒体处理
 - `MessageViewModel` - 业务逻辑
 
 ### **2. 依赖项紧耦合**
+
 ```objc
 // 全程直接依赖 LeanCloud 框架
 @property (nonatomic, strong, readwrite) AVIMConversation *conv;
@@ -42,6 +45,7 @@ type: note
 **问题**：难以测试、替换或迁移服务。
 
 ### **3. 错误处理不当**
+
 ```objc
 - (BOOL)filterError:(NSError *)error {
     return [self alertError:error] == NO;  // 验证方法中存在副作用
@@ -58,6 +62,7 @@ type: note
 ## 🔧 **内存管理问题**
 
 ### **1. 循环引用与通知问题**
+
 ```objc
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -67,6 +72,7 @@ type: note
 ```
 
 **修复方案**：
+
 ```objc
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -80,6 +86,7 @@ type: note
 ```
 
 ### **2. 线程安全问题**
+
 ```objc
 @property (atomic, assign) BOOL isLoadingMsg;
 // atomic 无法保证复杂操作的线程安全
@@ -95,6 +102,7 @@ type: note
 ## 📱 **UI 与性能问题**
 
 ### **1. 主线程阻塞**
+
 ```objc
 - (void)cacheMsgs:(NSArray *)msgs callback:(AVBooleanResultBlock)callback {
     [self runInGlobalQueue:^{
@@ -107,6 +115,7 @@ type: note
 ```
 
 ### **2. 低效的 TableView 更新**
+
 ```objc
 - (void)insertMessage:(AVIMTypedMessage *)message {
     [self.messages addObject:xhMessage];
@@ -119,6 +128,7 @@ type: note
 ## 🗂 **代码组织问题**
 
 ### **1. 抽象层级混杂**
+
 ```objc
 // 底层文件操作与高层业务逻辑混杂
 NSData *imageData = UIImageJPEGRepresentation(image, 0.6);
@@ -130,6 +140,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **2. 过长方法**
+
 ```objc
 - (XHMessage *)getXHMessageByMsg:(AVIMTypedMessage *)msg {
     // 80+ 行方法承担多重职责
@@ -140,6 +151,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ## 🧪 **测试与可维护性**
 
 ### **1. 不可测试的设计**
+
 ```objc
 // 直接使用单例阻止了依赖注入
 [[CDChatManager manager] sendMessage:msg...]
@@ -149,6 +161,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **2. 违反 SOLID 原则**
+
 - **单一职责**：控制器承担所有功能
 - **开闭原则**：难以扩展而不修改原代码
 - **依赖倒置**：随处可见具体依赖
@@ -156,6 +169,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ## 🛠 **推荐的重构方案**
 
 ### **1. 提取服务层**
+
 ```objc
 @interface MessageDataService : NSObject
 - (void)sendMessage:(AVIMTypedMessage *)message
@@ -169,6 +183,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **2. 采用 MVVM 架构**
+
 ```objc
 @interface ChatRoomViewModel : NSObject
 @property (readonly) NSArray<MessageViewModel *> *messages;
@@ -178,6 +193,7 @@ NSString *path = [[CDChatManager manager] tmpPath];
 ```
 
 ### **3. 实现正确的数据绑定**
+
 ```objc
 // 替代手动更新 tableView
 self.viewModel.updateSignal = [RACObserve(self.viewModel, messages)

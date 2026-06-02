@@ -17,6 +17,7 @@ This is standard cloud VM emergency access tooling. Here's what each thing means
 
 **Recovery Console**
 A browser-based serial/VNC console that connects directly to the VM's virtual display output — bypassing SSH entirely. It's the equivalent of physically sitting in front of the server. Use it when:
+
 - SSH is broken (bad sshd config, firewall locked you out, wrong keys)
 - The network stack is misconfigured
 - The VM is in a boot loop or kernel panic
@@ -24,6 +25,7 @@ A browser-based serial/VNC console that connects directly to the VM's virtual di
 
 **Recovery ISO**
 Boots the droplet into a live rescue OS (minimal Linux) instead of your installed system. Your original disk is mounted as `/mnt` or similar. Use it when:
+
 - The OS itself won't boot
 - You need to `chroot` in and fix a broken system
 - Filesystem corruption that needs repair from outside
@@ -39,6 +41,7 @@ Injects a new root password via the hypervisor (cloud-init or similar), even if 
 **TL;DR for your situation:**
 
 If your AMD Dev Cloud droplet is unreachable via SSH:
+
 1. Launch Recovery Console → browser terminal, no SSH needed
 2. Fix whatever is wrong (sshd, firewall, network, etc.)
 3. Or boot Recovery ISO → mount your disk → `chroot` → repair

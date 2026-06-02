@@ -53,6 +53,7 @@ the following effects usually appear:
 
 - **Ideal chunk size** — one error family + 8–40 example locations (depending on model context window)
 - **Prompt style that helps most**:
+
   ```
   You are only allowed to change code related to [exact problem name, e.g. "javax → jakarta namespace migration"].
   Do NOT touch:
@@ -67,6 +68,7 @@ the following effects usually appear:
 
   Show BEFORE → AFTER only for lines you actually change.
   ```
+
 - After accepting a batch → **recompile the project** → feed the **new** remaining errors of **that same family** back in the next prompt (this exploits the fact that earlier fixes often reveal hidden members of the same family).
 - Use separate chat sessions / project contexts per family when the tool allows it (Cursor projects, Claude projects, Continue.dev named contexts, etc.).
 

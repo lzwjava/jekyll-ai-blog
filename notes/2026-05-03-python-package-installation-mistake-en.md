@@ -16,6 +16,7 @@ Looking back at what I did, there's one significant issue:
 Better options I should have tried in order:
 
 1. **Create a venv** — the clean standard approach:
+
    ```bash
    python3 -m venv .venv && source .venv/bin/activate
    pip install fastapi uvicorn openai pydantic python-dotenv requests sympy numpy scipy

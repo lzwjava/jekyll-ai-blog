@@ -20,7 +20,9 @@ Yes — and this is actually one of the most **underrated and high-impact** use 
 ## What AI Actually Helps With
 
 ### 1. Code Understanding at Scale
+
 Legacy codebases are often **undocumented and sprawling**. AI can:
+
 - Read thousands of lines and summarize what a module does
 - Trace dependency chains
 - Explain code written in old patterns or by developers long gone
@@ -31,7 +33,9 @@ This alone attacks the **knowledge silo** problem directly.
 ---
 
 ### 2. Migration & Refactoring Assistance
+
 AI can mechanically handle large chunks of upgrade work:
+
 - Convert deprecated API calls to new equivalents
 - Upgrade syntax (e.g., Python 2 → 3, CommonJS → ES Modules)
 - Refactor class components → React hooks
@@ -42,7 +46,9 @@ What used to take a senior dev **weeks of careful manual work** can become days 
 ---
 
 ### 3. Test Generation
+
 The biggest risk blocker for upgrades is **lack of test coverage**. AI can:
+
 - Generate unit tests for untested legacy functions
 - Write integration tests before a migration starts
 - Create regression test suites so you have a safety net
@@ -52,7 +58,9 @@ This directly solves the *"we can't upgrade because we have no tests"* deadlock.
 ---
 
 ### 4. Documentation Generation
+
 AI can auto-generate:
+
 - Inline code comments
 - README files
 - API documentation
@@ -63,6 +71,7 @@ This reduces the **knowledge transfer cost** and makes future upgrades easier to
 ---
 
 ### 5. Incremental Migration Planning
+
 AI can help plan **strangler fig** style migrations — gradually replacing old code piece by piece rather than a risky big-bang rewrite. It can identify safe boundaries, suggest module-by-module upgrade paths, and flag high-risk areas.
 
 ---
@@ -84,6 +93,7 @@ AI helps a lot — but it's not magic. Some honest caveats:
 ## The Bigger Organizational Shift
 
 AI tools lower the **individual** cost of doing upgrade work — but the **organizational** barriers (budget, prioritization, risk aversion, stakeholder approval) still exist. AI can make a 3-month migration take 3 weeks, but someone still has to:
+
 - Get it approved
 - Allocate developer time
 - Accept the risk

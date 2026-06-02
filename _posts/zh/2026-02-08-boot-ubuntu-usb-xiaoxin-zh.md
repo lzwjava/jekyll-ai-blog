@@ -55,6 +55,7 @@ type: note
    - 或者如果你想重新安装或修复，选择 **Install Ubuntu**。
 
 ### 如果仍然无法启动的常见修复方法
+
 - **USB 未列出** → 使用不同的工具（如 Ventoy、balenaEtcher 或另一台 Ubuntu 上的 Startup Disk Creator）重新制作 USB — dd 有时在某些 BIOS 上会出现极端情况下的兼容性问题。
 - **黑屏 / 卡住** → 在 boot menu 中尝试非 UEFI USB 条目（如果有，虽然很少见）。
 - **Secure Boot 错误** → 必须在 BIOS 中禁用（参考步骤 4）。

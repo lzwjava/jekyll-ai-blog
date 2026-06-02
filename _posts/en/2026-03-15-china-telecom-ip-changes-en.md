@@ -49,6 +49,7 @@ DHCP uses a "lease" concept — the IP address has a validity period. When the l
 ## Will It Change Next Week Specifically?
 
 **Maybe, but not guaranteed.** If:
+
 - Your router stays powered on and connected without interruption → IP might remain the same next week
 - There's any disconnect/reconnect event → IP will almost certainly change
 

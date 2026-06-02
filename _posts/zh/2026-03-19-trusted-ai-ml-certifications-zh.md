@@ -24,15 +24,18 @@ type: note
 这是 Google 主要的 AI/ML 工程认证。
 
 **考试详情：**
+
 - 考试包含 50–60 个多项选择题和多选题，您有 2 小时完成。
 - 考试费用为 **$200 USD**。您可以选择在线监考考试或在测试中心现场考试，通过 Webassessor 平台管理。
 - 要保持认证有效，您需要每两年重新认证。如果失败，14 天后可重考；第二次失败后，必须等待 60 天。
 
 **覆盖内容：**
+
 - 六个领域：构建低代码 AI 解决方案（13%）、跨团队协作管理数据/模型（14%）、将原型扩展为 ML 模型（18%），以及服务、自动化 ML 管道和监控 AI 系统等部分。
 - 主题包括使用 Vertex AI、TensorFlow、Kubeflow 和 AutoML 设计、训练、构建、部署和运营安全的 ML 应用。
 
 **适合人群：**
+
 - 推荐经验为行业 3 年以上，包括至少 1 年使用 Google Cloud 设计解决方案。考试不要求现场编码，但您应熟悉阅读 Python 和 SQL 代码片段。
 
 **可靠性：** 高。这是高级认证，考试测试您使用 Google Cloud 工具解决实际问题的能力——需要动手经验才能通过。
@@ -44,14 +47,17 @@ type: note
 AWS 提供分级路径，所有考试通过 **Pearson VUE**（现场测试中心或在线监考）交付：
 
 ### AWS Certified AI Practitioner（入门级）
+
 - 可在 Pearson VUE 测试中心或作为在线监考考试进行，支持多种语言，包括 English、Japanese、Korean、Chinese 等。
 - 费用：**$100 USD**。适合非技术角色或初学者。
 
 ### AWS Certified Machine Learning Engineer – Associate
+
 - 较新的中级轨道，专注于生成式 AI 管道和 ML 部署。
 - 新兴轨道，专注于生成式 AI 管道。AWS 在与电商和 IoT 用例的集成方面表现出色。
 
 ### AWS Certified Machine Learning – Specialty（高级）
+
 - 考试时长 3 小时，包含 65 个问题，费用 **$300**。可作为监考在线考试或在测试中心现场进行。
 - 这是 AWS 最难的认证之一，许多人首次尝试失败——但通过它在雇主那里具有重大分量。
 - 招聘调查一致显示，该认证与数据和工程角色薪资提升约 **20%** 相关，尤其在 AWS 为主的组织中。
@@ -65,10 +71,12 @@ AWS 提供分级路径，所有考试通过 **Pearson VUE**（现场测试中心
 Microsoft 考试通过 **Pearson VUE** 或 **Certiport**（现场或远程）交付：
 
 ### Azure AI Fundamentals (AI-900) — 入门级
+
 - 该考试为监考考试，可能包括互动组件。首次尝试后 24 小时允许重考。
 - 无需编码。适合初学者或非技术人员。
 
 ### Azure AI Engineer Associate (AI-102) — 专业级
+
 - 作为 Azure AI 工程师，您构建、管理和部署利用 Azure AI 的 AI 解决方案——参与开发所有阶段，包括构建安全的端到端 AI 解决方案，并在其他应用中集成 AI 功能。
 - 这被认为是针对 GenAI 工程师的最强云 AI 认证，重点覆盖 Azure OpenAI Service 以及企业如何在生产环境中部署 GPT 模型。最適合针对 Microsoft 技术栈企业的工程师，如 Fortune 500、金融服务和政府部门。
 - ⚠️ **注意：** 该认证和考试将于 2026 年 6 月 30 日退役。Microsoft 预计将发布更新版本。

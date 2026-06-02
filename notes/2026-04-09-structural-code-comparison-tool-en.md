@@ -20,15 +20,19 @@ ydiff is a structural comparison tool developed by Yin Wang primarily for Lisp f
 ## Key Features
 
 ### 1. Language-Aware Parsing
+
 ydiff parses programs and understands basic language constructs, avoiding nonsensical comparisons such as comparing a string "10000" with an integer 10000 even though they appear similar. It attempts to match functions with the same name before comparing functions with different names.
 
 ### 2. Format Insensitive
+
 The comparison results are not affected by differences in whitespace, line breaks, or indentation. For instance, ydiff will not produce a large diff simply because you surrounded a block of code with an if condition.
 
 ### 3. Moved Code Detection
+
 ydiff can identify refactored code—whether it has been renamed, moved, reordered, wrapped, lifted, combined, or fragmented—regardless of how deep the changes are within the program structure.
 
 ### 4. Human-Friendly Output
+
 The output is designed for human understanding, with an interactive UI that helps users navigate and understand changes efficiently. The left and right windows in the interface are always locked in their relative positions.
 
 ## Implementation Details
@@ -59,6 +63,7 @@ To build the tool:
 ### Running ydiff
 
 Example usage:
+
 ```bash
 diff-lisp demos/mk1.ss demos/mk2.ss
 ```

@@ -17,12 +17,14 @@ type: note
 在现代社会中，很少有人自然地将学习视为一场游戏，这主要是因为传统教育系统强调外部动机，例如分数、考试和未来的回报（例如工作或证书），而不是内在的乐趣。学校通常将学习安排为强制性的、高风险的、重复的任务，并伴有延迟或惩罚性的反馈，这与游戏的参与性、自愿性截然不同。此外，社会价值观通过技术优先考虑快速获取信息，而不是深入费力的学习，而且文化观念将严肃的学习视为“工作”，而将玩耍视为轻浮或分散注意力的行为。
 
 ### 很少有人把学习当作游戏的关键原因
+
 - **制度设计**：教育僵化、课程驱动，并侧重于标准化，留给自主性、实验或乐趣的空间很小。游戏依靠玩家的选择和将失败视为进步而蓬勃发展，但学校会用低分惩罚错误。
 - **动机 Mismatch**：学习通常是由外部驱动的（害怕失败、来自父母/社会的压力），导致无聊或焦虑。游戏通过即时奖励和心流状态培养内在动机。
 - **时间和资源限制**：现代生活要求效率；深度学习需要持续的努力而没有即时满足感，而游戏提供快速的多巴胺刺激。
 - **文化规范**：社会崇尚财富、影响者和即时成功，而不是学术追求，这降低了趣味性、探索性学习的感知价值。
 
 ### 将学习视为游戏与传统学习之间的区别
+
 游戏和趣味学习比传统学习更容易引发“**心流**”——一种完全沉浸、享受和最佳挑战的心理状态（Csíkszentmihályi）。以下是比较：
 
 | 方面          | 游戏/趣味学习                     | 传统学习/学习                       |
@@ -38,6 +40,7 @@ type: note
 游戏旨在通过动态调整挑战、提供明确目标和提供持续反馈来让玩家保持在“心流通道”中。学习很少能做到这一点，导致参与度较低。
 
 ### 关于这个话题的不受欢迎的观点
+
 - **游戏化往往会失败或损害学习**：肤浅的游戏化（为无聊的任务添加积分/徽章/排行榜）被批评为“裹着巧克力的西兰花”——它依赖于外部奖励，随着时间的推移可能会损害内在动机（过度合理化效应）。真正的游戏式学习需要深度整合，而不是表层叠加。
 - **强制性的“乐趣”并非乐趣**：将游戏强行纳入教育（例如，强制性教育游戏）会扼杀乐趣，类似于强制玩耍感觉像是工作。真正的心流源于自愿、自主的活动。
 - **教育不应该总是快乐的**：有人认为深度学习涉及游戏所避免的必要的挣扎、无聊或不适；将一切都视为游戏会简化复杂的主题，并可能降低长期记忆或批判性思维能力。
@@ -48,10 +51,10 @@ type: note
 
 参考文献：
 
-- https://www.bera.ac.uk/blog/the-thin-line-between-gaming-and-learning
-- https://bedrocklearning.org/literacy-blogs/the-pros-and-cons-of-game-based-learning/
-- https://link.springer.com/chapter/10.1007/978-3-319-51645-5_22
-- https://www.reddit.com/r/gamedev/comments/v984bp/why_hasnt_play_to_learn_educational_games_serious/
-- https://news.stanford.edu/stories/2013/03/games-education-tool-030113
-- https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01682/full
-- https://hechingerreport.org/is-making-a-game-out-of-learning-bad-for-learning/
+- <https://www.bera.ac.uk/blog/the-thin-line-between-gaming-and-learning>
+- <https://bedrocklearning.org/literacy-blogs/the-pros-and-cons-of-game-based-learning/>
+- <https://link.springer.com/chapter/10.1007/978-3-319-51645-5_22>
+- <https://www.reddit.com/r/gamedev/comments/v984bp/why_hasnt_play_to_learn_educational_games_serious/>
+- <https://news.stanford.edu/stories/2013/03/games-education-tool-030113>
+- <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01682/full>
+- <https://hechingerreport.org/is-making-a-game-out-of-learning-bad-for-learning/>

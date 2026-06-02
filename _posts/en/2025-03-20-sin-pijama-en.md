@@ -14,7 +14,7 @@ Below, I’ll explain the chorus of *"Sin Pijama"* by Becky G and Natti Natasha,
 
 ### Lyrics Explanation (Chorus of "Sin Pijama" by Becky G & Natti Natasha)
 
-#### Line-by-Line Breakdown:
+#### Line-by-Line Breakdown
 
 - **"Si tú me llamas"** — "If you call me"
   - *Si*: "If" — /si/
@@ -40,7 +40,8 @@ Below, I’ll explain the chorus of *"Sin Pijama"* by Becky G and Natti Natasha,
   - *Sin*: "Without" — /sin/
   - *pijama*: "Pajamas" — /pi-ja-ma/ (repeated for emphasis)
 
-#### Overall Meaning:
+#### Overall Meaning
+
 The chorus translates to: "If you call me, we go to your house, we stay in the bed, without pajamas, without pajamas." It paints a picture of a spontaneous, intimate encounter. The phrase "sin pijama" (without pajamas) adds a playful and flirtatious tone, implying a carefree, sensual vibe where formalities (like wearing pajamas) are skipped in favor of closeness and enjoyment.
 
 ---

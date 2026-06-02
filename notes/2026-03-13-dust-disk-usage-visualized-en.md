@@ -24,17 +24,20 @@ brew install dust
 ```
 
 On Linux:
+
 ```bash
 cargo install du-dust    # If you have Rust/Cargo
 sudo apt install dust    # Debian/Ubuntu (some distros)
 ```
 
 On macOS with MacPorts:
+
 ```bash
 sudo port install dust
 ```
 
 Verify installation:
+
 ```bash
 dust --version
 ```
@@ -44,21 +47,25 @@ dust --version
 ## Basic Usage
 
 **Scan current directory:**
+
 ```bash
 dust
 ```
 
 **Scan a specific folder:**
+
 ```bash
 dust ~/Downloads
 ```
 
 **Scan home directory:**
+
 ```bash
 dust ~
 ```
 
 **Scan entire system (requires sudo):**
+
 ```bash
 sudo dust /
 ```
@@ -79,11 +86,13 @@ When you run `dust`, you'll see something like:
 ```
 
 **What each column means:**
+
 - **First number** = Size of the folder
 - **Bar graph** = Visual representation (colored, proportional)
 - **Folder name** = The directory name
 
 **By default, dust:**
+
 - Sorts by size (largest first)
 - Shows only the top-level items
 - Uses colors for better readability
@@ -229,11 +238,13 @@ Excludes dotfiles and hidden folders (faster scan).
 ### 10. **Custom Unit Display**
 
 Show sizes in megabytes:
+
 ```bash
 dust -m ~/Downloads
 ```
 
 Or gigabytes:
+
 ```bash
 dust -g ~
 ```
@@ -249,6 +260,7 @@ sudo dust -d 2 ~/Library | head -20
 ```
 
 Look for:
+
 - `Caches` — Safe to delete
 - `Logs` — Safe to delete (usually)
 - `Application Support` — Check before deleting
@@ -368,6 +380,7 @@ Filters output to show only items in gigabytes (aka "large").
 | **Best for** | Scripts/piping | Quick overview | Exploring & cleaning |
 
 **When to use each:**
+
 - **`dust`** — You want a quick, pretty summary: `dust ~/Downloads`
 - **`du`** — You're scripting or need raw data: `du -sh */ | sort -hr`
 - **`ncdu`** — You need to interactively explore and delete: `ncdu ~`
@@ -388,6 +401,7 @@ alias dustlibs='sudo dust ~/Library -d 2'
 ```
 
 Then just:
+
 ```bash
 dustdown
 ```
@@ -439,6 +453,7 @@ The `-A` flag combines small items into "Other" for cleaner output.
 ### Use with grep to Filter
 
 Show only items with "GiB" (large items):
+
 ```bash
 dust ~ | grep GiB
 ```
@@ -466,22 +481,27 @@ dust ~ -d 5 | grep -E '\.iso|\.dmg|\.zip'
 ## Troubleshooting
 
 **dust takes too long?**
+
 ```bash
 dust -z -X 'node_modules|\.git' ~
 ```
+
 Skip hidden files and large dependency folders.
 
 **Want to exclude multiple patterns?**
+
 ```bash
 dust -X 'node_modules|\.git|\.cache|__pycache__' ~
 ```
 
 **Permission denied?**
+
 ```bash
 sudo dust /
 ```
 
 **Want plain text output (no colors)?**
+
 ```bash
 dust -C ~ > results.txt
 ```
@@ -509,6 +529,7 @@ dust -C ~ > output.txt         # Export without colors
 ## Summary
 
 `dust` is perfect for:
+
 - ✅ Quick disk usage overview
 - ✅ Finding space hogs fast
 - ✅ Pretty, colored output

@@ -11,9 +11,11 @@ type: note
 ---
 
 ### 概述
+
 nanoGPT 和 nanochat 均为 Andrej Karpathy 创建的开源项目，旨在降低大语言模型（LLM）训练门槛并兼具教育意义。nanoGPT（2023年发布）专注于从零开始训练 GPT 风格模型的基础原理，而 nanochat（2025年10月发布）则在其基础上构建了更全面的"全栈"流程，用于创建类 ChatGPT 聊天机器人。两者的核心差异在于项目范围、训练阶段、代码库复杂度及端到端可用性——nanochat 本质上将 nanoGPT 演进为适用于对话式 AI 的完整生产级系统。
 
 ### 训练代码核心差异
+
 nanochat 的训练代码在继承 nanoGPT 方法的基础上进行了扩展和优化，并针对聊天应用整合了额外阶段与增强功能。具体对比如下：
 
 | 维度                  | nanoGPT                                                                 | nanochat                                                                 |
@@ -28,12 +30,14 @@ nanochat 的训练代码在继承 nanoGPT 方法的基础上进行了扩展和�
 | **教育目标**          | 构建语言模型的"核心大脑"。适合初学者探索架构调整。 | 构建完整 ChatGPT 复刻版（从大脑到交互界面）。作为 LLM101n 等进阶课程的结业项目，兼具潜在研究基准价值。 |
 
 ### 使用场景选择
+
 - **选择 nanoGPT**：如果您是 LLM 初学者，希望通过轻量级项目入门预训练（如调整架构或数据集）。该方案简洁但仅支持非对话模型。
 - **选择 nanochat**：用于端到端聊天机器人开发。在对话任务上表现优于 nanoGPT（部分 RLHF 测试提升 58%），且包含从数据到可运行界面的完整工具链。
 
 两者均强调可 hack 性——例如 nanochat 支持轻松调整模型规模（修改深度参数）或个性化定制（通过合成数据注入特征）。nanochat 甚至赋予模型自我认知能力（如知晓自身规模与局限性）。
 
 实践探索推荐：
+
 - [nanoGitHub 仓库](https://github.com/karpathy/nanoGPT)
 - [nanochat GitHub 仓库](https://github.com/karpathy/nanochat)
 

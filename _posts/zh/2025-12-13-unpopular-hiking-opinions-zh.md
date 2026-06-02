@@ -34,10 +34,10 @@ type: note
 
 参考文献：
 
-- https://www.reddit.com/r/unpopularopinion/comments/owwmb7/hiking_is_not_fun_enjoyable_relaxing_or_remotely/
-- https://www.reddit.com/r/hiking/comments/1awg0d4/whats_your_controversial_opinion_on_hiking/
-- https://www.reddit.com/r/TrueUnpopularOpinion/comments/1pepacr/most_people_falsely_claim_they_like_hiking/
-- https://www.reddit.com/r/hiking/comments/y0sloc/what_are_your_unpopular_hiking_opinions/
-- https://www.reddit.com/r/unpopularopinion/comments/12xtwjp/hiking_is_stupid_and_a_waste_of_time/
-- https://www.reddit.com/r/unpopularopinion/comments/14jiowo/hiking_is_not_enjoyable_and_people_just_pretend/
-- https://mountain-hiking.com/eleven-hiking-opinions/
+- <https://www.reddit.com/r/unpopularopinion/comments/owwmb7/hiking_is_not_fun_enjoyable_relaxing_or_remotely/>
+- <https://www.reddit.com/r/hiking/comments/1awg0d4/whats_your_controversial_opinion_on_hiking/>
+- <https://www.reddit.com/r/TrueUnpopularOpinion/comments/1pepacr/most_people_falsely_claim_they_like_hiking/>
+- <https://www.reddit.com/r/hiking/comments/y0sloc/what_are_your_unpopular_hiking_opinions/>
+- <https://www.reddit.com/r/unpopularopinion/comments/12xtwjp/hiking_is_stupid_and_a_waste_of_time/>
+- <https://www.reddit.com/r/unpopularopinion/comments/14jiowo/hiking_is_not_enjoyable_and_people_just_pretend/>
+- <https://mountain-hiking.com/eleven-hiking-opinions/>

@@ -27,6 +27,7 @@ For your 10k-100k records (1-2 tables), prioritize lightweight, local-first opti
 | **Datascript**     | In-Memory Datalog    | Excellent: Serializes to EDN (text) files for diffs. | Easy: Clojure/JS lib. | Query-focused; small footprint. | Query/update → write EDN snapshot → commit. Great for relational-ish data. |
 
 #### Pros/Cons and Recommendations
+
 - **MongoDB**: Great if your data is document-oriented (e.g., nested JSON records). For local use, MongoDB Embedded (via Realm SDK) avoids a full server. Export strategy makes it git-compatible—far better than binary dumps. Downside: Overkill for 1-2 tables; setup takes ~10-15 min. Use if you need aggregation queries. Rec: Yes, if JSON-like structure; otherwise skip for simpler.
 
 - **Redis**: Super fast for caching/simple key-value, but less ideal for persistent "tables" without extras. Local install is trivial, and JSON dumps via tools like redis-dump or RIOT keep it text-based for git. For your scale, it's fine but volatile (in-memory by default). Rec: Only if speed is key and data is key-value; pair with periodic JSON sync script (e.g., Python: `import redis; r.dump_to_json()`).
@@ -40,6 +41,7 @@ For your 10k-100k records (1-2 tables), prioritize lightweight, local-first opti
 **Top Pick**: Start with **LowDB**—it's basically "JSON as a DB" with adapters for file storage, queries, and easy diffs. No server, tiny (one file), and scales to your size. If you need offline sync or relations, go PouchDB. For Redis/MongoDB, prototype the dump script first to test git flow.
 
 Example LowDB setup (Node.js):
+
 ```js
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');

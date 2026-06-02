@@ -20,6 +20,7 @@ Certainly! Here’s an introductory overview of *《告台湾同胞书》* (*Mes
 The *Message to Compatriots in Taiwan* was a landmark document issued by the **Standing Committee of the National People’s Congress (NPC) of the People’s Republic of China (PRC)** on **January 1, 1979**. It marked a significant shift in China’s policy toward Taiwan, following the normalization of Sino-U.S. relations in 1978 and the severing of official diplomatic ties between the U.S. and Taiwan.
 
 **Key Points:**
+
 1. **Peaceful Reunification Proposal:**
    The document called for an end to the military confrontation across the Taiwan Strait and proposed peaceful reunification under the **"One Country, Two Systems"** principle. This was the first time the PRC explicitly offered peaceful talks as the preferred path to resolve cross-strait issues.
 
@@ -33,6 +34,7 @@ The *Message to Compatriots in Taiwan* was a landmark document issued by the **S
    The message emphasized shared history, culture, and kinship between people on both sides of the Strait, urging Taiwanese to support reunification and oppose foreign interference.
 
 **Significance:**
+
 - The document laid the foundation for future cross-strait dialogue and cooperation.
 - It reflected China’s strategic shift from military confrontation to peaceful engagement with Taiwan.
 - It set the stage for later policies, such as Deng Xiaoping’s **"One Country, Two Systems"** framework, which was formally applied to Hong Kong and Macau.

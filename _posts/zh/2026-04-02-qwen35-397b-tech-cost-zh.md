@@ -28,6 +28,7 @@ type: note
 ### **2. 训练细节**
 
 虽然 Alibaba 未披露具体数据集，但训练涉及多项先进技术：
+
 * **Data Scale:** 万亿级多模态 tokens，涵盖文本、图像和视频。
 * **Multi-Token Prediction (MTP):** 使用多步预测训练，以提升长时程推理和规划能力。
 * **Early Fusion:** 统一的 multimodal 主干网络，从一开始就在同一潜在空间处理视觉和语言 tokens。
@@ -39,10 +40,11 @@ type: note
 
 * **Card Requirements:** 由于总参数量达 397B，即使使用 4-bit quantization（约 200GB+ VRAM），推理通常需要多 GPU 配置（例如 **8x H100 80GB** 或 **4x B200**）。训练此类模型需要数千个互联 GPU。
 * **API Costs (per 1M tokens):** * **Input:** ~$0.39 - $0.60
-    * **Output:** ~$2.34 - $3.60
+  * **Output:** ~$2.34 - $3.60
 * **Estimated Compute Cost/Hour:** 租用 8x H100 节点（可高吞吐量服务该模型），2026 年的市场价格约为 **$20 - $35 每小时**，视提供商而定（例如 Together AI、Lambda 或 Alibaba Cloud）。
 
 **参考资料：**
+
 * [Qwen3.5-397B-A17B Model Card on NVIDIA NIM](https://build.nvidia.com/qwen/qwen3.5-397b-a17b/modelcard)
 * [Qwen/Qwen3.5-397B-A17B on Hugging Face](https://huggingface.co/Qwen/Qwen3.5-397B-A17B)
 * [Artificial Analysis: Qwen3.5-397B-A17B Performance & Specs](https://artificialanalysis.ai/articles/qwen3-5-397b-a17b-everything-you-need-to-know)

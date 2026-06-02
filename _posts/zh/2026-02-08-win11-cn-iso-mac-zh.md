@@ -17,7 +17,7 @@ Answer:
 你可以直接在 Mac 的浏览器上从 Microsoft 官方网站下载官方的 Windows 11 **家庭版（仅限中国）** ISO。以下是详细步骤：
 
 1. 在 Mac 上打开 Safari（或任何浏览器）并访问：
-   https://www.microsoft.com/zh-cn/software-download/windows11
+   <https://www.microsoft.com/zh-cn/software-download/windows11>
 
 2. 向下滚动到 **“下载适用于 x64 设备的 Windows 11 磁盘映像 (ISO)”** 部分。
 

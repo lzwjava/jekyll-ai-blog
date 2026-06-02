@@ -83,6 +83,7 @@ type: note
    应坚持使用直接执行或 `&` 运算符。
 
 ### 示例脚本
+
 以下是在当前终端中运行 `mvn` 和 WebSphere 命令的 PowerShell 示例脚本：
 
 ```powershell
@@ -101,6 +102,7 @@ Write-Output "正在启动 WebSphere 服务器..."
 ```
 
 ### 注意事项
+
 - 确保命令行工具（`mvn`、`startServer.bat` 等）位于 PATH 中，或提供可执行文件的完整路径
 - 若命令需要特定工作目录，请先使用 `Set-Location`（或 `cd`）切换目录：
 

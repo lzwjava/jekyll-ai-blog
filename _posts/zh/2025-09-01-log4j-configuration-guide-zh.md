@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Log4j 配置概述
+
 Log4j 是一款流行的 Java 日志框架，可用于控制日志输出级别和目的地。对于 2.x 版本（推荐），配置通常定义在 XML、JSON、YAML 或 Properties 文件中（例如 `log4j2.xml`）。配置包含以下要素：
 
 - **日志记录器**：定义特定类或包需要记录的日志级别（如 DEBUG、INFO、WARN、ERROR）
@@ -22,7 +23,9 @@ Log4j 是一款流行的 Java 日志框架，可用于控制日志输出级别�
 如果仍在使用 Log4j 1.x，建议升级到 2.x 版本——它速度更快且功能更完善。下文将提供包含示例 XML 配置的详细指南。
 
 ### 文件与控制台日志记录器配置步骤
+
 1. **添加依赖**：确保在 pom.xml（Maven）或 build.gradle（Gradle）中包含 Log4j 2.x。Maven 示例：
+
    ```
    <dependency>
        <groupId>org.apache.logging.log4j</groupId>
@@ -45,6 +48,7 @@ Log4j 是一款流行的 Java 日志框架，可用于控制日志输出级别�
 4. **配置日志记录器**：设置日志级别（如 INFO）并分配附加器。根记录器处理全局日志记录
 
 5. **代码中使用**：在 Java 类中按如下方式获取记录器：
+
    ```java
    import org.apache.logging.log4j.LogManager;
    import org.apache.logging.log4j.Logger;
@@ -56,6 +60,7 @@ Log4j 是一款流行的 Java 日志框架，可用于控制日志输出级别�
    ```
 
 ### 示例配置（log4j2.xml）
+
 以下是控制台和轮转文件日志记录的完整 XML 配置。它将 INFO 及以上级别日志输出到控制台，所有级别日志输出到按日或按 10MB 轮转的文件。
 
 ```xml

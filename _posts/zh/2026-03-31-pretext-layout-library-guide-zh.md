@@ -19,12 +19,12 @@ Answer: **Pretext** 是由 Cheng Lou（React 核心贡献者及 ReasonML 创始�
 
 Pretext 将工作分为“高开销”的设置阶段和“极速”的执行阶段：
 
-1.  **`prepare()` (Measurement 阶段):**
+1. **`prepare()` (Measurement 阶段):**
     * **Segmentation:** 使用 `Intl.Segmenter` 将文本拆分为单词、Emojis 和特定的换行点（如 soft hyphens）。
     * **Measurement:** 使用 `canvas.measureText()` 代替 DOM。该接口直接与浏览器的 font engine 通信，而不会触发页面 reflow。
     * **Caching:** 这些分段的宽度被缓存到一个 Map 中（`Map<font, Map<segment, metrics>>`）。这是一次性开销（处理大批量文本大约需要 17-19ms）。
 
-2.  **`layout()` (Hot Path):**
+2. **`layout()` (Hot Path):**
     * **Pure Arithmetic:** 一旦分段测量完成，计算文本在何处换行就变成了一个简单的数学问题：累加缓存的宽度，直到达到 `maxWidth`。
     * **Performance:** 由于在此阶段避免了所有 DOM 和 Canvas 调用，它的速度极快——在 500 条文本的批量测试中约为 **0.10ms**（比传统方法快约 200 倍）。
 

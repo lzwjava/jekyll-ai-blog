@@ -10,7 +10,8 @@ type: note
 
 `maven-shade-plugin` 是一款用于创建「超级JAR包」（即包含项目编译代码及其依赖项的独立JAR文件）的 Maven 插件。该插件在 Java 项目中广泛使用，通过将应用程序及其所有依赖库打包成单一可执行 JAR 文件，从而简化分发和部署流程。
 
-### 核心特性：
+### 核心特性
+
 - **Group ID**：`org.apache.maven.plugins`（表明这是 Apache 官方维护的 Maven 插件）
 - **Artifact ID**：`maven-shade-plugin`（插件具体名称）
 - **核心功能**：
@@ -25,6 +26,7 @@ type: note
   - 在 `pom.xml` 文件的 `<plugins>` 节点中配置
   - 在构建过程中（通常在 `package` 阶段）合并类文件与资源，可选执行包重定位，最终生成目标 JAR
 - **配置示例**：
+
   ```xml
   <plugin>
       <groupId>org.apache.maven.plugins</groupId>
@@ -47,6 +49,7 @@ type: note
       </executions>
   </plugin>
   ```
+
   此示例通过配置主类生成可执行 JAR，并在 `package` 阶段触发插件执行
 
 - **核心能力**：
@@ -55,7 +58,8 @@ type: note
   - **资源处理**：合并或转换资源文件
   - **可执行化**：添加清单配置使 JAR 支持 `java -jar` 直接运行
 
-### 适用时机：
+### 适用时机
+
 - 需要单一 JAR 文件简化分发流程时
 - 遇到依赖冲突（例如相同库的不同版本）时
 - 向外部依赖管理困难的环境部署应用时

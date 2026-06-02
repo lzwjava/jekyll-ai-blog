@@ -11,6 +11,7 @@ type: note
 I'll show you how to use the `moment` and `moment-timezone` libraries in JavaScript. These are popular libraries for handling dates and times.
 
 1. First, install the packages if you haven't already:
+
 ```bash
 npm install moment moment-timezone
 ```
@@ -52,6 +53,7 @@ console.log(timezones); // Array of timezone names
 ```
 
 Common formatting options:
+
 - `YYYY`: 4-digit year (2025)
 - `MM`: 2-digit month (03)
 - `DD`: 2-digit day (03)
@@ -62,6 +64,7 @@ Common formatting options:
 - `z`: timezone abbreviation
 
 Useful methods:
+
 ```javascript
 // Date manipulation
 moment().add(7, 'days');     // Add time
@@ -80,5 +83,6 @@ momentTimezone.tz.guess(); // Guess user's timezone
 ```
 
 Notes:
+
 1. These versions (^2.14.1 and ^0.5.7) are quite old (from around 2016). Consider using the latest versions unless you have specific compatibility requirements.
 2. Moment.js is now considered a legacy project in maintenance mode. For new projects, you might want to consider alternatives like `date-fns` or `luxon`.

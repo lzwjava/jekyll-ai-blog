@@ -20,6 +20,7 @@ Not exactly — the relationship is more nuanced than a simple name translation.
 **Futu Holdings Limited (富途控股)** is the parent company, listed on NASDAQ under the ticker `FUTU`. It is a Chinese-founded fintech holding company that operates digitized brokerage and wealth management platforms.
 
 Futu runs **two separate trading platforms**:
+
 - **Futubull (富途牛牛)** — the platform primarily used in Hong Kong and mainland China.
 - **moomoo** — the **international brand** launched in 2018, specifically designed for overseas markets (US, Singapore, Australia, Japan, Canada, Malaysia, etc.).
 

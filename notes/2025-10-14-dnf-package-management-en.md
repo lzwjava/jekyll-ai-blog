@@ -17,6 +17,7 @@ DNF (Dandified YUM) is the primary package management tool in Red Hat Enterprise
 DNF's purpose is to simplify software lifecycle management while maintaining system stability. It allows administrators and users to work with traditional RPM packages alongside modern modular formats, where components like languages or databases can have multiple parallel versions (called "streams") without disrupting the base OS.
 
 #### Key Features
+
 - **Modular Content Support**: Manages modules (groups of related RPMs), streams (version-specific repositories), and profiles (pre-configured package sets for specific use cases, e.g., web server or development environment).
 - **Repository Handling**: Enables searching, enabling/disabling repos, and configuring sources like BaseOS, AppStream, and supplementary ones.
 - **Installation and Updates**: Automatically resolves dependencies when installing packages, groups, or entire modules; supports checking for updates, upgrading specific packages, or the whole system.

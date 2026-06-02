@@ -69,6 +69,7 @@ Whisper large-v3 on a single A100 80GB does ~200x realtime.
 MI300X has ~2× the memory bandwidth of A100.
 
 Rough estimate:
+
 - **Whisper large-v3: ~300-400x realtime per GPU**
 - With batching across 8 GPUs: **~2000-3000x realtime**
 
@@ -80,19 +81,22 @@ A podcast archive of 10,000 hours → done in ~3-5 hours, cost ~$50.
 
 ## What Can You Do With 100 RMB/hr?
 
-### In 1 hour ($15.92):
+### In 1 hour ($15.92)
+
 - Fine-tune Llama 8B on your custom dataset (several epochs)
 - Run 10,000+ inference calls on 70B model
 - Transcribe ~50,000 hours of audio with Whisper
 - Train nanoGPT-scale model from scratch, multiple runs
 - Run full DeepSeek R1 671B for ~1hr of heavy reasoning tasks
 
-### In 10 hours ($160, ~1000 RMB):
+### In 10 hours ($160, ~1000 RMB)
+
 - Full fine-tune Llama 70B on domain data (e.g., financial/legal corpus)
 - Train a 1B parameter model from scratch on custom data
 - Process an entire company's document archive through an LLM pipeline
 
-### In 100 hours ($1,600):
+### In 100 hours ($1,600)
+
 - Replicate most published LoRA/QLoRA research papers
 - Build a production-grade specialized model (medical, legal, code)
 
@@ -103,17 +107,21 @@ A podcast archive of 10,000 hours → done in ~3-5 hours, cost ~$50.
 This is the most interesting question. Let me think through it like Karpathy would.
 
 ### Phase 1: Democratized Inference
+
 Right now, GPT-4 quality reasoning is gated behind API costs and rate limits. If everyone has 1.5TB VRAM:
+
 - **Every developer runs frontier models locally**
 - No data leaves your machine — privacy-preserving AI by default
 - API companies lose moat unless they have better models
 
 ### Phase 2: Personalized Model Training
+
 - Your model, trained on **your** data, your writing, your codebase
 - Not fine-tuned for 30 min on 4-bit LoRA — **actually trained**, full weights
 - Zhiwei's model trained on your 8,000 notes + 400 blog posts = a model that thinks like you
 
 ### Phase 3: Abundance Collapses Certain Markets
+
 ```
 Current bottleneck: compute scarcity → API pricing → gatekeeping
 
@@ -126,11 +134,13 @@ If compute is abundant:
 ```
 
 ### Phase 4: The Karpathy Vision
+
 When everyone has H200×8 or MI300X×8:
 
 > "The model is not the product. The data and the feedback loop are the product."
 
 The constraint shifts from **compute** to **data quality** and **evaluation**. Whoever has the best:
+
 - Domain-specific data
 - RLHF/GRPO feedback pipelines
 - Eval harnesses

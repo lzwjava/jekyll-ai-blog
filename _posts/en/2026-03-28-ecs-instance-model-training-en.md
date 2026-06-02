@@ -45,22 +45,27 @@ The gn8 bare metal family is designed specifically for AI model training and ult
 Follow this decision process:
 
 ### Step 1 — Decide your GPU count need
+
 - **1 vGPU / small experiments** → `ecs.vgn7i-[size].xlarge` (4 vCPU)
 - **1 full GPU / medium training** → `ecs.gn7i-c8g1.2xlarge`
 - **Multi-GPU / large training** → `ecs.gn7-c13g1.13xlarge` or bare metal `ecs.ebmgn8`
 
 ### Step 2 — Match vCPU and memory to your data pipeline
+
 The instance size (xlarge, 2xlarge, etc.) controls vCPU and RAM, not just GPU count. More vCPUs help with:
+
 - Data preprocessing
 - Multi-worker DataLoader (PyTorch/TF)
 - Serving multiple GPU streams
 
 ### Step 3 — Consider your budget
+
 - `vgn7i` series → cheapest (shared/sliced GPU), suitable for inference and light fine-tuning
 - `gn7i` / `gn7` → mid-range, good for full model training
 - `gn8` bare metal → most expensive, for production-scale LLM training
 
 ### Step 4 — Check regional availability
+
 Instance types available for purchase vary by region. You can visit the Instance Types Available for Each Region page to check availability, or use the ECS Price Calculator to estimate costs.
 
 ---

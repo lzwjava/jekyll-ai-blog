@@ -46,6 +46,7 @@ type: note
 总体而言，预计将出现动荡而非世界末日。建议分散投资至科技股之外，关注价值股，并持有现金应对下跌。市场总在忧虑之墙上攀爬——这次可能亦不例外。
 
 ### 参考资料
+
 - [科技七巨头市值于2025年10月创下20.9万亿美元纪录](https://www.voronoiapp.com/markets/-Magnificent-Seven-Market-Cap-Reaches-Record-209-Trillion-in-October-2025-3004)
 - [M2货币供应量(M2SL) - 美联储经济数据(FRED)](https://fred.stlouisfed.org/series/M2SL)
 - [2025年美国股市总市值与M2比率突破300%](https://www.voronoiapp.com/markets/-US-Stock-Market-Cap-to-M2-Ratio-Tops-300-in-2025-Highest-Since-the-Dot-Com-Era-1627)

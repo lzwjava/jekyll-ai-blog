@@ -38,9 +38,11 @@ assets:
 如果你的主题使用了类似这样的代码：
 
 {% raw %}
+
 ```liquid
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 ```
+
 {% endraw %}
 
 请确保你没有通过启用了摘要功能的 `asset_path` 或 `absolute_url` 进行管道传输。直接使用 `relative_url` 即可。

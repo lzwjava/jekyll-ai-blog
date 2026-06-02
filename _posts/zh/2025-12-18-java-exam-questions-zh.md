@@ -31,9 +31,11 @@ type: note
    - D. boolean
 
 3. 以下代码的输出是什么？
+
    ```java
    System.out.println(10 + 20 + "Hello" + 30 + 40);
    ```
+
    - A. 70Hello3040
    - B. 30Hello70
    - C. 10 20 Hello 30 40
@@ -108,6 +110,7 @@ type: note
 ### 代码纠错题 (21-25)
 
 21. 以下代码包含错误。请纠正它以打印“Hello World”：
+
     ```java
     public class Test
     {
@@ -118,12 +121,14 @@ type: note
     ```
 
 22. 修复数组声明和初始化，以创建一个大小为5的整数数组，包含值1到5：
+
     ```java
     int arr = new int[5];
     arr = {1,2,3,4,5};
     ```
 
 23. 纠正构造函数以正确初始化实例变量：
+
     ```java
     class Person {
         String name;
@@ -132,6 +137,7 @@ type: note
     ```
 
 24. 修复循环以计算1到10的和：
+
     ```java
     int sum = 0;
     for(int i=1; i<10; i++) {
@@ -141,6 +147,7 @@ type: note
     ```
 
 25. 纠正继承语法：
+
     ```java
     class Dog implement Animal {
         // ...
@@ -150,6 +157,7 @@ type: note
 ### 代码分析/阅读题 (26-28)
 
 26. 这段代码的输出是什么？
+
     ```java
     int x = 5;
     if (x > 0) {
@@ -162,6 +170,7 @@ type: note
     ```
 
 27. 分析以下方法并说明当输入为4时它返回什么：
+
     ```java
     public static int factorial(int n) {
         if (n == 0) return 1;
@@ -170,6 +179,7 @@ type: note
     ```
 
 28. 这段代码运行会发生什么？描述任何错误。
+
     ```java
     int[] arr = {1,2,3};
     System.out.println(arr[3]);

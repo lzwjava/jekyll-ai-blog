@@ -16,6 +16,7 @@ type: note
 **Dependency-cruiser** 是 Angular 项目中依赖分析的绝佳选择——包括现代 Angular 版本（截至 2026 年的 Angular 21）——因为它在 **static source code level** 工作并理解 **TypeScript imports**。
 
 ### 相对于 Madge 等工具的关键优势
+
 - 功能更强大的 **custom rules**（forbidden dependencies、layer violations、无循环、无 feature → core 导入等）
 - 出色的 **circular dependency** 检测（显示完整的循环路径）
 - 多种 **report formats**（err、json、html、dot/graphviz、svg、mermaid、d3、csv 等）
@@ -23,12 +24,14 @@ type: note
 - 非常好的 **TypeScript** 支持（包括 `tsconfig.json` 中的 path aliases）
 
 ### 它支持 Angular 21 + Standalone Components 吗？
+
 **是的——它工作得非常完美。**
 
 Angular 21（类似于 ~19 之后的版本）默认使用 **standalone: true** 并消除了大多数 NgModules。
 Dependency-cruiser 不关心 Angular 的运行时模块系统或 `@Component({ standalone: true, imports: […] })`——它仅跟踪 TypeScript 文件中的 **static import / export graph**。
 
 因此它能正确检测：
+
 - 常规的 `import { Something } from './something.component';`
 - Barrel re-exports（`export * from './comp';`）
 - Path aliases（`@app/shared`、`@core` 等）
@@ -40,6 +43,7 @@ Angular 本身有时需要在 `imports: []` 数组中使用 `forwardRef(() => Ot
 **Dependency-cruiser 忽略 forwardRef**——它仍会看到静态的 `import` 语句并报告循环。
 
 这在大多数团队中实际上是 **理想** 的行为：
+
 - 即使 Angular 可以通过 `forwardRef` 技术处理，您通常仍想了解 **architectural cycles**
 - 许多团队完全禁止循环（或许除了像递归组件这样的特定情况）
 

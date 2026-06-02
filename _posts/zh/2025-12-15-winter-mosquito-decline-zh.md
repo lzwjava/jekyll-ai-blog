@@ -26,7 +26,7 @@ type: note
 
 参考文献：
 
-- [Mosquito Forecast for Guangzhou](https://www.mosquito-forecast.org/en/forecast/China/Guangzhou)
-- [Effects of Guangzhou seasonal climate change on Aedes albopictus](https://pmc.ncbi.nlm.nih.gov/articles/PMC8975156/)
-- [Guangzhou Climate Overview](https://www.climatestotravel.com/climate/china/guangzhou)
-- [Mosquito Activity and Temperature Thresholds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6316560/)
+* [Mosquito Forecast for Guangzhou](https://www.mosquito-forecast.org/en/forecast/China/Guangzhou)
+* [Effects of Guangzhou seasonal climate change on Aedes albopictus](https://pmc.ncbi.nlm.nih.gov/articles/PMC8975156/)
+* [Guangzhou Climate Overview](https://www.climatestotravel.com/climate/china/guangzhou)
+* [Mosquito Activity and Temperature Thresholds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6316560/)

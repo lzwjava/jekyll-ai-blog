@@ -89,6 +89,7 @@ export class UserComponent {}
 By default, Angular components are standalone, meaning that you can directly add them to the `imports` array of other components. Components created with an earlier version of Angular may instead specify `standalone: false` in their `@Component` decorator.
 
 So in Angular 21:
+
 - You **no longer need to write** `standalone: true` — it is the default
 - You only write `standalone: false` if you want the old NgModule behavior
 - NgModules are **not deprecated**, but they are no longer recommended for new code

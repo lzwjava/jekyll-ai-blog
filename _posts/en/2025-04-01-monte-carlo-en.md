@@ -24,6 +24,7 @@ Monte Carlo Tree Search is a heuristic search algorithm that combines the precis
 ### Core Concepts
 
 MCTS operates on a **tree** where:
+
 - **Nodes** represent game states or decision points.
 - **Edges** represent actions or moves leading to new states.
 - The **root** is the current state from which decisions are made.
@@ -37,6 +38,7 @@ The algorithm balances **exploration** (trying new moves) and **exploitation** (
 MCTS iterates through four distinct steps in each simulation cycle:
 
 #### 1. **Selection**
+
 - Start at the root and traverse the tree to a leaf node (a node not fully expanded or a terminal state).
 - Use a **selection policy** to choose child nodes. The most common is the **Upper Confidence Bound applied to Trees (UCT)** formula:
   \\[
@@ -49,15 +51,18 @@ MCTS iterates through four distinct steps in each simulation cycle:
 - UCT balances exploitation (\\(\bar{X}_i\\)) and exploration (the \\(\sqrt{\frac{\ln(N)}{n_i}}\\) term).
 
 #### 2. **Expansion**
+
 - If the selected leaf node isn’t terminal and has unvisited children, expand it by adding one or more child nodes (representing untried moves).
 - Typically, only one child is added per iteration to control memory usage.
 
 #### 3. **Simulation (Rollout)**
+
 - From the newly expanded node, run a **random simulation** (or rollout) to a terminal state (e.g., win/loss/draw).
 - The simulation uses a lightweight policy—often uniform random moves—since evaluating every state precisely is too costly.
 - The outcome (e.g., +1 for a win, 0 for a draw, -1 for a loss) is recorded.
 
 #### 4. **Backpropagation**
+
 - Propagate the simulation result back up the tree, updating statistics for each visited node:
   - Increment the visit count (\\(n_i\\)).
   - Update the total reward (e.g., sum of wins or average win rate).
@@ -70,6 +75,7 @@ Repeat these steps for many iterations (e.g., thousands), then pick the best mov
 ### How MCTS Works: An Example
 
 Imagine a simple tic-tac-toe game:
+
 1. **Root**: Current board state (e.g., X’s turn with a partially filled board).
 2. **Selection**: UCT picks a promising move (e.g., placing X in the center) based on prior simulations.
 3. **Expansion**: Add a child node for an untried move (e.g., O’s response in a corner).
@@ -162,6 +168,7 @@ def best_child(node):
 ### Enhancements and Variations
 
 To address weaknesses, MCTS is often enhanced:
+
 - **Heuristics in Rollouts**: Use domain knowledge (e.g., preferring center moves in tic-tac-toe) instead of pure randomness.
 - **Parallelization**: Run multiple simulations concurrently (root parallelization or tree parallelization).
 - **RAVE (Rapid Action Value Estimation)**: Share statistics across similar moves to speed convergence.

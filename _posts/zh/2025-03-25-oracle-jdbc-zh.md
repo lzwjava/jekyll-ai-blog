@@ -17,11 +17,13 @@ Oracle JDBC连接的主要类是`oracle.jdbc.driver.OracleDriver`，但在较新
 1. 首先需要在项目中包含Oracle JDBC驱动JAR（通常是ojdbc.jar）
 
 2. 加载驱动类：
+
 ```java
 Class.forName("oracle.jdbc.OracleDriver");
 ```
 
 3. 使用连接URL建立连接：
+
 ```java
 String url = "jdbc:oracle:thin:@主机名:端口:SID";
 // 或使用基于服务名的连接
@@ -33,6 +35,7 @@ Connection connection = DriverManager.getConnection(url, username, password);
 ```
 
 4. 创建并执行语句：
+
 ```java
 Statement statement = connection.createStatement();
 ResultSet resultSet = statement.executeQuery("SELECT * FROM employees");
@@ -45,6 +48,7 @@ while (resultSet.next()) {
 ```
 
 5. 使用完毕后务必关闭资源：
+
 ```java
 resultSet.close();
 statement.close();
@@ -52,6 +56,7 @@ connection.close();
 ```
 
 Oracle JDBC驱动提供多种类型：
+
 - Thin驱动：纯Java实现，无需安装Oracle客户端
 - OCI驱动：使用Oracle调用接口，需要Oracle客户端软件
 - Kerberos驱动：用于Kerberos认证

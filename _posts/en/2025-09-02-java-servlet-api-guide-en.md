@@ -238,11 +238,13 @@ Make sure the client sends `Content-Type: multipart/form-data`.
   ```java
   req.getRequestDispatcher("/WEB-INF/view.jsp").forward(req, resp);
   ```
+
 * **Include**: include output of another resource.
 
   ```java
   req.getRequestDispatcher("/fragment").include(req, resp);
   ```
+
 * **Redirect**: client 302/303/307 to new URL.
 
   ```java

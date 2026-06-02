@@ -15,6 +15,7 @@ SAP systems power operations at approximately **230,000+ organizations worldwide
 ## Industry Leaders by Sector
 
 **Consumer Products & Retail**
+
 - Coca-Cola (manages global beverage operations)
 - Unilever (coordinates supply chain across 190+ countries)
 - Nestlé (integrates operations for world's largest food company)
@@ -23,17 +24,20 @@ SAP systems power operations at approximately **230,000+ organizations worldwide
 - IKEA (coordinates global furniture retail operations)
 
 **Automotive & Manufacturing**
+
 - BMW, Mercedes-Benz, Volkswagen, Toyota, Ford (nearly every major automaker uses SAP for production planning and supply chain)
 - Bosch (manages complex component manufacturing)
 - Siemens (integrates engineering and manufacturing)
 - General Electric (coordinates industrial operations)
 
 **Energy & Utilities**
+
 - Shell, BP, ExxonMobil, Chevron (major oil companies rely on SAP)
 - E.ON, Duke Energy (utility companies manage grid operations)
 - Schneider Electric (energy management solutions)
 
 **Technology & Telecommunications**
+
 - Apple (supply chain and operations)
 - Microsoft (internal operations, though they compete in cloud)
 - IBM (despite having their own software)
@@ -41,21 +45,25 @@ SAP systems power operations at approximately **230,000+ organizations worldwide
 - Verizon, AT&T, Vodafone (telecom operations)
 
 **Pharmaceuticals & Healthcare**
+
 - Pfizer, Johnson & Johnson, Novartis, Roche (pharmaceutical giants rely on SAP for regulatory compliance and supply chain)
 - Abbott Laboratories, Merck
 - Many hospital systems globally
 
 **Financial Services**
+
 - While banks often use specialized core banking systems, many use SAP for back-office operations:
 - Deutsche Bank, HSBC, BNP Paribas
 - Insurance companies like Allianz, AXA, Zurich Insurance
 
 **Aerospace & Defense**
+
 - Airbus (manages complex aircraft manufacturing)
 - Boeing (despite past challenges, uses SAP extensively)
 - Lockheed Martin, Northrop Grumman
 
 **Consumer Electronics**
+
 - Samsung (massive global operations)
 - Sony, Panasonic
 - LG Electronics
@@ -77,6 +85,7 @@ SAP systems power operations at approximately **230,000+ organizations worldwide
 **Midsize Companies**: SAP has made efforts to reach mid-market firms through SAP Business One and cloud offerings, though they face more competition here from Microsoft Dynamics, Oracle NetSuite, and others.
 
 **Public Sector**: Many government agencies worldwide use SAP:
+
 - US Department of Defense
 - European government ministries
 - State and local governments globally

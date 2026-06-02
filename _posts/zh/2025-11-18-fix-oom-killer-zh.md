@@ -57,15 +57,18 @@ type: note
 
 3. **硬件临时解决方案（非理想方案）**
    - 增加大量交换空间（例如 64-128 GB 交换文件）。开始交换后会极其缓慢，但可能完成处理。
+
      ```bash
      sudo fallocate -l 64G /swapfile
      sudo chmod 600 /swapfile
      sudo mkswap /swapfile
      sudo swapon /swapfile
      ```
+
    - 在内存 ≥64 GB 的机器/实例上运行（例如 AWS r6i.4xlarge 或更高配置）。
 
 ### 总结
+
 直接运行 build-nanogpt 中的官方 `fineweb.py` 是最简洁的解决方案，也是目前处理 FineWeb 的通用方法。问题根源在于您拼接的 15 GB txt 文件，而非 FineWeb 本身。
 
 [官方 FineWeb-Edu 下载脚本](https://raw.githubusercontent.com/karpathy/build-nanogpt/master/fineweb.py)

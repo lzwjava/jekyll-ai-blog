@@ -17,31 +17,39 @@ type: note
 1. **设置身份验证**
    - 由于注册表需要用户名和密码，您需要登录以验证 NPM 客户端。
    - 在终端中运行以下命令，将 `<registry-url>` 替换为您的注册表实际 URL：
+
      ```
      npm login --registry=<registry-url>
      ```
+
    - 系统将提示您输入用户名和密码（根据注册表配置可能还需要邮箱）。完成后，认证令牌将存储在您的 `.npmrc` 文件中，从而允许访问注册表。
 
 2. **验证注册表连接**
    - 使用 `npm ping` 命令检查注册表是否可达：
+
      ```
      npm ping --registry=<registry-url>
      ```
+
    - 如果成功，该命令将确认注册表服务器已启动并正常响应。通常会看到类似 "Ping success: <registry-url>" 的输出。如果失败，可能是连接问题或 URL 错误。
 
 3. **检查身份验证**
    - 为确保用户名和密码设置正确，使用 `npm whoami` 命令：
+
      ```
      npm whoami --registry=<registry-url>
      ```
+
    - 如果身份验证成功，该命令应返回您的用户名。如果失败或返回错误（例如“未认证”），请重新检查您的凭据或登录步骤。
 
 4. **测试软件包安装**
    - 尝试安装一个软件包以确认注册表能够提供软件包。由于是私有注册表，您需要安装已知存在于该注册表上的软件包。但如果注册表代理了公共 NPM 注册表（如 Verdaccio 等私有注册表的常见配置），您可以使用流行的公共软件包进行测试。
    - 示例命令：
+
      ```
      npm install <package-name> --registry=<registry-url>
      ```
+
    - 将 `<package-name>` 替换为您的注册表上可用的软件包（下文将提供软件包建议）。
 
 ---
@@ -53,25 +61,33 @@ type: note
 - **如果注册表代理了公共 NPM 注册表：**
   - 许多私有注册表配置为镜像公共注册表，在身份验证后允许访问公共软件包。这种情况下，可以尝试安装知名的公共软件包：
     - `lodash`: 流行的工具库。
+
       ```
       npm install lodash --registry=<registry-url>
       ```
+
     - `express`: 广泛使用的 Node.js Web 框架。
+
       ```
       npm install express --registry=<registry-url>
       ```
+
     - `react`: 构建用户界面的流行库。
+
       ```
       npm install react --registry=<registry-url>
       ```
+
   - 如果这些软件包安装成功，则确认注册表工作正常且能够提供软件包。
 
 - **如果注册表仅托管私有软件包：**
   - 您需要安装已知存在于私有注册表上的软件包。请向您的团队查询或查看注册表的文档/网页界面（如果可用）以获取软件包名称。例如：
     - 如果存在名为 `my-org-utils` 的软件包，尝试：
+
       ```
       npm install my-org-utils --registry=<registry-url>
       ```
+
   - 没有具体软件包名称的情况下，我无法列出确切的私有软件包，请使用与您组织相关的软件包。
 
 ---

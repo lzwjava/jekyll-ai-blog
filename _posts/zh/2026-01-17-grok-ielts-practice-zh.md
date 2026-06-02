@@ -18,7 +18,7 @@ type: note
 
 ### 设置步骤指南
 
-1. 访问 https://grok.x.ai（或在 X app 中打开 Grok）
+1. 访问 <https://grok.x.ai（或在> X app 中打开 Grok）
 2. 点击你的头像/图标 → 寻找 "Custom instructions" 或 "Customize Grok"（通常在 settings 或你的名字下方）
 3. 这里有两个主要的文本框：
    - **What would you like Grok to know about you to provide better responses?**

@@ -16,10 +16,12 @@ Here's the full rundown, Boss.
 ## Gitea Actions Runner — Setup Report
 
 ### Binary
+
 - **Software:** `act_runner` v0.2.6 (official Gitea Actions runner)
 - **Location:** `/usr/local/bin/act_runner`
 
 ### Registration
+
 - **Instance:** `http://192.168.1.36:3000`
 - **Name:** `local-runner`
 - **UUID:** `68cf95f8-2e71-4610-87f2-6b7ad65f8273`
@@ -36,11 +38,13 @@ Here's the full rundown, Boss.
 | `ubuntu-18.04` | Docker: `node:16-buster` |
 
 ### Runtime Dependencies
+
 - **Docker:** v27.5.1 ✅
 - **Systemd:** Enabled (`gitea-runner.service`) ✅
 - **Survives reboot:** Yes
 
 ### Configuration
+
 - **Config file:** `/home/lzw/.gitea-runner/config.yaml` (default)
 - **Concurrency:** 1 job at a time
 - **Job timeout:** 3 hours
@@ -57,6 +61,7 @@ Here's the full rundown, Boss.
 | Service unit | `/etc/systemd/system/gitea-runner.service` |
 
 ### Useful Commands
+
 ```bash
 # Check status
 sudo systemctl status gitea-runner
@@ -69,6 +74,7 @@ sudo systemctl restart gitea-runner
 ```
 
 ### Things to Note
+
 - This is a **repo-level runner** (scoped to `lzwjava/blog-source`), not org-wide
 - Jobs run in Docker containers pulled from `node:16-bullseye` — first run will be slower while pulling the image
 - Default config has placeholder env vars (`A_TEST_ENV_NAME_1/2`) — can clean those up if you want

@@ -14,25 +14,30 @@ Here’s a breakdown of what’s happening in this sequence:
 ---
 
 ## **1. The Problem**
+
 You had a **VPS** and a **GPU droplet** (likely a cloud server with an H200 GPU).
 Initially, transferring **61 GB of data** between them over the **external (public) network** would have taken **~5 hours** (probably due to limited bandwidth or high latency).
 
 ---
 
 ## **2. Setting Up Internal Network Communication**
+
 Both servers are on the same **internal network** (private IPs:
+
 - VPS at `10.100.0.2`
 - GPU droplet at `10.100.3`
 
 You verified they can talk internally with **very low latency** (1.56 ms), much faster than going over the internet.
 
 ### **SSH Key Setup**
+
 You set up **SSH key authentication** from VPS → GPU droplet so transfers wouldn’t require a password.
 *One minor hiccup*: the key was concatenated without a newline, breaking authentication; you fixed it.
 
 ---
 
 ## **3. Internal Network Transfer Speed**
+
 Once the internal network path was ready, you transferred the **61 GB dataset** directly:
 
 - **Speed peaked at ~450 MB/s**
@@ -40,6 +45,7 @@ Once the internal network path was ready, you transferred the **61 GB dataset** 
   (vs. 5 hours over external network)
 
 This huge speedup comes from:
+
 - **Private network** — no internet routing bottlenecks
 - **High internal bandwidth** (likely 10 Gbps or more)
 - **Low latency** between nodes
@@ -47,11 +53,13 @@ This huge speedup comes from:
 ---
 
 ## **4. Data Preparation on GPU Droplet**
+
 After the transfer, you started **data preprocessing** on the GPU droplet (the H200 machine).
 
 You ran **12 parallel workers**, each using ~93% CPU — meaning the task was CPU-bound during preprocessing, not yet GPU-bound.
 
 ### **Processing Speed**
+
 - **~40 million tokens per second**
 - Each **shard** (likely a chunk of the dataset) processed in **~2 seconds**
 - Total shards: **~610**
@@ -61,6 +69,7 @@ You ran **12 parallel workers**, each using ~93% CPU — meaning the task was CP
 ---
 
 ## **5. Why This Matters**
+
 This workflow shows a **common ML data pipeline optimization**:
 
 1. **Transfer data internally** — not over public internet — to avoid slow speeds.

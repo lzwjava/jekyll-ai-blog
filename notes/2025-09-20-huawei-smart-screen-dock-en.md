@@ -13,6 +13,7 @@ type: note
 **Huawei Smart Screen Expansion Dock (华为智慧屏拓展坞)** is an accessory designed by Huawei to enhance the functionality of its **Huawei Smart Screen** (智慧屏) series, which are essentially smart TVs or displays with built-in HarmonyOS and smart features.
 
 ### **Key Features and Functions:**
+
 1. **Port Expansion:**
    The dock provides additional ports to connect peripherals, such as USB devices, keyboards, mice, external storage, or even gaming controllers. This turns the smart screen into a more versatile hub for productivity, entertainment, or gaming.
 
@@ -29,6 +30,7 @@ type: note
    It is designed to work seamlessly with Huawei’s HarmonyOS ecosystem, ensuring smooth integration with other Huawei devices like smartphones, tablets, and laptops.
 
 ### **Use Cases:**
+
 - **Office Work:** Use the smart screen as a secondary monitor for your laptop.
 - **Gaming:** Connect a gaming console or external GPU for a better gaming experience.
 - **Smart Home Control:** Integrate with other smart devices for centralized control.

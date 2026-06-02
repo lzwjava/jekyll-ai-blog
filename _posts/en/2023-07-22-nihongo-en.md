@@ -13,7 +13,7 @@ type: post
 
 There is a famous Japanese song "真夜中のドア".  What does it mean? 真夜中 means midnight. The English translation of 真夜中 is Mayonaka.  の like the Chinese word "的". It is a particle word.
 
-Besides ChatGPT, here are two good websites to learn Japanese. We can search for the meaning of the words at https://jisho.org.  We can get the pronunciation at https://ja.forvo.com.
+Besides ChatGPT, here are two good websites to learn Japanese. We can search for the meaning of the words at <https://jisho.org>.  We can get the pronunciation at <https://ja.forvo.com>.
 
 And ドア sounds like "dowa". And ドア means door. So "真夜中のドア" means the door at midnight.
 
@@ -278,9 +278,11 @@ Zhiwei: What does stain mean in English?
 ChatGPT: In English, the word "stain" is a noun or a verb that refers to a mark or discoloration left on a surface as a result of the absorption or adherence of a foreign substance. Stains can occur on various materials, such as fabric, wood, paper, or any surface that is capable of being discolored.
 
 As a noun:
+
 - A stain is a visible mark left on a material after something like a liquid, dirt, or dye has come into contact with it and is difficult to remove.
 
 As a verb:
+
 - To stain means to mark or discolor something, usually unintentionally, by the absorption of a foreign substance. For example, you can stain a shirt with spilled coffee or stain a wooden table with ink.
 
 Stains are often considered undesirable because they can make something appear dirty, damaged, or aged. People often try to remove stains using various cleaning methods or products to restore the original appearance of the material.

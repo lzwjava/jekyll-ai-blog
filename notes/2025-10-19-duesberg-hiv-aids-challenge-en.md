@@ -36,6 +36,7 @@ Duesberg structures his case around virology, epidemiology, and history, claimin
 ### Key Evidence and Critiques Presented
 
 Duesberg draws on data to dismantle the HIV theory:
+
 - **Koch's Postulates Ignored**: These 19th-century rules for proving causation (isolate germ, infect healthy host, re-isolate) aren't met by HIV—it's never been shown to directly cause AIDS in isolation.
 - **Low Virus Levels**: HIV loads in blood are too tiny (1 in 10,000 cells) to destroy the immune system; T-cell drops happen before or independently of infection.
 - **Flawed Studies**: Hemophiliac research shows immune decline unrelated to HIV dose; long-term HIV-positive people (e.g., sex workers) stay healthy without symptoms.

@@ -25,13 +25,13 @@ type: note
 
 ### **核心差异**
 
-  * **Performance：** **NVIDIA A10** (Alibaba gn7i) 是一款专为 AI inference 和图形工作站设计的企业级显卡，性能介于 DigitalOcean 的 RTX 4000（低端）和 RTX 6000/H100（高端）之间。
-  * **Billing Granularity：** Alibaba Cloud 的 Pay-As-You-Go 通常采用按小时计费，但为月度或年度 **Subscriptions** 提供显著折扣（高达 50% 以上）。DigitalOcean 已转向 **per-second billing**（最小 60 秒），对于短周期的 Batch jobs 更具成本效益。
-  * **Availability：** Alibaba Cloud gn7i 实例针对亚太地区进行了深度优化。DigitalOcean 的 GPU Droplets 目前在特定的 Data Centers（如 NYC3, AMS3, 和 SFO3）提供，更适合西方市场。
-  * **Egress 成本：** DigitalOcean 对于数据密集型任务通常更便宜，超额流量费用约为 **$0.01 per GB**，而 Alibaba Cloud 的国际数据传输费率可能显著更高（根据地区不同，约为 **$0.07 - $0.23 per GB**）。
+* **Performance：** **NVIDIA A10** (Alibaba gn7i) 是一款专为 AI inference 和图形工作站设计的企业级显卡，性能介于 DigitalOcean 的 RTX 4000（低端）和 RTX 6000/H100（高端）之间。
+* **Billing Granularity：** Alibaba Cloud 的 Pay-As-You-Go 通常采用按小时计费，但为月度或年度 **Subscriptions** 提供显著折扣（高达 50% 以上）。DigitalOcean 已转向 **per-second billing**（最小 60 秒），对于短周期的 Batch jobs 更具成本效益。
+* **Availability：** Alibaba Cloud gn7i 实例针对亚太地区进行了深度优化。DigitalOcean 的 GPU Droplets 目前在特定的 Data Centers（如 NYC3, AMS3, 和 SFO3）提供，更适合西方市场。
+* **Egress 成本：** DigitalOcean 对于数据密集型任务通常更便宜，超额流量费用约为 **$0.01 per GB**，而 Alibaba Cloud 的国际数据传输费率可能显著更高（根据地区不同，约为 **$0.07 - $0.23 per GB**）。
 
 References:
 
-  - [Alibaba Cloud Elastic GPU Service Pricing](https://www.google.com/search?q=https://www.alibabacloud.com/en/campaign/elastic-gpu)
-  - [DigitalOcean GPU Droplet Pricing](https://www.digitalocean.com/pricing/gpu-droplets)
-  - [Cloud GPU Pricing Comparison 2026](https://getdeploying.com/gpus)
+* [Alibaba Cloud Elastic GPU Service Pricing](https://www.google.com/search?q=https://www.alibabacloud.com/en/campaign/elastic-gpu)
+* [DigitalOcean GPU Droplet Pricing](https://www.digitalocean.com/pricing/gpu-droplets)
+* [Cloud GPU Pricing Comparison 2026](https://getdeploying.com/gpus)

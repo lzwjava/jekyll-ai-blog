@@ -13,6 +13,7 @@ type: note
 ### Course Outline: 14567 Mobile Application Development Technology
 
 **Course Information**
+
 - **Course Code**: 14567
 - **Course Name**: Mobile Application Development Technology (移动应用开发技术)
 - **Credits**: 4
@@ -115,6 +116,7 @@ The content is structured around 12 chapters, progressing from basics to advance
     *Requirements*: Integrate all concepts into a full app.
 
 **Additional Notes and Implementation Requirements**
+
 - **Study Tips**: Build lab environments early; code along with examples. Focus on 70% practice, 30% theory. Use integrated IDE prompts during practice exams.
 - **Exam Format**: Theoretical: Multiple-choice, short answer, code analysis (80% coverage of chapters 1-11). Practical (14568): Hands-on coding for core features (e.g., UI, storage, services).
 - **Updates**: Outlines may adjust with textbook revisions; check Guangdong Education Exam Authority (eea.gd.gov.cn) for latest.
@@ -122,6 +124,7 @@ The content is structured around 12 chapters, progressing from basics to advance
 For the full official syllabus PDF, visit the Guangdong self-exam resources or download from authorized sites like zikaosw.cn.
 
 **References**
+
 - [Guangdong Self-Exam Course Plan](https://eea.gd.gov.cn/attachment/0/532/532589/4262692.pdf)
 - [Textbook Table of Contents](https://resource.ityxb.com/book/android_case2.html)
 - [Guangdong Self-Exam Syllabus Overview](https://www.zikaosw.cn/news/22151554.html)

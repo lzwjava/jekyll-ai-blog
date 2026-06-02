@@ -42,6 +42,7 @@ Time (HKT)    Nextcloud Log                    OpenClaw Log
 ### Problem #1: Signature Rejection (401) Hid Everything
 
 **What happened:**
+
 ```
 Nextcloud sends webhook → OpenClaw checks signature → REJECTED (401 Invalid backend)
                                                         ↑
@@ -49,6 +50,7 @@ Nextcloud sends webhook → OpenClaw checks signature → REJECTED (401 Invalid 
 ```
 
 At this stage, OpenClaw **never even parsed the payload**, so we couldn't see:
+
 - What payload format Nextcloud was sending
 - That API calls would go to the wrong URL
 
@@ -59,6 +61,7 @@ At this stage, OpenClaw **never even parsed the payload**, so we couldn't see:
 ### Problem #2: Payload Format Error (400) Hid the API Issue
 
 **What happened:**
+
 ```
 Nextcloud sends webhook → OpenClaw parses payload → REJECTED (400 Invalid payload)
                                                         ↑
@@ -68,11 +71,13 @@ Nextcloud sends webhook → OpenClaw parses payload → REJECTED (400 Invalid pa
 We fixed the `"Activity"` type, but then saw **new errors** — and thought the payload fix didn't work yet.
 
 **But the real issue:** Even while Nextcloud was showing 400, OpenClaw was:
+
 - Receiving webhooks ✅
 - Attempting to send replies ❌ (going to wrong URL)
 - Getting 404 on those reply attempts
 
 The 400 from Nextcloud (reporting webhook delivery failures) made us think the whole flow was broken, when really:
+
 - **Inbound was working** (after fixes)
 - **Outbound was broken** (wrong URL for API calls)
 
@@ -87,6 +92,7 @@ The 400 from Nextcloud (reporting webhook delivery failures) made us think the w
 | **OpenClaw audit log** | Blocked URL fetches | Which exact URL was being called |
 
 **The smoking gun we missed:** When OpenClaw tried to send a reply, it called:
+
 ```
 POST http://localhost/ocs/v2.php/apps/spreed/api/v1/bot/eu42ecdy/message
                          ↑
@@ -118,6 +124,7 @@ But OpenClaw's log just said "room not found (token=eu42ecdy)" — it didn't say
 ```
 
 **The bug:** When we set `baseUrl: "http://localhost"`, OpenClaw used it for both:
+
 1. Verifying `X-Nextcloud-Talk-Backend` header ✅ (matched `http://localhost` from Nextcloud)
 2. Making outbound API calls ❌ (called `http://localhost/ocs/...` which hit nginx, not Nextcloud)
 

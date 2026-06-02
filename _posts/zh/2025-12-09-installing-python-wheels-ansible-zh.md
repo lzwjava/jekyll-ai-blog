@@ -29,6 +29,7 @@ type: note
 ```
 
 这个单一任务：
+
 - 检查软件包是否已安装到确切版本
 - 仅在缺失或版本不同时安装
 - 完全是幂等的
@@ -40,6 +41,7 @@ type: note
 如果你在一个目录中有许多 wheel 文件，并想安装所有这些文件：
 
 {% raw %}
+
 ```yaml
 - name: 从目录安装所有 .whl 文件
   ansible.builtin.pip:
@@ -47,6 +49,7 @@ type: note
     state: present
   loop: "{{ q('fileglob', '/opt/wheels/*.whl') }}"
 ```
+
 {% endraw %}
 
 或者，如果你真的想通过事先检查来额外明确（很少需要）：
@@ -68,6 +71,7 @@ type: note
 ```
 
 ### 何时 shell/command 可接受（罕见情况）
+
 ```yaml
 - name: 用 shell 安装 wheel（除非 pip 模块确实无法完成，否则请避免）
   ansible.builtin.command: python3 -m pip install /path/to/package.whl

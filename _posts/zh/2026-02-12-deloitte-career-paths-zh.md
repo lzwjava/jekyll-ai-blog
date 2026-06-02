@@ -30,6 +30,7 @@ Deloitte（特别是美国分部）在 2026 年 1 月宣布对其 Job titles 和
 关于 **“IC 也可以成为 Partner”（Individual contributors 达到 Partner 级别）**：这些变化并没有明确取消传统的 Partner 晋升路径，也没有完全将结构扁平化到让纯粹的 IC 直接成为 Partner。然而，引入“Leaders”作为一个新的高级类别，结合以技能为中心的设计和对定制化职业体验的强调，表明 Deloitte 正在为资深 Individual contributors 或专家创造更多路径，使他们无需严格遵循传统的以销售/业务开发为主的 Partner 路线，也能在顶层获得同等地位和认可。这符合行业向 Skills-based organizations 发展的趋势，即深湛的专业知识可以带来资深的影响力角色。
 
 其既定目标是：
+
 - 提供更具定制化的职业体验。
 - 在 AI 影响的时代，使头衔更好地与 Skills 和客户需求对接。
 - 提高透明度、一致性和市场相关性。

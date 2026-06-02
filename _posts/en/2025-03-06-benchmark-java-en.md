@@ -17,6 +17,7 @@ The Java Microbenchmark Harness (JMH) is a powerful tool for building, running, 
 To use JMH, you need to include it in your project. Here’s how to do it with Maven or Gradle:
 
 ### **Maven**
+
 Add the following dependencies to your `pom.xml`:
 
 ```xml
@@ -34,6 +35,7 @@ Add the following dependencies to your `pom.xml`:
 ```
 
 ### **Gradle**
+
 Add these lines to your `build.gradle`:
 
 ```groovy
@@ -111,6 +113,7 @@ public class MyBenchmark {
 To execute your benchmark, you can use the JMH runner. Here’s how to do it with Maven:
 
 ### **Add the Maven Shade Plugin**
+
 Include this in your `pom.xml` to create an executable JAR:
 
 ```xml
@@ -142,6 +145,7 @@ Include this in your `pom.xml` to create an executable JAR:
 ```
 
 ### **Build and Run**
+
 1. Build the JAR: `mvn clean package`
 2. Run the benchmark: `java -jar target/benchmarks.jar`
 
@@ -173,6 +177,7 @@ Use these results to evaluate and optimize your code’s performance.
 JMH offers additional tools for more complex scenarios:
 
 ### **Parameterization**
+
 Test your code with different inputs using `@Param`:
 
 ```java
@@ -191,6 +196,7 @@ public class MyBenchmark {
 ```
 
 ### **Blackholes**
+
 Prevent the JVM from optimizing away unused results with `Blackhole`:
 
 ```java

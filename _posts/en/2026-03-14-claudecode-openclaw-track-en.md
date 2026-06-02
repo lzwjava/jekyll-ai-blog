@@ -30,6 +30,7 @@ There are several ways, from simple to sophisticated:
 ClawPort is a free, open-source visual command center for Claude Code agent teams. It gives you an org map, agent chat, kanban board, cron pipeline monitor, cost dashboard, live log streaming, and memory browser — all in one dashboard.
 
 Install it:
+
 ```bash
 npm install -g clawport
 clawport setup   # auto-detects your OpenClaw workspace
@@ -37,6 +38,7 @@ clawport dev     # launches the dashboard
 ```
 
 What you can see:
+
 - Which agent is running and what tool it's currently using
 - Kanban board: queued → in progress → done
 - Live log stream

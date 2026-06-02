@@ -23,12 +23,12 @@ ecs.gn7i-c32g1.32xlarge 是 Alibaba Cloud Elastic Compute Service (ECS) 中 **gn
 - **GPU Memory**: 每块 A10 GPU 拥有 24 GB (总计 96 GB GPU VRAM)
 - **CPU Processor**: Intel Xeon Scalable (Ice Lake) Platinum 8369B 处理器，基频 2.9 GHz，全核 Turbo 频率可达 3.5 GHz
 - **Network Performance**:
-    - 基础带宽：64 Gbit/s
-    - 网络收发包能力 (Packet forwarding rate)：24,000,000 PPS
-    - NIC queues：32
-    - ENIs：15
-    - 每个 ENI 的私网 IPv4 地址数：30
-    - 每个 ENI 的 IPv6 地址数：30
+  - 基础带宽：64 Gbit/s
+  - 网络收发包能力 (Packet forwarding rate)：24,000,000 PPS
+  - NIC queues：32
+  - ENIs：15
+  - 每个 ENI 的私网 IPv4 地址数：30
+  - 每个 ENI 的 IPv6 地址数：30
 - **Storage**: I/O-optimized instance。默认不含本地磁盘。支持 ESSD、ESSD AutoPL 和 Regional ESSD 等高性能 Cloud disks (根据需要挂载 Block storage)
 - **Architecture**: 基于 Alibaba Cloud 第三代 SHENLONG 架构构建，具备芯片级 Fast-path 加速，提升了存储、网络和计算的稳定性
 
@@ -43,6 +43,7 @@ ecs.gn7i-c32g1.32xlarge 是 Alibaba Cloud Elastic Compute Service (ECS) 中 **gn
 ### Use Cases
 
 该实例针对以下场景进行了优化：
+
 - 并发 AI inference 工作负载 (例如：图像识别、语音识别、Natural language processing、行为识别)
 - 高性能 3D 图形和 Virtualization 任务
 - 远程图形设计、Cloud gaming 或视频渲染 (受益于 NVIDIA RTX 和 TensorRT 加速)
@@ -53,6 +54,7 @@ NVIDIA A10 GPU 擅长 Inference 和 Graphics，而非重度 Training (对于训�
 ### Comparison to gn7t
 
 与 gn7t 系列相比：
+
 - gn7i 使用 **NVIDIA A10** GPU (每块 24 GB)，定位于均衡的 Inference + Graphics。
 - gn7t 使用不同的 GPU 变体，并且在相似的命名模式下，通常提供不同的单进程 GPU 对应系统内存配置。
 - ecs.gn7i-c32g1.32xlarge 提供了极高的资源密度 (128 vCPU + 752 GiB RAM + 96 GB 总显存)，使其适用于大规模并发工作负载。
@@ -68,6 +70,7 @@ NVIDIA A10 GPU 擅长 Inference 和 Graphics，而非重度 Training (对于训�
 由于细节可能因地域而异并随更新而变化，请务必通过 Alibaba Cloud ECS 控制台或官方文档验证目标地域的最新规格、可用性和准确价格。
 
 **References:**
+
 - [Alibaba Cloud GPU-accelerated instance families documentation](https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1)
 - [Alibaba Cloud ECS instance type details for gn7i](https://www.alibabacloud.com/help/en/ecs/user-guide/overview-of-instance-families)
 - 第三方规格参考: Cloud Mercato 和 SpareCores 关于 ecs.gn7i-c32g1.32xlarge 的列表

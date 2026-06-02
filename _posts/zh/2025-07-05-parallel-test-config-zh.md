@@ -11,6 +11,7 @@ type: note
 要在 Maven 项目中启用并行测试执行，特别是针对提供的 `MavenTest.java` 类，您可以配置 Maven Surefire 插件以并行运行测试。`MavenTest.java` 类使用 JUnit 4 的动态测试功能来执行针对不同问题的 Maven 命令，而您原始错误中的堆栈跟踪显示测试已在并行运行（由堆栈跟踪中的 `ForkJoinPool` 证明）。不过，您可以通过在 `pom.xml` 文件中配置 Surefire 插件来显式控制并行执行。下面，我将解释如何设置并行测试执行，并按要求处理 `-DParallel` 标志的使用。
 
 ### 并行执行的原因
+
 您的测试输出显示堆栈跟踪中有 `ForkJoinPool`，表明 JUnit 或 Maven 已在为并行执行使用线程池。`MavenTest` 类使用 `@TestFactory` 和 `DynamicTest`，并且测试可能由于 JUnit 的默认行为或现有的 Surefire 配置而并行运行。现在的目标是显式配置并行执行，并允许通过命令行标志（如 `-DParallel`）进行控制。
 
 ### 配置并行测试执行的步骤
@@ -151,6 +152,7 @@ type: note
    或者，在问题解决之前将 `p10009` 保留在跳过列表中。
 
 ### 关于并行执行的注意事项
+
 - **性能**：对于您的 `MavenTest` 类，使用 `parallel=classes` 进行并行执行是合适的，因为每个 `DynamicTest` 代表一个不同的问题。与 `methods` 或 `both` 相比，这最小化了开销。
 - **资源使用**：并行执行会增加 CPU 和内存使用量。监控您的系统以确保 `threadCount`（例如 `4`）不会使硬件过载。如果出现内存问题，请使用 `forkCount` 在单独的 JVM 中隔离测试。
 - **超时**：`parallelTestsTimeoutInSeconds` 设置确保测试不会无限期挂起，与 `MavenTest.java` 中的 `TEST_TIMEOUT` 10 秒保持一致。
@@ -158,6 +160,7 @@ type: note
 - **调试**：如果测试在并行模式下意外失败，请按顺序运行它们（`-DParallel=false`）以隔离问题。
 
 ### 完整命令示例
+
 要并行运行测试，跳过 `p10009`，使用四个线程：
 
 ```bash
@@ -171,6 +174,7 @@ mvn test -DParallel=false -Dproblem=p10009
 ```
 
 ### 其他考虑事项
+
 - **JUnit 4 限制**：您的项目使用 JUnit 4（基于 `org.junit.jupiter.api` 导入和 `DynamicTest`）。JUnit 4.7+ 通过 Surefire 支持并行执行，但 JUnit 5 提供了更灵活的并行化选项。如果您需要每个类的并行性或自定义策略等高级功能，请考虑升级到 JUnit 5。
 - **Maven 版本**：确保您使用的是最新版本的 Maven（例如 3.9.10，如您的错误输出所示）和 Surefire（例如 3.5.3），以获得最佳的并行执行支持。
 - **错误处理**：为了使测试更加健壮，考虑在 `runMavenExecTests` 中捕获异常（如之前的响应中所建议的），以记录失败而不停止测试套件：

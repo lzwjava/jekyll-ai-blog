@@ -14,6 +14,7 @@ type: note
 == Windows 支持状态 ==
 
 完全支持。Warp 具备：
+
 - `crates/warpui/src/platform/windows/` 中的 Windows 平台代码
 - Windows 特定依赖（windows crate、DirectX、Win32 API）
 - 运行在 `windows-latest-large` 上的 CI 流水线
@@ -30,7 +31,7 @@ type: note
 
 2. Rust（通过 rustup）
    - 目标：x86_64-pc-windows-msvc
-   - 安装：https://rustup.rs
+   - 安装：<https://rustup.rs>
 
 3. CMake
    - 用于构建 sentry-contrib-native
@@ -46,17 +47,21 @@ type: note
 == 构建命令 ==
 
 # 引导（安装所有依赖）
+
 .\script\windows\bootstrap.ps1
 
 # 构建
+
 cargo build --bin warp-oss --features gui
 
 # 运行
+
 .\target\debug\warp-oss.exe
 
 == GPU 后端 ==
 
 Windows 使用：
+
 - 通过 wgpu 使用 DX12（DirectX 12）
 - Vulkan 作为替代
 - 用于 DirectX 着色器的 DXC 着色器编译器

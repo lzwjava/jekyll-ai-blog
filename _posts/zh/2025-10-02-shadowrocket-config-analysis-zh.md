@@ -15,6 +15,7 @@ type: note
 我将逐节解析，说明每个部分的作用及其配置原因。此配置似乎针对网络受限地区（如中国）的用户进行了优化，将某些全球/被屏蔽的服务通过代理服务器路由，同时保持本地/国内流量直连以获得更佳速度并避免不必要的重定向。这并非完整设置——您仍需在应用中单独配置代理服务器（例如通过 Shadowsocks、V2Ray 等），且此配置引用了从 GitHub 自动更新的外部规则集。
 
 ### 关键假设与说明
+
 - **代理设置**：此配置假设您已在 Shadowrocket 中配置了可用的代理服务器（例如 SOCKS5、HTTP 或加密协议）。若无此设置，"PROXY" 规则将无法工作。
 - **目的**：似乎用于规避审查（例如中国的防火长城）。AI 服务（如 OpenAI/ChatGPT）通过代理访问，而中文域名/IP 则直连以避免限速。
 - **TUN 模式**：引用 "tun"（隧道模式）将所有设备流量通过代理路由。
@@ -24,6 +25,7 @@ type: note
 ### 各节详解
 
 #### **[常规]**
+
 设置全局应用行为、DNS 解析和网络路由。类似于 Shadowrocket 的"偏好设置"或"系统设置"。
 
 - `bypass-system = true`：忽略 iOS 系统代理设置。Shadowrocket 自行处理所有代理，不依赖系统级配置。
@@ -54,19 +56,20 @@ type: note
 
 - `dns-direct-fallback-proxy = true`：若直连 DNS 查询失败，通过代理重试。
 
-- `tun-included-routes = `：（空）TUN 模式下无自定义包含路由——使用默认值。
+- `tun-included-routes =`：（空）TUN 模式下无自定义包含路由——使用默认值。
 
-- `always-real-ip = `：（空）无强制真实 IP 暴露——标准行为。
+- `always-real-ip =`：（空）无强制真实 IP 暴露——标准行为。
 
 - `hijack-dns = 8.8.8.8:53,8.8.4.4:53`：拦截来自 Google 公共 DNS（8.8.8.8/8.8.4.4 端口 53）的 DNS 流量，并通过代理路由。强制使用配置的 DNS 而非可能被屏蔽或监控的公共 DNS。
 
 - `udp-policy-not-supported-behaviour = REJECT`：若策略不支持 UDP 流量，则拒绝而非允许。
 
-- `include = `：（空）未包含额外配置文件。
+- `include =`：（空）未包含额外配置文件。
 
-- `update-url = `：（空）无来自 URL 的自动配置更新。
+- `update-url =`：（空）无来自 URL 的自动配置更新。
 
 #### **[规则]**
+
 定义流量路由规则，按顺序处理。类似于 ACL（访问控制列表），告知 Shadowrocket 基于域名、关键词、GEOIP 等条件决定代理或直连。若无规则匹配，则回退至 `FINAL,DIRECT`。
 
 - `DOMAIN-SUFFIX,anthropic.com,PROXY`：将所有 anthropic.com 子域名通过代理路由（例如 api.anthropic.com）。Anthropic 为 AI 公司——可能用于绕过屏蔽。
@@ -92,20 +95,23 @@ type: note
 *整体效果*：此为"代理被屏蔽全球服务"的设置。AI/ChatGPT/OpenAI 流量强制通过 VPN/代理以绕过地区限制，而中文/本地内容保持直连。
 
 #### **[主机]**
+
 手动主机映射（类似本地 hosts 文件）。
 
 - `localhost = 127.0.0.1`：将 "localhost" 映射至环回 IP。标准设置——确保应用可连接本地服务。
 
 #### **[URL 重写]**
+
 在请求发出前重写传入 URL。使用正则表达式匹配。
 
-- `^https?://(www.)?g.cn https://www.google.com 302`：重写任何 g.cn（或 www.g.cn）的 HTTP/HTTPS URL，以 302 状态（临时重定向）跳转至 google.com。g.cn 为 Google 中国域名——此操作绕过它。
+- `^https?://(www.)?g.cn https://www.google.com 302`：重写任何 g.cn（或 <www.g.cn）的> HTTP/HTTPS URL，以 302 状态（临时重定向）跳转至 google.com。g.cn 为 Google 中国域名——此操作绕过它。
 
 - `^https?://(www.)?google.cn https://www.google.com 302`：同样将 google.cn 重写至 google.com。中国常屏蔽或重定向 google.com，此操作强制清洁重定向。
 
 *原因？* 在审查地区，google.cn 可能提供篡改/被禁结果。此设置确保直接访问全球 Google 站点。
 
 #### **[MITM]**
+
 用于拦截和修改 HTTPS 流量的中间人设置（需在 Shadowrocket 中安装根 CA 证书）。
 
 - `hostname = *.google.cn`：拦截任何 google.cn 子域名的流量。结合 URL 重写，可能用于解密/重定向 Google 中国域名流量。
@@ -113,6 +119,7 @@ type: note
 *原因？* 可能用于强制执行重写或处理中国境内的证书固定问题，其中 google.cn 使用不同证书。
 
 ### 如何使用此配置
+
 1. **导入**：在 Shadowrocket 中，将此文件作为配置导入。
 2. **代理服务器**：在"服务器"部分添加实际代理（例如 Shadowsocks 服务器）——"PROXY" 等规则依赖于此。
 3. **启用**：切换至此配置，并在需要时启用隧道模式（VPN）。
@@ -121,6 +128,7 @@ type: note
 6. **故障排除**：若规则集加载失败，可能因限速或变更。IPv6 偏好设置可能需要切换以解决连通性问题。
 
 ### 潜在问题/安全说明
+
 - **隐私**：暴露的规则集（GitHub 链接）可能泄露您的路由内容。MITM 可拦截敏感流量——仅使用受信任的 CA。
 - **更新**：规则集自动加载；若 GitHub 被屏蔽，需使用代理访问它们。
 - **未来日期**：配置标注 2025 年 10 月——可能为笔误或未来验证，但无功能依赖于此。

@@ -23,6 +23,7 @@ This created one of the world's most laissez-faire economies, attracting interna
 **Key differences from mainland China:**
 
 **Hong Kong's capitalism:**
+
 - Private ownership dominates nearly all sectors
 - Market forces determine prices, production, and investment
 - Government spending is around 20% of GDP (very low)
@@ -31,6 +32,7 @@ This created one of the world's most laissez-faire economies, attracting interna
 - Legal system protects private contracts and property
 
 **Mainland China's system** (often called "socialism with Chinese characteristics" or state capitalism):
+
 - The Communist Party maintains ultimate control over the economy
 - Large state-owned enterprises (SOEs) dominate strategic sectors like banking, energy, telecommunications, and heavy industry
 - The state can direct credit, investment, and resources through state-owned banks

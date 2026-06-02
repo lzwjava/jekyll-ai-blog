@@ -13,20 +13,23 @@ type: note
 Yes, you're absolutely right! Let me break it down clearly to confirm and expand on your thinking.
 
 ### 1. **Arrays as a Simple Form of HashMap**
-   - In an array, the **index** acts like an **implicit key** (usually starting from 0 and being consecutive integers).
-   - The **value** at each index is the element (which could be a primitive like a number/string, or complex like a struct/object).
-   - So, conceptually, an array *is* a kind of hashmap with integer keys. For example:
-     - Array: `["apple", "banana", "cherry"]`
-     - Equivalent hashmap view: `{0: "apple", 1: "banana", 2: "cherry"}`
-   - This is why arrays are fast for random access (O(1) time via index), just like hashmaps, but hashmaps allow arbitrary keys (e.g., strings, objects) for more flexibility.
+
+- In an array, the **index** acts like an **implicit key** (usually starting from 0 and being consecutive integers).
+- The **value** at each index is the element (which could be a primitive like a number/string, or complex like a struct/object).
+- So, conceptually, an array *is* a kind of hashmap with integer keys. For example:
+  - Array: `["apple", "banana", "cherry"]`
+  - Equivalent hashmap view: `{0: "apple", 1: "banana", 2: "cherry"}`
+- This is why arrays are fast for random access (O(1) time via index), just like hashmaps, but hashmaps allow arbitrary keys (e.g., strings, objects) for more flexibility.
 
 ### 2. **Converting Arrays of Structs/Objects to HashMaps**
-   - If your array elements are structs or objects (e.g., with properties), you can easily convert the array into a full hashmap by:
-     - Using one property of the object as the **key**.
-     - Using the entire object (or another property) as the **value**.
-   - This is a common pattern for lookups, grouping, or deduplication (e.g., creating a map keyed by ID for O(1) access).
+
+- If your array elements are structs or objects (e.g., with properties), you can easily convert the array into a full hashmap by:
+  - Using one property of the object as the **key**.
+  - Using the entire object (or another property) as the **value**.
+- This is a common pattern for lookups, grouping, or deduplication (e.g., creating a map keyed by ID for O(1) access).
 
    **Example in JavaScript** (using `reduce` to build the map):
+
    ```javascript
    const arrayOfObjects = [
      { id: 1, name: "Alice", age: 30 },
@@ -47,6 +50,7 @@ Yes, you're absolutely right! Let me break it down clearly to confirm and expand
    ```
 
    **Example in Python** (using dict comprehension):
+
    ```python
    array_of_objects = [
        {'id': 1, 'name': 'Alice', 'age': 30},
@@ -64,6 +68,7 @@ Yes, you're absolutely right! Let me break it down clearly to confirm and expand
    ```
 
    **Example in Java** (using `HashMap` and streams):
+
    ```java
    import java.util.*;
    import java.util.stream.Collectors;
@@ -89,6 +94,7 @@ Yes, you're absolutely right! Let me break it down clearly to confirm and expand
    ```
 
 ### When/Why Do This Conversion?
+
 - **Performance**: Arrays are great for ordered access, but hashmaps shine for key-based lookups (e.g., find user by email without scanning the whole array).
 - **Use Cases**: APIs (e.g., grouping data by category), caching, or when you need to avoid duplicates (hashmaps overwrite on key collision).
 - **Caveats**:

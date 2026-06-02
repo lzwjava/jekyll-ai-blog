@@ -27,6 +27,7 @@ vLLM is primarily an open-source library designed for fast, memory-efficient inf
 These uses leverage vLLM's core strengths in memory management and batching, enabling up to 2-4x faster inference compared to traditional methods.
 
 ### References
+
 - [vLLM or llama.cpp: Choosing the right LLM inference engine](https://developers.redhat.com/articles/2025/09/30/vllm-or-llamacpp-choosing-right-llm-inference-engine-your-use-case)
 - [vLLM: A High-Performance Inference Engine for LLMs](https://medium.com/%40mdaryousse.ds/vllm-a-high-performance-inference-engine-for-llms-0b9c6c18312c)
 - [How we leveraged vLLM to power our GenAI applications at LinkedIn](https://www.linkedin.com/blog/engineering/ai/how-we-leveraged-vllm-to-power-our-genai-applications)

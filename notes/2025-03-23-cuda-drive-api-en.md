@@ -11,6 +11,7 @@ type: note
 The `<cuda.h>` header is part of the **CUDA Driver API**, a lower-level API compared to the higher-level CUDA Runtime API (e.g., `cudaMalloc`, `cudaMemcpy`). The Driver API provides finer control over GPU resources (e.g., contexts, modules, streams) and is often used in advanced scenarios like multi-GPU programming, dynamic kernel loading, or low-level optimizations.
 
 ### Common CUDA Driver API Functions
+
 Here are some key functions and their purposes:
 
 | Function                         | Description                                                                                   |
@@ -28,7 +29,9 @@ Here are some key functions and their purposes:
 ---
 
 ### Example Workflow
+
 Below is a simplified example using the CUDA Driver API to:
+
 1. Initialize the driver.
 2. Allocate GPU memory.
 3. Copy data to/from the GPU.
@@ -98,6 +101,7 @@ int main() {
 ---
 
 ### Key Notes
+
 1. **Error Handling**: Always check the return value (e.g., `CUresult err = cuSomeFunction(...);`). Use `cuGetErrorString(err)` to decode errors.
 2. **Kernel Parameters**: For `cuLaunchKernel`, parameters are passed as an array of pointers to arguments. Ensure the order matches the kernel's expected parameters.
 3. **PTX Files**: Kernels must be compiled to PTX (e.g., `nvcc --ptx my_kernel.cu -o my_kernel.ptx`).
@@ -106,6 +110,7 @@ int main() {
 ---
 
 ### When to Use the Driver API?
+
 - **Dynamic Kernel Loading**: Loading PTX at runtime.
 - **Multi-GPU Control**: Explicitly managing multiple GPUs.
 - **Low-Level Optimizations**: Fine-grained control over contexts, streams, or memory.

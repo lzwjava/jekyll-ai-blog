@@ -14,6 +14,7 @@ type: note
 **你正确的地方：**
 
 “信息获取”方面的差距已大幅收缩。现在，拥有 200 美元 Android 手机并能使用免费/廉价 LLM 的人可以：
+
 - 学习几乎任何知识（YouTube, Wikipedia, 免费课程）
 - 使用强大的 AI 工具（Claude 的免费层级, open-source models, ChatGPT 免费版）
 - 构建软件（open-source 框架, GitHub）

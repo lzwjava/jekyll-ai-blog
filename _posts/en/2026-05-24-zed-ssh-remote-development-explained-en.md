@@ -24,6 +24,7 @@ The UI runs fully locally (120fps GPU-rendered), but language servers, tasks, an
 Use `ctrl-cmd-shift-o` (macOS) or `alt-ctrl-shift-o` (Linux) to open the "Remote Projects" dialog. Click "Connect New Server" and enter the SSH command. Zed will download a server binary on the remote host and start it automatically.
 
 For simple cases, you can also just run:
+
 ```
 zed ssh://[user@]host[:port]/path
 ```

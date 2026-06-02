@@ -36,6 +36,7 @@ Specifically, Karpathy called out three repeating failure patterns:
 ## The Four Principles
 
 The guidelines emphasize:
+
 - Surfacing assumptions and tradeoffs upfront rather than making silent decisions or hiding confusion
 - Minimum viable code with no speculative features, abstractions, or error handling beyond what was requested
 - Surgical, focused edits that touch only what's necessary and match existing code style without improving adjacent code
@@ -67,6 +68,7 @@ The skill is honest about its trade-off: these guidelines bias toward caution ov
 ## Signs the Guidelines Are Working
 
 The guidelines are working if you see:
+
 - Fewer unnecessary changes in diffs — only requested changes appear
 - Fewer rewrites due to overcomplication — code is simple the first time
 - Clarifying questions come before implementation — not after mistakes

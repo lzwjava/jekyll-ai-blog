@@ -26,6 +26,7 @@ Baking soda is a versatile alkali compound with many practical uses:
 **Safety note**: Use food-grade only for consumption; avoid large ingestion (can cause alkalosis); don't mix with strong acids except as directed.
 
 **References:**
+
 - [Sodium bicarbonate (little soda) fine powder](https://www.standard-chem.com/news/sodium-bicarbonate-little-soda-fine-powder-loading-in-the-port)
 - [Little Soda 25kg](https://www.goldsupplier.com/provide/p173271143.html)
 - [Shandong Haihua Supply Chain - Little Soda](https://haihuasupply.goldsupplier.com/)

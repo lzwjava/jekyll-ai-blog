@@ -21,6 +21,7 @@ aws [global options] <service> <operation> [parameters]
 ```
 
 Example:
+
 ```bash
 aws s3 ls s3://my-bucket --recursive --profile dev --region us-east-1 --output table
 ```
@@ -45,6 +46,7 @@ These options can be placed **before** the service name and override configurati
 | `--version`             | —         | Shows AWS CLI version                                                       | Checking installed version                   | `aws --version`                              |
 
 **Most frequently used combination**:
+
 ```bash
 aws ec2 describe-instances \
   --profile sandbox \
@@ -71,6 +73,7 @@ aws ec2 describe-instances   ← global options go here
 3. `--output text` → simple, tab-separated, good for shell scripts
 
 Example combining them:
+
 ```bash
 aws s3api list-objects-v2 \
   --bucket my-bucket \

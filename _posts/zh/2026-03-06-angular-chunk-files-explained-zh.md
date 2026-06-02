@@ -34,20 +34,24 @@ Angular 的构建系统执行 **code splitting** —— 而不是将整个应用
 ### Chunk 文件类型
 
 #### 1. **Lazy-Loaded Module Chunks**
+
 应用 lazy loading 最简单的方式是使用 Angular Router 的内置功能，通过 `loadChildren`。基于使用的 `import()` 语句，Webpack 知道如何拆分 JS 文件，以便按需加载。当您服务或编译应用时，您会在控制台看到这些代码拆分的 JS 文件（chunks）。
 
 例如：
+
 ```
 products-products-module.js
 orders-orders.module.js
 ```
 
 #### 2. **Common Chunk (`common.js`)**
+
 一旦您有一些共享部分——一个共享模块，其中包含被 products 和 orders lazy-loaded 模块都使用的组件——Angular CLI 默认会将所有共享代码（在至少两个位置使用的代码）分组到一个 `common.js` chunk 中。这通常是个好主意，因为共享代码被去重了。不过，请记住，这个 JS 文件 **在启动时加载**，这可能会影响应用的启动速度。
 
 Common chunk 是所有超过一个 feature module 使用的组件的存放位置。例如，如果您有一个自定义 grid component 在自定义 grid module 中，并且您将这个 grid module 导入到 user 和 admin feature module 中，它就会进入 common chunk。
 
 #### 3. **Named/Hash Chunks（例如 `chunk-XXXXX.js`）**
+
 在 Angular 升级到版本 16 并使用 builder `@angular-devkit/build-angular:browser-esbuild` 后，与早期版本相比，会添加 `chunk-xxx.js` 文件。这些文件的名称不是固定的，因此静态文件引用无法轻松匹配。
 
 ---

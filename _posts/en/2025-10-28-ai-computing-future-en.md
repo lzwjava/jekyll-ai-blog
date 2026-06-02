@@ -13,6 +13,7 @@ type: note
 In Stanford CS25 (a course on Transformer architectures), Hyung Won Chung, a Research Scientist at OpenAI, gave a guest lecture titled "Shaping the Future of AI" (part of the V4 series). He discusses the importance of identifying the "dominant driving force" behind major changes in any field to predict its future trajectory effectively.
 
 ### Key Points from His Discussion
+
 - **The Pen Drop Analogy**: To illustrate, Chung uses a simple physics example: If you drop a pen, its path is predictable because we understand the **dominant force**—gravity—which overrides minor factors like air resistance. By focusing on this dominant force, we simplify complex systems and make reliable predictions. He argues we should apply the same lens to AI.
 
 - **The Dominant Force in AI**: For AI research, the dominant driving force is the **exponential decrease in compute costs** (i.e., cheaper and more abundant computational power). This has been the key enabler of rapid progress, allowing models to scale with more data and parameters. Chung emphasizes that understanding this force shifts focus toward building scalable, general methods rather than over-engineered, bias-heavy designs.

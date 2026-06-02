@@ -17,12 +17,14 @@ Answer:
 **“百花齐放、百家争鸣”** (often abbreviated as the **“Double Hundred Policy”** or **“双百方针”**) is one of the most famous cultural and intellectual policies in the history of the People's Republic of China.
 
 ### Core Meaning
+
 - **百花齐放** (Let a hundred flowers bloom): In literature, art, and culture, different styles, schools, and forms should be allowed to develop freely and compete with each other.
 - **百家争鸣** (Let a hundred schools of thought contend): In academic research, science, and ideology, different viewpoints, theories, and schools should be allowed to debate freely and openly.
 
 The policy aimed to promote the prosperity of socialist culture, encourage creativity in literature and art, and stimulate the development of science and academic research by reducing excessive administrative interference.
 
 ### Historical Background and Timeline
+
 - **Early origins**
   - 1951: Mao Zedong wrote “百花齐放，推陈出新” (Let a hundred flowers bloom, weed through the old to bring forth the new) as an inscription for the development of Peking Opera, initially focused on artistic reform.
   - 1953: Mao used “百家争鸣” when discussing the study of Chinese history.
@@ -38,6 +40,7 @@ The policy aimed to promote the prosperity of socialist culture, encourage creat
   - This led to the **“Hundred Flowers Campaign”** (also called the “Blooming and Contending” movement or 大鸣大放 — “big criticism, big blooming, big contention, big airing of views”).
 
 ### Actual Outcome and Historical Evaluation
+
 The policy was intended to ease tensions with intellectuals after the large-scale socialist transformation (1955–1956) and to correct overly rigid Soviet-style dogmatism.
 
 However, the campaign quickly spiraled beyond expectations: many intellectuals raised sharp criticisms of Party bureaucracy, dogmatism, and even the political system itself. This alarmed the leadership.
@@ -46,6 +49,7 @@ However, the campaign quickly spiraled beyond expectations: many intellectuals r
 - The **Anti-Rightist Campaign** (1957–1959) began, during which hundreds of thousands of intellectuals who had spoken out were labeled “rightists,” purged, sent to labor reform, or suffered long-term political persecution.
 
 ### Later Status
+
 - After the Cultural Revolution, the “Double Hundred Policy” was officially restored and reaffirmed at the Third Plenary Session of the 11th Central Committee (1978).
 - It remains one of the guiding principles for Chinese cultural, artistic, scientific, and academic work to this day (though its implementation varies greatly depending on the political climate).
 

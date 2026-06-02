@@ -67,10 +67,12 @@ help="Bypass all dangerous command approval prompts (use at your own risk)",
 4. 什么被限制什么不被限制
 
 批准覆盖范围（仅在本地和 SSH 终端后端 — 不在容器如 docker/singularity/modal/daytona 中）：
+
 - 终端命令通过 tools/approval.py 中的模式匹配标记为危险（47 种模式：rm -rf、git reset --hard、强制推送、chmod 777、管道到 shell、系统配置写入、DROP TABLE 等）
 - Computer Use 破坏性操作（在 tools/computer_use/tool.py 中）
 
 强硬阻止 — 这些始终被阻止，即使使用 --yolo 或 approvals.mode=off：
+
 - rm -rf /、mkfs、dd 到块设备、shutdown/reboot、fork 炸弹、kill -1（所有进程）
 - 未配置 SUDO_PASSWORD 时使用 sudo -S（防止密码猜测）
 

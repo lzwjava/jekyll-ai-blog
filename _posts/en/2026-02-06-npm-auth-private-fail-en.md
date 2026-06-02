@@ -12,7 +12,7 @@ type: note
 
 You're describing a common behavior with npm when using a private registry (like Sonatype Nexus) that requires authentication. Let me break down what's happening:
 
-## When `node_modules` is empty (fresh install):
+## When `node_modules` is empty (fresh install)
 
 ```bash
 npm install
@@ -23,7 +23,7 @@ npm install
 - Error message: `Need: Basic realm "Sonatype Nexus"` (or similar auth challenge)
 - Multiple package downloads fail quickly
 
-## When `node_modules` is NOT empty (existing installation):
+## When `node_modules` is NOT empty (existing installation)
 
 The behavior is different:
 
@@ -37,19 +37,22 @@ The behavior is different:
 ## Why this difference?
 
 When `node_modules` exists, npm performs additional checks before attempting downloads:
+
 - It validates existing packages
 - It checks authentication status more thoroughly
 - It may try to verify the registry connection first
 
-## Solutions:
+## Solutions
 
 1. **Configure npm authentication properly:**
+
    ```bash
    npm config set registry https://your-nexus-url/repository/npm-group/
    npm login --registry=https://your-nexus-url/repository/npm-group/
    ```
 
 2. **Or use `.npmrc` file:**
+
    ```
    registry=https://your-nexus-url/repository/npm-group/
    //your-nexus-url/repository/npm-group/:_auth=<base64-encoded-credentials>

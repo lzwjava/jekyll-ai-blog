@@ -37,21 +37,27 @@ type: note
 ### 2.1 常用集成开发环境
 
 应试只需了解其用途：
+
 * **Eclipse、IntelliJ IDEA、NetBeans：** 用于快速编写、编译和运行Java代码。
 
 ### 2.2 命令行工作流程
 
 典型编译运行步骤：
+
 1. **编写**代码保存为 `.java` 文件，如 `Hello.java`
 2. **编译**代码：
+
    ```bash
    javac Hello.java
    ```
+
    → 生成 `Hello.class`（字节码文件）
 3. **运行**程序：
+
    ```bash
    java Hello
    ```
+
    （运行时无需加 `.class` 后缀）
 
 ### 2.3 简单示例
@@ -78,6 +84,7 @@ public class Hello {
 
 * 使用**统一缩进**（通常为4空格）
 * 编写清晰**注释**：
+
   ```java
   // 单行注释
   /* 多行注释 */
@@ -86,6 +93,7 @@ public class Hello {
 ### 3.3 代码结构
 
 遵循逻辑分组与可读性原则：
+
 * 每个文件包含**一个与文件同名的public类**
 * 保持代码行简洁易读，每行一条语句
 
@@ -96,9 +104,11 @@ public class Hello {
 ### 4.1 语法错误
 
 编译器可检测的错误：
+
 * 缺失分号 `;`
 * 括号不匹配 `{ }`
 * 大小写错误（Java**区分大小写**）
+
   ```java
   System.out.println("Hi"); // 正确
   system.out.println("Hi"); // 错误
@@ -107,6 +117,7 @@ public class Hello {
 ### 4.2 运行时错误
 
 程序执行时出现的错误：
+
 * 除数为零
 * 数组越界
 * 空指针异常

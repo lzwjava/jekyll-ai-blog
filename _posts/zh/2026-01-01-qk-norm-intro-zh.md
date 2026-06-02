@@ -50,6 +50,7 @@ QK-Norm 通过沿 Head Dimension 对 Q 和 K 向量进行 Normalization（通常
 这确保了点积是有界的（例如，对于单位向量，范围在 [-1, 1] 之间），在防止 Logit 任意爆炸的同时，通过 Scaling Parameter 维持了模型产生尖锐或平滑 Attention 分布的能力。
 
 常见的变体包括：
+
 - **Per-head QK-Norm**：每个 Attention Head 进行独立的 Normalization。
 - **Per-layer QK-Norm**：在所有 Head 间共享，但每层独立。
 - 与其他 Norm 结合（例如 QKV-Norm 同时对 Q、K 和 V 进行 Normalization）。

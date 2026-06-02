@@ -15,6 +15,7 @@ type: note
 ---
 
 ### 1. **理解基础概念**
+
 - **功能**：IoC 容器根据你提供的元数据（通过 XML、Java 注解或 Java 代码）创建、配置和管理 bean（你的应用程序对象）。
 - **核心概念**：
   - **Bean**：由容器管理的对象。
@@ -24,9 +25,12 @@ type: note
 ---
 
 ### 2. **项目设置**
+
 要使用 Spring IoC，你需要一个 Spring 项目。如果是新项目：
+
 - 使用 **Spring Boot**（最简单的方式）或普通 Spring。
 - 在 `pom.xml` 中添加依赖（如果使用 Maven）：
+
   ```xml
   <dependency>
       <groupId>org.springframework</groupId>
@@ -34,7 +38,9 @@ type: note
       <version>6.1.3</version> <!-- 使用最新版本 -->
   </dependency>
   ```
+
 - 对于 Spring Boot，使用：
+
   ```xml
   <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -46,11 +52,14 @@ type: note
 ---
 
 ### 3. **定义 Bean**
+
 主要有三种定义 bean 的方式：
 
 #### a) **使用注解（最常用）**
+
 - 创建一个简单的 Java 类，并用 `@Component`（或更专门的注解如 `@Service`、`@Repository` 等）标注。
 - 示例：
+
   ```java
   import org.springframework.stereotype.Component;
 
@@ -63,8 +72,10 @@ type: note
   ```
 
 #### b) **使用 Java 配置**
+
 - 创建一个带有 `@Configuration` 的配置类，并使用 `@Bean` 定义 bean。
 - 示例：
+
   ```java
   import org.springframework.context.annotation.Bean;
   import org.springframework.context.annotation.Configuration;
@@ -79,7 +90,9 @@ type: note
   ```
 
 #### c) **使用 XML（传统方式）**
+
 - 在 XML 文件（例如 `beans.xml`）中定义 bean：
+
   ```xml
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -92,10 +105,13 @@ type: note
 ---
 
 ### 4. **初始化 IoC 容器**
+
 你需要启动容器来管理你的 bean。
 
 #### a) **使用 Spring Boot**
+
 - Spring Boot 会自动完成。只需创建一个带有 `@SpringBootApplication` 的主类：
+
   ```java
   import org.springframework.boot.SpringApplication;
   import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -107,10 +123,13 @@ type: note
       }
   }
   ```
+
 - 容器会扫描带有 `@Component` 的类并管理它们。
 
 #### b) **使用普通 Spring（基于注解）**
+
 - 使用 `AnnotationConfigApplicationContext`：
+
   ```java
   import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -126,7 +145,9 @@ type: note
   ```
 
 #### c) **使用 XML**
+
 - 使用 `ClassPathXmlApplicationContext`：
+
   ```java
   import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -144,9 +165,11 @@ type: note
 ---
 
 ### 5. **注入依赖**
+
 IoC 容器可以将依赖项注入到你的 bean 中。
 
 #### a) **构造器注入（推荐）**
+
 ```java
 @Component
 public class MyController {
@@ -163,6 +186,7 @@ public class MyController {
 ```
 
 #### b) **Setter 注入**
+
 ```java
 @Component
 public class MyController {
@@ -176,6 +200,7 @@ public class MyController {
 ```
 
 #### c) **字段注入（较少推荐）**
+
 ```java
 @Component
 public class MyController {
@@ -187,14 +212,17 @@ public class MyController {
     }
 }
 ```
+
 - 使用 `@Autowired`（Spring 特定）或 `@Inject`（JSR-330 标准）标记注入点。
 
 ---
 
 ### 6. **运行和使用 Bean**
+
 - 容器一旦运行，就会连接你的 bean 及其依赖项。你可以通过 `context.getBean()`（普通 Spring）获取 bean，或者让 Spring Boot 通过注入自动处理。
 
 Spring Boot 示例：
+
 ```java
 @SpringBootApplication
 public class MyApp {
@@ -209,6 +237,7 @@ public class MyApp {
 ---
 
 ### 7. **额外提示**
+
 - **作用域**：默认情况下，bean 是单例的。使用 `@Scope("prototype")` 实现每次请求新实例。
 - **组件扫描**：如果 bean 在不同的包中，请向配置类添加 `@ComponentScan`。
 - **配置文件**：使用 `@Profile` 在特定环境（例如 "dev"、"prod"）中激活 bean。

@@ -18,6 +18,7 @@ type: note
 **我的选择：** 选择 **1B 或 1.5B** — 你有足够的 VRAM。以 `bf16` 混合精度，1.5B 模型应该能舒适地在 H200 上运行，并留有空间支持不错的 batch size。
 
 1.5B 的快速内存估算：
+
 - Weights: ~3GB (bf16)
 - Adam states: ~12GB
 - Gradients + activations: ~20-30GB

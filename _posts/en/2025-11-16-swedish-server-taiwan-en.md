@@ -26,6 +26,7 @@ When you used `mirror.accum.se`, their redirector saw your Taiwan exit IP and in
 Now you're forcing the Swedish server, so your traffic has to go Guangzhou → Taiwan → USA/undersea cables → Sweden → back the same long way. Round-trip latency jumps from ~30 ms to ~280–350 ms, and bandwidth gets throttled hard.
 
 ### Proof from real-world tests (Nov 2025)
+
 From Taiwan exit nodes right now:
 
 - `mirror.accum.se` → redirects to `ftp-osl.wikimedia.org` (Oslo) or Asian caches → still slow
@@ -37,16 +38,20 @@ From Taiwan exit nodes right now:
 ### Quick fixes (choose one)
 
 1. **Best & fastest**: Switch to an East-Asia mirror (recommended)
+
    ```bash
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles2.xml-p41243p151573.bz2
    wget -c https://ftp.kaist.ac.kr/wikimedia/dumps/enwiki/20251101/enwiki-20251101-pages-articles3.xml-p151574p311329.bz2
    ```
+
    From Taiwan proxy you'll easily pull 30–80 MB/s.
 
 2. Go back to the redirector (it’s smart again)
+
    ```bash
    wget -c https://mirror.accum.se/mirror/wikimedia.org/dumps/enwiki/20251101/...
    ```
+
    It will automatically give you the fastest available mirror for your Taiwan IP.
 
 3. If your Clash rules allow, add a rule to bypass proxy for `*.wikimedia.org` and download domestically (fastest possible, 100+ MB/s from Tsinghua/SJTU mirrors).

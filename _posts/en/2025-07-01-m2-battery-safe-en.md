@@ -23,10 +23,10 @@ This feature learns your charging habits and, if you keep your MacBook plugged i
 
 To enable Optimized Battery Charging:
 
-1.  Go to **System Settings** (or System Preferences on older macOS versions).
-2.  Click on **Battery**.
-3.  Click on the **Battery Health** button.
-4.  Make sure **Optimized Battery Charging** is toggled on.
+1. Go to **System Settings** (or System Preferences on older macOS versions).
+2. Click on **Battery**.
+3. Click on the **Battery Health** button.
+4. Make sure **Optimized Battery Charging** is toggled on.
 
 **Improvements in MacBook Air M2 Battery Technology Compared to 2014 MacBook Pro:**
 
@@ -34,9 +34,9 @@ You're right to be concerned about battery swelling, as that was a more common i
 
 * **Improved Lithium-Polymer Chemistry:** While still lithium-ion based, the specific chemical composition and manufacturing processes have evolved. Modern batteries are more stable and less prone to the gassing that leads to swelling.
 * **Advanced Battery Management Systems (BMS):** The M2's integrated BMS is far more sophisticated than what was in your 2014 model. It constantly monitors various parameters like temperature, voltage, and current to optimize charging, discharging, and overall battery health. This includes:
-    * **Better Temperature Regulation:** Heat is a major enemy of battery life and can contribute to swelling. Modern Macs have better thermal management to keep battery temperatures within optimal ranges.
-    * **Smarter Charging Algorithms:** These algorithms are designed to reduce stress on the battery, such as the Optimized Battery Charging feature mentioned above.
-    * **Protection Against Over-Discharge/Over-Charge:** The BMS prevents the battery from being discharged too low or charged too high, both of which can cause damage.
+  * **Better Temperature Regulation:** Heat is a major enemy of battery life and can contribute to swelling. Modern Macs have better thermal management to keep battery temperatures within optimal ranges.
+  * **Smarter Charging Algorithms:** These algorithms are designed to reduce stress on the battery, such as the Optimized Battery Charging feature mentioned above.
+  * **Protection Against Over-Discharge/Over-Charge:** The BMS prevents the battery from being discharged too low or charged too high, both of which can cause damage.
 * **Physical Design:** While not directly battery chemistry, the internal design and construction of modern MacBooks also play a role in mitigating the effects of any potential battery expansion, though the primary focus is on preventing it in the first place.
 
 **In summary:**

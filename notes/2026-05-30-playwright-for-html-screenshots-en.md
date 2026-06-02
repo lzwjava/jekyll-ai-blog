@@ -69,6 +69,7 @@ page.pdf(path="output.pdf", width="720px", print_background=True)
 CDP is a set of APIs that exposes a running Chromium browser over a WebSocket connection, letting external tools open tabs, evaluate JavaScript, intercept network requests, and capture screenshots programmatically. Playwright and Puppeteer use CDP under the hood.
 
 You'd use raw CDP directly via `pychrome` or `nodriver` when:
+
 - You need to attach to an **already-running Chrome** (e.g., your daily browser session with logged-in state)
 - You need low-level protocol access Playwright doesn't expose (e.g., `Page.captureScreenshot` with specific clip rects, or `Emulation.setDeviceMetricsOverride`)
 

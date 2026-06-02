@@ -45,6 +45,7 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
    Source coding (compression) and channel coding (error correction) can be designed separately and optimally — a result that enabled the entire architecture of modern digital communication.
 
 ### Impact
+
 - Enabled reliable digital communication (cell phones, internet, satellites, CDs/DVDs, hard drives)
 - Modern error-correcting codes (Turbo codes, LDPC) approach Shannon’s limit
 - Data compression (ZIP, JPEG, MP3, video codecs)
@@ -53,6 +54,7 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
 - Almost every digital device owes its existence to Shannon’s theorems
 
 ### Fun Facts & Personality
+
 - Built Theseus, one of the first artificial learning “mice” (1950)
 - Constructed useless machines (the famous “ultimate machine” that turns itself off)
 - Juggling mathematician (wrote first mathematical theory of juggling)
@@ -60,6 +62,7 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
 - Invested successfully in the stock market using early information-theoretic ideas
 
 ### Essential Reading List
+
 1. “A Mathematical Theory of Communication” (1948) – the original paper (surprisingly readable)
 2. “The Bandwagon” (1956) – Shannon’s caution against hype in information theory
 3. “Claude Elwood Shannon: Collected Papers” (IEEE Press, 1993)
@@ -68,6 +71,7 @@ Claude Elwood Shannon (1916–2001) is widely regarded as **the father of modern
 Shannon’s work is one of the rare cases in science where a single person essentially created an entire field that now underpins the modern digital world.
 
 References:
+
 - [A Mathematical Theory of Communication (1948)](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
 - [A Symbolic Analysis of Relay and Switching Circuits (1937)](https://dspace.mit.edu/handle/1721.1/11173)
 - [A Mind at Play – Biography](https://www.simonandschuster.com/books/A-Mind-at-Play/Jimmy-Soni/9781476766683)

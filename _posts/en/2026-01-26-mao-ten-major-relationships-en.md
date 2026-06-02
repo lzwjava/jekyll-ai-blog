@@ -17,11 +17,13 @@ Answer:
 **On the Ten Major Relationships** (Chinese: 《论十大关系》, pinyin: Lùn Shí Dà Guānxi) is one of the most important early theoretical works by **Mao Zedong** after the founding of the People's Republic of China.
 
 ### Basic Information
+
 - **Date**: Delivered as a speech on **April 25, 1956** at an enlarged meeting of the Politburo of the CPC Central Committee.
 - **Official publication**: The text was first publicly released in 1976 (after Mao's death) and later included in Volume 5 of *Selected Works of Mao Zedong*.
 - **Historical context**: The speech came shortly after the **20th Congress of the Communist Party of the Soviet Union** (1956), where Khrushchev criticized Stalin. China was in the process of completing socialist transformation (agriculture, handicrafts, and capitalist industry/commerce) and beginning large-scale socialist construction. Mao wanted to summarize China's own experience and avoid mechanically copying the Soviet model.
 
 ### Core Content and Significance
+
 In the speech, Mao systematically discussed **ten major contradictions/relationships** that needed proper handling during socialist construction in China. The central idea is to correctly handle contradictions among the people, mobilize all positive factors, and explore a **socialist road suited to China's national conditions** — different from the Soviet path.
 
 The **ten major relationships** are:
@@ -38,6 +40,7 @@ The **ten major relationships** are:
 10. The relationship between **the Han nationality** and **the minority nationalities**
 
 ### Key Ideas and Influence
+
 - Mao emphasized **"walking on both legs"** (using two methods simultaneously) rather than one-sided development — for example, developing both heavy and light industry, both coastal and inland areas, both central and local initiative.
 - He advocated learning critically from the **Soviet Union** and other countries, but not copying blindly: "We must learn from the good experiences of foreign countries, and we must also learn from their bad experiences."
 - The speech is regarded as **Mao's first major attempt** to outline a Chinese path to socialism, laying important ideological groundwork for later policies.

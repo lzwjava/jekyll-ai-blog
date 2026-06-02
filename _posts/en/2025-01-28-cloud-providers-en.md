@@ -22,7 +22,6 @@ Used:
 * [Alibaba Cloud](https://www.alibabacloud.com)
 * [Alibaba Cloud (China)](https://cn.aliyun.com)
 
-
 Heard of or used for a short time:
 
 * [UCloud](https://www.ucloud.cn)

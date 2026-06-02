@@ -46,6 +46,7 @@ Google Cloud Armor 是 Google Cloud 的 **network security service**，旨在保
 ### Where It Attaches
 
 Cloud Armor policies 主要附加到：
+
 - 全球外部 **Application Load Balancers** (HTTP/HTTPS)
 - Classic Application Load Balancers
 - 某些跨项目和 multi-cloud 场景（需正确配置）

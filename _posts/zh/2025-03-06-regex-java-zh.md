@@ -62,6 +62,7 @@ public class EmailValidator {
 ```
 
 ### 解释
+
 - **`Pattern.compile(regex)`**：将正则表达式字符串编译为 `Pattern` 对象。
 - **`pattern.matcher(email)`**：为输入字符串 `email` 创建 `Matcher`。
 - **`matcher.matches()`**：如果整个字符串匹配模式，则返回 `true`，否则返回 `false`。
@@ -93,10 +94,12 @@ public class HashtagExtractor {
 ```
 
 ### 解释
+
 - **`matcher.find()`**：移动到输入字符串中的下一个匹配项，如果找到匹配项则返回 `true`。
 - **`matcher.group()`**：返回当前匹配项的匹配文本。
 
 **输出**：
+
 ```
 #示例
 #多个
@@ -162,6 +165,7 @@ public class SSNParser {
 ```
 
 ### 解释
+
 - **`"(\\d{3})-(\\d{2})-(\\d{4})"`**：定义三个分组：
   - 分组 1：`\\d{3}`（三位数字）
   - 分组 2：`\\d{2}`（两位数字）
@@ -169,6 +173,7 @@ public class SSNParser {
 - **`matcher.group(n)`**：检索分组 `n` 匹配的文本（基于 1 的索引）。
 
 **输出**：
+
 ```
 区域号码：123
 组号码：45
@@ -191,8 +196,11 @@ if (matcher.matches()) {
 ## 附加功能和提示
 
 ### 标志
+
 在 `Pattern.compile()` 中使用标志修改模式行为：
+
 - **`Pattern.CASE_INSENSITIVE`**：匹配时忽略大小写。
+
   ```java
   Pattern pattern = Pattern.compile("hello", Pattern.CASE_INSENSITIVE);
   Matcher matcher = pattern.matcher("HELLO");
@@ -200,13 +208,18 @@ if (matcher.matches()) {
   ```
 
 ### 字符串方法
+
 对于简单任务，使用 `String` 方法：
+
 - **`matches()`**：检查整个字符串是否匹配正则表达式。
+
   ```java
   String text = "cat";
   System.out.println(text.matches("\\w{3}")); // true
   ```
+
 - **`split()`**：按正则表达式模式分割字符串。
+
   ```java
   String data = "apple, banana, cherry";
   String[] fruits = data.split("\\s*,\\s*");
@@ -214,12 +227,16 @@ if (matcher.matches()) {
   ```
 
 ### 转义特殊字符
+
 正则表达式使用特殊字符，如 `.`、`*` 和 `?`。要字面匹配它们，使用 `\\` 转义：
+
 - 匹配句点：`"\\."`
 - 在 Java 字符串中，转义反斜杠：`"\\d"` 表示数字，`"\\\\"` 表示字面反斜杠。
 
 ### 性能
+
 编译模式代价高昂。尽可能重用 `Pattern` 对象：
+
 ```java
 Pattern pattern = Pattern.compile("\\d+"); // 编译一次
 for (String input : new String[]{"123", "456"}) {
@@ -231,7 +248,9 @@ for (String input : new String[]{"123", "456"}) {
 ```
 
 ### 错误处理
+
 无效的正则表达式模式会抛出 `PatternSyntaxException`。在生产代码中处理它：
+
 ```java
 try {
     Pattern pattern = Pattern.compile("["); // 无效的正则表达式

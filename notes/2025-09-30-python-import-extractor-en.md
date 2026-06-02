@@ -77,6 +77,7 @@ if __name__ == "__main__":
 ```
 
 ### How It Works
+
 - **Directory Traversal**: Uses `os.walk` to recursively visit all subdirectories and files.
 - **File Filtering**: Only processes `.py` files.
 - **Import Parsing**: Employs `ast` to safely parse source code and identify `Import` and `ImportFrom` nodes. Splits on `.` to capture the top-level module (e.g., `numpy` from `import numpy.linalg`).

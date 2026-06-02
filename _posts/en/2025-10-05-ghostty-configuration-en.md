@@ -15,6 +15,7 @@ type: note
 Ghostty's configuration file uses a simple, text-based format with key-value pairs in the style of `key = value`. It's designed to be straightforward, letting you override only the defaults you care about—Ghostty ships with sensible built-in defaults for everything else, so a minimal or even empty config file works fine.
 
 #### Quick Syntax Breakdown
+
 - **Keys and values**: Keys are always lowercase and case-sensitive (e.g., `font-family = JetBrains Mono`). Values can be unquoted unless they contain spaces or special characters (e.g., `font-family = "JetBrains Mono Nerd Font"`). Spacing around the `=` doesn't matter.
 - **Comments**: Start a line with `#` for notes (e.g., `# My custom theme`). No inline comments after values, or they'll get parsed as part of the value.
 - **Reset to default**: Use an empty value like `key =` to revert a setting to Ghostty's built-in default.
@@ -27,6 +28,7 @@ Changes take effect immediately if you reload with the default keybinding (Cmd+S
 To see all options and defaults, run `ghostty +show-config --default --docs` in your terminal.
 
 ### What's a Normal Config?
+
 A "normal" config is often minimal—just tweaking a few things like font, colors, or padding for comfort. Ghostty's defaults include JetBrains Mono as the font family (with built-in Nerd Font support), a clean background/foreground scheme, and no extra padding.
 
 Here's a simple, typical example for a dark-themed setup with a popular font, some padding, and basic keybindings. Save this as your `config` file:

@@ -44,6 +44,7 @@ The modern Google Cloud CLI is a single bundled distribution that contains sever
   - **alpha** – experimental, can change or disappear without notice
 
   You run them like:
+
   ```bash
   gcloud beta run services list
   gcloud alpha network-security security-profiles list
@@ -51,6 +52,7 @@ The modern Google Cloud CLI is a single bundled distribution that contains sever
 
 - **Configuration & Contexts**
   gcloud maintains named configurations (like kubectl contexts):
+
   ```bash
   gcloud config configurations create prod
   gcloud config configurations activate dev
@@ -67,6 +69,7 @@ The modern Google Cloud CLI is a single bundled distribution that contains sever
 
 - **Output formats**
   Very script-friendly:
+
   ```bash
   gcloud compute instances list --format="value(name,zone,status)"
   gcloud projects list --format="table(projectId, name, state)"
@@ -74,6 +77,7 @@ The modern Google Cloud CLI is a single bundled distribution that contains sever
   ```
 
 - **Emulators for local development**
+
   ```bash
   gcloud beta emulators firestore start
   gcloud beta emulators pubsub start

@@ -42,6 +42,7 @@ type: note
    - Compiled and ran test CUDA program successfully
 
 **Key Commands Used:**
+
 ```bash
 # Fix dpkg locks and kill stuck processes
 sudo kill -9 $(ps aux | grep dpkg | grep -v grep | awk '{print $2}')

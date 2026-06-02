@@ -14,6 +14,7 @@ type: note
 ## 销毁之前
 
 **1. 检查是否仍有正在运行的程序：**
+
 ```bash
 # 是否在训练中？
 tmux ls
@@ -23,11 +24,13 @@ lsof /mnt/data
 ```
 
 **2. 干净地卸载卷：**
+
 ```bash
 umount /mnt/data
 ```
 
 **3. 确认已卸载：**
+
 ```bash
 df -h  # /mnt/data 应该已消失
 ```
@@ -48,6 +51,7 @@ doctl compute droplet delete <droplet-id> --force
 ## 或者直接通过 DigitalOcean 界面
 
 既然你已经在界面中了：
+
 1. 进入你的 droplet → **Volumes** 标签页 → **Detach** 卷
 2. 然后 **Destroy** droplet
 

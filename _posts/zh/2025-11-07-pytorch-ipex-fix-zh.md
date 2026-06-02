@@ -42,6 +42,7 @@ pip install --upgrade intel-extension-for-pytorch
 ## 解决方案3：如果你需要CUDA版本的PyTorch
 
 如果你确实需要CUDA支持（用于NVIDIA GPU），那么你根本不应该使用Intel Extension for PyTorch - 它们服务于不同的硬件：
+
 - **Intel GPU/CPU**：使用PyTorch CPU构建 + IPEX
 - **NVIDIA GPU**：使用PyTorch CUDA构建（不需要IPEX）
 

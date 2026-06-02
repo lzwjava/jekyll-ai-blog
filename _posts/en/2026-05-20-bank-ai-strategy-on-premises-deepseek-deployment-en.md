@@ -22,6 +22,7 @@ Yes, that is exactly the right framing. Here's the full picture.
 On April 24, 2026, DeepSeek released DeepSeek V4 and V4-Pro. V4-Pro has 1.6T total / 49B active parameters; V4-Flash has 284B total / 13B active parameters. Both support a 1M token context window. Both are licensed under the MIT License with weights published on Hugging Face.
 
 Key architectural innovations:
+
 - A Hybrid Attention Architecture combining Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA); in the 1M-token setting, V4-Pro requires only 27% of single-token inference FLOPs and just 10% of the KV cache compared to V3.2.
 - Both models support three reasoning effort modes (Thinking / Non-Thinking) and are integrated with agents like Claude Code and OpenCode.
 
@@ -32,6 +33,7 @@ Key architectural innovations:
 This is the critical point. DeepSeek's hosted API involves Chinese data residency. For teams in regulated industries or with US/EU compliance requirements, self-hosting the open weights is the clean path — it sidesteps data sovereignty concerns entirely and gives you full control over inference behavior.
 
 Banks have:
+
 - **Data residency requirements** — customer data, trade data, internal comms cannot leave approved jurisdictions
 - **Third-party vendor risk policies** — routing production traffic to a Chinese-hosted API won't pass InfoSec review
 - **Model auditability requirements** — you need to know exactly which weights you're running, not a "preview" that can silently change
@@ -94,6 +96,7 @@ For production-grade serving with auth, rate limiting, and audit logging (what b
 The optimal strategy for most teams: route 70–80% of traffic to V4-Flash and escalate to V4-Pro for complex tasks.
 
 For your context as an AI engineer at a bank:
+
 - **V4-Flash** → code generation, test case generation, RAG over internal docs, routine automation (iclaw-style use cases)
 - **V4-Pro** → complex agentic workflows, long-context document analysis (full codebase review, regulatory documents), hard reasoning tasks
 

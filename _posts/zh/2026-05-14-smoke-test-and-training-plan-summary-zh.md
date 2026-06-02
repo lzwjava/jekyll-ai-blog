@@ -34,6 +34,7 @@ type: note
 ## 计划
 
 **架构（自定义，介于 GPT-2 small 和 medium 之间）：**
+
 ```
 n_layer = 18,  n_head = 16,  n_embd = 896     → 2.185 亿非嵌入参数
 ```

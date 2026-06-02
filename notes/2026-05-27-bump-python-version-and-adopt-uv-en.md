@@ -36,17 +36,21 @@ Files modified:
 
 How it works now:
 
-  # Fresh clone + install
+# Fresh clone + install
+
   uv sync          # creates .venv, installs deps from lockfile
   uv run ww note   # run any command via uv
 
-  # Or install globally as a tool
+# Or install globally as a tool
+
   uv tool install -e .
 
-  # pip still works as before
+# pip still works as before
+
   pip install -e .
 
 Key notes:
+
 - uv sync respects the existing .venv/ if present, or creates a new one
 - uv lock pins all transitive deps for reproducible installs across machines/CI
 - CI now uses astral-sh/setup-uv which caches deps automatically — much faster than pip

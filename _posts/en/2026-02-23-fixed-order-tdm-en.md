@@ -15,7 +15,8 @@ Answer:
 
 The type of time-division multiplexing that allocates time slots to various signals in a **fixed order** is called **Synchronous Time-Division Multiplexing (STDM)**.
 
-### Explanation:
+### Explanation
+
 - **Synchronous TDM**:
   - Time slots are pre-assigned to each input channel in a round-robin fashion, regardless of whether the channel has data to send.
   - The order of transmission is fixed and predictable.

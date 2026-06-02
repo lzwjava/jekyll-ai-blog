@@ -29,6 +29,7 @@ JDK 11, released in 2018 as the first long-term support (LTS) version after JDK 
 These opinions highlight the tension between Java's evolution and its massive legacy codebase, though many teams successfully migrated and appreciate JDK 11's garbage collection tweaks and security fixes in hindsight.
 
 References:
+
 - [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)
 - [JDK 11: Pitfalls for the Unwary](https://medium.com/@speakjava/jdk-11-pitfalls-for-the-unwary-e08d864065c1)
 - [Java 11 sucks big time](https://www.reddit.com/r/java/comments/9vmk0w/java_11_sucks_big_time/)

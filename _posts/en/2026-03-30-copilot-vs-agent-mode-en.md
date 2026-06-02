@@ -35,15 +35,15 @@ Plan Mode creates, refines, and executes step-by-step implementation plans. It a
 
 The Plan agent enables you to create detailed implementation plans before starting implementation to ensure all requirements are met. With todo lists, the agent can ensure it stays focused on overall goals and tracks progress effectively.
 
-### How to activate Plan Mode in VS Code:
+### How to activate Plan Mode in VS Code
 
 Open the Chat view (`Ctrl+Alt+I`) and select **Plan** from the agents dropdown. Alternatively, type `/plan` followed by your task description to switch to the Plan agent and start planning in one step.
 
-### How Planning works internally:
+### How Planning works internally
 
 When a developer asks Copilot to perform a complex, multi-step task, it determines whether to respond directly or activate its planning mode. Simple prompts get quick answers, while multi-step ones trigger a coordinated plan. When invoked, Planning creates a **Markdown file** that defines the task, research steps, and progress updates as each execution step begins. As Copilot works, it revises and refines the plan — adapting to new context or results.
 
-### Plan Mode for merge conflicts:
+### Plan Mode for merge conflicts
 
 This is ideal when you want to first **review the strategy** for resolving conflicts across multiple files — Copilot proposes which files to touch, what changes to make, and in what order, and **you approve before any code changes**.
 
@@ -57,7 +57,7 @@ Instead of only rewriting lines you specify, Agent Mode analyzes related code, i
 
 Agent mode applies edits **automatically** rather than waiting for explicit approval at every step, while still surfacing any potentially risky commands for review before they run.
 
-### Agent Mode for merge conflicts:
+### Agent Mode for merge conflicts
 
 You describe the conflict resolution goal in natural language, and Copilot autonomously edits all affected files, runs tests, and iterates until the task is complete — with minimal interruption.
 

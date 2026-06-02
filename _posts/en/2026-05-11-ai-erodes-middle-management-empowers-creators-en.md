@@ -28,6 +28,7 @@ Senior Leadership receives summary
 ```
 
 The core job of a middle manager is essentially:
+
 - **Information relay** — up and down the chain
 - **Task assignment** — telling ICs what to do
 - **Status reporting** — translating IC work into slides/reports
@@ -54,6 +55,7 @@ An IC who **tinkers, breaks things, and learns** (like you with Linux) becomes *
 ### The Dangerous Middle Manager Profile
 
 > Someone who:
+>
 > - Relies on **meetings** to appear productive
 > - **Cannot** do the actual IC work themselves
 > - Adds value only through **human coordination**

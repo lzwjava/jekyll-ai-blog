@@ -34,11 +34,11 @@ type: note
 
 参考资料：
 
-- https://dev.to/aws-builders/cloud-outages-the-unpopular-truth-no-one-wants-to-hear-4enl
-- https://www.reddit.com/r/sysadmin/comments/16ydav5/am_i_the_only_one_who_kinda_hates_the_cloud/
-- https://www.cloudflare.com/learning/cloud/multicloud-vs-hybrid-cloud/
-- https://www.infoworld.com/article/2270528/why-traditional-ip-networking-is-wrong-for-the-cloud.html
-- https://cloudviz.io/blog/aws-vpc-peering-vs-transit-gateway
-- https://www.reddit.com/r/aws/comments/ynrm9k/transit_gateway_or_vpc_peering_for_crossregion/
-- https://blog.ipspace.net/2020/11/why-public-cloud-networking-so-different/
-- https://www.networkcomputing.com/cloud-networking/cloud-connectivity-methods-and-myths
+- <https://dev.to/aws-builders/cloud-outages-the-unpopular-truth-no-one-wants-to-hear-4enl>
+- <https://www.reddit.com/r/sysadmin/comments/16ydav5/am_i_the_only_one_who_kinda_hates_the_cloud/>
+- <https://www.cloudflare.com/learning/cloud/multicloud-vs-hybrid-cloud/>
+- <https://www.infoworld.com/article/2270528/why-traditional-ip-networking-is-wrong-for-the-cloud.html>
+- <https://cloudviz.io/blog/aws-vpc-peering-vs-transit-gateway>
+- <https://www.reddit.com/r/aws/comments/ynrm9k/transit_gateway_or_vpc_peering_for_crossregion/>
+- <https://blog.ipspace.net/2020/11/why-public-cloud-networking-so-different/>
+- <https://www.networkcomputing.com/cloud-networking/cloud-connectivity-methods-and-myths>

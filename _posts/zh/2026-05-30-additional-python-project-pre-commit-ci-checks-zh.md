@@ -18,6 +18,7 @@ type: note
 ## 高价值 —— 优先添加这些
 
 ### `pytest` + `pytest-cov`
+
 ```yaml
 - repo: local
   hooks:
@@ -28,13 +29,17 @@ type: note
       pass_filenames: false
       always_run: true
 ```
+
 覆盖率门禁：
+
 ```yaml
 entry: pytest --cov=ww --cov-fail-under=80 -q
 ```
 
 ### `bandit` —— 安全 lint 检查
+
 捕获硬编码的机密信息、Shell 注入、不安全的 `eval` 等。
+
 ```yaml
 - repo: https://github.com/PyCQA/bandit
   rev: 1.8.3
@@ -44,7 +49,9 @@ entry: pytest --cov=ww --cov-fail-under=80 -q
 ```
 
 ### `detect-secrets`
+
 在提交前扫描 API 密钥、令牌、密码等。
+
 ```yaml
 - repo: https://github.com/Yelp/detect-secrets
   rev: v1.5.0
@@ -52,6 +59,7 @@ entry: pytest --cov=ww --cov-fail-under=80 -q
     - id: detect-secrets
       args: ['--baseline', '.secrets.baseline']
 ```
+
 初始化一次：`detect-secrets scan > .secrets.baseline`
 
 ---
@@ -59,18 +67,22 @@ entry: pytest --cov=ww --cov-fail-under=80 -q
 ## 中等价值 —— 视情况添加
 
 ### `mypy` —— 严格类型检查
+
 你已经使用了 `pyright`，但 `mypy` 能捕获不同的边界情况。同时运行两者有些过度 —— 除非某个依赖只有 mypy 的存根，否则坚持用 pyright。
 
 ### `pip-audit` —— 依赖项 CVE 扫描
+
 ```yaml
 - repo: https://github.com/pypa/pip-audit
   rev: v2.9.0
   hooks:
     - id: pip-audit
 ```
+
 检查 `requirements.txt` / `pyproject.toml` 与 OSV/PyPI 漏洞数据库的对比。
 
 ### `vulture` —— 死代码检测
+
 ```yaml
 - repo: https://github.com/jendrikseipp/vulture
   rev: v2.14
@@ -78,9 +90,11 @@ entry: pytest --cov=ww --cov-fail-under=80 -q
     - id: vulture
       args: ["ww/", "--min-confidence", "80"]
 ```
+
 对于像 `ww` 这样的 CLI 工具尤其有用，因为命令会不断积累。
 
 ### `interrogate` —— 文档字符串覆盖率
+
 ```yaml
 - repo: https://github.com/econchick/interrogate
   rev: 1.7.0

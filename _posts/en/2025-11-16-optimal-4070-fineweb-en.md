@@ -59,11 +59,13 @@ compile = True                     # PyTorch 2.0 compile, works great on 4070
   → so `max_iters = 250000` gives you ~15–16 full epochs → perfect convergence
 
 ### Expected Training Time on 4070
+
 - ~22–26 it/s with PyTorch compile
 - 250k iterations → ~110–130 hours ≈ 5 days of continuous training
 - Final model will be **surprisingly strong** for only 110M params because FineWeb is so clean
 
 ### How to Run It
+
 ```bash
 # Put your parquet file in a folder, e.g.
 mkdir -p data/fineweb_one_shard

@@ -19,6 +19,7 @@ type: note
 哪吒汽车搭载自主研发的**哪吒OS**智能座舱系统，基于黑莓QNX Neutrino实时操作系统和Hypervisor虚拟化技术构建安全基座，并搭载高通骁龙数字座舱平台（如哪吒S采用的第三代平台）实现高性能计算。该系统支持多屏流畅交互，并具备整车OTA升级能力。
 
 主要特性包括：
+
 - **超大触控屏**：哪吒X等车型配备17.6英寸竖置中控屏与8英寸数字仪表盘
 - **智能语音助手**：支持自然语音指令（如"导航至最近充电站"），新款车型集成哪吒GPT对话AI
 - **全场景互联**：5G/Wi-Fi/4G网络支持，兼容苹果CarPlay/安卓Auto，可通过哪吒APP远程控车
@@ -30,6 +31,7 @@ type: note
 ### 设置与控制
 
 通过中控屏或方向盘快捷键可进行全方位设置：
+
 - **车辆设置**：驾驶模式（节能/标准/运动）、能量回收强度、胎压监测、灯光控制
 - **气候管理**：双区自动空调带热泵系统（支持-20℃运行），座椅加热/方向盘加热，智能预调温
 - **安全辅助**：紧急制动、盲区监测、行人警示及360°环视影像
@@ -41,6 +43,7 @@ type: note
 ### 充电方案与选项
 
 全系支持CCS2/国标充电接口，提供灵活补能方案：
+
 - **电池性能**：容量覆盖31.7-91kWh，CLTC续航300-715公里，提供8年/16万公里质保
 - **直流快充**：最高100kW功率，30分钟可实现20%-80%充电（哪吒U Pro充电15分钟增程220公里）
 - **交流慢充**：6.6-7kW功率，满电需8-17小时，随车配送便携充电器
@@ -63,6 +66,7 @@ type: note
 具体车型信息请咨询当地经销商或查阅哪吒APP。
 
 ### 参考资料
+
 - [哪吒X电动SUV规格](https://www.facebook.com/groups/838869287851716/posts/1221523136252994/)
 - [哪吒汽车选择黑莓QNX](https://www.prnewswire.com/news-releases/neta-auto-selects-blackberry-qnx-to-power-the-neta-s-next-generation-ev-sedan-for-the-chinese-market-301596193.html)
 - [合众哪吒S上市信息](https://www.reddit.com/r/electricvehicles/comments/wdq6ai/hozon_neta_s_officially_launched_in_china_starts/)

@@ -40,6 +40,7 @@ From now on, I hope you will change this bad habit. Toward teachers you should s
 As for your fellow students, you should regard them all as companions on the same path of learning. Regardless of wealth or poverty, high or low origin, you should treat one another with sincerity and mutual help. You should exchange knowledge, discuss scholarship, encourage one another in virtue, and admonish one another against wrongdoing. Only in this way can the university truly become a noble community of learning.
 
 In summary, the three expectations I place upon you are:
+
 1. Hold firmly to your purpose — come here for the sake of learning, not for official position or wealth.
 2. Sharpen your moral character — take “do not do to others what you do not want done to yourself” as your lifelong guide.
 3. Respect teachers and befriend classmates — build a campus atmosphere of genuine scholarly pursuit, equality, and mutual assistance.

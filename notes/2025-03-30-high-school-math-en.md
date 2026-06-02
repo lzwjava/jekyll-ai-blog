@@ -12,15 +12,15 @@ Okay, here is a list of high school math topics, aiming for a concise overview o
 
 **Algebra:**
 
-1.  Variables and Expressions
-2.  Linear Equations (one variable)
-3.  Solving Linear Inequalities
-4.  Graphing Linear Equations (slope-intercept form)
-5.  Systems of Linear Equations (solving methods)
-6.  Exponents and Radicals (properties)
-7.  Polynomials (addition, subtraction, multiplication)
-8.  Factoring Polynomials (various techniques)
-9.  Quadratic Equations (standard form)
+1. Variables and Expressions
+2. Linear Equations (one variable)
+3. Solving Linear Inequalities
+4. Graphing Linear Equations (slope-intercept form)
+5. Systems of Linear Equations (solving methods)
+6. Exponents and Radicals (properties)
+7. Polynomials (addition, subtraction, multiplication)
+8. Factoring Polynomials (various techniques)
+9. Quadratic Equations (standard form)
 10. Solving Quadratic Equations (factoring, quadratic formula)
 11. Graphing Quadratic Functions (parabolas)
 12. Rational Expressions (simplifying, operations)

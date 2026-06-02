@@ -51,9 +51,11 @@ These are pre-filtered and deduplicated, saving you enormous preprocessing work.
 You're right to think carefully about this. Here are the real strategies:
 
 ### Option A: Use Pre-existing Open Datasets (Best ROI)
+
 Common Crawl comprises petabytes of raw web data released monthly. GPT-3, LLaMA, OpenLLaMA, and T5 all used it in pre-training. You can download specific monthly snapshots directly from `commoncrawl.org` — they offer free S3 access via AWS, which is the cheapest path.
 
 ### Option B: Hugging Face `datasets` Library Streaming
+
 You don't need to download 10TB all at once. Use Hugging Face's streaming API — process data on-the-fly without storing everything locally. This avoids the bandwidth problem entirely for training purposes.
 
 ```python
@@ -62,6 +64,7 @@ ds = load_dataset("HuggingFaceFW/fineweb-edu", streaming=True, split="train")
 ```
 
 ### Option C: VPS / Server with Unlimited Internal Bandwidth (Your DMIT approach)
+
 Your instinct about DMIT is solid for bulk downloading:
 
 - Use a VPS with **unlimited or high-quota internal bandwidth** to download datasets from Hugging Face / Common Crawl S3
@@ -71,6 +74,7 @@ Your instinct about DMIT is solid for bulk downloading:
 Used HDDs can be found at around €10/TB on eBay or Amazon — just be cautious about "0-hour usage" claims from resellers, and factor in that some drives may fail in transit.
 
 ### Option D: Ask Friends / Research Groups for Direct Drive Copy
+
 100% valid. Academic labs and ML communities often share drives directly for exactly this reason. The ML community around Hugging Face is very collaborative about this.
 
 ---

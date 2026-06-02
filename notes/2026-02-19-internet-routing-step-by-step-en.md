@@ -14,12 +14,14 @@ Great question! You’re touching on the core of how the internet routes traffic
 ---
 
 ### 1. **DNS Resolution**
+
 - When you type `google.com`, your device first queries a **DNS server** to resolve the domain name to an IP address (e.g., `142.250.73.78`).
 - This IP is the final destination for your packets.
 
 ---
 
 ### 2. **Local Routing Table**
+
 - Your device checks its **local routing table** to decide where to send the packet next.
 - For most home networks, the default route is your **home router** (e.g., `192.168.1.1`).
 - Your device sends the packet to `192.168.1.1` because it’s the **default gateway** for all non-local traffic.
@@ -27,6 +29,7 @@ Great question! You’re touching on the core of how the internet routes traffic
 ---
 
 ### 3. **Router Forwarding**
+
 - Your home router (`192.168.1.1`) receives the packet and checks its own routing table.
 - It knows that for any IP not in your local network, it should forward the packet to your **ISP’s router** (the next hop).
 - The ISP’s router is usually the first external IP you see in `traceroute` (e.g., `14.147.135.206`).
@@ -34,6 +37,7 @@ Great question! You’re touching on the core of how the internet routes traffic
 ---
 
 ### 4. **ISP and Beyond**
+
 - Your ISP’s router receives the packet and checks its **routing table**.
 - ISPs use **Border Gateway Protocol (BGP)** to exchange routing information with other ISPs and networks.
 - BGP dynamically updates routing tables to reflect the best path to each destination IP.
@@ -42,6 +46,7 @@ Great question! You’re touching on the core of how the internet routes traffic
 ---
 
 ### 5. **Dynamic Routing Updates**
+
 - Routing tables are **not static**. They are updated dynamically using protocols like:
   - **BGP** (for inter-network routing, e.g., between ISPs)
   - **OSPF** or **RIP** (for intra-network routing, e.g., within an ISP’s network)
@@ -50,6 +55,7 @@ Great question! You’re touching on the core of how the internet routes traffic
 ---
 
 ### 6. **Traceroute in Action**
+
 - Each line in your `traceroute` output represents a router (hop) that forwarded your packet.
 - The `*` means the router didn’t respond (common for security reasons).
 - The IP addresses you see are the interfaces of routers that responded.
@@ -57,6 +63,7 @@ Great question! You’re touching on the core of how the internet routes traffic
 ---
 
 ### 7. **Proxy Note**
+
 - Your output shows a proxy (`127.0.0.1:7890`). This means your traffic is being routed through a local proxy before reaching the internet.
 - The proxy may alter the path or hide some hops, but the fundamental routing process remains the same.
 
@@ -65,7 +72,6 @@ Great question! You’re touching on the core of how the internet routes traffic
 ### **Summary Table: How Routing Works**
 
 Routing Process
-
 
 | Step                | Action                                                                 |
 |---------------------|------------------------------------------------------------------------|
@@ -78,6 +84,7 @@ Routing Process
 ---
 
 ### **Key Points**
+
 - **Routing tables** are like maps for routers, telling them where to send packets next.
 - **BGP** is the protocol that keeps the internet’s routing tables up-to-date.
 - **Traceroute** shows the path your packet takes, hop by hop.

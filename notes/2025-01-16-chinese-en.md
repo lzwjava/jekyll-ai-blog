@@ -6,6 +6,7 @@ type: note
 ---
 
 ### I. Overview of Exam Content
+
 1. **Overview of Classical Chinese Literature**: Understanding the origins, schools, development, and influence of classical Chinese literature on later periods.
 2. **Historical Phases of Classical Chinese Literature**: Major literary stages from the Pre-Qin period to the Qing dynasty and their representative works.
 3. **Ideological Background of Classical Literature**: The influence of Confucianism, Daoism, and Legalism on literature, as well as the role of historical context in shaping literary schools.
@@ -14,6 +15,7 @@ type: note
 6. **Classical Chinese Literature in a Global Context**: Analyzing the place and influence of classical Chinese literature in world literary traditions.
 
 ### II. Classical Chinese Literature and Representative Works
+
 7. **The Book of Songs (Shi Jing)**: Analyzing its historical significance as China’s earliest anthology of poetry, divided into three sections: Feng, Ya, and Song.
 8. **Language and Artistic Features of the Book of Songs**: The use of simple, plain language, depiction of daily life and nature, and the employment of parallelism and antithesis.
 9. **Emotional Expression in the Book of Songs**: The portrayal of themes such as love, politics, and social issues.
@@ -35,6 +37,7 @@ type: note
 25. **Major Yuan Playwrights**: Key figures such as Guan Hanqing and Zheng Guangzu, and their contributions to Chinese theater.
 
 ### III. Classical Literary Theory
+
 26. **Literary Thoughts in the Pre-Qin Period**: The influence of Confucianism, Daoism, and Legalism on early Chinese literary creation.
 27. **Confucian Literary Thought**: Confucian values like virtue, loyalty, and propriety in literary works, with a focus on social responsibility and moral guidance.
 28. **Daoist Literary Thought**: The influence of Daoism’s natural philosophy on literary works, advocating for spontaneity and simplicity.
@@ -52,6 +55,7 @@ type: note
 40. **Aesthetic Standards in Classical Literature**: Classical Chinese aesthetics focused on beauty, virtue, and moral harmony.
 
 ### IV. Modern Chinese Literature Overview
+
 41. **Modern Chinese Literature Post-May Fourth Movement**: The May Fourth Movement’s influence on modern Chinese literature, including the rise of vernacular literature.
 42. **Literary Movements in Modern China**: The New Culture Movement, Leftist Literature, and the rise of vernacular Chinese in literary creation.
 43. **The Role of Lu Xun in Modern Chinese Literature**: Lu Xun’s status as the founding figure of modern Chinese literature, particularly through works like *A Madman's Diary* and *The True Story of Ah Q*.
@@ -64,6 +68,7 @@ type: note
 50. **Modern Essays and Autobiographical Literature**: The development of essays and autobiographical writing in the modern period, with writers like Lu Xun, Guo Moruo, and Liang Shiqiu.
 
 ### V. Classical and Modern Literary Works
+
 51. **Analysis of *Nahan* (Call to Arms)**: Lu Xun’s influence on modern Chinese literature, especially his short story *Diary of a Madman*.
 52. **Analysis of *Wandering* (彷徨)**: The exploration of the inner conflicts and dilemmas of modern individuals, as seen in works by Lu Xun.
 53. **Analysis of *Midnight* (子夜)**: Ba Jin’s depiction of the social and political turbulence in modern China.
@@ -79,6 +84,7 @@ type: note
 61. **Literature in the Cultural Revolution**: The impact of political movements like the Cultural Revolution on literature, particularly through the promotion of revolutionary literature.
 
 ### VI. Foreign Literature and Its Influence
+
 62. **Shakespeare’s Works**: Analyzing Shakespeare’s plays and poems, and their profound influence on world literature.
 63. **The Golden Age of Russian Literature**: Contributions of Russian authors like Pushkin, Tolstoy, and Dostoevsky to global literature.
 64. **French Romantic Literature**: The works of Hugo, Balzac, Flaubert, and others in the context of French Romanticism.
@@ -89,6 +95,7 @@ type: note
 69. **Foreign Literature's Influence on Chinese Modern Literature**: The role of Western literary theories and techniques in shaping Chinese modernist literature.
 
 ### VII. Literary Analysis and Creative Techniques
+
 70. **Thematic Analysis of Literary Works**: Exploring the themes of various literary works and how they convey deep intellectual insights.
 71. **Character Development**: Analyzing how authors shape characters through personality traits, actions, and internal motivations.
 72. **Symbolism and Metaphor**: How symbols and metaphors convey deeper meanings in literature.
@@ -107,6 +114,7 @@ type: note
 85. **Literature as Social Criticism**: How literature serves as a tool for social critique, revealing societal issues and injustices.
 
 ### VIII. Literature and Culture
+
 86. **Literature’s Interaction with Culture**: The role of literature in reflecting cultural values, social norms, and national identity.
 87. **Cross-Cultural Literature**: The impact of cultural exchange on literature and how different cultural traditions shape literary works.
 88. **Literature and Social Change**: How literature acts as a driver for social change, reflecting and recording historical transformations.

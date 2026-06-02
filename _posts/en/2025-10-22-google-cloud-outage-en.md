@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Overview
+
 On June 12, 2025, Google Cloud Platform (GCP) experienced a major global outage lasting approximately 7.5 hours (from 10:51 PDT to 18:18 PDT). The incident stemmed from a bug in a newly introduced feature within Google's Service Control system, specifically related to quota policy checks. This caused an invalid automated quota update to propagate globally, leading to widespread API rejections and task overloads, particularly in high-traffic regions like us-central1 (Iowa). The outage disrupted access to numerous GCP services, Google Workspace products, and third-party applications dependent on GCP infrastructure, resulting in over 1.4 million user reports on Downdetector.
 
 ### Timeline
+
 (All times in US/Pacific, PDT)
 
 - **10:51 AM**: Outage begins with increased 503 errors in external API requests across multiple GCP and Google Workspace products, causing intermittent access issues.
@@ -30,12 +32,15 @@ On June 12, 2025, Google Cloud Platform (GCP) experienced a major global outage 
 The primary mitigation took about 3 hours, but residual backlogs and errors extended the total impact to 7.5 hours.
 
 ### Root Cause
+
 The outage was triggered by a flaw in the Service Control feature, which manages API quotas and policies. An automated system inserted an invalid quota policy containing blank or null fields into the database. Due to global replication (designed for near-instant consistency), this corrupted data spread worldwide within seconds. When API requests hit the quota check, it resulted in null pointer exceptions and rejections (elevated 503 and 5xx errors). In large regions like us-central1, the influx of failed requests caused severe task overloads and cascading failures in dependent services. The new feature lacked sufficient validation for edge cases like blank fields, and the system did not "fail open" (allowing requests to proceed during checks).
 
 ### Affected Services
+
 The outage impacted a broad array of Google products and external services reliant on GCP. Core GCP and Google Workspace services saw varying degrees of disruption, including API failures and UI access issues (streaming and IaaS resources were unaffected).
 
 #### Key Google Cloud Products Affected
+
 - **Compute & Storage**: Google Compute Engine, Cloud Storage, Persistent Disk.
 - **Databases**: Cloud SQL, Cloud Spanner, Cloud Bigtable, Firestore.
 - **Data & Analytics**: BigQuery, Dataflow, Dataproc, Vertex AI (including Online Prediction and Feature Store).
@@ -45,10 +50,13 @@ The outage impacted a broad array of Google products and external services relia
 - **Other**: Apigee, Cloud Monitoring, Cloud Logging, Resource Manager API.
 
 #### Key Google Workspace Products Affected
+
 - Gmail, Google Drive, Google Docs, Google Meet, Google Calendar, Google Chat.
 
 #### Third-Party Services Impacted
+
 Many consumer and enterprise apps hosted or partially reliant on GCP experienced downtime:
+
 - **Spotify**: Streaming and app access disrupted for ~46,000 users.
 - **Discord**: Voice chat and server connectivity issues.
 - **Fitbit**: Syncing and app functionality halted.
@@ -57,15 +65,19 @@ Many consumer and enterprise apps hosted or partially reliant on GCP experienced
 The global scale amplified the impact, as GCP powers a significant portion of the internet's backend infrastructure.
 
 ### Resolution
+
 Google's engineering teams quickly identified the invalid policy and implemented a bypass for the quota checks, allowing API requests to proceed without validation during the crisis. This restored most regions by 12:48 PM PDT. For us-central1, targeted overload mitigations were applied, followed by manual backlog clearance in affected services like Dataflow and Vertex AI. Monitoring confirmed full recovery by 6:18 PM PDT. No data loss occurred, but some services experienced temporary delays.
 
 ### Impact
+
 - **Scale**: Over 1.4 million Downdetector reports, highlighting real-time global disruption.
 - **Economic**: Billions in potential lost productivity for businesses; Spotify alone reported user frustration during peak hours.
 - **Reputation**: Underscored risks of cloud concentration, with calls for better multi-cloud strategies.
 
 ### Lessons Learned and Preventive Measures
+
 Google issued a detailed post-mortem emphasizing resilience:
+
 - **Architecture Changes**: Modularize Service Control to isolate failures and enable "fail-open" modes.
 - **Data Validation**: Incremental propagation of global changes with pre-validation; enhanced testing for invalid inputs.
 - **Deployment Safeguards**: Mandatory feature flags for critical updates; improved static analysis and error handling.

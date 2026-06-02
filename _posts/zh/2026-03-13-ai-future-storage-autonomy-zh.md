@@ -31,6 +31,7 @@ type: note
 - 优化存储分配
 
 **物理级限制：** 在计算机上运行的 AI agent **不能**：
+
 - 物理插入便携硬盘
 - 移除或插入内存设备
 - 打开计算机机箱
@@ -45,6 +46,7 @@ type: note
 ### 未来：Robotic Integration
 
 要完全在无需人类干预的情况下解决便携磁盘场景，您需要：
+
 1. **Robotic arms** 或由 AI 控制的自动化硬件系统
 2. **Pre-configured network storage**（云或 NAS 设备），AI 可以自动访问
 3. **IoT-enabled devices**，可以由 AI agents 远程控制
@@ -59,11 +61,11 @@ type: note
 
 ## 参考文献
 
-- https://www.techzine.eu/blogs/infrastructure/138665/ibm-flashsystem-autonomous-ai-takes-over-90-of-storage-management/
-- https://newsroom.ibm.com/next-generation-ibm-flashsystem-portfolio
-- https://insidehpc.com/2026/02/ibm-introduces-autonomous-flash-storage-with-agentic-ai/
-- https://www.storagenewsletter.com/2026/02/20/ibm-introduces-autonomous-storage-with-new-flashsystem-portfolio-powered-by-agentic-ai/
-- https://www.storagereview.com/news/ibm-introduces-next-generation-flashsystem-with-agentic-ai-for-autonomous-storage-operations-2-107am
-- https://www.datacore.com/solutions/ai-enabled-storage/
-- https://saventech.com/ai-agents-that-procure-optimize-and-execute-without-human-intervention/
-- https://www.astera.com/type/blog/ai-and-data-storage/
+- <https://www.techzine.eu/blogs/infrastructure/138665/ibm-flashsystem-autonomous-ai-takes-over-90-of-storage-management/>
+- <https://newsroom.ibm.com/next-generation-ibm-flashsystem-portfolio>
+- <https://insidehpc.com/2026/02/ibm-introduces-autonomous-flash-storage-with-agentic-ai/>
+- <https://www.storagenewsletter.com/2026/02/20/ibm-introduces-autonomous-storage-with-new-flashsystem-portfolio-powered-by-agentic-ai/>
+- <https://www.storagereview.com/news/ibm-introduces-next-generation-flashsystem-with-agentic-ai-for-autonomous-storage-operations-2-107am>
+- <https://www.datacore.com/solutions/ai-enabled-storage/>
+- <https://saventech.com/ai-agents-that-procure-optimize-and-execute-without-human-intervention/>
+- <https://www.astera.com/type/blog/ai-and-data-storage/>

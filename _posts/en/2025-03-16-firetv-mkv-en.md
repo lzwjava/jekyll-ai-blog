@@ -11,6 +11,7 @@ type: note
 No, the Fire TV Stick does not have the Infuse app. Infuse is a media player primarily designed for Apple devices such as iPhone, iPad, Apple TV, Mac, and Vision, and there is no official version available for Fire TV Stick or Android TV devices. However, you can still play MKV files from another laptop on your Fire TV Stick using alternative apps and methods. Here are some options:
 
 ### 1. VLC Media Player
+
 - **Overview**: VLC is a free, widely-used media player that supports MKV files and is available on the Fire TV Stick.
 - **How to Use**:
   - Install VLC from the Amazon App Store on your Fire TV Stick.
@@ -19,6 +20,7 @@ No, the Fire TV Stick does not have the Infuse app. Infuse is a media player pri
   - Open VLC on your Fire TV Stick, go to "Network" or "Local Network," and browse to your shared files to play them.
 
 ### 2. Kodi
+
 - **Overview**: Kodi is a powerful, customizable media player that supports MKV playback and can be installed on Fire TV Stick.
 - **How to Use**:
   - Sideload Kodi onto your Fire TV Stick (search online for a guide to install it, as it’s not in the Amazon App Store).
@@ -26,6 +28,7 @@ No, the Fire TV Stick does not have the Infuse app. Infuse is a media player pri
   - Select and play your MKV files from within Kodi.
 
 ### 3. Plex
+
 - **Overview**: Plex is a media server solution that streams your MKV files from your laptop to your Fire TV Stick.
 - **How to Use**:
   - Download and install Plex Media Server on your laptop from the official Plex website.
@@ -34,6 +37,7 @@ No, the Fire TV Stick does not have the Infuse app. Infuse is a media player pri
   - Sign in to your Plex account on both devices to stream your files.
 
 ### 4. DLNA Apps
+
 - **Overview**: Apps like "AllCast" or "BubbleUPnP" allow streaming via DLNA from your laptop to your Fire TV Stick.
 - **How to Use**:
   - Set up a DLNA server on your laptop (e.g., using Windows Media Player or software like Serviio).

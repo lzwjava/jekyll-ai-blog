@@ -36,10 +36,10 @@ These cases highlight common pitfalls: over-reliance on subsidies, ignoring unit
 
 References:
 
-- https://www.rolandberger.com/en/Insights/Publications/The-rise-and-fall-of-Chinese-bike-sharing-startups.html
-- https://www.scmp.com/tech/start-ups/article/3114932/rise-and-fall-mobike-and-ofo-chinas-bike-sharing-twin-stars
-- https://en.wikipedia.org/wiki/Ofo_(company)
-- https://www.reuters.com/article/china-groupbuying/the-party-is-over-for-chinas-group-buying-websites-idUSL4E7MT1AA20111201/
-- https://en.wikipedia.org/wiki/Luckin_Coffee
-- https://fortune.com/2022/05/22/luckin-coffee-china-wall-street-listing-nasdaq-scandal-fraud-starbucks/
-- https://en.tmtpost.com/post/6586507
+- <https://www.rolandberger.com/en/Insights/Publications/The-rise-and-fall-of-Chinese-bike-sharing-startups.html>
+- <https://www.scmp.com/tech/start-ups/article/3114932/rise-and-fall-mobike-and-ofo-chinas-bike-sharing-twin-stars>
+- <https://en.wikipedia.org/wiki/Ofo_(company)>
+- <https://www.reuters.com/article/china-groupbuying/the-party-is-over-for-chinas-group-buying-websites-idUSL4E7MT1AA20111201/>
+- <https://en.wikipedia.org/wiki/Luckin_Coffee>
+- <https://fortune.com/2022/05/22/luckin-coffee-china-wall-street-listing-nasdaq-scandal-fraud-starbucks/>
+- <https://en.tmtpost.com/post/6586507>

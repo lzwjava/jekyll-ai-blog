@@ -15,6 +15,7 @@ Here's the major libraries Warp uses:
 
 GPU & Rendering
 ----------------
+
 wgpu 29.0.1        - GPU abstraction layer (Metal on macOS, Vulkan on Linux)
 metal               - Apple Metal API bindings (macOS GPU rendering)
 cocoa 0.26.0        - macOS Cocoa framework bindings
@@ -24,6 +25,7 @@ font-kit            - Font loading and rasterization (forked by Warp)
 
 Async & Networking
 ------------------
+
 tokio 1.47.1        - Async runtime (the backbone)
 hyper 1.6.0         - HTTP client/server
 reqwest 0.13        - HTTP client (API calls, AI endpoints)
@@ -35,6 +37,7 @@ prost               - Protobuf serialization (gRPC APIs)
 
 Data & Storage
 --------------
+
 serde               - Serialization framework
 serde_json          - JSON
 diesel 2.3.8        - SQLite ORM (persistence layer)
@@ -44,18 +47,21 @@ git2                - Git repository operations
 
 Terminal & Text
 ---------------
+
 syntect             - Syntax highlighting
 arborium-*          - Tree-sitter based parsers (30+ languages)
 regex               - Regular expressions
 
 AI & Auth
 ---------
+
 oauth2 5.0.0        - OAuth2 authentication
 firebase            - Firebase auth integration
 sentry              - Error tracking and crash reporting
 
 Utilities
 ---------
+
 clap 4.5            - CLI argument parsing
 chrono              - Date/time handling
 uuid                - UUID generation

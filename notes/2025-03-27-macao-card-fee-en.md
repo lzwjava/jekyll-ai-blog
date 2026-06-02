@@ -13,6 +13,7 @@ LLet's recalculate the cost for **20GB per month**, considering that extra data 
 ---
 
 ### **Plan A: 2 MOP/day, 4GB Free, 20 MOP per 5GB**
+
 - **Daily fee:** 2 MOP × 30 days = **60 MOP**
 - **Free data:** 4GB
 - **Extra data needed:** 20GB - 4GB = **16GB**
@@ -22,6 +23,7 @@ LLet's recalculate the cost for **20GB per month**, considering that extra data 
 ---
 
 ### **Plan B: 3 MOP/day, 10GB Free, 20 MOP per 5GB**
+
 - **Daily fee:** 3 MOP × 30 days = **90 MOP**
 - **Free data:** 10GB
 - **Extra data needed:** 20GB - 10GB = **10GB**
@@ -31,6 +33,7 @@ LLet's recalculate the cost for **20GB per month**, considering that extra data 
 ---
 
 ### **Plan C: 5 MOP/day, 20GB Free**
+
 - **Daily fee:** 5 MOP × 30 days = **150 MOP**
 - **Free data:** 20GB (so no extra cost)
 - **Total cost:** **150 MOP**
@@ -38,18 +41,21 @@ LLet's recalculate the cost for **20GB per month**, considering that extra data 
 ---
 
 ### **No Daily Fee Plan**
+
 - **20GB package:** **188 MOP**
 - **Total cost:** **188 MOP**
 
 ---
 
 ### **Which is the cheapest for 20GB per month?**
+
 - **Plan A (2 MOP/day, 4GB Free):** **140 MOP**
 - **Plan B (3 MOP/day, 10GB Free):** **130 MOP** ✅ **(Cheapest)**
 - **Plan C (5 MOP/day, 20GB Free):** **150 MOP**
 - **No Daily Fee Plan (20GB package):** **188 MOP**
 
 ### **Conclusion:**
+
 For **20GB per month**, **Plan B (3 MOP/day, 10GB Free)** is the cheapest at **130 MOP**. 🎉
 
 ---
@@ -59,6 +65,7 @@ Let's calculate the cost for **10GB per month**, considering that extra data now
 ---
 
 ### **Plan A: 2 MOP/day, 4GB Free, 20 MOP per 5GB**
+
 - **Daily fee:** 2 MOP × 30 days = **60 MOP**
 - **Free data:** 4GB
 - **Extra data needed:** 10GB - 4GB = **6GB**
@@ -68,6 +75,7 @@ Let's calculate the cost for **10GB per month**, considering that extra data now
 ---
 
 ### **Plan B: 3 MOP/day, 10GB Free**
+
 - **Daily fee:** 3 MOP × 30 days = **90 MOP**
 - **Free data:** 10GB (so no extra cost)
 - **Total cost:** **90 MOP** ✅ **(Cheapest)**
@@ -75,6 +83,7 @@ Let's calculate the cost for **10GB per month**, considering that extra data now
 ---
 
 ### **Plan C: 5 MOP/day, 20GB Free**
+
 - **Daily fee:** 5 MOP × 30 days = **150 MOP**
 - **Free data:** 20GB (so no extra cost)
 - **Total cost:** **150 MOP**
@@ -82,18 +91,21 @@ Let's calculate the cost for **10GB per month**, considering that extra data now
 ---
 
 ### **No Daily Fee Plan**
+
 - **10GB package costs:** **98 MOP**
 - **Total cost:** **98 MOP**
 
 ---
 
 ### **Which is the cheapest for 10GB per month?**
+
 - **Plan A (2 MOP/day, 4GB Free):** **100 MOP**
 - **Plan B (3 MOP/day, 10GB Free):** **90 MOP** ✅ **(Cheapest)**
 - **Plan C (5 MOP/day, 20GB Free):** **150 MOP**
 - **No Daily Fee Plan (10GB package):** **98 MOP**
 
 ### **Conclusion:**
+
 For **10GB per month**, **Plan B (3 MOP/day, 10GB Free)** is the cheapest at **90 MOP**. 🎉
 
 ---
@@ -103,6 +115,7 @@ Let's calculate the cost for **25GB per month**, considering that extra data now
 ---
 
 ### **Plan A: 2 MOP/day, 4GB Free, 20 MOP per 5GB**
+
 - **Daily fee:** 2 MOP × 30 days = **60 MOP**
 - **Free data:** 4GB
 - **Extra data needed:** 25GB - 4GB = **21GB**
@@ -112,6 +125,7 @@ Let's calculate the cost for **25GB per month**, considering that extra data now
 ---
 
 ### **Plan B: 3 MOP/day, 10GB Free, 20 MOP per 5GB**
+
 - **Daily fee:** 3 MOP × 30 days = **90 MOP**
 - **Free data:** 10GB
 - **Extra data needed:** 25GB - 10GB = **15GB**
@@ -121,6 +135,7 @@ Let's calculate the cost for **25GB per month**, considering that extra data now
 ---
 
 ### **Plan C: 5 MOP/day, 20GB Free, 20 MOP per 5GB**
+
 - **Daily fee:** 5 MOP × 30 days = **150 MOP**
 - **Free data:** 20GB
 - **Extra data needed:** 25GB - 20GB = **5GB**
@@ -130,18 +145,21 @@ Let's calculate the cost for **25GB per month**, considering that extra data now
 ---
 
 ### **No Daily Fee Plan**
+
 - **30GB is not available, so we must buy the 40GB package:** **288 MOP**
 - **Total cost:** **288 MOP**
 
 ---
 
 ### **Which is the cheapest for 25GB per month?**
+
 - **Plan A (2 MOP/day, 4GB Free):** **160 MOP**
 - **Plan B (3 MOP/day, 10GB Free):** **150 MOP** ✅ **(Cheapest)**
 - **Plan C (5 MOP/day, 20GB Free):** **170 MOP**
 - **No Daily Fee Plan (40GB package):** **288 MOP**
 
 ### **Conclusion:**
+
 For **25GB per month**, **Plan B (3 MOP/day, 10GB Free)** is the cheapest at **150 MOP**. 🎉
 
 ---
@@ -164,11 +182,13 @@ For **25GB per month**, **Plan B (3 MOP/day, 10GB Free)** is the cheapest at **1
    - Again, Plan B is optimal, as the extra 20GB is charged in reasonable blocks.
 
 ### **General Insights**
+
 - **Plan A (2 MOP/day)** is only best for very low usage (under 10GB).
 - **Plan B (3 MOP/day)** is consistently the best for most moderate users (10GB to 30GB).
 - **Plan C (5 MOP/day)** is never the cheapest option. It only makes sense if you use exactly **20GB** and want simple pricing.
 - **The No Daily Fee Plan (98/188/288 MOP options)** is always **more expensive** than daily-paid plans.
 
 **Final Recommendation:**
+
 - If you **use 10GB or more per month**, **Plan B (3 MOP/day, 10GB Free)** is almost always the best value. 🎯
 - If you **use less than 10GB**, **Plan A (2 MOP/day, 4GB Free)** saves you money. 💰

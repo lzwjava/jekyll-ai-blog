@@ -42,10 +42,13 @@ The Weibo post (from February 2026 or earlier context) is a strongly opinionated
    Invites others to share real Go/Rust experiences to test whether the intuition holds.
 
 ### Overall Tone and Style
+
 Very blunt, cynical, and anecdotal — relies heavily on personal stories rather than systematic evidence. Uses strong language ("arrogant", "self-important", "教条主义"/dogmatic, etc.) and shows clear contempt for language evangelism / tribalism.
 
 ### Is This View Uncommon?
+
 No — similar complaints have circulated for years in English-speaking communities:
+
 - Go is sometimes called "toxic" when any design criticism appears (defensive reactions).
 - Rust has a long-standing reputation in some circles for having an arrogant / unwelcoming community (especially toward beginners on Stack Overflow, Discord, etc.), with frequent "fighting the borrow checker" burnout stories and accusations of zealotry.
 - Programming-language tribalism/fanboyism is a well-known phenomenon across many languages (including Haskell, JavaScript frameworks, etc.).

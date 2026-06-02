@@ -15,6 +15,7 @@ POPL stands for **Principles of Programming Languages** - it's one of the most p
 Here are the key things to know about it:
 
 **Focus areas:**
+
 - Theoretical foundations of programming languages
 - Type systems and semantics
 - Program verification and analysis
@@ -22,12 +23,14 @@ Here are the key things to know about it:
 - Logic in computer science
 
 **Academic significance:**
+
 - It's a top-tier venue (considered an "A*" or "Rank 1" conference)
 - Highly competitive - typically has acceptance rates around 20-25%
 - Publishing at POPL is a significant achievement for researchers
 - Papers often introduce influential new concepts and techniques
 
 **Who attends:**
+
 - Programming language researchers from academia and industry
 - PhD students working in PL theory
 - Practitioners interested in cutting-edge language research

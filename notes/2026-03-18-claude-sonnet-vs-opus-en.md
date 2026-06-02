@@ -74,6 +74,7 @@ Assuming a typical coding interaction uses 2,000 input tokens and 8,000 output t
 Anthropic designed the Claude model family to support a wide range of enterprise workloads — rather than relying on a single large model for every AI task, organizations can use different models depending on the complexity of the problem. This tiered approach allows organizations to design AI systems that are efficient, scalable, and cost-effective.
 
 A common production pattern looks like this:
+
 - **Haiku** → fast intent detection or classification
 - **Sonnet** → core response generation (80–90% of tasks)
 - **Opus** → deep analysis, complex reasoning, or Agent Teams (5–10% of tasks)

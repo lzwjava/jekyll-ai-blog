@@ -14,11 +14,13 @@ type: note
 Two options:
 
 1. Run the picker:
+
    ```
    hermes model
    ```
 
 2. Set it non-interactively via `config set` (`hermes_cli/main.py:10108-10112`):
+
    ```
    hermes config set model anthropic/claude-opus-4.7
    ```

@@ -146,6 +146,7 @@ When working with Spring Boot or the broader Spring Framework, developers freque
 1. **Global Exception Handling**:
    - Use `@ControllerAdvice` with `@ExceptionHandler` to catch and handle exceptions consistently across your application.
    - Example:
+
      ```java
      @ControllerAdvice
      public class GlobalExceptionHandler {

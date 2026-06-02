@@ -17,19 +17,19 @@ It's important to clarify the terminology here. "Meta VR Glass" isn't a specific
 When people refer to "Meta glasses" in a more general, glasses-like form factor, they're typically talking about:
 
 * **Ray-Ban Meta Smart Glasses:** These are consumer-focused smart glasses developed in partnership with EssilorLuxottica (the company behind Ray-Ban). They are designed to look like conventional Ray-Ban sunglasses and focus on features like:
-    * Hands-free photo and video capture (with a visible LED indicator for privacy).
-    * Open-ear speakers for audio (music, podcasts, calls).
-    * Integrated microphones for calls and voice commands (including "Hey Meta" for Meta AI).
-    * Livestreaming capabilities to Facebook and Instagram.
-    * Integration with Meta AI for various tasks (e.g., getting information, sending messages, describing surroundings for accessibility).
-    * No integrated display or AR head-mounted display (they are "smart glasses," not AR glasses in the typical sense).
+  * Hands-free photo and video capture (with a visible LED indicator for privacy).
+  * Open-ear speakers for audio (music, podcasts, calls).
+  * Integrated microphones for calls and voice commands (including "Hey Meta" for Meta AI).
+  * Livestreaming capabilities to Facebook and Instagram.
+  * Integration with Meta AI for various tasks (e.g., getting information, sending messages, describing surroundings for accessibility).
+  * No integrated display or AR head-mounted display (they are "smart glasses," not AR glasses in the typical sense).
 
 * **Oakley Meta Glasses (e.g., Oakley Meta HSTN):** This is a newer line of "Performance AI Glasses" developed in collaboration with Oakley, also part of EssilorLuxottica. They share many of the features of the Ray-Ban Meta glasses but are specifically designed with athletes and performance in mind. Key aspects include:
-    * Bold, sporty aesthetics typical of Oakley.
-    * Enhanced durability and water resistance (IPX4).
-    * Longer battery life.
-    * Higher resolution camera (3K video).
-    * Integration with Meta AI, offering features tailored for athletes (e.g., asking about wind conditions for golf).
+  * Bold, sporty aesthetics typical of Oakley.
+  * Enhanced durability and water resistance (IPX4).
+  * Longer battery life.
+  * Higher resolution camera (3K video).
+  * Integration with Meta AI, offering features tailored for athletes (e.g., asking about wind conditions for golf).
 
 **How many users?**
 

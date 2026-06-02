@@ -30,6 +30,7 @@ type: note
 ## 最佳重新实现
 
 ### 1. `nano-claude-code`（Python）—— 学习内部机制的最佳选择
+
 一个最小化、完全可运行的 Python 重新实现，已从一个约900行的 v1.0 原型发展到约5,000行的 v3.0，具备多 agent 编排、持久记忆和技能系统。与架构研究不同，它是一个可以立即使用的真实编码助手。支持20多种模型：Anthropic、OpenAI、Gemini、DeepSeek、Ollama、LM Studio。
 
 工具覆盖范围：Read、Write、Edit、Bash、Glob、Grep、WebFetch、WebSearch、MemorySave/Delete/Search、Agent、SendMessage、Skill、SkillList——以及内置的 `/commit`、`/review` 和自定义 markdown 技能，支持参数替换和分支/内联执行。
@@ -37,6 +38,7 @@ type: note
 **如果你想理解 agent 循环架构，这是最好的学习对象。**
 
 ### 2. `ruvnet/open-claude-code`（TypeScript）—— 最佳洁净室即插即用替代品
+
 一个洁净室实现（未使用泄露源代码），镜像了实际 Claude Code 架构：异步生成器 agent 循环、25个工具、4种 MCP 传输方式（stdio、SSE、Streamable HTTP、WebSocket）、6种权限模式、钩子、设置链、会话。支持 Anthropic、OpenAI、Gemini、AWS Bedrock、Google Vertex。自动化夜间发布，包含903+ 测试。
 
 ```bash
@@ -44,6 +46,7 @@ npx @ruvnet/open-claude-code "解释这个代码库"
 ```
 
 ### 3. `openclaw/openclaw` —— 架构比较中被广泛引用
+
 在多篇分析中被提及，作为与原文最接近的对等实现。用于与 Claude Code 和 Hermes-Agent 一起进行跨系统比较，以分析 agent 设计原则。
 
 ---
@@ -51,6 +54,7 @@ npx @ruvnet/open-claude-code "解释这个代码库"
 ## GitHub 趋势（claude-code 主题，2026年5月）
 
 当前最热门的仓库（按星标数）：
+
 - **"Bash is all you need"** —— 一个类似 nano-claude-code 的 agent 工具集，从头用 Python 构建（约61.9k星标）
 - **awesome-claude-skills** —— 精选的技能、MCP 和工作流自动化工具列表（约59.6k星标）
 - **omo（oh-my-opencode）** —— TypeScript agent 工具集/TUI，原名 oh-my-opencode（约43.2k星标）

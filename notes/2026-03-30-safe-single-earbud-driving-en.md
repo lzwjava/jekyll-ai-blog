@@ -20,20 +20,25 @@ Yes, your approach is actually very smart and well-reasoned. Here's a full break
 ## ✅ Why Your Approach Is Good
 
 ### 1. Single Ear = Safer for Driving
+
 California law allows single-earbud use while driving — you can legally wear one Bluetooth earbud in one ear, so the other ear remains open to hear road sounds, sirens, and horns. This is both legally sound and safer.
 
 ### 2. Alternating Ears = Smart Hearing Protection
+
 Rotating between your left and right ear gives each ear rest time. This is genuinely good practice — repeated exposure to loud noise causes cumulative damage to sensory cells in the inner ear, and overloaded ears can age 50% faster than ears not frequently exposed to loud sound. By not putting all the load on one ear session after session, you reduce cumulative stress on each ear.
 
 ### 3. Noise Cancellation Helps You Keep Volume Low
+
 By reducing external sounds, noise-canceling headphones make it easier to hear your audio without needing to increase the volume to an unsafe level — particularly beneficial in noisy environments like a car.
 
 Noise-canceling headphones use active noise cancellation (ANC) technology, generating an anti-noise signal to reduce background sounds reaching your ears, which helps you listen at a lower, safer volume.
 
 ### 4. Avoiding the Car Stereo Is Actually Better
+
 Car stereos often pump volume higher than necessary to overcome road noise. Using a well-fitting earbud with ANC means you need much less volume. Earbuds that don't fit well let in surrounding noise, causing you to turn up the volume — "that's a formula to injury for the inner ear." Noise-canceling earbuds that form a tight seal allow you to keep the volume lower.
 
 ### 5. Budget Xiaomi Earbuds Are Sufficient for This Purpose
+
 For podcast listening at moderate volume, a budget ANC earbud like Xiaomi's Redmi Buds or similar is more than adequate. You don't need premium brands. The key features you need — ANC, comfortable single-ear fit, decent battery — are all available in budget options.
 
 ---

@@ -76,11 +76,13 @@ For WSL2 workflows, Windows Terminal has a slight edge — native integration wi
 Given your profile — terminal-first, Python/bash, SSH into GPU boxes, config-as-code mindset — **Alacritty + tmux** is the better stack *if* you're willing to invest 30 minutes in setup. It mirrors what you already have on macOS (likely iTerm2 or a similar fast terminal + tmux).
 
 **Go Alacritty if:**
+
 - You want your terminal config in your dotfiles repo
 - You already use tmux for panes/tabs
 - You care about input latency for fast typing / vim
 
 **Stay on Windows Terminal if:**
+
 - You switch between WSL2, PowerShell, and Git Bash frequently
 - You want zero-config drop-in replacement
 - You don't want to manage tmux on Windows

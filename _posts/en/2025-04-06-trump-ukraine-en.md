@@ -35,14 +35,17 @@ Kuperman concludes that a peace deal akin to the Minsk accords could have ended 
 ### **Analysis of the Claims**
 
 #### **1. The 2014 Maidan Events**
+
 - **Factual Basis**: It is true that Viktor Yanukovych was elected in 2010 in a vote deemed free and fair by international observers, and his 2013 decision to pivot toward Russia sparked the Maidan protests. Evidence exists of right-wing groups, such as the Right Sector, participating in the protests, and some reports suggest snipers fired on both protesters and police. A Kyiv court ruling in 2015 acquitted a suspect in the Maidan shootings, but it did not conclusively prove that right-wing militants initiated the violence.
 - **Interpretation**: Kuperman’s claim that these actions directly provoked Russia’s invasion oversimplifies a complex situation. The Maidan uprising involved a broad coalition of Ukrainians, not just right-wing militants, and Russia’s annexation of Crimea and support for Donbas separatists were strategic moves with deeper geopolitical roots. The “unprovoked” label is debated, but Putin’s actions also violated international law, a point Kuperman downplays.
 
 #### **2. Zelensky and the Minsk Agreements**
+
 - **Factual Basis**: The Minsk agreements (Minsk I in 2014 and Minsk II in 2015) aimed to resolve the Donbas conflict through ceasefire, decentralization, and autonomy measures, but Ukraine never fully implemented them. Zelensky did campaign on peace but faced significant domestic opposition from nationalists and ongoing skirmishes with Russian-backed forces. Ukraine’s increased military cooperation with NATO is well-documented.
 - **Interpretation**: Kuperman’s assertion that Zelensky’s actions were the “last straw” for Russia’s invasion assumes Putin’s decision hinged solely on Ukraine’s behavior. Russia’s recognition of Donbas independence and subsequent invasion suggest broader ambitions, including preventing Ukraine’s Western integration, which the Minsk agreements alone might not have addressed.
 
 #### **3. Biden’s Responsibility**
+
 - **Factual Basis**: In late 2021, as Russia amassed troops on Ukraine’s border, Biden emphasized support for Ukraine without mandating Minsk compliance. His administration promised a robust response to any invasion, and U.S. aid has since been substantial but cautious, avoiding direct escalation with Russia.
 - **Interpretation**: Kuperman’s speculation that Biden could have prevented the war by pressuring Zelensky is plausible but unprovable. It assumes Russia would have accepted a Minsk-based resolution, ignoring Putin’s stated goals of “denazification” and neutralizing Ukraine as a NATO threat. Biden’s pledge may have emboldened Ukraine, but attributing the war’s prolongation solely to this overlooks Russia’s agency and the conflict’s stalemate dynamics.
 
@@ -59,6 +62,7 @@ Kuperman concludes that a peace deal akin to the Minsk accords could have ended 
 ### **Broader Perspective**
 
 The Ukraine conflict is a multifaceted geopolitical crisis involving Russia’s imperial ambitions, Ukraine’s pursuit of sovereignty, and Western strategic interests. Kuperman’s focus on Ukrainian and U.S. missteps provides a provocative counterpoint to the dominant narrative of Russian aggression, but it risks oversimplifying Putin’s role. For instance:
+
 - Russia’s annexation of Crimea violated international norms, regardless of the Maidan trigger.
 - The Minsk agreements were fragile, with both sides accused of violations, and their feasibility as a long-term solution is questionable.
 - U.S. policy under Biden aimed to deter Russia, not just enable Ukraine, though its effectiveness remains debated.

@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-I'll search for information about repository organization and balancing playground vs. production projects.Question: For the repositories https://github.com/lzwjava/blog-source and https://github.com/lzwjava/ww, if you had made the separation correct from the beginning (separating large scripts into a separate repository), would you have needed to migrate later? How can one balance playground/experimental projects versus external open source projects intended for public use?
+I'll search for information about repository organization and balancing playground vs. production projects.Question: For the repositories <https://github.com/lzwjava/blog-source> and <https://github.com/lzwjava/ww>, if you had made the separation correct from the beginning (separating large scripts into a separate repository), would you have needed to migrate later? How can one balance playground/experimental projects versus external open source projects intended for public use?
 
 Answer:
 
@@ -58,9 +58,9 @@ The migration you had to do from `blog-source` to `ww` could have been avoided w
 
 References:
 
-- https://kodus.io/en/monorepo-vs-multi-repo-strategy/
-- https://www.thoughtworks.com/insights/blog/agile-engineering-practices/monorepo-vs-multirepo
-- https://www.iteratorshq.com/blog/a-comprehensive-guide-on-project-folder-organization/
-- https://www.c-sharpcorner.com/article/common-software-engineering-practices-for-production-code/
-- https://mitcommlab.mit.edu/broad/commkit/file-structure/
-- https://iseoblue.com/iso-27001/annex-a/control-8-31/
+- <https://kodus.io/en/monorepo-vs-multi-repo-strategy/>
+- <https://www.thoughtworks.com/insights/blog/agile-engineering-practices/monorepo-vs-multirepo>
+- <https://www.iteratorshq.com/blog/a-comprehensive-guide-on-project-folder-organization/>
+- <https://www.c-sharpcorner.com/article/common-software-engineering-practices-for-production-code/>
+- <https://mitcommlab.mit.edu/broad/commkit/file-structure/>
+- <https://iseoblue.com/iso-27001/annex-a/control-8-31/>

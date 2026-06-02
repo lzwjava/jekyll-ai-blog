@@ -29,6 +29,7 @@ df -h /
 ```
 
 The first few are usually the biggest wins:
+
 - `~/.cache/huggingface` — old HF model/dataset downloads; safe to nuke if you don't need them
 - `/var/lib/docker` — if Docker is installed, `docker system prune -a` often reclaims tens of GB
 - `~/projects/zz/datasets/fineweb-edu` — ~69 GB already downloaded; if we're going to lower the target anyway, this could go (but you'd lose progress, so don't delete yet)

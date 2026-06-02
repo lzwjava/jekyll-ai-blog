@@ -77,6 +77,6 @@ In short: **Chirp 3 HD** represents Google's current state-of-the-art cloud TTS 
 
 References:
 
-- https://cloud.google.com/text-to-speech/docs/voices
-- https://cloud.google.com/blog/products/ai-machine-learning/text-to-speech-now-powered-by-chirp-3
-- https://ai.googleblog.com (search Chirp 3 announcements)
+- <https://cloud.google.com/text-to-speech/docs/voices>
+- <https://cloud.google.com/blog/products/ai-machine-learning/text-to-speech-now-powered-by-chirp-3>
+- <https://ai.googleblog.com> (search Chirp 3 announcements)

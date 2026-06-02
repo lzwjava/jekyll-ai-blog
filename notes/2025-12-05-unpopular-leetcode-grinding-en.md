@@ -46,6 +46,7 @@ Here are some genuinely unpopular (or at least contrarian) opinions that frequen
 These opinions tend to be very unpopular among the subset of people who are deep in the grinding pipeline (especially college students and job-switchers), but they’re surprisingly common among senior engineers and hiring managers who have been on both sides of the table for years.
 
 References:
+
 - [Blind threads on LeetCode over-preparation (various)](https://www.teamblind.com/topics/leetcode)
 - [Hacker News discussions on CP vs real engineering](https://news.ycombinator.com/item?id=30649763)
 - [Codeforces blog posts criticizing grinding culture (e.g., tourist, Petr)](https://codeforces.com/blog/entry/106396)

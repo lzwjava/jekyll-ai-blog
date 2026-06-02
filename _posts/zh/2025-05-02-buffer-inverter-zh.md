@@ -33,4 +33,4 @@ type: note
 * 反相器电路实现输入信号的逻辑取反输出
 
 总结而言，视频演示了晶体管电路如何实现保持输入信号的缓冲功能，以及反转输入信号的反相功能。
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

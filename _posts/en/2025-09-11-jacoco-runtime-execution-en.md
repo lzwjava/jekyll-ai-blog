@@ -16,6 +16,7 @@ When you run **WebSphere Liberty Profile** with the **JaCoCo agent** in `exec` m
 ---
 
 ### How JaCoCo Works in `exec` Mode
+
 - **Purpose**: The JaCoCo agent collects **code coverage data** while your application runs.
 - **Output**: It writes coverage data to the `.exec` file (e.g., `jacoco.exec`).
 - **File Behavior**:
@@ -26,22 +27,27 @@ When you run **WebSphere Liberty Profile** with the **JaCoCo agent** in `exec` m
 ---
 
 ### Will the `.exec` File Be Modified?
+
 - **Yes, but only by appending data**: The file will be updated with new coverage information each time you run your application with the JaCoCo agent.
 - **No structural changes**: The format of the `.exec` file remains the same; it’s a binary file containing coverage data.
 
 ---
 
 ### Best Practices
+
 - **Merge or Reset**: If you want to start fresh, delete or rename the `.exec` file before running your application again.
 - **Merge Multiple Runs**: Use the `jacoco:merge` goal (in Maven) or the `org.jacoco.agent.rt.RT` class to merge multiple `.exec` files if needed.
 
 ---
 
 ### Example Liberty Configuration
+
 In your `server.env` or `jvm.options` for Liberty, you might see:
+
 ```bash
 -javaagent:/path/to/jacocoagent.jar=destfile=/path/to/jacoco.exec,append=true
 ```
+
 - `append=true` ensures new data is added to the existing file.
 
 ---

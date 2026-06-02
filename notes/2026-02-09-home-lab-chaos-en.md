@@ -19,6 +19,7 @@ You have a nice heterogeneous setup (macOS + Linux) that's perfect for a small h
 Here are some ideas ranked roughly from "quick & funny" to "more serious learning / useful":
 
 ### Funny / Silly / "Why not?" Projects
+
 - **Distributed useless computing cluster**
   Turn the three machines into a mini "supercomputer" that wastes electricity together: run BOINC (SETI@home style), Folding@home across all three, or Mine some joke cryptocurrency (or just simulate mining with silly scripts). Bonus: write a Python script that pings between machines and shows fake "processing power" stats on the Mac screen.
 
@@ -32,6 +33,7 @@ Here are some ideas ranked roughly from "quick & funny" to "more serious learnin
   Use Home Assistant (on one Ubuntu) but control fake "devices": scripts that pretend to be lights (change terminal color), coffee maker (print ASCII coffee), or robot vacuum (move mouse cursor randomly on Mac).
 
 ### Cool & Actually Useful Learning Projects
+
 - **Mini Kubernetes / container orchestration playground**
   Install k3s (lightweight Kubernetes) on all three machines → one as master (maybe Mac with multipass VMs or kind), two Ubuntu as workers. Deploy silly things like 404-game, Minecraft server pods that auto-scale, or a distributed "fortune" teller service.
 

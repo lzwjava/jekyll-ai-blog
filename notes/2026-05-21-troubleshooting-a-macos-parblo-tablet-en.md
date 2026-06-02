@@ -102,7 +102,7 @@ AppleScript via `osascript` queries System Events for the user's login items lis
 env | grep -i ollama
 ```
 
-Searches all environment variables for any OLLAMA_ (or PARBLO_) related vars.
+Searches all environment variables for any OLLAMA_(or PARBLO_) related vars.
 
 ---
 

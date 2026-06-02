@@ -22,6 +22,7 @@ Teknium (real name: Nathan Cooper) is the creator of **OpenHermes** and the **He
 ## Why the Follower Count Is Meaningful
 
 HuggingFace followers ≠ Twitter followers. People follow accounts there because:
+
 - They use your **models** (downloads in millions)
 - They use your **datasets**
 - They track your research direction

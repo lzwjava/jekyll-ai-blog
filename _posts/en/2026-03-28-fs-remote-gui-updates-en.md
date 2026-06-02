@@ -44,6 +44,7 @@ So any change to that directory — whether done via GUI, terminal, or **SSH rem
 ## Why the Flash?
 
 The GUI "flash" you see is the file manager:
+
 1. Receiving the inotify event
 2. Removing the old icon (`下载`)
 3. Re-rendering the new icon (`Downloads`)

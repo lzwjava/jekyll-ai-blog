@@ -23,11 +23,13 @@ The **Replace mode** (typing overwrites existing text) is activated when you pre
 You can disable the Insert key toggle completely:
 
 #### Method 1: Keyboard shortcut (recommended)
+
 Press `Ctrl + Shift + P` → type **"Toggle Insert/Overwrite"** → you’ll see the command
 `Preferences: Toggle Insert on Paste and Overtype` or similar.
 More reliably, use this direct setting:
 
 #### Method 2: Add this to your `settings.json`
+
 ```json
 // Disable Insert key from toggling overwrite mode
 "editor.occurencesHighlight": true,
@@ -64,7 +66,8 @@ Or simply turn off overwrite globally:
 }
 ```
 
-#### Simplest permanent fix (most people use this):
+#### Simplest permanent fix (most people use this)
+
 1. Open Settings (`Ctrl + ,`)
 2. Search for **"overwrite"**
 3. Uncheck **Editor: Overtype** (if it exists) or better:

@@ -31,6 +31,7 @@ Developed a flower recognition Android application designed to help users identi
 **Technologies Used:** Android SDK, Java
 
 **Responsibilities:**
+
 - Implemented the image recognition functionality.
 - Designed and developed the user interface.
 - Integrated the photo capture and processing features.
@@ -44,6 +45,7 @@ An Android application to help users learn English by watching movie clips.
 **Technologies Used:** Android SDK, Java
 
 **Responsibilities:**
+
 - Developed the movie clip playback and learning interface.
 - Implemented features to improve vocabulary and comprehension through interactive content.
 
@@ -58,6 +60,7 @@ A campus assistant Android application that integrates functions like checking g
 **Technologies Used:** Android SDK, Java
 
 **Responsibilities:**
+
 - Developed core functionalities such as grade checking and forum participation.
 - Designed and implemented the user interface.
 - Achieved widespread use with around 3500 users at Beijing Forestry University.
@@ -79,6 +82,7 @@ LeanChat is a chat application that includes features such as friend management,
 **Technologies Used:** Android SDK, Java, LeanCloud
 
 **Responsibilities:**
+
 - Developed friend management, group management, and location-based messaging features.
 - Implemented personal profiles and login/register functions.
 - Leveraged LeanCloud's storage and communication capabilities.
@@ -102,6 +106,7 @@ Developed the iOS version of LeanChat, a chat application that utilizes LeanClou
 **Technologies Used:** iOS SDK, Objective-C, LeanCloud
 
 **Responsibilities:**
+
 - Built friend and group management functionalities.
 - Created location-based messaging and nearby people features.
 - Designed personal profiles and login/register screens.
@@ -125,6 +130,7 @@ Participated in the development of LeanCloud's Java SDK and Objective-C SDK, pro
 **Technologies Used:** Java, Objective-C, LeanCloud
 
 **Responsibilities:**
+
 - Contributing to the development of LeanCloud's Java SDK and Objective-C SDK.
 - Ensuring seamless integration of LeanCloud services such as object storage, file storage, and messaging.
 
@@ -165,6 +171,7 @@ CodeReview is a professional platform for code review, communication, and sharin
 **Technologies Used:** PHP, Vue.js, CodeIgniter, Alibaba Cloud
 
 **Responsibilities:**
+
 - Developed the backend using PHP and CodeIgniter.
 - Implemented frontend features with Vue.js.
 - Integrated with Alibaba Cloud for scalable and reliable infrastructure.
@@ -172,8 +179,8 @@ CodeReview is a professional platform for code review, communication, and sharin
 
 Open Sourced at GitHub.
 
-* [code-review-server](https://github.com/lzwjava/code-review-server), 275 commits
-* [code-review-web](https://github.com/lzwjava/code-review-web), 488 commits (302 commits by me)
+- [code-review-server](https://github.com/lzwjava/code-review-server), 275 commits
+- [code-review-web](https://github.com/lzwjava/code-review-web), 488 commits (302 commits by me)
 
 <div align="center">
 
@@ -190,6 +197,7 @@ Fun Live is a knowledge live broadcast platform where users can participate in v
 **Technologies Used:** PHP, MySQL, Vue.js, CodeIgniter, Alibaba Cloud, SRS streaming, WeChat SDK
 
 **Responsibilities:**
+
 - Developed most of the backend and frontend code.
 - Integrated the OBS tool for live streaming.
 - Implemented user registration, payment, and notification functionalities.
@@ -197,10 +205,10 @@ Fun Live is a knowledge live broadcast platform where users can participate in v
 
 Open Sourced at GitHub.
 
-* [live-server](https://github.com/lzwjava/live-server), 661 commits (555 commits by me)
-* [live-mobile-web](https://github.com/lzwjava/live-mobile-web), 528 commits (426 commits by me)
-* [live-web](https://github.com/lzwjava/live-web), 140 commits
-* [live-wxapp](https://github.com/lzwjava/live-wxapp), 63 commits
+- [live-server](https://github.com/lzwjava/live-server), 661 commits (555 commits by me)
+- [live-mobile-web](https://github.com/lzwjava/live-mobile-web), 528 commits (426 commits by me)
+- [live-web](https://github.com/lzwjava/live-web), 140 commits
+- [live-wxapp](https://github.com/lzwjava/live-wxapp), 63 commits
 
 Mobile website:
 
@@ -251,6 +259,7 @@ Mianbao Live is a one-stop content monetization and social economy solution prov
 **Technologies Used:** PHP, Laravel, TypeScript, Go
 
 **Responsibilities:**
+
 - Refactored the backend to consolidate logic from multiple languages into one.
 - Improved performance, stability, and user experience.
 - Implemented server-side development using Laravel.
@@ -270,6 +279,7 @@ Developed the WeChat Mini Program for Jiangsu TV's Super Brain program, featurin
 **Technologies Used:** Java, Spring, Redis, Alibaba Cloud, WeChat DevTools
 
 **Responsibilities:**
+
 - Developed backend services using Java and Spring.
 - Implemented frontend components using WeChat Mini Program framework.
 - Ensured high performance and reliability under high concurrency using Redis.
@@ -287,6 +297,7 @@ Chongding is a mobile trivia app similar to HQ Trivia, allowing users to partici
 **Technologies Used:** Java, Spring, Redis, Kafka, Zookeeper, WebSocket, Socket.IO
 
 **Responsibilities:**
+
 - Developed backend services and admin panel frontend.
 - Designed and implemented real-time trivia game functionalities.
 - Contributed a bit for the discussion of the technical architecture to synchronize live streaming with game events using SEI (Supplemental Enhancement Information).
@@ -304,6 +315,7 @@ Managed and developed 50 miscellaneous projects for Square Root Inc, including w
 **Technologies Used:** Various based on project requirements
 
 **Responsibilities:**
+
 - Managed project negotiations, team coordination, and client communications.
 - Contributed to software development for various projects.
 - Ensured timely delivery and high-quality outcomes for clients.
@@ -324,6 +336,7 @@ Integrated ShowMeBug with Enterprise WeChat, enabling seamless access to technic
 **Technologies Used:** Ruby, PostgreSQL, WeChat SDK, Docker
 
 **Responsibilities:**
+
 - Developed integration features for login and interview access.
 - Conducted technical research on constructing programming environments in a browser using Docker.
 
@@ -342,6 +355,7 @@ Developed the frontend for LvchenSign, a website specializing in the production 
 **Technologies Used:** HTML, JavaScript, CSS, Bootstrap
 
 **Responsibilities:**
+
 - Designed and implemented the website's frontend.
 - Created an intuitive and user-friendly interface for showcasing products.
 
@@ -360,6 +374,7 @@ Contributed to DBS Client Connect, an AI- and data-driven customer-relationship 
 **Technologies Used:** Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry
 
 **Responsibilities:**
+
 - Developed backend services for equity trading. Created functionalities for equities display, customer display, pre-trade checks, and order placement.
 - Integrated Avaloq APIs to enhance the underlying infrastructure and improve user experience.
 
@@ -370,7 +385,6 @@ Contributed to DBS Client Connect, an AI- and data-driven customer-relationship 
 
 </div>
 
-
 ## DBS DigiBank CN - Mutual Funds, Backend, 2022.7-2022.11
 
 DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go.
@@ -380,6 +394,7 @@ Contributed to DBS DigiBank CN, focusing on backend development for mutual funds
 **Technologies Used:** Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, Kibana
 
 **Responsibilities:**
+
 - Enhanced functionalities for subscribing to and redeeming mutual funds, improving user experience and system reliability.
 - Fixed bugs and enhanced code for the microservices related to structured investment products, investment portfolio, and transaction list, contributing to overall system stability and accuracy.
 - Conducted performance tests and analyzed logs to generate reports on QPS, collaborating with team members to optimize performance.
@@ -393,7 +408,6 @@ Contributed to DBS DigiBank CN, focusing on backend development for mutual funds
 
 <p><a href="https://www.dbs.com.cn/treasures/digital-service/digibank.html">Image source: DBS Digibank CN</a></p></div>
 
-
 ## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7
 
 PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline.
@@ -401,6 +415,7 @@ PayMe from HSBC is a convenient way to send payments to friends, and make mobile
 **Technologies Used:** Java, Spring, Kafka, Azure, Azure DevOps, AWS
 
 **Responsibilities:**
+
 - Worked with a team of backend engineers to develop the Auto Top Up feature, which automatically tops up funds from the user's credit or debit card when the balance falls below a certain amount.
 - Collaboratively monitored post-payment events from Azure EventHub, ensuring seamless integration and checking for top-ups whenever a user set up their auto top-up configuration.
 - Applied object-oriented programming principles to handle cases elegantly, and utilized aspect-oriented programming to audit logs for changes in the auto top-up table.
@@ -423,18 +438,19 @@ Contributed to the development of an AI-powered story bot using Claude's API for
 **Technologies Used:** Python, Flask, React, Nginx, AWS, Prometheus, ELK stack, ChatGPT-4
 
 **Responsibilities:**
+
 - Developed backend with Flask and integrated Claude's API.
 - Built frontend with React for prompt setting and management.
 - Deployed on AWS and used Nginx for secure communication.
 - Implemented end-to-end trace ID solution for tracking requests across the system.
 - Implemented Prometheus for monitoring and ELK stack for log management.
 
-
 ## Finance Transformation Platform - HSBC, Backend, 2025.02 - Present
 
 **Technologies Used:** Java, Spring Boot, IBM Db2, Multithreading, Maven, Nexus, Angular, Python, Windows, Control-M, IBM WebSphere Application Server, Copilot, YourKit
 
 **Responsibilities:**
+
 - Backend Engineer outsourced to HSBC Bank under TEKsystems, developing and optimizing backend systems for a module of the Finance Transformation Platform in HSBC’s Enterprise Technology Department.
 - Maintained features for financial data processing including import, validation, and export, while enhancing submission and approval workflows for new financial headers. Gained experience in accounting, ledger, and banking systems.
 - Participated in the full development lifecycle, from local development to UAT testing and production releases. Helped decommission legacy applications running on WebSphere Application Server. Automated releases using Ansible and Jenkins, assisted in upgrading Angular to a major version, and enjoyed tackling all kinds of tasks—especially resolving bottlenecks for the team.

@@ -58,6 +58,7 @@ type: note
 ## 他们为何令人敬佩
 
 这些人物证明残疾并不定义潜力。他们的成就体现了共同主题：
+
 - **韧性**：拒绝让身体限制决定生命方向
 - **适应**：开发创造性解决方案并利用辅助技术
 - **倡导**：利用自身平台推动他人的包容性与无障碍环境
@@ -66,6 +67,7 @@ type: note
 他们的故事提醒我们，人类潜能的衡量标准不是身体能力，而是决心、创造力和坚持不懈的勇气。
 
 参考资料：
+
 - [15位残疾名人的鼓舞人心故事](https://365healthservices.com/blog/15-inspiring-stories-of-famous-people-with-disabilities/)
 - [5位坐轮椅的名人将激励你](https://www.spinalcord.com/blog/5-famous-people-in-wheelchairs-who-will-inspire-you)
 - [十个克服残疾实现伟大的非凡故事](https://changingpaces.com/ten-incredible-stories-of-people-who-overcame-their-disabilities-to-achieve-greatness/)

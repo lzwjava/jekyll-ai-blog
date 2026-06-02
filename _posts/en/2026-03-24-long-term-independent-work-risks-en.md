@@ -30,6 +30,7 @@ So yes — months of solo work on a tool or feature = you drift out of the team'
 ## 2. Failed or Unpropagated POC → Person Goes "Silent"
 
 This is the more dangerous scenario. If the POC:
+
 - Doesn't get adopted by the team
 - Has no one championing it
 - Doesn't connect back to the team's roadmap

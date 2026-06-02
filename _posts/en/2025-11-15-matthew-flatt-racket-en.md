@@ -15,6 +15,7 @@ Matthew Flatt is an American computer scientist and professor in the School of C
 In 2018, Flatt received the ACM SIGPLAN Programming Languages Software Award (shared with the Racket team) for Racket's impact on research and education, particularly its macro and module systems. He has over 10,000 citations on Google Scholar and is praised by students for his knowledgeable, fair, and engaging teaching style in courses like CS 3520.
 
 For more details:
+
 - [University of Utah Faculty Profile](https://faculty.utah.edu/u0176314-MATT_FLATT/jhindex.hml)
 - [Wikipedia](https://en.wikipedia.org/wiki/Matthew_Flatt)
 - [Google Scholar](https://scholar.google.com/citations?user=9sMIvdgAAAAJ&hl=en)

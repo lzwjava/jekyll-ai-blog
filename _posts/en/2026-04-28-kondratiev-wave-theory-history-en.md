@@ -21,7 +21,7 @@ The history of the **Kondratiev wave** is actually quite dramatic—it involves 
 
 The theory was first proposed by Russian economist **Nikolai Kondratiev** in the early 1920s.
 
-### What he did:
+### What he did
 
 * Studied price data from major Western economies (UK, France, US)
 * Found repeating long-term patterns:
@@ -33,7 +33,7 @@ The theory was first proposed by Russian economist **Nikolai Kondratiev** in the
   * Capital investment waves
   * Infrastructure build-outs
 
-### His conclusion:
+### His conclusion
 
 Economies don’t just move in short business cycles (like 5–10 years), but also in **very long structural waves**.
 
@@ -46,7 +46,7 @@ Kondratiev’s work became politically sensitive in the Soviet Union.
 * His idea implied capitalism had **long-term resilience and renewal**
 * This conflicted with Marxist-Leninist expectations of capitalism collapsing
 
-### Result:
+### Result
 
 * He was arrested in 1930
 * Sent to a labor camp (Gulag system)
@@ -97,7 +97,7 @@ They identified 4–6 major cycles:
 
 Today, most economists do NOT treat it as a strict “law,” but as:
 
-### A structural storytelling model:
+### A structural storytelling model
 
 * Long-term technological revolutions
 * Capital investment cycles

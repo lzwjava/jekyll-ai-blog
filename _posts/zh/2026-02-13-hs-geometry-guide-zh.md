@@ -22,23 +22,23 @@ type: note
 - **Line**（线）：向两个方向无限延伸的直路径（用 ←→ 或两个点表示，如 AB）。
 - **Plane**（面）：无限延伸的平面（用斜体字母或三个不在同一直线上的点表示）。
 - **Postulates**（公理）：
-    - 经过任意两点，有且只有一条直线。
-    - 经过不在同一直线上的任意三点，有且只有一个平面。
+  - 经过任意两点，有且只有一条直线。
+  - 经过不在同一直线上的任意三点，有且只有一个平面。
 - **Segments, rays**（线段、射线）：线段 AB 有端点 A 和 B；射线 AB 从 A 开始，向 B 方向无限延伸。
 
 ### 2. 角（类型、关系）(Angles)
 
 - **Angle**（角）：由具有公共端点（顶点）的两条射线组成。
 - **Types**（类型）：
-    - Acute（锐角）：< 90°
-    - Right（直角）：= 90°
-    - Obtuse（钝角）：> 90° 但 < 180°
-    - Straight（平角）：= 180°
+  - Acute（锐角）：< 90°
+  - Right（直角）：= 90°
+  - Obtuse（钝角）：> 90° 但 < 180°
+  - Straight（平角）：= 180°
 - **Relationships**（关系）：
-    - Complementary（余角）：和 = 90°
-    - Supplementary（补角）：和 = 180°
-    - Vertical angles（对顶角）：两条相交直线形成的相对角 → 全等
-    - Linear pair（线性对）：相邻角构成一条直线 → 互补
+  - Complementary（余角）：和 = 90°
+  - Supplementary（补角）：和 = 180°
+  - Vertical angles（对顶角）：两条相交直线形成的相对角 → 全等
+  - Linear pair（线性对）：相邻角构成一条直线 → 互补
 
 ### 3. 平行线与垂线 (Parallel and Perpendicular Lines)
 
@@ -46,10 +46,10 @@ type: note
 - **Perpendicular lines**（垂线, ⊥）：以 90° 相交。
 - **Transversal**（截线）：一条穿过两条或多条直线的线。
 - **截线形成的角度关系**：
-    - Corresponding angles（同位角）：全等（若直线平行）
-    - Alternate interior angles（内错角）：全等（若直线平行）
-    - Alternate exterior angles（外错角）：全等（若直线平行）
-    - Consecutive (same-side) interior angles（同旁内角）：互补（若直线平行）
+  - Corresponding angles（同位角）：全等（若直线平行）
+  - Alternate interior angles（内错角）：全等（若直线平行）
+  - Alternate exterior angles（外错角）：全等（若直线平行）
+  - Consecutive (same-side) interior angles（同旁内角）：互补（若直线平行）
 - **坐标平面中的斜率**：平行线斜率相等；垂线斜率互为负倒数 (m₁ × m₂ = -1)。
 
 ### 4. 三角形（类型、性质、内角和）(Triangles)
@@ -57,27 +57,27 @@ type: note
 - **Angle sum**（内角和）：内角之和为 180°。
 - **Exterior angle**（外角）：等于两个不相邻内角的和。
 - **Types**（类型）：
-    - 按边分：Scalene（不等边三角形）、Isosceles（等腰三角形）、Equilateral（等边三角形）。
-    - 按角分：Acute（锐角三角形）、Right（直角三角形）、Obtuse（钝角三角形）。
+  - 按边分：Scalene（不等边三角形）、Isosceles（等腰三角形）、Equilateral（等边三角形）。
+  - 按角分：Acute（锐角三角形）、Right（直角三角形）、Obtuse（钝角三角形）。
 
 ### 5. 全等三角形（公理、定理）(Congruent Triangles)
 
 - **Definition**（定义）：形状和大小完全相同（对应部分相等）。
 - **Postulates/Theorems**（判定）：
-    - SSS (边-边-边)
-    - SAS (边-角-边，夹角)
-    - ASA (角-边-角，夹边)
-    - AAS (角-角-边)
-    - HL (斜边-直角边) — 仅限直角三角形
+  - SSS (边-边-边)
+  - SAS (边-角-边，夹角)
+  - ASA (角-边-角，夹边)
+  - AAS (角-角-边)
+  - HL (斜边-直角边) — 仅限直角三角形
 - **CPCTC**：全等三角形的对应部分全等。
 
 ### 6. 相似三角形（性质、比例）(Similar Triangles)
 
 - **Definition**（定义）：形状相同，大小可能不同（对应角相等，对应边成比例）。
 - **Criteria**（判定）：
-    - AA (角-角)
-    - SSS Similarity (三边成比例)
-    - SAS Similarity (两边成比例且夹角相等)
+  - AA (角-角)
+  - SSS Similarity (三边成比例)
+  - SAS Similarity (两边成比例且夹角相等)
 - **Properties**（性质）：对应边之比相等（缩放因子）；周长之比等于缩放因子；面积之比等于缩放因子的平方。
 
 ### 7. 勾股定理 (Pythagorean Theorem)
@@ -88,22 +88,22 @@ type: note
 ### 8. 特殊直角三角形 (Special Right Triangles)
 
 - **45-45-90**（等腰直角三角形）：
-    - 直角边相等；斜边 = 直角边 × √2
-    - 比例：1 : 1 : √2
+  - 直角边相等；斜边 = 直角边 × √2
+  - 比例：1 : 1 : √2
 - **30-60-90**：
-    - 对应边：30°（最短边）、60°、90°（斜边）
-    - 比例：1 : √3 : 2（30°对边 : 60°对边 : 斜边）
+  - 对应边：30°（最短边）、60°、90°（斜边）
+  - 比例：1 : √3 : 2（30°对边 : 60°对边 : 斜边）
 
 ### 9. 四边形（类型、性质）(Quadrilaterals)
 
 - **Sum of interior angles**（内角和）：360°。
 - **Types**（类型）：
-    - Parallelogram（平行四边形）：对边平行且全等；对角全等；邻角互补；对角线互相平分。
-    - Rectangle（矩形）：四个直角均为 90° 的平行四边形；对角线全等。
-    - Rhombus（菱形）：四条边全等的平行四边形；对角线垂直且平分顶角。
-    - Square（正方形）：既是矩形又是菱形（具备所有性质）。
-    - Trapezoid（梯形）：只有一对平行边（底边）；Isosceles trapezoid（等腰梯形）的腰和底角全等。
-    - Kite（筝形）：两组相邻边全等；对角线垂直（一条平分另一条）。
+  - Parallelogram（平行四边形）：对边平行且全等；对角全等；邻角互补；对角线互相平分。
+  - Rectangle（矩形）：四个直角均为 90° 的平行四边形；对角线全等。
+  - Rhombus（菱形）：四条边全等的平行四边形；对角线垂直且平分顶角。
+  - Square（正方形）：既是矩形又是菱形（具备所有性质）。
+  - Trapezoid（梯形）：只有一对平行边（底边）；Isosceles trapezoid（等腰梯形）的腰和底角全等。
+  - Kite（筝形）：两组相邻边全等；对角线垂直（一条平分另一条）。
 
 ### 10. 多边形（性质、内角和）(Polygons)
 
@@ -117,9 +117,9 @@ type: note
 
 - **Parts**（部位）：Center（圆心）、radius（半径）、diameter（直径）、chord（弦）、secant（割线）、tangent（切线）、arc（弧）、sector（扇形）、segment（弓形）。
 - **Properties**（性质）：
-    - 半径在切点处 ⊥ 切线。
-    - 直径所对的圆周角为 90°（半圆）。
-    - 圆心角 = 所对弧的度数；圆周角 = ½ 所对弧的度数。
+  - 半径在切点处 ⊥ 切线。
+  - 直径所对的圆周角为 90°（半圆）。
+  - 圆心角 = 所对弧的度数；圆周角 = ½ 所对弧的度数。
 - **Circumference**（周长）：C = 2πr 或 πd
 - **Area**（面积）：A = πr²
 
@@ -156,9 +156,9 @@ type: note
 ### 16. 三角学（直角三角形比例）(Trigonometry)
 
 - **SOH-CAH-TOA**：
-    - sin θ = 对边 / 斜边 (opposite / hypotenuse)
-    - cos θ = 邻边 / 斜边 (adjacent / hypotenuse)
-    - tan θ = 对边 / 邻边 (opposite / adjacent)
+  - sin θ = 对边 / 斜边 (opposite / hypotenuse)
+  - cos θ = 邻边 / 斜边 (adjacent / hypotenuse)
+  - tan θ = 对边 / 邻边 (opposite / adjacent)
 
 ### 17. 仰角与俯角 (Angles of Elevation and Depression)
 

@@ -17,27 +17,32 @@ You're encountering the issue where the `postgres` server process doesn't know w
 The `postgres` command starts the actual PostgreSQL server. It requires knowing where the data directory is.
 
 **Specifying the Data Directory (Required):**
+
 - `-D DATADIR` - specify the data directory path
 - Or set `PGDATA` environment variable
 
 **Connection Options:**
+
 - `-p PORT` - TCP port (default: 5432)
 - `-h HOSTNAME` - hostnames/IPs to listen on (default: localhost)
 - `-k DIRECTORY` - Unix socket directory
 - `-i` - enable TCP/IP connections (deprecated, use `-h`)
 
 **Configuration:**
+
 - `-c NAME=VALUE` - set configuration parameter
 - `--config-file=FILE` - use specified main config file
 - `--hba-file=FILE` - use specified pg_hba.conf file
 - `--ident-file=FILE` - use specified pg_ident.conf file
 
 **Logging:**
+
 - `-d LEVEL` - debug level (1-5)
 - `-F` - turn off fsync (dangerous, for testing only)
 - `-N MAX-CONNECT` - maximum concurrent connections
 
 **Examples:**
+
 ```bash
 # Start server with data directory
 postgres -D /var/lib/postgresql/data
@@ -58,6 +63,7 @@ postgres -D /var/lib/postgresql/data -c shared_buffers=256MB
 `pg_ctl` is the recommended way to start, stop, and manage PostgreSQL servers. It's a wrapper around `postgres` that provides better control.
 
 **Basic Commands:**
+
 - `pg_ctl start` - start server
 - `pg_ctl stop` - stop server
 - `pg_ctl restart` - restart server
@@ -66,6 +72,7 @@ postgres -D /var/lib/postgresql/data -c shared_buffers=256MB
 - `pg_ctl promote` - promote standby to primary
 
 **Common Options:**
+
 - `-D DATADIR` - data directory location
 - `-l FILENAME` - log file location
 - `-o OPTIONS` - options to pass to postgres
@@ -75,6 +82,7 @@ postgres -D /var/lib/postgresql/data -c shared_buffers=256MB
 - `-t SECONDS` - timeout for waiting
 
 **Shutdown Modes:**
+
 - `smart` - wait for all clients to disconnect
 - `fast` - disconnect clients, abort transactions
 - `immediate` - immediate shutdown (may require recovery on restart)
@@ -112,6 +120,7 @@ pg_ctl -D /var/lib/postgresql/data status
 Before you can start PostgreSQL, you need to initialize a data directory with `initdb`.
 
 **Options:**
+
 - `-D DATADIR` - location for data directory
 - `-U USERNAME` - database superuser name
 - `-W` - prompt for superuser password
@@ -122,6 +131,7 @@ Before you can start PostgreSQL, you need to initialize a data directory with `i
 - `-A METHOD` - default authentication method
 
 **Example:**
+
 ```bash
 # Initialize new database cluster
 initdb -D /var/lib/postgresql/data -U postgres -W
@@ -135,17 +145,20 @@ initdb -D /var/lib/postgresql/data -E UTF8 --locale=en_US.UTF-8
 When you see "postgres does not know where to find the server configuration file", you need to either:
 
 **Option 1: Set PGDATA environment variable**
+
 ```bash
 export PGDATA=/var/lib/postgresql/data
 postgres
 ```
 
 **Option 2: Use -D flag**
+
 ```bash
 postgres -D /var/lib/postgresql/data
 ```
 
 **Option 3: Use pg_ctl (recommended)**
+
 ```bash
 pg_ctl -D /var/lib/postgresql/data start
 ```
@@ -153,6 +166,7 @@ pg_ctl -D /var/lib/postgresql/data start
 ## Common Workflow
 
 **First-time setup:**
+
 ```bash
 # 1. Initialize database cluster
 initdb -D /var/lib/postgresql/data
@@ -168,6 +182,7 @@ psql mydb
 ```
 
 **Daily operations:**
+
 ```bash
 # Start
 pg_ctl -D /var/lib/postgresql/data start
@@ -185,6 +200,7 @@ pg_ctl -D /var/lib/postgresql/data stop
 ## Configuration Files
 
 Once initialized, the data directory contains:
+
 - `postgresql.conf` - main configuration file
 - `pg_hba.conf` - client authentication configuration
 - `pg_ident.conf` - user name mapping

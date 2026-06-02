@@ -13,6 +13,7 @@ type: note
 To exit full-screen mode in Ghostty terminal on Ubuntu, press **Ctrl + Enter**. This is the default keybinding to toggle full-screen on and off.
 
 If that doesn't work (e.g., due to a custom config), try these alternatives:
+
 - Right-click inside the terminal window and look for a "Leave Fullscreen" or similar option in the context menu.
 - Use the menu bar if visible: Go to **View > Leave Fullscreen** (you may need to hover at the top of the screen to reveal it).
 - As a last resort, close and reopen Ghostty with `ghostty` in another terminal, or kill the process via `pkill ghostty` and relaunch.

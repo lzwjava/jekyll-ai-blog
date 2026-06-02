@@ -12,13 +12,13 @@ type: note
 
 **IP datagram** 结构固定部分中 **Fragment Offset** 字段的单位是 **8 bytes (B)**。
 
-### Explanation:
+### Explanation
 
 - **Fragment Offset** 字段表示当前分片相对于原始 IP datagram 起始位置的偏移。
 - 由于 IP datagram 的分片长度必须是 8 bytes 的倍数，因此 **Fragment Offset** 以 8 bytes 为单位进行测量。
 - **Fragment Offset** 的值乘以 8 即可得到以 bytes 为单位的实际偏移量。
 
-### Analysis of Options:
+### Analysis of Options
 
 - **A. 1B**: 错误，单位不是 1 byte。
 - **B. 8B**: 正确，单位是 8 bytes。

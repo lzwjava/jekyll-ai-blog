@@ -50,7 +50,7 @@ export VAULT_ADDR='http://127.0.0.1:8200'
 export VAULT_TOKEN=root
 ```
 
-Open browser → http://127.0.0.1:8200/ui
+Open browser → <http://127.0.0.1:8200/ui>
 
 ### 4. Most Common Secret Engines (2025–2026 ranking)
 
@@ -79,6 +79,7 @@ Open browser → http://127.0.0.1:8200/ui
 ### 6. Step-by-step – Realistic Modern Workflow (Kubernetes + AppRole + KV + Database)
 
 {% raw %}
+
 ```bash
 # 1. Enable engines
 vault secrets enable -path=apps kv-v2
@@ -125,6 +126,7 @@ vault write auth/approle/role/myapp \
 vault read auth/approle/role/myapp/role-id
 vault write -f auth/approle/role/myapp/secret-id
 ```
+
 {% endraw %}
 
 ### 7. Best Practices 2025–2026
@@ -164,8 +166,8 @@ vault path-help aws/creds/my-role
 
 **References:**
 
-- https://developer.hashicorp.com/vault/docs
-- https://developer.hashicorp.com/vault/tutorials
-- https://developer.hashicorp.com/vault/docs/concepts
-- https://developer.hashicorp.com/vault/docs/secret-engines
-- https://developer.hashicorp.com/vault/docs/auth
+- <https://developer.hashicorp.com/vault/docs>
+- <https://developer.hashicorp.com/vault/tutorials>
+- <https://developer.hashicorp.com/vault/docs/concepts>
+- <https://developer.hashicorp.com/vault/docs/secret-engines>
+- <https://developer.hashicorp.com/vault/docs/auth>

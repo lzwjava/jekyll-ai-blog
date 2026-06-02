@@ -13,6 +13,7 @@ The `java.util.function` package in Java provides a collection of functional int
 ---
 
 ### What Are Functional Interfaces?
+
 A functional interface is an interface with exactly one abstract method. The `java.util.function` package offers predefined functional interfaces for common tasks, so you don’t need to create your own. These interfaces are widely used with lambda expressions, method references, and the Stream API to write concise and expressive code.
 
 Here’s how to use the key interfaces:
@@ -20,9 +21,11 @@ Here’s how to use the key interfaces:
 ---
 
 ### 1. `Function<T, R>`: Transforming Input to Output
+
 The `Function<T, R>` interface represents a function that takes an input of type `T` and produces an output of type `R`. Its abstract method is `apply`.
 
 #### Example: Get the Length of a String
+
 ```java
 import java.util.function.Function;
 
@@ -33,14 +36,17 @@ public class Main {
     }
 }
 ```
+
 - **Explanation**: The lambda expression `s -> s.length()` defines a `Function` that takes a `String` (`T`) and returns an `Integer` (`R`). The `apply` method executes this logic.
 
 ---
 
 ### 2. `Predicate<T>`: Testing a Condition
+
 The `Predicate<T>` interface represents a boolean-valued function that takes an input of type `T`. Its abstract method is `test`.
 
 #### Example: Check if a Number is Even
+
 ```java
 import java.util.function.Predicate;
 
@@ -52,14 +58,17 @@ public class Main {
     }
 }
 ```
+
 - **Explanation**: The lambda `n -> n % 2 == 0` defines a `Predicate` that returns `true` if the input is even. The `test` method evaluates this condition.
 
 ---
 
 ### 3. `Consumer<T>`: Performing an Action
+
 The `Consumer<T>` interface represents an operation that takes an input of type `T` and returns no result. Its abstract method is `accept`.
 
 #### Example: Print a String
+
 ```java
 import java.util.function.Consumer;
 
@@ -70,14 +79,17 @@ public class Main {
     }
 }
 ```
+
 - **Explanation**: The lambda `s -> System.out.println(s)` defines a `Consumer` that prints its input. The `accept` method performs the action.
 
 ---
 
 ### 4. `Supplier<T>`: Generating a Result
+
 The `Supplier<T>` interface represents a supplier of results, taking no input and returning a value of type `T`. Its abstract method is `get`.
 
 #### Example: Generate a Random Number
+
 ```java
 import java.util.function.Supplier;
 import java.util.Random;
@@ -89,14 +101,17 @@ public class Main {
     }
 }
 ```
+
 - **Explanation**: The lambda `() -> new Random().nextInt(100)` defines a `Supplier` that generates a random integer. The `get` method retrieves the value.
 
 ---
 
 ### Using Functional Interfaces with Streams
+
 These interfaces shine in the Java Stream API, where they enable concise data processing. Here’s an example that filters, transforms, and prints a list of strings:
 
 #### Example: Process a List of Strings
+
 ```java
 import java.util.Arrays;
 import java.util.List;
@@ -119,13 +134,16 @@ public class Main {
     }
 }
 ```
+
 - **Explanation**:
   - `filter` uses a `Predicate` to keep strings with length > 2.
   - `map` uses a `Function` to transform strings to uppercase.
   - `forEach` uses a `Consumer` to print each result.
 
 #### Using Method References
+
 You can make this even shorter with method references:
+
 ```java
 strings.stream()
        .filter(s -> s.length() > 2)
@@ -136,15 +154,20 @@ strings.stream()
 ---
 
 ### Composing Functional Interfaces
+
 Some interfaces allow composition for more complex operations:
+
 - **Function Composition**: Use `andThen` or `compose`.
+
   ```java
   Function<String, Integer> toLength = s -> s.length();
   Function<Integer, String> toString = i -> "Length is " + i;
   Function<String, String> combined = toLength.andThen(toString);
   System.out.println(combined.apply("Hello")); // Outputs: Length is 5
   ```
+
 - **Predicate Combination**: Use `and`, `or`, or `negate`.
+
   ```java
   Predicate<String> isLong = s -> s.length() > 5;
   Predicate<String> startsWithA = s -> s.startsWith("A");
@@ -155,7 +178,9 @@ Some interfaces allow composition for more complex operations:
 ---
 
 ### Summary
+
 Here’s when and how to use these interfaces:
+
 - **`Function<T, R>`**: Transform an input into an output (e.g., `apply`).
 - **`Predicate<T>`**: Test a condition (e.g., `test`).
 - **`Consumer<T>`**: Perform an action on an input (e.g., `accept`).

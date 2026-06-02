@@ -20,7 +20,7 @@ The **graduation prediction module** (毕业预测模块) in the **广东省高�
 
 1. **Log in to the system**
    Open a browser and go to the official Guangdong Self-Study Examination Management System:
-   https://www.eeagd.edu.cn/selfec/
+   <https://www.eeagd.edu.cn/selfec/>
    Click **考生入口** (Candidate Entrance) and log in using your candidate number (准考证号) and password.
 
 2. **Enter the graduation management section**
@@ -50,12 +50,13 @@ The **graduation prediction module** (毕业预测模块) in the **广东省高�
    Take a screenshot of the result for your records (especially useful when applying for thesis or formal graduation).
 
 ### Important notes
+
 - Graduation prediction is **free** and can be done **anytime** (not limited to graduation application windows).
 - It is **strongly recommended** to run prediction **before** applying for graduation or registering for a thesis/graduation project. Many schools require a successful prediction (only thesis remaining) as a prerequisite for thesis registration.
 - If the major has undergone multiple plan changes, carefully check and adjust course substitutions.
 - The prediction result is for reference only — the official graduation result comes after formal application and provincial/Ministry review.
 
-Official system URL (always use this): https://www.eeagd.edu.cn/selfec/
+Official system URL (always use this): <https://www.eeagd.edu.cn/selfec/>
 
 References:
 

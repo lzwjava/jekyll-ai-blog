@@ -25,6 +25,7 @@ DSA 由两个主要组件组成，共同协作实现高效稀疏注意力：[2]
 闪电索引器是一种快速、轻量级的评分机制，能够快速评估历史令牌对当前查询的重要性。**索引器为每个令牌保留一个 128 维的小型键缓存**[3]（与传统注意力中使用的完整键值缓存相比）。
 
 **工作原理：**
+
 - 闪电索引器计算当前查询令牌与序列中所有先前令牌之间的相关性分数
 - 它使用压缩的键表示（128 维而非完整维度键）来显著减少内存和计算需求
 - **虽然闪电索引器仍然具有 O(L²) 复杂度，但与主要注意力机制相比，它需要的计算量要少得多**[4]
@@ -45,6 +46,7 @@ DSA 由两个主要组件组成，共同协作实现高效稀疏注意力：[2]
 传统注意力机制需要计算每个令牌与所有其他令牌之间的关系，导致 O(n²) 的计算复杂度。**DeepSeek 稀疏注意力（DSA）将核心注意力复杂度从 O(L²) 降低到 O(Lk)，其中 k 是所选令牌的数量（远小于 L）**[4]
 
 这代表了注意力计算方式的根本转变：
+
 - **传统完整注意力：** 每个查询关注每个键值对 → O(n²)
 - **DSA 稀疏注意力：** 每个查询仅关注前 K 个最相关的对 → O(nk)
 - 由于 k << n（k 通常是一个小常数或比 n 增长慢得多），这实现了接近线性的扩展
@@ -63,24 +65,29 @@ DSA 与 DeepSeek 在 V3 模型中使用的现有多潜在注意力（MLA）架�
 DSA 在多个维度上带来了显著的效率改进：
 
 ### **速度提升：**
+
 - 长文本处理的推理速度**提高 2-3 倍**[2]
 - 在训练和推理阶段均实现显著加速
 - 对于超过 32K 令牌的序列特别有效
 
 ### **内存减少：**
+
 - 由于压缩的索引器键（128 维），KV 缓存需求更小
 - 仅存储选定令牌的完整注意力
 - 在相同内存预算内支持处理更长的上下文
 
 ### **成本降低：**
+
 效率提升直接转化为显著的成本降低。**API 定价降低超过 50%，输入成本低至每百万令牌 0.07 美元（缓存命中）**[5]
 
 **新 API 定价：**
+
 - 输入：$0.14/百万令牌（标准），$0.07/百万令牌（缓存命中）
 - 输出：$0.42/百万令牌
 - 这代表了与 V3.1-Terminus 相比**超过 50% 的降价**[6]
 
 成本降低来自两个因素：
+
 1. 稀疏注意力机制显著降低计算成本
 2. 引入缓存机制减少冗余计算[5]
 
@@ -103,15 +110,19 @@ DSA 的一个关键成就是在实现效率提升的同时保持模型质量。D
 ## DSA 与其他稀疏注意力方法的区别
 
 ### **细粒度 vs 粗粒度：**
+
 大多数先前的稀疏注意力方法使用粗粒度模式（固定模式、局部窗口、跨步注意力）。DSA 通过基于内容相关性动态学习关注哪些特定令牌来实现**细粒度**稀疏性。
 
 ### **学习选择：**
+
 与固定的稀疏模式不同，DSA 通过闪电索引器学习重要性评分，允许响应实际语义关系的自适应注意力模式。
 
 ### **硬件优化：**
+
 DSA 从设计之初就针对现代 GPU 硬件进行了优化，不像某些稀疏方法显示出理论增益但实际加速有限。
 
 ### **可训练稀疏性：**
+
 稀疏注意力模式在训练期间学习（原生可训练），而不仅仅在推理时应用，允许更好的优化。
 
 ## 技术实现
@@ -164,10 +175,10 @@ DSA 代表了 LLM 架构的重要演进方向。通过证明选择性注意力�
 总之，DeepSeek 稀疏注意力（DSA）是一种复杂的两阶段机制，结合了用于快速令牌重要性评分的轻量级闪电索引器和细粒度选择性注意力计算。它在保持模型质量的同时实现了显著的效率提升（50%+ 成本降低，2-3 倍速度提升），代表了使长上下文 LLM 实用且经济可行的重要进步。
 
 引用：
-[1] https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
-[2] https://medium.com/@Techsankar381/deepseek-halves-ai-tooling-costs-with-breakthrough-sparse-attention-model-3840fb61a4e0
-[3] https://x.com/vllm_project/status/1972617272901644345
-[4] https://blogs.novita.ai/deepseek-v3-2-exp-on-novita-ai/
-[5] https://dev.to/czmilo/deepseek-v32-exp-complete-analysis-2025-ai-model-breakthrough-and-in-depth-analysis-of-sparse-3gcl
-[6] https://api-docs.deepseek.com/news/news250929
-[7] https://www.implicator.ai/deepseek-cuts-inference-costs-by-10x/
+[1] <https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp>
+[2] <https://medium.com/@Techsankar381/deepseek-halves-ai-tooling-costs-with-breakthrough-sparse-attention-model-3840fb61a4e0>
+[3] <https://x.com/vllm_project/status/1972617272901644345>
+[4] <https://blogs.novita.ai/deepseek-v3-2-exp-on-novita-ai/>
+[5] <https://dev.to/czmilo/deepseek-v32-exp-complete-analysis-2025-ai-model-breakthrough-and-in-depth-analysis-of-sparse-3gcl>
+[6] <https://api-docs.deepseek.com/news/news250929>
+[7] <https://www.implicator.ai/deepseek-cuts-inference-costs-by-10x/>

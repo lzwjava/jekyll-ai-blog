@@ -38,6 +38,7 @@ Device management (also called I/O management) is a core component of the operat
   Detecting and recovering from device faults when possible.
 
 In the classic I/O request lifecycle:
+
 1. User process makes an I/O request (via system call)
 2. OS kernel checks device status and allocation policy
 3. If the device is available (or can be scheduled), the OS **allocates** it to the process (directly or virtually)

@@ -13,50 +13,50 @@ type: post
 
 **1. PATH 配置:**
 
-   - `export PATH=...`：这行设置了`PATH`环境变量，告诉shell在哪些目录中查找可执行文件。它包括Java、Ruby、Homebrew、Python、Flutter和Google Cloud SDK等各种目录。这确保了可以直接从终端运行这些工具的命令。
+- `export PATH=...`：这行设置了`PATH`环境变量，告诉shell在哪些目录中查找可执行文件。它包括Java、Ruby、Homebrew、Python、Flutter和Google Cloud SDK等各种目录。这确保了可以直接从终端运行这些工具的命令。
 
 **2. 代理管理:**
 
-   - `export GLOBAL_PROXY='127.0.0.1:7890'`：定义变量`GLOBAL_PROXY`，保存代理服务器地址。
-   - `function start_proxy { ... }`：这个函数设置`HTTP_PROXY`、`HTTPS_PROXY`、`http_proxy`、`https_proxy`和`ALL_PROXY`环境变量以使用指定的代理。它还禁用了代理的完整URI请求。
-   - `function start_proxy_without_prefix { ... }`：类似于`start_proxy`，但设置代理变量时不带`http://`前缀。
-   - `function stop_proxy { ... }`：这个函数取消设置代理变量，从而禁用代理。它还启用了代理的完整URI请求。
-   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`：指定应绕过代理的主机列表。
+- `export GLOBAL_PROXY='127.0.0.1:7890'`：定义变量`GLOBAL_PROXY`，保存代理服务器地址。
+- `function start_proxy { ... }`：这个函数设置`HTTP_PROXY`、`HTTPS_PROXY`、`http_proxy`、`https_proxy`和`ALL_PROXY`环境变量以使用指定的代理。它还禁用了代理的完整URI请求。
+- `function start_proxy_without_prefix { ... }`：类似于`start_proxy`，但设置代理变量时不带`http://`前缀。
+- `function stop_proxy { ... }`：这个函数取消设置代理变量，从而禁用代理。它还启用了代理的完整URI请求。
+- `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`：指定应绕过代理的主机列表。
 
 **3. Git 代理:**
 
-   - `function start_git_proxy { ... }`：这个函数配置git使用全局代理进行HTTP和HTTPS连接。
-   - `function stop_git_proxy { ... }`：这个函数取消git代理设置。
+- `function start_git_proxy { ... }`：这个函数配置git使用全局代理进行HTTP和HTTPS连接。
+- `function stop_git_proxy { ... }`：这个函数取消git代理设置。
 
 **4. Homebrew 集成:**
 
-   - `eval "$(/opt/homebrew/bin/brew shellenv)"`：这行将Homebrew集成到shell环境中，允许使用Homebrew命令。
+- `eval "$(/opt/homebrew/bin/brew shellenv)"`：这行将Homebrew集成到shell环境中，允许使用Homebrew命令。
 
 **5. 便捷别名:**
 
-   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`：创建别名`gpa`，运行python脚本`gitmessageai.py`，使用mistral API。
-   - `alias gca='python ~/bin/gitmessageai.py --no-push'`：创建别名`gca`，运行相同的脚本但不推送更改。
-   - `alias gm='python ~/bin/gitmessageai.py --only-message'`：创建别名`gm`，运行相同的脚本并仅打印提交消息。
-   - `alias gpam=/usr/local/bin/git-auto-commit`：创建别名`gpam`，运行`git-auto-commit`脚本。
-   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`：创建别名`rougify`，运行`rougify`脚本。
+- `alias gpa='python ~/bin/gitmessageai.py --api mistral'`：创建别名`gpa`，运行python脚本`gitmessageai.py`，使用mistral API。
+- `alias gca='python ~/bin/gitmessageai.py --no-push'`：创建别名`gca`，运行相同的脚本但不推送更改。
+- `alias gm='python ~/bin/gitmessageai.py --only-message'`：创建别名`gm`，运行相同的脚本并仅打印提交消息。
+- `alias gpam=/usr/local/bin/git-auto-commit`：创建别名`gpam`，运行`git-auto-commit`脚本。
+- `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`：创建别名`rougify`，运行`rougify`脚本。
 
 **6. SSL 证书:**
 
-   - `export SSL_CERT_FILE=~/bin/cacert.pem`：设置自定义SSL证书文件的路径。
+- `export SSL_CERT_FILE=~/bin/cacert.pem`：设置自定义SSL证书文件的路径。
 
 **7. Homebrew 自动更新:**
 
-   - `export HOMEBREW_NO_AUTO_UPDATE=1`：禁用Homebrew的自动更新。
+- `export HOMEBREW_NO_AUTO_UPDATE=1`：禁用Homebrew的自动更新。
 
 **8. 预执行代理检查:**
 
-   - `preexec() { ... }`：在每个命令执行前运行的函数。它检查命令是否在网络依赖命令列表中。如果是，并且设置了任何代理变量，则显示代理设置。
-   - `local network_commands=( ... )`：列出被认为是网络依赖的命令的数组。
-   - `display_proxy() { ... }`：显示当前代理设置的函数。
+- `preexec() { ... }`：在每个命令执行前运行的函数。它检查命令是否在网络依赖命令列表中。如果是，并且设置了任何代理变量，则显示代理设置。
+- `local network_commands=( ... )`：列出被认为是网络依赖的命令的数组。
+- `display_proxy() { ... }`：显示当前代理设置的函数。
 
 **9. Google Cloud SDK 补全:**
 
-   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`：启用gcloud的shell命令补全。
+- `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`：启用gcloud的shell命令补全。
 
 **10. API密钥和凭证:**
 
@@ -106,22 +106,22 @@ function start_proxy {
 
 function start_proxy_without_prefix {
     export http_proxy=$GLOBAL_PROXY
-		export HTTP_PROXY=$GLOBAL_PROXY
-		export https_proxy=$GLOBAL_PROXY
+  export HTTP_PROXY=$GLOBAL_PROXY
+  export https_proxy=$GLOBAL_PROXY
     export HTTPS_PROXY=$GLOBAL_PROXY
     export HTTP_PROXY_REQUEST_FULLURI=false
     export HTTPS_PROXY_REQUEST_FULLURI=false
-		export ALL_PROXY=$http_proxy
+  export ALL_PROXY=$http_proxy
 }
 
 function stop_proxy {
     export http_proxy=
-		export HTTP_PROXY=
-		export https_proxy=
+  export HTTP_PROXY=
+  export https_proxy=
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=
+  export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"

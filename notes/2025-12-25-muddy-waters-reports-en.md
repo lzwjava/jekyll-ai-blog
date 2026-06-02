@@ -16,15 +16,18 @@ Answer:
 
 Muddy Waters Research, founded by Carson Block, is an activist short-selling firm known for publishing detailed due diligence reports alleging fraud, accounting issues, or misleading practices in publicly traded companies, often leading to significant stock price declines.
 
-### Most Famous Report:
+### Most Famous Report
+
 - **Sino-Forest Corp (2011)**: This is widely regarded as Muddy Waters' breakthrough and most impactful report. They accused the Chinese forestry company of being a "multi-billion dollar Ponzi scheme" by inflating assets and earnings through fraudulent timber holdings. The stock plummeted over 80%, leading to the company's bankruptcy, regulatory investigations, and major losses for investors like John Paulson.
 
-### Other Notable Historical Reports:
+### Other Notable Historical Reports
+
 - **Luckin Coffee (2020)**: Alleged fabrication of sales, contributing to the company's scandal and delisting.
 - **NQ Mobile (2013)**: Claimed fictitious customers and revenues.
 - **NMC Health (2019)**: Uncovered inflated cash balances and financial irregularities.
 
-### Recent Major Reports (2025):
+### Recent Major Reports (2025)
+
 - **AppLovin (APP US, March 2025)**: Accused the company of violating platform terms of service by collecting user IDs, low incrementality in e-commerce conversions (only 25-35%), high churn, and privacy violations. A follow-up report addressed CEO responses as false.
 - **FTAI Aviation Ltd. (FTAI US, January 2025)**: Alleged misleading financial reporting by classifying one-time engine sales as recurring maintenance revenue, potential sanctions violations (sale to Iranian entity), and inflated margins.
 - **e.l.f. Beauty, Inc. (ELF US, early 2025)**: Claimed revenue and profit inflation, possibly through insufficient sales leading to inventory buildup.

@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: What does the content of the blog post at https://www.aleksagordic.com/blog/matmul say?
+Question: What does the content of the blog post at <https://www.aleksagordic.com/blog/matmul> say?
 
 Answer:
 
@@ -50,11 +50,11 @@ Answer:
 - **为什么要优化 Matmul？** 它是 embarrassingly parallel 的，并且主导了 transformer 的计算。
 - **性能瓶颈：** Memory-bound vs. compute-bound (roofline model)、bank conflicts、uncoalesced accesses、occupancy 以及 wave/tile quantization。
 - **重点优化的技术：**
-    - Vectorized/coalesced loads。
-    - Shared memory tiling 和 outer-product formulation。
-    - 异步操作以实现计算与内存传输的 overlap。
-    - SMEM 中的 Swizzling 和 multicasting。
-    - Cluster-level 协调和 persistent blocks。
+  - Vectorized/coalesced loads。
+  - Shared memory tiling 和 outer-product formulation。
+  - 异步操作以实现计算与内存传输的 overlap。
+  - SMEM 中的 Swizzling 和 multicasting。
+  - Cluster-level 协调和 persistent blocks。
 
 文章包含大量图表（如 memory hierarchies、bank conflict 示意图、pipeline stages）、带注释的代码片段（CUDA、PTX、SASS）、数学推导（如峰值 FLOPs 公式）以及来自 Nsight Compute 等工具的性能指标。
 

@@ -15,15 +15,19 @@ It sounds like you have a solid, ongoing friendship with this guy—weekly hango
 As for why someone in his mid-30s (assuming "around 89" means born in 1989) might still be single in China, especially in his demographic, it's super common these days. Urban professionals like him—educated, in high-pressure jobs—often delay marriage or skip it altogether. Here's a breakdown of the main reasons, drawn from recent trends:
 
 ### Economic Pressures
+
 - **Sky-high costs**: Marriage in China isn't cheap—think dowries, weddings, and especially housing. In cities like Guangzhou and Shenzhen, apartment prices are insane (often 10x annual salary), and many guys feel they need a home to even propose. Youth unemployment hovers around 15-20% in urban areas, and the economy's been sluggish post-COVID, making folks prioritize stability over settling down.
 - **Career focus**: Foreign companies mean long hours, travel, and relocation risks. At 36, he's likely climbing the ladder, and that leaves little bandwidth for dating apps or family intros.
 
 ### Shifting Social Norms
+
 - **Women leading the change**: Educated women in their 30s are increasingly opting out of marriage to protect their independence and careers. This creates a mismatch—more single men than women in the dating pool, thanks to the old one-child policy skewing the gender ratio (about 105 men per 100 women overall, worse in urban areas).
 - **Freedom over tradition**: Younger gens (including him) value travel, hobbies, and self-growth more than the old "marry by 30" script. Stigma around "leftover men" (shengnan) exists but is fading, especially in cosmopolitan spots like Shenzhen.
 
 ### Stats to Show It's Normal
+
 This isn't some outlier case—China's marriage rate hit a record low of 7.68 million couples in 2023 (down from 13 million a decade ago), the fewest since the 1980s. For context:
+
 - Over 50% of people aged 25-29 are unmarried.
 - Around 30% of 30-year-olds in cities are single, rising to 20-40% for those 32-41.
 - In urban hubs, the "marrying later" trend has spread even to rural areas, with folks citing education, better lifestyles, and less pressure to rush.

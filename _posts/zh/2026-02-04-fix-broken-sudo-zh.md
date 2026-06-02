@@ -48,9 +48,11 @@ sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set
 
    - `4755` = owner read/write/execute + setuid bit + group/other read/execute。
    - 完成后，执行 `ls -l /usr/bin/sudo` 应该显示如下：
+
      ```
      -rwsr-xr-x 1 root root ... /usr/bin/sudo
      ```
+
      （`x` 位置显示的 `s` = setuid bit）
 
 8. 可选操作：如果 `su` 也损坏了，顺便修复它：

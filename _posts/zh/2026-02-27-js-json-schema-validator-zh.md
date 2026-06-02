@@ -16,6 +16,7 @@ type: note
 **ajv** npm 包是一个高性能的 **JSON Schema validator**，用于 JavaScript。它代表 "Another JSON Validator"，并被广泛认为是 Node.js 和浏览器环境中可用的 **最快的 JSON Schema validator**。
 
 ### 主要特性
+
 - 支持多个 JSON Schema drafts：draft-04（需要额外包）、draft-06、draft-07、draft/2019-09 和 draft/2020-12。
 - 支持 **JSON Type Definition** (JTD — RFC 8927)。
 - 将 JSON Schema 编译成高度优化的 JavaScript 验证函数（代码生成），这使得验证非常快速，并能获得良好的 V8 引擎优化。

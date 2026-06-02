@@ -67,7 +67,7 @@ public class Main {
 
 ```
 
-### Key Changes Made:
+### Key Changes Made
 
 * **Removed `static`:** The fields `in` and `out` and the method `solve()` no longer use the `static` modifier. They now belong to a specific instance of the class.
 * **Object Instantiation:** In the `main` method, `new Main().run()` is used to jump from the static context into the instance context.

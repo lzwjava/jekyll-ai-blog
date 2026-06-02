@@ -93,6 +93,7 @@ Instrumented methods create spans → sent to configured exporters
 In short: The OpenTelemetry Java agent is a sophisticated java.lang.instrument-based agent that uses Byte Buddy to dynamically rewrite application classes at load time, inserting tracing, metrics, and context propagation logic according to dozens of built-in instrumentation libraries — all with zero code changes.
 
 References:
+
 - [OpenTelemetry Java Instrumentation Repository](https://github.com/open-telemetry/opentelemetry-java-instrumentation)
 - [Official Documentation – Java Agent](https://opentelemetry.io/docs/instrumentation/java/automatic/)
 - [Byte Buddy – The engine behind the agent](https://bytebuddy.net/)

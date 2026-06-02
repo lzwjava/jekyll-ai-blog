@@ -27,6 +27,7 @@ NAT operates at the **network layer (Layer 3)** of the OSI model and only deals 
 The process you're describing—translating between **IP addresses** and **MAC addresses**—is handled by the **Address Resolution Protocol (ARP)**, which operates at the **data link layer (Layer 2)**. ARP resolves IPv4 addresses to MAC addresses within a local network segment, and Reverse ARP (RARP) or similar mechanisms can do the opposite (though RARP is largely obsolete).
 
 In summary:
+
 - NAT: IP ↔ IP (and ports)
 - ARP: IP → MAC (on local networks)
 

@@ -34,6 +34,7 @@ Here are the key reasons why this difference exists:
 ### 2. Internal coherence requirement
 
 Good software has very high **internal consistency**:
+
 - variable names must match across files
 - function signatures must be respected
 - data structures must be used correctly everywhere
@@ -65,11 +66,13 @@ Because the cost of failure is usually much higher in software, humans (and team
 ### Summary
 
 Content is easier because:
+
 - No compiler / no runtime verifier
 - Lower requirement for global coherence
 - Lower cost of being wrong
 
 Code remains harder because:
+
 - Extremely unforgiving verifier (computer)
 - High demand for long-range consistency
 - Much higher real-world consequences of mistakes

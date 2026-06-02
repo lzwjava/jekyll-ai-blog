@@ -17,6 +17,7 @@ Answer:
 AWS provides a comprehensive suite of networking services centered around **Amazon Virtual Private Cloud (Amazon VPC)**, which allows users to create logically isolated virtual networks in the AWS cloud. These services enable secure, scalable, and flexible network configurations for resources like EC2 instances.
 
 ### Core VPC Components and Features
+
 - **Virtual Private Cloud (VPC)**: A logically isolated section of the AWS cloud where you define your own virtual network. You control the IP address range (CIDR block), subnets, route tables, and gateways. VPCs span multiple Availability Zones in a Region for high availability.
 
 - **Subnets**: Segments of a VPC's IP address range.
@@ -30,6 +31,7 @@ AWS provides a comprehensive suite of networking services centered around **Amaz
   - **NAT Instance**: An older, user-managed alternative using an EC2 instance for NAT; less recommended due to higher administrative overhead compared to NAT Gateways.
 
 ### Other Typical Networking Services
+
 - **Route Tables**: Control traffic routing within the VPC and to external destinations (e.g., 0.0.0.0/0 route to IGW or NAT Gateway).
 - **Security Groups and Network ACLs**: Act as virtual firewalls—security groups at the instance level, NACLs at the subnet level.
 - **VPC Peering**: Connects multiple VPCs (even across accounts or Regions) for private communication.

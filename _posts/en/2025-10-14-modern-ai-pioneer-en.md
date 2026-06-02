@@ -52,6 +52,7 @@ Why so aggressive? It's not ego alone—Schmidhuber sees AI history as skewed by
 In short: He's a foundational inventor fighting for a fuller story in a field that often rewrites its past. Passionate? Yes. Over-the-top? Sometimes. But his persistence has spotlighted real gaps in attribution.
 
 ### References
+
 - [Jürgen Schmidhuber Wikipedia](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber)
 - [Annotated History of Modern AI (Schmidhuber, 2022)](https://people.idsia.ch/~juergen/deep-learning-history.html)
 - [A Nobel Prize for Plagiarism (Schmidhuber Report, 2025)](https://people.idsia.ch/~juergen/nobel-prize-for-plagiarism.html)

@@ -19,6 +19,7 @@ Hermes acknowledged the request, showing “Updating Hermes Agent…” and refo
 The user notes they are **increasingly using the `goal` command** regularly, suggesting a preference for high-level task delegation rather than step-by-step instructions.
 
 **Key Takeaways:**
+
 - User relies on Hermes for exploratory or explanatory tasks, especially regarding its own functionality.
 - Hermes processes goals by first confirming and then reframing the request before execution.
 - The interaction reflects a pattern of using natural language, goal-oriented prompts to drive the agent’s behavior.

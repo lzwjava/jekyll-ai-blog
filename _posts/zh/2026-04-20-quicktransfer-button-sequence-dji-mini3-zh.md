@@ -15,9 +15,9 @@ type: note
 
 ### **如何进入 QuickTransfer 模式**
 
-1.  **先开机：** 使用标准方法（按一次，再按住 2 秒）打开无人机。等待自检完成。
-2.  **QuickTransfer 按键顺序：** 无人机完全启动后，**快速点按电源键三次。**
-3.  **检查是否成功：** 飞行器状态指示灯将**闪烁蓝灯**，表示无人机已成功从飞行模式切换到 QuickTransfer 模式。
+1. **先开机：** 使用标准方法（按一次，再按住 2 秒）打开无人机。等待自检完成。
+2. **QuickTransfer 按键顺序：** 无人机完全启动后，**快速点按电源键三次。**
+3. **检查是否成功：** 飞行器状态指示灯将**闪烁蓝灯**，表示无人机已成功从飞行模式切换到 QuickTransfer 模式。
 
 -----
 
@@ -37,11 +37,11 @@ type: note
 
 当无人机蓝灯闪烁后：
 
-  * **启用连接功能：** 确保智能手机的蓝牙和 Wi-Fi 已开启。
-  * **开启 DJI Fly：** 启动 app。此时应自动弹出连接飞行器的提示。
-  * **首次连接确认：** 如果这是您首次连接特定手机到该无人机，在 app 提示时，您可能需要**按住电源键 2 秒**来确认安全连接。
+* **启用连接功能：** 确保智能手机的蓝牙和 Wi-Fi 已开启。
+* **开启 DJI Fly：** 启动 app。此时应自动弹出连接飞行器的提示。
+* **首次连接确认：** 如果这是您首次连接特定手机到该无人机，在 app 提示时，您可能需要**按住电源键 2 秒**来确认安全连接。
 
 参考链接：
 
-  * [QuickTransfer 指南和常见问题 - DJI 支持](https://www.google.com/search?q=https://support.dji.com/help/content%3FcustomId%3D01700011149%26spaceId%3D17%26re%3DUS%26lang%3Den)
-  * [如何使用 DJI Mini 3 的 QuickTransfer？- Heliguy](https://www.heliguy.com/blogs/knowledge-base/how-do-i-use-dji-mini-3-s-quicktransfer/)
+* [QuickTransfer 指南和常见问题 - DJI 支持](https://www.google.com/search?q=https://support.dji.com/help/content%3FcustomId%3D01700011149%26spaceId%3D17%26re%3DUS%26lang%3Den)
+* [如何使用 DJI Mini 3 的 QuickTransfer？- Heliguy](https://www.heliguy.com/blogs/knowledge-base/how-do-i-use-dji-mini-3-s-quicktransfer/)

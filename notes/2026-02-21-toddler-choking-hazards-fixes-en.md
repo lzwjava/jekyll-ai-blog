@@ -12,6 +12,7 @@ type: note
 For children aged 1 to 3 years, it's important to avoid foods that pose a choking hazard due to their size, shape, or texture. **花生 (peanuts)** are a classic example—whole peanuts, peanut butter in thick globs, or chunks can easily block a young child's airway.
 
 ### **Common Choking Hazards for Toddlers (1–3 years old):**
+
 1. **Whole Nuts & Seeds**
    - Examples: Almonds, cashews, sunflower seeds, pumpkin seeds.
    - Risk: Hard, round, and difficult to chew properly.
@@ -39,6 +40,7 @@ For children aged 1 to 3 years, it's important to avoid foods that pose a chokin
 ---
 
 ### **How to Make These Foods Safer:**
+
 - **Cut grapes, cherry tomatoes, and hot dogs lengthwise** (not just in rounds).
 - **Grind or finely chop nuts/seeds** (or avoid until age 4+).
 - **Cook or steam hard veggies/fruits** until soft.

@@ -11,11 +11,11 @@ type: note
 
 我将搜索关于 ATM 技术和其应用的全面信息。
 
-## 问题：
+## 问题
 
 ATM (Asynchronous Transfer Mode) 是什么，它用于什么？
 
-## 答案：
+## 答案
 
 ### ATM 是什么？
 
@@ -34,6 +34,7 @@ ATM (Asynchronous Transfer Mode) 是一种电信网络使用的交换技术，�
 ATM 有众多应用，包括电信网络，由于其能够在同一网络上传输 voice、video 和 data 的能力而被广泛使用，作为 WAN 的 backbone network，具有高速数据传输能力，以及商业广播，由于其实时传输能力。
 
 **具体应用：**
+
 - 电信用于高速 voice 和 data 传输，企业网络用于安全且可扩展的企业通信，以及 video conferencing 以确保低延迟和高品质 video stream
 - ATM 是 public switched telephone network 的 synchronous optical networking 和 synchronous digital hierarchy (SONET/SDH) backbone 以及 Integrated Services Digital Network (ISDN) 中的核心 protocol
 
@@ -47,7 +48,7 @@ ATM 在 1990 年代被视为 Ethernet 和承载 IP 流量的网络的竞争者�
 
 ---
 
-## 参考文献：
+## 参考文献
 
 - [https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode](https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode)
 - [https://www.gartner.com/en/information-technology/glossary/atm-asynchronous-transfer-mode](https://www.gartner.com/en/information-technology/glossary/atm-asynchronous-transfer-mode)

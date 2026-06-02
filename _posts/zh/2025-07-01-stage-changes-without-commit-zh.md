@@ -11,6 +11,7 @@ type: note
 若要在预提交钩子中将 `update_notes_link.py` 脚本的更改整合到当前提交（而非创建独立提交），需修改钩子逻辑：仅暂存更新文件而不单独提交。这样 Python 脚本的更改就会包含在用户的提交中。以下是修改后的预提交钩子脚本实现方案。
 
 ### 核心调整
+
 - **取消独立提交**：钩子不再执行 `git commit`，而是通过 `git add` 暂存更新文件使其归入用户提交
 - **保留原始提交信息**：不创建新提交可确保用户原提交信息不被覆盖
 - **错误处理**：若 Python 执行失败，钩子将以非零状态退出终止提交
@@ -70,6 +71,7 @@ exit 0
    - 将脚本保存至仓库的 `.git/hooks/pre-commit`
 
 2. **设置可执行权限**：
+
    ```bash
    chmod +x .git/hooks/pre-commit
    ```
@@ -84,6 +86,7 @@ exit 0
 若倾向使用 `pre-commit` 框架，可通过 `.pre-commit-config.yaml` 实现相同逻辑：
 
 1. **安装框架**：
+
    ```bash
    pip install pre-commit
    ```
@@ -122,6 +125,7 @@ repos:
 ```
 
 3. **安装钩子**：
+
    ```bash
    pre-commit install
    ```

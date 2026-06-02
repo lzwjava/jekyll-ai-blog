@@ -17,6 +17,7 @@ Claude Code 是由 Anthropic 开发的 AI 编程助手，旨在无缝集成到�
 Claude Code 是一款基于终端的工具，依托 Anthropic 的先进 AI 模型（如 Claude 3.5 Sonnet 和 Opus 4）为编程任务提供协助。与传统编程助手不同，它直接在开发环境中运行，能够理解代码库、执行命令并自动化调试、重构和 Git 操作等任务。该工具基于 Anthropic 的“宪法 AI”框架构建，优先考虑安全性、清晰度和伦理使用。[](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 核心能力包括：
+
 - **代码库理解**：分析完整代码库，包括项目结构和依赖项
 - **代码编辑与重构**：修改文件、优化代码并提升可读性
 - **调试功能**：识别并修复错误，包括类型错误和性能问题
@@ -29,29 +30,38 @@ Claude Code 是一款基于终端的工具，依托 Anthropic 的先进 AI 模�
 ## 设置 Claude Code
 
 ### 环境要求
+
 - **Anthropic 账户**：需要已设置账单的有效 Anthropic 账户。Claude Code 作为 Pro 或 Max 计划的一部分提供，部分用户可通过研究预览版有限使用。[](https://x.com/AnthropicAI/status/1930307943502590255)[](https://www.anthropic.com/claude-code)
 - **终端访问**：Claude Code 在终端运行，需确保兼容环境（如 Bash、Zsh）
 - **项目目录**：准备可供 Claude Code 分析的代码库
 
 ### 安装步骤
+
 1. **注册或登录**：访问 [claude.ai](https://claude.ai) 或 [anthropic.com](https://www.anthropic.com) 创建账户或登录。邮箱登录需输入发送至收件箱的验证码，Google 登录需通过账户认证。[](https://dorik.com/blog/how-to-use-claude-ai)
 2. **安装 Claude Code**：
    - 认证后，Anthropic 会提供安装链接。在终端运行指定命令完成下载设置，例如：
+
      ```bash
      npm install -g claude-code
      ```
+
      此命令将全局安装 Claude Code。[](https://www.datacamp.com/tutorial/claude-code)
 3. **进入项目目录**：在终端切换至项目目录：
+
      ```bash
      cd /path/to/your/project
      ```
+
 4. **启动 Claude Code**：通过以下命令启动：
+
      ```bash
      claude-code
      ```
+
      这将开启交互式 REPL（读取-求值-输出循环）会话，可在此输入自然语言命令。[](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 ### 配置说明
+
 - **环境集成**：Claude Code 继承您的 Bash 环境，可访问 `git`、`npm` 或 `python` 等工具。请确保自定义工具已文档化或在提示中明确说明，Claude 可能无法自动识别。[](https://www.anthropic.com/engineering/claude-code-best-practices)[](https://harper.blog/2025/05/08/basic-claude-code/)
 - **模型上下文协议（MCP）**：如需集成外部工具（如 GitHub、Slack），在项目目录的 `.mcp.json` 文件中配置 MCP 设置。调试 MCP 问题时可使用 `--mcp-debug` 标志。[](https://www.anthropic.com/engineering/claude-code-best-practices)[](https://www.codecademy.com/article/claude-code-tutorial-how-to-generate-debug-and-document-code-with-ai)
 - **权限管理**：Claude Code 会请求执行命令的权限。仅对只读命令（如 `git status`、`ls`）授予“自动执行”权限，避免意外修改。拒绝 `git commit` 或 `rm` 等危险命令的自动执行。[](https://waleedk.medium.com/claude-code-top-tips-lessons-from-the-first-20-hours-246032b943b4)
@@ -61,10 +71,12 @@ Claude Code 是一款基于终端的工具，依托 Anthropic 的先进 AI 模�
 ## 核心功能与应用场景
 
 ### 1. 代码生成
+
 Claude Code 能根据自然语言提示生成代码片段，支持 Python、JavaScript、C 等多种编程语言。[](https://www.tutorialspoint.com/claude_ai/claude_ai_code_generation.htm)
 
 **示例**：
 提示：“编写一个能处理正负数的列表排序 Python 函数”
+
 ```python
 def sort_numbers(numbers):
     """
@@ -83,26 +95,33 @@ numbers = [5, -2, 10, -8, 3]
 sorted_list = sort_numbers(numbers)
 print(sorted_list)  # 输出: [-8, -2, 3, 5, 10]
 ```
+
 Claude 生成代码后会解释功能逻辑并确保符合需求。请务必审查和测试输出结果。[](https://www.tutorialspoint.com/claude_ai/claude_ai_code_generation.htm)
 
 ### 2. 代码重构
+
 Claude Code 擅长提升代码可读性、可维护性和性能，可重构整个文件或特定函数。
 
 **示例**：
 提示：“重构我 Supabase 项目中的 `client.py` 文件以提升可读性并添加文档字符串”
+
 - Claude 分析 `client.py` 后建议修改内容，等待确认后使用更清晰的代码更新文件，添加文档字符串并在终端总结变更。[](https://www.datacamp.com/tutorial/claude-code)
 
 ### 3. 调试排错
+
 Claude 能识别并修复类型错误、缺失依赖和性能瓶颈等各类错误。
 
 **示例**：
 提示：“调试这个抛出 TypeError 的 Python 函数”
+
 ```python
 def add_numbers(a, b):
     return a + b
 # 调用方式: add_numbers("1", 2)
 ```
+
 Claude 可能回应：“TypeError 是因为 `a` 是字符串而 `b` 是整数。修复版本如下：”
+
 ```python
 def add_numbers(a, b):
     """
@@ -119,14 +138,17 @@ def add_numbers(a, b):
     b = float(b) if isinstance(b, str) else b
     return a + b
 ```
+
 运行更新后的代码验证修复效果。[](https://www.codecademy.com/article/claude-code-tutorial-how-to-generate-debug-and-document-code-with-ai)
 
 ### 4. 测试与代码检查
+
 Claude 可生成单元测试并运行，修复失败测试或代码规范问题。
 
 **示例**：
 提示：“为 `sort_numbers` 函数编写单元测试并运行”
 Claude 生成：
+
 ```python
 import unittest
 
@@ -139,23 +161,28 @@ class TestSortNumbers(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
 随后运行测试并报告结果。[](https://www.anthropic.com/engineering/claude-code-best-practices)
 
 ### 5. Git 集成
+
 Claude 自动化处理 Git 任务，包括提交变更、解决合并冲突和创建拉取请求。
 
 **示例**：
 提示：“提交我的变更并创建带描述的拉取请求”
 Claude 执行：
+
 ```bash
 git add .
 git commit -m "重构 client.py 提升可读性并添加文档字符串"
 git push origin feature-branch
 gh pr create --title "重构 client.py" --body "提升可读性并添加文档说明"
 ```
+
 请审查提交内容和 PR 确保准确性。[](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 ### 6. 代码库分析
+
 Claude 能解释代码架构、逻辑或依赖关系。
 
 **示例**：
@@ -195,10 +222,12 @@ Claude 详细解析文件结构、关键功能及其用途，常会突出依赖�
 
 1. **环境设置**：
    - 进入 `supabase-py` 目录：
+
      ```bash
      cd /path/to/supabase-py
      claude-code
      ```
+
 2. **重构操作**：
    - 提示：“重构 `client.py` 以提升可读性、添加文档字符串并优化性能”
    - Claude 分析文件后提议变更（如重构函数、添加类型提示）并等待批准
@@ -240,11 +269,13 @@ Claude 详细解析文件结构、关键功能及其用途，常会突出依赖�
 - **氛围编程**：对非编程人员，可将 Claude 视为通用代理。描述目标（如“构建待办应用”），它会逐步指导完成[](https://natesnewsletter.substack.com/p/the-claude-code-complete-guide-learn)
 - **从反馈中学习**：向 Anthropic 分享反馈以改进 Claude Code。反馈信息存储 30 天且不用于模型训练[](https://github.com/anthropics/claude-code)
 - **尝试结构化提示**：使用如下格式提示：
+
   ```
   <behavior_rules>
   严格按请求执行。生成实现以下功能的代码：[描述任务]。不添加额外功能。遵循[语言/框架]规范。
   </behavior_rules>
   ```
+
   确保输出精确性
 
 ---
@@ -261,6 +292,7 @@ Claude 详细解析文件结构、关键功能及其用途，常会突出依赖�
 ## 选择 Claude Code 的理由
 
 Claude Code 凭借其深度代码库感知、无缝终端集成和处理复杂多步骤任务的能力脱颖而出，特别适用于：
+
 - **开发者**：加速编码、调试和测试流程，每周节省数小时[](https://medium.com/dare-to-be-better/claude-code-the-ai-developers-secret-weapon-0faac1248080)
 - **非编程人员**：支持“氛围编程”，任何人通过英文描述想法即可构建应用[](https://natesnewsletter.substack.com/p/the-claude-code-complete-guide-learn)
 - **团队协作**：通过标准化文档和自动化 Git 工作流增强协作效率[](https://www.codecademy.com/article/claude-code-tutorial/how-to-generate-debug-and-document-code-with-ai)
@@ -276,6 +308,7 @@ Claude Code 是通过结合 AI 推理与终端工作流革新软件开发流程�
 立即访问 [anthropic.com](https://www.anthropic.com) 注册，安装 Claude Code 并在您的代码库中尝试小型任务。向 Anthropic 分享反馈帮助塑造其未来，探索与 ClickUp 或 Apidog 等工具的集成以最大化其潜力。[](https://www.datacamp.com/tutorial/claude-code)[](https://apidog.com/blog/claude-code/)[](https://clickup.com/blog/how-to-use-claude-ai-for-coding/)
 
 更多详情请访问：
+
 - [Anthropic Claude Code 概述](https://docs.anthropic.com)[](https://docs.anthropic.com/en/docs/claude-code/overview)
 - [Claude Code 最佳实践](https://www.anthropic.com)[](https://www.anthropic.com/engineering/claude-code-best-practices)
 

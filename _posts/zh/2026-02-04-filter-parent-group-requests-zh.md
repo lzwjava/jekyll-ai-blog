@@ -14,14 +14,17 @@ type: note
 
 **Option 1: 按 Assignment Group 层级过滤**
 如果您的组在 ServiceNow 中具有层级结构：
+
 - 添加过滤器：`Assignment group` → `Parent` → `is` → [您的 Parent Group 名称]
 - 或者使用 `Assignment group` → `IN` → [您的组, Parent Group] 以同时查看两者
 
 **Option 2: 使用 Group Membership**
+
 - 通过 `Assignment group` → `CONTAINS` → [包含相关组的部分名称] 进行过滤
 - 例如，如果组命名为 "IT-Support-L1" 和 "IT-Support-L2"，则过滤包含 "IT-Support" 的组
 
 **Option 3: 创建自定义过滤器**
+
 1. 进入 Change > All
 2. 点击过滤器图标
 3. 添加条件：`Assignment group` → `is one of`
@@ -29,6 +32,7 @@ type: note
 5. 将其保存为个人或共享过滤器以便快速访问
 
 **Option 4: 使用 Dot-Walking（如果您的组织结构支持）**
+
 - `Assignment group.parent` → `is` → [特定的 parent group]
 - `Assignment group.parent.name` → `CONTAINS` → [关键词]
 

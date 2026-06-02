@@ -33,26 +33,31 @@ Answer:
 A truly powerful nanoGPT training prompt needs to specify much more context:
 
 #### 1. Missing Hardware Context
+
 - What GPU(s)? (A100 80GB vs RTX 3090 vs H100 — completely changes the plan)
 - How many GPUs? Single node or multi-node?
 - VRAM available?
 
 #### 2. Missing Dataset Info
+
 - What dataset? (OpenWebText, The Pile, custom corpus?)
 - Already tokenized or raw text?
 - What tokenizer? (BPE, tiktoken, SentencePiece?)
 
 #### 3. Missing Training Objectives
+
 - Pretraining from scratch or fine-tuning?
 - Target loss / perplexity goal?
 - Any specific downstream tasks?
 
 #### 4. Missing Architecture Preferences
+
 - Number of layers, heads, embedding dim?
 - Context window length?
 - Flash Attention? Gradient checkpointing?
 
 #### 5. 4B Tokens is Underspecified
+
 - For a 200M model, **4B tokens is below the Chinchilla-optimal** (~4T tokens for true optimality, or at minimum ~4B for a quick run)
 - Need to clarify: is this a **quick experiment** or a **production-quality** model?
 

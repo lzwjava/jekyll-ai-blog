@@ -30,6 +30,7 @@ Here is the current situation based on technical papers, developer discussions, 
   - Self-hosted servers are frequently blocked after days/weeks if: using non-443 ports without hopping, weak camouflage, high traffic patterns, or just bad luck with the IP being flagged.
 
 - **Comparison with current top-tier GFW-resistant protocols (early 2026)**
+
   | Protocol              | GFW Resistance (2026) | Speed / Lossy Lines | Detection Risk | Notes                              |
   |-----------------------|------------------------|----------------------|----------------|------------------------------------|
   | VLESS + Reality       | ★★★★★                 | Good                 | Very low       | Currently considered #1 by most    |
@@ -40,6 +41,7 @@ Here is the current situation based on technical papers, developer discussions, 
 
 **Bottom line**
 Hysteria 2 is **still good** (especially if you value speed on bad lines and use modern clients + proper camouflage), but it is **not the most bullet-proof choice** anymore. Many experienced users now treat **Reality-based flows** as primary and keep Hysteria 2 / TUIC as fast backup protocols. Stability heavily depends on:
+
 - your ISP + region
 - server provider / IP reputation
 - exact client + server version

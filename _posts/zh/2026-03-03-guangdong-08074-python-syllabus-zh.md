@@ -20,6 +20,7 @@ type: note
 截至 2026 年，本课程使用 **Python** 作为主要编程语言。
 
 **教材（广东省自学考试近年使用，包括 2026 年安排）：**
+
 - 书名：Python语言程序设计基础教程 (Python Programming Fundamentals Tutorial)
 - 作者：傅清平 (Fu Qingping)、李雪斌 (Li Xuebin)、徐文 (Xu Wen) 等
 - 出版社：清华大学出版社 (Tsinghua University Press)
@@ -44,18 +45,21 @@ type: note
 - **高级主题**：generators、iterators、context managers、multithreading/multiprocessing 基础。
 
 **考试重点：**
+
 - 语言特性与编程范式的理论理解。
 - 编写、分析和调试 **Python** 代码的能力。
 - 使用 **Python** 进行算法与数据结构的问题解决。
 - 通过编码问题进行实践应用。
 
 考试通常为以下组合：
+
 - 概念的多项选择/是非题。
 - 语法与特性的简答/填空题。
 - 编程题（编写代码片段或完成函数）。
 - 给定代码的分析。
 
 为获取最准确和最新的教学大纲详情（知识点、考核要求以及任何章节划分），考生应：
+
 - 检查官方广东省教育考试院网站 (eea.gd.gov.cn)。
 - 参考广东省自学考试管理系统中发布的课程教学大纲/考试大纲（专业计划部分 080901）。
 - 使用上述指定教材，因为许多考试大纲与其章节紧密对齐。

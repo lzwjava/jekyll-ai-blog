@@ -25,6 +25,7 @@ The key connections between them are conceptual and practical rather than deeply
 ### Code Overlap?
 
 There is no significant direct code overlap between GPG and Bitcoin's core implementations:
+
 - Bitcoin Core is written in C++ and uses its own optimized library, libsecp256k1, for elliptic curve operations, along with hashes like SHA-256 (via OpenSSL in older versions, now more modular). It doesn't depend on or include GPG/Libgcrypt code.
 - GPG relies on Libgcrypt (its own crypto backend) for primitives like hashing, encryption, and ECC support. While both projects implement similar standards (e.g., ECDSA, SHA-256), their codebases are independent—no shared modules, forks, or direct imports.
 
@@ -33,6 +34,7 @@ Any "overlap" is limited to standard crypto algorithms, not proprietary or share
 In summary, the relationship is more about complementary tools in a privacy-centric workflow than intertwined code. If you're looking to generate Bitcoin-compatible keys with GPG, tools like `gpg --expert --full-generate-key` with ECC selection can get you started.
 
 ### References
+
 - [PGP meets Bitcoin](https://coingeek.com/pgp-meets-bitcoin/)
 - [Is it possible to use a PGP key as a bitcoin address?](https://bitcoin.stackexchange.com/questions/18174/is-it-possible-to-use-a-pgp-key-as-a-bitcoin-address)
 - [Bitcoin Core Download and Verification](https://bitcoincore.org/en/download/)

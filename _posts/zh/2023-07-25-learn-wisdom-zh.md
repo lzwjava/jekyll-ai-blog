@@ -11,18 +11,18 @@ type: post
 
 ### 前言
 
-我的老师王垠在2019年写了一篇题目类似的文章。你可以查看这个链接：http://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy。在过去的四年里，我已经读过这篇文章大约30次，并且向朋友们推荐了同样多的次数。除了通过私信分享，我还在社交网络上多次分享了它。你可以知道我对这篇文章有多么喜爱，以及从中获益匪浅。
+我的老师王垠在2019年写了一篇题目类似的文章。你可以查看这个链接：<http://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy。在过去的四年里，我已经读过这篇文章大约30次，并且向朋友们推荐了同样多的次数。除了通过私信分享，我还在社交网络上多次分享了它。你可以知道我对这篇文章有多么喜爱，以及从中获益匪浅。>
 
 王垠曾经加入了清华大学、康奈尔大学和印第安纳大学布鲁明顿分校的三个博士项目。在这些年里，他在微博和他的博客上分享了很多内容。而在这四年中，我可以说我在线上攻读了博士学位，并得到了他的指导。他每天都教授我新的知识。这些知识是珍贵的，因为它们是他自己的思考成果，世界上很少有人知道。
 
 接下来，我会分享更多关于王垠的网站信息：
 
 中国微博账号：不再关心人类de垠
-中国WordPress博客：https://yinwang1.wordpress.com
-中文博客：http://www.yinwang.org
-英文Substack：https://yinwang0.substack.com
-英文WordPress：https://yinwang0.wordpress.com
-英文Twitter：https://twitter.com/yinwang0
+中国WordPress博客：<https://yinwang1.wordpress.com>
+中文博客：<http://www.yinwang.org>
+英文Substack：<https://yinwang0.substack.com>
+英文WordPress：<https://yinwang0.wordpress.com>
+英文Twitter：<https://twitter.com/yinwang0>
 
 我将在未来介绍更多关于他的内容。现在，我们来聚焦于关于学习智慧的讨论。
 

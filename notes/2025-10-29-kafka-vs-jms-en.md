@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Apache Kafka and Java Message Service (JMS) are both used for messaging in enterprise applications, but they serve different purposes. JMS is a Java API standard for point-to-point and publish-subscribe messaging, often implemented via brokers like IBM MQ or WebSphere's built-in Service Integration Bus (SIBus). Kafka, on the other hand, is a distributed event streaming platform focused on high-throughput data pipelines.
 
 In the context of IBM WebSphere Application Server (WAS), JMS is natively supported and tightly integrated, making it straightforward for Java EE applications. Kafka integration requires additional configuration, such as JCA connectors or client libraries, but enables advanced streaming scenarios. Below is a detailed comparison.
@@ -30,6 +31,7 @@ In the context of IBM WebSphere Application Server (WAS), JMS is natively suppor
 | **Limitations**    | Not ideal for high-volume streaming or non-Java clients; push model can cause overload. | Steeper learning curve; no built-in WAS queuing—requires custom error handling. SSL/connectivity issues possible in WAS environments. |
 
 ### When to Choose Each
+
 - **Choose JMS** for simple, standards-compliant messaging in pure Java EE/WAS apps where tight integration and low setup cost matter (e.g., internal app communication).
 - **Choose Kafka** for scalable, event-driven architectures needing historical data access or integration with non-WAS systems (e.g., big data ingestion from WAS apps).
 - Hybrid setups are common: Use JMS for intra-WAS messaging and Kafka for outbound streaming, bridged via connectors.

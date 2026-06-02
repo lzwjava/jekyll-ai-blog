@@ -28,6 +28,7 @@ Here's the summary, Boss:
 4. **QR code relay was too slow** — By the time I sent the QR to webchat and you read it, it had cycled multiple times. You ended up SSH'ing in directly to scan — that's the only reliable way.
 
 **Config changes made:**
+
 - Installed `@openclaw/whatsapp` plugin
 - Added `channels.whatsapp` config with `dmPolicy: "pairing"`
 - Updated systemd service to wrap with `proxychains4`

@@ -15,6 +15,7 @@ type: note
 Transformers are neural network architectures widely used in natural language processing (NLP) and beyond. The original Transformer (introduced in the 2017 paper "Attention is All You Need") uses an **encoder-decoder** setup, while modern large language models (LLMs) like GPT often use a **decoder-only** design. The shift toward decoder-only models has been driven by their simplicity and effectiveness for autoregressive tasks (e.g., text generation). Below, I'll break down the main differences.
 
 #### Core Architectural Differences
+
 - **Encoder-Decoder**:
   - Consists of two symmetric stacks: an **encoder** (processes the entire input sequence in parallel, using self-attention to capture bidirectional context) and a **decoder** (generates output autoregressively, using self-attention with causal masking plus cross-attention to the encoder's output).
   - Best for **sequence-to-sequence (seq2seq)** tasks where input and output are distinct (e.g., machine translation: English → French).
@@ -39,11 +40,13 @@ Transformers are neural network architectures widely used in natural language pr
 | **Examples**       | GPT series, LLaMA, PaLM.                  | T5, BART, original Transformer for translation. |
 
 #### Why the Preference for Decoder-Only?
+
 Decoder-only models have gained popularity because they're easier to pretrain on vast amounts of text data (just predict the next word) and fine-tune for diverse downstream tasks. This "one model to rule them all" approach simplifies development compared to encoder-decoders, which are more specialized. However, encoder-decoders shine in scenarios requiring strong alignment between input and output (e.g., conditional generation).
 
 If you're implementing this or have a specific use case in mind, let me know for more tailored advice!
 
 #### References
+
 - [Attention is All You Need (Original Transformer Paper)](https://arxiv.org/abs/1706.03762)
 - [Language Models are Few-Shot Learners (GPT-3, Decoder-Only Example)](https://arxiv.org/abs/2005.14165)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (T5, Encoder-Decoder Example)](https://arxiv.org/abs/1910.10683)

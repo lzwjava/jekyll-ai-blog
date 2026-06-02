@@ -19,11 +19,13 @@ type: note
 然而，这种方法有**显著的优点和缺点**。以下是明确的对比以及如何安全地进行操作。
 
 ### Advantages
+
 - 立即修复 — 无需更改文件夹权限、chmod、chgrp 等。
 - 对于个人/测试/开发机器非常方便。
 - Nginx 可以访问用户 `lzw` 有权访问的所有内容。
 
 ### Big disadvantages / security risks
+
 - 如果存在任何 Nginx 安全漏洞（远程代码执行、配置错误等），攻击者将获得用户 `lzw` 的完整权限 → 可以读取你的所有文件、ssh keys、qBittorrent 下载内容、个人数据等。
 - `www-data` 是一个低权限的系统用户，没有 login shell，权限非常有限 → 更加安全。
 - 破坏了标准的 Ubuntu/Debian 软件包预期（logrotate、apparmor profiles、php-fpm pools 等都期望使用 `www-data`）。

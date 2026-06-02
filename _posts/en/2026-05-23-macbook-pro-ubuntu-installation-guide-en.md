@@ -16,12 +16,14 @@ Good question. Here's the honest take:
 **Should you install Ubuntu?**
 
 **Yes, if:**
+
 - It's used as a dev/server machine (terminal, SSH, coding, Docker)
 - You want it to feel snappier — Linux is noticeably lighter on this hardware
 - You want continued security updates (Ubuntu 24.04 LTS supported until 2029)
 - You don't need macOS-specific apps (Xcode, iMessage, etc.)
 
 **No, if:**
+
 - The user needs macOS apps or the Apple ecosystem
 - They're not comfortable troubleshooting Linux driver issues
 

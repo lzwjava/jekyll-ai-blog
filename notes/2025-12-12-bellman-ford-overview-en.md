@@ -17,6 +17,7 @@ Answer:
 The Bellman-Ford algorithm is a single-source shortest path algorithm that computes the shortest distances from a single source vertex to all other vertices in a weighted graph. It works even with negative edge weights and can detect negative cycles.
 
 ### Key Features
+
 - Handles negative weights (unlike Dijkstra's algorithm).
 - Detects if a negative-weight cycle exists (which would make shortest paths undefined).
 - Time complexity: O(V × E), where V is the number of vertices and E is the number of edges.
@@ -63,14 +64,18 @@ def bellman_ford(graph, source):
 ```
 
 ### Why It Works
+
 In a graph without negative cycles, the shortest path between any two vertices has at most V-1 edges. By relaxing all edges V-1 times, we guarantee that all shortest paths are found. The extra pass reliably detects if further relaxation is possible due to a negative cycle.
 
 ### Example
+
 Consider a graph:
+
 - Vertices: A, B, C
 - Edges: A→B (weight 4), A→C (weight 2), C→B (weight -3)
 
 Running Bellman-Ford from A:
+
 - After init: dist[A]=0, dist[B]=∞, dist[C]=∞
 - Iteration 1: dist[B]=4, dist[C]=2
 - Iteration 2: dist[B]=2 + (-3) = -1 (relax C→B)

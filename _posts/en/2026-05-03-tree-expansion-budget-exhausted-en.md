@@ -18,6 +18,7 @@ The tree has 4 nodes (root + 3 route children). The 3 children ARE expandable �
 **"remaining 12"** = budget you can still add via Run.
 
 **To continue and see the result:**
+
 1. Type `3` in the Run Budget field (one expansion per branch)
 2. Click **Run Next Step** — each of the 3 route branches (dependency, constraint, invariant) will grow one more node at depth 2
 3. Repeat — step 2 and step 3 nodes get built, eventually the deepest nodes become `SOLVED` (not just `PASS`)

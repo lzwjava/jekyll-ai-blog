@@ -11,32 +11,39 @@ type: note
 Heart disease refers to a range of conditions that affect the heart. The most common types include:
 
 ### **1. Coronary Artery Disease (CAD)**
-   - **Cause**: Buildup of plaque in the arteries, leading to reduced blood flow.
-   - **Symptoms**: Chest pain (angina), shortness of breath, heart attack.
+
+- **Cause**: Buildup of plaque in the arteries, leading to reduced blood flow.
+- **Symptoms**: Chest pain (angina), shortness of breath, heart attack.
 
 ### **2. Hypertension (High Blood Pressure)**
-   - **Cause**: Long-term high blood pressure weakens the heart and arteries.
-   - **Symptoms**: Often silent, but can cause headaches, dizziness, and organ damage.
+
+- **Cause**: Long-term high blood pressure weakens the heart and arteries.
+- **Symptoms**: Often silent, but can cause headaches, dizziness, and organ damage.
 
 ### **3. Heart Attack (Myocardial Infarction)**
-   - **Cause**: Blocked blood flow to the heart due to a clot.
-   - **Symptoms**: Chest pain, sweating, nausea, pain in arms or jaw.
+
+- **Cause**: Blocked blood flow to the heart due to a clot.
+- **Symptoms**: Chest pain, sweating, nausea, pain in arms or jaw.
 
 ### **4. Heart Failure**
-   - **Cause**: Weak heart muscles fail to pump blood effectively.
-   - **Symptoms**: Fatigue, swelling in legs, breathlessness.
+
+- **Cause**: Weak heart muscles fail to pump blood effectively.
+- **Symptoms**: Fatigue, swelling in legs, breathlessness.
 
 ### **5. Arrhythmias (Irregular Heartbeat)**
-   - **Cause**: Electrical signal issues in the heart.
-   - **Symptoms**: Palpitations, dizziness, fainting.
+
+- **Cause**: Electrical signal issues in the heart.
+- **Symptoms**: Palpitations, dizziness, fainting.
 
 ### **6. Stroke (Related to Heart Disease)**
-   - **Cause**: Blocked or ruptured blood vessel in the brain, often due to heart issues.
-   - **Symptoms**: Sudden weakness, difficulty speaking, facial drooping.
+
+- **Cause**: Blocked or ruptured blood vessel in the brain, often due to heart issues.
+- **Symptoms**: Sudden weakness, difficulty speaking, facial drooping.
 
 ---
 
 ### **How to Avoid Heart Disease**
+
 1. **Healthy Diet**
    - Eat more **vegetables, fruits, whole grains, and lean proteins**.
    - Reduce **sugar, salt, and unhealthy fats**.

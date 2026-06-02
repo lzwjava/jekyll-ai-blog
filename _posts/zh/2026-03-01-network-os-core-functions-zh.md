@@ -16,18 +16,20 @@ type: note
 **network operating system (NOS)** 是一个专门设计或优化用于在网络环境中运行的操作系统。它充当用户与网络资源之间的接口，使用户、应用程序和设备能够以协调和安全的方式访问、共享和管理网络中的资源。
 
 它可以理解为：
+
 - 各种网络服务软件和网络协议的集合
 - 在网络环境中实现资源共享和网络通信的软件平台
 - 用户使用网络资源的管理的和控制系统
 
-### 常规 operating system 的通用功能（与 network OS 共享）：
+### 常规 operating system 的通用功能（与 network OS 共享）
+
 - Process management
 - Memory management
 - File management
 - Device management
 - Job management / user interface
 
-### 使 **network operating system** 区别于一般（stand-alone）operating system 的特定功能：
+### 使 **network operating system** 区别于一般（stand-alone）operating system 的特定功能
 
 - **File service**
   在网络中提供集中式文件存储、共享、访问控制、同步和锁定机制（NOS 的最基本和核心功能）。

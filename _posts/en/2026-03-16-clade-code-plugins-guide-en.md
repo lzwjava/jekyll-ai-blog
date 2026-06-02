@@ -24,6 +24,7 @@ Plugins are mostly **file-based** (Markdown + JSON) — no heavy compilation is 
 #### Basic Steps to Create a Simple Plugin
 
 1. **Create the directory structure**
+
    ```
    mkdir my-awesome-plugin
    cd my-awesome-plugin
@@ -34,6 +35,7 @@ Plugins are mostly **file-based** (Markdown + JSON) — no heavy compilation is 
    This is required — place it at `.claude-plugin/plugin.json`
 
    Minimal example:
+
    ```json
    {
      "name": "my-awesome-plugin",
@@ -48,6 +50,7 @@ Plugins are mostly **file-based** (Markdown + JSON) — no heavy compilation is 
 
    - **Slash commands** — put Markdown files in `commands/`
      Example: `commands/greet/COMMAND.md`
+
      ```markdown
      ---
      description: Prints a friendly greeting
@@ -65,18 +68,22 @@ Plugins are mostly **file-based** (Markdown + JSON) — no heavy compilation is 
 
 4. **Test locally**
    Start Claude Code with your plugin folder:
+
    ```
    claude --plugin-dir ./my-awesome-plugin
    ```
+
    Or add it as a local marketplace for easier testing.
 
 5. **Share / distribute**
    - Push to GitHub
    - Others install via:
+
      ```
      /plugin marketplace add https://github.com/yourname/my-awesome-plugin
      /plugin install my-awesome-plugin
      ```
+
    - Or create a **marketplace** (a repo containing multiple plugins) with `marketplace.json`
 
 Many people start with **standalone skills/commands** in `~/.claude/` and later convert them to plugins.
@@ -111,7 +118,7 @@ For most plugin authors in 2026, you **don't need** to write API servers — you
 If you want deep programmatic integration (calling external APIs, persistent state, etc.), combine **tool use + your own backend**.
 
 **Official starting point**
-→ https://code.claude.com/docs/en/plugins
+→ <https://code.claude.com/docs/en/plugins>
 
 **Examples & inspiration**
 Search GitHub for "claude-code-plugin" or visit community marketplaces like buildwithclaude.com

@@ -39,6 +39,7 @@ Jenkins 还支持：
 2. **Secret text credential** - 如果系统只需要 token，则仅存储 token
 
 例如，对于 GitHub：
+
 - Username: your-github-username
 - Password: ghp_yourPersonalAccessToken
 

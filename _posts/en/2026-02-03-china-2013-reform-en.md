@@ -27,11 +27,13 @@ It is commonly referred to in English as:
 This historic document was adopted at the **Third Plenary Session of the 18th Central Committee of the Communist Party of China** (the "Third Plenum") on **November 12, 2013**.
 
 ### Core Background and Significance
+
 - It is widely regarded as the most important and ambitious reform blueprint since the **1978 Third Plenum** that launched China's Reform and Opening-up policy.
 - The document marks the beginning of the **Xi Jinping era's** comprehensive reform program.
 - It contains **60 major tasks** grouped into **16 broad areas**.
 
 ### Most Frequently Quoted Guiding Phrase
+
 "The market will play the **decisive** role in allocating resources"
 (市场在资源配置中起**决定性**作用)
 — this sentence represented a significant theoretical advancement from the previous formulation of the market playing a "basic" role.
@@ -49,6 +51,7 @@ This historic document was adopted at the **Third Plenary Session of the 18th Ce
 - **Cultural system**, education, health, social governance, etc.
 
 ### Historical Positioning
+
 Many Chinese and international analysts divide China's 40+ years of reform into three major stages:
 
 1. 1978–1992   Deng Xiaoping’s reform and opening-up initiation

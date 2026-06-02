@@ -12,6 +12,7 @@ type: note
 Good question. Here's where we stand:
 
 **✅ Fixed / Working:**
+
 - Database connection (DB connects correctly)
 - JSSDK, WeChatPlatform, Pay, Sms, LeanCloud CI4 libraries
 - `localhost:8088/` → HTTP 200

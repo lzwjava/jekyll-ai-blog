@@ -27,7 +27,7 @@ Why not use a tipping model? If mobile or show live streaming platforms used our
 
 Our model reflects real-life events and lectures. Many lectures require paid registration. People pay for a ticket to see someone they want to meet or hear content they want to learn. Live streaming gives us this opportunity, allowing more people to see and hear what they want while greatly lowering the ticket price.
 
-In the future, we even hope to become the "Taobao of the knowledge field." Live streamers will be like Taobao shop owners. These people don't make a living by selling goods but by selling knowledge. They research the latest industry knowledge at home and present it in the best way possible. The advantage over a regular job is that if you work twice as hard this month, your income immediately doubles. In the tech industry I know, at least some people can achieve this. A live stream with 500 viewers, each paying 10 yuan, can earn the streamer 4500 yuan (500 * 10 * 0.9). This is much better than a day's work. Providing ten live streams a month can earn 45,000 yuan. This is a very promising prospect. To maintain such a large audience, the streamer must put a lot of effort into the content. By working harder, they can earn higher income, which aligns with fundamental social principles. At the same time, everyone only needs to spend 100 yuan a month to get nearly face-to-face access to this knowledge.
+In the future, we even hope to become the "Taobao of the knowledge field." Live streamers will be like Taobao shop owners. These people don't make a living by selling goods but by selling knowledge. They research the latest industry knowledge at home and present it in the best way possible. The advantage over a regular job is that if you work twice as hard this month, your income immediately doubles. In the tech industry I know, at least some people can achieve this. A live stream with 500 viewers, each paying 10 yuan, can earn the streamer 4500 yuan (500 *10* 0.9). This is much better than a day's work. Providing ten live streams a month can earn 45,000 yuan. This is a very promising prospect. To maintain such a large audience, the streamer must put a lot of effort into the content. By working harder, they can earn higher income, which aligns with fundamental social principles. At the same time, everyone only needs to spend 100 yuan a month to get nearly face-to-face access to this knowledge.
 
 This sounds exciting. I strive to run this live streaming platform well and also become a streamer myself.
 
@@ -45,6 +45,6 @@ Thank you all!
 
 If you're not using WeChat, please copy the link below and open it in WeChat:
 
-http://m.quzhiboapp.com?liveId=7
+<http://m.quzhiboapp.com?liveId=7>
 
 Click the link below to join the live stream~

@@ -20,6 +20,7 @@ The landscape in 2026 has matured fast. Here's the breakdown, focused on tools t
 ## 🔥 Terminal-First / CLI Agents
 
 ### **OpenCode** ⭐ (the one you mentioned)
+
 GitHub Copilot now formally supports OpenCode through an official partnership. In OpenCode, run `/connect`, select GitHub Copilot, and complete the device login flow — your Copilot subscription (Pro, Pro+, Business, or Enterprise) covers it with no extra cost.
 
 OpenCode is a Go-based CLI with a TUI built in Bubble Tea. It supports OpenAI, Anthropic Claude, Google Gemini, AWS Bedrock, Groq, Azure OpenAI, and OpenRouter — plus local models via a self-hosted OpenAI-compatible endpoint. Client/server architecture so you can run the backend on a remote machine and drive it from mobile.
@@ -27,6 +28,7 @@ OpenCode is a Go-based CLI with a TUI built in Bubble Tea. It supports OpenAI, A
 Key: explicitly designed for terminal-first devs (made by neovim users / terminal.shop creators). This is the closest open-source analog to Claude Code in UX philosophy.
 
 Install:
+
 ```bash
 curl -fsSL https://opencode.ai/install | bash
 # or
@@ -38,6 +40,7 @@ npm i -g opencode-ai@latest
 ---
 
 ### **Aider**
+
 The OG terminal coding agent. Git-native, works with any LLM API.
 
 ```bash
@@ -52,9 +55,11 @@ Aider is fully open-source and free — you only pay for the API calls to whiche
 ## 🖥️ VS Code Extension Agents
 
 ### **Cline** (formerly Claude Dev)
+
 Cline is an autonomous IDE agent with file edits, command execution, and browser use under explicit approval. It reads files, writes code, runs terminal commands, uses browser tools — the approval loop slows things down but makes the agent easier to supervise. Supports any OpenAI-compatible API, so you can point it at the Copilot proxy.
 
 ### **Continue**
+
 Model-agnostic VS Code + JetBrains extension. Supports local models (Ollama), cloud APIs, and OpenAI-compatible endpoints. Closest open-source drop-in to Copilot's inline autocomplete UX.
 
 ```bash
@@ -75,9 +80,11 @@ Model-agnostic VS Code + JetBrains extension. Supports local models (Ollama), cl
 ## 🏠 Self-Hosted Server (Copilot API Compatible)
 
 ### **Tabby**
+
 33k+ GitHub stars, Apache-2.0 core. Operates as a dedicated server — the only tool on the list where you deploy and manage the server, your team connects IDE plugins to it, and no code leaves your network. Features a Copilot-compatible API and NVIDIA Triton backend — deployable via Docker. This is what bank/finance/gov teams use when Copilot is security-blocked.
 
 ### **FauxPilot**
+
 Self-hosted, exposes a Copilot-compatible API endpoint. Older project but still works for teams needing a drop-in Copilot replacement at the API level.
 
 ---
@@ -85,6 +92,7 @@ Self-hosted, exposes a Copilot-compatible API endpoint. Older project but still 
 ## 🆕 Emerging / Worth Watching
 
 ### **OpenClaw**
+
 Supports GitHub Copilot as a model provider via native device-login flow to obtain a GitHub token, then exchanges it for Copilot API tokens — no VS Code required. Can also route through a Copilot Proxy VS Code extension as a local bridge.
 
 ---
@@ -112,6 +120,7 @@ Given your terminal-first workflow and that you're already at a bank with likely
 - **For your existing `ww`/`zz` CLI agent experiments**: Aider's codebase is worth reading for architecture patterns.
 
 **References:**
+
 - [GitHub Copilot now supports OpenCode — GitHub Changelog](https://github.blog/changelog/2026-01-16-github-copilot-now-supports-opencode/)
 - [opencode-ai/opencode — GitHub](https://github.com/opencode-ai/opencode)
 - [OpenCode on GitHub Marketplace](https://github.com/marketplace/opencode-copilot)

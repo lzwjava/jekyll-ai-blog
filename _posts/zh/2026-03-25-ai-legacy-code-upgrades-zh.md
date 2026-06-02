@@ -20,7 +20,9 @@ type: note
 ## AI 究竟能提供哪些帮助
 
 ### 1. 大规模的代码理解
+
 Legacy codebases 通常是**缺乏文档且规模庞大**的。AI 可以：
+
 - 阅读数千行代码并总结模块的功能
 - 追踪 dependency chains
 - 解释以旧模式编写的或由早已离职的开发者编写的代码
@@ -31,7 +33,9 @@ Legacy codebases 通常是**缺乏文档且规模庞大**的。AI 可以：
 ---
 
 ### 2. Migration 与 Refactoring 辅助
+
 AI 可以机械地处理大量的升级工作：
+
 - 将 deprecated API 调用转换为新的等效项
 - 升级 syntax（例如 Python 2 → 3，CommonJS → ES Modules）
 - 将 class components 重构为 React hooks
@@ -42,7 +46,9 @@ AI 可以机械地处理大量的升级工作：
 ---
 
 ### 3. Test Generation
+
 升级中最大的风险阻碍是**缺乏 test coverage**。AI 可以：
+
 - 为未测试的 legacy functions 生成 unit tests
 - 在 migration 开始前编写 integration tests
 - 创建 regression test 序列，为你提供安全网
@@ -52,7 +58,9 @@ AI 可以机械地处理大量的升级工作：
 ---
 
 ### 4. 文档生成
+
 AI 可以自动生成：
+
 - Inline code comments
 - README 文件
 - API 文档
@@ -63,6 +71,7 @@ AI 可以自动生成：
 ---
 
 ### 5. 增量迁移规划
+
 AI 可以帮助规划 **strangler fig** 风格的迁移——逐步替换旧代码块，而不是冒风险进行 big-bang 重写。它可以识别安全边界，建议逐模块的升级路径，并标记高风险区域。
 
 ---
@@ -84,6 +93,7 @@ AI 帮助很大，但它并非万能。一些诚实的告诫：
 ## 更大层面的组织转变
 
 AI 工具降低了**个人**执行升级工作的成本，但**组织层面**的障碍（预算、优先级排序、风险规避、stakeholder 审批）依然存在。AI 可以让一个为期 3 个月的 migration 缩短到 3 周，但仍然需要有人：
+
 - 获得审批
 - 分配开发者时间
 - 承担风险

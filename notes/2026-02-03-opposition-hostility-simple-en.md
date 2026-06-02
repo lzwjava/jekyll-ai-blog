@@ -13,6 +13,7 @@ type: note
 "Antagonistic" means showing opposition, hostility, or actively working against someone or something. It describes behavior or attitudes that are confrontational, unfriendly, or conflicting.
 
 For example:
+
 - Two people having an **antagonistic relationship** are in conflict with each other
 - An **antagonistic comment** would be one that's hostile or provocative
 - In biology, **antagonistic muscles** work in opposite directions (like biceps and triceps)

@@ -11,6 +11,7 @@ type: note
 To connect your iPad to a monitor using HDMI and use it to watch movies (e.g., streaming from your Ubuntu laptop’s Nginx server with an app like Infuse), you’ll need the right adapter and a straightforward setup. iPads don’t have a native HDMI port, but Apple provides official adapters, and there are third-party options too. Here’s how to do it step-by-step, tailored to your goal of watching movies hassle-free on your monitor.
 
 ### What You’ll Need
+
 1. **iPad with Lightning or USB-C Port**
    - Check your iPad model: Older iPads (e.g., iPad Air 2, iPad Mini 4) use Lightning ports, while newer ones (e.g., iPad Pro 2018+, iPad Air 4th gen+) use USB-C.
    - You didn’t specify your iPad model, so I’ll cover both possibilities.
@@ -30,6 +31,7 @@ To connect your iPad to a monitor using HDMI and use it to watch movies (e.g., s
    - Apple’s adapters often have an extra port (Lightning or USB-C) for charging. If you’re watching long movies, connect your iPad’s charger to keep it powered.
 
 ### Steps to Connect Your iPad to the Monitor
+
 1. **Get the Right Adapter**
    - Lightning iPad: Plug the Lightning Digital AV Adapter into your iPad’s Lightning port.
    - USB-C iPad: Plug the USB-C Digital AV Multiport Adapter (or a USB-C to HDMI adapter) into your iPad’s USB-C port.
@@ -64,18 +66,22 @@ To connect your iPad to a monitor using HDMI and use it to watch movies (e.g., s
    - Rotate your iPad to landscape mode or tap the full-screen icon in the app for the best viewing experience.
 
 ### Audio Considerations
+
 - **Monitor with Speakers**: Audio should play through the monitor’s speakers via HDMI (if supported).
 - **No Monitor Speakers**: Use the iPad’s speakers, or connect wired headphones to the adapter’s Lightning/USB-C port (may need a dongle for 3.5mm jacks) or pair Bluetooth headphones to the iPad.
 
 ### Tips for Your Setup
+
 - **Resolution Support**: Lightning adapters support up to 1080p; USB-C adapters support up to 4K (depending on your iPad and monitor). Check your monitor’s max resolution and movie file quality.
 - **Control**: You’ll control playback directly on the iPad’s touchscreen. Since Infuse doesn’t offer remote control over a network (as noted earlier), you’ll need to interact with the iPad itself—keep it nearby or use a stand.
 - **Nginx Server Access**: Ensure your Ubuntu laptop and iPad are on the same Wi-Fi network. Test the Nginx server by opening a browser on the iPad and navigating to `http://<laptop-ip>`—you should see your movie files if configured correctly.
 
 ### Troubleshooting
+
 - **No Video**: Ensure all connections are secure, the monitor is on the right input, and the adapter is compatible (some cheap third-party ones fail).
 - **Lag or Stutter**: If streaming from Nginx, check your Wi-Fi signal strength or movie file size—large 4K files may need a stronger connection.
 - **Black Bars**: If the movie doesn’t fill the screen, it’s due to aspect ratio differences (e.g., 16:9 movie on a 4:3 monitor). Use Infuse’s zoom options to adjust.
 
 ### Final Thoughts
+
 This setup lets your iPad act as the playback device, streaming from your Ubuntu laptop and outputting to the monitor via HDMI. It’s simple once connected—just plug in, select your movie in Infuse, and watch. Since you wanted minimal hassle and no extra devices like a Fire TV Stick, this leverages your existing iPad and monitor effectively. If your iPad is older or lacks enough storage for Infuse’s metadata, streaming directly from Nginx keeps everything lightweight. Enjoy your movies!

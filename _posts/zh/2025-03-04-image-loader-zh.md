@@ -13,17 +13,22 @@ Universal Image Loader (UIL) 1.9.3 版本是一个强大灵活的 Android 图像
 ---
 
 ### 步骤 1：将库添加到项目
+
 由于 UIL 1.9.3 可通过 Maven 获取，您可以使用 Gradle 将其添加到项目中。如果使用旧版开发环境（如 Eclipse），可手动下载 JAR 文件。
 
-#### 使用 Gradle (Android Studio)：
+#### 使用 Gradle (Android Studio)
+
 1. 打开应用的 `build.gradle` 文件（Module: app）。
 2. 在 `dependencies` 块中添加以下依赖：
+
    ```gradle
    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
    ```
+
 3. 点击 Android Studio 中的 "Sync Now" 同步 Gradle 项目。
 
-#### 手动 JAR 配置（如 Eclipse）：
+#### 手动 JAR 配置（如 Eclipse）
+
 1. 从 Maven 仓库或 GitHub 下载 `universal-image-loader-1.9.3.jar`。
 2. 将 JAR 文件放入项目的 `libs` 文件夹。
 3. 在 IDE 中右键单击 JAR，选择 "Add to Build Path"（Eclipse）或在项目设置中手动配置。
@@ -31,21 +36,27 @@ Universal Image Loader (UIL) 1.9.3 版本是一个强大灵活的 Android 图像
 ---
 
 ### 步骤 2：添加权限
+
 要从网络加载图像或保存到存储设备，请在 `AndroidManifest.xml` 中添加以下权限：
+
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
+
 - `INTERNET`：用于从 URL 下载图像。
 - `WRITE_EXTERNAL_STORAGE`：用于磁盘缓存（可选，但推荐用于离线使用）。对于 Android 6.0+ (API 23+)，还需在运行时请求此权限。
 
 ---
 
 ### 步骤 3：初始化 ImageLoader
+
 在使用 UIL 前，必须通过配置进行初始化。通常建议在 `Application` 类或主 `Activity` 中完成一次初始化。
 
-#### 创建自定义 Application 类（推荐）：
+#### 创建自定义 Application 类（推荐）
+
 1. 创建新类（如 `MyApplication.java`）：
+
    ```java
    import android.app.Application;
    import com.nostra13.universalimageloader.core.ImageLoader;
@@ -68,15 +79,19 @@ Universal Image Loader (UIL) 1.9.3 版本是一个强大灵活的 Android 图像
        }
    }
    ```
+
 2. 在 `AndroidManifest.xml` 中注册此类：
+
    ```xml
    <application
        android:name=".MyApplication"
        ... >
    ```
 
-#### 或在 Activity 中初始化：
+#### 或在 Activity 中初始化
+
 如果不想使用 `Application` 类，可在 `Activity` 的 `onCreate()` 方法中初始化（确保仅初始化一次）：
+
 ```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
@@ -92,9 +107,11 @@ protected void onCreate(Bundle savedInstanceState) {
 ---
 
 ### 步骤 4：加载并显示图像
+
 初始化后，即可使用 `ImageLoader` 将图像加载到 `ImageView` 中。
 
-#### 基础用法：
+#### 基础用法
+
 ```java
 import com.nostra13.universalimageloader.core.ImageLoader;
 
@@ -113,8 +130,10 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-#### 使用 DisplayImageOptions 的高级用法：
+#### 使用 DisplayImageOptions 的高级用法
+
 可通过 `DisplayImageOptions` 自定义图像加载和显示方式：
+
 ```java
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -146,9 +165,11 @@ public class MainActivity extends AppCompatActivity {
 ---
 
 ### 步骤 5：在 ListView 或 GridView 中使用 UIL
+
 对于列表或网格，可在适配器中使用 UIL 高效加载图像。
 
-#### 示例自定义适配器：
+#### 示例自定义适配器
+
 ```java
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -196,7 +217,8 @@ public class ImageAdapter extends BaseAdapter {
 }
 ```
 
-#### 设置适配器：
+#### 设置适配器
+
 ```java
 String[] imageUrls = {"https://example.com/image1.jpg", "https://example.com/image2.jpg"};
 GridView gridView = findViewById(R.id.gridView);
@@ -206,6 +228,7 @@ gridView.setAdapter(new ImageAdapter(this, imageUrls));
 ---
 
 ### UIL 1.9.3 主要特性
+
 - **支持的 URI 类型**：
   - 网络：`"http://example.com/image.jpg"`
   - SD 卡：`"file:///mnt/sdcard/image.png"`
@@ -218,6 +241,7 @@ gridView.setAdapter(new ImageAdapter(this, imageUrls));
 ---
 
 ### 故障排除
+
 - **崩溃："ImageLoader must be init with configuration"**
   确保在调用任何 `displayImage` 前执行 `ImageLoader.getInstance().init(config)`。
 - **图像无法加载**
@@ -230,6 +254,7 @@ gridView.setAdapter(new ImageAdapter(this, imageUrls));
 ---
 
 ### 注意事项
+
 - **过时性**：UIL 1.9.3 已过时（最后发布版本约 2014 年）。对于现代 Android 开发，建议考虑 Glide（`implementation 'com.github.bumptech.glide:glide:4.16.0'`）或 Coil（`implementation 'io.coil-kt:coil:2.6.0'`）。
 - **时间背景**：截至 2025 年 3 月 3 日，本指南假设您正在处理需要 UIL 1.9.3 的遗留代码。
 

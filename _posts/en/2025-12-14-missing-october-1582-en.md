@@ -29,17 +29,6 @@ October was chosen for the skip because it had fewer major religious holidays, m
 
 Apple's Calendar app models this historical transition precisely, so when you scroll back to October 1582, it jumps from the 4th to the 15th—just as it actually happened.
 
-
-
-
-
-
-
-
-
-
-
-
 References:
 
 - [https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar](https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar)

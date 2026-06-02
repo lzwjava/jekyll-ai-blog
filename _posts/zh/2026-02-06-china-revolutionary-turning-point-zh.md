@@ -21,11 +21,13 @@ type: note
 ## 为什么 May Fourth Movement 是转折点
 
 **May Fourth Movement 之前** - Old Democratic Revolution 时期：
+
 - 由资产阶级领导
 - 遵循西方资产阶级革命模式
 - 缺乏明确的革命领导力量
 
 **May Fourth Movement 之后** - New Democratic Revolution 时期：
+
 - 工人阶级作为独立的政治力量登上历史舞台
 - 结合了 Marxism 在中国的传播
 - 为 Communist Party 的领导奠定了基础
@@ -41,6 +43,7 @@ type: note
 ## 关键历史意义
 
 May Fourth Movement (1919 年 5 月 4 日) 意义重大，因为它：
+
 1. 展示了工人阶级的觉醒
 2. 促进了 Marxism-Leninism 在中国的传播
 3. 为 Communist Party of China 的成立 (1921 年) 准备了条件

@@ -26,6 +26,7 @@ type: note
 一般而言，Arm big.LITTLE架构设计中**核心数量无需对称**——许多配置采用非对称设计（例如8个大核+4个小核）。但在DGX Spark/GB10的特定设计中，英伟达选择了平衡的**10+10**配置，以在桌面级系统中实现AI工作负载的最优处理。这种设计在紧凑形态下提供了强劲性能，同时避免了过高功耗或发热。
 
 简言之：
+
 - 两个“10”指这款20核Arm CPU中每种核心类型的数量。
 - Cortex-X925 = 性能导向核心。
 - Cortex-A725 = 能效导向核心。
@@ -35,6 +36,7 @@ type: note
 若在DGX Spark运行DGX OS的系统规格、日志或`lscpu`/`cat /proc/cpuinfo`输出中看到这些参数，其所指正是上述内容。
 
 参考文献：
-- https://docs.nvidia.com/dgx/dgx-spark/hardware.html
-- https://www.nvidia.com/en-us/products/workstations/dgx-spark/
-- https://newsroom.arm.com/blog/arm-nvidia-dgx-spark-high-performance-ai
+
+- <https://docs.nvidia.com/dgx/dgx-spark/hardware.html>
+- <https://www.nvidia.com/en-us/products/workstations/dgx-spark/>
+- <https://newsroom.arm.com/blog/arm-nvidia-dgx-spark-high-performance-ai>

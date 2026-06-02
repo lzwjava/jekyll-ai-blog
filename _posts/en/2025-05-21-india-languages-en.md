@@ -11,6 +11,7 @@ type: note
 India is a linguistically diverse country with thousands of languages and dialects. Beyond Hindi and Tamil, other major languages include Bengali, Telugu, Marathi, Gujarati, Kannada, Malayalam, Odia, Punjabi, Assamese, Maithili, and others. These belong to two primary language families: Indo-Aryan (e.g., Hindi, Bengali) and Dravidian (e.g., Tamil, Telugu). English is also widely used as a link language, especially in urban areas, government, and business.
 
 ### Major Languages and Distribution
+
 Based on the 2011 Census of India and other reliable sources, here’s a breakdown of major languages and their approximate speaker distribution:
 
 - **Hindi**: Spoken by about 43.6% of the population (roughly 528 million in 2011) as a first or second language. It dominates northern and central India (Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Haryana, etc.). It’s the official language of the central government alongside English.
@@ -29,6 +30,7 @@ Based on the 2011 Census of India and other reliable sources, here’s a breakdo
 The distribution reflects regional concentration, with each language tied to specific states or union territories, as India’s states were reorganized in the 1950s based on linguistic boundaries (e.g., Tamil Nadu for Tamil speakers, Maharashtra for Marathi speakers). Hindi has a broader spread due to its role as a lingua franca and its use in media, education, and politics in the "Hindi Belt."
 
 ### Historical Context
+
 The linguistic diversity of India stems from its complex history:
 
 1. **Ancient Roots**:
@@ -50,6 +52,7 @@ The linguistic diversity of India stems from its complex history:
    - Political movements, like the anti-Hindi protests in Tamil Nadu (1960s), emphasized the importance of regional languages, leading to a “three-language formula” in education (local language, Hindi, English).
 
 ### Current Dynamics
+
 - **Multilingualism**: Many Indians are bilingual or trilingual, often speaking their mother tongue, Hindi, and/or English. In urban areas, English is a key language for higher education and jobs.
 - **Bollywood and Media**: Hindi’s dominance in Bollywood and national media amplifies its reach, even in non-Hindi regions.
 - **Regional Pride**: Tamil, Bengali, and other languages have strong literary and cultural traditions, fostering regional identity and resistance to Hindi imposition.

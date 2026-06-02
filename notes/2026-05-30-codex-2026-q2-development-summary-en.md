@@ -28,6 +28,7 @@ ext/
 ```
 
 Key commits:
+
 - **Standalone web search extension** (a22706d) — new `web.run` tool that calls `codex-api` search client directly, hides hosted `web_search` when standalone is enabled
 - **Standalone image generation** (ecb41fc, 10b0399) — feature-gated extension routing through native image completion pipeline
 - **Goal extension** — steering via `inject_if_running`, usage limits (bc00502), telemetry parity, thread eligibility gating

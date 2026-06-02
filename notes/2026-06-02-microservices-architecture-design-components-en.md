@@ -52,7 +52,9 @@ Data: Each service has its own DB (user-svc → users_db, payment-svc → paymen
 ## Communication Patterns
 
 ### Synchronous (Request/Response)
+
 Used when you need immediate feedback:
+
 ```python
 # Client request
 POST /api/v1/auth/login
@@ -87,6 +89,7 @@ class AuthService:
 ```
 
 ### Asynchronous (Event-Driven)
+
 Used for operations that don't need immediate feedback (notifications, webhooks, analytics):
 
 ```python
@@ -373,6 +376,7 @@ def verify_password(plain: str, hashed: str) -> bool:
 ## Key Design Decisions
 
 ### 1. **Database Per Service**
+
 Each service owns its DB. User Service ≠ Payment Service DB. This prevents tight coupling.
 
 ```python
@@ -385,6 +389,7 @@ SELECT * FROM users u JOIN payments p ON u.id = p.user_id
 ```
 
 ### 2. **Internal Service Calls (Sync)**
+
 Use HTTP + internal auth tokens for service-to-service calls. Keep latency low:
 
 ```python
@@ -399,6 +404,7 @@ async with httpx.AsyncClient(timeout=2.0) as client:  # 2s timeout
 ```
 
 ### 3. **Event-Driven for Side Effects**
+
 Notifications, webhooks, auditing → async via queue. Never fail the main request on side effects.
 
 ```python
@@ -412,6 +418,7 @@ await queue.publish("payment.success", {...})
 ```
 
 ### 4. **Admin as a Separate Service**
+
 Admin has different auth rules (role-based), audit logs, and doesn't impact user requests.
 
 ```python
@@ -423,7 +430,9 @@ POST /api/v1/admin/users/{id}/suspend
 ```
 
 ### 5. **Message Queue Pattern**
+
 Use RabbitMQ, Redis, or Kafka depending on throughput:
+
 - **RabbitMQ** (100K msg/sec): routing, retry logic, good for most cases
 - **Redis Streams** (1M msg/sec): simple, good if you already use Redis
 - **Kafka** (1M+ msg/sec): distributed, durable, overkill for startups

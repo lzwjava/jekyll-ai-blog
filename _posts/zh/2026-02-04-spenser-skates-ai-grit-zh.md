@@ -16,7 +16,7 @@ type: note
 
 这集时长 77 分钟的节目（于 2025 年 4 月 21 日发布）由来自 Kleiner Perkins 的 Joubin Mirzadegan 主持，涵盖了关于在 AI 转型期领导一家成熟科技公司的非常有趣的领域。
 
-### 讨论的核心主题：
+### 讨论的核心主题
 
 **AI Strategy & Technical Challenges**
 
@@ -28,6 +28,7 @@ type: note
 **Leadership & Personal Growth**
 
 这一集非常个人化，探讨了：
+
 - "The ultimate founder"（终极创始人）的概念
 - "Becoming the person you hate"（变成你讨厌的人）——关于创始人演变的诚实讨论
 - 平衡家庭与工作（46:41 处）

@@ -12,7 +12,8 @@ type: note
 
 Here’s a clear English translation and explanation of the core idea in that Weibo post:
 
-### Translation (natural and accurate):
+### Translation (natural and accurate)
+
 “From time to time, people tell me they’re struggling with ‘lack of respect’—colleagues at work disrespect them and they don’t know how to deal with it. I’ve also felt hurt by disrespect in work and life before. Of course, online disrespect is even worse, but now those people’s behavior has absolutely no effect on me anymore.
 
 How did I reach this point?
@@ -27,7 +28,8 @@ When you see through all their titles and façades, truly recognize their essenc
 
 You don’t need to do anything about it. You don’t need to prove anything to them or show them anything. Because to you, they and everything about them have become completely irrelevant.”
 
-### Core psychological insight explained in simple English:
+### Core psychological insight explained in simple English
+
 The moment someone’s disrespect stops hurting you is the moment you stop assigning them importance or authority in your mind.
 
 As long as you (often unconsciously) believe that this person is “above” you, or that their opinion is valuable, or that you need their approval to feel okay about yourself, their disrespect will sting.

@@ -28,6 +28,7 @@ Answer:
 官方考试指南 → [https://cloud.google.com/learn/certification/guides/cloud-developer](https://cloud.google.com/learn/certification/guides/cloud-developer)
 
 2025–2026 年的主要章节（与往年仍非常相似）：
+
 1. Designing highly scalable, available, and reliable cloud-native applications (~20–25%)
 2. Building and testing applications (~20–25%)
 3. Deploying applications (~20–25%)
@@ -35,6 +36,7 @@ Answer:
 5. Managing application performance monitoring (~10–15%)
 
 经常出现的核心服务和产品：
+
 - **App Engine** (standard & flexible), **Cloud Run**, **Cloud Functions** (1st & 2nd gen)
 - **Kubernetes Engine** (GKE Autopilot & Standard) — 非常重要
 - **Artifact Registry**, **Cloud Build**, **Cloud Deploy**
@@ -57,19 +59,23 @@ Answer:
 ### 3. 2025–2026 年度最佳资源
 
 **免费与官方**
+
 - Google Cloud Skills Boost: “Professional Cloud Developer” learning path (约 35–40 个 labs/quests)
 - Google Cloud documentation – 特别是 “Best practices” 部分
 - 官方认证页面上的 Sample questions
 
 **付费但高质量**
+
 - Whizlabs Professional Cloud Developer 课程 + 模拟考试 (2024–2025 年非常流行)
 - Udemy – “The Cloud & DevOps Guy” 的 “Google Professional Cloud Developer” 或类似的 2025 年更新课程
 - SkillCertPro / ExamTopics / Test-King — 大型题库 (仅用于练习，不要死记硬背)
 
 **书籍**
+
 - “Google Cloud Certified Professional Cloud Developer” (O’Reilly 或 Amazon 出版) — 主要用于原理解释，非首选资源
 
 **社区**
+
 - Reddit: r/googlecloud (搜索 2024–2025 年的 “PCD passed” 帖子)
 - Medium 文章：搜索 “passed Professional Cloud Developer 2024/2025”
 

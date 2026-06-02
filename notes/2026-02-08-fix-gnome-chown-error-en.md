@@ -19,6 +19,7 @@ The command `sudo chown -R lzwjava /usr/` (or whatever your username is) is extr
 ### Quick Recovery Options (from easiest to more involved)
 
 #### Option 1: Boot into recovery / single-user mode (recommended first try)
+
 1. Power on the laptop.
 2. When the GRUB menu appears:
    - If GRUB is hidden, hold **Shift** (or spam **Esc**) right after powering on.
@@ -62,6 +63,7 @@ reboot
 - If it still fails, proceed to Option 2.
 
 #### Option 2: Use live USB (Ubuntu or any Linux live session) to repair
+
 1. Boot from your Ubuntu live USB (or make a new one).
 2. Choose "Try Ubuntu".
 3. Open Terminal.
@@ -89,12 +91,14 @@ reboot
 ```
 
 #### Option 3: Last resort — reinstall Ubuntu (fastest if above fails)
+
 - Boot from Ubuntu live USB.
 - Choose "Install Ubuntu".
 - Select "Something else" → reuse your existing partitions but **format only / (root)** partition (keep /home if you have separate /home).
 - This will reinstall the system files correctly while keeping your personal files (if /home is separate or you skip formatting it).
 
 ### Important notes
+
 - Never run `chown -R` on `/`, `/usr`, `/etc`, `/var`, etc. again — it's one of the fastest ways to destroy a Linux system.
 - For future "permission fix" attempts, only chown specific directories/files, e.g. `sudo chown -R $USER:$USER ~/project` or `/home/yourname`.
 - After recovery, run `sudo apt update && sudo apt upgrade && sudo apt install --reinstall ubuntu-desktop` to make sure everything is consistent.

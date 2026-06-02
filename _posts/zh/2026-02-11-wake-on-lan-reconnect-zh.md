@@ -19,6 +19,7 @@ type: note
 以下是发生这种情况的原因以及何时/为何会产生影响：
 
 ### Wake-on-LAN 在本地 LAN 上的正常运作方式
+
 - Magic packet 几乎总是发送到 **broadcast address**（例如 255.255.255.255 或子网广播地址如 192.168.1.255）。
 - Ethernet frame 中的目标 MAC 是 **FF:FF:FF:FF:FF:FF** (broadcast)。
 - Switch 会将此视为 **unknown unicast** 或 broadcast frame → 它会将该包 **flood**（泛洪）到（同一 VLAN 中的）**所有端口**。
@@ -27,6 +28,7 @@ type: note
 → 从理论上讲，**Switch 不需要在其 MAC address table 中知道目标 MAC address**，因为该包无论如何都会被泛洪。
 
 ### 为什么在你描述的场景中它仍然失效
+
 真正的问题通常**不是** Switch 针对 broadcast magic packet 本身的 MAC table 记录，而是以下这些常见的相关问题之一：
 
 1. **Link 完全断开 → 某些 Switch 立即移除 MAC 条目**
@@ -50,6 +52,7 @@ type: note
    - 但既然你使用的是 broadcast (255.255.255.255)，在同一个 LAN 内这通常不是问题所在。
 
 ### 总结 —— 什么时候你真的需要先开机一次
+
 在长时间拔线/重插后，通常在以下情况下你必须先开启一次 PC：
 
 - 你的 WoL 发送端发送的是 **unicast** 而非 broadcast（非常常见）
@@ -62,6 +65,7 @@ type: note
 但在现实生活中（如你所遇到的情况）→ **是的**，许多人经历了和你完全一样的情况，开启一次电源可以“刷新” Link，让 Switch 从发出的 frame 中学习 MAC，并经常能“稳定” NIC 的 WoL 状态。
 
 ### 快速解决办法
+
 - 始终发送到 broadcast（255.255.255.255 或子网广播）—— 你的脚本已经这样做了 → 很好。
 - 重新插回电缆后，尝试发送 3–5 个 magic packet，每个包之间间隔 1–2 秒。
 - 在 Managed Switch 上：如果可能，增加 MAC 老化时间或禁用端口快速刷新行为。

@@ -11,11 +11,13 @@ type: note
 ---
 
 ### What is n8n.io?
+
 n8n.io (often stylized as n8n) is an open-source workflow automation platform designed for technical teams. It allows users to build complex automations visually—connecting apps, APIs, and AI models—without heavy coding, while offering deep customization for developers. Think of it as a self-hosted alternative to tools like Zapier or Make, but with a strong emphasis on AI orchestration and data privacy.
 
 Its rapid rise to success, especially in 2025, stems from timing with the AI boom, smart product design, and explosive growth metrics. Below, I'll break down the main factors.
 
 ### Key Reasons for Success
+
 1. **Perfect Timing with AI Workflows**: n8n excels at integrating generative AI into everyday processes, like building multi-step AI agents that call tools, query data, or automate tasks across apps. This "no-code + AI" approach lets non-devs create sophisticated automations (e.g., chatting with data via Slack to update Asana tasks) without building from scratch. As AI hype grew, n8n positioned itself as the "orchestration layer" for AI, making it indispensable for devs and businesses scaling AI experiments.
 
 2. **Open-Source and Self-Hostable Model**: Unlike proprietary competitors, n8n is fully open-source (GitHub repo with 40k+ stars). Users can self-host for free, ensuring data sovereignty and no per-task fees—ideal for privacy-focused enterprises or cost-conscious teams. This lowers barriers to entry, fosters a massive community (1700+ templates shared), and drives viral adoption among developers.
@@ -27,6 +29,7 @@ Its rapid rise to success, especially in 2025, stems from timing with the AI boo
 5. **Community and Ecosystem Momentum**: n8n's dev-first ethos builds loyalty. It's not just a tool; it's an ecosystem where users share workflows, extending its reach. Freelancers note its ease sells itself, though it challenges service-based models by empowering end-users.
 
 ### Growth Metrics Highlighting the Surge
+
 n8n's traction exploded in 2025, fueled by AI demand:
 
 | Metric                  | Details (as of Oct 2025)                  |
@@ -40,6 +43,7 @@ n8n's traction exploded in 2025, fueled by AI demand:
 These numbers reflect hyper-growth: from a Berlin startup to a unicorn in under 6 years, with funds earmarked for AI features like Evaluations and local model hosting.
 
 ### Why Now? The Bigger Picture
+
 n8n's success isn't accidental—it's the convergence of open-source ethos, AI tailwinds, and dev-friendly design in a market craving affordable, flexible automation. As businesses grapple with AI overload, n8n simplifies orchestration without lock-in. If you're technical, it's a no-brainer; for teams, it's a efficiency multiplier. Expect it to keep dominating as AI agents mature.
 
 References:

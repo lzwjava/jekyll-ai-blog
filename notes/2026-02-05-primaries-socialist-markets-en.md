@@ -26,11 +26,13 @@ The correct answer is **A - State market**.
 This concept comes from early Chinese socialist economic theory. The "Three Primaries, Three Supplements" principle outlined that:
 
 **The three primaries were:**
+
 1. State ownership in production
 2. Planned economy in economic management
 3. State market in distribution
 
 **The three supplements were:**
+
 1. Individual and collective ownership supplementing state ownership
 2. Free market supplementing planned economy
 3. Limited free market supplementing the state-controlled market

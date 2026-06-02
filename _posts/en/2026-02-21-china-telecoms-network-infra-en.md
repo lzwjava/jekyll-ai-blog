@@ -29,9 +29,9 @@ Here are the main types of facilities you'd find:
 
 When you run a traceroute, you are seeing this hierarchy in action. Here’s how the different centers appear in the route:
 
-1.  **The First Hops:** These are likely in a local PoP or smaller data center near your location or your ISP's local aggregation point.
-2.  **The Middle Hops:** As the packets travel longer distances, you'll see IPs associated with the **regional and core network centers**. For instance, if you're in Chengdu and accessing a site in Beijing, your packets will hop through the core routers in Xi'an or another major hub .
-3.  **The Final Hops:** These are in a PoP or data center close to the destination server.
+1. **The First Hops:** These are likely in a local PoP or smaller data center near your location or your ISP's local aggregation point.
+2. **The Middle Hops:** As the packets travel longer distances, you'll see IPs associated with the **regional and core network centers**. For instance, if you're in Chengdu and accessing a site in Beijing, your packets will hop through the core routers in Xi'an or another major hub .
+3. **The Final Hops:** These are in a PoP or data center close to the destination server.
 
 The critical takeaway is that every single IP address in that chain belongs to a physical device—a router or switch—housed in one of these facilities. China Telecom's AS numbers, primarily **AS4134 for the public internet (ChinaNet)** and **AS4809 for its premium business network (CN2)**, are the identifiers for this massive, interconnected system of physical centers .
 

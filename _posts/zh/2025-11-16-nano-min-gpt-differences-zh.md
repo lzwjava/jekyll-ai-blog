@@ -22,17 +22,21 @@ type: note
 ## 技术差异
 
 ### 代码库与实现
+
 nanoGPT本质上是**对minGPT的重构**，进行了显著优化和改进[1]。虽然minGPT奠定了基础，但nanoGPT是以性能为首要目标从头重建的。
 
 ### 性能侧重
+
 搜索结果强调nanoGPT专门为**高速高效地训练**中等规模GPT模型而设计[1]。这体现了从minGPT的教学定位向生产导向的转变。
 
 ### 训练能力
+
 nanoGPT被定位为能够处理**实际大规模训练和微调**GPT模型的代码库，而minGPT更侧重于演示和教学功能[1]。
 
 ## 发展时间线
 
 演进路径如下：
+
 1. **minGPT** → 原始教学实现版本
 2. **nanoGPT** → 优先考虑性能和实际训练的重写版本
 3. **llm.c** → 搜索结果中提到的Karpathy更优化的C语言实现[2]
@@ -44,6 +48,6 @@ nanoGPT被定位为能够处理**实际大规模训练和微调**GPT模型的代
 总之，虽然两个项目都来自Andrej Karpathy，但minGPT是他的教育型GPT实现，而nanoGPT是其优化后继版本，更专注于实际训练性能而非单纯的教学清晰度。
 
 引用文献：
-[1] https://github.com/karpathy/nanoGPT
-[2] https://www.lesswrong.com/posts/j3gp8tebQiFJqzBgg/how-the-nanogpt-speedrun-wr-dropped-by-20-in-3-months
-[3] https://www.libhunt.com/compare-minGPT-vs-nanoGPT
+[1] <https://github.com/karpathy/nanoGPT>
+[2] <https://www.lesswrong.com/posts/j3gp8tebQiFJqzBgg/how-the-nanogpt-speedrun-wr-dropped-by-20-in-3-months>
+[3] <https://www.libhunt.com/compare-minGPT-vs-nanoGPT>

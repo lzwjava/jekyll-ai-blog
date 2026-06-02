@@ -16,14 +16,17 @@ Sure, here's the full rundown of what happened:
 ## Session Summary: Reverting 192.168.1.42 from Router to Normal
 
 ### Goal
+
 Reset 192.168.1.42 (lzwjava-Lenovo-G490) back to a normal machine after it was configured as a router for an iPad via USB ethernet adapter.
 
 ### Step 1: SSH Connection
+
 - Needed `sshpass` since the server (lzw-server) has no ssh-askpass for interactive password input
 - Credentials: `lzwjava@192.168.1.42`, password `88888888`
 - Had to pipe password to `sudo -S` on the remote side since sudo also needed interactive auth
 
 ### Step 2: Discovery (what was still "routerified")
+
 Ran a comprehensive audit across all the config areas you listed. Found:
 
 | Component | Status |
@@ -37,6 +40,7 @@ Ran a comprehensive audit across all the config areas you listed. Found:
 | Netplan | Using `renderer: NetworkManager` — left untouched |
 
 ### Step 3: Reverting (what I did)
+
 Ran a single remote command with `sudo -S` that performed:
 
 1. **Disabled IP forwarding** — commented out `net.ipv4.ip_forward=1` in `/etc/sysctl.conf`, set runtime to `0`
@@ -48,13 +52,17 @@ Ran a single remote command with `sudo -S` that performed:
 All five reported success in the output.
 
 ### Step 4: Machine Went Dark
+
 Immediately after, the machine stopped responding:
+
 - SSH connections fail with exit code 255
 - Ping shows 100% packet loss to 192.168.1.42
 - Multiple retry attempts over ~2 minutes all failed
 
 ### What Likely Went Wrong
+
 The **iptables flush** was probably too aggressive. Clash in TPROXY mode hooks into the network stack with rules like:
+
 - `TPROXY` rules to intercept traffic
 - `mangle` table rules for packet marking
 - Possibly `filter` table INPUT/OUTPUT rules
@@ -64,12 +72,14 @@ When I flushed ALL chains (`iptables -F` + `iptables -X`), it may have removed r
 Alternatively, the machine may have simply rebooted due to some system reaction, and is still in the boot process.
 
 ### What Was Definitely Fixed
+
 - IP forwarding: **off** ✅
 - dnsmasq: **stopped + disabled** ✅
 - USB LAN DHCP config: **removed** ✅
 - Clash: **killed** ✅
 
 ### What Still Needs Verification (after machine comes back)
+
 - Main ethernet interface still gets DHCP from the router (192.168.1.1)
 - Default route is correct
 - No stray iptables rules remain
@@ -77,4 +87,5 @@ Alternatively, the machine may have simply rebooted due to some system reaction,
 - The `enx00e04c362f89` USB adapter can be ignored or removed from config
 
 ### Lesson Learned
+
 Should have been more surgical with iptables — only flush `nat` and `mangle` tables (where Clash TPROXY rules live) instead of nuking everything. The `filter` table's default policies (ACCEPT) should have been fine, but the flush may have had side effects on connection tracking or other kernel networking state.

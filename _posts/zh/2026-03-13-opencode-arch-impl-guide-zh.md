@@ -53,11 +53,11 @@ OpenCode 包含 Plan 模式，该模式禁用更改能力，而是建议如何�
 
 ## 参考资料
 
-- https://opencode.ai/
-- https://opencode.ai/docs/agents/
-- https://github.com/opencode-ai/opencode
-- https://medium.com/@gaharwar.milind/inside-opencode-how-to-build-an-ai-coding-agent-that-actually-works-28c614494f4f
-- https://dev.to/wonderlab/open-source-project-of-the-day-part-4-opencode-a-powerful-ai-coding-agent-built-for-the-g05
-- https://innfactory.ai/en/blog/ai-assisted-software-development-with-opencode/
-- https://cefboud.com/posts/coding-agents-internals-opencode-deepdive/
-- https://thenewstack.io/open-source-coding-agents-like-opencode-cline-and-aider-are-solving-a-huge-headache-for-developers/
+- <https://opencode.ai/>
+- <https://opencode.ai/docs/agents/>
+- <https://github.com/opencode-ai/opencode>
+- <https://medium.com/@gaharwar.milind/inside-opencode-how-to-build-an-ai-coding-agent-that-actually-works-28c614494f4f>
+- <https://dev.to/wonderlab/open-source-project-of-the-day-part-4-opencode-a-powerful-ai-coding-agent-built-for-the-g05>
+- <https://innfactory.ai/en/blog/ai-assisted-software-development-with-opencode/>
+- <https://cefboud.com/posts/coding-agents-internals-opencode-deepdive/>
+- <https://thenewstack.io/open-source-coding-agents-like-opencode-cline-and-aider-are-solving-a-huge-headache-for-developers/>

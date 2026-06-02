@@ -20,6 +20,7 @@ NanoGPT implements a GPT-2-like decoder-only transformer model in PyTorch. The a
 - **MLP intermediate size**: 3072 (`n_embd * 4`, as the expansion factor is 4)
 
 Each transformer block (class `Block`) is a standard decoder block with residual connections and layer normalization. It includes:
+
 - **LayerNorm 1** (`ln1`): Applied before the self-attention.
 - **Multi-Head Self-Attention** (`attn`): Causal (masked) attention to prevent looking ahead.
 - Residual addition after attention.
@@ -30,7 +31,9 @@ Each transformer block (class `Block`) is a standard decoder block with residual
 The overall model (class `GPT`) stacks these 12 blocks after token and position embeddings, followed by a final LayerNorm (`ln_f`) and a linear projection to the vocabulary size.
 
 #### MLP Structure
+
 The MLP (class `MLP` within `Block`) is a two-layer feed-forward network:
+
 - First linear layer (`c_fc`): Projects from `n_embd` (768) to intermediate size (3072).
 - GELU activation: Applied element-wise after the first projection.
 - Second linear layer (`c_proj`): Projects back from 3072 to `n_embd` (768).
@@ -38,6 +41,7 @@ The MLP (class `MLP` within `Block`) is a two-layer feed-forward network:
 This follows the "fc -> gelu -> projection" pattern you mentioned.
 
 #### Forward Pass Flow
+
 The forward passes are residual-style, with pre-norm (LayerNorm before sub-layers). Here's a high-level breakdown:
 
 1. **Major Forward (GPT.forward)**:
@@ -48,6 +52,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - Linear projection: `logits = self.lm_head(x)` → output shape `[B, T, vocab_size]`.
 
    Snippet (simplified):
+
    ```python
    def forward(self, idx, targets=None):
        # ... embedding + positional
@@ -66,6 +71,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - MLP: `x = x + mlp(ln2(x))` (residual).
 
    Snippet (simplified):
+
    ```python
    def forward(self, x):
        x = x + self.attn(self.ln1(x))
@@ -82,6 +88,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    Key: Causal mask ensures future tokens are ignored. Output shape preserved as `[B, T, n_embd]`.
 
    Snippet (core attention computation, simplified):
+
    ```python
    def forward(self, x):
        B, T, C = x.shape
@@ -99,6 +106,7 @@ The forward passes are residual-style, with pre-norm (LayerNorm before sub-layer
    - Second projection: `x = self.c_proj(x)` → back to `n_embd`.
 
    Snippet:
+
    ```python
    def forward(self, x):
        x = self.c_fc(x)

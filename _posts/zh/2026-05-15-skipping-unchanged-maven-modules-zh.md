@@ -69,7 +69,7 @@ mvn install -项目 安装 -项目 模块A -am
 
 Maven 默认不会自动跳过未更改的模块。要处理此问题：
 
-* 使用** `takari-lifecycle-plugin` ** 或 ** `maven-incremental-build` ** 工具。
+* 使用**`takari-lifecycle-plugin`** 或 **`maven-incremental-build`** 工具。
 * 某些 CI/CD 系统（如 Jenkins）可以通过 Git 追踪哪些模块发生了更改，并仅触发这些模块的 Maven 构建。
 
 增量插件示例：
@@ -138,8 +138,8 @@ mvn install -项目 !模块X
 
 参考：
 
-* [Maven Reactor 选项（`-项目` 和 `-am`)](https://maven.apache.org/ref/6.3 3.6.6.3/maven嵌入式/cli.html)
-* [在 Maven 中跳过测试](https://maven.apache. surefire/maven-surefire插件/examples/skipping-tests.html)
+* [Maven Reactor 选项（`-项目` 和 `-am`)](<https://maven.apache.org/ref/6.3> 3.6.6.3/maven嵌入式/cli.html)
+* [在 Maven 中跳过测试](<https://maven.apache>. surefire/maven-surefire插件/examples/skipping-tests.html)
 * [Maven 多模块构建技巧](https://www.baeldung.com/maven多模块构建)
 
 ---

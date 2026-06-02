@@ -99,6 +99,7 @@ curl -s -X POST 'https://api.xiaomimimo.com/v1/chat/completions' \
 文档中提供了专门的 Claude Code 集成页面。你可将 MiMo 用作代理编程会话的后端——大规模免费消耗令牌。
 
 在 Claude Code 配置中设置：
+
 ```json
 {
   "api_url": "https://api.xiaomimimo.com/anthropic",

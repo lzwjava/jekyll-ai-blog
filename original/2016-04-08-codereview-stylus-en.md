@@ -36,7 +36,8 @@ The app’s homepage is divided into distinct sections—`.slide`, `.feature`, `
     padding-top 280px
 ```
 
-### Key Techniques:
+### Key Techniques
+
 - **Full-Screen Hero**: The `height 800px` and `width 100%` create a bold, full-width banner. `overflow hidden` ensures no content spills out.
 - **Background Image**: The `.bg` class uses `background-size cover` to scale the hero image proportionally, while `background-position-y 40%` fine-tunes its vertical alignment for visual impact.
 - **Nesting**: Stylus’s nesting keeps related styles grouped, improving readability compared to flat CSS.
@@ -67,7 +68,8 @@ The `.feature` section showcases a three-column layout:
         margin 0 auto
 ```
 
-### Highlights:
+### Highlights
+
 - **Flexbox**: `display flex` and `flex-direction row` align the list items horizontally, while `flex-grow 1` ensures they expand evenly to fill the container.
 - **Centering**: `width 1160px` paired with `margin 0 auto` centers the content, a classic technique for fixed-width layouts.
 - **Pseudo-Class Magic**: The `&:first-child` selector removes padding from the first item, preventing awkward spacing.
@@ -122,7 +124,8 @@ li
       transition all 0.35s ease 0s
 ```
 
-### Breakdown:
+### Breakdown
+
 - **Hover Effects**: On hover, the image scales up (`transform scale(1.2,1.2)`) and brightens (`-webkit-filter brightness(0.6)`), while text elements shift upward with `translate` and adjust opacity.
 - **Transitions**: The `transition all 0.35s ease 0s` ensures smooth animations for all properties, with a 350ms duration and easing curve.
 - **Layering**: `position absolute` on `.text` positions it over the image, with `z-index 2` ensuring visibility.
@@ -180,6 +183,7 @@ The `@2x` suffix suggests retina-ready assets, with `background-size contain` en
 ## Best Practices and Takeaways
 
 This Stylus implementation offers lessons for any CSS project:
+
 1. **Use Preprocessors**: Stylus’s nesting and mixins (e.g., `clearfix()`) streamline complex layouts.
 2. **Balance Layouts**: Combine Flexbox for modern browsers with float-based fallbacks for robustness.
 3. **Enhance UX**: Smooth transitions and hover effects make the UI feel alive.

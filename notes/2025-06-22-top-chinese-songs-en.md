@@ -18,20 +18,20 @@ Based on a comprehensive consideration of YouTube statistics, YouTube Music, Bil
 
 ## Classics and Enduring Works
 
-1.  **月亮代表我的心 (The Moon Represents My Heart)** - Teresa Teng: An eternal classic in Chinese music, incredibly popular, a must-sing in KTVs.
-2.  **千言万语 (Thousands of Words)** - Teresa Teng: Another signature song by Teresa Teng, genuinely emotional and widely circulated.
-3.  **上海滩 (The Bund)** - Frances Yip: The iconic theme song of a classic TV series, grand and deeply ingrained in people's hearts.
-4.  **童年 (Childhood)** - Lo Ta-you: One of the representative works of the godfather of Chinese pop music, full of poetry and nostalgia.
-5.  **光阴的故事 (The Story of Time)** - Lo Ta-you: Another classic by Lo Ta-you, chronicling the changes of an era and youthful memories.
-6.  **明天会更好 (Tomorrow Will Be Better)** - Various Artists: A representative charity song in Chinese music, full of hope and strength.
-7.  **一生何求 (What More Can I Ask For)** - Danny Chan: A deeply moving classic Cantonese song, a KTV evergreen.
-8.  **吻别 (Kiss Goodbye)** - Jacky Cheung: The song god Jacky Cheung's masterpiece, one of the best-selling Chinese albums in Asia.
+1. **月亮代表我的心 (The Moon Represents My Heart)** - Teresa Teng: An eternal classic in Chinese music, incredibly popular, a must-sing in KTVs.
+2. **千言万语 (Thousands of Words)** - Teresa Teng: Another signature song by Teresa Teng, genuinely emotional and widely circulated.
+3. **上海滩 (The Bund)** - Frances Yip: The iconic theme song of a classic TV series, grand and deeply ingrained in people's hearts.
+4. **童年 (Childhood)** - Lo Ta-you: One of the representative works of the godfather of Chinese pop music, full of poetry and nostalgia.
+5. **光阴的故事 (The Story of Time)** - Lo Ta-you: Another classic by Lo Ta-you, chronicling the changes of an era and youthful memories.
+6. **明天会更好 (Tomorrow Will Be Better)** - Various Artists: A representative charity song in Chinese music, full of hope and strength.
+7. **一生何求 (What More Can I Ask For)** - Danny Chan: A deeply moving classic Cantonese song, a KTV evergreen.
+8. **吻别 (Kiss Goodbye)** - Jacky Cheung: The song god Jacky Cheung's masterpiece, one of the best-selling Chinese albums in Asia.
 
 ---
 
 ## Popular Hits and KTV Favorites
 
-9.  **青花瓷 (Blue and White Porcelain)** - Jay Chou: Jay Chou's classic blend of Chinese style and R&B, a KTV favorite.
+9. **青花瓷 (Blue and White Porcelain)** - Jay Chou: Jay Chou's classic blend of Chinese style and R&B, a KTV favorite.
 10. **发如雪 (Hair Like Snow)** - Jay Chou: Another iconic Chinese-style song by Jay Chou.
 11. **晴天 (Sunny Day)** - Jay Chou: A song full of youthful memories, deeply loved by young people.
 12. **泡沫 (Bubble)** - G.E.M.: G.E.M.'s breakout hit, showcasing her superb vocal skills, with extremely high YouTube views.

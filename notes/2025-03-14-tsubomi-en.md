@@ -15,26 +15,31 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ## Lyrics of "蕾(つぼみ)" by Kobukuro
 
 ### Verse 1
+
 涙こぼしても 汗にまみれた笑顔の中じゃ
 誰も気付いてはくれない
 だから あなたの涙を僕は知らない
 
 ### Pre-Chorus
+
 絶やす事無く 僕の心に灯されていた
 優しい明かりは あなたがくれた理由なき愛のあかし
 
 ### Chorus
+
 柔らかな日だまりが包む 背中に ポツリ 話しかけながら
 いつかこんな日が来る事も
 きっと きっと きっと わかってたはずなのに
 
 ### Verse 2
+
 消えそうに 咲きそうな 蕾が今年も僕をまってる
 掌じゃ掴めない 風に踊る花びら
 立ち止まる肩にヒラリ
 上手に乗せて笑って見せた あなたを思い出す一人
 
 ### Bridge
+
 ビルの谷間に埋もれた夢を いつか芽吹いて
 花を咲かすだろう 信じた夢は 咲く場所を選ばない
 僕等 この街に落とされた影法師
@@ -43,12 +48,14 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 きっと きっと きっと 追い越せる日が来るさ
 
 ### Verse 3
+
 風のない線路道 五月の美空は青く寂しく
 動かないちぎれ曇 いつまでも浮かべてた
 どこにももう戻れない 僕のようだとささやく風に
 キラリ舞い落ちてく 涙...
 
 ### Chorus
+
 散り際に もう一度開く花びらは あなたのように
 聴こえない頑張れを 握った両手に何度もくれた
 消えそうに 咲きそうな 蕾が今年も僕をまってる
@@ -63,6 +70,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Verse 1**
 
 #### Line 1: 涙こぼしても 汗にまみれた笑顔の中じゃ
+
 - **Romaji**: Namida koboshite mo ase ni mamireta egao no naka ja
 - **Word-by-Word Explanation**:
   - **涙 (namida)**: "Tears" — /na-mi-da/
@@ -78,6 +86,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Even if tears spill, within a smile covered in sweat" — Suggests resilience or hiding sadness behind a smile.
 
 #### Line 2: 誰も気付いてはくれない
+
 - **Romaji**: Dare mo kizuite wa kurenai
 - **Word-by-Word Explanation**:
   - **誰も (dare mo)**: "Nobody" — /da-re-mo/
@@ -87,6 +96,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Nobody will notice" — Indicates that the person’s struggles go unseen.
 
 #### Line 3: だから あなたの涙を僕は知らない
+
 - **Romaji**: Dakara anata no namida wo boku wa shiranai
 - **Word-by-Word Explanation**:
   - **だから (dakara)**: "Therefore" — /da-ka-ra/
@@ -104,6 +114,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Pre-Chorus**
 
 #### Line 1: 絶やす事無く 僕の心に灯されていた
+
 - **Romaji**: Tayasu koto naku boku no kokoro ni tomosarete ita
 - **Word-by-Word Explanation**:
   - **絶やす (tayasu)**: "To extinguish" — /ta-ya-su/
@@ -117,6 +128,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Without ever being extinguished, it was lit in my heart" — Refers to a constant light (likely love or hope).
 
 #### Line 2: 優しい明かりは あなたがくれた理由なき愛のあかし
+
 - **Romaji**: Yasashii akari wa anata ga kureta riyuu naki ai no akashi
 - **Word-by-Word Explanation**:
   - **優しい (yasashii)**: "Gentle" — /ya-sa-shi-i/
@@ -137,6 +149,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Chorus**
 
 #### Line 1: 柔らかな日だまりが包む 背中に ポツリ 話しかけながら
+
 - **Romaji**: Yawarakana hidamari ga tsutsumu senaka ni potsuri hanashikake nagara
 - **Word-by-Word Explanation**:
   - **柔らかな (yawarakana)**: "Soft" — /ya-wa-ra-ka-na/
@@ -151,6 +164,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "While softly speaking to my back, enveloped in a gentle sunny spot" — A tender moment of connection.
 
 #### Line 2: いつかこんな日が来る事も
+
 - **Romaji**: Itsuka konna hi ga kuru koto mo
 - **Word-by-Word Explanation**:
   - **いつか (itsuka)**: "Someday" — /i-tsu-ka/
@@ -163,6 +177,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "That such a day would come" — Reflects on inevitable change.
 
 #### Line 3: きっと きっと きっと わかってたはずなのに
+
 - **Romaji**: Kitto kitto kitto wakatteta hazu na no ni
 - **Word-by-Word Explanation**:
   - **きっと (kitto)**: "Surely" — /kit-to/ (repeated for emphasis)
@@ -177,6 +192,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Verse 2**
 
 #### Line 1: 消えそうに 咲きそうな 蕾が今年も僕をまってる
+
 - **Romaji**: Kiesou ni sakisou na tsubomi ga kotoshi mo boku wo matteru
 - **Word-by-Word Explanation**:
   - **消えそう (kiesou)**: "About to disappear" — /ki-e-so-u/
@@ -193,6 +209,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "A bud that seems about to disappear and bloom is waiting for me again this year" — Symbolizes hope and fragility.
 
 #### Line 2: 掌じゃ掴めない 風に踊る花びら
+
 - **Romaji**: Tenohira ja tsukamenai kaze ni odoru hanabira
 - **Word-by-Word Explanation**:
   - **掌 (tenohira)**: "Palm" — /te-no-hi-ra/
@@ -205,6 +222,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Petals dancing in the wind that I cannot grasp with my palm" — Something beautiful yet elusive.
 
 #### Line 3: 立ち止まる肩にヒラリ
+
 - **Romaji**: Tachidomaru kata ni hirari
 - **Word-by-Word Explanation**:
   - **立ち止まる (tachidomaru)**: "Stop" — /ta-chi-do-ma-ru/
@@ -214,6 +232,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Lightly on my shoulder as I stop" — A delicate moment, perhaps a petal landing.
 
 #### Line 4: 上手に乗せて笑って見せた あなたを思い出す一人
+
 - **Romaji**: Jouzu ni nosete waratte miseta anata wo omoidasu hitori
 - **Word-by-Word Explanation**:
   - **上手に (jouzu ni)**: "Skillfully" — /jo-u-zu-ni/
@@ -231,6 +250,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Bridge**
 
 #### Line 1: ビルの谷間に埋もれた夢を いつか芽吹いて
+
 - **Romaji**: Biru no tanima ni umoreta yume wo itsuka mebuite
 - **Word-by-Word Explanation**:
   - **ビル (biru)**: "Building" — /bi-ru/
@@ -245,6 +265,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Dreams buried in the valleys between buildings will one day sprout" — Hope in tough circumstances.
 
 #### Line 2: 花を咲かすだろう 信じた夢は 咲く場所を選ばない
+
 - **Romaji**: Hana wo sakasu darou shinjita yume wa saku basho wo erabanai
 - **Word-by-Word Explanation**:
   - **花 (hana)**: "Flowers" — /ha-na/
@@ -261,6 +282,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "They will probably bloom; dreams we believed in don’t choose where to bloom" — Dreams can thrive anywhere.
 
 #### Line 3: 僕等 この街に落とされた影法師
+
 - **Romaji**: Bokura kono machi ni otosareta kageboushi
 - **Word-by-Word Explanation**:
   - **僕等 (bokura)**: "We" — /bo-ku-ra/
@@ -272,6 +294,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "We are silhouettes dropped into this city" — Feeling small in a big place.
 
 #### Line 4: みんな光を探しいて
+
 - **Romaji**: Minna hikari wo sagashite
 - **Word-by-Word Explanation**:
   - **みんな (minna)**: "Everyone" — /min-na/
@@ -281,6 +304,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Everyone is searching for light" — A universal quest for hope.
 
 #### Line 5: 重なり合う時の流れも
+
 - **Romaji**: Kasanariau toki no nagare mo
 - **Word-by-Word Explanation**:
   - **重なり合う (kasanariau)**: "Overlap" — /ka-sa-na-ri-a-u/
@@ -291,6 +315,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Even the flow of time that overlaps" — Shared experiences over time.
 
 #### Line 6: きっと きっと きっと 追い越せる日が来るさ
+
 - **Romaji**: Kitto kitto kitto oikoseru hi ga kuru sa
 - **Word-by-Word Explanation**:
   - **きっと (kitto)**: "Surely" — /kit-to/ (repeated for emphasis)
@@ -306,6 +331,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Verse 3**
 
 #### Line 1: 風のない線路道 五月の美空は青く寂しく
+
 - **Romaji**: Kaze no nai senromichi gogatsu no misora wa aoku sabishiku
 - **Word-by-Word Explanation**:
   - **風 (kaze)**: "Wind" — /ka-ze/
@@ -321,6 +347,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "On a windless railway track, the May sky is blue and lonely" — A melancholic scene.
 
 #### Line 2: 動かないちぎれ曇 いつまでも浮かべてた
+
 - **Romaji**: Ugokanai chigiregumo itsumademo ukabeteta
 - **Word-by-Word Explanation**:
   - **動かない (ugokanai)**: "Not moving" — /u-go-ka-na-i/
@@ -330,6 +357,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "Motionless scattered clouds were floating endlessly" — Adds to the stillness.
 
 #### Line 3: どこにももう戻れない 僕のようだとささやく風に
+
 - **Romaji**: Doko ni mo mou modorenai boku no you da to sasayaku kaze ni
 - **Word-by-Word Explanation**:
   - **どこ (doko)**: "Where" — /do-ko/
@@ -345,7 +373,8 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
   - **に (ni)**: "In" — /ni/
 - **Meaning**: "In the wind that whispers, ‘Like me, who can no longer return anywhere’" — Compares the speaker to the wind.
 
-#### Line 4: キラリ舞い落ちてく 涙...
+#### Line 4: キラリ舞い落ちてく 涙
+
 - **Romaji**: Kirari mai ochiteku namida...
 - **Word-by-Word Explanation**:
   - **キラリ (kirari)**: "Glittering" — /ki-ra-ri/
@@ -358,6 +387,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 ### **Chorus**
 
 #### Line 1: 散り際に もう一度開く花びらは あなたのように
+
 - **Romaji**: Chiri際に mou ichido hiraku hanabira wa anata no you ni
 - **Word-by-Word Explanation**:
   - **散り際 (chiri際)**: "Moment of scattering" — /chi-ri-gi-wa/
@@ -371,6 +401,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "The petals that open once more at the moment of scattering are like you" — Resilience likened to the person.
 
 #### Line 2: 聴こえない頑張れを 握った両手に何度もくれた
+
 - **Romaji**: Kikoenai ganbare wo nigitta ryoute ni nando mo kureta
 - **Word-by-Word Explanation**:
   - **聴こえない (kikoenai)**: "Cannot hear" — /ki-ko-e-na-i/
@@ -384,11 +415,13 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "You gave me the unheard ‘do your best’ many times in my gripped hands" — Silent encouragement.
 
 #### Line 3: 消えそうに 咲きそうな 蕾が今年も僕をまってる
+
 - **Romaji**: Kiesou ni sakisou na tsubomi ga kotoshi mo boku wo matteru
 - **Word-by-Word Explanation**: (Same as Verse 2, Line 1)
 - **Meaning**: "A bud that seems about to disappear and bloom is waiting for me again this year"
 
 #### Line 4: 今もまだ掴めない あなたと描いた夢
+
 - **Romaji**: Ima mo mada tsukamenai anata to egaita yume
 - **Word-by-Word Explanation**:
   - **今 (ima)**: "Now" — /i-ma/
@@ -402,6 +435,7 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
 - **Meaning**: "I still cannot grasp the dream I envisioned with you"
 
 #### Line 5: 立ち止まる僕のそばで 優しく開く笑顔のような
+
 - **Romaji**: Tachidomaru boku no soba de yasashiku hiraku egao no you na
 - **Word-by-Word Explanation**:
   - **立ち止まる (tachidomaru)**: "Stop" — /ta-chi-do-ma-ru/
@@ -415,7 +449,8 @@ Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by
   - **のような (no you na)**: "Like" — /no-yo-u-na/
 - **Meaning**: "By my side as I stop, like a smile that gently opens"
 
-#### Line 6: 蕾を探してる 空に...
+#### Line 6: 蕾を探してる 空に
+
 - **Romaji**: Tsubomi wo sagashiteru sora ni...
 - **Word-by-Word Explanation**:
   - **蕾 (tsubomi)**: "Bud" — /tsu-bo-mi/

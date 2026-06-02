@@ -14,7 +14,8 @@ type: note
 
 This is the facilitated remittance limit for mainland residents' southbound remittances (from mainland China to Hong Kong), based on the policy launched by the People's Bank of China and the Hong Kong Monetary Authority on June 22, 2025, aimed at supporting small-scale cross-border payments for convenience. The limit applies to current account items (such as tuition fees, medical expenses, or remittances to relatives and friends), requires no submission of business background documents, and funds arrive in real time (usually within seconds). In actual operations, participating banks (such as ICBC, ABC, etc.) may set the same or slightly lower single transaction limits based on risk control.
 
-### Related Limit Details:
+### Related Limit Details
+
 - **Daily Limit**: Usually the same as or higher than the single transaction limit, depending on the bank (for example, some banks support a daily cumulative limit of 10,000 RMB).
 - **Annual Limit**: Occupies the individual's annual equivalent of 50,000 USD foreign exchange quota, but does not deduct from the bank's foreign exchange quota.
 - **Northbound Remittance (Hong Kong to Mainland)**: Single/daily limit of approximately 10,000 HKD equivalent, annual 200,000 HKD, limited to residents holding Hong Kong ID cards.

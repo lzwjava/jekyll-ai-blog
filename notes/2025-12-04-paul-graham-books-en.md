@@ -19,6 +19,7 @@ Paul Graham, the entrepreneur, essayist, and co-founder of Y Combinator, has rec
 While he doesn't maintain a single curated list on his website, compilations from his recommendations (drawn from tweets, essays, and Q&As) include the following standout titles. I've grouped them thematically for clarity, with brief context where Graham provided it. This is not exhaustive but covers many of his most-cited picks.
 
 ### Startup and Business Essentials
+
 - **How to Win Friends and Influence People** by Dale Carnegie
   Graham calls it "the one book we encourage startup founders to read" and "critically important for anyone in business."
 - **Founders at Work: Stories of Startups' Early Days** by Jessica Livingston
@@ -27,6 +28,7 @@ While he doesn't maintain a single curated list on his website, compilations fro
   Recommended as "probably the single most valuable book a startup founder could read."
 
 ### Science and Innovation
+
 - **The Selfish Gene** by Richard Dawkins
   A favorite for its evolutionary insights; Graham has tweeted about it multiple times.
 - **The Double Helix** by James D. Watson
@@ -37,6 +39,7 @@ While he doesn't maintain a single curated list on his website, compilations fro
   "One of the great classics of computer science"; Graham says he still learns from it after 15 years.
 
 ### History and Biography
+
 - **The Old Way** by Elizabeth Marshall Thomas
   Strongly recommended for learning about hunter-gatherers.
 - **From Galileo to Newton** by A. Rupert Hall
@@ -49,6 +52,7 @@ While he doesn't maintain a single curated list on his website, compilations fro
   Recently praised as one of the best books on mathematics.
 
 ### Fiction and Classics
+
 - **Harry Potter** series by J.K. Rowling
   Included in his humorous list of books with "politics very different to [his] own."
 - **The Moon Is a Harsh Mistress** by Robert A. Heinlein
@@ -59,6 +63,7 @@ While he doesn't maintain a single curated list on his website, compilations fro
   His top pick when asked for a Wodehouse recommendation.
 
 ### Other Notables
+
 - **Barbarian Days: A Surfing Life** by William Finnegan (memoir/adventure).
 - **More Money Than God: Hedge Funds and the Making of a New Elite** by Sebastian Mallaby (finance history).
 - **Apollo's Arrow: The Profound and Enduring Impact of Coronavirus** by Nicholas A. Christakis (recent pandemic analysis).
@@ -68,6 +73,7 @@ While he doesn't maintain a single curated list on his website, compilations fro
 Graham's tastes lean toward narrative-driven non-fiction that reveals how ideas and people drive change. For startups, he prioritizes interpersonal and execution skills; for personal growth, he favors books blending intellect with storytelling. If you're interested in a specific category (e.g., history or tech), his essays like "How to Do What You Love" often weave in more tailored suggestions.
 
 References:
+
 - [95 Books Recommended By Paul Graham](https://www.kevinrooke.com/book-recommendations/paul-graham)
 - [82 Paul Graham Recommended Books (2025)](https://www.mostrecommendedbooks.com/paul-graham-books)
 - [60+ Book Recommendations by Paul Graham (Updated Daily)](https://bookschatter.com/books/paul-graham/)

@@ -75,7 +75,6 @@ Carbonology 已完成天使融资轮，由 **HongShan Capital Group**（前身�
 
 ### 总结
 
-
 | 类别 | 详情 |
 |---|---|
 | 出生地 | Shanghai, China |

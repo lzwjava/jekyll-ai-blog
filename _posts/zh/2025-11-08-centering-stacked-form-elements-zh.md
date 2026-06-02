@@ -31,6 +31,7 @@ type: note
 ```
 
 ### 实现原理
+
 - **flex-direction: column**：将主轴方向从水平（行排列）改为垂直，使选择器和文章数量元素从上到下垂直堆叠
 - **align-items: center**：保持子元素在水平方向居中对齐
 - **justify-content: center**：使整个垂直堆叠的容器在父元素内垂直居中

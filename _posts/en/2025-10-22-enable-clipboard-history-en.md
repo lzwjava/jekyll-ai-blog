@@ -11,7 +11,9 @@ type: note
 ---
 
 ### Enabling Clipboard History in Windows
+
 Before using shortcuts, ensure the feature is enabled (it's available in Windows 10 version 1809 and later, including Windows 11):
+
 1. Open **Settings** (press `Windows key + I`).
 2. Go to **System > Clipboard**.
 3. Toggle on **Clipboard history**.
@@ -19,6 +21,7 @@ Before using shortcuts, ensure the feature is enabled (it's available in Windows
 This allows Windows to store up to 25 recent items (text, HTML, images) for 1 hour by default, or longer if synced to a Microsoft account.
 
 ### Using Shortcuts to Access and Read Clipboard History
+
 The primary keyboard shortcut to open and read your clipboard history is **`Windows key + V`**. Here's how to use it step by step:
 
 1. **Copy multiple items**: Use `Ctrl + C` to copy text, images, or other content as needed. Windows will automatically save them to history.
@@ -37,6 +40,7 @@ The primary keyboard shortcut to open and read your clipboard history is **`Wind
 5. **Close the pane**: Press `Esc` or `Windows key + V` again.
 
 ### Additional Tips
+
 - **Pin items**: In the pane, click the pin icon next to an item to keep it indefinitely.
 - **Clear history**: Right-click an item > **Delete**, or go to Settings > System > Clipboard > **Clear**.
 - **Sync across devices**: Enable **Clipboard history sync** in Settings for access on other Windows PCs signed into the same Microsoft account.

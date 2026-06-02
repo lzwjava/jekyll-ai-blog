@@ -65,6 +65,7 @@ Cloud Logging（原名 Stackdriver Logging）是 Google Cloud 的全托管、实
 ```
 
 优点：
+
 - 通过字段查询 (`jsonPayload.user_id="u_12345"`)
 - 创建分布分析指标 (distribution metrics)
 - 更精准的告警

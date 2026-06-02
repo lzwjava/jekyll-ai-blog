@@ -52,6 +52,7 @@ MS-DOS 起源于 86-DOS（也称为 QDOS，即 Quick and Dirty Operating System�
 **Common Commands**
 
 Internal 命令（内置于 COMMAND.COM）：
+
 - `DIR`：列出目录内容。
 - `CD`：切换目录。
 - `MD`/`MKDIR`：创建目录。
@@ -62,6 +63,7 @@ Internal 命令（内置于 COMMAND.COM）：
 - `TYPE`：显示文件内容。
 
 External 命令（独立的 executable 文件）：
+
 - `FORMAT`：格式化磁盘。
 - `CHKDSK`：检查磁盘完整性。
 - `FDISK`：对 hard drives 进行分区。

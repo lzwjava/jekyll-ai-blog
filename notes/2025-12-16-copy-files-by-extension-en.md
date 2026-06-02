@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: How to use an Ansible playbook to copy *.sh, *.ksh, and *.py files from a source directory to a destination directory recursively?
+Question: How to use an Ansible playbook to copy *.sh,*.ksh, and *.py files from a source directory to a destination directory recursively?
 
 Answer:
 
@@ -24,6 +24,7 @@ This requires **two tasks** (as you mentioned it can spawn into two):
 Here is an example playbook (assuming the source and destination are on the **control node/localhost**; adjust for remote hosts as needed):
 
 {% raw %}
+
 ```yaml
 ---
 - name: Copy specific script files recursively
@@ -52,24 +53,29 @@ Here is an example playbook (assuming the source and destination are on the **co
       loop: "{{ script_files.files }}"
       when: script_files.matched > 0
 ```
+
 {% endraw %}
 
-### Key Explanations:
+### Key Explanations
+
 - `find` collects all matching files (non-directories) recursively.
 - `relpath` is a filter (available in Ansible) that computes the relative path from the source, ensuring the subdirectory structure is recreated in the destination.
 - If the source/destination is on a remote host, add `remote_src: yes` to the `copy` task or run on remote hosts.
 - For very large numbers of files, consider the `ansible.posix.synchronize` module with `rsync_opts` for includes/excludes, but it requires `rsync` installed and is more complex for precise extension filtering.
 
 ### Alternative: Flatten all files into one destination directory (no subdirs preserved)
+
 Change the `dest` in the copy task to:
 {% raw %}
+
 ```yaml
 dest: "{{ dest_dir }}/{{ item.path | basename }}"
 ```
+
 {% endraw %}
 
 References:
 
-- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/find_module.html
-- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html
-- https://stackoverflow.com/questions/36696952/copy-multiple-files-with-ansible
+- <https://docs.ansible.com/ansible/latest/collections/ansible/builtin/find_module.html>
+- <https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html>
+- <https://stackoverflow.com/questions/36696952/copy-multiple-files-with-ansible>

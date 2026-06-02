@@ -13,6 +13,7 @@ type: note
 It sounds like you're reflecting on the dynamics of professional networking and knowledge-sharing, which is a great topic! Your example with the colleague—spotting an opportunity to help by mentioning how his open-source Copilot API wrapper could extend to the company's new GPT-5-mini model (beyond just GPT-4o)—is a perfect illustration of proactive, value-adding interaction. It builds goodwill and strengthens relationships without expecting immediate payback. People like that director are often thrilled because it saves them time or sparks ideas they hadn't considered.
 
 ### How to Spot and Evaluate These "Cases" in Your Connections
+
 In your network (e.g., LinkedIn, colleagues, industry groups), people fall into a few archetypes when it comes to sharing information. Here's a practical framework to "see" or assess them based on patterns of behavior. This draws from principles in books like *Give and Take* by Adam Grant, which categorizes networkers as givers, takers, and matchers. Focus on observing over time rather than judging one interaction.
 
 1. **Givers (The Helpful Providers)**:
@@ -37,6 +38,7 @@ In your network (e.g., LinkedIn, colleagues, industry groups), people fall into 
    - **Tip**: These are great for steady partnerships. Nurture them by proposing clear win-wins, like co-authoring a post on AI tools.
 
 ### Practical Ways to Assess and Build Your Network
+
 - **Track Patterns**: Use a simple CRM tool (like Notion, Airtable, or even a spreadsheet) to log interactions. Note: What did they ask? What did they give? Over 3-6 months, patterns emerge.
 - **Test with Small Asks**: Share a low-stakes useful tidbit (e.g., "Found this free API testing tool—relevant to your work?") and see the response. Givers amplify it; takers might just take it.
 - **Leverage Online Signals**:

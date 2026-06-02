@@ -24,6 +24,7 @@ The short answer is: **Zoom is more flexible than Teams when it comes to free re
 Zoom's free plan allows users to record meetings and webinars. If you are using Zoom on the free plan, you can record a meeting or webinar locally to your device — meaning the recording is saved directly to your computer or mobile device's storage. However, cloud recording is not available on the free plan.
 
 **Key free plan caveats:**
+
 - The local recording feature is only available to the meeting host, so if you're a participant, you won't be able to initiate a recording unless the host grants you permission.
 - On mobile (Android/iOS), free users will not see any record option in the app — the Zoom mobile app does not allow recording for free accounts. The only way for a free user to record on mobile is to have the meeting host record, or use a workaround outside Zoom.
 

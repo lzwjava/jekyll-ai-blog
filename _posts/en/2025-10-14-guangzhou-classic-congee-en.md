@@ -17,16 +17,19 @@ Guangzhou, in Guangdong province, is famous for its Cantonese-style congee (know
 Here are some of the most typical varieties, including the ones you mentioned:
 
 #### Seafood Congee (*Hoi Sin Zhou*)
+
 This is one of Guangzhou's stars, especially the claypot version cooked over high heat for a smoky flavor. It's loaded with fresh seafood like sand shrimp, mud crab, clams, squid, and sometimes dried elements like scallops. The broth absorbs the ocean flavors, making it rich yet not heavy. It's a popular midnight snack—vendors serve it steaming hot from big pots. Originating from Chaozhou influences, it's common at places like Xin Wen Ji on Panfu Road.
 
 For a visual, check this [Sampan Congee bowl](https://images.slurrp.com/prod/recipe_images/transcribe/breakfast/sampan-congee.webp) showing a similar seafood-packed style with peanuts and crispy bits.
 
 #### Pig Organ Congee (*Zha Za Zhou* or Pig Miscellaneous Porridge)
+
 I believe "pig za zhuza porridge" refers to *zha za zhou* (literally "mixed pig bits congee"), a hearty local favorite using offal like pig intestines, liver, kidney, and blood cake. The organs are sliced thin, blanched for tenderness, and simmered in the porridge for a savory, slightly chewy contrast to the smooth rice. It's nutritious (high in iron) and affordable, often eaten at night markets or hidden stalls that draw long lines—some open only a few hours a week. Spots like Liuhua Porridge City or viral Guangdong shops specialize in it.
 
 See an example [pig organ congee](https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10237372735487778) with visible chunks of intestine and green onions.
 
 #### Other Common Types
+
 - **Sampan Congee (*Ting Zai Zhou*)**: A Guangzhou original from Pearl River boat vendors. It's a lighter seafood-pork mix with fried peanuts, scaly fish fillets, crispy dough fritters, and roasted duck bits for crunch. Now served in boat-shaped bowls at restaurants.
 - **Century Egg Congee (*Pi Dan Zhou*)**: Plain porridge topped with preserved duck eggs (dark and jelly-like), lean pork, and ginger—simple and iconic for breakfast.
 - **Chicken Congee (*Gai Ji Zhou*)**: Broth-based with shredded chicken, ginger, and scallions; soothing for hangovers or colds.
@@ -35,6 +38,7 @@ See an example [pig organ congee](https://lookaside.fbsbx.com/lookaside/crawler/
 If you're visiting, head to areas like Liwan District or Yuexiu for authentic spots. Congee culture here is all about freshness and balance—sweet, salty, crunchy textures in every bowl.
 
 #### References
+
 - [Cantonese Congee 101](https://chinesecookingdemystified.substack.com/p/cantonese-congee-101)
 - [Sampan Congee Wikipedia](https://en.wikipedia.org/wiki/Sampan_congee)
 - [A proper Chinese breakfast in Guangzhou](https://www.reddit.com/r/chinesefood/comments/1f2zfj1/a_proper_chinese_breakfast_in_guongzhou_china/)

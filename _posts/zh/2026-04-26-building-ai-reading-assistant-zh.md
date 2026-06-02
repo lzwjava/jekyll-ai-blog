@@ -197,7 +197,7 @@ import numpy as np
 
 我推荐：
 
-### MVP 技术栈：
+### MVP 技术栈
 
 * 嵌入：**BAAI BGE**
 * 向量数据库：**FAISS（起步）** → 后期 Milvus
@@ -250,7 +250,7 @@ pip install llama-index sentence-transformers faiss-cpu
 
 一旦 MVP 运行良好：
 
-### 添加：
+### 添加
 
 * 每个用户的记忆
 * 元数据过滤（日期、标签）

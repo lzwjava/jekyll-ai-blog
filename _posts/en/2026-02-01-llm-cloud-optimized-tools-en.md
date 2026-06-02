@@ -15,6 +15,7 @@ I'll search for LLM-friendly cloud platforms that emphasize text-based configura
 ## Top Recommendations
 
 ### **1. Pulumi** (Most LLM-Friendly)
+
 Pulumi allows you to define infrastructure using general-purpose programming languages like TypeScript, Python, Go, C#, Java, or YAML. This is ideal for LLMs because:
 
 - **Uses familiar languages** - LLMs are already trained extensively on Python, TypeScript, etc.
@@ -23,18 +24,22 @@ Pulumi allows you to define infrastructure using general-purpose programming lan
 - LLMs can translate natural language prompts into infrastructure code more effectively when using standard programming languages rather than domain-specific languages
 
 ### **2. AWS CDK (Cloud Development Kit)**
+
 - Supports TypeScript, Python, Java, C#, and Go for defining AWS infrastructure
 - Converts code to CloudFormation templates
 - Best for AWS-only environments
 - Deep IDE integration with autocomplete
 
 ### **3. CDK for Terraform (CDKTF)**
+
 - Allows defining infrastructure using TypeScript, Python, Go, C#, and Java, which is then transpiled into Terraform JSON
 - Combines Terraform's ecosystem with programming language benefits
 - Multi-cloud support
 
 ### **4. Traditional YAML-based Tools**
+
 For simpler needs:
+
 - **Kubernetes** - YAML manifests
 - **AWS CloudFormation** - YAML/JSON templates
 - **Ansible** - YAML playbooks

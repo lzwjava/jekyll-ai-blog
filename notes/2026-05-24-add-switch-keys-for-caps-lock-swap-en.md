@@ -45,6 +45,7 @@ Core module with 3 responsibilities:
 - Added `"  ww linux switch-keys  Swap Caps Lock and Left Control keys"` to the top-level help output
 
 **Design choices:**
+
 - Targets X11 only (errors out if `DISPLAY` or `XDG_SESSION_TYPE=x11` isn't set)
 - Uses `setxkbmap` for runtime (lightweight, no Xmodmap reset needed) and `~/.Xmodmap` for persistence (autoloaded by most X11 display managers)
 - Tracks both the `setxkbmap -query` option AND live `xmodmap` state, because the two can independently set the swap

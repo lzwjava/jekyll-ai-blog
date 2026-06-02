@@ -49,6 +49,7 @@ type: note
 这些观点私下持有通常是职业安全的，但如果你在 Reddit、Stack Overflow 或 Java 会议上表达出来，可能会引发真实的争论。
 
 参考资料：
-- https://www.reddit.com/r/java/comments/15×6×84/what_are_your_java_heresy_opinions/
-- https://blog.softwaremill.com/java-controversies-that-never-die-2c3f5e8e9b8d
-- https://twitter.com/lukaseder/status/1721518218360836520（受检异常的争论，从古至今持续不断）
+
+- <https://www.reddit.com/r/java/comments/15×6×84/what_are_your_java_heresy_opinions/>
+- <https://blog.softwaremill.com/java-controversies-that-never-die-2c3f5e8e9b8d>
+- <https://twitter.com/lukaseder/status/1721518218360836520（受检异常的争论，从古至今持续不断）>

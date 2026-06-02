@@ -15,6 +15,7 @@ type: note
 ## Common Usage Patterns
 
 **运行 Python：**
+
 - `python file.py` - 执行脚本
 - `python -m module` - 将 module 作为脚本运行（例如 `python -m pip install package`）
 - `python -c "code"` - 执行单条命令
@@ -23,6 +24,7 @@ type: note
 ## Key Options You'll Actually Use
 
 **`-m mod`** - 将库 module 作为脚本运行。这是运行 pip、venv 或 http.server 等工具的方式：
+
 ```bash
 python -m pip install requests
 python -m venv myenv
@@ -32,6 +34,7 @@ python -m http.server 8000
 **`-i`** - 脚本运行后进入 interactive 模式。非常适合 debugging —— 脚本运行结束后，你会进入到一个保留了所有变量的 interactive prompt。
 
 **`-c cmd`** - 执行单行脚本：
+
 ```bash
 python -c "print('Hello')"
 ```

@@ -29,6 +29,7 @@ Working as a contractor (often through agencies or as a 1099 independent) for la
 These pain points are widespread, though some contractors thrive by stacking gigs or negotiating better terms. If you're considering this path, factor in building an emergency fund and side hustles for stability.
 
 #### References
+
 - [What are the pros and cons of being a contractor at BigTech](https://www.quora.com/What-are-the-pros-and-cons-of-being-a-contractor-at-BigTech-The-salary-and-benefits-are-much-worse-than-regular-employees-the-work-is-tough-and-the-resume-doesnt-look-good-does-it)
 - [What are the Pros and Cons of being a Tech Contractor?](https://medium.com/%40TylerYamashiro/what-are-the-pros-and-cons-of-being-a-tech-contractor-e5d246227ed9)
 - [Pros and Cons of Contracting in Tech](https://www.halcyonknights.com.au/blog/pros-and-cons-of-contracting-in-tech)

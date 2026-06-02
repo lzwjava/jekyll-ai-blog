@@ -33,26 +33,30 @@ This is the README.md from github project [https://github.com/lzwjava/live-serve
 
 Fun Live is a cutting-edge knowledge live broadcast platform designed to facilitate engaging educational experiences for users across various disciplines, including programming and design. With Fun Live, users can seamlessly participate in live lectures, contribute through fees or rewards, and enjoy playback options for added convenience.
 
-#### Features:
-- **Live Lectures**: Access diverse knowledge lectures in real-time, covering a wide range of topics.
-- **Monetization Options**: Users can pay fees to attend live sessions or reward lecturers for their valuable insights.
-- **OBS Integration**: Lecturers can effortlessly push live streams using the OBS tool, ensuring smooth broadcasting.
-- **Playback Functionality**: Enjoy the flexibility to participate in lectures in real-time or access playback later.
-- **Seamless WeChat Integration**: Integrate seamlessly with the WeChat platform, including notifications functionality for enhanced user engagement.
+#### Features
 
-#### Usage:
+* **Live Lectures**: Access diverse knowledge lectures in real-time, covering a wide range of topics.
+* **Monetization Options**: Users can pay fees to attend live sessions or reward lecturers for their valuable insights.
+* **OBS Integration**: Lecturers can effortlessly push live streams using the OBS tool, ensuring smooth broadcasting.
+* **Playback Functionality**: Enjoy the flexibility to participate in lectures in real-time or access playback later.
+* **Seamless WeChat Integration**: Integrate seamlessly with the WeChat platform, including notifications functionality for enhanced user engagement.
+
+#### Usage
+
 1. Clone the repository.
 2. Open the project in your preferred development environment.
 3. Customize and configure settings as needed.
 4. Deploy the application to your server.
 5. Start broadcasting engaging knowledge lectures and delight your users!
 
-#### Statistics:
-- **Lectures Hosted**: Approximately 80 lectures hosted.
-- **User Base**: Over 30,000 users engaged.
-- **Page Views**: Millions of page views generated.
+#### Statistics
 
-#### File Structure:
+* **Lectures Hosted**: Approximately 80 lectures hosted.
+* **User Base**: Over 30,000 users engaged.
+* **Page Views**: Millions of page views generated.
+
+#### File Structure
+
 ```
 ├── cache
 │   └── index.html

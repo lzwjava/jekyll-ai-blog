@@ -12,6 +12,7 @@ type: note
 ## 调查：为何通过 CLI 调整卷大小失败
 
 ### 问题
+
 AMD Dev Cloud（基于 DigitalOcean）的 Web UI 中，卷 `volume-atl1-1780280110689` 显示“增加存储大小”弹窗。在大小字段输入 `200` 显示“无效大小”。用户希望改用 CLI 操作。
 
 ### 步骤 1：检查 doctl 代码库
@@ -58,6 +59,7 @@ doctl compute volume list
 ```
 
 结果：
+
 ```
 ID                                      Name                         Size       Region    Droplet IDs
 52743aec-...                            volume-atl1-1780280110689    100 GiB    atl1      [574422820]
@@ -91,6 +93,7 @@ doctl compute volume-action resize 52743aec-... --size 200 --region atl1
 ### 步骤 9：测试不同请求格式
 
 编写另一个 Python 脚本测试：
+
 - 请求体中包含/不包含 `droplet_id`
 - 包含/不包含 `region`
 - `size_gigabytes` 作为浮点数（200.0）→ `400 "error parsing request body"`（API 期望整数）
@@ -118,6 +121,7 @@ Token 前缀 `dop_v1_` 表明这是一个 **DigitalOcean Partner Cloud** token�
 ---
 
 **调查期间创建的文件：**
+
 - `/tmp/resize_vol.py` — 卷详情 + 大小暴力测试
 - `/tmp/resize_vol2.py` — 不同请求格式（PATCH、带额外字段的 POST）
 - `/tmp/resize_vol3.py` — 类型强制转换测试（浮点数、字符串、整数）

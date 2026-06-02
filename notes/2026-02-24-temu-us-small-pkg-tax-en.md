@@ -18,11 +18,13 @@ Answer:
 The de minimis rule previously allowed shipments valued under $800 to enter the US duty-free without extensive customs procedures. This "loophole" was a key enabler for Temu's (and similar platforms like Shein's) ultra-low-price model, as it permitted direct shipping of cheap goods from Chinese factories to US consumers without tariffs or added fees.
 
 Key timeline and impacts in 2025:
+
 - The exemption ended for goods from China (Temu's primary source) effective **May 2, 2025**, with initial tariffs reaching up to 120% or flat fees (later adjusted, e.g., to 54% in some cases as part of trade negotiations).
 - It was extended globally (all countries) on **August 29, 2025**.
 - This forced Temu to overhaul its US operations: It halted or reduced direct shipments from China, shifted to US-based warehouses/distributors for bulk imports, raised prices on many items, added import charges (sometimes exceeding product costs), cut aggressive advertising spend, and saw reduced product availability/stock issues.
 
 Reported effects on Temu in the US:
+
 - Daily active users plunged 52% in May 2025 compared to March.
 - Sales/GMV dropped sharply (e.g., to less than 30% of early 2025 levels in some periods).
 - Traffic, app usage, and demand fell significantly.

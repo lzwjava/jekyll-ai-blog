@@ -17,7 +17,8 @@ Answer:
 
 It is a traditional fermented soy product that has been consumed safely for centuries in Chinese and other East Asian cuisines. The fermentation process (using beneficial molds, yeasts, and bacteria) makes the tofu more digestible, increases certain nutrients like vitamins, and gives it a strong, savory flavor similar to cheese.
 
-### Key Points on Safety and Health:
+### Key Points on Safety and Health
+
 - **Safe for most people** — Properly made and commercially produced fermented bean curd is considered safe, with no widespread evidence of serious public health risks when prepared under good conditions.
 - **Potential benefits** — Some studies suggest regular consumption (along with other fermented/pickled foods) may be linked to a reduced long-term risk of diabetes. It is also easier to digest than regular tofu for some people (e.g., elderly or those with digestive issues) and contains protein, amino acids, and other nutrients.
 - **Main concern — high sodium** — It is very salty (often preserved in brine), so it is high in sodium. People with high blood pressure, heart disease, kidney issues, or on low-sodium diets should eat it in moderation or avoid it.

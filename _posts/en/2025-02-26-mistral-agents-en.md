@@ -17,6 +17,7 @@ Mistral AI Agents are autonomous systems powered by large language models (LLMs)
 Mistral AI provides two primary methods for creating agents: the **La Plateforme Agent Builder** and the **Agent API**.
 
 ### 1. La Plateforme Agent Builder
+
 The Agent Builder offers a user-friendly interface for creating agents without extensive technical knowledge. To create an agent:
 
 - Navigate to the Agent Builder at [https://console.mistral.ai/build/agents/new](https://console.mistral.ai/build/agents/new).
@@ -24,9 +25,11 @@ The Agent Builder offers a user-friendly interface for creating agents without e
 - Once configured, the agent can be deployed and accessed via the API or Le Chat.
 
 ### 2. Agent API
+
 For developers, the Agent API allows programmatic creation and integration of agents into existing workflows. Below are examples of how to create and use an agent via the API:
 
 #### Python Example
+
 ```python
 import os
 from mistralai import Mistral
@@ -42,6 +45,7 @@ print(chat_response.choices[0].message.content)
 ```
 
 #### JavaScript Example
+
 ```javascript
 import { Mistral } from '@mistralai/mistralai';
 
@@ -72,7 +76,9 @@ Mistral AI agents can be customized to fit specific needs through several option
 - **Instructions**: Provide optional instructions to enforce specific behaviors across all interactions. For example, you can create an agent that only speaks French or generates Python code without explanations.
 
 ### Example: Creating a French-Speaking Agent
+
 To create an agent that only responds in French:
+
 - Set the model to "Mistral Large 2".
 - Use instructions like: "Always respond in French, regardless of the language of the input."
 - Provide few-shot examples to reinforce the behavior.
@@ -89,6 +95,7 @@ Mistral AI agents can be applied across various industries and tasks. Some notab
 - **Coding Assistance**: Design agents to generate code, provide debugging suggestions, or create unit tests.
 
 ### Specific Examples
+
 - **French-Speaking Agent**: An agent configured to only respond in French, useful for businesses targeting French-speaking customers.
 - **Python Code Generator**: An agent that outputs Python code snippets without explanations, ideal for developers needing quick, clean code.
 

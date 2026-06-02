@@ -17,11 +17,13 @@ type: note
 生成树协议 (STP) 是一种在 IEEE 802.1D 中定义的第 2 层网络协议，用于防止通过冗余链路构建的以太网网络中出现环路。环路非常危险，因为它们会导致广播风暴、MAC 地址表不稳定，并可能在几秒钟内使整个交换网络瘫痪。STP 通过在保持完全连接的同时自动禁用冗余路径来解决此问题，从而创建一个逻辑上无环路的树形拓扑，该拓扑“跨越”网络中的所有交换机。
 
 ### 关键概念和目标
+
 - 目标：确保第 2 层域中任意两个节点之间只有一条逻辑路径，同时允许物理冗余以实现容错。
 - 当链路或交换机发生故障时，STP 会自动重新配置拓扑（收敛）以使用以前被阻塞的路径。
 - 对终端设备（PC、服务器等）透明操作——它们只看到一条活动路径。
 
 ### STP 的核心组件（原始 802.1D）
+
 1. **Bridge ID (BID)**
    8 字节：2 字节 Bridge Priority（默认 32768）+ 6 字节 MAC 地址。
    BID 越低，成为 Root Bridge 的可能性越大。
@@ -49,6 +51,7 @@ type: note
    - Disabled
 
 ### STP 选举和操作过程
+
 1. 每个交换机最初都认为自己是 Root，并每 2 秒（Hello Time）从所有端口发送 Bridge Protocol Data Units (BPDUs)。
 2. 当交换机收到一个更“优”的 BPDU（更低的 Root BID，或相同的 Root 但更低的成本/发送者 BID/端口优先级）时，它停止声明自己是 Root，并开始转发该更“优”的 BPDU。
 3. Root Bridge 选举：最低的 BID 获胜。决胜局是最低的 MAC 地址。
@@ -69,6 +72,7 @@ type: note
 | Multiple STP (MSTP, 802.1s)| 2002 | 将多个 VLAN 映射到少数实例，可与 RSTP 互操作                     | 亚秒级       |
 
 ### RSTP (802.1w) 的主要增强功能
+
 - 只有三种端口状态：Discarding、Learning、Forwarding（Blocking+Listening+Disabled 合并为 Discarding）
 - 拓扑变化时端口可以立即转换
 - 用于即时 Designated 端口激活的 Proposal/Agreement 握手
@@ -76,6 +80,7 @@ type: note
 - 集成了 UplinkFast、BackboneFast 和 PortFast 功能
 
 ### 常见的扩展和功能（主要是 Cisco）
+
 - PortFast – 立即将接入端口置于 Forwarding 状态（针对终端设备）
 - BPDU Guard – 关闭收到 BPDU 的 PortFast 端口（防止流氓交换机）
 - BPDU Filter – 停止发送/接收 BPDU（很少使用）
@@ -112,6 +117,7 @@ SW2-SW4-SW5-SW3 链路将具有最高成本路径，因此该网段上的一个�
 STP 是以太网网络中第 2 层冗余的基础。即使有更新的技术（TRILL、SPB、带有 EVPN 的 VXLAN），理解经典和快速 STP 对任何网络工程师来说仍然至关重要。
 
 参考文献：
+
 - IEEE 802.1D-2004 Standard
 - IEEE 802.1w-2001 (Rapid Spanning Tree Protocol)
 - IEEE 802.1Q-2018 (includes MSTP)

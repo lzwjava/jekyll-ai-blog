@@ -15,6 +15,7 @@ type: note
 Withdrawing money from your HSBC Hong Kong account using an HSBC ATM in a Guangzhou branch (Mainland China) is generally treated as an overseas transaction. HSBC HK cards (especially UnionPay-linked ATM/debit cards) are compatible with HSBC ATMs in China, allowing you to withdraw in RMB (CNY). The amount will be converted from HKD (or your account's currency) at HSBC's exchange rate plus a potential foreign exchange markup (typically 0-1% for HSBC cards, but check your card type).
 
 #### Key Fees
+
 Fees depend heavily on your HSBC HK account and customer tier. Here's a breakdown based on standard tariffs:
 
 | Customer Tier | HSBC HK Fee per Withdrawal | Mainland China ATM Fee | Total Expected Fee | Notes |
@@ -34,6 +35,7 @@ Fees depend heavily on your HSBC HK account and customer tier. Here's a breakdow
 For your exact account, log into HSBC HK online banking or call their hotline (+852 2233 3000) to confirm. Tariffs can update—latest as of mid-2025.
 
 #### References
+
 - [HSBC HK Travel ATM Guide](https://www.hsbc.com.hk/help/travel/atm-withdrawal/)
 - [HSBC HK Bank Tariff Guide (June 2025)](https://www.hsbc.com.hk/content/dam/hsbc/hk/docs/ways-to-bank/bank-tariff/20240601-guide.pdf)
 - [HSBC Premier Benefits](https://www.hsbc.com.hk/international/travel-services/)

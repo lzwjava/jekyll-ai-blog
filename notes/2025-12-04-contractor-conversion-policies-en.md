@@ -33,12 +33,14 @@ No, that's not entirely accurate—practices vary by bank and by the specific co
 
 Bottom line
 At most big banks you can interview for perm roles while still on contract without taking forced leave. If you get the offer, you’ll either:
+
 1. Convert directly (bank pays a conversion fee—happens more often than people think if you’re strong), or
 2. Serve a cooling-off period (3–12 months depending on the bank) before starting as FTE.
 
 It’s negotiable and very team-dependent. The best performers almost always get exceptions or paid conversions.
 
 References:
+
 - JPMorgan contractor conversion discussions (2024–2025) on [TeamBlind](https://www.teamblind.com/post/JPM-contract-to-full-time-conversion-2024-N7QjP0vL)
 - Goldman Sachs 12-month cooling-off confirmation on [TeamBlind](https://www.teamblind.com/post/Goldman-Sachs-contractor-cooling-off-period-2025-oP8K9x2m)
 - General big-bank contractor policy summary on [Fishbowl](https://www.fishbowlapp.com/post/updated-contractor-to-full-time-conversion-policies-at-major-banks-2024-2025)

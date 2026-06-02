@@ -29,6 +29,7 @@ Here is the cleanest and most idiomatic way:
 ```
 
 This single task:
+
 - Checks if the package is already installed at the exact version
 - Installs only if missing or version differs
 - Is fully idempotent
@@ -40,6 +41,7 @@ This single task:
 If you have many wheels in a directory and want to install all of them:
 
 {% raw %}
+
 ```yaml
 - name: Install all .whl files from a directory
   ansible.builtin.pip:
@@ -47,6 +49,7 @@ If you have many wheels in a directory and want to install all of them:
     state: present
   loop: "{{ q('fileglob', '/opt/wheels/*.whl') }}"
 ```
+
 {% endraw %}
 
 Or if you really want to be extra explicit with a prior check (rarely needed):
@@ -68,6 +71,7 @@ Or if you really want to be extra explicit with a prior check (rarely needed):
 ```
 
 ### When shell/command is acceptable (rare cases)
+
 ```yaml
 - name: Install wheel with shell (avoid unless pip module really can't do it)
   ansible.builtin.command: python3 -m pip install /path/to/package.whl

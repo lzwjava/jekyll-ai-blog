@@ -13,14 +13,17 @@ It seems there might be a typo in your query "how to use com.apache.poi." In Jav
 ---
 
 ### **What is Apache POI?**
+
 Apache POI (Poor Obfuscation Implementation) is a Java library that allows you to read, write, and manipulate Microsoft Office documents programmatically. It’s widely used for Excel files (.xls and .xlsx), but it also supports Word and PowerPoint formats.
 
 ---
 
 ### **Step 1: Add Apache POI to Your Project**
+
 To use Apache POI, you need to include it in your Java project. If you’re using **Maven**, add the following dependencies to your `pom.xml` file:
 
 - For basic Excel support (both .xls and .xlsx):
+
 ```xml
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -30,6 +33,7 @@ To use Apache POI, you need to include it in your Java project. If you’re usin
 ```
 
 - For .xlsx files specifically (requires additional OOXML support):
+
 ```xml
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -45,9 +49,11 @@ If you’re not using Maven, download the JAR files from the Apache POI website 
 ---
 
 ### **Step 2: Basic Usage for Excel Files**
+
 Apache POI provides classes to work with Excel workbooks, sheets, rows, and cells. Here’s how to get started with reading and writing Excel files.
 
 #### **Reading an Excel File**
+
 To read an Excel file, you’ll use `WorkbookFactory` to create a `Workbook` instance, then navigate through sheets, rows, and cells.
 
 Here’s a simple example to read and print the contents of an Excel file:
@@ -85,11 +91,13 @@ public class ExcelReader {
 ```
 
 **Key Points**:
+
 - `WorkbookFactory.create()` works with both .xls (HSSF) and .xlsx (XSSF) files.
 - `DataFormatter` simplifies handling different cell types (strings, numbers, dates) by formatting them as strings.
 - Use `try-with-resources` to automatically close the file and workbook.
 
 #### **Handling Different Cell Types**
+
 If you need to process cell values based on their type (e.g., string, number, date), check the cell type explicitly:
 
 ```java
@@ -114,6 +122,7 @@ switch (cell.getCellType()) {
 ```
 
 #### **Writing to an Excel File**
+
 To create or modify an Excel file, you’ll create a workbook, add sheets, rows, and cells, then save it.
 
 Here’s an example to create a new .xlsx file:
@@ -144,13 +153,16 @@ public class ExcelWriter {
 ```
 
 **Key Points**:
+
 - Use `XSSFWorkbook` for .xlsx files or `HSSFWorkbook` for .xls files.
 - Call `workbook.write()` to save the file.
 
 ---
 
 ### **Step 3: Key Classes and Concepts**
+
 Here are the main classes you’ll use in Apache POI for Excel:
+
 - **`Workbook`**: Represents the entire Excel file (`XSSFWorkbook` for .xlsx, `HSSFWorkbook` for .xls).
 - **`Sheet`**: A single sheet in the workbook.
 - **`Row`**: A row in a sheet.
@@ -160,12 +172,14 @@ Here are the main classes you’ll use in Apache POI for Excel:
 - **`DateUtil`**: Helps identify and handle date-formatted numeric cells.
 
 For other formats:
+
 - **Word**: Use `XWPFDocument` (.docx) or `HWPFDocument` (.doc).
 - **PowerPoint**: Use `XMLSlideShow` (.pptx) or `HSLFSlideShow` (.ppt).
 
 ---
 
 ### **Step 4: Tips and Best Practices**
+
 - **Resource Management**: Always use `try-with-resources` to close files and workbooks, preventing memory leaks.
 - **Error Handling**: Catch `IOException` for file operations and check for null rows/cells when accessing by index (e.g., `sheet.getRow(i)` may return null).
 - **Large Files**: For large Excel files, consider the streaming API (`SXSSFWorkbook` for writing, `XSSFSheetXMLHandler` for reading) to reduce memory usage.
@@ -174,7 +188,9 @@ For other formats:
 ---
 
 ### **Summary**
+
 To use `org.apache.poi`:
+
 1. Add the library to your project (e.g., via Maven).
 2. Use `WorkbookFactory` to read existing files or create new workbooks with `XSSFWorkbook`/`HSSFWorkbook`.
 3. Access and manipulate data via `Sheet`, `Row`, and `Cell` objects.

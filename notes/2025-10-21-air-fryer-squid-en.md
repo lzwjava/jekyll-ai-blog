@@ -33,6 +33,7 @@ Cooking dried squid in an air fryer is a quick and easy way to achieve a crispy,
    - Serve as a snack or with dipping sauces like soy sauce with chili or a spicy mayo.
 
 **Tips**:
+
 - Cooking times may vary depending on the air fryer model and the thickness of the squid. Start with shorter times and adjust as needed.
 - If the squid is too chewy, it may need a bit more soaking or cooking time.
 - For added flavor, you can marinate the soaked squid in a mix of soy sauce, garlic, and sesame oil for 10-15 minutes before air frying.

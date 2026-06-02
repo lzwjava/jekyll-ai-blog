@@ -15,6 +15,7 @@ Angular 生态系统中有几个共同协作的关键 package。以下是它们�
 **@angular/core** 是最基础的 package，包含了 core framework 功能 —— 例如 components、directives、dependency injection、change detection 和 component lifecycle。每个 Angular app 都需要它。
 
 **@angular/compiler** 将你的 Angular templates（带有 Angular 特定语法的 HTML）转换成浏览器可以执行的 JavaScript 代码。这通常有两种方式：
+
 - Just-in-time (JIT)：编译在运行时发生于浏览器中
 - Ahead-of-time (AOT)：编译在 build 过程中发生（生产环境的首选）
 
@@ -23,6 +24,7 @@ Angular 生态系统中有几个共同协作的关键 package。以下是它们�
 **@angular/compiler-cli** 是 CLI 与 compiler 的接口，在 build 过程中用于 AOT 编译。
 
 **可以这样理解：**
+
 - `@angular/core` = 汽车的发动机
 - `@angular/compiler` = 将你的 Angular 代码翻译成浏览器能理解的内容
 - `@angular/cli` = 你构建和管理 Angular apps 的工具箱和控制面板

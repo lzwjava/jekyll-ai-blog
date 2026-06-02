@@ -89,7 +89,7 @@ subscribe(task_id=b7oxfxl1j)
 * 进度被写入标准输出或日志文件
 * 监控器通过以下方式附加：
 
-### Linux风格实现：
+### Linux风格实现
 
 ```bash
 tail -f download.log
@@ -123,6 +123,7 @@ curl -O --progress-bar
   ```
   安装完成
   ```
+
 * 或校验和验证通过
 
 因此在内部：

@@ -44,6 +44,7 @@ A high schooler can use Claude. But they don't know:
 **Domain expertise doesn't disappear — it transforms into prompt quality.**
 
 Your 12 years means:
+
 - You know what questions to ask the AI
 - You recognize when the AI is confidently wrong
 - You can evaluate the output, not just generate it

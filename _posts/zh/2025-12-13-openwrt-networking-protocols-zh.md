@@ -46,7 +46,7 @@ OpenWrt 的可扩展性允许通过数千个可用软件包添加更多协议。
 
 参考资料：
 
-- https://openwrt.org/docs/guide-user/network/tunneling_interface_protocols
-- https://en.wikipedia.org/wiki/OpenWrt
-- https://sternumiot.com/iot-blog/openwrt-how-it-works-challenges-and-alternatives/
-- https://teklager.se/en/knowledge-base/openwrt-4g-wwan-configuration/
+- <https://openwrt.org/docs/guide-user/network/tunneling_interface_protocols>
+- <https://en.wikipedia.org/wiki/OpenWrt>
+- <https://sternumiot.com/iot-blog/openwrt-how-it-works-challenges-and-alternatives/>
+- <https://teklager.se/en/knowledge-base/openwrt-4g-wwan-configuration/>

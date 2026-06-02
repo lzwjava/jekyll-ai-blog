@@ -42,9 +42,11 @@ openclaw agents add <name> \
 **Step 1: 在目标机器上安装 OpenClaw**
 
 使用以下命令安装：
+
 ```bash
 npm install -g openclaw@latest
 ```
+
 然后运行 `openclaw onboard --install-daemon` 进行引导式设置。
 
 **Step 2: 初始安装期间能否跳过 API keys？**

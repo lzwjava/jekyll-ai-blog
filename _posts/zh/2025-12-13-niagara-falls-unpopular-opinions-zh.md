@@ -30,9 +30,9 @@ type: note
 
 参考文献：
 
-- https://www.reddit.com/r/AskACanadian/comments/1f6rmo3/why_do_many_canadians_consider_niagara_falls_as/
-- https://www.reddit.com/r/travel/comments/13bmrts/niagara_falls_is_breathtaking_but/
-- https://globetrottergirls.com/niagara-falls-vs-niagara-on-the-lake/
-- https://www.businessinsider.com/niagara-falls-canada-photos-show-expectation-vs-reality
-- https://www.reddit.com/r/ontario/comments/12aey3c/niagara_falls_one_of_the_worst_tourist_traps_in/
-- https://www.reddit.com/r/geography/comments/1n4tva1/canadian_niagara_falls_seem_bigger_and_more/
+- <https://www.reddit.com/r/AskACanadian/comments/1f6rmo3/why_do_many_canadians_consider_niagara_falls_as/>
+- <https://www.reddit.com/r/travel/comments/13bmrts/niagara_falls_is_breathtaking_but/>
+- <https://globetrottergirls.com/niagara-falls-vs-niagara-on-the-lake/>
+- <https://www.businessinsider.com/niagara-falls-canada-photos-show-expectation-vs-reality>
+- <https://www.reddit.com/r/ontario/comments/12aey3c/niagara_falls_one_of_the_worst_tourist_traps_in/>
+- <https://www.reddit.com/r/geography/comments/1n4tva1/canadian_niagara_falls_seem_bigger_and_more/>

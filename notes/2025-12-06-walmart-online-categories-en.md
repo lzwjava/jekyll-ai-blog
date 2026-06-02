@@ -33,4 +33,5 @@ Walmart's online shop organizes its products into several major categories, maki
 These categories cover the vast majority of Walmart's online inventory, with thousands of products available for delivery or pickup. The exact layout may vary slightly by season or promotions, but this reflects the core structure.
 
 References:
+
 - [Walmart.com Shop by Department](https://www.walmart.com/cp/shop-by-department/976759)

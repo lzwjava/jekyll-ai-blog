@@ -39,6 +39,7 @@ GraalVM is an open-source high-performance runtime (JDK distribution) that suppo
 We'll use Java for this example, as it's GraalVM's primary language. Create a simple "Hello World" app, compile it, and run it.
 
 ### Step 1: Write the Code
+
 Create a file named `HelloWorld.java`:
 
 ```java
@@ -50,39 +51,51 @@ public class HelloWorld {
 ```
 
 ### Step 2: Compile
+
 Open a terminal in the directory with the file and run:
+
 ```
 javac HelloWorld.java
 ```
+
 This produces `HelloWorld.class`.
 
 ### Step 3: Run
+
 ```
 java HelloWorld
 ```
+
 Output:
+
 ```
 Hello, World from GraalVM!
 ```
 
 ### Advanced: Compile to Native Executable
+
 GraalVM's Native Image feature lets you build a standalone binary.
 
 1. Ensure Native Image is installed: `gu install native-image`.
 2. Generate a configuration (first run may require this):
+
    ```
    native-image --no-fallback -H:+ReportExceptionStackTraces HelloWorld
    ```
+
    - This creates `HelloWorld` (or `helloworld.exe` on Windows), a native binary.
    - On first build, it analyzes the app and may take a few minutes.
 
 3. Run the native binary:
+
    ```
    ./HelloWorld
    ```
+
    Output is the same, but it starts instantly with low memory use.
 
 ## Tips for Using GraalVM
+
 - **Switching JDKs**: Use SDKMAN! (`sdk install java 22.0.2-graal`) for easy management.
 - **Multi-Language**: Run Node.js code with `node` from GraalVM, or Python with `python`.
 - **Performance**: Enable GraalVM's JIT with `-XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler`.

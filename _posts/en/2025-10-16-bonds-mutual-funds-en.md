@@ -11,12 +11,15 @@ type: note
 ---
 
 ### What is a Bond?
+
 A bond is a type of fixed-income investment where you lend money to a borrower—such as a government, municipality, or corporation—for a set period of time. In return, the issuer promises to pay you periodic interest (known as coupon payments) and repay the principal amount (the original loan) when the bond matures. Bonds are generally considered lower-risk than stocks because they provide predictable income, but their value can fluctuate with interest rates and credit risk of the issuer.
 
 ### What is a Mutual Fund?
+
 A mutual fund (also called a unit trust in some regions like Hong Kong) is an investment vehicle that pools money from multiple investors to create a diversified portfolio of assets, such as stocks, bonds, or money market instruments. It's professionally managed by a fund manager who buys and sells securities on behalf of the investors. You own shares in the fund proportional to your investment, and the fund's value rises or falls based on the performance of its underlying assets. Mutual funds offer diversification and accessibility but come with management fees.
 
 ### Major Functionalities in the HSBC HK Mobile Banking App
+
 The HSBC HK Mobile Banking app (refreshed in 2025) provides a seamless platform for everyday banking and investments tailored for Hong Kong customers. Key features include:
 
 - **Account Management**: View balances, up to 24 months of transaction history, and request details for accounts like HKD Passbook Savings.

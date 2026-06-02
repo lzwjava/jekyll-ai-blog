@@ -15,6 +15,7 @@ This passage outlines the key tasks for strengthening and innovating social gove
 ## (1) Innovating Social Governance Systems
 
 The goal is to improve the social governance system characterized by:
+
 - **Party committee leadership**
 - **Government responsibility**
 - **Social collaboration**
@@ -26,6 +27,7 @@ This aims to enhance governance through socialization, legalization, intelligenc
 ## (2) Improving Social Governance Methods
 
 The approach emphasizes four key principles:
+
 - **Systematic governance** - taking a holistic approach
 - **Law-based governance** - following legal frameworks
 - **Source governance** - addressing root causes
@@ -34,6 +36,7 @@ The approach emphasizes four key principles:
 ## (3) Strengthening Mechanisms for Preventing and Resolving Social Conflicts
 
 This includes:
+
 - Improving early warning systems for social conflict detection
 - Establishing risk assessment mechanisms for major decisions affecting social stability
 - Developing diversified dispute resolution mechanisms
@@ -42,6 +45,7 @@ This includes:
 ## (4) Building Social Psychological Service Systems
 
 Focus areas include:
+
 - Strengthening ideological and political work
 - Promoting socialist core values throughout society
 - Improving mechanisms that punish wrongdoing and promote good deeds
@@ -50,6 +54,7 @@ Focus areas include:
 ## (5) Strengthening Community Governance Systems
 
 Key initiatives involve:
+
 - Decentralizing resources, services, and management to the community level
 - Empowering communities with responsibilities, authority, and resources
 - Providing precise and efficient services to residents

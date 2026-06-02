@@ -22,6 +22,7 @@ brew install ncdu
 ```
 
 On Linux:
+
 ```bash
 sudo apt install ncdu    # Debian/Ubuntu
 sudo yum install ncdu    # Red Hat/CentOS
@@ -32,21 +33,25 @@ sudo yum install ncdu    # Red Hat/CentOS
 ## Basic Usage
 
 **Scan your entire home directory:**
+
 ```bash
 ncdu ~
 ```
 
 **Scan a specific folder:**
+
 ```bash
 ncdu ~/Downloads
 ```
 
 **Scan the entire system (requires sudo):**
+
 ```bash
 sudo ncdu /
 ```
 
 **Exclude certain directories (faster scan):**
+
 ```bash
 ncdu --exclude node_modules --exclude .git ~/Projects
 ```
@@ -70,6 +75,7 @@ When ncdu launches, you'll see something like this:
 ```
 
 **What each column means:**
+
 - **Left number** = Size of that folder/file
 - **Bar graph** = Visual representation of relative size
 - **Folder/file name** = The path
@@ -118,6 +124,7 @@ ncdu ~
 ```
 
 Great for finding "mystery space hogs." Common culprits:
+
 - `~/Library/Caches` — Old app caches (safe to delete)
 - `~/Library/Logs` — Accumulated logs
 - `~/Downloads` — Old files you forgot about
@@ -127,6 +134,7 @@ Great for finding "mystery space hogs." Common culprits:
 ### 3. **Find Large Files (Not Just Folders)**
 
 By default, ncdu shows folders. To see individual large **files**:
+
 1. Press `→` to expand a folder
 2. Look for files with large sizes
 3. Files show without a trailing `/`
@@ -160,6 +168,7 @@ ncdu ~ --output results.txt
 ```
 
 Then view it later:
+
 ```bash
 ncdu --file results.txt
 ```
@@ -199,6 +208,7 @@ ncdu ~/Library
 ```
 
 Navigate to:
+
 - `Caches` — Old app cache files (often safe to delete)
 - `Logs` — Accumulated system logs
 - `Application Support` — App-specific data (be careful here)
@@ -206,6 +216,7 @@ Navigate to:
 ### Tip 2: Find Duplicate Files
 
 While ncdu doesn't find duplicates directly, you can spot patterns:
+
 ```bash
 ncdu ~/Downloads
 ```
@@ -215,6 +226,7 @@ Look for multiple copies of movies, archives, or installers.
 ### Tip 3: Monitor Size Growth Over Time
 
 Export results at different times:
+
 ```bash
 ncdu --output ~/Desktop/scan_$(date +%Y%m%d).txt ~
 ```
@@ -224,6 +236,7 @@ Compare outputs later to see what grew.
 ### Tip 4: Use with `find` for Surgical Deletion
 
 Find all files larger than 1GB:
+
 ```bash
 find ~ -size +1G -type f
 ```
@@ -285,16 +298,19 @@ Navigate into each project, check `node_modules` folder size, delete if you have
 ## Troubleshooting
 
 **ncdu hangs on certain folders?**
+
 ```bash
 ncdu --exclude .git --exclude node_modules ~
 ```
 
 **Permission denied errors?**
+
 ```bash
 sudo ncdu ~
 ```
 
 **Want to scan but NOT have delete permissions?**
+
 ```bash
 ncdu -r ~    # Read-only mode
 ```
@@ -312,6 +328,7 @@ ncdu --one-file-system ~         # Don't follow mounts
 ```
 
 **Inside ncdu:**
+
 - **↑↓** = navigate
 - **→** = expand folder
 - **←** = back

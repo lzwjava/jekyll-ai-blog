@@ -13,6 +13,7 @@ The `com.yammer.metrics` library, originally developed by Yammer, is now part of
 ---
 
 ### Step 1: Add the Dependency
+
 Since `com.yammer.metrics` has evolved into Dropwizard Metrics, you should use the Dropwizard Metrics library. If you're using Maven, add the following dependency to your `pom.xml`:
 
 ```xml
@@ -24,6 +25,7 @@ Since `com.yammer.metrics` has evolved into Dropwizard Metrics, you should use t
 ```
 
 Depending on your needs, you might also want additional modules, such as:
+
 - `metrics-jvm` for JVM-related metrics.
 - `metrics-httpclient` for HTTP client metrics.
 - `metrics-jersey` for integration with the Jersey web framework.
@@ -33,6 +35,7 @@ Check the [Dropwizard Metrics documentation](https://metrics.dropwizard.io/) for
 ---
 
 ### Step 2: Create a Metric Registry
+
 The `MetricRegistry` is the central place where all metrics are stored. You typically create one instance for your application:
 
 ```java
@@ -48,9 +51,11 @@ public class MyApplication {
 ---
 
 ### Step 3: Use Different Types of Metrics
+
 Dropwizard Metrics supports several types of metrics, each suited to different monitoring needs:
 
 #### **Counters**
+
 Counters are used to track values that can increase or decrease (e.g., number of requests processed).
 
 ```java
@@ -63,6 +68,7 @@ counter.dec();  // Decrement by 1
 ```
 
 #### **Gauges**
+
 Gauges provide a snapshot of a value at a specific moment (e.g., current queue size). You define a gauge by implementing the `Gauge` interface:
 
 ```java
@@ -77,6 +83,7 @@ registry.register("queue.size", new Gauge<Integer>() {
 ```
 
 #### **Histograms**
+
 Histograms track the statistical distribution of values (e.g., request sizes):
 
 ```java
@@ -87,6 +94,7 @@ histogram.update(150); // Record a value
 ```
 
 #### **Meters**
+
 Meters measure the rate of events (e.g., requests per second):
 
 ```java
@@ -97,6 +105,7 @@ meter.mark(); // Record an event
 ```
 
 #### **Timers**
+
 Timers measure both the rate and duration of events (e.g., request processing time):
 
 ```java
@@ -115,6 +124,7 @@ try {
 ---
 
 ### Step 4: Report Metrics
+
 To make metrics useful, you need to report them somewhere. Dropwizard Metrics supports various reporters, such as console, JMX, or Graphite. Here’s an example of a console reporter that logs metrics every 10 seconds:
 
 ```java
@@ -133,6 +143,7 @@ For production use, consider integrating with systems like Graphite or exposing 
 ---
 
 ### Step 5: Integrate with Frameworks (Optional)
+
 If you’re using a web framework like Jersey, you can use the `metrics-jersey` module to automatically instrument your endpoints. Additionally, annotations like `@Timed` or `@Counted` can simplify metric collection:
 
 ```java
@@ -153,6 +164,7 @@ Add the `metrics-jersey` dependency and configure it with your Jersey applicatio
 ---
 
 ### Best Practices
+
 - **Naming Conventions**: Use a hierarchical naming scheme for clarity (e.g., `com.example.myapp.requests.total`).
 - **Performance**: Be cautious with the number and frequency of metrics, as excessive collection can impact performance.
 - **Documentation**: Refer to the [Dropwizard Metrics documentation](https://metrics.dropwizard.io/) for up-to-date examples and advanced features.
@@ -160,6 +172,7 @@ Add the `metrics-jersey` dependency and configure it with your Jersey applicatio
 ---
 
 ### Example: Putting It All Together
+
 Here’s a simple example combining several concepts:
 
 ```java
@@ -198,4 +211,5 @@ This code tracks a counter and a timer, reporting results to the console every s
 ---
 
 ### Final Notes
+
 The `com.yammer.metrics` library has evolved into Dropwizard Metrics, so always use the latest version from the `io.dropwizard.metrics` group. If you’re starting a new project, you might also explore modern alternatives like Micrometer, but Dropwizard Metrics remains a solid choice for many Java applications. For more details, check the official documentation!

@@ -18,6 +18,7 @@ No, this is usually **not possible by default** in a typical OpenWrt setup, and 
 Here's why it fails and what you can do:
 
 ### Typical Home Setup (Most Common Reason It Fails)
+
 - Main router: 192.168.1.1 (or similar)
 - OpenWrt WAN port connects to main router LAN → OpenWrt gets private WAN IP (e.g., 192.168.1.50)
 - OpenWrt LAN: 192.168.2.1 (or whatever you set; should be different subnet from main router)
@@ -36,7 +37,7 @@ This is normal Linux routing behavior (not specific to OpenWrt). NAT loopback / 
 ### Solutions (Pick One)
 
 1. **Recommended & Simplest**
-   Just use the **LAN IP** of OpenWrt (e.g., http://192.168.2.1 or http://openwrt.lan).
+   Just use the **LAN IP** of OpenWrt (e.g., <http://192.168.2.1> or <http://openwrt.lan>).
    There's almost never a good reason to force access via the WAN IP from inside your own network.
 
 2. **If you really want to access via the WAN IP**
@@ -71,7 +72,7 @@ In almost all cases you should simply use the LAN IP of the OpenWrt router from 
 
 **References:**
 
-- https://forum.openwrt.org/t/solved-routed-ap-from-wan-instead-of-lan/228578
-- https://openwrt.org/docs/guide-user/network/openwrt_as_routerdevice
-- https://forum.openwrt.org/t/22-03-2-nat-reflection-hairpinning/146458
-- https://www.reddit.com/r/openwrt/comments/1gmsr17/how_to_access_my_openwrt_router_from_wan_when_im
+- <https://forum.openwrt.org/t/solved-routed-ap-from-wan-instead-of-lan/228578>
+- <https://openwrt.org/docs/guide-user/network/openwrt_as_routerdevice>
+- <https://forum.openwrt.org/t/22-03-2-nat-reflection-hairpinning/146458>
+- <https://www.reddit.com/r/openwrt/comments/1gmsr17/how_to_access_my_openwrt_router_from_wan_when_im>

@@ -88,18 +88,21 @@ XOR can also be viewed as **addition modulo 2**. As a result, XOR gates are used
 ### 7. Practical Applications
 
 #### a) Swap Two Variables Without Temporary Storage
+
 Using XOR, values can be swapped without any auxiliary storage:
+
 ```
 a = a XOR b
 b = b XOR a
 a = a XOR b
 ```
 
-
 #### b) Encryption / Decryption
+
 XOR is heavily used in cryptography for combining plaintext with a key to produce ciphertext. Since XOR is reversible — `(A ⊕ B) ⊕ B = A` — it ensures symmetric encryption and decryption.
 
 #### c) Finding the Unique Element in an Array
+
 One of the most common uses of XOR in programming is finding the unique element in an array where every other element appears twice. XOR-ing all elements causes duplicates to cancel out (since `x ⊕ x = 0`), leaving only the unique number.
 
 ```python
@@ -110,15 +113,19 @@ for num in nums:
 ```
 
 #### d) Error Detection (Parity Checking)
+
 XOR operations are used in parity checking to determine if the number of bits set to 1 in a binary word is odd or even. This is often used in computer memory systems to detect errors.
 
 #### e) RAID Storage Systems
+
 XOR is used in RAID 3–6 for creating parity information. If any one of three hard drives is lost, the lost byte can be reconstructed by XOR-ing bytes from the remaining drives.
 
 #### f) Bit Flipping / Masking
+
 XOR can be used to toggle specific bits in a byte. Using a mask with XOR flips only the targeted bits while leaving others unchanged.
 
 #### g) Random Number Generation
+
 XOR is used in generating entropy pools for hardware random number generators. The XOR operation preserves randomness, meaning a random bit XORed with a non-random bit will result in a random bit. Multiple sources of potentially random data can be combined using XOR, and the unpredictability of the output is guaranteed to be at least as good as the best individual source.
 
 ---

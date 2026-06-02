@@ -93,6 +93,7 @@ rules:
 ```
 
 **Steps to activate TUN on macOS:**
+
 1. In Clash Verge / Mihomo / similar GUI → Settings → TUN Mode → Enable (grant admin rights, install helper once).
 2. Restart Clash.
 3. Set mode to **Rule** (or Global if you want no exceptions).

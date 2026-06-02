@@ -22,6 +22,7 @@ Yes, this is **extremely important** — and it's actually a well-established pr
 ### Why This Matters
 
 When an agent solves a hard problem through multiple iterations, it has done something valuable:
+
 - Explored a **solution space** you'd otherwise re-explore from scratch
 - Found the **exact sequence** that works for *your specific environment*
 - Eliminated dead ends through **real trial and error**

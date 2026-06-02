@@ -19,11 +19,13 @@ The PDF "pysonar-slides.pdf" appears to be a presentation slide deck titled "Sta
 ### Key Sections and Content
 
 #### Overview (Pages 1-2)
+
 - Describes the internships and motivation.
 - Highlights the Grok Project's scope.
 - Notes that while the goal started simple (code browsing), Python's dynamic nature made it challenging.
 
 #### Achieved Goals (Page 3)
+
 - Built high-accuracy semantic indexes.
 - Detected and reported semantic bugs, such as:
   - Type errors.
@@ -32,6 +34,7 @@ The PDF "pysonar-slides.pdf" appears to be a presentation slide deck titled "Sta
   - And others.
 
 #### Problems Faced by Static Analysis (Pages 5-23)
+
 The presentation outlines four main problems with solutions:
 
 1. **Problems with Dynamic Typing (Pages 6-9)**:
@@ -66,6 +69,7 @@ The presentation outlines four main problems with solutions:
 Pages 4 and 24-28 appear blank or transitional.
 
 #### Actual Code of Main Interpreter (Pages 29-33)
+
 - Provides Python code snippets for the type inferencer (`infer` function).
 - Handles modules, names, lambdas, calls, etc.
 - Uses environment (`env`) and stack (`stk`) for recursion detection.
@@ -74,6 +78,7 @@ Pages 4 and 24-28 appear blank or transitional.
 Pages 34-39 appear blank or transitional.
 
 #### Recursion Detection (Pages 40-54)
+
 - Uses factorial example (`def fact(n): ...`) to illustrate.
 - Assumption: Same call site with same argument types yields same output type (or nontermination).
 - Detects loops by checking if a `<call site, arg type>` pair is already on the stack.
@@ -81,11 +86,13 @@ Pages 34-39 appear blank or transitional.
 - Ultimately infers types like `fact :: int -> int`.
 
 #### Correctness of Recursion Detection (Pages 55-58)
+
 - Views programs as dynamic circuits.
 - Call sites are "conjunction points" with deterministic futures.
 - If a `<call site, arg type>` repeats on the path, it's a loop.
 
 #### Related Work (Page 59)
+
 - Similar to control-flow analyses (CFAs) but simpler (no explicit CFG or stack management).
 - "CFG" is implicit and dynamic.
 - Doesn't annotate AST; leverages host language recursion.
@@ -93,11 +100,13 @@ Pages 34-39 appear blank or transitional.
 - Akin to Near Concrete Interpretation (NCI), but different recursion detection.
 
 #### Connections to Deeper Theories (Page 60)
+
 - Essentially a simple supercompilation.
 - Similar to ACL2 theorem prover techniques.
 - Tracks only type info; efficient termination (no homeomorphic embedding), but may be less accurate (false negatives).
 
 #### Limitations (Page 61)
+
 - Requires all source code (no bytecode processing; built-ins mocked).
 - No value/range tracking for numbers.
 - Ignores heap side-effects on typing.
@@ -106,16 +115,19 @@ Pages 34-39 appear blank or transitional.
 - Unfriendly error reports for deep bugs.
 
 #### Applicability (Page 62)
+
 - General method for type inference/static analysis.
 - Applicable to any language, but most useful for dynamic ones (static languages are easier/modular with annotations).
 - Involves trade-offs.
 
 #### Availability (Page 63)
+
 - 2009: "Jython Indexer" (Java, open-source; modular unification like HM; fast but limited; used at Google; contributed to Jython).
 - 2010: "PySonar" (Java, not open-source; inter-procedural; resolves most names; detects deep bugs; slow).
 - 2011: "mini-pysonar" (Python, open-source on GitHub; essential parts only).
 
 #### Possible Future Work (Page 64)
+
 - Apply to other (simpler) languages.
 - Publish a paper on the method.
 - Derive related ideas.

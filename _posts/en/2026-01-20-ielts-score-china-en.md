@@ -28,12 +28,14 @@ Here are the key points about IELTS 6.5 in the Chinese context (based on recent 
 - In other words: **6.5 is clearly above average** in China, but it is **not an elite/high-score** result anymore. It has become a fairly common target score for many Chinese applicants to mid-tier universities in Australia, UK, Canada, etc.
 
 Context and real-world meaning in China:
+
 - Many 985/211 university students (especially English majors or those applying for top-100 global universities) now aim for **7.0+** (sometimes 7.5 in individual bands).
 - For ordinary applicants or non-English-major undergraduates, **6.5** is still viewed as a good and respectable result — strong enough for many programs that require 6.0–6.5 overall (with no band below 6.0).
 - On Chinese social media (Xiaohongshu, Zhihu, Weibo, Douyin), you will see many people celebrate 6.5 as a “合格线” (passing line) or “还不错” (pretty good), while 7.0+ is celebrated much more intensely.
 - Immigration points (e.g., Canada Express Entry, Australia skilled migration) usually give more points at 7.0+, so 6.5 is competent but not maximum points.
 
 **Summary**
+
 - 6.5 is **above average** and useful for many purposes in China.
 - It is **not top 30%** — more like **top 45–50%** among Chinese test-takers.
 - If your target schools or visa programs only need 6.0–6.5, you are in a safe zone. If they require 7.0 or higher (very common for top universities or competitive scholarships), you would benefit from improving, especially Speaking and Writing.

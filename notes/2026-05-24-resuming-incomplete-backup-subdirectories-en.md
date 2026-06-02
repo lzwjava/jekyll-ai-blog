@@ -32,8 +32,9 @@ type: note
 ========================================================================
 
 It will:
-  - Skip originals/0-8,B,D,F,C (already complete, rsync detects no diff)
-  - Resume originals/9, A, E (only transfers the 233 missing files)
-  - Takes ~5 minutes
+
+- Skip originals/0-8,B,D,F,C (already complete, rsync detects no diff)
+- Resume originals/9, A, E (only transfers the 233 missing files)
+- Takes ~5 minutes
 
 After that, everything should show OK in the verify step.

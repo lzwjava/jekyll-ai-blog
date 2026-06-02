@@ -19,6 +19,7 @@ Richard S. Sutton is a prominent Canadian computer scientist widely regarded as 
 Born in the late 1950s in the United States, Sutton earned his PhD from the University of Massachusetts Amherst, where he collaborated closely with Andrew G. Barto. Influenced by earlier ideas from researchers like A. Harry Klopf, Sutton and Barto pioneered the mathematical foundations of RL in the 1980s, shifting it from traditional optimal control and dynamic programming to methods that handle unknown environments through trial-and-error learning.
 
 His major contributions include:
+
 - Temporal-difference (TD) learning, a core algorithm for predicting and learning from incremental experience.
 - Actor-critic methods and policy gradient algorithms, essential for modern deep RL.
 - Architectures like Dyna (integrating model-based planning with learning) and Horde (for scalable multi-goal learning).

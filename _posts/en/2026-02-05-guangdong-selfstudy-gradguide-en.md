@@ -17,6 +17,7 @@ I'll help you understand how to complete each step of the graduation process in 
 ### **Step 1: 确认信息 (Confirm Information)**
 
 Before applying for graduation, log into the system and verify:
+
 - Your name (姓名)
 - Gender (性别)
 - ID number (身份证号码)
@@ -26,6 +27,7 @@ Before applying for graduation, log into the system and verify:
 Only proceed after confirming all information is accurate.
 
 **For undergraduate students**: You must also register your prior academic credentials (前置学历信息) before applying:
+
 - Upper semester: Register by June 1st
 - Lower semester: Register by December 1st
 
@@ -34,12 +36,13 @@ Only proceed after confirming all information is accurate.
 ### **Step 2: 申请毕业并采集毕业证照 (Apply for Graduation & Collect Graduation Photo)**
 
 **Timeline**:
+
 - **Upper semester**: Mid-June (typically June 12-17)
 - **Lower semester**: Mid-December (typically December 12-17)
 
 **Process**:
 
-1. **Log into the system**: https://www.eeagd.edu.cn/selfec/
+1. **Log into the system**: <https://www.eeagd.edu.cn/selfec/>
    - Click "考生入口" (Student Entrance)
    - Navigate to the graduation management module (毕业管理模块)
 
@@ -82,6 +85,7 @@ After your graduation photo is approved:
 **Where**: Your selected local examination office (市考办/区招考办)
 
 **Materials to bring**:
+
 - Your ID card (original and photocopy) (身份证原件及复印件)
 - Printed《毕业生登记表》(Graduate Registration Form)
 - Any special materials required by your program

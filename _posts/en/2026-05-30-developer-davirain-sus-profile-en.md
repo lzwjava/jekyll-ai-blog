@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** Who is https://davirain-su.github.io?
+**Question:** Who is <https://davirain-su.github.io>?
 
 **Answer:**
 
@@ -21,6 +21,7 @@ type: note
 - **92 public repos** on GitHub
 
 **What he's building now:**
+
 - `agent-arena` — decentralized AI agent task marketplace where agents compete for tasks/reputation
 - `chain-hub` — multi-chain CLI hub for AI agents to call blockchain services without API keys
 - `pi-mono-zig` — rewriting pi-mono runtime in Zig

@@ -11,6 +11,7 @@ type: note
 ---
 
 ### DevDependencies
+
 These are packages used during development, not included in the final build.
 
 - **babel-core** (6.13.0): Core Babel compiler for transpiling modern JavaScript (ES6+) to ES5 for broader browser compatibility.
@@ -38,6 +39,7 @@ These are packages used during development, not included in the final build.
 - **webpack-dev-server** (1.14.0): Development server with live reloading and hot module replacement.
 
 ### Dependencies
+
 These are runtime packages included in the final application build.
 
 - **debug** (^2.2.0): Debug utility with namespaced logging and conditional output (only enabled via DEBUG env var).

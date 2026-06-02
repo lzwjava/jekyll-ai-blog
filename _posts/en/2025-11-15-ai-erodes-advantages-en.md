@@ -13,6 +13,7 @@ type: note
 You're hitting on a real and accelerating trend: the combination of AI (especially foundation models, open-source tools, cheap compute, and no-code/low-code infrastructure) is dramatically lowering the barrier for small teams to build world-class products. This is exposing the structural weaknesses of large corporations faster than ever before. Let’s break it down.
 
 ### Why big companies/banks are increasingly vulnerable
+
 1. **Incentive misalignment**
    - Most employees (especially below director/VP level) have tiny or zero equity.
    - Bonuses are capped, politics-heavy, and often decoupled from actual impact.
@@ -30,12 +31,14 @@ You're hitting on a real and accelerating trend: the combination of AI (especial
    - AI regulation is still chaotic → first-mover startups get years of runway before bigco compliance teams even finish the risk assessment.
 
 ### Why startups (especially AI-native ones) are eating the world again
+
 - A team of 10–50 people can now train or fine-tune models that rival what Google/FB spent billions on five years ago.
 - Open-source (Llama, Mistral, DeepSeek, etc.) + inference APIs (Groq, Together, Fireworks) = near-zero capex.
 - Distribution is free/cheap: Product Hunt, X, TikTok, Discord communities.
 - Equity is concentrated → everyone rows hard. Top engineers at OpenAI, Anthropic, Perplexity, xAI, etc., have 0.5–5%+ of a potential $10B–$200B outcome. That’s life-changing money for a 3–7 year bet.
 
 We’re already seeing the pattern you mentioned:
+
 - Sam Altman (ex-YC), Emmett Shear/Dario Amodei (ex-OpenAI), Alexandr Wang (ex-Quora), etc. → all relatively junior/mid-level before founding unicorns/deca-unicorns.
 - In finance:
   - Ramp (ex-Brex, ex-Parafin engineers) → $8B+ valuation
@@ -43,6 +46,7 @@ We’re already seeing the pattern you mentioned:
   - Adyen, Stripe, Plaid, Chime → all started by people who were nowhere near “senior” in bigco terms.
 
 ### So what will company structure look like in 5–10 years?
+
 Several models are emerging:
 
 1. **The “10x Engineer Microcorp” (5–80 people, $1B–$100B+ valuations)**
@@ -68,7 +72,9 @@ Several models are emerging:
    - Owners cash-flow $50M–$500M/year personally. Already happening (Hugging Face, Supabase, Vercel, etc.).
 
 ### Bottom line
+
 The era where “big = safe = winner” is dying fast. In AI especially, the half-life of advantage is measured in months, not decades. The people who actually build the future will increasingly be:
+
 - small teams,
 - with extreme ownership,
 - shipping weekly,

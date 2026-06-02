@@ -16,7 +16,8 @@ type: note
 
 我优先考虑了在 SWE-Bench、HumanEval 或 Aider 等编程基准测试中得分高，同时价格低廉或免费的模型。模型 ID 已格式化，便于在您的 `config.toml` 中使用（例如 `model = "provider/model-name"`）。有关当前确切定价，请查阅 OpenRouter 的模型页面，因为费率可能会有小幅波动。
 
-#### 首选推荐：
+#### 首选推荐
+
 - **Grok Code Fast (xAI)**
   模型 ID：`xai/grok-code-fast`
   推荐理由：在 OpenRouter 的 LLM 编程排行榜上名列前茅，在速度和代理任务方面表现出色（例如，在国际信息学奥林匹克竞赛中排名第一）。基础使用通常免费，使其成为该平台上使用最广泛的模型。非常适合迭代式编程工作流。

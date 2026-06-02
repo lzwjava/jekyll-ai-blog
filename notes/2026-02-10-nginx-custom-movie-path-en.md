@@ -28,7 +28,7 @@ server {
 }
 ```
 
-### Alternative version (using `root` instead of `alias` – also very common):
+### Alternative version (using `root` instead of `alias` – also very common)
 
 ```nginx
 server {
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-### Most recommended version (clean + safe):
+### Most recommended version (clean + safe)
 
 ```nginx
 server {
@@ -73,7 +73,7 @@ After changing the config:
    or
    `sudo nginx -s reload`
 
-Now http://your-server-ip/movies/ should show the contents of `/home/lzw/qDownloads/`.
+Now <http://your-server-ip/movies/> should show the contents of `/home/lzw/qDownloads/`.
 
 **References:**
 

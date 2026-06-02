@@ -12,6 +12,7 @@ type: note
 是的，这是预期的情况——**macOS Recovery**（你通过启动选项或在 M2 上按住电源键进入的模式）运行的是一个非常精简的环境，以保持轻量和安全。许多完整的系统命令（如位于 `/usr/sbin/networksetup` 的 `networksetup`）**并未包含**在 Recovery 分区的 PATH 或二进制文件中。这就是为什么你会看到 "command not found"。
 
 ### 快速确认
+
 在你当前的 Terminal 中运行以下命令，查看实际可用的内容：
 
 ```bash
@@ -21,6 +22,7 @@ ls /usr/sbin
 （或者 `ls /bin`，`ls /usr/bin`）——你会发现与正常的 macOS 相比，这里的列表非常短。其中没有 `networksetup`。
 
 ### 清除 Proxy 设置的替代方案
+
 既然我们在这里无法使用 `networksetup`，以下是当前状态下的最佳选择：
 
 1. **最简单且最有效的：先进入 Safe Mode (通常会绕过 Proxy)**
@@ -55,9 +57,11 @@ ls /usr/sbin
 
    - 不幸的是，正确编辑 plist 需要 `defaults` 命令或 `plutil`，这些在 Recovery 中可能也缺失。
    - 如果 `defaults` 可用（尝试 `defaults read`），你可以尝试类似操作：
+
      ```bash
      defaults delete /Volumes/Macintosh\ HD/Library/Preferences/SystemConfiguration/preferences GlobalProxies
      ```
+
      但这取决于运气——许多工具都不存在，所以经常会失败。
 
    如果挂载/编辑操作不顺，请跳到选项 1 或 2。

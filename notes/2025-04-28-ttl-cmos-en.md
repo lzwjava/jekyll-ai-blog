@@ -13,6 +13,7 @@ type: note
 TTL was developed in the early 1960s by Texas Instruments, with the 7400 series introduced in 1964 becoming an industry standard. TTL represented a significant advancement from earlier technologies like DTL (Diode-Transistor Logic).
 
 Key developments in TTL history:
+
 - Originally created by James L. Buie at TRW in 1961
 - Commercialized by Texas Instruments with their 5400/7400 series
 - Standard TTL evolved into improved variants:
@@ -30,6 +31,7 @@ TTL dominated digital logic from the late 1960s through the 1970s and was used i
 CMOS technology was invented in 1963 by Frank Wanlass at Fairchild Semiconductor. The technology became commercially significant in the 1970s and eventually surpassed TTL.
 
 Key developments in CMOS history:
+
 - Patent filed by Frank Wanlass in 1963
 - RCA developed the 4000 series CMOS logic family in the early 1970s
 - Initially slower than TTL but offered significantly lower power consumption
@@ -37,6 +39,7 @@ Key developments in CMOS history:
 - Advanced CMOS (AC/ACT) further improved performance in the late 1980s
 
 CMOS eventually became the dominant technology for several reasons:
+
 - Much lower power consumption, particularly when idle
 - Better noise immunity
 - Wider operating voltage range

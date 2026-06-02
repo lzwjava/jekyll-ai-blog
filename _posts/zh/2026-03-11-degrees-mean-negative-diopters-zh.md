@@ -28,6 +28,7 @@ type: note
 > **100 degrees = 1.00 diopter (D)**
 
 因此：
+
 - 150 degrees = **1.50 D**
 - 200 degrees = **2.00 D**
 - 500 degrees = **5.00 D**

@@ -54,5 +54,6 @@ The real power users on HuggingFace by followers are HF employees + a small tier
 **Note:** The live leaderboard is at [huggingface.co/spaces/Weyaxi/followers-leaderboard](https://huggingface.co/spaces/Weyaxi/followers-leaderboard) — worth bookmarking if you want real-time data.
 
 References:
+
 - [Model statistics of the 50 most downloaded entities on Hugging Face](https://huggingface.co/blog/lbourdois/huggingface-models-stats)
 - [Followers Leaderboard Space by Weyaxi](https://huggingface.co/spaces/Weyaxi/followers-leaderboard)

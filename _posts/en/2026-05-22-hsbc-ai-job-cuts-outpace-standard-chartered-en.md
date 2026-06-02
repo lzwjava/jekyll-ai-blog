@@ -53,6 +53,7 @@ Every single one is targeting the same layer: **back-office ops, compliance proc
 The specific use cases being automated — false positive reduction in AML transaction monitoring, compliance document review, internal reporting — are exactly the systems you'd be building as an AI engineer at a global bank. The headcount being cut *funds* the AI engineering budget. You're not just adjacent to this trend; you're the direct beneficiary of the reallocation.
 
 **References:**
+
 - [HSBC plans to cut 20,000 jobs, to be taken by AI — American Bazaar](https://americanbazaaronline.com/2026/03/20/hsbc-plans-to-cut-20000-jobs-to-be-taken-by-ai-477270/)
 - [HSBC CEO urges staff to embrace AI amid plans to cut 20,000 jobs — Crypto Briefing](https://cryptobriefing.com/hsbc-ceo-ai-job-cuts/)
 - [HSBC weighs deep job cuts as AI overhaul unfolds — Fox Business](https://www.foxbusiness.com/markets/hsbc-weighs-deep-job-cuts-ai-overhaul-unfolds-report)

@@ -116,7 +116,7 @@ def simulate_flip_flop():
                 break
 
     elif choice == "4":
-        ff = TFlipFlipFlop()
+        ff = TFlipFlop()
         print("\nT Flip-Flop: Enter T (0 or 1).")
         while True:
             T = get_binary_input("Enter T: ")

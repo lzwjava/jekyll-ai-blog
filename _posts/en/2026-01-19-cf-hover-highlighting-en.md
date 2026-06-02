@@ -24,6 +24,7 @@ When you look at a problem's sample input/output:
 - At the same time, the **corresponding part** in the **Output** section also gets highlighted with the same yellow background.
 
 This is a very helpful feature especially when:
+
 - There are many sample test cases
 - The input/output is large
 - You want to quickly see which output belongs to which input

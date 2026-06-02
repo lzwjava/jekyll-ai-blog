@@ -51,7 +51,9 @@ Based on recent rankings from sources like Forbes Fintech 50, CB Insights Fintec
 | **Mercury**    | San Francisco, USA | 2017 | $2B valuation | Banking for startups; API-driven accounts with 100K+ users. Gained traction post-SVB collapse with venture debt tools. |
 
 #### Rising Startups to Watch
+
 For fresher innovators (mostly under 5 years old, per CB Insights and Forbes):
+
 - **Bilt Rewards** (USA, 2021): Rent rewards without fees; 10M+ users earning points on housing.
 - **Parafin** (USA, 2020): SMB lender using cash flow data; $100M+ funded for underserved merchants.
 - **Synctera** (USA, 2019): BaaS platform for embedded banking; powers apps like Chime with compliance tools.
@@ -61,6 +63,7 @@ These selections represent a mix of established giants (e.g., Stripe, valued at 
 If you're interested in a specific region, category, or deeper dive (e.g., funding rounds), let me know!
 
 **References**
+
 - [CB Insights Fintech 100 2025](https://www.cbinsights.com/research/report/top-fintech-startups-2025/)
 - [Forbes Fintech 50 2025](https://www.forbes.com/lists/fintech50/)
 - [CNBC World's Top Fintech Companies 2025](https://www.cnbc.com/the-worlds-top-fintech-companies-2025/)

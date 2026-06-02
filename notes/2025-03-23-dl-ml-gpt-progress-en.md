@@ -74,7 +74,7 @@ Here's a detailed timeline of the major breakthroughs in deep learning, machine 
 
 - **2024: Agent Frameworks** - Systems incorporating planning, tool use, and memory allowed models to complete complex multi-step tasks.
 
-## Key Trends Throughout This Period:
+## Key Trends Throughout This Period
 
 1. **Scaling Laws**: Consistent performance improvements by increasing model size, dataset size, and computation.
 

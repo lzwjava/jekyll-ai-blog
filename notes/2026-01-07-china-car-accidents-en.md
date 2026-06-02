@@ -45,11 +45,13 @@ Answer:
    - For compulsory third-party liability insurance (交强险), it covers injuries/death to others; commercial insurance (商业险) covers more, including your own vehicle damage if you have it.
 
 ### Police Involvement and Fault Determination
+
 - Police will issue a responsibility determination (usually within 10 days, faster for simple cases).
 - Fault levels: full responsibility, primary, equal, secondary, or no responsibility.
 - If you disagree with the determination, you can apply for review (复核) within 3 days to the higher-level traffic authority.
 
 ### Claiming Compensation and Insurance Payout
+
 - With the police determination (or quick processing agreement), go to the at-fault party's insurance company for claims.
 - Provide: police report, photos, repair invoices, medical records (if injured).
 - Insurance pays within limits:
@@ -60,12 +62,14 @@ Answer:
 - If no agreement, sue in court.
 
 ### Repairing the Car
+
 - Get an estimate from a repair shop (preferably insurance-approved for direct settlement).
 - If claiming your own damage insurance, the insurer may inspect and pay the workshop directly.
 - For the other party's fault: Their insurance covers your repairs.
 - Pay upfront if needed, then reimburse via insurance with invoices.
 
 ### Important Notes
+
 - Hit-and-run or drunk driving: Severe penalties, including criminal charges.
 - Always report to insurance promptly to avoid claim denial.
 - In major cities, quick online/video processing is common for minor accidents.

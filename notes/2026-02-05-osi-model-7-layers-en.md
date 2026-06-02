@@ -21,24 +21,31 @@ Before OSI, different vendors created proprietary networking systems that couldn
 The model divides network communication into seven distinct layers, each with specific responsibilities. Data flows down through the layers on the sending side and up through the layers on the receiving side.
 
 ### Layer 7: Application Layer
+
 This is where network applications and end-user services operate. It provides network services directly to user applications like web browsers, email clients, and file transfer programs. Common protocols include HTTP/HTTPS (web), SMTP (email), FTP (file transfer), and DNS (domain name resolution). This layer handles things like resource sharing, remote file access, and network virtual terminals.
 
 ### Layer 6: Presentation Layer
+
 Often called the "translator," this layer handles data formatting, encryption, and compression. It ensures data sent from one system's application layer can be read by another system's application layer, regardless of different data representations. Functions include character encoding translation (like ASCII to EBCDIC), data encryption/decryption, and data compression. Examples include SSL/TLS encryption and data format standards like JPEG, MPEG, and GIF.
 
 ### Layer 5: Session Layer
+
 This layer establishes, manages, and terminates connections (sessions) between applications. It handles session checkpointing and recovery, allowing long transfers to resume if interrupted. It also manages dialog control, determining whether communication is half-duplex or full-duplex. Think of it as managing the conversation rules between two applications. Protocols include NetBIOS and RPC (Remote Procedure Call).
 
 ### Layer 4: Transport Layer
+
 This layer ensures reliable data transfer between end systems. It handles segmentation of data into smaller units, flow control to prevent overwhelming the receiver, error detection and recovery, and end-to-end connection management. The two primary protocols are TCP (Transmission Control Protocol), which provides reliable, connection-oriented communication with error checking and retransmission, and UDP (User Datagram Protocol), which provides faster, connectionless communication without guaranteed delivery. This layer uses port numbers to identify specific applications.
 
 ### Layer 3: Network Layer
+
 This layer handles logical addressing and routing, determining the best path for data to travel across networks. It deals with IP addressing, routing packets between networks, and fragmentation/reassembly of packets to fit different network sizes. The most important protocol is IP (Internet Protocol), along with routing protocols like OSPF, BGP, and RIP. Routers operate primarily at this layer, making forwarding decisions based on IP addresses.
 
 ### Layer 2: Data Link Layer
+
 This layer provides node-to-node data transfer and handles error detection/correction for the physical layer. It's often divided into two sublayers: LLC (Logical Link Control) and MAC (Media Access Control). It manages MAC addresses (physical hardware addresses), frames data for transmission, controls access to the physical medium, and provides error detection through techniques like CRC (Cyclic Redundancy Check). Switches operate at this layer. Common protocols include Ethernet, Wi-Fi (802.11), and PPP (Point-to-Point Protocol).
 
 ### Layer 1: Physical Layer
+
 This is the lowest layer, dealing with the actual physical transmission of raw bits over communication channels. It defines electrical signals, light pulses, or radio waves, cable specifications and connector types, voltage levels and timing, and physical topology (bus, star, ring). This includes cables (copper, fiber optic), network interface cards, hubs, and wireless transmission. Standards include Ethernet physical standards (10BASE-T, 100BASE-TX), USB, and Bluetooth physical specifications.
 
 ## How Data Flows Through the Layers

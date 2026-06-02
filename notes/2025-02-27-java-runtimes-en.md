@@ -63,11 +63,13 @@ To use `java.configuration.runtimes` in Visual Studio Code (VS Code) settings, y
    - This opens a view showing the JDKs available for your projects. Verify that your configured runtimes appear under the "Project JDKs" tab.
 
 ### How It Works
+
 - **Unmanaged Folders**: For projects without build tools (e.g., plain Java files), VS Code uses the `default` JDK specified in `java.configuration.runtimes`.
 - **Managed Projects (Maven/Gradle)**: For projects with build tools, the JDK version is determined by the build configuration (e.g., `pom.xml` or `build.gradle`), but VS Code will still recognize the runtimes listed here for compatibility.
 - **Language Server**: The Java Language Server (part of the Java extensions) requires JDK 17+ to run. You can specify this separately with `java.jdt.ls.java.home` if needed (e.g., `"java.jdt.ls.java.home": "C:/Program Files/Java/jdk-17.0.6"`).
 
 ### Example with Multiple JDKs
+
 If you’re on a Mac and have JDK 8 and 17 installed via Homebrew, your configuration might look like this:
 
 ```json
@@ -87,6 +89,7 @@ If you’re on a Mac and have JDK 8 and 17 installed via Homebrew, your configur
 ```
 
 ### Tips
+
 - Use the correct `name` format (`JavaSE-<version>`), matching the Java version (e.g., `JavaSE-11` for Java 11).
 - If you only have one JDK, you can still list it to ensure VS Code uses it explicitly.
 - To find your JDK path, run `java -version` in a terminal and check the installation directory (e.g., via `where java` on Windows or `which java` on Unix-like systems, then trace back to the JDK root).

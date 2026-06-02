@@ -50,6 +50,7 @@ Here is why it matters:
 The interviewer's comment — *"you are young talent, but still need to respect the older and seniors"* — is diplomatic language in a corporate Asian banking context that actually means: **"Your confidence is good, but watch how you express unconventional views in professional settings."**
 
 Challenging a well-established historical event (regardless of your personal belief) in a job interview signals to the interviewer that you may:
+
 - Bring controversial energy into a conservative team
 - Have difficulty reading social/professional contexts
 - Potentially cause friction with senior bank stakeholders

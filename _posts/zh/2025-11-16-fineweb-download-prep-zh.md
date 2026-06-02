@@ -15,8 +15,10 @@ type: note
 您提供的 URL 指向 FineWeb 数据集（CommonCrawl 数据的清洗子集）中的特定 Parquet 文件。该文件（来自 `CC-MAIN-2013-20` 转储的 `000_00000.parquet`）包含约 100 万行英文网页文本，每行都包含一个已经为语言模型训练预处理的 `text` 列（已去除 HTML、去重，并通过 Trafilatura 等工具进行质量过滤）。
 
 下载方式：
+
 - 使用 Hugging Face CLI：`huggingface-cli download HuggingFaceFW/fineweb data/CC-MAIN-2013-20/000_00000.parquet --local-dir ./fineweb_data`
 - 或通过 Python 使用 `huggingface_hub`：
+
   ```python
   from huggingface_hub import hf_hub_download
 
@@ -27,6 +29,7 @@ type: note
   )
   print(f"下载至: {file_path}")
   ```
+
 这将把约 500MB 的文件保存到本地（例如 `./fineweb_data/data/CC-MAIN-2013-20/000_00000.parquet`）。
 
 如需完整转储（数百个文件），请按照数据集文档使用 `snapshot_download`，但建议先从此单个文件开始测试。
@@ -38,6 +41,7 @@ FineWeb 的 `text` 列是可直接用于训练的纯文本——无需解析 HTM
 1. **安装依赖项**（如需要）：`pip install pandas pyarrow datasets`（假设您已为 NanoGPT 设置环境）。
 
 2. **加载 Parquet 文件并提取文本**：
+
    ```python
    import pandas as pd
    import os
@@ -66,6 +70,7 @@ FineWeb 的 `text` 列是可直接用于训练的纯文本——无需解析 HTM
    ```
 
    - **内存提示**：该文件约 100 万行，每段文本约 1-5k 字符。在 16GB 内存的机器上可正常加载。对于更大转储，使用 `pyarrow` 分块读取：
+
      ```python
      import pyarrow.parquet as pq
 
@@ -74,6 +79,7 @@ FineWeb 的 `text` 列是可直接用于训练的纯文本——无需解析 HTM
      ```
 
    - **流式传输方案**（无需完整下载）：使用 `datasets` 库迭代读取而不全量加载：
+
      ```python
      from datasets import load_dataset
 

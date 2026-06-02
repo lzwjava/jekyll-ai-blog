@@ -32,17 +32,20 @@ type: note
 ## 实用学习路径
 
 ### 第一阶段——先跑起来（第 1 周）
+
 ```bash
 # 先克隆并运行莎士比亚字符级演示
 git clone https://github.com/karpathy/nanoGPT
 python data/shakespeare_char/prepare.py
 python train.py config/train_shakespeare_char.py
 ```
+
 - 实时观察损失曲线下降
 - 注意损失何时趋于平缓
 - 尝试故意破坏一些东西（过大的学习率、极小的 batch），看看会发生什么
 
 ### 第二阶段——适配你的硬件（第 2 周）
+
 在 RTX 4070（12GB 显存）上，合理的配置如下：
 
 | 模型大小 | 批量大小 | 上下文长度 | 大致时间 |
@@ -54,6 +57,7 @@ python train.py config/train_shakespeare_char.py
 从小规模开始，验证设置无误，再逐步扩大规模。
 
 ### 第三阶段——阅读论文（并行进行，而非事后）
+
 在模型运行的同时阅读论文。推荐顺序如下：
 
 1. **Attention Is All You Need**（2017）——你正在训练的 Transformer 架构
@@ -62,7 +66,9 @@ python train.py config/train_shakespeare_char.py
 4. **Karpathy 的“Let’s build GPT”视频**——完美连接代码与论文
 
 ### 第四阶段——解读你的训练结果
+
 现在带着论文知识重新审视你自己的训练日志：
+
 - 为什么损失在第 12k 步趋于平缓？
 - 你的运行是否是计算最优的（Chinchilla 比率）？
 - 如果运行一个 350M 参数的模型，实际成本大约是多少？

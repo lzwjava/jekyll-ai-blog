@@ -20,11 +20,12 @@ Your dd command completed successfully (≈7 GB written), so the USB is now prep
 The plain `dd` method works for many older Windows versions, but for Windows 10/11 ISOs (especially recent builds like 25H2), it frequently causes problems: the installer boots but fails to detect internal drives (SSD/NVMe shows as missing). This happens because Windows expects a specific partition layout, FAT32 + NTFS split for large install.wim files (>4 GB), and proper boot files that dd does not create correctly.
 
 ### Recommended next step (safest & most reliable)
+
 1. **Do not try booting the current USB yet** — the chance of failure is high.
 2. Boot back into **Ubuntu** on your Lenovo XiaoXin 14.
 3. Install and use a better tool to re-create the bootable USB properly:
    - **Ventoy** (easiest and recommended in 2025–2026)
-     - Download Ventoy → https://www.ventoy.net (or from GitHub releases)
+     - Download Ventoy → <https://www.ventoy.net> (or from GitHub releases)
      - Run Ventoy → install it to your USB drive (it formats the USB and creates two partitions)
      - Simply copy your .iso file(s) to the Ventoy data partition
      - Done — Ventoy handles Windows 11 quirks automatically (including large .wim splitting if needed)
@@ -38,6 +39,7 @@ The plain `dd` method works for many older Windows versions, but for Windows 10/
    - Safely eject the USB.
 
 ### How to boot and install Windows 11 on Lenovo XiaoXin 14 IAH8
+
 Lenovo XiaoXin series (IdeaPad-like, Chinese domestic line) usually uses these keys:
 
 - Boot menu (recommended – one-time selection):
@@ -47,6 +49,7 @@ Lenovo XiaoXin series (IdeaPad-like, Chinese domestic line) usually uses these k
   Spam **Fn + F2** (or F2) at Lenovo logo → enter BIOS.
 
 **Common BIOS changes needed for Windows 11 install**
+
 1. Go to **Security** tab → set **Secure Boot → Disabled**
 2. Go to **Boot** tab:
    - Set **Boot Mode** / **Boot Priority** → **UEFI** (not Legacy/CSM unless you have special needs)
@@ -56,6 +59,7 @@ Lenovo XiaoXin series (IdeaPad-like, Chinese domestic line) usually uses these k
 Then restart and use **F12** to select the USB.
 
 ### Installation flow (once booted into Windows Setup)
+
 - Choose language (Chinese Simplified should appear by default since it's the GGK/China edition)
 - Click "Install now"
 - Enter product key if asked (skip if you activate later)
@@ -65,6 +69,7 @@ Then restart and use **F12** to select the USB.
 - Installation proceeds normally (may reboot several times)
 
 ### Quick troubleshooting checklist
+
 - USB not showing in boot menu? → Try different USB port (USB 3.0 preferred) / recreate with Ventoy
 - Drives not detected in installer? → Almost certainly dd issue → remake USB
 - Secure Boot error? → Disable it in BIOS

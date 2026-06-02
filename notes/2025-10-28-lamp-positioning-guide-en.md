@@ -11,13 +11,16 @@ type: note
 ---
 
 ### Understanding the Setup
+
 You're working on a laptop in the front driver's seat (or "main seat") of the car, with a 30 cm long, 360-degree rotatable lamp positioned in the rear seat (behind you). The goals are:
+
 - **Minimize screen glare**: Avoid direct light hitting the laptop screen, which could cause reflections and eye strain.
 - **Maximize car brightness**: Spread light to illuminate the dashboard, seats, and interior without dark spots.
 
 The lamp's short length (30 cm) limits its reach, so it works best as a gooseneck or clip-on style mounted on the rear seat headrest or armrest for stability. Focus on indirect lighting (bouncing off surfaces) to achieve even illumination while dodging the screen.
 
 ### Recommended Lamp Positioning
+
 Position the lamp base securely in the rear seat (e.g., clipped to the headrest facing forward). Then, rotate and angle the lamp head as follows for optimal results:
 
 1. **Primary Position: Ceiling Bounce (Best for Even Brightness + No Glare)**

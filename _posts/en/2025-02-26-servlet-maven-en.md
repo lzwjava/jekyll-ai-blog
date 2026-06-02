@@ -15,9 +15,11 @@ Here’s a complete guide to creating and deploying a simple Java Servlet applic
 ## Step-by-Step Guide
 
 ### 1. Create the Maven Project Structure
+
 Start by setting up a standard Maven web application structure. You can create this manually or use Maven to generate it.
 
 - **Directory Structure:**
+
   ```
   SimpleServletApp/
   ├── pom.xml
@@ -34,12 +36,15 @@ Start by setting up a standard Maven web application structure. You can create t
 
 - **Optionally Generate with Maven:**
   Run this command to create the structure, then adjust as needed:
+
   ```bash
   mvn archetype:generate -DgroupId=com.example -DartifactId=simple-servlet-app -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
   ```
+
   This creates a basic webapp structure, which you’ll modify in the next steps.
 
 ### 2. Write the Servlet Code
+
 Create a file named `HelloServlet.java` in `src/main/java/com/example/` with the following content:
 
 ```java
@@ -62,6 +67,7 @@ public class HelloServlet extends HttpServlet {
 - **Explanation:** This Servlet responds to HTTP GET requests with "Hello World!" in plain text. It uses a simple `doGet` method and avoids annotations for compatibility with explicit `web.xml` configuration.
 
 ### 3. Create the `web.xml` Deployment Descriptor
+
 Create a file named `web.xml` in `src/main/webapp/WEB-INF/` with the following content:
 
 ```xml
@@ -84,6 +90,7 @@ Create a file named `web.xml` in `src/main/webapp/WEB-INF/` with the following c
 - **Explanation:** The `web.xml` file defines the `HelloServlet` class and maps it to the `/hello` URL pattern. This is necessary since we’re not using `@WebServlet` annotations.
 
 ### 4. Configure the Maven `pom.xml`
+
 Create or update `pom.xml` in the `SimpleServletApp/` directory with the following content:
 
 ```xml
@@ -149,6 +156,7 @@ Create or update `pom.xml` in the `SimpleServletApp/` directory with the followi
   - **Liberty Maven Plugin:** Configures deployment to a Liberty server at `/opt/ibm/wlp`, server name `myServer`, deploying to the `dropins` directory.
 
 ### 5. Build the Project
+
 From the `SimpleServletApp/` directory, build the WAR file using Maven:
 
 ```bash
@@ -158,7 +166,9 @@ mvn clean package
 - **Result:** This compiles the Servlet, packages it with `web.xml` into `target/myapp.war`, and prepares it for deployment.
 
 ### 6. Deploy and Run on WebSphere Liberty
+
 Ensure your Liberty server (`myServer`) is set up with the `servlet-4.0` feature enabled. Check your `server.xml` for:
+
 ```xml
 <featureManager>
     <feature>servlet-4.0</feature>
@@ -177,12 +187,15 @@ mvn liberty:run
   - Keeps the server running until stopped.
 
 - **Verify Deployment:** Look for a log message like:
+
   ```
   [AUDIT   ] CWWKT0016I: Web application available (default_host): http://localhost:9080/myapp/
   ```
+
   Logs are typically in `/opt/ibm/wlp/usr/servers/myServer/logs/console.log`.
 
 ### 7. Access the Application
+
 Open a browser and navigate to:
 
 ```
@@ -190,6 +203,7 @@ http://localhost:9080/myapp/hello
 ```
 
 - **Expected Output:**
+
   ```
   Hello World!
   ```
@@ -200,11 +214,13 @@ http://localhost:9080/myapp/hello
   - `/hello`: URL pattern from `web.xml`.
 
 ### 8. Stop the Server
+
 Since `mvn liberty:run` runs the server in the foreground, stop it by pressing `Ctrl+C` in the terminal.
 
 ---
 
 ## Notes
+
 - **Prerequisites:**
   - Maven must be installed and configured on your system.
   - Liberty must be installed at `/opt/ibm/wlp`, and the server instance `myServer` must exist. Adjust `installDirectory` and `serverName` in `pom.xml` if your setup differs (e.g., `/usr/local/wlp` or `defaultServer`).
@@ -212,11 +228,14 @@ Since `mvn liberty:run` runs the server in the foreground, stop it by pressing `
 
 - **Alternative Deployment:**
   - To build and deploy separately:
+
     ```bash
     mvn clean package
     mvn liberty:deploy
     ```
+
     Start the server manually if needed:
+
     ```bash
     /opt/ibm/wlp/bin/server start myServer
     ```
@@ -233,7 +252,9 @@ Since `mvn liberty:run` runs the server in the foreground, stop it by pressing `
 ---
 
 ## Summary
+
 This guide demonstrates how to:
+
 1. Set up a Maven project with a simple Servlet (`HelloServlet.java`) and `web.xml`.
 2. Configure `pom.xml` with the Servlet API, Maven WAR plugin, and Liberty Maven plugin.
 3. Build the application into `myapp.war` using `mvn clean package`.

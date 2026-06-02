@@ -22,11 +22,13 @@ type: note
 ```
 
 运行方法：
+
 1. 将代码保存至名为 `factorial.scm` 的文件中
 2. 在终端中切换到该文件所在目录
 3. 执行：`scheme --script factorial.scm`
 
 运行后将输出：
+
 ```
 5 的阶乘是: 120
 ```

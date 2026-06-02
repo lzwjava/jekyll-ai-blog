@@ -15,7 +15,7 @@ Answer:
 
 There is **no public information** or direct statement from Yin Wang (王垠) indicating his MBTI personality type, including whether he is an INTP.
 
-- His blog at https://www.yinwang.org focuses on computer science education, programming languages (Python, Java, Rust, C++), critiques of AI/machine vision, teaching methodologies, personal experiences (e.g., vision improvement, cello learning), and occasional social/educational commentary.
+- His blog at <https://www.yinwang.org> focuses on computer science education, programming languages (Python, Java, Rust, C++), critiques of AI/machine vision, teaching methodologies, personal experiences (e.g., vision improvement, cello learning), and occasional social/educational commentary.
 - The site contains no mentions of MBTI, INTP, personality types (性格/人格 in Chinese), or self-descriptions that explicitly relate to MBTI categories.
 - Searches across web results, including discussions of Yin Wang / 王垠, return no credible sources where he reveals or others reliably assign him an MBTI type like INTP.
 - Some unrelated people named Yin Wang or similar appear in MBTI discussions (e.g., fictional characters or other individuals), but none connect to the blogger/educator at yinwang.org.

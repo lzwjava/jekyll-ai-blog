@@ -19,6 +19,7 @@ type: note
 **"Communism promises equality but delivers poverty"**（Communism 承诺平等，却带来贫困）
 
 社交媒体上还流传着几种类似的表述：
+
 - “他们承诺面包，却带来饥饿”
 - “他们承诺自由，却带来暴政”
 - “他们承诺繁荣，却带来苦难”

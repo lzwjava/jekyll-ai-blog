@@ -52,6 +52,7 @@ Polyglot builds language-scoped URLs like `/en/about/` and `/zh/about/`. It also
 **Language switcher (in your layout)**
 
 {% raw %}
+
 ```liquid
 <nav class="lang-switch">
   {% for lang in site.languages %}
@@ -67,11 +68,13 @@ Polyglot builds language-scoped URLs like `/en/about/` and `/zh/about/`. It also
   {% endfor %}
 </nav>
 ```
+
 {% endraw %}
 
 A simpler approach with Polyglot is:
 
 {% raw %}
+
 ```liquid
 <nav>
   {% for lang in site.languages %}
@@ -79,6 +82,7 @@ A simpler approach with Polyglot is:
   {% endfor %}
 </nav>
 ```
+
 {% endraw %}
 
 **UI strings via data files**
@@ -98,15 +102,18 @@ zh:
 Use in templates:
 
 {% raw %}
+
 ```liquid
 {{ site.data.i18n[site.active_lang].nav.home }}
 ```
+
 {% endraw %}
 
 **SEO (hreflang)**
 In `<head>` of your layout:
 
 {% raw %}
+
 ```liquid
 {% assign langs = site.languages %}
 {% for l in langs %}
@@ -114,6 +121,7 @@ In `<head>` of your layout:
 {% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.default_lang }}{{ page.url }}" />
 ```
+
 {% endraw %}
 
 # 2) No plugin: per-language folders + Liquid
@@ -163,9 +171,11 @@ lang: en
 or infer from path:
 
 {% raw %}
+
 ```liquid
 {% assign current_lang = page.lang | default: page.path | split:'/' | first | remove:'_' %}
 ```
+
 {% endraw %}
 
 **Cross-links between translations**
@@ -192,6 +202,7 @@ ref: hello-post
 Then in the layout, find siblings:
 
 {% raw %}
+
 ```liquid
 {% assign siblings = site.pages | concat: site.posts | where:"ref", page.ref %}
 {% for s in siblings %}
@@ -200,6 +211,7 @@ Then in the layout, find siblings:
   {% endunless %}
 {% endfor %}
 ```
+
 {% endraw %}
 
 **UI strings without plugins**
@@ -226,10 +238,12 @@ Keep a single `/posts/` set, add `_data/i18n.yml`, and render labels by language
 **Localized dates**
 
 {% raw %}
+
 ```liquid
 {% assign locale = page.lang | default: site.default_lang %}
 {{ page.date | date: "%B %-d, %Y" }}  {# or use filters/plugins if you have them #}
 ```
+
 {% endraw %}
 
 (Jekyll’s built-in `date` is not fully locale-aware; for true locale formatting you’ll need a plugin or preformatted strings in data.)

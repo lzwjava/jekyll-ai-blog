@@ -44,21 +44,25 @@ On a personal plan, **you control everything** — no policies blocking agent mo
 The skills and knowledge you build personally **directly translate** to enterprise use. Specifically:
 
 #### 1. `settings.json` Mastery
+
 Grouping Copilot settings by experience area — editor completions, chat, agents, and workflow — and knowing the difference between **workspace settings** (policy/enforcement) and **user settings** (personal preferences) is critical. Keeping an annotated baseline JSON lets teammates diff intentional changes.
 
 The simplest and most widely adopted approach is to commit VS Code workspace configuration files directly to your repository in a `.vscode/settings.json` file. These workspace settings override user preferences when the project folder is open.
 
 #### 2. Custom Instructions & Prompt Engineering
+
 Creating standardized custom instructions for your entire codebase ensures every Copilot suggestion follows your team's exact coding standards, producing suggestions that match your style guide without manual corrections.
 
 This knowledge is **fully portable** — you build the habit on personal, apply it at work.
 
 #### 3. Agent Skills (Portable Standard)
+
 Agent Skills is an **open standard** that enables portability across different AI agents. Skills you create in VS Code work with GitHub Copilot in VS Code, GitHub Copilot CLI, and GitHub Copilot coding agent.
 
 Mastering skill files (`.vscode/`, `SKILL.md`) on personal lets you bring those same files into enterprise repos.
 
 #### 4. MCP Server Configuration
+
 MCP servers are configured in `.vscode/mcp.json` (workspace) or user profile `mcp.json`. Organizations can centrally manage MCP server access via GitHub policies, requiring a Copilot Business or Enterprise plan.
 
 Understanding MCP configuration personally means you know exactly what's available — and what's being blocked — in enterprise.

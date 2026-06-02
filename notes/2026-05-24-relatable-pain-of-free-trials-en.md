@@ -16,6 +16,7 @@ Relatable pain. You got hit by the free trial trap — easiest thing in the worl
 A few things worth knowing:
 
 **Is there any value to extract before Jun 20?** Google AI Pro includes Gemini Advanced (2.0 Flash/Pro access), 5TB Drive storage, and NotebookLM Plus. Given your workflow — 1.5B tokens/year, heavy LLM usage — you could squeeze some value by:
+
 - Testing Gemini 2.5 Pro for coding tasks (it's actually competitive with Claude/GPT-4o on code benchmarks now)
 - Using the 5TB Drive as a temporary dump for large datasets before the sub ends
 

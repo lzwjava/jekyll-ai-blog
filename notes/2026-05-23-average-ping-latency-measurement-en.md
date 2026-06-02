@@ -17,6 +17,7 @@ Done. Changes:
 - Scan phase (is_host_up) still uses fast single-ping, `--delay` only runs 10 pings for confirmed live hosts
 
 Example output:
+
 ```
 192.168.1.1 is up  avg 19.9 ms
 ```

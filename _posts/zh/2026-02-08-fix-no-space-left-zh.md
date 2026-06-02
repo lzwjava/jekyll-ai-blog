@@ -34,6 +34,7 @@ du -sh /var /var/log /var/cache /tmp /home /usr
 ```
 
 Ubuntu 系统损坏时的常见占用者：
+
 - `/var/log/journal/` —— 反复启动失败产生的大量 logs
 - `/var/cache/apt/archives/` —— 旧的 .deb packages
 - `/tmp/` —— 滞留的临时文件
@@ -110,7 +111,9 @@ sudo reboot
 如果 lightdm 成功启动，你将重新获得图形登录界面 —— 然后你可以稍后修复 GDM 或继续使用 lightdm。
 
 ### 如果你无法从 TTY 释放足够的空间
+
 重新引导进入 **Ubuntu live USB**（就像你之前做的那样）：
+
 - 将你的 root 分区挂载到 `/mnt`
 - 然后运行类似的清理命令：
 
@@ -126,6 +129,7 @@ sudo journalctl --rotate   # 如果 journald 可访问
 一旦空间被释放，系统几乎总是可以恢复的。
 
 ### 预防说明
+
 避免在 `/usr`, `/var`, `/etc` 上运行宽泛的递归命令。仅使用针对性的修复（例如 `chown $USER:$USER ~/somefolder`）。
 
 如果你分享 `df -h` 和 `du -sh /* | sort -hr | head`（或最大文件夹）的输出，我可以告诉你下一步确切清理哪些目录。

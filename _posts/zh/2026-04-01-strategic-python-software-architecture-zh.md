@@ -34,11 +34,13 @@ Circular Imports 不仅仅是令人烦恼，它们是结构性债务。如果两
 ## 正确的思想模型：“在编写代码前设计边界”
 
 ### 1. **Single Responsibility Principle (SRP)**
+
 每个 Microservice 或 Module 都应专注于一项特定的任务或业务功能。这能优化开发流程，并允许团队独立且高效地工作。
 
 即使应用于小型 Python 项目：不要让你的 Database 逻辑、Business Logic 和 API Routing 存在于同一个文件中。
 
 ### 2. **Domain-Driven Design (DDD)**
+
 Microservices 应该围绕业务能力使用 Domain-Driven Design (DDD) 进行设计。这能实现高级功能并提供松耦合（Loosely Coupled）的服务。战略阶段确保设计架构封装了业务能力，而战术阶段则允许使用不同的 Design Patterns 开发 Domain Model。
 
 首先从业务领域（Business Domains）考虑：`users`、`orders`、`payments`、`notifications` —— 而不是从技术层级如 `helpers.py` 或 `utils.py` 考虑。
@@ -48,7 +50,6 @@ Microservices 应该围绕业务能力使用 Domain-Driven Design (DDD) 进行�
 ## 现代化 Python 项目结构 (2025)
 
 一个现代化、可扩展的 Python 项目看起来应该是这样的：
-
 
 | 结构 | 说明 |
 |---|---|
@@ -97,18 +98,23 @@ microservices-platform/
 ## 避免痛苦迁移的关键原则
 
 ### 避免紧耦合 (Tight Coupling)
+
 每个服务都应该是独立的，并与其他服务松耦合。一个服务的更改不应直接影响其他服务。这种隔离允许更轻松的扩展和部署，因为每个服务都可以独立进行 Scaling 或更新。
 
 ### 在模块之间使用 Interfaces / Contracts
+
 从一开始就定义模块之间清晰的 API Contracts。无论是 REST、gRPC，还是仅仅是 Python 的 Abstract Base Classes，拥有明确的边界意味着你可以在不影响调用者的情况下重构内部逻辑。
 
 ### 为不同的任务选择合适的 Framework
+
 使用正确的框架：FastAPI 用于高性能 API，Django 用于功能全备的应用程序，Flask 用于轻量级服务。确保服务独立性 —— 解耦服务以提高 Scalability 和故障隔离（Fault Isolation）。
 
 ### 从一开始就构建 Testing
+
 Clean Architecture 让测试变得枯燥 —— 枯燥是好事。如果你的代码难以进行 Unit Test，这说明 Architecture 设计有问题。可测试性（Testability）和模块化（Modularity）是相辅相成的。
 
 ### 可观测性 (Observability) 不是可选的
+
 启用 Observability —— 使用 Prometheus、Grafana 和 AWS CloudWatch 进行实时监控。如果没有监控和 Logging，在 Distributed System 中进行 Debugging 会变得非常困难。
 
 ---

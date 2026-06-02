@@ -10,14 +10,16 @@ type: note
 
 让我们分析您遇到的错误并解释代码中发生的情况：
 
-### 错误信息：
+### 错误信息
+
 ```
 为服务器 sg5 创建快照时出错：无法执行操作，因为服务器已锁定（locked, f21b9dc9d1535310）
 ```
 
 这个错误来自 Hetzner Cloud API（通过 `hcloud` Python SDK），表明为名为 `sg5` 的服务器创建快照的操作失败，因为服务器**已被锁定**。服务器被锁定意味着另一个操作（例如之前的快照、重启或调整配置）当前正在进行中，在该过程完成之前，服务器暂时无法接受新操作。
 
-### 代码解析：
+### 代码解析
+
 以下是您的脚本说明及错误发生位置：
 
 ```python
@@ -79,20 +81,25 @@ for server in servers:
    - 在 `create_snapshot()` 函数内部，`client.servers.create_image()` 调用因服务器 `sg5` 被锁定而失败。`hcloud` 库根据 API 响应抛出异常信息（`cannot perform operation because server is locked`）
 
 ### 服务器被锁定的原因？
+
 当有操作正在进行时，服务器会进入锁定状态。常见原因包括：
+
 - 正在创建另一个快照
 - 服务器正在重启、调整配置或重建
 - 之前的操作尚未完成
 
 错误信息中的锁定 ID（`f21b9dc9d1535310`）是锁定服务器的正在执行操作的唯一标识符。
 
-### 解决方案：
+### 解决方案
+
 以下是解决问题的步骤和脚本改进方案：
 
 #### 1. **在操作前检查锁定状态**
+
 修改脚本，在服务器被锁定时跳过快照创建。您可以通过 `client.actions.get_all()` 检查服务器当前操作。
 
 改进后的 `create_snapshot` 函数：
+
 ```python
 def create_snapshot(server):
     try:
@@ -110,7 +117,9 @@ def create_snapshot(server):
 ```
 
 #### 2. **等待锁定解除**
+
 如果您希望等待而非跳过，可以轮询服务器操作直到锁定解除：
+
 ```python
 import time
 
@@ -133,18 +142,23 @@ def create_snapshot(server):
 ```
 
 #### 3. **手动检查锁定状态**
+
 - 使用 Hetzner Cloud 控制台或 API 检查 ID 为 `f21b9dc9d1535310` 的操作状态
 - Python API 调用示例：
+
   ```python
   action = client.actions.get_by_id("f21b9dc9d1535310")
   print(f"操作状态：{action.status}，命令：{action.command}")
   ```
+
 - 如果操作卡住，可能需要联系 Hetzner 技术支持
 
 #### 4. **重新运行脚本**
+
 当服务器解除锁定后（操作完成或手动解决），重新运行脚本即可
 
-### 补充说明：
+### 补充说明
+
 - **速率限制**：循环为多个服务器创建快照可能触发 Hetzner API 的速率限制。建议在请求间添加延迟（如 `time.sleep(1)`）
 - **错误处理**：当前脚本在遇到错误时不会中断循环，这是正确的处理方式
 

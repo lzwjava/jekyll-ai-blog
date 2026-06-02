@@ -29,7 +29,6 @@ While the "Classic Boot" remains their flagship product, UGG has significantly d
 * **Sneakers & Weather-Ready:** Waterproof rain boots (like the **Drizlita**) and winter performance boots.
 * **New for 2026:** Fashion-forward silhouettes like ballet flats, Mary Janes (the **Bea**), and clogs.
 
-
 * **Apparel:** A "ready-to-wear" line featuring loungewear, oversized hoodies, faux-fur coats, and high-end basics like cashmere sweaters.
 * **Home Goods:** Known as the "UGG Home" collection, they sell plush blankets, decorative pillows, area rugs, and bedding designed to mimic the feel of their footwear.
 * **Accessories:** Sheepskin-lined gloves, earmuffs, scarves, and handbags.

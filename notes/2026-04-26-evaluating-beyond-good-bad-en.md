@@ -74,4 +74,4 @@ You don’t need to “approve” of someone as a whole person to learn from the
 
 This is closer to how researchers, engineers, and serious learners study the world: **decompose, analyze, and selectively adopt**.
 
-## References:
+## References

@@ -20,11 +20,13 @@ type: note
    - 检查点能否正常保存和恢复
 
 2. **启动时打印预算**——在 `train.py` 中添加：
+
    ```python
    tokens_per_step = batch_size * block_size * gradient_accumulation_steps * ddp_world_size
    print(f"tokens/step = {tokens_per_step:,}")
    print(f"total tokens = {tokens_per_step * max_iters / 1e9:.2f}B")
    ```
+
    这一行代码在提交前就会显示“10.00B”——你会立刻注意到：“等等，我准备的是 140B。”
 
 3. **使用 wandb**——设置 `wandb_log = True`（你已经设置了项目名称，只需切换标志即可）。你可以通过手机查看损失、学习率和梯度范数；如果损失在第 3 小时发散，你可以直接终止，而不是等到第 48 小时才发现。

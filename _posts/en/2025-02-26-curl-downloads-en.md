@@ -39,9 +39,11 @@ curl -L -O <URL>
 2. **Run the Command**:
    - Open your terminal.
    - Execute the `curl` command with the `-L` and `-O` options, using the URL you copied:
+
      ```bash
      curl -L -O https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-03/R/eclipse-java-2023-03-R-win32-x86_64.zip
      ```
+
    - This should download the ZIP file (e.g., `eclipse-java-2023-03-R-win32-x86_64.zip`) to your current directory.
 
 ### Troubleshooting
@@ -50,19 +52,23 @@ If you still encounter issues, try these additional steps:
 
 - **Check Redirects with Verbose Output**:
   - Use the `-v` option to see detailed information about the request and redirects:
+
     ```bash
     curl -v -L -O <URL>
     ```
+
   - Look at the `Location` header in the 301 response to see where it’s redirecting. If it’s pointing to an HTML page instead of a ZIP file, the URL might not be the direct download link.
 
 - **Verify the URL**:
   - Eclipse often uses a `download.php` script that may redirect to a mirror. Ensure your URL is either the direct link to the ZIP file or a redirecting link that resolves to the file. For example, a direct mirror link might look like:
+
     ```bash
     curl -L -O https://mirror.its.dal.ca/eclipse/technology/epp/downloads/release/2023-03/R/eclipse-java-2023-03-R-win32-x86_64.zip
     ```
 
 - **Set a User-Agent Header**:
   - Some servers behave differently based on the client. If the server returns HTML because it detects `curl`, mimic a browser by adding a User-Agent:
+
     ```bash
     curl -L -O -A "Mozilla/5.0" <URL>
     ```

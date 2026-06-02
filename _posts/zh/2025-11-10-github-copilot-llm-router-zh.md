@@ -18,12 +18,14 @@ type: note
 - **测试与验证**：更新后，验证所有API调用是否仅定向到Copilot端点，以符合仅允许Copilot API交互的策略。
 
 ### 分步配置指南
+
 1. **生成GitHub个人访问令牌**：登录您的企业GitHub账户，创建一个具有`copilot`作用域的个人访问令牌，以确保安全认证而不暴露更广泛的权限。
 2. **修改提供商数组**：在您的配置JSON中的"Providers"列表末尾追加一个新对象。将"name"设置为描述性名称，将"api_base_url"设置为Copilot代理端点或GitHub Models推理端点，将"api_key"设置为您的个人访问令牌，并列出兼容的模型。
 3. **调整路由器部分**：将"Router"对象中的所有值替换为您的新提供商名称，以强制排他性使用。这可以防止回退到其他提供商。
 4. **企业注意事项**：在受限环境中，确认您的网络策略允许对GitHub域进行出站调用。如果需要，更新"PROXY_URL"以通过经批准的企业代理进行路由。启用日志记录以审计调用并确保合规性。
 
 ### 更新后的配置示例
+
 以下为修改后配置的可能样貌：
 
 ```json
@@ -104,7 +106,7 @@ GitHub Copilot主要通过两种途径提供LLM访问：用于构建代理和扩
 
 | 方面                     | GitHub Copilot LLM API                     | GitHub Models API                                   |
 |--------------------------|--------------------------------------------|-----------------------------------------------------|
-| 端点                     | https://api.githubcopilot.com/chat/completions | https://models.github.ai/inference/chat/completions |
+| 端点                     | <https://api.githubcopilot.com/chat/completions> | <https://models.github.ai/inference/chat/completions> |
 | 主要用途                 | 构建Copilot扩展和代理                      | 通用原型设计、推理和工作流                          |
 | 认证                     | Bearer PAT                                 | 具有models:read作用域的PAT                          |
 | 支持的模型               | 隐式                                       | 显式目录                                            |
@@ -119,6 +121,7 @@ GitHub Copilot主要通过两种途径提供LLM访问：用于构建代理和扩
 总之，此配置将您的路由器转变为Copilot专用系统，在保持代码相关或通用LLM任务功能的同时，与企业策略保持一致。
 
 **主要引用文献：**
+
 - [使用GitHub Copilot的LLM为您的代理服务](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/use-copilots-llm)
 - [GitHub Models快速入门](https://docs.github.com/en/github-models/quickstart)
 - [GitHub Copilot | liteLLM](https://docs.litellm.ai/docs/tutorials/github_copilot_integration)

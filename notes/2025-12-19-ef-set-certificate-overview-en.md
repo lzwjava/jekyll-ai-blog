@@ -16,7 +16,8 @@ Answer:
 
 The **EF SET English Certificate** is a free, online standardized English proficiency certificate provided by the EF Standard English Test (EF SET), developed by EF Education First, a global language training company.
 
-### Key Features:
+### Key Features
+
 - **Test Format**: The main certifying test is the 50-minute EF SET English Certificate, which is adaptive (questions adjust in difficulty based on your performance). It consists of a 25-minute reading section and a 25-minute listening section.
 - **Skills Assessed**: Primarily tests reading and listening comprehension. (A newer 4-skill version including speaking and writing is available, but limited to one test every 90 days.)
 - **Scoring**: Scores range from 0 to 100, aligned with the Common European Framework of Reference for Languages (CEFR) levels (A1 beginner to C2 proficient). Results also show equivalent score ranges for tests like IELTS and TOEFL.

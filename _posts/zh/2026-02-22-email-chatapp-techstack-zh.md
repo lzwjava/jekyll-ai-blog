@@ -33,15 +33,15 @@ type: note
 
 由于 MailTime 连接到您现有的电子邮件账户（如 Gmail、Outlook 或 iCloud），它必须使用这些服务相同的协议。它使用标准、开放的电子邮件协议来实现这一点。
 
-*   **接收和同步邮件：IMAP (Internet Message Access Protocol)**
-    *   这是用于同步电子邮件的主要协议。IMAP 非常适合移动应用，因为它将所有电子邮件保留在服务器上。当您在 MailTime 中阅读、删除或移动电子邮件时，这些更改会与您的电子邮件提供商同步，并在笔记本电脑上的 Gmail 中显示。这保持了一致性。
-    *   该应用还支持 **Exchange (ActiveSync)**，这是 Microsoft 用于同步商业账户邮件、日历和联系人的协议。
+* **接收和同步邮件：IMAP (Internet Message Access Protocol)**
+  * 这是用于同步电子邮件的主要协议。IMAP 非常适合移动应用，因为它将所有电子邮件保留在服务器上。当您在 MailTime 中阅读、删除或移动电子邮件时，这些更改会与您的电子邮件提供商同步，并在笔记本电脑上的 Gmail 中显示。这保持了一致性。
+  * 该应用还支持 **Exchange (ActiveSync)**，这是 Microsoft 用于同步商业账户邮件、日历和联系人的协议。
 
-*   **发送邮件：SMTP (Simple Mail Transfer Protocol)**
-    *   这是 *发送* 电子邮件消息的标准协议。当您点击聊天气泡发送时，MailTime 将消息交给您的电子邮件提供商的 SMTP 服务器进行投递。
+* **发送邮件：SMTP (Simple Mail Transfer Protocol)**
+  * 这是 *发送* 电子邮件消息的标准协议。当您点击聊天气泡发送时，MailTime 将消息交给您的电子邮件提供商的 SMTP 服务器进行投递。
 
-*   **连接方式：OAuth 和基于密码的登录**
-    *   MailTime 支持连接大量提供商，包括 **Gmail, Yahoo Mail, Outlook.com, Hotmail, iCloud, AOL 和 Office 365**，以及标准的 **IMAP** 账户。对于 Gmail 等现代服务，它主要使用 **OAuth**，这是一个安全的基于令牌的授权系统，让您可以授予 MailTime 访问权限，而无需提供实际的电子邮件密码。
+* **连接方式：OAuth 和基于密码的登录**
+  * MailTime 支持连接大量提供商，包括 **Gmail, Yahoo Mail, Outlook.com, Hotmail, iCloud, AOL 和 Office 365**，以及标准的 **IMAP** 账户。对于 Gmail 等现代服务，它主要使用 **OAuth**，这是一个安全的基于令牌的授权系统，让您可以授予 MailTime 访问权限，而无需提供实际的电子邮件密码。
 
 简而言之，MailTime 不会取代您的电子邮件提供商。相反，它作为一个智能、设计精美的前端，使用与其他电子邮件应用相同的 **SMTP 和 IMAP** 协议，但以全新的方式呈现信息。
 

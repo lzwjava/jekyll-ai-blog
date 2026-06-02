@@ -100,7 +100,8 @@ fn main() {
 }
 ```
 
-### Key Features Demonstrated:
+### Key Features Demonstrated
+
 1. **Structs**: `Point` struct to represent a 2D point.
 2. **Enums**: `Shape` enum to represent different shapes (Circle, Rectangle).
 3. **Ownership**: The `circle` variable takes ownership of `point` when created.
@@ -116,7 +117,8 @@ fn main() {
 10. **Result**: Basic error handling with `Ok` and `Err`.
 11. **String Formatting**: Using `format!` for dynamic strings.
 
-### Output (when run):
+### Output (when run)
+
 ```
 Distance from origin: 5
 After translation: (5, 5)

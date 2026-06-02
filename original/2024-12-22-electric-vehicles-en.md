@@ -34,7 +34,6 @@ type: post
 - Limited support for foreign software, making it difficult to use certain international applications.
 - Voice command "Little P" is used to adjust the volume, but this feature is primarily intended for Chinese users.
 
-
 ![](assets/images/ev/car1.jpg)
 
 ![](assets/images/ev/car2.jpg)

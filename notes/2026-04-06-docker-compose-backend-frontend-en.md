@@ -14,21 +14,27 @@ Here's the setup:
 ### How it works
 
 **Normal dev** (just backend):
+
 ```bash
 cd live-server && docker compose up -d
 ```
+
 → PHP + nginx + MySQL + Redis. Frontend ignored.
 
 **Build everything** (with frontend):
+
 ```bash
 cd live-server && docker compose --profile frontend up -d
 ```
+
 → Also builds `live-mobile-web`, drops static files into a shared volume, nginx serves them at `/static/`.
 
 **Local frontend dev** (hot reload):
+
 ```bash
 cd live-mobile-web && npm run dev
 ```
+
 → Vite dev server with proxy to `api.quzhiboapp.com` (or set `VITE_API_PROXY=http://localhost:8080` to use your local backend).
 
 ### Key changes

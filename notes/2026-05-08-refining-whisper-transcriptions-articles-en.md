@@ -30,32 +30,38 @@ Read the provided transcription file and generate a new refined output file in M
 **Requirements:**
 
 ### Content & Structure
+
 - Rewrite and organize the content into a clean, readable article, meeting summary, or post.
 - Add a suitable title at the top.
 - Add section headings where appropriate to organize the content logically.
 - Include a short summary paragraph at the very beginning (after the title).
 
 ### Tone & Fidelity
+
 - Preserve the original meaning, tone, speaking style, and emotional nuance as closely as possible.
 - Do **not** overly formalize the content — retain the conversational and authentic feel of the original meeting.
 - If some sentences are unclear due to transcription quality, infer conservatively and preserve ambiguity rather than inventing details.
 
 ### Speaker Handling
+
 - The original meeting involved two or more speakers, but speaker labels were lost during transcription.
 - Do **not** attempt to reconstruct speaker identities or use labels like "Speaker A / Speaker B."
 - Instead, narrate the discussion naturally from a **third-person perspective**, using phrases like "they," "both parties," "one participant noted," "it was discussed that," etc.
 
 ### Noise Removal
+
 - Remove obvious transcription artifacts, including:
   - Repeated filler words (e.g., "um," "uh," "like," "you know")
   - Broken or incomplete sentences with no recoverable meaning
   - Whisper recognition errors and garbled text
 
 ### Reorganization
+
 - Merge fragmented dialogue into coherent paragraphs.
 - Group related discussion points under logical sections.
 
 ### Output
+
 - Output only valid Markdown content.
 - The language of the output should **match the language of the original transcription** (e.g., if the meeting was in Chinese, output in Chinese; if in English, output in English).
 

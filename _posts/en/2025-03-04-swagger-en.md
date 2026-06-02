@@ -213,7 +213,7 @@ public class User {
 
 1. Start your Spring Boot application.
 2. Open a browser and navigate to:
-   **http://localhost:8080/swagger-ui.html**
+   **<http://localhost:8080/swagger-ui.html>**
    This URL displays the Swagger UI, an interactive interface showing your API documentation based on the annotations.
 
 ---

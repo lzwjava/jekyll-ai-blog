@@ -14,6 +14,7 @@ The **University Chinese (大学语文, course code 04729)** textbook, used in C
 Here is the comprehensive list of essays and literary works (课文) as typically appearing in the textbook's table of contents or standard study outlines for 04729 (based on consistent listings from 2006–2018 editions, with minor variations possible but core content stable):
 
 **散文 (Prose / Essays)**
+
 1. 寡人之于国也 (Meng Ke / Mencius)
 2. 秋水 (节选) (Zhuangzi)
 3. 五代史伶官传序 (Ouyang Xiu)
@@ -45,6 +46,7 @@ Here is the comprehensive list of essays and literary works (课文) as typicall
 29. 记叙文的阅读与写作 (theoretical essay on narrative reading/writing)
 
 **诗歌 (Poetry)**
+
 1. 蒹葭 (from Shijing)
 2. 湘夫人 (Qu Yuan)
 3. 陌上桑
@@ -66,6 +68,7 @@ Here is the comprehensive list of essays and literary works (课文) as typicall
 19. 诗歌的抒情方法 (theoretical essay on poetic expression)
 
 **小说 (Fiction)**
+
 1. 婴宁 (from Liaozhai Zhiyi, Pu Songling)
 2. 宝黛吵架 (from Dream of the Red Chamber, Cao Xueqin)
 3. 断魂枪 (Lao She)
@@ -78,5 +81,6 @@ Here is the comprehensive list of essays and literary works (课文) as typicall
 These titles represent the core selected readings (选文) in the book. The sequence numbers are as per standard listings in exam guides and textbook directories (often starting anew per section or continuous in some outlines). Theoretical pieces on reading/writing (e.g., 议论文的阅读与写作) are included as they appear as titled units. For exact page numbers or minor edition differences, refer to your specific textbook copy (e.g., 2018 Beijing University Press edition).
 
 References:
-- http://www.110book.com/html/2089.html
-- https://max.book118.com/html/2019/0905/8043020047002046.shtm
+
+- <http://www.110book.com/html/2089.html>
+- <https://max.book118.com/html/2019/0905/8043020047002046.shtm>

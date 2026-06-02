@@ -13,14 +13,18 @@ To use the `"qiniu/php-sdk": "^7.0"` in PHP, you’ll need to integrate the Qini
 ---
 
 ### 1. Install the Qiniu PHP SDK
+
 The recommended way to install the SDK is via Composer, a dependency manager for PHP. Ensure you have Composer installed on your system.
 
-#### Steps:
+#### Steps
+
 - Open your terminal and navigate to your project directory.
 - Run the following command to add the Qiniu PHP SDK (version 7.x) to your project:
+
   ```bash
   composer require qiniu/php-sdk "^7.0"
   ```
+
 - Composer will download the SDK and its dependencies into the `vendor/` directory and generate an autoload file.
 
 If you don’t have Composer installed, you can download it from [getcomposer.org](https://getcomposer.org/).
@@ -28,10 +32,13 @@ If you don’t have Composer installed, you can download it from [getcomposer.or
 ---
 
 ### 2. Set Up Your Project
+
 After installation, you need to include the autoloader in your PHP script to use the SDK classes.
 
-#### Example:
+#### Example
+
 Create a PHP file (e.g., `index.php`) in your project directory and add the following line at the top:
+
 ```php
 require_once 'vendor/autoload.php';
 ```
@@ -41,9 +48,11 @@ This ensures that the SDK classes are automatically loaded when needed.
 ---
 
 ### 3. Configure Authentication
+
 To use the Qiniu SDK, you’ll need your Qiniu `AccessKey` and `SecretKey`, which you can obtain from your Qiniu account dashboard.
 
-#### Example:
+#### Example
+
 ```php
 use Qiniu\Auth;
 
@@ -58,9 +67,11 @@ Replace `'YOUR_ACCESS_KEY'` and `'YOUR_SECRET_KEY'` with your actual credentials
 ---
 
 ### 4. Basic Usage: Uploading a File
+
 One of the most common tasks with the Qiniu SDK is uploading files to a bucket. Here’s an example of how to upload a local file.
 
-#### Example:
+#### Example
+
 ```php
 use Qiniu\Storage\UploadManager;
 
@@ -89,12 +100,15 @@ if ($error !== null) {
 ---
 
 ### 5. Additional Features
+
 The Qiniu PHP SDK provides many other functionalities, such as:
+
 - **Managing Buckets**: Use `Qiniu\Storage\BucketManager` to list files, delete files, or manage bucket settings.
 - **File Operations**: Copy, move, or delete files in your bucket.
 - **Image Processing**: Generate URLs for resized or formatted images.
 
 #### Example: Listing Files in a Bucket
+
 ```php
 use Qiniu\Storage\BucketManager;
 
@@ -114,9 +128,11 @@ if ($error !== null) {
 ---
 
 ### 6. Error Handling
+
 Always check the `$error` variable after SDK operations. If an operation fails, `$error` will contain details about what went wrong.
 
-#### Example:
+#### Example
+
 ```php
 if ($error !== null) {
     var_dump($error);
@@ -128,10 +144,12 @@ if ($error !== null) {
 ---
 
 ### 7. Requirements
+
 - PHP version: The SDK version `^7.0` supports PHP 5.3.3 and higher (up to PHP 8.x in later releases).
 - Extensions: Ensure the `cURL` and `xml` PHP extensions are enabled, as they are required by the SDK.
 
 You can check your PHP version and extensions with:
+
 ```bash
 php -v
 php -m
@@ -140,6 +158,7 @@ php -m
 ---
 
 ### 8. Where to Go Next
+
 - **Documentation**: For more details, refer to the [official Qiniu PHP SDK documentation](https://developer.qiniu.com/kodo/sdk/php) or the [GitHub repository](https://github.com/qiniu/php-sdk).
 - **Examples**: Check the `examples/` directory in the GitHub repo for more use cases.
 - **Support**: If you encounter issues, submit a ticket to Qiniu support (<support@qiniu.com>) or ask in their community forums.
@@ -147,7 +166,9 @@ php -m
 ---
 
 ### Full Example Code
+
 Here’s a complete script to upload a file:
+
 ```php
 <?php
 require_once 'vendor/autoload.php';

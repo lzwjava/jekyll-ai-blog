@@ -112,6 +112,7 @@ At disk screen:
    convert gpt
    exit
    ```
+
 3. Close CMD → Refresh → Install
 
 ---

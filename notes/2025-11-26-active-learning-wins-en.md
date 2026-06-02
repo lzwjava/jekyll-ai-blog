@@ -15,6 +15,7 @@ Yes, you're absolutely right — and this is one of the most important truths ab
 Passive consumption (reading books, listening to podcasts, watching lectures) is useful mainly as raw material. It gives you examples, stories, and sometimes elegant formulations of ideas, but the actual understanding, the deep insight, almost never transfers directly from the speaker/author to you. It has to be reconstructed inside your own mind.
 
 The moment of true learning is when you close the book or pause the video and wrestle with the idea yourself:
+
 - Can I explain this to someone else in my own words?
 - Where does this break in real life?
 - What would be the opposite argument?

@@ -22,10 +22,10 @@ Here's a breakdown of its key features and benefits:
 * One of the most significant features of GraalVM is its ability to compile Java applications ahead-of-time (AOT) into **native executables**.
 * This process eliminates the need for a traditional JVM to run the application. The resulting native image contains everything the application needs to run, including the necessary parts of the runtime.
 * **Benefits of Native Images:**
-    * **Faster Startup Time:** Native executables start almost instantly, which is crucial for cloud-native applications and microservices.
-    * **Lower Memory Footprint:** Native images typically consume significantly less memory compared to running on a JVM.
-    * **Reduced Attack Surface:** By excluding unused code and the JIT compilation infrastructure, native images can improve security.
-    * **Smaller Deployment Size:** Native executables are often smaller and easier to package and deploy.
+  * **Faster Startup Time:** Native executables start almost instantly, which is crucial for cloud-native applications and microservices.
+  * **Lower Memory Footprint:** Native images typically consume significantly less memory compared to running on a JVM.
+  * **Reduced Attack Surface:** By excluding unused code and the JIT compilation infrastructure, native images can improve security.
+  * **Smaller Deployment Size:** Native executables are often smaller and easier to package and deploy.
 
 **3. High Performance:**
 

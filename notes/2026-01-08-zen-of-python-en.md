@@ -17,11 +17,13 @@ Answer:
 The **Zen of Python**, formally documented as **PEP 20** (Python Enhancement Proposal 20), is a collection of 19 guiding principles (aphorisms) for writing computer programs in the Python programming language. These principles capture the philosophy behind Python's design, emphasizing readability, simplicity, and elegance. Code that follows these guidelines is often described as "**Pythonic**."
 
 ### History and Origin
+
 The Zen of Python was written by **Tim Peters**, a long-time Python contributor and core developer (known for creating the Timsort algorithm and other contributions). He originally posted it in June 1999 on the Python mailing list as a humorous yet insightful summary of Python's design ethos, channeling the ideas of Guido van Rossum (Python's creator and former Benevolent Dictator for Life, or BDFL).
 
 Peters intentionally framed it as "20 aphorisms, only 19 of which have been written down," leaving the 20th one for Guido to fill in—a playful nod that remains unfilled to this day. In 2004, it was formalized as PEP 20, an informational PEP, and the PEP was numbered 20 as an inside joke referencing the "missing" principle.
 
 ### Accessing the Zen of Python
+
 One of Python's famous Easter eggs allows you to display the Zen directly in the interpreter:
 
 ```python
@@ -55,6 +57,7 @@ Namespaces are one honking great idea -- let's do more of those!
 ```
 
 ### The 19 Aphorisms Explained
+
 These principles are poetic and open to interpretation, but they generally promote clean, maintainable, and intuitive code. Here's a brief explanation of each:
 
 1. **Beautiful is better than ugly.**
@@ -115,6 +118,7 @@ These principles are poetic and open to interpretation, but they generally promo
     Enthusiastic endorsement of namespaces (e.g., modules, packages) for organizing code.
 
 ### Influence and Importance
+
 The Zen of Python has profoundly shaped Python's evolution and community culture. It influences language features, standard library design, and best practices. Following these principles leads to more maintainable, efficient, and collaborative code. Studies have shown that "Pythonic" code (aligned with the Zen) can improve performance and readability, and its usage has increased over time in open-source projects.
 
 While humorous and not strict rules, the Zen serves as a philosophical compass for Python developers, encouraging thoughtful design decisions.

@@ -33,4 +33,5 @@ type: note
 这些类别涵盖了沃尔玛在线库存的绝大部分，有数千种产品可供配送或到店取货。具体的布局可能会因季节或促销活动略有不同，但此结构反映了其核心构成。
 
 参考资料：
+
 - [Walmart.com 按部门购物](https://www.walmart.com/cp/shop-by-department/976759)

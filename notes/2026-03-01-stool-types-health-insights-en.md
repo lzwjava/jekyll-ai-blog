@@ -39,6 +39,7 @@ Here are the 7 types with their descriptions and typical health implications:
   → Indicates **severe diarrhea**. This is generally **not healthy** if frequent or persistent. It means food/water is passing through the intestines too quickly, so little water is absorbed.
 
 **Very watery/fluid stool (especially Type 7)** is usually unhealthy when it happens often or lasts more than a couple of days. Common causes include:
+
 - Infections (viruses like norovirus, bacteria, parasites)
 - Food poisoning
 - Medications (e.g., antibiotics)
@@ -53,6 +54,7 @@ Regarding your mention that very fluid stool sometimes means "we don't eat fresh
 **Very fluid types** (Types 6-7) suggest fast transit/diarrhea.
 
 To monitor health:
+
 - Aim for Types 3-4 most of the time.
 - Note frequency (normal is 3 times/day to 3 times/week), ease of passing, and other signs (blood, severe pain, weight loss, fever → see a doctor).
 - Persistent abnormal types (especially very watery or very hard) warrant consulting a healthcare professional, as they may signal dehydration, infection, nutrient malabsorption, or underlying conditions.

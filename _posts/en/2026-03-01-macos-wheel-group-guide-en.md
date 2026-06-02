@@ -16,11 +16,13 @@ type: note
 The **wheel** group in macOS is a special user group inherited from its BSD Unix roots.
 
 ### Historical Background
+
 - In traditional BSD Unix systems (which macOS is based on), the **wheel** group was used to control access to the `su` command (to become root/superuser).
 - Only users who were members of the **wheel** group were allowed to use `su` to gain root privileges.
 - The name "wheel" is slang for a powerful or important person ("big wheel").
 
 ### In modern macOS (including recent versions like macOS Ventura, Sonoma, Sequoia, etc.)
+
 - The **wheel** group's original administrative role has been largely replaced by the **admin** group.
 - Regular administrator accounts on macOS are added to the **admin** group (and usually also **staff**).
 - The **admin** group controls most elevated privileges, including the ability to use `sudo` without restrictions (via the `/etc/sudoers` file).
@@ -29,6 +31,7 @@ The **wheel** group in macOS is a special user group inherited from its BSD Unix
 - Normal admin users are **not** in the wheel group.
 
 ### Practical uses you might see today
+
 - Many system files and directories (especially in `/System`, `/usr`, `/bin`, etc.) list **wheel** as their group owner.
 - The `/private/tmp` (and therefore `/tmp`) directory is owned by group **wheel** → files you create there often show group **wheel** (this is normal and inherited from the parent directory; it doesn't give extra access because default permissions are usually 644/755).
 - You may see **wheel** in file permissions in Finder's "Get Info" window or when running `ls -l` in Terminal.

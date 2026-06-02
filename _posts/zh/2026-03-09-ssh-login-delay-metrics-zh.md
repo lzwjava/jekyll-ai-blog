@@ -30,6 +30,7 @@ time ssh user@hostname hostname
 ```
 
 **正常输出示例：**
+
 ```
 linux01.localdomain
 
@@ -39,11 +40,13 @@ sys     0m0.008s
 ```
 
 **异常输出（XZ 后门场景）：**
+
 ```
 real    0m0.620s     ← 500ms 无法解释的额外延迟！
 ```
 
 你也可以多次运行以确保一致性：
+
 ```bash
 for i in {1..5}; do time ssh user@host hostname; done
 ```
@@ -63,6 +66,7 @@ ssh -vvv user@hostname hostname     # 最大细节
 使用 `-vvv` 可以显示每个握手阶段的计时，因此你可以精确识别哪个阶段——TCP 连接、密钥交换、认证或 shell 启动——很慢。
 
 **示例输出，显示时间花费的位置：**
+
 ```
 debug1: Connecting to hostname [1.2.3.4] port 22.
 debug1: Connection established.
@@ -110,6 +114,7 @@ sshping -H user@hostname
 它报告：`ssh-Login-Time`（建立 TCP、认证并形成 SSH 会话的时间）、`Minimum-Latency`、`Median-Latency`、`Average-Latency`、`Maximum-Latency` 和传输速率——全部以人类可读格式。
 
 **示例输出：**
+
 ```
 ssh-Login-Time:   1.84 s
 Minimum-Latency:  633 us

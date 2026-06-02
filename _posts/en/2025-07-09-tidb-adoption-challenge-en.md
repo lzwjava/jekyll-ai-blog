@@ -20,6 +20,7 @@ The sharding path you mentioned is often seen as the "incremental" solution - co
 - Costs are more predictable
 
 However, this creates a narrow adoption window for TiDB. Companies typically consider it when:
+
 - They're already at massive scale where sharding becomes operationally complex
 - They're building new systems from scratch (greenfield projects)
 - They're hitting fundamental limitations of their sharded MySQL setup

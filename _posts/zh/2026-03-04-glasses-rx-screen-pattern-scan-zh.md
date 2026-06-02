@@ -17,7 +17,8 @@ type: note
 
 该 app 通过使用 iPhone 相机上的 **computer vision** 和 **graphics techniques** 扫描您当前的眼镜对，来测量您的眼镜 **prescription**（Rx 值：sphere/power、cylinder/astigmatism、axis）。它 **不**直接使用 laptop（过程仅通过 app 移动端），但 prescription 提取特别要求将眼镜举到显示 app 生成的特定 patterns 或 graphics 的 **flat computer screen**（laptop 或 monitor，大小 12"–27"）前。
 
-### prescription 测量工作原理 (Rx scan)：
+### prescription 测量工作原理 (Rx scan)
+
 - **要求**：
   - 您当前的眼镜对（要测量的镜片）。
   - 一张标准信用卡大小的带有 **magnetic strip** 的 card（例如，library card、club card；优先选择浅色以便可见；**不**一定是信用卡）。
@@ -36,6 +37,7 @@ type: note
 此方法从 single-vision 镜片中提取关键 prescription 值（精度：Rx 0.25D 内，PD 2 mm 内）。它是 FDA-listed、CE-marked 等，但不能替代专业眼科检查——它仅读取现有镜片。
 
 ### 独立但相关的：PD 测量
+
 - PD（pupillary distance）仅使用手机相机 + 相同的 magnetic card（举到眉毛上方用于 scale）。
 - PD 无需 laptop/screen。
 - 它捕捉您的脸部 + card 的照片/视频，使用 computer vision 检测瞳孔并通过 card 的已知尺寸进行 scale。

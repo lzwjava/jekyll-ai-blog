@@ -44,14 +44,14 @@ Chat 帮助翻译。因为文章有比较多的产品名词，所以翻译可能
 
 ## 网站
 
-* 法国, https://www.cdiscount.com
-* 全球, https://www.amazon.com
-* 日本, https://www.rakuten.com
-* 中国, https://jd.com
-* 韩国, https://www.coupang.com
-* 全球, https://www.ebay.com
-* 德国, https://www.otto.de
-* 北美, https://www.bestbuy.com
+* 法国, <https://www.cdiscount.com>
+* 全球, <https://www.amazon.com>
+* 日本, <https://www.rakuten.com>
+* 中国, <https://jd.com>
+* 韩国, <https://www.coupang.com>
+* 全球, <https://www.ebay.com>
+* 德国, <https://www.otto.de>
+* 北美, <https://www.bestbuy.com>
 
 ## 开始
 
@@ -163,7 +163,7 @@ i9和i7有什么区别？
 
 i9 13900
 
-https://cpu.userbenchmark.com/Compare/Intel-Core-i9-13900-vs-Intel-Core-i9-13900F/m1977296vsm1994287
+<https://cpu.userbenchmark.com/Compare/Intel-Core-i9-13900-vs-Intel-Core-i9-13900F/m1977296vsm1994287>
 
 ---
 
@@ -179,7 +179,7 @@ https://cpu.userbenchmark.com/Compare/Intel-Core-i9-13900-vs-Intel-Core-i9-13900
 
 ---
 
-https://versus.com/en/asus-prime-z790-p-d4-vs-msi-mag-b760m-mortar-max-wifi
+<https://versus.com/en/asus-prime-z790-p-d4-vs-msi-mag-b760m-mortar-max-wifi>
 
 ---
 
@@ -202,23 +202,24 @@ ASUS TUF Gaming Z790-Plus WiFi LGA 1700。
 
 ---
 
-https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/
+<https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/>
 
-https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/
+<https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/>
 
 ---
 
-https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-TRIO-12G/Specification
+<https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-TRIO-12G/Specification>
 
-https://www.intel.com/content/www/us/en/products/sku/230497/intel-core-i913900kf-processor-36m-cache-up-to-5-80-ghz/specifications.html
+<https://www.intel.com/content/www/us/en/products/sku/230497/intel-core-i913900kf-processor-36m-cache-up-to-5-80-ghz/specifications.html>
 
-https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI
+<https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI>
 
-https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html
+<https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html>
 
-https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf，正确连接高功耗显卡的PCIe电缆？
+<https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf，正确连接高功耗显卡的PCIe电缆？>
 
-https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive, 这个硬盘上的8针连接器是什么？
+<https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive>, 这个硬盘上的8针连接器是什么？
+
 ## 最终
 
 来自京东。
@@ -253,7 +254,7 @@ SATA 数据线，Cable Matters 3 包 90 度直角 SATA 数据线，长度 18 英
 
 ## 组装指南
 
-http://intel.cn/ProcessorInstall
+<http://intel.cn/ProcessorInstall>
 设置 CORSAIR CX-F RGB 系列电源供应器
 
 [https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html](https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html)

@@ -17,6 +17,7 @@ Answer:
 **Zhu Ziqing's 《春》 (Spring)** is one of the most famous and widely taught modern Chinese prose essays (散文) of the 20th century.
 
 ### Basic Information
+
 - **Author**: 朱自清 Zhu Ziqing (1898–1948)
 - **Written**: 1933
 - **First published**: 1937 in the collection *Youying* (《You Ying》  You Shadow / Back Shadow and Other Essays)
@@ -24,9 +25,11 @@ Answer:
 - **Style**: 抒情散文 (lyrical prose / prose poetry)
 
 ### Main Content in One Sentence
+
 The essay uses extremely delicate, colorful, and rhythmic language to portray the arrival of spring in the江南 (Jiangnan / south of the Yangtze River) region — from the very first signs of spring through to its full, vibrant blooming — while expressing the author's gentle joy, hope, and love for life.
 
 ### Famous Opening & Structure
+
 The most quoted opening lines:
 
 > 盼望着，盼望着，东风来了，春天的脚步近了。
@@ -41,6 +44,7 @@ The essay is usually divided into five natural sections:
 5. **春赞** (In praise of spring) — the famous ending that compares spring to a newly-wed bride, a vigorous young girl, and a child
 
 ### Most Famous Ending Paragraph
+>
 > 春天像刚睡醒的孩子，……
 > 春天像小姑娘，花枝招展的，笑着，走着。
 > 春天像健壮的青年，有铁一般的胳膊和腰脚，领着我们向前走。
@@ -48,6 +52,7 @@ The essay is usually divided into five natural sections:
 This lyrical triplet comparison ("spring is like…") is one of the most memorized and frequently quoted passages in Chinese middle-school education.
 
 ### Why It Is So Famous & Still Taught Today
+
 - Extremely beautiful and musical modern vernacular Chinese (白话文)
 - Perfect example of "painting with words" (以景抒情 — expressing emotion through scenery)
 - Pure, clean, optimistic emotion — almost no politics or darkness (very rare for 1930s Chinese literature)

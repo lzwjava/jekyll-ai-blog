@@ -31,7 +31,8 @@ Blocking Chinese posts on X based on specific words requires careful considerati
 19. 一个 (yī gè) - one (classifier for objects)
 20. 很 (hěn) - very
 
-### Notes on Blocking:
+### Notes on Blocking
+
 - **Over-filtering Risk**: Words like 的, 是, or 和 are so common that filtering them might block nearly all Chinese content, including non-Chinese posts with shared characters (e.g., Japanese or Korean). For example, 的 appears in almost every Chinese sentence.
 - **Context Matters**: These words are neutral and used in all types of posts (casual, formal, political, etc.). To target specific content (e.g., spam or propaganda), consider filtering topic-specific terms or phrases instead.
 - **Implementation**: On X, you can mute words via settings (Settings > Privacy and security > Muted > Muted words). Add these words or their simplified Chinese characters. Be aware that X’s mute feature may not catch all variations or posts with mixed languages.

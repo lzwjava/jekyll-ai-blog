@@ -15,7 +15,9 @@ Question: VLANs do not provide encryption; they only tag frames with VLAN IDs fo
 Answer:
 
 ### What Are Frames?
+
 In computer networking, particularly in Ethernet-based local area networks (LANs), data is transmitted in units called **frames**. An Ethernet frame is a structured packet of data that includes:
+
 - **Preamble and Start Frame Delimiter (SFD)**: For synchronization.
 - **Destination and Source MAC Addresses**: To identify the sender and receiver at the hardware level.
 - **EtherType/Length Field**: Indicates the protocol or length of the data.
@@ -25,6 +27,7 @@ In computer networking, particularly in Ethernet-based local area networks (LANs
 Frames operate at Layer 2 (Data Link Layer) of the OSI model. They are the basic units for switching and are encapsulated around higher-layer data like IP packets.
 
 ### What Are VLANs and Where Do They Run?
+
 VLANs (Virtual Local Area Networks) are a technology used to logically segment a physical network into multiple isolated broadcast domains. They run primarily on **network switches** (Layer 2 devices), which are responsible for implementing VLAN configurations. VLANs are defined by the IEEE 802.1Q standard and operate at the Data Link Layer (Layer 2).
 
 - **Where VLANs Run**:
@@ -36,6 +39,7 @@ VLANs (Virtual Local Area Networks) are a technology used to logically segment a
 VLANs help in improving security, reducing broadcast traffic, and organizing networks (e.g., separating departments like HR and Finance on the same physical infrastructure).
 
 ### How Are Frames Tagged, and When Are They Tagged?
+
 VLAN tagging adds a **VLAN ID (VID)** to Ethernet frames to identify which VLAN they belong to. This is done using the **IEEE 802.1Q protocol**, which inserts a 4-byte tag (called the 802.1Q tag or VLAN tag) into the frame header, right after the source MAC address.
 
 - **How Frames Are Tagged**:
@@ -55,6 +59,7 @@ VLAN tagging adds a **VLAN ID (VID)** to Ethernet frames to identify which VLAN 
   - Tagging is not done on access ports for end devices unless the device explicitly supports and requests tagging (e.g., via 802.1Q-aware software).
 
 ### How Do Computers Tag Frames?
+
 Computers (end hosts like PCs) typically do not tag frames themselves because most standard network interface cards (NICs) and operating systems handle untagged traffic. However, computers can tag frames if configured to do so:
 
 - **Requirements for Computer Tagging**:
@@ -73,6 +78,7 @@ Computers (end hosts like PCs) typically do not tag frames themselves because mo
 If a computer doesn't tag frames, the connected switch port (configured as an access port) will add the tag based on the port's default VLAN.
 
 ### How Does a Computer Know Its Frames Will Go to a VLAN?
+
 Computers generally do not "know" about VLANs inherently because VLANs are a switch-level abstraction. Instead:
 
 - **Switch Port Configuration Determines It**:

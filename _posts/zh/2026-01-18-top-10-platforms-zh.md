@@ -47,6 +47,7 @@ type: note
     独特的游戏化平台，具有多玩家对战（Clashes）、Bot 编程和优化类游戏。拥有活跃的社区和有趣的竞技元素。
 
 **备注**：
+
 - 针对纯粹的 **Competitive Programming**（排名、快速思维、硬核算法）：Codeforces > AtCoder > CodeChef > TopCoder。
 - 针对 **面试准备**（FAANG 风格题目）：LeetCode >> HackerRank > 其他。
 - 活跃程度随时间可能略有波动，但这些平台在 2025–2026 年的资料中持续显示出最高的参与度和比赛频率。

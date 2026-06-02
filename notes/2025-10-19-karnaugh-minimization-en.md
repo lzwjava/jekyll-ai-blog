@@ -19,6 +19,7 @@ Let's walk through a practical example of using a K-map to simplify a Boolean ex
 The goal is to minimize this into the fewest terms (and literals) possible, which reduces the number of logic gates in a circuit.
 
 #### Step 1: Construct the K-Map
+
 A 3-variable K-map is a 2x4 grid (or 4x2, but we'll use rows for AB and columns for C). The rows are labeled in Gray code order (00, 01, 11, 10) to ensure adjacent cells differ by only one bit. Place 1s in the cells corresponding to the minterms:
 
 | AB \ C | 0     | 1     |
@@ -31,6 +32,7 @@ A 3-variable K-map is a 2x4 grid (or 4x2, but we'll use rows for AB and columns 
 (Here, m1 = A'B'C, m2 = A'BC', m4 = AB'C', m7 = ABC.)
 
 #### Step 2: Group Adjacent 1s
+
 The key to minimization is finding the largest possible groups (rectangles or squares) of 1s that are adjacent (including wrap-around edges, like a torus). Each group must be a power of 2 (1, 2, 4, 8, etc.) in size. Groups can overlap.
 
 - **Group 1**: The two 1s in the left column (m2 and m4) form a vertical pair. They share A'B'C' wait no—analyzing bits: m2 (010) and m4 (100) differ only in A and B, but in Gray code, row 01 and 10 are adjacent. This group covers A changing, so it's B'C' (A is don't care).
@@ -78,6 +80,7 @@ So table:
 | **10** | 1     | 1     |
 
 #### Step 3: Identify Groups
+
 Now, group the 1s:
 
 - **Large group (4 1s)**: The entire left column (C=0): m0, m2, m6, m4. These are all cells where C=0, and AB varies—all adjacent in a column (wraps for rows). This covers **C'** (since C is 0, A and B don't care).
@@ -88,6 +91,7 @@ Now, group the 1s:
 To minimize, we choose non-overlapping or minimal covering groups that cover all 1s with largest sizes.
 
 Optimal:
+
 - Group 1: 4-cell vertical in col0: covers C' (all 1s there: m0,m2,m4,m6 → term: C')
 - Group 2: 2-cell horizontal in row00: m0 and m1 → A'B'
 - Group 3: 2-cell vertical wrap in col1 rows10 and 00? Wait, rows 00 and 10 are adjacent for col1: m1(001) and m5(101) → differ only in A, so B'C (A don't care).
@@ -97,7 +101,9 @@ m5 is covered, m1 covered.
 Note: m0 is in both group1 and group2, but that's OK—overlaps allowed.
 
 #### Step 4: Derive the Minimized Expression
+
 Each group becomes a product term (AND of the common literals):
+
 - Group 1 (C'): **C'**
 - Group 2 (A'B'): **A' B'**
 - Group 3 (B' C): **B' C**
@@ -109,6 +115,7 @@ Verify: This has 3 terms (vs original 6), fewer literals (4 vs 12), simpler circ
 You can plot this on a truth table to confirm it matches the original 1s.
 
 #### Why This Minimizes?
+
 - **Adjacency rule**: Groups only where variables change by one bit, ensuring the term ignores that variable (don't care = - in map).
 - **Largest first**: Bigger groups = fewer variables in term = simpler.
 - **Cover all 1s**: No 1 left out; 0s must stay 0 (don't group them).

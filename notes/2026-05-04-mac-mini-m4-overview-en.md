@@ -27,7 +27,7 @@ The Mac Mini is a **small desktop computer without a screen, keyboard, or mouse*
 
 The biggest change in this generation is the M4 chip.
 
-### Key improvements:
+### Key improvements
 
 * **Faster CPU & GPU** → smoother multitasking, coding, and creative work
 * **Improved Neural Engine** → better AI/ML performance (useful for modern apps, LLM tools, etc.)
@@ -65,7 +65,7 @@ The Mac Mini M4 is suitable for:
 * **Silent (no loud fans in most cases)**
 * Minimal desk footprint
 
-### Typical ports:
+### Typical ports
 
 * USB-C / Thunderbolt
 * HDMI

@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What are some unpopular opinions or criticisms about SSSAICode at https://www.sssaicode.com? Is this service good? Compare it with https://v2-as.pincc.ai/home? How do people talk about it? What are its good uses? Especially in the Chinese community or in China?
+**Question:** What are some unpopular opinions or criticisms about SSSAICode at <https://www.sssaicode.com>? Is this service good? Compare it with <https://v2-as.pincc.ai/home>? How do people talk about it? What are its good uses? Especially in the Chinese community or in China?
 
 **Answer:**
 
@@ -20,13 +20,15 @@ Yes, it is generally regarded as reliable and good value in its niche. Community
 
 **Unpopular opinions or criticisms**
 While overwhelmingly positive, a few less common or critical views exist:
+
 - It is still a third-party dependency—occasional node disruptions or "抽风" (glitches) have been reported (common to all relays), and users are advised not to preload large balances in case of service changes.
 - It sits in the middle tier: more stable and transparent than ultra-cheap alternatives (e.g., some bottom-tier proxies), but not the absolute cheapest per dollar; some users switched to competitors like aicodemirror.com for perceived better uptime after price tweaks or Cloudflare-related issues.
 - No revolutionary features—just solid infrastructure—so advanced users who want full control or quota pooling sometimes prefer self-hosted options instead.
 These criticisms are minor and not widespread; most developers still recommend it with the caveat "按需充值" (recharge only what you need).
 
-**Comparison with https://v2-as.pincc.ai/home (PinCC / Sub2API)**
+**Comparison with <https://v2-as.pincc.ai/home> (PinCC / Sub2API)**
 Both are AI API relay/gateway services aimed at making Claude Code, Codex, Gemini, etc., accessible without hassle, but they differ in approach:
+
 - **SSSAICode** is a fully hosted, China-direct proxy service focused on speed, low cost, and ease for individual or team users who bring their own API keys. It emphasizes domestic nodes, usage tracking, and pay-as-you-go flexibility with no self-hosting required.
 - **PinCC (v2-as.pincc.ai and pincc.ai)** is the hosted version of the open-source Sub2API project—an API gateway for quota distribution and "拼车" (carpool/shared subscription) management. It lets teams split expensive subscriptions (e.g., Claude Max $200/mo) across users, supports multiple providers in one interface, offers self-hosting for full privacy/control, and includes load balancing + token stats. The v2-as subdomain appears to be their Asia/Version 2 hosted gateway.
 In short: Choose SSSAICode for simple, cheap, China-optimized proxy access without managing infrastructure. Choose PinCC if you want quota sharing, self-hosting flexibility, or unified management across subscriptions. No public head-to-head reviews directly compare the two, but they solve overlapping pain points for Chinese developers.
@@ -35,6 +37,7 @@ In short: Choose SSSAICode for simple, cheap, China-optimized proxy access witho
 In Chinese developer communities, SSSAICode is spoken of positively and practically: "稳定低价" (stable and cheap), "国内直连无需翻墙" (direct China connection, no VPN), "用量统计清晰" (clear usage stats), and "性价比高" (high cost-performance). It is frequently listed in recommendation roundups, GitHub gists, and forum threads as a go-to solution. Discussions are pragmatic rather than hype-filled—users share setup commands, compare pricing, and note the status page for transparency.
 
 **Good uses**
+
 - Daily AI-assisted coding (code generation, debugging, refactoring large repos, task decomposition) via Claude Code / Codex / Gemini CLI.
 - Teams or studios needing centralized usage analytics and billing transparency.
 - Heavy users who benefit from pay-as-you-go (no wasted monthly quotas) and the recharge bonus.
@@ -47,6 +50,7 @@ This is exactly its core audience and where it shines most. Chinese forums (V2EX
 Overall, SSSAICode is a solid, no-frills choice if you just want reliable, affordable access to AI coding tools from China. If your needs lean toward subscription sharing or self-hosting, check PinCC instead.
 
 **References:**
+
 - [https://www.sssaicode.com](https://www.sssaicode.com)
 - [https://pincc.ai](https://pincc.ai) (and related Sub2API GitHub)
 - Community gist overview: [https://gist.github.com/uzvls2/f6e2d17b7dde7c3e50668c631f3315f7](https://gist.github.com/uzvls2/f6e2d17b7dde7c3e50668c631f3315f7)

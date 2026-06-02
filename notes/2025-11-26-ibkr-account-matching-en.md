@@ -13,12 +13,14 @@ type: note
 It sounds like you're setting up or using a bank account for withdrawals in Interactive Brokers (IBKR), and you're concerned about how the account holder's name (e.g., your name or the institution's) is formatted—specifically, using all uppercase letters in your bank setup versus how it appears with only the first letter capitalized (title case) in IBKR. I'll break this down and explain how to handle withdrawals safely.
 
 ### Key Points on Bank Account Names in IBKR
+
 - **Name Matching is Critical**: For security and anti-money laundering (AML) reasons, IBKR requires the account holder's name on the bank to **exactly match** the name on your IBKR account. This includes spelling, order, and potentially formatting like capitalization. Mismatches can cause rejections, delays, or returns of funds.
   - IBKR's system is case-sensitive for verification, especially during bank linking (e.g., via ACH). If your bank shows "JOHN DOE" (all caps) but IBKR displays "John Doe" (title case), it may flag as a mismatch.
 - **Why the Difference?** Banks often store or display names in all caps for legal or system reasons (e.g., on statements or wire instructions). IBKR pulls your name from your account profile, which is typically in title case unless you specified otherwise during signup.
 - **No Specific Guidance on Case**: IBKR's official docs emphasize "exact match" but don't explicitly address capitalization. User reports (e.g., on forums) suggest minor case differences usually work if the core name/spelling aligns, but to avoid issues, standardize it.
 
 ### How to Handle This for Withdrawals
+
 To withdraw funds (e.g., via ACH, wire, or other methods), follow these steps in the IBKR Client Portal. Aim to set up or edit your bank info to match exactly—use title case if that's how IBKR shows your name.
 
 1. **Log In to Client Portal**:
@@ -44,6 +46,7 @@ To withdraw funds (e.g., via ACH, wire, or other methods), follow these steps in
    - Processing: 1-2 business days for ACH; 1-5 for wires. Track in **Transfer & Pay > Transaction Status**.
 
 ### Tips to Avoid Problems
+
 - **Test Small**: For first-time setups, withdraw a tiny amount (e.g., $10) to confirm it posts correctly.
 - **Update IBKR Profile if Needed**: If your IBKR name is wrong, edit it in **Settings > Account Settings** (may require ID verification).
 - **Fees & Limits**: Free first withdrawal/month; others $1-10 depending on method. Max $1M/day typically.
@@ -52,6 +55,7 @@ To withdraw funds (e.g., via ACH, wire, or other methods), follow these steps in
 If the case mismatch persists or causes an error, IBKR support can manually review—open a ticket with screenshots of your bank name vs. IBKR display.
 
 ### References
+
 - [IBKR Withdrawal Guide](https://www.ibkrguides.com/clientportal/transferandpay/enterwithdrawal.htm)
 - [IBKR ACH Instructions](https://ibkr.info/node/567)
 - [Reddit Discussion on Name Matching](https://www.reddit.com/r/interactivebrokers/comments/kol6gq/can_you_use_different_names_with_withdrawals/)

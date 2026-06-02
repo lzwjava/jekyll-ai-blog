@@ -44,8 +44,8 @@ type: note
 
 参考资料：
 
-- https://en.wikipedia.org/wiki/History_of_London_(1900%E2%80%931939)
-- https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)
-- https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)
-- https://www.britannica.com/place/London/Reconstruction-after-World-War_II
-- https://en.wikipedia.org/wiki/History_of_London
+- <https://en.wikipedia.org/wiki/History_of_London_(1900%E2%80%931939)>
+- <https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)>
+- <https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)>
+- <https://www.britannica.com/place/London/Reconstruction-after-World-War_II>
+- <https://en.wikipedia.org/wiki/History_of_London>

@@ -18,7 +18,7 @@ Here’s how you can install **OpenJDK 8** (Java SE 8) on macOS in **2025**, wit
 
 This remains one of the simplest ways to install OpenJDK 8 on macOS.
 
-### Steps:
+### Steps
 
 1. Open Terminal.
 
@@ -60,7 +60,7 @@ Then proceed with the symlink and PATH setup ([Stack Overflow][2]).
 
 SDKMAN is a flexible tool for installing and switching between multiple Java versions.
 
-### Quick install:
+### Quick install
 
 ```bash
 curl -s "https://get.sdkman.io" | bash

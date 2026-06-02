@@ -12,7 +12,8 @@ type: note
 
 GreptimeDB 作为一款面向可观测性数据（如指标、日志和追踪）的开源云原生时序数据库，其查询引擎完全构建于 Apache DataFusion 之上，因此将 DataFusion 作为核心依赖。DataFusion 是一个用 Rust 编写的高性能、可扩展的查询规划、优化与执行框架，通过利用 Apache Arrow 的内存列式数据格式实现高效处理。
 
-### 核心依赖关系的关键原因：
+### 核心依赖关系的关键原因
+
 - **性能与效率**：DataFusion 借助 Arrow 的零拷贝数据模型实现快速查询执行，该模型能最小化序列化开销并支持向量化操作。这对于 GreptimeDB 在处理海量时序数据时保持高速查询至关重要。
 
 - **可扩展性与定制化**：GreptimeDB 对 DataFusion 进行了时序特化功能扩展，包括：

@@ -65,6 +65,7 @@ The instance belongs to the **gn7t** family. Based on the naming convention (`gn
 | **File Backup** | Activated |
 
 **Notes on Storage:**
+
 - PL0 is the entry-level ESSD tier with a max of 10,000 IOPS. For heavy I/O workloads (e.g., large model training), consider upgrading to **PL1** (50,000 IOPS) or **PL2** (100,000 IOPS).
 - 40 GiB system disk is relatively small for AI/ML workloads — you may want to add a data disk or increase the system disk size if you plan to store large datasets or model weights.
 
@@ -85,11 +86,13 @@ The instance belongs to the **gn7t** family. Based on the naming convention (`gn
 ## Overall Assessment
 
 **Strengths:**
+
 - Solid GPU compute instance for AI inference, model serving, image/speech recognition
 - Ubuntu 24.04 with security hardening is a good baseline for production workloads
 - Pay-As-You-Go is flexible for testing and variable workloads
 
 **Potential Concerns:**
+
 - **System disk is only 40 GiB** — this is tight for most AI/ML use cases; consider expanding or adding a data disk
 - **PL0 disk performance** may be a bottleneck for I/O-intensive tasks
 - **Key pair not selected yet** — make sure to configure this before launch to avoid being locked out

@@ -39,6 +39,7 @@ type: note
 这些观点在中国内部（因为它们威胁到党的合法性）或外部（因为它们与汉学浪漫主义和简单的反华情绪相冲突）都不受欢迎。它们由像Victor Mair、Patricia Ebrey、葛剑雄以及一些流亡的中国历史学家等学者捍卫，尽管很少出现在主流教科书中。
 
 参考文献：
+
 - [中国的连续性与变迁 (葛剑雄讲座，各种翻译的中国资料)](https://www.chinaheritagequarterly.org/)
 - [历史的暴政 – Jens P. Becker](https://www.amazon.com/Tyranny-History-Classicists-Chinese-Tradition/dp/014016680X)
 - [中国人口欺诈与历史人口学辩论 (葛剑雄的各种论文)](http://www.iq.harvard.edu/files/carr/files/gejianxiongpresentation.pdf)

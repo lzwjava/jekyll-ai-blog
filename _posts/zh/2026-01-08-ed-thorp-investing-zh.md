@@ -18,7 +18,7 @@ Answer:
 
 Edward Oakley Thorp（生于 1932 年 8 月 14 日）是一位美国数学家、前教授、作家和 Hedge Fund Manager，被广泛誉为 "Father of Quantitative Investing"（量化投资之父）以及金融界量化革命的先驱。他将概率论和数学模型应用于赌博和金融市场，并在两个领域都取得了非凡的成功。
 
-### Key Contributions to Investing:
+### Key Contributions to Investing
 
 - **Pioneer of Quantitative Strategies**: Thorp 是最早使用数学和统计方法利用市场低效（Market Inefficiencies）的人之一。他开发了一个类似于（且早于）著名的 Black-Scholes Model 几年的 Option Pricing Model，并于 1967 年开始私人使用该模型。
 

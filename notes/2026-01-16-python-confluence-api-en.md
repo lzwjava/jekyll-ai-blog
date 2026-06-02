@@ -17,6 +17,7 @@ type: note
 The most popular and maintained Python library for interacting with Confluence (and other Atlassian products) is **atlassian-python-api**.
 
 ### Installation
+
 ```bash
 pip install atlassian-python-api
 ```
@@ -24,6 +25,7 @@ pip install atlassian-python-api
 ### Basic Usage to Create a Page
 
 #### 1. For Confluence **Server / Data Center**
+
 Use username + password (or personal access token in newer versions).
 
 ```python
@@ -49,9 +51,10 @@ print(status)  # Returns dict with the created page info if successful
 ```
 
 #### 2. For Confluence **Cloud**
+
 Use your **email** + **API token** (recommended).
 
-Generate token at: https://id.atlassian.com/manage-profile/security/api-tokens
+Generate token at: <https://id.atlassian.com/manage-profile/security/api-tokens>
 
 ```python
 from atlassian import Confluence
@@ -76,6 +79,7 @@ print(new_page['_links']['webui'])  # Relative link to view the page
 ```
 
 #### 3. Create a child / sub-page (most common real use case)
+
 ```python
 parent_page_id = '123456789'   # Get this from confluence.get_page_id(space, title) or manually
 
@@ -89,6 +93,7 @@ confluence.create_page(
 ```
 
 #### 4. Other useful create_page parameters
+
 - `type`: `'page'` (default) or `'blogpost'`
 - `representation`: `'storage'` (XHTML, recommended), `'wiki'` (Confluence wiki markup), `'atlas_doc_format'` (ADF – newer Cloud format)
 - `editor`: `'v2'` (default in recent versions)
@@ -96,6 +101,7 @@ confluence.create_page(
 - `minor_edit`: `True` (when updating – doesn't notify watchers)
 
 #### 5. Recommended modern Cloud approach (using newer split classes)
+
 ```python
 from atlassian.confluence import ConfluenceCloud
 
@@ -113,14 +119,15 @@ confluence.create_page(
 ```
 
 ### Troubleshooting Tips
+
 - **401 Unauthorized** → Wrong token/email or insufficient "Add Pages" permission in the space.
 - **403 Forbidden** → Missing space permissions or restricted space.
 - **Body format issues** → Use `'storage'` representation for HTML/XHTML. For macro-heavy pages, copy HTML from an existing page (via ?expand=body.storage).
 - Always check the returned dict – it contains `'id'`, `'title'`, `'_links'`, etc.
 
-More examples: https://github.com/atlassian-api/atlassian-python-api/tree/master/examples/confluence
+More examples: <https://github.com/atlassian-api/atlassian-python-api/tree/master/examples/confluence>
 
-Full documentation: https://atlassian-python-api.readthedocs.io/confluence.html
+Full documentation: <https://atlassian-python-api.readthedocs.io/confluence.html>
 
 **References:**
 

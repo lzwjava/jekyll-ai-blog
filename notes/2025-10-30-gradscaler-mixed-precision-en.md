@@ -17,6 +17,7 @@ type: note
 ### Why Use `GradScaler`?
 
 In mixed-precision training:
+
 - **Forward/backward passes** use `float16` for speed and memory savings.
 - **Gradients** computed in `float16` may become very small → **underflow to zero**.
 - `GradScaler` scales the **loss** by a factor (e.g., 2¹⁵ = 32768) before the backward pass.

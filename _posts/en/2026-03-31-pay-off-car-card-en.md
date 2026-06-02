@@ -22,6 +22,7 @@ type: note
 ### ✅ How to Apply for Early Full Repayment
 
 You can apply through the following channels:
+
 1. **Call customer service** at **95508** or **400-830-8003**
 2. **Online banking or Mobile App** — Log in, go to the installment payment section, select your installment order, and tap "Early Repayment" (提前还款申请). The system will automatically calculate the total amount due including remaining principal and any applicable fees.
 
@@ -44,6 +45,7 @@ However, 广发银行 has historically been slightly more favorable compared to 
 ### 💰 Estimated Fee Calculation for Your 27,000 CNY Debt
 
 广发银行's standard installment fee rates are:
+
 - **6-month or 12-month plans**: 0.65% per month
 - **18-month or 24-month plans**: 0.70% per month
 

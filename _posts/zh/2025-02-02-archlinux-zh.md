@@ -12,13 +12,13 @@ type: post
 联想小新14IAH8笔记本电脑。
 
 ```bash
-$ diskutil list
+diskutil list
 ```
 
 > /dev/disk6 (external, physical):
->   #:                       TYPE NAME                    SIZE       IDENTIFIER
->   0:     FDisk_partition_scheme                        *30.8 GB    disk6
->   1:             Windows_FAT_32 NO NAME                 30.8 GB    disk6s1
+> #:                       TYPE NAME                    SIZE       IDENTIFIER
+> 0:     FDisk_partition_scheme                        *30.8 GB    disk6
+> 1:             Windows_FAT_32 NO NAME                 30.8 GB    disk6s1
 
 ```bash
 % diskutil unmountDisk /dev/disk6

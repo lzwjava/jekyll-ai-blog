@@ -9,6 +9,7 @@ type: note
 ---
 
 ### 关键要点
+
 - services.msc 似乎是用于管理 Windows 服务的工具，在此处检查 SMS 代理主机服务对解决下载问题至关重要。
 - 研究表明 adaptiveclient 很可能是 Adaptiva 客户端服务，属于系统管理工具的一部分，可能与 Configuration Manager 冲突，从而影响下载。
 - 证据倾向于认为 wmi 性能适配器是提供性能数据的 Windows 服务，Configuration Manager 会使用该服务，应保持运行以确保功能正常。
@@ -17,6 +18,7 @@ type: note
 ---
 
 ### 这些服务及其作用是什么？
+
 **services.msc 概述**
 services.msc 是用于服务的 Microsoft 管理控制台，允许您查看和管理 Windows 计算机上的所有服务。要修复软件中心下载问题，您应使用它来确保 sms 代理主机服务正在运行。如果未运行，启动它可能会解决问题。
 
@@ -30,7 +32,9 @@ wmi 性能适配器是一项 Windows 服务，通过 Windows Management Instrume
 sms 代理主机是在计算机上运行 Configuration Manager 客户端的服务 ([关于 Configuration Manager 客户端管理的 Microsoft 文档](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients))。它对于软件中心和部署至关重要。如果它未运行，下载将无法进行。
 
 ### 它们与修复下载问题的关系
+
 要修复软件中心下载卡在 0% 的问题，请按照以下步骤操作：
+
 - 打开 services.msc 并确保 sms 代理主机服务正在运行。如果未运行，请启动它。
 - 检查 wmi 性能适配器服务是否正在运行，因为某些 Configuration Manager 功能可能需要它。
 - 如果 adaptiveclient 正在运行并可能产生干扰，请考虑停止它或向 Adaptiva 的支持寻求进一步帮助。
@@ -121,6 +125,7 @@ sms 代理主机服务，也称为 CcmExec.exe，是安装在受管设备上的 
 ---
 
 ### 关键引用
+
 - [Adaptiva 官方网站，全面的端点管理解决方案](https://adaptiva.com)
 - [关于 Configuration Manager 客户端管理的 Microsoft 文档，在 ConfigMgr 中管理客户端](https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/manage-clients)
 - [排查 WMI 性能问题，解决 WMI 性能问题的指南](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/scenario-guide-troubleshoot-wmi-performance-issues)

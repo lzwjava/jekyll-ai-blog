@@ -17,11 +17,13 @@ In 2025, the code editor landscape is crowded with excellent options like Visual
 I'll break this down: key differences, Sublime's strengths, and when/why to choose it over the others.
 
 #### 1. **Quick Overview of the Editors**
+
 - **VS Code (Microsoft, free/open-source-ish)**: A full-featured editor-IDE hybrid. It's the default for most developers due to its massive extension marketplace (30,000+), built-in Git integration, integrated terminal, debugging, and AI tools (e.g., GitHub Copilot). It's Electron-based, so it's cross-platform but can feel heavy.
 - **Zed (Zed Industries, free/open-source)**: A newer entrant (launched 2023, rapidly evolving in 2025). Built in Rust with GPU acceleration for blazing speed, it emphasizes collaboration (real-time multiplayer editing), AI integration, and low latency. It's lightweight, supports languages out-of-the-box, and focuses on "the future of editing" with features like agentic workflows. Great for teams and modern stacks.
 - **Sublime Text (Sublime HQ, $99 one-time license; unlimited eval available)**: A lightweight, minimalist editor from 2008 (still updated). It's not open-source (proprietary), focuses on core editing without built-ins like terminals. Extensible via Package Control (thousands of plugins), but it's all about performance and customization.
 
 #### 2. **Key Differences**
+
 Here's a side-by-side comparison based on 2025 realities (assuming continued trends: VS Code's dominance, Zed's growth, Sublime's steady niche appeal).
 
 | Feature/Aspect          | Sublime Text                          | VS Code                              | Zed                                  |
@@ -39,11 +41,13 @@ Here's a side-by-side comparison based on 2025 realities (assuming continued tre
 | **Updates/Maintenance** | Steady (Sublime Text 4 since 2021; frequent patches). Not as rapid as open-source. | Frequent (monthly); huge momentum. | Rapid (weekly-ish); actively developed. |
 
 **Core Philosophy Differences**:
+
 - **VS Code**: "Swiss Army Knife"—everything via extensions. It's become an IDE for web/devops/ML. But this leads to "extension hell" (conflicts, slowdowns).
 - **Zed**: "Speed + Future-Proof"—Optimized for 2025+ workflows like AI-assisted coding and remote collab. It's challenging VS Code's speed while adding collaboration.
 - **Sublime**: "Elegant Minimalism"—Do one thing (editing) exceptionally well. It's for users who want a tool that "gets out of the way" and lets you build your perfect setup.
 
 #### 3. **What's Sublime Text's Strength? Why Choose It in 2025?**
+
 Sublime isn't trying to be an all-in-one like VS Code or a collab powerhouse like Zed—it's a **speed demon and custom powerhouse** for focused editing. Here's why it still thrives:
 
 - **Unmatched Performance**: In 2025, with ever-larger codebases (e.g., monorepos with 1M+ lines), Sublime's C++ core makes it feel "snappy" everywhere. No jank on scrolling massive files, instant search/replace. Zed is close, but Sublime edges it on legacy hardware or pure editing tasks. VS Code often needs tweaks (e.g., disabling extensions) to match.
@@ -61,12 +65,14 @@ Sublime isn't trying to be an all-in-one like VS Code or a collab powerhouse lik
   - **Cost-Effective Long-Term**: One payment, no ads/subscriptions. The eval is so good, many stick with it.
 
 **Real-World Strengths in 2025**:
+
 - Editing configs/scripts quickly (e.g., JSON/YAML without VS Code's slowness).
 - Handling huge logs or data files (e.g., parsing terabyte datasets).
 - Custom workflows: Bind keys for anything; no waiting for extension updates.
 - Still popular in communities like Reddit's r/SublimeText or for macOS devs.
 
 #### 4. **When to Choose Each (Recommendations)**
+
 - **Pick VS Code** if: You want an all-in-one with easy extensions, debugging, or team tools. It's the safe, versatile choice for most (web, Python, JS). If you're new or in a job requiring it, start here.
 - **Pick Zed** if: Speed + collaboration matters (e.g., remote teams, AI coding). It's the "hot new thing" in 2025—try it for modern langs like Rust/Go. Great if you like Sublime's speed but want built-ins.
 - **Pick Sublime** if: You crave raw performance, hate bloat, and enjoy tweaking. It's ideal for solo devs, sysadmins, or as a secondary editor (e.g., VS Code for projects, Sublime for quick files). If `subl .` feels magical, stick with it—many pros do.

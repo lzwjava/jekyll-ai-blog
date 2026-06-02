@@ -55,7 +55,7 @@ Tramiel’s leadership turned Commodore into a **global computing powerhouse**, 
 * Best-selling personal computer **of all time** (est. 17–30 million units sold).
 * Popular for its low price, color graphics, sound, and expandability.
 
-### 💬 Famous Quote:
+### 💬 Famous Quote
 
 > "We need to build computers for the masses, not the classes."
 

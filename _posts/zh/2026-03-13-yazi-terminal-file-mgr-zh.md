@@ -11,11 +11,11 @@ type: note
 
 我会搜索关于 Yazi 的全面信息，为您提供这个文件管理工具的详细介绍。让我搜索更多关于 Yazi 的插件和用例的信息。---
 
-## 问题：
+## 问题
 
 什么是 Yazi 这个文件管理工具的全面介绍？
 
-## 答案：
+## 答案
 
 ### 概述
 
@@ -79,7 +79,7 @@ Yazi 特别适合开发者和终端爱好者，他们希望通过现代、可自
 
 ---
 
-## 参考资料：
+## 参考资料
 
 - [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - [https://yazi-rs.github.io/](https://yazi-rs.github.io/)

@@ -30,24 +30,31 @@ The founders identified several frustrations with the existing conference ecosys
 ## Key Characteristics
 
 ### 1. Journal, Not a Conference
+
 TMLR emphasizes **technical correctness over subjective significance**, ensuring it facilitates scientific discourse on topics that may not yet be accepted in mainstream venues but may be important in the future.
 
 ### 2. Conference-Style Format
+
 TMLR caters to shorter format manuscripts that are usually submitted to conferences, providing fast turnarounds and **double blind reviewing**. It employs a rolling submission process, shortened review period, flexible timelines, and variable manuscript length, to enable deep and sustained interactions among authors, reviewers, editors, and readers.
 
 ### 3. No Overlap Policy
+
 TMLR does **not accept submissions that have any overlap with previously published work.**
 
 ### 4. Anytime Submission
+
 Being a journal, TMLR accepts submissions **throughout the year** via a rolling review process executed on a per-paper timeline.
 
 ### 5. Fast Turnaround
+
 TMLR targets providing **reviews within 4 weeks** of submission and **decisions within 2 months**.
 
 ### 6. Acceptance Criteria
+
 Acceptance avoids judgments based on subjective, editorial, or speculative elements of typical conference decisions (such as novelty and potential for impact). Instead, acceptance is **based on the validity and correctness of the claims**.
 
 ### 7. Open & Transparent Review
+
 TMLR's review process is hosted by **OpenReview**, making it open and transparent to the community.
 
 ---

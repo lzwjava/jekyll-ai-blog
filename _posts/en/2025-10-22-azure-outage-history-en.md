@@ -41,6 +41,7 @@ Microsoft Azure, launched in 2010, has experienced several significant outages o
 These incidents represent a fraction of total events but the most disruptive based on scope and duration. Microsoft typically issues post-incident reviews (PIRs) for learning, and availability has improved over time, with SLAs targeting 99.99% uptime.
 
 ## References
+
 - [A History of Microsoft Azure Outages](https://www.datacenterknowledge.com/outages/a-history-of-microsoft-azure-outages)
 - [Microsoft Azure Outage History Overview](https://statusgator.com/blog/azure-outage-history/)
 - [Azure Status History](https://azure.status.microsoft/en-us/status/history/)

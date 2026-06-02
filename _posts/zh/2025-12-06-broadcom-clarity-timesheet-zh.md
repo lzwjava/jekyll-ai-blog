@@ -10,17 +10,20 @@ translated: true
 type: note
 ---
 
-### 问题：全面介绍 Broadcom 的 Clarity 工时表系统。
+### 问题：全面介绍 Broadcom 的 Clarity 工时表系统
 
 ### 回答
 
 #### Broadcom Clarity PPM 概览
+
 Broadcom 的 Clarity，前身为 CA Project & Portfolio Management (CA PPM)，是一个全面的企业软件平台，专为项目与服务组合管理 (PPM) 而设计。它使组织能够将项目与业务战略对齐，优化资源分配，并跟踪跨组合的财务绩效。Clarity 于 2018 年被 Broadcom 收购，支持本地部署和 SaaS 部署，提供路线图、财务规划、资源管理和需求履行工具。Clarity 的核心是整合了模块化组件，以促进端到端项目生命周期管理，重点关注敏捷性、可扩展性和数据驱动的决策。截至 2025 年，最新版本（例如 16.x）强调现代用户体验 (New UX) 与移动可访问性和 AI 增强功能。
 
 #### 工时表系统简介
+
 Clarity 中的工时表系统是资源管理和财务管理功能中的一个关键模块。它允许团队成员、项目经理和资源准确地捕获和报告在任务、项目或其他投资（例如，计划或非项目投资）上花费的时间。该系统超越了简单的工时记录，通过在任务级别实现精细跟踪、支持用于计费的费用代码以及与成本计算（用于预算和预测）集成，从而实现更强大的功能。工时表对于合规性、资源利用率分析以及确保实际工作量与计划估计相符至关重要。
 
 主要目的包括：
+
 - **时间跟踪和报告**：记录每天或定期在特定任务上花费的小时数，以提供资源生产力的可见性。
 - **成本管理**：将时间数据输入财务模型，用于挣值管理 (EVM)、已完成工作实际成本 (ACWP) 和在制品 (WIP) 过账。
 - **资源优化**：帮助 PMO (Project Management Offices) 评估分配、识别瓶颈，并根据实时数据调整人员配置。
@@ -29,6 +32,7 @@ Clarity 中的工时表系统是资源管理和财务管理功能中的一个关
 Clarity 中的工时表是可配置的，支持经典和现代界面，可通过网络、移动应用程序以及与 Microsoft Excel 等工具的集成（用于批量编辑）进行访问。
 
 #### 工时表系统的主要功能
+
 Clarity 的工时表模块功能丰富，将可用性与企业级控制融为一体。以下是核心功能的细分：
 
 | 功能 | 描述 | 优势 |
@@ -44,6 +48,7 @@ Clarity 的工时表模块功能丰富，将可用性与企业级控制融为一
 这些功能受访问权限控制，管理员通过 Administration > Timesheets 工作区配置默认值。
 
 #### 工时表系统如何运作
+
 工时表流程遵循结构化的工作流：
 
 1. **访问和设置**：登录 Clarity（通过网络或移动设备）。如果获得工时表访问权限，从主菜单导航到工时表页面。管理员为现代 UX 启用“新工时表”，如果需要，重置自定义布局。
@@ -61,17 +66,20 @@ Clarity 的工时表模块功能丰富，将可用性与企业级控制融为一
 例如，一名开发人员每天在一个任务上记录 8 小时；经批准后，这会实时更新项目成本和资源利用率仪表板。
 
 #### 优势和用例
+
 - **对于团队**：简化跟踪，节省手动电子表格的时间；移动输入提高了合规率。
 - **对于经理/PMO**：提供准确的数据进行预测，根据 Broadcom 案例研究，减少 20-30% 的超支。
 - **企业级**：与路线图和财务集成，实现全面的 PPM；通过将时间与价值交付联系起来，支持敏捷转型。
 用例涵盖 IT 服务（收费计费）、咨询（客户开票）和研发（组合优先级）。
 
 #### 最新发展（截至 2025 年）
+
 Clarity 的工时表随着 New UX 的增强而发展，包括用于规则的 Beta 工作区和用于自定义集成的改进 Hook。版本 16.x 引入了更好的终止处理（例如，阻止终止后输入）和类似 Excel 的费用跟踪。未来的路线图暗示了 AI 驱动的时间输入异常检测。
 
 总而言之，Broadcom Clarity 的工时表系统是一个强大、集成的工具，它将原始时间数据转换为可操作的见解，使组织能够高效、盈利地交付项目。
 
 ### 参考文献
+
 - [Clarity 入门](https://techdocs.broadcom.com/us/en/ca-enterprise-software/business-management/clarity-project-and-portfolio-management-ppm-on-premise/16-1-3/Getting-Started.html)
 - [输入工时并提交工时表](https://techdocs.broadcom.com/us/en/ca-enterprise-software/business-management/clarity-project-and-portfolio-management-ppm-on-premise/16-3-0/using/new-user-experience-enter-hours-and-submit-a-timesheet.html)
 - [设置工时表规则](https://techdocs.broadcom.com/us/en/ca-enterprise-software/business-management/clarity-project-and-portfolio-management-ppm-on-premise/16-2-1/using/Getting-Started-with-Clarity-Administration/setting-up-rules-for-timesheets.html)

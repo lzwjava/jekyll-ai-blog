@@ -32,9 +32,9 @@ Here is a comparative breakdown of the key factors:
 ### 💰 Divergent Monetization: Subscription vs. Ecosystem
 
 - **TME's Ecosystem Approach:** Beyond standard subscriptions, TME has built a comprehensive revenue ecosystem around fandom. This includes:
-    - **Higher-tier memberships:** The Super VIP tier, which now has over 15 million subscribers, offers premium sound quality and artist-centric privileges .
-    - **Direct fan monetization:** Selling digital albums (which are often free on Spotify), concert tickets, and artist merchandise directly on the platform .
-    - **Fan communities:** Introducing features like "Bubble," which allows fans to interact with artists for a monthly fee, further deepening engagement and spending .
+  - **Higher-tier memberships:** The Super VIP tier, which now has over 15 million subscribers, offers premium sound quality and artist-centric privileges .
+  - **Direct fan monetization:** Selling digital albums (which are often free on Spotify), concert tickets, and artist merchandise directly on the platform .
+  - **Fan communities:** Introducing features like "Bubble," which allows fans to interact with artists for a monthly fee, further deepening engagement and spending .
     This diversified approach means TME doesn't have to rely solely on converting a high percentage of its users to a single subscription tier to generate significant revenue. Its average revenue per paying user (ARPPU) is growing and reached **11.9 yuan in Q3 2025** .
 
 - **Spotify's Subscription Core:** Spotify's revenue is heavily concentrated in its **premium subscriptions**, which account for about 90% of its revenue . While it is investing in its ad business to monetize its free tier, its primary growth driver remains increasing the number of premium subscribers globally .

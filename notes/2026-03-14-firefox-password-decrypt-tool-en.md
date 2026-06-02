@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-**firefox-decrypt** (most commonly referring to https://github.com/unode/firefox_decrypt) is a popular open-source Python script designed to extract and decrypt saved passwords from Mozilla-based browser/email profiles.
+**firefox-decrypt** (most commonly referring to <https://github.com/unode/firefox_decrypt>) is a popular open-source Python script designed to extract and decrypt saved passwords from Mozilla-based browser/email profiles.
 
 It supports:
 
@@ -77,7 +77,7 @@ python3 firefox_decrypt.py /path/to/your/profile
 
 ### Alternatives worth knowing
 
-- **firepwd.py** (https://github.com/lclevy/firepwd) — pure Python, no NSS dependency, very educational
+- **firepwd.py** (<https://github.com/lclevy/firepwd>) — pure Python, no NSS dependency, very educational
 - **NSS-based tools** — use real Mozilla NSS libraries (pwdecrypt, modutil, etc.)
 - **LaZagne** — multi-browser password extractor (includes Firefox module)
 - GUI tools: PasswordFox (NirSoft), Browser Password Recovery tools

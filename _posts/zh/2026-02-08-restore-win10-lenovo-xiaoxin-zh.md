@@ -17,6 +17,7 @@ type: note
 
 **选项 2：重新安装 Windows 10（擦除 Ubuntu）**
 如果您想让 Windows 10 成为唯一的 OS，您需要：
+
 1. 首先备份 Ubuntu 中的所有重要文件
 2. 在另一台电脑上使用 Windows Media Creation Tool（可从 Microsoft 下载）制作一个 Windows 10 安装 USB 驱动器
 3. 从该 USB 驱动器启动并重新安装 Windows 10，这将覆盖 Ubuntu
@@ -24,6 +25,7 @@ type: note
 
 **选项 3：使用原始 Recovery Partition**
 Lenovo 笔记本电脑通常带有 recovery partition 或 recovery media。检查您是否有：
+
 - Lenovo Vantage 应用（如果 Windows 仍然可以访问）
 - 笔记本电脑附带的原始恢复 DVD 或 USB
 - 硬盘上的隐藏 recovery partition
@@ -31,6 +33,7 @@ Lenovo 笔记本电脑通常带有 recovery partition 或 recovery media。检�
 如果您有这些，您可能无需安装盘即可将 Windows 10 恢复到出厂设置。
 
 **您需要准备：**
+
 - Windows 10 安装介质或 recovery media
 - 另一台用于制作安装 USB 的电脑
 - 安装过程所需的时间

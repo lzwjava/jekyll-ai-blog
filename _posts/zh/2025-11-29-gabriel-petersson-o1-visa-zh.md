@@ -15,6 +15,7 @@ type: note
 24岁的瑞典高中辍学生加布里埃尔·彼得森，是OpenAI Sora团队的研究科学家，致力于先进视频生成模型的开发（官方Sora 2公告中亦有署名）。尽管没有接受过正规高等教育，他仍成功获得O-1签证（常被称为"爱因斯坦签证"）赴美工作，在经历Midjourney和Dataland的任职后，于2024年12月加入OpenAI。O-1签证专为在科学、艺术、教育、商业或体育领域具有"非凡能力"者设立，需提供持续获得认可的证明，如出版物、奖项或高影响力工作成果。
 
 #### O-1签证获取策略
+
 彼得森的成功路径凸显了自学能力、战略人脉积累与移民专业知识对传统学历的超越。以下根据其访谈与公开叙述整理：
 
 1. **构建"非凡能力"证据体系**：
@@ -39,9 +40,11 @@ type: note
    - 现居旧金山的他积极肯定该签证："尽管存在移民壁垒，美国仍是雄心建造者的最佳发射台"
 
 #### 案例启示
+
 彼得森的经历重塑科技招聘逻辑：AI工具推动学习民主化，O-1类签证重实际能力轻出身标签。他曾因"错误决策蹉跎两年"，如今激励欧洲年轻一代跳出"躺平文化"。类似路径建议聚焦项目实践（演示作品优于简历），并借助Plymouth等专业机构攻克O-1难关。
 
 **参考资料**：
+
 - [Plymouth Street对加布里埃尔·彼得森的专题报道](https://www.plymouthstreet.com/stories/gabriel-petersson)
 - [商业内幕：高中辍学生通过ChatGPT入职OpenAI](https://www.businessinsider.com/high-school-dropout-openai-chatgpt-learn-ai-gabriel-petersson-2025-11)
 - [Medium：23岁瑞典辍学生攻克OpenAI](https://medium.com/techx-official/the-23-year-old-swedish-dropout-cracked-openai-e4cc48bd83f7)

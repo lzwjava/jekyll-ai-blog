@@ -11,10 +11,13 @@ type: note
 ---
 
 ### GPT-2 Paper
+
 The GPT-2 paper, titled "Language Models are Unsupervised Multitask Learners," was published on February 14, 2019, alongside OpenAI's initial blog post announcing the model.
 
 ### Open Source Release
+
 GPT-2 had a staged release due to concerns about potential misuse:
+
 - **Small model (124M parameters)**: Released February 14, 2019.
 - **Medium model (355M parameters)**: Released July 2019.
 - **Large model (774M parameters)**: Released August 20, 2019.

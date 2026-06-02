@@ -51,12 +51,14 @@ OpenRouter lets you include `usage: {include: true}` in requests to receive usag
 ## 🔗 Similar Projects to Reference
 
 ### For Widget/Dashboard Architecture
+
 - **[Dashy](https://dashy.to/)** — an open-source, self-hosted dashboard that comes bundled with 50+ pre-built widgets, supports status checks, themes, icon packs, and a UI editor. From the UI you can choose between different layouts, item sizes, show/hide components, and switch themes. This is your closest reference for the widget add/remove/customize UX.
 - **[ngx-admin](https://github.com/akveo/ngx-admin)** — a customizable admin dashboard template based on Angular 10+, MIT licensed, with a rich widget ecosystem. Great for layout reference.
 - **[ai-api-usage-monitor](https://github.com/kylnor/ai-api-usage-monitor)** — a multi-provider AI API usage and cost monitoring system for OpenAI, Anthropic Claude, OpenRouter, Google Gemini, ElevenLabs, and MiniMax with a dashboard and alerts. It includes real-time monitoring across 6 major AI providers, accurate cost tracking, and smart budget alerts via email, Slack, and webhooks.
 - **[SigNoz OpenRouter Dashboard](https://signoz.io/docs/dashboards/dashboard-templates/openrouter-dashboard/)** — great reference for what metrics to show and how to lay out OpenRouter stats panels.
 
 ### For Grid/Drag-Drop Widget Layout
+
 - **angular-gridster2** — the go-to Angular drag-and-drop resizable grid library (works well in Angular 21 with standalone components)
 - **@angular/cdk DragDrop** — Angular's CDK offers behavior primitives such as Drag and Drop that you can include in your own custom-built components — keep it native for a lighter dependency footprint.
 

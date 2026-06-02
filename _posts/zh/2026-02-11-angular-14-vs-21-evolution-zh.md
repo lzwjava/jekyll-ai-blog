@@ -24,7 +24,7 @@ Angular 14（2022年6月发布）代表了 Angular 一个稳固的、基于 Modu
 | **Reactivity primitive**      | RxJS / Observables 占主导地位                  | **Signals** 是主要的响应式原语 (自 v16–v20 起稳定)       | 更简单的心理模型，细粒度响应式，更好的 Tree-shaking     |
 | **Components**                | 需要 NgModules (Standalone 尚在预览版)         | **Standalone components 是默认选项** — NgModules 很少见 | 大幅减少样板代码，更容易 Tree-shaking，更简单的项目结构   |
 | **Forms**                     | Reactive Forms + Template-driven Forms         | 经典 Forms 仍可用 + **新的实验性 Signal Forms**        | Signal Forms 提供更简单、更具组合性的基于 Signal 的表单处理 |
-| **Control Flow Syntax**       | *ngIf, *ngFor, *ngSwitch                      | **内置 @if, @for, @switch** (自 v17 起稳定)           | 更简洁的模板，更好的性能，没有结构型指令的开销            |
+| **Control Flow Syntax**       | *ngIf,*ngFor, *ngSwitch                      | **内置 @if, @for, @switch** (自 v17 起稳定)           | 更简洁的模板，更好的性能，没有结构型指令的开销            |
 | **Build Tool**                | Webpack                                        | **Vite + esbuild** (显著提升开发和构建速度)           | 现代项目中构建速度和 HMR 提升 40–70%                 |
 | **Testing**                   | 主要是 Karma + Jasmine                         | 强烈推荐 **Vitest** / 得到更好支持                     | 测试运行更快，现代化的 DX，Vite 原生支持               |
 | **Bundle size & performance** | Bundle 较大，有 Zone.js 开销                   | **Bundle 显著变小**，运行时更快                        | 实际应用通常提速 35–50% 以上                          |

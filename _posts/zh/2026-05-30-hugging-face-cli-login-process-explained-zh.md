@@ -70,6 +70,7 @@ def _save_token(token, token_name):
 ```
 
 文件内容类似：
+
 ```ini
 [test1]
 hf_token = hf_xxxx...

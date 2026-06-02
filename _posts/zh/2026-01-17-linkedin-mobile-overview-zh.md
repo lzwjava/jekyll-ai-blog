@@ -19,6 +19,7 @@ Answer:
 ### Core Purpose
 
 LinkedIn 专注于 professional networking，而非休闲类的 social media。该 app 能够帮助你：
+
 - 建立并维护你的 professional network
 - 发现 job opportunities
 - 分享和获取职业相关内容
@@ -27,6 +28,7 @@ LinkedIn 专注于 professional networking，而非休闲类的 social media。�
 ### Main Navigation (as of recent versions)
 
 该 app 通常在底部设有导航栏，包含以下核心板块：
+
 - **Home / Feed**：显示来自你社交圈的个性化内容，包括 posts、articles、job recommendations 以及你关注的联系人和公司的动态。近年来，它已演变为包含更多短形式的 vertical videos，并为移动端用户提供了专门的 video feed。
 - **My Network**：查看 connection requests、建议关注的人选，并管理你现有的 connections。
 - **Jobs**：搜索并申请数百万个职位空缺，保存 jobs，追踪 applications，并根据你的 profile 和偏好获取 job alerts。

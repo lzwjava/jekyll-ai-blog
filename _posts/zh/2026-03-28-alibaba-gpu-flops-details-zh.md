@@ -37,6 +37,6 @@ Alibaba Cloud 在其标准文档或实例系列表中并未直接公布该实例
 
 References:
 
-- https://pcr.cloud-mercato.com/providers/alibaba/flavors/ecs.gn7t-c16g1.4xlarge
-- https://sparecores.com/server/alicloud/ecs.gn7t-c16g1.4xlarge
-- https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1
+- <https://pcr.cloud-mercato.com/providers/alibaba/flavors/ecs.gn7t-c16g1.4xlarge>
+- <https://sparecores.com/server/alicloud/ecs.gn7t-c16g1.4xlarge>
+- <https://www.alibabacloud.com/help/en/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1>

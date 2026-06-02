@@ -17,12 +17,14 @@ This course is a core subject in the National Higher Education Self-Study Examin
 The outline is based on the official national syllabus (全国高等教育自学考试课程考试大纲), adapted for provincial implementations (e.g., Gansu, Jiangsu). Specified textbook: 《网页设计与网站建设实例教程》（微课版） by Fang Qigui, Tsinghua University Press, 2021 edition.
 
 #### Course Objectives
+
 - **Knowledge**: Understand web technologies, design principles, and website architecture.
 - **Skills**: Master tools for webpage creation (e.g., HTML, CSS, Dreamweaver) and site management.
 - **Application**: Design user-friendly, responsive websites; perform testing, optimization, and maintenance.
 - **Exam Requirements**: Theory exam (multiple-choice, short answer, essays); Practical exam (build a sample site using provided themes/materials).
 
 #### Main Content Outline
+
 The course is divided into chapters, with suggested study hours (total ~120 hours, including 40-50 for practice). Focus areas are marked (*focus* for key concepts; **mastery** for skills).
 
 1. **Introduction to Web Technologies (基础知识, ~10 hours)**
@@ -79,11 +81,13 @@ The course is divided into chapters, with suggested study hours (total ~120 hour
    - **Mastery**: Analyze and redesign a real-world site.
 
 #### Assessment Structure
+
 - **Theory Exam (70% weight)**: 150 minutes; Covers chapters 1-2, 7-8 heavily. Question types: Multiple-choice (30%), short answers (40%), essays/cases (30%).
 - **Practical Exam (30% weight)**: 120 minutes; Build a themed website (e.g., using provided assets) in a lab setting. Submit files via disk/USB with candidate ID.
 - Passing: 60/100 overall; Practice emphasizes error-free code and functional sites.
 
 #### Study Recommendations
+
 - **Self-Study Tips**: Use online simulators for HTML/CSS (e.g., CodePen). Practice daily with real projects.
 - **Resources**: Official textbook + free tools (VS Code, Browser DevTools). Review past papers for patterns.
 - **Challenges**: Balance theory with practice; Focus on responsive design as a modern emphasis.
@@ -91,5 +95,6 @@ The course is divided into chapters, with suggested study hours (total ~120 hour
 For the full PDF syllabus, check provincial exam sites (e.g., Gansu Education Exam Institute).
 
 **References**:
+
 - [Gansu Self-Exam Outline for 14352](https://www.zikaosw.cn/news/20035949.html)
 - [Jiangsu Self-Exam Outline for 14352](https://www.zikao365.com/jiangsu/news/ch20250305175257.shtml)

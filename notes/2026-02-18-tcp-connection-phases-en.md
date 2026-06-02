@@ -16,6 +16,7 @@ Connection-oriented communication is a fundamental concept in networking, especi
 ---
 
 #### **1. Connection Establishment (建立连接)**
+
 - **Purpose:** Before any data is sent, the sender and receiver must agree to communicate. This phase ensures both parties are ready and synchronizes their states.
 - **How it works:**
   - In TCP, this is done via the **three-way handshake**:
@@ -27,6 +28,7 @@ Connection-oriented communication is a fundamental concept in networking, especi
 ---
 
 #### **2. Data Transfer (传输数据)**
+
 - **Purpose:** Once the connection is established, data can be exchanged reliably between the two parties.
 - **How it works:**
   - Data is divided into **segments** (in TCP) or **packets** (in general networking).
@@ -41,6 +43,7 @@ Connection-oriented communication is a fundamental concept in networking, especi
 ---
 
 #### **3. Connection Termination (拆除连接)**
+
 - **Purpose:** After data transfer is complete, the connection must be gracefully closed to free up resources (e.g., ports, memory).
 - **How it works:**
   - In TCP, this is done via the **four-way handshake**:
@@ -53,6 +56,7 @@ Connection-oriented communication is a fundamental concept in networking, especi
 ---
 
 ### **Why Connection Termination Matters**
+
 - **Resource Management:** Without proper termination, resources (e.g., ports, buffers) could remain allocated indefinitely, leading to **resource exhaustion**.
 - **State Synchronization:** Ensures both parties know the connection is closed and no further data will arrive.
 - **Error Prevention:** Prevents "half-open" connections, where one side thinks the connection is active while the other does not.
@@ -60,7 +64,9 @@ Connection-oriented communication is a fundamental concept in networking, especi
 ---
 
 ### **Real-World Analogy**
+
 Think of a phone call:
+
 1. **Establishment:** Dialing and answering ("Hello?").
 2. **Data Transfer:** The conversation itself.
 3. **Termination:** Saying "Goodbye" and hanging up.

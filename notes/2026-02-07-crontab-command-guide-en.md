@@ -17,17 +17,21 @@ Answer:
 The `crontab` command in Linux/Unix systems manages per-user cron tables — files that schedule recurring tasks (cron jobs) for automatic execution by the cron daemon.
 
 ### Main crontab command modes
+
 There are two primary syntax forms:
 
 1. **Install/replace a crontab from a file** (or stdin):
+
    ```
    crontab [ -u username ] filename
    crontab [ -u username ] -
    ```
+
    - Reads the crontab content from the specified file (or from standard input if `-` is used) and installs it as the user's crontab.
    - This is the most common way to bulk-import or restore cron jobs.
 
 2. **Operate on the current/existing crontab**:
+
    ```
    crontab [ -u username ] -l | -r | -e [options]
    ```

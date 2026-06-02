@@ -13,6 +13,7 @@ The `java.nio.charset` package in Java provides tools for handling character enc
 ---
 
 #### **What is `java.nio.charset`?**
+
 The `java.nio.charset` package contains classes that manage character sets (charsets), which define how characters are encoded into bytes and decoded back into characters. This is critical for tasks like reading and writing files, network communication, or processing text in different languages, where encodings like UTF-8, ISO-8859-1, or others may be used.
 
 The primary class in this package is `Charset`, supported by additional classes like `CharsetEncoder` and `CharsetDecoder` for more advanced use cases.
@@ -20,6 +21,7 @@ The primary class in this package is `Charset`, supported by additional classes 
 ---
 
 #### **Key Classes in `java.nio.charset`**
+
 1. **`Charset`**
    Represents a character encoding (e.g., UTF-8, ISO-8859-1). You use this class to specify the encoding for conversions between bytes and characters.
 
@@ -34,9 +36,11 @@ The primary class in this package is `Charset`, supported by additional classes 
 #### **How to Use `java.nio.charset`**
 
 ##### **1. Obtaining a `Charset` Instance**
+
 To start using `java.nio.charset`, you need a `Charset` object. There are two main ways to get one:
 
 - **Using `StandardCharsets`** (Recommended for common charsets):
+
   ```java
   import java.nio.charset.StandardCharsets;
 
@@ -44,12 +48,15 @@ To start using `java.nio.charset`, you need a `Charset` object. There are two ma
   ```
 
 - **Using `Charset.forName()`** (For any supported charset):
+
   ```java
   import java.nio.charset.Charset;
 
   Charset charset = Charset.forName("UTF-8"); // UTF-8 charset
   ```
+
   Note: If the charset name is invalid, this throws an `UnsupportedCharsetException`, so handle it appropriately:
+
   ```java
   try {
       Charset charset = Charset.forName("UTF-8");
@@ -61,10 +68,12 @@ To start using `java.nio.charset`, you need a `Charset` object. There are two ma
 ---
 
 ##### **2. Basic Usage: Converting Between Strings and Bytes**
+
 For most applications, you can use a `Charset` with the `String` class to encode or decode text.
 
 - **Decoding Bytes to a String**:
   Convert a byte array to a `String` using a specific charset:
+
   ```java
   byte[] bytes = {72, 101, 108, 108, 111}; // "Hello" in UTF-8
   Charset charset = StandardCharsets.UTF_8;
@@ -74,6 +83,7 @@ For most applications, you can use a `Charset` with the `String` class to encode
 
 - **Encoding a String to Bytes**:
   Convert a `String` to a byte array using a specific charset:
+
   ```java
   String text = "Hello, world!";
   Charset charset = StandardCharsets.UTF_8;
@@ -85,9 +95,11 @@ These methods are simple and sufficient for most use cases, such as file I/O or 
 ---
 
 ##### **3. Using Readers and Writers**
+
 When working with streams (e.g., `InputStream` or `OutputStream`), you can use `InputStreamReader` and `OutputStreamWriter` with a `Charset` to handle text data.
 
 - **Reading from an InputStream**:
+
   ```java
   import java.io.*;
   import java.nio.charset.StandardCharsets;
@@ -102,6 +114,7 @@ When working with streams (e.g., `InputStream` or `OutputStream`), you can use `
   ```
 
 - **Writing to an OutputStream**:
+
   ```java
   import java.io.*;
   import java.nio.charset.StandardCharsets;
@@ -117,9 +130,11 @@ Note: These classes accept either a charset name (e.g., `"UTF-8"`) or a `Charset
 ---
 
 ##### **4. Simplified File Operations with `java.nio.file.Files`**
+
 Since Java 7, the `java.nio.file` package provides convenient methods to read and write files using a `Charset`:
 
 - **Reading a File into a String**:
+
   ```java
   import java.nio.file.*;
   import java.nio.charset.StandardCharsets;
@@ -130,6 +145,7 @@ Since Java 7, the `java.nio.file` package provides convenient methods to read an
   ```
 
 - **Writing a String to a File**:
+
   ```java
   import java.nio.file.*;
   import java.nio.charset.StandardCharsets;
@@ -144,10 +160,12 @@ These methods handle encoding and decoding internally, making them ideal for str
 ---
 
 ##### **5. Advanced Usage: `CharsetEncoder` and `CharsetDecoder`**
+
 For scenarios requiring more control (e.g., working with NIO channels or processing partial data), use `CharsetEncoder` and `CharsetDecoder`.
 
 - **Encoding with `CharsetEncoder`**:
   Convert characters to bytes using NIO buffers:
+
   ```java
   import java.nio.*;
   import java.nio.charset.*;
@@ -161,6 +179,7 @@ For scenarios requiring more control (e.g., working with NIO channels or process
 
 - **Decoding with `CharsetDecoder`**:
   Convert bytes to characters:
+
   ```java
   import java.nio.*;
   import java.nio.charset.*;
@@ -178,7 +197,9 @@ These classes are useful when working with `SocketChannel`, `FileChannel`, or ot
 ---
 
 #### **Best Practices**
+
 - **Always Specify the Charset**: Avoid relying on `Charset.defaultCharset()`, as the default varies by platform (e.g., UTF-8 on Linux, windows-1252 on Windows). Explicitly specifying the charset ensures consistent behavior:
+
   ```java
   // Avoid this:
   byte[] bytes = "Hello".getBytes(); // Uses platform default charset
@@ -194,7 +215,9 @@ These classes are useful when working with `SocketChannel`, `FileChannel`, or ot
 ---
 
 #### **Summary**
+
 To use `java.nio.charset`:
+
 1. **Obtain a `Charset`** using `StandardCharsets` or `Charset.forName()`.
 2. **Perform Conversions**:
    - Use `String` methods (`getBytes()`, constructor) for simple byte-character conversions.

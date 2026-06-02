@@ -29,11 +29,13 @@ hysteria-server.service: Main process exited, code=exited, status=1/FAILURE
 根据您是否有（或想要）域名，有两种主要选项。
 
 #### 选项 1: 使用真实域名（推荐以获得最佳兼容性）
+
 1. **获取域名**（如果您还没有）：从 Namecheap、Porkbun 等处购买一个廉价域名，并将其 A 记录指向服务器 IP (64.186.xx.xx)。
    - 示例：`hy2.mydomain.com` → A 记录 → 64.186.xx.xx
 
 2. **编辑 `/etc/hysteria/config.yaml`**：
    将 IP 替换为您的域名：
+
    ```yaml
    listen: :443
 
@@ -50,21 +52,26 @@ hysteria-server.service: Main process exited, code=exited, status=1/FAILURE
    ```
 
 3. **重启服务**：
+
    ```bash
    systemctl restart hysteria-server
    ```
 
 4. **检查日志**：
+
    ```bash
    journalctl -u hysteria-server -e
    ```
+
    - 首次启动时，它将请求证书（需要临时打开 TCP 端口 80 以进行 HTTP-01 验证，或使用 DNS-01 如果端口 80 被阻塞）。
    - 如果端口 80 被防火墙阻止：临时添加 `ufw allow 80/tcp`，或切换到 DNS 验证（见下文）。
 
 #### 选项 2: 使用自签名证书（无需域名，快速修复）
+
 如果您没有/不想使用域名，请禁用 ACME 并使用手动/自签名 TLS。
 
 1. **生成自签名证书**（针对您的 IP 或任意 CN）：
+
    ```bash
    mkdir -p /etc/hysteria/certs
    openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
@@ -77,6 +84,7 @@ hysteria-server.service: Main process exited, code=exited, status=1/FAILURE
    （或使用 Hysteria 文档中的脚本以获得更多选项。）
 
 2. **更新 config.yaml** — 完全移除 `acme` 并添加 `tls`：
+
    ```yaml
    listen: :443
 
@@ -96,6 +104,7 @@ hysteria-server.service: Main process exited, code=exited, status=1/FAILURE
    ```
 
 3. **重启**：
+
    ```bash
    systemctl restart hysteria-server
    ```
@@ -106,7 +115,9 @@ hysteria-server.service: Main process exited, code=exited, status=1/FAILURE
    - 这可以工作，但浏览器/应用可能显示警告；用于代理是没问题的。
 
 #### 可选: 使用 DNS 验证的高级 ACME（如果端口 80 被阻塞）
+
 如果您有域名但无法打开 TCP/80：
+
 ```yaml
 acme:
   domains:

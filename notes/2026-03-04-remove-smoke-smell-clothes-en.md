@@ -16,6 +16,7 @@ Answer:
 No, washing is **not** the only way — but it is usually the most effective and reliable method. Here are the main approaches ranked from most effective to least effective / more temporary:
 
 ### Most Effective Methods (Recommended)
+
 1. **Wash them properly (best option in most cases)**
    - Use a **good detergent** + **1 cup (≈250 ml) white vinegar** in the fabric softener compartment or directly in the drum
    - Wash in **warm or hot water** (if the clothing care label allows)
@@ -31,6 +32,7 @@ No, washing is **not** the only way — but it is usually the most effective and
    - commercial laundry odor remover (Febreze laundry, Zero Odor Laundry, etc.)
 
 ### Good Non-Washing / Low-Washing Methods
+
 - **Vodka spray method** (works surprisingly well for light–medium smoke smell)
   - Put cheap plain vodka in a spray bottle
   - Lightly mist (do not soak) the whole garment
@@ -51,11 +53,13 @@ No, washing is **not** the only way — but it is usually the most effective and
   - Works slowly, better for light smoke smell
 
 ### Quick / Emergency / Almost No Effort Options
+
 - **Dryer + dryer sheet + wool dryer balls** → 20–40% improvement
 - **Febreze Fabric Heavy Duty** or similar smoke-specific spray → temporary masking (smell often returns)
 - **Steam** the garment (clothes steamer or very hot shower in bathroom) → helps release some smoke particles
 
 ### Quick ranking – what usually works best for cigarette / heavy smoke smell
+
 1. Normal wash + vinegar + baking soda + extra rinse
 2. Wash + laundry odor eliminator (OxiClean Odor Blasters etc.)
 3. Vodka spray + long hang outside

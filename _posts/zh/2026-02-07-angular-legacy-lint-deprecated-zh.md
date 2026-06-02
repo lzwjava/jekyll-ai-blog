@@ -15,6 +15,7 @@ In Angular 9 和更早的 Angular 版本中，**TSLint** 和 **Codelyzer** 协�
 ## TSLint
 
 TSLint 是一个针对 TypeScript 代码的静态分析工具，它：
+
 - 检查代码质量问题、bugs 和样式不一致
 - 在整个 TypeScript 文件中强制执行编码规范
 - 为格式化、命名约定（naming conventions）和代码模式（code patterns）提供可配置的规则
@@ -23,6 +24,7 @@ TSLint 是一个针对 TypeScript 代码的静态分析工具，它：
 ## Codelyzer
 
 Codelyzer 是一套专门为 Angular 应用程序设计的 TSLint 规则，它：
+
 - 强制执行 Angular style guide 建议
 - 检查 component、directive 和 service 的命名约定
 - 验证 template 语法和最佳实践
@@ -47,6 +49,7 @@ Codelyzer 是一套专门为 Angular 应用程序设计的 TSLint 规则，它�
 ## Important Note: They're Deprecated
 
 TSLint 和 Codelyzer 现在都已 **deprecated**：
+
 - TSLint 在 2019 年被宣布弃用
 - Angular 团队已迁移到 **ESLint**，并使用 **angular-eslint** 作为替代方案
 - Angular 11+ 默认使用 ESLint

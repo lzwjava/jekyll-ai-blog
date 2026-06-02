@@ -115,6 +115,7 @@ This sets up the `DispatcherServlet` and loads your `AppConfig`.
   ```
   http://localhost:8080/your-app/hello
   ```
+
 * You should see:
 
   ```

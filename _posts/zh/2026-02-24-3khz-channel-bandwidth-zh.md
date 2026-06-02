@@ -24,6 +24,7 @@ Channel bandwidth (H) = 3 KHz 表示信道可以在 3,000 Hz（3 kilohertz）的
 Bandwidth (H) = f_max - f_min
 
 In this case:
+
 - The frequency span available for signal transmission is 3,000 Hz
 - If the channel starts at frequency f_min and ends at f_max, the difference equals 3 KHz
 
@@ -42,6 +43,7 @@ In this case:
 在您之前提出的 Nyquist theorem 问题中，3 KHz bandwidth 用于计算最大符号率（6 kilobaud = 2 × 3 KHz），然后结合可用信号电平数量确定最大数据传输率。
 
 **Example Applications:**
+
 - Telephone voice channels typically use approximately 3-4 KHz bandwidth
 - Historical data communication systems operated within similar bandwidth constraints
 - Modern systems often use much wider bandwidths (MHz or GHz range) for higher data rates

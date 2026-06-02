@@ -30,6 +30,7 @@ That sentence I used—"It's the flip side of globalization—wealthy nations 'o
    - Rich countries keep these for their own citizens (or elite immigrants) through top schools, networks, and policies. They attract global talent but gatekeep with visas or high barriers. In HK/SG, locals dominate these roles because of their education systems, while outsiders fill the low-end gaps.
 
 ### Why This Matters in the Bigger Picture
+
 This creates a global "division of labor": Poor countries export workers for tough gigs (remittances help their economies), but they miss out on the high-value growth. It's like a factory where one group does the dirty work and another gets the profits. Over time, it widens inequality—e.g., the top 10% of countries capture 80% of global income gains from trade.
 
 If you see it in action, it's why a Singaporean might code apps while a Filipina cleans their home: globalization connects them, but power imbalances decide who does what.

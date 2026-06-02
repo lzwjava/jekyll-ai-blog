@@ -19,43 +19,49 @@ Hiring backend engineers in 2026 remains competitive — good talent usually has
 Here are the most effective approaches used by startups and scale-ups right now, ranked roughly by signal quality + speed:
 
 ### 1. **Referrals from your existing team / trusted network** (highest conversion & quality)
-   - Still #1 by a large margin.
-   - Ask every engineer: “Who is the best backend person you’ve worked with in the last 3 years?”
-   - Offer meaningful referral bonuses ($10–30k is common for senior hires).
+
+- Still #1 by a large margin.
+- Ask every engineer: “Who is the best backend person you’ve worked with in the last 3 years?”
+- Offer meaningful referral bonuses ($10–30k is common for senior hires).
 
 ### 2. **Direct outbound sourcing (LinkedIn + GitHub + communities)**
-   - **LinkedIn Recruiter / Sales Navigator** → best ROI for most companies
-     - Search: specific stack + keywords (“Golang” “Kubernetes” “ex-Stripe” “ex-Shopify” etc.)
-     - Personalized InMail mentioning a concrete project/repo → 40–60% reply rates possible
-   - **GitHub** → search repos by language + stars/forks, then message contributors
-   - **Niche communities** → Reddit (r/Backend, r/golang, r/ExperiencedDevs), Discord servers (language-specific), Hacker News “Who is hiring?” threads
+
+- **LinkedIn Recruiter / Sales Navigator** → best ROI for most companies
+  - Search: specific stack + keywords (“Golang” “Kubernetes” “ex-Stripe” “ex-Shopify” etc.)
+  - Personalized InMail mentioning a concrete project/repo → 40–60% reply rates possible
+- **GitHub** → search repos by language + stars/forks, then message contributors
+- **Niche communities** → Reddit (r/Backend, r/golang, r/ExperiencedDevs), Discord servers (language-specific), Hacker News “Who is hiring?” threads
 
 ### 3. **Vetted high-end talent platforms** (fastest when you need quality now)
-   - Toptal
-   - Arc.dev
-   - Index.dev
-   - Gun.io
-   - These platforms pre-vet (often top ~3–10%) → average match in <1–2 weeks
-   - Expect $80–150+/hour for contractors, higher effective cost but much lower risk
+
+- Toptal
+- Arc.dev
+- Index.dev
+- Gun.io
+- These platforms pre-vet (often top ~3–10%) → average match in <1–2 weeks
+- Expect $80–150+/hour for contractors, higher effective cost but much lower risk
 
 ### 4. **AI-powered sourcing tools** (emerging & increasingly powerful in 2026)
-   - Tools like Juicebox (PeopleGPT), similar semantic search products
-   - Search 30+ sources (GitHub, Stack Overflow, blogs, Kaggle…) with natural language
-   - Can cut sourcing time dramatically if you write good prompts
+
+- Tools like Juicebox (PeopleGPT), similar semantic search products
+- Search 30+ sources (GitHub, Stack Overflow, blogs, Kaggle…) with natural language
+- Can cut sourcing time dramatically if you write good prompts
 
 ### 5. **Job boards & marketplaces** (volume, variable quality)
-   - Wellfound (formerly AngelList)
-   - Hired
-   - Underdog.io
-   - Stack Overflow Jobs
-   - Workable / Greenhouse + paid promotion
-   - These work better with very clear, well-paid, attractive postings
+
+- Wellfound (formerly AngelList)
+- Hired
+- Underdog.io
+- Stack Overflow Jobs
+- Workable / Greenhouse + paid promotion
+- These work better with very clear, well-paid, attractive postings
 
 ### 6. **Nearshore / offshore dedicated teams or staff augmentation**
-   - LATAM (via Mismo, Revelo, CloudDevs, LatHire…)
-   - Eastern Europe, India, etc.
-   - 40–70% cost saving vs. US/SF/NY rates
-   - Best when you need 3–20 people quickly and can manage timezone overlap
+
+- LATAM (via Mismo, Revelo, CloudDevs, LatHire…)
+- Eastern Europe, India, etc.
+- 40–70% cost saving vs. US/SF/NY rates
+- Best when you need 3–20 people quickly and can manage timezone overlap
 
 ### Quick decision framework (2026 reality)
 
@@ -68,6 +74,7 @@ Here are the most effective approaches used by startups and scale-ups right now,
 | Just testing the market     | Post on Wellfound + HN + Reddit             | 4–12 weeks             | Low            |
 
 ### Quick tactical tips that still work in 2026
+
 - Write **specific, honest job descriptions** (salary band, real stack, real problems)
 - Use **system design + take-home → pair programming** (skip leetcode grinding for most backend roles)
 - Offer remote-friendly + async culture if possible — huge advantage

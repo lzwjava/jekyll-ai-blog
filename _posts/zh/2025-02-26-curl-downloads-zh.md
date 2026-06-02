@@ -39,9 +39,11 @@ curl -L -O <URL>
 2. **执行命令**：
    - 打开终端
    - 使用复制的 URL 执行带 `-L` 和 `-O` 选项的 `curl` 命令：
+
      ```bash
      curl -L -O https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-03/R/eclipse-java-2023-03-R-win32-x86_64.zip
      ```
+
    - 这将下载 ZIP 文件（如 `eclipse-java-2023-03-R-win32-x86_64.zip`）到当前目录
 
 ### 故障排除
@@ -50,19 +52,23 @@ curl -L -O <URL>
 
 - **使用详细输出检查重定向**：
   - 使用 `-v` 选项查看请求和重定向的详细信息：
+
     ```bash
     curl -v -L -O <URL>
     ```
+
   - 查看 301 响应中的 `Location` 标头了解重定向目标。若指向 HTML 页面而非 ZIP 文件，则该 URL 可能不是直接下载链接
 
 - **验证 URL**：
   - Eclipse 常使用 `download.php` 脚本重定向到镜像。请确保 URL 是 ZIP 文件的直链或能解析为文件的重定向链接。例如直链可能形如：
+
     ```bash
     curl -L -O https://mirror.its.dal.ca/eclipse/technology/epp/downloads/release/2023-03/R/eclipse-java-2023-03-R-win32-x86_64.zip
     ```
 
 - **设置用户代理标头**：
   - 某些服务器会根据客户端类型返回不同内容。若服务器因检测到 `curl` 而返回 HTML，可模拟浏览器添加 User-Agent：
+
     ```bash
     curl -L -O -A "Mozilla/5.0" <URL>
     ```

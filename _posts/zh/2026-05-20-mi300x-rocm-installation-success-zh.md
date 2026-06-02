@@ -16,12 +16,14 @@ type: note
 ## ROCm 栈 — 完全可用
 
 **`rocm-smi`**（AMD 的 nvidia-smi 对应工具）：
+
 ```
 GPU  Temp    Power   SCLK    MCLK   PwrCap   VRAM%  GPU%
 0    37.0°C  154.0W  139MHz  900MHz 750.0W   0%     0%
 ```
 
 **`rocminfo`** — 完整 GPU 规格：
+
 ```
 AMD Instinct MI300X VF (gfx942)
   304 Compute Units | 1216 SIMDs | 32 Shader Engines
@@ -30,6 +32,7 @@ AMD Instinct MI300X VF (gfx942)
 ```
 
 **HIP 计算测试：**
+
 ```
 HIP devices: 1
 Device 0: AMD Instinct MI300X VF

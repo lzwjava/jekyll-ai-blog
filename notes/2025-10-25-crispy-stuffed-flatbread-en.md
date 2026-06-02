@@ -15,19 +15,24 @@ type: note
 If you're after a distinctly Chinese option that's stuffed dough but skips the steaming of baozi or boiling/frying of dumplings, try **Guo Kui** (锅盔). This Sichuan-style flatbread is crispy, layered, and savory—like a handheld beef pancake. It's street food that's surprisingly simple at home, using basic pantry staples and no yeast or special tools.
 
 #### Why easy?
+
 No rising time, just a quick-rest dough and pan-frying. Assembly is like wrapping a burrito but flatter. Total time: ~1 hour 15 min (including rests; active ~45 min). Makes 10 pieces.
 
-#### Quick recipe:
+#### Quick recipe
+
 **Ingredients (dough):**
+
 - 500g all-purpose flour
 - 300g water
 - Oil for coating
 
 **Flour-oil paste:**
+
 - 3 tbsp flour + pinch salt
 - 3 tbsp hot oil
 
 **Filling:**
+
 - 280g ground beef (or pork/chicken; higher fat = juicier)
 - 4 tbsp water
 - 1 tbsp Shaoxing wine (or dry sherry)

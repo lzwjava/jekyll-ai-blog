@@ -20,17 +20,17 @@ The human body is a complex and fascinating organism composed of numerous interc
 **Sensory Organs:**
 
 * **Eye:** The organ of sight. It detects light and converts it into electrical signals that are sent to the brain for interpretation. Key components include:
-    * **Cornea:** The transparent outer layer that helps focus light.
-    * **Iris:** The colored part that controls the size of the pupil.
-    * **Pupil:** The opening in the center of the iris that allows light to enter.
-    * **Lens:** Focuses light onto the retina.
-    * **Retina:** The light-sensitive layer at the back of the eye containing photoreceptor cells (rods and cones).
-    * **Optic Nerve:** Transmits visual information from the retina to the brain.
+  * **Cornea:** The transparent outer layer that helps focus light.
+  * **Iris:** The colored part that controls the size of the pupil.
+  * **Pupil:** The opening in the center of the iris that allows light to enter.
+  * **Lens:** Focuses light onto the retina.
+  * **Retina:** The light-sensitive layer at the back of the eye containing photoreceptor cells (rods and cones).
+  * **Optic Nerve:** Transmits visual information from the retina to the brain.
 * **Ear:** The organ of hearing and balance. It detects sound waves and helps maintain equilibrium. Key components include:
-    * **Outer Ear:** Collects sound waves.
-    * **Middle Ear:** Amplifies sound waves through tiny bones (malleus, incus, stapes).
-    * **Inner Ear:** Contains the cochlea (for hearing) and the vestibular system (for balance).
-    * **Auditory Nerve:** Transmits sound information to the brain.
+  * **Outer Ear:** Collects sound waves.
+  * **Middle Ear:** Amplifies sound waves through tiny bones (malleus, incus, stapes).
+  * **Inner Ear:** Contains the cochlea (for hearing) and the vestibular system (for balance).
+  * **Auditory Nerve:** Transmits sound information to the brain.
 * **Nose:** The organ of smell and part of the respiratory system. It contains olfactory receptors that detect airborne chemicals.
 * **Tongue:** The primary organ of taste. It contains taste buds that detect different tastes (sweet, sour, salty, bitter, umami). It also aids in speech and chewing.
 * **Skin:** The largest organ of the body, responsible for touch, pressure, temperature, and pain sensation. It also provides protection and regulates body temperature.
@@ -52,19 +52,19 @@ The human body is a complex and fascinating organism composed of numerous interc
 This system is responsible for sexual reproduction. There are distinct male and female reproductive systems:
 
 * **Male Reproductive System:**
-    * **Testes (Testicles):** Produce sperm and the hormone testosterone.
-    * **Epididymis:** Stores and matures sperm.
-    * **Vas Deferens:** Carries sperm from the epididymis to the ejaculatory duct.
-    * **Seminal Vesicles:** Produce fluid that nourishes sperm.
-    * **Prostate Gland:** Produces fluid that helps sperm motility.
-    * **Urethra:** Carries semen and urine out of the body.
-    * **Penis:** The external male reproductive organ involved in sexual intercourse and urination.
+  * **Testes (Testicles):** Produce sperm and the hormone testosterone.
+  * **Epididymis:** Stores and matures sperm.
+  * **Vas Deferens:** Carries sperm from the epididymis to the ejaculatory duct.
+  * **Seminal Vesicles:** Produce fluid that nourishes sperm.
+  * **Prostate Gland:** Produces fluid that helps sperm motility.
+  * **Urethra:** Carries semen and urine out of the body.
+  * **Penis:** The external male reproductive organ involved in sexual intercourse and urination.
 * **Female Reproductive System:**
-    * **Ovaries:** Produce eggs (ova) and the hormones estrogen and progesterone.
-    * **Fallopian Tubes (Oviducts):** Carry eggs from the ovaries to the uterus and are the site of fertilization.
-    * **Uterus (Womb):** A muscular organ where a fertilized egg implants and develops during pregnancy.
-    * **Cervix:** The lower, narrow end of the uterus that opens into the vagina.
-    * **Vagina:** The muscular canal that connects the uterus to the outside of the body, involved in sexual intercourse and childbirth.
-    * **Vulva:** The external female genitalia, including the labia (majora and minora) and clitoris (a sensitive organ involved in sexual pleasure).
+  * **Ovaries:** Produce eggs (ova) and the hormones estrogen and progesterone.
+  * **Fallopian Tubes (Oviducts):** Carry eggs from the ovaries to the uterus and are the site of fertilization.
+  * **Uterus (Womb):** A muscular organ where a fertilized egg implants and develops during pregnancy.
+  * **Cervix:** The lower, narrow end of the uterus that opens into the vagina.
+  * **Vagina:** The muscular canal that connects the uterus to the outside of the body, involved in sexual intercourse and childbirth.
+  * **Vulva:** The external female genitalia, including the labia (majora and minora) and clitoris (a sensitive organ involved in sexual pleasure).
 
 This overview provides a foundational understanding of the human body's organization and some of its key components. Each of these systems and organs is incredibly complex and involves intricate processes that are still being studied and understood.

@@ -19,11 +19,11 @@ Answer:
 
 - **Hiddify**（因易用性而经常被推荐）
   一个流行的多协议 VPN/代理应用，具有良好的 Hysteria 2 支持。它允许轻松导入 `hy2://` 链接，并在完整 VPN 模式下工作。
-  下载：GitHub releases (https://github.com/hiddify/hiddify-app/releases) 或有时通过其他来源获取。
+  下载：GitHub releases (<https://github.com/hiddify/hiddify-app/releases>) 或有时通过其他来源获取。
 
 - **NekoBox for Android**
   一个通用代理工具链应用，从版本 1.2.4 开始支持 Hysteria 2。广泛用于高级配置。
-  GitHub: https://github.com/MatsuriDayo/NekoBoxForAndroid
+  GitHub: <https://github.com/MatsuriDayo/NekoBoxForAndroid>
 
 - **Sing-box / SFA (sing-box for Android)**
   Android 的官方 sing-box 客户端（Play Store 上的 io.nekohasekai.sfa）。原生支持 Hysteria 2，并经常被提及用于干净的 Hysteria 2 设置。
@@ -31,7 +31,7 @@ Answer:
 
 - **V2Box**
   多协议代理客户端，从版本 2.6.1 开始支持 Hysteria 2。可直接在 Google Play Store 下载。
-  链接：https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box
+  链接：<https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box>
 
 社区中其他提及包括 fork 或专用应用，如 GitHub 上的自定义 Hysteria 2 专用客户端（例如 lry127/Android-Hysteria-2-client），但这些不如上述应用完善且推荐度较低。
 

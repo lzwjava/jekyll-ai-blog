@@ -41,26 +41,33 @@ These are deducted pre-tax automatically through your employer's payroll.
 These are the most powerful tools for reducing tax. The special additional deductions cover educational costs for children, continuing education expenses, health-care costs for major diseases, housing loan interest, rent, elderly support, and care expenses for children under the age of 3.
 
 ### 3.1 Children's Education (子女教育)
+
 Educational costs for children can be deducted at the standard quota of **CNY 24,000 per child per year (CNY 2,000 per child per month)**. For example, for child A, one parent can choose to deduct at the rate of 2,000 yuan per month; for child B, both parents can each deduct 1,000 yuan per month.
 
 This covers preschool age (3 years old) all the way through university.
 
 ### 3.2 Infant/Toddler Care (3岁以下婴幼儿照护)
+
 Starting January 1, 2023, the individual taxable income of parents rearing children under 3 years old is reduced by **CNY 2,000 per month** for each child.
 
 ### 3.3 Continuing Education (继续教育)
+
 The expenses of continuing education (academic qualification/degree) in China are deductible at **CNY 400 per month** during the education period. The deduction period for the same academic qualification or degree shall not exceed 48 months. Continuing education expenses of **professional qualifications** (skilled personnel or specialized technicians) are deductible at a fixed rate of **CNY 3,600 in the year** when the relevant qualifications are received.
 
 ### 3.4 Housing Loan Interest / Mortgage (住房贷款利息)
+
 A taxpayer or his/her spouse who has purchased a house within China with an individual housing loan from a commercial bank or from the Housing Provident Fund can deduct mortgage interest on a **first-home buyer loan at CNY 1,000 per month**, in years when such mortgage interest is actually incurred, provided the deduction period does not exceed **240 months (20 years)**. A taxpayer can only enjoy this deduction once.
 
 ### 3.5 Housing Rent (住房租金)
+
 If you do not own a home and are renting, you can claim a rent deduction. The deduction for housing rents varies between cities, ranging from **CNY 8,000 to CNY 14,400 per year**, depending on the city tier. Note: You cannot claim both the mortgage interest deduction and the housing rent deduction simultaneously.
 
 ### 3.6 Elderly Support (赡养老人)
+
 Taxpayers who are the **only child** are entitled to a deduction of **CNY 3,000 per month**. Taxpayers who are not the only child must share the amount with their siblings, with each person's share not exceeding CNY 1,500 per month. This applies to taxpayers with a parent who is over 60 years old.
 
 ### 3.7 Major Illness Medical Treatment (大病医疗)
+
 Within a tax year, you can deduct the portion of out-of-pocket medical expenses under the basic medical insurance scheme that exceeds **CNY 15,000**, within a maximum of **CNY 80,000**.
 
 ---
@@ -68,9 +75,11 @@ Within a tax year, you can deduct the portion of out-of-pocket medical expenses 
 ## 4. Other Deductions
 
 ### 4.1 Charitable Donations
+
 If an individual makes charitable contributions to qualified domestic non-profit organisations, such contributions are generally deductible to the extent of **30% of one's taxable income** reported.
 
 ### 4.2 Commercial Health Insurance
+
 There are certain deductible items such as employee contributions to qualified corporate annuities, premiums paid to commercial health insurance eligible for IIT incentives, and premiums paid to commercial endowment insurance or individual pension account contributions eligible for IIT deferral treatment.
 
 ---

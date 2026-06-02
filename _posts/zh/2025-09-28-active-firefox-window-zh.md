@@ -10,7 +10,8 @@ translated: true
 type: note
 ---
 
-#!/usr/bin/env python3
+# !/usr/bin/env python3
+
 import gi
 gi.require_version('Wnck', '3.0')
 from gi.repository import Wnck
@@ -36,6 +37,7 @@ def 获取火狐窗口():
     return firefox_windows
 
 # 获取活动火狐窗口
+
 windows = 获取火狐窗口()
 active_firefox = [w for w in windows if w['is_active']]
 print("活动火狐窗口:", active_firefox)

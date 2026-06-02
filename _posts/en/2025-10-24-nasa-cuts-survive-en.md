@@ -17,6 +17,7 @@ No, the Trump administration is not officially planning to fully eliminate NASA 
 However, the rumor isn't entirely baseless—it's amplified by real, ongoing tensions around NASA's future under Trump. The administration has proposed severe budget cuts, mission cancellations, and restructuring that could fundamentally shrink the agency's civilian role in space exploration and science. These moves align with broader efforts to prioritize military space programs (like Space Force) and private sector involvement (e.g., SpaceX), while slashing what the White House views as "non-essential" or climate-focused initiatives. Below, I'll break down the facts, context, and implications based on recent reports and discussions.
 
 #### Key Facts on NASA's Current Challenges
+
 - **Budget Cuts and Mission Cancellations**:
   - The White House's FY2026 budget proposal, released in May 2025, calls for a **24% overall cut to NASA's budget** (from ~$25 billion to $18.8 billion, the lowest since 2015). Science programs face an even steeper **47-50% reduction**, down to about $3.9 billion.
   - This would cancel or end **over 40 active and planned missions**, including:
@@ -39,11 +40,13 @@ However, the rumor isn't entirely baseless—it's amplified by real, ongoing ten
   - Congress is still debating the FY2026 budget (due October 1, 2025, but delayed by shutdown). A House bill aligns closely with Trump's cuts, but the Senate version preserves more funding. Democrats have warned that impounding appropriated funds (e.g., for OCO missions) would be illegal.
 
 #### Why the Rumor Spread (and Musk's Role)
+
 - **Viral Trigger**: The @NewsWire_US tweet (October 21) was amplified by accounts like @LeadingReport and @krassenstein, reaching tens of millions. It tied into Musk's public feud with Duffy, where Musk warned: "Should someone whose biggest claim to fame is climbing trees be running America’s space program?" Musk later clarified he's not pushing a specific candidate but wants "someone with a 3 digit IQ."
 - **Public Backlash**: On X, reactions range from outrage ("This would be devastating for U.S. innovation") to skepticism ("Congress won't let it happen"). Polymarket odds for "Trump ends NASA in 2025?" sit at low probability (~10-20%), reflecting doubt.
 - **Broader Context**: Trump's first term (2017-2021) saw NASA budgets stabilize or grow for Artemis (Moon-to-Mars), but his 2025 return has shifted focus to "America First" priorities: cutting "woke" science education, green aviation, and climate monitoring while boosting crewed missions. Critics like Bill Nye call it an "extinction-level event" for U.S. space leadership, arguing it cedes ground to China.
 
 #### Potential Impacts If Cuts Proceed
+
 - **Scientific Losses**: Gutting Earth science would blind the U.S. to climate data (e.g., CO2 tracking for wildfires and disasters), while planetary missions delay answers to big questions like life on Mars or Venus.
 - **Economic Ripple**: NASA generates $75 billion+ in annual economic output and supports 300,000+ jobs. Privatization could benefit companies like SpaceX but risks duplicating taxpayer-funded research (e.g., orbital data Musk's firm relies on).
 - **Geopolitical Risks**: Experts warn this erodes U.S. dominance—China's space station is operational, and Russia-India collaborations are advancing.

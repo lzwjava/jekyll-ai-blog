@@ -17,7 +17,7 @@ type: note
 
 以下是详细说明：
 
-## 对于 npm 8.3.0 及更高版本：
+## 对于 npm 8.3.0 及更高版本
 
 | 字段 | 描述 |
 | :--- | :--- |
@@ -34,9 +34,10 @@ type: note
 }
 ```
 
-## 对于 npm 8.3.0 之前：
+## 对于 npm 8.3.0 之前
 
 如果你使用的是 **Yarn**，你可以使用：
+
 ```json
 {
   "resolutions": {
@@ -46,6 +47,7 @@ type: note
 ```
 
 如果你使用的是 **npm < 8.3.0**，你的选择非常有限：
+
 - 使用 `npm-force-resolutions` 包作为 workaround
 - 手动使用 `npm shrinkwrap`
 - 切换到 Yarn 以使用 `resolutions`

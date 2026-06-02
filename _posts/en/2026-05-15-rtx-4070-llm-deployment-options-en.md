@@ -25,17 +25,21 @@ Confirmed: **RTX 4070, 12 GB VRAM, ~12.1 GB free**, CUDA 13.0, driver 580. Since
 | **DeepSeek-R1-Distill-Qwen-14B** | Q4_K_M           | ~9 GB     | Reasoning-tuned                           |
 
 ## Sweet spot recommendation
+
 **Qwen2.5-14B-Instruct Q4_K_M** (or the Coder variant) — fits fully on GPU with ~16–32k context, ~40–60 tok/s on a 4070.
 
 ## Push-the-limit (partial offload, slower)
+
 - **Mistral-Small-24B Q4_K_M** (~14 GB) — offload ~30 of 40 layers, expect ~10–20 tok/s
 - **Qwen2.5-32B Q3_K_M** (~14 GB) — same trick, quality drops noticeably at Q3
 
 ## Quick serve command
+
 ```bash
 ./llama-server -m qwen2.5-14b-instruct-q4_k_m.gguf \
   -ngl 99 -c 16384 --host 0.0.0.0 --port 8080 -fa
 ```
+
 `-ngl 99` = all layers on GPU; `-fa` = flash attention (saves KV memory); drop `-c` to 8192 if you want headroom for larger quants.
 
 Want me to download one and benchmark it?

@@ -19,16 +19,19 @@ Yes, you can absolutely use a network switch for 3 computers — in fact, it’s
 Here are the typical setups (from simplest to most expandable):
 
 ### 1. Basic Setup – Everything to Router (No Switch Needed Yet)
+
 ```
 Internet → Modem → Router
                   ↘ Computer 1 (LAN port 1)
                   ↘ Computer 2 (LAN port 2)
                   ↘ Computer 3 (LAN port 3)
 ```
+
 Works fine if your router has at least 3 free LAN ports (most have 4).
 No switch required.
 
 ### 2. Most Common Home Setup – Router + One Switch (Recommended)
+
 Use this when you have more devices > router ports, or you want all computers in the same room.
 
 ```
@@ -39,27 +42,35 @@ Internet → Modem → Router WAN port
                                      ↘ Computer 3
                                      ↘ (and more devices, TVs, etc.)
 ```
+
 Key points:
+
 - Only ONE cable between router and switch (plug into a normal port on the switch, not the “Uplink” port if it has one — modern switches auto-detect).
 - The switch must be an unmanaged Gigabit switch (e.g., TP-Link TL-SG108, Netgear GS308 — ~$15–25) for best performance.
 - All computers will get IP addresses from your router’s DHCP and will be on the same network (can see each other, share files, etc.).
 - Wi-Fi devices still connect directly to the router as usual.
 
 ### 3. Switch-Only Setup (No Router) – Usually Not Recommended
+
 ```
 Internet → Modem → Switch → Computer 1 / 2 / 3
 ```
+
 This only works if:
+
 - Your modem has a built-in router and multiple LAN ports, or
 - You manually assign static IPs to every computer and one computer acts as gateway (complicated and slow).
 
 In 99% of home situations you still need the router for NAT, DHCP, Wi-Fi, and firewall.
 
 ### 4. Advanced – Multiple Switches (Daisy-Chaining)
+
 You can even chain switches if needed:
+
 ```
 Router → Switch 1 → Switch 2 → more devices
 ```
+
 Perfectly fine with unmanaged switches (just avoid making loops).
 
 Summary Table

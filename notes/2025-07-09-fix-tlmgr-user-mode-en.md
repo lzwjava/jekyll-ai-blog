@@ -49,6 +49,7 @@ You might already have it installed. Test by creating a simple LaTeX file:
 ```
 
 Compile it with:
+
 ```bash
 pdflatex test.tex
 ```

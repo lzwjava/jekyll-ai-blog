@@ -17,6 +17,7 @@ type: note
 > 需要有一个本地 OpenAI 兼容聊天后端，可通过 `http://localhost:1234/api/v1/chat` 访问
 
 您需要启动一个本地推理服务器（例如 **LM Studio**、**Ollama**、**llama.cpp server**、**vLLM**），并确保：
+
 - 监听 `http://localhost:1234`
 - 提供 `/api/v1/chat` 路径（OpenAI 兼容）
 - 运行已配置的模型（`qwen3.5-9b-mlx`、`openai/gpt-oss-120b` 等）

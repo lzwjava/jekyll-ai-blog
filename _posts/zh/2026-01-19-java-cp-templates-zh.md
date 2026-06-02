@@ -78,7 +78,7 @@ public class Main {
 }
 ```
 
-### 包含的主要整洁性改进：
+### 包含的主要整洁性改进
 
 - 字段定义为 `private final`（构造后不可变——良好的习惯）。
 - 构造函数使用 `PrintWriter(..., true)` → 启用 **auto-flush**（减少手动调用 `flush()` 的次数）。
@@ -90,7 +90,7 @@ public class Main {
 - 使用美观的分隔符添加了清晰的板块注释。
 - 删除了不必要的 `if (in != null)` 检查（在这里 BufferedReader/PrintWriter 永远不会为 null）。
 
-### 如果你偏好更简短，这里有一个更精简的版本：
+### 如果你偏好更简短，这里有一个更精简的版本
 
 ```java
 import java.io.*;
@@ -110,7 +110,7 @@ public class Main {
 }
 ```
 
-### 你可能会喜欢的可选整洁辅助方法（选 1–2 个即可）：
+### 你可能会喜欢的可选整洁辅助方法（选 1–2 个即可）
 
 ```java
 // 快速读取数字（在整洁模板中非常常见）

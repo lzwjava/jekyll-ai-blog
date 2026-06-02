@@ -24,6 +24,7 @@ Dify 由 **LangGenius, Inc.** 创建，开源 GitHub 项目 ([github.com/langgen
 ## 三种部署选项
 
 ### 1. Dify Cloud (dify.ai — 托管 SaaS)
+
 这是 dify.ai 门户网站。Dify.ai 提供云托管服务，采用分层订阅模式。您可以立即注册并使用，无需任何设置。定价层大致如下：
 
 - **Sandbox (免费)：** 试用层，应用和存储数量有限。
@@ -32,14 +33,17 @@ Dify 由 **LangGenius, Inc.** 创建，开源 GitHub 项目 ([github.com/langgen
 - **Enterprise (自定义定价)：** 联系销售；无限配额加上高级功能（见下文）。
 
 ### 2. 自托管社区版 (开源)
+
 Dify 的核心平台是开源的。您可以从 GitHub 下载并在自己的服务器或云实例上运行，无需支付许可费。软件免费；您只需承担托管基础设施成本。它通过 Docker Compose 或 Kubernetes Helm charts 部署。这适合对数据控制有严格要求或希望避免 recurring SaaS 费用的团队。
 
 仓库采用 Dify 开源许可，该许可本质上是 Apache 2.0 加上一些额外限制。
 
 ### 3. 企业版 (本地部署 / 私有云)
+
 是的，Dify 提供企业部署。Dify Enterprise 以安全、可定制且企业就绪的包形式提供 Dify 的全部功能。专为 Kubernetes 构建，此版本支持官方 Helm chart 部署，让组织能够灵活地在自己的云基础设施或本地环境中运行 Dify，满足严格的合规、数据驻留和监管要求。
 
 企业功能包括：
+
 - 多个工作空间、SSO (SAML 和 OIDC)、部署协助、广泛的白标定制、可协商 SLA、模型负载均衡、集中式工作空间和用户管理、自定义角色、专用 Slack 频道、电话和邮件支持，以及企业级使用洞察。
 - 多租户管理、二步验证和 MFA 支持，以及付费商业许可，支持完整品牌定制。
 

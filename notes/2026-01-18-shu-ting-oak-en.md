@@ -31,6 +31,7 @@ The poem passionately rejects traditional feudal or patriarchal love models (whe
 It is both a love declaration and a feminist-leaning manifesto of personal dignity — especially powerful coming from a female voice in the late 1970s. Many readers see it as expressing the awakening of individuality and female consciousness after the Cultural Revolution.
 
 **Cultural impact**
+
 - Frequently included in Chinese high-school textbooks (e.g., People's Education Press versions).
 - Became a "national" love poem for generations born in the 1970s–1990s; widely quoted in love letters, weddings, and discussions of gender equality.
 - Often recited at poetry readings; many consider it Shu Ting's signature work, even though she herself has said it's not necessarily her best poem.

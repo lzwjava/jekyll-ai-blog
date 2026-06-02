@@ -22,22 +22,26 @@ type: note
 ### 📊 为什么 Superpowers 消耗更多 Token
 
 #### 1. 🧠 **重规划的工作流 (Planning-Heavy Workflow)**
+
 Superpowers 强制执行一种结构化的工作流：
 > **Brainstorming → Design Confirmation → Writing Plans → Execution → Code Review → Branch Finishing**
 
 每个阶段都会生成大量的文本输出，这意味着与直接编写代码相比，**每个任务消耗的 Token 更多**。
 
 #### 2. 🤖 **子代理驱动开发 (Subagent-Driven Development)**
+
 - 每个任务都会创建一个拥有独立 Context 的 **新 Subagent**
 - 每个任务完成后会自动触发 **两阶段 Code Review**
 - 多个 Subagent 同时运行 = **Token 使用量翻倍**
 
 #### 3. 📋 **每个会话注入 Skill 文件**
+
 - 在每个 Session 开始时，Superpowers 会通过 **Session Start Hook** 注入 Skill Context
 - 超过 20 个 Skill 定义会被全部加载到 Context 中
 - 仅这一项操作就会增加 **显著的基准 Token 成本**
 
 #### 4. 🔄 **评审失败时自动重试**
+
 - 如果 Code Review 未通过，系统会 **创建一个新的 Subagent** 来重新执行任务
 - 这可能会导致 Token 使用量出现超乎预期的增长
 

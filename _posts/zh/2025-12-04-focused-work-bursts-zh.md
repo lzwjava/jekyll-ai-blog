@@ -25,6 +25,7 @@ type: note
 - **使进展可见**：您会积累一系列已完成的爆发式工作（例如，“今天完成了8个番茄钟”），这清晰地证明了已完成的工作，从而提升士气，减少“我一事无成”的感觉。
 
 研究支持：
+
 - 番茄工作法（Cirillo的原始方法）和超昼夜节律研究（例如，Rossi，Kleitman）表明，专注力和感知生产力显著提高。
 - 伊利诺伊大学2011年的一项研究发现，短暂的分心（休息）能显著改善长时间的注意力。
 - DeskTime数据（2014年至今）来自成千上万的用户，一直显示最高效的人工作约52分钟，然后休息约17分钟。
@@ -32,6 +33,7 @@ type: note
 简而言之：与长时间不间断的工作相比，爆发式工作尊重您大脑的自然限制，创造人为的紧迫感，保护深度专注，并全天保持更高的能量和动力。
 
 参考文献：
+
 - [The Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique)
 - [Brief diversions vastly improve focus (Baumeister et al., 2011)](https://news.illinois.edu/view/6367/205268)
 - [DeskTime study on most productive work pattern](https://desktime.com/blog/top-findings-desktime-data-study)

@@ -25,12 +25,14 @@ Answer:
 - 大多数现代 USB 适配器都可以开箱即用，或者只需安装一个软件包。
 
 2026 年流行且可靠的芯片组（具备良好的 OpenWrt 支持）：
+
 - **Realtek RTL8153 / RTL8156** (gigabit) → 安装 `kmod-usb-net-rtl8152`
 - **ASIX AX88179** (gigabit USB 3.0)
 - **TP-Link UE300 / UE306** (非常常见且便宜，基于 RTL8153)
 - 如果你追求 gigabit 速度，请避免使用非常老旧的仅支持 USB 2.0 的适配器。
 
 安装 OpenWrt 后的步骤：
+
 1. 插入 USB 适配器。
 2. 通过 SSH 或 LuCI → System → Software → Update lists → 搜索并安装驱动（例如 `kmod-usb-net-rtl8152` 或 `kmod-usb-net-asix`）。
 3. 重启或热插拔 —— 新的 interface 就会出现（例如 eth1）。
@@ -46,6 +48,7 @@ Answer:
 ### 2. 在单端口上使用 VLANs + 网管型交换机（更进阶，无需额外硬件）
 
 如果你不想购买额外的适配器：
+
 - 使用一台 **managed/VLAN-capable switch**（网管交换机，例如廉价的 TP-Link TL-SG108E，约 20-30 美元）。
 - 在单个 Ethernet 端口上配置两个 VLAN：
   - VLAN 10 = WAN

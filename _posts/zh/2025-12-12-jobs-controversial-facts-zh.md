@@ -43,8 +43,9 @@ type: note
 这些事实主要来自Walter Isaacson的官方传记（基于与乔布斯本人进行的40多次采访）、早期Apple员工（例如Andy Hertzfeld, Daniel Kottke）的记录以及Lisa Brennan-Jobs的回忆录《Small Fry》。
 
 参考资料：
-- Walter Isaacson，《史蒂夫·乔布斯》（2011）– https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539
-- Lisa Brennan-Jobs，《Small Fry》（2018）– https://www.groveatlantic.com/title/small-fry/
-- Andy Hertzfeld，《Revolution in the Valley》（2004）– https://www.folklore.org
+
+- Walter Isaacson，《史蒂夫·乔布斯》（2011）– <https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539>
+- Lisa Brennan-Jobs，《Small Fry》（2018）– <https://www.groveatlantic.com/title/small-fry/>
+- Andy Hertzfeld，《Revolution in the Valley》（2004）– <https://www.folklore.org>
 - Jony Fadell，《Build》（2022）– 多次提及工作场所行为
 - 对前员工的 various interviews（例如 Wired、Bloomberg、NYT archives）

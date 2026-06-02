@@ -45,6 +45,7 @@ AI coding assistants often **lack runtime context**. They can only see your stat
 > "I have a bug in this function. Don't fix it yet — add comprehensive debug logs so I can observe the runtime behavior."
 
 **Step 2 — Frontend: Add `console.log` strategically**
+
 ```javascript
 console.log('[DEBUG] fetchUser called with id:', id);
 console.log('[DEBUG] API response:', JSON.stringify(response));
@@ -53,6 +54,7 @@ console.log('[DEBUG] State before update:', this.state);
 ```
 
 **Step 3 — Backend: Add Log4j / SLF4J logs**
+
 ```java
 log.debug("[DEBUG] entering processOrder(), orderId={}", orderId);
 log.debug("[DEBUG] fetched order: {}", order);

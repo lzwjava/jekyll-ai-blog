@@ -23,5 +23,6 @@ First-Hop Redundancy Protocols (FHRP)，例如 HSRP (Hot Standby Router Protocol
 - **D** 不正确；FHRP 实际上通过让主机向单个虚拟 MAC 地址发送 ARP 请求来减少 ARP broadcasts。
 
 参考资料：
+
 - [Cisco - First Hop Redundancy Protocols Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp_fhrp/configuration/xe-16/fhrp-xe-16-book/fhrp-hsrp.html)
 - [RFC 5798 - Virtual Router Redundancy Protocol (VRRP) Version 3](https://datatracker.ietf.org/doc/html/rfc5798)

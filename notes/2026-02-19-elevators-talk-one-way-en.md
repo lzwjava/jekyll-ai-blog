@@ -30,7 +30,7 @@ Most people experience this without ever thinking about the term:
 3. **Acoustic reality inside small metal box**
    Even when the hardware technically allows full-duplex, echo + very high gain → howling/Larsen effect very easily → most manufacturers deliberately keep it half-duplex or add very aggressive echo suppression that basically makes it feel half-duplex anyway.
 
-### You usually get full-duplex only when:
+### You usually get full-duplex only when
 
 - Digital IP-based elevator emergency phone (new high-rise, hospitals, luxury buildings)
 - System explicitly advertises "full-duplex communication"

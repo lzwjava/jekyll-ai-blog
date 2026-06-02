@@ -88,16 +88,20 @@ The plugin integrates with Maven’s lifecycle and can be executed in different 
 
 - **Explicitly Run Checkstyle**:
   To check for violations and potentially fail the build:
+
   ```
   mvn checkstyle:check
   ```
 
 - **Run During the Build**:
   By default, the plugin binds to the `verify` phase. Use:
+
   ```
   mvn verify
   ```
+
   To generate a report without failing the build:
+
   ```
   mvn checkstyle:checkstyle
   ```
@@ -110,6 +114,7 @@ You can adjust the plugin’s behavior in the `<configuration>` section of your 
 
 - **Fail on Violation**:
   By default, the build fails if violations are found. To disable this:
+
   ```xml
   <configuration>
       <failOnViolation>false</failOnViolation>
@@ -118,6 +123,7 @@ You can adjust the plugin’s behavior in the `<configuration>` section of your 
 
 - **Include or Exclude Files**:
   Control which files are checked:
+
   ```xml
   <configuration>
       <includes>**/*.java</includes>
@@ -127,6 +133,7 @@ You can adjust the plugin’s behavior in the `<configuration>` section of your 
 
 - **Set Violation Severity**:
   Define the severity level that triggers a build failure:
+
   ```xml
   <configuration>
       <violationSeverity>warning</violationSeverity>
@@ -155,6 +162,7 @@ Here’s a basic `checkstyle.xml` file enforcing naming conventions and Javadoc 
 ## Common Use Cases
 
 The plugin supports a variety of checks, including:
+
 - Naming conventions for classes, methods, and variables.
 - Proper use of whitespace and formatting.
 - Presence and correctness of Javadoc comments.
@@ -169,6 +177,7 @@ The plugin supports a variety of checks, including:
 ## Summary
 
 The **Maven Checkstyle Plugin** is a valuable addition to any Java project using Maven. To use it:
+
 1. Add and configure the plugin in your `pom.xml`.
 2. Provide a `checkstyle.xml` with your desired rules.
 3. Run `mvn checkstyle:check` to enforce standards or `mvn checkstyle:checkstyle` for reports.

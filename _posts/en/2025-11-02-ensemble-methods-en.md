@@ -13,6 +13,7 @@ type: note
 In machine learning, an **ensemble** refers to a method that combines the predictions or outputs from multiple individual models (often called "weak learners," like simple decision trees) to produce a more accurate and robust final prediction than any single model could achieve on its own. The idea is to leverage the "wisdom of the crowd" among models—reducing errors, overfitting, and variance by averaging or weighting their strengths while mitigating weaknesses.
 
 In the specific context of **gradient boosting** (e.g., algorithms like XGBoost or LightGBM):
+
 - It's an *ensemble of trees*: Weak decision trees are built sequentially, where each new tree focuses on correcting the residual errors (mistakes) of the previous ones.
 - This boosting process "gradually" improves the overall model, leading to a strong ensemble that's highly effective for tasks like regression or classification.
 

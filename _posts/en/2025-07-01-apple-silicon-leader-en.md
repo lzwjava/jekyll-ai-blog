@@ -14,11 +14,11 @@ type: note
 
 ## 🔧 **Overview of Work and Role at Apple**
 
-### **Position**:
+### **Position**
 
 Senior Vice President of Hardware Technologies at Apple (since 2015, joined in 2008)
 
-### **Core Responsibilities**:
+### **Core Responsibilities**
 
 Johny Srouji leads all of Apple’s silicon development, which includes:
 

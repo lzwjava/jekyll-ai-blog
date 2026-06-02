@@ -26,6 +26,7 @@ Yes → accept（接受）
 No → reject（拒绝）
 
 而且这个机器应该非常简单：
+
 - 它只有有限数量的“记忆位置”（称为 states）
 - 它在输入中永远不会回退（从左到右只读取一次）
 - 它的行为是完全可预测的（没有猜测，没有运气成份）
@@ -67,6 +68,7 @@ No → reject（拒绝）
 Language = 所有以 **01 结尾** 的 binary strings
 
 States:
+
 - q₀ = start / 还没看到任何有用的东西
 - q₁ = 最后一个符号是 0
 - q₂ = 最后两个符号是 01 ← accepting state
@@ -159,6 +161,7 @@ Accepting states = {q₂}
 ### Step 6: 快速视觉类比
 
 把 DFA 想象成一张地铁线路图：
+
 - 车站 (Stations) = states
 - 彩色箭头 (Colored arrows) = 标有符号的 transitions
 - 你从一个特定的车站出发

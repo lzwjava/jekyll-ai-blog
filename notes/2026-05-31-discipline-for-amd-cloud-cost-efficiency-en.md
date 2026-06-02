@@ -76,6 +76,7 @@ if step % 500 == 0:
 At $1.99/hr, 1 idle hour = ~$2 wasted. A 10-hour run left running 2 extra hours because you forgot to kill it = $4 gone. Auto-shutdown pays for itself immediately.
 
 **Summary of the discipline:**
+
 - Local: write, debug, test on CPU/small batch
 - AMD: launch training, detach, auto-shutdown
 - No agents, no Warp sessions, no parallel exploration on the paid box

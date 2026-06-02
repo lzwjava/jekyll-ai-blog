@@ -114,7 +114,7 @@ public class Main {
 
 ### 为什么这对示例 `(()(()))` 有效
 
-s = ` ( ( ) ( ( ) ) )`
+s = `( ( ) ( ( ) ) )`
 索引   0 1 2 3 4 5 6 7
 
 当 i=3 时 (0-based)，s[3]=`)`
@@ -138,6 +138,7 @@ s = ` ( ( ) ( ( ) ) )`
 **关于 easy version 的直觉：** 答案要么是 -1，要么是 n-2。
 
 因为：
+
 - 如果我们能找到任何一个地方将一个 `)` “升级”为 `(` 并跳过两个字符来重新平衡，我们就能得到长度为 n-2 的序列。
 - 通常情况下，最大的 better subsequence 的长度就是 n-2（即正好跳过了一对匹配的括号）。
 
@@ -186,6 +187,6 @@ public class Main {
 
 **References:**
 
-- https://codeforces.com/contest/2190/problem/B1
-- https://codeforces.com/contest/2190/submission/283456789 (n-2 短解示例)
-- https://codeforces.com/contest/2190/submission/283425017 (遍历每个位置的示例)
+- <https://codeforces.com/contest/2190/problem/B1>
+- <https://codeforces.com/contest/2190/submission/283456789> (n-2 短解示例)
+- <https://codeforces.com/contest/2190/submission/283425017> (遍历每个位置的示例)

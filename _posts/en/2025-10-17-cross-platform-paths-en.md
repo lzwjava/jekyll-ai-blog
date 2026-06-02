@@ -13,12 +13,14 @@ type: note
 ### Handling Paths in Python Config Files (INI) for Windows and Linux
 
 Python provides robust tools like `os.path`, `pathlib`, and `configparser` to manage file paths across platforms. The key challenges are:
+
 - **Path separators**: Windows uses `\` (backslashes), Linux uses `/` (forward slashes). Config INI files might store paths with `/`, `\`, `//`, or `\\` (e.g., due to escaping or manual entry).
 - **Subprocess**: When passing paths to `subprocess` (e.g., `subprocess.run`), it must be a valid string for the OS. Both `/` and `\` work on Windows, but `\` is native.
 - **os.path**: This module is platform-aware but requires careful construction (e.g., via `os.path.join`).
 - **Cross-platform**: Use forward slashes `/` everywhere in configs for simplicity—Python normalizes them on Windows. For mixed separators, normalize on read.
 
 #### Best Practices
+
 1. **Store paths in INI with forward slashes (`/`)**: This works everywhere without issues. Avoid `\` in configs to prevent escaping problems (e.g., `\n` could be interpreted as newline).
 2. **Read and normalize paths**: Use `pathlib.Path` (recommended, Python 3.4+) for automatic handling. It accepts mixed separators and normalizes to the platform's style.
 3. **For subprocess**: Convert to `str(path)`—it uses native separators but accepts `/` on Windows.
@@ -28,6 +30,7 @@ Python provides robust tools like `os.path`, `pathlib`, and `configparser` to ma
    - `\\` in config: Treat as escaped `\`; replace or let `Path` parse.
 
 #### Step-by-Step Example
+
 Assume an INI file (`config.ini`) with mixed paths:
 
 ```
@@ -39,6 +42,7 @@ escaped_path = C:\\dir\\file.txt          ; Escaped backslashes
 ```
 
 ##### 1. Reading the Config
+
 Use `configparser` to load. It reads values as raw strings, preserving separators.
 
 ```python
@@ -57,7 +61,9 @@ escaped_str = config.get('settings', 'escaped_path')
 ```
 
 ##### 2. Normalizing Paths with `pathlib` (Cross-Platform)
+
 `Path` auto-detects the platform and normalizes:
+
 - Replaces `\` or `\\` with `/` internally, outputs native separators via `str()`.
 - Handles doubles like `//` as single `/`.
 
@@ -78,6 +84,7 @@ print(win_path_forward)  # 'C:/Users/example/file.txt' on Win
 - Use `Path.resolve()` for absolute paths: `abs_path = win_path.resolve()` (expands `~` or relatives).
 
 ##### 3. Using with `os.path` (Legacy, but Compatible)
+
 If you must use `os.path`, normalize first:
 
 ```python
@@ -95,6 +102,7 @@ full_path = os.path.join(os.path.dirname(normalized_win), 'newfile.txt')
 - Avoid manual `\` concatenation—use `join`.
 
 ##### 4. Passing to Subprocess
+
 `subprocess` accepts paths as strings. Use `str(Path)` for native separators, or `/` (works on both OSes).
 
 ```python
@@ -110,6 +118,7 @@ print(result.stdout)
 - Handles UNC (`//server/share`) fine on Windows.
 
 ##### 5. Writing Back to Config (Preserve Portability)
+
 When saving, use `/` for future-proofing:
 
 ```python
@@ -119,6 +128,7 @@ with open('config.ini', 'w') as f:
 ```
 
 #### Potential Pitfalls
+
 - **Escaping in INI**: If `\` appears in values, `configparser` doesn't auto-escape—`C:\n` reads as literal `\n`. Use `config.get` and let `Path` parse.
 - **Relative paths**: Use `Path.cwd() / rel_path` for absolutes.
 - **Validation**: Check `path.exists()` after normalization.
@@ -127,6 +137,7 @@ with open('config.ini', 'w') as f:
 This approach ensures your code runs unchanged on Windows/Linux. Test with `python -m venv` on both for verification.
 
 #### References
+
 - [Python pathlib docs](https://docs.python.org/3/library/pathlib.html)
 - [configparser docs](https://docs.python.org/3/library/configparser.html)
 - [subprocess docs](https://docs.python.org/3/library/subprocess.html)

@@ -67,6 +67,7 @@ Yolo 模式仅影响 **危险命令的审批提示**。它不会改变以下内�
 此类配置更改在会话启动时读取。对于 **未来的会话**（下次运行 `hermes` 时），yolo 模式将自动启用。如需在当前的会话中立即生效，请输入 `/yolo`（该命令会内联切换审批绕过功能）。
 
 如需在之后恢复原设置：
+
 ```bash
 hermes config set approvals.mode manual    # 恢复为默认提示
 hermes config set approvals.mode smart     # 使用 AI 辅助审批

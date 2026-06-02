@@ -43,6 +43,7 @@ A **Control Resource** (often used as a lock) is a mechanism to **limit concurre
 ### Example
 
 If three jobs all require the Control Resource `DB_UPDATE_LOCK` with quantity = 1:
+
 - First job starts → acquires the lock → runs
 - Second and third jobs go into **Waiting for Resource** status
 - When the first job ends, the lock is released → next job in line grabs it and runs

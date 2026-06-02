@@ -36,7 +36,8 @@ Stylus是一种CSS预处理器，它去除了传统CSS的冗长（无需大括�
     padding-top 280px
 ```
 
-### 关键技术：
+### 关键技术
+
 - **全屏英雄**：`height 800px` 和 `width 100%` 创建了一个大胆的全宽横幅。`overflow hidden` 确保没有内容溢出。
 - **背景图像**：`.bg` 类使用 `background-size cover` 将英雄图像按比例缩放，而 `background-position-y 40%` 微调其垂直对齐以获得视觉效果。
 - **嵌套**：Stylus的嵌套将相关样式分组，提高了可读性，相比平面CSS更好。
@@ -67,7 +68,8 @@ Stylus是一种CSS预处理器，它去除了传统CSS的冗长（无需大括�
         margin 0 auto
 ```
 
-### 亮点：
+### 亮点
+
 - **Flexbox**：`display flex` 和 `flex-direction row` 将列表项水平对齐，而 `flex-grow 1` 确保它们均匀扩展以填充容器。
 - **居中**：`width 1160px` 与 `margin 0 auto` 结合，居中内容，这是固定宽度布局的经典技术。
 - **伪类魔法**：`&:first-child` 选择器从第一个项目中删除填充，防止不规则间距。
@@ -122,7 +124,8 @@ li
       transition all 0.35s ease 0s
 ```
 
-### 解析：
+### 解析
+
 - **悬停效果**：悬停时，图像放大（`transform scale(1.2,1.2)`）并变亮（`-webkit-filter brightness(0.6)`），而文本元素向上移动并调整不透明度。
 - **过渡**：`transition all 0.35s ease 0s` 确保所有属性的平滑动画，持续时间为350毫秒，带有缓动曲线。
 - **分层**：`.text` 的 `position absolute` 将其定位在图像上方，`z-index 2` 确保可见性。
@@ -180,6 +183,7 @@ li
 ## 最佳实践和总结
 
 这个Stylus实现为任何CSS项目提供了教训：
+
 1. **使用预处理器**：Stylus的嵌套和混合（例如 `clearfix()`）简化了复杂布局。
 2. **平衡布局**：结合Flexbox用于现代浏览器，并使用浮动作为后备，以实现健壮性。
 3. **增强用户体验**：平滑的过渡和悬停效果使UI看起来更生动。

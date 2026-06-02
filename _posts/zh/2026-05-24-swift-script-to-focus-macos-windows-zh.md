@@ -61,5 +61,6 @@ import CoreGraphics
 | `/tmp/raise_window.swift` | 更简单的变体——仅激活应用，无点击 |
 
 如果你希望它更健壮，我可以：
+
 1. 安装 `cliclick`（`brew install cliclick`）——一个用于合成鼠标/键盘事件的小型 CLI，比编译 Swift 更简单
 2. 授予辅助功能访问权限，以便我可以使用 AppleScript 实现无需点击的干净窗口提升

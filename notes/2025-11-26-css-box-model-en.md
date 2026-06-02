@@ -32,7 +32,7 @@ Here is the correct structure, from the **inside** (center) to the **outside**:
    Controlled by `margin`, `margin-top`, etc.
    Can be negative and can cause margin collapsing.
 
-### Visual order from inside → outside:
+### Visual order from inside → outside
 
 ```
 Margin (outside)
@@ -58,7 +58,9 @@ Or as a simple diagram:
 ```
 
 ### Common "three-part" misconception
+
 Some tutorials simplify it as:
+
 1. Content
 2. Padding/Border (grouped as "inner spacing + edge")
 3. Margin

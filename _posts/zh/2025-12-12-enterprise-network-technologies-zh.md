@@ -17,6 +17,7 @@ type: note
 企业网络是支持组织高可用性、安全性、性能和可扩展性要求的大规模、任务关键型网络。下面将对现代企业环境中使用的一些最重要技术进行结构化、全面的介绍。
 
 ### 1. 第一跳冗余协议（FHRP）
+
 这些协议为主机提供网关冗余，确保在默认网关出现故障时也能持续连接。
 
 - **VRRP (Virtual Router Redundancy Protocol)**
@@ -32,9 +33,11 @@ type: note
 - **GLBP (Gateway Load Balancing Protocol)** – Cisco 专有，提供负载均衡
 
 ### 2. 服务质量（QoS）
+
 QoS 管理带宽、延迟、抖动和丢包，以优先处理关键流量（语音、视频、业务应用）而不是次要流量。
 
 #### 核心 QoS 概念
+
 - **分类（Classification）** – 识别流量（使用 ACL、NBAR、DSCP/IPP/CoS 标记）
 - **标记（Marking）** – 设置第 2 层 (CoS) 或第 3 层 (IP Precedence, DSCP) 值
 - **管制（Policing）** – 速率限制（丢弃或重新标记超出流量）
@@ -64,9 +67,11 @@ QoS 管理带宽、延迟、抖动和丢包，以优先处理关键流量（语�
 | 尽力而为           | 0    | 默认队列                     |
 
 ### 3. MPLS (Multiprotocol Label Switching)
+
 现代服务提供商和大型企业 WAN 的基础。
 
 #### MPLS 工作原理
+
 - 在核心层用标签交换取代 IP 最长匹配路由
 - 标签是插入在 L2 和 L3 报头之间的 20 位值
 - **Push** (压入)、**Swap** (交换)、**Pop** (弹出) 操作
@@ -82,6 +87,7 @@ QoS 管理带宽、延迟、抖动和丢包，以优先处理关键流量（语�
 | L2VPN    | 点对点 (VPWS) 或多点 (VPLS/EVPN)         | 遗留协议传输, DCI        |
 
 #### L3 MPLS VPN 关键组件
+
 - **VRF (Virtual Routing and Forwarding)** – 每个客户/VPN 的独立路由表
 - **Route Distinguisher (RD)** – 使 BGP 中重叠的 IP 唯一
 - **Route Target (RT)** – 控制 VRF 之间的路由导入/导出
@@ -102,6 +108,7 @@ QoS 管理带宽、延迟、抖动和丢包，以优先处理关键流量（语�
 | NetFlow/sFlow/IPFIX    | 流量统计和监控                                               | 用于容量规划和安全             |
 
 ### 典型大型企业网络层
+
 1. **园区/分支 LAN** – 高速交换, 802.1X, VXLAN/EVPN 结构
 2. **数据中心** – Spine-leaf 结构, VXLAN/EVPN, ACI 或 NSX 叠加层
 3. **WAN 边缘** – MPLS L3VPN 或 SD-WAN 叠加层

@@ -22,7 +22,7 @@ Hysteria2 support was added in the **Clash Meta** (mihomo) core starting around 
 1. **Recommended: Switch to mihomo (Clash Meta core)**
    Download a recent macOS AMD64 binary from the official MetaCubeX/mihomo releases:
 
-   - Go to → https://github.com/MetaCubeX/mihomo/releases
+   - Go to → <https://github.com/MetaCubeX/mihomo/releases>
    - Find the latest version (e.g. v1.18.x or newer in 2026)
    - Download the file named roughly: `mihomo-darwin-amd64` or `mihomo-alpha-darwin-amd64` or `clash.meta-darwin-amd64`
    - Rename it to `clash` or `mihomo` if you want
@@ -35,19 +35,19 @@ Hysteria2 support was added in the **Clash Meta** (mihomo) core starting around 
 2. **Alternative: Use a modern GUI client instead of command-line binary**
    Popular choices in 2025–2026 for macOS:
 
-   - **Clash Verge Rev** → https://github.com/clash-verge-rev/clash-verge-rev/releases
+   - **Clash Verge Rev** → <https://github.com/clash-verge-rev/clash-verge-rev/releases>
      (very actively maintained, excellent hysteria2 / TUIC / VLESS Reality support)
 
-   - **Mihomo Party** → https://github.com/pompurin404/mihomo-party
+   - **Mihomo Party** → <https://github.com/pompurin404/mihomo-party>
      (very user-friendly, built specifically around mihomo)
 
-   - **FlClash** → https://github.com/chen08209/FlClash
+   - **FlClash** → <https://github.com/chen08209/FlClash>
 
    These clients handle config parsing, core updates, and hy2 nodes automatically.
 
 3. **If you must keep using command-line only**
    - Download mihomo binary (as in option 1)
-   - Or compile from source: https://github.com/MetaCubeX/mihomo
+   - Or compile from source: <https://github.com/MetaCubeX/mihomo>
      (go install github.com/MetaCubeX/mihomo@alpha)
 
 ### Summary Table
@@ -63,6 +63,6 @@ After replacing the binary with a mihomo version, the `type: hysteria2` nodes in
 
 **References:**
 
-- https://github.com/MetaCubeX/mihomo/releases
-- https://github.com/clash-verge-rev/clash-verge-rev/releases
-- https://wiki.metacubex.one/en/ (mihomo documentation)
+- <https://github.com/MetaCubeX/mihomo/releases>
+- <https://github.com/clash-verge-rev/clash-verge-rev/releases>
+- <https://wiki.metacubex.one/en/> (mihomo documentation)

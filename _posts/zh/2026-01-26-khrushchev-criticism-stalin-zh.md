@@ -31,6 +31,7 @@ Nikita Khrushchev 主要在 1956 年 2 月 25 日苏联共产党第二十次代�
 - **对 Lenin 遗产的亵渎** — Khrushchev 声称 Stalin 对 Lenin 的妻子 Nadezhda Krupskaya 极其粗暴，并无视了 Lenin 在《遗嘱》（Testament）中对 Stalin 粗暴性格的警告以及罢免其总书记职务的建议。
 
 尽管 Khrushchev 谴责了 Stalin 的许多罪行，但他**并未**批评：
+
 - 农业集体化运动。
 - 工业化进程。
 - Gulag 制度本身的存在（仅指责了 Stalin 对该制度的滥用）。

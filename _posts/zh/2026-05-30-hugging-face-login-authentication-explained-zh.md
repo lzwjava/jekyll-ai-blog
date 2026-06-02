@@ -17,7 +17,7 @@ type: note
 
 ## 令牌生成
 
-您访问 https://huggingface.co/settings/tokens 生成一个个人访问令牌。HF 会提供一个字符串（在您的例子中为 `test1`），它充当类似 OAuth 的凭据——这是一个 Bearer 令牌，用于验证对 `huggingface.co` 的 API 请求。
+您访问 <https://huggingface.co/settings/tokens> 生成一个个人访问令牌。HF 会提供一个字符串（在您的例子中为 `test1`），它充当类似 OAuth 的凭据——这是一个 Bearer 令牌，用于验证对 `huggingface.co` 的 API 请求。
 
 ## 存储策略
 
@@ -47,9 +47,11 @@ git 凭据助手是关键所在——它意味着您的令牌可以与任何使�
 
 1. **从缓存加载令牌**，或向 git 凭据助手请求
 2. **将其作为 Bearer 令牌注入 HTTP 头部**：
+
    ```
    Authorization: Bearer test1
    ```
+
 3. **HF API 在服务端验证令牌**，并返回模型元数据、权重，或拒绝访问
 
 ## 为什么需要两种存储方式？

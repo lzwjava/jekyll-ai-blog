@@ -18,17 +18,20 @@ type: note
 Meta's Muse Spark represents a major upgrade over its Llama 4 models and marks Meta's re-entry into the "Top 5" global models after a year of relative absence from the AI frontier.
 
 **Benchmark Performance:**
+
 - Artificial Analysis scored Muse Spark at 52 on their Intelligence Index, placing it behind only Gemini 3.1 Pro, GPT-5.4, and Claude Opus 4.6
 - For context, Llama 4 Maverick and Scout scored only 18 and 13 respectively, representing nearly a three-fold performance improvement
 - Muse Spark is the second-most capable vision model benchmarked by Artificial Analysis
 - The model achieved 58% in "Humanity's Last Exam" and 38% in "FrontierScience Research"
 
 **Strengths:**
+
 - Particularly strong in multimodal understanding and processing health information
 - Achieves its reasoning capabilities using over an order of magnitude less compute than Llama 4 Maverick through a process called "thought compression"
 - Notably token efficient for its intelligence level, using 58M output tokens to run the Intelligence Index, comparable to Gemini 3.1 Pro Preview (57M)
 
 **Acknowledged Weaknesses:**
+
 - Meta acknowledges gaps between Muse Spark and leading models in areas like coding
 - Agentic performance does not stand out, scoring 1427 on GDPval-AA, behind Claude Sonnet 4.6 (1648) and GPT-5.4 (1676)
 - A Meta executive told Axios that Muse Spark doesn't mark a new state of the art, but is competitive with the latest models from leading labs at certain tasks
@@ -39,11 +42,13 @@ Meta's Muse Spark represents a major upgrade over its Llama 4 models and marks M
 Muse Spark has strong multimodal perception built in, allowing Meta AI to see and understand what users are looking at, not just read what they type. The model accepts voice, text, and image inputs but produces text-only output.
 
 **Operating Modes:**
+
 - **Instant Mode**: For quick, casual queries
 - **Thinking Mode**: For more complex reasoning tasks
 - **Contemplating Mode** (rolling out gradually): Orchestrates multiple sub-agents to reason in parallel, allowing Meta to compete with extreme reasoning models like Google's Gemini Deep Think and OpenAI's GPT-5.4 Pro
 
 **Special Features:**
+
 - A "shopping mode" that combines large language models with data on user interests and behavior
 - Visual coding capabilities, letting users create custom websites and mini-games straight from a prompt
 - Health-focused features developed in collaboration with a team of physicians to provide helpful information on common health questions

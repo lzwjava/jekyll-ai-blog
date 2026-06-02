@@ -35,6 +35,7 @@ Fred Brooks 在 1975 年编写了 **"The Mythical Man-Month"**，其中的核心
 ### 为什么 AI-Augmented Solo Developer / “10x Individual” 现在更有价值
 
 在 **Pre-AI 时代**，一个高技能的个人虽然很有价值，但仍受限于：
+
 - 每天的工作时长
 - Context switching（上下文切换）
 - Boilerplate/重复性代码编写
@@ -73,11 +74,13 @@ Fred Brooks 在 1975 年编写了 **"The Mythical Man-Month"**，其中的核心
 ### 对 Corporation 和 Startup 的战略启发
 
 **对于 Startups：**
+
 - 一个 AI-powered 全栈工程师可以涵盖 Full-stack、DevOps 和 Documentation。
 - 更少的人 = 更低的 Burn rate（烧钱速度）、更快的决策、更少的办公室政治。
 - 这就是为什么现在的 Solo founders 或 2 人团队可以构建以前需要 10 人以上才能完成的产品。
 
 **对于 Big Corps：**
+
 - 一个能独立交付的 AI-augmented 个人贡献者（Individual Contributor）具有**不成比例的高价值**。
 - 他们减少了对协调结构（Managers, PMs, QA handoffs）的需求。
 - 他们本质上是一个 **Force multiplier（力量倍增器）** —— 一个人就能完成一个小团队的产出。

@@ -273,6 +273,17 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def ensure_git_identity() -> None:
+    """Set git user.name and user.email if not already configured."""
+    for key, fallback in [
+        ("user.name", "GitHub Pages Bot"),
+        ("user.email", "bot@localhost"),
+    ]:
+        result = subprocess.run(["git", "config", key], capture_output=True, text=True)
+        if result.returncode != 0 or not result.stdout.strip():
+            subprocess.run(["git", "config", key, fallback], check=True)
+
+
 def main() -> None:
     args = parse_args()
 

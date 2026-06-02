@@ -19,10 +19,12 @@ Items like **insoles** are removable, replaceable parts that wear out faster tha
 Here are common examples of such **separately purchasable, replaceable wear parts** in everyday items:
 
 ### Footwear-related
+
 - **Replacement insoles / shoe inserts**
   Many shoes (especially running shoes, work boots, sneakers, and walking shoes) have removable factory insoles that flatten or degrade over time. Buying aftermarket insoles (gel, foam, arch support, etc.) and swapping them can restore comfort and extend shoe life by months or even years. Brands like Dr. Scholl's, Spenco, Tread Labs (with replaceable top covers), and Sidas are popular for this.
 
 ### Clothing and accessories
+
 - **Shoe soles / resoling**
   Good leather shoes or boots can be resoled (new sole attached) multiple times, turning a 3–5 year shoe into 10+ years of use.
 - **Shoe laces**
@@ -30,6 +32,7 @@ Here are common examples of such **separately purchasable, replaceable wear part
 - **Zippers or buttons** on jackets, pants, bags → often replaceable.
 
 ### Electronics and tech
+
 - **Phone / laptop batteries**
   Many models (especially Fairphone, some iPhones, Framework laptops) allow battery replacement, extending device life 2–5+ years.
 - **Screen protectors and cases**
@@ -37,6 +40,7 @@ Here are common examples of such **separately purchasable, replaceable wear part
 - **Earphone tips / eartips** (for earbuds) → silicone/rubber tips wear out and are easily swapped.
 
 ### Kitchen and household
+
 - **Blender / food processor blades or gaskets**
   Often sold separately when they dull or crack.
 - **Knife sharpening** or replaceable knife blades (some modular knife systems).
@@ -44,11 +48,13 @@ Here are common examples of such **separately purchasable, replaceable wear part
 - **Vacuum cleaner bags / filters / brushes** → regular replacement keeps the vacuum working like new.
 
 ### Personal care and hygiene
+
 - **Toothbrush heads** (electric toothbrushes like Oral-B, Philips Sonicare).
 - **Razor blades / safety razor heads** → metal razor handle lasts forever, only blades are replaced.
 - **Shaver foils / heads** for electric shavers.
 
 ### Other daily items
+
 - **Backpack / bag zippers, straps, or buckles** — many brands sell repair parts.
 - **Bicycle tires, tubes, chains, brake pads** → core parts are consumable and replaceable.
 - **Watch straps / bands** (leather, metal, NATO) — easy swap to refresh or repair a watch.

@@ -18,6 +18,7 @@ Yes, it's very possible that your home entrance router (the China Telecom broadb
 ## Why Physical Power Cycle Was Necessary
 
 **Software Restart vs. Hard Reset:**
+
 - A **console/software restart** typically performs a graceful shutdown that may not fully clear all memory states, cached processes, or stuck network sessions
 - A **physical power disconnect** (unplugging the battery/power) forces a complete hardware reset, clearing:
   - All RAM contents completely
@@ -27,6 +28,7 @@ Yes, it's very possible that your home entrance router (the China Telecom broadb
 
 **Memory Leak Indicators:**
 Your symptoms strongly suggest memory/resource exhaustion:
+
 - Performance degradation over time (weibo.com slow)
 - Issue affected both VPN and domestic connections (ruling out VPN-specific problems)
 - Soft restart failed to resolve the issue
@@ -35,6 +37,7 @@ Your symptoms strongly suggest memory/resource exhaustion:
 ## Common Causes in Home Routers
 
 **Memory Leaks:**
+
 - Consumer routers running 24/7 can accumulate memory leaks from:
   - NAT connection tracking tables filling up
   - DNS cache growing unbounded
@@ -42,11 +45,13 @@ Your symptoms strongly suggest memory/resource exhaustion:
   - ISP-provided routers often have less optimized firmware
 
 **Connection Table Saturation:**
+
 - Routers maintain tables for NAT translations, active connections, and ARP entries
 - These can overflow with heavy usage, multiple devices, or long uptimes
 - China Telecom routers often handle PPPoE sessions which can accumulate stale states
 
 **Thermal Issues:**
+
 - Prolonged operation without proper ventilation can cause:
   - CPU throttling affecting routing performance
   - Memory errors requiring full power cycle to clear
@@ -54,11 +59,13 @@ Your symptoms strongly suggest memory/resource exhaustion:
 ## Your Network Setup Specifics
 
 **TL-XDR3050 as Middle Point:**
+
 - Your TP-Link mesh router acts as a wireless access point/repeater between floors
 - This adds another layer where issues could occur, but since the problem resolved after cycling the **entrance router**, that was the culprit
 - The mesh router was likely functioning correctly but receiving degraded upstream performance
 
 **Testing Methodology (Good Approach):**
+
 - Testing both mobile and laptop confirmed device-independent issue
 - Testing with/without VPN isolated the problem to domestic routing
 - This systematic approach correctly identified the entrance router as the failure point
@@ -66,22 +73,26 @@ Your symptoms strongly suggest memory/resource exhaustion:
 ## Recommendations
 
 **Short-term:**
+
 - Schedule **weekly/monthly physical power cycles** of your China Telecom router (set a calendar reminder)
 - Monitor if the issue recurs and note the time between power cycles
 
 **Long-term Solutions:**
+
 1. **Firmware Update:** Check if China Telecom has firmware updates for your router model
 2. **Router Upgrade:** Consider requesting a newer model from China Telecom if your current one is older
 3. **Custom Firmware:** If technically inclined and router is compatible, custom firmware like OpenWrt can resolve memory leak issues
 4. **Separate Modem Mode:** If possible, put the China Telecom device in bridge/modem mode and use your TL-XDR3050 as the primary router (better firmware, more memory)
 
 **Monitoring:**
+
 - Keep track of router uptime and correlate with performance degradation
 - If slowdowns consistently appear after X days of uptime, that confirms memory leak hypothesis
 
 ## Technical Explanation
 
 When a router experiences memory exhaustion:
+
 ```
 Normal Operation:
 Available RAM → Routing processes → Release memory when done

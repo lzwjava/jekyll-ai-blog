@@ -46,7 +46,7 @@ DGX OS是Ubuntu Linux的定制化加固版本（当前基于Ubuntu 22.04或24.04
 
 参考资源：
 
-- https://docs.nvidia.com/dgx/dgx-os-6-user-guide/introduction.html
-- https://docs.nvidia.com/dgx/dgx-os-7-user-guide/introduction.html
-- https://docs.nvidia.com/dgx/dgx-os-6-user-guide/installing_on_ubuntu.html（关于在Ubuntu上安装DGX软件）
+- <https://docs.nvidia.com/dgx/dgx-os-6-user-guide/introduction.html>
+- <https://docs.nvidia.com/dgx/dgx-os-7-user-guide/introduction.html>
+- <https://docs.nvidia.com/dgx/dgx-os-6-user-guide/installing_on_ubuntu.html（关于在Ubuntu上安装DGX软件）>
 - NVIDIA开发者论坛关于非DGX/自带硬件设备安装DGX OS的讨论

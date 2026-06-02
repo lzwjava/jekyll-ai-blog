@@ -29,6 +29,7 @@ Neither caliber is strictly "better" in PUBG Mobile—it depends on your playsty
 **Recommendation**: Grab an M416 (5.56mm) + attachments first—it's the most forgiving and meta. Pair with a 7.62mm secondary (e.g., Beryl) for variety. Practice recoil in training mode!
 
 References:
+
 - [PUBG Weapons Tier List (Esports Insider, Nov 2025)](https://esportsinsider.com/pubg-best-weapons-tier-list)
 - [PUBG Datamined Stats](https://battlegrounds.party/weapons/)
 - [Topuplive Rifle Guide](https://www.topuplive.com/news/complete-guide-to-pubg-mobile-rifles-best-weapons-attachments.html)

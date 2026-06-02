@@ -15,17 +15,22 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 ### 1. **Check Your Internet Connection**
+
 - Ensure your machine has a stable internet connection.
 - Try accessing `https://ghcr.io` in your browser to confirm you can reach the site.
 
 ---
 
 ### 2. **Check Docker Daemon Status**
+
 - Restart the Docker daemon:
+
   ```bash
   sudo systemctl restart docker
   ```
+
 - Verify Docker is running:
+
   ```bash
   sudo systemctl status docker
   ```
@@ -33,14 +38,18 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 ### 3. **Configure Docker DNS**
+
 - If you're behind a corporate network or proxy, Docker might need custom DNS settings.
 - Edit or create `/etc/docker/daemon.json`:
+
   ```json
   {
     "dns": ["8.8.8.8", "1.1.1.1"]
   }
   ```
+
 - Restart Docker:
+
   ```bash
   sudo systemctl restart docker
   ```
@@ -48,7 +57,9 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 ### 4. **Check for Proxy Settings**
+
 - If you're behind a proxy, configure Docker to use it:
+
   ```bash
   mkdir -p ~/.docker
   echo '{
@@ -61,31 +72,40 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
     }
   }' > ~/.docker/config.json
   ```
+
 - Replace `your-proxy-address:port` with your actual proxy details.
 
 ---
 
 ### 5. **Retry Pulling the Image Manually**
+
 - Try pulling the image manually to see if the issue persists:
+
   ```bash
   docker pull ghcr.io/librechat/librechat:latest
   ```
+
 - If it works, retry `docker-compose up -d`.
 
 ---
 
 ### 6. **Check for Firewall/Network Restrictions**
+
 - Ensure your firewall or network isn't blocking access to `ghcr.io`.
 - Temporarily disable the firewall to test:
+
   ```bash
   sudo ufw disable
   ```
+
   (Re-enable it after testing if needed.)
 
 ---
 
 ### 7. **Update Docker and Docker-Compose**
+
 - Ensure you're using the latest versions:
+
   ```bash
   sudo apt update && sudo apt upgrade docker-ce docker-compose-plugin
   ```
@@ -93,7 +113,9 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 ### 8. **Set UID/GID Environment Variables**
+
 - The warnings about `UID` and `GID` are not critical, but you can set them in your `.env` file or `docker-compose.yml` to suppress the warnings:
+
   ```bash
   echo "UID=$(id -u)" >> .env
   echo "GID=$(id -g)" >> .env
@@ -102,18 +124,23 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 ### 9. **Use a Different Registry Mirror (Optional)**
+
 - If GHCR is consistently unreachable, you can try using a mirror (though this is not recommended for production):
+
   ```json
   {
     "registry-mirrors": ["https://mirror.example.com"]
   }
   ```
+
   Add this to `/etc/docker/daemon.json` and restart Docker.
 
 ---
 
 ### 10. **Check for Time Synchronization**
+
 - Ensure your system time is synchronized:
+
   ```bash
   sudo apt install ntp
   sudo systemctl restart ntp
@@ -122,8 +149,6 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 ### Summary Table of Commands
-
-
 
 | Step | Command/Action |
 |------|----------------|
@@ -136,7 +161,9 @@ The error you're encountering, `Get "https://ghcr.io/v2/": net/http: TLS handsha
 ---
 
 If the issue persists after trying these steps, let me know the output of:
+
 ```bash
 docker info
 ```
+
 and any error messages you see when running the above commands. This will help diagnose further!

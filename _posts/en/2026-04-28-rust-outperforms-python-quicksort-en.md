@@ -22,6 +22,7 @@ Here's the post:
 I implemented the same Quicksort algorithm from scratch in both Rust and Python — identical Lomuto partition logic — and timed them on 10,000 random integers.
 
 **Results:**
+
 - Rust (release build): **~0.75 ms**
 - Python: **~7.9 ms**
 

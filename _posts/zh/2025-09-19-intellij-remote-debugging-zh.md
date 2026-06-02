@@ -120,16 +120,19 @@ CF 在其路由层后运行应用；通常无法直接暴露 JDWP 端口。有�
    ```
    cf set-env <APP> JBP_CONFIG_DEBUG '{enabled: true, port: 7777}'
    ```
+
 2. 重新部署：
 
    ```
    cf restage <APP>
    ```
+
 3. 打开 SSH 隧道：
 
    ```
    cf ssh -N -L 7777:localhost:7777 <APP>
    ```
+
 4. 在 IntelliJ 中挂载到 `localhost:7777`。
 
 **选项 2：使用 CF SSH JMX/诊断工具替代 JDWP**

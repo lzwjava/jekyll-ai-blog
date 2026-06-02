@@ -19,6 +19,7 @@ TOEFL iBT Writing 部分包含两个任务，但当人们提到 "TOEFL essays" �
 然而，经典的 **Independent Writing-style topics**（对于练习和理解所要求的观点/论证写作风格仍然非常重要）通常属于以下几大类别：
 
 ### Most Frequent Topic Categories
+
 - **Education**（目前为止最常见的领域）
   - 教师的角色、家庭作业、班级规模、Online vs. In-person learning、大学教育的价值、学校纪律、优秀学生/教师的品质
 - **Technology**
@@ -41,6 +42,7 @@ TOEFL iBT Writing 部分包含两个任务，但当人们提到 "TOEFL essays" �
   - 锻炼、饮食、Work-life balance、长寿
 
 ### Common Question Formats（仍具参考价值的模式）
+
 - Agree or disagree 某个陈述（最常见）
 - Preference/which is better (A or B)
 - Multiple choice（从三个选项中选择一个并解释原因）
@@ -49,6 +51,7 @@ TOEFL iBT Writing 部分包含两个任务，但当人们提到 "TOEFL essays" �
 这些题目刻意设计得较为宽泛，不需要专业知识——它们测试的是你组织思想、用理由/例子支持观点以及用英语清晰写作的能力。
 
 对于目前的 TOEFL (2026)，**Academic Discussion task** 通常涉及大学水平主题的简短观点回复，例如：
+
 - Social media 的影响
 - 评分系统
 - 广告/定向广告

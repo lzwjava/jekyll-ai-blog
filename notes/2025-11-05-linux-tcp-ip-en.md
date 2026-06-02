@@ -17,6 +17,7 @@ In Linux, the TCP (Transmission Control Protocol) and IP (Internet Protocol) are
 You don't need to implement TCP/IP yourself— the kernel does that. Instead, you use the sockets API to "talk" to the kernel. This API is **built into the standard C library (glibc)** on Linux, so there's no separate "TCP/IP library" to install or link against. Everything is provided by `libc` (GNU C Library).
 
 #### Key Libraries and Headers
+
 - **Main Library**: `libc` (glibc). All socket functions are included here. Link your program with it implicitly (it's usually automatic with `gcc`).
   - Location: Typically `/lib/x86_64-linux-gnu/libc.so.6` (or similar, depending on your architecture and distro). You can find it with `ldd /bin/ls` or `locate libc.so`.
 - **Headers** (for declarations): These are part of the Linux development headers.
@@ -29,6 +30,7 @@ You don't need to implement TCP/IP yourself— the kernel does that. Instead, yo
 No extra flags like `-lsocket` are needed on Linux (unlike some older Unix systems). Just compile with `gcc your_program.c -o your_program`.
 
 #### Basic Example: Simple TCP Client in C
+
 Here's a minimal TCP client that connects to a server (e.g., port 80 on example.com). This demonstrates using the sockets API.
 
 ```c
@@ -77,6 +79,7 @@ int main() {
 For a server, you'd use `bind()`, `listen()`, and `accept()` instead of `connect()`.
 
 #### Where to Learn More
+
 - **Man Pages**: Run `man socket` or `man 7 ip` on your Linux system for detailed docs.
 - **Kernel Side**: If you meant kernel-level implementation, check the source in `/usr/src/linux/net/ipv4/` (TCP) or `/usr/src/linux/net/ipv6/` (for IPv6). Install kernel headers with `sudo apt install linux-headers-$(uname -r)`.
 - Resources:

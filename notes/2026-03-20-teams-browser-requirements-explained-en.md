@@ -46,18 +46,23 @@ Microsoft recommends using **Google Chrome** or **Microsoft Edge** to access Mic
 ## How to Fix It (By Scenario)
 
 ### ✅ Fix 1: On Desktop/Laptop — Use Microsoft Edge or Chrome
+
 The simplest fix. Open the Teams link in the latest version of **Microsoft Edge** (preferred for corporate SSO) or **Google Chrome**. For cookies, you may also need to allow third-party cookies for Microsoft Teams URLs in your browser's Privacy and Security settings.
 
 ### ✅ Fix 2: On iOS — Install Microsoft Teams Mobile App
+
 Teams for web is **not currently supported on mobile devices**. To use Teams on a mobile device, you must download the **Teams mobile app**. This is the official solution for iOS users.
 
 ### ✅ Fix 3: On iOS (Corporate-Managed) — Use Microsoft Edge for iOS
+
 Microsoft Edge for iOS is recognized as a managed/approved browser, so it can satisfy conditional access grant controls. Other non-Microsoft apps are redirected to Edge to complete authentication. If your IT team has enrolled your iPhone in Intune (MDM), installing **Microsoft Edge for iOS** and signing in with your corporate account may allow access.
 
 ### ✅ Fix 4: Contact IT / Request an Exemption
+
 In a corporate or academic setting, IT administrators might enforce specific sign-in methods or restrict external meeting links. If you suspect a policy is interfering, contact your IT department to confirm whether you have the necessary permissions to join external or public Teams meetings.
 
 ### ✅ Fix 5 (Admin): Review the Conditional Access Policy
+
 Organizations must transition Conditional Access policies that use "Require approved client app" to also include "Require app protection policy" by **June 30, 2026**. Microsoft will stop enforcing the older "Require approved client app" grant control after that date. IT admins should review these policies and ensure they aren't inadvertently locking out valid users.
 
 ---
@@ -77,6 +82,7 @@ iOS (and iPadOS) browsers are fundamentally limited:
 ## Summary
 
 The **correct approved browsers** for corporate Microsoft Teams access are:
+
 - **Desktop**: Microsoft Edge (best for SSO), Google Chrome, Firefox
 - **iOS/iPhone**: Microsoft Teams app (official), or Microsoft Edge for iOS (Intune-managed)
 - **iOS Safari**: Not supported — use the Teams app instead

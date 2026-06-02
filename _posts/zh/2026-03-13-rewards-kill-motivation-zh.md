@@ -13,7 +13,7 @@ type: note
 
 ---
 
-## 答案：
+## 答案
 
 简短答案：**不一定，而且对于软件项目这样的创造性工作，实际上可能会让事情变得更糟**。
 
@@ -36,6 +36,7 @@ type: note
 三种元素驱动持久的内在动机：autonomy、purpose 和 mastery。研究一致显示，由内在驱动的人不仅感觉更满足，还能交付更优秀的工作。
 
 对于你的软件项目，这意味着：
+
 - **Autonomy**：你选择构建什么以及如何构建
 - **Purpose**：你在解决一个真实问题（首先为你自己）
 - **Mastery**：你在学习并提升技能
@@ -45,6 +46,7 @@ type: note
 最有效的组织会平衡外部激励与内在动机，如 purpose、growth 和 autonomy。当奖励强化而非取代内在动机，并反映真实价值时，它们能建立持久的参与度和信任。
 
 如果金钱或名声是完成你真正兴奋的事情*结果*，那没问题。但如果你首先追逐金钱或名声，当以下情况发生时，你就会放弃项目：
+
 - 金钱来得不够快
 - 名声没有实现
 - 你意识到自己其实并不关心这个问题
@@ -57,11 +59,11 @@ type: note
 
 ---
 
-## 参考资料：
+## 参考资料
 
-- https://www.infeedo.ai/blog/intrinsic-motivation-vs-money
-- https://www.mivation.com/blog/motivation
-- https://askfilo.com/user-question-answers-statistics/rewards-and-creativity-do-external-rewards-things-like-money-35383231363236
-- https://brainly.com/question/10952108
-- https://www.fastercapital.com/content/Motivation-Techniques--Reward-Systems---The-Right-Rewards--Systems-That-Motivate-and-Encourage.html
-- https://www.vantagecircle.com/en/blog/extrinsic-rewards/
+- <https://www.infeedo.ai/blog/intrinsic-motivation-vs-money>
+- <https://www.mivation.com/blog/motivation>
+- <https://askfilo.com/user-question-answers-statistics/rewards-and-creativity-do-external-rewards-things-like-money-35383231363236>
+- <https://brainly.com/question/10952108>
+- <https://www.fastercapital.com/content/Motivation-Techniques--Reward-Systems---The-Right-Rewards--Systems-That-Motivate-and-Encourage.html>
+- <https://www.vantagecircle.com/en/blog/extrinsic-rewards/>

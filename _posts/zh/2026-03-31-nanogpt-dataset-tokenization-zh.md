@@ -201,6 +201,7 @@ python3 train.py config/train_fineweb.py
 ---
 
 **总结：**
+
 1. `git clone nanoGPT` + `pip install torch tiktoken`
 2. 运行 `prepare.py`（进行 tokenize 并删除原始文本以释放 61GB 空间）
 3. `python3 train.py config/train_fineweb.py`

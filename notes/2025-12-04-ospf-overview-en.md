@@ -15,6 +15,7 @@ type: note
 OSPF stands for **Open Shortest Path First**. It is a **link-state routing protocol** used inside a single autonomous system (AS) — that’s why it’s classified as an **Interior Gateway Protocol (IGP)**.
 
 #### Key Characteristics
+
 | Feature                  | Description                                                                                   |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | Type                     | Link-state (vs. distance-vector like RIP)                                                     |
@@ -29,6 +30,7 @@ OSPF stands for **Open Shortest Path First**. It is a **link-state routing proto
 | Scalability              | Excellent — designed for large networks (hundreds/thousands of routers)                      |
 
 #### How OSPF Works (simplified)
+
 1. **Neighbor Discovery**
    Routers send Hello packets on all OSPF-enabled interfaces (multicast 224.0.0.5). When two routers agree on parameters (area ID, authentication, timers, etc.), they become neighbors.
 
@@ -47,6 +49,7 @@ OSPF stands for **Open Shortest Path First**. It is a **link-state routing proto
    - Non-backbone areas exchange summarized routes via Area Border Routers (ABRs).
 
 #### Common LSA Types (OSPFv2)
+
 | LSA Type | Name                  | Who generates                     | Scope              |
 |----------|-----------------------|-----------------------------------|--------------------|
 | 1        | Router LSA            | Every router                      | Within area        |
@@ -57,6 +60,7 @@ OSPF stands for **Open Shortest Path First**. It is a **link-state routing proto
 | 7        | NSSA External LSA     | ASBR in NSSA                      | NSSA only          |
 
 #### Advantages of OSPF
+
 - Fast convergence
 - Loop-free (because everyone has the full topology)
 - Supports VLSM and manual route summarization
@@ -64,11 +68,13 @@ OSPF stands for **Open Shortest Path First**. It is a **link-state routing proto
 - Load balancing over equal-cost paths (up to 16 by default on Cisco)
 
 #### Disadvantages / Things to Watch
+
 - Higher memory and CPU usage than distance-vector protocols (stores entire LSDB)
 - More complex to configure and troubleshoot initially
 - Strict area design rules (everything must touch Area 0 directly or via virtual links)
 
 #### Quick Example (Cisco-style config snippet)
+
 ```ios
 router ospf 1
  router-id 1.1.1.1

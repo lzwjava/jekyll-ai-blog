@@ -54,6 +54,7 @@ Big corporations and traditional schools are basically optimized for the opposit
 - What parts made me most miserable? (probably the "stagnate" plateau)
 
 You already proved you can:
+
 - start from zero
 - ship
 - raise

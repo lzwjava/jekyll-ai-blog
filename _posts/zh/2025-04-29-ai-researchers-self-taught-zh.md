@@ -37,15 +37,19 @@ type: note
    - **路径**：通过实验探索与实战项目自学高阶AI技术，早期黑客声誉为其在AI领域建立公信力。
 
 ### 共同特质与路径
+
 这些先驱者具备以下成功要素：
+
 - **自主学习**：通过GitHub、arXiv、技术论坛等社区及开源项目掌握前沿AI技术
 - **实践导向**：聚焦项目构建、开源贡献或通过博客/arXiv发布成果获取关注
 - **协同合作**：多数通过导师指导或加入OpenAI/Google Brain/Anthropic等创新团队加速成长
 - **能力认证**：依靠编程能力、研究成果或创新构想而非学历获得认可
 
 ### 给自学者的建议
+
 基于这些案例及奥拉本人的经验分享：
 [](https://colah.github.io/)
+
 - **构建作品集**：在GitHub或Kaggle等平台展示原创项目
 - **参与社区**：贡献开源AI项目或加入Reddit的r/MachineLearning等论坛
 - **实践学习**：复现arXiv论文或实现前沿模型解决实际问题
@@ -55,6 +59,7 @@ type: note
 [](https://blog.biocomm.ai/2023/03/05/blog-christopher-olah-i-work-on-reverse-engineering-artificial-neural-networks-into-human-understandable-algorithms/)
 
 ### 注意事项
+
 尽管这些案例充满启发性，但实属特例。当前AI领域竞争日趋激烈，自学者在获取初始资源和人脉时可能面临障碍。正如奥拉所指出的，其成功离不开运气与特殊机遇（如与尼尔森的合作）。建议 aspiring researchers 做好应对挑战的准备，可考虑在线课程或训练营等混合路径弥补知识鸿沟。
 [](https://80000hours.org/podcast/episodes/chris-olah-unconventional-career-path/)
 

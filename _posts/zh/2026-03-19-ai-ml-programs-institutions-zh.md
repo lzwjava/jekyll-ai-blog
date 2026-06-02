@@ -24,25 +24,30 @@ DeepLearning.AI 由 AI 领域最受尊敬的名字之一 Andrew Ng 创立。Andr
 所有程序均在 Coursera 上托管，订阅费约为 **$49/月**。完成证书由 DeepLearning.AI 颁发。
 
 ### A. Machine Learning Specialization (Entry → Intermediate)
+
 - Andrew Ng 的 Machine Learning Specialization 被视为学习 ML 基础的金标准。超过 480 万人已报名。主题包括 supervised learning（regression、classification）、neural networks、decision trees、recommender systems，以及 ML 项目的最佳实践。通常以 $49/月 的价格，3 个月约 $147。
 - **时长：** 每周 5–6 小时，大约 3 个月
 
 ### B. Deep Learning Specialization (Intermediate)
+
 - Deep Learning Specialization 包含五门课程，由 Andrew Ng、Kian Katanforoosh 和 Younes Bensouda Mourri 创建。每门课程每周大约 5 小时，需要约 5 周完成。针对希望掌握 deep learning 基础的初级软件工程师或技术专业人士。
 - **时长：** 总计约 4–5 个月
 - 涵盖：CNNs、RNNs、TensorFlow、Transfer Learning、NLP
 
 ### C. Generative AI with LLMs (Short, Focused)
+
 - DeepLearning.AI 的 Generative AI with LLMs 被描述为 LLM 工作的快速实用补充。
 - 涵盖：fine-tuning、RLHF、LLM deployment
 - **时长：** 约 3–4 周
 
 ### D. MLOps Specialization (Advanced)
+
 - ML Engineering for Production (MLOps) Specialization 由 Andrew Ng 以及 Google 的 Robert Crowe 和 Laurence Moroney 讲授，借鉴了 Andrew Ng 在 Landing AI 团队的经验。涵盖如何构想、构建和维护在生产环境中持续运行的 ML 系统。
 - **时长：** 约 4 个月
 - ⚠️ 注意：从 2024 年 5 月 8 日起，该 specialization 在 Coursera 上已停止报名，请检查当前可用性。
 
 ### E. TensorFlow Developer Professional Certificate
+
 - 这是 DeepLearning.AI TensorFlow Developer Professional Certificate 系列的一部分，针对希望构建可扩展 AI 算法的软件开发者，需要高中水平的数学和 Python 编码经验。
 - **时长：** 约 4–6 个月
 
@@ -53,6 +58,7 @@ DeepLearning.AI 由 AI 领域最受尊敬的名字之一 Andrew Ng 创立。Andr
 Stanford 的 AI Graduate Certificate 以其学术严谨性和来自全球领先 AI 研究机构的全面课程而享有盛誉。它提供了从 logic 和 probabilistic models 到 robotics 和 natural language processing 的核心 AI 概念的广泛覆盖，由知名教师讲授。
 
 ### A. AI Graduate Certificate (Most Prestigious)
+
 - 课程由 Stanford 知名教师讲授，他们处于 AI 前沿，包括 Andrew Ng、Christopher Manning、Chelsea Finn、Percy Liang 和 Jeanette Bohg。学生必须完成四门研究生课程，其中 1–2 门必修课和 2–3 门选修课。
 - 费用为每学分 $1,575，总学费约 $20,475–$25,200。大多数学生在 1–2 年内完成，尽管 Stanford 允许最多三个学术年。
 - 所有研究生程序学生均有评分（非及格/不及格），每门课程必须获得 B 或更高成绩。
@@ -60,6 +66,7 @@ Stanford 的 AI Graduate Certificate 以其学术严谨性和来自全球领先 
 - **最适合：** 研究职位、高级工程师、学术相关职业
 
 ### B. AI Professional Program (More Accessible)
+
 - 通过完成三门 AI professional courses，或两门 AI professional courses 加一门研究生级课程，即可获得 Stanford Professional Certificate。它代表至少 150 小时的 Stanford 课程学习，并对内容掌握进行严格评估。
 - Professional program 课程为及格/不及格——每门课程必须得分 70% 或更高才能获得证书。
 - **时长：** 根据进度 6–12 个月
@@ -70,12 +77,14 @@ Stanford 的 AI Graduate Certificate 以其学术严谨性和来自全球领先 
 ## 3. MIT (Massachusetts Institute of Technology)
 
 ### A. Professional Certificate in ML & AI (MIT Professional Education)
+
 - MIT Professional Education 的旗舰产品指导参与者了解 AI 的最新进展，包括 natural language processing、predictive analytics、deep learning 和 algorithmic methods。成功完成 16 天或更多 qualifying short programs courses 后颁发证书。
 - 单个课程费用从 $3,200 到 $4,700 不等（例如，AI for Engineers 为 $4,700，Applied Generative AI 为 $3,300）。
 - 大多数 MIT AI 证书程序时长为 6 周至 12 个月，每周承诺 6–12 小时，适合全职工作。
 - **最适合：** 中高级专业人士；更注重 strategy 和 leadership 而非初级工程师
 
 ### B. MicroMasters in Statistics and Data Science (edX)
+
 - MIT 的 MicroMasters Program in Statistics and Data Science 包含 5 门研究生级课程，包括 Probability、Fundamentals of Statistics 和 Machine Learning with Python。其中 ML with Python 课程每周 10–14 小时，约 15 周。
 - **费用：** 每门课程 verified certificate 约 $300
 - **时长：** 全程序 12–18 个月
@@ -109,6 +118,7 @@ Stanford 的 AI Graduate Certificate 以其学术严谨性和来自全球领先 
 Stanford 在 2026 年在线 AI graduate certificates 排名中位居第 1，其次是 Carnegie Mellon 第 2 和 University of Washington 第 3。AI graduate certificates 的价格从 $5,000 到近 $30,000 不等——技术与工程导向的证书通常更贵。
 
 值得注意的选项包括：
+
 - **UT Austin** — Online Graduate Certificate in AI & ML：约 $5,000，顶级机构中最实惠之一
 - **Carnegie Mellon** — AI graduate-level certificate（费用较高，研究级声誉）
 - **University of Washington** — Online AI/ML certificate，约 $16,000–$18,000

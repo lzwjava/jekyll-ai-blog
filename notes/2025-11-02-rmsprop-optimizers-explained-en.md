@@ -29,6 +29,7 @@ Optimizers "like" RMSProp are typically adaptive methods that adjust learning ra
 These are commonly implemented in frameworks like PyTorch or TensorFlow (e.g., `torch.optim.RMSprop`). Start with RMSProp or Adam for most deep learning tasks, as they handle a wide range of problems well. For sparse data, try Adagrad; for RNNs/LSTMs, RMSProp or Adam shine.
 
 ### References
+
 - [Understanding Deep Learning Optimizers: Momentum, AdaGrad, RMSProp & Adam](https://towardsdatascience.com/understanding-deep-learning-optimizers-momentum-adagrad-rmsprop-adam-e311e377e9c2)
 - [Which Optimizer should I use for my ML Project?](https://www.lightly.ai/blog/which-optimizer-should-i-use-for-my-machine-learning-project)
 - [A Comprehensive Guide on Deep Learning Optimizers](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/)

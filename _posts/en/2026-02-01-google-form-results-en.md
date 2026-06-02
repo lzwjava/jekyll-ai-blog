@@ -15,10 +15,12 @@ I'll check that Google Form link for you to see what happens after completion.Ba
 **Generally, whether you get immediate results depends on how the form creator configured it:**
 
 **You'll likely NOT get immediate scoring if:**
+
 - The form is set up for manual review
 - It's a practice quiz without answer keys configured
 
 **You WILL get immediate results if:**
+
 - The form creator set it up as a "Quiz" in Google Forms
 - They've configured answer keys and point values
 - They enabled the "Release score immediately after submission" option

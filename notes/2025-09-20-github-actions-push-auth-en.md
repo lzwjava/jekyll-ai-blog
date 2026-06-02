@@ -23,6 +23,7 @@ Here are three solid ways—pick one. I’ll show the quickest first.
 2. Update your workflow’s deploy step to **force the remote to use that token**:
 
 {% raw %}
+
 ```yaml
 - name: Check out destination repo
   uses: actions/checkout@v4
@@ -52,6 +53,7 @@ Here are three solid ways—pick one. I’ll show the quickest first.
       echo "No changes to deploy."
     fi
 ```
+
 {% endraw %}
 
 If you still see 403, your PAT is missing scopes or (if the repo were in an org) needs SSO authorization. Regenerate with `repo` scope and try again.
@@ -83,6 +85,7 @@ Then keep the destination checkout with your PAT as shown in Option A (you can s
 Workflow:
 
 {% raw %}
+
 ```yaml
 - name: Check out destination repo via SSH
   uses: actions/checkout@v4
@@ -107,6 +110,7 @@ Workflow:
       echo "No changes to deploy."
     fi
 ```
+
 {% endraw %}
 
 ---

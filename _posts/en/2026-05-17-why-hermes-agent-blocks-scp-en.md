@@ -44,6 +44,7 @@ Claude Code blocks risky commands that fetch or send content over the network by
 ## 4. Hermes Agent Cannot Run It on Your Behalf
 
 The Hermes agent operates in a sandboxed context. Even if you want it to run `scp`, the agent:
+
 - Cannot authenticate to your SSH key/remote host from inside its environment
 - Does not have access to your local filesystem paths (like `/Users/lzwjava/Documents/...`)
 - Is intentionally restricted from running commands that could exfiltrate data to external hosts

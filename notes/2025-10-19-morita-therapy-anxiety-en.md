@@ -15,6 +15,7 @@ type: note
 Morita Therapy, developed by Japanese psychiatrist Shoma Morita in the early 20th century, is a mindfulness-based approach primarily for treating anxiety disorders, neurosis, and obsessive-compulsive tendencies. Unlike Western therapies that focus on symptom elimination or cognitive restructuring, Morita emphasizes **accepting life as it is** (arugamama, or "as-it-is-ness") and shifting attention from internal worries to purposeful action in the external world. The goal is not to cure anxiety but to live fully despite it, breaking the cycle where resistance amplifies suffering.
 
 #### Key Principles
+
 1. **Acceptance of Symptoms (Arugamama)**:
    Anxiety, fears, and intrusive thoughts are natural parts of human experience—like weather or bodily sensations. Fighting them creates a vicious cycle; instead, acknowledge them without judgment and let them exist alongside daily life. For example, if you're anxious about social embarrassment, proceed with interactions anyway, treating the anxiety as background noise.
 
@@ -28,7 +29,9 @@ Morita Therapy, developed by Japanese psychiatrist Shoma Morita in the early 20t
    Embrace impermanence and the interconnectedness of all things. Suffering is inevitable, but clinging to ideals of perfection or control causes more pain. True freedom comes from aligning with life's natural rhythm, including joy, sorrow, and mortality.
 
 #### The Four-Stage Treatment Process
+
 Morita's inpatient program (adaptable to outpatient settings) progresses through structured phases to embody these principles:
+
 - **Absolute Rest (1-7 days)**: Bed rest in a quiet environment to confront symptoms fully, without escape or reassurance.
 - **Light Monotonous Work (1-2 weeks)**: Simple, repetitive tasks (e.g., gardening) to shift focus outward.
 - **Labor (2-3 weeks)**: More demanding work to build discipline and purpose.

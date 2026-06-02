@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What is Anna Huang's main idea in this video (https://www.youtube.com/watch?v=5vcj8kSwBCY), and what does she say?
+Question: What is Anna Huang's main idea in this video (<https://www.youtube.com/watch?v=5vcj8kSwBCY>), and what does she say?
 
 Answer:
 

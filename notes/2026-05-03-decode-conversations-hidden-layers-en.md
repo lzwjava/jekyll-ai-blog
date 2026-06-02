@@ -126,7 +126,7 @@ Your friend is optimizing for **safety + leverage via institutions**, while you 
 
 Instead of choosing between “AI is hopeless” vs “AI is everything”, a more realistic view is:
 
-### You can combine both tracks:
+### You can combine both tracks
 
 * **Short-term cash flow**
 

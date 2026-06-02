@@ -21,6 +21,7 @@ Torri Huske 于 2002 年 12 月 7 日出生于弗吉尼亚州 Arlington，到 20
 她的母亲 Ying Weng Huske（原籍中国广州）在 1991 年移民美国寻求更好发展之前，曾在广州担任建筑师。Ying 在中国文化大革命期间长大，在家庭从广州迁出后，她曾有过在农村劳改营生活的经历。这一背景成为了 Torri 的主要灵感来源，她将自己勤奋的职业道德归功于母亲的艰苦奋斗和韧性。Torri 还有一个中文名字，叫作简爱 (Jiǎn’ài)。她的父亲 Jim Huske 是美国人（白人），全家居住在弗吉尼亚州 Arlington。
 
 Torri 作为年轻天才崭露头角：
+
 - 她获得了 2020 Tokyo Olympics（于 2021 年举行）的参赛资格，在那里她获得了 women's 4×100 m medley relay 的银牌，并在 100 m butterfly 中获得第 7 名。
 - 在 2022 World Championships 上，她赢得了多枚奖牌，包括金牌。
 - 她的重大突破出现在 2024 Paris Olympics，她在 women's 100-meter butterfly 项目中获得金牌（一场比分接近且戏剧性的决赛），并额外获得了多枚接力赛奖牌（她在职业生涯中总计共获得过六枚 Olympic 奖牌）。

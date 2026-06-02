@@ -25,7 +25,7 @@ Answer:
 2. 重新进入你 Lenovo XiaoXin 14 上的 **Ubuntu** 系统。
 3. 安装并使用更好的工具来重新正确制作启动 USB：
    - **Ventoy**（2025–2026 年最简单且推荐的工具）
-     - 下载 Ventoy → https://www.ventoy.net（或从 GitHub releases 下载）
+     - 下载 Ventoy → <https://www.ventoy.net（或从> GitHub releases 下载）
      - 运行 Ventoy → 将其安装到你的 USB 驱动器（它会格式化 USB 并创建两个分区）
      - 只需将你的 .iso 文件复制到 Ventoy 的数据分区中
      - 完成 —— Ventoy 会自动处理 Windows 11 的各种特殊情况（包括需要时的 install.wim 文件分割）

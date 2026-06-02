@@ -15,11 +15,13 @@ Kafka 提供了一些命令行工具用于管理和与集群交互。这是一�
 ## Core Tools
 
 ### kafka-topics.sh
+
 管理 topic 的创建、删除和配置。
 
 **常见操作：**
 
 创建一个 topic：
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --create \
@@ -30,11 +32,13 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 列出所有 topic：
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
 查看 topic 详情：
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --describe \
@@ -42,6 +46,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 删除一个 topic：
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --delete \
@@ -49,6 +54,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 修改 partitions 数量：
+
 ```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --alter \
@@ -57,6 +63,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 ```
 
 **关键选项：**
+
 - `--bootstrap-server` - Kafka broker 地址（取代了已弃用的 --zookeeper）
 - `--topic` - Topic 名称
 - `--partitions` - Partition 数量
@@ -66,15 +73,18 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 - `--if-exists` - 仅在 topic 存在时删除/修改
 
 ### kafka-console-producer.sh
+
 从命令行发送消息。
 
 **基本用法：**
+
 ```bash
 kafka-console-producer.sh --bootstrap-server localhost:9092 \
   --topic my-topic
 ```
 
 携带 key-value 对：
+
 ```bash
 kafka-console-producer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -83,12 +93,14 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 \
 ```
 
 从文件输入：
+
 ```bash
 kafka-console-producer.sh --bootstrap-server localhost:9092 \
   --topic my-topic < input.txt
 ```
 
 **关键选项：**
+
 - `--property` - Producer 属性（compression.type，acks 等）
 - `--producer-property` - 设置 producer 配置的另一种方式
 - `--compression-codec` - 压缩类型（none，gzip，snappy，lz4，zstd）
@@ -96,9 +108,11 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 \
 - `--timeout` - 消息超时时间（毫秒）
 
 ### kafka-console-consumer.sh
+
 从 topic 消费消息。
 
 **基本用法：**
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -106,6 +120,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 
 使用 consumer group：
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -113,6 +128,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 
 显示 key 和时间戳：
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic my-topic \
@@ -122,6 +138,7 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 
 **关键选项：**
+
 - `--from-beginning` - 从最早的 offset 开始消费
 - `--group` - Consumer group ID
 - `--partition` - 指定消费的 partition
@@ -132,14 +149,17 @@ kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 - `--isolation-level` - read_committed 或 read_uncommitted
 
 ### kafka-consumer-groups.sh
+
 管理 consumer groups 和 offsets。
 
 **列出所有 consumer group：**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
 ```
 
 **查看 group 详情：**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -147,6 +167,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 **重置 offsets：**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -157,6 +178,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 **重置 offset 选项：**
+
 - `--to-earliest` - 重置到开头
 - `--to-latest` - 重置到末尾
 - `--to-offset <offset>` - 重置到指定 offset
@@ -165,6 +187,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 - `--by-duration <duration>` - 按时长移动（例如：PT0H30M0S）
 
 **删除 consumer group：**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -172,9 +195,11 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-configs.sh
+
 管理 topic、broker 和 client 的动态配置。
 
 **添加/修改 topic 配置：**
+
 ```bash
 kafka-configs.sh --bootstrap-server localhost:9092 \
   --entity-type topics \
@@ -184,6 +209,7 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 ```
 
 **查看 topic 配置：**
+
 ```bash
 kafka-configs.sh --bootstrap-server localhost:9092 \
   --entity-type topics \
@@ -192,6 +218,7 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 ```
 
 **删除配置：**
+
 ```bash
 kafka-configs.sh --bootstrap-server localhost:9092 \
   --entity-type topics \
@@ -201,12 +228,14 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 ```
 
 **实体类型：**
+
 - `topics` - Topic 配置
 - `brokers` - Broker 配置
 - `users` - 用户配额
 - `clients` - 客户端配额
 
 ### kafka-log-dirs.sh
+
 查看日志目录信息。
 
 ```bash
@@ -217,9 +246,11 @@ kafka-log-dirs.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-reassign-partitions.sh
+
 在 broker 之间重新分配 partition。
 
 **生成重分配计划：**
+
 ```bash
 kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
   --topics-to-move-json-file topics.json \
@@ -228,6 +259,7 @@ kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
 ```
 
 **执行重分配：**
+
 ```bash
 kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
   --reassignment-json-file reassignment.json \
@@ -235,6 +267,7 @@ kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
 ```
 
 **验证重分配：**
+
 ```bash
 kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
   --reassignment-json-file reassignment.json \
@@ -242,6 +275,7 @@ kafka-reassign-partitions.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-preferred-replica-election.sh
+
 触发首选副本（preferred replica）的 leader 选举。
 
 ```bash
@@ -250,6 +284,7 @@ kafka-preferred-replica-election.sh --bootstrap-server localhost:9092 \
 ```
 
 ### kafka-broker-api-versions.sh
+
 检查 broker 支持的 API 版本。
 
 ```bash
@@ -257,6 +292,7 @@ kafka-broker-api-versions.sh --bootstrap-server localhost:9092
 ```
 
 ### kafka-dump-log.sh
+
 打印日志段（log segment）内容。
 
 ```bash
@@ -265,12 +301,14 @@ kafka-dump-log.sh --files /var/kafka-logs/my-topic-0/00000000000000000000.log \
 ```
 
 **选项：**
+
 - `--print-data-log` - 打印消息内容
 - `--deep-iteration` - 使用深层迭代而非浅层
 - `--value-decoder-class` - 自定义 value 解码类
 - `--offsets-decoder` - 解码 offset 文件
 
 ### kafka-verifiable-producer.sh / kafka-verifiable-consumer.sh
+
 用于测试和验证，发送/接收带编号的消息。
 
 ```bash
@@ -288,11 +326,13 @@ kafka-verifiable-consumer.sh --bootstrap-server localhost:9092 \
 ## Common Patterns
 
 **检查集群健康状况：**
+
 ```bash
 kafka-broker-api-versions.sh --bootstrap-server localhost:9092
 ```
 
 **监控 consumer 积压（lag）：**
+
 ```bash
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
   --group my-group \
@@ -300,6 +340,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 \
 ```
 
 **在 topic 之间流转消息：**
+
 ```bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 \
   --topic source-topic \
@@ -309,6 +350,7 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 \
 ```
 
 **计算 topic 中的消息数量：**
+
 ```bash
 kafka-run-class.sh kafka.tools.GetOffsetShell \
   --broker-list localhost:9092 \

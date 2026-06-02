@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：Anna Huang 在这段视频（https://www.youtube.com/watch?v=5vcj8kSwBCY）中的主要观点是什么，她说了什么？
+问题：Anna Huang 在这段视频（<https://www.youtube.com/watch?v=5vcj8kSwBCY）中的主要观点是什么，她说了什么？>
 
 回答：
 

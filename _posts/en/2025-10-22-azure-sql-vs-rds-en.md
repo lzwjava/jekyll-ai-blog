@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Azure SQL Database and Amazon RDS are both fully managed relational database services designed to simplify database administration, scaling, and maintenance. Azure SQL Database is Microsoft's PaaS offering focused primarily on SQL Server (with equivalents like Azure Database for MySQL and PostgreSQL for other engines), while AWS RDS is Amazon's multi-engine service supporting SQL Server, MySQL, PostgreSQL, Oracle, MariaDB, and proprietary Aurora variants. The choice often depends on your ecosystem (Microsoft integration favors Azure; multi-cloud or diverse engines favor AWS), workload type, and migration needs. Below is a side-by-side comparison across key dimensions.
 
 | Category              | Azure SQL Database                                                                 | AWS RDS                                                                 |
@@ -26,11 +27,13 @@ Azure SQL Database and Amazon RDS are both fully managed relational database ser
 | **Cons**              | Gateway latency in single-DB; pricing complexity; limited older SQL version support (use VMs). | No latest SQL Server (2022); no BYOL; occasional integration/support issues; lacks native CDC for some engines. |
 
 ### Recommendations
+
 - **Choose Azure SQL Database** if you're in a Microsoft-heavy environment (e.g., .NET, Active Directory), need the newest SQL features, or prioritize serverless/elastic scaling for variable workloads.
 - **Choose AWS RDS** for multi-engine support, legacy SQL compatibility, or if you're already in AWS for broader cloud services.
 - For SQL Server-specific migrations, test performance with your workload—Azure shines in dynamic scaling, while RDS offers predictable hardware.
 
 ### References
+
 - [Relational database technologies on Azure and AWS - Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/databases)
 - [Amazon SQL RDS vs Azure SQL: Pick the Best in 2025 - Red9](https://red9.com/blog/ms-sql-server-migration-aws-rds-vs-azure-sql-database/)
 - [Amazon RDS vs Microsoft Azure SQL Database (2025) - PeerSpot](https://www.peerspot.com/products/comparisons/amazon-rds_vs_microsoft-azure-sql-database)

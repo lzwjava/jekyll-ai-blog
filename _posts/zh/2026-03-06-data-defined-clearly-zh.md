@@ -61,6 +61,7 @@ Information 是本质；Message 是 Information 的载体；Signal 是传输方�
 ### 为什么学生混淆 Data 和 Signal
 
 混淆的原因是因为 Data 和 Signal 都具有物理性质。然而：
+
 - **Data** = 符号/逻辑表示（数字、字母、符号）
 - **Signal** = 用于传输的物理/电学形式（电压、电磁波）
 

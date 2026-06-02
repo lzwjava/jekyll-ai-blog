@@ -57,12 +57,14 @@ type: note
    \q
    ```
 
-### 注意：
+### 注意
+
 - 您看到的 `Permission denied` 错误（`could not change directory to "/home/lzw/projects/lzwjava.github.io"`）是因为 `postgres` 用户无权访问您的主目录。这不会影响数据库创建，但在从受限目录运行 `psql` 时可能会出现。您可以通过从 `postgres` 用户可以访问的目录运行 `psql` 或不更改目录（例如，从 `/tmp` 运行 `sudo -u postgres psql`）来避免此问题。
 - 您在 `psql` 中尝试的 `ls` 命令无效。请使用 `\l` 列出数据库，或使用 `\dt` 列出数据库中的表。
 - 确保 PostgreSQL 服务正在运行（`sudo systemctl start postgresql.service`），您已经这样做了。
 
-### 示例会话：
+### 示例会话
+
 ```sql
 postgres=# CREATE DATABASE mydatabase;
 CREATE DATABASE

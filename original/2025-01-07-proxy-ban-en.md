@@ -30,7 +30,6 @@ type: post
    - Detection is based on specific IP addresses
    - Some cloud provider IPs are banned
 
-
 ## Can APIs in Proxy Servers Avoid GFW Bans?
 
 I run a simple server on my Shadowsocks instance with the following code:
@@ -87,7 +86,7 @@ I often visit my blog to review what I’ve written, but in the coming weeks, my
 
 Here’s the refined version of your text with improved structure and clarity:
 
-## How the Great Firewall (GFW) works.
+## How the Great Firewall (GFW) works
 
 ### Step 1: Logging Requests
 
@@ -194,6 +193,7 @@ def is_illegal(request):
 ```
 
 The `is_illegal` function now also checks for specific protocols like Shadowsocks and Trojan:
+
 - **Shadowsocks**: We might check for encrypted or binary-like data in the request body.
 - **Trojan**: If the request comes over port 443 (HTTPS) and matches specific patterns (e.g., Trojan traffic characteristics), it is flagged as illegal.
 
@@ -213,7 +213,6 @@ Given the wide range of requests and responses that pass through the internet, t
 
 Despite my efforts, my proxy server continues to be banned. To mitigate this, I've implemented a workaround using Digital Ocean's reversed IP feature, which allows me to quickly assign a new IP address whenever a ban occurs.
 
-
 ---
 
 ## Analysis of ChatGPT iOS VPN Detection
@@ -226,7 +225,7 @@ However, as of today, it works fine with a VPN.
 
 I remember that when the ChatGPT iOS app was first released, using it with a VPN was not an issue. Later, VPN detection became more stringent, making it difficult to log in. Thankfully, it seems that this restriction has been eased recently.
 
-Upon further testing, I found that when using a DigitalOcean Singapore region VPN, I couldn't access the app. However, when using VPNs from Taiwan or the UK (provided by https://zhs.cloud), it worked perfectly.
+Upon further testing, I found that when using a DigitalOcean Singapore region VPN, I couldn't access the app. However, when using VPNs from Taiwan or the UK (provided by <https://zhs.cloud>), it worked perfectly.
 
 It seems that ChatGPT iOS VPN detection is based on specific IP addresses. Some cloud providers or certain IP addresses are banned, which may explain the inconsistent behavior depending on the VPN server location.
 

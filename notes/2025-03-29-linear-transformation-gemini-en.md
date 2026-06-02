@@ -16,8 +16,8 @@ A **linear transformation** is a function between two vector spaces that preserv
 
 **Definition:** A function \\(T: V \rightarrow W\\) is a linear transformation if it satisfies the following two properties for all vectors \\(\mathbf{u}, \mathbf{v} \in V\\) and all scalars \\(c \in F\\):
 
-1.  **Additivity:** \\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})\\)
-2.  **Homogeneity (Scalar Multiplication):** \\(T(c\mathbf{u}) = cT(\mathbf{u})\\)
+1. **Additivity:** \\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})\\)
+2. **Homogeneity (Scalar Multiplication):** \\(T(c\mathbf{u}) = cT(\mathbf{u})\\)
 
 These two properties can be combined into a single condition:
 \\(T(c\mathbf{u} + d\mathbf{v}) = cT(\mathbf{u}) + dT(\mathbf{v})\\) for all \\(\mathbf{u}, \mathbf{v} \in V\\) and all scalars \\(c, d \in F\\).
@@ -129,9 +129,9 @@ The **kernel** (or null space) of a linear transformation \\(T: V \rightarrow W\
 **Properties of the Kernel:**
 
 * The kernel of a linear transformation is always a subspace of the domain \\(V\\).
-    * **Contains the zero vector:** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\), so \\(\mathbf{0}_V \in \text{ker}(T)\\).
-    * **Closed under addition:** If \\(\mathbf{u}, \mathbf{v} \in \text{ker}(T)\\), then \\(T(\mathbf{u}) = \mathbf{0}_W\\) and \\(T(\mathbf{v}) = \mathbf{0}_W\\). Thus, \\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) = \mathbf{0}_W + \mathbf{0}_W = \mathbf{0}_W\\), so \\(\mathbf{u} + \mathbf{v} \in \text{ker}(T)\\).
-    * **Closed under scalar multiplication:** If \\(\mathbf{u} \in \text{ker}(T)\\) and \\(c\\) is a scalar, then \\(T(c\mathbf{u}) = cT(\mathbf{u}) = c\mathbf{0}_W = \mathbf{0}_W\\), so \\(c\mathbf{u} \in \text{ker}(T)\\).
+  * **Contains the zero vector:** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\), so \\(\mathbf{0}_V \in \text{ker}(T)\\).
+  * **Closed under addition:** If \\(\mathbf{u}, \mathbf{v} \in \text{ker}(T)\\), then \\(T(\mathbf{u}) = \mathbf{0}_W\\) and \\(T(\mathbf{v}) = \mathbf{0}_W\\). Thus, \\(T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) = \mathbf{0}_W + \mathbf{0}_W = \mathbf{0}_W\\), so \\(\mathbf{u} + \mathbf{v} \in \text{ker}(T)\\).
+  * **Closed under scalar multiplication:** If \\(\mathbf{u} \in \text{ker}(T)\\) and \\(c\\) is a scalar, then \\(T(c\mathbf{u}) = cT(\mathbf{u}) = c\mathbf{0}_W = \mathbf{0}_W\\), so \\(c\mathbf{u} \in \text{ker}(T)\\).
 
 **Example: Finding the Kernel**
 
@@ -155,9 +155,9 @@ The **image** (or range) of a linear transformation \\(T: V \rightarrow W\\), de
 **Properties of the Image:**
 
 * The image of a linear transformation is always a subspace of the codomain \\(W\\).
-    * **Contains the zero vector:** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\), so \\(\mathbf{0}_W \in \text{im}(T)\\).
-    * **Closed under addition:** If \\(\mathbf{w}_1, \mathbf{w}_2 \in \text{im}(T)\\), then there exist \\(\mathbf{v}_1, \mathbf{v}_2 \in V\\) such that \\(T(\mathbf{v}_1) = \mathbf{w}_1\\) and \\(T(\mathbf{v}_2) = \mathbf{w}_2\\). Then \\(\mathbf{w}_1 + \mathbf{w}_2 = T(\mathbf{v}_1) + T(\mathbf{v}_2) = T(\mathbf{v}_1 + \mathbf{v}_2)\\). Since \\(\mathbf{v}_1 + \mathbf{v}_2 \in V\\), \\(\mathbf{w}_1 + \mathbf{w}_2 \in \text{im}(T)\\).
-    * **Closed under scalar multiplication:** If \\(\mathbf{w} \in \text{im}(T)\\) and \\(c\\) is a scalar, then there exists \\(\mathbf{v} \in V\\) such that \\(T(\mathbf{v}) = \mathbf{w}\\). Then \\(c\mathbf{w} = cT(\mathbf{v}) = T(c\mathbf{v})\\). Since \\(c\mathbf{v} \in V\\), \\(c\mathbf{w} \in \text{im}(T)\\).
+  * **Contains the zero vector:** \\(T(\mathbf{0}_V) = \mathbf{0}_W\\), so \\(\mathbf{0}_W \in \text{im}(T)\\).
+  * **Closed under addition:** If \\(\mathbf{w}_1, \mathbf{w}_2 \in \text{im}(T)\\), then there exist \\(\mathbf{v}_1, \mathbf{v}_2 \in V\\) such that \\(T(\mathbf{v}_1) = \mathbf{w}_1\\) and \\(T(\mathbf{v}_2) = \mathbf{w}_2\\). Then \\(\mathbf{w}_1 + \mathbf{w}_2 = T(\mathbf{v}_1) + T(\mathbf{v}_2) = T(\mathbf{v}_1 + \mathbf{v}_2)\\). Since \\(\mathbf{v}_1 + \mathbf{v}_2 \in V\\), \\(\mathbf{w}_1 + \mathbf{w}_2 \in \text{im}(T)\\).
+  * **Closed under scalar multiplication:** If \\(\mathbf{w} \in \text{im}(T)\\) and \\(c\\) is a scalar, then there exists \\(\mathbf{v} \in V\\) such that \\(T(\mathbf{v}) = \mathbf{w}\\). Then \\(c\mathbf{w} = cT(\mathbf{v}) = T(c\mathbf{v})\\). Since \\(c\mathbf{v} \in V\\), \\(c\mathbf{w} \in \text{im}(T)\\).
 
 * If \\(V\\) is finite-dimensional with a basis \\(\{\mathbf{b}_1, \mathbf{b}_2, ..., \mathbf{b}_n\}\\), then the image of \\(T\\) is the span of the images of the basis vectors:
     \\(\text{im}(T) = \text{span}\{T(\mathbf{b}_1), T(\mathbf{b}_2), ..., T(\mathbf{b}_n)\}\\)
@@ -186,6 +186,7 @@ A linear transformation \\(T: V \rightarrow W\\) is **injective** (or one-to-one
 **Theorem:** A linear transformation \\(T: V \rightarrow W\\) is injective if and only if its kernel is the zero subspace, i.e., \\(\text{ker}(T) = \{\mathbf{0}_V\}\\).
 
 **Proof:**
+
 * **(\\(\Rightarrow\\)) Assume \\(T\\) is injective.** If \\(\mathbf{v} \in \text{ker}(T)\\), then \\(T(\mathbf{v}) = \mathbf{0}_W\\). We also know that \\(T(\mathbf{0}_V) = \mathbf{0}_W\\). Since \\(T\\) is injective and \\(T(\mathbf{v}) = T(\mathbf{0}_V)\\), it must be that \\(\mathbf{v} = \mathbf{0}_V\\). Thus, \\(\text{ker}(T) = \{\mathbf{0}_V\}\\).
 * **(\\(\Leftarrow\\)) Assume \\(\text{ker}(T) = \{\mathbf{0}_V\}\\).** Suppose \\(T(\mathbf{u}) = T(\mathbf{v})\\) for some \\(\mathbf{u}, \mathbf{v} \in V\\). Then \\(T(\mathbf{u}) - T(\mathbf{v}) = \mathbf{0}_W\\). By linearity, \\(T(\mathbf{u} - \mathbf{v}) = \mathbf{0}_W\\). This means that \\(\mathbf{u} - \mathbf{v} \in \text{ker}(T)\\). Since \\(\text{ker}(T) = \{\mathbf{0}_V\}\\), we have \\(\mathbf{u} - \mathbf{v} = \mathbf{0}_V\\), which implies \\(\mathbf{u} = \mathbf{v}\\). Therefore, \\(T\\) is injective.
 
@@ -204,6 +205,7 @@ Here, \\(\text{dim}(\text{ker}(T))\\) is called the **nullity** of \\(T\\), and 
 **Relationship between Surjectivity and Dimensions:**
 
 If \\(T: V \rightarrow W\\) is a linear transformation between finite-dimensional vector spaces, then:
+
 * If \\(\text{dim}(V) < \text{dim}(W)\\), \\(T\\) cannot be surjective. (By Rank-Nullity Theorem, \\(\text{dim}(\text{im}(T)) \leq \text{dim}(V) < \text{dim}(W)\\)).
 * If \\(\text{dim}(V) > \text{dim}(W)\\), \\(T\\) cannot be injective (because \\(\text{dim}(\text{ker}(T)) = \text{dim}(V) - \text{dim}(\text{im}(T)) \geq \text{dim}(V) - \text{dim}(W) > 0\\), so the kernel is not just the zero vector).
 * If \\(\text{dim}(V) = \text{dim}(W)\\), then \\(T\\) is injective if and only if it is surjective. (If \\(T\\) is injective, \\(\text{dim}(\text{ker}(T)) = 0\\), so \\(\text{dim}(\text{im}(T)) = \text{dim}(V) = \text{dim}(W)\\), meaning \\(\text{im}(T) = W\\), so \\(T\\) is surjective. Conversely, if \\(T\\) is surjective, \\(\text{dim}(\text{im}(T)) = \text{dim}(W) = \text{dim}(V)\\), so \\(\text{dim}(\text{ker}(T)) = 0\\), meaning \\(T\\) is injective).

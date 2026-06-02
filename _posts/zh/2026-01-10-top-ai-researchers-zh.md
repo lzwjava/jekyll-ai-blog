@@ -27,6 +27,7 @@ Alec Radford 独立构建了 GPT-1 模型，并作为第一作者领导了 GPT-2
 ## 关键研究人员与领导者
 
 **学术/研究贡献者：**
+
 - Andrew Ng - Coursera 和 DeepLearning.ai 联合创始人，曾任 Google Brain 负责人和 Baidu 首席科学家
 - Fei-Fei Li - ImageNet 及 ImageNet Challenge 的创建者，Stanford 学院首任 Sequoia 教授
 - Demis Hassabis - DeepMind 创始人兼 CEO，以 AlphaGo 和 AlphaFold 闻名
@@ -38,6 +39,7 @@ Alec Radford 独立构建了 GPT-1 模型，并作为第一作者领导了 GPT-2
 - Andrej Karpathy - 前 Tesla AI 总监，OpenAI 创始成员
 
 **行业领导者：**
+
 - Sam Altman - OpenAI 联合创始人兼 CEO
 - Dario Amodei - Anthropic (Claude 的创建者) 联合创始人兼 CEO
 - Daniela Amodei - Anthropic 联合创始人
@@ -45,6 +47,7 @@ Alec Radford 独立构建了 GPT-1 模型，并作为第一作者领导了 GPT-2
 - Jensen Huang - Nvidia CEO
 
 **其他知名贡献者：**
+
 - Jeremy Howard - fast.ai 联合创始人
 - Lex Fridman - MIT AI 研究员
 - Mustafa Suleyman - DeepMind 联合创始人

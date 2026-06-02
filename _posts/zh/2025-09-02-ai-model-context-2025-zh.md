@@ -28,6 +28,7 @@ type: note
 * 通过Claude Code API，**Claude 4 Sonnet**可能支持**100万token**（[ClaudeLog][7]）。
 
 因此最大上下文窗口为：
+
 * 标准Claude Opus 4：约20万token
 * Sonnet 4（企业版）：最高50万token
 * 通过API的Claude 4 Sonnet（Claude Code）：最高100万token

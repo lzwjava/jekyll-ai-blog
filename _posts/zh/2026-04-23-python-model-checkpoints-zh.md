@@ -12,6 +12,7 @@ type: note
 您有两个可用的检查点。以下是示例命令：
 
 **使用您的 FineWeb 检查点（GPT-2 风格，BPE 分词器）：**
+
 ```bash
 python sample.py \
     --out_dir=out-fineweb \
@@ -21,6 +22,7 @@ python sample.py \
 ```
 
 **使用您的莎士比亚字符级检查点：**
+
 ```bash
 python sample.py \
     --out_dir=out-shakespeare-char \
@@ -30,6 +32,7 @@ python sample.py \
 ```
 
 **使用预训练的 GPT-2（无需本地检查点）：**
+
 ```bash
 python sample.py \
     --init_from=gpt2 \

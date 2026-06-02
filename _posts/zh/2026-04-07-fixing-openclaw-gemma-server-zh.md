@@ -20,6 +20,7 @@ OpenClaw在`openclaw.json`中配置了指向`http://192.168.1.36:8081/v1`的`lla
 ### 问题二：Gemma 4的思考模式
 
 即使启动llama-server后，Gemma 4内置“思考”模式。默认情况下（`--reasoning auto`），llama-server根据模型模板检测并将输出拆分为：
+
 - `message.reasoning_content` —— 思考过程/思维链
 - `message.content` —— 最终答案
 

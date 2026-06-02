@@ -17,6 +17,7 @@ type: note
 IBM Db2（主要指 **Db2 for Linux, UNIX, and Windows (LUW)**，这是最常见的现代版本）支持多种 **privileges**（权限）和 **authorities**（管理特权）。Privileges 通常通过 `GRANT` 语句授予特定对象（tables、views、schemas、packages 等），而 authorities 是更高级别的权限（通常针对整个 database 或 instance）。
 
 ### Common Object-Level Privileges
+
 这些是针对 tables、views、nicknames 等最常用的权限：
 
 - **SELECT** — 从 table 或 view 中读取数据。
@@ -29,18 +30,22 @@ IBM Db2（主要指 **Db2 for Linux, UNIX, and Windows (LUW)**，这是最常见
 - **ALL** — 一次性授予所有适用的权限（例如，`GRANT ALL ON table TO user` 通常包括 SELECT、INSERT、UPDATE、DELETE 等）。
 
 示例：
+
 ```sql
 GRANT SELECT, INSERT, UPDATE, DELETE ON schema.table_name TO user_name;
 ```
 
 ### Privileges on Other Objects
+
 - **EXECUTE** — 针对 stored procedures、functions、methods、packages 或 modules（常用于调用 routine）。
 - **BIND** — 绑定或重新绑定 package。
 - **USAGE** — 针对 workloads、modules、sequences 等。
 - Schema 权限：**CREATEIN**、**ALTERIN**、**DROPIN**（允许在 schema 中创建/修改/删除对象）。
 
 ### Database-Level Authorities (Higher-Level)
+
 这些在 database 级别授予，通常包含多个隐式权限：
+
 - **CONNECT** — 连接到 database。
 - **CREATETAB** — 创建 tables。
 - **BINDADD** — 创建 packages。
@@ -54,11 +59,13 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON schema.table_name TO user_name;
 - **SQLADM** — 管理 SQL 性能对象。
 
 更高级别的 instance-level authorities 包括：
+
 - **SYSADM** — 最高级别（instance 范围）。
 - **SYSCTRL** — 系统控制。
 - **SYSMAINT** — 系统维护。
 
 ### WITH GRANT OPTION
+
 正如你的例子中提到的（`GRANT SELECT ON object_name TO user_name WITH GRANT OPTION`），这允许接收者进一步将相同的权限授予他人。
 
 Db2 for z/OS 存在一些差异（例如，更多地使用 primary/secondary auth IDs 以及不同的 authority 名称如 PACKADM），但核心的对象权限如 SELECT、INSERT、UPDATE、DELETE、EXECUTE 是相似的。

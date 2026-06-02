@@ -15,7 +15,8 @@ type: note
 
 在配置了 **Quality of Service (QoS)** 的网络环境中，网络性能的 **predictability**（或 **foreseeability**）得到增强。
 
-### 解释：
+### 解释
+
 - **QoS Mechanisms**：QoS 技术将特定类型的流量（例如 voice、video、关键业务应用）优先于不太时间敏感的数据。这通过 traffic classification、marking、queuing、policing 和 shaping 等技术实现。
 - **Enhanced Predictability**：通过为关键应用保证带宽、限制 latency 并减少 jitter，QoS 使网络行为更加 **predictable**。管理员和用户可以预见网络在负载下的表现，确保满足 service level agreements (SLAs)。
 - **Resource Utilization**：不同于“best-effort”模型，其中所有流量平等竞争（导致不可预测的拥塞），QoS 允许 **带宽的有效分配**。这确保网络资源得到更合理的利用，防止非关键流量耗尽关键服务。

@@ -131,6 +131,7 @@ vault write database/config/mydb2 \
 **3. 为 Dynamic Credentials 创建映射角色**
 
 {% raw %}
+
 ```bash
 vault write database/roles/myapp-role \
     db_name=mydb2 \
@@ -138,6 +139,7 @@ vault write database/roles/myapp-role \
     default_ttl="1h" \
     max_ttl="24h"
 ```
+
 {% endraw %}
 
 **4. Spring Boot 配置**
@@ -237,6 +239,7 @@ public class VaultDB2Integration {
 ## Security Best Practices
 
 1. **使用 AppRole Authentication**：在生产环境中代替 token。
+
 ```yaml
 spring:
   cloud:

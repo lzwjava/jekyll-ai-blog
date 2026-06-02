@@ -24,6 +24,7 @@ type: note
 Anthropic 于 2026 年 3 月 12 日推出了其首个官方技术认证——**Claude Certified Architect (CCA), Foundations**。这不是一个概念性的 AI 素养徽章——它是一场监考的、架构级别的考试，旨在验证工程师能否设计并交付企业规模的生产级 Claude AI 应用。
 
 **考试详情：**
+
 - 60 个问题，覆盖五个领域：Agentic Architecture and Orchestration（27%）、Claude Code Configuration and Workflows（20%）、Prompt Engineering and Structured Output（20%）、Tool Design and MCP Integration（18%），以及 Context Management and Reliability（15%）。考试费用为 **$99 每次尝试**。
 - 该程序由 Anthropic 投资 1 亿美元支持。Accenture 正在为大约 30,000 名专业人士提供 Claude 培训，Cognizant 作为生态系统的一部分，正在为全球最多 350,000 名员工提供培训。
 - 目前，该考试仅限 Claude Partner Network 成员参加。前 5,000 名合作伙伴公司员工作为早期采用者免费参加。
@@ -66,18 +67,22 @@ OpenAI 的认证框架由 Coursera、ETS 和 Pearson Credly 共同开发，以�
 NVIDIA 没有专属的“CUDA Certification Exam”。相反，被认可的严肃选项是：
 
 **Oxford University CUDA Course (Academic, Intensive)**
+
 - 这是一周的动手课程，由 Prof. Mike Giles 和 Prof. Wes Armour 教授，他们建立了 JADE，这是首个国家级用于 Machine Learning 的 GPU HPC 设施。它从第一性原理覆盖 CUDA 编程，只需 C/C++ 知识，无需先前的并行计算经验。2025 年的课程已结束；2026 年版预计于 2026 年 7 月 20–24 日举行。
 - 完成该课程在研究/HPC 圈中得到认可——由实际 CUDA 研究人员教授，而非培训供应商。
 
 **Johns Hopkins GPU Programming Specialization (Coursera)**
+
 - 由 Johns Hopkins University 提供，该专项介绍 CUDA，教学生将顺序 CPU 算法转化为 CUDA kernels，同时执行数百到数千次，并覆盖 memory capabilities、cuFFT、cuBLAS 和 Thrust library。学习者完成至少 2 个项目，并有自由探索 CUDA-based solutions。
 - 严肃的学术背景，虽然没有监考期末考试。
 
 **NVIDIA's OLCF CUDA Training Series (Free, Research-Grade)**
+
 - NVIDIA 与 Oak Ridge National Laboratory (OLCF)、NERSC 和 NERSC 合作，提供 13 部分的 CUDA 培训系列。每部分包括 1 小时演示和 1 小时动手练习，旨在帮助 GPU 程序员深入理解 CUDA platform 和 programming model。
 - 无证书，但被国家实验室的 HPC 研究人员使用——CUDA 深度的金标准。
 
 **GTC 2026 CUDA Python Workshop**
+
 - 在 GTC 2026 上，NVIDIA 提供关于使用 CUDA Python、CuPy、cuDF 和 custom kernel development 构建 GPU-accelerated applications 的工作坊，将 CPU-bound workflows 转化为高性能 GPU pipelines。
 
 ---

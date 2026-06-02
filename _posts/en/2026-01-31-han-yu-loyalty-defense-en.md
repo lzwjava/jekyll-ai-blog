@@ -53,6 +53,7 @@ Han Yu was a leader of the **古文运动** (Classical Prose Movement), which ad
 ## Structure
 
 The essay follows a loose structure:
+
 1. Explanation of why he's writing this supplement
 2. Narrative of Zhang Xun's character and specific heroic deeds
 3. Defense of Zhang Xun's reputation and actions
@@ -62,6 +63,7 @@ The essay follows a loose structure:
 ## Influence and Legacy
 
 This work became a canonical example of biographical writing in Chinese literature. It demonstrates how historical writing can serve moral and political purposes while maintaining literary excellence. The piece has been studied for centuries as a model of:
+
 - Passionate yet controlled prose
 - Effective argumentation
 - Character portrayal

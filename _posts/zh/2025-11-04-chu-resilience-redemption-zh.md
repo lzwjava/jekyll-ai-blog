@@ -27,6 +27,7 @@ type: note
 2019年3月5日，褚时健因糖尿病并发症逝世，享年91岁。他的传奇激励了马云等商业领袖。其子褚一斌接手橙园事业，并计划在2025年前实现上市。褚时健的故事——从战时阴霾到商界巨擘，从铁窗生涯到果园花开——完美诠释了中国改革年代的坚韧精神：七次跌倒，八次重来。
 
 #### 参考资料
+
 - [褚时健 - 维基百科](https://en.wikipedia.org/wiki/Chu_Shijian)
 - [褚时健——中国烟草大王的传奇人生](https://www.yunnanexploration.com/chu-shijian-the-legendary-life-of-chinas-cigarette-king.html)
 - [从烟草大王到橙王，褚时健的传奇人生](http://www.szdaily.com/content/2019-03/08/content_21455415.htm)

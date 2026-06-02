@@ -19,6 +19,7 @@ Haikang Vision, commonly known as Hikvision (full name: Hangzhou Hikvision Digit
 Yes, Meiyijia (美宜佳), China's largest convenience store chain with over 33,000 stores primarily in Guangdong and expanding nationwide, uses Hikvision products for its surveillance and monitoring systems. Tutorials and user guides for accessing Meiyijia's store CCTV feeds explicitly reference Hikvision software tools, such as downloading the "Device Network Search Tool" from the Hikvision website to view recordings and live feeds on computers. This indicates integration of Hikvision hardware like cameras and recorders in their store operations for security and remote monitoring.
 
 **References:**
+
 - [Hikvision - Wikipedia](https://en.wikipedia.org/wiki/Hikvision)
 - [Hikvision Official Website](https://www.hikvision.com/us-en/)
 - [Meiyijia - Wikipedia (Chinese)](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%AE%9C%E4%BD%B3)

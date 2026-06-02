@@ -13,7 +13,7 @@ Good — the video is confirmed: **"Tri Dao: The End of Nvidia's Dominance, Why 
 
 ---
 
-**Question:** What does Tri Dao say in this talk? (https://www.youtube.com/watch?v=xlSaoP0b90A)
+**Question:** What does Tri Dao say in this talk? (<https://www.youtube.com/watch?v=xlSaoP0b90A>)
 
 **Answer:**
 

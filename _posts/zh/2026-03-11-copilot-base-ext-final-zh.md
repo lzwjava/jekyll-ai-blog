@@ -53,6 +53,7 @@ VS Code 1.106.3 于 **2025 年 11 月 25 日** 发布，作为 2025 年 10 月�
 | 状态 | 已弃用（最后一个发布） |
 
 您可以直接通过 Marketplace API 下载：
+
 ```
 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot/1.388.0/vspackage
 ```

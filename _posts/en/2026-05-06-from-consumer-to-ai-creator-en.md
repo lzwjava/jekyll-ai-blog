@@ -44,6 +44,7 @@ This is a **natural progression from consumer → builder → creator**.
 Consumer-side apps — whether built in **Spring (Java/Kotlin backend)**, **Swift (iOS)**, or any other stack — are ultimately **delivery vehicles**. They solve known problems in established ways.
 
 **AI creation** is different because:
+
 - The output space is **open-ended**
 - You're not just executing logic — you're **shaping what's possible**
 - The iteration loop between idea → prototype is dramatically compressed

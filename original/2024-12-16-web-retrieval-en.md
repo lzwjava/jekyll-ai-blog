@@ -31,7 +31,7 @@ The Solution
 
 I provided ChatGPT with my blog titles and asked it to retrieve the links for each post and update the LaTeX code accordingly. Here’s an example of the ChatGPT prompt:
 
-	“Retrieve links for these blog titles from my website and update the LaTeX code.”
+ “Retrieve links for these blog titles from my website and update the LaTeX code.”
 
 ChatGPT returned the refined LaTeX snippet with correct hyperlinks:
 
@@ -70,9 +70,9 @@ ChatGPT returned the refined LaTeX snippet with correct hyperlinks:
 
 With ChatGPT’s help:
 
-1.	I quickly retrieved accurate blog post links.
+1. I quickly retrieved accurate blog post links.
 
-2.	I updated my LaTeX document effortlessly, saving significant time and effort.
+2. I updated my LaTeX document effortlessly, saving significant time and effort.
 
 ### Key Takeaway
 

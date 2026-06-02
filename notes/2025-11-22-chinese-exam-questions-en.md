@@ -23,7 +23,8 @@ Based on past papers for the 04729 exam, here are typical examples of questions 
 ### 1. Single-Choice Questions (单项选择题) - (Testing Knowledge)
 
 **(Example 1: Testing Author/Work)**
-1.  下列作品中，属于**唐宋八大家**之一的**欧阳修**的散文是：
+
+1. 下列作品中，属于**唐宋八大家**之一的**欧阳修**的散文是：
     A. 《秋声赋》
     B. 《兰亭集序》
     C. 《爱莲说》
@@ -41,7 +42,8 @@ Based on past papers for the 04729 exam, here are typical examples of questions 
 ### 2. Term Explanation/Short Answer (名词解释/简答题) - (Testing Comprehension)
 
 **(Example 3: Explaining a Literary Term)**
-1.  **解释下列名词：** **“赋”**
+
+1. **解释下列名词：** **“赋”**
     *(Answer requires you to define the literary form of 'Fu'—a blend of poetry and prose).*
 
 **(Example 4: Analyzing a Text/Passage)**
@@ -67,9 +69,10 @@ Based on past papers for the 04729 exam, here are typical examples of questions 
 **(Example 6: A Full-Length Essay)**
 **题目：** **论阅读的价值**
 **要求：**
-1.  写一篇议论文，字数在**600-800字**之间。
-2.  观点明确，论据充分，结构完整。
-3.  不得透露个人信息。
+
+1. 写一篇议论文，字数在**600-800字**之间。
+2. 观点明确，论据充分，结构完整。
+3. 不得透露个人信息。
 
 ***
 

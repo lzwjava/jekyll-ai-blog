@@ -16,7 +16,7 @@ type: note
 
 2008年金融危机，也称为全球金融危机（GFC）或大衰退，主要是由美国房地产泡沫破裂和随后的次贷危机引发的，并通过相互关联的金融市场蔓延到全球。尽管对关键因素存在广泛共识，但经济学家们对其相对重要性存在争议。这场危机导致大规模银行亏损、机构破产（例如，雷曼兄弟在2008年9月破产）、股市崩盘和严重的全球经济衰退。
 
-### 主要原因：
+### 主要原因
 
 - **美国房地产泡沫及其破裂（2001-2006年达到顶峰，2006-2007年开始破裂）**：
   2001年互联网泡沫破裂后的低利率，加上宽松的信贷，推动了房价的快速上涨（1997-2006年上涨约124%）。投机行为推动了需求，许多人购买房屋期望房价永久上涨。当房价达到顶峰并下跌时，房主（尤其是持有可调整利率抵押贷款的房主）面临负资产，导致违约和止赎。
@@ -36,7 +36,8 @@ type: note
 - **货币政策和全球失衡**：
   美联储的低利率（2003-2004年为1%）促成了泡沫。一些人将责任归咎于政府促进房屋所有权的政策（例如通过房利美/房地美），尽管私营部门的次级贷款是主要驱动因素。
 
-### 危机升级的关键时间线：
+### 危机升级的关键时间线
+
 - **2006-2007年**：房价下跌；次级贷款违约增加；新世纪金融等贷方破产。
 - **2007年8月**：信贷市场冻结。
 - **2008年3月**：贝尔斯登在美联储协助下被摩根大通收购。
@@ -47,10 +48,10 @@ type: note
 
 参考文献：
 
-- https://en.wikipedia.org/wiki/2008_financial_crisis
-- https://www.britannica.com/money/financial-crisis-of-2007-2008
-- https://www.federalreservehistory.org/essays/subprime-mortgage-crisis
-- https://www.cfr.org/timeline/us-financial-crisis
-- https://en.wikipedia.org/wiki/Subprime_mortgage_crisis
-- https://www.investopedia.com/terms/g/great-recession.asp
-- https://www.economicsobservatory.com/why-did-the-global-financial-crisis-of-2007-09-happen
+- <https://en.wikipedia.org/wiki/2008_financial_crisis>
+- <https://www.britannica.com/money/financial-crisis-of-2007-2008>
+- <https://www.federalreservehistory.org/essays/subprime-mortgage-crisis>
+- <https://www.cfr.org/timeline/us-financial-crisis>
+- <https://en.wikipedia.org/wiki/Subprime_mortgage_crisis>
+- <https://www.investopedia.com/terms/g/great-recession.asp>
+- <https://www.economicsobservatory.com/why-did-the-global-financial-crisis-of-2007-09-happen>

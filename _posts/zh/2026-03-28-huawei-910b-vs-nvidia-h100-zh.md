@@ -54,6 +54,7 @@ type: note
 所以：仅从纸面上的 TFLOPS 数值计算，**≈17 块 RTX 4070s ≈ 1 块 H100**。
 
 > ⚠️ **但这在实践中具有误导性。** Raw TFLOPS 并不等于实际的 Training 性能。H100 拥有：
+>
 > - **HBM3 Memory**，具备 3.35 TB/s 带宽（对比 4070 的 GDDR6X 约为 504 GB/s）
 > - **NVLink** 用于多 GPU 扩展
 > - 在大规模 Batch Size 下的 **Tensor Core 效率**

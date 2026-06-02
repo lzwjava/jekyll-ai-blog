@@ -31,6 +31,7 @@ The AI is most useful **inside the loop**, not before it. You don't ask "explain
 ## Concrete Example: ROCm Kernel Optimization
 
 **Step 1: Find something real**
+
 ```python
 # You're running a transformer — profile the attention kernel
 import torch
@@ -48,6 +49,7 @@ print(f"{start.elapsed_time(end):.2f} ms")
 ```
 
 **Step 2: Write a naive HIP kernel**
+
 ```cpp
 __global__ void naive_matmul(float* A, float* B, float* C, int N) {
     int row = blockIdx.y * blockDim.y + threadIdx.y;
@@ -60,12 +62,14 @@ __global__ void naive_matmul(float* A, float* B, float* C, int N) {
 ```
 
 **Step 3: Profile with rocprof**
+
 ```bash
 rocprof --stats -o profile.csv ./my_kernel
 # Look at: FETCH_SIZE, L2CacheHit, wavefront occupancy
 ```
 
 **Step 4: Ask AI with evidence**
+
 ```
 Here's my kernel: [paste]
 Here's my rocprof output: [paste]
@@ -78,6 +82,7 @@ Now you're using AI as a **senior engineer pair**, not a textbook.
 ## The Real Insight
 
 Most optimization knowledge is **not in the reading** — it's in the gap between:
+
 - what you *thought* would be fast
 - what the profiler *says* is actually happening
 

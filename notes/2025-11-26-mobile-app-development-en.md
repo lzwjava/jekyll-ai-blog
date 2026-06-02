@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Course Outline: Mobile Application Development Technology (Course Code: 14567)
+
 #### National Higher Education Self-Study Examination (China)
 
 This course is a professional elective or core subject in self-study examination programs, typically offered under computer science, software engineering, or information technology majors at the associate (专科) level. It focuses on equipping self-learners with the foundational knowledge, theories, and practical skills for rapid development of mobile applications, primarily using Android as the platform. The course emphasizes hands-on abilities to select tools, design interfaces, implement functionality, and ensure system robustness. It includes both theoretical components (e.g., closed-book exams) and practical assessments (e.g., coding and project debugging).
@@ -19,6 +20,7 @@ This course is a professional elective or core subject in self-study examination
 **Recommended Prerequisites:** Basic programming (e.g., Java or C++), computer networks, and database fundamentals.
 **Textbook (Example):** *Android Application Development Fundamentals* (by Lai Hong, People's Posts and Telecommunications Press, 2020 edition; national vocational planning textbook).
 **Learning Objectives:**
+
 - Master mobile app development steps, methods, and technologies.
 - Understand mainstream frameworks (e.g., Android SDK) and apply them proficiently.
 - Design app structures, pages, and logic based on user needs.
@@ -26,6 +28,7 @@ This course is a professional elective or core subject in self-study examination
 - Develop skills for project management, version control, and deployment.
 
 #### Detailed Course Content Outline
+
 The syllabus follows a task-based structure aligned with industry workflows: from environment setup to advanced features and deployment. It integrates project-based learning, with 10 core tasks and 28 skill points. Below is a module-by-module breakdown (approximately 72 hours total: 48 theory + 24 practice).
 
 1. **Introduction to Mobile Application Development (6–8 hours)**
@@ -98,6 +101,7 @@ The syllabus follows a task-based structure aligned with industry workflows: fro
     - *Practice:* Capstone project with peer review.
 
 #### Assessment Methods
+
 - **Theory Exam (60%):** Closed-book, 150 minutes; multiple-choice, short answer, and essay questions on concepts/methods.
 - **Practical Exam (40%):** Coding tasks, project submission, and defense (e.g., implement a feature in 2–3 hours).
 - **Passing Criteria:** 60/100 overall; practice must be "qualified."
@@ -106,5 +110,6 @@ The syllabus follows a task-based structure aligned with industry workflows: fro
 This outline is synthesized from standard national self-study guidelines and provincial syllabi (e.g., Gansu, Sichuan). For province-specific details or the full PDF大纲, check your local education exam authority (e.g., via neea.edu.cn or provincial self-exam portals).
 
 **References:**
+
 - [Gansu Self-Exam Outline for Mobile App Design (14565, similar to 14567)](https://www.zikaosw.cn/news/20035952.html)
 - [National Higher Education Platform: Android App Development Course](https://www.chinaooc.com.cn/course/62354c759906eace048c3634)

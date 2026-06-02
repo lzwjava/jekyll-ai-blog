@@ -13,25 +13,25 @@ Okay, here are the suggestions for what a Chinese person can eat daily to limit 
 **1. Staple Carbohydrate Alternatives (in moderation, depending on your weight loss goals):**
 
 * **Other Grains:**
-    * Quinoa
-    * Barley
-    * Oats
-    * Millet
-    * Sorghum
+  * Quinoa
+  * Barley
+  * Oats
+  * Millet
+  * Sorghum
 * **Starchy Vegetables:**
-    * Sweet Potatoes
-    * Potatoes
-    * Taro
-    * Yam
-    * Corn
+  * Sweet Potatoes
+  * Potatoes
+  * Taro
+  * Yam
+  * Corn
 * **Legumes:**
-    * Lentils
-    * Beans (Kidney beans, black beans, soybeans) and their products like tofu and edamame.
+  * Lentils
+  * Beans (Kidney beans, black beans, soybeans) and their products like tofu and edamame.
 * **Noodles (in moderation, choose wisely):**
-    * Mung Bean Noodles/Glass Noodles
-    * Konjac Noodles
-    * Vegetable Noodles (zucchini noodles, carrot noodles)
-    * Whole Wheat Noodles (choose these over refined white noodles for more fiber).
+  * Mung Bean Noodles/Glass Noodles
+  * Konjac Noodles
+  * Vegetable Noodles (zucchini noodles, carrot noodles)
+  * Whole Wheat Noodles (choose these over refined white noodles for more fiber).
 
 **2. Focus on Plenty of Vegetables:**
 
@@ -65,18 +65,18 @@ Okay, here are the suggestions for what a Chinese person can eat daily to limit 
 **Daily Meal Ideas (Examples):**
 
 * **Breakfast:**
-    * Congee made with less rice or with sweet potato or taro, with added vegetables and lean protein (like shredded chicken or a boiled egg).
-    * Steamed eggs with vegetables.
-    * Tofu with stir-fried greens.
+  * Congee made with less rice or with sweet potato or taro, with added vegetables and lean protein (like shredded chicken or a boiled egg).
+  * Steamed eggs with vegetables.
+  * Tofu with stir-fried greens.
 * **Lunch:**
-    * Stir-fried vegetables with a portion of lean protein (chicken, fish, tofu) and a small amount of quinoa or mung bean noodles.
-    * A hearty vegetable soup with added tofu or lean meat.
-    * A salad with a variety of vegetables, grilled chicken or shrimp, and a light vinaigrette (less common traditionally, but a healthy option).
+  * Stir-fried vegetables with a portion of lean protein (chicken, fish, tofu) and a small amount of quinoa or mung bean noodles.
+  * A hearty vegetable soup with added tofu or lean meat.
+  * A salad with a variety of vegetables, grilled chicken or shrimp, and a light vinaigrette (less common traditionally, but a healthy option).
 * **Dinner:**
-    * Steamed fish with ginger and scallions, served with plenty of steamed or stir-fried vegetables.
-    * Braised tofu with mushrooms and vegetables.
-    * Stir-fried lean beef or chicken with a colorful mix of vegetables, and a small portion of sweet potato.
-    * A nourishing soup with yam, goji berries, and chicken.
+  * Steamed fish with ginger and scallions, served with plenty of steamed or stir-fried vegetables.
+  * Braised tofu with mushrooms and vegetables.
+  * Stir-fried lean beef or chicken with a colorful mix of vegetables, and a small portion of sweet potato.
+  * A nourishing soup with yam, goji berries, and chicken.
 
 **Important Considerations:**
 

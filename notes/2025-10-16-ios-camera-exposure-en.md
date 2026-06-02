@@ -15,6 +15,7 @@ type: note
 iOS offers powerful camera tools for advanced photography, starting with the built-in Camera app and extending to third-party apps for deeper manual control. Exposure controls brightness (lightness) and dynamic range, while features like focus locking and white balance fine-tune your shots. Below, I'll cover the essentials for the native app, then highlight top third-party options.
 
 #### Built-in iOS Camera App (iOS 18+)
+
 The default Camera app provides semi-manual controls without needing extra downloads. It's great for quick adjustments on iPhone 16 models with the new Camera Control button.
 
 - **Manual Focus and Exposure Adjustment**:
@@ -37,6 +38,7 @@ The default Camera app provides semi-manual controls without needing extra downl
 These work on any iPhone, but iPhone 15/16 Pro models add ProRAW for post-exposure edits.
 
 #### Third-Party Apps for Pro-Level Control
+
 For full manual overrides like ISO, shutter speed, and white balance (beyond the native app's limits), use dedicated apps. They unlock RAW shooting and histograms for precise lightness monitoring. Here are top picks for 2025, based on manual features:
 
 - **ProCamera** (Free with in-app purchases, $9.99 Pro version):

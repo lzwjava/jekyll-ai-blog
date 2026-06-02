@@ -18,6 +18,7 @@ type: note
 Lipton 于 1992 年进入中国市场，专注于方便的茶包，这些相对于传统的散叶冲泡仍有些新颖。他们在中国的主要产品包括：
 
 ### 茶包（Tea Packet）品种
+
 - **黑茶（红茶 / 红茶）** — 最经典和受欢迎的产品线。
   - Yellow Label / Classic Black Tea（黄牌精选红茶） — 通常是标志性的浓郁、爽快的黑茶混合。
   - Warm & Mellow Black Tea（温润红茶）。

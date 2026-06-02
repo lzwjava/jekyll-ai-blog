@@ -17,6 +17,7 @@ Answer:
 Several excellent iOS apps fit your criteria for poker (or bridge, as "bridge poker" may refer to poker variants or bridge-style calculation games). These emphasize **guessing/estimating odds, equity, or hand strength** and **calculating probabilities**, often in interactive trainer or quiz formats that feel game-like with drills, quizzes, scores, levels, and progress tracking. They train skills like estimating equity vs. ranges, pot odds, outs, or GTO decisions without real-money play. Here's a curated list of the top ones based on user reviews, features, and expert recommendations:
 
 ### Top Poker Apps (Focus: Equity/Odds Guessing & Calculation)
+
 - **PokerCruncher - Advanced Odds**
   Professional equity calculator with hand-vs-hand/range simulations (up to 10 players). Game-like analysis of flops/turns/rivers, heat maps, and stats (e.g., flop hit rates, combo draws). Use it to "guess" equities then verify—perfect for training intuition. One-time purchase (~$5-13 depending on version), offline, highly rated by pros.
 
@@ -33,6 +34,7 @@ Several excellent iOS apps fit your criteria for poker (or bridge, as "bridge po
   GTO drills: Guess actions/equities in solved spots (preflop/postflop), track ELO/progress. Quiz modes, achievements—addictive game feel. Subscription (~$10/mo), but drills target guessing weaknesses.
 
 ### Top Bridge Apps (Calculation/Guessing in Bidding & Play)
+
 Bridge involves heavy bidding math (point counts, distributions) and play guessing (lines, probabilities)—like "poker" in trick-taking.
 
 - **Bridge by NeuralPlay**
@@ -53,6 +55,7 @@ Bridge involves heavy bidding math (point counts, distributions) and play guessi
 **Tips**: Start with free versions/trials. For poker, combine Odds Teacher (learn) + Cruncher (verify). For bridge, NeuralPlay for play calc + bid72 for bidding guesses. Search App Store for exact links. These improve via repetition—play daily for scores/progress.
 
 References:
+
 - [PokerCruncher](https://apps.apple.com/us/app/pokercruncher-advanced-odds/id294379237)
 - [Poker Odds Teacher](https://apps.apple.com/us/app/poker-odds-teacher/id308077124)
 - [Bridge by NeuralPlay](https://apps.apple.com/us/app/bridge-by-neuralplay/id1544516848)

@@ -26,6 +26,7 @@ type: note
 - `/Users/lzwjava/projects/ww/README.md` —— 更新文档
 
 使用方法：在 `.env` 中设置 `SCREENSHOT_DIR`，例如：
+
 ```
 SCREENSHOT_DIR=/Users/lzwjava/projects/jekyll-ai-blog/assets/screenshots
 ```

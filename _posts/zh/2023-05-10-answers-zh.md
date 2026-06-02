@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-转自 Yin Wang 的 Substack，网址是 https://yinwang1.substack.com。
+转自 Yin Wang 的 Substack，网址是 <https://yinwang1.substack.com。>
 
 ---
 

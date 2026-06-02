@@ -16,6 +16,7 @@ Answer:
 **Shadowrocket** is a popular paid iOS app (available on the App Store) that supports **Hysteria 2** as a protocol since version **2.2.35** (and later). As of 2026, it works reliably for connecting to Hysteria 2 servers.
 
 ### Prerequisites
+
 - Shadowrocket installed and updated (check for version ≥ 2.2.35).
 - Your Hysteria 2 server is running and accessible (from previous setup: UDP port open, domain or IP, password auth, etc.).
 - You have the server details ready:
@@ -71,6 +72,7 @@ hy2://password@your-domain.com:443/?sni=your-domain.com&insecure=0
 - Or: In Shadowrocket → + → Import from Clipboard (or Scan QR if you have a QR code).
 
 ### Common Tips & Troubleshooting
+
 - **Connection fails?**
   - Double-check UDP 443 is not blocked (test server reachability with another client like sing-box desktop).
   - Ensure SNI matches exactly (case-sensitive).

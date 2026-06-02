@@ -34,15 +34,19 @@ Cities and villages represent two distinct types of human settlements, differing
 ### Advantages and Disadvantages for Making a Life
 
 **Living in a City:**
+
 - **Pros:** Better career opportunities, higher salaries, access to quality education and healthcare, diverse cultural experiences, modern conveniences.
 - **Cons:** High stress, pollution, expensive living, traffic, isolation despite crowds, work-life imbalance.
 
 **Living in a Village:**
+
 - **Pros:** Peaceful environment, lower costs, fresh food, strong community support, closer connection to nature, healthier lifestyle (physically active).
 - **Cons:** Limited job prospects, poor infrastructure, fewer educational and medical facilities, less privacy (everyone knows your business), slower development.
 
 ### Which is Better for Making a Life?
+
 It depends on personal priorities:
+
 - Choose a **city** if you value career growth, education, modern facilities, and diversity.
 - Choose a **village** if you prefer tranquility, affordability, community, and a simpler life close to nature.
 

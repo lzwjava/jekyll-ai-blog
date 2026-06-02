@@ -14,6 +14,7 @@ These are separate concerns:
 **Why WebSocket?**
 
 OpenClaw uses WebSocket as its core real-time transport between the browser Control UI and the gateway process. The gateway runs as a persistent background service that manages AI agents, message routing, and channel connections. WebSocket gives:
+
 - Bidirectional, low-latency streaming (AI responses stream token-by-token to the UI)
 - Persistent connection so the gateway can push events (new messages, agent status) to the browser without polling
 - A single connection that multiplexes many concurrent sessions/agents

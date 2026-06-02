@@ -15,6 +15,7 @@ type: note
 A **rotary encoder** is a type of electro-mechanical sensor used to detect and measure the angular position or rotation of a shaft (like in knobs, dials, or wheels) in mechanical devices. It converts rotational motion into digital or analog signals, allowing devices to track how much and in which direction something has turned. They're common in everything from volume knobs on audio equipment to steering wheels in robotics and industrial machinery.
 
 #### Key Types
+
 There are two main kinds, based on how they handle position tracking:
 
 | Type              | Description | Best For |
@@ -23,6 +24,7 @@ There are two main kinds, based on how they handle position tracking:
 | **Absolute**     | Provides a unique digital code for every possible angular position, so it knows the exact location even after power loss. | Precise applications like elevators or CNC machines where knowing the "home" position without resetting is essential. |
 
 #### How It Works (Simplified)
+
 - **Optical**: A light source shines through a patterned disk (with slots or marks) attached to the rotating shaft. A sensor detects interruptions in the light to generate signals.
 - **Magnetic**: Uses magnets and Hall-effect sensors to detect changes in magnetic fields as the shaft turns.
 - **Mechanical**: Older style with direct contacts, but less reliable due to wear.

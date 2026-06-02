@@ -33,6 +33,7 @@ The examining institutions include 广东财经大学, 华南师范大学, 深�
 Looking at the new (2026+) course plan for 080901, here's where you stand based on what you've already passed and what you're preparing:
 
 **Already passed — likely transferable/overlapping:**
+
 - 操作系统导引 → maps to 操作系统
 - 数据结构导引 → maps to 数据结构与算法
 - 高级语言程序设计(I) → maps to 高级语言程序设计
@@ -41,11 +42,13 @@ Looking at the new (2026+) course plan for 080901, here's where you stand based 
 - 高等数学 → partial credit toward 数学(工本)
 
 **Currently preparing — also relevant to the bachelor's:**
+
 - 计算机网络 → directly relevant
 - Java程序设计导引 → useful for 计算机高级程序设计
 - 线性代数 → supports the math requirements
 
 **Bachelor's courses you'll still need to focus on (new courses not covered by your associate work):**
+
 - 离散数学
 - 软件工程
 - 信息与网络安全

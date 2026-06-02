@@ -28,6 +28,7 @@ Given your constraints — cross-platform, CLI-first, mix of LLM and non-LLM scr
 | Usage | `workit note`, `workit git`, `workit pdf` |
 
 **Why it wins:**
+
 - Short, memorable, verb-based (action-oriented)
 - Natural subcommand pattern: `workit <tool>`
 - Works perfectly as both a repo name and CLI binary name
@@ -69,6 +70,7 @@ workit/
 ```
 
 Usage:
+
 ```bash
 workit note
 workit git pull
@@ -80,6 +82,7 @@ workit pdf merge a.pdf b.pdf
 ### Final Verdict
 
 Go with **`workit`** as both the repo name and CLI name. It is:
+
 - ✅ Action-oriented
 - ✅ Easy to type in terminal
 - ✅ Scales naturally with subcommands

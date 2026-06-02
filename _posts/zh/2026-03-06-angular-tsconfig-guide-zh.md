@@ -25,7 +25,6 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 
 使用 CLI 生成新 Angular 项目时，通常会得到 **三个 tsconfig 文件**：
 
-
 | File | Purpose |
 |---|---|
 | `tsconfig.json` | 整个项目的根/基础配置 |
@@ -35,6 +34,7 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 `tsconfig.json` 文件可以使用 `extends` 属性继承另一个文件的配置。`extends` 是一个顶级属性（与 `compilerOptions`、`files`、`include` 和 `exclude` 并列）。其值是一个字符串，包含要继承的另一个配置文件路径。基础文件的配置首先加载，然后被继承配置文件中的配置覆盖。
 
 例如，`tsconfig.app.json` 通常如下所示：
+
 ```json
 {
   "extends": "./tsconfig.json",
@@ -71,7 +71,6 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 
 关键选项说明：
 
-
 | Option | Description |
 |---|---|
 | `target` | 编译成的 JavaScript 版本（例如 `es2020`） |
@@ -96,6 +95,7 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 `exclude` 选项仅更改由于 `include` 设置而包含的文件。它不会防止文件被包含——它只是更改 `include` 设置找到的内容。如果代码中有 import 语句，`exclude` 中指定的文件仍可能成为代码库的一部分。
 
 示例：
+
 ```json
 "include": ["src/**/*.ts"],
 "exclude": ["node_modules", "dist", "e2e"]
@@ -106,7 +106,6 @@ Angular 项目中的 `tsconfig.json` 文件在 TypeScript 编译过程中扮演�
 ## 部分 3：`angularCompilerOptions`
 
 此部分是 **Angular 专属** 的，用于控制 Angular 模板编译器（Ivy）。重要选项包括：
-
 
 | Option | Description |
 |---|---|

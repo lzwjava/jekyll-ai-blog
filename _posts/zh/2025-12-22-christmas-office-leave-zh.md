@@ -16,7 +16,8 @@ type: note
 
 国际银行和跨国公司在圣诞节前后通常会有大量的员工休假和活动减少，但这因国家、公司政策和行业而异。
 
-### 主要模式：
+### 主要模式
+
 - **公共假日**：圣诞节（12月25日）在大多数西方国家（例如美国、英国、欧洲、澳大利亚、加拿大）是**银行假日**和公共假日。许多国家还将12月26日定为**节礼日**或第二个圣诞假日。银行和金融机构在这些天关闭，股票市场也休市。
 - **延长关闭**：许多跨国公司会实施“圣诞节停业”或鼓励/要求在圣诞节和新年之间的一周休假。这很常见，因为业务活动会放缓（客户和合作伙伴减少），生产力较低，并且这能让员工获得更长的假期。例如，惠普、戴尔和Adobe等科技公司会关闭数周，全球范围内的制造业、律师事务所和办公室也有类似的做法。
 - **特别针对银行**：
@@ -31,10 +32,10 @@ type: note
 
 参考文献：
 
-- https://www.officeholidays.com/
-- https://www.frbservices.org/about/holiday-schedules
-- https://www.levro.com/blog/bank-holiday-payment-delays
-- https://focusme.com/blog/reasons-to-consider-closing-your-office-for-christmas-week/
-- https://seniorexecutive.com/c-suite-debate-prep-what-to-know-about-closing-your-offices-between-christmas-and-new-years/
-- https://www.wallstreetoasis.com/forum/investment-banking/when-do-investment-bankers-take-time-off-during-christmas-and-new-years
-- https://www.efinancialcareers.com/news/investment-bank-christmas-parties
+- <https://www.officeholidays.com/>
+- <https://www.frbservices.org/about/holiday-schedules>
+- <https://www.levro.com/blog/bank-holiday-payment-delays>
+- <https://focusme.com/blog/reasons-to-consider-closing-your-office-for-christmas-week/>
+- <https://seniorexecutive.com/c-suite-debate-prep-what-to-know-about-closing-your-offices-between-christmas-and-new-years/>
+- <https://www.wallstreetoasis.com/forum/investment-banking/when-do-investment-bankers-take-time-off-during-christmas-and-new-years>
+- <https://www.efinancialcareers.com/news/investment-bank-christmas-parties>

@@ -23,8 +23,8 @@ Java has a **strong and static type system**.
 
 Java's type system is broadly divided into two main categories:
 
-1.  **Primitive Types:** These are the most basic data types in Java. They represent single values directly in memory.
-2.  **Reference Types:** These types represent objects, which are instances of classes or interfaces. Reference variables store the memory address (reference) of the object.
+1. **Primitive Types:** These are the most basic data types in Java. They represent single values directly in memory.
+2. **Reference Types:** These types represent objects, which are instances of classes or interfaces. Reference variables store the memory address (reference) of the object.
 
 Let's explore each of these in detail.
 
@@ -57,6 +57,7 @@ Reference types represent objects, which are instances of classes or interfaces.
 **Common Reference Types:**
 
 * **Classes:** Classes are blueprints for creating objects. They define the data (fields/attributes) and behavior (methods) of objects of that type.
+
     ```java
     class Dog {
         String name;
@@ -76,7 +77,9 @@ Reference types represent objects, which are instances of classes or interfaces.
         }
     }
     ```
+
 * **Interfaces:** Interfaces define a contract of methods that a class can implement. They represent a set of behaviors.
+
     ```java
     interface Animal {
         void makeSound();
@@ -95,14 +98,18 @@ Reference types represent objects, which are instances of classes or interfaces.
         }
     }
     ```
+
 * **Arrays:** Arrays are collections of elements of the same type. The type of the array is determined by the type of its elements.
+
     ```java
     int[] numbers = new int[5]; // 'int[]' is the reference type
     numbers[0] = 10;
 
     String[] names = {"Alice", "Bob", "Charlie"}; // 'String[]' is the reference type
     ```
+
 * **Enums (Enumerations):** Enums represent a fixed set of named constants.
+
     ```java
     enum Day {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
@@ -115,7 +122,9 @@ Reference types represent objects, which are instances of classes or interfaces.
         }
     }
     ```
+
 * **Wrapper Classes:** For each primitive type, Java provides a corresponding wrapper class (e.g., `Integer` for `int`, `Double` for `double`). These allow you to treat primitive values as objects.
+
     ```java
     Integer num = 10; // 'Integer' is the reference type
     Double piValue = 3.14; // 'Double' is the reference type
@@ -181,19 +190,23 @@ Java performs type checking at two main stages:
 Sometimes you need to convert a value from one type to another. Java supports two types of casting:
 
 * **Implicit Casting (Widening Conversion):** This happens automatically when you assign a value of a smaller primitive type to a variable of a larger primitive type. No data loss occurs.
+
     ```java
     int myInt = 10;
     long myLong = myInt; // Implicit casting from int to long
     double myDouble = myLong; // Implicit casting from long to double
     ```
+
 * **Explicit Casting (Narrowing Conversion):** This must be done manually using a cast operator `(targetType)` when you assign a value of a larger primitive type to a variable of a smaller primitive type. Data loss might occur.
+
     ```java
     double myDouble = 10.99;
     int myInt = (int) myDouble; // Explicit casting from double to int (myInt will be 10)
     ```
+
 * **Reference Type Casting:** You can also cast between reference types, but it's more complex and involves inheritance and interfaces.
-    * **Upcasting:** Casting an object of a subclass to its superclass type. This is always allowed implicitly.
-    * **Downcasting:** Casting an object of a superclass type to its subclass type. This requires an explicit cast and can result in a `ClassCastException` at runtime if the object is not actually an instance of the subclass.
+  * **Upcasting:** Casting an object of a subclass to its superclass type. This is always allowed implicitly.
+  * **Downcasting:** Casting an object of a superclass type to its subclass type. This requires an explicit cast and can result in a `ClassCastException` at runtime if the object is not actually an instance of the subclass.
 
 **Example of Reference Type Casting:**
 

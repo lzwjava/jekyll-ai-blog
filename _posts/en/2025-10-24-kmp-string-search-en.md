@@ -17,6 +17,7 @@ You're spot on with your intuition: KMP is all about **not wasting partial match
 I'll break it down step-by-step with a simple example. We'll search for the pattern `P = "abab"` in the text `T = "ababababc"`. (It appears at positions 0 and 2.)
 
 #### Step 1: The Problem and Naive Approach
+
 - **Goal**: Find all starting positions where `P` fully matches in `T`.
 - **Naive way**: Slide `P` over `T`, comparing character by character. If mismatch at position i in `P`, shift `P` by 1 and retry from the beginning of `P`.
   - For our example:
@@ -29,12 +30,14 @@ I'll break it down step-by-step with a simple example. We'll search for the patt
 This can be O(n*m) in the worst case (e.g., searching "aaaaa...a" for "aaa...ab").
 
 #### Step 2: KMP's Key Idea – The Prefix Table (or "Failure Function")
+
 KMP precomputes a table `π` (pi) for the pattern `P`. This table tells you, for each position i in `P`, **the longest proper prefix of `P[0..i]` that is also a suffix**. In other words: "If we mismatch here, how much of the partial match can we reuse by jumping to this overlapping prefix?"
 
 - **Proper prefix/suffix**: A prefix/suffix that isn't the whole string (e.g., for "aba", prefix "a" matches suffix "a").
 - Why? It lets you "slide" the pattern by more than 1 on mismatch, reusing the overlap instead of restarting.
 
 For `P = "abab"`:
+
 - Build `π` step by step (we'll code this soon).
 
 | Position i | P[0..i] | Longest proper prefix = suffix | π[i] |
@@ -48,9 +51,11 @@ For `P = "abab"`:
 - π[3] = 2 means: For full "abab", overlap of "ab".
 
 #### Step 3: Building the Prefix Table (π)
+
 This is done in O(m) time. It's like searching `P` against itself, using a similar logic.
 
 Pseudocode:
+
 ```
 def compute_prefix_function(P):
     m = len(P)
@@ -72,12 +77,15 @@ def compute_prefix_function(P):
   - If match, k++.
 
 For "abab":
+
 - i=1: P[0]='a' != P[1]='b' → k=0, π[1]=0.
 - i=2: P[0]='a' == P[2]='a' → k=1, π[2]=1.
 - i=3: P[1]='b' == P[3]='b' → k=2, π[3]=2.
 
 #### Step 4: Searching with the Prefix Table
+
 Now search `T` with `P` and `π`:
+
 - Keep a variable `q` = current state (length of matched prefix so far).
 - For each char in `T`:
   - While mismatch and q>0, set q = π[q-1] (jump back smartly).
@@ -85,6 +93,7 @@ Now search `T` with `P` and `π`:
   - If q == m, found! Then q = π[q-1] to continue for overlaps.
 
 Pseudocode:
+
 ```
 def kmp_search(T, P):
     n, m = len(T), len(P)
@@ -104,6 +113,7 @@ def kmp_search(T, P):
 ```
 
 For `T = "ababababc"`, `P = "abab"`:
+
 - i=0: 'a'=='a' → q=1
 - i=1: 'b'=='b' → q=2
 - i=2: 'a'=='a' → q=3
@@ -115,6 +125,7 @@ For `T = "ababababc"`, `P = "abab"`:
 - Actually: After second match at i=5 (pos 2), q=2, i=6='a'==P[2]='a' q=3, i=7='b'==P[3]='b' q=4 → Match at 4? Wait, let's trace fully.
 
 Wait, correction on trace (full run yields matches at 0 and 2; at i=7: after q=4 at i=7? No:
+
 - Up to i=3: match, q=2
 - i=4: T[4]='a' (after "ababa"), P[2]='a' yes q=3
 - i=5: T[5]='b' P[3]='b' q=4 → match at 2 (5-4+1=2), q=π[3]=2
@@ -128,10 +139,12 @@ Wait, actually for this T, matches at 0,2,4. Yes!
 See? On mismatches (like if there was one), it jumps q=π[q-1] instead of q=0.
 
 #### Why It Feels Magical
+
 - No backtracking in `T`—you only move forward.
 - The "while" loop for mismatches runs amortized O(1) times total, because each jump decreases q, and q increases at most n times.
 
 #### Try It Yourself: Simple Python Code
+
 ```python
 def compute_prefix_function(P):
     m = len(P)
@@ -170,6 +183,7 @@ print(kmp_search(T, P))  # Output: [0, 2, 4]
 Run this—tweak P/T to see jumps in action (add prints for q).
 
 #### Common Pitfalls & Tips
+
 - π[0] always 0.
 - For patterns without self-overlaps (e.g., "abc"), π is all 0s—falls back to naive.
 - Great for DNA sequences or code autocomplete.

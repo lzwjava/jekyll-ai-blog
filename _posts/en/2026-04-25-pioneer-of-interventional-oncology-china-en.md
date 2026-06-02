@@ -46,6 +46,7 @@ In late 1988, the clinical team he led established China's first dedicated "Inte
 ### Major Institutional Roles & Positions
 
 Professor Luo has held a wide range of distinguished positions, including:
+
 - Vice Director, Guangdong Provincial Cancer Prevention and Control Center
 - Director, Imaging and Interventional Center, Guangdong Provincial People's Hospital
 - Lifetime Professor, Guangdong Provincial People's Hospital
@@ -65,6 +66,7 @@ He currently practices at **Guangzhou Xinshi Hospital (广州新市医院 / Guan
 He has extensive clinical experience in interventional treatment of all types of tumors, particularly liver tumors, lung cancer, and colorectal cancer with liver metastases.
 
 Key clinical milestones include:
+
 - In 1985, he performed China's first catheter-based embolization treatment of varicocele (精索静脉曲张) using an improved Cobra catheter, summarizing the X-ray anatomical classification and embolization technique in detail. This minimally invasive approach has since replaced surgical ligation nationally.
 - In 1989, he pioneered the first use of gold-mixed lipiodol for Transcatheter Arterial Chemoembolization (TACE) in China; in 1992, he was the first to use anhydrous ethanol for local ablation of residual tumors after TAE.
 - Over more than 20 years, he studied approximately 20,000 mid-to-late stage liver cancer patients, making substantial contributions to catheter techniques, embolization methods, and complication management. The treatment protocol he helped establish — TACE + Ablation + Targeted Drug Therapy — has become the national clinical consensus.
@@ -90,6 +92,7 @@ This system integrates five advanced technologies: intratumoral drug injection, 
 ### Awards & Honors
 
 His major recognitions include:
+
 - **1992**: Commended by the State Council and Ministry of Health for outstanding contributions to interventional medicine; granted the Government Special Contribution Allowance
 - **1999**: Awarded the 20th Century Outstanding Medical Contribution Certificate by the International Biographical Centre, Cambridge, UK
 - **2005 & 2010**: Two-time recipient of the Outstanding Contribution Award from the Chinese Medical Association's Radiology Branch

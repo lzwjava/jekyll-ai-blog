@@ -12,6 +12,7 @@ type: post
 在这个项目中，我利用GitHub Actions和Telegram机器人搭建了一套自动化提醒系统，用于管理我的日常和月度任务。通过配置cron定时任务，我设置了工作相关事项的提醒，如企业微信打卡、提交工时表和查收工资，以及个人事务，比如探望家人、京东购物，甚至与伴侣一起看电视。系统通过Python脚本调用Telegram的Bot API发送消息，敏感的环境变量则安全地存储在GitHub Secrets中。这一机制确保我不会错过任何重要截止日期或个人承诺，将科技与日常生活无缝融合，实现效率最大化。
 
 {% raw %}
+
 ```yaml
 name: 提醒系统
 
@@ -140,6 +141,7 @@ jobs:
         run: python scripts/release/reminders_bot.py --job send_message --message "这是来自GitHub Actions的测试消息"
         if: github.event_name == 'workflow_dispatch'
 ```
+
 {% endraw %}
 
 ```python

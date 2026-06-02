@@ -43,6 +43,7 @@ Here are the most relevant prestigious ones suitable for experienced professiona
 Pure onsite algorithmic competitions purely for professionals are rare (most onsite finals are still tied to student-oriented paths like ICPC regionals/world finals, which have strict eligibility rules excluding most 10+ year experienced engineers).
 
 For the best impact as an experienced engineer:
+
 - Participate in open contests like Hacker Cup, TopCoder Open, or AtCoder finals.
 - Achieve high rankings on Codeforces (e.g., reach Grandmaster) or AtCoder (high color rating).
 - These achievements are frequently recognized in senior engineering interviews at top tech firms.

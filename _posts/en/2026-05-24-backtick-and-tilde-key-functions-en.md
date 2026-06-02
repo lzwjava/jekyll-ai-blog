@@ -24,6 +24,7 @@ Layout context:
 ```
 
 So `` ` `` sits:
+
 - **Left of `1`**
 - **Above `Tab`**
 - **Below `Esc`**
@@ -42,12 +43,14 @@ So `` ` `` sits:
 ### Why this key matters (especially for you)
 
 **1. Shell — `cd` home shortcut**
+
 ```bash
 cd ~        # ~ expands to $HOME
 cd ~/projects/lzwjava.github.io
 ```
 
 **2. Backtick in Markdown — inline code and fences**
+
 ````
 `inline code`
 
@@ -57,11 +60,13 @@ cd ~/projects/lzwjava.github.io
 ````
 
 **3. Python/JS template literals (JS)**
+
 ```js
 const msg = `Hello ${name}, tokens used: ${count}`;
 ```
 
 **4. Vim — jump to last cursor position**
+
 ```
 ``    # jump back to exact position
 `^    # jump to last insert position
@@ -70,11 +75,13 @@ const msg = `Hello ${name}, tokens used: ${count}`;
 
 **5. tmux / terminal — backtick as prefix key**
 Some tmux configs use `` ` `` as the prefix instead of `Ctrl-b`:
+
 ```bash
 set -g prefix `
 ```
 
 **6. Bash — command substitution (legacy style)**
+
 ```bash
 # Old style (backtick) — avoid in new scripts
 result=`ls -la`

@@ -20,7 +20,7 @@ Before the introduction of runtime permissions (e.g., in Android 6.0 Marshmallow
 
 Runtime permissions change this by requiring the app to ask the user for permission **at the time the resource is actually needed** (at runtime), not just during installation.
 
-### Key Benefits of Runtime Permissions:
+### Key Benefits of Runtime Permissions
 
 * **Informed Consent:** Users are prompted with a clear dialog box asking for permission (e.g., "Allow [App Name] to access this device's location?"). This allows the user to make an informed decision about the specific resource being accessed.
 * **Granular Control:** The user can grant or deny specific permissions individually. For instance, they might allow an app to use the **Camera** but deny access to their **Contacts** or **GPS** location.

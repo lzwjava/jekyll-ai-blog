@@ -193,7 +193,7 @@ So internally, they accept:
 
 You’re already thinking in the right abstraction:
 
-### Use this decision rule:
+### Use this decision rule
 
 | Task type            | Tool          |
 | -------------------- | ------------- |

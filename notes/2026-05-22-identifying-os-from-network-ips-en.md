@@ -35,6 +35,7 @@ Yes, but with some limitations. From just the IP addresses, you **cannot directl
      ```bash
      nmap -O 192.168.1.18
      ```
+
    * `-O` attempts OS detection based on network stack behavior. Accuracy is not perfect, especially for firewalled devices.
 
 3. **Service Fingerprinting**
@@ -44,6 +45,7 @@ Yes, but with some limitations. From just the IP addresses, you **cannot directl
      ```bash
      nmap -sV 192.168.1.18
      ```
+
    * Example: an SSH banner like `OpenSSH_9.1p1 Debian` clearly indicates Linux.
 
 4. **Limitations**

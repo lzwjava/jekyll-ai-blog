@@ -17,6 +17,7 @@ Answer:
 “编程智慧”（The wisdom of programming）是指引导高效 Software Development 的永恒原则、哲学和 Best Practices。这些见解是从先驱者和从业者数十年的经验中提炼出来的，强调清晰度、Maintainability、简洁性以及实用性，而非一味追求奇巧或复杂。
 
 ### Core Philosophies
+
 有两个基础框架涵盖了大部分此类智慧：
 
 - **Unix Philosophy**：由 Ken Thompson、Doug McIlroy 等人在 20 世纪 70 年代发起。它提倡极简主义、Modular 设计：
@@ -39,6 +40,7 @@ Answer:
   这些准则鼓励编写易于阅读、理解和维护的代码。
 
 ### Timeless Principles and Quotes
+
 在编程文献和建议中经常出现许多反复提及的主题：
 
 - **Prioritize Readability and Maintainability**：

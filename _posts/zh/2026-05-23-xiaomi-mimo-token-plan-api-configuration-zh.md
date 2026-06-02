@@ -32,10 +32,12 @@ type: note
 **Token Plan API 密钥**（前缀 `tp-xxxxx`）——与标准的按量付费密钥不同。请从小米 MiMo API 开放平台仪表板的“订阅详情”中获取。
 
 **基础 URL：**
+
 - 国内：`https://token-plan-cn.xiaomimimo.com/v1`
 - 海外（AMS）：`https://token-plan-ams.xiaomimimo.com/v1`
 
 provider 配置如下：
+
 ```yaml
 provider: custom:xiaomi-token-plan
 base_url: https://token-plan-ams.xiaomimimo.com/v1

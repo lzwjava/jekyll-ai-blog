@@ -197,4 +197,5 @@ Below is a detailed, word-by-word breakdown of 30 common Japanese sentences used
 ---
 
 ### **Conclusion**
+
 This breakdown dissects each word (or particle) in these 30 Japanese sentences, showing how they combine to form meaningful phrases for daily use. By understanding each component—whether it’s a noun, particle, verb, or polite expression—you can better grasp Japanese sentence structure and adapt these phrases to other situations. These sentences are practical for greetings, questions, politeness, dining, and emergencies, making them essential for communication in Japanese.

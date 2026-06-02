@@ -39,6 +39,7 @@ Paul Graham's famous essay **"How to Do What You Love"** (published January 2006
   Graham suggests heuristics like "always produce" (make things constantly) to reveal what you actually enjoy versus what you think you *should* enjoy.
 
 In a later related essay ("When To Do What You Love", September 2024), Graham adds nuance:
+
 - If you want to do truly great work, prioritize what interests you most—ambitious curiosity is hard to fake.
 - But timing matters. Sometimes you need money, stability, or experience first before fully following your strongest interests.
 - Especially when young, leaning toward interesting things is usually the better default.

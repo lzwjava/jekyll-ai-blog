@@ -52,9 +52,10 @@ npm run watch      # 或：增量开发模式
 ```
 
 **或者跳过原生工具检查**（如果只需要TypeScript编译，不需要完整的Electron构建）：
+
 ```
 set VSCODE_SKIP_NODE_VERSION_CHECK=1
 npm install
 ```
 
-官方完整指南位于Wiki：https://github.com/microsoft/vscode/wiki/How-to-Contribute — 但上述4个工具（Node、npm、Python、VS Build Tools）是必需品。主构建不需要单独的Java、Rust或Go。
+官方完整指南位于Wiki：<https://github.com/microsoft/vscode/wiki/How-to-Contribute> — 但上述4个工具（Node、npm、Python、VS Build Tools）是必需品。主构建不需要单独的Java、Rust或Go。

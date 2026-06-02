@@ -17,6 +17,7 @@ Muon优化器是一种专为神经网络线性层（如全连接层或嵌入层�
 Muon的突出优势在于令牌效率：相较于AdamW等一阶优化器，它以更少的训练令牌量即可达到相当性能，这对LLM预训练等计算密集型任务极具价值。该算法旨在以低于传统二阶方法（如牛顿法）的计算成本实现近似效果，重点通过高秩矩阵更新实现特征值自适应。在大规模模型的梯度噪声环境中，Muon基于自然梯度和矩阵平方根思想的预条件技术展现出独特优势。
 
 #### 核心原理与推导
+
 - **基本理念**：Muon植根于几何优化理论，使参数更新适应损失函数的"能量景观"。它采用基于费雪信息矩阵（或其近似）的预条件器对梯度进行缩放，思路类似AdaGrad或Shampoo但针对稠密线性层优化[1][2]。
 - **算法步骤**：
   1. **梯度计算**：计算线性层权重\(W\)的标准梯度\(\nabla W\)
@@ -26,6 +27,7 @@ Muon的突出优势在于令牌效率：相较于AdamW等一阶优化器，它�
 - **效率提升**：在NanoGPT等基准测试中，Muon可将训练步数减少20-50%[1]
 
 #### 优势与局限
+
 - **优势**：
   - **线性层收敛优势**：在LLM典型的高维稠密空间中表现卓越，以更少令牌实现更低损失[4][6]
   - **资源高效**：所需梯度计算量减少，单轮训练速度更快
@@ -39,7 +41,8 @@ Muon的突出优势在于令牌效率：相较于AdamW等一阶优化器，它�
 Muon已影响AI优化领域发展，出现在Scion基准测试和Reddit/X平台讨论中，常因其"几何直观性"受赞誉。完整推导请参阅Jeremy Bernstein的技术博客[2]。下面我们来看具体实现方案。
 
 ### 代码实例：PyTorch实现Muon优化器
-以下是根据官方仓库（https://github.com/KellerJordan/Muon）改编的基础Muon优化器PyTorch实现，这是针对稠密线性层的简化版本，包含预条件器的Newton-Schulz迭代。
+
+以下是根据官方仓库（<https://github.com/KellerJordan/Muon）改编的基础Muon优化器PyTorch实现，这是针对稠密线性层的简化版本，包含预条件器的Newton-Schulz迭代。>
 
 ```python
 import torch
@@ -107,6 +110,7 @@ for epoch in range(10):
 ```
 
 **代码说明**：
+
 - 此为精简实现，完整GitHub仓库包含高效CUDA内核（如加速矩阵乘法的Flash-Muon）[3][4]
 - Keras/TensorFlow用户可使用`from keras.optimizers import Muon; opt = Muon(learning_rate=0.01)`[8]
 - 调优超参数（如`lr_b=2e-3`）至关重要，建议根据模型实验调整。Kimi K2使用的MuonClip未公开代码，但其在注意力前向传播中增加了裁剪逻辑[2][5]
@@ -114,11 +118,11 @@ for epoch in range(10):
 如需扩展实现或基准测试资料，欢迎进一步交流！
 
 参考文献：
-[1] https://kellerjordan.github.io/posts/muon/
-[2] https://jeremybernste.in/writing/deriving-muon
-[3] https://github.com/KellerJordan/Muon
-[4] https://github.com/nil0x9/flash-muon
-[5] https://www.lakernewhouse.com/writing/muon-2
-[6] https://medium.com/@kyeg/building-the-muon-optimizer-in-pytorch-a-geometric-approach-to-neural-network-optimization-17f4601be548
-[7] https://discuss.huggingface.co/t/tutorial-understanding-and-implementing-the-muon-optimizer/167717
-[8] https://keras.io/api/optimizers/muon/
+[1] <https://kellerjordan.github.io/posts/muon/>
+[2] <https://jeremybernste.in/writing/deriving-muon>
+[3] <https://github.com/KellerJordan/Muon>
+[4] <https://github.com/nil0x9/flash-muon>
+[5] <https://www.lakernewhouse.com/writing/muon-2>
+[6] <https://medium.com/@kyeg/building-the-muon-optimizer-in-pytorch-a-geometric-approach-to-neural-network-optimization-17f4601be548>
+[7] <https://discuss.huggingface.co/t/tutorial-understanding-and-implementing-the-muon-optimizer/167717>
+[8] <https://keras.io/api/optimizers/muon/>

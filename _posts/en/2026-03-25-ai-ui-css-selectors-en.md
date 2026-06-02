@@ -20,12 +20,14 @@ Yes, **copying the CSS selector is usually sufficient** and often better than co
 ## Why CSS Selector > Full HTML for AI Prompts
 
 ### Problems with copying full HTML
+
 - Includes deeply nested children, grandchildren, and irrelevant siblings
 - Bloats the prompt, pushing the actual problem description past the model's focus window
 - Exposes irrelevant structure that can confuse the model's fix
 - May include dynamic/generated class names that don't help
 
 ### Benefits of copying the selector
+
 - Pinpoints the **exact element** the AI needs to target
 - Keeps the prompt short and focused
 - The AI (Copilot/Claude) already understands DOM structure — it just needs a reference point
@@ -36,17 +38,21 @@ Yes, **copying the CSS selector is usually sufficient** and often better than co
 ## How to Copy a Selector from DevTools Console
 
 ### Method 1 — Right-click in Elements panel
+
 1. Open DevTools → **Elements** tab
 2. Right-click the element → **Copy** → **Copy selector**
 
 ### Method 2 — Console query
+
 ```js
 // Verify the selector works before pasting
 document.querySelector('your-selector-here')
 ```
 
 ### Method 3 — Copy JS path
+
 Right-click element → **Copy** → **Copy JS path** — gives you something like:
+
 ```js
 document.querySelector("#app > div.header > button.submit-btn")
 ```

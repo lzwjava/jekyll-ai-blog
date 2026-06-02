@@ -34,6 +34,7 @@ DigitalOcean's GPU droplets are more expensive and less flexible for ML workload
 Here is a practical breakdown of the three levels of nanoGPT experiments, calculated against RunPod's RTX 4090 at ~$0.39/hr:
 
 ### Level 1 — Baby Shakespeare Model (Character-level, ~10M params)
+
 **Cost: < $0.05 | Time: ~3–5 minutes**
 
 The fastest way to get started is training a character-level GPT on the works of Shakespeare. On one A100 GPU this training run takes about **3 minutes** and achieves a best validation loss of 1.4697. On an RTX 4090 this is similarly fast, costing essentially nothing. You get a model that generates semi-coherent Shakespearean text.
@@ -43,6 +44,7 @@ This is free to run dozens of times. Great for learning and experimentation.
 ---
 
 ### Level 2 — GPT-2 Small (124M params) on OpenWebText / FineWeb
+
 **Cost: ~$3–$5 per full run | Time: ~2–8 hours on 1x RTX 4090**
 
 A community experiment showed single-GPU, from-scratch GPT-2-style training to a validation loss of 3.286 in about **115 minutes** on a single RTX 4090.
@@ -54,6 +56,7 @@ At $0.39/hr × 16 hours = **~$6.24 per full run**. With your $735 budget, you co
 ---
 
 ### Level 3 — GPT-2 Medium/Large (350M–774M params)
+
 **Cost: ~$30–$80 per run | Time: several days on 1x RTX 4090**
 
 For the full default nanoGPT config with 600,000 iterations on a single RTX 4090, total training time would be roughly **35 days**, compared to ~4 days using 8x A100 GPUs with distributed training.

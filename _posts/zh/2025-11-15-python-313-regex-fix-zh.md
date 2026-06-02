@@ -63,13 +63,15 @@ ExtLinkBracketedRegex = re.compile(
 
 ### 替代解决方案
 
-1.  使用 Python 3.11 或 3.12（如果不想打补丁，这是最简单的方法）
+1. 使用 Python 3.11 或 3.12（如果不想打补丁，这是最简单的方法）
+
     ```bash
     python3.11 -m pip install wikiextractor
     # 然后使用 python3.11 wikiextractor ... 运行
     ```
 
-2.  使用已修复 Python 3.13 兼容性的维护分支：
+2. 使用已修复 Python 3.13 兼容性的维护分支：
+
     ```bash
     pip uninstall wikiextractor
     pip install git+https://github.com/attardi/wikiextractor.git
@@ -77,7 +79,8 @@ ExtLinkBracketedRegex = re.compile(
 
     Giuseppe Attardi 的分支已经更新以支持 Python 3.12+，并且在 3.13 上运行良好。
 
-3.  使用非常快速的现代替代方案（对于大型转储文件高度推荐）：
+3. 使用非常快速的现代替代方案（对于大型转储文件高度推荐）：
+
     ```bash
     pip install wikiextractor-ng   # 或者 "wiki-dump-tools", "wikitextprocessor" 等
     ```

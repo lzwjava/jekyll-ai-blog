@@ -18,6 +18,7 @@ To directly address your observation: DeepSeek v3.2 did announce a significant p
 - **Off-Peak Discounts:** DeepSeek offers additional discounts during off-peak hours (16:30–00:30 UTC), which can further reduce costs if your usage aligns with these times ue202turn0search2.
 
 **Why you didn’t see an immediate 50% cost drop:**
+
 - The price drop may not have been applied uniformly across all token types or usage scenarios.
 - Your task’s specific token distribution (input/output, cache hit/miss) may not align with the advertised price reduction.
 - There can be a delay between the announcement and the price change being reflected in all billing systems or APIs.
@@ -25,5 +26,5 @@ To directly address your observation: DeepSeek v3.2 did announce a significant p
 In summary, while DeepSeek v3.2’s price drop is real and substantial, the actual cost savings depend on your usage pattern and may not match the headline percentage exactly ue202turn0search1,[1],[2].
 
 Citations:
-[1] https://x.com/deepseek_ai
-[2] https://www.facebook.com/groups/developerkaki/posts/2615893198756577/
+[1] <https://x.com/deepseek_ai>
+[2] <https://www.facebook.com/groups/developerkaki/posts/2615893198756577/>

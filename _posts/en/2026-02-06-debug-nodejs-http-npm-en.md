@@ -28,6 +28,7 @@ NODE_DEBUG=http,https node your-script.js
 ```
 
 This shows you:
+
 - Socket connections and reuse
 - Request headers being sent
 - Response status codes
@@ -35,6 +36,7 @@ This shows you:
 - Internal state transitions
 
 **Example output** includes details like:
+
 ```
 HTTP 12345: call onSocket 0 0
 HTTP 12345: createConnection localhost:3000 {...}
@@ -57,6 +59,7 @@ npm install
 ```
 
 **Alternative using npm debug flag:**
+
 ```bash
 npm install --verbose
 # or
@@ -65,11 +68,13 @@ npm install -dd # even more verbose
 ```
 
 **To see actual HTTP traffic including headers**, combine with NODE_DEBUG:
+
 ```bash
 NODE_DEBUG=http,https npm install --loglevel silly
 ```
 
 This will show you:
+
 - Registry URLs being contacted
 - Request/response headers
 - TLS/SSL handshakes
@@ -77,11 +82,13 @@ This will show you:
 - Cache operations
 
 **Tip**: Pipe to a file if the output is overwhelming:
+
 ```bash
 NODE_DEBUG=http,https npm install --loglevel silly 2>&1 | tee npm-debug.log
 ```
 
 You can reset npm logging back to normal with:
+
 ```bash
 npm config set loglevel warn
 ```

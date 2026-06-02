@@ -25,7 +25,7 @@ This is a **warning from the Java Virtual Machine (JVM)**, not directly from you
 
 You can't directly "remove" it by changing your code, as the usage is within a third-party library (Guice). Here's what you can do, listed in order of preference:
 
-1.  **Upgrade Guice (Most Recommended):**
+1. **Upgrade Guice (Most Recommended):**
     The best and most sustainable solution is to upgrade to a newer version of Guice that no longer uses `sun.misc.Unsafe` or has migrated to the standard Java APIs like `VarHandle` (introduced in JDK 9) or the Foreign Function & Memory API (JEP 454, standard in JDK 22).
 
     Looking at the version `guice-5.1.0-classes.jar`, it seems you're using Guice 5.1.0. Check the official Guice releases and their documentation for updates that specifically address `sun.misc.Unsafe` usage on newer Java versions. Often, library maintainers are aware of these deprecations and provide updated versions.
@@ -43,7 +43,7 @@ You can't directly "remove" it by changing your code, as the usage is within a t
 
     You might need to include `guice-assistedinject` or other Guice modules if your project uses them.
 
-2.  **Suppress the Warning (Temporary Workaround - Not Recommended Long-Term):**
+2. **Suppress the Warning (Temporary Workaround - Not Recommended Long-Term):**
     While you shouldn't rely on this long-term, you can suppress the warning at runtime if it's purely cosmetic and doesn't hinder your application's functionality *for now*. This is done via JVM command-line arguments.
 
     For JDK 24 (your current target is 21, but this is a good to know as Java progresses), the default is `warn`. To suppress it, you can explicitly set it to `allow`:
@@ -69,7 +69,7 @@ You can't directly "remove" it by changing your code, as the usage is within a t
 
     **However, this is a temporary fix.** This flag simply tells the JVM to allow the use of `sun.misc.Unsafe` methods without printing the warning. It *does not* solve the underlying problem that `sun.misc.Unsafe` will eventually be removed, and your application might break in future JDK versions.
 
-3.  **Report to Guice Maintainers (Already Suggested by the Warning):**
+3. **Report to Guice Maintainers (Already Suggested by the Warning):**
     The warning itself suggests "Please consider reporting this to the maintainers of class `com.google.inject.internal.aop.HiddenClassDefiner`." While you're using a specific version, if you can confirm this issue persists in the latest Guice versions (which it likely shouldn't, as they tend to address these), reporting it would be beneficial for the community.
 
 **In summary, the best course of action is to upgrade your Guice dependency.** The `sun.misc.Unsafe` API is a moving target, and libraries need to adapt to the newer, safer, and officially supported APIs provided by Java.

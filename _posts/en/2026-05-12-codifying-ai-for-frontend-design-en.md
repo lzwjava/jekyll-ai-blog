@@ -20,12 +20,14 @@ Question: As a frontend developer with ~2 years of Vue/Angular experience, is it
 You're right. Here's why, with precision:
 
 **Code has objective quality signals:**
+
 - Cyclomatic complexity (measurable)
 - Coupling/cohesion (measurable)
 - Test coverage (measurable)
 - Runtime performance (measurable)
 
 **Design quality signals are semi-subjective or context-dependent:**
+
 - While interfaces, devices and interaction models are constantly evolving, the core principles of UX design remain the same — but applying them correctly depends heavily on who your users are and what context they're in.
 - Even objective-sounding laws like Fitts's Law (target acquisition time is a function of distance and size) or Hick's Law (decision time increases with number of choices) require judgment about *which* tradeoff to make in a specific situation.
 
@@ -64,27 +66,34 @@ The real problem is **how you prompt**, not just which skill you use:
 Given your Vue/Angular background, here's what actually works:
 
 ### 1. Give AI a Design System Constraint
+
 Instead of: *"build me a dashboard"*
 Say: *"build me a dashboard using these constraints: 4px spacing unit, max 3 actions visible at once, all interactive elements min 44px touch target, primary action always bottom-right, error states always red-bordered with inline message"*
 
 AI performs much better when you reduce its design freedom to match real constraints.
 
 ### 2. Feed It the Laws of UX Explicitly
+
 Paste specific heuristics into your prompt:
+
 - "Apply Fitts's Law — primary CTA must be large and close to where the user's eye is likely to be"
 - "Apply Miller's Law — show no more than 7 items in any list without pagination"
 - "Apply Jakob's Law — follow standard e-commerce conventions, don't invent new patterns"
 
 ### 3. Use Tailwind + shadcn/ui as Your Baseline
+
 You mentioned Tailwind — it's worth trying. The real power comes from **shadcn/ui** (component library built on Radix UI + Tailwind). It gives AI a constrained, accessible, well-structured component vocabulary. AI that "knows" shadcn/ui generates far more consistent, interaction-correct output than AI designing from scratch.
 
 ### 4. Separate Design Phase from Build Phase
+
 Don't ask AI to design and build simultaneously. Instead:
+
 - Step 1: Ask AI to describe the interaction model in words (what happens on hover, click, error, empty state, loading)
 - Step 2: Review and correct that description
 - Step 3: Ask AI to implement *that specific description*
 
 ### 5. Reference Real Products in Prompts
+
 *"The interaction should feel like Notion's sidebar — collapsible, drag-reorderable, keyboard navigable"* gives AI a concrete behavioral target instead of making it guess.
 
 ---

@@ -40,10 +40,13 @@ In short: **people came to buy Jensen's GPU. Not because he marketed it. Because
 ## 3. The 5 Compounding Advantages of Being Early
 
 ### A. **Economic / Commercial Advantage**
+
 The most obvious. You build infrastructure, tools, skills, and products when the cost is low. When demand explodes, you are the supplier, not the buyer. Nvidia didn't chase the AI wave — the AI wave crashed into Nvidia's already-built harbor.
 
 ### B. **Reputational Authority ("The Teacher Effect")**
+
 When the world finally wakes up and scrambles to learn, they turn to the people who were early. You become:
+
 - The expert people ask questions to
 - The person companies hire first
 - The speaker invited on stage
@@ -52,7 +55,9 @@ When the world finally wakes up and scrambles to learn, they turn to the people 
 This is exactly what happened to early AI engineers in finance and tech. When their banks or employers suddenly cared about LLMs in 2023–2024, the person who had trained nanoGPT months earlier became the **internal oracle** — the go-to person.
 
 ### C. **Curiosity and Vision Recognition**
+
 The world doesn't just respect your technical skill — it respects your *judgment*. Being early signals that you:
+
 - Think independently (not follower mentality)
 - Have high signal-to-noise ratio in filtering what matters
 - Are intellectually courageous enough to invest time in something unproven
@@ -60,9 +65,11 @@ The world doesn't just respect your technical skill — it respects your *judgme
 This is a form of social and professional capital that compounds over time.
 
 ### D. **Network Access**
+
 Early movers attract other early movers. In 2016–2019, the small community of serious AI practitioners knew each other. They built friendships, collaborations, and companies together. By the time the world arrived, these networks were already deeply established and extremely valuable.
 
 ### E. **Depth vs. Surface Knowledge**
+
 The early person has *real* knowledge — built through struggle, failure, and iteration. The late-comer has surface knowledge — built through YouTube tutorials and hype articles. In a world where everyone suddenly claims AI expertise, genuine depth is a massive differentiator.
 
 ---
@@ -89,6 +96,7 @@ Jensen Huang himself, at Davos 2026, urged countries and industries: "Get in ear
 ## 6. The Key Lesson
 
 Being early is not just about timing. It is about:
+
 1. **Trusting your curiosity** over social validation
 2. **Doing the work** when no one is watching or rewarding you yet
 3. **Staying consistent** long enough for the world to catch up to where you already are

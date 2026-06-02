@@ -12,7 +12,7 @@ type: note
 
 你说的没错，典型的模式——年轻时出国留学，然后过渡到工作——随着年龄增长和家庭责任的增加，变得困难得多。让我分析一下原因以及存在哪些替代方案：
 
-## Why it's harder at 30s-40s:
+## Why it's harder at 30s-40s
 
 **Visa/immigration barriers** —— 大多数国家更青睐年轻的毕业生。家庭签证复杂且昂贵。你需要有经济能力抚养受抚养人（dependents）。
 
@@ -24,14 +24,14 @@ type: note
 
 **Risk tolerance** —— 有了受抚养人，失败的代价比 22 岁的单身人士要高得多。
 
-## China-specific factors:
+## China-specific factors
 
 - **Hukou system** —— 失去城市居民福利（医疗保健、教育资源）的代价很高。
 - **Property market** —— 房地产代表了家庭的主要财富，且难以变现。
 - **Elderly care expectations** —— 照顾年迈父母的强烈文化义务。
 - **Career advancement** —— 许多人终于在国内达到了高级职位（senior positions）。
 
-## Paths that can work:
+## Paths that can work
 
 **Intra-company transfers** —— 跨国公司（Multinational companies）通常会提供签证担保、搬迁包（relocation packages）和家庭支持来促进派驻。
 

@@ -15,16 +15,20 @@ I'll search for the current requirements of Hong Kong's Admission Scheme for Mai
 ## Applicant Requirements
 
 **Educational Background & Qualifications:**
+
 - A bachelor's degree or higher, or relevant technical qualifications, professional expertise, or proven professional experience
 
 **Employment Status:**
+
 - Must have secured a job relevant to their academic qualifications or work experience that cannot be readily taken up by the local workforce
 - The position must demonstrate genuine need and not be easily fillable by local Hong Kong residents
 
 **Remuneration:**
+
 - Salary and benefits package must be commensurate with the prevailing market rate for professionals in the relevant field in Hong Kong
 
 **Personal Eligibility:**
+
 - Must be a Chinese resident of Mainland China
 - Must have no security objection and no known record of serious crime
 - Good character with clean criminal record
@@ -36,6 +40,7 @@ I'll search for the current requirements of Hong Kong's Admission Scheme for Mai
 ## Streamlined Processing
 
 Applications may receive faster processing if either:
+
 - The position is on the Talent List of shortage occupations, or the annual salary package is HK$2 million or above (in these cases, employers are exempted from proving local recruitment difficulties)
 
 ## Stay Duration

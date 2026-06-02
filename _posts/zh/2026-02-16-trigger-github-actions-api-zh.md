@@ -25,6 +25,7 @@ type: note
 **Workflow 文件要求** (.github/workflows/my-workflow.yml):
 
 {% raw %}
+
 ```yaml
 on:
   workflow_dispatch:
@@ -43,6 +44,7 @@ jobs:
     steps:
       - run: echo "Deploying to ${{ inputs.environment }} version ${{ inputs.version || 'latest' }}"
 ```
+
 {% endraw %}
 
 **API Endpoint**

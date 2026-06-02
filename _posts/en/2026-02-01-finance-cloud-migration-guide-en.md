@@ -19,6 +19,7 @@ Migrating an on-premise finance platform (handling financial data processing, im
 Here is a realistic, phased migration approach, often following Google's recommended strategies: **rehost** (lift-and-shift), **replatform** (lift-and-optimize), or **refactor** (cloud-native modernization). For a banking/finance system, a hybrid of replatform + refactor is common to balance speed, cost, and long-term benefits.
 
 ### 1. Assessment and Planning Phase
+
 - Inventory all components: applications, databases, batch jobs (Control-M), integrations/APIs, secrets (Vault), and dependencies.
 - Classify workloads: which can be lifted-and-shifted vs. which benefit from GCP managed services.
 - Use **Migration Center** or **Database Migration Service (DMS)** assessments in GCP.
@@ -26,6 +27,7 @@ Here is a realistic, phased migration approach, often following Google's recomme
 - Engage GCP migration specialists or partners for compliance-heavy finance migrations.
 
 ### 2. Database Migration (IBM Db2 → GCP)
+
 IBM Db2 is not natively managed in GCP like Cloud SQL. Options include:
 
 - **Preferred modernization path**: Migrate to **Cloud SQL for PostgreSQL** or **AlloyDB for PostgreSQL** (AlloyDB offers higher performance/scale for analytical workloads common in finance).
@@ -43,6 +45,7 @@ IBM Db2 is not natively managed in GCP like Cloud SQL. Options include:
 - **Analytics side**: Export historical data to **BigQuery** for reporting/ML (using tools like bigquery-zos-mainframe-connector if mainframe elements exist).
 
 ### 3. Application Migration (Java Spring + Angular + Python)
+
 - **Backend (Java Spring + WebSphere)**:
   - Deploy to **Cloud Run** (serverless, easy for Spring Boot) or **Google Kubernetes Engine (GKE)** (for complex stateful apps).
   - Use **Spring Cloud GCP** libraries to integrate with GCP services (e.g., Secret Manager instead of Vault, Cloud SQL connectors).
@@ -66,11 +69,13 @@ IBM Db2 is not natively managed in GCP like Cloud SQL. Options include:
   - Replace/extend Ansible with **Terraform** or **Deployment Manager**.
 
 ### 4. Overall Migration Strategies
+
 - **Lift-and-shift (fastest)**: Move apps to Compute Engine VMs, Db2 to VM, minimal changes — good for compliance validation first.
 - **Replatform (recommended)**: Containerize Spring apps (Docker), deploy to GKE/Cloud Run, migrate Db2 to Cloud SQL/AlloyDB.
 - **Refactor (long-term best)**: Fully leverage serverless (Cloud Run), managed DBs, and BigQuery for analytics.
 
 ### 5. Key Considerations for Finance Platforms
+
 - Compliance & Security: Use **Assured Workloads** for regulated industries, enable audit logging (Cloud Audit Logs), encryption at rest/transit.
 - High Availability: Multi-region setups, read replicas in Cloud SQL/AlloyDB.
 - Testing: Parallel run (on-prem + GCP), UAT in GCP, validate workflows end-to-end.
@@ -78,6 +83,7 @@ IBM Db2 is not natively managed in GCP like Cloud SQL. Options include:
 - Phased rollout: Migrate non-critical modules first (e.g., reporting), then core ledger/submission.
 
 ### 6. Tools and Best Practices
+
 - GCP native: **Database Migration Service** (limited for Db2 → PostgreSQL; use for validation), **Transfer Service** for data.
 - Third-party: Striim (CDC), Ispirer (schema), or custom Python pipelines.
 - Follow Google's migration docs: Assess → Plan → Migrate → Optimize.

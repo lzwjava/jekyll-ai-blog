@@ -13,6 +13,7 @@ The issue you're facing is related to how Markdown (kramdown) processes the cont
 Here are a few solutions to fix this:
 
 ### Solution 1: Escape the backslashes
+
 You can escape each backslash with another backslash:
 
 ```latex
@@ -20,6 +21,7 @@ $A - I = \begin{pmatrix} 1 & -3 & 0 \\\ 2 & 1 & 0 \\\ 0 & 0 & 2 \end{pmatrix} - 
 ```
 
 ### Solution 2: Use `\\` inside math blocks
+
 For display math (not inline), use `$$` or `\\\[ \\\]`:
 
 ```latex
@@ -29,6 +31,7 @@ $$
 ```
 
 ### Solution 3: Use HTML tags to prevent Markdown processing
+
 Wrap your math in HTML `div` tags to prevent Markdown processing:
 
 ```html
@@ -40,6 +43,7 @@ $$
 ```
 
 ### Solution 4: Modify your kramdown configuration
+
 Add this to your `_config.yml` to prevent kramdown from processing math blocks:
 
 ```yaml

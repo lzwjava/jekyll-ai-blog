@@ -108,7 +108,6 @@ This Python script scans a local network for active IP addresses. It uses the `p
 
 This script helps identify devices on the network, such as a TP-LINK mesh router operating in wired bridge mode, by scanning for active IP addresses.
 
-
 ```python
 import subprocess
 import ipaddress
@@ -332,7 +331,6 @@ modem -> 4m wireless -> TP-Link AX3000 (wireless bridge mode) -> 2m wireless -> 
 
 The network quality is good.
 
-
 ### Troubleshooting Tips
 
 There isn't a single solution to improve Wi-Fi speed. A good approach is to use a cable to test each part of your network to identify bottlenecks. Compare speeds when using a wired connection versus Wi-Fi. Also, try connecting devices directly with a cable to see if that improves performance.
@@ -349,8 +347,8 @@ It's recommended to connect to the router via an ethernet cable. After a reset, 
 
 You can reset OpenWrt to its default settings using the command line interface (SSH). Here's how:
 
-1.  Connect to your OpenWrt router via SSH.
-2.  Run the following command:
+1. Connect to your OpenWrt router via SSH.
+2. Run the following command:
 
     ```bash
     root@OpenWrt:~# firstboot
@@ -359,9 +357,10 @@ You can reset OpenWrt to its default settings using the command line interface (
     /dev/ubi0_1 is mounted as /overlay, only erasing files
     root@OpenWrt:~# reboot
     ```
-3.  The router will reboot with default settings.
+
+3. The router will reboot with default settings.
 
 **Explanation of the commands:**
 
-*   `firstboot`: This command initiates the reset process, erasing all configurations and installed packages.
-*   `reboot`: This command restarts the router, applying the reset.
+- `firstboot`: This command initiates the reset process, erasing all configurations and installed packages.
+- `reboot`: This command restarts the router, applying the reset.

@@ -26,6 +26,7 @@ A **Curriculum Vitae** (often abbreviated as **CV**) is a document that provides
 | **When it changes** | Updated with every new accomplishment | Customized for each job application   |
 
 ### Typical sections in a CV
+
 - Personal/contact information
 - Education (degrees, institutions, dates, thesis titles)
 - Professional experience / appointments
@@ -38,6 +39,7 @@ A **Curriculum Vitae** (often abbreviated as **CV**) is a document that provides
 - References (often included or “available upon request”)
 
 In the United States and Canada, a CV is mainly used when applying for:
+
 - Academic positions (professors, researchers)
 - Research or scientific jobs
 - Fellowships, grants, or postdoctoral positions

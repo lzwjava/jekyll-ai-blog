@@ -17,6 +17,7 @@ Answer:
 These are three different but complementary security mechanisms used in Kubernetes environments, especially when Istio is involved. Here's a clear breakdown:
 
 ### 1. **Kubernetes NetworkPolicy** (L3/L4 network-level access control)
+
 - **Layer**: Operates at OSI Layer 3 (IP) and Layer 4 (TCP/UDP ports).
 - **Scope**: Controls pod-to-pod traffic at the network level.
 - **Enforced by**: Kubernetes CNI plugins (e.g., Calico, Cilium, Weave, etc.). Istio does **not** enforce or replace NetworkPolicy.
@@ -30,12 +31,14 @@ These are three different but complementary security mechanisms used in Kubernet
   - Cannot enforce encryption (mTLS).
 
 ### 2. **Istio AuthorizationPolicy** (L7/application-level authorization + identity-aware)
+
 - **Layer**: OSI Layer 7 (HTTP, gRPC, etc.).
 - **Scope**: Controls access inside the Istio service mesh (traffic that goes through Envoy sidecar proxies).
 - **Enforced by**: Istio's Envoy sidecar proxies.
 - **What it can do**:
   - Authorization based on JWT claims, source identity (SPIFFE), headers, paths, methods, etc.
   - Very fine-grained rules:
+
     ```yaml
     apiVersion: security.istio.io/v1beta1
     kind: AuthorizationPolicy
@@ -59,10 +62,12 @@ These are three different but complementary security mechanisms used in Kubernet
         - key: request.headers[authorization]
           values: ["Bearer valid-token-*"]
     ```
+
 - **Key advantage**: Identity-based (uses mTLS-provided identities), works with JWT, supports DENY policies, condition-based rules.
 - Works **only** on traffic that passes through Istio proxies (i.e., inside the mesh).
 
 ### 3. **mTLS (mutual TLS) in Istio**
+
 - **Purpose**: Provides encryption + strong service identity.
 - **How it works in Istio**:
   - Istio automatically provisions X.509 certificates to every workload via istiod.

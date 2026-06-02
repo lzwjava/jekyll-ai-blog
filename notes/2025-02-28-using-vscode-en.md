@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Key Points
+
 - VS Code is a popular, free code editor for Windows, macOS, and Linux, supporting many programming languages.
 - It seems likely that its most useful features include syntax highlighting, debugging, and Git integration, based on developer usage.
 - The evidence leans toward over 30 built-in features enhancing productivity, like multi-cursor editing and remote development.
@@ -16,9 +17,11 @@ type: note
 ---
 
 ### Getting Started with VS Code
+
 Visual Studio Code (VS Code) is a lightweight, open-source code editor developed by Microsoft, ideal for coding across Windows, macOS, and Linux. To begin, download it from the official site [here](https://code.visualstudio.com/download). Once installed, launch VS Code to start coding.
 
 #### Basic Usage
+
 - **Create or Open Files**: Use `File > New File` (or `Ctrl + N` on Windows/Linux, `Cmd + N` on macOS) for new files, and `File > Open` (or `Ctrl + O`, `Cmd + O`) for existing ones. Save with `Ctrl + S` or `Cmd + S`.
 - **Editing Code**: Enjoy features like syntax highlighting, auto-indentation, and bracket matching for better readability. Use code snippets for quick insertions and multi-cursor editing (`Alt + Click`) for simultaneous edits.
 - **Navigation**: Jump to definitions with `Ctrl + Click`, find references via right-click, and use `Ctrl + P` for quick file access. Breadcrumbs at the top help navigate file paths.
@@ -26,6 +29,7 @@ Visual Studio Code (VS Code) is a lightweight, open-source code editor developed
 - **Customization**: Change themes via `File > Preferences > Color Theme` and tweak shortcuts under `File > Preferences > Keyboard Shortcuts`.
 
 #### 30 Most Useful Features
+
 VS Code offers a rich set of built-in features, enhancing productivity for developers. Here are 30 of the most useful, categorized for clarity:
 
 | **Category**        | **Feature**                          | **Description**                                                                 |
@@ -66,12 +70,15 @@ For detailed exploration, visit the official documentation [here](https://code.v
 ---
 
 ### Comprehensive Guide to Using VS Code and Its Features
+
 This section provides an in-depth look at using Visual Studio Code (VS Code), a versatile code editor by Microsoft, and details its 30 most useful built-in features, based on extensive research into developer preferences and official documentation as of February 27, 2025. VS Code, available for Windows, macOS, and Linux, supports a wide array of programming languages and is known for its extensibility and performance, with over 73.6% of developers using it according to the 2024 Stack Overflow Developer Survey.
 
 #### Installation and Initial Setup
+
 To get started, download VS Code from the official website [here](https://code.visualstudio.com/download). Installation is straightforward, supporting multiple platforms, ensuring accessibility for all users. Upon launching, users are greeted with a Welcome page offering actions like opening a folder or creating a new file. For workspace trust, especially with downloaded code, review it for safety, as detailed in the documentation [here](https://code.visualstudio.com/docs/getstarted/getting-started).
 
 #### Step-by-Step Usage Guide
+
 1. **Creating and Opening Files**: Use `File > New File` or `Ctrl + N` (`Cmd + N` on macOS) for new files, and `File > Open` or `Ctrl + O` (`Cmd + O`) for existing ones. Save with `Ctrl + S` or `Cmd + S`. This is essential for starting any project, as noted in introductory videos [here](https://code.visualstudio.com/docs/introvideos/basics).
 
 2. **Basic Editing Features**: VS Code offers syntax highlighting, auto-indentation, and bracket matching out-of-the-box, enhancing readability and reducing errors. For example, typing "console.log" and pressing Tab inserts a JavaScript snippet, a feature highlighted in editing tutorials [here](https://code.visualstudio.com/docs/introvideos/codeediting).
@@ -89,6 +96,7 @@ To get started, download VS Code from the official website [here](https://code.v
 8. **Remote and Cloud Development**: Use Remote SSH for server-based development, containers for isolated environments, and Codespaces for cloud-based setups, expanding development flexibility, as noted [here](https://code.visualstudio.com/docs/remote/remote-overview).
 
 #### Detailed Feature Analysis
+
 The following table lists the 30 most useful built-in features, categorized for clarity, based on research from official documentation and developer usage patterns:
 
 | **Category**        | **Feature**                          | **Description**                                                                 |
@@ -127,6 +135,7 @@ The following table lists the 30 most useful built-in features, categorized for 
 These features were compiled from extensive research, including official documentation and developer-focused articles, ensuring they align with current usage as of 2025. For instance, the integration of Git and remote development features reflects VS Code's evolution to meet modern development needs, as seen in updates [here](https://code.visualstudio.com/updates/v1_97).
 
 #### Additional Considerations
+
 VS Code's extensibility, with over 30,000 extensions, complements these built-in features, but the focus here is on native capabilities. For example, while GitHub Copilot is popular, it's an extension, not built-in, so it's excluded. The fast startup time and efficient memory usage, noted in performance discussions [here](https://code.visualstudio.com/docs/editor/whyvscode), make it suitable for daily use, an unexpected detail for users expecting heavier IDEs.
 
 For further learning, explore introductory videos [here](https://code.visualstudio.com/docs/introvideos/basics) and tips and tricks [here](https://code.visualstudio.com/docs/getstarted/tips-and-tricks), ensuring a comprehensive understanding of VS Code's capabilities.
@@ -134,6 +143,7 @@ For further learning, explore introductory videos [here](https://code.visualstud
 ---
 
 ### Key Citations
+
 - [Official VS Code Documentation](https://code.visualstudio.com/docs/)
 - [VS Code Features Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - [VS Code Debugging Guide](https://code.visualstudio.com/docs/editor/debugging)

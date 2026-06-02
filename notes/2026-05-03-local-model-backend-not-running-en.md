@@ -17,6 +17,7 @@ Per the README:
 > A local OpenAI-compatible chat backend reachable at `http://localhost:1234/api/v1/chat`
 
 You need to start a local inference server (e.g. **LM Studio**, **Ollama**, **llama.cpp server**, **vLLM**) that:
+
 - Listens on `http://localhost:1234`
 - Has the path `/api/v1/chat` (OpenAI-compatible)
 - Serves the configured models (`qwen3.5-9b-mlx`, `openai/gpt-oss-120b`, etc.)

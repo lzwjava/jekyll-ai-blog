@@ -18,6 +18,7 @@ Standard Chartered Bank's revenue per employee is a key productivity metric, cal
 This gives a revenue per employee of about **$240,463 USD**.
 
 ### Quick Context
+
 - This is up from ~$203,000 in 2023, reflecting improved efficiency amid cost controls and revenue growth in key markets like Asia and Africa.
 - For comparison, it's competitive within global banking peers (e.g., HSBC at ~$250k, Barclays at ~$220k), though it varies by business model and geography.
 

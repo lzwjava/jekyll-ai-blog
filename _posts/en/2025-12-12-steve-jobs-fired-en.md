@@ -29,6 +29,7 @@ In short, Jobs was not literally “fired” in the sense of being terminated as
 He returned triumphantly as interim CEO (“iCEO”) in 1997 after Apple acquired NeXT and the then-CEO Gil Amelio was ousted.
 
 References:
+
 - Walter Isaacson, *Steve Jobs* (2011 biography, chapters 12–15)
-- “The Real Story of How Steve Jobs Was Fired From Apple” – Business Insider (2015 summary of board minutes and interviews) https://www.businessinsider.com/how-steve-jobs-was-fired-from-apple-2015-9
+- “The Real Story of How Steve Jobs Was Fired From Apple” – Business Insider (2015 summary of board minutes and interviews) <https://www.businessinsider.com/how-steve-jobs-was-fired-from-apple-2015-9>
 - Apple board meeting records and interviews in *Fire in the Valley* and *Infinite Loop* by Michael Malone

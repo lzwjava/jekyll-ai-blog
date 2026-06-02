@@ -20,11 +20,13 @@ Yes, exactly right. The compile-time analogy is spot on — and it compounds: ev
    - Checkpoint saves & resumes correctly
 
 2. **Print the budget at startup** — add to `train.py`:
+
    ```python
    tokens_per_step = batch_size * block_size * gradient_accumulation_steps * ddp_world_size
    print(f"tokens/step = {tokens_per_step:,}")
    print(f"total tokens = {tokens_per_step * max_iters / 1e9:.2f}B")
    ```
+
    This single line would have shown "10.00B" before commit — you'd notice "wait, I prepared 140B."
 
 3. **Use wandb** — `wandb_log = True` (you already have the project name set, just flip the flag). You can watch loss + LR + grad norm from your phone; if loss diverges at hour 3, you kill it instead of finding out at hour 48.

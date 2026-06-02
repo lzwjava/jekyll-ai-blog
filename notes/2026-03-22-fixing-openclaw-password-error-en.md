@@ -30,6 +30,7 @@ The `unauthorized` error means the endpoint is reachable, but the wrong (or miss
 If the UI prompts for auth, paste the token (or password) from your `gateway.auth` config into Control UI settings. The UI stores it in `localStorage` after you connect.
 
 Steps:
+
 1. Open the Control UI in **Chrome** (not Safari — see note below): `http://127.0.0.1:18789/`
 2. You should see a **Settings** panel or a connection prompt.
 3. Enter the password you set in `gateway.auth.password` in the password field.
@@ -98,11 +99,13 @@ As of OpenClaw 2026.3.7, if both `gateway.auth.token` and `gateway.auth.password
 Correct config examples:
 
 **Token mode:**
+
 ```json
 { "gateway": { "auth": { "mode": "token", "token": "${OPENCLAW_GATEWAY_TOKEN}" } } }
 ```
 
 **Password mode:**
+
 ```json
 { "gateway": { "auth": { "mode": "password", "password": "${OPENCLAW_GATEWAY_PASSWORD}" } } }
 ```

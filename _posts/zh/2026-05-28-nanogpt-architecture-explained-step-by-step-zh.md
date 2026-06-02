@@ -47,6 +47,7 @@ self.transformer = nn.ModuleDict(dict(
 ```
 
 前向传播：
+
 ```python
 tok_emb = self.transformer.wte(idx)           # [B, T, C]
 pos_emb = self.transformer.wpe(pos)           # [1, T, C]
@@ -128,6 +129,7 @@ class CausalSelfAttention(nn.Module):
 ```
 
 数学公式：
+
 ```
 Attention(Q, K, V) = softmax(QKᵀ / √d_k) · V
 ```
@@ -173,6 +175,7 @@ self.lm_head = nn.Linear(n_embd, vocab_size, bias=False)
 ```
 
 关键地，**权重共享**：
+
 ```python
 self.transformer.wte.weight = self.lm_head.weight
 ```
@@ -258,6 +261,7 @@ xₙ = logits
 Karpathy 对 transformer 最精辟的洞察：**“注意力是通信，MLP 是计算。”** 注意力让 token 从序列中的其他位置收集信息。MLP 则逐个 token 独立处理收集到的信息。将这些重复堆叠 N 次，就能得到一个模型，它能随着层数增加，逐步构建越来越抽象的表示。
 
 参考文献：
+
 - [nanoGPT 源码 — Karpathy](https://github.com/karpathy/nanoGPT/blob/master/model.py)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [Language Models are Unsupervised Multitask Learners (GPT-2)](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)

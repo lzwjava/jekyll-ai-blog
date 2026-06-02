@@ -10,14 +10,16 @@ type: note
 
 Let’s analyze the error you're encountering and explain what’s happening with your code:
 
-### Error:
+### Error
+
 ```
 Error creating snapshot for server sg5: cannot perform operation because server is locked (locked, f21b9dc9d1535310)
 ```
 
 This error comes from the Hetzner Cloud API (via the `hcloud` Python SDK) and indicates that the operation to create a snapshot for the server named `sg5` failed because the server is **locked**. A locked server means that another operation (e.g., a previous snapshot, reboot, or resize) is currently in progress, and the server is temporarily restricted from accepting new operations until that process completes.
 
-### Code Breakdown:
+### Code Breakdown
+
 Here’s your script with explanations and where the error originates:
 
 ```python
@@ -79,20 +81,25 @@ for server in servers:
    - Inside the `create_snapshot()` function, the `client.servers.create_image()` call fails for server `sg5` because it’s locked. The exception message (`cannot perform operation because server is locked`) is raised by the `hcloud` library based on the API response.
 
 ### Why Is the Server Locked?
+
 A server becomes locked when an operation is already in progress. Common reasons include:
+
 - Another snapshot is being created.
 - The server is being rebooted, resized, or rebuilt.
 - A previous operation hasn’t completed yet.
 
 The lock ID (`f21b9dc9d1535310`) in the error message is a unique identifier for the ongoing action locking the server.
 
-### How to Fix It:
+### How to Fix It
+
 Here are steps to resolve the issue and improve your script:
 
 #### 1. **Check for Locked Status Before Proceeding**
+
 Modify the script to skip snapshot creation if the server is locked. You can check the server’s current actions using `client.actions.get_all()` or wait for the lock to clear.
 
 Updated `create_snapshot` function:
+
 ```python
 def create_snapshot(server):
     try:
@@ -110,7 +117,9 @@ def create_snapshot(server):
 ```
 
 #### 2. **Wait for the Lock to Clear**
+
 If you want to wait instead of skipping, you can poll the server’s actions until the lock is gone:
+
 ```python
 import time
 
@@ -133,18 +142,23 @@ def create_snapshot(server):
 ```
 
 #### 3. **Manually Investigate the Lock**
+
 - Use the Hetzner Cloud Console or API to check the status of the action with ID `f21b9dc9d1535310`.
 - Example API call (via Python):
+
   ```python
   action = client.actions.get_by_id("f21b9dc9d1535310")
   print(f"Action Status: {action.status}, Command: {action.command}")
   ```
+
 - If it’s stuck, you may need to contact Hetzner support.
 
 #### 4. **Run the Script Again**
+
 Once the server is no longer locked (action completes or you resolve it manually), rerun the script.
 
-### Additional Notes:
+### Additional Notes
+
 - **Rate Limits**: Creating snapshots for many servers in a loop might hit Hetzner’s API rate limits. Add a delay (e.g., `time.sleep(1)`) between requests if needed.
 - **Error Handling**: The current script stops at the first error. If you want it to continue for other servers, ensure the exception doesn’t halt the loop (it doesn’t in your case, which is good).
 

@@ -19,6 +19,7 @@ Xu Zhimo 出生于浙江省的一个富裕家庭，他接受的 Western educatio
 **Literary Significance**
 
 Xu Zhimo 通过以下方式开创了中国现代诗歌的先河：
+
 - 打破了古典中国诗歌的形式限制，拥抱 vernacular language（白话文）
 - 引入了西方浪漫主义理想和 free verse（自由诗）技巧
 - 以深厚的情感和优美的韵律进行创作，引起了追求文化革新的读者的共鸣

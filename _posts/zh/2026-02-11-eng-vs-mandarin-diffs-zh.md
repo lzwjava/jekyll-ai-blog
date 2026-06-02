@@ -41,11 +41,11 @@ Here is a clear side-by-side comparison of English and Chinese (focusing on Mand
 
 **对学习者来说最大的实际差异：**
 
-1.  **Tones（声调）** – 声调错误 = 完全不同的词（mā má mǎ mà = 妈 / 麻 / 马 / 骂）
-2.  **Characters（汉字）** – 你必须学习数千个符号（对比 26 个字母）
-3.  **无 Verb conjugation（动词变位）/ 时态词尾** – 看起来简单，但迫使学习者高度依赖语境和时间词
-4.  **Classifiers（量词）/ 度量词** – 你不能说 “three book”，必须说 “three CL book”（三本书）
-5.  **极高数量的 Homophones（同音词）** – 语境和汉字对于理解口语中文至关重要
+1. **Tones（声调）** – 声调错误 = 完全不同的词（mā má mǎ mà = 妈 / 麻 / 马 / 骂）
+2. **Characters（汉字）** – 你必须学习数千个符号（对比 26 个字母）
+3. **无 Verb conjugation（动词变位）/ 时态词尾** – 看起来简单，但迫使学习者高度依赖语境和时间词
+4. **Classifiers（量词）/ 度量词** – 你不能说 “three book”，必须说 “three CL book”（三本书）
+5. **极高数量的 Homophones（同音词）** – 语境和汉字对于理解口语中文至关重要
 
 **最容易的相似之处：**
 

@@ -21,9 +21,11 @@ For storing vegetables like potatoes, peppers, onions, bitter melons, and ginger
   - **Avoid Over-Chilling**: Below 2°C, vegetables like peppers and bitter melons may suffer chill damage, showing soft spots or discoloration.
 
 ### Storing Potatoes and Onions at 25°C in Guangzhou
+
 In Guangzhou’s warm (25°C) and humid climate, storing potatoes and onions without refrigeration is challenging due to accelerated spoilage and sprouting. Here’s an analysis:
 
 #### Potatoes
+
 - **Challenges**: At 25°C, potatoes are prone to sprouting or turning green (producing toxic solanine). High humidity in Guangzhou can also cause softening or rot.
 - **Storage Tips**:
   - **Environment**: Store in a cool, shaded, well-ventilated area (e.g., away from sunlight in a cupboard).
@@ -32,6 +34,7 @@ In Guangzhou’s warm (25°C) and humid climate, storing potatoes and onions wit
   - **Refrigeration Alternative**: If the environment is too humid, store in the fridge (4°C-8°C, preferably closer to 8°C) in paper bags to extend shelf life to 1-2 months, though taste may slightly sweeten.
 
 #### Onions
+
 - **Challenges**: Onions are sensitive to humidity, and at 25°C in Guangzhou’s climate, they may mold, soften, or sprout quickly.
 - **Storage Tips**:
   - **Environment**: Store in a cool, dry, well-ventilated spot, away from potatoes to avoid ethylene-induced sprouting.
@@ -40,10 +43,12 @@ In Guangzhou’s warm (25°C) and humid climate, storing potatoes and onions wit
   - **Refrigeration Alternative**: If humidity is high, refrigerate at 4°C-8°C in paper bags to extend shelf life to 1-2 months.
 
 #### Additional Tips for Guangzhou’s Climate
+
 - **Humidity Control**: Use desiccants (e.g., bamboo charcoal) in storage areas to reduce moisture, especially critical in humid conditions.
 - **Separate Storage**: Keep potatoes and onions apart to prevent spoilage.
 - **Regular Checks**: Inspect weekly for sprouting or rot, especially in humid conditions.
 - **Refrigeration Preference**: At 25°C with high humidity, refrigeration (4°C-8°C) is more reliable for longer storage, especially for onions.
 
 ### Summary
+
 Set the refrigerator’s fresh food compartment to **4°C to 6°C** for optimal storage of peppers, bitter melons, and ginger, using high-humidity crispers. For onions and potatoes, if refrigerated, use the warmer part (closer to 8°C) with breathable bags. At 25°C in Guangzhou’s humid climate, potatoes and onions can be stored for 2-4 weeks in a cool, ventilated, dry spot with paper or mesh bags, but refrigeration is recommended for longer preservation due to the high humidity. Regular checks and moisture control are key.

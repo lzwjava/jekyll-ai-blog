@@ -16,6 +16,7 @@ Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (bra
 ---
 
 ### **How Forking Works in LibreChat**
+
 1. **Manual Branching**
    - LibreChat allows you to **explicitly fork** a conversation at any point by clicking the **"Fork"** button (usually near the message you want to branch from).
    - This creates a **new conversation** that starts from the selected message, preserving all prior context up to that point.
@@ -47,6 +48,7 @@ Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (bra
 ---
 
 ### **Why LibreChat Had It Earlier**
+
 1. **Open-Source Flexibility**
    - LibreChat is built on top of APIs like OpenAI’s but adds its own **conversation management layer**.
    - Forking was a natural feature for a self-hosted chat platform where users want **full control** over conversation history.
@@ -63,6 +65,7 @@ Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (bra
 ---
 
 ### **How to Use Forking in LibreChat**
+
 1. **Fork a Conversation**:
    - Hover over a message → Click **"Fork"** (or use the conversation menu).
    - A new chat will open with all messages up to that point.
@@ -77,6 +80,7 @@ Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (bra
 ---
 
 ### **Example Workflow**
+
 1. You’re debugging a Python script with an AI.
 2. At message #5, you fork to try a **different approach**.
 3. In the original branch, you continue with Approach A.
@@ -86,18 +90,24 @@ Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (bra
 ---
 
 ### **Limitations**
+
 - **No Visual Diff**: Unlike Git branches, LibreChat doesn’t show differences between forks (yet).
 - **Storage**: Too many forks may bloat your database (clean up old branches periodically).
 
 ---
+
 ### **Under the Hood (Technical)**
+
 LibreChat’s forking relies on:
+
 - **MongoDB/PostgreSQL**: Stores conversations with `parentMessageId` references.
 - **Frontend State**: React manages active branches in the UI.
 - **API Abstraction**: Works uniformly across all AI providers (OpenAI, Anthropic, etc.).
 
 ---
+
 ### **Future Improvements (Possibly in Later Versions)**
+
 - **Auto-fork on edits** (like ChatGPT).
 - **Branch comparison** (side-by-side view).
 - **Merge functionality** (combine two branches).

@@ -13,7 +13,7 @@ type: note
 
 ---
 
-**问题：** Tri Dao在这次谈话中说了什么？(https://www.youtube.com/watch?v=xlSaoP0b90A)
+**问题：** Tri Dao在这次谈话中说了什么？(<https://www.youtube.com/watch?v=xlSaoP0b90A>)
 
 **回答：**
 

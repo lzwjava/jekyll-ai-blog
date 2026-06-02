@@ -29,14 +29,14 @@ It has six menu items:
 
  Menu Title     | Shortcut              | GitHub URL Pattern (When I'm editing LZAlbumManager.m Line 40)
 ----------------|-----------------------|----------------------------------
- Setting	    |⌃⇧⌘S |
- Repo           |⌃⇧⌘R | https://github.com/lzwjava/LZAlbum
- Issues         |⌃⇧⌘I | https://github.com/lzwjava/LZAlbum/issues
- PRs            |⌃⇧⌘P | https://github.com/lzwjava/LZAlbum/pulls
- Quick File     |⌃⇧⌘Q | https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40
- List History   |⌃⇧⌘L | https://github.com/lzwjava/LZAlbum/commits/fd7224/LZAlbum/manager/LZAlbumManager.m
- Blame          |⌃⇧⌘B | https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40
- Notifications  |⌃⇧⌘N | https://github.com/leancloud/LZAlbum/notifications?all=1
+ Setting     |⌃⇧⌘S |
+ Repo           |⌃⇧⌘R | <https://github.com/lzwjava/LZAlbum>
+ Issues         |⌃⇧⌘I | <https://github.com/lzwjava/LZAlbum/issues>
+ PRs            |⌃⇧⌘P | <https://github.com/lzwjava/LZAlbum/pulls>
+ Quick File     |⌃⇧⌘Q | <https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#L40>
+ List History   |⌃⇧⌘L | <https://github.com/lzwjava/LZAlbum/commits/fd7224/LZAlbum/manager/LZAlbumManager.m>
+ Blame          |⌃⇧⌘B | <https://github.com/lzwjava/LZAlbum/blame/fd7224/LZAlbum/manager/LZAlbumManager.m#L40>
+ Notifications  |⌃⇧⌘N | <https://github.com/leancloud/LZAlbum/notifications?all=1>
 
 The shortcuts are carefully designed. They will not confict to Xcode default shortcuts. The shortcut pattern is ⌃⇧⌘ (Ctrl+Shift+Command), plus First Character of the menu title.
 
@@ -57,7 +57,7 @@ https://github.com/lzwjava/LZAlbum/blob/fd7224/LZAlbum/manager/LZAlbumManager.m#
 
 The {commit} is the latest commit hash of current branch. It's better then use branch. Because branch's HEAD may be changed. So the code in #L40-L43 may also be changed.
 
-So if you want to add a shortcut to current repo's wiki, just add a menu item and set the pattern to ` {git_remote_url}/wiki`.
+So if you want to add a shortcut to current repo's wiki, just add a menu item and set the pattern to `{git_remote_url}/wiki`.
 
 In settings, `Clear Default Repos` say if you have multiple git remotes, when first time to trigger, it will ask you to choose one of them:
 

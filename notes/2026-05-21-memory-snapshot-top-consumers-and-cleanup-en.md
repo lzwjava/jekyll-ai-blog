@@ -30,12 +30,14 @@ Here's your current memory snapshot on this 16 GB Mac:
 1. **Quit Safari** — closable tabs alone freed ~13.5 GB before. Currently 3.4 GB in WebKit. If you Safari (or close heavy tabs), biggest single gain.
 
 2. **Kill WeChat** — 1.2 GB. Command:
+
    ```bash
    pkill -9 WeChat
    pkill -9 WeChatAppEx
    ```
 
 3. **GitHub Desktop** — small but if unused:
+
    ```bash
    pkill -9 GitHub
    ```

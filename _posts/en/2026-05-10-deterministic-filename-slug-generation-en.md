@@ -21,6 +21,7 @@ Clean and correct. Here's the summary of this second fix:
 4. Truncate to 8 words max, 80 chars max
 
 **Why this is better:**
+
 - Zero risk of LLM rambling -- it's pure string manipulation
 - One fewer API call (saves time and money)
 - Deterministic -- same title always produces the same slug

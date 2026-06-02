@@ -21,16 +21,16 @@ You are **partially wrong** about how row operations affect the determinant of a
 The determinant of a matrix **does not always remain the same** during row operations. The effect depends on the specific operation used:
 
 * **1. Adding a multiple of one row to another row** (e.g., \\(R_i \rightarrow R_i + cR_j\\)):
-    * **Effect on \\(\det(A)\\):** **NO CHANGE**. The determinant is invariant under this operation.
-    * *This is the operation you were likely thinking of.*
+  * **Effect on \\(\det(A)\\):** **NO CHANGE**. The determinant is invariant under this operation.
+  * *This is the operation you were likely thinking of.*
 
 * **2. Multiplying a row by a non-zero scalar \\(c\\)** (e.g., \\(R_i \rightarrow cR_i\\)):
-    * **Effect on \\(\det(A)\\):** The new determinant is **\\(c\\) times** the old determinant.
-    * *If the new matrix is \\(B\\), then \\(\det(B) = c \cdot \det(A)\\).*
+  * **Effect on \\(\det(A)\\):** The new determinant is **\\(c\\) times** the old determinant.
+  * *If the new matrix is \\(B\\), then \\(\det(B) = c \cdot \det(A)\\).*
 
 * **3. Swapping two rows** (e.g., \\(R_i \leftrightarrow R_j\\)):
-    * **Effect on \\(\det(A)\\):** The new determinant is **\\(-1\\) times** the old determinant (it flips the sign).
-    * *If the new matrix is \\(B\\), then \\(\det(B) = -\det(A)\\).*
+  * **Effect on \\(\det(A)\\):** The new determinant is **\\(-1\\) times** the old determinant (it flips the sign).
+  * *If the new matrix is \\(B\\), then \\(\det(B) = -\det(A)\\).*
 
 > **Key takeaway:** When you use row operations to achieve Row Echelon Form (REF) or Reduced Row Echelon Form (RREF), you need to **keep track** of all row swaps and scalar multiplications to find the determinant of the original matrix.
 
@@ -45,13 +45,13 @@ Based on your current score and conceptual confusion, you don't necessarily need
 A passing score often requires understanding **why** the formulas work, not just **how** to use them.
 
 * **Linear Combination, Span, and Basis:** Understand what it means for a set of vectors to be a **linear combination** of others.
-    * What is the **span** of a set of vectors?
-    * What are the two requirements for a set of vectors to be a **basis**? (**Linear Independence** and **Span** the whole space).
+  * What is the **span** of a set of vectors?
+  * What are the two requirements for a set of vectors to be a **basis**? (**Linear Independence** and **Span** the whole space).
 * **Fundamental Spaces of a Matrix (\\(A\\)):** Know the relationship between these four spaces:
-    * **Column Space \\(\text{Col}(A)\\):** Spanned by the pivot columns of \\(A\\). \\(\text{dim}(\text{Col}(A)) = \text{rank}(A)\\).
-    * **Row Space \\(\text{Row}(A)\\):** Spanned by the non-zero rows of the REF of \\(A\\). \\(\text{dim}(\text{Row}(A)) = \text{rank}(A)\\).
-    * **Null Space \\(\text{Null}(A)\\) (Kernel):** The set of all vectors \\(\mathbf{x}\\) such that \\(A\mathbf{x} = \mathbf{0}\\). \\(\text{dim}(\text{Null}(A)) = \text{nullity}(A)\\).
-    * **Left Null Space \\(\text{Null}(A^T)\\)** (Orthogonal complement of the column space).
+  * **Column Space \\(\text{Col}(A)\\):** Spanned by the pivot columns of \\(A\\). \\(\text{dim}(\text{Col}(A)) = \text{rank}(A)\\).
+  * **Row Space \\(\text{Row}(A)\\):** Spanned by the non-zero rows of the REF of \\(A\\). \\(\text{dim}(\text{Row}(A)) = \text{rank}(A)\\).
+  * **Null Space \\(\text{Null}(A)\\) (Kernel):** The set of all vectors \\(\mathbf{x}\\) such that \\(A\mathbf{x} = \mathbf{0}\\). \\(\text{dim}(\text{Null}(A)) = \text{nullity}(A)\\).
+  * **Left Null Space \\(\text{Null}(A^T)\\)** (Orthogonal complement of the column space).
 * **The Rank-Nullity Theorem:** Understand the relationship: \\(\\)\text{rank}(A) + \text{nullity}(A) = \text{number of columns}\\(\\)
 
 ### 2. Focus on The Invertible Matrix Theorem (IMT)
@@ -73,22 +73,20 @@ For an \\(n \times n\\) matrix \\(A\\), the following statements are **equivalen
 * **\\(\lambda = 0\\) is NOT an eigenvalue** of \\(A\\).
 * \\(\text{rank}(A) = n\\).
 
-
-
 ### 3. Change Your Study Approach
 
 Instead of just doing calculations, ask yourself **"Why?"** after every result:
 
 * **Instead of:** "Calculate the determinant."
-    * **Ask:** "What does this determinant (\\(\det(A) = 0\\) or \\(\det(A) \neq 0\\)) tell me about the solution to \\(A\mathbf{x} = \mathbf{b}\\)?"
+  * **Ask:** "What does this determinant (\\(\det(A) = 0\\) or \\(\det(A) \neq 0\\)) tell me about the solution to \\(A\mathbf{x} = \mathbf{b}\\)?"
 * **Instead of:** "Find the RREF."
-    * **Ask:** "Which columns are **pivot columns** (basis for \\(\text{Col}(A)\\))? Which columns correspond to **free variables** (basis for \\(\text{Null}(A)\\))?"
+  * **Ask:** "Which columns are **pivot columns** (basis for \\(\text{Col}(A)\\))? Which columns correspond to **free variables** (basis for \\(\text{Null}(A)\\))?"
 
 ### Summary Action Plan
 
-1.  **Review the Rules for Determinant Operations:** Fix the mistake about row operations immediately.
-2.  **Focus on the IMT:** Use this theorem as a conceptual scaffold for connecting all the topics.
-3.  **Practice Conceptual Questions:** Many exam failures come from being unable to apply the concepts to theoretical questions (e.g., "If \\(A\\) is a \\(3 \times 3\\) matrix and \\(\text{Null}(A)\\) is a line, what is \\(\text{rank}(A)\\)?").
+1. **Review the Rules for Determinant Operations:** Fix the mistake about row operations immediately.
+2. **Focus on the IMT:** Use this theorem as a conceptual scaffold for connecting all the topics.
+3. **Practice Conceptual Questions:** Many exam failures come from being unable to apply the concepts to theoretical questions (e.g., "If \\(A\\) is a \\(3 \times 3\\) matrix and \\(\text{Null}(A)\\) is a line, what is \\(\text{rank}(A)\\)?").
 
 By focusing on these core connections, you'll be able to answer the conceptual questions that differentiate a score of 50 from 60 or higher.
 

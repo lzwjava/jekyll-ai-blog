@@ -18,7 +18,7 @@ Yes, you're largely correct. People tend to use commercial AI chatbots from comp
 
 4. **Maintenance and Updates**: Commercial chatbots are regularly updated with the latest advancements, security patches, and optimizations. Open-source models rely on community contributions, which may lag in updates or lack the polish of commercial offerings.
 
-5. **Features and Ecosystem**: Commercial platforms often integrate additional features like APIs, plugins, or enterprise solutions (e.g., xAI’s API at https://x.ai/api). They also provide premium plans (e.g., SuperGrok or x.com subscriptions) with higher usage quotas, which appeal to users needing more capacity.
+5. **Features and Ecosystem**: Commercial platforms often integrate additional features like APIs, plugins, or enterprise solutions (e.g., xAI’s API at <https://x.ai/api>). They also provide premium plans (e.g., SuperGrok or x.com subscriptions) with higher usage quotas, which appeal to users needing more capacity.
 
 6. **Support and Trust**: Commercial providers offer customer support and instill confidence through established brands. Open-source projects, while powerful, may lack dedicated support, leaving users to troubleshoot issues themselves.
 

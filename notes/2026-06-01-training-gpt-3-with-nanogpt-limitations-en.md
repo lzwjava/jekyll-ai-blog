@@ -73,6 +73,7 @@ class GPT(nn.Module):
 ```
 
 And bump the config:
+
 ```python
 # config/train_gpt3_6b.py
 n_layer = 32

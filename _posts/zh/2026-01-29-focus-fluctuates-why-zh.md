@@ -19,6 +19,7 @@ type: note
 以下是专注力剧烈波动的主要原因：
 
 ### 生物/生理原因
+
 - **Sleep debt**（即使前一晚少睡1–2小时，也能将专注能力降低30–60%）
 - **Blood glucose**——急剧下降（尤其是高碳水化合物餐后）或午餐后低谷期
 - **Caffeine timing**——要么过多（焦虑/紧张专注），要么戒断
@@ -28,18 +29,21 @@ type: note
 - **Circadian rhythm misalignment**——大多数人每天只有2–4小时高执行功能时间；超出该窗口专注自然困难得多
 
 ### 心理/情感原因
+
 - **Task-relevance mismatch**——当问题/主题感觉有意义或能看到进展 → 进入flow state很容易；当感觉无意义 → 产生强烈厌恶
 - **Hidden emotional resistance**——害怕失败、害怕平庸、冒充者情结、完美主义 → 表现为“我就是无法专注”，而非“我害怕结果”
 - **Decision fatigue / ego depletion**——做出许多小决定后，大脑确实剩余意志力减少
 - **Internal conflict**——一部分想学习，另一部分想逃避 → 产生瘫痪（当“你应该”做某事但并不真正想做时非常常见）
 
 ### 环境/习惯触发因素
+
 - Phone notifications / open tabs / visible temptations
 - 房间太暖（>24 °C）或太闷 → 专注力迅速下降
 - 晚上亮光 → 抑制melatonin → 次晨专注力差
 - 缺乏**activation energy ritual**——没有热身直接跳入难事往往失败
 
 ### 当专注力消失时，你可以问自己的快速诊断问题
+
 1. 昨晚睡了多少小时？（≤6 h → 巨大影响）
 2. 上次何时吃东西？是含糖/高碳水？（可能崩溃）
 3. 我目前是否生理上兴奋/焦虑？（心跳加速、肩膀紧张）
@@ -48,6 +52,7 @@ type: note
 6. 我的身体是否在告诉我需要运动/喝水/新鲜空气/上厕所？
 
 ### 实用“专注重置”菜单（选择1–2个匹配你情况的）
+
 - 10–20 min户外快速行走（无phone）
 - 极冷淋浴（2–3 min）——可靠增加dopamine & norepinephrine
 - 吃蛋白质 + 脂肪 + 少碳水（例如 eggs、nuts、Greek yogurt、cheese）

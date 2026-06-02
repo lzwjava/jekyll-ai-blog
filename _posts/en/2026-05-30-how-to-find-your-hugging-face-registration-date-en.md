@@ -18,9 +18,11 @@ Log into HF, go to Settings → Account. Registration/join date should be listed
 Your activity page shows earliest recorded action is "liked 12 models over 1 year ago"—so you registered **at least 1+ year ago** (sometime before May 2025). But that's a lower bound, not exact.
 
 **3. HF API (if you want to script it)**
+
 ```bash
 curl https://huggingface.co/api/users/lzwjava
 ```
+
 This returns JSON with account metadata including `createdAt` timestamp.
 
 **4. Check model timestamps**

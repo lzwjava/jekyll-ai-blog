@@ -57,26 +57,32 @@ You can use the `<excludes>` tag in the JaCoCo plugin configuration to specify w
 ---
 
 ### **Explanation:**
+
 - **`<excludes>`**: This section specifies which classes or packages should be excluded from coverage reporting.
 - **`<exclude>com/ibm/**</exclude>`**: This excludes all classes under the `com.ibm` package and its subpackages.
 
 ---
 
 ### **Additional Notes:**
+
 - If you want to exclude multiple packages, add more `<exclude>` entries:
+
   ```xml
   <excludes>
       <exclude>com/ibm/**</exclude>
       <exclude>org/apache/**</exclude>
   </excludes>
   ```
+
 - If you are using **JaCoCo with WebSphere Liberty**, ensure that the JaCoCo agent is properly configured in your `server.env` or `jvm.options` file, and that the exclusions in the `pom.xml` align with your requirements.
 
 ---
 
 ### **Best Practice:**
+
 - Always verify the exclusions by running a coverage report and checking if the excluded packages are not included in the results.
 - If you need to exclude packages at runtime (e.g., in the JaCoCo agent arguments), you can use the `excludes` parameter in the agent arguments:
+
   ```plaintext
   -javaagent:/path/to/jacocoagent.jar=destfile=/path/to/jacoco.exec,excludes=com.ibm.*
   ```

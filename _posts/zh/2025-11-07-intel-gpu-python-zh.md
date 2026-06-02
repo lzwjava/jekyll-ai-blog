@@ -23,6 +23,7 @@ pip install intel-extension-for-pytorch
 ```
 
 ## Python 示例
+
 ## 安装命令
 
 ```bash
@@ -39,13 +40,13 @@ pip install scikit-learn-intelex
 python -c "import torch; import intel_extension_for_pytorch as ipex; print('XPU available:', torch.xpu.is_available() if hasattr(torch, 'xpu') else False)"
 ```
 
-## 关键要点：
+## 关键要点
 
 1. **设备命名**：Intel 在 PyTorch 中使用 `xpu` 而非 CUDA 的 `cuda`
 2. **兼容性**：您的 Intel UHD 显卡应该可以工作，但性能相比独立 GPU 会受限
 3. **安装方式**：Intel Extension for PyTorch 是最简单的入门方式
 
-## 快速测试：
+## 快速测试
 
 保存以下简单测试代码：
 

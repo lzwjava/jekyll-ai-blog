@@ -15,6 +15,7 @@ type: note
 ## 题目解析
 
 **“三去一降一补”的完整内容：**
+
 - **三去**：去产能 (Cut overcapacity)、去库存 (Cut excess inventory)、去杠杆 (Cut leverage)
 - **一降**：**降成本 (Reduce costs)** ✓
 - **一补**：补短板 (Address weak links/shortcomings)
@@ -22,6 +23,7 @@ type: note
 ## 为什么答案是 B (降成本)
 
 “一降”具体指**降成本 (Reduce costs)**，其中包括：
+
 - 降低制度性交易成本
 - 减轻税费负担
 - 降低融资成本

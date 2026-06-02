@@ -12,16 +12,18 @@ type: note
 
 您提供的输出内容似乎来自 Docker 命令（可能是 `docker-compose` 或 `docker pull`），显示了拉取或运行容器镜像的状态。关键问题在于错误提示：
 
-**Error response from daemon: Get "https://registry-1.docker.io/v2/": context deadline exceeded**
+**Error response from daemon: Get "<https://registry-1.docker.io/v2/>": context deadline exceeded**
 
 这表明 Docker 未能在规定时间内连接到 Docker Hub 注册表（`registry-1.docker.io`），导致超时。下面我将分析问题、可能的原因以及解决步骤。
 
 ### 问题分析
+
 - **上下文截止时间超时**：此错误意味着 Docker 无法在超时期限内完成对注册表的请求。通常与网络问题、Docker 配置或注册表问题有关。
 - **受影响的服务**：`vectordb` 服务明确显示错误，而 `mongodb` 和 `meilisearch` 被标记为 "Interrupted"，表明它们可能受到相同问题的影响或被手动停止。`api` 服务仍在下载层，但某些层卡在 "Waiting" 或 "Downloading" 状态。
 - **等待/下载状态**：大量容器层（如 `9824c27679d3`、`fd345d7e43c5`）卡在 "Waiting" 或缓慢下载，表明存在网络或资源限制。
 
 ### 可能原因
+
 1. **网络连接问题**：
    - 不稳定或缓慢的互联网连接。
    - 防火墙或代理阻止访问 `registry-1.docker.io`。
@@ -39,6 +41,7 @@ type: note
    - 本地防火墙、VPN 或安全软件干扰 Docker 的网络请求。
 
 ### 解决步骤
+
 以下是逐步排查和修复问题的指南：
 
 1. **检查网络连接**：

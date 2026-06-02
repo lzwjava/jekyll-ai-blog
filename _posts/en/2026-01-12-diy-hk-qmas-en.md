@@ -29,6 +29,7 @@ First, ensure you meet all the **prerequisites**:
 You can apply under one of two routes:
 
 **A. General Points Test** - Has 12 criteria across 6 aspects:
+
 - Age (50 or below gets points)
 - Academic qualifications (master's/doctoral from eligible universities, especially STEM fields)
 - Language proficiency (Chinese and/or English, plus foreign languages)
@@ -39,6 +40,7 @@ You can apply under one of two routes:
 You need to meet the passing threshold to be eligible (check the Immigration Department website for current threshold).
 
 **B. Achievement-based Points Test** - For exceptional talents with:
+
 - Major awards (Olympic medals, Nobel prizes, national/international awards), OR
 - Significant peer recognition for contributions to your field
 
@@ -47,6 +49,7 @@ You need to meet the passing threshold to be eligible (check the Immigration Dep
 Key documents needed:
 
 **For everyone:**
+
 - Valid travel document/passport
 - Recent photograph
 - Proof of financial assets (bank statements, property valuations, investment statements)
@@ -55,17 +58,20 @@ Key documents needed:
 - Language proficiency proof (test results like IELTS 7.0+, TOEFL 94+, or other evidence)
 
 **For work experience:**
+
 - Reference letters from each employer on company letterhead
 - Job descriptions with dates, titles, and detailed duties
 - For business owners: company registration, audited financials, tax returns
 - For self-employed: client contracts and reference letters
 
 **For income claims:**
+
 - Tax assessment notices
 - Salary slips or company profit statements
 - Stock option documentation (if applicable)
 
 **For business ownership:**
+
 - Company registration documents
 - Audited financial reports
 - Shareholding proof
@@ -75,7 +81,8 @@ All non-English/Chinese documents must have certified translations.
 ### **Step 4: Submit Online Application**
 
 Applications must be submitted online through the designated GovHK website:
-- Go to: www.gov.hk/en/nonresidents/visarequire/visasentrypermits/applyqmas.htm
+
+- Go to: <www.gov.hk/en/nonresidents/visarequire/visasentrypermits/applyqmas.htm>
 - Fill in the complete online form
 - Upload all supporting documents (JPEG, PDF, GIF, PNG, or TIF format)
 - Pay the **non-refundable application fee** online (by credit card, PPS, or FPS)
@@ -116,14 +123,16 @@ You can include your spouse and unmarried children under 18 in your initial appl
 ### **After Arrival:**
 
 For extension of stay, you'll need to prove you've:
+
 - Taken up employment with stable income, OR
 - Established/joined a business in Hong Kong
 
 Extensions follow a "3+2" year pattern. After 7 years, you can apply for permanent residency.
 
 **Need help?** Contact Immigration Department:
+
 - Phone: (852) 2829 3383 or (852) 2824 6111
-- Email: enquiry@immd.gov.hk
-- Website: www.immd.gov.hk
+- Email: <enquiry@immd.gov.hk>
+- Website: <www.immd.gov.hk>
 
 The DIY process is definitely doable if you're organized and meet the requirements. Just make sure all your documents are complete and accurate!

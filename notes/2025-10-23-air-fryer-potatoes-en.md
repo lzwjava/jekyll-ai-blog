@@ -22,6 +22,7 @@ To air fry potato slices, the cooking time depends on thickness, temperature, an
   5. Check for crispiness; add 2-3 minutes if needed for extra crunch.
 
 **Notes**:
+
 - Thicker slices (1/4 inch or 6 mm) may need 18-22 minutes.
 - Soak slices in cold water for 20-30 minutes and pat dry to reduce starch for crispier results.
 - Cooking times vary slightly by air fryer model, so check for doneness.

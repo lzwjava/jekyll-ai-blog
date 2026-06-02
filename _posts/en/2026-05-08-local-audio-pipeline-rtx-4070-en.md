@@ -44,6 +44,7 @@ Podcast-Quality Output + Transcript
 DeepFilterNet3 is an open-source speech enhancement framework that uses deep learning to suppress noise in full-band audio (up to 48 kHz). With major updates in 2025 and early 2026, it represents the current state of the art, incorporating additional network layers and refined perceptual optimization — achieving PESQ scores of 3.5–4.0+ and STOI exceeding 0.95 on short clips.
 
 Install and run:
+
 ```bash
 pip install deepfilternet
 deepFilter your_meeting.wav
@@ -77,6 +78,7 @@ This is the best **GUI option** if you prefer visual editing over CLI.
 ### ✅ pydub (Python, programmable)
 
 Good for scripted pipelines where you want to define silence thresholds precisely:
+
 ```python
 from pydub import AudioSegment, silence
 audio = AudioSegment.from_wav("meeting.wav")
@@ -94,6 +96,7 @@ ffmpeg -i cleaned.wav -af loudnorm=I=-16:TP=-1.5:LRA=11 normalized.wav
 ```
 
 Or use **SoX** for normalization + resampling:
+
 ```bash
 sox input.wav output.wav norm rate 44100
 ```
@@ -136,6 +139,7 @@ whisperx meeting.wav --model large-v2 --diarize --hf_token YOUR_HF_TOKEN --devic
 ```
 
 This gives you:
+
 - Full transcript
 - Word-level timestamps
 - Speaker labels (SPEAKER_00, SPEAKER_01, etc.)

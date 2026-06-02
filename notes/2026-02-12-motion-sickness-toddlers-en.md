@@ -17,19 +17,24 @@ Answer:
 Yes, it is possible and not uncommon for a **1-year-old** to experience **motion sickness** (car sickness) and vomit during car rides—even short ones under one hour. While most sources say motion sickness is **less common** in infants and toddlers under 2 compared to children aged 2–12 (who are most prone), some babies and 1-year-olds do develop it, especially if they are particularly sensitive.
 
 ### Why it happens
+
 Motion sickness occurs when the brain receives **conflicting signals**:
+
 - The **inner ear** (vestibular system) senses movement and acceleration.
 - The **eyes** see a still environment inside the car (often looking down or at the seat in front).
 - Body position sensors feel stillness.
 
 This mismatch confuses the brain and can trigger nausea, dizziness, and vomiting. In young children, the vestibular system is still developing, and some are more sensitive due to factors like:
+
 - Family history of motion sickness or migraines.
 - Possible related conditions (e.g., recurrent ear infections, mild vestibular issues, or even migraine variants in rare cases).
 
 At 1 year old, babies often sit in **rear-facing car seats**, which limits their forward view and worsens the sensory mismatch, making symptoms appear even on short, smooth drives.
 
 ### Prevention tips for a 1-year-old
+
 Many strategies work for very young children:
+
 - **Drive during nap time** — If the child sleeps through the ride, motion sickness is much less likely.
 - **Ensure good ventilation** — Crack a window or use air conditioning to provide fresh, cool air.
 - **Avoid feeding right before travel** — Offer a light, bland snack (like crackers) if needed, but avoid heavy, greasy, or dairy-heavy meals. An empty stomach can sometimes help, but don't let the child get too hungry.

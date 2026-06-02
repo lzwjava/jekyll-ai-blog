@@ -25,7 +25,7 @@ Jenkins properties 是可以通过多种方式定义的 environment variables：
 
 是的，你完全可以为 npm 命令使用 Jenkins properties！方法如下：
 
-### 在 Pipeline 中：
+### 在 Pipeline 中
 
 ```groovy
 pipeline {
@@ -49,12 +49,12 @@ pipeline {
 }
 ```
 
-### 在 Freestyle Job 中：
+### 在 Freestyle Job 中
 
 1. 在 job 配置中定义 environment variables
 2. 在 build steps 中使用 `${VARIABLE_NAME}` (Linux) 或 `%VARIABLE_NAME%` (Windows) 引用它们
 
-### 常见模式：
+### 常见模式
 
 **使用 .npmrc 配置：**
 

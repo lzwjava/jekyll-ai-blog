@@ -9,17 +9,21 @@ type: note
 ---
 
 ### Key Points
+
 - It is possible to upload audio files to YouTube programmatically by converting them to video files and using the YouTube API, suitable for batch uploads like 100 audios.
 - For Spotify, there is no public API for uploading audio files; distribution services like DistroKid are needed, but they lack public APIs for automation.
 - Research suggests YouTube allows podcast uploads as videos with static images, while Spotify requires manual uploads through their platform.
 
 ### YouTube Upload Process
+
 You can upload audio files to YouTube by first converting them into video files, such as MP4, with a static image using tools like FFmpeg. Then, use the YouTube Data API to automate the upload process, which is ideal for batch uploads of 100 audios. This method works for podcasts by creating videos from audio episodes, often with a static image like show art.
 
 ### Spotify Upload Limitations
+
 For Spotify, there is no public API available for uploading audio files directly. Instead, you would need to use a distribution service like DistroKid, which distributes to Spotify but does not offer a public API for external developers to automate uploads. This means batch uploads via script are not feasible for Spotify.
 
 ### Unexpected Detail
+
 An unexpected detail is that while YouTube accepts audio as video files, Spotify's ecosystem relies on manual uploads or third-party services without public API access, limiting automation options.
 
 ---
@@ -66,6 +70,7 @@ For users, this means planning for YouTube involves technical setup for conversi
 In summary, uploading audio files to YouTube programmatically is possible and suitable for batch uploads by converting to video and using the YouTube API. For Spotify, there is no public API for uploads, limiting automation to manual processes or distribution services without scriptable APIs. This analysis underscores the importance of platform-specific strategies for content distribution, with YouTube offering more flexibility for developers and Spotify maintaining a closed ecosystem for uploads.
 
 **Key Citations:**
+
 - [Upload a Video YouTube Data API Google for Developers](https://developers.google.com/youtube/v3/guides/uploading_a_video)
 - [Web API Spotify for Developers](https://developer.spotify.com/documentation/web-api)
 - [Publishing audio episodes Spotify](https://support.spotify.com/us/creators/article/publishing-audio-episodes/)

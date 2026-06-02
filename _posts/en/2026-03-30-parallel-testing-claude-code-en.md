@@ -27,6 +27,7 @@ Yes, absolutely — this is one of the best productivity habits you can build wh
 ```
 
 You can run:
+
 - `pytest` / `jest` / `go test` on existing code while Claude writes new code
 - Manual smoke tests on the last feature Claude just finished
 - Log monitoring (`tail -f`, `docker logs`) to catch runtime issues early

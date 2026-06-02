@@ -71,6 +71,7 @@ LibreChat is powerful when you really want maximum model choice and you are will
 But if your main goal is **fast, smooth, hassle-free chatting**, the official portals are still noticeably better in 2026 — especially for web search, response speed, and overall polish.
 
 Many people end up using both:
+
 - Official portals for quick / serious work
 - LibreChat / Open WebUI / SillyTavern for experimenting with many models or when they need a model not offered officially
 

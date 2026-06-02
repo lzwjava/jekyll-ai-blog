@@ -38,6 +38,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们与传统媒体、商学院和许多老钱家族所推崇的主流叙事相悖，但它们与最新一代赢家的实际成功经验相符。
 
 **参考文献：**
+
 - [中国财富创造模式已改变 (2024)](https://www.macropolo.org/analysis/new-chinese-wealth-creation-playbook-2024/)
 - [为什么中国的科技巨头正在悄悄放弃996](https://www.protocol.com/china/china-tech-996-culture-change) (2023)
 - [胡润百富榜趋势 2015-2025](https://www.hurun.net/)

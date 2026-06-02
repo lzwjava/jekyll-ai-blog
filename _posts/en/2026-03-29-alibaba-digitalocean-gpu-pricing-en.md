@@ -25,13 +25,13 @@ Answer: Alibaba Cloud's **gn7i** series and DigitalOcean’s **GPU Droplets** se
 
 ### **Key Differences**
 
-  * **Performance:** The **NVIDIA A10** (Alibaba gn7i) is an enterprise-grade card designed for AI inference and graphics workstations, sitting between DigitalOcean's RTX 4000 (lower end) and RTX 6000/H100 (higher end).
-  * **Billing Granularity:** Alibaba Cloud typically uses hourly billing for Pay-As-You-Go, though they offer significant discounts (up to 50%+) for monthly or yearly **Subscriptions**. DigitalOcean has moved toward **per-second billing** (with a 60-second minimum), making it more cost-effective for short-lived batch jobs.
-  * **Availability:** Alibaba Cloud gn7i instances are heavily optimized for the Asia-Pacific region. DigitalOcean’s GPU Droplets are currently available in specific data centers (like NYC3, AMS3, and SFO3) and are better suited for Western markets.
-  * **Egress Costs:** DigitalOcean is generally cheaper for data-intensive tasks, charging approximately **$0.01 per GB** for overages, whereas Alibaba Cloud's international data transfer rates can be significantly higher (around **$0.07 - $0.23 per GB** depending on the region).
+* **Performance:** The **NVIDIA A10** (Alibaba gn7i) is an enterprise-grade card designed for AI inference and graphics workstations, sitting between DigitalOcean's RTX 4000 (lower end) and RTX 6000/H100 (higher end).
+* **Billing Granularity:** Alibaba Cloud typically uses hourly billing for Pay-As-You-Go, though they offer significant discounts (up to 50%+) for monthly or yearly **Subscriptions**. DigitalOcean has moved toward **per-second billing** (with a 60-second minimum), making it more cost-effective for short-lived batch jobs.
+* **Availability:** Alibaba Cloud gn7i instances are heavily optimized for the Asia-Pacific region. DigitalOcean’s GPU Droplets are currently available in specific data centers (like NYC3, AMS3, and SFO3) and are better suited for Western markets.
+* **Egress Costs:** DigitalOcean is generally cheaper for data-intensive tasks, charging approximately **$0.01 per GB** for overages, whereas Alibaba Cloud's international data transfer rates can be significantly higher (around **$0.07 - $0.23 per GB** depending on the region).
 
 References:
 
-  - [Alibaba Cloud Elastic GPU Service Pricing](https://www.google.com/search?q=https://www.alibabacloud.com/en/campaign/elastic-gpu)
-  - [DigitalOcean GPU Droplet Pricing](https://www.digitalocean.com/pricing/gpu-droplets)
-  - [Cloud GPU Pricing Comparison 2026](https://getdeploying.com/gpus)
+* [Alibaba Cloud Elastic GPU Service Pricing](https://www.google.com/search?q=https://www.alibabacloud.com/en/campaign/elastic-gpu)
+* [DigitalOcean GPU Droplet Pricing](https://www.digitalocean.com/pricing/gpu-droplets)
+* [Cloud GPU Pricing Comparison 2026](https://getdeploying.com/gpus)

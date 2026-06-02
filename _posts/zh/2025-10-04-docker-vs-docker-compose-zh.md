@@ -15,12 +15,15 @@ type: note
 Docker 和 Docker Compose 虽然相关，但在容器化工作流中承担着不同的职责。Docker 是基础技术，而 Docker Compose 在其之上构建，用于处理更复杂的场景。
 
 #### 什么是 Docker？
-Docker 是一个用于在轻量级、可移植的 **容器 ** 内开发、交付和运行应用程序的平台。这些容器将应用程序及其所有依赖项（代码、运行时环境、库等）打包在一起，确保其在开发、测试和生产等不同环境中能够稳定运行。您主要通过命令行界面（CLI）与 Docker 交互，使用诸如 `docker run`、`docker build` 和 `docker ps` 等命令来管理单个容器。
+
+Docker 是一个用于在轻量级、可移植的 **容器** 内开发、交付和运行应用程序的平台。这些容器将应用程序及其所有依赖项（代码、运行时环境、库等）打包在一起，确保其在开发、测试和生产等不同环境中能够稳定运行。您主要通过命令行界面（CLI）与 Docker 交互，使用诸如 `docker run`、`docker build` 和 `docker ps` 等命令来管理单个容器。
 
 #### 什么是 Docker Compose？
+
 Docker Compose 是一个编排工具，它扩展了 Docker 的功能以处理 **多容器应用程序**。它使用一个简单的 YAML 文件（通常是 `docker-compose.yml`）来定义您的整个应用栈——包括多个服务、网络、数据卷和环境变量。您无需再费力地处理几十个 `docker run` 命令，只需一个 `docker-compose up` 命令即可启动所有服务。
 
 #### 主要区别
+
 以下是一个快速对比：
 
 | 对比维度           | Docker                                | Docker Compose                            |
@@ -49,6 +52,7 @@ Docker Compose 是一个编排工具，它扩展了 Docker 的功能以处理 **
 本质上，Docker Compose 将 Docker 从一个单打独斗的工具转变为一个适用于现代基于微服务架构的团队协作者。如果您是初学者，可以尝试为一个 WordPress + MySQL 的简单技术栈编写一个 `docker-compose.yml` 文件来体验其魔力。
 
 #### 参考资料
+
 - [Docker vs. Docker Compose: Simple and Fun Explanation](https://medium.com/@ShantKhayalian/docker-vs-docker-compose-simple-and-fun-explanation-4811582127f7)
 - [What is the difference between docker and docker-compose](https://stackoverflow.com/questions/37966552/what-is-the-difference-between-docker-and-docker-compose)
 - [How To Choose Between Docker Compose vs Docker?](https://cyberpanel.net/blog/docker-compose-vs-docker)

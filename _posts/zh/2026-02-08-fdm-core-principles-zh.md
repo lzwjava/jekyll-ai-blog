@@ -11,11 +11,13 @@ type: note
 ---
 
 ## Question Content
+
 本题考查 **Frequency Division Multiplexing (FDM)** 的概念。
 
 ## Key Information Extraction
 
 题干中的核心要素：
+
 - **在频域内**将信道带宽划分
 - 划分为**多个子信道**
 - 将信号调制在**各子信道的载波信号上**
@@ -35,6 +37,7 @@ type: note
 你选择了 **C (Wavelength Division Multiplexing)**，这是错误的。
 
 **原因：**
+
 - WDM 主要应用于 **Fiber Optic Communication** 系统。
 - 题目明确指出“**在频域内**划分”，这直接指向了 Frequency Division Multiplexing。
 - WDM 本质上是 FDM 在光域的应用，但题目问的是通用的信道复用技术。

@@ -15,6 +15,7 @@ type: note
 ---
 
 ### NanoGPT 概述（典型配置）
+
 NanoGPT 是一个**从头实现的类GPT-2模型**，通常基于莎士比亚数据集（或其他小型数据集）训练。其默认配置大致是按**GPT-2小模型**规模缩减的。
 
 | 参数 | NanoGPT 典型值 |
@@ -28,7 +29,7 @@ NanoGPT 是一个**从头实现的类GPT-2模型**，通常基于莎士比亚数
 
 ---
 
-### 问题解析：
+### 问题解析
 
 > "每512个词元对应一个GPT模型"
 
@@ -36,6 +37,7 @@ NanoGPT 是一个**从头实现的类GPT-2模型**，通常基于莎士比亚数
 **整个输入序列长度为512个词元**，而**一个GPT模型会一次性处理全部512个词元**（训练时并行处理，推理时自回归处理）。
 
 因此：
+
 - 输入：批量序列，每条序列最多包含**512个词元**
 - 单个GPT模型会**并行处理所有512个位置**（通过注意力掩码实现）
 
@@ -52,6 +54,7 @@ NanoGPT 是一个**从头实现的类GPT-2模型**，通常基于莎士比亚数
 - **头维度** = `n_embd // n_head` = `768 // 12 = 64`
 
 因此：
+
 - 每个头处理**64维向量**
 - 共有**12个头**，每个头都会关注全部**512个词元**
 - 总计：12个头 × 64维 = 768维
@@ -135,7 +138,9 @@ def forward(x):
 ---
 
 ### 参考（NanoGPT代码）
+
 摘自 `model.py`：
+
 ```python
 self.transformer = nn.ModuleDict(dict(
     wte = nn.Embedding(vocab_size, n_embd),
@@ -146,6 +151,7 @@ self.transformer = nn.ModuleDict(dict(
 ```
 
 在 `Block` 中：
+
 ```python
 self.attn = CausalSelfAttention(n_embd, n_head)  # n_head=12, head_size=64
 ```
@@ -155,6 +161,7 @@ self.attn = CausalSelfAttention(n_embd, n_head)  # n_head=12, head_size=64
 ### 最终结论
 
 > **是的**，在NanoGPT中：
+
 - 模型接受**最多512个词元**作为输入
 - 使用**多头注意力**机制（例如12个头）
 - 每个头处理**64维向量**

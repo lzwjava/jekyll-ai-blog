@@ -17,6 +17,7 @@ Hong Kong's residential property market has been one of the most volatile and ex
 House prices are typically tracked via indices rather than absolute averages, as "average" prices vary widely by location (e.g., Hong Kong Island vs. New Territories), size, and type. The RVD Private Domestic Price Index (base: 1999 = 100) is the official benchmark, covering all private residential units. Nominal prices (unadjusted for inflation) have risen dramatically overall—peaking at over 260 times the 1990 base in 2021 before recent declines—but inflation-adjusted growth has been more modest.
 
 Key trends:
+
 - **1975–1989**: Steady growth amid economic expansion; prices roughly tripled nominally.
 - **1990–1997**: Massive bubble fueled by low rates and speculation; prices surged ~400% nominally.
 - **1998–2003**: Severe crash post-Asian Financial Crisis and dot-com bust; prices fell ~70% from peak.
@@ -24,6 +25,7 @@ Key trends:
 - **2019–2025**: Stagnation then decline due to protests, pandemic, and rate hikes; down ~28% nominally from 2021 peak, with Q1–Q2 2025 indices at ~189–190 (base 1999=100), a 7–8% y-o-y drop.
 
 #### Historical Private Domestic Price Index (RVD, Base 1999=100)
+
 Below is a yearly index summary (annual average where quarterly data is averaged). Data starts from 1979; pre-1979 estimates are approximate based on BIS trends. Values are nominal unless noted.
 
 | Year | Index Value | Nominal y-o-y Change (%) | Notes/Inflation-Adjusted y-o-y (%) |
@@ -81,6 +83,7 @@ Below is a yearly index summary (annual average where quarterly data is averaged
 | 2025 | ~189.7     | ~-27.8 (from 2021 peak)   | ~-28.5; Q1-Q2 avg.; ongoing decline. |
 
 **Notes on data**:
+
 - Indices sourced from RVD/BIS (1979–2025) and cross-referenced with Global Property Guide and TheGlobalEconomy.com.
 - Pre-1979 values are extrapolated from BIS trends (real index base 2010=100, converted approximately).
 - y-o-y changes for 2009–2024 from RVD; earlier from BIS. Inflation-adjusted accounts for CPI.
@@ -88,7 +91,9 @@ Below is a yearly index summary (annual average where quarterly data is averaged
 - 2025 is partial (Q1–Q2); full year projected to end lower amid easing rates but weak demand.
 
 #### Average Prices (Recent Context)
+
 Absolute averages fluctuate, but examples:
+
 - **1997 peak**: ~HK$50,000/sqm (~US$6,400/sqm).
 - **2003 trough**: ~HK$20,000/sqm.
 - **Q1 2025**: HK$123,000–227,000/sqm (~US$15,700–29,000/sqm) depending on size/location; down 7–10% y-o-y. A typical 40sqm flat: ~HK$5–6 million (~US$640,000–770,000).

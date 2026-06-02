@@ -16,7 +16,8 @@ type: note
 
 OSPF (Open Shortest Path First) 是一种 **链路状态 (Link State)** 路由协议。
 
-### 解释：
+### 解释
+
 - **链路状态 (Link State)** 协议（如 OSPF 和 IS-IS）在整个路由域中泛洪详细的拓扑信息（链路状态）。每台路由器都构建一个完整的网络地图，并使用 Dijkstra 的最短路径优先 (SPF) 算法来计算到达所有目的地的最佳路径。
 - 相反：
   - **距离矢量 (Distance Vector)** 协议（例如 RIP，经典模式下的 EIGRP）只与邻居共享距离度量和下一跳信息，而没有完整的拓扑可见性。

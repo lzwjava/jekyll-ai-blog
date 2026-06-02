@@ -68,6 +68,7 @@ These made AlexNet trainable in 5–6 days on two GTX 580s, vs. weeks/months oth
 ### Training and Experimental Setup
 
 The objective was multinomial logistic regression (cross-entropy loss), optimized via stochastic gradient descent (SGD):
+
 - Mini-batch size: 128
 - Momentum: 0.9
 - Weight decay: 0.0005 (L2 regularization on weights, excluding biases/soft-max)
@@ -79,10 +80,12 @@ Biases initialized to 0; weights to 0.01 (Xavier-like). Training used the full 1
 ### Results
 
 On the ILSVRC-2010 test set (held-out, no val overlap):
+
 - Top-1 error: 37.5% (vs. ~50% prior SOTA)
 - Top-5 error: 17.0% (vs. ~28% prior)
 
 Ablations confirmed innovations' value:
+
 - ReLU: ~25% faster training.
 - Dropout: Prevented 10–15% overfitting.
 - Augmentation: 5–7% error drop.

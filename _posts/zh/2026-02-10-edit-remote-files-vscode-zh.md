@@ -21,7 +21,7 @@ Andrej Karpathy 在访谈中（例如 Lex Fridman podcast）提到过，他喜�
 ### 分步设置（2026 当前最佳实践）
 
 1. **安装 VS Code**
-   从官网下载并安装：https://code.visualstudio.com/ （如果尚未安装）。
+   从官网下载并安装：<https://code.visualstudio.com/> （如果尚未安装）。
 
 2. **安装 Remote - SSH 扩展**
    - 打开 VS Code
@@ -31,15 +31,18 @@ Andrej Karpathy 在访谈中（例如 Lex Fridman podcast）提到过，他喜�
 
 3. **设置 SSH 访问服务器**
    确保你已经可以通过 terminal 连接：
+
    ```
    ssh username@your-server-ip-or-domain
    ```
+
    最佳实践：使用 SSH key 认证（强烈推荐）：
    - 如果没有密钥对，生成一个：`ssh-keygen -t ed25519`
    - 将公钥拷贝到服务器：`ssh-copy-id username@your-server-ip-or-domain`
    - 或者手动将 `~/.ssh/id_ed25519.pub` 的内容添加到服务器的 `~/.ssh/authorized_keys` 中。
 
    可选但非常有用：在本地 `~/.ssh/config` 文件中创建一个条目：
+
    ```
    Host my-server
        HostName your-server-ip-or-domain
@@ -47,6 +50,7 @@ Andrej Karpathy 在访谈中（例如 Lex Fridman podcast）提到过，他喜�
        Port 22                # 如果使用非标准端口请修改
        IdentityFile ~/.ssh/id_ed25519
    ```
+
    → 之后你只需使用 `ssh my-server` 即可，无需每次输入完整详情。
 
 4. **从 VS Code 连接**

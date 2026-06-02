@@ -16,24 +16,29 @@ CodeIgniter's routing system allows you to map URLs (URIs) to specific controlle
 
 The provided code snippet is from CodeIgniter's `routes.php` configuration file. It defines an associative array `$route` where each key is a URI pattern, and the value is either a string (`controller/method`) or an array specifying different behaviors by HTTP method (e.g., GET, POST). This setup supports both standard routing and method-specific routing.
 
-I'll break down **how routes are defined**, **how they work**, and **how to use them**, based on CodeIgniter's standard behavior and the example in your code. For full details, refer to the official CodeIgniter User Guide on routing: https://codeigniter.com/userguide4/general/routing.html.
+I'll break down **how routes are defined**, **how they work**, and **how to use them**, based on CodeIgniter's standard behavior and the example in your code. For full details, refer to the official CodeIgniter User Guide on routing: <https://codeigniter.com/userguide4/general/routing.html>.
 
 #### 1. **How to Define Routes**
+
 Routes are defined in `application/config/routes.php` as an array. You add entries to `$route[]`. Here's the syntax:
 
 - **Basic Route**: Maps any HTTP method to a controller/method.
+
   ```
   $route['uri_segment'] = 'controller/method';
   ```
+
   - Example: `$route['login'] = 'users/login';` means any request to `/login` routes to `Users::login()`.
 
 - **Method-Specific Route**: For RESTful APIs, you can specify different controllers/methods per HTTP method (GET, POST, PUT, etc.). This uses an array.
+
   ```
   $route['uri_segment'] = array(
       'METHOD1' => 'controller/method1',
       'METHOD2' => 'controller/method2'
   );
   ```
+
   - Example from your code: `$route['self'] = array('POST' => 'users/update', 'GET' => 'users/self');` means:
     - POST to `/self` → `Users::update()`.
     - GET to `/self` → `Users::self()`.
@@ -55,12 +60,15 @@ Routes are defined in `application/config/routes.php` as an array. You add entri
 - **HTTP Methods**: If not specified, a route applies to all methods. Your code uses arrays for specificity, which is great for APIs.
 
 **Tips for Defining Routes in Your Code**:
+
 - Add new routes at the end, before `$route['translate_uri_dashes']`.
 - Test with tools like Postman for API routes to ensure the correct controller/method is hit.
 - For complex apps, group routes by section (as you've done with comments like `// users`).
 
 #### 2. **How Routes Work**
+
 CodeIgniter's router processes each incoming request in this order:
+
 1. **Parse the URI**: Breaks down the URL into segments (e.g., `/users/123/edit` → segments: `users`, `123`, `edit`).
 2. **Match Against Routes**: Checks the `$route` array from top to bottom. It looks for exact matches first, then patterns with wildcards.
    - If a match is found, it maps to the specified controller/method, passing dynamic parts (e.g., `123`) as method arguments.
@@ -70,17 +78,20 @@ CodeIgniter's router processes each incoming request in this order:
 5. **Fallback**: Unmatched requests trigger a 404, or the `$route['404_override']` if set.
 
 **Example Flow**:
+
 - Request: `POST https://example.com/lives`
 - Matches: `$route['lives']['POST'] = 'lives/create';`
 - Result: Calls `Lives::create()` with no arguments.
 - If the request was `GET https://example.com/lives/456`, it would match `$route['lives/(\d+)']['GET'] = 'lives/one/$1';` → `Lives::one(456)`.
 
 **Key Mechanics**:
+
 - **Dynamic Parameters**: Captured groups (e.g., `$1`) are passed as args to the method. Ensure your controller method expects them.
 - **Security**: Routes help prevent direct access to sensitive controllers by obscuring URLs.
 - **Performance**: Simple array lookups; no major overhead unless you have hundreds of routes.
 
 #### 3. **How to Use Routes**
+
 Using routes means setting them up as above, then leveraging them in your application (controllers, views, etc.).
 
 - **In Controllers**: Assume the route handles URL mapping; write methods expecting routed requests.

@@ -24,14 +24,17 @@ type: note
 使用原生安装程序安装特定版本时，将版本号作为参数传递给安装脚本：
 
 **macOS / Linux：**
+
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash -s 2.1.77
 ```
 
 **Windows (PowerShell)：**
+
 ```powershell
 irm https://claude.ai/install.ps1 | iex
 ```
+
 > 注意：Windows PowerShell 方法默认安装最新版本。要在 Windows 上安装特定版本，请使用 WSL 并在其内部运行上面的 Linux 命令。
 
 ---
@@ -55,6 +58,7 @@ npm install -g @anthropic-ai/claude-code@2.1.77
 在您的 `settings.json` 文件的 `env` 键中将 `DISABLE_AUTOUPDATER` 设置为 `"1"`，以在固定版本后防止自动更新。
 
 您的 `~/.claude/settings.json` 应如下所示：
+
 ```json
 {
   "env": {

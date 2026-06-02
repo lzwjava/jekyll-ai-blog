@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What does the arXiv paper at https://arxiv.org/pdf/2603.27959 say?
+Question: What does the arXiv paper at <https://arxiv.org/pdf/2603.27959> say?
 
 Answer:
 
@@ -21,6 +21,7 @@ Based on search results, I was able to identify the paper but could not fully re
 **Subject Area:** Computer Vision and Pattern Recognition (cs.CV)
 
 ### Authors
+
 The paper is authored by Ruiyao Liu, Hui Shen, Ping Zhang, Yunta Hsieh, Yifan Zhang, Jing Xu, Sicheng Chen, Junchen Li, Jiawei Lu, Jianing Ma, Jiaqi Mo, Qi Han, Zhen Zhang, Zhongwei Wan, Jing Xiong, Xin Wang, Ziyuan Liu, Hangrui Cao, and Ngai Wong.
 
 ### What the Paper Is About

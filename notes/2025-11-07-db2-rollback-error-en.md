@@ -36,6 +36,7 @@ END IF;
 ```
 
 SQLSTATE class codes specifically identify error types :
+
 - **Class 58**: System error (e.g., resource unavailable, operator intervention)
 - **Class 40**: Transaction rollback
 - **Class 25**: Invalid transaction state
@@ -64,6 +65,7 @@ When executing scripts via `db2` command line, check exit codes :
 - **Exit code 1**: No rows found
 
 **Recommended script pattern**:
+
 ```bash
 db2 -l migration.log +c -stf migration.sql
 if [ $? -ge 4 ]; then
@@ -122,9 +124,11 @@ For system-level errors, always check:
 2. **Use GET DIAGNOSTICS** for rich error context in stored procedures
 3. **Implement transaction rollback percentage monitoring** - anything over 1% warrants investigation
 4. **Enable command options** for script execution:
+
    ```bash
    db2 +c -s -v -l error.log -f script.sql
    ```
+
    Where `+c` disables autocommit and `-s` stops on error
 5. **Use savepoints** for partial rollbacks within complex transactions
 6. **Log error details** to persistent tables before rollback to preserve diagnostic information

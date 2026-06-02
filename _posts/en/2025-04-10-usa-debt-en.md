@@ -29,26 +29,26 @@ The question of whether the U.S. government could choose not to pay its debt, sp
 In summary, while there are legal arguments against the constitutionality of the debt ceiling, the U.S. government is unlikely to choose not to pay its debts due to the severe economic and political consequences such an action would entail. Instead, the government typically seeks to raise the debt ceiling or implement other financial measures to avoid default.
 
 Citations:
-[1] https://en.wikipedia.org/wiki/United_States_debt_ceiling
-[2] https://www.cfr.org/backgrounder/what-happens-when-us-hits-its-debt-ceiling
-[3] https://www.investopedia.com/articles/04/011404.asp
-[4] https://www.reddit.com/r/explainlikeimfive/comments/1cjrnlo/eli5_why_cant_we_us_just_absolve_ourselves_of_the/
-[5] https://www.weforum.org/stories/2023/05/5-way-a-us-debt-default-could-affect-you-and-your-money/
-[6] https://en.wikipedia.org/wiki/National_debt_of_the_United_States
-[7] https://www.narfe.org/advocacy/issue-briefs-and-fact-sheets/debt-limit-frequently-asked-questions/
-[8] https://realeconomy.rsmus.com/what-would-happen-if-the-government-defaults-on-its-debt/
-[9] https://www.law.cornell.edu/uscode/text/31/3123
-[10] https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/
-[11] https://www.pbs.org/newshour/politics/how-a-debt-default-could-affect-you
-[12] https://treasurydirect.gov/help-center/public-debt-faqs/
-[13] https://www.youtube.com/watch?v=iK5dpPzjaPA
-[14] https://www.brookings.edu/articles/what-are-the-risks-of-a-rising-federal-debt/
-[15] https://constitution.congress.gov/browse/essay/amdt14-S4-1/ALDE_00000849/
-[16] https://budget.house.gov/press-release/the-consequences-of-debt
-[17] https://www.npr.org/2023/05/22/1177570119/a-look-at-some-of-the-consequences-if-the-u-s-defaults-on-its-debt
-[18] https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit
-[19] https://www.youtube.com/watch?v=h_rsF8eVPqY
-[20] https://www.nytimes.com/2023/05/18/business/default-debt-what-happens-next.html
+[1] <https://en.wikipedia.org/wiki/United_States_debt_ceiling>
+[2] <https://www.cfr.org/backgrounder/what-happens-when-us-hits-its-debt-ceiling>
+[3] <https://www.investopedia.com/articles/04/011404.asp>
+[4] <https://www.reddit.com/r/explainlikeimfive/comments/1cjrnlo/eli5_why_cant_we_us_just_absolve_ourselves_of_the/>
+[5] <https://www.weforum.org/stories/2023/05/5-way-a-us-debt-default-could-affect-you-and-your-money/>
+[6] <https://en.wikipedia.org/wiki/National_debt_of_the_United_States>
+[7] <https://www.narfe.org/advocacy/issue-briefs-and-fact-sheets/debt-limit-frequently-asked-questions/>
+[8] <https://realeconomy.rsmus.com/what-would-happen-if-the-government-defaults-on-its-debt/>
+[9] <https://www.law.cornell.edu/uscode/text/31/3123>
+[10] <https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/>
+[11] <https://www.pbs.org/newshour/politics/how-a-debt-default-could-affect-you>
+[12] <https://treasurydirect.gov/help-center/public-debt-faqs/>
+[13] <https://www.youtube.com/watch?v=iK5dpPzjaPA>
+[14] <https://www.brookings.edu/articles/what-are-the-risks-of-a-rising-federal-debt/>
+[15] <https://constitution.congress.gov/browse/essay/amdt14-S4-1/ALDE_00000849/>
+[16] <https://budget.house.gov/press-release/the-consequences-of-debt>
+[17] <https://www.npr.org/2023/05/22/1177570119/a-look-at-some-of-the-consequences-if-the-u-s-defaults-on-its-debt>
+[18] <https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit>
+[19] <https://www.youtube.com/watch?v=h_rsF8eVPqY>
+[20] <https://www.nytimes.com/2023/05/18/business/default-debt-what-happens-next.html>
 
 ---
 Answer from Perplexity: pplx.ai/share

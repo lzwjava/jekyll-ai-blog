@@ -35,7 +35,7 @@ Physical distance creates fundamental latency limits. Light travels at 200,000 k
 
 This is where it gets more nuanced. REST API works, but it is **not the fastest option** for order placement:
 
-### Protocol Speed Comparison (Fastest → Slowest):
+### Protocol Speed Comparison (Fastest → Slowest)
 
 | Protocol | Latency Level | Best Use |
 |---|---|---|
@@ -47,15 +47,15 @@ Professional HFT firms optimize for protocol choice, favoring FIX (Financial Inf
 
 Protocols matter enormously: FIX and WebSocket beat REST every time. Binary or custom feeds are faster still.
 
-### Why REST Is Slower:
+### Why REST Is Slower
 
 REST API follows a request-response model. Every time your trading bot needs data, it creates a new connection, sends a request, receives a response, and closes the connection. Each request carries connection establishment overhead, and most brokers rate-limit REST APIs to prevent system overload.
 
-### The Better Hybrid Approach:
+### The Better Hybrid Approach
 
 Smart algorithmic traders don't choose between WebSocket and REST — they use both simultaneously. WebSocket handles all market data streaming, live price feeds, order book depth updates, and trade execution confirmations. REST API manages account operations like balance inquiries, historical data queries, and periodic health checks.
 
-### Binance Specifically — WebSocket Order Placement:
+### Binance Specifically — WebSocket Order Placement
 
 Binance's documentation includes an option to place orders via WebSocket (not just REST), which can avoid HTTP/REST network overhead for sending orders.
 
@@ -68,6 +68,7 @@ Binance has also introduced SBE (Simple Binary Encoding) Market Data Streams, wh
 The correct measurement approach uses two timestamps per order: a **pre-transmission timestamp** (recorded just before the API request is sent) and a **post-transmission timestamp** (recorded when a successful confirmation is received from the exchange). The round-trip of these two is what you optimize.
 
 This round-trip covers:
+
 1. **Network transit** (your server → exchange gateway)
 2. **Exchange matching engine processing**
 3. **Confirmation delivery** (exchange → your server, often via WebSocket)
@@ -83,6 +84,7 @@ For institutional quantitative trading, a FIX API connection sends orders direct
 In traditional finance, co-location is standard: firms place their servers in the same data center as the exchange, often in the same rack, reducing latency to microseconds. For crypto, true co-location is generally not available — the best you can do is deploy in the same AWS/GCP region as the exchange, which is still orders of magnitude slower than traditional HFT co-location of 10–100 microseconds.
 
 Traditional exchange examples:
+
 - **NYSE/NASDAQ (US stocks)**: Colocation at Mahwah, NJ (NYSE) or Carteret, NJ (NASDAQ) data centers
 - **LSE (London stocks)**: Colocation at LD4 Equinix in Slough, UK
 - **Binance (Crypto)**: Best via AWS Tokyo (ap-northeast-1)

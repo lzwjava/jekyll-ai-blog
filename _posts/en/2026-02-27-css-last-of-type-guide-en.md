@@ -16,6 +16,7 @@ type: note
 The `:last-of-type` pseudo-class in CSS selects **the last element of its type** (its tag name) among its siblings inside the same parent.
 
 ### Key characteristics
+
 - It looks at the **element type** (like `p`, `div`, `li`, `article`, etc.), **not** the class or any other attribute.
 - It selects **only one element** per parent — the very last child that matches that particular tag name.
 - It **ignores** other element types that come after it.
@@ -85,6 +86,7 @@ tr td:last-of-type {
 ### Summary — when to use `:last-of-type`
 
 Use it when you want to target the **last occurrence of a specific element type** inside a container, especially when:
+
 - There are mixed element types as siblings
 - You cannot rely on `:last-child` because the last element might not be the type you want
 - You are styling repeating elements like paragraphs, list items, articles, table cells, etc.

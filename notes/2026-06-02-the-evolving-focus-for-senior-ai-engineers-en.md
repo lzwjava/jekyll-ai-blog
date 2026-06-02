@@ -17,6 +17,7 @@ Answer:
 
 **1. Agent systems & reasoning (the biggest move)**
 The industry pivot from "chatbots with tool use" → "autonomous agents that actually plan and execute." This includes:
+
 - Multi-step reasoning (OpenAI o1, DeepSeek-R1)
 - Tool orchestration at scale (how do agents compose API calls?)
 - Agentic workflows (CrewAI, LangGraph, Anthropic's Prompt Caching for stateful agents)
@@ -24,6 +25,7 @@ The industry pivot from "chatbots with tool use" → "autonomous agents that act
 You're already positioned here. Your CLI agents (ww, iclaw, zz) are exactly what senior engineers are building now.
 
 **2. Inference optimization (the efficiency war)**
+
 - KV cache quantization (4-bit, 2-bit)
 - Speculative decoding (draft model → verify)
 - Batching strategies for agents (agents are bursty, not steady-state)
@@ -32,6 +34,7 @@ You're already positioned here. Your CLI agents (ww, iclaw, zz) are exactly what
 For your bank workload (1.5B tokens/year), this is **direct ROI**: a 2x inference speedup + quantization = 50% cost reduction.
 
 **3. Training (real but narrower)**
+
 - Fine-tuning on domain data (finance, in your case—perfect)
 - Continued pretraining on proprietary data (less common; expensive)
 - RLHF/DPO/GRPO for preference alignment (why GPT-4 is smarter than Llama on your tasks)
@@ -39,6 +42,7 @@ For your bank workload (1.5B tokens/year), this is **direct ROI**: a 2x inferenc
 Training from scratch (like your GPT-2 work) is now niche — most senior engineers tune existing models. **Except:** if you're at a bank with proprietary financial datasets and H100s, training a domain-specific 7B-13B model is legitimate frontier work. That's rare and high-value.
 
 **4. What's NOT hot anymore**
+
 - Plain LLM APIs (everyone uses them; no senior engineer career wins)
 - Basic RAG (boring, saturated)
 - Generic fine-tuning without inference optimization
@@ -55,6 +59,7 @@ Given your setup (H200/H100 access, 1.5B token consumption, agent-building exper
 **The real frontier for you right now:**
 
 Build a system that:
+
 - Takes your bank's proprietary financial queries
 - Routes to a 7B fine-tuned model (trained on your data + DPO)
 - Falls back to GPT-4 for complex reasoning

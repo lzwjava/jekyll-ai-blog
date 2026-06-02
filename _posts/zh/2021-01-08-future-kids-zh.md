@@ -59,18 +59,17 @@ type: post
 
 就如成年人一次次做到了十年百年前成年人难以做到的事情，相信未来的孩子们也能做到过往孩子们做不到的事情。孩子们，你们要相信自己，你们可以的。
 
-
 扩展阅读
 
 1. Hiring is Obsolete.
-https://paulgraham.com/hiring.html
+<https://paulgraham.com/hiring.html>
 2. Paul Graham: 那些像Airbnb创始人一样的人
 3. Researchers and Founders.
-https://blog.samaltman.com/researchers-and-founders
+<https://blog.samaltman.com/researchers-and-founders>
 4. Billionaires Build.
-http://www.paulgraham.com/ace.html
+<http://www.paulgraham.com/ace.html>
 5. 对智商的怀疑
-https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence
+<https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence>
 6. 学习的智慧
-https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy
+<https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy>
 7. 微信互联网平民创业

@@ -17,6 +17,7 @@ Answer:
 The `-c` flag allows you to pass a string containing Python code that will be executed immediately, without creating a script file.
 
 ### Basic syntax
+
 ```bash
 python -c "code_here"
 # or with python3 explicitly
@@ -24,6 +25,7 @@ python3 -c "code_here"
 ```
 
 ### Simple examples
+
 ```bash
 # Print something
 python -c "print('Hello, world!')"
@@ -39,16 +41,20 @@ python -c "import sys; print(sys.version); print('Platform:', sys.platform)"
 ```
 
 ### Handling quotes and complex code
+
 When your code contains quotes or spans multiple lines, you need to escape properly depending on your shell.
 
 #### Single-line with single quotes inside
+
 ```bash
 python -c "print('Single quotes are fine inside double-quoted string')"
 python -c 'import os; print("User home:", os.path.expanduser("~"))'
 ```
 
 #### Multi-line code (recommended way)
+
 Use a heredoc or quote the entire block:
+
 ```bash
 python -c "
 import json
@@ -58,6 +64,7 @@ print(json.dumps(data, indent=2))
 ```
 
 Or with single quotes and escaped newlines:
+
 ```bash
 python -c 'import antigravity
 print("Flying to xkcd...")
@@ -65,6 +72,7 @@ print("Flying to xkcd...")
 ```
 
 #### Alternative: Use `\` for line continuation (bash/zsh)
+
 ```bash
 python -c 'import sys, json; \
 data = [line.strip() for line in sys.stdin]; \
@@ -72,6 +80,7 @@ print(json.dumps(data))'
 ```
 
 ### Common one-liners you’ll actually use
+
 ```bash
 # List all files in current directory (alternative to ls)
 python -c "import os; print('\n'.join(os.listdir('.')))"
@@ -87,6 +96,7 @@ python -c "print(sum(range(1, 101)))"  # prints 5050
 ```
 
 ### Tips
+
 - Always wrap the code in quotes to prevent shell interpretation.
 - Use `python3` instead of `python` on systems where `python` points to Python 2.
 - For very long scripts, consider writing a proper `.py` file instead.

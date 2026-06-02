@@ -44,7 +44,8 @@ Rust 因其内存安全、性能和并发特性而广受赞誉，但它也招致
 
 这些观点反映了少数对 Rust 在非理想场景下的严谨性感到沮丧的开发者。尽管如此，Rust 在内核（例如 Linux）和像 Microsoft 这样的公司中的采用表明，它在适合的领域——系统和性能关键代码——正在蓬勃发展。如果你正在评估它，请先原型化一个小项目来测试其适应性。
 
-### 参考文献：
+### 参考文献
+
 - [The Rust programming language absolutely positively sucks](https://www.reddit.com/r/rust/comments/12b7p2p/the_rust_programming_language_absolutely/)
 - [What are some unpopular opinions on Rust that you’ve come across?](https://www.reddit.com/r/rust/comments/1b4uny4/what_are_some_unpopular_opinions_on_rust_that/)
 - [Why are some people against the Rust-Lang?](https://users.rust-lang.org/t/why-are-some-people-against-the-rust-lang/93906)

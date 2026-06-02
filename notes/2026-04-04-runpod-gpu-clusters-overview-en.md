@@ -26,6 +26,7 @@ RunPod is a cloud GPU infrastructure platform that lets developers, researchers,
 A **GPU Pod** is a single instance with one or more GPUs within the same node. An **Instant Cluster** consists of multiple nodes interconnected with high-speed networking, allowing for workloads that span across multiple machines.
 
 In short:
+
 - **GPU Pod** → single node, one or more GPUs, good for small-to-medium workloads
 - **Instant Cluster** → multiple nodes, many GPUs, designed for large-scale distributed AI
 
@@ -57,12 +58,15 @@ Instant Clusters are billed by the second, just like regular GPU Pods. You are o
 ### Core Components
 
 #### 1. High-Speed Networking
+
 Technologies like InfiniBand provide up to 400 Gb/s bandwidth, enabling seamless data exchange between nodes for distributed AI training. RunPod's Instant Clusters include InfiniBand and NVLink interconnects to accelerate GPU communication.
 
 #### 2. GPU Hardware Available
+
 At the heart of each cluster are GPUs built for AI workloads: NVIDIA A100 and H100 GPUs offer the memory and processing power required for training large-scale models. NVIDIA A10G and RTX 4090 options deliver strong performance for mid-sized workloads and budget-conscious experiments.
 
 #### 3. Orchestration
+
 RunPod provisions multiple GPU nodes connected with high-speed networking. One node is designated primary (`NODE_RANK=0`), and all nodes receive pre-configured environment variables for distributed communication.
 
 ---
@@ -70,6 +74,7 @@ RunPod provisions multiple GPU nodes connected with high-speed networking. One n
 ### Types of Instant Clusters
 
 Three main types of Instant Clusters serve different AI research requirements:
+
 1. **High-Speed Multi-Node GPU Clusters** — Deploy up to 64 GPUs across multiple nodes for large-scale training and inference workloads.
 2. **Hybrid Node Clusters** — Bridge on-premises and cloud infrastructures for compliance-sensitive data or latency-critical applications.
 3. **Specialized Workload Clusters** — Optimize configurations for specific AI lifecycle stages, enhancing resource efficiency.
@@ -91,11 +96,14 @@ You can use Slurm to manage multi-node jobs with familiar `sinfo`, `sbatch`, and
 ### Deployment Methods
 
 RunPod clusters can be deployed via:
+
 1. **Web Console (UI)** — Point-and-click interface for quick setup
 2. **CLI** — Example:
+
    ```bash
    runpod deploy --name my-research-cluster --gpu 4xA100 --cpu 32 --ram 256
    ```
+
 3. **API** — Programmatic creation and management for automation pipelines
 
 Clusters are typically ready in under five minutes.

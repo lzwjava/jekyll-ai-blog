@@ -12,6 +12,7 @@ type: note
 简短回答：**不——此仓库中没有分词脚本。** 仅包含下载 + parquet→文本提取功能。
 
 当前 `scripts/` 目录中的内容：
+
 - `download/` — 获取 FineWeb parquet 分片（以及 Wikimedia 数据转储）
 - `extract/extract_fineweb.py` — 将 parquet 行连接成单个 `.txt` 文件，插入 `<|endoftext|>` 分隔符（`datasets/fineweb-edu/` 中已包含原始 parquet 分片）
 - `analysis/` — 日志/评估辅助工具

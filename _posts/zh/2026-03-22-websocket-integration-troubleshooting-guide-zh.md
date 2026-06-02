@@ -14,6 +14,7 @@ type: note
 **为什么使用 WebSocket？**
 
 OpenClaw 使用 WebSocket 作为浏览器 Control UI 和 gateway 进程之间的核心实时传输。gateway 以持久化后台服务运行，管理 AI agents、message routing 和 channel connections。WebSocket 提供：
+
 - 双向、低延迟流式传输（AI responses 以 token-by-token 方式流式传输到 UI）
 - 持久连接，因此 gateway 可以推送事件（新消息、agent status）到浏览器，而无需 polling
 - 一个连接可以复用多个并发 sessions/agents

@@ -13,12 +13,14 @@ type: note
 以下是集成 Autoprefixer 到前端工作流的主要方式：
 
 1. 使用 npm（最常用方式）
+
 ```bash
 # 安装 autoprefixer 和 postcss
 npm install autoprefixer postcss --save-dev
 ```
 
 2. 基于 PostCSS CLI 的基础配置
+
 ```bash
 # 安装 postcss-cli
 npm install postcss-cli --save-dev
@@ -39,6 +41,7 @@ module.exports = {
 3. 与构建工具结合：
 
 a) Webpack 配合 postcss-loader
+
 ```bash
 npm install postcss-loader --save-dev
 ```
@@ -69,6 +72,7 @@ module.exports = {
 ```
 
 b) Vite（内置支持）
+
 ```javascript
 // vite.config.js
 import autoprefixer from 'autoprefixer'
@@ -83,6 +87,7 @@ export default {
 ```
 
 4. 配置选项
+
 ```javascript
 // postcss.config.js
 module.exports = {
@@ -97,6 +102,7 @@ module.exports = {
 ```
 
 5. CSS 使用示例
+
 ```css
 /* 输入 */
 .container {
@@ -116,12 +122,14 @@ module.exports = {
 ```
 
 核心特性与使用技巧：
+
 - 基于 Can I Use 数据自动添加前缀
 - 通过 browserslist 配置控制（通常位于 package.json）
 - 自动移除旧版 CSS 中的过时前缀
 - 支持现代 CSS 特性如自定义属性
 
 package.json 中的基础 browserslist 配置示例：
+
 ```json
 {
   "browserslist": [
@@ -133,6 +141,7 @@ package.json 中的基础 browserslist 配置示例：
 ```
 
 运行方式：
+
 ```bash
 # 使用 PostCSS CLI
 npx postcss src/*.css --dir dist

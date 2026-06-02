@@ -34,6 +34,7 @@ Hong Kong is a vibrant blend of East and West, where ancient traditions meet cut
 These spots are interconnected via efficient MTR (subway) or ferries—get an Octopus card for seamless travel. For a full itinerary, start in Central for economy/culture, hop to Kowloon for history/food, and end at West Kowloon for innovation. November (your current month) is ideal: mild weather, fewer crowds post-summer.
 
 **References:**
+
 - [THE 15 BEST Things to Do in Hong Kong (2025)](https://www.tripadvisor.com/Attractions-g294217-Activities-Hong_Kong.html)
 - [9 Hong Kong arts and cultural activities you don't want to miss](https://www.discoverhongkong.com/us/explore/arts/dont-miss-these-hong-kong-arts-and-culture-activities.html)
 - [24 Best Things to Do in Hong Kong](https://www.cntraveler.com/gallery/best-things-to-do-in-hong-kong)

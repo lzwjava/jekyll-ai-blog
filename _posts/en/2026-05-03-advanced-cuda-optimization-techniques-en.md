@@ -16,6 +16,7 @@ type: note
 These are advanced performance optimization techniques commonly used in CUDA-based deep learning workloads, especially for accelerating **Large Language Model (LLM) inference** (e.g., in frameworks like PyTorch, vLLM, TensorRT-LLM). They target different bottlenecks: CPU-GPU interaction overhead, memory bandwidth, redundant computation, and kernel launch costs.
 
 ### 1. CUDA Graph Optimization
+
 CUDA Graphs (introduced in CUDA 10) capture a sequence of CUDA operations (kernels, memory copies, etc.) into a single reusable "graph." Instead of launching each kernel individually from the CPU (which incurs significant overhead), you record the workflow once and replay the entire graph with one launch.
 
 - **Key Benefits**: Dramatically reduces kernel launch overhead, improves GPU utilization, and minimizes CPU-side costs (Python/PyTorch dispatcher, memory allocation checks). Ideal for repetitive workloads like LLM decode phases with fixed shapes.
@@ -23,6 +24,7 @@ CUDA Graphs (introduced in CUDA 10) capture a sequence of CUDA operations (kerne
 - **Use cases**: LLM inference, training loops with stable shapes. Can yield substantial speedups when kernel launches are a bottleneck.
 
 ### 2. Operator (Kernel) Fusion / OP Fusions
+
 Operator fusion combines multiple GPU operations (e.g., matrix multiply + activation + normalization) into a **single fused CUDA kernel**.
 
 - **Key Benefits**: Reduces global memory reads/writes (memory bandwidth is often the limiter), lowers kernel launch overhead, and improves data locality by keeping intermediate results in registers/shared memory.
@@ -30,6 +32,7 @@ Operator fusion combines multiple GPU operations (e.g., matrix multiply + activa
 - **Impact**: Especially powerful in decode phases where many small operations occur.
 
 ### 3. KV Cache (Key-Value Cache)
+
 In transformer-based models (e.g., GPT, Llama), during autoregressive generation, the attention mechanism recomputes keys (K) and values (V) for all previous tokens at every new token step. KV Cache stores these K and V tensors from prior steps in GPU memory.
 
 - **Key Benefits**: Avoids redundant computation of past tokens, turning O(n²) attention cost per step into near-constant time for new tokens.
@@ -37,7 +40,9 @@ In transformer-based models (e.g., GPT, Llama), during autoregressive generation
 - **Common in**: LLM serving engines for high-throughput inference.
 
 ### Overall Context in CUDA Optimization for LLMs
+
 These techniques work together synergistically:
+
 - **KV Cache** reduces compute redundancy.
 - **Operator Fusion** optimizes the kernels themselves.
 - **CUDA Graphs** eliminates launch and framework overhead around those fused kernels.

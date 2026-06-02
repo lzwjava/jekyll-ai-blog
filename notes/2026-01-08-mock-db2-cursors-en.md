@@ -13,6 +13,7 @@ type: note
 To mock an IBM DB2 cursor using `unittest.mock.MagicMock` (typically in unit tests to avoid real database connections), you can simulate the behavior of `ibm_db_dbi` connection and cursor objects. The `ibm_db_dbi` library follows the Python DB-API 2.0 specification, so the cursor supports standard methods like `.execute()`, `.fetchone()`, `.fetchall()`, `.fetchmany()`, and attributes like `.description`.
 
 ### Basic Manual Mocking (Without `@patch`)
+
 Create mock objects directly and inject them into your code (useful if your function accepts a connection or cursor as a parameter).
 
 ```python
@@ -57,6 +58,7 @@ mock_cursor.fetchall.assert_called_once()
 ```
 
 ### Using `@patch` for Automatic Mocking
+
 If your code calls `ibm_db_dbi.connect()` directly, patch it to return your mock connection.
 
 ```python
@@ -101,6 +103,7 @@ if __name__ == '__main__':
 ```
 
 ### Handling Context Managers (e.g., `with conn.cursor() as cur:`)
+
 If your code uses context managers:
 
 ```python
@@ -113,6 +116,7 @@ mock_conn.cursor.return_value.__exit__.return_value = None
 ```
 
 ### Tips
+
 - Use `side_effect` for multiple calls: `mock_cursor.fetchall.side_effect = [row1_list, row2_list]`.
 - For no results: `mock_cursor.fetchall.return_value = []` and `mock_cursor.fetchone.return_value = None`.
 - Always close the cursor/connection in your real code for good practice.

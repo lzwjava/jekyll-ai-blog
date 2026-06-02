@@ -20,6 +20,7 @@ ToT (local:8000) → SSH tunnel :1234 → remote proxy :8088 → llama-server :8
 ```
 
 **Files on remote (192.168.1.36):**
+
 - `~/tot_proxy.py` — translates ToT format → OpenAI format, listens on :8088
 - llama-server running with `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` on :8080
 - Logs: `~/llama8b.log`, `~/tot_proxy.log`
@@ -40,6 +41,7 @@ nohup /home/lzw/projects/llama.cpp/build/bin/llama-server \
 ```
 
 Available models on remote:
+
 - `deepseek-r1-distill-qwen-1.5b-q4_0.gguf` — tiny/fast
 - `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` — **current, recommended**
 - `DeepSeek-R1-Distill-Qwen-32B-Q2_K.gguf` — large, may fit in 12GB

@@ -33,12 +33,14 @@ type: note
 ### Root Cause Analysis
 
 **The crash:** Two CUDA errors captured in `llama.log`, both with identical backtrace:
+
 ```
 ggml_cuda_error → ggml_backend_cuda_buffer_set_tensor → ggml_backend_sched_graph_compute_async
   → llama_context::graph_compute → process_ubatch → decode → llama_decode
 ```
 
 **The cause:** Flash Attention CUDA kernels failing on gemma4's architecture. Gemma4 is a **MoE (Mixture of Experts)** model with:
+
 - **Mixed SWA/non-SWA layers** — 25 SWA layers + 5 non-SWA layers
 - **Different V embedding sizes across layers** — llama.cpp explicitly warns: `"the V embeddings have different sizes across layers and FA is not enabled - padding V cache to 2048"`
 
@@ -55,6 +57,7 @@ The FA kernels don't properly handle this heterogeneous layer structure, causing
 7. **Fixed binding** — changed from `127.0.0.1` to `0.0.0.0:8081`
 
 ### Current Running Configuration
+
 ```bash
 llama-server \
   -m gemma-4-26B-A4B-it-UD-IQ2_M.gguf \

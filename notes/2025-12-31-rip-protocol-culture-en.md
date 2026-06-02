@@ -17,9 +17,11 @@ Answer:
 Yes, Ben Horowitz famously used the Routing Information Protocol (RIP) as a metaphor in his book *The Hard Thing About Hard Things* to describe a healthy company culture: **bad news travels fast; good news travels slow**.
 
 ### Ben Horowitz's Metaphor
+
 Horowitz recommends building a company culture where problems (bad news) are shared quickly and openly so they can be addressed immediately, while successes (good news) spread more gradually. He explicitly compares this ideal to the "old RIP routing protocol," emphasizing that in a good organization, critical issues surface rapidly without fear of punishment.
 
 ### How RIP Actually Works
+
 RIP is a classic **distance-vector routing protocol** (using the Bellman-Ford algorithm). Key behaviors relevant to the "news" propagation:
 
 - **Triggered updates (flash updates)**: When a router detects a change in its routing table—especially a route becoming worse (higher metric) or unreachable (e.g., a link failure)—it immediately sends an update to neighbors, without waiting for the regular 30-second timer. This propagates **bad news** (route failures or degradations) quickly across the network.

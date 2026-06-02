@@ -19,6 +19,7 @@ type: note
 2. 如果两个实例都 *write* 到 `main.py`（例如添加新的 CLI entry point），就会产生冲突。手动协调这些更改，或分步进行 — 先完成一个实例的工作并 merge，然后再让下一个实例触及共享文件。
 
 **Practical workflow：**
+
 - 为每个 subcommand 启动一个 Claude Code 实例，每个实例指向其自身子目录
 - 为每个实例提供限于该文件夹的 context：`claude --context github/`
 - 自己处理 `main.py` / routing 更改作为 integrator，或者在 subcommand 工作完成后，以单独的 sequential 步骤进行

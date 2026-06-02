@@ -112,12 +112,14 @@ This code does the following:
    - Extracts and displays the payload data
 
 To compile and run:
+
 ```bash
 gcc udp_decoder.c -o udp_decoder
 sudo ./udp_decoder  # Needs sudo because of raw socket usage
 ```
 
 Important notes:
+
 1. This is a basic example - real-world applications might need:
    - Error checking for packet size
    - Handling of IP header options (variable length)

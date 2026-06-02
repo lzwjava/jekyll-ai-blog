@@ -17,6 +17,7 @@ Answer:
 以下是在 macOS 上使用 `dd` 命令为 **Ubuntu 24.04.3 Desktop (amd64)** 创建启动 USB 驱动器的分步指南。该方法适用于 Intel 和 Apple Silicon 架构的 Mac，生成的启动盘可用于标准 PC 硬件（BIOS 或 UEFI）。
 
 **重要警告**
+
 - 此过程将**擦除**所选 USB 驱动器上的所有内容。
 - 输入错误的磁盘标识符会**擦除你的 Mac 内置硬盘**。请务必仔细检查每一步。
 - 请使用至少 8 GB 的 USB 驱动器（建议 16 GB 以上）。
@@ -29,12 +30,15 @@ Answer:
 
 3. **确定正确的磁盘编号**
    运行以下命令：
+
    ```
    diskutil list
    ```
+
    查找你的 USB 驱动器。它通常显示为 `/dev/disk2`、`/dev/disk3` 等（不要选择内置硬盘，内置硬盘通常是 `/dev/disk0` 或 `/dev/disk1`）。
 
    输出示例片段：
+
    ```
    /dev/disk2 (external, physical):
       #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -42,18 +46,23 @@ Answer:
       1:                        EFI EFI                     209.7 MB   disk2s1
       2:                  Apple_HFS Untitled                31.7 GB    disk2s2
    ```
+
    → 在此示例中，整个 USB 设备是 **disk2**。
 
 4. **卸载 USB 驱动器**（将 `diskN` 替换为你的编号，例如 `disk2`）
+
    ```
    diskutil unmountDisk /dev/diskN
    ```
+
    示例：
+
    ```
    diskutil unmountDisk /dev/disk2
    ```
 
    在 macOS 上建议使用速度更快的 raw device 路径：
+
    ```
    diskutil unmountDisk /dev/disk2
    ```
@@ -62,11 +71,13 @@ Answer:
    使用 `/dev/rdiskN`（raw device — 比 `/dev/diskN` 快得多）。
 
    基础安全命令（推荐）：
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdiskN bs=4m status=progress
    ```
 
    示例（假设 ISO 在 Downloads 文件夹中，且 USB 是 disk2）：
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=4m status=progress
    ```
@@ -76,10 +87,13 @@ Answer:
    - 如果在旧版 macOS 上无法识别 `status=progress`，请将其删除。
 
    其他常用的替代方案：
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=1m
    ```
+
    或
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=8m conv=fsync
    ```
@@ -87,6 +101,7 @@ Answer:
 6. **等待完成**
    - 取决于 USB 速度，通常需要 3–15 分钟。
    - 完成后，你会看到类似以下的输出：
+
      ```
      6123+0 records in
      6123+0 records out
@@ -94,11 +109,14 @@ Answer:
      ```
 
 7. **确保所有数据已写入**并安全弹出：
+
    ```
    sync
    diskutil eject /dev/diskN
    ```
+
    示例：
+
    ```
    sync
    diskutil eject /dev/disk2
@@ -107,9 +125,11 @@ Answer:
 8. **拔出 USB 驱动器** — 它现在已经是可启动盘了。
 
 ### 快速验证技巧（可选）
+
 写入完成后，再次运行 `diskutil list` — USB 现在应该显示与 Ubuntu ISO 布局匹配的分区（通常是一个 ISO9660 分区及其他分区）。
 
 你现在可以使用此 USB 进行：
+
 - 在标准 PC 上启动（UEFI 或 legacy BIOS）
 - 体验 Ubuntu live 模式
 - 安装 Ubuntu

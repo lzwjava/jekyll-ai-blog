@@ -141,7 +141,7 @@ This makes his predictions:
 
 ## 5. How to Evaluate His Predictions Rationally
 
-### Strengths:
+### Strengths
 
 * Highlights **elite corruption**
 * Emphasizes **internal power dynamics**
@@ -151,7 +151,7 @@ This makes his predictions:
   * Debt
   * Governance legitimacy
 
-### Weaknesses:
+### Weaknesses
 
 * Overstates immediacy of collapse
 * Underestimates regime adaptability

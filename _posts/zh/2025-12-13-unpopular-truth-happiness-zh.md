@@ -32,9 +32,9 @@ type: note
 
 参考文献：
 
-- https://theconversation.com/why-the-pursuit-of-happiness-can-be-bad-for-you-and-what-you-should-pursue-instead-176838
-- https://www.theguardian.com/science/2021/jan/10/why-its-time-to-stop-pursuing-happiness
-- https://greatergood.berkeley.edu/article/item/a_better_way_to_pursue_happiness
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/
-- https://iep.utm.edu/stoiceth/
-- https://www.psychologicalscience.org/publications/observer/beyond-the-weird-happiness.html
+- <https://theconversation.com/why-the-pursuit-of-happiness-can-be-bad-for-you-and-what-you-should-pursue-instead-176838>
+- <https://www.theguardian.com/science/2021/jan/10/why-its-time-to-stop-pursuing-happiness>
+- <https://greatergood.berkeley.edu/article/item/a_better_way_to_pursue_happiness>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC3160511/>
+- <https://iep.utm.edu/stoiceth/>
+- <https://www.psychologicalscience.org/publications/observer/beyond-the-weird-happiness.html>

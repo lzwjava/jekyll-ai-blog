@@ -37,13 +37,17 @@ The SDK handles the full agent loop: sending to LLM, executing tool calls, and s
 ## Core Architecture: Six Layers
 
 ### 1. Gateway (The Front Door)
+
 OpenClaw runs as a single Node.js process on your machine, listening on `127.0.0.1:18789` by default. This process is called the Gateway, which manages every messaging platform connection simultaneously — WhatsApp, Telegram, Discord, Slack, Signal, and others. Every message coming in from any platform passes through the Gateway. Every response the agent generates goes back out through it.
 
 ### 2. Channel Adapters (Input Normalization)
+
 OpenClaw supports over a dozen channels. The channel integrations normalize all inputs into a single, consistent message object with a sender, a body, any attachments, and channel metadata. If you send a voice note, it gets transcribed to text before it ever reaches the model.
 
 ### 3. The Pi Agent Loop (The Core Engine)
+
 The core agent loop in `pi-agent-core` is intentionally minimal. It:
+
 1. Streams an LLM response
 2. If no tool calls are made, it ends
 3. Executes tools sequentially
@@ -52,7 +56,9 @@ The core agent loop in `pi-agent-core` is intentionally minimal. It:
 OpenClaw owns the entire execution environment, using Pi only as the agent loop engine. OpenClaw subscribes to Pi's event stream, which flows through: `agent_start → turn_start → message_start → text_delta → tool_execution_start → tool_execution_update → tool_execution_end → message_end → turn_end → agent_end`. Every event is routed to the appropriate handler: text deltas become streaming replies to your chat, tool executions are logged as JSONL transcripts.
 
 ### 4. Tool System
+
 OpenClaw's toolset is layered:
+
 - **Base tools**: Pi's built-in coding tools (read, bash, edit, write)
 - **Custom replacements**: OpenClaw replaces `bash` with `exec/process` and customizes file tools for sandbox
 - **OpenClaw-specific tools**: messaging, browser, canvas, sessions, cron, gateway, etc.
@@ -60,20 +66,25 @@ OpenClaw's toolset is layered:
 - **Policy filtering**: Tools are filtered by profile, provider, agent, group, and sandbox policies
 
 ### 5. Memory System (File-Based)
+
 OpenClaw maintains memory through simple text files. There is an `agents.md` file that stores everything about the agent's configuration, and a `soul.md` file where the agent's personality builds over time.
 
 For memory retrieval, OpenClaw supports embedding-based search, optionally accelerated by the `sqlite-vec` SQLite extension. No external database, no Redis, no Pinecone — just SQLite and Markdown files.
 
 ### 6. Lane Queue System (Concurrency Control)
+
 OpenClaw introduces a "lane queue" system. Each session gets its own lane. Tasks inside that lane are executed serially by default. For a large project, parallel file writes can cause merge conflicts; serial execution increases reproducibility and reduces accidental chaos.
 
 ### 7. Context Compaction
+
 OpenClaw manages context overflow through a compaction pipeline: a Context Window Guard monitors token count continuously, a soft threshold triggers first to flush memory silently, and then compaction summarizes older turns into a compact representation. A new branch is created in the JSONL tree with the summary as the root.
 
 ### 8. Heartbeat (Proactive Agent)
+
 One of the more interesting things about OpenClaw is that it does not just sit and wait for you to message it. It runs a heartbeat — a scheduled trigger that fires every 30 minutes by default. On each heartbeat, the agent reads `HEARTBEAT.md`, which is a checklist of tasks it should proactively check on. If something needs attention, it takes action and potentially sends you a message.
 
 ### 9. Skill System
+
 OpenClaw uses a skill-based architecture where capabilities are defined in Markdown files, not compiled code. Each skill resides at `~/clawd/skills/<skill-name>/SKILL.md` and contains instructions for interacting with APIs or performing workflows. The agent reads these files at runtime to understand available capabilities. Installation is immediate — no recompilation or server restarts required.
 
 ---

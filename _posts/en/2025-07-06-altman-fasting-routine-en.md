@@ -13,6 +13,7 @@ Sam Altman, the CEO of OpenAI, has publicly shared his practice of **intermitten
 Specifically, he states that he **rarely eats breakfast**, resulting in a daily fasting window of approximately **15 hours**. The only thing he consumes when he wakes up is an espresso.
 
 Altman believes this routine offers various benefits, including:
+
 * Promoting fat loss
 * Reducing inflammation
 * Protecting against age-related diseases

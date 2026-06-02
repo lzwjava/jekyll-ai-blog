@@ -43,6 +43,7 @@ It is most commonly used in these contexts:
   - Ephemeral keys (cryptographic keys used only once or for a very short time)
 
 **Quick synonym list**
+
 - fleeting
 - transient
 - momentary
@@ -51,6 +52,7 @@ It is most commonly used in these contexts:
 - passing
 
 **Antonyms**
+
 - permanent
 - lasting
 - enduring

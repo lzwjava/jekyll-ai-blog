@@ -29,7 +29,7 @@ Warp 于 2025 年 2 月登陆 Windows，支持 PowerShell、WSL 和 Git Bash，�
 
 Warp UI 框架的 crate 使用 MIT 许可证，其余代码使用 AGPL v3。
 
-仓库地址：**https://github.com/warpdotdev/warp**
+仓库地址：**<https://github.com/warpdotdev/warp>**
 
 ---
 

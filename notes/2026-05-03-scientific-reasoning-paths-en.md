@@ -28,11 +28,13 @@ ToT fixes this by **spreading the search across multiple branches and only killi
 **Step 1 — Meta-analysis: break the problem into a route map** (`backend.py:49-56`)
 
 Before any tree is built, a planning model analyzes the problem once:
+
 ```
 objective, givens, unknowns,
 minimal_subproblems, step_ordering,
 first_step, completion_signals
 ```
+
 Crucially: *"keep the plan coarse... preserves many modeling routes"* — it deliberately does NOT solve anything, just maps the strategy space.
 
 ---
@@ -40,6 +42,7 @@ Crucially: *"keep the plan coarse... preserves many modeling routes"* — it del
 **Step 2 — Root node built by FSM** (`scheduler.py:148`, `builder.py`)
 
 The FSM for each node runs through these stages:
+
 ```
 PROPOSE → CALCULATE → EVALUATE → (REFLECT?) → FINALIZED
 ```

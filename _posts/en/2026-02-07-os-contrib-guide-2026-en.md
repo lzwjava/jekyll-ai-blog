@@ -66,8 +66,8 @@ Participating in open source projects (contributing code, docs, issues, reviews,
   → Very active, welcomes all kinds of contributions
   → Good entry points: documentation, new model support, bug reports, small features
   → Sign-off commits required (`git commit -s`)
-  → Main guide: https://docs.vllm.ai/en/latest/contributing.html
-  → GitHub: https://github.com/vllm-project/vllm
+  → Main guide: <https://docs.vllm.ai/en/latest/contributing.html>
+  → GitHub: <https://github.com/vllm-project/vllm>
 
 - **PyTorch** (very large & mature project)
   → Steeper learning curve, but excellent for learning serious open source
@@ -75,14 +75,14 @@ Participating in open source projects (contributing code, docs, issues, reviews,
   → Must sign PyTorch Contributor License Agreement (CLA)
   → Many areas: Python/C++/build/documentation
   → Start with docs, small bug fixes, operator improvements
-  → Main guide: https://github.com/pytorch/pytorch/wiki/The-Ultimate-Guide-to-PyTorch-Contributions
+  → Main guide: <https://github.com/pytorch/pytorch/wiki/The-Ultimate-Guide-to-PyTorch-Contributions>
 
 - **llama.cpp** (ggml-org/llama.cpp — efficient C/C++ LLM inference)
   → Very active community, lots of hardware backends
   → Prefers minimal dependencies, clean & portable code
   → Good first issues are clearly labeled
   → Strong rules about AI-generated code/PR descriptions (many restrictions in 2025–2026)
-  → Main guide: https://github.com/ggml-org/llama.cpp/blob/master/CONTRIBUTING.md
+  → Main guide: <https://github.com/ggml-org/llama.cpp/blob/master/CONTRIBUTING.md>
   → Look for "good first issue" label
 
 - **Maven** (Apache Maven — Java build tool)
@@ -90,8 +90,8 @@ Participating in open source projects (contributing code, docs, issues, reviews,
   → You need to sign **ICLA** (Individual Contributor License Agreement)
   → Start by reporting bugs / suggesting improvements → later code
   → Mailing list + Jira for issues
-  → Guide: https://maven.apache.org/guides/development/
-  → Repo: https://github.com/apache/maven (but decisions mostly on Apache infrastructure)
+  → Guide: <https://maven.apache.org/guides/development/>
+  → Repo: <https://github.com/apache/maven> (but decisions mostly on Apache infrastructure)
 
 ### Quick Tips for Success
 

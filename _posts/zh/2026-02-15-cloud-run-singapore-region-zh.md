@@ -33,6 +33,7 @@ gcloud run deploy blog-server \
 ```
 
 ### 附近的备选方案（如有需要）
+
 - 如果 `asia-southeast1` 出现任何临时的配额/问题（非常罕见），距离最近的备选方案是：
   - `asia-southeast2` → Jakarta, Indonesia（仍然非常近，适合针对 Indonesia 流量）
   - `asia-east2` → Hong Kong（较远，从 Singapore 访问延迟较高）
@@ -41,6 +42,7 @@ gcloud run deploy blog-server \
 但针对 Singapore，**始终首选 `asia-southeast1`**。
 
 ### 快速验证技巧
+
 要查看项目中 Cloud Run 所有可用的 regions（某些功能如 GPUs 可能会有所不同）：
 
 ```bash

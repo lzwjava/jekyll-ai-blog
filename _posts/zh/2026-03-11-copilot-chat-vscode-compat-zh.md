@@ -53,6 +53,7 @@ https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsex
 一些用户报告称，`0.34` 版本在某些环境中被标记为 Copilot Chat 的预发布版本，导致问题。如果您遇到此问题，则 `0.33.2025111103` 版本（2025 年 11 月 12 日）是 VS Code 1.106.x 的最安全稳定备用版本。
 
 备用下载：
+
 ```
 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot-chat/0.33.2025111103/vspackage
 ```

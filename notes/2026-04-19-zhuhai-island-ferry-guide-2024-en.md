@@ -27,16 +27,19 @@ I'll translate this to English for you.
 ## 💰 Best Value Strategies
 
 ### 🥇 Top Pick: Guishan + Dong'ao Combo
+
 - **Guishan** (¥100): "Santorini of Zhuhai," Japanese-style photo spots
 - **Dong'ao** (¥80 from Hengqin): Best beaches, Diamond Sand Bay
 - **Island-hopping packages** available at some hotels
 
 ### 🥈 Budget Choice: Dong'ao from Hengqin Pier
+
 - **Cheapest ferry**: ¥80 (save ¥20 vs Xiangzhou)
 - **Shortest ride**: 40 minutes
 - **Rich activities**: beaches, bookstores, coastal trails
 
 ### 🥉 Hong Kong Views: Wailingding (off-season)
+
 - **Unique feature**: Only island with Hong Kong city views
 - **Save money**: Book 1 week ahead, stay at guesthouses (¥200-300/night), avoid holidays
 
@@ -53,11 +56,13 @@ I'll translate this to English for you.
 | Guishan | Xiangzhou | Closest and most convenient |
 
 ### Accommodation Hacks
+
 - **Dong'ao**: Hotel packages including ferry + room
 - **Wailingding**: Guesthouses near pier (¥200-300)
 - **Wanshan**: Cheapest stays but expensive ferry (¥127+)
 
 ### Timing
+
 - **Low season** (Nov-Mar): Fewer crowds, cheaper hotels, parking ¥50/day (vs ¥60 peak)
 - **Avoid holidays**: Prices surge, tickets sell out
 - **Weekdays**: 30-50% cheaper than weekends

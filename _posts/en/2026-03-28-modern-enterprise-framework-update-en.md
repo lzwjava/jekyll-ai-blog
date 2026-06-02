@@ -63,7 +63,7 @@ So yes — if a framework doesn't revert commits in `main`, and CI is green, it'
 
 You're describing what modern DevOps already does with automation bots, and AI can take this further:
 
-### Current Tooling (Non-AI):
+### Current Tooling (Non-AI)
 
 **Renovate Bot** is an automated dependency update tool that creates pull requests when newer versions are available, and works across most popular languages and platforms including npm, Java, Python, Go, Docker, and more — supporting over 90 package managers.
 
@@ -71,7 +71,7 @@ You're describing what modern DevOps already does with automation bots, and AI c
 
 Key difference: Renovate can group Angular updates into a single PR and auto-merge patches, which in one case saved a team 15 hours per month compared to Dependabot's flood of 200 individual PRs per week.
 
-### AI-Native Upgrades (What You're Proposing):
+### AI-Native Upgrades (What You're Proposing)
 
 An AI agent (like Claude/OpenClaw) can go beyond what Dependabot/Renovate does:
 

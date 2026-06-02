@@ -36,6 +36,7 @@ A switch dynamically builds its MAC address table by examining the **source MAC 
 **Step 2 — Forward/Filter Decision:** The switch decides where to forward the frame based on the destination MAC address.
 
 **Step 3 — Forward:**
+
 - If the destination MAC is in the table (known unicast), the switch forwards the frame only to the correct port.
 - If the destination MAC is NOT in the table (unknown unicast), the switch **floods** a copy of the frame out of all ports except the one it came in on.
 
@@ -48,6 +49,7 @@ This overall process is also called **"Flood and Learn."**
 ### Detailed Example
 
 Consider a switch connected to three computers H1, H2, and H3. When H1 sends a frame to H2:
+
 - The switch reads the **source MAC address** of H1 and records it along with the incoming interface in its MAC address table.
 - Since the switch has no entry for H2's MAC address yet, it floods the frame out of all interfaces except the one it came from.
 - When H2 replies, the switch learns H2's MAC address from the source field of H2's reply frame and records it.
@@ -78,6 +80,7 @@ In contrast, routers compute their forwarding tables using routing algorithms an
 ### Summary
 
 The self-learning algorithm allows an Ethernet switch to:
+
 1. Start with an **empty** forwarding table
 2. **Gradually** learn MAC address-to-port mappings as frames flow through it
 3. Eventually forward frames **efficiently** without unnecessary flooding

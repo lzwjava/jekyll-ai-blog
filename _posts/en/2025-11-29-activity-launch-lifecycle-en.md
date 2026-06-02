@@ -12,7 +12,7 @@ type: note
 
 The correct answer is **A. onCreate() → onStart() → onResume()**
 
-### Explanation of the Android Activity lifecycle when an Activity is first launched:
+### Explanation of the Android Activity lifecycle when an Activity is first launched
 
 When an Activity is created for the first time (e.g., when the app is launched or the user navigates to a new Activity), the system calls the following callback methods in this exact order:
 
@@ -33,6 +33,7 @@ So the correct sequence is:
 **onCreate() → onStart() → onResume()**
 
 The other options are incorrect because:
+
 - **B and C** start with onStart() or onResume() — impossible, since onCreate() must happen first.
 - **D** has onResume() before onStart() — wrong order, onStart() always precedes onResume().
 

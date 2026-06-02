@@ -46,25 +46,25 @@ Other frequently mentioned or high-visibility categories/projects:
 - **Privacy & freedom-respecting mobile / desktop apps** (many Gadgetbridge-style projects)
 - **ForgeFed / federation experiments** (early ActivityPub-for-git work)
 - **European / GDPR-focused software** (projects moving from GitHub for sovereignty reasons)
-- **Gentoo** mirror → https://codeberg.org/gentoo/gentoo (officially announced Feb 2026 as part of GitHub exit strategy)
+- **Gentoo** mirror → <https://codeberg.org/gentoo/gentoo> (officially announced Feb 2026 as part of GitHub exit strategy)
 - Various Weblate translation projects hosted on translate.codeberg.org
 - Static site generators, CLI tools, small utilities from FOSS enthusiasts avoiding big-tech platforms
 
 ### How to Find Currently Active / "Hot" Projects Yourself
 
-1. Visit https://codeberg.org/explore/repos
+1. Visit <https://codeberg.org/explore/repos>
    - Sort by **Most stars** → shows all-time popular ones (Gadgetbridge usually #1)
    - Sort by **Recently updated** → shows currently active development
    - Sort by **Recently created** → brand new projects
 
-2. Look at https://codeberg.org/explore/organizations → large orgs often have multiple active repos
+2. Look at <https://codeberg.org/explore/organizations> → large orgs often have multiple active repos
 
 3. Check recent commits / activity on major orgs:
-   - https://codeberg.org/forgejo
-   - https://codeberg.org/woodpecker-ci
-   - https://codeberg.org/Freeyourgadget
+   - <https://codeberg.org/forgejo>
+   - <https://codeberg.org/woodpecker-ci>
+   - <https://codeberg.org/Freeyourgadget>
 
-4. Follow Codeberg announcements / blog or join the https://codeberg.org/Codeberg/Community issue tracker for spotlight discussions.
+4. Follow Codeberg announcements / blog or join the <https://codeberg.org/Codeberg/Community> issue tracker for spotlight discussions.
 
 In summary: Codeberg is more about long-term sustainable FOSS than viral daily trends. **Gadgetbridge** remains the standout "star king". For what's moving right now, sort the explore page by recently updated or watch the Forgejo/Woodpecker organizations.
 

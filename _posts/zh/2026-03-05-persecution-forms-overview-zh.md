@@ -30,6 +30,7 @@ Answer:
 
 **国际法和难民法中的关键法律定义：**
 根据1951年《难民公约》及其1967年议定书，persecution 是严重侵犯人权的行为，威胁个人的生命、自由或安全，因为以下五种受保护理由之一：
+
 1. Race（种族）
 2. Religion（宗教）
 3. Nationality（国籍）
@@ -37,6 +38,7 @@ Answer:
 5. Political opinion（政治意见）
 
 **迫害的例子：**
+
 - Jews during the Holocaust
 - Rohingya Muslims in Myanmar
 - Christians in parts of the Middle East and North Korea

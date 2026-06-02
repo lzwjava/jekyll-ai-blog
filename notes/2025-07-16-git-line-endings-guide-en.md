@@ -51,6 +51,7 @@ The common values:
   ```bash
   git config --global core.autocrlf true
   ```
+
 * **Linux/macOS**:
 
   ```bash

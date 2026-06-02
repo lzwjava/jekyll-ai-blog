@@ -19,6 +19,7 @@ First-Hop Redundancy Protocols (FHRP) are a family of networking protocols desig
 FHRPs solve this single point of failure by allowing multiple physical routers to **share a virtual IP address** and **virtual MAC address** that act as the default gateway for hosts. Only one router (the active/primary/master) forwards traffic at a time, while the others (standby/backup/slave) remain ready to take over instantly if the active one fails.
 
 ### Key Benefits
+
 - High availability – sub-second failover in most cases
 - No need to change host default gateway configuration
 - Transparent to end devices (they always point to the same virtual IP)
@@ -33,6 +34,7 @@ FHRPs solve this single point of failure by allowing multiple physical routers t
 | GLBP           | Cisco       | Gateway Load Balancing Protocol (proprietary)                              | Virtual IP + Multiple virtual MACs (AVF)          | Yes – active load balancing across multiple routers |
 
 ### How They Work (General Principle)
+
 1. Routers participating in the FHRP form a group and share a **virtual IP address** (the default gateway seen by hosts).
 2. They elect one router as **active/master** and another as **standby/backup**.
 3. The active router owns the virtual IP and responds to ARP requests with a **virtual MAC address**.

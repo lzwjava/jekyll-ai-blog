@@ -10,14 +10,17 @@ type: note
 ---
 
 ## Red Hat Linux 简介
+
 Red Hat Enterprise Linux (RHEL) 是由红帽公司开发的领先开源操作系统。它专为企业环境设计，为关键任务应用提供稳定性、安全性和强大支持。RHEL 广泛应用于服务器、云环境和企业 IT 基础设施。
 
 ### 发展历程
+
 - **1994年**：红帽 Linux 作为商业 Linux 发行版首次发布
 - **2002年**：红帽推出企业级可靠性的 Red Hat Enterprise Linux
 - **2025年**：RHEL 9 是最新主要版本，RHEL 10 正在开发中，提供增强安全性和容器支持等先进功能
 
 ### 核心特性
+
 - **稳定性**：每个主要版本提供10年生命周期的长期支持(LTS)
 - **安全性**：具备 SELinux（安全增强型Linux）、firewalld 和定期安全补丁
 - **性能**：针对高性能计算、虚拟化和云部署进行优化
@@ -25,7 +28,9 @@ Red Hat Enterprise Linux (RHEL) 是由红帽公司开发的领先开源操作系
 - **生态系统**：与 Red Hat OpenShift、Ansible 等 DevOps 和自动化工具集成
 
 ## 安装指南
+
 ### 系统要求
+
 - **最低配置**：
   - 1.5 GB 内存
   - 20 GB 磁盘空间
@@ -36,6 +41,7 @@ Red Hat Enterprise Linux (RHEL) 是由红帽公司开发的领先开源操作系
   - 多核处理器
 
 ### 安装步骤
+
 1. **下载 RHEL**：
    - 从[红帽客户门户](https://access.redhat.com)获取 RHEL ISO（需要订阅或开发者账户）
    - 非生产环境可使用免费开发者订阅
@@ -54,20 +60,25 @@ Red Hat Enterprise Linux (RHEL) 是由红帽公司开发的领先开源操作系
    - 附加订阅：`subscription-manager attach --auto`
 
 ## 系统管理
+
 ### 软件包管理
+
 RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
+
 - 安装软件包：`sudo dnf install <软件包名>`
 - 系统更新：`sudo dnf update`
 - 搜索软件包：`sudo dnf search <关键词>`
 - 启用仓库：`sudo subscription-manager repos --enable <仓库ID>`
 
 ### 用户管理
+
 - 添加用户：`sudo useradd -m <用户名>`
 - 设置密码：`sudo passwd <用户名>`
 - 修改用户：`sudo usermod -aG <用户组> <用户名>`
 - 删除用户：`sudo userdel -r <用户名>`
 
 ### 文件系统管理
+
 - 检查磁盘使用：`df -h`
 - 列出挂载文件系统：`lsblk`
 - 磁盘分区管理：使用 `fdisk` 或 `parted`
@@ -77,6 +88,7 @@ RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
   - 创建逻辑卷：`lvcreate -L <大小> -n <逻辑卷名> <卷组名>`
 
 ### 网络配置
+
 - 使用 `nmcli` 配置网络：
   - 列出连接：`nmcli connection show`
   - 添加静态 IP：`nmcli con mod <连接名> ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.method manual`
@@ -86,6 +98,7 @@ RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
   - 重载防火墙：`sudo firewall-cmd --reload`
 
 ### 安全配置
+
 - **SELinux**：
   - 检查状态：`sestatus`
   - 设置模式（强制/宽容）：`sudo setenforce 0`（宽容模式）或 `sudo setenforce 1`（强制模式）
@@ -97,7 +110,9 @@ RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
   - 重启 SSH：`sudo systemctl restart sshd`
 
 ## 高级功能
+
 ### 容器与虚拟化
+
 - **Podman**：RHEL 的无根容器工具
   - 运行容器：`podman run -it docker.io/library/centos bash`
   - 构建镜像：`podman build -t <镜像名> .`
@@ -106,8 +121,10 @@ RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
   - 启动 libvirt：`sudo systemctl start libvirtd`
 
 ### Ansible 自动化
+
 - 安装 Ansible：`sudo dnf install ansible`
 - 创建剧本：
+
   ```yaml
   - name: 安装 Apache
     hosts: all
@@ -117,14 +134,17 @@ RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
           name: httpd
           state: present
   ```
+
 - 运行剧本：`ansible-playbook playbook.yml`
 
 ### 云集成
+
 - RHEL 与 AWS、Azure 和 Google Cloud 集成
 - 使用 Red Hat OpenShift 进行容器编排
 - 通过 Red Hat Cloud Access 在云环境中部署 RHEL 镜像
 
 ## 故障排除
+
 - **日志检查**：查看 `/var/log` 系统日志（如 `/var/log/messages` 或 `/var/log/secure`）
 - **Systemd 管理**：使用 `systemctl` 管理服务：
   - 检查服务状态：`systemctl status <服务名>`
@@ -133,12 +153,14 @@ RHEL 使用 **DNF**（Dandified YUM）进行软件包管理
 - **网络诊断**：使用 `ping`、`traceroute` 或 `nslookup` 进行网络诊断
 
 ## 最佳实践
+
 - 定期更新系统修补漏洞
 - 使用强密码并强制执行 SELinux 策略
 - 使用 `rsync` 或红帽 `rear` 等工具备份关键数据
 - 使用 Cockpit（`sudo dnf install cockpit`）等工具监控系统健康状态
 
 ## 资源链接
+
 - [红帽客户门户](https://access.redhat.com)
 - [RHEL 文档中心](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux)
 - [红帽开发者计划](https://developers.redhat.com)

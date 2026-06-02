@@ -40,6 +40,7 @@ Sessions are stored in memory by default (e.g., Tomcat's `StandardManager`), but
 In plain servlets (e.g., javax.servlet):
 
 - **Obtain a Session**:
+
   ```java
   HttpServletRequest request = // from doGet/doPost
   HttpSession session = request.getSession(); // Creates if none exists
@@ -47,17 +48,20 @@ In plain servlets (e.g., javax.servlet):
   ```
 
 - **Store/Retrieve Data**:
+
   ```java
   session.setAttribute("username", "exampleUser");
   String user = (String) session.getAttribute("username");
   ```
 
 - **Invalidate**:
+
   ```java
   session.invalidate();
   ```
 
 Configure timeouts in `web.xml`:
+
 ```xml
 <session-config>
     <session-timeout>30</session-timeout> <!-- in minutes -->
@@ -70,6 +74,7 @@ Spring builds on servlet sessions but offers abstractions:
 
 - **Using HttpSession Directly**:
   Similar to servlets; inject it in controllers:
+
   ```java
   @Controller
   public class MyController {
@@ -83,6 +88,7 @@ Spring builds on servlet sessions but offers abstractions:
 
 - **Spring Security Integration**:
   If using Spring Security, sessions manage authentication. Configure in `application.properties`:
+
   ```
   server.servlet.session.timeout=30m
   ```
@@ -91,10 +97,12 @@ Spring builds on servlet sessions but offers abstractions:
   For distributed setups, use Spring Session with Redis or JDBC:
   - Add dependency: `spring-session-data-redis`.
   - Configure in `@Configuration` class:
+
     ```java
     @EnableRedisHttpSession
     public class SessionConfig { }
     ```
+
   This makes sessions scalable across servers, storing JSESSIONID linkage in Redis.
 
 ### Best Practices and Security

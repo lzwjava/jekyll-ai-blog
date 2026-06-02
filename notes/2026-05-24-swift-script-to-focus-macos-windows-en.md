@@ -66,5 +66,6 @@ Step 5: Post synthetic mouse events via CGEvent:
 | `/tmp/raise_window.swift` | Simpler variant — just activates app, no click |
 
 If you want this to be more robust, I could:
+
 1. Install `cliclick` (`brew install cliclick`) — a tiny CLI for synthetic mouse/keyboard events, simpler than compiling Swift
 2. Grant accessibility access so I can use AppleScript for clean window raising without clicks

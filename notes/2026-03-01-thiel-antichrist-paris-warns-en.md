@@ -16,6 +16,7 @@ Answer:
 Peter Thiel spoke at the Academy of Moral and Political Sciences in Paris on January 26, 2026. The event was held behind closed doors at the Institute of France and was kept secret until shortly before it occurred. His presentation focused on the theme of the **Antichrist**, continuing a series of lectures he has given on this topic in other locations.
 
 According to reports:
+
 - Thiel introduced himself as "a moderate Orthodox Christian and a humble classical liberal, with one seemingly minor deviation from classical liberal orthodoxy: I worry about the Antichrist."
 - He discussed how the Antichrist would exploit fears of apocalypse, such as those related to nuclear Armageddon, climate change, or other existential threats.
 - One attendee described hearing more about the Antichrist in those 45 minutes than in the rest of their life.

@@ -12,12 +12,14 @@ type: note
 Interesting parallel. The analogy holds in some ways but breaks down in crucial ones.
 
 **Where it maps:**
+
 - You have 200-300 "processes" (employees) running
 - Some are mission-critical (WeChat, Safari), some are bloat you forgot about
 - Removing unused ones frees up resources (RAM ↔ budget/salary)
 - An audit reveals who's actually contributing vs. idling
 
 **Where it breaks:**
+
 - iOS apps don't have feelings, career progression, or legal protections
 - An app you remove today can be reinstalled in 10 seconds — firing is permanent
 - The cost/benefit per "app" is simple: disk space + occasional background CPU vs. nothing. For a person it's salary + benefits + desk + management overhead vs. actual output, which is harder to measure

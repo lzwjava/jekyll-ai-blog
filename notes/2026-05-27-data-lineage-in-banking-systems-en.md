@@ -27,6 +27,7 @@ Data lineage is the **full lifecycle tracking of data** — where it originates,
 ```
 
 At its core it answers:
+
 1. **Where did this number come from?** (upstream lineage)
 2. **What breaks if I change this field?** (downstream impact)
 3. **Was this data compliant when it was used?** (audit trail)
@@ -52,12 +53,15 @@ BCBS 239 is the biggest driver. It explicitly requires that "a bank should be ab
 ## The Three Levels of Lineage
 
 ### 1. Table-level (coarse)
+
 ```
 raw.transactions → mart.daily_pnl → report.risk_dashboard
 ```
+
 Easy to build. Not enough for regulators.
 
 ### 2. Column-level (medium)
+
 ```
 raw.transactions.amount
   → [sum, group by trade_date]
@@ -65,15 +69,18 @@ raw.transactions.amount
   → [*fx_rate]
   → report.risk_dashboard.usd_equivalent
 ```
+
 This is the minimum viable lineage for BCBS 239.
 
 ### 3. Value-level / Record-level (fine)
+
 ```
 trade_id=T12345, amount=1,000,000 CNY
   → fx_rate=7.24 (sourced from Reuters 2024-01-15 09:00 UTC)
   → usd_equivalent=138,122.17
   → appears in row 47 of RWA report filed 2024-01-16
 ```
+
 Required for specific audit requests. Very expensive to store.
 
 ---
@@ -81,6 +88,7 @@ Required for specific audit requests. Very expensive to store.
 ## How to Build It: Architecture Patterns
 
 ### Pattern 1: Passive / Metadata Harvesting
+
 Don't change pipelines. **Parse existing artifacts** to extract lineage.
 
 ```python
@@ -174,6 +182,7 @@ client.emit(RunEvent(
 dbt natively generates lineage via `ref()` macros:
 
 {% raw %}
+
 ```sql
 -- models/mart/daily_pnl.sql
 {{ config(materialized='table') }}
@@ -187,6 +196,7 @@ JOIN {{ ref('fx_rates') }} fx
   AND t.trade_date = fx.rate_date
 GROUP BY t.trade_date
 ```
+
 {% endraw %}
 
 dbt compiles this into a full lineage graph:
@@ -286,7 +296,7 @@ emitter.emit(upstream_lineage)
 | **Spark** | Python/Scala | OpenLineage Spark integration (automatic, no code changes) |
 | **Kafka** | Streaming | Schema Registry + custom lineage events per topic |
 
-### Snowflake specifically (common in modern bank platforms):
+### Snowflake specifically (common in modern bank platforms)
 
 ```sql
 -- Snowflake has access_history showing column-level lineage
@@ -301,7 +311,7 @@ WHERE query_start_time > dateadd('day', -1, current_timestamp())
 ORDER BY query_start_time DESC;
 ```
 
-### Spark OpenLineage (zero-code instrumentation):
+### Spark OpenLineage (zero-code instrumentation)
 
 ```bash
 # Add to spark-submit — automatic lineage for all Spark jobs
@@ -387,10 +397,12 @@ result.walk()  # → traces back to raw.transactions.amount and ref.fx_rates.rat
 ```
 
 For stored procedures with dynamic SQL — you can't parse statically. Your options:
+
 1. Runtime tracing (instrument the DB engine)
 2. LLM-assisted parsing — feed the proc to Claude, extract the lineage graph as JSON
 
 {% raw %}
+
 ```python
 # AI-assisted lineage extraction for complex stored procs
 import anthropic
@@ -417,6 +429,7 @@ Stored procedure:
 )
 lineage_json = response.content[0].text
 ```
+
 {% endraw %}
 
 This works surprisingly well for complex PL/SQL and T-SQL procs that static parsers choke on.

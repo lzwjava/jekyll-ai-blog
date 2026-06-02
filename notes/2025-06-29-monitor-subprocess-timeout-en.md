@@ -80,6 +80,7 @@ if __name__ == "__main__":
 ```
 
 ### Explanation
+
 - **Subprocess**: Uses `subprocess.Popen` to run `mvn clean compile` (adjust the command as needed; for simple `mvn build`, it might be `['mvn', 'build']` or wrapped in `cmd /c` if needed). It's run asynchronously with pipes for stdout and stderr.
 - **Queue Threading**: A separate thread reads from stdout and stderr line by line (to avoid reading entire output at once), decodes it, and puts lines into a `queue.Queue`. This allows non-blocking reads.
 - **Timeout Monitoring**: In the main thread, check the queue for new output with `get(timeout=10)`. If no output arrives in 10 seconds, terminate the subprocess and exit.

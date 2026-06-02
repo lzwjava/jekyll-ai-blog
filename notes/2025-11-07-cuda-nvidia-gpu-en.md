@@ -14,7 +14,7 @@ The reason your Lenovo XiaoXin's GPU can't be used with CUDA is straightforward:
 
 Your system has an **Intel UHD Graphics (Alder Lake-P GT1)** integrated GPU, which is Intel's graphics processor. CUDA (Compute Unified Device Architecture) is exclusively designed for NVIDIA graphics cards.
 
-## Your Options for GPU Computing on Intel Graphics:
+## Your Options for GPU Computing on Intel Graphics
 
 1. **Intel oneAPI / SYCL**
    - Intel's equivalent to CUDA
@@ -30,9 +30,10 @@ Your system has an **Intel UHD Graphics (Alder Lake-P GT1)** integrated GPU, whi
    - If you're doing machine learning/deep learning
    - Optimized for Intel hardware (CPUs and GPUs)
 
-## Why CUDA Shows as Not Detected:
+## Why CUDA Shows as Not Detected
 
 The script correctly reports "CUDA/NVIDIA drivers not detected" because:
+
 - No NVIDIA GPU is present in your system
 - No NVIDIA drivers are installed
 - CUDA toolkit (if installed) has nothing to run on

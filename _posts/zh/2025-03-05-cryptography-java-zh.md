@@ -13,13 +13,16 @@ Java 的 `javax.crypto` 包提供了一系列用于执行加密、解密、密�
 ---
 
 ### **什么是 javax.crypto？**
+
 `javax.crypto` 包是 Java 密码学架构（JCA）的一部分，它提供了通过密码学实现安全通信的工具。它支持：
+
 - **对称密码学**：使用相同的密钥进行加密和解密（例如 AES、DES）。
 - **非对称密码学**：使用公钥/私钥对（例如 RSA）。
 - **消息认证**：确保数据的完整性和真实性（例如 HMAC）。
 - **密钥生成和管理**：用于创建和处理密码学密钥的工具。
 
 要使用 `javax.crypto`，你需要：
+
 1. 选择一个密码学算法。
 2. 生成或获取必要的密钥。
 3. 使用提供的类（例如 `Cipher`、`KeyGenerator`、`Mac`）来执行操作。
@@ -29,14 +32,17 @@ Java 的 `javax.crypto` 包提供了一系列用于执行加密、解密、密�
 ---
 
 ### **1. 使用 AES 进行对称加密**
+
 对称加密使用单个密钥进行加密和解密。以下是如何使用 `Cipher` 类，在 CBC 模式下使用 PKCS5 填充，通过 AES（高级加密标准）对字符串进行加密和解密。
 
 #### **步骤**
+
 - 生成一个秘密密钥。
 - 创建并初始化一个 `Cipher` 实例。
 - 加密和解密数据。
 
 #### **示例代码**
+
 ```java
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -80,6 +86,7 @@ public class SymmetricEncryptionExample {
 ```
 
 #### **关键点**
+
 - **算法**：`"AES/CBC/PKCS5Padding"` 指定了使用 CBC 模式和填充的 AES，以处理不是块大小倍数的数据。
 - **IV**：初始化向量在加密时必须是随机的，并在解密时重复使用。它通常预置在密文之前或单独传输。
 - **密钥管理**：在实际应用中，需要安全地与接收方共享 `secretKey`。
@@ -87,14 +94,17 @@ public class SymmetricEncryptionExample {
 ---
 
 ### **2. 使用 RSA 进行非对称加密**
+
 非对称加密使用公钥加密，使用私钥解密。以下是一个使用 RSA 的示例。
 
 #### **步骤**
+
 - 生成一个公钥/私钥对。
 - 使用公钥加密。
 - 使用私钥解密。
 
 #### **示例代码**
+
 ```java
 import javax.crypto.Cipher;
 import java.security.KeyPair;
@@ -132,15 +142,18 @@ public class AsymmetricEncryptionExample {
 ```
 
 #### **关键点**
+
 - **大小限制**：RSA 只能加密小于密钥大小的数据（例如，对于 2048 位密钥，约为 245 字节）。对于更大的数据，请使用混合加密（使用对称密钥加密数据，然后使用 RSA 加密该密钥）。
 - **密钥分发**：公开共享公钥；私钥必须保密。
 
 ---
 
 ### **3. 使用 HMAC 进行消息认证**
+
 消息认证码（MAC）确保数据的完整性和真实性。以下是如何使用 `Mac` 与 HMAC-SHA256。
 
 #### **示例代码**
+
 ```java
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -169,15 +182,18 @@ public class MacExample {
 ```
 
 #### **关键点**
+
 - **验证**：接收方使用相同的密钥和数据重新计算 MAC；如果匹配，则数据是真实且未被篡改的。
 - **密钥**：使用预先安全分发的共享秘密密钥。
 
 ---
 
 ### **4. 加密/解密流**
+
 对于大型数据（例如文件），使用 `CipherInputStream` 或 `CipherOutputStream`。
 
 #### **示例代码（加密文件）**
+
 ```java
 import javax.crypto.Cipher;
 import javax.crypto.CipherOutputStream;
@@ -217,15 +233,18 @@ public class StreamEncryptionExample {
 ```
 
 #### **关键点**
+
 - **流**：使用 `CipherOutputStream` 进行加密，使用 `CipherInputStream` 进行解密，以增量方式处理数据。
 - **IV 处理**：将 IV 与加密文件一起存储（例如，预置在文件开头）。
 
 ---
 
 ### **5. 基于密码的加密（PBE）**
+
 使用 `SecretKeyFactory` 从密码派生密钥。
 
 #### **示例代码**
+
 ```java
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
@@ -260,12 +279,14 @@ public class PBEExample {
 ```
 
 #### **关键点**
+
 - **盐**：随机化密钥派生；将其与加密数据一起存储。
 - **迭代次数**：增加计算成本以抵御暴力攻击（例如 10,000 次）。
 
 ---
 
 ### **javax.crypto 中的关键类**
+
 - **`Cipher`**：执行加密和解密。
 - **`KeyGenerator`**：生成对称密钥（例如 AES）。
 - **`KeyPairGenerator`**：生成非对称密钥对（例如 RSA）。
@@ -276,6 +297,7 @@ public class PBEExample {
 ---
 
 ### **最佳实践**
+
 - **异常处理**：将代码包装在 try-catch 块中，以处理诸如 `NoSuchAlgorithmException`、`InvalidKeyException` 等异常。
 - **密钥管理**：安全地存储密钥（例如在 `KeyStore` 中），切勿硬编码。
 - **算法选择**：使用安全的算法（例如 AES-256、RSA-2048）和模式（例如带 IV 的 CBC）。
@@ -284,4 +306,5 @@ public class PBEExample {
 ---
 
 ### **结论**
+
 要使用 `javax.crypto`，请根据你的需求选择合适的密码学算法，生成或获取密钥，并利用 `Cipher`、`KeyGenerator` 和 `Mac` 等类来执行操作。无论是使用 AES 进行对称加密、使用 RSA 进行非对称加密，还是使用 HMAC 确保完整性，`javax.crypto` 都提供了相应的工具——结合适当的初始化和安全的密钥管理——可以在 Java 中实现强大的密码学功能。

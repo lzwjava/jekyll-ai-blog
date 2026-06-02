@@ -65,6 +65,7 @@ Tianqi Chen's work, particularly through XGBoost, has had a profound impact on t
 ---
 
 **References:**
+
 - [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/)
 - [Tianqi Chen's Publications](https://scholar.google.com/citations?user=YOUR_USER_ID) *(Replace with actual link if available)*
 - [TVM Project](https://tvm.apache.org/)

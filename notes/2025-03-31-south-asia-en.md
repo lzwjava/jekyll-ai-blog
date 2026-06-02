@@ -14,9 +14,9 @@ It appears you're interested in a comparative overview of South Asian countries 
 
 * **Largest Economy:** India has the largest economy in South Asia, with a nominal GDP of approximately **$4.11 trillion USD** (2022). It makes up almost 80% of the South Asian economy.
 * **Other Significant Economies:**
-    * Bangladesh: **$460.75 billion USD** (2022)
-    * Pakistan: **$374.6 billion USD** (2024)
-    * Sri Lanka, Nepal, Bhutan, Maldives, and Afghanistan have significantly smaller economies.
+  * Bangladesh: **$460.75 billion USD** (2022)
+  * Pakistan: **$374.6 billion USD** (2024)
+  * Sri Lanka, Nepal, Bhutan, Maldives, and Afghanistan have significantly smaller economies.
 
 **Population:**
 
@@ -39,8 +39,8 @@ It appears you're interested in a comparative overview of South Asian countries 
 
 * **Varying Levels:** English fluency varies significantly across South Asian countries.
 * **Higher Proficiency:**
-    * **India:** Has a large English-speaking population, with estimates around 40% of citizens using English in addition to their native languages. Ranked 50th globally in English Proficiency Index in one report.
-    * **Philippines:** While geographically Southeast Asian, it's often compared and has high English proficiency (ranked 27th globally).
+  * **India:** Has a large English-speaking population, with estimates around 40% of citizens using English in addition to their native languages. Ranked 50th globally in English Proficiency Index in one report.
+  * **Philippines:** While geographically Southeast Asian, it's often compared and has high English proficiency (ranked 27th globally).
 * **Moderate to Lower Proficiency:** Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan generally have lower levels of widespread English fluency compared to India and the Philippines. Thailand (ranked 101st globally in 2024) is also in Asia but not South Asia and has "Very Low proficiency."
 
 **Education:**
@@ -54,19 +54,19 @@ It appears you're interested in a comparative overview of South Asian countries 
 
 * **Global Innovation Index (GII):** This index provides a benchmark for innovation capabilities.
 * **South Asian Representation:**
-    * **India:** Ranked 39th in the GII 2024 and is among the fastest 10-year climbers.
-    * **Pakistan and Indonesia:** Are mentioned as innovation overperformers for a third consecutive year in 2024 (Indonesia is geographically Southeast Asian).
-    * Specific GII rankings for all South Asian countries in 2024 were not available in the provided snippets.
+  * **India:** Ranked 39th in the GII 2024 and is among the fastest 10-year climbers.
+  * **Pakistan and Indonesia:** Are mentioned as innovation overperformers for a third consecutive year in 2024 (Indonesia is geographically Southeast Asian).
+  * Specific GII rankings for all South Asian countries in 2024 were not available in the provided snippets.
 * **Key Drivers:** Innovation is being driven by increasing digital economies, government support for R&D, and growing startup ecosystems in some South Asian nations.
 
 **Technology Driven:**
 
 * **Growing Tech Sectors:** Several South Asian countries have rapidly growing technology sectors, particularly in IT and software development.
 * **Key Players:**
-    * **India:** Has a well-established and renowned IT outsourcing industry.
-    * **Bangladesh:** Emerging as a significant player in IT outsourcing, moving towards more complex services like software development and cloud computing.
-    * **Sri Lanka:** A popular location for software development teams due to cost-effectiveness and skilled professionals.
-    * **Vietnam:** (Southeast Asian) is also a top destination for cost-effective software outsourcing with a high growth rate in the sector.
+  * **India:** Has a well-established and renowned IT outsourcing industry.
+  * **Bangladesh:** Emerging as a significant player in IT outsourcing, moving towards more complex services like software development and cloud computing.
+  * **Sri Lanka:** A popular location for software development teams due to cost-effectiveness and skilled professionals.
+  * **Vietnam:** (Southeast Asian) is also a top destination for cost-effective software outsourcing with a high growth rate in the sector.
 * **Government Initiatives:** Many South Asian governments are promoting digitalization and providing incentives for IT companies.
 
 **In Summary:**

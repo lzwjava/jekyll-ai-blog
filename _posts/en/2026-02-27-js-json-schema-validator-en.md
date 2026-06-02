@@ -16,6 +16,7 @@ type: note
 The **ajv** npm package is a high-performance **JSON Schema validator** for JavaScript. It stands for "Another JSON Validator" and is widely regarded as **the fastest JSON Schema validator** available for both Node.js and browser environments.
 
 ### Main features
+
 - Supports multiple JSON Schema drafts: draft-04 (with additional package), draft-06, draft-07, draft/2019-09, and draft/2020-12.
 - Supports **JSON Type Definition** (JTD — RFC 8927).
 - Compiles JSON Schemas into highly optimized JavaScript validation functions (code generation), which enables very fast validation and good V8 engine optimization.

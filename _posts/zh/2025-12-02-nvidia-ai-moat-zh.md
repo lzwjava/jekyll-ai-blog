@@ -38,6 +38,7 @@ NVIDIA 在 AI/数据中心 GPU 领域的“护城河”目前异常宽广深远�
 AMD、英特尔和初创公司（Groq、Cerebras、Tenstorrent 等）在硬件方面进步迅速，但软件生态系统、互连规模和内存供应将使 NVIDIA 在未来 3-4 年内在大规模 AI 训练和推理领域几乎无法被取代。
 
 2025-2030 年间对 NVIDIA 主导地位的唯一现实威胁是：
+
 - CUDA 兼容性方面的重大突破（例如，AMD + Meta + OpenAI 真正使 ROCm 达到生产级规模）
 - 超大规模云服务商的定制芯片（Google TPU、Amazon Trainium/Inferentia、Microsoft Maia）蚕食高端市场
 - 美中出口管制讽刺性地长期帮助中国 GPU 公司发展

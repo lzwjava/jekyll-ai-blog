@@ -24,16 +24,19 @@ The entry point is the Pro plan at $20/month, which Anthropic opened to all paid
 ## Plan Comparison: Pro vs. Max
 
 ### Pro Plan — $20/month
+
 Pro includes Claude Code and Cowork, access to unlimited projects, access to Research, the ability to use more Claude models, and beta access to Claude for Excel and PowerPoint.
 
 Pro is good for getting started with Cowork, but Cowork consumes significantly more tokens than regular chat conversations, so Pro users may hit usage limits faster when running extended Cowork sessions.
 
 ### Max Plan — $100/month (5x) or $200/month (20x)
+
 The Max plan offers substantially higher usage compared to Pro and comes in two tiers: Max 5x provides 5 times more usage per session than Pro (ideal for frequent users), and Max 20x provides 20 times more usage (ideal for daily users who collaborate heavily with Claude).
 
 Max includes everything in Pro, plus the choice of 5x or 20x more usage, higher output limits for all tasks, early access to advanced Claude features, and priority access at high traffic times.
 
 ### Key Usage Numbers
+
 Max 5x provides around 225+ messages per 5-hour window, while Max 20x offers around 900+ messages per 5-hour window. A single Cowork session organizing files or generating reports might use as much quota as dozens of regular chat messages.
 
 ---

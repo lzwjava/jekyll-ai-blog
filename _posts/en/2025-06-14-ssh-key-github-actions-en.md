@@ -12,28 +12,37 @@ To generate an SSH key for GitHub Actions to deploy a JAR file, follow these ste
 
 1. **Generate an SSH Key Pair**:
    - On your local machine or a secure environment, run:
+
      ```bash
      ssh-keygen -t ed25519 -C "your_email@example.com" -f github-actions-deploy
      ```
+
    - If your system doesn't support Ed25519, use:
+
      ```bash
      ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f github-actions-deploy
      ```
+
    - Press Enter to accept the default file location and optionally set a passphrase (recommended for security). This creates two files:
      - `github-actions-deploy` (private key)
      - `github-actions-deploy.pub` (public key)
 
 2. **Add the Public Key to the Target Server**:
    - Copy the public key:
+
      ```bash
      cat github-actions-deploy.pub
      ```
+
    - Log in to the server where you'll deploy the JAR file.
    - Append the public key to `~/.ssh/authorized_keys` on the server:
+
      ```bash
      echo "your-public-key-content" >> ~/.ssh/authorized_keys
      ```
+
    - Ensure the `authorized_keys` file has the correct permissions:
+
      ```bash
      chmod 600 ~/.ssh/authorized_keys
      ```
@@ -43,9 +52,11 @@ To generate an SSH key for GitHub Actions to deploy a JAR file, follow these ste
    - Click **New repository secret**.
    - Name the secret (e.g., `SSH_PRIVATE_KEY`).
    - Paste the contents of the private key (`github-actions-deploy`):
+
      ```bash
      cat github-actions-deploy
      ```
+
    - Save the secret.
 
 4. **Configure the GitHub Actions Workflow**:
@@ -96,23 +107,25 @@ To generate an SSH key for GitHub Actions to deploy a JAR file, follow these ste
      ```
 {% endraw %}
 
-   - **Notes**:
-     - Replace `target/your-app.jar` with the path to your JAR file.
-     - Replace `user@<server-ip-or-hostname>` with your server's SSH user and address.
-     - Adjust the deployment command (e.g., `sudo systemctl restart your-service`) to match how you start or deploy the JAR on your server.
-     - The `known_hosts` step is critical to avoid SSH host verification issues. If you know the server's host key, you can pre-populate it in the `shimataro/ssh-key-action` step, or use `ssh-keyscan` as shown.
+- **Notes**:
+  - Replace `target/your-app.jar` with the path to your JAR file.
+  - Replace `user@<server-ip-or-hostname>` with your server's SSH user and address.
+  - Adjust the deployment command (e.g., `sudo systemctl restart your-service`) to match how you start or deploy the JAR on your server.
+  - The `known_hosts` step is critical to avoid SSH host verification issues. If you know the server's host key, you can pre-populate it in the `shimataro/ssh-key-action` step, or use `ssh-keyscan` as shown.
 
 5. **Secure the Workflow**:
    - Ensure the private key is never exposed in logs or outputs.
    - Restrict repository permissions to prevent unauthorized access to secrets.
    - If using a passphrase for the SSH key, add it as another secret and include it in the `shimataro/ssh-key-action` step:
 {% raw %}
+
      ```yaml
      with:
        key: ${{ secrets.SSH_PRIVATE_KEY }}
        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
        known_hosts: 'optional-known-hosts'
      ```
+
 {% endraw %}
 
 6. **Test the Workflow**:

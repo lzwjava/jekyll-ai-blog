@@ -17,6 +17,7 @@ type: note
 《黑神话：悟空》是一款受《西游记》启发的单人动作角色扮演游戏，玩家将扮演「天命人」（猴族战士）在远古神州大地上迎战神话巨兽。其战斗系统类似魂类游戏（闪避、格挡、精力管理）但更易上手，兼具行云流水的连招、形态变化与法术升级。主线流程约30-40小时，另包含探索内容与多周目模式。
 
 #### 必须安装Windows系统吗？（答案：不必）
+
 - **Ubuntu 22.04上的Steam**：Steam原生支持Linux系统。若未安装可通过以下步骤实现：
   1. 打开终端执行：`sudo apt update && sudo apt install steam`
   2. 启动Steam登录账户并完成更新下载
@@ -30,6 +31,7 @@ type: note
 若执着于追求极致优化（特定场景下可能有5-10%性能提升），虽可便捷配置双系统，但对此游戏而言并非刚需。
 
 #### 获取与游玩指南
+
 1. **购买安装**：
    - 在Steam中搜索"Black Myth: Wukong"（应用ID：2358720），售价约60美元/430人民币，常有折扣活动
    - 安装容量约130GB，1TB固态硬盘绰绰有余（可配合机械硬盘扩展存储）
@@ -53,6 +55,7 @@ type: note
 若遇操作配置难题，Lutris或Heroic启动器可作为备选方案，但Steam Proton仍是最简选择。尽情享受这场2024年度史诗级战斗吧！
 
 #### 参考资源
+
 - [Steam商店页面](https://store.steampowered.com/app/2358720/Black_Myth_Wukong/)
 - [ProtonDB兼容报告](https://www.protondb.com/app/2358720)
 - [Reddit社区Proton性能测试](https://www.reddit.com/r/linux_gaming/comments/1er0biq/black_myth_wukong_has_a_free_benchmark_and_it/)

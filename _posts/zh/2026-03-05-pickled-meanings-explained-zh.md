@@ -45,8 +45,10 @@ type: note
 | Figurative        | Affected long-term (alcohol)  | His liver is completely pickled.            |
 
 如今最主要的两种含义是：
+
 - 腌制的酸味蔬菜/水果
 - 非常醉（幽默俚语）
 
 参考：
+
 - 此常用词定义无需参考

@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-这是来自官方维基媒体下载镜像之一的目录列表（通常是 https://dumps.wikimedia.org/enwiki/latest/）。
+这是来自官方维基媒体下载镜像之一的目录列表（通常是 <https://dumps.wikimedia.org/enwiki/latest/）。>
 其中包含了截至2025年11月初的当前英文维基百科文章的所有下载方式。
 
 ### 主要格式及其实际内容
@@ -39,6 +39,7 @@ enwiki-latest-pages-articles.xml.bz2    ← 压缩后24.6 GB，未压缩约85–
 两者包含完全相同的原始XML数据（所有主命名空间文章 + 大量额外页面）。
 
 ### 为什么不使用小文件（multistream3.xml-p…, multistream4.xml-p… 等）？
+
 这些是2010–2015年间非常旧的分割文件，仅包含维基百科的一小部分（当时恰好落入该页面ID范围内的文章）。它们仅为历史原因保留，现在基本上已无用。
 
 ### 快速开始命令（2025年转储）
@@ -66,6 +67,7 @@ wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.
 ```
 
 之后您通常使用以下工具进行处理：
+
 - wikiextractor (Python) → 清理文本
 - Hugging Face `datasets` 的维基百科加载器（已为您完成所有处理）
 - DeepSeek 或 EleutherAI 的处理脚本等

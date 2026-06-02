@@ -30,6 +30,7 @@ type: note
    ```ruby
    gem 'jekyll-sitemap'
    ```
+
 2. 在 `_config.yml` 中添加：
 
    ```yaml
@@ -48,6 +49,7 @@ type: note
 2. 添加以下 Liquid 模板：
 
 {% raw %}
+
    ```xml
    ---
    layout: nil
@@ -70,6 +72,7 @@ type: note
      {% endfor %}
    </urlset>
    ```
+
 {% endraw %}
 3. 确保 `_config.yml` 中设置了 `url: "https://yourdomain.com"` 以正确生成链接
 

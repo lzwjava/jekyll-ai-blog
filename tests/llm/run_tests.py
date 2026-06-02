@@ -20,7 +20,7 @@ def run_command(cmd, description=""):
     print("=" * 60)
 
     try:
-        result = subprocess.run(cmd, check=True, cwd=Path(__file__).parent)
+        subprocess.run(cmd, check=True, cwd=Path(__file__).parent)
         print(f"✅ {description or 'Command'} completed successfully")
         return True
     except subprocess.CalledProcessError as e:

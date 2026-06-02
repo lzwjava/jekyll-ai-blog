@@ -15,6 +15,7 @@ type: note
 OpenShift is an enterprise-grade, open-source container application platform developed by Red Hat (now part of IBM). It's built on top of Kubernetes, the de facto standard for container orchestration, and extends it with additional tools and services. OpenShift provides a complete PaaS (Platform as a Service) and CaaS (Container as a Service) solution, allowing developers to build, deploy, and manage cloud-native applications at scale.
 
 Key components include:
+
 - **Kubernetes core**: For orchestrating containers (e.g., pods, services, deployments).
 - **Developer tools**: Built-in CI/CD pipelines (using Jenkins or Tekton), source-to-image (S2I) for automated builds, and integrated registries.
 - **Security and operations**: Role-based access control (RBAC), multi-tenancy, image scanning, and monitoring via Prometheus and Grafana.
@@ -58,6 +59,7 @@ Pivotal Cloud Foundry (PCF) is a commercial distribution of the open-source Clou
 | **Community & Support** | Huge open-source community (Kubernetes foundation); Red Hat enterprise backing. | Active CF Foundation community; enterprise support via VMware. Less momentum post-Pivotal acquisition. |
 
 **Key Differences**:
+
 - **Philosophy**: OpenShift is "Kubernetes with batteries included" – extensible and ops-focused. PCF is more "developer-first PaaS" – abstracts away infrastructure for faster iteration.
 - **Maturity in Containers**: OpenShift excels in the container era (post-2015 Kubernetes boom), while PCF has evolved to support containers (via CF for VMs or integration with Kubernetes via Tanzu) but originated as a non-container PaaS.
 - **Learning Curve**: PCF is easier for traditional devs; OpenShift requires Kubernetes knowledge but offers more long-term flexibility.
@@ -66,6 +68,7 @@ Pivotal Cloud Foundry (PCF) is a commercial distribution of the open-source Clou
 ### Why Choose OpenShift Over PCF?
 
 Choose OpenShift if:
+
 - Your organization is committed to Kubernetes/containers for future-proofing (e.g., 80% of enterprises plan Kubernetes adoption per surveys).
 - You need deep customization, multi-tenancy, or hybrid cloud support – OpenShift shines in regulated or large-scale environments.
 - Cost and openness matter: It's more affordable at scale and fully open-source, avoiding PCF's higher licensing fees.
@@ -73,6 +76,7 @@ Choose OpenShift if:
 - Red Hat/IBM ecosystem appeals (e.g., integration with RHEL, IBM Cloud).
 
 Choose PCF instead if:
+
 - Your team wants a simple, low-ops PaaS for quick app deployments without Kubernetes expertise.
 - You're modernizing legacy apps (e.g., monoliths to 12-factor) and value VMware's tools (like Tanzu for Kubernetes add-ons).
 - Simplicity trumps extensibility, and you're already invested in VMware/AWS.

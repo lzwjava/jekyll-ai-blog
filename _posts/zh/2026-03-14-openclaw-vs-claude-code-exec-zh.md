@@ -28,6 +28,7 @@ result = subprocess.run(
 ```
 
 关键特性：
+
 - **无状态**：每次调用都会启动一个新的 shell —— 调用之间不共享状态（环境变量、`cd`）
 - **立即执行**：使用 `shell=True`，意味着 OS shell 解释字符串
 - **仅同步**：阻塞直到完成或 30s 超时
@@ -40,26 +41,32 @@ result = subprocess.run(
 OpenClaw 的设计远更复杂。主要差异：
 
 #### 执行目标（`host` 参数）
+
 OpenClaw 通过 `host` 参数支持多种执行目标：`sandbox`（默认，在容器内使用 `sh -lc` 登录 shell 运行）、`gateway`（在主机上运行）或 `node`（配对的远程设备）。每个都有自己的安全执行模式。
 
 #### 前台 + 后台执行
+
 OpenClaw 通过 `process` 工具支持前台和后台执行。后台执行时，它立即返回 `status: "running"` 和 `sessionId`，您可以使用 `process` 来轮询、日志、写入、杀死或清除后台会话。
 
 #### PTY（伪终端）支持
+
 OpenClaw 支持 `pty: true` 参数，用于在伪终端中运行命令，这对于仅 TTY CLI 和仅在 stdout 为真实终端时才产生输出的终端 UI 很有用。
 
 #### Shell 检测
+
 在非 Windows 主机上，OpenClaw 使用 `SHELL` 环境变量，但如果 shell 是 `fish`，则优先使用 PATH 中的 `bash`（或 `sh`）以避免 fish 不兼容的脚本。在 Windows 上，它优先使用 PowerShell 7，回退到 PowerShell 5.1。
 
 #### 安全与审批系统
+
 OpenClaw 在 gateway 或 node 主机上执行前有每个请求的审批系统。当需要审批时，exec 工具立即返回 `status: "approval-pending"` 和审批 ID。一旦审批通过（或拒绝/超时），Gateway 会发出系统事件。
 
 当 `security=allowlist` 时，shell 命令仅在每个管道段都列入允许列表时才自动允许。在 allowlist 模式下，连锁（`;`、`&&`、`||`）和重定向会被拒绝，除非每个顶级段都满足允许列表。
 
 #### 环境与 PATH 保护
+
 主机执行拒绝 `env.PATH` 和加载器覆盖（`LD_*/DYLD_*`）以防止二进制劫持或注入代码。OpenClaw 在生成的命令环境中设置 `OPENCLAW_SHELL=exec`，以便 shell/profile 规则检测 exec-tool 上下文。
 
-#### 大致内部结构（概念性）：
+#### 大致内部结构（概念性）
 
 ```
 exec(command, host, security, pty, background, yieldMs, env, elevated)

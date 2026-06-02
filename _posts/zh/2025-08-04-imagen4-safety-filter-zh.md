@@ -51,7 +51,7 @@ print(
 
 ---
 
-### 🧾 其他可选参数：
+### 🧾 其他可选参数
 
 * `person_generation="ALLOW_ADULT"` 是默认设置，但显式声明也无妨（阻止儿童图像；允许成人领域图像）([Google Cloud][1])。
 * `image_size="2K"` 在您的代码中是有效的——只需确保您的 SDK 版本支持此参数。

@@ -13,6 +13,7 @@ type: note
 Great question! Chinese bottled water does have interesting variety. Here's a practical approach:
 
 **What those terms mean:**
+
 - **硅酸 (guīsuān)** = silica/metasilicic acid - mineral water with silicon compounds, often marketed as good for skin/bones
 - **偏碱 (piān jiǎn)** = slightly alkaline - pH above 7, popular health trend
 - **喝开水 (hē kāishuǐ)** = literally "drink boiled water" - this might refer to purified/distilled water, or brands emphasizing the traditional Chinese practice of drinking boiled water
@@ -28,6 +29,7 @@ Since you're already buying variety and enjoying trying different ones at that p
 3. **Variety is fun** - Rotating keeps it interesting and lets you discover favorites without overthinking it.
 
 **Practical tips:**
+
 - Keep 2-3 different types at home, rotate through them
 - Note which ones you genuinely enjoy the taste of
 - Don't stress about the health claims - they're mostly marketing

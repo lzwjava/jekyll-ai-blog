@@ -25,12 +25,10 @@ In short, it is a **theoretical concept** — a perfect communication medium tha
 
 ### Key Characteristics
 
-
 - **Perfect Data Transmission:** The transmitted message is received exactly as it was sent.
 - **Zero Error Probability:** There is no alteration, deletion, or addition of bits during transmission.
 - **Simpler Encoding:** Since errors are absent, there is no need for complex error detection or correction mechanisms.
 - **High Efficiency:** Data transmission occurs at maximum possible speed without the need for retransmissions.
-
 
 ---
 
@@ -59,6 +57,7 @@ Maximum Data Rate = 2 × Bandwidth × log₂(V)
 ```
 
 Where:
+
 - **Bandwidth** = bandwidth of the channel (Hz)
 - **V** = number of discrete signal levels
 

@@ -11,6 +11,7 @@ type: note
 在 Spring 中调度任务是实现自动化重复作业（如发送邮件、生成报告或执行系统维护）的常见需求。Spring 通过 `@Scheduled` 注解和 Spring 任务调度器提供了强大易用的任务调度功能。下面我将逐步介绍配置方法并解释关键概念。
 
 ### 1. **在 Spring 应用中启用调度功能**
+
 要使用调度功能，您需要在 Spring 应用中通过配置类添加 `@EnableScheduling` 注解。
 
 ```java
@@ -29,6 +30,7 @@ public class SchedulerConfig {
 ---
 
 ### 2. **创建待调度任务**
+
 您可以在任何 Spring 管理的 Bean（如 `@Component` 或 `@Service`）中定义方法，并用 `@Scheduled` 进行注解。示例如下：
 
 ```java
@@ -47,34 +49,42 @@ public class MyScheduledTasks {
 ```
 
 此示例中：
+
 - `@Component` 将类声明为 Spring Bean
 - `@Scheduled(fixedRate = 5000)` 使方法每 5 秒（5000 毫秒）运行一次
 
 ---
 
 ### 3. **调度类型选项**
+
 Spring 提供多种定义任务执行时间的方式：
 
 #### a) **固定频率**
+
 - 以固定间隔执行任务，无论任务执行耗时
 - 示例：`@Scheduled(fixedRate = 5000)`（每 5 秒）
 
 #### b) **固定延迟**
+
 - 在上次执行完成后，延迟固定时间再执行下一次
 - 示例：`@Scheduled(fixedDelay = 5000)`（上次任务结束后 5 秒）
 
 #### c) **Cron 表达式**
+
 - 使用类 Cron 语法实现复杂调度（如"工作日早上 9 点"）
 - 示例：`@Scheduled(cron = "0 0 9 * * MON-FRI")`
 
 #### d) **初始延迟**
+
 - 延迟任务的首次执行。可与 `fixedRate` 或 `fixedDelay` 组合使用
 - 示例：`@Scheduled(fixedRate = 5000, initialDelay = 10000)`（10 秒后开始，之后每 5 秒执行）
 
 ---
 
 ### 4. **Cron 语法基础**
+
 使用 cron 时的快速参考：
+
 - 格式：`秒 分 时 日 月 周`
 - 示例：`@Scheduled(cron = "0 15 10 * * ?")`（每日 10:15 AM 执行）
 
@@ -92,6 +102,7 @@ Spring 提供多种定义任务执行时间的方式：
 ---
 
 ### 5. **依赖配置**
+
 若使用 Spring Boot，调度功能已默认包含在 `spring-boot-starter` 依赖中。非 Boot 的 Spring 项目需确保包含：
 
 ```xml
@@ -105,6 +116,7 @@ Spring 提供多种定义任务执行时间的方式：
 ---
 
 ### 6. **Spring Boot 完整示例**
+
 完整 Spring Boot 示例：
 
 ```java
@@ -141,6 +153,7 @@ class ScheduledTasks {
 ---
 
 ### 7. **自定义调度器（可选）**
+
 默认情况下 Spring 使用单线程调度器。如需并发执行任务，可配置自定义 `TaskScheduler`：
 
 ```java
@@ -166,5 +179,6 @@ public class SchedulerConfig {
 ---
 
 ### 8. **测试调度任务**
+
 - 运行应用并查看控制台日志验证任务按预期执行
 - 测试阶段可使用较短间隔（如每 2 秒）快速查看效果

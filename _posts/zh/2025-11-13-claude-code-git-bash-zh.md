@@ -13,11 +13,13 @@ type: note
 是的，根据最新动态，Claude Code（Anthropic推出的AI编程工具）在Windows系统上确实会触发`git-bash.exe`来执行shell命令。该工具通常使用Git Bash作为命令执行环境，特别是在未配置WSL的原生Windows系统中。这可能导致命令执行时弹出终端窗口，目前已有相关配置方案、扩展插件（如VS Code中的扩展）和故障排查步骤，用于确保Git Bash能被正确检测和使用。
 
 具体表现为：
+
 - 在原生Windows安装环境中，Claude Code依赖Git Bash提供类Unix兼容性来处理脚本和命令
 - 若被设为默认终端（例如在VS Code、Cursor等集成开发工具中），执行任务时会启动`git-bash.exe`
 - 现有已知故障报告和解决指南涉及Git安装路径中的空格字符或路径识别问题
 
 若遇到相关问题，建议依次检查：
+
 1. 系统PATH环境变量配置
 2. Git是否正确安装
 3. 集成开发环境中的终端配置文件

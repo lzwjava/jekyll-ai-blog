@@ -72,6 +72,7 @@ bootstrapApplication(AppComponent, {
 ### 3. Create the modal content component
 
 {% raw %}
+
 ```ts
 // confirm-dialog.component.ts
 import { Component, Input } from '@angular/core';
@@ -101,6 +102,7 @@ export class ConfirmDialogComponent {
   constructor(public activeModal: NgbActiveModal) {}
 }
 ```
+
 {% endraw %}
 
 ### 4. Open the modal from any component
@@ -209,7 +211,7 @@ Good luck!
 
 **References:**
 
-- https://ng-bootstrap.github.io/#/components/modal/examples
-- https://ng-bootstrap.github.io/#/components/modal/api
+- <https://ng-bootstrap.github.io/#/components/modal/examples>
+- <https://ng-bootstrap.github.io/#/components/modal/api>
 
 (no other external references needed for basic usage)

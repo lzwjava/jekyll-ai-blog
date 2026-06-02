@@ -17,6 +17,7 @@ Answer:
 `ping6` is the IPv6 version of the classic `ping` tool on macOS (and some other Unix-like systems). Unlike the GNU/Linux version, macOS's `ping6` (provided by Apple) has a slightly different syntax and does not support `--help` or long options.
 
 ### Basic Usage
+
 ```bash
 ping6 ipv6-address
 ping6 hostname
@@ -57,6 +58,7 @@ ping6 -b en0 2001:db8::1
 ```
 
 ### Quick Test if Your Mac Has IPv6 Connectivity
+
 ```bash
 ping6 -c 4 ipv6.google.com
 ```

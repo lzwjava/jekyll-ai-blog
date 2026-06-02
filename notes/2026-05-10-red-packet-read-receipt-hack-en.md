@@ -43,6 +43,7 @@ The underlying advice is genuinely good engineering practice:
 > **When AI chatbots fail on cutting-edge libraries** (like LangChain, Hermes, Lobster/crawlee with thousands of commits/month), don't ask the chatbot — it's stale.
 
 **Better workflow:**
+
 ```bash
 git clone <repo>
 # Use Claude Code (cc) directly on local source

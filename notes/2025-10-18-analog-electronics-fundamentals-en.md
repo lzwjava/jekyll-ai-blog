@@ -17,12 +17,14 @@ This guide provides a structured overview of the key concepts in analog electron
 Circuit analysis starts with fundamental principles that describe how voltage, current, and resistance interact in simple networks. These laws are the building blocks for more complex analyses.
 
 ### Key Concepts
+
 - **Voltage (V)**: The potential difference between two points, measured in volts (V). It drives current through a circuit.
 - **Current (I)**: The flow of electric charge, measured in amperes (A). Direction matters (conventional current flows from positive to negative).
 - **Resistance (R)**: Opposition to current flow, measured in ohms (Ω). Resistors are passive components that dissipate energy as heat.
 - **Power (P)**: Energy consumption rate, given by \\( P = VI = I^2R = \frac{V^2}{R} \\), in watts (W).
 
 ### Ohm's Law
+
 Ohm's Law states that voltage across a resistor is directly proportional to the current through it:
 \\[ V = IR \\]
 or rearranged as \\( I = \frac{V}{R} \\) or \\( R = \frac{V}{I} \\).
@@ -30,6 +32,7 @@ or rearranged as \\( I = \frac{V}{R} \\) or \\( R = \frac{V}{I} \\).
 **Example**: In a circuit with a 12V battery and a 4Ω resistor, the current is \\( I = \frac{12}{4} = 3A \\). Power dissipated is \\( P = 12 \times 3 = 36W \\).
 
 ### Kirchhoff's Laws
+
 These laws ensure conservation of energy and charge in circuits.
 
 - **Kirchhoff's Current Law (KCL)**: The sum of currents entering a node equals the sum leaving it (charge conservation).
@@ -47,9 +50,11 @@ These laws ensure conservation of energy and charge in circuits.
 Linear circuits obey superposition (response to total input is the sum of responses to individual inputs) and contain only linear elements like resistors, capacitors, and inductors (no nonlinear devices like diodes yet). We use systematic methods to solve for unknowns in multi-element circuits.
 
 ### Nodal Analysis
+
 This method applies KCL at each node to form equations based on voltages. Ideal for circuits with many branches but fewer nodes.
 
 **Steps**:
+
 1. Choose a reference (ground) node (usually at 0V).
 2. Assign voltage variables (V1, V2, etc.) to non-ground nodes.
 3. Apply KCL at each node: Sum of currents leaving = 0. Express currents using Ohm's Law: \\( I = \frac{V_{\text{node}} - V_{\text{adjacent}}}{R} \\).
@@ -57,14 +62,17 @@ This method applies KCL at each node to form equations based on voltages. Ideal 
 5. Find branch currents if needed using Ohm's Law.
 
 **Example**: For a circuit with two nodes connected by resistors to a voltage source:
+
 - Node 1 connected to 10V via 2Ω, to Node 2 via 3Ω, and to ground via 5Ω.
 - KCL at Node 1: \\( \frac{10 - V_1}{2} + \frac{V_2 - V_1}{3} - \frac{V_1}{5} = 0 \\).
 - Solve simultaneously with Node 2's equation.
 
 ### Superposition Theorem
+
 For circuits with multiple independent sources, calculate the response (e.g., voltage or current at a point) due to each source alone, then sum them. Deactivate other sources: Voltage sources → short circuits; current sources → open circuits.
 
 **Steps**:
+
 1. Identify independent sources (e.g., batteries, current generators).
 2. For each source: Deactivate others and solve for the desired output.
 3. Add algebraically (considering signs).
@@ -85,11 +93,13 @@ For circuits with multiple independent sources, calculate the response (e.g., vo
 So far, we've assumed steady-state DC (no time variation). Dynamic circuits include energy-storage elements: capacitors (C, stores charge) and inductors (L, stores magnetic energy). Transients occur when circuits switch (e.g., applying/removing voltage), causing temporary behaviors before settling.
 
 ### Key Concepts
+
 - **Capacitor**: Voltage can't change instantly. Current: \\( I = C \frac{dV}{dt} \\). In time domain, \\( V(t) = \frac{1}{C} \int I(t) \, dt \\).
 - **Inductor**: Current can't change instantly. Voltage: \\( V = L \frac{dI}{dt} \\).
 - **Time Constant (τ)**: Measures response speed. For RC circuit, \\( \tau = RC \\); for RL, \\( \tau = \frac{L}{R} \\). Settling time ≈ 5τ.
 
 ### Transient Analysis Methods
+
 Focus on first-order circuits (one storage element, like RC or RL series).
 
 - **RC Circuits (Step Response)**:
@@ -108,6 +118,7 @@ For second-order circuits (RLC), use differential equations or Laplace transform
 **Tip**: Simulate transients with tools like LTSpice for visualization. Always specify initial conditions (e.g., capacitor voltage at t=0).
 
 ## Next Steps and Resources
+
 - Practice: Solve problems from textbooks like "Electric Circuits" by Nilsson.
 - Build: Use breadboards for simple RC/RL setups with a multimeter.
 - Advanced: Move to AC analysis (phasors) in Part II.

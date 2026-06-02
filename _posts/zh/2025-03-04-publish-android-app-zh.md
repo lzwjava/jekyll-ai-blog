@@ -59,18 +59,22 @@ type: note
 混淆通过将类、方法和变量重命名为无意义的字符串、移除未使用的代码并优化代码，使你的 Java 代码更难被反编译。以下是操作方法：
 
 #### 为什么混淆？
+
 - 通过使反编译的代码难以阅读来保护知识产权。
 - 通过移除未使用的代码来减小 APK 大小。
 - 注意：这不是完全的安全措施——敏感数据（例如 API 密钥）应加密或在服务器端处理。
 
 #### 混淆工具
+
 - **ProGuard**：一个广泛使用的工具，与 Android Studio 捆绑，用于缩减、混淆和优化代码。
 - **R8**：ProGuard 的现代替代品（自 Android Gradle Plugin 3.4.0 起默认使用），提供类似功能但优化更好。
 
 #### 如何混淆
+
 1. **在项目中启用混淆**：
    - 打开你的应用 `build.gradle` 文件（通常是 `app/build.gradle`）。
    - 在 `buildTypes` 部分，为发布版本启用 `minifyEnabled`：
+
      ```gradle
      android {
          buildTypes {
@@ -81,12 +85,14 @@ type: note
          }
      }
      ```
+
    - `minifyEnabled true` 激活 R8（或如果显式配置则为 ProGuard）。
    - `proguardFiles` 指定自定义规则。
 
 2. **自定义规则（可选）**：
    - 编辑你应用根目录中的 `proguard-rules.pro` 文件。
    - 如果需要，添加规则以保持特定类或方法不被混淆（例如用于反射或第三方库）。示例：
+
      ```proguard
      -keep class com.example.MyClass { *; }
      ```
@@ -99,6 +105,7 @@ type: note
    - 反编译你的 APK（例如使用 APKTool 或 JADX）以确保类/方法名称被混淆。
 
 #### 局限性
+
 - 混淆不能防止所有反编译；有决心的攻击者仍可分析行为。
 - 避免在代码中存储敏感数据——使用安全的替代方案。
 

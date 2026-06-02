@@ -55,9 +55,11 @@ Shadowsocks-NG is a popular and user-friendly Shadowsocks client for macOS.
 
 3. Import the Shadowsocks URL:
    - Copy Your Shadowsocks URL:
+
      ```
      ss://[ENCRYPTED_PASSWORD]@xxx.xxx.xxx.xxx:xxxxx/?outline=1
      ```
+
    - Import Method:
      - Click "Import".
      - Paste your Shadowsocks URL.
@@ -142,7 +144,7 @@ Clash is a versatile proxy client that supports multiple protocols, including Sh
 
 By default, Shadowsocks clients bind the proxy to `localhost` (`127.0.0.1`), meaning only the Mac can use the proxy. To allow your OpenWRT router to use this proxy, you need to bind the proxy to the Mac's LAN IP.
 
-### For Shadowsocks-NG:
+### For Shadowsocks-NG
 
 1. Open Preferences:
    - Click the ShadowsocksX-NG icon in the menu bar.
@@ -159,7 +161,7 @@ By default, Shadowsocks clients bind the proxy to `localhost` (`127.0.0.1`), mea
    - Click "OK" to save changes.
    - Restart the Shadowsocks-NG client to apply the new settings.
 
-### For Clash:
+### For Clash
 
 1. Edit Configuration File:
    - Ensure that the `allow-lan: true` setting is enabled in your `config.yaml`.
@@ -176,7 +178,7 @@ By default, Shadowsocks clients bind the proxy to `localhost` (`127.0.0.1`), mea
 
 To ensure consistent connectivity between your OpenWRT router and the Mac, assign a static IP to your Mac within your local network.
 
-### Steps to Assign a Static IP on macOS:
+### Steps to Assign a Static IP on macOS
 
 1. Open System Preferences:
    - Click the Apple menu and select "System Preferences".

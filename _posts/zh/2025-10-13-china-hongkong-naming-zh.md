@@ -17,6 +17,7 @@ type: note
 相比之下，中国大陆主要城市（如北京、上海、广州）官方采用汉语拼音作为罗马化标准。这套基于普通话的拼音系统于1950年代启用，自1970年代起在全球范围标准化，由此取代了"Peking"等殖民时期的旧称。拼音虽属音标系统，但严格遵循普通话声调与音节规则，由此产生"王府井"（北京著名商业街）或"陆家嘴"（上海金融区）等译名。与香港充满创意的方言音译不同，大陆的拼音转写更注重字面发音记录，在英语语境中通常省略声调以保持简洁。
 
 在旅游领域则存在灵活性：官方翻译常将拼音与语义元素结合使用。例如：
+
 - 纯拼音："九寨沟"
 - 拼音+语义："黄山"译为"Mount Huangshan"
 - 完整语义："颐和园"译作"The Summer Palace"，"天坛"译为"The Temple of Heaven"
@@ -36,6 +37,7 @@ type: note
 总体而言，虽然旅游业可能推动局部调整，但官方标准化政策仍将保持拼音体系的主导地位。大城市或通过应用程序或商业推广形成非正式的英文昵称，但要实现香港式的正式命名转型仍面临较大障碍。
 
 ### 参考资料
+
 - [旅游景点名称翻译方法研究](https://www.researchgate.net/publication/352369661_Translation_Approaches_in_Rendering_Names_of_Tourist_Sites)
 - [冬奥会前夕，北京地铁站英文名引发讨论](https://edition.cnn.com/2022/01/05/china/olympics-beijing-subway-station-name-mic-intl-hnk)
 - [中国加强边境地区对外国地名的管控](https://www.nytimes.com/2016/03/24/world/asia/china-housing-foreign-names.html)

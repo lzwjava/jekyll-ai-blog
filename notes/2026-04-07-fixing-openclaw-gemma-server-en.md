@@ -20,6 +20,7 @@ The process wasn't started. The old `~/llama.sh` script starts a different model
 ### Issue 2: Gemma 4's thinking mode
 
 Even after starting llama-server, Gemma 4 has a built-in "thinking" mode. By default (`--reasoning auto`), llama-server detects this from the model template and splits output into:
+
 - `message.reasoning_content` — the thinking/chain-of-thought
 - `message.content` — the final answer
 

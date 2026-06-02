@@ -19,18 +19,24 @@ No, you cannot safely or successfully perform `git push` and `git pull` truly si
 Here’s why and what actually happens:
 
 ### 1. On the same machine (single user)
+
 - Git does not allow running two Git commands that affect the same repository at exactly the same time because of file locking.
 - If you try to run `git pull` while a `git push` is in progress (or vice versa), one command will fail with an error like:
+
   ```
   fatal: Unable to access '.git/index': Resource temporarily unavailable
   ```
+
   or
+
   ```
   error: could not lock config file .git/config: File exists
   ```
+
 - So technically, Git prevents true simultaneous execution.
 
 ### 2. From different machines/users (multiple collaborators)
+
 This is the more common and dangerous scenario.
 
 - Yes, technically, two people can run `git push` and `git pull` at nearly the same time.
@@ -39,12 +45,15 @@ This is the more common and dangerous scenario.
   - Person B pushes new commits
   - Person A makes changes and pushes → may succeed (non-fast-forward) or fail (if remote has new commits)
   - If both push around the same time without pulling first → one push will be rejected with:
+
     ```
     ! [rejected]        main -> main (fetch first)
     error: failed to push some refs to '...'
     hint: Updates were rejected because the remote contains work that you do not have locally.
     ```
+
 - This is why the standard safe workflow is:
+
   ```
   git pull --rebase    # or git fetch + git rebase
   # make changes
@@ -52,6 +61,7 @@ This is the more common and dangerous scenario.
   ```
 
 ### Best Practices to Avoid Conflicts
+
 - Always `git pull` (or `git fetch`) before starting new work and before pushing.
 - Use `git pull --rebase` to keep linear history.
 - Or better: `git fetch` then `git rebase origin/main` before pushing.

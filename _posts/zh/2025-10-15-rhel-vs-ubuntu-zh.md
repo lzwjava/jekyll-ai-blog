@@ -76,6 +76,7 @@ RHEL 生态聚焦企业合作，获得硬件（如戴尔、惠普）、软件（
 若追求免费易得、快速迭代且适用于动态或个人环境，请选择 Ubuntu；若需要坚如磐石的稳定性、认证支持和企业级安全防护，则值得为 RHEL 支付溢价。截至 2025 年，两者持续进化——Ubuntu 强化 AI 集成，RHEL 深化混合云聚焦——最终选择取决于您的规模、预算与优先级。
 
 ## 参考资料
+
 - [Red Hat vs Ubuntu: Which Linux OS is Better for Enterprise](https://jetpatch.com/blog/patch-tuesday/red-hat-vs-ubuntu/)
 - [Which is better? Ubuntu vs. Red Hat Enterprise Linux](https://www.ionos.com/digitalguide/server/know-how/ubuntu-vs-red-hat/)
 - [Difference Between Ubuntu and Red Hat Linux](https://www.geeksforgeeks.org/linux-unix/difference-between-ubuntu-and-red-hat-linux/)

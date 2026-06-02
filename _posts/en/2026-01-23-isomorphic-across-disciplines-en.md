@@ -19,6 +19,7 @@ Answer:
 The precise meaning depends on the field:
 
 ### In mathematics (most common usage)
+
 Two objects are **isomorphic** if there exists a **bijective** (one-to-one and onto) mapping between them that **preserves all relevant structure**.
 
 Examples by field:
@@ -49,6 +50,7 @@ Quick summary table:
 | Topological spaces | Homeomorphism (continuous bijection with continuous inverse) | ≈ or ≅                  |
 
 ### In other contexts (less formal)
+
 - **Chemistry**: molecules are isomorphic if they have identical connectivity (sometimes called "isostructural").
 - **Programming / databases**: two data structures / schemas are isomorphic if they can represent exactly the same information with a lossless conversion.
 - **Everyday language** (rare): "structurally the same" or "equivalent in form".

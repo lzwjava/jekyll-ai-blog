@@ -72,6 +72,7 @@ type: note
 2025年的圣保罗依然是"不眠之城"，糅合粗砺与璀璨——为反差而来，因灵魂而留。
 
 ## 参考资料
+
 - [圣保罗 - 维基百科](https://en.wikipedia.org/wiki/S%C3%A3o_Paulo)
 - [圣保罗 - 文化、多样性、经济 | 大英百科全书](https://www.britannica.com/place/Sao-Paulo-Brazil/Cultural-life)
 - [圣保罗本地指南 - Go Ask A Local](https://goaskalocal.com/blog/local-guide-to-sao-paulo)

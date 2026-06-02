@@ -141,6 +141,7 @@ skills:
 ```
 
 Then Hermes will:
+
 1. Read the SKILL.md
 2. Extract parameters from your natural language request
 3. Call the shell script with the right args

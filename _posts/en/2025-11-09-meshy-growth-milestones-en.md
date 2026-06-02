@@ -11,14 +11,17 @@ type: note
 ---
 
 ### Overview of Meshy.ai
+
 Meshy.ai is a leading AI-powered platform for 3D content creation, specializing in generative tools that let users turn text prompts, images, or sketches into high-quality 3D models, textures, animations, and even videos in seconds. No prior 3D expertise is needed—it's designed for creators in gaming, film, product design, education, VR/AR, and 3D printing. Key features include text-to-3D generation, AI texturing with PBR maps, automatic rigging for characters, and integrations with tools like Unity, Blender, Unreal Engine, and more. It's multilingual, supports enterprise teams with SSO and compliance (e.g., GDPR, SOC2), and boasts a vibrant community where users share and remix models.
 
 The platform has gained traction as one of the most intuitive free AI 3D generators, powering workflows for major players like Meta's Horizon, Supercell, Square Enix, Niantic, and Stanford University. Recent updates, like Meshy-4 (launched in September 2024), have pushed boundaries with faster generation (up to 8 models in 60 seconds), better rigging for bipeds/quadrupeds, and sci-fi-level detail in models.
 
 ### The $15 Million Announcement
+
 You're spot on about the buzz from founder Ethan (Yuanming) Hu's recent LinkedIn post (from about 19 hours ago as of November 9, 2025). He announced that Meshy.ai has hit **$15 million in Annual Recurring Revenue (ARR)**—a huge milestone, but it's revenue, not a new funding round. (For context, the company has raised a total of $52 million from top VCs like Sequoia and GGV Capital to date.) Hu highlighted this as a reflection of explosive user adoption and product-market fit in the 3D AI space.
 
 ### Recent Year Growth (2024–2025)
+
 Meshy.ai has been on a tear, showing hyper-growth in a competitive AI landscape. Here's a quick breakdown based on public metrics:
 
 - **Revenue Surge**: 18x growth over the past 12 months (ending November 2025), with ongoing 30% month-over-month (MoM) increases. Hitting $15M ARR puts it in elite company for AI startups focused on creative tools.
@@ -35,6 +38,7 @@ Meshy.ai has been on a tear, showing hyper-growth in a competitive AI landscape.
 Overall, Meshy.ai looks incredibly healthy—scaling fast, innovating aggressively, and building a moat in 3D GenAI. If you're a creator or dev, it's worth testing the free tier. Excited to see where they go next!
 
 ### References
+
 - [Ethan (Yuanming) Hu's LinkedIn Post on $15M ARR](https://www.linkedin.com/posts/ethan-yuanming-hu_meshyai-crossed-15m-arr-today-we-grew-our-activity-7392688455232917504-6euQ)
 - [Meshy.ai Official Site Overview](https://www.meshy.ai/)
 - [VentureBeat on Meshy-4 Launch](https://venturebeat.com/ai/meshy-4-brings-sci-fi-level-ai-to-3d-modeling-and-design)

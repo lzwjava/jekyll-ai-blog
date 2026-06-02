@@ -25,6 +25,7 @@ Here’s a breakdown:
   -Dcom.sun.management.jmxremote.authenticate=false
   -Dcom.sun.management.jmxremote.ssl=false
   ```
+
 * Once enabled, the JVM runs an RMI (Remote Method Invocation) connector server bound to the given port.
 
 ### 2. About Port 9091
@@ -41,6 +42,7 @@ Here’s a breakdown:
   ```bash
   jconsole host:9091
   ```
+
 * Integrating with monitoring systems (e.g., Prometheus JMX Exporter).
 * Remote management during troubleshooting (e.g., checking heap dumps, threads, GC behavior).
 

@@ -28,22 +28,27 @@ Your observations about **Hermes Agent** and **Camoufox** are correct:
 ## **Key Architectural Differences**
 
 ### **Browser Control Method**
+
 - **OpenClaw (Crab)**: Uses Chrome DevTools Protocol (CDP) and Playwright on top of CDP for browser control
 - **Hermes Agent**: Built on Playwright with access to Chromium, Firefox, and WebKit engines, with vision layer for screenshot analysis
 - **Camoufox**: Uses Juggler protocol for Firefox instead of CDP, providing an isolated scope outside of the page where websites cannot detect Playwright
 
 ### **Memory Architecture**
+
 Your observation about memory differences is correct:
+
 - **Hermes**: Has persistent memory that persists across sessions through MEMORY.md and USER.md files, with bounded, curated memory
 - **OpenClaw**: Uses a session-based model which can be more challenging for multi-session memory management
 
 ### **Self-Iteration Capability**
+
 - **Hermes**: Features a built-in learning loop where skills are auto-generated after completing complex tasks and self-improving, refined during subsequent use based on outcomes
 - **OpenClaw**: Does not have the same self-iterative learning loop built into its core architecture
 
 ## **Installation Complexity**
 
 Your experience about installation difficulty is valid:
+
 - **Hermes**: Requires npm installation for browser automation (Browserbase-powered) and WhatsApp bridge, plus directory structure setup
 - **Camoufox**: Requires downloading a custom Firefox build through the camoufox Python package installation
 - **OpenClaw**: Uses simpler CDP connection but may require Chrome extension setup depending on the mode chosen
@@ -51,12 +56,14 @@ Your experience about installation difficulty is valid:
 ## **Command Differences**
 
 You're correct about the command availability:
+
 - **Hermes**: Has `/paste` command but documentation doesn't show a `/copy` command as a built-in feature
 - **OpenClaw**: Has its own command set focused on browser control and profile management
 
 ## **Twitter Automation Feasibility**
 
 For your planned Twitter operations (auto-follow/unfollow), both tools can technically accomplish this, but:
+
 - **Camoufox's stealth capabilities** are specifically designed for bypassing anti-bot detection
 - **Hermes's persistent memory** would better track which accounts you've already followed/unfollowed
 - Both would benefit from careful implementation to avoid detection

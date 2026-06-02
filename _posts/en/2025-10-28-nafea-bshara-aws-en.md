@@ -21,6 +21,7 @@ The company's trajectory shifted dramatically in 2015 when AWS acquired Annapurn
 Bshara's contributions extend beyond engineering; he's a sought-after speaker on silicon innovation in the cloud era, delivering keynotes at events like ASPLOS 2024 on AWS Trainium's evolution. His work underscores AWS's "secret sauce" of in-house hardware design, enabling the company to challenge giants like Intel and Nvidia while prioritizing efficiency and sustainability. With a career spanning startups, acquisitions, and hyperscale tech, Bshara continues to shape the future of computing from his base in San Jose, California.
 
 #### Key Career Highlights
+
 - **Co-founder & CTO, Annapurna Labs (2011–2015)**: Built a stealthy Israeli chip design firm focused on SoC innovation.
 - **Acquisition by AWS (2015)**: Integrated Annapurna's tech into Amazon's ecosystem, laying groundwork for custom silicon.
 - **VP & Distinguished Engineer, AWS (2015–present)**: Leads Graviton, Trainium, and Inferentia chip programs, fueling AWS's growth in AI and cloud infrastructure.

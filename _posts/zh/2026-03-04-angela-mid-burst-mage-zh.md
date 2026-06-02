@@ -34,6 +34,7 @@ Angela（在《王者荣耀》中文版中也称为安琪拉）是 Honor of King
 **Summoner Spell**：Flash（定位大招或躲避必备）。
 
 ### 推荐出装（高伤害/爆发型 - 2026 元meta）
+
 Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后转向爆发。
 
 | Slot | Item | 理由 |
@@ -49,12 +50,14 @@ Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后�
 **完整出装顺序**：Boots > Reverberation > Savant's > Tome > Void > Wisdom。后期纯伤害可卖靴子换 Ice Pulse Staff。
 
 **Arcana (Runes/Mingwen)**：
+
 - Nightmare x10（魔法强度/穿透）
 - Mind's Eye x10（攻击速度用于被动触发）
 - Hunter/Avarice x10（移动速度/金币）。
 备选：10 Dream Witch、10 Heart Eye、10 Hunt 用于纯爆发。
 
 ### 连招（成功关键）
+
 - **标准爆发（最大伤害）**：2（眩晕）> 1（叠加燃烧）> 3（引导光束）。中前期对脆皮可打掉 80-100% 血量。
 - **Poke/骚扰**：1 > 1（双发叠层）> AA（普攻）。
 - **清兵/Gank 设置**：1（清线）> 2（眩晕来敌）> Flash-3。
@@ -64,6 +67,7 @@ Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后�
 专业提示：技能 2 飞行慢——草丛伏击或预判。绝不先放大招而不中 2。
 
 ### 玩法与提示
+
 1. **对线期（前期）**：
    - 用 1 快速清兵，1-1 poke。4 级后跟打野游走（2 眩晕设置击杀）。
    - 目标：先到 4 级，压制边路。
@@ -89,6 +93,7 @@ Angela 依赖魔法强度、穿透和冷却缩减。早期优先清兵，然后�
 掌握这些，Angela 从黄金轻松上大师——技能简单，回报巨大。
 
 参考资料：
+
 - [Honor of Kings Wiki - Angela](https://honor-of-kings.fandom.com/wiki/Angela)
 - [Best Angela Builds - BlueStacks](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-angela-builds-guide-en.html)
 - [Angela Build Guide - LapakGaming](https://www.lapakgaming.com/blog/en-my/angela-build-and-items-honor-of-kings)

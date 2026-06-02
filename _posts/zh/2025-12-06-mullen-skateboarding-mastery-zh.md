@@ -43,6 +43,7 @@ Rodney Mullen 被广泛认为是历史上最具影响力和技术创新性的街
 简而言之：他“如此出色”的原因是他实际上发明了现代街头滑板的语言，将痴迷的练习与卓越的分析思维相结合，并且拥有 40 年后仍看起来超人的控板能力——即使在他五十多岁的时候，他仍然可以做出 double kickflip late flips 和 primo variations，而大多数年龄只有他一半的专业滑手都无法持续做到。
 
 参考资料：
+
 - [Rodney Mullen – Wikipedia](https://en.wikipedia.org/wiki/Rodney_Mullen)
 - [The Man Who Invented Street Skating (Red Bull feature)](https://www.redbull.com/us-en/rodney-mullen-skateboarding-godfather-interview)
 - [Rodney Mullen: From the Ground Up (TED Talk transcript)](https://www.ted.com/talks/rodney_mullen_pop_an_ollie_and_innovate/transcript)

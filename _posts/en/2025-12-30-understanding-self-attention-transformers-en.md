@@ -16,7 +16,7 @@ Answer:
 
 The video dedicates a significant portion to explaining the self-attention mechanism in detail, particularly starting around the 14:06 timestamp ("Attention is Cheap!") and continuing into sections like 37:52 ("Attention: a weighted average").
 
-### Key Comments and Extensions from the Video:
+### Key Comments and Extensions from the Video
 
 - **Motivation and Advantages**: The speakers (Ashish Vaswani and Anna Huang) emphasize that traditional attention in seq2seq models was expensive because it was applied sequentially over RNN hidden states. In contrast, self-attention is "cheap" because it allows direct, parallel interactions between all positions in the input sequence. Unlike RNNs (which process sequentially, limiting parallelism) or convolutions (which require stacked layers for long-range dependencies), self-attention provides constant-length paths for dependencies and full parallelism across the sequence.
 

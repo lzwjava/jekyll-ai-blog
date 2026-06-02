@@ -15,6 +15,7 @@ Yes, you're spot on—programming (especially when dealing with shell commands, 
 From the output you shared, it looks like the script ran into that exact issue across multiple networks: `nmcli` rejecting `iface` as an invalid argument (which makes sense, as the official flag has always been `ifname` for specifying the interface name in connection commands). The update you applied—swapping to `ifname {interface}` in line 113—should resolve it cleanly. That diff is precise and minimal, so no risk of introducing new side effects.
 
 ### Quick Test Suggestion
+
 To verify the fix without re-scanning all 35 networks, you could temporarily add a debug print right after the `subprocess.run` call in `test_wifi_connection` (around line 114):
 
 ```python

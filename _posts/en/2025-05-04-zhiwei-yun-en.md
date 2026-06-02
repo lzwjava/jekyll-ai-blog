@@ -13,6 +13,7 @@ Zhiwei Yun (Chinese: 恽之玮; pinyin: Yùn Zhīwěi), born in September 1982 i
 ---
 
 ### Early Life and Education
+
 Yun’s passion for mathematics emerged early in his childhood in Changzhou, a city in Jiangsu Province, China. He recalls his fascination beginning around third grade, when his mathematics teacher assigned daily thinking problems that sparked his curiosity. He likened learning mathematics to “digging a treasure underground, endless and boundless,” contrasting it with the finite challenge of climbing a mountain. This metaphor reflects his lifelong view of mathematics as an infinite, exploratory pursuit driven by curiosity and beauty.
 
 Yun’s talent was evident in his school years. He attended elementary school at Bureau Elementary School and later studied at a provincial high school in Changzhou. In 2000, as a high school sophomore, he was selected for China’s National Training Team for the 41st International Mathematical Olympiad (IMO) held in Daejeon, South Korea. There, he won a gold medal with a perfect score, a rare achievement that marked him as an exceptional mathematical prodigy.
@@ -22,6 +23,7 @@ Yun pursued his undergraduate studies at Peking University, one of China’s top
 ---
 
 ### Academic Career
+
 Yun’s academic career has been marked by rapid advancement and prestigious appointments at top institutions. After earning his Ph.D., he served as a C.L.E. Moore Instructor at MIT from 2010 to 2012, a highly competitive postdoctoral position. During this time, he began developing his theory of rigid automorphic forms, which addressed significant open problems in number theory.
 
 From 2012 to 2016, Yun held positions at Stanford University, first as an assistant professor and later as an associate professor. In 2016, he joined Yale University as a full professor, a testament to his rising stature in the mathematical community. In January 2018, Yun returned to MIT as a professor of mathematics, where he continues to conduct research, mentor students, and collaborate with colleagues. His wife, Minlan Yu, whom he met at Princeton, is a professor of computer science at Harvard University, and together they have navigated the challenges of academic careers and family life, including a period of long-distance commuting between Stanford and Los Angeles.
@@ -31,6 +33,7 @@ Yun’s approach to mentoring is notable for its emphasis on fostering independe
 ---
 
 ### Mathematical Contributions
+
 Yun’s research lies at the intersection of representation theory, number theory, and algebraic geometry, with a particular focus on the Langlands program. The Langlands program, proposed by Robert Langlands in the 1960s, is a series of conjectures and frameworks that seek to connect number theory (the study of numbers and their properties) with geometry and representation theory (the study of symmetries and algebraic structures). It is considered one of the most ambitious and profound projects in modern mathematics, often compared to a “grand unified theory” for the field.
 
 Below are some of Yun’s key contributions, explained for both general and technical audiences:
@@ -59,6 +62,7 @@ Yun’s publications, which number over 39 with more than 1,161 citations, refle
 ---
 
 ### Awards and Recognition
+
 Yun’s contributions have been recognized with numerous prestigious awards, cementing his status as a leading figure in mathematics:
 
 - **SASTRA Ramanujan Prize (2012)**: Awarded for his outstanding contributions to areas influenced by Srinivasa Ramanujan, particularly his work on global Springer theory and motives. Yun joined an elite list of young mathematicians, including Terence Tao and Manjul Bhargava.
@@ -74,6 +78,7 @@ Yun was also an invited speaker at the 2018 International Congress of Mathematic
 ---
 
 ### Personal Philosophy and Impact
+
 Yun’s approach to mathematics is driven by curiosity and a deep appreciation for its beauty. He views mathematics as a collaborative and creative endeavor, often emphasizing the importance of interdisciplinary connections. In a 2019 MIT News article, he described his motivation: “We are all driven by curiosity, and the beauty of the subject itself.” His early fascination with Galois theory, which connects number theory and abstract algebra, reflects his lifelong interest in unifying mathematical fields.
 
 Yun’s journey from a small city in China to the forefront of global mathematics is inspiring. His IMO success, rigorous education at Peking University and Princeton, and rapid academic ascent highlight his dedication and talent. His collaborations, particularly with peers like Wei Zhang, Xinwen Zhu, and Xinyi Yuan—fellow Peking University alumni—demonstrate the power of shared intellectual roots and mutual inspiration. As noted in a 2015 *Quanta Magazine* article, these mathematicians’ close-knit relationships have led to breakthroughs that might not have occurred otherwise.
@@ -83,9 +88,11 @@ Yun’s mentorship has also shaped the next generation of mathematicians. His th
 ---
 
 ### Conclusion
+
 Zhiwei Yun is a towering figure in modern mathematics, whose work on the Langlands program, global Springer theory, and geometric interpretations of L-functions has reshaped our understanding of number theory, algebraic geometry, and representation theory. From his early days as an IMO gold medalist in Changzhou to his current role as a professor at MIT, Yun’s career is a testament to the power of curiosity, rigor, and collaboration. His numerous awards, including the SASTRA Ramanujan Prize, New Horizons Breakthrough Prize, and Simons Investigatorship, reflect his profound impact on the field. As he continues to explore the “endless treasure” of mathematics, Yun’s contributions promise to inspire and guide mathematicians for generations to come.
 
 **Sources**:
+
 - Wikipedia: Zhiwei Yun  [](https://en.wikipedia.org/wiki/Zhiwei_Yun)
 - MIT News: “Mathematician finds balance and beauty in math”  [](https://news.mit.edu/2019/professor-mathematics-zhiwei-yun-0213)
 - DayDayNews: “Yun Zhiwei: A world-class mathematician born from Changzhou Tianning”  [](https://daydaynews.cc/en/technology/686004.html)

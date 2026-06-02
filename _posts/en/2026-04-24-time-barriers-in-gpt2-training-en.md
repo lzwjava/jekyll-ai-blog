@@ -32,6 +32,7 @@ The 5-day figure from your checkpoint was **multi-GPU but unoptimized**. Even on
 Most hobbyists run **naive configs** — no FlashAttention, no `torch.compile`, large grad_accum on slow data pipelines. The gap between "it works" and "it's fast" is enormous.
 
 **Psychologically**, even 8 hours is brutal because:
+
 - You can't easily pause/resume without checkpoint logic
 - One crash = restart
 - You see no useful output until the end
@@ -74,6 +75,7 @@ People assume "download dataset" = done. But if your DataLoader is slow, **the G
 > **Time is the #1 barrier. Data prep is genuinely easy by comparison.**
 
 The cruel irony of nanoGPT is that the *code* is simple (Karpathy wrote it to be readable), the *data* is freely available, but the *wall-clock wait* filters out 95% of people before they see results. The ones who succeed either have:
+
 - A fast GPU (4090) with optimizations, **or**
 - Patience + good checkpoint/resume logic, **or**
 - Cloud GPU credits (Lambda, RunPod, Vast.ai) to compress days → hours

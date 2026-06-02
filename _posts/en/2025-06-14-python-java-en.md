@@ -17,6 +17,7 @@ Java, on the other hand, is a **compiled language**, requiring code to be compil
 However, Java’s design shines for **large projects**. Its static typing, robust tooling (e.g., Maven, Gradle), and JVM optimizations make it ideal for maintainable, high-performance systems like banking platforms or Android apps. Python’s dynamic typing can lead to runtime errors in massive codebases, whereas Java’s compile-time checks catch issues early. Java’s ecosystem is also mature, but its libraries and frameworks are often heavier, requiring more setup than Python’s pip-installed modules.
 
 To summarize:
+
 - **Python’s interpreter nature** enables rapid development, easy piping, and a lightweight library ecosystem, making it ideal for scripting, data analysis, and prototyping.
 - **Java’s compiled nature** suits large, complex projects where performance, scalability, and maintainability are critical, but it’s less convenient for quick tasks.
 

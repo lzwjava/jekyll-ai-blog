@@ -17,6 +17,7 @@ type: note
 具体计费方式如下：
 
 **各模型 Credit 消耗比例：**
+
 - **MiMo-V2.5 / MiMo-V2-Omni** → 1 倍（每 token 消耗 1 Credit）
 - **MiMo-V2.5-Pro / MiMo-V2-Pro** → 2 倍（每 token 消耗 2 Credits）
 - **TTS 模型** → 0 倍（限时免费，不消耗 Credits）

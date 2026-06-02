@@ -16,7 +16,7 @@ Answer:
 
 Genshin Impact, developed by HoYoverse (formerly miHoYo), has been a global phenomenon since its 2020 launch, generating over $10 billion in lifetime revenue by late 2025 (with projections hitting that milestone by year-end) and maintaining 15-17 million monthly active users as of December 2025. It remains one of the top-grossing mobile and cross-platform games, earning around $0.7-0.8 billion annually even five years in. Its success stems from a perfect storm of innovative design, accessibility, and business savvy.
 
-### Key Factors Behind Its Success:
+### Key Factors Behind Its Success
 
 - **Free-to-Play Accessibility with Premium Quality**: As a F2P title, it has zero entry barrier, playable on mobile, PC, PlayStation, and more with cross-save progression. Yet it delivers console-level production values—stunning anime-style open-world visuals, orchestral OSTs, and fluid combat—inspired by Breath of the Wild but optimized for low-end devices. Players get hundreds of hours of free content via exploration, puzzles, and story, making it enjoyable without spending, while gacha monetization targets "whales" effectively.
 
@@ -37,6 +37,7 @@ Genshin Impact, developed by HoYoverse (formerly miHoYo), has been a global phen
 In 2025, with Natlan wrapped and Snezhnaya teased, Genshin's formula—quality-first F2P live service—ensures enduring dominance, proving Chinese studios can rival global giants.
 
 References:
+
 - [Genshin Impact Wikipedia](https://en.wikipedia.org/wiki/Genshin_Impact)
 - [Genshin Impact Revenue & Stats (Business of Apps)](https://www.businessofapps.com/data/genshin-impact-statistics/)
 - [Genshin Impact Live Player Count (ActivePlayer.io)](https://activeplayer.io/genshin-impact/)

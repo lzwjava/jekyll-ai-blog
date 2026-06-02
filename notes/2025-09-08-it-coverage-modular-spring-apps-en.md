@@ -11,15 +11,18 @@ type: note
 ---
 
 ### Overall Assessment of Your Setup
+
 Your current configuration is solid for a small multi-module project like this, especially since you've already got the core flow working: attaching the JaCoCo agent to Jetty, running external Python integration tests via the Exec Plugin, and generating a report in the `PlaygroundWeb` module. This captures runtime coverage from API endpoints tested by Python's `unittest`, which is exactly what you need for integration test (IT) coverage in a Spring web app.
 
 Key strengths:
+
 - **Modular and phase-bound**: Using Maven phases (`pre-integration-test` for Jetty start, `integration-test` for Python tests, `post-integration-test` for stop, `verify` for report) ensures reliability and reproducibility.
 - **Agent attachment**: The JVM arg (`-javaagent:...`) on Jetty correctly instruments the runtime, capturing coverage in `jacoco.it.exec`.
 - **External tests integration**: The Exec Plugin handles Python nicely, and keeping tests at the repo root (`${project.parent.basedir}/tests`) decouples them from Java modules.
 - **No unnecessary duplication**: You avoid running Jetty/Python in `PlaygroundUtils` (which has no controllers), which is efficient.
 
 Challenges you've identified:
+
 - **Coverage for library modules like `PlaygroundUtils`**: Since utils code runs in the `PlaygroundWeb` JVM (as a dependency in the WAR), it's instrumented and appears in `PlaygroundWeb`'s `jacoco.it.exec`. But your reports are module-specific, so `PlaygroundUtils` coverage isn't visible unless aggregated or included.
 - **Non-self-contained nature of JaCoCo**: Unlike Checkstyle/Spotless (which just analyze source/static artifacts), JaCoCo needs runtime data (`.exec` files) from external tests and agent attachment. This makes it brittle for multi-module setups without careful coordination.
 - **Aggregate goal limitations**: `jacoco:report-aggregate` expects per-module `.exec` files (e.g., from unit tests), but your coverage is purely from IT in one module. Forcing aggregation can lead to empty reports for libs like `PlaygroundUtils`.
@@ -28,14 +31,17 @@ Challenges you've identified:
 Your fallback to per-module reports is pragmatic, but we can optimize for coverage inclusion without duplication.
 
 ### Recommended Strategy
+
 Focus on **generating a single, comprehensive IT coverage report in the module that runs the app** (`PlaygroundWeb` here), while **including coverage data for dependent modules** like `PlaygroundUtils`. This avoids running tests multiple times and leverages the fact that all code executes in one JVM.
 
 Why this over aggregation?
+
 - Aggregation (`report-aggregate`) is better for distributed unit test coverage across modules. For IT coverage from a single runtime (your case), it's overkill and doesn't fit naturally.
 - A unified report gives a holistic view of the app's coverage, which is often more useful than siloed per-module reports (e.g., "80% overall, but utils layer is at 60%").
 - For larger projects, this scales by treating the "app module" (WAR/EAR) as the coverage hub, pulling in deps.
 
 #### Step-by-Step Implementation for Your 2-Module Project
+
 Start small: Apply this to your current setup (1 app module + 1 lib). Test it, then expand.
 
 1. **Keep IT Execution in `PlaygroundWeb` Only**:
@@ -95,6 +101,7 @@ Start small: Apply this to your current setup (1 app module + 1 lib). Test it, t
 
 5. **Optional: Enforce Coverage Thresholds**:
    - Add a `check` execution in `PlaygroundWeb`'s JaCoCo plugin to fail the build if coverage drops below a threshold (e.g., 70% line coverage overall).
+
      ```xml
      <execution>
          <id>check-it</id>
@@ -120,10 +127,12 @@ Start small: Apply this to your current setup (1 app module + 1 lib). Test it, t
      ```
 
 #### Scaling to a Larger Project (e.g., 10 Modules)
+
 For 10+ modules (e.g., multiple libs + 1-2 app/WAR modules), extend the above to avoid complexity:
 
 - **Centralize IT in App Modules**: If you have one main WAR (like `PlaygroundWeb`), make it the "coverage hub." Add `<additionalClassesDirectories>` and `<additionalSourceDirectories>` for all dependent libs (e.g., via a loop or property lists in the parent POM).
   - Example: Define paths in parent properties:
+
     ```xml
     <properties>
         <lib1.classes>${project.basedir}/Lib1/target/classes</lib1.classes>
@@ -131,6 +140,7 @@ For 10+ modules (e.g., multiple libs + 1-2 app/WAR modules), extend the above to
         <!-- Repeat for 10 libs -->
     </properties>
     ```
+
   - In WAR's JaCoCo report config: Reference them dynamically.
 
 - **If Multiple Apps/WARs**: Create dedicated IT modules (e.g., `App1-IT`, `App2-IT`) that depend on the WAR, configure Jetty/Exec/JaCoCo there, and include only relevant deps' classes/sources. This keeps builds modular (e.g., `mvn verify -pl App1-IT` for targeted coverage).

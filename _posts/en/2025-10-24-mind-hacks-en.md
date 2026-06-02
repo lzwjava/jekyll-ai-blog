@@ -15,7 +15,9 @@ type: note
 *Mind Hacks*, written by Tom Stafford and Matt Webb and published in 2004 by O'Reilly, is a practical guide to cognitive neuroscience and psychology. It demystifies how the brain works by presenting over 100 "hacks"—simple, hands-on experiments, tricks, and tips—that let you probe your own mind. Rather than dry theory, the book treats the brain like a hackable system, encouraging readers to test ideas on themselves to uncover hidden processes in perception, attention, memory, and social thinking. It's like a toolkit for self-experimentation, blending science with everyday curiosity to show that your brain actively constructs reality, not just records it. The tone is light, engaging, and "hackish," with a focus on fun insights over heavy academia, making it ideal for dipping in and out.
 
 ### Main Themes
+
 The book explores the brain's moment-by-moment operations through accessible neuroscience. Core ideas include:
+
 - **Perception as Active Construction**: Your senses don't passively capture the world; the brain fills gaps, makes assumptions, and integrates inputs to build a coherent experience (e.g., illusions reveal how context tricks us).
 - **Attention's Limits**: With finite resources, attention filters and prioritizes, leading to phenomena like "attentional blink" where rapid stimuli get missed.
 - **Multisensory Magic**: Senses team up—vision often overrides hearing in conflicts, creating unified (but sometimes misleading) perceptions.
@@ -27,12 +29,15 @@ The book explores the brain's moment-by-moment operations through accessible neu
 These themes emphasize that understanding your brain's "machinery" can sharpen focus, decisions, and problem-solving.
 
 ### Structure and Key Hacks
+
 Organized as standalone hacks (not a linear story), the book groups them thematically for easy browsing—think short chapters on vision, motor skills, cognition, and more. Each hack includes:
+
 - **In Action**: A quick demo or exercise.
 - **How It Works**: The neuroscience behind it.
 - **Hacking the Hack**: Ways to tweak or apply it.
 
 Examples of standout hacks:
+
 - **Attentional Blink**: Stare at a fast word stream; spot the first target but miss the second if it's too soon—proves attention's bottleneck.
 - **Flash-Lag Effect**: Watch a moving dot flash next to it; the dot seems ahead, showing the brain predicts motion.
 - **McGurk Effect**: Dub a video of someone saying "ga" with "ba" audio; it sounds like "da"—vision hijacks hearing.

@@ -11,7 +11,7 @@ type: note
 
 完成。推送 `3d8090e` → `master`。
 
-最终仓库结构位于 https://github.com/lzwjava/TabsKiller：
+最终仓库结构位于 <https://github.com/lzwjava/TabsKiller：>
 
 ```
 README.md           ← 英文，同时支持 Chrome + Safari

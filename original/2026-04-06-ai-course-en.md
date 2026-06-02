@@ -55,7 +55,7 @@ From math to GPT to AI system. That's the path.
 * I personally mentor each student to make sure no one gets stuck on unnecessary hurdles.
 * If the course is not completed within one year, it will be ended and the fee will not be refunded.
 
-To enroll, send an email to lzwjava@gmail.com with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
+To enroll, send an email to <lzwjava@gmail.com> with the subject "AI Course Enrollment." Please include a brief introduction about yourself and your motivation for learning AI. You can also [click here to find out more](https://lzwjava.github.io/contact-en).
 
 ## The 10 Lessons
 

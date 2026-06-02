@@ -30,16 +30,19 @@ sudo nano /etc/apt/sources.list.d/nginx.list
 ```
 
 Change this:
+
 ```
 deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu jammy nginx
 ```
 
 To this:
+
 ```
 deb [arch=amd64 signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu jammy nginx
 ```
 
 If there is no `signed-by` part, just add `[arch=amd64]` like this:
+
 ```
 deb [arch=amd64] http://nginx.org/packages/ubuntu jammy nginx
 ```
@@ -89,6 +92,7 @@ sudo nano /etc/apt/apt.conf.d/99proxy-bypass
 ```
 
 Add:
+
 ```
 Acquire::https::packages.mozilla.org::DIRECT "true";
 ```

@@ -23,6 +23,7 @@ However, without the `no-proxy` directive, Docker daemon also tries to route **l
 5. The connection aborts unexpectedly, resulting in the `proxyconnect tcp: EOF` error (EOF means "end of file," signaling a premature closure during the proxy negotiation/handshake).
 
 Adding `"no-proxy": "localhost,127.0.0.1,.local"` explicitly tells the daemon to **bypass the proxy** for traffic destined to:
+
 - `localhost` (your machine's loopback hostname),
 - `127.0.0.1` (IPv4 loopback address),
 - `.local` domains (common for mDNS/local network resolution).

@@ -24,7 +24,7 @@ The Pirate Bay 托管着种类繁多的 **lossless audio** 种子（主要是 **
 - **FLAC 格式的 Discographies 或完整艺人资源包** — 一些 uploader 会以 lossless 格式提供艺人的全集作品。
 - **特定 Uploader 的内容** — The Pirate Bay 上的用户 **LosslessMusic** 多年来上传了许多 FLAC 资源，浏览其个人主页通常能找到高质量音频。
 
-### The Pirate Bay 实用搜索技巧：
+### The Pirate Bay 实用搜索技巧
 
 - 使用关键词：`FLAC`、`lossless`、`24bit`、`hi-res`、`ALAC`（较少见）、`WAV`（音乐专辑罕见）。
 - 添加流派/艺人：`piano FLAC`、`jazz lossless`、`classical FLAC 2025`。

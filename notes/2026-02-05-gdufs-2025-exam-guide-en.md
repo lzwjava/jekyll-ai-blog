@@ -30,7 +30,7 @@ Here's what it covers:
 
 3. **Seat Number Query:**
    - Query period: October 26 - November 2
-   - Website: http://service.qidaedu.com/practiceLogin.jsp
+   - Website: <http://service.qidaedu.com/practiceLogin.jsp>
    - Login using exam permit number and password
 
 4. **Important Rules:**
@@ -40,6 +40,6 @@ Here's what it covers:
 
 5. **Contact Information:**
    - Phone: 020-36246578
-   - Email: gwdzkb@163.com
+   - Email: <gwdzkb@163.com>
 
 The notice is issued by GDUFS Higher Education Self-Study Examination Office on October 24, 2025.

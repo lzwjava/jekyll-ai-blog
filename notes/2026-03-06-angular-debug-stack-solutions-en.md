@@ -128,5 +128,5 @@ Patching the source is possible — but should be your last resort, not first ch
 
 **References:**
 
-- https://github.com/angular/angular-cli/issues?q=is%3Aissue+label%3A%22type%3A+bug%22+%22Maximum+call+stack%22
-- https://stackoverflow.com/questions/73197135/angular-14-ng-serve-error-ngtools-webpack-src-ivy-index-js-error-maximum
+- <https://github.com/angular/angular-cli/issues?q=is%3Aissue+label%3A%22type%3A+bug%22+%22Maximum+call+stack%22>
+- <https://stackoverflow.com/questions/73197135/angular-14-ng-serve-error-ngtools-webpack-src-ivy-index-js-error-maximum>

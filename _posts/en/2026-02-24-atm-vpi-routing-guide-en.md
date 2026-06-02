@@ -23,6 +23,7 @@ The VPI field, in conjunction with the VCI (Virtual Channel Identifier) field, f
 The VCI, together with the VPI, is used to identify the next destination of a cell as it passes through a series of ATM switches on its way to its destination. ATM switches use the VPI/VCI fields to identify the virtual channel link (VCL) of the next network that a cell needs to transit on its way to its final destination.
 
 **Technical Details:**
+
 - The VPI is 8 bits for UNI (User-Network Interface) cells, while NNI (Network-Network Interface) cells use 12 bits for VPI (since the 4-bit GFC field is repurposed as additional VPI bits)
 - The Virtual Path Identifier (VPI) identifies a path between two locations in an ATM network that provides transportation for a group of virtual channels, where a virtual channel represents a connection between two communicating ATM devices.
 
@@ -41,7 +42,7 @@ Your answer of **A** is correct.
 
 References:
 
-- https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode
-- https://www.sciencedirect.com/topics/computer-science/virtual-path-identifier
-- https://www.informit.com/articles/article.aspx?p=680842&seqNum=4
-- https://www.ccexpert.us/routing-switchin/atm-cell-format.html
+- <https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode>
+- <https://www.sciencedirect.com/topics/computer-science/virtual-path-identifier>
+- <https://www.informit.com/articles/article.aspx?p=680842&seqNum=4>
+- <https://www.ccexpert.us/routing-switchin/atm-cell-format.html>

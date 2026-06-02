@@ -20,6 +20,7 @@ Yes, and here's the nuance:
 **Group messages have implicit context.** When someone posts in Group A, they're consenting to that audience — not to redistribution. This is the concept of **contextual integrity** (Helen Nissenbaum's framework): information flows appropriately when they match the norms of the original context.
 
 Forwarding without permission breaks that contract, even if:
+
 - The group is public-ish (150 members)
 - The content seems harmless (hobby discussion)
 - The sender didn't explicitly say "don't share"
@@ -35,6 +36,7 @@ Forwarding without permission breaks that contract, even if:
 ## The 20-Group Scale Makes It Worse
 
 You run ~20 groups × 150 members = up to 3,000 people. At that scale, a single forward can:
+
 - Surface someone's opinion to audiences they never consented to
 - Cause reputational issues (context collapse)
 - Create drama if the original poster finds out

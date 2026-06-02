@@ -17,6 +17,7 @@ Answer:
 The claim is largely accurate. By the late 1930s, under Joseph Stalin’s rule, the vast majority of the original Bolshevik leadership from the October Revolution of 1917 had been executed, died in prison, or been assassinated abroad during the Great Purge (1936–1938) and related repressions.
 
 Key facts:
+
 - Of the **21 members** of the first Politburo formed in October 1917, only **Stalin himself** died of natural causes in 1953. The others met violent or unnatural ends:
   - **Lenin** – died in 1924 (natural causes, but before Stalin’s full consolidation of power)
   - **Trotsky** – assassinated in Mexico in 1940 on Stalin’s orders

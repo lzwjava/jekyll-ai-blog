@@ -17,6 +17,7 @@ Answer:
 There is no single "greatest" investor or trader, as it depends on criteria like long-term compound returns, risk-adjusted performance, influence on the industry, consistency over decades, or legendary single trades. Here are some of the most widely regarded names across different categories, based on historical performance, reputation, and impact.
 
 ### Legendary Value / Long-Term Investors
+
 These focus on buying quality businesses and holding for years or decades.
 
 - **Warren Buffett** — Widely considered the greatest investor of all time by many. Through Berkshire Hathaway, he achieved extraordinary compound returns over 60+ years using value investing principles from Benjamin Graham.
@@ -25,6 +26,7 @@ These focus on buying quality businesses and holding for years or decades.
 - **Peter Lynch** — Managed Fidelity Magellan Fund to ~29% annualized returns (1977–1990), one of the best mutual fund records ever.
 
 ### Greatest Hedge Fund Managers / Quantitative Traders
+
 These often delivered exceptional risk-adjusted or absolute returns, frequently in hedge funds.
 
 - **Jim Simons** (Renaissance Technologies) — Founder of the Medallion Fund, widely viewed as having the best performance record in history (~66% annualized before fees from 1988–2018+). A mathematician who pioneered quantitative trading.
@@ -35,6 +37,7 @@ These often delivered exceptional risk-adjusted or absolute returns, frequently 
 - **Israel Englander** (Millennium Management) — Leads one of the top-earning and largest hedge funds; multi-manager platform with consistent results.
 
 ### Legendary Short-Term / Speculative Stock Traders
+
 These are more known for shorter-term trading, big bets, or technical approaches.
 
 - **Jesse Livermore** — Often called the greatest speculator/trader ever; made and lost several fortunes in the early 20th century; subject of the classic book *Reminiscences of a Stock Operator*.
@@ -42,6 +45,7 @@ These are more known for shorter-term trading, big bets, or technical approaches
 - **John Paulson** — Made billions betting against subprime mortgages in 2007–2008.
 
 ### Quick Comparison Notes
+
 - **Long-term consistency** → Buffett, Lynch, Simons (Medallion).
 - **Highest raw returns** → Jim Simons' Medallion Fund is in a league of its own.
 - **Biggest single-trade impact** → Soros (1992 pound), Paulson (2008 crisis).

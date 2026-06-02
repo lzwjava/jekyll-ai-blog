@@ -17,12 +17,14 @@ Answer:
 Yes, the parallels are striking and almost eerie.
 
 ### 1985 – Apple (Steve Jobs vs. John Sculley + Board)
+
 - Company size: ~5,000 employees but the real power circle was tiny (Jobs, Sculley, the Mac team ~100 people, and the board of ~8 people).
 - Product at the center: Macintosh (bet-the-company project).
 - Core conflict: Jobs (charismatic, product-obsessed founder) vs. Sculley (professional CEO brought in for adult supervision) + board worried about profitability and governance.
 - Outcome: Board sides with Sculley, Jobs is stripped of power and leaves → founds NeXT → returns in 1997 and saves Apple.
 
 ### 2023 – OpenAI (Sam Altman vs. Ilya Sutskever + Board)
+
 - Company size: Officially ~770 employees in Nov 2023, but the real power circle was tiny (Sam, Greg Brockman, Ilya, Mira Murati, the 6-person board, and maybe a dozen senior researchers).
 - Product/existential bet at the center: AGI / superintelligence (literally the company’s reason for existing).
 - Core conflict: Sam (charismatic, product-and-growth-obsessed CEO) vs. Ilya + the effective-altruist-leaning board members worried about safety and rushing toward AGI too fast without sufficient safeguards.

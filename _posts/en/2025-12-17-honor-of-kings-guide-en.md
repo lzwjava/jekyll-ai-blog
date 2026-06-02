@@ -16,17 +16,22 @@ Answer:
 Honor of Kings (HoK) is a 5v5 mobile MOBA where two teams battle to destroy the enemy's base Crystal in Hero's Gorge. Matches last 15-20 minutes. Earn gold and EXP by killing minions, jungle monsters, and enemies to buy items, level up skills, and push lanes.
 
 ### Map and Objective
+
 - **Lanes**: Three paths from your base to the enemy's:
+
   | Lane          | Minions Focus | Primary Role          |
   |---------------|---------------|-----------------------|
   | **Clash Lane** (Top) | High EXP    | Fighters/Tanks: Sustain, level fast, rotate after ult. |
   | **Mid Lane**  | Balanced     | Mages: Quick clear, burst, rotate to gank. |
   | **Farm Lane** (Bot) | High Gold   | Marksmen (+ Support): Farm early, scale for late-game damage. |
+
 - **Jungle**: Two areas (top/bottom) with monsters, buffs (Blue: cooldown/mana reduction; Red: burn damage), Tyrant (2 min spawn, team buffs), Overlord (8 min, spawns lane dragons for pushes).
 - **Win Condition**: Destroy all towers in a lane to reach and shatter the enemy Crystal. Prioritize objectives over kills.
 
 ### Hero Classes and Roles
+
 Heroes (100+) fit 6 classes:
+
 - **Tank**: Frontline damage absorbers (e.g., Arthur).
 - **Fighter**: Melee sustain damage (e.g., Biron).
 - **Assassin**: Mobile burst for ganks/jungle (avoid as beginner).
@@ -37,6 +42,7 @@ Heroes (100+) fit 6 classes:
 Standard team: Clash (Fighter), Mid (Mage), Farm (Marksman + Roam Support), Jungle (Assassin), Roam (Tank/Support rotates for vision/assists).
 
 ### Gameplay Basics
+
 1. **Start**: Pick role/lane in draft. Last-hit minions for gold/EXP (don't auto-push).
 2. **Early Game (0-5 min)**: Farm lane safely, take buffs if jungle/roam. Help secure Tyrant.
 3. **Mid Game**: Rotate for ganks/objectives. Group for Overlord.
@@ -45,6 +51,7 @@ Standard team: Clash (Fighter), Mid (Mage), Farm (Marksman + Roam Support), Jung
 6. **Combat**: Check minimap often. Ping for help/ganks. Towers prioritize first target—tank with minions.
 
 ### Beginner Tips
+
 - Play Practice/Solo mode first.
 - Focus 1-2 roles/heroes (e.g., Clash/Support: forgiving).
 - Farm > Kills early; don't overextend.
@@ -54,6 +61,7 @@ Standard team: Clash (Fighter), Mid (Mage), Farm (Marksman + Roam Support), Jung
 - Avoid dying (farm while dead = lost gold).
 
 ### Recommended Beginner Heroes (High WR, Simple Kits - 2025 Meta)
+
 Focus on these for 52-55% WR in low/Diamond ranks. Master 1 per role.
 
 | Role/Lane     | Hero          | Why Beginner-Friendly                  | WR (Diamond-) |
@@ -72,6 +80,7 @@ Ban S-tier threats like Augran/Lam if possible. Adapt builds to enemy team.
 Practice in custom/tutorial modes. Climb by winning streaks, then break after losses. Duo/trio with friends for better coordination.
 
 References:
+
 - [Epic Games Beginner Guide](https://store.epicgames.com/en-US/news/honor-of-kings-guide-tips-beginning-mobile-moba-players)
 - [Reddit 2025 Beginners Guide](https://www.reddit.com/r/honorofkings/comments/1jo4yum/beginners_guide_to_honor_of_kings_2025/)
 - [BitTopup Best Beginner Heroes 2025](https://bittopup.com/article/Honor-of-Kings-Best-Beginner-Heroes-2025-Arthur-542-WR-Guide)

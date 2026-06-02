@@ -24,16 +24,19 @@ type: note
 ## 计划对比：Pro vs. Max
 
 ### Pro 计划 — $20/月
+
 Pro 包含 Claude Code 和 Cowork，可访问无限量的 projects，访问 Research 功能，能够使用更多 Claude models，以及 beta 访问 Claude for Excel 和 PowerPoint 的权限。
 
 Pro 适合开始体验 Cowork，但由于 Cowork 消耗的 tokens 显著高于常规 chat 交流，因此 Pro 用户在运行长时间的 Cowork 会话时，可能会更快达到 usage limits。
 
 ### Max 计划 — $100/月 (5x) 或 $200/月 (20x)
+
 Max 计划提供比 Pro 高得多的使用量，分为两个档位：Max 5x 的每节会话使用量是 Pro 的 5 倍（适合频繁使用者）；Max 20x 提供 20 倍的使用量（适合重度协作的日常用户）。
 
 Max 包含 Pro 的所有功能，外加 5x 或 20x 的使用量选择、所有任务更高的 output limits、高级 Claude 功能的早期访问权，以及在高流量时段的优先访问权。
 
 ### 关键使用数据
+
 Max 5x 在每 5 小时窗口内提供约 225+ 条消息，而 Max 20x 在每 5 小时窗口内提供约 900+ 条消息。一个整理文件或生成报告的单次 Cowork 会话所消耗的配额，可能相当于数十条常规 chat 消息。
 
 ---

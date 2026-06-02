@@ -35,6 +35,7 @@ Example for **package.json** (using npm overrides):
 ```
 
 After adding this:
+
 - Delete `node_modules` and `package-lock.json` (or `yarn.lock` / `pnpm-lock.yaml`)
 - Run `npm install` again
 

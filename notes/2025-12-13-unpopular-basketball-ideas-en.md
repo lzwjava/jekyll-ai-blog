@@ -34,9 +34,9 @@ These ideas often prioritize long-term growth, team concepts, or enjoyment over 
 
 References:
 
-- https://www.reddit.com/r/Basketball/comments/n71mu2/okay_guys_lets_play_a_game_every_one_writes_one/
-- https://transformingbball.com/why-its-not-about-fundamentals-moving-on-from-outdated-coaching-styles/
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC11112112/
-- https://www.reddit.com/r/unpopularopinion/comments/1hw507b/basketball_has_been_ruined_it_went_from_being_fun/
-- https://brianmccormick.substack.com/p/the-basketball-contrarian
-- https://www.reddit.com/r/BasketballTips/comments/1bmvlt2/what_sports_do_you_do_besides_basketball_that_you/
+- <https://www.reddit.com/r/Basketball/comments/n71mu2/okay_guys_lets_play_a_game_every_one_writes_one/>
+- <https://transformingbball.com/why-its-not-about-fundamentals-moving-on-from-outdated-coaching-styles/>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC11112112/>
+- <https://www.reddit.com/r/unpopularopinion/comments/1hw507b/basketball_has_been_ruined_it_went_from_being_fun/>
+- <https://brianmccormick.substack.com/p/the-basketball-contrarian>
+- <https://www.reddit.com/r/BasketballTips/comments/1bmvlt2/what_sports_do_you_do_besides_basketball_that_you/>

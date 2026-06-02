@@ -28,6 +28,7 @@ There's a meaningful difference between content that *directly supports* your pr
 **The real risk you're highlighting:**
 
 If you build an audience in something that's entertainment-focused, personality-driven, or tangential to your actual skills, you face:
+
 - Recruiters seeing you as "a content creator" rather than "an engineer who creates content"
 - Opportunity cost of time that could've deepened technical expertise
 - Potential misalignment between your public brand and your actual capabilities
@@ -36,6 +37,7 @@ If you build an audience in something that's entertainment-focused, personality-
 **What actually works long-term:**
 
 Content that's *parasitic on genuine expertise*, not *substitute for it*. The creator must:
+
 1. **Actually be very good** at the underlying skill first
 2. Create content that demonstrates that (ByteByteGo does system design *because* Alex Xu is genuinely expert)
 3. Use it as a force multiplier for credibility, not as a replacement for it

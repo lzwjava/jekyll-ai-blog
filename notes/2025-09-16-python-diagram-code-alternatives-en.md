@@ -13,6 +13,7 @@ type: note
 Here are Python-friendly options (beyond Graphviz and NetworkX) that make generating software design/architecture diagrams straightforward. I grouped them by use case and included quick notes and tiny examples.
 
 Diagram-as-code (UML, C4, flowcharts, sequences)
+
 - PlantUML (via python-plantuml or local JAR)
   - Great for UML: class, sequence, component, state, activity, deployment.
   - Works well in CI and with docs.
@@ -42,6 +43,7 @@ Diagram-as-code (UML, C4, flowcharts, sequences)
   - Render many DSLs (PlantUML, Mermaid, Graphviz, BPMN, etc.) via a single HTTP API from Python.
 
 Cloud and infrastructure architecture
+
 - Diagrams (by mingrammer)
   - Diagram-as-code for cloud/system architecture with official provider icons (AWS, Azure, GCP, K8s, on-prem).
   - Very popular for architecture overviews.
@@ -53,6 +55,7 @@ Cloud and infrastructure architecture
         EC2("api") >> RDS("db")
 
 Interactive network/graph visualizations (handy for system maps, dependencies)
+
 - PyVis (vis.js)
   - Minimal code to produce interactive HTML graphs.
   - Example:
@@ -68,24 +71,28 @@ Interactive network/graph visualizations (handy for system maps, dependencies)
   - Fast graph library with built-in plotting; suitable when you need layout algorithms plus exportable diagrams.
 
 Documentation integrations (keep diagrams close to your docs)
+
 - Sphinx extensions: sphinxcontrib-plantuml, sphinxcontrib-mermaid, sphinxcontrib-blockdiag
   - Write diagrams inline in reStructuredText/Markdown and build them in your docs pipeline.
 - MkDocs plugins (for Mermaid/PlantUML)
   - Convenient for modern static sites.
 
 Code and architecture reverse-engineering
+
 - pylint’s pyreverse
   - Generates UML class and package diagrams from Python code (often renders via Graphviz, but workflow is simple).
 - pydeps
   - Creates import/dependency graphs of Python packages, handy for architecture maps in large codebases.
 
 Specialized diagrams
+
 - SchemDraw
   - Programmatic circuit/logic/flowchart diagrams in Python; clean vector output.
 - railroad-diagrams
   - Generate syntax/grammar diagrams (useful for protocol/spec documentation).
 
 Tips to choose
+
 - Quick UML/sequence docs: PlantUML or Mermaid.
 - Cloud/system architecture posters: Diagrams (mingrammer).
 - Interactive exploration and sharing: PyVis or Dash Cytoscape.

@@ -15,6 +15,7 @@ type: note
 To ensure your Jekyll deployment workflow doesn't run too frequently (i.e., at least a 30-minute gap between consecutive runs), you can add a conditional step early in the `build` job. This step will query the GitHub API for the timestamp of the most recent successful run of this workflow. If the current trigger is within 30 minutes of that run's completion, the job will exit early with a message (skipping the build).
 
 This approach:
+
 - Uses the GitHub REST API (no external tools needed).
 - Only checks for **successful** previous runs (status: "completed", conclusion: "success").
 - Calculates the time difference in seconds and compares it to 1800 (30 minutes).
@@ -22,9 +23,11 @@ This approach:
 - Doesn't interfere with the concurrency setup (which handles overlapping runs).
 
 #### Updated YAML Snippet
+
 Insert this new step right after the "Checkout Repository" step in your `build` job. The rest of the workflow remains unchanged.
 
 {% raw %}
+
 ```yaml
 jobs:
   build:
@@ -86,9 +89,11 @@ jobs:
 
       # ... (repeat the 'if: steps.cooldown.outputs.skip_build != 'true'' condition on ALL remaining steps after this one)
 ```
+
 {% endraw %}
 
 #### Key Changes Explained
+
 1. **API Query**:
    - Uses `curl` to hit the GitHub Actions API endpoint for workflow runs.
    - Filters for `status=completed` and `conclusion=success` to get only finished, successful runs.
@@ -111,17 +116,21 @@ jobs:
    - `jq` is pre-installed on `ubuntu-latest`, so no extra setup needed.
 
 #### Testing the Change
+
 - Commit this to your `main` branch (it will trigger the workflow).
 - Trigger multiple quick pushes/dispatches: The second one within 30 min should skip.
 - Monitor the job logs for the "Build skipped" message.
 - If you want to adjust the gap (e.g., 1 hour), change `1800` to `3600`.
 
 #### Alternatives
+
 - **Schedule Trigger**: If you want *periodic* builds every 30 min (regardless of pushes), add this to the `on:` section:
+
   ```yaml
   schedule:
     - cron: '*/30 * * * *'  # Every 30 minutes
   ```
+
   But this doesn't enforce a gap on push triggers—use it alongside the cooldown step if needed.
 - **Custom Action**: For reusability, wrap the cooldown logic in a reusable workflow or composite action.
 - **Limitations**: This checks run completion time, not start time. If a previous run is still running >30 min, concurrency will cancel it anyway.

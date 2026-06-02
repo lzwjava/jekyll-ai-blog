@@ -10,7 +10,8 @@ type: note
 
 The file you're looking at is a **Firefox bookmark backup** in the `.jsonlz4` format. This means it's a **JSON file compressed using the LZ4 compression algorithm**, and it contains your Firefox bookmarks.
 
-### 📁 File Name:
+### 📁 File Name
+
 ```
 bookmarks-2025-06-21_10_MU9VVxxx.jsonlz4
 ```
@@ -95,7 +96,7 @@ If you prefer JavaScript/Node:
 npm install firefox-jsonlz4
 ```
 
-Or see this repo: https://github.com/overdodactyl/firefox-jsonlz4
+Or see this repo: <https://github.com/overdodactyl/firefox-jsonlz4>
 
 ---
 
@@ -122,6 +123,7 @@ Once parsed, you'll get a JSON structure like this:
 ```
 
 You can use this data to:
+
 - Search through old bookmarks
 - Migrate bookmarks
 - Analyze your browsing/bookmarking habits
@@ -147,6 +149,7 @@ Great question! Let's break down **why Mozilla uses the `.jsonlz4` format** for 
 ## 🔍 Why Mozilla Uses `.jsonlz4` Instead of Plain JSON
 
 ### ✅ 1. **Compression Efficiency**
+
 - `.jsonlz4` is **JSON data compressed using the LZ4 algorithm**.
 - LZ4 is **fast**, **lightweight**, and offers decent compression ratios — ideal for Firefox’s use case.
 - This reduces file size significantly (often by **50–70%**), which:
@@ -159,6 +162,7 @@ Great question! Let's break down **why Mozilla uses the `.jsonlz4` format** for 
 ---
 
 ### ✅ 2. **Performance**
+
 - LZ4 is optimized for **speed over maximum compression**.
 - Firefox can quickly compress and decompress these files without noticeable lag.
 - Other algorithms like gzip or zstd are more powerful but slower or more complex.
@@ -166,6 +170,7 @@ Great question! Let's break down **why Mozilla uses the `.jsonlz4` format** for 
 ---
 
 ### ✅ 3. **Internal Format**
+
 - Firefox doesn’t expose this as a user-facing format; it's used internally for:
   - Bookmarks backups (`bookmarkbackups/`)
   - Session store (`sessionstore-backups/`)
@@ -191,6 +196,7 @@ Let’s clarify:
 Both formats are **unencrypted** and **unprotected** by default.
 
 So:
+
 - If someone has access to your Firefox profile, they can read either file.
 - Neither format protects sensitive data like URLs or titles.
 
@@ -199,18 +205,21 @@ So:
 ## 💡 So Why Not Use Encrypted or Secure Formats?
 
 Mozilla **does not encrypt local profile data by default**, including:
+
 - Bookmarks
 - History
 - Cookies
 - Passwords
 
-### Here's Why:
+### Here's Why
+
 - **User Experience**: Encryption adds complexity.
 - **Recovery**: Users could lose data if they forget passwords.
 - **Trust Assumption**: Firefox assumes your system is secure.
 - **Alternative Tools Exist**: You can manually encrypt your Firefox profile directory using OS-level tools (e.g., VeraCrypt, BitLocker, etc.).
 
 If you want encrypted profiles:
+
 - Use **Firefox Lockwise** for password encryption.
 - Use **third-party tools** to encrypt the entire profile folder.
 - Or switch to a portable Firefox on an encrypted USB drive.

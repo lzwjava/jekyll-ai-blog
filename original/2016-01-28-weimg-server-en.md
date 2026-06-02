@@ -19,7 +19,7 @@ WeImg is your ultimate destination for discovering the most hilarious memes, ado
 
 Welcome to weimg-server! This repository contains the backend components for powering a dynamic web application. Below is a brief overview of the directory structure and key components of the project:
 
-### Directories:
+### Directories
 
 - **cache**: Contains cached files used for optimizing performance.
 - **config**: Stores configuration files for various aspects of the application such as database settings, routes, and constants.
@@ -34,13 +34,13 @@ Welcome to weimg-server! This repository contains the backend components for pow
 - **models**: Houses PHP models representing data entities and interacting with the database.
 - **third_party**: Placeholder directory for third-party libraries or modules.
 
-### Files:
+### Files
 
 - **index.html**: Default landing page for the server project.
 - **test.php**: A PHP script for testing purposes.
 - **welcome_message.php**: PHP script generating a welcome message for the application's homepage.
 
-### How to Use:
+### How to Use
 
 1. Ensure that PHP is installed on your server environment.
 2. Configure the settings in the `config` directory, especially `config.php` and `database.php`, according to your environment.

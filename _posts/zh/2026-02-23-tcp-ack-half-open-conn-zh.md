@@ -13,21 +13,23 @@ type: note
 
 当 Host B 成功接收来自 Host A 的数据时，它必须发送一个 acknowledgment (ACK) 来确认接收。
 
-*   **字段名称**：TCP 标头中用于指示下一个期望字节的字段是 **Acknowledgment Number**（通常称为 Acknowledgement field）。
-*   **值计算**：
-    *   A 发送的初始 Sequence Number 给出了十六进制 `3A47087C`。
-    *   数据负载大小为 $1024$ 字节。
-    *   十进制中，$1024 = 0x400$（十六进制）。
-    *   Acknowledgment Number 表示 Host B 期望接收的*下一个*字节的 sequence number。因此，计算公式为：
+* **字段名称**：TCP 标头中用于指示下一个期望字节的字段是 **Acknowledgment Number**（通常称为 Acknowledgement field）。
+* **值计算**：
+  * A 发送的初始 Sequence Number 给出了十六进制 `3A47087C`。
+  * 数据负载大小为 $1024$ 字节。
+  * 十进制中，$1024 = 0x400$（十六进制）。
+  * Acknowledgment Number 表示 Host B 期望接收的*下一个*字节的 sequence number。因此，计算公式为：
         $$ \text{Next Seq} = \text{Current Seq} + \text{Data Length} $$
         $$ \text{Next Seq} = 3A47087C_{16} + 400_{16} $$
-    *   执行十六进制加法：
+  * 执行十六进制加法：
+
         ```text
           3A47087C
         +      400
         ----------
           3A470C7C  <-- 等一下，让我仔细重新计算。
         ```
+
         让我们分解加法：
         $7C_{16} + 00_{16} = 7C_{16}$
         $08_{16} + 04_{16} = 0C_{16}$？不，$1024$ 是 $0x400$。
@@ -59,8 +61,8 @@ type: note
         $087C + 0400 = 0C7C$。
 
         标准计算（$1024$ 字节 $\rightarrow$ `3A470C7C`）与提供的参考答案（`3A470F7C`）之间存在差异。
-        *   如果数据为 1024 字节：答案是 `3A470C7C`。
-        *   如果您的考试系统严格要求参考答案 `3A470F7C`，则暗示考虑的数据长度为 $1792$ 字节（$0x700$），或者问题中的字节数或参考答案存在笔误。
+    * 如果数据为 1024 字节：答案是 `3A470C7C`。
+    * 如果您的考试系统严格要求参考答案 `3A470F7C`，则暗示考虑的数据长度为 $1792$ 字节（$0x700$），或者问题中的字节数或参考答案存在笔误。
 
         **标准技术答案**：严格基于文本“1024 字节”，计算为：
         $3A47087C + 0x400 = \mathbf{3A470C7C}$。
@@ -78,23 +80,24 @@ type: note
 
 ### 2. 连接状态问题
 
-*   **问题名称**：当一方（Host A）崩溃并重启，丢失连接的所有内存，而另一方（Host B）仍认为连接活跃时，这种状态称为 **Half-Open Connection**（有时称为“dangling connection”）。
-*   **机制**：Host B 不知道 Host A 已重启并丢失了与连接关联的 Transmission Control Block (TCB)。
+* **问题名称**：当一方（Host A）崩溃并重启，丢失连接的所有内存，而另一方（Host B）仍认为连接活跃时，这种状态称为 **Half-Open Connection**（有时称为“dangling connection”）。
+* **机制**：Host B 不知道 Host A 已重启并丢失了与连接关联的 Transmission Control Block (TCB)。
 
 ### 3. 重置连接
 
-*   **场景**：Host B 向 Host A 发送携带数据的 TCP segment。
-*   **Host A 的反应**：由于 Host A 重启，它不识别传入的 segment 为现有有效连接的一部分（它没有记录）。
-*   **响应字段**：Host A 将响应一个 TCP segment，其中 TCP 标头的 **RST (Reset)** 标志设置为 **1**。
-*   **效果**：这向 Host B 信号连接无效，必须立即终止。
+* **场景**：Host B 向 Host A 发送携带数据的 TCP segment。
+* **Host A 的反应**：由于 Host A 重启，它不识别传入的 segment 为现有有效连接的一部分（它没有记录）。
+* **响应字段**：Host A 将响应一个 TCP segment，其中 TCP 标头的 **RST (Reset)** 标志设置为 **1**。
+* **效果**：这向 Host B 信号连接无效，必须立即终止。
 
 ### 答案摘要
-1.  **字段**：Acknowledgment Number (确认序号)。
-2.  **值**：`3A470C7C`（针对 1024 字节计算）。*注意：您提供的参考密钥列出 `3A470F7C`，对应 1792 字节。请验证您特定考试源中的字节数。*
-3.  **问题名称**：Half-Open Connection (半开连接)。
-4.  **通知字段**：RST flag (Reset bit)。
+
+1. **字段**：Acknowledgment Number (确认序号)。
+2. **值**：`3A470C7C`（针对 1024 字节计算）。*注意：您提供的参考密钥列出 `3A470F7C`，对应 1792 字节。请验证您特定考试源中的字节数。*
+3. **问题名称**：Half-Open Connection (半开连接)。
+4. **通知字段**：RST flag (Reset bit)。
 
 参考资料：
 
-- [TCP Connection Establishment and Termination - GeeksforGeeks](https://www.geeksforgeeks.org/tcp-connection-termination/)
-- [RFC 793: Transmission Control Protocol](https://datatracker.ietf.org/doc/html/rfc793)
+* [TCP Connection Establishment and Termination - GeeksforGeeks](https://www.geeksforgeeks.org/tcp-connection-termination/)
+* [RFC 793: Transmission Control Protocol](https://datatracker.ietf.org/doc/html/rfc793)

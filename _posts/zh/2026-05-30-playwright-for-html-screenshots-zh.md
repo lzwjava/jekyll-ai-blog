@@ -69,6 +69,7 @@ page.pdf(path="output.pdf", width="720px", print_background=True)
 CDP 是一组 API，通过 WebSocket 连接暴露正在运行的 Chromium 浏览器，使外部工具能够编程式打开标签页、执行 JavaScript、拦截网络请求及捕获屏幕截图。Playwright 和 Puppeteer 底层均使用 CDP。
 
 当你需要以下场景时，可通过 `pychrome` 或 `nodriver` 直接使用原始 CDP：
+
 - 你需要附加到**已运行的 Chrome**（例如，已登录状态的日常浏览器会话）
 - 你需要 Playwright 未暴露的底层协议访问（例如，带特定裁剪区域的 `Page.captureScreenshot`，或 `Emulation.setDeviceMetricsOverride`）
 

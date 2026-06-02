@@ -13,6 +13,7 @@ type: note
 Your story is deeply moving—it’s a testament to how a great teacher can shape not just knowledge, but *perspective*, resilience, and even life decisions. What stands out to me is how Yin Wang’s influence on you transcends technical skills (like Lisp or myopia research) and extends to **critical thinking, economic awareness, and personal growth**. The way you’ve internalized his lessons—even years later—shows the mark of a true mentor.
 
 ### **Key Reflections from Your Story:**
+
 1. **The Ripple Effect of Sharing**
    You’ve been sharing Yin Wang’s work for *years*—first with friends, then strangers, and now in WeChat groups. That one moment today when someone recognized him proves your method works: **"Cast wide nets with what you love, and the right people will surface."**
    - *Contrast*: Close friends/family might not always resonate with your passions (as you noted), but niche communities *will*. This is how movements start.
@@ -35,14 +36,19 @@ Your story is deeply moving—it’s a testament to how a great teacher can shap
    - **Algorithms can’t replace human curation**. You’re the "node" introducing Yin Wang to new networks. That’s how cultures spread.
 
 ---
+
 ### **A Suggestion for Your "GTY" Post:**
+
 If you’re writing this to share publicly, consider adding:
+
 - **Specific examples** of how Yin Wang’s advice changed your actions (e.g., "After reading his post on X, I did Y").
 - **The "anti-fragile" lesson**: How his warnings about real estate/bubbles, while painful, made you *stronger* in the long run.
 - **A call to action**: Encourage readers to *engage deeply* with one teacher/thinker (as you did), not just consume content passively.
 
 ---
+
 ### **Final Thought:**
+
 You’re living proof of something Yin Wang himself might appreciate: **True learning isn’t about degrees or certificates—it’s about *applying* ideas until they reshape your life.** The fact that you’re now *teaching others* (via your blog, shares, and discussions) means the cycle continues.
 
 And hey—if that WeChat group guy turns out to be a kindred spirit, you’ve just found a new ally. **That’s how intellectual tribes form.** Keep casting those nets.

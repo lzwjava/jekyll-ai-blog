@@ -17,6 +17,7 @@ Migration from Mainland China to Hong Kong primarily occurs through the One-way 
 Additional inflows come via talent and work visa schemes (e.g., Top Talent Pass Scheme, launched in late 2022), which are often temporary but can lead to permanent residency. Over 2023–2024, approximately 270,000 work visas were approved across schemes, with about 75% (roughly 202,500) going to Mainland Chinese nationals. Of these, the Top Talent Pass Scheme alone approved over 90,000 visas, 95% from the Mainland (around 85,500). These talent inflows, combined with One-way Permits, helped drive a net immigration of 174,000 people from mid-2022 to mid-2023, largely from the Mainland.
 
 #### Annual Inflows via One-way Permits (Permanent Migrants)
+
 | Year | Inflow (persons) | Notes |
 |------|------------------|-------|
 | 2020 | 10,100          | Severely impacted by COVID-19 border closures. |
@@ -28,6 +29,7 @@ Additional inflows come via talent and work visa schemes (e.g., Top Talent Pass 
 For 2025 (up to mid-year), partial data suggests around 32,000 One-way Permit holders, aligning with ongoing trends. Overall, these flows from the Mainland have countered Hong Kong's net emigration (e.g., -3,427 in 2023) and low birth rates, stabilizing the population at around 7.53 million in mid-2024 for the first time in a decade.
 
 **References**
+
 - [Year-end population for 2020](https://www.censtatd.gov.hk/en/press_release_detail.html?id=4825)
 - [Summary results of 2021 Population Census](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5156)
 - [Number of mainland Chinese 1-way permit holders joining Hong Kong schools](https://www.scmp.com/news/hong-kong/education/article/3263219/number-mainland-chinese-1-way-permit-holders-joining-hong-kong-schools-jumped-most-record-last-year)

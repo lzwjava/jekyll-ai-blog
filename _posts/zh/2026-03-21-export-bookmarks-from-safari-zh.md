@@ -23,13 +23,11 @@ Answer:
 
 **方法 1: 将浏览数据导出到文件 (现代 Safari)**
 
-
 1. 打开 Safari。
 2. 在菜单栏中，点击 **File → Export Browsing Data to File...**
 3. 启用 **Bookmarks** 的切换开关，然后点击 **Export**。
 4. 将 `.zip` 文件保存到您的电脑上。
 5. 解压 `.zip` 文件以获取 `Bookmarks.html` 文件。
-
 
 > **注意：** 在较新版本的 Safari 中，旧的“Export Bookmarks”选项已重命名为 **"Export Browsing Data to File"**，您可以选择要导出的数据。
 
@@ -37,13 +35,11 @@ Answer:
 
 ### 在 iPhone 或 iPad 上 (iOS/iPadOS)
 
-
 1. 在 iPhone 或 iPad 上，导航到 **Settings → Apps → Safari**。
 2. 向下滚动到 **"History and Website Data"** 部分，然后点击 **Export**。
 3. 取消选中除 **Bookmarks** 外的所有选项，然后点击 **Save to Downloads**。
 4. 点击 **"Show Safari Export in Files"** 以在 Files 应用中打开 ZIP 文件。
 5. 然后，您可以将 `Bookmarks.html` 文件备份到外部存储或传输到电脑。
-
 
 > 如果您有多个 Safari 配置文件，您可以导出所有配置文件的书签，或者仅导出特定配置文件的书签。
 

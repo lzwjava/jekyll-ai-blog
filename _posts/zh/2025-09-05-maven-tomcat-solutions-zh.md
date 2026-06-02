@@ -32,6 +32,7 @@ type: note
      <version>9.4.54.v20240208</version>
    </plugin>
    ```
+
 2. 运行：
 
    ```bash
@@ -47,12 +48,14 @@ type: note
    ```xml
    <packaging>war</packaging>
    ```
+
 2. 确保 webapp 目录结构存在：
 
    ```
    src/main/webapp/
    src/main/webapp/WEB-INF/web.xml   # 可选（如果你有 Servlet 3 初始化器）
    ```
+
 3. （可选）添加插件配置：
 
    ```xml
@@ -66,6 +69,7 @@ type: note
      </configuration>
    </plugin>
    ```
+
 4. 运行：
 
    ```bash

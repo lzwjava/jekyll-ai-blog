@@ -15,6 +15,7 @@ type: note
 ---
 
 ### **English Translation & Text**
+
 Here is a widely accepted English translation of the poem:
 
 > **Reeds and Rushes**
@@ -42,6 +43,7 @@ Here is a widely accepted English translation of the poem:
 ---
 
 ### **Themes & Interpretation**
+
 1. **Longing and Unrequited Love**
    The poem expresses a deep yearning for someone unattainable, symbolized by the physical and emotional distance between the speaker and the object of their affection. The "one I seek" is always just out of reach, separated by rivers, mist, and reeds.
 
@@ -57,6 +59,7 @@ Here is a widely accepted English translation of the poem:
 ---
 
 ### **Literary Significance**
+
 - **Foundational Work**: As part of the *Classic of Poetry*, *蒹葭* is a cornerstone of Chinese literature, influencing generations of poets and scholars.
 - **Symbolism**: The poem’s imagery (reeds, dew, rivers) became archetypes in later Chinese poetry, symbolizing longing, separation, and the ephemeral nature of desire.
 - **Cultural Legacy**: It is often quoted in modern Chinese media, literature, and music, and remains a staple in educational curricula.
@@ -64,6 +67,7 @@ Here is a widely accepted English translation of the poem:
 ---
 
 ### **Why It Resonates Today**
+
 *蒹葭* transcends time because it captures universal human experiences: the ache of desire, the frustration of unattainable goals, and the beauty of nature as a mirror for emotion. Its simplicity and depth make it relatable across cultures and eras.
 
 ---

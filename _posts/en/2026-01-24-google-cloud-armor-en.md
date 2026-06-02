@@ -17,10 +17,12 @@ Answer:
 Google Cloud Armor is Google Cloud's **network security service** that protects applications and infrastructure from various internet-based threats, particularly **DDoS attacks** and common web application attacks.
 
 ### Main Purposes
+
 - **DDoS protection** — Mitigates both volumetric network-level (Layer 3/4) and application-level (Layer 7) attacks.
 - **Web Application Firewall (WAF)** — Blocks common exploits such as SQL injection (SQLi), cross-site scripting (XSS), remote code execution, and many other OWASP Top 10 threats.
 
 ### Key Features
+
 - **Always-on Layer 3/4 DDoS protection** — Automatically provided for Google Cloud load balancers (no extra configuration needed for basic volumetric protection).
 - **Layer 7 protection** — Configurable through security policies attached to HTTP(S) load balancers.
 - **Security Policies** — The core mechanism:
@@ -32,6 +34,7 @@ Google Cloud Armor is Google Cloud's **network security service** that protects 
 - **Edge security** — Rules are evaluated at Google's edge (close to the source of traffic), reducing load on your backends.
 
 ### Tiers / Editions (as of 2025–2026)
+
 - **Cloud Armor Standard** — Basic DDoS protection + custom rules + some preconfigured WAF rules (pay-per-use, charged mainly on processed requests).
 - **Cloud Armor Enterprise** — Full-featured version:
   - Advanced WAF rules
@@ -41,7 +44,9 @@ Google Cloud Armor is Google Cloud's **network security service** that protects 
   - Predictable pricing via subscription (monthly/annual commitment options)
 
 ### Where It Attaches
+
 Cloud Armor policies are primarily attached to:
+
 - Global external **Application Load Balancers** (HTTP/HTTPS)
 - Classic Application Load Balancers
 - Some cross-project and multi-cloud scenarios (with proper configuration)
@@ -49,6 +54,7 @@ Cloud Armor policies are primarily attached to:
 It does **not** directly protect Compute Engine VMs or non-load-balanced traffic unless routed through a supported load balancer.
 
 ### Common Use Cases
+
 - Protecting public web applications from DDoS floods
 - Blocking common web exploits without writing custom regex rules
 - Rate limiting suspicious clients (e.g., brute-force login attempts)

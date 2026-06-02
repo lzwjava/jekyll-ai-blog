@@ -21,14 +21,17 @@ Yes, the **TL-XDR3050 EasyMesh Edition** (commonly called XDR3050 EasyMesh versi
 This exactly solves your earlier issue: **it supports wireless repeating/relaying**, and **multiple levels of relaying are possible** (you can chain it more than once), unlike the international Archer AX3000 series that does not support wireless repeating.
 
 ### Why you couldn't find the "wireless signal page" before?
+
 - The router you used earlier was likely the international version (Archer AX3000, AX55, or similar), which **does not have wireless repeating or WDS options** — only OneMesh (requires compatible devices).
 - The XDR3050 EasyMesh version is a **China-specific model** (TL-XDR series). Its firmware includes **EasyMesh functionality**, and wireless repeating is handled through **EasyMesh one-touch setup**, not the traditional WDS scanning page.
 - In the admin page (tplinkwifi.net or 192.168.0.1), there is **no separate "Wireless Repeating" or "Scan Signal" button**; everything is managed under the unified **EasyMesh** feature.
 
 ### How to use the XDR3050 EasyMesh version for wireless repeating (including repeating twice)
+
 EasyMesh supports **wireless + wired hybrid networking**, and can connect up to 8 units (officially supports multi-hop, but in practice it's best to limit to 3–4 hops to avoid severe speed loss). Repeating twice (two-level cascading) is fully supported: main router → sub-router 1 → sub-router 2.
 
 #### Steps (easiest one-touch method, recommended)
+
 1. **Preparation**:
    - All routers must be **TP-Link EasyMesh edition** models (such as XDR3010/3020/3030/3040/3050/3060 series with the "EasyMesh" label).
    - Set one router as the **main router** (connected to the modem/broadband, with Wi-Fi name, password, and internet account properly configured).
@@ -56,17 +59,19 @@ EasyMesh supports **wireless + wired hybrid networking**, and can connect up to 
    - Web interface: log into the main router → Advanced → EasyMesh (or Mesh settings) → add sub-node.
 
 #### Performance notes
+
 - **Wireless repeating**: speed drops significantly (especially with multiple hops). First hop usually retains 50–70%, second hop 30–50% (depending on distance and walls).
 - **Recommended**: use a network cable from main router to sub-router 1, then wireless from sub-router 1 to sub-router 2 (hybrid setup for best stability).
 - EasyMesh supports **multi-band backhaul** (2.4 GHz + 5 GHz links), which performs better than old WDS and has stronger wall penetration.
 - If you experience drops or slow speeds after setup: check for firmware updates (download the latest TL-XDR3050 version from the official website), or move the sub-router closer for testing.
 
 ### Other features (useful for your scenario)
+
 - Supports **Router / AP (wired repeating) / Wireless repeating** mode switching (Advanced > Operation Mode).
 - Dual WAN (dual broadband support), customizable ports, game acceleration, etc.
 - Full Wi-Fi 6 performance with strong wall penetration, ideal for large homes or multi-floor repeating.
 
-If you have two XDR3050 EasyMesh routers now, just use one-touch pairing to set up two levels of repeating! If pairing still fails, tell me the exact light behavior or share a screenshot of the admin page, and I’ll help troubleshoot further. Official page: https://www.tp-link.com.cn/product_2196.html (specs and firmware are there).
+If you have two XDR3050 EasyMesh routers now, just use one-touch pairing to set up two levels of repeating! If pairing still fails, tell me the exact light behavior or share a screenshot of the admin page, and I’ll help troubleshoot further. Official page: <https://www.tp-link.com.cn/product_2196.html> (specs and firmware are there).
 
 References:
 

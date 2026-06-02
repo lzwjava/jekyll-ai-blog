@@ -9,6 +9,7 @@ type: note
 ---
 
 错误提示 `cannot identify image file` 表明 Pillow 无法读取 HEIC 文件，可能由以下原因导致：
+
 1. **缺少 `libheif` 库**：Pillow 需要 `libheif` 来处理 HEIC 文件，可能未在系统中安装或配置不当。
 2. **HEIC 文件损坏或不兼容**：HEIC 文件可能已损坏，或格式不被 Pillow 支持。
 3. **Pillow 版本问题**：尽管 Pillow 9.0.0+ 支持 HEIC，但可能存在配置问题或版本过旧。
@@ -18,29 +19,39 @@ type: note
 ### 修复步骤
 
 #### 1. 安装 `libheif`
+
 Pillow 依赖 `libheif` 来支持 HEIC。使用 Homebrew 安装：
+
 ```bash
 brew install libheif
 ```
+
 安装后，重新安装 Pillow 以确保其与 `libheif` 链接：
+
 ```bash
 pip uninstall pillow
 pip install pillow
 ```
 
 #### 2. 验证 Pillow 的 HEIC 支持
+
 检查 Pillow 是否能处理 HEIC 文件：
+
 ```bash
 python -c "from PIL import features; print(features.check_feature('heic'))"
 ```
+
 - 如果输出 `True`，表示 Pillow 支持 HEIC。
 - 如果输出 `False` 或错误，说明 `libheif` 未正确配置，或 Pillow 未启用 HEIC 支持。
 
 #### 3. 检查文件完整性
+
 确保 HEIC 文件未损坏。尝试在 macOS 的预览等查看器中打开其中一个文件（例如 `IMG_5988.HEIC`）。如果无法打开，文件可能已损坏，需要重新导出或获取新副本。
 
 #### 4. 更新后的 Python 脚本
+
 更新后的脚本：
+
 - 使用 Pillow 进行 HEIC 转换，并改进了错误处理。
 - 当 Pillow 读取 HEIC 文件失败时，回退到使用已安装的 `ImageMagick`。
 - 将详细错误记录到文件 `conversion_errors.log` 中，便于调试。
@@ -143,27 +154,35 @@ print("Batch conversion complete! Check conversion_errors.log for any issues.")
 ```
 
 ### 使用方法
+
 1. **保存脚本**：
    将代码保存为 `photo_compress.py`，放在 `scripts/media/` 目录中。
 
 2. **安装依赖**：
    - 确保 Pillow 已安装：
+
      ```bash
      pip install --upgrade pillow
      ```
+
    - 安装 `libheif`：
+
      ```bash
      brew install libheif
      ```
+
    - 可选：安装 ImageMagick 作为备用方案：
+
      ```bash
      brew install imagemagick
      ```
 
 3. **运行脚本**：
+
    ```bash
    python scripts/media/photo_compress.py ./assets/images/yuebei
    ```
+
    - 这将处理 `assets/images/yuebei` 中的所有 `.heic` 和 `.heif` 文件。
    - 输出的 JPG 文件保存在 `assets/images/yuebei_compressed` 中。
    - 错误将记录到当前目录的 `conversion_errors.log` 文件中。
@@ -172,39 +191,50 @@ print("Batch conversion complete! Check conversion_errors.log for any issues.")
    如果有文件转换失败，请查看 `conversion_errors.log` 获取详细错误信息。
 
 ### 额外故障排除
+
 - **如果 Pillow 仍然失败**：
   - 验证 `libheif` 是否正确安装并链接：
+
     ```bash
     pkg-config --modversion libheif
     ```
+
     如果失败，请重新安装 `libheif` 和 Pillow。
   - 手动测试单个文件：
+
     ```python
     from PIL import Image
     img = Image.open("./assets/images/yuebei/IMG_5988.HEIC")
     print("Image opened successfully")
     ```
+
     如果失败，文件可能已损坏或是不受支持的 HEIC 变体。
 
 - **文件损坏**：
   - 尝试使用 ImageMagick 手动转换一个文件：
+
     ```bash
     magick ./assets/images/yuebei/IMG_5988.HEIC test.jpg
     ```
+
     如果失败，文件可能已损坏。
 
 - **ImageMagick 备用方案**：
   - 如果 Pillow 持续失败，脚本将尝试使用已安装的 ImageMagick。
   - 安装 `jpegoptim` 以获得更好的压缩控制：
+
     ```bash
     brew install jpegoptim
     ```
+
     运行脚本后，压缩输出文件：
+
     ```bash
     for i in ./assets/images/yuebei_compressed/*.jpg; do jpegoptim --size=500k "$i"; done
     ```
 
 ### 参考资料
+
 - [Pillow 文档](https://pillow.readthedocs.io/en/stable/)
 - [ImageMagick](https://imagemagick.org/)
 - [libheif](https://github.com/strukturag/libheif)

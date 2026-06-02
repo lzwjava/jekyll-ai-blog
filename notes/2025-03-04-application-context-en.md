@@ -11,9 +11,11 @@ type: note
 To use Spring's `ApplicationContextAware` interface to access the `ApplicationContext` in a plain Java object, such as a Kafka consumer, you need a way to bridge the Spring-managed beans with your plain object. Here's how you can do it:
 
 ### General Approach
+
 The `ApplicationContextAware` interface allows a Spring-managed bean to receive the `ApplicationContext` automatically from Spring. You can use this to make the context available to a plain Java object that isn’t managed by Spring (i.e., not a bean created by the Spring container).
 
 #### Steps to Access the ApplicationContext
+
 1. **Create a Spring-Managed Helper Class**:
    Define a class that implements `ApplicationContextAware` and is managed by Spring (e.g., annotated with `@Component`). This class will receive the `ApplicationContext` when the Spring application starts.
 
@@ -91,9 +93,11 @@ The `ApplicationContextAware` interface allows a Spring-managed bean to receive 
    - This avoids static variables, making the dependency explicit and improving testability.
 
 ### Kafka Consumer-Specific Solution
+
 If you're working with a Kafka consumer and using **Spring Kafka**, the recommended approach is to integrate the consumer directly into the Spring ecosystem rather than treating it as a plain Java object.
 
 #### Using `@KafkaListener`
+
 Define your Kafka consumer as a Spring-managed bean with a `@KafkaListener` method. This allows you to autowire the `ApplicationContext` or other beans directly.
 
 ```java
@@ -123,9 +127,11 @@ public class MyKafkaConsumer {
 - Autowiring eliminates the need to manually fetch the context in most cases.
 
 #### Manual Kafka Consumer
+
 If you must create a `KafkaConsumer` manually (e.g., using the Kafka client library directly), do so within a Spring-managed bean and pass the `ApplicationContext` to it, as shown in the explicit passing approach above.
 
 ### Recommendations
+
 - **For Kafka Consumers**: Use Spring Kafka’s `@KafkaListener` in a Spring-managed bean wherever possible. This leverages Spring’s integration with Kafka and simplifies access to the `ApplicationContext` and other beans.
 - **For General Plain Java Objects**: Either use the static `ApplicationContextProvider` approach or pass the `ApplicationContext` explicitly from a Spring-managed bean. The explicit passing method is preferred when feasible, as it avoids static state and improves testability.
 

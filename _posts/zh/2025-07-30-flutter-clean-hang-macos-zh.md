@@ -22,21 +22,25 @@ type: note
 
 2. **手动清理（效果与 `flutter clean` 相同）**
    你可以自行删除这些构建/缓存文件夹：
+
    ```bash
    rm -rf build/ .dart_tool/ ios/Pods ios/Podfile.lock ios/Flutter/Flutter.framework ios/Flutter/Flutter.podspec
    ```
 
    如果还想清理 Xcode 的缓存：
+
    ```bash
    rm -rf ~/Library/Developer/Xcode/DerivedData
    ```
 
 3. **重新获取依赖**
+
    ```bash
    flutter pub get
    ```
 
 4. **重新安装 CocoaPods（针对 iOS）**
+
    ```bash
    cd ios
    pod install --repo-update
@@ -44,6 +48,7 @@ type: note
    ```
 
 5. **重新构建/运行**
+
    ```bash
    flutter run
    ```

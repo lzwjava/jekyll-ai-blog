@@ -20,6 +20,7 @@ type: note
 在其他内容之前，先在深度层面巩固基础，不仅是“如何使用”，而是“为什么有效”。
 
 **Java 语言内部机制**
+
 - Java Memory Model (JMM)：happens-before、可见性、原子性
 - Stack vs Heap、Metaspace、Code Cache、对象在内存中的布局
 - 类加载机制：Bootstrap、Extension、Application classloaders
@@ -27,6 +28,7 @@ type: note
 - Java Platform Module System (JPMS / Java 9+)
 
 **现代 Java 特性 (Java 17–25 LTS)**
+
 - 重点掌握 2025 年 9 月发布的 Java 25 LTS——当今重要的现代 Java 特性。
 - Records、Sealed Classes、Pattern Matching、Switch Expressions
 - Text Blocks、`instanceof` pattern matching
@@ -34,6 +36,7 @@ type: note
 - Project Panama (Foreign Function & Memory API)、Project Valhalla (value types)
 
 **Java 中的函数式编程**
+
 - Lambdas、method references、functional interfaces (`Function`、`Predicate`、`Supplier`)
 - Streams API：grouping、aggregation、lazy evaluation、parallel streams
 - Optional 最佳实践
@@ -46,17 +49,20 @@ type: note
 理解 JVM 内部机制、内存管理和垃圾回收是将有经验的 Java 开发者与仅积累多年经验的开发者区分开的关键。
 
 **JVM 深入解析**
+
 - JVM 内存：Heap (Young 和 Old Generations)、Non-Heap (Metaspace、Code Cache)
 - JIT compiler：C1、C2、GraalVM compiler
 - 字节码到 native code 的编译管道
 - Class Data Sharing (CDS) 和 AOT compilation
 
 **垃圾回收掌握**
+
 - 理解 G1GC、ZGC 和 Shenandoah 等不同收集器的权衡。根据应用特定需求（如堆大小、延迟目标和工作负载）选择并调优收集器。
 - GC 调优标志：`-XX:+UseG1GC`、`-Xmx`、`-XX:MaxGCPauseMillis`
 - 使用 heap dumps 诊断内存泄漏
 
 **剖析与可观测性工具**
+
 - Java Flight Recorder (JFR) 和 Java Mission Control (JMC)，用于识别运行中应用的锁争用和并发热点
 - VisualVM、JProfiler、async-profiler
 - Distributed tracing：OpenTelemetry、Micrometer、Prometheus + Grafana
@@ -68,12 +74,14 @@ type: note
 在分布式系统和高吞吐量应用中，不当的并发管理是 bug 和性能瓶颈的主要来源。资深工程师必须能够设计和调试在高并发负载下可靠运行的系统。
 
 **核心并发工具包**
+
 - `java.util.concurrent`：ExecutorService、ScheduledExecutor、ThreadPoolExecutor
 - Fork/Join Framework 用于并行处理、ConcurrentHashMap 用于线程安全集合、CompletableFuture 用于异步编程
 - Locks：ReentrantLock、ReadWriteLock、StampedLock
 - Atomic classes (基于 CAS)：AtomicInteger、AtomicReference、LongAdder
 
 **专家级主题**
+
 - Lock-free 和 wait-free 算法
 - 对于无法承受传统锁开销的 HFT 系统：使用 Compare-And-Swap (CAS) 操作的 lock-free 算法和数据结构
 - ThreadLocal：用法、陷阱、内存泄漏
@@ -81,6 +89,7 @@ type: note
 - Virtual Threads (Project Loom) vs platform threads
 
 **Reactive Programming**
+
 - Spring WebFlux，基于 Project Reactor，使用 non-blocking I/O 和复杂的线程池管理，以少量线程处理海量连接
 - RxJava、Project Reactor：Mono、Flux、backpressure
 - 何时使用 reactive vs virtual threads
@@ -90,6 +99,7 @@ type: note
 ## 阶段 4 — 框架与企业技术栈
 
 **Spring 生态系统 (主要)**
+
 - Spring Boot 3.x / 4.x：auto-configuration 内部机制、starters
 - Spring Data JPA：N+1 问题、查询优化、projections
 - Spring Security：OAuth2、JWT、method-level security
@@ -98,10 +108,12 @@ type: note
 - 设计模式如 Factory、Observer 和 Strategy 为常见设计问题提供经过验证的解决方案，同时通过共享词汇提升代码可维护性和团队沟通
 
 **构建与依赖管理**
+
 - Gradle (高级：自定义插件、构建脚本) 和 Maven (lifecycle、profiles)
 - 依赖管理策略、BOM (Bill of Materials)
 
 **测试掌握**
+
 - JUnit 5：parameterized tests、extensions、lifecycle
 - Mockito、TestContainers (使用真实 DBs/services 的集成测试)
 - 使用 Pact 的 contract testing
@@ -115,6 +127,7 @@ type: note
 掌握微服务模式、分布式数据一致性和容错是资深 Java 工程师的基本要求。
 
 **微服务架构**
+
 - Domain-Driven Design (DDD)：bounded contexts、aggregates、domain events
 - API Gateway 模式、service mesh (Istio、Linkerd)
 - Circuit Breaker (Resilience4j)、Bulkhead、Retry 模式
@@ -122,11 +135,13 @@ type: note
 - Event-driven 架构：CQRS、Event Sourcing
 
 **消息传递与流处理**
+
 - Apache Kafka：producers、consumers、partitioning、consumer groups、exactly-once semantics
 - RabbitMQ 用于异步消息传递
 - Kafka Streams 用于实时数据处理
 
 **数据库专长**
+
 - RDBMS：索引策略、查询规划、连接池 (HikariCP)
 - NoSQL：Redis (caching、pub/sub)、MongoDB、Cassandra
 - 数据库迁移：Flyway、Liquibase
@@ -139,17 +154,20 @@ type: note
 熟练掌握 AWS、Azure 或 Google Cloud 等云平台，以及使用 Docker 容器化和 Kubernetes 编排，是现代 Java 开发者必备技能。
 
 **云平台 (选择一个掌握)**
+
 - AWS：EC2、ECS/EKS、Lambda、RDS、SQS/SNS、API Gateway
 - GCP：GKE、Cloud Run、Pub/Sub、Cloud SQL
 - Azure：AKS、Azure Functions、Service Bus
 
 **容器与编排**
+
 - Docker：multi-stage builds、Java 应用的镜像优化
 - Kubernetes：Deployments、Services、ConfigMaps、Secrets、HPA、资源限制
 - 用于 Java 服务部署的 Helm charts
 - GraalVM Native Image 用于快速启动/低内存
 
 **CI/CD 管道**
+
 - GitHub Actions / GitLab CI / Jenkins
 - Infrastructure as Code：Terraform、Pulumi
 - GitOps：ArgoCD、Flux
@@ -161,18 +179,21 @@ type: note
 在 JVM 性能、并发、分布式系统和云原生架构方面的深度专长，展示了公司解决最具挑战性问题所需的专家级知识。
 
 **系统设计技能**
+
 - 设计可扩展性：horizontal vs vertical、sharding、partitioning
 - CAP 定理、BASE vs ACID 在实践中的应用
 - Rate limiting、idempotency、distributed locks
 - API 设计：REST 最佳实践、GraphQL、gRPC
 
 **软件架构**
+
 - Hexagonal Architecture (Ports & Adapters)
 - Clean Architecture
 - Strangler Fig 模式用于遗留系统现代化
 - API versioning 策略
 
 **安全工程**
+
 - OWASP Top 10 用于 Java 应用
 - 依赖漏洞扫描 (Snyk、OWASP Dependency-Check)
 - Secrets management (HashiCorp Vault、AWS Secrets Manager)

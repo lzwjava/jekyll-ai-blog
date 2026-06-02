@@ -15,6 +15,7 @@ type: note
 Guangzhou's culinary scene shines with Cantonese mastery. Below, I've updated the previous list with Chinese names (in simplified characters and Pinyin where helpful for pronunciation). These are based on the 2025 Michelin Guide, cross-verified for accuracy. Reservations remain key—use Dianping or WeChat Mini Programs.
 
 #### Two Michelin Stars
+
 Exceptional refinement; all retained from prior years.
 
 | Restaurant (English) | Chinese Name | Cuisine | Location | Highlights |
@@ -24,6 +25,7 @@ Exceptional refinement; all retained from prior years.
 | Taian Table | 泰安门 (Tài Ān Mén) | European Contemporary | Yuexiu District (Garden Hotel) | Chef Richard Ng's French-local fusion tasting menus. |
 
 #### One Michelin Stars (Selected Top Picks)
+
 From 18 total (one new: Chōwa). Focused on visitor favorites.
 
 | Restaurant (English) | Chinese Name | Cuisine | Location | Highlights |
@@ -37,6 +39,7 @@ From 18 total (one new: Chōwa). Focused on visitor favorites.
 | Yu Yue Heen | 愉粤轩 (Yú Yuè Xuān) | Cantonese | Tianhe District (Four Seasons) | Panoramic views; seafood and congee mastery. |
 
 #### Beyond Stars: Bib Gourmand and Local Favorites
+
 Value picks and trendy spots.
 
 | Restaurant (English) | Chinese Name | Cuisine | Location | Highlights |

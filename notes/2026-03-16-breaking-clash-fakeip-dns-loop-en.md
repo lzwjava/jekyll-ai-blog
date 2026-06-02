@@ -12,6 +12,7 @@ type: note
 ## Summary of Solutions & Key Obstacles
 
 ### **Root Cause Identified**
+
 **DNS Loop in Clash Fake-IP Mode**: Clash was returning fake IPs (198.18.x.x) for its own proxy server domain, creating an infinite routing loop.
 
 ### **The 3-Part Fix Applied**
@@ -43,11 +44,14 @@ iPad → Clash → Needs proxy → Resolves proxy domain → Gets FAKE IP (198.1
 This was **invisible in logs** - traffic would reach TUN but connections would silently hang because Clash couldn't establish the upstream connection to itself.
 
 ### **Critical Insight**
+
 The breakthrough came from realizing that **Clash's own DNS was sabotaging itself**. When Clash tried to connect to its proxy server:
+
 - Normal DNS: `proxy-server.com` → `real.ip.addr` ✓
 - Clash Fake-IP DNS: `proxy-server.com` → `198.18.x.x` (FAKE!) ❌
 
 ### **Current Status**
+
 - ✅ **DNS loop fixed**: Proxy server resolves to real IP
 - ✅ **All infrastructure working**: DHCP, NAT, forwarding, TUN
 - ✅ **iPad traffic flowing**: SYN packets reaching Clash

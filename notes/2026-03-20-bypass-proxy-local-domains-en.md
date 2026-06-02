@@ -14,6 +14,7 @@ type: note
 You have a local service (e.g., Uptime Kuma) running on your LAN server, and you want to access it via a custom domain like `http://myapp.local:3001` instead of an IP address.
 
 You've added the entry to `/etc/hosts`:
+
 ```
 192.168.1.36 myapp.local
 ```
@@ -31,6 +32,7 @@ A system proxy (ClashX, V2Ray, Surge, etc.) is intercepting HTTP/HTTPS traffic. 
 ### Step 1: Identify Your Proxy Tool
 
 Common ones on macOS:
+
 - **ClashX** / **ClashX Pro**
 - **Surge**
 - **V2Ray**
@@ -46,7 +48,8 @@ myapp.local
 192.168.1.0/24
 ```
 
-#### ClashX Example (`config.yaml`):
+#### ClashX Example (`config.yaml`)
+
 ```yaml
 bypass:
   - myapp.local
@@ -54,7 +57,8 @@ bypass:
   - 192.168.1.0/24
 ```
 
-#### System Proxy (macOS):
+#### System Proxy (macOS)
+
 1. System Preferences → Network → Advanced → Proxies
 2. Check **"Bypass proxy settings for these Hosts & Domains"**
 3. Add: `myapp.local, *.local, 192.168.1.*`

@@ -41,6 +41,7 @@ DeepSeek的团队不仅仅是“移植”到昇腾。他们**重建了关于Tran
 | 获得硬件层级别直觉 | 同样的结果 |
 
 AMD ROCm实际上比昇腾适配**痛苦更小**，因为：
+
 - HIP在语法上与CUDA几乎相同
 - PyTorch的ROCm支持很稳定（MI300X现在是一级目标）
 - Triton通过ROCm后端在AMD上工作

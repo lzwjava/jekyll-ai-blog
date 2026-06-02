@@ -32,9 +32,9 @@ Java NIO（New I/O）在 Java 1.4 中引入，常被称赞为实现了非阻塞 
 
 参考：
 
-- https://www.reddit.com/r/java/comments/5ns3ad/is_reactive_nio_being_overhyped/
-- https://mailinator.blogspot.com/2008/02/kill-myth-please-nio-is-not-faster-than.html
-- https://stackoverflow.com/questions/12892536/how-to-choose-java-nio-vs-io
-- https://stackoverflow.com/questions/5223175/advantages-of-java-nio-in-blocking-mode-versus-traditional-i-o
-- https://www.reddit.com/r/java/comments/56y6nh/why_is_nio_still_not_popular/
-- https://stackoverflow.com/questions/4877292/java-nio-vs-new-thread-for-each-socket
+- <https://www.reddit.com/r/java/comments/5ns3ad/is_reactive_nio_being_overhyped/>
+- <https://mailinator.blogspot.com/2008/02/kill-myth-please-nio-is-not-faster-than.html>
+- <https://stackoverflow.com/questions/12892536/how-to-choose-java-nio-vs-io>
+- <https://stackoverflow.com/questions/5223175/advantages-of-java-nio-in-blocking-mode-versus-traditional-i-o>
+- <https://www.reddit.com/r/java/comments/56y6nh/why_is_nio_still_not_popular/>
+- <https://stackoverflow.com/questions/4877292/java-nio-vs-new-thread-for-each-socket>

@@ -121,6 +121,7 @@ tail -n 100 -f /var/log/syslog | grep error
 ### Modern Context (2026)
 
 Most people today use **Unix-like** systems rather than certified Unix:
+
 - **Linux** (Ubuntu, Fedora, Debian, Arch, CentOS Stream / Rocky / AlmaLinux, etc.) → dominates servers and cloud
 - **macOS** → certified Unix (BSD-derived)
 - **FreeBSD**, **OpenBSD**, **NetBSD** → still actively developed

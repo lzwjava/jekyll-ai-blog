@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Installation
+
 Paramiko is a Python library for SSH and SFTP. Install it via pip:
 
 ```bash
@@ -18,14 +19,17 @@ pip install paramiko
 ```
 
 ### Basic Usage
+
 Paramiko allows you to connect to SSH servers, run commands, and transfer files. Always handle private keys securely and use strong passwords—Paramiko supports key-based and password authentication.
 
 Key concepts:
+
 - **Client**: Use `paramiko.SSHClient()` to set up a connection.
 - **Transport**: For lower-level control, use `paramiko.Transport()`.
 - Authenticate via `client.connect()` with hostname, username, and either password or key (e.g., via `paramiko.RSAKey.from_private_key_file()`).
 
 ### Example: Connecting and Running a Command
+
 Here's a complete script to connect to an SSH server, run a command, and print the output. Replace placeholders with your details.
 
 ```python
@@ -63,6 +67,7 @@ finally:
 ```
 
 ### Advanced Example: Using Key-Based Authentication and File Transfer
+
 For key auth, generate a key pair if needed (e.g., `ssh-keygen`), add the public key to `~/.ssh/authorized_keys` on the server, then use:
 
 ```python
@@ -96,6 +101,7 @@ finally:
 ```
 
 ### Tips and Best Practices
+
 - **Security**: Prefer key-based auth over passwords. Disable `AutoAddPolicy` in production and verify host keys via `client.load_host_keys()`.
 - **Error Handling**: Always catch `paramiko.SSHException` and check exit codes with `exit_status = stdout.channel.recv_exit_status()`.
 - **Threads**: Paramiko isn't thread-safe by default; use locks if needed.

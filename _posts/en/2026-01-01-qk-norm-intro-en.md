@@ -50,6 +50,7 @@ The modified attention computation is:
 This ensures dot products are bounded (e.g., in [-1, 1] range for unit norms), preventing arbitrary logit explosion while maintaining the model's ability to produce sharp or broad attention distributions via the scaling parameter.
 
 Variations include:
+
 - **Per-head QK-Norm**: Separate normalization per attention head.
 - **Per-layer QK-Norm**: Shared across heads but per layer.
 - Combined with other norms (e.g., QKV-Norm normalizes Q, K, and V).

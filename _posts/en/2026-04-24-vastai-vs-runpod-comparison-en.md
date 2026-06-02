@@ -23,7 +23,7 @@ Vast.ai is a **peer-to-peer GPU marketplace**.
 
 Instead of owning large centralized data centers, it connects you to thousands of independent GPU hosts (individuals, small providers, or datacenters). You rent their idle GPUs through a marketplace model.
 
-### Key ideas:
+### Key ideas
 
 * 🧩 **Marketplace model**: prices are set by supply/demand from hosts
 * 💰 **Very low cost**: often among the cheapest GPU options available
@@ -45,7 +45,7 @@ It combines:
 * its own managed infrastructure (data centers)
 * * a community GPU marketplace
 
-### Key ideas:
+### Key ideas
 
 * 🧱 **Hybrid model** (managed + marketplace)
 * 🚀 **Much easier UX** (pods, templates, one-click deployments)
@@ -71,14 +71,14 @@ It combines:
 
 # 4. Practical differences in real use
 
-### Vast.ai is better if you:
+### Vast.ai is better if you
 
 * want the **lowest possible GPU cost**
 * are comfortable picking instances and handling instability
 * run experiments, fine-tuning, or short jobs
 * don’t mind occasional setup friction
 
-### RunPod is better if you:
+### RunPod is better if you
 
 * want **fast setup and clean developer experience**
 * need **reliable training/inference pipelines**

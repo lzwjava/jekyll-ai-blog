@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: Organize this transcript from the YouTube video (https://www.youtube.com/watch?v=Fm92xvIp6JY), keeping the original text as much as possible while making it more coherent.
+Question: Organize this transcript from the YouTube video (<https://www.youtube.com/watch?v=Fm92xvIp6JY>), keeping the original text as much as possible while making it more coherent.
 
 Answer:
 

@@ -17,6 +17,7 @@ A short nap (20-30 minutes) can be really helpful if you're struggling. This won
 
 **For those remaining 3-4 hours:**
 Instead of pushing through more intense study, switch to lighter activities that still feel productive:
+
 - Review material passively (watch related videos, listen to podcasts on the topic)
 - Organize your notes from the day
 - Do something physical - exercise actually helps clear mental fog

@@ -76,11 +76,13 @@ padding = { x = 8, y = 8 }
 考虑到你的个人情况——以终端为先、Python/bash、SSH 连接 GPU 机器、配置即代码思维——**Alacritty + tmux** 是更好的组合，*前提*你愿意花 30 分钟进行设置。它与你目前在 macOS 上的设置相似（很可能使用 iTerm2 或类似快速终端 + tmux）。
 
 **选择 Alacritty 如果：**
+
 - 你想将终端配置放在 dotfiles 仓库中
 - 你已经在使用 tmux 管理面板/标签页
 - 你关心快速打字 / vim 的输入延迟
 
 **留在 Windows Terminal 如果：**
+
 - 你频繁在 WSL2、PowerShell 和 Git Bash 之间切换
 - 你想要零配置的即插即用替代方案
 - 你不想在 Windows 上管理 tmux

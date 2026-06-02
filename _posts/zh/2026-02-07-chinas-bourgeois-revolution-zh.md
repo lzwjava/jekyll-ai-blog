@@ -16,7 +16,7 @@ Answer:
 
 近代中国社会的性质及其主要矛盾决定了中国革命是一场 **bourgeois-democratic revolution**（资产阶级民主革命）。
 
-### Detailed Explanation:
+### Detailed Explanation
 
 1. **Nature of Modern Chinese Society** (1840–1949)
    1840年 Opium War 之后，中国逐渐从封建社会转变为 **semi-colonial and semi-feudal society**（半殖民地半封建社会）。

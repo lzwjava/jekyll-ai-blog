@@ -18,6 +18,7 @@ type: note
 Double-blind review means both sides stay anonymous during peer review: reviewers cannot see the authors' names or affiliations, and authors cannot see who the reviewers are. The purpose is simple — the conference wants the paper to be assessed on its academic merit rather than on the author's reputation, institution, or career stage.
 
 This contrasts with:
+
 - **Single-blind**: reviewers know who the authors are, but authors don't know the reviewers.
 - **Open review**: both parties know each other (used by some venues like ICLR in post-acceptance phases).
 
@@ -28,6 +29,7 @@ This contrasts with:
 Top AI conferences such as ICML, ICLR, NeurIPS, and CVPR have adopted double-blind peer review as the standard, with their papers carrying impact comparable to many prestigious journals.
 
 Specific policies:
+
 - **ICLR 2026**: Submissions will be double blind — reviewers cannot see author names when conducting reviews, and authors cannot see reviewer names. Any paper where author identity is revealed in either the main text or the supplementary material will be desk rejected.
 - **ICML 2026**: All papers will be reviewed in a double-blind process.
 - **AAAI**: Reviews are double blind — neither reviewers nor authors should be able to identify each other. The first page should include the title, abstract, content areas, and ID number, but not names or affiliations of the authors.

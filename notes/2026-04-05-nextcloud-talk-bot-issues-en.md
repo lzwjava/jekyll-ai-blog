@@ -18,12 +18,14 @@ Here's a complete breakdown of the Nextcloud Talk setup process and the issues w
 ## What We Did
 
 ### Step 1: Installed the bot via `occ`
+
 ```bash
 docker exec nextcloud-app-1 php occ talk:bot:install "OpenClaw" "$SECRET" "http://172.17.0.1:8788/nextcloud-talk-webhook" --feature webhook,response,reaction
 docker exec nextcloud-app-1 php occ talk:bot:setup 7 eu42ecdy
 ```
 
 ### Step 2: Configured OpenClaw
+
 ```json
 channels.nextcloud-talk.baseUrl: "http://172.17.0.1:8080"   // was http://localhost:8080
 channels.nextcloud-talk.botSecret: "GgLbdQ9i3ifzHKQt3WqgbmJbA94ZX3WDdVXUW0YpaLE="
@@ -36,20 +38,24 @@ channels.nextcloud-talk.allowFrom: ["*"]
 ## Issues We Hit (in order)
 
 ### 🔴 Issue 1: Duplicate plugin
+
 - A custom plugin at `~/.openclaw/extensions/nextcloud-talk/` was overriding the bundled one
 - **Fix:** Moved it to `.bak`
 
 ### 🔴 Issue 2: Wrong baseUrl origin mismatch
+
 - `baseUrl` was `http://localhost:8080` but Nextcloud identifies itself as `http://172.17.0.1:8080` (Docker gateway IP)
 - OpenClaw's `isBackendAllowed` check validates the `X-Nextcloud-Talk-Backend` header origin against `baseUrl`
 - **Fix:** Changed to `http://172.17.0.1:8080`
 
 ### 🔴 Issue 3: Bot secret mismatch
+
 - Installed multiple bots (IDs 3, 4, 5, 6) with different secrets
 - OpenClaw was configured with one secret while Nextcloud had another registered
 - **Fix:** Fresh install (bot ID 7) with matching secret
 
 ### 🟡 Issue 4: No @mention = dropped
+
 - OpenClaw's Nextcloud Talk handler drops messages without an @mention in group rooms
 - This is currently the **blocking issue** — the bot IS receiving webhooks (confirmed via test), but all messages are dropped with `drop room eu42ecdy (no mention)`
 - The Nextcloud error log shows "Bot error occurred" which is Nextcloud's way of saying the bot didn't respond (because OpenClaw dropped the message silently)

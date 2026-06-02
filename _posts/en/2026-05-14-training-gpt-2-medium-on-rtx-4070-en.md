@@ -14,6 +14,7 @@ Here's what the web sources say about training nanoGPT GPT-2-medium (350M) on an
 ## Expected loss targets
 
 Karpathy's nanoGPT README reports these from-scratch OpenWebText results:
+
 - **GPT-2 (124M)**: train ~3.11, val ~3.12
 - **GPT-2-medium (350M)**: train ~2.85, val ~2.84
 
@@ -45,6 +46,7 @@ compile = True            # torch.compile for ~20-30% speedup
 ```
 
 Additional VRAM levers, in order of preference:
+
 1. `dtype='bfloat16'` (must — fp32 won't fit).
 2. PyTorch 2 SDPA gives Flash-Attn-equivalent kernels for free.
 3. **Gradient checkpointing** — nanoGPT doesn't ship it; you'd patch `Block.forward` with `torch.utils.checkpoint.checkpoint`. Cuts activation memory ~2–3× at ~25% speed cost.
@@ -58,6 +60,7 @@ Additional VRAM levers, in order of preference:
 - If you must do 350M from scratch, expect **~1–3 months** wall-clock, final val loss **~2.85–2.95** if you can hold the ~0.5M-token effective batch.
 
 Sources:
+
 - [karpathy/nanoGPT README — reported losses & configs](https://github.com/karpathy/nanoGPT)
 - [Issue #179: Training Time for 1x 4090 GPU](https://github.com/karpathy/nanoGPT/issues/179)
 - [Issue #363: Training gpt2 on a single GPU](https://github.com/karpathy/nanoGPT/issues/363)

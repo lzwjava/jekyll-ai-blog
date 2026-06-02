@@ -13,6 +13,7 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 #### **什么是 `java.nio.charset`？**
+
 `java.nio.charset` 包包含管理字符集（charsets）的类，这些字符集定义了字符如何编码为字节以及如何解码回字符。这对于读写文件、网络通信或处理不同语言的文本等任务至关重要，其中可能使用 UTF-8、ISO-8859-1 或其他编码。
 
 该包中的主要类是 `Charset`，辅以 `CharsetEncoder` 和 `CharsetDecoder` 等类，用于更高级的用例。
@@ -20,6 +21,7 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 #### **`java.nio.charset` 中的关键类**
+
 1. **`Charset`**
    表示一种字符编码（例如 UTF-8、ISO-8859-1）。您可以使用此类指定字节与字符之间转换的编码。
 
@@ -34,9 +36,11 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 #### **如何使用 `java.nio.charset`**
 
 ##### **1. 获取 `Charset` 实例**
+
 要开始使用 `java.nio.charset`，您需要一个 `Charset` 对象。有两种主要方式可以获取：
 
 - **使用 `StandardCharsets`**（推荐用于常用字符集）：
+
   ```java
   import java.nio.charset.StandardCharsets;
 
@@ -44,12 +48,15 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
   ```
 
 - **使用 `Charset.forName()`**（适用于任何支持的字符集）：
+
   ```java
   import java.nio.charset.Charset;
 
   Charset charset = Charset.forName("UTF-8"); // UTF-8 字符集
   ```
+
   注意：如果字符集名称无效，此方法会抛出 `UnsupportedCharsetException`，因此请适当处理：
+
   ```java
   try {
       Charset charset = Charset.forName("UTF-8");
@@ -61,10 +68,12 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 ##### **2. 基本用法：字符串与字节之间的转换**
+
 对于大多数应用，您可以将 `Charset` 与 `String` 类一起使用来编码或解码文本。
 
 - **将字节解码为字符串**：
   使用特定字符集将字节数组转换为 `String`：
+
   ```java
   byte[] bytes = {72, 101, 108, 108, 111}; // UTF-8 中的 "Hello"
   Charset charset = StandardCharsets.UTF_8;
@@ -74,6 +83,7 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 
 - **将字符串编码为字节**：
   使用特定字符集将 `String` 转换为字节数组：
+
   ```java
   String text = "Hello, world!";
   Charset charset = StandardCharsets.UTF_8;
@@ -85,9 +95,11 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 ##### **3. 使用 Reader 和 Writer**
+
 在处理流（例如 `InputStream` 或 `OutputStream`）时，您可以将 `InputStreamReader` 和 `OutputStreamWriter` 与 `Charset` 结合使用来处理文本数据。
 
 - **从 InputStream 读取**：
+
   ```java
   import java.io.*;
   import java.nio.charset.StandardCharsets;
@@ -102,6 +114,7 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
   ```
 
 - **写入 OutputStream**：
+
   ```java
   import java.io.*;
   import java.nio.charset.StandardCharsets;
@@ -117,9 +130,11 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 ##### **4. 使用 `java.nio.file.Files` 简化文件操作**
+
 自 Java 7 起，`java.nio.file` 包提供了便捷的方法来使用 `Charset` 读写文件：
 
 - **将文件读入字符串**：
+
   ```java
   import java.nio.file.*;
   import java.nio.charset.StandardCharsets;
@@ -130,6 +145,7 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
   ```
 
 - **将字符串写入文件**：
+
   ```java
   import java.nio.file.*;
   import java.nio.charset.StandardCharsets;
@@ -144,10 +160,12 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 ##### **5. 高级用法：`CharsetEncoder` 和 `CharsetDecoder`**
+
 对于需要更多控制的场景（例如使用 NIO 通道或处理部分数据），请使用 `CharsetEncoder` 和 `CharsetDecoder`。
 
 - **使用 `CharsetEncoder` 编码**：
   使用 NIO 缓冲区将字符转换为字节：
+
   ```java
   import java.nio.*;
   import java.nio.charset.*;
@@ -161,6 +179,7 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 
 - **使用 `CharsetDecoder` 解码**：
   将字节转换为字符：
+
   ```java
   import java.nio.*;
   import java.nio.charset.*;
@@ -178,7 +197,9 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 #### **最佳实践**
+
 - **始终指定字符集**：避免依赖 `Charset.defaultCharset()`，因为默认值因平台而异（例如，Linux 上为 UTF-8，Windows 上为 windows-1252）。显式指定字符集可确保行为一致：
+
   ```java
   // 避免这样做：
   byte[] bytes = "Hello".getBytes(); // 使用平台默认字符集
@@ -194,7 +215,9 @@ Java 的 `java.nio.charset` 包提供了处理字符编码与解码的工具，�
 ---
 
 #### **总结**
+
 要使用 `java.nio.charset`：
+
 1. **获取 `Charset`**：使用 `StandardCharsets` 或 `Charset.forName()`。
 2. **执行转换**：
    - 使用 `String` 方法（`getBytes()`、构造函数）进行简单的字节-字符转换。

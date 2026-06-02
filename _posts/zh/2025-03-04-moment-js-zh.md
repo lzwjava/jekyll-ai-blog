@@ -11,6 +11,7 @@ type: note
 我将向你展示如何在 JavaScript 中使用 `moment` 和 `moment-timezone` 库。这些是处理日期和时间的常用库。
 
 1. 首先，如果尚未安装，请先安装这些包：
+
 ```bash
 npm install moment moment-timezone
 ```
@@ -52,6 +53,7 @@ console.log(timezones); // 时区名称数组
 ```
 
 常用格式化选项：
+
 - `YYYY`：4位数年份（2025）
 - `MM`：2位数月份（03）
 - `DD`：2位数日期（03）
@@ -62,6 +64,7 @@ console.log(timezones); // 时区名称数组
 - `z`：时区缩写
 
 实用方法：
+
 ```javascript
 // 日期操作
 moment().add(7, 'days');     // 添加时间
@@ -80,5 +83,6 @@ momentTimezone.tz.guess(); // 猜测用户时区
 ```
 
 注意事项：
+
 1. 这些版本（^2.14.1 和 ^0.5.7）比较老旧（大约来自2016年）。除非有特定的兼容性要求，否则请考虑使用最新版本。
 2. Moment.js 现在被视为处于维护模式的遗留项目。对于新项目，你可能需要考虑使用替代方案，如 `date-fns` 或 `luxon`。

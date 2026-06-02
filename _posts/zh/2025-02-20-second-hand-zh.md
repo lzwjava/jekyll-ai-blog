@@ -17,7 +17,7 @@ type: post
 
 - 当我这样做时，获得了一些产品，比如无线扬声器或小米Wi-Fi设备，这些产品几乎发布了十年，但它们仍然工作得很好。这让我失望，因为我想它们停止工作，这样我就可以拆解它们而不觉得是在浪费东西。
 
-- 购买了无线智能USB扬声器E-91/E-3557 - 黑色（类似于这个：https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html）。
+- 购买了无线智能USB扬声器E-91/E-3557 - 黑色（类似于这个：<https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html）。>
 
 - 购买了小米Mi路由器4C。
 

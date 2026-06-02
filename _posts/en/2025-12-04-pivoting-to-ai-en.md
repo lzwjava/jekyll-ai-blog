@@ -31,6 +31,7 @@ Pivoting from software engineering to AI engineering is often romanticized as a 
 These opinions come from a mix of Reddit threads, X posts, and industry articles where engineers share candid regrets and realities. If you're considering the switch, focus on building transferable skills like analytics and collaboration first—many emphasize that strong software foundations make the pivot smoother, not harder.
 
 **References:**
+
 - [Unpopular Opinion: AI is making me a better software engineer (Reddit)](https://www.reddit.com/r/webdev/comments/1mnl5t3/unpopular_opinion_ai_is_making_me_a_better/)
 - [Pivoting to an AI developer (Reddit)](https://www.reddit.com/r/webdev/comments/1cm3qjl/pivoting_to_an_ai_developer/)
 - [Hot Take: AI won’t replace that many software engineers (Reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1jum6ct/hot_take_ai_wont_replace_that_many_software/)

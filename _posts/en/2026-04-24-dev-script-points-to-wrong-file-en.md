@@ -14,6 +14,7 @@ type: note
 ### Why `npm run dev` Failed
 
 The `package.json` dev script was:
+
 ```json
 "dev": "nodemon --exec ts-node src/index.ts"
 ```
@@ -32,6 +33,7 @@ if (require.main === module) {
 ```
 
 Running it directly with:
+
 ```bash
 npx ts-node src/server.ts
 ```
@@ -41,6 +43,7 @@ npx ts-node src/server.ts
 ### Root Cause
 
 The `dev` script in `package.json` points to the wrong file (`index.ts` instead of `server.ts`). It should be:
+
 ```json
 "dev": "nodemon --exec ts-node src/server.ts"
 ```

@@ -25,6 +25,7 @@ The "just barely clear" principle offers a more personalized approach to myopia 
 The author has conducted personal experiments over the course of several years, tracking the reduction of myopia and evaluating the effects of different levels of prescription reduction. Using a variety of corrective lenses with reductions ranging from 150 to 200 degrees, the author tracked changes in vision clarity at typical viewing distances, such as for mobile phone use and computer work.
 
 The methodology includes:
+
 1. Wearing corrective lenses with varying degrees of reduction.
 2. Monitoring vision clarity during daily activities.
 3. Noting improvements or stagnation in myopia and astigmatism.
@@ -43,7 +44,6 @@ This change in my daily habits led me to revisit the work of Yin Wang, particula
 This passage clarified the underlying mechanism by which the optical axis may shorten through gradual, repeated compression. Based on this understanding, I experimented with glasses offering 175- and 200-degree reductions, which provided a greater opportunity for the “just barely clear” state. I am hopeful that this adjustment will lead to a further reduction in my myopia by approximately 100 degrees over the course of the next year.
 
 From this experience, I have learned that the key to effective myopia reversal lies not in adhering to a fixed degree of reduction, but in consistently maintaining the "just barely clear" state. The specific degree of reduction required to achieve this state will vary for each individual, but the critical factor is identifying and sustaining this optimal point of clarity, which facilitates the gradual adaptation necessary for myopia reduction.
-
 
 ### Results
 

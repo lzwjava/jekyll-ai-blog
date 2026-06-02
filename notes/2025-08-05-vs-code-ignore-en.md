@@ -17,6 +17,7 @@ You can make “Go to File” (Quick Open, Ctrl + P) include files that live in 
    "search.useIgnoreFiles": false,      // don’t respect .gitignore
    "search.useGlobalIgnoreFiles": false // don’t respect your global gitignore
    ```
+
 2. **Ensure your exclusion globs don’t hide those files**
    By default VS Code inherits all the patterns from `files.exclude` into `search.exclude`.  If you’ve manually excluded `.gitignore`-dirs there, re-enable them:
 
@@ -27,6 +28,7 @@ You can make “Go to File” (Quick Open, Ctrl + P) include files that live in 
      // …any other patterns you’d like to override
    }
    ```
+
 3. **Reload the window**
    After saving your user or workspace settings, run **Developer: Reload Window** (⇧ ⌘ P → “Reload Window”) so the file-indexer picks up the change.
 

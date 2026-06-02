@@ -16,7 +16,8 @@ Answer:
 
 Investing in Nvidia (NVDA) stock remains a polarizing topic, especially amid its 2025 gains of around 30% and ongoing AI hype. While the consensus from Wall Street is overwhelmingly bullish—with 92% of analysts rating it a buy and a median 12-month price target of $225 (implying ~25% upside from current levels around $180)—unpopular opinions highlight risks like overvaluation, competition, and potential AI spending slowdowns. Below, I've compiled key contrarian takes drawn from recent discussions on Reddit, X (formerly Twitter), and financial analyses. These are "unpopular" because they challenge the dominant narrative of endless AI-driven growth.
 
-### Key Unpopular Opinions:
+### Key Unpopular Opinions
+
 - **Nvidia's AI dominance is overhyped, and it's already too late to buy—switch to AMD or Intel for better value.**
   Critics argue Nvidia's peak pricing power is fading as hyperscalers like Google and Meta pivot to in-house TPUs and ASICs, eroding Nvidia's 80-90% market share in AI GPUs. One view: "Buying into Nvidia right now is way too late. You would regret it. You're better off with AMD or even Intel" due to expected order cutbacks and cheaper alternatives gaining traction. This contrasts with Nvidia's projected 2026 revenue doubling to $187B, but skeptics see margin compression (potentially dropping from 50%+ gross margins) as rivals flood the market.
 

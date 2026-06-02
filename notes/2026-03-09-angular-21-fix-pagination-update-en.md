@@ -26,6 +26,7 @@ Angular v21's zoneless change detection removes Zone.js, requiring manual or sig
 This is the cleanest fix. Convert your shared state (total items, current page, etc.) to signals.
 
 **In a shared service (e.g., `worklist.service.ts`):**
+
 ```typescript
 import { signal, computed } from '@angular/core';
 
@@ -38,6 +39,7 @@ export class WorklistService {
 ```
 
 **In the worklist (parent) component:**
+
 ```typescript
 constructor(private worklistService: WorklistService) {}
 
@@ -50,9 +52,11 @@ loadData() {
 
 **In the pagination (child) component template:**
 {% raw %}
+
 ```html
 <p>Total: {{ worklistService.totalItems() }}</p>
 ```
+
 {% endraw %}
 
 Reading a signal in a template links it to the view; writing to that signal schedules the right view to update — this makes change detection more targeted and pairs naturally with OnPush or even zoneless.
@@ -78,6 +82,7 @@ export class PaginationComponent {
 ```
 
 **Parent passes it normally:**
+
 ```html
 <app-pagination [totalItems]="total" [pageSize]="pageSize" />
 ```
@@ -91,6 +96,7 @@ You can use `input()` or `output()` signal APIs instead of `@Input()` or `@Outpu
 If you prefer RxJS, use an observable in the service and subscribe via `async` pipe in the template.
 
 **Service:**
+
 ```typescript
 private totalItemsSubject = new BehaviorSubject<number>(0);
 totalItems$ = this.totalItemsSubject.asObservable();
@@ -100,9 +106,11 @@ updateTotal(n: number) { this.totalItemsSubject.next(n); }
 
 **Pagination template:**
 {% raw %}
+
 ```html
 <p>Total: {{ worklistService.totalItems$ | async }}</p>
 ```
+
 {% endraw %}
 
 The `AsyncPipe` automatically calls `markForCheck` when a new value arrives, so Angular knows to re-check that component.
@@ -123,6 +131,7 @@ ngOnChanges() {
 ```
 
 Or call it directly after receiving data from the parent:
+
 ```typescript
 updatePagination(total: number) {
   this.totalItems = total;

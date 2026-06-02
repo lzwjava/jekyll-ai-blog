@@ -20,15 +20,19 @@ Yes, this is a very natural and well-documented human social behavior. Here's a 
 ## Why You Engage More When You Know People
 
 ### 1. **Social Presence & Familiarity**
+
 When you recognize names or faces in a group, your brain registers *social accountability* — you feel seen, and others feel real to you. This increases your motivation to read, react, and contribute.
 
 ### 2. **Sense of Belonging**
+
 Knowing even **one or two people** in a group creates an anchor. You feel like you *belong there*, which lowers the psychological barrier to participation.
 
 ### 3. **Reciprocity Norm**
+
 If a friend shares something in the group, you feel a subtle obligation to acknowledge it — a like, a reply, or your own share. This is basic **social reciprocity**.
 
 ### 4. **Reduced Anonymity**
+
 In groups with strangers, people often feel anonymous and detached. With known contacts, there's a **personal reputation** at stake, so people are more thoughtful and engaged.
 
 ---
@@ -36,15 +40,19 @@ In groups with strangers, people often feel anonymous and detached. With known c
 ## Why You Ignore Groups With Strangers
 
 ### 1. **Diffusion of Responsibility**
+
 In a group full of unknowns, the mindset becomes *"someone else will respond"* — classic **bystander effect** applied to messaging.
 
 ### 2. **Low Relevance Signal**
+
 Your brain filters information by relevance. Messages from unknown people trigger a lower priority signal, so the group gets **mentally muted** even if not literally muted.
 
 ### 3. **Cognitive Overload Management**
+
 Most people are already overwhelmed with notifications. Groups with no personal connection are the first to be **swiped away or ignored**.
 
 ### 4. **No Emotional Investment**
+
 Without knowing anyone, there's no emotional reason to care about the group's dynamics, drama, or content.
 
 ---

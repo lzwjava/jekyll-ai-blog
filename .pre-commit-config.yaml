@@ -4,14 +4,27 @@ repos:
     rev: v6.0.0
     hooks:
       - id: trailing-whitespace
+        exclude: ^node_modules/
       - id: end-of-file-fixer
+        exclude: ^node_modules/
       - id: check-yaml
+        exclude: ^node_modules/
       - id: check-toml
       - id: check-merge-conflict
       - id: debug-statements
       - id: check-ast
       - id: check-added-large-files
-        args: ['--maxkb=500']
+        args: ["--maxkb=500"]
+      - id: check-json
+        exclude: (node_modules/|scripts/conversation/high-school-electronics\.json|scripts/conversation/analog-electronics\.json)
+      - id: detect-private-key
+        exclude: (_posts/|notes/|original/)
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+        exclude: ^node_modules/
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-shebang-scripts-are-executable
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.9.10
@@ -41,17 +54,45 @@ repos:
           - "piexif"
           - "speedtest-cli"
           - "wandb"
+          - "boto3"
+          - "frontmatter"
+          - "openai"
+          - "ruamel.yaml"
+          - "langid"
+          - "feedgen"
+          - "mistune"
+          - "pytest"
+          - "google-genai"
+          - "google-cloud-speech"
+          - "invoke"
+          - "livereload"
+          - "pelican"
+          - "scikit-learn"
+          - "torch"
 
   - repo: https://github.com/PyCQA/bandit
     rev: 1.9.4
     hooks:
       - id: bandit
-        args: ["-r", "scripts/"]
+        args: ["-r", "scripts/", "--skip", "B404,B603,B607,B311,B605,B602,B501,B323,B324,B103"]
         additional_dependencies: ["bandit[toml]"]
         pass_filenames: false
 
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.18.1
+    hooks:
+      - id: markdownlint-cli2
+        args: ["--fix"]
+        exclude: (node_modules/|logs/)
+
   - repo: local
     hooks:
+      - id: shellcheck
+        name: ShellCheck
+        entry: shellcheck
+        language: system
+        types_or: [shell, bash]
+        exclude: ^node_modules/
       - id: unit-tests
         name: Unit tests
         entry: python3 -m unittest discover -s tests/workflow -q

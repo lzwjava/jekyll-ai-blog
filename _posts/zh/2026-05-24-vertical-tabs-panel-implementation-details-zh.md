@@ -52,11 +52,13 @@ TOML 配置路径为 `appearance.vertical_tabs.*`：
 **显示模式**
 
 有三种解析模式：
+
 - **Panes** — 将每个面板显示为单独行（granularity = Panes）
 - **FocusedSession** — 显示带有焦点会话信息的标签（granularity = Tabs）
 - **Summary** — 每个标签显示精简摘要（granularity = Tabs）
 
 每个标签行显示：
+
 - 带状态指示器的图标（24px）
 - 主要信息（根据设置显示命令/工作目录/分支）
 - 副标题（根据 compact_subtitle 设置显示分支/工作目录/命令）

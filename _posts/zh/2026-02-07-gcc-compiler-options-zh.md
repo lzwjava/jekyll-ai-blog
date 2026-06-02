@@ -15,6 +15,7 @@ type: note
 ## Basic Usage
 
 基本的 GCC 语法是：
+
 ```bash
 gcc [options] file...
 ```
@@ -22,11 +23,13 @@ gcc [options] file...
 ## Essential Compilation Options
 
 **-c** — 将源文件编译为对象文件 (.o) 而不进行 linking
+
 ```bash
 gcc -c main.c  # 生成 main.o
 ```
 
 **-o** — 指定输出文件名
+
 ```bash
 gcc main.c -o myprogram
 ```
@@ -84,6 +87,7 @@ gcc main.c -o myprogram
 **-fPIC** — 生成 position-independent code（shared libraries 需要）
 
 示例：
+
 ```bash
 gcc main.c -I./include -L./lib -lmylib -o program
 ```
@@ -91,9 +95,11 @@ gcc main.c -I./include -L./lib -lmylib -o program
 ## Preprocessor Options
 
 **-D<macro>=<value>** — 定义 preprocessor 宏
+
 ```bash
 gcc -DDEBUG=1 -DVERSION=\"1.0\" main.c
 ```
+
 **-U<macro>** — 取消定义 preprocessor 宏
 **-include <file>** — 在处理源文件之前包含文件
 
@@ -117,9 +123,11 @@ gcc -DDEBUG=1 -DVERSION=\"1.0\" main.c
 ## Linker Options
 
 **-Wl,<options>** — 将选项传递给 linker
+
 ```bash
 gcc main.c -Wl,-rpath,/custom/path
 ```
+
 **-rdynamic** — 导出所有符号用于动态符号解析
 **-nostdlib** — 不使用标准系统库
 **-nodefaultlibs** — 不使用标准系统库默认值
@@ -135,21 +143,25 @@ gcc main.c -Wl,-rpath,/custom/path
 ## Common Combinations
 
 **开发构建：**
+
 ```bash
 gcc -Wall -Wextra -g -O0 main.c -o program
 ```
 
 **生产构建：**
+
 ```bash
 gcc -Wall -O2 -DNDEBUG main.c -o program
 ```
 
 **最大化警告和调试：**
+
 ```bash
 gcc -Wall -Wextra -Wpedantic -g3 -Og main.c -o program
 ```
 
 **带有 sanitizers 的优化构建：**
+
 ```bash
 gcc -Wall -O2 -g -fsanitize=address,undefined main.c -o program
 ```

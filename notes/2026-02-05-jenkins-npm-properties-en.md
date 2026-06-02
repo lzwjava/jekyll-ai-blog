@@ -25,7 +25,7 @@ Jenkins properties are environment variables that can be defined in several ways
 
 Yes, you can definitely use Jenkins properties for npm commands! Here's how:
 
-### In a Pipeline:
+### In a Pipeline
 
 ```groovy
 pipeline {
@@ -49,14 +49,15 @@ pipeline {
 }
 ```
 
-### In a Freestyle Job:
+### In a Freestyle Job
 
 1. Define environment variables in the job configuration
 2. Reference them in your build steps using `${VARIABLE_NAME}` (Linux) or `%VARIABLE_NAME%` (Windows)
 
-### Common Patterns:
+### Common Patterns
 
 **Using .npmrc configuration:**
+
 ```groovy
 sh '''
     npm config set registry ${NPM_AUTH_URL}
@@ -66,11 +67,13 @@ sh '''
 ```
 
 **Passing as command arguments:**
+
 ```groovy
 sh "npm install --registry=${NPM_AUTH_URL}"
 ```
 
 **Using withEnv block:**
+
 ```groovy
 withEnv(["NPM_AUTH_URL=https://registry.npmjs.org/"]) {
     sh 'npm install --registry=$NPM_AUTH_URL'

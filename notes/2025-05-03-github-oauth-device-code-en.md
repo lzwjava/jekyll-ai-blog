@@ -19,6 +19,7 @@ In this specific case, it appears to be mimicking requests from the GitHub Copil
 The code runs as a Node.js script, using `fetch` for HTTP requests and `process` for environment variables. It assumes Node.js has `fetch` available (as in newer versions or via a polyfill). If successful, it polls GitHub's servers until the user authorizes the request or it times out.
 
 **Important Notes:**
+
 - This code requires setting an environment variable `MY_COPILOT_CLIENT_ID`, likely a GitHub OAuth App client ID registered for GitHub Copilot.
 - It handles errors minimally—e.g., if fetching fails, it logs and continues or exits.
 - Security-wise, storing or logging access tokens is risky (they grant API access). This code prints the full token object directly to the console, which could be a privacy/security issue in real usage. Access tokens should be handled securely (e.g., stored encrypted and rotated).
@@ -28,6 +29,7 @@ The code runs as a Node.js script, using `fetch` for HTTP requests and `process`
 ### Step-by-Step Breakdown
 
 #### 1. Environment Check
+
 ```javascript
 const clientId = process.env.MY_COPILOT_CLIENT_ID;
 
@@ -36,11 +38,13 @@ if (!clientId) {
   process.exit(1);
 }
 ```
+
 - Retrieves the `MY_COPILOT_CLIENT_ID` from environment variables (e.g., set via `export MY_COPILOT_CLIENT_ID=your_client_id` in your shell).
 - If not set, it logs an error and exits the script (process code 1 indicates failure).
 - This client ID is from a registered GitHub OAuth App (needed for OAuth flows).
 
 #### 2. Common Headers Setup
+
 ```javascript
 const commonHeaders = new Headers();
 commonHeaders.append("accept", "application/json");
@@ -50,6 +54,7 @@ commonHeaders.append("content-type", "application/json");
 commonHeaders.append("user-agent", "GithubCopilot/1.155.0");
 commonHeaders.append("accept-encoding", "gzip,deflate,b");
 ```
+
 - Creates a `Headers` object with key-value pairs for HTTP requests.
 - These headers make the requests look like they're from the GitHub Copilot Vim plugin (version 1.16.0 for Neovim 0.6.1). This is likely to spoof the user-agent and mimic Copilot's API calls, which might be required or helpful for GitHub to accept the requests.
 - `"accept": "application/json"`: Expects JSON responses.
@@ -57,6 +62,7 @@ commonHeaders.append("accept-encoding", "gzip,deflate,b");
 - `"accept-encoding"`: Allows gzip/deflate compression to save bandwidth.
 
 #### 3. `getDeviceCode()` Function
+
 ```javascript
 async function getDeviceCode() {
   const raw = JSON.stringify({
@@ -79,6 +85,7 @@ async function getDeviceCode() {
   return data;
 }
 ```
+
 - **Purpose**: Initiates the Device Code flow by requesting a device code from GitHub.
 - Constructs a JSON payload with:
   - `client_id`: The OAuth client ID (for authentication of your app).
@@ -89,6 +96,7 @@ async function getDeviceCode() {
 - Returns the parsed JSON data object from GitHub.
 
 #### 4. `getAccessToken(deviceCode: string)` Function
+
 ```javascript
 async function getAccessToken(deviceCode: string) {
   const raw = JSON.stringify({
@@ -111,6 +119,7 @@ async function getAccessToken(deviceCode: string) {
     .catch((error) => console.error(error));
 }
 ```
+
 - **Purpose**: Polls GitHub to exchange the device code for an access token once the user authorizes it.
 - Takes the `device_code` from the previous step.
 - Constructs JSON with:
@@ -124,6 +133,7 @@ async function getAccessToken(deviceCode: string) {
 - Errors (e.g., fetch failures) are logged but not explicitly handled, so the caller must check the return value.
 
 #### 5. Main Execution (Immediately Invoked Async Function)
+
 ```javascript
 (async function () {
   const { device_code, user_code, verification_uri, expires_in } =
@@ -143,6 +153,7 @@ async function getAccessToken(deviceCode: string) {
   }
 })();
 ```
+
 - **Overall Flow**: Orchestrates the full OAuth 2.0 Device Code grant.
 - Calls `getDeviceCode()` and destructures the response into variables (assumes it succeeds and has these properties).
 - Logs instructions for the user:
@@ -161,9 +172,10 @@ async function getAccessToken(deviceCode: string) {
   - Logging the access token to console exposes it; in production, you'd save it securely (e.g., to a file or database).
 
 ### How It Works End-to-End
+
 1. **Step 1: Request Device Code** → Script gets a temporary code from GitHub.
 2. **Step 2: User Authorization** → User visits GitHub and enters the code to grant permission.
 3. **Step 3: Poll for Token** → Script keeps asking GitHub until the token is issued.
 4. **Result**: An access token for the specified scope (e.g., read user data via GitHub API).
 
-This is a simulation of how tools like GitHub CLI might work, adapted for Copilot. For official GitHub OAuth docs, refer to https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps#device-flow. If you're building something similar, ensure compliance with OAuth standards and GitHub's policies. If you have questions about modifying or running this, let me know!
+This is a simulation of how tools like GitHub CLI might work, adapted for Copilot. For official GitHub OAuth docs, refer to <https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps#device-flow>. If you're building something similar, ensure compliance with OAuth standards and GitHub's policies. If you have questions about modifying or running this, let me know!

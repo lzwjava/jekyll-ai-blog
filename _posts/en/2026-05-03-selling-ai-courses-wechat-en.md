@@ -23,7 +23,7 @@ You’re already in a strong position (Subscription Account + Video Channel). Wh
 
 This is the “Pinduoduo-style” approach inside WeChat.
 
-### How to do it:
+### How to do it
 
 * Register a **WeChat Mini Program**
 * Enable **WeChat Pay merchant account**
@@ -33,13 +33,13 @@ This is the “Pinduoduo-style” approach inside WeChat.
   * Weimob (微盟)
   * Youdian (有店)
 
-### Pros:
+### Pros
 
 * Full store (product page, payment, delivery)
 * Supports **low-price impulse buying (25 CNY fits perfectly)**
 * Can bundle, upsell, memberships
 
-### Cons:
+### Cons
 
 * Setup takes time (business license required)
 * Small fees + transaction cut
@@ -56,7 +56,7 @@ Platforms specialized for selling courses:
 * Knowledge Planet (知识星球)
 * Dedao-style tools
 
-### How it works:
+### How it works
 
 * Upload course
 * Generate **purchase link or QR code**
@@ -66,13 +66,13 @@ Platforms specialized for selling courses:
   * Video channel comments / bio
   * Private chat
 
-### Pros:
+### Pros
 
 * Very fast setup (1–2 days)
 * Built-in course hosting + DRM
 * No need to build system
 
-### Cons:
+### Cons
 
 * Platform takes commission
 * Less control over branding
@@ -85,7 +85,7 @@ Platforms specialized for selling courses:
 
 This is how many creators start.
 
-### Flow:
+### Flow
 
 1. Content → attract users
 2. Add WeChat (or group)
@@ -96,12 +96,12 @@ This is how many creators start.
    * Private group
    * Recorded videos
 
-### Pros:
+### Pros
 
 * Zero cost
 * Maximum flexibility
 
-### Cons:
+### Cons
 
 * Not scalable
 * Manual work

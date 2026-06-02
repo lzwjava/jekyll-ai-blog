@@ -17,9 +17,11 @@ Answer:
 **FLAC** (Free Lossless Audio Codec) 是一种流行的 **open-source** 音频格式，专为数字音频的 **lossless compression** 而设计。
 
 ### Core Concept
+
 FLAC 压缩音频文件（通常将其减小到原始大小的 **50–70%**），而不会丢失 **任何** 音频信息。当你解压（播放）一个 FLAC 文件时，你会得到与原始未压缩音频（通常是来自 CD 或高分辨率录音的 PCM 数据）完全一致的 **bit-perfect** 副本。
 
 这与以下 lossy 格式有很大不同：
+
 - MP3
 - AAC
 - Opus（通常使用下）
@@ -27,12 +29,14 @@ FLAC 压缩音频文件（通常将其减小到原始大小的 **50–70%**）�
 这些格式会永久移除“较不重要”的数据以实现更小的体积，这会引入一定的质量损失。
 
 ### History
+
 - 首次发布于 **2001** 年（2001 年 7 月发布 1.0 版本）
 - 由 **Xiph.Org Foundation** 开发和维护
 - 在 **2024** 年底成为正式的 IETF 标准 (RFC 9639)
 - 保持完全的 **royalty-free**、无专利且 open-source
 
 ### Main Features and Advantages
+
 - **Truly lossless** — 数学上可验证的位一致重构
 - 对大多数音乐具有出色的压缩率（比 ZIP 处理音频效果更好）
 - 极快的 decoding 速度（低 CPU 占用） — 适合实时播放
@@ -47,6 +51,7 @@ FLAC 压缩音频文件（通常将其减小到原始大小的 **50–70%**）�
 - 存在多个独立的实现方案（非常健壮的生态系统）
 
 ### Typical Use Cases (2026)
+
 - 以完美质量归档 CD 收藏，且文件比 WAV 更小
 - 存储高解析音频 (24-bit/96 kHz, 24-bit/192 kHz 等)
 - 在本地存储（手机、DAPs、NAS → streamer setups）上进行发烧级聆听
@@ -64,6 +69,7 @@ FLAC 压缩音频文件（通常将其减小到原始大小的 **50–70%**）�
 | AAC (256)  | Lossy     | ~18–22%             | Not recommended     | Some loss           | No (patents)       |
 
 ### File Extension and Identification
+
 - Extension: **.flac**
 - Magic number (first bytes): **`fLaC`**
 

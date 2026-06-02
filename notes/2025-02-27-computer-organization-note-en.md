@@ -99,7 +99,6 @@ The interrupt mask is a mechanism used to temporarily disable or "mask" certain 
 
 In summary, the interrupt mask provides a way to control which interrupts the CPU responds to, allowing for better management of system resources and priorities.
 
-
 ---
 
 The arithmetic logic unit (ALU) is a fundamental component of a central processing unit (CPU) that performs arithmetic and logical operations. Here's an overview of its role and functions:
@@ -115,7 +114,6 @@ The arithmetic logic unit (ALU) is a fundamental component of a central processi
 - **Integral to CPU Functionality**: The ALU is a crucial part of the CPU's datapath and plays a central role in executing programs by performing the calculations required by software instructions.
 
 In summary, the ALU is the part of the CPU that performs mathematical and logical operations, enabling the CPU to process data and execute instructions efficiently.
-
 
 ---
 
@@ -319,7 +317,6 @@ In a computer, registers are small, fast storage locations within the CPU that h
 
 These registers work together to facilitate the execution of instructions, manage data flow, and control the operation of the CPU.
 
-
 ---
 
 A machine instruction, also known as a machine code instruction, is a low-level command that a computer's CPU (Central Processing Unit) can execute directly. Each instruction typically contains several key components:
@@ -340,14 +337,17 @@ These components work together to define a precise action that the CPU will perf
 
 Yes, you're describing **Register Direct Addressing**, which is another type of addressing mode used in computer architecture. Here's an explanation of this mode:
 
-### Register Direct Addressing (寄存器直接寻址):
+### Register Direct Addressing (寄存器直接寻址)
+
 - **Speed:** Very Fast
 - **Explanation:** In register direct addressing, the instruction specifies a register that contains the operand. The operand is directly accessed from the register rather than from memory. This mode is very fast because accessing registers is much quicker than accessing memory. Registers are part of the CPU, so there's no need for a memory access cycle.
 
 - **Example:**
+
   ```assembly
   ADD A, R1
   ```
+
 - **Explanation:** In this example, the instruction adds the value in register `R1` to the value in register `A`. The operand is directly available in register `R1`, so the CPU can quickly perform the operation without accessing memory.
 
 Register direct addressing is efficient because it leverages the speed of CPU registers, making it one of the fastest addressing modes. It's commonly used in operations where operands are frequently accessed or modified, such as in loops or arithmetic operations.
@@ -358,23 +358,29 @@ Sure! Let's go through examples of each addressing mode to illustrate how they w
 
 1. **Immediate Addressing (立即寻址):**
    - **Example:**
+
      ```assembly
      MOV A, #5
      ```
+
    - **Explanation:** In this example, the value `5` is directly included in the instruction. The CPU moves the value `5` into register `A` without needing to access memory. This is immediate addressing because the operand (`5`) is immediately available in the instruction.
 
 2. **Direct Addressing (直接寻址):**
    - **Example:**
+
      ```assembly
      MOV A, [1000]
      ```
+
    - **Explanation:** Here, the instruction tells the CPU to move the value stored at memory address `1000` into register `A`. The operand is located at a specific memory address, so the CPU needs to access memory to retrieve it. This is direct addressing because the address of the operand is directly specified in the instruction.
 
 3. **Indirect Addressing (间接寻址):**
    - **Example:**
+
      ```assembly
      MOV A, [B]
      ```
+
    - **Explanation:** In this example, register `B` contains an address (say `2000`). The CPU first retrieves the address from register `B`, then accesses memory at address `2000` to get the actual operand value, and finally moves that value into register `A`. This is indirect addressing because the instruction points to a location that contains the address of the operand, adding an extra level of indirection.
 
 These examples illustrate how each addressing mode accesses operands, with immediate addressing being the most direct and fastest, and indirect addressing involving additional steps to retrieve the operand.
@@ -419,7 +425,7 @@ In summary, CISC architecture is characterized by its ability to execute complex
 
 Parallel transmission, also known as parallel communication, is a method of conveying multiple data bits simultaneously. In this type of transmission, data is sent in parallel, meaning that multiple bits are transmitted at the same time over separate channels or wires. This is in contrast to serial transmission, where data bits are sent one after the other over a single channel.
 
-### Key Characteristics of Parallel Transmission:
+### Key Characteristics of Parallel Transmission
 
 1. **Speed**: Parallel transmission can be faster than serial transmission because multiple bits are sent at once. This can significantly increase data throughput, especially for large amounts of data.
 
@@ -431,7 +437,7 @@ Parallel transmission, also known as parallel communication, is a method of conv
 
 5. **Error Handling**: Parallel transmission systems often require robust error-checking mechanisms to handle potential issues like crosstalk (interference between signals on adjacent wires).
 
-### Examples of Parallel Transmission:
+### Examples of Parallel Transmission
 
 - **Internal Computer Buses**: Many internal buses in computers, such as the front-side bus or memory bus, use parallel transmission to achieve high data transfer rates.
 - **Printer Ports**: Older printer ports, such as the Centronics interface, used parallel transmission to send data to printers.
@@ -473,9 +479,11 @@ Indexed addressing is typically used with opcodes (operation codes) that require
    - Some ISAs allow indexed addressing for calculating jump targets, like `JMP [TABLE + BX]` in x86, where the jump address is fetched from a lookup table in memory.
 
 ### Why Indexed Addressing?
+
 Opcodes needing indexed addressing are often those that operate on sequential or structured data (e.g., arrays, tables, or records), where the exact memory location isn’t fixed at compile time but depends on runtime values in an index register. This is common in loops or when processing lists.
 
-### Architecture-Specific Notes:
+### Architecture-Specific Notes
+
 - **x86**: Instructions like `MOV`, `ADD`, or `CMP` can use indexed addressing with register pairs (e.g., `[BX + SI]` or `[BP + DI]`).
 - **ARM**: Uses a base register plus offset (often scaled), e.g., `LDR R0, [R1, R2]` where R2 acts as an index.
 - **RISC-V**: Load/store instructions like `lw` (load word) or `sw` (store word) can use an offset with a base register, e.g., `lw t0, 4(s0)`.
@@ -501,7 +509,8 @@ These operations are fundamental to how a CPU processes data and executes instru
 
 Let’s consider an example of immediate addressing in the context of a simple assembly language instruction.
 
-### Example:
+### Example
+
 Suppose we’re using a hypothetical assembly language for a processor. The instruction might look like this:
 
 ```
@@ -514,12 +523,15 @@ MOV R1, #50
   - `#50` is the immediate operand, where the `#` symbol indicates that the value `50` is an immediate value (a constant) embedded directly in the instruction.
 
 When this instruction is executed:
+
 1. The processor fetches the instruction from program memory.
 2. It decodes the opcode `MOV` and recognizes that it’s using immediate addressing because of the `#`.
 3. The value `50` is directly loaded into register `R1` without needing to fetch it from another memory location.
 
-### How It’s Stored:
+### How It’s Stored
+
 In the program memory, this instruction might be represented as a single binary word, for example:
+
 - Opcode (`MOV`): 4 bits, e.g., `0010`
 - Destination register (`R1`): 4 bits, e.g., `0001`
 - Immediate value (`50`): 8 bits, e.g., `00110010
@@ -539,6 +551,7 @@ Compared to CISC (Complex Instruction Set Computing) architectures, which featur
 In the context of computer architecture, particularly with CPUs like MIPS, **interrupts** and **exceptions** are mechanisms used to handle unexpected or special events during program execution. While they serve similar purposes (diverting the CPU's normal flow to handle an issue), they differ in their origin, timing, and handling. Here's a detailed explanation:
 
 ### **Interrupts**
+
 - **Definition:** An interrupt is an external or asynchronous signal that temporarily halts the CPU's current execution to handle a specific event. These signals are typically generated by hardware devices or external sources.
 - **Characteristics:**
   - **Asynchronous:** Interrupts can occur at any time, independent of the instruction currently being executed by the CPU.
@@ -551,6 +564,7 @@ In the context of computer architecture, particularly with CPUs like MIPS, **int
 - **Example:** A timer interrupt might occur every millisecond to update the system clock, regardless of what the CPU is currently doing.
 
 ### **Exceptions**
+
 - **Definition:** An exception is an internal or synchronous event triggered by the CPU itself due to an error or unusual condition during the execution of an instruction.
 - **Characteristics:**
   - **Synchronous:** Exceptions are directly tied to the instruction being executed and occur at a predictable point (e.g., when the problematic instruction is fetched or executed).
@@ -574,7 +588,9 @@ In the context of computer architecture, particularly with CPUs like MIPS, **int
 | **Example**         | Timer tick, I/O complete    | Division by zero, invalid memory access |
 
 ### **Relationship to MIPS**
+
 In MIPS architecture:
+
 - The `add` instruction (from your earlier question) could trigger an exception if an arithmetic overflow occurs (though `add` silently wraps around; `add` with overflow checking would raise an exception).
 - Interrupts might be handled via the exception vector (a predefined memory location), where the CPU jumps to service routines based on the interrupt type.
 
@@ -584,20 +600,23 @@ Both mechanisms are critical for managing errors and coordinating hardware-softw
 
 The statement "The control memory that stores microprograms is included in the controller" refers to a key concept in computer architecture, particularly in the design of a CPU's control unit. Let me explain this in English:
 
-### Explanation:
+### Explanation
+
 In a computer system, the **controller** (or control unit) is a component of the CPU responsible for directing the operation of the processor. It generates control signals to execute instructions by coordinating the activities of the arithmetic logic unit (ALU), registers, and memory. One way to implement the control unit is through a **microprogrammed approach**, where the control signals are derived from a set of low-level instructions called **microinstructions**. These microinstructions are stored in a special memory within the controller known as **control memory**.
 
 - **Control Memory:** This is a read-only memory (ROM) or similar storage that contains the microprograms. A microprogram is a sequence of microinstructions that define the step-by-step operations required to execute a machine-level instruction (e.g., `add $s1, $s2, $s3` in MIPS).
 - **Microprogramming:** Instead of hardwiring the control logic, the controller fetches microinstructions from the control memory based on the current machine instruction and executes them. This approach provides flexibility, as microprograms can be modified or updated to support new instructions or architectures.
 - **Location:** The control memory is embedded within the controller, making it an integral part of the control unit's operation.
 
-### How It Works:
+### How It Works
+
 1. When the CPU fetches a machine instruction (e.g., from main memory), the controller decodes it.
 2. Based on the decoded instruction, the controller accesses the corresponding microprogram in the control memory.
 3. The microprogram is executed step-by-step, generating the necessary control signals to perform operations like data transfer, arithmetic, or branching.
 4. Once the microprogram completes, the controller moves to the next machine instruction.
 
-### Relevance to MIPS or General CPUs:
+### Relevance to MIPS or General CPUs
+
 In the context of a processor like MIPS, while MIPS is typically a hardwired or RISC (Reduced Instruction Set Computer) architecture, the concept of microprogramming applies to more complex CISC (Complex Instruction Set Computer) designs (e.g., x86). However, the principle remains: the controller relies on stored microcode (in control memory) to execute instructions efficiently.
 
 This statement highlights the structural design where the controller houses the control memory, enabling the microprogrammed control of the CPU's operations. Let me know if you'd like further details or examples!

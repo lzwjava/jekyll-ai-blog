@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 在 Visual Studio Code 中使用 GitHub Copilot
+
 这些提示词帮助您在 Visual Studio Code (VSCode) 中利用 GitHub Copilot 进行编码、调试和理解任务：
 
 - **代码生成**
@@ -34,6 +35,7 @@ type: note
 ---
 
 ### 在 Visual Studio Code 中调试 Spring Boot 应用程序
+
 这些提示词专注于在 VSCode 中设置和排查 Spring Boot 应用程序的调试问题：
 
 - **设置调试**
@@ -55,6 +57,7 @@ type: note
 ---
 
 ### IBM Db2 数据库中的锁定机制
+
 这些提示词帮助您理解和管理 IBM Db2 中的锁定机制：
 
 - **理解锁定**
@@ -76,6 +79,7 @@ type: note
 ---
 
 ### 在 VSCode 中配置 Spring Boot 的 launch.json
+
 这些提示词协助设置和排查 VSCode 中 Spring Boot 应用程序的 `launch.json` 文件：
 
 - **基础配置**
@@ -97,6 +101,7 @@ type: note
 ---
 
 ### 为 WebSphere Liberty 指定 JDK
+
 这些提示词帮助配置和排查 WebSphere Liberty 的 JDK：
 
 - **路径配置**
@@ -118,6 +123,7 @@ type: note
 ---
 
 ### 通用编程提示模式
+
 这些提示词涵盖跨编程任务的常见模式，例如配置、详细输出以及其他方面如优化和安全：
 
 - **路径配置**

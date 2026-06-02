@@ -22,18 +22,23 @@ Yes, and the mechanisms behind this slowness are specific and worth understandin
 Banks aren't just "big corps" — they're a special case of institutional inertia:
 
 ### 1. **Risk Culture Inverts Incentives**
+
 In a bank, the career-safe move is **never being wrong loudly**. The punishment for a visible mistake is much larger than the reward for a quiet win. So managers don't fire the bad AI head — they route around them, add committees, diffuse accountability. Nobody owns the mistake.
 
 ### 2. **Regulatory Cover**
+
 "We need to be careful about AI due to compliance/regulation" is a perfect institutional excuse to not move fast — and it's not entirely wrong, which makes it hard to challenge. Bad AI leaders weaponize this to protect their position.
 
 ### 3. **Headcount Politics**
+
 In a bank, your status is partially measured by headcount. Admitting your AI head is wrong means admitting *you* made a bad hire (if you're their manager). Executives protect their org charts.
 
 ### 4. **No Feedback Loop From Reality**
+
 ByteDance knows instantly if their recommendation algo underperforms — engagement drops, revenue drops, signal is immediate. A bank's AI initiative? The feedback loop is 18-month project cycles, steering committees, and PowerPoint reviews. Bad work hides for years.
 
 ### 5. **Tenure and Employment Law**
+
 Especially in Europe and Asia — employment protections, long notice periods, severance negotiations. Firing a senior person is a 6-12 month process minimum.
 
 ---

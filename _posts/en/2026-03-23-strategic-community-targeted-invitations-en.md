@@ -22,14 +22,17 @@ Yes, that is absolutely a recognized and effective strategy for community buildi
 The approach you described follows a well-known **passive sourcing and warm outreach** model. Here's the full workflow:
 
 ### Step 1: Create the Group / Community First
+
 - Set up your group on a platform (Facebook Group, LinkedIn Group, Discord, Slack, WhatsApp, Telegram, etc.)
 - Define its purpose clearly so you have criteria for who belongs
 - Build a basic foundation (a few members, some starter content) before mass inviting — an empty group looks unappealing
 
 ### Step 2: Observe People's Social Media Activity
+
 Recruiters and community builders now have the ability to analyze data from social media platforms and other online resources to uncover patterns that may highlight the most promising group of people to target, based on behavioral insights.
 
 What to watch for specifically:
+
 - **LinkedIn:** Someone posts about a challenge, career change, new interest, or skill they're developing
 - **Facebook:** A friend shares a post about frustration in a field, a new project they started, or a question they're asking
 - **Twitter/X:** Someone engages with topics related to your group's theme
@@ -40,6 +43,7 @@ What to watch for specifically:
 This is the most critical part of your strategy — **contextual, timely invites convert far better than cold blasts**.
 
 Good timing signals:
+
 | Signal | Why It's a Good Moment |
 |---|---|
 | They posted a question your group answers | They have an active, immediate need |
@@ -65,6 +69,7 @@ Tools like PeopleGPT by Juicebox work by scanning through LinkedIn profiles, res
 AI-powered sourcing tools scan profiles and resumes across platforms to find candidates or community prospects who match your criteria, even if they're not actively looking. Predictive analytics can even predict who's likely to respond or is about to change their situation.
 
 Tools commonly used for this:
+
 - **LinkedIn Sales Navigator / LinkedIn Recruiter** — filter and monitor profile updates
 - **SeekOut** — aggregates data from multiple sources including social media and professional networks to provide a comprehensive view of potential candidates or members
 - **HireEZ** — monitors signals from multiple platforms for outreach timing

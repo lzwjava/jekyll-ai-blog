@@ -25,6 +25,7 @@ A BJT is built like a sandwich of three thin layers of semiconductor material (u
 - **Collector (C)**: The other outer layer that "collects" the charges. It's moderately doped and wider than the base to grab everything efficiently.
 
 In an NPN BJT:
+
 - Emitter and collector are "N-type" (extra electrons, negative).
 - Base is "P-type" (missing electrons, acts positive).
 
@@ -85,6 +86,7 @@ These are graphs showing how currents/voltages relate. They're like maps of BJT 
 These curves help engineers pick the right bias point (Q-point) for stable operation—usually in the active region's middle to avoid distortion.
 
 ### Why BJTs Matter
+
 BJTs are old-school but reliable for high-speed, high-power jobs. Modern chips use MOSFETs for low power, but BJTs shine in audio amps and power controls. If you're building circuits, start with a simple NPN like 2N3904—cheap and easy.
 
 For visuals, search "BJT characteristic curves" online; graphs make it click faster. Got questions on a specific part?

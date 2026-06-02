@@ -4,7 +4,7 @@ HanLP = hanlp.load(
     hanlp.pretrained.mtl.CLOSE_TOK_POS_NER_SRL_DEP_SDP_CON_ELECTRA_SMALL_ZH
 )
 
-import os
+import os  # noqa: E402
 
 directory_path = "./_posts"
 

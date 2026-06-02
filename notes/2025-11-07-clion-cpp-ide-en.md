@@ -37,6 +37,7 @@ In short, choose CLion if you want a "batteries-included" experience for C++—i
 On macOS, **CLion stands out as the best overall IDE for general C++ development** in 2025, especially post its free tier launch. It runs smoothly on Apple Silicon (M1/M2/M3/M4), offers top-tier debugging with LLDB, and integrates well with macOS tools like Homebrew for dependencies. Its cross-platform nature makes it ideal if you're not locked into Apple's ecosystem, and recent updates have optimized it for remote dev and formatting—perfect for macOS's Unix-like environment.
 
 That said, the "best" depends on your needs:
+
 - **For Apple-native or iOS/macOS apps**: Xcode is unbeatable—free, deeply integrated with Swift/Objective-C interop, and optimized for Metal/graphics. But it's clunky for pure C++ outside Apple frameworks.
 - **For lightweight/general use**: VSCode remains a strong contender; it's the most popular per some 2025 lists due to its speed and ecosystem.
 - **Other notables**: Eclipse CDT for open-source fans (free, extensible), or Qt Creator if you're building GUIs.
@@ -44,6 +45,7 @@ That said, the "best" depends on your needs:
 If you're doing straight C++ (e.g., systems, games, or cross-platform libs), go with CLion—it's frequently ranked #1 or #2 in macOS-specific recs for its balance of power and polish.
 
 ### References
+
 - [CLion 2025.2 Release Notes](https://blog.jetbrains.com/clion/2025/08/clion-2025-2-release)
 - [CLion Reviews on G2](https://www.g2.com/products/clion/reviews)
 - [CLion Reviews on Capterra](https://www.capterra.com/p/246695/CLion/reviews/)

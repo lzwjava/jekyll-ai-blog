@@ -13,7 +13,9 @@ Using sound to detect when your Maytag MHW8630HW washing machine stops is a viab
 ---
 
 ### Tech Stack
+
 #### Hardware
+
 1. **Arduino Board**:
    - **ESP32-CAM** (still usable) – Retains Wi-Fi for Telegram integration, though the camera is not needed.
    - Alternative: **ESP8266 NodeMCU** or **Arduino Uno** with an ESP8266 module for Wi-Fi (simpler if you don’t need the camera).
@@ -29,6 +31,7 @@ Using sound to detect when your Maytag MHW8630HW washing machine stops is a viab
    - For internet connectivity to send Telegram notifications.
 
 #### Software
+
 - **Arduino IDE**: For programming the ESP32 or other board.
 - **Libraries**:
   - **Universal Arduino Telegram Bot Library** by Brian Lough – For Telegram integration.
@@ -39,9 +42,11 @@ Using sound to detect when your Maytag MHW8630HW washing machine stops is a viab
 ---
 
 ### Algorithm for Detecting Washing Machine Status with Sound
+
 The sound sensor will detect the noise level produced by the washing machine. When the machine is running, it generates consistent sounds (e.g., motor, water, or drum). When it stops, the sound level drops significantly. The algorithm processes these sound levels to determine the machine’s status.
 
 #### Detection Algorithm
+
 1. **Sound Sampling**:
    - Continuously read the analog output from the sound sensor to measure noise levels.
 2. **Signal Processing**:
@@ -57,6 +62,7 @@ The sound sensor will detect the noise level produced by the washing machine. Wh
    - When the machine is confirmed stopped, send a Telegram message (e.g., “Washing machine stopped! Time to hang up clothes.”).
 
 #### Why Sound Detection?
+
 - Sound detection is simpler than image processing, as it doesn’t require complex algorithms or high computational resources.
 - It’s less sensitive to ambient light changes compared to camera-based detection.
 - However, it may be affected by background noise (e.g., a loud TV), so placement and threshold tuning are critical.
@@ -64,13 +70,16 @@ The sound sensor will detect the noise level produced by the washing machine. Wh
 ---
 
 ### Implementation Guide
+
 #### Step 1: Set Up the Telegram Bot
+
 - Follow the same steps as in the original guide:
   - Create a bot using **@BotFather** to get a **Bot Token**.
   - Get your **Chat ID** using **@GetIDsBot** or by checking incoming messages.
   - Ensure Telegram is set up on your phone to receive notifications.
 
 #### Step 2: Hardware Setup
+
 1. **Choose a Sound Sensor**:
    - **KY-038**: Provides an analog output (0-1023 for ESP32’s 10-bit ADC) proportional to sound intensity. It also has a digital output, but analog is better for nuanced detection.
    - **MAX9814**: More sensitive, with adjustable gain via a potentiometer. Connect to an analog pin.
@@ -91,6 +100,7 @@ The sound sensor will detect the noise level produced by the washing machine. Wh
    - Use a small enclosure or tape to secure the sensor and board, ensuring the microphone is exposed to capture sound.
 
 #### Step 3: Software Setup
+
 - **Arduino IDE**: Install as described in the original guide.
 - **ESP32 Board Support**: Add the ESP32 board package via the Boards Manager (same URL as before).
 - **Libraries**:
@@ -98,6 +108,7 @@ The sound sensor will detect the noise level produced by the washing machine. Wh
 - **Wi-Fi**: Ensure the board can connect to your 2.4GHz Wi-Fi network.
 
 #### Step 4: Write the Arduino Code
+
 Below is a sample Arduino sketch for the ESP32 (or ESP8266) to detect sound levels and send Telegram notifications. This assumes a KY-038 sound sensor connected to GPIO 4.
 
 ```cpp
@@ -181,6 +192,7 @@ void loop() {
 ```
 
 #### Step 5: Customize the Code
+
 1. **Update Credentials**:
    - Replace `your_wifi_ssid`, `your_wifi_password`, `your_bot_token`, and `your_chat_id` with your actual values.
 2. **Tune `SOUND_THRESHOLD`**:
@@ -192,6 +204,7 @@ void loop() {
    - Set to `300000` (5 minutes) to avoid false notifications during quiet phases like soaking.
 
 #### Step 6: Test and Deploy
+
 1. **Upload the Code**:
    - Connect the ESP32 to your computer via a USB-to-serial adapter.
    - Select **ESP32 Wrover Module** (or **NodeMCU** for ESP8266) in Arduino IDE and upload the sketch.
@@ -207,11 +220,13 @@ void loop() {
 ---
 
 ### Advantages of Sound Detection
+
 - **Simpler Processing**: No image processing, reducing computational load on the ESP32.
 - **Cost-Effective**: Sound sensors like KY-038 are inexpensive (often under $5).
 - **Non-Invasive**: No need to attach anything directly to the machine’s panel light.
 
 ### Challenges and Mitigations
+
 - **Background Noise**: Household noises (e.g., TV, talking) may interfere. Mitigate by:
   - Placing the sensor close to the machine’s motor or drum.
   - Tuning `SOUND_THRESHOLD` to ignore ambient noise.
@@ -220,6 +235,7 @@ void loop() {
 - **Water Exposure**: Ensure the sensor is in a water-resistant enclosure, as washing machines may have splashes or humidity.
 
 ### Optional Enhancements
+
 - **Frequency Analysis**: If background noise is a persistent issue, analyze sound frequencies (e.g., motor hum at 50-200 Hz) using a Fast Fourier Transform (FFT) library like `arduinoFFT`. This requires more processing power and may not be feasible on a basic ESP32 without optimization.
 - **Dual Sensors**: Combine sound and vibration sensors (e.g., SW-420) for redundancy. If both indicate the machine is off, confidence in the detection increases.
 - **Battery Power**: For portability, use a rechargeable LiPo battery with a charging module (e.g., TP4056) instead of a USB adapter.
@@ -227,6 +243,7 @@ void loop() {
 ---
 
 ### Troubleshooting
+
 - **No Sound Detection**: Check sensor wiring, test with Serial Monitor, and ensure the sensor is close to the machine’s noise source.
 - **False Notifications**: Increase `STOP_DELAY` or adjust `SOUND_THRESHOLD` to filter out background noise or cycle pauses.
 - **Wi-Fi Issues**: Verify 2.4GHz Wi-Fi credentials and signal strength near the machine.

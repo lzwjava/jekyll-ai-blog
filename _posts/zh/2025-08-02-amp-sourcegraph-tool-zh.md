@@ -29,4 +29,4 @@ Sourcegraph 推出的 Amp 是一款智能编程代理工具，旨在为开发者
 
 不过有用户指出其基于信用点的计费模式（费用与 LLM 使用量及网络搜索等附加工具挂钩）可能成本较高，例如有案例显示生成 2000 行代码消耗了 4 美元。
 
-当前访问 ampcode.com 注册即可获赠 10 美元免费信用点（企业版入门用户额外赠送 30 美元），具体定价可参阅 https://x.ai/grok 或联系 amp-billing-help@sourcegraph.com。
+当前访问 ampcode.com 注册即可获赠 10 美元免费信用点（企业版入门用户额外赠送 30 美元），具体定价可参阅 <https://x.ai/grok> 或联系 <amp-billing-help@sourcegraph.com>。

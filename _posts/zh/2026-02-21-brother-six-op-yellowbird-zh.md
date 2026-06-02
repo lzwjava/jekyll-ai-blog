@@ -36,6 +36,7 @@ type: note
 ### **行动成果**
 
 在陈达志的领导下，黄鸟行动成功协助130余名民主人士、学生、学者和被中国当局通缉的政府官员逃离。行动采用多种高级手段，包括：
+
 - 编码信息传递
 - 使用撕裂照片的对半匹配作为身份验证
 - 午夜时分乘快艇前往中国南部偏远海湾
@@ -61,6 +62,7 @@ type: note
 
 ---
 **参考资料：**
+
 - [https://en.wikipedia.org/wiki/Operation_Yellowbird](https://en.wikipedia.org/wiki/Operation_Yellowbird)
 - [https://8964museum.com/hongkong/en/h-a05-002/](https://8964museum.com/hongkong/en/h-a05-002/)
 - [https://chinadigitaltimes.net/2014/06/story-chan-tat-ching/](https://chinadigitaltimes.net/2014/06/story-chan-tat-ching/)

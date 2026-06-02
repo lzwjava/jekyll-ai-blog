@@ -16,6 +16,7 @@ Answer:
 Here is a practical step-by-step guide to install **FreeBSD** on a modern laptop (as of early 2026, covering FreeBSD 14.3 or FreeBSD 15.0).
 
 ### Before You Start – Important Laptop Notes
+
 FreeBSD works very well on many ThinkPads, some Dell Latitudes/Precisions, and Framework laptops. On many other modern laptops you will likely face these common challenges:
 
 - Wi-Fi usually needs extra configuration (especially Intel AX2xx / BE2xx series)
@@ -32,7 +33,7 @@ Check compatibility first:
 ### Step-by-step Installation
 
 1. **Download the correct image**
-   Go to → https://www.freebsd.org/where/
+   Go to → <https://www.freebsd.org/where/>
    Recommended choices for laptops in 2026:
 
    - **memstick.img** (most common) → write to ≥8 GB USB

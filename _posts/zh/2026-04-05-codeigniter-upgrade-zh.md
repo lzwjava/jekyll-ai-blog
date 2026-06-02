@@ -14,6 +14,7 @@ type: note
 让我完整介绍一下需要做的改动：
 
 **核心变动：**
+
 - `application/` → `app/`，`system/`目录移除（现为 Composer 包）
 - `Controllers` 继承 `BaseController` 而非 `CI_Controller`
 - `Models` 继承 `Model` 而非 `CI_Model`
@@ -26,6 +27,7 @@ type: note
 - 必须使用 Composer（不再支持手动复制类库）
 
 **导致 PHP 8.5 无法运行的真正问题：**
+
 - CI3 设计时基于 PHP 5.6-7.x 环境，许多 mysql 函数在 8.x 版本中已被移除
 - 多处 `mysql_*` 函数需替换为 `mysqli_*`
 - 众多过时特性需要修正

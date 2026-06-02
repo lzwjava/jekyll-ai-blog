@@ -12,6 +12,7 @@ type: note
 Based on the most recent available data from GitHub's Octoverse reports, the number of workflow jobs run in GitHub Actions has grown significantly over the years, driven by increasing developer adoption and automation needs.
 
 In 2022 (the last year with explicit reporting on job counts), GitHub Actions ran approximately 263 million workflow jobs per month. This translates to:
+
 - About 8.77 million jobs per day (263 million / 30 days).
 - About 365,000 jobs per hour (8.77 million / 24 hours).
 

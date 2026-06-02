@@ -11,12 +11,14 @@ type: note
 ---
 
 ### Prerequisites
+
 - Ensure you have administrative access to the IBM WebSphere Application Server (WAS) Integrated Solutions Console (admin console).
 - The server should be running, and you need to decide on the scope (e.g., cell, node, server) for the resources.
 - This guide focuses on the Default Messaging Provider (using Service Integration Bus or SIBus), which is the built-in JMS provider in WAS. If using WebSphere MQ, additional configuration for the MQ provider is required.
 - Restart the server after major changes if prompted.
 
 ### Step 1: Create a Service Integration Bus
+
 The service integration bus acts as the messaging backbone for JMS resources.
 
 1. Log in to the WebSphere Integrated Solutions Console.
@@ -27,6 +29,7 @@ The service integration bus acts as the messaging backbone for JMS resources.
 6. Click **Next**, then **Finish** to create the bus.
 
 ### Step 2: Add the Server as a Bus Member
+
 This enables the server to host messaging engines on the bus.
 
 1. Select the bus you created (e.g., `MyJMSBus`).
@@ -40,6 +43,7 @@ This enables the server to host messaging engines on the bus.
 6. Restart the WebSphere Application Server to activate the bus member.
 
 ### Step 3: Create a JMS Connection Factory
+
 A connection factory is required to connect JMS clients to the provider.
 
 1. Navigate to **Resources > JMS > Connection factories**.
@@ -53,6 +57,7 @@ A connection factory is required to connect JMS clients to the provider.
 5. Click **Apply**, then **Save** to the master configuration.
 
 ### Step 4: Create a JMS Queue
+
 This defines the queue destination for point-to-point messaging.
 
 1. Navigate to **Resources > JMS > Queues**.
@@ -68,6 +73,7 @@ This defines the queue destination for point-to-point messaging.
 6. Click **Apply**, then **Save** to the master configuration.
 
 ### Step 5: (Optional) Create Activation Specifications for Message-Driven Beans (MDBs)
+
 If using MDBs to consume from the queue, configure activation specs.
 
 1. Navigate to **Resources > JMS > Activation specifications**.
@@ -82,6 +88,7 @@ If using MDBs to consume from the queue, configure activation specs.
 5. Click **Apply**, then **Save** to the master configuration.
 
 ### Verification and Testing
+
 - After saving, sync nodes if in a clustered environment.
 - Restart the server.
 - Use a JMS client application to test sending/receiving messages via the JNDI names.

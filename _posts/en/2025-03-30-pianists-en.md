@@ -69,9 +69,11 @@ The world of classical and contemporary piano has produced many virtuosos whose 
    - A South Korean pianist and conductor, Chung is known for his exceptional performances of both the classical and contemporary piano repertoire. His approach is often characterized by clarity and expressive depth.
 
 10. **Keith Jarrett**
-   - A jazz pianist and composer, Jarrett is revered for his improvisational skill. His *The Köln Concert* is one of the best-selling solo piano albums of all time, showcasing his ability to blend classical, jazz, and contemporary music in a truly unique way.
+
+- A jazz pianist and composer, Jarrett is revered for his improvisational skill. His *The Köln Concert* is one of the best-selling solo piano albums of all time, showcasing his ability to blend classical, jazz, and contemporary music in a truly unique way.
 
 ### **Other Notable Pianists**
+
 - **Glenn Gould** – Known for his interpretations of Bach, particularly his recording of the *Goldberg Variations*.
 - **Leon Fleisher** – A master of the Beethoven piano concertos and a leading figure in American classical music.
 - **Giuseppe Verdi** – Not only a composer, Verdi was known for his superb piano performances during his youth.

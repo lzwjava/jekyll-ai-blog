@@ -10,12 +10,14 @@ type: note
 Here are 200 commonly used macOS shell commands, categorized for easier reference. These commands are useful for navigating the file system, managing files, system monitoring, and more.
 
 ### File System Navigation
+
 - `ls` - List directory contents.
 - `cd` - Change the current directory.
 - `pwd` - Print the current working directory.
 - `tree` - Display directories as trees (if installed).
 
 ### File Operations
+
 - `cp` - Copy files or directories.
 - `mv` - Move or rename files or directories.
 - `rm` - Remove files or directories.
@@ -53,6 +55,7 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `wget` - Download files from the web.
 
 ### System Information
+
 - `uname` - Print system information.
 - `top` - Display system processes.
 - `htop` - Interactive process viewer (if installed).
@@ -92,6 +95,7 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `nmap` - Network exploration tool and security/port scanner (if installed).
 
 ### Disk Management
+
 - `mount` - Mount a filesystem.
 - `umount` - Unmount a filesystem.
 - `fdisk` - Partition table manipulator for Linux.
@@ -105,6 +109,7 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `smartctl` - Control and monitor SMART-enabled ATA/SCSI-3 drives (if installed).
 
 ### Package Management
+
 - `brew` - Homebrew package manager (if installed).
 - `port` - MacPorts package manager (if installed).
 - `gem` - RubyGems package manager.
@@ -113,6 +118,7 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `cpan` - Perl package manager.
 
 ### Text Processing
+
 - `awk` - Pattern scanning and processing language.
 - `sed` - Stream editor for filtering and transforming text.
 - `sort` - Sort lines of text files.
@@ -129,6 +135,7 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `xxd` - Make a hexdump or do the reverse.
 
 ### Shell Scripting
+
 - `echo` - Display a line of text.
 - `printf` - Format and print data.
 - `test` - Evaluate an expression.
@@ -149,6 +156,7 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `whereis` - Locate the binary, source, and manual page files for a command.
 
 ### Development Tools
+
 - `gcc` - GNU project C and C++ compiler.
 - `make` - Directory-oriented makefile processor.
 - `cmake` - Cross-platform makefile generator.
@@ -176,12 +184,14 @@ Here are 200 commonly used macOS shell commands, categorized for easier referenc
 - `dc` - An arbitrary precision calculator.
 
 ### Version Control
+
 - `git` - Distributed version control system.
 - `svn` - Subversion version control system.
 - `hg` - Mercurial distributed version control system.
 - `cvs` - Concurrent Versions System.
 
 ### Miscellaneous
+
 - `man` - Format and display the online manual pages.
 - `info` - Read Info documents.
 - `apropos` - Search the manual page names and descriptions.

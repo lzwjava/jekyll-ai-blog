@@ -27,7 +27,8 @@ For example, if you’re using the Liberty Tools extension with dev mode, your c
 }
 ```
 
-### Steps:
+### Steps
+
 1. **Open or Create the Launch Configuration:**
    - In VS Code, open your project.
    - Navigate to the `.vscode` folder and open (or create) `launch.json`.

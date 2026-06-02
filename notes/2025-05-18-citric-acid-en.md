@@ -13,6 +13,7 @@ Citric acid is a naturally occurring organic acid widely recognized for its vers
 ---
 
 #### 1. **Chemical and Physical Properties**
+
 - **Chemical Formula**: C₆H₈O₇
 - **Molecular Weight**: 192.12 g/mol
 - **Structure**: Citric acid is a tricarboxylic acid with three carboxyl groups (-COOH) and one hydroxyl group (-OH). Its chemical name is 2-hydroxypropane-1,2,3-tricarboxylic acid.
@@ -24,7 +25,9 @@ Citric acid is a naturally occurring organic acid widely recognized for its vers
 ---
 
 #### 2. **Natural Occurrence**
+
 Citric acid is ubiquitous in nature, found in many fruits and vegetables, particularly citrus fruits, from which it derives its name (from the Latin *citrus*). It is a key intermediate in the **Krebs cycle** (or citric acid cycle), a fundamental metabolic pathway in aerobic organisms that generates energy through the oxidation of acetyl-CoA.
+
 - **Sources**:
   - **Citrus fruits**: Lemons (5–6% citric acid), limes (5–6%), oranges (0.8–1%), and grapefruits.
   - Other fruits: Berries (e.g., raspberries, blackberries), pineapples, and tomatoes.
@@ -34,6 +37,7 @@ Citric acid is ubiquitous in nature, found in many fruits and vegetables, partic
 ---
 
 #### 3. **Historical Context**
+
 - Citric acid was first isolated in 1784 by Swedish chemist **Carl Wilhelm Scheele** from lemon juice.
 - Until the early 20th century, citric acid was primarily extracted from citrus fruits, mainly in Italy, which dominated the market.
 - In 1917, American scientist **James Currie** discovered that the mold *Aspergillus niger* could produce citric acid from sugar substrates, leading to the development of industrial microbial fermentation. This revolutionized production, making citric acid more affordable and widely available.
@@ -41,6 +45,7 @@ Citric acid is ubiquitous in nature, found in many fruits and vegetables, partic
 ---
 
 #### 4. **Production Methods**
+
 Today, over 99% of citric acid is produced via microbial fermentation, with only a small fraction derived from natural sources due to cost and scalability.
 
 - **Microbial Fermentation**:
@@ -62,6 +67,7 @@ Today, over 99% of citric acid is produced via microbial fermentation, with only
 ---
 
 #### 5. **Applications**
+
 Citric acid’s versatility stems from its acidity, chelating properties (binding metal ions), and safety for human consumption. Its applications span multiple industries:
 
 - **Food and Beverage Industry (60–70% of global use)**:
@@ -89,6 +95,7 @@ Citric acid’s versatility stems from its acidity, chelating properties (bindin
 ---
 
 #### 6. **Safety and Regulatory Status**
+
 - **Safety**: Citric acid is classified as **Generally Recognized as Safe (GRAS)** by the U.S. Food and Drug Administration (FDA) and is approved for use in food by the European Union (E-number E330), Codex Alimentarius, and other regulatory bodies.
 - **Consumption**: Safe in moderate amounts, as it is naturally metabolized by the body. Excessive intake (e.g., from highly acidic foods) may cause dental enamel erosion or mild gastrointestinal discomfort.
 - **Allergies**: Rare, but some individuals may experience sensitivity, often due to impurities in low-quality citric acid derived from mold fermentation (e.g., corn-based substrates).
@@ -97,6 +104,7 @@ Citric acid’s versatility stems from its acidity, chelating properties (bindin
 ---
 
 #### 7. **Environmental Impact**
+
 - **Production**: Microbial fermentation is energy-intensive but has a lower environmental footprint than chemical synthesis. The use of agricultural byproducts (e.g., molasses) reduces waste.
 - **Biodegradability**: Citric acid is fully biodegradable and does not persist in the environment, making it a preferred alternative to phosphates in detergents.
 - **Sustainability**: Efforts are underway to optimize fermentation processes, reduce water usage, and utilize renewable feedstocks to enhance sustainability.
@@ -104,6 +112,7 @@ Citric acid’s versatility stems from its acidity, chelating properties (bindin
 ---
 
 #### 8. **Market and Economic Significance**
+
 - **Global Production**: Approximately 2.5 million metric tons per year, with a market value exceeding $3 billion USD (as of recent estimates).
 - **Key Producers**: China dominates (50–60% of global supply), followed by the U.S., Europe, and Brazil. Major companies include Archer Daniels Midland (ADM), Cargill, and Jungbunzlauer.
 - **Growth Drivers**: Increasing demand for processed foods, eco-friendly detergents, and pharmaceuticals fuels market expansion. The rise of plant-based and clean-label products further boosts citric acid use.
@@ -111,6 +120,7 @@ Citric acid’s versatility stems from its acidity, chelating properties (bindin
 ---
 
 #### 9. **Challenges and Future Trends**
+
 - **Challenges**:
   - Price volatility due to fluctuations in raw material costs (e.g., sugar, corn).
   - Competition from alternative acidulants like malic or lactic acid in specific applications.
@@ -123,6 +133,7 @@ Citric acid’s versatility stems from its acidity, chelating properties (bindin
 ---
 
 #### 10. **Conclusion**
+
 Citric acid is a cornerstone of modern industry and biology, bridging natural processes and human innovation. Its role in the Krebs cycle underscores its biological importance, while its diverse applications—from flavoring sodas to cleaning pipelines—highlight its industrial versatility. Produced efficiently through microbial fermentation, citric acid is safe, biodegradable, and economically significant. As sustainability and clean-label trends grow, citric acid’s importance is likely to expand, driven by ongoing innovations in production and applications.
 
 If you have specific questions about citric acid (e.g., its role in a particular industry, production details, or health effects), let me know!

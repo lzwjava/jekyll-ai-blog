@@ -21,7 +21,6 @@ Introducing a Chrome plugin that automatically closes the oldest tabs when your 
 
 ![qq20160114-2 2x](https://cloud.githubusercontent.com/assets/5022872/12328400/3906a1ca-bb16-11e5-853c-0da4ce65cd6a.png)
 
-
 # Plugin
 
 ![qq20151003-2 2x](https://cloud.githubusercontent.com/assets/5022872/10262499/b39deb34-69fc-11e5-93b8-35bf10cedaaa.jpg)
@@ -42,7 +41,7 @@ I usually open many tabs in Chrome. So I press Ctrl + W to close them a lot one 
 
 ## Install
 
-Please go chrome store https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/ ,
+Please go chrome store <https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/> ,
 or install manually:
 
 First, go to `chrome://extensions`, then select the developer mode, and then load unpacked extension. It's done.

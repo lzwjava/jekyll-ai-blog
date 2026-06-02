@@ -16,10 +16,12 @@ Three things going on here. Let me untangle them.
 These are independent. The downloader fills a **pool**; `max_iters` decides the **training budget**. They don't have to match.
 
 **Corpus on disk** (`data/fineweb/edu_fineweb100B/`):
+
 - 1407 train shards × 100M tokens + 1 val shard = **~140.7B tokens** (uint16 .npy, 263 GB)
 - Each shard from `prepare_fineweb.py` is `shard_size = 1e8` exactly
 
 **Training budget** (config `train_fineweb_gpt3.py:29`):
+
 - `max_iters = 19073` × 524,288 tokens/step ≈ **10.0B tokens**
 - The comment on that line literally says: `# ~10B tokens; bump toward ~190k for full 100B`
 

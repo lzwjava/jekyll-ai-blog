@@ -15,9 +15,8 @@ type: note
 ---
 
 ### **Admission Scores (2024 Reference)**
+
 Here are the approximate **minimum admission scores for 2024** in Guangdong Province for some programs:
-
-
 
 | Program Type          | Subject Requirements          | Minimum Score (2024) | Notes       |
 |-----------------------|--------------------------------|----------------------|-------------|
@@ -27,6 +26,7 @@ Here are the approximate **minimum admission scores for 2024** in Guangdong Prov
 | Non-Normal (History)  | History, Politics, Geography   | ~420 points          | Arts/Science|
 
 **Notes:**
+
 - Scores vary yearly based on exam difficulty and applicant numbers.
 - For 2025 admission scores, check the official website of **Guangdong University of Education** or the **Guangdong Provincial Education Examination Authority** after the 2025 Gaokao results are released.
 

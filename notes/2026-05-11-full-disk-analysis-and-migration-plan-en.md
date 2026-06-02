@@ -126,6 +126,7 @@ A couple of things in the answer you pasted aren't quite right for **this** mach
 ## What I'd do first
 
 Order of operations:
+
 1. Partition + mount the HDD (Step 1) — gets you 1.8 TB headroom immediately.
 2. Move `~/projects/zz/datasets/fineweb-edu` via symlink (Step 2) — unblocks the running download.
 3. Move HF cache (Step 3) — frees 69 GB on NVMe.

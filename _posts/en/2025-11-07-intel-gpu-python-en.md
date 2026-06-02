@@ -38,13 +38,13 @@ pip install scikit-learn-intelex
 python -c "import torch; import intel_extension_for_pytorch as ipex; print('XPU available:', torch.xpu.is_available() if hasattr(torch, 'xpu') else False)"
 ```
 
-## Key Points:
+## Key Points
 
 1. **Device naming**: Intel uses `xpu` instead of CUDA's `cuda` in PyTorch
 2. **Compatibility**: Your Intel UHD Graphics should work, but performance will be limited compared to discrete GPUs
 3. **Installation**: Intel Extension for PyTorch is the easiest way to get started
 
-## Quick Test:
+## Quick Test
 
 Save this simple test:
 

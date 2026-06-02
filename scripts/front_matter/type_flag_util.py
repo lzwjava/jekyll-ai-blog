@@ -11,7 +11,7 @@ def update_front_matter(file_path, post_type="post"):
         if not date_match:
             print(f"Could not extract date from filename: {filename}")
             return
-        file_date_str = date_match.group(1)
+        date_match.group(1)
 
         # Load the post using frontmatter library
         post = frontmatter.load(file_path)

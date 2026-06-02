@@ -20,6 +20,7 @@ Answer:
 
 1. **巨大的 CUPS log 文件**（目前为止最大的收益 —— 可能有 200–300 GB）
    这些**不在** `/usr` 中 —— 它们位于 `/var/log/cups/`。但既然你问到了 `/usr`，我还是将它们列为第一优先级：
+
    ```
    sudo rm -rf /mnt/root/var/log/cups/*
    # 或者只清空大文件：
@@ -31,6 +32,7 @@ Answer:
 2. **实际上位于 /usr 内部、通常可以安全删除或清理的大型项目**
 
    - 旧的缓存 .deb 软件包（在运行已久的系统中通常有 5–30 GB）
+
      ```
      sudo rm -rf /mnt/root/usr/share/doc/*               # 文档 —— 通常 1–5 GB，安全
      sudo rm -rf /mnt/root/var/cache/apt/archives/*.deb  # 已下载的包 —— 非常安全，需要时会重新下载
@@ -38,37 +40,45 @@ Answer:
      ```
 
    - Locale 数据（如果你只需要英语或少数几种语言）
+
      ```
      sudo rm -rf /mnt/root/usr/share/locale/{af,am,ar,as,az,be*,bg,bn*,bo*,br*,bs*,ca,cs,cy,da,de*,dz*,el,en_AU,en_CA,eo,es*,et*,eu*,fa*,fi,fr*,ga,gez*,gl*,gu*,haw,he*,hi*,hr,hu*,hy*,id*,is*,it*,ja*,ka*,kk*,km*,kn*,ko*,ku*,ky*,lo*,lt*,lv*,mg*,mi*,mk*,ml*,mn*,mr*,ms*,mt*,my*,nb*,ne*,nl*,nn*,no*,or*,pa*,pl,ps*,pt*,ro*,ru*,rw*,si*,sk*,sl*,sq*,sr*,sv*,sw*,ta*,te*,tg*,th*,ti*,tk*,tl*,tr*,tt*,uk*,ur*,uz*,vi*,wa*,xh*,yi*,yo*,zh*,zu*}
      ```
+
      （仅保留 en*, zh* 以及你使用的语言 —— 这可以释放 1–4 GB）
 
    - Man pages 和 info 文档（可以重新生成，通常 500 MB–2 GB）
+
      ```
      sudo rm -rf /mnt/root/usr/share/man/*
      sudo rm -rf /mnt/root/usr/share/info/*
      ```
 
    - 不需要的图标主题 / pixmaps（可能有 1–3 GB）
+
      ```
      sudo rm -rf /mnt/root/usr/share/icons/*             # 极端操作 —— 删除所有图标，仅在绝望时进行
      sudo rm -rf /mnt/root/usr/share/pixmaps/*
      ```
 
    - 旧内核（如果安装了许多 —— 请先检查）
+
      ```
      ls -lh /mnt/root/boot/vmlinuz* /mnt/root/boot/initrd.img*
      sudo rm -f /mnt/root/boot/vmlinuz-OLDVERSION /mnt/root/boot/initrd.img-OLDVERSION
      ```
+
      （只删除比当前版本旧的内核 —— 至少保留最新的一个 + 一个备份）
 
    - Snap 缓存 / 旧版本（如果使用了 snap —— 通常有几个 GB）
+
      ```
      sudo rm -rf /mnt/root/var/lib/snapd/cache/*
      sudo rm -rf /mnt/root/var/lib/snapd/snaps/*.old   # 旧的 snap 版本
      ```
 
    - Python / pip 缓存（有时很大）
+
      ```
      sudo rm -rf /mnt/root/usr/local/lib/python*/dist-packages/*/__pycache__/
      sudo rm -rf /mnt/root/root/.cache/pip/*

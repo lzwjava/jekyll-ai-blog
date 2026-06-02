@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Essentials for the Drive and Car Maintenance
+
 Since you're driving about 870 km (roughly 10 hours direct, but spread over 5 days with stops), prioritize safety and reliability. China's expressways (like the G15 Shenhai) have tolls, so bring cash or an ETC card. Check your car's condition before leaving Guangzhou.
 
 - Valid driver's license, vehicle registration, and insurance documents.
@@ -21,6 +22,7 @@ Since you're driving about 870 km (roughly 10 hours direct, but spread over 5 da
 - Full tank of gas from Guangzhou; refuel at service areas.
 
 ### Sleeping in the Car Gear
+
 Sleeping in your car in China is feasible at highway service areas (which have 24/7 parking, restrooms, and security), but avoid urban streets or remote spots for safety. July weather is hot and humid (highs 32-35°C, lows 24-27°C, with rain), so focus on ventilation and comfort. Park in well-lit areas, lock doors, and use shades for privacy.
 
 - Inflatable mattress or sleeping pad that fits your car's backseat/trunk.
@@ -31,6 +33,7 @@ Sleeping in your car in China is feasible at highway service areas (which have 2
 - Earplugs and eye mask for noise/light from service areas.
 
 ### Clothing and Personal Items
+
 Pack light, breathable items for the heat and humidity. Expect showers/thunderstorms daily (70-100% chance in the first few days), so quick-dry fabrics. Bring 5-7 days' worth, assuming laundry access isn't easy.
 
 - 5-7 pairs of underwear and socks (quick-dry).
@@ -44,6 +47,7 @@ Pack light, breathable items for the heat and humidity. Expect showers/thunderst
 - Lightweight jacket or hoodie for cooler evenings/AC in car.
 
 ### Food and Water
+
 Stock up in Guangzhou supermarkets (e.g., Walmart or local markets) for non-perishables. Service areas have hot food, but bring snacks for the road. Hydrate heavily—aim for 3-4 liters of water daily in the heat.
 
 - Reusable water bottles or jugs (5-10 liters total; refill at service areas).
@@ -54,6 +58,7 @@ Stock up in Guangzhou supermarkets (e.g., Walmart or local markets) for non-peri
 - Fruits, bread, or ready meals for the first day.
 
 ### Health, Hygiene, and First Aid
+
 Hygiene is key when sleeping in the car—use service area restrooms/showers. Mosquitoes and heat rash are risks in Fujian summers.
 
 - Toiletries: toothbrush, toothpaste, deodorant, shampoo, soap.
@@ -65,6 +70,7 @@ Hygiene is key when sleeping in the car—use service area restrooms/showers. Mo
 - Face masks and disinfectant wipes (for crowded stops).
 
 ### Navigation, Tech, and Entertainment
+
 Use apps like Baidu Maps or Gaode for real-time traffic (better than Google in China). Download offline maps.
 
 - Smartphone with charger, power bank (10,000mAh+), and car mount.
@@ -73,6 +79,7 @@ Use apps like Baidu Maps or Gaode for real-time traffic (better than Google in C
 - Portable Wi-Fi or extra SIM data for updates.
 
 ### Miscellaneous and Safety
+
 For a 5-day trip, plan stops like Chaozhou (temples), Xiamen (beaches), and Quanzhou (historical sites) to break the drive. Total distance allows 150-200 km/day. Check for typhoon warnings—July is peak season.
 
 - Multi-tool or Swiss Army knife.

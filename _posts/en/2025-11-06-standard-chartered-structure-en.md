@@ -15,6 +15,7 @@ type: note
 Standard Chartered Bank (SCB) organizes its operations into **three core business segments** and several **key support functions**. This structure supports its focus on international banking, particularly in Asia, Africa, and the Middle East. Below is an overview based on the bank's latest organizational framework (as of 2025):
 
 #### Core Business Segments
+
 These drive revenue and client-facing activities:
 
 | Segment | Description | Key Focus Areas |
@@ -24,6 +25,7 @@ These drive revenue and client-facing activities:
 | **Commercial Banking** | Supports mid-sized businesses with cross-border needs. | Sustainable finance, working capital solutions, and transaction banking in emerging markets. |
 
 #### Key Support Functions
+
 These enable the business segments through operational, regulatory, and strategic oversight:
 
 - **Operations & Technology**: Manages global transaction processing, IT infrastructure, cybersecurity, and digital transformation (including AI and blockchain initiatives).

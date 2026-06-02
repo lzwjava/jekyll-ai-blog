@@ -52,9 +52,9 @@ When moving files between disks on macOS, expect the **disk read/write subsystem
 
 **References:**
 
-- https://www.fireebok.com/resource/how-to-fix-disk-transfer-speed-slowly-on-macos-ventura.html
-- https://www.scoutapm.com/blog/understanding-disk-i-o-when-should-you-be-worried
-- https://www.netdata.cloud/academy/reduce-disk-io-bottlenecks/
-- https://iboysoft.com/questions/what-to-do-my-mac-preparing-to-copy-for-three-hours.html
-- https://www.ibeesoft.com/recover-mac/fix-usb-slow-transfer-speed-on-mac.html
-- https://www.designgurus.io/answers/detail/what-are-common-performance-bottlenecks-in-a-system-cpu-memory-io-database-and-how-can-you-identify-and-address-them
+- <https://www.fireebok.com/resource/how-to-fix-disk-transfer-speed-slowly-on-macos-ventura.html>
+- <https://www.scoutapm.com/blog/understanding-disk-i-o-when-should-you-be-worried>
+- <https://www.netdata.cloud/academy/reduce-disk-io-bottlenecks/>
+- <https://iboysoft.com/questions/what-to-do-my-mac-preparing-to-copy-for-three-hours.html>
+- <https://www.ibeesoft.com/recover-mac/fix-usb-slow-transfer-speed-on-mac.html>
+- <https://www.designgurus.io/answers/detail/what-are-common-performance-bottlenecks-in-a-system-cpu-memory-io-database-and-how-can-you-identify-and-address-them>

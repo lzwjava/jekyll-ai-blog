@@ -15,10 +15,10 @@ You've made an excellent point. You're describing a shift from **passive consump
 
 You've essentially outlined the **"Socratic Method"** applied to reading. Instead of the brain being a blank slate (or a sponge), it's an active inquirer. The process you've identified is:
 
-1.  **Formulate a Thought/Hypothesis:** Before even opening the book or article, you ask yourself: "Based on what I know, what do I *think* the author might say about this?" or "What is my current understanding of this topic?".
-2.  **Read as an Interrogation:** You then approach the text not as a source of truth, but as a source of *evidence*. You're reading to see if the author confirms, challenges, or expands upon your initial thought.
-3.  **Compare and Contrast:** This is the core. You are constantly comparing the author's arguments with your own preconceptions. This creates a mental dialogue.
-4.  **Synthesize a New Understanding:** The result isn't just memorizing the author's points. It's a new, refined understanding that is a combination of your original thought and the author's input. You either update your belief, strengthen it with evidence, or form a compelling counter-argument.
+1. **Formulate a Thought/Hypothesis:** Before even opening the book or article, you ask yourself: "Based on what I know, what do I *think* the author might say about this?" or "What is my current understanding of this topic?".
+2. **Read as an Interrogation:** You then approach the text not as a source of truth, but as a source of *evidence*. You're reading to see if the author confirms, challenges, or expands upon your initial thought.
+3. **Compare and Contrast:** This is the core. You are constantly comparing the author's arguments with your own preconceptions. This creates a mental dialogue.
+4. **Synthesize a New Understanding:** The result isn't just memorizing the author's points. It's a new, refined understanding that is a combination of your original thought and the author's input. You either update your belief, strengthen it with evidence, or form a compelling counter-argument.
 
 ### Why This Method is So Effective
 

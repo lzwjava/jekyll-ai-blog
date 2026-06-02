@@ -15,6 +15,7 @@ Here’s how to check if your Apple TV is powered on, especially when the indica
 ---
 
 ### 1. **Indicator Light Status (Varies by Model)**
+
 - **Apple TV 4K (1st and 2nd gen) and Apple TV HD (4th gen):**
   - **On/Standby:** The light is usually **white**, but it is very dim and can be hard to notice.
   - **Off:** The light is **off**.
@@ -26,6 +27,7 @@ Here’s how to check if your Apple TV is powered on, especially when the indica
 ---
 
 ### 2. **Other Ways to Check**
+
 - **Remote Feedback:**
   - Press the **Home** or **Menu** button on the remote. If the Apple TV is on, the screen should respond (e.g., display the home screen or wake up).
 - **HDMI Connection:**
@@ -37,6 +39,7 @@ Here’s how to check if your Apple TV is powered on, especially when the indica
 ---
 
 ### 3. **Restart Attempt**
+
 If you’re unsure, try **unplugging the power cord and plugging it back in**. Wait a few seconds to see if the light or screen changes.
 
 ---

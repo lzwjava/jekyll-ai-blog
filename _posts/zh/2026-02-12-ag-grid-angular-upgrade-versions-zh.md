@@ -17,6 +17,7 @@ Answer:
 AG Grid（包括 `ag-grid-community` 和 `ag-grid-angular`）遵循定期的发布周期，大约每 6 个月发布一个 Major 版本，并频繁发布 Minor/Patch 版本。截至 2026 年初，最新版本约为 **35.x**（例如 35.0.1 或 35.1.0），其中包括许多性能优化、新功能（如更好的 date/time 分组、tool panel 增强和 charting 更新）以及对现代 Angular 版本的持续支持。
 
 **ag-grid-angular** 包经历了显著的演变：
+
 - 较旧版本（≈ v23–v27）用于 Angular 9–11。
 - v28 前后发生了重大 Breaking changes（改进了 Ivy 支持，移除了旧版 wrappers）。
 - 从 v30 开始，停止了对极旧 Angular 版本的遗留支持。

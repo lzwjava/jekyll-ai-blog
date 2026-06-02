@@ -36,6 +36,7 @@ The TCP/IP model (also called the Internet protocol suite or DoD model) is a **4
 
 **Common mistake explanation**:
 Many people confuse the TCP/IP model with the OSI 7-layer model. In the OSI model:
+
 - Layer 1 = Physical
 - Layer 6 = Presentation
 - Layer 7 = Application

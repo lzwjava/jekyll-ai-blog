@@ -13,7 +13,9 @@ type: note
 您遇到的错误表明 `xdotool` 在从 X 服务器获取活动窗口信息时遇到问题。以下是几种诊断和获取更详细错误信息的方法：
 
 ## 1. 检查 X11 环境
+
 首先验证显示环境：
+
 ```bash
 echo $DISPLAY
 echo $XDG_SESSION_TYPE
@@ -22,12 +24,15 @@ echo $XDG_SESSION_TYPE
 如果您运行的是 Wayland 而非 X11，`xdotool` 将无法正常工作，因为它专为 X11 设计。
 
 ## 2. 使用详细模式
+
 尝试以更详细的输出运行 xdotool：
+
 ```bash
 xdotool --help  # 查看可用选项
 ```
 
 ## 3. 替代调试命令
+
 尝试以下命令收集更多信息：
 
 ```bash
@@ -46,7 +51,9 @@ xprop -root _NET_ACTIVE_WINDOW
 ```
 
 ## 4. 检查 X11 扩展
+
 错误可能与缺少 X11 扩展有关：
+
 ```bash
 # 检查可用扩展
 xdpyinfo | grep -i extension
@@ -56,13 +63,16 @@ xdpyinfo | grep -E "(XTEST|Extended-Visual-Information)"
 ```
 
 ## 5. 权限问题
+
 检查是否具有适当权限：
+
 ```bash
 # 检查是否可以访问显示
 xhost +local:
 ```
 
 ## 6. 替代工具
+
 如果 xdotool 持续失败，尝试以下替代方案：
 
 ```bash
@@ -78,7 +88,9 @@ xprop -root | grep "_NET_ACTIVE_WINDOW(WINDOW)"
 ```
 
 ## 7. 系统信息
+
 检查系统设置：
+
 ```bash
 # 检查桌面环境
 echo $DESKTOP_SESSION
@@ -89,6 +101,7 @@ systemd-detect-virt
 ```
 
 最可能的原因是：
+
 1. **Wayland 会话**：xdotool 不兼容 Wayland
 2. **缺少权限**：X 服务器访问限制
 3. **窗口管理器不兼容**：某些 WM 不支持 `_NET_ACTIVE_WINDOW`

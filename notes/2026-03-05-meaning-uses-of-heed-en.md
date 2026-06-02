@@ -15,7 +15,7 @@ Answer:
 
 **Heed** is a verb that means **to pay attention to something**, **to take notice of it**, or **to listen to and follow advice/warning**.
 
-### Main meanings and common uses:
+### Main meanings and common uses
 
 1. **To pay careful attention to** (most frequent modern use)
    - Heed the warning signs.
@@ -30,6 +30,7 @@ Answer:
    - He refused to heed the doctor's orders.
 
 ### Common phrases
+
 - **pay heed** = pay attention
   Example: Few people paid heed to the early climate warnings.
 - **take heed** = be careful / listen carefully
@@ -38,6 +39,7 @@ Answer:
   Example: He drove heedless of the danger.
 
 ### Quick comparison
+
 - Listen ≈ hear the sound
 - Heed ≈ listen + take it seriously + act accordingly
 

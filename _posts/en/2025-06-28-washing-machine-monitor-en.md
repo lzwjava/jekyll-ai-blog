@@ -13,7 +13,9 @@ To create a system that detects when your Maytag MHW8630HW washing machine stops
 ---
 
 ### Tech Stack
+
 #### Hardware
+
 1. **Arduino Board**:
    - **ESP32-CAM** (recommended) – Combines a microcontroller with a built-in OV2640 camera and Wi-Fi capability, perfect for image processing and Telegram integration.
    - Alternative: Arduino Uno + separate camera module (e.g., OV7670) and ESP8266 for Wi-Fi, but this is more complex to set up.
@@ -29,6 +31,7 @@ To create a system that detects when your Maytag MHW8630HW washing machine stops
    - For the ESP32-CAM to connect to the internet and communicate with the Telegram bot.
 
 #### Software
+
 1. **Arduino IDE**:
    - For programming the ESP32-CAM.
 2. **Libraries**:
@@ -45,9 +48,11 @@ To create a system that detects when your Maytag MHW8630HW washing machine stops
 ---
 
 ### Algorithm for Detecting Washing Machine Status
+
 Since the Maytag MHW8630HW has a panel light that indicates when the machine is on, you can use the camera to detect this light. The algorithm will process images to determine if the light is on or off, indicating the machine’s status.
 
 #### Detection Algorithm
+
 1. **Image Capture**:
    - Periodically capture images of the washing machine’s control panel using the ESP32-CAM.
 2. **Region of Interest (ROI) Selection**:
@@ -66,13 +71,16 @@ Since the Maytag MHW8630HW has a panel light that indicates when the machine is 
    - When the machine is confirmed stopped, send a Telegram message (e.g., “Washing machine stopped! Time to hang up clothes.”).
 
 #### Why Not Use More Complex Algorithms?
+
 - Advanced algorithms like machine learning (e.g., CNNs for object detection) are overkill for this task and resource-intensive for the ESP32-CAM’s limited processing power.
 - Simple thresholding is sufficient since the panel light is a clear binary indicator (ON/OFF).
 
 ---
 
 ### Implementation Guide
+
 #### Step 1: Set Up the Telegram Bot
+
 1. **Create a Telegram Bot**:
    - Open Telegram, search for **@BotFather**, and start a chat.
    - Send `/newbot`, name your bot (e.g., “WasherBot”), and get the **Bot Token**.
@@ -81,6 +89,7 @@ Since the Maytag MHW8630HW has a panel light that indicates when the machine is 
    - Ensure you can receive messages from your bot.
 
 #### Step 2: Hardware Setup
+
 1. **Position the ESP32-CAM**:
    - Mount the ESP32-CAM in a small enclosure or with adhesive tape, facing the washing machine’s control panel.
    - Ensure the camera has a clear view of the panel light (test with a sample photo).
@@ -92,13 +101,16 @@ Since the Maytag MHW8630HW has a panel light that indicates when the machine is 
    - If using a photoresistor, connect it to an analog pin on the ESP32-CAM (e.g., GPIO 4) with a voltage divider circuit (e.g., 10kΩ resistor to ground).
 
 #### Step 3: Software Setup
+
 1. **Install Arduino IDE**:
    - Download and install the Arduino IDE from [arduino.cc](https://www.arduino.cc/en/software).
 2. **Add ESP32 Board Support**:
    - In Arduino IDE, go to **File > Preferences**, add the following URL to Additional Boards Manager URLs:
+
      ```
      https://raw.githubusercontent.com/espressif/arduino-esp32/master/package_esp32_index.json
      ```
+
    - Go to **Tools > Board > Boards Manager**, search for “ESP32,” and install the ESP32 package.
 3. **Install Libraries**:
    - Install **Universal Arduino Telegram Bot Library**:
@@ -109,6 +121,7 @@ Since the Maytag MHW8630HW has a panel light that indicates when the machine is 
    - Ensure your ESP32-CAM can connect to your home Wi-Fi network (2.4GHz, as 5GHz is not supported).
 
 #### Step 4: Write the Arduino Code
+
 Below is a sample Arduino sketch for the ESP32-CAM to detect the panel light and send Telegram notifications. This code assumes you’ve identified the ROI coordinates for the panel light.
 
 ```cpp
@@ -246,6 +259,7 @@ void loop() {
 ```
 
 #### Step 5: Customize the Code
+
 1. **Update Credentials**:
    - Replace `your_wifi_ssid`, `your_wifi_password`, `your_bot_token`, and `your_chat_id` with your actual values.
 2. **Tune ROI and Threshold**:
@@ -256,6 +270,7 @@ void loop() {
    - Set to 300000 (5 minutes) to avoid false notifications during cycle pauses.
 
 #### Step 6: Test and Deploy
+
 1. **Upload the Code**:
    - Connect the ESP32-CAM to your computer via a USB-to-serial adapter (e.g., FTDI module).
    - Select **ESP32 Wrover Module** in Arduino IDE and upload the sketch.
@@ -270,9 +285,12 @@ void loop() {
 ---
 
 ### Alternative Approach: Light Sensor
+
 If camera-based detection is too complex or unreliable (e.g., due to ambient light), use a photoresistor:
+
 - **Setup**: Attach a photoresistor to the panel light (e.g., with tape) and connect it to an analog pin.
 - **Code Modification**: Replace image processing with analog readings:
+
   ```cpp
   int lightValue = analogRead(A0); // Photoresistor on GPIO 4
   if (lightValue > 500) { // Adjust threshold
@@ -283,12 +301,14 @@ If camera-based detection is too complex or unreliable (e.g., due to ambient lig
     bot.sendMessage(CHAT_ID, "Washing machine stopped! Time to hang up clothes.", "");
   }
   ```
+
 - **Pros**: Simpler, less resource-intensive.
 - **Cons**: Requires physical attachment to the light, less flexible.
 
 ---
 
 ### Notes
+
 - **Power Consumption**: The ESP32-CAM consumes significant power when using the camera and Wi-Fi. Ensure a reliable power source.
 - **Ambient Light**: Camera-based detection may be affected by room lighting. Test in various conditions or use a light sensor for robustness.
 - **Security**: The sample code uses `setInsecure()` for simplicity. For production, configure proper SSL certificates for Telegram communication.
@@ -297,6 +317,7 @@ If camera-based detection is too complex or unreliable (e.g., due to ambient lig
 ---
 
 ### Troubleshooting
+
 - **Camera Fails to Initialize**: Check wiring, ensure sufficient power, and verify camera configuration.
 - **Wi-Fi Connection Issues**: Confirm 2.4GHz Wi-Fi and correct credentials.
 - **No Telegram Messages**: Verify bot token and chat ID, check Serial Monitor for errors.

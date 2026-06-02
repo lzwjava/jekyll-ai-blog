@@ -33,6 +33,7 @@ This is a sharp extension of the philosophy. With LLMs, the same calibration cha
 ## Why LLMs Need Less Than You Think
 
 LLMs like Claude have already internalized:
+
 - Coding best practices, design patterns, languages
 - Writing styles, formats, genres
 - Domain knowledge across medicine, law, science, engineering
@@ -47,11 +48,13 @@ So when you write a prompt, you are **not filling an empty vessel** — you are 
 Claude Code is an agentic coding tool. The "barely enough" prompt principle here means:
 
 **Tell it:**
+
 - What the goal is
 - Key constraints or non-obvious context
 - What "done" looks like (if not obvious)
 
 **Don't tell it:**
+
 - How to write every function
 - Which libraries exist (it knows)
 - Step-by-step instructions for standard tasks

@@ -19,6 +19,7 @@ In a corporate GitHub Enterprise environment (especially GitHub Enterprise Cloud
 Here are the most effective layers used by large organizations in 2026:
 
 ### 1. GitHub Native Push Protection (Strongly Recommended – Primary Control)
+
 GitHub Enterprise supports **secret scanning push protection** — it actively blocks pushes containing detected secrets **before** they reach the remote repository.
 
 - Enable **secret scanning** + **push protection** at organization level (or for high-risk repositories).
@@ -34,6 +35,7 @@ GitHub Enterprise supports **secret scanning push protection** — it actively b
 This is the strongest control because it is enforced server-side and catches mistakes even when developers bypass local hooks.
 
 ### 2. .gitignore Patterns (Quick & Universal First Layer)
+
 Add these patterns to global/company `.gitignore` templates or enforce via repository templates:
 
 ```gitignore
@@ -63,6 +65,7 @@ credentials.json
 Tip: Also commit `.env.example` or `config.example.yaml` with fake values.
 
 ### 3. Local Pre-Commit / Pre-Push Hooks (Catches Before Even Staging)
+
 Enforce hooks across the company via:
 
 - **pre-commit** framework (most popular in 2025–2026)
@@ -80,11 +83,13 @@ Example company policy:
 Mandate `pre-commit install` in developer onboarding + provide a shared `.pre-commit-config.yaml`.
 
 ### 4. Server-Side Pre-Receive Hooks (GitHub Enterprise Server only)
+
 If using **GitHub Enterprise Server**, admins can deploy global or per-repo **pre-receive hooks** that reject pushes containing forbidden patterns (including `.pem` files or PEM content).
 
 This is very strong but requires scripting and maintenance.
 
 ### 5. CI/CD Secret Scanning as Second Gate
+
 Even if something slips through:
 
 - Run **Gitleaks**, **TruffleHog**, **GitGuardian**, **GitHub secret scanning alerts** in every PR / push CI job.
@@ -101,6 +106,7 @@ Even if something slips through:
 | Pre-receive hook       | Server-side       | No                     | Yes          | High                | Customizable              |
 
 **Ideal realistic stack in large enterprises:**
+
 1. GitHub secret scanning + push protection (org level)
 2. Mandatory pre-commit with gitleaks / detect-secrets
 3. .gitignore + repository templates

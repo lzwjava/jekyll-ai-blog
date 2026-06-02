@@ -24,6 +24,7 @@ Channel bandwidth (H) = 3 KHz means the channel can transmit signals over a freq
 Bandwidth (H) = f_max - f_min
 
 In this case:
+
 - The frequency span available for signal transmission is 3,000 Hz
 - If the channel starts at frequency f_min and ends at f_max, the difference equals 3 KHz
 
@@ -42,6 +43,7 @@ In this case:
 In the context of the Nyquist theorem problem you presented earlier, the 3 KHz bandwidth is used to calculate the maximum symbol rate (6 kilobaud = 2 × 3 KHz), which then determines the maximum data transmission rate when combined with the number of signal levels available.
 
 **Example Applications:**
+
 - Telephone voice channels typically use approximately 3-4 KHz bandwidth
 - Historical data communication systems operated within similar bandwidth constraints
 - Modern systems often use much wider bandwidths (MHz or GHz range) for higher data rates

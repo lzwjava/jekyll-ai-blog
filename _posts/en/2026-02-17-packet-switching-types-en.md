@@ -23,7 +23,8 @@ In packet switching networks, there are **two main types of packet switching**:
    - Packets are delivered in order.
    - Suitable for connection-oriented communication (e.g., ATM networks).
 
-### Key Difference:
+### Key Difference
+
 - **Datagram**: No fixed path, packets are routed independently.
 - **Virtual Circuit**: Fixed path, packets follow the same route, ensuring ordered delivery.
 

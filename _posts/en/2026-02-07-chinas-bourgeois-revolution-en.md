@@ -16,7 +16,7 @@ Answer:
 
 The nature of modern Chinese society and its principal contradictions determined that the Chinese revolution was a **bourgeois-democratic revolution**.
 
-### Detailed Explanation:
+### Detailed Explanation
 
 1. **Nature of Modern Chinese Society** (1840–1949)
    After the Opium War in 1840, China gradually transformed from a feudal society into a **semi-colonial and semi-feudal society**.

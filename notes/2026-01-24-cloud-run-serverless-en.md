@@ -17,6 +17,7 @@ Answer:
 Cloud Run is Google Cloud's **fully managed serverless platform** for running containerized applications (or simple code/functions) without managing any underlying servers or clusters.
 
 ### Core Idea in One Sentence
+
 You give Cloud Run a container image (Docker), and it automatically handles:
 
 - Receiving HTTP requests (or events)

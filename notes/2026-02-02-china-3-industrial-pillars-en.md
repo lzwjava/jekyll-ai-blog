@@ -17,6 +17,7 @@ I'll give you a comprehensive introduction to these three sectors and their dist
 Heavy industry focuses on producing capital goods and industrial materials. In China, this includes:
 
 **Key sectors:**
+
 - Steel and metallurgy (China is the world's largest steel producer)
 - Machinery and equipment manufacturing
 - Shipbuilding
@@ -26,6 +27,7 @@ Heavy industry focuses on producing capital goods and industrial materials. In C
 - Construction materials (cement, glass)
 
 **Characteristics:**
+
 - Requires massive capital investment
 - Uses large amounts of raw materials and energy
 - Produces goods primarily for other industries, not consumers
@@ -39,6 +41,7 @@ Heavy industry focuses on producing capital goods and industrial materials. In C
 Light industry produces consumer goods and non-durable products. In China, this encompasses:
 
 **Key sectors:**
+
 - Textiles and garments (China is the "world's factory" for clothing)
 - Food processing
 - Electronics and appliances
@@ -48,6 +51,7 @@ Light industry produces consumer goods and non-durable products. In China, this 
 - Daily necessities (soap, detergent, cosmetics)
 
 **Characteristics:**
+
 - Lower capital requirements than heavy industry
 - Shorter production cycles
 - Produces goods mainly for direct consumption
@@ -61,6 +65,7 @@ Light industry produces consumer goods and non-durable products. In China, this 
 Agriculture involves cultivating crops and raising livestock. In China:
 
 **Key components:**
+
 - Grain production (rice, wheat, corn)
 - Cash crops (cotton, tea, fruits, vegetables)
 - Livestock farming (pigs, poultry, cattle)
@@ -68,6 +73,7 @@ Agriculture involves cultivating crops and raising livestock. In China:
 - Forestry
 
 **Characteristics:**
+
 - Dependent on land, climate, and seasonal cycles
 - In China, characterized by small household plots (due to land distribution policies)
 - Increasing mechanization but still labor-intensive in many areas
@@ -78,26 +84,31 @@ Agriculture involves cultivating crops and raising livestock. In China:
 ## Key Differences in the Chinese Context
 
 **Economic role:**
+
 - Heavy industry: Foundation for industrialization, national defense
 - Light industry: Export earnings, consumer satisfaction, employment
 - Agriculture: Food security, rural stability, peasant livelihoods
 
 **Policy treatment:**
+
 - Heavy industry historically received preferential state investment
 - Light industry benefited from market reforms and foreign investment
 - Agriculture receives protection through subsidies but faces urbanization pressures
 
 **Regional distribution:**
+
 - Heavy industry: Northeast (rust belt), inland cities
 - Light industry: Coastal provinces, Pearl River Delta, Yangtze River Delta
 - Agriculture: Spread across rural areas, with regional specialization (Northeast for grain, South for rice)
 
 **Labor dynamics:**
+
 - Heavy industry: Skilled workers, often unionized in SOEs
 - Light industry: Employed hundreds of millions of migrant workers
 - Agriculture: Aging workforce as young people migrate to cities
 
 **Current challenges:**
+
 - Heavy industry: Overcapacity, pollution, transition to green technology
 - Light industry: Rising labor costs, moving up value chain
 - Agriculture: Land fragmentation, rural-urban income gap, modernization needs

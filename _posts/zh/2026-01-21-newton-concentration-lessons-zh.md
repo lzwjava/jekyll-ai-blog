@@ -49,7 +49,9 @@ Sir Isaac Newton 在其一生中展现了**非凡的 focus 和 concentration**�
    **Application today**: 保护精力最充沛的时段（通常是早晨）用于高价值工作。将 email 和会议集中处理（batching）。对低优先级请求学会拒绝。
 
 ### Realistic Modern Summary
+
 Newton 的 focus 是超人类的 —— 每天工作 18 小时和忘记吃饭并不值得提倡。相反，应选择性地借鉴：
+
 - 建立 **rituals**（每天相同的时间/地点）
 - 积极消除 **distractions**
 - 像锻炼肌肉一样训练 **sustained attention**

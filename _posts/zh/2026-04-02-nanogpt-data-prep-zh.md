@@ -16,6 +16,7 @@ type: note
 您正在经历**两个不同的阶段**的数据准备：
 
 ### 阶段 1：Raw → Tokenized Shards（完成）
+
 ```
 Raw text (60GB) → Tokenized .npy shards (28GB)
 ├── 149 training shards
@@ -24,6 +25,7 @@ Raw text (60GB) → Tokenized .npy shards (28GB)
 ```
 
 ### 阶段 2：.npy → .bin 转换（进行中）
+
 ```
 Tokenized .npy (28GB) → .bin format for nanoGPT
 └── Concatenates all shards into single binary file(s)
@@ -48,6 +50,7 @@ Tokenized .npy (28GB) → .bin format for nanoGPT
 ```
 
 **压缩比率**：约 2.14× (60/28)
+
 - 文本分词的正常现象
 - BPE tokens 平均每个 ~0.6-0.8 字节
 - 您的计算：48B tokens × 0.58 字节 = 27.8GB ✓
@@ -55,6 +58,7 @@ Tokenized .npy (28GB) → .bin format for nanoGPT
 ## 剩余工作
 
 从您的日志来看，您正在将 `.npy` 转换为 `.bin`：
+
 ```python
 # The script you're running likely does:
 for shard in 150_files:
@@ -63,6 +67,7 @@ for shard in 150_files:
 ```
 
 ## 预期最终输出
+
 - **一个或两个 `.bin` 文件**：
   - `train.bin` (~27-28GB)
   - `val.bin` (~0.2-0.3GB)
@@ -70,6 +75,7 @@ for shard in 150_files:
 - 无数据丢失 — 只是格式优化
 
 ## 快速验证
+
 ```bash
 # Check original raw size
 du -sh /raw/data/path/

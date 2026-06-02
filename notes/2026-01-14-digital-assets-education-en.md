@@ -19,23 +19,28 @@ Yes, you're describing one of the most fundamental transformations brought by th
 Here are the key ways this has changed education, knowledge sharing, and content creation:
 
 ### 1. **Once-created content becomes nearly immortal and compounds in value**
+
 - A good lecture video, blog post, or tutorial created in 2010 can still get tens of thousands of views in 2026 — sometimes more views than when it was new.
 - Unlike a live class that disappears after the hour ends, digital content keeps working 24/7 for decades.
 - The best content tends to rise over time through search engines, recommendations, Reddit/Hacker News mentions, links from new articles, etc. → long-tail compounding effect.
 
 ### 2. **Dramatic reduction in duplicated human effort**
+
 - Before ~2005–2010        : Every high-school physics teacher in the world had to personally explain Newton's laws ~every year.
 - After YouTube + Khan Academy + Coursera + Wikipedia + thousands of personal creators: one excellent explanation can serve millions of people forever.
 - This is probably the largest productivity gain in teaching since the invention of the printing press.
 
 ### 3. **Economic and incentive changes**
+
 - Top creators/teachers can now reach global scale → earn through ads, sponsorships, memberships, courses, donations (Patreon, Buy Me a Coffee, etc.).
 - This creates strong incentives to produce **very high-quality, timeless** content instead of just "good enough for this semester".
 - → We see more polished, well-edited, beautifully animated educational content than ever before.
 
 ### 4. **But it's not all automatic — discoverability & quality matters**
+
 Even though great content lasts forever, most new videos still get almost no views.
 The winners are usually:
+
 - exceptionally clear explanations
 - unusually good visuals / animations
 - memorable titles & thumbnails
@@ -43,6 +48,7 @@ The winners are usually:
 - or content attached to a strong personal brand / community
 
 ### 5. **What still needs live/repeated human effort (2026 reality)**
+
 - Motivation & emotional support
 - Answering very specific, idiosyncratic student questions
 - Project feedback & debugging code / designs

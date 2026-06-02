@@ -14,6 +14,7 @@ That's a big job, Boss. CI3 → CI4 is a **complete rewrite** — the directory 
 Let me give you the full picture of what needs to happen:
 
 **Core changes:**
+
 - `application/` → `app/`, `system/` → removed (Composer package now)
 - `Controllers` extend `BaseController` instead of `CI_Controller`
 - `Models` extend `Model` instead of `CI_Model`
@@ -26,6 +27,7 @@ Let me give you the full picture of what needs to happen:
 - Composer required (no more manual library copies)
 
 **What's actually broken on PHP 8.5:**
+
 - CI3 was designed for PHP 5.6-7.x, many mysql functions removed in 8.x
 - `mysql_*` functions replaced by `mysqli_*` in several places
 - Deprecated features throughout

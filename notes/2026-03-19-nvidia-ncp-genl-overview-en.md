@@ -108,6 +108,7 @@ type: note
 **Key concepts you must know:**
 
 **Quantization:**
+
 - **INT8 quantization** — reducing weights from FP32/FP16 to INT8; 2× memory reduction with minimal accuracy loss
 - **INT4 quantization** — 4-bit weights; aggressive compression for edge/consumer GPU deployment
 - **GPTQ** — post-training quantization using second-order weight updates; most common for LLM deployment
@@ -115,6 +116,7 @@ type: note
 - **Quantization-aware training (QAT)** vs **post-training quantization (PTQ)**
 
 **Inference Optimization:**
+
 - **TensorRT-LLM** — NVIDIA's open-source library for optimizing LLM inference; kernel fusion, in-flight batching, paged attention
 - **Paged Attention (vLLM)** — memory management for KV cache using virtual memory paging; dramatically increases throughput by reducing KV cache fragmentation
 - **Continuous batching** — also called in-flight batching; allows new requests to join mid-generation, unlike static batching
@@ -123,6 +125,7 @@ type: note
 - **Model pruning** — structured vs unstructured pruning; removing redundant weights or attention heads
 
 **Serving Infrastructure:**
+
 - **NVIDIA Triton Inference Server** — multi-framework model serving (TensorRT, PyTorch, ONNX, vLLM backends); dynamic batching, ensemble pipelines, model versioning
 - **Kubernetes orchestration** — horizontal scaling with NVIDIA GPU Operator; managing GPU node pools; autoscaling inference pods
 - **ONNX** — Open Neural Network Exchange format; framework-agnostic model export for deployment
@@ -138,25 +141,30 @@ type: note
 **Key concepts you must know:**
 
 **Full Fine-Tuning:**
+
 - All model weights updated; requires same GPU memory as pretraining; risk of catastrophic forgetting
 
 **Parameter-Efficient Fine-Tuning (PEFT):**
+
 - **LoRA (Low-Rank Adaptation)** — inserting low-rank matrices A and B into attention layers; only A and B are trained (typically <1% of parameters); merged into base weights at inference time; rank r controls capacity
 - **QLoRA** — LoRA applied on top of a 4-bit quantized base model; enables fine-tuning 65B models on a single 48GB GPU
 - **Adapters** — small bottleneck layers inserted between transformer layers; only adapters trained
 - **Prefix tuning / Prompt tuning** — prepending trainable virtual tokens to the input; no weight modification
 
 **Instruction Tuning:**
+
 - Supervised Fine-Tuning (SFT) on (instruction, response) pairs; teaches the model to follow instructions
 - **RLHF (Reinforcement Learning from Human Feedback)** — SFT → Reward Model training → PPO optimization; how ChatGPT-style alignment works
 - **DPO (Direct Preference Optimization)** — simpler alternative to RLHF; trains directly on preference pairs without a separate reward model
 
 **Training Hyperparameters:**
+
 - Learning rate scheduling (warmup + cosine decay); typical fine-tuning LR: 1e-5 to 3e-4
 - Gradient accumulation — simulating large batch sizes on limited GPU memory
 - Gradient checkpointing — trading compute for memory by recomputing activations during backward pass
 
 **NVIDIA Tools:**
+
 - **NeMo Framework** — NVIDIA's toolkit for LLM training and fine-tuning; supports LoRA, SFT, RLHF on multi-GPU clusters
 - **NVIDIA NeMo Curator** — data pipeline tooling for preparing fine-tuning datasets
 
@@ -171,6 +179,7 @@ type: note
 **Key concepts you must know:**
 
 **Automatic Metrics:**
+
 - **Perplexity** — how surprised the model is by test data; lower = better; used for language model quality
 - **BLEU score** — n-gram overlap between generated and reference text; used in translation tasks
 - **ROUGE** — recall-oriented overlap; ROUGE-1, ROUGE-2, ROUGE-L; used in summarization
@@ -178,6 +187,7 @@ type: note
 - **Exact Match (EM) / F1** — for QA tasks (SQuAD benchmarks)
 
 **Benchmarks:**
+
 - **MMLU** — Massive Multitask Language Understanding; 57 academic subjects; tests general knowledge
 - **HellaSwag** — commonsense reasoning
 - **HumanEval** — code generation evaluation (pass@k metric)
@@ -185,11 +195,13 @@ type: note
 - **TruthfulQA** — measures tendency to hallucinate on common misconceptions
 
 **Evaluation Framework Design:**
+
 - Held-out test sets; contamination detection (train/test overlap); statistical significance testing
 - **LLM-as-judge** — using a strong model to score outputs; cost-effective for open-ended tasks
 - **Human evaluation** — gold standard but expensive; A/B preference testing; rubric-based scoring
 
 **Error Analysis:**
+
 - Hallucination detection and categorization (factual, faithfulness, attributable)
 - Failure mode taxonomy: repetition, refusal, instruction-following failures
 
@@ -204,12 +216,14 @@ type: note
 **Key concepts you must know:**
 
 **GPU Memory Architecture:**
+
 - HBM (High Bandwidth Memory) on A100/H100 vs VRAM on consumer GPUs
 - **Memory bandwidth vs compute** — LLM inference is typically memory-bandwidth bound, not compute bound
 - **NVLink / NVSwitch** — high-bandwidth GPU-to-GPU interconnect; critical for tensor parallelism
 - A100 SXM (80GB HBM2e, 2TB/s bandwidth) vs H100 SXM (80GB HBM3, 3.35TB/s bandwidth)
 
 **Parallelism Strategies:**
+
 - **Data Parallelism (DP)** — replicate model on each GPU, split batch; gradient sync via AllReduce; works when model fits in single GPU
 - **Tensor Parallelism (TP)** — split individual weight matrices across GPUs; requires NVLink for efficiency; Megatron-style column/row splitting
 - **Pipeline Parallelism (PP)** — split transformer layers across GPUs (stages); micro-batching to hide bubble overhead; GPipe vs 1F1B schedule
@@ -217,11 +231,13 @@ type: note
 - **3D Parallelism** — combining DP + TP + PP; used by Megatron-DeepSpeed for 100B+ models
 
 **Optimization Libraries:**
+
 - **DeepSpeed ZeRO** — Zero Redundancy Optimizer; ZeRO-1 (optimizer state sharding), ZeRO-2 (+gradient sharding), ZeRO-3 (+parameter sharding); enables training massive models
 - **FSDP (Fully Sharded Data Parallel)** — PyTorch native equivalent to ZeRO-3
 - **NVIDIA Nsight Systems / Nsight Compute** — GPU profiling tools; identifying compute bottlenecks, memory bottlenecks, kernel inefficiencies
 
 **Mixed Precision Training:**
+
 - **BF16 / FP16** — 2× memory reduction vs FP32; BF16 preferred for training stability (wider exponent range)
 - **Automatic Mixed Precision (AMP)** — maintain FP32 master weights, compute in FP16/BF16; gradient scaling to prevent underflow
 

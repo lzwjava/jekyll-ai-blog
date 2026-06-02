@@ -49,6 +49,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们与消费主义、个人主义和自助式自尊等主流文化观念相冲突。然而，它们不断出现在那些几十年后将自己的生活描述为极度充实而非仅仅愉悦的人的真实生活中。
 
 参考文献：
+
 - [Parenthood and Happiness: A Review of Folk Theories Versus Empirical Evidence](https://www.jstor.org/stable/25760293)
 - [High income improves evaluation of life but not emotional well-being](https://www.pnas.org/doi/10.1073/pnas.1011492107)
 - [The Power of Ritual – Casper ter Kuile (on secular substitutes for religion)](https://casperterkuile.com/book)

@@ -32,6 +32,7 @@ type: note
   SESSION_EXPIRY=1000 * 60 * 60 * 24       # 24小时
   REFRESH_TOKEN_EXPIRY=(1000 * 60 * 60 * 24) * 30  # 30天
   ```
+
 * 修改环境变量后重启容器
   这样可保持登录状态数天/数周，同时修复 cookie 丢失问题。（[GitHub][2]）
 
@@ -44,6 +45,7 @@ type: note
     api:
       command: npm run backend:dev
   ```
+
 * 执行 `docker compose up -d` 应用更改
   此方案安全性较低（cookie 不启用 `secure` 标志），但能解决普通 HTTP 协议下的强制重新登录问题。（[librechat.ai][3]）
 

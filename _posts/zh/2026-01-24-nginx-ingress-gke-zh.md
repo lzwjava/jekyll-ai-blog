@@ -19,6 +19,7 @@ Answer:
 ### 什么是 Kubernetes 中的 Ingress？
 
 **Ingress** 是一个 Kubernetes API 对象，用于管理集群内服务的外部访问（主要是 HTTP 和 HTTPS）。它提供：
+
 - Load balancing
 - SSL/TLS termination
 - 基于名称的 Virtual hosting
@@ -54,6 +55,7 @@ Answer:
   `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.x/deploy/static/provider/cloud/deploy.yaml`
 
 - **Helm** (非常流行)
+
   ```bash
   helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
   helm repo update

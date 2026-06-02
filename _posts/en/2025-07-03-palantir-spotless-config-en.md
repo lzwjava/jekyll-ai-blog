@@ -85,6 +85,7 @@ Here’s a breakdown of the key configuration options for the `java` section in 
 - **`<order>`**: Specifies the order of import groups, separated by commas. Use `\\#` for static imports and an empty string (`""`) for unspecified imports. Example: `<order>java,javax,org,com,\\#</order>` sorts imports starting with `java`, then `javax`, etc., with static imports last.[](https://stackoverflow.com/questions/71339562/spotless-java-google-format-vs-intellij-import-file)
 - **`<file>`**: Alternatively, specify a file containing the import order. Example: `<file>${project.basedir}/eclipse.importorder</file>`. The file format matches Eclipse’s import order configuration (e.g., `java|javax|org|com|\\#`).[](https://stackoverflow.com/questions/71339562/spotless-java-google-format-vs-intellij-import-file)
   - Example file content:
+
     ```
     #sort
     java
@@ -103,11 +104,13 @@ Here’s a breakdown of the key configuration options for the `java` section in 
 - **`<endWithNewline>`**: Ensures files end with a newline. Example: `<endWithNewline/>`.[](https://dev.to/ankityadav33/standardize-code-formatting-with-spotless-2bdh)
 - **`<toggleOffOn>`**: Enables `// spotless:off` and `// spotless:on` comments to exclude sections of code from formatting. Example: `<toggleOffOn/>`.[](https://dev.to/ankityadav33/standardize-code-formatting-with-spotless-2bdh)
 - **`<licenseHeader>`**: Adds a license header to files. Example:
+
   ```xml
   <licenseHeader>
       <content>/* (C) $YEAR */</content>
   </licenseHeader>
   ```
+
   You can also use a file: `<file>${project.basedir}/license.txt</file>`.[](https://www.baeldung.com/java-maven-spotless-plugin)
 - **`<formatAnnotations>`**: Ensures type annotations are on the same line as the fields they describe. Example: `<formatAnnotations/>`.[](https://www.baeldung.com/java-maven-spotless-plugin)
 - **`<ratchetFrom>`**: Limits formatting to files changed relative to a Git branch (e.g., `origin/main`). Example: `<ratchetFrom>origin/main</ratchetFrom>`.[](https://github.com/diffplug/spotless/blob/main/plugin-maven/README.md)
@@ -115,6 +118,7 @@ Here’s a breakdown of the key configuration options for the `java` section in 
 #### 5. **POM-Specific Formatting (`<pom>`)**
 
 To format the `pom.xml` file itself, use the `<pom>` section with `sortPom`:
+
 ```xml
 <pom>
     <sortPom>
@@ -126,6 +130,7 @@ To format the `pom.xml` file itself, use the `<pom>` section with `sortPom`:
     </sortPom>
 </pom>
 ```
+
 - **Options for `sortPom`**:
   - `<nrOfIndentSpace>`: Number of spaces for indentation (e.g., `2` or `4`).
   - `<predefinedSortOrder>`: Options like `recommended_2008_06` or `custom_1` for element order.[](https://github.com/diffplug/spotless/blob/main/plugin-gradle/README.md)
@@ -144,12 +149,15 @@ To format the `pom.xml` file itself, use the `<pom>` section with `sortPom`:
 - **Consistency with IDE**: To align IntelliJ or Eclipse with Spotless, install the `palantir-java-format` IntelliJ plugin or use an Eclipse formatter XML file. For IntelliJ, import a compatible style file (e.g., `intellij-java-google-style.xml` for Google style) or configure manually to match Palantir settings.[](https://plugins.jetbrains.com/plugin/13180-palantir-java-format)
 - **Version Compatibility**: Ensure the `palantir-java-format` version supports your Java version. For Java 17+, use a recent version (e.g., 2.53.0). Some features like pattern matching may have limited support.[](https://www.reddit.com/r/java/comments/1g8zu8c/codestyle_and_formatters/)
 - **Custom Formatting**: For advanced customization, use an Eclipse formatter XML file with `<eclipse>` instead of `<palantirJavaFormat>`:
+
   ```xml
   <eclipse>
       <file>${project.basedir}/custom-style.xml</file>
   </eclipse>
   ```
+
   Example `custom-style.xml`:
+
   ```xml
   <?xml version="1.0" encoding="utf-8"?>
   <profiles version="21">
@@ -160,6 +168,7 @@ To format the `pom.xml` file itself, use the `<pom>` section with `sortPom`:
       </profile>
   </profiles>
   ```
+
   [](https://www.baeldung.com/java-maven-spotless-plugin)
 - **Limitations**: Palantir Java Format is less configurable than Eclipse’s formatter but is designed for consistency and modern Java features (e.g., lambdas). It may not handle all edge cases (e.g., deeply nested lambdas).[](https://www.reddit.com/r/java/comments/18z151f/strict_code_formatter/)
 

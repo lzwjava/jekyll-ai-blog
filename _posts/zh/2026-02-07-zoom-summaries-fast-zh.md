@@ -17,6 +17,7 @@ type: note
 ### **Strategy 1: Use Zoom's Meeting Summary Feature**
 
 会议结束后：
+
 - Zoom AI Companion 会自动生成完整的 meeting summary
 - 通过 Zoom Web Portal，在 "Meetings" → "Recorded" 标签页下访问它
 - 下载 summary 和 transcript
@@ -25,6 +26,7 @@ type: note
 ### **Strategy 2: Incremental Extraction During Meeting**
 
 会议期间，每隔 5 分钟逐步提问：
+
 - "Summarize minutes 0-5 without names"
 - "Summarize minutes 5-10 without names"
 - "Summarize minutes 10-15 without names"
@@ -44,6 +46,7 @@ type: note
 ### **Strategy 4: Third-Party Tools**
 
 考虑与 Zoom 集成的第三方工具：
+
 - **Otter.ai** - 带有 timestamps 的实时 transcription
 - **Fathom** - AI meeting notes
 - **Fireflies.ai** - 分段录制并汇总

@@ -125,6 +125,7 @@ type: note
 ---
 
 **Study Tips for Guangdong Self-Study Examination:**
+
 - Focus on understanding the historical context of each theoretical development
 - Master the transitions between different leadership periods
 - Understand how each theory builds upon and develops previous ones

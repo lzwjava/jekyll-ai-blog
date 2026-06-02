@@ -22,24 +22,30 @@ oMLX 是一个基于 MLX 构建的原生 macOS 推理服务器，专为 Apple Si
 oMLX 与 Ollama 和 LM Studio 等替代方案的显著区别在于其智能缓存系统。虽然 Ollama 和 LM Studio 将 KV state 缓存在内存中，但当会话中上下文发生变化时——这在 coding agents 中经常发生——整个缓存就会被失效并从头重新计算。oMLX 将每个 KV cache block 持久化到 SSD，因此先前缓存的部分始终可恢复，将长上下文下的 TTFT (Time To First Token) 从 30-90 秒降低到不到 5 秒。
 
 缓存采用两层结构：
+
 - **热层 (RAM)**：频繁访问的块保留在内存中以实现快速访问
 - **冷层 (SSD)**：当热缓存满时，块会以 safetensors 格式卸载到 SSD，并可从磁盘恢复而非重新计算
 
 ## 核心功能
 
 ### 多模型支持
+
 oMLX 在 Apple Silicon 上支持文本 LLM、vision-language models (VLM)、OCR models、embeddings 和 rerankers。模型通过自动 LRU eviction、手动 load/unload 控制、model pinning 和 per-model TTL 设置进行管理。
 
 ### 性能优化
+
 Continuous batching 通过 mlx-lm 的 BatchGenerator 处理并发请求，在 8× concurrency 下实现高达 4.14× 的生成加速。系统包括专为 Claude Code 优化的 context scaling 支持。
 
 ### 原生 macOS 集成
+
 该应用是一个原生 PyObjC menubar app（非 Electron），允许用户无需打开终端即可启动、停止和监控服务器。它包括持久化 serving stats、崩溃后自动重启，以及应用内自动更新。
 
 ### 管理仪表板
+
 /admin 处的 Web UI 提供实时监控、模型管理、聊天、benchmark 和 per-model 设置，支持 English、Korean、Japanese 和 Chinese。仪表板内置模型下载器，可搜索并从 HuggingFace 下载 MLX models。
 
 ### API 兼容性
+
 oMLX 作为 OpenAI 和 Anthropic API 的即插即用替换，提供 OpenAI 兼容的 (/v1/chat/completions) 和 Anthropic 兼容的 (/v1/messages) API 端点。它支持 streaming、tool calling、structured output 和 MCP (Model Context Protocol) 集成。
 
 ## 系统要求

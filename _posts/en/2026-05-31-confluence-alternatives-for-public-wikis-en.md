@@ -24,6 +24,7 @@ Confluence is **purely enterprise** — Atlassian never made a public-facing, co
 ## What Confluence Actually Is (Functionally)
 
 Structured, hierarchical **wiki + knowledge base** with:
+
 - Spaces → Pages → Child Pages
 - Rich embeds (Jira tickets, diagrams, code blocks)
 - Team collaboration, comments, page history

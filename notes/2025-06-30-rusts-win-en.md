@@ -13,6 +13,7 @@ Discord's adoption of Rust was driven by performance bottlenecks in their Go-bas
 ---
 
 ### **Why Discord Switched to Rust**
+
 1. **Garbage Collection (GC) Issues in Go**
    - Discord's Go service experienced latency spikes every ~2 minutes due to Go's conservative, non-generational GC, which *had to scan the entire LRU cache* (containing millions of objects) even with minimal garbage production .
    - Tuning Go's GC (e.g., adjusting cache size) either failed to resolve spikes or worsened 99th-percentile latency .
@@ -30,6 +31,7 @@ Discord's adoption of Rust was driven by performance bottlenecks in their Go-bas
 ---
 
 ### **Results of the Switch**
+
 - **Latency**: Eliminated 2-minute GC spikes, achieving sub-millisecond response times .
 - **Resource Efficiency**: Reduced CPU and memory usage, allowing cache capacity to scale to 8 million read states without performance degradation .
 - **Reliability**: Fewer runtime bugs due to Rust's compile-time safety checks .
@@ -37,6 +39,7 @@ Discord's adoption of Rust was driven by performance bottlenecks in their Go-bas
 ---
 
 ### **Advantages of Rust for Discord**
+
 1. **Performance**
    - Predictable low latency, ideal for real-time services .
    - Fine-grained memory control outperforms GC-dependent languages .
@@ -54,6 +57,7 @@ Discord's adoption of Rust was driven by performance bottlenecks in their Go-bas
 ---
 
 ### **Disadvantages & Challenges**
+
 1. **Learning Curve**
    - Rust's ownership and lifetimes require upfront investment .
 
@@ -66,6 +70,7 @@ Discord's adoption of Rust was driven by performance bottlenecks in their Go-bas
 ---
 
 ### **Key Takeaways**
+
 Discord's success with Rust highlights its fit for *latency-sensitive, high-scale services* where GC pauses are unacceptable. While the transition required overcoming Rust's steep learning curve, the payoff included **faster performance, lower resource usage, and fewer runtime errors** . For teams prioritizing long-term maintainability and performance, Rust offers compelling advantages over GC-reliant languages like Go.
 
 For deeper technical insights, refer to Discord's [original blog post](https://discord.com/blog/why-discord-is-switching-from-go-to-rust) .

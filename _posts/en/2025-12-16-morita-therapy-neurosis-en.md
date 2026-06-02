@@ -17,6 +17,7 @@ Answer:
 This is a personal testimony from someone who suffered from neurosis (referred to as "neurosis" or "shinkeishitsu" in Morita therapy contexts) for over a decade, experiencing intense fear, anxiety, and obsessive-compulsive symptoms during much of their school years. After practicing **Morita therapy**, they experienced a profound "shift in perspective" and suddenly left behind years of neurotic suffering, describing it as a rebirth. Motivated by this, they share their painful experiences, the path out of the neurosis, and their insights into Morita therapy, hoping to inspire others trapped in similar despair to persist and seek the right treatment through self-awareness and realization.
 
 ### Childhood and Early Signs
+
 As a child, the author was an obedient, sensitive, and intelligent student who enjoyed playing but excelled academically. They had a carefree elementary school life, often ranking at the top of their class, with broad interests that made them stand out among teachers and peers. However, this attention coincided with the emergence of inner conflicts.
 
 Their family environment was relatively lenient due to good performance, but their mother was prone to anxiety (though not clinically), which influenced them. Their father was capable and somewhat domineering, expecting his child to be outgoing and bold to succeed in society—a pressure that made the sensitive author feel their natural personality was flawed and aspire to change it.
@@ -24,6 +25,7 @@ Their family environment was relatively lenient due to good performance, but the
 The first abnormal sensations appeared in school: a feeling of being scrutinized from all angles, as if others could detect hidden flaws. This stemmed from an unconscious belief that they must maintain a perfect image, creating internal contradictions that laid the groundwork for symptoms. The root, they later realized, was their innate neurotic temperament—hypersensitive and prone to hypochondria—making them acutely aware of subtle inner sensations and thoughts.
 
 ### Escalation in High School
+
 Conflicts worsened: beliefs that one should suppress negative emotions, anger, or aggression to preserve a flawless facade. Human emotions naturally arise, so forcing control only increased suffering. They lived hypocritically, fearing exposure while striving for perfection.
 
 In high school, a new environment intensified issues. On the first day, arriving late drew stares, triggering panic. Simple tasks like walking through the classroom became torturous. In campus settings, they felt uneasy, avoided eye contact, and dreaded judgment.
@@ -35,6 +37,7 @@ Life felt dual: one side coping with studies and duties, the other battling symp
 Most energy went into fighting symptoms, neglecting studies and life, believing symptoms must resolve first. They felt mechanical, numb, and uniquely unfortunate. Despite declining grades, their foundation allowed recovery, leading to a decent university.
 
 ### University and Discovery of Morita Therapy
+
 University offered freedom, but symptoms persisted. They spent time reading about psychology, spirituality, philosophy, and Zen authors like Eckhart Tolle, Jiddu Krishnamurti, Byron Katie, and Joko Beck—these provided comfort and initial awakenings to their contradictions, though without full honesty.
 
 Socially, they had hobbies and friends but suffered masking imperfections, remaining tense.
@@ -46,6 +49,7 @@ Practicing was challenging without guidance; doubts persisted. The core principl
 They persisted: attending classes despite discomfort, fulfilling duties even with poor sleep. After about a year, a pivotal shift occurred one ordinary day: feeling familiar anxiety but noticing a gap, a lightness. Thoughts arose that symptoms were improving. The next day brought energy, joy, and freedom from fears. This eased over a month into normalcy.
 
 ### Recovery and Reflections
+
 Neurosis was cured. They caught up academically and landed a top-company job. Lingering thoughts became harmless, like mistaking a rope for a snake but seeing truth.
 
 Full mastery came post-recovery; mechanisms like "mental interaction" (fear reinforcing attention, amplifying symptoms) clarified naturally. Relying solely on intellect isn't always effective.

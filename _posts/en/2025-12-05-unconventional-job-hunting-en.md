@@ -49,6 +49,7 @@ Most job-search advice is conventional: tailor your résumé, network relentless
 These ideas are unpopular because they violate the “play nice, follow the rules, be patient” narrative that career coaches and LinkedIn influencers sell. In reality, the job market is a messy, asymmetric game, and the people who treat it that way often win fastest.
 
 References:
+
 - [The “Apply to 100 Jobs” Myth](https://www.kalzumeus.com/2011/10/28/dont-apply-to-jobs-online/)
 - [No, You’re Not “Overqualified” – Patrick McKenzie on job requirements](https://www.kalzumeus.com/2012/01/26/how-to-get-a-job/)
 - [The Résumé Black Hole – Lou Adler’s research on response rates](https://www.linkedin.com/pulse/why-most-online-applications-never-get-read-lou-adler/)

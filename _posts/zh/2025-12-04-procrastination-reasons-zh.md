@@ -45,6 +45,7 @@ type: note
 简而言之，拖延与其说是懒惰或时间管理不善，不如说是在当下管理情绪、冲动和自我概念。即使我们理性上知道更好的选择，大脑也会选择短期的情感慰藉而非长期的收益。
 
 参考文献：
-- Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. Psychological Bulletin. https://psycnet.apa.org/record/2007-01058-006
-- Sirois, F. M., & Pychyl, T. A. (2013). Procrastination and the priority of short-term mood regulation. Personality and Social Psychology Review. https://journals.sagepub.com/doi/10.1177/1088868313494632
-- Tice, D. M., & Baumeister, R. F. (1997). Longitudinal study of procrastination, performance, stress, and health. Psychological Science. https://journals.sagepub.com/doi/10.1111/j.1467-9280.1997.tb00461.x
+
+- Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. Psychological Bulletin. <https://psycnet.apa.org/record/2007-01058-006>
+- Sirois, F. M., & Pychyl, T. A. (2013). Procrastination and the priority of short-term mood regulation. Personality and Social Psychology Review. <https://journals.sagepub.com/doi/10.1177/1088868313494632>
+- Tice, D. M., & Baumeister, R. F. (1997). Longitudinal study of procrastination, performance, stress, and health. Psychological Science. <https://journals.sagepub.com/doi/10.1111/j.1467-9280.1997.tb00461.x>

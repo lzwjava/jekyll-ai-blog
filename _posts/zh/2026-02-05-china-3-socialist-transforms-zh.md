@@ -21,6 +21,7 @@ type: note
 **Time Period**: 1953-1956
 
 **过程**:
+
 - 从 互助组 (mutual aid teams) 开始，农民在季节性农业活动中互相帮助
 - 发展到 初级农业生产合作社 (elementary agricultural producers' cooperatives)，土地仍归私人所有，但集中起来统一经营
 - 进而发展到 高级农业生产合作社 (higher-level cooperatives)，土地转为集体所有
@@ -32,6 +33,7 @@ type: note
 **Time Period**: 1954-1956
 
 **过程**:
+
 - 个体手工业者被组织进合作社
 - 经历了从简单的手工业供销小组到手工业生产合作社的类似演进过程
 - 在引入集体管理的同时保留了传统技艺
@@ -43,6 +45,7 @@ type: note
 **Time Period**: 1954-1956
 
 **过程**:
+
 - 采用“赎买政策 (redemption policy)”——这是一种和平的方式而非直接没收
 - 实行“公私合营 (public-private joint management)”，国家逐渐加强控制
 - 原业主在数年内领取 定息 (fixed interest payments)

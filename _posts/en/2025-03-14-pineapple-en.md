@@ -19,10 +19,13 @@ Pineapple is often soaked in salt water to make it more enjoyable to eat, and th
 - **Cultural Practice**: In some cultures, particularly in Southeast Asia, soaking pineapple in salt water is a traditional step to make it less astringent and more palatable. This practice aligns with the goal of reducing the enzyme’s effects while improving the overall eating experience.
 
 #### Why Not Skip the Soak?
+
 If you don’t soak the pineapple in salt water, you might notice more of that tingling sensation, especially with very fresh pineapple. For people sensitive to bromelain, this can make eating pineapple less pleasant. The soak isn’t strictly necessary for everyone, but it’s a simple way to ensure the fruit is comfortable and enjoyable to eat.
 
 #### Other Possible Reasons?
+
 While there could be additional benefits—like cleaning the cut pieces or slightly altering texture—these are secondary. Pineapple doesn’t brown as quickly as fruits like apples, so preservation isn’t a major factor here. The focus remains on **bromelain reduction** and **flavor improvement**.
 
 ### Final Answer
+
 Pineapple needs to be soaked in salt water primarily to **reduce the activity of the bromelain enzyme**, which can cause a tingling or burning sensation in the mouth when eating fresh pineapple, and to enhance its flavor by balancing its sweetness and tanginess.

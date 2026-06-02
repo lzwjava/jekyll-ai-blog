@@ -25,4 +25,5 @@ In the context of Local Area Networks (LANs), a **集散服务器** (often trans
 *Note: In modern networking terminology, this function is most commonly associated with a **File Server**. However, based on the specific options and the provided exam key in your query, "集散" is the intended answer within this specific testing context.*
 
 References:
+
 - [General LAN Server Roles Overview](https://www.geeksforgeeks.org/types-of-servers-in-computer-network/)

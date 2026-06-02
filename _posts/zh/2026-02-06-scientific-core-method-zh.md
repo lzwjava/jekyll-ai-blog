@@ -15,6 +15,7 @@ type: note
 ## Question Analysis
 
 **科学发展观（Scientific Outlook on Development）包含以下内容：**
+
 - **核心**：以人为本 (People-oriented)
 - **基本要求**：全面协调可持续 (Comprehensive, coordinated, and sustainable development)
 - **根本方法**：**统筹兼顾 (Overall planning and all-round consideration)** ✓
@@ -23,11 +24,13 @@ type: note
 ## Why the answer is C (Overall planning and all-round consideration)
 
 **统筹兼顾 (Overall planning and all-round consideration)** 是根本方法，因为它：
+
 - 体现了唯物辩证法在发展问题上的科学应用
 - 揭示了实现科学发展、促进社会和谐的基本路径
 - 为正确处理经济社会发展中的重大关系提供了准则和方针
 
 这一方法要求平衡各个方面，例如：
+
 - 城乡发展
 - 区域发展
 - 经济社会发展
@@ -44,6 +47,7 @@ type: note
 ## Memory Framework
 
 **科学发展观（Scientific Outlook on Development）结构：**
+
 - **核心** → 以人为本 (People-oriented)
 - **基本要求** → 全面协调可持续 (Comprehensive, coordinated, sustainable)
 - **根本方法** → 统筹兼顾 (Overall planning and all-round consideration)

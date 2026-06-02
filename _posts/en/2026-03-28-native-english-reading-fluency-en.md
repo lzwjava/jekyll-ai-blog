@@ -49,21 +49,26 @@ People who reach that stage describe it as:
 ## How to Get There — Practical Path
 
 ### 1. **Massive Exposure to Enjoyable English Content**
+
 The research is clear: *pleasure reading* builds fluency faster than study.
 
 - Follow Twitter/X accounts whose topics you genuinely care about (finance, tech, football — whatever)
 - Read newsletters like **Morning Brew**, **The Economist's Espresso**, or **Bloomberg Quicktake** daily — short, punchy, business-relevant
 
 ### 2. **Stop Looking Up Every Word**
+
 Train yourself to *tolerate ambiguity*. Guess from context. This builds the automatic pattern-recognition that fluent readers use.
 
 ### 3. **Read Volume, Not Difficulty**
+
 Don't force yourself to read hard academic texts. Read things slightly below your ceiling — finance news, Reddit threads on topics you know, Medium articles. Volume matters more than difficulty at your stage.
 
 ### 4. **Shadowing and Listening**
+
 Reading fluency and listening fluency are deeply linked. Podcasts like **Planet Money**, **How I Built This**, or any finance podcast — listen while commuting. Your internal reading "voice" will get faster.
 
 ### 5. **Re-read Things You Already Understand**
+
 Read the same article twice. The second read is always faster. This trains your brain that English reading *can* be effortless.
 
 ---
@@ -80,6 +85,7 @@ This varies a lot, but research and common experience suggest:
 | True native-like | 5–10 years | Dreams in English, default mental language shifts |
 
 **Key factors that accelerate this:**
+
 - Having a native-speaking partner or close friend group
 - Working in English *all day* (you already have this partially)
 - Consuming entertainment in English (shows, books, podcasts)

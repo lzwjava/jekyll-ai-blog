@@ -32,6 +32,7 @@ Larger `block_size` values allow longer sequences but increase attention memory 
 ### Speed math
 
 At `block_size=512`, attention is 4× cheaper, but:
+
 - You'd need **2× more microbatches** to keep the same 524k tokens/step
 - The FFN (which dominates wall time) is unchanged
 - Net gain: maybe **10–20% faster**, not 2×

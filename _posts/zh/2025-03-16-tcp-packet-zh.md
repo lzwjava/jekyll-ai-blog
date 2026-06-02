@@ -142,9 +142,11 @@ int main() {
 ---
 
 ### 编译与使用
+
 - 编译：`gcc tcp_decode.c -o tcp_decode`
 - 运行（需 root 权限）：`sudo ./tcp_decode`
 - 示例输出（当存在 TCP 流量时，例如浏览网页）：
+
   ```
   Listening for TCP packets...
 
@@ -166,7 +168,9 @@ int main() {
 ---
 
 ### 关键结构
+
 - **IP 头部 (`struct iphdr`)**：
+
   ```c
   struct iphdr {
       unsigned int ihl:4;    // 头部长度（以 32 位字为单位）
@@ -184,6 +188,7 @@ int main() {
   ```
 
 - **TCP 头部 (`struct tcphdr`)**：
+
   ```c
   struct tcphdr {
       uint16_t source;       // 源端口
@@ -208,6 +213,7 @@ int main() {
 ---
 
 ### 注意事项
+
 - **Root 权限**：原始套接字需要 `sudo`，因为它们直接访问网络栈。
 - **混杂模式**：此程序仅捕获发送到主机的数据包。要捕获所有流量（如 Wireshark），您需要 `libpcap` 或不同的方法（例如，带有混杂模式的 `PF_PACKET` 套接字）。
 - **字节序**：使用 `ntohs`（16 位）和 `ntohl`（32 位）将网络字节序（大端序）转换为主机字节序。

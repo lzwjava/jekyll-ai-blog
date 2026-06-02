@@ -17,6 +17,7 @@ Here’s how you can do it:
 ---
 
 ### 1. Use `executablePath` in your Playwright config
+
 By default, Playwright uses its bundled Chromium, but if you want **Google Chrome** (your own installation), you must tell Playwright where the `chrome.exe` file is located.
 
 Example `playwright.config.js`:
@@ -50,6 +51,7 @@ export default defineConfig({
 ---
 
 ### 2. Notes
+
 - On **Windows**, the usual Chrome path is:
   - `C:\Program Files\Google\Chrome\Application\chrome.exe`
   - or `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`
@@ -60,6 +62,7 @@ export default defineConfig({
 ---
 
 ### 3. Run the config
+
 You can now run tests with:
 
 ```bash

@@ -17,6 +17,7 @@ type: note
 这是 Ubuntu（以及其他 Linux 发行版）中非常常见的问题。**"No WiFi adapter found"** 消息出现——并且 Settings 中的 WiFi 部分消失或不可用——是因为 Ubuntu 无法正确检测或使用您的无线网络适配器。以下是主要原因：
 
 ### 主要原因
+
 1. **Missing or incorrect WiFi driver**
    许多 WiFi 芯片组（尤其是 Broadcom、Realtek、某些 Qualcomm/Atheros）默认不包含完全开源的驱动程序。
    - 如果驱动程序缺失、未加载或使用了错误的驱动 → 系统看不到可用的无线接口 → NetworkManager 隐藏 WiFi 选项。
@@ -39,29 +40,38 @@ type: note
    内核更新后（或安装较新 Ubuntu），之前工作的芯片组停止工作。
 
 ### Quick Troubleshooting Steps (in order of priority)
+
 1. **Check if the hardware is seen**
    打开 Terminal 并运行：
+
    ```
    lspci -nnk | grep -iA3 net
    ```
+
    或
+
    ```
    lshw -C network
    ```
+
    查找 "Wireless"、"WiFi"、"802.11"、"Network controller"。注意 vendor:device ID（例如 14e4:4360 = Broadcom）。
 
 2. **Check rfkill status**
+
    ```
    rfkill list all
    ```
+
    如果 "Hard blocked: yes" → 按物理 WiFi 键或 Fn+F 键组合。
    如果 "Soft blocked: yes" → 运行 `rfkill unblock wifi`。
 
 3. **Try to enable WiFi via terminal**
+
    ```
    nmcli radio wifi on
    nmcli device wifi list
    ```
+
    如果看到网络 → 驱动程序正常，但 GUI 失败。
 
 4. **Install proprietary drivers (most common fix)**
@@ -74,6 +84,7 @@ type: note
    启动进入 Windows → 禁用 **Fast Startup**（控制面板 → 电源选项 → “选择电源按钮的功能” → 取消选中“启用快速启动”）→ 完全关机（不要重启）→ 启动 Ubuntu。
 
 6. **Other quick commands people often use**
+
    ```
    sudo apt update
    sudo apt install --reinstall network-manager
@@ -81,6 +92,7 @@ type: note
    ```
 
 ### 总结
+
 在大多数情况下（尤其是配备 Broadcom 或 Realtek 芯片的笔记本电脑），根本原因是**缺少专有驱动程序**。当 NetworkManager 看到零个无线设备时，Ubuntu 会隐藏 Settings 中的 WiFi 部分。一旦通过 Additional Drivers + 互联网安装工作驱动程序，WiFi 部分就会重新出现，您就可以正常连接。
 
 如果您分享 `lspci -nnk | grep -iA3 net` 的输出，或告诉我们您的笔记本型号 / WiFi 芯片组，通常可以给出确切的修复命令。

@@ -11,6 +11,7 @@ type: note
 Traceroute is a powerful tool for diagnosing network paths, and while its basic use is straightforward, it offers advanced options to customize its behavior. Below, I’ll outline common options and explain how to use traceroute in advanced ways, focusing on practical examples. The exact options depend on your operating system (e.g., Windows uses `tracert`, while Linux/macOS use `traceroute`), but I’ll cover the most widely applicable ones.
 
 ### Basic Usage
+
 - **Linux/macOS**: `traceroute [destination]`
   - Example: `traceroute google.com`
 - **Windows**: `tracert [destination]`
@@ -21,6 +22,7 @@ This shows the hops (routers) between you and the target, along with round-trip 
 ---
 
 ### Common Traceroute Options
+
 Here’s a rundown of key options, primarily for the `traceroute` command on Unix-like systems (Linux/macOS). Windows `tracert` has fewer options but shares some concepts.
 
 1. **`-n` (No DNS Lookup)**
@@ -76,7 +78,9 @@ Here’s a rundown of key options, primarily for the `traceroute` command on Uni
 ---
 
 ### Windows `tracert` Options
+
 Windows has fewer options, but here are the main ones:
+
 - **`-d`**: No DNS lookups (like `-n`).
 - **`-h [max_hops]`**: Max hops (like `-m`).
 - **`-w [timeout]`**: Wait time in milliseconds (like `-w`).
@@ -85,6 +89,7 @@ Windows has fewer options, but here are the main ones:
 ---
 
 ### Advanced Usage Examples
+
 Here’s how to combine options for specific purposes:
 
 1. **Diagnose a Slow Connection**
@@ -117,6 +122,7 @@ Here’s how to combine options for specific purposes:
 ---
 
 ### Tips for Advanced Use
+
 - **Combine with Other Tools**: Pair traceroute with `ping` (for latency) or `mtr` (real-time traceroute) for deeper insights.
 - **Understand Network Context**: Firewalls, NAT, or VPNs can obscure hops (showing asterisks `*`)—adjust protocols (ICMP/TCP) to adapt.
 - **Root Privileges**: On Unix systems, some options (e.g., TCP mode) may require `sudo` for raw socket access: `sudo traceroute -T google.com`.

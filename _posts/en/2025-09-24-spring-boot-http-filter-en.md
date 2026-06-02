@@ -17,6 +17,7 @@ Below is an example of how to implement a custom Servlet Filter in Spring (e.g.,
 - **Request Body**: For methods like POST/PUT (note: the body is a stream, so we wrap the request to read it without consuming it for downstream processing).
 
 The log output will be in structured JSON format. We'll use:
+
 - **SLF4J** for logging (common in Spring).
 - **Jackson** to serialize the data to JSON (Spring Boot includes it by default).
 - A custom `HttpServletRequestWrapper` to safely read the body.
@@ -24,7 +25,9 @@ The log output will be in structured JSON format. We'll use:
 This filter can be registered globally to intercept all requests.
 
 ### Step 1: Dependencies
+
 If using Spring Boot, ensure these are in your `pom.xml` (Maven) or `build.gradle` (Gradle):
+
 ```xml
 <dependencies>
     <dependency>
@@ -40,6 +43,7 @@ If using Spring Boot, ensure these are in your `pom.xml` (Maven) or `build.gradl
 ```
 
 ### Step 2: Custom Request Wrapper
+
 This wrapper allows reading the request body multiple times (by caching it as a string).
 
 ```java
@@ -143,6 +147,7 @@ public class ContentCachingRequestWrapper extends HttpServletRequestWrapper {
 ```
 
 ### Step 3: The Custom Filter
+
 This filter logs the structured data as JSON using SLF4J. It's applied to all requests.
 
 ```java
@@ -201,6 +206,7 @@ public class LoggingFilter extends OncePerRequestFilter {
 ```
 
 ### Step 4: Register the Filter (Automatic in Spring Boot)
+
 In Spring Boot, the `@Component` annotation on the filter automatically registers it. If you're using plain Spring MVC (not Boot), you can register it manually:
 
 ```java
@@ -216,6 +222,7 @@ public FilterRegistrationBean<LoggingFilter> loggingFilter() {
 ```
 
 ### Example Log Output
+
 When a request like `POST /api/users` with body `{"name": "John"}` and query `?id=123` comes in, the log will look like this (assuming your logger is configured for JSON output, e.g., via Logback with JSON appender):
 
 ```json
@@ -230,6 +237,7 @@ When a request like `POST /api/users` with body `{"name": "John"}` and query `?i
 ```
 
 - **Logger Configuration**: To get full JSON logs, configure Logback (in `logback-spring.xml` or `application.properties`) with a JSON encoder like `net.logstash.logback.encoder.LogstashEncoder`. For example, in `application.yml`:
+
   ```yaml
   logging:
     pattern:
@@ -237,6 +245,7 @@ When a request like `POST /api/users` with body `{"name": "John"}` and query `?i
   ```
 
 ### Notes
+
 - **Body Reading Limitation**: We only read the body for non-GET methods. For GET, it's empty. This avoids issues with large bodies or multiple reads.
 - **Security**: Be cautious logging sensitive data (e.g., passwords in body/query). You might want to mask fields.
 - **Performance**: Caching the body uses memory; for very large bodies, consider limits (e.g., read only first N bytes).

@@ -17,10 +17,12 @@ LibreChat 是一个资源密集型应用，因为它运行着完整的技术栈�
 Docker 的“便捷”在于它捆绑了依赖项、隔离了环境，并且只需一条命令（如 `docker compose up`）即可启动，避免了手动设置的麻烦。但确实，代价是资源占用高：容器无法高效共享主机内核，如果不进行调整，它们的内存占用会迅速膨胀。
 
 #### 快速降低内存使用的方法
+
 以下是一些实用步骤，可以在不完全放弃 Docker 的情况下优化你的设置：
 
 1. **限制每个容器的资源**：
    - 编辑你的 `docker-compose.yml` 文件（在 LibreChat 代码库中）。在每个服务下添加资源限制。例如：
+
      ```
      services:
        chat-mongodb:
@@ -49,6 +51,7 @@ Docker 的“便捷”在于它捆绑了依赖项、隔离了环境，并且只�
              limits:
                memory: 512M
      ```
+
      - 运行 `docker compose down` 然后 `docker compose up -d` 来应用更改。这不会破坏任何功能，但如果达到限制可能会减慢查询速度——使用 `docker stats` 进行监控。
 
 2. **调整 Docker Desktop 设置**：
@@ -63,18 +66,22 @@ Docker 的“便捷”在于它捆绑了依赖项、隔离了环境，并且只�
    - 确保你使用的是最新的 LibreChat 版本（v0.7+ 原生支持 M1/M2）。使用 `docker compose pull` 拉取。
 
 #### 不使用 Docker 运行：是的，可能会更快/更轻量
+
 绝对如此——跳过 Docker 可以消除虚拟机开销（节省 0.5-1GB）并让服务在 macOS 上原生运行。LibreChat 有一个手动安装指南，使用 Node.js、npm 和直接服务安装。在你的 M2 Air 上可能会感觉更流畅，因为所有内容都直接利用 Apple 的统一内存，无需虚拟化。
 
 **原生安装的优点**：
+
 - 内存使用更低（预计总共 1-2GB）。
 - 启动和 I/O 更快（没有容器网络）。
 - 调试更容易。
 
 **缺点**：
+
 - 设置步骤更多（通过 Homebrew 手动安装 MongoDB/Meilisearch）。
 - 可能存在依赖冲突。
 
 **快速原生安装指南**（适用于 macOS）：
+
 1. 安装先决条件：
    - Node.js (v18+)：使用 Homebrew `brew install node`。
    - MongoDB：`brew tap mongodb/brew && brew install mongodb-community`。使用 `brew services start mongodb/brew/mongodb-community` 启动。
@@ -82,6 +89,7 @@ Docker 的“便捷”在于它捆绑了依赖项、隔离了环境，并且只�
    - Yarn：`npm install -g yarn`。
 
 2. 克隆并安装 LibreChat：
+
    ```
    git clone https://github.com/danny-avila/LibreChat.git
    cd LibreChat
@@ -92,11 +100,12 @@ Docker 的“便捷”在于它捆绑了依赖项、隔离了环境，并且只�
    yarn dev  # 或者 yarn start 用于生产环境
    ```
 
-3. 在 http://localhost:3080 访问。如果未使用 RAG，可以调整 `.env` 禁用它。
+3. 在 <http://localhost:3080> 访问。如果未使用 RAG，可以调整 `.env` 禁用它。
 
 如果你遇到问题（例如 ARM 兼容性），官方文档有故障排除指南。这应该能轻松将内存使用控制在 2GB 以下。
 
 #### 监控工具
+
 - **活动监视器**（内置）：在“内存”选项卡中监视 Docker 进程。
 - **docker stats**：在终端中实时监控容器使用情况。
 - 如果问题持续存在，请查看 LibreChat 的 GitHub issues——很多 M1/M2 用户报告了类似的抱怨。

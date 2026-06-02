@@ -25,7 +25,6 @@ type: post
    - Gauge curiosity and problem-solving drive
    - Probe for unique, contrarian insights
 
-
 ## How to Scale a Team
 
 - Think about it for the long term. Do you have enough budget? How long can your team survive? What if there is no gain after scaling the team?
@@ -59,7 +58,6 @@ type: post
 - Having a good attitude is better than current ability.
 
 - Scaling a team is similar to scaling backend services. Certainly, the number or performance of servers is important. However, the code and system design are at least equally important, if not more. Similarly, while the raw headcount or quality of employees is important, the mission, company structure, and product are at least equally important, if not more.
-
 
 ---
 

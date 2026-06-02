@@ -29,6 +29,7 @@ type: note
 总体而言，尽管星展银行因学习机会和现代文化备受赞誉，但合约员工常建议除非迫不得已或需要快速积累经验，否则仅应短期从事此类职位——长期来看，应争取其他公司的正式职位。
 
 ### 参考资料
+
 - [星展银行合约评价 | Glassdoor](https://www.glassdoor.com/Reviews/DBS-Bank-Contract-Reviews-EI_IE611812.0%2C8_KO9%2C17.htm)
 - [星展银行合约员工评价 | Glassdoor](https://www.glassdoor.com/Reviews/DBS-Bank-Contract-Staff-Reviews-EI_IE611812.0%2C8_KO9%2C23.htm)
 - [一年期合约职位讨论 | Reddit](https://www.reddit.com/r/askSingapore/comments/1jpib1h/1year_contract_role_is_it_negotiable/)

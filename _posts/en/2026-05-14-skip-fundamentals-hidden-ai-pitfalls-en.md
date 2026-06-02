@@ -22,6 +22,7 @@ You're right that AI dramatically accelerates project work. But "skip fundamenta
 ## What AI Actually Does For You
 
 AI tools are genuinely powerful now:
+
 - Explains errors in context
 - Writes boilerplate instantly
 - Debugs faster than Stack Overflow
@@ -73,6 +74,7 @@ Bigger projects
 ```
 
 Not:
+
 ```
 Big foundation → project     ❌ (old, slow, wasteful)
 Zero foundation → project    ❌ (fast but blind)

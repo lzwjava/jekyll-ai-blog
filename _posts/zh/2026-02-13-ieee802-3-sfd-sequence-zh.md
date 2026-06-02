@@ -34,6 +34,7 @@ D. 01111111 (left=LSB, right=MSB)
 将最后一个 byte 从 10101010 更改为 10101011 的目的是提供一个清晰、明确的指示，表明 frame data 即将开始（打破了重复的 1010 模式）。
 
 关键点：
+
 - IEEE 802.3 使用 **10101011** 作为 SFD。
 - 这与 Ethernet V2 (DIX Ethernet) 不同，后者虽然也使用 10101011，但拥有 8-byte 全为 10101010 的 preamble。
 - IEEE 802.3 选择 10101011 也是为了提高与 IEEE 802.4 (Token Bus) 和 IEEE 802.5 (Token Ring) frame 格式的兼容性/可区分性。

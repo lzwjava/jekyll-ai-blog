@@ -34,9 +34,9 @@ Here's a breakdown of why this happens and the consequences, mirroring your obse
 
 Companies that recognize this problem often try to fix it by:
 
-1.  **Dedicated Internal Tool Teams:** Creating a specific team or product group whose sole metric is the *efficiency* and *satisfaction* of internal users.
-2.  **Internal "Product Managers":** Appointing product managers for internal tools who advocate for the users (employees) and treat them like real customers.
-3.  **Measuring Efficiency as ROI:** Quantifying the time saved or error rate reduced and translating that into a dollar value to justify development effort.
-4.  **Using Low-Code/No-Code Platforms:** Utilizing modern platforms (like Retool, Appian, etc.) that make it faster and easier for engineers to build and iterate on internal applications, reducing the development cost.
+1. **Dedicated Internal Tool Teams:** Creating a specific team or product group whose sole metric is the *efficiency* and *satisfaction* of internal users.
+2. **Internal "Product Managers":** Appointing product managers for internal tools who advocate for the users (employees) and treat them like real customers.
+3. **Measuring Efficiency as ROI:** Quantifying the time saved or error rate reduced and translating that into a dollar value to justify development effort.
+4. **Using Low-Code/No-Code Platforms:** Utilizing modern platforms (like Retool, Appian, etc.) that make it faster and easier for engineers to build and iterate on internal applications, reducing the development cost.
 
 Would you be interested in learning about some **design principles** that are often applied to make internal tools more usable, even with limited resources?

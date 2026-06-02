@@ -27,25 +27,33 @@ type: note
 ## Troubleshooting Steps
 
 1. **验证 DB2 是否正在运行：**
+
    ```bash
    db2pd -
    ```
+
    或
+
    ```bash
    db2 get dbm cfg | grep SVCENAME
    ```
 
 2. **检查 DB2 是否正在监听：**
+
    ```bash
    netstat -an | grep 50000
    ```
+
    （将 50000 替换为您实际使用的 port）
 
 3. **测试 network connectivity：**
+
    ```bash
    telnet <hostname> <port>
    ```
+
    或
+
    ```bash
    nc -zv <hostname> <port>
    ```

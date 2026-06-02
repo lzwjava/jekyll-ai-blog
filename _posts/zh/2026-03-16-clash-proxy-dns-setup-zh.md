@@ -49,11 +49,14 @@ type: note
 DNS stub listener 是 `systemd-resolved` 内置的一个轻量级 DNS 服务器，在 `127.0.0.53` 的端口 53 上监听 DNS 查询。你可以仅禁用 stub listener，而不停止完整服务。
 
 编辑 `/etc/systemd/resolved.conf`：
+
 ```ini
 [Resolve]
 DNSStubListener=no
 ```
+
 然后：
+
 ```bash
 sudo systemctl restart systemd-resolved
 sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf

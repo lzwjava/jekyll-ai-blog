@@ -16,7 +16,7 @@ Answer:
 
 Yes, in many areas of life today—especially in formal education, corporate training, and self-improvement culture, and credential-chasing—people massively **overlearn** relative to what actually gets used or produces real-world results.
 
-### Unpopular (but increasingly evidenced) opinions about learning:
+### Unpopular (but increasingly evidenced) opinions about learning
 
 - **Most formal education is overlearning in disguise**
   The majority of what is taught in high school and even university is never used again by >90 % of graduates. People spend 12–20 years memorizing facts and solving artificial problems that have almost zero transfer to adult life or work.
@@ -48,6 +48,7 @@ Yes, in many areas of life today—especially in formal education, corporate tra
 In short: society currently rewards the appearance of learning far more than actual mastery, so yes—massive overlearning is the norm, and many of the most praised learning habits are either inefficient or outright counterproductive.
 
 References:
-- Caplan, Bryan. *The Case Against Education* (2018) → https://press.princeton.edu/books/hardcover/9780691174655/the-case-against-education
+
+- Caplan, Bryan. *The Case Against Education* (2018) → <https://press.princeton.edu/books/hardcover/9780691174655/the-case-against-education>
 - Ericsson & Pool. *Peak: Secrets from the New Science of Expertise* (2016) (the original deliberate-practice research, often misquoted)
 - Newport, Cal. Various works on “deep work” and the shallowness of most knowledge work learning

@@ -25,6 +25,7 @@ In Claude.ai, you can reply to specific messages in a couple of ways:
 That said, the exact interface elements can vary slightly depending on whether you're using the desktop web version, mobile version, or the Claude app.
 
 **Is there a specific scenario** where you're trying to use the reply function? For example, are you trying to:
+
 - Reference something from earlier in the conversation?
 - Continue a specific branch of discussion?
 - Quote a particular response?

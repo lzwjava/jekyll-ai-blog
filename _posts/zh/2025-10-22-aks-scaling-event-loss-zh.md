@@ -11,11 +11,13 @@ type: note
 ---
 
 ### 事件丢失的可能原因
+
 当您的服务在 Azure Kubernetes Service (AKS) 中从 1 个 Pod 自动扩展到 2 个 Pod 时，初始 Pod 会独自处理不断增长的负载，直到新 Pod 准备就绪（通常需要 1-2 分钟，具体取决于您的 Horizontal Pod Autoscaler (HPA) 配置）。如果事件量在此时间窗口内激增，您的 Event Hubs 命名空间可能会限制入口（例如，由于吞吐量单位不足），导致约 1% 的事件丢失（ServerBusy 错误）。Event Hubs 提供至少一次交付保证，但如果没有适当的重试机制，受限制的发送操作会静默失败或丢弃事件。
 
 扩展本身不会中断现有 Pod 的连接——事件丢失源于瞬时过载，而非 Pod 终止。
 
 ### 修复和配置方法
+
 要可靠地处理此问题：
 
 1. **在 Event Hubs 命名空间上启用自动扩容**
@@ -35,6 +37,7 @@ type: note
      - 通过 Azure Monitor 进行监控：跟踪 `IncomingMessages` 与 `ThrottledRequests` 指标。
 
    - **示例：.NET (Azure.Messaging.EventHubs)**
+
      ```csharp
      using Azure.Messaging.EventHubs;
      using Azure.Messaging.EventHubs.Producer;
@@ -65,9 +68,11 @@ type: note
      batch.TryAdd(new EventData(Encoding.UTF8.GetBytes("event-data")));
      await producer.SendAsync(batch);
      ```
+
      这会在发生 ServerBusy 错误时重试，确保事件在扩展后成功送达。
 
    - **示例：Java (Azure Event Hubs Client)**
+
      ```java
      import com.azure.messaging.eventhubs.EventHubProducerAsyncClient;
      import com.azure.messaging.eventhubs.EventHubProducerClientBuilder;
@@ -94,12 +99,14 @@ type: note
      Flux<PartitionInformation> partitions = producer.getPartitionPropertiesFlux();
      // ... 发送批次逻辑，内置重试机制
      ```
+
      SDK 会在出错时透明地处理重试。
 
    - **其他语言**：Python (azure-eventhub)、Node.js（在 EventHubProducerClient 中使用重试选项）有类似模式。请参阅您所用技术栈的 SDK 文档。
 
 3. **针对扩展的 AKS 特定处理**
    - **主动扩展**：调整 HPA 以更早开始扩展（例如，目标 CPU 使用率为 60% 而非 80%），以缩短过载窗口：
+
      ```yaml
      apiVersion: autoscaling/v2
      kind: HorizontalPodAutoscaler
@@ -120,6 +127,7 @@ type: note
              type: Utilization
              averageUtilization: 60  # 在 CPU 使用率达到 60% 时扩展
      ```
+
      使用 `kubectl apply -f hpa.yaml` 应用配置。
    - **优雅的 Pod 行为**：在您的 Deployment YAML 中设置 `terminationGracePeriodSeconds: 30`，以便在将来缩容时允许缓冲的事件被刷新（虽然不直接针对扩容，但这是良好实践）。
    - **网络**：在客户端选项中使用 WebSockets（AMQP over WebSockets）以更好地处理 AKS 出口流量。
@@ -134,6 +142,7 @@ type: note
 此设置应将事件丢失降至接近零。首先实施自动扩容和客户端重试以获得快速成效。
 
 ### 参考文档
+
 - [Azure Event Hubs 中的可靠性](https://learn.microsoft.com/zh-cn/azure/reliability/reliability-event-hubs)
 - [使用 Event Hubs 进行扩展](https://learn.microsoft.com/zh-cn/azure/event-hubs/event-hubs-scalability)
 - [Event Hubs .NET SDK 重试选项](https://learn.microsoft.com/zh-cn/dotnet/api/azure.messaging.eventhubs.producer.eventhubproducerclientoptions.retryoptions)

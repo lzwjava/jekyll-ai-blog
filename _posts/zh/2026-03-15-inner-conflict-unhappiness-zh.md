@@ -30,7 +30,9 @@ type: note
 这个陈述可以从 **三个不同维度** 来理解，所有这些维度都具有深刻含义：
 
 ### 1. Inconsistency Between What You Want and What You Do (Inner Conflict)（你想要的与你做的之间的不一致（内在冲突））
+
 这是最个人的层面。当你的欲望、价值观或信念与你的实际行为不一致时，你会经历心理学家称之为 **cognitive dissonance**（认知失调）的状态。例如：
+
 - 你重视健康但不锻炼。
 - 你相信诚实但为了避免冲突而撒谎。
 - 你想要深层关系但推开他人。
@@ -38,6 +40,7 @@ type: note
 心理学家 **Carl Rogers** 将此称为 **incongruence**（不一致）——“理想自我”（你想成为的样子）与“真实自我”（你实际做的）之间的差距。这个差距是焦虑、羞耻和痛苦的主要原因。
 
 ### 2. Inconsistency Between Expectations and Reality（期望与现实之间的不一致）
+
 一个相关的解释：当你对世界 *应该* 如何的期望与世界 *实际* 如何不匹配时，你就会痛苦。这呼应了一个有时归属于各种思想家的著名公式：
 
 > **Unhappiness = Reality − Expectations**
@@ -45,6 +48,7 @@ type: note
 期望与你得到的东西之间的差距越大，不快乐就越大。这个想法与 **Buddhist philosophy**（佛教哲学，减少欲望以减少痛苦）以及 **Stoicism**（接受现实，只关注你能控制的事）深度共鸣。
 
 ### 3. Inconsistency Between Words and Actions (External Integrity)（言行之间的不一致（外部诚信））
+
 从组织和领导力视角——尤其对中国企业家相关——这意味着人们在说一套做一套时会痛苦。一家宣称的价值观与实际行为矛盾的公司，会在其文化中滋生不信任和不快乐。Zhang Yiming 在 ByteDance 强调，团队应该诚实，避免“managing up”（告诉老板他想听的，而在实践中做不同的事）。
 
 ---
@@ -70,6 +74,7 @@ type: note
 ## Practical Application（实际应用）
 
 在日常生活中应用这个洞见：
+
 - 当你感到不快乐或焦虑时，问自己：*“不一致在哪里？”* ——信念与行为之间、期望与现实之间，或所说与所想之间。
 - 解决不快乐从而成为一个 **alignment**（对齐）的项目：缩小志向与行动、期望与接受、言辞与行为之间的差距。
 

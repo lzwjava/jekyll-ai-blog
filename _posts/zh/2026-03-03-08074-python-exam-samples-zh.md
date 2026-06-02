@@ -84,6 +84,7 @@ type: note
 **程序阅读或简答题**
 
 21. 以下代码的输出是什么？
+
     ```python
     def func(x, y=5):
         return x * y
@@ -94,6 +95,7 @@ type: note
 22. 解释 Python 中 `==` 和 `is` 操作符的区别。
 
 23. 运行以下代码会发生什么？（识别错误）
+
     ```python
     try:
         x = 1 / 0
@@ -104,6 +106,7 @@ type: note
 24. 描述什么是 generator function，并给出其相对于普通 list 的一个优势。
 
 25. 写出以下代码的输出：
+
     ```python
     s = "hello world"
     print(s.capitalize())

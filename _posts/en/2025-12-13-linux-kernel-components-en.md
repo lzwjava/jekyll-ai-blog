@@ -17,6 +17,7 @@ Answer:
 The Linux kernel is a monolithic kernel, meaning all core components run in kernel space, but it is highly modular with loadable modules (especially for drivers). Its major subsystems or components are responsible for managing hardware resources, processes, and system services.
 
 ### Core Subsystems
+
 - **Process Management (Scheduler)**: Handles creation, scheduling, and termination of processes and threads. It ensures fair CPU time allocation among running processes.
 - **Memory Management**: Manages virtual memory, paging, swapping, and allocation of physical memory to processes. It provides each process with its own virtual address space.
 - **Virtual File System (VFS)**: Provides a unified interface for different file systems (e.g., ext4, NTFS, Btrfs). It abstracts file operations like open, read, and write.

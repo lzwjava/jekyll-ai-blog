@@ -42,7 +42,7 @@ Based on GitHub stars as of November 2025, here's an expanded list of the top 50
 | 24 | [ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) | Flash Player emulator written in Rust. | 48,567 |
 | 25 | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | Curated list of Rust code and resources. | 48,234 |
 | 26 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | Line-oriented search tool like grep. | 47,890 |
-| 27 | [ EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu) | Vulkan shaders in Rust. | 47,456 |
+| 27 | [EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu) | Vulkan shaders in Rust. | 47,456 |
 | 28 | [paritytech/polkadot](https://github.com/paritytech/polkadot) | Multi-chain blockchain platform. | 46,789 |
 | 29 | [rust-windowing/winit](https://github.com/rust-windowing/winit) | Safe window creation library. | 46,123 |
 | 30 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | Rust package manager and build tool. | 45,678 |

@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview of Log4j Configuration
+
 Log4j is a popular Java logging framework that allows you to control log output levels and destinations. For version 2.x (recommended), configurations are typically defined in an XML, JSON, YAML, or Properties file (e.g., `log4j2.xml`). This setup involves:
 
 - **Loggers**: Define what levels of messages (e.g., DEBUG, INFO, WARN, ERROR) to log for specific classes or packages.
@@ -22,7 +23,9 @@ To configure both console and file logging, you'll typically add a `ConsoleAppen
 If you're using Log4j 1.x, upgrade to 2.x—it's faster and has better features. Below is a step-by-step guide with a sample XML config.
 
 ### Steps to Configure File and Console Loggers
+
 1. **Add Dependencies**: Ensure Log4j 2.x is in your pom.xml (Maven) or build.gradle (Gradle). Example for Maven:
+
    ```
    <dependency>
        <groupId>org.apache.logging.log4j</groupId>
@@ -45,6 +48,7 @@ If you're using Log4j 1.x, upgrade to 2.x—it's faster and has better features.
 4. **Configure Loggers**: Set the logging level (e.g., INFO) and assign appenders. The root logger handles global logging.
 
 5. **Use in Code**: In your Java classes, get a logger like this:
+
    ```java
    import org.apache.logging.log4j.LogManager;
    import org.apache.logging.log4j.Logger;
@@ -56,6 +60,7 @@ If you're using Log4j 1.x, upgrade to 2.x—it's faster and has better features.
    ```
 
 ### Sample Configuration (log4j2.xml)
+
 Here's a complete XML config for console and rotating file logging. It logs INFO and above to console, and all levels to a file that rotates daily or when 10MB.
 
 ```xml

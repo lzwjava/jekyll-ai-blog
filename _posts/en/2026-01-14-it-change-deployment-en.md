@@ -17,6 +17,7 @@ Answer:
 Here are some **typical real-world examples** of change requests (often called RFCs — Requests for Change) in IT/production environments, especially for application deployments and bug fixes. These follow common ITIL/ServiceNow/Jira-style change management practices.
 
 ### 1. Emergency / Urgent Bug Fix (Hotfix in Production)
+
 **Scenario**: Critical security vulnerability or application crash affecting many users (e.g., login fails for 30% of users).
 
 **Typical fields and how to fill them**:
@@ -44,6 +45,7 @@ Here are some **typical real-world examples** of change requests (often called R
 - **Approvers**: Usually CAB emergency approval + App Owner + SRE lead.
 
 ### 2. Standard Minor Application Patch / Bug Fix Deployment
+
 **Scenario**: Non-critical UI bug or performance improvement (e.g., fix slow loading on dashboard).
 
 **Typical fields**:
@@ -68,6 +70,7 @@ Here are some **typical real-world examples** of change requests (often called R
 - **Attachments**: Release notes, test report, rollback procedure doc.
 
 ### 3. Major Application Version Upgrade / New Feature Deployment
+
 **Scenario**: Deploy v2.0 with new payment gateway integration.
 
 **Typical fields**:
@@ -93,6 +96,7 @@ Here are some **typical real-world examples** of change requests (often called R
 - **Post-Implementation Validation**: Monitor for 48 hours; schedule PIR (Post-Implementation Review).
 
 **General Tips for Filling Fields**:
+
 - Be **specific and factual** — include numbers, ticket IDs, metrics.
 - **Impact** — always cover users/business + technical scope.
 - **Backout** — must be realistic and tested where possible; include success criteria for rollback decision.

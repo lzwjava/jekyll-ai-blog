@@ -13,11 +13,14 @@ type: note
 不，命令 `nodeName -name serverName admin create applciation server`（注意"applciation"的拼写错误）在 IBM WebSphere Application Server (WAS) 中使用 wsadmin 脚本创建应用服务器是不正确的。
 
 ### 正确语法
+
 正确的命令应使用 Jython（wsadmin 推荐脚本语言）中的 `AdminTask.createApplicationServer` 方法。它需要：
+
 - 将**节点名称**作为第一个参数（字符串）
 - 将**选项列表**作为第二个参数，包括用于指定服务器名称的 `-name` 参数
 
 **基础示例：**
+
 ```jython
 AdminTask.createApplicationServer('YourNodeName', ['-name', 'YourServerName'])
 ```
@@ -27,6 +30,7 @@ AdminTask.createApplicationServer('YourNodeName', ['-name', 'YourServerName'])
 - 可在列表中添加可选参数，例如使用默认服务器模板的 `'-templateName', 'default'`
 
 ### 执行步骤
+
 1. 以 Jython 模式启动 wsadmin：`./wsadmin.sh -lang jython -user admin -password pass`
 2. 执行上述命令
 3. 保存配置：`AdminConfig.save()`

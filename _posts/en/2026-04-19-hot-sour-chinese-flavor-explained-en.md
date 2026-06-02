@@ -12,6 +12,7 @@ type: note
 "酸辣" is a Chinese culinary term that translates to **"Hot and Sour"** or **"Sour and Spicy"** in English.
 
 It describes a flavor profile that combines:
+
 - **酸 (suān)** = sour (from vinegar, pickled vegetables, citrus, etc.)
 - **辣 (là)** = spicy/hot (from chili peppers, pepper, ginger, etc.)
 

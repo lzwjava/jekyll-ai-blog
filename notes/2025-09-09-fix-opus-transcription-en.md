@@ -17,9 +17,9 @@ To fix the error "Audio data does not appear to be in a supported encoding" when
 
 ### 🛠️ Step-by-Step Fix
 
-1.  **Check Supported Encodings:** While the service's documentation might list OGG\_OPUS as supported, there can be specific variations or parameters that cause issues. The most reliable formats for transcription services are **16-bit PCM WAV** and **FLAC**. These are uncompressed or losslessly compressed formats that are easy for an API to process.
+1. **Check Supported Encodings:** While the service's documentation might list OGG\_OPUS as supported, there can be specific variations or parameters that cause issues. The most reliable formats for transcription services are **16-bit PCM WAV** and **FLAC**. These are uncompressed or losslessly compressed formats that are easy for an API to process.
 
-2.  **Convert the Audio File:** Use an audio conversion tool like **FFmpeg**, Audacity, or an online converter to change the file's format.
+2. **Convert the Audio File:** Use an audio conversion tool like **FFmpeg**, Audacity, or an online converter to change the file's format.
 
       * **Using FFmpeg (Recommended):** This is a powerful command-line tool that provides precise control over the conversion process. If you have it installed, you can run a command like this in your terminal:
 
@@ -35,6 +35,6 @@ To fix the error "Audio data does not appear to be in a supported encoding" when
 
       * **Using a Graphical Tool (e.g., Audacity):** Open the OGG file in Audacity, and then use **File \> Export \> Export as WAV**. Make sure to set the correct project rate and channel count to match your original configuration.
 
-3.  **Specify Decoding Parameters (Alternative):** If you're an advanced user and want to stick with OGG, you could try explicitly specifying the decoding parameters in your API request, assuming the API supports this. This would involve telling the service exactly what codec (opus) and other parameters to use. However, this is often a more complex solution and converting the file is usually the more straightforward and reliable fix.
+3. **Specify Decoding Parameters (Alternative):** If you're an advanced user and want to stick with OGG, you could try explicitly specifying the decoding parameters in your API request, assuming the API supports this. This would involve telling the service exactly what codec (opus) and other parameters to use. However, this is often a more complex solution and converting the file is usually the more straightforward and reliable fix.
 
-4.  **Resubmit the Transcription Request:** Use the newly converted **WAV** or **FLAC** file and resubmit your transcription request. The error should be resolved, as these formats are almost universally supported and less prone to decoding issues.
+4. **Resubmit the Transcription Request:** Use the newly converted **WAV** or **FLAC** file and resubmit your transcription request. The error should be resolved, as these formats are almost universally supported and less prone to decoding issues.

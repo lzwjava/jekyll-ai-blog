@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: Provide a comprehensive summary of the YouTube video at https://www.youtube.com/watch?v=USpMQLrRtWw
+Question: Provide a comprehensive summary of the YouTube video at <https://www.youtube.com/watch?v=USpMQLrRtWw>
 
 Answer:
 
@@ -63,7 +63,9 @@ Answer:
    - 更大的生产力故事在于整体技术的普及应用 → 美国和中国是主要受益者。
 
 ### 总体基调与总结
+
 Griffin 将市场从业者的现实主义与对特朗普时代许多方向（放宽监管、边境安全、亲增长立场、对华关注）的有条件支持结合在一起，同时对以下方面发出了尖锐警告：
+
 - 财政脆弱性和债券市场风险
 - 关税的副作用
 - 移民劳动力与通胀之间的权衡

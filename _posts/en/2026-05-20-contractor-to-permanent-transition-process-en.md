@@ -81,6 +81,7 @@ The vendor won't volunteer it. You have to manage this politically:
 **2. Talk to your vendor account manager directly.** Frame it as: *"I've been approached about a perm role — I wanted to be transparent with you before anything moves forward."* This gives them face.
 
 **3. The vendor's incentive to release you:**
+
 - Maintaining the client relationship (they don't want a legal dispute with a big client)
 - You might refer other contractors to them
 - They may negotiate a **reduced fee** rather than full waiver

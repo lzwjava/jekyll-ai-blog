@@ -21,7 +21,7 @@ Answer:
 
 **AP Calculus BC** is a **college-level calculus course** equivalent to first-year university calculus (often two semesters).
 
-### What it covers:
+### What it covers
 
 * Limits and continuity
 * Derivatives (rates of change, slopes)
@@ -29,12 +29,12 @@ Answer:
 * Differential equations
 * Series (like Taylor and Maclaurin series — more advanced topic)
 
-### Key point:
+### Key point
 
 * It includes **everything in Calculus AB**, plus **extra topics** (mainly sequences & series).
 * It’s considered **more advanced and faster-paced** than AB.
 
-### Difficulty:
+### Difficulty
 
 * High — requires strong algebra and pre-calculus foundation.
 
@@ -44,19 +44,19 @@ Answer:
 
 **AP Computer Science A** is a **programming course focused on Java**.
 
-### What it covers:
+### What it covers
 
 * Basic programming concepts (variables, loops, conditionals)
 * Object-oriented programming (classes, objects, inheritance)
 * Data structures (especially arrays and ArrayLists)
 * Algorithms (searching, sorting basics)
 
-### Key point:
+### Key point
 
 * It is **coding-heavy**, not theory-heavy.
 * Uses **Java** as the main language.
 
-### Difficulty:
+### Difficulty
 
 * Moderate — easier if you already have coding experience.
 
@@ -71,14 +71,14 @@ Answer:
 
 ---
 
-## When students take them:
+## When students take them
 
 * Usually in **11th–12th grade (junior/senior year)**
 * Strong students may take them earlier
 
 ---
 
-## Why they matter:
+## Why they matter
 
 * Can earn **college credits**
 * Strengthen applications to universities

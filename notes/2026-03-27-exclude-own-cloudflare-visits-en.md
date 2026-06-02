@@ -35,15 +35,20 @@ The Cloudflare Web Analytics beacon script (`https://static.cloudflareinsights.c
 On your Mac, you can block the Cloudflare analytics domain at the system level:
 
 1. Edit `/etc/hosts` as root:
+
    ```
    sudo nano /etc/hosts
    ```
+
 2. Add this line:
+
    ```
    0.0.0.0 cloudflareinsights.com
    0.0.0.0 static.cloudflareinsights.com
    ```
+
 3. Save and flush DNS cache:
+
    ```
    sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
    ```

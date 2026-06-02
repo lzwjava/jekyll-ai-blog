@@ -18,6 +18,7 @@ Here's the migration review:
 **Overall: Good foundation, but the app is still broken at the database layer.**
 
 ### ✅ What's Done Well
+
 - **Container stack** is solid — PHP 8.5-FPM + nginx + MySQL 5.7 + Redis, all running and communicating on Docker internal networking
 - **BaseController** is properly migrated — CI4-style HTTP request methods, response helpers, session handling
 - **BaseDao** exists with `SET NAMES utf8mb4` initialization
@@ -28,23 +29,28 @@ Here's the migration review:
 ### 🚨 Critical Blockers (App = HTTP 500)
 
 **1. Database connection is completely broken (THE root cause right now)**
+
 ```
 mysqli_sql_exception: No such file or directory
 ```
+
 `app/Config/Database.php` has `hostname: 'localhost'` hardcoded — inside the container, MySQL is on the `database` host, not a socket file. The env vars (`DB_HOST=database`, `DB_USER=root`, `DB_PASS=WeImg4096`) are injected into PHP but **never read by the `Database.php` config**. It needs to pull from `$_ENV` or `env()`.
 
 **2. Every controller still uses CI3-style `$this->load`** (~60+ occurrences across ~20 controllers):
+
 ```php
 $this->load->library(JSSDK::class);
 $this->load->model(UserDao::class);
 $this->load->library(WeChatPlatform::class);
 ```
+
 These need to become constructor-injected or service-locator resolved in CI4.
 
 **3. Libraries directory is almost empty** — `WeChatClient.php` is there, but:
-   - `JSSDK.php` — **missing**, still CI3
-   - `WeChatPlatform.php` — **missing**, still CI3
-   - `Pay.php`, `Sms.php`, `wx/WxPay.php`, `wx/WxPayCallback.php` — all missing CI4 versions
+
+- `JSSDK.php` — **missing**, still CI3
+- `WeChatPlatform.php` — **missing**, still CI3
+- `Pay.php`, `Sms.php`, `wx/WxPay.php`, `wx/WxPayCallback.php` — all missing CI4 versions
 
 **4. No `REST_Controller`** — checking the grep output showed no `REST_Controller` references, which is good (may have already been handled), but need to confirm all API controllers work.
 

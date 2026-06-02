@@ -62,5 +62,6 @@ printf '{}\n'
 ```
 
 已应用两项修复：
+
 1. **对 `terminal-notifier` 进行代码签名** —— 采用 ad-hoc 签名，使 macOS 通知中心能够正常显示通知
 2. **将噪声输出重定向到 `/dev/null`** —— 之前“Removing previous notification”这一行会向标准输出发送垃圾信息，从而触发 hook JSON 解析警告

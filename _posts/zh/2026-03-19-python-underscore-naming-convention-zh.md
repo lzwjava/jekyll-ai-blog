@@ -45,6 +45,7 @@ Python 不强制执行公共或私有名称的访问限制。它依赖命名约�
 Python 不会导入以单个下划线开头的名称，如果您使用 `from module import *` 从模块导入所有方法和名称。
 
 示例：
+
 ```python
 # mymodule.py
 def public_func():
@@ -67,15 +68,18 @@ _private_func()  # NameError: not imported!
 ## Python 中的完整下划线系统
 
 Python 识别以下使用前导或尾随下划线的特殊形式：
+
 - `_single_leading_underscore`: 弱“内部使用”指示器
 - `single_trailing_underscore_`: 用于避免与 Python 关键字冲突
 - `__double_leading_underscore`: 当命名类属性时，触发名称重整
 - `__double_leading_and_trailing_underscore__`: “magic” 对象或属性
 
 ### 单个下划线 `_func` — “Protected / Internal”
+
 如果您想表示属性或方法仅供类及其子类内部使用，而非外部使用，请为其添加单个下划线前缀 (`_`)。这向其他开发者发出信号，表示该属性或方法是“protected”，不应直接访问。
 
 ### 双下划线 `__func` — “带名称重整的 Private”
+
 如果您想使类外的属性或方法不易访问，以避免意外修改或使用，请添加双下划线前缀 (`__`)。这会触发名称重整，使从类外部访问该属性或方法变得更难（但并非不可能）。
 
 例如，在 `class Foo` 中的 `__method` 内部变为 `_Foo__method` ——如果知道重整后的名称，仍然可以访问，但它防止了子类中的意外冲突。

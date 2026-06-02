@@ -31,12 +31,14 @@ One session (accumulate context)          vs.    /clear between tasks
 ## Three Concrete Strategies
 
 ### Strategy 1: Full Session (Stateful)
+
 ```
 Turn 1: "Run htop, show me top 10 memory hogs"
 Turn 2: "Kill Chrome helper processes we found"
 Turn 3: "Now check if freed RAM, run again"
 Turn 4: "Purge inactive memory, compare before/after"
 ```
+
 Context accumulates → LLM remembers "Chrome was using 4GB" without you re-stating it. Good for **diagnostic → act → verify** loops.
 
 **Cost**: Each turn pays for ALL prior turns. Turn 4 costs ~4x Turn 1.
@@ -44,16 +46,19 @@ Context accumulates → LLM remembers "Chrome was using 4GB" without you re-stat
 ---
 
 ### Strategy 2: /clear Between Unrelated Tasks
+
 ```
 [Session A] Diagnose memory → find Chrome is culprit → /clear
 [Session B] "Kill all Chrome helpers" (self-contained command)
 [Session C] "Set up swap file" (unrelated task)
 ```
+
 Each session is cheap. No cross-contamination. Works when tasks are **independent**.
 
 ---
 
 ### Strategy 3: Hybrid — Summarize then /clear
+
 The best pattern for long iterative work:
 
 ```
@@ -121,6 +126,7 @@ The key insight: **keep context alive only as long as the LLM needs to reference
 ## The Mental Model
 
 Think of it like a **CPU register file**:
+
 - Context window = registers (fast, expensive, limited)
 - Your clipboard/notes = RAM (cheap, you manage it)
 - `/clear` = flush registers

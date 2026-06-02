@@ -29,6 +29,7 @@ IBM WebSphere Liberty Profile (often just called Liberty) is a lightweight, modu
 These views often come from devs who've migrated or compared it hands-on, highlighting trade-offs in flexibility vs. maturity. If you're evaluating Liberty, test it against your specific workload—it's great for microservices but can underwhelm in monoliths.
 
 References:
+
 - [Liberty Vs Websphere Full Profile for CLM](https://jazz.net/wiki/bin/view/Deployment/LibertyVersusWASFullProfileForCLM)
 - [Comparing IBM WebSphere vs. IBM WebSphere Liberty](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)
 - [What is "Liberty Profile" - IBM WebSphere Application Server V8.5](https://dzone.com/articles/what-liberty-profile-ibm)

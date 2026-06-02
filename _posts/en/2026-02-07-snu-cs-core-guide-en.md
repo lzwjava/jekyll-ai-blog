@@ -17,6 +17,7 @@ type: note
 At **Seoul National University (SNU)**, the **Department of Computer Science and Engineering (CSE)** (컴퓨터공학부) offers the undergraduate computer science major within the College of Engineering.
 
 The curriculum includes:
+
 - **General education** requirements (mathematics, physics, writing, liberal arts, etc.)
 - **Major required/foundation courses**
 - **Major electives** (with some internally required/recommended ones)
@@ -24,9 +25,11 @@ The curriculum includes:
 Students typically follow a structured path emphasizing fundamentals in the early years and advanced/specialized topics later. The program is flexible, with streams such as Algorithms and Information Security, Artificial Intelligence, Computer Architecture and Embedded Systems, Data Systems, and Graphics.
 
 ### Typical / Key Courses
+
 (Names based on recent department listings; course codes and exact titles may vary slightly by year.)
 
 **Freshman / Early Years (Foundation Courses):**
+
 - Discrete Mathematics (이산수학) — Required
 - Computer Programming (컴퓨터프로그래밍) — Required
 - Programming Practice / Exercises (프로그래밍연습)
@@ -35,6 +38,7 @@ Students typically follow a structured path emphasizing fundamentals in the earl
 - Introduction to Computing / Exploring Computing (컴퓨팅 살펴보기 or 컴퓨터과학이 여는 세계)
 
 **Sophomore / Intermediate Years:**
+
 - Data Structures (자료구조) — Core
 - Computer Architecture (컴퓨터구조)
 - Algorithms (알고리즘)
@@ -44,6 +48,7 @@ Students typically follow a structured path emphasizing fundamentals in the earl
 - Automata Theory (오토마타이론 / Automata and Formal Languages)
 
 **Junior / Senior Years (Advanced & Elective-Heavy):**
+
 - Artificial Intelligence (인공지능)
 - Database Systems (데이터베이스)
 - Computer Networks (컴퓨터네트워크 / Data Communications)
@@ -55,6 +60,7 @@ Students typically follow a structured path emphasizing fundamentals in the earl
 - Creative Integrated Design (창의적통합설계 I & II) — Capstone/project-based courses
 
 Many students take electives in high-demand areas like:
+
 - Computer Vision (컴퓨터비전)
 - Natural Language Processing (자연어처리)
 - Reinforcement Learning (강화학습)

@@ -67,6 +67,7 @@ Yolo mode only affects **dangerous-command approval prompts**. It does NOT chang
 Config changes like this are read at session startup. For **future sessions** (next time you run `hermes`), yolo will be on automatically. To apply it to your current session immediately, type `/yolo` (it toggles the approval bypass inline).
 
 To revert later:
+
 ```bash
 hermes config set approvals.mode manual    # back to default prompts
 hermes config set approvals.mode smart     # AI-assisted approval

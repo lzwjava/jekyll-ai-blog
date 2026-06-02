@@ -20,33 +20,41 @@ type: note
 
 由于 `edition2024` 是不稳定功能，您需要使用 Rust 和 Cargo 的夜间版本来编译项目。
 
-  * **安装夜间工具链：** 如果尚未安装，请使用 `rustup` 安装夜间工具链：
+* **安装夜间工具链：** 如果尚未安装，请使用 `rustup` 安装夜间工具链：
+
     ```bash
     rustup toolchain install nightly
     ```
-  * **使用夜间工具链构建：** 您可以指定 Cargo 在此命令中使用夜间工具链：
+
+* **使用夜间工具链构建：** 您可以指定 Cargo 在此命令中使用夜间工具链：
+
     ```bash
     OPENSSL_STATIC=yes cargo +nightly build --release
     ```
-  * **（可选）为项目设置默认使用夜间版：** 如果希望此项目始终使用夜间版，可以在项目根目录创建 `rust-toolchain.toml` 文件，内容如下：
+
+* **（可选）为项目设置默认使用夜间版：** 如果希望此项目始终使用夜间版，可以在项目根目录创建 `rust-toolchain.toml` 文件，内容如下：
+
     ```toml
     [toolchain]
     channel = "nightly"
     ```
+
     之后，您只需照常运行 `OPENSSL_STATIC=yes cargo build --release`，`rustup` 将自动为此项目选择夜间工具链。
 
 **2. 降级项目版本（如果 `edition2024` 功能非必需）**
 
 如果您的项目不严格依赖 `edition2024` 功能，可以将版本改回 `2021`（当前稳定版）。
 
-  * **编辑 `Cargo.toml`：** 打开项目的 `Cargo.toml` 文件（根据错误提示为 `/Users/lzwjava/projects/seeker/seeker/Cargo.toml`），修改 `edition` 字段：
+* **编辑 `Cargo.toml`：** 打开项目的 `Cargo.toml` 文件（根据错误提示为 `/Users/lzwjava/projects/seeker/seeker/Cargo.toml`），修改 `edition` 字段：
+
     ```toml
     [package]
     name = "your-package-name"
     version = "0.1.0"
     edition = "2021" # 将此处的 "2024" 改为 "2021"
     ```
-  * **运行 `cargo fix --edition`（可选但推荐）：** 更改版本后，建议运行 `cargo fix --edition` 自动更新部分代码以兼容旧版本。
+
+* **运行 `cargo fix --edition`（可选但推荐）：** 更改版本后，建议运行 `cargo fix --edition` 自动更新部分代码以兼容旧版本。
 
 ### Cargo 最新版本是什么？
 

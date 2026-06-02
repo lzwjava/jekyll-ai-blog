@@ -11,11 +11,13 @@ type: note
 ---
 
 ### Sample Exam Questions: Fundamentals of Electronic Technology (III)
+
 *(Based on Wen Xidong Edition, National Higher Education Self-Study Examination)*
 
 This set draws from past 自考 papers for the course 电子技术基础（三）. Topics include AC circuit analysis, semiconductors, transistors, and operational amplifiers. Questions are in English (translated from Chinese originals) for clarity. Each single-choice question is worth 1 point; the analysis question is worth 5 points.
 
 #### Section I: Single-Choice Questions
+
 Select the correct option (A, B, C, or D) for each.
 
 1. **Among the following descriptions of the characteristics of an ideal voltage source, the correct one is:**
@@ -50,6 +52,7 @@ Select the correct option (A, B, C, or D) for each.
    - D. NPN type silicon tube
 
 #### Section II: Analysis Question
+
 **Question 31 (5 points):** In the circuit shown in Figure 31 (a basic inverting op-amp configuration with input resistor \\( R_i = 10 \, \mathrm{k} \Omega \\), feedback resistor \\( R_f = 20 \, \mathrm{k} \Omega \\), input voltage \\( U_i = 10 \\) V), calculate the output voltage \\( U_o \\).
 
 *(Figure description: Standard op-amp inverting amplifier; non-inverting input grounded. Use the gain formula: \\( U_o = - \frac{R_f}{R_i} \times U_i \\).)*
@@ -59,5 +62,6 @@ Select the correct option (A, B, C, or D) for each.
 These align with chapters like AC phasors (Ch. 2), semiconductors (Ch. 3–4), and op-amps (Ch. 5). Practice tip: Review phasor arithmetic, carrier transport, and ideal op-amp rules.
 
 **References:**
+
 - [04730 电子技术基础(三) 2010.07 自考 历年真题 试题](https://wenku.baidu.com/view/a2a96333b90d6c85ec3ac6bf.html)
 - [自考电子技术基础（三）04730真题及答案免费分享](http://www.s9w.cn/zkzt408/)

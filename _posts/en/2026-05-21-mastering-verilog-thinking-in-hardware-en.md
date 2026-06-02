@@ -275,6 +275,7 @@ wc -l picorv32.v   # ~3000 lines — read all of it
 ```
 
 Key things to find inside:
+
 - The fetch/decode/execute FSM
 - The register file (32 x 32-bit registers)
 - How memory transactions work

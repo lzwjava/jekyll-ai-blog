@@ -22,7 +22,7 @@ def call_mistral_api(prompt):
         "messages": [{"role": "user", "content": prompt}],
     }
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         response_json = response.json()
         if response_json and response_json["choices"]:

@@ -45,6 +45,7 @@ pip install gunicorn
 ```
 
 支持异步模式：
+
 ```bash
 pip install gunicorn[gevent]    # 或 [eventlet], [tornado]
 ```
@@ -60,6 +61,7 @@ gunicorn [选项] 模块名:变量名
 ```
 
 Flask应用示例：
+
 ```bash
 gunicorn --workers 3 --bind 0.0.0.0:8000 run:app
 ```
@@ -112,12 +114,14 @@ workers = (2 × CPU核心数) + 1
 ```
 
 gevent/eventlet（异步）模式：
+
 ```text
 workers = CPU核心数
 threads = 100–1000（根据并发量调整）
 ```
 
 示例：
+
 ```bash
 gunicorn -k gevent --workers 2 --threads 200 run:app
 ```
@@ -147,6 +151,7 @@ preload_app = False
 ```
 
 运行命令：
+
 ```bash
 gunicorn --config gunicorn-cfg.py run:app
 ```
@@ -166,12 +171,14 @@ loglevel = "warning"
 ```
 
 或输出到标准输出（适用于Docker）：
+
 ```python
 accesslog = "-"
 errorlog = "-"
 ```
 
 日志格式：
+
 ```python
 access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"'
 ```
@@ -181,16 +188,19 @@ access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
 ## 优雅重启与零停机
 
 1. **重启工作器**（新代码部署）：
+
    ```bash
    kill -HUP <gunicorn进程ID>
    ```
 
 2. **优雅重启**：
+
    ```bash
    kill -TERM <gunicorn进程ID>
    ```
 
 3. **systemd集成**：
+
    ```ini
    [Service]
    ExecReload=/bin/kill -HUP $MAINPID
@@ -240,12 +250,14 @@ CMD ["gunicorn", "--config", "gunicorn-cfg.py", "run:app"]
 ```
 
 **优势分析**：
+
 - `PYTHONUNBUFFERED=1` → 实时日志输出
 - `PYTHONDONTWRITEBYTECODE=1` → 不生成`.pyc`文件
 - `--no-cache-dir` → 缩小镜像体积
 - 配置文件 → 保持CMD指令简洁
 
 **可选优化**：
+
 ```dockerfile
 # 使用非root用户
 RUN adduser --disabled-password --gecos '' appuser
@@ -281,6 +293,7 @@ WantedBy=multi-user.target
 ```
 
 启用服务：
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable --now gunicorn
@@ -305,6 +318,7 @@ sudo systemctl enable --now gunicorn
 - **日志**：实时查看访问/错误日志
 - **指标**：使用`prometheus-client` + Gunicorn导出器
 - **健康检查端点**：
+
   ```python
   @app.route("/health")
   def health():
@@ -326,11 +340,13 @@ async def root():
 ```
 
 运行命令：
+
 ```bash
 gunicorn -k uvicorn.workers.UvicornWorker run:app
 ```
 
 安装依赖：
+
 ```bash
 pip install "uvicorn[standard]"
 ```

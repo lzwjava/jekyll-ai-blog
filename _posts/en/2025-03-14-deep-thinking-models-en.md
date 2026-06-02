@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Key Points
+
 - Research suggests that deep thinking reasoner models, similar to Grok, ChatGPT o1, and DeepSeek R1, include several advanced AI systems designed for complex reasoning tasks.
 - It seems likely that options in the market include Grok (xAI), ChatGPT o1 (OpenAI), DeepSeek R1 (DeepSeek), Gemini models (Google), Claude (Anthropic), and QwQ-32B (Alibaba).
 - The evidence leans toward all these models providing a reasoning API, allowing developers to utilize their reasoning capabilities in applications.
@@ -16,10 +17,13 @@ type: note
 ---
 
 ### Overview
+
 Deep thinking reasoner models are advanced AI systems designed to perform complex reasoning tasks, such as solving mathematical problems, coding, and logical puzzles, often mimicking human-like step-by-step thinking. These models, like Grok, ChatGPT o1, and DeepSeek R1, are part of a growing trend in AI, focusing on transparency and multi-step logic.
 
 ### Market Options
+
 Based on recent analyses, the market includes several notable models similar to those mentioned:
+
 - **Grok** from xAI, known for its general-purpose AI capabilities with reasoning features.
 - **ChatGPT o1** from OpenAI, designed for PhD-level reasoning in areas like math and science.
 - **DeepSeek R1** from DeepSeek, an open-source model matching ChatGPT o1's performance at a lower cost.
@@ -30,6 +34,7 @@ Based on recent analyses, the market includes several notable models similar to 
 These models are part of the 2025 landscape, with each offering unique strengths in reasoning tasks.
 
 ### Reasoning API Availability
+
 All the listed models provide a reasoning API, enabling developers to integrate their reasoning capabilities into applications. This includes APIs for Grok ([xAI API](https://x.ai/api)), ChatGPT o1 ([OpenAI API](https://openai.com/product/)), DeepSeek R1 ([DeepSeek API Docs](https://api-docs.deepseek.com/)), Gemini models ([Google AI Gemini API](https://ai.google.dev/gemini_api_overview)), Claude ([Anthropic API](https://www.anthropic.com/api)), and QwQ-32B ([Qwen Team Blog](https://qwenlm.github.io/blog/qwq-32b/)). This means developers can access step-by-step reasoning or prompt models to include reasoning in responses, depending on the API's features.
 
 An unexpected detail is that while most models allow seeing step-by-step reasoning, Google's Gemini API may require specific prompting to include reasoning in responses, as recent updates removed a separate reasoning output field, according to user discussions on Reddit.
@@ -41,11 +46,13 @@ An unexpected detail is that while most models allow seeing step-by-step reasoni
 This section provides a detailed examination of deep thinking reasoner models, focusing on those similar to Grok, ChatGPT o1, and DeepSeek R1, and evaluates their reasoning API availability as of March 14, 2025. The analysis aims to offer a professional overview, suitable for developers, researchers, and AI enthusiasts, ensuring a strict superset of the information in the overview section.
 
 #### Introduction to Deep Thinking Reasoner Models
+
 Deep thinking reasoner models represent a specialized category of AI, designed to handle complex reasoning tasks beyond simple text generation. These models, often referred to as reasoning models, break down problems into manageable steps, evaluate evidence, and provide step-by-step explanations, aligning closely with human cognitive processes. The term "deep think" likely refers to models capable of advanced reasoning, such as mathematical problem-solving, coding, and logical reasoning, as exemplified by Grok, ChatGPT o1, and DeepSeek R1.
 
 Recent advancements, particularly in 2025, have seen these models gain prominence, driven by the need for AI systems that can tackle intricate problems with high interpretability. Articles from analyticsvidhya.com ([Top 6 AI Reasoning Models to Explore in 2025](https://www.analyticsvidhya.com/blog/2025/03/ai-reasoning-model/)) and e-discoveryteam.com ([Breaking New Ground: Evaluating the Top AI Reasoning Models of 2025](https://e-discoveryteam.com/2025/02/12/breaking-new-ground-evaluating-the-top-ai-reasoning-models-of-2025/)) highlight their transformative impact, especially in legal and scientific contexts, suggesting they may achieve Turing-level intelligence, comparable to average human reasoning.
 
 #### Market Options: Identifying Similar Models
+
 To identify models similar to Grok, ChatGPT o1, and DeepSeek R1, we analyzed recent reports and benchmarks from 2025. The following table lists the key models, their developers, and primary reasoning capabilities:
 
 | **Model**          | **Developer** | **Primary Reasoning Capabilities**                     |
@@ -62,6 +69,7 @@ These models were identified through various sources, including techcrunch.com (
 An interesting observation is Microsoft's potential entry with models like Phi-4, as noted by computerworld.com ([Microsoft introduces Phi-4, an AI model for advanced reasoning tasks](https://www.computerworld.com/article/3624280/microsoft-introduces-phi-4-an-ai-model-for-advanced-reasoning-tasks.html)), but these are still in testing and not as established as the listed models, so they are not included in the primary list.
 
 #### Detailed Analysis of Each Model
+
 - **Grok (xAI):** xAI's Grok, as seen on their API page ([xAI API](https://x.ai/api)), is a general-purpose model with reasoning capabilities, supporting function calling and structured outputs. It is accessible via an API, with recent updates mentioning Grok 3's superior reasoning, suggesting it aligns with the user's interest in deep thinking models.
 - **ChatGPT o1 (OpenAI):** OpenAI's o1, detailed on their product page ([OpenAI API](https://openai.com/product/)), is designed for advanced reasoning, particularly in STEM fields, with API support for developers to integrate its capabilities, as noted in datcamp.com ([OpenAI O1 API Tutorial: How to Connect to OpenAI's API](https://www.datacamp.com/tutorial/openai-o1-api)).
 - **DeepSeek R1 (DeepSeek):** DeepSeek's R1, covered in their API docs ([DeepSeek API Docs](https://api-docs.deepseek.com/)), is open-source and matches o1's performance, with API access compatible with OpenAI's format, as seen in medium.com ([DeepSeek-R1 free API. How to use DeepSeek-R1 for free using…](https://medium.com/data-science-in-your-pocket/deepseek-r1-free-api-58b47e849f1c)).
@@ -70,6 +78,7 @@ An interesting observation is Microsoft's potential entry with models like Phi-4
 - **QwQ-32B (Alibaba):** Alibaba's QwQ-32B, a compact reasoning model, is open-source and available via Hugging Face and Alibaba Cloud DashScope API, with examples in their blog ([Qwen Team Blog](https://qwenlm.github.io/blog/qwq-32b/)), demonstrating reasoning capabilities in responses.
 
 #### Reasoning API Availability: A Deep Dive
+
 The user's query specifically asks which of these models provide a reasoning API. All listed models offer APIs that support reasoning tasks, but the extent to which they expose step-by-step reasoning varies. The following table summarizes API availability and reasoning visibility:
 
 | **Model**          | **API Availability** | **Reasoning Visibility**                     |
@@ -84,11 +93,13 @@ The user's query specifically asks which of these models provide a reasoning API
 All models provide APIs, but an important detail is Google's Gemini, where recent changes (as per the Reddit discussion) mean users might need to explicitly prompt for reasoning, unlike others where it's part of the response or API feature. This could affect developer experience, especially for applications requiring transparent reasoning processes.
 
 #### Conclusion and Implications
+
 This analysis confirms that the market for deep thinking reasoner models is robust in 2025, with all listed models providing reasoning APIs. Developers can choose based on specific needs, such as cost (DeepSeek R1 and QwQ-32B are open-source), performance (Claude 3.7 Sonnet for coding), or integration ease (OpenAI and Google with established ecosystems). The unexpected detail about Gemini's API change highlights the dynamic nature of AI development, urging users to stay updated on API features.
 
 ---
 
 ### Key Citations
+
 - [xAI API Access and Models](https://x.ai/api)
 - [OpenAI Product and API Overview](https://openai.com/product/)
 - [DeepSeek API Documentation and News](https://api-docs.deepseek.com/)

@@ -13,6 +13,7 @@ Whether JShell is less convenient than Python's REPL (e.g., Python's interactive
 ### **JShell vs. Python REPL: Convenience Comparison**
 
 #### **1. Ease of Setup**
+
 - **JShell**:
   - Requires JDK 9 or later installed, and the `bin` directory must be in your system’s PATH.
   - Starting JShell (`jshell` command) is straightforward, but setup can be a hurdle for beginners if the JDK isn’t configured properly.
@@ -22,25 +23,31 @@ Whether JShell is less convenient than Python's REPL (e.g., Python's interactive
 - **Winner**: Python REPL is generally easier to set up and access, especially for non-Java developers.
 
 #### **2. Syntax and Interactivity**
+
 - **JShell**:
   - Java’s verbose, statically-typed syntax can feel cumbersome in JShell. For example, declaring variables requires explicit types:
+
     ```java
     jshell> int x = 5
     x ==> 5
     ```
+
   - JShell supports multi-line input and allows defining methods/classes, but the syntax is less forgiving than Python’s.
   - Features like tab completion and automatic imports (e.g., `java.util`) help, but it’s still more rigid.
 - **Python REPL**:
   - Python’s concise, dynamically-typed syntax is more forgiving and beginner-friendly:
+
     ```python
     >>> x = 5
     >>> x
     5
     ```
+
   - Python’s REPL is designed for rapid experimentation, with less boilerplate and immediate feedback.
 - **Winner**: Python REPL feels more convenient for quick prototyping due to its simpler syntax and dynamic typing.
 
 #### **3. Features and Commands**
+
 - **JShell**:
   - Offers powerful commands like `/vars`, `/methods`, `/edit`, `/save`, and `/open` for managing snippets and sessions.
   - Supports advanced Java features (e.g., lambdas, streams) and integrates well with Java libraries.
@@ -51,6 +58,7 @@ Whether JShell is less convenient than Python's REPL (e.g., Python's interactive
 - **Winner**: JShell has more built-in tools for managing code snippets, but Python with IPython often provides a more polished and flexible experience.
 
 #### **4. Error Handling and Feedback**
+
 - **JShell**:
   - Provides clear error messages and allows redefinition of snippets to fix errors.
   - Feedback modes (`/set feedback`) let you control verbosity, but error messages can sometimes feel verbose due to Java’s nature.
@@ -60,6 +68,7 @@ Whether JShell is less convenient than Python's REPL (e.g., Python's interactive
 - **Winner**: Python REPL generally offers simpler error messages, making it more convenient for rapid trial-and-error.
 
 #### **5. Use Case Suitability**
+
 - **JShell**:
   - Ideal for Java developers testing Java-specific features (e.g., streams, lambdas, or library APIs).
   - Great for learning Java syntax or prototyping small Java programs without needing a full IDE.
@@ -70,6 +79,7 @@ Whether JShell is less convenient than Python's REPL (e.g., Python's interactive
 - **Winner**: Python REPL is more versatile for general-purpose use, while JShell is better for Java-specific tasks.
 
 #### **6. Ecosystem Integration**
+
 - **JShell**:
   - Tightly integrated with the Java ecosystem, making it a natural choice for Java developers.
   - Limited to Java’s ecosystem, so it’s less flexible for tasks outside Java (e.g., data science, scripting).
@@ -79,7 +89,9 @@ Whether JShell is less convenient than Python's REPL (e.g., Python's interactive
 - **Winner**: Python REPL benefits from a broader ecosystem, making it more convenient for diverse tasks.
 
 ### **Conclusion**
+
 Yes, JShell can feel less convenient than Python’s REPL for many users due to:
+
 - Java’s verbose, statically-typed syntax vs. Python’s concise, dynamic nature.
 - Python’s simpler setup and broader applicability for quick scripting and non-Java tasks.
 - Python’s enhanced REPL options (e.g., IPython) offering a more polished experience.

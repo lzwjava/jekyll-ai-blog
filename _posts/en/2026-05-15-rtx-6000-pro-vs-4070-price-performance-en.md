@@ -16,6 +16,7 @@ Answer:
 Let’s break this down carefully:
 
 ### 1. **Memory Configuration**
+
 - **Single 96 GB module vs multiple smaller modules (8×12 GB = 96 GB)**
   - Buying a single 96 GB GPU (e.g., NVIDIA RTX 6000 Pro) is extremely convenient—you don’t have to manage multiple GPUs or memory aggregation.
   - Using 8×12 GB GPUs to reach 96 GB requires multi-GPU setup, PCIe bandwidth management, and often software like **NVLink**, **CUDA multi-GPU programming**, or **PyTorch DistributedDataParallel** to fully utilize memory. It’s less convenient, and you may not always get perfect scaling.
@@ -33,15 +34,18 @@ Let’s break this down carefully:
 | Price (approx.) | ¥76,999 | ¥5,000 |
 
 **Key insights:**
+
 - **RTX 6000 Pro**: massive VRAM and FP32 performance, ECC memory for reliability, ideal for **large AI models, 3D rendering, or simulation**. Cost is high, but you get a single-card solution with huge memory.
 - **RTX 4070**: extremely cost-effective, great for **gaming, moderate AI training**, but limited VRAM (12 GB). You’d need multiple cards to reach 96 GB, and scaling across 8 GPUs is complex.
 
 ### 3. **Practical Takeaways**
+
 - If you want **ease of use** and ability to train **large models on a single GPU**, the **RTX 6000 Pro** is unbeatable.
 - If you’re **budget-conscious** and can manage multi-GPU setups, 8×12 GB RTX 4070s are cheaper in raw hardware cost, but consider software complexity, power draw, cooling, and physical space.
 - For **AI experiments at home** (like fine-tuning LLaMA-style models), multiple RTX 4070s can work, but if model size exceeds ~12 GB per card, you’ll need **model parallelism**.
 
 **Summary:**
+
 - Single 96 GB RTX 6000 Pro = convenience, reliability, high upfront cost.
 - 8×12 GB RTX 4070 = cheaper upfront (~¥40k), harder to manage, potential scaling issues.
 

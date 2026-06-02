@@ -20,6 +20,7 @@ Here is the default OSPF Router ID (RID) election order in Cisco (and most stand
 4. If none of the above exist, OSPF won't start (it requires a RID).
 
 **Summary of default order**:
+
 - Manually configured RID → **wins always**
 - → Highest loopback IP
 - → Highest physical interface IP (that is up/up)

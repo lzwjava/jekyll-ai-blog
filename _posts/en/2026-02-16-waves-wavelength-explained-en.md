@@ -30,6 +30,7 @@ There are two main big categories of waves:
   Examples: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays
 
 All waves can be described by these basic properties:
+
 - **Amplitude** — how big / strong the wave is (height of the wave)
 - **Wavelength** — distance between two identical points on the wave (explained below)
 - **Frequency** — how many waves pass a point per second (measured in Hertz, Hz)
@@ -40,6 +41,7 @@ All waves can be described by these basic properties:
 **Wavelength** is the **distance** between **two consecutive identical points** on a wave.
 
 Common ways to measure it:
+
 - From **crest to crest** (top to top)
 - From **trough to trough** (bottom to bottom)
 - From any point to the same point on the next wave
@@ -47,12 +49,14 @@ Common ways to measure it:
 Symbol: **λ** (Greek letter lambda)
 
 Units: usually meters (m), but can be:
+
 - millimeters (mm)
 - centimeters (cm)
 - micrometers (μm)
 - nanometers (nm) — especially for light
 
 **Examples of wavelengths (approximate)**:
+
 - Middle C sound wave in air → ~1.3 m
 - Concert A (440 Hz) → ~0.78 m
 - FM radio → 3–4 meters

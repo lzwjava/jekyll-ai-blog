@@ -19,6 +19,7 @@ The substance you're describing from cold delivery packages (like meal kits, fre
 These packs are sealed plastic pouches filled with a gel that keeps products cold during transit. When the pack thaws or if it breaks/leaks, the gel comes out.
 
 **Key characteristics matching your description:**
+
 - It often appears as a **transparent or clear** (sometimes slightly cloudy/whitish) viscous liquid or gel.
 - The texture is slimy, gooey, and porridge-like (thick and semi-liquid).
 - It contains small granular or bead-like particles (not tiny like sand but noticeable chunks or granules in some formulations), giving it a "like sand" feel with visible size.
@@ -27,6 +28,7 @@ These packs are sealed plastic pouches filled with a gel that keeps products col
 This polymer is the same type used in diapers to absorb liquids. In gel packs, it's mixed with mostly water (and sometimes minor additives) to create a thick gel that freezes and thaws slowly, providing longer cooling than plain ice without melting into a mess.
 
 **Common composition:**
+
 - Primarily water.
 - Sodium polyacrylate (super-absorbent polymer) — this is what makes it gel-like, absorbent, and able to hold shape/size when swollen.
 - Non-toxic in small amounts (safe if accidentally touched, but not for eating/drinking).
@@ -34,6 +36,7 @@ This polymer is the same type used in diapers to absorb liquids. In gel packs, i
 These are **not** the small silica gel desiccant packets (those are dry beads for absorbing moisture, not cold-related, and they don't turn into liquid gel).
 
 **What to do with it:**
+
 - If the pack is intact: Refreeze and reuse if possible, or follow the delivery company's disposal instructions (often cut open, squeeze gel into trash, recycle plastic pouch).
 - If leaked: The gel is safe for trash disposal (it's non-toxic and water-soluble in many cases); clean up spills with paper towels.
 

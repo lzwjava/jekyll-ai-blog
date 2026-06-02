@@ -30,6 +30,7 @@ New repos by category:
   infra-network (+6): mihomo, chroma, qdrant, localGPT, quivr, llm-app
 
 Key picks:
+
 - vllm (★81k) — high-throughput inference, essential for serving
 - ollama (★173k) — local model runner, most popular in its class
 - transformers (★161k) — HuggingFace model framework, fundamental

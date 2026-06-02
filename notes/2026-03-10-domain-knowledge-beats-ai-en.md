@@ -40,7 +40,6 @@ More formally, Bootstrap 5 inline forms use `row-cols-lg-auto` to create horizon
 </form>
 ```
 
-
 ### Key Replacement Classes Summary
 
 | Bootstrap 4 (removed) | Bootstrap 5 Replacement |
@@ -65,6 +64,7 @@ The second person gives AI **precise, actionable context** — the AI doesn't ha
 ### 2. They Can Read the Console / DevTools
 
 Without being able to open **browser DevTools**, you can't tell:
+
 - If Bootstrap 5 is actually loaded (vs Bootstrap 4)
 - Which CSS class is failing / missing
 - Whether it's a version mismatch, wrong class name, or structural issue
@@ -84,6 +84,7 @@ The AI response quality is **directly proportional** to the quality of context g
 ### 4. They Can Verify and Iterate
 
 AI can generate plausible-looking but subtly wrong code. Engineers:
+
 - Inspect rendered output in DevTools
 - Check responsive breakpoints
 - Validate accessibility (`visually-hidden` labels, `aria` attributes)
@@ -100,6 +101,7 @@ The Bootstrap 5 migration guide explicitly states: "Dropped form-specific layout
 > **AI amplifies the capable. It does not replace capability.**
 
 Engineers bring:
+
 - **Diagnostic ability** — know what to look for
 - **Vocabulary** — frame the problem precisely
 - **Verification** — validate AI output against reality

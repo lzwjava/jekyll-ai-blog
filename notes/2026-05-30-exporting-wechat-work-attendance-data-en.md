@@ -16,13 +16,16 @@ type: note
 WeChat Work doesn't expose a direct UI export for individual users. Here are your actual options, ranked by feasibility:
 
 ### 1. **Admin export (if you have org admin access)**
+
 If your organization admin has enabled data export, they can batch-export attendance via:
+
 - Admin console → Work → Attendance/Punch Card → Data Export
 - This exports for the whole org, but at least it's structured data
 
 Ask your admin if this is enabled.
 
 ### 2. **API + script (most reliable for engineers)**
+
 If your org has API access enabled:
 
 ```python
@@ -40,11 +43,14 @@ with open('attendance.csv', 'w') as f:
 ```
 
 You'll need:
+
 - `corpid` and `corpsecret` (ask your admin)
 - The official [WeChat Work API docs](https://work.weixin.qq.com/api/doc/90000/90135/90269)
 
 ### 3. **Browser DevTools scraping (quick workaround)**
+
 Open WeChat Work web (work.weixin.qq.com):
+
 - Navigate to Attendance → Monthly Details
 - Open DevTools (F12) → Network tab
 - The page makes API calls to fetch data — copy the response JSON
@@ -64,7 +70,9 @@ with open('attendance.csv', 'w') as f:
 ```
 
 ### 4. **Screenshots → OCR (last resort)**
+
 If nothing else works, take screenshots and use Tesseract OCR:
+
 ```bash
 tesseract screenshot.png output.txt
 # Manual cleanup to CSV

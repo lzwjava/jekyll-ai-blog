@@ -37,42 +37,52 @@ Now, let’s dive into the codes you’re most likely to encounter.
 Here’s a rundown of the most popular HTTP response codes, with examples to make them crystal clear:
 
 ### 200 OK
+
 - **What it means**: The request worked perfectly. The server processed it and sent back the data you asked for.
 - **Example**: Loading a webpage like `www.example.com` without a hitch? That’s a 200 OK.
 
 ### 201 Created
+
 - **What it means**: Your request was successful, and a new resource was created as a result.
 - **Example**: Submitting a form to sign up for a newsletter, and the server confirms your account was made.
 
 ### 301 Moved Permanently
+
 - **What it means**: The resource you want has permanently moved to a new URL, and you should use that new address going forward.
 - **Example**: A blog post shifts from `oldblog.com/post1` to `newblog.com/post1`, and the server redirects you.
 
 ### 302 Found
+
 - **What it means**: The resource is temporarily at a different URL, but keep using the original one for future requests.
 - **Example**: A site’s homepage is briefly redirected to a holiday sale page.
 
 ### 404 Not Found
+
 - **What it means**: The server can’t find what you’re looking for—maybe the page is gone or the URL is wrong.
 - **Example**: Typing `www.example.com/oops` and landing on an error page because “oops” doesn’t exist.
 
 ### 403 Forbidden
+
 - **What it means**: The server knows what you want but won’t let you have it because you lack permission.
 - **Example**: Trying to access a private admin panel without logging in.
 
 ### 401 Unauthorized
+
 - **What it means**: You need to authenticate (like logging in) before you can proceed.
 - **Example**: Visiting a members-only forum without signing in first.
 
 ### 400 Bad Request
+
 - **What it means**: The server can’t make sense of your request due to bad syntax or invalid data.
 - **Example**: Submitting a form with an email field that’s just gibberish like “@#$%”.
 
 ### 500 Internal Server Error
+
 - **What it means**: Something broke on the server’s end, but it’s not telling you what.
 - **Example**: A website crashes because of a bug the developers didn’t catch.
 
 ### 503 Service Unavailable
+
 - **What it means**: The server’s down—maybe for maintenance or because it’s overloaded.
 - **Example**: Trying to shop online during a massive sale, only to see a “try again later” message.
 

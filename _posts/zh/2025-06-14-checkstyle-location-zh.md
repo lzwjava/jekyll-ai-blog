@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 步骤 1：修复 `checks.xml` 文件位置
+
 错误提示插件无法找到 `checks.xml`。由于该文件位于项目根目录（而非插件通常查找的 `src/main/resources` 目录），您需要明确告知插件其位置。
 
 - **操作**：更新 `pom.xml` 中的 `<configLocation>`，使其指向项目根目录。
@@ -20,6 +21,7 @@ type: note
 ---
 
 ### 步骤 2：解决 `SuppressWithNearbyTextFilter` 错误
+
 `SuppressWithNearbyTextFilter` 模块初始化失败是因为插件使用的 Checkstyle 版本过旧，不支持此过滤器。您需要升级插件并指定兼容的 Checkstyle 版本。
 
 - **操作**：将 `maven-checkstyle-plugin` 升级至版本 `3.3.1`，并添加对 Checkstyle 版本 `10.17.0` 的依赖，该版本支持 `SuppressWithNearbyTextFilter`。
@@ -27,6 +29,7 @@ type: note
 ---
 
 ### 更新后的 `pom.xml` 配置
+
 按如下方式修改 `pom.xml` 中的 `maven-checkstyle-plugin` 部分：
 
 ```xml
@@ -56,7 +59,8 @@ type: note
 </plugin>
 ```
 
-#### 说明：
+#### 说明
+
 - **`<configLocation>${project.basedir}/checks.xml</configLocation>`**：指定 `checks.xml` 位于项目根目录（`${project.basedir}` 是 Maven 属性，表示根目录）。
 - **`version 3.3.1`**：使用更新的插件版本以获得更好的兼容性。
 - **Checkstyle `10.17.0` 依赖**：确保插件使用包含 `SuppressWithNearbyTextFilter` 的 Checkstyle 版本。
@@ -64,6 +68,7 @@ type: note
 ---
 
 ### 步骤 3：验证 `checks.xml` 配置
+
 确保 `checks.xml` 中的 `SuppressWithNearbyTextFilter` 模块正确定义。示例配置可能如下：
 
 ```xml
@@ -78,12 +83,16 @@ type: note
 ---
 
 ### 步骤 4：测试修复
+
 - 运行以下命令进行测试：
+
   ```bash
   mvn clean checkstyle:check
   ```
+
 - 如果修复成功，插件应能找到 `checks.xml` 并处理所有模块而无错误。
 - 要确保 Checkstyle 在编译期间运行，请使用：
+
   ```bash
   mvn compile
   ```
@@ -91,17 +100,22 @@ type: note
 ---
 
 ### 可选：替代文件位置
+
 如果您倾向于更标准的 Maven 设置：
+
 - 将 `checks.xml` 移至 `src/main/resources/checks.xml`。
 - 将 `<configLocation>` 更新为：
+
   ```xml
   <configLocation>classpath:checks.xml</configLocation>
   ```
+
 - 这符合 Maven 将资源放置在 `src/main/resources` 的约定。
 
 ---
 
 ### 补充说明
+
 - **无关警告**：如果您在 `/usr/share/maven/conf/settings.xml` 中看到有关 `<blocked>` 标签的警告，这与当前问题无关，但表明您的 Maven 设置文件存在问题。如有需要，请单独检查。
 - **问题仍未解决？** 请提供以下信息以获取进一步帮助：
   - `checks.xml` 的内容（或片段）。
@@ -118,6 +132,7 @@ type: note
 要解决此问题并确保 `maven-checkstyle-plugin` 在运行 `mvn compile` 时使用您位于项目根目录的自定义 `checks.xml`，您需要更新 `<configLocation>` 以指向文件的绝对路径或项目相对路径。此外，您需要通过确保与 Checkstyle 版本的兼容性来解决 `SuppressWithNearbyTextFilter` 问题。以下是逐步解决方案。
 
 ### 更新后的 `pom.xml` 配置
+
 修改 `pom.xml` 中的 `maven-checkstyle-plugin`，以引用项目根目录的 `checks.xml`，并使用兼容的 Checkstyle 版本来支持 `SuppressWithNearbyTextFilter`。
 
 ```xml
@@ -178,6 +193,7 @@ type: note
 ```
 
 ### 更改说明
+
 1. **更新 `<configLocation>`**：
    - 更改为 `${project.basedir}/checks.xml`，以指向项目根目录的 `checks.xml`（`~/Projects/blog-server/checks.xml`）。
    - `${project.basedir}` 解析为包含 `pom.xml` 的目录，确保插件无论类路径如何都能找到文件。
@@ -195,6 +211,7 @@ type: note
    - 保留了 `<resources>` 部分以确保处理 `src/main/resources` 文件（如 `application.yaml`），尽管这与 `checks.xml` 无直接关系，因为它现在位于项目根目录。
 
 ### 验证 `checks.xml` 内容
+
 关于 `SuppressWithNearbyTextFilter` 的错误表明您的 `checks.xml` 引用了此过滤器。请确保其正确配置。有效示例如下：
 
 ```xml
@@ -218,38 +235,50 @@ type: note
 - **操作**：如果不确定，请暂时移除 `<module name="SuppressWithNearbyTextFilter"/>` 部分并进行测试以隔离问题。
 
 ### 测试配置
+
 1. **清理项目**：
+
    ```bash
    mvn clean
    ```
+
    这将移除 `target` 目录，包括 `checkstyle-checker.xml` 和 `checkstyle-result.xml`，确保没有陈旧的构件干扰。
 
 2. **运行 Checkstyle**：
+
    ```bash
    mvn checkstyle:check
    ```
+
    这将独立测试 Checkstyle 配置。
 
 3. **运行编译**：
+
    ```bash
    mvn compile
    ```
+
    由于绑定了 `compile` 阶段，这应运行 Checkstyle，然后如果没有违规导致构建失败，则进行编译。
 
 ### 如果问题持续存在，请进行调试
+
 如果遇到错误：
+
 1. **检查文件路径**：
    - 确认 `checks.xml` 存在于 `~/Projects/blog-server/checks.xml`。
    - 验证文件名确为 `checks.xml`（区分大小写，无隐藏扩展名）。
 
 2. **使用调试日志运行**：
+
    ```bash
    mvn clean checkstyle:check -X
    ```
+
    查找有关 `checks.xml` 加载或 `SuppressWithNearbyTextFilter` 初始化的消息。如果错误持续存在，请分享相关输出。
 
 3. **使用最小化 `checks.xml` 进行测试**：
    临时将 `checks.xml` 替换为最小化配置，以排除文件内容的问题：
+
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <!DOCTYPE module PUBLIC
@@ -261,12 +290,15 @@ type: note
        </module>
    </module>
    ```
+
    然后运行 `mvn checkstyle:check`。如果此配置工作正常，则问题出在原始 `checks.xml` 中的 `SuppressWithNearbyTextFilter` 或其他模块。
 
 ### 补充说明
+
 - **Settings.xml 警告**：您的输出显示 `/usr/share/maven/conf/settings.xml` 中存在关于无法识别的 `<blocked>` 标签的警告。这与 Checkstyle 问题无关，但表明您的 Maven 配置可能存在潜在问题。请检查 `/usr/share/maven/conf/settings.xml` 的第 164 行，并移除或更正 `<blocked>` 标签，因为它不是标准的 Maven 设置元素。
 - **替代文件位置**：如果您愿意，可以将 `checks.xml` 移至 `src/main/resources/checks.xml`，并将 `<configLocation>` 恢复为 `classpath:checks.xml`。这对于 Maven 项目更为常规，因为资源会自动包含在类路径中。
 - **违规时失败**：如果 Checkstyle 违规导致构建失败，而您希望允许编译继续进行，请在插件的 `<configuration>` 中添加 `<failOnViolation>false</failOnViolation>`：
+
   ```xml
   <configuration>
       <configLocation>${project.basedir}/checks.xml</configLocation>
@@ -275,7 +307,9 @@ type: note
   ```
 
 ### 验证
+
 应用更改后：
+
 1. 运行 `mvn clean compile` 并确认：
    - Checkstyle 使用项目根目录的 `checks.xml` 运行。
    - 没有出现与 `checks.xml` 或 `SuppressWithNearbyTextFilter` 相关的错误。
@@ -283,6 +317,7 @@ type: note
 2. 检查 `target/checkstyle-result.xml` 以查看 Checkstyle 结果。
 
 如果错误仍然存在，请分享：
+
 - `checks.xml` 的内容（或相关片段）。
 - `mvn clean checkstyle:check -X` 的调试输出。
 - 您尝试使用 `SuppressWithNearbyTextFilter` 强制执行的任何特定 Checkstyle 规则。

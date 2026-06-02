@@ -38,6 +38,7 @@ The recommended approach is exactly what you described:
 > **Description:** Deployed at Standard Chartered Bank — working on [your actual project/stack]
 
 This gives you:
+
 - ✅ A **permanent-looking employer** (Chinasoft/TEKsystems)
 - ✅ **Bank-level project credibility** (SCB/DBS mentioned in description)
 - ✅ **Longer tenure appearance** if you stay with the vendor across multiple deployments

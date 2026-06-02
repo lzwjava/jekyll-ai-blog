@@ -17,6 +17,7 @@ type: note
 当请求到达 IBM WAS 时，典型的流程如下：
 
 **1. Web 服务器层（可选）**
+
 - 请求首先到达 IBM HTTP Server (IHS) 或其他 Web 服务器
 - Web 服务器插件将请求路由到相应的 WAS 实例
 
@@ -32,10 +33,12 @@ com.ibm.ws.webcontainer.*
 路由通过以下几个组件实现：
 
 **传输通道框架**
+
 - `com.ibm.ws.channel.*` - 处理网络通信
 - HTTP 传输通道接收请求
 
 **Web 容器处理**
+
 ```
 com.ibm.ws.webcontainer.servlet.ServletWrapper
 com.ibm.ws.webcontainer.filter.WebAppFilterManager
@@ -63,6 +66,7 @@ com.ibm.ws.webcontainer.filter.WebAppFilterManager
 ```
 
 **过滤器执行顺序：**
+
 1. WAS 在应用程序启动时加载过滤器配置
 2. WebAppFilterManager 创建过滤器链
 3. 每个请求：请求 → 过滤器1 → 过滤器2 → ... → Servlet
@@ -70,6 +74,7 @@ com.ibm.ws.webcontainer.filter.WebAppFilterManager
 ## IBM WAS 中的主要包
 
 **核心包：**
+
 - `com.ibm.ws.webcontainer.*` - Web 容器实现
 - `com.ibm.ws.runtime.*` - 运行时服务
 - `com.ibm.websphere.servlet.*` - WAS 特定的 servlet 扩展
@@ -80,22 +85,26 @@ com.ibm.ws.webcontainer.filter.WebAppFilterManager
 ## 路由机制
 
 **虚拟主机路由：**
+
 - 在 WAS 管理控制台中配置
 - 将 `主机名:端口` 组合映射到应用程序
 - 配置路径：`虚拟主机 → 主机别名 → 应用程序`
 
 **上下文根路由：**
+
 - 每个应用程序都有一个上下文根（例如 `/myapp`）
 - WAS 维护已部署应用程序的注册表
 - URI 映射：`http://服务器:端口/上下文根/servlet路径`
 
 **Servlet 映射：**
+
 - 在 web.xml 或注解中定义
 - 模式匹配（精确匹配、路径匹配、扩展名匹配、默认匹配）
 
 ## 应用程序启动顺序
 
 当应用程序启动时：
+
 1. **类加载器初始化** - 应用程序获得自己的类加载器
 2. **web.xml 解析** - 加载过滤器、servlet、监听器
 3. **ServletContextListener 触发** - `contextInitialized()`

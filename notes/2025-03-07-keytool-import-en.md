@@ -35,6 +35,7 @@ When you execute this command, `keytool` prompts you to enter the keystore passw
 For the `cacerts` file in a standard JRE installation (such as those from Oracle or OpenJDK), the **default password** is **"changeit"**. This is a well-documented default across Java versions and distributions. The name "changeit" serves as a reminder that administrators might want to change it for security reasons, but in most standard, unmodified installations, it remains unchanged.
 
 Since your command is failing with a password verification error, the most likely issue is that either:
+
 1. You didn’t enter "changeit" correctly (e.g., a typo or incorrect case—passwords are case-sensitive).
 2. The password prompt wasn’t handled properly.
 3. In your specific environment, the default password has been changed (though this is less common for `cacerts` unless explicitly modified by a system administrator).
@@ -82,6 +83,7 @@ Here’s how you can resolve the problem:
 ### What If "changeit" Isn’t the Password?
 
 If "changeit" doesn’t work, consider these possibilities:
+
 - **Custom Password**: In rare cases, a system administrator might have changed the `cacerts` password. You’d need to consult your system documentation or administrator to obtain it. There’s no way to recover a lost keystore password directly; if it’s truly unknown, you might need to replace the `cacerts` file with a fresh copy from a new JRE installation (which resets it to "changeit").
 - **Environment-Specific Defaults**: Some non-standard Java distributions (e.g., IBM JDK) might use a different default, but this is uncommon, and your query suggests a typical setup.
 
@@ -90,6 +92,7 @@ Without additional context, "changeit" remains the most probable password in a s
 ### Final Resolution
 
 To fix your issue:
+
 - Use this command, assuming a standard JRE:
 
   ```

@@ -19,12 +19,14 @@ type: note
 尽管 **ab** 最初是为测试 Apache 开发的，但它对 **任何 HTTP Server**（如 Nginx、Node.js/Express、Go、Java Spring、Python Flask/FastAPI 等）都表现良好。
 
 ### ab 的主要用途
+
 - 快速估算服务器每秒可以处理多少请求（**QPS / RPS**）
 - 衡量不同 Concurrency（并发）级别下的 **Response Latency**（响应延迟）
 - 识别单个 Endpoint（端点）的大致 **Breaking Points**（崩溃点）或饱和点
 - 比较代码或 Configuration 更改前后的性能
 
 **ab 并不是**一个功能完备的 Load Testing 工具（相比于 JMeter、Locust、k6、Gatling、wrk 等）。它有一定的局限性：
+
 - 仅支持 **HTTP/1.0 和 HTTP/1.1**（不支持 HTTP/2 或 HTTP/3）
 - 无法进行高级 Scripting 或复杂场景模拟
 - 仅支持单机测试（无 Distributed Testing）
@@ -33,6 +35,7 @@ type: note
 尽管如此，它在快速 Smoke Tests（冒烟测试）、CI/CD Pipeline 检查和基础 QPS 验证中仍然非常受欢迎。
 
 ### 如何安装 ab
+
 大多数 Linux 发行版将其包含在 `apache2-utils` 或 `httpd-tools` 软件包中。
 
 ```bash
@@ -50,12 +53,14 @@ brew install httpd
 ```
 
 检查版本：
+
 ```bash
 ab -V
 # ApacheBench, Version 2.3 <$Revision: ... $>
 ```
 
 ### 基础用法与 QPS 测试的核心参数
+
 ```bash
 ab [options] [http[s]://]hostname[:port]/path
 ```
@@ -78,11 +83,13 @@ QPS 测试中最重要的选项：
 ### 经典的 QPS 测试模式
 
 1. **快速冒烟测试**（小负载）
+
 ```bash
 ab -n 1000 -c 20 -k https://your-api.com/health
 ```
 
 2. **典型的真实 API 测试**
+
 ```bash
 ab -n 5000 -c 100 -k \
    -H "Authorization: Bearer eyJhb..." \
@@ -90,6 +97,7 @@ ab -n 5000 -c 100 -k \
 ```
 
 3. **POST JSON 测试**
+
 ```bash
 # 准备 postdata.json
 echo '{"username":"test","password":"123456"}' > postdata.json
@@ -146,6 +154,7 @@ Percentage of the requests served within a certain time (ms)
 ```
 
 需要关注的关键指标：
+
 - **Requests per second (mean)** → 主要的 QPS 数值
 - **Time per request (mean)** → 客户端看到的平均延迟
 - **Failed requests** → 应为 0（或非常低）
@@ -153,6 +162,7 @@ Percentage of the requests served within a certain time (ms)
 - 当增加 `-c` 但 **QPS 停止显著增长**时 → 达到饱和点
 
 ### 建议与最佳实践
+
 - 为进行真实的 HTTP/1.1 测试，务必使用 `-k` (Keep-Alive)
 - 运行多次测试并取中位数/平均值（避免异常值）
 - 从网络状况良好的机器对目标进行测试（低延迟）

@@ -20,6 +20,7 @@ Both questions hit real pain points.
 This is why Hermes saves trajectories (`save_trajectories=True`) — they capture the full message chain including tool results. But even trajectories show the model's *outputs*, not the latent reasoning that led to them.
 
 Practical mitigation:
+
 - Verbose tool outputs help (the "why" is sometimes in the model's text before a tool call)
 - Session search can recover context around decisions
 - Writing plans first (the `/plan` pattern) externalizes the "why" into a markdown file
@@ -33,6 +34,7 @@ Practical mitigation:
 3. **Process crash / timeout:** The session DB (SQLite) persists messages at each turn boundary. A crash mid-turn loses that turn's work but everything before it survives. `/resume` reloads from the DB.
 
 The real danger is **partial side effects**: a subagent writes half a file, a terminal command modifies state then the agent dies, a git commit goes through but the follow-up fix doesn't. There's no transactional rollback. This is why long tasks benefit from:
+
 - Frequent commits (so you can `git diff` / `git stash`)
 - Plans as checkpoints (`.hermes/plans/`)
 - Breaking work into subagents (each is atomic-ish — succeeds or fails as a unit)

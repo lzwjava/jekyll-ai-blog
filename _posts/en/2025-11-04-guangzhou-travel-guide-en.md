@@ -15,6 +15,7 @@ type: note
 Guangzhou (also known as Canton) is a dynamic metropolis blending ancient Cantonese traditions with cutting-edge modernity. As a gateway to China, it's renowned for its role in the Silk Road, revolutionary history, dim sum cuisine, massive trade economy, and booming creative scene. Below, I've curated top spots grouped by theme, focusing on immersive experiences. These recommendations draw from current 2025 travel insights, prioritizing authenticity and accessibility. Aim for 3-5 days to cover them, using the metro for easy navigation.
 
 #### History & Culture
+
 These sites showcase Guangzhou's 2,200-year legacy as a trading hub and cradle of Cantonese opera, architecture, and festivals.
 
 - **Chen Clan Academy (Chen Clan Ancestral Hall)**: A stunning 19th-century complex with intricate wood carvings, ceramics, and folk art exhibits. It's a window into clan culture and Guangdong's artisan heritage—perfect for understanding Confucian traditions. (Entry: ~¥10; best in morning for fewer crowds.)
@@ -26,6 +27,7 @@ These sites showcase Guangzhou's 2,200-year legacy as a trading hub and cradle o
 - **Temple of the Six Banyan Trees**: An ancient Buddhist site from 537 AD, featuring a pagoda, incense rituals, and vegetarian temple food. It represents spiritual history amid the city's hustle.
 
 #### Food
+
 Guangzhou is the birthplace of Cantonese cuisine ("yum cha" dim sum culture). Focus on fresh seafood, steamed buns, and congee—eat like locals at these spots.
 
 - **Guangzhou Restaurant (Tao Tao Ju branch)**: One of the city's oldest (est. 1880), famous for classic dim sum like har gow (shrimp dumplings) and siu mai. Arrive early for window seats overlooking the street—affordable (~¥50-100/person).
@@ -37,6 +39,7 @@ Guangzhou is the birthplace of Cantonese cuisine ("yum cha" dim sum culture). Fo
 For a full food tour, join a guided dim sum crawl—Guangzhou's "food capital" status shines here.
 
 #### Economy
+
 As China's export powerhouse, Guangzhou's economy revolves around manufacturing and trade. Visit during off-fair seasons to avoid crowds.
 
 - **Canton Fair Complex (Pazhou Island)**: Home to the world's largest trade fair (twice yearly, next in Oct 2025). Even outside events, explore the massive halls showcasing electronics, textiles, and gadgets—feel the pulse of global commerce and Guangdong's "factory of the world" role. (Free entry; metro-accessible.)
@@ -44,6 +47,7 @@ As China's export powerhouse, Guangzhou's economy revolves around manufacturing 
 - **Pearl River Promenade**: Riverside walk with views of skyscrapers and cargo ships. It illustrates the city's logistics hub status, with nearby finance districts highlighting tech-driven growth.
 
 #### Creativity & Innovation
+
 Guangzhou's "design city" push features repurposed factories into art zones, fostering startups and street murals.
 
 - **TIT Creative Industry Zone**: A former textile mill reborn as a hip hub with galleries, indie cafes, design studios, and innovation workshops. Wander for street art, craft markets, and events—embodies the shift from industry to creative economy.
@@ -53,6 +57,7 @@ Guangzhou's "design city" push features repurposed factories into art zones, fos
 - **He Art Museum (in Foshan, short trip from Guangzhou)**: Modern museum with immersive installations on urban creativity. Ties into the Guangdong Museum of Art for broader innovation stories.
 
 #### All-Around Icon: Canton Tower
+
 For a panoramic overview tying everything together, ascend the 600m tower at dusk. It symbolizes modern Guangzhou—engineered innovation with LED light shows—while overlooking historic sites and the buzzing Pearl River. (Entry: ~¥150; includes observation decks.)
 
 | Spot | Best For | Why Visit? | Practical Tips |
@@ -67,6 +72,7 @@ For a panoramic overview tying everything together, ascend the 600m tower at dus
 This itinerary balances depth and variety—start with history in the west (Liwan), move to modern east (Pazhou). For families, add Chimelong Safari; for foodies, extend to night markets. Guangzhou's subtropical vibe means packing light, and English signage is improving, but apps like Pleco help with menus.
 
 **References**
+
 - [THE 15 BEST Things to Do in Guangzhou (2025) - Tripadvisor](https://www.tripadvisor.com/Attractions-g298555-Activities-Guangzhou_Guangdong.html)
 - [24 Must-Visit Attractions In Guangzhou - Culture Trip](https://theculturetrip.com/asia/china/articles/20-must-visit-attractions-in-guangzhou)
 - [Creative Industry Parks - Guangzhou International](https://www.gz.gov.cn/guangzhouinternational/visitors/whattosee/creativeindustryparks/index.html)

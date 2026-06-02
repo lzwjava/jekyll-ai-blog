@@ -26,9 +26,11 @@ You are correct that **reducing your own initiation** is one effective lever —
 ## What Actually Works
 
 ### 1. Reducing Initiations (Your Idea)
+
 This *does* work to lower the volume of conversations *you start*. If you stop tagging people, raising topics, or opening new threads, you remove yourself as a trigger. This is a legitimate boundary-setting strategy.
 
 ### 2. Better Alternatives That Are More Effective
+
 Psychologists recommend defining specific response windows and silencing notifications outside of them — for example, setting two or three slots per day to check and reply, and muting group chats during other times. This is more effective than simply going silent.
 
 Silencing or muting a group chat can reclaim a sense of peace by reducing mental clutter — this is not the same as ignoring people; it is giving yourself permission to engage on your own terms, rather than being dictated by the endless rhythm of incoming messages.
@@ -38,15 +40,19 @@ Silencing or muting a group chat can reclaim a sense of peace by reducing mental
 ## Why "Just Go Silent" May Not Work as Planned
 
 ### 1. Silence Creates Ambiguity, Not Invisibility
+
 In group communication, silence and non-participation in a topic is ambiguous — it may be interpreted as consensus, disagreement, or simply that a team member is unavailable. This confusion does not make you less noticed; it can actually draw more attention or misinterpretation.
 
 ### 2. The Vicious Circle Effect
+
 The less one participates, the more alienated one feels from the group, and the more social red flags are raised among others — creating a vicious circle where silence actually increases misunderstandings and social tension, not reduces them.
 
 ### 3. It Can Be Misread as Rejection or Rudeness
+
 Staying silent in a group chat can lead to questions, misinterpretations, and misunderstandings. Not everyone reads silence as "this person is just private" — others may interpret it as hostility, disinterest, or even passive-aggression.
 
 ### 4. Long-Term Social Costs
+
 Persistent social withdrawal is frequently linked to adverse psychological outcomes, including depression, anxiety, and reduced well-being. Avoidance patterns, though temporarily alleviating distress, undermine longer-term social functioning and interpersonal connectedness.
 
 Lacking communication with peers and society might cause one to miss out on opportunities for learning and career development, as participating in group activities fosters teamwork skills essential for collaboration both personally and professionally.

@@ -23,25 +23,32 @@ Google Cloud SDK 会在一个随机的高端口（通常是 8085、8184，或者
 
 1. **最快捷的规避方案（首选建议）**
    使用非浏览器流程：
+
    ```
    gcloud auth login --no-launch-browser
    ```
+
    这会打印出一个长 URL。将其复制并粘贴到 browser 中，批准后，将最终重定向的 URL（或显示的 code）复制回 terminal 提示符中。这会完全跳过 local server，在任何 terminal 中都有效。
 
 2. **替代的一行命令流程（如果觉得上述方式繁琐）**
+
    ```
    gcloud auth application-default login --no-launch-browser
    ```
+
    （用于 ADC credentials —— 通常是开发者真正需要的），如果经常操作，可以结合脚本使用。
 
 3. **其他检查/尝试项目**
    - 确保没有其他 process 占用特定端口（较罕见，因为端口是随机的）：
+
      ```
      lsof -i :83xx   # 如果能看到端口号，请替换为实际端口
      ```
+
    - 尝试临时更换默认 browser（有用户反馈 Safari 和 Chrome 表现不同，但这通常不是根本原因）。
    - 将 Ghostty 更新到最新版本 —— 较新的 build 有时会修复 loopback 处理或 child process I/O 的怪癖。
    - 如果愿意尝试，可以显式使用 `--browser` flag（虽然不太可能解决根源问题）：
+
      ```
      gcloud auth login --browser="/Applications/Safari.app"
      ```

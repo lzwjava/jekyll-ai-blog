@@ -51,7 +51,7 @@ def is_note_type(filepath):
             return False
         frontmatter = content[first_marker : second_marker + 3]
         return "type: note" in frontmatter
-    except:
+    except Exception:
         return False
 
 

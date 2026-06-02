@@ -21,20 +21,20 @@ This controller is a software platform that runs on a server. It has a complete,
 
 Your question about a "main host/server" is on the right track, but the relationship is more hierarchical. Here is the typical architecture:
 
-*   **The Controller (Your "Main Host/Server")**: This is the central, intelligent unit. It's the software that runs the logic for the entire network . It doesn't handle your actual Facebook or YouTube data; it just tells the network devices how to handle it.
-*   **The Network Devices (Switches/Routers)**: These are the "dumb" workers. In a pure SDN model, they are simple forwarding devices that just follow the orders (flow rules) given to them by the controller . They don't make independent decisions.
-*   **The Connection (Southbound Interface)**: The controller isn't physically connected to each device with a special cable. Instead, it communicates with them over the network using a standard protocol. The most famous example of this is **OpenFlow** . The controller uses this protocol to install rules in the switches, telling them what to do with specific types of traffic (e.g., "If you see a packet from this IP address, send it out port 7").
-*   **The Applications (Northbound Interface):** On the other side of the controller, there are applications for things like network security, load balancing, or visualization. These applications talk to the controller through **Northbound Interfaces** (often REST APIs) to request specific network behavior . This is how you get the "programmability" in SDN.
+* **The Controller (Your "Main Host/Server")**: This is the central, intelligent unit. It's the software that runs the logic for the entire network . It doesn't handle your actual Facebook or YouTube data; it just tells the network devices how to handle it.
+* **The Network Devices (Switches/Routers)**: These are the "dumb" workers. In a pure SDN model, they are simple forwarding devices that just follow the orders (flow rules) given to them by the controller . They don't make independent decisions.
+* **The Connection (Southbound Interface)**: The controller isn't physically connected to each device with a special cable. Instead, it communicates with them over the network using a standard protocol. The most famous example of this is **OpenFlow** . The controller uses this protocol to install rules in the switches, telling them what to do with specific types of traffic (e.g., "If you see a packet from this IP address, send it out port 7").
+* **The Applications (Northbound Interface):** On the other side of the controller, there are applications for things like network security, load balancing, or visualization. These applications talk to the controller through **Northbound Interfaces** (often REST APIs) to request specific network behavior . This is how you get the "programmability" in SDN.
 
 ### ☁️ The Analogy to AWS and GCP
 
 Your comparison to AWS and GCP is excellent, as they are prime examples of this concept in action.
 
-*   **Cloud Provider's Access**: You are absolutely right that AWS and GCP have access to the underlying networks. When you create a Virtual Private Cloud (VPC) or a subnet in AWS, you are not physically rewiring cables in an Amazon data center. You are interacting with a software application that, in turn, instructs their massive SDN controllers .
-*   **The Cloud Analogy**:
-    *   **The AWS Management Console** is like the **SDN Application** you interact with.
-    *   **The AWS Network Itself** (the controllers and software) is like the **SDN Controller**.
-    *   **The Physical Routers and Switches** in Amazon's data center are like the **OpenFlow-enabled switches** that receive and execute the commands. These commands create your isolated virtual network on the fly .
+* **Cloud Provider's Access**: You are absolutely right that AWS and GCP have access to the underlying networks. When you create a Virtual Private Cloud (VPC) or a subnet in AWS, you are not physically rewiring cables in an Amazon data center. You are interacting with a software application that, in turn, instructs their massive SDN controllers .
+* **The Cloud Analogy**:
+  * **The AWS Management Console** is like the **SDN Application** you interact with.
+  * **The AWS Network Itself** (the controllers and software) is like the **SDN Controller**.
+  * **The Physical Routers and Switches** in Amazon's data center are like the **OpenFlow-enabled switches** that receive and execute the commands. These commands create your isolated virtual network on the fly .
 
 ### ⚙️ Beyond a Single Server
 

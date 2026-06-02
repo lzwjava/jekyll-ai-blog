@@ -22,6 +22,7 @@ Based on your setup (you're already running a script that pulls notes into `blog
 Since you're using Claude, the most direct tools are:
 
 ### **MarkDownload** (recommended, Safari supported)
+
 MarkDownload is a browser extension for Safari, Chrome, Edge and Firefox that allows you to download websites as Markdown text. You click the icon in the browser's toolbar and an overlay window opens with the web page text correctly formatted, with links preserved.
 
 - Install from the Safari Extension Gallery (small paid fee for Safari version)
@@ -30,12 +31,14 @@ MarkDownload is a browser extension for Safari, Chrome, Edge and Firefox that al
 - Drop the file into your `blog-source` folder → your existing git script will pick it up
 
 ### **claude-to-markdown** (open source WebExtension)
+
 This WebExtension automatically exports Claude transcripts to Markdown. If you set a GitHub token in the extension preferences, you can automatically save the generated Markdown as a Gist. It does not transmit your data to any third-party service.
 
 - GitHub: `legoktm/claude-to-markdown`
 - Currently supports Firefox; you can load it manually in Safari with some effort
 
 ### **AI Chat Exporter** (Chrome/Edge, not Safari natively)
+
 AI Chat Exporter supports exporting Claude conversations in multiple formats including PDF, Markdown, Text, JSON, CSV, and Image. You can download only specific parts of the conversation you need.
 
 > ⚠️ This one requires Chrome/Edge, not Safari directly.
@@ -65,6 +68,7 @@ Script repo: `agarwalvishal/claude-chat-exporter` on GitHub.
 ## Option 4: Integrate with Your Existing Blog Pipeline
 
 Since your blog script already:
+
 - Runs `git pull --rebase` on `blog-source`
 - Checks for duplicate notes
 

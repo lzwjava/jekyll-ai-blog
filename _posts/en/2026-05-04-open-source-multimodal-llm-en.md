@@ -147,7 +147,7 @@ Why it’s important:
 
 If your goal is *small multimodal LLM training project*, the best combo is:
 
-### ⭐ Recommended stack:
+### ⭐ Recommended stack
 
 * Vision encoder: CLIP / SigLIP / InternVideo features
 * LLM: LLaMA 3 / Qwen 2.5 (small version)

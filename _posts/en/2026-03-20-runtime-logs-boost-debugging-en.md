@@ -43,6 +43,7 @@ console.log("========== TAB SWITCH END ==========");
 ```
 
 When you copy that block and give it to Copilot, the AI immediately knows:
+
 - **What lifecycle events fired** inside that boundary
 - **What order** they fired in
 - **Whether field values changed** between the boundaries

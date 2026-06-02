@@ -16,6 +16,7 @@ Based on your updated log, here's the complete picture of what's happening with 
 You're going through **two distinct phases** of data preparation:
 
 ### Phase 1: Raw → Tokenized Shards (Complete)
+
 ```
 Raw text (60GB) → Tokenized .npy shards (28GB)
 ├── 149 training shards
@@ -24,6 +25,7 @@ Raw text (60GB) → Tokenized .npy shards (28GB)
 ```
 
 ### Phase 2: .npy → .bin Conversion (In Progress)
+
 ```
 Tokenized .npy (28GB) → .bin format for nanoGPT
 └── Concatenates all shards into single binary file(s)
@@ -49,6 +51,7 @@ Tokenized .npy (28GB) → .bin format for nanoGPT
 ```
 
 **Compression ratio**: ~2.14× (60/28)
+
 - Normal for text tokenization
 - BPE tokens average ~0.6-0.8 bytes each
 - Your math: 48B tokens × 0.58 bytes = 27.8GB ✓
@@ -56,6 +59,7 @@ Tokenized .npy (28GB) → .bin format for nanoGPT
 ## What's Left
 
 From your log, you're converting `.npy` to `.bin`:
+
 ```python
 # The script you're running likely does:
 for shard in 150_files:
@@ -64,6 +68,7 @@ for shard in 150_files:
 ```
 
 ## Expected Final Output
+
 - **One or two `.bin` files**:
   - `train.bin` (~27-28GB)
   - `val.bin` (~0.2-0.3GB)
@@ -71,6 +76,7 @@ for shard in 150_files:
 - No data loss — just format optimization
 
 ## Quick Verification
+
 ```bash
 # Check original raw size
 du -sh /raw/data/path/

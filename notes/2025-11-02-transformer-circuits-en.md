@@ -12,7 +12,8 @@ type: note
 
 Transformer Circuits is a research publication platform focused on mechanistic interpretability in transformer-based language models. It hosts a collaborative series of technical papers, blog posts, and analyses from Anthropic's interpretability team, aiming to reverse-engineer how these AI models work at a granular level—breaking down neural networks into interpretable "circuits" to understand emergent behaviors like induction heads or factual recall.
 
-### Key Highlights:
+### Key Highlights
+
 - **Main Theme**: Demystifying transformers by studying toy models, scaling laws, and real-world examples (e.g., GPT-2). It's part of the broader push for AI safety through transparency.
 - **Notable Content**:
   - "A Mathematical Framework for Transformer Circuits" (introductory paper).

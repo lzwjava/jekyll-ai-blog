@@ -19,8 +19,8 @@ type: note
 
 从 **token generation** 到 **inference** 的过程是 AI 经济的机械心脏。
 
-*   **Token Generation:** 这是“原材料”。这里的价值在于 **cost-efficiency**（更便宜的 token）和 **quality**（每个 token 更高的数据密度）。
-*   **Inference Optimization:** 这是工程“意志”（技术/努力）变得有价值的地方。企业正在为那些能通过 **Quantization**、**Speculative Decoding** 和 **KV Cache management** 等技术降低 latency 的工程师支付溢价。
+* **Token Generation:** 这是“原材料”。这里的价值在于 **cost-efficiency**（更便宜的 token）和 **quality**（每个 token 更高的数据密度）。
+* **Inference Optimization:** 这是工程“意志”（技术/努力）变得有价值的地方。企业正在为那些能通过 **Quantization**、**Speculative Decoding** 和 **KV Cache management** 等技术降低 latency 的工程师支付溢价。
 
 ---
 
@@ -41,8 +41,8 @@ type: note
 
 对 **AI Courses**、**Video Content** 和 **Consulting** 的需求正在飙升，因为“技能鸿沟”正在扩大。
 
-*   **Transformation Consulting:** 企业不仅仅想要一个 chatbot；他们希望围绕 **Agentic AI** 重组其整个 workflow。
-*   **Curated Learning:** 由于技术更新极快，高质量、及时的 **instructional content** 比静态文档更有价值。
+* **Transformation Consulting:** 企业不仅仅想要一个 chatbot；他们希望围绕 **Agentic AI** 重组其整个 workflow。
+* **Curated Learning:** 由于技术更新极快，高质量、及时的 **instructional content** 比静态文档更有价值。
 
 ---
 
@@ -50,10 +50,10 @@ type: note
 
 你可以将价值转移可视化为从 **Foundational Models**（底层）向 **Operational Excellence**（顶峰）的转变。
 
-1.  **The Infrastructure Layer:** Tokens、GPUs 和 Inference Engines（高业务量，低利润率）。
-2.  **The Intelligence Layer:** Fine-tuned models 和 RAG 系统（高差异化）。
-3.  **The Action Layer:** AI Agents 和专业级 middleware（中坚力量）。
-4.  **The Human Layer:** Consulting、Training 和 Transformation（高价值，高“意志”需求）。
+1. **The Infrastructure Layer:** Tokens、GPUs 和 Inference Engines（高业务量，低利润率）。
+2. **The Intelligence Layer:** Fine-tuned models 和 RAG 系统（高差异化）。
+3. **The Action Layer:** AI Agents 和专业级 middleware（中坚力量）。
+4. **The Human Layer:** Consulting、Training 和 Transformation（高价值，高“意志”需求）。
 
 > **Verdict:** 你的观点非常准确。“意志”——即人类在监控、优化和咨询方面的投入——正在成为 AI 生态系统中防御性最强、获利最丰厚的部分。
 
@@ -61,6 +61,6 @@ type: note
 
 **References:**
 
-*   [The AI Technology Stack - ITI](https://www.itic.org/documents/artificial-intelligence/ITI_AITechnologyStack.pdf)
-*   [2026 AI Trends: From Hype to Habit](https://blog.ifs.com/ai-predictions-2026-from-hype-to-habit/)
-*   [The Inference Stack Can Talk](https://www.keysight.com/blogs/en/inds/ai/the-inference-stack-can-talk)
+* [The AI Technology Stack - ITI](https://www.itic.org/documents/artificial-intelligence/ITI_AITechnologyStack.pdf)
+* [2026 AI Trends: From Hype to Habit](https://blog.ifs.com/ai-predictions-2026-from-hype-to-habit/)
+* [The Inference Stack Can Talk](https://www.keysight.com/blogs/en/inds/ai/the-inference-stack-can-talk)

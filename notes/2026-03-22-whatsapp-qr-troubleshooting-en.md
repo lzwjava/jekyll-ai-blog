@@ -22,6 +22,7 @@ The app itself looks fine (version 26.11.21, compatible with your macOS 26.3.1).
 4. **macOS 26 beta compatibility** — You're running macOS 26.3.1 (very new/beta). WhatsApp's DTPlatformVersion is also 26.2 so it should be compatible, but beta OS issues can cause unexpected UI bugs.
 
 **Quick fixes to try:**
+
 ```bash
 # Force quit WhatsApp
 killall WhatsApp

@@ -52,17 +52,17 @@ docker compose stop
 
 A simple restart of the Docker service can often clear up transient storage driver errors and lock files.
 
-### For Linux systems (using systemd):
+### For Linux systems (using systemd)
 
 ```bash
 sudo systemctl restart docker
 ```
 
-### For Docker Desktop (macOS/Windows):
+### For Docker Desktop (macOS/Windows)
 
-1.  Click the **Docker icon** in your system tray/menu bar.
-2.  Navigate to **Troubleshoot** (or **Settings** $\rightarrow$ **Daemon** $\rightarrow$ **Restart**).
-3.  Click **Restart**.
+1. Click the **Docker icon** in your system tray/menu bar.
+2. Navigate to **Troubleshoot** (or **Settings** $\rightarrow$ **Daemon** $\rightarrow$ **Restart**).
+3. Click **Restart**.
 
 After the restart, try removing the container again.
 
@@ -74,13 +74,13 @@ After the restart, try removing the container again.
 
 The error points to a specific directory within the OverlayFS storage: `/var/lib/docker/overlay2/7acbf095f3537e4829397e10f2134499389c724d3378782a8882ff1299fc431f/merged`.
 
-1.  **Stop the Docker daemon:**
+1. **Stop the Docker daemon:**
 
     ```bash
     sudo systemctl stop docker
     ```
 
-2.  **Manually remove the problematic directory:**
+2. **Manually remove the problematic directory:**
 
     ```bash
     # Only remove the directory shown in YOUR error message
@@ -89,13 +89,13 @@ The error points to a specific directory within the OverlayFS storage: `/var/lib
 
     *If you cannot find the exact directory, you might need to try a more general cleanup (see the next step).*
 
-3.  **Start the Docker daemon:**
+3. **Start the Docker daemon:**
 
     ```bash
     sudo systemctl start docker
     ```
 
-4.  **Try removing the container/stack again.**
+4. **Try removing the container/stack again.**
 
 -----
 

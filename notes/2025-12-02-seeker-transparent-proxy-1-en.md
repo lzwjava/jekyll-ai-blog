@@ -18,18 +18,21 @@ Seeker creates a **fully transparent system-wide proxy** by combining a **virtua
 Here’s the detailed technical flow:
 
 ### 1. TUN Interface Creation
+
 - Seeker creates a virtual network interface (usually `utun10` on macOS or `tun0` on Linux).
 - It assigns an IP (default 198.18.0.1/24) and brings the interface up.
 - It then **changes the system’s default route** so **all IP packets** (except those going to the real gateway or local networks) are routed into this TUN device.
 - From the kernel’s perspective, every outgoing packet now arrives in user-space via the TUN file descriptor.
 
 ### 2. Packet Reading Loop (Rust async/tokio)
+
 - The main loop continuously reads raw IP packets from the TUN fd.
 - Packets are parsed using the `etherparse` crate:
   - IPv4/IPv6 → TCP/UDP/ICMP
 - It extracts the **original destination IP + port** (this is critical for transparency).
 
 ### 3. Rule Matching (Clash-compatible)
+
 - For every new TCP or UDP flow, Seeker looks up the destination domain/IP in its rule set:
   - First resolves domain if needed (via its own DNS server on 127.0.0.1:53)
   - Supports rules like `DOMAIN-SUFFIX,netflix.com,PROXY`, `GEOIP,CN,DIRECT`, etc.
@@ -38,13 +41,16 @@ Here’s the detailed technical flow:
 ### 4. Connection Handling Paths
 
 **A. DIRECT (bypass)**
+
 - Packet is written straight back into the TUN with the original source IP preserved.
 - Kernel routes it normally → goes out through your real gateway.
 
 **B. REJECT**
+
 - Sends TCP RST or ICMP unreachable back into the TUN.
 
 **C. PROXY (the interesting case)**
+
 - Seeker **establishes a new connection** to the selected proxy server (Shadowsocks, SOCKS5, or HTTP CONNECT).
 - It then **shuttles data** bidirectionally between:
   - The original application ↔ Seeker (via TUN packets)
@@ -54,15 +60,18 @@ Here’s the detailed technical flow:
 - For ICMP ping: uses Fake-IP mode (like Clash) — maps real destination IPs to 198.19.0.0/16 range so pings work through TCP-based proxies.
 
 ### 5. DNS Hijacking
+
 - Starts a local DNS server on 127.0.0.1:53 (takes over system DNS).
 - For domains that should go through proxy, it can return **Fake-IPs** (so subsequent packets hit the TUN).
 - Restores original DNS settings on clean exit.
 
 ### 6. Gateway / LAN Mode (optional)
+
 - Binds DNS to 0.0.0.0:53 and expects other devices to point gateway/DNS to your machine.
 - All traffic from the entire LAN flows through the same TUN + proxy logic.
 
 ### Core Rust Crates Used
+
 - `tokio` + `async-std` – async runtime
 - `etherparse` – IP/TCP/UDP/ICMP packet parsing & serialization
 - `tun` / `smoltcp` style – TUN interface handling

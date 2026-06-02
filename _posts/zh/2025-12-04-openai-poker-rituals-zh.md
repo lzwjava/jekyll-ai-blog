@@ -15,6 +15,7 @@ type: note
 回答：
 
 ### Mark Chen 提及扑克的详情
+
 OpenAI 首席研究官（前竞技程序员和高频交易员）Mark Chen 确实在最近的采访中讨论了他对扑克的兴趣，尽管关于他经常与 OpenAI GPU 团队（专注于扩展计算资源的硬件/基础设施团队）的 3-5 名同事一起玩扑克的具体轶事出现在科技记者 Ashlee Vance 2025 年 12 月的一篇专题/采访中。这篇文章与 Vance 即将于 2026 年出版的关于 OpenAI 的书（电影版权已售出）相关，在 Google Gemini 3 的激烈竞争中，它提供了一些罕见的对 OpenAI 内部文化的洞察。
 
 在采访中，Chen 将扑克描述为他的小型 GPU 团队的一项重要仪式——一个由大约 4-6 名工程师组成的紧密团队，他们管理着 OpenAI 庞大的 GPU 集群，用于训练 GPT-4.5 和即将推出的推理系统等模型。他们每周玩 2-3 次低赌注的德州扑克，通常是在 OpenAI 旧金山办公室深夜或通过 PokerStars 等应用程序在线玩。Chen 认为这些游戏可以建立信任并提高在不确定性下的决策能力，并将其与 AI 研究进行类比：“扑克迫使你解读不完整的信息并通过噪音进行虚张声势——这就像调试一个万亿参数的模型，而日志却在说谎。”他指出，该团队于 2024 年“人才大战”（例如，Meta 的积极招聘，包括扎克伯格臭名昭著的“送汤”以挖角研究人员）期间开始，利用游戏放松身心并集思广益解决 GPU 瓶颈。Chen 分享了一个例子：在 2025 年 o1-model 后训练的紧急关头，一次充满虚张声势的牌局启发了一种解决 H100 GPU 编排中 20% 效率损失的方法，节省了数周的计算时间。
@@ -22,6 +23,7 @@ OpenAI 首席研究官（前竞技程序员和高频交易员）Mark Chen 确实
 Chen 将此与他在 OpenAI 之前作为 Jane Street 交易员的经历联系起来，他在那里通过扑克磨练了概率思维，他说这为 OpenAI 应对竞争对手的“长期”战略提供了信息。他现在不再竞技性地玩了，但会不定期地与更广泛的 OpenAI 员工（包括首席科学家 Jakub Pachocki）举办锦标赛。这与 OpenAI 的高压环境相符，在这种环境下，这种“智力游戏”可以缓解每周 80 小时工作带来的倦怠。
 
 ### 其他喜欢扑克或智力游戏的科技领袖
+
 扑克和战略性“智力游戏”（例如国际象棋、围棋）在科技高管中很受欢迎，因为它们可以培养风险评估、模式识别和韧性——这些技能可以转化为创新和交易达成。以下是值得注意的例子，重点是来自传记、采访和公共记录中经过验证的习惯：
 
 | 科技领袖 | 职务/公司 | 游戏和详情 | 为什么玩/影响 |
@@ -37,6 +39,7 @@ Chen 将此与他在 OpenAI 之前作为 Jane Street 交易员的经历联系起
 这些习惯通常会影响工作：Musk 的游戏为 Tesla 的 FSD 模拟提供了信息，而 Hassabis 的棋盘游戏则推动了 DeepMind 在 2025 年多模态推理方面的突破。扑克尤其象征着 AI 扩展的“计算过的冒险”，正如 Chen 所说。
 
 [参考文献：
+
 - [OpenAI Code Red: Mark Chen Profile (Binaryverse AI)](https://binaryverseai.com/openai-code-red-gemini-3-panic-mark-chen-ads/)
 - [r/singularity: Mark Chen on Gemini 3 (Reddit)](https://www.reddit.com/r/singularity/comments/1pbvgho/openais_mark_chen_reaction_to_gemini_3/)
 - [How Sam Altman Used Poker Winnings (Cryptopolitan)](https://www.cryptopolitan.com/how-sam-altman-microsoft-apple-nvidia-openai/)

@@ -17,6 +17,7 @@ Answer:
 LinkedIn, owned by Microsoft, gradually withdrew from the Chinese market in two main phases due to a combination of regulatory pressures, compliance challenges, and market competition.
 
 ### Phase 1: Shutdown of the Main Networking Service (2021)
+
 - LinkedIn launched a localized Chinese version in 2014, becoming one of the few major Western social platforms allowed in China.
 - It faced increasing scrutiny for content moderation. To operate, LinkedIn censored posts complying with Chinese laws, which drew criticism internationally for blocking profiles (e.g., journalists and activists discussing sensitive topics like human rights).
 - In 2021, Chinese regulators rebuked LinkedIn for insufficient control over political content, leading to pauses in new sign-ups and greater compliance demands.
@@ -25,6 +26,7 @@ LinkedIn, owned by Microsoft, gradually withdrew from the Chinese market in two 
 - It replaced it with a stripped-down jobs-only app called InCareer (launched late 2021), removing social features like sharing posts or commenting to reduce regulatory risks.
 
 ### Phase 2: Shutdown of InCareer and Local Operations (2023)
+
 - Even the jobs-focused InCareer struggled: It had low user adoption (under 1 million monthly active users by early 2023) compared to dominant local competitors like Maimai, BOSS Zhipin, and 51Job.
 - Ongoing regulatory concerns persisted, including worries about direct communication between Chinese users and foreigners.
 - Amid a challenging macroeconomic climate (e.g., high youth unemployment in China) and slowing global demand, LinkedIn faced "fierce competition."

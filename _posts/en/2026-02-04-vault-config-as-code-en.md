@@ -92,6 +92,7 @@ path "secret/data/terraform/prod/root-password" {
 ## 2. Comprehensive Terraform Configuration
 
 ### Main Configuration
+
 ```hcl
 # terraform/main.tf
 
@@ -131,7 +132,9 @@ variable "vault_token" {
 ```
 
 ### Secret Engines Configuration
+
 {% raw %}
+
 ```hcl
 # terraform/secret-engines.tf
 
@@ -326,10 +329,13 @@ resource "vault_mount" "totp" {
   description = "TOTP MFA tokens"
 }
 ```
+
 {% endraw %}
 
 ### Auth Methods Configuration
+
 {% raw %}
+
 ```hcl
 # terraform/auth-methods.tf
 
@@ -487,9 +493,11 @@ resource "vault_ldap_auth_backend_group" "terraform_team" {
   policies  = ["terraform-secrets", "database-read"]
 }
 ```
+
 {% endraw %}
 
 ### Policies Configuration
+
 ```hcl
 # terraform/policies.tf
 
@@ -566,6 +574,7 @@ EOT
 ```
 
 ### Entity and Group Configuration
+
 ```hcl
 # terraform/entities.tf
 
@@ -607,6 +616,7 @@ resource "vault_identity_group_member_entity_ids" "terraform_members" {
 ```
 
 ### Namespace Configuration (Vault Enterprise)
+
 ```hcl
 # terraform/namespaces.tf
 
@@ -628,6 +638,7 @@ resource "vault_mount" "terraform_ns_secrets" {
 ```
 
 ### Audit Configuration
+
 ```hcl
 # terraform/audit.tf
 
@@ -666,6 +677,7 @@ resource "vault_audit" "socket" {
 ```
 
 ### Secrets Data Configuration
+
 ```hcl
 # terraform/secrets.tf
 
@@ -718,6 +730,7 @@ resource "vault_kv_secret_v2" "database_config" {
 ```
 
 ### Configuration Tuning
+
 ```hcl
 # terraform/tuning.tf
 

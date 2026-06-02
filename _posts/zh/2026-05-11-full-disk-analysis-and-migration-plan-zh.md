@@ -126,6 +126,7 @@ sudo journalctl --vacuum-size=500M                # 清理旧的 systemd 日志
 ## 我建议的优先操作顺序
 
 操作顺序：
+
 1. 分区并挂载 HDD（步骤 1）——立即获得 1.8 TB 余量。
 2. 通过符号链接移动 `~/projects/zz/datasets/fineweb-edu`（步骤 2）——解除正在进行的下载的阻塞。
 3. 移动 Hugging Face 缓存（步骤 3）——释放 NVMe 上 69 GB 空间。

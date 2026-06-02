@@ -17,12 +17,14 @@ Answer:
 Paul Graham’s essays are widely considered among the best non-fiction writing on the internet—clear, deep, original, and influential. Many people (including founders of companies like Airbnb, Stripe, and Dropbox) credit his essays with shaping how they think about startups, technology, ambition, and life.
 
 ### Why his essays are exceptionally good
+
 - **Clarity**: He writes like he’s explaining ideas to a smart friend over coffee. No jargon, no unnecessary complexity.
 - **Originality**: He notices patterns others miss (e.g., “Do Things That Don’t Scale,” “How to Get Startup Ideas,” “Maker’s Schedule vs Manager’s Schedule”) and coins concepts that become part of the common vocabulary.
 - **Depth disguised as simplicity**: A single essay often contains years of distilled observation. You finish in 10 minutes but think about it for years.
 - **Honesty and independence**: He says politically incorrect or contrarian things when he believes they’re true (e.g., on schools resembling prisons, on wealth creation, on cities and ambition) but always with reasoning, never just to provoke.
 
 ### Hallmarks of his writing style
+
 - Starts with a surprising or counter-intuitive statement (“The best way to get startup ideas is not to try to think of startup ideas.”)
 - Uses short sentences mixed with longer ones for rhythm
 - Extremely concrete examples (often from his own life or YC companies)
@@ -31,6 +33,7 @@ Paul Graham’s essays are widely considered among the best non-fiction writing 
 - Writes in first person, admits when he changed his mind, which builds enormous trust
 
 ### What you can learn from studying his writing
+
 1. **Think clearly first, then write** – His prose is clean because his thinking is clean.
 2. **Say obvious things only when they’re not obvious to the reader** – He’ll state “obvious” truths everyone forgot or never articulated.
 3. **Use metaphors and analogies generously** – e.g., comparing startups to lizards that regrow their tails, or schools to prisons.
@@ -41,6 +44,7 @@ Paul Graham’s essays are widely considered among the best non-fiction writing 
 If you want to improve your own thinking and writing, the single best exercise is to read 20–30 of his essays slowly, then try to imitate his structure and tone in your own writing. Most people who do this report dramatic improvement.
 
 Best starting points:
+
 - How to Get Startup Ideas
 - Do Things That Don’t Scale
 - The Lesson to Unlearn
@@ -49,5 +53,6 @@ Best starting points:
 - The Refragmentation of Philosophy
 
 References:
+
 - [Paul Graham’s complete essays](http://paulgraham.com/articles.html)
 - [Paul Graham on his own writing process](http://www.paulgraham.com/writing44.html)

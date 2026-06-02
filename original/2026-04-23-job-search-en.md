@@ -38,27 +38,26 @@ I’m a software engineer with 12 years of experience spanning iOS, Android, fro
 
 ### Model Training
 
-- Trained **GPT-2 124M** from scratch twice using nanoGPT on the FineWeb dataset — once on a **RunPod H200**, once on a **DigitalOcean H100**; also ran experiments on a home server with an **RTX 4070**.
-- Used **zz** (dataset processing & training utilities) to download, extract, and analyze FineWeb data; scripts cover dataset download, parquet extraction, training duration calculation, and metric evaluation.
-- Completed **Machine Learning Specialization** (DeepLearning.AI & Stanford University) and **Deep Learning Specialization** (DeepLearning.AI) on Coursera.
+* Trained **GPT-2 124M** from scratch twice using nanoGPT on the FineWeb dataset — once on a **RunPod H200**, once on a **DigitalOcean H100**; also ran experiments on a home server with an **RTX 4070**.
+* Used **zz** (dataset processing & training utilities) to download, extract, and analyze FineWeb data; scripts cover dataset download, parquet extraction, training duration calculation, and metric evaluation.
+* Completed **Machine Learning Specialization** (DeepLearning.AI & Stanford University) and **Deep Learning Specialization** (DeepLearning.AI) on Coursera.
 
 ### Personal AI Projects
 
-- **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — Built an AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows.
-- **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — Personal blog and knowledge base with ~400 original posts and ~8,000 AI answer notes; ~70,000 page views in the past month (Cloudflare Analytics), with Singapore as the top visitor country.
-- **[ww](https://github.com/lzwjava/ww)** — Cross-platform CLI toolkit for developer productivity: git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
-- **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; designed for both personal machines and locked-down enterprise environments with no IDE plugins required.
-- **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects: FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.
-- **[live-server](https://github.com/lzwjava/live-server)** — Used OpenClaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
+* **[jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)** — Built an AI-powered blog platform with automated multi-language translation, Google Cloud TTS audio generation, XeLaTeX PDF/EPUB pipelines, and GitHub Actions workflows.
+* **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — Personal blog and knowledge base with ~400 original posts and ~8,000 AI answer notes; ~70,000 page views in the past month (Cloudflare Analytics), with Singapore as the top visitor country.
+* **[ww](https://github.com/lzwjava/ww)** — Cross-platform CLI toolkit for developer productivity: git workflows with AI commit messages (Gemini Flash), image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
+* **[iclaw](https://github.com/lzwjava/iclaw)** — Terminal AI agent (REPL) that codes, searches, and runs shell commands autonomously. Supports GitHub Copilot (OAuth) and OpenRouter; designed for both personal machines and locked-down enterprise environments with no IDE plugins required.
+* **[zz](https://github.com/lzwjava/zz)** — Dataset processing and training utilities for ML projects: FineWeb dataset download/extraction, training log analysis, and evaluation scripts used during GPT-2 training runs.
+* **[live-server](https://github.com/lzwjava/live-server)** — Used OpenClaw (AI coding agent) to modernize a previous startup project: Dockerized the application, upgraded CodeIgniter and Vue to current versions, and modernized the full stack.
 
 ### Open Source Contributions to Others' Projects
 
-- **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (1 PR) — Contributed to a friend's Tree-of-Thought reasoning system; added OpenAI-compatible requester and `python-dotenv` config.
-
+* **[Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)** (1 PR) — Contributed to a friend's Tree-of-Thought reasoning system; added OpenAI-compatible requester and `python-dotenv` config.
 
 ### LLM API Usage
 
-- Consumed ~**1.5 billion tokens** via OpenRouter and other LLM providers in the past year; ~**500 million tokens** in the past month alone — reflecting deep, daily hands-on use of LLMs for coding, research, and automation.
+* Consumed ~**1.5 billion tokens** via OpenRouter and other LLM providers in the past year; ~**500 million tokens** in the past month alone — reflecting deep, daily hands-on use of LLMs for coding, research, and automation.
 
 ---
 
@@ -91,13 +90,13 @@ Full-stack and backend roles are welcome. My strong preference is for positions 
 
 ### TEKsystems → HSBC Bank, AI Engineer (Contractor), 2025.02 – Present
 
-- AI Engineer outsourced to HSBC Bank, leveraging Copilot and its API to accelerate backend development for the Finance Transformation Platform in HSBC's Enterprise Technology Department.
-- Maintained financial data processing features (import, validation, export) and enhanced submission/approval workflows; gained hands-on experience with accounting, ledger, and banking systems.
-- Participated in the full development lifecycle — local development through UAT to production. Helped decommission legacy WebSphere apps, automated releases with Ansible and Jenkins, and assisted in a major Angular upgrade.
-- Led integration and API testing, using the Copilot API to auto-generate ~70 test cases covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
-- Built a personal AI agent layer — 20 customized agents, 400 reusable scripts, and 1,100 Copilot-written guides — to automate scripting, logging, and documentation; ranked **top 6% in Copilot usage** globally (premium requests metric).
-- Joined HSBC's internal AI community; earned a Contribution Award for the AIPlayer project. Explored AI after hours: nanoGPT training on H200/RTX 4070, personal projects via OpenRouter and Claude Code, and study of llama.cpp, Transformers, and reasoning techniques.
-- Stack: Java, Spring, IBM Db2, Maven, Angular, Python, HashiCorp Vault, Ansible, Control-M, IBM WebSphere Liberty Profile, Copilot.
+* AI Engineer outsourced to HSBC Bank, leveraging Copilot and its API to accelerate backend development for the Finance Transformation Platform in HSBC's Enterprise Technology Department.
+* Maintained financial data processing features (import, validation, export) and enhanced submission/approval workflows; gained hands-on experience with accounting, ledger, and banking systems.
+* Participated in the full development lifecycle — local development through UAT to production. Helped decommission legacy WebSphere apps, automated releases with Ansible and Jenkins, and assisted in a major Angular upgrade.
+* Led integration and API testing, using the Copilot API to auto-generate ~70 test cases covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+* Built a personal AI agent layer — 20 customized agents, 400 reusable scripts, and 1,100 Copilot-written guides — to automate scripting, logging, and documentation; ranked **top 6% in Copilot usage** globally (premium requests metric).
+* Joined HSBC's internal AI community; earned a Contribution Award for the AIPlayer project. Explored AI after hours: nanoGPT training on H200/RTX 4070, personal projects via OpenRouter and Claude Code, and study of llama.cpp, Transformers, and reasoning techniques.
+* Stack: Java, Spring, IBM Db2, Maven, Angular, Python, HashiCorp Vault, Ansible, Control-M, IBM WebSphere Liberty Profile, Copilot.
 
 ---
 
@@ -194,8 +193,8 @@ Flexible depending on scope, responsibility, and growth potential.
 
 ---
 
-* GitHub: https://github.com/lzwjava
-* Blog: https://lzwjava.github.io
-* Portfolio: https://lzwjava.github.io/portfolio-en
+* GitHub: <https://github.com/lzwjava>
+* Blog: <https://lzwjava.github.io>
+* Portfolio: <https://lzwjava.github.io/portfolio-en>
 
 I’m open to discussing any roles where AI, systems engineering, and real product development intersect.

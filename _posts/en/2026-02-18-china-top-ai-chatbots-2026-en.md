@@ -35,28 +35,34 @@ Based on current market data and expert analysis from early 2026, here are the *
 ## Key Features Breakdown
 
 ### 🥇 Doubao (ByteDance)
+
 - **Strengths**: Natural voice interaction, personalized "Personas" (English Tutor, Travel Guide), seamless Douyin/TikTok integration [[1]]
 - **Best for**: Mobile-first users, casual conversation, language practice, content creators
 - **Note**: Leads China in daily active users but less suited for complex enterprise reasoning [[9]]
 
 ### 🥈 DeepSeek-R1/V3
+
 - **Strengths**: Mixture-of-Experts (MoE) architecture, 671B parameters (37B active), top-tier coding/math benchmarks (MATH-500: 90.2) [[8]]
 - **Best for**: Software developers, data scientists, technical documentation, open-source projects
 - **Caveat**: May face content moderation restrictions; data privacy considerations for enterprise use [[1]]
 
 ### 🥉 Qwen 3 (Alibaba)
+
 - **Strengths**: Multimodal (text/image/video), 128K context window, $0.38/million tokens pricing, strong English-Chinese bilingual performance [[8]]
 - **Best for**: Enterprise workflows, cross-border teams, document summarization, e-commerce automation
 
 ### 4️⃣ ERNIE Bot 4.5 (Baidu)
+
 - **Strengths**: Direct integration with Baidu Search index, real-time local news/regulation queries, strong compliance with Chinese data laws [[1]]
 - **Best for**: Market research in China, regulatory compliance checks, localized content strategy
 
 ### 5️⃣ Kimi K2 (Moonshot AI)
+
 - **Strengths**: Exceptional long-context processing (128K+ tokens), advanced Chain-of-Thought reasoning, strong performance on MATH-500 (97.4%) [[8]]
 - **Best for**: Academic research, legal contract analysis, financial modeling, medical imaging support
 
 ### 6️⃣ GLM-4 Plus / ChatGLM (Zhipu AI)
+
 - **Strengths**: Industry-leading 1 million token context window, support for 26 languages, strong multi-turn dialogue retention [[11]]
 - **Best for**: Customer service chatbots, multilingual support teams, knowledge management systems
 
@@ -65,10 +71,12 @@ Based on current market data and expert analysis from early 2026, here are the *
 ## China Market Considerations
 
 🔒 **Access & Registration**
+
 - Most domestic platforms require a **+86 Chinese phone number** for verification, creating barriers for international users [[1]]
 - Global users often rely on aggregator platforms (e.g., GlobalGPT) to access Chinese models without region locks [[1]]
 
 🌐 **Regulatory Environment**
+
 - All models must comply with China's algorithm filing requirements and content moderation policies [[26]]
 - Enterprise users should evaluate data residency and cross-border transfer rules before deployment
 

@@ -15,6 +15,7 @@ Here’s a realistic **40-day exam preparation plan** (Dec 1, 2025 – Jan 10/11
 You have **4 subjects** and roughly 40 days → about **10 days per subject** if studied one-by-one (serial), but we’ll use a smarter **2-subject parallel + revision** approach so you don’t forget the early ones.
 
 ### Key Assumptions & Rules
+
 - Weekdays (Mon–Fri): Maximum 3–3.5 hours study (7:30–11 pm) after work → realistic, no burnout
 - Weekends (Sat–Sun): 8–10 hours/day possible
 - Total study hours available ≈ 180–200 hours → 45–50 hours per subject (perfect amount)
@@ -47,6 +48,7 @@ You have **4 subjects** and roughly 40 days → about **10 days per subject** if
 | 14567 Mobile Application Development    | Dec 20 – Jan 1            | 45–50 hrs    | Android basics (Activities, Intents, Fragments, RecyclerView, Room/SQLite, API calls). Build 1–2 small apps   |
 
 From Jan 2 – Jan 10 → **Pure Revision & Exam Practice Mode**
+
 - Jan 2–4 : Full weekend mock exams (timed, 3-hour papers for each subject)
  Jan 5–9 : Every evening solve 1 full past paper (rotate subjects) + review mistakes immediately
  Jan 10 : Very light revision or complete rest
@@ -69,6 +71,7 @@ From Jan 2 – Jan 10 → **Pure Revision & Exam Practice Mode**
 7:30 – 10:30 pm     → Session 3 (if needed)
 
 ### Extra Tips for Success with Full-time Job
+
 - Keep one small notebook/formula sheet per subject → revise in metro/bus every morning.
 - Use Pomodoro strictly on weekdays (50/10 or 45/10).
 - Record how many past papers you solved → target at least 8–10 full papers per subject.

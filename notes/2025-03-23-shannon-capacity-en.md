@@ -13,6 +13,7 @@ Shannon's capacity formula is actually written as:
 C = B log₂(1 + S/N)
 
 Where:
+
 - C is the channel capacity in bits per second
 - B is the bandwidth in Hertz
 - S/N is the signal-to-noise ratio (power ratio)

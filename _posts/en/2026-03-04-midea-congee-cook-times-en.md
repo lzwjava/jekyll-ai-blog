@@ -23,6 +23,7 @@ With only **1 cup rice + 2–3 cups water** (a relatively low water ratio compar
 - **80 minutes** (or 60–80 minutes) is more common and usually feels **longer but better** for good porridge texture — the extra time lets the rice fully disintegrate and thicken up nicely, even with less water. For one person, this gives a thicker, more comforting result without overdoing the volume.
 
 ### Quick tips for your case
+
 - If you want it faster → Try 40–50 minutes (or use a "Quick" mode if available) and check midway — stir once or twice if possible.
 - If you want classic smooth porridge → Go closer to 60–80 minutes; 30 minutes is probably too quick unless you're okay with a less broken-down texture.
 - Water amount: With only 2–3 cups water for 1 cup rice, it'll be on the thicker side anyway (good for one person). Traditional congee uses much more water (6–10 cups per cup rice) and longer times (1–2 hours) for very runny results.

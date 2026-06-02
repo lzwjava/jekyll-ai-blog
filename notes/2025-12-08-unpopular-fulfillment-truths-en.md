@@ -49,6 +49,7 @@ Many of the most common prescriptions for “happiness” and “fulfillment” 
 These opinions are unpopular because they clash with the dominant cultural script of consumerism, individualism, and therapeutic self-esteem. Yet they keep showing up in the actual lives of people who, decades later, describe their lives as deeply fulfilling rather than merely pleasant.
 
 References:
+
 - [Parenthood and Happiness: A Review of Folk Theories Versus Empirical Evidence](https://www.jstor.org/stable/25760293)
 - [High income improves evaluation of life but not emotional well-being](https://www.pnas.org/doi/10.1073/pnas.1011492107)
 - [The Power of Ritual – Casper ter Kuile (on secular substitutes for religion)](https://casperterkuile.com/book)

@@ -16,7 +16,9 @@ def call_gemini_api(prompt):
     headers = {"Content-Type": "application/json"}
     data = {"contents": [{"parts": [{"text": prompt}]}]}
     try:
-        response = requests.post(url, headers=headers, data=json.dumps(data))
+        response = requests.post(
+            url, headers=headers, data=json.dumps(data), timeout=30
+        )
         response.raise_for_status()
         json_response = response.json()
         if "candidates" in json_response and json_response["candidates"]:

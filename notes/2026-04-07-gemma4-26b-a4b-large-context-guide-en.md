@@ -22,6 +22,7 @@ Good news: **Gemma 4 26B A4B has a huge architectural advantage** for large cont
 ## Why Gemma 4 26B A4B Is Good for Large Context
 
 Gemma 4 26B A4B uses a **5:1 local/global attention pattern**:
+
 - **25 local layers** → use SWA with only a **1024-token sliding window** (not the full context!)
 - **5 global layers** → full attention over the entire context
 
@@ -34,10 +35,12 @@ This means scaling from 2048 → 16384 context mostly only grows the KV cost for
 ## VRAM Estimate at 16384 Context
 
 Your current state:
+
 - Model weights on GPU (25 layers): ~9.5 GB
 - Available headroom: ~2.5 GB
 
 **KV cache at 16384 tokens (FP16, no quantization):**
+
 - 5 global layers × full 16384 tokens = relatively modest
 - 25 local layers × only 1024-token window (SWA) = fixed small cost
 

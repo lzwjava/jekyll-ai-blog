@@ -17,10 +17,12 @@ Summary of Issues Identified:
 
 1. Fatal Error:
    - The site encountered a memory allocation error:
+
      ```
      Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 417792 bytes)
      in /www/wwwroot/xxx.e-xxx.com/wordpress/wp-includes/class-wpdb.php on line 2316
      ```
+
    - This suggests the current WordPress memory limit is insufficient.
 
 2. Language Controls:

@@ -118,12 +118,12 @@ Flux 架构
 
 针对你关注的重点总结：
 
-1.  **Git 集成只是 CLI 包装器** — `dugite` 捆绑了真正的 git 二进制，每个操作都会生成子进程。`lib/git/*.ts` 中的模式很清晰：每个 git 命令对应一个函数，带有类型化参数和结果。
+1. **Git 集成只是 CLI 包装器** — `dugite` 捆绑了真正的 git 二进制，每个操作都会生成子进程。`lib/git/*.ts` 中的模式很清晰：每个 git 命令对应一个函数，带有类型化参数和结果。
 
-2.  **Copilot SDK 已集成** — 他们使用 `@github/copilot-sdk` 实现 AI 提交信息和合并冲突解决。`copilot/byok.ts` 中的 BYOK（自带密钥）支持意味着你可以接入非 GitHub 模型。
+2. **Copilot SDK 已集成** — 他们使用 `@github/copilot-sdk` 实现 AI 提交信息和合并冲突解决。`copilot/byok.ts` 中的 BYOK（自带密钥）支持意味着你可以接入非 GitHub 模型。
 
-3.  **Flux 而非 Redux** — 他们使用 `event-kit`（事件发射器 + 可销毁对象）自行实现了 Flux。没有 Redux，没有 MobX。Dispatcher 是所有操作的唯一真实来源。
+3. **Flux 而非 Redux** — 他们使用 `event-kit`（事件发射器 + 可销毁对象）自行实现了 Flux。没有 Redux，没有 MobX。Dispatcher 是所有操作的唯一真实来源。
 
-4.  **React 16** — 仍处于较旧的类组件时代 React。没有大量使用 hooks 的模式。
+4. **React 16** — 仍处于较旧的类组件时代 React。没有大量使用 hooks 的模式。
 
-5.  **189K 行 TypeScript** — 代码库规模庞大。`lib/` 层（294 个文件）是可复用核心；`ui/`（464 个文件）是特定于 Electron 的渲染部分。
+5. **189K 行 TypeScript** — 代码库规模庞大。`lib/` 层（294 个文件）是可复用核心；`ui/`（464 个文件）是特定于 Electron 的渲染部分。

@@ -22,7 +22,6 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 
 ### 技能
 
-
 | 技能 | 描述 | 提示 |
 |------|------|------|
 | **Skill 1: Forbidden Domain** | 挥舞长矛：450–950 (+100% 物理攻击) 物理伤害 + 击退英雄。命中 +3 Madness。 | 消耗/清线/击退突进者。变身后：核心输出工具。CD: 6s。 |
@@ -32,16 +31,19 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 **变身后技能**（Ferali）：强化版本——Mad Slaughter (1)、Stampede (2)——专注于进攻。
 
 ### 技能升级优先级
+
 1. **Ultimate**（优先满级以获得变身威力）。
 2. **Skill 2**（护盾/开团）。
 3. **Skill 1**（消耗/CC）。
 
 ### 最佳连招
+
 - **保护盟友**：2（护盾）> 大招（变身/开团）> 1 > AA。
 - **发起**：大招（眩晕路径）> 2（跃入）> 1 > AA。
 - **Ferali 追击**：大招后，AA > 2/1 以减速 + 额外伤害。
 
 ### 推荐装备（坦克/辅助方向）
+
 优先坦克属性（生命值、防御）+ 护盾/CC。根据物法队伍调整。
 
 | 类别 | 装备 |
@@ -59,11 +61,13 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 **数据**：~50.6% 胜率，C 级（新手/保护型稳健选择）。
 
 ### 分阶段玩法
+
 - **前期 (0-4 分钟)**：游走中路/征服者线。用1清线/野区，在小兵上叠 Madness。用2护盾 ADC，1消耗。协助 gank 但避免过度投入（大招前弱势）。购买续航装备。
 - **中期 (4-10 分钟)**：轮换参与小规模战斗/目标（塔/Overlord）。护盾输出位，当敌人聚集时大招开团。积极 farming 层数。
 - **后期**：前排猛兽。大招切后排眩晕/护盾，随后 Ferali 连招。吸收火力，为团队剥离。适合与脆皮 ADC 搭配（如 Hou Yi、Huang Zhong）。
 
 ### 通用提示
+
 - **优势**：团队护盾、范围 CC、大招后坦克、适合新手。
 - **劣势**：叠层/变身前弱势；易被爆发刺客（如 Mulan）或 CC 净化（如 Zhuangzi）针对。
 - **克制**：面对突进者稳健玩；先诱导位移。
@@ -73,6 +77,7 @@ Zhang Fei（很可能指来自 **Honor of Kings** 的英雄，这是一款受欢
 掌握叠层 + 时机大招，实现改变战局的开团！
 
 参考资料：
+
 - [Honor of Kings Wiki - Zhang Fei](https://honor-of-kings.fandom.com/wiki/Zhang_Fei)
 - [Sportskeeda - Zhang Fei Build Guide](https://www.sportskeeda.com/esports/honor-kings-zhang-fei-build-guide-best-equipment-arcanas-battle-spells-skill-combos)
 - [HOKBuild - Zhang Fei](https://hokbuild.com/hero/zhang-fei)

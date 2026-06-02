@@ -20,12 +20,14 @@ type: note
 ## 基于终端的工具 (Claude Code / OpenAI Codex CLI)
 
 ### 优势
+
 - **真实的运行环境上下文** —— 它们可以实际执行命令、读取文件、检查操作系统、查看 logs、查询 databases、运行 tests 等。这在 debugging 和开发工作中是巨大的优势。
 - **Agentic workflows** —— 它们可以自主地链式执行多个步骤（修改文件 → 运行测试 → 修复错误 → commit）。
 - **无复制粘贴摩擦** —— 无需手动粘贴 error logs 或文件内容。
 - **直接的 Git/Shell 集成** —— 可以读取你实际的代码库结构。
 
 ### 劣势
+
 - **Token 成本** —— 是的，你需要按 Token 计费。涉及大量文件读取的长任务 Agent 可能会迅速变得昂贵。
 - **缺乏丰富的 UI** —— 纯终端界面；没有渲染好的表格，没有视觉上的 diffs（虽然有一些有限的渲染）。
 - **Web search 受限或缺失** —— Claude Code 不像 Web 端那样原生支持网页浏览。
@@ -36,6 +38,7 @@ type: note
 ## 基于 Web 的 Chatbots (Claude.ai / ChatGPT / Grok)
 
 ### 优势
+
 - **提供免费层级** —— Claude.ai、ChatGPT、Grok 都有免费方案。
 - **丰富的 UI** —— 支持渲染 Markdown、表格、图表、交互式 artifacts 以及 React 预览。
 - **更好的 Web search** —— Claude.ai 和 Grok 内置了实时网页搜索功能。
@@ -43,6 +46,7 @@ type: note
 - **无需安装配置** —— 打开浏览器即可使用。
 
 ### 劣势
+
 - **无法访问真实环境** —— 它们无法在你的实际环境中运行代码（仅限沙盒执行）。
 - **必须手动提供上下文** —— 你需要粘贴错误信息、粘贴文件内容、描述你的配置环境。
 - **上下文会过时** —— 它们并不“了解”你机器的实时状态。

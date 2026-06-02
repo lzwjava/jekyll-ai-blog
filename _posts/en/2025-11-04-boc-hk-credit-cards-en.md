@@ -15,6 +15,7 @@ type: note
 As a mainland Chinese citizen (non-Hong Kong resident), you can apply for most Bank of China (Hong Kong) - BOC HK - credit cards, provided you meet the general criteria: aged 18 or above, with stable legitimate income (typically HKD 96,000+ annually, varying by card), and no adverse credit history. Your existing BOC HK account, BOC Pay+, and UnionPay debit card will strengthen your application as an existing customer, potentially speeding up approval and allowing online submission via the BOC HK app or website.
 
 Key points:
+
 - **Non-resident status**: You'll apply as a non-HK resident (no HKID required). Submit a valid passport, Mainland Travel Permit for Hong Kong and Macao Residents (Home Return Permit), and a copy of your mainland ID (hukou or residence permit). Proof of address (e.g., utility bill or bank statement from the last 3 months) is also needed.
 - **Dual Currency Cards**: Many popular options are UnionPay Dual Currency cards (HKD + CNY), ideal for cross-border use, with no foreign transaction fees on CNY spends in mainland China.
 - **Application Methods**:
@@ -25,6 +26,7 @@ Key points:
 - **Recent Update (2025)**: Since March 2025, HK banks like BOC HK can issue cards directly in mainland China via select branches, but for HK-issued cards, apply as above.
 
 ### Available BOC HK Credit Cards for Mainland Applicants
+
 Most cards are open to non-residents like you. Below is a table of popular options based on current offerings (as of Nov 2025). Focus on those with cross-border perks, given your profile. Annual fees may be waived with spending thresholds; rewards in points redeemable for cashback, travel, or shopping.
 
 | Card Name | Network/Type | Key Features | Min. Annual Income | Suitability for You |
@@ -39,6 +41,7 @@ Most cards are open to non-residents like you. Below is a table of popular optio
 *Notes*: Not exhaustive; other cards like BOC i-Card or Platinum Visa are also available. Check bocHK.com for latest promos (e.g., HKD 1,000 welcome cashback). If income is borderline, start with entry-level like Chill Card.
 
 ### Next Steps
+
 1. Log into your BOC HK app or visit [BOC HK Credit Cards](https://www.bochk.com/en/creditcard.html) to pre-assess eligibility.
 2. Prepare docs: Passport, Travel Permit, ID copy, income proof (e.g., tax return or salary slip).
 3. Apply online – mention your existing account for faster processing.

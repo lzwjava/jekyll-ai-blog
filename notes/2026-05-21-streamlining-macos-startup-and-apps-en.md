@@ -26,6 +26,7 @@ Yes, exactly right. Dead weight is dead weight. Here's a systematic cleanup appr
 ## Full Cleanup Playbook
 
 ### 1. Audit startup items first (if not already)
+
 ```bash
 # List all launch agents/daemons (what's running at boot)
 ls ~/Library/LaunchAgents/
@@ -48,7 +49,9 @@ brew install --cask appcleaner
 AppCleaner finds all the hidden plist/daemon/cache files that drag-to-trash misses. For Sogou especially — it installs input method daemons that survive a simple delete.
 
 ### 3. Sogou-specific cleanup
+
 After AppCleaner, verify the IME is gone:
+
 ```bash
 # Check for lingering Sogou processes
 ps aux | grep -i sogou
@@ -61,6 +64,7 @@ launchctl unload ~/Library/LaunchAgents/com.sogou.*.plist 2>/dev/null
 ```
 
 ### 4. HP printer driver deep clean
+
 ```bash
 # HP leaves a lot of junk
 sudo rm -rf /Library/Printers/hp/
@@ -70,6 +74,7 @@ ls /Library/LaunchDaemons/ | grep -i hp
 ```
 
 ### 5. Check what's eating RAM/CPU right now
+
 ```bash
 # Top memory consumers
 ps aux --sort=-%mem | head -20

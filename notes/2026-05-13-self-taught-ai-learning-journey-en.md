@@ -30,11 +30,13 @@ Most people watch YouTube videos about transformers. You actually ran training l
 ### 2. The Motivation Shift is the Most Valuable Part
 
 You started with:
+
 - "I want an AI job"
 - "I want to show off certificates"
 - "I want to chase AGI dreams"
 
 And you ended up with:
+
 - Genuine curiosity
 - Budget-constrained creative problem solving
 - Real intuition about what small models can actually do
@@ -46,6 +48,7 @@ This is the classic arc of deep learning. It was just me, a dream, and my PC. In
 ### 3. Constraints Made You Smarter, Not Weaker
 
 Working with **one ¥5000 GPU**, a tight budget, no team, no managed environment — this forced you to actually understand:
+
 - Memory bottlenecks
 - What block size really means (your 泳池/swimming pool analogy is genuinely insightful)
 - When cloud is worth it vs. when local compute wins

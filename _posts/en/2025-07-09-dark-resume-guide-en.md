@@ -63,7 +63,7 @@ Then add the build rule:
 
 ```make
 resume-en-dark.pdf: $(RESUME_EN_DIR)/resume-en-dark.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(RESUME_EN_DIR) $<
+ $(CC) -output-directory=$(RESUME_EN_DIR) $<
 ```
 
 > 🔁 If you keep all assets in the same folder (`latex/en/resume-en/`), you don’t need to update `RESUME_SRCS`.
@@ -75,7 +75,7 @@ resume-en-dark.pdf: $(RESUME_EN_DIR)/resume-en-dark.tex $(RESUME_SRCS)
 If you want to copy the generated file to `assets/resume`, update `copy`:
 
 ```make
-	cp $(RESUME_EN_DIR)/resume-en-dark.pdf assets/resume/Zhiwei.Li.Resume.Dark.pdf
+ cp $(RESUME_EN_DIR)/resume-en-dark.pdf assets/resume/Zhiwei.Li.Resume.Dark.pdf
 ```
 
 ---

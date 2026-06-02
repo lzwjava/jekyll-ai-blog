@@ -26,6 +26,7 @@ type: note
 | Client-side pagination + Server-side filtering/search | 对当前过滤结果有效 | 否 (但优于盲目分页) | 任何规模         | 需要强大的后端 Search/Filter 支持         | 许多 App 的最佳折中方案 |
 
 ### 为什么 Pagination 对 Ctrl+F 伤害这么大
+
 - 任何时刻只有约 10–50 个 DOM nodes 存在
 - 浏览器的 Find-in-page 只能看到当前渲染的内容
 - 你需要不断猜测哪一页可能包含该项目 → 非常令人沮丧的 UX

@@ -126,6 +126,7 @@ Here’s how to configure both plugins in your `pom.xml`:
 
 3. **Custom Checkstyle Rules**:
    - Customize `google_checks.xml` or create your own (e.g., `my_checks.xml`) to enforce specific rules, such as:
+
      ```xml
      <module name="Indentation">
          <property name="basicOffset" value="2"/>
@@ -140,6 +141,7 @@ Here’s how to configure both plugins in your `pom.xml`:
 
 4. **Avoid Redundancy**:
    - If Spotless handles formatting (e.g., indentation, import order), disable overlapping Checkstyle rules to avoid duplicate checks. For example, disable Checkstyle’s `Indentation` module if Spotless enforces indentation:
+
      ```xml
      <module name="Indentation">
          <property name="severity" value="ignore"/>
@@ -169,6 +171,7 @@ Here’s how to configure both plugins in your `pom.xml`:
   - Spotless: Use the Spotless Gradle/Maven tasks or IDE plugins (e.g., `palantir-java-format` for IntelliJ).
   - Checkstyle: Use the Checkstyle-IDEA plugin for IntelliJ or Eclipse Checkstyle plugin, configured with the same `google_checks.xml`.
 - **CI/CD**: Configure both plugins in your CI pipeline (e.g., Jenkins, GitHub Actions) to enforce formatting and style checks on pull requests.
+
   ```yaml
   # Example GitHub Actions workflow
   name: CI

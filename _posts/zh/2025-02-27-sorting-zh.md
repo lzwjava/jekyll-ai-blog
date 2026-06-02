@@ -11,9 +11,11 @@ type: note
 排序是编程中的基础操作，而Java在实现各种排序算法方面展现出卓越的灵活性。让我们探讨快速排序、归并排序和冒泡排序这三种具有不同特性的常用排序技术。
 
 ## 1. 快速排序：分而治之
+
 快速排序通过选取基准值、划分数组并递归排序子数组来实现排序，其平均时间复杂度为O(n log n)，效率较高。
 
 ### Java实现
+
 ```java
 public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
@@ -48,12 +50,15 @@ public class QuickSort {
     }
 }
 ```
+
 **输出：** `Sorted: [1, 5, 7, 8, 9, 10]`
 
 ## 2. 归并排序：稳定排序
+
 归并排序通过分割数组、分别排序子数组再合并的方式实现排序。这是一种稳定的排序算法，保证O(n log n)的时间复杂度。
 
 ### Java实现
+
 ```java
 public class MergeSort {
     public static void mergeSort(int[] arr, int l, int r) {
@@ -83,12 +88,15 @@ public class MergeSort {
     }
 }
 ```
+
 **输出：** `Sorted: [5, 6, 7, 11, 12, 13]`
 
 ## 3. 冒泡排序：简单但低效
+
 冒泡排序通过重复比较相邻元素并在顺序错误时交换它们来实现排序。虽然时间复杂度为O(n²)，但易于理解。
 
 ### Java实现
+
 ```java
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
@@ -111,4 +119,5 @@ public class BubbleSort {
     }
 }
 ```
+
 **输出：** `Sorted: [11, 12, 22, 25, 34, 64, 90]`

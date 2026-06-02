@@ -25,7 +25,7 @@ age = 25
 msg = f"{name} is {age} years old"
 ```
 
-### Why this is best:
+### Why this is best
 
 * ✅ Most **readable**
 * ✅ Fast (often fastest in CPython)
@@ -52,12 +52,12 @@ or:
 msg = "{name} is {age}".format(name=name, age=age)
 ```
 
-### Pros:
+### Pros
 
 * Works in older Python (<3.6)
 * Flexible formatting system
 
-### Cons:
+### Cons
 
 * ❌ More verbose
 * ❌ Slower than f-strings
@@ -73,11 +73,11 @@ msg = "{name} is {age}".format(name=name, age=age)
 msg = "%s is %d years old" % (name, age)
 ```
 
-### Pros:
+### Pros
 
 * Still useful in **logging** (special case)
 
-### Cons:
+### Cons
 
 * ❌ Outdated
 * ❌ Less flexible
@@ -93,7 +93,7 @@ msg = "%s is %d years old" % (name, age)
 msg = name + " is " + str(age) + " years old"
 ```
 
-### Cons:
+### Cons
 
 * ❌ Hard to read
 * ❌ Easy to make mistakes
@@ -136,7 +136,7 @@ Because logging uses **lazy formatting**.
 
 # 7. Final recommendation
 
-### Use this rule:
+### Use this rule
 
 * ✅ **General string formatting → f-strings**
 * ✅ **Logging → `%s` with comma**

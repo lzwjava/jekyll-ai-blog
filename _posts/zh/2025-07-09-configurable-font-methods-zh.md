@@ -11,24 +11,29 @@ type: note
 你可以通过在 LaTeX 文档开头创建变量来实现字体可配置化。以下是几种实现方案：
 
 ## 方法一：简单变量定义（推荐）
+
 ## 方法二：使用条件语句适配不同系统
 
 接下来我将创建一个支持自动操作系统检测的增强版本：
+
 ## 方法三：使用独立配置文件
 
 您还可以创建独立的字体配置文件：
 然后在主文档中调用：
+
 ## 常用 Linux 字体替代方案
 
 以下是一些适用于 Linux 系统的优质字体替代方案：
 
 **中文字体选项：**
+
 - `Noto Sans CJK SC`（推荐）
 - `Source Han Sans SC`
 - `文泉驿微米黑`
 - `Droid Sans Fallback`
 
 **英文字体选项：**
+
 - `Liberation Serif`（Times New Roman 替代方案）
 - `DejaVu Serif`
 - `Linux Libertine`

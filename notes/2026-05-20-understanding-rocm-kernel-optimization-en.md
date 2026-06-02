@@ -72,27 +72,38 @@ Step 3: Auto-Tune (Easiest → Most Effort)
 ─────────────────────────────────────────
 
 Level 1 — Turn on auto-tuning (zero code changes):
-  # PyTorch TunableOp: tries 1000s of GEMM kernels from rocBLAS/hipBLASLt
+
+# PyTorch TunableOp: tries 1000s of GEMM kernels from rocBLAS/hipBLASLt
+
   PYTORCH_TUNABLEOP_ENABLED=1 python my_model.py
-  # Then replay the best config:
+
+# Then replay the best config
+
   PYTORCH_TUNABLEOP_ENABLED=1 PYTORCH_TUNABLEOP_TUNING=0 python my_model.py
 
-  # TorchInductor max-autotune: tunes Triton GEMM/conv tile sizes
+# TorchInductor max-autotune: tunes Triton GEMM/conv tile sizes
+
   TORCHINDUCTOR_MAX_AUTOTUNE=1 python my_model.py
 
-  # MIOpen autotune: finds best convolution kernels
+# MIOpen autotune: finds best convolution kernels
+
   MIOPEN_FIND_ENFORCE=3 MIOPEN_FIND_MODE=1 python my_model.py
 
 Level 2 — Composable Kernel (CK) backend:
-  # Install CK Python wrapper, add CK to autotune backends
-  pip install git+https://github.com/rocm/composable_kernel@develop
+
+# Install CK Python wrapper, add CK to autotune backends
+
+  pip install git+<https://github.com/rocm/composable_kernel@develop>
   TORCHINDUCTOR_MAX_AUTOTUNE_GEMM_BACKENDS="TRITON,CK,ATEN"
 
 Level 3 — hipBLASLt manual tuning (TensileLite):
-  # For max GEMM performance, tune the assembly backend generator
+
+# For max GEMM performance, tune the assembly backend generator
+
   cd hipBLASLt/tensilelite
   ./Tensile/bin/Tensile config.yaml output_path
-  # 7-step tuning pipeline: benchmark common params → fork → join → final
+
+# 7-step tuning pipeline: benchmark common params → fork → join → final
 
 Level 4 — Write custom tuned kernels in Triton or HIP:
 
@@ -108,21 +119,24 @@ Level 4 — Write custom tuned kernels in Triton or HIP:
 3. DEEP KERNEL OPTIMIZATION TECHNIQUES
 
 Memory Access Optimization:
-  - Coalesce global memory accesses (128-byte transactions preferred)
-  - Maximize use of LDS (on-chip shared memory) — 64KB per CU on MI300X
-  - Minimize global↔LDS data movement (use tiling/blocking)
-  - Avoid bank conflicts in LDS (pad shared memory arrays)
-  - Vectorize: use global_load_dwordx4 (128-bit loads) instead of scalar loads
-  - For MI300X GEMM: avoid strides that are multiples of 512 bytes (Tagram hotspotting)
+
+- Coalesce global memory accesses (128-byte transactions preferred)
+- Maximize use of LDS (on-chip shared memory) — 64KB per CU on MI300X
+- Minimize global↔LDS data movement (use tiling/blocking)
+- Avoid bank conflicts in LDS (pad shared memory arrays)
+- Vectorize: use global_load_dwordx4 (128-bit loads) instead of scalar loads
+- For MI300X GEMM: avoid strides that are multiples of 512 bytes (Tagram hotspotting)
 
 Compute Optimization:
-  - MI300X: prefer mfma_16x16 over mfma_32x32 (better power efficiency)
-  - bf16 matrix ops are noticeably faster than f16
-  - Target occupancy: at least 1024 thread blocks (workgroups) in the grid
-  - MI300X has 304 active CUs (8 XCDs × 38 active CUs each)
-  - Use WorkGroupMapping multiples of 8 (number of XCDs) for L2 cache efficiency
+
+- MI300X: prefer mfma_16x16 over mfma_32x32 (better power efficiency)
+- bf16 matrix ops are noticeably faster than f16
+- Target occupancy: at least 1024 thread blocks (workgroups) in the grid
+- MI300X has 304 active CUs (8 XCDs × 38 active CUs each)
+- Use WorkGroupMapping multiples of 8 (number of XCDs) for L2 cache efficiency
 
 Occupancy Calculation (lines 1643-1690 of workload.rst):
+
   1. Find .vgpr_count from ISA: N
   2. Find LDS allocation: grep "triton_gpu.shared" from MLIR dump → L bytes
   3. Find num_warps: grep "triton_gpu.num-warps" from MLIR → nW
@@ -131,16 +145,18 @@ Occupancy Calculation (lines 1643-1690 of workload.rst):
   6. occ = min(floor(occ_vgpr × 4 / nW), occ_lds) × nW / 4
 
 ISA Assembly Analysis:
-  - export AMDGCN_ENABLE_DUMP=1 to dump ISA
-  - Check for global_load_dwordx4 (vectorized loads)
-  - Check LDS loads/stores use _b128 suffix (minimize instructions)
-  - Inspect s_waitcnt(lgkmcnt, vmcnt) for synchronization efficiency
-  - Overlap instructions to hide latency
+
+- export AMDGCN_ENABLE_DUMP=1 to dump ISA
+- Check for global_load_dwordx4 (vectorized loads)
+- Check LDS loads/stores use _b128 suffix (minimize instructions)
+- Inspect s_waitcnt(lgkmcnt, vmcnt) for synchronization efficiency
+- Overlap instructions to hide latency
 
 MLIR Analysis:
-  - export MLIR_ENABLE_DUMP=1 to see Triton intermediate representation
-  - Identify redundant LDS round-trips (like loading, transposing, re-storing)
-  - Check data layouts: blocked → shared → transpose → blocked → dot_op
+
+- export MLIR_ENABLE_DUMP=1 to see Triton intermediate representation
+- Identify redundant LDS round-trips (like loading, transposing, re-storing)
+- Check data layouts: blocked → shared → transpose → blocked → dot_op
 
 ---
 
@@ -187,4 +203,5 @@ In summary: The optimization path is profile → identify bound → auto-tune fi
 → if still not enough, manually tune tile sizes/occupancy/instruction selection
 → if absolute max needed, dive into ISA/MLIR analysis and write custom kernels.
 Most users will see large gains just from TunableOp + TorchInductor max-autotune
-+ Flash Attention without writing a single line of kernel code.
+
+- Flash Attention without writing a single line of kernel code.

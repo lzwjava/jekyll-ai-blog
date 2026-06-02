@@ -11,7 +11,7 @@ type: note
 
 ## 问题：我的理解是否正确：“为钱学习没问题，喜欢所做之事没问题，公司更看重能力而非动机，讨论薪酬是对资深人才的尊重”？你怎么看？
 
-## 回答：
+## 回答
 
 是的，你的看法基本准确。具体来说：
 
@@ -22,7 +22,7 @@ type: note
 
 简而言之，平衡个人动机、技能发展与合理认可是务实的做法。
 
-## 参考来源：
+## 参考来源
 
 * [哈佛商业评论：动机很重要](https://hbr.org/2018/07/what-motivates-people-at-work)
 * [福布斯：为何薪酬讨论很重要](https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/09/23/the-importance-of-compensation-transparency/)

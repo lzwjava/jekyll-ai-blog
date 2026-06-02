@@ -44,6 +44,7 @@ my-plugin/
 ```
 
 **plugin.yaml** example (`plugins/disk-cleanup/plugin.yaml`):
+
 ```yaml
 name: disk-cleanup
 version: 2.0.0
@@ -53,7 +54,8 @@ hooks:
   - on_session_end
 ```
 
-**__init__.py** must define `register(ctx)`:
+****init**.py** must define `register(ctx)`:
+
 ```python
 def register(ctx) -> None:
     ctx.register_hook("post_tool_call", _on_post_tool_call)

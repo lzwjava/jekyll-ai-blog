@@ -31,6 +31,7 @@ That idea became Boso.com, which expanded to 50 universities across the UK. The 
 Blomfield co-founded Monzo in 2015 with a mission to create a mobile-first, transparent alternative to traditional banks. The startup made an immediate splash: In its first fundraising round, the company raised "£1 million in 96 seconds" via crowdfunding.
 
 Monzo's key innovations included:
+
 - A distinctive coral-colored debit card
 - Real-time spending notifications
 - No physical branches, keeping costs low

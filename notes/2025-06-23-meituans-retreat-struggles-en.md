@@ -10,7 +10,7 @@ type: note
 
 Meituan's scaling back of its community group buying business, Meituan Select (now rebranded as Meituan Youxuan), and Duoduo Maicai's (from Pinduoduo) leadership in the sector can be attributed to several factors:
 
-## Meituan's Challenges and Retreat:
+## Meituan's Challenges and Retreat
 
 * **Heavy Losses and Profitability Issues:** Meituan's community group buying initiatives, particularly Meituan Select, incurred massive operating losses. In 2021, the operating loss from new initiatives, including community group buying, expanded significantly, offsetting profits from its core food delivery and in-store businesses. Despite reorganizations and attempts to achieve profitability (like in Guangdong region by late 2023), the segment continued to be a financial drain.
 * **Intense Competition and Price Wars:** The community group buying market in China became fiercely competitive, with major tech giants like Alibaba (Taocaicai), JD.com, Didi (Chengxin Youxuan, which also scaled back significantly), and Pinduoduo all entering and engaging in aggressive price wars and heavy subsidies to gain market share. This "irrational and unhealthy subsidy war," as Meituan's founder Wang Xing described it, made profitability extremely difficult.
@@ -21,7 +21,7 @@ Meituan's scaling back of its community group buying business, Meituan Select (n
 
 While Meituan has not entirely abandoned the business, it has significantly scaled back operations in loss-making cities (like Beijing in 2022) and reorganized its unit to focus on achieving profitability rather than just market share. Meituan is now focusing on other growth areas like quick commerce (Meituan Instashopping), which leverages its existing merchant network and delivery infrastructure for immediate gratification, and which has shown better performance.
 
-## Duoduo Maicai's (Pinduoduo) Success Factors:
+## Duoduo Maicai's (Pinduoduo) Success Factors
 
 * **"Ultimate Cost-Effectiveness" and Low Prices:** Pinduoduo's core business model has always revolved around offering highly competitive, low prices through its group-buying approach. Duoduo Maicai extends this to groceries, attracting price-sensitive consumers, especially in lower-tier cities and rural areas.
 * **Strong Social Commerce Integration:** Pinduoduo effectively leverages its social shopping model, encouraging users to invite friends and family to form groups to unlock deeper discounts. This organic, social sharing mechanism significantly reduces customer acquisition costs and builds a strong network effect. WeChat, as China's dominant messaging app, has been a major driver of growth for Pinduoduo and its mini-app.

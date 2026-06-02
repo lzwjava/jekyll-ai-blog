@@ -30,6 +30,7 @@ LightGBM是一个流行的梯度提升框架，以其在大数据集上的速度
 这些观点并非普遍适用——LightGBM仍然是Kaggle获胜者和大型应用程序的首选——但它们强调了教程中经常被忽略的权衡。
 
 参考：
+
 - [LightGBM的常见错误和最佳实践](https://www.datasciencebase.com/supervised-ml/algorithms/gradient-boosting/LightGBM/common-mistakes/)
 - [面试——LightGBM应与哪些模型进行比较？](https://www.reddit.com/r/datascience/comments/10xf4vc/interview_which_models_to_compare_lightgbm_with/)
 - [评估XGBoost和LightGBM之间的权衡](https://medium.com/@rithpansanga/evaluating-the-trade-offs-between-xgboost-and-lightgbm-c1b17fdc4f5e)

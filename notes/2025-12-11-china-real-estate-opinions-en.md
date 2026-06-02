@@ -33,6 +33,7 @@ China's real estate market has been a cornerstone of the country's economic grow
 These opinions highlight the tension between short-term pain and structural reform, with no easy fix in sight. As of late 2025, prices remain flat-to-down, but sentiment shows "green shoots" in tier-1 cities amid stimulus.
 
 References:
+
 - [China’s Real Estate Challenge (IMF)](https://www.imf.org/en/publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff)
 - [Chinese Property Sector Crisis (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_%282020%E2%80%93present%29)
 - [Is China’s Real Estate Market Near Collapse? (Reddit r/China)](https://www.reddit.com/r/China/comments/1kqz3v6/is_chinas_real_estate_market_near_collapse/)

@@ -22,6 +22,7 @@ Caddy 配置: /etc/caddy/Caddyfile
 Caddy 正在将 80 端口反向代理到 `localhost:8888`。8888 端口是经典的 **Jupyter Notebook** 端口。502 错误意味着 Jupyter 当前没有运行。
 
 因此流程是：
+
 ```
 互联网 → :80 (Caddy) → localhost:8888 (Jupyter，目前已停止)
 ```

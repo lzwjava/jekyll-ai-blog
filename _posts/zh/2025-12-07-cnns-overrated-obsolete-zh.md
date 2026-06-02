@@ -40,6 +40,7 @@ type: note
 简而言之：CNN在2012-2018年间具有革命性意义，但在2025年仍然固守它们作为默认的视觉架构，在某些圈子中，这越来越被视为一种智力惯性。
 
 参考文献：
+
 - [Dosovitskiy et al., “An Image is Worth 16x16 Words” (ViT论文)](https://arxiv.org/abs/2010.11929)
 - [Liu et al., “A ConvNet for the 2020s” (ConvNeXt)](https://arxiv.org/abs/2201.03545)
 - [Tolias et al., “What Neural Network Architects Can Learn from Neuroscience (and vice versa)”](https://www.nature.com/articles/s42256-021-00354-y)

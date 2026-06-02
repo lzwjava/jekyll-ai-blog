@@ -61,6 +61,7 @@ if __name__ == "__main__":
 ```
 
 This script:
+
 1. Uses argparse to get the input file path
 2. Opens the CSV file and reads only the first line
 3. Sorts the values alphabetically

@@ -31,6 +31,7 @@ Vivo是一家中国跨国科技公司，成立于2009年，总部位于广东东
 尽管地缘政治紧张局势（例如，印度税务突击检查）以及来自三星/苹果的竞争等挑战依然存在，但Vivo在2025年7-9%的年度出货量增长凸显了其韧性。展望未来，中端市场的AI特性和5G主导地位使其有望继续扩张。
 
 参考文献：
+
 - [Vivo (technology company) - Wikipedia](https://en.wikipedia.org/wiki/Vivo_%28technology_company%29)
 - [Vivo Statistics By Market Share, Revenue, Trends, Insights And Facts(2025)](https://electroiq.com/stats/vivo-statistics/)
 - [Global Smartphone Market Share: Quarterly](https://counterpointresearch.com/en/insights/global-smartphone-share)

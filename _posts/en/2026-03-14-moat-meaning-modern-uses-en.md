@@ -22,6 +22,7 @@ A **moat** is a deep, broad ditch dug around a castle, fortification, building, 
 A moat is one of the lines of defense for a castle — this water-filled ditch essentially means "Keep out!"
 
 **Other physical uses:**
+
 - A deep wide hole dug around an area in a **zoo**, used to stop animals from escaping.
 
 **Etymology:**
@@ -38,6 +39,7 @@ A "moat" refers to a **competitive advantage** that protects a company from riva
 This economic principle was coined by Warren Buffett in 1999, who advised investing in businesses "that have wide, sustainable moats around them." The idea is: no matter how good your company's product is, if there is no moat, competitors will invade your castle and burn it down.
 
 Examples of business moats include:
+
 - Brand loyalty
 - Patents and intellectual property
 - Network effects

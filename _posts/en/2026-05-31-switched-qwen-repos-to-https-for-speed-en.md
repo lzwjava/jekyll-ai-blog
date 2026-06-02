@@ -16,6 +16,7 @@ Done. All 5 Qwen repos switched to HTTPS. Summary:
 **Fix applied:** All Qwen repos now use HTTPS, which goes through mihomo's HTTP proxy (port 7890). Verified working — `Qwen2.5-Coder` fetch completed in ~77s for 413 objects.
 
 **Bonus:** Your `.git` directory has 1.38 GiB of garbage. Worth running:
+
 ```
 git -C /Users/lzwjava/projects/Qwen2.5-Coder gc --prune=now
 ```

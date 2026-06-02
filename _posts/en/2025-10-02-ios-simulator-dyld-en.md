@@ -11,10 +11,12 @@ type: note
 ---
 
 ### What You're Referring To
+
 - The path `/Users/lzwjava/Library/Developer/CoreSimulator/Caches/dyld` points to a cache directory for the iOS Simulator (part of Xcode). This is tied to the `com.apple.CoreSimulator.SimRuntime.iOS-18-2.22C150` runtime bundle (note: "CoreSimulatir" is likely a typo for "CoreSimulator").
 - These `dyld` caches store dynamic linker data for simulators, which speeds up performance by caching shared libraries.
 
 ### Can You Delete Files There?
+
 Yes, you can delete files in this directory, but there are important caveats:
 
 - **It's generally safe**: These are just caches, not critical system files. Deleting them won't break your Mac or Xcode permanently. They can grow large over time and are a common spot for iOS Simulator-related issues like slow performance or corruption.
@@ -30,6 +32,7 @@ Yes, you can delete files in this directory, but there are important caveats:
   - To clear caches system-wide: Delete the entire `/Users/[username]/Library/Developer/CoreSimulator/Caches` folder, but backup if you're unsure.
 
 ### Steps to Delete Safely
+
 1. Quit Xcode and any running simulators.
 2. In Finder, go to `/Users/lzwjava/Library/Developer/CoreSimulator/Caches/dyld` (you might need to enable hidden files with `Cmd + Shift + .`).
 3. Delete the contents (or the folder).

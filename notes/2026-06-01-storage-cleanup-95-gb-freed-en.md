@@ -18,6 +18,7 @@ Containerd: 1.8M (was 59G)
 ```
 
 **Freed 95 GB** on root disk:
+
 - 37G → llama.cpp models moved to volume + symlinked
 - 36G → rocm Docker image deleted
 - 22G → containerd overlayfs snapshots deleted (container image layers)

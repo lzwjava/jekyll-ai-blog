@@ -11,6 +11,7 @@ type: note
 ---
 
 **基本短语：**
+
 - 你好！（Hello!）
 - 非常感谢。（Thank you very much.）
 - 不客气。（You're welcome.）

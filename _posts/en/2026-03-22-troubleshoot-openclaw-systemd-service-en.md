@@ -22,6 +22,7 @@ journalctl --user -u openclaw-gateway.service -n 100 --no-pager
 ```
 
 Or follow live as it restarts:
+
 ```bash
 journalctl --user -u openclaw-gateway.service -f
 ```

@@ -18,6 +18,7 @@ Here’s a comprehensive introduction to **RMON (Remote Monitoring)**, tailored 
 **RMON (Remote Monitoring)** is a **standard network monitoring specification** defined by the Internet Engineering Task Force (IETF) in RFC 2722 (originally RFC 1271 and RFC 1513). It enables **network administrators to monitor, analyze, and troubleshoot** LANs (Local Area Networks) and WANs (Wide Area Networks) **remotely**, without overloading the network with excessive traffic.
 
 ### **Key Concepts**
+
 - **Purpose:** RMON provides a **proactive approach** to network management by collecting and analyzing network traffic data at the **data link layer (Layer 2)** and above.
 - **How it works:** RMON uses **RMON probes** (hardware or software agents) to collect data and send it to a **Network Management System (NMS)** for analysis.
 - **Advantage:** Reduces the need for constant polling from the NMS, minimizing network overhead.
@@ -27,6 +28,7 @@ Here’s a comprehensive introduction to **RMON (Remote Monitoring)**, tailored 
 ## **2. RMON Architecture**
 
 ### **Components**
+
 1. **RMON Probes**
    - Devices (hardware or software) placed on network segments.
    - Capture and analyze traffic, storing data locally.
@@ -85,6 +87,7 @@ RMON2 adds **9 more groups** for higher-layer monitoring (e.g., protocol distrib
 ---
 
 ## **6. Use Cases**
+
 - **Performance Monitoring:** Identify bandwidth bottlenecks.
 - **Fault Detection:** Detect and diagnose network issues (e.g., excessive collisions).
 - **Security:** Monitor for unusual traffic patterns (e.g., MAC flooding).
@@ -93,12 +96,14 @@ RMON2 adds **9 more groups** for higher-layer monitoring (e.g., protocol distrib
 ---
 
 ## **7. RMON in Modern Networks**
+
 - **Legacy vs. Modern:** RMON1 is less common today but still used in industrial/embedded networks. RMON2 is more relevant for IP-based networks.
 - **Alternatives:** Modern tools like **NetFlow, sFlow, and IPFIX** often replace RMON, but RMON remains useful for **Layer 2 monitoring** in specific scenarios.
 
 ---
 
 ## **8. Example Workflow**
+
 1. A **probe** on a switch monitors traffic.
 2. It detects a **broadcast storm** (via the **Statistics group**).
 3. Triggers an **alarm** to the NMS.
@@ -107,6 +112,7 @@ RMON2 adds **9 more groups** for higher-layer monitoring (e.g., protocol distrib
 ---
 
 ### **Why RMON Still Matters**
+
 While newer technologies exist, RMON’s **granular, real-time monitoring** at Layer 2 is unmatched for certain troubleshooting tasks.
 
 Would you like a deeper dive into any specific aspect (e.g., RMON MIBs, configuration, or comparison with NetFlow)?

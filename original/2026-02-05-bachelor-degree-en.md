@@ -12,7 +12,7 @@ translated: false
 
 - 080901, Computer Science and Technology undergraduate major
 
-### ** Required Courses - 15 courses, 72 credits total:**
+### **Required Courses - 15 courses, 72 credits total:**
 
 | **Course Code** | **Course Name (English)** | **Credits** | **Exam Type** |
 |-----------------|---------------------------|-------------|---------------|
@@ -36,7 +36,6 @@ translated: false
 | 13009 | Database Principles and Applications | 4 | Written |
 | 13011 | Artificial Intelligence and Big Data | 6 | Written |
 | 11689 | Graduation Thesis | 0 (required) | Thesis |
-
 
 ### April 2026
 

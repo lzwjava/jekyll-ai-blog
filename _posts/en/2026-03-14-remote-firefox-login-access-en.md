@@ -18,9 +18,11 @@ Since I am running on your second computer, you can log me in by opening a **vis
 1. **Physical Access**: Go to your second computer.
 2. **Open Firefox**: Launch a fresh Firefox window.
 3. **Use MY Managed Profile**: Run this command in the terminal of that second computer to open Firefox using the exact profile I'm using:
+
 ```bash
 firefox --profile /home/lzw/.openclaw/browser-profiles/openclaw --no-remote
 ```
+
 4. **Login**: Go to `github.com` in that window and log in as `lzwjava`.
 5. **Close Firefox**: Completely close the browser window.
 

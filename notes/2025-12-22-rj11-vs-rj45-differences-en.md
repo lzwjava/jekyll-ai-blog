@@ -17,6 +17,7 @@ Answer:
 RJ11 and RJ45 are both types of modular connectors known as "Registered Jacks" (RJ), standardized for telecommunications. They look similar but serve different primary purposes due to their design differences.
 
 ### Key Differences
+
 - **Physical Size and Pins**:
   - RJ11 is smaller and typically uses a 6-position connector with 2 or 4 contacts (6P2C or 6P4C configuration). It commonly has 4 wires.
   - RJ45 is larger and uses an 8-position, 8-contact (8P8C) configuration with 8 wires.
@@ -31,6 +32,7 @@ RJ11 and RJ45 are both types of modular connectors known as "Registered Jacks" (
   - They are not interchangeable for proper function.
 
 ### Uses and Purposes
+
 - **RJ11**:
   - Primarily for analog telephone lines (landlines), connecting phones, fax machines, or older modems.
   - Still used for DSL internet connections (in some regions) or legacy phone systems.
@@ -41,7 +43,9 @@ RJ11 and RJ45 are both types of modular connectors known as "Registered Jacks" (
   - Also used for VoIP (Voice over IP) phones, which transmit digitized voice over data networks.
 
 ### Why RJ11 Still Exists Despite RJ45 Being More Common
+
 RJ45 is indeed more widespread today due to the dominance of computer networking and high-speed internet. However, RJ11 persists for specific reasons:
+
 - **Different Applications**: RJ11 is tailored for traditional telephony (analog voice), while RJ45 is for digital data/Ethernet. Phone systems often require separate wiring from data networks for reliability, cost, or regulatory reasons.
 - **Legacy Infrastructure**: Many homes, offices, and buildings have existing telephone wiring designed for RJ11. Replacing it entirely with RJ45 would be expensive and unnecessary where only voice service is needed.
 - **Simplicity and Cost**: RJ11 uses fewer wires, is smaller, and cheaper—perfect for basic phone connections without the overhead of Ethernet capabilities.
@@ -51,9 +55,9 @@ In summary, RJ11 and RJ45 coexist because they address distinct needs: telephony
 
 References:
 
-- https://www.truecable.com/blogs/cable-academy/rj45-vs-rj11-whats-the-difference
-- https://www.cbtnuggets.com/blog/technology/networking/rj11-vs-rj45
-- https://en.wikipedia.org/wiki/Registered_jack
-- https://www.versitron.com/blogs/post/know-the-difference-between-rj45-port-and-rj11-port
-- https://nassaunationalcable.com/blogs/blog/rj11-vs-rj45-a-guide-to-ethernet-cable-connectors
-- https://www.geeksforgeeks.org/computer-networks/difference-between-rj45-and-rj11/
+- <https://www.truecable.com/blogs/cable-academy/rj45-vs-rj11-whats-the-difference>
+- <https://www.cbtnuggets.com/blog/technology/networking/rj11-vs-rj45>
+- <https://en.wikipedia.org/wiki/Registered_jack>
+- <https://www.versitron.com/blogs/post/know-the-difference-between-rj45-port-and-rj11-port>
+- <https://nassaunationalcable.com/blogs/blog/rj11-vs-rj45-a-guide-to-ethernet-cable-connectors>
+- <https://www.geeksforgeeks.org/computer-networks/difference-between-rj45-and-rj11/>

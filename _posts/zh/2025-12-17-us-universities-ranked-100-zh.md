@@ -35,6 +35,7 @@ type: note
 这些大学通常落在90到120名之间，并且经常出现并列排名。
 
 作为比较，在全球排名中：
+
 - 在2026年泰晤士高等教育（THE）世界大学排名中，全球排名在100-200名左右（全国排名中游）的美国大学包括Tufts University、University of Notre Dame、Indiana University、Arizona State University、Northeastern University、University of Miami和University of Utah。
 - 在QS世界大学排名中，排名前100位的美国大学通常是全国最强的大学，因此在美国特定QS列表中“大约100名”将是较低级别的顶尖机构。
 
@@ -42,6 +43,6 @@ type: note
 
 **参考资料：**
 
-- https://www.usnews.com/best-colleges/rankings/national-universities
-- https://www.timeshighereducation.com/student/best-universities/best-universities-united-states
-- https://www.topuniversities.com/where-to-study/north-america/united-states/ranked-top-100-us-universities
+- <https://www.usnews.com/best-colleges/rankings/national-universities>
+- <https://www.timeshighereducation.com/student/best-universities/best-universities-united-states>
+- <https://www.topuniversities.com/where-to-study/north-america/united-states/ranked-top-100-us-universities>

@@ -28,14 +28,17 @@ GPU kernel optimization is fundamental to modern deep learning but remains a hig
 ## Three Core Components
 
 ### 1. Scalable Data Synthesis
+
 Training tasks are built with a three-stage pipeline: seed problem crawling, LLM-based combinatorial synthesis, and execution-driven filtering. Seed operators are mined from `torch` and `transformers`, each represented as a Python class with initialization and forward methods. Combinatorial synthesis samples up to 5 torch operators and composes them sequentially into fused tasks. The final curated dataset contains 6,000 training samples (CUDA-Agent-Ops-6K), designed for scalable RL training with broad task diversity and reduced contamination risk.
 
 ### 2. Skill-Augmented Agent Environment
+
 The agent loop follows a ReAct-style workflow with coding tools and a CUDA skill specification (SKILL.md), enabling iterative coding, compile-debug cycles, and profiler-guided optimization. The standard workflow is: profile native PyTorch, implement CUDA kernels/bindings, compile in GPU sandbox, then iterate. The target requirement is to pass correctness checks and exceed a 5% speedup over `torch.compile`.
 
 The agent is given tools including BashTool, GlobTool, MultiEditTool, and TodoWriteTool, and runs in a four-stage loop: analyze performance of the native PyTorch implementation, implement custom CUDA operators by rewriting the model, compile and evaluate in a GPU sandbox environment, and repeat until achieving a 5% speedup over the `torch.compile` baseline.
 
 ### 3. Stable Long-Horizon RL Training
+
 Training is staged to stabilize long-horizon RL for CUDA coding. It first runs single-turn PPO warm-up, then initializes both actor and critic before full multi-turn agentic RL. Actor initialization uses Rejection Fine-Tuning (RFT) on sampled trajectories with positive outcomes. RFT filtering removes inefficient loops and invalid tool-call patterns to reduce policy collapse risk. With this multi-stage design, training remains stable for long-context settings (up to 128k context, 150 training turns, and up to 200 turns during evaluation), enabling sustained reward growth.
 
 ---

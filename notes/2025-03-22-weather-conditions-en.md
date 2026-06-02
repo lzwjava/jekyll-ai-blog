@@ -11,6 +11,7 @@ type: note
 Here's a comprehensive breakdown of all weather condition value ranges available in iOS Shortcuts:
 
 ## UV Index
+
 - **Range**: 0-11+
 - **Scale**:
   - 0-2: Low
@@ -20,43 +21,53 @@ Here's a comprehensive breakdown of all weather condition value ranges available
   - 11+: Extreme
 
 ## Temperature
+
 - **Range**: Varies by location
 - **Units**: Celsius (°C) or Fahrenheit (°F)
 - **Typical range**: -50°C to 50°C (-58°F to 122°F)
 
 ## Feels Like Temperature
+
 - **Range**: Similar to actual temperature
 - **Units**: Celsius (°C) or Fahrenheit (°F)
 - **Factors**: Combines temperature, humidity, wind chill
 
 ## Humidity
+
 - **Range**: 0-100%
 
 ## Visibility
+
 - **Range**: 0-10+ miles or 0-16+ kilometers
 
 ## Wind Speed
+
 - **Range**: 0-100+ mph or 0-160+ kph
 - **Units**: mph, kph, m/s, or knots
 
 ## Wind Direction
+
 - **Range**: 0-359 degrees
 - **Cardinal directions**: N (0°), E (90°), S (180°), W (270°)
 
 ## Air Quality Index (AQI)
+
 - **Range**: 0-500+
 - **Scale**: Good (0-50) to Hazardous (301+)
 
 ## Precipitation Chance
+
 - **Range**: 0-100%
 - **Interpretation**: Probability of precipitation in the forecast period
 
 ## Precipitation Amount
+
 - **Range**: 0 to 100+ mm or inches
 - **Units**: mm or inches
 - **Time period**: Usually measured per hour or per day
 
 ## Precipitation Intensity
+
 - **Range**:
   - None: 0 mm/h
   - Light: 0.1-2.5 mm/h
@@ -65,11 +76,13 @@ Here's a comprehensive breakdown of all weather condition value ranges available
   - Violent: 50+ mm/h
 
 ## Pressure
+
 - **Range**: Typically 950-1050 hPa/mb
 - **Units**: hPa, mb, or inHg
 - **Standard pressure**: 1013.25 hPa at sea level
 
 ## Dew Point
+
 - **Range**: Similar to temperature range
 - **Units**: Celsius (°C) or Fahrenheit (°F)
 - **Comfort levels**:
@@ -78,27 +91,34 @@ Here's a comprehensive breakdown of all weather condition value ranges available
   - >65°F (>18°C): Increasingly humid and uncomfortable
 
 ## Cloud Cover
+
 - **Range**: 0-100%
 
 ## Weather Condition
+
 - **Values**: Text descriptions (Clear, Partly Cloudy, Rain, Snow, etc.)
 
 ## Sunrise/Sunset Times
+
 - **Range**: Time values in local time zone
 
 ## Moon Phase
+
 - **Range**: 0-1 (0 = New Moon, 0.5 = Full Moon, 1 = New Moon)
 - **Text values**: New Moon, Waxing Crescent, First Quarter, etc.
 
 ## Pollen Count
+
 - **Range**: Usually 0-12
 - **Scale**: Low, Moderate, High, Very High
 
 ## Heat Index
+
 - **Range**: Temperature range, but only calculated when temp is above 80°F (27°C)
 - **Units**: Same as temperature
 
 ## Snowfall Amount
+
 - **Range**: 0 to 100+ cm or inches
 - **Units**: cm or inches
 - **Time period**: Usually per hour or per day

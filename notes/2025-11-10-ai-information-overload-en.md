@@ -26,6 +26,7 @@ Even with millions of sources (research papers in 50+ languages, clinical trials
 ### Example: Personalized Diabetes Insights from 100k Sources
 
 Imagine an AI that scans:
+
 - 50k YouTube/Douyin videos (transcribed)
 - 20k Reddit/TikTok comments
 - 15k research papers (multilingual)
@@ -38,6 +39,7 @@ Then asks *you*:
 **Output (condensed):**
 
 #### Top 3 Evidence-Based Levers (for *you*)
+
 1. **Meal timing > meal type**
    → 71% of similar profiles reverse prediabetes by eating within 10h window (intermittent fasting). Strongest signal from r/fasting + Indian YouTube channels + 41 studies.
    *Try: Finish dinner by 7 PM, break fast at 9–10 AM.*
@@ -50,6 +52,7 @@ Then asks *you*:
    → Weakest in papers, *strongest* in Reddit/ TikTok anecdotes (8k comments). Wearable data shows <6h sleep → 2x craving for sweets.
 
 #### Red Flags (Debunked for Your Profile)
+
 - “Cinnamon cures diabetes” → Works in 12% of cases, mostly mild. Zero effect if A1c >7.0.
 - “Keto forever” → High dropout in South Asians due to cultural fit. Better: “Low-GI Indian keto.”
 
@@ -63,6 +66,7 @@ to
 > **AI Agent:** “Here’s your 90-day reversal plan, updated weekly, with 94% confidence from 87k sources + your Oura ring.”
 
 There will **always** be room to improve:
+
 - Better multilingual video understanding
 - Lie detection in anecdotal data
 - Privacy-preserving federated learning (train on millions without seeing data)

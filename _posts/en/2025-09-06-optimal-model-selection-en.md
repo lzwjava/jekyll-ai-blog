@@ -12,21 +12,25 @@ type: note
 
 Looking at your Claude Code configuration, you want to optimize for both cost and performance. Here are some recommendations for choosing "cheap and powerful" models in your router setup:
 
-## Best Cost/Performance Models from your list:
+## Best Cost/Performance Models from your list
 
 **For most tasks (default):**
+
 - `deepseek/deepseek-chat-v3.1` - Excellent performance at very low cost
 - `deepseek/deepseek-r1` - Great reasoning capabilities, still cost-effective
 
 **For background tasks:**
+
 - `deepseek/deepseek-chat-v3.1` - Already a good choice
 - `google/gemini-2.5-flash` - Fast and inexpensive
 
 **For thinking/reasoning:**
+
 - `deepseek/deepseek-r1` - Specifically designed for reasoning tasks
 - `z-ai/glm-4.5` - Your current choice is decent
 
 **Updated Router suggestion:**
+
 ```json
 "Router": {
   "default": "openrouter,deepseek/deepseek-chat-v3.1",
@@ -37,7 +41,8 @@ Looking at your Claude Code configuration, you want to optimize for both cost an
 }
 ```
 
-## Key considerations:
+## Key considerations
+
 - **DeepSeek models** offer the best price/performance ratio currently
 - **Gemini 2.5 Flash** is very fast and cheap for simpler tasks
 - Keep **Kimi** for long context since it handles 200k+ tokens well

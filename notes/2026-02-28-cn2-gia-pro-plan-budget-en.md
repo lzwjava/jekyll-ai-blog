@@ -12,7 +12,9 @@ type: note
 **No, the LAX.AN5.Pro.TINY at $9.99/month is not the absolute cheapest plan on DMIT.io**, but it is the **cheapest entry-level option in the Premium (Pro) series** with full CN2 GIA optimization (best for China routing from Guangzhou).
 
 ### Current DMIT Pricing Structure (as of late February 2026)
+
 DMIT has multiple series for Los Angeles (LAX):
+
 - **Premium/Pro series** (LAX.AN5.Pro / LAX.Pro) — CN2 GIA + premium transit, optimized for China (your main interest).
   - **LAX.AN5.Pro.TINY** (or LAX.Pro.TINY): 1 vCPU, 2 GB RAM, 20 GB SSD, 1 Gbps port, ~1 TB traffic — **$9.99/month** (or often ~$88.88/year with discount, effectively ~$7.41/mo annualized).
   - This is the **lowest-priced plan in the Pro/Premium lineup** (no cheaper Pro variant exists).
@@ -25,11 +27,13 @@ DMIT has multiple series for Los Angeles (LAX):
 - **Lite / Non-LA locations** — Even lower entry prices (e.g., some Tokyo Lite or HKG plans ~$6.90/month), but not relevant for your LA US IP need.
 
 ### Is $9.99/mo "cheap" for what you get?
+
 - For **full CN2 GIA Premium routing** (stable ~150 ms Guangzhou ↔ LA, good bidirectional performance, especially China → US outbound), yes — it's the **cheapest realistic entry point** in this category.
 - Competitors with similar CN2 GIA US West Coast plans often start higher ($10–20+/mo for comparable specs/routing).
 - If you don't strictly need the absolute best China routing (e.g., can tolerate occasional peaks or use for non-China-heavy traffic), cheaper EB/T1 plans save money but may disappoint on stability from Guangzhou.
 
 ### Bottom Line Recommendation
+
 - **Yes, stick with LAX.AN5.Pro.TINY at $9.99/mo** if your priority is reliable premium routing to/from China (as discussed earlier — it excels in China → US direction).
 - It's the **cheapest Pro plan**, and no lower-Pro exists.
 - Only consider cheaper alternatives (EB/T1 ~$3–$5/mo effective) if you're okay downgrading network quality for cost savings.

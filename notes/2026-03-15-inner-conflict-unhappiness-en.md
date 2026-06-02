@@ -30,7 +30,9 @@ If you have a more specific source (an article, social media post, or context), 
 This statement can be understood across **three distinct dimensions**, all of which carry deep meaning:
 
 ### 1. Inconsistency Between What You Want and What You Do (Inner Conflict)
+
 This is the most personal layer. When your desires, values, or beliefs are misaligned with your actual behavior, you experience what psychologists call **cognitive dissonance** (认知失调). For example:
+
 - You value health but don't exercise.
 - You believe in honesty but lie to avoid conflict.
 - You want deep relationships but push people away.
@@ -38,6 +40,7 @@ This is the most personal layer. When your desires, values, or beliefs are misal
 Psychologist **Carl Rogers** called this **incongruence** — the gap between the "ideal self" (what you want to be) and the "real self" (what you actually do). This gap is a primary cause of anxiety, shame, and suffering.
 
 ### 2. Inconsistency Between Expectations and Reality
+
 A related interpretation: you suffer when your expectations of how the world *should* be don't match how the world *is*. This echoes a famous formula sometimes attributed to various thinkers:
 
 > **Unhappiness = Reality − Expectations**
@@ -45,6 +48,7 @@ A related interpretation: you suffer when your expectations of how the world *sh
 The greater the gap between what you expect and what you get, the greater the unhappiness. This idea is deeply resonant with **Buddhist philosophy** (reducing desire to reduce suffering) and also with **Stoicism** (accept what is, focus only on what you can control).
 
 ### 3. Inconsistency Between Words and Actions (External Integrity)
+
 From an organizational and leadership perspective — especially relevant for Chinese entrepreneurs — this means that people suffer when they say one thing and do another. A company where stated values contradict actual behavior breeds distrust and unhappiness in its culture. Zhang Yiming emphasized at ByteDance that teams should be honest and avoid "managing up" (telling the boss what he wants to hear while acting differently in practice).
 
 ---
@@ -70,6 +74,7 @@ This idea has deep roots in Chinese intellectual tradition:
 ## Practical Application
 
 To apply this insight in everyday life:
+
 - When you feel unhappy or anxious, ask: *"Where is the inconsistency?"* — between what you believe and what you do, between what you expect and what is real, or between what you say and what you mean.
 - Resolving unhappiness then becomes a project of **alignment**: close the gap between aspiration and action, expectation and acceptance, words and deeds.
 

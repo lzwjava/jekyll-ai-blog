@@ -32,6 +32,7 @@ GreptimeDB 的文档指定需要 protoc ≥3.15，但对于此依赖项，实际
      `wget https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protoc-27.3-linux-x86_64.zip`
 
 2. **安装**：
+
    ```
    unzip protoc-*.zip -d protoc-install
    sudo mv protoc-install/bin/protoc /usr/local/bin/
@@ -40,12 +41,15 @@ GreptimeDB 的文档指定需要 protoc ≥3.15，但对于此依赖项，实际
    ```
 
 3. **验证**：
+
    ```
    protoc --version
    ```
+
    应输出 `libprotoc 27.3`（或更高版本）。如果显示的仍是旧版本，请检查您的 PATH（`echo $PATH`）——`/usr/local/bin` 应位于 `/usr/bin` 之前。
 
 4. **重新尝试构建**：
+
    ```
    make clean  # 清除过时的构建目标
    make
@@ -54,10 +58,12 @@ GreptimeDB 的文档指定需要 protoc ≥3.15，但对于此依赖项，实际
 这会覆盖系统的 `protoc`，而不会与 `apt` 包冲突。如果您使用的是较新的发行版，如 Ubuntu 24.04+，`apt install protobuf-compiler` 可能已经提供 ≥3.21 的版本——请先仔细检查您的版本。
 
 ### 如果无法升级（罕见情况）
+
 - 如果受限于旧系统，您需要修补 `substrait` 的 `build.rs` 以添加标志（通过 `Command::new(protoc).arg("--experimental_allow_proto3_optional")`），但这需要 fork 该 crate 并更新 GreptimeDB 的 `Cargo.toml`——过程繁琐，不推荐。
 - 或者，一些 crate 提供了 `protobuf-src` 特性来捆绑一个较新的 protoc，但 `substrait` 默认未启用它。
 
 ### 额外提示
+
 - 确保满足其他先决条件：`build-essential`（用于 GCC）、`libc6-dev`（glibc 头文件）。
 - 如果构建通过但后续在 C++ 依赖项（例如 Arrow）上失败，请通过 conda 或 apt 安装 `libarrow-dev`。
 - 对于 CI/CD 或 Docker：将此下载步骤添加到您的环境中。

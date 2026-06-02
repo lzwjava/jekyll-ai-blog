@@ -53,6 +53,7 @@ https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsex
 Some users reported that the `0.34` release appeared flagged as a pre-release version of Copilot Chat in some environments, causing issues. If you experience this, the `0.33.2025111103` release (November 12, 2025) is the safest stable fallback for VS Code 1.106.x.
 
 Fallback download:
+
 ```
 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot-chat/0.33.2025111103/vspackage
 ```

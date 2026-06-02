@@ -139,6 +139,7 @@ class JSSDK
 ### Step 2: Port Constants to `.env`
 
 **Old CI3 `constants.php`:**
+
 ```php
 define('WECHAT_APP_ID',     'wx123456');
 define('WECHAT_APP_SECRET', 'abc123');
@@ -146,6 +147,7 @@ define('WECHAT_DEBUG',      true);
 ```
 
 **New CI4 `.env`:**
+
 ```ini
 WECHAT_APP_ID     = wx123456
 WECHAT_APP_SECRET = abc123
@@ -189,6 +191,7 @@ class WeChatPlatform
 ### Step 4: Fix Controllers (CI3 → CI4 Pattern)
 
 **CI3 (old):**
+
 ```php
 class WeChatController extends CI_Controller {
     public function __construct() {
@@ -205,6 +208,7 @@ class WeChatController extends CI_Controller {
 ```
 
 **CI4 (new):**
+
 ```php
 <?php
 // app/Controllers/WeChatController.php
@@ -244,6 +248,7 @@ public string $handler = 'file'; // or 'redis', 'memcached'
 ```
 
 For Redis:
+
 ```ini
 # .env
 cache.handler = redis
@@ -256,6 +261,7 @@ cache.redis.port = 6379
 ### Step 6: Verify Routes
 
 In `app/Config/Routes.php`:
+
 ```php
 $routes->get('wechat',        'WeChatController::index');
 $routes->post('wechat/oauth', 'WeChatController::oauth');

@@ -19,7 +19,7 @@ Here's the landscape, ranked by how useful they'd be for your CLI-first, build-f
 
 ## 1. **`promptfoo`** — The Gold Standard for You
 
-**GitHub:** https://github.com/promptfoo/promptfoo — ~10k stars
+**GitHub:** <https://github.com/promptfoo/promptfoo> — ~10k stars
 
 CLI-first, open-source, uses YAML configs stored in your repo, designed for developers who live in the terminal. Treats prompt evaluation like software testing: declarative configs, batch testing, regression checks.
 
@@ -39,6 +39,7 @@ npx promptfoo@latest view
 A typical config for prompt A/B testing:
 
 {% raw %}
+
 ```yaml
 # promptfooconfig.yaml
 prompts:
@@ -61,6 +62,7 @@ tests:
   - vars:
       text: "Backpropagation computes gradients via the chain rule..."
 ```
+
 {% endraw %}
 
 Run `npx promptfoo@latest eval` and it runs each test case against each model/prompt combo. Then `npx promptfoo@latest view` opens the web viewer with the matrix.
@@ -73,7 +75,7 @@ CI/CD integration: there's a GitHub Action that posts before/after diffs on PRs 
 
 ## 2. **Langfuse** — If You Want UI + Tracing
 
-**GitHub:** https://github.com/langfuse/langfuse
+**GitHub:** <https://github.com/langfuse/langfuse>
 
 Langfuse's playground supports side-by-side prompt comparison with parallel LLM execution. Each variant keeps its own LLM settings, variables, tool definitions, and placeholders — you can see the impact of every change immediately.
 
@@ -85,7 +87,7 @@ Best for: you're already tracing production calls and want to reproduce + fix a 
 
 ## 3. **Agenta** — Full LLMOps Platform
 
-**GitHub:** https://github.com/Agenta-AI/agenta
+**GitHub:** <https://github.com/Agenta-AI/agenta>
 
 Agenta treats prompts like code with version control, and includes a Playground that lets you fine-tune and compare outputs from over 50 LLMs simultaneously.
 

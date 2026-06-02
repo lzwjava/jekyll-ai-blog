@@ -9,9 +9,11 @@ type: note
 ---
 
 ## Company Overview
+
 Alco Holdings Limited is an investment holding company primarily engaged in the design, manufacture, and sale of consumer electronics products. Founded in 1968 and headquartered in Sha Tin, Hong Kong, the company operates globally, with a focus on audiovisual (AV) and IT equipment. It is listed on the Hong Kong Stock Exchange (HKEX) under the ticker 0328 since 1992. Alco specializes in original equipment manufacturing (OEM) and original design manufacturing (ODM) for AV products and notebooks, serving markets in Asia, Europe, North America, and internationally. The company also engages in property holding, investment, software development activities, and provides management services. Its mission is to go beyond the limits of modern technologies to facilitate the digital revolution, emphasizing innovation, operational efficiency, R&D, and quality assurance. Alco maintains over 2.5 million square feet of automated manufacturing space, primarily in Dongguan, China, and has obtained certifications such as ISO 9001:2015 and ISO 14001:2015.
 
 ## History
+
 Alco Holdings Limited has evolved from a small radio manufacturer to a diversified electronics producer over more than five decades. Key milestones include:
 
 - **1968**: Founded by Mr. Kimen Leung as Alco Electronics in Hong Kong's western district, starting with 150 employees producing transistor radios.
@@ -44,14 +46,18 @@ Alco Holdings Limited has evolved from a small radio manufacturer to a diversifi
 The company has continuously adapted to technological advancements, shifting from radios to advanced AV, IT, and smart devices while expanding its global footprint.
 
 ## Business Operations
+
 Alco operates through two main segments:
+
 - **AV Products**: Includes audio, video, and tablet products, such as DVD home theaters, LCD TVs, and home audio systems. The company manufactures under its own brands like RCA, Venturer, and others, as well as OEM/ODM for international clients.
 - **Notebook Products**: Encompasses commercial notebooks, personal computers, and 2-in-1 laptops (e.g., AVITA, Nexstgo). It also develops own-brand laptops for B2B and consumer markets.
 
 Additional activities include property investment, software development, and trading of AV and notebook products. Production is highly automated, with facilities in Dongguan, China, supported by R&D centers in Shenzhen, Dongguan, and New Taipei City. Alco emphasizes smart technologies, just-in-time manufacturing, and global customer support.
 
 ## Management and Key Executives
+
 Alco's leadership team includes:
+
 - **Liping Liao**: Executive Co-Chairman of the Board (born 1976).
 - **Yi Tian**: Non-Executive Co-Chairman of the Board.
 - **Chak-Yu Ho**: Executive Director (born 1989).
@@ -62,7 +68,9 @@ Alco's leadership team includes:
 The board oversees strategic direction, with a focus on innovation and market adaptation.
 
 ## Financial Performance
+
 As of July 2025, Alco Holdings has a market capitalization of approximately HK$40.09 million, with shares trading at around HK$0.35 (down from a 52-week high of HK$6.88). Key financial highlights (based on fiscal year ended March 31, 2025, in millions HKD):
+
 - **Revenue**: HK$99.31 (down from HK$148.42 in FY2024).
 - **Gross Profit**: HK$5.12 (down from HK$8.86).
 - **Net Income**: Loss of HK$64.27 (compared to profit of HK$600.69 in FY2024, largely due to absence of one-off gains).
@@ -75,6 +83,7 @@ As of July 2025, Alco Holdings has a market capitalization of approximately HK$4
 The company reported a loss of HK$60-70 million for FY2025, attributed to intense price competition, reduced revenue, and no repeat of prior one-off gains. Cash flow from operations was negative in recent years.
 
 ## Recent Developments (as of July 2025)
+
 - **July 2025**: Shares experienced volatility, with concerns over a 39% price jump amid underlying financial challenges.
 - **June 2025**: Announced board changes, including the appointment of Wenbin Bian as non-executive director and resignation of Yang Min, effective June 20.
 - **June 2025**: Board meeting on June 30 to approve annual results and consider dividends.
@@ -85,6 +94,7 @@ The company reported a loss of HK$60-70 million for FY2025, attributed to intens
 Alco continues to transform by focusing on smart tech products and own-brand expansion amid industry challenges.
 
 ## Sources
+
 - Official website: alco.com.hk (Our Story, Corporate Profile).
 - Yahoo Finance: finance.yahoo.com/quote/0328.HK/profile/.
 - Reuters: reuters.com/markets/companies/0328.HK.

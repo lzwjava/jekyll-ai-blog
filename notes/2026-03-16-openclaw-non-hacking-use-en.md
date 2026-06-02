@@ -18,10 +18,12 @@ No, OpenClaw is **not** very good at hacking tasks like finding website vulnerab
 OpenClaw is an open-source, self-hosted AI agent (formerly known as Clawdbot or Moltbot) designed as a personal assistant. It runs locally on your computer or a dedicated device and connects to messaging apps like WhatsApp or Telegram. It can perform everyday tasks such as managing emails, calendars, sending messages, checking flights, or controlling apps and files on your own machine when you explicitly allow it.
 
 Because it has full access to your computer (if you grant it), it *could* technically run any software or scripts you install and instruct it to execute. For example:
+
 - You could install tools like Nmap for port scanning on your own systems.
 - You could write or run scripts for web browsing or basic automation.
 
 However, it is **not** built or optimized for hacking:
+
 - It has no built-in hacking skills, exploits, or specialized tools.
 - Its performance depends entirely on the large language model you connect (e.g., Claude or GPT) and the exact commands you give it.
 - It is not "smart" enough to autonomously discover and exploit real-world vulnerabilities without detailed human instructions and pre-installed tools.
@@ -31,4 +33,4 @@ However, it is **not** built or optimized for hacking:
 
 If you are interested in ethical security testing (white-hat hacking) on systems you own and have explicit permission to test, you would still need to manually install professional tools and guide the agent step-by-step. Even then, dedicated tools and human expertise are far more effective than relying on OpenClaw.
 
-For official details, visit the project at https://openclaw.ai or its GitHub repository. If you have a different, non-hacking question about setting up OpenClaw for legitimate tasks, feel free to ask!
+For official details, visit the project at <https://openclaw.ai> or its GitHub repository. If you have a different, non-hacking question about setting up OpenClaw for legitimate tasks, feel free to ask!

@@ -106,36 +106,43 @@ leaks <PID>
 ## 实际示例
 
 **对运行中 app 进行基本检查：**
+
 ```bash
 leaks Safari
 ```
 
 **安静模式 — 仅显示泄漏：**
+
 ```bash
 leaks -quiet --atExit -- ./myapp
 ```
 
 **带栈跟踪日志：**
+
 ```bash
 MallocStackLogging=1 leaks -quiet -atExit -- ./myapp
 ```
 
 **过滤仅显示泄漏行 (grep)：**
+
 ```bash
 leaks --atExit -- ./myapp | grep LEAK:
 ```
 
 **排除已知系统泄漏：**
+
 ```bash
 leaks --atExit -exclude CFRunLoopRun -- ./myapp
 ```
 
 **保存内存图以供后续分析：**
+
 ```bash
 leaks --outputGraph /tmp/myapp.memgraph --atExit -- ./myapp
 ```
 
 **分析保存的内存图：**
+
 ```bash
 leaks /tmp/myapp.memgraph
 ```

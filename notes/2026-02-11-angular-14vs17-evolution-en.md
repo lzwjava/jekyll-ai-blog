@@ -54,8 +54,8 @@ Modern Angular (17+) is objectively more pleasant to work with than Angular 14-e
 
 **References:**
 
-- https://blog.angular.dev/introducing-angular-v17-4d7033312e4b
-- https://angular.dev/reference/releases
-- https://medium.com/@ratan.kumar67890/whats-new-in-angular-from-version-14-to-the-latest-version-c32c28b7e7c4
-- https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5
-- https://krausest.github.io/js-framework-benchmark/current.html (control flow benchmarks)
+- <https://blog.angular.dev/introducing-angular-v17-4d7033312e4b>
+- <https://angular.dev/reference/releases>
+- <https://medium.com/@ratan.kumar67890/whats-new-in-angular-from-version-14-to-the-latest-version-c32c28b7e7c4>
+- <https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5>
+- <https://krausest.github.io/js-framework-benchmark/current.html> (control flow benchmarks)

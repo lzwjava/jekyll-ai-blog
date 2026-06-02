@@ -20,4 +20,4 @@ This video discusses the legacy of Richard Feynman, highlighting both his positi
 * **Conclusion:** The video concludes that Feynman, while brilliant, did not think profoundly enough about fundamental physics \\[[11:49](http://www.youtube.com/watch?v=BnCDVrBSDFk&t=709)\\].
 
 You can watch the video here: [https://www.youtube.com/watch?v=BnCDVrBSDFk](https://www.youtube.com/watch?v=BnCDVrBSDFk)
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

@@ -34,6 +34,7 @@ Here's the result.
 ## The plan
 
 **Architecture (custom, between GPT-2 small and medium):**
+
 ```
 n_layer = 18,  n_head = 16,  n_embd = 896     → 218.5M non-embedding params
 ```

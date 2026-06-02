@@ -32,7 +32,8 @@ MetaMask is a popular cryptocurrency wallet app for managing Ethereum and other 
    - Follow the prompts: Agree to terms, create a strong password, and back up your **Secret Recovery Phrase** (write it down offline and store securely—never share it!).
    - Once set up, you can add funds by buying crypto via the app, receiving transfers, or importing from exchanges.
 
-#### Tips:
+#### Tips
+
 - **Built-in Browser**: The app includes a dApp browser for interacting with Web3 sites directly on mobile—use this instead of external browsers for seamless connections.
 - **No Browser Extension on Mobile**: Unlike desktop, Android doesn't support browser extensions like Chrome's MetaMask add-on. The standalone app handles everything.
 - **Troubleshooting**: If the app crashes or won't install, ensure your Android OS is version 7.0 or higher, clear Play Store cache, or restart your device.

@@ -12,7 +12,7 @@ type: note
 
 我将搜索有关 Kimi-k2.5 和 Gemini Flash 与 Codex 的兼容性及其 tool calling 能力的信息。现在让我搜索 Gemini Flash 与 Codex 的兼容性：
 
-## 是的，两者在 Codex 中都存在已知问题：
+## 是的，两者在 Codex 中都存在已知问题
 
 ### **Kimi-K2.5 问题：**
 
@@ -34,9 +34,10 @@ type: note
 
 4. 尽管 Gemini 1.5-pro 在相同配置下运行良好，但 Gemini 1.5-flash 的 function calling 无法工作。
 
-## 我的建议：
+## 我的建议
 
 对于你在 Codex 中**确实能稳定工作**的较便宜选项的自定义 provider config.toml 配置：
+
 - **GPT-4o Mini**（最安全，已验证）
 - **GPT-4.1 Mini**（更好的 performance）
 - **o3-Mini**（最便宜的 reasoning）

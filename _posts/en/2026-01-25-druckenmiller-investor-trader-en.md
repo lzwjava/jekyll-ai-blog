@@ -17,11 +17,13 @@ type: note
 **Stanley Freeman Druckenmiller** (born June 14, 1953) is an American billionaire investor, hedge fund manager, and philanthropist. He is widely regarded as one of the most successful macro investors in history, famous for his global macro trading style, exceptional long-term performance, and his key role in one of the most legendary trades in financial history.
 
 ### Early Life and Education
+
 - Born in Pittsburgh, Pennsylvania.
 - Graduated from Bowdoin College with degrees in English and Economics (1975).
 - Briefly attended the University of Michigan PhD program in economics but dropped out after about a year to pursue a career in finance.
 
 ### Career Highlights
+
 - **Early career**: Started in 1977 as a stock analyst at Pittsburgh National Bank, quickly rising to head the equity research department by age 25.
 - **Duquesne Capital Management**: Founded his own firm, Duquesne Capital, in 1981 (initially as Duquesne Capital Management). He built an extraordinary track record there.
   - Delivered average annualized returns of approximately **30%** over nearly 30 years (from 1981 to 2010).
@@ -40,7 +42,9 @@ type: note
   - Converted Duquesne into a family office (Duquesne Family Office), managing his personal wealth and that of his family.
 
 ### Investment Style and Philosophy
+
 Druckenmiller is a **global macro** investor who focuses on big-picture economic trends, currencies, interest rates, commodities, equities, and bonds. Key elements of his approach include:
+
 - Strong emphasis on **top-down analysis** (macro themes first, then security selection).
 - Extreme flexibility — willing to concentrate positions heavily when conviction is high.
 - Rapidly changing views when facts change ("there is no trade that is too big to exit").
@@ -49,12 +53,14 @@ Druckenmiller is a **global macro** investor who focuses on big-picture economic
 - He has repeatedly highlighted the importance of liquidity, central bank policy, and avoiding permanent loss of capital.
 
 ### Net Worth and Current Activities
+
 - As of early 2026, his net worth is estimated at **$7.8–11 billion** (estimates vary across sources like Forbes and Bloomberg Billionaires Index).
 - Manages his wealth through the Duquesne Family Office.
 - Remains active in markets, with notable recent investments in AI-related stocks (e.g., positions in Amazon, Meta Platforms, Alphabet, and others in 2025).
 - Frequently gives interviews and public talks, sharing macro views on inflation, Fed policy, equity markets, Bitcoin, and economic cycles.
 
 ### Philanthropy
+
 - Through the **Druckenmiller Foundation**, he and his wife Fiona support education reform, medical research, medical student scholarships, and other causes.
 - Major donor to early childhood education initiatives and various New York and Pittsburgh institutions.
 

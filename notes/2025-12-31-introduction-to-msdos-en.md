@@ -52,6 +52,7 @@ Development ceased around 2000.
 **Common Commands**
 
 Internal (built into COMMAND.COM):
+
 - `DIR`: List directory contents.
 - `CD`: Change directory.
 - `MD`/`MKDIR`: Make directory.
@@ -62,6 +63,7 @@ Internal (built into COMMAND.COM):
 - `TYPE`: Display file contents.
 
 External (separate executables):
+
 - `FORMAT`: Format disks.
 - `CHKDSK`: Check disk integrity.
 - `FDISK`: Partition hard drives.

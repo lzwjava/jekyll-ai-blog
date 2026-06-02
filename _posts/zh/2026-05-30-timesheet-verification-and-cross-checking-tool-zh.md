@@ -29,6 +29,7 @@ uv run tt verify -i input -m google/gemini-2.5-flash -t 0.60
 ```
 
 `tt verify` 的功能：
+
 1. 读取 `input/client/`、`input/vendor/punch/`、`input/vendor/timesheet/` 中的所有图片
 2. 将每张图片发送给 OpenRouter 上的视觉 LLM，以提取结构化 JSON
 3. 交叉核对：标记客户记录了工时但供应商显示打卡缺失的日期（反之亦然）

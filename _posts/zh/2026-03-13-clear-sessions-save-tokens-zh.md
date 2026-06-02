@@ -61,16 +61,19 @@ Token 成本随 context 大小扩展：Claude 处理的 context 越多，你使�
 ## 每个工具的实用指导
 
 ### Claude Code
+
 - 在不相关任务之间使用 **`/clear`**。当你注意到 Claude 丢失跟踪时使用 `/compact`，切换到完全不同工作时使用 `/clear`。
 - 当仍在同一任务但会话变长时，使用 **`/compact`**（不是 `/clear`）——它总结历史同时保留意图。
 - Claude Code 通过 prompt caching（减少重复内容如 system prompts 的成本）和 auto-compaction（接近 context 限制时总结对话历史）自动优化成本。
 
 ### Codex CLI (OpenAI)
+
 - 当对话变长时使用 `/compact` 命令来总结历史并释放 token。
 - 使用 `/fork` 分支出会话用于不同方法，保留原版。
 - 对于真正不相关的工作，推荐使用新会话从头开始。
 
 ### OpenCode
+
 - OpenCode 较新，provider-agnostic 的 `/compact` 命令和 auto-compaction 支持是拟议功能——尚未在所有 backend 普遍可用。
 - 在不相关任务之间启动新会话仍是目前最安全的方法。
 

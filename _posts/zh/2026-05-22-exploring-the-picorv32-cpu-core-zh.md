@@ -74,6 +74,7 @@ make test_verilator  # 更快的 C++ 仿真
 ### 第 4 级：FPGA 综合（在你的 Ubuntu 工作站上）
 
 `scripts/` 目录包含以下工具的 Makefile：
+
 - **IceStorm**（开源 Lattice iCE40 FPGA 流程）—— `scripts/icestorm/Makefile`
 - **Vivado**（Xilinx）—— `scripts/vivado/Makefile`
 - **Quartus**（Intel/Altera）—— `scripts/quartus/Makefile`

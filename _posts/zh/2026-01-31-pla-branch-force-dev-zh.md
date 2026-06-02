@@ -20,6 +20,7 @@ type: note
 这一概念通常与 **“战区主战”** (zhànqū zhǔzhàn) —— “theater commands primarily responsible for fighting” 配对使用。两者共同构成了 PLA (People's Liberation Army) 军事改革中的核心组织原则，即实现了 force development 函数与 operational command 函数的分离。
 
 在实际操作层面：
+
 - **军种 (Military services)** 专注于建设具备作战能力的部队 (combat-ready forces)
 - **战区 (Theater commands)** 专注于在实际作战行动中运用这些部队
 

@@ -13,11 +13,14 @@ type: note
 No, the command `nodeName -name serverName admin create applciation server` (noting the typo in "applciation") is not correct for creating an application server in IBM WebSphere Application Server (WAS) using wsadmin scripting.
 
 ### Correct Syntax
+
 The proper command uses the `AdminTask.createApplicationServer` method in Jython (the recommended scripting language for wsadmin). It requires:
+
 - The **node name** as the first argument (a string).
 - A **list of options** as the second argument, including `-name` for the server name.
 
 **Basic example:**
+
 ```jython
 AdminTask.createApplicationServer('YourNodeName', ['-name', 'YourServerName'])
 ```
@@ -27,6 +30,7 @@ AdminTask.createApplicationServer('YourNodeName', ['-name', 'YourServerName'])
 - Optional parameters can be added to the list, like `'-templateName', 'default'` for using a default server template.
 
 ### Steps to Run It
+
 1. Start wsadmin in Jython mode: `./wsadmin.sh -lang jython -user admin -password pass`.
 2. Execute the command above.
 3. Save the configuration: `AdminConfig.save()`.

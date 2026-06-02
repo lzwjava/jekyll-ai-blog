@@ -17,15 +17,18 @@ I'd be happy to help you learn about the Beseus car charger! Let me search for c
 Baseus offers a range of car chargers that typically feature:
 
 **Key Features:**
+
 - **Wide Voltage Range**: Compatible with 12V car outlets, with some models supporting extended voltage ranges for various vehicle types
 - **Dual Port Design**: Most models include both cigarette lighter port compatibility and multiple USB ports
 - **USB Port Options**: Multiple USB-C and USB-A ports for charging various devices simultaneously
 
 **Popular Models:**
+
 - **High-Wattage Options**: The Baseus 160W USB-C Car Charger can deliver up to 160W of power via its three USB ports, two of which are Type-C
 - **Retractable Cable Models**: Some models include retractable cables for organized charging without messy cables
 
 **Advanced Features:**
+
 - **Fast Charging Technology**: Support for QC (Quick Charge), PD (Power Delivery), and PPS protocols
 - **Multi-Device Support**: Can charge 4 devices simultaneously with advanced power allocation systems
 - **High Power Output**: Some models offer 100W+ output capable of charging laptops like MacBooks

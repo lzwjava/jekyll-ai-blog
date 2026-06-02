@@ -24,6 +24,7 @@ type: note
 #### 创建简单插件的基本步骤
 
 1. **创建目录结构**
+
    ```
    mkdir my-awesome-plugin
    cd my-awesome-plugin
@@ -34,6 +35,7 @@ type: note
    这是必需的——将其放置在 `.claude-plugin/plugin.json`
 
    最小示例：
+
    ```json
    {
      "name": "my-awesome-plugin",
@@ -48,6 +50,7 @@ type: note
 
    - **Slash commands** — 将 Markdown 文件放入 `commands/`
      示例：`commands/greet/COMMAND.md`
+
      ```markdown
      ---
      description: Prints a friendly greeting
@@ -65,18 +68,22 @@ type: note
 
 4. **本地测试**
    使用插件文件夹启动 Claude Code：
+
    ```
    claude --plugin-dir ./my-awesome-plugin
    ```
+
    或者将其添加为本地 marketplace 以便更容易测试。
 
 5. **分享 / 分发**
    - 推送到 GitHub
    - 其他人通过以下方式安装：
+
      ```
      /plugin marketplace add https://github.com/yourname/my-awesome-plugin
      /plugin install my-awesome-plugin
      ```
+
    - 或者创建 **marketplace**（包含多个插件的 repo），使用 `marketplace.json`
 
 许多人从 `~/.claude/` 中的 **standalone skills/commands** 开始，后来转换为插件。
@@ -111,7 +118,7 @@ Claude Code 本身 **不** 暴露传统的公共 REST API 用于插件（大多�
 如果需要深度编程集成（调用外部 API、持久状态等），请结合 **tool use + 您自己的 backend**。
 
 **官方起点**
-→ https://code.claude.com/docs/en/plugins
+→ <https://code.claude.com/docs/en/plugins>
 
 **示例与灵感**
 在 GitHub 上搜索 "claude-code-plugin" 或访问社区 marketplace 如 buildwithclaude.com

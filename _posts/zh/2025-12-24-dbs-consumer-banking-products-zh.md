@@ -16,7 +16,7 @@ type: note
 
 DBS Bank 的 **Consumer Banking Group (CBG)**，通常也被称为 Consumer Banking/Wealth Management 部门，主要服务于零售和个人客户。它提供广泛的个人财务产品和服务，旨在满足日常银行服务、财富积累、保障和借贷需求。
 
-### 主要产品包括：
+### 主要产品包括
 
 - **Deposits and accounts**：活期账户、储蓄账户和定期存款。
 - **Loans and financing**：个人贷款、住房贷款/Mortgages、Consumer finance 以及其他信贷设施。

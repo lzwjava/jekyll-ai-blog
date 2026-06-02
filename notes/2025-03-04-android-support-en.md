@@ -15,9 +15,11 @@ Since `support-v4:19.1.0` is part of the legacy Android Support Library, it has 
 ---
 
 ### Step 1: Add the Dependency
+
 To use `support-v4:19.1.0`, you need to include it as a dependency in your project. This is typically done in your `build.gradle` file (Module: app).
 
 #### For Gradle-Based Projects
+
 1. Open your `app/build.gradle` file.
 2. Add the following line to the `dependencies` block:
 
@@ -29,11 +31,13 @@ dependencies {
 
 3. Sync your project with Gradle by clicking "Sync Now" in Android Studio.
 
-#### Notes:
+#### Notes
+
 - Ensure your `compileSdkVersion` is set to at least 19 (Android 4.4 KitKat) or higher, as this library is aligned with API 19 features.
 - The minimum SDK version supported by `support-v4:19.1.0` is API 4 (Android 1.6), but you should set your `minSdkVersion` based on your app’s requirements.
 
 Example `build.gradle`:
+
 ```gradle
 android {
     compileSdkVersion 19
@@ -51,6 +55,7 @@ dependencies {
 ---
 
 ### Step 2: Verify Availability
+
 The Android Support Libraries are hosted in Google's Maven repository. Starting with Android Studio 3.0+, this repository is included by default. If you're using an older version of Android Studio, ensure the following is in your `build.gradle` (Project-level):
 
 ```gradle
@@ -63,15 +68,18 @@ allprojects {
 ```
 
 If you encounter issues downloading the library, you may need to install the Android Support Repository via the SDK Manager:
+
 1. Go to `Tools > SDK Manager`.
 2. Under the "SDK Tools" tab, check "Android Support Repository" and install it.
 
 ---
 
 ### Step 3: Using the Library in Your Code
+
 The `support-v4` library provides a variety of classes, such as `Fragment`, `Loader`, `AsyncTaskLoader`, and utilities like `ActivityCompat`. Below are examples of how to use some common components:
 
 #### Example 1: Using Fragments
+
 The `support-v4` library includes a backported `Fragment` class that works on older Android versions.
 
 ```java
@@ -90,6 +98,7 @@ public class MyFragment extends Fragment {
 ```
 
 To use this fragment in an activity:
+
 ```java
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
@@ -110,6 +119,7 @@ public class MainActivity extends FragmentActivity {
 ```
 
 #### Example 2: Using ActivityCompat
+
 The `ActivityCompat` class provides helper methods for backward-compatible features, such as requesting permissions (introduced in API 23 but usable earlier with the support library).
 
 ```java
@@ -138,6 +148,7 @@ public class MainActivity extends FragmentActivity {
 ---
 
 ### Step 4: Considerations
+
 - **Deprecated Library**: The Android Support Library, including `support-v4:19.1.0`, is deprecated. For modern development, migrate to AndroidX (e.g., `androidx.legacy:legacy-support-v4:1.0.0`). AndroidX is the successor and provides ongoing updates and support.
 - **Version Matching**: If you use other support libraries (e.g., `appcompat-v7`), ensure they are the same version (19.1.0) to avoid version mismatch errors.
 - **Minimum SDK**: While `support-v4:19.1.0` supports API 4+, some features may require a higher `minSdkVersion` (e.g., API 14 for certain components introduced later).
@@ -145,7 +156,9 @@ public class MainActivity extends FragmentActivity {
 ---
 
 ### Step 5: Migrating to AndroidX (Optional but Recommended)
+
 If you’re maintaining an old project, consider migrating to AndroidX:
+
 1. In Android Studio, go to `Refactor > Migrate to AndroidX`.
 2. Update your dependencies, e.g., replace `com.android.support:support-v4:19.1.0` with `androidx.legacy:legacy-support-v4:1.0.0`.
 3. Follow the migration guide provided by Android Studio.
@@ -153,6 +166,7 @@ If you’re maintaining an old project, consider migrating to AndroidX:
 ---
 
 ### Troubleshooting
+
 - **"Could not find library"**: Ensure your internet connection is active and the Google Maven repository is accessible.
 - **Version Mismatch**: If you see errors about mismatched support library versions, align all `com.android.support` dependencies to 19.1.0.
 - **Obsolete Features**: Some APIs in `support-v4:19.1.0` (e.g., `AsyncTask`) are outdated. Check the documentation for alternatives.

@@ -114,7 +114,7 @@ def main():
         output_dir = os.path.dirname(filename)
         output_filename = os.path.basename(filename)
 
-        base_name = os.path.basename(filename).replace(".tex", "")
+        os.path.basename(filename).replace(".tex", "")
 
         if kind == "resume":
             if "awesome-cv/en/resume-en/resume-en.tex" in filename:
@@ -183,7 +183,7 @@ def main():
                 output_dir = os.path.dirname(filename)
                 output_filename = os.path.basename(filename)
 
-                base_name = os.path.basename(filename).replace(".tex", "")
+                os.path.basename(filename).replace(".tex", "")
 
                 if kind == "resume":
                     if "awesome-cv/en/resume-en/resume-en.tex" in filename:

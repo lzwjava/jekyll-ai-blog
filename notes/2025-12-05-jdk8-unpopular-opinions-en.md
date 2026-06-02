@@ -35,6 +35,7 @@ JDK 8, released in 2014, introduced transformative features like lambdas, stream
 These opinions highlight JDK 8's double-edged sword: innovative yet divisive. While not universal, they underscore why some devs still cling to pre-8 eras or eye alternatives like Kotlin.
 
 References:
+
 - [Love and hate for Java 8](https://www.infoworld.com/article/2171436/love-and-hate-for-java-8.html)
 - [r/java: Java 8 – The Bad Parts](https://www.reddit.com/r/java/comments/7juy4n/java_8_the_bad_parts/)
 - [r/java: Why most of the industry is still on Java 8?](https://www.reddit.com/r/java/comments/1je309a/why_most_of_the_industry_is_still_on_java_8/)

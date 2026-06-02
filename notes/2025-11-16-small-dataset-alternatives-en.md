@@ -28,6 +28,7 @@ Yes, OpenWebText is huge (~9B tokens, 17GB uint16 file) and takes a long time to
    (nanoGPT users love this one)
 
 2. Want something still “real internet text” but tiny → OpenWebText first 10k documents
+
    ```python
    dataset = load_dataset("openwebtext", split="train[:10000]")
    ```
@@ -44,6 +45,7 @@ Yes, OpenWebText is huge (~9B tokens, 17GB uint16 file) and takes a long time to
    ```
 
 4. Want something < 500MB but still diverse → RedPajama sample (200M tokens version)
+
    ```python
    dataset = load_dataset("togethercomputer/RedPajama-Data-1T", name="sample-200M", split="train")
    ```
@@ -51,6 +53,7 @@ Yes, OpenWebText is huge (~9B tokens, 17GB uint16 file) and takes a long time to
 All of these drop into your exact same preprocessing script with zero changes (just replace the load_dataset line).
 
 For quick iteration I usually keep three binaries on disk:
+
 - `shakespeare.bin`   (~2MB)   → overfit tests
 - `owt_10k.bin`       (~80MB)  → debugging new code
 - `fineweb_edu_1B.bin` (~2GB) → actual small-model training

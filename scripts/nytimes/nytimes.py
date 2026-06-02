@@ -29,7 +29,7 @@ def call_mistral_api(prompt, model="mistral-small-2501"):
         print(
             f"Prompt being sent: {prompt[:1000]}..."
         )  # Print the first 100 characters of the prompt
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         response.raise_for_status()
         response_json = response.json()
         print(f"Mistral API Response: {response_json}")
@@ -52,9 +52,9 @@ def fetch_html_content(url):
     """Fetches the HTML content of a given URL."""
     try:
         # Create an unverified SSL context
-        context = ssl._create_unverified_context()
+        ssl._create_unverified_context()
         print(f"Fetching HTML content from: {url}")
-        response = requests.get(url, verify=False)
+        response = requests.get(url, verify=False, timeout=30)
         response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
         print(f"Successfully fetched HTML content from: {url}")
         return response.text
@@ -150,7 +150,7 @@ def update_markdown_file(filename, markdown_content):
         start_index = (
             existing_content.find("---", 3) + 4
         )  # Find the second '---' and move past it
-        end_index = len(existing_content)
+        len(existing_content)
 
         # Construct the updated content
         updated_content = (

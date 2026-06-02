@@ -40,6 +40,7 @@ Answer:
 
 尽管伟大的内容可以永存，但大多数新 videos 仍然几乎无人问津。
 获胜者通常具备：
+
 - 异常清晰的解释
 - 出色的 visuals / animations
 - 令人难忘的 titles & thumbnails

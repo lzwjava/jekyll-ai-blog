@@ -36,6 +36,7 @@ Partially right, but let me steelman and then stress-test your model.
 ## The More Precise Model
 
 Progress is blocked when:
+
 1. **Exit is blocked** — no alternatives, switching costs are too high
 2. **Voice is suppressed or discounted** — "negative energy" framing, retaliation, captured media
 3. **Feedback loops are severed** — internal critics fired, external critics ignored, metrics gamed

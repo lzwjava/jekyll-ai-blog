@@ -39,6 +39,7 @@ User --> messages[] --> LLM --> response
                     append results
                     loop back --> messages[]
 ```
+
 Every AI coding agent needs this loop. Production agents add policy, permissions, and lifecycle layers.
 
 ---
@@ -138,6 +139,7 @@ Run it like: `python agent.py "list all Python files and count lines in main.py"
 ## Key Components to Add for a Full CLI Tool
 
 ### 1. Proper CLI Interface (using `typer`)
+
 ```python
 import typer
 app = typer.Typer()
@@ -151,15 +153,19 @@ if __name__ == "__main__":
 ```
 
 ### 2. File Read/Write/Edit Tools
+
 Give the agent the ability to write to files, not just read them. This is the core of any coding agent — without write access, it can only suggest, not implement.
 
 ### 3. Context Management
+
 LLMs have a limited context window, and even if you could fit an entire codebase, indiscriminately dumping hundreds of files would be wasteful and confusing. The agent would spend most of its reasoning power figuring out what's relevant. Solutions include letting the model grep for specific symbols, building a file index, or using embeddings.
 
 ### 4. Sandboxing / Safety
+
 Before executing shell commands, validate them. You can use Docker containers or restrict which directories the agent can write to.
 
 ### 5. Streaming Output (for UX)
+
 Use `client.messages.stream()` with Anthropic SDK so users see output in real time rather than waiting.
 
 ---

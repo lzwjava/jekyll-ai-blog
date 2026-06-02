@@ -25,11 +25,13 @@ IBM WebSphere Application Server (WAS) 是一款企业级 Java EE 应用服务�
 | **迁移注意事项**       | 不适用（基准版本）。                                                    | 通过配置比对工具等简化从 8.x 版本的迁移；自动端口对齐及废弃 API 处理，便于过渡至 Java SE 8。 |
 
 #### 核心要点
+
 - **最大跨越**：升级至 Java EE 7 和 Java SE 8 是最重要的改进，实现了早期在 Liberty 中预览的现代 Java 特性和标准。若运行传统的 Java EE 6 应用，迁移至 9.0 较为直接，但需针对 SE 8 特定变更进行测试。
 - **升级时机**：若需云/混合云功能或 EE 7 特性，选择 9.0；仅短期维护旧应用时可沿用 8.0（或升级至 8.5.5）。
 - 详细迁移指南请参阅 IBM 官方文档。
 
 **参考资料**：
+
 - [IBM WebSphere Application Server 维基百科](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server)
 - [WAS 传统版 V9 中的 Java SE 8](https://www.ibm.com/docs/en/was/9.0.5?topic=waso-java-se-8-in-websphere-application-server-traditional-v9)
 - [WAS 版本对比幻灯片](https://www.slideshare.net/ejlp12/ibm-websphere-application-server-version-to-version-comparison)

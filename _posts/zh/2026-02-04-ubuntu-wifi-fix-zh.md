@@ -46,6 +46,7 @@ rfkill list all
 查找 **Wireless LAN** 相关行。
 
 - 如果显示 **Soft blocked: yes** → 使用以下命令修复：
+
   ```bash
   rfkill unblock wifi
   rfkill unblock all
@@ -102,6 +103,7 @@ dmesg | grep -i -E 'wlan|wifi|iwlwifi|rtl|ath|brcm|firm|error'
 常见错误：
 
 - "firmware load failed" → 缺少 firmware（例如对于 Intel）：
+
   ```bash
   sudo apt install linux-firmware
   sudo update-initramfs -u
@@ -109,6 +111,7 @@ dmesg | grep -i -E 'wlan|wifi|iwlwifi|rtl|ath|brcm|firm|error'
   ```
 
 - iwlwifi 或 Realtek 问题 → 有时 卸载/重载 会有帮助：
+
   ```bash
   sudo modprobe -r iwlwifi    # 或 rtl8723be / 对应你 driver 的名称
   sudo modprobe iwlwifi

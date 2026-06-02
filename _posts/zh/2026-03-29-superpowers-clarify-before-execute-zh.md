@@ -39,6 +39,7 @@ Superpowers 通过强制执行 structured dialogue 来解决这一问题。brain
 其工作流为：首先 Brainstorm → 隔离你的 branch → 编写详细 plan → 最后执行。每一个步骤都是下一阶段的闸门。
 
 具体而言：
+
 - **brainstorming** 技能通过“一次一个问题”的对话模式探索用户意图，提出 2–3 种权衡后的方案，并在编写任何代码之前生成一份经过批准的 design document。
 - **writing-plans** 技能随后将批准的设计转化为分步实施计划，其详细程度足以让一名 junior engineer 遵循。
 - **verification-before-completion** 技能要求运行实际的 verification commands 并确认真实输出，然后 Claude 才能声明任务已“完成”或“修复”。

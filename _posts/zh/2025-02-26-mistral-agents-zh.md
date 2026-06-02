@@ -17,15 +17,19 @@ Mistral AI 智能体是基于大型语言模型（LLMs）的自主系统，旨�
 Mistral AI 提供两种创建智能体的主要方式：**La Plateforme 智能体构建器**与**智能体 API**。
 
 ### 1. La Plateforme 智能体构建器
+
 智能体构建器提供用户友好的界面，无需深厚技术背景即可创建智能体。创建步骤：
+
 - 访问智能体构建器 [https://console.mistral.ai/build/agents/new](https://console.mistral.ai/build/agents/new)
 - 通过选择模型、设置温度参数及提供可选指令来自定义智能体
 - 配置完成后，可通过 API 或 Le Chat 部署并访问该智能体
 
 ### 2. 智能体 API
+
 面向开发者，智能体 API 支持以编程方式创建智能体并将其集成至现有工作流。以下是通过 API 创建和使用智能体的示例：
 
 #### Python 示例
+
 ```python
 import os
 from mistralai import Mistral
@@ -41,6 +45,7 @@ print(chat_response.choices[0].message.content)
 ```
 
 #### JavaScript 示例
+
 ```javascript
 import { Mistral } from '@mistralai/mistralai';
 
@@ -71,7 +76,9 @@ Mistral AI 智能体支持通过以下选项进行个性化定制：
 - **指令设置**：通过可选指令规范所有交互中的特定行为。例如创建仅用法语交流或直接生成Python代码无需解释的智能体。
 
 ### 示例：创建法语专用智能体
+
 构建仅用法语回应的智能体：
+
 - 选择 "Mistral Large 2" 模型
 - 设置指令："无论输入使用何种语言，始终用法语进行回应"
 - 提供少量示例强化行为模式
@@ -88,6 +95,7 @@ Mistral AI 智能体可应用于多行业与任务场景，典型用例包括：
 - **编程辅助**：设计用于生成代码、提供调试建议或创建单元测试的智能体
 
 ### 具体示例
+
 - **法语专用智能体**：针对法语客户群体定制的交流智能体
 - **Python代码生成器**：直接输出简洁代码片段的无解释编程助手
 

@@ -14,11 +14,13 @@ type: note
 **回答：**
 
 ### 简短回答
+
 **不能，无法直接且稳定地实现。**
 
 MTR（及其底层使用的 `traceroute` + `ping` 工具）在较低网络层级运行，使用 **ICMP**（用于 ping）和 **UDP** 或 **ICMP**（用于 traceroute）。大多数本地代理如 **Clash**、**Mihomo** 或类似工具主要通过 **SOCKS5** 或 **HTTP** 代理处理 **TCP**（有时也包括 UDP）流量。它们并不原生支持或以标准命令行工具（如 `mtr`）能使用的方式转发原始 **ICMP** 数据包。
 
 ### 为何通常无效
+
 - **协议限制**：
   - Ping/MTR 发送 **ICMP Echo Request** 数据包。
   - SOCKS5 代理（Mihomo/Clash 中的混合端口 7890/7891/7892）专为 TCP/UDP 连接设计，不支持原始 ICMP。
@@ -34,6 +36,7 @@ MTR（及其底层使用的 `traceroute` + `ping` 工具）在较低网络层级
   - 忽略代理直接连接。
 
 ### 可能的变通方案（成功率有限）
+
 以下是实际可行的选项，按从易到难排序：
 
 1. **在 Mihomo/Clash 中使用 TUN 模式（最适合多数用户）**
@@ -64,6 +67,7 @@ MTR（及其底层使用的 `traceroute` + `ping` 工具）在较低网络层级
    使用 `redir`/`iptables` + `socat` 或 `iproxy` 等工具转发 ICMP，但此方法脆弱且对多数用户不实用。
 
 ### 建议
+
 - 若需快速诊断**实际**网络路径（包括代理影响），启用 **TUN 模式** 并测试 MTR。
 - 若要查看代理网络**内部**的路径，在已处于代理后的机器/VPS 上运行 MTR。
 - 如果仅需最终目的地的延迟/丢包信息（而非逐跳数据），使用 `proxychains` 封装的 `ping`，或直接通过尊重代理的 curl/wget 测试。
@@ -73,4 +77,5 @@ MTR（及其底层使用的 `traceroute` + `ping` 工具）在较低网络层级
 若告知操作系统（Linux、macOS、Windows）和具体 Mihomo/Clash 设置（是否启用 TUN？混合端口或仅 SOCKS？），我可提供更精确的命令。
 
 参考资料：
+
 - 无

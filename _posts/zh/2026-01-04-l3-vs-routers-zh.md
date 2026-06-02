@@ -29,6 +29,7 @@ Layer 3 switches 使用专用硬件（通常是 ASICs - Application-Specific Int
 传统 routers，尤其是基于软件的 routers，传统上依赖 CPU 处理每个 packet 的 routing 决策，与硬件加速相比速度较慢。
 
 其他选项解析：
+
 - **B) Only support static routing**: 错误。现代 Layer 3 switches 支持 dynamic routing protocols（在某些情况下支持 OSPF, EIGRP, RIP, BGP）。
 - **C) Cannot perform NAT**: 虽然基础的 Layer 3 switches 通常缺乏完整的 NAT 功能（常见于企业级 access/distribution layers），但许多高端型号确实支持 NAT。这不是*主要*区别。
 - **D) Operate only at Layer 2**: 错误。Layer 3 switches 同时在 Layer 2 (switching) 和 Layer 3 (routing) 运行。

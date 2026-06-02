@@ -117,6 +117,7 @@ type: note
 《自然》杂志于2025年4月15日发布的分析报告列出了21世纪被引次数最高的25篇论文，其中三篇由多伦多大学计算机科学家参与撰写。以下我将详细介绍这三篇论文，并对榜单进行总体概述。由于现有资料未完整呈现25篇论文清单，此处根据已有信息进行部分重构。[](https://www.nature.com/articles/d41586-025-01125-9)[](https://web.cs.toronto.edu/news-events/news/three-papers-authored-by-u-of-t-computer-scientists-among-the-most-cited-of-the-21st-century-nature)
 
 ### 多伦多大学计算机科学家论文
+
 根据《自然》分析报告，来自多伦多大学计算机科学系的三篇论文均与人工智能（尤其是深度学习）的进步相关。其中最引人注目的是：
 
 1. **《ImageNet Classification with Deep Convolutional Neural Networks》（2012）**
@@ -129,6 +130,7 @@ type: note
 另外两篇多伦多大学研究人员的论文在现有资料中未明确列名，但描述显示它们与该校计算机科学系的人工智能研究传统紧密相关。结合背景推测，可能涉及Geoffrey Hinton及其合作者关于深度学习或相关AI方法论的成果，包括神经网络架构、优化技术或深度学习应用等方向，发表于《自然》、NeurIPS或IEEE会议等高影响力平台。
 
 ### 25篇高被引论文概览
+
 《自然》分析基于五大学术数据库（Web of Science、Scopus、OpenAlex、Dimensions和Google Scholar）的引用数据，指出21世纪高被引论文多为方法与工具类论文而非突破性发现。前25名论文涵盖多个领域，AI、科研软件、统计方法与心理学研究占主导。重点包括：
 
 - **榜首论文**：被引最高的论文是《Deep Residual Learning for Image Recognition》（2016），作者为何恺明、张祥雨、任少卿与孙剑，发表于IEEE/CVF计算机视觉与模式识别会议。该论文提出的ResNet（深度残差学习网络）为ChatGPT、AlphaGo等AI工具奠定基础，各数据库引用量在103,756至254,074次之间。[](https://www.scmp.com/news/china/science/article/3307118/ai-paper-4-chinese-paved-way-chatgpt-alphago-its-set-greater-glory-2030)
@@ -139,11 +141,13 @@ type: note
 - **AI领域主导**：深度学习与计算机视觉相关论文在榜单中占据重要地位，其高引用量源于在自动驾驶、自然语言处理等领域的实际应用价值。[](https://www.nature.com/nature-index/news/google-scholar-reveals-most-influential-papers-research-citations-twenty-twenty)
 
 ### 局限性与说明
+
 - 由于《自然》将完整清单收录于未公开的补充材料中，现有资料未提供25篇论文的完整列表。[](https://www.nature.com/articles/d41586-025-01125-9)
 - 各数据库索引差异导致引用量显著波动（如Google Scholar数据通常高于Web of Science）。《自然》分析采用跨数据库中位数排名确定前25。[](https://www.nature.com/articles/d41586-025-01125-9)
 - 多伦多大学的贡献是整体趋势的缩影：深度学习论文因其实际影响与网络可见度正经历引用量快速增长。[](https://web.cs.toronto.edu/news-events/news/three-papers-authored-by-u-of-t-computer-scientists-among-the-most-cited-of-the-21st-century-nature)
 
 ### 获取完整清单
+
 如需获取25篇论文完整清单，请参阅2025年4月15日《自然》文章《Exclusive: the most-cited papers of the twenty-first century》（DOI: 10.1038/d41586-025-01125-9），配套补充材料包含详细列表。此外，通过检索Google Scholar或Web of Science等数据库查询2000年以来高被引AI论文也可获得参考信息。[](https://www.nature.com/articles/d41586-025-01125-9)[](https://www.evolio.org/addedcontext/addedContext_topCited/)
 
 如需进一步了解多伦多大学另外两篇未列名论文的细节，或生成已知论文引用趋势可视化图表，请随时告知！

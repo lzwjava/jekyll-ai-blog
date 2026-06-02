@@ -16,18 +16,21 @@ type: note
 《咬文嚼字》 is a classic essay included in the self-study examination course **大学语文** (University Chinese), course code **04729**, which is widely used in China's higher education self-study examination system (自考).
 
 ### Author Introduction
+
 - **Author**: Zhu Guangqian (朱光潜, 1897–1986)
 - **Background**: One of the most important Chinese aestheticians, literary theorists, educators, and translators of the 20th century.
 - **Major works**: *Psychology of Tragedy* (悲剧心理学), *Psychology of Literature and Art* (文艺心理学), *History of Western Aesthetics* (西方美学史), *Talks on Beauty* (谈美), among others.
 - **Identity in literary context**: Zhu is best known for introducing Western aesthetic theories to China while deeply integrating them with Chinese literary tradition. This essay represents his practical literary criticism style.
 
 ### Genre and Writing Context
+
 - **Genre**: Literary essay / argumentative essay (文艺专论 / 文艺随笔)
 - **Written in**: 1943 (some sources note around the early 1940s)
 - **First major publication**: Included in the 1946 collection *On Literature* (谈文学)
 - **Later inclusion**: Frequently appeared in university Chinese textbooks and self-study materials after 1949, especially in the 大学语文 course.
 
 ### Core Thesis (中心论点)
+
 The central argument of the essay is clearly stated by Zhu himself:
 
 > “在文学，无论阅读或写作，我们必须有一字不肯放松的谨严。”
@@ -36,6 +39,7 @@ The central argument of the essay is clearly stated by Zhu himself:
 This sentence is the most frequently tested and quoted main idea in 04729 exams.
 
 ### Main Structure and Argument Development
+
 The essay unfolds in two major directions to support the central thesis:
 
 1. **文字与思想感情的密切关系** (The close relationship between words and thoughts/feelings)
@@ -52,12 +56,14 @@ The essay unfolds in two major directions to support the central thesis:
    - Example: Descriptions of beautiful women always being “柳腰桃面”“王嫱、西施” — completely standardized and lacking originality.
 
 ### Key Writing Features and Techniques
+
 - **Rich use of examples**: Concrete, vivid, drawn from classical poetry, drama, novels, historical texts — very persuasive.
 - **Metaphorical and vivid language**: The title itself “咬文嚼字” (literally “bite characters and chew words”) is a vivid metaphor for meticulous attention to language.
 - **Combination of theory and practice**: Blends Western psychological insight with traditional Chinese literary emphasis on refining words (炼字).
 - **Clear logic**: Moves from concrete examples → general principle → psychological explanation → call for strictness in literary work.
 
 ### Significance in the 04729 Course
+
 - One of the most important argumentative essays in the modern/contemporary section.
 - Frequently tested in:
   - Main thesis identification

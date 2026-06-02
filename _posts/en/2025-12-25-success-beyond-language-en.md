@@ -25,14 +25,17 @@ The primary drivers of success for modern global tech companies like ByteDance (
 Language (whether the internal working language is Chinese, English, or anything else) is indeed a relatively small factor. It matters for coordination within the company, but it doesn't determine the global success of the product.
 
 Examples:
+
 - ByteDance is headquartered in China, its founders and much of its early engineering team communicate in Chinese, yet TikTok became the dominant short-video platform globally because of its superior algorithm, content discovery, and viral mechanics—not because of language.
 - OpenAI is based in the US, works primarily in English, but its success with ChatGPT comes from breakthrough model architecture, training data scale, and product iteration speed—not the language of its office.
 
 In both cases:
+
 - The core value is delivered through **code** (software engineering, ML models), **algorithms** (recommendation, generation, ranking), and **content ecosystems** (user-generated videos, AI responses).
 - Natural language (English/Chinese) is just one interface layer: UI text, voice input, subtitles, etc. Modern translation tools, multilingual models, and localization teams make it easy to support dozens of languages without changing the core product.
 
 History shows many examples where the origin language didn't limit global reach:
+
 - Tencent (WeChat) – Chinese roots, global influence in gaming and payments.
 - Spotify (Swedish origins) – dominates music streaming worldwide.
 - Nintendo (Japanese) – global gaming icon.

@@ -21,6 +21,7 @@ type: note
 xAI 团队正在持续优化 Grok 模型的工具集成能力，预计很快会有改进。请问你在哪些具体编码任务中发现 MiniMax 表现尤为出色？
 
 ### 参考链接
+
 - [Bug：Grok Code Fast 1 未正确更新待办事项](https://github.com/Kilo-Org/kilocode/issues/3180)
 - [x-ai/grok-code-fast-1 相关问题](https://github.com/cline/cline/issues/6269)
 - [MiniMax M2 与 GrokCodeFast 讨论帖](https://www.reddit.com/r/CLine/comments/1ok67as/minimax_m2_vs_grokcodefast/)

@@ -24,12 +24,14 @@ type: note
 ## 两种类型
 
 **随机策略** —— 输出动作的概率分布：
+
 ```python
 probs = softmax(neural_net(state))  # [0.1, 0.7, 0.2]
 action = sample(probs)              # → 动作 1
 ```
 
 **确定性策略** —— 直接输出单个动作：
+
 ```python
 action = neural_net(state)          # → 0.73 (连续控制)
 ```

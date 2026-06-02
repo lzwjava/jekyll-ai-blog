@@ -17,6 +17,7 @@ Answer:
 Steve Bannon, former White House chief strategist under President Donald Trump, is one of the most vocal critics of China in American political discourse. He consistently portrays China—specifically the Chinese Communist Party (CCP)—as the greatest existential threat to the United States and Western democracy. His commentary frames U.S.-China relations as an ongoing economic, strategic, and ideological war, where compromise is futile and decisive confrontation is essential. Bannon's rhetoric is often alarmist and militaristic, comparing China to Nazi Germany in the 1930s on the brink of aggression, and he advocates for aggressive measures like tariffs, full economic decoupling, and rebuilding U.S. manufacturing to counter Beijing's global ambitions.
 
 ### Key Themes in Bannon's Commentary
+
 - **Economic Warfare**: Bannon argues that China is waging "unrestricted warfare" through trade imbalances, intellectual property theft, and influence over Western corporations. He views Trump's tariffs not as temporary fixes but as tools in a broader "economic war" to prevent China from becoming the global hegemon. In a 2019 Washington Post op-ed, he wrote: "We're in an economic war with China. It's futile to compromise," emphasizing that any trade deals are mere truces in a multi-year conflict.
 
 - **Existential Threat**: He frequently describes the CCP as a "radical cadre" seeking world domination, more dangerous than Russia or domestic political foes. In a 2025 interview, Bannon called China "the single greatest existential threat to the United States," urging immediate decoupling despite the economic pain it would cause American consumers. He warns that failure to act will allow China to dominate technology, finance, and geopolitics.
@@ -28,6 +29,7 @@ Steve Bannon, former White House chief strategist under President Donald Trump, 
 Bannon's views have shaped Trump-era policy and remain influential in conservative circles, though critics argue his all-or-nothing stance overlooks the complexities of global supply chains and risks unnecessary escalation. His commentary shows no signs of softening, even into 2025.
 
 References:
+
 - [Steve Bannon: We’re in an economic war with China. It’s futile to compromise](https://www.washingtonpost.com/opinions/steve-bannon-were-in-an-economic-war-with-china-its-futile-to-compromise/2019/05/06/0055af36-7014-11e9-9eb4-0828f5389013_story.html)
 - [Steve Bannon Wants America to Ditch China—That Won’t Happen](https://chroniclesmagazine.org/web/steve-bannon-wants-america-to-ditch-china-that-wont-happen/)
 - [So Apparently Steve Bannon Loved the Piece I Wrote About His Absolute Obsession With China](https://www.motherjones.com/politics/2022/03/steve-bannon-war-room-podcast-um-what/)

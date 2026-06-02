@@ -53,6 +53,7 @@ Control-M XML 文件是以结构化格式定义的 **job scheduling definitions*
    - 开启 XML 语法高亮和折叠功能。
 
 2. **查看顶级结构**
+
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <JOB
@@ -69,6 +70,7 @@ Control-M XML 文件是以结构化格式定义的 **job scheduling definitions*
    ```
 
    或者 Folder 样式：
+
    ```xml
    <FOLDER NAME="Finance_Daily">
        <JOB ...> ... </JOB>

@@ -33,7 +33,7 @@ Upgrading from **Angular 9 → 14** spans five major versions (10, 11, 12, 13, 1
 | ★★★★★  | **Routing & Navigation**      | • Deep linking<br>• Back/forward browser buttons<br>• Lazy-loaded modules load correctly?<br>• Guards / resolvers<br>• Auxiliary routes (if used) | pathMatch defaults became stricter, resolver behavior changed, many router lifecycle tweaks |
 | ★★★★★  | **Forms (Template-driven + Reactive)** | • Validation messages appear at correct time<br>• Disabled / readonly state<br>• Custom validators / async validators<br>• Form value / status changes propagate correctly<br>• Dirty / touched / pristine flags | Angular 14 introduced much stricter typing → subtle coercion bugs surface |
 | ★★★★☆  | **Change Detection & Performance** | • UI does **not** flicker / re-render unnecessarily<br>• Infinite change detection loops (console warning)<br>• Slow lists / large tables still usable?<br>• Components inside *ngIf / ngSwitch update correctly | Ivy + stricter change detection + new zone.js behaviors |
-| ★★★★☆  | **Templates & Directives**    | • Structural directives (*ngIf, *ngFor, *ngSwitch)<br>• Custom structural / attribute directives<br>• @Input / @Output bindings<br>• Two-way bindings [(ngModel)] | New template type checking is stricter, some old patterns are now warned / broken |
+| ★★★★☆  | **Templates & Directives**    | • Structural directives (*ngIf,*ngFor, *ngSwitch)<br>• Custom structural / attribute directives<br>• @Input / @Output bindings<br>• Two-way bindings [(ngModel)] | New template type checking is stricter, some old patterns are now warned / broken |
 | ★★★★☆  | **HTTP / Interceptors / API calls** | • All HTTP calls still work<br>• Interceptors modify / catch errors correctly<br>• Loading spinners / disabled states during requests<br>• Error handling UI (toast, modal, inline) | HttpClient changes + RxJS updates (v6 → v7) |
 | ★★★★☆  | **Third-party libraries & Components** | • Angular Material → check theme, typography, density<br>• Charts (ng2-charts, highcharts-angular…)<br>• Tables (ag-grid, prime-ng, material table)<br>• Modals / dialogs / overlays<br>• Date pickers / file upload components | Many libs had major version jumps + breaking changes |
 | ★★★☆☆  | **Animations & Transitions**  | • Enter / leave animations<br>• Route animations<br>• @.disabled / :increment / :decrement | Animation DSL had fixes & deprecations |
@@ -56,7 +56,7 @@ Upgrading from **Angular 9 → 14** spans five major versions (10, 11, 12, 13, 1
 - [ ] Responsive design on phone/tablet/desktop
 - [ ] Browser back/forward/refresh behavior
 
-Follow the official **Angular Update Guide** (https://angular.dev/update-guide) and read release notes / breaking changes summaries for versions 10–14.
+Follow the official **Angular Update Guide** (<https://angular.dev/update-guide>) and read release notes / breaking changes summaries for versions 10–14.
 
 Careful manual testing + good before/after comparison is usually the difference between "it works on my machine" and "production is broken".
 

@@ -35,7 +35,7 @@ Spring Boot 可以运行在不同的嵌入式服务器上：
 * **Undertow**（另一种 Servlet 容器）
 * **Netty**（被 Spring WebFlux 使用，非基于 Servlet）
 
-### 检查方法：
+### 检查方法
 
 1. **查看项目依赖**
 
@@ -50,6 +50,7 @@ Spring Boot 可以运行在不同的嵌入式服务器上：
      ```
      Tomcat started on port(s): 8080 (http)
      ```
+
    * 示例（Netty）：
 
      ```

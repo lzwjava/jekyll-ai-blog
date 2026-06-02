@@ -17,26 +17,32 @@ Answer:
 Private romantic relationships (often called office romances or workplace relationships) in the office are frequently **not allowed** or heavily restricted by company policies, though they are not illegal in most places. Companies implement these rules primarily to reduce legal, operational, and cultural risks. Here are the main reasons:
 
 ### 1. Risk of Sexual Harassment Claims
+
 - When a relationship ends badly, one party may claim the relationship was never truly consensual or that continued advances after the breakup constitute harassment.
 - This becomes especially serious in supervisor-subordinate relationships due to **power imbalances** — even if initially consensual, a subordinate might later argue they felt pressured (quid pro quo harassment or hostile work environment claims).
 
 ### 2. Perceptions (or Reality) of Favoritism and Unfair Treatment
+
 - Colleagues may believe one partner receives special treatment (better assignments, promotions, evaluations, flexibility), creating resentment and lowering team morale.
 - This can lead to claims of **sexual favoritism** or discrimination, where others argue the relationship created an unfair workplace.
 
 ### 3. Conflicts of Interest and Productivity Issues
+
 - Romantic partners may have difficulty remaining objective in decisions affecting each other.
 - Breakups often cause drama, arguments, awkwardness, reduced cooperation, gossip, or even visible hostility, distracting from work and harming team cohesion.
 
 ### 4. Company Liability and Legal Exposure
+
 - Companies can face lawsuits (sexual harassment, retaliation, hostile environment) even if the behavior occurred between consenting adults.
 - A sour relationship increases the chance of expensive claims, settlements, or reputational damage.
 
 ### 5. Maintaining Professionalism
+
 - Public displays of affection, excessive personal conversations, or emotional outbursts disrupt the professional environment.
 - Many companies want to keep the workplace focused on business rather than personal drama.
 
 **Important notes**:
+
 - Complete bans on **all** romantic relationships are becoming less common because they can feel overly intrusive into private life and are hard to enforce (many people simply hide the relationship).
 - Most companies now use **targeted restrictions** instead:
   - Strict prohibition on relationships between managers and direct reports (or anyone in the same chain of command).

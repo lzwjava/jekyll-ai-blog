@@ -19,6 +19,7 @@ npm config list
 ```
 
 此命令显示你当前的 npm configuration 设置。它会展示：
+
 - 用户特定设置（来自 `~/.npmrc`）
 - Global 设置
 - 内置的 npm defaults
@@ -26,16 +27,19 @@ npm config list
 ## Common Variations
 
 **仅列出用户和 global 设置（不包含 defaults）：**
+
 ```bash
 npm config list --json
 ```
 
 **以 JSON 格式列出以便于解析：**
+
 ```bash
 npm config list -l
 ```
 
 **显示所有 config 选项，包括 defaults：**
+
 ```bash
 npm config list -l
 ```
@@ -43,6 +47,7 @@ npm config list -l
 ## What You'll See
 
 输出通常包含如下设置：
+
 - Registry URL (`registry`)
 - Package 安装 prefix (`prefix`)
 - Cache 路径 (`cache`)
@@ -53,21 +58,25 @@ npm config list -l
 ## Related Useful Commands
 
 **获取特定的 config 值：**
+
 ```bash
 npm config get registry
 ```
 
 **设置一个 config 值：**
+
 ```bash
 npm config set registry https://registry.npmjs.org/
 ```
 
 **删除一个 config 值：**
+
 ```bash
 npm config delete proxy
 ```
 
 **在默认编辑器中编辑 config：**
+
 ```bash
 npm config edit
 ```

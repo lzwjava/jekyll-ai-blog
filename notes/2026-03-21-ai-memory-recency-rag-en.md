@@ -43,10 +43,12 @@ Your proposal — fine-tune older memories fewer times, newer ones more — is i
 | Last 3 months | 4–5× | Dominant parametric knowledge |
 
 ### Pros
+
 - Bakes temporal priority **into the model weights** — no retrieval step needed
 - Great for stable knowledge that rarely changes (e.g., architectural philosophy, core conventions)
 
 ### Cons
+
 - Fine-tuning is expensive and slow — impractical for continuous memory updates
 - Attempts to fine-tune retrievers for time often induce **catastrophic forgetting** of semantic capabilities — the model loses older but still-valid knowledge when fine-tuned too aggressively on recent data.
 - It cannot handle "superseded facts" gracefully — if your release process changed, the old facts compete with the new ones in the same weights

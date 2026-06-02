@@ -29,20 +29,20 @@ type: note
 - 常见格式：`JOB1-OK` 或 `DAILY-START-OK`。
 - 日期处理：通常使用 `ODAT` (Original Scheduling Date) 或特定日期如 `PREV`, `NEXT` 或明确的 YYMMDD。
 - 特殊类型：
-    - **Maybe conditions**（在某些版本中以前缀 `#-` 或类似符号表示）—— 可选依赖项；如果前置 Job 未被调度，Control-M 可以“模拟”它们。
+  - **Maybe conditions**（在某些版本中以前缀 `#-` 或类似符号表示）—— 可选依赖项；如果前置 Job 未被调度，Control-M 可以“模拟”它们。
 - 多个 IN conditions 遵循 AND 逻辑（必须全部存在）。
 
 ### OUT Conditions (Signals / "post")
 
 - 这些是 Job 结束时**添加**或**删除**的 conditions。
 - 定义时带有符号（**sign**）：
-    - **+** (ADD / 加号)：添加/创建 condition（最常用于传递成功信号）。
-    - **-** (DELETE / 减号)：移除/删除 condition（通常用于在下游 Job 完成后进行清理）。
+  - **+** (ADD / 加号)：添加/创建 condition（最常用于传递成功信号）。
+  - **-** (DELETE / 减号)：移除/删除 condition（通常用于在下游 Job 完成后进行清理）。
 - 通常放置在 post-processing 规则或直接定义在 OUT conditions 部分中。
 - 常见模式：
-    - Job A：OUT condition `JOB-A-OK +`（成功后添加）。
-    - Job B：IN condition `JOB-A-OK` → 等待 Job A 成功。
-    - Job B：OUT condition `JOB-A-OK -` → 在 Job B 完成后将其删除（防止过时的 conditions 留存）。
+  - Job A：OUT condition `JOB-A-OK +`（成功后添加）。
+  - Job B：IN condition `JOB-A-OK` → 等待 Job A 成功。
+  - Job B：OUT condition `JOB-A-OK -` → 在 Job B 完成后将其删除（防止过时的 conditions 留存）。
 
 ### Typical Flow Example
 
@@ -54,8 +54,8 @@ type: note
 
 - **Global Conditions**：不与特定 Job 绑定的静态或长效 conditions（通过 Tools → Global Conditions 管理）。
 - **Resources**（与 conditions 不同）：
-    - **Quantitative Resources**（现在常称为 Resource Pools）：限制并发使用（例如，5 个 database connections → 每个 Job 需要 1 个单位）。
-    - **Control Resources**：独占或共享访问（例如，锁定文件或表）。
+  - **Quantitative Resources**（现在常称为 Resource Pools）：限制并发使用（例如，5 个 database connections → 每个 Job 需要 1 个单位）。
+  - **Control Resources**：独占或共享访问（例如，锁定文件或表）。
 - Conditions 存储在 Control-M server 的 Conditions table/database 中。
 - 可以在 Control-M/EM (Planning 或 Monitoring 域) 手动查看/添加/删除 conditions，或通过 `ctmcontb` 等 utility 进行操作。
 - 在流程图中，conditions 在图形视图中显示为箭头/连线。

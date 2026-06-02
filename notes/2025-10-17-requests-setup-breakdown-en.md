@@ -11,11 +11,13 @@ type: note
 ---
 
 ### Overview
+
 This is a `setup.py` file, which is a standard Python script used with `setuptools` to define and build a Python package. Specifically, this one is for the **Requests** library—a popular HTTP client for Python. It handles metadata like the package name, version, dependencies, and classifiers (for PyPI distribution). When you run `pip install requests`, this script (or its built artifacts) is what gets executed behind the scenes to install the package.
 
 The script is structured as a single `setup()` function call, but it includes some guards, helpers, and dynamic reads from other files. I'll break it down section by section.
 
 ### 1. Imports and Python Version Check
+
 ```python
 #!/usr/bin/env python
 import os
@@ -31,23 +33,27 @@ if CURRENT_PYTHON < REQUIRED_PYTHON:
     # Error message and exit
     sys.exit(1)
 ```
+
 - **Shebang (`#!/usr/bin/env python`)**: Makes the file executable on Unix-like systems, running it with the system's Python interpreter.
 - **Imports**: Brings in `os` and `sys` for system interactions, `codecs.open` for UTF-8 file reading (to handle non-ASCII safely), and `setup` from `setuptools` for building the package.
 - **Version Check**: Ensures the user is running Python 3.9 or higher. If not, it prints a helpful error message suggesting an upgrade or pinning to an older Requests version (<2.32.0), then exits with code 1 (failure). This enforces compatibility, as Requests dropped support for older Pythons.
 
 ### 2. Publish Shortcut
+
 ```python
 if sys.argv[-1] == "publish":
     os.system("python setup.py sdist bdist_wheel")
     os.system("twine upload dist/*")
     sys.exit()
 ```
+
 - A convenience for maintainers: If you run `python setup.py publish`, it:
   - Builds source distribution (`sdist`) and wheel (`bdist_wheel`) archives in the `dist/` folder.
   - Uploads them to PyPI using `twine` (a secure uploader).
 - This is a quick way to release a new version without manual commands. It exits after running.
 
 ### 3. Dependencies
+
 ```python
 requires = [
     "charset_normalizer>=2,<4",
@@ -64,10 +70,12 @@ test_requirements = [
     "pytest>=3",
 ]
 ```
+
 - **`requires`**: Core dependencies installed when you `pip install requests`. These handle encoding (`charset_normalizer`), internationalized domain names (`idna`), HTTP transport (`urllib3`), and SSL certificates (`certifi`).
 - **`test_requirements`**: Only installed if you run tests (e.g., via `pip install -e '.[tests]'`). Includes testing tools like `pytest` variants for HTTP mocking, coverage, and parallel testing. `PySocks` is for SOCKS proxy support in tests.
 
 ### 4. Dynamic Metadata Loading
+
 ```python
 about = {}
 here = os.path.abspath(os.path.dirname(__file__))
@@ -77,11 +85,14 @@ with open(os.path.join(here, "src", "requests", "__version__.py"), "r", "utf-8")
 with open("README.md", "r", "utf-8") as f:
     readme = f.read()
 ```
+
 - **`about` dict**: Reads metadata from `src/requests/__version__.py` (e.g., `__title__`, `__version__`, `__description__`, etc.) using `exec()`. This keeps version info centralized—update it once, and `setup.py` pulls it in.
 - **`readme`**: Loads the entire `README.md` file as a string for the package's long description on PyPI.
 
 ### 5. The Main `setup()` Call
+
 This is the heart of the file. It configures the package for building/installation:
+
 ```python
 setup(
     name=about["__title__"],  # e.g., "requests"
@@ -116,6 +127,7 @@ setup(
     },
 )
 ```
+
 - **Key Args**:
   - **Name/Version/Description**: Pulled from `__version__.py` for easy maintenance.
   - **Packages/Package Dir**: Tells setuptools the package is under `src/requests/` and to install it as `import requests`.
@@ -124,6 +136,7 @@ setup(
   - **Project URLs**: Adds clickable links to docs and source on the PyPI page.
 
 ### How It Works in Practice
+
 - **Installation**: `pip install .` (from the repo) or `pip install requests` (from PyPI) runs this to copy files, install deps, and set up the package.
 - **Building**: `python setup.py sdist` creates distributable archives.
 - **Why This Structure?** It's a "src layout" (code in `src/`), which is modern best practice to avoid accidental imports during development. The file is self-contained but delegates details to other files like `__version__.py`.
@@ -131,6 +144,7 @@ setup(
 This setup.py is from the official Requests repo and hasn't changed much over versions—it's battle-tested for reliability.
 
 ### References
+
 - [Requests Documentation](https://requests.readthedocs.io/en/latest/)
 - [Requests GitHub Repository](https://github.com/psf/requests)
 - [Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)

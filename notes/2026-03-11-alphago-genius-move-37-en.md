@@ -32,18 +32,23 @@ Move 37 caused one of the English-language live commentators, top Go player Mich
 ### Why Was It So Special?
 
 #### 1. Statistically Almost Impossible for a Human
+
 In Game 2, AlphaGo played Move 37 — a move that had a 1-in-10,000 chance of being used by a human player. This pivotal and creative move helped AlphaGo win the game and upended centuries of traditional wisdom.
 
 #### 2. Completely New to Go's History
+
 The strategy that AlphaGo built around Move 37 was not taken out of a database of publicly known moves. Move 37 was new to the 5,500-year history of Go. It belonged to a style of play that Go commentators sometimes called "inhuman" and "alien."
 
 #### 3. Not Programmed — Emerged from Self-Play
+
 AlphaGo came up with this move not because it was a strategy directly programmed by the Google team, but because of reinforcement learning and self-play — it was able to see this move as the best move to meet its objective of winning. Interestingly, AlphaGo is not trying to maximize its lead at specific moments, but instead is looking for its best chance of winning, even if that win is by a small margin.
 
 #### 4. Broke Human Cognitive Constraints
+
 Human Go players, even at the professional level, are influenced by centuries of established strategies and heuristics. These heuristics, while effective, can also constrain creativity and limit the exploration of unconventional moves. AlphaGo, unburdened by these historical biases, was able to evaluate the game from a fresh perspective, leading to innovative strategies.
 
 #### 5. Demonstrated Genuine Strategic Creativity
+
 Move 37 was the ultimate power move, a testament to AlphaGo's ability to analyze, adapt, and innovate. This wasn't just a computer playing by the rules; it was a machine exhibiting genuine strategic creativity. AlphaGo's AI peered into the complex tapestry of the game and saw an opportunity that had completely eluded Sedol and the Go establishment.
 
 ---

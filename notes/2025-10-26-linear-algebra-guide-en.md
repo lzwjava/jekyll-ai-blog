@@ -13,6 +13,7 @@ type: note
 As your engineering-focused tutor, this guide emphasizes verifiable, index-explicit computations for matrices \\( A = [a_{ij}]_{i=1}^m, j=1^n \in \mathbb{R}^{m \times n} \\) (rows indexed by \\( i \\), columns by \\( j \\), 1-based). All steps are shown with indices for clarity; examples annotate entries inline. Review via row reduction and eigenvalue solves on 2×2/3×3 cases.
 
 ## 1. Matrix Operations
+
 - **Addition**: \\( (A + B)_{ij} = a_{ij} + b_{ij} \\) for all \\( i,j \\).
 - **Scalar Multiplication**: \\( (cA)_{ij} = c a_{ij} \\) for scalar \\( c \\), all \\( i,j \\).
 - **Matrix Multiplication** (if \\( m \times p \\) and \\( p \times n \\)): \\( (AB)_{ij} = \sum_{k=1}^p a_{ik} b_{kj} \\) for all \\( i=1^m \\), \\( j=1^n \\).
@@ -22,6 +23,7 @@ As your engineering-focused tutor, this guide emphasizes verifiable, index-expli
 **Example (2×2 Inverse Annotation)**: Let \\( A = \begin{pmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{pmatrix} \\). Then \\( A^{-1} = \frac{1}{\det A} \begin{pmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{pmatrix} \\), where \\( \det A = a_{11} a_{22} - a_{12} a_{21} \\).
 
 ## 2. Determinants
+
 - **Definition**: For square \\( A \\), \\( \det A \\) via cofactor expansion along row \\( i \\): \\( \det A = \sum_{j=1}^n a_{ij} C_{ij} \\), where minor \\( M_{ij} \\) is submatrix deleting row \\( i \\) and column \\( j \\) (so \\( M_{ij} = [m_{pq}] \\) with \\( p=1^{n-1} \setminus i \\), \\( q=1^{n-1} \setminus j \\), relabeled 1-based), cofactor \\( C_{ij} = (-1)^{i+j} \det(M_{ij}) \\).
 - **Properties**:
   - \\( \det(AB) = \det A \cdot \det B \\); \\( \det(A^T) = \det A \\) (since expansion symmetric).
@@ -35,6 +37,7 @@ As your engineering-focused tutor, this guide emphasizes verifiable, index-expli
 - **Cramer's Rule** (for \\( \sum_j a_{ij} x_j = b_i \\), \\( i=1^n \\), \\( \det A \neq 0 \\)): \\( x_r = \frac{\det A_r}{\det A} \\), where \\( A_r \\) replaces column \\( r \\) of \\( A \\) with \\( [b_i]_{i=1}^n \\), so \\( (A_r)_{ij} = a_{ij} \\) if \\( j \neq r \\), else \\( b_i \\).
 
 ## 3. Linear Systems & Gaussian Elimination
+
 - **Augmented Matrix**: \\( [A | b] = [a_{ij} | b_i] \\) for \\( i=1^m \\), \\( j=1^n \\).
 - **Row Reduction to REF**: Apply elementary ops (swap rows \\( p \leftrightarrow q \\); scale row \\( p \\) by \\( c \neq 0 \\): row \\( p \leftarrow c \\) row \\( p \\); add \\( c \\) row \\( q \\) to row \\( p \\)) to get row echelon form: leading entry (pivot) in row \\( i \\) at column \\( p_i \geq p_{i-1} \\), zeros below pivots.
 - **To RREF**: Continue to zeros above pivots, scale pivots to 1.
@@ -47,22 +50,26 @@ As your engineering-focused tutor, this guide emphasizes verifiable, index-expli
 - **Step Example (2×2 System Annotation)**: Solve \\( a_{11} x_1 + a_{12} x_2 = b_1 \\), \\( a_{21} x_1 + a_{22} x_2 = b_2 \\). Row2 ← Row2 - (a_{21}/a_{11}) Row1: new row2 = [0, a_{22} - (a_{21} a_{12}/a_{11}), b_2 - (a_{21} b_1 / a_{11}) ]. Back-sub: \\( x_2 = \\) ... / det term, etc.
 
 ## 4. Vector Spaces
+
 - **Subspaces**: Col(A) = span{ col j of A, j=1^n } = { \\( \sum_j x_j \\) col j | x }; dim = rank A.
 - **Row Space**: Row(A) = Col(A^T); dim = rank A.
 - **Nullspace**: Nul(A) = { x | \\( \sum_j a_{ij} x_j = 0 \\) ∀ i }; basis from RREF free columns.
 - **Rank-Nullity**: rank A + dim Nul(A) = n.
 
 ## 5. Linear Transformations
+
 - **Matrix Rep**: T(x)_i = \\( \sum_j a_{ij} x_j \\).
 - **Kernel**: Ker T = Nul(A); Im T = Col(A).
 
 ## 6. Eigenvalues
+
 - **Char Poly**: det(A - λ I) = 0, where (A - λ I)_{ij} = a_{ij} - λ δ_{ij}.
 - **Eigenvectors**: For λ, solve \\( \sum_j (a_{ij} - λ δ_{ij}) v_j = 0 \\), v = [v_j] ≠ 0.
 - **Diagonalizable**: If alg mult(λ_k) = geo mult(λ_k) ∀ k (full eigenspace dim), then A = P D P^{-1}, D_{ij} = λ_i δ_{ij}, P columns = eigenvectors.
 - **Symmetric**: A = A^T ⇒ orthogonal diag: A = Q D Q^T, Q^T Q = I.
 
 ## 7. Inner Products & Orthogonalization
+
 - **Euclidean**: <u,v> = \\( \sum_i u_i v_i = u^T v \\).
 - **Gram-Schmidt Step**: For basis {v^{(k)}}, u^{(1)} = v^{(1)}; u^{(k)} = v^{(k)} - \sum_{m=1}^{k-1} \proj_{u^{(m)}} v^{(k)}, where \proj_w v = \frac{<v,w>}{<w,w>} w (component \\( \sum_i ... \\)).
 

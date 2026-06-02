@@ -9,6 +9,7 @@ type: note
 ---
 
 ## Introduction to PowerShell
+
 PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and a scripting language. It is built on the .NET Framework (and .NET Core in newer versions), enabling administrators to perform complex tasks across Windows, Linux, and macOS systems.
 
 PowerShell commands, known as **cmdlets** (pronounced "command-lets"), follow a `Verb-Noun` naming convention (e.g., `Get-Process`, `Set-Item`). This guide covers essential cmdlets, categorized by functionality, with examples to demonstrate their use.
@@ -16,7 +17,9 @@ PowerShell commands, known as **cmdlets** (pronounced "command-lets"), follow a 
 ---
 
 ## 1. Core PowerShell Concepts
+
 Before diving into commands, understanding key concepts is crucial:
+
 - **Cmdlets**: Lightweight commands that perform specific functions.
 - **Pipelines**: Allow the output of one cmdlet to be passed as input to another using the `|` operator.
 - **Modules**: Collections of cmdlets, scripts, and functions that extend PowerShell functionality.
@@ -28,6 +31,7 @@ Before diving into commands, understanding key concepts is crucial:
 ## 2. Essential Cmdlets by Category
 
 ### 2.1 System Information
+
 These cmdlets retrieve information about the system, processes, and services.
 
 | Cmdlet | Description | Example |
@@ -38,11 +42,13 @@ These cmdlets retrieve information about the system, processes, and services.
 | `Get-HotFix` | Lists installed Windows updates. | `Get-HotFix | Sort-Object InstalledOn -Descending` |
 
 **Example**: List all running processes sorted by CPU usage.
+
 ```powershell
 Get-Process | Sort-Object CPU -Descending | Select-Object Name, CPU, Id -First 5
 ```
 
 ### 2.2 File and Directory Management
+
 PowerShell treats the file system as a provider, allowing navigation similar to a drive.
 
 | Cmdlet | Description | Example |
@@ -55,6 +61,7 @@ PowerShell treats the file system as a provider, allowing navigation similar to 
 | `Move-Item` | Moves files or directories. | `Move-Item C:\Docs\Report.txt C:\Archive` |
 
 **Example**: Create a directory and a file, then copy it to another location.
+
 ```powershell
 New-Item -Path C:\Temp -Name MyFolder -ItemType Directory
 New-Item -Path C:\Temp\MyFolder -Name Test.txt -ItemType File
@@ -62,6 +69,7 @@ Copy-Item C:\Temp\MyFolder\Test.txt C:\Backup
 ```
 
 ### 2.3 System Management
+
 Cmdlets for managing system settings, services, and users.
 
 | Cmdlet | Description | Example |
@@ -73,6 +81,7 @@ Cmdlets for managing system settings, services, and users.
 | `Set-ExecutionPolicy` | Sets script execution policy. | `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` |
 
 **Example**: Check the status of the Windows Update service and start it if stopped.
+
 ```powershell
 $service = Get-Service -Name "wuauserv"
 if ($service.Status -eq "Stopped") {
@@ -81,6 +90,7 @@ if ($service.Status -eq "Stopped") {
 ```
 
 ### 2.4 Network Management
+
 Cmdlets for network configuration and diagnostics.
 
 | Cmdlet | Description | Example |
@@ -91,12 +101,14 @@ Cmdlets for network configuration and diagnostics.
 | `Resolve-DnsName` | Resolves DNS names. | `Resolve-DnsName www.google.com` |
 
 **Example**: Ping a server and check its DNS resolution.
+
 ```powershell
 Test-Connection -ComputerName google.com -Count 2
 Resolve-DnsName google.com
 ```
 
 ### 2.5 User and Group Management
+
 Cmdlets for managing local users and groups.
 
 | Cmdlet | Description | Example |
@@ -107,6 +119,7 @@ Cmdlets for managing local users and groups.
 | `Add-LocalGroupMember` | Adds a user to a local group. | `Add-LocalGroupMember -Group "Administrators" -Member "TestUser"` |
 
 **Example**: Create a new local user and add them to the Administrators group.
+
 ```powershell
 $password = ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force
 New-LocalUser -Name "TestUser" -Password $password -FullName "Test User" -Description "Test account"
@@ -114,6 +127,7 @@ Add-LocalGroupMember -Group "Administrators" -Member "TestUser"
 ```
 
 ### 2.6 Scripting and Automation
+
 PowerShell excels in scripting for automation.
 
 | Cmdlet | Description | Example |
@@ -125,12 +139,14 @@ PowerShell excels in scripting for automation.
 | `New-ScheduledTask` | Creates a scheduled task. | `New-ScheduledTask -Action (New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-File C:\script.ps1") -Trigger (New-ScheduledTaskTrigger -Daily -At "3AM")` |
 
 **Example**: Create a script to log running processes to a file.
+
 ```powershell
 $logPath = "C:\Logs\ProcessLog.txt"
 Get-Process | Select-Object Name, CPU, StartTime | Export-Csv -Path $logPath -NoTypeInformation
 ```
 
 ### 2.7 Module Management
+
 Modules extend PowerShell functionality.
 
 | Cmdlet | Description | Example |
@@ -141,6 +157,7 @@ Modules extend PowerShell functionality.
 | `Find-Module` | Searches for modules in a repository. | `Find-Module -Name *Azure*` |
 
 **Example**: Install and import the PSWindowsUpdate module to manage Windows updates.
+
 ```powershell
 Install-Module -Name PSWindowsUpdate -Force
 Import-Module PSWindowsUpdate
@@ -150,11 +167,15 @@ Get-WUList
 ---
 
 ## 3. Working with Pipelines
+
 The pipeline (`|`) allows chaining cmdlets to process data sequentially. For example:
+
 ```powershell
 Get-Process | Where-Object { $_.WorkingSet64 -gt 100MB } | Sort-Object WorkingSet64 -Descending | Select-Object Name, WorkingSet64 -First 5
 ```
+
 This command:
+
 1. Retrieves all processes.
 2. Filters those using more than 100MB of memory.
 3. Sorts them by memory usage in descending order.
@@ -163,9 +184,11 @@ This command:
 ---
 
 ## 4. Variables, Loops, and Conditions
+
 PowerShell supports scripting constructs for automation.
 
 ### Variables
+
 ```powershell
 $path = "C:\Logs"
 $services = Get-Service
@@ -173,16 +196,21 @@ Write-Output "Log path is $path"
 ```
 
 ### Loops
+
 - **ForEach-Object**:
+
 ```powershell
 Get-Service | ForEach-Object { Write-Output $_.Name }
 ```
+
 - **For Loop**:
+
 ```powershell
 for ($i = 1; $i -le 5; $i++) { Write-Output "Iteration $i" }
 ```
 
 ### Conditions
+
 ```powershell
 $service = Get-Service -Name "wuauserv"
 if ($service.Status -eq "Running") {
@@ -195,7 +223,9 @@ if ($service.Status -eq "Running") {
 ---
 
 ## 5. Error Handling
+
 Use `Try`, `Catch`, and `Finally` for robust scripts.
+
 ```powershell
 Try {
     Get-Item -Path C:\NonExistentFile.txt -ErrorAction Stop
@@ -211,14 +241,17 @@ Finally {
 ---
 
 ## 6. Remote Management
+
 PowerShell supports remote administration using `Invoke-Command` and `Enter-PSSession`.
 
 **Example**: Run a command on a remote computer.
+
 ```powershell
 Invoke-Command -ComputerName Server01 -ScriptBlock { Get-Service | Where-Object { $_.Status -eq "Running" } }
 ```
 
 **Example**: Start an interactive remote session.
+
 ```powershell
 Enter-PSSession -ComputerName Server01
 ```
@@ -226,6 +259,7 @@ Enter-PSSession -ComputerName Server01
 ---
 
 ## 7. Practical Script Example
+
 Below is a sample script to monitor disk space and alert if usage exceeds 80%.
 
 ```powershell
@@ -243,6 +277,7 @@ foreach ($disk in $disks) {
 ---
 
 ## 8. Tips for Effective PowerShell Usage
+
 - **Use Aliases for Speed**: Common aliases like `dir` (`Get-ChildItem`), `ls` (`Get-ChildItem`), or `gci` (`Get-ChildItem`) save time in interactive sessions.
 - **Get-Help**: Use `Get-Help <cmdlet>` for detailed documentation (e.g., `Get-Help Get-Process -Full`).
 - **Update-Help**: Keep help files updated with `Update-Help`.
@@ -253,6 +288,7 @@ foreach ($disk in $disks) {
 ---
 
 ## 9. Additional Resources
+
 - **Official Documentation**: [Microsoft PowerShell Docs](https://docs.microsoft.com/en-us/powershell/)
 - **PowerShell Gallery**: [PowerShell Gallery](https://www.powershellgallery.com/) for modules.
 - **Community**: Check posts on X or forums like Stack Overflow for real-time tips and scripts.

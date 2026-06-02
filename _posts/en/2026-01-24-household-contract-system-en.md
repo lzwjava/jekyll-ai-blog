@@ -28,11 +28,10 @@ The system is often described by the phrase: *"Unified management where appropri
 
 * **Ownership vs. Use Rights:** The land remained **collectively owned** by the village, but **usage rights** were contracted to individual households.
 * **The "Three-Way" Split:**
+
 1. **To the State:** A fixed portion of the crop was sold to the government at a set price (taxes/quotas).
 2. **To the Collective:** A portion was kept for village public funds and reserves.
 3. **To the Farmer:** The remaining surplus belonged entirely to the household to eat or sell on the open market.
-
-
 
 ---
 

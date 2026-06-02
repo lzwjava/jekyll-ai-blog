@@ -40,6 +40,7 @@ The dry setting is ideal for sleeping or relaxation: it maintains a stable tempe
 The ideal indoor humidity level for sleep is typically 30–50%, which keeps the air feeling fresh and comfortable. High humidity above 60% prevents the body from cooling naturally, leading to restlessness and disrupted sleep.
 
 Your setup — **dry mode + ~22°C ambient temperature + a thin blanket** — hits the right balance:
+
 - Dry enough that your skin feels cool and fresh
 - Not so cold that your body is fighting to stay warm
 - The thin blanket provides just enough warmth for psychological comfort and natural body temperature regulation during deep sleep

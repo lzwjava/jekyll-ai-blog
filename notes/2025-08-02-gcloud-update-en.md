@@ -12,7 +12,6 @@ type: note
 % gcloud components update
 Beginning update. This process may take several minutes.
 
-
 Your current Google Cloud CLI version is: 507.0.0
 You will be upgraded to version: 532.0.0
 
@@ -33,7 +32,7 @@ You will be upgraded to version: 532.0.0
 
 A lot has changed since your last upgrade.  For the latest full release notes,
 please visit:
-  https://cloud.google.com/sdk/release_notes
+  <https://cloud.google.com/sdk/release_notes>
 
 Once started, canceling this operation may leave your SDK installation in an inconsistent state.
 

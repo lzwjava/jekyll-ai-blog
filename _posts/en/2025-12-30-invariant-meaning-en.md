@@ -16,7 +16,7 @@ Answer:
 
 An **invariant** is something that remains unchanged or constant under certain transformations, operations, or conditions.
 
-### Common Contexts:
+### Common Contexts
 
 - **Mathematics**: A property or quantity that does not change when subjected to specific operations (e.g., rotations, translations, or other transformations).
   Example: In geometry, the distance between two points is invariant under rotation or translation.

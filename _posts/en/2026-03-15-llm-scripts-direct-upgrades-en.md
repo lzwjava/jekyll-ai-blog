@@ -52,6 +52,7 @@ If apt is in a bad state, you need to run `sudo dpkg --configure -a` followed by
 An LLM is excellent at **producing well-structured, repeatable, documented scripts** that a human (or CI/CD pipeline) can review and run. Here is what an LLM can reliably help with:
 
 ### Pre-Upgrade Preparation Script
+
 ```bash
 #!/bin/bash
 # Pre-upgrade checklist script (LLM-generated)
@@ -79,6 +80,7 @@ echo "=== Ready for: sudo do-release-upgrade ==="
 ```
 
 ### Post-Upgrade Cleanup Script
+
 ```bash
 #!/bin/bash
 # Post-upgrade cleanup (LLM-generated)

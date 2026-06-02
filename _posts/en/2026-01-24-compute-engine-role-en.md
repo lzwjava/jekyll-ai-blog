@@ -16,7 +16,7 @@ Answer:
 
 The correct and **recommended** answer is **A) roles/compute.instanceAdmin**.
 
-### Explanation:
+### Explanation
 
 - **roles/compute.instanceAdmin**
   This is the standard, most commonly recommended predefined IAM role for managing Compute Engine instances. It includes permissions to:

@@ -19,6 +19,7 @@ To find eigenvalues of a matrix **A**, you solve the **characteristic equation**
 where λ (lambda) represents the eigenvalues and **I** is the identity matrix.
 
 **Steps:**
+
 1. Subtract λ from the diagonal elements of A to get (A - λI)
 2. Calculate the determinant of (A - λI)
 3. Set the determinant equal to zero
@@ -33,6 +34,7 @@ Once you have an eigenvalue λ, find its corresponding eigenvector by solving:
 where **v** is the eigenvector (a non-zero vector).
 
 **Steps:**
+
 1. Substitute the eigenvalue λ into (A - λI)
 2. Solve the homogeneous system of linear equations
 3. Find all non-zero vectors that satisfy the equation
@@ -43,15 +45,18 @@ where **v** is the eigenvector (a non-zero vector).
 For a 2×2 matrix **A** = [[3, 1], [1, 3]]:
 
 **Finding eigenvalues:**
+
 - A - λI = [[3-λ, 1], [1, 3-λ]]
 - det(A - λI) = (3-λ)² - 1 = λ² - 6λ + 8 = 0
 - Solving: λ = 4 and λ = 2
 
 **Finding eigenvector for λ = 4:**
+
 - (A - 4I)v = 0 gives [[−1, 1], [1, −1]]v = 0
 - This yields v = [[1], [1]] (or any scalar multiple)
 
 **Finding eigenvector for λ = 2:**
+
 - (A - 2I)v = 0 gives [[1, 1], [1, 1]]v = 0
 - This yields v = [[1], [−1]]
 

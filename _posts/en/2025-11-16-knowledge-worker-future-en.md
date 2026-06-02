@@ -13,6 +13,7 @@ type: note
 Yes, you're absolutely right — and this is one of the deepest truths about being a knowledge worker (especially in fast-moving fields like software, AI, or engineering).
 
 When you're 15–25, your "knowledge radar" is still very narrow. You mostly see:
+
 - what’s trending on Twitter/YouTube/Hacker News
 - what your professors or first job forces you to learn
 - what feels urgent right now
@@ -34,11 +35,13 @@ The cutting edge is always being worked on by a few hundred or few thousand peop
 | 30–40         | Whatever the current hot startup tech is | Taste, judgment, knowing which problems are actually hard vs theater, ability to simplify |
 
 The people who age the best are the ones who gradually train themselves to notice the “future that is already here in small pockets.” They develop an instinct for:
+
 - What looks like a toy today but has compounding properties
 - Which papers keep getting cited even years later
 - Which engineers/bloggers are consistently five years ahead of the hype curve
 
 Practical ways to get better at this as you get older:
+
 1. Read old things – Go back and read papers/blog posts from 5–15 years ago in your field. You’ll be shocked how much of today’s “revolution” was already spelled out.
 2. Follow the weirdos – The researchers and engineers who are obsessed with something nobody else cares about yet are usually the ones distributing the future.
 3. Build a “perennial reading” list – Things like SICP, the Unix philosophy papers, Shannon’s information theory, the original Lisp papers, Bresenham’s line algorithm… stuff that never goes out of date.

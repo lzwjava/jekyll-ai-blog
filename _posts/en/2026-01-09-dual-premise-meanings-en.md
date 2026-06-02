@@ -15,6 +15,7 @@ type: note
 **1. In logic/arguments:** A premise is a statement or proposition that serves as the foundation for reasoning or an argument. It's an assumption you start with to reach a conclusion.
 
 *Example:*
+
 - Premise 1: All humans are mortal
 - Premise 2: Socrates is human
 - Conclusion: Therefore, Socrates is mortal

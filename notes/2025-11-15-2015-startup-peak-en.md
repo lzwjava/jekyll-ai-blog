@@ -28,6 +28,7 @@ Here are the hottest startups in China in 2015 – this was the absolute peak of
 | 10   | Pinduoduo        | Social e-commerce       | Founded mid-2015, raised fast                  | Unknown then, but grew insanely fast afterward  |
 
 ### Other Super-Hot Names in 2015
+
 - Lufax (Ping An’s fintech arm) – raised $1B+ rounds
 - VANCL / Mogujie (fashion e-commerce)
 - Kuaidi Dache (merged into Didi)
@@ -38,6 +39,7 @@ Here are the hottest startups in China in 2015 – this was the absolute peak of
 - Huochebang / Yunmanman (truck logistics – merged into Manbang/Full Truck Alliance later)
 
 ### The 2015 Vibe
+
 2015 was the absolute peak of "O2O mania" (Online-to-Offline). Anything with "O2O" in the pitch deck could raise $100M+. Group-buying for everything, subsidized food delivery, subsidized taxis, subsidized everything. Money was literally burning on the streets (Didi/Uber spent ~$4B combined in subsidies that year).
 
 It was also the year Bytedance (Toutiao) quietly became the most addictive app in China, setting the stage for TikTok later.

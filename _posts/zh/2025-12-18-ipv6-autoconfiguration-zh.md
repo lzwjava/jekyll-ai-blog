@@ -30,5 +30,6 @@ D) OSPFv3
 SLAAC 提供了一种简单、无服务器的方式让设备获取地址，使其成为 IPv6 中无状态自动配置的标准。
 
 参考文献：
+
 - [RFC 4862: IPv6 Stateless Address Autoconfiguration](https://tools.ietf.org/html/rfc4862)
 - [RFC 8415: DHCPv6](https://tools.ietf.org/html/rfc8415)（与有状态配置对比）

@@ -14,6 +14,7 @@ You're touching on something genuinely important—the democratization of access
 **Where you're right:**
 
 The gap in *information access* has compressed dramatically. Someone with a $200 Android phone and free/cheap LLM access can now:
+
 - Learn almost anything (YouTube, Wikipedia, free courses)
 - Access powerful AI tools (Claude's free tier, open-source models, ChatGPT free)
 - Build software (open-source frameworks, GitHub)

@@ -26,12 +26,14 @@ Gitea (running in Docker) couldn't reach PostgreSQL (running on the host). Three
 **What happened:** PostgreSQL's default config binds to `127.0.0.1` only. That means it only accepts connections from the host machine itself — not from Docker containers.
 
 **How I found it:**
+
 ```bash
 sudo ss -tlnp | grep 5433
 # Output showed: 127.0.0.1:5433 — only localhost!
 ```
 
 **The fix:**
+
 ```bash
 # Changed in /etc/postgresql/16/main/postgresql.conf:
 # listen_addresses = 'localhost'        ← old (commented out default)
@@ -50,6 +52,7 @@ Now PostgreSQL accepts connections on `0.0.0.0:5433` (all IPs) instead of just `
 
 **How I found it:**
 {% raw %}
+
 ```bash
 docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}}: {{$v.Gateway}}{{"\n"}}{{end}}'
 # Output: gitea_default: 172.22.0.1
@@ -57,6 +60,7 @@ docker inspect gitea --format '{{range $k,$v := .NetworkSettings.Networks}}{{$k}
 docker exec gitea sh -c "getent hosts host.docker.internal"
 # Output: 172.17.0.1  host.docker.internal
 ```
+
 {% endraw %}
 
 Docker Compose creates its own network per project. The `host.docker.internal` mapping uses the default bridge IP, but traffic from a custom network doesn't always route cleanly to the default bridge.
@@ -70,6 +74,7 @@ Docker Compose creates its own network per project. The `host.docker.internal` m
 **What happened:** Even after fixing the above two issues, the connection still timed out. The real blocker was iptables — the Linux firewall was silently dropping packets from Docker to the host on port 5433.
 
 **How I found it:**
+
 ```bash
 # After fixing listen_addresses, tried again:
 docker exec gitea sh -c "timeout 3 bash -c 'echo > /dev/tcp/host.docker.internal/5433'"
@@ -83,6 +88,7 @@ sudo iptables -I INPUT -p tcp --dport 5433 -j ACCEPT
 Docker has its own iptables chains. When a container tries to reach the host, the packet goes through the host's `INPUT` chain. If no rule allows it, it gets dropped.
 
 **The fix (permanent):**
+
 ```bash
 sudo ufw allow from 172.16.0.0/12 to any port 5433 proto tcp comment 'postgresql-docker'
 ```

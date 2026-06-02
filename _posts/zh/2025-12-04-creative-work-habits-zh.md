@@ -46,6 +46,7 @@ Currey 自己的结论（摘自引言和后来的采访，意译）：
 你提到的“短时爆发 + 散步”模式确实是书中出现频率最高的单一组合。
 
 参考文献：
+
 - [Daily Rituals: How Artists Work by Mason Currey (2013)](https://www.penguinrandomhouse.com/books/217492/daily-rituals-by-mason-currey/)
 - [Mason Currey’s blog “Daily Routines” (原始资料)](https://dailyroutines.substack.com/)
 - [2013 Brain Pickings / The Marginalian 玛丽亚·波波娃的摘要](https://www.themarginalian.org/2013/05/22/daily-rituals-mason-currey/)

@@ -15,11 +15,13 @@ Question: In Zoom AI Companion, how can I extract as much detailed information a
 Answer:
 
 ### Enabling and Accessing Zoom AI Companion for Detailed Outputs
+
 Zoom AI Companion is an AI-powered assistant integrated into Zoom meetings that generates real-time transcripts, summaries, and answers based on the conversation. To get the most out of it—especially for long meetings like one hour—start by enabling it in your Zoom settings (under **Settings > AI Companion** in the web portal). As the host, you can toggle features like **Meeting Summary** and **Ask AI Companion** before or during the meeting. This uses a temporary transcript (no full recording needed unless you want one). For guests, request the host to enable sharing.
 
 Key limitation: AI responses in the chat box (accessed via the sparkle icon during/after meetings) often cap at ~500 words due to design for brevity. To bypass this for comprehensive details, use iterative prompting, post-meeting access, or download the full transcript.
 
 ### Getting Comprehensive 10-Minute Summaries Without Strict Word Limits
+
 - **During the Meeting (Real-Time Chat Box):**
   - Open the AI Companion panel (sparkle icon in the toolbar).
   - Use built-in prompts like "Summarize the meeting" for an initial bullet-point overview of topics, speakers, and action items. For more depth in 10 minutes of discussion:
@@ -35,6 +37,7 @@ Key limitation: AI responses in the chat box (accessed via the sparkle icon duri
 This approach can yield 1,000+ words total by chaining responses, as the AI draws from the entire transcript.
 
 ### Handling One-Hour Meetings: Using Time Segments or Per-Speaker Breakdowns
+
 For a full hour, divide the analysis to build a refined, organized transcript. AI Companion doesn't auto-generate a full verbatim transcript in chat (it's summary-focused), but you can prompt for speaker-specific or timed details.
 
 - **By Time Segments (e.g., Quarterly Breakdowns):**
@@ -51,6 +54,7 @@ For a full hour, divide the analysis to build a refined, organized transcript. A
 For a one-hour meeting, this might take 5-10 iterative prompts (2-3 minutes each) to cover everything comprehensively. Enable **Retain Transcripts** in admin settings (Account/Group level) to access raw data longer (up to 180 days).
 
 ### Building an Organized, Refined Transcript Overall
+
 - **Steps for a Full Refined Transcript:**
   1. **Enable Transcription:** Turn on **Live Transcript** or **Cloud Recording** pre-meeting for a downloadable VTT/TXT file with timestamps and speaker IDs.
   2. **Generate Base Summary:** Use "Full meeting summary" prompt post-meeting for topics, highlights, and actions.
@@ -66,6 +70,7 @@ For a one-hour meeting, this might take 5-10 iterative prompts (2-3 minutes each
 This method turns AI Companion into a powerful tool for detailed, speaker-aware transcripts without needing third-party apps.
 
 References:
+
 - [Accessing Full Transcript of AI Companion](https://community.zoom.com/t5/Zoom-AI-Companion/Accessing-full-transcript-of-AI-Companion/m-p/207315)
 - [Using Meeting Summary with AI Companion](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013)
 - [Zoom AI Companion FAQ](https://uis.georgetown.edu/zoom/zoom-ai/zoom-ai-faq/)

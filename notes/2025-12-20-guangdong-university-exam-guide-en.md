@@ -15,29 +15,30 @@ Question: Translate the provided PDF document about the Guangdong University of 
 Answer:
 
 # Guangdong University of Foreign Studies
+
 Social Candidates Self-Study Examination Practical Assessment Registration Operation Process (202512)
 
-## I. Registration Instructions:
+## I. Registration Instructions
 
 1. Please carefully read this process guide before registering. During the registration process, please fill in personal information, major, and other related details truthfully. Confirm the courses you are registering for. Errors in registration, multiple registrations will not be refunded, and failure to fill in information truthfully will result in the candidate bearing the consequences of dishonesty themselves.
 
 2. For Hong Kong, Macao, and Taiwan candidates: When registering, fill in all information truthfully. For the ID number field, please refer to the 18-digit format of the mainland resident ID card and pad with 0s before and after the birth date (example: 000000200512150000). If any abnormality occurs during the process, you may contact the Self-Examination Office by phone or email. Email subject: "Hong Kong/Macao/Taiwan Candidate Practical Assessment Registration Anomaly". Staff will process and reply during the registration period.
 
-3. If you encounter problems during registration, please contact the Self-Examination Office. Phone: 020-36246578, Email: gwdzkb@163.com.
+3. If you encounter problems during registration, please contact the Self-Examination Office. Phone: 020-36246578, Email: <gwdzkb@163.com>.
 
-## II. Warm Reminders for Registration:
+## II. Warm Reminders for Registration
 
 1. Please carefully enter your admission ticket number, name, ID number, phone number, email address, and other information, and double-check them.
 
 2. After registration until before the exam, please frequently check your email and keep your phone accessible. For candidates with registration anomalies, our office will contact you via email or phone.
 
-## III. Registration Steps:
+## III. Registration Steps
 
-### (1) Visit http://service.qidaedu.com/practiceLogin.jsp, register as shown below:
+### (1) Visit <http://service.qidaedu.com/practiceLogin.jsp>, register as shown below
 
 [Image: Registration page screenshot]
 
-### (2) After successful registration and login, begin the registration process:
+### (2) After successful registration and login, begin the registration process
 
 **Step 1:** Click "Practical Assessment Registration" to enter the score entry interface.
 
@@ -49,13 +50,13 @@ Social Candidates Self-Study Examination Practical Assessment Registration Opera
 
 [Images: Interface screenshots showing course selection, submission, and pending review status]
 
-**Note:** If there is no course list, it means you do not meet the registration conditions. Please check whether all passed written exam courses have been added. If in doubt, contact the Self-Examination Office at 020-36246578 or email gwdzkb@163.com.
+**Note:** If there is no course list, it means you do not meet the registration conditions. Please check whether all passed written exam courses have been added. If in doubt, contact the Self-Examination Office at 020-36246578 or email <gwdzkb@163.com>.
 
 **Step 5:** During the registration period, check the review results. If there are courses with "Review Failed", delete those courses. Only when the "Review Status" is "Review Passed" can you proceed to payment. Courses that fail review must be deleted before payment can be made. Invoices will be sent uniformly after the payment period ends.
 
 [Images: Screenshots showing deletion of failed courses and review status]
 
-### (3) Payment:
+### (3) Payment
 
 **Step 6:** Select the courses that need payment, click "Generate Order" to create the corresponding payment order information. You can select all courses at once to generate an order, or select individual or multiple courses to generate separate orders.
 

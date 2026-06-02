@@ -13,9 +13,11 @@ Here’s a comprehensive guide to Redis, an open-source, in-memory data structur
 ---
 
 ### What is Redis?
+
 Redis (Remote Dictionary Server) is a high-performance, key-value store that operates primarily in memory, making it exceptionally fast. It supports various data structures such as strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, and geospatial indexes. Created by Salvatore Sanfilippo in 2009, Redis is now maintained by a community and sponsored by Redis Inc.
 
 Key characteristics:
+
 - **In-memory**: Data is stored in RAM for low-latency access.
 - **Persistent**: Offers optional disk persistence for durability.
 - **Versatile**: Supports complex data structures beyond simple key-value pairs.
@@ -24,7 +26,9 @@ Key characteristics:
 ---
 
 ### Why Use Redis?
+
 Redis is popular for its speed and flexibility. Common use cases include:
+
 1. **Caching**: Speeds up applications by storing frequently accessed data (e.g., API responses, web pages).
 2. **Session Management**: Stores user session data in web applications.
 3. **Real-time Analytics**: Tracks metrics, leaderboards, or event counters.
@@ -35,6 +39,7 @@ Redis is popular for its speed and flexibility. Common use cases include:
 ---
 
 ### Key Features
+
 1. **Data Structures**:
    - **Strings**: Simple key-value pairs (e.g., `SET key "value"`).
    - **Lists**: Ordered collections (e.g., `LPUSH mylist "item"`).
@@ -56,15 +61,18 @@ Redis is popular for its speed and flexibility. Common use cases include:
 ---
 
 ### Installation
+
 Redis is available on Linux, macOS, and Windows (via WSL or unofficial builds). Here’s how to install it on a Linux system:
 
 1. **Via Package Manager** (Ubuntu/Debian):
+
    ```bash
    sudo apt update
    sudo apt install redis-server
    ```
 
 2. **From Source**:
+
    ```bash
    wget http://download.redis.io/releases/redis-7.0.15.tar.gz
    tar xzf redis-7.0.15.tar.gz
@@ -74,14 +82,17 @@ Redis is available on Linux, macOS, and Windows (via WSL or unofficial builds). 
    ```
 
 3. **Start Redis**:
+
    ```bash
    redis-server
    ```
 
 4. **Verify Installation**:
+
    ```bash
    redis-cli ping
    ```
+
    Output: `PONG`
 
 5. **Configuration**: Edit `/etc/redis/redis.conf` (or equivalent) to tweak settings like persistence, memory limits, or binding to specific IPs.
@@ -89,35 +100,42 @@ Redis is available on Linux, macOS, and Windows (via WSL or unofficial builds). 
 ---
 
 ### Basic Operations
+
 Redis uses a simple command-based interface via `redis-cli` or client libraries. Here are some examples:
 
 #### Strings
+
 - Set a value: `SET name "Alice"`
 - Get a value: `GET name` → `"Alice"`
 - Increment: `INCR counter` → `1` (increments to 2, 3, etc.)
 
 #### Lists
+
 - Add to left: `LPUSH mylist "item1"`
 - Add to right: `RPUSH mylist "item2"`
 - Pop from left: `LPOP mylist` → `"item1"`
 
 #### Sets
+
 - Add items: `SADD myset "apple" "banana"`
 - List members: `SMEMBERS myset` → `"apple" "banana"`
 - Check membership: `SISMEMBER myset "apple"` → `1` (true)
 
 #### Hashes
+
 - Set fields: `HSET user:1 name "Bob" age "30"`
 - Get field: `HGET user:1 name` → `"Bob"`
 - Get all fields: `HGETALL user:1`
 
 #### Sorted Sets
+
 - Add with score: `ZADD leaderboard 100 "player1" 200 "player2"`
 - Get top scores: `ZRANGE leaderboard 0 1 WITHSCORES` → `"player1" "100" "player2" "200"`
 
 ---
 
 ### Advanced Concepts
+
 1. **Persistence Configuration**:
    - Enable RDB: Set `save 60 1000` in `redis.conf` (save every 60s if 1000 keys change).
    - Enable AOF: Set `appendonly yes` for write logging.
@@ -137,6 +155,7 @@ Redis uses a simple command-based interface via `redis-cli` or client libraries.
 5. **Transactions**:
    - Group commands: `MULTI`, followed by commands, then `EXEC`.
    - Example:
+
      ```
      MULTI
      SET key1 "value1"
@@ -151,15 +170,20 @@ Redis uses a simple command-based interface via `redis-cli` or client libraries.
 ---
 
 ### Client Libraries
+
 Redis supports many programming languages. Examples:
+
 - **Python**: `redis-py` (`pip install redis`)
+
   ```python
   import redis
   r = redis.Redis(host='localhost', port=6379, db=0)
   r.set('key', 'value')
   print(r.get('key'))  # b'value'
   ```
+
 - **Node.js**: `ioredis`
+
   ```javascript
   const Redis = require('ioredis');
   const redis = new Redis();
@@ -170,6 +194,7 @@ Redis supports many programming languages. Examples:
 ---
 
 ### Performance Tips
+
 1. **Use Pipelining**: Batch commands to reduce round-trip latency.
 2. **Optimize Data Structures**: Choose the right structure (e.g., use hashes for small objects instead of multiple keys).
 3. **Monitor Memory**: Use `INFO MEMORY` to track usage.
@@ -178,6 +203,7 @@ Redis supports many programming languages. Examples:
 ---
 
 ### Security
+
 - **Bind to localhost**: Set `bind 127.0.0.1` in `redis.conf` to restrict access.
 - **Set a Password**: Use `requirepass yourpassword`.
 - **Disable Dangerous Commands**: Use `rename-command` (e.g., `rename-command FLUSHALL ""`).
@@ -185,6 +211,7 @@ Redis supports many programming languages. Examples:
 ---
 
 ### Limitations
+
 - **Memory-bound**: Data size is limited by available RAM.
 - **Single-threaded**: Core operations run on one thread (though I/O and persistence can use multiple threads in newer versions).
 - **No Complex Queries**: Lacks SQL-like querying; relies on key-based access.
@@ -192,6 +219,7 @@ Redis supports many programming languages. Examples:
 ---
 
 ### Redis vs. Other Databases
+
 - **Redis vs. Memcached**: Redis offers richer data structures and persistence; Memcached is simpler and purely in-memory.
 - **Redis vs. MongoDB**: Redis is faster for caching but less suited for complex, persistent document storage.
 - **Redis vs. PostgreSQL**: Redis excels at real-time, low-latency tasks; PostgreSQL is better for relational data and ACID compliance.
@@ -199,6 +227,7 @@ Redis supports many programming languages. Examples:
 ---
 
 ### Resources
+
 - **Official Docs**: [redis.io](https://redis.io)
 - **Try Redis**: [try.redis.io](https://try.redis.io) (interactive tutorial)
 - **GitHub**: [github.com/redis/redis](https://github.com/redis/redis)

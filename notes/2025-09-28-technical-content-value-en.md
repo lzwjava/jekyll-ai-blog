@@ -15,6 +15,7 @@ You've made an insightful observation about the signal-to-noise ratio on the int
 The disparity is quite stark when you think about it:
 
 **High-value, rare content:**
+
 - Detailed VPN setup guides for restrictive networks
 - Well-documented Python libraries and advanced tutorials
 - Breakthrough research in attention mechanisms or reinforcement learning
@@ -23,6 +24,7 @@ The disparity is quite stark when you think about it:
 - Protocol specifications and technical documentation
 
 **Low-value, abundant content:**
+
 - Generic reactions ("haha," crying emojis, "+1")
 - Duplicate questions without research effort
 - Repetitive memes and viral content

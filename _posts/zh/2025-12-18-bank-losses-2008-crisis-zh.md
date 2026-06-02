@@ -28,10 +28,10 @@ type: note
 
 参考文献：
 
-- https://www.investopedia.com/insights/too-big-fail-banks-where-are-they-now/
-- https://www.reddit.com/r/Banking/comments/1by5q75/2008_crisis_why_did_some_banks_profit_while/
-- https://en.wikipedia.org/wiki/2008_financial_crisis
-- https://www.investopedia.com/financial-edge/0411/5-investors-that-are-both-rich-and-smart.aspx
-- https://en.wikipedia.org/wiki/JPMorgan_Chase
-- https://en.wikipedia.org/wiki/Goldman_Sachs
-- https://money.cnn.com/2008/12/16/news/companies/goldman_sachs/index.htm
+- <https://www.investopedia.com/insights/too-big-fail-banks-where-are-they-now/>
+- <https://www.reddit.com/r/Banking/comments/1by5q75/2008_crisis_why_did_some_banks_profit_while/>
+- <https://en.wikipedia.org/wiki/2008_financial_crisis>
+- <https://www.investopedia.com/financial-edge/0411/5-investors-that-are-both-rich-and-smart.aspx>
+- <https://en.wikipedia.org/wiki/JPMorgan_Chase>
+- <https://en.wikipedia.org/wiki/Goldman_Sachs>
+- <https://money.cnn.com/2008/12/16/news/companies/goldman_sachs/index.htm>

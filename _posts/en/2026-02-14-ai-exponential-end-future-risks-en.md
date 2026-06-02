@@ -27,6 +27,7 @@ Key points from his statements:
 - **Geopolitics (US-China Competition)** — He strongly supports chip export controls to prevent authoritarian regimes (especially China) from gaining equivalent advanced AI capabilities. He argues that mutual possession of “country of geniuses” systems would be unstable (offense-dominant world, unlike nuclear MAD), risking catastrophic misuse. Democratic alliances should lead in setting norms. He hopes AI could make authoritarianism obsolete (like industrialization ended feudalism), but acknowledges uncertainty and the need for democratic values to prevail.
 
 Other recent appearances include:
+
 - A New York Times “Interesting Times” interview with Ross Douthat (around February 12, 2026), where he discusses AI consciousness (we don't know if models are conscious), control challenges (“something will go wrong” but it's solvable engineering), utopian potential (immense wealth, cures), and dystopian risks (disruption, misalignment).
 - Earlier 2026 discussions (e.g., Bloomberg at Davos, World Economic Forum panels) touch on AGI timelines, robotics, and post-AGI society.
 

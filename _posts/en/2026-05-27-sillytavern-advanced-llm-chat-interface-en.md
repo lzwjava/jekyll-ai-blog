@@ -65,5 +65,6 @@ It's not an agent framework (no LangChain-style tool loops natively), not a fine
 If you're building or evaluating **prompt engineering pipelines, character/persona injection patterns, or multi-backend LLM routing**, SillyTavern's source is actually worth reading. The lorebook/WorldInfo system is a practical implementation of keyword-triggered context injection — a lightweight RAG pattern worth studying. The extension API is also a clean example of how to build plugin systems on top of LLM chat interfaces.
 
 **References:**
+
 - [SillyTavern GitHub](https://github.com/SillyTavern/SillyTavern)
 - [SillyTavern Docs](https://github.com/SillyTavern/SillyTavern-Docs)

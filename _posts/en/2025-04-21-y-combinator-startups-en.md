@@ -46,6 +46,7 @@ Y Combinator (YC) has produced numerous high-impact startups that have reshaped 
    - **Why Notable**: Raised $1.7 billion and competed with tech giants like Google, proving YC startups can scale in crowded markets.
 
 **Broader Context**:
+
 - **Portfolio Scale**: YC has funded 5,000+ companies, with a combined valuation of over **$800 billion**. This includes 90+ unicorns (startups valued at $1 billion+).
 - **Industry Disruption**: YC startups span fintech (Stripe), hospitality (Airbnb), logistics (DoorDash, Instacart), crypto (Coinbase), and social media (Reddit), showcasing versatility.
 - **YC’s Role**: Provides $500,000 in seed funding, mentorship, and access to a network of investors and alumni, enabling founders to scale rapidly. The accelerator’s rigorous selection (1-2% acceptance rate) and demo day model have made it a startup launchpad.

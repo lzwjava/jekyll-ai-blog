@@ -24,6 +24,7 @@ In 1989–1991, Tim Berners-Lee invented the World Wide Web at CERN, creating th
 In the early 1990s, websites were nothing more than simple HTML documents. These pages contained only static text and images, offering limited user interaction.
 
 **Key characteristics of this era:**
+
 - Pages were "read-only" — users could browse but not interact meaningfully
 - No dynamic updates; content changed only when a developer manually edited the file
 - No styling beyond basic browser defaults
@@ -79,12 +80,15 @@ jQuery dominated the web for nearly a decade and is still present on a large por
 ## Era 6: MVC Frameworks and the SPA Revolution (2010–2013)
 
 ### Backbone.js (2010)
+
 Around 2010, Backbone.js emerged as one of the first frontend frameworks, offering an organized structure for building single-page applications (SPAs). It introduced Models, Views, and Collections but left most architectural decisions to the developer — giving too much freedom and too little guidance for large teams.
 
 ### AngularJS (2010) — Google's Full Framework
+
 The release of AngularJS in 2010 by Google marked the beginning of the modern framework era. AngularJS was a full-fledged MVC (Model-View-Controller) framework, designed to build single-page applications (SPAs) that were fast, responsive, and dynamic.
 
 AngularJS introduced several powerful ideas:
+
 - **Two-way data binding**: The UI and the data model stay in sync automatically
 - **Dependency injection**: Made code more testable and modular
 - **Directives**: Custom HTML attributes that extended the browser's vocabulary (e.g., `ng-repeat`, `ng-model`)
@@ -125,6 +129,7 @@ Angular is an **opinionated, batteries-included** framework — ideal for large 
 Vue.js, a progressive framework, combined the best features of AngularJS and ReactJS, offering a flexible and intuitive development experience.
 
 Created by Evan You (a former Google engineer who worked on AngularJS), Vue's key selling points:
+
 - **Gentle learning curve**: HTML templates feel natural; beginners can adopt it incrementally
 - **Progressive adoption**: You can use Vue on just one widget of an existing page, or build an entire SPA with it
 - **Single File Components (SFCs)**: HTML, CSS, and JavaScript for a component all live in a single `.vue` file
@@ -139,18 +144,22 @@ Vue became enormously popular in Asia (especially China) and among developers wh
 As apps grew more complex, a whole ecosystem of supporting tools emerged:
 
 **Package Managers:**
+
 - **npm** (Node Package Manager, 2010) — install and manage JavaScript dependencies
 - **Yarn** (2016, by Facebook) — faster and more deterministic alternative to npm
 
 **Module Bundlers:**
+
 - Bundlers like Webpack revolutionized the packaging and deployment of frontend assets, allowing for efficient module loading and code splitting.
 - **Vite** (2020) — a newer, blazing-fast alternative using ES modules natively
 
 **Transpilers:**
+
 - **Babel** — converts modern JavaScript (ES6+) to browser-compatible ES5
 - **TypeScript** — adds static typing to JavaScript; now the dominant choice for large codebases
 
 **CSS Tooling:**
+
 - **Sass/LESS** — CSS preprocessors adding variables, nesting, and mixins
 - **Tailwind CSS** — utility-first CSS framework that has taken the ecosystem by storm since ~2019
 

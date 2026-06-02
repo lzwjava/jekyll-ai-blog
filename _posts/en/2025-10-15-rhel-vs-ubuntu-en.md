@@ -76,6 +76,7 @@ RHEL's ecosystem focuses on enterprise partnerships, with certifications for har
 Choose Ubuntu for its free accessibility, rapid innovation, and ease of use in dynamic or personal environments. Opt for RHEL if you need rock-solid stability, certified support, and enterprise-grade security at a premium. As of 2025, both continue to evolve—Ubuntu with enhanced AI integrations and RHEL with deeper hybrid cloud focus—making the decision dependent on your scale, budget, and priorities.
 
 ## References
+
 - [Red Hat vs Ubuntu: Which Linux OS is Better for Enterprise](https://jetpatch.com/blog/patch-tuesday/red-hat-vs-ubuntu/)
 - [Which is better? Ubuntu vs. Red Hat Enterprise Linux](https://www.ionos.com/digitalguide/server/know-how/ubuntu-vs-red-hat/)
 - [Difference Between Ubuntu and Red Hat Linux](https://www.geeksforgeeks.org/linux-unix/difference-between-ubuntu-and-red-hat-linux/)

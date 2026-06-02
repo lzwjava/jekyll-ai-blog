@@ -23,5 +23,6 @@ The primary role of the Enterprise Network Simulation Platform (eNSP) simulator,
 The correct answer is **B**.
 
 References:
+
 - [Huawei eNSP Official Overview](https://support.huawei.com/enterprise/en/network-simulation-ensp-pid-7096058)
 - [eNSP Product Page](https://e.huawei.com/en/products/tools/ensp)

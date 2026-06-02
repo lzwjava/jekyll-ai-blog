@@ -46,6 +46,7 @@ Here's a clear, practical comparison between **Jenkins Freestyle Projects** and 
 | Maintaining 10+ year old Jenkins instance     | Gradually migrate to Pipeline |
 
 ### Quick Migration Tip
+
 Most teams today treat **Freestyle as legacy**.
 Jenkins even added the “Pipeline from Freestyle” generator (Job DSL or Pipeline syntax snippet generator) to help convert them.
 

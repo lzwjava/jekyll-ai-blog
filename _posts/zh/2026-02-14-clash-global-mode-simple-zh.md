@@ -23,6 +23,7 @@ type: note
 3. **Proxy Forwarding** — 解析后的流量将通过你配置的 Proxy server 发送到目的地。
 
 **为什么要使用 global mode？**
+
 - 所有内容都经过加密并由 Proxy 路由（更高的隐私性）
 - 绕过所有层面的 Geo-blocking 或限制
 - 当你需要完全的匿名性时非常有用

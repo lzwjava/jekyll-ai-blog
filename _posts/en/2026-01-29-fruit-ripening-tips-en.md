@@ -17,6 +17,7 @@ Answer:
 Both **bananas** and **mangoes** are climacteric fruits, meaning they continue to ripen after being harvested. The color change from green to yellow happens due to a natural plant hormone called **ethylene gas**.
 
 ### Why the color changes from green to yellow
+
 - The green color in unripe bananas and mangoes comes from **chlorophyll** in the peel (the same pigment that makes leaves green).
 - As the fruit ripens, ethylene triggers the breakdown of chlorophyll.
 - Once chlorophyll disappears, underlying yellow/orange pigments (mainly carotenoids) become visible → the peel turns yellow.
@@ -30,6 +31,7 @@ Bananas produce quite a lot of ethylene themselves (especially from the stem), s
 This is why green bananas or mangoes can ripen on your counter without being attached to the plant anymore — they use their own stored energy and produce ethylene to drive the process.
 
 ### How to speed up the ripening process
+
 The most effective and safe home method is to trap the ethylene gas around the fruit:
 
 1. **Paper bag method** (best & most recommended)

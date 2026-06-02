@@ -22,6 +22,7 @@ The article profiled by Z Tech (and widely covered in Chinese tech media) introd
 ## Who Is Mingyang Deng?
 
 ### Competition Background
+
 Deng began participating in math competitions in 3rd grade and consistently won awards. In middle school he earned a second prize at the National High School Math League, a gold medal at the National Math Olympiad final (qualifying for guaranteed admission to Tsinghua or Peking University), and in 10th grade (高一) won a gold medal at the **International Mathematical Olympiad (IMO)**.
 
 In informatics, he won a gold medal at the National Olympiad in Informatics (NOI) in 9th grade, and in 12th grade earned a **perfect score gold medal at the International Olympiad in Informatics (IOI)** — making him the first person in China to win international gold medals in two different academic disciplines, and only the third perfect scorer in IOI history.
@@ -31,6 +32,7 @@ In the year he competed at IOI (2021), the Chinese team made history by having a
 Deng obtained guaranteed admission to both Tsinghua and Peking University at age 15. At 17, he received the only regular admission offer MIT gave to a student from mainland China that year.
 
 ### University Career
+
 In addition to academics, in November 2022, Deng teamed up with two others to represent MIT and win the championship of the 45th ICPC (International Collegiate Programming Contest) World Finals. In 2024, he and two teammates placed second at the 46th ICPC World Finals.
 
 After graduating from MIT with a bachelor's degree in Mathematics and Computer Science in May 2024, Deng chose to continue at MIT for his PhD, with Kaiming He as his doctoral advisor. He is one of He's three founding PhD students.
@@ -48,6 +50,7 @@ He collaborated with Kaiming He's group on a notable paper proposing a new image
 ## His Key Views and Personal Insights
 
 ### On Learning and Competition
+
 In others' eyes, Deng is considered a legendary student — holding dual international gold medals while ranking in the top 10 of his year at Renmin University High School. Yet he himself openly admitted that the current level of competition is "far from the stage where you need to compete on raw talent."
 
 He describes his journey through math and informatics competitions simply as "fun." He said he got interested in math from a young age, found olympiad problems enjoyable, and especially liked problems that required deep thinking. When he was in 6th grade, he wanted to build a computer game, so he began learning to code — again, primarily because it was "interesting."
@@ -57,11 +60,13 @@ He advises young competitors: do not study competitive math or informatics merel
 On family education, he noted that his parents did not have many demands — they just wanted him to be happy every day.
 
 ### On His Mindset and Approach
+
 He has emphasized repeatedly the importance of thinking deeply: "To train thinking ability, one needs to think more and go deeper in life. This is not just about doing problems — it also means being good at asking questions. When you see a model or a system, even a game, it's worth exploring. Even if you can't solve it, what matters most is the process of thinking."
 
 When interviewed during his MIT undergraduate years, Deng candidly said he had no particularly grand goals at the time — there were still many research problems to explore. He described his attitude as "just trying to survive at MIT." He found his coursework very interesting but had not yet found a deeply specialized research niche, saying he was still in the exploration phase.
 
 ### On Choosing to Pursue a PhD
+
 After graduating, when many expected him to join a Silicon Valley tech giant or a top Chinese internet company, Deng surprised people by choosing to stay at MIT for a PhD under Kaiming He — following the most excellent person as a shortcut to a higher level. Competitions, in that sense, were not the endpoint but the starting point.
 
 After reaching the pinnacle of competitive programming, his journey was just beginning: at MIT he participated in cutting-edge research projects and also interned at tech companies during breaks. After that period of exploration, he chose to continue with a PhD under the renowned AI scholar Kaiming He.

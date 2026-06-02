@@ -10,13 +10,13 @@ translated: false
 type: note
 ---
 
-**Question:** What does the OpenAI blog post at https://openai.com/index/scaling-postgresql/ say?
+**Question:** What does the OpenAI blog post at <https://openai.com/index/scaling-postgresql/> say?
 
 **Answer:**
 
 The blog post, titled **"Scaling PostgreSQL to power 800 million ChatGPT users"**, was published by OpenAI on January 22, 2026. It describes how OpenAI has scaled a single unsharded PostgreSQL database (running on Azure PostgreSQL Flexible Server) to handle massive global traffic for ChatGPT and their API, supporting 800 million users and millions of queries per second (QPS), mostly read-heavy.
 
-### Key points from the article:
+### Key points from the article
 
 - **Scale achieved**
   PostgreSQL load increased >10× in the past year.

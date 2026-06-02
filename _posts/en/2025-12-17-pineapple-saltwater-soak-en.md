@@ -21,11 +21,13 @@ Peeling and cutting the pineapple **once** upfront (removing the tough skin and 
 The salt water aspect is a well-known hack: soaking fresh pineapple pieces briefly (1–30 minutes) in mild salt water (about 1 teaspoon salt per cup of water) deactivates bromelain, the enzyme that causes mouth tingling or irritation. It also enhances sweetness and reduces perceived acidity.
 
 However:
+
 - The soak is typically short, followed by draining (and optional rinsing) before storage.
 - Long-term storage in salt water isn't recommended, as it can make the pineapple overly salty, mushy, or promote fermentation/bacterial growth over time.
 - No sources mention placing slices "upside down" in the liquid—this doesn't seem to serve a purpose for cut pieces (unlike storing a whole pineapple upside down to redistribute sugars, which has limited effect anyway).
 
 For best results and convenience:
+
 - Peel, core, and slice the pineapple once.
 - Optionally soak slices in salt water briefly to reduce irritation.
 - Drain thoroughly.
@@ -35,10 +37,10 @@ This way, you get the convenience of ready-to-eat slices without ongoing peeling
 
 References:
 
-- https://www.tasteofhome.com/article/pineapple-in-salt-water/
-- https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/
-- https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/
-- https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/
-- https://www.marthaastewart.com/how-to-store-pineapple-11733822
-- https://www.simplyrecipes.com/how-to-store-cut-pineapple-del-monte-11758796
-- https://www.doesitgobad.com/how-to-store-pineapple/
+- <https://www.tasteofhome.com/article/pineapple-in-salt-water/>
+- <https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/>
+- <https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/>
+- <https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/>
+- <https://www.marthaastewart.com/how-to-store-pineapple-11733822>
+- <https://www.simplyrecipes.com/how-to-store-cut-pineapple-del-monte-11758796>
+- <https://www.doesitgobad.com/how-to-store-pineapple/>

@@ -17,6 +17,7 @@ type: note
 - 扫描阶段（is_host_up）仍然使用快速单次 ping，`--delay` 仅对确认存活的主机运行 10 次 ping
 
 示例输出：
+
 ```
 192.168.1.1 is up  avg 19.9 ms
 ```

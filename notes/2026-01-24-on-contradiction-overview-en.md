@@ -27,8 +27,8 @@ At its core, the essay is an interpretation of **dialectical materialism**. Mao 
 * **The Universality of Contradiction:** Mao asserts that contradiction exists in the development of all things and throughout the entire process of every development. There is nothing that does not contain contradiction; without it, there would be no world.
 * **The Particularity of Contradiction:** This is the "soul" of Maoism. He argues that while contradictions are universal, each one is unique. To solve a problem, one must study its specific characteristics rather than applying a "one-size-fits-all" formula.
 * **Principal vs. Secondary Contradictions:** In any complex process, there are many contradictions, but one is always **principal**. Its existence and development determine or influence the others.
-> **Example:** During the Japanese invasion of China, Mao argued the "imperialist aggression" was the principal contradiction, temporarily making the internal class struggle "secondary."
 
+> **Example:** During the Japanese invasion of China, Mao argued the "imperialist aggression" was the principal contradiction, temporarily making the internal class struggle "secondary."
 
 * **Principal vs. Secondary Aspects:** Even within a single contradiction, one side is usually dominant (the principal aspect). The nature of a thing is determined by its principal aspect, which is constantly shifting through struggle.
 * **Antagonistic vs. Non-Antagonistic Contradictions:** Some conflicts are violent and irreconcilable (antagonistic), while others can be resolved through discussion or reform (non-antagonistic).

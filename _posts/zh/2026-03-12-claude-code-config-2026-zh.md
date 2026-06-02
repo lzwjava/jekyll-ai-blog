@@ -66,9 +66,11 @@ Claude Code 会自动读取此文件（CLI 版本和官方 Anthropic VS Code 扩
 
 3. **测试它**
    在终端中运行：
+
    ```
    claude
    ```
+
    或使用 VS Code 侧边栏 / 命令面板 → "Claude Code"。
 
    如果配置正确，您将不会看到登录提示，并且它会连接到 `https://v2-as.pincc.ai` 而非直接连接 Anthropic。

@@ -29,6 +29,7 @@ Based on employee reviews and discussions from platforms like Glassdoor and Redd
 Overall, while DBS is praised for learning opportunities and a modern culture, contractors often advise taking such roles only if you're desperate or need quick experience—aim for permanent positions elsewhere for better long-term prospects.
 
 ### References
+
 - [DBS Bank Contract Reviews | Glassdoor](https://www.glassdoor.com/Reviews/DBS-Bank-Contract-Reviews-EI_IE611812.0%2C8_KO9%2C17.htm)
 - [DBS Bank Contract Staff Reviews | Glassdoor](https://www.glassdoor.com/Reviews/DBS-Bank-Contract-Staff-Reviews-EI_IE611812.0%2C8_KO9%2C23.htm)
 - [1-year Contract Role Discussion | Reddit](https://www.reddit.com/r/askSingapore/comments/1jpib1h/1year_contract_role_is_it_negotiable/)

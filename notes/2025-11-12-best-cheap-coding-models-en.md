@@ -16,7 +16,8 @@ Based on recent benchmarks, user discussions, and model rankings as of 2025, her
 
 I've prioritized models with high scores on coding benchmarks like SWE-Bench, HumanEval, or Aider, while being cheap or free. Model IDs are formatted for easy use in your `config.toml` (e.g., `model = "provider/model-name"`). For exact current pricing, check OpenRouter's models page, as rates can fluctuate slightly.
 
-#### Top Recommendations:
+#### Top Recommendations
+
 - **Grok Code Fast (xAI)**
   Model ID: `xai/grok-code-fast`
   Why: Tops OpenRouter's LLM rankings for coding, excels in speed and agentic tasks (e.g., #1 in International Olympiad in Informatics). Often free for basic use, making it the most used model on the platform. Great for iterative coding workflows.

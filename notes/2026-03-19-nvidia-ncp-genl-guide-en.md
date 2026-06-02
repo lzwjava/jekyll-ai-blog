@@ -30,6 +30,7 @@ Also note: The NCP-GENL is designed for candidates with 2–3 years of practical
 NVIDIA explicitly links specific DLI courses to their corresponding certification exams. You should prioritize these official courses above all third-party YouTube tutorials or generic Udemy courses.
 
 For Generative AI Candidates (NCP-GENL), focus your time on these official DLI courses:
+
 - **Building Transformer-Based Natural Language Processing Applications**
 - **Building LLM Applications with Prompt Engineering**
 - **Getting Started With Deep Learning**
@@ -51,12 +52,13 @@ NVIDIA DLI online courses come in two formats: 2-hour courses covering specific 
 
 Study each domain weighted by its exam percentage. Do **not** study them equally — allocate time proportionally.
 
-### Domain Priority Order (by exam weight):
+### Domain Priority Order (by exam weight)
 
 **🔴 Priority 1 — Model Optimization (17%) + GPU Acceleration (14%)**
 These two domains together = 31% of your exam. Master these first.
 
 Study resources:
+
 - **TensorRT-LLM GitHub** — read the documentation on `paged_attention`, `in_flight_batching`, engine building
 - **vLLM documentation** — understand paged attention vs static KV cache allocation
 - **DeepSpeed ZeRO docs** — know exactly what ZeRO-1, 2, and 3 each shard; optimizer states, gradients, and parameters
@@ -70,12 +72,14 @@ Key things to be able to answer: *"What does in-flight batching solve that stati
 **🟠 Priority 2 — Fine-Tuning (13%) + Prompt Engineering (13%)**
 
 For Fine-Tuning:
+
 - **Hugging Face PEFT library docs** — LoRA, QLoRA, adapter methods; understand `r` and `lora_alpha` hyperparameters
 - **QLoRA paper (Dettmers et al.)** — why 4-bit quantization + LoRA enables fine-tuning on limited hardware
 - **NeMo Framework docs** — NVIDIA's tool for SFT, RLHF; how to configure a fine-tuning job in NeMo
 - Understand DPO vs RLHF: DPO has no separate reward model and trains directly on preference pairs
 
 For Prompt Engineering:
+
 - **NVIDIA NeMo Guardrails GitHub** — learn Colang syntax; how topical/safety/fact-check rails are defined
 - Build a small CoT / ReAct prompt chain yourself using any LLM API
 - Practice structured output prompting (forcing JSON schema compliance via constrained decoding)
@@ -85,11 +89,13 @@ For Prompt Engineering:
 **🟡 Priority 3 — Model Deployment (9%) + Data Preparation (9%)**
 
 For Model Deployment:
+
 - **NVIDIA Triton Inference Server docs** — model repository layout, `config.pbtxt` structure, ensemble models, versioning directories
 - **NVIDIA NIM docs** — understand what NIM is: pre-packaged containers with Triton + TensorRT-LLM pre-configured
 - Kubernetes + GPU Operator: understand the `nvidia.com/gpu` resource request syntax; what the GPU Operator installs automatically in a K8s cluster
 
 For Data Preparation:
+
 - Focus on BPE tokenization — how vocabulary is built, merge rules, handling OOV tokens
 - MinHash deduplication — why it matters for pretraining data quality
 - Alpaca vs ShareGPT fine-tuning data formats — know the exact JSON structure of each
@@ -99,21 +105,25 @@ For Data Preparation:
 **🟢 Priority 4 — Evaluation (7%) + Production Monitoring (7%) + LLM Architecture (6%) + Safety (5%)**
 
 For Evaluation:
+
 - Know BLEU, ROUGE, BERTScore, perplexity, pass@k for code — and *when* to use each
 - MMLU, HumanEval, MT-Bench — what each benchmark measures, its limitations
 - LLM-as-judge methodology — why it's used, its biases (position bias, verbosity bias)
 
 For Production Monitoring:
+
 - Know the key metrics: Time to First Token (TTFT), tokens per second, GPU utilization, queue depth
 - Prometheus + Grafana stack is the standard; know what metrics Triton exposes natively
 - Understand data drift vs concept drift; how to trigger automated retraining
 
 For LLM Architecture:
+
 - Scaled dot-product attention formula: `softmax(QKᵀ / √dₖ) · V`
 - KV Cache: what is stored, when it's populated, why it trades memory for speed
 - Know decoder-only (GPT) vs encoder-only (BERT) vs encoder-decoder (T5) — when each is used
 
 For Safety:
+
 - NVIDIA NeMo Guardrails — Colang language, topical/safety/fact-check rail types
 - Know bias detection frameworks (AI Fairness 360 concepts) and mitigation strategies: pre-processing, in-processing, post-processing
 - RAG for hallucination mitigation vs fine-tuning for hallucination mitigation — key differences

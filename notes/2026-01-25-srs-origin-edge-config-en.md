@@ -17,6 +17,7 @@ type: note
 In SRS (Simple RTMP Server), the **main endpoint** is typically called the **origin server**, and the **edge endpoint** is the **edge server** (used for scaling to many viewers via pull from origin).
 
 ### Origin Server (Main) Configuration
+
 The origin server receives RTMP pushes from encoders (OBS, FFmpeg, etc.) and serves streams to edges or directly to players.
 
 Example minimal `origin.conf` (or use full.conf and modify):
@@ -40,6 +41,7 @@ vhost __defaultVhost__ {
 ```
 
 Run it with:
+
 ```
 ./objs/srs -c origin.conf
 ```
@@ -47,6 +49,7 @@ Run it with:
 Clients push to: `rtmp://your-origin-ip/live/stream_key`
 
 ### Edge Server Configuration
+
 The edge server pulls streams from the origin **on-demand** when a player connects (better than forward mode for large scale).
 
 Example minimal `edge.conf`:
@@ -79,6 +82,7 @@ vhost __defaultVhost__ {
 ```
 
 Run it with:
+
 ```
 ./objs/srs -c edge.conf
 ```
@@ -97,6 +101,7 @@ SRS edge will automatically pull from origin if the stream isn't cached locally.
 | Pull on demand    | N/A                                   | Yes (only fetches when someone plays)    |
 
 ### Advanced Notes
+
 - Use multiple origin servers: `origin 1.2.3.4:1935 5.6.7.8:1935;`
 - For very large scale → combine SRS edge (for RTMP/HTTP-FLV) + NGINX for HLS caching
 - In recent SRS versions (v5/v6), the config format is almost the same, but always check the latest full.conf example on GitHub for new features.

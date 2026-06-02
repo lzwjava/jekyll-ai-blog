@@ -11,11 +11,13 @@ type: note
 下面通过实际示例讲解如何在 Java 中使用 NIO（New Input/Output）。相比传统的 java.io 包，Java NIO 提供了更高效的非阻塞 I/O 处理方式。
 
 ### 核心组件概览
+
 1. **缓冲区（Buffers）**：数据容器（如 `ByteBuffer`）
 2. **通道（Channels）**：数据读写流（如 `FileChannel`、`SocketChannel`）
 3. **选择器（Selectors）**：实现非阻塞模式下的多路复用通道
 
 ### 基础示例：使用 NIO 读取文件
+
 以下演示如何通过 `FileChannel` 与 `ByteBuffer` 读取文件：
 
 ```java
@@ -60,6 +62,7 @@ public class NIOFileReader {
 ```
 
 ### 运行原理
+
 1. **FileChannel**：建立与文件的连接通道
 2. **ByteBuffer**：作为数据临时存储区（示例分配1024字节容量）
 3. **缓冲区操作**：
@@ -70,6 +73,7 @@ public class NIOFileReader {
 ---
 
 ### NIO 文件写入示例
+
 以下演示如何向文件写入数据：
 
 ```java
@@ -113,6 +117,7 @@ public class NIOFileWriter {
 ---
 
 ### 选择器非阻塞示例
+
 以下是通过 `Selector` 与 `SocketChannel` 实现网络编程的服务器示例：
 
 ```java

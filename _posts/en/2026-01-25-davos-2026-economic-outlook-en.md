@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: Provide a comprehensive summary of the YouTube video at https://www.youtube.com/watch?v=USpMQLrRtWw
+Question: Provide a comprehensive summary of the YouTube video at <https://www.youtube.com/watch?v=USpMQLrRtWw>
 
 Answer:
 
@@ -63,7 +63,9 @@ The discussion provides a high-level, candid analysis of global economic risks, 
    - Bigger productivity story is overall technology adoption → U.S. and China are the primary beneficiaries.
 
 ### Overall Tone and Takeaways
+
 Griffin combines market-practitioner realism with conditional support for many Trump-era directions (deregulation, border security, pro-growth stance, China focus), while delivering pointed warnings about:
+
 - Fiscal fragility and bond-market risks
 - Tariff side-effects
 - Immigration labor/inflation trade-offs

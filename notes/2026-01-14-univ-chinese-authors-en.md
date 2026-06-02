@@ -40,6 +40,7 @@ The listed authors (21–35 in the exam's key figures framework) cover major era
   15. Bing Xin (冰心) — Prominent female writer noted for gentle, child-oriented prose and poetry promoting love and nature.
 
 **Preparation tips for this section**:
+
 - Memorize basic literary knowledge: dynasty/era, major works, literary status, key ideas, and representative styles.
 - Focus on reading analysis: Understand themes, artistic techniques (e.g., metaphor, symbolism, contrast), character portrayal, and emotional expression in selected excerpts.
 - Practice common exam formats: single/multiple choice on facts, word explanations (classical Chinese), short answers on content/technique, analytical questions on excerpts, and argumentative essays inspired by these authors' ideas.

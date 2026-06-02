@@ -23,6 +23,7 @@ Of course, for individual users with relatively low usage, this optimization doe
 ---
 
 ✅ So yes, your reasoning is correct:
+
 - **Stable ordering** → better cache hits.
 - **Dynamic content at the end** → preserves the longer reusable prefix.
 - **High-volume services (copilot-style)** benefit much more from this optimization than individual low-usage users.

@@ -14,19 +14,23 @@ This describes Mao Zedong's management philosophy for Chinese enterprises, known
 
 Let me break down each component:
 
-## **两参** (Two Participations):
+## **两参** (Two Participations)
+
 1. **干部参加劳动** - Cadres/managers participate in manual labor
 2. **工人参加管理** - Workers participate in management decisions
 
-## **一改** (One Reform):
+## **一改** (One Reform)
+
 - **改革不合理的规章制度** - Reform unreasonable rules and regulations
 
-## **三结合** (Three Combinations):
+## **三结合** (Three Combinations)
+
 - **工人群众、领导干部和技术人员三结合** - Integration of three groups: workers, leadership cadres, and technical personnel
 
-## Historical Context:
+## Historical Context
 
 This was part of Mao's vision during the 1950s-1970s to:
+
 - Break down hierarchical barriers between mental and manual labor
 - Prevent the emergence of a bureaucratic management class
 - Promote egalitarianism in the workplace

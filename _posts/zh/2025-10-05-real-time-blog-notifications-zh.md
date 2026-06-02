@@ -15,10 +15,12 @@ type: note
 最实用且实时的方案是使用 **Cloudflare Workers** 拦截发往你博客的每个请求。该方案会在每次访问时运行无服务器代码，允许你记录事件并通过 Telegram API 立即发送消息。对于低流量网站（每日不超过 10 万次请求）可免费使用，但高流量博客可能触及限制或产生费用——此外你会被通知淹没，建议设置过滤条件（例如仅针对独立 IP 或特定页面）。
 
 ### 快速配置步骤
+
 1. **创建 Telegram 机器人**：
    - 在 Telegram 中联系 @BotFather，使用 `/newbot` 创建机器人，并保存机器人令牌（例如 `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`）。
    - 与你的机器人开启对话，然后联系 @userinfobot 获取聊天 ID（例如 `123456789`）。
    - 通过 curl 测试消息发送：
+
      ```
      curl -X POST "https://api.telegram.org/bot<你的机器人令牌>/sendMessage" \
      -H "Content-Type: application/json" \
@@ -31,6 +33,7 @@ type: note
 
 3. **添加通知代码**：
    - 编辑 Worker 代码以拦截请求并发送至 Telegram。基础示例（需替换占位符）：
+
      ```javascript
      export default {
        async fetch(request, env) {
@@ -57,6 +60,7 @@ type: note
        }
      };
      ```
+
      - 此代码会在每次匹配请求时运行，记录基础访问者信息并通过 Telegram 发送，且不会延迟页面加载。
 
 4. **配置环境变量**：
@@ -75,6 +79,7 @@ type: note
    - 在仪表板检查 Worker 日志中的错误。若触及速率限制（如 Telegram 的 30 条/秒），可通过 KV 存储添加去抖机制。
 
 ### 备用方案（若 Worker 不适用）
+
 - **批量日志分析**：使用日志推送将 HTTP 请求日志导出至 AWS S3 或 Google Pub/Sub 等服务，再通过 Zapier 或 n8n 等工具转发至 Telegram（例如每小时汇总访问）。但非实时方案。
 - **集成工具**：Albato 或 n8n 等工具可连接 Cloudflare 网络钩子至 Telegram，但无法实现单次访问通知。
 - **限制说明**：免费版 Worker 每次请求限 10ms CPU 时间——当前场景足够，需要时请升级方案。高流量网站需配置节流机制。

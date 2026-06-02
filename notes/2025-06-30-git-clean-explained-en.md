@@ -11,13 +11,16 @@ type: note
 ---
 
 ### What the Command Does
+
 The command `git clean -f -d` (assuming "clean clean" is a typo and you meant `git clean`) removes untracked files and directories from your Git working directory. The flags break down as:
+
 - `-f` (force): Required to actually delete files, as Git won't remove them by default to avoid accidental data loss.
 - `-d` (directories): Extends the cleanup to include untracked directories, not just files.
 
 You wrote `-fd -f`, which combines `-f -d -f`. Since `-f` appears twice, it's redundant but harmless—flags can be repeated without issue. If you meant something else, clarify!
 
 ### How It Works
+
 Git clean operates on the working tree (your local files), not the repository itself. Here's a step-by-step breakdown of its behavior:
 
 1. **Scans the Working Directory**: It identifies "untracked" items—files/directories not in the Git index or tracked by any commits. Examples: temporary files like `*.log`, build artifacts, or empty directories from removed branches.
@@ -34,6 +37,7 @@ Git clean operates on the working tree (your local files), not the repository it
    - Typical workflow: After `git reset`, use this to match your last commit exactly.
 
 ### Caveats and Proof
+
 - **Risk**: Deleting files is irreversible without backups or `git reflog`. Always commit important work first.
 - **Evidence from Git Docs**: The official Git documentation (e.g., `man git-clean` or docs at git-scm.com) confirms this: `-f` forces removal, `-d` includes directories. It uses filesystem operations like `unlink` and `rmdir`, but only on untracked items to avoid corrupting tracked data.
 - **Testing Tip**: In a mock repo, create an untracked file and dir, then run the command—observe the output and file system changes.

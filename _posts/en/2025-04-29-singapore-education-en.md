@@ -9,7 +9,9 @@ type: note
 ---
 
 ## Universities
+
 Singapore has several world-renowned universities:
+
 - National University of Singapore (NUS) - Consistently ranked as the top university in Asia
 - Nanyang Technological University (NTU) - Known for engineering and business programs
 - Singapore Management University (SMU) - Specializes in business and management education
@@ -18,11 +20,14 @@ Singapore has several world-renowned universities:
 - Singapore University of Social Sciences (SUSS) - Flexible programs for working adults
 
 ## Secondary Schools (Middle Schools)
+
 In Singapore, the secondary school system (ages 13-16) includes:
+
 - Express Stream (4 years)
 - Normal Academic/Technical Stream (5 years)
 
 Notable secondary schools include:
+
 - Raffles Institution
 - Hwa Chong Institution
 - Anglo-Chinese School (Independent)
@@ -31,7 +36,9 @@ Notable secondary schools include:
 - Victoria School
 
 ## Primary Schools
+
 Primary education in Singapore spans 6 years (ages 7-12) and is compulsory. Well-regarded primary schools include:
+
 - Nanyang Primary School
 - Raffles Girls' Primary School
 - Anglo-Chinese School (Primary)

@@ -15,6 +15,7 @@ type: note
 **Versatile or comprehensive in multiple areas** - having many different skills, abilities, or uses rather than being specialized in just one thing.
 
 For example:
+
 - "She's an all-round athlete" - good at many different sports
 - "He's an all-round musician" - can play multiple instruments or perform various styles
 - "It's an all-round good choice" - suitable or beneficial in many different ways

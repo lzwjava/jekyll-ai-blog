@@ -11,6 +11,7 @@ type: note
 Yes, you're spot on with your understanding of tool use and function calls in AI chatbot APIs like Mistral's (or similar ones from OpenAI, Anthropic, etc.). Let me break it down step by step to confirm and clarify, as it indeed involves inversion of control (IoC) in a way that shifts the decision-making from your code to the AI model.
 
 ### How It Works
+
 1. **Defining Tools**:
    - You (the developer) provide a list of custom "tools" (essentially function definitions) in your initial API request. Each tool includes details like the function name, parameters (with types and descriptions), and what it does. This is done via a schema, often in JSON format (e.g., based on OpenAI's tool schema, which Mistral also supports).
    - Example: You might define a tool called `get_weather` that takes a `location` parameter and returns current weather data.
@@ -39,10 +40,12 @@ Yes, you're spot on with your understanding of tool use and function calls in AI
    - If needed, it might request additional tool calls in a loop (e.g., for multi-step tasks), but eventually, it outputs the answer without further calls.
 
 ### Why It's Inversion of Control
+
 - In traditional programming, your code controls the flow: "If condition X, call function Y."
 - Here, the AI model takes control: It analyzes the query and decides "I need to call Y with these args—tell me the result, then I'll proceed." Your code becomes reactive, handling the calls as requested. This makes the system more dynamic and allows the model to handle complex, reasoning-based workflows.
 
 ### Edge Cases and Tips
+
 - **Parallel Tool Calls**: Some APIs (like Mistral's) support calling multiple tools in one response if the query requires it.
 - **Error Handling**: If your tool execution fails, you can send an error message back, and the model might retry or adjust.
 - **Chat History**: Always maintain the full conversation thread across requests to keep context.

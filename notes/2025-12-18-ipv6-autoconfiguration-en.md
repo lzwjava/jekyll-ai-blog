@@ -30,5 +30,6 @@ Stateless Address Autoconfiguration (SLAAC) is the mechanism defined in IPv6 for
 SLAAC provides a simple, serverless way for devices to obtain addresses, making it the standard for stateless autoconfiguration in IPv6.
 
 References:
+
 - [RFC 4862: IPv6 Stateless Address Autoconfiguration](https://tools.ietf.org/html/rfc4862)
 - [RFC 8415: DHCPv6](https://tools.ietf.org/html/rfc8415) (for contrast with stateful configuration)

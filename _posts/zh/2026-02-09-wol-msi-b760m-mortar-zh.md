@@ -17,6 +17,7 @@ Answer:
 对于使用 **MSI MAG B760M Mortar WiFi** 主板（MSI B760 系列）的 PC，请按照以下具体步骤进入 BIOS 并启用 Wake-on-LAN (WoL)。此过程适用于像您这样近期生产的 MSI Gaming 主板。
 
 ### Step 1: 进入 BIOS/UEFI
+
 1. 将电脑完全 **power off**（彻底关机，而非睡眠或休眠）。
 2. 按下 **power button** 启动系统。
 3. 在按下电源键后，立即 **重复按 Delete (Del) 键**（在屏幕亮起之前就开始连按）。
@@ -28,12 +29,14 @@ Answer:
    - 如果启用了 Windows Fast Startup，可能会导致启动速度过快而无法捕捉按键 —— 如果需要，请先使用下方的 Windows 备选方法。
 
 **从 Windows 内部进入的备选方法**（如果您可以进入 OS）：
+
 1. 打开 **Settings** → **System** → **Recovery**。
 2. 在 **Advanced startup** 下，点击 **Restart now**。
 3. 重启后选择：**Troubleshoot** → **Advanced options** → **UEFI Firmware Settings** → **Restart**。
 4. 电脑将直接进入 BIOS。
 
 ### Step 2: 在 BIOS 中启用 Wake-on-LAN
+
 进入 BIOS 后（可能会以 EZ Mode 启动 —— 如果需要，请按 **F7** 切换到 Advanced Mode）：
 
 1. 使用鼠标或方向键选择 **SETTINGS**（通常在顶部/左侧菜单）。
@@ -49,7 +52,9 @@ Answer:
 8. 系统将重新启动进入 Windows。
 
 ### 后续重要步骤（BIOS 设置之后）
+
 为了让 WoL 在关机后完全正常工作：
+
 - 在 Windows 中：打开 **Device Manager** → **Network adapters** → 右键点击您的 Ethernet 控制器（通常为 Realtek Gaming 2.5GbE Family Controller） → **Properties** → **Power Management** 选项卡：
   - 勾选 **Allow this device to wake the computer**。
   - 勾选 **Only allow a magic packet to wake the computer**（可选，但更安全）。

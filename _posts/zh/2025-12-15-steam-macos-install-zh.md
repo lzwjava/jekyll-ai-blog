@@ -16,9 +16,9 @@ type: note
 
 在 macOS 上安装 Steam 很简单，使用 Valve 官方客户端即可。截至 2025 年 12 月，Steam 支持最新的 macOS 版本（包括 macOS 15 及更高版本），并且可在 Intel 和 Apple Silicon (M 系列) Mac 上运行。在 Apple Silicon Mac 上，客户端现在原生运行，性能有所提升。
 
-### 分步安装指南：
+### 分步安装指南
 
-1. 打开网络浏览器，访问 Steam 官方网站：https://store.steampowered.com/about/。
+1. 打开网络浏览器，访问 Steam 官方网站：<https://store.steampowered.com/about/。>
 
 2. 在右上角，点击“**安装 Steam**”按钮。
 
@@ -42,7 +42,8 @@ type: note
 
 就是这样——Steam 现已安装完毕，可以浏览、购买和玩游戏了。
 
-### 提示和故障排除：
+### 提示和故障排除
+
 - 确保您的 Mac 满足基本要求：现代 macOS 版本（建议使用 macOS 12 Monterey 或更高版本以获得完全支持）和足够的存储空间。
 - 如果应用程序在 Dock 中跳动但未打开，请尝试右键单击图标并选择“**打开**”，或者重新启动 Mac。
 - 为了在 Apple Silicon 上获得最佳体验，请使用包含原生支持的最新 Steam 客户端。

@@ -137,6 +137,7 @@ print(q_table)
 ---
 
 ### Sample Output
+
 ```
 Testing the learned policy:
 Step 1: Moved to state 1, Action: Right

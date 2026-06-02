@@ -17,10 +17,12 @@ type: note
 ### 这些元标签是什么？
 
 **Open Graph (OG) 元标签**：
+
 - 由 Facebook 开发，Open Graph 标签允许网站在支持 Open Graph 协议的平台（如 Facebook、LinkedIn 等）上定义其内容被分享时的显示方式。
 - 这些标签指定了页面的关键细节，如标题、描述、图片和 URL，确保链接被分享时能呈现一致且视觉上吸引人的预览。
 
 **Twitter Card 元标签**：
+
 - Twitter Cards 是 Twitter（现为 X）使用的类似概念，用于丰富推文或帖子中的链接预览。
 - 它们提供元数据，以便在平台上分享 URL 时显示摘要、图片或其他媒体内容。
 
@@ -33,6 +35,7 @@ type: note
 以下是您提供的代码中每个标签的作用：
 
 #### Open Graph 标签
+
 1. `<meta property="og:url" content="https://ssi.inc">`
    - 指定要分享页面的规范 URL。这确保显示和跟踪的是正确的 URL，避免重复（例如 `ssi.inc` 与 `www.ssi.inc`）。
    - **值**: `https://ssi.inc`
@@ -54,6 +57,7 @@ type: note
    - **值**: `https://ssi.inc/public/og-preview.jpg`
 
 #### Twitter Card 标签
+
 1. `<meta name="twitter:card" content="summary_large_image">`
    - 定义 Twitter Card 的类型。`summary_large_image` 创建一个带有大图片、标题和描述的预览。
    - **值**: `summary_large_image`
@@ -167,6 +171,7 @@ type: note
 ### 这些元标签对 SSI 的重要性
 
 这些元标签反映了 SSI 的品牌和使命：
+
 - 一致的标题和描述（"Safe Superintelligence Inc." 和 "The world's first straight-shot SSI lab…"）强调了其对安全超智能的单一关注，与其公开信息保持一致。
 - Twitter 账号 `@ssi` 将网站与其官方 X 账户连接起来，公司成立公告等更新曾在该账户发布。
 - 图片 (`og-preview.jpg`) 很可能是一个品牌图形或徽标，尽管其内容未公开描述。它确保了网站在被分享时的视觉一致性。
@@ -176,6 +181,7 @@ type: note
 ---
 
 ### 局限性与说明
+
 - **缺乏公开细节**：SSI 的网站和公开信息非常稀少，反映了其早期阶段和隐匿状态。元标签提供了对其品牌的一瞥，但未涉及其技术方法。
 - **推测性质**：关于 SSI 估值和融资的说法基于报道，但具体细节（例如产品路线图）仍未披露。
 - **X 推文作为情绪指标**：X 上的推文暗示了对 SSI 潜力的兴奋，但这并非事实证据，可能包含推测。

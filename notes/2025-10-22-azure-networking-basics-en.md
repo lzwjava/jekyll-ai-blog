@@ -15,6 +15,7 @@ type: note
 Azure provides a scalable and secure networking environment through its **Virtual Network (VNet)** service, which is the core equivalent to AWS VPC. It creates a private, isolated space in the Azure cloud for your resources like VMs, App Services, or Kubernetes clusters. Below, I'll explain the key components (virtual network, gateways, subnets, etc.) with similarities and differences to AWS, structured similarly for easy comparison.
 
 #### Virtual Network (VNet)
+
 - **What it is**: The foundational isolated network in Azure, spanning a region and allowing resources to communicate privately. You define its address space with CIDR blocks (e.g., 10.0.0.0/16).
 - **Key features**:
   - Default outbound internet access for resources (unlike AWS, where it's opt-in).
@@ -25,6 +26,7 @@ Azure provides a scalable and secure networking environment through its **Virtua
 - **Example**: Like AWS VPC, it's your "private estate" in the cloud—you set the boundaries, but Azure handles some defaults like outbound internet.
 
 #### Subnets
+
 - **What they are**: Divisions of a VNet's address space, where resources are deployed. Each subnet is scoped to the VNet and can span all AZs in a region.
 - **Types**:
   - **Public subnet**: Resources can have public IPs for inbound/outbound internet (via Azure Load Balancer or public endpoints).
@@ -37,6 +39,7 @@ Azure provides a scalable and secure networking environment through its **Virtua
 - **Example**: Subnets are "districts" in your VNet city: public ones with street access (internet), private ones behind walls.
 
 #### Gateways
+
 Gateways in Azure handle external connectivity, but with some defaults differing from AWS.
 
 - **Internet Gateway equivalent**:
@@ -56,6 +59,7 @@ Gateways in Azure handle external connectivity, but with some defaults differing
   - **ExpressRoute Gateway**: Private, high-bandwidth links to on-premises (like AWS Direct Connect).
 
 #### Other Related Components ("Etc.")
+
 - **Route Tables**: Control subnet traffic flow (e.g., to internet or peered VNets). System defaults exist; custom ones override for specific routes. Similar to AWS route tables, but Azure propagates BGP routes dynamically from on-premises.
 - **Network Security Groups (NSGs)**: Stateful firewalls for subnets or resources, with rules by IP/port/protocol. Like a combo of AWS Security Groups (instance-level, stateful) and NACLs (subnet-level, but Azure's are stateful). Use Application Security Groups for logical tagging.
 - **VNet Peering**: Links VNets (same/different regions/accounts) for private traffic, like AWS VPC peering.
@@ -63,6 +67,7 @@ Gateways in Azure handle external connectivity, but with some defaults differing
 - **Network Virtual Appliances**: VM-based firewalls or routers in the VNet, similar to AWS Network Firewall.
 
 #### How It All Fits Together
+
 1. Create a VNet with CIDR.
 2. Add subnets (public/private) spanning AZs.
 3. Resources get default outbound internet; add public IPs/Load Balancers for inbound.

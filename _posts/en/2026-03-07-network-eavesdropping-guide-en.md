@@ -69,6 +69,7 @@ In the context of typical network threats, it is important to distinguish **窃�
 To prevent eavesdropping, organizations should first and foremost encrypt email, networks, and communications, as well as data at rest, in use, and in motion — that way, even if data is intercepted, the hacker will not be able to decrypt it without the encryption key.
 
 Other key prevention measures include:
+
 - Using VPNs for secure tunneling
 - Avoiding public/unsecured Wi-Fi networks
 - Deploying intrusion detection systems (IDS)

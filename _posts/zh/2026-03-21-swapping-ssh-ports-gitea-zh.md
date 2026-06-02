@@ -29,6 +29,7 @@ After:   Host SSH = 2222  |  Gitea SSH = 22
 #### 问题：仅编辑 sshd_config 不足以解决问题
 
 我编辑了 `/etc/ssh/sshd_config`：
+
 ```
 Port 2222
 ```
@@ -57,6 +58,7 @@ ListenStream=[::]:22
 #### 修复：覆盖 socket unit
 
 创建 systemd 覆盖：
+
 ```bash
 sudo mkdir -p /etc/systemd/system/ssh.socket.d
 
@@ -70,6 +72,7 @@ ListenStream=[::]:2222
 空 `ListenStream=` 至关重要 —— 它会**重置**列表，然后添加新条目。没有它，systemd 会尝试同时监听 22 和 2222。
 
 然后：
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl restart ssh.socket ssh.service
@@ -78,6 +81,7 @@ sudo systemctl restart ssh.socket ssh.service
 #### 问题：端口 2222 已被占用
 
 重启失败，错误信息：
+
 ```
 ssh.socket: Failed to create listening socket (0.0.0.0:2222): Address already in use
 ```
@@ -91,6 +95,7 @@ Gitea 的 Docker 容器通过 `docker-proxy` 占用了端口 2222。必须先停
 #### 修改 docker-compose.yml
 
 编辑 `/opt/gitea/docker-compose.yml`：
+
 ```yaml
 # Before:
 ports:
@@ -104,6 +109,7 @@ ports:
 ```
 
 同时更新环境变量：
+
 ```yaml
 # Before:
 - GITEA__server__SSH_PORT=2222
@@ -125,11 +131,13 @@ cd /opt/gitea && docker compose down
 ### 步骤 3：首先在 2222 上启动主机 SSH
 
 现在 2222 已空闲：
+
 ```bash
 sudo systemctl start ssh.socket ssh.service
 ```
 
 验证：
+
 ```bash
 sudo ss -tlnp | grep sshd
 # 0.0.0.0:2222 ← success!
@@ -145,10 +153,12 @@ cd /opt/gitea && docker compose up -d
 
 验证：
 {% raw %}
+
 ```bash
 docker ps --filter name=gitea --format "table {{.Names}}\t{{.Ports}}"
 # gitea   0.0.0.0:22->22/tcp, 0.0.0.0:3000->3000/tcp  ← success!
 ```
+
 {% endraw %}
 
 ---

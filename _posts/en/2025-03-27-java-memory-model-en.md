@@ -28,8 +28,8 @@ The JMM provides a framework to address these issues and ensures that concurrent
 
 The JMM defines an abstract relationship between threads and the main memory:
 
-1.  **Main Memory:** This is where all shared variables reside. It's like the central storage for all data that can be accessed by multiple threads.
-2.  **Working Memory (Local Cache):** Each thread has its own working memory (conceptually similar to CPU caches). When a thread needs to access a shared variable, it first copies the variable from main memory into its working memory. When the thread modifies the variable, it typically does so in its working memory, and the change is eventually written back to main memory.
+1. **Main Memory:** This is where all shared variables reside. It's like the central storage for all data that can be accessed by multiple threads.
+2. **Working Memory (Local Cache):** Each thread has its own working memory (conceptually similar to CPU caches). When a thread needs to access a shared variable, it first copies the variable from main memory into its working memory. When the thread modifies the variable, it typically does so in its working memory, and the change is eventually written back to main memory.
 
 **Key Challenges Addressed by the JMM:**
 
@@ -42,29 +42,29 @@ The "happens-before" relationship is the most fundamental concept in the JMM. It
 
 Here are some key "happens-before" rules defined by the JMM:
 
-1.  **Program Order Rule:** Within a single thread, each action in the program happens-before every action that comes later in the program's order.
+1. **Program Order Rule:** Within a single thread, each action in the program happens-before every action that comes later in the program's order.
 
-2.  **Monitor Lock Rule:** An unlock operation on a monitor (the lock associated with `synchronized` blocks or methods) happens-before every subsequent lock operation on the same monitor. This ensures that when a thread releases a lock, any changes it made within the synchronized block are visible to the next thread that acquires the same lock.
+2. **Monitor Lock Rule:** An unlock operation on a monitor (the lock associated with `synchronized` blocks or methods) happens-before every subsequent lock operation on the same monitor. This ensures that when a thread releases a lock, any changes it made within the synchronized block are visible to the next thread that acquires the same lock.
 
-3.  **Volatile Variable Rule:** A write operation to a `volatile` variable happens-before every subsequent read operation of the same variable. This guarantees that when a thread writes to a `volatile` variable, the value is immediately written back to main memory, and any other thread reading that variable will get the latest value.
+3. **Volatile Variable Rule:** A write operation to a `volatile` variable happens-before every subsequent read operation of the same variable. This guarantees that when a thread writes to a `volatile` variable, the value is immediately written back to main memory, and any other thread reading that variable will get the latest value.
 
-4.  **Thread Start Rule:** The start() method of a Thread object happens-before any action in the newly started thread.
+4. **Thread Start Rule:** The start() method of a Thread object happens-before any action in the newly started thread.
 
-5.  **Thread Termination Rule:** All actions in a thread, including writes to shared variables, happen-before the successful return from the join() method of that thread or before another thread detects that the thread has terminated (e.g., by checking `isAlive()`).
+5. **Thread Termination Rule:** All actions in a thread, including writes to shared variables, happen-before the successful return from the join() method of that thread or before another thread detects that the thread has terminated (e.g., by checking `isAlive()`).
 
-6.  **Transitivity:** If operation A happens-before operation B, and operation B happens-before operation C, then operation A happens-before operation C.
+6. **Transitivity:** If operation A happens-before operation B, and operation B happens-before operation C, then operation A happens-before operation C.
 
-7.  **Object Creation Rule:** The completion of an object's constructor happens-before the start of any other operation using that object.
+7. **Object Creation Rule:** The completion of an object's constructor happens-before the start of any other operation using that object.
 
 **Key Language Constructs and the JMM:**
 
 * **`volatile` Keyword:** Declaring a variable as `volatile` has two main effects related to the JMM:
-    * **Visibility:** Guarantees that all writes to this variable will be immediately written back to main memory, and all reads will fetch the latest value from main memory. This prevents threads from using stale cached values.
-    * **Prohibits Instruction Reordering (to a certain extent):** Prevents certain types of instruction reordering that could lead to incorrect behavior in multithreaded programs. Specifically, operations before a write to a `volatile` variable cannot be reordered after the write, and operations after a read from a `volatile` variable cannot be reordered before the read.
+  * **Visibility:** Guarantees that all writes to this variable will be immediately written back to main memory, and all reads will fetch the latest value from main memory. This prevents threads from using stale cached values.
+  * **Prohibits Instruction Reordering (to a certain extent):** Prevents certain types of instruction reordering that could lead to incorrect behavior in multithreaded programs. Specifically, operations before a write to a `volatile` variable cannot be reordered after the write, and operations after a read from a `volatile` variable cannot be reordered before the read.
 
 * **`synchronized` Keyword:** When a thread enters a `synchronized` block or method, it acquires a lock on the associated monitor. The JMM ensures:
-    * **Mutual Exclusion (Atomicity):** Only one thread can hold the lock for a particular monitor at any given time, ensuring that the code within the synchronized block is executed atomically with respect to other threads synchronizing on the same monitor.
-    * **Visibility:** When a thread releases the lock (by exiting the `synchronized` block or method), it effectively flushes any changes it made to shared variables within that block back to main memory. When another thread acquires the same lock, it will re-read the shared variables from main memory, ensuring that it sees the latest updates.
+  * **Mutual Exclusion (Atomicity):** Only one thread can hold the lock for a particular monitor at any given time, ensuring that the code within the synchronized block is executed atomically with respect to other threads synchronizing on the same monitor.
+  * **Visibility:** When a thread releases the lock (by exiting the `synchronized` block or method), it effectively flushes any changes it made to shared variables within that block back to main memory. When another thread acquires the same lock, it will re-read the shared variables from main memory, ensuring that it sees the latest updates.
 
 * **`final` Fields:** The JMM provides guarantees about the visibility of `final` fields. Once a `final` field is properly initialized in the constructor of an object, its value will be visible to all other threads without the need for explicit synchronization. This is because the write to a `final` field in the constructor happens-before any other thread can access the object.
 

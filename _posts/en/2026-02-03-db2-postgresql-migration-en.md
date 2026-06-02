@@ -17,10 +17,12 @@ Answer:
 Migrating from **IBM DB2** (typically DB2 LUW) to **PostgreSQL** is a common heterogeneous database migration that can bring significant long-term savings, primarily due to eliminating DB2's licensing and maintenance costs. However, the migration itself can be moderately to highly costly depending on your database complexity, especially if you heavily use stored procedures, DB2-specific SQL features, or have a large codebase.
 
 ### Is It Costly?
+
 - **Short-term costs** — Often yes, due to assessment, schema/data conversion, code changes, testing, and potential downtime. Costs include developer/DBA time, possible commercial tools (e.g., Ispirer Toolkit, AWS SCT), and testing environments.
 - **Long-term** — Usually **much cheaper**. PostgreSQL is free/open-source with no licensing fees (unlike DB2's PVU or per-user models), lower operational costs, and strong performance in many workloads. Many organizations report substantial savings after migration.
 
 The total cost depends on:
+
 - Database size (e.g., data volume, number of objects).
 - Number/complexity of stored procedures and functions.
 - Application code dependencies on DB2-specific features.
@@ -29,6 +31,7 @@ The total cost depends on:
 Simple migrations (mostly tables + basic SQL) can be low-cost; complex ones with hundreds of stored procedures can require significant effort (weeks to months).
 
 ### How to Migrate (Main Steps)
+
 1. **Assessment & Planning**
    Analyze schema, data types, stored procedures, triggers, functions, views, and application SQL for incompatibilities. Estimate effort and cost. Tools like AWS Schema Conversion Tool (SCT) can generate a migration assessment report.
 
@@ -82,6 +85,7 @@ Simple migrations (mostly tables + basic SQL) can be low-cost; complex ones with
    - Cutover with minimal downtime using replication tools.
 
 ### Recommendations
+
 - Start with a proof-of-concept on a subset of your schema.
 - Use automation tools to reduce manual work.
 - If on AWS, consider AWS SCT + DMS for a streamlined path to Aurora PostgreSQL.

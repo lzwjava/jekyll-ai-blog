@@ -16,11 +16,13 @@ Answer:
 ## Analysis of Your System
 
 From your `uname -a` output:
+
 ```
 Linux to 6.8.0-90-generic x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 Key facts:
+
 - **OS**: Linux (Ubuntu 22.04)
 - **Architecture**: `x86_64` (64-bit Intel/AMD)
 - **NOT**: Android, macOS, or ARM
@@ -46,6 +48,7 @@ Once you see the Linux files, here's how to choose among the `amd64` sub-variant
 | `linux-amd64-v3` | Requires AVX2 (2013+ CPUs) | Best performance on modern CPUs |
 
 To check which level your CPU supports:
+
 ```bash
 # Check for v2 support
 grep -m1 -c 'sse4_2' /proc/cpuinfo
@@ -53,6 +56,7 @@ grep -m1 -c 'sse4_2' /proc/cpuinfo
 # Check for v3 support (AVX2)
 grep -m1 -c 'avx2' /proc/cpuinfo
 ```
+
 If the output is `1`, your CPU supports that level.
 
 **For a safe and compatible choice**, stick with `mihomo-linux-amd64-v1-alpha-XXXXXXX.gz`.

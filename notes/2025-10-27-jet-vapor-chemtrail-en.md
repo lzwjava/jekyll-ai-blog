@@ -34,6 +34,7 @@ Additionally, note that the water produced by aircraft engines isn't abundant, s
 ---
 
 ### Recommended Posts from Yin Wang's Memo
+
 Here are English translations/summaries of the recommended articles listed on the page, in the order they appear:
 
 - **Simple Method to Cure Athlete's Foot**

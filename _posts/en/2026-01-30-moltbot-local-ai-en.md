@@ -35,6 +35,7 @@ Moltbot is a personal AI assistant that runs locally on your machine and connect
 ## How It Works
 
 Moltbot runs a Gateway control plane on your computer that connects messaging channels to an AI agent powered by models like Claude or GPT. The Gateway coordinates between:
+
 - Your messaging apps (WhatsApp, Telegram, etc.)
 - The AI model (Claude, GPT, or local models)
 - System tools (browser, files, commands)
@@ -63,6 +64,7 @@ Moltbot was built by Peter Steinberger and the open-source community for "Clawd,
 ## Use Cases
 
 People are using Moltbot for:
+
 - Email management and unsubscribing from unwanted emails
 - Calendar management and travel reminders
 - Automating coding tasks and workflows

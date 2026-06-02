@@ -14,12 +14,14 @@ type: note
 有两种方案：
 
 **方案 1 — 干净修复：** 卸载 pip 包，然后重新链接：
+
 ```sh
 pip uninstall huggingface-hub
 brew link hf
 ```
 
 **方案 2 — 强制覆盖：** 直接用 Homebrew 覆盖 pip 脚本：
+
 ```sh
 brew link --overwrite hf
 ```

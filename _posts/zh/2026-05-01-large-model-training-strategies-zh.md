@@ -37,10 +37,10 @@ GPT-3的训练语料库起始于45TB的压缩纯文本（解压后大约90TB）�
 
 **你应该关注的关键预制数据集，而不是自己原始抓取所有内容：**
 
--   **FineWeb-edu** —— 1.5万亿个token，压缩后9TB —— 一个高质量的教育性子集，质量和大小比例极佳，托管在Hugging Face上（`HuggingFaceFW/fineweb-edu`）。
--   **The Pile** —— 800GB，经过整理，被广泛使用
--   **RedPajama** —— 1.2万亿个token
--   **RefinedWeb** —— 5万亿+个token
+- **FineWeb-edu** —— 1.5万亿个token，压缩后9TB —— 一个高质量的教育性子集，质量和大小比例极佳，托管在Hugging Face上（`HuggingFaceFW/fineweb-edu`）。
+- **The Pile** —— 800GB，经过整理，被广泛使用
+- **RedPajama** —— 1.2万亿个token
+- **RefinedWeb** —— 5万亿+个token
 
 这些都是经过预过滤和去重的，能为你节省大量的预处理工作。
 
@@ -51,9 +51,11 @@ GPT-3的训练语料库起始于45TB的压缩纯文本（解压后大约90TB）�
 你考虑这一点很正确。以下是实际的策略：
 
 ### 方案 A: 使用已有的开源数据集 (最佳投资回报率)
+
 Common Crawl包含每月发布的PB级别的原始网页数据。GPT-3、LLaMA、OpenLLaMA和T5在预训练中都使用了它。你可以直接从 `commoncrawl.org` 下载特定的月度快照——他们通过AWS提供免费的S3访问，这是最便宜的途径。
 
 ### 方案 B: 使用 Hugging Face `datasets` 库进行流式传输
+
 你不需要一次性下载10TB数据。使用Hugging Face的流式API——可以实时处理数据，而无需在本地存储所有内容。这完全避免了用于训练目的的带宽问题。
 
 ```python
@@ -62,15 +64,17 @@ ds = load_dataset("HuggingFaceFW/fineweb-edu", streaming=True, split="train")
 ```
 
 ### 方案 C: 使用具有无限内部带宽的VPS/服务器 (你的DMIT方案)
+
 你关于DMIT的想法用于批量下载是很好的：
 
--   使用一台**具有无限或高额度内部带宽**的VPS，从Hugging Face / Common Crawl S3下载数据集
--   然后通过**局域网/硬盘拷贝**传输到本地机器（不消耗外部配额）
--   对于10TB数据，硬盘成本约为$10/TB，那么**存储硬件成本大约为$100**
+- 使用一台**具有无限或高额度内部带宽**的VPS，从Hugging Face / Common Crawl S3下载数据集
+- 然后通过**局域网/硬盘拷贝**传输到本地机器（不消耗外部配额）
+- 对于10TB数据，硬盘成本约为$10/TB，那么**存储硬件成本大约为$100**
 
 在eBay或亚马逊上可以找到约€10/TB的二手硬盘——只需要注意经销商宣称的“0小时使用时间”，并考虑到有些硬盘可能在运输中损坏。
 
 ### 方案 D: 向朋友/研究小组请求直接硬盘拷贝
+
 这是完全可行的。学术实验室和机器学习社区经常出于这个原因直接共享硬盘。围绕Hugging Face的机器学习社区在这方面非常乐于合作。
 
 ---
@@ -92,9 +96,9 @@ ds = load_dataset("HuggingFaceFW/fineweb-edu", streaming=True, split="train")
 
 **参考文献：**
 
--   [大语言模型解析 Part 2: 数据收集](https://joseparreogarcia.substack.com/p/llms-explained-part-2-data-collection-cleaning)
--   [用于大语言训练的开源数据集 - Kili Technology](https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models)
--   [LLM训练数据集 - glennklockwood.com](https://www.glennklockwood.com/garden/LLM-training-datasets)
--   [在家进行基础性LLM预训练 - Medium](https://medium.com/@adrien_morvan/foundational-llm-pre-training-on-your-hardware-at-home-0dd4f2175ea5)
--   [LLMDataHub - GitHub](https://github.com/Zjh-819/LLMDataHub)
--   [FineWeb-edu on Hugging Face](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)
+- [大语言模型解析 Part 2: 数据收集](https://joseparreogarcia.substack.com/p/llms-explained-part-2-data-collection-cleaning)
+- [用于大语言训练的开源数据集 - Kili Technology](https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models)
+- [LLM训练数据集 - glennklockwood.com](https://www.glennklockwood.com/garden/LLM-training-datasets)
+- [在家进行基础性LLM预训练 - Medium](https://medium.com/@adrien_morvan/foundational-llm-pre-training-on-your-hardware-at-home-0dd4f2175ea5)
+- [LLMDataHub - GitHub](https://github.com/Zjh-819/LLMDataHub)
+- [FineWeb-edu on Hugging Face](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)

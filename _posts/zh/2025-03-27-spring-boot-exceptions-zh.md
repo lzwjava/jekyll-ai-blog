@@ -146,6 +146,7 @@ type: note
 1. **全局异常处理**：
    - 使用 `@ControllerAdvice` 和 `@ExceptionHandler` 在整个应用中一致地捕获和处理异常。
    - 示例：
+
      ```java
      @ControllerAdvice
      public class GlobalExceptionHandler {

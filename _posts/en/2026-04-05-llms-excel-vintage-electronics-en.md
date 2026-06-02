@@ -59,6 +59,7 @@ An AI agent like OpenClaw can help you **act** on that knowledge:
 - **Help with reverse engineering** circuit boards
 
 The combination of:
+
 - Deep LLM knowledge of classic electronics (baked into model weights)
 - Agent ability to search current sources (for part availability, substitutes)
 
@@ -77,6 +78,7 @@ So always **verify** critical specs (voltages, pinouts, tolerances) against orig
 ### 🎯 Bottom Line
 
 Yes, you are absolutely right:
+
 - **Old electronics** → LLMs are excellent, knowledge is deep and reliable
 - **New consumer electronics** → LLMs struggle, training data is sparse or absent
 - **AI agents** → Bridge the gap by combining model knowledge + live web search

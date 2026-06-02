@@ -14,10 +14,12 @@ type: note
 
 在 Android 开发中，处理 `Button`（或任何 `View`）点击事件最常用且推荐的方式是实现或设置 **`View.OnClickListener`**。
 
-### 为什么 B 是正确的：
+### 为什么 B 是正确的
+
 - `View.OnClickListener` 仅包含一个方法：`onClick(View v)`
 - 该方法专门用于处理标准点击事件
 - 使用示例：
+
   ```java
   button.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -26,12 +28,15 @@ type: note
       }
   });
   ```
+
   或使用 lambda 表达式（Kotlin/Java 8+）：
+
   ```java
   button.setOnClickListener(v -> { /* 处理点击事件 */ });
   ```
 
-### 为什么其他选项不是最佳选择：
+### 为什么其他选项不是最佳选择
+
 - **A. OnTouchListener** – 处理底层触摸事件（ACTION_DOWN、ACTION_UP 等）。对于简单点击而言过于复杂，且可能干扰手势检测
 - **C. OnLongClickListener** – 仅适用于长按事件，不适用于常规点击
 - **D. OnKeyListener** – 用于处理物理/软键盘按键事件，不适用于视图点击

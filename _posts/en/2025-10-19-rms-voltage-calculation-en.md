@@ -24,6 +24,7 @@ The root mean square (RMS) voltage, \\( V_{RMS} \\), represents the effective va
 3. **Numerical approximation**: Since \\( \sqrt{2} \approx 1.414 \\), then \\( \frac{1}{\sqrt{2}} \approx 0.707 \\). Thus, \\( V_{RMS} \approx 0.707 \times V_{max} \\).
 
 This confirms option **B**. The other options are incorrect:
+
 - A overestimates (ignores averaging).
 - C inverts the factor (that's \\( V_{max} = \sqrt{2} \times V_{RMS} \\)).
 - D underestimates (that's the average value for a full-wave rectified sine, not RMS).

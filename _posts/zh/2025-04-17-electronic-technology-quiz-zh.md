@@ -81,23 +81,8 @@ type: note
 
 <div>⁂</div>
 
-[^1]: https://test.sanfoundry.com/analog-electronics-tests/
-[^2]: https://instrumentationtools.com/quiz-questions-on-fundamentals-of-digital-systems/
-[^3]: https://en.wikiversity.org/wiki/Electric_Circuit_Analysis/Circuit_Analysis_Quiz_1
-[^4]: https://www.watelectrical.com/mcq/operational-amplifier/
-[^5]: https://testbook.com/objective-questions/mcq-on-combinational-logic-circuits--5eea6a1339140f30f369eedc
-[^6]: https://testbook.com/objective-questions/mcq-on-sequential-circuits--5eea6a1439140f30f369f2a5
-[^7]: https://www.watelectronics.com/mcq/analog-electronics/
-[^8]: https://www.dailyrecruitment.in/analog-electronics-online-test-questions-and-answer-pdf-download/
-[^9]: https://byjusexamprep.com/practice/quiz/electrical-engineering-exams/analog-circuits
-[^10]: https://www.sanfoundry.com/1000-analog-circuits-questions-answers/
-[^11]: https://instrumentationtools.com/programmable-logic-controller-questions-answers/
-[^12]: https://instrumentationtools.com/analog-electronics-objective-questions-set-4/
-[^13]: https://byjus.com/physics/digital-electronics-questions/
-[^14]: https://www.slideserve.com/rhenderson/ee211-quizzes-powerpoint-ppt-presentation
-[^15]: https://testbook.com/objective-questions/mcq-on-operational-amplifiers--5eea6a1339140f30f369eeec
-[^16]: https://study.com/academy/practice/quiz-worksheet-designing-combinational-circuits.html
-[^17]: https://www.geeksforgeeks.org/quizzes/sequential-circuits/
-[^18]: https://take.quiz-maker.com/QSI0J0D
-[^19]: https://instrumentationtools.com/analog-electronics-objective-questions-set-5/
-[^20]: https://quizgecko.com/learn/digital-electronics-principles-and-applications-quiz-vzdvxh
+[^2]: <https://instrumentationtools.com/quiz-questions-on-fundamentals-of-digital-systems/>
+[^3]: <https://en.wikiversity.org/wiki/Electric_Circuit_Analysis/Circuit_Analysis_Quiz_1>
+[^4]: <https://www.watelectrical.com/mcq/operational-amplifier/>
+[^5]: <https://testbook.com/objective-questions/mcq-on-combinational-logic-circuits--5eea6a1339140f30f369eedc>
+[^6]: <https://testbook.com/objective-questions/mcq-on-sequential-circuits--5eea6a1439140f30f369f2a5>

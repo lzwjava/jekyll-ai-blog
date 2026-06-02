@@ -12,7 +12,7 @@ type: note
 
 以下是配置从内部（企业）GitHub服务器（如GitHub Enterprise或自托管的GitLab/Stash/Bitbucket Server等）加载`Jenkinsfile`的Jenkins流水线方法。
 
-### 主要有两种方式：
+### 主要有两种方式
 
   1. 来自SCM的流水线脚本（真实项目推荐使用）
   2. 流水线脚本（内联）– 不适用于此场景

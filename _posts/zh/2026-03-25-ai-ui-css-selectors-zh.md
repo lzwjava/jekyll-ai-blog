@@ -20,12 +20,14 @@ type: note
 ## 为什么在 AI Prompts 中 CSS Selector 优于 完整 HTML
 
 ### 复制完整 HTML 的问题
+
 - 包含深度嵌套的子元素、孙辈元素以及无关的相邻元素
 - 导致 prompt 臃肿，使实际的问题描述超出模型的 Focus window
 - 暴露无关的结构，可能会干扰模型的修复方案
 - 可能包含无助于解决问题的动态/生成的 class names
 
 ### 复制 selector 的好处
+
 - 精确指向 AI 需要定位的 **exact element**
 - 保持 prompt 简洁且聚焦
 - AI（Copilot/Claude）已经理解 DOM structure —— 它只需要一个参考点
@@ -36,17 +38,21 @@ type: note
 ## 如何从 DevTools Console 复制 Selector
 
 ### 方法 1 — 在 Elements 面板中右键点击
+
 1. 打开 DevTools → **Elements** 标签页
 2. 右键点击元素 → **Copy** → **Copy selector**
 
 ### 方法 2 — Console 查询
+
 ```js
 // 在粘贴前验证 selector 是否有效
 document.querySelector('your-selector-here')
 ```
 
 ### 方法 3 — 复制 JS path
+
 右键点击元素 → **Copy** → **Copy JS path** —— 会得到类似以下内容：
+
 ```js
 document.querySelector("#app > div.header > button.submit-btn")
 ```

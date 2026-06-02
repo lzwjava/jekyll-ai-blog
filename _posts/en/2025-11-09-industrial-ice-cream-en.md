@@ -54,6 +54,7 @@ Mixue's ice cream melts similarly to standard soft-serve but can hold its shape 
 If you're buying from a Mixue store in China, ask staff for any local tips, as their soft-serve is best enjoyed fresh!
 
 #### References
+
 - [Ice Cream Production Steps](https://www.milkfacts.info/Milk%20Processing/Ice%20Cream%20Production.htm)
 - [Ben & Jerry's Manufacturing Process](https://www.benjerry.com/about-us/how-we-make-ice-cream)
 - [IDFA Ice Cream Storage Guidelines](https://www.idfa.org/tips-on-storing-handling-ice-cream)

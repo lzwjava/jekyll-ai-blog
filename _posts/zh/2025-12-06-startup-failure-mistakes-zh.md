@@ -45,6 +45,7 @@ Y Combinator 的创始人 Paul Graham 撰写了大量关于创业公司为何失
 因此，虽然完整的 18 条错误清单仍被广泛引用，Paul 自己现在强调，几乎所有的失败都归结为没有制造出足够多的人迫切需要的东西，再加上未能足够快地根据用户反馈进行迭代。
 
 参考资料：
+
 - [导致创业公司失败的 18 个错误 – Paul Graham (2009)](http://paulgraham.com/startupmistakes.html)
 - [如何创办一家创业公司 – Paul Graham (2005，更新)](http://paulgraham.com/start.html)
 - [创业 = 增长 – Paul Graham (2012)](http://paulgraham.com/growth.html)

@@ -18,7 +18,7 @@ Yes, using this SSH tunnel setup should allow the full Control UI (including the
 ### Why this setup fixes the original WebSocket issue and enables copy functionality
 
 - **Origin becomes localhost (secure context)**
-  When you run `ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36` on your local machine and keep the tunnel open, then open your browser to `http://localhost:18789` (or `http://127.0.0.1:18789`), the browser sees the page as coming from **http://localhost:18789**.
+  When you run `ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36` on your local machine and keep the tunnel open, then open your browser to `http://localhost:18789` (or `http://127.0.0.1:18789`), the browser sees the page as coming from **<http://localhost:18789>**.
   OpenClaw gateway treats `localhost` (127.0.0.1) as a **loopback / secure context**, even over plain HTTP. This bypasses several strict security checks that apply to non-loopback / remote IPs (like your original `http://192.168.1.36:18789` access).
 
 - **Key security checks that get relaxed automatically**
@@ -35,9 +35,11 @@ Yes, using this SSH tunnel setup should allow the full Control UI (including the
 ### How to use it correctly
 
 1. On your local computer, open a terminal and run:
+
    ```bash
    ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36
    ```
+
    - Keep this terminal open (the tunnel dies if you close it).
    - You may need to enter the password or use key-based auth.
 
@@ -52,12 +54,14 @@ Yes, using this SSH tunnel setup should allow the full Control UI (including the
 ### Optional: Make it more convenient
 
 - Add to your `~/.ssh/config` for easier reconnect:
+
   ```
   Host openclaw-tunnel
       HostName 192.168.1.36
       User lzw
       LocalForward 18789 127.0.0.1:18789
   ```
+
   Then just run: `ssh -N openclaw-tunnel`
 
 - For persistent tunnel (auto-reconnect), use `autossh` if installed:
@@ -65,6 +69,7 @@ Yes, using this SSH tunnel setup should allow the full Control UI (including the
 
 - If you still get "origin not allowed" (rare with localhost):
   Run on the server (192.168.1.36):
+
   ```bash
   openclaw config set gateway.controlUi.allowedOrigins '["http://localhost:18789", "http://127.0.0.1:18789"]'
   openclaw gateway restart

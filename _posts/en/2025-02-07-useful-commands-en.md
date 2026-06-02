@@ -79,7 +79,6 @@ tmux list-sessions
 history > history.txt
 ```
 
-
 ## macOS
 
 ```bash

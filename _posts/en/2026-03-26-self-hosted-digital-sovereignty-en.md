@@ -73,6 +73,7 @@ This stack represents **digital sovereignty** — a philosophy that says:
 > *"I don't need to rent my infrastructure from Google, Microsoft, or Amazon. I can build, run, and own it myself."*
 
 This is especially powerful for:
+
 - Developers & technical users
 - Small businesses avoiding SaaS costs
 - Privacy-conscious individuals

@@ -58,9 +58,11 @@ TabsKiller.app **不在** /Applications/ 中。
    - 从/Applications/启动一次以注册扩展
 
 3. 或者快速修复：在Xcode中构建，然后手动将构建的应用复制过去：
+
    ```bash
    cp -R ~/Library/Developer/Xcode/DerivedData/TabsKiller-*/Build/Products/Debug/TabsKiller.app /Applications/
    ```
+
    然后从/Applications/启动一次。
 
 4. 如果目标系统是macOS 26，将manifest.json更新为Manifest V3。

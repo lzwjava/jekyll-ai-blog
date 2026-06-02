@@ -17,14 +17,16 @@ This is the README.md from github project [https://github.com/lzwjava/flower-rec
 
 This is a flower recognition Android application designed to help users identify flowers by capturing photos and drawing circles to aid in recognition.
 
-#### Features:
+#### Features
+
 - **Capture Photos**: Users can take pictures of flowers directly within the app.
 - **Drawing Functionality**: Ability to draw circles and annotations on flower images to assist in recognition.
 - **Authentication**: Secure user authentication with a login screen.
 - **Result Display**: Display recognition results in a user-friendly interface.
 - **Material Design**: Implementation of material design principles for a modern and intuitive user experience.
 
-#### File Structure:
+#### File Structure
+
 ```
 └── com
     └── lzw
@@ -78,7 +80,8 @@ This is a flower recognition Android application designed to help users identify
                 └── Web.java
 ```
 
-#### Components:
+#### Components
+
 - **Activities**: Contains classes for handling different app activities such as login, photo capture, and splash screen.
 - **Adapters**: Handles the display of photos and recognition results.
 - **AVObject**: Represents photo objects with associated metadata.
@@ -88,10 +91,12 @@ This is a flower recognition Android application designed to help users identify
 - **Services**: Handles background tasks and data manipulation related to photos.
 - **Utils**: Contains utility classes for various tasks such as image manipulation and logging.
 
-#### Usage:
+#### Usage
+
 1. Clone the repository.
 2. Open the project in Android Studio.
 3. Build and run the application on an Android device or emulator.
 
-#### License:
+#### License
+
 This project is licensed under the [MIT License](LICENSE).

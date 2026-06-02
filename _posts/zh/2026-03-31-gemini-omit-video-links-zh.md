@@ -26,4 +26,5 @@ type: note
 * **专注于内容：** 你将直接获得答案，而不会受到视频缩略图的视觉干扰。
 
 References:
+
 * [Manage your Gemini Apps activity and data](https://support.google.com/gemini/answer/13594968)

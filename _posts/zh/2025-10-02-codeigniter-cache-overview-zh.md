@@ -19,6 +19,7 @@ CodeIgniter 的 `CI_Cache` 类是一个灵活的缓存系统，为多种后端�
 ### 支持的缓存驱动与适配器
 
 该类支持多种驱动，定义在 `$valid_drivers` 中：
+
 - **apc**：使用 PHP 内置的 APC（Alternative PHP Cache）实现内存存储（高速、内置）。
 - **dummy**：空操作占位驱动（始终返回 TRUE 或 FALSE），用于开发测试或作为降级方案。
 - **file**：将数据序列化后存储到指定目录（通过 `$_cache_path` 配置），适用于低流量场景。

@@ -13,14 +13,18 @@ type: note
 Yes, even young high-earning professionals in Hong Kong—like financial analysts and IT engineers pulling in HK$600,000 to HK$1 million annually—have faced significant struggles with housing affordability over the last two decades (2005–2025). This is largely due to sky-high property prices relative to incomes, substantial downpayment requirements (often 20–50% depending on loan-to-value ratios), and mortgage payments that can eat up 40–60% of monthly take-home pay during peak rate periods. While recent price drops (about 28% from 2021 highs) and slight rate easing have helped a bit, the overall burden remains crushing for many in their 20s and 30s, pushing them toward tiny "nano-flats," subdivided units, or delayed homeownership altogether.
 
 ### Salary Context for These Roles
+
 Entry-to-mid-level financial analysts and IT/software engineers typically start around HK$300,000–500,000 per year, but with 3–7 years of experience (common for "young talents"), salaries often hit HK$600,000–800,000, and top performers or seniors can reach HK$1 million or more, including bonuses. For example:
+
 - Financial analysts: Average around HK$540,000–640,000 annually.
 - IT engineers/software developers: Similar range, HK$540,000–740,000 for mid-level roles.
 
 These are solid incomes—well above the city median of about HK$504,000 per household—but they don't stretch far in a market where even a modest 40sqm flat costs HK$5–7 million today.
 
 ### Housing Affordability Over the Last 20 Years
+
 Hong Kong has consistently ranked as the world's least affordable housing market, with the price-to-income ratio (how many years of gross income it takes to buy a median home) hovering at extreme levels:
+
 - **2005–2010**: Ratio climbed from ~10x to 12x amid post-SARS recovery and low rates, making entry-level buying tough even for dual-income couples.
 - **2011–2018**: Peaked at 20x+ during the boom, fueled by speculation and limited supply; young pros often needed family help for downpayments.
 - **2019–2021**: Hit a record 23.2x amid pandemic distortions and low rates, exacerbating the "sandwich class" squeeze (middle-income earners priced out of public housing).
@@ -29,7 +33,9 @@ Hong Kong has consistently ranked as the world's least affordable housing market
 For a single earner at HK$600k–1M, this means a basic flat requires 5–10 years of full income (before downpayment), but real-world factors like stamp duties, agent fees, and maintenance push it higher. Homeownership rates for under-35s are under 10%, with many renting at 30–50% of income or sharing cramped spaces.
 
 ### Mortgage Pressures
+
 Mortgages in HK are pegged to HIBOR (Hong Kong Interbank Offered Rate) plus a spread (typically 1.3–2%), tracking US Fed moves closely. Over the last 20 years:
+
 - **2005–2008**: Rates ~4–6%, manageable but prices were rising fast.
 - **2009–2021**: Rock-bottom at 1–2.5% post-GFC, encouraging debt but inflating bubbles; monthly payments for a HK$5M mortgage (70% LTV) were ~HK$15,000–20,000.
 - **2022–2025**: Spiked to 4.5–5.75% with Fed hikes, pushing payments to HK$25,000–30,000 on the same loan—often 40–50% of a HK$50,000 monthly salary. Recent dips to ~3.5–4% (as of Oct 2025) offer relief, but refixing or new loans still sting.

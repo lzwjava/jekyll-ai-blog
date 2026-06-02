@@ -23,12 +23,14 @@ type: note
 | **Genshin Impact** | Unity         | 未使用虚幻引擎。由米哈游（HoYoverse）使用高度定制的Unity引擎开发。这使其能够在移动、PC和主机平台上实现开放世界功能。米哈游未来的项目可能会转向Unreal Engine 5，但《原神》仍保留在Unity上。 |
 
 **底层技术总结：**
+
 - **Unreal Engine**：非常适合高保真图形和射击游戏，例如PUBG Mobile，具有强大的移动优化能力。
 - **Unity**：由于其轻量级、易于进行跨平台部署（Android/iOS）和资源生态系统，非常适合像《王者荣耀》和《原神》这样的移动MOBA和开放世界游戏。
 
 截至2025年末，暂无重大引擎变更报告。
 
 **参考资料：**
+
 - [PUBG Mobile - Wikipedia](https://en.wikipedia.org/wiki/PUBG_Mobile)
 - [PUBG MOBILE \| LIGHTSPEED STUDIOS](https://www.lightspeed-studios.com/gamedetail/pubg-mobile.html)
 - [Arena of Valor - Official Arena of Valor Wiki](https://arenaofvalor.fandom.com/wiki/Arena_of_Valor)

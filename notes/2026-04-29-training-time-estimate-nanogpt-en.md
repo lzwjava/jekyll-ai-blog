@@ -16,6 +16,7 @@ Answer:
 ## 📋 Config Analysis
 
 ### Tokens Per Iteration (Confirmed)
+
 ```
 tokens_per_iter = batch_size × block_size × gradient_accumulation_steps
                = 8 × 1024 × 64
@@ -23,6 +24,7 @@ tokens_per_iter = batch_size × block_size × gradient_accumulation_steps
 ```
 
 ### Total Tokens That Will Be Seen
+
 ```
 total_tokens = 524,288 × 12,000 = ~6.29 Billion tokens
 ```
@@ -32,6 +34,7 @@ total_tokens = 524,288 × 12,000 = ~6.29 Billion tokens
 ## ⏱️ Precise Time Calculation
 
 From your log:
+
 - **Normal iter time**: ~9,330 ms = 9.33s
 - **Eval iter time** (every 500 steps): ~29,164 ms = 29.16s
 - **Current position**: iter 1,800

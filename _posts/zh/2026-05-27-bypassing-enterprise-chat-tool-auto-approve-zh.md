@@ -20,6 +20,7 @@ type: note
 **文件 1**：`src/vs/workbench/contrib/chat/browser/tools/languageModelToolsService.ts`
 
 第1128-1131行 — 门控函数：
+
 ```typescript
 private _isAutoApprovePolicyRestricted(): boolean {
     const inspected = this._configurationService.inspect<boolean>(ChatConfiguration.GlobalAutoApprove);
@@ -28,6 +29,7 @@ private _isAutoApprovePolicyRestricted(): boolean {
 ```
 
 第1209行 — 自动确认工具调用前的实际检查：
+
 ```typescript
 if (chatSessionResource && !this._isAutoApprovePolicyRestricted() && this._isSessionInAutoApproveLevel(chatSessionResource)) {
     return { type: ToolConfirmKind.ConfirmationNotNeeded, reason: 'auto-approve-all' };
@@ -37,6 +39,7 @@ if (chatSessionResource && !this._isAutoApprovePolicyRestricted() && this._isSes
 **文件 2**：`src/vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/terminalToolAutoApprove.ts`
 
 第26-29行 — 终端工具的相同模式：
+
 ```typescript
 const inspected = configurationService.inspect<boolean>(ChatConfiguration.GlobalAutoApprove);
 if (inspected.policyValue === false) {
@@ -47,6 +50,7 @@ if (inspected.policyValue === false) {
 **文件 3**：`src/vs/workbench/contrib/chat/browser/widget/input/permissionPickerActionItem.ts`
 
 第72行 — 在UI中将“绕过批准”按钮置灰：
+
 ```typescript
 const isAutoApprovePolicyRestricted = () => configurationService.inspect<boolean>(ChatConfiguration.GlobalAutoApprove).policyValue === false;
 ```

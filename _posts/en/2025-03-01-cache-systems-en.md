@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Key Points
+
 - It seems likely that the video discusses essential cache systems for developers, covering types like client-side and CDN caches, strategies such as cache aside and write-through, and operational challenges like cache avalanches.
 - Research suggests the video includes practical examples, such as using browser caches for web assets and CDNs for distributed content, with strategies to optimize performance.
 - The evidence leans toward the video addressing both theoretical concepts and real-world applications, with an unexpected focus on operational challenges like cache stampedes, which are critical for large-scale systems.
@@ -20,6 +21,7 @@ Caching is a technique that stores frequently accessed data in a faster location
 ### Types of Caches
 
 The video probably covers various cache types, including:
+
 - **Client-Side Cache**: Stores data on the user's device, like browser caches for HTML and images, reducing server requests.
 - **Load Balancer Cache**: Helps distribute traffic by caching responses, easing backend server load.
 - **CDN Cache**: Distributes content across global servers, like [Cloudflare](https://www.cloudflare.com/), to reduce latency for users.
@@ -28,6 +30,7 @@ The video probably covers various cache types, including:
 ### Caching Strategies
 
 It seems likely the video discusses strategies for reading and writing data, such as:
+
 - **Cache Aside**: Check the cache first, fetch from the database on a miss, ideal for read-heavy systems.
 - **Read Through**: The cache handles misses by fetching from the database, simplifying application logic.
 - **Write Around, Write Back, and Write Through**: Different approaches to ensure data consistency, like writing to both cache and database simultaneously for write-through.
@@ -35,6 +38,7 @@ It seems likely the video discusses strategies for reading and writing data, suc
 ### Operational Challenges
 
 The video likely addresses challenges like:
+
 - **Cache Avalanche**: When many cache entries expire at once, causing a surge in database queries, mitigated by random expiration times.
 - **Cache Stampede**: Multiple requests trying to refresh the same cache entry, solved with locking mechanisms.
 - **Data Inconsistency**: Ensuring cache and database alignment, using strategies like write-through for consistency.
@@ -81,6 +85,7 @@ These details, primarily from 2023 blog posts, reflect typical caching practices
 The cache systems discussed are not fixed and can vary based on specific application needs. For instance, a 2023 blog post by ByteByteGo, "A Crash Course in Caching - Part 1," noted that cache hit ratios, measured as the number of cache hits divided by requests, are crucial for performance, with higher ratios indicating better efficiency. This is particularly relevant for high-traffic websites, where client-side and CDN caches, like those provided by [Cloudflare](https://www.cloudflare.com/), can significantly reduce latency.
 
 In practice, these systems guide several aspects:
+
 - **Performance Optimization**: Minimizing operations with high latency, like database queries, can improve application speed. For example, using cache aside for read-heavy workloads reduces DB load, as seen in e-commerce platforms caching product details.
 - **Trade-off Decisions**: Developers often face choices, such as using write-through for consistency versus write-back for speed. Knowing that write-through ensures immediate consistency but can slow down writes can inform such decisions.
 - **User Experience**: In web applications, CDN caches, like those from [Cloudflare](https://www.cloudflare.com/), can affect page load times, impacting user satisfaction, especially for global audiences.
@@ -98,6 +103,7 @@ For developers, understanding cache systems provides a mental model for performa
 This analysis, grounded in the video's likely content and supplemented by extensive blog research, underscores the enduring relevance of cache systems in computing, with a call to adapt to technological shifts for optimal system design.
 
 #### Key Citations
+
 - [EP54: Cache Systems Every Developer Should Know Blog Post](https://blog.bytebytego.com/p/ep54-cache-systems-every-developer)
 - [A Crash Course in Caching - Part 1 Blog Post](https://blog.bytebytego.com/p/a-crash-course-in-caching-part-1)
 - [Top Caching Strategies Blog Post](https://blog.bytebytego.com/p/top-caching-strategies)

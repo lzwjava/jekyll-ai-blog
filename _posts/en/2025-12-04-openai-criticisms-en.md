@@ -30,6 +30,7 @@ Unpopular opinions about OpenAI often stem from frustrations with its shift from
 These opinions highlight a growing divide: OpenAI's early magic has faded for many, replaced by skepticism about its direction. While some defend its consumer focus, the chorus of discontent suggests the company must rebuild trust to stay dominant.
 
 **References:**
+
 - [Reddit: Does anybody else despise OpenAI?](https://www.reddit.com/r/MachineLearning/comments/13kfxzy/d_does_anybody_else_despise_openai/)
 - [Reddit: Unpopular opinion: AI is still very far from being able to generate actual human-like outputs](https://www.reddit.com/r/OpenAI/comments/1aje68s/unpopular_opinion_ai_is_still_very_far_from_being/)
 - [Reddit: I honestly can’t believe into what kind of trash OpenAI has turned lately](https://www.reddit.com/r/OpenAI/comments/1os85np/i_honestly_cant_believe_into_what_kind_of_trash/)

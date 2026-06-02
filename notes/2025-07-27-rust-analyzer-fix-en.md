@@ -16,16 +16,19 @@ This directory name (`lzwjava.github.io`) suggests it might be a GitHub Pages si
 Assuming you're using VS Code (the most common editor for this issue; if not, see notes below), here are steps to fix it:
 
 ### 1. **Verify and Open the Correct Workspace Folder**
-   - Ensure you're opening the folder that contains your Rust project's `Cargo.toml` file as the VS Code workspace root.
-   - If your project is in a subdirectory (e.g., `/Users/lzwjava/projects/lzwjava.github.io/my-rust-app`), open that subfolder instead via **File > Open Folder**.
-   - Restart VS Code after changing the workspace.
+
+- Ensure you're opening the folder that contains your Rust project's `Cargo.toml` file as the VS Code workspace root.
+- If your project is in a subdirectory (e.g., `/Users/lzwjava/projects/lzwjava.github.io/my-rust-app`), open that subfolder instead via **File > Open Folder**.
+- Restart VS Code after changing the workspace.
 
 ### 2. **Configure Linked Projects in rust-analyzer Settings**
-   - If `Cargo.toml` exists but isn't at the workspace root (e.g., in a subfolder), tell rust-analyzer where to find it:
-     - Open VS Code settings (**Code > Preferences > Settings** or Cmd+, on Mac).
-     - Search for "rust-analyzer".
-     - Under **Rust-analyzer > Server: Extra Env** or directly in the extension settings, find **Linked Projects**.
-     - Set it to an array pointing to your `Cargo.toml` path(s). For example, add this to your workspace's `settings.json` (via **Preferences: Open Workspace Settings (JSON)**):
+
+- If `Cargo.toml` exists but isn't at the workspace root (e.g., in a subfolder), tell rust-analyzer where to find it:
+  - Open VS Code settings (**Code > Preferences > Settings** or Cmd+, on Mac).
+  - Search for "rust-analyzer".
+  - Under **Rust-analyzer > Server: Extra Env** or directly in the extension settings, find **Linked Projects**.
+  - Set it to an array pointing to your `Cargo.toml` path(s). For example, add this to your workspace's `settings.json` (via **Preferences: Open Workspace Settings (JSON)**):
+
        ```
        {
          "rust-analyzer.linkedProjects": [
@@ -33,22 +36,26 @@ Assuming you're using VS Code (the most common editor for this issue; if not, se
          ]
        }
        ```
+
        Replace `./path/to/your/Cargo.toml` with the relative path from your workspace root.
-     - Save and reload the window (**Developer: Reload Window** via Command Palette, Cmd+Shift+P).
+  - Save and reload the window (**Developer: Reload Window** via Command Palette, Cmd+Shift+P).
 
 ### 3. **If This Isn't a Rust Project**
-   - Disable rust-analyzer for this workspace:
-     - Go to the Extensions view (Cmd+Shift+X).
-     - Find "rust-analyzer" > Click the gear icon > **Disable (Workspace)**.
-   - Alternatively, uninstall the extension if you don't need it at all.
+
+- Disable rust-analyzer for this workspace:
+  - Go to the Extensions view (Cmd+Shift+X).
+  - Find "rust-analyzer" > Click the gear icon > **Disable (Workspace)**.
+- Alternatively, uninstall the extension if you don't need it at all.
 
 ### 4. **Other Troubleshooting**
-   - **Reinstall rust-analyzer and Rustup**: Sometimes corrupted installs cause issues. Run `rustup self uninstall` then `rustup self update` in your terminal, and reinstall the VS Code extension.
-   - **Check for Multiple Workspaces**: If you have a multi-root workspace, ensure each root has its own valid configuration.
-   - **Update Everything**: Make sure VS Code, rust-analyzer extension, and Rust toolchain (`rustup update`) are up to date.
-   - **Logs for More Details**: Check rust-analyzer's output in VS Code (**View > Output**, select "rust-analyzer" from the dropdown) for additional clues.
+
+- **Reinstall rust-analyzer and Rustup**: Sometimes corrupted installs cause issues. Run `rustup self uninstall` then `rustup self update` in your terminal, and reinstall the VS Code extension.
+- **Check for Multiple Workspaces**: If you have a multi-root workspace, ensure each root has its own valid configuration.
+- **Update Everything**: Make sure VS Code, rust-analyzer extension, and Rust toolchain (`rustup update`) are up to date.
+- **Logs for More Details**: Check rust-analyzer's output in VS Code (**View > Output**, select "rust-analyzer" from the dropdown) for additional clues.
 
 If you're using a different editor:
+
 - **Neovim or Vim**: Ensure your LSP config (e.g., via lsp-zero or nvim-lspconfig) points to the correct root directory using `root_dir` patterns like `util.find_git_ancestor` or explicitly set it to find `Cargo.toml`.
 - **Kate or Emacs**: The issue might be the editor not passing the project path correctly—try setting the project root manually in your LSP config or check for editor-specific bugs (e.g., ensure a `.git` folder exists if required).
 - **Other IDEs**: Look for equivalent "linked projects" or "workspace root" settings.

@@ -55,6 +55,7 @@ The **XFX MERCURY Magnetic Air (RX-79XMAIRB9)** is a high-end AMD Radeon graphic
 ## Optional Protection Plan
 
 Walmart offers an Allstate protection plan:
+
 - 3-Year Plan: $59.00
 - 4-Year Plan: $77.00
 
@@ -63,6 +64,7 @@ Walmart offers an Allstate protection plan:
 ## Who Is This Card For?
 
 The RX 7900 XTX is AMD's flagship RDNA 3 GPU. It targets:
+
 - **Enthusiast 4K gamers** who want top-tier performance without ray tracing as the primary focus.
 - **Content creators** needing large VRAM for video editing or 3D rendering.
 - **Professionals** using GPU-accelerated compute workloads.

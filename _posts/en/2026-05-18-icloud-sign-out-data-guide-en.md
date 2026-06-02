@@ -24,6 +24,7 @@ When you sign out of iCloud on your iPhone, iOS shows a screen asking which data
 When you sign out, any information stored in iCloud remains available in iCloud. That information will be removed from your device unless you choose to keep a copy of that data when prompted.
 
 In other words:
+
 - **Your iCloud data in the cloud is NOT deleted** regardless of what you choose here.
 - This prompt only controls whether a **local copy** stays on your iPhone after sign-out.
 
@@ -33,12 +34,14 @@ In other words:
 
 It depends on your situation:
 
-#### ✅ Keep a copy — if:
+#### ✅ Keep a copy — if
+
 - You are **keeping the iPhone** and want to continue accessing your contacts, calendars, Safari data, etc. without logging back in immediately.
 - You are **switching Apple IDs** and want the data to remain accessible on the device.
 - You want to avoid any accidental data gap on the local device.
 
-#### ⏭️ Skip (don't keep) — if:
+#### ⏭️ Skip (don't keep) — if
+
 - You are **giving away or selling the iPhone** and want to wipe the data from the device.
 - You plan to **immediately sign back in** with the same or a new Apple ID — your data will re-sync from iCloud anyway.
 - You only want the data to live in the cloud and not locally on this device.
@@ -58,6 +61,7 @@ So **skipping does NOT delete your iCloud data** — it only removes the local c
 ### What Data Is Affected by This Prompt?
 
 The toggle list typically includes:
+
 - **Contacts**
 - **Calendars**
 - **Safari bookmarks/history**

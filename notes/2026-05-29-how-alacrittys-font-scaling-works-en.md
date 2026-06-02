@@ -28,6 +28,7 @@ fn change_font_size(&mut self, delta: f32) {
 On the next launch, Alacritty reads the config file and applies `config.font.size()` again. Since you have NO config file (`~/.config/alacritty/alacritty.toml` doesn't exist), it uses the hardcoded default: **11.25 pt** (see `font.rs:137`).
 
 The `ResetFontSize` action (Ctrl+Cmd+0 on macOS) confirms this — it resets back to the config value:
+
 ```rust
 fn reset_font_size(&mut self) {
     self.display.font_size = self.config.font.size().scale(scale_factor);

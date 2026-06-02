@@ -17,7 +17,7 @@ Answer:
 
 ### Core Facts (as of early 2026)
 
-- **Official website**: https://codeberg.org
+- **Official website**: <https://codeberg.org>
 - **Operator**: Codeberg e.V. — a registered non-profit association (eingetragener Verein) based in **Berlin, Germany**
 - **Founded**: September 2018 (public launch January 2019)
 - **Software stack**: Built on **Forgejo** (a free, community-maintained soft fork of Gitea)
@@ -55,7 +55,7 @@ Codeberg deliberately stays smaller and more focused. It prioritizes independenc
 
 ### How to Get Started
 
-1. Go to https://codeberg.org
+1. Go to <https://codeberg.org>
 2. Register an account (free, no credit card needed)
 3. Create or import a repository
 4. Optional: join Codeberg e.V. as supporting or active member → gives voting rights and financially helps the platform

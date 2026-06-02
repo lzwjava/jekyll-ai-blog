@@ -25,6 +25,7 @@ translated: true
 | AMD MI300X | 192 GB HBM3 | 3个月 | AMD开发者云 |
 
 **我训练过的模型：**
+
 - **GPT-2 124M** 从头训练，基于FineWeb数据集（nanoGPT）——在RTX 4070、H200和MI300X上。
 - **GPT-2 760M** 从头训练，基于AMD MI300X（192 GB HBM3）——探索nanochat、DeepSeek v4 MoE。
 - 各种关于超参数调优、学习率调度和数据集预处理的实验。
@@ -63,6 +64,7 @@ Fork了[karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)并进行了扩展
 | `train_gpt2_200m_smoke.py` | 冒烟测试 | 快速200M完整性检查（约几分钟）。 |
 
 **模型改动：**
+
 - **内联张量形状注释**，贯穿`model.py`前向传播（CausalSelfAttention, MLP, GPT）——每一步都显示具体形状，并附有GPT-2 XL的具体示例，例如`# x: (B, T, C) 例如 (1, 5, 1600)`。有助于理解Transformer数据流。
 
 ![增强版nanoGPT——45次提交、数据集管道、扩展训练配置、内联形状注释](/assets/images/ai-portfolio/nanogpt-fork.png)
@@ -112,12 +114,14 @@ Pro月度套餐，38B主配额 + 8.75B补偿配额（约4.6B免费额度）。�
 在汇丰银行（通过TEKsystems），我在GitHub Copilot之上构建了一个自主AI智能体层，用于自动化脚本编写、日志记录、文档编写和测试。
 
 **我构建的内容：**
+
 - **20个定制化AI智能体**——针对不同技术栈和工作流程的专用提示词和上下文。
 - **400个可复用的Copilot编写脚本**——自动化常见的Java、Spring、Python、Angular和DevOps工具任务。
 - **1,100份Copilot编写的指南**——通过LLM输出生成并验证的文档，包含缓存和验证机制。
 - **通过Copilot API自动生成约70个测试用例**——覆盖Spring过滤器、Python unittest、JSON截断、提示词工程和区域端点。
 
 **成果：**
+
 - 在全企业Copilot使用量中排名**前6%**（按高级请求计算）。
 - 因高影响力的AIPlayer项目获得**贡献奖**。
 - 加入汇丰银行内部AI社区。
@@ -141,6 +145,7 @@ Pro月度套餐，38B主配额 + 8.75B补偿配额（约4.6B免费额度）。�
 **讲座主题：** *"从神经网络到智能体"* ——从最简单的神经网络（`y = wx`）出发，经历MNIST、Transformer、GPT、nanoGPT，直至构建个人AI智能体的旅程。
 
 **涵盖内容：**
+
 - 神经网络基本原理——前向传播、反向传播、梯度下降
 - Transformer架构——Q/K/V注意力、多头注意力、位置编码
 - GPT内部机制——分词、嵌入、训练、生成
@@ -150,6 +155,7 @@ Pro月度套餐，38B主配额 + 8.75B补偿配额（约4.6B免费额度）。�
 - 我的路径——从3年前阅读Q/K/V到如今从头训练模型
 
 **反馈：**
+
 - 一位初级工程师说：*"你就是我想成为的人"*——这场讲座开阔了他对AI可能性的认知
 - 高级工程师欣赏其基于第一性原理的方法——没有炒作，只有数学和代码
 - 多次后续交流，关于训练、智能体和职业方向
@@ -288,6 +294,7 @@ Available commands:
 ```
 
 **主要特性：**
+
 - **多轮对话**，在终端中使用GitHub Copilot或OpenRouter。
 - **多个模型提供商**：GitHub Copilot（OAuth设备流）和OpenRouter（API密钥）。
 - **原生工具调用**：模型自主调用网络搜索、执行shell命令、编辑文件——无需人工介入。
@@ -319,6 +326,7 @@ datasets/       # 下载的数据集存储
 ```
 
 **关键能力：**
+
 - **FineWeb下载**——规划并下载分片以达到token预算（10B、100B+ token），支持断点续传和进度跟踪。
 - **hf-mirror.com支持**——当HuggingFace被屏蔽时，提供用于中国的wget脚本。
 - **Parquet提取**——通过pyarrow iter_batches进行内存安全的迭代。
@@ -348,5 +356,5 @@ GitHub：[lzwjava/zz](https://github.com/lzwjava/zz) · Hugging Face：[lzwjava/
 
 ---
 
-* GitHub：[https://github.com/lzwjava](https://github.com/lzwjava)
-* 博客：[https://lzwjava.github.io](https://lzwjava.github.io)
+- GitHub：[https://github.com/lzwjava](https://github.com/lzwjava)
+- 博客：[https://lzwjava.github.io](https://lzwjava.github.io)

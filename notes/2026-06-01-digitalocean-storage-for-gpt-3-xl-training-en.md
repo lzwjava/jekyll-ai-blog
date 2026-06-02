@@ -26,6 +26,7 @@ total per ckpt:   ~21GB
 ```
 
 Keep last 3 checkpoints:
+
 ```
 21GB × 3 = 63GB
 ```
@@ -33,12 +34,14 @@ Keep last 3 checkpoints:
 ## Data Size
 
 30B tokens, GPT-2 BPE, stored as uint16:
+
 ```
 30B tokens × 2 bytes = 60GB
 + raw text (before tokenization): ~80GB
 ```
 
 If you **delete raw text after tokenizing** (recommended):
+
 ```
 tokens only: 60GB
 ```

@@ -18,6 +18,7 @@ Hermes Agent（由 Nous Research 开发）没有传统意义上的“复制”�
 ## 剪贴板操作
 
 ### 从剪贴板粘贴图片
+
 Hermes 支持通过 Ctrl+V 或 /paste 命令直接从剪贴板粘贴图片到 CLI 进行视觉分析。具体方法包括：
 
 1. **`/paste` 命令** - 输入 /paste 并按 Enter 键，即可检查剪贴板中的图片并附加。这是最可靠的方法，适用于所有环境。
@@ -27,6 +28,7 @@ Hermes 支持通过 Ctrl+V 或 /paste 命令直接从剪贴板粘贴图片到 CL
 3. **Alt+V** - 按 Alt+V 可检查剪贴板中的图片，但此功能在 VSCode 集成终端中不可用。
 
 ### 图片存储
+
 从剪贴板粘贴的图片会自动以带时间戳的 PNG 文件格式保存到 ~/.hermes/images/ 目录下。
 
 ## 文件系统复制操作
@@ -34,6 +36,7 @@ Hermes 支持通过 Ctrl+V 或 /paste 命令直接从剪贴板粘贴图片到 CL
 尽管 Hermes Agent 的 CLI 中没有明确记录为专用的“复制”命令，但代理可访问终端工具，并能通过其终端工具执行如 `cp` 等标准的 Unix 命令来复制文件。
 
 ## 配置导出
+
 对于复制配置数据（如 Browser Use API 密钥），Hermes 会使用 `hermes config set BROWSER_USE_API_KEY $(browser-use config get api_key)` 之类的命令在系统间复制密钥。
 
 **参考资料：**

@@ -18,6 +18,7 @@ Yes and no — it depends on which personality framework you're using and what y
 Here are the main situations people usually ask about:
 
 ### 1. Myers-Briggs (MBTI) – 16 types (INFP, ESTJ, etc.)
+
 - **Official MBTI position & most research**: Personality type is considered **relatively stable** in adulthood.
 - About **50–70%** of people get the same 4-letter type when retested after 5+ years.
 - However, **30–50%** of people do receive a different type on retest (especially on one or two dichotomies).
@@ -29,11 +30,13 @@ Here are the main situations people usually ask about:
 
 **Realistic summary for MBTI**
 You usually **cannot** make a dramatic permanent change (e.g., turning a clear INFP into a clear ESTJ), but many people can and do move closer to the middle of some dichotomies over time, especially:
+
 - becoming noticeably more extraverted
 - becoming more structured / organized (J shift)
 - developing stronger Thinking or Feeling depending on life demands
 
 ### 2. Big Five personality traits (OCEAN)
+
 This is currently the most scientifically supported model.
 
 | Trait              | Malleability in adulthood          | Typical amount of change possible |

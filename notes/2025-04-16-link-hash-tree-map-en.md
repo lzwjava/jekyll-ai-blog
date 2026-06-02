@@ -11,6 +11,7 @@ type: note
 Great question! Both `LinkedHashMap` and `TreeMap` are implementations of the `Map` interface in Java, but they have **different ordering strategies** and use **different underlying data structures**.
 
 ### 🌳 `TreeMap`
+
 - **Ordering**: Sorted by **natural order** of the keys (or by a custom `Comparator` if provided).
 - **Data Structure**: Backed by a **Red-Black Tree** (a type of self-balancing binary search tree).
 - **Performance**:
@@ -19,6 +20,7 @@ Great question! Both `LinkedHashMap` and `TreeMap` are implementations of the `M
 - **Use Case**: When you need **sorted keys**.
 
 ### 🔗 `LinkedHashMap`
+
 - **Ordering**: Maintains **insertion order** (or optionally access order if configured that way).
 - **Data Structure**: Backed by a **hash table + linked list**.
 - **Performance**:
@@ -29,6 +31,7 @@ Great question! Both `LinkedHashMap` and `TreeMap` are implementations of the `M
 ---
 
 ### ✅ Iterator Order
+
 Yes, their **iterator order will be different**:
 
 | Map Type       | Iterator Order                     |
@@ -64,6 +67,7 @@ for (String key : linkedMap.keySet()) {
 ```
 
 **Output:**
+
 ```
 TreeMap:
 apple

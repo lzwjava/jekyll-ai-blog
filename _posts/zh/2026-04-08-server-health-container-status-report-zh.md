@@ -12,6 +12,7 @@ type: note
 ## 🖥️ 服务器健康概览
 
 **负载 / CPU**
+
 - 负载：**0.50**（此前为 11 —— 风扇问题已解决 ✅）
 - CPU：**99% 空闲**，已使用 6GB / 62GB 内存，剩余 56GB
 - **交换分区**：107MB / 2GB —— 健康
@@ -28,6 +29,7 @@ type: note
 
 **问题：** 尚未达到临界点，但对于运行 Docker 的根分区而言，84% 的使用率已偏高。
 **可回收空间：**
+
 - 22.9GB 未使用镜像（62% 的镜像可回收）
 - 220MB 已停止容器的可写层
 - 73MB 构建缓存
@@ -65,24 +67,31 @@ type: note
 ## 🔴 发现的非关键问题
 
 ### 1. **Gitea —— 内存占用偏高（980MB）**
+
 Gitea 使用了近 1GB 内存，是所有容器中最高的。这不常见——可能是正在执行 git gc 或重建索引。请检查内存占用是暂时偏高还是持续增长。
 
 ### 2. **SearXNG —— wikidata 引擎初始化失败**
+
 ```
 ERROR: wikidata (init failed)
 ```
+
 这是一个第三方引擎初始化失败，SearXNG 的其他引擎仍可正常工作，但你可以在设置中禁用 wikidata 引擎。
 
 ### 3. **LibreChat —— Meilisearch 配置缺失**
+
 ```
 [indexSync] error Meilisearch configuration is missing
 ```
+
 Meilisearch 服务正在运行（chat-meilisearch 容器已启动），但 LibreChat 的索引器未能正确连接。可能需要重新配置 LibreChat 环境变量中的 Meilisearch URL。
 
 ### 4. **llama 接口 /health → 404**
+
 `GET http://localhost:8081/api/v1/health` 返回 404 —— jellyfin（端口 8096）工作正常。llama/Ollama 健康检查接口的路径可能不同。
 
 ### 5. **Nextcloud 33.0.2** ✅
+
 已从 33.0.0 升级。Uptime-Kuma 现轮询 `/status.php` 而非 `/apps/dashboard/`。负载正常。
 
 ---

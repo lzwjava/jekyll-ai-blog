@@ -17,6 +17,7 @@ type: note
 广州，这座以粤语文化和点心闻名的中国南部繁华大都市，对居民和外籍人士来说，会引发强烈的反应。虽然许多人赞扬它的美食和绿地，但一些不受欢迎的看法往往强调其混乱的底层、持续不断的湿热以及社会摩擦。下面，我整理了一份根据外籍人士论坛、社交媒体和个人经历中反复出现的不受欢迎的观点清单。这些都是挑战该城市“被低估的瑰宝”说法的个人看法。
 
 ### 广州生活不受欢迎的看法
+
 - **一年中大部分时间，湿热都让人无法居住**：与北方干燥的城市不同，广州的亚热带气候使夏天变成一个潮湿的噩梦——地板湿滑，冰箱里发霉，甚至高层建筑也需要蚊帐。一位外籍人士称其“简直糟糕透顶”，认为对非本地人来说，这比大多数中国城市的情况都要糟糕。
 - **尽管有摩天大楼，但它还是混乱的，“第三世界”的**：这座城市感觉像是一个“更高级的加尔各答”——电动滑板车像无法无天的羊群一样穿梭于车流中，街道上弥漫着难以辨认的气味（一位游客将其比作“发情的气味”），而且破旧的区域与光鲜的街区仅隔几个街区。批评者说，这种无序的扩张缺乏深圳那种精致高效的感觉。
 - **社会脱节和界限问题普遍存在**：人们在人群中保持距离，但又侵犯个人空间——排队紧密、电梯里不讲礼貌、盯着外国人看都是常态。外籍人士报告说很难交到真正的朋友，当地人似乎封闭或过于专注于事业，导致社交场合出现一种“肤浅的僵尸”氛围。
@@ -29,6 +30,7 @@ type: note
 这些观点并非普遍适用——有些人喜欢这里的美食和历史——但它们代表了那些坚持下来的人的逆向声音。如果你正在考虑搬家，短期访问有助于感受这里的氛围。
 
 参考文献：
+
 - [Pros and cons of Shanghai, Hangzhou, Guangzhou?](https://www.reddit.com/r/chinalife/comments/17pkpjd/pros_and_cons_of_shanghai_hangzhou_guangzhou/)
 - [I wish I came as a tourist instead of living here](https://www.reddit.com/r/chinalife/comments/1fivaww/i_wish_i_came_as_a_tourist_instead_of_living_here/)
 - [Good and Bad of Guangzhou](https://www.reddit.com/r/guangzhou/comments/1c4rsu/good_and_bad_of_guangzhou/)

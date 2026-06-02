@@ -13,12 +13,15 @@ type: note
 ---
 
 ### 1. **安装 Composer（如果尚未安装）**
+
 如果尚未安装 Composer，请从 [getcomposer.org](https://getcomposer.org/) 下载并安装。这是一个 PHP 的依赖管理工具。
 
 ---
 
 ### 2. **设置项目**
+
 如果还没有项目，请创建一个目录：
+
 ```bash
 mkdir my-redis-project
 cd my-redis-project
@@ -27,13 +30,17 @@ cd my-redis-project
 ---
 
 ### 3. **将 Predis 添加到项目**
+
 运行以下 Composer 命令安装 Predis 1.1 版本：
+
 ```bash
 composer require predis/predis:1.1
 ```
+
 这将下载 Predis 1.1 并生成 `composer.json` 文件（以及包含该库的 `vendor` 目录）。
 
 如果已有 `composer.json` 文件，可以手动添加以下内容：
+
 ```json
 {
     "require": {
@@ -41,7 +48,9 @@ composer require predis/predis:1.1
     }
 }
 ```
+
 然后运行：
+
 ```bash
 composer install
 ```
@@ -49,7 +58,9 @@ composer install
 ---
 
 ### 4. **引入自动加载器**
+
 在 PHP 脚本中引入 Composer 的自动加载器以加载 Predis：
+
 ```php
 require 'vendor/autoload.php';
 ```
@@ -57,6 +68,7 @@ require 'vendor/autoload.php';
 ---
 
 ### 5. **基础使用示例**
+
 以下是一个连接 Redis 服务器并使用 Predis 的简单示例：
 
 ```php
@@ -90,7 +102,9 @@ print_r($list); // 输出：Array ( [0] => item2 [1] => item1 )
 ---
 
 ### 6. **配置选项**
+
 可以通过向 `Client` 构造函数传递选项数组来自定义连接：
+
 ```php
 $redis = new Client([
     'scheme' => 'tcp',
@@ -104,7 +118,9 @@ $redis = new Client([
 ---
 
 ### 7. **常用命令**
+
 Predis 支持大多数 Redis 命令作为直接方法。以下是一些示例：
+
 - **字符串**：`set`、`get`、`incr`、`decr`
 - **列表**：`lpush`、`rpush`、`lpop`、`rpop`、`lrange`
 - **集合**：`sadd`、`smembers`、`srem`
@@ -115,7 +131,9 @@ Predis 支持大多数 Redis 命令作为直接方法。以下是一些示例：
 ---
 
 ### 8. **错误处理**
+
 将 Redis 调用包装在 try-catch 块中以处理可能的连接或运行时错误：
+
 ```php
 try {
     $redis->set('test', 'value');
@@ -128,6 +146,7 @@ try {
 ---
 
 ### 9. **前提条件**
+
 - 确保 Redis 服务器正在运行（例如通过 `redis-server` 本地运行或在远程主机上）。
 - PHP 5.3.0 或更高版本（Predis 1.1 兼容旧版 PHP，但请检查您的环境）。
 

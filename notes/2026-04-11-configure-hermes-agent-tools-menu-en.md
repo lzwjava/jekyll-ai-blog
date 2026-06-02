@@ -18,6 +18,7 @@ Hermes Agent (by Nous Research) provides an interactive setup system for configu
 The menu you see is part of the interactive configuration interface (likely shown during `hermes setup`, `hermes tools`, or when enabling specific toolsets). Here's how to use and configure it step by step:
 
 ### 1. **Accessing the Tools Configuration**
+
 - Run one of these commands in your terminal (after installing Hermes Agent):
   - `hermes setup` → Full interactive wizard (recommended for first-time setup; covers model + tools).
   - `hermes tools` → Specifically for enabling/disabling and configuring tools.
@@ -28,6 +29,7 @@ The menu you see is part of the interactive configuration interface (likely show
 - Press **ESC** to cancel/go back.
 
 ### 2. **What the Options Do**
+
 The listed items are API keys and settings for different tool backends:
 
 - **Web Search & Extraction Tools**:
@@ -55,16 +57,20 @@ The listed items are API keys and settings for different tool backends:
 Once toggled on, the interface will usually prompt you to paste the corresponding API key or URL.
 
 ### 3. **How Configuration is Saved**
+
 - **API keys and secrets** are automatically saved to `~/.hermes/.env` (secure, owner-only permissions).
 - **Non-secret settings** (e.g., which tools are enabled, backends) go to `~/.hermes/config.yaml`.
 - You can also set values manually:
+
   ```bash
   hermes config set FIRECRAWL_API_KEY fc-YourKeyHere
   hermes config set FIRECRAWL_API_URL http://localhost:3002
   ```
+
 - For web search backend preference, you can configure it in `config.yaml` under `web: backend: firecrawl` (or `tavily`, `exa`, etc.).
 
 ### 4. **Recommended Quick Setup Flow**
+
 1. Run `hermes setup` or `hermes tools`.
 2. Enable the tools you need (start with Firecrawl or Tavily for web capabilities — they are very reliable).
 3. Paste your API keys when prompted.
@@ -72,6 +78,7 @@ Once toggled on, the interface will usually prompt you to paste the correspondin
 5. Confirm and exit — Hermes will load the tools on next run.
 
 ### 5. **Tips**
+
 - You don't need every tool enabled. Start minimal (e.g., one web search backend + memory) to avoid unnecessary dependencies.
 - Many tools work out-of-the-box with local models (via Ollama, vLLM, etc.).
 - After configuration, test by chatting with the agent (CLI or via Telegram/Discord integration) and asking it to perform a web-related task.
@@ -80,6 +87,7 @@ Once toggled on, the interface will usually prompt you to paste the correspondin
 This setup makes Hermes Agent highly extensible without writing custom code.
 
 **References:**
+
 - [Tools & Toolsets | Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/)
 - [Configuration | Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/)
 - [Environment Variables Reference](https://mintlify.com/NousResearch/hermes-agent/reference/environment-variables)

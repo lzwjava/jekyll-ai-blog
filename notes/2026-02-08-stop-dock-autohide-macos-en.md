@@ -24,23 +24,29 @@ In the latest macOS version (macOS Tahoe 26.x as of February 2026), follow these
 
 The Dock will now stay visible permanently at the bottom (or side) of your screen.
 
-### Quick alternative method using keyboard shortcut (if enabled):
+### Quick alternative method using keyboard shortcut (if enabled)
+
 - Press **Command (⌘) + Option (⌥) + D**
   This toggles the auto-hide setting instantly. If it turns off auto-hide, you're done.
 
-### If the setting keeps re-enabling itself:
+### If the setting keeps re-enabling itself
+
 - Go to **System Settings → Keyboard → Keyboard Shortcuts** (or search for "shortcuts" in System Settings).
 - Look for **Turn Dock hiding on/off** (usually under Mission Control or App Shortcuts).
 - **Uncheck** or disable that shortcut to prevent accidental toggling (common cause of the issue coming back).
 
-### If the option is grayed out or doesn't work properly:
+### If the option is grayed out or doesn't work properly
+
 This occasionally happens in certain betas or configurations (e.g., with Stage Manager or specific window tiling settings). Try:
+
 - Turning Stage Manager off temporarily (System Settings → Desktop & Dock → Stage Manager)
 - Restarting your Mac
 - As a last resort, reset Dock preferences in Terminal:
+
   ```
   defaults delete com.apple.dock && killall Dock
   ```
+
   (This resets many Dock settings to default — you can then turn auto-hide off again.)
 
 These steps work consistently in macOS Ventura, Sonoma, Sequoia, and Tahoe.

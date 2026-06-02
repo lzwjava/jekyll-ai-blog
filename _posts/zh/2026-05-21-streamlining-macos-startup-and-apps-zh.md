@@ -26,6 +26,7 @@ type: note
 ## 完整清理指南
 
 ### 1. 先审计启动项（如果还没做）
+
 ```bash
 # 列出所有启动代理/守护进程（开机时运行的内容）
 ls ~/Library/LaunchAgents/
@@ -48,7 +49,9 @@ brew install --cask appcleaner
 AppCleaner 会找到拖到废纸篓遗漏的所有隐藏 plist/守护进程/缓存文件。尤其针对搜狗——它会安装输入法守护进程，简单删除无法清除。
 
 ### 3. 搜狗专有清理
+
 使用 AppCleaner 后，验证输入法已删除：
+
 ```bash
 # 检查残留的搜狗进程
 ps aux | grep -i sogou
@@ -61,6 +64,7 @@ launchctl unload ~/Library/LaunchAgents/com.sogou.*.plist 2>/dev/null
 ```
 
 ### 4. HP 打印机驱动深度清理
+
 ```bash
 # HP 会留下大量垃圾
 sudo rm -rf /Library/Printers/hp/
@@ -70,6 +74,7 @@ ls /Library/LaunchDaemons/ | grep -i hp
 ```
 
 ### 5. 检查当前占用 RAM/CPU 的内容
+
 ```bash
 # 内存占用前几名的进程
 ps aux --sort=-%mem | head -20

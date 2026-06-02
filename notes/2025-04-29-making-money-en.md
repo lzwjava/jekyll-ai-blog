@@ -24,15 +24,15 @@ Was there a specific aspect of earning money you're finding particularly challen
 
 That's a really common feeling, and you're right, making money *can* be hard for many people. There isn't one single reason, but rather a complex interplay of various factors:
 
-1.  **Competition:** Whether it's for jobs, customers, or resources, there's a lot of competition in the modern economy. This can drive down wages or make it difficult for businesses to thrive.
-2.  **Cost of Living:** In many places, the cost of housing, healthcare, education, and basic necessities is high and often rises faster than wages, making it hard to get ahead.
-3.  **Wage Stagnation:** For many people, wages haven't kept pace with inflation and increased productivity over the past few decades, meaning their purchasing power hasn't grown significantly.
-4.  **Skills Mismatch:** The job market is constantly evolving. If your skills don't match the current demand, finding well-paying work can be difficult. Keeping skills updated often requires time and investment.
-5.  **Lack of Opportunities/Inequality:** Not everyone has equal access to quality education, networking opportunities, capital for business, or mentorship. Systemic inequalities can make it harder for certain groups to achieve financial stability.
-6.  **Economic Cycles:** Recessions or economic downturns can lead to job losses, reduced hours, and decreased business opportunities, making earning money much harder.
-7.  **Automation and Technology:** While technology creates new jobs, it can also automate existing ones, requiring workers to adapt or find new fields.
-8.  **Financial Literacy:** Not everyone is taught how to manage money effectively, save, or invest, which can make it harder to build wealth over time.
-9.  **Personal Circumstances:** Health issues, family responsibilities (like caring for children or elderly parents), or unexpected emergencies can create significant financial burdens and make it harder to earn.
+1. **Competition:** Whether it's for jobs, customers, or resources, there's a lot of competition in the modern economy. This can drive down wages or make it difficult for businesses to thrive.
+2. **Cost of Living:** In many places, the cost of housing, healthcare, education, and basic necessities is high and often rises faster than wages, making it hard to get ahead.
+3. **Wage Stagnation:** For many people, wages haven't kept pace with inflation and increased productivity over the past few decades, meaning their purchasing power hasn't grown significantly.
+4. **Skills Mismatch:** The job market is constantly evolving. If your skills don't match the current demand, finding well-paying work can be difficult. Keeping skills updated often requires time and investment.
+5. **Lack of Opportunities/Inequality:** Not everyone has equal access to quality education, networking opportunities, capital for business, or mentorship. Systemic inequalities can make it harder for certain groups to achieve financial stability.
+6. **Economic Cycles:** Recessions or economic downturns can lead to job losses, reduced hours, and decreased business opportunities, making earning money much harder.
+7. **Automation and Technology:** While technology creates new jobs, it can also automate existing ones, requiring workers to adapt or find new fields.
+8. **Financial Literacy:** Not everyone is taught how to manage money effectively, save, or invest, which can make it harder to build wealth over time.
+9. **Personal Circumstances:** Health issues, family responsibilities (like caring for children or elderly parents), or unexpected emergencies can create significant financial burdens and make it harder to earn.
 10. **Risk:** Starting a business or investing often involves risk, and not everyone is in a position to take those risks, or the risks don't always pay off.
 
 It's a combination of these systemic, economic, and personal challenges that can make the process of earning a living and building financial security feel very difficult.
@@ -54,6 +54,7 @@ Making money feels hard because of a mix of economic, psychological, and social 
 6. **Time and Energy**: Most people trade time for money (jobs), but there’s only so many hours you can work. Scaling income (via investments, businesses, or side hustles) requires upfront time and energy, which is brutal if you’re already stretched thin by life’s demands—bills, family, or just surviving.
 
 **What Can You Do?**
+
 - **Short-term**: Cut expenses ruthlessly, prioritize high-ROI skills (coding, sales, etc.), and experiment with side hustles that leverage what you’re good at.
 - **Long-term**: Build assets (savings, investments, or a business) to decouple income from hours worked. Learn financial basics—budgeting, compounding interest, taxes—to make your money work harder.
 - **Mindset**: Focus on what you can control, like learning and persistence. Small, consistent steps compound over time. Avoid comparing yourself to others; social media distorts reality.

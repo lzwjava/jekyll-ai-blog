@@ -19,17 +19,20 @@ Answer:
 WiFi signals are radio waves that get significantly weakened or blocked by physical obstacles. A closed cabinet—especially one with doors, made of wood, metal, or containing other items—acts as a barrier that absorbs or reflects the signal, reducing its range, speed, and reliability in distant rooms. Multiple expert sources and manufacturer guidelines (including TP-Link) explicitly advise against placing routers inside cabinets, closets, or enclosed spaces because this can severely degrade performance.
 
 Key benefits of moving it to an open desk or shelf:
+
 - Stronger overall signal propagation in all directions.
 - Reduced dead zones, especially in farther areas of the home.
 - Better speeds and stability for devices.
 
 Additional best practices for placement:
+
 - Choose a **central location** in the home (as close as possible to the middle).
 - **Elevate** it (e.g., on a table, shelf, or high stand, not on the floor).
 - Keep it away from walls, large furniture, metal objects, microwaves, cordless phones, and other electronics that cause interference.
 - Ensure good ventilation to prevent overheating.
 
 For the **China Telecom fiber setup** (typically an ONT modem + possibly a combined router), the ONT often needs to stay near the fiber entrance for the optical connection. However, you can:
+
 - Keep the ONT in the cabinet if required.
 - Connect your own better WiFi router (like the TP-Link) via Ethernet to the ONT.
 - Place your TP-Link router in an open, central spot outside the cabinet.
@@ -41,6 +44,7 @@ This is a very common upgrade in fiber homes: use the ISP's device only as a mod
 The TL-XDR3050 is a WiFi 6 (AX3000) router with good range thanks to features like beamforming and multiple antennas. Placing **one unit centrally in the stairwell** (an open area connecting both floors) is often a solid choice for duplex/two-story homes. The stairwell position helps the signal radiate upward and downward more evenly, potentially providing decent coverage across both floors without needing a second unit or mesh nodes right away.
 
 However, real-world coverage depends on:
+
 - House size and layout (total square meters, wall materials—concrete walls block more than drywall).
 - Floor thickness and construction.
 - Interference from other devices or neighboring networks.

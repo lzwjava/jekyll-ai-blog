@@ -13,6 +13,7 @@ type: note
 In Guangdong (especially in cities like Guangzhou, Shenzhen, Foshan, Dongguan, and the Chaoshan area), weddings are traditionally **very big social events**. People usually invite 200–800 guests (sometimes over 1000), and the banquet is the absolute center of the celebration. Here's how a typical modern Cantonese/Ghuangdong wedding usually goes in 2025:
 
 ### Overall Flow of the Wedding Day
+
 1. **Morning: Gatecrashing games + Tea ceremony (at bride’s home)**
    - Groom and his “brothers” (groomsmen) go to the bride’s family home.
    - Bridesmaids play “gatecrashing” games (funny, sometimes naughty tasks) before letting the groom in.
@@ -28,6 +29,7 @@ In Guangdong (especially in cities like Guangzhou, Shenzhen, Foshan, Dongguan, a
    - 8–12 courses (cold platter + shark fin/abalone-level dishes + whole suckling pig is still common in Guangdong, though some younger couples replace it with other luxury items now).
 
 ### Key Guangdong Wedding Customs You’ll See
+
 - **Red packets are king**
   Relatives, classmates, colleagues all give red packets (hongbao/利是). The amount matters a lot: classmates/colleagues usually ¥500–2000, close relatives ¥2000–20,000 or more. The couple uses this money to cover the banquet cost (which can easily be ¥300–800 per person × 400 people).
 
@@ -47,11 +49,13 @@ In Guangdong (especially in cities like Guangzhou, Shenzhen, Foshan, Dongguan, a
   When guests leave, they receive wedding candy (usually high-end brands) and sometimes small souvenirs.
 
 ### Regional Differences Inside Guangdong
+
 - **Canton (Guangzhou/Foshan)**: More international, many couples now skip shark fin, have Western-style cake cutting, photo booths, etc.
 - **Chaoshan (Shantou, Chaozhou, Jieyang)**: Even more traditional and extravagant. Still serve shark fin (or replacement), very loud lion dance at the door, more courses (12–14), and red packets are higher.
 - **Hakka areas**: Simpler, sometimes still keep old-style “crying marriage” songs (very rare now).
 
 ### Cost in 2025 (rough estimate for a “normal” middle-class wedding)
+
 - Banquet: ¥150,000–400,000 RMB (300–600 people)
 - Bride’s gowns + grooming: ¥30,000–100,000
 - Photography/videography: ¥20,000–60,000

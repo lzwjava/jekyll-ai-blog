@@ -17,24 +17,28 @@ Answer:
 Here are some of the strongest websites and platforms in 2026 for learning or leveling up in **software engineering**, **backend**, **fullstack**, and **AI engineering**. I've grouped them by focus and included both free and paid/high-quality options that are frequently recommended for practical, up-to-date content.
 
 ### General Software Engineering & Programming Fundamentals
+
 - **freeCodeCamp.org** — Excellent free curriculum with full certifications (Responsive Web Design, JavaScript Algorithms, Backend Development, etc.). Very project-heavy.
 - **The Odin Project** — Free, very rigorous full-stack JavaScript path (Ruby or Node.js tracks). Forces real tools (Git, Linux/WSL, local setup).
 - **CS50 (Harvard via edX or YouTube)** — One of the best free computer science introductions; great foundation even for experienced developers.
 
 ### Full-Stack Development
-- **Full Stack Open (University of Helsinki)** → https://fullstackopen.com/
+
+- **Full Stack Open (University of Helsinki)** → <https://fullstackopen.com/>
   Extremely modern (React, TypeScript, Node.js, GraphQL, React Query, etc.), free, high quality — widely considered one of the best free full-stack courses in 2025–2026.
 - **Coursera / IBM Full Stack Software Developer Professional Certificate** — Structured, job-oriented, covers cloud + containers + frontend/backend.
 - **Udemy** — Search for “The Web Developer Bootcamp 202X”, “Angular + NestJS”, “.NET + React” etc. (wait for $10–15 sales).
 - **The Odin Project** and **freeCodeCamp** (also strong full-stack paths).
 
 ### Backend-focused
+
 - **roadmap.sh/backend** — Great learning path + tool lists.
 - **Backend section on Udemy** (NestJS, Spring Boot, Django, Go Fiber/Gin, .NET Core).
 - **Node.js / Express / NestJS paths** on freeCodeCamp, Full Stack Open, or YouTube (Traversy Media, Net Ninja).
 - **GeeksforGeeks** and **roadmap.sh** articles for backend frameworks comparison (very useful in 2026).
 
 ### AI Engineering / ML / Generative AI
+
 - **DeepLearning.AI (Coursera)**
   Andrew Ng courses remain gold standard:
   - Machine Learning Specialization
@@ -46,6 +50,7 @@ Here are some of the strongest websites and platforms in 2026 for learning or le
 - **fast.ai** → Practical Deep Learning for Coders (free, very hands-on).
 
 ### Mixed / Modern Full-Stack + AI
+
 - Several programs now blend full-stack + AI/GenAI tools (e.g., SkyySkill, TechPaathshala Gen AI Edition, Codesmith AI/ML Immersive).
 - **Coursera** → Search “AI for Web Developers” (Scrimba specialization) or “Generative AI Engineering”.
 

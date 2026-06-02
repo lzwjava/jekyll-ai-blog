@@ -17,6 +17,7 @@ Answer:
 《老子》, also widely known as **《道德经》** (Tao Te Ching / Dao De Jing), is one of the most important and influential works in Chinese philosophy and world literature. It is the foundational text of **Daoism** (Taoism).
 
 ### Basic Information
+
 - **Length**: Approximately 5,000 Chinese characters (hence often called "the Five Thousand Words").
 - **Structure**: Traditionally divided into **81 short chapters**.
   - Upper part (chapters 1–37): **Dao Jing** (道经) — focuses on the concept of **Dao** (the Way).
@@ -24,11 +25,13 @@ Answer:
 - Some excavated versions (e.g., Mawangdui silk manuscripts) reverse this order, but the traditional Wang Bi version is most commonly used today.
 
 ### Authorship and Dating
+
 - Traditionally attributed to **Laozi** (老子, "Old Master"), said to be a contemporary of Confucius (around 6th century BCE).
 - According to legend recorded by Sima Qian in the *Records of the Grand Historian*, Laozi was a Zhou dynasty archivist named Li Er (李耳). Disillusioned with the moral decay of society, he left through Hangu Pass riding a green ox. The gatekeeper Yin Xi asked him to write down his wisdom, resulting in the *Dao De Jing*. After that, he disappeared.
 - Modern scholarship considers the book a composite work compiled over time (likely 5th–3rd century BCE), with contributions from multiple authors or editors. The earliest excavated portions (Guodian bamboo slips) date to around the late 4th century BCE.
 
 ### Core Ideas
+
 The book opens with one of the most famous lines in Chinese philosophy:
 
 > 道可道，非常道。名可名，非常名。
@@ -48,6 +51,7 @@ Key philosophical concepts include:
 The language is poetic, paradoxical, and concise — often deliberately obscure to point beyond words.
 
 ### Historical and Cultural Impact
+
 - Cornerstone of **philosophical Daoism** (together with Zhuangzi).
 - Central scripture of **religious Daoism** (Laozi was later deified as Taishang Laojun / Moral Heavenly Lord).
 - Profound influence on Chinese thought, politics, military strategy (e.g., Art of War echoes many ideas), art, literature, medicine, qigong, and aesthetics.

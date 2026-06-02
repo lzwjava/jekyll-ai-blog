@@ -16,6 +16,7 @@ Here's the full rundown of the laptop at `192.168.1.47`:
 ## 🖥️ Lenovo XiaoXin 14 IAH8 — System Overview
 
 ### 💻 Laptop
+
 - **Model:** Lenovo XiaoXin 14 IAH8 (also known as IdeaPad Slim 5 14 in some markets)
 - **Chassis:** Laptop (14-inch)
 - **Firmware:** LACN36WW (June 2024)
@@ -38,6 +39,7 @@ Here's the full rundown of the laptop at `192.168.1.47`:
 | **Current Freq** | 400-860 MHz (idle, power saving) |
 
 **Performance context:**
+
 - Cinebench R23 Multi: ~10,043 pts
 - Cinebench R23 Single: ~1,596 pts
 - Comparable to older Ryzen 7 5700U / i7-10750H in multi-thread

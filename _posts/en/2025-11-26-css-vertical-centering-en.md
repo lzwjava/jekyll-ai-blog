@@ -15,10 +15,12 @@ It's not *actually* hard anymore (since ~2015), but it **feels** hard because CS
 Here’s why it used to be a nightmare and why most old tutorials still traumatize people:
 
 ### The Dark Ages (before Flexbox/Grid)
+
 1. **Block elements don’t have natural height centering**
    `margin: auto` only works horizontally. Vertically? Nothing. The box model simply had no built-in way.
 
 2. **The terrible hacks people actually used in production:**
+
    ```css
    /* 1. Table-cell (works but semantically awful) */
    .parent { display: table; }
@@ -53,6 +55,7 @@ All of these are fragile, require extra markup, break with dynamic content, or f
 ### The Modern Era (2015+) – It’s literally one or two lines now
 
 **Flexbox (the go-to solution since 2016):**
+
 ```css
 .parent {
   display: flex;
@@ -61,9 +64,11 @@ All of these are fragile, require extra markup, break with dynamic content, or f
   min-height: 100vh;          /* or whatever height you need */
 }
 ```
+
 Done. Works with unknown heights, responsive, no hacks.
 
 **Grid (also trivial):**
+
 ```css
 .parent {
   display: grid;
@@ -73,6 +78,7 @@ Done. Works with unknown heights, responsive, no hacks.
 ```
 
 **Even the new hotness (2023+):**
+
 ```css
 .parent {
   display: grid;
@@ -110,6 +116,7 @@ or
 ```
 
 If you're still fighting vertical centering today, you're either:
+
 - Working on an ancient codebase that can’t use flexbox (IE11-era)
 - Overcomplicating it
 - Reading the wrong tutorial

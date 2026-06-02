@@ -44,7 +44,6 @@ This ensures that you have a compatible version of the library.
 
 The parameters `--ctx-size 2048 --batch-size 512 --n-gpu-layers 49 --threads 8 --parallel 1` are important. They will boost the speed.
 
-
 ### LLM Farm
 
 It's a great iOS app. In the settings, there are around 20 models. When importing a GGUF model by ourselves, which are downloaded from Hugging Face, it may lead to a crash.
@@ -55,11 +54,11 @@ Self-hosting these LLM models allows you to run them locally without needing net
 
 ### Resources
 
-*   [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
-*   [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
-*   [ggml GitHub Repository](https://github.com/ggerganov/ggml)
-*   [Ollama](https://ollama.com)
-*   [Ollamac](https://github.com/kevinhermawan/Ollamac)
+* [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
+* [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
+* [ggml GitHub Repository](https://github.com/ggerganov/ggml)
+* [Ollama](https://ollama.com)
+* [Ollamac](https://github.com/kevinhermawan/Ollamac)
 
 ---
 

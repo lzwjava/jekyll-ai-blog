@@ -36,6 +36,7 @@ When `ccr code` tries to auto-start the service and launch Claude Code, it runs 
 The `ccr code` command starts the router service but fails to set the `ANTHROPIC_BASE_URL` environment variable before launching the Claude Code subprocess, causing Claude Code to connect directly to the Anthropic API instead of the configured CCR proxy.
 
 **Fix:** Start and export manually:
+
 ```bash
 ccr start
 export ANTHROPIC_BASE_URL="http://127.0.0.1:3456"
@@ -44,6 +45,7 @@ claude
 ```
 
 Or use `ccr activate`:
+
 ```bash
 eval "$(ccr activate)"
 claude
@@ -54,6 +56,7 @@ claude
 On some systems (e.g., WSL2 on Windows), the error is `/bin/sh: claude: Permission denied`, meaning the claude binary exists but is not executable.
 
 **Fix:**
+
 ```bash
 chmod +x ~/.claude/local/claude
 ```
@@ -63,34 +66,42 @@ chmod +x ~/.claude/local/claude
 ## General Debugging Steps
 
 1. **Check service status:**
+
    ```bash
    ccr status
    ```
 
 2. **Start the service manually:**
+
    ```bash
    ccr start
    ```
 
 3. **Check logs** for detailed error messages:
+
    ```bash
    tail -f ~/.claude-code-router.log
    ```
 
 4. **Verify `claude` is accessible from a non-interactive shell:**
+
    ```bash
    /bin/sh -c "which claude"
    ```
+
    If this returns nothing, the PATH is the problem.
 
 5. **Use `ccr activate` as a workaround:**
+
    ```bash
    eval "$(ccr activate)"
    claude
    ```
+
    The `activate` command sets the `ANTHROPIC_AUTH_TOKEN`, `ANTHROPIC_BASE_URL`, and `NO_PROXY` environment variables so the `claude` command automatically routes requests through the router.
 
 6. **Update CCR** — this has been a recurring bug with fixes released over time:
+
    ```bash
    npm update -g @musistudio/claude-code-router
    ```

@@ -29,6 +29,7 @@ df -h /
 ```
 
 通常最先能释放大量空间的几个地方：
+
 - `~/.cache/huggingface` —— 旧的 HF 模型/数据集下载；如果不需要，放心删掉
 - `/var/lib/docker` —— 如果安装了 Docker，`docker system prune -a` 通常能回收几十 GB
 - `~/projects/zz/datasets/fineweb-edu` —— 已下载约 69 GB；如果我们打算降低目标，这个可以清理（但你会丢失进度，所以暂时别删）

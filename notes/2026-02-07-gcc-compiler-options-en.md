@@ -15,6 +15,7 @@ I'll give you a comprehensive introduction to GCC (GNU Compiler Collection) opti
 ## Basic Usage
 
 The basic GCC syntax is:
+
 ```bash
 gcc [options] file...
 ```
@@ -22,11 +23,13 @@ gcc [options] file...
 ## Essential Compilation Options
 
 **-c** — Compile source files to object files (.o) without linking
+
 ```bash
 gcc -c main.c  # produces main.o
 ```
 
 **-o** — Specify output file name
+
 ```bash
 gcc main.c -o myprogram
 ```
@@ -84,6 +87,7 @@ For C++: **-std=c++11**, **-std=c++14**, **-std=c++17**, **-std=c++20**, **-std=
 **-fPIC** — Generate position-independent code (needed for shared libraries)
 
 Example:
+
 ```bash
 gcc main.c -I./include -L./lib -lmylib -o program
 ```
@@ -91,9 +95,11 @@ gcc main.c -I./include -L./lib -lmylib -o program
 ## Preprocessor Options
 
 **-D<macro>=<value>** — Define preprocessor macro
+
 ```bash
 gcc -DDEBUG=1 -DVERSION=\"1.0\" main.c
 ```
+
 **-U<macro>** — Undefine preprocessor macro
 **-include <file>** — Include file before processing source
 
@@ -117,9 +123,11 @@ gcc -DDEBUG=1 -DVERSION=\"1.0\" main.c
 ## Linker Options
 
 **-Wl,<options>** — Pass options to the linker
+
 ```bash
 gcc main.c -Wl,-rpath,/custom/path
 ```
+
 **-rdynamic** — Export all symbols for dynamic symbol resolution
 **-nostdlib** — Don't use standard system libraries
 **-nodefaultlibs** — Don't use standard system library defaults
@@ -135,21 +143,25 @@ gcc main.c -Wl,-rpath,/custom/path
 ## Common Combinations
 
 **Development build:**
+
 ```bash
 gcc -Wall -Wextra -g -O0 main.c -o program
 ```
 
 **Production build:**
+
 ```bash
 gcc -Wall -O2 -DNDEBUG main.c -o program
 ```
 
 **Maximum warnings and debugging:**
+
 ```bash
 gcc -Wall -Wextra -Wpedantic -g3 -Og main.c -o program
 ```
 
 **Optimized with sanitizers:**
+
 ```bash
 gcc -Wall -O2 -g -fsanitize=address,undefined main.c -o program
 ```

@@ -58,6 +58,7 @@ Many individuals with paralysis or disabilities have overcome extraordinary chal
 ## What Makes Them Inspiring
 
 These individuals demonstrate that disability does not define potential. Their achievements share common themes:
+
 - **Resilience**: Refusing to let physical limitations dictate their life's direction
 - **Adaptation**: Developing creative solutions and leveraging assistive technologies
 - **Advocacy**: Using their platforms to advance inclusion and accessibility for others

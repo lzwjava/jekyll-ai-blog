@@ -78,6 +78,7 @@ AdamW 通过将 weight decay 从 gradient 更新中**解耦 (decoupling)** 来�
 - 通常与 learning rate warm-up 和 decay schedules 结合使用。
 
 PyTorch 示例：
+
 ```python
 optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4, weight_decay=0.01)
 ```

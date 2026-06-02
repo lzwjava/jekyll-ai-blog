@@ -23,7 +23,7 @@ D. Cell selection
 
 正确答案是 **C. Routing** (路由选择)。
 
-### 详细解释：
+### 详细解释
 
 在 ATM (Asynchronous Transfer Mode) 信元头部（5 字节头部）中，主要字段及其主要功能是：
 

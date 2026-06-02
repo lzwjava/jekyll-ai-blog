@@ -45,7 +45,6 @@ It has:
 * Large banquet + conference halls (1000+ people capacity)
 * Frequent university-linked events
 
-
 So yes — during exam periods or large events, it is very active.
 
 ---

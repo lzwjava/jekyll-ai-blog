@@ -15,12 +15,14 @@ type: note
 若您所指并非此意，欢迎进一步说明！接下来我将详细说明如何在PCF日志环境中配置和使用Kibana。本文假设您是具有PCF运维管理员访问权限的用户，且已部署运行中的PCF环境（2.0+版本）。请注意PCF日志系统已历经多次迭代，请根据您使用的版本查阅对应文档。
 
 ### 前置准备
+
 - **PCF版本**：日志搜索服务（含Kibana）需PCF 2.2+版本。早期版本使用独立的"ELK"（Elasticsearch、Logstash、Kibana）模块
 - **功能模块/服务**：确保已通过Pivotal Network（现Broadcom支持门户）安装**Elastic Runtime**模块（用于Loggregator）和**日志搜索**模块
 - **访问权限**：需具备运维管理员控制台和PCF命令行工具的管理员权限
 - **资源分配**：预留充足资源（根据日志量分配4-8GB内存给日志搜索服务）
 
 ### 步骤一：在运维管理员控制台安装配置日志搜索模块
+
 该模块将PCF日志（来自应用、平台和系统组件）转发至Elasticsearch，使其可通过Kibana进行检索
 
 1. **下载并导入模块**：
@@ -52,6 +54,7 @@ type: note
    - 通过BOSH命令行登录日志搜索虚拟机（`bosh ssh log-search/0`）确认Elasticsearch运行状态（`curl localhost:9200`）
 
 ### 步骤二：访问Kibana
+
 部署完成后可通过以下方式访问：
 
 1. **通过PCF应用管理器（图形界面）**：
@@ -69,6 +72,7 @@ type: note
    - 将日志搜索服务绑定到应用：`cf create-service log-search standard my-log-search` 然后执行 `cf bind-service 应用名称 my-log-search`
 
 ### 步骤三：使用Kibana分析PCF日志
+
 Kibana提供基于Web的界面，用于查询、筛选和可视化PCF组件日志（如应用日志、Diego容器、Gorouter等）
 
 1. **基础导航**：
@@ -85,6 +89,7 @@ Kibana提供基于Web的界面，用于查询、筛选和可视化PCF组件日�
    - **系统日志**：`source_id:DEA`（Diego容器）或`source_id:LOGGREGATOR`
    - **导出日志**：在发现页面下载CSV/JSON格式
    - **高级功能**：通过Kibana开发工具控制台直接查询Elasticsearch：
+
      ```
      GET /logstash-*/_search
      {
@@ -92,6 +97,7 @@ Kibana提供基于Web的界面，用于查询、筛选和可视化PCF组件日�
        "sort": [ { "timestamp": { "order": "desc" } } ]
      }
      ```
+
    - **保留策略与索引**：日志按日索引（如`logstash-YYYY.MM.DD`），可在模块中配置滚动策略管理存储空间
 
 3. **日志问题排查**：
@@ -101,6 +107,7 @@ Kibana提供基于Web的界面，用于查询、筛选和可视化PCF组件日�
    - **错误排查**：通过`cf logs log-search`查看PCF日志或检查运维管理员任务日志
 
 ### 扩展资源
+
 - **官方文档**：VMware Tanzu文档中心的[日志搜索指南](https://docs.vmware.com/en/VMware-Tanzu-Application-Service/10.0/tas/GUID-log-search-index.html)（请按版本搜索）
 - **命令行工具**：如需UAA认证可安装`uaac`工具，或使用`cf curl`进行API访问
 - **替代方案**：简单需求可使用PCF内置**日志缓存**（命令行：`cf tail 应用名称`），或通过syslog转发集成Splunk等外部工具

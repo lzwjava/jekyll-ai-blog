@@ -20,6 +20,7 @@ type: note
 ## 理解约束：银行 / 企业环境
 
 在银行环境中，你通常需要：
+
 - **On-premise 或 private cloud 部署**（数据不离开你的网络）
 - **Azure OpenAI / Microsoft Copilot API** 兼容性（因为数据保留在你的 Azure tenant 内）
 - **Auditability**（开源 = 你可以检查和认证代码）

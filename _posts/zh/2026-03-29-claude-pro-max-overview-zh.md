@@ -18,6 +18,7 @@ type: note
 ---
 
 ### Free Plan
+
 Free plan 提供在 web、iOS、Android 和 desktop 上访问 Claude 的权限。用户可以生成 code，分析 text 和 images，创作 content 以及 search the web。然而，Free plan 不支持 Claude Code 访问 —— 你至少需要 Pro 订阅或 API credits 才能使用 Claude Code。
 
 ---

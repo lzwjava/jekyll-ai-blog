@@ -27,25 +27,33 @@ This error typically indicates that your application cannot establish a network 
 ## Troubleshooting Steps
 
 1. **Verify DB2 is running:**
+
    ```bash
    db2pd -
    ```
+
    or
+
    ```bash
    db2 get dbm cfg | grep SVCENAME
    ```
 
 2. **Check if DB2 is listening:**
+
    ```bash
    netstat -an | grep 50000
    ```
+
    (replace 50000 with your actual port)
 
 3. **Test network connectivity:**
+
    ```bash
    telnet <hostname> <port>
    ```
+
    or
+
    ```bash
    nc -zv <hostname> <port>
    ```

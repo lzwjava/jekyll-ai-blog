@@ -17,6 +17,7 @@ type: note
 Here is a practical, up-to-date preparation roadmap for the IELTS exam (valid for 2026). The core format and scoring remain stable, with emphasis on official materials and consistent practice.
 
 ### 1. Understand the Test First (1–2 days)
+
 - Decide between **Academic** (study/university) or **General Training** (work/immigration).
 - Know the format:
   - **Listening**: 4 sections, 40 questions, ~30 min + 10 min transfer (paper-based)
@@ -28,9 +29,11 @@ Here is a practical, up-to-date preparation roadmap for the IELTS exam (valid fo
 - Read official band descriptors (public band 6.0–8.0 criteria) on ielts.org to know exactly what examiners want.
 
 ### 2. Get Realistic Materials (Most Important Step)
+
 Use only trusted sources — unofficial books often give misleading difficulty.
 
 Top recommended resources (2025–2026):
+
 - **Cambridge IELTS 14–20** (or latest volumes) — closest to real exam
 - **Official IELTS Practice Tests** (Volume 1–3)
 - Free official materials:
@@ -42,6 +45,7 @@ Top recommended resources (2025–2026):
 Avoid random YouTube “band 9 overnight” videos — focus on structured official practice.
 
 ### 3. Realistic Study Plan (Most People Need 8–16 Weeks)
+
 Depending on your current level:
 
 | Current Level | Target Band | Realistic Preparation Time | Daily Commitment |
@@ -52,6 +56,7 @@ Depending on your current level:
 | 6.5+          | 7.5–8.0+    | 4–8 weeks                  | 2–4 hours focused|
 
 **Weekly structure example (10–12 weeks plan):**
+
 - Mon–Fri: 1 skill per day + vocabulary/grammar
   - Mon: Listening (full test + analyse errors)
   - Tue: Reading (full test + skimming/scanning practice)
@@ -62,35 +67,42 @@ Depending on your current level:
 - Sun: Review mistakes deeply + learn 15–25 new topic-specific words
 
 ### 4. Section-Specific Preparation Tips
+
 **Listening**
+
 - Practice different accents (British, Australian, Canadian, American).
 - Focus: spelling, numbers, synonyms, distractors.
 - Do → shadow speaking (repeat after audio).
 
 **Reading**
+
 - Master skimming (main idea), scanning (specific info), and synonym recognition.
 - Don’t read everything — train to find answers in <90 seconds per question.
 - Academic: graphs, processes; GT: advertisements, notices.
 
 **Writing**
+
 - Task 1: Learn structures for every chart type (line, bar, pie, table, map, process).
 - Task 2: Master 5 essay types (Opinion, Discussion, Advantage/Disadvantage, Problem-Solution, Two-part).
 - Get feedback — self-checking is usually too generous.
 - Aim: clear position, logical paragraphs, varied vocabulary & complex sentences.
 
 **Speaking**
+
 - Record yourself daily (Part 2 cue card 2-min talk).
 - Expand answers: reason + example + feeling.
 - Work on fluency > perfection (small pauses are okay, long silence hurts score).
 - Common topics: hometown, work/study, technology, environment, travel.
 
 ### 5. Final 2–3 Weeks
+
 - Do 1 full mock test every 3–4 days (official Cambridge tests).
 - Simulate real conditions: no dictionary, timed, quiet room.
 - Review every mistake — understand why you lost the mark.
 - Reduce new learning; focus on fixing weak areas.
 
 ### 6. Test Day Tips
+
 - Sleep well the night before.
 - Arrive early.
 - Listening: write answers directly on question paper.

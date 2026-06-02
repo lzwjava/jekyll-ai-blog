@@ -29,6 +29,7 @@ The standard 3-bit encoding table for PCM is as follows:
 | −3 | Negative | 000 | 010 |
 
 **Answers:**
+
 - ① = `111`
 - ② = `101`
 - ③ = `001`

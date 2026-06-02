@@ -19,6 +19,7 @@ Here's a complete, production-ready minimal example that **exactly what 60-70% o
 - Metadata filtering + hybrid search + reranking
 
 ### 1. Installation (once)
+
 ```bash
 pip install llama-index llama-index-llms-azure-openai llama-index-embeddings-azure-openai \
             llama-index-vector-stores-pinecone llama-index-readers-confluence \
@@ -27,6 +28,7 @@ pip install llama-index llama-index-llms-azure-openai llama-index-embeddings-azu
 ```
 
 ### 2. Environment variables
+
 ```env
 AZURE_OPENAI_API_KEY=...
 AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
@@ -36,6 +38,7 @@ GITHUB_TOKEN=ghp_...
 ```
 
 ### 3. Ingestion script (run daily or on webhook)
+
 ```python
 # ingest.py
 import os
@@ -147,6 +150,7 @@ print(f"Indexed {len(nodes)} nodes")
 ```
 
 ### 4. Query engine (FastAPI or Streamlit or Slack bot)
+
 ```python
 # query.py
 from llama_index.core import VectorStoreIndex, get_response_synthesizer

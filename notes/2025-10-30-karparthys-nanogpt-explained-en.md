@@ -11,12 +11,14 @@ type: note
 ---
 
 ### Overview
+
 Both **nanoGPT** and **nanochat** are open-source projects created by Andrej Karpathy (former OpenAI/Tesla AI lead) to teach the internals of large language models (LLMs) through minimal, from-scratch implementations in PyTorch. They are educational tools rather than production-ready systems, emphasizing simplicity and readability over optimizations.
 
 - **nanoGPT** (released in 2023): A lightweight framework for training GPT-like transformer models on raw text data, focusing solely on the pretraining phase.
 - **nanochat** (released in October 2025): An expanded, full-stack evolution of nanoGPT, enabling end-to-end training, fine-tuning, inference, and deployment of a ChatGPT-style conversational AI.
 
 ### Key Differences
+
 Here's a side-by-side comparison:
 
 | Aspect              | nanoGPT                                                                 | nanochat                                                                 |
@@ -33,6 +35,7 @@ Here's a side-by-side comparison:
 In essence, nanoGPT is like building the "brain" of a GPT model, while nanochat adds the "mouth" (chat interface) and "ears" (dialogue handling), making it a more complete tutorial for modern LLM apps. If you're diving in, start with nanoGPT for fundamentals, then nanochat for chat-specific extensions.
 
 ### References
+
 - [nanochat GitHub Repo](https://github.com/karpathy/nanochat)
 - [Karpathy's Announcement on X](https://x.com/karpathy/status/1977755427569111362)
 - [Forbes Article on nanochat](https://www.forbes.com/sites/lanceeliot/2025/10/15/make-your-own-chatgpt-clone-for-just-100-via-newly-released-nanochat-but-theres-a-catch/)

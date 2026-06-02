@@ -61,6 +61,7 @@ Information is the essence; message is the carrier of information; signal is the
 ### Why Students Confuse Data and Signal
 
 The confusion arises because both "data" and "signal" are physical in nature. However:
+
 - **Data** = symbolic/logical representation (numbers, letters, symbols)
 - **Signal** = physical/electrical form used for transmission (voltage, electromagnetic waves)
 

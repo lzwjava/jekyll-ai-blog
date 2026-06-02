@@ -18,11 +18,13 @@ Yes, China Mobile has launched token services in multiple provinces and cities i
 Both Xiaomi MIMO and China Mobile follow the same subscription model: fixed monthly/annual token quotas for AI inference. However, they differ in scope:
 
 **Xiaomi MIMO Token Plan:**
+
 - Single vendor model — access to Xiaomi's models only (MiMo-V2-Pro, Omni, TTS)
 - Developer/personal use focus
 - Transparent per-million-token pricing with subscription discounts
 
 **China Mobile Guangdong Token Plan:**
+
 - Multi-model aggregator — integrated major large models from Baidu, Alibaba, ByteDance, DeepSeek, and others, providing unified APIs, authentication, and billing
 - Platform: MoMA (Mobile Model Access)
 - Beijing Mobile offering a one-time purchase option starting at CNY5.99, with provincial variations

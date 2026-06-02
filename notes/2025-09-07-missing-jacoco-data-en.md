@@ -54,6 +54,6 @@ When you run this command, Maven executes the `prepare-agent` goal first, which 
 
 If you're still facing issues, check the following:
 
-  * **Project Structure**: Ensure your tests are located in the standard Maven directory `src/test/java`.
-  * **Test Failures**: If your tests are failing, the build might stop before the `.exec` file can be generated. Resolve any test failures first.
-  * **Version Mismatch**: Make sure the JaCoCo plugin version is compatible with your Maven and Java versions.
+* **Project Structure**: Ensure your tests are located in the standard Maven directory `src/test/java`.
+* **Test Failures**: If your tests are failing, the build might stop before the `.exec` file can be generated. Resolve any test failures first.
+* **Version Mismatch**: Make sure the JaCoCo plugin version is compatible with your Maven and Java versions.

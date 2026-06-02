@@ -25,6 +25,7 @@ Here’s a collection of best practices and patterns you can mix-and-match to ke
      feature/FT-103-sg
      feature/FT-103-tw
      ```
+
    * When work is ready, merge back into **main**, then cherry-pick or merge into each `uat_cn`, `uat_sg`, `uat_tw`.
    * Benefit: merges into main happen once; country branches only pick up what they need.
 
@@ -57,6 +58,7 @@ Here’s a collection of best practices and patterns you can mix-and-match to ke
      FT-103 #2: add validation logic
      FT-103 #3: update error handling
      ```
+
    * On PR merge, use “Squash and merge” to collapse all FT-103 commits into one concise commit:
 
      ```
@@ -102,6 +104,7 @@ Here’s a collection of best practices and patterns you can mix-and-match to ke
      /country-sg
      /country-tw
      ```
+
    * The main app pulls in only the active country module at build/deploy time.
 
 ---

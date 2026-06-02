@@ -15,5 +15,6 @@ type: note
 这确实是**GPU**而非主板。影驰、七彩虹、华硕等品牌推出的定制版本搭载了独特的散热设计，例如磁吸式护罩，高端版本甚至采用纯金外壳。
 
 了解更多详情：
+
 - [NVIDIA RTX 5090D 性能基准测试](https://www.tomshardware.com/pc-components/gpus/early-rtx-5090d-v2-benchmarks-suggest-that-maybe-384-bit-memory-is-just-fine-after-all-nerfed-china-market-gpu-runs-within-2-2-percent-of-5090d-in-some-tests)
 - [RTX 5090D 功能特性](https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090d-gpu-features-a-magnetic-shroud-and-fans-for-easy-maintenance)

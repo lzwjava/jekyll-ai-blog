@@ -59,6 +59,7 @@ Alphabet: Σ = {0, 1}
 Language: all binary strings that **end with 1**
 
 States:
+
 - q₀ : haven't seen a 1 at the end yet
 - q₁ : last symbol was 1 (accepting state)
 

@@ -13,6 +13,7 @@ type: note
 Here’s a clear and practical way to understand the **viewport** in HTML/CSS, especially the differences you’re noticing between mobile phones and desktop browsers (like Safari on macOS).
 
 ### 1. What is the Viewport?
+
 The viewport is **the area of the web page that is currently visible to the user** inside the browser window (or screen).
 
 It is **NOT** the entire web page — it’s just the visible portion at any given moment.

@@ -42,9 +42,11 @@ type: note
 ## 构建产物（`/root/llama.cpp/`）
 
 ### llama-cli（`build/bin/llama-cli`）
+
 用于一次性终端推理。已用 Qwen2.5-0.5B 冒烟测试通过。
 
 ### llama-server（`build/bin/llama-server`）
+
 **当前正在运行**，端口 8080，PID 292080。
 
 | 详情 | 值 |
@@ -71,6 +73,7 @@ type: note
 ## 你现在可以做什么
 
 **1. 从任何地方调用 API：**
+
 ```bash
 curl http://165.245.137.138:8080/v1/chat/completions \
   -H 'Content-Type: application/json' \
@@ -82,6 +85,7 @@ curl http://165.245.137.138:8080/v1/chat/completions \
 ```
 
 **2. 直接在服务器上运行推理**（无 HTTP 开销）：
+
 ```bash
 cd /root/llama.cpp
 export ROCM_PATH=/opt/rocm-7.2.0
@@ -101,6 +105,7 @@ export PATH=$ROCM_PATH/bin:$PATH
 | Qwen 3.5 235B | IQ2_XXS | ~95 GB | 轻松 |
 
 **4. 服务器生命周期**
+
 - 重启：`ssh root@165.245.137.138 "bash /root/run_server.sh"`
 - 日志：`ssh root@165.245.137.138 "tail -f /tmp/llama-server.log"`
 - 停止：`ssh root@165.245.137.138 "kill 292080"`

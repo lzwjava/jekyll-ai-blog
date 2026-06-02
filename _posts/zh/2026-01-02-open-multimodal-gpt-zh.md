@@ -21,7 +21,7 @@ nanoGPT 是一个非常受欢迎的、用于在纯 PyTorch 中从零开始训练
 - **Description**: nanoVLM 是一个轻量级、极简的 Vision-Language Model (VLM)，完全采用纯 PyTorch 构建，明确受到 nanoGPT 的启发。它包含一个 LLaMA 风格的 decoder 用于语言处理，一个 SigLiP vision encoder，以及一个用于连接两者的 modality projector。
 - **Why it's similar to nanoGPT**: 它的设计目标是紧凑、易于理解，并且可以用极少的资源从零开始训练（例如，仅需在单张 H100 GPU 上运行 6 小时，甚至可以在免费的 Google Colab notebook 中获得不错的性能）。
 - **Capabilities**: 主要用于 multimodal 理解（例如，image captioning、visual question answering），而非原生的图像生成或编辑。
-- **GitHub**: https://github.com/huggingface/nanoVLM
+- **GitHub**: <https://github.com/huggingface/nanoVLM>
 
 ### Other Notable Minimal/Educational Multimodal Projects
 
@@ -33,7 +33,7 @@ nanoGPT 是一个非常受欢迎的、用于在纯 PyTorch 中从零开始训练
 流行的开源项目包括：
 
 - **LLaVA** (以及 LLaVA-NeXT 等变体)：旨在实现 GPT-4V 级能力的视觉指令微调（visual instruction-tuned）先驱模型之一。易于 fine-tune 并在本地运行。
-  - GitHub: https://github.com/haotian-liu/LLaVA
+  - GitHub: <https://github.com/haotian-liu/LLaVA>
 - 其他许多模型如 Qwen-VL、InternVL，但它们的规模更大，不像 "nano" 那样精简。
 
 ### For Models That Can Generate or Edit Images

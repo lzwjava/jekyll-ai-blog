@@ -15,7 +15,9 @@ type: note
 Ho fun (also called hor fun or chow fun) are wide, flat rice noodles commonly used in Cantonese stir-fries. This classic beef chow fun recipe serves 2-3 people and takes about 20-25 minutes. It's simple, flavorful, and highlights the silky texture of the noodles.
 
 #### Ingredients
+
 **For the beef marinade:**
+
 - 200g (7 oz) beef flank or sirloin, thinly sliced against the grain
 - 1 tsp soy sauce
 - 1 tsp cornstarch
@@ -23,6 +25,7 @@ Ho fun (also called hor fun or chow fun) are wide, flat rice noodles commonly us
 - 1/2 tsp baking soda (optional, for tenderness)
 
 **For the stir-fry:**
+
 - 300g (10.5 oz) fresh ho fun noodles (or dried, soaked in hot water for 10-12 minutes until soft)
 - 1 small onion, sliced
 - 1-2 green onions, chopped
@@ -36,6 +39,7 @@ Ho fun (also called hor fun or chow fun) are wide, flat rice noodles commonly us
 - A splash of water or broth if needed
 
 #### Instructions
+
 1. **Marinate the beef:** In a bowl, mix the beef slices with soy sauce, cornstarch, Shaoxing wine, and baking soda. Let it sit for 10-15 minutes while you prep other ingredients.
 
 2. **Prepare the noodles:** If using fresh ho fun, gently separate the noodle sheets with your hands (they're sticky). If dried, drain well after soaking and pat dry to avoid sogginess.
@@ -51,6 +55,7 @@ Ho fun (also called hor fun or chow fun) are wide, flat rice noodles commonly us
 7. **Serve:** Plate immediately. Garnish with extra green onions if desired. Enjoy hot!
 
 #### Tips
+
 - High heat is key for wok hei (that smoky flavor)—use a carbon steel wok if possible.
 - For vegetarian version, swap beef for tofu or mushrooms.
 - Fresh ho fun is ideal but dried works fine; avoid overcooking to keep them chewy, not mushy.

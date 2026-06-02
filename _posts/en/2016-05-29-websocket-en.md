@@ -16,10 +16,13 @@ type: post
 Hello, I’m Li Zhiwei. As the founder and CTO of CodeReview platform and a former engineer at LeanCloud, I have extensive experience with WebSocket, especially through the development of the IM SDK.
 
 ### The Relevance of WebSocket
+
 WebSocket is a protocol providing full-duplex communication channels over a single TCP connection. It's widely used in modern applications requiring real-time interaction such as instant messaging, real-time comments, multiplayer games, collaborative editing, and live stock prices.
 
 ### Modern Applications of WebSocket
+
 WebSocket is extensively applied in:
+
 - **Instant Messaging (IM)**
 - **Real-time Comments**
 - **Multiplayer Games**
@@ -27,6 +30,7 @@ WebSocket is extensively applied in:
 - **Real-time Stock Prices**
 
 ### Evolution of WebSocket
+
 **Polling:** The client frequently requests updates from the server.
 **Long Polling:** The server holds the request open until new information is available.
 **HTTP Bi-directional Connections:** Requires multiple connections for sending and receiving, and HTTP headers with each request.
@@ -35,6 +39,7 @@ WebSocket is extensively applied in:
 ### Implementing WebSocket on iOS
 
 **Popular iOS WebSocket Libraries:**
+
 - **SocketRocket (Objective-C, 4910 Stars)**
 - **Starscream (Swift, 1714 Stars)**
 - **SwiftWebSocket (Swift, 435 Stars)**
@@ -42,6 +47,7 @@ WebSocket is extensively applied in:
 ### Using SRWebSocket
 
 1. **Initialization and Connection:**
+
    ```objective-c
    SRWebSocket *webSocket = [[SRWebSocket alloc] initWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"ws://echo.websocket.org"]]];
    webSocket.delegate = self;
@@ -49,6 +55,7 @@ WebSocket is extensively applied in:
    ```
 
 2. **Sending Messages:**
+
    ```objective-c
    [webSocket send:@"Hello, World!"];
    ```
@@ -62,6 +69,7 @@ WebSocket is extensively applied in:
 ### Detailed WebSocket Protocol Explanation
 
 WebSocket operates on top of TCP and introduces several enhancements:
+
 - **Security Model:** Adds a browser-based origin security model.
 - **Address and Protocol Naming:** Supports multiple services on a single port and multiple domains on a single IP address.
 - **Frame Mechanism:** Enhances TCP with an IP packet-like frame mechanism without length limitations.
@@ -71,7 +79,9 @@ WebSocket operates on top of TCP and introduces several enhancements:
 
 **1. Handshake:**
    The WebSocket handshake uses the HTTP Upgrade mechanism:
-   - **Client Request:**
+
+- **Client Request:**
+
      ```http
      GET /chat HTTP/1.1
      Host: server.example.com
@@ -83,7 +93,8 @@ WebSocket operates on top of TCP and introduces several enhancements:
      Sec-WebSocket-Version: 13
      ```
 
-   - **Server Response:**
+- **Server Response:**
+
      ```http
      HTTP/1.1 101 Switching Protocols
      Upgrade: websocket
@@ -106,6 +117,7 @@ WebSocket operates on top of TCP and introduces several enhancements:
 ### WebSocket Frame Protocol
 
 **Frame Structure:**
+
 - **FIN (1 bit):** Indicates if this is the final fragment in a message.
 - **RSV1, RSV2, RSV3 (1 bit each):** Reserved for future use.
 - **Opcode (4 bits):** Defines the interpretation of the payload data.
@@ -123,42 +135,52 @@ WebSocket operates on top of TCP and introduces several enhancements:
 ### Closing Handshake
 
 **Close Frame:**
+
 - Can include a body indicating the reason for closure.
 - Both sides must send and respond to close frames.
 
 ### Examples
 
 **Example 1: Single-frame Unmasked Text Message**
+
 ```hex
 0x81 0x05 0x48 0x65 0x6c 0x6c 0x6f
 ```
+
 Contains "Hello"
 
 **Example 2: Single-frame Masked Text Message**
+
 ```hex
 0x81 0x85 0x37 0xfa 0x21 0x3d 0x7f 0x9f 0x4d 0x51 0x58
 ```
+
 Contains "Hello" with a masking key
 
 **Example 3: Fragmented Unmasked Text Message**
+
 ```hex
 0x01 0x03 0x48 0x65 0x6c
 0x80 0x02 0x6c 0x6f
 ```
+
 Contains "Hel" and "lo" in two frames
 
 ### Advanced Topics
 
 **Masking and Unmasking:**
+
 - Masking is used to prevent man-in-the-middle attacks.
 - Each frame from the client must be masked.
 - The masking key is chosen randomly for each frame.
 
 **Fragmentation:**
+
 - Used to send messages of unknown length.
 - A fragmented message starts with a frame where FIN is 0 and ends with a frame where FIN is 1.
 
 **Control Frames:**
+
 - Control frames (like close, ping, and pong) have specific opcodes.
 - These frames help manage the state of the WebSocket connection.
 
@@ -169,12 +191,15 @@ Contains "Hel" and "lo" in two frames
 ### Implementing WebSocket in Different Scenarios
 
 **1. Real-time Chat Applications:**
+
 - WebSocket can maintain an open connection to deliver messages instantly.
 
 **2. Live Updates:**
+
 - Stock prices, sports scores, and other real-time data can be pushed to clients as soon as they change.
 
 **3. Multiplayer Games:**
+
 - Synchronizes game state across multiple players with minimal latency.
 
 ### Conclusion
@@ -184,4 +209,5 @@ WebSocket significantly enhances real-time communication capabilities for web an
 For further details, refer to the [WebSocket RFC](https://tools.ietf.org/html/rfc6455) and explore libraries like [SocketRocket](https://github.com/square/SocketRocket) on GitHub.
 
 ### Acknowledgements
+
 Thank you for following along. Feel free to reach out on GitHub or Weibo for more insights and discussions.

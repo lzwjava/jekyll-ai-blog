@@ -46,6 +46,7 @@ type: note
 Big Tech 的经验具有极高的市场认可度——它为未来在行业、Startup 或合同制工作中提供了极佳的品牌背书。如果公司增长迅速，Startup 的 High Performers 或早期加入者可能会在 1-3 年内晋升为 Tech Lead、Manager 甚至 CTO。
 
 这意味着强者正在建立具有复利效应的 Optionality：
+
 - 一位 Google 或 Meta 的 Senior Engineer 如果被裁，几天内就会收到几十条 Recruiter 的消息。
 - 一位倒闭 Startup 的 Founding Engineer 拥有了实战经验、新技能和人脉——所有这些都增加了他们的市场价值。
 

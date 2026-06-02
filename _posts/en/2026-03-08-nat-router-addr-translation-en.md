@@ -16,7 +16,9 @@ Answer:
 ## Why a NAT Router is Used
 
 ### Reason 1: Private IP Addresses Cannot Route on the Public Internet
+
 Host A uses the private IP address **192.168.0.3**, which belongs to the `192.168.0.0/24` private address range. Private addresses (defined by RFC 1918) are:
+
 - `10.0.0.0/8`
 - `172.16.0.0/12`
 - `192.168.0.0/16`
@@ -24,10 +26,13 @@ Host A uses the private IP address **192.168.0.3**, which belongs to the `192.16
 These addresses are **not routable on the public Internet** — routers on the Internet will drop packets with private source addresses.
 
 ### Reason 2: Address Translation is Necessary for External Communication
+
 For Host A to communicate with Host B (213.18.2.4) on the Internet, its private address must be **translated into a globally routable public IP address**. This process is called **Network Address Translation (NAT)**.
 
 ### Reason 3: NAT Router Performs the Translation
+
 The NAT router sits at the boundary between the private network and the Internet. It:
+
 - Replaces the **private source address** with its own **public (global) IP address** (172.38.1.5) when forwarding packets outbound
 - Reverses the translation for inbound reply packets, forwarding them back to Host A
 

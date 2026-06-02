@@ -22,6 +22,7 @@ ww network discover -s 10.0.0.0/24  # 自定义子网
 ```
 
 **功能说明：**
+
 1. 通过 UDP socket 技巧获取本地 IP（不发送流量）
 2. 解析 `arp -an` 表（数字格式，无 DNS 超时）
 3. 使用 MAC OUI 补充厂商名称（Apple、Xiaomi、TP-Link、Espressif 等）
@@ -31,6 +32,7 @@ ww network discover -s 10.0.0.0/24  # 自定义子网
 7. 打印对齐表格
 
 **更改的文件：**
+
 - `/Users/lzwjava/projects/ww/ww/network/discover.py` — 新模块
 - `/Users/lzwjava/projects/ww/ww/main.py` — 调度 + 帮助文本（3 处）
 - `/Users/lzwjava/projects/ww/README.md` — 命令表格行

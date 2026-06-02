@@ -12,6 +12,7 @@ type: note
 以下是图示：
 
 **技术栈（约 2016–2020 年）：**
+
 - **Vue 1.x** + Vue Router 0.7 + Vue Resource — *已过时*，当前版本为 Vue 3
 - **Webpack 1** — 已停止维护，当前版本为 Webpack 5
 - **Babel 6** + ES2015 预设 — 旧的转译方案
@@ -19,6 +20,7 @@ type: note
 - **hls.js 0.7** 用于视频流传输
 
 **核心架构：**
+
 - 单页应用（SPA），Node 开发服务器（端口 9060）将 `/api/*` 代理至 `https://api.quzhiboapp.com`
 - Vue 1 单文件组件（`.vue`），使用 stylus 编写样式
 - 针对移动端网页开发的直播产品（quzhiboapp）
@@ -28,12 +30,14 @@ type: note
 **如何升级 —— 两条路径：**
 
 ### 方案 A：渐进式升级（更安全）
+
 1. 分两步升级 Vue 1 → Vue 2 → Vue 3
 2. 升级 vue-router、vue-resource 至 Vue 3 对应版本（`vue-router@4`、`@vueuse/core` 或 `axios`）
 3. 升级 Webpack 1 → 4 → 5（改动较大，加载器和插件生态已完全变化）
 4. 将已弃用的 babel-runtime 替换为 `@babel/preset-env`
 
 ### 方案 B：现代化重写（如有时间建议采用）
+
 1. 使用 **Vite** 新建项目（比 Webpack 更快，配置更简单）
 2. 集成 **Vue 3** + Composition API
 3. 将 `vue-resource` 替换为 **axios**

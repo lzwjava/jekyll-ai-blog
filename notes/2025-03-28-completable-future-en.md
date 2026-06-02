@@ -11,12 +11,15 @@ type: note
 In a Java Spring Boot project, there’s no direct equivalent to JavaScript’s `Promise.all`, which waits for multiple promises to complete and provides their results. However, you can achieve similar functionality—running multiple tasks concurrently in a for loop and using their results after all threads complete—using `CompletableFuture` from the `java.util.concurrent` package, specifically with the `CompletableFuture.allOf` method. This approach is well-suited for a Spring Boot project, especially when combined with Spring’s asynchronous programming features. Below, I’ll explain how to do this step-by-step, including a complete example.
 
 ### Why `CompletableFuture`?
+
 `CompletableFuture` (introduced in Java 8) allows you to perform asynchronous operations and manage their completion. The `allOf` method takes multiple `CompletableFuture` instances and returns a new `CompletableFuture` that completes when all the given futures are done, making it ideal for your scenario where you want to:
+
 - Execute tasks in parallel within a for loop.
 - Wait for all tasks to finish.
 - Use the results afterward.
 
 ### Steps to Implement
+
 Here’s how you can structure your solution in a Spring Boot project:
 
 1. **Define the Asynchronous Tasks**
@@ -35,9 +38,11 @@ Here’s how you can structure your solution in a Spring Boot project:
    Account for potential errors during task execution.
 
 ### Example Implementation
+
 Let’s assume you have a list of items to process concurrently (e.g., calling a service or performing some computation). Here are two approaches: one using Spring’s `@Async` annotation and another using `CompletableFuture.supplyAsync`.
 
 #### Approach 1: Using `@Async` with Spring
+
 Spring Boot provides the `@Async` annotation to run methods asynchronously. You’ll need to enable async support in your application.
 
 **Step 1: Enable Async Support**
@@ -128,6 +133,7 @@ public class ItemProcessor {
 ```
 
 **Usage Example:**
+
 ```java
 List<String> items = Arrays.asList("Item1", "Item2", "Item3");
 List<String> results = itemProcessor.processItems(items);
@@ -135,6 +141,7 @@ System.out.println(results); // Prints: [Processed: Item1, Processed: Item2, Pro
 ```
 
 #### Approach 2: Using `CompletableFuture.supplyAsync`
+
 If you prefer not to use `@Async`, you can manually manage threads with an `Executor` and `CompletableFuture.supplyAsync`.
 
 **Step 1: Configure a Thread Pool**
@@ -209,6 +216,7 @@ public class ItemProcessor {
 ```
 
 ### Key Points
+
 - **Waiting for Completion**: `CompletableFuture.allOf(...).join()` or `.get()` ensures the main thread waits until all tasks finish. Use `join()` to avoid handling checked exceptions; it throws `CompletionException` if a task fails.
 - **Exception Handling**: Wrap the `.join()` or `.get()` call in a try-catch block if you need to handle exceptions:
 
@@ -228,10 +236,12 @@ try {
 - **Result Order**: The results maintain the order of the input list since futures are collected in the same order as the loop.
 
 ### Which Approach to Choose?
+
 - **Use `@Async`** if your tasks are naturally part of a Spring service and you want Spring to manage threading. It’s cleaner and integrates well with Spring Boot.
 - **Use `supplyAsync`** if you need more control over task execution or don’t want to rely on Spring’s async framework.
 
 ### Final Answer
+
 To replicate `Promise.all` in a Java Spring Boot project for a for-loop job where you want to use thread results after multithreaded execution, use `CompletableFuture.allOf` with a list of `CompletableFuture` instances. The `@Async` approach with Spring is recommended for simplicity, but `supplyAsync` with a custom executor works too. The example above with `@Async` demonstrates this:
 
 - Create `CompletableFuture` instances in a for loop using an `@Async` method.

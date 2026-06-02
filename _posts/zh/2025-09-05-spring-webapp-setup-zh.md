@@ -115,6 +115,7 @@ public class AppConfig implements WebMvcConfigurer {
   ```
   http://localhost:8080/your-app/hello
   ```
+
 * 你应该看到：
 
   ```

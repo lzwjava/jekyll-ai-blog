@@ -19,11 +19,13 @@ RSA **SecurID** (often called RSA SecurID or just SecurID) is one of the most wi
 It provides strong authentication by combining **something you know** (a PIN or password) with **something you have** (a physical token or software authenticator).
 
 ### Core Concept
+
 The system generates **time-based one-time codes** (tokencodes) that change periodically — most commonly every **60 seconds**, though some implementations use 30 seconds.
 
 This is a classic example of a **Time-based One-Time Password** (TOTP)-like mechanism, but RSA uses its own proprietary algorithm (historically based on a symmetric key operation, now often AES-based in newer versions).
 
 ### Main Components
+
 1. **The Token / Authenticator**
    - **Hardware tokens** — Small key-fob style devices (e.g., SID700, SID800 series) with:
      - LCD display showing a 6-digit (sometimes 8-digit) code
@@ -57,18 +59,21 @@ This is a classic example of a **Time-based One-Time Password** (TOTP)-like mech
    - Server computes expected tokencode → compares → grants/denies access
 
 ### Security Properties
+
 - Seed is **unique per token** and never leaves factory/server
 - Code changes every 60 seconds → captured code becomes useless quickly
 - Even if PIN is stolen, attacker needs physical/soft token possession
 - Server allows small **time window** (±1 interval) to account for clock drift and user delay
 
 ### Advantages
+
 - Very simple user experience (just read & type number)
 - Works offline (no internet needed on token side)
 - Proven in high-security environments for decades (banks, government, defense, tech companies)
 - Broad integration (VPNs, RDP, SSH, cloud services via RADIUS, SAML, etc.)
 
 ### Limitations & Evolution
+
 - Hardware tokens can be lost/stolen (though seed compromise is hard)
 - Vulnerable to real-time **phishing** (attacker relays code immediately)
 - Older deployments suffered from poor time sync or seed leakage incidents (notably 2011 RSA breach via phishing → seed compromise concerns)

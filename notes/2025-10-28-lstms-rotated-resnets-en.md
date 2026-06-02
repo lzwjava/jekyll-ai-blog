@@ -13,6 +13,7 @@ type: note
 In his NeurIPS 2024 Test of Time award talk on the 2014 "Sequence to Sequence Learning with Neural Networks" paper, Ilya Sutskever reflected on key insights and missteps from that era. One major point he addressed under "what we got wrong" was the overcomplication and eventual limitations of LSTMs (Long Short-Term Memory networks), which powered early sequence modeling breakthroughs like machine translation.
 
 ### The Core Misconception About LSTMs
+
 We treated LSTMs as a fundamentally novel, intricate architecture tailored specifically for sequential data—something "special" that deep learning researchers had to painstakingly engineer to handle time dependencies, vanishing gradients, and recurrence. In reality, Sutskever explained, LSTMs were far simpler than that: **they're essentially a ResNet (Residual Network) rotated 90 degrees**.
 
 - **ResNets** (introduced in 2015) revolutionized image processing by adding skip connections (residuals) that let information flow directly across layers, enabling much deeper networks without training instability.
@@ -21,6 +22,7 @@ We treated LSTMs as a fundamentally novel, intricate architecture tailored speci
 Sutskever quipped: "To those unfamiliar, an LSTM is something that poor deep learning researchers did before Transformers. It’s basically a ResNet but rotated by 90 degrees... And it came before; it's like a slightly more complex ResNet, with an integrator and some multiplications." This analogy underscores that LSTMs weren't a radical departure; they were an early, elegant application of residual ideas to recurrence.
 
 ### Why This Mattered (and What Went Wrong)
+
 - **What worked brilliantly**: LSTMs scaled surprisingly well for their time, enabling the seq2seq model to beat traditional statistical methods on translation tasks. The residuals made deep recurrent nets trainable, much like they did for feedforward nets later.
 - **What we got wrong (and why LSTMs faded)**: We underestimated how the sequential nature of LSTMs would bottleneck scaling. Unlike parallelizable ResNets or Transformers, LSTMs process data step-by-step, making them inefficient for massive datasets or long contexts. They also added unnecessary complexity (e.g., multiple gates) that attention mechanisms in Transformers simplified away. By 2017, Transformers exposed these limits, shifting focus to self-attention for better parallelism and longer-range dependencies.
 

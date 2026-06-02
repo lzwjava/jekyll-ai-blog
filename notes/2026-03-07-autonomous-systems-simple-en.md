@@ -32,6 +32,7 @@ Imagine an AS as being like a town's post office. Mail goes from post office to 
 Each AS is assigned a unique identifier called an Autonomous System Number (ASN). Network operators need ASNs to control routing within their networks and to exchange routing information with other ISPs.
 
 There are two ASN formats:
+
 - A **2-byte ASN** is a 16-bit number providing 65,536 ASNs. A **4-byte ASN** is a 32-bit number providing over 4 billion ASNs.
 - As of 2025, there are roughly **120,000 allocated ASNs** worldwide.
 

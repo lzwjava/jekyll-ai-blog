@@ -13,9 +13,11 @@ To use **spring-data-rest-core**, you can leverage the Spring Data REST module t
 ---
 
 ### 1. Add the Spring Data REST Dependency
+
 To use Spring Data REST, you need to include its dependency in your project. If you're using **Spring Boot** (a common scenario), add the following dependency to your build file:
 
 - **Maven**:
+
   ```xml
   <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -24,6 +26,7 @@ To use Spring Data REST, you need to include its dependency in your project. If 
   ```
 
 - **Gradle**:
+
   ```gradle
   implementation 'org.springframework.boot:spring-boot-starter-data-rest'
   ```
@@ -33,6 +36,7 @@ This starter brings in `spring-data-rest-core` along with other necessary compon
 ---
 
 ### 2. Define Your Entities
+
 Create your domain model by defining entity classes using a persistence technology like JPA (Java Persistence API). For example:
 
 ```java
@@ -66,6 +70,7 @@ This `User` entity represents a simple table in your database with an `id` and `
 ---
 
 ### 3. Create Repository Interfaces
+
 Define a repository interface for your entity by extending one of Spring Data’s repository interfaces, such as `JpaRepository`. For example:
 
 ```java
@@ -80,6 +85,7 @@ By extending `JpaRepository`, you get basic CRUD (Create, Read, Update, Delete) 
 ---
 
 ### 4. Run Your Application
+
 With the dependency added and your entities and repositories defined, start your Spring Boot application. Spring Data REST will automatically generate REST endpoints based on your repository. For the `UserRepository` above, you can access:
 
 - **GET /users**: Retrieve a list of all users.
@@ -99,10 +105,12 @@ The response will include HATEOAS links, allowing clients to navigate related re
 ---
 
 ### 5. (Optional) Customize the REST Endpoints
+
 You can customize how your repositories are exposed using annotations or configuration:
 
 - **Change the Endpoint Path**:
   Use the `@RepositoryRestResource` annotation to specify a custom path:
+
   ```java
   import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
@@ -110,10 +118,12 @@ You can customize how your repositories are exposed using annotations or configu
   public interface UserRepository extends JpaRepository<User, Long> {
   }
   ```
+
   Now, the endpoint will be `/people` instead of `/users`.
 
 - **Configure Global Settings**:
   Customize the base path or other settings by implementing `RepositoryRestConfigurer`:
+
   ```java
   import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
   import org.springframework.context.annotation.Configuration;
@@ -127,11 +137,13 @@ You can customize how your repositories are exposed using annotations or configu
       }
   }
   ```
+
   With this, your users would be accessible at `/api/users`.
 
 ---
 
 ### Key Features of Spring Data REST
+
 - **HATEOAS Support**: Responses include hypermedia links to related resources.
 - **Pagination and Sorting**: Use query parameters like `?page=0&size=10&sort=name,asc` to paginate and sort results.
 - **Filtering**: Add custom query methods to your repository (e.g., `findByName(String name)`) to expose additional endpoints.
@@ -139,7 +151,9 @@ You can customize how your repositories are exposed using annotations or configu
 ---
 
 ### Summary
+
 To use `spring-data-rest-core`:
+
 1. Include the Spring Data REST dependency (e.g., `spring-boot-starter-data-rest` for Spring Boot).
 2. Define your entities with appropriate annotations (e.g., `@Entity` for JPA).
 3. Create repository interfaces extending Spring Data interfaces (e.g., `JpaRepository`).

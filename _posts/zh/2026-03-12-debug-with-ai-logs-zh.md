@@ -45,6 +45,7 @@ AI 编码助手通常**缺少运行时上下文**。它们只能看到你的静�
 > "I have a bug in this function. Don't fix it yet — add comprehensive debug logs so I can observe the runtime behavior."
 
 **步骤 2 — 前端：策略性地添加 `console.log`**
+
 ```javascript
 console.log('[DEBUG] fetchUser called with id:', id);
 console.log('[DEBUG] API response:', JSON.stringify(response));
@@ -53,6 +54,7 @@ console.log('[DEBUG] State before update:', this.state);
 ```
 
 **步骤 3 — 后端：添加 Log4j / SLF4J 日志**
+
 ```java
 log.debug("[DEBUG] entering processOrder(), orderId={}", orderId);
 log.debug("[DEBUG] fetched order: {}", order);

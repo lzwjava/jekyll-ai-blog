@@ -24,6 +24,7 @@ This is a great question that reveals a split in the industry: **vendor certific
 Anthropic launched its first official technical certification on March 12, 2026 — the **Claude Certified Architect (CCA), Foundations**. This is not a conceptual AI literacy badge — it's a proctored, architecture-level exam designed to verify that engineers can design and ship production-grade Claude AI applications at enterprise scale.
 
 **Exam Details:**
+
 - 60 questions across five domains: Agentic Architecture and Orchestration (27%), Claude Code Configuration and Workflows (20%), Prompt Engineering and Structured Output (20%), Tool Design and MCP Integration (18%), and Context Management and Reliability (15%). The exam costs **$99 per attempt**.
 - The program is backed by a $100 million Anthropic investment. Accenture is training approximately 30,000 professionals on Claude, and Cognizant is training up to 350,000 employees globally as part of this ecosystem.
 - Currently, the exam is exclusive to Claude Partner Network members. The first 5,000 partner company employees got in for free as early adopters.
@@ -66,18 +67,22 @@ This is the most "hardcore" formal certification available today in the LLM spac
 There is no dedicated "CUDA Certification Exam" from NVIDIA. Instead, the recognized serious options are:
 
 **Oxford University CUDA Course (Academic, Intensive)**
+
 - This is a one-week hands-on course taught by Prof. Mike Giles and Prof. Wes Armour, who set up JADE, the first national GPU HPC facility for Machine Learning. It covers CUDA programming from first principles, requiring only C/C++ knowledge and no prior parallel computing experience. The 2025 course is finished; the 2026 edition is expected July 20–24, 2026.
 - Completion is recognized in research/HPC circles — taught by actual CUDA researchers, not a training vendor.
 
 **Johns Hopkins GPU Programming Specialization (Coursera)**
+
 - Offered by Johns Hopkins University, this specialization introduces CUDA, teaches students to transform sequential CPU algorithms into CUDA kernels that execute hundreds to thousands of times simultaneously, and covers memory capabilities, cuFFT, cuBLAS, and the Thrust library. Learners complete at least 2 projects with freedom to explore CUDA-based solutions.
 - Serious academic pedigree, though no proctored final exam.
 
 **NVIDIA's OLCF CUDA Training Series (Free, Research-Grade)**
+
 - NVIDIA presents a 13-part CUDA training series in partnership with Oak Ridge National Laboratory (OLCF), NERSC, and NERSC. Each part includes a 1-hour presentation and 1-hour hands-on exercises, designed to help GPU programmers deeply understand the CUDA platform and programming model.
 - No certificate, but used by HPC researchers at national labs — the gold standard for CUDA depth.
 
 **GTC 2026 CUDA Python Workshop**
+
 - At GTC 2026, NVIDIA offered workshops on building GPU-accelerated applications in Python using CUDA Python, CuPy, cuDF, and custom kernel development, transforming CPU-bound workflows into high-performance GPU pipelines.
 
 ---

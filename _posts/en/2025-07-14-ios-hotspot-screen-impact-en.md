@@ -13,6 +13,7 @@ type: note
 The iOS Personal Hotspot feature (assuming that's what you meant by "personal hubspot," as it's a common iPhone function for sharing your cellular internet connection) is designed to remain active even when the iPhone's screen is off or locked. According to Apple's official documentation and tutorials, the hotspot should continue functioning in the background without interruption from the screen state, as long as devices are connected and using it.
 
 However, based on user reports and forum discussions, there can be issues with connection stability when the screen turns off:
+
 - In some cases, the hotspot may disconnect or become unavailable after the screen locks, especially if there's perceived inactivity (e.g., no data transfer for a short period) or due to battery-saving behaviors. This seems more common in older iOS versions (like iOS 15 or earlier) or specific setups, such as using 5G. It doesn't always happen, but it's a frequent complaint.
 - To mitigate this, common workarounds include:
   - Setting Auto-Lock to "Never" in Settings > Display & Brightness (this keeps the screen on indefinitely, preventing lock-related issues, but drains battery faster).

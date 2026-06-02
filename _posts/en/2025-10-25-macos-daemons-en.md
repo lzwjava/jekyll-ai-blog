@@ -17,7 +17,9 @@ In macOS, daemon processes are background services that run without a user inter
 Default system daemons are defined in property list (.plist) files located in `/System/Library/LaunchDaemons/`. There are typically around 300–350 of these on a standard install (e.g., 339 on macOS 10.14 Mojave), covering everything from networking and security to hardware management. User-installed or third-party daemons go in `/Library/LaunchDaemons/`.
 
 #### How to View Default Daemons
+
 To list all loaded daemons (and agents) in Terminal:
+
 - `sudo launchctl list` (shows system-wide daemons and agents).
 - `launchctl list` (shows user-specific agents only).
 
@@ -26,6 +28,7 @@ For a full directory listing: `ls /System/Library/LaunchDaemons/` (requires no s
 These commands output columns like PID, status, and label (e.g., `com.apple.timed`).
 
 #### The "timed" Daemon
+
 You specifically mentioned "timed," which refers to **com.apple.timed** (the Time Sync Daemon). This is a core system daemon introduced in macOS High Sierra (10.13) to replace the older `ntpd` process.
 
 - **Purpose**: It automatically synchronizes the Mac's system clock with NTP (Network Time Protocol) servers for accuracy, querying them every 15 minutes. This ensures precise timekeeping for logs, certificates, and network operations.
@@ -35,6 +38,7 @@ You specifically mentioned "timed," which refers to **com.apple.timed** (the Tim
 If your clock drifts, check for network issues or firewall blocks on NTP (UDP port 123).
 
 #### Other Common Default Daemons ("etc.")
+
 Here's a table of some frequently running default system daemons, grouped by function. This isn't exhaustive (there are hundreds), but covers essentials. Labels are from the .plist filenames.
 
 | Category       | Daemon Label                  | Description |
@@ -58,6 +62,7 @@ These run continuously or on triggers to keep macOS stable. If one misbehaves (e
 For a full, current list on your Mac (as of October 2025, likely macOS 15 Sequoia or later), run the commands above—versions evolve slightly with updates.
 
 #### References
+
 - [The macOS Process Journey — “timed” (Time Sync Daemon)](https://medium.com/@boutnaru/the-macos-process-journey-timed-time-sync-daemon-4898c8185b4b)
 - [Daemons and Agents could be slowing down your Mac](https://appleinsider.com/inside/macos/tips/daemons-and-agents-could-be-slowing-down-your-mac)
 - [What files are included in the /System/Library/LaunchAgents and /System/Library/LaunchDaemons](https://apple.stackexchange.com/questions/361029/what-files-are-included-in-the-system-library-launchagents-and-system-library)

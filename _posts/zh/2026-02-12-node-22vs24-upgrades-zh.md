@@ -35,6 +35,7 @@ Node.js 24 在性能（大多数情况下）、现代 JavaScript 特性、securi
 | **推荐用于生产环境** | 2026 年初的稳健保守选择 | 当前推荐的 LTS (截至 2026 年 2 月) | Node.js 24 (当前最佳 LTS) |
 
 ### 升级到 Node.js 24 的主要优势
+
 - 更长的支持周期。
 - 更好的通用 runtime 性能和内存使用（得益于 V8 13.6）。
 - 生产就绪的安全特性（稳定的 permissions model，更严格的 OpenSSL 默认设置）。
@@ -42,6 +43,7 @@ Node.js 24 在性能（大多数情况下）、现代 JavaScript 特性、securi
 - 面向未来（大多数新的生态系统库将针对最近的 Node 版本）。
 
 ### 潜在缺点 / 迁移注意事项
+
 - 包含数个 **breaking changes**（详见官方 v22 至 v24 迁移指南）。
 - 在特定的 native modules / addons 中可能存在罕见的性能回归（例如某些 SQLite 绑定）。
 - 需要测试更严格的验证和 crypto 行为。

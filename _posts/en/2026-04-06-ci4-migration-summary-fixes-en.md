@@ -16,19 +16,23 @@ Done. Here's a complete summary of what was accomplished:
 ## CI4 Migration — What Was Fixed Tonight
 
 ### ✅ Composer & Dependencies
+
 - `composer install --no-dev` — all SDKs now installed (`qiniu/php-sdk`, `predis/predis`, `pingpp-php`, `phpspreadsheet`, `php-amqplib`, `pili-engineering-sdk`)
 - `php-ffmpeg` excluded (requires `ext-gd` not available; `CI4 framework` restored after accidental removal)
 
 ### ✅ Payment Stubs (Critical)
+
 - `app/Libraries/WxPay.php` — JSAPI/app/QR code charge stubs, refund/transfer/redpack stubs
 - `app/Libraries/WxPayCallback.php` — WeChat pay callback handler (stub, safe to receive real notifs)
 - `app/Libraries/Alipay.php` — Alipay charge stub
 
 ### ✅ CI3 Compatibility Layer
+
 - `app/Config/CI3Compat.php` — provides `get_instance()`, `CI3_Loader_Proxy`, and `CI3_Loader` for CI3-era library code (Pay, WeChatAppClient, etc.)
 - `app/Config/NamespaceBridge.php` — maps `App\Libraries\*` → `App\Models\*` for DAO cross-namespace access
 
 ### ✅ Broken Files Fixed
+
 - **Constants.php** — repaired 8+ broken `define()` calls (truncated heredocs, duplicate env constants with bad if-else)
 - **Wechat.php** — duplicate `callback()` method split into `callback` (GET) / `callbackPost` (POST)
 - **Accounts.php** — stray `public public` PHP 8 syntax error removed
@@ -39,13 +43,16 @@ Done. Here's a complete summary of what was accomplished:
 - **wxencrypt/\*** — namespace wrappers, mcrypt→OpenSSL replacement
 
 ### ✅ CI4 DB API Migration
+
 - Bulk replaced `->result()` → `->getResult()`, `->row()` → `->getRow()` across all model files
 
 ### ✅ PSR-4 & Classmap Fixes
+
 - `App\Libraries` added as PSR-4 namespace
 - All model files given `class_alias` for cross-namespace resolution
 
 ### ✅ Archived Old Code
+
 - `application/` → `application_ci3/` (all CI3 code safely archived)
 
 ### ✅ Pushed to GitHub
@@ -68,6 +75,7 @@ Done. Here's a complete summary of what was accomplished:
 | `/jobs/alive` | ⚠️ 500 | Redis not running in container |
 
 ### Remaining (Not in This Session)
+
 - **Redis** — needs to be started (`live-server-redis-1`) for `/wechat/menu` and `/jobs/alive`
 - **Session/auth flow** — real login round-trip testing
 - **Database migrations** — CI4 migrations vs existing CI3 schema

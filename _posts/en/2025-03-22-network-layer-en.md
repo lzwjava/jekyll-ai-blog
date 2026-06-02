@@ -46,29 +46,29 @@ IP addresses are fundamental to the Network Layer. There are two main versions: 
 
 * **Format:** A 32-bit numerical address written in dotted decimal notation (e.g., 192.168.1.10). It's divided into four 8-bit octets.
 * **Address Classes (Historically):** While largely obsolete now due to Classless Inter-Domain Routing (CIDR), understanding the historical classes (A, B, C, D, E) can be helpful for foundational knowledge.
-    * **Class A:** Large networks (first octet 1-126).
-    * **Class B:** Medium-sized networks (first octet 128-191).
-    * **Class C:** Small networks (first octet 192-223).
-    * **Class D:** Multicast addresses (first octet 224-239).
-    * **Class E:** Reserved for experimental use (first octet 240-255).
+  * **Class A:** Large networks (first octet 1-126).
+  * **Class B:** Medium-sized networks (first octet 128-191).
+  * **Class C:** Small networks (first octet 192-223).
+  * **Class D:** Multicast addresses (first octet 224-239).
+  * **Class E:** Reserved for experimental use (first octet 240-255).
 * **Network ID and Host ID:** An IPv4 address consists of a network ID (identifies the network) and a host ID (identifies a specific device within that network). The division between these IDs depends on the address class (or subnet mask in CIDR).
 * **Special IPv4 Addresses:**
-    * **0.0.0.0:** Represents the current network.
-    * **127.0.0.1 (Loopback Address):** Used for testing the local machine's network stack.
-    * **Private IP Addresses:** Ranges reserved for use within private networks (e.g., 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16). These addresses are not routable on the public internet.
-    * **Public IP Addresses:** Addresses that are routable on the public internet.
+  * **0.0.0.0:** Represents the current network.
+  * **127.0.0.1 (Loopback Address):** Used for testing the local machine's network stack.
+  * **Private IP Addresses:** Ranges reserved for use within private networks (e.g., 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16). These addresses are not routable on the public internet.
+  * **Public IP Addresses:** Addresses that are routable on the public internet.
 
 #### b) IPv6 Structure
 
 * **Format:** A 128-bit numerical address written in hexadecimal format, grouped into eight 16-bit segments separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
 * **Advantages over IPv4:** Larger address space (solves IPv4 address exhaustion), improved security (IPsec is often integrated), simplified header format, better support for mobile devices.
 * **Address Representation:**
-    * **Leading Zeros:** Leading zeros within a segment can be omitted (e.g., 0000 can be written as 0).
-    * **Double Colon:** A single double colon (::) can be used to represent one or more consecutive segments of all zeros. This can only be used once in an address.
+  * **Leading Zeros:** Leading zeros within a segment can be omitted (e.g., 0000 can be written as 0).
+  * **Double Colon:** A single double colon (::) can be used to represent one or more consecutive segments of all zeros. This can only be used once in an address.
 * **Types of IPv6 Addresses:**
-    * **Unicast:** Identifies a single interface.
-    * **Multicast:** Identifies a group of interfaces.
-    * **Anycast:** Identifies a set of interfaces, with packets being delivered to the nearest interface in the set.
+  * **Unicast:** Identifies a single interface.
+  * **Multicast:** Identifies a group of interfaces.
+  * **Anycast:** Identifies a set of interfaces, with packets being delivered to the nearest interface in the set.
 * **Link-Local Addresses (fe80::/10):** Used for communication within a single network link.
 * **Global Unicast Addresses:** Globally routable addresses on the internet.
 
@@ -79,11 +79,11 @@ IP addresses are fundamental to the Network Layer. There are two main versions: 
 * **Subnet Mask:** A 32-bit number (for IPv4) that identifies the network and subnet portions of an IP address. It has a contiguous sequence of 1s for the network and subnet bits, followed by a contiguous sequence of 0s for the host bits.
 * **CIDR Notation (Classless Inter-Domain Routing):** A more flexible way of representing network prefixes using a slash followed by the number of network bits (e.g., 192.168.1.0/24 indicates that the first 24 bits represent the network). This is the standard method used today.
 * **Subnetting Calculation (IPv4):**
-    1.  Determine the number of subnets needed.
-    2.  Determine the number of hosts needed per subnet.
-    3.  Calculate the number of bits required for the subnets and hosts.
-    4.  Determine the subnet mask.
-    5.  Identify the valid subnet addresses, broadcast addresses, and usable host ranges for each subnet.
+    1. Determine the number of subnets needed.
+    2. Determine the number of hosts needed per subnet.
+    3. Calculate the number of bits required for the subnets and hosts.
+    4. Determine the subnet mask.
+    5. Identify the valid subnet addresses, broadcast addresses, and usable host ranges for each subnet.
 * **Subnetting in IPv6:** While the concept of subnetting exists in IPv6, the vast address space makes it less about conserving addresses and more about network organization. IPv6 subnets are typically a fixed size (/64).
 
 ### 3. Routing Algorithms
@@ -93,14 +93,14 @@ Routing algorithms are used by routers to determine the best path for data packe
 #### a) Static vs. Dynamic Routing
 
 * **Static Routing:**
-    * Routing tables are manually configured by the network administrator.
-    * Simple to implement for small, stable networks.
-    * Not adaptable to network changes or failures.
-    * Suitable for specific scenarios like connecting to a single remote network.
+  * Routing tables are manually configured by the network administrator.
+  * Simple to implement for small, stable networks.
+  * Not adaptable to network changes or failures.
+  * Suitable for specific scenarios like connecting to a single remote network.
 * **Dynamic Routing:**
-    * Routers automatically learn about network topology and update their routing tables by exchanging information with other routers.
-    * More complex to configure initially but highly adaptable to network changes and failures.
-    * Scalable for larger and more complex networks.
+  * Routers automatically learn about network topology and update their routing tables by exchanging information with other routers.
+  * More complex to configure initially but highly adaptable to network changes and failures.
+  * Scalable for larger and more complex networks.
 
 #### b) Distance Vector Routing
 
@@ -148,10 +148,10 @@ The Network Layer primarily involves two key types of network devices:
 
 * **Primary Function:** To forward data packets between different networks based on their destination IP addresses.
 * **Key Features:**
-    * Maintain routing tables to determine the best path for packets.
-    * Connect different network segments (can be different network technologies).
-    * Perform packet forwarding based on routing decisions.
-    * Can implement security features like firewalls and access control lists (ACLs).
+  * Maintain routing tables to determine the best path for packets.
+  * Connect different network segments (can be different network technologies).
+  * Perform packet forwarding based on routing decisions.
+  * Can implement security features like firewalls and access control lists (ACLs).
 
 #### b) Gateways
 

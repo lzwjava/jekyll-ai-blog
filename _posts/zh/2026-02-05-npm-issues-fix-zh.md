@@ -36,11 +36,13 @@ type: note
 ## **何时使用：**
 
 **常见的故障排除流程：**
+
 1. 首先尝试 `rm -rf node_modules && npm install`（可解决 90% 的问题）
 2. 如果不起作用：增加删除 lock file 的步骤
 3. 如果仍然无法解决：将清除 cache 作为最后手段
 
 **示例场景：**
+
 ```bash
 # npm 标准的“重置”操作：
 rm -rf node_modules

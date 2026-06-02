@@ -15,7 +15,8 @@ Answer:
 
 **"前列腺钙化灶" (prostate calcification foci)** refers to small deposits of calcium salts (calcium buildup) within the prostate gland. It is a very common finding in men, especially middle-aged and older men, and is often discovered incidentally during ultrasound (B超), CT, or other imaging exams.
 
-### Key points:
+### Key points
+
 - **It is usually benign** and represents "old scars" or healed traces from past issues.
 - **Main cause** — Most cases result from previous **chronic prostatitis** (chronic prostate inflammation). After inflammation heals, dead cells, prostate secretions, corpora amylacea (small protein structures), and calcium/phosphate salts deposit and harden, forming these calcified spots.
 - **Other possible causes** include:

@@ -22,6 +22,7 @@ type: note
 一个 **Autonomous System (AS)** 被定义为一个由单一行政实体控制的 IP 网络和路由器集合。其关键原则是：
 
 **内部**，一个 AS 可以非常复杂：
+
 - 它可以运行多个 Interior Gateway Protocols (IGPs)，如 OSPF、EIGRP、RIP 或 IS-IS。
 - 它可以为内部路由选择使用不同的 metrics（hop count、bandwidth、delay、cost 等）。
 - 它可以有数千台配置各异的路由器。
@@ -37,7 +38,6 @@ type: note
 这种“单一的/统一的”routing policy 就是 AS 通过 **BGP (Border Gateway Protocol)**——Internet 上不同 AS 之间使用的 exterior gateway protocol——向其他 AS 公布的内容。
 
 ### 为什么这很重要？
-
 
 | Aspect | Internal (Inside AS) | External (To other ASes) |
 |---|---|---|

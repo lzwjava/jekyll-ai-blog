@@ -11,6 +11,7 @@ type: note
 以下是一份在科技领域做出显著贡献的年轻工程师和科学家名单（年龄在30岁以下或在30岁前取得重大成就），他们展现了与Cornelius Palm、Alexandr Wang和George Hotz相似的创新精神。这些人士因在工程、科学研究或技术创新方面的突破性工作而获得认可，通常将专业技术与现实影响力相结合。本名单参考了《福布斯》30位30岁以下精英榜等网络资料，重点关注截至2025年4月20日的最新成就。[](https://news.mit.edu/2016/forbes-30-under-30-lists-0107)[](https://www.forbes.com/sites/sarahhedgecock/2015/01/05/30-under-30-young-scientists-who-are-changing-the-world/)[](https://www.jagranjosh.com/general-knowledge/list-of-top-people-under-age-of-30-1704694608-1)
 
 ### 科技领域的青年工程师与科学家
+
 1. **Kairan Quazi**（16岁，2008年出生）
    - **领域**：软件工程
    - **成就**：14岁毕业于圣克拉拉大学，成为该校史上最年轻毕业生。现为SpaceX星链团队软件工程师，专注于数据驱动的波束规划解决方案、低延迟计算和实时系统设计。曾在英特尔实习。
@@ -63,11 +64,13 @@ type: note
     - **突出价值**：她低成本、高影响力的医疗设备在资源有限的环境中拯救生命。
 
 ### 与Palm、Wang和Hotz的对比
+
 - **Cornelius Palm**（Happyr Health）：Palm的健康科技创新与Chhabra、Nance和Brown相呼应，他们都通过工程技术应对医疗挑战，以科技改善生活。
 - **Alexandr Wang**（Scale AI）：Wang的AI专长与Quazi和Sodha类似，他们在数据驱动系统和计算领域表现出色，推动AI和实时技术发展。
 - **George Hotz**（comma.ai）：Hotz的自动驾驶技术与Sanchez、Gallucci和Clarke的工程进展产生共鸣，他们的工作推进了自主系统和航空航天领域。
 
 ### 备注
+
 - 遴选标准优先考虑30岁以下（或在30岁前取得成功）且对科技有实质贡献的工程师和科学家，基于《福布斯》30位30岁以下精英榜（2014-2024）等资料。[](https://news.mit.edu/2016/forbes-30-under-30-lists-0107)[](https://www.forbes.com/sites/sarahhedgecock/2015/01/05/30-under-30-young-scientists-who-are-changing-the-world/)[](https://www.jagranjosh.com/general-knowledge/list-of-top-people-under-age-of-30-1704694608-1)
 - 在确切出生年份未知时，根据成就时间线（如《福布斯》上榜时间）估算年龄。
 - 与先前回复不同，本名单排除纯企业家（如Melanie Perkins、Ritesh Agarwal），聚焦工程与科学领域的技术贡献者。

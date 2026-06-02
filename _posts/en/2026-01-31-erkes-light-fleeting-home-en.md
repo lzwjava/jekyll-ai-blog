@@ -23,6 +23,7 @@ Ba Jin wrote this essay after returning to his ancestral home in Chengdu after a
 ## Central Themes
 
 **The Symbol of Light**: The essay revolves around three kinds of light:
+
 - The lamp in Ibsen's work that symbolizes false hope leading people astray
 - The physical lamp at his family's gate, which once guided him home
 - The inner light of hope and progress that guides toward the future
@@ -44,6 +45,7 @@ This essay is considered one of Ba Jin's masterpieces of prose for several reaso
 ## Structure
 
 The essay moves between:
+
 - Present observations of the ruined family compound
 - Memories of his youth and family members (particularly his sister who died young)
 - Philosophical reflections on the meaning of home, tradition, and progress

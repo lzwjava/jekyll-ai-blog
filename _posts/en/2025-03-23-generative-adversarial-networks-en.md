@@ -18,7 +18,7 @@ GANs are a class of machine learning frameworks where two neural networks, the *
 The adversarial training is formalized as a **minimax game** with the value function \\(V(D, G)\\):
 
 \\[
-\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}(x)[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]
+\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}[x](\log D(x)) + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]
 \\]
 
 - **Discriminator Loss**: Maximize the probability of correctly classifying real and fake data:

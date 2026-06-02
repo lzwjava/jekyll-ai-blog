@@ -11,12 +11,15 @@ type: note
 在 Java Spring Boot 项目中，没有与 JavaScript 的 `Promise.all` 直接等效的功能——后者会等待多个 Promise 完成并提供它们的结果。不过，你可以通过 `java.util.concurrent` 包中的 `CompletableFuture`（特别是 `CompletableFuture.allOf` 方法）实现类似的功能：在 for 循环中并发运行多个任务，并在所有线程完成后使用它们的结果。这种方法非常适合 Spring Boot 项目，尤其是结合 Spring 的异步编程特性时。下面我将逐步解释如何实现，包括一个完整示例。
 
 ### 为什么选择 `CompletableFuture`？
+
 `CompletableFuture`（Java 8 引入）允许你执行异步操作并管理它们的完成状态。`allOf` 方法接受多个 `CompletableFuture` 实例，并返回一个新的 `CompletableFuture`，该 future 在所有给定的 future 完成时完成，这非常适合你的场景，即希望：
+
 - 在 for 循环中并行执行任务。
 - 等待所有任务完成。
 - 之后使用结果。
 
 ### 实现步骤
+
 以下是在 Spring Boot 项目中构建解决方案的方法：
 
 1. **定义异步任务**
@@ -35,9 +38,11 @@ type: note
    考虑任务执行期间可能出现的错误。
 
 ### 示例实现
+
 假设你有一个需要并发处理的项目列表（例如，调用服务或执行某些计算）。以下是两种方法：一种使用 Spring 的 `@Async` 注解，另一种使用 `CompletableFuture.supplyAsync`。
 
 #### 方法 1：使用 Spring 的 `@Async`
+
 Spring Boot 提供了 `@Async` 注解来异步运行方法。你需要在应用程序中启用异步支持。
 
 **步骤 1：启用异步支持**
@@ -128,6 +133,7 @@ public class ItemProcessor {
 ```
 
 **使用示例：**
+
 ```java
 List<String> items = Arrays.asList("Item1", "Item2", "Item3");
 List<String> results = itemProcessor.processItems(items);
@@ -135,6 +141,7 @@ System.out.println(results); // 输出：[Processed: Item1, Processed: Item2, Pr
 ```
 
 #### 方法 2：使用 `CompletableFuture.supplyAsync`
+
 如果你不想使用 `@Async`，可以使用 `Executor` 和 `CompletableFuture.supplyAsync` 手动管理线程。
 
 **步骤 1：配置线程池**
@@ -209,6 +216,7 @@ public class ItemProcessor {
 ```
 
 ### 关键点
+
 - **等待完成**：`CompletableFuture.allOf(...).join()` 或 `.get()` 确保主线程等待所有任务完成。使用 `join()` 可以避免处理受检异常；如果任务失败，它会抛出 `CompletionException`。
 - **异常处理**：如果需要处理异常，可以在 try-catch 块中包装 `.join()` 或 `.get()` 调用：
 
@@ -228,10 +236,12 @@ try {
 - **结果顺序**：结果保持输入列表的顺序，因为 future 是按照循环的顺序收集的。
 
 ### 选择哪种方法？
+
 - **使用 `@Async`**：如果你的任务自然属于 Spring 服务的一部分，并且你希望 Spring 管理线程，那么这种方法更简洁，并且与 Spring Boot 集成良好。
 - **使用 `supplyAsync`**：如果你需要更多控制任务执行，或者不想依赖 Spring 的异步框架。
 
 ### 最终答案
+
 要在 Java Spring Boot 项目中复制 `Promise.all` 的功能，用于 for 循环作业，在多线程执行后使用线程结果，请使用 `CompletableFuture.allOf` 和一个 `CompletableFuture` 实例列表。推荐使用 Spring 的 `@Async` 方法以简化操作，但使用自定义执行器的 `supplyAsync` 也可以。上面使用 `@Async` 的示例演示了这一点：
 
 - 使用 `@Async` 方法在 for 循环中创建 `CompletableFuture` 实例。

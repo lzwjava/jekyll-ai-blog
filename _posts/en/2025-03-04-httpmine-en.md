@@ -13,6 +13,7 @@ I assume you meant "httpmime.jar" rather than "httpmine.jar," as "httpmime" is a
 ---
 
 ### What is `httpmime.jar`?
+
 The `httpmime.jar` is part of the Apache HttpComponents project. It extends the functionality of `httpclient.jar` by providing support for multipart/form-data requests, which are commonly used for uploading files or sending complex data over HTTP.
 
 To use it, you’ll also need its dependencies, like `httpclient.jar` and `httpcore.jar`, since `httpmime` builds on these libraries.
@@ -22,6 +23,7 @@ To use it, you’ll also need its dependencies, like `httpclient.jar` and `httpc
 ### Steps to Use `httpmime.jar` in Your Java Project
 
 #### 1. **Download the JAR File**
+
 - Visit the [Apache HttpComponents Downloads page](https://hc.apache.org/downloads.cgi) or the Maven Repository for `httpmime` (e.g., [version 4.5.14](https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime)).
 - Download the `httpmime-<version>.jar` file (e.g., `httpmime-4.5.14.jar`).
 - You’ll also need:
@@ -32,12 +34,14 @@ To use it, you’ll also need its dependencies, like `httpclient.jar` and `httpc
 Alternatively, if you’re using Maven or Gradle, skip the manual download and add it via your build tool (see step 2).
 
 #### 2. **Add the JAR to Your Project**
+
 - **Manual Method (Without Build Tools):**
   - Place the downloaded `httpmime.jar`, `httpclient.jar`, and `httpcore.jar` files in a folder (e.g., `lib/` in your project directory).
   - If using an IDE like Eclipse or IntelliJ:
     - **Eclipse**: Right-click your project > Properties > Java Build Path > Libraries > Add External JARs > Select the JARs > Apply.
     - **IntelliJ**: File > Project Structure > Modules > Dependencies > "+" > JARs or directories > Select the JARs > OK.
   - If running from the command line, include the JARs in your classpath:
+
     ```bash
     javac -cp "lib/httpmime-4.5.14.jar;lib/httpclient-4.5.14.jar;lib/httpcore-4.4.16.jar" YourClass.java
     java -cp "lib/httpmime-4.5.14.jar;lib/httpclient-4.5.14.jar;lib/httpcore-4.4.16.jar;." YourClass
@@ -45,6 +49,7 @@ Alternatively, if you’re using Maven or Gradle, skip the manual download and a
 
 - **Using Maven (Recommended):**
   Add this to your `pom.xml`:
+
   ```xml
   <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -52,15 +57,18 @@ Alternatively, if you’re using Maven or Gradle, skip the manual download and a
       <version>4.5.14</version> <!-- Use the latest version -->
   </dependency>
   ```
+
   Maven will automatically pull in `httpclient` and `httpcore` as transitive dependencies.
 
 - **Using Gradle:**
   Add this to your `build.gradle`:
+
   ```gradle
   implementation 'org.apache.httpcomponents:httpmime:4.5.14'
   ```
 
 #### 3. **Write Code to Use `httpmime`**
+
 Here’s an example of using `httpmime` to upload a file via a multipart HTTP POST request:
 
 ```java
@@ -103,15 +111,18 @@ public class FileUploadExample {
 ```
 
 #### 4. **Key Classes and Usage**
+
 - **`MultipartEntityBuilder`**: Used to construct the multipart entity. You can add files (`addPart`), text (`addTextBody`), or binary data (`addBinaryBody`).
 - **`FileBody`**: Represents a file to be uploaded.
 - **`CloseableHttpClient`**: The HTTP client from `httpclient.jar` to execute the request.
 
 #### 5. **Run Your Program**
+
 - If using an IDE, just run the program.
 - If using the command line, compile and run with the classpath as shown above.
 
 #### 6. **Troubleshooting**
+
 - **ClassNotFoundException**: Ensure all required JARs (`httpmime`, `httpclient`, `httpcore`) are in your classpath.
 - **Version Mismatch**: Use compatible versions of the JARs (e.g., `httpmime-4.5.14` with `httpclient-4.5.14` and `httpcore-4.4.16`).
 - **Android Projects**: Android has its own `org.apache.http` package, which may conflict. Either exclude the built-in version or use a repackaged JAR (e.g., via JarJar).
@@ -119,6 +130,7 @@ public class FileUploadExample {
 ---
 
 ### Example Use Case
+
 If you’re uploading a file to a server (like a REST API), `httpmime` simplifies creating the `multipart/form-data` request, which is a standard for file uploads.
 
 Let me know if you need clarification or help with a specific scenario!

@@ -20,11 +20,13 @@ You are **mostly right**, but the full picture is a bit more nuanced. Here's a c
 ## Two Core GitHub Collaboration Models
 
 ### 1. Shared Repository Model (Collaborator + Direct Push)
+
 In the shared repository model, collaborators are granted push access to a single shared repository and topic branches are created when changes need to be made. This model is more prevalent with small teams and organizations collaborating on private projects.
 
 Pros: fast, direct push access; simpler for small teams; fewer remotes to manage.
 
 ### 2. Fork and Pull Model
+
 In the fork and pull model, anyone can fork an existing repository and push changes to their personal fork. You do not need permission to the source repository to push to a user-owned fork. This model is popular with open source projects as it reduces the amount of friction for new contributors and allows people to work independently without upfront coordination.
 
 ---
@@ -36,11 +38,13 @@ The shared repository model is usually (but not always) put into practice on sma
 Branching is ideal when you have write access to the original repo (e.g., you're a collaborator or team member). You create a branch in the original repo → make changes → submit a PR from your branch to the repo's main branch.
 
 So the recommended fast workflow for a small team is:
+
 - Add teammates as **collaborators** (Settings → Manage Access → Invite)
 - Everyone works on **feature branches** in the same repo (not forks)
 - Push branch → open PR from branch to `main` → merge
 
 This is **faster than fork+PR** because:
+
 - No need to manage multiple remotes (`origin` vs `upstream`)
 - No need to keep forks in sync with the original repo
 - This model is good for beginners to Git collaboration, since there is no need to sync anything after changes have been merged.
@@ -54,6 +58,7 @@ Even for a small team, **pushing directly to `main` without any PR is generally 
 Use forks for outsiders; use collaborators for trusted teammates. Protect main or release/* branches. Require at least 1–2 approving reviews. Require passing CI checks. Disable force pushes on protected branches.
 
 The **best practice for small teams** is:
+
 - ✅ Add teammates as collaborators
 - ✅ Create feature branches in the shared repo
 - ✅ Open PRs **from branch → main** (not from fork)

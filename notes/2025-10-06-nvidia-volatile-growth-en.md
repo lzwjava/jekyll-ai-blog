@@ -31,6 +31,7 @@ Stock performance was erratic but ultimately positive, with a compound annual gr
 | 2010 | -17.56    |
 
 Key highlights:
+
 - **Boom and bust (2000-2002)**: Explosive growth in 2001 from GeForce 2 launches, but the 2002 crash wiped out gains amid the broader tech downturn.
 - **Recovery (2003-2007)**: Strong rebounds fueled by Xbox partnerships, multiple acquisitions (e.g., 3dfx in 2002, MediaQ in 2003), and S&P 500 inclusion in 2001. Forbes named NVIDIA "Company of the Year" in 2007.
 - **Challenges and pivot (2008-2010)**: Global financial crisis hit hard in 2008, but 2009's surge came from CUDA adoption in scientific computing. By 2010, NVIDIA settled a lawsuit over defective chips and inked a $1.5 billion deal with Intel.
@@ -40,6 +41,7 @@ Overall, a $1,000 investment at the start of 2000 would have grown to about $2,5
 ### Jensen Huang's Growth During This Period
 
 Jensen Huang, NVIDIA's co-founder and CEO since 1993, solidified his role as a visionary leader during 2000-2010. Entering the decade as a battle-tested exec post-IPO (1999), he steered the company through near-collapse in the dot-com era, emphasizing relentless innovation in GPUs. Key aspects of his growth:
+
 - **Strategic pivots**: Huang championed acquisitions like 3dfx (2000-2002) to dominate 3D graphics and bet big on mobile/embedded tech (e.g., PortalPlayer in 2007). He launched CUDA in 2006, foreseeing GPUs' role in AI and HPC— a move that positioned NVIDIA for future dominance.
 - **Recognition and compensation**: By mid-decade, Huang was among the highest-paid CEOs (peaking at $23.5 million in 2007 salary/bonuses), reflecting NVIDIA's turnaround. Forbes highlighted his leadership in 2007.
 - **Personal evolution**: From a hands-on engineer (early jobs at AMD/LSI), Huang became a industry icon, often credited with NVIDIA's survival odds (he once said "0% chance" at founding). By 2010, his net worth tied to NVIDIA stock exceeded $1 billion, and he was building a culture of "first principles" thinking.

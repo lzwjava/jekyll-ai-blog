@@ -17,6 +17,7 @@ Hong Kong's English place names, like "Mong Kok" (from Cantonese romanization of
 In contrast, mainland China's big cities (e.g., Beijing, Shanghai, Guangzhou) officially use Hanyu Pinyin for romanization, a Mandarin-based system adopted in the 1950s and standardized globally since the 1970s. This replaced older colonial-era names like "Peking" with "Beijing." Pinyin is phonetic but strictly tied to Mandarin tones and syllables, resulting in names like "Wangfujing" (for 王府井, a famous Beijing street) or "Lujiazui" (Shanghai's financial district). It's not "creative" or dialect-specific like Hong Kong's—it's literal pronunciation transcription, often without tones for simplicity in English contexts.
 
 For tourism, there's some flexibility: Official translations mix pinyin with semantic elements for clarity. For example:
+
 - Pure pinyin: "Jiuzhaigou" (九寨沟, a scenic valley).
 - Pinyin + semantic: "Mount Huangshan" (黄山).
 - Full semantic: "The Summer Palace" (颐和园) or "The Temple of Heaven" (天坛).
@@ -36,6 +37,7 @@ In the long term (say, 10–20 years), if economic incentives grow—e.g., for m
 Overall, while tourism could nudge things forward, official standardization keeps pinyin dominant. Big cities might get "good" English nicknames informally via apps or branding, but formal adoption like Hong Kong's remains a stretch.
 
 ### References
+
 - [Translation Approaches in Rendering Names of Tourist Sites](https://www.researchgate.net/publication/352369661_Translation_Approaches_in_Rendering_Names_of_Tourist_Sites)
 - [Ahead of Winter Olympics, English names in Beijing's subway stations spark debate](https://edition.cnn.com/2022/01/05/china/olympics-beijing-subway-station-name-mic-intl-hnk)
 - [China Aims to Tighten Its Borders Against Foreign Place Names](https://www.nytimes.com/2016/03/24/world/asia/china-housing-foreign-names.html)

@@ -13,12 +13,14 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 1: Install VS Code
+
 - Ensure you have Visual Studio Code installed. Download it from [code.visualstudio.com](https://code.visualstudio.com/) if you haven’t already.
 - Update VS Code to the latest version for optimal compatibility (go to `Help > Check for Updates`).
 
 ---
 
 ### Step 2: Install the GitHub Copilot Extension
+
 1. **Open VS Code**.
 2. **Go to the Extensions Marketplace**:
    - Click the Extensions icon in the Activity Bar on the left (or press `Ctrl+Shift+X` / `Cmd+Shift+X` on Mac).
@@ -33,6 +35,7 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 3: Sign In to GitHub Copilot
+
 1. **Authenticate with GitHub**:
    - After installation, a prompt will appear asking you to sign in.
    - Click `Sign in to GitHub` in the pop-up or go to the Copilot status icon (bottom-right corner of VS Code) and select "Sign in".
@@ -47,6 +50,7 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 4: Configure Copilot (Optional)
+
 - **Enable/Disable Suggestions**:
   - Go to `File > Preferences > Settings` (or `Ctrl+,` / `Cmd+,`).
   - Search for "Copilot" to tweak settings like enabling inline suggestions or disabling it for specific languages.
@@ -56,9 +60,11 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 5: Start Using Copilot
+
 Here’s how to leverage Copilot in your coding workflow:
 
 #### 1. **Code Suggestions**
+
 - **Inline Autocomplete**:
   - Start typing in a file (e.g., `def calculate_sum(` in Python), and Copilot will suggest completions in gray text.
   - Press `Tab` to accept the suggestion or keep typing to ignore it.
@@ -67,11 +73,15 @@ Here’s how to leverage Copilot in your coding workflow:
   - Use `Alt+]` (or `Option+]` on Mac) to cycle through multiple suggestions.
 
 #### 2. **Code Generation from Comments**
+
 - Type a descriptive comment like:
+
   ```javascript
   // Fetch data from an API and handle errors
   ```
+
   Press Enter, and Copilot may generate:
+
   ```javascript
   async function fetchData(url) {
     try {
@@ -83,9 +93,11 @@ Here’s how to leverage Copilot in your coding workflow:
     }
   }
   ```
+
 - Accept with `Tab` or tweak as needed.
 
 #### 3. **Copilot Chat (If Installed)**
+
 - **Open Chat**:
   - Click the chat icon in the sidebar or use `Ctrl+Alt+C` (customizable).
 - **Ask Questions**:
@@ -95,11 +107,13 @@ Here’s how to leverage Copilot in your coding workflow:
   - Highlight code, right-click, and select “Ask Copilot” to explain or refactor it.
 
 #### 4. **Debugging and Testing**
+
 - Write a comment like `// Write unit tests for this function`, and Copilot can generate test cases using frameworks like Jest or PyTest.
 
 ---
 
 ### Tips for Effective Use
+
 - **Be Specific**: The more context you provide (e.g., comments, variable names), the better Copilot’s suggestions.
 - **Review Suggestions**: Copilot isn’t perfect—always check its code for accuracy and security.
 - **Language Support**: It works best with popular languages (Python, JavaScript, Java, etc.) but supports dozens more.
@@ -110,6 +124,7 @@ Here’s how to leverage Copilot in your coding workflow:
 ---
 
 ### Troubleshooting
+
 - **Not Working?**:
   - Ensure you’re signed in (check the status bar).
   - Verify your subscription is active in your GitHub account settings.
@@ -128,12 +143,14 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 1: Install VS Code
+
 - Ensure you have Visual Studio Code installed. Download it from [code.visualstudio.com](https://code.visualstudio.com/) if you haven’t already.
 - Update VS Code to the latest version for optimal compatibility (go to `Help > Check for Updates`).
 
 ---
 
 ### Step 2: Install the GitHub Copilot Extension
+
 1. **Open VS Code**.
 2. **Go to the Extensions Marketplace**:
    - Click the Extensions icon in the Activity Bar on the left (or press `Ctrl+Shift+X` / `Cmd+Shift+X` on Mac).
@@ -148,6 +165,7 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 3: Sign In to GitHub Copilot
+
 1. **Authenticate with GitHub**:
    - After installation, a prompt will appear asking you to sign in.
    - Click `Sign in to GitHub` in the pop-up or go to the Copilot status icon (bottom-right corner of VS Code) and select "Sign in".
@@ -162,6 +180,7 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 4: Configure Copilot (Optional)
+
 - **Enable/Disable Suggestions**:
   - Go to `File > Preferences > Settings` (or `Ctrl+,` / `Cmd+,`).
   - Search for "Copilot" to tweak settings like enabling inline suggestions or disabling it for specific languages.
@@ -171,9 +190,11 @@ Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you
 ---
 
 ### Step 5: Start Using Copilot
+
 Here’s how to leverage Copilot in your coding workflow:
 
 #### 1. **Code Suggestions**
+
 - **Inline Autocomplete**:
   - Start typing in a file (e.g., `def calculate_sum(` in Python), and Copilot will suggest completions in gray text.
   - Press `Tab` to accept the suggestion or keep typing to ignore it.
@@ -182,11 +203,15 @@ Here’s how to leverage Copilot in your coding workflow:
   - Use `Alt+]` (or `Option+]` on Mac) to cycle through multiple suggestions.
 
 #### 2. **Code Generation from Comments**
+
 - Type a descriptive comment like:
+
   ```javascript
   // Fetch data from an API and handle errors
   ```
+
   Press Enter, and Copilot may generate:
+
   ```javascript
   async function fetchData(url) {
     try {
@@ -198,9 +223,11 @@ Here’s how to leverage Copilot in your coding workflow:
     }
   }
   ```
+
 - Accept with `Tab` or tweak as needed.
 
 #### 3. **Copilot Chat (If Installed)**
+
 - **Open Chat**:
   - Click the chat icon in the sidebar or use `Ctrl+Alt+C` (customizable).
 - **Ask Questions**:
@@ -210,11 +237,13 @@ Here’s how to leverage Copilot in your coding workflow:
   - Highlight code, right-click, and select “Ask Copilot” to explain or refactor it.
 
 #### 4. **Debugging and Testing**
+
 - Write a comment like `// Write unit tests for this function`, and Copilot can generate test cases using frameworks like Jest or PyTest.
 
 ---
 
 ### Tips for Effective Use
+
 - **Be Specific**: The more context you provide (e.g., comments, variable names), the better Copilot’s suggestions.
 - **Review Suggestions**: Copilot isn’t perfect—always check its code for accuracy and security.
 - **Language Support**: It works best with popular languages (Python, JavaScript, Java, etc.) but supports dozens more.
@@ -225,6 +254,7 @@ Here’s how to leverage Copilot in your coding workflow:
 ---
 
 ### Troubleshooting
+
 - **Not Working?**:
   - Ensure you’re signed in (check the status bar).
   - Verify your subscription is active in your GitHub account settings.

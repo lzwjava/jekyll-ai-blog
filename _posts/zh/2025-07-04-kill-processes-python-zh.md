@@ -15,6 +15,7 @@ type: note
 要通过编程方式在 Windows 上终止进程，主要使用 `subprocess` 模块来调用系统命令（如 `taskkill`）。`signal` 模块主要针对 Unix 系统，在 Windows 上无法可靠地处理进程终止（像 SIGKILL 这样的信号并非原生支持；`os.kill()` 可以发送有限信号，但并非完全终止进程的理想方式）。`platform` 模块可帮助确认当前处于 Windows 系统以实现特定行为。
 
 #### 第一步：安装并导入模块
+
 - `subprocess`、`signal` 和 `platform` 属于 Python 标准库，无需安装。
 - 导入示例：
 
@@ -25,6 +26,7 @@ import os  # 如需获取 PID
 ```
 
 #### 第二步：检测 Windows 系统（使用 `platform`）
+
 - 确认运行环境以避免跨平台问题：
 
 ```python
@@ -33,6 +35,7 @@ if platform.system() == 'Windows':
 ```
 
 #### 第三步：终止进程
+
 - 通过进程 ID（PID）或进程名称终止现有进程时，请通过 `subprocess` 使用 `taskkill` 命令。这是可靠的 Windows 原生方式，因为 `subprocess.terminate()` 或 `.kill()` 仅适用于通过 `subprocess.Popen` 启动的进程。
 - 示例：通过 PID 终止进程（使用 `/F` 参数强制终止）。请将 `1234` 替换为实际 PID。
 
@@ -63,6 +66,7 @@ kill_process_by_name('notepad.exe')
 ```
 
 #### 限制与注意事项
+
 - `subprocess` 会调用外部命令，请确保脚本具有适当权限（例如对系统进程需以管理员身份运行）。
 - 对于通过 `subprocess.Popen` 启动的进程，可直接使用 `.terminate()`（友好关闭）或 `.kill()`（强制终止）：
 

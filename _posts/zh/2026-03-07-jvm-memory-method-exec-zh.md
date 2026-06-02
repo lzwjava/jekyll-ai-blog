@@ -56,6 +56,7 @@ Native method stack 处理与 Java 代码交互的 native 方法的执行。此�
 每次调用方法时，JVM 都会在 thread 的 stack 上分配一个新的 **stack frame**。此 frame 是一个自包含的内存单元，持有执行该方法所需的所有数据。Frame 在 stack 上保留，直到方法正常完成或异常退出（例如由于异常）。方法返回后，其 frame 从 stack 中移除，内存会自动回收——stack 内存无需垃圾回收。
 
 每个 stack frame 包含：
+
 - **Local variable array**：持有所有方法参数和方法内声明的本地变量。
 - **Operand stack**：JVM 内部用于评估表达式和存储中间计算结果。
 - **Return value slot**：如果有，在将结果传递回调用方法之前存储方法调用结果。
@@ -115,6 +116,7 @@ Native method stack 处理与 Java 代码交互的 native 方法的执行。此�
 JMM 定义了一个线程所做的更改何时对其他线程可见。由于 CPU caches，一个线程对变量的更新可能不会立即对另一个线程可见。JVM 和处理器也可以重新排序指令以优化性能——如果不正确管理，这种重新排序可能导致意外行为。
 
 确保线程安全的关键工具：
+
 - `volatile` —— 保证跨线程可见性
 - `synchronized` —— 确保互斥和内存可见性
 - `happens-before` —— 对所有动作的部分顺序，确保如果程序顺序中一个动作发生在另一个之前，它会在 happens-before 顺序中发生在另一个之前，从而在并发程序中启用安全推理。

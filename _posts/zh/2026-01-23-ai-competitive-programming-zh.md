@@ -17,11 +17,13 @@ Answer:
 **是的，比赛仍然有意义——但 2025-2026 年的情况已经发生了显著变化。**
 
 AI（特别是像 OpenAI 的 o3 / o4 系列模型）在 competitive programming 方面已经变得极其强大：
+
 - 顶尖 AI 模型达到约 2700-2800 Codeforces rating（处于人类前 0.2-0.3% 的水平，全球排名约为 100-200 名）。
 - 它们在 ICPC WF 2025 中达到了金牌水平，并在 IOI 级别的比赛中取得了非常强劲的成绩。
 - 在许多 Div. 2 / Div. 3 / Div. 4 轮次中，现代 AI 如果获得题面，可以非常迅速地解决 4-6 道题。
 
 这使得 **cheating 变得比以前容易得多**。许多参赛者现在将题面输入给 AI（有时仅进行极少的修改）并提交。在最近的一些轮次中：
+
 - 在某些情况下，高排名中有一个明显的比例（约 4%）来自被检测出的 AI cheaters，他们的成绩随后被跳过或回滚。
 - 在较简单的比赛中，对于任何愿意作弊的人来说，用 AI 解决 3-4 道题是轻而易举的——你甚至不再需要强大的 coding 技能。
 
@@ -33,11 +35,13 @@ AI（特别是像 OpenAI 的 o3 / o4 系列模型）在 competitive programming 
 - **Community 和 anti-cheat 措施** 确实存在。Codeforces 会封禁明显的 AI cheaters（特别是 copy-paste 风格的），在抓获大批作弊者时会回滚 ratings，并明确规定禁止在比赛期间使用 AI 辅助（包括在提交失败后使用 AI 进行 debugging）。
 
 目前的现实情况（2026 年初）：
+
 - **Div 4 / Div 3 / 简单的 Div 2** → AI cheating 现象严重，利用 AI 解决 3-4 道题很容易，作弊者的 ratings 有所虚高。
 - **困难的 Div 2 / Div 1** → AI 虽然强大，但远非不可战胜；具有创意、侧重 proof 或 heavy-implementation 的问题对当前模型来说仍然很困难。
 - **诚实的参与者** 与 2023-2024 年的水平相比，由于 cheater 导致的通胀，rating 通常会下降 100-400 分，但技能的提升依然能从表现中体现出来。
 
 许多强大的 coders 现在更多地将 competitive programming 视为：
+
 - 一种有趣的 puzzle-solving 爱好
 - Algorithm 学习和 interview preparation
 - 一项与朋友/社区共同参与的类体育活动

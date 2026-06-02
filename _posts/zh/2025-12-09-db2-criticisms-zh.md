@@ -27,6 +27,7 @@ IBM DB2 是一款可靠的企业级关系型数据库管理系统（RDBMS），�
 这些观点反映了一个分歧点：DB2 在受监管的、高风险场景中表现出色，但在 PostgreSQL 或 MySQL 主导的世界中，它在可访问性和适应性方面面临挑战。
 
 参考资料：
+
 - [IBM Db2 Pros and Cons on G2](https://www.g2.com/products/ibm-db2/reviews?qs=pros-and-cons)
 - [IBM Db2 Database Pros and Cons on PeerSpot](https://www.peerspot.com/products/ibm-db2-database-pros-and-cons)
 - [Pros and Cons of IBM DB2 on Quora](https://www.quora.com/What-are-pros-and-cons-of-using-IBM-DB2-as-a-database)

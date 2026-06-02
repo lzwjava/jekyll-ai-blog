@@ -18,17 +18,17 @@ At its core, Spring Cloud Sleuth instruments Spring applications to automaticall
 
 **Key Terminology:**
 
-  * **Trace:** Represents a single request or job that flows through the application. Each trace has a unique `traceId`. Think of it as the end-to-end journey of a request.
-  * **Span:** Represents a logical unit of work within a trace. A trace is composed of multiple spans, forming a tree-like structure. Each span has a unique `spanId`. For example, an incoming HTTP request might be one span, and a method call within that request could be another (child) span.
-  * **MDC (Mapped Diagnostic Context):** Sleuth integrates with Slf4J's MDC to inject `traceId` and `spanId` into your log messages, making it easy to filter and correlate logs for a specific request.
+* **Trace:** Represents a single request or job that flows through the application. Each trace has a unique `traceId`. Think of it as the end-to-end journey of a request.
+* **Span:** Represents a logical unit of work within a trace. A trace is composed of multiple spans, forming a tree-like structure. Each span has a unique `spanId`. For example, an incoming HTTP request might be one span, and a method call within that request could be another (child) span.
+* **MDC (Mapped Diagnostic Context):** Sleuth integrates with Slf4J's MDC to inject `traceId` and `spanId` into your log messages, making it easy to filter and correlate logs for a specific request.
 
 ## 2\. Why use Sleuth in a Single Application?
 
 Even in a monolith, requests often involve multiple layers, asynchronous operations, and different threads. Manually correlating log messages for a single request can be tedious and error-prone. Sleuth automates this by:
 
-  * **Simplifying Debugging:** By adding `traceId` and `spanId` to every log entry, you can easily filter logs to see everything related to a specific user request, even if it traverses multiple methods, services, or threads within your single application.
-  * **Improved Observability:** Provides a clearer picture of how a request flows and where potential bottlenecks or issues might occur.
-  * **Consistency:** Ensures a consistent approach to logging correlation without requiring manual effort in every part of your codebase.
+* **Simplifying Debugging:** By adding `traceId` and `spanId` to every log entry, you can easily filter logs to see everything related to a specific user request, even if it traverses multiple methods, services, or threads within your single application.
+* **Improved Observability:** Provides a clearer picture of how a request flows and where potential bottlenecks or issues might occur.
+* **Consistency:** Ensures a consistent approach to logging correlation without requiring manual effort in every part of your codebase.
 
 ## 3\. Getting Started: Setup and Configuration
 
@@ -80,10 +80,10 @@ Spring Cloud Sleuth automatically modifies the default logging pattern to includ
 
 Here:
 
-  * `my-single-app`: Is the `spring.application.name`.
-  * `a1b2c3d4e5f6a7b8`: Is the `traceId`.
-  * `a1b2c3d4e5f6a7b8` (second one): Is the `spanId` (for the root span, traceId and spanId are often the same).
-  * `false`: Indicates if the span is exportable (true means it will be sent to a tracing collector like Zipkin).
+* `my-single-app`: Is the `spring.application.name`.
+* `a1b2c3d4e5f6a7b8`: Is the `traceId`.
+* `a1b2c3d4e5f6a7b8` (second one): Is the `spanId` (for the root span, traceId and spanId are often the same).
+* `false`: Indicates if the span is exportable (true means it will be sent to a tracing collector like Zipkin).
 
 If you have a custom logging pattern, you'll need to explicitly add the `traceId` and `spanId` to it using `%X{traceId}` and `%X{spanId}` (for Logback).
 
@@ -105,11 +105,11 @@ Once the `spring-cloud-starter-sleuth` dependency is on the classpath, Spring Bo
 
 Sleuth automatically instruments common Spring components and communication channels:
 
-  * **Servlet Filter:** For incoming HTTP requests to your controllers.
-  * **RestTemplate:** For outgoing HTTP calls made using `RestTemplate` (ensure you're using a bean-managed `RestTemplate` for Sleuth to auto-instrument it).
-  * **Scheduled Actions:** For `@Scheduled` methods.
-  * **Message Channels:** For Spring Integration and Spring Cloud Stream.
-  * **Asynchronous Methods:** For `@Async` methods (ensures trace/span context is propagated across threads).
+* **Servlet Filter:** For incoming HTTP requests to your controllers.
+* **RestTemplate:** For outgoing HTTP calls made using `RestTemplate` (ensure you're using a bean-managed `RestTemplate` for Sleuth to auto-instrument it).
+* **Scheduled Actions:** For `@Scheduled` methods.
+* **Message Channels:** For Spring Integration and Spring Cloud Stream.
+* **Asynchronous Methods:** For `@Async` methods (ensures trace/span context is propagated across threads).
 
 ### 4.2. Simple Web Request Example
 

@@ -34,9 +34,11 @@ Even "internet fame" is mostly ephemeral. Viral moments, popular accounts, trend
 The people you mentioned — Yin Wang, Feynman, Newton — share something critical: **they changed how people think, not just what people know.** That distinction is the key.
 
 ### Isaac Newton
+
 Newton didn't just discover gravity. He gave humanity a **framework** — calculus, laws of motion, a mathematical language for the universe. Every physics student today literally thinks using his tools. His "spirit" is embedded in how science is done.
 
 ### Richard Feynman
+
 Feynman's achievements came not from particular brilliance in any one area, but from the fact that he applied a different type of thinking — pulling together and synthesizing ideas from completely unrelated fields and providing fresh perspectives. His legacy is preserved through multiple channels:
 
 - His lectures were published as *The Feynman Lectures on Physics*, which remain a popular reference for physics students to this day.
@@ -46,6 +48,7 @@ Feynman's achievements came not from particular brilliance in any one area, but 
 His personality — the curiosity, the bongo drums, the radical honesty — also lives on in his books, giving him a **human presence** that transcends his equations. He was described as "a unique combination of dazzling intellect and touching simplicity" with a passion for physics that was "merely the Nobel Prize-winning part of an immense love of life."
 
 ### Yin Wang (王垠)
+
 Yin Wang has over 13,800 followers on GitHub, and his blog at yinwang.org has been mirrored, archived, and discussed extensively across the Chinese-speaking tech world. His essays on programming language theory, critical thinking, and rejecting dogma in software engineering have influenced a generation of developers — not because he was famous, but because his arguments were **sharp, independent, and hard to dismiss**. His critiques of OOP, type theory, and functional programming dogma challenged what many took for granted, and people keep sharing and debating his ideas because they carry genuine intellectual force.
 
 ---

@@ -17,9 +17,11 @@ Foreign keys in Db2 enforce referential integrity by linking a column (or set of
 You can define foreign keys either during table creation using `CREATE TABLE` or by adding them to an existing table using `ALTER TABLE`. The syntax is standard SQL and works across Db2 platforms (e.g., LUW, z/OS).
 
 #### 1. Defining a Foreign Key During Table Creation (`CREATE TABLE`)
+
 Use the `FOREIGN KEY` clause within the column definitions or at the end of the table definition.
 
 **Basic Syntax:**
+
 ```
 CREATE TABLE child_table (
     child_column1 datatype,
@@ -33,6 +35,7 @@ CREATE TABLE child_table (
 
 **Example:**
 Assume you have a `departments` table with a primary key `dept_id`:
+
 ```
 CREATE TABLE departments (
     dept_id INTEGER NOT NULL PRIMARY KEY,
@@ -41,6 +44,7 @@ CREATE TABLE departments (
 ```
 
 Now create an `employees` table with a foreign key referencing `dept_id`:
+
 ```
 CREATE TABLE employees (
     emp_id INTEGER NOT NULL PRIMARY KEY,
@@ -55,9 +59,11 @@ CREATE TABLE employees (
 This creates a foreign key named `fk_emp_dept` on `dept_id` in `employees`.
 
 #### 2. Adding a Foreign Key to an Existing Table (`ALTER TABLE`)
+
 Use `ALTER TABLE` to add the constraint after the table exists. The parent key must already exist.
 
 **Basic Syntax:**
+
 ```
 ALTER TABLE child_table
 ADD CONSTRAINT constraint_name
@@ -67,6 +73,7 @@ REFERENCES parent_table (parent_key_column);
 
 **Example:**
 To add the same foreign key to an existing `employees` table:
+
 ```
 ALTER TABLE employees
 ADD CONSTRAINT fk_emp_dept
@@ -75,13 +82,16 @@ REFERENCES departments (dept_id);
 ```
 
 #### Additional Options
+
 You can specify actions for what happens when a parent row is updated or deleted:
+
 - `ON DELETE CASCADE`: Deletes child rows when the parent is deleted.
 - `ON DELETE SET NULL`: Sets the foreign key to NULL in child rows.
 - `ON UPDATE CASCADE`: Updates child keys when the parent key changes.
 - `ON UPDATE SET NULL`: Sets to NULL on parent key update.
 
 **Example with Options:**
+
 ```
 ALTER TABLE employees
 ADD CONSTRAINT fk_emp_dept
@@ -92,6 +102,7 @@ ON UPDATE RESTRICT;
 ```
 
 #### Key Rules and Considerations
+
 - The foreign key columns must match the data type and length of the parent key columns.
 - The parent table must have a primary or unique key defined before creating the foreign key.
 - Foreign keys can reference the same table (self-referential).
@@ -102,6 +113,7 @@ ON UPDATE RESTRICT;
 Test in a development environment, as adding constraints may fail if existing data violates them (e.g., orphaned rows).
 
 #### References
+
 - [Foreign key (referential) constraints - Db2 11.5](https://www.ibm.com/docs/en/db2/11.5.x?topic=constraints-foreign-key-referential)
 - [CREATE TABLE statement - Db2 11.5](https://www.ibm.com/docs/en/db2/11.5.x?topic=statements-create-table)
 - [ALTER TABLE statement - Db2 11.5](https://www.ibm.com/docs/en/db2/11.5.x?topic=statements-alter-table)

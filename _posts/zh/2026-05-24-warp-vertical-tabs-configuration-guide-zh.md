@@ -64,6 +64,7 @@ split_direction = "horizontal"
 右键点击垂直标签面板或水平标签栏中的任意标签，然后点击 **"Save as new config"** — Warp 会根据标签的布局、命令和目录生成一个 `.toml` 文件。
 
 标签配置文件位于：
+
 ```
 ~/.local/share/warp-terminal/tab_configs/   # stable
 ~/.local/share/warp-terminal-preview/tab_configs/  # preview

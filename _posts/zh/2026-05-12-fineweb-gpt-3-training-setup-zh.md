@@ -32,6 +32,7 @@ python train.py config/train_fineweb_gpt3.py 2>&1 | tee out-fineweb-gpt3/train.l
 ```
 
 ### 后续可调整的注意事项/参数
+
 - `max_iters=19073` ≈ 在 524k tokens/step 下看到约 **100 亿 tokens**。要真正使用你 tokenized 的全部约 1400 亿 tokens，请将其增加到约 267000（并将 `lr_decay_iters` 设置为相同值）。这在 4070 上需要运行数天。
 - 如果试运行时出现 OOM（内存不足），请将 `batch_size` 降至 4，并将 `gradient_accumulation_steps` 加倍至 128（保持 tokens/step 不变）。
 - 如果 `compile=True` 在你的 PyTorch/CUDA 组合上出错，请改用 `--compile=False`。

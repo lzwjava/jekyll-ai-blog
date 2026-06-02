@@ -16,6 +16,7 @@ type: note
 是的，进行根本原因分析是更明智的长期方法——盲目尝试修复通常会浪费时间，且问题可能再次出现。根据 Camoufox（一个基于 Firefox 的反检测浏览器，用于自动化/爬虫，JS 端口通过 apify/camoufox-js）的常见报告，在 `camoufox fetch` 或类似步骤中下载缓慢或卡住通常源于网络相关问题，而非工具本身。
 
 ### 可能的根本原因
+
 - **网络限制或连接质量差**：许多用户（尤其是在互联网管控严格的地区）在下载大型二进制文件、GeoIP 数据库、模型文件、uBlock Origin 扩展或来自 addons.mozilla.org、GitHub releases 或 BrowserForge 相关端点的指纹数据时遇到此问题。防火墙、ISP 或 CDN 路由可能会限制或阻止这些下载。
 - **速率限制或临时服务器问题**：在下载指纹或模型时，曾报告过 HTTP 429（请求过多）等错误。
 - **代理干扰**：您提到代理没有帮助——有时代理会增加开销、导致连接不稳定或自身被阻止。
@@ -26,6 +27,7 @@ type: note
 这不是 "Hermes Camoufox" 独有的问题——这与 Camoufox 中下载在扩展/模型上挂起的常见问题一致，通常通过绕过自动获取来解决。
 
 ### 有效解决方案（优先处理根本原因）
+
 1. **手动下载并放置（最可靠的变通方法）**：
    - 运行 `camoufox remove`（或 JS 端口的等效命令）以清理任何部分缓存。
    - 确定正在下载的内容（检查控制台输出或 GitHub 问题中的确切 URL——通常是 uBlock .xpi、GeoIP 数据库或浏览器二进制文件）。
@@ -57,7 +59,8 @@ type: note
 如果以上方法无法解决，请分享确切的命令/输出/错误信息以获得更有针对性的帮助。
 
 参考：
-- https://github.com/daijro/camoufox/issues/324（针对卡住获取的手动扩展下载变通方法）
-- https://github.com/daijro/camoufox/issues/409（指纹下载的速率限制）
-- https://github.com/daijro/camoufox/issues/342（获取的代理支持请求）
+
+- <https://github.com/daijro/camoufox/issues/324（针对卡住获取的手动扩展下载变通方法）>
+- <https://github.com/daijro/camoufox/issues/409（指纹下载的速率限制）>
+- <https://github.com/daijro/camoufox/issues/342（获取的代理支持请求）>
 - 安装指南中关于特定网络下载缓慢/部分的说明。

@@ -16,6 +16,7 @@ type: note
 - **安装要求**：运行该命令前必须已安装 GitHub CLI。安装过程对企业用户和个人用户相同，但企业策略可能会限制使用。[](https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/set-up/install-copilot-in-the-cli)
 
 **企业用户操作步骤**：
+
 1. 确保已安装 GitHub CLI（参阅 [GitHub CLI 仓库](https://github.com/cli/cli)获取指南）。
 2. 向企业管理员确认已为组织启用 Copilot CLI。
 3. 在终端中运行 `gh extension install github/gh-copilot`。

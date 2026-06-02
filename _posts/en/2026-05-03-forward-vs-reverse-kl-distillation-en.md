@@ -29,7 +29,7 @@ In standard knowledge distillation, the student tries to match the teacher’s p
 
 This is called **forward KL (or KL teacher → student)**.
 
-### Intuition:
+### Intuition
 
 * Teacher says: “these are the likely actions”
 * Student tries to **cover all modes the teacher considers important**
@@ -52,7 +52,7 @@ Now:
 * Student distribution is “leading”
 * Teacher distribution is the reference
 
-### Intuition:
+### Intuition
 
 * Student is penalized if it puts probability mass where teacher doesn’t
 * Encourages **mode-seeking behavior** (pick one best action instead of covering all)

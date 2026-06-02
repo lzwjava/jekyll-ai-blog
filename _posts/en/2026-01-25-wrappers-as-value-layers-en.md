@@ -19,6 +19,7 @@ Yes — almost the entire software and internet stack can be understood as **nes
 Here are the key points about why wrappers exist and when they create meaningful value:
 
 ### 1. Value comes mostly from **reducing cognitive load** and **increasing leverage**
+
 - Raw CUDA → writing kernels in C++/PTX is extremely tedious and error-prone
 - PyTorch → hides most of that complexity → 10–100× fewer lines of code for the same model
 - LLM APIs (OpenAI, Anthropic, Grok API, etc.) → hide tokenization, sampling, context management, rate limits, retries → you just send text and get text back
@@ -27,6 +28,7 @@ Here are the key points about why wrappers exist and when they create meaningful
 Each good layer typically gives you **orders of magnitude higher productivity** for the average user.
 
 ### 2. The thinner / lighter the wrapper → usually the less incremental value
+
 Examples of very thin wrappers that add almost no value:
 
 - A library that just renames torch.nn.Linear → nn.Dense (and nothing else)
@@ -48,6 +50,7 @@ These usually die quickly unless they have extremely strong distribution, brand,
 | Specialization / vertical  | Retool / Supabase / Convex           | 20–200× in niche |
 
 ### 4. The best wrappers are **opinionated** and **remove choices**
+
 - requests is opinionated (sane defaults, session handling, modern TLS)
 - Next.js is opinionated (file-system routing, server components)
 - Stripe SDKs are extremely opinionated → huge value exactly because they hide 90% of payment complexity

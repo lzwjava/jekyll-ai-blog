@@ -20,6 +20,7 @@ OpenHarness 是由港大数据科学（HKUDS）团队开发的开源 Python 框�
 **智能体框架** 是围绕大语言模型（LLM）构建、使其成为功能化智能体的完整基础设施。模型提供智能，而框架则提供双手、双眼、记忆与安全边界。
 
 简言之：
+
 - **LLM** = 大脑（决定 *做什么*）
 - **框架** = 躯体（处理 *如何做* —— 安全、高效、可观测）
 
@@ -47,21 +48,27 @@ OpenHarness 通过 10 个子系统实现了核心的智能体框架模式：
 ### 主要特性
 
 #### 1. 智能体循环引擎
+
 智能体循环支持流式工具调用周期、带指数退避的 API 重试、并行工具执行以及令牌计数与成本追踪。
 
 #### 2. 工具系统（43+）
+
 工具覆盖多类别：文件 I/O（Bash、Read、Write、Edit、Glob、Grep）、搜索（WebFetch、WebSearch、ToolSearch）、用于生成子智能体的 Agent 工具、任务管理以及 MCP（Model Context Protocol）集成。每个工具都具备 Pydantic 输入验证、自描述的 JSON Schema、权限集成和钩子支持。
 
 #### 3. 技能系统
+
 技能是按需知识，仅在模型需要时加载。示例包括 `commit`、`review`、`debug`、`plan`、`test`、`simplify`、`pdf`、`xlsx` 等 40 多种。同时兼容官方的 `anthropics/skills` 仓库 —— 只需将 `.md` 文件复制到 `~/.openharness/skills/` 即可。
 
 #### 4. 权限与安全
+
 支持多级权限模式：**默认模式**（写/执行前询问）、**自动模式**（允许所有操作，适用于沙盒环境）和**计划模式**（阻止所有写操作，用于先审查后执行的工作流）。可在 `settings.json` 中配置路径级规则和禁用命令列表。
 
 #### 5. 多智能体/群体协调
+
 OpenHarness 支持子智能体生成与委派、团队注册与任务管理、后台任务生命周期管理以及 ClawTeam 集成（路线图中）。
 
 #### 6. 插件系统
+
 兼容 claude-code 插件，已测试 12 个官方插件。示例包括用于 git 工作流的 `commit-commands`、在文件编辑时提供安全警告的 `security-guidance`、执行多智能体 PR 审查的 `code-review`，以及创建自定义行为钩子的 `hookify`。
 
 ---

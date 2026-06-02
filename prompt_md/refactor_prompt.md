@@ -1,7 +1,9 @@
 # Refactor Prompt
 
 ## Instructions
+
 Refactor the Python code below, focusing on:
+
 - Improving readability
 - Enhancing maintainability
 - Following Python best practices
@@ -9,9 +11,11 @@ Refactor the Python code below, focusing on:
 - if there is missing param, use arg.parse
 
 ## Target File
+
 `scripts/prompt/refactor_prompt.py`
 
 ## Code to Refactor
+
 ```python
 import argparse
 import os
@@ -45,9 +49,11 @@ Refactor the Python code below, focusing on:
 ```
 
 ## Sample Reference Code
+
 ```python
 {sample}
 ```
+
 """
         return prompt
     except FileNotFoundError:
@@ -60,7 +66,7 @@ def save_prompt_to_md(prompt, original_path):
     try:
         # Get the base filename without extension
         base_name = os.path.basename(original_path)
-        file_name = os.path.splitext(base_name)[0] + ".md"
+        file_name = os.path.splitext[base_name](0) + ".md"
 
         # Define the output directory
         output_dir = "scripts/prompt_md"

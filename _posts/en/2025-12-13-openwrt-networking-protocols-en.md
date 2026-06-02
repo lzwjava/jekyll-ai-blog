@@ -46,7 +46,7 @@ OpenWrt's extensibility allows adding more protocols via thousands of available 
 
 References:
 
-- https://openwrt.org/docs/guide-user/network/tunneling_interface_protocols
-- https://en.wikipedia.org/wiki/OpenWrt
-- https://sternumiot.com/iot-blog/openwrt-how-it-works-challenges-and-alternatives/
-- https://teklager.se/en/knowledge-base/openwrt-4g-wwan-configuration/
+- <https://openwrt.org/docs/guide-user/network/tunneling_interface_protocols>
+- <https://en.wikipedia.org/wiki/OpenWrt>
+- <https://sternumiot.com/iot-blog/openwrt-how-it-works-challenges-and-alternatives/>
+- <https://teklager.se/en/knowledge-base/openwrt-4g-wwan-configuration/>

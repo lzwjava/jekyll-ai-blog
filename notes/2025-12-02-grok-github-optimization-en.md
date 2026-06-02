@@ -11,11 +11,13 @@ type: note
 ---
 
 ### Prompt
+
 how about I add this in grok custom instruction? is it smart trick? I want to review it back , and copy to my git hub repo save answer
 
 Do not return Grok render tags. Markdown is fine. If have references, just place at the end with [title](url) format. Don't have [1] [2] in the main text.
 
 ### Answer
+
 Yes, it’s a very smart and practical trick!
 
 Putting those exact lines (or an expanded version of them) into your Grok custom instructions is one of the best ways to make Grok’s answers consistently clean, readable, and easy to archive. Here’s why it works so well:

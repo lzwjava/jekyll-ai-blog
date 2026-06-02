@@ -15,6 +15,7 @@ The author’s analysis touches on several valid technical and conceptual points
 ---
 
 ### **1. Frame Coherence in Videos: Correct but Context-Dependent**
+
 - **Right:**
   - **Traditional videos** (e.g., movies, animations) require **temporal coherence** (smooth transitions, consistent objects/motion) for realism.
   - **Instructional/PPT-style videos** (e.g., slideshows, whiteboard animations) often prioritize **per-frame clarity** over coherence. Each frame can be independent, like a sequence of images.
@@ -26,6 +27,7 @@ The author’s analysis touches on several valid technical and conceptual points
 ---
 
 ### **2. Vectorizing Frames and Transformer Limitations**
+
 - **Right:**
   - Representing a frame as a vector (e.g., 512-dim) is common in autoencoders or diffusion models, but this alone doesn’t capture **temporal dynamics**.
   - **Self-attention (KQV) in transformers** is designed for **within-sequence relationships** (e.g., words in a sentence, patches in an image). For video, you need to model **cross-frame relationships** to handle motion/object persistence.
@@ -37,6 +39,7 @@ The author’s analysis touches on several valid technical and conceptual points
 ---
 
 ### **3. Gaussian Distributions and Smoothness**
+
 - **Right:**
   - **Gaussian noise/distributions** are used in diffusion models to **gradually denoise** latent vectors, which can help generate smooth transitions between frames.
   - Smoothness in latent space can translate to **temporal coherence** in generated video.
@@ -48,6 +51,7 @@ The author’s analysis touches on several valid technical and conceptual points
 ---
 
 ### **4. Text-to-Video Generation: Oversimplified**
+
 - **Right:**
   - For **static sequences** (e.g., slideshows), generating frames independently (e.g., with text-to-image models) is feasible and practical.
   - For **dynamic video**, you need to model **temporal dependencies** (e.g., motion, object persistence).
@@ -62,6 +66,7 @@ The author’s analysis touches on several valid technical and conceptual points
 ---
 
 ### **5. Human vs. Machine Information**
+
 - **Right:**
   - Humans prioritize **perceptual modalities** (text, speech, images, video) with coherence for interpretability.
   - Machines often work with **raw data** (e.g., sensor logs, time-series) where "coherence" is less about perception and more about **predictive patterns**.
@@ -73,6 +78,7 @@ The author’s analysis touches on several valid technical and conceptual points
 ---
 
 ### **6. Practicality of the Author’s Claims**
+
 - **Where the Author is Right:**
   - For **PPT-style videos**, per-frame generation is sufficient and widely used.
   - **Gaussian noise** is a valid tool for modeling variability in generative models.
@@ -96,5 +102,7 @@ The author’s analysis touches on several valid technical and conceptual points
 | Machines don’t need coherence.    | ⚠️ Partial   | Depends on the task; some machine applications (e.g., robotics) need temporal consistency. |
 
 ---
+
 ### **Final Verdict**
+
 The author’s analysis is **directionally correct for static sequences** and highlights valid challenges in video generation. However, it **underestimates recent advances** in temporal modeling (e.g., temporal transformers, diffusion with motion layers) and oversimplifies the role of coherence in both human and machine contexts. For dynamic video, the field has largely moved beyond the limitations described, though the core trade-offs (coherence vs. independence) remain relevant.

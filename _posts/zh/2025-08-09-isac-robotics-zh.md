@@ -19,6 +19,7 @@ type: note
 - **Isaac ROS**：基于ROS 2构建，整合英伟达加速库以快速开发自主机器人。[](https://www.nvidia.com/en-us/industries/robotics/)
 
 近期动态凸显英伟达在机器人领域的推进：
+
 - **亚马逊机器人**通过Isaac Sim部署其首台全自主机器人，展现平台实际应用价值。
 - 在**2025年巴黎GTC大会**上，英伟达强调Isaac对人形机器人发展的推动作用，Universal Robots、Vorwerk等企业已采用该平台实现AI驱动自动化。[](https://blogs.nvidia.com/blog/european-robot-makers-isaac-omniverse-halos-safe-physical-ai/)
 - 2025年6月26日，英伟达一篇博客提及Cyngn公司使用Isaac开发工业自动驾驶车辆，引发其股价单日暴涨483%，彰显该平台的市场影响力。[](https://timesofindia.indiatimes.com/technology/tech-news/nvidias-one-line-has-led-to-almost-500-jump-in-this-technology-companys-stock-biggest-single-day-surge-of-2025-on-wall-street/articleshow/122096050.cms)

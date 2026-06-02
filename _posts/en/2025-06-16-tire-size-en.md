@@ -11,6 +11,7 @@ type: note
 The difference between the tire sizes **195/55R16** (the new tire) and **185/55R16** (the original tire specified in your car's manual) lies primarily in the width and overall dimensions of the tire. Here's a breakdown of the differences and how they might relate to the issue you described (feeling the wheel or tire hitting something when turning right):
 
 ### **Tire Size Breakdown**
+
 - **195/55R16**:
   - **195**: The tire's width is 195 mm.
   - **55**: The aspect ratio (sidewall height) is 55% of the tire's width (195 × 0.55 = ~107.25 mm).
@@ -21,6 +22,7 @@ The difference between the tire sizes **195/55R16** (the new tire) and **185/55R
   - **R16**: The tire also fits a 16-inch wheel rim.
 
 ### **Key Differences**
+
 1. **Width**:
    - The 195/55R16 tire is 10 mm wider than the 185/55R16 tire.
    - A wider tire can slightly increase grip and stability but may also increase rolling resistance and slightly affect fuel efficiency.
@@ -39,6 +41,7 @@ The difference between the tire sizes **195/55R16** (the new tire) and **185/55R
    - While the difference is small, it could cause clearance issues, especially during sharp turns, if the wheel well or suspension components have tight tolerances.
 
 ### **Relation to the Issue (Hitting Something When Turning Right)**
+
 The issue you described—feeling the wheel or tire hitting something when turning the steering wheel to the rightmost position, but resolving when turning slightly left—could indeed be related to the tire size change. Here’s why:
 
 1. **Clearance Issues**:
@@ -59,9 +62,11 @@ The issue you described—feeling the wheel or tire hitting something when turni
    - If the tire was not properly mounted or balanced, or if the rim’s deformation affects its alignment, this could also contribute to the sensation of “hitting” something.
 
 ### **Does This Relate to the Tire Change?**
+
 Yes, the issue is likely related to the tire size change from 185/55R16 to 195/55R16, combined with the deformed wheel rim. The wider tire and the rim’s condition could be causing the tire to rub against the wheel well, fender liner, or suspension components when turning fully to the right.
 
 ### **What to Do**
+
 1. **Inspect for Rubbing**:
    - Check the inner and outer edges of the right front tire and wheel well for signs of rubbing (e.g., scuff marks, worn rubber, or scratched paint).
    - Have a mechanic inspect the wheel well and suspension components while turning the steering wheel to the rightmost position to identify where the tire is making contact.
@@ -82,6 +87,7 @@ Yes, the issue is likely related to the tire size change from 185/55R16 to 195/5
    - Ask them to inspect the deformed rim and recommend whether it needs repair or replacement.
 
 ### **Safety Note**
+
 Driving with a tire that rubs against the car’s body or suspension can lead to tire damage, loss of control, or further damage to the vehicle. Additionally, a deformed rim may compromise the tire’s ability to hold air or maintain stability. Address this issue promptly to ensure safe driving.
 
 If you provide your car’s make, model, and year, I can look up more specific information about tire fitment and clearance for your vehicle. Would you like me to do that?

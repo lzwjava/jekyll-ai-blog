@@ -12,6 +12,7 @@ type: note
 It sounds like your Ultra Mobile plan is expiring soon and you want to keep your service going. Based on the page you shared, here's what to do:
 
 **You want the Data Pass** — specifically either:
+
 - **$5 for 500MB / 1 day**, or
 - **$10 for 1GB / 7 days**
 

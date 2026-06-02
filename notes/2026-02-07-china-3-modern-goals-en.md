@@ -41,6 +41,7 @@ Key quote from the 16th Party Congress Report:
 This formulation marked an important theoretical advancement: it completed the trinity of **material civilization, political civilization, and spiritual civilization**, making the overall layout of socialist modernization more comprehensive and mature.
 
 Later developments:
+
 - The **17th Party Congress** (2007) continued to use this formulation.
 - The **18th Party Congress** (2012) added **ecological civilization** and began to speak of a “five-in-one” overall layout (economic, political, cultural, social, and ecological civilization construction).
 - The option that includes **ecological civilization** (such as A or B) reflects later formulations and cannot be traced back to the **16th Party Congress**.

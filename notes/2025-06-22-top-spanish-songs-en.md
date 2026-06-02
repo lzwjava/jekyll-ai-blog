@@ -14,55 +14,55 @@ Here's a list attempting to capture the essence of these different metrics, ackn
 
 **The Top 30 Spanish Songs Ever (Considering Multiple Metrics):**
 
-1.  **"Despacito" - Luis Fonsi ft. Daddy Yankee (and Justin Bieber Remix)**
+1. **"Despacito" - Luis Fonsi ft. Daddy Yankee (and Justin Bieber Remix)**
     * **YouTube:** Billions of views, one of the most viewed videos ever.
     * **Billboard:** Broke numerous records, including longest-running #1 on Hot Latin Songs and #1 on Billboard Hot 100 for weeks (with Bieber remix).
     * **Historical Impact:** Global phenomenon, significantly boosted Latin music's presence in mainstream pop.
     * **KTV:** Absolutely massive worldwide.
 
-2.  **"Bailando" - Enrique Iglesias ft. Descemer Bueno, Gente de Zona**
+2. **"Bailando" - Enrique Iglesias ft. Descemer Bueno, Gente de Zona**
     * **YouTube:** Billions of views.
     * **Billboard:** Major hit on Hot Latin Songs, strong crossover to Hot 100.
     * **Historical Impact:** One of the most successful Latin pop songs of the 2010s.
     * **KTV:** Extremely popular.
 
-3.  **"Waka Waka (This Time for Africa)" - Shakira ft. Freshlyground**
+3. **"Waka Waka (This Time for Africa)" - Shakira ft. Freshlyground**
     * **YouTube:** Billions of views.
     * **Billboard:** Global chart-topper, official FIFA World Cup song.
     * **Historical Impact:** Iconic, culturally significant, brought Latin flair to a global sporting event.
     * **KTV:** Very popular, especially during sporting events.
 
-4.  **"Mi Gente" - J Balvin & Willy William**
+4. **"Mi Gente" - J Balvin & Willy William**
     * **YouTube:** Billions of views.
     * **Billboard:** Highly successful, with a Beyoncé remix further boosting its reach.
     * **Historical Impact:** Pivotal in solidifying reggaeton's global dominance.
     * **KTV:** Frequent choice.
 
-5.  **"Con Calma" - Daddy Yankee & Snow**
+5. **"Con Calma" - Daddy Yankee & Snow**
     * **YouTube:** Billions of views.
     * **Billboard:** Charted high, demonstrated Daddy Yankee's continued influence.
     * **Historical Impact:** Revitalized a classic sound with a modern twist.
     * **KTV:** A fun, energetic choice.
 
-6.  **"Chantaje" - Shakira ft. Maluma**
+6. **"Chantaje" - Shakira ft. Maluma**
     * **YouTube:** Over 3 billion views.
     * **Billboard:** Major Latin chart success, strong streaming numbers.
     * **Historical Impact:** A defining collaboration for both artists.
     * **KTV:** Popular.
 
-7.  **"Propuesta Indecente" - Romeo Santos**
+7. **"Propuesta Indecente" - Romeo Santos**
     * **YouTube:** Over 2 billion views.
     * **Billboard:** A landmark bachata hit, one of the most successful of the genre.
     * **Historical Impact:** Elevated bachata to new global heights.
     * **KTV:** A staple for bachata lovers.
 
-8.  **"Danza Kuduro" - Don Omar ft. Lucenzo**
+8. **"Danza Kuduro" - Don Omar ft. Lucenzo**
     * **YouTube:** Over 1.6 billion views.
     * **Billboard:** International hit, popular in movies.
     * **Historical Impact:** Bridged various Latin and European dance sounds.
     * **KTV:** High energy KTV song.
 
-9.  **"El Perdón" - Nicky Jam & Enrique Iglesias**
+9. **"El Perdón" - Nicky Jam & Enrique Iglesias**
     * **YouTube:** Over 1 billion views.
     * **Billboard:** Huge hit across Latin charts.
     * **Historical Impact:** Showcased the evolving landscape of Latin urban music.

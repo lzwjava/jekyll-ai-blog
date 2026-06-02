@@ -30,6 +30,7 @@ Here are several genuinely unpopular (or at least contrarian) opinions about sel
 These views tend to get downvoted or dismissed in enthusiast forums, tech-bro circles, and traditional automotive circles alike—which is exactly why they qualify as unpopular.
 
 References:
+
 - [Waymo Safety Reports](https://waymo.com/safety/)
 - [Tesla Vehicle Safety Reports](https://www.tesla.com/vehicle-safety-report)
 - Various discussions on Reddit r/SelfDrivingCars, X threads from industry insiders (e.g., Missy Cummings, Brad Templeton, Phil Koopman), and NHTSA autonomous vehicle incident database (2021–2025)

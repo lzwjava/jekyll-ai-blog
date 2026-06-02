@@ -16,6 +16,7 @@ Answer:
 Yes, root cause analysis is the smarter long-term approach—randomly trying fixes often wastes time and the problem can return. Based on common reports with Camoufox (an anti-detect Firefox-based browser for automation/scraping, with a JS port via apify/camoufox-js), the slow/stuck download during `camoufox fetch` or similar steps usually stems from network-related issues rather than the tool itself.
 
 ### Likely Root Causes
+
 - **Network restrictions or poor connectivity**: Many users (especially in regions with strict internet controls) experience this when downloading large binaries, GeoIP databases, model files, uBlock Origin addons, or fingerprint data from domains like addons.mozilla.org, GitHub releases, or BrowserForge-related endpoints. Firewalls, ISPs, or CDN routing can throttle or block these.
 - **Rate limiting or temporary server-side issues**: Errors like HTTP 429 (Too Many Requests) have been reported during fingerprint or model downloads.
 - **Proxy interference**: You mentioned proxies didn't help—sometimes they add overhead, cause unstable connections, or get blocked themselves.
@@ -26,6 +27,7 @@ Yes, root cause analysis is the smarter long-term approach—randomly trying fix
 This isn't unique to "Hermes Camoufox"—it aligns with Camoufox issues where downloads hang on addons/models, often resolved by bypassing the automated fetch.
 
 ### Effective Solutions (Prioritizing Root Cause Fixes)
+
 1. **Manual download and placement (most reliable workaround)**:
    - Run `camoufox remove` (or equivalent for JS port) to clean any partial cache.
    - Identify what's being downloaded (check console output or GitHub issues for exact URLs—often uBlock .xpi, GeoIP DB, or browser binary).
@@ -57,7 +59,8 @@ For future-proofing: Once installed, updates may re-trigger downloads, so docume
 If this doesn't resolve it, share the exact command/output/error for more targeted help.
 
 References:
-- https://github.com/daijro/camoufox/issues/324 (manual addon download workaround for stuck fetches)
-- https://github.com/daijro/camoufox/issues/409 (rate limiting on fingerprint downloads)
-- https://github.com/daijro/camoufox/issues/342 (proxy support requests for fetch)
+
+- <https://github.com/daijro/camoufox/issues/324> (manual addon download workaround for stuck fetches)
+- <https://github.com/daijro/camoufox/issues/409> (rate limiting on fingerprint downloads)
+- <https://github.com/daijro/camoufox/issues/342> (proxy support requests for fetch)
 - Installation guides noting slow/partial downloads on certain networks.

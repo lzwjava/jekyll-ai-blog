@@ -52,11 +52,13 @@ The panel position (left vs right) is determined by the `HeaderToolbarChipSelect
 **Display Modes**
 
 There are three resolved modes:
+
 - **Panes** — shows individual panes as rows (granularity = Panes)
 - **FocusedSession** — shows tabs with focused session info (granularity = Tabs)
 - **Summary** — shows condensed summary per tab (granularity = Tabs)
 
 Each tab row shows:
+
 - An icon with status indicator (24px)
 - Primary info (command/dir/branch based on setting)
 - Subtitle (branch/dir/command based on compact_subtitle setting)

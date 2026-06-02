@@ -38,6 +38,7 @@ GPU:       AMD Instinct MI300X VF
 - GPU 处于低功耗状态（空闲）——首次计算时会自动唤醒。
 
 需要我来配置吗？我会：
+
 1. 安装支持 ROCm 的 PyTorch
 2. 克隆 nanoGPT（Karpathy 的简洁 GPT-2 训练仓库）
 3. 下载数据集（Shakespeare 或 OpenWebText）

@@ -23,6 +23,7 @@ vLLM is an open-source inference engine commonly recommended for serving open-we
 | **DeepSeek AI** | Yes | DeepSeek has open-sourced a custom inference engine built directly on vLLM, incorporating optimizations from their research. This is used for models like DeepSeek-V3 and R1, with contributions back to the vLLM project. |
 
 ### References
+
 - [DeepSeek Open-Sources Custom Inference Engine Built on vLLM](https://www.ainews.com/p/deepseek-open-sources-custom-inference-engine-built-on-vllm)
 - [The path to open-sourcing the DeepSeek inference engine](https://news.ycombinator.com/item?id=43682088)
 - [MiniMax-M1 Hybrid Architecture Meets vLLM](https://blog.vllm.ai/2025/06/30/minimax-m1.html)

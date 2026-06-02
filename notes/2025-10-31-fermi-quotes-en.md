@@ -21,6 +21,7 @@ Enrico Fermi, the Nobel Prize-winning physicist known for his work on nuclear re
 - "It is no good to try to stop knowledge from going forward. Ignorance is never better than knowledge."
 
 ## References
+
 - [Wikiquote - Enrico Fermi](https://en.wikiquote.org/wiki/Enrico_Fermi)
 - [BrainyQuote - Enrico Fermi Quotes](https://www.brainyquote.com/authors/enrico-fermi-quotes)
 - [Goodreads - Quotes by Enrico Fermi](https://www.goodreads.com/author/quotes/107005.Enrico_Fermi)

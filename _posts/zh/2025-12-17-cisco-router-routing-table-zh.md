@@ -16,11 +16,12 @@ type: note
 
 正确答案是 **A) show ip route**。
 
-### 全面解释：
+### 全面解释
 
 - **show ip route**：这是Cisco IOS中用于显示路由器上IP路由表的主要命令。路由表包含有关已知网络（目的地）、它们的学习方式（例如，直连、静态或通过OSPF、EIGRP、RIP、BGP等动态路由协议）、下一跳地址、管理距离、度量、以及出站接口的信息。它对于排除路由问题、验证路由安装以及了解路由器如何转发数据包至关重要。
 
   输出示例片段：
+
   ```
   Router# show ip route
   Codes: C - connected, S - static, R - RIP, O - OSPF, B - BGP ...
@@ -37,7 +38,8 @@ type: note
 
 - **show mac address-table**：此命令用于Cisco交换机，显示MAC地址表（CAM表），其中显示已学习的MAC地址、相关端口和VLAN。它与IP路由无关，并且在纯路由器上不存在或功能不同。
 
-### 为什么用户选择D是错误的：
+### 为什么用户选择D是错误的
+
 选择 **D) show mac address-table** 表明可能混淆了第2层交换功能（交换机上的MAC学习和转发）和第3层路由功能（路由器上的IP路由查找）。路由器主要在第3层运行，并维护一个路由表用于IP转发决策，而MAC地址表是交换机使用的第2层构造。
 
 总而言之，要在Cisco路由器上查看路由表，应始终使用 **show ip route**（或其变体，如 `show ip route ospf` 以按协议过滤）。

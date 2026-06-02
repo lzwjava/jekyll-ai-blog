@@ -64,6 +64,7 @@ Data Center 营收达到750亿美元，同比增长92%，环比增长21%，由 B
 **总结：** Nvidia 大获成功。816亿美元对预期的788亿美元。数据中心同比增长92%。Agentic AI 需求真实且正在叠加。Vera Rubin 是下一个催化剂。如果第二季度指引保持在860亿美元以上，看涨理由依然完好。
 
 **参考资料：**
+
 - [Nvidia 投资者关系——2027财年第一季度新闻稿](https://investor.nvidia.com/financial-info/financial-reports/default.aspx)
 - [财报电话会议记录——Investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-nvidia-q1-2027-beats-expectations-stock-rises-93CH-4702696)
 - [Kiplinger 实时报道](https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026)

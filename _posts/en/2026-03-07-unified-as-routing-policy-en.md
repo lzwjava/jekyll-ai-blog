@@ -22,6 +22,7 @@ The answer is **单一的 (single / unified)**.
 An **Autonomous System (AS)** is defined as a collection of IP networks and routers under the control of a single administrative entity. The key principle is:
 
 **Internally**, an AS can be very complex:
+
 - It may run multiple Interior Gateway Protocols (IGPs) such as OSPF, EIGRP, RIP, or IS-IS.
 - It can use different metrics (hop count, bandwidth, delay, cost, etc.) for internal route selection.
 - It can have thousands of routers with varying configurations.

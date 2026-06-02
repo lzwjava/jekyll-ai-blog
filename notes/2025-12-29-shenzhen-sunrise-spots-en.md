@@ -29,6 +29,7 @@ Dapeng New District (Dapeng Peninsula) in Shenzhen is an excellent location for 
    A trendy area with many guesthouses and B&Bs. The beach is just a few minutes' walk away. It's suitable for sunrise viewing in autumn and winter (in other seasons, it might be blocked by mountains). If staying in a guesthouse, you can enjoy sea views from your window and head straight to the beach the next morning.
 
 **Tips**:
+
 - Sunrise time: Around 6:30-7:00 in winter, 5:30-6:00 in summer (check a weather app for exact times).
 - Transportation: If driving, book a Dapeng entry permit in advance via the "Shenzhen Traffic Police" WeChat public account. By bus, take E11 or similar to Dapeng and transfer locally.
 - Best season: Autumn and winter for clearer skies and better visibility. Get up early, use mosquito repellent, and bring sunscreen and water.

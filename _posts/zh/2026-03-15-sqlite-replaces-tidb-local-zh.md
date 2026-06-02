@@ -22,6 +22,7 @@ type: note
 mem9（mnemos）使用 TiDB Cloud Starter 作为其后端存储，架构保持 agent 插件无状态——所有状态都存在于 mnemo-server 中，由 TiDB 支持。
 
 mem9 依赖 TiDB 的关键特性包括：
+
 - **Hybrid vector + keyword (full-text) search** —— 用于 memory recall
 - **Multi-tenant shared memory** —— 多个 agents 或用户共享一个池
 - **Cloud-persistent, cross-device access**

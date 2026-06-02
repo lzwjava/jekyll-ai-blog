@@ -32,6 +32,7 @@ The IMO, the oldest and most prestigious of the science Olympiads, has seen nume
   - **Source**: Wikipedia’s IMO participants list.[](https://en.wikipedia.org/wiki/List_of_International_Mathematical_Olympiad_participants)
 
 **Trends and Notes**:
+
 - The IMO awards medals to the top 50% of participants, with gold for the top 1/12. Perfect scores (42/42) are rare, achieved by fewer than 60 participants in history.[](https://en.wikipedia.org/wiki/International_Mathematical_Olympiad)
 - Countries like China, the United States, and South Korea have dominated team rankings in recent decades, with China winning the unofficial team title 20 times since 1990.[](https://en.wikipedia.org/wiki/List_of_countries_by_medal_count_at_International_Mathematical_Olympiad)
 - Recent stars (post-2010) are harder to pinpoint due to limited long-term data, but names like Zhuoqun (Alex) Song (USA, five golds from 2010–2014) and Yang Liu (China, multiple golds and perfect scores) appear in results.
@@ -58,6 +59,7 @@ The IOI, focused on competitive programming, has produced stars known for their 
   - **Source**: IOI Wikipedia page.[](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)
 
 **Trends and Notes**:
+
 - IOI awards medals to the top 50%, with gold for the top 1/12, similar to IMO. Perfect scores are rare due to the complexity of tasks (six problems over two days, max 600 points).[](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)
 - Eastern European and Asian countries (e.g., China, Russia, Poland) often dominate, with the U.S. rising in recent years.
 - The IOI struggles with gender diversity, with initiatives like the European Girls’ Olympiad in Informatics (EGOI) launched in 2021 to address this.[](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)
@@ -79,6 +81,7 @@ The IPhO tests theoretical and experimental physics skills, and its stars often 
   - **Source**: IPhO results and academic profiles.
 
 **Trends and Notes**:
+
 - IPhO awards medals to the top 50%, with gold for the top 8%. The competition includes a 5-hour theoretical exam (three problems) and a 5-hour experimental exam.[](https://www.kangaroomath.com.my/2023/01/international-science-olympiads/)
 - China, South Korea, and Russia frequently lead team rankings, with the U.S. and India also strong contenders.
 - Individual records are less publicized than IMO or IOI, making it harder to identify consistent multi-year performers. However, IPhO medalists often attend top universities like MIT, Caltech, or Cambridge.
@@ -100,6 +103,7 @@ The IChO combines theoretical and practical chemistry, and its stars often excel
   - **Source**: U.S. Olympiad team records.
 
 **Trends and Notes**:
+
 - IChO awards medals to the top 50%, with gold for the top 10%. The competition includes a 5-hour theoretical exam and a 5-hour practical exam, covering physical, organic, and inorganic chemistry.[](https://www.kangaroomath.com.my/2023/01/international-science-olympiads/)
 - China, the U.S., and South Korea often dominate, with India and Singapore rising in recent years.
 - Due to the pandemic, IChO 2020–2022 lacked practical exams, potentially affecting results.[](https://www.kangaroomath.com.my/2023/01/international-science-olympiads/)

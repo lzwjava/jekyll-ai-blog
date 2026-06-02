@@ -14,6 +14,7 @@ type: note
 在 macOS 的 GitHub Desktop 中，`Ctrl+Tab` 用于在 Changes 和 History 选项卡之间切换。这是大多数应用中用于切换选项卡的跨平台标准快捷键。
 
 **其他有用的 GitHub Desktop 快捷键：**
+
 - F5 — 刷新所有 git 数据
 - ⌘G — 聚焦提交信息字段
 

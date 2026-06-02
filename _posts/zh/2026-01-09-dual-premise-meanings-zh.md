@@ -15,6 +15,7 @@ type: note
 **1. 在 logic/arguments 中：** Premise 是作为推理或论证基础的陈述或命题。它是为了达成结论而开始的假设。
 
 *Example:*
+
 - Premise 1: 所有人类都是凡人
 - Premise 2: Socrates 是人
 - Conclusion: 因此，Socrates 是凡人

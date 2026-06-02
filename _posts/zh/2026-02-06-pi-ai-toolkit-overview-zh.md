@@ -23,9 +23,11 @@ Pi 采用极简且可扩展的方法。它不捆绑所有可能的功能，而�
 ## 主要 Packages
 
 ### 1. **@mariozechner/pi-coding-agent** (旗舰项目)
+
 一个在终端运行的交互式 coding agent CLI。这是大多数用户交互的主要产品。
 
 **核心特性：**
+
 - 四种运行模式：交互式 chat、print/JSON 输出、用于进程集成的 RPC 以及用于嵌入的 SDK
 - 内置 tools：用于文件和系统操作的 `read`、`write`、`edit` 和 `bash`
 - 支持多个 LLM provider，并具有自动 model 轮换功能
@@ -33,6 +35,7 @@ Pi 采用极简且可扩展的方法。它不捆绑所有可能的功能，而�
 - 通过 skills（prompt 增强）、extensions（自定义代码）和 packages 进行扩展
 
 **基本用法：**
+
 ```bash
 # 安装
 npm install -g @mariozechner/pi-coding-agent
@@ -51,9 +54,11 @@ pi --tools read,grep,find,ls -p "Review the code"
 ```
 
 ### 2. **@mariozechner/pi-ai**
+
 基础 LLM 工具包，为多个 provider 提供统一的 API。
 
 **支持的 Providers：**
+
 - OpenAI (GPT-4, GPT-4o, o1, o3-mini)
 - Anthropic (Claude Opus, Sonnet, Haiku)
 - Google (Gemini)
@@ -64,6 +69,7 @@ pi --tools read,grep,find,ls -p "Review the code"
 - 任何兼容 OpenAI API 的接口 (Ollama, vLLM, LM Studio)
 
 **核心特性：**
+
 - 使用 TypeBox schema 的类型安全 tool 定义
 - Streaming 和 completion API
 - 具有自动 tool 执行功能的内置 agent loop
@@ -71,48 +77,60 @@ pi --tools read,grep,find,ls -p "Review the code"
 - 可序列化的会话上下文
 
 ### 3. **@mariozechner/pi-agent**
+
 核心 agent runtime，提供状态管理和 tool 执行统筹。
 
 **功能：**
+
 - 带有验证的 tool 调用
 - 跨轮次的状态管理
 - 事件驱动架构
 - 与 pi-ai 层集成
 
 ### 4. **@mariozechner/pi-tui**
+
 一个具有差异渲染功能的终端 UI 库，用于构建响应式 CLI 界面。
 
 **特性：**
+
 - 高效的屏幕更新（仅渲染更改部分）
 - 自定义组件系统
 - 输入处理
 - 被 coding agent 用于其交互界面
 
 ### 5. **@mariozechner/pi-web-ui**
+
 用于在浏览器中构建 AI chat 界面的 Web components。
 
 ### 6. **@mariozechner/pi-mom**
+
 一个将消息委派给 pi coding agent 的 Slack bot，实现通过 Slack 进行团队协作。
 
 ### 7. **@mariozechner/pi-proxy**
+
 用于在不暴露 key 的情况下进行基于浏览器的 LLM API 调用的 CORS 代理（尽管生产级应用应使用正式的后端）。
 
 ### 8. **@mariozechner/pi** (pi-pods)
+
 用于在 GPU pods 上管理 vLLM 部署的 CLI 工具，适用于自托管 models。
 
 ## 扩展系统
 
 ### Skills
+
 增强 agent 能力的 prompt 模板或指令。它们被加载并注入到 system prompt 中。
 
 ### Extensions
+
 通过事件钩入 agent 生命周期的 TypeScript/JavaScript 代码：
+
 - `session_start`, `session_switch`, `session_fork`
 - `input`, `before_agent_start`, `agent_start`
 - `turn_start`, `context`, `tool_call`, `tool_result`, `turn_end`
 - `agent_end`, `session_compact`
 
 Extensions 可以：
+
 - 注册自定义命令（例如 `/mycommand`）
 - 添加自定义 tools
 - 拦截并修改消息
@@ -120,6 +138,7 @@ Extensions 可以：
 - 响应用户输入
 
 ### Pi Packages
+
 通过 npm 或 git 分发的共享包，包含 extensions、skills、prompts 和 themes。
 
 ```bash
@@ -138,6 +157,7 @@ pi install /path/to/local/package
 ## 配置与自定义
 
 ### Model 配置
+
 通过 `~/.pi/agent/models.json` 添加自定义 models：
 
 ```json
@@ -157,18 +177,23 @@ pi install /path/to/local/package
 ```
 
 ### 身份验证
+
 Model 需要通过以下方式进行身份验证：
+
 - 订阅登录（`/login` 命令）
 - API keys（环境变量或显式配置）
 
 ### 设置
+
 通过命令配置行为：
+
 - `/settings` - 打开设置 UI
 - `/model` 或 `Ctrl+L` - 选择 model
 - `/tools` - 配置可用 tools
 - `/theme` - 更改外观
 
 ### 环境变量
+
 - `PI_CODING_AGENT_DIR` - 配置目录 (默认为 `~/.pi/agent`)
 - `PI_CACHE_RETENTION` - 缓存策略 (`long` 为延长, `short` 为最小化)
 - `PI_SKIP_VERSION_CHECK` - 跳过启动版本检查
@@ -245,6 +270,7 @@ Pi 已积极应用于生产环境。请参阅 [openclaw/openclaw](https://github
 ## 为什么选择 Pi？
 
 Pi 的出色之处在于：
+
 - 跨多个 LLM provider 的**统一 API**
 - 通过设计良好的插件系统实现的**可扩展性**
 - 具有出色 TUI 的**终端优先**方法

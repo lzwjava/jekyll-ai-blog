@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：https://mp.weixin.qq.com 是什么，如何使用它？
+问题：<https://mp.weixin.qq.com> 是什么，如何使用它？
 
 回答：
 

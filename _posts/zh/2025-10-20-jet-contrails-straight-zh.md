@@ -46,6 +46,7 @@ type: note
 总体而言，该解释约90%内容准确——在避免深入施密特-阿普尔曼准则等复杂公式的前提下，能可靠解释这一引人注目的现象。作为激发对航空气象兴趣的起点非常出色。
 
 扩展阅读：
+
 - [航迹云 - 维基百科](https://en.wikipedia.org/wiki/Contrail)
 - [航迹云 - 美国联邦航空管理局](https://www.faa.gov/contrails)
 - [航迹云的演变 - 美国宇航局地球观测站](https://earthobservatory.nasa.gov/images/78154/the-evolution-of-a-contrail)

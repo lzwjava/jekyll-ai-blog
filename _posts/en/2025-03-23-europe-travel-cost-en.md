@@ -13,6 +13,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 1. Flights: Finding the Cheapest Options
+
 - **Cost Estimate:** $400–$650 round-trip (depending on deals and flexibility).
 - **Tips:**
   - **Book Early:** Search for flights 2–3 months in advance. Prices from Guangzhou Baiyun International Airport (CAN) to Europe are lowest in off-peak seasons like late fall (October–November) or early spring (February–March), avoiding holidays like Chinese New Year.
@@ -24,6 +25,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 2. Visa: Schengen Visa
+
 - **Cost:** ~$85 (80 EUR) for a Schengen visa, which covers 26 European countries.
 - **Tips:**
   - Apply through the nearest European consulate in Guangzhou (e.g., German, French, or Italian consulate, depending on your main entry point).
@@ -33,6 +35,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 3. Transportation in Europe: Budget Options
+
 - **Cost Estimate:** $50–$100 for 10 days.
 - **Tips:**
   - **Trains and Buses:** Use budget operators like FlixBus or BlaBlaCar for intercity travel. A bus from Paris to Amsterdam can be as low as $15 if booked early.
@@ -44,6 +47,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 4. Accommodation: Low-Cost Stays
+
 - **Cost Estimate:** $15–$30/night, or $150–$300 total.
 - **Tips:**
   - **Hostels:** Book dorm beds via Hostelworld or Booking.com in cities like Amsterdam, Berlin, or Prague (~$15–$25/night).
@@ -54,6 +58,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 5. Food: Eating on a Budget
+
 - **Cost Estimate:** $10–$15/day, or $100–$150 total.
 - **Tips:**
   - **Street Food & Markets:** Grab cheap eats like falafel in Berlin (~$4), crepes in Paris (~$5), or sausages in Prague (~$3).
@@ -64,6 +69,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 6. Activities: Free and Low-Cost Sightseeing
+
 - **Cost Estimate:** $0–$50 total.
 - **Tips:**
   - **Free Attractions:** Explore parks (e.g., Vondelpark in Amsterdam), historic streets (e.g., Prague’s Old Town), or iconic landmarks (e.g., Eiffel Tower from afar).
@@ -74,6 +80,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 7. Sample Itinerary: Central Europe on a Budget
+
 - **Day 1–2: Fly to Frankfurt, Germany ($450 flight)**
   - Stay in a hostel (~$20/night), explore the Römer and Main River for free.
 - **Day 3–4: Bus to Amsterdam, Netherlands (~$20)**
@@ -88,6 +95,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 8. Total Estimated Cost
+
 - **Flights:** $450–$650
 - **Visa:** $85
 - **Transport in Europe:** $50–$100
@@ -99,6 +107,7 @@ Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requi
 ---
 
 ### 9. Extra Money-Saving Tips
+
 - **Travel Light:** Avoid checked baggage fees by using a carry-on.
 - **SIM Card:** Buy a local SIM in Europe (~$10–$20) for data instead of roaming.
 - **Group Discounts:** Travel with a friend to split accommodation or transport costs.

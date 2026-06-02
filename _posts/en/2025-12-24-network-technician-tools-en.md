@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: Provide a summary of the YouTube video at https://www.youtube.com/watch?v=HAceoquch1c
+Question: Provide a summary of the YouTube video at <https://www.youtube.com/watch?v=HAceoquch1c>
 
 Answer:
 
@@ -18,7 +18,7 @@ The YouTube video titled **"Networking Tools - Hardware"** is an animated educat
 
 It explains the essential hardware tools used by network technicians for creating, testing, and troubleshooting network cables (including twisted pair, coaxial, and fiber optic). The video uses clear animations and step-by-step demonstrations to make the concepts accessible, even for beginners.
 
-### Key tools covered and their purposes:
+### Key tools covered and their purposes
 
 - **Wire Stripper**: Removes the outer insulation from cables to expose the inner wires.
 - **Wire Crimper**: Attaches RJ45 connectors to twisted pair cables by arranging wires in the correct order (T568A or T568B standard) and crimping them securely.

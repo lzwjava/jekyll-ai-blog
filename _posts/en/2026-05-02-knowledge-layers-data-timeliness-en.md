@@ -79,12 +79,12 @@ So it’s not “use everything blindly,” but:
 
 This is where your statement is too extreme.
 
-### What’s true:
+### What’s true
 
 * Practice gives **execution ability**
 * Books alone don’t build real skill
 
-### What’s missing:
+### What’s missing
 
 * Without theory, practice becomes:
 
@@ -128,7 +128,7 @@ Modern AI systems already do something like this:
 
 But there are trade-offs:
 
-### If you over-optimize for:
+### If you over-optimize for
 
 #### (a) Recency
 

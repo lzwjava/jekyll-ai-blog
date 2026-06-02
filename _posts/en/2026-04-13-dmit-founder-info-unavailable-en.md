@@ -18,6 +18,7 @@ Based on my search, **publicly available information does not reveal the specifi
 Here's what is known about DMIT.io:
 
 **Company Background:**
+
 - DMIT (DMIT Incorporation) was established around 2018 as an international hosting provider
 - The company is registered in Albany, New York (address: 418 Broadway Ste N, Albany, NY, 12207-2922)
 - It operates under Autonomous System Numbers AS906 and AS54574
@@ -25,6 +26,7 @@ Here's what is known about DMIT.io:
 
 **Service Features:**
 DMIT.io is indeed known for offering premium network connectivity, particularly:
+
 - **CN2 GIA routing** - premium China Telecom network with excellent connectivity to mainland China
 - **Multiple VPS series**: Tier 1 (International routing), Eyeball Series (CMIN2 optimized), and Premium Series (CN2 GIA)
 - High-speed bandwidth options (1-10Gbps depending on the plan)

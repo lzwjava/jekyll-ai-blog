@@ -53,8 +53,9 @@ Here are additional examples of great students who embody a fascination with the
    - **Example of Process-Driven Learning:** She lectured on complex texts like Ptolemy’s astronomy and Diophantus’s arithmetic, diving deeply into their principles to share insights with students, driven by intellectual passion rather than institutional rewards.
 
 10. **Grace Hopper (1906–1992)**
-   - **Why a Great Student?** A computer science pioneer, Hopper’s fascination with how machines could process instructions led to innovations like the first compiler. Her curiosity about programming’s possibilities pushed her to learn and experiment continuously.
-   - **Example of Process-Driven Learning:** She spent hours debugging early computers like the Harvard Mark I, not just to fix problems but to understand the logic of machine language, laying the groundwork for modern programming languages like COBOL.
+
+- **Why a Great Student?** A computer science pioneer, Hopper’s fascination with how machines could process instructions led to innovations like the first compiler. Her curiosity about programming’s possibilities pushed her to learn and experiment continuously.
+- **Example of Process-Driven Learning:** She spent hours debugging early computers like the Harvard Mark I, not just to fix problems but to understand the logic of machine language, laying the groundwork for modern programming languages like COBOL.
 
 These great students demonstrate a shared love for the journey of discovery, whether through solitary study, hands-on experimentation, or immersive observation. Their focus on the process—asking questions, embracing setbacks, and digging deeper—set them apart. If you’d like more examples, perhaps from specific fields or modern contexts, or want me to analyze any of these further, let me know!
 

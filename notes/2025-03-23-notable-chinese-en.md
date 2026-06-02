@@ -13,6 +13,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Business & Finance**
+
 1. **Jensen Huang**
    - Co-founder and CEO of NVIDIA, a leader in AI and GPU technology. Born in Taiwan, raised in the U.S.
 
@@ -34,6 +35,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Technology & Innovation**
+
 1. **Andrew Ng**
    - AI pioneer, co-founder of Coursera, and former leader of Google Brain and Baidu AI. Born in the U.K. to Hong Kong parents, active in the U.S.
 
@@ -49,6 +51,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Academia & Science**
+
 1. **Steven Chu**
    - Nobel Prize-winning physicist, former U.S. Secretary of Energy. Born in the U.S. to Chinese parents.
 
@@ -61,6 +64,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Public Service & Politics**
+
 1. **Elaine Chao**
    - Former U.S. Secretary of Transportation (2017–2021) and Labor (2001–2009). Born in Taiwan.
 
@@ -70,6 +74,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Entertainment & Arts**
+
 1. **Ang Lee**
    - Oscar-winning director (*Life of Pi*, *Brokeback Mountain*). Born in Taiwan, works globally.
 
@@ -82,6 +87,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Healthcare & Philanthropy**
+
 1. **Patrick Soon-Shiong**
    - Billionaire surgeon, inventor, and owner of the Los Angeles Times. Born in South Africa to Chinese parents.
 
@@ -91,6 +97,7 @@ Here’s a list of notable Chinese Americans and globally recognized ethnic Chin
 ---
 
 ### **Global Leaders (Non-U.S.)**
+
 1. **Li Ka-shing** (Hong Kong)
    - Billionaire investor, founder of CK Hutchison Holdings.
 
@@ -108,7 +115,9 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 ### **Business Leaders**
+
 #### **Tech Titans & Entrepreneurs**
+
 1. **Peng Zhao**
    - CEO of Citadel Securities (not Citadel hedge fund), the market-making giant. Born in China, Zhao grew up in the U.S. and played a key role in transforming Citadel Securities into a dominant force in electronic trading.
 
@@ -133,6 +142,7 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 #### **Venture Capital & Finance**
+
 1. **Hans Tung**
    - Managing Partner at GGV Capital. Backed global unicorns like ByteDance (TikTok), Xiaomi, and Slack. Born in Taiwan, raised globally.
 
@@ -148,6 +158,7 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 #### **Global Business Leaders (Non-U.S.)**
+
 1. **Pony Ma (Ma Huateng)**
    - Co-founder and CEO of Tencent (WeChat, Honor of Kings). One of China’s most influential tech moguls.
 
@@ -163,7 +174,9 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 ### **Tech Innovators**
+
 #### **AI & Semiconductors**
+
 1. **Renee James**
    - Former President of Intel, now CEO of Ampere Computing (cloud-native chips). A prominent Chinese American leader in semiconductors.
 
@@ -179,6 +192,7 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 #### **Software & Platforms**
+
 1. **Aileen Lee**
    - Founder of Cowboy Ventures, coined the term “unicorn” for startups. Backed companies like Dollar Shave Club and Gusto.
 
@@ -191,6 +205,7 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 #### **Hardware & Engineering**
+
 1. **Lucy Peng**
    - Co-founder of Alibaba and former CEO of Ant Group. Helped build Alibaba’s fintech empire.
 
@@ -203,6 +218,7 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 #### **Rising Stars**
+
 1. **Alex Ren**
    - Co-founder of **Scale AI** (valued at $7B+). A Stanford dropout building tools for AI data labeling.
 
@@ -215,6 +231,7 @@ Here’s an expanded list of notable Chinese American and globally recognized et
 ---
 
 ### **Key Trends They Represent**
+
 - **AI Dominance**: Leaders like Jensen Huang (NVIDIA) and Kai-Fu Lee are shaping the global AI race.
 - **Cross-Border Innovation**: Figures like Neil Shen (Sequoia China) and Hans Tung (GGV) bridge Silicon Valley and Asia.
 - **Fintech Disruption**: Peng Zhao (Citadel Securities) and Lucy Peng (Ant Group) redefine financial markets.

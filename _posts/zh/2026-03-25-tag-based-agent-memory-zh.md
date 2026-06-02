@@ -90,6 +90,7 @@ User Prompt
 ### 实际的 Tag 策略
 
 为每个 session 自动生成：
+
 - **Topic tags**: `python`, `docker`, `finance`
 - **Action tags**: `debug`, `design`, `explain`
 - **Time tags**: `2025-Q1`, `recent`

@@ -35,10 +35,10 @@ Other former executives provide insights more focused on daily leadership, perso
 - **Martin Ott (Former MD, Northern & Central Europe)** : Ott's biggest takeaway from Mark Zuckerberg was a lesson in **work-life balance and deliberate impact** . Contrary to the "hustle culture" promoted by some founders, he learned that sustainable performance is a marathon, not a sprint. As a CEO now, he protects his team's boundaries by scheduling emails to send during work hours and advocates for asking yourself, "What is the real one thing you could do today to really have impact?" .
 - **Yann LeCun (Founder & Former Chief AI Scientist)** : LeCun's experience highlights the importance of **self-awareness and staying true to your strengths** . He realized he "hated" management and that his true value lay in being a visionary scientist. By stepping away from a role that didn't suit him, he was able to launch a new lab focused on his passion for open-source AI, demonstrating that leadership isn't about a title, but about maximizing your unique contribution.
 - **Shailesh Chauhan (Product Manager)** : Chauhan offers a playbook for career advancement with four practical strategies :
-    1.  **Learn to Say No:** Protect your time and reputation by focusing only on high-impact work.
-    2.  **Be the Dumbest Person in the Room:** Continuously learn by listening and asking questions, rather than trying to prove you know everything.
-    3.  **Build Relationships That Transcend Work:** Focus on genuine personal connections that will outlast any single job.
-    4.  **Over-communicate Key Messages:** In fast-paced environments, repetition across different channels ensures alignment.
+    1. **Learn to Say No:** Protect your time and reputation by focusing only on high-impact work.
+    2. **Be the Dumbest Person in the Room:** Continuously learn by listening and asking questions, rather than trying to prove you know everything.
+    3. **Build Relationships That Transcend Work:** Focus on genuine personal connections that will outlast any single job.
+    4. **Over-communicate Key Messages:** In fast-paced environments, repetition across different channels ensures alignment.
 - **Alexandra Uriarte & Pedro Pavón (Public Policy Managers)** : Their primary advice to students was to **take risks and choose unique opportunities** . They emphasized that a non-linear career path, exploring different industries and roles, is often more valuable than rigidly following a traditional trajectory.
 
 ### 💡 Synthesizing the Insights

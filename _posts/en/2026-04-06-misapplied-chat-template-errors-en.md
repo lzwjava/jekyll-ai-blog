@@ -20,6 +20,7 @@ The GGUF model file `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` has a **Qwen3 chat t
 Chat templates define how messages get serialized into the prompt string the model actually sees. For example.
 
 When the DeepSeek template was applied to a Qwen3 model:
+
 1. The prompt tokens dropped to **2** (essentially garbage) instead of **14** (properly formatted)
 2. The model received an almost empty, nonsensical prompt
 3. It fell back to whatever patterns it had memorized — which is why it started talking about "DeepSeek-Coder-7B-Instruct" completely unprompted

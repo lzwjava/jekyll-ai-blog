@@ -33,12 +33,14 @@ type: note
 
 总结：
 在大多数大型银行，您可以在仍处于合同期内面试永久职位，而无需被迫休假。如果您获得录用，您将：
+
 1. 直接转正（银行支付转换费——如果您表现出色，这种情况发生得比人们想象的要多），或者
 2. 服役一个冷静期（3-12个月，具体取决于银行），然后以FTE身份开始工作。
 
 这是可以协商的，并且非常依赖于团队。表现最佳的员工几乎总能获得例外或带薪转换。
 
 参考资料：
+
 - 摩根大通合同工转正讨论（2024-2025）在[TeamBlind](https://www.teamblind.com/post/JPM-contract-to-full-time-conversion-2024-N7QjP0vL)
 - 高盛12个月冷静期确认在[TeamBlind](https://www.teamblind.com/post/Goldman-Sachs-contractor-cooling-off-period-2025-oP8K9x2m)
 - 主要银行合同工政策概述在[Fishbowl](https://www.fishbowlapp.com/post/updated-contractor-to-full-time-conversion-policies-at-major-banks-2024-2025)

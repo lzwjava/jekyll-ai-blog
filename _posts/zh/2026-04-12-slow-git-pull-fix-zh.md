@@ -16,6 +16,7 @@ type: note
 是的，从你的 `git pull` 输出中显示的速度（3.49 MiB 以 **38.00 KiB/s** 接收）对于现代 VPS 连接来说 **非常慢**，尤其是在 DMIT 洛杉矶节点上。在良好的连接条件下，GitHub 的正常下载速度应达到几 MB/s（兆字节每秒），而不是千字节每秒。38 KiB/s 大致相当于拨号上网时代的性能水平，表明存在瓶颈。
 
 ### 为什么在这种情况下会这么慢？
+
 你的设置使用了本地 **HTTP/HTTPS 代理**（地址为 `http://127.0.0.1:7890`，常见于 Clash、V2Ray 或类似代理工具）。输出显示：
 
 - Git 通过 SSH 公钥成功验证并连接 GitHub。
@@ -29,26 +30,33 @@ type: note
 - **DMIT 特有因素**：虽然 DMIT 洛杉矶节点通常提供良好的性能（尤其是面向亚洲具有高带宽的 Premium/CN2 GIA 套餐），但如果代理本身是薄弱环节，使用代理可能会抵消这一优势。
 
 ### 快速检查与尝试的修复方法
+
 1. **测试无代理连接**：
    - 暂时取消 shell 中的代理设置：
+
      ```
      unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
      ```
+
    - 然后再次运行 `git pull` 并比较速度。
 
 2. **强制 Git 完全使用 SSH**（通常更快）：
    - 如果尚未使用，将你的远程仓库地址改为 SSH：
+
      ```
      git remote set-url origin git@github.com:username/repo.git
      ```
+
    - 确保你的 SSH 密钥设置正确。
 
 3. **增大 Git 缓冲区大小**（有助于改善慢速或不稳定连接）：
+
    ```
    git config --global http.postBuffer 524288000
    ```
 
 4. **如果需要完整历史记录，可以使用浅克隆拉取**：
+
    ```
    git pull --depth=1
    ```
@@ -65,6 +73,7 @@ type: note
 总结：**不，这个速度不正常** — 它异常缓慢，值得进行故障排查。DMIT 洛杉矶节点本身应支持更高的吞吐量；代理或 Git 配置很可能是此问题的根源。尝试以上步骤，看看速度是否能提升到 MB/s 范围。
 
 参考：
+
 - 关于 GitHub 下载缓慢的社区讨论（有多份报告称通过代理或路由不佳时速度低于 100 KiB/s）
 - Stack Overflow 上关于 GitHub 克隆缓慢和代理影响的帖子
 - 关于 Git HTTPS 与 SSH 速度差异的普遍报告

@@ -124,7 +124,7 @@ sudo dhclient <your_interface>
 
 ---
 
-### 📋 Run this all-in-one diagnostic and paste the output here:
+### 📋 Run this all-in-one diagnostic and paste the output here
 
 ```bash
 echo "=== HOSTNAME/IP ===" && hostname -I && echo "=== INTERFACES ===" && ip addr show | grep -E "^[0-9]|inet " && echo "=== DNS ===" && cat /etc/resolv.conf && echo "=== ENV PROXY ===" && env | grep -i proxy && echo "=== GATEWAY ===" && ping -c2 192.168.1.1 && echo "=== BAIDU ===" && ping -c2 baidu.com && echo "=== IPTABLES ===" && sudo iptables -L -n 2>/dev/null | head -20

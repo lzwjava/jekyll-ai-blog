@@ -11,6 +11,7 @@ type: note
 Spring Data JDBC 是一个强大的库，它通过提供轻量级、基于注解的方式来操作关系型数据库，从而简化 Spring 应用程序中的数据库交互。与 Spring Data JPA 相比，它的约束更少，专注于更简单、更明确的对象到数据库表的映射方式。下面我将逐步介绍它的基本使用方法。
 
 ### 1. **项目设置**
+
 首先，你需要在项目中引入 Spring Data JDBC。如果使用 Maven，请在 `pom.xml` 中添加以下依赖：
 
 ```xml
@@ -38,6 +39,7 @@ runtimeOnly 'com.h2database:h2'
 ```
 
 ### 2. **数据库配置**
+
 在 `application.properties` 或 `application.yml` 中配置数据库连接。对于 H2 内存数据库，配置示例如下：
 
 ```properties
@@ -51,6 +53,7 @@ spring.h2.console.enabled=true
 如果是 PostgreSQL 等实际数据库，需相应调整 URL、用户名和密码。
 
 ### 3. **定义领域模型**
+
 创建实体类来映射数据库表。Spring Data JDBC 默认遵循类名映射表名（转为小写），字段映射列名的约定。
 
 ```java
@@ -85,6 +88,7 @@ public class Person {
 - 默认表名为 `person`，可通过注解覆盖
 
 ### 4. **创建仓储接口**
+
 定义继承 `CrudRepository` 的接口来处理基础 CRUD 操作：
 
 ```java
@@ -97,6 +101,7 @@ public interface PersonRepository extends CrudRepository<Person, Long> {
 无需实现该接口——Spring Data JDBC 会在运行时自动生成实现。
 
 ### 5. **使用仓储**
+
 将仓储注入服务层或控制器层即可使用：
 
 ```java
@@ -126,6 +131,7 @@ public class PersonService {
 ```
 
 ### 6. **运行应用程序**
+
 如果使用 Spring Boot，创建包含 `@SpringBootApplication` 的主类并运行：
 
 ```java
@@ -143,6 +149,7 @@ public class Application {
 Spring Boot 将自动配置数据源和 Spring Data JDBC。
 
 ### 7. **可选：自定义查询**
+
 如需自定义查询，可在仓储接口中添加带 `@Query` 注解的方法：
 
 ```java
@@ -156,6 +163,7 @@ public interface PersonRepository extends CrudRepository<Person, Long> {
 ```
 
 ### 关键要点说明
+
 - **无延迟加载**：与 JPA 不同，Spring Data JDBC 不支持延迟加载。关联关系（如一对多）需要通过聚合根显式建模
 - **聚合根**：每个实体都是聚合的一部分，只有根实体可以直接保存或检索
 - **模式创建**：Spring Data JDBC 不会自动创建表，需通过 `src/main/resources` 目录下的 `schema.sql` 提供建表语句：
@@ -169,6 +177,7 @@ CREATE TABLE person (
 ```
 
 ### 典型工作流程
+
 1. 启动应用程序
 2. 使用 `repository.save()` 保存 `Person` 对象
 3. 通过 `repository.findById()` 或 `findAll()` 进行检索

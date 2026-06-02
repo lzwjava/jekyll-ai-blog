@@ -32,6 +32,7 @@ PTX 等价物       AMDGPU ISA（开源）   PTX → SASS（SASS 闭源）
 ```
 
 **关键洞察：** NVIDIA 真正的护城河不是 CUDA 语言本身，而是 **cuDNN + NCCL + 分析器生态系统**。ROCm 在纸面上匹配，但在以下方面落后：
+
 - 非方阵矩阵乘法（实际工作负载）上的 `hipBLAS` 性能
 - 大规模场景下的多节点 `RCCL` 与 `NCCL`
 - 分析器（rocprof 与 Nsight——Nsight 明显胜出）

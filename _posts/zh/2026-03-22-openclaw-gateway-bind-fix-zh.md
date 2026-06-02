@@ -18,6 +18,7 @@ type: note
 这个错误来自 **OpenClaw**（或兼容的 gateway 工具如 ClawdBot），意思是你的配置文件中的 `gateway.bind` 设置使用了**过时/旧值**。
 
 旧版本接受原始 IP 地址或主机名字符串，例如：
+
 - `"0.0.0.0"`
 - `"localhost"`
 - `"127.0.0.1"`
@@ -52,6 +53,7 @@ type: note
 打开你的配置文件（通常是 `~/.openclaw/openclaw.json` 或 `OPENCLAW_CONFIG_PATH` 指向的位置），并更改 `gateway.bind` 字段：
 
 **之前（旧版 — 会导致错误）：**
+
 ```json
 {
   "gateway": {
@@ -61,6 +63,7 @@ type: note
 ```
 
 **之后（正确）：**
+
 ```json
 {
   "gateway": {

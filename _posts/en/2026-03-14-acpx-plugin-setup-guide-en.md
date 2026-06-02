@@ -69,7 +69,7 @@ openclaw config set browser.profile openclaw
 
 1. Install the **OpenClaw Browser Relay** extension
    → Chrome Web Store: search "OpenClaw Browser Relay" or go directly to
-   https://chromewebstore.google.com/detail/openclaw-browser-relay/……
+   <https://chromewebstore.google.com/detail/openclaw-browser-relay/……>
 
 2. Enable developer mode in Chrome → load unpacked → point to the folder if you cloned it manually
 
@@ -90,6 +90,7 @@ openclaw config set browser.websocket ws://127.0.0.1:9222/devtools/browser/…�
   `openclaw "open google.com and tell me what the Google logo says"`
 
 If you're still getting "acpx plugin not configured" after these steps, share:
+
 - which exact OpenClaw version you're running (`openclaw --version`)
 - whether you're using docker / pip / binary
 - the full error message when starting the bridge

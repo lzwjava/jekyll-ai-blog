@@ -125,15 +125,19 @@ int main() {
 ```
 
 ### 前置条件
+
 1. **macOS**：此代码需在配备兼容 GPU（任何现代 Mac 均可）的 macOS 上运行。
 2. **Xcode**：安装 Xcode 以获取 Metal 框架和命令行工具。
 3. **编译**：使用 `clang++` 并链接 Metal 框架：
+
    ```bash
    clang++ -framework Metal -framework Foundation vector_add.mm -o vector_add
    ```
+
    注意：由于使用了 Objective-C++（Metal 需要 Objective-C 运行时），请将文件保存为 `.mm` 扩展名。
 
 ### 关键底层特性
+
 1. **手动资源管理**：显式创建缓冲区（`newBuffer`）并在无高层封装的情况下管理内存。
 2. **直接着色器定义**：Metal 着色语言（MSL）内核以内联字符串形式定义，并在运行时编译。
 3. **线程配置**：手动计算网格和线程组大小，类似于 CUDA 的块和线程概念。
@@ -141,7 +145,9 @@ int main() {
 5. **无抽象层**：避免使用 MetalKit 或其他高层框架，仅使用核心 Metal API。
 
 ### 输出
+
 运行后将产生类似以下结果：
+
 ```
 0 + 0 = 0
 1 + 2 = 3
@@ -151,11 +157,13 @@ int main() {
 ```
 
 ### 与 CUDA 的差异
+
 - **API 风格**：Metal 使用基于 Objective-C++ 的 API（`NS::` 对象），而 CUDA 采用 C 风格 API。
 - **内存模型**：Metal 的共享存储模式（`MTL::ResourceStorageModeShared`）允许 CPU/GPU 访问同一内存，相比 CUDA 的显式 `cudaMemcpy` 更为简化。
 - **线程模型**：Metal 使用 `dispatchThreads` 及网格/线程组大小配置，概念上类似 CUDA 的网格/块模型，但术语和配置方式不同。
 
 ### macOS 上使用 Metal 的提示
+
 - **调试**：使用 Xcode 的 Metal 调试器检查 GPU 执行情况。
 - **文档**：查阅 Apple 的 Metal 文档以获取更深入细节（可通过 Xcode 或 developer.apple.com 在线获取）。
 - **性能**：对于较大数据集，可根据 `maxTotalThreadsPerThreadgroup` 优化线程组大小。

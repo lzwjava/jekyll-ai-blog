@@ -15,6 +15,7 @@ Yes, you're on the right track! You're describing the standard method for findin
 I'll explain the method step by step, why it works, and how to compute it for a general 3×3 matrix. This comes from the general formula for matrix inverses: \\( A^{-1} = \frac{1}{\det(A)} \adj(A) \\), where \\( \adj(A) \\) is the adjugate.
 
 ### Step-by-Step Method for a 3×3 Matrix
+
 Let’s say your matrix is:
 \\[
 A = \begin{pmatrix}
@@ -88,6 +89,7 @@ g & h & i
    Each entry of \\( \adj(A) \\) gets multiplied by \\( 1/\det(A) \\).
 
 ### Example
+
 Let \\( A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix} \\).
 
 - \\( \det(A) = 1(1\cdot0 - 4\cdot6) - 2(0\cdot0 - 4\cdot5) + 3(0\cdot6 - 1\cdot5) = 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1 \\).
@@ -98,6 +100,7 @@ Let \\( A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix} \\
 You can check: \\( A \cdot A^{-1} = I \\) (the identity matrix).
 
 ### Why Does This Work?
+
 The key reason is a property of determinants and cofactors: for any square matrix \\( A \\),
 \\[
 A \cdot \adj(A) = \det(A) \cdot I

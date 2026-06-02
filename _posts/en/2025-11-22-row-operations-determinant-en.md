@@ -26,22 +26,22 @@ Your statement that the determinant of a matrix **doesn't change** during these 
 
 * **Operation:** \\(R_i \leftarrow R_i + c R_j\\)
 * **Effect on Determinant:** The determinant **DOES NOT** change.
-    * If \\(\det(A) = d\\), then \\(\det(A') = d\\).
-    * **Example:** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\). \\(\det \begin{pmatrix} 1 & 2 \\ 3-2(1) & 4-2(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 1 & 0 \end{pmatrix} = -2\\).
+  * If \\(\det(A) = d\\), then \\(\det(A') = d\\).
+  * **Example:** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\). \\(\det \begin{pmatrix} 1 & 2 \\ 3-2(1) & 4-2(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 1 & 0 \end{pmatrix} = -2\\).
 
 ### 2. Multiplying a Row by a Non-Zero Scalar
 
 * **Operation:** \\(R_i \leftarrow c R_i\\) (where \\(c \ne 0\\))
 * **Effect on Determinant:** The determinant is multiplied by the scalar \\(c\\).
-    * If \\(\det(A) = d\\), then \\(\det(A') = c \cdot d\\).
-    * **Example:** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\). \\(\det \begin{pmatrix} 1 & 2 \\ 3(2) & 4(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 6 & 8 \end{pmatrix} = 8-12 = -4\\). Here, \\(c=2\\), and the new determinant is \\(2 \cdot (-2) = -4\\).
+  * If \\(\det(A) = d\\), then \\(\det(A') = c \cdot d\\).
+  * **Example:** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\). \\(\det \begin{pmatrix} 1 & 2 \\ 3(2) & 4(2) \end{pmatrix} = \det \begin{pmatrix} 1 & 2 \\ 6 & 8 \end{pmatrix} = 8-12 = -4\\). Here, \\(c=2\\), and the new determinant is \\(2 \cdot (-2) = -4\\).
 
 ### 3. Swapping Two Rows
 
 * **Operation:** \\(R_i \leftrightarrow R_j\\)
 * **Effect on Determinant:** The determinant is multiplied by \\(-1\\) (it changes sign).
-    * If \\(\det(A) = d\\), then \\(\det(A') = -d\\).
-    * **Example:** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\). \\(\det \begin{pmatrix} 3 & 4 \\ 1 & 2 \end{pmatrix} = 3(2) - 4(1) = 6-4 = 2\\). Here, the sign changed from \\(-2\\) to \\(2\\).
+  * If \\(\det(A) = d\\), then \\(\det(A') = -d\\).
+  * **Example:** \\(\det \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = -2\\). \\(\det \begin{pmatrix} 3 & 4 \\ 1 & 2 \end{pmatrix} = 3(2) - 4(1) = 6-4 = 2\\). Here, the sign changed from \\(-2\\) to \\(2\\).
 
 ---
 

@@ -20,7 +20,7 @@ type: note
 ## 🔍 断链扫描：lzwjava.github.io
 
 **日期：** 2026-03-2 03:48 GMT+8
-**网址：** https://lzwjava.github.io
+**网址：** <https://lzwjava.github.io>
 **引擎：** Jekyll (GitHub Pages)
 
 ---

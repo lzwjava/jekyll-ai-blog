@@ -11,7 +11,9 @@ type: note
 ---
 
 ### 前置条件
+
 在 IBM WebSphere Application Server (WAS) 中配置 IBM MQ（前身为 WebSphere MQ）之前，请确保满足以下条件：
+
 - IBM MQ 已安装在专用服务器上（若为本地绑定模式，可与 WAS 安装在同一服务器）。
 - 已在 IBM MQ 中创建队列管理器（例如使用 `crtmqm QMNAME` 命令）。
 - 已在队列管理器中创建所需队列（例如使用 MQ Explorer 或 `runmqsc` 命令）。
@@ -20,6 +22,7 @@ type: note
 - 在类 Unix 系统上，对于非 root 用户，请使用 `setmqaut` 命令授予权限。
 
 ### 逐步配置指南
+
 配置过程涉及在 WAS 管理控制台中设置 JMS 提供程序、连接工厂和目的地。本指南假设通过 TCP/IP 建立分布式（客户端）模式连接；若为本地绑定模式请相应调整。
 
 1. **访问 WAS 管理控制台**：
@@ -91,6 +94,7 @@ type: note
    - 对于集群：跨节点同步配置。
 
 ### 故障排除提示
+
 - **ClassNotFoundException**：确保 MQ JAR 文件在类路径中。
 - **连接失败**：检查端口 1414 的防火墙设置、通道状态（在 runmqsc 中使用 `DISPLAY CHSTATUS(*)`）。
 - **绑定模式问题**：验证本地库和用户是否在 `mqm` 组中。

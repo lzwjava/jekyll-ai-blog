@@ -57,6 +57,7 @@ sudo dpkg --remove --force-depends nvidia-persistenced
 ```
 
 然后清理：
+
 ```bash
 sudo apt --fix-broken install
 sudo apt autoremove --purge
@@ -67,17 +68,20 @@ sudo apt autoremove --purge
 ## 如果仍有被保留的软件包
 
 检查被保留的内容：
+
 ```bash
 sudo apt-mark showhold
 dpkg -l | grep ^h
 ```
 
 取消所有 NVIDIA 相关的保留：
+
 ```bash
 sudo apt-mark unhold nvidia-* libnvidia-* cuda-*
 ```
 
 然后重试：
+
 ```bash
 sudo apt --fix-broken install
 sudo apt upgrade

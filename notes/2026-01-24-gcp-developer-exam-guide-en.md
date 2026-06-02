@@ -17,6 +17,7 @@ Answer:
 Here is a realistic, up-to-date preparation plan for the **Google Cloud Professional Cloud Developer** certification (as of early 2026).
 
 ### 1. Understand the Exam (most important first step)
+
 - Duration: 2 hours
 - Format: ~50–60 questions (mostly case-study based scenario questions + some direct knowledge questions)
 - Passing score: ~70% (not officially published, but widely reported)
@@ -27,6 +28,7 @@ Here is a realistic, up-to-date preparation plan for the **Google Cloud Professi
 Official exam guide → [https://cloud.google.com/learn/certification/guides/cloud-developer](https://cloud.google.com/learn/certification/guides/cloud-developer)
 
 Main sections in 2025–2026 (still very similar to previous years):
+
 1. Designing highly scalable, available, and reliable cloud-native applications (~20–25%)
 2. Building and testing applications (~20–25%)
 3. Deploying applications (~20–25%)
@@ -34,6 +36,7 @@ Main sections in 2025–2026 (still very similar to previous years):
 5. Managing application performance monitoring (~10–15%)
 
 Key services & products that appear very frequently:
+
 - **App Engine** (standard & flexible), **Cloud Run**, **Cloud Functions** (1st & 2nd gen)
 - **Kubernetes Engine** (GKE Autopilot & Standard) — quite important
 - **Artifact Registry**, **Cloud Build**, **Cloud Deploy**
@@ -56,23 +59,28 @@ Key services & products that appear very frequently:
 ### 3. Best Resources in 2025–2026
 
 **Free & Official**
+
 - Google Cloud Skills Boost: “Professional Cloud Developer” learning path (~35–40 labs/quests)
 - Google Cloud documentation – especially “Best practices” sections
 - Sample questions on the official certification page
 
 **Paid but High Quality**
+
 - Whizlabs Professional Cloud Developer course + practice tests (very popular in 2024–2025)
 - Udemy – “Google Professional Cloud Developer” by “The Cloud & DevOps Guy” or similar 2025-updated courses
 - SkillCertPro / ExamTopics / Test-King — large question banks (use for practice only, not memorization)
 
 **Books**
+
 - “Google Cloud Certified Professional Cloud Developer” by some community authors (O’Reilly or Amazon) — mostly useful for explanations, not primary resource
 
 **Communities**
+
 - Reddit: r/googlecloud (search “PCD passed” threads from 2024–2025)
 - Medium articles: search “passed Professional Cloud Developer 2024/2025”
 
 ### 4. Quick Preparation Tips from Recent Passers
+
 - You **must** do hands-on — theory alone usually fails
 - Know differences very well: App Engine std vs flex vs Cloud Run vs GKE vs Cloud Functions
 - Understand **event-driven** architecture deeply (Pub/Sub + Cloud Run/Functions/Eventarc)
@@ -81,6 +89,7 @@ Key services & products that appear very frequently:
 - Practice reading long case studies quickly and eliminating obviously wrong choices
 
 ### 5. One-Month Crash Plan (if you're already experienced)
+
 1. Read official exam guide deeply (2–3 times)
 2. Do all labs in Cloud Developer learning path on Skills Boost
 3. Finish 400–500 practice questions (Whizlabs / Udemy)

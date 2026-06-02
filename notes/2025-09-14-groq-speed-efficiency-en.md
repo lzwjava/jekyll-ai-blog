@@ -12,6 +12,7 @@ type: note
 ---
 
 ### TL;DR
+
 **GROQ** (Graph‑Relational Object Queries) feels “instant” because San Sanity has built a query engine that is:
 
 | What it does | Why it makes GROQ fast |
@@ -129,7 +130,7 @@ The **key differentiator** is that GROQ is *designed* to be executed directly ag
 |------------|-------------------|-----------------|---------------------|---------------------|
 | Simple filter (`*[_type=="post"]`) | 10 k | `_id, title` | 28 ms | 12 ms |
 | Deep projection (`*[_type=="article"]{title, author->{name}}`) | 25 k | 3 fields + 1 join | 42 ms | 18 ms |
-| Order + limit (`*[_type=="comment"]|order(publishedAt desc)[0...20]{...}`) | 150 k | 5 fields | 67 ms | 30 ms |
+| Order + limit (`*[_type=="comment"]|order[publishedAt desc](0...20){...}`) | 150 k | 5 fields | 67 ms | 30 ms |
 | Full‑text match (`*[_type=="post" && title match "react"]`) | 200 k | `_id, slug` | 84 ms | 38 ms |
 
 *Cold* = first request after a deploy (no plan cache, no result cache).

@@ -38,6 +38,7 @@ Pro tip: Check local apps for exact times based on your location—October's sho
 What’s your favorite spot so far? I'd love to hear and brainstorm more!
 
 ### References
+
 - [Sunset Therapy: Benefits of Watching Sunrise and Sunset](https://unplugged.rest/blog/sunset-therapy-benefits-of-watching-sunrise-sunset)
 - [How to Take Better Sunrise and Sunset Photos](https://www.rei.com/learn/expert-advice/how-to-take-better-sunrise-and-sunset-photos.html)
 - [Top 10 Best Places to Watch Sunrise & Sunset](http://theluxurytravelexpert.com/top-10-best-places-in-the-world-to-watch-the-sunrise-sunset/)

@@ -19,6 +19,7 @@ Richard S. Sutton 是一位著名的加拿大计算机科学家，被广泛认�
 Sutton 出生于 20 世纪 50 年代后期的美国，在 University of Massachusetts Amherst 获得博士学位，期间他与 Andrew G. Barto 密切合作。受 A. Harry Klopf 等研究人员早期思想的影响，Sutton 和 Barto 在 20 世纪 80 年代开创了 RL 的数学基础，将其从传统的 Optimal Control 和 Dynamic Programming 转向通过 Trial-and-error learning 处理未知环境的方法。
 
 他的主要贡献包括：
+
 - Temporal-difference (TD) learning：一种用于从增量经验中进行预测和学习的核心算法。
 - Actor-critic 方法和 Policy gradient 算法：这些对现代 Deep RL 至关重要。
 - Dyna 等架构（将 Model-based planning 与学习相结合）以及 Horde（用于可扩展的多目标学习）。

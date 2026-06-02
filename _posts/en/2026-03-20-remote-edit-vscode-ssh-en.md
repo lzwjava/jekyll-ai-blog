@@ -32,17 +32,20 @@ The best and most popular way to remotely edit files on a server using **Visual 
    Password login works, but keys are much more convenient and secure.
 
    On your **local** machine:
+
    ```bash
    ssh-keygen -t ed25519 -C "your_email@example.com"
    # Press Enter to accept default location & no passphrase (or set one)
    ```
 
    Copy public key to server (easiest way):
+
    ```bash
    ssh-copy-id user@your-server-ip
    ```
 
    Or manually:
+
    ```bash
    cat ~/.ssh/id_ed25519.pub
    # copy output → paste into server's ~/.ssh/authorized_keys
@@ -101,10 +104,12 @@ The best and most popular way to remotely edit files on a server using **Visual 
 
 - Connection fails? → Test `ssh user@server` in terminal first
 - Very slow? → Check network, or add to `settings.json`:
+
   ```json
   "remote.SSH.useLocalServer": true,
   "remote.SSH.connectTimeout": 60
   ```
+
 - Permission denied? → Fix SSH keys or password
 - VS Code server install fails? → Server needs ~150–300 MB disk space + internet (to download once)
 

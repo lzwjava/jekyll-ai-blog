@@ -292,7 +292,6 @@ def main():
                 candidate = os.path.join("notes", f"{note['base_name']}-{orig_lang}.md")
                 if os.path.exists(candidate):
                     original_file = candidate
-                    found_lang = orig_lang
                     break
 
             if not original_file:

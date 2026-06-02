@@ -11,17 +11,20 @@ type: note
 ---
 
 ### Current Progress
+
 - Training has completed 1300 iterations out of 20,000 total (`max_iters = 20000`).
 - Remaining iterations: 18,700.
 - Average time per non-evaluation iteration: ~170 ms (based on logs for iters 100–1300).
 - Evaluation occurs every 500 iterations (`eval_interval = 500`), with `eval_iters = 200` samples. These add significant overhead, making "eval iteration" times ~5.7–6 seconds (logs show 5.7s at iter 1000 and 6s at iter 500, including training batch + eval).
 
 ### Remaining Evaluations
+
 - Next eval at iter 1500, then 2000, ..., up to 20,000.
 - Total remaining evals: 38.
 - Extra time per eval: ~5.8 seconds (beyond the standard 170 ms training step).
 
 ### Time Estimate
+
 - Time for 18,662 normal iterations: ~3,172 seconds (53 minutes).
 - Time for 38 eval iterations: ~228 seconds (3.8 minutes, full duration).
 - **Total remaining time: ~3,400 seconds (57 minutes)**.

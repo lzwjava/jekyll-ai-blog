@@ -16,15 +16,18 @@ Let me break it down piece by piece:
 ---
 
 **Shebang & metadata**
+
 ```bash
 #!/usr/bin/env bash
 # ~/.hermes/agent-hooks/on-agent-done.sh
 ```
+
 Saved to `~/.hermes/agent-hooks/` — that's the directory Hermes watches for lifecycle hooks. This one runs automatically after each LLM call completes.
 
 ---
 
 **Payload reading**
+
 ```bash
 payload="$(cat -)"
 ```
@@ -34,6 +37,7 @@ The hook system pipes a JSON payload to the script via stdin. The payload contai
 ---
 
 **Data extraction via embedded Python**
+
 ```bash
 extracted=$(echo "$payload" | python3 -c "...")
 ```
@@ -49,6 +53,7 @@ These are packed into a pipe-delimited string like `hermes-agent|what's the|3`.
 ---
 
 **Notification construction**
+
 ```bash
 subtitle="msg: ${user_preview}  |  turns: ${hist_count}"
 ```
@@ -58,6 +63,7 @@ Builds a subtitle showing the message preview and conversation depth.
 ---
 
 **macOS notification**
+
 ```bash
 terminal-notifier \
   -title "Hermes Agent — ${dirname}" \
@@ -82,6 +88,7 @@ Uses [`terminal-notifier`](https://github.com/julienXX/terminal-notifier) (a mac
 ---
 
 **Hook system requirement**
+
 ```bash
 printf '{}\n'
 ```

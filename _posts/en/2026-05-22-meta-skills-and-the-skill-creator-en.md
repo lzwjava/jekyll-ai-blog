@@ -19,7 +19,7 @@ A **meta skill** is a skill about skills — instead of teaching you *how to do 
 
 In this environment's skill system, skills are structured `.md` files that give Claude task-specific instructions (e.g., how to create a `.docx`, how to read a PDF). A meta skill operates one level up: it governs the **skill creation and improvement process itself**.
 
-## The `skill-creator` SkillHere's what you need to know:
+## The `skill-creator` SkillHere's what you need to know
 
 ## Meta Skill — Concept
 

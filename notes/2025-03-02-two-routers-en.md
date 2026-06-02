@@ -15,6 +15,7 @@ Here’s how to achieve this:
 ---
 
 ### **Step 1: Understand the Setup**
+
 - **Modem**: Provides internet access and has its own WiFi (IP: `192.168.1.1`).
 - **Router1**: Will connect to the modem with a cable and act as the primary router for your network.
 - **Router2**: Will connect wirelessly to Router1 to extend the network coverage.
@@ -24,6 +25,7 @@ You’ve mentioned several modes (Wired AP Bridge, Wireless AP Bridge, DHCP, Bro
 ---
 
 ### **Step 2: Set Up Router1**
+
 1. **Connect Router1 to the Modem**:
    - Take an Ethernet cable and plug one end into a **LAN port** on your modem.
    - Plug the other end into the **WAN (Internet) port** on Router1.
@@ -48,6 +50,7 @@ You’ve mentioned several modes (Wired AP Bridge, Wireless AP Bridge, DHCP, Bro
 ---
 
 ### **Step 3: Set Up Router2 as a Wireless Bridge**
+
 1. **Access Router2’s Web Interface**:
    - Connect a computer or smartphone to Router2’s default WiFi network or via Ethernet.
    - Open a web browser and type `http://tplinkwifi.net` or `192.168.0.1`.
@@ -68,6 +71,7 @@ You’ve mentioned several modes (Wired AP Bridge, Wireless AP Bridge, DHCP, Bro
 ---
 
 ### **Step 4: Test the Setup**
+
 1. **Verify Router2’s Connection**:
    - After rebooting, check Router2’s interface to confirm it’s connected to Router1’s WiFi.
 2. **Connect a Device to Router2**:
@@ -78,6 +82,7 @@ You’ve mentioned several modes (Wired AP Bridge, Wireless AP Bridge, DHCP, Bro
 ---
 
 ### **Final Configuration Summary**
+
 - **Modem**: IP `192.168.1.1`, provides internet and WiFi.
 - **Router1**:
   - WAN: Connected to modem via cable, set to **DHCP** (gets IP from modem, e.g., `192.168.1.x`).
@@ -90,6 +95,7 @@ You’ve mentioned several modes (Wired AP Bridge, Wireless AP Bridge, DHCP, Bro
 ---
 
 ### **Troubleshooting Tips**
+
 - **Router2 Not Connecting Wirelessly**:
   - Double-check Router1’s SSID, password, and channel settings in Router2’s configuration.
   - If **Wireless AP Bridge** isn’t available, try **WDS** or **Repeater** mode. Refer to the TP-Link AX3000 manual for supported modes.
@@ -108,6 +114,7 @@ If you decide to use a fixed (static) IP address for the first router (Router1) 
 ---
 
 ### **Assumptions**
+
 - Your modem has an IP address of `192.168.1.1` and uses the subnet `192.168.1.0/24` (subnet mask `255.255.255.0`).
 - The modem has a DHCP range (e.g., `192.168.1.2` to `192.168.1.100`) that assigns IP addresses to connected devices.
 
@@ -116,6 +123,7 @@ If your modem uses a different IP or subnet, adjust the values accordingly.
 ---
 
 ### **WAN Settings for Router1**
+
 These settings configure how Router1 connects to the modem:
 
 1. **IP Address**
@@ -140,6 +148,7 @@ These settings configure how Router1 connects to the modem:
 ---
 
 ### **Example Configuration**
+
 Here’s what your Router1 WAN settings might look like:
 
 - **IP Address**: `192.168.1.101`
@@ -150,6 +159,7 @@ Here’s what your Router1 WAN settings might look like:
 ---
 
 ### **Additional Notes**
+
 - **Check Modem Settings**: Log into your modem (usually at `192.168.1.1`) to confirm its IP, subnet mask, and DHCP range. Adjust Router1’s static IP if needed.
 - **LAN Settings for Router1**: To avoid conflicts, configure Router1’s LAN network on a different subnet, like `192.168.0.1` with a subnet mask of `255.255.255.0`. Enable DHCP on Router1 to assign IPs (e.g., `192.168.0.2` to `192.168.0.254`) to devices connected to it.
 - **Testing**: After applying these settings, ensure Router1 can access the internet. If not, double-check the IP (no conflicts), gateway, and DNS values.
@@ -163,6 +173,7 @@ It sounds like you've set up Router1 with a static WAN IP and configured its LAN
 ---
 
 ### Step 1: Verify Router1’s WAN Connection
+
 Your WAN settings are:
 
 - **IP Address**: `192.168.1.101`
@@ -185,6 +196,7 @@ These settings suggest Router1 is connected to a modem or another router with an
 ---
 
 ### Step 2: Check Router1’s LAN and DHCP Settings
+
 Your LAN and DHCP settings are:
 
 - **LAN IP**: `192.168.0.1`
@@ -205,6 +217,7 @@ These look solid, but let’s ensure they’re working:
 ---
 
 ### Step 3: Test Your Laptop’s Connection
+
 Since your laptop isn’t connecting, let’s diagnose it:
 
 - **Connection Type**:
@@ -226,6 +239,7 @@ Since your laptop isn’t connecting, let’s diagnose it:
 ---
 
 ### Step 4: Common Issues and Fixes
+
 Here are some likely culprits:
 
 - **Cable Issues**:
@@ -246,6 +260,7 @@ Here are some likely culprits:
 ---
 
 ### Step 5: Reset if Needed
+
 If nothing works, reset Router1 and reconfigure:
 
 - **Factory Reset**:
@@ -257,6 +272,7 @@ If nothing works, reset Router1 and reconfigure:
 ---
 
 ### Final Tips
+
 - **Modem DHCP Range**: Confirm `192.168.1.101` is outside the modem’s DHCP range to avoid conflicts.
 - **Firmware**: Check Router1’s web interface for a firmware update.
 - **Laptop Drivers**: Ensure your laptop’s network adapter drivers are up to date.

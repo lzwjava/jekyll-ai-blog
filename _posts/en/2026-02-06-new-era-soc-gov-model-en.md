@@ -21,6 +21,7 @@ This question tests knowledge of the social governance pattern being created thr
 According to the material (p.179), strengthening and innovating social governance involves:
 
 Creating a social governance system with:
+
 - Party committee leadership
 - Government responsibility
 - Social coordination
@@ -32,14 +33,17 @@ The goal is to "**build a social governance pattern of co-construction, co-gover
 ## Understanding the Three "Co-" Principles
 
 **共建 (Co-construction)**
+
 - Everyone participates in building society together
 - Shared responsibility for development
 
 **共治 (Co-governance)**
+
 - Collaborative governance among multiple parties
 - Government, society, and citizens govern together
 
 **共享 (Co-sharing)**
+
 - Everyone shares in the fruits of development
 - Equitable distribution of social benefits
 

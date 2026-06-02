@@ -31,9 +31,11 @@ The `/compact [instructions]` command compacts the session context and reports t
 ## How It Works
 
 ### Without instructions
+
 Sending `/compact` by itself will trigger context compaction and the agent will reply confirming the action, along with how much context budget remains.
 
 ### With instructions
+
 You can append custom instructions to guide **what gets preserved or prioritized** during compaction. For example:
 
 ```

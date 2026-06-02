@@ -17,7 +17,7 @@ The flow has three components: token generation, local storage, and credential i
 
 ## Token Generation
 
-You visit https://huggingface.co/settings/tokens to generate a personal access token. HF gives you a string (in your case `test1`) that acts as an OAuth-like credential — it's a bearer token that authenticates API requests to `huggingface.co`.
+You visit <https://huggingface.co/settings/tokens> to generate a personal access token. HF gives you a string (in your case `test1`) that acts as an OAuth-like credential — it's a bearer token that authenticates API requests to `huggingface.co`.
 
 ## Storage Strategy
 
@@ -47,9 +47,11 @@ When you later interact with HF (e.g., `from_pretrained()`, API calls), the libr
 
 1. **Loads the token** from cache or asks git credential helper
 2. **Injects it as a Bearer token** in HTTP headers:
+
    ```
    Authorization: Bearer test1
    ```
+
 3. **HF API validates** the token server-side and returns model metadata, weights, or denies access
 
 ## Why Both Storage Methods?

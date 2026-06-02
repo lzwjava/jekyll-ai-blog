@@ -19,7 +19,6 @@ type: note
 
 ## Claude (Anthropic) 通道
 
-
 | 分组 | 倍率 | 描述 |
 |---|---|---|
 | **Claude Max** | 1.3x | 最佳质量；使用 Claude Max 账户 |
@@ -38,7 +37,6 @@ type: note
 
 ## OpenAI (GPT) 通道
 
-
 | 分组 | 倍率 | 描述 |
 |---|---|---|
 | **Codex (Team)** | 0.3x | 使用 GPT Team + 常规账户池；优先级低于 GPT Pro |
@@ -47,7 +45,6 @@ type: note
 ---
 
 ## Google 通道
-
 
 | 分组 | 倍率 | 描述 |
 |---|---|---|
@@ -62,6 +59,7 @@ type: note
 
 **什么是“逆向渠道”（reverse channels）？**
 这些是 **unofficial reverse-engineered proxies** — 它们拦截 Claude 的 web 接口流量，而不是使用官方 API。它们更便宜，但：
+
 - 稳定性较低
 - 可能违反 Anthropic 的服务条款
 - 可能不可预测地被封锁/限速（如备用 Max 通道的风控问题所示）

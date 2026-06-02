@@ -29,6 +29,7 @@ Most people treat “hustle culture” and grinding 80-hour weeks (or all-nighte
 In short: working or studying “too much” is often rationalized laziness—laziness about building better systems, saying no, and trusting that depth beats volume in the long run.
 
 References:
+
 - Cal Newport – Deep Work (2016)
 - Alex Pang – Rest: Why You Get More Done When You Work Less (2016)
 - Anders Ericsson – Peak: Secrets from the New Science of Expertise (2016)

@@ -13,9 +13,11 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
 ---
 
 ### Docker: Containerization Platform
+
 **What it does**: Docker is a tool for creating, running, and managing individual containers—lightweight, isolated environments that package an application with its dependencies.
 
 #### Key Features
+
 1. **Container Runtime**:
    - Docker uses a runtime (e.g., `containerd` or `runc`) to execute containers based on Linux kernel features like namespaces and cgroups.
    - It’s responsible for the lifecycle of a single container: build, start, stop, etc.
@@ -31,12 +33,15 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
    - Commands like `docker build`, `docker run`, and `docker ps` let you interact with containers directly.
 
 #### Use Case
+
 - Running a single Spring Boot app on your laptop or a server:
+
   ```bash
   docker run -p 8080:8080 myapp:latest
   ```
 
 #### Limitations
+
 - No native multi-host support.
 - No automatic scaling, self-healing, or load balancing.
 - Managing many containers manually gets messy.
@@ -44,9 +49,11 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
 ---
 
 ### Kubernetes: Container Orchestration System
+
 **What it does**: Kubernetes (often abbreviated as K8s) is a platform for managing and orchestrating multiple containers across a cluster of machines. It automates deployment, scaling, and operation of containerized apps.
 
 #### Key Features
+
 1. **Cluster Management**:
    - Kubernetes runs on a cluster of nodes (physical or virtual machines). One node is the "control plane" (managing the cluster), and others are "worker nodes" (running containers).
 
@@ -67,7 +74,9 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
    - Includes features like service discovery, persistent storage, secrets management, and rolling updates.
 
 #### Use Case
+
 - Deploying a microservices app with 10 services, each in its own container, across 5 servers, with automatic scaling and failover:
+
   ```yaml
   apiVersion: apps/v1
   kind: Deployment
@@ -91,6 +100,7 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
   ```
 
 #### Limitations
+
 - Steeper learning curve.
 - Overkill for simple, single-container apps on one machine.
 
@@ -112,6 +122,7 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
 ---
 
 ### How They Work Together
+
 - **Docker as the Runtime**: Kubernetes doesn’t run containers directly—it relies on a container runtime like Docker (or alternatives like `containerd`) to start and manage individual containers within Pods.
 - **Workflow**:
   1. You build a Docker image (`docker build -t myapp:latest .`).
@@ -123,12 +134,14 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
 ---
 
 ### Analogy
+
 - **Docker**: A chef cooking a single dish in a kitchen. You tell the chef what to make (`Dockerfile`) and how to serve it (`docker run`).
 - **Kubernetes**: A restaurant manager overseeing multiple chefs (Docker instances) across many kitchens (nodes). The manager ensures dishes are prepared on time, scales up staff during rush hour, and replaces a chef who gets sick.
 
 ---
 
 ### When to Use Which?
+
 - **Docker Alone**: For development, testing, or simple apps on one machine (e.g., a single Spring Boot app).
 - **Kubernetes**: For production-grade, distributed apps needing high availability, scaling, and resilience (e.g., a microservices architecture).
 

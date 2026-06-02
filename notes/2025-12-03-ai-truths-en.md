@@ -34,6 +34,7 @@ Here are five strongly evidenced but widely rejected claims about AI that I beli
 These views are unpopular in tech circles, on social media, and among many investors and startup founders, but they are the modal private opinion among the minority of researchers who actually study long-term AI risk and capabilities ceilings most carefully.
 
 References:
+
 - *[Biological Anchors Update 2024](https://epochai.org/blog/updating-towards-2024-biological-anchors)*
 - *[Situational Awareness – Leopold Aschenbrenner](https://situational-awareness.ai/)* (for contrasting hype view, but footnotes contain more sober expert surveys)
 - *[Without specific solvers, alignment is probably impossible – Nate Soares/MIRI](https://intelligence.org/2018/11/27/miris-2018-update/)*

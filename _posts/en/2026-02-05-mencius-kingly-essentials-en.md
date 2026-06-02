@@ -50,6 +50,7 @@ This is a dialogue between Mencius and King Hui of Liang, centered on **how to g
 ### Core Philosophy
 
 Mencius's **Theory of Benevolent Governance** includes:
+
 - **People-centered thinking**: Prioritizing people's livelihood
 - **Economic foundation**: First solve material needs
 - **Moral education**: Implement education after material security

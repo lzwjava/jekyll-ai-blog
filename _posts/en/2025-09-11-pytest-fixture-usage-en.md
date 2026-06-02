@@ -157,6 +157,7 @@ def test_validate_header(financial_header):
 ## When to Use Fixtures
 
 Use fixtures when you need to:
+
 - Set up test data or objects
 - Manage external resources (DB connections, files, etc.)
 - Perform cleanup after tests

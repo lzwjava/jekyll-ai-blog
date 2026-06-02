@@ -32,6 +32,7 @@ The easiest, non-root way is to download and install the official binary release
      `wget https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protoc-27.3-linux-x86_64.zip`
 
 2. **Install It**:
+
    ```
    unzip protoc-*.zip -d protoc-install
    sudo mv protoc-install/bin/protoc /usr/local/bin/
@@ -40,12 +41,15 @@ The easiest, non-root way is to download and install the official binary release
    ```
 
 3. **Verify**:
+
    ```
    protoc --version
    ```
+
    Should output `libprotoc 27.3` (or higher). If it's still old, check your PATH (`echo $PATH`)—`/usr/local/bin` should come before `/usr/bin`.
 
 4. **Retry the Build**:
+
    ```
    make clean  # Clears stale targets
    make
@@ -54,10 +58,12 @@ The easiest, non-root way is to download and install the official binary release
 This overrides the system `protoc` without conflicting with `apt` packages. If you're on a newer distro like Ubuntu 24.04+, `apt install protobuf-compiler` might already give ≥3.21—double-check your version first.
 
 ### If You Can't Upgrade (Rare Cases)
+
 - If stuck on an old system, you'd need to patch `substrait`'s `build.rs` to add the flag (via `Command::new(protoc).arg("--experimental_allow_proto3_optional")`), but this requires forking the crate and updating GreptimeDB's `Cargo.toml`—messy and not recommended.
 - Alternatively, some crates offer a `protobuf-src` feature to bundle a recent protoc, but `substrait` doesn't enable it by default.
 
 ### Additional Tips
+
 - Ensure other prereqs: `build-essential` (for GCC), `libc6-dev` (glibc headers).
 - If the build passes but later fails on C++ deps (e.g., Arrow), install `libarrow-dev` via conda or apt.
 - For CI/CD or Docker: Add the download step to your env.

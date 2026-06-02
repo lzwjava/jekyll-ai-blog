@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Yes, **Ollama itself does not include a built-in web interface** — it only runs an API server (normally on http://127.0.0.1:11434).
+Yes, **Ollama itself does not include a built-in web interface** — it only runs an API server (normally on <http://127.0.0.1:11434>).
 
 To get a nice browser-based chat UI (like ChatGPT), you need to run a separate frontend that connects to Ollama's API.
 
@@ -41,13 +41,13 @@ docker run -d -p 3000:8080 \
 
 Then open in your browser:
 
-http://localhost:3000
+<http://localhost:3000>
 
-(or http://127.0.0.1:3000)
+(or <http://127.0.0.1:3000>)
 
 - First time → create an account (the first one becomes admin)
-- It should auto-detect your local Ollama at http://host.docker.internal:11434
-- If models don't appear → go to Settings → Connections → make sure Ollama is connected (or manually set Base URL to http://host.docker.internal:11434)
+- It should auto-detect your local Ollama at <http://host.docker.internal:11434>
+- If models don't appear → go to Settings → Connections → make sure Ollama is connected (or manually set Base URL to <http://host.docker.internal:11434>)
 
 **Alternative Docker run (if the above has connection issues)**
 
@@ -61,7 +61,7 @@ docker run -d -p 8080:8080 \
   ghcr.io/open-webui/open-webui:main
 ```
 
-→ Then go to: http://localhost:8080
+→ Then go to: <http://localhost:8080>
 
 ### If you prefer LibreChat instead
 
@@ -77,7 +77,7 @@ docker run -d -p 3080:3080 \
   ghcr.io/danny-avila/librechat:latest
 ```
 
-→ http://localhost:3080
+→ <http://localhost:3080>
 
 Then configure Ollama as a custom endpoint inside the settings.
 

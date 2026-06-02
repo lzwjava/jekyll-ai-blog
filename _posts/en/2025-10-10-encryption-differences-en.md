@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Symmetric Algorithms
+
 Symmetric algorithms, also known as symmetric-key cryptography, use the **same secret key** for both encrypting (scrambling) data and decrypting (unscrambling) it. This makes them fast and efficient for large amounts of data, but the challenge is securely sharing the key between parties without interception.
 
 - **Examples**: AES (Advanced Encryption Standard), DES (Data Encryption Standard).
@@ -18,6 +19,7 @@ Symmetric algorithms, also known as symmetric-key cryptography, use the **same s
 - **Cons**: Key distribution and management are risky.
 
 ### Non-Symmetric (Asymmetric) Algorithms
+
 Non-symmetric algorithms, commonly called asymmetric cryptography or public-key cryptography, use a **pair of related keys**: a public key (freely shared for encryption) and a private key (kept secret for decryption). This eliminates the need to securely exchange a single key.
 
 - **Examples**: RSA, ECC (Elliptic Curve Cryptography).
@@ -36,5 +38,6 @@ Non-symmetric algorithms, commonly called asymmetric cryptography or public-key 
 In practice, they're often combined: asymmetric for initial key exchange, symmetric for the actual data transfer (e.g., in TLS/SSL).
 
 For more details, see:
+
 - [Symmetric vs Asymmetric Encryption - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-symmetric-and-asymmetric-key-encryption/)
 - [Symmetric and Asymmetric Encryption - AWS](https://aws.amazon.com/what-is/symmetric-encryption/)

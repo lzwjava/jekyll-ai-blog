@@ -39,6 +39,7 @@ Answer:
    - 活跃于制造业、金融业和大型企业项目。
 
 其他值得注意的公司：
+
 - **Nomura Research Institute (NRI)** —— 高度专注于 **financial services** 和银行平台。
 - **SCSK** 或 **TIS** —— 虽然规模属于中坚力量，但在 outsourcing 和 system integration 领域表现强劲。
 

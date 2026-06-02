@@ -22,8 +22,8 @@ Here is a breakdown of the key factors that led to 3dfx's downfall:
 ### 💰 Fatal Business Decisions
 
 - **The STB Systems Acquisition**: In a bid to control its own destiny and capture more profit, 3dfx bought board manufacturer STB Systems in late 1998. This meant they stopped licensing their chips to third-party partners (like Creative Labs and Hercules), who were their own customers . This move backfired spectacularly:
-    - **Alienated Partners**: These abandoned partners, who had a massive global sales reach, simply switched to selling Nvidia-based cards, instantly expanding Nvidia's market presence .
-    - **Inefficient Manufacturing**: 3dfx was a chip designer, not a manufacturer. They struggled to compete with the efficient and high-volume production of Asian manufacturers that Nvidia continued to use .
+  - **Alienated Partners**: These abandoned partners, who had a massive global sales reach, simply switched to selling Nvidia-based cards, instantly expanding Nvidia's market presence .
+  - **Inefficient Manufacturing**: 3dfx was a chip designer, not a manufacturer. They struggled to compete with the efficient and high-volume production of Asian manufacturers that Nvidia continued to use .
 - **Financial Strain**: The STB acquisition saddled 3dfx with significant debt. At the same time, they were pouring money into the development of next-generation chips ("Rampage") that were late to market. This combination of high debt and delayed revenue put the company in a precarious financial position .
 - **The Failed Sega Dreamcast Deal**: In 1997, 3dfx was working with Sega to provide the graphics hardware for its next console, the Dreamcast. Sega ultimately chose a chip from NEC instead. This was a major blow, not only losing a massive contract but also the potential console royalties and technological validation that would have come with it .
 
@@ -34,6 +34,7 @@ By late 2000, 3dfx was on its last legs. Its products were no longer competitive
 As noted in some discussions, Nvidia was found to have violated 3dfx's intellectual property and was facing a potentially ruinous financial penalty . The situation created a unique resolution: **In December 2000, Nvidia acquired 3dfx for $70 million in cash and 1 million shares** .
 
 This acquisition allowed Nvidia to:
+
 - **Settle the Lawsuit**: The legal battle was effectively ended by absorbing the plaintiff.
 - **Acquire Critical IP**: Nvidia gained ownership of 3dfx's valuable graphics patents, which it would later use to develop and brand its own SLI (Scalable Link Interface) technology, among other things .
 

@@ -14,6 +14,7 @@ Short answer: **GPT-2 family yes, everything else no — at least not for loadin
 ## What `sample.py --init_from=...` supports
 
 `model.py:230` hard-codes this assertion:
+
 ```python
 assert model_type in {'gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl'}
 ```
@@ -45,19 +46,24 @@ The weight tensor names *and* shapes are different — `from_pretrained` would f
 ## Your realistic options
 
 **If you want bigger pretrained text-gen on this box:**
+
 - Stick with `gpt2-xl` (1.5B) — still useful and fits on most GPUs.
 - For anything beyond that, use `transformers` directly, not nanoGPT:
+
   ```python
   from transformers import AutoModelForCausalLM, AutoTokenizer
   tok = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B")
   m   = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-3B", torch_dtype="auto", device_map="auto")
   ```
+
   (With `HF_ENDPOINT=https://hf-mirror.com` set — same mirror works for Qwen, DeepSeek, etc.)
 
 **If you want to *train* GPT-3-class models from scratch:**
+
 - That's exactly what the `config/train_gpt2_*.py` and your `out-gpt2-200m` configs are for. nanoGPT is built for this; loading pretrained weights is a side feature.
 
 **If you really want nanoGPT-style code for Llama/Qwen:**
+
 - Karpathy's `llm.c` or `nanollama` / `nano-llama31` (community ports) are the modern equivalents — same minimalist spirit, RoPE + RMSNorm + SwiGLU built in.
 
 TL;DR: for *inference* on big modern models, just use `transformers` with the mirror env vars. nanoGPT shines for training small/medium GPT-2-style models from scratch.

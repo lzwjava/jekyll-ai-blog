@@ -25,4 +25,5 @@ type: note
 *注：在现代网络术语中，此功能最常与 **File Server** 相关联。但是，根据特定选项和您查询中提供的考试答案，“集散”是此特定测试上下文中的预期答案。*
 
 参考文献：
+
 - [General LAN Server Roles Overview](https://www.geeksforgeeks.org/types-of-servers-in-computer-network/)

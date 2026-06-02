@@ -22,6 +22,7 @@ Answer:
 mem9 (mnemos) uses TiDB Cloud Starter as its backing store, with the architecture keeping agent plugins stateless — all state lives in the mnemo-server, backed by TiDB.
 
 The key features mem9 relies on TiDB for are:
+
 - **Hybrid vector + keyword (full-text) search** — needed for memory recall
 - **Multi-tenant shared memory** — multiple agents or users sharing one pool
 - **Cloud-persistent, cross-device access**

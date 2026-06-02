@@ -15,7 +15,8 @@ type: note
 
 在 **Routing Information Protocol (RIP)** 中，hop count 为 **16** 表示目标网络 **不可达**。
 
-### 解释：
+### 解释
+
 - RIP 是一种 **distance-vector routing protocol**，它使用 **hop count** 作为其 **metric** 来确定到目的地的最佳路径。
 - RIP 中的最大有效 hop count 为 **15**。这意味着 15 个 hop 以内或更少的任何目的地都被认为是可达的。
 - hop count 为 **16** 在 RIP 术语中被定义为 **infinity**。当路由器接收或计算出一个 metric 为 16 的路由时，它会将该路由视为无效或不可达。

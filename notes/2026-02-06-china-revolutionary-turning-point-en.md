@@ -21,11 +21,13 @@ The May Fourth Movement in 1919 marked the transition of China's bourgeois-democ
 ## Why the May Fourth Movement is the Turning Point
 
 **Before May Fourth Movement** - Old Democratic Revolution period:
+
 - Led by the bourgeoisie
 - Following the pattern of Western bourgeois revolutions
 - Lacked clear revolutionary leadership
 
 **After May Fourth Movement** - New Democratic Revolution period:
+
 - Working class emerged as an independent political force
 - Combined with the spread of Marxism in China
 - Set the foundation for Communist Party leadership
@@ -41,6 +43,7 @@ The May Fourth Movement in 1919 marked the transition of China's bourgeois-democ
 ## Key Historical Significance
 
 The May Fourth Movement (May 4, 1919) was significant because it:
+
 1. Demonstrated the awakening of the working class
 2. Promoted the spread of Marxism-Leninism in China
 3. Prepared conditions for the founding of the Communist Party of China (1921)

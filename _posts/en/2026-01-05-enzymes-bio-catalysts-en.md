@@ -17,6 +17,7 @@ Answer:
 Enzymes are biological catalysts, primarily proteins produced by living cells, that speed up the rate of chemical reactions in organisms without being consumed or permanently altered in the process.
 
 ### Key Characteristics
+
 - **Composition**: Most enzymes are proteins made of chains of amino acids folded into a specific three-dimensional structure. A small portion forms the **active site**, where the reaction occurs. Some enzymes require non-protein helpers called cofactors (e.g., metal ions or coenzymes like vitamins).
 - **Function**: They lower the activation energy needed for reactions, allowing processes like digestion, energy production, and DNA replication to occur quickly at body temperatures. Without enzymes, many essential reactions would be too slow to sustain life.
 - **Specificity**: Enzymes are highly specific, acting on particular molecules called **substrates** (like a lock and key). They convert substrates into products.

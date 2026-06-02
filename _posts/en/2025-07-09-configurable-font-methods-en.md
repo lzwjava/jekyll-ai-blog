@@ -17,12 +17,14 @@ You can also create a separate file for font configuration:And then in your main
 Here are some good font alternatives for Linux systems:
 
 **For Chinese/CJK fonts:**
+
 - `Noto Sans CJK SC` (recommended)
 - `Source Han Sans SC`
 - `WenQuanYi Micro Hei`
 - `Droid Sans Fallback`
 
 **For English fonts:**
+
 - `Liberation Serif` (Times New Roman alternative)
 - `DejaVu Serif`
 - `Linux Libertine`

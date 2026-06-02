@@ -17,6 +17,7 @@ Git 代码检出 → pip 安装 → gunicorn → nginx 反向代理
 ```
 
 ### 目录结构（推荐）
+
 ```
 inventory.ini
 deploy.yml
@@ -34,6 +35,7 @@ roles/
 ```
 
 ### 1. inventory.ini
+
 ```ini
 [webservers]
 app.example.com ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/yourkey.pem
@@ -47,7 +49,9 @@ python_version=3.11
 ```
 
 ### 2. deploy.yml（主剧本）
+
 {% raw %}
+
 ```yaml
 ---
 - name: 使用 Gunicorn + Nginx 部署 Python Web 应用程序
@@ -61,10 +65,13 @@ python_version=3.11
   roles:
     - webapp
 ```
+
 {% endraw %}
 
 ### 3. roles/webapp/tasks/main.yml
+
 {% raw %}
+
 ```yaml
 ---
 - name: 安装系统依赖
@@ -143,10 +150,13 @@ python_version=3.11
     state: absent
   notify: 重载 nginx
 ```
+
 {% endraw %}
 
 ### 4. roles/webapp/templates/gunicorn.service.j2
+
 {% raw %}
+
 ```ini
 [Unit]
 Description={{ app_name }} 的 Gunicorn 实例
@@ -166,10 +176,13 @@ RestartSec=3
 [Install]
 WantedBy=multi-user.target
 ```
+
 {% endraw %}
 
 ### 5. roles/webapp/templates/nginx-site.conf.j2
+
 {% raw %}
+
 ```nginx
 server {
     listen 80;
@@ -190,10 +203,13 @@ server {
     # }
 }
 ```
+
 {% endraw %}
 
 ### 6. roles/webapp/handlers/main.yml
+
 {% raw %}
+
 ```yaml
 ---
 - name: 重载 systemd
@@ -210,17 +226,21 @@ server {
     name: nginx
     state: reloaded
 ```
+
 {% endraw %}
 
 ### 运行部署
+
 ```bash
 ansible-playbook -i inventory.ini deploy.yml
 ```
 
 ### 后续部署（零停机时间）
+
 只需再次运行相同命令。Git 拉取 + pip 安装将借助处理程序自动触发 Gunicorn 重启。
 
 ### 可选改进
+
 - 为 Django 添加 `--collect-static`
 - 使用 Certbot 添加 SSL（单独角色）
 - 如果偏好可使用 `supervisor` 替代 systemd

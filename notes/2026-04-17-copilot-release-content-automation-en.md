@@ -91,18 +91,18 @@ You proposed two approaches:
 [Commits / changes]
 ```
 
-### Behavior:
+### Behavior
 
 * The model **anchors on structure first**
 * Then fills in content accordingly
 
-### Pros:
+### Pros
 
 * Very stable output format
 * Fields are rarely missing
 * Better for automation / pipelines
 
-### Cons:
+### Cons
 
 * Sometimes shallow interpretation of commits
 * May “force-fit” content into template even if unclear
@@ -116,18 +116,18 @@ You proposed two approaches:
 [Template]
 ```
 
-### Behavior:
+### Behavior
 
 * Model **first understands deeply**
 * Then maps understanding into structure
 
-### Pros:
+### Pros
 
 * Better semantic understanding
 * More accurate technical impact
 * Less hallucinated filler
 
-### Cons:
+### Cons
 
 * Slightly less consistent formatting
 * Might drift from template if not enforced strictly
@@ -169,7 +169,7 @@ Rules:
 
 ---
 
-### Why this works:
+### Why this works
 
 * Phase 1 = **deep reasoning**
 * Phase 2 = **structured formatting**

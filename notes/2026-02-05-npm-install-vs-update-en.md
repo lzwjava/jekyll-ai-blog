@@ -13,12 +13,14 @@ type: note
 The main differences between `npm install` and `npm update`:
 
 ## **npm install**
+
 - **Installs** packages listed in `package.json` that aren't yet in `node_modules`
 - Respects the **exact version ranges** specified in `package.json` (e.g., `^1.2.3`)
 - Creates or updates `package-lock.json` to lock those versions
 - If you run it when packages are already installed, it generally does nothing (unless lock file is missing)
 
 ## **npm update**
+
 - **Updates** existing packages in `node_modules` to the latest versions that still satisfy the ranges in `package.json`
 - Won't install packages that aren't already present
 - Updates `package-lock.json` with the new versions

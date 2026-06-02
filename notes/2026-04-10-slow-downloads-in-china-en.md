@@ -15,14 +15,15 @@ Answer:
 
 The download is extremely slow because **Camoufox** (a custom Firefox-based browser for automation and anti-detection) fetches a large binary file (~300-400 MB) from **foreign/international servers** (likely hosted on AWS, GitHub, Fastly CDN, or similar overseas infrastructure).
 
-### Main Reasons Why It's Slow in China:
+### Main Reasons Why It's Slow in China
+
 - **Great Firewall of China (GFW)**: All traffic going in or out of mainland China must pass through a small number of international gateways. The GFW applies **Deep Packet Inspection (DPI)**, which deliberately introduces **packet loss**, throttling, and extra latency on connections to non-Chinese servers. This makes large file downloads crawl at a tiny fraction of your normal speed.
 - **Cross-border bandwidth congestion**: International links from China are heavily shared and often congested, especially for downloads from popular Western CDNs.
 - **No China-optimized CDN**: Unlike big companies (e.g., some use Alibaba Cloud or Tencent CDN inside China), Camoufox's download source does not have fast mirrors inside mainland China. The progress bar staying at 0% for 25+ minutes (1523 seconds ≈ 25 minutes) is very typical for such blocked/throttled downloads.
 
 This is the same reason why downloading Playwright, Puppeteer, Chrome/Firefox binaries, or any large file from GitHub/AWS is notoriously slow or unstable from China.
 
-### Solutions (Try in This Order):
+### Solutions (Try in This Order)
 
 1. **Use a Good VPN** (Most Effective)
    - Connect to a **high-quality VPN** with servers optimized for China (e.g., ones with obfuscated protocols or China-specific nodes).
@@ -31,10 +32,12 @@ This is the same reason why downloading Playwright, Puppeteer, Chrome/Firefox bi
    - Note: Free VPNs usually make it worse.
 
 2. **Force a Clean Retry**
+
    ```bash
    npx camoufox-js remove   # or camoufox remove if using Python version
    npx camoufox-js fetch
    ```
+
    Partial downloads can get corrupted, making it even slower.
 
 3. **Improve Local Network**
@@ -55,7 +58,8 @@ Unfortunately, there is no official China mirror for Camoufox yet, so the VPN ro
 If the download still fails or stays at 0% even with a VPN, share the full output (including any error after it eventually fails) and I can help further.
 
 References:
-- https://www.mlytics.com/blog/why-your-website-is-slow-in-china-and-how-to-fix-it-2024-total-guide-for-better-web-app-performance-in-china/
-- https://www.thoughtworks.com/insights/blog/user-experience/foreign-websites-slower-China
-- https://github.com/platformio/platformio-core/issues/4656
+
+- <https://www.mlytics.com/blog/why-your-website-is-slow-in-china-and-how-to-fix-it-2024-total-guide-for-better-web-app-performance-in-china/>
+- <https://www.thoughtworks.com/insights/blog/user-experience/foreign-websites-slower-China>
+- <https://github.com/platformio/platformio-core/issues/4656>
 - Camoufox documentation mentions ~300-400MB download and notes on slow connections

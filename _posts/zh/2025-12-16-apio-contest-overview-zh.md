@@ -22,7 +22,7 @@ APIO 代表 **亚太信息学奥林匹克竞赛 (Asia-Pacific Informatics Olympi
 
 参考资料：
 
-- https://apio2025.uz/
-- https://codeforces.com/blog/entry/142848
-- https://hkoi.org/en/apio-2025/
-- https://ioinformatics.org/ (关于 IOI 风格比赛的背景信息)
+- <https://apio2025.uz/>
+- <https://codeforces.com/blog/entry/142848>
+- <https://hkoi.org/en/apio-2025/>
+- <https://ioinformatics.org/> (关于 IOI 风格比赛的背景信息)

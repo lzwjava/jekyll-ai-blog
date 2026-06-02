@@ -15,6 +15,7 @@ type: note
 Bank of China (Hong Kong) Limited (BOCHK) is part of the Bank of China (BOC) group, enabling smooth cross-border access between HK and Mainland China. You can withdraw cash via ATM or transfer funds electronically from a BOCHK account to a BOC account in China. Both are supported for personal banking, with low or no fees for group-internal transactions. Activate overseas ATM functions in advance via the BOCHK app, phone (+852 2853 8828), or branch, as they're often preset to zero for security. All info based on 2025 tariffs; confirm via your account for updates.
 
 #### ATM Withdrawals
+
 Yes, you can withdraw RMB (CNY) at BOC ATMs in Mainland China using your BOCHK ATM/debit card (e.g., BOC Card or UnionPay-linked). Transactions debit your HK account (HKD or RMB equivalent) with conversion at BOCHK's rate if needed. No foreign transaction fee for BOC Mastercard Debit Cards.
 
 | Aspect | Details | Fees (per transaction) | Notes |
@@ -26,6 +27,7 @@ Yes, you can withdraw RMB (CNY) at BOC ATMs in Mainland China using your BOCHK A
 For card-specific fees, check BOCHK's service charge table.
 
 #### Fund Transfers
+
 Yes, transfers are efficient and often free via group channels like BOC Remittance Plus or BOC Express. Use app, online banking, or branch for near-instant delivery to BOC China accounts. Supports HKD, RMB, or USD; personal accounts qualify.
 
 | Method | Description | Time | Fees | Notes |
@@ -41,6 +43,7 @@ Yes, transfers are efficient and often free via group channels like BOC Remittan
 Log into BOCHK e-banking or contact support for exact quotes. Regulations can affect large transfers.
 
 #### References
+
 - [BOCHK General Service Charges](https://www.bochk.com/en/servicecharge.html)
 - [BOCHK Remittance Services](https://www.bochk.com/en/crossborder/personal/financialservicehk/remittance.html)
 - [BOC Remittance Plus](https://www.bochk.com/en/crossborder/remittance/remittance.html)

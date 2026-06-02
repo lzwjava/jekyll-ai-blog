@@ -29,6 +29,7 @@ JDK 11 于 2018 年发布，是 Oracle 快速发布节奏下继 JDK 8 之后的�
 这些观点突显了 Java 的 evolution 与其 massive 的 legacy codebase 之间的 tension，尽管许多团队成功迁移并事后感谢 JDK 11 的垃圾 collection tweaks 和 security fixes。
 
 References:
+
 - [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)
 - [JDK 11: Pitfalls for the Unwary](https://medium.com/@speakjava/jdk-11-pitfalls-for-the-unwary-e08d864065c1)
 - [Java 11 sucks big time](https://www.reddit.com/r/java/comments/9vmk0w/java_11_sucks_big_time/)

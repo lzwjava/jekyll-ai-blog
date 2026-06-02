@@ -18,36 +18,42 @@ Yes — macOS is partially open source. Apple calls this collection **Darwin**, 
 ## What's Open Source
 
 ### 1. Darwin / XNU Kernel
+
 The kernel itself — **XNU** (X is Not Unix) — is open source. It's a hybrid kernel combining:
+
 - **Mach** microkernel (from CMU)
 - **BSD** (FreeBSD-derived) layer
 - **IOKit** for drivers
 
-→ **Source:** https://github.com/apple-oss-distributions/xnu
+→ **Source:** <https://github.com/apple-oss-distributions/xnu>
 
 ### 2. Apple OSS Distributions
+
 Apple publishes a large collection of open-source components that ship in macOS:
 
-→ **Main hub:** https://opensource.apple.com/
+→ **Main hub:** <https://opensource.apple.com/>
 
-→ **GitHub org:** https://github.com/apple-oss-distributions
+→ **GitHub org:** <https://github.com/apple-oss-distributions>
 
 This includes: `dyld`, `libdispatch` (GCD), `libc`, `launchd`, `zsh`, `bash`, `curl`, `WebKit`, `clang/LLVM`, `Swift stdlib`, `libpthread`, and hundreds more.
 
 ### 3. LLVM / Clang
+
 Apple is a major contributor. The `clang` you get with Xcode is Apple's fork.
 
-→ https://github.com/llvm/llvm-project
+→ <https://github.com/llvm/llvm-project>
 
 ### 4. Swift
+
 Fully open source.
 
-→ https://github.com/apple/swift
+→ <https://github.com/apple/swift>
 
 ### 5. WebKit
+
 The browser engine behind Safari.
 
-→ https://github.com/WebKit/WebKit
+→ <https://github.com/WebKit/WebKit>
 
 ---
 
@@ -83,6 +89,7 @@ Everything above the Darwin layer is proprietary:
 ## Practical tip
 
 If you want to read XNU source alongside kernel behavior, pair it with:
+
 ```bash
 # Check your macOS version → match to XNU release tag
 sw_vers -productVersion

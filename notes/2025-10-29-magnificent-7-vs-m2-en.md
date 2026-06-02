@@ -46,6 +46,7 @@ In short: 2000 vibes dominate (overhyped tech, but real tech underneath). A 2008
 Overall, expect turbulence, not apocalypse. Diversify beyond tech, eye value stocks, and hold cash for dips. Markets climb walls of worry—this could be one.
 
 ### References
+
 - [Magnificent Seven Market Cap Reaches Record $20.9 Trillion in October 2025](https://www.voronoiapp.com/markets/-Magnificent-Seven-Market-Cap-Reaches-Record-209-Trillion-in-October-2025-3004)
 - [M2 (M2SL) - FRED](https://fred.stlouisfed.org/series/M2SL)
 - [U.S. Stock Market Cap-to-M2 Ratio Tops 300% in 2025](https://www.voronoiapp.com/markets/-US-Stock-Market-Cap-to-M2-Ratio-Tops-300-in-2025-Highest-Since-the-Dot-Com-Era-1627)

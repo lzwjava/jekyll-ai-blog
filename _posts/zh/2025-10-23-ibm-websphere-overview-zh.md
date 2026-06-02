@@ -37,6 +37,7 @@ WAS 提供多种版本（例如轻量级/微服务的 Liberty 版和具备完整
 更多详细信息，请查阅 IBM 官方文档或根据需求探索不同版本。
 
 ### 参考资料
+
 - [WebSphere Application Server 概述 - IBM](https://www.ibm.com/docs/en/was/9.0.5?topic=websphere-application-server-overview)
 - [IBM WebSphere Application Server - 维基百科](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server)
 - [IBM WebSphere Application Server 主要特性](https://itcodescanner.com/tutorials/ibm-websphere-application-server/key-features-of-ibm-websphere-application-server)

@@ -22,10 +22,12 @@ The honest answer to both: **it depends on the axis you're measuring.** Neither 
 Both dropped in the same week in April 2026 — Opus 4.7 on April 16, GPT-5.5 on April 23. The benchmarks split along workflow type:
 
 **Opus 4.7 leads:**
+
 - Opus 4.7 leads on 6 of the 10 shared benchmarks — specifically the reasoning-heavy and review-grade tests: GPQA Diamond, HLE (with and without tools), SWE-Bench Pro, MCP Atlas, and FinanceAgent v1.1.
 - Opus 4.7 wins the coding benchmarks — SWE-bench Pro (64.3%), SWE-bench Verified (87.6%), CursorBench, GPQA Diamond.
 
 **GPT-5.5 leads:**
+
 - GPT-5.5 leads on the long-running tool-use tests: Terminal-Bench 2.0, BrowseComp, OSWorld-Verified, and CyberGym. It leads BrowseComp by +5.1pp and CyberGym by +8.7pp.
 - GPT-5.5 wins the agentic and knowledge-work benchmarks: Terminal-Bench, GDPval, OSWorld, and Tau2-bench.
 
@@ -64,6 +66,7 @@ Given your workflow (CLI-first, large codebases, AI engineering, building agents
 - **Pragmatic:** A growing pattern in 2026 is subscribing to both ChatGPT Plus and Claude Pro (~$40/month total) and using each for what it's best at — cross-checking hard problems between models is where you learn the most.
 
 References:
+
 - [GPT-5.5 vs Claude Opus 4.7 — LLM Stats](https://llm-stats.com/blog/research/gpt-5-5-vs-claude-opus-4-7)
 - [Codex vs Claude Code — Dupple](https://dupple.com/learn/codex-vs-claude-code)
 - [Claude Code vs Codex — Morph LLM](https://www.morphllm.com/comparisons/codex-vs-claude-code)

@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** Provide a comprehensive introduction to https://github.com/lightpanda-io/browser
+**Question:** Provide a comprehensive introduction to <https://github.com/lightpanda-io/browser>
 
 **Answer:**
 
@@ -19,7 +19,9 @@ type: note
 **Website:** [https://lightpanda.io](https://lightpanda.io)
 
 ### Core Philosophy & Positioning
+
 Lightpanda is **not** a fork/patch/modification of Chromium, WebKit, Gecko, or any existing browser engine. It is a completely new browser implementation written primarily in the **Zig** programming language, designed to be:
+
 - Extremely lightweight
 - Blazing fast (especially startup time)
 - Very low memory footprint
@@ -38,6 +40,7 @@ Traditional full browsers (even in headless mode) carry enormous overhead from G
 - **License:** AGPL-3.0
 
 ### Performance Claims
+
 Lightpanda consistently shows dramatic improvements over Chrome in headless automation benchmarks (see demo repository for methodology):
 
 - Startup time → near-instant vs hundreds of ms
@@ -46,6 +49,7 @@ Lightpanda consistently shows dramatic improvements over Chrome in headless auto
 - Example: requesting 100 local pages via Puppeteer on AWS m5.large → much lower CPU/memory and faster completion
 
 ### Current Capabilities (Beta stage – actively developed)
+
 - Full JavaScript execution (V8)
 - DOM construction & manipulation
 - Fetch / XHR / Ajax support → works with most SPAs
@@ -56,6 +60,7 @@ Lightpanda consistently shows dramatic improvements over Chrome in headless auto
 - CDP server mode (most common way to use it)
 
 **Not yet implemented or partial:**
+
 - Very large parts of the Web API surface (still WIP)
 - Advanced canvas/WebGL (not priority)
 - Pixel-perfect rendering (never priority — no graphical stack)
@@ -86,6 +91,7 @@ const browser = await puppeteer.connect({
 ```
 
 ### Project Status (March 2026)
+
 - ~19,900 GitHub stars
 - Very active development (commits almost daily)
 - Nightly binaries available for Linux x86_64 and macOS arm64
@@ -96,6 +102,7 @@ const browser = await puppeteer.connect({
 ### Summary – Who Should Consider Lightpanda?
 
 You might want to evaluate Lightpanda if you are running:
+
 - Large-scale scraping / data collection
 - AI agent browser fleets
 - LLM training crawlers
@@ -103,6 +110,7 @@ You might want to evaluate Lightpanda if you are running:
 - Environments where you want dramatically lower cloud costs
 
 You should probably stick with Chromium-based solutions (Puppeteer, Playwright, Selenium) if you need:
+
 - Near-perfect web platform compatibility today
 - Pixel manipulation / screenshots
 - Very complex JavaScript-heavy sites with bleeding-edge APIs

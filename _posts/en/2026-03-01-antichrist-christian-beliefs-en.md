@@ -18,6 +18,7 @@ The Antichrist is a major figure in Christian eschatology (teaching about the en
 Here are the main ways the term "Antichrist" is understood across different Christian traditions and time periods:
 
 ### 1. Biblical mentions (very limited direct usage)
+
 The actual word "Antichrist" appears only **five times** in the entire Bible — and only in two short New Testament letters:
 
 - 1 John 2:18   “Children, it is the last hour, and as you have heard that **antichrist is coming**, so now **many antichrists** have come.”
@@ -26,11 +27,13 @@ The actual word "Antichrist" appears only **five times** in the entire Bible —
 - 2 John 1:7
 
 **Key points from John’s letters:**
+
 - There is **one future** ultimate Antichrist expected.
 - But **many antichrists** already exist — anyone who actively denies that Jesus is the Christ (Messiah) and came in the flesh fits the pattern.
 - The spirit of antichrist = denying the true identity of Jesus + opposing Christian teaching.
 
 ### 2. The figure most people mean when they say “the Antichrist”
+
 This is **not** directly called “Antichrist” in the Bible, but is the character most Christians connect with the term. Main passages:
 
 | Passage              | Traditional interpretation                          | Key characteristics                              |
@@ -69,6 +72,7 @@ Most evangelical and many historic Protestant, Catholic, and Orthodox teachers s
 ### Quick summary – most frequent modern evangelical picture
 
 A highly intelligent, extremely charismatic political-religious leader who:
+
 - rises suddenly during global crisis
 - unites much of the world
 - makes a 7-year treaty with Israel

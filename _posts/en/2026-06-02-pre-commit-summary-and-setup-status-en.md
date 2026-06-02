@@ -33,6 +33,7 @@ Hooks installed:
 ```
 
 Key changes made:
+
 - Installed pre-commit via `uv tool install pre-commit` (v4.6.0)
 - Changed unit-tests entry from `uv run python -m pytest` to `python3 -m unittest discover -s tests/workflow -q` (matches CI, avoids missing OPENROUTER_API_KEY in llm tests)
 - Removed `detect-secrets` hook (no `.secrets.baseline` file exists)

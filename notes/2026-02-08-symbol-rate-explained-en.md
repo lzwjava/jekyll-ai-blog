@@ -36,6 +36,7 @@ Bit rate (bps) = Symbol rate (baud) × bits per symbol (log₂M)
 ```
 
 Examples:
+
 - BPSK: 1 bit per symbol → bit rate = baud rate
 - QPSK: 2 bits per symbol → bit rate = 2 × baud rate
 - 16-QAM: 4 bits per symbol → bit rate = 4 × baud rate

@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What is said in the YouTube video at https://www.youtube.com/watch?v=bQ6D77QeMMg?
+Question: What is said in the YouTube video at <https://www.youtube.com/watch?v=bQ6D77QeMMg>?
 
 Answer:
 

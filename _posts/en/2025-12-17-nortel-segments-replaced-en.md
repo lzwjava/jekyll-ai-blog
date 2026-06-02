@@ -18,7 +18,8 @@ Nortel Networks, a major Canadian telecommunications and data networking equipme
 
 No single company fully replaced Nortel; instead, its business segments were acquired and integrated by multiple competitors, who now dominate the areas Nortel once led. As of 2025, the telecommunications equipment market is led by a few key vendors that have absorbed Nortel's technologies, customers, and market share.
 
-### Key Acquisitions and Replacements:
+### Key Acquisitions and Replacements
+
 - **Wireless networks (CDMA and LTE)**: Acquired by **Ericsson** in 2009 for about $1.13 billion. Ericsson strengthened its North American presence and became a leading provider of mobile radio access networks (RAN).
 - **Enterprise solutions (voice, data networking, PBX systems, including Norstar and enterprise switches)**: Acquired by **Avaya** in 2009. Avaya continues to support legacy Nortel enterprise customers and integrates those technologies into its unified communications portfolio.
 - **Optical networking and Metro Ethernet**: Acquired by **Ciena Corporation** in 2010. Ciena has become a major player in optical transport and coherent optics, building on Nortel's strengths in long-haul fiber optics.
@@ -27,6 +28,7 @@ No single company fully replaced Nortel; instead, its business segments were acq
   - Patents were sold for $4.5 billion to a consortium including Apple, Microsoft, EMC, Ericsson, Sony, and Research In Motion (BlackBerry).
 
 ### Current Major Telecom Equipment Vendors (2025)
+
 The broader market that Nortel competed in—supplying infrastructure to carriers and enterprises—is now dominated by:
 
 - **Huawei** (global leader in many regions, especially emerging markets, despite restrictions in some countries).

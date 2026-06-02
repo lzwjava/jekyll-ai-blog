@@ -11,7 +11,9 @@ type: note
 ---
 
 ### 概述
+
 该Python脚本用于处理包含OpenWebText数据集的大型文本文件（这是一个网络抓取文本语料库，类似于用于训练GPT-2等模型的数据）。其目标是：
+
 - 将原始文本分割成可管理的"文档"（文本块）
 - 创建Hugging Face的`Dataset`对象以便于处理
 - 使用TikToken中的GPT-2字节对编码（BPE）分词器对文本进行分词（忽略特殊标记并添加文本结束标记）
@@ -25,6 +27,7 @@ type: note
 ### 逐步分解
 
 #### 1. 导入和初始设置
+
 ```python
 import os
 import tarfile
@@ -51,6 +54,7 @@ enc = tiktoken.get_encoding("gpt2")
 
 datasets.logging.set_verbosity_info()
 ```
+
 - **目的**：导入用于文件处理（`os`、`tarfile`）、进度条（`tqdm`）、数值操作（`numpy`）、分词（`tiktoken`）和Hugging Face工具（`huggingface_hub`、`datasets`）的库
 - **代理打印**：记录HTTP/HTTPS代理的环境变量，在脚本遇到网络限制时很有用（例如用于下载分词器模型，尽管TikToken内部处理此问题）
 - **工作进程**：设置`num_proc=8`用于分词中的并行处理（大约一半CPU核心数以保持平衡）。`num_proc_load_dataset`与其匹配但此处未使用（来自灵感代码的遗留，该代码从Hugging Face加载）
@@ -60,6 +64,7 @@ datasets.logging.set_verbosity_info()
 `if __name__ == '__main__':`保护确保主逻辑仅在脚本直接执行时运行（而不是导入时）
 
 #### 2. 读取和分割文本文件
+
 ```python
 if __name__ == '__main__':
     # 读取本地openwebtext.txt文件
@@ -98,15 +103,17 @@ if __name__ == '__main__':
 
         print(f"从文本文件创建了{len(texts)}个文档")
 ```
+
 - **文件读取**：以UTF-8模式打开`openwebtext.txt`（假设与脚本在同一目录），忽略编码错误。将整个内容读入`full_text`并去除空白字符
 - **分割逻辑**：尝试将文本分割为"文档"（逻辑块，如段落或文章）：
   - **主要**：通过双换行符（`\n\n`）分割，这在语料库中分隔文档很常见
   - **回退1**：如果产生≤1个块（例如无双换行符），通过单换行符（`\n`）分割用于基于行的文本
-  - **回退2**：如果仍然≤1个块（例如单个文本块），通过`. `（句点+空格）分割成句子，然后将每100个句子分组为一个"文档"块。这防止单个条目过长。为完整性在每个块末尾添加句点
+  - **回退2**：如果仍然≤1个块（例如单个文本块），通过`.`（句点+空格）分割成句子，然后将每100个句子分组为一个"文档"块。这防止单个条目过长。为完整性在每个块末尾添加句点
 - **输出**：将非空、去除空白字符的文档存储在`texts`列表中。打印创建的总数（例如，子集的10k个示例）
 - **为何如此**？OpenWebText是网页的串联，因此分割创建了不仅仅是原始转储的训练示例。这模仿了BookCorpus等数据集的处理方式
 
 #### 3. 创建和分割数据集
+
 ```python
     # 从文本创建数据集
     dataset = datasets.Dataset.from_dict({'text': texts})
@@ -115,6 +122,7 @@ if __name__ == '__main__':
     split_dataset = dataset.train_test_split(test_size=0.0005, seed=2357, shuffle=True)
     split_dataset['val'] = split_dataset.pop('test') # 将测试分割重命名为val
 ```
+
 - **数据集创建**：将`texts`列表包装到具有单列`'text'`的Hugging Face `Dataset`中。这使得能够进行高效的并行操作，如映射
 - **分割**：使用`train_test_split`分为训练集（99.95%）和测试集（0.05%）。小验证集大小对于巨大数据集是故意的——足够评估而不浪费计算
   - `test_size=0.0005`：0.05%用于验证（例如，从100k中约50个示例）
@@ -123,6 +131,7 @@ if __name__ == '__main__':
 - **重命名**：弹出`'test'`并重命名为`'val'`。现在`split_dataset`是具有`'train'`和`'val'`键的字典，每个都是`Dataset`对象
 
 #### 4. 分词函数
+
 ```python
     # 现在想要对数据集进行分词。首先定义编码函数（gpt2 bpe）
     def process(example):
@@ -132,12 +141,14 @@ if __name__ == '__main__':
         out = {'ids': ids, 'len': len(ids)}
         return out
 ```
+
 - **目的**：将文本转换为模型输入的token ID
 - **`encode_ordinary`**：将文本字符串分词为整数列表（GPT-2词汇表）。忽略文本中的任何非标准标记
 - **追加EOT**：在末尾添加文本结束标记（GPT-2的ID 50256）。这在训练期间标记序列边界。（注释指出了前置与追加的潜在争议，但追加在因果LM设置如GPT中很常见）
 - **输出**：返回带有`'ids'`（token ID列表）和`'len'`（序列长度，用于后续求和）的字典
 
 #### 5. 应用分词
+
 ```python
     # 对数据集进行分词
     tokenized = split_dataset.map(
@@ -147,11 +158,13 @@ if __name__ == '__main__':
         num_proc=num_proc,
     )
 ```
+
 - **映射**：使用并行工作进程（`num_proc=8`）将`process`应用于训练/验证数据集中的每个示例
 - **`remove_columns=['text']`**：删除原始文本以节省内存（现在只需要token）
 - **进度**：通过`desc`显示进度条。由于编码，此步骤对于大型数据集可能耗时
 
 #### 6. 将分词数据保存到二进制文件
+
 ```python
     # 将每个数据集中的所有id连接成一个大文件，可用于训练
     for split, dset in tokenized.items():
@@ -177,6 +190,7 @@ if __name__ == '__main__':
                 idx += len(arr_batch)
         arr.flush()
 ```
+
 - **循环分割**：对于`'train'`和`'val'`，通过求和`'len'`字段计算总token数（`arr_len`）
 - **内存映射数组**：创建NumPy memmap文件（`train.bin`或`val.bin`）作为uint16整数的可写数组（适合GPT-2的50,256最大token值；比int32节省约50%空间）。形状是1D：`(total_tokens,)`
 - **批处理以提高效率**：将数据集分割为最多1024个分片（`total_batches`）以避免一次性将所有内容加载到RAM中。对于小数据集（<1024示例），使用确切数量
@@ -187,6 +201,7 @@ if __name__ == '__main__':
 - **为何二进制/memmap？** 这些文件巨大但可流式传输。在训练期间，您可以使用`np.memmap('train.bin', dtype=np.uint16, mode='r')`加载它们，而无需将所有内容加载到内存中
 
 #### 7. 输出和使用说明的注释
+
 ```python
     # train.bin约17GB，val.bin约8.5MB
     # train有约90亿个token（9,035,582,198）
@@ -195,10 +210,12 @@ if __name__ == '__main__':
     # 以后读取bin文件，例如使用numpy：
     # m = np.memmap('train.bin', dtype=np.uint16, mode='r')
 ```
+
 - 这些是完整OpenWebText的示例大小（您的本地文件可能不同）
 - **读取提示**：使用memmap进行只读访问。在训练循环中，您可以从平面数组采样随机起始索引并读取固定长度序列（例如1024个token）
 
 ### 潜在问题和注意事项
+
 - **内存使用**：对于非常大的文件（40GB+），将完整`openwebtext.txt`读入RAM可能失败。如果需要，考虑流式读取
 - **EOT放置**：注释质疑追加与前置EOT；实际上，追加对于自回归模型有效（它在内容之后标记结束）
 - **自定义**：假设本地文件；灵感代码从Hugging Face下载，但此版本本地读取（更快，无需认证）

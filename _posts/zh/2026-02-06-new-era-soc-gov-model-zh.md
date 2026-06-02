@@ -21,6 +21,7 @@ type: note
 根据材料（第179页），加强和创新社会治理涉及：
 
 建立一个具备以下要素的社会治理体系：
+
 - 党委领导
 - 政府负责
 - 社会协同
@@ -32,14 +33,17 @@ type: note
 ## Understanding the Three "Co-" Principles
 
 **共建 (Co-construction)**
+
 - 全民共同参与社会建设
 - 共同承担发展责任
 
 **共治 (Co-governance)**
+
 - 多方参与的协同治理
 - 政府、社会与公民共同管理
 
 **共享 (Co-sharing)**
+
 - 全民共享发展成果
 - 社会利益的公平分配
 

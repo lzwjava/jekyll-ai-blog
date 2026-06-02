@@ -25,11 +25,13 @@ type: note
 | Dataset    | local `fineweb`                                                                     |
 
 ## Throughput
+
 - Steady-state: **~9.34 s/iter** (29 s on iters that follow an eval, due to eval cost)
 - MFU: ~13–14% (peaked 15.4% pre-warmup)
 - Token budget at completion: **~6.29 B tokens** (12,000 × 524k)
 
 ## Loss curve (val every 500 iters)
+
 ```
 step   train     val
  500   5.4508    5.5082
@@ -44,17 +46,20 @@ step   train     val
 8000   3.4243    3.3951   ← small bump
 8500   3.4017    3.3534   ← latest
 ```
+
 - Still descending, but the per-500-iter gain has slowed from ~0.08 in mid-run to ~0.02–0.05 now.
 - Val ≤ train throughout (single-batch train vs 200-batch averaged val + dropout=0 — expected).
 - No divergence, no NaN, no spikes worth flagging.
 
 ## Current state
+
 - **iter 8,600 / 12,000 → ~71.7% done** (~3,400 iters remaining)
 - Tokens consumed so far: **~4.51 B**
 - Last checkpoint: `out-fineweb/ckpt.pt` — 1.4 GB, written at step 8,500 (2026-04-30 11:54)
 - Estimated time to finish: **~8.5–9 hours** (3,400 × 9.34 s + ~7 eval pauses × ~20 s)
 
 ## Notes / risk flags
+
 - Config comment says "adjust up to 10000" but `max_iters` is set to 12,000 — run will go the full 12k unless stopped.
 - Recent commit `a4c7d87` ("Tune to 10K iters") modifies the 1.5B config, not this file — current run is unaffected.
 - Plateau at step 6,000 and bump at step 8,000 are within normal noise; trend is still down.

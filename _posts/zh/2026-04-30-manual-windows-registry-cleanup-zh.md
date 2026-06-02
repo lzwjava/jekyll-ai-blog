@@ -32,7 +32,7 @@ type: note
 
 ## 2. 使用注册表编辑器 (regedit)
 
-### 分步操作：
+### 分步操作
 
 1. 按 `Win + R`
 2. 输入 `regedit`
@@ -45,6 +45,7 @@ type: note
 👉 按 `F3` 跳转至下一个匹配项并重复。
 
 ⚠️ 请谨慎操作：
+
 * 仅删除明确与该程序相关的条目
 * 错误删除可能导致Windows或其他应用程序损坏
 
@@ -55,6 +56,7 @@ type: note
 即使文件已删除，程序可能仍显示在“程序和功能”中：
 
 注册表位置：
+
 * `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
 
 如果程序仍列在其中但实际已不存在，可删除对应的键。
@@ -65,16 +67,19 @@ type: note
 
 如果程序安装了Windows服务：
 
-### 检查方法：
+### 检查方法
+
 * 运行 `services.msc`
 * 查找相关服务名称
 
-### 通过命令行移除：
+### 通过命令行移除
+
 ```bash
 sc delete "服务名称"
 ```
 
 或检查注册表：
+
 * `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services`
 
 ---
@@ -82,6 +87,7 @@ sc delete "服务名称"
 ## 5. 清理启动项
 
 检查：
+
 * 任务管理器 → 启动选项卡
 * 注册表：
   * `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`
@@ -100,6 +106,7 @@ sc delete "服务名称"
 ## 7. 清理残留文件
 
 检查这些文件夹：
+
 * `C:\Program Files\`
 * `C:\Program Files (x86)\`
 * `C:\ProgramData\`
@@ -111,11 +118,13 @@ sc delete "服务名称"
 ## 8. 使用工具（更安全快捷）
 
 相比于手动清理，可使用工具扫描残留：
+
 * CCleaner（注册表清理器）
 * Revo Uninstaller（深度扫描模式）
 * Geek Uninstaller
 
 这些工具：
+
 * 扫描注册表与文件系统
 * 检测残留条目
 * 降低误删风险
@@ -125,6 +134,7 @@ sc delete "服务名称"
 ## 9. 高级技巧（适用于专家）
 
 使用：
+
 * `Process Monitor`（来自Microsoft Sysinternals）
 * 在删除前按进程名过滤（如果程序仍安装）
 * 捕获所有注册表/文件交互记录
@@ -136,6 +146,7 @@ sc delete "服务名称"
 ## 核心要点
 
 手动删除程序文件夹属于**不完整清理**，因为：
+
 * Windows使用**分布式配置模型**（注册表 + 服务 + 计划任务）
 * 安装程序通常将数据分散在系统各处
 
@@ -144,6 +155,7 @@ sc delete "服务名称"
 ## 实用建议
 
 如果程序已删除：
+
 1. 尝试重新安装
 2. 然后通过正确方式卸载
 3. 使用Revo等工具进行深度清理

@@ -20,6 +20,7 @@ type: note
 - **WRB Tech** is the specialized technology organization (or "tribe"/domain within the broader Technology & Operations function) that builds, maintains, and innovates the digital platforms, applications, backend systems, frontend experiences, data/analytics/AI capabilities, and other tech solutions specifically for the WRB business.
 
 This includes:
+
 - Developing digital wealth products and propositions
 - Building mobile banking apps, digital onboarding, payments, and investment tools
 - Handling engineering roles (frontend, backend, full-stack)

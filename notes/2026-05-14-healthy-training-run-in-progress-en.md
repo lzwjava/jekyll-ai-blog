@@ -22,5 +22,6 @@ Training is healthy and running. Here's the status:
 **Elapsed so far**: 9h 34m.
 
 Suggestions if you want it faster:
+
 - Enable `--compile=True` next run — typically 1.3–1.8× speedup on a 4070, would shave ~10 hours.
 - Or cut `max_iters` if val loss plateaus; current val curve (6.21 → 5.36 → 4.56 → 4.08 → 3.87 → 3.69 → 3.63) is still descending healthily, no plateau yet.

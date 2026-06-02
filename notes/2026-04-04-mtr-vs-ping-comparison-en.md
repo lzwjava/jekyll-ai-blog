@@ -81,4 +81,5 @@ MTR is considered more advanced than simple Ping for several important reasons:
 In summary, while Ping is a simple and lightweight tool for basic reachability tests, MTR is significantly more advanced because it provides a comprehensive, hop-by-hop analysis of the entire network path with continuous statistics. This makes MTR an essential tool for serious network diagnostics.
 
 References:
+
 - None

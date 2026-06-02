@@ -17,6 +17,7 @@ type: note
 AI（尤其是像 GPT-4、Claude 3.5 或 Grok 4 这样的大型语言模型）已经达到了一个水平，它可以在第一次或第二次尝试中解决约 85-95% 的 LeetCode “简单”和“中等”问题，以及约 50-80% 的“困难”问题，通常比普通人类候选人更快、更清晰。在 2024-2025 年的盲测基准（例如 LiveCodeBench、Aider、SWE-bench Verified）中，最好的模型现在在它们从未见过的新竞赛问题上，表现优于 90-95% 的人类竞技程序员。
 
 然而在真实的面试中：
+
 - 拥有 3-10 年经验的申请者中，仍有 60-80% 未能在 30-45 分钟内清晰地解决一个 LeetCode 中等问题。
 - 即使是 FAANG 公司的资深工程师，在被临时考查时也经常在模拟面试中失败。
 
@@ -34,6 +35,7 @@ AI（尤其是像 GPT-4、Claude 3.5 或 Grok 4 这样的大型语言模型）�
 | 处理含糊不清的需求                 | 有时过度拟合或误解                       | 提出澄清问题方面通常更好          |
 
 简而言之：AI 在解决算法难题部分比几乎所有人类都做得更好，但编码面试并非纯粹的算法难题。它们是一种高压的表现测试，还衡量：
+
 - 压力下的工作记忆
 - 连贯地表达部分想法
 - 快速从错误中恢复
@@ -46,6 +48,7 @@ AI（尤其是像 GPT-4、Claude 3.5 或 Grok 4 这样的大型语言模型）�
 当公司转向居家项目、结对编程会话或允许 AI 的面试时，优秀工程师的“失败率”会大幅下降——这证明瓶颈从未是原始智力。
 
 参考文献：
-- LiveCodeBench 排行榜 (2025): https://livecodebench.github.io
-- SWE-bench Verified 结果 (前沿模型 vs 人类): https://www.swebench.com
+
+- LiveCodeBench 排行榜 (2025): <https://livecodebench.github.io>
+- SWE-bench Verified 结果 (前沿模型 vs 人类): <https://www.swebench.com>
 - 2024-2025 年关于面试官偏见和 LeetCode 失败率的研究 (例如 interviewing.io 匿名数据)

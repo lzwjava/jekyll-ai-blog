@@ -15,6 +15,7 @@ type: note
 The line of code you shared implements **scaled dot-product attention** (the core mechanism in Transformer models) using PyTorch's `torch.nn.functional.scaled_dot_product_attention` function. This function is designed to be efficient and automatically dispatches to optimized implementations like **Flash Attention** when conditions are met (e.g., running on CUDA with compatible tensor shapes and no custom masks). I'll break it down step-by-step, including how Flash Attention fits in, the argument shapes, and why it's efficient.
 
 #### Quick Background on Scaled Dot-Product Attention
+
 In Transformers, attention computes how much each position in a sequence should "attend" to others. The formula is:
 
 \\[
@@ -30,6 +31,7 @@ Naively computing this requires materializing a large \\(N \times N\\) attention
 **Flash Attention** (introduced in 2022 by Tri Dao et al.) fixes this with a **kernel fusion** technique using CUDA. It computes attention **on-the-fly** in tiles (blocks), avoiding the full matrix in memory. This reduces memory to \\(O(N)\\) and speeds up by 2-4x on GPUs, especially for long contexts. PyTorch integrates it seamlessly via this function—no need for custom kernels.
 
 #### How the Code Uses Flash Attention
+
 ```python
 y = torch.nn.functional.scaled_dot_product_attention(
     q, k, v,
@@ -38,6 +40,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
     is_causal=True
 )
 ```
+
 - This computes causal self-attention (common in autoregressive models like GPT, where future tokens can't attend to past ones).
 - **Flash Attention Dispatch**: PyTorch checks runtime conditions:
   - Device: CUDA (GPU).
@@ -52,6 +55,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
 - Output `y`: Same shape as `v`, representing the attended values.
 
 #### Argument Shapes and Requirements
+
 All inputs (`q`, `k`, `v`) must have matching shapes and be on the same device/dtype. PyTorch's function supports **batched** and **multi-head** attention flexibly. Here's the breakdown:
 
 | Argument | Shape (Batch-First, Default) | Description | Requirements |
@@ -71,7 +75,9 @@ All inputs (`q`, `k`, `v`) must have matching shapes and be on the same device/d
   - Enable with: `torch.backends.cuda.enable_flash_sdp(True)`.
 
 #### Example Usage and Verification
+
 Here's a minimal PyTorch example (assuming CUDA):
+
 ```python
 import torch
 import torch.nn.functional as F
@@ -91,6 +97,7 @@ print(y.shape)  # torch.Size([2, 128, 8, 64])
 This runs ~3x faster than manual `q @ k.transpose(-2,-1)` + softmax + `@ v` for large \\(S\\).
 
 #### Why Efficient?
+
 - **Memory**: Standard: \\(O(B \cdot H \cdot S^2 \cdot 4\\) bytes (for float32). Flash: \\(O(B \cdot H \cdot S \cdot D)\\)—scales linearly with \\(S\\).
 - **Compute**: Fused kernels reduce kernel launches (softmax + matmul in one go).
 - **Trade-offs**: Slightly less numerical stability in float16 (use bfloat16 for better), but negligible.

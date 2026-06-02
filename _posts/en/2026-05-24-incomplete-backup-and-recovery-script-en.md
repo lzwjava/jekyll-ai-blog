@@ -31,11 +31,12 @@ type: note
 ========================================================================
 
 What it does:
-  - Transfers originals/6 through originals/F one at a time
-  - Each subdir is 1.2-3.1GB, finishes in 5-10 min
-  - --partial resumes if it dies mid-transfer
-  - Built-in verify at the end with per-subdir count comparison
-  - If one fails, just run it again — only the failed one needs redo
+
+- Transfers originals/6 through originals/F one at a time
+- Each subdir is 1.2-3.1GB, finishes in 5-10 min
+- --partial resumes if it dies mid-transfer
+- Built-in verify at the end with per-subdir count comparison
+- If one fails, just run it again — only the failed one needs redo
 
 Why it wasn't "truly successful":
   The fix_backup2.sh script transferred the small library parts

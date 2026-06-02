@@ -14,10 +14,12 @@ type: note
 ### 1. 调查“200 is not ok”卷大小调整错误
 
 **检查 doctl CLI 代码** 位于 `/Users/lzwjava/projects/doctl/commands/volumes.go`：
+
 - `--size` 参数要求单位后缀（例如 `200GiB`），裸写 `200` = 200 字节 → 0 GiB
 - 但 UI 错误不同 —— HTML 显示 `min="101" max="16384"`，当前卷大小为 100 GiB
 
 **通过 API 测试调整大小** —— 每次大小均失败：
+
 ```bash
 doctl compute volume-action resize 52743aec-... --size 101 --region atl1  # 422
 doctl compute volume-action resize 52743aec-... --size 200 --region atl1  # 422
@@ -33,12 +35,15 @@ doctl compute volume-action resize 52743aec-... --size 500 --region atl1  # 422
 ### 2. 将数据迁移到卷 (129.212.178.103)
 
 **检查磁盘使用情况：**
+
 ```bash
 ssh root@129.212.178.103 'df -h && du -sh /root/ /var/ /opt/'
 ```
+
 结果：`/root/` 37G（llama 模型），`/var/` 60G（containerd），`/opt/` 22G（ROCm）
 
 **挂载并迁移 llama 模型 (37G)：**
+
 ```bash
 ssh root@129.212.178.103 'mount /dev/sda /mnt/volume_atl1_1780280110689'
 ssh root@129.212.178.103 'rsync -a --progress /root/llama.cpp/models/ /mnt/volume_atl1_1780280110689/llama-models/'
@@ -46,12 +51,15 @@ ssh root@129.212.178.103 'rm -rf /root/llama.cpp/models && ln -s /mnt/volume_atl
 ```
 
 **调查 containerd (59G)：**
+
 ```bash
 ssh root@129.212.178.103 'docker images -a && docker ps -a && docker system df'
 ```
+
 发现：`rocm:latest`（36GB），`ubuntu:24.04`（119MB），已退出的 `rocm` 容器（Jupyter Lab），36GB 构建缓存。
 
 **清理 Docker 工件：**
+
 ```bash
 ssh root@129.212.178.103 'docker rm rocm'
 ssh root@129.212.178.103 'docker rmi rocm:latest ubuntu:24.04'
@@ -60,6 +68,7 @@ ssh root@129.212.178.103 'docker system prune --all -f'
 ```
 
 **使挂载持久化：**
+
 ```bash
 ssh root@129.212.178.103 'echo "/dev/sda /mnt/volume_atl1_1780280110689 ext4 defaults,nofail 0 2" >> /etc/fstab'
 ```
@@ -71,31 +80,37 @@ ssh root@129.212.178.103 'echo "/dev/sda /mnt/volume_atl1_1780280110689 ext4 def
 ### 3. 分离卷并销毁 GPU Droplet
 
 **卸载卷：**
+
 ```bash
 ssh root@129.212.178.103 'umount /mnt/volume_atl1_1780280110689'
 ```
 
 **分离卷：**
+
 ```bash
 doctl compute volume-action detach 52743aec-5d63-11f1-a928-0a58ac126378 574422820 --wait
 ```
 
 **启动 droplet（创建快照需要）：**
+
 ```bash
 doctl compute droplet-action power-on 574422820 --wait
 ```
 
 **创建快照：**
+
 ```bash
 doctl compute droplet-action snapshot 574422820 --snapshot-name "gpu-mi300x-snapshot-20260601" --wait
 ```
 
 **销毁 GPU droplet：**
+
 ```bash
 doctl compute droplet delete 574422820 --force
 ```
 
 **验证：**
+
 ```bash
 doctl compute snapshot list --resource droplet
 doctl compute volume list

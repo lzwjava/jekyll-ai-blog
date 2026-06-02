@@ -13,17 +13,21 @@ Let's break this down into two parts: **using Azure DevOps Pipelines** and **wri
 ---
 
 ### **How to Use Azure DevOps Pipelines**
+
 Azure DevOps Pipelines is a CI/CD (Continuous Integration/Continuous Deployment) tool that automates building, testing, and deploying code. Here’s how to get started:
 
 #### **1. Set Up a Project**
+
 - Log into Azure DevOps (dev.azure.com) with your organization.
 - Create a new project (or use an existing one) by clicking "New Project," giving it a name, and setting visibility (public/private).
 
 #### **2. Connect Your Code**
+
 - Go to **Repos** in your project and push your code to a repository (GitHub, Azure Repos, Bitbucket, etc.).
 - Alternatively, link an external repo under **Pipelines > New Pipeline > Connect** and select your source.
 
 #### **3. Create a Pipeline**
+
 - Navigate to **Pipelines** > **Builds** > **New Pipeline**.
 - Choose your repo and branch.
 - Azure offers two options:
@@ -32,23 +36,28 @@ Azure DevOps Pipelines is a CI/CD (Continuous Integration/Continuous Deployment)
 - For YAML, select "Starter pipeline" or configure from an existing file in your repo.
 
 #### **4. Define the Pipeline**
+
 - If using YAML, you'll write a `.yml` file (e.g., `azure-pipelines.yml`) in your repo’s root. (More on this below.)
 - Add triggers (e.g., run on every push to `main`), steps (e.g., build, test), and deployment targets.
 
 #### **5. Run and Monitor**
+
 - Save and commit the YAML file (or save in the Classic Editor).
 - Click **Run** to trigger the pipeline manually, or let it run automatically based on triggers.
 - Check the logs under **Pipelines > Builds** to monitor progress or troubleshoot failures.
 
 #### **6. Deploy (Optional)**
+
 - Add a **release Pipeline** (under **Releases**) or extend your YAML to deploy to environments like Azure App Service, Kubernetes, or VMs.
 
 ---
 
 ### **How to Write YAML for Azure Pipelines**
+
 YAML (Yet Another Markup Language) is a human-readable format used to define pipeline configurations. Here’s a crash course:
 
 #### **Basic Structure**
+
 ```yaml
 trigger:
   - main  # Run pipeline when 'main' branch is updated
@@ -66,7 +75,9 @@ steps:
 - **`steps`**: Lists tasks to execute (scripts, built-in tasks, etc.).
 
 #### **Common Elements**
+
 1. **Variables**:
+
    ```yaml
    variables:
      buildConfiguration: 'Release'
@@ -75,6 +86,7 @@ steps:
    ```
 
 2. **Jobs** (group steps):
+
    ```yaml
    jobs:
    - job: Build
@@ -86,6 +98,7 @@ steps:
    ```
 
 3. **Tasks** (pre-built actions):
+
    ```yaml
    steps:
      - task: DotNetCoreCLI@2  # Example: Build a .NET project
@@ -95,6 +108,7 @@ steps:
    ```
 
 4. **Conditions**:
+
    ```yaml
    steps:
      - script: echo This runs only on main
@@ -102,6 +116,7 @@ steps:
    ```
 
 5. **Stages** (for multi-phase pipelines):
+
    ```yaml
    stages:
    - stage: Build
@@ -118,7 +133,9 @@ steps:
    ```
 
 #### **Real-World Example**
+
 Here’s a pipeline for a Node.js app:
+
 ```yaml
 trigger:
   - main
@@ -149,6 +166,7 @@ steps:
 ```
 
 #### **Tips for Writing YAML**
+
 - Use consistent indentation (2 spaces, no tabs).
 - Validate syntax with an editor (e.g., VS Code with the "YAML" extension).
 - Reference the [Azure Pipelines YAML schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema) for options.
@@ -157,6 +175,7 @@ steps:
 ---
 
 ### **Next Steps**
+
 - **Try it**: Create a repo, add a basic `azure-pipelines.yml` like the one above, and run it in Azure DevOps.
 - **Learn more**: Check Microsoft’s [official docs](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started) or search for sample pipelines on GitHub.
 - **Ask me**: If you hit a snag or want a specific example (e.g., Python, Java), let me know!

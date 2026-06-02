@@ -27,8 +27,8 @@ Answer:
 ### 2. **直接 Outbound Sourcing (LinkedIn + GitHub + 社群)**
 
 - **LinkedIn Recruiter / Sales Navigator** → 对大多数公司来说 ROI 最高
-    - 搜索：特定的 Tech Stack + 关键词（例如 “Golang” “Kubernetes” “ex-Stripe” “ex-Shopify” 等）
-    - 个性化的 InMail，提及具体的 Project 或 Repo → 回复率可能达到 40–60%
+  - 搜索：特定的 Tech Stack + 关键词（例如 “Golang” “Kubernetes” “ex-Stripe” “ex-Shopify” 等）
+  - 个性化的 InMail，提及具体的 Project 或 Repo → 回复率可能达到 40–60%
 - **GitHub** → 按 Language + Stars/Forks 搜索 Repo，然后联系 Contributor
 - **分众社群** → Reddit (r/Backend, r/golang, r/ExperiencedDevs), Discord 服务器 (特定语言), Hacker News “Who is hiring?” 帖子
 

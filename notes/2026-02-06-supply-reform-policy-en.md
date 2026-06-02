@@ -15,6 +15,7 @@ This question tests knowledge of the specific components of **supply-side struct
 ## Question Analysis
 
 **Complete content of "Three Cuts, One Reduction, One Addition":**
+
 - **Three Cuts**: Cut overcapacity, cut excess inventory, cut leverage
 - **One Reduction**: **Reduce costs** ✓
 - **One Addition**: Address weak links/shortcomings
@@ -22,6 +23,7 @@ This question tests knowledge of the specific components of **supply-side struct
 ## Why the answer is B (Reduce costs)
 
 "One Reduction" specifically refers to **reducing costs**, which includes:
+
 - Reducing institutional transaction costs
 - Reducing tax and fee burdens
 - Reducing financing costs

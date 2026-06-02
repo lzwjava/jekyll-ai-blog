@@ -17,6 +17,7 @@ Answer:
 Yes, rear-end collisions, known as "zhui wei" accidents in Chinese (追尾事故), are indeed one of the most frequent types of car accidents worldwide, including in China and the US.
 
 ### Key Statistics
+
 - **In the United States**: Rear-end collisions are the most common type of car crash, accounting for approximately **28-33%** of all accidents. For example:
   - NHTSA data shows they represent about 29% of crashes, with around 1.7-2.5 million occurrences annually.
   - They are responsible for a significant portion of injuries (e.g., 26-30% of injury-causing crashes) and are often caused by distracted driving (up to 87% of cases).
@@ -26,7 +27,9 @@ Yes, rear-end collisions, known as "zhui wei" accidents in Chinese (追尾事故
   - In China, while exact percentages vary by region and year, rear-end collisions are highly common, often cited as a major type in freeway and urban accidents. Studies show they contribute significantly to injuries and are linked to factors like insufficient following distance.
 
 ### Why They Happen Frequently
+
 Rear-end collisions typically occur due to:
+
 - Distracted driving (e.g., phone use).
 - Tailgating (not maintaining safe distance).
 - Sudden stops in traffic.

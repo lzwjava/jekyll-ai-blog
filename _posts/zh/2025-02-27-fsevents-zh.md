@@ -19,6 +19,7 @@ FSEvents API是macOS特有的框架，允许应用程序接收目录树变更的
 以下是使用FSEvents监控目录的实用指南：
 
 ### 在C/Objective-C中使用FSEvents
+
 FSEvents API属于macOS的CoreServices框架。以下是一个用C语言监控目录变更的基础示例：
 
 1. **引入必要头文件**：
@@ -88,54 +89,67 @@ int main() {
 }
 ```
 
-#### 步骤说明：
+#### 步骤说明
+
 - **监控路径**：通过`CFArray`指定一个或多个目录（如`/Users/yourusername`）。
 - **回调函数**：当变更发生时触发`callback`函数，接收受影响路径数组和标志位（如`kFSEventStreamEventFlagItemCreated`）。
 - **流创建**：`FSEventStreamCreate`设置监听器。延迟参数（如`1.0`秒）可对事件进行批处理以避免回调过载。
 - **运行循环**：事件流通过运行循环（如`CFRunLoopRun`）保持程序活跃和响应。
 - **资源清理**：完成后需停止并释放事件流（此无限循环示例中未展示）。
 
-#### 编译方法：
+#### 编译方法
+
 使用CoreServices框架编译：
+
 ```bash
 gcc -o fsevents_example fsevents_example.c -framework CoreServices
 ```
 
 运行程序：
+
 ```bash
 ./fsevents_example
 ```
 
-### 关键要点：
+### 关键要点
+
 - **监控粒度**：默认监控目录级变更。如需文件级事件（如特定文件修改），需添加`kFSEventStreamCreateFlagFileEvents`标志。
 - **延迟参数**：延迟值（如`1.0`）控制回调触发频率。较低值响应更快但调用更频繁。
 - **作用范围**：FSEvents会递归监控整个目录树，无需指定子目录。
 
 ### 替代方案：使用现成工具
+
 如果您需要命令行工具而非手动编码，macOS标准工具集中没有`fsevent_watch`命令。但可通过第三方工具如`fswatch`来利用FSEvents功能：
 
 1. **安装fswatch**（例如通过Homebrew）：
+
    ```bash
    brew install fswatch
    ```
 
 2. **运行监控**：
+
    ```bash
    fswatch /要监控的路径
    ```
+
    例如监控文档目录：
+
    ```bash
    fswatch ~/Documents
    ```
+
    当文件变更时会输出类似`/Users/yourusername/Documents/file.txt`的路径信息。
 
 3. **结合脚本使用**：
    可通过管道传递至自定义脚本：
+
    ```bash
    fswatch ~/Documents | while read -r file; do echo "已变更：$file"; done
    ```
 
 ### 其他可能性
+
 如果`fsevent_watch`指向的是特定库、工具或拼写变体（如`fsevents-watch`），请提供更多上下文信息（如所用编程语言或环境），我将为您提供更精准的解答。
 
 欢迎告诉我如何进一步优化解答！

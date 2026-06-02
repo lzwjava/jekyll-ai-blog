@@ -15,11 +15,13 @@ It sounds like you're asking about using **GitHub Actions** matrix builds to run
 ---
 
 ### Matrix Builds in GitHub Actions
+
 The **matrix strategy** allows you to run the same job in parallel with different parameters—for example, testing across multiple Python or Node versions, or on different operating systems.
 
 A minimal example:
 
 {% raw %}
+
 ```yaml
 name: CI
 
@@ -46,6 +48,7 @@ jobs:
       - name: Run tests
         run: pytest
 ```
+
 {% endraw %}
 
 ---
@@ -62,6 +65,7 @@ jobs:
   - Set `fail-fast: false` if you want all matrix jobs to continue running, even if one fails.
 
   Example:
+
   ```yaml
   strategy:
     matrix:
@@ -70,6 +74,7 @@ jobs:
   ```
 
 - **Limiting total jobs:** You can exclude some combinations:
+
   ```yaml
   strategy:
     matrix:
@@ -83,10 +88,12 @@ jobs:
 ---
 
 ### Running Tests in Parallel
+
 - Each **matrix job runs in parallel** on its own runner, so you don’t need to do anything special.
 - Inside each job, if you want **parallel test execution** (e.g., pytest `-n auto`), you can add that at the test command level.
 
 Example:
+
 ```yaml
 - name: Run pytest in parallel
   run: pytest -n auto
@@ -95,6 +102,7 @@ Example:
 ---
 
 ✅ **Summary:**
+
 - Use `strategy.matrix` to define different parameter combinations.
 - Set `fail-fast: false` if you want all matrix jobs to run even if one fails.
 - Matrix jobs run in parallel automatically.

@@ -128,6 +128,7 @@ Key observation: the **5TB data disk is formatted (ext4) but not mounted**. You'
 This is an **AMD DevCloud ATL1 instance** — a cloud-allocated MI300X node for development. It's freshly booted, completely idle, with a massive 192 GB GPU ready for large-model work.
 
 **Immediate recommendations:**
+
 1. **Mount the 5TB disk** — `mount /dev/vdc1 /data` or similar, then add to fstab
 2. **Install PyTorch for ROCm** — `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2`
 3. **Wake the GPU** — the low-power state is normal; it auto-wakes on workload

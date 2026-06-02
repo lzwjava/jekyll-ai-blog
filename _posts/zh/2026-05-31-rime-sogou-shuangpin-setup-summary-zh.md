@@ -120,7 +120,7 @@ patch:
 
 ```
 # 格式：词<Tab>拼音<Tab>优先级
-github	github	100
+github github 100
 ```
 
 **更新 rime-ice**（拉取最新词典/方案）：

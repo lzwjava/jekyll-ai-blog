@@ -53,6 +53,7 @@ Here's how I'd think about it:
 - Final call: each person still decides for themselves, but with the group's input baked in
 
 **Run it like an RFC (Request for Comments)** — the engineering pattern you already know:
+
 - One person writes a short doc: *"Here's my thesis on X, here's the evidence, here's my recommendation"*
 - Others comment asynchronously
 - Sync call to resolve disagreements

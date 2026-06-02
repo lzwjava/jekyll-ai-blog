@@ -13,6 +13,7 @@ type: note
 Binance offers a wide range of trading tools and products designed for buying, selling, earning, and advanced strategies with cryptocurrencies. Here's a breakdown of key offerings, including the ones you mentioned like Dual Investment (often called "Dual Payment" in some contexts) and Simple Earn, based on their main features:
 
 ### Trading Tools
+
 - **Spot Trading**: Basic buy/sell of crypto assets at current market prices. Supports over 350 coins, with features like limit orders, market orders, and OCO (One-Cancels-the-Other) for automated strategies.
 - **Futures Trading**: Leveraged contracts for speculating on price movements without owning the asset. Includes perpetual and quarterly futures with up to 125x leverage, hedging tools, and advanced order types like stop-limit.
 - **Margin Trading**: Borrow funds to amplify trades on spot markets, with isolated/cross margin modes and up to 10x leverage.
@@ -20,6 +21,7 @@ Binance offers a wide range of trading tools and products designed for buying, s
 - **Convert**: Simple tool to swap one crypto for another without fees, ideal for quick conversions.
 
 ### Earn and Investment Products
+
 - **Simple Earn**: A flexible or locked staking program to earn interest on idle assets.
   - Flexible: Withdraw anytime, yields around 1-5% APY depending on the asset.
   - Locked: Higher yields (up to 10%+ APY) for fixed terms (7-120 days).

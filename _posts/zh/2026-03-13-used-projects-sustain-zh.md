@@ -13,7 +13,7 @@ type: note
 
 ---
 
-## 回答：
+## 回答
 
 你的直觉完全正确。致力于真正激发你热情的项目会带来深刻的满足感，并有助于维持你的动力。完成项目的关键是构建你实际会使用的东西。
 
@@ -51,12 +51,12 @@ type: note
 
 ---
 
-## 参考资料：
+## 参考资料
 
-- https://robsonsousa.com/staying-motivated-and-engaged-in-long-term-projects-tips-for-programmers/
-- https://medium.com/@zainjaffer-official/long-term-project-6-ways-to-maintain-momentum-and-motivation-3cc2732e850c
-- https://medium.com/@jpaulopiy/keeping-yourself-motivated-as-a-software-engineer-79c19125b33f
-- https://www.tempo.io/blog/stay-motivated-when-youre-working-on-the-never-ending-project-from-hell
-- https://neelraman.com/how-to-maintain-your-motivation-during-long-term-projects/
-- https://mccricardo.com/motivation-vs-consistency-fueling-long-term-success-in-software-engineering/
-- https://smartexe.com/blog/how-to-motivate-software-developers-strategies-to-pesonal-growth
+- <https://robsonsousa.com/staying-motivated-and-engaged-in-long-term-projects-tips-for-programmers/>
+- <https://medium.com/@zainjaffer-official/long-term-project-6-ways-to-maintain-momentum-and-motivation-3cc2732e850c>
+- <https://medium.com/@jpaulopiy/keeping-yourself-motivated-as-a-software-engineer-79c19125b33f>
+- <https://www.tempo.io/blog/stay-motivated-when-youre-working-on-the-never-ending-project-from-hell>
+- <https://neelraman.com/how-to-maintain-your-motivation-during-long-term-projects/>
+- <https://mccricardo.com/motivation-vs-consistency-fueling-long-term-success-in-software-engineering/>
+- <https://smartexe.com/blog/how-to-motivate-software-developers-strategies-to-pesonal-growth>

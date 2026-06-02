@@ -26,21 +26,25 @@ The idea is that China's A-share market is so complex, volatile, and unpredictab
 ## Why the A-Share Market Feels Like "School"
 
 ### 1. Dominated by Retail Investors with Low Financial Literacy
+
 China's stock market has two prominent features that distinguish it from the US: the dominance of retail investors and active participation by the government. Research shows substantial heterogeneity among retail investors — small retail investors have low financial literacy, exhibit behavioral biases, and unsurprisingly, negatively predict future returns, whereas large retail investors and institutions are capable of processing information and positively predict future returns.
 
 This means the A-share market is an environment where *inexperienced* people are constantly competing against each other, which creates a harsh learning curve.
 
 ### 2. High Volatility and Speculative Behavior
+
 Trading patterns in the Chinese stock market are among the most chaotic amongst emerging markets, with higher volatility and highest and lowest cycles determined by individual investors and huge interference from the government.
 
 This volatility forces investors to constantly analyze, react, and adapt — a process that teaches market reading skills.
 
 ### 3. Government Intervention is a Major Variable
+
 Past research has shown China's financial markets to be highly speculative and largely populated by inexperienced retail investors. Its markets also experience high price volatility and the highest trading frequency among major stock markets in the world. In contrast with policymakers in advanced market economies who often refrain from intervening in markets, China's government relies heavily on interventions to stabilize even short-term market fluctuations.
 
 To succeed in A-shares, investors must learn to read *political signals*, regulatory changes, and state media narratives — a skill that simply does not exist in US investing. This is a unique form of "education."
 
 ### 4. Active Management Can Actually Beat the Market (Unlike in the US)
+
 In developed countries, lots of research shows active investing on average can't beat passive investing over decades. However, in some emerging stock markets like China, active funds seem to have better performance consistently, even after fees and taxes. The main reason is market inefficiency due to the short history of the stock market and the high percentage of retail trading.
 
 This means in the A-share market, *learning and skill genuinely pay off more* than in the US, where passive strategies dominate.
@@ -52,6 +56,7 @@ This means in the A-share market, *learning and skill genuinely pay off more* th
 The US stock market rewards long-term passive investing extremely well. The S&P 500 has historically returned around 10% annually over the long run, making index fund investing a reliable wealth-building strategy without requiring deep market knowledge. This has led to the perception that US investors can "set it and forget it."
 
 However, this view underestimates what US investors still need to understand:
+
 - Asset allocation, diversification, and rebalancing
 - Tax-loss harvesting strategies
 - Behavioral discipline during bear markets (not panic selling)

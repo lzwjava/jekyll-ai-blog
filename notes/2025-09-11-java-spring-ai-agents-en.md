@@ -152,7 +152,7 @@ mvn -q org.jacoco:jacoco-maven-plugin:report \
 * **Privacy/Access:** Restrict prod logs/DB snapshots; redact secrets before model calls.
 * **Metrics:** Track MTTR (fail → fix), flaky rate, test coverage delta, perf SLIs. Use weekly agent scorecards.
 
-# If you want, I can:
+# If you want, I can
 
 * Draft a **ready-to-drop GitHub Actions workflow** that runs “PR Code Review + API Contract Guardian + Coverage Orchestrator” using your modules and JaCoCo setup.
 * Generate **starter rules** tuned to your stack (Jetty/Liberty, Db2, multi-module Maven).

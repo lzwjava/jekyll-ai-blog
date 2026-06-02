@@ -15,6 +15,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 1. **The Power of Early Passion and Dedication**
+
 - **Takeaway**: Lisa showed a deep interest in mathematics from a young age.
 - **Lesson**: Cultivating a genuine passion for a subject early on, and dedicating time to it, can lead to extraordinary achievements.
 - **Application**: Encourage curiosity and support students' interests from an early age through enrichment programs, problem-solving clubs, or mentorship.
@@ -22,6 +23,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 2. **Success in Competitions Requires Discipline and Practice**
+
 - **Takeaway**: Lisa participated in multiple IMOs and won several gold medals with near-perfect scores.
 - **Lesson**: Mastery comes not just from talent, but from consistent, deliberate practice.
 - **Application**: Whether in math or any field, regular, focused effort and engaging with challenging problems builds expertise.
@@ -29,6 +31,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 3. **Mentorship and Educational Support Matter**
+
 - **Takeaway**: Lisa benefited from strong educational systems and mentors in Germany.
 - **Lesson**: Access to quality mentors, training camps, and resources can significantly impact student performance.
 - **Application**: Invest in mentorship and create environments (schools, clubs, online platforms) that nurture talent.
@@ -36,6 +39,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 4. **Transitioning from Competition to Research**
+
 - **Takeaway**: After excelling in competitions, Lisa pursued higher mathematics and became a prominent researcher in combinatorics.
 - **Lesson**: Competitive success can be a stepping stone toward deeper academic exploration and innovation.
 - **Application**: Help talented students transition from competition math to university-level research by exposing them to advanced topics and guiding their academic paths.
@@ -43,6 +47,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 5. **Breaking Stereotypes – Women in STEM**
+
 - **Takeaway**: As one of the top female mathematicians in international competitions, Lisa challenges gender stereotypes in STEM fields.
 - **Lesson**: Gender should not limit access to or achievement in STEM disciplines.
 - **Application**: Promote inclusivity and provide equal opportunities for all genders in math and science education.
@@ -50,6 +55,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 6. **Thinking Creatively and Solving Complex Problems**
+
 - **Takeaway**: Olympiad problems require creative thinking and unconventional approaches.
 - **Lesson**: Mathematics is not just about formulas; it's about logical reasoning, creativity, and problem-solving.
 - **Application**: Encourage open-ended problem solving and critical thinking skills in classrooms.
@@ -57,6 +63,7 @@ Here are some key lessons we can learn from Lisa Sauermann:
 ---
 
 ### 7. **Staying Humble and Grounded**
+
 - **Takeaway**: Despite her numerous accolades, Lisa is known for being humble and approachable.
 - **Lesson**: Great talent doesn’t have to come with ego. Staying grounded helps maintain long-term growth and positive influence.
 - **Application**: Emphasize character development and humility alongside intellectual achievement.

@@ -17,6 +17,7 @@ type: note
 IELTS One Skill Retake（也称为单项重考或单科重考）允许您在想要提高特定单项成绩时，仅重考 Listening、Reading、Writing 或 Speaking 四项技能中的**其中一项**，而无需重考整个考试。
 
 ### 核心规则与运作机制
+
 - **报名资格要求**：
   - 您原始的考试必须是 **机考 IELTS**（Academic 或 General Training；目前大多数情况下纸笔考试不适用）。
   - 原始考试必须在提供 One Skill Retake 服务的考试中心参加。

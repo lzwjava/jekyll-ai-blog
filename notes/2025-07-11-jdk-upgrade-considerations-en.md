@@ -11,6 +11,7 @@ type: note
 Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.2.2 to a newer JDK like 11, 17, or 21 requires careful planning to minimize disruptions, especially given the use of IBM DB2 JCC drivers, heavy reliance on Spring, and deployment to WebSphere Liberty. Below, I'll outline key considerations, including compatibility, potential breaking changes, migration steps, and recommendations. Since you mentioned you can upgrade Spring as well, I'll cover scenarios where that might be necessary or beneficial.
 
 ### General Considerations for JDK Upgrade
+
 - **Backward Compatibility and Breaking Changes**: Java aims for strong backward compatibility, but upgrades from JDK 8 introduce changes that could affect your code:
   - **Removed/Deprecated APIs**: JDK 9+ removed internal APIs like `sun.misc.Unsafe` and some `sun.*` packages. If your code (or dependencies) uses these, you'll need alternatives (e.g., via `Unsafe` alternatives in third-party libs or Java's `VarHandle`).
   - **Module System (JPMS from JDK 9)**: Encapsulates internal APIs, potentially causing "illegal access" errors. Use `--add-opens` or `--add-exports` flags temporarily, but aim to refactor for modularity.
@@ -29,7 +30,9 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
 - **Effort for Large Codebase**: With heavy Spring usage, focus on Spring-managed components (e.g., beans, AOP). Budget time for refactoring (e.g., 1-2 weeks per major version jump, scaling with code size).
 
 ### Specific Considerations by Target JDK
+
 #### Upgrading to JDK 11
+
 - **Pros**: LTS with good stability; closer to JDK 8, so fewer changes. End-of-life approaching (2026), but still widely supported.
 - **Cons**: Misses modern features like virtual threads (21) or improved GC (17+).
 - **Spring Compatibility**: Spring 5.2.2 works on JDK 11, but upgrade to Spring 5.3.x (latest in 5.x line) for better JDK 11/17 support and bug fixes. No major Spring changes needed.
@@ -42,6 +45,7 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
 - **Effort**: Low to medium; minimal code changes if no internal API usage.
 
 #### Upgrading to JDK 17
+
 - **Pros**: Current LTS with strong adoption; includes features like text blocks, records, and enhanced switch. Better performance than 11.
 - **Cons**: SecurityManager deprecated (if used, plan removal). Some libs might need updates.
 - **Spring Compatibility**: Spring 5.3.x fully supports JDK 17 (tested on LTS releases). Upgrade from 5.2.2 to 5.3.x for optimal compatibility—no breaking changes in Spring itself.
@@ -54,6 +58,7 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
 - **Effort**: Medium; build on JDK 11 migration.
 
 #### Upgrading to JDK 21
+
 - **Pros**: Latest LTS with cutting-edge features (e.g., virtual threads for concurrency, sequenced collections). Best for future-proofing.
 - **Cons**: Requires Spring upgrade (see below); potential issues with very old libs.
 - **Spring Compatibility**: Spring 5.x does not officially support JDK 21 (max is JDK 17). You must upgrade to Spring 6.1+ (which requires JDK 17+ baseline). This is a major shift:
@@ -70,6 +75,7 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
 - **Effort**: High if upgrading Spring; otherwise similar to 17.
 
 ### Additional Project-Specific Considerations
+
 - **IBM DB2 JCC Library**: Ensure your driver version matches DB2 release (e.g., for DB2 11.5, use JCC 4.29+). Test JDBC connections, SQLJ, and any custom queries—newer JDKs might expose charset or timezone issues.
 - **WebSphere Liberty Deployment**: No blockers; Liberty is flexible with JDKs. Update server.xml if needed for JVM args (e.g., `--add-opens` for module issues). Test deployments early.
 - **Large Codebase and Spring Usage**: Prioritize modular upgrades (e.g., upgrade core services first). If Spring is deeply integrated (e.g., MVC, Data, Security), audit for deprecated features in 5.2.2. Upgrading Spring brings benefits like better AOT and observability but adds cost.
@@ -77,6 +83,7 @@ Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.
 - **Costs**: Time (weeks to months for full migration), potential licensing (e.g., commercial JDKs like Oracle's), and training on new features.
 
 ### Recommendations
+
 - **Preferred Path**: Start with JDK 11 or 17 while keeping/upgrading to Spring 5.3.x—lower risk for your codebase. Go to 21 only if you need its features (e.g., virtual threads) and are willing to upgrade to Spring 6 (which could take significant effort due to Jakarta changes).
 - **Next Steps**:
   1. Scan code with jdeps/jlink for issues.

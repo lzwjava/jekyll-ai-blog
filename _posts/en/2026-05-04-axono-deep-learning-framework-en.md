@@ -22,6 +22,7 @@ A **from-scratch deep learning framework** built in C++ with Python bindings —
 ## Architecture
 
 ### Layer Stack
+
 ```
 Python API (axono.*)
       ↕  pybind11
@@ -32,6 +33,7 @@ CUDA backend (NVIDIA GPUs)
 ```
 
 ### Build System
+
 - **CMake** (C++17) with pybind11 for Python bindings
 - Auto-detects architecture: enables AVX2+FMA on x86, generic fallback on ARM
 - Compiled with `-O3 -march=native -ffast-math` for maximum CPU performance
@@ -42,7 +44,9 @@ CUDA backend (NVIDIA GPUs)
 ## Core Components
 
 ### `axono.core.Tensor`
+
 Python wrapper around a C++ `Tensor` class. Key capabilities:
+
 - **Dtypes**: `int8/16/32/64`, `float32/64`, `bool`
 - **Devices**: `"cpu"` or `"cuda:<id>"`, switchable via `.to(device)`
 - **Factory methods**: `Tensor.zeros()`, `Tensor.ones()`, `Tensor.full()`, `Tensor.randn()`
@@ -51,7 +55,9 @@ Python wrapper around a C++ `Tensor` class. Key capabilities:
 - **Mutation**: `.reshape()`, `.resize()`, `.fill()`, `.fill_zero()`
 
 ### `axono.core.operators` / `axono.core.ops`
+
 Thin Python wrappers that delegate to C++ implementations:
+
 - `matmul(a, b)` — matrix multiplication (CPU: OpenMP+SIMD, CUDA: cuBLAS-style kernel)
 - `add(a, b)` — elementwise addition
 - `relu(x, inplace=False)` — ReLU activation
@@ -59,6 +65,7 @@ Thin Python wrappers that delegate to C++ implementations:
 Each operator has separate CPU and CUDA kernel headers under `include/axono/ops/{cpu,cuda}/`.
 
 ### `axono.nn`
+
 - **`Module`** — base class tracking `_parameters` dict, mirrors PyTorch's `nn.Module`. Has `add_weight()`, `parameters()`, `train()`
 - **`Linear`** — fully connected layer: `y = x @ W.T + b`, weights initialized with He-init (`scale = sqrt(2/in_features)`)
 
@@ -101,6 +108,7 @@ Matmul is the weakest point — PyTorch uses highly optimized BLAS (MKL/OpenBLAS
 ## Examples
 
 The `examples/` directory shows the **aspirational API** (not all implemented yet):
+
 - `mnist_classification.py` — CNN on MNIST using `axono.models.CNN`, `axono.train.Trainer`, `axono.data.DataLoader`, `axono.viz` — most of these modules don't exist in the current codebase, representing future roadmap
 - `text_classification.py`, `time_series_prediction.py` — similarly aspirational
 

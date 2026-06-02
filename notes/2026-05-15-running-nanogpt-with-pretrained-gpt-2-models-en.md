@@ -23,6 +23,7 @@ That's it. `sample.py:47-49` routes `--init_from=gpt2*` into `GPT.from_pretraine
 Other valid values: `gpt2` (124M), `gpt2-medium` (350M), `gpt2-large` (774M), `gpt2-xl` (1558M).
 
 Useful flags:
+
 - `--device=cuda` (default) or `--device=cpu`
 - `--temperature=0.8 --top_k=200` (sampling)
 - `--start="FILE:prompt.txt"` to read prompt from a file

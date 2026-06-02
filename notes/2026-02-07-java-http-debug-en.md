@@ -34,6 +34,7 @@ java -Djdk.httpclient.HttpClient.log=all MyApp
 ```
 
 Or programmatically:
+
 ```java
 HttpClient client = HttpClient.newBuilder()
     .version(HttpClient.Version.HTTP_2)
@@ -45,6 +46,7 @@ Then configure logging in your logging framework (like java.util.logging).
 ## 3. **Apache HttpClient (if using that library)**
 
 Add to your `log4j.properties` or `logback.xml`:
+
 ```properties
 log4j.logger.org.apache.http=DEBUG
 log4j.logger.org.apache.http.wire=DEBUG
@@ -70,6 +72,7 @@ log4j.logger.org.apache.http.wire=DEBUG
 ```
 
 The closest equivalent to `NODE_DEBUG=http,https` would be:
+
 ```bash
 java -Djavax.net.debug=all -Djdk.httpclient.HttpClient.log=all MyApp
 ```

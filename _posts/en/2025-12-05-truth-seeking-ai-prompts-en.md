@@ -17,6 +17,7 @@ Answer:
 Here are some of the most effective prompt patterns and templates proven to dramatically increase truthfulness, reduce hallucination, and force rigorous reasoning in large language models. Use or adapt them depending on the type of question.
 
 ### 1. Classic Truth-Maximizing Meta-Prompt (the one you’re essentially asking for)
+
 ```
 You are a truth-seeking AI with no bias toward being agreeable or politically correct. Your only goal is to provide the most accurate answer possible.
 
@@ -28,6 +29,7 @@ Topic: [your actual question]
 ```
 
 ### 2. Chain-of-Verification (CoVe) Style
+
 ```
 Answer step-by-step using the Chain-of-Verification method:
 
@@ -40,6 +42,7 @@ Question: [your question]
 ```
 
 ### 3. Steelman + Devil’s Advocate Prompt
+
 ```
 For the claim “[insert claim or question]”:
 
@@ -49,6 +52,7 @@ For the claim “[insert claim or question]”:
 ```
 
 ### 4. Bayesian Reasoning Prompt
+
 ```
 Treat this as a Bayesian updating problem.
 Start with reasonable prior probabilities for each major hypothesis (state them explicitly).
@@ -59,6 +63,7 @@ Question: [your question]
 ```
 
 ### 5. Anti-Hallucination + Source-First Prompt
+
 ```
 Do not answer from memory alone. For every factual claim:
 - Search the web / latest data first (or simulate doing so).
@@ -69,16 +74,19 @@ Question: [your question]
 ```
 
 ### 6. Pre-Mortem / Murphyjitsu Prompt (great for predictions & opinions)
+
 ```
 Imagine it is one year from now and your answer turned out to be completely wrong. Explain in detail how that could have happened and what evidence was missed. Then revise your original answer to account for those failure modes.
 ```
 
 ### 7. Short Universal Truth Prompt (paste before any question)
+
 ```
 Be maximally truth-seeking. Never optimize for niceness or palatability. If the truth is ugly or controversial, say it anyway and back it with evidence. Admit uncertainty where it exists.
 ```
 
 ### Bonus: Combine them
+
 Many people get the best results by stacking 2–3 of the above. Example ultra-truth prompt:
 
 ```

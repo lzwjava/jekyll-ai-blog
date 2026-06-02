@@ -15,11 +15,13 @@ No, you typically **don't need a VPN** to update apps if your App Store is set t
 Here's what happens:
 
 **App updates work without VPN because:**
+
 - App Store servers for downloads/updates use Apple's CDN (Content Delivery Network)
 - These CDN servers are generally accessible in China
 - The download process itself doesn't require you to be "in" the USA region
 
 **What you DO need VPN for:**
+
 - **Browsing/searching** the App Store (the storefront interface may load slowly or have issues without VPN)
 - **Downloading NEW apps** for the first time (sometimes works without VPN, but often unreliable)
 - **Apps that require VPN to function** (like Google apps, Facebook, etc.)

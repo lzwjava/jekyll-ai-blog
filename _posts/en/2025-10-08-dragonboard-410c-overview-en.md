@@ -21,9 +21,11 @@ The Snapdragon 410 board typically refers to the DragonBoard 410c, a compact sin
 It's designed for developers building low-power devices like smart home gadgets or industrial sensors, with strong emphasis on wireless features and expandability.
 
 ### Performance
+
 The Snapdragon 410 is an entry-level SoC from the mid-2010s, built on a 28nm process, making it power-efficient but dated by 2025 standards. It's adequate for basic tasks like web browsing, email, light media playback, and simple IoT apps, but it lags in multitasking, gaming, or demanding computations.
 
 Key benchmark highlights (from devices using this chip):
+
 - **Geekbench 6**: Single-core ~200–250, multi-core ~600–700 (comparable to very low-end modern chips).
 - **3DMark Ice Storm**: Around 8,500–9,000 points (physics/graphics tests), suitable for 2D interfaces but struggles with 3D games.
 - **AnTuTu v6**: Roughly 20,000–25,000 total score, emphasizing its budget positioning.

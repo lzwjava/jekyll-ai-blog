@@ -11,11 +11,13 @@ type: note
 根据您的查询需求，您希望编写一个脚本：当 `level` 参数为 0 或未提供时，使用完整的包名（所有部分），实质上将 `level = 0` 视为"无限"或"使用所有部分"，而不是限制为特定数量的部分（例如当 `level = 1` 时仅使用第一部分）。下面我将解释如何在分析 Java 文件以提取包名的 Python 脚本中实现这一点，并提供针对您需求的完整解决方案。
 
 ### 需求理解
+
 - **当 `level = 0` 或未提供时**：使用从 Java `import` 语句中提取的完整包名（例如 `java.util` 或 `com.google.common.eventbus`），不进行截断。
 - **当 `level > 0` 时**：将包名截断为前 `level` 个部分（例如，对于 `com.google.common.eventbus`，`level = 2` 将得到 `com.google`）。
 - 脚本仍应处理 Java 文件，从 `import` 语句中提取包名，并适当处理边界情况。
 
 ### 解决方案思路
+
 1. **参数解析**：
    - 如果仅提供了根目录（例如 `python script.py /path/to/dir`），则设置 `level = 0`，意味着使用完整包名。
    - 如果提供了 `level`（例如 `python script.py /path/to/dir 2`），则使用它来截断包名，确保它是非负整数。
@@ -34,6 +36,7 @@ type: note
    - 列出所有找到的唯一包名。
 
 ### 实现代码
+
 以下是满足您需求的完整 Python 脚本：
 
 ```python
@@ -175,17 +178,21 @@ if __name__ == '__main__':
 ```
 
 ### 工作原理
+
 - **运行脚本**：
   - `python script.py /path/to/java/project`：分析目录中的所有 `.java` 文件并使用完整包名（`level = 0`）。
   - `python script.py /path/to/java/project 2`：将包名截断为前 2 个部分（例如 `com.google.common.eventbus` 变为 `com.google`）。
 
 - **示例输出**：
   假设您有一个 Java 文件包含：
+
   ```java
   import java.util.ArrayList;
   import com.google.common.eventbus.EventBus;
   ```
+
   - **使用 `level = 0`（或未提供层级）**：
+
     ```
     [信息] 开始分析目录: /path/to/java/project 使用完整包名
     [信息] 进入目录: /path/to/java/project
@@ -198,7 +205,9 @@ if __name__ == '__main__':
     com.google.common.eventbus
     java.util
     ```
+
   - **使用 `level = 2`**：
+
     ```
     [信息] 开始分析目录: /path/to/java/project 在层级 2
     [信息] 进入目录: /path/to/java/project
@@ -219,6 +228,7 @@ if __name__ == '__main__':
   - **唯一性**：将包存储在 `set` 中以避免重复。
 
 ### 处理的边界情况
+
 - **缺失层级**：默认为 `level = 0`，使用完整包名。
 - **无效层级**：如果 `level` 为负数或非整数，则报错退出。
 - **短包名**：如果包的组成部分少于 `level`（例如 `java` 且 `level = 2`），则使用完整包名（`java`）。

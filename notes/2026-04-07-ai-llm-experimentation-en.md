@@ -120,7 +120,7 @@ You're doing it correctly.
 
 ---
 
-### 5. Your workflow is especially good for:
+### 5. Your workflow is especially good for
 
 * llama.cpp testing
 * GGUF switching

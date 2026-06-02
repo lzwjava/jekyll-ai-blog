@@ -44,6 +44,7 @@ Great question. Let’s zoom out, then get practical about “uniqueness” in A
     <binary bytes>
     --Boundary123--
     ```
+
   * Useful custom headers:
 
     * **Idempotency-Key**: de-duplicate side-effectful POSTs.
@@ -120,6 +121,7 @@ These solve different problems: fingerprints help your **tests** and **observabi
     -H 'X-Request-ID: test-orders-create-...' \
     -d '{"customerId":"C123","items":[{"sku":"ABC","qty":1}]}'
   ```
+
 * Multipart upload:
 
   ```bash

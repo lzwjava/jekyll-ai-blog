@@ -27,6 +27,7 @@ type: note
 | EACL | ACL欧洲分会 | 欧洲NLP视角、LLM、伦理NLP | 3月17-21日，马耳他圣朱利安斯 | 侧重欧洲语言与AI政策研究 |
 
 #### 深度洞察
+
 - **LLM专题设置**：LLM已成为所有会议热点，常设专题研讨会（如NeurIPS的"LLM对齐"或ACL的"生成式AI"）。若专注LLM研究，可关注"大语言模型未来"（FLLM）等独立会议（2025年日程待定）。
 - **投稿截止**：建议使用[AI Deadlines](https://aideadlin.es/)获取实时更新——例如ICML摘要截止期约为2025年1月。
 - **遴选标准**：本清单基于影响因子（h指数、引用量）和参会规模（1,000-10,000人）筛选，这些会议吸引斯坦福、MIT、MBZUAI等顶尖学府学者。
@@ -34,6 +35,7 @@ type: note
 如需特定会议或地区（如亚洲专场）的详细信息，欢迎随时告知！
 
 #### 参考来源
+
 - [Evidently AI：2025机器学习会议](https://www.evidentlyai.com/blog/ml-conferences)
 - [Deepchecks：2025最佳AI/ML会议](https://www.deepchecks.com/the-best-ai-and-ml-conferences-of-2024/)
 - [AI Deadlines](https://aideadlin.es/)

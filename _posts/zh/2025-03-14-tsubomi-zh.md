@@ -15,26 +15,31 @@ type: note
 ## 《蕾(つぼみ)》歌词 - 可苦可乐
 
 ### 第一段
+
 涙こぼしても 汗にまみれた笑顔の中じゃ
 誰も気付いてはくれない
 だから あなたの涙を僕は知らない
 
 ### 前副歌
+
 絶やす事無く 僕の心に灯されていた
 優しい明かりは あなたがくれた理由なき愛のあかし
 
 ### 副歌
+
 柔らかな日だまりが包む 背中に ポツリ 話しかけながら
 いつかこんな日が来る事も
 きっと きっと きっと わかってたはずなのに
 
 ### 第二段
+
 消えそうに 咲きそうな 蕾が今年も僕をまってる
 掌じゃ掴めない 風に踊る花びら
 立ち止まる肩にヒラリ
 上手に乗せて笑って見せた あなたを思い出す一人
 
 ### 桥段
+
 ビルの谷間に埋もれた夢を いつか芽吹いて
 花を咲かすだろう 信じた夢は 咲く場所を選ばない
 僕等 この街に落とされた影法師
@@ -43,12 +48,14 @@ type: note
 きっと きっと きっと 追い越せる日が来るさ
 
 ### 第三段
+
 風のない線路道 五月の美空は青く寂しく
 動かないちぎれ曇 いつまでも浮かべてた
 どこにももう戻れない 僕のようだとささやく風に
 キラリ舞い落ちてく 涙...
 
 ### 副歌
+
 散り際に もう一度開く花びらは あなたのように
 聴こえない頑張れを 握った両手に何度もくれた
 消えそうに 咲きそうな 蕾が今年も僕をまってる
@@ -63,6 +70,7 @@ type: note
 ### **第一段**
 
 #### 第1行: 涙こぼしても 汗にまみれた笑顔の中じゃ
+
 - **罗马音**: Namida koboshite mo ase ni mamireta egao no naka ja
 - **逐词解释**:
   - **涙 (namida)**: "眼泪" — /na-mi-da/
@@ -78,6 +86,7 @@ type: note
 - **含义**: "即使泪如雨下，在汗水浸透的笑容里" —— 暗示在微笑背后隐藏悲伤的坚韧。
 
 #### 第2行: 誰も気付いてはくれない
+
 - **罗马音**: Dare mo kizuite wa kurenai
 - **逐词解释**:
   - **誰も (dare mo)**: "没有人" — /da-re-mo/
@@ -87,6 +96,7 @@ type: note
 - **含义**: "谁都不会察觉" —— 表明此人的挣扎不为人知。
 
 #### 第3行: だから あなたの涙を僕は知らない
+
 - **罗马音**: Dakara anata no namida wo boku wa shiranai
 - **逐词解释**:
   - **だから (dakara)**: "所以" — /da-ka-ra/
@@ -104,6 +114,7 @@ type: note
 ### **前副歌**
 
 #### 第1行: 絶やす事無く 僕の心に灯されていた
+
 - **罗马音**: Tayasu koto naku boku no kokoro ni tomosarete ita
 - **逐词解释**:
   - **絶やす (tayasu)**: "熄灭" — /ta-ya-su/
@@ -117,6 +128,7 @@ type: note
 - **含义**: "从未熄灭，在我心中持续燃烧" —— 指代永恒的光明（可能是爱或希望）。
 
 #### 第2行: 優しい明かりは あなたがくれた理由なき愛のあかし
+
 - **罗马音**: Yasashii akari wa anata ga kureta riyuu naki ai no akashi
 - **逐词解释**:
   - **優しい (yasashii)**: "温柔的" — /ya-sa-shi-i/
@@ -137,6 +149,7 @@ type: note
 ### **副歌**
 
 #### 第1行: 柔らかな日だまりが包む 背中に ポツリ 話しかけながら
+
 - **罗马音**: Yawarakana hidamari ga tsutsumu senaka ni potsuri hanashikake nagara
 - **逐词解释**:
   - **柔らかな (yawarakana)**: "柔和的" — /ya-wa-ra-ka-na/
@@ -151,6 +164,7 @@ type: note
 - **含义**: "在柔和阳光的包裹中，悄然对着我的后背低语" —— 描绘温情交流的瞬间。
 
 #### 第2行: いつかこんな日が来る事も
+
 - **罗马音**: Itsuka konna hi ga kuru koto mo
 - **逐词解释**:
   - **いつか (itsuka)**: "总有一天" — /i-tsu-ka/
@@ -163,6 +177,7 @@ type: note
 - **含义**: "就连这样的日子终将到来" —— 对不可避免变化的反思。
 
 #### 第3行: きっと きっと きっと わかってたはずなのに
+
 - **罗马音**: Kitto kitto kitto wakatteta hazu na no ni
 - **逐词解释**:
   - **きっと (kitto)**: "肯定" — /kit-to/（重复以强调）
@@ -177,6 +192,7 @@ type: note
 ### **第二段**
 
 #### 第1行: 消えそうに 咲きそうな 蕾が今年も僕をまってる
+
 - **罗马音**: Kiesou ni sakisou na tsubomi ga kotoshi mo boku wo matteru
 - **逐词解释**:
   - **消えそう (kiesou)**: "即将消散" — /ki-e-so-u/
@@ -193,6 +209,7 @@ type: note
 - **含义**: "那仿佛转瞬消散又将绽放的花蕾，今年依然在等待着我" —— 象征希望与脆弱。
 
 #### 第2行: 掌じゃ掴めない 風に踊る花びら
+
 - **罗马音**: Tenohira ja tsukamenai kaze ni odoru hanabira
 - **逐词解释**:
   - **掌 (tenohira)**: "掌心" — /te-no-hi-ra/
@@ -205,6 +222,7 @@ type: note
 - **含义**: "风中舞动的花瓣，用掌心无法捕捉" —— 美丽却难以把握的事物。
 
 #### 第3行: 立ち止まる肩にヒラリ
+
 - **罗马音**: Tachidomaru kata ni hirari
 - **逐词解释**:
   - **立ち止まる (tachidomaru)**: "停步" — /ta-chi-do-ma-ru/
@@ -214,6 +232,7 @@ type: note
 - **含义**: "当我驻足时，轻轻落在肩头" —— 可能是花瓣飘落的微妙瞬间。
 
 #### 第4行: 上手に乗せて笑って見せた あなたを思い出す一人
+
 - **罗马音**: Jouzu ni nosete waratte miseta anata wo omoidasu hitori
 - **逐词解释**:
   - **上手に (jouzu ni)**: "灵巧地" — /jo-u-zu-ni/
@@ -231,6 +250,7 @@ type: note
 ### **桥段**
 
 #### 第1行: ビルの谷間に埋もれた夢を いつか芽吹いて
+
 - **罗马音**: Biru no tanima ni umoreta yume wo itsuka mebuite
 - **逐词解释**:
   - **ビル (biru)**: "高楼" — /bi-ru/
@@ -245,6 +265,7 @@ type: note
 - **含义**: "被高楼缝隙埋没的梦想，终将破土发芽" —— 困境中孕育的希望。
 
 #### 第2行: 花を咲かすだろう 信じた夢は 咲く場所を選ばない
+
 - **罗马音**: Hana wo sakasu darou shinjita yume wa saku basho wo erabanai
 - **逐词解释**:
   - **花 (hana)**: "花朵" — /ha-na/
@@ -261,6 +282,7 @@ type: note
 - **含义**: "定会绽放花朵，坚信的梦想从不挑剔盛放之地" —— 梦想在任何角落都能生长。
 
 #### 第3行: 僕等 この街に落とされた影法師
+
 - **罗马音**: Bokura kono machi ni otosareta kageboushi
 - **逐词解释**:
   - **僕等 (bokura)**: "我们" — /bo-ku-ra/
@@ -272,6 +294,7 @@ type: note
 - **含义**: "我们是被遗落在这座城市的剪影" —— 在庞大都市中的渺小存在。
 
 #### 第4行: みんな光を探しいて
+
 - **罗马音**: Minna hikari wo sagashite
 - **逐词解释**:
   - **みんな (minna)**: "每个人" — /min-na/
@@ -281,6 +304,7 @@ type: note
 - **含义**: "每个人都在追寻光芒" —— 对希望的共同渴望。
 
 #### 第5行: 重なり合う時の流れも
+
 - **罗马音**: Kasanariau toki no nagare mo
 - **逐词解释**:
   - **重なり合う (kasanariau)**: "交织重叠" — /ka-sa-na-ri-a-u/
@@ -291,6 +315,7 @@ type: note
 - **含义**: "就连交织重叠的时光洪流" —— 漫长岁月中的共同经历。
 
 #### 第6行: きっと きっと きっと 追い越せる日が来るさ
+
 - **罗马音**: Kitto kitto kitto oikoseru hi ga kuru sa
 - **逐词解释**:
   - **きっと (kitto)**: "必定" — /kit-to/（重复以强调）
@@ -306,6 +331,7 @@ type: note
 ### **第三段**
 
 #### 第1行: 風のない線路道 五月の美空は青く寂しく
+
 - **罗马音**: Kaze no nai senromichi gogatsu no misora wa aoku sabishiku
 - **逐词解释**:
   - **風 (kaze)**: "风" — /ka-ze/
@@ -321,6 +347,7 @@ type: note
 - **含义**: "无风的铁轨旁，五月的晴空湛蓝而寂寥" —— 描绘忧郁的场景。
 
 #### 第2行: 動かないちぎれ曇 いつまでも浮かべてた
+
 - **罗马音**: Ugokanai chigiregumo itsumademo ukabeteta
 - **逐词解释**:
   - **動かない (ugokanai)**: "凝滞不动" — /u-go-ka-na-i/
@@ -330,6 +357,7 @@ type: note
 - **含义**: "凝滞的碎云永远悬浮天际" —— 强化了静止的氛围。
 
 #### 第3行: どこにももう戻れない 僕のようだとささやく風に
+
 - **罗马音**: Doko ni mo mou modorenai boku no you da to sasayaku kaze ni
 - **逐词解释**:
   - **どこ (doko)**: "何处" — /do-ko/
@@ -345,7 +373,8 @@ type: note
   - **に (ni)**: "在...中" — /ni/
 - **含义**: "在风的呢喃中听见'如同再也无处可归的我'" —— 将说话者与风相比。
 
-#### 第4行: キラリ舞い落ちてく 涙...
+#### 第4行: キラリ舞い落ちてく 涙
+
 - **罗马音**: Kirari mai ochiteku namida...
 - **逐词解释**:
   - **キラリ (kirari)**: "闪烁地" — /ki-ra-ri/
@@ -358,6 +387,7 @@ type: note
 ### **副歌**
 
 #### 第1行: 散り際に もう一度開く花びらは あなたのように
+
 - **罗马音**: Chiri際に mou ichido hiraku hanabira wa anata no you ni
 - **逐词解释**:
   - **散り際 (chiri際)**: "凋零时刻" — /chi-ri-gi-wa/
@@ -371,6 +401,7 @@ type: note
 - **含义**: "在凋零时刻再度绽放的花瓣，正如你一般" —— 将坚韧比作那个人。
 
 #### 第2行: 聴こえない頑張れを 握った両手に何度もくれた
+
 - **罗马音**: Kikoenai ganbare wo nigitta ryoute ni nando mo kureta
 - **逐词解释**:
   - **聴こえない (kikoenai)**: "听不见的" — /ki-ko-e-na-i/
@@ -384,11 +415,13 @@ type: note
 - **含义**: "将无声的鼓励，无数次放入我紧握的双手" —— 无声的支持。
 
 #### 第3行: 消えそうに 咲きそうな 蕾が今年も僕をまってる
+
 - **罗马音**: Kiesou ni sakisou na tsubomi ga kotoshi mo boku wo matteru
 - **逐词解释**: （同第二段第1行）
 - **含义**: "那仿佛转瞬消散又将绽放的花蕾，今年依然在等待着我"
 
 #### 第4行: 今もまだ掴めない あなたと描いた夢
+
 - **罗马音**: Ima mo mada tsukamenai anata to egaita yume
 - **逐词解释**:
   - **今 (ima)**: "此刻" — /i-ma/
@@ -402,6 +435,7 @@ type: note
 - **含义**: "至今仍无法触及，与你共同描绘的梦想"
 
 #### 第5行: 立ち止まる僕のそばで 優しく開く笑顔のような
+
 - **罗马音**: Tachidomaru boku no soba de yasashiku hiraku egao no you na
 - **逐词解释**:
   - **立ち止まる (tachidomaru)**: "停步" — /ta-chi-do-ma-ru/
@@ -415,7 +449,8 @@ type: note
   - **のような (no you na)**: "如同" — /no-yo-u-na/
 - **含义**: "在我驻足的身旁，如同温柔绽放的笑容"
 
-#### 第6行: 蕾を探してる 空に...
+#### 第6行: 蕾を探してる 空に
+
 - **罗马音**: Tsubomi wo sagashiteru sora ni...
 - **逐词解释**:
   - **蕾 (tsubomi)**: "花蕾" — /tsu-bo-mi/

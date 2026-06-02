@@ -49,11 +49,14 @@ This is what you're already doing and it works:
 The DNS stub listener is a lightweight DNS server built into `systemd-resolved` that listens for DNS queries on port 53 at `127.0.0.53`. You can disable just the stub listener without stopping the full service.
 
 Edit `/etc/systemd/resolved.conf`:
+
 ```ini
 [Resolve]
 DNSStubListener=no
 ```
+
 Then:
+
 ```bash
 sudo systemctl restart systemd-resolved
 sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf

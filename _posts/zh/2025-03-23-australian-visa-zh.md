@@ -35,4 +35,4 @@ type: note
 
 澳大利亚驻广州总领事馆可提供进一步信息：
 电话：+86 20 3814 0111
-邮箱：guangzhou.consular@dfat.gov.au
+邮箱：<guangzhou.consular@dfat.gov.au>

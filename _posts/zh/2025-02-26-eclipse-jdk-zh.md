@@ -22,9 +22,11 @@ type: note
    将 `XXX` 替换为具体的更新版本（例如 JDK 1.8.0_231 中的 `231`）。在此目录中，`javaw.exe` 文件位于 `bin` 子目录中（例如 `C:\Program Files\Java\jdk1.8.0_XXX\bin\javaw.exe`）。
 
    **提示**：要确认版本和架构，请打开命令提示符，导航到 `bin` 目录（例如 `cd C:\Program Files\Java\jdk1.8.0_XXX\bin`），然后运行：
+
    ```
    java -version
    ```
+
    在输出中查找"64-Bit"或"32-Bit"以验证架构。确保其与你的 Eclipse 版本匹配（如果最近下载，很可能是 64 位）。
 
 3. **找到 `eclipse.ini` 文件**
@@ -35,13 +37,16 @@ type: note
 
    - **检查现有内容**：查找 `-vm` 参数。如果已存在，它将在下一行跟随一个路径（例如 `-vm` 后跟 `C:/some/path/bin/javaw.exe`）。如果它指向有问题的 `Oracle\Java\javapath\javaw.exe`，你将替换它。如果不存在 `-vm` 参数，你将添加它。
    - **添加或修改 `-vm` 参数**：在 `-vmargs` 部分（如果存在）之前或初始启动参数之后靠近文件顶部的位置插入以下两行：
+
      ```
      -vm
      C:/Program Files/Java/jdk1.8.0_XXX/bin/javaw.exe
      ```
+
      - 使用正斜杠（`/`）代替反斜杠（`\`）以避免解析问题。
      - 将 `C:/Program Files/Java/jdk1.8.0_XXX` 替换为你的 Java 安装的实际路径。
    - **确保正确放置**：`-vm` 参数必须出现在 `-vmargs` 部分之前，该部分通常以 `-vmargs` 开头，后跟 JVM 选项如 `-Xms256m` 或 `-Xmx1024m`。例如，编辑后你的 `eclipse.ini` 可能如下所示：
+
      ```
      -startup
      plugins/org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar
@@ -54,12 +59,14 @@ type: note
      -Xms256m
      -Xmx1024m
      ```
+
    - **避免多余的空格或空行**：确保在 `-vm` 或路径行之后没有不必要的空格或空行，因为这可能导致 Eclipse 错误解释配置。
 
 5. **保存并测试**
    保存 `eclipse.ini` 文件，然后双击 `eclipse.exe` 启动 Eclipse。如果配置正确，Eclipse 应该启动而不会出现"Java was started but returned exit code"错误。
 
 ### 附加说明
+
 - **架构匹配**：确保 JVM 架构（32 位或 64 位）与你的 Eclipse 安装匹配。64 位 Eclipse 需要 64 位 JVM，通常位于 `C:\Program Files\Java`，而 32 位 Eclipse 需要来自 `C:\Program Files (x86)\Java` 的 32 位 JVM。
 - **验证路径**：仔细检查 `javaw.exe` 是否存在于指定位置。如果路径不正确，Eclipse 将无法启动。
 - **备用选项**：如果此方法无效，考虑设置 `JAVA_HOME` 环境变量（例如 `C:\Program Files\Java\jdk1.8.0_XXX`）并更新系统 PATH 以包含 `%JAVA_HOME%\bin`。然而，修改 `eclipse.ini` 是 Eclipse 首选且更可靠的方法。

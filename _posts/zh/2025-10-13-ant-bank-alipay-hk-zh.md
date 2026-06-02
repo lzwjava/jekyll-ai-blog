@@ -15,6 +15,7 @@ type: note
 蚂蚁银行（香港）是香港金融管理局（HKMA）许可的全数字化虚拟银行，由蚂蚁集团（支付宝背后的公司）的国际分支——蚂蚁国际全资拥有。该银行于2019年推出，是AlipayHK（支付宝香港版移动支付应用）的官方银行合作伙伴。
 
 集成到AlipayHK中的主要功能和服务包括：
+
 - **储蓄与存款**：高利率的eM+储蓄账户，无最低余额要求。
 - **贷款与信贷**：如蚂蚁银行「稍后付」，这是一种「先买后付」选项，允许通过AlipayHK对超过100港元的购物进行分期付款。
 - **财富管理**：AlipayHK内的小程序，用于投资基金和其他产品。
@@ -26,7 +27,8 @@ type: note
 
 是的，作为中国大陆公民，您可以使用中国大陆居民身份证（结合回乡证，即《中国大陆居民往来港澳通行证》）在香港开设蚂蚁银行账户。「港澳通行证」很可能指的就是回乡证，该证件允许大陆居民前往并停留香港/澳门。
 
-#### 主要资格和要求：
+#### 主要资格和要求
+
 - **年龄**：必须年满18岁或以上。
 - **身份证明文件**：
   - 有效的中国大陆居民身份证。
@@ -45,6 +47,7 @@ type: note
 如果您计划前往香港，可以到热门地点如尖沙咀购买SIM卡并轻松办理——许多大陆访客已成功完成此流程。
 
 #### 参考资料
+
 - [蚂蚁银行（香港）获得蚂蚁国际1亿美元投资](https://www.businesswire.com/news/home/20250423571852/en/Ant-Bank-Hong-Kong-Secures-US%2524100-Million-Investment-from-Ant-International-to-Expand-Collaborations-and-Drive-Financial-Development)
 - [蚂蚁银行（香港）- Google Play应用商店](https://play.google.com/store/apps/details?id=com.alipay.antbank.hk.portal&hl=en_US)
 - [香港8家虚拟银行：它们如何比较？](https://statrys.com/blog/virtual-banks-hk)

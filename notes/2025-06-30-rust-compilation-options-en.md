@@ -12,7 +12,7 @@ You're asking a great question that touches on how Rust projects are typically s
 
 When you use `rustc` directly, you have two main options to specify the output location:
 
-1.  **`-o <output_filename>`**: This option specifies the *exact path and filename* for the compiled executable or library.
+1. **`-o <output_filename>`**: This option specifies the *exact path and filename* for the compiled executable or library.
 
     ```bash
     rustc scripts/rust/example.rs -o test/example
@@ -20,7 +20,7 @@ When you use `rustc` directly, you have two main options to specify the output l
 
     This will compile `example.rs` and place the executable named `example` directly into the `test/` directory. If `test/` doesn't exist, `rustc` will create it.
 
-2.  **`--out-dir <output_directory>`**: This option specifies a *directory* where `rustc` should place all generated output files (the executable/library, along with any intermediate files like `.d`, `.rmeta`, etc.).
+2. **`--out-dir <output_directory>`**: This option specifies a *directory* where `rustc` should place all generated output files (the executable/library, along with any intermediate files like `.d`, `.rmeta`, etc.).
 
     ```bash
     rustc scripts/rust/example.rs --out-dir test/
@@ -45,7 +45,7 @@ When you run `cargo build` or `cargo run`, the compiled executable will be place
 
 If you want to control the `target` directory for Cargo, you can:
 
-  * **`CARGO_TARGET_DIR` environment variable**:
+* **`CARGO_TARGET_DIR` environment variable**:
 
     ```bash
     CARGO_TARGET_DIR=./test cargo build
@@ -53,7 +53,7 @@ If you want to control the `target` directory for Cargo, you can:
 
     This will place the entire `target` directory (containing `debug`, `release`, etc.) inside your `test/` directory. The executable would then be at `test/debug/my_project`.
 
-  * **`--target-dir` command-line option for Cargo**:
+* **`--target-dir` command-line option for Cargo**:
 
     ```bash
     cargo build --target-dir test/
@@ -61,14 +61,14 @@ If you want to control the `target` directory for Cargo, you can:
 
     This does the same as the environment variable.
 
-  * **`.cargo/config.toml`**: You can set a default `target-dir` for all Cargo projects on your machine or for a specific workspace by adding it to a `.cargo/config.toml` file.
+* **`.cargo/config.toml`**: You can set a default `target-dir` for all Cargo projects on your machine or for a specific workspace by adding it to a `.cargo/config.toml` file.
 
 **Why use Cargo?**
 
-  * **Standardized Project Layout:** Cargo enforces a common project structure, making it easy for other Rust developers to understand your code.
-  * **Dependency Management:** Cargo handles downloading and compiling your project's dependencies automatically.
-  * **Testing and Benchmarking:** Cargo has built-in commands for running tests (`cargo test`) and benchmarks (`cargo bench`).
-  * **Release Management:** Cargo helps with creating release builds (`cargo build --release`) and publishing crates to crates.io.
+* **Standardized Project Layout:** Cargo enforces a common project structure, making it easy for other Rust developers to understand your code.
+* **Dependency Management:** Cargo handles downloading and compiling your project's dependencies automatically.
+* **Testing and Benchmarking:** Cargo has built-in commands for running tests (`cargo test`) and benchmarks (`cargo bench`).
+* **Release Management:** Cargo helps with creating release builds (`cargo build --release`) and publishing crates to crates.io.
 
 Unless you have a very specific reason not to, it's highly recommended to organize your Rust code into a Cargo project.
 

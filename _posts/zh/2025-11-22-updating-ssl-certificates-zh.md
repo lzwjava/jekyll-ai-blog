@@ -22,15 +22,17 @@ type: note
 
 **这是最关键的一步。** 在进行任何更改之前，请备份您的现有文件。
 
-1.  **停止 Liberty 服务器：**
+1. **停止 Liberty 服务器：**
+
     ```bash
     wlp/bin/server stop <server_name>
     ```
-2.  **备份密钥库文件：**
+
+2. **备份密钥库文件：**
       * 默认密钥库通常名为 **`key.p12`**（或在旧版本中为 `key.jks`），位于：
         `wlp/usr/servers/<server_name>/resources/security/`
       * **将整个 `security` 目录** 复制到 WLP 安装目录之外的安全位置。
-3.  **备份服务器配置：**
+3. **备份服务器配置：**
       * 复制 **`server.xml`** 文件：
         `wlp/usr/servers/<server_name>/server.xml`
 
@@ -60,25 +62,29 @@ type: note
 
 当您拥有与密钥库中**现有私钥**对应的、由 **CA 签名的新证书**时，使用此方法。您必须先导入 CA 的根证书和中间证书，然后再导入您的新个人证书。
 
-1.  **导入根/中间 CA 证书（到密钥/信任库）：**
+1. **导入根/中间 CA 证书（到密钥/信任库）：**
+
     ```bash
     # 导航到 JRE/JDK bin 目录，例如 wlp/java/jre/bin
     keytool -importcert -file <ca_root_cert_file>.cer -alias <root_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     # 对任何中间证书重复此操作
     keytool -importcert -file <intermediate_cert_file>.cer -alias <intermediate_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     ```
-2.  **导入新的个人（签名）证书：**
+
+2. **导入新的个人（签名）证书：**
+
     ```bash
     keytool -importcert -file <new_signed_cert_file>.cer -alias <private_key_alias> -keystore <keystore_location> -storepass <keystore_password> -storetype PKCS12
     ```
+
       * `<private_key_alias>` **必须与用于生成 CSR 的私钥别名匹配**。如果是 Liberty 默认值，别名通常是 **`default`**。
 
 ### 选项 B：创建新的密钥库文件
 
 如果您在旧密钥库之外生成了全新的密钥对（或收到了新的 `.p12` 捆绑包），或者续订过程复杂，您可以创建一个新的密钥库并替换旧的。
 
-1.  **将新密钥/证书导入到新文件中：**（这在很大程度上取决于您收到新证书的方式——CA 提供的 `.p12` 捆绑包是最简单的）。
-2.  **替换旧文件：** 重命名旧的 `key.p12` 文件（例如，改为 `key.p12.old`），并将您新的、正确命名的密钥库文件 (`key.p12`) 放入 `resources/security/` 目录。
+1. **将新密钥/证书导入到新文件中：**（这在很大程度上取决于您收到新证书的方式——CA 提供的 `.p12` 捆绑包是最简单的）。
+2. **替换旧文件：** 重命名旧的 `key.p12` 文件（例如，改为 `key.p12.old`），并将您新的、正确命名的密钥库文件 (`key.p12`) 放入 `resources/security/` 目录。
 
 -----
 
@@ -86,23 +92,27 @@ type: note
 
 如果您使用的是由 Liberty 的 `securityUtility` 创建的**自签名证书**，过程很简单，只需删除旧的，然后让 Liberty 创建一个新的，或者直接使用 `keytool` 命令生成一个新的。
 
-1.  **停止 Liberty 服务器。**
-2.  **从 `wlp/usr/servers/<server_name>/resources/security/` 中删除现有的密钥库文件** (`key.p12`)。
-3.  **启动 Liberty 服务器。**
+1. **停止 Liberty 服务器。**
+2. **从 `wlp/usr/servers/<server_name>/resources/security/` 中删除现有的密钥库文件** (`key.p12`)。
+3. **启动 Liberty 服务器。**
+
     ```bash
     wlp/bin/server start <server_name>
     ```
+
     如果您的 `server.xml` 中有 `<keyStore id="defaultKeyStore" ... />` 元素，Liberty 将自动调用 `securityUtility` 来生成**新的自签名证书**和密钥库。
 
 -----
 
 ## 5. 重启并验证
 
-1.  **启动 Liberty 服务器**（如果它尚未从续订步骤开始运行）。
+1. **启动 Liberty 服务器**（如果它尚未从续订步骤开始运行）。
+
     ```bash
     wlp/bin/server start <server_name>
     ```
-2.  **检查日志：** 查看 `messages.log` 中是否有任何 SSL 或密钥库相关的错误。
-3.  **在浏览器中验证：** 通过 HTTPS 访问您的应用程序，并在浏览器中检查证书详细信息，以确保**新的到期日期**正确且证书链受信任。
+
+2. **检查日志：** 查看 `messages.log` 中是否有任何 SSL 或密钥库相关的错误。
+3. **在浏览器中验证：** 通过 HTTPS 访问您的应用程序，并在浏览器中检查证书详细信息，以确保**新的到期日期**正确且证书链受信任。
 
 您是否需要我为您查找特定证书文件类型（例如 P7B、PEM、PKCS12）的 **`keytool`** 命令，或者为您的 `server.xml` **编码新密钥库密码**的命令？

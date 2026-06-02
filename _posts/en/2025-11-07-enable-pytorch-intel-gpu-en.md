@@ -13,6 +13,7 @@ type: note
 Good progress! PyTorch and IPEX are now working together. However, your system doesn't have Intel GPU support enabled. Let me help you understand what's happening and how to fix it:
 
 ## Current Status
+
 - ✓ PyTorch + IPEX installed correctly
 - ✗ Intel GPU (XPU) support not available
 - ✗ Missing optional packages (`dpctl`, `scikit-learn-intelex`)
@@ -20,6 +21,7 @@ Good progress! PyTorch and IPEX are now working together. However, your system d
 ## To Enable Intel GPU Support
 
 ### 1. **Check if you have an Intel GPU**
+
 ```bash
 # Check your GPU hardware
 lspci | grep -i vga
@@ -30,6 +32,7 @@ lspci | grep -i display
 ### 2. **Install Intel GPU drivers** (if you have Intel Arc/Iris/UHD graphics)
 
 For Ubuntu/Debian:
+
 ```bash
 # Add Intel GPU repository
 wget -qO - https://repositories.intel.com/gpu/intel-graphics.key | \
@@ -49,6 +52,7 @@ sudo apt install -y \
 ```
 
 ### 3. **Install additional Python packages**
+
 ```bash
 # Install dpctl for Intel GPU device management
 pip install dpctl
@@ -58,6 +62,7 @@ pip install scikit-learn-intelex
 ```
 
 ### 4. **Install PyTorch with XPU support**
+
 ```bash
 # Uninstall CPU-only PyTorch
 pip uninstall torch torchvision torchaudio
@@ -70,6 +75,7 @@ pip install intel-extension-for-pytorch==2.8.0
 ```
 
 ### 5. **Verify installation**
+
 ```bash
 python -c "import torch; import intel_extension_for_pytorch as ipex; print('XPU available:', torch.xpu.is_available()); print('XPU device count:', torch.xpu.device_count() if torch.xpu.is_available() else 0)"
 ```

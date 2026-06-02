@@ -11,6 +11,7 @@ type: note
 在 Spring Boot 项目中使用存储库作为数据源通常需要集成 Spring Data JPA（Java Persistence API）来管理数据库交互。以下是设置步骤的详细指南：
 
 ### 1. 添加依赖
+
 首先，如果使用 Maven，需要在 `pom.xml` 文件中添加必要的依赖项。对于 Spring Data JPA，需要以下依赖：
 
 ```xml
@@ -30,6 +31,7 @@ type: note
 ```
 
 ### 2. 配置数据库
+
 在 `application.properties` 文件中配置数据库设置。例如，如果使用 H2 内存数据库：
 
 ```properties
@@ -42,6 +44,7 @@ spring.h2.console.enabled=true
 ```
 
 ### 3. 创建实体类
+
 定义映射到数据库表的实体类。使用 JPA 注解指定映射关系：
 
 ```java
@@ -63,6 +66,7 @@ public class User {
 ```
 
 ### 4. 创建存储库接口
+
 创建继承 `JpaRepository` 的存储库接口。该接口将为 `User` 实体提供 CRUD 操作：
 
 ```java
@@ -74,6 +78,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ```
 
 ### 5. 在服务层使用存储库
+
 将存储库注入服务类以执行数据库操作：
 
 ```java
@@ -105,6 +110,7 @@ public class UserService {
 ```
 
 ### 6. 创建控制器
+
 创建 REST 控制器以提供与 `User` 实体交互的端点：
 
 ```java
@@ -142,6 +148,7 @@ public class UserController {
 ```
 
 ### 7. 运行应用
+
 运行 Spring Boot 应用程序。现在可以通过 REST 端点对 `User` 实体执行 CRUD 操作。
 
 该设置为在 Spring Boot 项目中使用存储库作为数据源提供了基础结构。您可以通过添加自定义查询、异常处理和实现更复杂的业务逻辑来进一步扩展功能。

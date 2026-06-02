@@ -11,32 +11,41 @@ type: note
 ---
 
 ### FineWeb 数据集概览
+
 FineWeb 数据集是由 Hugging Face 开发的大规模高质量英文网络文本语料库，源自 CommonCrawl 快照（2013-2024）。经过过滤和去重后包含超过 15 万亿个标记，适用于大型语言模型（LLM）的预训练。该数据集基于开放数据共享署名许可（ODC-By）发布，并托管在 Hugging Face Datasets 平台。
 
 该数据集包含 FineWeb-Edu（针对教育内容过滤）和 FineWeb2（多语言扩展）等变体。对于 LLM 训练，核心的 `HuggingFaceFW/fineweb` 是入门首选。
 
 ### 环境准备
+
 - **Python 环境**：Python 3.8+ 并安装 Hugging Face 的 `datasets` 库
 - **存储空间**：完整数据集体积巨大（压缩后约 16TB）。建议使用流式传输进行训练时的实时处理
 - **加速选项**：安装支持 HF Transfer 的 `huggingface_hub`：
+
   ```
   pip install huggingface_hub[hf_transfer]
   ```
+
   然后设置环境变量：
+
   ```
   export HF_HUB_ENABLE_HF_TRANSFER=1
   ```
+
 - **Hugging Face 账户**：非必需但推荐用于受限访问或加速下载（创建免费账户并通过 `huggingface-cli login` 登录）
 
 ### 数据集加载方法
+
 使用 `datasets` 库直接访问，以下是分步代码示例：
 
 #### 1. 安装依赖
+
 ```bash
 pip install datasets
 ```
 
 #### 2. 加载完整数据集（训练用流式模式）
+
 流式模式无需提前下载完整数据集，特别适合存储受限的训练场景。该模式以批次方式生成数据。
 
 ```python
@@ -54,7 +63,9 @@ for example in dataset.take(5):
 - **数据格式**：Parquet 文件包含 `text`（清洗后内容）、`url`、`date`、`quality_score` 等列。文本内容已预处理为可直接分词的格式
 
 #### 3. 加载子集或特定配置
+
 适用于测试或小规模训练：
+
 ```python
 # 加载特定 CommonCrawl 转储（如 2023 年数据）
 dataset = load_dataset("HuggingFaceFW/fineweb", name="CC-MAIN-2023-50", split="train")
@@ -64,7 +75,9 @@ edu_dataset = load_dataset("HuggingFaceFW/fineweb-edu", split="train", streaming
 ```
 
 #### 4. 与训练流程集成
+
 对于 LLM 训练（如使用 Transformers 或自定义循环），可直接在数据加载器中使用流式迭代器：
+
 ```python
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
 
@@ -85,13 +98,17 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 - **效率提示**：在 `.map()` 中使用 `batched=True` 进行批处理。分布式训练建议使用 Hugging Face Accelerate
 
 #### 5. 下载完整数据集（非流式模式）
+
 如需本地存储（不推荐完整下载）：
+
 ```python
 dataset = load_dataset("HuggingFaceFW/fineweb", split="train")  # 下载至 ~/.cache/huggingface/datasets
 ```
+
 后续可使用 `dataset.save_to_disk("/path/to/save")` 保存
 
 ### 训练附加建议
+
 - **去重处理**：FineWeb 已完成去重，但可通过 `minhash_cluster_size` 等元数据进行上采样
 - **质量过滤**：使用内置 `quality_score`（>0.5 阈值）筛选高质量样本
 - **变体说明**：

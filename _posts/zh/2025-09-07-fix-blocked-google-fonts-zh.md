@@ -43,8 +43,8 @@ rg -n "display=swap"
 
 **A) 移除 Google Fonts 并使用系统字体栈（最快且对隐私友好）**
 
-1.  删除引入 Google Fonts 的 `<link>`（或 SCSS 的 `@import`）。
-2.  在您的主样式表中，设置一个系统字体栈：
+1. 删除引入 Google Fonts 的 `<link>`（或 SCSS 的 `@import`）。
+2. 在您的主样式表中，设置一个系统字体栈：
 
     ```css
     html, body {
@@ -58,8 +58,8 @@ rg -n "display=swap"
 
 **B) 保留 Open Sans 但自行托管**
 
-1.  下载 Open Sans（400 & 700）的 WOFF2 文件，并将其放在 `assets/fonts/` 目录下。
-2.  添加到您的 CSS 中：
+1. 下载 Open Sans（400 & 700）的 WOFF2 文件，并将其放在 `assets/fonts/` 目录下。
+2. 添加到您的 CSS 中：
 
     ```css
     @font-face {
@@ -78,16 +78,17 @@ rg -n "display=swap"
     }
     body { font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
     ```
-3.  移除 Google Fonts 的 `<link>`/`@import`。
+
+3. 移除 Google Fonts 的 `<link>`/`@import`。
 
 **C) 保持原样但阻止请求失败**
 
-*   为您的站点禁用拦截扩展，或者放宽您的 CSP 以允许 `https://fonts.googleapis.com` 和 `https://fonts.gstatic.com`。
-*   如果您所在的地区这些域名被阻止，建议选择方案 A 或 B。
+* 为您的站点禁用拦截扩展，或者放宽您的 CSP 以允许 `https://fonts.googleapis.com` 和 `https://fonts.gstatic.com`。
+* 如果您所在的地区这些域名被阻止，建议选择方案 A 或 B。
 
 ### Jekyll 特定的覆盖技巧
 
-*   **远程主题：** 将主题的 `/_includes/head.html` 或 `/_layouts/default.html` 复制到您的仓库中的相同路径，移除 Google Fonts 行，Jekyll 将使用您的覆盖版本。
-*   **压缩的 head include：** 有时主题通过变量注入字体。如果是这样，将该变量设置为空或覆盖 include 以排除字体。
+* **远程主题：** 将主题的 `/_includes/head.html` 或 `/_layouts/default.html` 复制到您的仓库中的相同路径，移除 Google Fonts 行，Jekyll 将使用您的覆盖版本。
+* **压缩的 head include：** 有时主题通过变量注入字体。如果是这样，将该变量设置为空或覆盖 include 以排除字体。
 
 如果您提供您的主题名称（或您的 `_config.yml` 中的 `theme` / `remote_theme`），我可以指出需要覆盖的确切文件以及最小的差异。

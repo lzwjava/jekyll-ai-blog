@@ -34,10 +34,13 @@ The plugin is published as an npm package under the `@openclaw` scope:
 ```
 
 You can install it via the CLI from the npm registry with:
+
 ```
 openclaw plugins install @openclaw/nextcloud-talk
 ```
+
 Or, if running from a git checkout locally:
+
 ```
 openclaw plugins install ./extensions/nextcloud-talk
 ```
@@ -53,6 +56,7 @@ extensions/nextcloud-talk/
 ```
 
 Key files referenced in community discussions include:
+
 - `extensions/nextcloud-talk/index.ts` — the plugin entry point
 - `extensions/nextcloud-talk/src/signature.ts` — webhook signature verification logic
 

@@ -20,7 +20,7 @@ type: note
 1. **使用像 Tailscale 这样的 Mesh VPN（或自托管 Headscale/WireGuard）– 家用用户的首选推荐**
    - **为什么对许多人最好？** 无需端口转发，无需公开暴露服务器，路由器/防火墙上零开放端口。您的家庭 Nextcloud 保持完全私有。
    - Tailscale 使用 WireGuard 在您的设备之间创建私有虚拟网络（tailnet）。在家庭服务器 + 手机/笔记本电脑上安装 Tailscale → 它们安全地点对点连接。
-   - 通过本地 IP 访问 Nextcloud（例如，https://192.168.x.x:port 或 magic DNS 名称如 http://second-pc.tailnet-name.ts.net）。
+   - 通过本地 IP 访问 Nextcloud（例如，<https://192.168.x.x:port> 或 magic DNS 名称如 <http://second-pc.tailnet-name.ts.net）。>
    - 优点：极度安全，设置简单（5–10 分钟），支持 CGNAT 后工作，速度快，个人使用免费（最多 3 用户/100 设备）。
    - 缺点：所有访问都需要安装并登录 Tailscale 客户端/应用（适合您/家人，不适合与他人分享链接）。
    - 设置步骤：
@@ -34,7 +34,7 @@ type: note
 2. **Cloudflare Tunnel（Zero Trust / cloudflared）– 无需端口转发即可实现公共访问的绝佳选择**
    - 仅出站隧道：您的服务器连接到 Cloudflare → 路由器上无入站端口开放。
    - Cloudflare 处理 HTTPS、DDoS 防护、可选 WAF。
-   - 获取免费域名（或使用您自己的），设置隧道 → 将子域名（例如，cloud.yourdomain.com）指向本地 Nextcloud（http://localhost:80 或 Docker 端口）。
+   - 获取免费域名（或使用您自己的），设置隧道 → 将子域名（例如，cloud.yourdomain.com）指向本地 Nextcloud（<http://localhost:80> 或 Docker 端口）。
    - 优点：无需更改路由器，安全强劲，免费套餐足够，通过域名轻松访问移动/桌面客户端。
    - 缺点：依赖 Cloudflare（有些隐私担忧），设置比 Tailscale 稍复杂。
    - 设置：安装 `cloudflared`，在 Cloudflare 仪表板创建隧道，在服务器上运行守护进程。
@@ -62,6 +62,7 @@ type: note
 - 混合：使用 Tailscale 进行管理员/完整访问，使用 Cloudflare Tunnel 进行只读共享或公共日历。
 
 ### 后续步骤
+
 - 从 Tailscale 开始 — 这是无风险远程访问的最快收益。
 - 如果需要面向公众的功能（例如，与非家人分享文件），然后添加 Cloudflare Tunnel。
 - 如需更新 Nextcloud `config.php` 中的外部域名/IP（overwriteprotocol、overwrite.cli.url、trusted_domains）。

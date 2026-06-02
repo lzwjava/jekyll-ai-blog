@@ -76,25 +76,25 @@ The `<sequence>` element is a compositor used within complex type definitions in
 
 In this example, any XML element conforming to the `TypeName` complex type must have:
 
-1.  An `<element1>` element (of type string) appearing exactly once.
-2.  Zero or more `<element2>` elements (of type integer) appearing in sequence after `<element1>`.
-3.  An `<element3>` element (of type date) appearing exactly once after all `<element2>` elements.
+1. An `<element1>` element (of type string) appearing exactly once.
+2. Zero or more `<element2>` elements (of type integer) appearing in sequence after `<element1>`.
+3. An `<element3>` element (of type date) appearing exactly once after all `<element2>` elements.
 
 **`minOccurs` and `maxOccurs` Attributes:**
 
 The `minOccurs` and `maxOccurs` attributes are used within element declarations (usually within a `<sequence>`, `<choice>`, or `<all>` compositor) in XML Schema to specify the minimum and maximum number of times an element can appear.
 
 * **`minOccurs`:**
-    * Specifies the minimum number of times the element must appear.
-    * The default value is `1`.
-    * A value of `0` indicates that the element is optional.
-    * A positive integer indicates the minimum required occurrences.
+  * Specifies the minimum number of times the element must appear.
+  * The default value is `1`.
+  * A value of `0` indicates that the element is optional.
+  * A positive integer indicates the minimum required occurrences.
 
 * **`maxOccurs`:**
-    * Specifies the maximum number of times the element can appear.
-    * The default value is `1`.
-    * A positive integer indicates the maximum allowed occurrences.
-    * The value `unbounded` indicates that the element can appear any number of times (zero or more if `minOccurs` is 0, one or more if `minOccurs` is 1, etc.).
+  * Specifies the maximum number of times the element can appear.
+  * The default value is `1`.
+  * A positive integer indicates the maximum allowed occurrences.
+  * The value `unbounded` indicates that the element can appear any number of times (zero or more if `minOccurs` is 0, one or more if `minOccurs` is 1, etc.).
 
 **How Sequence Works with `minOccurs` and `maxOccurs`:**
 
@@ -117,10 +117,10 @@ Consider the following XML Schema snippet:
 
 An XML document conforming to this schema would have the following structure:
 
-1.  **Exactly one** `<orderId>` element.
-2.  **Exactly one** `<customer>` element, appearing immediately after `<orderId>`.
-3.  **Zero or more** `<item>` elements, appearing in sequence after `<customer>`.
-4.  **Exactly one** `<orderDate>` element, appearing after all `<item>` elements.
+1. **Exactly one** `<orderId>` element.
+2. **Exactly one** `<customer>` element, appearing immediately after `<orderId>`.
+3. **Zero or more** `<item>` elements, appearing in sequence after `<customer>`.
+4. **Exactly one** `<orderDate>` element, appearing after all `<item>` elements.
 
 **Valid XML Instance:**
 

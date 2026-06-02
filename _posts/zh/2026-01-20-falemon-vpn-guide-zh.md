@@ -10,13 +10,13 @@ translated: true
 type: note
 ---
 
-**Question:** 什么是 Falemon？关于 https://falz.pics 这个 proxy provider 以及如何使用它？
+**Question:** 什么是 Falemon？关于 <https://falz.pics> 这个 proxy provider 以及如何使用它？
 
 **Answer:**
 
 **Falemon** (也称为 快柠檬Falemon) 是一款专门为中国大陆用户优化的 **VPN/proxy/network acceleration service** (科学上网工具)。它提供快速、加密的数据中转服务，用于绕过网络限制、访问被屏蔽的内容（如 Netflix、ChatGPT 和许多海外网站）并提高连接速度。
 
-网站 https://falz.pics 是 Falemon 的官方站点。它将自己定位为“为中国用户优化的优质网络中转服务”，口号是“瞬时加载，快如闪电”。
+网站 <https://falz.pics> 是 Falemon 的官方站点。它将自己定位为“为中国用户优化的优质网络中转服务”，口号是“瞬时加载，快如闪电”。
 
 ### Main Features
 
@@ -31,7 +31,7 @@ type: note
 
 ### How to Use It
 
-1. 访问 https://falz.pics
+1. 访问 <https://falz.pics>
 2. 点击下载链接获取 **2 天免费试用** 客户端（/p/downloads 页面）
 3. 根据您的设备下载相应版本：
    - Android: APK 文件

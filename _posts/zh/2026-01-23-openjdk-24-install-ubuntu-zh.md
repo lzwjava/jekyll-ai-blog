@@ -54,7 +54,7 @@ java --version
 通常为非 LTS 版本提供优质 .deb 软件包的流行供应商包括：
 
 - **Azul Zulu**（非常可靠，免费，通过 TCK 认证）
-  - 访问 → https://www.azul.com/downloads/?version=java-24
+  - 访问 → <https://www.azul.com/downloads/?version=java-24>
   - 选择 Linux / Ubuntu / .deb / JDK → 下载并安装：
 
   ```bash
@@ -62,11 +62,11 @@ java --version
   ```
 
 - **Eclipse Temurin** (Adoptium)
-  - https://adoptium.net/temurin/releases/?version=24
+  - <https://adoptium.net/temurin/releases/?version=24>
   - 选择 .deb 软件包
 
 - **Microsoft Build of OpenJDK**
-  - https://learn.microsoft.com/en-us/java/openjdk/install
+  - <https://learn.microsoft.com/en-us/java/openjdk/install>
   - 他们有时会通过自己的 repo 提供较新版本
 
 ### 如果你在某些 PPA 或 Ubuntu 的 devel/unstable 仓库中看到 openjdk-24-jdk
@@ -79,7 +79,7 @@ apt search openjdk-24
 
 如果没有任何显示 → 请使用上述方法之一。
 
-### 快速总结 – 大多数人会选择这两种方式之一：
+### 快速总结 – 大多数人会选择这两种方式之一
 
 1. 来自 jdk.java.net 的官方 tar.gz（最干净，无需额外的 repo）
 2. Azul .deb 软件包（最容易安装和更新）

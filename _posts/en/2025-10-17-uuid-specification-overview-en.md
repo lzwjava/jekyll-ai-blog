@@ -16,5 +16,5 @@ A UUID is a 128-bit number used to uniquely identify information in computer sys
 
 The specification has been widely adopted in software development for tasks like database keys, session IDs, and distributed systems.
 
-[ RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace](https://datatracker.ietf.org/doc/html/rfc4122)
-[ Universally unique identifier - Wikipedia](https://en.wikipedia.org/wiki/Universally_unique_identifier)
+[RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace](https://datatracker.ietf.org/doc/html/rfc4122)
+[Universally unique identifier - Wikipedia](https://en.wikipedia.org/wiki/Universally_unique_identifier)

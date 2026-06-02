@@ -22,11 +22,11 @@ It's great you're looking for cross-platform tools, especially with Ubuntu/Linux
 * **Git:** Essential for version control, and its command-line tools work everywhere. GUI clients like **GitKraken** or **GitHub Desktop** are also cross-platform.
 * **Docker:** For containerization, allowing you to package applications and their dependencies, running them consistently across environments.
 * **Cross-platform Development Frameworks (for building apps):**
-    * **Flutter:** (Google) Uses Dart, great for building visually appealing apps for mobile, web, and desktop from a single codebase.
-    * **React Native:** (Meta) Uses JavaScript, for building natively rendered mobile apps.
-    * **Xamarin (.NET MAUI):** (Microsoft) Uses C#, ideal for integrating with the .NET ecosystem.
-    * **Ionic:** Uses web technologies (HTML, CSS, JavaScript) for hybrid mobile applications.
-    * **Kotlin Multiplatform:** (JetBrains) Allows shared code for business logic while keeping platform-specific UI.
+  * **Flutter:** (Google) Uses Dart, great for building visually appealing apps for mobile, web, and desktop from a single codebase.
+  * **React Native:** (Meta) Uses JavaScript, for building natively rendered mobile apps.
+  * **Xamarin (.NET MAUI):** (Microsoft) Uses C#, ideal for integrating with the .NET ecosystem.
+  * **Ionic:** Uses web technologies (HTML, CSS, JavaScript) for hybrid mobile applications.
+  * **Kotlin Multiplatform:** (JetBrains) Allows shared code for business logic while keeping platform-specific UI.
 
 **3. Productivity & Office Suites:**
 

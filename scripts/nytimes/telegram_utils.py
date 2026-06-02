@@ -39,7 +39,7 @@ def send_telegram_message(message):
             "text": part,
         }
         try:
-            response = requests.post(url, params=params)
+            response = requests.post(url, params=params, timeout=30)
             response.raise_for_status()
             print(f"Successfully sent Telegram message part ({len(part)} chars).")
         except requests.exceptions.RequestException as e:

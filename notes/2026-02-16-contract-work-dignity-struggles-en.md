@@ -24,10 +24,12 @@ This perception stems mainly from how contractors are treated rather than the na
 These issues appear frequently in discussions on platforms like Reddit, LinkedIn, Quora, and workplace articles, particularly among IT contractors, consultants, temp workers, and gig economy participants (e.g., delivery drivers).
 
 In contrast:
+
 - Many skilled trade contractors (construction, plumbing, etc.) express pride in their craftsmanship and do not commonly describe dignity loss from the job type itself — though some face societal stereotypes or customer disrespect.
 - Some people choose contracting for flexibility, higher hourly rates, or autonomy, and report no dignity issues or even prefer it.
 
 Overall, the sentiment is **context-dependent**:
+
 - More common in corporate "contingent worker" roles where status differences are formalized.
 - Less prevalent (though not absent) among independent tradespeople or high-earning freelancers.
 

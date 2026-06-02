@@ -19,29 +19,40 @@ type: note
 vlan <vlan-id>
 ```
 
-### 说明：
+### 说明
+
 - **`vlan`**：这是命令关键字，指示交换机要创建或配置 VLAN。
 - **`<vlan-id>`**：这是实际要创建的 VLAN 编号的占位符。有效的 VLAN ID 通常范围为 **1 到 4094**，尽管某些范围被保留（例如，VLAN 1 是默认的，VLAN 1002–1005 为遗留 token ring/FDDI 保留）。
 
-### 逐步示例：
+### 逐步示例
+
 1. 登录交换机。
 2. 进入 privileged EXEC mode：
+
    ```bash
    enable
    ```
+
 3. 进入 global configuration mode：
+
    ```bash
    configure terminal
    ```
+
 4. 创建 VLAN（例如，VLAN 10）：
+
    ```bash
    vlan 10
    ```
+
 5. （可选）为 VLAN 命名：
+
    ```bash
    name Sales
    ```
+
 6. 退出配置模式：
+
    ```bash
    end
    ```

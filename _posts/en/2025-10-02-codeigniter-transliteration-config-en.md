@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Purpose in CodeIgniter
+
 This is a configuration file (named `foreign_characters.php` in CodeIgniter) from the **Text Helper** library. It's used for **transliteration**, a process that converts non-ASCII (accented, diacritical, or foreign) characters into their closest ASCII equivalents (e.g., ä → ae, ñ → n). This helps in tasks like URL slugs, database-safe strings, or cross-platform compatibility where special characters might cause issues.
 
 - It's part of the older CodeIgniter versions (pre-4.x); in CI4, similar functionality moved to helpers or global functions.
@@ -20,6 +21,7 @@ This is a configuration file (named `foreign_characters.php` in CodeIgniter) fro
 This isn't core framework code but a helper utility, often found at `application/config/foreign_characters.php` in installations.
 
 ### Languages and Character Sets Represented
+
 The array covers characters from several scripts and languages to enable broad transliteration. Here's a breakdown by category, including examples (from the code) and their languages/sources:
 
 - **Latin (Western European)**: Diacritics common in Romance and Germanic languages.

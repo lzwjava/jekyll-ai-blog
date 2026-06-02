@@ -68,6 +68,7 @@ Flow requires a **sweet spot between skill and challenge**.
 According to flow theory, the flow experience relates to the **skill set perceived to be possessed by the individual relative to the perceived challenge of the activity**. The discovery of more complex behaviors results in an emergent motivation that transforms a previously unengaging task into one that is intrinsically motivating.
 
 Configuring OpenWrt is:
+
 - **Novel enough** to trigger dopamine (new problems, unfamiliar settings)
 - **Within your engineering skill range** — not impossibly hard, not trivially easy
 - **Provides immediate feedback** — you can see if a setting works or breaks the network

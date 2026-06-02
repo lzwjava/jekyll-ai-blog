@@ -37,7 +37,7 @@ That means:
   * sometimes even employers
 * Everything you say has **long-term consequences**
 
-### Result:
+### Result
 
 You naturally:
 
@@ -57,7 +57,7 @@ On platforms like Twitter (especially with pseudonyms), Reddit, or forums:
 * No long-term social cost (or much lower)
 * You can “reset” or disappear
 
-### Result:
+### Result
 
 People:
 

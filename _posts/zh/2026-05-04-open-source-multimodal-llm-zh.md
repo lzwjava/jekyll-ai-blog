@@ -143,7 +143,7 @@ type: note
 
 如果你的目标是**小型多模态LLM训练项目**，最佳组合如下：
 
-### ⭐ 推荐技术栈：
+### ⭐ 推荐技术栈
 
 * 视觉编码器：CLIP / SigLIP / InternVideo特征
 * LLM：LLaMA 3 / Qwen 2.5（小版本）

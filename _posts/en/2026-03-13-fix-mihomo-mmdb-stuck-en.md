@@ -28,7 +28,9 @@ INFO Can't find MMDB, start download
 ## Root Causes
 
 ### 1. **Network / Connectivity Issue (Most Common)**
+
 Mihomo is trying to reach a remote URL (usually hosted on GitHub or jsDelivr CDN) to download `Country.mmdb` or `geoip.metadb`. If your machine:
+
 - Has no internet access yet at startup time
 - Is behind a firewall/proxy that blocks GitHub raw file downloads
 - Is in a region where GitHub CDN is slow or unreliable
@@ -36,9 +38,11 @@ Mihomo is trying to reach a remote URL (usually hosted on GitHub or jsDelivr CDN
 ...the download just hangs without a timeout error message.
 
 ### 2. **Default Download URL is Blocked**
+
 The default MMDB source URL often points to GitHub releases, which is frequently throttled or blocked in China and some other regions.
 
 ### 3. **No Pre-existing MMDB File**
+
 If there's no cached MMDB file in mihomo's working/config directory, it **must** download one before it can proceed. There's no fallback.
 
 ---
@@ -70,6 +74,7 @@ geox-url:
 ```
 
 Or use an alternative mirror like:
+
 ```yaml
 mmdb: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/country.mmdb"
 ```

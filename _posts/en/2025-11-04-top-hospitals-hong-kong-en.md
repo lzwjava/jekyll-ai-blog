@@ -15,6 +15,7 @@ type: note
 Hong Kong's healthcare system is world-class, with a mix of public hospitals (managed by the Hospital Authority, offering subsidized care) and private hospitals (known for shorter waits, English-speaking staff, and premium facilities). Public hospitals handle most emergency and routine care, while private ones cater to expats and those seeking specialized or faster service. Based on recent rankings, patient reviews, and expert guides (as of 2025), here's a curated list of top performers. I've focused on highly rated ones across both sectors.
 
 #### Top Public Hospitals
+
 These are affiliated with universities and excel in teaching, research, and high-volume care. They often have long wait times for non-emergencies but are cost-effective.
 
 1. **Queen Mary Hospital** (Pok Fu Lam, Hong Kong Island)
@@ -33,6 +34,7 @@ These are affiliated with universities and excel in teaching, research, and high
    1,686 beds; leads in rheumatology, rehabilitation, and mental health. Offers comprehensive stroke and palliative care programs.
 
 #### Top Private Hospitals
+
 These emphasize comfort, quick access, and international standards. Many provide A&E services and English/ multilingual support. Gleneagles frequently tops expat surveys.
 
 1. **Gleneagles Hong Kong Hospital** (Wong Chuk Hang, Hong Kong Island)
@@ -53,6 +55,7 @@ These emphasize comfort, quick access, and international standards. Many provide
 For emergencies, public A&Es are free for residents but crowded; private ones cost HKD 1,000–2,000 upfront. Always check insurance coverage, as private care is pricier (e.g., room rates HKD 1,000–10,000/night). Consult the Hospital Authority website for public bookings.
 
 **References:**
+
 - [Pacific Prime: Best Private Hospitals in Hong Kong](https://www.pacificprime.com/blog/best-private-hospitals-in-hong-kong.html)
 - [Alea: Guide to Private Hospitals in Hong Kong](https://alea.care/resources/your-practical-guide-to-hong-kong-private-hospitals)
 - [Yelp: Top Hospitals in Hong Kong](https://m.yelp.com/search?cflt=hospitals&find_loc=%25E9%25A6%2599%25E6%25B8%25AF%252C%2B%25E9%25A6%2599%25E6%25B8%25AF%252C%2BHK)

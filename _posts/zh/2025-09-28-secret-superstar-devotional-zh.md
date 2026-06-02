@@ -62,7 +62,8 @@ type: note
 
 《Nachdi Phira》是一首充满喜悦、灵感源自民间传统的虔诚歌曲，通过舞蹈歌颂爱与奉献的主题。歌名直译为"我翩跹起舞"，描绘出女子如苏菲舞者或沉醉的新娘般，在狂喜中自由旋转的形象。歌曲深度融合了旁遮普民间传统，将巴克提（虔诚之爱）与浪漫渴求交织，其中"爱"既可解读为对神祇的崇敬，亦可诠释为人间情愫。
 
-#### 核心主题解析：
+#### 核心主题解析
+
 - **虔诚与奉献**：反复出现的"披上爱之衣袍"、"戴上爱之手镯"意象，象征着以虔诚为饰。如"披上你爱的衣袍/我将与你融为一体"等歌词，传递着将自我完全浸入所爱、直至消融个体边界的意境，这与强调以爱泯灭自我的苏菲诗歌一脉相承。
 
 - **爱中的失与得**：在第二段中，歌者反思世俗眼光（"世人皆言/我已陷入痴狂"），描述自己为成为"全然归属于你"而"迷失理智与自我"。但这种迷失实为获得："失去自我之时/觅得你踪影便重获新生"，深刻诠释了真爱如何将疯狂转化为超越世俗评判的狂喜。
@@ -74,6 +75,7 @@ type: note
 总体而言，歌曲以塔布拉鼓与笛子编织的明快节奏，营造出令人沉醉的活力，邀请听众拥抱脆弱即力量的真谛。它提醒我们：无论是对神明、爱人还是梦想的挚爱，真正的圆满源于放手纵身、旋入未知的勇气。
 
 **参考来源：**
+
 - [AZLyrics - Nachdi Phira 歌词](https://www.azlyrics.com/lyrics/bollywood/nachdiphira.html)
 - [Bollywood Hungama - Nachdi Phira 歌词](https://www.bollywoodhungama.com/song-lyrics/char/S/movie/secret-superstar/song/nachdi-phira/)
 - [Musixmatch - Nachdi Phira 歌词](https://www.musixmatch.com/lyrics/Amit-Trivedi-Meghna-Mishra/Nachdi-Phira-From-Secret-Superstar)

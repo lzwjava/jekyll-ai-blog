@@ -45,8 +45,10 @@ Quick summary of usage:
 | Figurative       | Affected long-term (alcohol)   | His liver is completely pickled.              |
 
 The two biggest meanings today are:
+
 - preserved sour vegetables/fruits
 - very drunk (humorous slang)
 
 References:
+
 - None needed for this common word definition

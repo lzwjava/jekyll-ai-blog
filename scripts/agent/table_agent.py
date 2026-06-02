@@ -152,8 +152,8 @@ def process_file(file_path, output_only=False, update=False):
                         print(optimized_table)
                     else:
                         # Calculate positions with offset
-                        start_pos = table["start"] + offset
-                        end_pos = table["end"] + offset + 1
+                        table["start"] + offset
+                        table["end"] + offset + 1
 
                         # Find actual line positions in current content
                         lines = updated_content.split("\n")

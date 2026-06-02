@@ -11,6 +11,7 @@ type: note
 To use `SpringRunner` with JUnit's `@RunWith` runner in Java tests, follow these steps. Note that I assume "SpringRuner" in your query is a typo and you mean `SpringRunner`. Here's a complete guide:
 
 ### Step 1: Add the Spring Test Dependency
+
 To use `SpringRunner`, you need the Spring Test module in your project. If you're using Maven, add this dependency to your `pom.xml`:
 
 ```xml
@@ -31,6 +32,7 @@ testImplementation 'org.springframework:spring-test:${springVersion}'
 This ensures that `SpringRunner` and other Spring testing utilities are available.
 
 ### Step 2: Annotate the Test Class with `@RunWith(SpringRunner.class)`
+
 The `@RunWith` annotation tells JUnit to use a specific runner instead of its default one. For Spring integration, use `SpringRunner`, which is part of the Spring TestContext Framework. Add this annotation to your test class:
 
 ```java
@@ -46,6 +48,7 @@ public class MyServiceTest {
 `SpringRunner` enables Spring features like dependency injection and context loading in your tests. Note that `@RunWith` is a JUnit 4 annotation, so this approach assumes you're using JUnit 4. For JUnit 5, you'd use `@ExtendWith(SpringExtension.class)` instead, but your mention of "RunWith runner" suggests JUnit 4.
 
 ### Step 3: Configure the Spring Application Context with `@ContextConfiguration`
+
 To use Spring-managed beans in your tests, you need to load a Spring application context. The `@ContextConfiguration` annotation specifies how to do this. For example, if you have a configuration class (e.g., `AppConfig`), use:
 
 ```java
@@ -67,6 +70,7 @@ If your configuration is in an XML file (e.g., `applicationContext.xml`), use:
 This tells `SpringRunner` which beans and configurations to load for the test.
 
 ### Step 4: Inject Spring Beans with `@Autowired`
+
 Once the context is loaded, you can inject Spring-managed beans into your test class using `@Autowired`. For example, if you have a service called `MyService`:
 
 ```java
@@ -85,6 +89,7 @@ public class MyServiceTest {
 This allows you to use the injected bean in your tests.
 
 ### Step 5: Write Test Methods with `@Test`
+
 Define your test methods using JUnit's `@Test` annotation. For example:
 
 ```java
@@ -108,6 +113,7 @@ public class MyServiceTest {
 The `@Test` annotation marks methods that JUnit should execute as tests. With `SpringRunner`, these methods can interact with the Spring context.
 
 ### Example: Putting It All Together
+
 Here’s a complete example:
 
 ```java
@@ -152,6 +158,7 @@ public class MyServiceTest {
 ```
 
 ### Additional Notes
+
 - **Purpose**: `SpringRunner` is ideal for integration tests where you need Spring's dependency injection or context features. For unit tests, consider Mockito or plain JUnit instead.
 - **Common Issues**: Ensure the `spring-test` dependency is included, or you’ll get errors like `ClassNotFoundException`. Also, verify that `@ContextConfiguration` points to a valid configuration.
 - **Optional Annotations**: Use `@Transactional` for tests that modify the database (to roll back changes) or `@ActiveProfiles` to specify a profile (e.g., "test").

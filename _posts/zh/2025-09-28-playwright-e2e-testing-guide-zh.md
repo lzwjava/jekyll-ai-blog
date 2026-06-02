@@ -40,6 +40,7 @@ npx playwright install
 ```
 
 ### 项目结构
+
 ```
 tests/
   example.spec.js
@@ -112,6 +113,7 @@ test('基础测试示例', async ({ page }) => {
 ### 常用操作
 
 #### 导航
+
 ```javascript
 await page.goto('https://example.com');
 await page.goBack();
@@ -120,6 +122,7 @@ await page.reload();
 ```
 
 #### 元素交互
+
 ```javascript
 // 点击元素
 await page.click('button');
@@ -137,6 +140,7 @@ await page.uncheck('input[type="checkbox"]');
 ```
 
 #### 等待与超时
+
 ```javascript
 // 等待元素
 await page.waitForSelector('.loading-spinner', { state: 'hidden' });
@@ -181,6 +185,7 @@ test('用户可登录', async ({ page }) => {
 ```
 
 ### API 测试
+
 ```javascript
 test('API 测试', async ({ request }) => {
   // POST 请求
@@ -198,6 +203,7 @@ test('API 测试', async ({ request }) => {
 ```
 
 ### 网络模拟
+
 ```javascript
 test('模拟 API 响应', async ({ page }) => {
   // 模拟 API 响应
@@ -212,6 +218,7 @@ test('模拟 API 响应', async ({ page }) => {
 ```
 
 ### 可视化测试
+
 ```javascript
 test('可视化对比', async ({ page }) => {
   await page.goto('/dashboard');
@@ -227,6 +234,7 @@ test('可视化对比', async ({ page }) => {
 ## 测试组织与最佳实践
 
 ### 测试钩子
+
 ```javascript
 import { test, expect } from '@playwright/test';
 
@@ -251,6 +259,7 @@ test.describe('用户管理', () => {
 ```
 
 ### 夹具与测试上下文
+
 ```javascript
 // fixtures/auth.js
 import { test as base } from '@playwright/test';
@@ -282,6 +291,7 @@ test('认证用户操作', async ({ authenticatedPage }) => {
 ## 运行测试
 
 ### 命令行选项
+
 ```bash
 # 运行所有测试
 npx playwright test
@@ -303,6 +313,7 @@ npx playwright test --workers=4
 ```
 
 ### 测试报告
+
 ```bash
 # 生成 HTML 报告
 npx playwright show-report
@@ -325,12 +336,14 @@ npx playwright show-trace trace.zip
 ### 性能对比
 
 **Playwright 优势：**
+
 - **执行更快**：直接浏览器 API 通信消除了 WebDriver 开销
 - **默认并行**：内置并行测试执行
 - **自动等待**：智能等待无需显式等待
 - **网络控制**：内置请求/响应拦截
 
 **Selenium 优势：**
+
 - **成熟生态**：广泛的社区和第三方工具
 - **语言灵活性**：支持更多编程语言
 - **浏览器覆盖**：支持旧版浏览器如 Internet Explorer
@@ -339,6 +352,7 @@ npx playwright show-trace trace.zip
 ### 特性对比
 
 #### 测试可靠性
+
 ```javascript
 // Playwright - 内置自动等待
 await page.click('button'); // 等待元素可点击
@@ -350,6 +364,7 @@ await button.click();
 ```
 
 #### 移动端测试
+
 ```javascript
 // Playwright - 内置移动端模拟
 const context = await browser.newContext({
@@ -362,6 +377,7 @@ options.addArguments('--user-agent=iPhone...');
 ```
 
 #### 网络处理
+
 ```javascript
 // Playwright - 原生网络拦截
 await page.route('**/api/**', route => route.abort());
@@ -374,6 +390,7 @@ proxy.setHttpProxy('localhost:8080');
 ### 迁移考量
 
 **选择 Playwright 的情况：**
+
 - 新项目或全新应用
 - 具有 SPA 架构的现代 Web 应用
 - 需要快速、可靠的测试执行
@@ -381,6 +398,7 @@ proxy.setHttpProxy('localhost:8080');
 - 需要内置的可视化测试
 
 **坚持使用 Selenium 的情况：**
+
 - 大型现有测试套件
 - 需要特定的浏览器/操作系统组合
 - 团队擅长非 JavaScript 语言

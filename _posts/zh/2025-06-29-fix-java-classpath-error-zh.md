@@ -15,6 +15,7 @@ type: note
 ---
 
 ### **选项1：使用类路径运行编译后的类**
+
 如果`MultiMark.class`已存在于`scripts/benchmark/`中（如您的`ls`输出所示），您可以通过指定类路径从根目录运行它。
 
 1. **保持在根目录**
@@ -22,27 +23,33 @@ type: note
 
 2. **运行程序**
    使用`-cp`选项指向包含类文件的目录：
+
    ```bash
    java -cp scripts/benchmark MultiMark
    ```
+
    - `-cp scripts/benchmark`告诉Java在`scripts/benchmark`目录中查找类。
    - `MultiMark`是类名（没有`.class`或包前缀，因为`MultiMark.java`没有`package`语句）。
 
    这应该产生如下输出：
+
    ```
    CPU cores: 32
    ...
    ```
 
 3. **注意**：如果`MultiMark.class`已过时或缺失，首先从根目录编译源文件：
+
    ```bash
    javac scripts/benchmark/MultiMark.java
    ```
+
    然后运行上述命令。
 
 ---
 
 ### **选项2：使用类路径直接运行源文件（Java 11+）**
+
 如果您更喜欢直接运行源文件（如`python script.py`），您可以使用`java`命令与源文件路径，并指定类路径。
 
 1. **保持在根目录**
@@ -50,9 +57,11 @@ type: note
 
 2. **运行源文件**
    使用：
+
    ```bash
    java -cp scripts/benchmark scripts/benchmark/MultiMark.java
    ```
+
    - `-cp scripts/benchmark`将类路径设置为包含源的目录。
    - `scripts/benchmark/MultiMark.java`指定要编译和运行的源文件。
 
@@ -61,34 +70,43 @@ type: note
 ---
 
 ### **选项3：在根目录中创建Shell脚本**
+
 为了更方便（如从根目录运行`./multimark`），您可以在根目录（`~/projects/lzwjava.github.io`）中创建一个Shell脚本。
 
 1. **创建Shell脚本**
    在根目录中创建一个名为`multimark`的文件：
+
    ```bash
    nano multimark
    ```
+
    添加：
+
    ```bash
    #!/bin/bash
    java -cp scripts/benchmark MultiMark
    ```
+
    保存并退出。
 
 2. **使其可执行**
+
    ```bash
    chmod +x multimark
    ```
 
 3. **运行脚本**
    从根目录：
+
    ```bash
    ./multimark
    ```
+
    这运行Java程序而不需要切换目录。
 
 4. **可选：在脚本中编译**
    如果您希望脚本处理编译（例如，如果源文件更改），修改脚本：
+
    ```bash
    #!/bin/bash
    javac scripts/benchmark/MultiMark.java
@@ -98,6 +116,7 @@ type: note
 ---
 
 ### **关键注意事项**
+
 - **类路径（`-cp`）**：`-cp`选项告诉Java在哪里查找类或源文件。由于`MultiMark.java`没有`package`语句，类名只是`MultiMark`，而不是`scripts.benchmark.MultiMark`。如果它有`package scripts.benchmark;`行，您需要从根目录使用`java -cp . scripts.benchmark.MultiMark`。
 - **Java版本**：源文件执行（`java scripts/benchmark/MultiMark.java`）需要Java 11或更高版本。您的系统似乎已安装Java，因为从`scripts/benchmark`目录运行成功。
 - **目录**：这些解决方案让您保持在根目录（`~/projects/lzwjava.github.io`），符合您的偏好。

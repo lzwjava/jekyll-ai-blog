@@ -35,15 +35,15 @@ Plan Mode 负责创建、改进并执行循序渐进的实施计划。它会分�
 
 Plan 代理使你能够在开始实施之前创建详细的实施计划，以确保满足所有需求。通过 Todo Lists，由于代理可以确保它专注于总体目标并有效地跟踪进度。
 
-### 如何在 VS Code 中激活 Plan Mode：
+### 如何在 VS Code 中激活 Plan Mode
 
 打开 Chat 视图（`Ctrl+Alt+I`），然后从代理下拉菜单中选择 **Plan**。或者，输入 `/plan` 后跟你的任务描述，即可切换到 Plan 代理并一步开始规划。
 
-### Planning 的内部工作原理：
+### Planning 的内部工作原理
 
 当开发者要求 Copilot 执行复杂的、多步骤的任务时，它会决定是直接响应还是激活其 Planning Mode。简单的 Prompts 会得到快速回答，而多步骤的 Prompts 则会触发协调一致的计划。调用时，Planning 会创建一个 **Markdown 文件**，定义任务、研究步骤以及每个执行步骤开始时的进度更新。随着 Copilot 的工作，它会修订并完善计划 —— 以适应新的 Context 或结果。
 
-### 用于 Merge Conflicts 的 Plan Mode：
+### 用于 Merge Conflicts 的 Plan Mode
 
 当你希望首先**审查解决策略**以处理跨多个文件的冲突时，这是理想的选择 —— Copilot 会提议触及哪些文件、进行哪些更改以及按什么顺序进行，而你**在任何代码更改之前进行批准**。
 
@@ -57,7 +57,7 @@ Agent Mode 不仅重写你指定的行，还会分析相关的代码，识别可
 
 Agent Mode **自动**应用编辑，而不是在每一步都等待明确的批准，同时仍会将任何具有潜在风险的命令展示出来供运行前审查。
 
-### 用于 Merge Conflicts 的 Agent Mode：
+### 用于 Merge Conflicts 的 Agent Mode
 
 你用自然语言描述冲突解决目标，Copilot 会自主编辑所有受影响的文件，运行测试并进行迭代，直到任务完成 —— 且干扰极小。
 

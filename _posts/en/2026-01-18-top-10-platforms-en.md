@@ -47,6 +47,7 @@ Here are the **top 10 most popular and active competitive programming platforms*
     Unique gamified platform with multiplayer clashes, bot programming, and optimization games. Active community and fun competitive elements.
 
 **Notes**:
+
 - For pure **competitive programming** (ratings, fast thinking, hard algorithms): Codeforces > AtCoder > CodeChef > TopCoder.
 - For **interview preparation** (FAANG-style problems): LeetCode >> HackerRank > others.
 - Activity levels can shift slightly over time, but these platforms consistently show the highest participation and contest frequency in 2025–2026 sources.

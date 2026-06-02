@@ -10,15 +10,15 @@ type: note
 
 **Java 核心（20 分）**
 
-1.  面向对象原则的理解：封装、继承、多态、抽象。
-2.  Java 中的泛型：类型参数的使用、有界类型和通配符泛型。
-3.  Java 中的多线程：线程创建、线程生命周期以及线程间通信。
-4.  JVM 内存管理：堆、栈、永久代/幸存者空间、垃圾回收算法。
-5.  异常处理：受检异常与非受检异常、try-catch 块、finally 以及多重捕获。
-6.  Java 序列化：Serializable 接口、使用 writeObject 和 readObject 进行自定义序列化。
-7.  Java 集合框架：List、Set、Map、Queue 接口及其实现。
-8.  Lambda 表达式和函数式接口：使用 Predicate、Consumer、Supplier 和 Function。
-9.  Stream API：中间操作和终端操作、并行流、流管道。
+1. 面向对象原则的理解：封装、继承、多态、抽象。
+2. Java 中的泛型：类型参数的使用、有界类型和通配符泛型。
+3. Java 中的多线程：线程创建、线程生命周期以及线程间通信。
+4. JVM 内存管理：堆、栈、永久代/幸存者空间、垃圾回收算法。
+5. 异常处理：受检异常与非受检异常、try-catch 块、finally 以及多重捕获。
+6. Java 序列化：Serializable 接口、使用 writeObject 和 readObject 进行自定义序列化。
+7. Java 集合框架：List、Set、Map、Queue 接口及其实现。
+8. Lambda 表达式和函数式接口：使用 Predicate、Consumer、Supplier 和 Function。
+9. Stream API：中间操作和终端操作、并行流、流管道。
 10. 反射 API：在运行时访问类、方法和字段，注解处理。
 11. Java IO 与 NIO：文件处理的差异、基于通道的 I/O、非阻塞 I/O。
 12. Java 日期与时间 API：使用 LocalDate、LocalDateTime 和 Duration。

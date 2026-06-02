@@ -18,6 +18,7 @@ This video is **Lecture 7** from **MIT's *18.06 Linear Algebra* course (Spring 2
 ---
 
 ### **Key Concepts Covered in the Lecture:**
+
 1. **Homogeneous Systems (\\( A\mathbf{x} = \mathbf{0} \\))**
    - A system of linear equations where the right-hand side is the zero vector.
    - Always has at least the **trivial solution** \\( \mathbf{x} = \mathbf{0} \\).
@@ -53,17 +54,22 @@ This video is **Lecture 7** from **MIT's *18.06 Linear Algebra* course (Spring 2
 ---
 
 ### **Why This Lecture Matters:**
+
 - Introduces the **nullspace** (a fundamental subspace in linear algebra).
 - Connects **row reduction (elimination)** to the structure of solutions.
 - Lays the groundwork for understanding **linear independence**, **bases**, and **dimension** in later lectures.
 - Essential for solving systems, understanding transformations, and applications like **differential equations** or **machine learning**.
 
 ---
+
 ### **Where to Find More:**
+
 - **Full course materials**: [MIT OCW 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
 - **Textbook**: Strang’s *"Introduction to Linear Algebra"* (Chapter 2 covers this topic).
 - **Follow-up lectures**: Next lectures discuss **solving \\( A\mathbf{x} = \mathbf{b} \\)** (non-homogeneous systems) and the **column space**.
 
 ---
+
 ### **Summary in One Sentence:**
+
 This lecture teaches how to find **all solutions** to \\( A\mathbf{x} = \mathbf{0} \\) by identifying pivot/free variables and constructing a basis for the nullspace using special solutions.

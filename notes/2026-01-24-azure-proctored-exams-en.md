@@ -19,6 +19,7 @@ Yes, Microsoft Azure certifications do offer **on-site (in-person)** proctored e
 The most comparable Azure certification to **Google Cloud Professional Cloud Developer** is **Microsoft Certified: Azure Developer Associate** (exam code: **AZ-204**). This is the main developer-focused role-based certification on Azure.
 
 For both Azure and GCP certifications:
+
 - Exams are delivered through **Pearson VUE** (the same testing provider used by Google Cloud).
 - You can choose between two main delivery methods:
   - **Online proctored** (OnVUE) — taken remotely from home/office with webcam monitoring.

@@ -43,7 +43,6 @@ Very interesting. I received a red paper on my car's front window. I bought the 
 
 Next time, I used hot water at home to remove it, which worked well. However, the guard will stick another red paper on it. I should probably make a red paper to stick on the top left corner of my front window to trick the guard into thinking he already did it and hope for his mercy.
 
-
 {: .centered }
 ![](assets/images/parking/p.jpg){: .responsive }
 *Source: JD.com*{: .caption }

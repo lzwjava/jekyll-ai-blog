@@ -25,6 +25,7 @@ TCP uses two primary mechanisms to spot missing data:
 ## **2. High RTT Performance Impact**
 
 You’re absolutely right—high Round-Trip Time makes retransmissions painful:
+
 - If RTT = 200ms (e.g., cross-continent), and a packet is lost, you wait *at least* 200ms to find out via timeout
 - During that waiting period, bandwidth sits idle, throughput plummets, and the connection feels "sluggish"
 - Fast retransmit helps dramatically here, cutting detection time from seconds to milliseconds

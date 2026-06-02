@@ -31,6 +31,7 @@ find / -name "config"                  # Entire filesystem
 ## Tests and Filters
 
 **Name-based searches:**
+
 - `-name pattern` - Case-sensitive name match (supports wildcards)
 - `-iname pattern` - Case-insensitive name match
 - `-path pattern` - Match full path
@@ -45,6 +46,7 @@ find . -regex ".*\.(jpg|png|gif)"
 ```
 
 **Type-based searches:**
+
 - `-type f` - Regular files
 - `-type d` - Directories
 - `-type l` - Symbolic links
@@ -59,6 +61,7 @@ find . -type f -name "*.sh"
 ```
 
 **Size-based searches:**
+
 - `-size n[cwbkMG]` - File size (c=bytes, w=2-byte words, b=512-byte blocks, k=KB, M=MB, G=GB)
 - Use `+` for greater than, `-` for less than, no prefix for exact
 
@@ -69,6 +72,7 @@ find /var/log -size +50M -size -100M  # Between 50-100MB
 ```
 
 **Time-based searches:**
+
 - `-mtime n` - Modified n days ago
 - `-atime n` - Accessed n days ago
 - `-ctime n` - Status changed n days ago
@@ -86,6 +90,7 @@ find . -newer reference.txt     # Newer than reference.txt
 ```
 
 **Permission-based searches:**
+
 - `-perm mode` - Exact permission match
 - `-perm -mode` - All specified bits are set
 - `-perm /mode` - Any specified bits are set
@@ -97,6 +102,7 @@ find /bin -perm /u+s,g+s        # SUID or SGID set
 ```
 
 **Ownership searches:**
+
 - `-user name` - Owned by user
 - `-group name` - Owned by group
 - `-uid n` - Owned by user ID
@@ -110,6 +116,7 @@ find . -nouser                  # Find orphaned files
 ```
 
 **Depth control:**
+
 - `-maxdepth n` - Descend at most n levels
 - `-mindepth n` - Don't search above n levels
 - `-depth` - Process directory contents before the directory itself
@@ -120,6 +127,7 @@ find . -mindepth 3 -type f
 ```
 
 **Other useful tests:**
+
 - `-empty` - Empty files or directories
 - `-executable` - Executable files
 - `-readable` - Readable files
@@ -136,6 +144,7 @@ find /usr/bin -executable -type f
 ## Logical Operators
 
 Combine tests with logical operators:
+
 - `-a` or `-and` - AND (default if omitted)
 - `-o` or `-or` - OR
 - `-not` or `!` - NOT
@@ -150,6 +159,7 @@ find . \\( -name "*.c" -o -name "*.h" \\) -a -mtime -7
 ## Actions
 
 **Display actions:**
+
 - `-print` - Print full path (default)
 - `-print0` - Print with null separator (safe for xargs -0)
 - `-printf format` - Custom format output
@@ -162,6 +172,7 @@ find . -printf "%p\t%s bytes\n"
 ```
 
 **Execution actions:**
+
 - `-exec command {} \;` - Execute command for each file
 - `-exec command {} +` - Execute command with multiple files
 - `-execdir command {} \;` - Execute from file's directory
@@ -174,6 +185,7 @@ find . -name "*.jpg" -execdir convert {} {}.png \;
 ```
 
 **Deletion:**
+
 - `-delete` - Delete matched files (be careful!)
 
 ```bash
@@ -182,6 +194,7 @@ find . -type f -empty -delete
 ```
 
 **Other actions:**
+
 - `-quit` - Exit immediately after first match
 - `-prune` - Don't descend into directory
 

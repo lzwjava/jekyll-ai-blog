@@ -14,7 +14,9 @@ Great to hear you’re thinking about efficient prime number algorithms—this i
 ---
 
 ## **1. Checking if a Number is Prime**
+
 ### **Fast Method: Trial Division up to √n**
+
 - **Idea:** A number `n` is prime if it’s not divisible by any number from 2 to √n.
 - **Optimizations:**
   - Skip even numbers after checking 2.
@@ -37,7 +39,9 @@ def is_prime(n: int) -> bool:
 ---
 
 ## **2. Generating All Primes up to `s` (Sieve of Eratosthenes)**
+
 ### **Fast Method: Sieve of Eratosthenes**
+
 - **Idea:** Mark non-primes by iterating through multiples of each prime starting from 2.
 - **Optimizations:**
   - Start marking from `i*i` (smaller multiples are already marked by smaller primes).
@@ -58,7 +62,9 @@ def sieve(s: int) -> list[int]:
 ---
 
 ## **3. Typical CP Tasks Involving Primes**
+
 ### **Common Problems:**
+
 - **Prime factorization** (e.g., for GCD, LCM, or modular arithmetic).
 - **Counting primes in a range** (e.g., for number theory problems).
 - **Goldbach’s conjecture** (express even numbers as sums of two primes).
@@ -68,6 +74,7 @@ def sieve(s: int) -> list[int]:
 ---
 
 ## **4. Further Optimizations**
+
 - **Segmented Sieve:** For very large ranges (e.g., 1e12), use a segmented sieve to reduce memory usage.
 - **Miller-Rabin Primality Test:** For probabilistic primality testing (useful for very large numbers).
 - **Precompute Primes:** In CP, precompute primes up to a limit (e.g., 1e6) at the start of your program for repeated use.
@@ -75,6 +82,7 @@ def sieve(s: int) -> list[int]:
 ---
 
 ## **Example: Prime Factorization**
+
 ```python
 def prime_factors(n: int) -> list[int]:
     factors = []
@@ -103,6 +111,7 @@ def prime_factors(n: int) -> list[int]:
 ---
 
 ### **Your Thoughts?**
+
 You mentioned using multiples of existing primes to exclude non-primes—this is exactly what the Sieve of Eratosthenes does! For even faster results in CP, precompute primes and reuse them.
 
 Would you like a deeper dive into any of these methods or a specific CP problem involving primes?

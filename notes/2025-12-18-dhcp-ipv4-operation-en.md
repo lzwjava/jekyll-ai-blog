@@ -17,6 +17,7 @@ type: note
 Dynamic Host Configuration Protocol (DHCP) in IPv4 is a client-server protocol that automatically assigns IP addresses and other network configuration parameters (such as subnet mask, default gateway, and DNS servers) to devices (clients) on a network. This eliminates the need for manual configuration, reduces errors, and efficiently manages IP address allocation from a pool.
 
 ### Key Components
+
 - **DHCP Client**: The device (e.g., computer, phone) requesting configuration.
 - **DHCP Server**: Maintains a pool of IP addresses and assigns them with a lease time.
 - **DHCP Relay Agent** (optional): Forwards requests across subnets if the server is not on the same local network.
@@ -24,6 +25,7 @@ Dynamic Host Configuration Protocol (DHCP) in IPv4 is a client-server protocol t
 DHCP uses UDP ports: 67 (server) and 68 (client).
 
 ### The DHCP Process: DORA
+
 The core process for obtaining a new IP address is called **DORA** (Discover, Offer, Request, Acknowledge). All initial messages are broadcast because the client has no IP address yet.
 
 1. **Discover (DHCPDISCOVER)**
@@ -47,12 +49,14 @@ The core process for obtaining a new IP address is called **DORA** (Discover, Of
    - If the server cannot fulfill (e.g., address in use), it sends DHCPNAK (negative acknowledgment).
 
 ### Additional Message Types
+
 - **DHCPRELEASE**: Client releases the IP address back to the server.
 - **DHCPDECLINE**: Client declines an offered address (e.g., if it detects a conflict).
 - **DHCPINFORM**: Client requests additional options without needing a new IP.
 - **DHCPNAK**: Server rejects a request.
 
 ### Lease Management
+
 - IP addresses are leased for a limited time.
 - Clients renew leases (usually at 50% of lease time) using unicast DHCPREQUEST to the original server.
 - If renewal fails, clients retry at later intervals or restart DORA.

@@ -25,24 +25,29 @@ GitHub Copilot (in VS Code, JetBrains, or Visual Studio) struggles with very lar
 Here are practical strategies that work reasonably well in 2025–2026 for **2000–3000 LoC Java files** (based on community experience and official guidance):
 
 ### 1. **Strongly preferred: Break the large file first (manual or semi-manual refactor)**
-   - Extract inner classes, large methods, constants, enums, static helpers into separate files **before** asking Copilot for big changes.
-   - Many users report that once the main class drops below ~800–1200 lines, Copilot behavior improves dramatically.
-   - Quick manual split pattern for legacy Java monoliths:
-     - Move private static final constants → `Constants.java` or package-level constants file
-     - Move private static helpers → `XxxUtils.java`
-     - Extract big private methods → new service/helper classes
-     - Move inner classes → top-level classes (especially listeners, comparators, DTOs)
-   - After splitting, Copilot agent / edits become 3–10× faster and more accurate.
+
+- Extract inner classes, large methods, constants, enums, static helpers into separate files **before** asking Copilot for big changes.
+- Many users report that once the main class drops below ~800–1200 lines, Copilot behavior improves dramatically.
+- Quick manual split pattern for legacy Java monoliths:
+  - Move private static final constants → `Constants.java` or package-level constants file
+  - Move private static helpers → `XxxUtils.java`
+  - Extract big private methods → new service/helper classes
+  - Move inner classes → top-level classes (especially listeners, comparators, DTOs)
+- After splitting, Copilot agent / edits become 3–10× faster and more accurate.
 
 ### 2. **Use very focused prompts and narrow context**
-   - **Do not** write vague requests like "refactor this entire class" on a 2500 LoC file.
-   - Good pattern:
+
+- **Do not** write vague requests like "refactor this entire class" on a 2500 LoC file.
+- Good pattern:
+
      ```
      // @workspace /fix
      Fix the thread-safety bug in method processOrderBatch() lines 1840–1987.
      Use ConcurrentHashMap instead of HashMap and add proper locking where needed.
      ```
-   - Or inline comment style (often more reliable than chat):
+
+- Or inline comment style (often more reliable than chat):
+
      ```java
      // TODO: Copilot – convert this 400-line god method into 4 smaller methods with clear names
      // follow single responsibility principle, keep same logic
@@ -50,28 +55,32 @@ Here are practical strategies that work reasonably well in 2025–2026 for **200
      ```
 
 ### 3. **Copilot Edits mode (⌘ + I or Ctrl+I) – best current option for targeted changes**
-   - Select the problematic region (e.g. 100–600 lines)
-   - Open Copilot Edits panel
-   - Write precise instruction
-   - Review diff carefully – large-file edits frequently touch unrelated areas
-   - Apply → if it hangs >90 seconds, cancel and make the change even smaller
+
+- Select the problematic region (e.g. 100–600 lines)
+- Open Copilot Edits panel
+- Write precise instruction
+- Review diff carefully – large-file edits frequently touch unrelated areas
+- Apply → if it hangs >90 seconds, cancel and make the change even smaller
 
 ### 4. **Copilot Agent mode / Workspace agent tips for large files**
-   - Agent mode is **much better at multi-file** tasks than single huge-file tasks.
-   - Give it small, incremental tasks:
+
+- Agent mode is **much better at multi-file** tasks than single huge-file tasks.
+- Give it small, incremental tasks:
      1. "Extract method X to new class OrderValidator"
      2. "Replace deprecated Date usage with Instant/ZonedDateTime in payment processing block"
      3. "Add unit tests only for the newly extracted OrderTotalCalculator class"
-   - Use `@workspace` or explicit file references in prompts
-   - Many teams in 2025–2026 create an `agents.md` file in repo root with architectural rules, naming conventions, forbidden patterns, etc. → Agent respects these much better.
+- Use `@workspace` or explicit file references in prompts
+- Many teams in 2025–2026 create an `agents.md` file in repo root with architectural rules, naming conventions, forbidden patterns, etc. → Agent respects these much better.
 
 ### 5. **Quick workarounds when Copilot is still misbehaving**
-   - Temporarily copy the relevant 400–800 lines to a **new scratch file** → edit there → paste back
-   - Disable Copilot → make mechanical change → re-enable
-   - Use `/fix` or `/explain` on small blocks first to understand → then manually write the skeleton → let Copilot fill small gaps
-   - Close all irrelevant tabs (Copilot context includes open files)
+
+- Temporarily copy the relevant 400–800 lines to a **new scratch file** → edit there → paste back
+- Disable Copilot → make mechanical change → re-enable
+- Use `/fix` or `/explain` on small blocks first to understand → then manually write the skeleton → let Copilot fill small gaps
+- Close all irrelevant tabs (Copilot context includes open files)
 
 ### Realistic expectation in 2026
+
 - **Single 2500+ LoC file** → Copilot is still unreliable/slow for big edits
 - **After splitting to <1000–1200 LoC per file** + good prompts → very productive
 - **Agent mode shines on multi-file refactorings**, not single-file monsters

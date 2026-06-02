@@ -15,6 +15,7 @@ type: note
 High Bandwidth Memory (HBM) is a type of advanced computer memory technology designed for extremely high data throughput and efficiency, particularly in demanding applications like graphics processing units (GPUs), artificial intelligence (AI) accelerators, high-performance computing (HPC), and data centers. Unlike traditional memory types such as DDR or GDDR, HBM prioritizes massive bandwidth over raw capacity or cost, making it ideal for tasks that require rapid data access, such as training large AI models or rendering complex graphics.
 
 #### Key Features and How It Works
+
 - **3D Stacking Architecture**: HBM uses a 3D-stacked design where multiple layers (dies) of synchronous dynamic random-access memory (SDRAM) are vertically integrated on a single chip. This is connected via through-silicon vias (TSVs), which allow for shorter, wider data paths compared to conventional 2D memory layouts.
 - **High Bandwidth**: It achieves this through very wide memory interfaces (e.g., up to 1,024 bits or more per stack), enabling data transfer rates of several terabytes per second (TB/s). For context, HBM3 can deliver over 1 TB/s per stack, far surpassing GDDR6's ~1 TB/s total bandwidth.
 - **Low Power and Compact Size**: The stacked design reduces power consumption (typically 20-30% less than GDDR equivalents) and footprint, which is crucial for dense, power-sensitive systems like AI servers.
@@ -40,6 +41,7 @@ HBM is more expensive to produce due to its complex manufacturing, so it's reser
 In summary, HBM is the go-to memory for the "bandwidth-hungry" era of computing, especially with the rise of AI, where moving massive datasets quickly is more important than storing them cheaply.
 
 #### References
+
 - [High Bandwidth Memory - Wikipedia](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)
 - [What is HBM (High Bandwidth Memory)? - Simms International](https://www.simms.co.uk/tech-talk/what-is-hbm-high-bandwidth-memory/)
 - [High-Bandwidth Memory (HBM) - Semiconductor Engineering](https://semiengineering.com/knowledge_centers/memory/volatile-memory/dynamic-random-access-memory/high-bandwidth-memory/)

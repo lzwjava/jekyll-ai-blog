@@ -38,6 +38,6 @@ If OpenRouter published granular daily/hourly breakdowns (beyond their high-leve
 
 References:
 
-- https://openrouter.ai/state-of-ai (OpenRouter's 2025 State of AI report with 100T token analysis showing programming dominance)
-- https://arxiv.org/html/2601.10088v1 (Empirical study based on OpenRouter data)
+- <https://openrouter.ai/state-of-ai> (OpenRouter's 2025 State of AI report with 100T token analysis showing programming dominance)
+- <https://arxiv.org/html/2601.10088v1> (Empirical study based on OpenRouter data)
 - Various discussions on X and Reddit noting weekday peaks and weekend inactivity in certain traffic segments.

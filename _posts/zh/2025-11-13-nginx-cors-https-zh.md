@@ -21,6 +21,7 @@ map $http_origin $cors_origin {
 ```
 
 ### 功能说明
+
 - 根据传入的`Origin`头（`$http_origin`）创建变量`$cors_origin`
 - 当请求来自`http://localhost:3000`、`https://example.com`或`https://www.example.com`时，原样返回对应源
 - 其他来源（或无来源）的请求默认使用`https://example.com`
@@ -38,6 +39,7 @@ server {
 ```
 
 ### 功能说明
+
 - 监听80端口（HTTP）
 - 匹配发往`example.com`或`api.example.com`的请求
 - 永久重定向（301）所有流量至相同URL的HTTPS版本
@@ -77,6 +79,7 @@ server {
 ```
 
 ### 功能说明
+
 - 为`example.com`启用**HTTPS服务**（443端口，SSL加密）
 - 使用**Let's Encrypt**证书（可自动续期，免费）
 - 强制使用现代TLS版本（`TLSv1.2`、`TLSv1.3`）和高强度加密套件
@@ -133,11 +136,13 @@ server {
 ```
 
 ### 功能说明
+
 - 为`api.example.com`启用**HTTPS反向代理**
 - 使用**独立Let's Encrypt证书**（可能因多域名/SAN需求）
 - 所有流量被代理至运行在`localhost:5000`的**本地后端服务**（如Flask、Node.js等）
 
 #### CORS处理
+
 - 使用`$cors_origin`映射**动态放行**已认证的源
 - **清除现有**`Access-Control-Allow-Origin`头防止冲突
 - 处理**OPTIONS预检请求**：
@@ -147,6 +152,7 @@ server {
 - 对实际请求添加带`always`参数的CORS头，确保错误响应也包含这些头信息
 
 #### 代理设置
+
 - 将真实客户端IP和协议信息传递至后端
 - 设置高超时（10分钟）→ 适用于长时间运行的API操作（如文件上传、复杂计算）
 
@@ -164,6 +170,7 @@ server {
 | SSL证书             | Let's Encrypt，现代加密套件 |
 
 ### 安全说明
+
 - 强TLS配置（SSL Labs评级可能为A+）
 - CORS**非通配符**配置 → 阻止未授权站点调用API
 - 高效处理预检请求

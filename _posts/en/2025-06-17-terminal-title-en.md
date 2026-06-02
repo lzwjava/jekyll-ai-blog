@@ -54,6 +54,7 @@ To customize the GNOME Terminal tab title to show only the current directory (e.
    Navigate to a directory (e.g., `cd ~/Projects/blog-server`), and the terminal tab title should now display only `blog-server`.
 
 ### Alternative: Modify GNOME Terminal Profile Settings
+
 If you want to customize the title further or avoid editing `~/.bashrc`, you can use GNOME Terminal’s profile settings:
 
 1. Open GNOME Terminal.
@@ -74,6 +75,7 @@ If you want to customize the title further or avoid editing `~/.bashrc`, you can
 7. Close the dialog and test by opening a new tab or navigating to a directory.
 
 ### Notes
+
 - If you use a shell other than Bash (e.g., Zsh), you’ll need to modify the equivalent configuration file (e.g., `~/.zshrc`) and adjust the syntax accordingly. For Zsh, you can add:
 
   ```zsh

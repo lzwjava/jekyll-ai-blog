@@ -15,6 +15,7 @@ To get a Hong Kong **temporary visit visa** while you have the ASMTP (Admission 
 ## If You're Already in Hong Kong on ASMTP
 
 If you're already in Hong Kong under ASMTP, you generally **don't need a separate temporary visit visa** for short trips in and out of Hong Kong. Your ASMTP allows you to:
+
 - Stay in Hong Kong for work
 - Enter and exit freely during your approved stay period
 
@@ -37,6 +38,7 @@ The typical process involves:
    - Proof of onward/return transportation
 
 Could you clarify your specific situation? Are you:
+
 - Currently in mainland China looking to visit Hong Kong temporarily before starting ASMTP employment?
 - Already in Hong Kong on ASMTP and planning short trips?
 - Trying to bring family members to visit?

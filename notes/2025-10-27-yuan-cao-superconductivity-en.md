@@ -19,6 +19,7 @@ At just 22 years old in 2018, Cao's findings, published in *Nature*, revolutioni
 After his PhD, Cao joined the University of California, Berkeley as an Assistant Professor in the Department of Electrical Engineering and Computer Sciences, continuing his research on 2D materials, superconductivity, and microelectromechanical systems (MEMS). He has authored numerous high-impact papers, with over 23,000 citations on Google Scholar as of recent records.
 
 #### Key Milestones
+
 - **2018**: Led the team that observed superconductivity in twisted bilayer graphene (*Nature*, March 2018).
 - **Education**: Bachelor's from Peking University (China); PhD from MIT (completed ~2020).
 - **Awards**: *Nature*'s 10 (2018); Forbes 30 Under 30 in Science (2020).

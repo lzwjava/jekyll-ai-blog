@@ -43,6 +43,7 @@ The WAS topology is hierarchical, designed for distributed management:
    - Handle actual application workloads.
 
 **Visual Hierarchy** (simplified):
+
 ```
 Cell
 ├── Deployment Manager
@@ -64,6 +65,7 @@ Cell
 This structure supports everything from single-server setups to enterprise-scale deployments with hundreds of servers.
 
 ### References
+
 - [WebSphere Concepts: Cell, Node, Cluster, Server](https://itdevworld.wordpress.com/2009/05/03/websphere-concepts-cell-node-cluster-server/)
 - [How to Divide a WebSphere Topology into Cells](https://veithen.io/2013/11/04/divide-websphere-topology-into-cells.html)
 - [IBM Docs: Introduction to Clusters](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=servers-introduction-clusters)

@@ -13,6 +13,7 @@ type: note
 Solvexia is a Software-as-a-Service (SaaS) platform specializing in no-code automation, data management, and analytics, primarily designed for finance teams and organizations in the financial services sector. Founded as SolveXia Pty Ltd in Australia (headquartered in Bondi Junction, NSW), it enables users to automate complex processes without requiring programming expertise, helping to streamline operations, reduce manual effort, and improve accuracy.
 
 ### Key Services and Features
+
 - **Financial Automation**: Focuses on core finance workflows such as financial close, reconciliations, data preparation, analysis, and reporting. This is particularly useful for reducing time spent on repetitive tasks in accounting and finance departments.
 - **Industry Applications**: Tailored for sectors like banking, insurance (life, general, and wealth management), investment firms, and broader areas including healthcare, retail, and fast-moving consumer goods (FMCG).
 - **No-Code Tools**: Users can build automated workflows, handle data integration from various sources, and generate insights through analytics—all via an intuitive, web-based interface.

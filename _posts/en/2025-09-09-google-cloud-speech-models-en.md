@@ -75,7 +75,7 @@ And an earlier note about “latest\_long” / “latest\_short” refers to ano
 
 ---
 
-## TL;DR—How to Pick:
+## TL;DR—How to Pick
 
 * **Highest quality + new features (diarization, streaming, etc.)** → **`chirp_3`**
 * **Streaming & model adaptation support** → **`chirp_2`**

@@ -30,11 +30,11 @@ Taalas 总部位于加拿大多伦多，因其对 AI 硬件的颠覆性方法而
 
 - **公司愿景：** Taalas 旨在通过大幅降低其成本来“commoditize AI”。Bajic 认为，这需要计算能力和效率的 **1,000x 改进**，这是一个用当前 general-purpose hardware 无法实现的目标。该公司的理念总结在他的一句话中：*“We should not be simulating intelligence on general purpose computers, but casting intelligence directly into silicon”*。
 - **核心技术：** 与设计用于运行多种不同模型的传统 AI accelerators 不同，Taalas 为 **specific AI models** 创建定制芯片。
-    - 该过程涉及一个自动化流程，直接将 deep learning models（如 Transformers 或 LLMs）实施到硅片中。
-    - 这些芯片，公司称之为“Hardcore Models”，效率极高，一个芯片即可在芯片上包含整个 AI model，而无需外部内存，可能匹敌小型 GPU 数据中心的性能。
+  - 该过程涉及一个自动化流程，直接将 deep learning models（如 Transformers 或 LLMs）实施到硅片中。
+  - 这些芯片，公司称之为“Hardcore Models”，效率极高，一个芯片即可在芯片上包含整个 AI model，而无需外部内存，可能匹敌小型 GPU 数据中心的性能。
 - **关键融资里程碑：** 该公司在短时间内获得了大量投资者的信心。
-    - **2024 年：** 退出 stealth mode，并宣布从 Quiet Capital 和 Pierre Lamond 等投资者处筹集了两轮 **$50 million**。
-    - **2026 年：** 在最近的发展中，Taalas 完成了一轮巨额 **$219 million** 融资，Fidelity 参与其中，展示了其技术强劲的势头。
+  - **2024 年：** 退出 stealth mode，并宣布从 Quiet Capital 和 Pierre Lamond 等投资者处筹集了两轮 **$50 million**。
+  - **2026 年：** 在最近的发展中，Taalas 完成了一轮巨额 **$219 million** 融资，Fidelity 参与其中，展示了其技术强劲的势头。
 
 以下是 Taalas 的关键细节总结：
 

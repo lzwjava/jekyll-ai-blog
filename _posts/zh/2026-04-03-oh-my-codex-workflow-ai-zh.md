@@ -82,6 +82,7 @@ OMX 提供了五个 MCP (Model Context Protocol) servers，用于 persistent con
 ### Launch Modes
 
 OMX 通过 launch profiles 提供对 reasoning effort 的细粒度控制：
+
 - `--yolo`：最小验证的快速执行
 - `--high`：增加 reasoning effort
 - `--xhigh`：最大 reasoning 深度

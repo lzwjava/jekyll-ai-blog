@@ -11,14 +11,17 @@ type: note
 ---
 
 ### Study Guide: Chapter 2 - Outlook on Life and Values
+
 This chapter focuses on shaping a scientific, dialectical understanding of life and values from a Marxist perspective, tailored to contemporary Chinese college students and self-learners. It explores how individuals can align personal growth with socialist ideals, emphasizing the unity of personal fulfillment and social responsibility. The chapter typically spans 2-3 teaching hours in the official syllabus and accounts for about 10-15% of the exam weight, often tested through short-answer or essay questions on applying Marxist views to real-life scenarios.
 
 #### Key Objectives
+
 - Understand the essence of worldview, life outlook (人生观), and values (价值观) as guiding forces for personal development.
 - Grasp Marxist materialism's explanation of life's purpose, avoiding nihilism or hedonism.
 - Analyze how individual ideals contribute to national goals under socialism with Chinese characteristics.
 
 #### Core Concepts and Structure
+
 The chapter is divided into three main sections, building from philosophical foundations to practical applications:
 
 1. **Exploration of Life's Meaning, Pursuit of Happiness, and Personal Ideals**
@@ -44,16 +47,19 @@ The chapter is divided into three main sections, building from philosophical fou
    - **Solutions**: Cultivate a "struggle spirit" (奋斗精神) through education, promoting lifelong learning and ethical decision-making.
 
 #### Important Marxist References
+
 - **Foundational Texts**: Excerpts from *The Communist Manifesto* (Marx & Engels) on human emancipation; *On Practice* (Mao Zedong) for linking theory to life.
 - **Chinese Adaptations**: Integrates Xi Jinping's speeches on youth values, emphasizing "aspiration, persistence, integrity, and innovation" for the new era.
 - **Philosophical Tools**: Dialectics (unity of opposites) to resolve contradictions between individual and society; historical materialism to view values as evolving.
 
 #### Examples and Case Studies
+
 - **Historical**: Lei Feng's selfless service as a model of ideal-driven life in socialist China.
 - **Modern**: Stories of entrepreneurs like Jack Ma, who balanced personal success with social contributions (e.g., philanthropy), though critiqued for any excesses.
 - **Everyday Application**: A student choosing a major in AI not just for personal gain but to advance China's technological self-reliance.
 
 #### Study Tips
+
 - **Reading Strategy**: Start with the textbook's Chapter 2 (e.g., 2023 edition by Higher Education Press). Supplement with official interpretations from People's Daily or Cyberspace Administration resources for current examples.
 - **Memorization Aids**: Use mind maps—link "life outlook" to Marxist quotes, "values" to socialist core values, and "balance" to national policies.
 - **Practice**: Summarize in 200 words how Marxism resolves the "meaning of life" crisis in today's gig economy.
@@ -61,6 +67,7 @@ The chapter is divided into three main sections, building from philosophical fou
 - **Time Allocation**: Spend 20% on theory, 40% on examples, 40% on application essays.
 
 #### Potential Exam Questions
+
 - Multiple-Choice: What is the Marxist view of happiness? (A) Pure materialism (B) Dialectical unity of body and mind (C) Eternal bliss.
 - Short-Answer: Explain how social relations shape human nature, with a Chinese example.
 - Essay: Discuss balancing personal ideals with national goals in the new era (500 words, requiring Marxist analysis).

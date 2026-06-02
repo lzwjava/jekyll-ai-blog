@@ -30,6 +30,7 @@ Persecution is usually carried out by governments, authorities, or powerful soci
 
 **Key legal definition (used in international law and refugee law):**
 According to the 1951 Refugee Convention and its 1967 Protocol, persecution is a serious violation of human rights that threatens a person's life, freedom, or safety because of one of five protected grounds:
+
 1. Race
 2. Religion
 3. Nationality
@@ -37,6 +38,7 @@ According to the 1951 Refugee Convention and its 1967 Protocol, persecution is a
 5. Political opinion
 
 **Examples of persecution:**
+
 - Jews during the Holocaust
 - Rohingya Muslims in Myanmar
 - Christians in parts of the Middle East and North Korea

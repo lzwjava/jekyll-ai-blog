@@ -17,9 +17,9 @@ type: note
 
 [AMD Developer Cloud](https://www.amd.com/en/developer/resources/cloud-access.html?utm_source=chatgpt.com) 面临着 AI 时代几乎所有 GPU 云提供商都面临的约束：
 
-*   高端 GPU 稀缺
-*   需求激增
-*   大型企业可以立即消耗大量容量
+* 高端 GPU 稀缺
+* 需求激增
+* 大型企业可以立即消耗大量容量
 
 因此，配额系统是一种实用的资源治理机制。
 
@@ -29,10 +29,10 @@ type: note
 
 如果没有限制：
 
-*   一家初创公司可能瞬间启动数百个 GPU
-*   可能出现类似加密货币/挖矿的滥用行为
-*   自动化脚本可能预订所有库存
-*   投机性预订可能阻碍真正的开发者
+* 一家初创公司可能瞬间启动数百个 GPU
+* 可能出现类似加密货币/挖矿的滥用行为
+* 自动化脚本可能预订所有库存
+* 投机性预订可能阻碍真正的开发者
 
 对于 AMD Instinct MI300X 这样的稀缺产品，无限制的分配会很快使平台对个人、研究人员、学生和小团队无法使用。
 
@@ -50,21 +50,21 @@ AMD 不仅仅是在出租 GPU。
 
 他们还在努力：
 
-*   发展 ROCm 生态系统
-*   吸引 CUDA 开发者
-*   促进框架兼容性
-*   让更多工程师测试 MI300X 硬件
-*   在与 NVIDIA 的竞争中建立用户心智
+* 发展 ROCm 生态系统
+* 吸引 CUDA 开发者
+* 促进框架兼容性
+* 让更多工程师测试 MI300X 硬件
+* 在与 NVIDIA 的竞争中建立用户心智
 
 如果只有少数几家大公司拿到所有 GPU，AMD 就会失去长尾开发者生态系统效应。
 
 一个工程师在以下方面进行实验：
 
-*   PyTorch
-*   vLLM
-*   推理优化
-*   分布式训练
-*   DeepSeek/Qwen/Llama 部署
+* PyTorch
+* vLLM
+* 推理优化
+* 分布式训练
+* DeepSeek/Qwen/Llama 部署
 
 随后可以影响企业采用。
 
@@ -76,10 +76,10 @@ AMD 不仅仅是在出租 GPU。
 
 这与早期的以下做法类似：
 
-*   AWS EC2 配额系统
-*   GitHub Copilot 候补名单
-*   OpenAI API 层级限制
-*   Hugging Face 推理配额
+* AWS EC2 配额系统
+* GitHub Copilot 候补名单
+* OpenAI API 层级限制
+* Hugging Face 推理配额
 
 其理念是：
 
@@ -93,9 +93,9 @@ AMD 不仅仅是在出租 GPU。
 
 AMD Instinct MI300X 是一款非常高端的加速器：
 
-*   192GB HBM3 内存
-*   专为大规模 LLM 工作负载设计
-*   直接与 H100/H200 级别系统竞争
+* 192GB HBM3 内存
+* 专为大规模 LLM 工作负载设计
+* 直接与 H100/H200 级别系统竞争
 
 这些产品价格昂贵且供应受限。
 
@@ -103,9 +103,9 @@ AMD Instinct MI300X 是一款非常高端的加速器：
 
 因此，AMD Developer Cloud 很可能拥有：
 
-*   有限的机架
-*   有限的热/功耗容量
-*   受控的接入流程
+* 有限的机架
+* 有限的热/功耗容量
+* 受控的接入流程
 
 配额系统减少了运营混乱。
 
@@ -115,16 +115,16 @@ AMD Instinct MI300X 是一款非常高端的加速器：
 
 要求提交配额增加申请有助于识别：
 
-*   研究人员
-*   开源贡献者
-*   企业评估
-*   合规的规模化工作负载
+* 研究人员
+* 开源贡献者
+* 企业评估
+* 合规的规模化工作负载
 
 而不是：
 
-*   闲置分配
-*   垃圾实验
-*   废弃实例
+* 闲置分配
+* 垃圾实验
+* 废弃实例
 
 这提高了利用效率。
 
@@ -150,27 +150,27 @@ AMD Instinct MI300X 是一款非常高端的加速器：
 
 配额系统也可能：
 
-*   减慢严肃的实验进度
-*   让研究人员感到沮丧
-*   限制分布式训练测试
-*   使基准测试更加困难
+* 减慢严肃的实验进度
+* 让研究人员感到沮丧
+* 限制分布式训练测试
+* 使基准测试更加困难
 
 大型企业通常通过以下方式绕过这些公有云限制：
 
-*   私人合同
-*   预留容量
-*   直接合作
-*   超大规模云提供商交易
+* 私人合同
+* 预留容量
+* 直接合作
+* 超大规模云提供商交易
 
 因此，公共开发者云通常部分充当：
 
-*   生态系统营销
-*   入职渠道
-*   社区接入层
+* 生态系统营销
+* 入职渠道
+* 社区接入层
 
 而不是 AMD 的主要收入渠道。
 
 参考链接：
 
-*   [AMD Developer Cloud](https://www.amd.com/en/developer/resources/cloud-access.html)
-*   [AMD Instinct MI300X](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)
+* [AMD Developer Cloud](https://www.amd.com/en/developer/resources/cloud-access.html)
+* [AMD Instinct MI300X](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)

@@ -16,6 +16,7 @@ Here's the full picture:
 ## 🖥️ Server Health Summary
 
 **Load / CPU**
+
 - Load: **0.50** (was 11 — fan issue resolved ✅)
 - CPU: **99% idle**, 6GB / 62GB RAM used, 56GB available
 - **Swap**: 107MB / 2GB — healthy
@@ -32,6 +33,7 @@ Here's the full picture:
 
 **Problem:** Not critical yet, but 84% is getting high for a root partition with Docker.
 **Actionable reclaimables:**
+
 - 22.9GB unused images (62% of images are reclaimable)
 - 220MB stopped container writable layers
 - 73MB build cache
@@ -69,24 +71,31 @@ Here's the full picture:
 ## 🔴 Non-Critical Issues Found
 
 ### 1. **Gitea — High RAM (980MB)**
+
 Gitea is using nearly 1GB of RAM, the most of any container. This is unusual — it may be doing a git gc or reindex. Check if it's just temporarily high or consistently growing.
 
 ### 2. **SearXNG — wikidata engine failed to init**
+
 ```
 ERROR: wikidata (init failed)
 ```
+
 This is a third-party engine that failed. SearXNG still works for other engines, but you may want to disable wikidata in settings.
 
 ### 3. **LibreChat — Meilisearch config missing**
+
 ```
 [indexSync] error Meilisearch configuration is missing
 ```
+
 Meilisearch is running (chat-meilisearch container is up) but LibreChat's indexer isn't connecting properly. May need to reconfigure the Meilisearch URL in LibreChat env.
 
 ### 4. **llama endpoint /health → 404**
+
 `GET http://localhost:8081/api/v1/health` returns 404 — jellyfin is fine at port 8096. The llama/Ollama health endpoint might be at a different path.
 
 ### 5. **Nextcloud 33.0.2** ✅
+
 Upgraded from 33.0.0. Uptime-Kuma now polling `/status.php` instead of `/apps/dashboard/`. Load is normal.
 
 ---

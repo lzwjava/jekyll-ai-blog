@@ -15,6 +15,7 @@ type: note
 The AWS outage on October 20, 2025, was a significant disruption originating in the US East (N. Virginia) region (us-east-1), AWS's largest and most critical data center. It began late on October 19 PDT and lasted approximately 16 hours, affecting over 140 services and cascading globally due to dependencies on this region. The incident highlighted vulnerabilities in DNS resolution, service interdependencies, and recovery processes, impacting millions of users across apps, websites, and services. Below is a breakdown based on AWS's official post-mortem and contemporaneous reports.
 
 #### Timeline
+
 The outage unfolded in phases, starting with detection and escalating to cascading failures before a staggered recovery. Key milestones (all times in PDT):
 
 | Time | Event |
@@ -42,9 +43,11 @@ The outage unfolded in phases, starting with detection and escalating to cascadi
 User reports on platforms like DownDetector peaked around 6 AM PDT, with over 5,000 incidents before dropping.
 
 #### Root Cause
+
 The outage stemmed from a DNS resolution failure affecting DynamoDB service endpoints in us-east-1. DynamoDB, a NoSQL database service, acts as a critical "control plane" for many AWS features—handling metadata, sessions, and routing. When DNS failed to resolve these endpoints, DynamoDB APIs experienced elevated latencies and errors.
 
 This initial issue resolved quickly, but it triggered a cascade:
+
 - EC2 instance launches failed due to their dependency on DynamoDB for metadata storage.
 - An underlying bug in EC2's internal subsystem (responsible for monitoring NLB health) exacerbated network connectivity issues, leading to broader impairments in load balancing and API calls.
 - Recovery efforts involved throttling (e.g., limiting EC2 launches and Lambda invocations) to prevent overload, but retries from dependent services amplified the strain.
@@ -52,6 +55,7 @@ This initial issue resolved quickly, but it triggered a cascade:
 AWS confirmed it was not a cyberattack but an infrastructure-related glitch, possibly tied to a faulty DNS database update or backup system failure. The global ripple occurred because us-east-1 hosts key control planes for services like IAM and Lambda, even for resources in other regions.
 
 #### Affected Services
+
 Over 142 AWS services were impacted, primarily those reliant on DynamoDB, EC2, or us-east-1 endpoints. Core categories:
 
 - **Database & Storage**: DynamoDB (primary), RDS, Redshift, SQS (backlogs).
@@ -63,7 +67,9 @@ Over 142 AWS services were impacted, primarily those reliant on DynamoDB, EC2, o
 Not all services were fully down—many saw partial errors or delays—but the interconnected nature meant even minor issues propagated.
 
 #### Impacts
+
 The outage disrupted ~1/3 of internet-dependent applications, affecting an estimated 100+ million users worldwide. High-profile examples:
+
 - **Social & Media**: Snapchat (login failures), Reddit (outages), Twitch (streaming issues).
 - **Gaming**: Roblox (server crashes), Fortnite (matchmaking failures).
 - **Finance & Payments**: Venmo, banks like Lloyds (transaction delays), HMRC (UK tax services).
@@ -73,7 +79,9 @@ The outage disrupted ~1/3 of internet-dependent applications, affecting an estim
 Economic estimates peg losses at $500 million+, with a 300% spike in cybersecurity scans as users panicked. It underscored the internet's centralization: us-east-1 handles ~30% of AWS traffic, making it a single point of fragility despite multi-AZ designs.
 
 #### Resolution and Lessons Learned
+
 AWS resolved the issue through targeted mitigations: DNS fixes, subsystem patches for EC2/NLB, and progressive throttle reductions. Post-incident, they advised:
+
 - Retrying failed requests.
 - Flushing DNS caches.
 - Distributing resources across multiple AZs/regions (e.g., via Auto Scaling Groups).
@@ -84,6 +92,7 @@ Broader takeaways include the need for better redundancy in control planes, AI-d
 This was AWS's most disruptive us-east-1 outage since 2021, but recovery was faster than historical precedents due to automated tools.
 
 #### References
+
 - [AWS Health Dashboard: Service Health - Oct 20, 2025](https://health.aws.amazon.com/health/status?eventID=arn:aws:health:us-east-1::event/MULTIPLE_SERVICES/AWS_MULTIPLE_SERVICES_OPERATIONAL_ISSUE/AWS_MULTIPLE_SERVICES_OPERATIONAL_ISSUE_BA540_514A652BE1A)
 - [AWS Outage Analysis: October 20, 2025](https://www.thousandeyes.com/blog/aws-outage-analysis-october-20-2025)
 - [Amazon's massive AWS outage points to a key weakness in the modern internet](https://finance.yahoo.com/news/amazons-massive-aws-outage-points-to-a-key-weakness-in-the-modern-internet-145418180.html)

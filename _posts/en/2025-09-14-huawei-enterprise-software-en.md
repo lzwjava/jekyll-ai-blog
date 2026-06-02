@@ -16,7 +16,9 @@ Huawei has developed its own **enterprise productivity suite** and **internal co
 ---
 
 ### **1. Huawei Work Suite (Huawei Office Suite) – Alternative to Microsoft Office/Outlook**
+
 Huawei’s **Work Suite** (华为办公套件) is an integrated productivity platform that includes:
+
 - **Huawei Mail** (华为邮件) – Similar to Outlook, with email, calendar, and contacts.
 - **Huawei Docs** (华为文档) – Cloud-based document editing (like Google Docs/Word Online).
 - **Huawei Sheets** (华为表格) – Spreadsheet tool (like Excel).
@@ -24,6 +26,7 @@ Huawei’s **Work Suite** (华为办公套件) is an integrated productivity pla
 - **Huawei Cloud Disk** (华为云盘) – File storage (like OneDrive/Google Drive).
 
 **Key Features:**
+
 - **Cross-platform support** (Windows, macOS, Linux, Android, iOS, HarmonyOS).
 - **Offline mode** (important for air-gapped networks).
 - **End-to-end encryption** (for sensitive corporate data).
@@ -31,15 +34,18 @@ Huawei’s **Work Suite** (华为办公套件) is an integrated productivity pla
 - **Integration with Huawei Cloud** (for enterprise deployment).
 
 **Language Support:**
+
 - **Full bilingual support (Chinese & English)** – Huawei’s global operations require English interfaces, but Chinese is the primary language for domestic use.
 
 ---
 
 ### **2. Huawei IM (Instant Messaging) – Alternative to Microsoft Teams/DingTalk**
+
 Huawei’s internal IM system is called **"Huawei Connect" (华为连接, also referred to as "Huawei IM" or "WeLink" in some contexts)**.
 *(Note: "WeLink" was Huawei’s earlier enterprise IM, but it has evolved into a more integrated system.)*
 
 **Features:**
+
 - **Real-time messaging** (1:1 and group chats).
 - **Voice & video calls** (including conference calls).
 - **File sharing & collaboration** (integrated with Huawei Docs/Cloud).
@@ -49,6 +55,7 @@ Huawei’s internal IM system is called **"Huawei Connect" (华为连接, also r
 - **End-to-end encryption** (for secure communications).
 
 **Comparison with Teams/DingTalk:**
+
 | Feature          | Huawei IM (WeLink/Connect) | Microsoft Teams | DingTalk (Alibaba) |
 |------------------|---------------------------|-----------------|-------------------|
 | **Primary Use**  | Internal Huawei comms     | Enterprise      | Enterprise (China-focused) |
@@ -58,6 +65,7 @@ Huawei’s internal IM system is called **"Huawei Connect" (华为连接, also r
 | **AI Features**  | Yes (Huawei AI)          | Copilot         | DingTalk AI       |
 
 **Deployment:**
+
 - Used **internally by Huawei employees** (200,000+ users).
 - Also **sold to enterprise clients** (especially in China and markets where Huawei has a strong presence).
 - **On-premise & cloud versions** available (for data sovereignty).
@@ -65,13 +73,16 @@ Huawei’s internal IM system is called **"Huawei Connect" (华为连接, also r
 ---
 
 ### **3. Huawei’s Enterprise OS & Ecosystem**
+
 Huawei has been building a **self-sufficient IT ecosystem** to avoid dependency on Western software:
+
 - **HarmonyOS (鸿蒙OS)** – Huawei’s in-house OS (replacing Android/Windows in some devices).
 - **Huawei Cloud** – Hosts Work Suite, IM, and other services (competes with AWS/Azure).
 - **Huawei Mobile Services (HMS)** – Replaces Google Mobile Services (GMS) on Huawei phones.
 - **Huawei AppGallery** – Alternative to Google Play Store.
 
 **Why Huawei Built Its Own Systems?**
+
 1. **U.S. Sanctions** – Restrictions on using American software (e.g., Microsoft, Google).
 2. **Data Security** – Avoiding foreign cloud services for sensitive R&D/communications.
 3. **China’s Cybersecurity Laws** – Requires local data storage for critical industries.
@@ -80,7 +91,9 @@ Huawei has been building a **self-sufficient IT ecosystem** to avoid dependency 
 ---
 
 ### **4. How Huawei’s System Works (Technical Overview)**
+
 Based on public disclosures and leaks:
+
 - **Unified Identity Management**:
   - Employees use **Huawei ID** (similar to Microsoft Account) for single sign-on (SSO) across all services.
   - **Multi-factor authentication (MFA)** is enforced.
@@ -98,6 +111,7 @@ Based on public disclosures and leaks:
 ---
 
 ### **5. Challenges & Limitations**
+
 - **Global Adoption**:
   - Outside China, Huawei’s Work Suite/IM is **less popular** than Microsoft 365 or Teams.
   - Some enterprises prefer **mixed environments** (e.g., Huawei hardware + Microsoft software).
@@ -110,6 +124,7 @@ Based on public disclosures and leaks:
 ---
 
 ### **6. Publicly Available Sources**
+
 - **Huawei Official Announcements**:
   - [Huawei Work Suite (Chinese)](https://www.huawei.com/cn/)
   - [Huawei Cloud Office](https://www.huaweicloud.com/product/office.html)
@@ -122,7 +137,9 @@ Based on public disclosures and leaks:
 ---
 
 ### **Conclusion**
+
 Huawei has built a **fully functional, bilingual (Chinese+English) alternative** to Microsoft/Google’s productivity tools, tailored for:
+
 - **Internal use** (secure, air-gapped where needed).
 - **Enterprise clients** (especially in China and Huawei-friendly markets).
 - **Compliance with Chinese laws** (data localization, encryption standards).

@@ -25,12 +25,14 @@ I'll break it down entry by entry in a table for clarity, then summarize what it
 | **192.168.1.0/24** | (direct)         | enp4s0   | kernel  | link  | 192.168.1.35 | 100   | Your local LAN subnet. Directly connected via enp4s0—packets to other devices on 192.168.1.x stay local (e.g., to your router at .1). Your machine's IP is 192.168.1.35. |
 
 #### Key Insights
+
 - **Local/Connected Routes**: The 172.x.x.x and 192.168.1.0/24 entries are "kernel" routes for directly attached networks (no next-hop gateway needed). This matches the simple iteration you described—your system checks if the destination IP falls in these ranges and sends it out the matching device (e.g., enp4s0 for LAN).
 - **Docker Influence**: You have Docker installed/running, creating virtual bridges (docker0 and br-...). These allow containers to have their own isolated networks. The "linkdown" on docker0 suggests no containers are using the default bridge right now.
 - **Default Route**: Everything else (e.g., google.com) goes via 192.168.1.1 on enp4s0. Metric 100 is low (preferred); the link-local has 1000 to deprioritize it.
 - **No Remote Routes**: This table is basic—no dynamic routing protocols (like OSPF) adding entries for distant networks. If you ping something outside 192.168.1.0/24, it'll hit the default.
 
 #### Quick Tests to Verify
+
 - `ping 192.168.1.1` → Should use the local route on enp4s0.
 - `ping 8.8.8.8` → Uses default route; trace with `traceroute 8.8.8.8` to see the path.
 - `ip addr show enp4s0` → Confirms your interface IP.

@@ -21,10 +21,12 @@ This error typically arises due to a compatibility issue between newer versions 
 ### Solution
 
 #### Step 1: Enable the OpenSSL Legacy Provider
+
 The simplest and most immediate fix is to enable the OpenSSL legacy provider by setting the `NODE_OPTIONS` environment variable. This allows Node.js to use older cryptographic algorithms that may no longer be supported by default in OpenSSL 3.0+.
 
 - **For macOS/Linux**:
   Open your terminal and run:
+
   ```bash
   export NODE_OPTIONS=--openssl-legacy-provider
   ng build
@@ -32,6 +34,7 @@ The simplest and most immediate fix is to enable the OpenSSL legacy provider by 
 
 - **For Windows (Command Prompt)**:
   Open Command Prompt and run:
+
   ```cmd
   set NODE_OPTIONS=--openssl-legacy-provider
   ng build
@@ -39,6 +42,7 @@ The simplest and most immediate fix is to enable the OpenSSL legacy provider by 
 
 - **For Windows (PowerShell)**:
   Open PowerShell and run:
+
   ```powershell
   $env:NODE_OPTIONS="--openssl-legacy-provider"
   ng build
@@ -49,14 +53,17 @@ After setting the environment variable, run `ng build` again. This should resolv
 ---
 
 #### Step 2: Verify and Update Angular CLI (If Needed)
+
 If the error persists after Step 1, your version of the Angular CLI might not be fully compatible with Node.js 22.9.0. Updating it to the latest version can help.
 
 - Check your current Angular CLI version:
+
   ```bash
   ng --version
   ```
 
 - Update Angular CLI globally:
+
   ```bash
   npm install -g @angular/cli
   ```
@@ -66,14 +73,18 @@ If the error persists after Step 1, your version of the Angular CLI might not be
 ---
 
 #### Step 3: Check and Update Project Dependencies (Optional)
+
 If the issue still isn’t resolved, outdated dependencies in your project might be causing the problem. To address this:
 
 - Open your `package.json` file and review the versions of your dependencies (e.g., `@angular/core`, `@angular/cli`, etc.).
 - Update them carefully to their latest compatible versions:
+
   ```bash
   npm install
   ```
+
   or, if you want to update all dependencies:
+
   ```bash
   npm update
   ```
@@ -85,23 +96,29 @@ If the issue still isn’t resolved, outdated dependencies in your project might
 ---
 
 #### Step 4: Downgrade Node.js (Last Resort)
+
 If none of the above solutions work, Node.js 22.9.0 might not yet be fully supported by your project’s current configuration. Downgrading to a Long-Term Support (LTS) version of Node.js, such as **20.x** or **18.x**, could resolve the issue.
 
 - Uninstall your current Node.js version.
 - Download and install an LTS version from the [official Node.js website](https://nodejs.org/).
 - Verify the installed version:
+
   ```bash
   node -v
   ```
+
 - Reinstall your project dependencies:
+
   ```bash
   npm install
   ```
+
 - Run `ng build` again.
 
 ---
 
 ### Recommended Approach
+
 Start with **Step 1** (setting `NODE_OPTIONS`), as it’s the quickest fix and allows you to keep using Node.js 22.9.0. If that doesn’t work, proceed to **Step 2** and **Step 3**. Use **Step 4** only if necessary, as downgrading Node.js might limit access to newer features.
 
 This should resolve the "error 0308010C digital envelope routines::unsupported" and get your `ng build` command working again!
@@ -131,13 +148,17 @@ The error `error 0308010C digital envelope routines:: unsupported` typically occ
 ---
 
 ### **1. Set the OpenSSL Provider to Legacy**
+
 This error often occurs when using Node.js versions 17.x or newer, which switch to using OpenSSL 3.x by default. To resolve this, you can force Node.js to use the legacy OpenSSL provider.
 
 - Add the following environment variable to your system or IDE:
+
   ```bash
   export NODE_OPTIONS=--openssl-legacy-provider
   ```
+
 - You can also add this to your project's `package.json` under the `scripts` section:
+
   ```json
   "build": "set NODE_OPTIONS=--openssl-legacy-provider && ng build"
   ```
@@ -145,14 +166,18 @@ This error often occurs when using Node.js versions 17.x or newer, which switch 
 ---
 
 ### **2. Update Your Node.js Version**
+
 If you are using an older version of Node.js, try updating to a newer version (>=18.x) or downgrading to a version that works better with your project.
 
 - Uninstall the current Node.js version and install a different version:
   - On **Windows**:
+
     ```bash
     # Download and install from https://nodejs.org/
     ```
+
   - On **macOS/Linux**:
+
     ```bash
     # Use a package manager like nvm
     nvm install --lts
@@ -161,6 +186,7 @@ If you are using an older version of Node.js, try updating to a newer version (>
 ---
 
 ### **3. Check for Project Dependencies**
+
 If the error occurs due to a specific dependency, you might need to update or downgrade certain packages.
 
 - Look for dependencies in your `package.json` that might be causing the issue.
@@ -169,13 +195,17 @@ If the error occurs due to a specific dependency, you might need to update or do
 ---
 
 ### **4. Reinstall Node.js and Dependencies**
+
 Sometimes, reinstalling Node.js and your project dependencies can resolve the issue.
 
 - Uninstall Node.js and remove the `node_modules` folder:
+
   ```bash
   rm -rf node_modules package-lock.json
   ```
+
 - Reinstall Node.js and run:
+
   ```bash
   npm install
   ng build
@@ -184,9 +214,11 @@ Sometimes, reinstalling Node.js and your project dependencies can resolve the is
 ---
 
 ### **5. Use a Different OpenSSL Version**
+
 If the above methods don't work, you might need to explicitly set the OpenSSL provider.
 
 - Add the following to your `.env` file:
+
   ```bash
   OPENSSL_PROVIDER=legacy
   ```
@@ -194,6 +226,7 @@ If the above methods don't work, you might need to explicitly set the OpenSSL pr
 ---
 
 ### **6. Use a Custom Build of Node.js**
+
 If none of the above works, you can try building Node.js with the legacy OpenSSL provider.
 
 - Clone the Node.js repository and build it with the legacy provider flag.
@@ -201,6 +234,7 @@ If none of the above works, you can try building Node.js with the legacy OpenSSL
 ---
 
 ### **7. Verify the Issue in Your Project**
+
 If the error persists, check if there are any specific operations in your project that use the `crypto` module. Replace or update any code that might be causing the issue.
 
 ---

@@ -17,7 +17,9 @@ Selenium是一个用于自动化Web浏览器的开源框架，主要用于测试
 ### Selenium全面指南
 
 #### 1. **什么是Selenium？**
+
 Selenium是一套旨在自动化Web浏览器的工具集。它允许您与网页元素交互，模拟用户操作（点击、输入、导航），并验证Web应用程序行为。Selenium的主要组件包括：
+
 - **Selenium WebDriver**：用于浏览器自动化的核心组件，提供以编程方式控制浏览器的API。
 - **Selenium IDE**：用于录制和回放浏览器交互的浏览器扩展（主要面向初学者）。
 - **Selenium Grid**：用于在多台机器或浏览器上并行运行测试的工具。
@@ -27,21 +29,26 @@ Selenium是一套旨在自动化Web浏览器的工具集。它允许您与网页
 ---
 
 #### 2. **设置Selenium**
+
 要使用Selenium与Python，您需要安装必要的依赖项并设置浏览器驱动程序。
 
 ##### 先决条件
+
 - Python（推荐3.6或更高版本）
 - Web浏览器（例如Chrome、Firefox）
 - 相应的浏览器驱动程序（例如Chrome的ChromeDriver，Firefox的GeckoDriver）
 - Selenium Python包
 
 ##### 安装步骤
+
 1. **安装Python**：确保Python已安装并添加到系统的PATH中。
 2. **安装Selenium**：
    在终端中运行以下命令：
+
    ```bash
    pip install selenium
    ```
+
 3. **下载浏览器驱动程序**：
    - 对于Chrome：从[chromedriver.chromium.org](https://chromedriver.chromium.org/downloads)下载ChromeDriver。确保版本与已安装的Chrome浏览器匹配。
    - 对于Firefox：从[github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver/releases)下载GeckoDriver。
@@ -67,6 +74,7 @@ driver.quit()
 ---
 
 #### 3. **Selenium WebDriver核心概念**
+
 Selenium WebDriver提供了与网页元素交互的API。关键概念包括：
 
 - **WebDriver**：控制浏览器实例的接口（例如，Chrome使用`webdriver.Chrome()`）。
@@ -75,7 +83,9 @@ Selenium WebDriver提供了与网页元素交互的API。关键概念包括：
 - **操作**：与元素交互的方法（例如，点击、发送按键、获取文本）。
 
 ##### 常用定位器
+
 Selenium使用定位器来识别网页上的元素：
+
 - `find_element_by_id("id")`：通过ID查找元素。
 - `find_element_by_name("name")`：通过名称属性查找元素。
 - `find_element_by_class_name("class")`：通过类名查找元素。
@@ -85,6 +95,7 @@ Selenium使用定位器来识别网页上的元素：
 - `find_elements_*`：返回所有匹配元素的列表（例如，`find_elements_by_tag_name`）。
 
 ##### 基本交互
+
 - `click()`：点击元素。
 - `send_keys("text")`：在输入字段中输入文本。
 - `text`：检索元素的文本内容。
@@ -94,6 +105,7 @@ Selenium使用定位器来识别网页上的元素：
 ---
 
 #### 4. **编写基本Selenium脚本**
+
 以下是一个示例脚本，用于自动化网站登录（使用假设的登录页面进行演示）。
 
 ```python
@@ -136,6 +148,7 @@ finally:
 ```
 
 **注意**：
+
 - 将`"https://example.com/login"`替换为目标网站的实际URL。
 - 根据网站的HTML结构调整元素定位器（`By.ID`、`By.CLASS_NAME`）。
 - `time.sleep(2)`是一个简单的等待；在生产环境中，请使用显式等待（稍后介绍）。
@@ -143,14 +156,19 @@ finally:
 ---
 
 #### 5. **高级功能**
+
 Selenium提供了用于稳健自动化的高级功能。
 
 ##### a. **等待机制**
+
 Selenium提供两种类型的等待来处理动态网页：
+
 - **隐式等待**：为所有元素搜索设置默认等待时间。
+
   ```python
   driver.implicitly_wait(10)  # 最多等待10秒让元素出现
   ```
+
 - **显式等待**：等待特定条件（例如，元素可点击）。
 
 ```python
@@ -181,7 +199,9 @@ finally:
 ```
 
 ##### b. **处理警报**
+
 Selenium可以与JavaScript警报、确认和提示框交互：
+
 ```python
 alert = driver.switch_to.alert
 alert.accept()  # 点击确定
@@ -190,12 +210,16 @@ alert.send_keys("text")  # 在提示框中输入文本
 ```
 
 ##### c. **导航框架和窗口**
+
 - **框架/内联框架**：切换到框架以与其元素交互。
+
   ```python
   driver.switch_to.frame("frame-id")
   driver.switch_to.default_content()  # 返回主内容
   ```
+
 - **窗口/标签页**：处理多个浏览器窗口。
+
   ```python
   original_window = driver.current_window_handle
   for window_handle in driver.window_handles:
@@ -203,13 +227,17 @@ alert.send_keys("text")  # 在提示框中输入文本
   ```
 
 ##### d. **执行JavaScript**
+
 直接在浏览器中运行JavaScript代码：
+
 ```python
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")  # 滚动到底部
 ```
 
 ##### e. **截图**
+
 捕获截图用于调试或文档记录：
+
 ```python
 driver.save_screenshot("screenshot.png")
 ```
@@ -217,6 +245,7 @@ driver.save_screenshot("screenshot.png")
 ---
 
 #### 6. **使用无头浏览器的Selenium**
+
 无头浏览器在没有GUI的情况下运行，适用于CI/CD管道或服务器。
 在无头模式下使用Chrome的示例：
 
@@ -246,6 +275,7 @@ finally:
 ---
 
 #### 7. **最佳实践**
+
 - **使用显式等待**：对于动态页面，避免使用`time.sleep()`；使用`WebDriverWait`和`expected_conditions`。
 - **处理异常**：将代码包装在`try-except`块中以优雅地处理错误。
 - **关闭WebDriver**：始终调用`driver.quit()`以关闭浏览器并释放资源。
@@ -290,10 +320,13 @@ finally:
 ---
 
 #### 8. **Selenium Grid**
+
 Selenium Grid允许在多个浏览器、操作系统或机器上并行运行测试。它由一个**中心**（中央服务器）和**节点**（运行浏览器的机器）组成。
+
 - **设置**：使用Selenium Grid的JAR文件或Docker配置中心和节点。
 - **用例**：测试跨浏览器兼容性（例如，Windows上的Chrome，Linux上的Firefox）。
 - **示例**：连接到远程WebDriver：
+
   ```python
   from selenium.webdriver.remote.webdriver import WebDriver
   driver = WebDriver(command_executor="http://hub-ip:4444/wd/hub", desired_capabilities={"browserName": "chrome"})
@@ -302,6 +335,7 @@ Selenium Grid允许在多个浏览器、操作系统或机器上并行运行测�
 ---
 
 #### 9. **常见挑战与解决方案**
+
 - **元素未找到**：使用显式等待或通过浏览器开发者工具验证定位器。
 - **过时元素引用**：在页面刷新或DOM更改后重新定位元素。
 - **性能缓慢**：优化定位器（优先使用ID/CSS而非XPath）并使用无头模式。
@@ -310,6 +344,7 @@ Selenium Grid允许在多个浏览器、操作系统或机器上并行运行测�
 ---
 
 #### 10. **资源**
+
 - 官方文档：[selenium.dev](https://www.selenium.dev/documentation/)
 - Python Selenium绑定：[selenium-python.readthedocs.io](https://selenium-python.readthedocs.io/)
 - 浏览器驱动程序：ChromeDriver、GeckoDriver

@@ -46,6 +46,7 @@ Context + Goal + Tools + Loop
 ```
 
 它不需要职位头衔。它需要：
+
 - 明确定义的**任务**
 - 正确的**工具**（code editor、terminal、browser、test runner）
 - **成功条件**（它如何知道完成）
@@ -58,11 +59,13 @@ Context + Goal + Tools + Loop
 ## 🔄 更好的思维模型
 
 不要这样：
+
 ```
 Dev Agent → Test Agent → Deploy Agent
 ```
 
 而是想成：
+
 ```
 Task → Agent → Done
          ↓

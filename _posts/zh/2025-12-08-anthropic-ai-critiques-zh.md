@@ -29,6 +29,7 @@ type: note
 这些观点反映了对 Anthropic 道德立场的赞赏与对其 perceived 僵化的失望交织在一起，一些人视其为对齐 AI 的希望灯塔，另一些人则视其为过度谨慎的警示。
 
 参考文献：
+
 - [I generally like Anthropic: but the more they paint a dystopian future...](https://x.com/GergelyOrosz/status/1938941845716750407)
 - [Watching OpenAI and Anthropic’s actions...](https://x.com/Moleh1ll/status/1981625226472386903)
 - [Anthropic is overrated..the context window is so tiny...](https://x.com/jefffocker/status/1995725214139691198)

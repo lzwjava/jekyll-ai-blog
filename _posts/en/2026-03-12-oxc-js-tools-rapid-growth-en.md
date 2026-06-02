@@ -22,6 +22,7 @@ OXC has seen strong and rapid adoption since its initial release in late 2023. H
 ### 🏢 Notable Company Adopters
 
 OXC is thankful for its 5,200 early adopters and for companies such as:
+
 - **Shopify**, where the front-end platform team uses Oxlint in the Shopify admin console.
 - **Airbnb**, where they use multi-file analysis (`oxc/no-barrel-file` and `import/no-cycle`) on their 126,000+ files, completing in just 7 seconds on CI.
 

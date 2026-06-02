@@ -32,7 +32,7 @@ Typical locations where programs leave traces:
 
 ## 2. Use Registry Editor (regedit)
 
-### Step-by-step:
+### Step-by-step
 
 1. Press `Win + R`
 2. Type `regedit`
@@ -68,12 +68,12 @@ Delete the corresponding key if the app is still listed but no longer exists.
 
 If the program installed Windows services:
 
-### Check:
+### Check
 
 * Run `services.msc`
 * Look for related service names
 
-### Remove via command line:
+### Remove via command line
 
 ```bash
 sc delete "ServiceName"

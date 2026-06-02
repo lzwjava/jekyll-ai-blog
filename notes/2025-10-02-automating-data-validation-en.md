@@ -17,6 +17,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **1. Rule Definition & Generation**
+
 - **Natural Language to Rules:**
   You can describe validation rules in plain English (e.g., “The sum of debit amounts must equal the sum of credit amounts for all journal entries”). The LLM can then:
   - Parse the rule.
@@ -26,6 +27,7 @@ Here’s how you can leverage LLMs for data validation:
 - **Example:**
   - **Input:** “Check that the sum of all debit entries equals the sum of all credit entries in the journal.”
   - **LLM Output:**
+
     ```python
     def validate_journal_balance(journal_entries):
         total_debit = sum(entry['debit'] for entry in journal_entries)
@@ -36,6 +38,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **2. Integration with Data Pipelines**
+
 - **Automated Validation:**
   - The generated code can be integrated into your data ingestion pipeline (e.g., using Python, Apache Spark, or SQL).
   - When new data is ingested, the validation function runs automatically.
@@ -49,6 +52,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **3. Dynamic Rule Updates**
+
 - **Adaptability:**
   - If validation rules change (e.g., new compliance requirements), you can update the natural language description.
   - The LLM regenerates the validation logic, reducing manual coding effort.
@@ -56,6 +60,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **4. Handling Complex Rules**
+
 - **Multi-step Validation:**
   - LLMs can generate complex validation logic, such as:
     - Cross-field checks (e.g., “If the transaction type is ‘refund’, the amount must be negative”).
@@ -65,6 +70,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **5. Tools and Frameworks**
+
 - **LLM as a Code Generator:**
   - Use LLMs (like Mistral, GPT-4, or Claude) to generate validation scripts.
   - Integrate with tools like:
@@ -79,6 +85,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **6. Limitations and Considerations**
+
 - **Accuracy:**
   - Always review LLM-generated code for correctness, especially for financial or compliance-critical systems.
 - **Performance:**
@@ -89,10 +96,12 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **Example: End-to-End Validation with an LLM**
+
 1. **User Input:**
    “Create a validation rule to ensure all journal entries have a unique transaction ID and the sum of debits equals the sum of credits.”
 
 2. **LLM Output:**
+
    ```python
    def validate_journal(journal_entries):
        # Check for unique transaction IDs
@@ -116,6 +125,7 @@ Here’s how you can leverage LLMs for data validation:
 ---
 
 ### **How to Get Started**
+
 1. **Define Your Rules:** Start with a list of validation rules in natural language.
 2. **Prompt the LLM:** Ask the LLM to generate code for each rule.
 3. **Test and Integrate:** Test the generated code with sample data, then integrate it into your pipeline.

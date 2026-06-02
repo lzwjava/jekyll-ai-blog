@@ -11,9 +11,11 @@ type: note
 # Comprehensive Guide to Using SonarQube with Java and Spring Projects
 
 ## Introduction
+
 SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect bugs, code smells, vulnerabilities, and calculates code coverage. This guide provides a comprehensive overview of setting up and using SonarQube in a Java Spring project, including installation, configuration, integration, and best practices.
 
 ## Table of Contents
+
 1. [What is SonarQube?](#what-is-sonarqube)
 2. [Prerequisites](#prerequisites)
 3. [Installing SonarQube](#installing-sonarqube)
@@ -26,7 +28,9 @@ SonarQube is an open-source platform for continuous inspection of code quality. 
 10. [Conclusion](#conclusion)
 
 ## What is SonarQube?
+
 SonarQube is a tool that provides continuous code quality inspection by analyzing source code for:
+
 - **Bugs**: Potential errors in the code.
 - **Code Smells**: Maintainability issues that could lead to technical debt.
 - **Vulnerabilities**: Security issues that could be exploited.
@@ -36,7 +40,9 @@ SonarQube is a tool that provides continuous code quality inspection by analyzin
 It supports multiple languages, including Java, and integrates seamlessly with build tools like Maven and Gradle, as well as CI/CD pipelines.
 
 ## Prerequisites
+
 Before setting up SonarQube, ensure you have:
+
 - **Java Development Kit (JDK)**: Version 11 or later (SonarQube requires Java 11 or 17).
 - **Maven or Gradle**: Build tool for the Java Spring project.
 - **SonarQube Server**: Version 9.9 LTS or later (Community Edition is sufficient for most use cases).
@@ -48,6 +54,7 @@ Before setting up SonarQube, ensure you have:
 ## Installing SonarQube
 
 ### Step 1: Download and Install SonarQube
+
 1. **Download SonarQube**:
    - Visit the [SonarQube download page](https://www.sonarqube.org/downloads/).
    - Choose the Community Edition (free) or another edition based on your needs.
@@ -61,6 +68,7 @@ Before setting up SonarQube, ensure you have:
    - Example for PostgreSQL:
      - Install PostgreSQL and create a database (e.g., `sonarqube`).
      - Update the SonarQube configuration file (`conf/sonar.properties`):
+
        ```properties
        sonar.jdbc.url=jdbc:postgresql://localhost:5432/sonarqube
        sonar.jdbc.username=sonarqube_user
@@ -79,6 +87,7 @@ Before setting up SonarQube, ensure you have:
    - Change the password after the first login.
 
 ### Step 2: Install SonarScanner
+
 1. **Download SonarScanner**:
    - Download from the [SonarQube Scanner page](https://docs.sonarqube.org/latest/analyzing-source-code/scanners/sonarscanner/).
    - Extract to a directory, e.g., `/opt/sonar-scanner`.
@@ -92,6 +101,7 @@ Before setting up SonarQube, ensure you have:
    - Run `sonar-scanner --version` to confirm installation.
 
 ## Setting Up a Java Spring Project
+
 For this guide, we’ll use a Spring Boot project with Maven. The steps are similar for Gradle or non-Boot Spring projects.
 
 1. **Create a Spring Boot Project**:
@@ -103,6 +113,7 @@ For this guide, we’ll use a Spring Boot project with Maven. The steps are simi
 2. **Add Unit Tests**:
    - Ensure your project has unit tests to measure code coverage.
    - Example test class:
+
      ```java
      import org.junit.jupiter.api.Test;
      import org.springframework.boot.test.context.SpringBootTest;
@@ -117,6 +128,7 @@ For this guide, we’ll use a Spring Boot project with Maven. The steps are simi
 
 3. **Add Jacoco for Code Coverage**:
    - Add the JaCoCo Maven plugin to `pom.xml` to generate code coverage reports:
+
      ```xml
      <plugin>
          <groupId>org.jacoco</groupId>
@@ -149,6 +161,7 @@ For this guide, we’ll use a Spring Boot project with Maven. The steps are simi
 
 2. **Configure `sonar-project.properties`**:
    - In the root of your Spring project, create a `sonar-project.properties` file:
+
      ```properties
      sonar.projectKey=my-spring-project
      sonar.projectName=My Spring Project
@@ -164,6 +177,7 @@ For this guide, we’ll use a Spring Boot project with Maven. The steps are simi
 
 3. **Maven Integration (Alternative)**:
    - Instead of `sonar-project.properties`, you can configure SonarQube in `pom.xml`:
+
      ```xml
      <properties>
          <sonar.host.url>http://localhost:9000</sonar.host.url>
@@ -187,16 +201,20 @@ For this guide, we’ll use a Spring Boot project with Maven. The steps are simi
 1. **Using SonarScanner**:
    - Navigate to the project root.
    - Run:
+
      ```bash
      sonar-scanner
      ```
+
    - Ensure tests are executed before analysis (`mvn test` for Maven projects).
 
 2. **Using Maven**:
    - Run:
+
      ```bash
      mvn clean verify sonar:sonar
      ```
+
    - This command compiles the code, runs tests, generates coverage reports, and sends results to SonarQube.
 
 3. **Verify Results**:
@@ -204,23 +222,28 @@ For this guide, we’ll use a Spring Boot project with Maven. The steps are simi
    - Check the dashboard for analysis results.
 
 ## Interpreting SonarQube Results
+
 The SonarQube dashboard provides:
+
 - **Overview**: Summary of issues, coverage, and duplications.
 - **Issues**: List of bugs, vulnerabilities, and code smells with severity (Blocker, Critical, Major, etc.).
 - **Code Coverage**: Percentage of code covered by tests (via JaCoCo).
 - **Duplications**: Repeated code blocks.
 - **Quality Gate**: Pass/fail status based on predefined thresholds (e.g., coverage > 80%).
 
-### Example Actions:
+### Example Actions
+
 - **Fix Bugs**: Address critical issues like null pointer dereferences.
 - **Refactor Code Smells**: Simplify complex methods or remove unused code.
 - **Improve Coverage**: Write additional unit tests for uncovered code.
 
 ## Best Practices
+
 1. **Integrate with CI/CD**:
    - Add SonarQube analysis to your CI/CD pipeline (e.g., Jenkins, GitHub Actions).
    - Example GitHub Actions workflow:
 {% raw %}
+
      ```yaml
      name: CI with SonarQube
      on: [push]
@@ -236,6 +259,7 @@ The SonarQube dashboard provides:
            - name: Build and Analyze
              run: mvn clean verify sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=${{ secrets.SONAR_TOKEN }}
      ```
+
 {% endraw %}
 
 2. **Define Quality Gates**:
@@ -252,6 +276,7 @@ The SonarQube dashboard provides:
    - Tailor SonarQube rules to your project’s needs (e.g., disable irrelevant rules or add custom ones).
 
 ## Troubleshooting Common Issues
+
 1. **Analysis Fails to Upload**:
    - Check `sonar.host.url` and `sonar.token` in configuration.
    - Ensure SonarQube server is running (`http://localhost:9000`).
@@ -266,9 +291,11 @@ The SonarQube dashboard provides:
 
 4. **Out of Memory**:
    - Increase JVM memory in `sonar.properties`:
+
      ```properties
      sonar.web.javaOpts=-Xmx2g -Xms1g
      ```
 
 ## Conclusion
+
 SonarQube is a powerful tool for maintaining code quality in Java Spring projects. By integrating it into your development workflow, you can catch issues early, improve code maintainability, and ensure robust security. Regular analysis, combined with best practices like CI/CD integration and SonarLint, will help you maintain a high-quality codebase.

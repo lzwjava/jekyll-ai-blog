@@ -323,7 +323,7 @@ Each question has **one correct answer**, but **answers are not shown**, suitabl
 
 If you want, I can also:
 
-* Generate **mock exams with difficulty levels**
-* Convert these into **flashcards or quizzes**
-* Provide **chapter-based questions** aligned with the official syllabus
-* Create a **full revision guide + key points (100+ knowledge points)**
+- Generate **mock exams with difficulty levels**
+- Convert these into **flashcards or quizzes**
+- Provide **chapter-based questions** aligned with the official syllabus
+- Create a **full revision guide + key points (100+ knowledge points)**

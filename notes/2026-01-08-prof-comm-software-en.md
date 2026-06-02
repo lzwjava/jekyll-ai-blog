@@ -17,6 +17,7 @@ Answer:
 As a software engineer in a corporate setting, effective communication is crucial for collaboration, clarity, and career growth. Strong writing and speaking skills help convey technical ideas, resolve issues quickly, and build professional relationships. Below are best practices tailored to emails, daily discussions (e.g., Slack chats, stand-ups), and technical discussions (e.g., meetings, design reviews).
 
 ### General Principles for All Communication
+
 - **Be clear and concise**: Get to the point quickly. Avoid unnecessary details unless asked.
 - **Know your audience**: Use technical jargon with engineers, but simplify for non-technical stakeholders (e.g., explain concepts in business terms like impact on users or revenue).
 - **Start with the key takeaway**: Summarize the main point or action needed upfront.
@@ -26,6 +27,7 @@ As a software engineer in a corporate setting, effective communication is crucia
 - **Proofread and review**: Especially in writing, check for errors and clarity.
 
 ### Writing Professional Emails
+
 Emails are formal records, so prioritize structure and professionalism.
 
 - **Subject line**: Make it descriptive and actionable (e.g., "Request for Review: API Endpoint Changes for Feature X" instead of "Hey" or "Update").
@@ -38,6 +40,7 @@ Emails are formal records, so prioritize structure and professionalism.
 - **Attachments/Links**: Mention them explicitly (e.g., "See attached design doc").
 - **Length**: Keep under one screen if possible; use TL;DR for long emails.
 - **Example**:
+
   ```
   Subject: Status Update and Blocker: User Authentication Module
 
@@ -57,6 +60,7 @@ Emails are formal records, so prioritize structure and professionalism.
   ```
 
 ### Daily Discussions (e.g., Slack, Chat, Stand-ups)
+
 These are informal but still professional—treat them as asynchronous communication.
 
 - **Be brief**: Use short messages. Thread replies to keep context.
@@ -66,6 +70,7 @@ These are informal but still professional—treat them as asynchronous communica
 - **In stand-ups**: Follow the format—what you did yesterday, plan today, blockers. Be specific but concise.
 - **Avoid misinterpretation**: In text, add context (e.g., "Not blocking, but FYI: ...").
 - **Example Slack message**:
+
   ```
   @channel Quick update on deployment:
   - Merged changes to main
@@ -75,6 +80,7 @@ These are informal but still professional—treat them as asynchronous communica
   ```
 
 ### Technical Discussions (e.g., Meetings, Design Reviews, Pairing)
+
 Focus on collaboration and decision-making.
 
 - **Prepare in advance**: Share agendas, docs, or diagrams beforehand.
@@ -87,6 +93,7 @@ Focus on collaboration and decision-making.
 - **Time management**: Respect agendas; if discussion goes long, propose decisions or prototypes to test ideas.
 
 ### Tips to Improve Over Time
+
 - Practice regularly: Volunteer for presentations, docs, or reviews.
 - Seek feedback: Ask colleagues "How could I have explained that better?"
 - Read resources: Books like "The Craft of Scientific Writing" or articles on engineering communication.

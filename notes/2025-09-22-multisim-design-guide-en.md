@@ -15,6 +15,7 @@ Great choice! Let’s dive into **Multisim** 👇
 ---
 
 ## 🔹 What is Multisim?
+
 **NI Multisim** (by National Instruments) is a **simulation and circuit design software** widely used for learning, teaching, and professional electronics prototyping. It allows you to build electronic circuits virtually, simulate their behavior, and test designs before hardware implementation.
 
 It integrates both **schematic capture (drawing circuits)** and **SPICE simulation (analyzing behavior)**, making it useful for **analog, digital, and mixed circuits**.
@@ -22,6 +23,7 @@ It integrates both **schematic capture (drawing circuits)** and **SPICE simulati
 ---
 
 ## 🔹 Why use Multisim?
+
 - **Safe & Cost-effective** → Test without damaging components
 - **Large component libraries** → Resistors, transistors, ICs, op-amps, etc.
 - **Interactive instruments** → Oscilloscope, multimeter, logic analyzer built-in
@@ -33,20 +35,24 @@ It integrates both **schematic capture (drawing circuits)** and **SPICE simulati
 ## 🔹 Getting Started Guide
 
 ### 1. **Launching & Interface**
+
 - Open Multisim → You’ll see a **schematic editor area** (the main workspace).
 - Toolbars for placing components, wiring, instruments, and simulation controls.
 
 ### 2. **Placing Components**
+
 - Go to **Place → Component**
 - Browse by categories (Basic, Digital, Mixed, Power Sources, etc.)
 - Select and drag-drop onto schematic area.
 
 ### 3. **Wiring Connections**
+
 - Use the **Connect Tool (pencil icon)**
 - Click pin-to-pin to draw wires.
 - Use labels for power/ground connections.
 
 ### 4. **Adding Instruments**
+
 - From **Place → Instruments** → add devices like:
   - Oscilloscope
   - Function Generator
@@ -54,11 +60,13 @@ It integrates both **schematic capture (drawing circuits)** and **SPICE simulati
   - Logic Analyzer
 
 ### 5. **Running Simulation**
+
 - Press the **Run button (green play icon)**
 - Observe waveforms, voltages, currents, or digital logic states.
 - Debug faults and analyze circuit behavior.
 
 ### 6. **Saving & Exporting**
+
 - Save file as **.ms14** or similar depending on version.
 - Can also generate reports, export netlists, or prepare for PCB design (with Multisim + Ultiboard integration).
 

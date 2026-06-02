@@ -18,7 +18,7 @@ Answer:
 
 她因其绰号 **"The Cloud Girl"** 而闻名，并以其独特的方法——使用 **手绘 Sketchnotes**、插图和视觉叙事，将复杂的 Cloud 概念以通俗易懂且吸引人的方式进行讲解而受到广泛认可。
 
-### 职业生涯和贡献亮点：
+### 职业生涯和贡献亮点
 
 - **Google Cloud 职位** — 曾担任 Developer Advocate（后晋升为 Staff 级别），直接与客户合作，创作教育内容，在各大 Conference 演讲并建立社区资源。她于 2019-2020 年左右加入 Google，并在该职位上活跃了多年。
 - **视觉学习资源** — 在 GitHub 上创建了广受欢迎的 **GCPSketchnote** 系列——关于 Google Cloud 产品、Architecture 决策、Certifications 和 Best Practices 的快速视觉总结。这些 Sketchnotes 被准备 Google Cloud 认证和面试的学习者广泛使用。
@@ -32,6 +32,7 @@ Answer:
 她在社交平台（特别是 X/Twitter @pvergadia、LinkedIn、YouTube "The Cloud Girl" 以及她的个人网站 thecloudgirl.dev）上非常活跃，分享 Cloud 见解、职业建议和视觉解释。
 
 References:
+
 - [Google Cloud Blog - Meet Priyanka Vergadia](https://cloud.google.com/blog/topics/inside-google-cloud/meet-people-google-cloud-priyanka-vergadia)
 - [Her book on Amazon](https://www.amazon.com/Visualizing-Google-Cloud-Illustrated-References/dp/1119816327)
 - [GCPSketchnote GitHub repository](https://github.com/priyankavergadia/GCPSketchnote)

@@ -20,6 +20,7 @@ Here's a curated, opinionated breakdown organized by theme — papers that shift
 ## 1. Reasoning & RL Post-Training
 
 ### DeepSeek-R1 (Jan 2025) — *the* paper of the year
+
 **arXiv: 2501.12948**
 
 Uses GRPO (Group Relative Policy Optimization) as the RL framework, with reward signal solely based on correctness of final predictions against ground-truth answers, without imposing constraints on the reasoning process itself — bypassing the conventional SFT phase before RL training entirely.
@@ -35,6 +36,7 @@ The key insight: **reasoning can emerge as a behavior, not just imitation of hum
 ---
 
 ### s1: Simple Test-Time Scaling (Jan 2025)
+
 **arXiv: 2501.19393**
 
 Demonstrates that distilling Gemini 2.0 Flash Thinking traces into Qwen-32B with "budget forcing" (forcing the model to keep thinking up to a token budget) yields strong reasoning at low cost. Uses only ~1K examples for finetuning.
@@ -46,6 +48,7 @@ Shows you can get o1-class reasoning for $50 of finetuning if you have the right
 ## 2. Architecture & Efficiency
 
 ### Titans: Learning to Memorize at Test Time (Dec 2024)
+
 **Google Research**
 
 Introduces a neural long-term memory module that learns to memorize historical context *at test time*, combining the strengths of recurrent models and attention mechanisms. Enables efficient processing of sequences beyond 2 million tokens.
@@ -55,6 +58,7 @@ This is the most interesting architecture paper of the cycle — it's an attack 
 ---
 
 ### Scaling LLM Test-Time Compute (Aug 2024)
+
 **arXiv: 2408.03314** — Berkeley/Google
 
 The main premise: if increased test-time computation can improve LLM outputs, then scaling inference compute can be more effective than scaling model parameters on hard tasks.
@@ -64,9 +68,11 @@ This is what theoretically grounded o1, R1, and the whole reasoning model wave. 
 ---
 
 ### DeepSeek-V3 / MoE Architecture (Dec 2024)
+
 **arXiv: 2412.19437**
 
 The engineering paper behind R1. Key contributions:
+
 - Multi-head Latent Attention (MLA) — compresses KV cache via low-rank projection
 - Auxiliary-loss-free load balancing for MoE
 - FP8 mixed-precision training at scale

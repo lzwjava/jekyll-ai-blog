@@ -47,6 +47,7 @@ Wherever your attention goes, your wealth follows. All wealth — whether materi
 ### Source
 
 This principle appears across multiple Li Xiaolai works:
+
 - *《把时间当作朋友》* (Making Friends with Time) — on time management and accumulation
 - *《财富自由之路》* (The Road to Financial Freedom) — on attention as the ultimate resource
 - *《财富的真相》* (The Truth About Wealth) — on investing time in learning, production, sales, and investment

@@ -12,6 +12,7 @@ type: note
 取决于你的目标。对于**1.5B model 要达到不错水平**，理想情况下你需要 ~100B-1T tokens。FineWeb sample-10BT 是 ~10B tokens — 所以 60GB（假设完整 FineWeb 总共 ~1T tokens）是一个不错的片段，但不是完整数据集。
 
 **如果你想正确利用 H200：**
+
 - **1.5B model** → 需要 ~100B tokens 进行良好训练。60GB 的 FineWeb（~可能 200B+ tokens？）就足够了
 - **2.8B model** → 需要 ~200B+ tokens
 

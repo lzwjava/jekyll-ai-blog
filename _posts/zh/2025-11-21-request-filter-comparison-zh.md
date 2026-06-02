@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 IBM WebSphere Application Server（WAS，传统版或 Liberty）和 Spring Boot 都支持基于标准 Java Servlet API 的 `javax.servlet.Filter` 和 `FilterChain` 的**请求处理链**概念。传入的 HTTP 请求在到达 servlet（或控制器/处理器）之前会经过一系列过滤器，并且可以在返回途中修改响应。
 
 - 过滤器允许对请求/响应进行预处理（例如，身份验证、日志记录、压缩）和后处理。
@@ -35,6 +36,7 @@ IBM WebSphere Application Server（WAS，传统版或 Liberty）和 Spring Boot 
 ### 实际示例
 
 **标准自定义过滤器（相同代码在两者中均可工作）：**
+
 ```java
 @Component  // 仅 Spring Boot；在 WAS 中需在 web.xml 中声明
 @Order(1)
@@ -53,6 +55,7 @@ public class LoggingFilter implements Filter {
 
 **在 WAS 中：**
 添加到 `web.xml`：
+
 ```xml
 <filter>
     <filter-name>LoggingFilter</filter-name>
@@ -65,6 +68,7 @@ public class LoggingFilter implements Filter {
 ```
 
 ### 何时选择哪个
+
 - **使用 WAS 过滤器** 如果您处于传统的 IBM 环境中，需要完整的 Java EE 功能，或者必须在许多应用之间全局应用过滤器而无需更改代码。
 - **使用 Spring Boot 过滤器**（尤其是与 Spring Security 一起）用于新的/绿地项目、微服务、快速迭代，或者当您需要多个安全链和简单排序时。
 

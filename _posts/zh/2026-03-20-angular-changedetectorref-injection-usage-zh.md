@@ -42,6 +42,7 @@ abstract class ChangeDetectorRef {
 ## 如何注入它
 
 {% raw %}
+
 ```typescript
 @Component({
   selector: 'app-my',
@@ -54,6 +55,7 @@ export class MyComponent {
   constructor(private cdr: ChangeDetectorRef) {}
 }
 ```
+
 {% endraw %}
 
 这是普通的 DI。Angular 的内部 Ivy 编译器将 `ChangeDetectorRef` 解析为与组件当前视图绑定的**特殊 token** — 但**组件初始化过程与其他组件完全相同**。
@@ -114,9 +116,6 @@ constructor(private ref: ChangeDetectorRef) {
 ---
 
 ## `markForCheck()` 与 `detectChanges()` — 关键区别
-
-
-
 
 | 方法 | 是否立即触发变更检测？ | 作用范围 |
 |---|---|---|

@@ -46,6 +46,7 @@ Currey’s own conclusion (paraphrased from the introduction and later interview
 The “short-burst + walking” pattern you mentioned is indeed the single most frequently recurring combination in the book.
 
 References:
+
 - [Daily Rituals: How Artists Work by Mason Currey (2013)](https://www.penguinrandomhouse.com/books/217492/daily-rituals-by-mason-currey/)
 - [Mason Currey’s blog “Daily Routines” (source material)](https://dailyroutines.substack.com/)
 - [2013 Brain Pickings / The Marginalian summary by Maria Popova](https://www.themarginalian.org/2013/05/22/daily-rituals-mason-currey/)

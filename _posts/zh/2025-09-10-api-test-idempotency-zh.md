@@ -44,6 +44,7 @@ type: note
     <binary bytes>
     --Boundary123--
     ```
+
   * 有用的自定义头部：
 
     * **Idempotency-Key**：去重有副作用的POST请求
@@ -120,6 +121,7 @@ type: note
     -H 'X-Request-ID: test-orders-create-...' \
     -d '{"customerId":"C123","items":[{"sku":"ABC","qty":1}]}'
   ```
+
 * Multipart上传：
 
   ```bash

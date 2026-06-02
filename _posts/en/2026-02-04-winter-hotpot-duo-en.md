@@ -13,6 +13,7 @@ type: note
 For a typical Chinese hotpot (火锅) for 2-3 people in winter, here's what you'd commonly include:
 
 ## Meats & Seafood
+
 - **Thinly sliced lamb or beef** (羊肉/牛肉) - about 300-400g total, the thinner the better
 - **Pork belly slices** - adds richness to the broth
 - **Fish balls, shrimp balls, or beef balls** - ready-made from Asian grocers
@@ -20,6 +21,7 @@ For a typical Chinese hotpot (火锅) for 2-3 people in winter, here's what you'
 - Optional: fish slices, squid, or other seafood
 
 ## Vegetables & Mushrooms
+
 - **Napa cabbage** (大白菜) - essential, very popular in winter
 - **Leafy greens** - spinach, chrysanthemum greens (茼蒿), or bok choy
 - **Mushrooms** - enoki, shiitake, oyster mushrooms
@@ -29,6 +31,7 @@ For a typical Chinese hotpot (火锅) for 2-3 people in winter, here's what you'
 - **Tofu** - firm tofu, frozen tofu (has better texture), or tofu skin
 
 ## Noodles & Starches
+
 - Glass noodles, udon, or instant noodles - usually added at the end
 - Rice cakes (年糕)
 

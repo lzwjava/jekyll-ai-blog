@@ -46,7 +46,7 @@ In summary, while a technical installation attempt might partially boot, it is n
 
 References:
 
-- https://docs.nvidia.com/dgx/dgx-os-6-user-guide/introduction.html
-- https://docs.nvidia.com/dgx/dgx-os-7-user-guide/introduction.html
-- https://docs.nvidia.com/dgx/dgx-os-6-user-guide/installing_on_ubuntu.html (for installing DGX software on Ubuntu)
+- <https://docs.nvidia.com/dgx/dgx-os-6-user-guide/introduction.html>
+- <https://docs.nvidia.com/dgx/dgx-os-7-user-guide/introduction.html>
+- <https://docs.nvidia.com/dgx/dgx-os-6-user-guide/installing_on_ubuntu.html> (for installing DGX software on Ubuntu)
 - NVIDIA Developer Forums discussions on DGX OS for non-DGX/BYO machines.

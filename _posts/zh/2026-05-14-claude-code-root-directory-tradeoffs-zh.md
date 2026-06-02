@@ -34,6 +34,7 @@ type: note
 ### 2. 文件选择器变慢是一个已知问题
 
 如果你的项目是一个大型 monorepo，默认文件选择器速度很慢，你可以通过 `settings.json` 中的 `fileSuggestion` 设置将其替换为自定义命令：
+
 ```json
 {
   "fileSuggestion": {
@@ -42,6 +43,7 @@ type: note
   }
 }
 ```
+
 该命令通过标准输入（stdin）接收包含 `query` 字段的 JSON，并输出以换行符分隔的文件路径。
 
 ### 3. `@` 自动补全变慢也是一个已确认的 bug
@@ -57,9 +59,11 @@ type: note
 与其从 `/` 运行，不如**在你的主要项目内部**启动 Claude Code，并根据需要添加其他项目目录：
 
 Claude Code 的多目录支持允许你使用 `--add-dir` 标志在单个会话中跨多个目录工作：
+
 ```bash
 claude --add-dir /path/to/backend --add-dir /path/to/frontend
 ```
+
 这样你无需切换会话就能在前端、后端和共享模块之间工作，同时保持良好的性能。
 
 ## 总结

@@ -13,6 +13,7 @@ Kong Insomnia provides a robust graphical user interface (GUI) to simplify API d
 ---
 
 #### 1. **Params (Query Parameters)**
+
 Query parameters are used to append data to the URL, typically for GET requests.
 
 - **How to Use**:
@@ -31,6 +32,7 @@ Query parameters are used to append data to the URL, typically for GET requests.
 ---
 
 #### 2. **Body**
+
 The body is used to send data with requests like POST or PUT.
 
 - **How to Use**:
@@ -52,6 +54,7 @@ The body is used to send data with requests like POST or PUT.
 ---
 
 #### 3. **Auth (Authentication)**
+
 Authentication settings allow you to include credentials or tokens in your requests.
 
 - **How to Use**:
@@ -73,6 +76,7 @@ Authentication settings allow you to include credentials or tokens in your reque
 ---
 
 #### 4. **Cookies**
+
 Cookies are managed automatically but can be viewed or edited manually.
 
 - **How to Use**:
@@ -89,6 +93,7 @@ Cookies are managed automatically but can be viewed or edited manually.
 ---
 
 #### 5. **Certificates**
+
 Client certificates are used for HTTPS requests requiring mutual TLS authentication.
 
 - **How to Use**:
@@ -109,6 +114,7 @@ Client certificates are used for HTTPS requests requiring mutual TLS authenticat
 ---
 
 #### 6. **Settings**
+
 Settings allow you to customize Insomnia’s behavior.
 
 - **How to Use**:
@@ -125,6 +131,7 @@ Settings allow you to customize Insomnia’s behavior.
 ---
 
 #### 7. **Proxy**
+
 Proxies route your requests through a specified server, useful for debugging or corporate networks.
 
 - **How to Use**:
@@ -144,7 +151,9 @@ Proxies route your requests through a specified server, useful for debugging or 
 ---
 
 ### Summary
+
 Here’s a quick recap of how to use these features in the Insomnia GUI:
+
 - **Params**: Add query parameters in the **Query** tab for GET requests.
 - **Body**: Send data with POST/PUT requests via the **Body** tab, selecting the format.
 - **Auth**: Set up authentication in the **Auth** tab for secure requests.

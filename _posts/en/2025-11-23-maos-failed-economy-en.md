@@ -51,8 +51,8 @@ A top-down, command structure (**powerful control**) is inherently suited for a 
 Extending that same rigid, top-down control to a **nation of 500 million people** and a complex economy is often counterproductive.
 
 * **The Need for Freedom and Wisdom:**
-    * **Limits Wisdom:** Centralized control limits the **"wisdom"** (or local knowledge and innovation) of millions of farmers, small producers, and local experts. The center cannot efficiently process all the information needed for optimal decisions across a vast country.
-    * **Slowness/Inefficiency:** A highly centralized system is **slow** and inflexible. It struggles to react to local shortages, changing consumer demand, or opportunities for specialization and trade.
-    * **Incentives:** Economic growth for a large population relies heavily on **individual incentives** (profit, ownership, secure property rights) and **market mechanisms** (prices, competition) to efficiently allocate resources. When these are suppressed, motivation and productivity suffer.
+  * **Limits Wisdom:** Centralized control limits the **"wisdom"** (or local knowledge and innovation) of millions of farmers, small producers, and local experts. The center cannot efficiently process all the information needed for optimal decisions across a vast country.
+  * **Slowness/Inefficiency:** A highly centralized system is **slow** and inflexible. It struggles to react to local shortages, changing consumer demand, or opportunities for specialization and trade.
+  * **Incentives:** Economic growth for a large population relies heavily on **individual incentives** (profit, ownership, secure property rights) and **market mechanisms** (prices, competition) to efficiently allocate resources. When these are suppressed, motivation and productivity suffer.
 
 This realization led to the **post-Mao reforms** under **Deng Xiaoping** (beginning in 1978), which gradually decentralized control, introduced market mechanisms (like the Household Responsibility System in agriculture), and opened the economy—a process that ultimately unleashed China's dramatic economic growth by giving people more **freedom** to produce and profit.

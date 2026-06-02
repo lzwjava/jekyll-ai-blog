@@ -14,12 +14,15 @@ type: note
 Gemma 在 OpenClaw 中无法运行是由三个层层递进的问题导致的：
 
 ### 1. llama-server 未运行
+
 OpenClaw 配置引用了位于 `http://192.168.1.36:8081/v1` 的 `llama-server` 提供程序，但该端口并无进程监听。旧的 `~/llama.sh` 脚本启动的是运行在 8000 端口上的另一个模型。
 
 ### 2. Gemma 4 的思考模式
+
 启动 llama-server 后，其 `--reasoning auto` 选项检测到 Gemma 4 的思考模板，并将输出拆分为 `reasoning_content`（包含实际文本）和 `content`（空）。而 OpenClaw 读取的是 `content` 字段，因此得到了空白响应。通过使用 `--reasoning off` 修复此问题。
 
 ### 3. llama-server 绑定地址 + proxychains 路由（真正的阻碍）
+
 这是最棘手的问题。由两方面原因共同导致：
 
 - llama-server 默认仅绑定到 `127.0.0.1`，因此即使在同一台机器上，`http://192.168.1.36:8081` 也无法访问。

@@ -28,6 +28,7 @@ The phrase “outshining the master” comes from the proverb “The disciple is
 These views are unpopular because they clash with ingrained ideas of filial piety, professional courtesy, and humility signaling—but they’re held (quietly) by many high achievers who actually did eclipse their teachers.
 
 References:
+
 - [The 48 Laws of Power – Law 1: Never Outshine the Master](https://en.wikipedia.org/wiki/The_48_Laws_of_Power)
 - [Paul Graham – How to Do Great Work (section on mentors)](http://paulgraham.com/greatwork.html)
 - [Naval Ravikant on mentors and surpassing them (Twitter threads, various)](https://twitter.com/naval/status/1002103360646823936)

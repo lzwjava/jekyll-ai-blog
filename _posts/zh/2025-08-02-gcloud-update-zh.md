@@ -31,7 +31,7 @@ type: note
 └─────────────────────────────────────────────────────┴────────────┴──────────┘
 
 自上次升级以来已有大量更新。最新完整版本说明请访问：
-  https://cloud.google.com/sdk/release_notes
+  <https://cloud.google.com/sdk/release_notes>
 
 操作开始后，取消可能会使您的 SDK 安装处于不一致状态。
 

@@ -22,6 +22,7 @@ type: note
 然而，目前Easy SIM卡没有每天2澳门元的无限量数据套餐选项。现有的每日套餐从每天3澳门元起。
 
 如果正在寻找更便宜的数据，请考虑：
+
 - 按流量计费（尽管没有套餐时每MB更贵）。
 - 如果有月度或多日套餐。
 - 查阅中国电信澳门官方网站或应用程序，了解最新套餐。
@@ -31,6 +32,6 @@ type: note
 
 **参考资料：**
 
-- https://prepaid-data-sim-card.fandom.com/wiki/Macau
-- https://www.phonetravelwiz.com/buying-a-sim-card-in-macau-guide/
-- https://gigago.com/ctm-macau-sim-card/
+- <https://prepaid-data-sim-card.fandom.com/wiki/Macau>
+- <https://www.phonetravelwiz.com/buying-a-sim-card-in-macau-guide/>
+- <https://gigago.com/ctm-macau-sim-card/>

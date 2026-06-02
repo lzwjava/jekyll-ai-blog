@@ -22,12 +22,15 @@ Yes, for casual and daily monitoring, the Apple Stocks app is genuinely solid. E
 ## How to Use the Apple Stocks App on iPhone
 
 ### Basic Setup
+
 When you first open the Stocks app, a list of ticker symbols appears — this is called the **My Symbols** watchlist. To add a symbol, tap the search field, enter a ticker symbol, company name, fund name, or index, then tap the result to add it. To delete a symbol, swipe left on it in your watchlist and tap Remove.
 
 ### Reading Charts & Data
+
 Tap a symbol to see more details. You can view performance over different time ranges by tapping the options at the top of the chart, or touch and hold the chart with one finger to see the value at a specific date. Touch and hold with two fingers to see the difference in value over time. Swipe the data below the chart to see additional details like 52-week high and low, Beta, EPS, and average trading volume.
 
 ### Key Features
+
 - **Watchlists** — track stocks, indexes, mutual funds, ETFs, and currencies, with color-coded spark-lines and price change indicators.
 - **Price Alerts** — from the three-dot menu inside a stock page, you can enable notifications for significant price changes, allowing passive monitoring without constant refreshing.
 - **iCloud Sync** — add a ticker on iPhone and it appears on Mac instantly, with no manual syncing or separate configuration.
@@ -37,6 +40,7 @@ Tap a symbol to see more details. You can view performance over different time r
 - **Comparison** — inside a stock page, you can compare a stock's performance against other companies or indexes.
 
 ### Limitations
+
 The app lacks advanced technical analysis tools like RSI or MACD overlays, which are found on platforms like TradingView. It's an excellent monitoring tool, but not a trading platform.
 
 ---

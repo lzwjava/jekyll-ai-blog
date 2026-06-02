@@ -15,6 +15,7 @@ There's no universal answer—it varies significantly between individuals and co
 **Individual differences matter most.** While the popular "learning styles" theory (visual, auditory, kinesthetic learners) has been largely debunked by research, people do have genuine preferences and some real differences in how they process information. Some people have stronger visual-spatial abilities, others have better auditory processing, and these can influence learning efficiency.
 
 **Research findings:**
+
 - For most complex learning tasks, **combining visual and auditory input works best**. This is called dual coding theory—information presented through multiple channels reinforces memory and understanding.
 - Visual information tends to be processed faster and is often better for spatial relationships, diagrams, and seeing patterns.
 - Auditory information can be effective for language learning, storytelling, and when multitasking is needed.

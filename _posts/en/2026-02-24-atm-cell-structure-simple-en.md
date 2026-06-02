@@ -13,7 +13,7 @@ I'll search for information about ATM cell structure to provide you with a compr
 
 What is the fixed cell length of ATM (Asynchronous Transfer Mode), and what is the composition of the cell structure?
 
-## Answer:
+## Answer
 
 The correct answer is **C: 53 bytes**.
 
@@ -24,6 +24,7 @@ An ATM cell consists of a fixed length of 53 bytes total, composed of a 5-byte h
 ### Detailed Composition
 
 **Header (5 bytes):** The header contains critical routing and control information including:
+
 - Virtual Path Identifier (VPI) and Virtual Channel Identifier (VCI) that identify the next destination of a cell as it transfers through ATM switches
 - Payload Type (PT) indicating whether the cell contains user data or control data
 - Cell Loss Priority (CLP) indicating whether the cell should be removed if extreme congestion is encountered
@@ -41,7 +42,7 @@ The fixed-cell size of 53 bytes enables rapid hardware switching and low jitter,
 
 ---
 
-## References:
+## References
 
 - [https://www.tutorialspoint.com/explain-the-atm-cell-structure-in-computer-network](https://www.tutorialspoint.com/explain-the-atm-cell-structure-in-computer-network)
 - [https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode](https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode)

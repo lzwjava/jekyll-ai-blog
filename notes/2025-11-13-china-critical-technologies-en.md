@@ -25,6 +25,7 @@ Key areas where China excels include:
 - **Aerospace and Defense**: Hypersonic missiles, space tech, and satellite constellations.
 
 #### Spotlight on Robotics
+
 Yes, robotics is a standout area where China is exceptionally strong—often cited as a "national priority" under Made in China 2025. China installed over 50% of the world's industrial robots in 2024 and is now pivoting to humanoid and service robots. At the 2025 World Robot Conference, Chinese firms unveiled advanced humanoids capable of complex tasks like 100m sprints and factory integration. Innovations include AI-robotics fusion for crewless vehicles and patrol bots, with companies outpacing rivals in cost-effective deployment. By 2025, China aims for full automation in manufacturing, addressing labor shortages from demographic shifts. Challenges remain in core chip tech, but integration with AI gives China an edge.
 
 ### Top Tech Companies in China
@@ -62,6 +63,7 @@ Chinese tech companies have shifted from manufacturing to invention, filing over
 These inventions emphasize practical scalability, often prioritizing domestic needs like food security and urbanization. While geopolitics limits some exports, they're reshaping global supply chains.
 
 ### References
+
 - [9 areas where China is leading the way in cutting-edge research](https://qz.com/9-areas-where-china-is-leading-the-way)
 - [China Is Rapidly Becoming a Leading Innovator in Advanced Industries](https://itif.org/publications/2024/09/16/china-is-rapidly-becoming-a-leading-innovator-in-advanced-industries/)
 - [China leading US in technology race in all but a few fields](https://www.theguardian.com/world/2023/mar/02/china-leading-us-in-technology-race-in-all-but-a-few-fields-thinktank-finds)

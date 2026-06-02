@@ -22,6 +22,7 @@ Bodhi AI is a Tauri 2 desktop application that serves as a desktop AI agent work
 == What it does ==
 
 An AI agent desktop app that:
+
 - Plans tasks, runs tools, connects MCP servers
 - Keeps long-running context alive (memory, session notes, Dream notebook)
 - Turns successful runs into workflows and schedules

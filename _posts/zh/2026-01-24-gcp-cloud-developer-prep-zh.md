@@ -46,6 +46,7 @@ Answer:
 ### 来自社区经验的备考建议
 
 许多近期通过考试的人结合了以下方式：
+
 - Official Google Cloud Skills Boost / Qwiklabs (强制性的 Hands-on 练习)。
 - YouTube 用于概念理解 + 服务对比。
 - YouTube 上的练习题 + 付费的 Whizlabs/Tutorials Dojo 模拟题集。

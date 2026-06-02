@@ -15,7 +15,7 @@ Answer:
 
 Your summary is directionally correct—but a bit oversimplified. The reality is more nuanced:
 
-### 1. Main pathways to the U.S.
+### 1. Main pathways to the U.S
 
 For most Chinese applicants, the common routes are:
 

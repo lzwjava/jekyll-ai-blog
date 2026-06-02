@@ -33,7 +33,6 @@ The "front surface" is often referred to as the **front fascia** or **front end*
 * **Bumper:** The protective bar at the very front or back.
 * *Note:* The painted plastic part you see is the **Bumper Fascia**, while the metal bar behind it is the **Bumper Reinforcement**.
 
-
 * **Grille:** The mesh/opening that allows air to the radiator.
 * **Fender (US) / Wing (UK):** The panel over the front wheels.
 * **Quarter Panel:** The large body panel over the rear wheels (the "rear fender").

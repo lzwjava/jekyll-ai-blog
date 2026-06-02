@@ -45,6 +45,7 @@ Without glasses, myopia rarely exceeds 300 degrees, usually stabilizing around 2
 **100 / Myopia Degree = Maximum Clear Distance (in meters)**
 
 For example:
+
 - 200-degree myopia: clear range = 0.5m
 - 300-degree myopia: clear range = 0.33m
 
@@ -65,15 +66,18 @@ When looking far, if the image still falls in front of the retina after lens rel
 ## Specific Reversal Methods
 
 ### Method 1: No Glasses
+
 Complete removal of glasses. An 18-year-old with 600+ degree myopia reduced it by ~100 degrees in 3 months using this method.
 
 ### Method 2: Reduced Prescription Glasses (Recommended)
+
 - If you have 600-degree myopia, get 500-degree glasses
 - This creates the visual effect of 100-degree myopia
 - Everything beyond 1m becomes "far viewing" that helps reverse myopia
 - After a few months, when vision improves by ~50 degrees, get new glasses maintaining the 100-degree gap
 
 ### Method 3: Multiple Glasses for Different Distances
+
 - Daily glasses: 100 degrees under prescription
 - Computer glasses: 150 degrees under prescription
 - Place screen at 0.66m+ for slight blur while computing
@@ -81,24 +85,30 @@ Complete removal of glasses. An 18-year-old with 600+ degree myopia reduced it b
 ## Additional Considerations
 
 ### Screen Settings
+
 - Don't make fonts too large - larger fonts create larger visual angles, equivalent to viewing closer objects
 - Use normal or slightly smaller fonts to simulate viewing farther objects
 
 ### Eye Balance
+
 - If eyes differ by more than 50 degrees, get glasses to balance vision between eyes
 - The brain preferentially uses the better eye's image
 
 ### Safety Warnings
+
 - Progress is slow - expect 25 degrees improvement in 3 months
 - Don't strain or force clear vision
 - People over 40 should be especially careful due to vitreous aging
 - Stop immediately if experiencing pain, double vision, or floaters
 
 ### High Myopia (800+ degrees)
+
 Get eye examination first to check for retinal issues before attempting this method.
 
 ### Low Myopia (Under 100 degrees)
+
 Use reading glasses to create artificial myopia:
+
 - 100-degree myopia + 50-degree reading glasses = 150-degree myopia effect
 - Gradually increase reading glass strength as myopia decreases
 
@@ -111,12 +121,14 @@ Use the formula: **Myopia Degree = 100/Clear Distance** to estimate improvement.
 ## Safety First: Natural Approach
 
 This method emphasizes natural eye use without forced exercises. Avoid methods requiring:
+
 - Strenuous focusing exercises
 - Suppressing blinking
 - Ignoring pain signals
 - "Active focus" drills
 
 **Warning signs to stop immediately:**
+
 - Eye socket, temple, or eyeball pain
 - Blurred vision
 - Double vision

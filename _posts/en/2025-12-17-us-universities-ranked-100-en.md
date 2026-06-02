@@ -35,6 +35,7 @@ Exact lists for ranks 90-110 are not fully public without subscription, but base
 These often fall between ranks 90 and 120, with frequent ties.
 
 For comparison, in global rankings:
+
 - In Times Higher Education (THE) World University Rankings 2026, US universities around global rank 100-200 (mid-tier nationally) include schools like Tufts University, University of Notre Dame, Indiana University, Arizona State University, Northeastern University, University of Miami, and University of Utah.
 - In QS World University Rankings, the top 100 US universities are generally the strongest nationally, so "around 100" in a US-specific QS list would be lower-tier top institutions.
 
@@ -42,6 +43,6 @@ Rankings change yearly, and "around 100" can span 80-120 due to ties. For the la
 
 **References:**
 
-- https://www.usnews.com/best-colleges/rankings/national-universities
-- https://www.timeshighereducation.com/student/best-universities/best-universities-united-states
-- https://www.topuniversities.com/where-to-study/north-america/united-states/ranked-top-100-us-universities
+- <https://www.usnews.com/best-colleges/rankings/national-universities>
+- <https://www.timeshighereducation.com/student/best-universities/best-universities-united-states>
+- <https://www.topuniversities.com/where-to-study/north-america/united-states/ranked-top-100-us-universities>

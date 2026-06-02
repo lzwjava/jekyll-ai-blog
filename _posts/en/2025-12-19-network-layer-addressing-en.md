@@ -16,7 +16,8 @@ Answer:
 
 The correct answer is **C) Network Layer**.
 
-### Explanation:
+### Explanation
+
 The OSI (Open Systems Interconnection) model consists of seven layers, each with specific responsibilities:
 
 - **Physical Layer (Layer 1)**: Handles the transmission of raw bits over a physical medium (e.g., cables, signals).

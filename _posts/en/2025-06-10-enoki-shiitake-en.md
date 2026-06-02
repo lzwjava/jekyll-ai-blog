@@ -13,6 +13,7 @@ In Guangzhou’s hot June weather (typically 28–33°C with high humidity), fre
 ---
 
 ### Why Your Mushrooms Spoiled
+
 - **Heat and Humidity**: Guangzhou’s summer heat accelerates microbial growth, especially for delicate mushrooms like enoki, which have a high water content (around 90%). Shiitake are sturdier but still spoil quickly in humid, warm conditions.
 - **Delayed Storage**: Leaving mushrooms at room temperature for three days after delivery likely caused them to decay. Enoki and shiitake typically last only 1–2 days at room temperature (25–30°C) in high humidity.
 - **Transportation Stress**: Shipping from another province may expose mushrooms to temperature fluctuations, reducing their shelf life upon arrival.
@@ -20,6 +21,7 @@ In Guangzhou’s hot June weather (typically 28–33°C with high humidity), fre
 ---
 
 ### How to Avoid Spoilage
+
 1. **Immediate Refrigeration Upon Delivery**:
    - Store enoki and shiitake in the refrigerator (0–4°C) as soon as they arrive. Enoki can last 7–10 days, and shiitake 10–14 days when refrigerated properly.
    - If you’re not home, arrange for a neighbor or delivery locker with cooling options (if available on JD.com) to store the package.
@@ -43,6 +45,7 @@ In Guangzhou’s hot June weather (typically 28–33°C with high humidity), fre
 ---
 
 ### Preservation Methods
+
 If you can’t consume the mushrooms quickly, consider these methods to extend their shelf life:
 
 1. **Refrigeration (Short-Term)**:
@@ -65,7 +68,9 @@ If you can’t consume the mushrooms quickly, consider these methods to extend t
 ---
 
 ### Shelf Life at Room Temperature in Guangzhou’s June Weather
+
 In Guangzhou’s hot and humid conditions (28–33°C, 80–90% humidity):
+
 - **Enoki**: Become slimy and spoil within 1–2 days if left unrefrigerated.
 - **Shiitake**: Develop mold or off odors within 2–3 days at room temperature.
 - Signs of spoilage include sliminess, discoloration, or a sour smell. Discard mushrooms if these appear.
@@ -73,6 +78,7 @@ In Guangzhou’s hot and humid conditions (28–33°C, 80–90% humidity):
 ---
 
 ### Similar Vegetables or Alternatives
+
 If enoki and shiitake are prone to spoilage due to shipping or storage challenges, consider these alternatives that are similar in texture or culinary use and may be more resilient:
 
 1. **King Oyster Mushrooms (杏鲍菇)**:
@@ -98,6 +104,7 @@ If enoki and shiitake are prone to spoilage due to shipping or storage challenge
 ---
 
 ### Practical Tips for Guangzhou’s Climate
+
 - **Local Sourcing**: Buy mushrooms from local Guangzhou markets or nearby farms to reduce shipping time and ensure freshness. Check JD.com for local or same-day delivery options.
 - **Plan Consumption**: Only order quantities you can consume within a week, especially for enoki.
 - **Backup Plan**: If you’re away from home often, consider dried or canned mushrooms as a low-maintenance alternative.
@@ -106,7 +113,9 @@ If enoki and shiitake are prone to spoilage due to shipping or storage challenge
 ---
 
 ### Summary
+
 To avoid spoilage of enoki and shiitake mushrooms in Guangzhou’s June heat:
+
 - Refrigerate immediately upon delivery (0–4°C).
 - Use breathable packaging (paper bags or perforated plastic).
 - Opt for cold-chain shipping when ordering from JD.com.

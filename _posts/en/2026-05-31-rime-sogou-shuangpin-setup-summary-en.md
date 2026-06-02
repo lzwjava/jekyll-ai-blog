@@ -120,7 +120,7 @@ patch:
 
 ```
 # format: word<Tab>pinyin<Tab>priority
-github	github	100
+github github 100
 ```
 
 **Update rime-ice** (pull latest dicts/schemas):

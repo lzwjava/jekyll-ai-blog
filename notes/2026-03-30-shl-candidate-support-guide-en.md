@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What is SHL Direct (https://www.shl.com/shldirect/en/) and what does it offer?
+Question: What is SHL Direct (<https://www.shl.com/shldirect/en/>) and what does it offer?
 
 Answer:
 
@@ -22,21 +22,27 @@ Answer:
 ## What Does SHL Direct Offer?
 
 ### 1. Practice Tests
+
 SHL Direct allows candidates to take full-length practice tests to better prepare for upcoming assessments. Tests are available in several languages.
 
 ### 2. Example Questions
+
 The site provides example questions so candidates can understand the types of tests they might face, along with worked answers.
 
 ### 3. Assessment Advice
+
 The platform offers expert advice on assessment techniques and navigating the assessment process, covering a wide range of typical assessment methods employers use.
 
 ### 4. Neurodiversity Hub
+
 SHL Direct includes a dedicated Neurodiversity Information Hub for candidates, offering comprehensive information and resources with the goal of creating a more inclusive assessment experience for neurodiverse talent.
 
 ### 5. Accessibility Support
+
 The platform also provides accessibility support for candidates who would benefit from accommodations when applying for jobs that use SHL assessments.
 
 ### 6. Candidate Support
+
 Candidates can access answers to frequently asked questions for technical queries when taking a test, and can contact the support team directly for further help.
 
 ---

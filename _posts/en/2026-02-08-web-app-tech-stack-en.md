@@ -34,6 +34,7 @@ Docker packages your application consistently. Kubernetes orchestrates multiple 
 Realistically, you can launch a basic web app with just: a language/framework, a database, and a web server. Everything else gets added as you scale or hit performance bottlenecks.
 
 **A Minimal Stack Example**
+
 - PHP + Laravel + MySQL + Nginx = functional web app
 - Node.js + Express + PostgreSQL + Nginx = another viable option
 

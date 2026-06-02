@@ -24,7 +24,7 @@ Answer:
 
 In the official Marxist viewpoint adopted in China (particularly since the socialist transformation was basically completed), **the essence of ethnic issues in the socialist period is contradictions among the people (人民内部矛盾)**.
 
-### Key reasoning and explanation:
+### Key reasoning and explanation
 
 After the basic completion of socialist transformation (around the mid-1950s in China), the exploiting classes as a whole were basically eliminated. Therefore, the large-scale, fierce class struggle between exploiting and exploited classes no longer constituted the principal contradiction in society, and this logic also applies to ethnic relations.
 
@@ -39,7 +39,7 @@ However, **these contradictions are no longer fundamentally class contradictions
 
 Therefore, they should be handled using **the correct method of handling contradictions among the people** — mainly through democratic methods, persuasion-education, consultation, helping backward areas develop, implementing regional ethnic autonomy, respecting customs and habits, etc. — rather than through class struggle methods.
 
-### Why the other options are incorrect:
+### Why the other options are incorrect
 
 - **A. Class contradiction** → This was the viewpoint held during the period when class struggle was regarded as the principal contradiction (especially during the "Cultural Revolution"). It is no longer the official position in the socialist period after the exploiting classes were eliminated.
 - **B. Development imbalance problem** → Imbalanced development is indeed an important manifestation and major cause of ethnic problems in the socialist period, but it is not the most fundamental "essence" (实质). The essence is still a type of internal contradiction among the people.

@@ -38,9 +38,9 @@ These ideas are "unpopular" because they contradict positive narratives of India
 
 References:
 
-- https://www.reddit.com/r/unitedstatesofindia/comments/1gqk797/what_are_some_unpopular_opinions_in_india/
-- https://www.reddit.com/r/IndiaSpeaks/comments/17bgu79/what_unpopular_opinion_on_india_will_have_you/
-- https://www.reddit.com/r/indiadiscussion/comments/17bhwen/whats_your_unpopular_opinion_about_india_that/
-- https://www.reddit.com/r/AskIndia/comments/18umg61/what_is_your_unpopular_opinion_related_to_india/
-- https://www.reddit.com/r/IndiaSpeaks/comments/17oy8pu/whats_a_controversial_opinion_about_india_you/
-- https://www.pewresearch.org/short-reads/2025/08/13/how-people-in-24-countries-view-india/
+- <https://www.reddit.com/r/unitedstatesofindia/comments/1gqk797/what_are_some_unpopular_opinions_in_india/>
+- <https://www.reddit.com/r/IndiaSpeaks/comments/17bgu79/what_unpopular_opinion_on_india_will_have_you/>
+- <https://www.reddit.com/r/indiadiscussion/comments/17bhwen/whats_your_unpopular_opinion_about_india_that/>
+- <https://www.reddit.com/r/AskIndia/comments/18umg61/what_is_your_unpopular_opinion_related_to_india/>
+- <https://www.reddit.com/r/IndiaSpeaks/comments/17oy8pu/whats_a_controversial_opinion_about_india_you/>
+- <https://www.pewresearch.org/short-reads/2025/08/13/how-people-in-24-countries-view-india/>

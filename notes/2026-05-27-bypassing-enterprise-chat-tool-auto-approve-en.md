@@ -24,6 +24,7 @@ The key enforcement points are:
 **File 1**: `src/vs/workbench/contrib/chat/browser/tools/languageModelToolsService.ts`
 
 Lines 1128-1131 — the gate function:
+
 ```typescript
 private _isAutoApprovePolicyRestricted(): boolean {
     const inspected = this._configurationService.inspect<boolean>(ChatConfiguration.GlobalAutoApprove);
@@ -32,6 +33,7 @@ private _isAutoApprovePolicyRestricted(): boolean {
 ```
 
 Line 1209 — the actual check before auto-confirming a tool call:
+
 ```typescript
 if (chatSessionResource && !this._isAutoApprovePolicyRestricted() && this._isSessionInAutoApproveLevel(chatSessionResource)) {
     return { type: ToolConfirmKind.ConfirmationNotNeeded, reason: 'auto-approve-all' };
@@ -41,6 +43,7 @@ if (chatSessionResource && !this._isAutoApprovePolicyRestricted() && this._isSes
 **File 2**: `src/vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/terminalToolAutoApprove.ts`
 
 Lines 26-29 — same pattern for terminal tools:
+
 ```typescript
 const inspected = configurationService.inspect<boolean>(ChatConfiguration.GlobalAutoApprove);
 if (inspected.policyValue === false) {
@@ -51,6 +54,7 @@ if (inspected.policyValue === false) {
 **File 3**: `src/vs/workbench/contrib/chat/browser/widget/input/permissionPickerActionItem.ts`
 
 Line 72 — greys out the "Bypass Approvals" button in the UI:
+
 ```typescript
 const isAutoApprovePolicyRestricted = () => configurationService.inspect<boolean>(ChatConfiguration.GlobalAutoApprove).policyValue === false;
 ```

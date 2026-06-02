@@ -9,15 +9,16 @@ translated: false
 type: note
 ---
 
-Question: Provide an introduction to more leaderboards on https://labs.scale.com/leaderboard.
+Question: Provide an introduction to more leaderboards on <https://labs.scale.com/leaderboard>.
 
 Answer:
 
-The page at **https://labs.scale.com/leaderboard** is the main **Scale Labs Leaderboards** hub by Scale AI. It serves as a central dashboard showcasing expert-driven benchmarks that test frontier AI models, agentic capabilities, reasoning, coding, tool use, safety, and more. The leaderboards evaluate over 100 models from major labs (OpenAI, Anthropic, Google, Meta, and open-source contributors) across 20+ rigorous, often real-world-oriented benchmarks.
+The page at **<https://labs.scale.com/leaderboard>** is the main **Scale Labs Leaderboards** hub by Scale AI. It serves as a central dashboard showcasing expert-driven benchmarks that test frontier AI models, agentic capabilities, reasoning, coding, tool use, safety, and more. The leaderboards evaluate over 100 models from major labs (OpenAI, Anthropic, Google, Meta, and open-source contributors) across 20+ rigorous, often real-world-oriented benchmarks.
 
 Scale Labs focuses on challenging current AI limits with tasks that go beyond simple question-answering — emphasizing long-horizon agentic behavior, deep reasoning, honest/safe outputs, multimodal understanding, and professional-domain expertise.
 
 ### Key Highlighted Benchmarks (as of March 19, 2026)
+
 Here are some of the prominent leaderboards available:
 
 - **SWE Atlas - Codebase QnA**

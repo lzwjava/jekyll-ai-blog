@@ -13,9 +13,11 @@ Spring Framework 与 Spring Boot 自诞生以来经历了重大演进。以下�
 ---
 
 ## **Spring Framework 演进历程**
+
 **Spring Framework** 由 **Rod Johnson** 于 2003 年创建，作为 Java EE 中笨重的 **Enterprise JavaBeans (EJB)** 模型的替代方案。它引入了轻量级的 **控制反转 (IoC)** 和 **依赖注入 (DI)** 模型，使 Java 开发更具模块化和可测试性。
 
 ### **Spring Framework 重要里程碑**
+
 1. **Spring Framework 1.x（2004 年）**
    - 引入 **IoC（依赖注入）** 与 **AOP（面向切面编程）**
    - 为笨重的 Java EE 应用提供替代方案
@@ -47,9 +49,11 @@ Spring Framework 与 Spring Boot 自诞生以来经历了重大演进。以下�
 ---
 
 ## **Spring Boot 演进历程**
+
 Spring Boot 于 **2014 年** 首次推出，通过消除繁琐配置来简化基于 Spring 应用的搭建和开发流程。
 
 ### **Spring Boot 重要里程碑**
+
 1. **Spring Boot 1.x（2014 年）**
    - 引入 **自动配置** 与 **Spring Initializr**
    - 内置 **Tomcat、Jetty** 等服务器（无需 WAR 包部署）
@@ -68,6 +72,7 @@ Spring Boot 于 **2014 年** 首次推出，通过消除繁琐配置来简化基
 ---
 
 ## **Spring 未来展望**
+
 - **Spring AI**：用于人工智能集成的新模块
 - 为云原生应用提供 **更完善的虚拟线程与 GraalVM 支持**
 - 增强 **Kubernetes 与无服务器架构能力**

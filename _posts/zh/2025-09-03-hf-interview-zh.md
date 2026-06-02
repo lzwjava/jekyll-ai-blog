@@ -13,7 +13,6 @@ type: post
 ![](/assets/images/hf/hf1.jpg){: .responsive }
 *来源：chatgpt.com*{: .caption }
 
-
 A: 李智维，在人工智能与金融交叉领域工作的软件工程师。
 
 B: 金海峰，从事人工智能基础设施工作的软件工程师。

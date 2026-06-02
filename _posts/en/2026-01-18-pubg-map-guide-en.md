@@ -28,12 +28,14 @@ PUBG Mobile offers a variety of battle royale maps, primarily in Classic mode, w
 | Rondo     | 8x8 km  | 100         | Chinese-inspired urban/rural   | Newest addition, recent loot rebalance. |
 
 **Additional Details:**
+
 - **Availability**: Maps rotate in queues (e.g., Ranked, Classic, Payload). Players can download individual maps to save space. Erangel, Miramar, and Rondo are staples in competitive play.
 - **Other Modes**: Arena modes use smaller, custom maps (e.g., for Team Deathmatch). Payload and Infection use select BR maps.
 - **Recent Updates**: Loot Trucks added to Erangel, Livik, and Miramar in v4.1 (Nov 2025). Paramo is in beta/testing but not fully released globally yet.
 - Maps may vary slightly by region/server, but these are standard in Global.
 
 References:
+
 - [PUBG Mobile Wiki - Maps](https://pubgmobile.fandom.com/wiki/Maps)
 - [PUBG Maps Wiki](https://pubg.fandom.com/wiki/Maps)
 - [PUBG Mobile Official Events](https://www.pubgmobile.com/en-US/events.shtml)

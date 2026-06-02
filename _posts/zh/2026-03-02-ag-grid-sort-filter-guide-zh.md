@@ -64,7 +64,7 @@ const gridOptions = {
 | 属性            | 类型                      | 作用                                               | 默认值   | 常见值                                   |
 |-----------------|---------------------------|----------------------------------------------------|----------|------------------------------------------|
 | `sortable`      | `boolean`                 | 允许点击列头进行排序                               | `true`   | `true` / `false`                         |
-| `filter`        | `boolean \| string \| object` | 为列启用过滤                               | `false`  | `true`、`'agTextColumnFilter'`、` 'agNumberColumnFilter'`、` 'agDateColumnFilter'`、` 'agSetColumnFilter'` |
+| `filter`        | `boolean \| string \| object` | 为列启用过滤                               | `false`  | `true`、`'agTextColumnFilter'`、`'agNumberColumnFilter'`、`'agDateColumnFilter'`、`'agSetColumnFilter'` |
 | `floatingFilter`| `boolean`                 | 在列头下方显示小型过滤框                           | `false`  | 通常在 `defaultColDef` 中设置为 `true`   |
 
 ### 最受欢迎的过滤器类型

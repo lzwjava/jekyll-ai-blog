@@ -14,6 +14,7 @@ Here’s a clear **age-by-age guide** for choking hazards and when it’s genera
 ---
 
 ### **Ages 0–12 Months**
+
 - **Avoid:**
   - **All** hard, round, sticky, or chunky foods (e.g., whole nuts, popcorn, raw carrots, whole grapes, peanut butter globs).
   - Honey (risk of botulism).
@@ -25,6 +26,7 @@ Here’s a clear **age-by-age guide** for choking hazards and when it’s genera
 ---
 
 ### **Ages 1–3 Years**
+
 - **Avoid:**
   - **Whole nuts/seeds** (e.g., peanuts, almonds, sunflower seeds).
   - **Hard raw veggies/fruits** (e.g., raw carrots, apples, celery) unless finely grated or cooked.
@@ -37,7 +39,9 @@ Here’s a clear **age-by-age guide** for choking hazards and when it’s genera
   - Meat: Shredded or finely chopped.
 
 ---
+
 ### **Ages 3–4 Years**
+
 - **Still Risky (Use Caution):**
   - Whole nuts, popcorn, hard candies, large chunks of meat/cheese.
 - **Safer to Introduce:**
@@ -46,7 +50,9 @@ Here’s a clear **age-by-age guide** for choking hazards and when it’s genera
   - Hot dogs/sausages: Finely chopped or cut into very small pieces.
 
 ---
+
 ### **Ages 4+ Years**
+
 - **Generally Safe (with Supervision):**
   - Whole nuts (if child can chew thoroughly).
   - Popcorn (in small amounts; still a risk until ~5 years).
@@ -54,7 +60,9 @@ Here’s a clear **age-by-age guide** for choking hazards and when it’s genera
   - Whole grapes, cherry tomatoes (if child is used to chewing well).
 
 ---
+
 ### **Ages 5+ Years**
+
 - **Most foods are safe**, but continue to:
   - Cut round foods (e.g., grapes, sausages) for younger kids in the household.
   - Teach proper chewing and no running/eating while lying down.
@@ -62,6 +70,7 @@ Here’s a clear **age-by-age guide** for choking hazards and when it’s genera
 ---
 
 ### **Key Tips for All Ages:**
+
 - **Size Matters:** Food pieces should be no larger than **½ inch (1.25 cm)** in any direction.
 - **Texture:** Avoid hard, sticky, or slippery foods until molars develop (~4–6 years).
 - **Supervision:** Always watch children while eating, especially high-risk foods.

@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What does the YouTube video at https://www.youtube.com/watch?v=aR6CzM0x-g0 say?
+Question: What does the YouTube video at <https://www.youtube.com/watch?v=aR6CzM0x-g0> say?
 
 Answer:
 
@@ -18,7 +18,8 @@ The video is a keynote talk titled **"CUDA Mode Keynote | Andrej Karpathy | Eure
 
 In it, Karpathy explains the creation and details of his project **llm.c** — a from-scratch implementation to train language models (specifically recreating GPT-2 style training) purely in C/CUDA, with almost no external dependencies (except optionally cuBLAS for FlashAttention).
 
-### Main points he covers:
+### Main points he covers
+
 - **Motivation**: While making educational YouTube videos about training LLMs, he became frustrated with PyTorch bugs (especially torch.compile issues during eval/inference). He decided to rewrite everything in plain C to regain full control, transparency, and understanding.
 - **Implementation approach**:
   - Starts by manually writing forward + backward passes in pure C using simple float arrays (no high-level abstractions).
@@ -44,6 +45,7 @@ The talk is technical but accessible if you're familiar with deep learning basic
 Karpathy also wrote a detailed accompanying Twitter/X thread breaking it down further.
 
 References:
+
 - [YouTube Video](https://www.youtube.com/watch?v=aR6CzM0x-g0)
 - [Andrej Karpathy's X thread on the keynote](https://x.com/karpathy/status/1841536804073439268)
 - [Accel event page with more context](https://www.accel.com/noteworthy/6-keynotes-from-the-first-cuda-mode-irl-hackathon)

@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：https://www.yinwang.org/posts/tests 这篇文章说了什么？
+问题：<https://www.yinwang.org/posts/tests> 这篇文章说了什么？
 
 回答：
 

@@ -15,6 +15,7 @@ type: note
 **题目内容分析：**
 
 本题考查使用 Classless Inter-Domain Routing (CIDR) 表示 IP 地址的方法。题目格式为：
+
 - IP Address ::= {<（）>, <Host Number>}
 
 该表达式中有一个空格需要填空。

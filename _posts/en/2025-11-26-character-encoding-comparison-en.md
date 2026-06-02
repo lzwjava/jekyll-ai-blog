@@ -17,6 +17,7 @@ Yes, you're absolutely right with your understanding! Let me explain it clearly 
 Character encoding is a system that defines **how characters (letters, digits, symbols, Chinese characters, etc.) are represented as numbers (bytes) inside a computer**.
 
 Since computers only understand numbers (bytes), we need a table that says:
+
 - "A" → number 65
 - "B" → number 66
 - "你" (Chinese character for "you") → some number(s)
@@ -54,6 +55,7 @@ If you open a Chinese text file saved in GB2312 with UTF-8 encoding → you get 
 That’s why modern software defaults to UTF-8: one encoding to rule them all.
 
 So yes, you're exactly correct:
+
 - All encodings define **character ↔ number** mapping.
 - GB2312/GBK are Chinese-specific mappings.
 - UTF-8 is the universal modern replacement that can handle Chinese (and everything else) perfectly.

@@ -25,6 +25,7 @@ type: note
 简而言之，90年代/00年代的技术按照当时的标准算是“快速”的，但它是线性的且受控的。现在则像野火——更丰富、更混乱且持续不断。你认为最大的区别是由什么驱动的：是工具，还是仅仅因为更多的声音？
 
 **参考文献**
+
 - [时间线：天安门抗议 - BBC新闻](https://www.bbc.com/news/world-asia-china-27404764)
 - [时间线：导致天安门广场事件的经过 - PBS](https://www.pbs.org/wgbh/frontline/article/timeline-tiananmen-square/)
 - [9/11袭击：事实、背景与影响 | 历史频道](https://www.history.com/topics/21st-century/9-11-attacks)

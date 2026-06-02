@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：https://www.youtube.com/watch?v=aR6CzM0x-g0 这个 YouTube 视频讲了什么？
+问题：<https://www.youtube.com/watch?v=aR6CzM0x-g0> 这个 YouTube 视频讲了什么？
 
 回答：
 
@@ -18,7 +18,7 @@ type: note
 
 在演讲中，Karpathy 详细介绍了他的项目 **llm.c** 的创建过程和细节——这是一个纯粹使用 C/CUDA 从零开始实现语言模型训练（专门用于重现 GPT-2 风格的训练）的项目，几乎没有外部依赖（除了可选的用于 FlashAttention 的 cuBLAS）。
 
-### 他涵盖的主要观点：
+### 他涵盖的主要观点
 
 - **动机**：在制作关于训练 LLM 的教育类 YouTube 视频时，他对 PyTorch 的 bug（特别是 eval/inference 期间的 torch.compile 问题）感到沮丧。他决定用纯 C 语言重写一切，以重新获得完全的控制权、透明度和理解力。
 - **实现方法**：
@@ -45,6 +45,7 @@ type: note
 Karpathy 还写了一条详细的 Twitter/X 线程来进一步拆解。
 
 参考资料：
+
 - [YouTube Video](https://www.youtube.com/watch?v=aR6CzM0x-g0)
 - [Andrej Karpathy 关于主题演讲的 X 线程](https://x.com/karpathy/status/1841536804073439268)
 - [包含更多背景信息的 Accel 活动页面](https://www.accel.com/noteworthy/6-keynotes-from-the-first-cuda-mode-irl-hackathon)

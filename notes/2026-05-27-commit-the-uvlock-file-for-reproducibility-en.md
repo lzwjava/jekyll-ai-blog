@@ -37,4 +37,4 @@ git rm --cached uv.lock  # if it was ignored but already existed
 # then remove the uv.lock line from .gitignore
 ```
 
-The uv docs explicitly recommend this: https://docs.astral.sh/uv/concepts/projects/layout/#lockfile
+The uv docs explicitly recommend this: <https://docs.astral.sh/uv/concepts/projects/layout/#lockfile>

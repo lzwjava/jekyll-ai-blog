@@ -9,6 +9,7 @@ type: note
 ---
 
 ## Table of Contents
+
 1. [Introduction to Aspect-Oriented Programming (AOP)](#introduction-to-aspect-oriented-programming-aop)
 2. [AspectJ Overview](#aspectj-overview)
 3. [AspectJ with Java](#aspectj-with-java)
@@ -22,6 +23,7 @@ type: note
 AOP is a programming paradigm that aims to increase modularity by allowing separation of cross-cutting concerns. Cross-cutting concerns are functionalities that span multiple parts of a system (like logging, security, transaction management).
 
 Key AOP concepts:
+
 - **Aspect**: A modularization of a concern that cuts across multiple classes
 - **Join point**: A point during program execution (method call, field access, etc.)
 - **Advice**: Action taken at a particular join point
@@ -31,6 +33,7 @@ Key AOP concepts:
 ## AspectJ Overview
 
 AspectJ is the most popular and full-featured AOP implementation for Java. It provides:
+
 - A powerful pointcut language
 - Different weaving mechanisms (compile-time, post-compile, load-time)
 - Full AOP support beyond what Spring AOP offers
@@ -280,6 +283,7 @@ public class TransactionAspect {
 5. **Around advice** is more expensive than other advice types
 
 For maximum performance in production:
+
 - Use compile-time weaving where possible
 - Keep pointcuts simple
 - Avoid overly broad pointcut expressions

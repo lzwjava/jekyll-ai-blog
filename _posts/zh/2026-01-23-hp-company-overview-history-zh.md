@@ -14,7 +14,8 @@ type: note
 
 **Answer:**
 
-### Hewlett-Packard → HP Inc.
+### Hewlett-Packard → HP Inc
+
 **公司全面介绍 (2025版)**
 
 ### 快速概览 – 核心事实

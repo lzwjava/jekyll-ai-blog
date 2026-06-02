@@ -46,6 +46,7 @@ If you’re looking to register for the **National Higher Education Self-study E
 ## Exam Schedule
 
 The **National Higher Education Self-study Examination** is conducted **three times annually** across China, including Guangdong:
+
 - **January (Month 1)**
 - **April (Month 4)**
 - **October (Month 10)**

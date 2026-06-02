@@ -28,21 +28,25 @@ All good. Here's a summary of what was changed and why:
 ### `ww/note/create_note_utils.py` — caller layer
 
 **Problem:** `_call_llm_or_exit` swallowed all detail. The old code:
+
 ```python
 result = call_openrouter_api(prompt, max_tokens=max_tokens)
 if not result:
     print("Failed to generate title with max 6 words. Exit.")
     sys.exit(1)
 ```
+
 No model name, no prompt preview, no exception details.
 
 **Fix:** Wrapped in a try/except that prints:
+
 - `[error] LLM call failed. Model: <model>, max_tokens: <N>`
 - `[error] Prompt (first 300 chars): <prompt preview>`
 - `[error] Exception: <full details>`
 - Full traceback
 
 And for the empty-result path (which shouldn't happen anymore since the LLM client now raises on empty content):
+
 - `[error] LLM returned empty result. Model: <model>, max_tokens: <N>`
 - `[error] Prompt (first 300 chars): <prompt preview>`
 

@@ -15,6 +15,7 @@ It sounds like you’re experiencing **mental fatigue** or possibly the early si
 Here are the most likely causes and what you can do right away:
 
 ### Immediate Relief (Do These Today)
+
 1. **Take a real break (30–90 minutes)**
    – Step away from all screens and books
    – Go for a 15–20 minute walk outside (natural light + movement resets your brain)
@@ -34,6 +35,7 @@ Here are the most likely causes and what you can do right away:
    – Light stretching or shaking out your arms/shoulders
 
 ### Longer-Term Fixes (Prevent This from Happening Again)
+
 - Use the **Pomodoro technique strictly**: 25–50 minutes focused work → 5–10 min break. After 3–4 cycles, take a longer 20–30 min break.
 - Never study more than **2–3 hours without a proper meal + movement break**.
 - Sleep 7–8 hours minimum. Chronic sleep debt is the #1 cause of slow reading and headaches during study.
@@ -41,6 +43,7 @@ Here are the most likely causes and what you can do right away:
 - Reduce caffeine if you’re relying on it — it causes rebound headaches and worsens dehydration.
 
 ### Red Flags (See a Doctor If…)
+
 - Headache is severe or one-sided
 - You see flashing lights, blurred spots, or nausea
 - Symptoms last more than 2–3 days even after rest

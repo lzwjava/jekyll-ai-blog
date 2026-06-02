@@ -18,6 +18,7 @@ type: post
 ## “Tabs Killer” 干什么？
 
 “Tabs Killer”是一个Chrome扩展程序，它：
+
 - 监控打开的标签页数量。
 - 允许用户设置最大标签页限制。
 - 当限制超过时，自动关闭最旧的标签页。
@@ -82,7 +83,8 @@ tabs-killer/
 }
 ```
 
-### 说明：
+### 说明
+
 - **`manifest_version`**：必须是 `2`（Chrome 已废弃版本 1）。
 - **`name`、`description`、`version`**：基本元数据。
 - **`browser_action`**：定义扩展的工具栏图标和弹出界面（`popup.html`）。
@@ -155,7 +157,8 @@ tabs-killer/
 </html>
 ```
 
-### 说明：
+### 说明
+
 - **库**：使用 jQuery、Underscore、Bootstrap 和 RequireJS 进行功能和样式设置。
 - **UI 元素**：
   - 一个文本输入（`#maxTabs`）用于设置最大标签页数。
@@ -252,7 +255,8 @@ require([], function () {
 });
 ```
 
-### 说明：
+### 说明
+
 - **初始化**：连接到后台页面的 `GlobalObject` 以获取设置和标签页管理。
 - **`init`**：设置事件监听器，例如对 `#maxTabs` 的防抖输入。
 - **`loadOptions`**：加载保存的设置（最大标签页和白名单）并填充 UI。
@@ -281,11 +285,13 @@ require(['tabmanager', 'settings'], function (tabmanager, settings) {
 });
 ```
 
-### 假设：
+### 假设
+
 - **`settings.js`**：管理存储（例如 `chrome.storage`）以保存设置，如 `maxTabs` 和 `whiteList`。
 - **`tabmanager.js`**：使用 `tabs` API 监控并根据 `maxTabs` 限制和 `whiteList` 关闭标签页。
 
 假设的 `tabmanager.js` 示例：
+
 ```javascript
 var tabmanager = {
   init: function () {

@@ -32,6 +32,7 @@ Answer:
 SCUT 最初是一所以 Engineering 为强项的机构，由华南和华中地区几所主要大学（包括中山大学、岭南大学、湖南大学等）的优质 Engineering 系组建而成。
 
 经过数十年的发展，它已成为一所综合性、多学科大学，在以下领域具有显著优势：
+
 - Engineering（其传统核心且仍是实力最强的领域）
 - Science
 - Business & Management
@@ -40,6 +41,7 @@ SCUT 最初是一所以 Engineering 为强项的机构，由华南和华中地�
 - 一些医学相关学科
 
 它在以下领域尤为出名：
+
 - Architecture
 - Chemical engineering
 - Materials science

@@ -11,8 +11,6 @@ type: note
 
 Here's the full rundown:
 
-
-
     Ghostty Installation — Comprehensive Review
 
     Version & Source

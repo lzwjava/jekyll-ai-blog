@@ -38,10 +38,13 @@ This is essentially **behavioral activation** — a core principle in cognitive 
 The brain doesn't release dopamine *before* doing something interesting — it releases it *during and after*. You can't wait to feel ready.
 
 ### The Discomfort Phase
+
 The first 5–20 minutes of work trigger mild stress (prefrontal cortex resistance). This is real and biological — not weakness. It's why starting feels so bad.
 
 ### Flow State After the Threshold
+
 Once past that friction, the brain shifts into a **flow state**:
+
 - Dopamine and norepinephrine rise
 - Self-monitoring decreases
 - Time perception distorts

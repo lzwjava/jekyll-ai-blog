@@ -16,10 +16,12 @@ type: note
 Correct — the WeChat Mac desktop client does **not support sending red packets**. This is a long-standing limitation of the desktop version.
 
 What works on Mac desktop:
+
 - Receiving red packets (you'll see them in chat, but must open on mobile)
 - Text, files, voice messages, stickers
 
 What doesn't work on Mac desktop:
+
 - Sending red packets
 - Sending money transfers (转账 is also limited/absent)
 - Some mini-program interactions

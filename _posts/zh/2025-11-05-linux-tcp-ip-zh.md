@@ -17,6 +17,7 @@ type: note
 你无需自己实现 TCP/IP——内核已经完成了这项工作。相反，你使用套接字 API 来与内核"对话"。该 API **内置于 Linux 的标准 C 库（glibc）** 中，因此无需安装或链接单独的"TCP/IP 库"。所有功能都由 `libc`（GNU C 库）提供。
 
 #### 关键库和头文件
+
 - **主库**：`libc`（glibc）。所有套接字函数都包含在此库中。隐式链接此库（使用 `gcc` 时通常是自动的）。
   - 位置：通常为 `/lib/x86_64-linux-gnu/libc.so.6`（或类似路径，具体取决于你的体系结构和发行版）。你可以使用 `ldd /bin/ls` 或 `locate libc.so` 查找它。
 - **头文件**（用于声明）：这些是 Linux 开发头文件的一部分。
@@ -29,6 +30,7 @@ type: note
 在 Linux 上不需要像 `-lsocket` 这样的额外标志（这与一些旧的 Unix 系统不同）。只需使用 `gcc your_program.c -o your_program` 编译即可。
 
 #### 基础示例：C 语言中的简单 TCP 客户端
+
 这是一个连接到服务器（例如 example.com 的 80 端口）的最小 TCP 客户端。它演示了套接字 API 的使用。
 
 ```c
@@ -77,6 +79,7 @@ int main() {
 对于服务器，你将使用 `bind()`、`listen()` 和 `accept()` 而不是 `connect()`。
 
 #### 延伸学习
+
 - **手册页**：在你的 Linux 系统上运行 `man socket` 或 `man 7 ip` 以获取详细文档。
 - **内核侧**：如果你指的是内核级实现，请查看 `/usr/src/linux/net/ipv4/`（TCP）或 `/usr/src/linux/net/ipv6/`（IPv6）中的源代码。使用 `sudo apt install linux-headers-$(uname -r)` 安装内核头文件。
 - 资源：

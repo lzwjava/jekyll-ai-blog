@@ -16,6 +16,7 @@ type: note
 根据现有信息，**Lenovo G490** 似乎不是一个官方或有广泛记录的 Lenovo 笔记本电脑型号。这极有可能是对 **Lenovo B490** 的误写或记忆偏差。Lenovo B490 是联想在 2012–2013 年左右发布的 Essential B Series 系列中的一款面向预算型/商务市场的笔记本电脑（类似于 B480/B490/B590 等型号）。在联想当时的 G 系列产品线中，包含 G400/G500/G40 等型号，但没有与 G490 描述相匹配的产品。因此，以下介绍基于关系密切且有详细记录的 **Lenovo B490**。
 
 ### Lenovo B490 (可能指代的 G490) 概览
+
 Lenovo B490 是一款 14 英寸的入门级商务笔记本，专为家庭和办公使用设计，强调性能可靠、安全特性和高性价比。
 
 **主要规格**（因配置而异）：
@@ -38,6 +39,7 @@ Lenovo B490 是一款 14 英寸的入门级商务笔记本，专为家庭和办�
 它被定位为一款耐用、实用的机器，具有同级别中良好的做工（例如某些描述中的“磨砂/石纹”表面）和商务友好型特性（如增强的安全性）。
 
 ### InsydeH2O Setup Utility (BIOS)
+
 Lenovo B490 (以及该世代的许多其他 Lenovo 笔记本，尤其是 B/E/G/IdeaPad 系列) 使用 **InsydeH2O** 作为其 BIOS/UEFI Firmware。InsydeH2O (Hardware-2-Operating System) 是 2010 年代初期许多笔记本 OEM 厂商常用的 BIOS 提供商，包括联想的许多型号。
 
 **如何进入 BIOS Setup Utility**:

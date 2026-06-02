@@ -17,6 +17,7 @@ The **Form W-8BEN** (full name: *Certificate of Foreign Status of Beneficial Own
 - Provide their foreign tax identification number (if required) and permanent foreign address
 
 ### Most Common Situations Where You’ll Need a W-8BEN
+
 - You’re a non-U.S. person earning U.S.-source income such as:
   - Dividends from U.S. stocks
   - Interest from U.S. bank accounts or bonds
@@ -25,18 +26,21 @@ The **Form W-8BEN** (full name: *Certificate of Foreign Status of Beneficial Own
 - You’re a freelancer or independent contractor receiving payments from U.S. clients (though sometimes W-8BEN-E is used for entities)
 
 ### Key Parts of the Form
+
 1. Personal info (name, country of citizenship, permanent address)
 2. Foreign TIN (tax ID number from your home country – required for most countries now)
 3. Claim of treaty benefits (Part II) – this is where you specify your country and the reduced withholding rate (often 0%–15% instead of 30%)
 4. Signature and date
 
 ### Important Notes
+
 - Valid for **3 years** from the date signed (or until your info changes)
 - Must be renewed periodically (many brokers remind you)
 - If you don’t submit a valid W-8BEN, the payer usually withholds **30%** automatically (backup withholding)
 - There’s a separate form called **W-8BEN-E** for foreign entities (companies, trusts, etc.)
 
 ### Quick Example
+
 A Canadian freelancer earning royalties from a U.S. publisher fills out W-8BEN, claims the U.S.–Canada tax treaty (Article XII), and gets the withholding rate reduced from 30% to **0%** instead of paying 30% tax upfront.
 
 Official IRS page:

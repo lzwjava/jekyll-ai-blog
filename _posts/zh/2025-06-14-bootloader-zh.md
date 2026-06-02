@@ -13,6 +13,7 @@ type: note
 ---
 
 ### **准备工作**
+
 - **Arduino Uno R3**（需烧录引导程序的目标板，搭载 ATmega328P）
 - **编程器**：以下任选其一：
   - 另一块正常工作的 Arduino 开发板（如额外的 Uno R3）作为 "Arduino as ISP"
@@ -28,6 +29,7 @@ type: note
 此方法使用第二块 Arduino 开发板（如另一块 Uno R3）作为在线系统编程器（ISP）来烧录引导程序。
 
 #### **操作步骤**
+
 1. **准备编程器 Arduino**：
    - 将作为编程器的 Arduino 通过 USB 连接至电脑
    - 打开 Arduino IDE，进入 **文件 > 示例 > 11.ArduinoISP > ArduinoISP**，将此草图上传至编程器 Arduino，使其转换为 ISP 模式
@@ -65,6 +67,7 @@ type: note
 若使用 USBasp 等专用编程器，操作更简便且稳定性更高。
 
 #### **操作步骤**
+
 1. **连接编程器**：
    - 通过 USB 将 USBasp（或同类编程器）连接至电脑
    - 使用 6 针 ICSP 线缆将编程器连接至目标 Arduino Uno R3 的 **ICSP 接口**，注意接口方向（ICSP 接口的第 1 针通常标有圆点或凹槽）
@@ -87,6 +90,7 @@ type: note
 ---
 
 ### **故障排除提示**
+
 - **错误信息**：若出现“avrdude: stk500_getsync()”或“not in sync”等错误，请检查：
   - 所有物理连接（跳线或 ICSP 线缆）
   - 编程器 Arduino 是否正在运行 ArduinoISP 草图（方法一）
@@ -98,6 +102,7 @@ type: note
 ---
 
 ### **补充说明**
+
 - **为何需要烧录引导程序**：引导程序使 Arduino Uno R3 能通过 USB 与 Arduino IDE 通信以上传草图。缺少引导程序则开发板无法响应 USB 上传指令
 - **引导程序类型**：Uno R3 使用 **Optiboot 引导程序**，该程序体积紧凑且相比旧版引导程序支持更快速的上传
 - **更换微控制器**：若需更换 ATmega328P，请确认使用 ATmega328P-PU（DIP 封装）以匹配 Uno R3 的插座。SMD 版本需进行高阶焊接操作

@@ -15,6 +15,7 @@ JavaServer Pages (JSP) 曾是构建 Java 动态 Web 应用的主要技术，允�
 这种迁移并非要"完全弃用 JSP"（旧系统仍在使用的场景），而是采用更高效、更易维护的方案。下面我将根据开发者讨论、调查数据和专家分析阐述关键原因。
 
 ## JSP 失宠的核心原因
+
 诞生于 1999 年的 JSP 在 2025 年的快节奏开发环境中已显过时，以下是其很少被新项目选用的原因：
 
 - **代码混乱难以维护**：JSP 允许将 Java 脚本片段（如 `<% %>`）与 HTML 混合，导致代码难以阅读、测试和调试。JSP 生成的 Servlet 代码在大型项目中容易变成"一团乱麻"，这违背了现代关注点分离原则。
@@ -28,6 +29,7 @@ JavaServer Pages (JSP) 曾是构建 Java 动态 Web 应用的主要技术，允�
 - **调查数据认可度低**：近期 JVM 生态调查显示仅约 8% 的应用使用 JSP 相关技术（如 JSF），而 Spring Boot 占比达 58%。JSP 被视为"遗留技术"或"失败的技术"，过去十余年的架构讨论中已鲜少被提及。
 
 ## Spring Boot 崛起的原因
+
 Spring Boot 通过基于 Spring 框架但减少样板代码的方式简化了 Java Web 开发。它并非直接替代 JSP，而是通过更优的抽象和集成使其失去必要性。开发者青睐 Spring Boot 源于：
 
 - **快速启动与自动配置**：无需手动编写 XML 配置或搭建服务器——Spring Boot 通过"启动器"（如 `spring-boot-starter-web`）管理依赖，内嵌 Tomcat/Jetty 并提供合理默认配置。"Hello World" 应用仅需数分钟即可完成。
@@ -43,6 +45,7 @@ Spring Boot 通过基于 Spring 框架但减少样板代码的方式简化了 Ja
 简而言之，Spring Boot 隐藏了原始 JSP/Servlet 应用中的复杂细节，让团队在保持功能强大的同时提升开发效率。
 
 ## Spring Boot 中替代 JSP 的现代方案
+
 虽然通过 `spring-boot-starter-web` 和 WAR 打包仍可支持 JSP，但官方明确不推荐——Spring Boot 的"设计主张"认为 JSP 存在前述缺陷。替代方案包括：
 
 - **Thymeleaf（最流行）**：能生成合规 HTML 的天然模板引擎。优势包括静态原型设计（无需服务器即可在浏览器中预览）、原生 HTML5 支持、易读语法（如 `th:field` 属性）和便捷的国际化支持。对设计人员友好且与 Spring MVC 完美集成。示例：Thymeleaf 表单看起来像纯 HTML，不像 JSP 那样标签冗杂。
@@ -54,6 +57,7 @@ Spring Boot 通过基于 Spring 框架但减少样板代码的方式简化了 Ja
 对于简单应用，甚至仅需静态 HTML/CSS/JS 配合 Spring Boot 的资源处理机制即可满足需求，无需模板引擎。
 
 ## 总结
+
 从 JSP 到 Spring Boot 的转变反映了向更简洁、更高效率工具演进的大趋势。若需维护遗留 JSP 代码，建议逐步迁移（例如转向 Thymeleaf）。新项目应直接采用 Spring Boot——这已是 2025 年的行业标准。了解 JSP 基础仍有助理解 Web 开发原理，但已非必要前提。
 
 [JSP 和 Servlet 是否仍有价值？(Reddit)](https://www.reddit.com/r/java/comments/197jl86/are_jsp_and_servlets_still_relevant/)

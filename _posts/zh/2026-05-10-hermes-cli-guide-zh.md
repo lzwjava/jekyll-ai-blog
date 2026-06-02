@@ -14,11 +14,13 @@ type: note
 两种操作方式：
 
 1. 运行选择器：
+
    ```
    hermes model
    ```
 
 2. 通过 `config set` 以非交互方式设置（`hermes_cli/main.py:10108-10112`）：
+
    ```
    hermes config set model anthropic/claude-opus-4.7
    ```

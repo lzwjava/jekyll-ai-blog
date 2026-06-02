@@ -49,12 +49,12 @@ Passive video—even educational—**does not train the brain as effectively** a
 
 Partially true, but easy to misunderstand.
 
-### What *is* true:
+### What *is* true
 
 * Early exposure to English sounds helps pronunciation
 * Children can develop **phonetic familiarity** (accent, rhythm)
 
-### What is *not* true:
+### What is *not* true
 
 * Watching English videos ≠ learning English fluently
 * Passive input alone does NOT build:
@@ -146,7 +146,7 @@ If your goal is:
 
 A better approach is:
 
-### For age ~2:
+### For age ~2
 
 * Limit screen time (≤30–60 min)
 * Prefer:
@@ -160,7 +160,7 @@ A better approach is:
 
 ---
 
-### Replace passive watching with:
+### Replace passive watching with
 
 * reading simple English picture books
 * talking in simple English daily
@@ -168,7 +168,7 @@ A better approach is:
 
 ---
 
-### For the older child (5 years):
+### For the older child (5 years)
 
 Focus on:
 

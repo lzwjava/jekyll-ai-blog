@@ -21,9 +21,11 @@ Here are the practical workarounds and options based on the current version (as 
    The terminal interface (`openclaw tui` or `openclaw tui chat`) usually shows tool outputs fully expanded or in a more scrollable/readable format without collapse behavior.
    Many users prefer it for heavy tool usage because it avoids the click-to-expand annoyance completely.
    Run it like this:
+
    ```
    openclaw tui chat
    ```
+
    or start chatting directly in terminal mode.
 
 2. **Ask the agent to summarize or inline important parts**
@@ -46,7 +48,7 @@ Here are the practical workarounds and options based on the current version (as 
    This is unofficial and fragile across updates.
 
 5. **Request the feature**
-   The project is very active on GitHub (https://github.com/openclaw/openclaw).
+   The project is very active on GitHub (<https://github.com/openclaw/openclaw>).
    Open an issue or +1 an existing one requesting "auto-expand tool output cards" or "persistent expanded state for tool results in web UI". The maintainers have been responsive to UX feedback.
 
 **Short answer:** There is no direct config/flag for this right now — switch to the TUI for the best experience, or prompt the agent to inline more content.

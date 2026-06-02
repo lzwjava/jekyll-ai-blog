@@ -49,6 +49,7 @@ type: note
 这些观点在大银行内部往往会限制职业发展，但许多经验丰富的工程师在目睹了多次“转型”举措失败后，会悄悄地持有这些观点。
 
 参考资料：
+
 - [ThoughtWorks Technology Radar – Monoliths vs Microservices debates](https://www.thoughtworks.com/radar/techniques/monoliths-vs-microservices)
 - [Event Sourcing in Banking – Greg Young presentations](https://www.youtube.com/watch?v=LDW0QWie21s)
 - [The COBOL is not the problem rant – multiple industry blogs circa 2020-2024]

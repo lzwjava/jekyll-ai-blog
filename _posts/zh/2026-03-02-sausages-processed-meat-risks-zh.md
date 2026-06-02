@@ -20,6 +20,7 @@ Processed meat 是由主要健康组织定义（如 World Health Organization、
 - 任何通过 salting、curing、fermentation、smoking、添加 chemical preservatives（nitrates/nitrites）或其他工艺来增强风味或改善保存的肉类。
 
 **加工肉类的常见例子包括：**
+
 - Sausages（fresh、cured、smoked、dried —— Chinese腊肠/lap cheong、Italian salami、chorizo、pepperoni、breakfast sausage links/patties、hot dogs/frankfurters、bratwurst 等）
 - Bacon
 - Ham
@@ -29,6 +30,7 @@ Processed meat 是由主要健康组织定义（如 World Health Organization、
 - Deli/cold cuts（例如 turkey ham、bologna、mortadella）
 
 **例外 / 边缘情况：**
+
 - Plain、unseasoned、freshly ground meat 成型为 sausage 形状并立即烹饪（无 curing、smoking、added nitrates 或 preservatives）的，通常**不**被视为 processed meat —— 但这在商业 sausages 中非常罕见。
 - 超市、餐厅或市场出售的几乎所有 sausages（包括 Chinese腊肠/lạp xưởng/lap cheong）都至少经过 curing、salting、air-drying、smoking，或含有 added preservatives → 它们属于 processed meat。
 

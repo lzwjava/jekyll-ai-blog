@@ -22,9 +22,11 @@ type: note
 ## 步骤 1：获取对话令牌
 
 打开你想让机器人加入的 Talk 对话。查看 URL：
+
 ```
 http://192.168.1.36:8080/apps/spreed/#/XXXXXXXX
 ```
+
 末尾的 `XXXXXXXX` 就是你的**房间令牌**。
 
 ---
@@ -47,6 +49,7 @@ docker exec -it -u 33 <nextcloud_container_name> /var/www/html/occ talk:bot:setu
 ## 需要了解的有用 OCC 命令
 
 以下是关键的机器人管理命令：
+
 - `talk:bot:list` — 列出所有已安装的机器人
 - `talk:bot:remove <bot-id>` — 从特定对话中移除机器人
 - `talk:bot:setup <bot-id> <token>` — 在对话中启用机器人

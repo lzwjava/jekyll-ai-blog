@@ -34,6 +34,7 @@ WeChat groups are particularly rich for relationship analysis because membership
 Research on WeChat groups shows that group friendship networks can be visualized as nodes and edges. For example, members A, B, and C can form a **closed triad** (all mutually connected), while A, C, and D may form an **open triad**. Metrics like **edge density** — the fraction of existing friendships among all possible connections — reveal how tightly knit a group is.
 
 This means just by observing a WeChat group, you can tell:
+
 - Who knows whom **before** the group was formed
 - Who invited whom (cascade/invitation trees)
 - Whether the group is a tight clique or a loose collection of strangers
@@ -72,6 +73,7 @@ Key SNA concepts that apply here include: **Centrality** (who the network revolv
 SNA maps visualize the intangible social ties connecting people, allowing you to see **who is at the center**, who is the best connected, who acts as a **gatekeeper**, and who is on the outside. Key measures include: average degree (how many connections someone has), density (how many ties exist vs. how many could), and centrality (how much the network revolves around one person).
 
 In practical terms:
+
 - **Peers** = people at similar centrality levels, mutually connected
 - **Influencers** = high centrality, many connections pointing toward them
 - **Bridges** = people connecting two otherwise separate groups

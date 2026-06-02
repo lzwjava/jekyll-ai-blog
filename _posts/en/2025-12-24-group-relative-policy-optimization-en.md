@@ -17,6 +17,7 @@ Answer:
 **Group Relative Policy Optimization (GRPO)** is a reinforcement learning (RL) algorithm used in machine learning, particularly for fine-tuning large language models (LLMs) to improve their reasoning capabilities in tasks like mathematics, coding, and complex problem-solving.
 
 ### Key Features and How It Works
+
 - GRPO is a variant of **Proximal Policy Optimization (PPO)**, a popular RL algorithm.
 - The main innovation in GRPO is that it eliminates the need for a separate "critic" or value function model, which PPO requires to estimate future rewards. This reduces memory usage and computational costs by approximately 50%.
 - Instead of a critic, GRPO uses **group sampling**: For each input prompt, the model generates multiple output responses (e.g., 64 or more). A reward model (or verifiable reward function) scores each response.
@@ -24,11 +25,13 @@ Answer:
 - The policy (the LLM itself) is then updated to increase the probability of high-advantage responses while using clipping and KL-divergence penalties to ensure stable training.
 
 ### Advantages Over Traditional Methods
+
 - More memory-efficient, making it suitable for large-scale training.
 - Effective with verifiable rewards (e.g., correct/incorrect answers in math), reducing reliance on human feedback or complex reward models.
 - Helps prevent issues like reward hacking and improves generalization in reasoning tasks.
 
 ### Origins and Applications
+
 - First introduced in the **DeepSeekMath** paper (2024) for enhancing mathematical reasoning in open-source LLMs.
 - Gained prominence with **DeepSeek-R1** models, where it was used in reinforcement fine-tuning (often alternated with supervised fine-tuning) to achieve state-of-the-art performance in reasoning benchmarks.
 

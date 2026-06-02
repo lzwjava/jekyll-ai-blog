@@ -34,6 +34,7 @@ This matches option **D**.
 "信息位k，总长k+r，效率k/(k+r)"
 
 **Why the other options are incorrect:**
+
 - A. r/(r+k) → This would be the redundancy ratio, not the efficiency.
 - B. 1/(k+r) → This has no meaningful interpretation in this context.
 - C. r/k → This is the relative redundancy, opposite of efficiency.

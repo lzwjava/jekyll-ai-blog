@@ -15,11 +15,13 @@ JavaServer Pages (JSP) is a server-side technology used to create dynamic web co
 Below is a step-by-step guide to get started with JSP, from setup to deployment. This assumes basic knowledge of Java and HTML.
 
 ## 1. Prerequisites
+
 - **Java Development Kit (JDK)**: Install JDK 8 or later (JDK 17+ recommended for modern apps). Download from [Oracle](https://www.oracle.com/java/technologies/downloads/) or use OpenJDK.
 - **Web Server/Container**: Use Apache Tomcat (free and easy for beginners). Download from [Apache Tomcat](https://tomcat.apache.org/).
 - **IDE (Optional but Recommended)**: IntelliJ IDEA, Eclipse, or VS Code with Java extensions for easier development.
 
 ## 2. Set Up Your Environment
+
 1. Install Tomcat:
    - Extract the Tomcat archive to a directory (e.g., `C:\tomcat` on Windows or `/opt/tomcat` on Linux).
    - Start Tomcat by running `bin/startup.bat` (Windows) or `bin/startup.sh` (Unix). Access `http://localhost:8080` in your browser to verify it's running.
@@ -31,6 +33,7 @@ Below is a step-by-step guide to get started with JSP, from setup to deployment.
      - A root folder for JSP files (e.g., `index.jsp`).
 
    Basic `web.xml` example:
+
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
@@ -43,10 +46,12 @@ Below is a step-by-step guide to get started with JSP, from setup to deployment.
    ```
 
 ## 3. Write Your First JSP Page
+
 JSP files have a `.jsp` extension and combine HTML with Java code using scriptlets (`<% %>`), expressions (`<%= %>`), and declarations (`<%! %>`). For modern best practices, use JSP Expression Language (EL) and JSTL (JavaServer Pages Standard Tag Library) to avoid raw scriptlets.
 
 Example: Create `index.jsp` in your app's root:
 {% raw %}
+
 ```jsp
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  <!-- For JSTL, if used -->
@@ -80,6 +85,7 @@ Example: Create `index.jsp` in your app's root:
 </body>
 </html>
 ```
+
 {% endraw %}
 
 - **Key Elements**:
@@ -89,12 +95,14 @@ Example: Create `index.jsp` in your app's root:
   - **JSTL**: Download from [Apache Taglibs](https://tomcat.apache.org/taglibs/standard/) and place JARs in `WEB-INF/lib`.
 
 ## 4. Deploy and Run
+
 1. Place your app folder (e.g., `my-jsp-app`) in Tomcat's `webapps` directory.
 2. Restart Tomcat.
 3. Access in browser: `http://localhost:8080/my-jsp-app/index.jsp`.
 4. Test with query params: `http://localhost:8080/my-jsp-app/index.jsp?name=Grok` to see dynamic output.
 
 ## 5. Common Features and Best Practices
+
 - **Forms and User Input**: Use `<form>` tags and `request.getParameter()` or EL (`${param.field}`) to handle submissions.
 - **Sessions and Beans**: Use `session.setAttribute()` for state management; JavaBeans for reusable data.
 - **Error Handling**: Add `<error-page>` in `web.xml` or use `<%@ page errorPage="error.jsp" %>`.
@@ -103,6 +111,7 @@ Example: Create `index.jsp` in your app's root:
 - **Debugging**: Check Tomcat logs (`logs/catalina.out`) for errors.
 
 ## 6. Advanced Topics
+
 - Integrate with Servlets: JSP for views, Servlets for logic (MVC pattern).
 - Database Connectivity: Use JDBC or JPA (e.g., with H2 or MySQL).
 - Build Tools: Use Maven/Gradle for dependencies like JSTL.
@@ -110,6 +119,7 @@ Example: Create `index.jsp` in your app's root:
 For hands-on practice, start with a simple "Hello World" and gradually add features. If you're building a full web app, explore Jakarta EE tutorials.
 
 ## References
+
 - [Oracle JSP Tutorial](https://docs.oracle.com/javaee/7/tutorial/jspx.htm)
 - [Baeldung: Introduction to JSP](https://www.baeldung.com/jsp-tutorial)
 - [Apache Tomcat JSP Examples](https://tomcat.apache.org/tomcat-10.1-doc/jsp-examples/)

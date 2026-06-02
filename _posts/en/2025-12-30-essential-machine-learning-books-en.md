@@ -17,6 +17,7 @@ Answer:
 Here are some of the most highly recommended books for learning machine learning (ML), deep learning (DL), and topics related to GPT/large language models (LLMs) like transformers and generative AI. These recommendations are based on consensus from experts, online communities, and recent 2025 lists. I've categorized them by level and focus for a progressive learning path.
 
 ### For Machine Learning Fundamentals (Beginners to Intermediate)
+
 - **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** by Aurélien Géron
   The go-to practical book for beginners. It covers ML concepts with code examples in Python, including supervised/unsupervised learning, neural networks, and deployment. Ideal starting point with hands-on projects.
 
@@ -27,6 +28,7 @@ Here are some of the most highly recommended books for learning machine learning
   Short and practical advice on building ML systems from the Coursera ML instructor.
 
 ### For Deep Learning
+
 - **Deep Learning** by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (free online at deeplearningbook.org)
   The definitive "bible" of deep learning. Comprehensive theory on neural networks, optimization, CNNs, RNNs, and more. Best for intermediate to advanced learners.
 
@@ -37,6 +39,7 @@ Here are some of the most highly recommended books for learning machine learning
   Hands-on with code in multiple frameworks (PyTorch, TensorFlow, etc.). Includes generative models and real-world applications.
 
 ### For Transformers, GPT, and Large Language Models (LLMs/Generative AI)
+
 - **Natural Language Processing with Transformers** by Lewis Tunstall, Leandro von der Werra, and Thomas Wolf (Hugging Face team)
   Practical focus on building apps with transformers (BERT, GPT, etc.) using the Hugging Face library. Highly recommended for implementation.
 

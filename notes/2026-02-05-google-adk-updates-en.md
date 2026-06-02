@@ -74,8 +74,8 @@ Compared to Genkit (Google's other framework), ADK is optimized for complex agen
 
 ## Resources
 
-- **Documentation**: https://google.github.io/adk-docs/
-- **GitHub**: https://github.com/google/adk-python
-- **Google Cloud Docs**: https://cloud.google.com/agent-builder/agent-development-kit/overview
+- **Documentation**: <https://google.github.io/adk-docs/>
+- **GitHub**: <https://github.com/google/adk-python>
+- **Google Cloud Docs**: <https://cloud.google.com/agent-builder/agent-development-kit/overview>
 
 ADK represents Google's vision for making agentic AI development more accessible, combining the flexibility of open-source software with deep integration into Google's AI and cloud ecosystem.

@@ -16,14 +16,17 @@ type: note
 Yeah, she's one of the best CEO turnaround stories in tech. Let me pull current numbers.Yeah, absolutely executing. Here are the actual numbers:
 
 **FY2025 (full year):**
+
 - Record revenue of $34.6 billion, data center revenue of $16.6 billion — up 32% YoY.
 - Non-GAAP operating income: record $7.8B. Net income: record $6.8B.
 
 **Q1 2026 (most recent quarter):**
+
 - Revenue $10.3B, non-GAAP operating income $2.5B, EPS $1.37.
 - Revenue grew 38% YoY, EPS surged 43% — beat analyst consensus on both.
 
 **Forward targets Lisa Su just laid out:**
+
 - 35%+ annual revenue CAGR, 35%+ operating margins, EPS above $20. Market opportunity of $1T+ over the next 4–5 years.
 
 ---

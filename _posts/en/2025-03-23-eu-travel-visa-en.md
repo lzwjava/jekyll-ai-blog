@@ -13,6 +13,7 @@ Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applyi
 ---
 
 ### **1. Determine Which Embassy/Consulate to Apply To**
+
 - **Main Destination Principle**: Apply to the embassy/consulate of the country where you will spend the **most days**.
 - **First Entry**: If visiting multiple countries equally, apply to the embassy of your **first point of entry** into the Schengen Area.
 - **Guangzhou Consulates**: Many EU countries (e.g., Germany, France, Italy, Spain) have consulates or visa centers in Guangzhou.
@@ -21,7 +22,9 @@ Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applyi
 ---
 
 ### **2. Prepare Required Documents**
-#### **Core Documents**:
+
+#### **Core Documents**
+
 1. **Passport**:
    - Valid for ≥3 months after your return date.
    - ≥2 blank pages.
@@ -57,13 +60,15 @@ Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applyi
 9. **Cover Letter**:
    - Explain your travel purpose, itinerary, and guarantee of return to China.
 
-#### **Additional Documents (if applicable)**:
+#### **Additional Documents (if applicable)**
+
 - Marriage certificate, property deeds, or other ties to China.
 - For business trips: Invitation letter from the EU company.
 
 ---
 
 ### **3. Book an Appointment**
+
 - Most Schengen embassies in Guangzhou use visa agencies like **VFS Global** or **TLScontact**.
   - Example: Apply for a French visa via [TLScontact Guangzhou](https://fr.tlscontact.com/cn/CAN/).
 - Schedule online via the embassy’s portal. **Peak seasons (summer, holidays) have long waits—apply 3+ months early**.
@@ -71,6 +76,7 @@ Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applyi
 ---
 
 ### **4. Attend the Visa Interview**
+
 - Visit the visa center/embassy with all documents.
 - Pay the fee: **€80 (adults)** / €40 (children 6–12) / Free (under 6).
 - Submit biometrics (fingerprints and photo).
@@ -79,18 +85,21 @@ Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applyi
 ---
 
 ### **5. Wait for Processing**
+
 - Standard processing: **15 calendar days** (may take 30+ days in busy periods).
 - Track your application online via the visa center’s portal.
 
 ---
 
 ### **6. Collect Your Passport**
+
 - If approved: Visa sticker will be attached to your passport.
 - If rejected: You’ll receive a refusal letter (can appeal within the timeframe specified).
 
 ---
 
 ### **Key Tips for Success**
+
 1. **Apply Early**: Start 3 months before your trip.
 2. **Be Thorough**: Missing documents are the top reason for rejection.
 3. **Show Strong Ties to China**: Prove you’ll return (job, family, property).
@@ -99,6 +108,7 @@ Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applyi
 ---
 
 ### **Guangzhou Visa Centers**
+
 - **VFS Global** (for Italy, Spain, etc.): Room 1201, Central Plaza, 381 Jiangwan Road.
 - **TLScontact** (for France, Germany): 19F, GZ International Hotel, 339 Huanshi Dong Road.
 

@@ -16,6 +16,7 @@ Answer:
 Yes, your vision of becoming a "city Spider-Man" — someone who knows every building, alley, and hidden corner as intimately as your own home or office — is inspiring and totally achievable with the right mindset and tools. Being deeply familiar with urban environments turns a city from an overwhelming maze into a personal playground or power base. The constraints of mortgage, work, and life in Guangzhou and the粤港澳大湾区 (Greater Bay Area) have actually given you a valuable testing ground for building those exploration skills.
 
 Your current methods sound practical and creative:
+
 - **Collecting shop WiFi passwords**: This is a smart, low-tech way to map "safe zones" and friendly spots across the city. It creates a personal network of reliable locations for rest, work, or quick escapes. Over time, it builds a mental (or digital) map of social and functional hubs.
 - **Imagining drones with chips for scanning**: This points to a more high-tech, scalable approach — using technology to systematically document and recall city layouts, architecture, businesses, and even crowd patterns. Drones (or apps, cameras, and mapping tools) can help create your own augmented reality overlay of the city.
 
@@ -26,6 +27,7 @@ These habits and ideas are highly transferable to other cities like Singapore, H
 - **Los Angeles**: Vast, car-centric, and spread out with distinct neighborhoods. Your methods could shift toward car-based or app-enhanced exploration (think Google Maps layers + personal notes on parking, coffee spots, or quiet streets). Drone scanning (where legal) or walking/cycling routes would help tame its sprawl.
 
 Practical ways to level up these skills anywhere:
+
 - Use apps like Google Maps, Citymapper, or OsmAnd for offline mapping, then overlay your own notes (WiFi passwords, favorite views, escape routes).
 - Build a personal database — even a simple Notion page, spreadsheet, or app like Obsidian — to log buildings, floors, businesses, and "power spots."
 - Start small: Treat each new area like a mini-mission. Walk or bike one block at a time, noting architecture, exits, and useful services.

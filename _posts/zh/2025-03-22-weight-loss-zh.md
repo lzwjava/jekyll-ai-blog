@@ -169,8 +169,6 @@ type: note
 
 [^4]: Key Recommendations, NHLBI, 访问于 2025年3月22日, [https://www.nhlbi.nih.gov/health/educational/lose\_wt/recommen.htm](https://www.nhlbi.nih.gov/health/educational/lose\_wt/recommen.htm)
 
-[^5]: Healthy Weight, Weight Management Tips & BMI, WebMD, 访问于 2025年3月22日, [https://www.webmd.com/obesity/healthy-weight](https://www.webmd.com/obesity/healthy-weight)
-
 [^6]: Weight loss: 6 strategies for success, Mayo Clinic, 访问于 2025年3月22日, [https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752](https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752)
 
 [^7]: Men's Weight Loss: 12 Steps for Fitness Success, Good Health by Hims, 访问于 2025年3月22日, [https://www.hims.com/blog/mens-weight-loss](https://www.hims.com/blog/mens-weight-loss)
@@ -195,30 +193,18 @@ type: note
 
 [^17]: Is rice good for weight loss?, January AI, 访问于 2025年3月22日, [https://www.january.ai/blog/is-rice-good-for-weight-loss](https://www.january.ai/blog/is-rice-good-for-weight-loss)
 
-[^18]: Is Rice High in Calories or Weight-Loss-Friendly?, Healthline, 访问于 2025年3月22日, [https://www.healthline.com/nutrition/rice-and-weight](https://www.healthline.com/nutrition/rice-and-weight)
-
 [^19]: morning tea, lunch, afternoon tea, dinner, night tea, and a midnight snack. In here you can learn about the Guangzhou citizens' dietary habits., 访问于 2025年3月22日, [https://www.gz.gov.cn/guangzhouinternational/visitors/whattodine/dietaryhabits/](https://www.gz.gov.cn/guangzhouinternational/visitors/whattodine/dietaryhabits/)
 
 [^20]: Guangzhou (Canton) Cuisine, Encyclopedia.com, 访问于 2025年3月22日, [https://www.encyclopedia.com/food/encyclopedias-almanacs-transcripts-and-maps/guangzhou-canton-cuisine](https://www.encyclopedia.com/food/encyclopedias-almanacs-transcripts-and-maps/guangzhou-canton-cuisine)
 
 [^21]: 8 Best Cantonese Food (Yue Cuisine), What to Eat in Guangzhou, China Discovery, 访问于 2025年3月22日, [https://www.chinadiscovery.com/guangdong/guangzhou/cantonese-cuisine.html](https://www.chinadiscovery.com/guangdong/guangzhou/cantonese-cuisine.html)
 
-[^22]: Guangzhou Cuisine, 访问于 2025年3月22日, [https://www.gz.gov.cn/guangzhouinternational/visitors/whattodine/](https://www.gz.gov.cn/guangzhouinternational/visitors/whattodine/)
-
 [^23]: The 6 tips you need to help you master portion control, LCMC Health, 访问于 2025年3月22日, [https://www.lcmchealth.org/university-medical-center-new-orleans/blog/2024/november/the-6-tips-you-need-to-help-you-master-portion-c/](https://www.lcmchealth.org/university-medical-center-new-orleans/blog/2024/november/the-6-tips-you-need-to-help-you-master-portion-c/)
 
 [^24]: Portion control for weight loss: 12 tips and more, Medical News Today, 访问于 2025年3月22日, [https://www.medicalnewstoday.com/articles/portion-control-for-weight-loss](https://www.medicalnewstoday.com/articles/portion-control-for-weight-loss)
 
-[^25]: 3 Tricks for Better Portion Control, St. Vincent's Medical Center, 访问于 2025年3月22日, [https://stvincents.org/about-us/news-press/news-detail?articleId=53004\&publicid=745](https://stvincents.org/about-us/news-press/news-detail?articleId=53004&publicid=745)
-
 [^26]: 9 Tips to Measure and Control Portion Sizes, Healthline, 访问于 2025年3月22日, [https://www.healthline.com/nutrition/portion-control](https://www.healthline.com/nutrition/portion-control)
-
-[^27]: Portion Size and Weight Loss, WebMD, 访问于 2025年3月22日, [https://www.webmd.com/diet/ss/slideshow-serving-sizes?ecd=wnl\_faf\_110420\_CTRLTEST\&ctr=wnl-faf-110420-CTRLTEST\_nsl-LeadModule\_cta\&mb=0ofS930YxguwpYqcPH6hYhXFE73IOX1c3Q4CqYO3v8k%3D](https://www.webmd.com/diet/ss/slideshow-serving-sizes?ecd=wnl_faf_110420_CTRLTEST&ctr=wnl-faf-110420-CTRLTEST_nsl-LeadModule_cta&mb=0ofS930YxguwpYqcPH6hYhXFE73IOX1c3Q4CqYO3v8k%3D)
 
 [^28]: Mindfulness: A Lasting Approach to Healthy Eating, Kaiser Permanente, 访问于 2025年3月22日, [https://about.kaiserpermanente.org/health-and-wellness/health-tips/mindfulness-a-lasting-approach-to-healthy-eating](https://about.kaiserpermanente.org/health-and-wellness/health-tips/mindfulness-a-lasting-approach-to-healthy-eating)
 
 [^29]: Mindful Eating, The Nutrition Source, 访问于 2025年3月22日, [https://nutritionsource.hsph.harvard.edu/mindful-eating/](https://nutritionsource.hsph.harvard.edu/mindful-eating/)
-
-[^30]: How To Start a Mindful Eating Practice, Massachusetts General Hospital, 访问于 2025年3月22日, [https://www.massgeneral.org/news/start-mindful-eating-practice](https://www.massgeneral.org/news/start-mindful-eating-practice)
-
-[^31]: Does Mindful Eating Help with Weight Loss?, UNH Extension, 访问于 2025年3月22日, [https://extension.unh.edu/blog/2022/09/does-mindful-eating-help-weight-loss](https://extension.unh.edu/blog/2022/09/does-mindful-eating-help-weight-loss)

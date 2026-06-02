@@ -20,27 +20,35 @@ type: note
 3. **解压压缩包**：
    - 打开终端并进入下载文件所在目录（如 `~/Downloads`）
    - 使用以下命令解压：
+
      ```bash
      unzip YourKit-JavaProfiler-2025.3-<构建版本>.zip -d /opt/yourkit
      ```
+
      请将 `<构建版本>` 替换为实际下载文件的构建编号。此命令会将分析器解压至 `/opt/yourkit` 目录，也可选择其他目标目录
 
 4. **运行分析器**：
    - 进入解压目录：
+
      ```bash
      cd /opt/yourkit
      ```
+
    - 运行启动脚本：
+
      ```bash
      ./bin/profiler.sh
      ```
+
      此时将启动 YourKit Java Profiler 图形界面
 
 5. **可选：通过许可证密钥实现无人值守安装**：
    - 若已获取许可证密钥，可通过命令行参数自动接受最终用户许可协议并激活许可证：
+
      ```bash
      ./bin/profiler.sh -accept-eula -license-key=<许可证密钥>
      ```
+
      将 `<许可证密钥>` 替换为实际密钥。此方式适用于自动化部署场景
 
 6. **集成开发环境（可选）**：

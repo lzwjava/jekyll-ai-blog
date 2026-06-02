@@ -17,6 +17,7 @@ To help you prepare for the exam, I've compiled a set of practice questions base
 Focus on understanding concepts like resonance, transistor biasing, op-amp circuits, rectification, and logic gates. Practice calculations and circuit analysis.
 
 #### Section 1: Single-Choice Questions (15 questions total in full exam; partial here)
+
 Each question is worth 1 point. Choose the correct option.
 
 1. Among the following voltage waveforms, the one representing a pulsating DC voltage signal is:
@@ -95,6 +96,7 @@ Each question is worth 1 point. Choose the correct option.
     - D. Standard "OR-AND" expression
 
 #### Section 2: Fill-in-the-Blank Questions (15 questions total in full exam; partial here)
+
 Each blank is worth 1 point. Fill in the missing word(s) or value(s).
 
 16. An inductor with an inductive reactance of 10 Ω, when the frequency of the voltage signal across it increases by 1 time (doubles), its inductive reactance value is ____ Ω.
@@ -114,12 +116,14 @@ Each blank is worth 1 point. Fill in the missing word(s) or value(s).
 *(Note: The full exam continues with more fill-ins, short answers like explaining op-amp virtual short/ground, circuit diagrams for analysis, calculations for amplifier gains, rectifier efficiency, and digital design problems like truth tables or Karnaugh maps.)*
 
 ### Tips for Preparation
+
 - **Review Key Topics**: Sinusoidal signals, passive networks, semiconductors (diodes/transistors), BJT amplifiers (common-emitter, emitter-follower), op-amps (inverting/non-inverting, integrators), rectifiers/filters, voltage regulators, digital logic (gates, flip-flops, counters, decoders).
 - **Practice Calculations**: Use Ohm's law, Kirchhoff's laws, resonance formulas (\\( f = 1/(2\pi\sqrt{LC}) \\)), transistor equations (\\( I_c = \beta I_b \\)), op-amp gains (\\( A = -R_f/R_{in} \\)).
 - **Exam Structure**: 100 points total, 150 minutes. Aim for 60% to pass.
 - For full past papers and answers, download from reliable self-exam sites (often in PDF). Practice under timed conditions.
 
 ### References
+
 - [2021 April Exam Questions (Partial Source)](https://mzk.cwjedu.com/lnzt/8222)
 - [Collection of Past Papers](https://www.zikaosw.cn/lnzt/subject-799.html)
 - [2023 April Exam Discussion](https://www.bilibili.com/read/cv25932203/)

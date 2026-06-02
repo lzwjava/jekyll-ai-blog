@@ -61,6 +61,7 @@ The logic '1' in RS-232 is described as being in the voltage range of -15V to -3
 RS-232C serial communication uses transmit (Tx), receive (Rx), and ground lines for data transmission. Data is transmitted serially one bit at a time in a predefined frame along the Tx and Rx lines. Start and stop bits frame the data bits to mark the beginning and end of transmission. Parity bits may also be used for basic error checking. RS-232C communication can be full duplex, allowing simultaneous transmission in both directions.
 
 A typical data frame consists of:
+
 - **1 Start bit** (always logic 0 / space)
 - **5–8 Data bits**
 - **Optional Parity bit** (Even, Odd, or None)
@@ -74,14 +75,12 @@ The RS-232 standard employs DB9 and DB25 connectors, each characterized by their
 
 **Key DB9 pin signals:**
 
-
 - **TXD (Transmit Data)**: Serial data lines; TXD sends outgoing data from DTE to DCE.
 - **RXD (Receive Data)**: Receives incoming data from DCE.
 - **RTS (Request to Send)**: The transmitter activates this when it requires to transmit data; deactivated when communication stops.
 - **CTS (Clear to Send)**: Activated by the receiver to tell the transmitter whether it is ready to receive data.
 - **DTR (Data Terminal Ready)**: DTE informs DCE that it is in online mode and communication can occur.
 - **DSR (Data Set Ready)**: Informs that the DCE is ready for communication.
-
 
 ---
 
@@ -102,22 +101,18 @@ To connect two DTE devices directly, without a DCE device, a null modem cable me
 
 ### 9. Advantages
 
-
 - **Simple wiring**: RS-232C only requires a few wires to transmit data between two devices.
 - **Wide compatibility**: RS-232C has been widely adopted since the 1960s and is supported on a huge range of computers, modems, industrial machines, and other equipment.
 - **Noise robustness**: With signal voltages ranging from -15V to +15V, RS-232C communication is robust in electrically noisy environments that can disrupt smaller voltage swings.
-
 
 ---
 
 ### 10. Limitations
 
-
 - It cannot be used for chip-to-chip or chip-to-sensor device communication.
 - It degrades in performance in the presence of noise and requires shorter cables due to having a common ground between DTE and DCE.
 - The cost of the system increases as the RS-232C interface needs separate transceiver chips.
 - Its performance degrades to short distances only when transfer speed is high.
-
 
 RS-232C does not allow multipoint connections — it is limited to serial communication between two devices over a dedicated link. Other standards can enable communication between multiple devices on a shared bus.
 

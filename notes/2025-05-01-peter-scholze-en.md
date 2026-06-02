@@ -29,15 +29,19 @@ type: note
 ### 💡 What Can We Learn from Peter Scholze?
 
 #### 1. **Deep Thinking Over Speed**
+
 Scholze is known for his deep, methodical thinking rather than rushing through problems. He emphasizes understanding concepts **from the ground up** and seeking the simplest, clearest path to truth.
 
 #### 2. **Persistence and Curiosity**
+
 Even as a student, he was deeply curious and asked profound questions. His work often starts with rethinking entire frameworks, not just solving individual problems.
 
 #### 3. **Redefining Problems from First Principles**
+
 He often rebuilds theories from scratch if he feels they lack clarity or elegance. This approach has led to breakthroughs by seeing old ideas in new ways.
 
 #### 4. **Generosity in Sharing Knowledge**
+
 Despite his stature, Scholze is known to be collaborative and accessible. He maintains an active blog where he discusses technical math topics openly and even engages with readers’ questions.
 
 ---

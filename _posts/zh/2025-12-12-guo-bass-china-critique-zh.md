@@ -17,10 +17,12 @@ type: note
 所提的采访似乎是指2018年Real Vision Finance（通常风格化为“Real Finance”）YouTube系列节目《凯尔·巴斯访谈录》（*The Kyle Bass Interviews*），其中采访了流亡的中国亿万富翁郭文贵（也被称为Miles Guo或Miles Kwok）。这是一次由投资者凯尔·巴斯主持的多方讨论，内容聚焦于对中国共产党（CCP）的指控、中国经济以及相关的地缘政治问题。Real Vision是一个关注金融的媒体平台，其内容上传到他们的YouTube频道。以下是根据现有描述和文字记录总结的各项主要内容。
 
 ### 概述
+
 - **形式和背景**：凯尔·巴斯在未公开的地点（例如，德克萨斯州）采访郭文贵。郭文贵是一名自我流亡的商人，于2014年因腐败指控逃离中国，他声称这些指控是出于政治动机。他在采访中分享了对中共运作的内部视角。讨论内容轰动一时，郭文贵大胆指控中共腐败、经济操纵以及对全球稳定的威胁。巴斯则深入探究经济数据和策略的细节。
 - **主要议题**：中共腐败、伪造的经济数据、洗钱、郭文贵面临的威胁以及对阿里巴巴马云等人物的预测。访谈基调批判中共，将其描绘成一个掠夺性政权。
 
 ### 按片段划分的主要讨论
+
 - **郭文贵为何身在美国**：
   - 郭文贵解释了他的流亡：他因中共的迫害而逃离中国，包括中国国家安全部（MSS）在伦敦和美国试图绑架他。中共已向美国提出数十亿美元的交易以引渡他，并宁愿杀死他也不愿让他回国。
   - 他表达了对中国人民和文化的热爱，但誓言要推翻中共，警告其有毒的政治文化、军事和正在崩溃的经济。郭文贵将自己定位为争取“法治”的举报人。
@@ -39,6 +41,7 @@ type: note
   - 更广泛的中共“大战略”：郭文贵和巴斯讨论了中共如何利用经济不透明、军事扩张和全球影响力（例如“一带一路”）来主导世界，同时压制异议，例如郭文贵的发声。
 
 ### 总体基调和影响
+
 - 巴斯作为一名持怀疑但投入的主持人，引出投资者面临的金融风险的具体细节（例如，对中国资产的敞口）。郭文贵的表达充满激情且 unfiltered，强调道德紧迫性而非数据的精确性。
 - 采访警告了系统性风险：中国“虚假经济”可能引发全球蔓延，敦促西方与中共影响力脱钩。
 - 注：郭文贵后来在美国被判诈骗（2024年），有些人认为这损害了他的 credibility，尽管这次采访仍然是金融界反中共行动主义的重要体现。
@@ -46,6 +49,7 @@ type: note
 如需完整体验，请在YouTube上观看播放列表（搜索“Kyle Bass Miles Kwok Real Vision”）。
 
 参考资料：
+
 - [China's Double Economy (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=5Fdsj46X84o)
 - [Why Is Miles Kwok In America? (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=LCuMjMcwT9U)
 - [Killing The Hong Kong Dollar (w/ Miles Kwok) | The Kyle Bass Interviews | Real Vision™](https://www.youtube.com/watch?v=EH0aDAIEfDM)

@@ -29,6 +29,7 @@ type: note
 这些观察不受欢迎，因为它们与德国作为进步、创新和放松的国际形象相冲突。然而，它们在长期旅居海外的人士中，甚至在许多年轻德国人自己如Reddit的r/de或r/germany等平台上广泛讨论（通常带有黑色幽默）。
 
 参考文献：
+
 - [The Local Germany——“在德国生活的10个残酷真相”](https://www.thelocal.de/20230120/10-brutal-truths-about-living-in-germany-no-one-wants-to-admit)
 [Reddit r/germany——“关于德国的不受欢迎观点”大型讨论帖（2024）](https://www.reddit.com/r/germany/comments/18×7b4z/unpopular_opinions_about_germany_megathread/)
 [经合组织更好生活指数与欧盟统计局孤独统计数据（2023–2025）](https://www.oecd.org/en/data/indicators/better-life-index.html)

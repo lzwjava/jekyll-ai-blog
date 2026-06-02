@@ -24,12 +24,14 @@ That's it. It's the agent's **decision-making function** — the thing being lea
 ## Two flavors
 
 **Stochastic policy** — outputs a probability distribution over actions:
+
 ```python
 probs = softmax(neural_net(state))  # [0.1, 0.7, 0.2]
 action = sample(probs)              # → action 1
 ```
 
 **Deterministic policy** — outputs a single action directly:
+
 ```python
 action = neural_net(state)          # → 0.73 (continuous control)
 ```

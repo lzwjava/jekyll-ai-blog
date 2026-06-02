@@ -17,9 +17,11 @@ type: note
 # 讲座：路由器、路由原理、协议和技术
 
 ## 路由器简介
+
 路由器是OSI模型第3层（网络层）的重要网络设备。它们连接不同的网络，使设备能够在单独的子网之间或通过互联网进行通信。
 
 ### 路由器的工作原理
+
 路由器接收数据包，检查数据包头中的目标IP地址，并查阅其**路由表**以确定最佳的下一跳接口或路由器来转发数据包。这个过程称为**数据包转发**。
 
 - 路由表包含将目标网络映射到下一跳地址和接口的条目。
@@ -30,6 +32,7 @@ type: note
 核心原则是**基于目的地的转发**：数据包根据其目标IP独立路由，而不维护端到端连接（无连接）。
 
 ### 路由器的主要功能
+
 - **数据包转发/路由**：使用路由表在网络之间引导数据包。
 - **路径确定**：根据度量选择最佳路由。
 - **网络分段**：将局域网连接到广域网，隔离广播域。
@@ -41,7 +44,9 @@ type: note
 在家庭网络中，路由器通常结合了Wi-Fi接入点、交换机和调制解调器网关等功能。
 
 ## 路由表及其构建方式
+
 路由表是路由器的核心：
+
 - **直连路由**：路由器上的接口。
 - **静态路由**：由管理员手动配置。
 - **动态路由**：通过路由协议学习。
@@ -49,40 +54,49 @@ type: note
 路由具有属性：目标网络、子网掩码、下一跳、度量、管理距离（AD – 源的可信度）。
 
 ## 静态路由
+
 静态路由涉及手动配置路由。
 
 ### 优点
+
 - 简单且可预测。
 - 没有协议带来的CPU开销。
 - 高安全性（没有可利用的动态更新）。
 - 适用于小型/稳定网络、末梢网络或默认路由。
 
 ### 缺点
+
 - 无法自动适应变化（例如，链路故障）。
 - 拓扑变化需要手动更新——在大型网络中容易出错。
 
 **配置示例** (类似Cisco):
+
 ```
 ip route 192.168.2.0 255.255.255.0 10.0.0.2
 ```
+
 这会添加一条到192.168.2.0/24的路由，下一跳是10.0.0.2。
 
 默认静态路由：`ip route 0.0.0.0 0.0.0.0 <ISP-gateway>`。
 
 ## 动态路由
+
 动态路由使用协议自动发现、通告和更新路由。
 
 ### 优点
+
 - 适应拓扑变化（收敛）。
 - 更好地扩展到大型网络。
 - 减少管理工作量。
 
 ### 缺点
+
 - 消耗CPU/内存/带宽。
 - 潜在的安全风险（如果未进行身份验证）。
 - 故障时的收敛时间。
 
 动态协议分为：
+
 - **距离矢量**：定期共享整个路由表（例如，RIP）。
 - **链路状态**：共享链路信息，构建拓扑图（例如，OSPF）。
 - **路径矢量**：用于域间（例如，BGP）。
@@ -90,6 +104,7 @@ ip route 192.168.2.0 255.255.255.0 10.0.0.2
 ## 关键路由协议：RIP和OSPF
 
 ### 路由信息协议 (RIP)
+
 - **类型**：距离矢量。
 - **度量**：跳数（最大15；16 = 不可达）。
 - **版本**：RIPv1（有类，无认证），RIPv2（无类，支持认证）。
@@ -98,6 +113,7 @@ ip route 192.168.2.0 255.255.255.0 10.0.0.2
 - **限制**：收敛慢，v1不支持可变子网掩码。
 
 ### 开放最短路径优先 (OSPF)
+
 - **类型**：链路状态。
 - **度量**：开销（基于带宽；默认100 Mbps = 开销1）。
 - **操作**：
@@ -122,6 +138,7 @@ ip route 192.168.2.0 255.255.255.0 10.0.0.2
 | 最佳用途            | 小型、稳定、末梢网络            | 大型、变化的拓扑                |
 
 ## 路由重分发
+
 在多协议环境（例如，核心使用OSPF，分支使用RIP）中，路由器可能需要共享协议之间的路由。
 
 **路由重分发**：将来自一个源（协议、静态、直连）的路由注入到另一个协议中的过程。
@@ -133,11 +150,13 @@ ip route 192.168.2.0 255.255.255.0 10.0.0.2
 - 风险：如果不够仔细，可能导致路由环路、次优路径、无限度量。
 
 **常见问题和解决方案**：
+
 - 使用路由图/过滤器控制重分发。
 - 设置管理距离或度量来优先选择某些路径。
 - 双向重分发（两方向）需要仔细规划。
 
 **示例** (将OSPF重分发到RIP):
+
 ```
 router rip
  redistribute ospf 1 metric 5
@@ -148,18 +167,19 @@ router rip
 重分发在迁移、合并或混合设计中至关重要。
 
 ## 结论
+
 掌握路由器需要理解它们如何使用通过静态或动态方法构建的路由表来转发数据包。RIP简单但功能有限；OSPF可伸缩且高效。为简单/安全性选择静态路由，为适应性选择动态路由。明智地使用重分发来连接不同的路由域，始终考虑度量和环路预防。
 
 这些知识构成了设计可靠、高效网络的基础。
 
 参考资料：
 
-- https://en.wikipedia.org/wiki/Router_(computing)
-- https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/how-does-a-router-work.html
-- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/
-- https://en.wikipedia.org/wiki/Routing_Information_Protocol
-- https://www.techtarget.com/searchnetworking/definition/OSPF-Open-Shortest-Path-First
-- https://en.wikipedia.org/wiki/Open_Shortest_Path_First
-- https://www.geeksforgeeks.org/computer-networks/difference-between-static-and-dynamic-routing/
-- https://en.wikipedia.org/wiki/Route_redistribution
-- https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/8606-redist.html
+- <https://en.wikipedia.org/wiki/Router_(computing)>
+- <https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/how-does-a-router-work.html>
+- <https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/>
+- <https://en.wikipedia.org/wiki/Routing_Information_Protocol>
+- <https://www.techtarget.com/searchnetworking/definition/OSPF-Open-Shortest-Path-First>
+- <https://en.wikipedia.org/wiki/Open_Shortest_Path_First>
+- <https://www.geeksforgeeks.org/computer-networks/difference-between-static-and-dynamic-routing/>
+- <https://en.wikipedia.org/wiki/Route_redistribution>
+- <https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/8606-redist.html>

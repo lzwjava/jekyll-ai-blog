@@ -22,6 +22,7 @@ When an unknown Telegram user messages your bot and the channel is configured wi
 5. The code **expires after 1 hour**
 
 When you run `openclaw pairing approve telegram X2SKVW4Y`, the CLI:
+
 - Looks up that code in the pending requests file
 - Moves the sender's Telegram user ID (`610574272`) into the **allowlist** file: `~/.openclaw/credentials/telegram-allowFrom.json`
 - Future messages from that user ID are now trusted and go straight through
@@ -39,6 +40,7 @@ It's a **trust boundary** — if you can SSH into the box and run CLI commands, 
 The codes last 1 hour, but the real issue is timing — the pairing message appears in your chat, and by the time you relay it to me, the pending request may have already cycled (the bot regenerates codes roughly once per hour per sender). The pending requests are also capped at **3 per channel**.
 
 **Fix options:**
+
 - Approve directly from the CLI on the server (faster than going through me)
 - Or I can try to auto-approve Telegram pairings from your user ID `610574272` if you set up a watcher or cron
 

@@ -19,6 +19,7 @@ There is very limited publicly available data on **WeChat Moments** specific mon
 The most commonly cited historical figure for Moments comes from older sources (around 2019), stating approximately **750 million daily active users** (DAU), not MAU. This figure has been repeated in various 2025–2026 statistics compilations but appears unchanged and unupdated, suggesting no major official refresh has been released.
 
 Key context and trends:
+
 - **WeChat overall MAU** (combined Weixin/WeChat) has grown steadily: ~1.27 billion in 2021 → ~1.31–1.34 billion in 2022–2023 → ~1.38 billion in 2024 → ~1.41 billion in 2025–2026 (per Tencent reports and third-party estimates like DemandSage, Business of Apps, and Statista).
 - Moments remains a core feature for photo/video/text sharing, but user behavior has shifted significantly toward more engaging formats like **WeChat Channels** (short videos, with hundreds of millions of DAU by 2021 and continued growth), Video Accounts, and Mini Programs.
 - Industry observations note a relative decline in traditional Moments posting/activity (e.g., fewer personal life updates, more ads/business content), driven by competition from short-video platforms (Douyin/TikTok) and internal features like Channels. However, this is qualitative or anecdotal—no quantified MAU drop (e.g., 37%) is supported in public QuestMobile or Tencent data from 2025–2026.

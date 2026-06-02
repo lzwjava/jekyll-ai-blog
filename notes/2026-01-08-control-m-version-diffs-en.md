@@ -19,6 +19,7 @@ Control-M (by BMC) uses versioning like 9.0.20 (often abbreviated as 9.20) and 9
 The **Control-M client** on Windows is primarily the desktop application from the Control-M/EM installation package. It connects to the EM/Server and provides tools like the Configuration Control Manager (CCM) and job definition/monitoring interfaces.
 
 ### Key Differences Between 9.0.20 and 9.0.21 (Relevant to the Windows Client)
+
 - **Users and Roles Management**: In 9.0.21, user authorizations and roles are now managed exclusively in **Control-M Web** (the browser-based interface). The classic Authorizations tool in the Control-M Configuration Manager (CCM, part of the desktop client) is no longer available. This is a significant change for administrators who previously used the desktop client for privilege management.
 - **Compatibility and Connectivity**: The client from 9.0.21 can connect to older EM/Server versions (down to 9.0.19 in compatibility mode), but to access new 9.0.21 features (e.g., enhanced role-based access), the EM/Server must also be upgraded. Older clients (9.0.20) can connect to 9.0.21 EM but with limited functionality for new features.
 - **Installation Changes**: Control-M/EM installation in 9.0.21 now includes additional components like SLA Management, Control-M/Forecast, and Self Service by default. The client installation on Windows may bundle more features or updated dependencies.

@@ -65,6 +65,7 @@ Google Maps 链接 → 精确坐标
 ## 如何防御
 
 **在上传时剥离（ImageMagick）：**
+
 ```bash
 # 剥离所有元数据
 mogrify -strip *.jpg
@@ -77,6 +78,7 @@ exiftool -GPSLatitude= -GPSLongitude= -GPSAltitude= -overwrite_original *.jpg
 ```
 
 **将其集成到发布流程中：**
+
 ```bash
 # 预提交钩子或 CI 步骤
 find ./static/images -name "*.jpg" -o -name "*.jpeg" | \
@@ -84,6 +86,7 @@ find ./static/images -name "*.jpg" -o -name "*.jpeg" | \
 ```
 
 **或者用 Python 扩展你自己的工具，使其也能剥离：**
+
 ```python
 from PIL import Image
 import piexif
@@ -99,6 +102,7 @@ def strip_gps(input_path, output_path):
 ## 更隐蔽的威胁：元数据关联
 
 即使没有 GPS，EXIF 也包含：
+
 - **相机品牌/型号** → 缩小身份范围
 - **镜头序列号** → 唯一标识符
 - **软件版本** → 操作系统指纹

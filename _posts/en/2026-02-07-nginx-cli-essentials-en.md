@@ -53,41 +53,49 @@ nginx [-?hqTtVv] [-c file] [-g directives] [-p prefix] [-s signal]
 ## Practical Usage Examples
 
 **Start nginx:**
+
 ```bash
 nginx
 ```
 
 **Test configuration before applying changes:**
+
 ```bash
 nginx -t
 ```
 
 **Reload configuration after making changes:**
+
 ```bash
 nginx -s reload
 ```
 
 **Check nginx version and compiled modules:**
+
 ```bash
 nginx -V
 ```
 
 **Run nginx with a custom config file:**
+
 ```bash
 nginx -c /path/to/custom/nginx.conf
 ```
 
 **Run nginx in foreground (useful for containers):**
+
 ```bash
 nginx -g 'daemon off;'
 ```
 
 **Graceful shutdown:**
+
 ```bash
 nginx -s quit
 ```
 
 **View complete parsed configuration:**
+
 ```bash
 nginx -T
 ```

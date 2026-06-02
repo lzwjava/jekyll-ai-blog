@@ -47,12 +47,14 @@ Let’s dive into why the provided Java code solves the "Fallen Towers" problem.
 The code uses a binary search to find the maximum possible MEX \\( m \\). For each candidate \\( m \\), it checks whether it’s possible to achieve a final non-decreasing array where each position \\( i \\) has a height at least \\( \max(0, m - n + i) \\). This ensures that the last \\( m \\) positions can cover values 0 to \\( m-1 \\), making the MEX at least \\( m \\).
 
 #### Binary Search
+
 - **Range**: The MEX \\( m \\) is at least 0 (empty array case) and at most \\( n \\) (since we need at least \\( m \\) positions to have values 0 to \\( m-1 \\)). Thus, search for \\( m \\) in \\( [0, n] \\).
 - **Check Function**: For a given \\( m \\), determine if there exists an order to knock down the towers such that the final array satisfies:
   - \\( b_i \geq \max(0, m - n + i) \\) for all \\( i \\).
   - The array is non-decreasing.
 
 #### Check Function
+
 The check function simulates whether it’s possible to achieve the required heights using a difference array approach, assuming the towers can be knocked down in any order.
 
 1. **Required Heights**:
@@ -89,6 +91,7 @@ The check function simulates whether it’s possible to achieve the required hei
    - The non-decreasing condition is implicitly satisfied because the required heights \\( \text{need}_i = \max(0, m - n + i) \\) are non-decreasing (as \\( i \\) increases, \\( m - n + i \\) increases or stays 0).
 
 #### Main Loop
+
 - Read the number of test cases \\( t \\).
 - For each test case:
   - Read \\( n \\) and the array \\( a \\).
@@ -152,6 +155,7 @@ The Java code adapts the C++ logic using `BufferedReader` and `PrintWriter` for 
 ### Conclusion
 
 The code solves the "Fallen Towers" problem by:
+
 - Using binary search to find the maximum MEX \\( m \\).
 - Employing a difference array-based check function to verify if the initial tower heights can be redistributed to achieve a non-decreasing array with the required heights.
 - Ensuring correctness through the non-decreasing nature of the required heights and the feasibility of operation sequences.

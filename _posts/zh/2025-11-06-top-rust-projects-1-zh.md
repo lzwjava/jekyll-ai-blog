@@ -42,7 +42,7 @@ type: note
 | 24 | [ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) | 用 Rust 编写的 Flash Player 模拟器。 | 48,567 |
 | 25 | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 精选的 Rust 代码和资源列表。 | 48,234 |
 | 26 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | 类似 grep 的面向行搜索工具。 | 47,890 |
-| 27 | [ EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu) | 在 Rust 中编写 Vulkan 着色器。 | 47,456 |
+| 27 | [EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu) | 在 Rust 中编写 Vulkan 着色器。 | 47,456 |
 | 28 | [paritytech/polkadot](https://github.com/paritytech/polkadot) | 多链区块链平台。 | 46,789 |
 | 29 | [rust-windowing/winit](https://github.com/rust-windowing/winit) | 安全的窗口创建库。 | 46,123 |
 | 30 | [rust-lang/cargo](https://github.com/rust-lang/cargo) | Rust 包管理器和构建工具。 | 45,678 |

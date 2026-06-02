@@ -15,6 +15,7 @@ Below is a detailed explanation of the provided code, which is a **Vue.js Single
 I'll explain concepts assuming some familiarity with web development, but I'll clarify Vue-specific details where relevant. If you're new to Vue, note that it uses reactive data binding, directives (e.g., `v-if`, `@click`), and computed properties.
 
 ### 1. Explanation of the HTML (Template Section)
+
 The `<template>` is the Vue.js syntax for defining the component's markup. It renders conditionally based on the component's data and reacts to user interactions. This looks like the HTML structure for a modal or popup overlay (e.g., for controlling a live stream).
 
 - **Overall Structure**:
@@ -47,6 +48,7 @@ The `<template>` is the Vue.js syntax for defining the component's markup. It re
   - No semantic HTML elements beyond basics (could use `<form>` or `<dialog>` for better structure).
 
 ### 2. Explanation of the CSS (Style Section)
+
 The `<style>` block uses **Stylus** (a CSS preprocessor that allows indentation-based syntax, variables, and mixins—it's like a streamlined SCSS). It defines layouts and visual styles. The `@import '../stylus/base.styl'` pulls in shared styles from a base file (not shown here, but likely defines globals like colors or resets).
 
 - **Overall Structure and Key Classes**:
@@ -78,6 +80,7 @@ The `<style>` block uses **Stylus** (a CSS preprocessor that allows indentation-
   - No animations or hover effects mentioned, keeping it simple.
 
 ### 3. Overall Analysis
+
 - **Purpose of the Component**:
   - This is a **control panel component** for managing a live stream (likely in a Chinese app, based on text like "直播控制"). It's designed as a modal overlay (e.g., triggered by a parent component's `overlay` boolean).
   - Users can start/stop a live stream, view configuration details (push URLs and keys, probably for OBS or similar streaming software), and toggle between views.

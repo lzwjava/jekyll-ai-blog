@@ -46,6 +46,7 @@ bash scripts/download/wget_fineweb_1.sh
 ```
 
 关键规则：
+
 - 使用 `tee` 将输出重定向到日志文件，以便日志持久保存
 - 使用 `nohup` 或 `tmux`/`screen` 确保终端关闭时进程仍在运行
 - 让其自行运行——无需时刻监控

@@ -29,7 +29,6 @@ def xor_divide(dividend: str, divisor: str) -> str:
     remainder = ''.join(div[-(divisor_len - 1):])
     return remainder
 
-
 def crc_calculate(message: str, generator: str) -> tuple[str, str]:
     """
     Calculate CRC remainder and return the transmitted frame.
@@ -63,7 +62,6 @@ def crc_calculate(message: str, generator: str) -> tuple[str, str]:
 
     return crc, transmitted
 
-
 def crc_verify(received: str, generator: str) -> bool:
     """
     Verify a received frame by dividing it by the generator.
@@ -91,7 +89,6 @@ def crc_verify(received: str, generator: str) -> bool:
     print(f"{'='*55}")
 
     return no_error
-
 
 # ─── Demo ────────────────────────────────────────────────────────────────────
 
@@ -122,28 +119,33 @@ if __name__ == "__main__":
     custom_gen = "10011"
     crc_custom, frame_custom = crc_calculate(custom_msg, custom_gen)
     crc_verify(frame_custom, custom_gen)
+
 ```
 
 **示例输出：**
 
 ```
+
 =======================================================
   CRC CALCULATION
 =======================================================
+
   Message          : 10110110
   Generator        : 11001  (degree = 4)
   Appended zeros   : 4 zeros
   Padded message   : 101101100000
 
-  Remainder (CRC)  : 1110
+Remainder (CRC)  : 1110
   Transmitted frame: 101101101110
 =======================================================
 
-[Case A] Frame arrives with NO errors:
+[Case A] Frame arrives with NO errors
 =======================================================
-  CRC VERIFICATION
+
+CRC VERIFICATION
 =======================================================
-  Received frame   : 101101101110
+
+Received frame   : 101101101110
   Generator        : 11001
   Remainder        : 0000
   Result           : ✅ No error detected
@@ -153,13 +155,16 @@ if __name__ == "__main__":
   Original : 101101101110
   Corrupted: 101001101110
 =======================================================
-  CRC VERIFICATION
+
+CRC VERIFICATION
 =======================================================
-  Received frame   : 101001101110
+
+Received frame   : 101001101110
   Generator        : 11001
   Remainder        : 1001
-  Result           : ❌ Error detected!
+  Result           : ❌ Error detected
 =======================================================
+
 ```
 
 ---

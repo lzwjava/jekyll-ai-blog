@@ -28,12 +28,14 @@ Heroes can equip **2 Common Skills** (also called Summoner Skills or 召唤师�
 | **Disrupt** / **Interfere** (干扰) | Lv. 9/11 | 90s | Silences enemy towers (2-6s); buffs ally towers (+100% AS, 4s damage immunity). Tower utility. |
 
 **Notes**:
+
 - These are **universal "assistant skills"** (辅助技能) for **all heroes**, especially supports/roamers (e.g., Da Qiao, Yaria). Supports often pair Sprint/Flash/Purify/Heal for team utility.
 - **No hero has "built-in" exclusive versions** of these (except hero-specific like Da Qiao's **Skill 2: Sea of Fate** – enhanced team recall portal allowing instant base return + return trip).
 - **Other utility examples** (hero skills, not common): Shields/heals (e.g., Cai Yan heals, Zhang Fei shields), dashes (many heroes), but query focuses on Recall/Recovery-like (common skills).
 - **Strategy**: Supports prioritize Sprint/Flash for mobility; squishies take Purify/Heal vs. CC/burst. All enable "assistant" play without hitting enemies.
 
 References:
+
 - [Honor of Kings Wiki - Common Skills](https://honor-of-kings.fandom.com/wiki/Common_Skills)
 - [Liquipedia HoK - Common Skills](https://liquipedia.net/honorofkings/Common_Skills)
 - [王者荣耀局内技能](https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/%E5%B1%80%E5%86%85%E6%8A%80%E8%83%BD)

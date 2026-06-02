@@ -32,15 +32,18 @@ You're right — they're NOT duplicates. Here's what each is:
 ```
 
 Why tokenized is smaller:
+
 - Tokenization compresses text (common words → single token IDs)
 - No metadata overhead (just uint16 arrays)
 - Parquet has row groups, column metadata, compression dictionaries
 
 They're complementary, not duplicate:
+
 - **Parquet** = source of truth, human-readable, reprocessable
 - **NPY** = training-ready, fast random access for DataLoader
 
 **Can you delete the parquet?** Yes, if you:
+
 - Don't plan to re-tokenize with a different tokenizer
 - Don't need to change preprocessing (chunk size, filtering)
 - Have the NPY files already (you do — 147 files, 28GB)

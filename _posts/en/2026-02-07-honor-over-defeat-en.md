@@ -12,7 +12,8 @@ type: note
 
 Your answer is correct: **B (知耻重义 / Being conscious of shame and valuing righteousness)**.
 
-### Explanation:
+### Explanation
+
 In the passage *"The Siege of Gaixia"* (《垓下之围》), **Xiang Yu (项羽)** refuses to cross the Wu River (乌江) to escape, even though the ferryman offers him a chance to survive. His reasoning is:
 
 - **"Heaven intends to destroy me; why should I cross the river? Moreover, when I crossed the river with the 8,000 sons of Jiangdong, none of them returned. Even if the people of Jiangdong pity me and make me their king, how can I face them? Even if they don't say anything, wouldn't I feel ashamed in my heart?"**

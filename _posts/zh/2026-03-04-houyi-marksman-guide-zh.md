@@ -16,6 +16,7 @@ type: note
 Hou Yi（某些指南中也称 Hoi 或 Hui）是《Honor of Kings》（《王者荣耀》的国际版）中适合新手的射手（ADC），擅长发育路（黄金路）。他通过多箭普攻造成高持续物理伤害，用远程大招提供全队控制，并在适当站位下在团战中大放异彩。他的技能组合简单，但需要风筝、叠层管理和大招预判才能掌握。
 
 ### 技能
+
 - **Passive: Chastising Shot**
   普通攻击提供攻击速度和 1 层（最多 3 层）。达到 3 层时，强化攻击发射 **3 箭**（主目标满伤 + 2 溅射各 50-60% 伤害）。优先通过 AA（自动攻击）叠层，实现大量消耗和清线。
 
@@ -31,7 +32,9 @@ Hou Yi（某些指南中也称 Hoi 或 Hui）是《Honor of Kings》（《王者
 **技能优先级**：Skill 1 > Skill 2 > Ult。
 
 ### 核心连招
+
 Hou Yi 的连招围绕大招设置 + 强化 AA 狂轰。技能间始终 AA 以叠被动。
+
 1. **标准开团/追击**：Ult（晕） > Skill 2（减速） > Skill 1（强化） > AA 狂轰。
 2. **伏击/草丛**：Skill 1 > Ult > Skill 2 > AA。
 3. **消耗/清线**：Skill 2 > Skill 1 > AA（叠被动实现三箭清线）。
@@ -56,6 +59,7 @@ Hou Yi 的连招围绕大招设置 + 强化 AA 狂轰。技能间始终 AA 以�
 **对决技能**：Flash（逃生/开团）或 Frenzy（更多 AA 速度）。
 
 ### 分阶段游戏提示
+
 - **早期游戏（对线）**：安全对线，刷小兵叠被动。用 Skill 2 消耗/减速。Ult 用于 gank 或塔下突进。推线但被 gank 时控线。4 级后轮换支援 buff。
 - **中期**：参与目标（塔、暴君）。Ult 晕团敌或救队友。与坦克/辅助团以获得保护。
 - **后期**：最大距离站位，后排 AA。Ult 预判突进/逃脱。你是超级后期——前期发育 > 战斗，后期 carry。
@@ -69,6 +73,7 @@ Hou Yi 的连招围绕大招设置 + 强化 AA 狂轰。技能间始终 AA 以�
 在匹配模式练习：专注被动叠层（目标 100% 在线）和大招命中率，快速上分。
 
 参考资料：
+
 - [Honor of Kings Wiki - Hou Yi](https://honor-of-kings.fandom.com/wiki/Hou_Yi)
 - [GamingonPhone Hou Yi Guide](https://gamingonphone.com/guides/honor-of-kings-hou-yi-guide-gameplay-tips)
 - [Sportskeeda Best Build](https://www.sportskeeda.com/esports/best-hou-yi-build-honor-kings-equipments-arcanas-battle-spell-skill-combo)

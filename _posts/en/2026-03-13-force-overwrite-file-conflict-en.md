@@ -75,6 +75,7 @@ This is why `--force-overwrite` is safe here: you're not overwriting with differ
 ## Is It Safe?
 
 In this specific case: **Yes**, because:
+
 - The two packages came from the same NVIDIA upstream version `535.288.01`
 - The firmware binary file is **bit-for-bit identical** in both packages
 - You're just resolving a packaging metadata conflict, not replacing with different content

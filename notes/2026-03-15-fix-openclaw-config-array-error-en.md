@@ -103,6 +103,7 @@ to one of these valid formats:
    - Run `openclaw config path` if the command exists, or check the startup logs
 
 2. Open the file in an editor
+
    ```bash
    nano ~/.openclaw/config.json    # or use vim, code, etc.
    ```
@@ -112,6 +113,7 @@ to one of these valid formats:
 4. Save and exit
 
 5. Validate & restart
+
    ```bash
    openclaw doctor                # should now pass or show other issues
    openclaw restart               # or systemctl restart openclaw if running as service
@@ -119,6 +121,7 @@ to one of these valid formats:
 
 6. Test
    Try the command again:
+
    ```bash
    openclaw doctor --fix
    ```

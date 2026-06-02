@@ -34,6 +34,7 @@ System Settings > Keyboard > Input Sources > Add > Chinese > Pinyin - Simplified
 ```
 
 Then remove WeType:
+
 ```
 sudo rm -rf /Library/Input\ Methods/WeType.app
 ```

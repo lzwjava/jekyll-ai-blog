@@ -15,6 +15,7 @@ type: note
 - **推测上限**：Aure’s Notes在2024年的分析指出，格雷厄姆持有的YC股份（保守估计15%）价值可能达105亿美元，若其持股比例接近25–30%则更高。加上其妻子杰西卡·利文斯顿可能持有的股份，二人合并净资产理论上可能接近200亿美元，但这主要是尚未变现的“账面财富”，与YC投资组合中包括爱彼迎、Dropbox和Stripe等成功企业密切相关。[](https://auresnotes.com/paul-graham-net-worth/)[](https://medium.com/notes-and-theories/i-calculated-paul-grahams-net-worth-a978b2684138)
 
 格雷厄姆的财富主要来源于：
+
 1. **Viaweb出售**：1998年以4960万美元售予雅虎，他个人获利约146万美元（经通胀调整后现值更高）。[](https://en.wikipedia.org/wiki/Paul_Graham_%28programmer%29)[](https://auresnotes.com/paul-graham-net-worth/)
 2. **Y Combinator**：YC在早期初创公司中持有7%的股权，包括爱彼迎（估值1000亿美元）、Stripe（估值500亿美元）等独角兽企业，这构成了其财富的主体。然而这部分财富流动性较差，因为YC的持股会在后续融资轮中被稀释，且在公司上市前不易变现。[](https://auresnotes.com/paul-graham-net-worth/)[](https://news.ycombinator.com/item?id=41965814)
 3. **其他投资**：格雷厄姆可能对初创企业进行过个人投资，但细节不详。他曾提及向民主党捐赠数百万美元，暗示其拥有可观流动资产。[](https://auresnotes.com/paul-graham-net-worth/)

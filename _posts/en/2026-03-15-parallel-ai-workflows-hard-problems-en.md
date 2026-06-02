@@ -74,6 +74,7 @@ This is explicitly supported and recommended:
 Each sub-agent can have its own model, context window, memory, tools, and thinking level. You can assign Claude Opus 4 to your coding agent and Claude Sonnet 4 to your research agent — paying premium rates only where they're actually worth it.
 
 For hard ML research, a good split might be:
+
 - **Opus** → architectural design, complex reasoning, novel algorithm design
 - **Sonnet** → implementation, refactoring, writing tests, simpler subtasks
 - **Other models via `--base-url`** → you can even route to Gemini or GPT-4 for comparison

@@ -21,6 +21,7 @@ Immich v2.6.1 已启动并运行。以下是运行状态：
 | immich_machine_learning | Starting (face recognition, search) |
 
 **配置信息：**
+
 - **Version:** v2.6.1 (pinned)
 - **Timezone:** Asia/Hong_Kong
 - **Photo storage:** `~/immich-app/library`
@@ -28,6 +29,7 @@ Immich v2.6.1 已启动并运行。以下是运行状态：
 - **Port:** 2283
 
 **后续步骤：**
+
 1. 在浏览器中打开 `http://192.168.1.36:2283`
 2. 创建 admin 账户
 3. 安装 Immich 移动端 App (iOS/Android) — 它会通过 WiFi 自动备份你的照片

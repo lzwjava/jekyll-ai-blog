@@ -17,6 +17,7 @@ type: note
 Spanning Tree Protocol (STP) 在 Cisco 交换机上默认启用，通常运行 Rapid Per-VLAN Spanning Tree (Rapid PVST+) 或 PVST+。典型命令分为两类：**验证/显示命令**（最常用于监控和故障排除）和**配置命令**（用于调整 STP 行为）。
 
 ### 验证/显示命令
+
 这些是最常用的命令，用于检查 STP 状态、根桥、端口角色和拓扑。
 
 - `show spanning-tree`
@@ -41,9 +42,11 @@ Spanning Tree Protocol (STP) 在 Cisco 交换机上默认启用，通常运行 R
   强制 STP 协议迁移重新协商。
 
 ### 配置命令
+
 在全局或接口配置模式下输入。STP 默认启用；这些命令用于调整它。
 
 #### 全局配置
+
 - `spanning-tree mode {rapid-pvst | pvst | mst | rstp | stp}`
   设置 STP 模式。Rapid PVST+ 在许多 Catalyst 交换机上是常见/默认设置，用于更快的收敛。
 
@@ -66,6 +69,7 @@ Spanning Tree Protocol (STP) 在 Cisco 交换机上默认启用，通常运行 R
   设置最大老化计时器（默认值：20 秒）。
 
 #### 接口配置
+
 - `spanning-tree portfast`
   启用 PortFast（在边缘端口上立即转发；用于连接主机的接入端口）。
 

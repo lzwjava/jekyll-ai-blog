@@ -39,6 +39,7 @@ delegate_task(goal="Review and test /src/auth.py — write pytest tests,
 ```
 
 The separation is especially powerful for:
+
 - Catching overfitting to happy paths
 - Finding unhandled edge cases the coder didn't think of
 - Security review (tester agent focused on attack vectors)

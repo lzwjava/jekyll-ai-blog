@@ -19,6 +19,7 @@ Answer:
 Ping An Insurance's primary app for car owners is called **平安好车主** (Ping An Good Car Owner). It provides one-stop services for reporting accidents, claims processing, damage assessment, and more. Download it from official app stores (App Store for iOS, or major Android stores like Huawei, Tencent, etc.).
 
 #### Prerequisites
+
 - Register and log in with your phone number.
 - Bind your vehicle (add car plate number) and insurance policy for full access to claims features.
 - For best results, ensure you have a Ping An car insurance policy.
@@ -60,6 +61,7 @@ Ping An Insurance's primary app for car owners is called **平安好车主** (Pi
    - Payout via bank transfer (fast for qualifying cases).
 
 #### Additional Tips
+
 - For complex accidents (injuries, disputes): Still call police (122) and hotline (95511), but use app to report simultaneously.
 - Both parties Ping An insured: Simpler process, possible "each repairs own car" without police.
 - App also offers roads rescue, repair shop booking, etc.

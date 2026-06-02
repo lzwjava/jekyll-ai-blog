@@ -15,6 +15,7 @@ type: note
 Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured overall—it's checking out the repo, setting up Python, installing deps, running a translation script on the N most recent posts, and committing changes to `_notes/`. However, based on the logs you shared earlier (with the 401 errors during translation to languages like ar, de, fr, etc.), the issue is in the authentication for the translation API calls inside `scripts/translation/update_lang_notes.py`.
 
 #### Root Cause
+
 - The error `"No cookie auth credentials found"` (HTTP 401) is specific to the **OpenRouter API** (or a Python client/library interacting with it, like LiteLLM or an unofficial SDK). This happens when the API request lacks proper authentication headers.
 - OpenRouter expects `Authorization: Bearer <your_openrouter_api_key>` in requests. If the key isn't passed correctly, some clients fall back to (or misinterpret as needing) cookie-based session auth, triggering this exact error.
 - In your workflow:
@@ -27,21 +28,26 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
 - This isn't a GitHub Actions issue—it's in the Python script's API client setup. The workflow continues to the commit step (hence the `git config user.name "github-actions[bot]"` log), but without translations, only English files get added.
 
 #### Recommended Fixes
+
 1. **Update Environment Variables in Workflow**:
    - Align with common OpenRouter setups (OpenAI-compatible). Change the `env` block in the "Translate posts" step to:
 {% raw %}
+
      ```
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}  # Rename var to what the script expects
        OPENAI_BASE_URL: https://openrouter.ai/api/v1   # Required for routing to OpenRouter
      ```
+
 {% endraw %}
-   - If `DEEPSEEK_API_KEY` is your OpenRouter key, great. If it's a direct DeepSeek key, create a new secret `OPENROUTER_API_KEY` in repo settings with your actual OpenRouter key (get one at [openrouter.ai/keys](https://openrouter.ai/keys)).
-   - Test: Add `echo $OPENAI_API_KEY` (redacted) to the run step for debugging in logs.
+
+- If `DEEPSEEK_API_KEY` is your OpenRouter key, great. If it's a direct DeepSeek key, create a new secret `OPENROUTER_API_KEY` in repo settings with your actual OpenRouter key (get one at [openrouter.ai/keys](https://openrouter.ai/keys)).
+- Test: Add `echo $OPENAI_API_KEY` (redacted) to the run step for debugging in logs.
 
 2. **Fix the Python Script (`update_lang_notes.py`)**:
    - Ensure it initializes the OpenAI client like this (assuming `openai` library):
+
      ```python
      import os
      from openai import OpenAI
@@ -53,6 +59,7 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
 
      # Then use client.chat.completions.create(..., model="x-ai/grok-4-fast")
      ```
+
    - If using LiteLLM (common for multi-provider): Install it if not in `requirements.txt`, and call `completion(model="openrouter/x-ai/grok-4-fast", api_key=os.getenv("OPENAI_API_KEY"), api_base="https://openrouter.ai/api/v1", ...)`.
    - For the translation loop: Add error handling per language (e.g., `try/except` around API calls, log failures, skip if 401).
    - Handle cookies explicitly? Unlikely needed—stick to API keys. If the script has browser/Selenium code, remove it for CI reliability.
@@ -65,6 +72,7 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
    - **Permissions**: Ensure the `github-pages` environment has read/write access if needed.
    - Full updated YAML snippet for the "Translate posts" step:
 {% raw %}
+
      ```
      - name: Translate posts
        run: |
@@ -74,6 +82,7 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
          OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
          OPENAI_BASE_URL: https://openrouter.ai/api/v1
      ```
+
 {% endraw %}
 
 4. **Testing Steps**:
@@ -85,6 +94,7 @@ Your GitHub Actions workflow for "Translate Recent Notes" looks well-structured 
 This should resolve the 401s and get translations flowing. If you share snippets from `update_lang_notes.py` (e.g., the API client init), I can pinpoint more precisely.
 
 #### References
+
 - [OpenRouter Quickstart (API Auth Setup)](https://openrouter.ai/docs/quickstart)
 - [LiteLLM OpenRouter Integration](https://docs.litellm.ai/docs/providers/openrouter) (if using)
 - [GitHub Issue on Similar OpenRouter Auth Error](https://github.com/mendableai/firecrawl/issues/1352)

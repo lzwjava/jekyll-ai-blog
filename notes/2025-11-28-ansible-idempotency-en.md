@@ -16,7 +16,7 @@ In Ansible, **idempotency** means that running the same playbook multiple times 
 
 However, whether a playbook is truly idempotent **does depend entirely on how it's written**.
 
-### Cases where idempotency is broken (non-idempotent behavior):
+### Cases where idempotency is broken (non-idempotent behavior)
 
 You mentioned the classic example — and it's spot-on:
 
@@ -28,12 +28,13 @@ You mentioned the classic example — and it's spot-on:
 Every run increases the value → `changed` every time → **not idempotent**.
 
 Other common non-idempotent patterns:
+
 - Using `command` or `shell` without `creates`, `removes`, or proper checks
 - Appending to files without checking if the line already exists
 - Restarting services unconditionally
 - Running `git pull` without specifying a commit/tag/branch that ensures same result
 
-### How to make it idempotent (correct way):
+### How to make it idempotent (correct way)
 
 Use declarative modules that check the desired state:
 

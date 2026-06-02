@@ -17,13 +17,17 @@ type: note
 你把网络中两种完全不同类型的“端口”搞混了——它们使用相同的词，但含义大相径庭。
 
 ### 物理端口
+
 这些是交换机、路由器或计算机等设备上的实际硬件连接器。
+
 - 它们通常是**RJ45以太网插孔**，用于插入以太网线缆。
 - 交换机有多个物理端口（例如，8端口、24端口）以允许许多线缆物理连接多个设备。
 - 它们处理通过线缆传输数据的电信号。
 
 ### 逻辑端口（或软件/TCP/UDP端口）
+
 这些是用于软件和网络协议（TCP/IP）的虚拟/数字标识符。
+
 - 它们的范围从0到65535，帮助计算机区分在同一设备/IP地址上运行的不同服务或应用程序。
 - 示例：
   - 端口22：通常用于SSH（安全远程访问）。
@@ -36,7 +40,7 @@ type: note
 
 参考资料：
 
-- https://www.lifewire.com/computer-port-usage-817366
-- https://en.wikipedia.org/wiki/Port_(computer_networking)
-- https://www.cloudflare.com/learning/network-layer/what-is-a-port/
-- https://jdtechsolutions.net/what-is-are-network-port-and-how-they-work/
+- <https://www.lifewire.com/computer-port-usage-817366>
+- <https://en.wikipedia.org/wiki/Port_(computer_networking)>
+- <https://www.cloudflare.com/learning/network-layer/what-is-a-port/>
+- <https://jdtechsolutions.net/what-is-are-network-port-and-how-they-work/>

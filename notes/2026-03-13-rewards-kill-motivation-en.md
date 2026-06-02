@@ -13,7 +13,7 @@ type: note
 
 ---
 
-## Answer:
+## Answer
 
 The short answer: **not necessarily, and it can actually make things worse** for creative work like software projects.
 
@@ -36,6 +36,7 @@ If a company solely offers monetary bonuses for new ideas, employees may focus o
 Three elements drive lasting internal motivation: autonomy, purpose, and mastery. Research consistently shows that people who are driven from within not only feel more satisfied but also deliver superior work.
 
 For your software projects, this means:
+
 - **Autonomy**: You choose what to build and how
 - **Purpose**: You're solving a real problem (for yourself first)
 - **Mastery**: You're learning and improving your skills
@@ -45,6 +46,7 @@ For your software projects, this means:
 The most effective organizations balance external incentives with intrinsic motivators like purpose, growth, and autonomy. When rewards reinforce, not replace internal motivation and reflect genuine values, they build lasting engagement and trust.
 
 If money or fame arrives *as a result* of finishing something you're genuinely excited about, that's fine. But if you chase money or fame first, you'll abandon the project when:
+
 - The money doesn't come quick enough
 - Fame doesn't materialize
 - You realize you don't actually care about the problem
@@ -57,11 +59,11 @@ Your original instinct is right: **build what you need, for yourself first**. Th
 
 ---
 
-## References:
+## References
 
-- https://www.infeedo.ai/blog/intrinsic-motivation-vs-money
-- https://www.mivation.com/blog/motivation
-- https://askfilo.com/user-question-answers-statistics/rewards-and-creativity-do-external-rewards-things-like-money-35383231363236
-- https://brainly.com/question/10952108
-- https://www.fastercapital.com/content/Motivation-Techniques--Reward-Systems---The-Right-Rewards--Systems-That-Motivate-and-Encourage.html
-- https://www.vantagecircle.com/en/blog/extrinsic-rewards/
+- <https://www.infeedo.ai/blog/intrinsic-motivation-vs-money>
+- <https://www.mivation.com/blog/motivation>
+- <https://askfilo.com/user-question-answers-statistics/rewards-and-creativity-do-external-rewards-things-like-money-35383231363236>
+- <https://brainly.com/question/10952108>
+- <https://www.fastercapital.com/content/Motivation-Techniques--Reward-Systems---The-Right-Rewards--Systems-That-Motivate-and-Encourage.html>
+- <https://www.vantagecircle.com/en/blog/extrinsic-rewards/>

@@ -18,7 +18,8 @@ Answer:
 
 She is widely recognized by her nickname **"The Cloud Girl"** and for her unique approach of using **hand-drawn sketchnotes**, illustrations, and visual storytelling to explain complex cloud concepts in an accessible and engaging way.
 
-### Key Highlights of Her Career and Contributions:
+### Key Highlights of Her Career and Contributions
+
 - **Role at Google Cloud** — Served as a Developer Advocate (later Staff level), working directly with customers, creating educational content, speaking at conferences, and building community resources. She joined Google around 2019–2020 and was active in that role for several years.
 - **Visual Learning Resources** — Created the popular **GCPSketchnote** series on GitHub — quick visual summaries of Google Cloud products, architecture decisions, certifications, and best practices. These sketchnotes became widely used by learners preparing for Google Cloud certifications and interviews.
 - **Book** — Authored the best-selling book **"Visualizing Google Cloud: 101 Illustrated References for Cloud Engineers and Architects"** (published 2021/2022 by Wiley), which uses her signature sketches to explain GCP services and architectures. It is considered one of the most visually oriented cloud books available.
@@ -31,6 +32,7 @@ She is widely recognized by her nickname **"The Cloud Girl"** and for her unique
 She is active on social platforms (especially X/Twitter @pvergadia, LinkedIn, YouTube "The Cloud Girl", and her website thecloudgirl.dev), where she shares cloud insights, career advice, and visual explainers.
 
 References:
+
 - [Google Cloud Blog - Meet Priyanka Vergadia](https://cloud.google.com/blog/topics/inside-google-cloud/meet-people-google-cloud-priyanka-vergadia)
 - [Her book on Amazon](https://www.amazon.com/Visualizing-Google-Cloud-Illustrated-References/dp/1119816327)
 - [GCPSketchnote GitHub repository](https://github.com/priyankavergadia/GCPSketchnote)

@@ -49,6 +49,7 @@ sudo apt install texlive-fonts-extra
 ```
 
 使用以下命令编译：
+
 ```bash
 pdflatex test.tex
 ```

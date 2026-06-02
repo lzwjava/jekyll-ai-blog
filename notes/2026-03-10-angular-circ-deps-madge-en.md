@@ -73,6 +73,7 @@ npx madge --circular --extensions ts --image circular-graph.png src/
 ```
 
 **Graph color legend:**
+
 - **Blue** — files that have dependencies
 - **Green** — files with no dependencies
 - **Red** — files with circular dependencies
@@ -101,7 +102,6 @@ Inside your Angular project, go to `package.json` and add custom scripts:
   "check:graph": "madge --image dependency-graph.png src/"
 }
 ```
-
 
 Then run any time with:
 

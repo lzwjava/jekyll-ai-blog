@@ -175,7 +175,7 @@ type: note
 
 # 5. 何时使用哪个
 
-## 选择 Google Tasks，如果：
+## 选择 Google Tasks，如果
 
 * 你重度使用 **Gmail + Google Calendar**
 * 你希望**简单、无阻力的任务追踪**
@@ -183,7 +183,7 @@ type: note
 
 ---
 
-## 选择 iOS Reminders，如果：
+## 选择 iOS Reminders，如果
 
 * 你深度融入 **Apple 生态系统**
 * 你需要：

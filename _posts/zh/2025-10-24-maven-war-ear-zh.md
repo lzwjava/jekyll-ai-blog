@@ -15,6 +15,7 @@ type: note
 在Maven中，要实现一个模块生成WAR文件（例如Web应用），另一个模块将其组装成EAR（企业级归档包），需要使用多模块项目结构。EAR模块通过`maven-ear-plugin`依赖WAR模块，确保在构建过程中将WAR包含在EAR中。
 
 #### 第一步：创建父级POM
+
 父级POM定义模块并管理共享配置，需将其打包类型设置为`pom`。
 
 ```xml
@@ -58,6 +59,7 @@ type: note
 ```
 
 #### 第二步：配置WAR模块
+
 该模块将Web应用打包为WAR，需设置打包类型为`war`。此处无需特殊EAR配置，只需确保优先构建。
 
 目录结构：`web-module/pom.xml`
@@ -102,6 +104,7 @@ type: note
 ```
 
 #### 第三步：配置EAR模块
+
 该模块负责组装EAR，需设置打包类型为`ear`，并通过`maven-ear-plugin`引用WAR模块。该插件将拉取WAR构件并打包进EAR。
 
 目录结构：`ear-module/pom.xml`
@@ -168,12 +171,14 @@ type: note
 ```
 
 #### 第四步：构建项目
+
 - 在**父目录**执行：`mvn clean install`
   - 此命令按顺序构建模块（先WAR后EAR）
 - EAR将生成在`ear-module/target/ear-module-1.0-SNAPSHOT.ear`
 - 若仅构建EAR（假设WAR已构建）：`cd ear-module && mvn clean package`
 
 #### 关键要点
+
 - **构建顺序**：在父POM的`<modules>`中WAR模块需列在EAR之前，确保Maven优先构建WAR
 - **依赖关系**：EAR模块通过`<dependency>`依赖WAR，确保在打包时解析依赖
 - **自定义配置**：通过`<contextRoot>`调整Web应用URL路径，在`<modules>`中添加更多模块（如EJB JAR）

@@ -15,6 +15,7 @@ type: note
 This PHP file is a configuration script for CodeIgniter's database connectivity. It defines connection settings for various database groups (e.g., 'default', 'lzwjava', 'leo66', 'testing'), allowing the application to switch between them based on the environment (development, testing, production). The `$active_group` variable determines which connection group is used by default.
 
 Key components:
+
 - **$query_builder**: Set to `TRUE` to enable loading the Query Builder class, which provides an object-oriented way to build SQL queries.
 - **$db[][]**: An associative array where each sub-array (e.g., 'default') holds detailed configuration options for a database connection.
 
@@ -78,6 +79,7 @@ Each database group is an array with the following keys. Most are straightforwar
 - **testing**: A dedicated group for test environments; inherits base config.
 
 The `switch` statement activates the appropriate group based on `ENVIRONMENT`:
+
 - Development: Uses 'lzwjava'.
 - Testing: Uses 'testing'.
 - Production: Uses 'default'.

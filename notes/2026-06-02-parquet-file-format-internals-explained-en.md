@@ -32,6 +32,7 @@ Parquet is a columnar storage format with three high-level sections: header (mag
 ```
 
 The footer contains:
+
 - Schema, version, row count, row group metadata (offsets, compression, encodings, statistics for min/max/nulls), key-value metadata
 - Each column chunk has: offset, size, compression codec, encodings used, number of values
 

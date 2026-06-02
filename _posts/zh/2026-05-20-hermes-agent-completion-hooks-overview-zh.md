@@ -27,7 +27,7 @@ events:
 
 `context` 字典包含 `platform`、`user_id`、`session_id`、`message` 和 `response`。
 
-文档：https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks#gateway-event-hooks
+文档：<https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks#gateway-event-hooks>
 
 ### 2. 插件钩子（CLI + 网关）
 

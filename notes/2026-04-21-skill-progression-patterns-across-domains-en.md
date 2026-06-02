@@ -26,11 +26,13 @@ This follows what psychologists call the **Dreyfus Model of Skill Acquisition** 
 ## English as a Foreign Language
 
 **Early stage:**
+
 - Grammar errors are invisible — the learner doesn't have enough internalized rules to even *notice* them
 - Capitalization feels like a stylistic choice, not a rule
 - The goal is just comprehension and basic communication
 
 **Later stage:**
+
 - Grammar errors become *jarring* — they break reading flow
 - Capitalization mistakes feel wrong instinctively
 - The learner self-corrects *automatically*, without thinking

@@ -63,6 +63,7 @@ In most engineering domains, a non-technical leader can hire strong ICs and stil
 ## The Institutional Pressure That Creates This Mistake
 
 Big corps have existing promotion ladders that reward:
+
 - Years of experience
 - Cross-functional influence
 - Communication skills

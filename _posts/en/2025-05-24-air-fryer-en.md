@@ -54,6 +54,7 @@ Using an air fryer to cook everyday foods is straightforward and versatile. Here
 7. **Serve Immediately**: Air-fried food is best enjoyed fresh for maximum crispiness. Avoid covering to prevent sogginess.
 
 **Tips**:
+
 - Use minimal oil (1–2 tsp) for crisp results; too much can smoke or make food greasy.
 - Clean the basket after each use to prevent residue buildup.
 - Experiment with seasonings or marinades for variety.

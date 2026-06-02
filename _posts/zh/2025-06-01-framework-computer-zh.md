@@ -10,7 +10,8 @@ type: note
 
 Framework Computer因其创新的笔记本电脑设计理念而广受赞誉，尤其在可维修性、可升级性和模块化方面备受关注。以下基于现有信息，从多角度分析其优势与注意事项：
 
-### 框架笔记本的卓越之处：
+### 框架笔记本的卓越之处
+
 1. **前所未有的可维修性与可升级性**：
    - Framework Laptop 13和16等型号采用用户可自主维修升级的设计，这在现代笔记本中实属罕见。内存、存储、电池、主板、接口甚至键盘等几乎所有组件都可用简单工具更换，契合"维修权"运动理念并减少电子垃圾。[](https://www.pcmag.com/reviews/framework-laptop)[](https://www.nytimes.com/wirecutter/reviews/framework-laptop/)
    - 公司提供详细维修指南和零件市场，组件上的二维码可直接链接至操作说明，让技术小白也能轻松完成维修。[](https://www.nytimes.com/wirecutter/reviews/framework-laptop/)[](https://www.theverge.com/23270191/framework-laptop-12th-gen-2022-review)
@@ -35,7 +36,8 @@ Framework Computer因其创新的笔记本电脑设计理念而广受赞誉，�
    - Reddit和X等平台用户盛赞其可维修性，称其为"经典ThinkPad精神续作"及"笔记本未来形态"。
    - 荣获《时代》周刊2023年度最佳发明（Framework Laptop 16），iFixit给出10分可维修评分。[](https://www.nytimes.com/wirecutter/reviews/framework-laptop/)
 
-### 潜在不足：
+### 潜在不足
+
 1. **电池续航**：
    - 续航能力始终是软肋，轻度使用仅6-8小时。AMD Ryzen AI机型虽性能强劲，但续航较英特尔版本进一步缩短。[](https://www.rtings.com/laptop/reviews/framework/laptop-13-2022)[](https://arstechnica.com/gadgets/2025/04/review-ryzen-ai-cpu-makes-this-the-fastest-the-framework-laptop-13-has-ever-been/)
    - 虽已升级61Wh电池，仍落后于微软Surface Laptop 5等竞品。[](https://www.rtings.com/laptop/reviews/framework/laptop-13-2022)
@@ -52,7 +54,8 @@ Framework Computer因其创新的笔记本电脑设计理念而广受赞誉，�
 5. **生态依赖风险**：
    - 虽然内存/固态硬盘等部件通用，但主板等核心组件依赖专属生态，长期升级需依托公司持续运营，存在一定不确定性。[](https://techcrunch.com/2022/07/23/review-frameworks-latest-modular-laptop-is-one-i-could-stick-with-for-years/)
 
-### 总结：
+### 总结
+
 Framework Computer深受科技爱好者、环保人士及注重设备自主权用户的推崇。其模块化架构、稳健性能与可持续理念，在高度集成的笔记本市场中独具锋芒。但续航短板、价格因素及图形性能限制，使其不太适合重度游戏玩家或视频创作者。若您追求设备寿命延展、定制自由与动手乐趣，Framework无疑是理想之选，但并非万能解决方案。
 
 如需了解具体型号对比（如Framework 13与16）、竞品分析或最新用户反馈，可随时告知！

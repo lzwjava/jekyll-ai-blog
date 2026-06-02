@@ -63,6 +63,7 @@ Bonus one-liner PG loves:
 **“The best way to come up with a good startup idea is to live in the future and build what seems like a toy today.”**
 
 If you only read three PG essays in your life, read these:
+
 - How to Get Startup Ideas
 - Do Things That Don’t Scale
 - Startup = Growth

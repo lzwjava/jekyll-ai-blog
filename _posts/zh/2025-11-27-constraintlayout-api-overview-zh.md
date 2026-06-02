@@ -54,10 +54,10 @@ type: note
 ### 高级尺寸调整
 
 * **比率：** 将视图的宽度/高度定义为另一尺寸的比率。
-    * `app:layout_constraintDimensionRatio="[宽度:高度]"`（例如，正方形用 `"1:1"`，或 `"16:9"`）。
+  * `app:layout_constraintDimensionRatio="[宽度:高度]"`（例如，正方形用 `"1:1"`，或 `"16:9"`）。
 * **最小/最大值：** 当使用 `0dp`（匹配约束）时，可以定义尺寸限制。
-    * `app:layout_constraintWidth_min`, `app:layout_constraintWidth_max`
-    * `app:layout_constraintHeight_min`, `app:layout_constraintHeight_max`
+  * `app:layout_constraintWidth_min`, `app:layout_constraintWidth_max`
+  * `app:layout_constraintHeight_min`, `app:layout_constraintHeight_max`
 
 ---
 
@@ -74,5 +74,4 @@ type: note
 
 下面的视频演示了如何使用各种 ConstraintLayout 功能，包括 Chains 和 Barriers。[在 Jetpack Compose 中掌握 ConstraintLayout：Guidelines、Barriers & Chains 变得简单！](https://www.youtube.com/watch?v=ntCGoQDbrVI)
 
-
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

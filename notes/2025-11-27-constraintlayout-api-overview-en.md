@@ -54,10 +54,10 @@ While standard `android:layout_width` and `android:layout_height` are used, `Con
 ### Advanced Sizing
 
 * **Ratio:** Defines a view's width/height as a ratio of the other dimension.
-    * `app:layout_constraintDimensionRatio="[width:height]"` (e.g., `"1:1"` for a square, or `"16:9"`).
+  * `app:layout_constraintDimensionRatio="[width:height]"` (e.g., `"1:1"` for a square, or `"16:9"`).
 * **Min/Max:** When using `0dp` (Match Constraints), you can define size limits.
-    * `app:layout_constraintWidth_min`, `app:layout_constraintWidth_max`
-    * `app:layout_constraintHeight_min`, `app:layout_constraintHeight_max`
+  * `app:layout_constraintWidth_min`, `app:layout_constraintWidth_max`
+  * `app:layout_constraintHeight_min`, `app:layout_constraintHeight_max`
 
 ---
 
@@ -74,5 +74,4 @@ These are special, non-visible views that you can add to the layout to manage gr
 
 The video below demonstrates using various ConstraintLayout features, including Chains and Barriers. [Master ConstraintLayout in Jetpack Compose: Guidelines, Barriers & Chains Made Easy!](https://www.youtube.com/watch?v=ntCGoQDbrVI)
 
-
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

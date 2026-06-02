@@ -179,7 +179,7 @@ Here is a **clear, practical comparison** between **Google Tasks** and **iOS Rem
 
 # 5. When to Use Which
 
-## Choose Google Tasks if:
+## Choose Google Tasks if
 
 * You use **Gmail + Google Calendar heavily**
 * You want **simple, no-friction task tracking**
@@ -187,7 +187,7 @@ Here is a **clear, practical comparison** between **Google Tasks** and **iOS Rem
 
 ---
 
-## Choose iOS Reminders if:
+## Choose iOS Reminders if
 
 * You are deep in **Apple ecosystem**
 * You want:

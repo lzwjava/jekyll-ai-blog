@@ -17,6 +17,7 @@ Answer:
 The `subprocess` module in Python allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. The recommended high-level function (introduced in Python 3.5) is `subprocess.run()`, which runs a command and waits for it to complete.
 
 ### Basic Usage
+
 Import the module and call `subprocess.run()` with the command as a list of strings (preferred for security) or a single string.
 
 ```python
@@ -32,6 +33,7 @@ result = subprocess.run(["ls", "-l"])
 This runs the command and prints output to the console by default. The function returns a `CompletedProcess` object with attributes like `returncode` (0 usually means success).
 
 ### Capturing Output
+
 To capture stdout (and optionally stderr):
 
 ```python
@@ -48,6 +50,7 @@ print(result.returncode)  # Exit status
 - `text=True`: Returns output as strings (instead of bytes).
 
 ### Handling Errors
+
 Use `check=True` to raise an exception if the command fails (non-zero return code):
 
 ```python
@@ -58,6 +61,7 @@ except subprocess.CalledProcessError as e:
 ```
 
 ### Providing Input
+
 Pass data to the command's stdin:
 
 ```python
@@ -66,6 +70,7 @@ print(result.stdout)
 ```
 
 ### Using Shell Features
+
 For shell built-ins, pipes, or wildcards, set `shell=True` (but be cautious with untrusted input due to security risks):
 
 ```python

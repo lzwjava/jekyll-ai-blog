@@ -18,12 +18,14 @@ Answer:
 Frame Relay is a **high-performance**, **packet-switched** wide area network (WAN) protocol that operates primarily at the **data link layer** (Layer 2) of the OSI model. It was designed for efficient data transmission across geographically dispersed locations, particularly for connecting LANs over a WAN.
 
 ### Historical Context
+
 - Developed in the late 1980s as an evolution from **X.25** packet switching and influenced by early **ISDN** specifications.
 - Standardized by **ANSI** (T1 committee) starting around 1988, with widespread commercial availability beginning in the early 1990s.
 - Became very popular during the 1990s and early 2000s as a cost-effective alternative to leased lines.
 - Largely replaced today by **MPLS**, **VPNs over Internet**, **SD-WAN**, and Ethernet-based services, but still exists in legacy installations.
 
 ### Core Concept: Virtual Circuits instead of Physical Lines
+
 Unlike traditional point-to-point leased lines (where each site pair requires a dedicated physical circuit), Frame Relay uses a **shared "cloud" infrastructure** provided by the carrier.
 
 - Customers connect via a single physical link to the provider's Frame Relay network (the "cloud").
@@ -62,6 +64,7 @@ Unlike traditional point-to-point leased lines (where each site pair requires a 
 ```
 
 Important flags in address field:
+
 - **FECN** (Forward Explicit Congestion Notification) — Congestion ahead.
 - **BECN** (Backward Explicit Congestion Notification) — Congestion behind.
 - **DE** (Discard Eligibility) — Frame can be dropped first during congestion.
@@ -99,12 +102,14 @@ Important flags in address field:
 ### Modern Status (2026 Perspective)
 
 Frame Relay has been almost completely phased out in new deployments. Existing installations are mostly legacy environments being migrated to:
+
 - MPLS VPNs
 - Internet VPNs (IPsec, SD-WAN)
 - Metro Ethernet
 - Direct fiber / DWDM services
 
 However, understanding Frame Relay remains valuable for:
+
 - Legacy support
 - Understanding evolution of WAN technologies
 - Concepts like virtual circuits, statistical multiplexing, CIR, congestion notification that appear in modified forms in MPLS and SD-WAN.

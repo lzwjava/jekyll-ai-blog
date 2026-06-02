@@ -29,6 +29,7 @@ After:   Host SSH = 2222  |  Gitea SSH = 22
 #### Problem: sshd_config alone wasn't enough
 
 I edited `/etc/ssh/sshd_config`:
+
 ```
 Port 2222
 ```
@@ -57,6 +58,7 @@ This **overrides** whatever `Port` is set in `sshd_config`. So changing `sshd_co
 #### Fix: Override the socket unit
 
 Created a systemd override:
+
 ```bash
 sudo mkdir -p /etc/systemd/system/ssh.socket.d
 
@@ -70,6 +72,7 @@ ListenStream=[::]:2222
 The empty `ListenStream=` is critical — it **resets** the list before adding new entries. Without it, systemd would try to listen on both 22 and 2222.
 
 Then:
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl restart ssh.socket ssh.service
@@ -78,6 +81,7 @@ sudo systemctl restart ssh.socket ssh.service
 #### Problem: Port 2222 was in use
 
 Restart failed with:
+
 ```
 ssh.socket: Failed to create listening socket (0.0.0.0:2222): Address already in use
 ```
@@ -91,6 +95,7 @@ Gitea's Docker container was using port 2222 via `docker-proxy`. The container n
 #### Change docker-compose.yml
 
 Edited `/opt/gitea/docker-compose.yml`:
+
 ```yaml
 # Before:
 ports:
@@ -104,6 +109,7 @@ ports:
 ```
 
 Also updated the environment variable:
+
 ```yaml
 # Before:
 - GITEA__server__SSH_PORT=2222
@@ -125,11 +131,13 @@ This released port 2222 from `docker-proxy`.
 ### Step 3: Start Host SSH on 2222 First
 
 Now that 2222 was free:
+
 ```bash
 sudo systemctl start ssh.socket ssh.service
 ```
 
 Verified:
+
 ```bash
 sudo ss -tlnp | grep sshd
 # 0.0.0.0:2222 ← success!
@@ -145,10 +153,12 @@ cd /opt/gitea && docker compose up -d
 
 Verified:
 {% raw %}
+
 ```bash
 docker ps --filter name=gitea --format "table {{.Names}}\t{{.Ports}}"
 # gitea   0.0.0.0:22->22/tcp, 0.0.0.0:3000->3000/tcp  ← success!
 ```
+
 {% endraw %}
 
 ---

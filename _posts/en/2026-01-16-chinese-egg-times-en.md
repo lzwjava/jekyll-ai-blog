@@ -42,6 +42,7 @@ Here are the most common ways to cook eggs in Chinese food with typical times:
   **8–12 minutes** boiling, similar to Western style, then sometimes peeled and used in stir-fries or braised dishes.
 
 **Tips for Chinese-style eggs**:
+
 - High heat + lots of oil is common for stir-fried eggs to get the fluffy, puffy texture.
 - For steamed eggs, use a 1:1.5 to 1:2 egg-to-water ratio and strain for smoothness.
 - Most everyday home-cooked egg dishes (stir-fry, steamed) are quick and ready in under 15 minutes total.

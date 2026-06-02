@@ -33,6 +33,7 @@ gcloud run deploy blog-server \
 ```
 
 ### Nearby alternatives (if needed)
+
 - If `asia-southeast1` has any temporary quota/issue (very rare), the next closest are:
   - `asia-southeast2` → Jakarta, Indonesia (still quite close, good for Indonesia-focused traffic)
   - `asia-east2` → Hong Kong (farther, higher latency from Singapore)
@@ -41,6 +42,7 @@ gcloud run deploy blog-server \
 But **always prefer `asia-southeast1`** for Singapore.
 
 ### Quick verification tip
+
 To see all available regions for Cloud Run in your project (some features like GPUs may vary):
 
 ```bash

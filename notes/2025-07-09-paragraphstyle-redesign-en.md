@@ -15,9 +15,11 @@ To change the whole `cvparagraph` environment to use `\mdseries` instead of `\bo
 ```
 
 This will change the paragraph style from:
+
 - `\bodyfontlight` (which is light weight)
 
 to:
+
 - `\mdseries` (which is medium weight, similar to the description style)
 
 This way, your entire `cvparagraph` environment will use the medium weight font series like the `\descriptionstyle` does.

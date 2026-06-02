@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-**Question:** Provide a comprehensive summary of the YouTube video at https://www.youtube.com/watch?v=DbfejwP1d3c
+**Question:** Provide a comprehensive summary of the YouTube video at <https://www.youtube.com/watch?v=DbfejwP1d3c>
 
 **Answer:**
 
@@ -18,7 +18,7 @@ This is a rare, early television interview with **Steve Jobs** dated February 18
 
 The roughly 20–30 minute interview (from VintageSteveJobs channel or similar archival upload) features a young Steve Jobs explaining the vision and significance of personal computers in very clear, forward-looking terms.
 
-### Main Topics and Key Points Covered:
+### Main Topics and Key Points Covered
 
 - **What is a personal computer?**
   Jobs defines it as fundamentally different from all previous computers in history. He explains that earlier computers were tools used *by* specialists to solve problems for other people, whereas a personal computer is a tool that individuals use directly to amplify their own reach and productivity.

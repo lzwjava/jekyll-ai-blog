@@ -13,13 +13,16 @@ To check the extension installation log in Visual Studio Code (VSCode) or use th
 ---
 
 ### Using the Command Line with `code --install-extension`
+
 You can install extensions via the command line and get some visibility into the process, which might help diagnose proxy issues.
 
 1. **Install with Verbose Output**
    Run the following command to install an extension and see more detailed output:
+
    ```bash
    code --install-extension <extension-id> --verbose
    ```
+
    - Replace `<extension-id>` with the ID of the extension (e.g., `vscodevim.vim`).
    - The `--verbose` flag increases the output detail, showing progress and potential errors, such as proxy or network issues.
 
@@ -27,19 +30,24 @@ You can install extensions via the command line and get some visibility into the
    If you’re behind a proxy, it might interfere with the installation. Try these approaches:
    - **Set Proxy Environment Variables**:
      Before running the command, configure the proxy settings:
+
      ```bash
      export HTTP_PROXY=http://your-proxy-server:port
      export HTTPS_PROXY=http://your-proxy-server:port
      code --install-extension <extension-id>
      ```
+
      - On Windows, use `set` instead of `export`:
+
        ```cmd
        set HTTP_PROXY=http://your-proxy-server:port
        set HTTPS_PROXY=http://your-proxy-server:port
        code --install-extension <extension-id>
        ```
+
    - **Specify Proxy Directly**:
      Use the `--proxy-server` flag:
+
      ```bash
      code --install-extension <extension-id> --proxy-server=http://your-proxy-server:port
      ```
@@ -51,6 +59,7 @@ You can install extensions via the command line and get some visibility into the
 ---
 
 ### Checking Logs in VSCode
+
 For more detailed logs—especially after an installation attempt—use VSCode’s built-in logging features:
 
 1. **Open the Logs Folder**
@@ -70,14 +79,17 @@ For more detailed logs—especially after an installation attempt—use VSCode�
 ---
 
 ### Additional Steps for Proxy Troubleshooting
+
 Since you suspect a proxy issue, here are extra tips to ensure proper configuration:
 
 - **Configure Proxy in VSCode**
   - Open VSCode settings (`File > Preferences > Settings` or `Ctrl+,`).
   - Search for `proxy` and set:
+
     ```json
     "http.proxy": "http://your-proxy-server:port"
     ```
+
   - Optionally, adjust `"http.proxyStrictSSL"` (set to `false` if needed) or `"http.proxyAuthorization"` (for authenticated proxies).
   - These settings apply to installations within VSCode, not necessarily the CLI.
 
@@ -85,14 +97,17 @@ Since you suspect a proxy issue, here are extra tips to ensure proper configurat
   - Manually test if the proxy allows access to the VSCode Marketplace:
     - Find the extension’s VSIX file URL (e.g., from the Marketplace website).
     - Use a tool like `curl`:
+
       ```bash
       curl -x http://your-proxy-server:port <vsix-url>
       ```
+
     - If this fails, your proxy might be blocking the connection.
 
 ---
 
 ### Recommended Approach
+
 - **For CLI Installation**: Use `code --install-extension <extension-id> --verbose` with proxy environment variables or `--proxy-server` to see immediate output. Check for errors in the terminal.
 - **For Detailed Logs**: Install the extension via the VSCode UI (Marketplace) and check the **Output > Extensions** panel or the logs folder (`exthost.log`).
 - **Proxy Check**: Ensure proxy settings are correct in both your system and VSCode.

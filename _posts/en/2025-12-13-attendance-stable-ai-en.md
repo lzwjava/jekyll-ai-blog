@@ -20,6 +20,7 @@ The number of participants in Codeforces Div. 1 and Div. 2 rounds has remained h
 - Post-LLM era (2023–2025): No evident decline in attendance. The platform continues frequent rounds (Div. 2 most common, Div. 1 often combined), with ongoing announcements for 2025 rounds attracting thousands. Wikipedia notes over 11,000 registered competitors per round on average by end-2025.
 
 AI/LLM impact appears more on contest integrity than attendance:
+
 - Increased cheating reports, especially in Div. 2 (easier problems solvable by models like o1, achieving ~top 500 performance).
 - Community discussions highlight rising AI-assisted submissions, bans for direct LLM use, and concerns about rating inflation.
 - However, this has not deterred participation; the community remains active, with problemsetters adapting (e.g., "anti-LLM" rounds) and debates on future formats.
@@ -28,10 +29,10 @@ Overall, attendee numbers have not decreased—in fact, the platform's scale has
 
 **References:**
 
-- https://en.wikipedia.org/wiki/Codeforces
-- https://codeforces.com/blog/entry/74972
-- https://codeforces.com/blog/entry/99293
-- https://codeforces.com/blog/entry/138557
-- https://codeforces.com/blog/entry/137602
-- https://codeforces.com/blog/entry/141477
-- https://codeforces.com/blog/entry/135108
+- <https://en.wikipedia.org/wiki/Codeforces>
+- <https://codeforces.com/blog/entry/74972>
+- <https://codeforces.com/blog/entry/99293>
+- <https://codeforces.com/blog/entry/138557>
+- <https://codeforces.com/blog/entry/137602>
+- <https://codeforces.com/blog/entry/141477>
+- <https://codeforces.com/blog/entry/135108>

@@ -75,8 +75,6 @@ IPhO 是世界上最负盛名的中学物理竞赛。要代表中国参加 IPhO�
 
 ### 个人资料摘要
 
-
-
 | Category | Detail |
 |---|---|
 | Name | 张晨星 (Zhang Chengxing) |

@@ -31,10 +31,12 @@ iter       Fit A    Fit B    Forecast    Δ from iter 6000 (3.247)
 Sanity check against the most recent eval-to-eval deltas (4500→6000 averaged ~0.025/500 iters): integrating the implied 1/√n deceleration from iter 6000 forward gives ~0.27 total drop by 19,073 — matches both fits.
 
 **Takeaways:**
+
 - The earlier "~3.0–3.1 at iter 10,000" projection was slightly pessimistic — looks more like **3.11**.
 - Full run lands at **~2.96–3.01**, with **2.98** as the central estimate.
 - The curve flattens hard after iter ~12,000: from 12,500→19,073 (52% more iters) we only gain another ~0.08 in loss. Diminishing returns get steep.
 
 **Caveats:**
+
 - Power-law assumes no LR-schedule discontinuity. If there's cosine decay still kicking in, the back half could outperform this by 0.02–0.05.
 - 95% confidence band at iter 19,073 is roughly **2.93–3.04** — the fit is tight, but eval-to-eval noise has been ±0.015.

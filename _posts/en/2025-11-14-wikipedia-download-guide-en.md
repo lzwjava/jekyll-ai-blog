@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-This is a directory listing from one of the official Wikimedia download mirrors (usually https://dumps.wikimedia.org/enwiki/latest/).
+This is a directory listing from one of the official Wikimedia download mirrors (usually <https://dumps.wikimedia.org/enwiki/latest/>).
 It contains all the different ways you can download the current English Wikipedia articles (as of early November 2025).
 
 ### Main formats and what they actually contain
@@ -39,6 +39,7 @@ enwiki-latest-pages-articles.xml.bz2    ← 24.6 GB compressed, ~85–90 GB unco
 Both contain exactly the same raw XML data (all main-namespace articles + a lot of extra pages).
 
 ### Why not the tiny files (multistream3.xml-p…, multistream4.xml-p… etc.)?
+
 Those are very old splits from 2010–2015 that only contain a tiny fraction of Wikipedia (articles that happened to fall into that page-ID range back then). They are kept only for historical reasons and are basically useless today.
 
 ### Quick start commands (2025 dump)
@@ -66,6 +67,7 @@ wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.
 ```
 
 After that you normally process it with tools like:
+
 - wikiextractor (Python) → clean text
 - the Hugging Face `datasets` Wikipedia loader (already does everything for you)
 - DeepSeek’s or EleutherAI’s processing scripts, etc.

@@ -31,12 +31,15 @@ type: note
    - 若期权未显示买卖（如点击后列表空白），可能误选了“我的持仓”筛选器，需切换回期权链顶部的“全部期权”[4]
 
 ### 关于“每周投资”功能
+
 应用中没有明确命名为“每周投资”或“AI每周投资”的功能，这可能指的是**自动投资**（亦称Tiger Invest）——针对美股和ETF的定期投资工具：
+
 - 支持按固定周期（如每周）自动买入（非卖出），起始金额为2美元（或等值港币/其他货币），使用碎股交易[5]
 - 访问路径：进入资产页 > 自动投资（或在应用菜单中搜索）
 - 此功能不影响股票/页面的买卖显示，交易功能保持独立。若使用自动投资后买卖按钮消失，可重启应用或重新登录，可能是9.4.0.2版本的界面显示异常
 
 若操作后按钮仍隐藏（如点击筛选器、图表切换或AI功能后），请检查：
+
 - 确保账户资金充足且符合交易资格（老虎证券支持合格用户的碎股和期权交易[6]）
 - 如TigerAI叠加层影响显示，可关闭该功能或切换图表时间周期
 - 应用设置：点击个人资料 > 设置 > 检查显示选项（移动端无专门的买卖按钮开关）
@@ -44,9 +47,9 @@ type: note
 如需进一步帮助，请访问老虎证券帮助中心或联系客服。若涉及桌面端Tiger Trade Windows/Mac版本，可通过选项 > 图表设置 > 交易启用图表交易按钮[2]。
 
 引用来源：
-[1] https://apps.apple.com/nz/app/tiger-trade-buy-us-asx-shares/id1023600494
-[2] https://support.tiger.com/english/windows/chart/chart-trading
-[3] https://www.itiger.com/sg/help/detail/option-trading
-[4] https://www.youtube.com/watch?v=5JKam5MP-nc
-[5] https://www.itiger.com/nz/help/detail/15849694
-[6] https://play.google.com/store/apps/details?id=com.tigerbrokers.stock&hl=en_US
+[1] <https://apps.apple.com/nz/app/tiger-trade-buy-us-asx-shares/id1023600494>
+[2] <https://support.tiger.com/english/windows/chart/chart-trading>
+[3] <https://www.itiger.com/sg/help/detail/option-trading>
+[4] <https://www.youtube.com/watch?v=5JKam5MP-nc>
+[5] <https://www.itiger.com/nz/help/detail/15849694>
+[6] <https://play.google.com/store/apps/details?id=com.tigerbrokers.stock&hl=en_US>

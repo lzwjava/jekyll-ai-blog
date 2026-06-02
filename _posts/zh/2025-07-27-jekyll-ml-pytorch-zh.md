@@ -16,9 +16,11 @@ type: note
 您可能会创建 Python 脚本（例如在 `scripts/` 目录中），这些脚本在 Jekyll 的构建过程中运行（通过 Makefile 钩子或部署时的 GitHub Actions）。例如，处理 `_posts/` 中的 Markdown 文章，生成 JSON 数据，并通过 Liquid 模板将其注入到您的站点中。
 
 #### 1. 使用 PyTorch 分类器进行文章分类
+
 通过训练一个简单的神经网络分类器，自动对文章进行分类（例如分为“ML”、“笔记”、“Latex”等主题）。这是监督学习：您需要手动标记一部分文章作为训练数据。如果没有标签，可以从无监督聚类开始（见下文）。
 
 **步骤：**
+
 - **数据准备：** 解析 `_posts/` 中的 Markdown 文件。提取文本内容（跳过 frontmatter）。创建数据集：（文本, 标签）对的列表。最初使用 CSV 或列表，包含约 50-100 个带标签的示例。
 - **预处理：** 对文本进行分词（基于空格/空白简单分割），构建词汇表，转换为数字索引。使用 one-hot 编码或基本嵌入。
 - **模型：** 在 PyTorch 中构建一个基本的全连接神经网络，用于多类分类。
@@ -26,6 +28,7 @@ type: note
 - **集成：** 在构建过程中运行脚本，对所有文章进行分类，生成 `categories.json` 文件，并在 Jekyll 中使用它来标记页面或创建分类索引。
 
 **PyTorch 代码示例（在 `scripts/categorize_posts.py` 等脚本中）：**
+
 ```python
 import torch
 import torch.nn as nn
@@ -105,9 +108,11 @@ def classify_post(text):
 **改进：** 为了获得更好的准确性，可以使用词嵌入（在 PyTorch 中训练一个简单的 Embedding 层）或添加更多层。如果未标记，可以切换到聚类（例如，在嵌入上使用 KMeans——见下一节）。在 Makefile 中运行此脚本：`jekyll build && python scripts/categorize_posts.py`。
 
 #### 2. 使用 PyTorch 嵌入构建推荐系统
+
 向读者推荐相似文章（例如，“您可能还喜欢...”）。使用基于内容的推荐：学习每篇文章的嵌入，然后计算相似度（余弦距离）。不需要用户数据——只需文章内容。
 
 **步骤：**
+
 - **数据：** 同上——从文章中提取文本。
 - **模型：** 在 PyTorch 中训练一个自编码器，将文本压缩为低维嵌入（例如 64 维向量）。
 - **训练：** 最小化重构损失，以学习有意义的表示。
@@ -115,6 +120,7 @@ def classify_post(text):
 - **集成：** 在构建过程中预计算嵌入，存储在 JSON 中。在站点上使用 JS 显示推荐（或使用 Liquid 生成静态列表）。
 
 **PyTorch 代码示例（在 `scripts/recommend_posts.py` 中）：**
+
 ```python
 import torch
 import torch.nn as nn
@@ -178,13 +184,16 @@ with open('embeddings.json', 'w') as f:
 **改进：** 使用变分自编码器以获得更好的嵌入。如果您有用户浏览数据（通过分析），可以在 PyTorch 中添加带有矩阵分解模型的协同过滤。客户端：在 JS 中加载 JSON 并动态计算相似度以实现个性化。
 
 #### 3. 其他 PyTorch 应用思路
+
 - **无监督聚类自动打标签：** 如果标记繁琐，使用嵌入（来自上述自编码器）+ KMeans 聚类将文章分组到主题中。PyTorch 用于嵌入，NumPy/SciPy 用于聚类。
+
   ```python
   from sklearn.cluster import KMeans
   kmeans = KMeans(n_clusters=5)
   clusters = kmeans.fit_predict(embeddings)
   # 基于聚类分配标签
   ```
+
   集成：通过脚本在 frontmatter 中生成标签。
 
 - **语义搜索增强：** 类似地嵌入查询和文章，然后使用余弦相似度实现搜索栏。预计算文章嵌入；使用 JS 进行查询嵌入（但由于 PyTorch 是 Python，可以将模型导出为 ONNX，通过 ONNX.js 在 JS 中进行推理，或保持搜索静态）。
@@ -192,6 +201,7 @@ with open('embeddings.json', 'w') as f:
 - **文章摘要：** 在配对数据（全文, 手动摘要）上训练 seq2seq 模型（PyTorch 中的 RNN/LSTM）。没有大型数据集的情况下具有挑战性，但可以从您的文章开始小规模尝试。用于生成摘要。
 
 **通用提示：**
+
 - **可扩展性：** 对于小型博客，在 CPU 上训练；PyTorch 可以很好地处理。使用 `torch.save` 保存模型并加载进行推理。
 - **构建集成：** 添加到 Makefile：`train: python scripts/train_models.py` 然后 `build: jekyll build && python scripts/generate_features.py`。
 - **局限性：** 没有高级 NLP（例如 transformers），结果可能较基础——考虑在本地添加 `torchtext` 或手动 GloVe 嵌入。在您的 `ml/` 或 `notes/` 目录上进行测试。

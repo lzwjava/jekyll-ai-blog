@@ -53,6 +53,7 @@ The version history confirms that no new releases of the base `GitHub.copilot` e
 | Status | Deprecated (last ever release) |
 
 You can download it directly via the Marketplace API:
+
 ```
 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot/1.388.0/vspackage
 ```

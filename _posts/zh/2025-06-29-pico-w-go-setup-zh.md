@@ -13,13 +13,16 @@ type: note
 ---
 
 ### 前提条件
+
 1. **已刷入 MicroPython**：您的 Pico 已安装 MicroPython，如您已刷入。
 2. **已安装 VSCode**：确保已安装 VSCode（[code.visualstudio.com](https://code.visualstudio.com)）。
 3. **已安装 Python**：Pico-W-Go 依赖项需要：
+
    ```bash
    sudo apt update
    sudo apt install python3 python3-pip
    ```
+
 4. **USB 连接**：Pico 通过支持数据传输的 USB 线缆连接。
 
 ---
@@ -34,9 +37,11 @@ type: note
 
 2. **安装 Pico-W-Go 依赖项**：
    - Pico-W-Go 需要 `pyserial` 和 `esptool` 用于串口通信和刷写：
+
      ```bash
      pip3 install pyserial esptool
      ```
+
    - 确保这些库安装在您的 Python 环境中（使用 `pip3 list` 验证）。
 
 3. **配置 Pico-W-Go**：
@@ -44,9 +49,11 @@ type: note
    - 输入并选择 **Pico-W-Go > Configure Project**。
    - 按照提示操作：
      - **串口**：选择 Pico 的串口（如 `/dev/ttyACM0`）。通过以下命令查找：
+
        ```bash
        ls /dev/tty*
        ```
+
        查找 `/dev/ttyACM0` 或类似名称，Pico 连接时会显示。
      - **解释器**：选择 MicroPython (Raspberry Pi Pico)。
      - **项目文件夹**：选择或创建项目文件夹（如 `~/PicoProjects/MyProject`）。
@@ -56,6 +63,7 @@ type: note
    - 在 VSCode 中打开项目文件夹（文件 > 打开文件夹）。
    - 创建名为 `main.py` 的新文件（MicroPython 启动时自动运行 `main.py`）。
    - 添加简单程序，例如闪烁板载 LED：
+
      ```python
      from machine import Pin
      import time
@@ -67,6 +75,7 @@ type: note
          led.off()
          time.sleep(0.5)
      ```
+
    - 保存文件（`Ctrl+S`）。
 
 5. **将程序上传到 Pico**：
@@ -87,25 +96,30 @@ type: note
    - **使用 REPL**：
      - 打开命令面板并选择 **Pico-W-Go > Open REPL**。
      - REPL 将出现在 VSCode 的终端中，您可以在其中测试命令：
+
        ```python
        from machine import Pin
        led = Pin(25, Pin.OUT)
        led.on()
        ```
+
      - 按 `Ctrl+C` 停止 REPL 中运行的程序。
 
 7. **管理 Pico 上的文件**：
    - **列出文件**：使用 **Pico-W-Go > Download Project from Pico** 查看或从 Pico 文件系统检索文件。
    - **删除文件**：打开命令面板并选择 **Pico-W-Go > Delete All Files** 清除 Pico 文件系统，或在 REPL 中使用：
+
      ```python
      import os
      os.remove('main.py')
      ```
+
    - **检查输出**：程序输出（如 `print` 语句）将显示在 REPL 或配置的 VSCode 终端中。
 
 ---
 
 ### 故障排除
+
 - **未检测到串口**：
   - 运行 `ls /dev/tty*` 确认 Pico 的串口（如 `/dev/ttyACM0`）。
   - 确保 USB 线支持数据传输，并尝试其他端口。
@@ -117,21 +131,25 @@ type: note
 - **LED 不闪烁**：
   - 确认正确的 GPIO 引脚（Pico 为 `25`，Pico W 为 `"LED"`）。
   - 在 REPL 中测试：
+
     ```python
     from machine import Pin
     led = Pin(25, Pin.OUT)
     led.on()
     ```
+
 - **缺少 Pico-W-Go 命令**：确保扩展已安装并激活。如有需要，重启 VSCode。
 
 ---
 
 ### Pico-W-Go 在 VSCode 中的优势
+
 - **集成工作流程**：在 VSCode 中结合代码编辑、文件管理和 REPL 访问。
 - **高级功能**：利用 VSCode 的 Git 集成、扩展和自定义功能。
 - **跨平台**：支持 Linux、Windows 和 macOS。
 
 ### 与 Thonny 相比的局限性
+
 - 设置稍复杂（如安装 `pyserial`、配置串口）。
 - REPL 集成可能不如 Thonny 的一体化界面流畅。
 - 对首次使用 MicroPython 的用户不太友好。
@@ -139,11 +157,13 @@ type: note
 ---
 
 ### 替代扩展
+
 如果您指的是其他扩展（如 **Pico-Go**），请注意 Pico-Go 是 Pico-W-Go 的旧版替代方案，功能或更新可能较少。设置类似，但推荐使用 Pico-W-Go，因为它积极开发且支持 Pico 和 Pico W。如果您使用其他特定扩展，请说明，我可以调整说明。
 
 ---
 
 ### 示例工作流程
+
 1. 安装 Pico-W-Go 和依赖项。
 2. 使用正确的串口（`/dev/ttyACM0`）配置项目。
 3. 编写并保存带 LED 闪烁代码的 `main.py`。

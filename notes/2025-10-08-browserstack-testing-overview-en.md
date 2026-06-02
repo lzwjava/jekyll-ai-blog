@@ -15,6 +15,7 @@ BrowserStack is a leading cloud-based software testing platform that enables dev
 ## Why Use BrowserStack?
 
 Testing across diverse environments is essential for ensuring applications perform consistently, but it's resource-intensive. BrowserStack addresses this by:
+
 - Offering real devices and browsers (not emulators) for accurate results.
 - Enabling parallel testing to speed up cycles.
 - Integrating with popular tools like Selenium, Appium, Cypress, and CI/CD pipelines (e.g., Jenkins, GitHub Actions).
@@ -38,6 +39,7 @@ No installation is needed beyond the local agent—tests run in the cloud.
 Live testing lets you interact with apps in real-time on remote devices, ideal for exploratory QA.
 
 ### Testing Web Applications
+
 1. Select **Live** from the product dropdown.
 2. Choose an OS (e.g., Windows 10, macOS, Android).
 3. Pick a browser/version (e.g., Chrome 120, Safari 17).
@@ -49,12 +51,14 @@ Live testing lets you interact with apps in real-time on remote devices, ideal f
 Sessions support geolocation (100+ countries), network throttling, and up to 25-minute idle timeouts on Pro plans.
 
 ### Testing Mobile Web (Browsers on Devices)
+
 1. In Live, select Mobile OS (Android/iOS).
 2. Choose a device (e.g., Samsung Galaxy S24, iPhone 15) and browser (e.g., Chrome on Android).
 3. Load the URL and interact—supports gestures like pinch-to-zoom.
 4. Debug with mobile-specific tools: Touch simulation, orientation changes, and performance metrics.
 
 ### Testing Native/Hybrid Mobile Apps
+
 1. Go to **App Live**.
 2. Upload your app (.apk for Android, .ipa for iOS; up to 500MB) or sync from App Center/HockeyApp.
 3. Select a device from 30,000+ real options (e.g., iPad Pro on iOS 18).
@@ -74,17 +78,20 @@ Sessions support geolocation (100+ countries), network throttling, and up to 25-
 Automate repetitive tests using scripts on real environments, scaling to thousands of parallels.
 
 ### Setup
+
 1. Choose a framework: Selenium (Java/Python/JS), Cypress, Playwright, or Appium for mobile.
 2. Get credentials: Username and access key from Automate dashboard.
 3. Configure capabilities: Use JSON to specify browser, OS, device (e.g., {"browser": "Chrome", "os": "Windows", "os_version": "10", "real_mobile": true}).
 
 ### Execution
+
 1. Point your script to BrowserStack's hub: `https://username:accesskey@hub-cloud.browserstack.com/wd/hub`.
 2. Run locally or via CI/CD—tests execute in parallel.
 3. View results: Dashboard shows videos, screenshots, console/network logs, and AI-analyzed failures.
 4. For mobile: Upload app first via API, then specify in capabilities.
 
 #### Sample Selenium Script (Java, Testing Google on iPhone)
+
 ```java
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -116,11 +123,13 @@ public class BrowserStackSample {
     }
 }
 ```
+
 Adapt for Python/JS similarly. Add waits (e.g., WebDriverWait) for stability.
 
 ## Test Automation Workflow
 
 Build an efficient pipeline with these steps:
+
 1. **Plan**: Identify high-value tests (e.g., core flows); align with Agile.
 2. **Select Tools**: Use BrowserStack Automate for cloud execution; add Low Code for no-scripting.
 3. **Design**: Create modular scripts with reusable components; leverage AI for natural-language authoring.
@@ -158,12 +167,14 @@ Enterprise: Custom, with SSO and private devices. Volume discounts up to 90%.
 ## Pros and Cons
 
 **Pros**:
+
 - Vast real-device coverage without hardware costs.
 - Fast setup and parallel scaling.
 - Robust debugging and AI efficiencies.
 - Strong integrations for DevOps.
 
 **Cons**:
+
 - Dependent on internet; occasional latency vs. local.
 - Paid-only for full access (no full free tier).
 - Complex for absolute beginners without tutorials.
@@ -180,6 +191,7 @@ Enterprise: Custom, with SSO and private devices. Volume discounts up to 90%.
 This guide equips you to leverage BrowserStack effectively. For hands-on, explore their free trial.
 
 ## References
+
 - [BrowserStack Official Site](https://www.browserstack.com/)
 - [BrowserStack Pricing](https://www.browserstack.com/pricing)
 - [BrowserStack Tutorial: App and Browser Testing](https://www.softwaretestinghelp.com/browserstack-tutorial/)

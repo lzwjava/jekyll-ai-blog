@@ -15,6 +15,7 @@ type: note
 Guangzhou has a vibrant shopping scene, with Tianhe District being the epicenter for modern retail. Huangpu and Zengcheng are more suburban/eastern areas with fewer large-scale malls, focusing on local and outlet-style options. Below is a curated list based on popularity and variety, grouped by district.
 
 ### Tianhe District
+
 Tianhe is Guangzhou's premier shopping hub, home to interconnected mega-malls, luxury brands, and entertainment.
 
 | Mall Name | Key Features | Location/Access |
@@ -27,6 +28,7 @@ Tianhe is Guangzhou's premier shopping hub, home to interconnected mega-malls, l
 | Tianhe City Shopping Centre | Mid-range shops, dining variety; convenient for everyday needs. | Tianhe Road area; Metro Line 3. |
 
 ### Zengcheng District
+
 Zengcheng, an eastern suburb, offers more relaxed, value-driven shopping with some international touches.
 
 | Mall Name | Key Features | Location/Access |
@@ -36,6 +38,7 @@ Zengcheng, an eastern suburb, offers more relaxed, value-driven shopping with so
 | Gualv Square Shopping Center | Local retail for daily essentials, dining; smaller community vibe. | Central Zengcheng; Walkable from town center. |
 
 ### Huangpu District
+
 Huangpu (eastern Guangzhou) is more industrial and tech-oriented, so malls are smaller and geared toward locals/residents rather than tourists.
 
 | Mall Name | Key Features | Location/Access |

@@ -57,18 +57,22 @@ There are also specialized versions tailored to different fields, such as comput
 Though often used humorously, Murphy’s Law has practical applications in various disciplines:
 
 #### **Engineering & Design**
+
 - Encourages **fail-safe design**, redundancy, and error-proofing mechanisms.
 - Promotes **risk assessment** and **contingency planning** in product development.
 
 #### **Project Management**
+
 - Highlights the need for **realistic timelines**, buffer resources, and adaptive strategies.
 - Emphasizes the value of **risk management plans**.
 
 #### **Aviation & Safety-Critical Systems**
+
 - Used to justify rigorous testing, training, and safety protocols.
 - Helps engineers prepare for worst-case scenarios.
 
 #### **Psychology & Decision-Making**
+
 - Reflects the concept of **defensive pessimism**, where expecting the worst can motivate better preparation.
 - Can help individuals build resilience and adaptability.
 

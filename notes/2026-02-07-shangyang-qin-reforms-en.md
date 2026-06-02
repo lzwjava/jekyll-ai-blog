@@ -53,4 +53,5 @@ This passage directly describes the great achievements brought about by **Shang 
 Only **Shang Yang** served Duke Xiao of Qin and carried out the famous “new laws” (变法) that directly match the description in the passage. Therefore the correct answer is **B**.
 
 References:
+
 - 《谏逐客书》李斯 (Li Si’s original text)

@@ -18,6 +18,7 @@ type: note
 当 Nextcloud Talk 向你的机器人发送 webhook 时，它会包含一个 `X-Nextcloud-Talk-Backend` 头部。这个头部的值直接来源于你 `config.php` 中的 `overwrite.cli.url`。你的机器人框架（OpenClaw）使用此头部来验证请求是否来自受信任的 Nextcloud 后端 —— 如果其配置的 `baseUrl` 与该头部中的值不匹配，它会以 **401 “无效后端”** 错误拒绝请求。
 
 在 Docker 环境中，这会变得令人困惑，因为：
+
 - Nextcloud 的 `overwrite.cli.url` 可能设置为 `http://localhost`（供 CLI/cron 使用）
 - 你的机器人的 `baseUrl` 可能设置为 Docker 网关 IP，如 `http://172.17.0.1:8080`
 - 这两个值不匹配 → 每个 webhook 调用都被拒绝
@@ -31,12 +32,14 @@ type: note
 这是最重要的修复。你的机器人的 `baseUrl` **必须完全匹配** Nextcloud 放入 `X-Nextcloud-Talk-Backend` 头部的值。
 
 检查 Nextcloud 发送的内容：
+
 ```bash
 # 检查 Nextcloud 容器内的 config.php
 docker exec -it <nextcloud_container> cat /var/www/html/config/config.php | grep overwrite
 ```
 
 然后将你的机器人配置设置为完全匹配：
+
 ```json
 {
   "baseUrl": "http://localhost",
@@ -65,6 +68,7 @@ docker exec -it -u 33 <nextcloud_container> \
 ```
 
 将 `172.17.0.1` 替换为实际的 Docker 主机 IP（默认网桥网关）。验证它：
+
 ```bash
 docker network inspect bridge | grep Gateway
 ```
@@ -80,6 +84,7 @@ docker network inspect bridge | grep Gateway
 ```
 
 或者，如果位于真实域名/反向代理之后，则将其设置为公共 URL：
+
 ```php
 'overwrite.cli.url' => 'https://cloud.yourdomain.com',
 ```
@@ -98,11 +103,13 @@ docker network inspect bridge | grep Gateway
 | 机器人 → Nextcloud（发送回复） | 机器人进程 | Nextcloud 容器 | 机器人使用了错误的 Nextcloud URL |
 
 **修复 Nextcloud → 机器人：**
+
 - 确保你的机器人监听在 `0.0.0.0`，而不是 `127.0.0.1`
 - 确保端口已暴露或容器共享一个 Docker 网络
 - 如果使用拦截 Nextcloud 出站流量的代理，请将机器人的 webhook IP/端口加入白名单
 
 **修复 机器人 → Nextcloud：**
+
 - 机器人必须在 Nextcloud 的真实内部地址（容器名、主机 IP 或 `localhost`，取决于设置）上调用 Nextcloud
 - 如果 Nextcloud 在带有 TLS 的反向代理后面，机器人可能需要使用公共 HTTPS URL 而不是内部 HTTP
 
@@ -119,6 +126,7 @@ curl -v http://172.17.0.1:8788/nextcloud-talk-webhook
 ```
 
 你可能需要**将 Docker 内部子网排除在代理之外**。例如在 Clash 中：
+
 ```yaml
 bypass:
   - 172.16.0.0/12
@@ -133,6 +141,7 @@ bypass:
 Nextcloud Talk 使用 HMAC-SHA256 对连接了请求体的 `X-Nextcloud-Talk-Random` 头部值进行签名，签名时使用共享密钥。你的机器人必须验证此签名 —— 并且在发送回复回时也使用相同的方法。
 
 手动测试签名：
+
 ```bash
 # 模拟 Nextcloud 发送给你的机器人的内容
 RANDOM_HEADER=$(openssl rand -hex 32)

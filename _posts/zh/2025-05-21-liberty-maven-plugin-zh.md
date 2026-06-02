@@ -17,6 +17,7 @@ type: note
 ### 解决方案：使用 Liberty Maven 插件
 
 #### 步骤 1：在 `pom.xml` 中添加 Liberty Maven 插件
+
 该插件允许您直接通过 Maven 控制 Liberty 服务器（启动、停止、部署等），无需编写复杂脚本或批处理文件。
 
 - 打开项目的 `pom.xml` 文件
@@ -42,6 +43,7 @@ type: note
 - `<serverName>default</serverName>` 与您在 `server start default` 和 `server stop default` 命令中使用的 `default` 相匹配
 
 #### 步骤 2：在 IntelliJ IDEA 中创建 Maven 运行配置
+
 您可以配置 IntelliJ IDEA 运行一系列 Maven 目标来停止服务器、构建项目并重新启动服务器。
 
 - 在 IntelliJ IDEA 中，转到 **Run > Edit Configurations...**
@@ -50,12 +52,15 @@ type: note
   - **名称：** 指定有意义的名称，如 `Run Liberty`
   - **工作目录：** 确保设置为项目目录（通常会自动检测）
   - **命令行：** 输入以下 Maven 目标序列：
+
     ```
     liberty:stop package liberty:start
     ```
+
 - 点击 **Apply** 然后 **OK**
 
 #### 步骤 3：运行配置
+
 - 使用 IntelliJ IDEA 中的 **运行** 按钮（绿色三角形）执行此配置
 - 这将：
   1. **停止 Liberty 服务器**（`liberty:stop`）：确保替换 EAR 文件时服务器未运行
@@ -65,6 +70,7 @@ type: note
 ---
 
 ### 此方案的优势
+
 - **修复命令格式问题：** 您提到在运行配置中使用 "Script text" 会将 `server start default` 拆分为单独参数。Maven 方法通过使用明确定义的插件目标完全避免了此问题
 - **避免批处理文件复杂性：** 您发现很难使 `.bat` 文件正常工作（如路径或环境设置问题）。Liberty Maven 插件内部处理服务器管理，无需调试批处理文件命令或路径
 - **满足需求：** 您需要在替换 EAR 文件前停止服务器以避免启动问题。此方案明确在构建前停止服务器并在之后启动，确保流程干净
@@ -72,6 +78,7 @@ type: note
 ---
 
 ### 备选方案：使用批处理文件（如偏好）
+
 如果您更倾向于使用批处理文件，以下是可用示例，但由于您遇到的问题，不太推荐：
 
 1. 在项目目录中创建 `runLiberty.bat` 文件，内容如下：
@@ -103,7 +110,9 @@ mvn package
 ---
 
 ### 推荐
+
 使用上述 **Liberty Maven 插件** 方法，因为它：
+
 - **集成性好：** 与现有 Maven 构建流程紧密结合
 - **简单易用：** 无需处理批处理文件语法或路径问题
 - **稳定可靠：** 正确处理服务器的停止和启动，避免 EAR 文件替换问题

@@ -49,22 +49,26 @@ sudo apt install docker.io
 After installation, you'll want to:
 
 1. **Start and enable Docker service:**
+
 ```bash
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
 2. **Add your user to the docker group** (to run Docker without sudo):
+
 ```bash
 sudo usermod -aG docker $USER
 ```
 
 Then log out and log back in, or run:
+
 ```bash
 newgrp docker
 ```
 
 3. **Verify installation:**
+
 ```bash
 docker --version
 docker run hello-world

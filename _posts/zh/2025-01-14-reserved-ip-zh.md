@@ -13,9 +13,9 @@ type: post
 
 该脚本允许您：
 
-*   检查保留IP是否分配给特定Droplet。
-*   如果当前IP被屏蔽，将新的保留IP重新分配给Droplet。
-*   检查保留IP的80端口是否开放（一种简单的检查IP是否可用的方法）。
+* 检查保留IP是否分配给特定Droplet。
+* 如果当前IP被屏蔽，将新的保留IP重新分配给Droplet。
+* 检查保留IP的80端口是否开放（一种简单的检查IP是否可用的方法）。
 
 以下是Python脚本：
 
@@ -191,30 +191,33 @@ if __name__ == '__main__':
 
 **解释：**
 
-1.  **导入库：** 导入网络操作、环境变量、参数解析、JSON处理、HTTP请求和时间延迟所需的库。
-2.  **`get_digitalocean_headers()`：** 从环境变量中获取DigitalOcean API密钥，并构建API请求所需的头信息。
-3.  **`fetch_reserved_ips()`：** 使用API获取与您的DigitalOcean账户关联的所有保留IP。它还将原始响应保存到`response.json`以便调试。
-4.  **`unassign_ip_from_droplet()`：** 从指定的Droplet取消分配给定的保留IP。
-5.  **`assign_ip_to_droplet()`：** 将给定的保留IP分配给指定的Droplet。
-6.  **`process_reserved_ips()`：** 这是核心逻辑：
-    *   它遍历所有保留IP。
-    *   如果提供了`droplet_name`，它会检查IP是否分配给该Droplet。
-    *   如果`only_check`为真，它会检查80端口是否开放并返回IP。
-    *   如果不是`only_check`，它会取消分配当前IP，创建一个新IP，并将新IP分配给Droplet。
-7.  **`create_new_reserved_ip()`：** 在`sgp1`区域创建一个新的保留IP（您可以更改此区域）。
-8.  **`check_port_80()`：** 检查给定IP地址的80端口是否开放。这是验证IP是否可用的简单方法。
-9.  **`get_reserved_ip()`：** 协调获取和处理保留IP的过程。
+1. **导入库：** 导入网络操作、环境变量、参数解析、JSON处理、HTTP请求和时间延迟所需的库。
+2. **`get_digitalocean_headers()`：** 从环境变量中获取DigitalOcean API密钥，并构建API请求所需的头信息。
+3. **`fetch_reserved_ips()`：** 使用API获取与您的DigitalOcean账户关联的所有保留IP。它还将原始响应保存到`response.json`以便调试。
+4. **`unassign_ip_from_droplet()`：** 从指定的Droplet取消分配给定的保留IP。
+5. **`assign_ip_to_droplet()`：** 将给定的保留IP分配给指定的Droplet。
+6. **`process_reserved_ips()`：** 这是核心逻辑：
+    * 它遍历所有保留IP。
+    * 如果提供了`droplet_name`，它会检查IP是否分配给该Droplet。
+    * 如果`only_check`为真，它会检查80端口是否开放并返回IP。
+    * 如果不是`only_check`，它会取消分配当前IP，创建一个新IP，并将新IP分配给Droplet。
+7. **`create_new_reserved_ip()`：** 在`sgp1`区域创建一个新的保留IP（您可以更改此区域）。
+8. **`check_port_80()`：** 检查给定IP地址的80端口是否开放。这是验证IP是否可用的简单方法。
+9. **`get_reserved_ip()`：** 协调获取和处理保留IP的过程。
 10. **`if __name__ == '__main__':`：** 解析命令行参数（`--droplet-name`和`--only-check`）并调用`get_reserved_ip`以执行脚本。
 
 **使用方法：**
 
-1.  **设置DigitalOcean API密钥：** 使用您的DigitalOcean API密钥设置`DO_API_KEY`环境变量。
-2.  **运行脚本：**
-    *   要检查IP是否分配给Droplet以及80端口是否开放：
+1. **设置DigitalOcean API密钥：** 使用您的DigitalOcean API密钥设置`DO_API_KEY`环境变量。
+2. **运行脚本：**
+    * 要检查IP是否分配给Droplet以及80端口是否开放：
+
         ```bash
         python 脚本名称.py --droplet-name 您的Droplet名称 --only-check
         ```
-    *   要将新IP重新分配给Droplet：
+
+    * 要将新IP重新分配给Droplet：
+
         ```bash
         python 脚本名称.py --droplet-name 您的Droplet名称
         ```

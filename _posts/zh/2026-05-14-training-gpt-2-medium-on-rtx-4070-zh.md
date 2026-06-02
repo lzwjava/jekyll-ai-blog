@@ -14,6 +14,7 @@ type: note
 ## 预期损失目标
 
 Karpathy的nanoGPT README中报告了以下从头训练的OpenWebText结果：
+
 - **GPT-2（124M）**：训练集 ~3.11，验证集 ~3.12
 - **GPT-2-medium（350M）**：训练集 ~2.85，验证集 ~2.84
 
@@ -45,6 +46,7 @@ compile = True            # torch.compile可提速约20-30%
 ```
 
 其他显存优化手段（按优先级排序）：
+
 1. `dtype='bfloat16'`（必须——fp32无法容纳）。
 2. PyTorch 2 SDPA提供等效Flash Attention内核（无需额外操作）。
 3. **梯度检查点**——nanoGPT未内置该功能，需修改`Block.forward`添加`torch.utils.checkpoint.checkpoint`。可减少激活内存约2–3倍，速度损失约25%。
@@ -58,6 +60,7 @@ compile = True            # torch.compile可提速约20-30%
 - 若必须从头训练350M模型，预计**壁钟时间约1–3个月**，若能保持约0.5M token的有效批大小，最终验证损失约**2.85–2.95**。
 
 来源：
+
 - [karpathy/nanoGPT README — 报告损失与配置](https://github.com/karpathy/nanoGPT)
 - [Issue #179: 单张4090 GPU训练时间](https://github.com/karpathy/nanoGPT/issues/179)
 - [Issue #363: 单GPU训练gpt2](https://github.com/karpathy/nanoGPT/issues/363)

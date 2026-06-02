@@ -37,6 +37,7 @@ sda             1.8T  empty, no partitions   ← WD Blue HDD, sitting unused
 **The fix was sitting right there in the case.** The 2 TB WD Blue HDD was physically installed, kernel-visible as `/dev/sda`, but had no partition table — never been used.
 
 The 868 GB on the NVMe broke down roughly:
+
 - `~/projects/` — 518 GB (datasets, model weights, llama.cpp, imagenet, coco, …)
 - `~/.cache/huggingface` — 69 GB
 - `/var/lib/docker` — 43 GB

@@ -34,10 +34,10 @@ type: note
 
 参考资料：
 
-- https://www.capitalone.com/tech/open-source/innersourcing-enterprise-applications/
-- https://www.capitalone.com/tech/open-source/innersource-singular-software-delivery-pipeline/
-- https://www.finextra.com/newsarticle/44113/lloyds-collaborates-with-red-hat-on-innersource-engineering-programme
-- https://www.infoworld.com/article/2270568/inner-source-in-the-enterprise-gains-momentum.html
-- https://www.devopsdigest.com/discover-technology-inner-source
-- https://osr.finos.org/docs/innersource/introduction
-- https://bitergia.com/blog/innersource/innersource-for-financial-services-a-way-to-improve-digital-transformation/
+- <https://www.capitalone.com/tech/open-source/innersourcing-enterprise-applications/>
+- <https://www.capitalone.com/tech/open-source/innersource-singular-software-delivery-pipeline/>
+- <https://www.finextra.com/newsarticle/44113/lloyds-collaborates-with-red-hat-on-innersource-engineering-programme>
+- <https://www.infoworld.com/article/2270568/inner-source-in-the-enterprise-gains-momentum.html>
+- <https://www.devopsdigest.com/discover-technology-inner-source>
+- <https://osr.finos.org/docs/innersource/introduction>
+- <https://bitergia.com/blog/innersource/innersource-for-financial-services-a-way-to-improve-digital-transformation/>

@@ -10,15 +10,16 @@ translated: false
 type: note
 ---
 
-**Question:** What is Falemon? Regarding https://falz.pics, the proxy provider, and how to use it?
+**Question:** What is Falemon? Regarding <https://falz.pics>, the proxy provider, and how to use it?
 
 **Answer:**
 
 **Falemon** (also known as 快柠檬Falemon) is a **VPN/proxy/network acceleration service** (科学上网工具) specifically optimized for users in mainland China. It provides fast, encrypted data relay to bypass internet restrictions, access blocked content (such as Netflix, ChatGPT, and many overseas websites), and improve connection speeds.
 
-The website https://falz.pics is the official site for Falemon. It markets itself as a "premium network relay service optimized for Chinese users" with the tagline "loading in an instant, fast as lightning."
+The website <https://falz.pics> is the official site for Falemon. It markets itself as a "premium network relay service optimized for Chinese users" with the tagline "loading in an instant, fast as lightning."
 
 ### Main Features
+
 - Industrial-grade encryption on every data packet for security and protection against attacks
 - Cross-platform support: Android, iOS, Windows, macOS
 - Many server nodes in multiple countries/regions
@@ -29,7 +30,8 @@ The website https://falz.pics is the official site for Falemon. It markets itsel
 It is **not** related to fal.ai (the AI inference platform), despite some superficial name similarity — those are completely different services.
 
 ### How to Use It
-1. Visit https://falz.pics
+
+1. Visit <https://falz.pics>
 2. Click the download link for a **2-day free trial** client (/p/downloads section)
 3. Download the appropriate version for your device:
    - Android: APK file

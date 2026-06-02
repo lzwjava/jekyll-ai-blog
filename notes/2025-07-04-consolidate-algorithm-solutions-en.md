@@ -11,12 +11,14 @@ type: note
 To consolidate all your algorithm solutions (`nowcoder`, `uva`, etc.) into a single Maven module managed by one `pom.xml` file in the `algorithm-solutions` root directory, we’ll treat the entire project as one module. The Java files from `nowcoder` and `uva` (and other directories like `codeforces`, `hacker_rank`, etc.) will be organized under `src/main/java` with appropriate package structures (e.g., `com.algorithm.solutions.nowcoder`, `com.algorithm.solutions.uva`). Input files (e.g., `1.in`) will go into `src/main/resources`.
 
 ### Assumptions
+
 - All Java files (e.g., `nowcoder/Main.java`, `uva/106/src/Main.java`) will be moved to `src/main/java/com/algorithm/solutions/<platform>` (e.g., `nowcoder`, `uva/p106`).
 - Input files (e.g., `uva/106/1.in`) will be moved to `src/main/resources/<platform>` (e.g., `uva/p106`).
 - The project uses Java 17 (adjustable in the `pom.xml`).
 - The `pom.xml` will be in the `algorithm-solutions` root directory, and no submodules will be used.
 
 ### Directory Structure
+
 After reorganization (assuming you run the Python script from the previous response for `uva` and a similar one for `nowcoder`), the structure will be:
 
 ```
@@ -56,6 +58,7 @@ algorithm-solutions/
 ```
 
 ### Parent `pom.xml`
+
 This `pom.xml` goes in the `algorithm-solutions` root directory. It configures the project as a single module, includes resources for input files, and sets up the Maven compiler for Java 17.
 
 ```xml
@@ -115,13 +118,16 @@ This `pom.xml` goes in the `algorithm-solutions` root directory. It configures t
 ```
 
 ### Notes on the `pom.xml`
+
 - **Packaging**: Set to `jar` since this is a single executable module.
 - **Resources**: Includes `*.in` files from `src/main/resources` for input files.
 - **Main Class**: Set to `com.algorithm.solutions.nowcoder.Main` as a default. Since each problem may have its own `Main` class, you’ll typically run specific classes using `mvn exec:java`.
 - **Java Version**: Uses Java 17; adjust `<maven.compiler.source>` and `<maven.compiler.target>` if needed.
 
 ### Steps to Set Up
+
 1. **Create Directory Structure**:
+
    ```bash
    mkdir -p src/main/java/com/algorithm/solutions/{nowcoder,uva,codeforces,hacker_rank}
    mkdir -p src/main/resources/{nowcoder,uva,codeforces,hacker_rank}
@@ -129,48 +135,61 @@ This `pom.xml` goes in the `algorithm-solutions` root directory. It configures t
 
 2. **Move Files**:
    - For `nowcoder`:
+
      ```bash
      mkdir -p src/main/java/com/algorithm/solutions/nowcoder
      mv nowcoder/*.java src/main/java/com/algorithm/solutions/nowcoder/
      ```
+
      Add package declaration to each Java file (e.g., `Main.java`):
+
      ```java
      package com.algorithm.solutions.nowcoder;
      // ... rest of the code ...
      ```
+
    - For `uva`, use the Python script from the previous response, or manually:
+
      ```bash
      mkdir -p src/main/java/com/algorithm/solutions/uva/p106
      mv uva/106/src/Main.java src/main/java/com/algorithm/solutions/uva/p106/Main.java
      mkdir -p src/main/resources/uva/p106
      mv uva/106/1.in src/main/resources/uva/p106/1.in
      ```
+
      Add package declaration to `Main.java`:
+
      ```java
      package com.algorithm.solutions.uva.p106;
      // ... rest of the code ...
      ```
+
      Repeat for other UVA problems (`100`, `10000`, etc.).
 
 3. **Place the `pom.xml`**:
    - Save the above `pom.xml` in the `algorithm-solutions` root directory.
 
 4. **Build the Project**:
+
    ```bash
    mvn clean install
    ```
 
 5. **Run a Specific Program**:
    - For a `nowcoder` problem:
+
      ```bash
      mvn exec:java -Dexec.mainClass="com.algorithm.solutions.nowcoder.Main"
      ```
+
    - For a UVA problem (e.g., problem 106):
+
      ```bash
      mvn exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
      ```
 
 ### Python Script for `nowcoder`
+
 To complement the previous `uva` script, here’s a Python script to move `nowcoder` files to `src/main/java/com/algorithm/solutions/nowcoder/` and add package declarations. Run this from the `algorithm-solutions` root directory.
 
 ```python
@@ -220,11 +239,14 @@ if __name__ == '__main__':
 ```
 
 ### Notes
+
 - **Running Scripts**: Run the `reorganize_uva.py` (from the previous response) and `reorganize_nowcoder.py` scripts to move files:
+
   ```bash
   python reorganize_uva.py
   python reorganize_nowcoder.py
   ```
+
 - **Input Files**: If `nowcoder` has input files, modify the script to move `*.in` files to `src/main/resources/nowcoder/`.
 - **Other Directories**: For `codeforces`, `hacker_rank`, etc., you can adapt the `nowcoder` script by changing the source directory and package name.
 - **Resource Access**: Update your Java code to read input files from `src/main/resources` (e.g., `getClass().getResource("/uva/p106/1.in")`).

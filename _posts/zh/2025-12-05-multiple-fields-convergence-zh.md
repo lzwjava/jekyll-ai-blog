@@ -30,6 +30,7 @@ Convergence通常指**朝向一个共同点或结果汇合、相遇或统一的�
 简而言之：**convergence = 原本分离或不同的事物变得更近、统一或达到相同的终点**。
 
 参考资料：
+
 - [Convergence (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Convergence_(mathematics))
 - [Media Convergence - Britannica](https://www.britannica.com/topic/media-convergence)
 - [Convergent Evolution - National Geographic](https://education.nationalgeographic.org/resource/convergent-evolution/)

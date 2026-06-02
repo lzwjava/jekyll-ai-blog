@@ -23,6 +23,7 @@ Answer:
 The `unittest.mock` library (introduced in Python 3.3) allows you to replace parts of your code with mock objects during testing. This isolates the unit under test from external dependencies (e.g., databases, APIs, file systems).
 
 Key classes:
+
 - `Mock`: Basic mock object.
 - `MagicMock`: Subclass of `Mock` with pre-implemented magic methods.
 

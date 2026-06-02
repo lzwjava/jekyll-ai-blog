@@ -48,7 +48,7 @@ class TestSearchCode(unittest.TestCase):
         mock_result.stderr = ""
         mock_run.return_value = mock_result
 
-        with patch("builtins.print") as mock_print:
+        with patch("builtins.print"):
             search_code("test_function", ignore_case=False)
 
         # Verify ack command was constructed correctly

@@ -15,6 +15,7 @@ type: note
 该 PHP 文件是 CodeIgniter 数据库连接的配置脚本。它定义了多个数据库连接组（如 'default'、'lzwjava'、'leo66'、'testing'）的设置，允许应用根据环境（开发、测试、生产）切换连接。`$active_group` 变量决定默认使用的连接组。
 
 核心组件：
+
 - **$query_builder**：设为 `TRUE` 可启用查询构造器类，提供面向对象的 SQL 查询构建方式。
 - **$db[][]**：关联数组，每个子数组（如 'default'）包含数据库连接的详细配置选项。
 
@@ -78,6 +79,7 @@ type: note
 - **testing**：专用于测试环境的连接组，继承基础配置。
 
 通过 `switch` 语句根据 `ENVIRONMENT` 激活对应连接组：
+
 - 开发环境：使用 'lzwjava'
 - 测试环境：使用 'testing'
 - 生产环境：使用 'default'

@@ -16,6 +16,7 @@ type: note
 升级到版本 2.1.78（如同项目升级指南中的示例所示）引入了来自 claude-relay-service 主分支的最新更改。这些更新包括对 account routing、error handling、cooldown logic 和 validation rules 的重大改进。这是 "no available accounts" 错误突然仅在 "Claude Max" 组中出现的最可能原因。
 
 触发问题的关键更改（基于 2026 年 3 月左右的最新发布）：
+
 - Account blocking reasons 现在在 UI 中清晰显示（以前隐藏或误诊）。
 - 修复了 false 429 rate-limit 标记和 503 backoff 行为，并添加了可配置的 cooldown TTLs。
 - 更新了对 team accounts、1M context flags（`allow1mContext`）和 free-tier 误识别的处理方式——这些可能会突然将先前正常工作的账户标记为不可用。
@@ -26,6 +27,7 @@ type: note
 您共享的 dashboard 显示使用量很低（今天 $0.1052）和最近时间戳（03/18/2026），这符合升级后重启时账户可能被自动标记的状态。
 
 **快速修复方法：**
+
 1. 转到 web 管理 UI（通常在您的服务器上的 `/web`）。
 2. 选择 "Claude Max" 组 → 检查 "routing-block reasons" 列（现在显示确切的错误类型、状态码和剩余 cooldown）。
 3. 点击受影响账户的 "Reset Status"。
@@ -37,5 +39,6 @@ type: note
 这是 2026 年 3 月 account-management 重构后的常见升级后行为；不是您的设置 bug。
 
 **参考：**
+
 - [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)
 - [https://github.com/Wei-Shaw/claude-relay-service/releases](https://github.com/Wei-Shaw/claude-relay-service/releases)

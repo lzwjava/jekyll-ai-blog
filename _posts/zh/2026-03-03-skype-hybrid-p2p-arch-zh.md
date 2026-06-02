@@ -25,6 +25,7 @@ Skype 原始 P2P 架构的关键元素包括：
 - **Login servers、update servers 和 buddy-list servers**：一小组集中式服务器处理初始认证、软件更新和部分好友列表同步，但大多数操作是去中心化的。
 
 这种混合模型允许：
+
 - 对等节点之间直接媒体传输，实现低延迟并减少 Skype 方的带宽成本。
 - 高效穿越 NAT 和 firewalls（当时优于许多基于 SIP 的系统）。
 - 无需大规模服务器基础设施即可实现可扩展性。
@@ -32,6 +33,7 @@ Skype 原始 P2P 架构的关键元素包括：
 该架构是专有的且有些不透明（早期论文如 2004 年的 Skype 协议分析通过逆向工程获得）。
 
 Microsoft 在 2011 年收购 Skype 后：
+
 - 出于可靠性、可扩展性、更易管理和集成原因，P2P 系统逐渐被淘汰。
 - 2012 年，用户托管的 supernodes 被替换为 Microsoft 托管的 supernodes。
 - 到大约 2017 年，Skype 完全过渡到基于 Microsoft Azure 的集中式云架构（通话使用 server-relay 模型，类似于大多数现代应用）。

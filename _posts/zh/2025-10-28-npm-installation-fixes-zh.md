@@ -21,6 +21,7 @@ type: note
   - 少数情况下，npm 内部的文件移动逻辑会遇到竞态条件
 
 您的环境配置：
+
 - Node: v22.18.0
 - npm: v11.6.1
 - 操作系统: Linux 6.14.0-29-generic（疑似 Ubuntu/Debian）
@@ -37,21 +38,26 @@ type: note
 
 2. **手动清理目录**：
    - 移除现有程序包和二进制文件：
+
      ```
      sudo rm -rf /usr/lib/node_modules/@anthropic-ai/claude-code
      sudo rm -f /usr/bin/claude
      ```
+
    - 此操作将绕过 npm 的备份步骤。然后重新尝试安装：
+
      ```
      sudo npm install -g @anthropic-ai/claude-code
      ```
 
 3. **清除 npm 缓存后重试**：
    - 执行：
+
      ```
      sudo npm cache clean --force
      sudo npm install -g @anthropic-ai/claude-code
      ```
+
    - 若问题依旧，可添加 `--no-optional` 跳过可选依赖（如 Sharp 图像库）
 
 4. **替代方案：使用 npx 或避免全局安装**：

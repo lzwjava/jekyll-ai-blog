@@ -74,17 +74,20 @@ Early detection of new technology trends is critically important for governments
 ### 5. Practical Framework: How to Use This
 
 **To find smart people:**
+
 - Look at who was discussing Transformer, RLHF, Flash Attention, LoRA, or Mamba **before they were mainstream**
 - Track whose retweets/reposts consistently precede viral tech moments
 - On WeChat: watch which public accounts first published explainers on niche papers
 
 **To predict future trends:**
+
 - Follow Hacker News "new" (not just "top") — breakout papers appear there early
 - Watch Twitter/X accounts of top ML researchers (Yann LeCun, Andrej Karpathy, etc.) for what *they* retweet that seems obscure
 - Monitor arXiv submission spikes in subfields
 - Check WeChat Index for Chinese AI terminology surges
 
 **Key behavioral markers of "early smart" people:**
+
 - They share things before they're popular, not after
 - Their framing is technical, not hype-driven
 - They are often *wrong* sometimes — they take real intellectual risks

@@ -120,10 +120,12 @@ cd llvm-project && cmake -DLLVM_ENABLE_PROJECTS="mlir" ...
 这是前沿领域。实际的开源 GPU 核心：
 
 - **Vortex** —— RISC-V GPGPU，运行 OpenCL，已流片至 FPGA
+
   ```bash
   git clone https://github.com/vortexgpgpu/vortex
   # 在 Verilator 仿真或实际 FPGA 上运行
   ```
+
 - **NaxRiscv** —— 乱序执行 RISC-V，严肃的微架构
 - **NVDLA**（NVIDIA 开源了其 DLA）—— 推理加速器 RTL
 

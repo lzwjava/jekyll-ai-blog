@@ -25,7 +25,6 @@ type: note
 * **Workspace:** 读取并总结你的 **Gmail**，在 **Docs** 中起草文档，以及分析 **Sheets** 中的数据。
 * **Maps & Flights:** 使用实时 Google Maps 数据拉取实时航班价格并创建旅行行程。
 
-
 * **xAI Grok:** 其主要阵地是 **X Platform**。它擅长：
 * **Real-Time Trends:** 访问 X 上公开帖子的“全量数据流”（Firehose），在传统搜索引擎捕获之前为你提供即时新闻。
 * **Social Analysis:** 实时总结人们对特定事件或品牌的看法。

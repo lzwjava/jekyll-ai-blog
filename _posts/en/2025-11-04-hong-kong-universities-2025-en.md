@@ -25,6 +25,7 @@ Hong Kong hosts several world-class universities, consistently ranking among the
 Other notable mentions include Hong Kong Baptist University and Education University of Hong Kong, which rank in the top 200–300 globally. Rankings can vary slightly by methodology (e.g., QS emphasizes employer reputation, while THE focuses on research impact).
 
 For more details:
+
 - [Times Higher Education: Best Universities in Hong Kong 2025](https://www.timeshighereducation.com/student/best-universities/best-universities-hong-kong)
 - [QS Asia University Rankings 2025](https://www.topuniversities.com/asia-university-rankings)
 - [US News: Best Global Universities in Hong Kong](https://www.usnews.com/education/best-global-universities/hong-kong)

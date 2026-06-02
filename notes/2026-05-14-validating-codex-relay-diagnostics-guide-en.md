@@ -18,6 +18,7 @@ Yes, your advice is **largely correct and well-structured**. Here's a comprehens
 ## ✅ Your Advice Is Correct — Here's Why
 
 ### 1. Diagnose First Before Changing Anything
+
 Your core principle — "find the root cause, don't blindly tinker" — is exactly right. Slow Codex through a relay server has **multiple possible causes**, and you correctly identified the main ones.
 
 ---
@@ -59,6 +60,7 @@ Good benchmarks: connection time under 100ms and TTFB (Time to First Byte) under
 ✅ This is a real and common cause. Users have reported Codex CLI taking 5–20 minutes per query, especially after OpenAI events or releases. OpenAI has previously acknowledged increased errors affecting Codex and worked to resolve them.
 
 Check OpenAI's real-time status:
+
 ```bash
 curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ```
@@ -74,6 +76,7 @@ curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ### 6. The Relay/Glue Code Is Not the Bottleneck
 
 ✅ Correct. A well-written relay (reverse proxy like Nginx or Caddy forwarding to `api.openai.com`) adds only a few milliseconds. The bottleneck is almost always:
+
 - The network path (ISP routing quality)
 - OpenAI API upstream latency/congestion
 - Model processing time
@@ -83,6 +86,7 @@ curl -s https://status.openai.com/api/v2/status.json | jq '.status.description'
 ### 7. Try a New Singapore Server
 
 ✅ Good idea. Different VPS providers have different **peering agreements** with Chinese ISPs. For China-Singapore routes, providers worth comparing:
+
 - **DMIT** (as you mentioned — well known for good CN2 GIA routing)
 - **Bandwagon Host (BandwagonHost)** with CN2 GIA
 - **Vultr / DigitalOcean** (standard routing, may be slower)

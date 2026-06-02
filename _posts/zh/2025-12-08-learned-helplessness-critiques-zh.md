@@ -33,6 +33,7 @@ type: note
 这些观点通常来自行为主义者、跨文化研究人员、自由主义倾向的心理学家、受害者指责叙事的批评者，或坚定的韧性倡导者——他们都不代表教科书的共识。
 
 参考文献：
+
 - [习得性无助在文化背景下的批判 – Nisbett & Miyamoto (2005) 跨文化工作的启示](https://pubmed.ncbi.nlm.nih.gov/16173871/)
 - [原始三元设计中的动物伦理和方法论批判 – Church (1969) 及后续评论](https://psycnet.apa.org/record/1969-13935-001)
 - [经济/理性选择的重新解释 – 例如，Matell & Meck (1999) 关于优化觅食和“放弃”](https://pubmed.ncbi.nlm.nih.gov/10442032/)

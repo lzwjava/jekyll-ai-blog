@@ -16,14 +16,16 @@ Answer:
 
 Many people, especially students, dislike learning and exams not because they inherently hate acquiring knowledge, but due to how formal education systems present it. Humans are naturally curious and enjoy learning when it's self-directed, relevant, and enjoyable—such as through hobbies, games, or personal interests. However, structured schooling often turns it into a chore.
 
-### Key Reasons for Disliking Learning:
+### Key Reasons for Disliking Learning
+
 - **It's Hard Work and Effortful**: Learning requires mental effort, time, and energy. The brain diverts resources during new learning, leading to fatigue, irritability, or temporary performance dips. Many prefer easier, immediate-reward activities.
 - **Association with Negative School Experiences**: Traditional education emphasizes rote memorization, standardized curricula, and rigid schedules. This feels monotonous, irrelevant, and coercive, shutting down natural curiosity. Children start curious but lose joy through fear of failure, shame of not knowing, or lack of autonomy.
 - **Lack of Choice and Relevance**: Forced subjects, one-size-fits-all pacing, and no personal interest make it boring. Students feel trapped without freedom to explore passions or learn at their own pace.
 - **Stress and Pressure**: High stakes (grades, future success) create anxiety. Poor teaching, bullying, or unsupportive environments worsen this.
 - **Bad Introduction to Learning**: School links learning to stress, not discovery. Many stop lifelong learning post-school because they equate it with unenjoyable formal education.
 
-### Key Reasons for Hating Exams Specifically:
+### Key Reasons for Hating Exams Specifically
+
 - **Test Anxiety**: A common issue causing physical symptoms (racing heart, nausea, sweating) and mental blocks. It stems from fear of failure, perfectionism, or past poor performance, impairing concentration and recall.
 - **High Pressure and Stakes**: Exams feel like judgments of worth or future opportunities. One bad performance can seem catastrophic.
 - **Poor Measure of Ability**: They often test short-term memory, speed, or luck with questions rather than deep understanding. Many favor memorization over critical thinking.

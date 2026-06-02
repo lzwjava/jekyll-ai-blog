@@ -20,9 +20,11 @@ This is a **known issue** with `hermes update`. The process hangs at the `→ Up
 ## Root Cause
 
 In `hermes_cli/main.py`, when a `package.json` is found, the update script runs:
+
 ```python
 subprocess.run(["npm", "install", "--silent"], cwd=PROJECT_ROOT, check=False)
 ```
+
 The `--silent` flag suppresses all output, so it looks like it's frozen even when it's actively working.
 
 This is the main reason it *appears* stuck — there is no progress output, and `npm install` can take a long time (minutes) to resolve and download the full Node.js dependency tree.
@@ -47,31 +49,38 @@ This is the main reason it *appears* stuck — there is no progress output, and 
 It is likely just working silently. Give it 3–5 minutes before concluding it's truly stuck.
 
 **Option 2: Run the npm install manually with visible output**
+
 ```bash
 cd ~/.hermes/hermes-agent
 npm install
 ```
+
 This will show progress and errors, unlike the silent subprocess call.
 
 **Option 3: Use `npm ci` instead (faster, deterministic)**
 The recommended fix from the GitHub issue is to replace `npm install --silent` with `npm ci --silent`, which installs exactly from the lockfile without re-resolving dependencies — making it faster and not dirtying the working tree.
 
 You can manually do this:
+
 ```bash
 cd ~/.hermes/hermes-agent
 npm ci
 ```
 
 **Option 4: Check your Node.js version**
+
 ```bash
 node --version
 ```
+
 Make sure it is **v20 or higher** (v22 LTS is recommended).
 
 **Option 5: Run `hermes doctor`**
+
 ```bash
 hermes doctor
 ```
+
 This checks Node.js dependencies and surfaces any specific issues.
 
 ---

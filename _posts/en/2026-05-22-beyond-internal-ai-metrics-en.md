@@ -57,24 +57,29 @@ The honest internal metric isn't "how many use cases" — it's **how many FTE-eq
 ## What Actually Makes a Bank Feel Like an AI Bank (to the World)
 
 **1. Customer-facing AI that changes behavior**
+
 - Instant credit decisions (Nubank, Ant Financial)
 - Hyper-personalized financial advice in-app
 - Fraud detection so good customers notice the absence of false positives
 
 **2. Public developer/research output**
+
 - Papers, open source, APIs
 - JPMorgan published on LLM use in financial NLP
 - If your engineers are speaking at NeurIPS, you're an AI company
 
 **3. AI in the product name / brand**
+
 - DBS's "Digibank" is AI-first by positioning
 - Not "Bank X launches AI pilot" — that's press release theater
 
 **4. Ecosystem effects**
+
 - Other companies build on your AI infrastructure
 - Your AI decisions (credit scores, KYC) become the standard others reference
 
 **5. Speed of change that customers feel**
+
 - Loan approved in 3 seconds vs 3 days
 - That's the moment a customer thinks "this bank is different"
 

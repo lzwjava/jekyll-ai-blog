@@ -60,6 +60,7 @@ Cloud Spanner is **Google Cloud's fully managed, horizontally scalable, globally
 ### When to Choose Cloud Spanner
 
 Choose Spanner when you need **both**:
+
 - Relational model + SQL
 - Global strong consistency
 - Very large scale or very high transaction throughput

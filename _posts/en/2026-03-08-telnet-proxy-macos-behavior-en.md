@@ -28,6 +28,7 @@ Here's the connection flow step by step:
 3. The remote Telnet server converts those characters into a format understandable by the remote computer. The remote operating system receives them from a pseudo-terminal driver and passes them to the appropriate application program.
 
 **Key characteristics:**
+
 - Telnet is neither encrypted nor secure. Because it is a plain text protocol, anyone on the network can access usernames, passwords, and other private information typed during Telnet sessions.
 - A Telnet client is one of the most useful tools available for any enterprise applications administrator. Because Telnet is a very simple protocol, the client can be used for purposes other than creating a connection to a remote Telnet server — in particular, for testing general TCP connectivity.
 
@@ -40,6 +41,7 @@ Here's the connection flow step by step:
 Here's why:
 
 **macOS system proxy settings** (configured in System Settings → Network → Proxies) define:
+
 - Web Proxy (HTTP)
 - Secure Web Proxy (HTTPS)
 - SOCKS Proxy
@@ -74,13 +76,16 @@ Some graphical applications (GUI-based software) do not use the system's proxy s
 If you want `telnet` (or other CLI tools) to go through a proxy, you have these options:
 
 **Option 1 — Use environment variables (for HTTP-aware CLI tools):**
+
 ```bash
 export http_proxy="http://proxyhost:port"
 export https_proxy="http://proxyhost:port"
 ```
+
 Note: `telnet` itself ignores these, but other CLI tools like `curl` or `wget` will respect them.
 
 **Option 2 — Use `nc` (netcat) with a SOCKS proxy:**
+
 ```bash
 nc -x proxyhost:1080 -X 5 targethost targetport
 ```

@@ -21,6 +21,7 @@ Wait — turns out this **is** on your server (`lzw-server`), not the laptop. It
 | **Utilization** | 0% |
 
 **Theoretical FLOPS (RTX 4070):**
+
 - **FP32:** ~29.1 TFLOPS
 - **FP16:** ~58.2 TFLOPS
 - **Tensor Cores (FP16, sparse):** ~233 TFLOPS

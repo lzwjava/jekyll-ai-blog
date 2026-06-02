@@ -21,7 +21,7 @@ Here’s the financial scoop for HSBC in the **first half of 2025 (H1 2025)**:
 
 ---
 
-### Quick Summary (no table—just concise bullets):
+### Quick Summary (no table—just concise bullets)
 
 * **Reported Revenue (H1 2025):** US \$34.1 billion (–9 % year-on-year)
 * **Adjusted Revenue (excluding disposals, constant currency):** US \$35.4 billion (+6 % year-on-year)

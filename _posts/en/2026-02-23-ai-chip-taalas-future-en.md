@@ -30,11 +30,11 @@ Taalas is based in Toronto, Canada, and has quickly garnered significant attenti
 
 - **Company Vision:** Taalis aims to "commoditize AI" by drastically reducing its cost. Bajic believes this requires a **1,000x improvement** in computational power and efficiency, a goal he considers unattainable with current general-purpose hardware . The company's philosophy is summed up in his quote: *"We should not be simulating intelligence on general purpose computers, but casting intelligence directly into silicon"* .
 - **Core Technology:** Unlike traditional AI accelerators designed to run many different models, Taalas creates custom chips for **specific AI models**.
-    - The process involves an automated flow that implements deep learning models (like Transformers or LLMs) directly into silicon .
-    - These chips, which the company calls "Hardcore Models," are so efficient that a single one can contain an entire AI model on-chip without needing external memory, potentially matching the performance of a small data center of GPUs .
+  - The process involves an automated flow that implements deep learning models (like Transformers or LLMs) directly into silicon .
+  - These chips, which the company calls "Hardcore Models," are so efficient that a single one can contain an entire AI model on-chip without needing external memory, potentially matching the performance of a small data center of GPUs .
 - **Key Funding Milestones:** The company has secured substantial investor confidence in a short time.
-    - **2024:** Came out of stealth mode and announced it had raised **$50 million** in two rounds from investors including Quiet Capital and Pierre Lamond .
-    - **2026:** In a more recent development, Taalas raised a massive **$219 million** round, with participation from Fidelity, demonstrating strong momentum for its technology .
+  - **2024:** Came out of stealth mode and announced it had raised **$50 million** in two rounds from investors including Quiet Capital and Pierre Lamond .
+  - **2026:** In a more recent development, Taalas raised a massive **$219 million** round, with participation from Fidelity, demonstrating strong momentum for its technology .
 
 Here is a summary of key details for Taalas:
 

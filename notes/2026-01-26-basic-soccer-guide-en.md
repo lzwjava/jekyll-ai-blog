@@ -17,12 +17,14 @@ Answer:
 Football (also called **soccer** in some countries) is a simple and fun game, especially in school. Here is an easy guide to help you understand and enjoy it better, based on how most kids play it in primary and middle school.
 
 ### Basic Objective
+
 - Two teams play against each other.
 - Try to kick the ball into the other team's goal to score.
 - The team with more goals at the end wins.
 - You cannot use your **hands** (except the goalkeeper inside their penalty area).
 
 ### Main Rules (School / Youth Version – Simplified)
+
 - **Number of players**: Usually 7–11 per team in school games (sometimes even 5v5 or 6v6 on smaller fields).
 - **No offside** in many primary school games (middle school may start using it).
 - **No slide tackles** or very rough play – the referee stops dangerous actions.
@@ -33,6 +35,7 @@ Football (also called **soccer** in some countries) is a simple and fun game, es
 - **Game length**: Often 2 halves of 15–30 minutes each in school matches.
 
 ### Basic Skills to Practice (Most Important for School Kids)
+
 1. **Dribbling**
    Kick the ball gently forward while running, using the inside and outside of your foot. Keep the ball close so you can change direction quickly. Practice: dribble in and out of cones or around friends.
 
@@ -54,12 +57,14 @@ Football (also called **soccer** in some countries) is a simple and fun game, es
    Use your forehead (not top of head). Jump and hit the ball with power.
 
 ### Positions (Common in School Games)
+
 - **Goalkeeper**: Stays near the goal, can use hands.
 - **Defenders**: Stay back to stop the other team.
 - **Midfielders**: Run everywhere, help defense and attack.
 - **Forwards / Strikers**: Stay near the other goal to score.
 
 ### Tips to Play Better in School Games
+
 - Always move – don't stand still.
 - Call for the ball ("I'm open!", "Pass!").
 - Pass more than you dribble long distances.

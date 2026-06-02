@@ -14,7 +14,7 @@ The question asks at which layer of the OSI model an Ethernet switch operates.
 
 ## Correct Answer: **B (Data Link Layer)**
 
-### Explanation:
+### Explanation
 
 An **Ethernet switch** is a multi-port network bridge that operates at **Layer 2 (Data Link Layer)** of the OSI seven-layer reference model.
 
@@ -33,7 +33,7 @@ An **Ethernet switch** is a multi-port network bridge that operates at **Layer 2
 - **Network Layer (C)**: Routers operate at this layer, making decisions based on IP addresses
 - **Transport Layer (D)**: This layer handles end-to-end communication and protocols like TCP/UDP
 
-### Additional Note:
+### Additional Note
 
 Ethernet switches are also called **Layer 2 switches** or **Layer 2 devices** because they operate specifically at the Data Link Layer, making them more intelligent than hubs but less capable than routers in terms of network-layer routing.
 

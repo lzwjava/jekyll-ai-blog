@@ -26,6 +26,7 @@ type: note
 更重要的问题是咖啡店礼仪。大多数咖啡店都有关于顾客可以停留多久的不成文规定：
 
 **时间与消费准则：**
+
 - 如果你打算长时间占座，只购买一杯饮料是不够的——如果空间允许，两到三小时的停留是专注工作的理想时长，你应该在这段时间内至少点同样数量的单
 - 一个好的经验法则是：你在咖啡馆工作的每一小时，就购买一件物品——可以是一份糕点、一瓶水或另一杯咖啡
 - 两小时通常是你应该在咖啡馆停留的最长时间，尤其是如果你只点了一样东西——如果你打算待得更久，请点更多东西，并确保为其他顾客留有充足的空间
@@ -39,9 +40,9 @@ type: note
 
 参考文献：
 
-- https://dualdrinks.com/blogs/guides/does-adding-water-to-coffee-reduce-caffeine-understanding-the-truth
-- https://lux-haus.net/blogs/coffee/how-to-dilute-coffee
-- https://www.drinktrade.com/blogs/education/coffee-strength-levels
-- https://www.lancastercountymag.com/coffee-shop-etiquette/
-- https://cheyannesolis.com/read/coffee-shop-etiquette
-- https://alyssawiens.com/2024/03/18/coffee-shop-etiquette/
+- <https://dualdrinks.com/blogs/guides/does-adding-water-to-coffee-reduce-caffeine-understanding-the-truth>
+- <https://lux-haus.net/blogs/coffee/how-to-dilute-coffee>
+- <https://www.drinktrade.com/blogs/education/coffee-strength-levels>
+- <https://www.lancastercountymag.com/coffee-shop-etiquette/>
+- <https://cheyannesolis.com/read/coffee-shop-etiquette>
+- <https://alyssawiens.com/2024/03/18/coffee-shop-etiquette/>

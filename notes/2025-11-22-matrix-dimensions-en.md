@@ -15,10 +15,12 @@ Not necessarily! Let me clarify:
 **x** is a column vector with **n components**: x₁, x₂, ..., xₙ. That part is correct.
 
 **However, A doesn't have to be an n×n matrix.** A can be an **m×n matrix**, where:
+
 - **m** = number of rows (number of equations)
 - **n** = number of columns (number of variables)
 
 So the system Ax = 0 has:
+
 - **m equations**
 - **n unknowns** (the components of x)
 

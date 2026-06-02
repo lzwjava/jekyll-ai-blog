@@ -23,21 +23,20 @@ Thoughts, essays, and code from my journey to pursue freedom and truth.
 
 This blog incorporates several enhancements compared to a standard Jekyll blog using the jekyll-theme-cayman:
 
-*   **AI-Powered Translation:** Leverages advanced language models for accurate and contextually relevant translations, expanding content accessibility to a global audience.
-*   **XeLaTeX PDF Generation:** Integrates XeLaTeX to produce high-quality, print-ready PDFs for offline reading and sharing.
-*   **Google Cloud Text-to-Speech:** Utilizes Google Cloud's Text-to-Speech service to generate audio versions of posts, improving accessibility for visually impaired users and those who prefer audio content.
-*   **Enhanced CSS Styling:** Features a refined and custom CSS design for a visually appealing and user-friendly experience.
-*   **MathJax Support:** Implements MathJax for rendering complex mathematical expressions and equations, making technical content more accessible.
-*   **Night Mode:** Includes a night mode option to reduce eye strain and improve readability in low-light conditions.
-*   **Flexible Post Selection:** Offers various post selection options, such as filtering by category or tag, to enhance navigation.
-*   **Regular Updates:** Ensures the blog's library and dependencies are up-to-date for optimal performance and security.
-*   **`awesome-cv` Integration:** Uses `awesome-cv` to generate professional CVs directly from the blog.
-*   **RSS Feed Support:** Provides RSS feeds via `feed.xml`, allowing users to subscribe to the blog.
-*   **Bilingual Content:** Supports both Chinese and English content to cater to a diverse audience.
-*   **GitHub Workflow Automation:** Implements GitHub Actions for automated building, testing, and deployment, ensuring a streamlined development process.
-*   **Automatic Translation Workflow:** Automatically translates new or updated posts into multiple languages using GitHub Actions.
-*   **EPUB Support:** Converts Markdown to EPUB for ebook readers.
-
+* **AI-Powered Translation:** Leverages advanced language models for accurate and contextually relevant translations, expanding content accessibility to a global audience.
+* **XeLaTeX PDF Generation:** Integrates XeLaTeX to produce high-quality, print-ready PDFs for offline reading and sharing.
+* **Google Cloud Text-to-Speech:** Utilizes Google Cloud's Text-to-Speech service to generate audio versions of posts, improving accessibility for visually impaired users and those who prefer audio content.
+* **Enhanced CSS Styling:** Features a refined and custom CSS design for a visually appealing and user-friendly experience.
+* **MathJax Support:** Implements MathJax for rendering complex mathematical expressions and equations, making technical content more accessible.
+* **Night Mode:** Includes a night mode option to reduce eye strain and improve readability in low-light conditions.
+* **Flexible Post Selection:** Offers various post selection options, such as filtering by category or tag, to enhance navigation.
+* **Regular Updates:** Ensures the blog's library and dependencies are up-to-date for optimal performance and security.
+* **`awesome-cv` Integration:** Uses `awesome-cv` to generate professional CVs directly from the blog.
+* **RSS Feed Support:** Provides RSS feeds via `feed.xml`, allowing users to subscribe to the blog.
+* **Bilingual Content:** Supports both Chinese and English content to cater to a diverse audience.
+* **GitHub Workflow Automation:** Implements GitHub Actions for automated building, testing, and deployment, ensuring a streamlined development process.
+* **Automatic Translation Workflow:** Automatically translates new or updated posts into multiple languages using GitHub Actions.
+* **EPUB Support:** Converts Markdown to EPUB for ebook readers.
 
 ## Getting Started
 
@@ -123,8 +122,8 @@ python scripts/draft.py <name>
 
 ## Content Guide
 
-*   `-en`: Denotes English posts.
-*   `-zh`: Denotes Chinese posts.
+* `-en`: Denotes English posts.
+* `-zh`: Denotes Chinese posts.
 
 The `_posts` and `pages` directories support both `-en` and `-zh` suffixes.
 

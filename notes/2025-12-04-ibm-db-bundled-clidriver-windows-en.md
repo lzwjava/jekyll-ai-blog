@@ -31,13 +31,15 @@ pip install ibm_db_clidriver
 ```
 
 That’s it. Now this works everywhere:
+
 ```python
 import ibm_db          # ← no DLL error anymore
 conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=server;PORT=50000;UID=user;PWD=pass;", "", "")
 ```
 
 ### What happens under the hood
-- The `clidriver is extracted into `<your-python-site-packages>/clidriver`
+
+- The `clidriver is extracted into`<your-python-site-packages>/clidriver`
 - Example path:
   `C:\Python312\Lib\site-packages\clidriver\bin\amd64.VC12`
 - `ibm_db` automatically adds this private `clidriver\bin` directory to the DLL search path at import time, so Windows always finds `db2cli64.dll` even if nothing is in the system PATH.
@@ -50,6 +52,7 @@ conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=server;PORT=50000;UID=user;PWD=pas
 | ibm_db[clidriver]              | No                        | No                            | Yes                            | Yes                           | ~120 MB    |
 
 ### When you might still prefer a full separate client
+
 - You already have applications (outside Python) that need the DB2 client.
 - You need very recent fixes or features not yet in the bundled clidriver.
 - Corporate policy forbids bundling runtime libraries inside Python packages.
@@ -57,5 +60,6 @@ conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=server;PORT=50000;UID=user;PWD=pas
 Otherwise, just use the bundled clidriver – it’s what most people on Windows do now.
 
 References:
+
 - [python-ibmdb – Using ibm_db_clidriver package](https://github.com/ibmdb/python-ibmdb#using-ibm_db_clidriver-package)
 - [ibm_db PyPI page – clidriver extra](https://pypi.org/project/ibm-db/)

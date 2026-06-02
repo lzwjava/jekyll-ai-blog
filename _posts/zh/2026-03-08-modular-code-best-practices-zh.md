@@ -26,6 +26,7 @@ type: note
 你编写的每个函数都应该专注于做一件事。如果一个函数在做多件事，它就更难泛化和重用。通常，如果你的函数名中有“and”（和），考虑重构。
 
 **不良示例：**
+
 ```python
 def process_and_save_and_notify(data):
     # 做了3件事——难以重用
@@ -35,6 +36,7 @@ def process_and_save_and_notify(data):
 ```
 
 **良好示例：**
+
 ```python
 def clean_data(data):
     return data.strip()

@@ -17,6 +17,7 @@ type: note
 在 SRS (Simple RTMP Server) 中，**main endpoint** 通常被称为 **origin server**（源站），而 **edge endpoint** 即为 **edge server**（边缘站，用于通过回源拉流实现大规模分发）。
 
 ### Origin Server (Main) 配置
+
 Origin server 接收来自编码器（OBS, FFmpeg 等）的 RTMP 推流，并将流分发给 edge 或直接提供给播放器。
 
 最小化 `origin.conf` 示例（或修改 full.conf）：
@@ -40,6 +41,7 @@ vhost __defaultVhost__ {
 ```
 
 使用以下命令运行：
+
 ```
 ./objs/srs -c origin.conf
 ```
@@ -47,6 +49,7 @@ vhost __defaultVhost__ {
 客户端推流至：`rtmp://your-origin-ip/live/stream_key`
 
 ### Edge Server 配置
+
 当播放器连接时，Edge server 会向 origin **按需拉流**（on-demand），这种模式比 forward 模式更适合大规模扩展。
 
 最小化 `edge.conf` 示例：
@@ -79,6 +82,7 @@ vhost __defaultVhost__ {
 ```
 
 使用以下命令运行：
+
 ```
 ./objs/srs -c edge.conf
 ```
@@ -97,6 +101,7 @@ vhost __defaultVhost__ {
 | Pull on demand    | 不适用                                | 是 (仅在有人播放时获取流)                 |
 
 ### 进阶说明
+
 - 使用多个 origin server：`origin 1.2.3.4:1935 5.6.7.8:1935;`
 - 对于超大规模场景 → 结合 SRS edge (处理 RTMP/HTTP-FLV) + NGINX 处理 HLS 缓存。
 - 在最新的 SRS 版本 (v5/v6) 中，配置格式基本一致，但请始终参考 GitHub 上最新的 full.conf 示例以了解新特性。

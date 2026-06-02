@@ -56,4 +56,4 @@ This adds the changes from B as a new commit D on main, without pulling in A or 
 - For sequenced changes, cherry-pick multiple commits in order to avoid missing dependencies.
 - Always test after cherry-picking, as it might introduce bugs if contexts differ.
 
-For more details, the official Git docs provide comprehensive guidance: https://git-scm.com/docs/git-cherry-pick. If you run into specific issues, share your Git log output!
+For more details, the official Git docs provide comprehensive guidance: <https://git-scm.com/docs/git-cherry-pick>. If you run into specific issues, share your Git log output!

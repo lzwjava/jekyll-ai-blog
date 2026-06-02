@@ -21,20 +21,26 @@ type: note
 
 1. **准备二进制文件和配置文件**
    - 为简单起见，将二进制文件重命名为 `mihomo`（可选，但更整洁）：
+
      ```
      mv mihomo-darwin-amd64-v1-alpha-3035ae8 mihomo
      chmod +x mihomo
      ```
+
    - 移动到标准位置：
+
      ```
      sudo mkdir -p /usr/local/bin
      sudo mv mihomo /usr/local/bin/mihomo
      ```
+
    - 将配置文件放到合适位置，例如：
+
      ```
      mkdir -p ~/.config/mihomo
      mv config.yaml ~/.config/mihomo/config.yaml
      ```
+
      （也可以使用 `/etc/mihomo/config.yaml` 或 `/usr/local/etc/mihomo/config.yaml`）
 
 2. **创建 plist 文件**

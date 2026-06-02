@@ -13,10 +13,12 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ## 1. Basic Syntax and Concepts
 
 ### Running Scheme
+
 - You'll need a Scheme interpreter (like Racket, Guile, or Chez Scheme)
 - Code is typically written in a `.scm` file or entered in a REPL (Read-Eval-Print Loop)
 
 ### Expressions and Parentheses
+
 - Everything in Scheme is an expression that returns a value
 - Parentheses are used for function calls and grouping
 - Format: `(function arg1 arg2 ...)`
@@ -68,6 +70,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ## 5. Functions
 
 ### Defining Functions
+
 ```scheme
 ; Basic function definition
 (define square
@@ -78,6 +81,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ```
 
 ### Multiple Parameters
+
 ```scheme
 (define add
   (lambda (x y)
@@ -87,6 +91,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ```
 
 ### Shorthand Definition
+
 ```scheme
 ; Alternative syntax (syntactic sugar)
 (define (multiply x y)
@@ -98,6 +103,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ## 6. Conditionals
 
 ### If Statement
+
 ```scheme
 (define (is-positive? n)
   (if (> n 0)
@@ -109,6 +115,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ```
 
 ### Cond (Multiple Conditions)
+
 ```scheme
 (define (number-type n)
   (cond
@@ -123,6 +130,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ## 7. Lists
 
 ### Creating Lists
+
 ```scheme
 ; Using quote
 '(1 2 3)          ; List of numbers
@@ -135,6 +143,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ```
 
 ### List Operations
+
 ```scheme
 (car '(1 2 3))    ; 1 (first element)
 (cdr '(1 2 3))    ; (2 3) (rest of list)
@@ -145,6 +154,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ## 8. Recursion
 
 ### Simple Recursion
+
 ```scheme
 (define (factorial n)
   (if (= n 0)
@@ -155,6 +165,7 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ```
 
 ### List Recursion
+
 ```scheme
 (define (sum-list lst)
   (if (null? lst)
@@ -167,12 +178,14 @@ Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. Th
 ## 9. Higher-Order Functions
 
 ### Mapping
+
 ```scheme
 (map square '(1 2 3 4))    ; (1 4 9 16)
 (map + '(1 2 3) '(4 5 6))  ; (5 7 9)
 ```
 
 ### Filtering
+
 ```scheme
 (define (even? n) (= (remainder n 2) 0))
 (filter even? '(1 2 3 4 5 6))  ; (2 4 6)
@@ -241,6 +254,7 @@ Here's a complete program that combines several concepts:
 5. Experiment with higher-order functions
 
 This tutorial covers the core concepts of Scheme. To deepen your understanding, try:
+
 - Writing more complex recursive functions
 - Exploring macro systems (advanced topic)
 - Building small projects like calculators or list processors

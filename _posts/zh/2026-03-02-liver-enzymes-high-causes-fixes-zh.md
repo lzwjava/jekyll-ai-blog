@@ -33,6 +33,7 @@ Answer:
 轻度升高（1–3× 正常上限）通常可逆转；极高水平（>10–20× 正常）通常表明更严重的急性损伤。
 
 ### 如何改善 / 降低这些水平
+
 识别并治疗 **underlying cause** 是最重要的一步（需要医生随访，包括病史、超声、病毒测试等）。许多病例通过生活方式改变即可显著改善：
 
 1. **停止或大大减少饮酒** — 当酒精是贡献因素时，这通常是最有效的单一步骤；戒酒 2–6 周内 GGT 可明显下降。
@@ -50,6 +51,7 @@ Answer:
 **重要**：不要自我诊断或忽略此 — 请咨询您的医生进行正确解释、额外测试和个性化建议。
 
 References:
+
 - [Elevated Liver Enzymes: 这是什么、原因、预防 & 治疗](https://my.clevelandclinic.org/health/symptoms/17679-elevated-liver-enzymes)
 - [Elevated liver enzymes Causes](https://www.mayoclinic.org/symptoms/elevated-liver-enzymes/basics/causes/sym-20050830)
 - [Gamma-glutamyl Transferase (GGT) Test](https://medlineplus.gov/lab-tests/gamma-glutamyl-transferase-ggt-test)

@@ -15,6 +15,7 @@ Here’s a step-by-step guide on **how to use the JaCoCo Maven plugin** to measu
 ### **Steps to Use the JaCoCo Maven Plugin**
 
 #### **1. Add the JaCoCo Maven Plugin to Your `pom.xml`**
+
 To use the JaCoCo Maven plugin, you need to include it in the `<build><plugins>` section of your project’s `pom.xml` file. Below is a basic configuration that sets up the plugin:
 
 ```xml
@@ -49,7 +50,9 @@ To use the JaCoCo Maven plugin, you need to include it in the `<build><plugins>`
   - **`<goal>report</goal>`**: Generates the coverage report after tests have run. It’s bound to the `verify` phase here, which occurs after the `test` phase, ensuring all test data is available.
 
 #### **2. Ensure Tests Are Configured**
+
 The JaCoCo plugin works by analyzing test execution, typically unit tests run by the Maven Surefire Plugin. In most Maven projects, Surefire is included by default and runs tests located in `src/test/java`. No additional configuration is needed unless your tests are non-standard. Verify that:
+
 - You have unit tests written (e.g., using JUnit or TestNG).
 - The Surefire plugin is present (it’s inherited from the default Maven parent POM in most cases).
 
@@ -66,6 +69,7 @@ If you need to explicitly configure Surefire, it might look like this:
 The `prepare-agent` goal sets up the JaCoCo agent by modifying the `argLine` property, which Surefire uses to run tests with coverage tracking enabled.
 
 #### **3. Run the Maven Build**
+
 To generate the coverage report, execute the following command in your project directory:
 
 ```bash
@@ -86,6 +90,7 @@ mvn test
 However, since the `report` goal is bound to `verify` in this configuration, you’ll need to run `mvn verify` to see the report. If you prefer the report to generate during `mvn test`, you can change the `<phase>` for the `report` execution to `test`, though `verify` is a common convention.
 
 #### **4. View the Coverage Report**
+
 After running `mvn verify`, JaCoCo generates an HTML report by default. You can find it at:
 
 ```
@@ -98,6 +103,7 @@ target/site/jacoco/index.html
 ---
 
 ### **Optional Customizations**
+
 For more advanced use cases, you can tweak the plugin configuration:
 
 - **Exclude Classes or Packages**:
@@ -154,7 +160,9 @@ For more advanced use cases, you can tweak the plugin configuration:
 ---
 
 ### **Summary**
+
 To use the JaCoCo Maven plugin:
+
 1. Add the plugin to your `pom.xml` with `prepare-agent` and `report` goals.
 2. Ensure your project has tests configured (typically via Surefire).
 3. Run `mvn verify` to generate the coverage report.

@@ -35,16 +35,20 @@ type: note
 ## ✅ 解决方案 —— 采取的措施
 
 ### 1. 紧急处置 —— 阻断蔓延
+
 ```
 docker restart nextcloud-app-1
 ```
+
 立即清除全部9个阻塞的 Apache 工作进程。系统负载在数秒内从11降至3.68，风扇恢复静音。
 
 ### 2. 根因处理 —— 修正 Uptime-Kuma 轮询地址
+
 - 将监控地址从 `http://192.168.1.36:8080/apps/dashboard/` 改为 `http://192.168.1.36:8080/status.php`
 - `/status.php` 是 Nextcloud 专用健康检查接口 —— 瞬时返回 `{"installed":true,"maintenance":false}`，无需加载应用，无 PHP 重负载
 
 ### 3. 修复漏洞 —— 升级 Nextcloud 33.0.0 → 33.0.2
+
 - 下载新版 Nextcloud 压缩包
 - 使用 `rsync` 将新源文件同步至数据卷（保留 `config/`、`data/`、`custom_apps/`、`themes/`）
 - 运行 `php occ upgrade` —— 迁移数据库结构，更新13个应用
@@ -54,7 +58,7 @@ docker restart nextcloud-app-1
 
 ## 🛡️ 预防措施
 
-### Nextcloud 专项建议：
+### Nextcloud 专项建议
 
 | 建议做法 | 避免做法 |
 |---|---|
@@ -62,12 +66,15 @@ docker restart nextcloud-app-1
 | PHP 应用监控间隔设为 ≥ 60秒 | 对 PHP 应用进行高频轮询 |
 | 单独监控容器 CPU 指标 | 仅关注主机平均负载 |
 
-### 通用风扇噪音预防方案：
+### 通用风扇噪音预防方案
+
 1. **设置容器 CPU 警报** —— 通过定时任务提前预警：
 {% raw %}
+
    ```
    docker stats --no-stream --format "{{.Name}}: {{.CPUPerc}}" | awk -F: '$2>80 {print $1" high CPU"}'
    ```
+
 {% endraw %}
 2. **日志轮转** —— 防止容器内日志文件占满磁盘导致交换空间压力
 3. **定期重启容器** —— 多数 PHP 应用（如 Nextcloud、LibreChat）可通过定期重启缓解内存泄漏
@@ -77,6 +84,7 @@ docker restart nextcloud-app-1
 ## 🔧 快速诊断命令集
 
 {% raw %}
+
 ```bash
 # 定位最高负载进程
 docker stats --no-stream
@@ -93,6 +101,7 @@ curl -s http://localhost:8080/status.php
 # 全系统负载查看
 uptime && top -b -n1 | head -8
 ```
+
 {% endraw %}
 
 任何容器出现持续数分钟 >50% CPU 占用 = 立即排查。

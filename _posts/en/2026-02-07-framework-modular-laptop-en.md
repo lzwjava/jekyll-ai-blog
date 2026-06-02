@@ -25,6 +25,7 @@ The primary company building truly **modular laptops** (where nearly every major
 - Their official website is frame.work, where you can configure and buy these laptops.
 
 While other companies have introduced more **serviceable** or **semi-modular** designs (especially after CES 2026 trends toward easier repairs):
+
 - Lenovo (e.g., ThinkPad X1 Carbon Gen 14 with "Space Frame" for easier access to components like keyboard, battery, fans).
 - Dell (newer XPS models with modular USB-C ports and improved repairability).
 - Schenker (teasing the Element 16 semi-modular gaming laptop concept for 2026 launch).

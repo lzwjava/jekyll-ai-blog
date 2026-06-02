@@ -37,30 +37,40 @@ Instead, follow one of these two paths from the current GRUB screen (both can wo
 5. 选择 **root** → 按 Enter。
 6. 你现在应该进入了 root shell 提示符（显示 # 符号，已经是 root 权限 — 大多数情况下不需要密码）。
 7. 文件系统起初可能是 read-only（只读）的。将其设为可写：
+
    ```
    mount -o remount,rw /
    sync
    ```
+
 8. 现在修复 sudo（最简命令）：
+
    ```
    chown root:root /usr/bin/sudo
    chmod 4755 /usr/bin/sudo
    ```
+
    同时修复你之前提到的 sudo library 目录：
+
    ```
    chown -R root:root /usr/lib/sudo
    chmod -R 755 /usr/lib/sudo
    ```
+
 9. 可选但强烈建议 — 修复更多由 chown -R 造成的常见损坏：
+
    ```
    chown root:root /usr/bin/pkexec 2>/dev/null
    chmod 4755 /usr/bin/pkexec 2>/dev/null
    chown -R root:root /usr/libexec /usr/lib/cups 2>/dev/null
    ```
+
 10. 退出 shell 并继续启动：
+
     ```
     exit
     ```
+
     然后选择 **resume**（或者如果你愿意，直接输入 `reboot`）。
 11. 系统现在应该可以正常启动，sudo 应该恢复工作了（登录后用 `sudo -l` 测试）。
 
@@ -82,6 +92,7 @@ Instead, follow one of these two paths from the current GRUB screen (both can wo
 如果它没有给你一个可用的 root shell（例如掉进了 busybox 或出现文件系统错误），请直接采用方案 2。
 
 修复 sudo 后，你还可以在修复好的系统中清理巨大的 CUPS 日志：
+
 ```
 sudo truncate -s 0 /var/log/cups/error_log*
 ```

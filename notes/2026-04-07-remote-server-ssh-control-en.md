@@ -48,11 +48,13 @@ Claude Code keeps running on your laptop regardless of what happens on the LAN s
 
 **2. Full observability**
 Claude Code can tail logs, check process status, and confirm services came back up:
+
 ```bash
 ssh lzw@192.168.1.36 "tail -f /home/lzw/llama-server.log"
 ```
 
 **3. Atomic config changes + restart**
+
 ```bash
 ssh lzw@192.168.1.36 "
   # Edit config
@@ -68,6 +70,7 @@ ssh lzw@192.168.1.36 "
 ```
 
 **4. Separation of concerns**
+
 - **Claude Code** = management plane (your laptop)
 - **OpenClaw + llama-server** = data plane (LAN server)
 

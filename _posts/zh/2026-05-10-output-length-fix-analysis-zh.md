@@ -51,11 +51,14 @@ type: note
 
 **文件：** `create_note_from_clipboard.py`
 **改动：** 将提示词从：
+
 ```
 Generate a very short title in English (maximum six words, do not have single quote)
 for the following text and respond with only the title: {content}
 ```
+
 改为：
+
 ```
 Give a short English title (at most 6 words, no quotes, no explanation) for:
 {content}
@@ -84,9 +87,11 @@ Title:
 ## 修复效果评估
 
 **优势：**
+
 - 纵深防御：提示词（软性）+ max_tokens（硬性）+ 重试（弹性）
 - 向后兼容：`_call_llm_or_exit` 默认 `max_tokens=None`
 - 代码改动量小：总共约 15 行
 
 **剩余风险：**
+
 - 如果模型输出了 60 个 token 的垃圾内容，且恰好少于 100 个字符，重试循环不会捕捉到（字符检查通过，但标题无意义）。这种情况概率较低，需要语义检查，但对当前用例来说过度设计。

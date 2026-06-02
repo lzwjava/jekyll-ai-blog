@@ -65,6 +65,7 @@ For **heavy-use apps with records** (e-commerce, order history, subscriptions, p
 Account linking allows users to link two accounts so they can use any of them to access the same user profile. This can prevent account duplication, reduce the risk of account lockout, and improve the login experience for multi-platform users.
 
 The practical approach:
+
 1. After login, check if the verified email already exists in your database.
 2. If it does, prompt the user to **link** the new login method to the existing account.
 3. If Apple's Hide My Email was used, you may need to ask the user to manually confirm their identity.

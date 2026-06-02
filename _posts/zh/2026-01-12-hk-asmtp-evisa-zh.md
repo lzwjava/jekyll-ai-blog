@@ -12,7 +12,7 @@ type: note
 
 我将搜索有关在香港通过 ASMTP 计划获取电子签证的最新信息。根据香港入境事务处（Immigration Department）的信息，以下是在 ASMTP 获批后获取电子签证（e-Visa）的方法：
 
-## 获取 e-Visa 的步骤：
+## 获取 e-Visa 的步骤
 
 **1. 申请批准**
 在您的 ASMTP 申请获批后（通常需要 4 周），您将通过 email、传真或邮寄收到申请结果通知书。

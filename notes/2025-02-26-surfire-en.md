@@ -17,6 +17,7 @@ Below is an explanation of the **Maven Surefire Plugin**, which is a key compone
 The **Maven Surefire Plugin** is a plugin in Apache Maven designed to execute unit tests during the build lifecycle. It integrates seamlessly with Maven’s `test` phase and is automatically triggered when you run commands like `mvn test`, `mvn package`, or `mvn install`. The plugin supports popular test frameworks such as JUnit (versions 3, 4, and 5) and TestNG, and it generates test reports to help developers assess test outcomes.
 
 ### Key Features
+
 - Runs tests in a separate JVM process for isolation.
 - Supports multiple test frameworks (JUnit, TestNG, etc.).
 - Generates test reports in formats like XML and plain text.
@@ -29,11 +30,14 @@ The **Maven Surefire Plugin** is a plugin in Apache Maven designed to execute un
 The Surefire Plugin is included by default in Maven’s build lifecycle, so you don’t need to configure it for basic use. However, you can explicitly declare it in your `pom.xml` file to specify a version or customize its behavior.
 
 ### Minimal Configuration
+
 If you don’t add any configuration, Maven uses the plugin with default settings:
+
 - Tests are located in `src/test/java`.
 - Test files follow naming patterns like `**/*Test.java`, `**/Test*.java`, or `**/*Tests.java`.
 
 ### Explicit Declaration
+
 To customize the plugin or ensure a specific version, add it to the `<build><plugins>` section of your `pom.xml`. Here’s an example:
 
 ```xml
@@ -55,6 +59,7 @@ To customize the plugin or ensure a specific version, add it to the `<build><plu
 The plugin is tied to the `test` phase of the Maven lifecycle. Here’s how to use it:
 
 ### Run All Tests
+
 To execute all unit tests, run:
 
 ```
@@ -62,6 +67,7 @@ mvn test
 ```
 
 ### Run Tests in a Larger Build
+
 Tests are automatically executed when you run commands that include the `test` phase, such as:
 
 ```
@@ -70,12 +76,17 @@ mvn install
 ```
 
 ### Skip Tests
+
 You can skip test execution using command-line flags:
+
 - **Skip running tests**: `-DskipTests`
+
   ```
   mvn package -DskipTests
   ```
+
 - **Skip test compilation and execution**: `-Dmaven.test.skip=true`
+
   ```
   mvn package -Dmaven.test.skip=true
   ```
@@ -87,7 +98,9 @@ You can skip test execution using command-line flags:
 You can tailor the plugin’s behavior by adding a `<configuration>` section in the `pom.xml`. Here are some common customizations:
 
 ### Include or Exclude Specific Tests
+
 Specify which tests to run or skip using patterns:
+
 ```xml
 <configuration>
     <includes>
@@ -100,17 +113,22 @@ Specify which tests to run or skip using patterns:
 ```
 
 ### Run Tests in Parallel
+
 Speed up execution by running tests concurrently:
+
 ```xml
 <configuration>
     <parallel>methods</parallel>
     <threadCount>2</threadCount>
 </configuration>
 ```
+
 *Note*: Ensure your tests are thread-safe before enabling this.
 
 ### Pass System Properties
+
 Set properties for the test JVM:
+
 ```xml
 <configuration>
     <systemPropertyVariables>
@@ -120,7 +138,9 @@ Set properties for the test JVM:
 ```
 
 ### Generate Reports
+
 By default, reports are saved in `target/surefire-reports`. For an HTML report, use the `maven-surefire-report-plugin`:
+
 ```xml
 <reporting>
     <plugins>
@@ -132,6 +152,7 @@ By default, reports are saved in `target/surefire-reports`. For an HTML report, 
     </plugins>
 </reporting>
 ```
+
 Run `mvn surefire-report:report` to generate the HTML report.
 
 ---
@@ -139,18 +160,23 @@ Run `mvn surefire-report:report` to generate the HTML report.
 ## Handling Test Failures
 
 ### Fail the Build on Test Failure
+
 By default, a failing test causes the build to fail. To ignore failures and continue:
+
 ```
 mvn test -Dmaven.test.failure.ignore=true
 ```
 
 ### Rerun Failed Tests
+
 Handle flaky tests by retrying failures:
+
 ```xml
 <configuration>
     <rerunFailingTestsCount>2</rerunFailingTestsCount>
 </configuration>
 ```
+
 This reruns failed tests up to 2 times.
 
 ---
@@ -160,10 +186,13 @@ This reruns failed tests up to 2 times.
 The plugin supports various test frameworks with minimal setup:
 
 ### JUnit 4
+
 No extra configuration is needed; Surefire detects JUnit 4 tests automatically.
 
 ### JUnit 5
+
 Add the JUnit 5 dependency:
+
 ```xml
 <dependencies>
     <dependency>
@@ -174,10 +203,13 @@ Add the JUnit 5 dependency:
     </dependency>
 </dependencies>
 ```
+
 Use Surefire version 2.22.0 or later for full support.
 
 ### TestNG
+
 Add the TestNG dependency:
+
 ```xml
 <dependencies>
     <dependency>
@@ -188,6 +220,7 @@ Add the TestNG dependency:
     </dependency>
 </dependencies>
 ```
+
 Surefire will automatically run TestNG tests.
 
 ---
@@ -203,6 +236,7 @@ Surefire will automatically run TestNG tests.
 ## Summary
 
 The **Maven Surefire Plugin** is essential for running unit tests in Maven projects. To use it:
+
 1. Rely on its default behavior or declare it explicitly in `pom.xml` for customization.
 2. Run tests with `mvn test` or as part of larger builds like `mvn package`.
 3. Customize it with options like include/exclude patterns, parallel execution, or system properties.

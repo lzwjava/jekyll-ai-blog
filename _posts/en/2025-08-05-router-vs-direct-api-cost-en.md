@@ -17,6 +17,7 @@ Yes, using OpenRouter APIs to access the same models is generally more costly th
 These fees effectively make OpenRouter 5-5.5% more expensive than going direct, plus any fixed minimums, depending on your usage and payment method. Direct access avoids these extras, as you only pay the provider's token rates.
 
 ### Cost Comparison Examples
+
 Here's a rough comparison based on available pricing data (in USD per million tokens; note that rates can vary by model version, time of day, caching, or region—always check official sites for latest details). OpenRouter's base token rates match the providers (pass-through), but add the fees above.
 
 - **DeepSeek**:
@@ -32,7 +33,7 @@ Here's a rough comparison based on available pricing data (in USD per million to
   - OpenRouter: Same base rates + 5–5.5% fees (BYOK may be supported for Google).
 
 - **Grok (xAI)**:
-  - For details on Grok API pricing and access, visit https://x.ai/api. Based on public info, rates are around Input $3.00/Output $15.00 for Grok-3/Grok-4, or Input $0.30/Output $0.50 for Grok-3-mini.
+  - For details on Grok API pricing and access, visit <https://x.ai/api>. Based on public info, rates are around Input $3.00/Output $15.00 for Grok-3/Grok-4, or Input $0.30/Output $0.50 for Grok-3-mini.
   - OpenRouter: Same base rates + 5–5.5% fees (BYOK not typically mentioned for xAI).
 
 If your usage is high-volume, the percentage fees add up quickly. For low usage or testing, the difference might be minimal, but direct access is still cheaper. OpenRouter's value comes from its unified API and routing features, which might justify the extra cost for convenience.

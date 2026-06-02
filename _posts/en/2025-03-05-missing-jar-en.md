@@ -58,9 +58,11 @@ To eliminate the warning, you need to either ensure the JAR is properly included
 3. **Update the Manifest (If the JAR Is Not Needed):**
    - Open the `MANIFEST.MF` file in your EAR or WAR, located in the `META-INF/` directory.
    - Look for the `Class-Path` attribute, which might look something like this:
+
      ```
      Class-Path: grpc-protobuf.jar some-other-lib.jar
      ```
+
    - Remove the reference to `grpc-protobuf.jar` so it no longer appears in the list.
    - Save the file, rebuild your application, and redeploy it. The warning should no longer appear.
 
@@ -123,6 +125,7 @@ To pinpoint the issue, try these steps:
 
 2. **Review the EAR’s `pom.xml`**
    Look at the `maven-ear-plugin` configuration. For example:
+
    ```xml
    <plugin>
        <groupId>org.apache.maven.plugins</groupId>
@@ -134,6 +137,7 @@ To pinpoint the issue, try these steps:
        </configuration>
    </plugin>
    ```
+
    Ensure it’s set up to include dependencies in the `lib/` directory (or wherever your JARs should go).
 
 3. **Inspect Dependencies**
@@ -150,6 +154,7 @@ Depending on what you find, apply one of these solutions:
 
 1. **If the JAR Is Needed**
    Add `grpc-protobuf.jar` as a dependency in your EAR’s `pom.xml`:
+
    ```xml
    <dependency>
        <groupId>io.grpc</groupId>
@@ -157,6 +162,7 @@ Depending on what you find, apply one of these solutions:
        <version>1.39.0</version> <!-- Use the correct version -->
    </dependency>
    ```
+
    Ensure the `maven-ear-plugin` includes it in the EAR (e.g., in the `lib/` directory).
 
 2. **If the Scope Is Wrong**
@@ -164,15 +170,18 @@ Depending on what you find, apply one of these solutions:
 
 3. **If the JAR Isn’t Needed**
    If `grpc-protobuf.jar` shouldn’t be in the manifest, check for custom manifest configurations in the `maven-ear-plugin`:
+
    ```xml
    <configuration>
        <manifestFile>META-INF/MANIFEST.MF</manifestFile>
    </configuration>
    ```
+
    Remove any manual entries for `grpc-protobuf.jar`, or let Maven generate the manifest automatically.
 
 4. **Handle Transitive Dependencies**
    If it’s a transitive dependency you don’t need, exclude it:
+
    ```xml
    <dependency>
        <groupId>some.group</groupId>

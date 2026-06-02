@@ -34,22 +34,27 @@ Minimalism is implicit in the Unix philosophies of "everything is a text stream"
 Apple is the canonical example of a company that has removed features relentlessly, sometimes controversially, often influencing the whole industry.
 
 ### The iMac G3 (1998) — Killing the Floppy Disk
+
 The original iMac G3, released after Steve Jobs returned to Apple, was stylish and cool — until you found out that Apple decided not to include serial ports and floppy disk drives, swapping them out for USB ports and CD-ROMs. Serial ports were becoming more inconvenient compared to the emerging USB standard, which allowed plug-and-play peripherals.
 
 ### MacBook Air (2008) — Killing the Optical Drive
+
 A decade after touting CDs as the next big thing, Apple removed the optical drive from the original MacBook Air in 2008. This was an obvious choice since Apple was positioning the MacBook Air as the thinnest laptop in the market — a CD-ROM drive made portable PCs thicker.
 
 ### MacBook Pro (2016) — The Great Port Purge
+
 In 2016, Apple removed the MagSafe 2 charging port, stripped away the HDMI port, the SD card slot, shut down the Thunderbolt 2 ports, and most notably killed the standard USB port — replacing all of them with four Thunderbolt 3/USB-C ports.
 
 This was extremely controversial. In 2016, Apple reached its peak "who needs ports lol" design era, offering to sell users a dongle for their MacBook's one (singular, uno) USB port and getting rid of the MacBook Pro's HDMI, USB Type-A, and SD card ports.
 
 ### iPhone 7 (2016) — Killing the Headphone Jack
+
 In a landmark decision, Apple eliminated the 3.5mm headphone jack starting with the iPhone 7 in 2016. Apple's stated reasons included: the port served only a single function; it freed up space for other enhancements; and digital audio offers superior quality compared to analog.
 
 Without the headphone jack, it became easier to design waterproof or water-resistant devices. Additionally, the transition aligned with the industry's shift towards wireless technology, as companies like Google and Apple introduced their own wireless earbuds (Pixel Buds Pro and AirPods).
 
 ### Apple Eventually Reversed Course
+
 In 2021, Apple ditched its disliked OLED Touch Bar and put more ports back on the MacBook Pro. As The Verge wrote at the time, it was hard to ignore the broader context — these improvements effectively brought the 2021 MacBook Pros back in line with features already offered from 2012 to early 2016.
 
 Apple's long-held commitment to "Less But Better" remains a central pillar to their continued success designing consumer electronics. Leveraging minimalism catapulted Apple into becoming the world's most valuable company.
@@ -59,18 +64,23 @@ Apple's long-held commitment to "Less But Better" remains a central pillar to th
 ## 3. Software and OS Examples
 
 ### Google Search
+
 In a sea of cluttered search engines, Google's minimalist approach — a clean interface with a single search bar — revolutionized how we find information online.
 
 ### Basecamp (Project Management)
+
 Originally launched in 2004, Basecamp's founders were determined to create project management software that avoided the endless feature bloat and complex interfaces characterizing enterprise platforms like Microsoft Project. As Jason Fried, Basecamp's founder explained, "We deliberately restrain the feature count." There are no complex Gantt charts, customized dashboards, or advanced reporting.
 
 ### WhatsApp
+
 WhatsApp started with a simple premise — send messages over the internet. By focusing on this core functionality and ensuring reliability, they built a user base of billions.
 
 ### Windows 8 / iOS 7 — Visual Simplification
+
 Windows 8 implemented the "simple, squared-off" Metro appearance, which was less graphics-intensive than the previous Aero interface in Windows 7 and Vista. This change was made in part because of the rise of smaller, battery-powered devices and the need to conserve power. iOS 7 made similar changes for user experience reasons.
 
 ### Microsoft and Apple Removing Features Quietly (and Controversially)
+
 When Apple rewrote iWork applications to be fully 64-bit with unified file formats, the release notes had no notice that features were removed. Customers weren't amused. Apple said they planned to reintroduce some features in next releases. Tesla also unilaterally removed a feature from a $100,000 car via software update without notifying owners. Amazon remotely deleted books users had already downloaded and paid for on their Kindles without notifying users.
 
 ---
@@ -80,20 +90,25 @@ When Apple rewrote iWork applications to be fully 64-bit with unified file forma
 This is the deep and important question. There are several dimensions:
 
 ### Technical: Legacy Code and Spaghetti Dependencies
+
 Old code is inextricably linked with new code. When you try to remove or change it, that creates a butterfly effect with a potentially devastating impact on operational continuity.
 
 Dealing with the complexity of code within legacy systems, as well as teasing out the business processes the systems support, creates enormous challenges. The complexity of untangling thousands — or even millions — of lines of code from the business processes and rules that the code enables can be daunting.
 
 ### Human: User Resistance and Habit
+
 Beyond IT teams, the biggest hurdle is often end-user adoption. It doesn't matter how advanced the new system is — if employees refuse to use it, the whole project is dead on arrival. People resist change, especially when it disrupts their workflow.
 
 ### Business: Fear of Losing Customers
+
 If you remove a feature that even 2% of your users rely on, those users may leave. Product teams tend to be risk-averse about removal because the downside (losing real users) feels more immediate than the upside (cleaner product). Adding features has a clear success story; removing features has no ribbon-cutting moment.
 
 ### Organizational: Feature Ownership and Internal Politics
+
 Inside a company, every feature was built by a team. That team has ownership, pride, and business justification. Removing their feature is politically difficult — it implies their work was wasteful. Minimalist codebases are easier to onboard new team members, less prone to bugs, and more adaptable to changing requirements — but achieving them requires practicing "You Aren't Gonna Need It" (YAGNI), resisting the urge to implement features "just in case."
 
 ### Cognitive: Feature Bloat Feels Like Value
+
 Humans often equate "more features" with "better product." In a world where "more features" often equates to "better product" in people's minds, convincing stakeholders to embrace minimalism requires sharing case studies of successful minimalist products and using data to demonstrate how focused features lead to higher user engagement.
 
 ---

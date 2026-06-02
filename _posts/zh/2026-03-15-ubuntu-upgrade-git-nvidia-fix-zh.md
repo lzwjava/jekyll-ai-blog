@@ -47,6 +47,7 @@ sudo apt install git
 ```
 
 使用以下命令验证：
+
 ```bash
 git --version
 ```
@@ -56,36 +57,43 @@ git --version
 ## 修复：在 Ubuntu 24.04 上重新安装 NVIDIA 驱动
 
 **步骤 1：检查您的 GPU**
+
 ```bash
 lspci | grep -i nvidia
 ```
 
 **步骤 2：让 Ubuntu 检测并推荐正确的驱动**
+
 ```bash
 sudo ubuntu-drivers list
 ```
 
 **步骤 3：自动安装推荐的驱动**
+
 ```bash
 sudo ubuntu-drivers autoinstall
 ```
 
 或者手动安装特定版本（将 `550` 替换为您偏好的版本）：
+
 ```bash
 sudo apt install nvidia-driver-550
 ```
 
 **步骤 4：确保安装了内核头文件（DKMS 所需）**
+
 ```bash
 sudo apt install linux-headers-$(uname -r) build-essential
 ```
 
 **步骤 5：重启**
+
 ```bash
 sudo reboot
 ```
 
 **步骤 6：验证**
+
 ```bash
 nvidia-smi
 ```

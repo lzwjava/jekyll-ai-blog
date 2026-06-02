@@ -15,6 +15,7 @@ The Faster Payment System (FPS) in Hong Kong, operated by Hong Kong Interbank Cl
 Regarding APIs, FPS itself does not currently offer dedicated APIs for external or third-party integration. However, it aligns with the HKMA's broader Open API Framework for the Hong Kong Banking Sector (introduced in 2018 and updated through phases up to 2025), which encourages banks to expose certain functions via APIs for third-party service providers (e.g., for account information or payment initiation). FPS transactions can leverage this framework indirectly for features like payment initiation, but no FPS-specific APIs are available yet—access remains restricted on a need-to-know basis for security and regulatory reasons. HKMA continues to monitor and may expand API support in the future.
 
 ### Key Integration Details for Banks
+
 - **Connectivity Methods**: Banks connect in real-time mode via IBM MQ messaging for instant processing or batch mode via file transfers (e.g., over HKICL's secure ICLNET network). The system runs 24/7.
 - **Messaging Standards**: All communications use the ISO 20022 format, supporting rich data, Chinese characters, and interoperability.
 - **Onboarding Process**: Banks enroll with HKMA (for HKD) or Bank of China (Hong Kong) for RMB, sign FPS Rules agreements, adapt systems to the provided specs, undergo HKICL testing, and go live. All licensed banks must participate as direct settlers.

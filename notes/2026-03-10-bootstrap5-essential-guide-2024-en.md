@@ -64,6 +64,7 @@ npm install bootstrap
 ```
 
 Then import in your Sass:
+
 ```scss
 @import "../node_modules/bootstrap/scss/bootstrap";
 ```
@@ -77,6 +78,7 @@ The grid system is the backbone of Bootstrap layout.
 Bootstrap 5's grid system is a powerful tool for creating responsive layouts. It utilizes a **12-column system** that adapts to various screen sizes. The key concepts are: Containers (the outermost element), Rows (horizontal groups of columns), Columns (the basic building blocks), and Breakpoints (points at which the layout adjusts based on screen size).
 
 **Basic grid structure:**
+
 ```html
 <div class="container">
   <div class="row">
@@ -108,12 +110,14 @@ Bootstrap includes six default breakpoints, sometimes referred to as grid tiers,
 Since Bootstrap is developed mobile-first, it applies the bare minimum of styles to make a layout work at the smallest breakpoint, and then layers on styles to adjust that design for larger devices. This optimizes CSS, improves rendering time, and provides a great experience for visitors.
 
 **Responsive column example:**
+
 ```html
 <div class="row">
   <div class="col-12 col-md-6 col-lg-4">Responsive Column</div>
   <div class="col-12 col-md-6 col-lg-8">Responsive Column</div>
 </div>
 ```
+
 This means: full-width on mobile, half-width on tablet (md), and 4/8 split on desktop (lg).
 
 ---
@@ -123,7 +127,9 @@ This means: full-width on mobile, half-width on tablet (md), and 4/8 split on de
 Bootstrap provides a rich set of pre-built components that simplify common website elements. Here are the most important ones:
 
 ### 1. Navbar
+
 A responsive navigation bar that collapses on small screens.
+
 ```html
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
@@ -142,6 +148,7 @@ A responsive navigation bar that collapses on small screens.
 ```
 
 ### 2. Buttons
+
 ```html
 <button class="btn btn-primary">Primary</button>
 <button class="btn btn-secondary">Secondary</button>
@@ -150,7 +157,9 @@ A responsive navigation bar that collapses on small screens.
 ```
 
 ### 3. Cards
+
 Flexible content containers.
+
 ```html
 <div class="card" style="width: 18rem;">
   <img src="image.jpg" class="card-img-top" alt="...">
@@ -163,6 +172,7 @@ Flexible content containers.
 ```
 
 ### 4. Modal
+
 ```html
 <!-- Trigger -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
@@ -187,6 +197,7 @@ Flexible content containers.
 ```
 
 ### 5. Alerts
+
 ```html
 <div class="alert alert-success" role="alert">Success! Operation completed.</div>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -196,7 +207,9 @@ Flexible content containers.
 ```
 
 ### 6. Forms
+
 Bootstrap 5 has a revamped forms system:
+
 ```html
 <form>
   <div class="mb-3">
@@ -212,6 +225,7 @@ Bootstrap 5 has a revamped forms system:
 ```
 
 ### 7. Other Key Components
+
 - **Carousel** — image/content slideshow with `data-bs-ride="carousel"`
 - **Accordion** — collapsible content panels
 - **Tabs / Pills** — navigation tabs
@@ -228,28 +242,33 @@ Bootstrap 5 has a revamped forms system:
 Bootstrap 5 provides utility-first classes for spacing, colors, alignment, shadows, borders, and responsive visibility without writing custom CSS.
 
 **Spacing** — uses the pattern `{property}{side}-{size}` where size is 0–5 or `auto`:
+
 ```html
 <div class="mt-3 mb-2 px-4 py-2">Spaced element</div>
 <!-- mt = margin-top, px = padding x-axis, etc. -->
 ```
 
 **Typography:**
+
 ```html
 <p class="text-center text-primary fw-bold fs-4">Styled Text</p>
 ```
 
 **Display:**
+
 ```html
 <div class="d-none d-md-block">Visible only on md and up</div>
 <div class="d-flex justify-content-between align-items-center">Flexbox row</div>
 ```
 
 **Colors:**
+
 ```html
 <p class="text-success bg-light p-2">Green text on light background</p>
 ```
 
 **Borders & Shadows:**
+
 ```html
 <div class="border border-primary rounded shadow-sm p-3">Styled box</div>
 ```

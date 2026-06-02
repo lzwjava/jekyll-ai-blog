@@ -17,6 +17,7 @@ The question is about Anton Chekhov's short story **"Misery" (《苦恼》)**. I
 ---
 
 ### **Correct Answer:**
+
 **A. Soldier (军人)**
 **C. Doorman (看门人)**
 **D. Young cab drivers (青年车夫)**
@@ -24,6 +25,7 @@ The question is about Anton Chekhov's short story **"Misery" (《苦恼》)**. I
 ---
 
 ### **Explanation:**
+
 In *Misery*, Iona, a cab driver, tries to share his grief over his son's death with several people, but they all ignore him:
 
 - **Soldier:** Iona tries to talk to a soldier, but the soldier dismisses him rudely and even threatens him.

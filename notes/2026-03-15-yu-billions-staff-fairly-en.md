@@ -26,14 +26,17 @@ Yu Donglai is widely regarded in China as an extraordinarily employee-centric en
 ## Why Did He Do This? The Context
 
 ### 1. His Retirement Announcement
+
 On February 11, 2026, Yu Donglai officially announced his retirement after the Chinese New Year. The following day, he published Pangdonglai's core strategic roadmap: the company would remain positioned as a "school-style enterprise," would never go public, all top management must retire before age 60, and the company will stop expanding once its planned benchmark goals are met.
 
 ### 2. A Long-Standing Philosophy of Profit Sharing
+
 Yu Donglai stated that the company has been distributing profits to all employees by job role since the year 2000, with the purpose of earning employees' respect and trust, stimulating their positive thinking and creativity, and encouraging them to pursue a scientifically grounded, healthy, and fulfilling life.
 
 According to *Tsinghua Management Review*, Yu Donglai believes that company profits are created by all employees collectively and should therefore be shared by all employees. The company follows a "30-30-30" principle: 30% of profits go back to society, 30% are used for enterprise development, and the remaining 30% is fairly distributed to all employees based on their roles and contributions.
 
 ### 3. The Goal: "For a Better Life"
+
 When asked about his motivation, Yu Donglai responded simply: "The goal is for something beautiful." Public commentators noted that Yu proved commerce doesn't have to be cold — that kindness can be profitable and integrity can be lasting.
 
 ---
@@ -45,18 +48,23 @@ On March 8, 2026, Yu Donglai publicly revealed the full asset distribution plan 
 Here is the breakdown by tier:
 
 ### Management Team
+
 The management team consists of 718 people, representing 7% of the total workforce. They are allocated assets worth CNY 1.514 billion, or 39.9% of the total. This includes store managers, assistant managers, and department heads. Among them, 12 store managers share CNY 240 million in total — meaning each store manager receives approximately CNY 20 million.
 
 ### Technical Team
+
 The technical team has 563 members, accounting for 5.5% of the workforce. They are allocated CNY 468 million (12.3% of total assets). The two highest-ranked technical staff each receive CNY 10 million.
 
 ### Frontline Employees
+
 Frontline employees number 8,913 people, making up 87.4% of the total workforce. They share approximately CNY 1.811 billion — 47.7% of the total assets. Of these, 280 team leaders (班长) each receive CNY 300,000, while 8,633 ordinary employees each receive CNY 200,000.
 
 ### Yu Donglai's Own Share
+
 Yu Donglai himself holds approximately 5% of the total assets.
 
 ### Ongoing Annual Profit Sharing
+
 Going forward, these assets will serve as company equity (stock capital). Each year, 50% of profits will be paid as bonuses to the team, and 50% will go to shareholders as returns.
 
 ---

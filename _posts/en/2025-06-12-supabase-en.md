@@ -15,7 +15,9 @@ Below are the complete instructions and code:
 ---
 
 ### GitHub Actions Workflow
+
 The workflow needs to run every 5 minutes during the specified time windows in SGT (UTC+8):
+
 - Punch in: 12 PM to 3 PM SGT = 4 AM to 7 AM UTC
 - Punch out: 6 PM to 9 PM SGT = 10 AM to 1 PM UTC
 - Days: Wednesday to Friday (3-5 in cron syntax)
@@ -23,6 +25,7 @@ The workflow needs to run every 5 minutes during the specified time windows in S
 We'll use a single cron schedule combining these hours and let the script determine the action.
 
 {% raw %}
+
 ```yaml
 name: Punch Card Reminders
 
@@ -94,18 +97,22 @@ jobs:
       run: python scripts/release/location_bot.py --job send_message --message "Code changes for punch reminder bot pushed to main branch."
       if: github.event_name == 'push'
 ```
+
 {% endraw %}
 
 ---
 
 ### Python Script
+
 The script will:
+
 - Check the current SGT time to determine if it's punch in or punch out window
 - Use Supabase to track punch states
 - Fetch Telegram updates for "punch" messages
 - Send reminders if the punch hasn't been recorded
 
 Update your `requirements.simple.txt` to include:
+
 ```
 requests
 supabase
@@ -262,9 +269,11 @@ if __name__ == '__main__':
 ---
 
 ### Supabase Setup
+
 We'll create two tables in Supabase to manage punch states and Telegram updates.
 
 #### SQL Instructions
+
 Run these SQL commands in the Supabase SQL Editor:
 
 ```sql
@@ -281,6 +290,7 @@ INSERT INTO telegram_state (id, last_update_id) VALUES (1, 0);
 ```
 
 #### Steps to Execute
+
 1. Log into your Supabase dashboard.
 2. Navigate to **SQL Editor**.
 3. Paste and run the SQL code above to create and initialize the tables.
@@ -288,7 +298,9 @@ INSERT INTO telegram_state (id, last_update_id) VALUES (1, 0);
 ---
 
 ### Environment Variables
+
 Ensure these secrets are set in your GitHub repository under **Settings > Secrets and variables > Actions > Secrets**:
+
 - `TELEGRAM_LOCATION_BOT_API_KEY`: Your Telegram bot token.
 - `SUPABASE_URL`: Your Supabase project URL (e.g., `https://xyz.supabase.co`).
 - `SUPABASE_KEY`: Your Supabase anon key (found in **Settings > API**).
@@ -296,6 +308,7 @@ Ensure these secrets are set in your GitHub repository under **Settings > Secret
 ---
 
 ### How It Works
+
 1. **Schedule**: The workflow runs every 5 minutes during 12 PM-3 PM and 6 PM-9 PM SGT (adjusted to UTC) on Wednesday to Friday.
 2. **Time Check**: The script checks the current SGT time to determine if it's in the punch in or punch out window.
 3. **State Management**:
@@ -310,6 +323,7 @@ Ensure these secrets are set in your GitHub repository under **Settings > Secret
 ---
 
 ### Testing
+
 - **Manual Trigger**: Use `workflow_dispatch` with `job_name: punch_reminder` to test manually.
 - **Telegram**: Send "punch" to your bot during the window to stop reminders for that session.
 - **Supabase**: Check the `punch_records` table to verify punch times are recorded.

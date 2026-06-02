@@ -18,6 +18,7 @@ type: note
 以下是关于DMIT.io的已知信息：
 
 **公司背景：**
+
 - DMIT（DMIT Incorporation）大约于2018年成立，是一家国际托管服务提供商
 - 公司注册于纽约州奥尔巴尼（地址：418 Broadway Ste N, Albany, NY, 12207-2922）
 - 其运营使用自治系统编号AS906和AS54574
@@ -25,6 +26,7 @@ type: note
 
 **服务特点：**
 DMIT.io确实以提供优质网络连接而闻名，尤其体现在：
+
 - **CN2 GIA路由**——优质的中国电信网络，对中国大陆的连接极为出色
 - **多系列VPS产品**：Tier 1（国际线路）、Eyeball系列（CMIN2优化）和Premium系列（CN2 GIA）
 - 高速带宽选项（根据套餐提供1-10Gbps）

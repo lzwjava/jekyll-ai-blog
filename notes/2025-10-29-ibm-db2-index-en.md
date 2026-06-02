@@ -15,6 +15,7 @@ type: note
 IBM DB2 uses **B+ trees** as the primary data structure for its indexes. This is a balanced tree variant optimized for disk-based storage and range queries, common in relational databases. B+ trees ensure efficient searches, insertions, and deletions with logarithmic time complexity (O(log n)), making them ideal for large datasets. Below, I'll break down the structure, key operations, and DB2-specific notes.
 
 #### B+ Tree Structure in DB2
+
 A B+ tree in DB2 is organized into a hierarchy of **pages** (also called nodes), each typically 4KB in size on disk. The tree is self-balancing, meaning all leaf nodes are at the same depth, and it grows or shrinks dynamically as data changes. Here's the breakdown:
 
 - **Root Page**: The entry point at the top of the tree. It contains sorted key values and pointers to child pages below it. For small indexes, the root may directly point to leaf pages.
@@ -36,6 +37,7 @@ The tree starts with at least 2 levels (root + leaves) and can grow to 3–5+ le
 Indexes are stored separately from tables in their own tablespace, consuming disk space proportional to the indexed data (e.g., a unique index on a 1M-row table might take ~10–20% of the table size).
 
 #### How Searching Works
+
 1. Start at the **root page** and load it into memory.
 2. Compare the search key (e.g., `WHERE id = 123`) to the sorted keys in the current page.
 3. Select the appropriate child pointer (e.g., if search key > current key, go right).
@@ -45,6 +47,7 @@ Indexes are stored separately from tables in their own tablespace, consuming dis
 This path compression keeps traversals shallow. For range queries, once at the starting leaf, follow sibling links to scan sequentially without jumping back up the tree.
 
 #### Insertion and Deletion
+
 - **Insertion**:
   1. Traverse to the correct leaf (as in search).
   2. Insert the new key + RID into the sorted leaf page.
@@ -59,6 +62,7 @@ This path compression keeps traversals shallow. For range queries, once at the s
 These operations maintain balance automatically, with minimal page splits/merges (~1% of operations).
 
 #### DB2-Specific Features
+
 - **Optimized B+ Trees** (in DB2 for z/OS): Enhanced for mainframe concurrency, with fractal prefetching to predict and preload pages, reducing I/O.
 - **Clustering**: Indexes can be "clustered" (data physically sorted by index order) for better range performance.
 - **Types**: Supports unique, composite (multi-column), and bitmap indexes, all B+ based. No native hash indexes.

@@ -61,6 +61,7 @@ Here's the comprehensive review:
 | **Build time** | ~2 minutes on 32 threads |
 
 **Important:** Your previous build `b1-25eec6f32` had **three confirmed bugs** affecting Gemma 4:
+
 1. SWA bool/uint32 type mismatch — wrong layer dimension calculations
 2. Context shift broken for Gemma 4 — forced full reprocess instead of sliding
 3. IQ3 CUDA kernel instability — gibberish/crashes
@@ -117,6 +118,7 @@ We're using **Q8_0** as the sweet spot.
 ```
 
 **What each flag means:**
+
 - `-ngl 25` — offload 25 of 31 layers to GPU (6 to CPU)
 - `-c 16384` — context window
 - `--cache-type-k q8_0` — quantize KV cache keys to Q8_0
@@ -137,6 +139,7 @@ We're using **Q8_0** as the sweet spot.
 | **Slots available** | 1 |
 
 Speed is lower than typical due to:
+
 - 6 layers running on CPU (memory bandwidth bottleneck)
 - IQ3_S quantization is heavier to decode than Q4
 - Large context = more compute per token
@@ -157,6 +160,7 @@ Speed is lower than typical due to:
 ### 10. Alternatives & Upgrades
 
 **For better stability:**
+
 ```bash
 # Download Q4_K_M variant instead (~13GB, more stable)
 proxychains huggingface-cli download unsloth/gemma-4-26B-A4B-it-GGUF \
@@ -164,10 +168,12 @@ proxychains huggingface-cli download unsloth/gemma-4-26B-A4B-it-GGUF \
 ```
 
 **For more VRAM headroom:**
+
 - Reduce `-ngl` to 23-24 → more compute buffer space
 - Use `--cache-type-k q4_0` → save another ~2GB KV cache VRAM
 
 **For longer context without OOM:**
+
 - Gemma 4's SWA architecture is designed for this — but 16K is likely the practical limit on 12GB VRAM with this quantization
 
 ---

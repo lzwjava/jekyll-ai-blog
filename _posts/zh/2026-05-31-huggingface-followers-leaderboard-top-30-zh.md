@@ -52,11 +52,13 @@ HuggingFace 用户关注数 TOP30
 ```
 
 我做了以下操作：
+
 - 在 `ww/hf/hf.py` 中添加了 `cmd_top30()` 函数——从 Weyaxi/followers-leaderboard 数据集（与 Space 相同的数据源）获取最新 CSV，解析后按关注者数量排序
 - 在 `ww/main.py` 中注册了 `top30` 子命令
 - 数据来源：HuggingFace Datasets API（无需认证，公开 CSV）
 
 从真实数据中得出的关键观察：
+
 - TheBloke 以约 27K 关注者遥遥领先——几乎是第二名 bartowski 的 2.5 倍
 - HuggingFace 员工：merve（第 4 名，10.2K）、ylecun（第 6 名，9K）——但值得注意的是 thomwolf/clem/osanseviero 均未进入前 30
 - teknium 以 7,307 名关注者位列第 11——证实了你之前关于他在 HuggingFace 上影响力强大的观点

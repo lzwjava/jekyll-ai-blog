@@ -17,6 +17,7 @@ type: note
 Let’s go through the concept of a **Deterministic Finite Automaton (DFA)** very slowly and step-by-step, almost as if we are building it together from scratch.
 
 ### Step 1: What are we trying to build?
+
 We want a machine that can read a string (for example "10110" or "hello123") and answer only one question:
 
 **Does this string belong to a certain language / pattern or not?**
@@ -24,6 +25,7 @@ Yes → accept
 No → reject
 
 And this machine should be very simple:
+
 - it has only a finite number of “memory locations” (called states)
 - it never goes back in the input (reads left to right once)
 - its behavior is completely predictable (no guessing, no luck)
@@ -65,6 +67,7 @@ Example DFA:
 Language = all binary strings that **end with 01**
 
 States:
+
 - q₀ = start / haven’t seen anything useful yet
 - q₁ = last symbol was 0
 - q₂ = last two symbols were 01  ← accepting state
@@ -155,6 +158,7 @@ All the “cannot” examples are **not regular** (they need more powerful machi
 ### Step 6: Quick visual analogy
 
 Think of a DFA as a subway map with:
+
 - Stations = states
 - Colored arrows = transitions labeled with symbols
 - You start at one particular station

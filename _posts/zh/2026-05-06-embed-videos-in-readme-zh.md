@@ -26,6 +26,7 @@ type: note
 使用 `https://github.com/user-attachments/assets/${UUID}` 格式的 URL 是有效的，但 `https://github.com/${user}/${repo}/raw/main/some/path/demo.mp4` 对于视频嵌入来说无效。
 
 **步骤：**
+
 1. 前往你的 GitHub 仓库 → 点击铅笔图标 ✏️ 编辑 `README.md`
 2. 将本地的 `tot.mp4` 文件拖拽到文本编辑器区域
 3. 等待上传完成——GitHub 会插入一行类似这样的内容：

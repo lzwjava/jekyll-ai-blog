@@ -15,20 +15,26 @@ To install and run an AppImage file on Ubuntu, follow these steps:
 
 2. **Make the File Executable**:
    - Open a terminal and navigate to the directory containing the AppImage:
+
      ```bash
      cd /path/to/directory
      ```
+
    - Change the file permissions to make it executable:
+
      ```bash
      chmod +x filename.AppImage
      ```
+
      Replace `filename.AppImage` with the actual name of your AppImage file.
 
 3. **Run the AppImage**:
    - Execute the AppImage by running:
+
      ```bash
      ./filename.AppImage
      ```
+
    - Alternatively, you can double-click the file in the file manager if it’s marked as executable.
 
 4. **Optional: Integrate with System**:
@@ -41,11 +47,14 @@ To install and run an AppImage file on Ubuntu, follow these steps:
    - To remove, simply delete the `.AppImage` file.
 
 **Notes**:
+
 - Ensure the AppImage is from a trusted source to avoid security risks.
 - If you encounter issues, check if dependencies like `libfuse2` are installed:
+
   ```bash
   sudo apt install libfuse2
   ```
+
 - No root privileges are typically needed to run an AppImage.
 
 If you have a specific AppImage or run into issues, let me know for tailored help!

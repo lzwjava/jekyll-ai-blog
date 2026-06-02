@@ -11,7 +11,7 @@ headers = {"Content-Type": "application/json"}
 data = {"contents": [{"parts": [{"text": "Explain how AI works"}]}]}
 
 try:
-    response = requests.post(url, headers=headers, data=json.dumps(data))
+    response = requests.post(url, headers=headers, data=json.dumps(data), timeout=30)
     response.raise_for_status()  # Raise an exception for bad status codes
 
     json_response = response.json()

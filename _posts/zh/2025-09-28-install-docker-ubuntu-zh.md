@@ -49,22 +49,26 @@ sudo apt install docker.io
 安装完成后，建议执行以下操作：
 
 1. **启动并启用 Docker 服务：**
+
 ```bash
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
 2. **将用户添加到 docker 用户组**（以便无需 sudo 即可运行 Docker）：
+
 ```bash
 sudo usermod -aG docker $USER
 ```
 
 随后请注销并重新登录，或执行：
+
 ```bash
 newgrp docker
 ```
 
 3. **验证安装：**
+
 ```bash
 docker --version
 docker run hello-world

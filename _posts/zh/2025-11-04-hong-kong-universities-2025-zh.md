@@ -25,6 +25,7 @@ type: note
 其他值得关注的院校包括香港浸会大学和香港教育大学，这两所大学均位列全球前200-300名。不同排名机构的方法论会略有差异（例如QS侧重雇主声誉，THE则更关注研究影响力）。
 
 更多详细信息可参考：
+
 - [泰晤士高等教育：2025年香港最佳大学](https://www.timeshighereducation.com/student/best-universities/best-universities-hong-kong)
 - [QS亚洲大学排名2025](https://www.topuniversities.com/asia-university-rankings)
 - [美国新闻：香港最佳全球大学](https://www.usnews.com/education/best-global-universities/hong-kong)

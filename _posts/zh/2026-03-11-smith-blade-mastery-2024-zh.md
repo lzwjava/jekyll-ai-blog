@@ -70,6 +70,7 @@ Gan & Mo 的技能升级优先顺序：技能 2 > 技能 1，优先伤害输出�
 ### 关键优势和劣势
 
 **优势：**
+
 - 远程高爆发伤害输出
 - 独特的双剑机制，通过 Sword Energy 叠加增加伤害
 - 团战中优秀的骚扰能力
@@ -86,10 +87,10 @@ Gan Jiang Moye 缺乏自我保护能力，使英雄容易被近战战士和刺�
 
 ## 参考资料
 
-- https://gaminggblog.com/honor-of-kings-gan-mo-build/
-- https://zathong.com/honor-of-kings-ganjiang-moye/
-- https://zathong.com/honor-of-kings-gan-mo/
-- https://hokbuild.com/hero/gan-mo/
-- https://honor-of-kings.fandom.com/wiki/Gan_%26_Mo
-- https://liquipedia.net/honorofkings/Gan_&_Mo
-- https://tvtropes.org/pmwiki/pmwiki.php/Characters/HonorOfKingsAndArenaOfValorMageHeroes
+- <https://gaminggblog.com/honor-of-kings-gan-mo-build/>
+- <https://zathong.com/honor-of-kings-ganjiang-moye/>
+- <https://zathong.com/honor-of-kings-gan-mo/>
+- <https://hokbuild.com/hero/gan-mo/>
+- <https://honor-of-kings.fandom.com/wiki/Gan_%26_Mo>
+- <https://liquipedia.net/honorofkings/Gan_&_Mo>
+- <https://tvtropes.org/pmwiki/pmwiki.php/Characters/HonorOfKingsAndArenaOfValorMageHeroes>

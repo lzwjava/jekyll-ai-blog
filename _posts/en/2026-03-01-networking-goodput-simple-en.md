@@ -16,6 +16,7 @@ type: note
 **Goodput** refers to the **actual useful data** successfully delivered to the application layer (or end user) per unit of time in a network connection.
 
 It measures only the **application payload data** that is:
+
 - Correctly received
 - In the right order
 - Without errors

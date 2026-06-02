@@ -47,6 +47,7 @@ self.transformer = nn.ModuleDict(dict(
 ```
 
 Forward:
+
 ```python
 tok_emb = self.transformer.wte(idx)           # [B, T, C]
 pos_emb = self.transformer.wpe(pos)           # [1, T, C]
@@ -128,6 +129,7 @@ class CausalSelfAttention(nn.Module):
 ```
 
 The math:
+
 ```
 Attention(Q, K, V) = softmax(QKᵀ / √d_k) · V
 ```
@@ -173,6 +175,7 @@ self.lm_head = nn.Linear(n_embd, vocab_size, bias=False)
 ```
 
 And crucially, **weight tying**:
+
 ```python
 self.transformer.wte.weight = self.lm_head.weight
 ```
@@ -258,6 +261,7 @@ Nothing is destroyed — information accumulates. This is why residual networks 
 Karpathy's best insight about transformers: **"Attention is communication, MLP is computation."** Attention lets tokens gather information from other positions in the sequence. MLP processes that gathered information independently per token. Stack these N times and you get a model that can build up increasingly abstract representations across layers.
 
 References:
+
 - [nanoGPT source — Karpathy](https://github.com/karpathy/nanoGPT/blob/master/model.py)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [Language Models are Unsupervised Multitask Learners (GPT-2)](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)

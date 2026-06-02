@@ -10,6 +10,7 @@ type: note
 ---
 
 The error `Cannot estimate time to full charge (sysfs files not found)` indicates that the script couldn't find the expected battery information files in `/sys/class/power_supply/BAT0/`. This can happen if:
+
 1. The battery is named something other than `BAT0` (e.g., `BAT1` or another name).
 2. The specific files (`charge_now`, `charge_full`, `current_now`) are not available or have different names on your Lenovo laptop.
 3. The user running the script lacks permission to access these files.
@@ -109,6 +110,7 @@ if __name__ == "__main__":
 ```
 
 ### Changes Made
+
 1. **Dynamic Battery Detection**:
    - Uses `glob.glob('/sys/class/power_supply/BAT*')` to find the battery directory (e.g., `BAT0`, `BAT1`) instead of hardcoding `BAT0`.
    - Returns the first battery found or `None` if no battery is detected.
@@ -125,7 +127,9 @@ if __name__ == "__main__":
    - Limits battery percentage to two decimal places (`{percent:.2f}`) for cleaner output.
 
 ### How to Use
+
 1. **Install `psutil` (if not already installed)**:
+
    ```bash
    sudo pip3 install psutil
    ```
@@ -135,38 +139,50 @@ if __name__ == "__main__":
 
 3. **Run the Script**:
    - Execute in a terminal:
+
      ```bash
      python3 battery_info.py
      ```
+
    - If you get a "permission denied" error, try running with elevated privileges:
+
      ```bash
      sudo python3 battery_info.py
      ```
 
 4. **Check Battery Path**:
    - To verify the battery name and available files, run:
+
      ```bash
      ls /sys/class/power_supply
      ```
+
      Then, check the contents of the battery directory (e.g., `BAT0` or `BAT1`):
+
      ```bash
      ls /sys/class/power_supply/BAT0
      ```
+
    - Look for files like `charge_now`, `charge_full`, `energy_now`, `energy_full`, or `current_now`. If they differ (e.g., `energy_full_design` instead of `charge_full`), the script should handle it, but let me know if you need further tweaks.
 
 ### Debugging Tips
+
 - If the script still reports "sysfs files not found," check the exact file names in `/sys/class/power_supply/BAT*`. Some Lenovo laptops may use non-standard names or have limited sysfs support.
 - If you see "permission denied," running with `sudo` should resolve it, but be cautious with elevated privileges.
 - If the battery is detected but no time estimate is provided, it could be due to `current_now` being zero (common when the system isn't actively reporting charging current). In this case, the script will fall back to indicating that no estimate is available.
 
 ### Example Output
+
 On your system (Lenovo XiaoXin-14-IAH8), you might see something like:
+
 ```
 Battery Percentage: 49.62%
 Status: Charging
 Estimated Time to Full Charge: 1 hours, 45 minutes
 ```
+
 Or, if files are still missing:
+
 ```
 Battery Percentage: 49.62%
 Status: Charging
@@ -174,11 +190,14 @@ Cannot estimate time to full charge (sysfs files not found in /sys/class/power_s
 ```
 
 ### If Issues Persist
+
 If the script still fails to find the sysfs files, please share the output of:
+
 ```bash
 ls -l /sys/class/power_supply
 ls -l /sys/class/power_supply/BAT*/*
 ```
+
 This will help identify the exact file names and permissions. I can then tailor the script further to match your system's configuration.
 
 [psutil Documentation](https://psutil.readthedocs.io/en/latest/)

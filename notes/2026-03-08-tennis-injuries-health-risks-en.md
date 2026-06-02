@@ -38,22 +38,27 @@ Acute injuries happen from a single traumatic event and cause almost immediate s
 Common tennis injuries include lateral epicondylitis (tennis elbow), rotator cuff and labral shoulder injuries, lumbar stress injuries, patellar tendinopathy, ankle sprains, and wrist injuries. The most frequent injuries in players are in the lower body, followed by the upper body and trunk.
 
 ### Tennis Elbow
+
 Lateral epicondylitis (tennis elbow) refers to inflammation of the tendons joining the forearm muscles to the outside of the elbow. It is often the result of overuse and is common among athletes who play tennis and other racquet sports.
 
 ### Shoulder Injuries
+
 Shoulder injuries are a common concern for tennis players, particularly those who engage in frequent overhead motions such as serving and hitting groundstrokes. Rotator cuff tendinitis occurs when the tendons of the rotator cuff muscles become inflamed or irritated due to overuse or repetitive stress, causing pain and weakness in the shoulder, particularly during overhead activities.
 
 A study of competitive junior tennis players found that 24% reported current or past shoulder pain, with prevalence rising to about 50% in older player populations.
 
 ### Back Pain & Stress Fractures
+
 Stress fractures are common in tennis because serves require a combination of hyperextension, side-bending, and rotation of the trunk. This motion puts stress on the lower back vertebrae and can eventually cause a fracture. Hard tennis courts result in a much greater impact on the body — clay and grass courts are much softer and reduce stress.
 
 According to a study of 148 professional tennis players, back pain forced 39% of players to withdraw from at least one tournament, and 29% reported chronic back pain.
 
 ### Knee Injuries
+
 The knees bear a significant amount of weight and force during running, stopping, and pivoting on the tennis court. Patellar tendinitis (jumper's knee) involves inflammation of the patellar tendon, resulting from repetitive jumping or landing activities. ACL injuries are also relatively common due to sudden stops, changes in direction, and pivoting motions.
 
 ### Ankle Sprains
+
 The dynamic nature of tennis, characterized by rapid acceleration, deceleration, and directional changes, places significant stress on the ankles. Ankle sprains can occur when the foot rolls inward or outward, causing the ligaments to stretch or tear.
 
 ---
@@ -75,6 +80,7 @@ Women are 4–6 times more likely to develop a non-contact ACL tear than men, du
 Most injuries can be minimized or prevented by proper conditioning, proper technique, appropriate equipment, and seeking medical attention to treat injuries early.
 
 To reduce injury risk, players should:
+
 - Warm up and cool down properly
 - Use correct technique and properly fitted rackets
 - Increase training load **gradually**, not suddenly

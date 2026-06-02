@@ -19,7 +19,7 @@ The main contents of Xi Jinping's Rule of Law Thought are embodied in the **"Ele
 
 ---
 
-### The Eleven Persistences in Full:
+### The Eleven Persistences in Full
 
 | # | Content |
 |---|---------|
@@ -37,7 +37,7 @@ The main contents of Xi Jinping's Rule of Law Thought are embodied in the **"Ele
 
 ---
 
-### Why the Other Options Are Wrong:
+### Why the Other Options Are Wrong
 
 - **A — 三个务必 (Three Must-Dos):** This belongs to the Party's self-governance requirements, not Rule of Law Thought.
 - **B — 六个必须坚持 (Six Must-Persistences):** This refers to the core principles of **Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era**, not specifically Rule of Law Thought.
@@ -45,5 +45,6 @@ The main contents of Xi Jinping's Rule of Law Thought are embodied in the **"Ele
 
 ---
 
-### Key Exam Tip:
+### Key Exam Tip
+>
 > The "Eleven Persistences" is the **core framework** of Xi Jinping's Rule of Law Thought, first systematically proposed at the **Central Conference on Comprehensively Governing the Country According to Law** in November 2020. It serves as the guiding ideology for China's rule of law construction in the new era.

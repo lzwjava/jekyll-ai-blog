@@ -15,9 +15,11 @@ type: note
 H2 是一款轻量级内存数据库，特别适合 Java 应用（尤其是 Spring Boot 项目）的单元测试和集成测试。它能让您快速运行测试而无需搭建外部数据库。以下指南假设您正在使用基于 JPA/Hibernate 的 Spring Boot 项目。若未使用 Spring，可通过原生 JDBC 使用 H2（文末附说明）。
 
 #### 第一步：添加 H2 依赖
+
 在 `pom.xml`（Maven）或 `build.gradle`（Gradle）中添加 H2 依赖，并将其作用域限定为 `test` 以避免混入生产环境。
 
 **Maven (`pom.xml`):**
+
 ```xml
 <dependency>
     <groupId>com.h2database</groupId>
@@ -27,6 +29,7 @@ H2 是一款轻量级内存数据库，特别适合 Java 应用（尤其是 Spri
 ```
 
 **Gradle (`build.gradle`):**
+
 ```gradle
 testImplementation 'com.h2database:h2'
 ```
@@ -34,9 +37,11 @@ testImplementation 'com.h2database:h2'
 此配置将仅限测试执行时加载 H2 JAR 包。
 
 #### 第二步：在测试配置中设置 H2
+
 创建或更新 `src/test/resources/application.properties`（或 `application-test.yml`）指向 H2 数据库，这将覆盖生产环境的数据源配置。
 
 **application.properties:**
+
 ```
 # H2 数据库配置
 spring.datasource.url=jdbc:h2:mem:testdb
@@ -60,6 +65,7 @@ spring.jpa.show-sql=true
 若使用多环境配置，请在测试类中添加 `@ActiveProfiles("test")` 注解激活配置。
 
 #### 第三步：编写 JUnit 测试
+
 使用 `@SpringBootTest` 进行全上下文测试，或使用 `@DataJpaTest` 进行仓储层专注测试。配合 `@Test` 注解并基于 JUnit 5（`@ExtendWith(SpringExtension.class)`）。
 
 **示例：测试 JPA 仓储**
@@ -103,9 +109,11 @@ public class UserRepositoryTest {
 通过 `mvn test` 或 IDE 测试运行器执行。每个测试都会使用全新的数据库实例。
 
 #### 第四步：进阶技巧
+
 - **Flyway/Liquibase 迁移**：若使用数据库版本管理，将迁移脚本置于 `src/test/resources` 目录下，H2 会自动执行
 - **真实环境模拟**：H2 虽兼容多数 SQL 方言，但与生产环境数据库（如 PostgreSQL）存在差异。如需高度一致，可考虑使用 Testcontainers 搭配真实数据库容器
 - **排除生产环境配置**：在 `pom.xml` 中使用配置环境排除真实数据库驱动：
+
   ```xml
   <profile>
       <id>test</id>
@@ -123,12 +131,16 @@ public class UserRepositoryTest {
       </dependencies>
   </profile>
   ```
+
 - **故障排查**：若测试误连生产数据库，请确认 `spring.profiles.active=test` 或使用 `@TestPropertySource` 注解
 
 #### 独立 JUnit 测试（无 Spring 框架）
+
 使用原生 JDBC 进行测试：
+
 1. 添加 H2 依赖（同上）
 2. 在测试类中：
+
 ```java
 import org.h2.jdbcx.JdbcDataSource;
 import org.junit.jupiter.api.Test;
@@ -151,6 +163,7 @@ public class StandaloneH2Test {
     }
 }
 ```
+
 此方案会为每个测试创建独立的内存数据库。
 
 更多细节请参考以下文献：

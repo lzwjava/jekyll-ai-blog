@@ -211,9 +211,10 @@ print_shape(training_results[0]) # (784, 1)
 print(list(training_data)[0:1]) # <class 'list'>
 ```
 
-As now Zhiwei just finished the loading data part, he will continue to use the same way of copying several lines and printing variables to learn the actual part of the neural network. You may follow the progress here, https://github.com/lzwjava/neural-networks-and-zhiwei-learning.
+As now Zhiwei just finished the loading data part, he will continue to use the same way of copying several lines and printing variables to learn the actual part of the neural network. You may follow the progress here, <https://github.com/lzwjava/neural-networks-and-zhiwei-learning>.
 
 I got stuck several times in the progress. Even though it seems very simple code, after one time by one time trying to understand it, I failed. And then I moved myself out of the current line of the code to look at it from a high level, to think about why the author writes that part of the code, then suddenly I got it. The code is below.
+
 ```python
 def load_data_wrapper():
     tr_d, va_d, te_d = load_data()

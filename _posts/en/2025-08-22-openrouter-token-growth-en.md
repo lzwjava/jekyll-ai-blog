@@ -9,9 +9,10 @@ translated: false
 type: note
 ---
 
-The rankings page on OpenRouter (https://openrouter.ai/rankings) provides insights into token usage across various AI models, providers, and applications, reflecting real-world adoption and usage trends. It showcases which models and apps are driving the most token consumption, offering a glimpse into the AI economy's dynamics. However, the specifics of *how tokens grow* in OpenRouter—interpreted as how token usage scales or increases—are not directly detailed on the rankings page but can be inferred from OpenRouter’s documentation and usage patterns.
+The rankings page on OpenRouter (<https://openrouter.ai/rankings>) provides insights into token usage across various AI models, providers, and applications, reflecting real-world adoption and usage trends. It showcases which models and apps are driving the most token consumption, offering a glimpse into the AI economy's dynamics. However, the specifics of *how tokens grow* in OpenRouter—interpreted as how token usage scales or increases—are not directly detailed on the rankings page but can be inferred from OpenRouter’s documentation and usage patterns.
 
 ### How Tokens Grow in OpenRouter
+
 Token growth in OpenRouter refers to the increasing consumption of tokens, which are units of text processed by AI models (e.g., characters, words, or punctuation) for input (prompt) and output (completion). The growth is driven by the platform’s structure, usage patterns, and the broader AI ecosystem. Here’s a breakdown based on available information:
 
 1. **Unified API and Model Access**:
@@ -46,12 +47,15 @@ Token growth in OpenRouter refers to the increasing consumption of tokens, which
    - Posts on platforms like Reddit highlight developers’ enthusiasm for OpenRouter’s ability to provide access to multiple models without rate limits, further driving usage.[](https://www.reddit.com/r/ChatGPTCoding/comments/1fdwegx/eli5_how_does_openrouter_work/)
 
 ### Key Insights from Rankings
+
 The rankings page (as of August 2025) shows:
+
 - **Top Providers**: Google (25.4%), Anthropic (22.6%), and DeepSeek (15.1%) lead in token share, indicating strong usage of their models (e.g., Gemini, Claude, DeepSeek V3).[](https://openrouter.ai/rankings)
 - **Top Apps**: Cline (49.2B tokens), Kilo Code (45B tokens), and Roo Code (25.5B tokens) dominate, reflecting heavy token usage in coding-related applications.[](https://openrouter.ai/rankings)
 - **Use Cases**: Programming, roleplay, and marketing are among the top categories driving token consumption, suggesting diverse applications contribute to growth.[](https://openrouter.ai/rankings)
 
 ### Factors Driving Token Growth
+
 - **Accessibility**: Free models and flexible pricing (pay-as-you-go, no markup on inference costs) lower barriers to entry, encouraging more developers to experiment and scale.[](https://www.jamiiforums.com/threads/ai-platform-evaluator-requesty-ai-vs-openrouter-ai.2333548/)
 - **Scalability**: Large context windows and high-throughput options (e.g., `:nitro`) support complex, token-heavy workflows.[](https://openrouter.ai/docs/features/provider-routing)[](https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/)
 - **Transparency**: Rankings and usage analytics guide developers to high-performing models, increasing adoption and token usage.[](https://openrouter.ai/docs/app-attribution)
@@ -59,19 +63,22 @@ The rankings page (as of August 2025) shows:
 - **Developer Ecosystem**: Integration into tools like VSCode and support for frameworks like Langchain.js make OpenRouter a hub for AI development, driving token consumption.[](https://menlovc.com/perspective/investing-in-openrouter-the-one-api-for-all-ai/)[](https://openrouter.ai/docs)
 
 ### Limitations and Considerations
+
 - **Cost**: Long sessions (e.g., roleplay) can become costly as context grows, especially with paid models. Developers must optimize prompts or use caching to manage costs.[](https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/)
 - **Rate Limits**: Free models have daily request limits (e.g., 50–1000 requests), which may cap token growth for some users unless they upgrade to paid plans.[](https://openrouter.ai/docs/api-reference/limits)
 - **Model Variability**: Tokenization varies by model (e.g., GPT vs. PaLM), affecting costs and usage patterns. Developers need to account for this when scaling.[](https://gist.github.com/rbiswasfc/f38ea50e1fa12058645e6077101d55bb)
 
 ### Conclusion
+
 Token growth on OpenRouter is driven by its unified API, diverse model offerings, transparent rankings, and support for high-volume applications like coding agents. The platform’s ability to route requests efficiently, offer free and paid models, and provide analytics fuels developer adoption, leading to exponential token usage (e.g., 100 trillion tokens/year). The rankings page reflects this growth by showcasing dominant providers and apps, with reasoning tokens and large context windows further amplifying consumption for complex tasks.
 
-For more details on pricing or API usage, visit https://openrouter.ai/docs or check the models page for per-token rates.[](https://openrouter.ai/docs/faq)
+For more details on pricing or API usage, visit <https://openrouter.ai/docs> or check the models page for per-token rates.[](https://openrouter.ai/docs/faq)
 
 **References**:
-- OpenRouter Documentation on Reasoning Tokens: https://openrouter.ai/docs[](https://openrouter.ai/docs/use-cases/reasoning-tokens)
-- OpenRouter FAQ: https://openrouter.ai/docs/faq[](https://openrouter.ai/docs/faq)
-- OpenRouter Rankings: https://openrouter.ai/rankings[](https://openrouter.ai/rankings)
-- Reddit Discussion on OpenRouter: https://www.reddit.com/r/SillyTavernAI/comments/1b3g7q/help_me_understand_context_and_token_price_on/[](https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/)
-- Menlo Ventures on OpenRouter: https://menlovc.com/perspectives/investing-in-openrouter-the-one-api-for-all-ai/[](https://menlovc.com/perspective/investing-in-openrouter-the-one-api-for-all-ai/)
-- OpenRouter API Reference: https://openrouter.ai/docs/api[](https://openrouter.ai/docs/api-reference/overview)
+
+- OpenRouter Documentation on Reasoning Tokens: <https://openrouter.ai/docs[>](<https://openrouter.ai/docs/use-cases/reasoning-tokens>)
+- OpenRouter FAQ: <https://openrouter.ai/docs/faq[>](<https://openrouter.ai/docs/faq>)
+- OpenRouter Rankings: <https://openrouter.ai/rankings[>](<https://openrouter.ai/rankings>)
+- Reddit Discussion on OpenRouter: <https://www.reddit.com/r/SillyTavernAI/comments/1b3g7q/help_me_understand_context_and_token_price_on/[>](<https://www.reddit.com/r/SillyTavernAI/comments/1jy5qwl/help_me_understand_context_and_token_price_on/>)
+- Menlo Ventures on OpenRouter: <https://menlovc.com/perspectives/investing-in-openrouter-the-one-api-for-all-ai/[>](<https://menlovc.com/perspective/investing-in-openrouter-the-one-api-for-all-ai/>)
+- OpenRouter API Reference: <https://openrouter.ai/docs/api[>](<https://openrouter.ai/docs/api-reference/overview>)

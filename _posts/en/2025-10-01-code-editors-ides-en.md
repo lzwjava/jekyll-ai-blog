@@ -13,6 +13,7 @@ type: note
 Popular general-purpose IDEs and code editors, similar to VS Code (extensible, lightweight, multi-language support) and Zed (fast, collaborative features), cater to a wide range of programming needs. Here's a curated list of some of the most popular ones based on recent discussions and rankings, focusing on those that are versatile, free (where applicable), and community-driven. They vary from lightweight editors to full IDEs with built-in debugging and project management.
 
 ### Top Picks
+
 1. **Visual Studio Code (VS Code)**
    Microsoft's free, open-source editor with thousands of extensions. Excellent for web development, Python, JavaScript, and more. Known for its performance, Git integration, and customizability.  [1] [2]
 
@@ -46,9 +47,9 @@ Popular general-purpose IDEs and code editors, similar to VS Code (extensible, l
 These tools are often chosen for their ecosystems: VS Code and Zed emphasize speed and extensions, while full IDEs like IntelliJ provide deeper debugging. Popularity varies by use case—e.g., Vim for minimalists, IntelliJ for Java-heavy projects. Refer to comparisons on sites like Stack Overflow or JetBrains docs for specifics on platforms and features. [1][2][3] Try them based on your language preferences and workflow needs! If you're looking for recommendations in a specific category (e.g., AI-powered or free-only), let me know.
 
 Citations:
-[1] https://dualite.dev/blog/best-code-editors
-[2] https://www.infoworld.com/article/3540474/two-good-visual-studio-code-alternatives.html
-[3] https://maxwellj.vivaldi.net/2025/04/03/code-editors-my-top-7-picks/
-[4] https://news.ycombinator.com/item?id=31669785
-[5] https://www.reddit.com/r/Fedora/comments/1ei33xb/is_there_a_code_editor_better_than_vscode_what/
-[6] https://dev.to/speratus/what-alternatives-to-vs-code-do-you-use-52a1
+[1] <https://dualite.dev/blog/best-code-editors>
+[2] <https://www.infoworld.com/article/3540474/two-good-visual-studio-code-alternatives.html>
+[3] <https://maxwellj.vivaldi.net/2025/04/03/code-editors-my-top-7-picks/>
+[4] <https://news.ycombinator.com/item?id=31669785>
+[5] <https://www.reddit.com/r/Fedora/comments/1ei33xb/is_there_a_code_editor_better_than_vscode_what/>
+[6] <https://dev.to/speratus/what-alternatives-to-vs-code-do-you-use-52a1>

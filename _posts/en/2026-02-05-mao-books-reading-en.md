@@ -25,6 +25,7 @@ Mao was an exceptionally prolific reader who:
 ## Favorite Categories and Works
 
 **Classical Chinese Literature:**
+
 - The *Twenty-Four Histories* (二十四史) - he read these multiple times
 - *Romance of the Three Kingdoms* (三国演义) - one of his absolute favorites
 - *Water Margin* (水浒传) - influenced his revolutionary thinking
@@ -32,6 +33,7 @@ Mao was an exceptionally prolific reader who:
 - *Dream of the Red Chamber* (红楼梦)
 
 **Philosophy and History:**
+
 - Works by Confucius, though he was also critical of Confucianism
 - Ancient military texts, especially Sun Tzu's *Art of War*
 - Historical biographies and accounts of dynastic changes

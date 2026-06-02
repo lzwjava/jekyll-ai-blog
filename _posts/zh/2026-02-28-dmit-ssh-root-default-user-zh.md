@@ -39,11 +39,14 @@ ssh -i id_rsa.pem root@your-server-ip
 ```
 
 ### 重要说明
+
 - DMIT 在启用 SSH 密钥访问或 provisioning 期间提供或让您下载私钥（通常命名为类似 `id_rsa.pem` 的名称）。
 - 确保私钥文件权限安全：
+
   ```bash
   chmod 400 id_rsa.pem
   ```
+
 - 如果您收到 **Permission denied (publickey)**：
   - 确认您使用的是 `root`（不是 `admin`、`user`、`ubuntu` 等）
   - 验证使用 `-i` 指定了正确的私钥文件

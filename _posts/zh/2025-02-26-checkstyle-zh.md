@@ -88,16 +88,20 @@ type: note
 
 - **显式运行 Checkstyle**：
   检查违规并可能使构建失败：
+
   ```
   mvn checkstyle:check
   ```
 
 - **在构建过程中运行**：
   插件默认绑定到 `verify` 阶段。使用：
+
   ```
   mvn verify
   ```
+
   生成报告但不使构建失败：
+
   ```
   mvn checkstyle:checkstyle
   ```
@@ -110,6 +114,7 @@ type: note
 
 - **遇到违规时失败**：
   默认检测到违规会使构建失败。禁用此功能：
+
   ```xml
   <configuration>
       <failOnViolation>false</failOnViolation>
@@ -118,6 +123,7 @@ type: note
 
 - **包含或排除文件**：
   控制被检查的文件范围：
+
   ```xml
   <configuration>
       <includes>**/*.java</includes>
@@ -127,6 +133,7 @@ type: note
 
 - **设置违规严重级别**：
   定义触发构建失败的严重级别：
+
   ```xml
   <configuration>
       <violationSeverity>warning</violationSeverity>
@@ -155,6 +162,7 @@ type: note
 ## 常见使用场景
 
 该插件支持多种检查，包括：
+
 - 类、方法和变量的命名规范
 - 空格和格式的正确使用
 - Javadoc 注释的存在性与正确性
@@ -169,6 +177,7 @@ type: note
 ## 总结
 
 **Maven Checkstyle 插件**是任何使用 Maven 的 Java 项目的宝贵补充。使用方法：
+
 1. 在 `pom.xml` 中添加并配置插件
 2. 提供包含所需规则的 `checkstyle.xml`
 3. 运行 `mvn checkstyle:check` 强制执行标准，或 `mvn checkstyle:checkstyle` 生成报告

@@ -21,7 +21,9 @@ def call_deepseek_api(prompt):
             "messages": [{"role": "user", "content": prompt}],
             "stream": False,
         }
-        response = requests.post(DEEPSEEK_API_URL, headers=headers, json=data)
+        response = requests.post(
+            DEEPSEEK_API_URL, headers=headers, json=data, timeout=30
+        )
         response.raise_for_status()
         response_json = response.json()
         if (

@@ -60,7 +60,7 @@ Example:
 
 ### 3. Developed vs developing countries (big picture difference)
 
-#### Developed countries:
+#### Developed countries
 
 * More **homogeneous range (16–19)**
 * Earlier independence, but also:
@@ -69,7 +69,7 @@ Example:
   * more contraception access
 * So teens may start earlier *on average*, but outcomes are safer
 
-#### Developing countries:
+#### Developing countries
 
 * Wider variation:
 

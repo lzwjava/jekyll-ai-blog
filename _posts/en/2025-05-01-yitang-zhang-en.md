@@ -36,24 +36,29 @@ Yitang Zhang is a remarkable figure in modern mathematics, known for his groundb
 ### **What We Can Learn from Yitang Zhang**
 
 #### 1. **Perseverance Pays Off**
-   - Zhang’s life shows that setbacks and delays do not define your future. He continued to pursue mathematics despite financial hardship, obscurity, and career roadblocks.
-   - His story reminds us that it's never too late to make a significant impact.
+
+- Zhang’s life shows that setbacks and delays do not define your future. He continued to pursue mathematics despite financial hardship, obscurity, and career roadblocks.
+- His story reminds us that it's never too late to make a significant impact.
 
 #### 2. **Passion Over Recognition**
-   - Zhang loved mathematics for its own sake—not for fame or prestige. Even during his "lost" years, he kept reading and thinking about math problems.
-   - True intellectual passion can sustain you through difficult times.
+
+- Zhang loved mathematics for its own sake—not for fame or prestige. Even during his "lost" years, he kept reading and thinking about math problems.
+- True intellectual passion can sustain you through difficult times.
 
 #### 3. **Quality Over Quantity**
-   - Before 2013, Zhang had published very few papers. Yet, with one single paper, he changed the course of number theory.
-   - This teaches us that deep, focused work—even if unrecognized at first—can lead to transformative discoveries.
+
+- Before 2013, Zhang had published very few papers. Yet, with one single paper, he changed the course of number theory.
+- This teaches us that deep, focused work—even if unrecognized at first—can lead to transformative discoveries.
 
 #### 4. **Stay Grounded and Humble**
-   - Despite his success, Zhang has remained humble and private. He is known for avoiding media attention and sticking to his quiet, thoughtful ways.
-   - Success doesn’t require ego; often, humility and discipline are better allies.
+
+- Despite his success, Zhang has remained humble and private. He is known for avoiding media attention and sticking to his quiet, thoughtful ways.
+- Success doesn’t require ego; often, humility and discipline are better allies.
 
 #### 5. **Believe in Your Potential**
-   - Zhang’s story is proof that brilliance can emerge from anywhere—even from someone without elite connections or early career success.
-   - You don’t need perfect conditions to produce great work.
+
+- Zhang’s story is proof that brilliance can emerge from anywhere—even from someone without elite connections or early career success.
+- You don’t need perfect conditions to produce great work.
 
 ---
 

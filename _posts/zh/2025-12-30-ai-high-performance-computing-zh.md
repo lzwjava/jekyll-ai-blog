@@ -10,11 +10,11 @@ translated: true
 type: note
 ---
 
-Question: 这个博客包含哪些内容？ (https://www.aleksagordic.com/blog)
+Question: 这个博客包含哪些内容？ (<https://www.aleksagordic.com/blog>)
 
 Answer:
 
-https://www.aleksagordic.com/blog 上的博客由 **Aleksa Gordić** 维护。他是一位曾任职于 DeepMind 和 Microsoft 的 research engineer，专注于 AI、machine learning 和 high-performance computing。该博客的标语是“计算机是可以被理解的”，旨在通过深入的技术解释使复杂的计算概念变得易于理解。
+<https://www.aleksagordic.com/blog> 上的博客由 **Aleksa Gordić** 维护。他是一位曾任职于 DeepMind 和 Microsoft 的 research engineer，专注于 AI、machine learning 和 high-performance computing。该博客的标语是“计算机是可以被理解的”，旨在通过深入的技术解释使复杂的计算概念变得易于理解。
 
 ### 主要主题
 

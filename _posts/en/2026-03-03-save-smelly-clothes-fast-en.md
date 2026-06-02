@@ -25,6 +25,7 @@ Yes, you can safely set the smelly clothes aside until tomorrow, but do it the r
 The bad smell comes mainly from bacteria and mold that thrive in damp, warm, low-oxygen conditions. Right now the clothes are not soaking wet anymore (after the dryer attempts), but they are still carrying odor compounds and likely have some residual moisture deep in thicker areas. Leaving them piled together overnight (especially in a closed space) gives bacteria more time to multiply and embed the smell deeper, which can make them harder to clean tomorrow. Spreading them out reduces that risk significantly.
 
 **Tomorrow morning plan (quick reminder):**
+
 - Rewash them as soon as possible with added white vinegar (or baking soda + detergent) to kill the mildew/bacteria.
 - Then dry thoroughly on a hot setting (L-2 hot or higher) in smaller loads.
 - The longer you delay washing, the stronger and more stubborn the smell can become, but one night (especially if aired out) usually won’t ruin your chances of getting them completely fresh again.

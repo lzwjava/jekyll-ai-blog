@@ -12,7 +12,7 @@ In Java, when you are working with a `ResultSet` (e.g., through `Statement.execu
 
 Here's a strategy you can use to count rows in a `ResultSet` without requiring a complete traversal of the result set. It uses the `scrollable` feature of the `ResultSet` and the ability to "go to the last row" and "get the row number".
 
-### Steps to count rows using a scrollable `ResultSet`:
+### Steps to count rows using a scrollable `ResultSet`
 
 1. **Create a scrollable ResultSet**: Make sure to use a `Statement` that can generate scrollable result sets by setting the appropriate cursor type.
 2. **Move to the last row**: The scrollable result set allows you to go to the last row using `last()`.
@@ -64,13 +64,13 @@ public class RowCountExample {
 }
 ```
 
-### Key Points:
+### Key Points
 
 * **Scrollable ResultSet**: We create a scrollable `ResultSet` using `ResultSet.TYPE_SCROLL_INSENSITIVE`. This type of result set allows you to move to the last row and get the row count.
 * **Row Count**: The `rs.getRow()` method returns the current row number when the cursor is positioned at the last row. This value is effectively the total number of rows in the result set.
 * **Fetch Size**: If the `fetchSize` is `0`, the driver fetches rows dynamically, but using a scrollable result set allows us to navigate the rows efficiently.
 
-### Best Practice:
+### Best Practice
 
 * **Memory Efficiency**: While scrollable result sets are useful for counting rows, be aware that they may consume more memory, as all rows need to be loaded into the memory. If you're working with a large dataset, consider using a different approach (like iterating over the result set without `last()` to count rows incrementally) if memory usage is a concern.
 * **Alternative Approach**: If memory is an issue and you only need the row count, you can execute a `SELECT COUNT(*)` query instead of retrieving the entire result set. This is often more efficient.

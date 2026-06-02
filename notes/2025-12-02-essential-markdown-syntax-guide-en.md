@@ -17,6 +17,7 @@ Answer:
 Markdown is a lightweight markup language that lets you format text easily. Here's a practical guide to the most commonly used syntax (works on GitHub, Reddit, Notion, Obsidian, etc.).
 
 ### Headings
+
 ```markdown
 # H1 - Largest heading
 ## H2
@@ -27,6 +28,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ```
 
 ### Text Styling
+
 ```markdown
 *italic* or _italic_
 **bold** or __bold__
@@ -38,6 +40,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ### Lists
 
 **Unordered lists**
+
 ```markdown
 - Item 1
 - Item 2
@@ -46,6 +49,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ```
 
 **Ordered lists**
+
 ```markdown
 1. First item
 2. Second item
@@ -54,6 +58,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ```
 
 ### Links & Images
+
 ```markdown
 [Link text](https://example.com)
 
@@ -65,6 +70,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ```
 
 ### Blockquotes
+
 ```markdown
 > This is a blockquote
 >
@@ -73,6 +79,7 @@ Markdown is a lightweight markup language that lets you format text easily. Here
 ```
 
 ### Code Blocks
+
 Inline: `` `code` ``
 
 Fenced code block (recommended):
@@ -91,6 +98,7 @@ Or without language:
     ```
 
 ### Horizontal Rule
+
 ```markdown
 ---
 ***
@@ -98,6 +106,7 @@ Or without language:
 ```
 
 ### Tables
+
 ```markdown
 | Header 1   | Header 2   | Header 3      |
 |------------|:----------:|--------------:|
@@ -106,6 +115,7 @@ Or without language:
 ```
 
 ### Task Lists (supported on GitHub, Notion, etc.)
+
 ```markdown
 - [x] Completed task
 - [ ] Incomplete task
@@ -113,7 +123,9 @@ Or without language:
 ```
 
 ### Escaping Characters
+
 To display a literal character that would otherwise be interpreted:
+
 ```markdown
 \*literal asterisks\*
 \`backtick\`
@@ -137,4 +149,5 @@ That's 95% of what most people use daily! Different platforms support slight var
 
 * [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 * [Markdown Guide by Matt Cone](https://www.markdownguide.org/basic-syntax/)
+
 ```

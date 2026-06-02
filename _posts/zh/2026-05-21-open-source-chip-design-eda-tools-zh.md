@@ -233,6 +233,7 @@ class PE extends Module {
 ```
 
 **MIAOW** 是 AMD GCN 指令集架构的开源 Verilog 实现——根本就是一个开源 GPU：
+
 ```bash
 git clone https://github.com/VerticalResearchGroup/miaow
 # AMD GCN 着色器核心的真实 Verilog 实现

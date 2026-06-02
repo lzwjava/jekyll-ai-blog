@@ -40,7 +40,8 @@ This format makes SOAP messages self-contained and transport-agnostic (e.g., ove
 
 Java has built-in support for SOAP via the **JAX-WS** (Java API for XML Web Services) and **SAAJ** (SOAP with Attachments API for Java) libraries, part of the JDK (no external dependencies needed for basics).
 
-#### Steps to Create and Send a SOAP Message:
+#### Steps to Create and Send a SOAP Message
+
 1. **Create a SOAP Message**: Use `javax.xml.soap` to build the envelope programmatically.
 2. **Add Content**: Populate the Body (and Header if needed).
 3. **Send via HTTP**: Use `HttpURLConnection` or a client like JAX-WS for full web service calls.

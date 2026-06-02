@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 GPT-3 由 OpenAI 于 2020 年发布，相较于 2019 年发布的 GPT-2 实现了巨大飞跃。虽然两个模型都基于相似的 Transformer 架构，但 GPT-3 的主要进步源于其庞大的参数规模和训练数据量，从而在自然语言理解、生成和任务适应方面展现出更卓越的性能。下面我将通过对比表格解析核心改进点，包括技术规格和质性提升。
 
 ### 核心规格对比
@@ -23,6 +24,7 @@ GPT-3 由 OpenAI 于 2020 年发布，相较于 2019 年发布的 GPT-2 实现�
 | **模型变体**      | 单一规模（1.5B）              | 多规格（如 175B 的 davinci）  | 提供从轻量级到全功率的弹性适配方案 |
 
 ### 质性提升
+
 - **连贯性与质量**：GPT-2 在处理复杂提示时常产生重复或无逻辑输出，而 GPT-3 生成的文本更具连贯性、创造性和语境相关性，使其能应用于写作助手、故事生成等实际场景。
 
 - **零样本与少样本学习**：GPT-2 需针对特定任务微调，GPT-3 凭借其规模优势擅长"提示工程"——仅需少量示例或无示例即可完成翻译、摘要、问答等任务。
@@ -34,6 +36,7 @@ GPT-3 由 OpenAI 于 2020 年发布，相较于 2019 年发布的 GPT-2 实现�
 这些突破使 GPT-3 成为 ChatGPT 等后续系统的基石模型，但其仍存在计算成本高昂等局限性。
 
 ### 参考文献
+
 - [GPT-2 与 GPT-3 有何区别？](https://www.reddit.com/r/learnmachinelearning/comments/mwduf8/what_is_the_difference_between_gpt2_and_gpt3_is/)
 - [GPT-2 对 GPT-3：OpenAI 的终极对决](https://www.exxactcorp.com/blog/Deep-Learning/gpt2-vs-gpt3-the-openai-showdown)
 - [GPT-2 与 GPT-3 深度解析](https://medium.com/@gianetan/gpt-2-vs-gpt-3-e915ac43e981)

@@ -28,7 +28,7 @@ If you use the more precise 1 MiB = 1,048,576 bytes:
 
 1,048,576 ÷ 1460 ≈ **718.47** → **719 segments**
 
-### Quick reference table (IPv4, no TCP/IP options, standard Ethernet):
+### Quick reference table (IPv4, no TCP/IP options, standard Ethernet)
 
 | Application data size | Approx. number of TCP segments (1460 B payload) |
 |-----------------------|-------------------------------------------------|
@@ -41,6 +41,7 @@ If you use the more precise 1 MiB = 1,048,576 bytes:
 | 1 GB                  | ~685,000                                        |
 
 Note: Real-world numbers can be slightly higher because:
+
 - TCP/IP headers sometimes have options (timestamps, SACK, etc.) → reduces payload to ~1448–1452 bytes
 - IPv6 has a 40-byte header instead of 20 → reduces payload further
 - Path MTU discovery or smaller interface MTU can lower it even more

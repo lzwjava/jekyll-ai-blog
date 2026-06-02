@@ -26,7 +26,7 @@ As a engineer, in my corporate life, I have observed that a lot of execellent en
 
 I don't like that my parents force me to do anything I don't want to. I already have a hard life. Why they still want me to do things I don't want to? Now, I earn a decent money a year to the standard of the big cities in China. I have confidence and boldness to judge. I know what is right and what is not. I clearly know what my actions will give the impacts to the world.
 
-Let's discuss about dropout again. Dropout without a colleage degree is usually not ok in China. However, dropout without a colleage degree in the USA is ok. OpenAI is now probably the best company in the world. You can check out their job requirements in their website. https://openai.com/careers. This is one of the job requirements about one job.
+Let's discuss about dropout again. Dropout without a colleage degree is usually not ok in China. However, dropout without a colleage degree in the USA is ok. OpenAI is now probably the best company in the world. You can check out their job requirements in their website. <https://openai.com/careers>. This is one of the job requirements about one job.
 
 * Have experience with ML systems, particularly high scale distributed inference for modern LLMs.
 

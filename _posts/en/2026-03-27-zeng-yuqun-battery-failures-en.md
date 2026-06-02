@@ -30,21 +30,25 @@ In a concise, ten-minute interview with Nicolai Tangen, CEO of the Norwegian pen
 ### Breaking Down Each Point
 
 #### 1. Wrong Design
+
 Zeng pointed out that a fundamental problem lies in the design of batteries produced by European companies. He emphasized that the wrong design is the initial pitfall, affecting everything from efficiency to effectiveness.
 
 The electrochemical system of batteries is highly complex, Zeng explained. Undesirable side reactions can occur, and changes happen within batteries after a certain lifespan. Without complete understanding, manufacturers will end up with faulty designs and subpar products.
 
 #### 2. Wrong Processes
+
 Zeng stated: "This is why performance and testing may look good on a certain day, but then when they want to scale, establish the process, the process never covers what is needed in the future."
 
 The processes used in production are termed as inadequate, leading manufacturers further away from creating a competitive product. When these manufacturers attempt to scale up operations, they encounter **utilization problems** followed by reliability issues — reflecting a disconnect between scaling ambitions and actual execution capabilities.
 
 #### 3. Wrong Equipment
+
 A telling anecdote emerged: at the end of 2018, a procurement officer from a European battery company visited a Chinese equipment supplier's factory, and was amazed to discover that Europe's battery manufacturing practices were still largely manual and had yet to embrace automated production lines — the complete reverse of what one would expect.
 
 ---
 
 ### Long-Term Safety Consequences
+
 According to Zeng, safety problems emerge several years after production begins, due to compounded earlier mistakes. This not only poses a risk for businesses but also undermines consumer trust and poses potential regulatory challenges across Europe.
 
 Zeng made perhaps his most damning statement when he said: "When I talk to many European battery maker CEOs, I see they cannot make a good product."

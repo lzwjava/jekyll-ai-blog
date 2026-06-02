@@ -25,6 +25,7 @@ Common examples of relationships considered incestuous in most countries and cul
 - First cousins (in many countries this is the boundary — some places forbid it, many allow it)
 
 ### Key points
+
 - The definition is both **biological** (blood relatives) and **legal/social** (some societies also include step-parents, step-siblings, adoptive relationships)
 - Almost all modern legal systems criminalize incest between parents/children and between siblings
 - First-cousin marriage is legal in many countries (including most of Europe, most of Asia, Canada, Australia, etc.), but illegal in some U.S. states and a few other places

@@ -23,6 +23,7 @@ Similar TP-Link models (e.g., XDR6088, XDR4288) with MediaTek Filogic SoCs (like
 Chinese forums (e.g., Right.com.cn/Enshan) have discussions about flashing OpenWrt on similar XDR series routers, but these usually involve hardware modifications like replacing flash memory (e.g., upgrading from 16MB to larger SPI-NAND), custom builds, or UART/serial access for recovery. No reliable, straightforward method exists for the XDR3050 EasyMesh variant without risking bricking the device.
 
 If you are considering OpenWrt for advanced features, custom firmware, or better control:
+
 - Check the official OpenWrt ToH for supported TP-Link models (many Archer series like C6, AX series work well via simple firmware upload).
 - For mesh needs, OpenWrt supports 802.11s or batman-adv, though it differs from TP-Link's proprietary EasyMesh implementation.
 - Newer MediaTek-based TP-Link routers often face bootloader restrictions, making porting difficult without developer effort.

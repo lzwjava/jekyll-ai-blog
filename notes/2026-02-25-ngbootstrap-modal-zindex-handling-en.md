@@ -151,6 +151,6 @@ In 95% of Angular applications using ng-bootstrap you will **never need to touch
 
 **References:**
 
-- https://ng-bootstrap.github.io/#/components/modal/examples
-- https://github.com/ng-bootstrap/ng-bootstrap/issues/2195
-- https://github.com/ng-bootstrap/ng-bootstrap/issues?q=is%3Aissue+z-index+modal
+- <https://ng-bootstrap.github.io/#/components/modal/examples>
+- <https://github.com/ng-bootstrap/ng-bootstrap/issues/2195>
+- <https://github.com/ng-bootstrap/ng-bootstrap/issues?q=is%3Aissue+z-index+modal>

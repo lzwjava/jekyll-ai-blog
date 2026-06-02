@@ -17,11 +17,14 @@ Answer:
 Yes, "unicast" in networking effectively means a "unique cast" or transmission to a single, unique recipient. It refers to **one-to-one communication**, where data packets are sent from one sender to exactly one specific receiver, identified by a unique network address (such as an IP address).
 
 ### Literal and Original Meaning
+
 The term "unicast" is a compound word formed from:
+
 - **Uni-**: A Latin prefix meaning "one" or "single" (as in "unique," "universe," or "uniform").
 - **Cast**: Derived from "broadcast," which originates from broadcasting in radio and television, meaning to "scatter" or "throw broadly" (from Old English roots related to spreading seeds).
 
 In computer networking, the "-cast" suffix was adopted analogously from broadcasting terminology:
+
 - **Broadcast**: Sending to all recipients (one-to-all).
 - **Multicast**: Sending to multiple specific recipients (one-to-many).
 - **Unicast**: Sending to one specific recipient (one-to-one).

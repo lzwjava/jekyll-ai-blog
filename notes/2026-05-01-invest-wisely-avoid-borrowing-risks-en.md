@@ -124,13 +124,13 @@ That’s closer to **speculation** than “value investing”.
 
 A more robust version of your idea:
 
-### ✔ Keep:
+### ✔ Keep
 
 * long-term mindset
 * regular investing habit
 * focus on compounding
 
-### ✖ Remove:
+### ✖ Remove
 
 * borrowing to invest
 * concentration in one stock

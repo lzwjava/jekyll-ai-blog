@@ -18,9 +18,11 @@ Answer:
 Here's what needs to happen end-to-end:
 
 ### Step 1 — Locate the video on this machine
+
 Find where `meeting_01 2.mp4` lives (likely `~/Downloads/` or similar).
 
 ### Step 2 — Transfer the video to the remote machine
+
 Use `scp` (or `rsync`) to copy it over your LAN:
 
 ```bash

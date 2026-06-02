@@ -21,7 +21,7 @@ You’re right that using the default **Clock app** repeatedly is annoying for t
 
 This is the simplest native solution most people overlook.
 
-### How to set it:
+### How to set it
 
 * Open Reminders → create a new reminder like “Check baby”
 * Tap **Details**
@@ -44,11 +44,11 @@ This is the simplest native solution most people overlook.
 
 This is the most powerful built-in method.
 
-### Idea:
+### Idea
 
 Create a **looping reminder system** using automation.
 
-### Approach:
+### Approach
 
 1. Open Shortcuts → Automation
 2. Create **Personal Automation**
@@ -74,7 +74,7 @@ Create a **looping reminder system** using automation.
 
 Using **Clock → Timer** is actually underrated:
 
-### Trick:
+### Trick
 
 * Set timer to **5 minutes**
 * When it rings → quickly tap **Repeat**
@@ -97,12 +97,12 @@ Cons:
 
 This is what you actually want.
 
-### Examples:
+### Examples
 
 * **MultiTimer**
 * **Interval Timer**
 
-### Why they are better:
+### Why they are better
 
 * True **repeat every 5 minutes**
 * Runs reliably in background

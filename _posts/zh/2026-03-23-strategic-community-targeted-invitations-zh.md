@@ -22,14 +22,17 @@ type: note
 你描述的方法遵循了广为人知的 **passive sourcing**（被动寻源）和 **warm outreach**（温情触达）模型。完整的工作流程如下：
 
 ### 第 1 步：先创建群组 / 社区
+
 - 在平台上建立你的群组（Facebook Group, LinkedIn Group, Discord, Slack, WhatsApp, Telegram 等）。
 - 明确定义其宗旨，这样你才有筛选成员的标准。
 - 在大规模邀请之前，建立基础框架（一些成员和初始内容）——一个空荡荡的群组通常缺乏吸引力。
 
 ### 第 2 步：观察人们的社交媒体活动
+
 Recruiters 和社区建设者现在有能力分析来自社交媒体平台和其他在线资源的 Data，从而根据行为洞察（behavioral insights）发现可能最符合目标的人群模式。
 
 具体观察什么：
+
 - **LinkedIn：** 有人发布了关于挑战、职业变动、新兴趣或正在开发的 Skill 的动态。
 - **Facebook：** 朋友分享了关于某个领域的挫折感、刚启动的新项目或正在寻求解答的问题。
 - **Twitter/X：** 有人参与了与你群组主题相关的话题。
@@ -66,6 +69,7 @@ Recruiters 和社区建设者现在有能力分析来自社交媒体平台和其
 AI 驱动的 sourcing 工具可以扫描跨平台的 profile 和简历，以找到符合你标准的候选人或社区潜在成员，即使他们并未主动寻找。预测分析（Predictive analytics）甚至可以预测谁更可能做出回应或即将改变现状。
 
 常用于此目的的工具包括：
+
 - **LinkedIn Sales Navigator / LinkedIn Recruiter** —— 过滤并监控个人资料更新。
 - **SeekOut** —— 聚合来自社交媒体和专业网络等多个来源的 Data，以提供潜在候选人或成员的全面视角。
 - **HireEZ** —— 监控来自多个平台的信号以把握触达时机。

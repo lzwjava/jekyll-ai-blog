@@ -26,6 +26,7 @@ ShellStarter::Direct(shell_starter) | ShellStarter::MSYS2(shell_starter) => {
 Direct 和 MSYS2 shell 均经过相同的 ConPTY 路径。ConPTY 通过 `CreatePseudoConsole` 创建伪控制台，然后使用 `CreateProcessW` 启动 bash 并关联到该控制台。
 
 从 `app/src/terminal/local_tty/shell.rs:690-694` 可见，MSYS2 bash 以如下参数启动：
+
 ```rust
 ShellType::Bash => {
     vec!["--noprofile".into(), "--norc".into()]
@@ -39,6 +40,7 @@ ShellType::Bash => {
 **1. 使用 `Git\usr\bin\bash.exe`（而非 `Git\bin\bash.exe`）**
 
 Warp 会自动规范化此路径（`warp_util/src/path.rs:524-533`）：
+
 ```rust
 pub fn canonicalize_git_bash_path(mut path: PathBuf) -> PathBuf {
     if !path.ends_with(Path::new("Git").join("bin").join("bash.exe")) {
@@ -53,12 +55,14 @@ pub fn canonicalize_git_bash_path(mut path: PathBuf) -> PathBuf {
 **2. 在启动 Warp 前设置 MSYS2 环境变量**
 
 在 Windows 系统环境变量中添加：
+
 ```
 MSYS=winsymlinks:nativestrict
 MSYS_NO_PATHCONV=1
 ```
 
 或创建批处理包装器：
+
 ```bat
 @echo off
 set MSYS=winsymlinks:nativestrict
@@ -69,6 +73,7 @@ start "" "C:\Users\%USERNAME%\AppData\Local\Programs\Warp\Warp.exe"
 **3. 对 MSYS2 禁用 ConPTY（如果 Git 版本支持）**
 
 Git Bash 内置了 MSYS2 的 mintty。可以通过以下命令使用 mintty 替代 ConPTY：
+
 ```
 "C:\Program Files\Git\git-bash.exe" --con-host
 ```
@@ -78,6 +83,7 @@ Git Bash 内置了 MSYS2 的 mintty。可以通过以下命令使用 mintty 替�
 **4. 该错误通常非致命**
 
 从引导脚本（`bash_init_shell.sh:9`）可见：
+
 ```bash
 if [[ "$OS" == Windows_NT ]]; then WARP_IN_MSYS2=true; fi
 ```
@@ -87,6 +93,7 @@ Warp 检测到 MSYS2 并调整其引导协议（使用 OSC 代替 DCS 进行钩�
 **5. 在 Warp MSYS2 会话中避免使用 fork 密集型命令**
 
 大量使用 fork() 的命令最容易触发该错误：
+
 - `make` / `autotools`
 - 大型仓库上的 `git` 操作
 - `python`（MSYS2 的 python，而非原生 Windows Python）

@@ -15,6 +15,7 @@ I'll help you understand how HashiCorp Vault's Jenkins JWT auth method can be us
 ## Overview of the Integration
 
 This integration typically involves:
+
 1. Jenkins authenticating to Vault using JWT tokens
 2. Vault granting access based on JWT claims
 3. Jenkins reading secrets (like Terraform variables) stored in Vault's KV engine
@@ -48,6 +49,7 @@ path "kv/data/terraform/*" {
 ```
 
 Apply the policy:
+
 ```bash
 vault policy write terraform-read terraform-read-policy.hcl
 ```

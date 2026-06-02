@@ -13,6 +13,7 @@ type: note
 A petaflop (or petaFLOPS, where FLOPS stands for floating-point operations per second) is a unit of measurement for computational performance, particularly in supercomputers and high-performance computing systems. It represents **one quadrillion (1,000,000,000,000,000 or 10^15) floating-point operations per second**.
 
 To put it in perspective:
+
 - It's 1,000 times more powerful than a teraflop (10^12 operations per second).
 - Supercomputers are often rated in petaflops; for example, the world's fastest systems as of 2025 exceed 1 exaflop (1,000 petaflops).
 

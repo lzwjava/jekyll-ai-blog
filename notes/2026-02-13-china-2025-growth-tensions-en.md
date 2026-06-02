@@ -17,27 +17,33 @@ type: note
 In 2025, China experienced a mix of economic resilience amid challenges, significant scientific and cultural achievements, major sporting events, natural disasters, ongoing military modernization and geopolitical tensions (particularly with the U.S. and Taiwan), and domestic political campaigns. The year was the final one of the 14th Five-Year Plan, with preparations for the 15th Five-Year Plan (2026–2030) focusing on high-tech industries, innovation, and economic restructuring.
 
 ### Economy and Trade
+
 - China's GDP grew by approximately **5.0%**, meeting the official target despite ongoing property sector weakness, deflationary pressures, weak domestic demand, and a historic investment slump (first decline in fixed-asset investment since the late 1980s).
 - Record trade surplus of nearly **$1.2 trillion** ($1.189 trillion), driven by strong exports to non-U.S. markets, even as U.S.-China trade tensions escalated under the second Trump administration with multiple tariff hikes (up to 54% or higher on Chinese goods in phases).
 - Clean energy sectors (solar, EVs, renewables) drove over a third of GDP growth and most investment increases, with CO₂ emissions flat or slightly declining for the year (extending a trend since 2024).
 - Continued focus on "Made in China 2025" goals, with breakthroughs in AI, biotech, and self-reliance in key technologies.
 
 ### Science, Technology, and Space
+
 - Major breakthroughs included successful launches of Shenzhou-20, Shenzhou-21, and Tianzhou-9 missions, the 600th Long March rocket launch, and the first asteroid sample-return mission (Tianwen-2).
 - Advances in AI, military technology (hypersonics, biotechnology), and other high-tech projects.
 
 ### Culture and Entertainment
+
 - Animated film **"Ne Zha 2"** became the highest-grossing animated movie worldwide, exceeding 15 billion yuan (~$2.14 billion) in global box office.
 
 ### Sports and Major Events
+
 - Hosted the **9th Asian Winter Games** in Harbin.
 - Hosted **The World Games** in Chengdu (August 7–17), topping the medal table with dominant performance.
 
 ### Disasters
+
 - Natural disasters (mainly floods, geological events, earthquakes, typhoons) caused direct economic losses of about **241.6 billion yuan (~$34.7 billion)**, affected ~67 million people, displaced 3.6 million, and resulted in 763 deaths or missing persons.
 - Notable early incidents: Magnitude 4.8 earthquake in Ningxia (Jan 2), market fire in Zhangjiakou killing 8 (Jan 4), and magnitude 7.1 earthquake in Tibet killing at least 126 (Jan 7).
 
 ### Politics and Military
+
 - Communist Party of China (CPC) launched a nationwide education campaign on improving conduct and discipline.
 - Continued military modernization toward 2027 goals, including pressure on Taiwan (intensified exercises and rhetoric omitting "peaceful unification"), corruption purges in the PLA, and focus on "national total war" capabilities against perceived U.S. threats.
 - Escalating U.S.-China trade war and diplomatic frictions (e.g., with Japan over Taiwan-related statements).

@@ -76,11 +76,11 @@ Otherwise:
 
 ## 2. Your idea: AI-generated V2EX-like forum
 
-### The idea:
+### The idea
 
 > AI forum that mass produces Q&A articles + discussions
 
-### Reality check (important):
+### Reality check (important)
 
 This is where many builders misunderstand SEO:
 
@@ -185,7 +185,7 @@ If I simplify:
 
 Instead of AI spam forum:
 
-### Better idea:
+### Better idea
 
 > “AI-assisted technical knowledge base + real user submissions”
 

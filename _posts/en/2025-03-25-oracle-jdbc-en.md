@@ -17,11 +17,13 @@ Here's how to use Oracle JDBC in a Java application:
 1. First, you need to include the Oracle JDBC driver JAR in your project (typically ojdbc.jar).
 
 2. Load the driver class:
+
 ```java
 Class.forName("oracle.jdbc.OracleDriver");
 ```
 
 3. Establish a connection using a connection URL:
+
 ```java
 String url = "jdbc:oracle:thin:@hostname:port:SID";
 // Or for service name based connection
@@ -33,6 +35,7 @@ Connection connection = DriverManager.getConnection(url, username, password);
 ```
 
 4. Create and execute statements:
+
 ```java
 Statement statement = connection.createStatement();
 ResultSet resultSet = statement.executeQuery("SELECT * FROM employees");
@@ -45,6 +48,7 @@ while (resultSet.next()) {
 ```
 
 5. Always close resources when done:
+
 ```java
 resultSet.close();
 statement.close();
@@ -52,6 +56,7 @@ connection.close();
 ```
 
 The Oracle JDBC driver comes in several types:
+
 - Thin driver: Pure Java implementation that doesn't require Oracle client installation
 - OCI driver: Uses Oracle Call Interface and requires Oracle client software
 - Kerberos driver: For Kerberos authentication

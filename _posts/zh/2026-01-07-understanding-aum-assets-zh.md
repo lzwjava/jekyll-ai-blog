@@ -16,7 +16,7 @@ Answer:
 
 **Assets Under Management (AUM)** 是金融领域的一个核心术语，指一家金融机构、投资公司、基金经理或投资组合经理代表客户控制并进行投资的所有金融资产（如股票、债券、现金或其他投资）的总市场价值。
 
-### Key Points:
+### Key Points
 
 - **Definition**: AUM 代表为客户管理的投资的当前市场价值，这些资产并非由管理者本人所有。
 - **Common Users**: 它适用于 mutual funds、hedge funds、private equity 机构、venture capital 机构、财富管理机构，甚至包括 decentralized finance (DeFi) 协议。

@@ -12,7 +12,7 @@ type: note
 
 以下是您分享的中文帖子的清晰说明：
 
-作者分享了一则有趣的消息：Graydon Hoare（Rust编程语言的原始创造者）今年在英属哥伦比亚大学（UBC）进行了一场关于编译器历史的演讲。在那次演讲中他提到了Chez Scheme编译器。遗憾的是该演讲未被录制，但感兴趣者可通过此处阅读Graydon对编译器历史的思考文章：https://thenewstack.io/rust-creator-graydon-hoare-recounts-the-history-of-compilers
+作者分享了一则有趣的消息：Graydon Hoare（Rust编程语言的原始创造者）今年在英属哥伦比亚大学（UBC）进行了一场关于编译器历史的演讲。在那次演讲中他提到了Chez Scheme编译器。遗憾的是该演讲未被录制，但感兴趣者可通过此处阅读Graydon对编译器历史的思考文章：<https://thenewstack.io/rust-creator-graydon-hoare-recounts-the-history-of-compilers>
 
 随后作者提出了个人观点：
 

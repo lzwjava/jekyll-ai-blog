@@ -17,6 +17,7 @@ Jaipur, the vibrant capital of Rajasthan, is one of India's most iconic cities, 
 The nickname "Pink City" originated in 1876 when the entire city was painted pink—a color symbolizing hospitality in Rajasthani culture—to welcome the visiting Prince of Wales (later King Edward VII). A law soon mandated that all buildings maintain this shade, giving Jaipur its enduring rosy glow. Today, with a population exceeding 3 million, it's a bustling metropolis where history meets modernity, famous for its handicrafts, jewelry, textiles, and lively bazaars.
 
 Jaipur's cultural tapestry is woven with royal legacies, including grand palaces, forts, and observatories. Key highlights include:
+
 - **Amber Fort (Amer Fort)**: A majestic hilltop complex with intricate mirror work and elephant rides.
 - **Hawa Mahal**: The "Palace of Winds," a five-story honeycomb facade built for royal women to observe street life.
 - **City Palace**: A royal residence-turned-museum housing artifacts, courtyards, and the Chandra Mahal.

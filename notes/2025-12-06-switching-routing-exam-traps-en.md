@@ -43,6 +43,7 @@ Here are several pieces of unpopular or easily overlooked knowledge about this s
 In short, treat this course as “budget Huawei HCIA-R&S with 15-year-old exam questions” rather than a generic networking course, and your pass chance will jump dramatically.
 
 References:
+
 - Guangdong Education Examination Authority historical pass-rate statistics (2020–2024)
 - Multiple candidate feedback posts on 广东自考论坛 and 233网校 community (2022–2025)
 - Comparison of 510201 past papers vs current HCIA-R&S v2.5 outline (personal analysis)

@@ -29,7 +29,8 @@ type: note
 
 **无明显入侵迹象**，但以下是发现的情况：
 
-### 正常现象：
+### 正常现象
+
 - 仅有一个用户账户（`lzwjava`）有实际登录记录——无未知用户
 - 无失败登录尝试记录
 - 无任何 SSH 登录尝试（若不使用 SSH 则为良好状态）
@@ -38,7 +39,8 @@ type: note
 - 无定时任务（cron jobs）
 - 所有运行进程均为可识别应用
 
-### 值得关注的事项（不一定是问题）：
+### 值得关注的事项（不一定是问题）
+
 1. **代理/VPN 工具**：已安装 ClashX Pro、ShadowsocksX-NG 和 V2RayU。这些在中国常用于突破 GFW，但开放的监听端口理论上可能存在配置错误
 2. **运行在 8081 端口的 nginx**：以用户 lzwjava 身份运行——请确认是否为有意设置
 3. **运行在 6379 端口的 Redis**：仅绑定到 localhost，因此无法从外部访问
@@ -47,7 +49,8 @@ type: note
 6. **mihomo**（基于 clash 的代理）作为活跃进程运行（PID 92432）
 7. **已安装 Multipass**（Canonical 虚拟机工具）和 **Docker** 守护进程助手
 
-### 若您有所顾虑，建议采取以下措施：
+### 若您有所顾虑，建议采取以下措施
+
 1. 在本地终端运行 `sudo log show --predicate 'eventMessage contains "authentication"' --last 24h` 查看所有认证事件
 2. 确认 8081 端口（nginx）是否为有意设置——如非必要，可通过 `brew services stop nginx` 停止
 3. 确保防火墙已启用：`sudo /usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate`

@@ -17,6 +17,7 @@ You're spot on with the observation about Hong Kong—those dense, high-rise blo
 ### Can We Have Easily Upgradable Houses in the Future?
 
 Absolutely, and it's already happening through **modular and prefab construction**. Imagine houses like Lego blocks: built off-site in factories, then assembled on location. This isn't sci-fi—it's a practical shift addressing exactly your point. Modular homes can be expanded piecemeal (add a room for a growing family without gutting the whole place), upgraded for energy efficiency, or even relocated. Benefits include:
+
 - **Faster builds**: 30-50% quicker than traditional methods, cutting costs by up to 20%.
 - **Easier upgrades**: Swap out modules for smart tech, solar panels, or better insulation without major disruption.
 - **Sustainability**: Less waste (up to 90% reduction) and adaptability to climate needs.
@@ -26,6 +27,7 @@ In places like HK, where space is premium, modular could stack into high-rises o
 ### Future Houses in the AI/Digital Era
 
 As we dive deeper into AI and digital living, houses won't just be shelters—they'll be **living systems**, intuitive and evolving like your MacBook. Picture this:
+
 - **AI as the brain**: Homes that learn your habits—adjusting lights, temps, and even grocery orders via voice or gesture. Generative AI could predict needs, like pre-heating dinner based on your calendar.
 - **Seamless connectivity**: IoT everywhere, from self-healing walls (sensors detecting leaks) to AR overlays for virtual redecorating. Edge computing and 5G make it lag-free and secure.
 - **Sustainability focus**: Net-zero energy with solar-integrated roofs, recycled materials, and AI-optimized usage to slash bills 40-60%.

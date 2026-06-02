@@ -16,6 +16,7 @@ type: note
 Microsoft's 2025 Annual Report covers the fiscal year ended June 30, 2025. It is available on the company's Investor Relations website and includes the Form 10-K filed with the SEC.
 
 In the Shareholder Letter from Satya Nadella (dated October 15, 2025), Microsoft describes fiscal year 2025 as a year of record performance driven by demand for its cloud and AI platform. Key financial highlights include:
+
 - Total revenue of $281.7 billion, up 15% from the prior year.
 - Operating income of $128.5 billion, up 17%.
 - Microsoft Cloud revenue reached $168.9 billion, up 23%.
@@ -24,6 +25,7 @@ In the Shareholder Letter from Satya Nadella (dated October 15, 2025), Microsoft
 The report emphasizes leadership in AI infrastructure, with new datacenters opened across six continents (over 400 datacenters in 70 regions). It highlights growth in Copilots and AI agents, with over 100 million monthly active users for the Copilot family. Updates include major enhancements to Microsoft 365 Copilot and the introduction of Agent Mode for iterative, multistep task orchestration.
 
 Segment performance (compared to fiscal 2024):
+
 - **Productivity and Business Processes**: Revenue up 13% ($14.0 billion increase), driven by Microsoft 365 Commercial (up 14%, cloud up 15%) with seat growth of 6%, Consumer subscribers reaching 89.0 million (up 8%), LinkedIn up 9%, and Dynamics up 15%.
 - **Intelligent Cloud**: Revenue up 21% ($18.8 billion increase), primarily from server products and cloud services (up 23%), led by Azure.
 - **More Personal Computing**: Revenue up 7%, with growth in Gaming and Search advertising, and modest increases in Windows and Devices.

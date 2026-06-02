@@ -10,15 +10,16 @@ translated: false
 type: note
 ---
 
-Question: What is the blog at https://testing.googleblog.com?
+Question: What is the blog at <https://testing.googleblog.com>?
 
 Answer:
 
-The blog at https://testing.googleblog.com is the **Google Testing Blog**, an official blog run by Google engineers focused on software testing, code quality, and best practices in software development.
+The blog at <https://testing.googleblog.com> is the **Google Testing Blog**, an official blog run by Google engineers focused on software testing, code quality, and best practices in software development.
 
 It shares practical insights, techniques, tools, and advice to improve testing strategies, code maintainability, reliability, and overall code health. Many posts are adapted from Google's internal "Testing on the Toilet" (TotT) series—short, educational episodes originally posted in office bathrooms to promote engineering best practices—which has since been renamed to "Tech on the Toilet" (TotT).
 
 Key topics include:
+
 - Testing strategies (e.g., unit tests, end-to-end tests, test flakiness)
 - Code organization and readability
 - Tools and patterns (e.g., functional core/imperative shell, sorting configuration lines)

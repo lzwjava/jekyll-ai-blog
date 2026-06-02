@@ -41,6 +41,7 @@ Here's what the data actually shows:
 ### So what's actually happening?
 
 The pattern isn't "quality vs cheap" — it's **fit-for-purpose**:
+
 - **Complex agentic coding** → Claude Opus/Sonnet (worth the price for professionals)
 - **High-volume or cost-sensitive tasks** → free Gemini, Nemotron, Xiaomi
 - **General chat** → DeepSeek, MiniMax

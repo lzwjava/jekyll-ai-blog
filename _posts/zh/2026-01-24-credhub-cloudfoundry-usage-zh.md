@@ -127,6 +127,7 @@ credhub delete -n /my-org/my-app/old-key
 | 最适用于 | 简单的非企业级设置 | 企业级、合规性要求 |
 
 咨询你的平台运维人员：
+
 - 你的 marketplace 中是否有 CredHub Service Broker 可用？
 - 正确的 service offering 名称是什么？
 - 直接使用 CLI 访问需要哪些 UAA client credentials 或 mTLS 设置？

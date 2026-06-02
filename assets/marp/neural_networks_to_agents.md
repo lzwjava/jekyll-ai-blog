@@ -68,7 +68,7 @@ style: |
 
 ## Zhiwei Li · AI Engineer
 
-lzwjava@gmail.com · github.com/lzwjava · lzwjava.github.io
+<lzwjava@gmail.com> · github.com/lzwjava · lzwjava.github.io
 
 ---
 
@@ -466,6 +466,7 @@ Think of it like a **search engine** inside the model:
 | **V** (Value) | What's my actual content? | Page content returned |
 
 For the word "it":
+
 - **Q** asks: "what noun am I referring to?"
 - **K** of "pizza" answers: "I'm a noun, a food, the subject"
 - **K** of "oven" answers: "I'm a noun, an appliance, inside a prepositional phrase"
@@ -497,11 +498,13 @@ GPT-2: `d=768`, `12 heads`, `d_k=64` per head. `12 × 64 = 768` — heads concat
 **Multi-head:** run attention **multiple times in parallel** (e.g., 12 heads in GPT-2).
 
 Each head can learn different relationships:
+
 - Head 1: syntactic (subject-verb)
 - Head 2: semantic (noun-pronoun)
 - Head 3: positional (nearby words)
 
 **One Transformer Block:**
+
 ```
 Input
   → Multi-Head Self-Attention + Residual Connection
@@ -518,10 +521,12 @@ GPT-2 small: **12 blocks** stacked. GPT-2 XL: **48 blocks**.
 # Training — Data, Loss, and Gradient Accumulation
 
 **Data:** next-token prediction on massive text corpora.
+
 - Input: `[The, pizza, came]` → Target: `[pizza, came, out]`
 - Loss: **cross-entropy** between predicted and actual next token
 
 **Gradient accumulation** simulates larger batch sizes on limited GPU memory:
+
 - Instead of 1 batch of 64, do 8 mini-batches of 8
 - Accumulate gradients, then update weights once
 - Same math, fits in GPU memory
@@ -544,6 +549,7 @@ Step 3:  "The meaning of life is to find" → "purpose"
 ```
 
 **Sampling strategies:**
+
 - **Greedy:** always pick the highest probability token
 - **Temperature:** lower = more deterministic, higher = more creative
 - **Top-k:** sample from top k candidates only
@@ -632,6 +638,7 @@ Each iteration was **21 seconds** on H200 — way too slow.
 - MFU reported >100% — artifact (nanoGPT's MFU baseline is A100, not H200)
 
 **Fix:**
+
 - `grad_accum: 64 → 4`, `batch_size: 16 → 256` (same effective batch, **16× fewer disk reads**)
 - Move `train.bin` to local NVMe scratch (`/mnt/scratch`)
 - Target after fix: **<1 sec/iter, >100k tokens/sec**
@@ -892,6 +899,7 @@ The next generation doesn't wait for permission to build.
 - Multilingual (TOEFL 108 around 15), self-directed, already shipping code
 
 **For senior engineers:**
+
 - The next generation picks up AI tools naturally — that's a good thing
 - Your edge is **domain depth, production judgment, and taste** — things that take years to build
 - AI amplifies that; it doesn't replace it
@@ -914,7 +922,7 @@ Agents, OpenClaw, Hermes, Claude Code, blog, CLI tools — anything from the who
 
 # Let's Connect
 
-**Email:** lzwjava@gmail.com
+**Email:** <lzwjava@gmail.com>
 **GitHub:** github.com/lzwjava
 **Blog:** lzwjava.github.io
 **WeChat:** lzwjava
@@ -959,6 +967,6 @@ Shuming Liang · Steve Chen · Raymond · Gaven
 
 # Thank You
 
-lzwjava@gmail.com · lzwjava.github.io
+<lzwjava@gmail.com> · lzwjava.github.io
 
 ---

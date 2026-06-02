@@ -17,29 +17,35 @@ Hot deployment (also known as hot reloading or hot swapping) is a development te
 The snippet you provided focuses on practical strategies for achieving faster iterations in WAS, emphasizing "exploded" WAR deployments and tools for enhanced hot swapping. I'll break this down step by step, explaining the concepts, how they work, their limitations, and implementation tips.
 
 #### 1. Deploying as an "Exploded" WAR (Unpacked Deployment)
+
 A WAR (Web Application Archive) file is essentially a zipped bundle containing your web application's resources: JSPs, servlets, Java classes, static files (HTML/CSS/JS), libraries (JARs), and configuration files (e.g., web.xml). By default, WARs are deployed as **packaged** (zipped) files, which WAS treats as immutable—any change requires repackaging and redeploying the entire archive.
 
 An **exploded WAR** refers to unpacking (unzipping) the WAR file into a directory structure before deployment. This allows individual files or subdirectories to be modified directly on the server's filesystem without touching the entire archive.
 
 **Why it enables faster iterations:**
+
 - **File-level updates:** You can edit a single JSP or Java class file, and WAS can detect and reload just that component.
 - **No repackaging:** Avoids the overhead of zipping/unzipping large WARs repeatedly.
 - **Synergy with hot reloading:** Makes it easier for the server to monitor and refresh changed files.
 
 **How to deploy an exploded WAR in WAS:**
+
 - **Using the Admin Console:**
   1. Log into the WAS Integrated Solutions Console (typically at `http://localhost:9060/ibm/console`).
   2. Navigate to **Applications > New Application > New Enterprise Application**.
   3. Instead of selecting a packaged WAR file, point to the root directory of your unpacked WAR (e.g., `/path/to/myapp.war/`—note the trailing slash to indicate it's a directory).
   4. Complete the deployment wizard, ensuring "Deploy Web services" and other options match your app.
 - **Using wsadmin (scripting tool):**
+
   ```bash
   wsadmin.sh -c "AdminApp.install('/path/to/myapp', '[ -MapWebModToVH [[myapp .* default_host.* virtual_host ]]]')"
   ```
+
   Replace `/path/to/myapp` with your exploded directory.
 - **Development servers (e.g., Liberty Profile):** For lighter testing, use Open Liberty (a WAS variant) with `server start` and place your exploded app in the `dropins` folder for automatic deployment.
 
 **Best practices:**
+
 - Use a source control tool (e.g., Git) to sync changes from your IDE to the exploded directory.
 - Monitor disk space, as exploded deployments consume more storage.
 - In production, stick to packaged WARs for security and consistency—hot deployment is mainly for dev/test.
@@ -47,9 +53,11 @@ An **exploded WAR** refers to unpacking (unzipping) the WAR file into a director
 Once deployed exploded, WAS's built-in mechanisms can kick in for partial hot reloading.
 
 #### 2. WAS's Built-in Hot-Reload Support
+
 WAS provides native support for hot reloading certain components without a full restart, but it's limited. This relies on the server's **file polling** mechanism, where WAS periodically scans the exploded deployment directory for changes (configurable via JVM args like `-DwasStatusCheckInterval=5` for 5-second checks).
 
 **What WAS supports out-of-the-box:**
+
 - **JSPs (JavaServer Pages):**
   - JSPs are dynamically compiled into servlets on first access. If you modify a JSP file in an exploded WAR, WAS can detect the change, recompile it, and reload the servlet.
   - **How it works:** Set `reloadInterval` in `ibm-web-ext.xmi` (under WEB-INF) to a low value (e.g., 1 second) for frequent checks. Or use the global setting in **Servers > Server Types > WebSphere application servers > [your_server] > Java and Process Management > Process definition > Java Virtual Machine > Custom properties** with `com.ibm.ws.webcontainer.invokefilterscompatibility=true`.
@@ -60,6 +68,7 @@ WAS provides native support for hot reloading certain components without a full 
   - This triggers a **module-level reload**, which is faster than a full app restart but still unloads/reloads the entire module (e.g., your web app).
 
 **Limitations of built-in support:**
+
 - **Not true hotswap:** Changes to core application logic (e.g., modifying a method in a running servlet class) won't take effect without unloading the old classloader. You might see `ClassNotFoundException` or stale code.
 - **State loss:** Sessions, singletons, or database connections may reset.
 - **IBM JDK specifics:** WAS often uses IBM's JDK, which has quirks with class reloading compared to OpenJDK/HotSpot.
@@ -69,9 +78,11 @@ WAS provides native support for hot reloading certain components without a full 
 For basic UI tweaks (JSP edits) or simple class updates, this is sufficient and free. But for "full hotswap"—where you can edit running code mid-execution without any reload—you need third-party tools.
 
 #### 3. Full Hotswap Solutions
+
 To achieve seamless code changes (e.g., editing a method body in a debugger-attached IDE like Eclipse or IntelliJ, and seeing it apply instantly), use plugins that patch the JVM's class loading and instrumentation.
 
 **Option 1: JRebel (Paid Plugin)**
+
 - **What it is:** A commercial tool from Perforce (formerly ZeroTurnaround) that provides comprehensive hotswap for Java apps. It instruments your bytecode at startup, allowing reloads of classes, resources, and even framework-specific changes (e.g., Spring beans, Hibernate entities).
 - **Why use it with WAS:**
   - Deep integration with WAS, including support for exploded WARs, OSGi bundles, and IBM JDK.
@@ -88,6 +99,7 @@ To achieve seamless code changes (e.g., editing a method body in a debugger-atta
 - **Cons:** Paid; requires setup per project.
 
 **Option 2: DCEVM + HotSwapAgent (Free Alternative)**
+
 - **What it is:** An open-source combo for advanced hotswapping.
   - **DCEVM (Dynamic Code Evolution VM):** A modified JVM that extends HotSpot's JVMTI (Java Virtual Machine Tool Interface) to allow more aggressive class redefinitions (e.g., adding/removing methods, changing hierarchies).
   - **HotSwapAgent:** An agent that builds on DCEVM, providing IDE integration for automatic class reloading.
@@ -117,6 +129,7 @@ To achieve seamless code changes (e.g., editing a method body in a debugger-atta
 - **Cons:** Setup is fiddly; potential instability with non-standard JVMs; limited to HotSpot (test IBM JDK switch carefully); not as polished as JRebel.
 
 #### When to Use What
+
 - **Exploded WAR + Built-in reload:** For quick JSP/static file tweaks in early dev.
 - **JRebel:** If budget allows and you need enterprise-grade reliability.
 - **DCEVM + HotSwapAgent:** For cost-free full hotswap, but allocate time for JVM compatibility testing.

@@ -22,6 +22,7 @@ https://dl.google.com/drive-file-stream/GoogleDrive.dmg
 ```
 
 Steps:
+
 1. Download the `.dmg`
 2. Open it
 3. Follow the installer

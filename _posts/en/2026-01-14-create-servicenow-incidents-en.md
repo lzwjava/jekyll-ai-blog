@@ -61,6 +61,7 @@ After submission, you'll usually receive a ticket number (e.g., INC0012345) and 
 - **Via API / Integration** — for monitoring tools (e.g., Splunk, SolarWinds, PagerDuty), alerts automatically create incidents.
 
 **Tips for faster resolution:**
+
 - Provide **clear reproduction steps**, business impact, and screenshots.
 - Choose the **correct category** so it routes to the right team.
 - Use **self-service knowledge articles** first — many companies require searching KB before creating an incident.

@@ -16,7 +16,7 @@ type: note
 
 1949年中华人民共和国（新中国）成立后，**the main source of the state-owned economy was the confiscation of bureaucratic capital**（国营经济的主要来源是没收官僚资本）。
 
-### 释义：
+### 释义
 
 - **新中国诞生后** = After the birth / founding of New China（指1949年10月1日中华人民共和国正式成立后）。
 - **国营经济** = State-owned economy / state sector / 由政府拥有并运营的经济（当时也称为“state-run economy”或“socialist state economy”）。

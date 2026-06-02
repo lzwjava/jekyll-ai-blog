@@ -17,9 +17,9 @@ The source code for this project is available at [https://github.com/lzwjava/lzw
 
 Key considerations for this Flutter project include:
 
-*   **Development Environment:** Ensure both Android Studio and Xcode are installed for cross-platform development.
-*   **Testing:** Connect physical or virtual devices to thoroughly test the application on different platforms.
-*   **Prior Experience:** Familiarity with iOS and Android development principles will be beneficial.
+* **Development Environment:** Ensure both Android Studio and Xcode are installed for cross-platform development.
+* **Testing:** Connect physical or virtual devices to thoroughly test the application on different platforms.
+* **Prior Experience:** Familiarity with iOS and Android development principles will be beneficial.
 
 File directories:
 

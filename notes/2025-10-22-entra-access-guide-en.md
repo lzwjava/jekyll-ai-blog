@@ -13,6 +13,7 @@ type: note
 Microsoft Entra ID is a cloud-based identity and access management service that helps secure access to resources like applications, data, and devices. It supports authentication (e.g., sign-in methods, MFA), authorization (e.g., role-based access), and integration with Azure services. To get started, you'll need an Azure subscription and appropriate permissions (e.g., Global Administrator role).
 
 ## Getting Started
+
 1. **Sign in to the Azure Portal**: Go to [portal.azure.com](https://portal.azure.com) and sign in with your Microsoft account.
 2. **Navigate to Microsoft Entra ID**: Search for "Microsoft Entra ID" in the top search bar or find it under "Azure services."
 3. **Explore the Dashboard**: Review your tenant overview, including users, groups, and apps. Set up basics like custom domains if needed.
@@ -21,12 +22,14 @@ Microsoft Entra ID is a cloud-based identity and access management service that 
    - **Conditional Access**: Create policies under "Security" > "Conditional Access" to enforce rules based on user, device, or location.
 
 ## Managing Users and Groups
-- **Add Users**: Go to "Users" > "New user." Enter details like name, username (e.g., user@yourdomain.com), and assign roles or licenses.
+
+- **Add Users**: Go to "Users" > "New user." Enter details like name, username (e.g., <user@yourdomain.com>), and assign roles or licenses.
 - **Create Groups**: Under "Groups" > "New group," choose security or Microsoft 365 type, add members, and use for access assignments.
 - **Assign Licenses**: In user/group details, go to "Licenses" to assign Entra ID P1/P2 for advanced features like Privileged Identity Management (PIM).
 - **Best Practice**: Follow the principle of least privilege—assign minimal permissions and use groups for bulk management.
 
 ## Managing Applications
+
 - **Register an App**: Under "App registrations" > "New registration," provide name, redirect URIs, and supported account types (single-tenant, multi-tenant, etc.).
 - **Add Enterprise Apps**: For third-party apps, go to "Enterprise applications" > "New application" to browse the gallery or create non-gallery apps.
 - **Configure Access**: Assign users/groups to the app under "Users and groups," and set up single sign-on (SSO) via SAML or OAuth.
@@ -39,6 +42,7 @@ For hybrid setups (on-premises AD), use Microsoft Entra Connect to sync identiti
 Access in Azure is managed via Role-Based Access Control (RBAC), integrated with Entra ID. Users authenticate with Entra credentials, and roles define permissions. To check access, use the Azure portal's IAM (Identity and Access Management) tools. This lists direct assignments, inherited from parent scopes (e.g., subscription), and deny assignments.
 
 ## General Steps for Any Azure Resource
+
 1. **Open the Resource**: In the Azure portal, navigate to the resource (e.g., resource group, VM, storage account).
 2. **Go to Access Control (IAM)**: Select "Access control (IAM)" from the left menu.
 3. **Check Access**:
@@ -54,7 +58,9 @@ Access in Azure is managed via Role-Based Access Control (RBAC), integrated with
 Note: This doesn't include child-scope assignments; drill down if needed.
 
 ## Checking Access to Azure SQL Database
+
 Azure SQL uses Entra authentication for contained database users (tied to Entra identities, not SQL logins).
+
 1. **Configure Entra Admin (if not set)**: In the SQL server overview > "Microsoft Entra ID" under Settings > "Set admin." Search and select a user/group, then save. This enables Entra auth cluster-wide.
 2. **Check Server-Level Access**:
    - In the SQL server pane > "Microsoft Entra ID," view the admin field to see the assigned identity.
@@ -67,7 +73,9 @@ Azure SQL uses Entra authentication for contained database users (tied to Entra 
 Users get `CONNECT` by default; grant roles like `db_datareader` via T-SQL: `ALTER ROLE db_datareader ADD MEMBER [user@domain.com];`.
 
 ## Checking Access to AKS (Kubernetes Cluster)
+
 AKS integrates Entra ID for auth and uses Azure RBAC or Kubernetes RBAC for authorization.
+
 1. **Azure-Level Access (to AKS Resource)**:
    - Follow general steps above on the AKS cluster resource.
    - Common roles: "Azure Kubernetes Service Cluster Admin" for full kubeconfig access; "Reader" for view-only.
@@ -77,6 +85,7 @@ AKS integrates Entra ID for auth and uses Azure RBAC or Kubernetes RBAC for auth
    - Check bindings: `kubectl auth can-i <verb> <resource> --as <user@domain.com> -n <namespace>`.
    - List cluster roles: `kubectl get clusterrolebindings | grep <user-or-group>`.
 3. **Using Entra Groups**: Assign Kubernetes Roles/Bindings to groups for scalability. Example YAML for a namespace role (apply with `kubectl apply -f file.yaml`):
+
    ```
    apiVersion: rbac.authorization.k8s.io/v1
    kind: RoleBinding
@@ -92,6 +101,7 @@ AKS integrates Entra ID for auth and uses Azure RBAC or Kubernetes RBAC for auth
      name: example-role
      apiGroup: rbac.authorization.k8s.io
    ```
+
 4. **Best Practices**: Use least-privilege roles, integrate with PIM for just-in-time elevation, and avoid fixed credentials—use workload identities for pods.
 
 For pods accessing resources (e.g., SQL from AKS), assign managed identities and check via Azure RBAC on those identities.

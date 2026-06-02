@@ -13,6 +13,7 @@ type: note
 Tool use, often referred to as "tool calling" or "function calling," is a feature in AI APIs that allows large language models (LLMs) to interact with external tools, functions, or APIs. Instead of generating responses solely based on their internal knowledge, the model can decide to call predefined functions to fetch real-time data, perform calculations, or execute actions. This makes the AI more dynamic and useful for tasks like querying weather, searching databases, or integrating with other services.
 
 The process typically works like this:
+
 - You define tools (functions) with descriptions and parameters in JSON format.
 - The model analyzes the user's query and, if needed, outputs a "tool call" with the function name and arguments.
 - Your application executes the function and feeds the result back to the model.
@@ -41,9 +42,11 @@ Ultimately, neither is strictly "better" for tool use—they both work well. Dee
 To use tool calling, you'll need an API key from the respective provider (sign up at mistral.ai for Mistral or platform.deepseek.com for DeepSeek). Both use Python SDKs similar to OpenAI's. Below are step-by-step examples for a simple weather query tool.
 
 #### Using Tool Use with Mistral AI
+
 Mistral's API supports tool calling via their `MistralClient` in chat completions. Install the SDK with `pip install mistralai`.
 
 **Example Python Code** (adapted from official and community sources):
+
 ```python
 from mistralai import Mistral
 
@@ -111,9 +114,11 @@ else:
 This code sends a query, checks for a tool call, executes it (simulated here), and gets the final answer. For agent-based setups, use Mistral's beta agents API for more complex workflows.
 
 #### Using Tool Use with DeepSeek AI
+
 DeepSeek's API is OpenAI-compatible, so you can use the OpenAI Python SDK. Install with `pip install openai`.
 
 **Example Python Code** (from official docs):
+
 ```python
 from openai import OpenAI
 
@@ -175,6 +180,7 @@ This follows the same flow: query → tool call → execute → final response. 
 For advanced usage, check rate limits, costs, and model-specific docs. Test in a sandbox to handle errors like invalid parameters.
 
 ### References
+
 - [Mistral AI Function Calling Documentation](https://docs.mistral.ai/agents/function_calling/)
 - [DeepSeek API Function Calling Guide](https://api-docs.deepseek.com/guides/function_calling)
 - [Mistral AI Function Calling Example with Code](https://medium.com/@jcrsch/mistral-ai-function-calling-a-simple-example-with-code-72f3a762550f)

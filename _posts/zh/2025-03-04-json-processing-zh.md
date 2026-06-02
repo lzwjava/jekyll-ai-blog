@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 1. 将 Jackson 依赖项添加到项目
+
 要使用 `com.fasterxml.jackson` 包，您需要在项目中包含 Jackson 库。如果使用 Maven，请将以下依赖项添加到 `pom.xml` 文件中：
 
 ```xml
@@ -31,6 +32,7 @@ type: note
 ---
 
 ### 2. 创建 `ObjectMapper` 实例
+
 `com.fasterxml.jackson.databind` 包中的 `ObjectMapper` 类是进行 JSON 操作的主要工具。它是线程安全的，且实例化资源消耗较大，因此最好创建单个可重用的实例：
 
 ```java
@@ -46,9 +48,11 @@ public class JsonExample {
 ---
 
 ### 3. 将 Java 对象转换为 JSON（序列化）
+
 要将 Java 对象转换为 JSON 字符串，请使用 `writeValueAsString` 方法。以下是一个示例：
 
 #### 定义 Java 类
+
 创建一个包含要序列化字段的类。确保它具有 getter 和 setter 方法，因为 Jackson 默认使用这些方法来访问私有字段：
 
 ```java
@@ -80,6 +84,7 @@ public class MyClass {
 ```
 
 #### 序列化为 JSON
+
 使用 `ObjectMapper` 将对象转换为 JSON：
 
 ```java
@@ -97,6 +102,7 @@ public class JsonExample {
 ```
 
 **输出**：
+
 ```json
 {"field1":"value1","field2":123}
 ```
@@ -104,6 +110,7 @@ public class JsonExample {
 ---
 
 ### 4. 将 JSON 转换为 Java 对象（反序列化）
+
 要将 JSON 字符串转换回 Java 对象，请使用 `readValue` 方法：
 
 ```java
@@ -133,9 +140,11 @@ try {
 ---
 
 ### 5. 使用注解自定义 JSON 处理
+
 Jackson 提供注解来自定义字段的序列化或反序列化方式。将 `com.fasterxml.jackson.annotation` 中的这些注解添加到您的类中：
 
 #### 重命名字段
+
 使用 `@JsonProperty` 将 Java 字段映射到不同的 JSON 字段名称：
 
 ```java
@@ -150,11 +159,13 @@ public class MyClass {
 ```
 
 **输出**：
+
 ```json
 {"name":"value1","field2":123}
 ```
 
 #### 忽略字段
+
 使用 `@JsonIgnore` 在序列化中排除字段：
 
 ```java
@@ -169,11 +180,13 @@ public class MyClass {
 ```
 
 **输出**：
+
 ```json
 {"field1":"value1"}
 ```
 
 #### 格式化日期
+
 使用 `@JsonFormat` 指定日期的序列化方式：
 
 ```java
@@ -189,6 +202,7 @@ public class MyClass {
 ```
 
 **输出**（示例）：
+
 ```json
 {"field1":"value1","date":"2023-10-25"}
 ```
@@ -196,9 +210,11 @@ public class MyClass {
 ---
 
 ### 6. 处理高级场景
+
 以下是一些您可能觉得有用的附加功能：
 
 #### 美化 JSON 输出
+
 为了可读的 JSON 输出，使用 `writerWithDefaultPrettyPrinter`：
 
 ```java
@@ -206,6 +222,7 @@ String prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(o
 ```
 
 **输出**：
+
 ```json
 {
   "field1" : "value1",
@@ -214,6 +231,7 @@ String prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(o
 ```
 
 #### 忽略未知属性
+
 如果 JSON 包含 Java 类中不存在的字段，配置 `ObjectMapper` 忽略它们：
 
 ```java
@@ -221,6 +239,7 @@ mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 ```
 
 #### 处理文件
+
 从文件读取或写入文件：
 
 ```java
@@ -232,6 +251,7 @@ MyClass obj = mapper.readValue(new File("input.json"), MyClass.class);
 ```
 
 #### 处理列表或泛型
+
 对于集合，使用 `TypeReference` 保留泛型类型信息：
 
 ```java
@@ -244,6 +264,7 @@ List<MyClass> list = mapper.readValue(json, new TypeReference<List<MyClass>>() {
 ---
 
 ### 7. 使用 `JsonNode` 进行动态 JSON 操作
+
 如果不想将 JSON 映射到特定类，可以使用 `JsonNode` 进行基于树的操作：
 
 ```java
@@ -267,7 +288,9 @@ String json = mapper.writeValueAsString(node);
 ---
 
 ### 总结
+
 要使用 `com.fasterxml.jackson` 包：
+
 1. 将 `jackson-databind` 依赖项添加到 `pom.xml`。
 2. 创建单个 `ObjectMapper` 实例以供重用。
 3. 使用 `writeValueAsString` 将 Java 对象转换为 JSON，使用 `readValue` 将 JSON 转换为 Java 对象。

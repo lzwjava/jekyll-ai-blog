@@ -18,11 +18,13 @@ type: note
 ## 核心模式：异步解耦
 
 无队列（同步）：
+
 ```
 生产者 → [等待...........] → 消费者完成 → 生产者获取结果
 ```
 
 有队列（异步）：
+
 ```
 生产者 → 入队(任务) → 立即获取 task_id → 离开
                                     ↓
@@ -39,13 +41,16 @@ type: note
 ## 三种子模式
 
 ### 1. 发送后不管（无需结果）
+
 ```python
 queue.publish("send_email", {"to": "user@x.com", "body": "..."})
 # 完成，不关心结果
 ```
+
 用于：通知、日志、分析事件、Webhooks。
 
 ### 2. 带状态轮询的异步
+
 ```python
 task_id = queue.publish("video_transcode", {"file": "input.mp4"})
 # 立即将 task_id 返回给最终用户
@@ -55,6 +60,7 @@ GET /tasks/{task_id}/status
 → {"status": "processing", "progress": 42}
 → {"status": "done", "result_url": "s3://..."}
 ```
+
 这就是 Celery + Redis 的做法。任务元数据以 task_id 为键存储在 Redis 中。
 
 ```python
@@ -69,6 +75,7 @@ result.result  # 完成后的返回值
 ```
 
 ### 3. 回调 / Webhook（推模式而非轮询）
+
 ```python
 queue.publish("ml_inference", {
     "input": data,
@@ -76,6 +83,7 @@ queue.publish("ml_inference", {
 })
 # 消费者完成时调用 callback_url
 ```
+
 完全避免轮询。用于支付处理器、Stripe Webhooks 等场景。
 
 ## 为何这对分布式系统很重要

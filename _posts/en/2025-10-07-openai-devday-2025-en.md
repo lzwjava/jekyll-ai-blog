@@ -14,7 +14,8 @@ type: note
 
 OpenAI's DevDay 2025 event took place on October 6 in San Francisco, focusing on empowering developers with new tools, models, and integrations to build faster and scale AI applications. CEO Sam Altman kicked off the keynote, emphasizing advancements in coding, agents, and multimodal AI. The event featured announcements around precision models, cost-efficient options, and developer kits, with guest insights from Jony Ive on AI's rapid evolution.
 
-#### Key Announcements and Releases:
+#### Key Announcements and Releases
+
 - **Apps in ChatGPT**: Developers can now build and integrate native apps directly into ChatGPT for seamless user interactions. The Apps SDK is available in preview.
 - **AgentKit**: A new toolkit for creating reliable, production-grade AI agents, including a visual Agent Builder for easier prototyping.
 - **Sora 2 in the API**: The latest video generation model is now accessible via API, enabling apps to generate high-quality videos programmatically.
@@ -25,7 +26,8 @@ OpenAI's DevDay 2025 event took place on October 6 in San Francisco, focusing on
 
 The event highlighted OpenAI's push toward accessible AI development, with demos showcasing real-world integrations. For full details, check the keynote video or official recap.
 
-#### References:
+#### References
+
 - [OpenAI DevDay 2025](https://openai.com/devday/)
 - [CNBC Live Updates](https://www.cnbc.com/2025/10/06/open-ai-devday-live-updates-altman-jony-ive.html)
 - [Everything Shipped at DevDay](https://www.theneuron.ai/explainer-articles/everything-openai-released-on-devday-2025-explained)

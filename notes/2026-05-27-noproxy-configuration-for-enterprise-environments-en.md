@@ -60,6 +60,7 @@ gitlab.scb.com                  internal GitLab
 ## Tool-Specific Config
 
 ### curl / wget
+
 ```bash
 # Reads no_proxy (lowercase) automatically
 export no_proxy="localhost,127.0.0.1,.scb.com,10.10.0.0/8"
@@ -67,6 +68,7 @@ curl https://nexus.internal.scb.com/repository/maven-public/
 ```
 
 ### Python (requests, pip)
+
 ```bash
 export NO_PROXY="localhost,.scb.com,10.0.0.0/8"
 # requests library reads both NO_PROXY and no_proxy
@@ -74,6 +76,7 @@ pip install --index-url https://nexus.internal.scb.com/repository/pypi/simple/ s
 ```
 
 Or in `~/.pip/pip.conf`:
+
 ```ini
 [global]
 index-url = https://nexus.internal.scb.com/repository/pypi/simple/
@@ -81,6 +84,7 @@ trusted-host = nexus.internal.scb.com
 ```
 
 ### Maven (`~/.m2/settings.xml`)
+
 ```xml
 <settings>
   <proxies>
@@ -107,6 +111,7 @@ trusted-host = nexus.internal.scb.com
 > Maven uses `|` as separator in `nonProxyHosts`, not `,`.
 
 ### Gradle (`~/.gradle/gradle.properties`)
+
 ```properties
 systemProp.http.proxyHost=proxy.scb.com
 systemProp.http.proxyPort=8080
@@ -118,6 +123,7 @@ systemProp.https.nonProxyHosts=localhost|127.0.0.1|*.scb.com|nexus.internal.scb.
 ```
 
 ### npm
+
 ```bash
 npm config set proxy http://proxy.scb.com:8080
 npm config set https-proxy http://proxy.scb.com:8080
@@ -127,6 +133,7 @@ npm config set registry https://nexus.internal.scb.com/repository/npm-public/
 ```
 
 ### Docker daemon (`/etc/docker/daemon.json`)
+
 ```json
 {
   "proxies": {
@@ -138,6 +145,7 @@ npm config set registry https://nexus.internal.scb.com/repository/npm-public/
 ```
 
 For Docker build (pass as build args):
+
 ```bash
 docker build \
   --build-arg HTTP_PROXY=http://proxy.scb.com:8080 \
@@ -146,6 +154,7 @@ docker build \
 ```
 
 ### Git
+
 ```bash
 git config --global http.proxy http://proxy.scb.com:8080
 git config --global https.proxy http://proxy.scb.com:8080
@@ -209,6 +218,7 @@ curl -k https://nexus.internal.scb.com/   # -k skips TLS verify
 ```
 
 ### Corporate MITM Certificate (very common at banks)
+
 ```bash
 # Add the corp CA to system trust (Ubuntu)
 sudo cp scb-root-ca.crt /usr/local/share/ca-certificates/

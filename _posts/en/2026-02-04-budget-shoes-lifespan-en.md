@@ -13,6 +13,7 @@ type: note
 This is pretty normal for shoes in that price range (80 CNY is quite affordable). Here's what's typically happening:
 
 **Why this happens:**
+
 - The insole/midsole foam compresses over time with use
 - Cheaper shoes use less durable foam materials that break down faster
 - A year of wear is actually reasonable lifespan for budget shoes

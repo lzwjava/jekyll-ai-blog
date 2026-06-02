@@ -22,11 +22,13 @@ Your provided steps are mostly accurate but miss a critical adjustment to ensure
 ### **Evaluation of Your Provided Steps**
 
 Your steps aim to:
+
 1. Connect the OpenWRT router as a client to an existing Wi-Fi network.
 2. Set up an AP to broadcast a new Wi-Fi network.
 3. Bridge the client and AP interfaces to share the internet.
 
 Here’s a quick review:
+
 - **Step 1: Log In to LuCI** - Correct, accessing the web interface is the starting point.
 - **Step 2: Configure the Wireless Client** - Joining the target Wi-Fi and assigning it to the `lan` network is a good start, but the default `lan` configuration in OpenWRT (static IP, typically 192.168.1.1) could conflict with the main router if it uses the same IP. This needs adjustment.
 - **Step 3: Configure the Wireless AP** - Setting up an AP and assigning it to `lan` is correct for bridging, but relies on the `lan` interface being properly configured.
@@ -34,6 +36,7 @@ Here’s a quick review:
 - **Step 5: Test the Setup** - Testing is essential, but success depends on earlier steps being fully correct.
 
 **What’s Missing or Wrong?**
+
 - By default, OpenWRT’s `lan` interface has a static IP (e.g., 192.168.1.1) and runs a DHCP server. If the main router is also 192.168.1.1, this causes an IP conflict. You need to set the `lan` interface to DHCP client mode to obtain an IP from the main router and disable the local DHCP server to let the main router assign IPs to all devices.
 - The firewall zone assignment to `lan` is fine for simplicity, but the IP configuration is critical.
 
@@ -46,15 +49,18 @@ With this in mind, your steps are "mostly right" but incomplete without adjustin
 This method sets up your OpenWRT router to connect to an existing Wi-Fi network as a client and share that connection via its own AP or Ethernet ports, all on the same subnet as the main router (e.g., 192.168.1.x). Here’s how to do it via the LuCI web interface:
 
 #### **Prerequisites**
+
 - OpenWRT is installed (e.g., version 24.10.0 on Xiaomi Mi Router 4C).
 - You have the SSID, password, and encryption type (e.g., WPA2-PSK) of the main Wi-Fi network.
 - Access to LuCI at `http://192.168.1.1` (or the current IP) and your admin credentials.
 
 #### **Step 1: Log In to LuCI**
+
 - Open a browser and navigate to `http://192.168.1.1`.
 - Log in with your OpenWRT username (default: `root`) and password (set during installation).
 
 #### **Step 2: Configure the Wireless Client**
+
 - **Navigate to Wireless Settings:**
   - Go to **Network > Wireless**.
 - **Scan for Networks:**
@@ -72,6 +78,7 @@ This method sets up your OpenWRT router to connect to an existing Wi-Fi network 
   - Click **Save & Apply** to connect to the main Wi-Fi.
 
 #### **Step 3: Adjust the LAN Interface to DHCP Client**
+
 - **Go to Interfaces:**
   - Navigate to **Network > Interfaces**.
 - **Edit the LAN Interface:**
@@ -85,6 +92,7 @@ This method sets up your OpenWRT router to connect to an existing Wi-Fi network 
   - Click **Save & Apply**. The router will now request an IP from the main router.
 
 #### **Step 4: Configure the Wireless Access Point**
+
 - **Add a New Wireless Network:**
   - Go back to **Network > Wireless**.
   - Click **Add** under the same radio (e.g., `radio0`) to create a new wireless interface.
@@ -100,6 +108,7 @@ This method sets up your OpenWRT router to connect to an existing Wi-Fi network 
   - Click **Save & Apply**. Your router will now broadcast its own Wi-Fi.
 
 #### **Step 5: Verify the Bridge**
+
 - **Check Interfaces:**
   - Go to **Network > Interfaces**.
   - Ensure the `lan` interface lists both the wireless client (e.g., `wlan0`) and AP (e.g., `wlan0-1`) under the `br-lan` bridge.
@@ -108,6 +117,7 @@ This method sets up your OpenWRT router to connect to an existing Wi-Fi network 
   - Note the IP address assigned to the `lan` interface by the main router (e.g., `192.168.1.100`).
 
 #### **Step 6: Test the Setup**
+
 - **Test Wi-Fi:**
   - Connect a device to the `OpenWRT_AP` Wi-Fi.
   - Verify it receives an IP from the main router (e.g., `192.168.1.x`) and has internet access.
@@ -120,6 +130,7 @@ This method sets up your OpenWRT router to connect to an existing Wi-Fi network 
 ---
 
 ### **Why This Works**
+
 - Assigning both the client and AP interfaces to the `lan` network adds them to the `br-lan` bridge, allowing layer 2 traffic to flow between them and the main router.
 - Setting `lan` to DHCP client ensures the OpenWRT router gets a unique IP from the main router, avoiding conflicts (e.g., with `192.168.1.1`), and disables the local DHCP server so the main router manages all IP assignments.
 - Devices connected to the AP or Ethernet ports appear on the same subnet as the main network (e.g., `192.168.1.x`), fulfilling the wireless bridge requirement.
@@ -127,6 +138,7 @@ This method sets up your OpenWRT router to connect to an existing Wi-Fi network 
 ---
 
 ### **Alternative Method: Using relayd (Pseudo-Bridge)**
+
 If the simple bridge method fails (e.g., due to wireless driver limitations), you can use the `relayd` package for a pseudo-bridge. This creates a routed setup where the OpenWRT router’s clients are on a different subnet, but it’s more reliable on some hardware. Here’s a brief overview:
 
 1. **Install relayd:**
@@ -147,4 +159,5 @@ If the simple bridge method fails (e.g., due to wireless driver limitations), yo
 ---
 
 ### **Conclusion**
+
 Your original steps are **mostly correct** but incomplete without setting the `lan` interface to DHCP client mode to avoid IP conflicts and ensure proper bridging. The corrected steps above provide a reliable way to configure OpenWRT as a wireless bridge. If you follow them, your router will connect to the main Wi-Fi and share that connection seamlessly via its AP or Ethernet ports, all on the same subnet. Test the setup, and if issues arise (rare with modern OpenWRT), consider the `relayd` alternative.

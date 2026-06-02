@@ -24,12 +24,15 @@ pos_emb = self.transformer.wpe(pos)    # 形状：(T, n_embd)   ← 仅一维！
 **答案：PyTorch 会自动沿批次维度广播位置编码。**
 
 当 PyTorch 执行：
+
 ```python
 tok_emb + pos_emb
 ```
+
 它会将 `pos_emb`（形状 `(T, n_embd)`）视为 `(1, T, n_embd)`，然后通过**广播机制**扩展至 `(B, T, n_embd)`。
 
 因此加法运算实际为：
+
 ```
 (B, T, n_embd)
      +

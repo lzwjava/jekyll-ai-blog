@@ -34,22 +34,27 @@ type: note
 Apple 是公司中不断无情移除功能的典型例子，有时备受争议，但常常影响整个行业。
 
 ### The iMac G3 (1998) — 杀死 Floppy Disk
+
 Steve Jobs 回归 Apple 后发布的原始 iMac G3 时尚酷炫——直到你发现 Apple 决定不包含 serial ports 和 floppy disk drives，而是用 USB ports 和 CD-ROMs 替换它们。相比新兴的 USB 标准，serial ports 变得越来越不便，后者支持即插即用外围设备。
 
 ### MacBook Air (2008) — 杀死 Optical Drive
+
 在大力推广 CD 十年后，Apple 在 2008 年的原始 MacBook Air 中移除了 optical drive。这是一个明显的选择，因为 Apple 将 MacBook Air 定位为市场上最薄的笔记本电脑——CD-ROM drive 会让便携 PC 变厚。
 
 ### MacBook Pro (2016) — 大端口清洗
+
 2016 年，Apple 移除了 MagSafe 2 充电端口、剥离了 HDMI port、SD card slot、关闭了 Thunderbolt 2 ports，最引人注目的是杀死了标准 USB port——用四个 Thunderbolt 3/USB-C ports 替换所有这些。
 
 这极具争议。2016 年，Apple 达到了“谁需要端口 lol”的设计巅峰，向用户出售 dongle 来连接 MacBook 的一个（单一的、uno）USB port，并去除了 MacBook Pro 的 HDMI、USB Type-A 和 SD card ports。
 
 ### iPhone 7 (2016) — 杀死 Headphone Jack
+
 在具有里程碑意义的决定中，Apple 从 2016 年的 iPhone 7 开始淘汰了 3.5mm headphone jack。Apple 给出的理由包括：该端口仅服务单一功能；它腾出了空间用于其他增强；数字音频比模拟音频提供更优质量。
 
 没有 headphone jack，更易设计防水或防水的设备。此外，这一转变与行业向无线技术的转变一致，像 Google 和 Apple 这样的公司推出了自己的无线耳机（Pixel Buds Pro 和 AirPods）。
 
 ### Apple 最终逆转了方向
+
 2021 年，Apple 放弃了不受欢迎的 OLED Touch Bar，并在 MacBook Pro 上恢复了更多端口。正如 The Verge 当时所写，很难忽略更广泛的背景——这些改进有效地将 2021 MacBook Pro 带回 2012 至 2016 年初已提供的功能水平。
 
 Apple 长期坚持的“Less But Better”承诺仍是其持续成功设计消费电子产品的核心支柱。利用极简主义将 Apple 推向成为全球最有价值的公司。
@@ -59,18 +64,23 @@ Apple 长期坚持的“Less But Better”承诺仍是其持续成功设计消�
 ## 3. 软件和 OS 示例
 
 ### Google Search
+
 在众多杂乱的搜索引擎中，Google 的极简方法——干净界面只有一个 search bar——彻底改变了我们在网上查找信息的方式。
 
 ### Basecamp (Project Management)
+
 2004 年最初推出时，Basecamp 的创始人决心创建避免企业平台如 Microsoft Project 中无尽 feature bloat 和复杂界面的项目管理软件。正如 Basecamp 创始人 Jason Fried 解释：“我们故意限制功能数量。”没有复杂的 Gantt charts、自定义 dashboards 或高级 reporting。
 
 ### WhatsApp
+
 WhatsApp 以简单前提起步——通过互联网发送消息。通过聚焦这一核心功能并确保可靠性，他们建立了数十亿用户基础。
 
 ### Windows 8 / iOS 7 — 视觉简化
+
 Windows 8 实现了“simple, squared-off”的 Metro 外观，比 Windows 7 和 Vista 中的 Aero 界面图形密集度更低。这一变化部分是因为小型电池供电设备的兴起以及节省电力的需要。iOS 7 为用户体验原因进行了类似变化。
 
 ### Microsoft 和 Apple 悄然移除功能（且备受争议）
+
 当 Apple 重写 iWork 应用以完全支持 64-bit 和统一文件格式时，发布说明中没有通知功能被移除。客户并不高兴。Apple 表示计划在后续版本中重新引入一些功能。Tesla 也通过软件更新单方面从价值 10 万美元的汽车中移除一项功能，而未通知车主。Amazon 远程删除了用户已在 Kindle 上下载并支付的书籍，而未通知用户。
 
 ---
@@ -80,20 +90,25 @@ Windows 8 实现了“simple, squared-off”的 Metro 外观，比 Windows 7 和
 这是深刻而重要的问题。有几个维度：
 
 ### 技术：Legacy Code 和 Spaghetti Dependencies
+
 旧代码与新代码密不可分。当你尝试移除或更改它时，会产生蝴蝶效应，可能对运营连续性造成毁灭性影响。
 
 处理 legacy systems 中的代码复杂性，以及梳理系统支持的业务流程，会带来巨大挑战。从业务流程和规则中解开数千甚至数百万行代码的复杂性令人生畏。
 
 ### 人类：用户抵抗和习惯
+
 除了 IT 团队，最大的障碍往往是终端用户采用。不管新系统多么先进——如果员工拒绝使用，整个项目就胎死腹中。人们抵制变革，尤其是当它打乱他们的工作流程时。
 
 ### 商业：害怕丢失客户
+
 如果你移除即使 2% 用户依赖的功能，这些用户可能离开。产品团队倾向于对移除持风险厌恶态度，因为下行风险（丢失真实用户）感觉比上行益处（更干净的产品）更直接。添加功能有明确的成功故事；移除功能没有剪彩时刻。
 
 ### 组织：功能所有权和内部政治
+
 在公司内部，每个功能都是由一个团队构建的。该团队拥有所有权、自豪感和商业理由。移除他们的功能在政治上很困难——这暗示他们的工作是浪费的。极简代码库更容易让新团队成员上手、更少出错、更适应变化需求——但实现它们需要实践“You Aren't Gonna Need It”（YAGNI），抵制“以防万一”实现功能的冲动。
 
 ### 认知：Feature Bloat 感觉像价值
+
 人类常常将“更多功能”等同于“更好产品”。在一个“更多功能”常被视为“更好产品”的世界中，说服利益相关者拥抱极简主义需要分享成功极简产品的案例研究，并用数据证明专注功能如何带来更高的用户参与度。
 
 ---
@@ -107,8 +122,6 @@ Windows 8 实现了“simple, squared-off”的 Metro 外观，比 Windows 7 和
 ---
 
 ## 6. 编码“Less is Better”的工程原则
-
-
 
 | Principle | Meaning |
 |---|---|

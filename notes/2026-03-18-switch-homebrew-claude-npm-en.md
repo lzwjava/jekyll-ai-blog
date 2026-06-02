@@ -22,6 +22,7 @@ brew uninstall claude
 ```
 
 If it was installed as a cask:
+
 ```bash
 brew uninstall --cask claude
 ```
@@ -58,6 +59,7 @@ claude --version
 ```
 
 You should now see something like:
+
 ```
 /Users/yourname/.npm-global/bin/claude   # or ~/.nvm/versions/node/.../bin/claude
 2.1.77 (Claude Code)
@@ -79,6 +81,7 @@ export PATH="$HOME/.nvm/versions/node/$(node -v)/bin:$PATH"
 ```
 
 Then reload:
+
 ```bash
 source ~/.zshrc
 ```

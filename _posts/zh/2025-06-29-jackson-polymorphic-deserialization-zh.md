@@ -15,6 +15,7 @@ type: note
 Jackson 是一个用于 JSON 序列化与反序列化的 Java 库。多态反序列化功能允许 Jackson 在反序列化过程中，根据 JSON 中嵌入的类型信息自动实例化基类的正确子类。这在处理继承层次结构时非常有用，能确保从 JSON 数据创建正确的对象类型。
 
 核心组件：
+
 - **@JsonTypeInfo**：控制类型信息在 JSON 中存储位置和方式的注解
 - **@JsonSubTypes**：列出子类及其标识符的注解
 - Jackson 的子类型解析机制负责处理映射关系
@@ -26,6 +27,7 @@ Jackson 是一个用于 JSON 序列化与反序列化的 Java 库。多态反序
 1. **基类注解配置**：
    - 使用 `@JsonTypeInfo` 指定类型信息嵌入位置（例如作为 JSON 对象的属性）
    - 示例：
+
      ```java
      @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "@type")
      @JsonSubTypes({
@@ -36,6 +38,7 @@ Jackson 是一个用于 JSON 序列化与反序列化的 Java 库。多态反序
          public String name;
      }
      ```
+
      - `use = JsonTypeInfo.Id.NAME`：使用名称（字符串标识符）表示类型
      - `include = JsonTypeInfo.As.PROPERTY`：将类型信息以属性形式（"@type"）添加到 JSON 对象
      - `@JsonSubTypes`：将子类名称映射到对应的 Java 类（如 "cat" → Cat.class）

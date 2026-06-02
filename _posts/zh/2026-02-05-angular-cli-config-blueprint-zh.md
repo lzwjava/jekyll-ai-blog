@@ -19,6 +19,7 @@ type: note
 **Build options** - 指定 source files 的位置、built files 的输出目录、需要复制的 assets、包含的 style 文件、polyfills 等。
 
 **Architect targets** - 针对不同 CLI 命令的配置，例如：
+
 - `build` - 如何编译你的 app
 - `serve` - dev server 设置（port、proxy config 等）
 - `test` - testing 配置

@@ -53,6 +53,7 @@ Tolle 搬到了非主流生活的中心 Glastonbury，学生们继续慕名而�
 ### 其他作品与认可
 
 他的其他主要出版物包括：
+
 - 《Stillness Speaks》（静谧之言）(2003)
 - 《A New Earth: Awakening to Your Life's Purpose》(2005)
 - 《Guardians of Being》(2009)

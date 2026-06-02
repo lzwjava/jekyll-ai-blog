@@ -52,7 +52,7 @@ type: note
 
 ---
 
-### these are not just linguistic skills; they reflect an understanding of how users conceptualize technical content and seek information.
+### these are not just linguistic skills; they reflect an understanding of how users conceptualize technical content and seek information
 
 ### 3. 你已经验证了产品–市场匹配度
 
@@ -125,14 +125,14 @@ type: note
 
 不要仅仅是“发帖”——构建一个**内容系统**：
 
-#### 你的定位（已经非常明确有力）：
+#### 你的定位（已经非常明确有力）
 
 * LLM训练
 * 工程洞察
 * 实用的AI工作流
 * 双语能力（这是一大优势）
 
-#### 内容循环：
+#### 内容循环
 
 1. 学习 / 构建某个项目
 2. 将其转化为：

@@ -16,15 +16,18 @@ Boss, here's your manual troubleshooting guide for **192.168.1.42**:
 ## 🔧 Step-by-Step Guide
 
 ### Step 1: Check if the machine is alive
+
 ```bash
 # Open a terminal, check basic system
 hostname -I
 ```
+
 If you're at the physical laptop, first make sure it's on and responsive.
 
 ---
 
 ### Step 2: Check network interface
+
 ```bash
 ip addr show
 # Look for your main interface (likely eth0 or enp* or wlan0)
@@ -32,6 +35,7 @@ ip addr show
 ```
 
 **If no IP on the interface:**
+
 ```bash
 # Restart network
 sudo systemctl restart NetworkManager
@@ -42,6 +46,7 @@ sudo netplan apply
 ---
 
 ### Step 3: Check if Clash left proxy settings behind
+
 ```bash
 # Check environment variables for leftover proxy
 env | grep -i proxy
@@ -52,6 +57,7 @@ cat /etc/resolv.conf
 ```
 
 **If proxy env vars are set, clear them:**
+
 ```bash
 unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY all_proxy ALL_PROXY
 unset no_proxy NO_PROXY
@@ -60,6 +66,7 @@ unset no_proxy NO_PROXY
 ---
 
 ### Step 4: Fix DNS
+
 ```bash
 # Check what DNS resolver is active
 resolvectl status
@@ -71,6 +78,7 @@ sudo bash -c 'echo "nameserver 114.114.114.114" >> /etc/resolv.conf'
 ---
 
 ### Step 5: Test connectivity
+
 ```bash
 # Test gateway
 ping -c 3 192.168.1.1
@@ -83,13 +91,16 @@ curl -I https://www.baidu.com
 ---
 
 ### Step 6: If Clash set system proxy on browser
+
 Go to browser settings:
+
 - **Chrome:** Settings → System → Open proxy settings → make sure nothing is set
 - Or check `Settings → System → Use a proxy server` → turn OFF
 
 ---
 
 ### Step 7: If firewall is blocking
+
 ```bash
 # Check iptables
 sudo iptables -L -n
@@ -103,6 +114,7 @@ sudo iptables -t nat -X
 ---
 
 ### Step 8: Nuclear option — full network restart
+
 ```bash
 sudo ip link set <your_interface> down
 sudo ip link set <your_interface> up
@@ -112,7 +124,8 @@ sudo dhclient <your_interface>
 
 ---
 
-### 📋 Run this all-in-one diagnostic and paste the output here:
+### 📋 Run this all-in-one diagnostic and paste the output here
+
 ```bash
 echo "=== HOSTNAME/IP ===" && hostname -I && echo "=== INTERFACES ===" && ip addr show | grep -E "^[0-9]|inet " && echo "=== DNS ===" && cat /etc/resolv.conf && echo "=== ENV PROXY ===" && env | grep -i proxy && echo "=== GATEWAY ===" && ping -c2 192.168.1.1 && echo "=== BAIDU ===" && ping -c2 baidu.com && echo "=== IPTABLES ===" && sudo iptables -L -n 2>/dev/null | head -20
 ```

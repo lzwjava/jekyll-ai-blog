@@ -15,7 +15,9 @@ type: note
 China indeed leads the world in EV charging infrastructure. As of mid-2025, the country has over 10 million public charging points, driven by government mandates, subsidies, and massive domestic manufacturing. This network supports the rapid growth of EVs, with stations everywhere from highways to urban sidewalks. These stations are produced at scale by companies like State Grid, TELD, and Star Charge, using standardized GB/T connectors (similar to Europe's Type 2 but optimized for high-power DC).
 
 #### How Are They Made?
+
 EV charging stations are assembled like modular electronics cabinets, combining off-the-shelf and custom components in factories. The process involves:
+
 - Sourcing power electronics (e.g., semiconductors from suppliers like Infineon).
 - Integrating software for smart grid compatibility.
 - Testing for safety (e.g., IP65 weatherproofing and UL/IEC certifications).
@@ -23,12 +25,15 @@ EV charging stations are assembled like modular electronics cabinets, combining 
 China's advantage is low-cost, high-volume production—stations can cost as little as $500–$2,000 per unit for AC models, scaling up for DC fast chargers.
 
 #### AC and DC Converters: Yes, and They Handle High Voltages
+
 Most stations support both AC (slower, Level 1/2) and DC (fast, Level 3) charging:
+
 - **AC chargers** take grid AC power (e.g., 220–240V single-phase or 380–480V three-phase) and pass it directly to the EV's onboard converter. No heavy conversion inside the station—just regulation.
 - **DC fast chargers** (common in China for highways) have built-in AC-to-DC converters (rectifiers and inverters using IGBTs/MOSFETs). These convert high-voltage AC input to adjustable DC output (400–1,000V, up to 250kW+), bypassing the car's converter for quicker charging (e.g., 80% in 20–30 minutes).
 They handle "large volts" via robust power electronics rated for 480V AC input and surges up to 1,500V, with protections against spikes. China's grid supports this with stable three-phase power, and stations often include energy storage (BESS) for peak shaving.
 
 #### What's Inside the Big Box (Charging Cabinet)?
+
 The "big box" is the weatherproof pedestal or wall-mounted enclosure (typically 1–2m tall, steel/aluminum with IP65 rating). It's where the charging gun (cable with GB/T plug) is holstered. Inside, it's packed with electronics, cooling, and controls—think a mini power plant. Key components include:
 
 | Component | Description | Role in Charging |

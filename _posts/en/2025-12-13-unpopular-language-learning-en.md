@@ -36,10 +36,10 @@ These views are "unpopular" because they counter optimistic, app-driven, or imme
 
 References:
 
-- https://www.reddit.com/r/languagelearning/comments/wc1nl4/what_are_your_unpopular_opinions_with_language/
-- https://www.reddit.com/r/languagelearning/comments/pg849f/what_are_some_unpopular_opinions_on_learning_a/
-- https://www.reddit.com/r/languagelearning/comments/gh38ir/unpopular_opinion_language_learning_edition/
-- https://www.reddit.com/r/unpopularopinion/comments/1kq7kw9/learning_languages_for_fun_is_a_waste_of_time/
-- https://www.reddit.com/r/languagelearning/comments/18hdbgv/whats_your_most_controversial_opinion_about/
-- https://www.reddit.com/r/languagelearning/comments/89s0z7/controversial_opinion_thread/
-- https://www.reddit.com/r/unpopularopinion/comments/10ibsc0/learning_a_language_is_completely_pointless_for/
+- <https://www.reddit.com/r/languagelearning/comments/wc1nl4/what_are_your_unpopular_opinions_with_language/>
+- <https://www.reddit.com/r/languagelearning/comments/pg849f/what_are_some_unpopular_opinions_on_learning_a/>
+- <https://www.reddit.com/r/languagelearning/comments/gh38ir/unpopular_opinion_language_learning_edition/>
+- <https://www.reddit.com/r/unpopularopinion/comments/1kq7kw9/learning_languages_for_fun_is_a_waste_of_time/>
+- <https://www.reddit.com/r/languagelearning/comments/18hdbgv/whats_your_most_controversial_opinion_about/>
+- <https://www.reddit.com/r/languagelearning/comments/89s0z7/controversial_opinion_thread/>
+- <https://www.reddit.com/r/unpopularopinion/comments/10ibsc0/learning_a_language_is_completely_pointless_for/>

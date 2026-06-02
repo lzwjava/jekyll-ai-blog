@@ -26,6 +26,7 @@ type: note
 ### 先决条件
 
 您的项目必须：
+
 - 使用 **Angular 15.2.0 或更高版本**
 - 无任何编译错误地构建
 - 处于**干净的 Git 分支**，所有工作已保存
@@ -40,6 +41,7 @@ ng g @angular/core:standalone
 这会自动为每个 component、directive 和 pipe 添加 `standalone: true`，并将它们的依赖移动到 `imports` 数组中。
 
 **Before:**
+
 ```typescript
 @Component({
   selector: 'app-example',
@@ -50,6 +52,7 @@ export class ExampleComponent {}
 ```
 
 **After:**
+
 ```typescript
 @Component({
   selector: 'app-example',

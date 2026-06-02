@@ -57,7 +57,7 @@ AG Grid version 20（大约 2019 年初）比 version 30+（version 30 于 2023 
 2. **准备工作:**
    - 检查您当前的框架（React、Angular、Vue、原生 JS）及其与目标 AG Grid 版本的版本兼容性
    - 备份您的项目
-   - 查看每个主版本的官方 Changelog：https://www.ag-grid.com/changelog/
+   - 查看每个主版本的官方 Changelog：<https://www.ag-grid.com/changelog/>
 
 3. **升级步骤 (常规):**
 

@@ -15,16 +15,19 @@ Here are the most common and reliable ways to publish a package to an **internal
 ### 1. Using Maven (most common for JVM languages)
 
 #### Option A: maven-deploy-plugin (command line)
+
 ```bash
 mvn deploy -DaltDeploymentRepository=internal-nexus::default::https://your-nexus.company.com/repository/maven-releases/
 ```
 
 Or for snapshots:
+
 ```bash
 mvn deploy -DaltDeploymentRepository=internal-nexus::default::https://your-nexus.company.com/repository/maven-snapshots/
 ```
 
 #### Option B: Configure in pom.xml (recommended for projects)
+
 ```xml
 <distributionManagement>
     <repository>
@@ -39,12 +42,15 @@ mvn deploy -DaltDeploymentRepository=internal-nexus::default::https://your-nexus
     </snapshotRepository>
 </distributionManagement>
 ```
+
 Then just run:
+
 ```bash
 mvn deploy
 ```
 
 Make sure you have credentials in `~/.m2/settings.xml`:
+
 ```xml
 <servers>
   <server>
@@ -58,6 +64,7 @@ Make sure you have credentials in `~/.m2/settings.xml`:
 ### 2. Using Gradle
 
 In `build.gradle` (Groovy) or `build.gradle.kts` (Kotlin):
+
 ```groovy
 publishing {
     repositories {
@@ -74,7 +81,9 @@ publishing {
     }
 }
 ```
+
 Then:
+
 ```bash
 gradle publish
 ```
@@ -119,6 +128,7 @@ nuget push YourPackage.1.0.0.nupkg -Source InternalNexus
 ### 6. Raw / Generic repositories (any file)
 
 Use curl to upload via Nexus REST API:
+
 ```bash
 curl -v -u username:password \
      -H "Content-Type: application/octet-stream" \
@@ -127,6 +137,7 @@ curl -v -u username:password \
 ```
 
 For raw hosted repositories with directory structure:
+
 ```bash
 curl -v -u user:pass \
      --upload-file myfile.tar.gz \

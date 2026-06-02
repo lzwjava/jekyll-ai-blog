@@ -15,13 +15,17 @@ type: note
 This incident was a major platform-wide disruption in the Switzerland North region, affecting multiple availability zones. It lasted approximately 22 hours, starting at 23:54 UTC on September 26 and fully resolving by 21:59 UTC on September 27. While most services recovered by around 04:00 UTC on September 27, some residual issues required manual intervention later in the day.
 
 #### Root Cause
+
 The outage stemmed from a planned configuration change to certificates used for authorizing communication in the software load balancer infrastructure. One of the new certificates had a **malformed value** that wasn't caught during validation. This change followed an expedited deployment path, which unexpectedly rolled it out across multiple zones without triggering health safeguards. As a result:
+
 - Load balancers lost connectivity to storage resources and nodes.
 - Affected VMs detected prolonged disk disconnections and shut down automatically to avoid data corruption.
 - This cascaded to dependent services, amplifying the impact.
 
 #### Affected Services
+
 The disruption hit a broad range of Azure services hosted in Switzerland North, including:
+
 - **Core infrastructure**: Azure Storage, Azure Virtual Machines (VMs), Azure Virtual Machine Scale Sets (VMSS)
 - **Databases**: Azure Cosmos DB, Azure SQL Database, Azure SQL Managed Instance, Azure Database for PostgreSQL
 - **Compute and apps**: Azure App Service, Azure API Management, Azure Kubernetes Service (AKS), Azure Databricks
@@ -32,6 +36,7 @@ The disruption hit a broad range of Azure services hosted in Switzerland North, 
 Services relying on these (e.g., custom applications) were also impacted, leading to widespread unavailability or degraded performance.
 
 #### Timeline and Mitigation
+
 - **23:54 UTC, Sep 26**: Impact begins after the config change deploys.
 - **00:08 UTC, Sep 27**: Automated monitoring detects the issue.
 - **00:12 UTC, Sep 27**: Investigation starts by Azure Storage and Networking teams.
@@ -45,7 +50,9 @@ Services relying on these (e.g., custom applications) were also impacted, leadin
 Most resources auto-recovered post-connectivity restoration, but subsets (e.g., VMs with custom extensions) needed manual reboots to resolve startup sequence issues.
 
 #### Lessons Learned and Improvements
+
 Microsoft's Preliminary Incident Review highlights proactive fixes:
+
 - Added auditing to deployment systems and removed risky expedited pipelines (completed).
 - Enhanced safety measures with automated rollbacks (completed).
 - Upcoming: Better monitoring for resource health (by Nov 2025) and resilient recovery processes to minimize manual work.

@@ -27,6 +27,7 @@ type: note
 你当前的配置（`6L 6H 384embd`）是安全的，但有点小。你可以使用更大的配置。
 
 ### 24 GB GPU（RTX 4090 / 3090）在FineWeb上的最佳配置
+
 这是目前nanoGPT社区中最流行的设置：
 
 ```python
@@ -60,6 +61,7 @@ beta2 = 0.99
 → 这大约是1.6亿参数，在4090上运行舒适，显存使用量约为20–22 GB。
 
 ### 更好：2亿+模型（如果你有24 GB+显存）
+
 ```python
 n_layer = 12
 n_head = 12
@@ -70,6 +72,7 @@ block_size = 1024
 learning_rate = 5e-4
 max_iters = 60000
 ```
+
 许多人在单张4090上成功训练了这个配置。
 
 ### FineWeb + nanoGPT的关键经验法则
@@ -96,6 +99,7 @@ max_iters = 60000
    使用100B子集：`fineweb100B` 或完整 `fineweb`（根据你的磁盘空间截断）。
 
 6. **可选但有帮助**
+
 ```python
 compile = True          # PyTorch 2.0编译，速度提升约20–30%
 bias = False            # Linear层无偏置（类似LLaMA）
@@ -103,6 +107,7 @@ weight_decay = 0.1
 ```
 
 ### 下载FineWeb（100B版本）的快速命令
+
 ```bash
 pip install datasets
 python -c "
@@ -111,9 +116,11 @@ ds = load_dataset('HuggingFaceFW/fineweb', name='sample-100BT', split='train')
 ds.save_to_disk('data/fineweb100B')
 "
 ```
+
 然后将nanoGPT指向该文件夹。
 
 ### 总结：升级你当前的配置
+
 将你当前的模型部分替换为以下内容（针对24 GB GPU）：
 
 ```python

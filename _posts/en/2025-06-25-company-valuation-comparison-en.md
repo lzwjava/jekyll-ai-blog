@@ -11,6 +11,7 @@ type: note
 Below is a comparison of the valuations of the five companies (Tencent, HSBC, Alibaba, OpenAI, and Anthropic) based on the most recent available data as of June 25, 2025, along with the employee count pattern from big tech to AI startups previously discussed. The valuations reflect market or funding round estimates, and I’ve included context to highlight the contrast between established big tech/finance giants and emerging AI startups.
 
 ### Employee Count Recap
+
 - **Big Tech/Finance**:
   - Tencent: 110,558 employees (Dec 2024)
   - HSBC: 211,304 employees (Dec 2024)
@@ -21,6 +22,7 @@ Below is a comparison of the valuations of the five companies (Tencent, HSBC, Al
 - **Pattern**: Big tech/finance companies have workforces in the 100,000–200,000 range, reflecting their scale and diversified operations. AI startups, with 1,000–3,500 employees, focus on specialized AI innovation, requiring smaller, highly skilled teams. This shows a shift from scale-driven to expertise-driven models.
 
 ### Valuation Comparison
+
 1. **Tencent**:
    - **Valuation**: ~$416 billion (based on market cap as of early 2025, converted from HKD estimates).
    - **Context**: As a global tech giant with diverse operations (gaming, WeChat, cloud services), Tencent’s valuation reflects its mature, revenue-generating businesses. Its large employee base supports extensive product lines and global markets.
@@ -67,6 +69,7 @@ Below is a comparison of the valuations of the five companies (Tencent, HSBC, Al
   - Anthropic’s valuation growth (from $18.4 billion in 2024 to $61.5 billion in 2025) is faster than OpenAI’s (from $157 billion to $300 billion), but OpenAI’s larger scale and consumer dominance (ChatGPT’s $2.9 billion ARR) give it a higher absolute valuation.[](https://sacra.com/research/anthropic-vs-openai/)[](https://taptwicedigital.com/stats/anthropic)
 
 ### Conclusion
+
 The comparison reveals a clear divide: big tech/finance giants (Tencent, HSBC, Alibaba) have massive workforces and valuations tied to established markets, while AI startups (OpenAI, Anthropic) command high valuations with tiny teams, driven by innovation and growth potential. OpenAI’s $300 billion valuation nearly matches Tencent’s, despite having ~3% of its employees, highlighting the AI sector’s outsized impact. Anthropic, at $61.5 billion, is a strong contender but trails OpenAI due to its smaller scale and B2B focus. This pattern reflects a shift from resource-heavy, scale-driven models to agile, tech-driven models in the AI era.
 
 If you’d like a deeper analysis (e.g., revenue breakdowns, market share, or specific AI use cases), let me know!

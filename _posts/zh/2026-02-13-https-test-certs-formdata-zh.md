@@ -14,7 +14,7 @@ Question: form-data GitHub npm 包的 test/fixture 目录中的 key.pem 和 cert
 
 Answer:
 
-在 `form-data` npm 包的 GitHub 仓库 (https://github.com/form-data/form-data) 中，`test/fixture` 目录包含用于 integration tests 的 test fixture 文件。具体来说：
+在 `form-data` npm 包的 GitHub 仓库 (<https://github.com/form-data/form-data>) 中，`test/fixture` 目录包含用于 integration tests 的 test fixture 文件。具体来说：
 
 - **key.pem**: 这是自签名 SSL 证书的 private key 文件。它被加载并用于在 integration tests 中配置本地 HTTPS server。
 
@@ -25,15 +25,18 @@ Answer:
 这些文件于 2015 年引入，旨在不依赖外部服务器的情况下实现本地 HTTPS 测试。来自相关 commit（afe1959 和 4d5ec50）的关键更改包括：
 
 - **本地 HTTPS Server 设置**: 在 `static.js` 和 `common.js` 等 helper 文件中，使用 Node.js 的 `https` 模块创建 HTTPS server，配置如下：
+
   ```js
   const httpsServer = https.createServer({
     key: common.httpsServerKey,  // 从 'test/fixture/key.pem' 加载
     cert: common.httpsServerCert // 从 'test/fixture/cert.pem' 加载
   });
   ```
+
   该服务器监听一个端口（例如 9443）并响应请求以进行测试。
 
 - **加载文件**: 在 `test/common.js` 中，使用以下代码读取文件：
+
   ```js
   const fs = require('fs');
   const path = require('path');

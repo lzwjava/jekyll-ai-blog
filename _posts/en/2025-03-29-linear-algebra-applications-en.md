@@ -58,6 +58,7 @@ When fitting a line or curve to data points, we're seeking a function that minim
 ### 9.3.2 The Normal Equations
 
 The optimal solution can be found using:
+
 - A^T A x = A^T b
 - Where A is the design matrix, b is the output vector
 - The solution x gives the optimal parameters
@@ -111,12 +112,14 @@ print(f"z = {x[2]}")
 ### 9.5.1 Markov Chains
 
 Markov processes can be represented using transition matrices:
+
 - Each entry p_ij represents the probability of moving from state i to state j
 - Steady-state distributions are eigenvectors with eigenvalue 1
 
 ### 9.5.2 Image Processing
 
 Digital images are represented as matrices:
+
 - Transformations like rotation and scaling use matrix operations
 - Filters and compression techniques rely on linear algebra concepts
 

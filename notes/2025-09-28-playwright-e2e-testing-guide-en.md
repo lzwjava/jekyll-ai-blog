@@ -40,6 +40,7 @@ npx playwright install
 ```
 
 ### Project Structure
+
 ```
 tests/
   example.spec.js
@@ -112,6 +113,7 @@ test('basic test example', async ({ page }) => {
 ### Common Actions
 
 #### Navigation
+
 ```javascript
 await page.goto('https://example.com');
 await page.goBack();
@@ -120,6 +122,7 @@ await page.reload();
 ```
 
 #### Element Interactions
+
 ```javascript
 // Click elements
 await page.click('button');
@@ -137,6 +140,7 @@ await page.uncheck('input[type="checkbox"]');
 ```
 
 #### Waiting and Timeouts
+
 ```javascript
 // Wait for elements
 await page.waitForSelector('.loading-spinner', { state: 'hidden' });
@@ -181,6 +185,7 @@ test('user can login', async ({ page }) => {
 ```
 
 ### API Testing
+
 ```javascript
 test('API testing', async ({ request }) => {
   // POST request
@@ -198,6 +203,7 @@ test('API testing', async ({ request }) => {
 ```
 
 ### Network Mocking
+
 ```javascript
 test('mock API responses', async ({ page }) => {
   // Mock API response
@@ -212,6 +218,7 @@ test('mock API responses', async ({ page }) => {
 ```
 
 ### Visual Testing
+
 ```javascript
 test('visual comparison', async ({ page }) => {
   await page.goto('/dashboard');
@@ -227,6 +234,7 @@ test('visual comparison', async ({ page }) => {
 ## Test Organization and Best Practices
 
 ### Test Hooks
+
 ```javascript
 import { test, expect } from '@playwright/test';
 
@@ -251,6 +259,7 @@ test.describe('User Management', () => {
 ```
 
 ### Fixtures and Test Context
+
 ```javascript
 // fixtures/auth.js
 import { test as base } from '@playwright/test';
@@ -282,6 +291,7 @@ test('authenticated user actions', async ({ authenticatedPage }) => {
 ## Running Tests
 
 ### Command Line Options
+
 ```bash
 # Run all tests
 npx playwright test
@@ -303,6 +313,7 @@ npx playwright test --workers=4
 ```
 
 ### Test Reports
+
 ```bash
 # Generate HTML report
 npx playwright show-report
@@ -325,12 +336,14 @@ npx playwright show-trace trace.zip
 ### Performance Comparison
 
 **Playwright Advantages:**
+
 - **Faster execution**: Direct browser API communication eliminates WebDriver overhead
 - **Parallel by default**: Built-in parallel test execution
 - **Auto-wait**: Intelligent waiting without explicit waits
 - **Network control**: Built-in request/response interception
 
 **Selenium Advantages:**
+
 - **Mature ecosystem**: Extensive community and third-party tools
 - **Language flexibility**: Support for more programming languages
 - **Browser coverage**: Supports older browsers like Internet Explorer
@@ -339,6 +352,7 @@ npx playwright show-trace trace.zip
 ### Feature Comparison
 
 #### Test Reliability
+
 ```javascript
 // Playwright - Auto-wait built-in
 await page.click('button'); // Waits for element to be clickable
@@ -350,6 +364,7 @@ await button.click();
 ```
 
 #### Mobile Testing
+
 ```javascript
 // Playwright - Built-in mobile emulation
 const context = await browser.newContext({
@@ -362,6 +377,7 @@ options.addArguments('--user-agent=iPhone...');
 ```
 
 #### Network Handling
+
 ```javascript
 // Playwright - Native network interception
 await page.route('**/api/**', route => route.abort());
@@ -374,6 +390,7 @@ proxy.setHttpProxy('localhost:8080');
 ### Migration Considerations
 
 **When to Choose Playwright:**
+
 - New projects or greenfield applications
 - Modern web apps with SPA architecture
 - Need for fast, reliable test execution
@@ -381,6 +398,7 @@ proxy.setHttpProxy('localhost:8080');
 - Requirement for built-in visual testing
 
 **When to Stick with Selenium:**
+
 - Large existing test suites
 - Need for specific browser/OS combinations
 - Team expertise in non-JavaScript languages

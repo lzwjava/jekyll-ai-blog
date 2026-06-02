@@ -54,8 +54,8 @@ Angular 14（2022年6月发布）和 Angular 17（2023年11月发布）代表了
 
 **References:**
 
-- https://blog.angular.dev/introducing-angular-v17-4d7033312e4b
-- https://angular.dev/reference/releases
-- https://medium.com/@ratan.kumar67890/whats-new-in-angular-from-version-14-to-the-latest-version-c32c28b7e7c4
-- https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5
-- https://krausest.github.io/js-framework-benchmark/current.html (control flow benchmarks)
+- <https://blog.angular.dev/introducing-angular-v17-4d7033312e4b>
+- <https://angular.dev/reference/releases>
+- <https://medium.com/@ratan.kumar67890/whats-new-in-angular-from-version-14-to-the-latest-version-c32c28b7e7c4>
+- <https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5>
+- <https://krausest.github.io/js-framework-benchmark/current.html> (control flow benchmarks)

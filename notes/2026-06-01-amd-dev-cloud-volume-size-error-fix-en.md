@@ -20,7 +20,9 @@ That said, common causes:
 ## Common "Invalid Size" Issues on AMD Dev Cloud
 
 ### 1. Unit format — enter a plain integer, no units
+
 Some UIs expect just `100` not `100GB` or `100GiB`. Try:
+
 ```
 100        ✓
 100GB      ✗
@@ -29,12 +31,15 @@ Some UIs expect just `100` not `100GB` or `100GiB`. Try:
 ```
 
 ### 2. Minimum size requirement
+
 Most block storage has a minimum (usually **1 GB or 10 GB**). Entering `0` or a very small number fails silently with "invalid size".
 
 ### 3. Maximum size cap
+
 AMD Dev Cloud may cap volume size per project tier. Common limits: 500 GB or 1 TB. If you entered something large like `2000`, try `500` first.
 
 ### 4. Project quota not set up
+
 If your account is on a free/trial tier, block storage may not be enabled at all — the "invalid size" error is a misleading way to say "this feature isn't available on your plan."
 
 ---

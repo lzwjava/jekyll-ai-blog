@@ -22,15 +22,19 @@ To cancel or disable this bell title notification (and potentially other bell be
 
 1. Open the config file in your preferred editor.
 2. Add or modify the following line to disable the title emoji specifically (while keeping other bell features like attention requests intact):
+
    ```
    bell-features = no-title
    ```
+
    - This removes the 🔔 from the tab title but allows other bell effects (e.g., system audio or window highlighting).
 
 3. For a fuller disable (no title emoji, no attention requests, etc.), use:
+
    ```
    bell-features = false
    ```
+
    - This turns off all bell features entirely.
 
 4. Save the file and reload your config in Ghostty:
@@ -38,6 +42,7 @@ To cancel or disable this bell title notification (and potentially other bell be
    - New windows/tabs will use the updated settings; existing ones may need a restart.
 
 If this isn't the exact notification you mean (e.g., if it's an in-app toast like "Copied to clipboard" or desktop notifications from apps), you can also disable those:
+
 - For in-app toasts (Linux GTK only): `app-notifications = false`
 - For desktop notifications from terminal apps: `desktop-notifications = false`
 

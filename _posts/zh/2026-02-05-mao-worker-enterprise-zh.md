@@ -14,22 +14,23 @@ type: note
 
 以下是各组成部分的详细说明：
 
-## **两参**：
+## **两参**
 
 1. **干部参加劳动** - Cadres/Managers 参加体力劳动
 2. **工人参加管理** - Workers 参与管理决策
 
-## **一改**：
+## **一改**
 
 - **改革不合理的规章制度** - Reform 不合理的 Rules and Regulations
 
-## **三结合**：
+## **三结合**
 
 - **工人群众、领导干部和技术人员三结合** - 三个群体的整合：Workers、Leadership Cadres 和 Technical Personnel
 
-## Historical Context：
+## Historical Context
 
 这是毛泽东在 20 世纪 50 年代至 70 年代构想的一部分，旨在：
+
 - 打破脑力劳动与体力劳动之间的等级壁垒
 - 防止官僚管理阶层的出现
 - 在工作场所推进平均主义

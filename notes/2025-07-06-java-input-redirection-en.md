@@ -175,17 +175,17 @@ mvn exec:exec@run-my-java-app < input.txt
 
 **Explanation:**
 
-  * `mvn exec:exec@run-my-java-app`: Executes the `exec` goal of the `exec-maven-plugin` with the `id` "run-my-java-app".
-  * `< input.txt`: This is a standard shell redirection operator. It tells your shell to take the content of `input.txt` and feed it as standard input to the command being executed (`java com.example.app.MyInputProgram`).
+* `mvn exec:exec@run-my-java-app`: Executes the `exec` goal of the `exec-maven-plugin` with the `id` "run-my-java-app".
+* `< input.txt`: This is a standard shell redirection operator. It tells your shell to take the content of `input.txt` and feed it as standard input to the command being executed (`java com.example.app.MyInputProgram`).
 
 **Important Notes for `exec:exec`:**
 
-  * **`executable`:** You explicitly specify `java` as the executable.
-  * **`arguments`:** You need to construct the `java` command's arguments manually, including `-classpath` and the `mainClass`. The `<classpath/>` tag is a special value that the `exec-maven-plugin` replaces with the actual computed classpath of your project.
-  * **`workingDirectory`:** It's often helpful to set the `workingDirectory` to `${project.build.directory}/classes` so that Java can find your compiled `.class` files.
-  * **`outputFile` (Optional):** The `exec-maven-plugin` for `exec:exec` also provides an `<outputFile>` configuration option to redirect the program's standard output and error to a file directly within the plugin's configuration, rather than relying on shell redirection. This can be useful for logging.
+* **`executable`:** You explicitly specify `java` as the executable.
+* **`arguments`:** You need to construct the `java` command's arguments manually, including `-classpath` and the `mainClass`. The `<classpath/>` tag is a special value that the `exec-maven-plugin` replaces with the actual computed classpath of your project.
+* **`workingDirectory`:** It's often helpful to set the `workingDirectory` to `${project.build.directory}/classes` so that Java can find your compiled `.class` files.
+* **`outputFile` (Optional):** The `exec-maven-plugin` for `exec:exec` also provides an `<outputFile>` configuration option to redirect the program's standard output and error to a file directly within the plugin's configuration, rather than relying on shell redirection. This can be useful for logging.
 
 **In summary:**
 
-  * For interactive input where a user types directly, `exec:java` and `System.in` work fine.
-  * For providing input from a file or a pipe, you'll need to switch to `exec:exec` and leverage your shell's input redirection capabilities (`<`).
+* For interactive input where a user types directly, `exec:java` and `System.in` work fine.
+* For providing input from a file or a pipe, you'll need to switch to `exec:exec` and leverage your shell's input redirection capabilities (`<`).

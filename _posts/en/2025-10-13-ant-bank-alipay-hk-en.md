@@ -15,6 +15,7 @@ type: note
 Ant Bank (Hong Kong) is a fully digital virtual bank licensed by the Hong Kong Monetary Authority (HKMA) and wholly owned by Ant International, the international arm of Ant Group (the company behind Alipay). Launched in 2019, it serves as the official banking partner for AlipayHK, the Hong Kong version of the Alipay mobile payment app.
 
 Key features and services integrated into AlipayHK include:
+
 - **Savings and deposits**: High-interest eM+ savings accounts with no minimum balance.
 - **Loans and credit**: Products like Ant Bank PayLater, a buy-now-pay-later (BNPL) option allowing installment payments for purchases over HKD 100 via AlipayHK.
 - **Wealth management**: A mini-app within AlipayHK for investing in funds and other products.
@@ -26,7 +27,8 @@ You can access Ant Bank services directly through the AlipayHK app without needi
 
 Yes, as a mainland Chinese citizen, you can open an Ant Bank account in Hong Kong using your Chinese Mainland Resident Identity Card (combined with your Home Return Permit, also known as the Mainland Travel Permit for Hong Kong and Macao). The "Macau HK pass card" likely refers to the same Home Return Permit, which allows mainland residents to travel to and stay in Hong Kong/Macau.
 
-#### Key Eligibility and Requirements:
+#### Key Eligibility and Requirements
+
 - **Age**: Must be 18 years or older.
 - **ID Documents**:
   - Valid Chinese Mainland Resident Identity Card.
@@ -45,6 +47,7 @@ This applies to personal accounts; business accounts have stricter rules. Note t
 If you're planning a trip, head to a popular spot like Tsim Sha Tsui for a SIM and easy access—many mainland visitors do this successfully.
 
 #### References
+
 - [Ant Bank (Hong Kong) Secures US$100 Million Investment from Ant International](https://www.businesswire.com/news/home/20250423571852/en/Ant-Bank-Hong-Kong-Secures-US%2524100-Million-Investment-from-Ant-International-to-Expand-Collaborations-and-Drive-Financial-Development)
 - [Ant Bank (Hong Kong) - Apps on Google Play](https://play.google.com/store/apps/details?id=com.alipay.antbank.hk.portal&hl=en_US)
 - [8 Virtual Banks in Hong Kong: How Do They Compare?](https://statrys.com/blog/virtual-banks-hk)

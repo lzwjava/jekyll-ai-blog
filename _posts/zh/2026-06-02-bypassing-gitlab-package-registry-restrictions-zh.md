@@ -18,6 +18,7 @@ type: note
 ## 1. **使用企业内部的私有包镜像**（可能性最大）
 
 你的企业很可能运行着Artifactory、Nexus或类似工具。请向你的DevOps/基础设施团队询问：
+
 - 内部镜像URL（例如 `https://artifactory.company.com/artifactory/api/npm/npm/`）
 - 如果需要，提供凭证
 
@@ -86,6 +87,7 @@ make build  # 或 go build, cargo build 等
 ---
 
 **你应该向DevOps团队询问的问题：**
+
 - “针对[语言/包管理器]的内部包镜像URL是什么？”
 - “我们使用什么凭证进行认证？”
 - “是否需要配置代理？”

@@ -49,26 +49,13 @@ type: note
 
 <div style="text-align: center">⁂</div>
 
-[^1]: https://www.coursera.org/courses?query=algorithmic+trading
-[^2]: https://www.iiqf.org/courses/certificate-program-in-ai-trading.html
-[^3]: https://corporatefinanceinstitute.com/resources/career/courses-quantitative-trader/
-[^4]: https://www.marketfeed.com/read/en/essential-resources-to-learn-algo-trading
-[^5]: https://digitaldefynd.com/best-algorithmic-trading-courses/
-[^6]: https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-artificial-intelligence-trading-series
-[^7]: https://www.quantstart.com/articles/Self-Study-Plan-for-Becoming-a-Quantitative-Trader-Part-I/
-[^8]: https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses
-[^9]: https://www.udemy.com/topic/algorithmic-trading/
-[^10]: https://www.bankersbyday.com/algorithmic-trading-courses/
-[^11]: https://www.forexvps.net/resources/forex-algorithmic-trading-courses/
-[^12]: https://www.reddit.com/r/algotrading/comments/y8fg83/what_is_a_good_course_that_can_teach_you_the/
-[^13]: https://www.quantinsti.com/epat
-[^14]: https://www.udacity.com/course/ai-for-trading--nd880
-[^15]: https://quantra.quantinsti.com/learning-track/guide-quantitative-trading-beginners
-[^16]: https://quant.stackexchange.com/questions/79074/first-post-resources-to-learn-algo-trading-quant-development
-[^17]: https://www.investopedia.com/the-best-cryptocurrency-trading-courses-8778166
-[^18]: https://www.udemy.com/topic/artificial-intelligence/
-[^19]: https://quantra.quantinsti.com/learning-track/algorithmic-trading-beginners
-[^20]: https://trendspider.com/learning-center/how-to-learn-algorithmic-trading/
+[^1]: <https://www.coursera.org/courses?query=algorithmic+trading>
+[^2]: <https://www.iiqf.org/courses/certificate-program-in-ai-trading.html>
+[^3]: <https://corporatefinanceinstitute.com/resources/career/courses-quantitative-trader/>
+[^4]: <https://www.marketfeed.com/read/en/essential-resources-to-learn-algo-trading>
+[^5]: <https://digitaldefynd.com/best-algorithmic-trading-courses/>
+[^6]: <https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-artificial-intelligence-trading-series>
+[^7]: <https://www.quantstart.com/articles/Self-Study-Plan-for-Becoming-a-Quantitative-Trader-Part-I/>
 
 ---
 
@@ -77,6 +64,7 @@ type: note
 ---
 
 ### **在线课程**
+
 这些课程适合体系化学习，涵盖Python、量化金融、AI和交易策略开发。多数包含实践项目和回测。
 
 1. **QuantInsti – 算法交易高管课程**
@@ -145,6 +133,7 @@ type: note
 ---
 
 ### **书籍**
+
 书籍提供深度理论与实践见解，适合自学或课程补充。这些为专业人士强烈推荐且更新至2025年适用。
 
 1. **Ernest P. Chan《量化交易》**
@@ -185,6 +174,7 @@ type: note
 ---
 
 ### **博客与在线资源**
+
 这些平台提供免费或低成本内容，含教程、案例研究和策略指南，适合持续学习。
 
 1. **QuantInsti博客**
@@ -218,6 +208,7 @@ type: note
 ---
 
 ### **社区与平台**
+
 参与社区和平台可获得社交网络、编码练习和实时洞见。
 
 1. **Reddit – r/algotrading**
@@ -251,6 +242,7 @@ type: note
 ---
 
 ### **免费与低成本资源**
+
 为预算敏感的学习者提供高价值低成本选择。
 
 1. **YouTube – 2023算法交易研讨会**
@@ -277,11 +269,13 @@ type: note
 ---
 
 ### **按经验级别推荐**
+
 - **初学者**：从**freeCodeCamp的Python算法交易**、**Quantra的量化交易入门**或**Udemy的算法交易导论**开始。辅以**《黑箱之内》**和**QuantInsti博客**。
 - **中级**：尝试**Udacity的AI交易**、**Coursera的ML交易**或**AlgoTrading101**。阅读**《量化交易》**并加入**r/algotrading**。
 - **高级**：报名**QuantInsti的EPAT**、**牛津算法交易课程**或**Udemy的算法交易A-Z**。研读**《算法交易的机器学习》**并在**QuantConnect**上实践。
 
 ### **成功要诀**
+
 - **学习Python**：这是算法交易主导语言。在LeetCode或HackerRank等平台练习。
 - **掌握回测**：理解数据准备、偏差消除和绩效指标。使用Blueshift或QuantConnect等工具。
 - **从小起步**：实盘前先用模拟资金测试策略。盈透证券或OANDA等经纪商适合新手。

@@ -15,7 +15,8 @@ Answer:
 
 In a network environment configured with **Quality of Service (QoS)**, the **predictability** (or **foreseeability**) of network performance is enhanced.
 
-### Explanation:
+### Explanation
+
 - **QoS Mechanisms**: QoS technologies prioritize specific types of traffic (e.g., voice, video, critical business applications) over less time-sensitive data. This is achieved through techniques like traffic classification, marking, queuing, policing, and shaping.
 - **Enhanced Predictability**: By guaranteeing bandwidth, limiting latency, and reducing jitter for critical applications, QoS makes network behavior more **predictable**. Administrators and users can anticipate how the network will perform under load, ensuring that service level agreements (SLAs) are met.
 - **Resource Utilization**: Instead of a "best-effort" model where all traffic competes equally (leading to unpredictable congestion), QoS allows for the **effective allocation of bandwidth**. This ensures that network resources are utilized more reasonably, preventing non-critical traffic from starving essential services.

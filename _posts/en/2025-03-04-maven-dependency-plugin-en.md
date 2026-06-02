@@ -12,7 +12,9 @@ The **Maven Dependency Plugin** is a powerful tool in Maven, a widely-used build
 ---
 
 #### **1. Overview of Usage**
+
 You can use the Maven Dependency Plugin in two primary ways:
+
 - **Configure it in the `pom.xml` file**: This allows you to bind specific plugin goals to phases of the Maven build lifecycle (e.g., `package`, `install`) for automatic execution during the build process.
 - **Run goals directly from the command line**: This is ideal for one-off tasks or when you don’t want to modify the `pom.xml`.
 
@@ -21,6 +23,7 @@ The plugin is identified by its coordinates: `groupId: org.apache.maven.plugins`
 ---
 
 #### **2. Adding the Plugin to `pom.xml`**
+
 To use the plugin as part of your build process, add it to the `<build><plugins>` section of your `pom.xml`. Here’s a basic example:
 
 ```xml
@@ -40,9 +43,11 @@ With this setup, you can configure specific goals to execute during the build li
 ---
 
 #### **3. Common Goals and How to Use Them**
+
 The plugin provides several goals for managing dependencies. Below are some of the most commonly used ones, along with examples of how to use them:
 
 ##### **a. `copy-dependencies`**
+
 - **Purpose**: Copies project dependencies to a specified directory (e.g., for packaging into a `lib` folder).
 - **Configured in `pom.xml`**:
   Bind this goal to the `package` phase to copy dependencies during `mvn package`:
@@ -83,6 +88,7 @@ The plugin provides several goals for managing dependencies. Below are some of t
   ```
 
 ##### **b. `tree`**
+
 - **Purpose**: Displays the dependency tree, showing all direct and transitive dependencies and their versions. This is useful for identifying version conflicts.
 - **Command Line**:
   Simply run:
@@ -96,6 +102,7 @@ The plugin provides several goals for managing dependencies. Below are some of t
   If you want this to run during a build phase (e.g., `verify`), configure it similarly to `copy-dependencies`.
 
 ##### **c. `analyze`**
+
 - **Purpose**: Analyzes dependencies to identify issues, such as:
   - Used but undeclared dependencies.
   - Declared but unused dependencies.
@@ -110,6 +117,7 @@ The plugin provides several goals for managing dependencies. Below are some of t
 - **Note**: This goal may require additional configuration for complex projects to refine its analysis.
 
 ##### **d. `list`**
+
 - **Purpose**: Lists all resolved dependencies of the project.
 - **Command Line**:
   Run:
@@ -121,6 +129,7 @@ The plugin provides several goals for managing dependencies. Below are some of t
   This provides a flat list of dependencies, useful for quick reference.
 
 ##### **e. `unpack`**
+
 - **Purpose**: Extracts the contents of a specific dependency (e.g., a JAR file) to a directory.
 - **Command Line**:
   Example to unpack a specific artifact:
@@ -132,6 +141,7 @@ The plugin provides several goals for managing dependencies. Below are some of t
   Replace `groupId:artifactId:version` with the coordinates of the dependency (e.g., `org.apache.commons:commons-lang3:3.12.0`).
 
 ##### **f. `purge-local-repository`**
+
 - **Purpose**: Removes specified dependencies from your local Maven repository (`~/.m2/repository`), forcing a fresh download from remote repositories.
 - **Command Line**:
   Run:
@@ -145,7 +155,9 @@ The plugin provides several goals for managing dependencies. Below are some of t
 ---
 
 #### **4. Customization Options**
+
 Many goals support configuration parameters to tailor their behavior:
+
 - **`outputDirectory`**: Specifies where to copy or unpack files (e.g., `target/lib`).
 - **`includeScope` or `excludeScope`**: Filters dependencies by scope (e.g., `runtime`, `test`).
 - **`artifact`**: Targets a specific dependency for goals like `unpack`.
@@ -155,6 +167,7 @@ These can be set in the `<configuration>` section of the `pom.xml` or passed as 
 ---
 
 #### **5. Practical Examples**
+
 - **Scenario 1: Packaging a Standalone Application**
   Use `copy-dependencies` to gather all runtime dependencies into a `lib` folder:
 
@@ -181,7 +194,9 @@ These can be set in the `<configuration>` section of the `pom.xml` or passed as 
 ---
 
 #### **6. Summary**
+
 To use the Maven Dependency Plugin:
+
 - Add it to your `pom.xml` with specific goals and configurations if you want it integrated into your build process.
 - Run goals like `copy-dependencies`, `tree`, `analyze`, `list`, or `unpack` directly from the command line for ad-hoc tasks.
 - Customize behavior with configuration options to suit your project’s needs.

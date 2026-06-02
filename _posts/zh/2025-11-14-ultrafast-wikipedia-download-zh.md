@@ -47,7 +47,7 @@ echo "pip install wikiextractor"
 echo "wikiextractor --processes 16 -o extracted/ *.bz2"
 ```
 
-### 使用方法（单行命令，速度更胜一筹）：
+### 使用方法（单行命令，速度更胜一筹）
 
 直接在终端粘贴这行命令（无需脚本文件）：
 

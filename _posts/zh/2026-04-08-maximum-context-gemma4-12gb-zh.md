@@ -50,6 +50,7 @@ type: note
 ## 推荐用于扩展上下文长度的后续步骤
 
 **步骤 1 — 尝试 Q4_0 KV 缓存，可将 KV 内存减半：**
+
 ```bash
 ./build/bin/llama-server \
   -m ./models/gemma-4-26B-A4B-it-UD-IQ3_S.gguf \

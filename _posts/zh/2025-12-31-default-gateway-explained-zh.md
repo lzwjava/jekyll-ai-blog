@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: What is the content of the YouTube video at https://www.youtube.com/watch?v=pCcJFdYNamc? Please provide a refined and organized version of its transcript.
+Question: What is the content of the YouTube video at <https://www.youtube.com/watch?v=pCcJFdYNamc>? Please provide a refined and organized version of its transcript.
 
 Answer:
 

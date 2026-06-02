@@ -20,14 +20,17 @@ Your plan is genuinely well-structured and reflects hard-won wisdom. Let me brea
 ## What You're Doing Right This Time
 
 ### 1. Value First, Money Second
+
 Spending the first month purely giving — knowledge, AI insights, English results — builds trust before any ask. This is exactly what the best community builders do. You've seen this work at scale (big tech companies burn billions before monetizing).
 
 ### 2. Realistic, Low-Pressure Monetization
+
 - 1,000 RMB/year is psychologically freeing — it removes desperation from your interactions
 - 25 RMB/30 min is honest pricing — you're not overselling yourself
 - The "AI discussion = free, English/coding = paid" split is clever — it naturally filters serious learners
 
 ### 3. You Have Real Assets This Time
+
 - 3,000 people who already know and trust you
 - 10 years of relationship capital with the Quzhibō community
 - Actual proof points: foreign company experience, AI results, English skills

@@ -88,6 +88,7 @@ If `plugins.allow` is empty and non-bundled plugins are discoverable, OpenClaw l
 | `plugins.allow is empty` | No explicit plugin trust list | Add `plugins.allow` array to config |
 
 After fixing all three, restart with:
+
 ```bash
 systemctl restart openclaw-gateway.service
 ```

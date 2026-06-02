@@ -24,11 +24,13 @@ type: note
 ## 📈 三个层级详解
 
 ### Level 1 — Normal Engineer (1x)
+
 - 手动编写代码
 - 审查一切
 - 受人类速度瓶颈限制
 
 ### Level 2 — 10x Engineer
+
 - **完全不读代码**
 - 指导 AI 编写一切
 - 但仍需手动监控 AI 进度
@@ -38,6 +40,7 @@ type: note
 - **问题：你的注意力就是瓶颈。** 你的大脑只能同时处理这么多并行任务
 
 ### Level 3 — 100x Engineer (the goal)
+
 - 你**只需设定一次方向**
 - Task-decomposition agent 将其分解成小单元
 - 多个 developer agents 并行接手任务

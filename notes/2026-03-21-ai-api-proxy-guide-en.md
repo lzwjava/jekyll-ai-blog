@@ -59,6 +59,7 @@ This is a cost scaling factor relative to a base token price. A 5x rate means yo
 
 **What are "逆向渠道" (reverse channels)?**
 These are **unofficial reverse-engineered proxies** — they intercept Claude's web interface traffic instead of using the official API. They are cheaper but:
+
 - Less stable
 - Potentially against Anthropic's Terms of Service
 - May be blocked/rate-limited unpredictably (as seen with the "风控" risk control issue on the backup Max channel)

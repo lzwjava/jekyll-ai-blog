@@ -27,6 +27,7 @@ type: note
 ```
 
 其核心回答了：
+
 1. **这个数字从哪来？**（上游血缘）
 2. **如果我更改这个字段，什么会出问题？**（下游影响）
 3. **该数据在使用时是否合规？**（审计追踪）
@@ -52,12 +53,15 @@ BCBS 239 是最大的驱动力。它明确要求“银行应能够及时汇总�
 ## 血缘的三个层级
 
 ### 1. 表级（粗略）
+
 ```
 raw.transactions → mart.daily_pnl → report.risk_dashboard
 ```
+
 易于构建，但不足以满足监管要求。
 
 ### 2. 列级（中等）
+
 ```
 raw.transactions.amount
   → [sum, group by trade_date]
@@ -65,15 +69,18 @@ raw.transactions.amount
   → [*fx_rate]
   → report.risk_dashboard.usd_equivalent
 ```
+
 这是 BCBS 239 的最低可行血缘。
 
 ### 3. 值级 / 记录级（精细）
+
 ```
 trade_id=T12345, amount=1,000,000 CNY
   → fx_rate=7.24（来源：Reuters 2024-01-15 09:00 UTC）
   → usd_equivalent=138,122.17
   → 出现在2024-01-16提交的RWA报表第47行
 ```
+
 特定审计请求需要，但存储成本极高。
 
 ---
@@ -81,6 +88,7 @@ trade_id=T12345, amount=1,000,000 CNY
 ## 如何构建：架构模式
 
 ### 模式1：被动/元数据采集
+
 不改变管道。**解析现有工件**以提取血缘。
 
 ```python
@@ -174,6 +182,7 @@ client.emit(RunEvent(
 dbt通过`ref()`宏原生生成血缘：
 
 {% raw %}
+
 ```sql
 -- models/mart/daily_pnl.sql
 {{ config(materialized='table') }}
@@ -187,6 +196,7 @@ JOIN {{ ref('fx_rates') }} fx
   AND t.trade_date = fx.rate_date
 GROUP BY t.trade_date
 ```
+
 {% endraw %}
 
 dbt将其编译为完整的血缘图：
@@ -286,7 +296,7 @@ emitter.emit(upstream_lineage)
 | **Spark** | Python/Scala | OpenLineage Spark集成（自动，无需代码更改） |
 | **Kafka** | 流式 | Schema Registry + 每个主题的自定义血缘事件 |
 
-### 特别是Snowflake（现代银行平台中常见）：
+### 特别是Snowflake（现代银行平台中常见）
 
 ```sql
 -- Snowflake的access_history显示列级血缘
@@ -301,7 +311,7 @@ WHERE query_start_time > dateadd('day', -1, current_timestamp())
 ORDER BY query_start_time DESC;
 ```
 
-### Spark OpenLineage（零代码检测）：
+### Spark OpenLineage（零代码检测）
 
 ```bash
 # 添加到spark-submit — 所有Spark作业的自动血缘
@@ -387,10 +397,12 @@ result.walk()  # → 回溯到 raw.transactions.amount 和 ref.fx_rates.rate
 ```
 
 对于包含动态SQL的存储过程——你无法静态解析。你的选项：
+
 1. 运行时追踪（检测数据库引擎）
 2. 大模型辅助解析——将过程输入Claude，提取JSON格式的血缘图
 
 {% raw %}
+
 ```python
 # 针对复杂存储过程的AI辅助血缘提取
 import anthropic
@@ -417,6 +429,7 @@ response = client.messages.create(
 )
 lineage_json = response.content[0].text
 ```
+
 {% endraw %}
 
 对于静态解析器难以处理的复杂PL/SQL和T-SQL过程，这种方法效果出奇地好。

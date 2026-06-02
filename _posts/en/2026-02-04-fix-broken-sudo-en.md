@@ -48,9 +48,11 @@ You can't fix this with `sudo` (it's broken), so you need root access another wa
 
    - `4755` = owner read/write/execute + setuid bit + group/other read/execute.
    - After this, `ls -l /usr/bin/sudo` should show something like:
+
      ```
      -rwsr-xr-x 1 root root ... /usr/bin/sudo
      ```
+
      (the `s` in place of `x` = setuid bit)
 
 8. Optional but good: also fix `su` if broken:

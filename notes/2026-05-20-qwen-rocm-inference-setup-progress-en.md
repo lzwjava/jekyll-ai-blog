@@ -14,6 +14,7 @@ Here's a concise summary of your current server setup status:
 **Current Status**: Successfully downloading a Qwen model onto a DigitalOcean ROCm droplet for inference.
 
 **Key Points**:
+
 1. **Infrastructure**: DigitalOcean MI300X GPU droplet (ROCm-enabled) successfully provisioned and accessed via SSH/UJupyter
 2. **Model Download**: Initially failed with `wget` (404 error), but now successfully downloading via `huggingface-cli` - currently at 88% (35.8/40.4 GB) of the Qwen3.5-122B-UD-Q4_K.gguf file
 3. **Next Steps**: After download completes, you'll need to:

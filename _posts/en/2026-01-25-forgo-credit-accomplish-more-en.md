@@ -23,17 +23,20 @@ Your sentence appears to be a paraphrase of one of Truman's most famous quotes:
 This quote captures a key part of Truman's philosophy and character. Here's how to understand it in the context of Truman himself:
 
 ### Core Meaning of the Quote
+
 - **Ego detachment** — Truman believed that when people (especially leaders) stop obsessing over personal recognition, praise, or "who gets the glory," teams, organizations, and even nations can achieve far more ambitious results.
 - **Focus on results over reputation** — The real goal should be the outcome (e.g., winning a war, rebuilding Europe, passing major legislation), not individual fame.
 - **Enables collaboration** — In politics, business, or any group effort, caring too much about credit creates competition, jealousy, and politics. Letting go of that allows genuine teamwork and idea-sharing.
 - **Humility as strength** — Truman was known for being plain-spoken and unpretentious (famously saying "The buck stops here" on his desk, meaning he took ultimate responsibility). He didn't seek the spotlight like some other presidents.
 
 ### Truman's Life and Actions Reflect This Principle
+
 - He frequently gave credit to others: for example, he publicly praised General George Marshall (author of the Marshall Plan) and others rather than claiming sole ownership of big successes.
 - Many of his major achievements (atomic bomb decision, Korean War, civil rights steps like desegregating the military) were controversial and damaged his popularity at the time—he left office with very low approval ratings. Yet he prioritized what he thought was right over personal legacy.
 - Truman often worked behind the scenes or let others take public credit if it helped the policy succeed.
 
 ### Practical Ways to Apply This Idea Today
+
 - In teams or startups: Encourage idea contribution without fighting over authorship. The project succeeds → everyone wins.
 - In leadership: Good leaders amplify others rather than steal spotlight.
 - In personal growth: When ego is reduced, people take more risks, listen better, and persist longer because failure isn't tied to personal image.

@@ -24,6 +24,7 @@ When Copilot underperforms — whether on code generation, editing, or Q&A — t
 This is the **most common and most overlooked** cause in enterprise settings.
 
 **What to check:**
+
 - Is the library, framework, or API **released or significantly updated in the last 1–2 years?**
 - Examples in banking context:
   - New versions of **Spring Boot 3.x**, **Quarkus**, **Java 21 virtual threads**
@@ -35,6 +36,7 @@ This is the **most common and most overlooked** cause in enterprise settings.
 - If the technology postdates the model's cutoff, the model will either **hallucinate**, give **deprecated patterns**, or simply refuse confidently with wrong info
 
 **Mitigation:**
+
 - Always tell Copilot explicitly: *"Use Spring Boot 2.7 patterns"* or *"Assume Java 11"* — pin to a version the model knows
 - Paste the **official changelog or release notes** directly into the prompt as context
 - Use RAG-enabled tools or internal knowledge bases if available in your enterprise Copilot deployment
@@ -56,6 +58,7 @@ Poor prompts produce poor answers — the model is not "dumb", it is **under-inf
 | Asking too many things at once | Partial or mixed answer | Break into sub-tasks |
 
 **Banking-specific prompt tips:**
+
 - Always specify **regulatory context**: *"This must comply with GDPR Article 17"* or *"This is a SWIFT MT103 transaction parser"*
 - Specify **error handling expectations**: banking code must be defensive — say so explicitly
 - Mention **concurrency and transaction safety** requirements if relevant
@@ -67,16 +70,19 @@ Poor prompts produce poor answers — the model is not "dumb", it is **under-inf
 Enterprise banking codebases are **large and deeply coupled** — this directly hits context limits.
 
 **What to check:**
+
 - Is the file or class you're editing **too large** to fit in one context window?
 - Are you pasting in too much surrounding code, leaving little room for the actual question?
 - Is the conversation thread **too long**, causing the model to "forget" earlier instructions?
 
 **Practical limits to be aware of (approximate):**
+
 - GPT-4 Turbo: ~128K tokens
 - GPT-4o: ~128K tokens
 - Copilot in IDE: typically sends only a **sliding window** of surrounding code, not the whole file
 
 **Mitigation strategies:**
+
 - **Chunk your problem**: send one function/class at a time
 - **Summarize context**: instead of pasting 500 lines, write a 10-line summary of what the surrounding system does
 - **Restart the thread** if it has grown very long — older context gets deprioritized or dropped
@@ -98,6 +104,7 @@ Some problems are **genuinely hard** for any LLM, regardless of recency or promp
 - **Numerical/financial precision**: Floating point issues, rounding rules (banker's rounding), currency arithmetic — models often get these subtly wrong
 
 **Mitigation:**
+
 - Decompose complex problems into smaller, independently verifiable steps
 - Validate all financial calculation logic against a **known test oracle**
 - Use Copilot for **scaffolding and boilerplate**, not for owning critical business logic
@@ -109,6 +116,7 @@ Some problems are **genuinely hard** for any LLM, regardless of recency or promp
 Sometimes the issue is not you — it's the deployment.
 
 **What to check:**
+
 - Which model is actually being used? GPT-3.5 vs GPT-4 vs GPT-4o produce **dramatically different quality**
 - Is your enterprise Copilot deployment using a **content filtering policy** that is truncating or modifying prompts/responses?
 - Is there a **system prompt** injected by your enterprise that overrides or confuses the model's behavior?
@@ -120,6 +128,7 @@ Sometimes the issue is not you — it's the deployment.
 ## 6. Domain Knowledge Gap (Banking-Specific)
 
 **What to check:**
+
 - Does the problem require **proprietary banking domain knowledge** the model cannot have?
   - Internal API schemas
   - Vendor-specific middleware (Murex, Temenos, Finastra, Calypso)
@@ -127,6 +136,7 @@ Sometimes the issue is not you — it's the deployment.
   - Bank-internal coding standards or approved libraries
 
 **Mitigation:**
+
 - Paste relevant **API documentation, schema definitions, or interface contracts** directly into the prompt
 - Create **few-shot examples** using your internal patterns so the model learns your style within the session
 

@@ -29,8 +29,8 @@ This immigrant journey from persecution to opportunity is often highlighted as a
 
 References:
 
-- https://en.wikipedia.org/wiki/Sergey_Brin
-- https://www.ilctr.org/about-immigrants/immigrant-entrepreneurs/hall-of-fame/sergey-brin/
-- https://www.tryalma.com/learn/sergey-brin-immigration-story
-- https://www.nytimes.com/2009/10/25/us/25donate.html
-- https://momentmag.com/the-story-of-sergey-brin/
+- <https://en.wikipedia.org/wiki/Sergey_Brin>
+- <https://www.ilctr.org/about-immigrants/immigrant-entrepreneurs/hall-of-fame/sergey-brin/>
+- <https://www.tryalma.com/learn/sergey-brin-immigration-story>
+- <https://www.nytimes.com/2009/10/25/us/25donate.html>
+- <https://momentmag.com/the-story-of-sergey-brin/>

@@ -15,6 +15,7 @@ type: note
 
 **问题 1: `getUpdates` 409 Conflict (🔴 严重)**
 Telegram bot token 正在被 **两个程序同时使用**：
+
 - OpenClaw 的 Telegram plugin (long polling)
 - 你 blog-source 中的 `telegram_bot.py` (同样在调用 `getUpdates`)
 

@@ -13,6 +13,7 @@ Daniel P. Friedman 是编程语言和函数式编程领域的传奇人物，以�
 ---
 
 ### **Daniel P. Friedman 核心著作**
+
 1. **《The Little Schemer》**（与 Matthias Felleisen 合著）
    通过苏格拉底式对话展开关于递归和函数式编程的思维探索。本书使用 Scheme 语言，通过趣味问答教你掌握“递归思维”。
 
@@ -40,6 +41,7 @@ Daniel P. Friedman 是编程语言和函数式编程领域的传奇人物，以�
 ---
 
 ### **Friedman 著作的独特价值**
+
 - **苏格拉底式教学**：通过对话与渐进式谜题引导读者主动思考
 - **递归深度解析**：以独特视角开启函数式编程与语言设计的大门
 - **理论与实践结合**：多数作品包含从零构建解释器/编译器/证明器的实践
@@ -48,7 +50,9 @@ Daniel P. Friedman 是编程语言和函数式编程领域的传奇人物，以�
 ---
 
 ### **与原书单关联推荐**
+
 若你喜欢：
+
 - **《SICP》**：可尝试《Essentials of Programming Languages》或《The Little Schemer》
 - **《CLRS》（算法导论）**：《The Reasoned Schemer》提供逻辑编程视角的问题解决思路
 - **《Types and Programming Languages》**：《The Little Typer》是进阶类型系统的温和入门

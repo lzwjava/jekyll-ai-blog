@@ -37,7 +37,6 @@ Mao argued that the Chinese revolution must be divided into two distinct stages:
 * Private capitalist enterprises that did not "dominate the livelihood of the people" would be allowed to exist.
 * **"Land to the Tiller"**: Feudal landownership would be abolished in favor of peasant ownership.
 
-
 * **Cultural Vision:** Mao called for a **"National, Scientific, and Mass-oriented"** culture. It should oppose imperialist oppression, embrace scientific reasoning over superstition, and be accessible to the common people.
 
 ---

@@ -37,6 +37,7 @@ From 2016 to now (~9 years), they've put out 711+ talks — averaging ~80/year. 
 **Current Status**
 
 Still **actively running** as of 2025–2026:
+
 - A researcher gave an invited talk at TechBeat (将门创投) as recently as **February 2026**, confirming the community is still live and inviting speakers.
 - The tagline has evolved to **"让AI大有可为"** (Let AI do more), reflecting the LLM era pivot.
 

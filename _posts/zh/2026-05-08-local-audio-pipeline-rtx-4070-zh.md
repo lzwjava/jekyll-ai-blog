@@ -44,6 +44,7 @@ type: note
 DeepFilterNet3 是一个开源语音增强框架，利用深度学习抑制全带宽音频（最高 48 kHz）中的噪声。经过 2025 年和 2026 年初的重大更新，它代表了当前最先进水平，融入了额外的网络层和精细的感知优化——在短片段上实现了 PESQ 得分 3.5–4.0+ 以及 STOI 超过 0.95。
 
 安装与运行：
+
 ```bash
 pip install deepfilternet
 deepFilter your_meeting.wav
@@ -77,6 +78,7 @@ TimeBolt 可以对音频进行标准化、使用 CUDA GPU 加速渲染，并导�
 ### ✅ pydub（Python，可编程）
 
 适用于脚本化流程，允许精确设定静音阈值：
+
 ```python
 from pydub import AudioSegment, silence
 audio = AudioSegment.from_wav("meeting.wav")
@@ -94,6 +96,7 @@ ffmpeg -i cleaned.wav -af loudnorm=I=-16:TP=-1.5:LRA=11 normalized.wav
 ```
 
 或者使用 **SoX** 进行标准化 + 重采样：
+
 ```bash
 sox input.wav output.wav norm rate 44100
 ```
@@ -136,6 +139,7 @@ whisperx meeting.wav --model large-v2 --diarize --hf_token YOUR_HF_TOKEN --devic
 ```
 
 这将为你提供：
+
 - 完整转录文本
 - 词级时间戳
 - 说话人标签（SPEAKER_00、SPEAKER_01 等）

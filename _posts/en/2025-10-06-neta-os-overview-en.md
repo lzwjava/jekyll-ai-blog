@@ -19,6 +19,7 @@ Neta, a brand under Hozon Auto (also known as Hozon New Energy Automobile Co., L
 At the heart of Neta vehicles is **Neta OS**, a proprietary infotainment and vehicle control system designed for intuitive, connected driving. Built on reliable platforms like BlackBerry QNX Neutrino RTOS and Hypervisor for safety-critical functions, it pairs with Qualcomm's Snapdragon Automotive Cockpit (e.g., 3rd Generation in Neta S) for high-performance computing. This enables smooth multitasking across screens and supports over-the-air (OTA) updates for continuous improvements.
 
 Key features include:
+
 - **Large Touchscreens**: Models like Neta X feature a 17.6-inch vertical central display and an 8-inch digital instrument cluster for navigation, media, and vehicle stats.
 - **Voice Control and AI**: Natural language processing for hands-free commands (e.g., "Navigate to nearest charger" or "Play playlist"). Integrated Neta GPT for conversational assistance in newer models.
 - **Connectivity**: 5G/Wi-Fi support, 4G fallback, Bluetooth, Apple CarPlay/Android Auto compatibility, and app integration for remote monitoring via the Neta app.
@@ -63,11 +64,13 @@ Always charge in ventilated areas; low battery triggers warnings and limp mode.
 - **Battery Volume/Capacity**: As noted, 31.7–91 kWh, with efficient packing (e.g., 38.54 kWh in Neta V Pro for 401 km range). No physical "volume" specs, but slim underfloor placement preserves cabin space.
 
 ### Additional Notes ("Etc.")
+
 Neta excels in affordability and tech: Models like Neta V start at ~$11,900 with 401 km range; GT offers 190 km/h top speed for sports fans. Safety includes 5-star ratings, multiple airbags, and thermal runaway prevention. Maintenance is low (no oil changes), with 24/7 roadside via app. Future plans include three new models by 2025, expanding global reach.
 
 For model-specific details, check local dealers or the Neta app.
 
 ### References
+
 - [Neta X Electric SUV Specifications](https://www.facebook.com/groups/838869287851716/posts/1221523136252994/)
 - [NETA AUTO selects BlackBerry QNX](https://www.prnewswire.com/news-releases/neta-auto-selects-blackberry-qnx-to-power-the-neta-s-next-generation-ev-sedan-for-the-chinese-market-301596193.html)
 - [Hozon Neta S Launch](https://www.reddit.com/r/electricvehicles/comments/wdq6ai/hozon_neta_s_officially_launched_in_china_starts/)

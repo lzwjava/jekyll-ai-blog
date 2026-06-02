@@ -17,6 +17,7 @@ type: note
 `ping6` 是 macOS（以及其他一些类 Unix 系统）上经典 `ping` 工具的 IPv6 版本。与 GNU/Linux 版本不同，macOS 的 `ping6`（由 Apple 提供）的语法略有不同，并且不支持 `--help` 或长选项。
 
 ### 基本用法
+
 ```bash
 ping6 ipv6-address
 ping6 hostname

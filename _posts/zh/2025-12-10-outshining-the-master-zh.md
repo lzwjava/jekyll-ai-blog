@@ -28,6 +28,7 @@ type: note
 这些观点之所以不受欢迎，是因为它们与根深蒂固的孝道、职业礼仪和谦逊信号的观念相冲突——但许多真正超越了老师的高成就者（悄悄地）持有这些观点。
 
 参考资料：
+
 - [《权力的48条法则》——法第1条：永远不要超越主人](https://en.wikipedia.org/wiki/The_48_Laws_of_Power)
 - [保罗·格雷厄姆——如何做伟大的工作（关于导师的部分）](http://paulgraham.com/greatwork.html)
 - [纳瓦尔·拉维坎特关于导师和超越他们的观点（Twitter 推文，各种）](https://twitter.com/naval/status/1002103360646823936)

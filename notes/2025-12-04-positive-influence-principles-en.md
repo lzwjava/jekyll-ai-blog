@@ -17,11 +17,13 @@ Answer:
 *How to Win Friends and Influence People* (first published in 1936) is structured into four main parts, each containing practical principles backed by stories and examples. Here are the core ideas from each section:
 
 ### Part 1: Fundamental Techniques in Handling People
+
 1. **Don’t criticize, condemn, or complain** – Criticism puts people on the defensive and usually makes them strive to justify themselves.
 2. **Give honest and sincere appreciation** – People crave appreciation almost as much as food; sincere praise is far more effective than flattery.
 3. **Arouse in the other person an eager want** – To influence someone, talk about what they want and show them how to get it.
 
 ### Part 2: Six Ways to Make People Like You
+
 1. **Become genuinely interested in other people** – People are most interested in themselves; showing real interest in others makes you likable.
 2. **Smile** – A simple, warm smile signals friendliness and makes a strong positive impression.
 3. **Remember that a person’s name is to that person the sweetest and most important sound in any language** – Using someone’s name is a subtle and effective compliment.
@@ -30,6 +32,7 @@ Answer:
 6. **Make the other person feel important – and do it sincerely** – Everyone wants to feel significant; recognize that desire genuinely.
 
 ### Part 3: How to Win People to Your Way of Thinking
+
 1. **The only way to get the best of an argument is to avoid it** – You can’t win an argument; even if you “win,” you lose goodwill.
 2. **Show respect for the other person’s opinions. Never say “You’re wrong.”** – Direct contradiction makes people defensive.
 3. **If you are wrong, admit it quickly and emphatically** – A sincere admission disarms criticism and earns respect.
@@ -44,6 +47,7 @@ Answer:
 12. **Throw down a challenge** – Stimulate competition and desire to excel.
 
 ### Part 4: Be a Leader – How to Change People Without Giving Offense or Arousing Resentment
+
 1. **Begin with praise and honest appreciation** – Start positive before addressing problems.
 2. **Call attention to people’s mistakes indirectly** – Use questions or suggestions instead of direct criticism.
 3. **Talk about your own mistakes before criticizing the other person** – This makes you relatable and softens the blow.
@@ -57,5 +61,6 @@ Answer:
 These principles remain widely taught in business, sales, leadership, and personal development because they focus on human psychology: people respond best to appreciation, respect, and feeling important rather than to criticism or force.
 
 References:
+
 - [How to Win Friends and Influence People – Wikipedia](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
 - [Official Dale Carnegie site – Book summary](https://www.dalecarnegie.com/en/resources/how-to-win-friends-and-influence-people)

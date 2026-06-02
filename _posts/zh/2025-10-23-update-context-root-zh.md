@@ -15,10 +15,12 @@ type: note
 Web 上下文根路径定义了 Web 应用程序的基础 URL 路径（例如 `/myapp`）。在 IBM WebSphere Application Server 中，您可以通过管理控制台在初始部署时或为现有应用程序更新该路径。以下是针对现有应用程序的操作步骤，请确保您拥有 WAS 控制台的管理员访问权限。
 
 #### 前提条件
+
 - 可访问 WebSphere 管理控制台（通常位于 `https://your-server:9043/ibm/console`）
 - 应用程序必须已安装并处于停止状态（建议），以避免修改时产生冲突
 
 #### 更新上下文根路径步骤
+
 1. **登录管理控制台**：
    - 打开浏览器访问 WAS 控制台 URL
    - 输入管理员凭据
@@ -52,6 +54,7 @@ Web 上下文根路径定义了 Web 应用程序的基础 URL 路径（例如 `/
    - 检查服务器日志（如 `SystemOut.log`）中是否存在部署相关错误
 
 #### 补充说明
+
 - **初始部署期间**：若部署新应用，可在 **选择安装选项** 步骤中为每个 Web 模块指定上下文根
 - **EAR 文件**：对于 EAR 格式的应用程序，请确保 `application.xml` 未硬编码上下文根，控制台中的设置具有更高优先级
 - **常见问题**：
@@ -63,6 +66,7 @@ Web 上下文根路径定义了 Web 应用程序的基础 URL 路径（例如 `/
 更多细节请参考 IBM 官方文档或技术社区指南。
 
 #### 参考资源
+
 - [Web 模块的上下文根设置](https://www.ibm.com/docs/SSEQTP_9.0.5/com.ibm.websphere.base.doc/ae/uweb_contextroot.html)
 - [IBM WebSphere - 应用程序上下文根](https://www.freekb.net/Article?id=1647)
 - [WebSphere 8.5 上下文根更改未应用于 WAR 文件](https://stackoverflow.com/questions/24472790/websphere-8-5-context-root-change-not-applying-to-war-file)

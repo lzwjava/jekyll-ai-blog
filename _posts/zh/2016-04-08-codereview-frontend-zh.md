@@ -59,8 +59,9 @@ HTML 模板是静态内容和动态 Vue 组件的混合体。以下是英雄部�
 </section>
 ```
 
-### 关键特性：
-1. **动态数据绑定**：` :src` 和 `v-html` 指令将 `reviews`reviews`数组中的数据（在脚本中定义）绑定到模板。这使得应用能够基于获取或硬编码的数据动态渲染内容。
+### 关键特性
+
+1. **动态数据绑定**：`:src` 和 `v-html` 指令将 `reviews`reviews`数组中的数据（在脚本中定义）绑定到模板。这使得应用能够基于获取或硬编码的数据动态渲染内容。
 2. **事件处理**：`@click="goDetail(reviews[0].reviewId)"` 指令触发一个方法，导航到审查的详细视图，展示了 Vue 无缝的事件系统。
 3. **循环与 `v-for`**：`v-for` 指令遍历`authors` 和 `tags` 等数组，高效渲染多个元素。这非常适合展示多个贡献者或元数据，无需硬编码。
 
@@ -93,6 +94,7 @@ import Contactus from '../components/contactus.vue';
 ```
 
 这些组件被注册并在模板中使用，例如 `<reviewer :reviewers="reviewers"></reviewer>` 和 `<guide></guide>`。这种模块化方法：
+
 - **减少冗余**：通用 UI 元素（如审查者卡片）在页面间重用。
 - **提高可维护性**：每个组件封装了自己的逻辑和样式。
 
@@ -104,7 +106,7 @@ import Contactus from '../components/contactus.vue';
 </overlay>
 ```
 
-这里，` :overlay.sync` 将覆盖层的可见性与 `overlayStatus` 数据属性同步，而 `:is` 动态渲染 `currentView` 组件（例如 `Contactus`）。这是一种处理模态框或弹出窗口的强大方式，无需在主模板中增加杂乱。
+这里，`:overlay.sync` 将覆盖层的可见性与 `overlayStatus` 数据属性同步，而 `:is` 动态渲染 `currentView` 组件（例如 `Contactus`）。这是一种处理模态框或弹出窗口的强大方式，无需在主模板中增加杂乱。
 
 ## 数据获取：HTTP  HTTP 请求与初始化
 
@@ -164,7 +166,8 @@ created() {
             opacity 1.0
 ```
 
-### 亮点：
+### 亮点
+
 - **悬停效果**：`&:hover` 伪类缩放图像并移动文本，打造流畅的交互体验。
 - **灵活性**：`clearfix()` 混合和 `pull-left()` 工具确保响应式网格布局。
 - **视觉精致**：阴影和过渡（例如 `transition: all 0.35s ease 0s`）增添了深度和流畅性。
@@ -174,6 +177,7 @@ created() {
 ## 对你下一个项目的启示
 
 这个代码审查平台提供了宝贵的经验：
+
 1. **利用 Vue 的反应性**：动态绑定数据并使用组件保持应用的模块化。
 2. **规划可扩展性**：随着应用增长，将硬编码数据替换为 API 调用。
 3. **巧妙设计样式**：使用 Stylus 等预处理器实现可维护、可复用的样式。

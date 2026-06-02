@@ -14,7 +14,8 @@ type: note
 
 HIV stands for **Human Immunodeficiency Virus**. It is a virus that attacks the body's immune system, specifically the CD4 cells (T cells), which help fight infections. If left untreated, HIV weakens the immune system over time, making it harder for the body to combat other diseases.
 
-#### Key Facts About HIV:
+#### Key Facts About HIV
+
 - **Transmission**: HIV spreads through certain body fluids (blood, semen, pre-seminal fluid, rectal fluids, vaginal fluids) entering the bloodstream or mucous membranes. Common ways include unprotected anal or vaginal sex, sharing needles/syringes, or from mother to child during pregnancy, birth, or breastfeeding. It does **not** spread through saliva, sweat, tears, casual contact, or air.
 - **Stages**:
   - **Acute Infection**: Occurs 2–4 weeks after exposure; flu-like symptoms (fever, rash, sore throat) are common, and the virus is highly contagious.
@@ -30,7 +31,8 @@ There is no cure, but with modern treatment, HIV is a manageable chronic conditi
 
 AIDS stands for **Acquired Immunodeficiency Syndrome**. It is not a separate virus but the most advanced stage of HIV infection, where the immune system is severely damaged (CD4 count below 200 cells/mm³ or presence of opportunistic infections).
 
-#### Key Facts About AIDS:
+#### Key Facts About AIDS
+
 - **Relation to HIV**: Everyone with AIDS has HIV, but not everyone with HIV develops AIDS. Effective treatment prevents progression.
 - **Symptoms**: Severe—includes rapid weight loss, recurring fever, extreme fatigue, prolonged swelling of lymph glands, diarrhea lasting over a week, sores in mouth/anus/genitals, pneumonia, memory loss, and cancers like Kaposi's sarcoma.
 - **Transmission Risk**: People with AIDS have high viral loads, increasing the chance of spreading HIV.

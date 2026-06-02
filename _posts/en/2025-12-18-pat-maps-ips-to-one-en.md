@@ -20,7 +20,8 @@ Answer:
 
 The correct answer is **C) PAT (Overload)**.
 
-### Explanation:
+### Explanation
+
 Network Address Translation (NAT) allows private IP addresses to communicate with external networks using public IP addresses. The different types are:
 
 - **Static NAT**: Provides a one-to-one mapping where a single private IP is always translated to the same single public IP. It does not allow multiple private IPs to share one public IP.

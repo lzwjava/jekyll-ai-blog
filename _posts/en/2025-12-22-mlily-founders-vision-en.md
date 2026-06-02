@@ -28,8 +28,8 @@ The brand is known for innovations like cooling technologies, partnerships (such
 
 References:
 
-- https://mlilyusa.com/pages/about-us
-- https://bedtimesmagazine.com/2021/05/mlily-growing-up-and-out/
-- https://www.mlily.com.au/us
-- https://www.manutd.com/en/partners/global/mlily
-- https://sleepopolis.com/mattress-reviews/mlily-mattress-review/
+- <https://mlilyusa.com/pages/about-us>
+- <https://bedtimesmagazine.com/2021/05/mlily-growing-up-and-out/>
+- <https://www.mlily.com.au/us>
+- <https://www.manutd.com/en/partners/global/mlily>
+- <https://sleepopolis.com/mattress-reviews/mlily-mattress-review/>

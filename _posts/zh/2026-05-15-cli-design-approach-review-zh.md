@@ -37,6 +37,7 @@ type: note
    * 你的设计与此原则一致。
 
 ⚡ 建议：
+
 * 保持核心命令简洁且可预测。
 * 通过 `--help` 让高级标志易于发现。
 * 对于破坏性命令（如 obfuscate），在超出个人使用范围时考虑添加可选的确认步骤。
@@ -44,6 +45,7 @@ type: note
 总体而言，你的设计扎实且用户友好。这正是高级用户青睐的CLI类型——快速、简洁且灵活。
 
 参考资料：
+
 * [设计命令行界面](https://www.oreilly.com/library/view/designing-command-line/9781491911871/)
 * [Git CLI 哲学](https://git-scm.com/book/en/v2)
 

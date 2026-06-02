@@ -11,6 +11,7 @@ type: note
 Below is a list of young (under 30 or achieved significant success before 30) engineers and scientists who have made notable contributions in tech, similar to the innovative spirit of Cornelius Palm, Alexandr Wang, and George Hotz. These individuals are recognized for groundbreaking work in engineering, scientific research, or technical innovation, often blending technical expertise with real-world impact. The selection draws on web sources like Forbes’ 30 Under 30 lists and other relevant profiles, focusing on recent achievements as of April 20, 2025.[](https://news.mit.edu/2016/forbes-30-under-30-lists-0107)[](https://www.forbes.com/sites/sarahhedgecock/2015/01/05/30-under-30-young-scientists-who-are-changing-the-world/)[](https://www.jagranjosh.com/general-knowledge/list-of-top-people-under-age-of-30-1704694608-1)
 
 ### Young Engineers and Scientists in Tech
+
 1. **Kairan Quazi** (Age: 16, born 2008)
    - **Field**: Software Engineering
    - **Achievements**: Graduated from Santa Clara University at 14, becoming its youngest-ever graduate. Now a software engineer at SpaceX’s Starlink team, specializing in data-centric beam planning solutions, low-latency computation, and real-time system design. Previously interned at Intel.
@@ -62,11 +63,13 @@ Below is a list of young (under 30 or achieved significant success before 30) en
     - **Why Notable**: Her low-cost, high-impact medical devices save lives in resource-constrained settings.
 
 ### Comparison to Palm, Wang, and Hotz
+
 - **Cornelius Palm** (Happyr Health): Palm’s healthtech innovations align with Chhabra, Nance, and Brown, who apply engineering to medical challenges, improving lives through technology.
 - **Alexandr Wang** (Scale AI): Wang’s AI expertise parallels Quazi and Sodha, who excel in data-driven systems and computation, pushing AI and real-time tech forward.
 - **George Hotz** (comma.ai): Hotz’s self-driving tech resonates with Sanchez, Gallucci, and Clarke, whose engineering advances autonomous systems and aerospace.
 
 ### Notes
+
 - Selection prioritizes engineers and scientists under 30 (or successful by 30) with tangible tech contributions, based on sources like Forbes’ 30 Under 30 (2014–2024) and X posts.[](https://news.mit.edu/2016/forbes-30-under-30-lists-0107)[](https://www.forbes.com/sites/sarahhedgecock/2015/01/05/30-under-30-young-scientists-who-are-changing-the-world/)[](https://www.jagranjosh.com/general-knowledge/list-of-top-people-under-age-of-30-1704694608-1)
 - Ages are estimated where exact birth years are unavailable, using achievement timelines (e.g., Forbes listings).
 - Unlike the previous response, this list excludes pure entrepreneurs (e.g., Melanie Perkins, Ritesh Agarwal) and focuses on technical contributors in engineering and science.

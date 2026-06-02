@@ -28,9 +28,9 @@ type: note
 - **发送和接收不可靠：** 大量用户报告频繁出现“消息发送失败”，邮件卡在“等待发送”状态。这是电子邮件应用的关键致命缺陷。一位用户说：“whenever I send messages it's always fail and it's always ask me to resend it which normally distort the whole flow of the chatting”。
 - **通知损坏或不可靠：** 许多用户报告没有收到新邮件通知，或者通知到来时缺少消息预览。这违背了设计用于快速聊天式通信的应用目的。一位沮丧的用户写道：“Every other app will notify you that you get message like normal notification. The app fail to do that until you open the app before you know you get a message”。
 - **技术性能差：**
-    - **同步/加载缓慢：** 应用经常卡在“updating...”屏幕上，或加载新消息需要超过一分钟，使其不适合快速检查。
-    - **Bug 和不稳定：** 用户报告应用冻结、更新后崩溃，或完全无法打开。
-    - **电子邮件格式化差：** “content-parsing engine” 经常失败，导致电子邮件格式化不良、缺少发件人姓名，或在移动设备上无法正确显示。
+  - **同步/加载缓慢：** 应用经常卡在“updating...”屏幕上，或加载新消息需要超过一分钟，使其不适合快速检查。
+  - **Bug 和不稳定：** 用户报告应用冻结、更新后崩溃，或完全无法打开。
+  - **电子邮件格式化差：** “content-parsing engine” 经常失败，导致电子邮件格式化不良、缺少发件人姓名，或在移动设备上无法正确显示。
 
 ### 🧩 功能缺失和缺少功能
 
@@ -38,10 +38,10 @@ type: note
 
 - **账户支持不完整：** 很长一段时间内，应用缺少对标准 **IMAP** 账户的支持，这意味着使用自定义电子邮件域名或小型提供商账户的用户无法使用。即使更新承诺支持，用户报告它仍然缺失或损坏。
 - **缺少基本电子邮件功能：**
-    - 不支持 **email aliases**，这对许多人是致命缺陷。
-    - 无法自定义 **swipe actions**（例如，向右滑动删除）。
-    - 无法访问 **email folders**（如 Sent、Spam 或自定义文件夹）用于组织。
-    - 缺少 **unified inbox**，这一功能在更新中被移除，激怒了长期用户。
+  - 不支持 **email aliases**，这对许多人是致命缺陷。
+  - 无法自定义 **swipe actions**（例如，向右滑动删除）。
+  - 无法访问 **email folders**（如 Sent、Spam 或自定义文件夹）用于组织。
+  - 缺少 **unified inbox**，这一功能在更新中被移除，激怒了长期用户。
 
 ### 🔒 隐私和信任担忧
 

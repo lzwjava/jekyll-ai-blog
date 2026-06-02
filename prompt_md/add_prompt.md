@@ -1,7 +1,9 @@
 # Refactor Prompt
 
 ## Instructions
+
 Refactor the Python code below, focusing on:
+
 - Improving readability
 - Enhancing maintainability
 - Following Python best practices
@@ -15,9 +17,11 @@ Refactor the Python code below, focusing on:
 - Only output the refactored code without any additional comments or explanations.
 
 ## Target File
+
 `scripts/prompt/add_prompt.py`
 
 ## Code to Refactor
+
 ```python
 import os
 import pyperclip
@@ -49,6 +53,7 @@ with open(prompt_file, 'a') as f:
 ```
 
 ## Sample Reference Code
+
 ```python
 import os
 import requests

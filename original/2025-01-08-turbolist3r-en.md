@@ -23,7 +23,7 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-Tried. https://github.com/aboul3la/Sublist3r
+Tried. <https://github.com/aboul3la/Sublist3r>
 
 ```bash
 % python  sublist3r.py -d google.com

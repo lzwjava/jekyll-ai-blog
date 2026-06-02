@@ -20,6 +20,7 @@ Network management applications need to periodically poll monitors to obtain the
 However, RMON2 designers developed an innovative method to implement this functionality within the MIB definition - using a **time filter for indexing**.
 
 **How it works:**
+
 - The time filter index allows managers to retrieve only those entries that have changed since a specified time
 - It's essentially a timestamp-based filtering mechanism
 - When a manager queries with a time filter index value, the agent responds with only the objects that have changed after that timestamp

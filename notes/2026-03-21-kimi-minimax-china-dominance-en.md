@@ -65,10 +65,12 @@ MiniMax reported a better-than-expected 159% jump in annual revenue in 2025, wit
 
 ## 7. Why the Others (Baichuan / 01.AI) Fell Behind
 
-### Baichuan (Wang Xiaochuan):
+### Baichuan (Wang Xiaochuan)
+
 Baichuan dramatically changed direction. Two of its co-founders resigned to start their own business, just months after another top executive left the multibillion-dollar company. Baichuan pivoted heavily toward **medical AI**, narrowing its focus and ceding the general-purpose LLM race.
 
-### 01.AI (Li Kaifu / Lee Kai-fu):
+### 01.AI (Li Kaifu / Lee Kai-fu)
+
 In August 2024, 01.AI lost its vice-president Huang Wenhao to ByteDance.
 
 01.AI started focusing on enterprise-grade solutions powered by DeepSeek rather than building its own frontier models, effectively giving up the race to be an independent model leader.

@@ -15,6 +15,7 @@ type: note
 您的 "Translate Recent Notes" GitHub Actions 工作流程整体结构良好——它能够检出代码库、设置Python环境、安装依赖、对最近N篇文章运行翻译脚本，并将更改提交到`_notes/`目录。但根据您之前分享的日志（在翻译成ar、de、fr等语言时出现401错误），问题出在`scripts/translation/update_lang_notes.py`内部的翻译API调用认证环节。
 
 #### 根本原因
+
 - 错误`"No cookie auth credentials found"`（HTTP 401）是**OpenRouter API**（或与之交互的Python客户端/库，如LiteLLM或非官方SDK）特有的错误。当API请求缺少正确的认证头信息时会出现此问题。
 - OpenRouter要求在请求中包含`Authorization: Bearer <your_openrouter_api_key>`。如果API密钥未正确传递，某些客户端会回退到（或误认为需要）基于cookie的会话认证，从而触发此特定错误。
 - 在您的工作流程中：
@@ -31,18 +32,22 @@ type: note
 1. **更新工作流程中的环境变量**：
    - 与常见的OpenRouter设置（OpenAI兼容）对齐。将"Translate posts"步骤中的`env`块改为：
 {% raw %}
+
      ```
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}  # 将变量名改为脚本期望的名称
        OPENAI_BASE_URL: https://openrouter.ai/api/v1   # 路由到OpenRouter所必需
      ```
+
 {% endraw %}
-   - 如果`DEEPSEEK_API_KEY`是您的OpenRouter密钥，很好。如果这是直接的DeepSeek密钥，请在仓库设置中创建一个新密钥`OPENROUTER_API_KEY`，填入您实际的OpenRouter密钥（在[openrouter.ai/keys](https://openrouter.ai/keys)获取）。
-   - 测试：在运行步骤中添加`echo $OPENAI_API_KEY`（已脱敏）用于日志调试。
+
+- 如果`DEEPSEEK_API_KEY`是您的OpenRouter密钥，很好。如果这是直接的DeepSeek密钥，请在仓库设置中创建一个新密钥`OPENROUTER_API_KEY`，填入您实际的OpenRouter密钥（在[openrouter.ai/keys](https://openrouter.ai/keys)获取）。
+- 测试：在运行步骤中添加`echo $OPENAI_API_KEY`（已脱敏）用于日志调试。
 
 2. **修复Python脚本（`update_lang_notes.py`）**：
    - 确保按以下方式初始化OpenAI客户端（假设使用`openai`库）：
+
      ```python
      import os
      from openai import OpenAI
@@ -54,6 +59,7 @@ type: note
 
      # 然后使用 client.chat.completions.create(..., model="x-ai/grok-4-fast")
      ```
+
    - 如果使用LiteLLM（常用于多提供商）：如果`requirements.txt`中没有，请安装它，并调用`completion(model="openrouter/x-ai/grok-4-fast", api_key=os.getenv("OPENAI_API_KEY"), api_base="https://openrouter.ai/api/v1", ...)`。
    - 对于翻译循环：为每种语言添加错误处理（例如，在API调用周围使用`try/except`，记录失败，如果是401则跳过）。
    - 显式处理cookies？可能不需要——坚持使用API密钥。如果脚本有浏览器/Selenium代码，请移除以提高CI可靠性。
@@ -66,6 +72,7 @@ type: note
    - **权限**：确保`github-pages`环境具有所需的读写权限。
    - 完整的"Translate posts"步骤更新YAML片段：
 {% raw %}
+
      ```
      - name: Translate posts
        run: |
@@ -75,6 +82,7 @@ type: note
          OPENAI_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
          OPENAI_BASE_URL: https://openrouter.ai/api/v1
      ```
+
 {% endraw %}
 
 4. **测试步骤**：
@@ -86,6 +94,7 @@ type: note
 这应该能解决401错误并使翻译流程正常运行。如果您分享`update_lang_notes.py`的代码片段（例如API客户端初始化部分），我可以更精确地定位问题。
 
 #### 参考资料
+
 - [OpenRouter快速入门（API认证设置）](https://openrouter.ai/docs/quickstart)
 - [LiteLLM OpenRouter集成](https://docs.litellm.ai/docs/providers/openrouter)（如果使用）
 - [关于类似OpenRouter认证错误的GitHub Issue](https://github.com/mendableai/firecrawl/issues/1352)

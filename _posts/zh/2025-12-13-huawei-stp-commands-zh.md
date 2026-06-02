@@ -17,6 +17,7 @@ type: note
 华为交换机支持多种生成树模式：STP（传统）、RSTP（快速）和MSTP（多实例，许多型号默认）。配置经典STP需要将模式设置为STP，但如今RSTP或MSTP更为常用。
 
 ### 全局配置命令
+
 - `stp mode stp`
   将生成树模式设置为经典STP（选项：stp, rstp, mstp）。
 
@@ -36,6 +37,7 @@ type: note
   配置交换机作为次根桥（将优先级设置为4096）。
 
 ### 接口配置命令
+
 首先进入接口视图：`interface <interface-type> <interface-number>`
 
 - `stp enable`
@@ -60,6 +62,7 @@ type: note
   （全局或接口）保护边缘端口免受意外BPDU的攻击。
 
 ### 显示和验证命令
+
 - `display stp`
   显示详细的STP状态和拓扑。
 

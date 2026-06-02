@@ -143,14 +143,18 @@ After `release:perform`, verify the release:
 #### Handling Failures
 
 - **Cleanup**: If the release process fails, use:
+
   ```bash
   mvn release:clean
   ```
+
   to remove temporary files created by the plugin.
 - **Rollback**: To undo changes made by `release:prepare`:
+
   ```bash
   mvn release:rollback
   ```
+
   Be cautious and verify what changes are reverted.
 
 #### Multi-Module Projects
@@ -177,18 +181,25 @@ mvn release:perform -B
 ### Summary of Commands
 
 1. **Prepare the release**:
+
    ```bash
    mvn release:prepare
    ```
+
 2. **Perform the release**:
+
    ```bash
    mvn release:perform
    ```
+
 3. **Optional dry run**:
+
    ```bash
    mvn release:prepare -DdryRun=true
    ```
+
 4. **Cleanup or rollback if needed**:
+
    ```bash
    mvn release:clean
    mvn release:rollback

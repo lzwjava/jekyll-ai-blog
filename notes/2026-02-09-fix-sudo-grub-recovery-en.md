@@ -37,30 +37,40 @@ Instead, follow one of these two paths from the current GRUB screen (both can wo
 5. Select **root** → press Enter.
 6. You should now have a root shell prompt (# symbol, already root — no password needed in most cases).
 7. The filesystem might be read-only at first. Make it writable:
+
    ```
    mount -o remount,rw /
    sync
    ```
+
 8. Now fix sudo (minimum commands):
+
    ```
    chown root:root /usr/bin/sudo
    chmod 4755 /usr/bin/sudo
    ```
+
    Also fix the sudo library directory you mentioned earlier:
+
    ```
    chown -R root:root /usr/lib/sudo
    chmod -R 755 /usr/lib/sudo
    ```
+
 9. Optional but strongly recommended — fix more common damage from the chown -R:
+
    ```
    chown root:root /usr/bin/pkexec 2>/dev/null
    chmod 4755 /usr/bin/pkexec 2>/dev/null
    chown -R root:root /usr/libexec /usr/lib/cups 2>/dev/null
    ```
+
 10. Exit the shell and continue booting:
+
     ```
     exit
     ```
+
     Then select **resume** (or just type `reboot` if you prefer).
 11. The system should now boot normally and sudo should work again (test with `sudo -l` after login).
 
@@ -82,6 +92,7 @@ Instead, follow one of these two paths from the current GRUB screen (both can wo
 If it doesn't give you a usable root shell (e.g. drops to busybox or filesystem errors), go straight to Path 2.
 
 After fixing sudo, you can also clean up the huge CUPS logs from inside the fixed system:
+
 ```
 sudo truncate -s 0 /var/log/cups/error_log*
 ```

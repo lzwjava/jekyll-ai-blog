@@ -46,5 +46,6 @@ Google Cloud 认证的有效期为 **2–3 年**，具体取决于级别（Found
 有关最新、最完整的列表（包括 2025-2026 年新增的任何认证），请直接查看官方页面。
 
 References:
+
 - [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification)
 - [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification) (official Google Cloud certifications page)

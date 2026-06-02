@@ -17,6 +17,7 @@ Answer:
 There are two main ways to set Git Bash as a terminal profile in Visual Studio Code on Windows: the easiest GUI method (recommended) and manually editing the settings.json file.
 
 ### Easiest Method (Using the Built-in Selector)
+
 1. Open the integrated terminal in VS Code by pressing `Ctrl + `` (backtick) or going to **Terminal > New Terminal**.
 2. In the terminal panel, click the dropdown arrow next to the "+" icon (or the current terminal name).
 3. Select **Select Default Profile** from the menu.
@@ -26,7 +27,9 @@ There are two main ways to set Git Bash as a terminal profile in Visual Studio C
 Git Bash is automatically detected by VS Code if Git is installed in the default location.
 
 ### Manual Method (Editing settings.json)
+
 If Git Bash does not appear in the dropdown or you need custom configuration:
+
 1. Open the Command Palette with `Ctrl + Shift + P`.
 2. Type and select **Preferences: Open Settings (JSON)**.
 3. Add or modify the following lines in your user settings.json:
@@ -52,6 +55,7 @@ If it's not detected (rare), explicitly define the profile:
 Adjust the path if your Git installation is elsewhere (common paths: `C:\\Program Files\\Git\\bin\\bash.exe` or `C:\\Program Files (x86)\\Git\\bin\\bash.exe`).
 
 **Notes**:
+
 - Use `bash.exe` (not `git-bash.exe`) for proper integration.
 - Adding `--login` to args can help load your ~/.bash_profile if needed, but it's optional.
 - After changes, open a new terminal to see Git Bash as the default.

@@ -23,6 +23,7 @@ type: note
 ## **你的当前状况：**
 
 你的背景包含：
+
 - ✅ IELTS 6.5 (符合最低语言要求)
 - ✅ 10 年 Software Engineering 经验 (非常有价值)
 - ❌ 大专学位 (不等同于 Bachelor's)
@@ -31,18 +32,24 @@ type: note
 ## **现实的选择：**
 
 ### **方案 1：先完成 Bachelor's Degree**
+
 这是最直接的路径。你可以：
+
 - 在中国完成 Bachelor's degree (如果目前在读，请完成该项目)
 - 考虑可能接受大专学分减免的在线 Bachelor's programs
 - 寻找可以将大专转为本科的 "top-up" degrees (在英国/澳大利亚很常见)
 
 ### **方案 2：申请新加坡的私立大学**
+
 一些私立机构可能更加灵活，例如：
+
 - **MDIS**：取决于具体的 programme，你可能需要相关专业的 Undergraduate degree 或相关领域的 Working experience
 - 他们可能会将丰富的工作经验视为部分补偿
 
 ### **方案 3：提供强有力的辅助材料进行申请**
+
 如果你不持有 Bachelor's degree，请提供你的 Diploma/Graduate Diploma 证书和 Transcripts，并附带：
+
 - 关于你 10 年 Software Engineering 工作的详细 Portfolio
 - 来自雇主的强有力的 Recommendation letters
 - 任何 Certifications、项目或对 Open source 的贡献

@@ -27,11 +27,13 @@ Here are the key integration features you asked about:
   You can configure YourKit to capture a snapshot automatically when your app terminates, and IDEA will open it immediately.
 
 Current status (as of YourKit 2024.9, which is the latest stable in late 2025):
+
 - Full support for IntelliJ IDEA 2023.3–2025.2+
 - Works perfectly with Java 8–24 (including virtual threads profiling on Java 21+)
 - Also supports Kotlin, Scala, Groovy, etc., and jumps to the correct source.
 
 Installation steps (quick):
+
 1. In IDEA → Settings → Plugins → Marketplace → search “YourKit”
 2. Install/restart
 3. YourKit agent is bundled with the plugin, so no separate YourKit installation needed for basic use (though you can install the full standalone YourKit app if you want the richer UI outside IDEA).

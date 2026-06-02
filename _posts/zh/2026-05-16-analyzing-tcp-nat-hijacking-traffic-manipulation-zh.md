@@ -117,6 +117,7 @@ iptables -t nat -A PREROUTING -p tcp -j REDSOCKS
   ```bash
   tcpdump -i any port 53 -vv
   ```
+
 * 检查你的DNS查询是否解析正确。
 
 ---

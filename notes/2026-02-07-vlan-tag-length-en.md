@@ -21,16 +21,15 @@ When a standard Ethernet frame is converted into a tagged frame, a 4-byte header
 The 4-byte (32-bit) tag is further divided into specific sub-fields:
 
 1. **TPID (Tag Protocol Identifier) - 2 Bytes:**
+
 * Set to a fixed value of `0x8100`.
 * This identifies the frame as an IEEE 802.1Q tagged frame.
 
-
 2. **TCI (Tag Control Information) - 2 Bytes:** This section is subdivided into:
+
 * **PCP (Priority Code Point):** 3 bits used for Quality of Service (QoS) to prioritize traffic.
 * **DEI (Drop Eligible Indicator):** 1 bit indicating if the frame can be dropped during congestion.
 * **VID (VLAN Identifier):** 12 bits used to identify the specific VLAN (supporting up to 4,096 unique IDs).
-
-
 
 ### Key Takeaway
 

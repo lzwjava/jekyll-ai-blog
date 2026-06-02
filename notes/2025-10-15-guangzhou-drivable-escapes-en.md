@@ -15,6 +15,7 @@ type: note
 Sticking to your vibe of drivable spots (under 1.5 hours from eastern Guangzhou) with water rhythms, small-scale parks, or mountain nooks for car-based focus sessions—I've picked quieter gems over mega-attractions. These have easy parking, natural sounds (lakes, rivers, streams), and that road-trip nostalgia. October's crisp air makes them prime for windows-down productivity.
 
 #### In Baiyun District (30-60 min drive northwest via airport expressway)
+
 1. **Luhu Lake Park**
    Tranquil urban lake with rippling waters, willow-lined paths, and minimal crowds—perfect for parking curbside and letting the soft splashes inspire your workflow, like a pocket Yunnan lake.
    **Drive & access**: 40 mins from Tianhe; free parking at the main entrance on Luhu Road. Entry: Free.
@@ -30,6 +31,7 @@ Sticking to your vibe of drivable spots (under 1.5 hours from eastern Guangzhou)
    **Drive & access**: 45 mins from east; street parking along the perimeter. Free.
 
 #### In Dongguan (30-60 min drive south via Guangzhou-Dongguan Expressway)
+
 1. **Songshan Lake Ecological Park**
    Expansive lake with boardwalks and gentle waves—park along the shore for immersive water sounds amid eco-greens, feeling like a hidden Tibet plateau by water.
    **Drive & access**: 40 mins to the north end; free parking zones everywhere. Entry: Free.
@@ -45,6 +47,7 @@ Sticking to your vibe of drivable spots (under 1.5 hours from eastern Guangzhou)
    **Drive & access**: 35 mins from Tianhe; free street parking nearby. Free.
 
 #### In Huizhou (1-1.5 hours drive east via Huizhou Expressway)
+
 1. **Huizhou West Lake Scenic Area**
    Classic lotus-filled lake with pavilion paths and soft ripples—pull over by the water for nostalgic waves that rival Yunnan's serenity.
    **Drive & access**: 1 hour to the core; free parking at multiple gates. Entry: Free or low (~10 CNY).
@@ -62,6 +65,7 @@ Sticking to your vibe of drivable spots (under 1.5 hours from eastern Guangzhou)
 These keep things intimate and restorative—start with Baiyun for the shortest hop. If Huizhou's too far or you crave more ocean (like Daya Bay), say the word for tweaks. Drive safe!
 
 **References**
+
 - [Baiyun Mountain Scenic Area](https://en.by.gov.cn/2025-05/15/c_756380.htm)
 - [Baiyun Mountain Hiking Guide](https://www.wanderwithjo.com/baiyun-mountain-great-spot-hiking-guangzhou/)
 - [Baiyun Waterside Walkway](https://www.newsgd.com/node_99363c4f3b/d2139cfa17.shtml)

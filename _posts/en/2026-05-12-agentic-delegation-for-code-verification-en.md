@@ -27,11 +27,13 @@ You're not asking "what are the params?" — you're saying:
 > "Do the experiment, judge the result, fix the problems, hand me the final answer."
 
 Claude Code handles the entire feedback loop:
+
 - Run → observe → diagnose → patch → confirm
 
 **2. It uses time-boxing as a sanity check**
 
 "Kill after 1 minute" is genius. It means:
+
 - No wasted GPU hours on a broken config
 - Claude sees real stdout/stderr (OOM errors, CUDA errors, loss=NaN, shape mismatches)
 - 1 minute is enough to confirm the training loop is healthy
@@ -41,6 +43,7 @@ Claude Code handles the entire feedback loop:
 > "Tell me it's OK — let me run in another terminal for hours"
 
 This is the perfect division of labor:
+
 - **Claude Code**: trial run, debugging, param validation
 - **You**: execute the final blessed command in `tmux`
 
@@ -60,6 +63,7 @@ then give me the final production command to run for real."
 ```
 
 Apply it to:
+
 - `torchrun` distributed training
 - `python tokenize.py` on large datasets
 - `pytest` on a big test suite before CI

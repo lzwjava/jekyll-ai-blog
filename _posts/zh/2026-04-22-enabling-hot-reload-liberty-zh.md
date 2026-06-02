@@ -92,19 +92,19 @@ Liberty 监控文件系统变更。如果是打包的 EAR：
 
 Liberty 提供了强大的开发模式：
 
-### 使用 Maven：
+### 使用 Maven
 
 ```bash
 mvn liberty:dev
 ```
 
-### 或 Gradle：
+### 或 Gradle
 
 ```bash
 gradle libertyDev
 ```
 
-### 提供的功能：
+### 提供的功能
 
 * 自动编译 Java 源码
 * 自动部署变更
@@ -127,7 +127,7 @@ Liberty 将会：
 
 * 触发完全的应用重启（不是完全的服务器重启）
 
-### 你可以通过以下方式强制重载：
+### 你可以通过以下方式强制重载
 
 ```bash
 touch server.xml
@@ -203,6 +203,7 @@ mvn liberty:start
    ```bash
    mvn liberty:dev
    ```
+
 3. 编辑 Java 代码
 4. 让 Maven 自动编译
 5. Liberty 即时重载

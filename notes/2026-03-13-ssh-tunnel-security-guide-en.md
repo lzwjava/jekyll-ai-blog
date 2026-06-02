@@ -37,6 +37,7 @@ Your setup uses a **local LAN IP address (`192.168.1.36`)** — this is a privat
 ### 2. SSH Tunnel Binds to `127.0.0.1` (Localhost Only)
 
 Your tunnel command:
+
 ```bash
 ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36
 ```
@@ -90,6 +91,7 @@ sudo nano /etc/ssh/sshd_config
 ```
 
 Set these:
+
 ```
 PasswordAuthentication no
 PermitRootLogin no
@@ -97,6 +99,7 @@ PubkeyAuthentication yes
 ```
 
 Then reload:
+
 ```bash
 sudo systemctl reload sshd
 ```

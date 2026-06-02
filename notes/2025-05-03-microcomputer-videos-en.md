@@ -51,7 +51,7 @@ Here are some YouTube video recommendations based on the "Microcomputer and Inte
 * **USB To UART/I2C/SPI/JTAG Converter, Supports multiple interfaces/systems, Compatible with 3.3V & 5V** by Waveshare Electronics (Published: 2024-12-11, Views: 1670) - [Link](http://www.youtube.com/watch?v=SOnbWwKCcoA)
 
 I hope these recommendations are helpful for your studies! Let me know if you have any other questions.
-http://googleusercontent.com/youtube_content/5 http://googleusercontent.com/youtube_content/1 http://googleusercontent.com/youtube_content/2 http://googleusercontent.com/youtube_content/3 http://googleusercontent.com/youtube_content/4
+<http://googleusercontent.com/youtube_content/5> <http://googleusercontent.com/youtube_content/1> <http://googleusercontent.com/youtube_content/2> <http://googleusercontent.com/youtube_content/3> <http://googleusercontent.com/youtube_content/4>
 
 ---
 

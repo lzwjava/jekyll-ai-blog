@@ -91,6 +91,7 @@ self.lstm = nn.LSTM(input_size=vocab_size, hidden_size=50, batch_first=True)
    x, (h, c) = self.lstm(x)         # x: (batch, seq, hidden)
    x = x.reshape(-1, self.lstm.hidden_size)  # (batch*seq, hidden)
    ```
+
 2. **在评估/推理时使用 `with torch.no_grad()`** 以避免跟踪梯度，并提高速度/内存效率：
 
    ```python
@@ -105,11 +106,13 @@ self.lstm = nn.LSTM(input_size=vocab_size, hidden_size=50, batch_first=True)
    ```python
    outputs = net(inputs_one_hot).detach().numpy()
    ```
+
 3. **也为PyTorch设置随机种子** 以确保可复现性：
 
    ```python
    torch.manual_seed(42)
    ```
+
 4. **设备处理**（如果你使用GPU）：
 
    ```python
@@ -118,6 +121,7 @@ self.lstm = nn.LSTM(input_size=vocab_size, hidden_size=50, batch_first=True)
    inputs_one_hot = inputs_one_hot.to(device)
    targets_idx = targets_idx.to(device)
    ```
+
 5. **目标对齐**：确保 `targets` 是与每个输入时间步对齐的**下一词元**。如果你的数据集以这种方式配对 `(inputs, targets)`，那就没问题。否则，创建 `targets = inputs[1:]` 并丢弃最后一个输入或类似操作。
 6. **除非有理由，否则去掉 `.bias=False`**；输出层上的偏置通常是无害/有帮助的。
 7. **填充/可变长度**（可选）：如果序列长度不同，考虑使用 `pack_padded_sequence` 以避免在填充词元上训练。

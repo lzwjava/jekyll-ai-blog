@@ -45,6 +45,7 @@ You're right that tools like **OpenClaw** (and similar local AI assistant wrappe
 - They treat web/general queries and local project queries as **separate modes**, rather than defaulting everything into project-context mode
 
 This makes them more efficient for mixed workflows where you switch between:
+
 - "What does this function do?" *(local context needed)*
 - "Who founded Anthropic?" *(web/general knowledge, no local context needed)*
 

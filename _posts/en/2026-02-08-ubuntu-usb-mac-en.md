@@ -17,6 +17,7 @@ Answer:
 Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04.3 Desktop (amd64)** using the `dd` command on macOS. This method works reliably for both Intel and Apple Silicon Macs when targeting standard PC hardware (BIOS or UEFI).
 
 **Important warnings**
+
 - This process **erases everything** on the selected USB drive.
 - Typing the wrong disk identifier can **erase your Mac’s internal drive**. Double-check every step.
 - Use at least an 8 GB USB drive (16 GB+ recommended).
@@ -29,12 +30,15 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
 
 3. **Identify the correct disk number**
    Run this command:
+
    ```
    diskutil list
    ```
+
    Look for your USB drive. It usually appears as `/dev/disk2`, `/dev/disk3`, etc. (not the internal drive, which is typically `/dev/disk0` or `/dev/disk1`).
 
    Example output snippet:
+
    ```
    /dev/disk2 (external, physical):
       #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -42,18 +46,23 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
       1:                        EFI EFI                     209.7 MB   disk2s1
       2:                  Apple_HFS Untitled                31.7 GB    disk2s2
    ```
+
    → In this case the whole USB device is **disk2**.
 
 4. **Unmount the USB drive** (replace `diskN` with your number, e.g. `disk2`)
+
    ```
    diskutil unmountDisk /dev/diskN
    ```
+
    Example:
+
    ```
    diskutil unmountDisk /dev/disk2
    ```
 
    Using the faster raw device path is recommended on macOS:
+
    ```
    diskutil unmountDisk /dev/disk2
    ```
@@ -62,11 +71,13 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
    Use `/dev/rdiskN` (raw device — much faster than `/dev/diskN`).
 
    Basic safe command (recommended):
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdiskN bs=4m status=progress
    ```
 
    Example (assuming the ISO is in Downloads and USB is disk2):
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=4m status=progress
    ```
@@ -76,10 +87,13 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
    - If `status=progress` is not recognized on older macOS, just remove it.
 
    Alternative variations people use successfully:
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=1m
    ```
+
    or
+
    ```
    sudo dd if=~/Downloads/ubuntu-24.04.3-desktop-amd64.iso of=/dev/rdisk2 bs=8m conv=fsync
    ```
@@ -87,6 +101,7 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
 6. **Wait for completion**
    - It usually takes 3–15 minutes depending on USB speed.
    - When finished you’ll see output like:
+
      ```
      6123+0 records in
      6123+0 records out
@@ -94,11 +109,14 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
      ```
 
 7. **Ensure all data is written** and eject safely:
+
    ```
    sync
    diskutil eject /dev/diskN
    ```
+
    Example:
+
    ```
    sync
    diskutil eject /dev/disk2
@@ -107,9 +125,11 @@ Here is the step-by-step guide to create a bootable USB drive for **Ubuntu 24.04
 8. **Remove the USB drive** — it is now bootable.
 
 ### Quick verification tip (optional)
+
 After writing, run `diskutil list` again — the USB should now show partitions that match the Ubuntu ISO layout (usually an ISO9660 partition + others).
 
 You can now use this USB to:
+
 - Boot on a standard PC (UEFI or legacy BIOS)
 - Try Ubuntu live
 - Install Ubuntu

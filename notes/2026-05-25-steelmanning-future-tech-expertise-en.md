@@ -34,6 +34,7 @@ The key insight: **the people who are wealthy in knowledge by 2030 are the ones 
 ## What's the 2026 Equivalent of "Learn iOS in 2010"?
 
 In 2010, learning iOS meant:
+
 - Learning a platform *most people dismissed* ("who needs an app?")
 - Going below the abstraction (Objective-C, UIKit internals, memory management)
 - Building when tooling was immature and documentation was sparse
@@ -41,7 +42,9 @@ In 2010, learning iOS meant:
 The direct analogy today is **not** "learn to call GPT-4". That's the equivalent of "learn to download an app." The equivalent of building iOS apps in 2010 is:
 
 ### 1. **Model Internals — Below the API**
+
 Not "how to prompt" but:
+
 - Attention mechanism implementation (you already do this — go further)
 - KV cache management, speculative decoding, continuous batching
 - Quantization: GPTQ, AWQ, GGUF — *why* they work, not just how to run them
@@ -50,7 +53,9 @@ Not "how to prompt" but:
 By 2030, the people who understand *why* a 70B model runs fast on 2 GPUs will be rare and expensive. Most people will just call APIs.
 
 ### 2. **Post-Training Stack (RLHF → DPO → GRPO)**
+
 This is where value is manufactured from base models. You're already touching this. Double down:
+
 - Reward modeling from first principles
 - GRPO (what DeepSeek used) — Group Relative Policy Optimization
 - Synthetic data generation pipelines (the real moat)
@@ -59,19 +64,25 @@ This is where value is manufactured from base models. You're already touching th
 The 2030 equivalent of "I shipped the first 5-star app in the App Store" is "I trained a domain-specific model that actually outperforms GPT on X."
 
 ### 3. **Agent Infrastructure (not LangChain — the layer below it)**
+
 LangChain is the Cordova/PhoneGap of this era — it'll largely be irrelevant by 2028. What won't be:
+
 - Tool use protocols (MCP is interesting here — you're already using it)
 - Memory architectures (episodic, semantic, working memory for agents)
 - Multi-agent orchestration at production scale
 - Reliability engineering for non-deterministic systems
 
 ### 4. **Domain × Model Intersection**
+
 The most defensible position by 2030 is **domain expertise + model training capability**. Pure ML engineers are becoming commoditized. But:
+
 - A finance engineer who can fine-tune + evaluate models on proprietary financial data? Rare.
 - You already have this: banking systems + AI engineering. That's a moat.
 
 ### 5. **Inference Optimization & Deployment**
+
 As models commoditize at the API level, the value shifts to running them efficiently:
+
 - vLLM internals, PagedAttention
 - Mixture of Experts routing (what Mixtral/DeepSeek-MoE do)
 - Edge inference (models on device — Apple Silicon NPU, Qualcomm)
@@ -114,6 +125,7 @@ The bet I'd make for you specifically: **train a small (1–7B) finance/banking 
 The people who learned iOS in 2010 didn't know it would be worth $300k/year salaries by 2015. They just followed the platform that felt *alive* — where the energy was.
 
 Right now, the energy is clearly in:
+
 1. Model internals and post-training
 2. Agent systems that actually work in production
 3. Inference efficiency at scale

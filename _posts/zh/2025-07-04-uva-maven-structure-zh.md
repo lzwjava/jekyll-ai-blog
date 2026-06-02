@@ -22,6 +22,7 @@ type: note
 ### 选项 1：单个 `uva` 模块，按题目分包
 
 #### 更新后的目录结构
+
 ```
 algorithm-solutions/
 ├── pom.xml
@@ -60,6 +61,7 @@ algorithm-solutions/
 ```
 
 #### 父级 `pom.xml`（根目录：`algorithm-solutions/pom.xml`）
+
 此文件基本保持不变，将 `nowcoder` 和 `uva` 定义为模块。
 
 ```xml
@@ -104,6 +106,7 @@ algorithm-solutions/
 ```
 
 #### Nowcoder 子模块 `pom.xml`（`nowcoder/pom.xml`）
+
 此文件与之前的回复相同，假设 `nowcoder` 文件已移至 `src/main/java/com/algorithm/solutions/nowcoder/`。
 
 ```xml
@@ -142,6 +145,7 @@ algorithm-solutions/
 ```
 
 #### UVA 子模块 `pom.xml`（`uva/pom.xml`）
+
 此模块包含一个 `resources` 目录用于输入文件（如 `1.in`）。每个题目的 `Main.java` 文件按包组织。
 
 ```xml
@@ -181,15 +185,18 @@ algorithm-solutions/
 ```
 
 #### 文件组织
+
 - **移动 Java 文件**：
   - 对于每个题目（如 `uva/106/src/Main.java`），将 `Main.java` 移至 `uva/src/main/java/com/algorithm/solutions/uva/p106/Main.java`。
   - 更新 `Main.java` 文件以包含包声明：
+
     ```java
     package com.algorithm.solutions.uva.p106;
     public class Main {
         // ... 现有代码 ...
     }
     ```
+
   - 对所有题目（如 `p100`、`p10000` 等）执行此操作。
 
 - **移动输入文件**：
@@ -197,7 +204,9 @@ algorithm-solutions/
   - 这允许 Maven 将这些文件包含在 JAR 中，可通过 `ClassLoader.getResource()` 或类似方法在 Java 代码中访问。
 
 #### 运行程序
+
 要运行特定的 UVA 题目（例如题目 106）：
+
 ```bash
 mvn -pl uva exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
 ```
@@ -205,9 +214,11 @@ mvn -pl uva exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
 ---
 
 ### 选项 2：每个 UVA 题目作为独立子模块
+
 如果您希望每个 UVA 题目（如 `106`、`100`）都是独立的 Maven 模块，以下是设置方法。这种方式更细粒度，但会增加 `pom.xml` 文件的数量。
 
 #### 更新后的目录结构
+
 ```
 algorithm-solutions/
 ├── pom.xml
@@ -246,6 +257,7 @@ algorithm-solutions/
 ```
 
 #### 父级 `pom.xml`（根目录：`algorithm-solutions/pom.xml`）
+
 将每个题目添加为模块。
 
 ```xml
@@ -302,9 +314,11 @@ algorithm-solutions/
 ```
 
 #### Nowcoder 子模块 `pom.xml`（`nowcoder/pom.xml`）
+
 同上（未更改）。
 
 #### UVA 题目 106 子模块 `pom.xml`（`uva/106/pom.xml`）
+
 每个题目都有自己的 `pom.xml`。以下是 `uva/106` 的示例：
 
 ```xml
@@ -353,20 +367,25 @@ algorithm-solutions/
 - **为其他题目重复此操作**：为 `uva/100`、`uva/10000` 等创建类似的 `pom.xml` 文件，调整 `artifactId`（如 `uva-100`）、`name` 和 `mainClass`（如 `com.algorithm.solutions.uva.p100.Main`）。
 
 #### 文件组织
+
 - **移动 Java 文件**：
   - 对于 `uva/106/src/Main.java`，移至 `uva/106/src/main/java/com/algorithm/solutions/uva/p106/Main.java`。
   - 添加包声明：
+
     ```java
     package com.algorithm.solutions.uva.p106;
     public class Main {
         // ... 现有代码 ...
     }
     ```
+
 - **移动输入文件**：
   - 将 `uva/106/1.in` 移至 `uva/106/resources/1.in`。
 
 #### 运行程序
+
 要运行题目 106：
+
 ```bash
 mvn -pl uva/106 exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
 ```
@@ -374,40 +393,50 @@ mvn -pl uva/106 exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Mai
 ---
 
 ### 推荐
+
 - **选项 1（单个 `uva` 模块）** 更简单且更具可扩展性，特别是当您有大量 UVA 题目时。它避免了创建大量 `pom.xml` 文件，并保持了项目结构的整洁。使用包来逻辑组织题目。
 - **选项 2（每题独立模块）** 如果您希望每个题目完全独立（例如用于独立部署或测试）则更合适。但由于模块数量多，需要更多维护工作。
 
 ### 实施选项 1 的步骤
+
 1. **创建目录结构**：
    - 在 `algorithm-solutions` 根目录下运行以下命令：
+
      ```bash
      mkdir -p uva/src/main/java/com/algorithm/solutions/uva
      mkdir -p uva/src/main/resources/uva
      mkdir -p nowcoder/src/main/java/com/algorithm/solutions/nowcoder
      ```
+
 2. **移动文件**：
    - 对于每个 UVA 题目（例如 `106`）：
+
      ```bash
      mkdir -p uva/src/main/java/com/algorithm/solutions/uva/p106
      mv uva/106/src/Main.java uva/src/main/java/com/algorithm/solutions/uva/p106/Main.java
      mkdir -p uva/src/main/resources/uva/p106
      mv uva/106/1.in uva/src/main/resources/uva/p106/1.in
      ```
+
    - 对于 `nowcoder`：
+
      ```bash
      mv nowcoder/*.java nowcoder/src/main/java/com/algorithm/solutions/nowcoder/
      ```
+
 3. **更新 Java 文件**：
    - 添加适当的包声明（例如，对于 `uva/106/Main.java`，添加 `package com.algorithm.solutions.uva.p106;`）。
 4. **添加 `pom.xml` 文件**：
    - 将父级 `pom.xml` 放在 `algorithm-solutions/` 目录下。
    - 按所示内容放置 `nowcoder/pom.xml` 和 `uva/pom.xml`。
 5. **构建**：
+
    ```bash
    mvn clean install
    ```
 
 ### 注意事项
+
 - **输入文件**：如果您的 `Main.java` 读取输入文件（如 `1.in`），请更新代码以通过 `getClass().getResource("/uva/p106/1.in")` 或类似方式访问它们，因为它们现在位于 `src/main/resources` 中。
 - **忽略 `.iml` 文件**：在 `.gitignore` 文件中添加 `*.iml`，以从版本控制中排除 IntelliJ 项目文件。
 - **其他目录**：对于 `codeforces`、`hacker_rank` 等，您可以在准备就绪时创建类似的模块。如果您需要这些模块的 `pom.xml` 文件，请告知我。

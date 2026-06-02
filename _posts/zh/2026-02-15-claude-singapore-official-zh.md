@@ -18,6 +18,7 @@ type: note
 - 通过 Amazon Bedrock 等平台，Claude 模型已在 Asia Pacific (Singapore) 区域提供多年。
 
 如果新加坡的用户在访问时遇到困难（例如注册问题、屏蔽或错误），可能是由于：
+
 - 临时技术故障
 - 特定账户限制（例如，如果账户关联的实体在 Anthropic 关于非支持地区（如中国）所有权的规则下被标记）
 - VPN 或网络问题

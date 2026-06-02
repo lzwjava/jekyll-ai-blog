@@ -35,6 +35,7 @@ type: note
 **技术上，是的——几乎所有能从信息中学习的内容都能在网上免费或低价获取。**
 
 你可以学习：
+
 - 编程（freeCodeCamp, Odin Project, YouTube）
 - 数字营销（HubSpot Academy, 谷歌免费课程）
 - 设计（YouTube, Canva设计学院）

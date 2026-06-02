@@ -50,7 +50,6 @@ Thought:  Now that I know the weather...
 Action:   Finish["It's 18°C and cloudy in Paris."]
 ```
 
-
 ---
 
 ### Why ReAct Is Better than CoT Alone
@@ -58,6 +57,7 @@ Action:   Finish["It's 18°C and cloudy in Paris."]
 CoT prompting's lack of access to the external world or inability to update its knowledge can lead to issues like fact hallucination and error propagation. ReAct allows the system to perform dynamic reasoning while also enabling interaction with external sources such as knowledge bases or environments, leading to more reliable and factual responses.
 
 In short:
+
 - **CoT** = thinks deeply, but only from internal knowledge → can hallucinate
 - **ReAct** = thinks + fetches real information from tools → more grounded and accurate
 

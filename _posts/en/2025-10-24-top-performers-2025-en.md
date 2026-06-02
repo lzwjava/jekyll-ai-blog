@@ -23,6 +23,7 @@ Based on available 2025 year-to-date (YTD) data through September:
 | **Jane Street**      | Proprietary Trading (HFT/Market-Making) | N/A (Returns not public)     | Record $17.3B trading revenue in H1 (up from $20.5B full-year 2024); Q2 alone hit $10.1B, surpassing Wall Street banks like JPMorgan. Captured ~10% of U.S. equity volume in 2024, with strong 2025 momentum in options and ETFs. |
 
 #### Top Performer Assessment
+
 - **Bridgewater** emerges as the top performer in terms of disclosed returns, with 26.4% YTD far outpacing peers amid 2025's volatile markets. Its algorithmic macro models excelled in navigating uncertainty.
 - D.E. Shaw delivered consistent quant-driven gains but lagged Bridgewater.
 - Jane Street's explosive revenue growth signals elite algorithmic execution (e.g., in high-speed trading), but without public returns, it's harder to quantify against hedge fund benchmarks. If focusing purely on algo trading volume/profitability, Jane Street leads.

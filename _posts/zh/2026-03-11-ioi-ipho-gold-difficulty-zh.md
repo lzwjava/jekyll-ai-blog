@@ -26,6 +26,7 @@ IPhO 颁发金牌给前 8% 的参赛者，而 IOI 颁发金牌给大约 1/12（�
 根据专家和参赛者的观点，IMO (International Mathematical Olympiad) 通常被认为比 IOI 成就更大，IMO 的金牌比 IOI 的金牌显著更具声望。IPhO 在声望上通常介于 IMO 和 IOI 之间。
 
 关键区别在于问题的性质：
+
 - **IPhO 问题** 需要对物理学的深刻概念理解和创造性的问题解决方法
 - **IOI 问题** 需要强大的算法知识和完美的编码实现
 
@@ -40,6 +41,7 @@ IPhO 通过将前三名最佳成绩的平均分标准化为 100%，分类参赛�
 ## 结论
 
 **与 IOI 相比，IPhO 赢得金牌似乎稍容易一些**，主要因为：
+
 1. IPhO 更多依赖物理直觉和概念理解
 2. IOI 要求算法洞察力 AND 完美的实现，没有编码错误
 3. IOI 参赛者必须在严格的时间和内存约束下编码解决问题
@@ -48,11 +50,11 @@ IPhO 通过将前三名最佳成绩的平均分标准化为 100%，分类参赛�
 
 **参考文献：**
 
-- https://en.wikipedia.org/wiki/International_Physics_Olympiad
-- https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics
-- https://stats.ioinformatics.org/olympiads/2025
-- https://stats.ioinformatics.org/olympiads/2024
-- https://codeforces.com/blog/entry/12950
-- https://blog.vero.site/post/olympiads
-- http://scienceolympiadsbd.blogspot.com/2013/12/how-to-win-gold-medal-at-international.html
-- https://codeforces.com/blog/entry/69100
+- <https://en.wikipedia.org/wiki/International_Physics_Olympiad>
+- <https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics>
+- <https://stats.ioinformatics.org/olympiads/2025>
+- <https://stats.ioinformatics.org/olympiads/2024>
+- <https://codeforces.com/blog/entry/12950>
+- <https://blog.vero.site/post/olympiads>
+- <http://scienceolympiadsbd.blogspot.com/2013/12/how-to-win-gold-medal-at-international.html>
+- <https://codeforces.com/blog/entry/69100>

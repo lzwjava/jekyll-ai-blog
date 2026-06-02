@@ -13,7 +13,7 @@ VPS having temporary connectivity issues — training is running independently o
 
 ---
 
-## ✅ Everything is Ready and Running!
+## ✅ Everything is Ready and Running
 
 ### What We Accomplished
 
@@ -28,6 +28,7 @@ VPS having temporary connectivity issues — training is running independently o
 | Start training | ✅ | PID 7952, GPU at 100% |
 
 ### GPU Droplet Status
+
 ```
 GPU: NVIDIA H200 — 100% utilization, 44% memory, 53°C
 Disk: 52GB used / 647GB free
@@ -35,7 +36,9 @@ Training: Running with train_fineweb.py config (125M model)
 ```
 
 ### To Check Training Progress
+
 From the GPU droplet terminal:
+
 ```bash
 # Watch logs
 tail -20 /tmp/train.log
@@ -48,6 +51,7 @@ ps aux | grep train.py | grep -v grep
 ```
 
 ### To Watch Training in Real-Time via SSH
+
 ```bash
 ssh root@192.241.241.67
 tail -f /tmp/train.log

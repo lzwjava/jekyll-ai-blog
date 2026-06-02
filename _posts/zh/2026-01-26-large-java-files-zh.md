@@ -39,12 +39,15 @@ GitHub Copilot（在 VS Code、JetBrains 或 Visual Studio 中）在处理超大
 
 - **不要**对 2500 LoC 的文件写下模糊的请求，如 "refactor this entire class"。
 - 推荐模式：
+
   ```
   // @workspace /fix
   Fix the thread-safety bug in method processOrderBatch() lines 1840–1987.
   Use ConcurrentHashMap instead of HashMap and add proper locking where needed.
   ```
+
 - 或内联注释风格（通常比 chat 更可靠）：
+
   ```java
   // TODO: Copilot – convert this 400-line god method into 4 smaller methods with clear names
   // follow single responsibility principle, keep same logic

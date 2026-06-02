@@ -13,6 +13,7 @@ Below is a sample quiz designed for a self-study exam based on the provided outl
 ---
 
 ### Sample Quiz: Fundamentals of Electronic Technology (III)
+
 **Self-Study Exam**
 **Instructions**: Answer all questions. Show your work for problem-solving questions. Each question is worth the indicated points. Total: 100 points.
 
@@ -100,6 +101,7 @@ Below is a sample quiz designed for a self-study exam based on the provided outl
 ---
 
 ### Notes for Self-Study Exam Preparation in China
+
 - **Structure**: The quiz is designed to align with the self-study exam format in China, which often emphasizes theoretical understanding, problem-solving, and practical applications. Questions are balanced to test memory, analysis, and design skills.
 - **Study Tips**:
   - Focus on mastering fundamental laws (e.g., Ohm’s, Kirchhoff’s) and their applications.

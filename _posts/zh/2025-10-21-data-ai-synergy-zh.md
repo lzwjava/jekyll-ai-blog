@@ -17,6 +17,7 @@ Apache DataFusion是一个基于Rust构建的开源可扩展SQL查询引擎，�
 关于大语言模型（LLM）或AI可能使DataFusion等工具过时的观点，源于自然语言查询的热潮——例如ChatGPT能根据英文提示生成SQL。但这忽略了现实：AI不会取代查询引擎，而是增强它们。SQL和DataFusion这类引擎负责数据检索、优化和大规模执行等繁重工作，而LLM擅长语义解释，却在精确性、效率和复杂工作负载处理上存在不足。
 
 #### 为何DataFusion不会过时——它正在适配AI技术
+
 DataFusion非但不会消亡，反而正积极与AI集成以连接自然语言与结构化数据处理。具体表现为：
 
 - **面向AI代理的语义SQL**：Wren AI等项目将DataFusion作为"语义SQL"的核心执行层，通过检索增强生成（RAG）技术，LLM可将用户查询（如"展示高价值客户销售趋势"）转化为富含业务上下文的优化SQL执行计划。DataFusion负责逻辑规划、聚合运算和访问控制，确保生成准确、情境感知且无幻觉的结果。这使其成为多智能体AI系统的关键接口，打破LLM与企业数据间的壁垒。
@@ -28,9 +29,11 @@ DataFusion非但不会消亡，反而正积极与AI集成以连接自然语言�
 简言之，LLM需要DataFusion这类稳健引擎来可靠执行其输出——尤其在大数据场景下，纯AI方案无法匹敌向量化SQL的速度与确定性。关于SQL"消亡"的辩论恰恰印证其演进：AI充当查询生成的副驾驶，但人类/AI监督对验证至关重要，而结构化数据仍是分析领域的王者。
 
 #### 最终结论
+
 DataFusion不会因LLM/AI而过时。它正成为AI时代的关键赋能者，驱动着融合结构化查询与语义智能的可组合高性能系统。随着数据量增长和AI代理普及，这类工具对实现可扩展、精准数据访问将愈发重要。
 
 ### 参考资料
+
 - [Apache DataFusion文档](https://datafusion.apache.org/)
 - [使用Apache DataFusion为AI代理赋能语义SQL](https://medium.com/wrenai/powering-semantic-sql-for-ai-agents-with-apache-datafusion-da963e69804f)
 - [可组合数据系统新浪潮与LLM代理接口](https://getwren.ai/post/the-new-wave-of-composable-data-systems-and-the-interface-to-llm-agents)

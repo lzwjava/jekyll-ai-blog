@@ -17,6 +17,7 @@ type: note
 Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以下是最常用语法的实用指南（适用于 GitHub、Reddit、Notion、Obsidian 等）。
 
 ### 标题
+
 ```markdown
 # H1 - 最大标题
 ## H2
@@ -27,6 +28,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 文本样式
+
 ```markdown
 *斜体* 或 _斜体_
 **粗体** 或 __粗体__
@@ -38,6 +40,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ### 列表
 
 **无序列表**
+
 ```markdown
 - 项目 1
 - 项目 2
@@ -46,6 +49,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 **有序列表**
+
 ```markdown
 1. 第一项
 2. 第二项
@@ -54,6 +58,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 链接和图片
+
 ```markdown
 [链接文本](https://example.com)
 
@@ -65,6 +70,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 块引用
+
 ```markdown
 > 这是一个块引用
 >
@@ -73,6 +79,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 代码块
+
 行内：`` `code` ``
 
 围栏代码块（推荐）：
@@ -91,6 +98,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
     ```
 
 ### 水平线
+
 ```markdown
 ---
 ***
@@ -98,6 +106,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 表格
+
 ```markdown
 | 标题 1   | 标题 2   | 标题 3      |
 |------------|:----------:|--------------:|
@@ -106,6 +115,7 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 任务列表（GitHub、Notion 等支持）
+
 ```markdown
 - [x] 已完成任务
 - [ ] 未完成任务
@@ -113,7 +123,9 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 ```
 
 ### 转义字符
+
 若要显示一个原本会被解释为语法的字面字符：
+
 ```markdown
 \*字面星号\*
 \`反引号\`
@@ -137,4 +149,5 @@ Markdown 是一种轻量级标记语言，可让您轻松格式化文本。以�
 
 * [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 * [Markdown Guide by Matt Cone](https://www.markdownguide.org/basic-syntax/)
+
 ```

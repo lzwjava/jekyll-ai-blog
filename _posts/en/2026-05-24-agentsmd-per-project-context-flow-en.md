@@ -48,6 +48,7 @@ Put an `AGENTS.md` in your project root. Example from hermes-agent itself (the o
     hermes-agent/AGENTS.md   ← project-level rules
 
 Content you'd typically include:
+
 - Development environment setup (venv, dependencies)
 - Project structure overview
 - How to add tools / commands

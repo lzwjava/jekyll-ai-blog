@@ -13,14 +13,17 @@ type: note
 Yes, this is a very common issue for Chinese clients at Interactive Brokers, and **IBKR is quite strict** about the name match for **Local Electronic Transfer (FAST HKD)**.
 
 ### What IBKR actually requires for HKD FAST withdrawal
+
 The account holder name on the **Hong Kong bank account** must be **exactly identical** (character by character) to the name shown on your IBKR account.
 IBKR does **not** accept:
+
 - Chinese name on bank vs English name on IBKR (LI XIAOMING ≠ XIAOMING LI)
 - Swapped order (family name first vs given name first)
 - Missing or extra middle name
 - Different Romanisation (Li Xiao Ming vs Li Xiaoming)
 
 If the names do not match 100 %, IBKR will either:
+
 - Reject the withdrawal instruction outright, or
 - Force it to go out as an international SWIFT wire (expensive + slow)
 

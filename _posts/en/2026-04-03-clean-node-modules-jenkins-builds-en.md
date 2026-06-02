@@ -33,6 +33,7 @@ Your concern is **valid and correct in principle**. Shared, leftover `node_modul
 Since npm 3, npm keeps track of resolved dependencies in `package-lock.json`, guaranteeing that the same dependency versions are used regardless of the prior state of `node_modules`. Additionally, `npm install` will remove packages that are not in `package.json` / `package-lock.json`, so packages from earlier builds that are no longer needed will be removed automatically.
 
 This means **modern `npm install` handles many cases** — but it does NOT protect against:
+
 - Manual tampering with `node_modules`
 - Corrupted mid-build states
 - Platform-specific binaries being stale (e.g., native addons)
@@ -43,6 +44,7 @@ This means **modern `npm install` handles many cases** — but it does NOT prote
 ## Recommended Strategies
 
 ### ✅ Option 1: Full Clean Before Each Build (Safest, Slowest)
+
 Delete `node_modules` entirely before every build for guaranteed reproducibility:
 
 ```bash
@@ -51,6 +53,7 @@ npm install
 ```
 
 In Jenkinsfile:
+
 ```groovy
 stage('Install') {
     steps {
@@ -61,6 +64,7 @@ stage('Install') {
 ```
 
 ### ✅ Option 2: Use `npm ci` Instead of `npm install` (Best Practice for CI)
+
 `npm ci` is designed for CI environments — it **always deletes `node_modules` and reinstalls from scratch** based on `package-lock.json`:
 
 ```bash
@@ -68,11 +72,13 @@ npm ci
 ```
 
 This is the **recommended CI approach** because it:
+
 - Guarantees a clean install every time
 - Is faster than `rm -rf node_modules && npm install` in many cases
 - Strictly respects `package-lock.json`
 
 ### ✅ Option 3: Use `npm prune` (Lighter Cleanup)
+
 If you want speed and only need to remove orphaned packages:
 
 ```bash
@@ -83,9 +89,11 @@ npm install
 `npm prune` removes extraneous packages — those present in `node_modules` but not listed as any package's dependency. It can also remove `devDependencies` when the `--production` flag is used.
 
 ### ✅ Option 4: Jenkins Workspace Cleanup Plugin
+
 You can use the Jenkins Workspace Cleanup Plugin to clean the workspace before or after builds. For example, you can clean everything but exclude `node_modules` if you want to cache it for future builds, or include it to ensure a clean state.
 
 Example Jenkinsfile with clean before build:
+
 ```groovy
 pipeline {
     agent any

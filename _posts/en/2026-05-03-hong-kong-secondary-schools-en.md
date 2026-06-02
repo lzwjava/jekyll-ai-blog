@@ -15,7 +15,7 @@ Answer:
 
 TWGHs Kap Yan Directors' College (東華三院甲寅年總理中學) is a **secondary school in Hong Kong**.
 
-### Key facts about it:
+### Key facts about it
 
 * **Full name:** Tung Wah Group of Hospitals Kap Yan Directors' College
 * **Location:** Sheung Shui, North District, New Territories, Hong Kong ([Wikipedia][1])

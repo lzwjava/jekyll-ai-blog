@@ -12,6 +12,7 @@ type: note
 Black is an opinionated, uncompromising Python code formatter developed by the Python Software Foundation (PSF). It automatically reformats Python code to conform to a consistent style, primarily based on a strict subset of PEP 8, while emphasizing readability, consistency, and minimal diffs in version control. By using Black, developers agree to relinquish control over minor formatting details in exchange for speed, determinism, and reduced debates over style during code reviews. Black ensures that formatted ("blackened") code looks uniform across projects, saving time and mental energy for more critical aspects of development. It supports Python 3.8 and later, with the latest stable release being version 25.1.0 (released on January 29, 2025), which introduces the 2025 stable style with enhancements like normalized Unicode escape casing and improved handling of trailing commas.
 
 Black's philosophy prioritizes:
+
 - **Consistency**: Similar constructs are formatted identically.
 - **Generality**: Rules apply broadly without special cases.
 - **Readability**: Focuses on easy-to-read code.
@@ -24,14 +25,17 @@ It's widely used in open-source and professional projects for its reliability an
 Black is available on PyPI and can be installed using pip. It's recommended to install it in a virtual environment for project isolation.
 
 - Basic installation:
+
   ```
   pip install black
   ```
 
 - For additional features like Jupyter Notebook support or colorized diffs:
+
   ```
   pip install 'black[jupyter,colorama]'
   ```
+
   (The `d` extra is for blackd, a daemon for editor integrations.)
 
 On Arch Linux, you can install via the package manager: `pacman -S python-black`.
@@ -39,6 +43,7 @@ On Arch Linux, you can install via the package manager: `pacman -S python-black`
 Black can also be installed via conda or other package managers. After installation, verify with `black --version`.
 
 For development or testing, you can clone the GitHub repository and install in editable mode:
+
 ```
 git clone https://github.com/psf/black.git
 cd black
@@ -54,6 +59,7 @@ black {source_file_or_directory}
 ```
 
 If running Black as a script doesn't work (e.g., due to environment issues), use:
+
 ```
 python -m black {source_file_or_directory}
 ```
@@ -114,6 +120,7 @@ Black can be configured via command-line flags or a `pyproject.toml` file (prefe
 ### Using pyproject.toml
 
 Example:
+
 ```
 [tool.black]
 line-length = 79
@@ -154,39 +161,49 @@ For version control, integrate with tools like pre-commit to enforce formatting.
 Black enforces a specific style with limited configurability. Key rules:
 
 ### Line Length
+
 - Default: 88 characters. May exceed if unbreakable (e.g., long strings).
 
 ### Strings
+
 - Prefers double quotes; normalizes prefixes to lowercase (e.g., `r` before `f`).
 - Lowers escape sequences (except `\N` names).
 - Processes docstrings: fixes indentation, removes extra whitespace/newlines, preserves tabs in text.
 
 ### Numeric Literals
+
 - Lowercase syntactic parts (e.g., `0xAB`), uppercase digits.
 
 ### Line Breaks and Operators
+
 - Breaks before binary operators.
 - Single spaces around most operators; no spaces for unary/power with simple operands.
 
 ### Trailing Commas
+
 - Adds to multi-line collections/function args (if Python 3.6+).
 - "Magic" trailing comma explodes lists if present.
 
 ### Comments
+
 - Two spaces before inline comments; one space before text.
 - Preserves special spacing for shebangs, doc comments, etc.
 
 ### Indentation
+
 - 4 spaces; matches brackets with dedented closers.
 
 ### Empty Lines
+
 - Minimal whitespace: single in functions, double at module level.
 - Specific rules for docstrings, classes, and functions.
 
 ### Imports
+
 - Splits long imports; compatible with isort's `black` profile.
 
 ### Other Rules
+
 - Prefers parentheses over backslashes.
 - Normalizes line endings based on file.
 - Terse style for `.pyi` files (e.g., no extra lines between methods).
@@ -213,6 +230,7 @@ Black integrates seamlessly with editors and version control for automated forma
 ### Version Control
 
 - **Pre-commit Hooks**: Add to `.pre-commit-config.yaml`:
+
   ```
   repos:
     - repo: https://github.com/psf/black-pre-commit-mirror
@@ -221,6 +239,7 @@ Black integrates seamlessly with editors and version control for automated forma
         - id: black
           language_version: python3.11
   ```
+
   For Jupyter: Use `id: black-jupyter`.
 - **GitHub Actions**: Use actions like `psf/black-action` in workflows for CI checks.
 - **Git**: Run Black in pre-commit scripts or husky for enforcement.

@@ -30,9 +30,11 @@ This dialog is from the `libc6` (glibc) upgrade process on a Debian/Ubuntu syste
 - The upgrade proceeds immediately.
 - PostgreSQL will **continue running** but against the old in-memory glibc.
 - You **must manually restart PostgreSQL** afterward:
+
   ```bash
   sudo systemctl restart postgresql
   ```
+
 - This is the **recommended choice** in most cases if you are okay restarting PostgreSQL right after.
 
 ---
@@ -41,13 +43,17 @@ This dialog is from the `libc6` (glibc) upgrade process on a Debian/Ubuntu syste
 
 - The upgrade is **paused/aborted**.
 - You can manually stop PostgreSQL first:
+
   ```bash
   sudo systemctl stop postgresql
   ```
+
 - Then re-run the upgrade:
+
   ```bash
   sudo apt-get upgrade
   ```
+
 - Choose this if you need a **controlled maintenance window** or cannot afford any risk of PostgreSQL instability during the upgrade.
 
 ---

@@ -16,6 +16,7 @@ Answer:
 **Pickled yard-long beans** (also known as pickled asparagus beans, Chinese long beans, or snake beans) can be good for health in moderation, as they retain many of the nutritional benefits of fresh yard-long beans while adding potential advantages from the pickling process. However, the overall health impact depends on the preparation method (especially salt/vinegar content) and portion size.
 
 ### Benefits
+
 - **Base nutrition from yard-long beans** — Yard-long beans are naturally low in calories and rich in:
   - Dietary **fiber** (supports digestion, helps prevent constipation, and may lower cholesterol).
   - Vitamins like **vitamin C** (immune support), **vitamin A** (vision and skin health), **folate**, and some **vitamin K**.
@@ -25,6 +26,7 @@ Answer:
 - They remain a low-calorie, nutrient-dense vegetable option that adds flavor without many calories.
 
 ### Potential Drawbacks
+
 - **High sodium** — Most commercial or traditional pickling recipes use a lot of salt, which can increase sodium intake significantly. Excessive sodium may raise blood pressure and is a concern for people with hypertension, heart issues, or kidney problems.
 - **Nutrient changes** — Some heat-sensitive nutrients (like part of the vitamin C) may decrease during pickling, though many minerals and fiber remain stable.
 - **Vinegar-based pickles** (quick pickles) usually lack probiotics but still keep most of the vegetable's original nutrients.

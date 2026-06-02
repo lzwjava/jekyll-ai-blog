@@ -17,6 +17,7 @@ Answer:
 Below is a practical step-by-step tutorial covering the most common basic configurations for Huawei routers and switches in eNSP, exactly as taught in the book 《网络设备配置与管理项目教程（华为eNSP模拟器版）》 by 张文库. All commands are based on Huawei VRP system (tested on eNSP with VRPC 8).
 
 ### 1. Basic System Configuration
+
 ```bash
 <Huawei> system-view                                      # Enter system view
 [Huawei] sysname R1                                        # Rename device to R1
@@ -28,6 +29,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 2. VLAN Configuration (Switches)
+
 ```bash
 # On L2 Switch (e.g. S5700)
 [S5700] vlan batch 10 20 30                                # Create VLAN 10,20,30
@@ -42,6 +44,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 3. Inter-VLAN Routing (Router-on-a-Stick or L3 Switch)
+
 ```bash
 # Method 1: L3 Switch (S5700/S6700)
 [S5700] vlan 10
@@ -58,6 +61,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 4. STP (Spanning Tree Protocol) Configuration
+
 ```bash
 [SW1] stp enable                                           # Global enable STP
 [SW1] stp mode rstp                                        # Use RSTP (default in new devices)
@@ -68,6 +72,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 5. OSPF Configuration
+
 ```bash
 # Router R1
 [R1] ospf 1 router-id 1.1.1.1
@@ -83,6 +88,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 6. RIP Configuration
+
 ```bash
 [R1] rip 1
 [R1-rip-1] version 2
@@ -91,6 +97,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 7. ACL (Access Control List)
+
 ```bash
 # Basic ACL (2000–2999): match source IP
 [ R1 ] acl 2000
@@ -106,6 +113,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 8. NAT (Static) NAT & Easy IP (PAT)
+
 ```bash
 # Static NAT (one-to-one)
 [R1] nat static global 202.100.1.10 inside 192.168.10.10
@@ -124,6 +132,7 @@ Please configure the login password (maximum length 16):huawei123
 ```
 
 ### 9. Save Configuration
+
 ```bash
 [R1] save
 The current configuration will be written to the device.
@@ -131,6 +140,7 @@ Are you sure to continue? [Y/N]: y
 ```
 
 ### 10. Common Verification Commands
+
 ```bash
 display ip interface brief
 display vlan

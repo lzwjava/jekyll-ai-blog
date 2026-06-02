@@ -46,6 +46,7 @@ Context + Goal + Tools + Loop
 ```
 
 It doesn't need a job title. It needs:
+
 - A **task** clearly defined
 - The right **tools** (code editor, terminal, browser, test runner)
 - A **success condition** (how does it know it's done)
@@ -58,11 +59,13 @@ That's it. No role. No title.
 ## 🔄 The Better Mental Model
 
 Instead of:
+
 ```
 Dev Agent → Test Agent → Deploy Agent
 ```
 
 Think of it as:
+
 ```
 Task → Agent → Done
          ↓

@@ -33,6 +33,7 @@ The key principle: **the activity should use your body more than your eyes and m
 ## Home Activities to Do During a Focus/Eye Break
 
 ### 🍽️ Kitchen Tasks (Low Vision Load)
+
 - **Load/unload the dishwasher** — repetitive hand movement, eyes can relax or look around freely
 - **Wash dishes by hand** — warm water, tactile sensation, very calming
 - **Wipe down counters/stovetop** — simple, satisfying, no screen
@@ -40,17 +41,20 @@ The key principle: **the activity should use your body more than your eyes and m
 - **Cook a meal** — if time allows, cooking engages smell, touch, and creativity — very different from screen work
 
 ### 🧺 Laundry & Clothes
+
 - **Put clothes in the washing machine / dryer**
 - **Fold and sort clean laundry** — very low cognitive load, hands busy, eyes can gaze softly into the distance (which actually rests your eyes)
 - **Hang clothes / iron** — rhythmic, meditative
 
 ### 🧹 Cleaning & Tidying
+
 - **Sweep or vacuum** — physical movement, no screen
 - **Wipe tables, shelves, mirrors**
 - **Take out trash**
 - **Organize a drawer or shelf** — satisfying, light cognitive engagement (categorizing)
 
 ### 🌿 Other Physical Tasks
+
 - **Water plants**
 - **Make your bed**
 - **Light stretching while tidying** — combine movement with chores
@@ -60,20 +64,24 @@ The key principle: **the activity should use your body more than your eyes and m
 ## How to Use These Breaks to Properly "Fill Up" Again
 
 ### 👁️ Eye Recovery (Very Important)
+
 Every 20 minutes, take a 20-second break to look at something at least 20 feet away. This strategy helps relax the ciliary muscles in your eyes that are responsible for focusing on nearby objects.
 
 While doing chores, you're naturally looking at different distances and angles — this is exactly what your eyes need. Adding activities that use intermediate and far vision to your work breaks — such as gardening or light movement around the home — helps the visual system recover.
 
 You can also do these quick eye exercises during or after chores:
+
 - **Palming**: Rub your hands warm, gently cup them over closed eyes for 30–60 seconds. Palming requires your eyes to be closed for a while (good for eye strain) and may help your eyes circulate blood and fluid better.
 - **20-20-20 rule**: While walking around the house, glance out a window or down a hallway at something far away.
 
 ### 🧠 Brain Reset
+
 Research from the University of Sydney found that a 5-minute total break from thinking is all you need to restore concentration. The Pomodoro Technique — 25 minutes of work, then a 5-minute break — is backed by evidence for this reason.
 
 Study breaks provide the opportunity to step away from your desk or books, giving you the chance to stretch your body, clear your mind, and get some fresh air. Physical movement improves blood circulation and reduces stiffness from prolonged sitting.
 
 ### 💤 If You're Deeply Exhausted
+
 If you are tired in the midafternoon and just need your mind to be clear, a 10-minute nap might be all you need for sharper thinking. Do chores first if you feel restless, then nap if needed.
 
 ---

@@ -83,5 +83,5 @@ npm ERR! cb() never called!
 
 **References:**
 
-- https://docs.npmjs.com/cli/v10/commands/npm-ci
-- https://blog.npmjs.org/post/178027064160/next-generation-package-management
+- <https://docs.npmjs.com/cli/v10/commands/npm-ci>
+- <https://blog.npmjs.org/post/178027064160/next-generation-package-management>

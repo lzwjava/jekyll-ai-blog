@@ -37,7 +37,6 @@ Once your mind accepts the loss, you will be calm about it. So I decided to acce
 
 It is house mortgage. Other types of gambling will make things worse. I have heard of some cases in my surroundings.
 
-
 ## Be Careful of Scams or Crimes
 
 My experience in the USA has not been very positive in terms of safety. A friend told me not to go to places where people gather in the USA, like music carnivals, and to be careful not to go to dangerous places in cities. That's true—it can be scary. Although it may limit your activities, avoiding these kinds of dangerous situations allows you to enjoy many other aspects of life.

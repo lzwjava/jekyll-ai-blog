@@ -6,6 +6,7 @@ type: note
 ---
 
 ### General Management
+
 1. Strategic Planning: Developing long-term goals and strategies.
 2. Resource Allocation: Efficiently distributing resources like time, money, and personnel.
 3. Risk Management: Identifying, assessing, and mitigating risks.
@@ -28,6 +29,7 @@ type: note
 20. Human Resources: Managing recruitment, training, and employee relations.
 
 ### Leadership
+
 21. Vision: Setting a clear and inspiring vision for the future.
 22. Motivation: Inspiring and motivating team members.
 23. Communication: Effectively conveying ideas and information.
@@ -50,6 +52,7 @@ type: note
 40. Feedback: Providing and receiving constructive feedback.
 
 ### Team Management
+
 41. Team Building: Creating and maintaining effective teams.
 42. Role Clarification: Defining clear roles and responsibilities.
 43. Goal Setting: Establishing clear and achievable goals.

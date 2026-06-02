@@ -13,9 +13,11 @@ To use `javax.ws.rs`, the Java API for RESTful web services (commonly referred t
 ---
 
 ### **1. Set Up Your Project**
+
 To use `javax.ws.rs`, you need to include the JAX-RS API and an implementation (since `javax.ws.rs` is a specification, not a runtime). A popular implementation is Jersey. If you're using Maven, add the necessary dependencies to your `pom.xml`:
 
 #### **Dependencies**
+
 ```xml
 <!-- JAX-RS API -->
 <dependency>
@@ -48,9 +50,11 @@ Ensure your project is set up with a servlet container (e.g., Tomcat) or a Java 
 ---
 
 ### **2. Create a RESTful Resource**
+
 RESTful services in JAX-RS are defined using resource classes annotated with `@Path` and HTTP method annotations like `@GET`, `@POST`, etc. Here’s an example of a simple resource:
 
 #### **Example: HelloResource.java**
+
 ```java
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -77,9 +81,11 @@ When a GET request is made to `/hello`, this method returns `"Hello, World!"`.
 ---
 
 ### **3. Configure the JAX-RS Application**
+
 You need to tell the JAX-RS runtime which resources to include. This can be done by creating an application configuration class that extends `javax.ws.rs.core.Application`.
 
 #### **Example: MyApplication.java**
+
 ```java
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -106,9 +112,11 @@ With modern servlet containers (Servlet 3.0+), this annotation-based configurati
 ---
 
 ### **4. Handle Different HTTP Methods and Parameters**
+
 JAX-RS provides annotations to handle various HTTP methods, media types, and parameters.
 
 #### **Example: Handling POST Requests**
+
 ```java
 import javax.ws.rs.POST;
 import javax.ws.rs.Consumes;
@@ -128,6 +136,7 @@ public Response createItem(MyItem item) {
 - **`Response`**: Returns a 201 Created status.
 
 #### **Example: Path Parameters**
+
 ```java
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Path;
@@ -145,6 +154,7 @@ public MyItem getItem(@PathParam("id") String id) {
 - **`@PathParam("id")`**: Injects the `id` value from the URI.
 
 #### **Example: Query Parameters**
+
 ```java
 import javax.ws.rs.QueryParam;
 
@@ -161,6 +171,7 @@ public List<MyItem> getItems(@QueryParam("category") String category) {
 ---
 
 ### **5. Deploy the Application**
+
 You can deploy your JAX-RS application in a servlet container like Tomcat:
 
 1. Package your project as a WAR file (e.g., using `mvn package`).
@@ -170,6 +181,7 @@ You can deploy your JAX-RS application in a servlet container like Tomcat:
 Alternatively, for development or standalone use, you can run the application programmatically using Jersey with Grizzly:
 
 #### **Example: Standalone Main**
+
 ```java
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -190,7 +202,9 @@ This starts an HTTP server without a full servlet container.
 ---
 
 ### **6. Additional Features**
+
 - **Exception Handling**: Use `ExceptionMapper` to handle exceptions gracefully.
+
   ```java
   import javax.ws.rs.NotFoundException;
   import javax.ws.rs.core.Response;
@@ -205,10 +219,12 @@ This starts an HTTP server without a full servlet container.
       }
   }
   ```
+
 - **Dependency Injection**: Use `@Context` to inject objects like `UriInfo` or rely on the implementation’s DI framework (e.g., HK2 in Jersey).
 - **Testing**: Use tools like Postman or the Jersey Test Framework to test your endpoints.
 
 ---
 
 ### **Summary**
+
 To use `javax.ws.rs`, include the JAX-RS API and an implementation like Jersey in your project, define resource classes with annotations for paths and HTTP methods, configure the application (via an `Application` subclass or `web.xml`), and deploy it to a servlet container or run it standalone. This enables you to build RESTful web services efficiently with Java.

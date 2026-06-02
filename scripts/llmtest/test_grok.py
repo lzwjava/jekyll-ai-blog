@@ -20,7 +20,7 @@ data = {
 }
 
 try:
-    response = requests.post(url, headers=headers, json=data)
+    response = requests.post(url, headers=headers, json=data, timeout=30)
     response.raise_for_status()
     json_response = response.json()
     if "choices" in json_response and json_response["choices"]:

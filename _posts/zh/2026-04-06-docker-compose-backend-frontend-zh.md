@@ -12,21 +12,27 @@ type: note
 ### 运行方式
 
 **常规开发**（仅后端）：
+
 ```bash
 cd live-server && docker compose up -d
 ```
+
 → 启动 PHP + nginx + MySQL + Redis，前端部分将被忽略。
 
 **完整构建**（包含前端）：
+
 ```bash
 cd live-server && docker compose --profile frontend up -d
 ```
+
 → 同时构建 `live-mobile-web`，将静态文件输出至共享存储卷，并由 nginx 通过 `/static/` 路径提供服务。
 
 **本地前端开发**（热重载）：
+
 ```bash
 cd live-mobile-web && npm run dev
 ```
+
 → 启动 Vite 开发服务器，默认代理至 `api.quzhiboapp.com`（或通过设置 `VITE_API_PROXY=http://localhost:8080` 以连接本地后端）。
 
 ### 关键变更

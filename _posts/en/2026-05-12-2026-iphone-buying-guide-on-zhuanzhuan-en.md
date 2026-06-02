@@ -42,20 +42,24 @@ Transaction security on Zhuanzhuan is backed by WeChat Pay escrow, which, while 
 Here is a ranked breakdown of your best options:
 
 ### 1. **Zhuanzhuan (转转)** — Best for Inspected Phones with Returns
+
 - Zhuanzhuan provides 7-day no-questions-asked returns and optional extended warranty plans. Reputable listings display battery health percentage and detailed inspection reports.
 - Best for 1–2 units with buyer protection.
 - **Recommended:** Only buy "官方验" (officially inspected) listings for iPhones.
 
 ### 2. **Xianyu (闲鱼 / Idle Fish)** — Largest Selection, Slight Edge in Reliability
+
 - Xianyu generally offers higher product quality overall, and its transaction security is guaranteed by Alipay's escrow service, which effectively safeguards both buyers and sellers. Its interface is also more intuitive and user-friendly.
 - According to Statista, Xianyu ranked as the most-used second-hand platform in China, with Zhuanzhuan ranking second.
 - Great for finding a wide variety of iPhone models at competitive prices, but be sure to check seller ratings carefully.
 
 ### 3. **JD.com Pre-Owned Section** — Most Reliable, But Higher Price
+
 - JD.com offers a 90-day hardware warranty on second-hand devices. Consumer platforms like JD have mandatory battery health disclosure, 7–15 day returns, and in-app dispute resolution.
 - The most trustworthy but typically more expensive than Xianyu or Zhuanzhuan.
 
 ### 4. **Physical Markets (Huaqiangbei, Shenzhen)** — Cheapest, Most Risky
+
 - Physical markets like Huaqiangbei Tongtiandi in Shenzhen offer immediate hands-on inspection, real-time negotiation, and component-level repair visibility. However, they have inconsistent grading standards, language barriers for non-Mandarin speakers, and no digital audit trail.
 - Only recommended if you go with a trusted local who knows phones.
 

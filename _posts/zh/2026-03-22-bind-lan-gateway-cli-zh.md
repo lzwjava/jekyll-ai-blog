@@ -18,6 +18,7 @@ ExecStart=/usr/bin/node /home/lzw/.npm-global/lib/node_modules/openclaw/dist/ind
 ```
 
 在远程主机上：
+
 ```bash
 systemctl --user edit openclaw-gateway.service
 # or edit the file directly:
@@ -25,6 +26,7 @@ nano ~/.config/systemd/user/openclaw-gateway.service
 ```
 
 修改 `ExecStart` 行 —— 将 `--host 0.0.0.0` 替换为 `--bind lan`。然后：
+
 ```bash
 systemctl --user daemon-reload
 systemctl --user restart openclaw-gateway.service

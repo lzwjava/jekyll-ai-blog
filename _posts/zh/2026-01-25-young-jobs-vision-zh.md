@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question:** 请提供 https://www.youtube.com/watch?v=DbfejwP1d3c 这一 YouTube 视频的内容详尽摘要。
+**Question:** 请提供 <https://www.youtube.com/watch?v=DbfejwP1d3c> 这一 YouTube 视频的内容详尽摘要。
 
 **Answer:**
 
@@ -18,7 +18,7 @@ type: note
 
 这段时长约 20–30 分钟的采访（来自 VintageSteveJobs 频道或类似的存档上传）展示了年轻的 Steve Jobs 用非常清晰且前瞻性的语言解释了 Personal Computer 的愿景和意义。
 
-### 主要话题和涵盖的关键点：
+### 主要话题和涵盖的关键点
 
 - **什么是 Personal Computer？**
   Jobs 将其定义为与历史上所有之前的计算机有着本质的不同。他解释说，早期的计算机是由专家使用的工具，用来为他人解决问题；而 Personal Computer 是个人直接使用的工具，用来放大自身的沟通能力和 Productivity。

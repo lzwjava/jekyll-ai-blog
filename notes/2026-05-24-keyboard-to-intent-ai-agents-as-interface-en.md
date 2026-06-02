@@ -18,11 +18,13 @@ Yes, and you're onto something that compounds over time. Here's the actual princ
 ## The Keyboard-to-Intent Pipeline
 
 Traditional workflow:
+
 ```
 thought → Finder/Dock → click → navigate → click → open
 ```
 
 AI agent workflow:
+
 ```
 thought → natural language → done
 ```

@@ -79,6 +79,7 @@ curl http://localhost:11434/api/tags
 ## Why `status=203` (EXEC failure)?
 
 systemd error code 203 means the binary either:
+
 - **Doesn't exist** at the expected path
 - **Isn't executable** (wrong permissions)
 - **Has a missing shared library** (`ldd` would show broken deps)

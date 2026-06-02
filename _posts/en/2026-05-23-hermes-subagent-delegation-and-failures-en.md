@@ -25,6 +25,7 @@ Parent Agent (your main conversation)
 ```
 
 Each child gets:
+
 - Fresh AIAgent instance (no parent conversation history)
 - Own task_id (own terminal session, file ops cache)
 - Restricted toolsets (delegate_task, clarify, memory, send_message, execute_code are blocked)

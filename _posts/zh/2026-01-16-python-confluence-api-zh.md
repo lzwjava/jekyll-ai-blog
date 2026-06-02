@@ -25,6 +25,7 @@ pip install atlassian-python-api
 ### Basic Usage to Create a Page
 
 #### 1. 针对 Confluence **Server / Data Center**
+
 使用 username + password（或在较新版本中使用 personal access token）。
 
 ```python
@@ -50,9 +51,10 @@ print(status)  # 成功后返回包含已创建页面信息的 dict
 ```
 
 #### 2. 针对 Confluence **Cloud**
+
 使用您的 **email** + **API token**（推荐）。
 
-在以下地址生成 token：https://id.atlassian.com/manage-profile/security/api-tokens
+在以下地址生成 token：<https://id.atlassian.com/manage-profile/security/api-tokens>
 
 ```python
 from atlassian import Confluence
@@ -77,6 +79,7 @@ print(new_page['_links']['webui'])  # 访问该页面的相对链接
 ```
 
 #### 3. 创建子页面 (child / sub-page)
+
 ```python
 parent_page_id = '123456789'   # 通过 confluence.get_page_id(space, title) 或手动获取
 
@@ -90,6 +93,7 @@ confluence.create_page(
 ```
 
 #### 4. 其他有用的 create_page 参数
+
 - `type`: `'page'` (默认) 或 `'blogpost'`
 - `representation`: `'storage'` (XHTML, 推荐), `'wiki'` (Confluence wiki markup), `'atlas_doc_format'` (ADF – 较新的 Cloud 格式)
 - `editor`: `'v2'` (近期版本中的默认值)
@@ -97,6 +101,7 @@ confluence.create_page(
 - `minor_edit`: `True` (更新时使用 – 不会通知关注者)
 
 #### 5. 推荐的现代 Cloud 方法（使用较新的拆分类）
+
 ```python
 from atlassian.confluence import ConfluenceCloud
 
@@ -114,14 +119,15 @@ confluence.create_page(
 ```
 
 ### Troubleshooting Tips
+
 - **401 Unauthorized** → Token/Email 错误或在该 Space 中没有 "Add Pages" 权限。
 - **403 Forbidden** → 缺少 Space 权限或该 Space 受到限制。
 - **Body format issues** → 对于 HTML/XHTML，请使用 `'storage'` representation。对于含有大量 macro 的页面，建议从现有页面复制 HTML（通过 ?expand=body.storage 获取）。
 - 始终检查返回的 dict – 它包含 `'id'`、`'title'`、`'_links'` 等关键信息。
 
-更多示例：https://github.com/atlassian-api/atlassian-python-api/tree/master/examples/confluence
+更多示例：<https://github.com/atlassian-api/atlassian-python-api/tree/master/examples/confluence>
 
-完整文档：https://atlassian-python-api.readthedocs.io/confluence.html
+完整文档：<https://atlassian-python-api.readthedocs.io/confluence.html>
 
 **References:**
 

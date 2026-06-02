@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What is the content of the webpage at https://duan.ayaseeri.com/dadaotouziwendalu-disanzhanggongsidianping/?
+Question: What is the content of the webpage at <https://duan.ayaseeri.com/dadaotouziwendalu-disanzhanggongsidianping/>?
 
 Answer:
 
@@ -28,6 +28,7 @@ The site **duan.ayaseeri.com** is a structured knowledge base titled **"多元�
 Chapter 3 is titled **"Company Reviews" (公司点评)** and consists of Duan Yongping's Q&A commentary on specific companies. The main companies discussed include:
 
 ### 1. **Apple (苹果)**
+
 This is the dominant and most detailed section. Key themes:
 
 - **Why he loves Apple**: User experience taken to the extreme, strong platform/ecosystem (App Store, iCloud, etc.), single-product model (focused, low cost, high quality), superior marketing, and a massive and growing market.
@@ -40,6 +41,7 @@ This is the dominant and most detailed section. Key themes:
 - **Future projections**: He estimated Apple could earn close to $200B per year within 10 years (~2034), and AI iPhones would drive a new upgrade cycle.
 
 ### 2. Other Companies Mentioned
+
 The chapter also briefly touches on commentary about **Moutai (茅台)**, **BBK (步步高)**, **NetEase (网易)**, **Tencent (腾讯)**, and **Alibaba (阿里巴巴)**, though these sections are shorter compared to Apple.
 
 ---

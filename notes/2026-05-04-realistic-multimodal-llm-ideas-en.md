@@ -25,24 +25,24 @@ Here are **strong, realistic project directions**:
 
 **Goal:** Given a short video, describe what happens.
 
-### What you build:
+### What you build
 
 * Video encoder (pretrained, e.g. CLIP / VideoMAE / InternVideo features)
 * Small LLM (LLaMA-family small model)
 * Connector (projection layer or LoRA adapter)
 
-### Training idea:
+### Training idea
 
 * Freeze video encoder
 * Train a small projector + LLM adapter
 
-### Dataset:
+### Dataset
 
 * MSR-VTT
 * WebVid
 * ActivityNet Captions
 
-### Why this is good:
+### Why this is good
 
 * Feels like “video intelligence”
 * Cheap to train (1–4 GPUs possible)
@@ -54,26 +54,26 @@ Here are **strong, realistic project directions**:
 
 **Goal:** Chat with images.
 
-### Stack:
+### Stack
 
 * CLIP / SigLIP image encoder
 * Small LLM (1B–7B)
 * Projection layer (like LLaVA style)
 
-### Training:
+### Training
 
 * Only train:
 
   * projection layer
   * LoRA on LLM
 
-### Dataset:
+### Dataset
 
 * LAION-400M subset
 * COCO captions
 * ShareGPT-4V style datasets (open variants)
 
-### Outcome:
+### Outcome
 
 A “mini GPT-4V-like chatbot”
 
@@ -85,21 +85,21 @@ A “mini GPT-4V-like chatbot”
 
 > “What did the person do before sitting down?”
 
-### Key idea:
+### Key idea
 
 Instead of full video generation, focus on:
 
 * temporal reasoning
 * event sequencing
 
-### Architecture:
+### Architecture
 
 * sample frames (8–32 frames per clip)
 * frame encoder (shared weights)
 * temporal pooling (attention / transformer)
 * LLM for reasoning
 
-### Dataset:
+### Dataset
 
 * TGIF-QA
 * ActivityNet-QA
@@ -113,14 +113,14 @@ Since you mentioned FineWeb:
 
 **Goal:** build a pipeline that collects and filters multimodal data.
 
-### What you build:
+### What you build
 
 * crawler for image/video-text pairs
 * quality scoring model (CLIP similarity + heuristics)
 * deduplication pipeline
 * dataset versioning system
 
-### Why this is powerful:
+### Why this is powerful
 
 This is actually what big labs spend massive effort on.
 
@@ -130,14 +130,14 @@ This is actually what big labs spend massive effort on.
 
 **Goal:** improve caption quality of videos.
 
-### Approach:
+### Approach
 
 * Start from pretrained video encoder
 * Train only:
 
   * LoRA on decoder LLM
 
-### Add-ons:
+### Add-ons
 
 * style control (“funny / technical / short captions”)
 * structured captions (objects + actions + time)
@@ -148,13 +148,13 @@ This is actually what big labs spend massive effort on.
 
 **Goal:** model remembers images/videos you show it.
 
-### Idea:
+### Idea
 
 * embed media → vector DB
 * LLM retrieves past memories
 * answer based on multimodal history
 
-### Stack:
+### Stack
 
 * CLIP embeddings
 * FAISS / Milvus

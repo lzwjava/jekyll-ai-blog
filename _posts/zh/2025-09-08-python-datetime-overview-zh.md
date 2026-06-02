@@ -13,6 +13,7 @@ type: note
 ### Python datetime 模块概述
 
 Python 的 `datetime` 模块提供了处理日期、时间和时间戳的类。它属于标准库，无需安装。主要类包括：
+
 - `date`：处理日期（年、月、日）
 - `time`：处理时间（时、分、秒、微秒）
 - `datetime`：组合日期和时间
@@ -139,6 +140,7 @@ eastern_time = naive.astimezone(eastern)
 ```
 
 ### 常见技巧与注意事项
+
 - **不可变对象**：`datetime` 对象不能直接修改，算术运算会创建新对象
 - **月份天数**：闰年二月可使用 29 天，模块会通过 `calendar` 或 `dateutil` 处理闰年检查
 - **性能优化**：避免在循环中频繁调用 `now()`，建议存储该值

@@ -15,6 +15,7 @@ Below is the English translation of the provided outline for the self-study exam
 ### Self-Study Examination 04729 University Chinese Syllabus Outline
 
 #### I. Course Nature and Objectives
+
 - **Course Nature**:
   *University Chinese* (course code 04729) is a mandatory public course for the National Higher Education Self-Study Examination (except for Chinese language majors). It is a comprehensive cultural foundation course aimed at developing and assessing candidates’ language and literature proficiency, as well as their writing skills. It differs from literature courses for Chinese language majors and practical writing courses for non-Chinese majors, emphasizing language application, literary appreciation, and cultural literacy.
 
@@ -22,6 +23,7 @@ Below is the English translation of the provided outline for the self-study exam
   By studying outstanding literary works from ancient and modern China and abroad, the course aims to enhance candidates’ comprehensive Chinese language skills, including reading comprehension, language expression, literary appreciation, and writing ability. It also seeks to foster cultural and aesthetic literacy, providing a foundation for other academic studies and personal development.
 
 #### II. Course Content and Assessment Objectives
+
 The syllabus focuses on four key areas: language knowledge, literary knowledge, reading ability, and writing ability. The specific content is as follows:
 
 1. **Language Knowledge**:
@@ -48,12 +50,14 @@ The syllabus focuses on four key areas: language knowledge, literary knowledge, 
    - Focus: Logical coherence, clarity, and accuracy in language expression, as well as emotional impact.
 
 #### III. Assessment Knowledge Points and Competency Levels
+
 - **Knowledge Classification**: The syllabus categorizes content into “important,” “secondary,” and “general” or into “recall,” “comprehension,” and “application” levels.
   - **Important and Secondary**: Prioritize these for study, as they carry higher weight in the exam.
   - **General**: Study selectively based on available time.
 - **Chapter Content**: The textbook covers various genres, including argumentative essays, expository essays, narrative essays, and poetry, with each chapter specifying knowledge points and competency requirements. Candidates must be familiar with the authors, themes, and genre characteristics of selected texts.
 
 #### IV. Designated Textbook
+
 - **Textbook Title**: *University Chinese (2018 Edition)*
 - **Editors**: Xu Zhongyu, Tao Xingchuan
 - **Publisher**: Peking University Press
@@ -61,21 +65,25 @@ The syllabus focuses on four key areas: language knowledge, literary knowledge, 
 - **Note**: The textbook includes the *University Chinese Self-Study Examination Syllabus*. Candidates should use the 2018 edition for preparation. If the syllabus or textbook has been updated, refer to the latest version announced by the local education examination authority.
 
 #### V. Exam Format and Score Distribution
+
 The exam is a closed-book written test, typically including the following question types (score distribution may vary by region; refer to local exam authority guidelines):
+
 1. **Single-Choice Questions**: Test language and literary knowledge, approximately 10–20 points.
 2. **Multiple-Choice Questions**: Involve classical Chinese or literary text analysis, approximately 10–15 points.
 3. **Reading Comprehension Questions**: Analyze textbook or non-textbook texts, approximately 20–30 points.
 4. **Writing Questions**: Write an argumentative or narrative essay, approximately 30–40 points.
 
 #### VI. Study Tips
+
 - **Focus Areas**: Prioritize “important” and “secondary” knowledge points, thoroughly read selected texts, and understand author backgrounds, text themes, and genre characteristics.
 - **Past Papers**: Practice past exam papers from 2008–2024 (available on platforms like Self-Study Exam Network or regional exam websites) to familiarize yourself with question types and patterns.
 - **Syllabus-Driven Study**: Use the syllabus as a guide to prioritize key content and avoid unfocused study.
 - **Additional Resources**: Use practice tests, mock exams, study notes, and video lectures (e.g., from Self-Study Exam Network).
 
 #### VII. Syllabus Access and Notes
+
 - **Accessing the Syllabus**:
-  - Download the 2018 *04729 University Chinese Self-Study Exam Syllabus* from platforms like **Self-Study Exam Network (www.zikaosw.cn)** or provincial education examination websites (e.g., Yunnan, Anhui, Chongqing).
+  - Download the 2018 *04729 University Chinese Self-Study Exam Syllabus* from platforms like **Self-Study Exam Network (<www.zikaosw.cn>)** or provincial education examination websites (e.g., Yunnan, Anhui, Chongqing).
   - Some provinces (e.g., Anhui, Chongqing) publish the latest textbook and syllabus versions before exams; check regularly for updates.
 - **Notes**:
   - The syllabus and textbook may vary by year or region; always refer to the latest version from the local education examination authority.
@@ -84,11 +92,12 @@ The exam is a closed-book written test, typically including the following questi
 ---
 
 ### Additional Notes
+
 - For the full syllabus or latest version, visit:
-  - **Yunnan Self-Study Exam**: www.zikaosw.cn
-  - **Anhui Self-Study Exam**: www.ahzkw.com.cn
-  - **Chongqing Self-Study Exam**: www.cq-zk.cn
-  - **China Self-Study Exam Network**: www.zikao35.com
+  - **Yunnan Self-Study Exam**: <www.zikaosw.cn>
+  - **Anhui Self-Study Exam**: <www.ahzkw.com.cn>
+  - **Chongqing Self-Study Exam**: <www.cq-zk.cn>
+  - **China Self-Study Exam Network**: <www.zikao35.com>
 - The complete syllabus includes detailed chapter-specific knowledge points and assessment requirements; downloading the PDF version is recommended for systematic study.
 - If you have specific questions (e.g., key points for a chapter or past paper analysis), feel free to ask, and I can provide more detailed answers!
 

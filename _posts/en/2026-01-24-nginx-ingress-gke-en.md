@@ -19,6 +19,7 @@ The **NGINX Ingress Controller** is one of the most popular ways to expose HTTP/
 ### What is an Ingress in Kubernetes?
 
 An **Ingress** is a Kubernetes API object that manages external access (mainly HTTP and HTTPS) to services inside the cluster. It provides:
+
 - Load balancing
 - SSL/TLS termination
 - Name-based virtual hosting
@@ -54,6 +55,7 @@ Most teams choose **NGINX Ingress** when they need more powerful routing capabil
   `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.x/deploy/static/provider/cloud/deploy.yaml`
 
 - **Helm** (very popular)
+
   ```bash
   helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
   helm repo update

@@ -13,9 +13,11 @@ type: note
 You're hitting a classic **RTX 4070 12 GB OOM during the first backward pass** when using `compile=True` (Torch Inductor) + `bfloat16` + your current settings.
 
 The killer line in the error:
+
 ```
 buf1 = empty_strided_cuda((16, 1024, 50304), ...)  # → 16 × 1024 × 50304 × 2 bytes = ~1.54 GB
 ```
+
 That's the **logits buffer** before the loss — and Torch compile makes it explode in memory the first few steps while it’s still compiling/graph-capturing.
 
 ### Immediate Working Fix (100% success rate on 4070 12 GB)
@@ -32,6 +34,7 @@ compile = False                     # <─ THIS IS THE MAIN FIX for now
 ```
 
 Optional but recommended (add these lines if they don’t exist):
+
 ```python
 dtype = 'float16'          # fp16 uses less memory than bfloat16 on 4070
 # dtype = 'bfloat16'       # ← avoid on 4070, it’s slower and more memory-hungry
@@ -51,15 +54,18 @@ n_embd = 576
 ```
 
 ### Why this works
+
 - `compile=False` → avoids the huge temporary buffers during graph capture
 - `batch_size=12` + `grad_acc=40` → memory drops from ~11.8 GB → ~9.8 GB peak
 - `float16` instead of `bfloat16` → another 10–15% memory saving on Ada GPUs
 
-### After it runs stably for ~100 steps, you can re-enable speed-ups one by one:
+### After it runs stably for ~100 steps, you can re-enable speed-ups one by one
+
 ```bash
 # Step 1 (after 100 steps, edit config again)
 compile = True          # now it will compile with real shapes → much less memory
 ```
+
 ```bash
 # Step 2 (optional, later)
 batch_size = 16
@@ -67,6 +73,7 @@ gradient_accumulation_steps = 32   # back to original effective batch size
 ```
 
 ### Quick copy-paste full fix
+
 Replace the top part of your config with this:
 
 ```python

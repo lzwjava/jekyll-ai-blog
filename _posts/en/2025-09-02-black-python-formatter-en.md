@@ -84,6 +84,7 @@ black --line-length 100 --diff src/
       hooks:
         - id: black
   ```
+
 * **CI/CD**: Add `black --check .` in your CI pipeline.
 
 ---

@@ -16,11 +16,13 @@ Answer:
 Based on the geographical scope of their communication coverage, computer networks are primarily classified into four categories. Below is the classification along with the specific correspondences you requested:
 
 ### 1. Classification of Computer Networks by Coverage
+
 Computer networks are generally divided into the following four types:
-*   **Local Area Network (LAN)**
-*   **Metropolitan Area Network (MAN)**
-*   **Wide Area Network (WAN)**
-*   **Internet (or Internetwork)**
+
+* **Local Area Network (LAN)**
+* **Metropolitan Area Network (MAN)**
+* **Wide Area Network (WAN)**
+* **Internet (or Internetwork)**
 
 ### 2. Correspondence to Specific Scenarios
 
@@ -32,7 +34,8 @@ Computer networks are generally divided into the following four types:
 | **Worldwide** | **Internet** | The global system of interconnected computer networks that uses the standard Internet protocol suite (TCP/IP). It is essentially a "network of networks" spanning the entire globe. |
 
 **Summary of Matches:**
-*   "A single unit (school)" $\rightarrow$ **Local Area Network (LAN)**
-*   "A city" $\rightarrow$ **Metropolitan Area Network (MAN)**
-*   "One or several countries" $\rightarrow$ **Wide Area Network (WAN)**
-*   "Worldwide" $\rightarrow$ **Internet**
+
+* "A single unit (school)" $\rightarrow$ **Local Area Network (LAN)**
+* "A city" $\rightarrow$ **Metropolitan Area Network (MAN)**
+* "One or several countries" $\rightarrow$ **Wide Area Network (WAN)**
+* "Worldwide" $\rightarrow$ **Internet**

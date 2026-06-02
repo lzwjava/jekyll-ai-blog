@@ -67,6 +67,7 @@ $session = \Config\Services::session();
 **替换 `REST_Controller`：**
 
 CI4 有原生的 API 资源控制器。替换为：
+
 ```php
 // CI3 模式（已失效）
 class Api extends REST_Controller { ... }

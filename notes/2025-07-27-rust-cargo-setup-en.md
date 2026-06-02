@@ -19,39 +19,49 @@ It looks like you're trying to set up and run a simple Rust project based on the
 I'll walk you through both approaches step by step. Use a terminal in your project's root directory (`lzwjava.github.io`).
 
 ### Option 1: Run as a Single-File Script (Quickest, No Cargo Needed)
+
 This compiles and runs `example.rs` directly using the Rust compiler (`rustc`). It's ideal if you don't need dependencies or a full project setup.
 
 1. Navigate to the directory containing the file:
+
    ```
    cd rust
    ```
 
 2. Compile the file:
+
    ```
    rustc example.rs
    ```
+
    - This generates an executable named `example` (on macOS/Linux) or `example.exe` (on Windows).
    - If compilation fails (e.g., due to syntax errors in `example.rs`), fix the code and retry.
 
 3. Run the executable:
+
    ```
    ./example
    ```
+
    - Output will depend on what's in `example.rs` (e.g., "Hello, World!").
 
 If `example.rs` is a library (no `fn main()`), this won't work—use `cargo test` in a project setup instead.
 
 ### Option 2: Set Up and Run as a Cargo Project (Recommended for rust-analyzer and Scalability)
+
 This fixes the rust-analyzer error by creating a valid workspace. It also allows using `cargo run` for easier building/running.
 
 1. Create or move to a dedicated project directory (to avoid cluttering your GitHub Pages root):
+
    ```
    mkdir rust_project
    cd rust_project
    ```
+
    - If you insist on using the existing `rust` dir, `cd rust` instead and proceed.
 
 2. Create `Cargo.toml` with your provided content, but fix the edition:
+
    ```
    [package]
    name = "example"
@@ -62,25 +72,32 @@ This fixes the rust-analyzer error by creating a valid workspace. It also allows
 
    [dependencies]
    ```
+
    - Save this as `Cargo.toml` in the current directory.
 
 3. Set up the source directory and move your file:
+
    ```
    mkdir src
    mv ../rust/example.rs src/main.rs  # Adjust path if needed; renames it to main.rs for binary execution
    ```
+
    - If `example.rs` isn't meant to be the main entry point, rename it to `lib.rs` instead and add `[lib]` to `Cargo.toml` for a library crate.
 
 4. Build the project:
+
    ```
    cargo build
    ```
+
    - This downloads any needed crates (none here) and compiles. If it fails, check for errors in `src/main.rs`.
 
 5. Run the project:
+
    ```
    cargo run
    ```
+
    - This builds if needed and executes `src/main.rs`.
 
 6. To resolve the rust-analyzer error in VS Code (or similar editor):
@@ -89,14 +106,17 @@ This fixes the rust-analyzer error by creating a valid workspace. It also allows
    - rust-analyzer should now detect the project via `Cargo.toml`.
 
 ### Troubleshooting Tips
-- **If `cargo` isn't installed**: Run `rustup update` (assuming you have Rust installed via rustup). If not, install Rust from https://rustup.rs/.
+
+- **If `cargo` isn't installed**: Run `rustup update` (assuming you have Rust installed via rustup). If not, install Rust from <https://rustup.rs/>.
 - **Edition error**: If you keep "2025", Cargo will complain: "error: invalid edition: '2025'". Stick with "2024".
 - **No `fn main()` in `example.rs`**: Add one, e.g.:
+
   ```
   fn main() {
       println!("Hello, World!");
   }
   ```
+
 - **Dependencies needed?**: Add them under `[dependencies]` in `Cargo.toml`, e.g., `rand = "0.8"`, then `cargo build`.
 - **rust-analyzer still fails?**: Ensure your editor's Rust extension is updated, and add `"rust-analyzer.linkedProjects": ["./Cargo.toml"]` to your workspace `settings.json` if the project is in a subdir.
 - For more complex setups (e.g., multiple crates), use `cargo new --bin example` to generate a template.

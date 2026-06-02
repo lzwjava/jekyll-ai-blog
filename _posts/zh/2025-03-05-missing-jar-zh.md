@@ -58,9 +58,11 @@ type: note
 3. **更新清单（如果 JAR 不需要）：**
    - 打开 EAR 或 WAR 中的 `MANIFEST.MF` 文件，该文件位于 `META-INF/` 目录中。
    - 查找 `Class-Path` 属性，它可能如下所示：
+
      ```
      Class-Path: grpc-protobuf.jar some-other-lib.jar
      ```
+
    - 删除对 `grpc-protobuf.jar` 的引用，使其不再出现在列表中。
    - 保存文件，重新构建应用程序并重新部署。警告应不再出现。
 
@@ -123,6 +125,7 @@ type: note
 
 2. **查看 EAR 的 `pom.xml`**
    检查 `maven-ear-plugin` 配置。例如：
+
    ```xml
    <plugin>
        <groupId>org.apache.maven.plugins</groupId>
@@ -134,6 +137,7 @@ type: note
        </configuration>
    </plugin>
    ```
+
    确保它设置为将依赖项包含在 `lib/` 目录中（或您的 JAR 应放置的位置）。
 
 3. **检查依赖项**
@@ -150,6 +154,7 @@ type: note
 
 1. **如果 JAR 是必需的**
    在您的 EAR 的 `pom.xml` 中添加 `grpc-protobuf.jar` 作为依赖项：
+
    ```xml
    <dependency>
        <groupId>io.grpc</groupId>
@@ -157,6 +162,7 @@ type: note
        <version>1.39.0</version> <!-- 使用正确的版本 -->
    </dependency>
    ```
+
    确保 `maven-ear-plugin` 将其包含在 EAR 中（例如在 `lib/` 目录中）。
 
 2. **如果作用域错误**
@@ -164,15 +170,18 @@ type: note
 
 3. **如果 JAR 不需要**
    如果 `grpc-protobuf.jar` 不应出现在清单中，请检查 `maven-ear-plugin` 中的自定义清单配置：
+
    ```xml
    <configuration>
        <manifestFile>META-INF/MANIFEST.MF</manifestFile>
    </configuration>
    ```
+
    删除任何手动添加的 `grpc-protobuf.jar` 条目，或让 Maven 自动生成清单。
 
 4. **处理传递依赖**
    如果它是您不需要的传递依赖项，请排除它：
+
    ```xml
    <dependency>
        <groupId>some.group</groupId>

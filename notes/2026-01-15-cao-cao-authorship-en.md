@@ -27,6 +27,7 @@ Full relevant section:
 This is one of Cao Cao's most well-known works. It is **not** written by Li Bai, Du Fu (Tang dynasty poets), or Su Shi (Song dynasty poet).
 
 **Explanation of the other options:**
+
 - **A. Li Bai**: Famous for romantic, imaginative, and often wine-related poetry (e.g. "将进酒", "静夜思").
 - **B. Su Shi**: Known for bold, philosophical, and descriptive works (e.g. "水调歌头·明月几时有", "念奴娇·赤壁怀古").
 - **D. Du Fu**: Known as the "Poet-Historian", focused on social reality, war, and suffering (e.g. "春望", "茅屋为秋风所破歌").

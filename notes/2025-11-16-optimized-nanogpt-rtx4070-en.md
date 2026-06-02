@@ -13,6 +13,7 @@ type: note
 Here's an adjusted nanoGPT config optimized for your RTX 4070 (12 GB VRAM) when using **just this single Parquet file** (~3.1 GB, from CC-MAIN-2013-20/000_00000.parquet).
 
 ### Key Adjustments and Why
+
 - **Dataset size estimate**: This one Parquet contains roughly 1–2 billion tokens (based on FineWeb's structure, where the full CC-MAIN-2013-20 crawl has ~144.5B tokens across ~100–150 files, and each file averages 2–4 GB with good compression). It's much smaller than the full FineWeb, so I've reduced `max_iters` and `lr_decay_iters` to target ~2–3B total tokens seen (about 1–2 epochs for good convergence without overfitting on a 125M param model).
 - **Memory fit**: Sticking with the ~125M param model (12L/12H/512embd) – it uses ~9–10 GB VRAM during training on your 4070. If you hit OOM, drop `batch_size` to 12 or `gradient_accumulation_steps` to 24.
 - **Training duration**: With 5000–10000 iters, this should take ~5–10 hours on a 4070 (assuming ~1–2 iters/sec). Monitor loss; stop early if it plateaus.
@@ -59,7 +60,9 @@ weight_decay = 0.1
 ```
 
 ### Smaller Model Option (If You Want Faster Training or Less Memory)
+
 If the above hits ~11 GB VRAM peak, try this ~84M param config (uses ~7–8 GB):
+
 ```python
 n_layer = 6
 n_head = 6
@@ -67,9 +70,11 @@ n_embd = 384
 learning_rate = 6e-4      # Higher for smaller model
 max_iters = 8000          # Compensate with more iters (~3–4B tokens)
 ```
+
 Still solid quality, but weaker than 125M.
 
 ### Training Tips
+
 - **Total tokens per iter**: ~512 sequences * 1024 tokens = ~0.5M tokens.
 - **Epochs**: With ~1.5B tokens in the file, 6000 iters ≈ 2 epochs. FineWeb is high-quality, so 1–3 epochs is ideal – watch val loss.
 - **If data is too small**: Loop multiple epochs by increasing `max_iters`. Or download a few more Parquets (e.g., 000_00001.parquet) for better diversity.

@@ -15,7 +15,7 @@ Answer:
 
 **Collateral** means something valuable that a borrower gives to a lender to secure a loan. If the borrower fails to repay the loan, the lender can take and sell the collateral to recover the money.
 
-### Main meanings of "collateral":
+### Main meanings of "collateral"
 
 1. **In finance and lending** (most common meaning)
    - An asset or property that the borrower pledges to the lender as security.
@@ -38,6 +38,7 @@ Answer:
 **Most people use "collateral" to mean the security given for a loan.**
 
 Examples in everyday sentences:
+
 - "The bank asked for the house as collateral for the business loan."
 - "I used my car as collateral to get a quick personal loan."
 - "Without collateral, it's very hard to get a large loan with low interest."

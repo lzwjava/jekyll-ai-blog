@@ -15,6 +15,7 @@ Below is a detailed, section-by-section explanation of the provided code. This a
 If you're new to Vue, think of this as a reusable UI "component" that displays live stream details, handles user interactions (e.g., joining, paying), and integrates with WeChat for sharing and payments. The code assumes dependencies like WeChat SDK, utility functions, and API calls for fetching live stream data.
 
 ### Overall Purpose
+
 - **What it does**: This is the "IntroView" component, which renders a page for a specific live stream event. It shows details like the stream's cover, owner, schedule, attendees, description, and options to join (e.g., via payment or sharing). It integrates with WeChat for mobile features like sharing, payments, and QR code generation.
 - **Key features**:
   - Fetches and displays live stream data (e.g., title, participants, details in Markdown).
@@ -29,6 +30,7 @@ The code is a single file combining template, script, and styles.
 ---
 
 ### 1. **Template** (HTML-Like Structure)
+
 The `<template>` defines the UI layout using Vue's directives (e.g., `v-for` for loops, `:src` for dynamic attributes). It's divided into sections that visually organize the live stream's details.
 
 - **Root Element**: `<div class="intro-view">` – The main container for the entire page.
@@ -65,12 +67,14 @@ The `<template>` defines the UI layout using Vue's directives (e.g., `v-for` for
   - `<toast>`: Loading/Success/error messages.
 
 Key Interactions:
+
 - Clicks trigger methods like `goUsers`, `attendLive`, etc.
 - Dynamic classes (e.g., `live-on` for active status) and computed values (e.g., `timeGap`, `statusText`) make it reactive.
 
 ---
 
 ### 2. **Script** (JavaScript Logic)
+
 This is the Vue component's logic, handling data, computations, lifecycle, methods, and events.
 
 - **Imports**:
@@ -125,6 +129,7 @@ This is the Vue component's logic, handling data, computations, lifecycle, metho
 ---
 
 ### 3. **Styles** (Stylus CSS)
+
 This uses Stylus (a concise CSS preprocessor) to style the component. Key rules:
 
 - **Base**: Imports shared styles (e.g., `base.styl`, `variables.styl`). Responsive breakpoints via `rupture`.
@@ -142,6 +147,7 @@ This uses Stylus (a concise CSS preprocessor) to style the component. Key rules:
 ---
 
 ### How It All Works Together
+
 1. **Loading**: On route enter, fetches data from APIs (e.g., live details, attendees) and sets up WeChat sharing.
 2. **Display**: Renders sections with dynamic content (e.g., Markdown for details, computed button text).
 3. **Interaction**: User clicks "attend" → Checks auth/payment → Shows overlay/options → Pay via WeChat/QR or free sign-up → Enters live.

@@ -28,6 +28,7 @@ Regarding the **"stop doing list"**:
 Charlie Munger did not explicitly create or publish a personal "stop doing list," but his philosophy strongly aligns with the concept. He advocated **inversion thinking** — instead of only asking "how do I succeed?", also ask "how do I fail/misjudge?" and then avoid those behaviors. Many people inspired by Munger recommend maintaining a "stop doing list" as a practical application of his inversion approach to stay focused, avoid stupidity, and improve outcomes.
 
 Examples of things Munger advised stopping or avoiding include:
+
 - Harboring envy or jealousy toward others
 - Over-leveraging (debt)
 - Excessive drinking or chasing vices (he humorously said smart men go broke via "ladies, liquor, and leverage")

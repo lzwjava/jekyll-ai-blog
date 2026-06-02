@@ -37,6 +37,7 @@ A year ago in Shanghai, I often dreamed with my eyes open. I gazed at the distan
 Suddenly, in the field ahead, amid the green broad beans and yellow rapeseed flowers, I seemed to see another ray of light, a brightness. This was still the light I often saw. It could not be the light from Aierke's lamp—my poor sister had already died. This must be the lamp of my own heart. It will forever show me the path I should take.
 
 **Notes on translation choices:**
+
 - The title "爱尔克的灯光" is commonly rendered as "Aierke's Lights" or "The Lights of Aierke" in English discussions. "Aierke" is the Chinese transliteration of "Elke" or a similar name from the European legend Ba Jin references (often linked to the ancient tale of Hero and Leander or a variant sister-brother lighthouse story).
 - The essay uses "lights" (灯光) symbolically in three layers: the dim light of the decaying old family home, the tragic waiting light of Aierke, and finally the enduring inner light of hope and personal direction.
 - The famous inscription "长宜子孙" is left in pinyin with literal translation in parentheses, as is conventional in English renditions of the piece.

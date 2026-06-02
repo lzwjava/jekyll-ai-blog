@@ -31,11 +31,13 @@ The principle of **政教分离 (separation of church and state)** is a fundamen
 ---
 
 ### **Historical Context**
+
 The concept has roots in Enlightenment thinking, particularly in the works of philosophers like **John Locke** and **Voltaire**, who argued for religious tolerance and the separation of religious and political authority. It was later formalized in documents like the **U.S. Constitution's First Amendment**, which prohibits the establishment of a state religion and guarantees the free exercise of religion.
 
 ---
 
 ### **Global Examples**
+
 - **United States**: The First Amendment explicitly states, "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof."
 - **France**: The principle of *laïcité* (secularism) is enshrined in law, emphasizing the neutrality of the state in religious matters.
 - **China**: The government officially promotes atheism and regulates religious activities, but the principle is interpreted differently compared to Western models.
@@ -43,6 +45,7 @@ The concept has roots in Enlightenment thinking, particularly in the works of ph
 ---
 
 ### **Why Is It Important?**
+
 - **Prevents Discrimination**: Ensures that no religious group is privileged or oppressed by the state.
 - **Promotes Social Harmony**: Reduces conflicts between different religious communities.
 - **Protects Individual Rights**: Allows people to follow their conscience without state interference.

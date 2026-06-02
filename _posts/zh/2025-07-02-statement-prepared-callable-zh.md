@@ -18,6 +18,7 @@ type: note
      - 不支持参数绑定，需要手动将值拼接到 SQL 字符串中，存在 SQL 注入风险。
      - 重复查询效率较低，因为数据库每次都需要重新解析 SQL。
    - **示例**：
+
      ```java
      Statement stmt = conn.createStatement();
      ResultSet rs = stmt.executeQuery("SELECT * FROM users WHERE id = 1");
@@ -31,6 +32,7 @@ type: note
      - 对重复查询更高效，因为 SQL 只需编译一次即可重复使用。
      - 支持动态参数绑定，更安全灵活。
    - **示例**：
+
      ```java
      PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM users WHERE id = ?");
      pstmt.setInt(1, 1);
@@ -45,6 +47,7 @@ type: note
      - 支持通过 `registerOutParameter()` 等方法注册输出参数。
      - 支持存储过程逻辑的复杂参数处理。
    - **示例**：
+
      ```java
      CallableStatement cstmt = conn.prepareCall("{call getUserName(?, ?)}");
      cstmt.setInt(1, 1);
@@ -54,6 +57,7 @@ type: note
      ```
 
 **核心区别**：
+
 | 特性                   | Statement                          | PreparedStatement                  | CallableStatement                 |
 |------------------------|------------------------------------|------------------------------------|------------------------------------|
 | **用途**               | 静态 SQL 查询                     | 参数化 SQL 查询                   | 存储过程执行                     |
@@ -63,6 +67,7 @@ type: note
 | **参数支持**           | 无                                | 仅输入参数                        | 输入、输出及输入输出参数         |
 
 **使用场景建议**：
+
 - 对安全性、性能要求不高的简单非重复查询可使用 `Statement`。
 - 需要参数化查询、重复执行或防范 SQL 注入时建议使用 `PreparedStatement`。
 - 当调用含输入输出参数的数据库存储过程时需使用 `CallableStatement`。

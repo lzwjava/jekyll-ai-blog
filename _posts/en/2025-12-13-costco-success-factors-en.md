@@ -38,9 +38,9 @@ These elements create a virtuous cycle: low prices attract members, high volume 
 
 References:
 
-- https://www.investopedia.com/stock-analysis/040915/3-reasons-costco-great-company-cost.aspx
-- https://www.economist.com/business/2024/02/15/why-costco-is-so-loved
-- https://www.cascade.app/studies/how-costcos-business-model-resulted-in-success
-- https://www.cnbc.com/2025/09/26/business-success-tips-lessons-costco-shopping-retail-earnings-consumer-trends.html
-- https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx
-- https://crossdockinsights.com/p/why-is-costco-successful
+- <https://www.investopedia.com/stock-analysis/040915/3-reasons-costco-great-company-cost.aspx>
+- <https://www.economist.com/business/2024/02/15/why-costco-is-so-loved>
+- <https://www.cascade.app/studies/how-costcos-business-model-resulted-in-success>
+- <https://www.cnbc.com/2025/09/26/business-success-tips-lessons-costco-shopping-retail-earnings-consumer-trends.html>
+- <https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx>
+- <https://crossdockinsights.com/p/why-is-costco-successful>

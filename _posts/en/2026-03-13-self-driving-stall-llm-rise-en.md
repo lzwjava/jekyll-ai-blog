@@ -71,12 +71,14 @@ The key asymmetry: **language is a human abstraction, so human-generated data pe
 This is the deeper, more universal lesson your reflection points to.
 
 The founders of self-driving companies had:
+
 - ✅ High IQ
 - ✅ Technical depth
 - ✅ Real ambition
 - ✅ Good intentions
 
 But they also had:
+
 - ❌ Confirmation bias — once you've committed publicly, every small success feels like validation
 - ❌ Investor pressure — billions of dollars create a reality distortion field; nobody wants to say "this might take 100 years"
 - ❌ Narrative seduction — "self-driving cars" is a *great story*; LLMs helping people write emails is mundane but actually works

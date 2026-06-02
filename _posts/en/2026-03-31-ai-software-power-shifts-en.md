@@ -26,6 +26,7 @@ Before AI, handing over source code was often not enough. A new team would spend
 Now, AI can instantly write clear, concise comments, function explanations, and API guides based directly on the code. As code is refactored or new features are added, AI can automatically update the corresponding documentation, ensuring it remains accurate — a massive benefit for large, complex projects.
 
 This means:
+
 - A new team can feed the source code into AI and get a **full architectural explanation** within hours
 - Undocumented decisions, patterns, and data flows become **readable and explainable**
 - The "you can't replace us because only we understand this codebase" argument is **largely dead**
@@ -63,6 +64,7 @@ This is one of the most underappreciated shifts. A single skilled developer with
 Some tech CEOs have suggested they can slow down on hiring junior engineers because AI tools give a 30% productivity boost to existing team members.
 
 In practice, a 1–2 person AI-fluent team can now handle:
+
 - Full-stack development (frontend + backend + DB)
 - Automated test generation
 - Documentation generation
@@ -77,6 +79,7 @@ The **bottleneck is no longer headcount** — it's the quality of judgment, arch
 Organizations will recalibrate team roles: fewer pure coders, and more system designers, product thinkers, and AI tool specialists in each team.
 
 Because of reduced knowledge lock-in:
+
 - **Clients have more leverage** — they are no longer hostage to a team that "owns" the codebase knowledge
 - **Teams must compete on ongoing quality and trust**, not on information asymmetry
 - **Phase-based contracts** (as discussed in the previous conversation) become even more natural — each phase is a clean handoff point

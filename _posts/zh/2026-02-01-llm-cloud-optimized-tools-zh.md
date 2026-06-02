@@ -15,6 +15,7 @@ type: note
 ## 顶级推荐
 
 ### **1. Pulumi** (对 LLM 最友好)
+
 Pulumi 允许你使用通用编程语言（如 TypeScript, Python, Go, C#, Java 或 YAML）来定义基础设施。这对 LLM 来说非常理想，因为：
 
 - **使用熟悉的语言** - LLM 已经在 Python, TypeScript 等语言上进行了广泛训练。
@@ -23,18 +24,22 @@ Pulumi 允许你使用通用编程语言（如 TypeScript, Python, Go, C#, Java 
 - 与领域特定语言（DSL）相比，LLM 在使用标准编程语言时，能更有效地将自然语言提示词（prompts）翻译成基础设施代码。
 
 ### **2. AWS CDK (Cloud Development Kit)**
+
 - 支持使用 TypeScript, Python, Java, C# 和 Go 来定义 AWS 基础设施。
 - 将代码转换为 CloudFormation templates。
 - 最适合仅限 AWS 的环境。
 - 提供具有 autocomplete 功能的深度 IDE 集成。
 
 ### **3. CDK for Terraform (CDKTF)**
+
 - 允许使用 TypeScript, Python, Go, C# 和 Java 定义基础设施，然后将其转译为 Terraform JSON。
 - 结合了 Terraform 的生态系统与编程语言的优势。
 - 支持多云。
 
 ### **4. 传统的基于 YAML 的工具**
+
 对于更简单的需求：
+
 - **Kubernetes** - YAML manifests
 - **AWS CloudFormation** - YAML/JSON templates
 - **Ansible** - YAML playbooks

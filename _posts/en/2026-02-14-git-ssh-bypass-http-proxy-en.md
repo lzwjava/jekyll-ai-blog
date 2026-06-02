@@ -36,25 +36,31 @@ Answer:
 You must configure the **SSH client** itself to use a proxy — common methods:
 
 1. **HTTP CONNECT proxy** (most corporate HTTP proxies)
+
    ```bash
    # In ~/.ssh/config
    Host github.com
        ProxyCommand connect -H proxy.example.com:8080 %h %p
    ```
+
    (requires `connect` tool or similar — install via brew install connect or similar)
 
 2. **SOCKS5 proxy** (common with tools like Shadowsocks, v2ray, Clash, etc.)
+
    ```bash
    # In ~/.ssh/config
    Host github.com
        ProxyCommand nc -x 127.0.0.1:1080 %h %p
    ```
+
    or
+
    ```bash
    GIT_SSH_COMMAND="ssh -o ProxyCommand='nc -x 127.0.0.1:1080 %h %p'" git pull --rebase
    ```
 
 3. **Jump host / bastion** (ProxyJump)
+
    ```bash
    GIT_SSH_COMMAND="ssh -J user@bastion.example.com" git pull --rebase
    ```

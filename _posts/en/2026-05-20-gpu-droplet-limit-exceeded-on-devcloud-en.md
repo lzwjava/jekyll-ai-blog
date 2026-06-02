@@ -18,7 +18,9 @@ AMD DevCloud (powered by DigitalOcean's infrastructure) enforces **account-level
 ## Root Causes
 
 ### 1. Default Droplet Limit is Very Low for New Accounts
+
 New AMD DevCloud accounts typically start with a **limit of 0 or 1 droplet**, or a very low **vCPU/RAM quota**. The MI300X x8 plan consumes:
+
 - 160 vCPUs
 - 1,920 GB RAM
 - 2x NVMe disks
@@ -26,10 +28,13 @@ New AMD DevCloud accounts typically start with a **limit of 0 or 1 droplet**, or
 That alone blows past almost any default quota.
 
 ### 2. GPU Droplets Have Separate Quota Tiers
+
 GPU resources are gated separately from regular compute. Even if your general droplet limit is fine, **GPU-specific limits** are often set to 0 by default until you request access or verify billing.
 
 ### 3. Billing/Verification Not Complete
+
 At ~$1.99/GPU/hr × 8 GPUs = **$15.92/hr**, AMD DevCloud likely requires:
+
 - Valid payment method confirmed
 - Account identity/org verification
 - Explicit quota increase request
@@ -39,19 +44,24 @@ At ~$1.99/GPU/hr × 8 GPUs = **$15.92/hr**, AMD DevCloud likely requires:
 ## How to Fix It
 
 ### Option A: Request a Quota Increase
+
 Go to your profile page you linked: `devcloud.amd.com/account/profile?i=cd3419`
 
 Look for:
+
 - **"Request Limit Increase"** or **"Quota"** section
 - Submit a support ticket explaining your use case (model training, research, etc.)
 
 ### Option B: Contact AMD DevCloud Support Directly
+
 AMD DevCloud has a support channel — mention:
+
 - Your use case (LLM training, MI300X workload)
 - Expected hours/duration
 - That you've verified billing
 
 ### Option C: Check Current Limits via API (if DigitalOcean-backed)
+
 ```bash
 # If they expose a DO-compatible API
 curl -X GET "https://api.devcloud.amd.com/v2/account" \

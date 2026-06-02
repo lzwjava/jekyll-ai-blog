@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-- http://shangzanwifi.com，从京东购买约45元的Wi-Fi便携热点。
+- <http://shangzanwifi.com，从京东购买约45元的Wi-Fi便携热点。>
 
 - 我购买了一个月50元的套餐，可享受中国移动、中国电信和中国联通三大运营商的网络。
 

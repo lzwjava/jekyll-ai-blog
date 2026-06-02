@@ -128,6 +128,7 @@ bootstrapApplication(AppComponent, {
 ### 心智模型 – 像这样理解 Standalone
 
 > 一个 standalone component 就像一个小型、自包含的微型应用：
+>
 > - 它声明：“我需要这些部分才能工作”
 > - Angular 的 compiler 正好打包这些部分
 > - 不再需要中央“模块注册表”
@@ -156,7 +157,7 @@ Standalone 不仅仅是一种语法——它是 Angular 向更简单、更现代
 
 **References:**
 
-- https://angular.dev/guide/standalone-components
-- https://blog.angular.dev/introducing-standalone-components-58a418173aa3
-- https://blog.angular.dev/angular-v17-is-now-available-8c4c0d8d3169
-- https://angular.love/standalone-components-in-angular
+- <https://angular.dev/guide/standalone-components>
+- <https://blog.angular.dev/introducing-standalone-components-58a418173aa3>
+- <https://blog.angular.dev/angular-v17-is-now-available-8c4c0d8d3169>
+- <https://angular.love/standalone-components-in-angular>

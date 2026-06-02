@@ -23,6 +23,7 @@ Unfortunately, a Bachelor's degree or equivalent is the main requirement when en
 ## **Your Current Situation:**
 
 Your profile has:
+
 - ✅ IELTS 6.5 (meets minimum language requirements)
 - ✅ 10 years software engineering experience (very valuable)
 - ❌ Associate degree (not equivalent to Bachelor's)
@@ -31,18 +32,24 @@ Your profile has:
 ## **Realistic Options:**
 
 ### **Option 1: Complete a Bachelor's Degree First**
+
 This is the most straightforward path. You could:
+
 - Complete your bachelor's degree in China (finish your current program if ongoing)
 - Consider online bachelor's programs that may accept your associate degree credits
 - Look into "top-up" degrees that convert associate to bachelor's (common in UK/Australia)
 
 ### **Option 2: Apply to Private Universities in Singapore**
+
 Some private institutions may be more flexible, such as:
+
 - **MDIS**: Depending on the programme, you may need an undergraduate degree in the relevant subject or working experience in the related field
 - They might consider substantial work experience as partial compensation
 
 ### **Option 3: Apply with Strong Supporting Materials**
+
 If you do not hold a Bachelor's degree, provide your Diploma/Graduate Diploma certificate and transcripts along with:
+
 - Detailed portfolio of your 10 years of software engineering work
 - Strong recommendation letters from employers
 - Any certifications, projects, or contributions to open source

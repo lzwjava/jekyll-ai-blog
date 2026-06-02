@@ -46,6 +46,7 @@ People commit suicide when the pain of living feels greater than the pain of dyi
     Alcohol is involved in roughly 30–50% of suicides; it disinhibits, worsens impulsivity, and intensifies despair.
 
 ### In short
+
 Most people who die by suicide have a treatable mental illness, feel hopelessly trapped in unbearable pain, believe they are a burden and don’t belong, and then encounter an acute crisis or intoxication state while having easy access to lethal means.
 
 If you or someone you know is struggling, reach out immediately—crisis lines (e.g., 988 in the US, Samaritans 116 123 in the UK, or local equivalents) are confidential and literally save lives. Suicide is often preventable when the factors above are interrupted early.

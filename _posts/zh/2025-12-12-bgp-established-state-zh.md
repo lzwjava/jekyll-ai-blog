@@ -34,11 +34,13 @@ BGP 通过可靠的 TCP 连接（端口 179）建立邻居关系（对等）。�
 | **Established** | 收到对等方的 KEEPALIVE。BGP 对等已完全建立。现在可以交换 UPDATE、KEEPALIVE 和 NOTIFICATION 消息。 | TCP 会话已完全建立               |
 
 ### 关键点
+
 TCP 三次握手（SYN → SYN-ACK → ACK）必须成功完成，BGP 才能从 Connect/Active 状态继续前进。这发生在 FSM 转换为 **OpenSent** 时。因此，从 **OpenSent** 开始（OpenSent → OpenConfirm → Established），TCP 会话已完全建立。
 
 但是，问题 specifically 询问的是哪个状态**指示**TCP 三次握手已完成，并且 BGP 会话已完全可用于路由交换。这个状态是 **Established** 状态——这是 BGP 对等被认为是“正常”并且实际正在交换路由信息的唯一状态。
 
 ### 快速总结
+
 - **Idle → Connect → (可能 Active)**：尝试完成 TCP 握手
 - **OpenSent → OpenConfirm → Established**：TCP 握手已完成
 - **Established** = BGP 邻居完全正常（TCP + BGP 会话成功）
@@ -46,5 +48,6 @@ TCP 三次握手（SYN → SYN-ACK → ACK）必须成功完成，BGP 才能从 
 因此，**D) Established** 是确认 TCP 三次握手已完成且 BGP 会话已正常运行的明确状态。
 
 参考文献：
+
 - [RFC 4271 – A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271.html)
 - [Cisco BGP Finite State Machine](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13753-25.html)

@@ -16,7 +16,7 @@ Answer:
 
 The **Consumer Banking Group (CBG)** at DBS Bank, also commonly referred to as the Consumer Banking/Wealth Management segment, focuses on retail and individual customers. It provides a wide range of personal financial products and services designed for everyday banking, wealth accumulation, protection, and borrowing needs.
 
-### Major products include:
+### Major products include
 
 - **Deposits and accounts**: Current accounts, savings accounts, and fixed deposits.
 - **Loans and financing**: Personal loans, home loans/mortgages, consumer finance, and other credit facilities.

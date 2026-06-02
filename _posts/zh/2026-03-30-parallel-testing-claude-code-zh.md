@@ -27,6 +27,7 @@ Answer:
 ```
 
 你可以运行：
+
 - 在 Claude 编写新代码的同时，对现有代码运行 `pytest` / `jest` / `go test`
 - 对 Claude 刚刚完成的上一个功能进行手动冒烟测试（smoke tests）
 - 监控日志（`tail -f`、`docker logs`）以尽早发现 runtime 问题

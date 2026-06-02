@@ -15,6 +15,7 @@ A **diffusion model** is a type of generative AI model that creates new data (li
 ---
 
 ### **Core Idea: Noise to Data**
+
 - **Start with Noise**: The process begins with a random noise image (or video frame).
 - **Step-by-Step Refinement**: The model iteratively removes noise, transforming it into a coherent image or video that matches the desired output.
 
@@ -36,6 +37,7 @@ A **diffusion model** is a type of generative AI model that creates new data (li
 ---
 
 ### **Why Diffusion Models?**
+
 - **High Quality**: They produce sharp, detailed, and diverse outputs.
 - **Stability**: The gradual refinement process makes training more stable compared to other generative models.
 - **Flexibility**: They can be applied to images, videos, audio, and more.
@@ -43,6 +45,7 @@ A **diffusion model** is a type of generative AI model that creates new data (li
 ---
 
 ### **Example: Image Generation**
+
 - You start with a blank canvas of noise.
 - The model iteratively “denoises” it, guided by your prompt (e.g., “a cat sitting on a couch”).
 - After many steps, the noise transforms into a realistic image of a cat on a couch.
@@ -50,6 +53,7 @@ A **diffusion model** is a type of generative AI model that creates new data (li
 ---
 
 ### **Diffusion Models in Sora**
+
 In Sora, the diffusion model is paired with a transformer to handle both the high-level structure (transformer) and fine visual details (diffusion), enabling the generation of complex, high-quality videos.
 
 Would you like a deeper explanation of any specific part, such as the math behind the noise scheduling or how conditioning works?

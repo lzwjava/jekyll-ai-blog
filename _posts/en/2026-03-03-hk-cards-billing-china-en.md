@@ -20,6 +20,7 @@ For both the **ZA Card (Visa debit card from ZA Bank)** and **HSBC Hong Kong Mas
 - **HSBC Hong Kong Mastercard**: HSBC HK accounts opened by non-residents (including mainland visitors using entry permits) typically register your **provided address**, which is often your mainland China address unless you supply a Hong Kong one (e.g., a friend's or temporary). HSBC HK supports non-residents and allows mainland addresses in many cases, especially for correspondence or linked services. Again, since you have been using the mainland address successfully, it aligns with what the bank has on file or accepts for verification.
 
 **Recommendation**:
+
 - Continue using your real **Guangzhou (mainland China) address** if it has been working without any problems — this is the safest and most accurate option to avoid mismatches that could trigger fraud flags or declines.
 - Only use a Hong Kong address if the merchant specifically requires a local Hong Kong billing address (rare for most international sites) or if the bank explicitly instructs you to update to one. Providing a fake address risks transaction failures or account issues.
 - For high-value or sensitive payments, double-check with the merchant's AVS rules (some strict sites like certain US/UK ones may expect the card's issuing country address, but Hong Kong cards often process fine with international formats).

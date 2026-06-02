@@ -22,6 +22,7 @@ type: note
 7. **Systemd Service** - 已就绪于 `/etc/systemd/system/clash.service`
 
 **后续步骤：**
+
 1. **连接设备** 到 USB Ethernet 端口
 2. **启动 Clash**：`sudo systemctl start clash`
 3. **启用自动启动**：`sudo systemctl enable clash`

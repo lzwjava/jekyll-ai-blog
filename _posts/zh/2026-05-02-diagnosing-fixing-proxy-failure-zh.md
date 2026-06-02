@@ -14,9 +14,11 @@ type: note
 ### 根因诊断 — 准确
 
 日志明确指出：
+
 ```
 dial tcp 5.223.42.176:19400: connect: connection refused
 ```
+
 每次连接失败都指向 SS 1。通过 `journalctl` 输出直接定位问题是正确做法，无需猜测。
 
 ### REST API 切换代理 — 方法正确且快速
@@ -43,6 +45,7 @@ sed -i 's/      - My Hysteria2 2$/      - My SS 1/' ...
 - 用户仍需通过 API 或仪表板手动切换
 
 更优的长期配置方案应为：
+
 ```yaml
 proxy-groups:
   - name: "Proxy"
@@ -53,6 +56,7 @@ proxy-groups:
       - My Hysteria2 2
       - My SS 1
 ```
+
 此配置会每 5 分钟对两个代理进行健康检查，并在主代理失效时自动切换。
 
 ### 总结

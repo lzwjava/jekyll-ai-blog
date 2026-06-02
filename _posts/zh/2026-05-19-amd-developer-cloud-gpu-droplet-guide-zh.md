@@ -24,6 +24,7 @@ type: note
 AMD开发者云可通过 `devcloud.amd.com` 访问，并依赖DigitalOcean提供云环境，最终部署GPU Droplet。您可以创建单块GPU AMD Instinct MI300X或8×GPU Instinct MI300X实例。
 
 您的具体Droplet规格：
+
 - **GPU：** 1× AMD Instinct MI300X
 - **显存：** 192 GB
 - **操作系统：** Ubuntu 24.04 LTS
@@ -43,24 +44,30 @@ AMD ROCm是一个开放的软件栈，包括驱动程序、开发工具和API，
 ### Droplet就绪后的第一步
 
 #### 1. 应用安全更新（按仪表板提示操作）
+
 通过SSH登录您的Droplet并运行：
+
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo reboot
 ```
 
 #### 2. 通过SSH连接
+
 ```bash
 ssh root@<your-droplet-ip>
 ```
 
 #### 3. 验证GPU是否被检测到
+
 ```bash
 rocm-smi
 ```
+
 这是AMD版本的 `nvidia-smi`。您将看到GPU利用率、显存使用情况和温度。
 
 #### 4. 进入预构建的Docker容器（如果使用快速启动镜像）
+
 ```bash
 docker exec -it rocm /bin/bash
 ```
@@ -70,6 +77,7 @@ docker exec -it rocm /bin/bash
 ### 运行模型（例如，使用vLLM）
 
 您可以在容器内启动vLLM API服务器，如下所示：
+
 ```bash
 python -m vllm.entrypoints.openai.api_server \
   --model Qwen/Qwen2.5-1.5B-Instruct \
@@ -78,6 +86,7 @@ python -m vllm.entrypoints.openai.api_server \
   --dtype float16 \
   > /tmp/vllm.log 2>&1 &
 ```
+
 该模型从HuggingFace免费下载，无需认证，在MI300X的192 GB显存中几秒内加载完成，并原生支持OpenAI聊天格式。
 
 ---

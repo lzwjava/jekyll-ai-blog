@@ -23,19 +23,19 @@ The history of ocean trading, navigation, and shipping is a long and intertwined
 
 * **Advancements in Shipbuilding:** Ship design gradually improved, with the development of larger, more stable vessels capable of longer voyages. The introduction of sails allowed for harnessing wind power, increasing range and reducing reliance on manpower. Square sails were a dominant early rig.
 * **Developments in Navigation:**
-    * **Celestial Navigation:** Ancient mariners increasingly relied on the stars for navigation. The Greeks used constellations like Ursa Major and Ursa Minor. The astrolabe, perfected by the Middle Ages, allowed for measuring the altitude of celestial bodies.
-    * **Wind Rose and Pilot Books:** Understanding wind patterns was crucial. The wind rose, with its cardinal directions, and pilot books (peripli) detailing coastal routes and landmarks emerged as essential navigational tools.
-    * **Magnetic Compass:** The invention of the magnetic compass in China (around the 11th century) and its later adoption in Europe revolutionized navigation, allowing for direction finding even in poor visibility.
-    * **Nautical Charts:** The creation of nautical charts provided increasingly accurate representations of coastlines and sea depths.
+  * **Celestial Navigation:** Ancient mariners increasingly relied on the stars for navigation. The Greeks used constellations like Ursa Major and Ursa Minor. The astrolabe, perfected by the Middle Ages, allowed for measuring the altitude of celestial bodies.
+  * **Wind Rose and Pilot Books:** Understanding wind patterns was crucial. The wind rose, with its cardinal directions, and pilot books (peripli) detailing coastal routes and landmarks emerged as essential navigational tools.
+  * **Magnetic Compass:** The invention of the magnetic compass in China (around the 11th century) and its later adoption in Europe revolutionized navigation, allowing for direction finding even in poor visibility.
+  * **Nautical Charts:** The creation of nautical charts provided increasingly accurate representations of coastlines and sea depths.
 * **Growth of Global Trade:** The Age of Exploration (15th-17th centuries) witnessed a dramatic expansion of ocean trade. European powers like Portugal, Spain, England, France, and the Netherlands established global trade routes, connecting Europe with the Americas, Africa, and Asia. Key developments included:
-    * **Caravel:** A small, maneuverable ship crucial for early exploration.
-    * **Circumnavigation:** Magellan's expedition (1519-1522) demonstrated the global interconnectedness via sea.
-    * **Rise of Trading Companies:** Powerful entities like the British East India Company and the Dutch East India Company controlled vast trade networks.
-    * **Transatlantic Slave Trade:** A horrific but significant aspect of Atlantic shipping during this period, forcibly transporting millions of Africans to the Americas.
+  * **Caravel:** A small, maneuverable ship crucial for early exploration.
+  * **Circumnavigation:** Magellan's expedition (1519-1522) demonstrated the global interconnectedness via sea.
+  * **Rise of Trading Companies:** Powerful entities like the British East India Company and the Dutch East India Company controlled vast trade networks.
+  * **Transatlantic Slave Trade:** A horrific but significant aspect of Atlantic shipping during this period, forcibly transporting millions of Africans to the Americas.
 * **Further Navigational Innovations (18th-19th Centuries):**
-    * **Sextant:** Improved accuracy in celestial navigation.
-    * **Marine Chronometer:** Invented by John Harrison, this allowed for accurate determination of longitude at sea, a major breakthrough.
-    * **Improved Charts and Tables:** More precise hydrographic surveys and astronomical tables enhanced navigational accuracy.
+  * **Sextant:** Improved accuracy in celestial navigation.
+  * **Marine Chronometer:** Invented by John Harrison, this allowed for accurate determination of longitude at sea, a major breakthrough.
+  * **Improved Charts and Tables:** More precise hydrographic surveys and astronomical tables enhanced navigational accuracy.
 * **Clipper Ships:** In the 19th century, these fast sailing ships dominated transoceanic trade routes for high-value goods.
 
 ### The Age of Steam and Modern Shipping (19th Century - Present)
@@ -45,10 +45,10 @@ The history of ocean trading, navigation, and shipping is a long and intertwined
 * **Specialized Vessels:** The 20th century saw the development of specialized ship types, such as oil tankers, bulk carriers, and refrigerated ships, catering to specific cargo needs.
 * **Containerization:** The mid-20th century witnessed the revolutionary impact of containerization. Standardized shipping containers dramatically increased efficiency, reduced handling times and costs, and facilitated intermodal transportation. This fueled globalization on an unprecedented scale.
 * **Technological Advancements in Navigation:**
-    * **Radio Navigation:** Early 20th century systems like radio direction finding and later LORAN provided electronic means of determining position.
-    * **Satellite Navigation:** The development of GPS (Global Positioning System) in the late 20th century provided highly accurate and continuous positioning information, transforming navigation.
-    * **Electronic Charts and Information Systems (ECDIS):** Digital charts and integrated navigation systems further enhanced safety and efficiency.
-    * **Automated Systems:** Modern ships increasingly incorporate automated systems for navigation, engine control, and cargo management.
+  * **Radio Navigation:** Early 20th century systems like radio direction finding and later LORAN provided electronic means of determining position.
+  * **Satellite Navigation:** The development of GPS (Global Positioning System) in the late 20th century provided highly accurate and continuous positioning information, transforming navigation.
+  * **Electronic Charts and Information Systems (ECDIS):** Digital charts and integrated navigation systems further enhanced safety and efficiency.
+  * **Automated Systems:** Modern ships increasingly incorporate automated systems for navigation, engine control, and cargo management.
 * **Growth of Global Shipping Industry:** Today, the shipping industry is the backbone of global trade, transporting billions of tons of cargo annually. Massive container ships, oil tankers, and bulk carriers traverse the oceans, connecting global supply chains.
 * **Challenges and Future Directions:** The modern shipping industry faces challenges related to environmental impact (emissions, ballast water), safety, security (piracy), and the need for greater efficiency and sustainability. Future trends include the exploration of alternative fuels, autonomous vessels, and more sophisticated logistics and tracking systems.
 

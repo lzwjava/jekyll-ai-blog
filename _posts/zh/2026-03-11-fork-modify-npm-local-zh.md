@@ -31,17 +31,20 @@ npm link 命令会在你的本地包和依赖它的项目之间创建符号链�
    ```
 
 2. **安装依赖并构建**：
+
    ```bash
    npm install
    npm run build  # 检查 package.json 中的 build 脚本
    ```
 
 3. **在包目录中创建全局链接**：
+
    ```bash
    npm link
    ```
 
 4. **链接到你的项目**：在你的主项目目录中：
+
    ```bash
    npm link form-data
    ```
@@ -49,6 +52,7 @@ npm link 命令会在你的本地包和依赖它的项目之间创建符号链�
 5. **进行更改**：编辑 fork 包中的代码并立即测试。
 
 6. **完成后清理**：
+
    ```bash
    npm unlink form-data      # 在你的主项目中
    npm unlink                 # 在包目录中
@@ -67,6 +71,7 @@ npm link 命令会在你的本地包和依赖它的项目之间创建符号链�
 ```
 
 然后运行：
+
 ```bash
 npm install
 ```
@@ -75,9 +80,10 @@ npm install
 
 ## 方法 3：带有分支指针的 GitHub URL
 
-不要使用库 fork 的 github URL，而是包含你正在处理的分支，例如：yarn upgrade form-data@https://github.com/yourname/form-data.git#your-branch-name。
+不要使用库 fork 的 github URL，而是包含你正在处理的分支，例如：yarn upgrade form-data@<https://github.com/yourname/form-data.git#your-branch-name。>
 
 在 package.json 中：
+
 ```json
 {
   "dependencies": {
@@ -126,13 +132,13 @@ npm install ../form-data/form-data-1.0.0.tgz
 
 **参考资料：**
 
-- https://schalkneethling.com/posts/using-npm-link-for-local-package-development/
-- https://medium.com/@ruben.alapont/npm-link-developing-and-testing-local-npm-packages-b50a32b50c4a
-- https://teambrookvale.com.au/articles/modifying-npm-packages-the-right-way
-- https://www.pluralsight.com/resources/blog/guides/how-to-use-forked-npm-dependencies
-- https://medium.com/@chrisdmasters/how-to-fork-a-dependency-and-use-it-locally-in-a-project-707c80d3449c
-- https://dev.to/one-beyond/different-approaches-to-testing-your-own-packages-locally-npm-link-4hoj
-- https://maecapozzi.com/blog/how-to-locally-test-an-npm-package
-- https://dev.to/azophy/how-to-edit-replace-npm-package-dependency-1b5e
-- https://nickconfrey.medium.com/how-to-edit-a-node-module-locally-1cb8d3530d78
-- http://debuggable.com/posts/how-to-fork-patch-npm-modules:4e2eb9f3-e584-44be-b1a9-3db7cbdd56cb
+- <https://schalkneethling.com/posts/using-npm-link-for-local-package-development/>
+- <https://medium.com/@ruben.alapont/npm-link-developing-and-testing-local-npm-packages-b50a32b50c4a>
+- <https://teambrookvale.com.au/articles/modifying-npm-packages-the-right-way>
+- <https://www.pluralsight.com/resources/blog/guides/how-to-use-forked-npm-dependencies>
+- <https://medium.com/@chrisdmasters/how-to-fork-a-dependency-and-use-it-locally-in-a-project-707c80d3449c>
+- <https://dev.to/one-beyond/different-approaches-to-testing-your-own-packages-locally-npm-link-4hoj>
+- <https://maecapozzi.com/blog/how-to-locally-test-an-npm-package>
+- <https://dev.to/azophy/how-to-edit-replace-npm-package-dependency-1b5e>
+- <https://nickconfrey.medium.com/how-to-edit-a-node-module-locally-1cb8d3530d78>
+- <http://debuggable.com/posts/how-to-fork-patch-npm-modules:4e2eb9f3-e584-44be-b1a9-3db7cbdd56cb>

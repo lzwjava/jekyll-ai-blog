@@ -24,8 +24,8 @@ mvn exec:java -Dexec.mainClass="com.yourcompany.YourMainClass"
 
 **Explanation:**
 
-  * `mvn exec:java`: Invokes the `java` goal of the `exec-maven-plugin`.
-  * `-Dexec.mainClass="com.yourcompany.YourMainClass"`: This system property specifies the fully qualified name of the Java class that contains the `public static void main(String[] args)` method you want to execute.
+* `mvn exec:java`: Invokes the `java` goal of the `exec-maven-plugin`.
+* `-Dexec.mainClass="com.yourcompany.YourMainClass"`: This system property specifies the fully qualified name of the Java class that contains the `public static void main(String[] args)` method you want to execute.
 
 **Example:**
 
@@ -143,48 +143,56 @@ For more permanent or default configurations, you can add the `exec-maven-plugin
 
 **Explanation of configuration options:**
 
-  * `<groupId>org.codehaus.mojo</groupId>` and `<artifactId>exec-maven-plugin</artifactId>`: Standard coordinates for the plugin.
-  * `<version>3.2.0</version>`: Always specify a recent version of the plugin.
-  * `<goals><goal>java</goal></goals>`: This binds the `java` goal. If you don't bind it to a specific phase, it will be executed when you explicitly call `mvn exec:java`.
-  * `<mainClass>com.example.myapp.HelloWorld</mainClass>`: Sets the default main class to execute. If you run `mvn exec:java` without `-Dexec.mainClass` on the command line, this class will be used.
-  * `<arguments>`: A list of arguments to pass to the `main` method. These are default arguments that can be overridden by `exec.args` on the command line.
-  * `<systemProperties>`: Allows you to define system properties (`-Dkey=value`) that will be available to your Java application when `exec:java` runs.
+* `<groupId>org.codehaus.mojo</groupId>` and `<artifactId>exec-maven-plugin</artifactId>`: Standard coordinates for the plugin.
+* `<version>3.2.0</version>`: Always specify a recent version of the plugin.
+* `<goals><goal>java</goal></goals>`: This binds the `java` goal. If you don't bind it to a specific phase, it will be executed when you explicitly call `mvn exec:java`.
+* `<mainClass>com.example.myapp.HelloWorld</mainClass>`: Sets the default main class to execute. If you run `mvn exec:java` without `-Dexec.mainClass` on the command line, this class will be used.
+* `<arguments>`: A list of arguments to pass to the `main` method. These are default arguments that can be overridden by `exec.args` on the command line.
+* `<systemProperties>`: Allows you to define system properties (`-Dkey=value`) that will be available to your Java application when `exec:java` runs.
 
 **Running with `pom.xml` configuration:**
 
 Once configured in `pom.xml`:
 
-  * To run with the default main class and arguments:
+* To run with the default main class and arguments:
+
     ```bash
     mvn compile exec:java
     ```
-  * To override the main class from the command line:
+
+* To override the main class from the command line:
+
     ```bash
     mvn compile exec:java -Dexec.mainClass="com.example.myapp.AnotherMainClass"
     ```
-  * To override/add arguments from the command line:
+
+* To override/add arguments from the command line:
+
     ```bash
     mvn compile exec:java -Dexec.args="commandLineArg1 commandLineArg2"
     ```
+
     (Note: `exec.args` will typically *replace* `arguments` defined in `pom.xml` if provided on the command line.)
 
 ## 4\. Key Differences from `exec:exec`
 
 It's important to understand the distinction between `exec:java` and `exec:exec`:
 
-  * **`exec:java`**: Runs the Java program **in the same JVM** as Maven. This is generally faster as it avoids spawning a new process. It automatically sets up the project's dependencies on the classpath.
-  * **`exec:exec`**: Runs an arbitrary external program (including `java` itself) **in a separate process**. This is useful when you need to specify a different Java executable, pass JVM arguments (like `-Xmx`), or run non-Java executables. If you use `exec:exec` to run a Java program, you typically have to manually construct the classpath using `%classpath` in the arguments.
+* **`exec:java`**: Runs the Java program **in the same JVM** as Maven. This is generally faster as it avoids spawning a new process. It automatically sets up the project's dependencies on the classpath.
+* **`exec:exec`**: Runs an arbitrary external program (including `java` itself) **in a separate process**. This is useful when you need to specify a different Java executable, pass JVM arguments (like `-Xmx`), or run non-Java executables. If you use `exec:exec` to run a Java program, you typically have to manually construct the classpath using `%classpath` in the arguments.
 
 For most standard Java application execution within a Maven build, `exec:java` is the more convenient choice.
 
 ## 5\. Important Considerations
 
-  * **Classpath:** `exec:java` automatically includes your project's compiled classes and its dependencies in the classpath.
-  * **JVM Arguments:** Because `exec:java` runs in the *same* JVM as Maven, you cannot pass JVM arguments (like `-Xmx`, `-XX:MaxPermSize`) directly to `exec:java` through its configuration or `exec.args`. These arguments need to be passed to the Maven JVM itself, typically via the `MAVEN_OPTS` environment variable:
+* **Classpath:** `exec:java` automatically includes your project's compiled classes and its dependencies in the classpath.
+* **JVM Arguments:** Because `exec:java` runs in the *same* JVM as Maven, you cannot pass JVM arguments (like `-Xmx`, `-XX:MaxPermSize`) directly to `exec:java` through its configuration or `exec.args`. These arguments need to be passed to the Maven JVM itself, typically via the `MAVEN_OPTS` environment variable:
+
     ```bash
     export MAVEN_OPTS="-Xmx1024m -Dsome.jvm.property=value"
     mvn exec:java ...
     ```
-  * **System.exit()**: If your Java program calls `System.exit()`, it will terminate the entire Maven build process, not just your program. Be mindful of this when using `exec:java`. The plugin has an option `blockSystemExit` (since version 3.2.0) that tries to prevent this, but it's best to design your main method to complete gracefully without calling `System.exit()`.
-  * **Dependencies:** `exec:java` relies on the project's dependencies. If you need to run a class from a dependency that is not part of your project's build, you might need to adjust the plugin's configuration or consider using `exec:exec` with explicit classpath definition.
-  * **Plugin Version:** Always use a recent version of the `exec-maven-plugin` for the latest features and bug fixes. Check the MojoHaus website for the most up-to-date information.
+
+* **System.exit()**: If your Java program calls `System.exit()`, it will terminate the entire Maven build process, not just your program. Be mindful of this when using `exec:java`. The plugin has an option `blockSystemExit` (since version 3.2.0) that tries to prevent this, but it's best to design your main method to complete gracefully without calling `System.exit()`.
+* **Dependencies:** `exec:java` relies on the project's dependencies. If you need to run a class from a dependency that is not part of your project's build, you might need to adjust the plugin's configuration or consider using `exec:exec` with explicit classpath definition.
+* **Plugin Version:** Always use a recent version of the `exec-maven-plugin` for the latest features and bug fixes. Check the MojoHaus website for the most up-to-date information.

@@ -28,6 +28,7 @@ type: note
 Same Lomuto partition quicksort, implemented identically in three languages:
 
 **Results:**
+
 - Rust (release): **~0.4 ms**
 - Java (JVM): **~1.2 ms**
 - Python: **~7.9 ms**

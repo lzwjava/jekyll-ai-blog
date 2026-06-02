@@ -21,22 +21,22 @@ Answer:
 
 当你从零开始实现一个 Transformer 时，你将不再把模型视作一个“大脑”，而是将其视为一系列数学运算。理解 **Self-Attention** 机制（即模型如何权衡序列中不同单词的重要性）会直接影响你构建 Prompt 的方式。
 
-*   **Context Windows:** 通过训练小型模型，你可以清楚地看到 `block_size`（Context Length）是如何限制模型“记忆”的。
-*   **Tokenization:** 你会了解到文本是如何被切分为数字的，这有助于你理解为什么 LLMs 有时在拼写或数学方面表现不佳。
+* **Context Windows:** 通过训练小型模型，你可以清楚地看到 `block_size`（Context Length）是如何限制模型“记忆”的。
+* **Tokenization:** 你会了解到文本是如何被切分为数字的，这有助于你理解为什么 LLMs 有时在拼写或数学方面表现不佳。
 
 ### 2. 精确的 Prompt Engineering
 
 高层次的 "Prompt Engineering" 听起来可能像是在“凭感觉”。然而，一旦你研究过源代码，你就会明白 Prompt 仅仅是**初始 Hidden State** 或概率分布的起始序列。
 
-*   你将了解到 **LLMs 是 Next-token Predictors**。
-*   这种技术视角能帮助你编写“精确的 Prompt”，因为你意识到自己是在试图引导一条统计路径，而不仅仅是“提出一个问题”。
+* 你将了解到 **LLMs 是 Next-token Predictors**。
+* 这种技术视角能帮助你编写“精确的 Prompt”，因为你意识到自己是在试图引导一条统计路径，而不仅仅是“提出一个问题”。
 
 ### 3. 技术交互与自动化
 
 你提到的通过 **CSS selectors** 或浏览器控制台与 AI 交互，而不是仅仅点击按钮，这正是从“使用者”转变为“工程师”的桥梁。
 
-*   **Programmatic Control:** 理解底层架构会让你更倾向于使用 APIs 或 Headless Browsers 来自动化工作流。
-*   **Efficiency:** 你可以编写脚本将高质量、结构化的数据输入模型，而不是依赖 GUI，从而确保输出正是你的 Backend 或 Mobile 项目所需的内容。
+* **Programmatic Control:** 理解底层架构会让你更倾向于使用 APIs 或 Headless Browsers 来自动化工作流。
+* **Efficiency:** 你可以编写脚本将高质量、结构化的数据输入模型，而不是依赖 GUI，从而确保输出正是你的 Backend 或 Mobile 项目所需的内容。
 
 ### 4. “数据”的教训
 

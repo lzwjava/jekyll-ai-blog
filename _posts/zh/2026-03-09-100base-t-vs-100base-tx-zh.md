@@ -53,6 +53,7 @@ T4 变体使用 Cat5 UTP 电缆中的**所有四对线**，并支持高达 100 M
 **100BASE-T** 这个术语有时可能以更广义的方式使用，或指代 Fast Ethernet 的早期/不太具体的实现，而 **100BASE-TX** 精确指代要求使用**Category 5 布线**的两对 twisted pair 上 100 Mbps 以太网的标准。在许多实际讨论中，**100BASE-T** 和 **100BASE-TX** 被**互换使用**来指代同一事物。
 
 简而言之：
+
 - **100BASE-T** = twisted pair 上的整个 Fast Ethernet 家族
 - **100BASE-TX** = 该家族中特定、最广泛使用的成员
 

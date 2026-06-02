@@ -30,11 +30,13 @@ If your audio is consistently 30+ minutes, the current setup isn't ideal for qui
 ### How to Fix It: Reduce Processing Time
 
 To handle long audio faster, the key is **splitting the file into smaller chunks** (e.g., 5-15 minutes each). This allows:
+
 - Parallel processing (run multiple batch jobs concurrently).
 - Using faster models (e.g., `"short"` or `"default"`) per chunk.
 - Shorter wait times per job (e.g., 1-5 minutes per chunk vs. 30+ minutes for the whole file).
 
 #### Step 1: Split the Audio File
+
 Use **FFmpeg** (free, command-line tool) to split files without re-encoding (fast and lossless). Install FFmpeg if needed (e.g., `brew install ffmpeg` on macOS, `apt install ffmpeg` on Linux).
 
 Add a function to your script to split the input file. Here's an updated version of your script with splitting integrated:
@@ -318,14 +320,16 @@ if __name__ == "__main__":
     )
 ```
 
-#### Key Changes and Benefits:
+#### Key Changes and Benefits
+
 - **Splitting**: Uses FFmpeg to create non-overlapping chunks (e.g., 10-min each). For a 1-hour file, that's ~6 jobs, which can run in parallel if you modify to use threading/multiprocessing (e.g., via `concurrent.futures`).
 - **Faster Model**: Switches to `"short"` for chunks <15 min—processes 2-3x faster.
 - **Combining Transcripts**: Parses JSON outputs and merges them into a single `.txt` file with boundaries for easy reading.
 - **Cleanup**: Removes temp chunks and old GCS blobs if needed (add `blob.delete()` in a loop).
 - **Usage**: Run as before, e.g., `python script.py --input_file long_audio.m4a --chunk_secs 600`. For no splitting, use a large `--chunk_secs` (e.g., 3600).
 
-#### Other Optimizations:
+#### Other Optimizations
+
 - **Parallel Processing**: If you have many chunks/files, use Python's `ThreadPoolExecutor` to submit `run_batch_recognize` jobs concurrently (limit to 5-10 to avoid quota hits).
 - **Probe Audio Duration**: Use `ffprobe` (FFmpeg) to dynamically decide if splitting is needed: `ffprobe -v quiet -show_entries format=duration -of csv=p=0 input.m4a`.
 - **Switch to Streaming API**: For interactive use, use synchronous `recognize` (limits ~1 min/file) or streaming for live, but it's not ideal for batch long files.
@@ -335,11 +339,13 @@ if __name__ == "__main__":
 ### Showing Progress: Polling the Operation
 
 The updated `poll_operation_with_progress()` function replaces the blocking `operation.result()`. It:
+
 - Checks every 30 seconds.
 - Prints status from `operation.metadata` (e.g., state like "RUNNING" or "DONE", and bytes processed if available—Speech API metadata is basic, but it's better than nothing).
 - Raises an error if it fails.
 
 For more detailed progress (e.g., % complete), the Speech API doesn't provide granular metrics, but you can:
+
 - Monitor via Google Cloud Console (Operations page for your project).
 - Use `gcloud` CLI: `gcloud alpha speech operations describe OPERATION_ID --project=graphite-ally-445108-k3`.
 - After completion, the JSON results include per-utterance progress indirectly via timestamps.

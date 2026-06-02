@@ -24,6 +24,7 @@ Karate DSL is an open-source tool that combines API test automation, API perform
 Karate DSL requires no Java knowledge, making it easy for non-programmers to create and manage tests. It allows testers to reuse payload data and user-defined functions across tests, and integrates with Gatling for performance testing, allowing you to reuse your functional tests as performance tests.
 
 **Example Karate DSL Feature File:**
+
 ```gherkin
 Feature: Quote generator
   Background:
@@ -39,6 +40,7 @@ Feature: Quote generator
 Karate features are written in a DSL stored in `src/test/java/` so that feature files and Java tests are matched by their name and package structure. All you need to integrate JUnit is to create a test class addressing the corresponding JUnit runner.
 
 **Scenario Outline (data-driven) example:**
+
 ```gherkin
 Scenario Outline: Transform multiple names
   Given path '/name'
@@ -61,6 +63,7 @@ REST Assured is an open-source Java library that simplifies the testing and vali
 REST Assured 6.0.0 (released December 2025) raises the baseline to Java 17+, upgrades to Groovy 5, and adds Spring 7 + Jackson 3 support.
 
 **Example:**
+
 ```java
 given()
   .contentType(ContentType.JSON)

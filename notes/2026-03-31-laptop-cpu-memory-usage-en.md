@@ -38,6 +38,7 @@ Here's a full summary of your laptop's **CPU & Memory** information:
 ---
 
 ## 🖥️ Device Info
+
 - **Model:** MacBook Air (Mac14,2)
 - **OS Firmware:** 13822.81.10
 

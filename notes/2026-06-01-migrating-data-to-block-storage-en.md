@@ -16,10 +16,12 @@ type: note
 ## Step 1: Create the Volume
 
 In the DigitalOcean UI when creating your droplet, select **"Create new"** under Add a Volume:
+
 - Size: **150GB** (give yourself headroom)
 - It will be attached at creation time
 
 Or via `doctl` if droplet already exists:
+
 ```bash
 doctl compute volume create my-ml-data \
   --region sfo3 \
@@ -61,6 +63,7 @@ rm -rf /root/data/
 ```
 
 If data is on your **local machine or workstation** (192.168.1.36), push directly to the volume:
+
 ```bash
 # From your workstation
 rsync -avh --progress --compress \
@@ -71,6 +74,7 @@ rsync -avh --progress --compress \
 ## Step 4: Make Mount Persistent (Within Same Droplet Session)
 
 For auto-mount on reboot within same droplet:
+
 ```bash
 # Get UUID
 blkid /dev/sda

@@ -49,6 +49,7 @@ type: note
 这些观点往往不受传统企业工程师、厂商 SE 和认证狂热者的欢迎，但在云原生、Web 规模和底层 Linux 网络圈子里却越来越被接受。
 
 参考文献：
+
 - [Reddit r/networking “你的网络死守阵地是什么？”帖子（多年）](https://www.reddit.com/r/networking/search/?q=hill%20to%20die%20on)
 - [NANOG 邮件列表档案中关于 SDN/EVPN 的辩论](https://www.nanog.org/mailing-list/archives/)
 - [Ivan Pepelnjak 关于 EVPN 复杂性的博客文章](https://blog.ipspace.net/tag/evpn/)

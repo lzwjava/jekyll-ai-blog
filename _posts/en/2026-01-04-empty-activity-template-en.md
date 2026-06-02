@@ -25,4 +25,5 @@ In recent versions of Android Studio (including those up to 2025–2026), when c
 The "Empty Activity" (or sometimes labeled "Empty Views Activity" in newer templates) remains the standard choice for the simplest starting point.
 
 References:
+
 - [Android Developers - Create a project](https://developer.android.com/studio/projects/create-project)

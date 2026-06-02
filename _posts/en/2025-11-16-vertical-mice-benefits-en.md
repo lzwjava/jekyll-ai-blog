@@ -42,11 +42,11 @@ Vertical mice cannot "cure" wrist pain on their own—they're not a medical trea
 To maximize relief, combine a vertical mouse with breaks (e.g., 20-20-20 rule), proper desk height (elbows at 90 degrees), and consulting a doctor for persistent pain. If symptoms stem from underlying issues like arthritis, ergonomic tools help manage but don't replace therapy.[4]
 
 Citations:
-[1] https://pubmed.ncbi.nlm.nih.gov/26444940/
-[2] https://www.wired.com/gallery/best-ergonomic-mouse/
-[3] https://www.logitech.com/en-us/ergo/ergonomic-mouse-benefits.html
-[4] https://canyon.eu/blog/what-is-an-ergonomic-mouse-and-how-is-it-better-than-a-normal-mouse/
-[5] https://www.protoarc.com/blogs/work-wellness/vertical-mouse-guide-for-wrist-pain?srsltid=AfmBOoolaymnO7T05I3lQs7C-VEVuLSAC5wzHUon32OgTVshV8c0eMiW
-[6] https://nulea.com/blogs/%E6%96%B0%E9%97%BB/best-mice-for-carpal-tunnel-do-vertical-mice-make-a-difference
-[7] https://www.reddit.com/r/MouseReview/comments/npjq75/is_it_worth_getting_and_ergo_vertical_mouse_which/
-[8] https://www.nomorepainergonomics.com.au/blogs/no-more-pain-ergonomics/maximising-ergonomic-benefits-tips-for-using-an-ergonomic-mouse?srsltid=AfmBOopNxPLVgggFY87bKCEKMIWR2CgH45lAjJEeb73otTcVm7x7cxJu
+[1] <https://pubmed.ncbi.nlm.nih.gov/26444940/>
+[2] <https://www.wired.com/gallery/best-ergonomic-mouse/>
+[3] <https://www.logitech.com/en-us/ergo/ergonomic-mouse-benefits.html>
+[4] <https://canyon.eu/blog/what-is-an-ergonomic-mouse-and-how-is-it-better-than-a-normal-mouse/>
+[5] <https://www.protoarc.com/blogs/work-wellness/vertical-mouse-guide-for-wrist-pain?srsltid=AfmBOoolaymnO7T05I3lQs7C-VEVuLSAC5wzHUon32OgTVshV8c0eMiW>
+[6] <https://nulea.com/blogs/%E6%96%B0%E9%97%BB/best-mice-for-carpal-tunnel-do-vertical-mice-make-a-difference>
+[7] <https://www.reddit.com/r/MouseReview/comments/npjq75/is_it_worth_getting_and_ergo_vertical_mouse_which/>
+[8] <https://www.nomorepainergonomics.com.au/blogs/no-more-pain-ergonomics/maximising-ergonomic-benefits-tips-for-using-an-ergonomic-mouse?srsltid=AfmBOopNxPLVgggFY87bKCEKMIWR2CgH45lAjJEeb73otTcVm7x7cxJu>

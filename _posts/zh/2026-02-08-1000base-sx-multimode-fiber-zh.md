@@ -15,6 +15,7 @@ type: note
 ## Understanding 1000Base-SX Standard
 
 **1000Base-SX** 的组成部分：
+
 - **1000** = 1 Gigabit/s (每秒 10 亿比特)
 - **Base** = Baseband 传输
 - **SX** = Short wavelength (短波长)
@@ -24,12 +25,14 @@ type: note
 1000Base Ethernet 主要有两种光纤版本：
 
 **1000Base-SX (Short Wavelength)**
+
 - Wavelength: 850 nm
 - Transmission medium: **Multi-mode Fiber**
 - Maximum distance: 275m (Full-duplex) 或 550m (Half-duplex)
 - 成本较低，适用于短距离应用
 
 **1000Base-LX (Long Wavelength)**
+
 - Wavelength: 1310 nm
 - Transmission medium: **Single-mode Fiber**
 - Maximum distance: 5 km
@@ -38,6 +41,7 @@ type: note
 ## Why Does SX Use Multi-mode Fiber?
 
 短波长激光 (850 nm) 的特性决定了其与 Multi-mode Fiber 的兼容性：
+
 - 在 850 nm 处，Multi-mode Fiber 的 Modal dispersion 相对较小
 - 更具性价比且功耗更低
 - 非常适合园区网络和 Data centers 的中短距离传输

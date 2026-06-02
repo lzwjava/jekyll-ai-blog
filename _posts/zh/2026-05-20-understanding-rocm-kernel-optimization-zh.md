@@ -65,27 +65,38 @@ ROCm Compute Profiler 会多次运行你的内核，收集不同的计数器集�
 ─────────────────────────────────────────
 
 **Level 1 — 开启自动调优（零代码修改）：**
-  # PyTorch TunableOp：从 rocBLAS/hipBLASLt 中尝试数千个 GEMM 内核
+
+# PyTorch TunableOp：从 rocBLAS/hipBLASLt 中尝试数千个 GEMM 内核
+
   PYTORCH_TUNABLEOP_ENABLED=1 python my_model.py
-  # 然后回放最佳配置：
+
+# 然后回放最佳配置
+
   PYTORCH_TUNABLEOP_ENABLED=1 PYTORCH_TUNABLEOP_TUNING=0 python my_model.py
 
-  # TorchInductor max-autotune：调优 Triton GEMM/卷积 tile 尺寸
+# TorchInductor max-autotune：调优 Triton GEMM/卷积 tile 尺寸
+
   TORCHINDUCTOR_MAX_AUTOTUNE=1 python my_model.py
 
-  # MIOpen autotune：寻找最佳卷积内核
+# MIOpen autotune：寻找最佳卷积内核
+
   MIOPEN_FIND_ENFORCE=3 MIOPEN_FIND_MODE=1 python my_model.py
 
 **Level 2 — Composable Kernel (CK) 后端：**
-  # 安装 CK Python 包装器，将 CK 加入自动调优后端
-  pip install git+https://github.com/rocm/composable_kernel@develop
+
+# 安装 CK Python 包装器，将 CK 加入自动调优后端
+
+  pip install git+<https://github.com/rocm/composable_kernel@develop>
   TORCHINDUCTOR_MAX_AUTOTUNE_GEMM_BACKENDS="TRITON,CK,ATEN"
 
 **Level 3 — hipBLASLt 手动调优（TensileLite）：**
-  # 为获得最大 GEMM 性能，调优汇编后端生成器
+
+# 为获得最大 GEMM 性能，调优汇编后端生成器
+
   cd hipBLASLt/tensilelite
   ./Tensile/bin/Tensile config.yaml output_path
-  # 7 步调优流水线：基准测试常用参数 → fork → join → 最终
+
+# 7 步调优流水线：基准测试常用参数 → fork → join → 最终
 
 **Level 4 — 在 Triton 或 HIP 中编写自定义调优内核：**
 
@@ -101,21 +112,24 @@ ROCm Compute Profiler 会多次运行你的内核，收集不同的计数器集�
 3. 深度内核优化技术
 
 **内存访问优化：**
-  - 合并全局内存访问（优先使用 128 字节事务）
-  - 最大化利用 LDS（片上共享内存）—— MI300X 上每个 CU 64KB
-  - 最小化全局↔LDS 数据传输（使用分块/阻塞）
-  - 避免 LDS 中的 bank 冲突（填充共享内存数组）
-  - 向量化：使用 global_load_dwordx4（128 位加载）而非标量加载
-  - 对于 MI300X GEMM：避免步长为 512 字节的倍数（Tagram 热点问题）
+
+- 合并全局内存访问（优先使用 128 字节事务）
+- 最大化利用 LDS（片上共享内存）—— MI300X 上每个 CU 64KB
+- 最小化全局↔LDS 数据传输（使用分块/阻塞）
+- 避免 LDS 中的 bank 冲突（填充共享内存数组）
+- 向量化：使用 global_load_dwordx4（128 位加载）而非标量加载
+- 对于 MI300X GEMM：避免步长为 512 字节的倍数（Tagram 热点问题）
 
 **计算优化：**
-  - MI300X：优先使用 mfma_16x16 而非 mfma_32x32（更好的能效）
-  - bf16 矩阵运算明显快于 f16
-  - 目标 occupancy：网格中至少 1024 个线程块（工作组）
-  - MI300X 有 304 个活跃 CU（8 个 XCD × 每个 XCD 38 个活跃 CU）
-  - 使用 WorkGroupMapping 为 8 的倍数（XCD 数量）以提高 L2 缓存效率
+
+- MI300X：优先使用 mfma_16x16 而非 mfma_32x32（更好的能效）
+- bf16 矩阵运算明显快于 f16
+- 目标 occupancy：网格中至少 1024 个线程块（工作组）
+- MI300X 有 304 个活跃 CU（8 个 XCD × 每个 XCD 38 个活跃 CU）
+- 使用 WorkGroupMapping 为 8 的倍数（XCD 数量）以提高 L2 缓存效率
 
 **Occupancy 计算（workload.rst 第 1643-1690 行）：**
+
   1. 从 ISA 中找到 .vgpr_count：N
   2. 找到 LDS 分配：从 MLIR 转储中 grep "triton_gpu.shared" → L 字节
   3. 找到 num_warps：从 MLIR 中 grep "triton_gpu.num-warps" → nW
@@ -124,16 +138,18 @@ ROCm Compute Profiler 会多次运行你的内核，收集不同的计数器集�
   6. occ = min(floor(occ_vgpr × 4 / nW), occ_lds) × nW / 4
 
 **ISA 汇编分析：**
-  - 设置 export AMDGCN_ENABLE_DUMP=1 转储 ISA
-  - 检查 global_load_dwordx4（向量化加载）
-  - 检查 LDS 加载/存储是否使用 _b128 后缀（减少指令数）
-  - 检查 s_waitcnt(lgkmcnt, vmcnt) 的同步效率
-  - 重叠指令以隐藏延迟
+
+- 设置 export AMDGCN_ENABLE_DUMP=1 转储 ISA
+- 检查 global_load_dwordx4（向量化加载）
+- 检查 LDS 加载/存储是否使用 _b128 后缀（减少指令数）
+- 检查 s_waitcnt(lgkmcnt, vmcnt) 的同步效率
+- 重叠指令以隐藏延迟
 
 **MLIR 分析：**
-  - 设置 export MLIR_ENABLE_DUMP=1 查看 Triton 中间表示
-  - 识别冗余的 LDS 往返（如加载、转置、重新存储）
-  - 检查数据布局：blocked → shared → transpose → blocked → dot_op
+
+- 设置 export MLIR_ENABLE_DUMP=1 查看 Triton 中间表示
+- 识别冗余的 LDS 往返（如加载、转置、重新存储）
+- 检查数据布局：blocked → shared → transpose → blocked → dot_op
 
 ---
 

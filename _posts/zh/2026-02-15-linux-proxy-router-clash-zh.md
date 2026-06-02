@@ -22,6 +22,7 @@ Answer:
    - eth1 (USB → Ethernet adapter) → 连接到 Switch 或直接连接到其他需要通过 Proxy 的设备
 
 2. **你想要的流量走向**
+
    ```
    Modem ── eth0 ── [运行 Clash 的 Linux Mint 笔记本] ── eth1 ── 你的设备 / Switch
    ```
@@ -29,6 +30,7 @@ Answer:
 3. **你需要在 Linux Mint 上配置的内容**
 
    **A. 开启 IP forwarding**
+
    ```bash
    sudo sysctl -w net.ipv4.ip_forward=1
    # 使其永久生效
@@ -37,6 +39,7 @@ Answer:
    ```
 
    **B. NAT / Masquerade 出站流量 (以便客户端可以通过你的笔记本访问 Internet)**
+
    ```bash
    sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
    # 或者使用 nftables (较新版本的 Mint)
@@ -47,25 +50,31 @@ Answer:
    两种常见方法：
 
    **选项 1 – 简单的 Static IP (推荐初学者使用)**
+
    ```bash
    sudo nmcli con mod "Wired connection 2" ipv4.method manual ipv4.addresses 192.168.201.1/24 ipv4.gateway "" ipv4.dns ""
    sudo nmcli con up "Wired connection 2"
    ```
+
    (使用 `nmcli connection show` 检查连接名称)
 
    **选项 2 – 在 eth1 上安装并运行一个微型 DHCP server**
    在 Mint/Ubuntu 上最流行且简单的是：`dnsmasq`
+
    ```bash
    sudo apt update
    sudo apt install dnsmasq
    ```
+
    最小化配置 `/etc/dnsmasq.d/custom.conf`：
+
    ```
    interface=eth1
    dhcp-range=192.168.201.50,192.168.201.150,12h
    dhcp-option=3,192.168.201.1      # gateway = 笔记本自身
    dhcp-option=6,192.168.201.1      # DNS = 笔记本 (稍后会进行转发)
    ```
+
    然后执行 `sudo systemctl restart dnsmasq`
 
    **D. 将所有客户端流量路由通过 Clash**
@@ -75,6 +84,7 @@ Answer:
      - 启动 Clash 并启用 TUN (`allow-lan: true`, `tun: enable`)
      - 确保 Clash 创建了 `utun` / `clash0` 接口
      - 添加 Policy routing，使来自 eth1 的流量进入 Clash：
+
        ```bash
        ip rule add from 192.168.201.0/24 table 100
        ip route add default via 192.168.201.1 dev eth1 table 100

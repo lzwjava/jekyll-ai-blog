@@ -11,20 +11,26 @@ type: note
 ---
 
 ### 概述
+
 IBM DB2 是一款关系型数据库管理系统，Python 可通过 `ibm_db` 包与其交互，该包提供底层接口；另有 `ibm_db_dbi` 作为符合 DB-API 2.0 规范的封装层，基于 `ibm_db` 构建，提供更简便、更符合 Python 风格的用法。`ibm_db` 更直接且功能强大，但需要更深入的知识；而 `ibm_db_dbi` 模仿 Python 的 `sqlite3` 模块，简化了标准数据库操作。两者均属于 IBM DB2 Python 驱动程序。
 
 ### 安装
+
 使用 pip 安装包：
+
 ```
 pip install ibm_db
 pip install ibm_db_dbi
 ```
+
 注意：这些包需要 DB2 客户端库。在 Windows/Linux 上，请从 IBM 网站下载并安装 IBM Data Server Driver Package。在 macOS 上可能需要额外配置。确保 DB2 服务器可访问（例如在具有凭据的主机上运行）。
 
 ### 使用 ibm_db
+
 `ibm_db` 提供连接、执行语句和处理结果的函数。它不符合 DB-API 规范，但提供更多控制权。
 
 #### 基本连接与查询
+
 ```python
 import ibm_db
 
@@ -46,10 +52,12 @@ while row:
 # 关闭连接
 ibm_db.close(conn)
 ```
+
 - **关键函数**：`connect()`、`exec_immediate()`（用于简单查询）、`prepare()` 和 `execute()`（用于参数化查询以防止注入）。
 - **预处理语句**：使用 `prepare()` 编译查询，并使用 `execute()` 传入参数。
 
 #### 错误处理
+
 ```python
 try:
     conn = ibm_db.connect(conn_str, "", "")
@@ -58,9 +66,11 @@ except Exception as e:
 ```
 
 ### 使用 ibm_db_dbi
+
 `ibm_db_dbi` 实现了 DB-API 2.0，使其可与 `sqlite3` 或 `psycopg2` 等模块互换使用。
 
 #### 基本连接与查询
+
 ```python
 import ibm_db_dbi
 
@@ -85,6 +95,7 @@ for row in rows:
 cursor.close()
 conn.close()
 ```
+
 - **参数化查询**：`cursor.execute("SELECT * FROM MYTABLE WHERE ID = ?", (id_value,))` – 使用 ? 作为占位符。
 - **事务**：`conn.commit()` 或 `conn.rollback()`；默认关闭自动提交。
 
@@ -101,6 +112,7 @@ conn.close()
 若习惯其他 DB-API 驱动程序，可选用 `ibm_db_dbi` 以保持熟悉度。如需使用存储过程或批量操作等高级 DB2 特定功能，可切换至 `ibm_db`。
 
 ### 最佳实践
+
 - 始终在 `try-finally` 或 `with` 块中处理异常并关闭连接，以避免资源泄漏。
 - 对于大型结果集，使用 `fetchmany(size)` 而非 `fetchall()` 以限制内存使用。
 - 检查 DB2 版本兼容性；这些包支持 DB2 LUW、z/OS、iSeries。

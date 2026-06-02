@@ -12,6 +12,7 @@ type: note
 在HTML元标签（如`<meta property="og:type" content="website">`）的语境中，“og”代表开放图谱协议（Open Graph）。这是由Facebook（现Meta）最初开发的标准协议，允许网页提供结构化元数据，用于控制页面在社交媒体或即时通讯应用中被分享时的展示形式，例如以富预览格式（如图文卡片）显示标题、描述、图片等信息。
 
 该协议使用以“og:”为前缀的属性来定义元素，例如：
+
 - `og:title`：内容标题
 - `og:description`：内容摘要
 - `og:image`：预览图链接
@@ -22,6 +23,7 @@ type: note
 您猜测的“open gx”已接近答案——实际应为“Open Graph”（“open gx”可能是“graph”的输入误差或自动校正）。
 
 ### 参考资料
+
 [开放图谱协议官网](https://ogp.me/)
 [开放图谱元标签完全指南](https://ahrefs.com/blog/open-graph-meta-tags/)
 [开放图谱协议及其应用详解](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)

@@ -18,16 +18,20 @@ type: note
 ### 🔴 破坏性变更 / 删除
 
 **放弃的 GPU 架构支持**
+
 - 已移除对 Maxwell、Pascal 和 Volta GPU 架构的支持（compute capabilities 低于 7.5/Turing）。这些架构的离线编译和库支持已在 CUDA 13.0 中删除。
 - 支持的架构现为：**Turing (RTX 20xx)、Ampere (RTX 30xx)、Ada Lovelace (RTX 40xx)、Hopper (H100)、Blackwell (B100/B200)**。
 
 **放弃的 OS 支持**
+
 - 从 CUDA 13.0 开始，已放弃对 Ubuntu 20.04 的支持。建议用户迁移到 Ubuntu 22.04 LTS 或更高版本。
 
 **已移除的弃用头文件**
+
 - 与已弃用的 texture 和 surface references 相关的旧版头文件已在 CUDA 13.0 运行时中移除。
 
 **Windows 驱动变更**
+
 - 从 CUDA 13.1 开始，Windows 显示驱动不再捆绑在 CUDA Toolkit 包中。用户必须单独下载并安装 NVIDIA 驱动。
 
 ---

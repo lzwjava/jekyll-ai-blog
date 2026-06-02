@@ -64,6 +64,7 @@ public class SetSessionServlet extends HttpServlet {
 ```
 
 在这段代码中：
+
 - `request.getSession()` 确保会话可用。
 - `session.setAttribute("username", "Alice")` 将字符串 `"Alice"` 存储在键 `"username"` 下。
 
@@ -109,6 +110,7 @@ public class GetSessionServlet extends HttpServlet {
 ```
 
 在这段代码中：
+
 - `request.getSession(false)` 检索现有会话或返回 `null`。
 - `session.getAttribute("username")` 获取值，并转换为 `String`。
 - 空值检查可防止在会话或属性不存在时出错。
@@ -175,6 +177,7 @@ public class GetSessionServlet extends HttpServlet {
       <session-timeout>30</session-timeout> <!-- 以分钟为单位 -->
   </session-config>
   ```
+
 - **结束会话**：使用 `session.invalidate()`（例如用于注销）。
 - **安全性**：使用 HTTPS 保护会话 ID 不被截获。避免在没有加密的情况下存储高度敏感的数据。
 - **类型转换**：始终转换 `getAttribute` 的结果，因为它返回 `Object`。

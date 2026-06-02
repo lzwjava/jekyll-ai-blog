@@ -18,7 +18,8 @@ The correct answer is **A) show ip route**.
 
 This command is used on Cisco routers (and many other devices running Cisco IOS or similar operating systems) to display the current IP routing table. The routing table contains information about known networks, next-hop addresses, metrics, and the sources of routing information (e.g., connected, static, or dynamic protocols like OSPF or BGP).
 
-### Explanation of options:
+### Explanation of options
+
 - **A) show ip route** – Correct. Directly shows the IPv4 routing table.
 - **B) show interfaces** – Displays status and statistics for physical and logical interfaces (e.g., up/down state, IP addresses, errors), but not the routing table.
 - **C) show vlan** – Shows VLAN configuration and status on switches, not relevant to the routing table on a router.

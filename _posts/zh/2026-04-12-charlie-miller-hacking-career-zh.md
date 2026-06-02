@@ -12,12 +12,15 @@ type: note
 查理·米勒（Charlie Miller），全名查尔斯·阿尔弗雷德·米勒（Charles Alfred Miller），是美国著名的计算机安全研究员与道德（白帽）黑客，以其在识别并负责任地披露软件、硬件及互联系统漏洞方面的开创性工作而闻名。他常被《外交政策》杂志称为“全球技术最精湛的黑客之一”，凭借具有高影响力的演示案例而声名卓著，这些案例曾迫使苹果、谷歌、菲亚特克莱斯勒等大型企业提升其产品安全性。与利用漏洞从事恶意行为的黑帽黑客不同，米勒通过自身技能揭露技术弱点以促使其修复，最终为所有人构建更安全的技术环境。
 
 ### 早年经历与教育背景
+
 米勒出生于密苏里州圣路易斯地区的阿夫顿，并在那里长大。他早年曾面临个人困境：7岁时母亲因癌症去世，父亲需同时从事多份工作。这些经历使他度过了较为孤独的童年时期，并在此期间对计算机产生了浓厚兴趣。他在数学领域接受了高等教育，首先以优等成绩获得杜鲁门州立大学（当时名为东北密苏里州立大学）的数学学士学位，辅修哲学；随后于2000年在圣母大学取得数学博士学位，其研究方向为他日后在复杂系统和漏洞研究领域的工作奠定了分析基础。
 
 ### 职业生涯开端：国家安全局与向私营领域转型
+
 获得博士学位后，米勒在美国国家安全局（NSA）担任计算机黑客（漏洞分析师）长达五年。在此岗位上，他在政府环境中磨砺了高级攻击性安全技术。离开国家安全局后，他转入私营领域，以白帽黑客和顾问的身份更公开地运用其专业能力。他的职业生涯曾涵盖多家大型科技公司的安全职务，包括推特（任职于信息安全团队）、优步（负责自动驾驶汽车安全）、滴滴出行（担任自动驾驶出行安全负责人），以及目前担任通用汽车子公司Cruise Automation的首席自动驾驶汽车安全架构师。
 
 ### 主要成就与知名破解案例
+
 米勒的职业生涯中充满了影响安全领域格局的高知名度破解案例：
 
 - **移动设备突破性成果**：2007年，他通过利用iPhone移动Safari网页浏览器中的漏洞，成为首位远程破解该设备的研究人员。他在首款安卓手机（HTC G1）发布当天再次实现了类似破解。这些演示揭示了智能手机平台早期的安全风险。
@@ -31,7 +34,9 @@ type: note
 米勒在其所有工作中始终强调负责任披露——即在公开问题前向厂商报告，以便其进行修复。
 
 ### 领域贡献：著作与演讲
+
 除了实际破解工作，米勒还撰写或合著了多本对安全专业人士具有重要参考价值的技术著作：
+
 - 《Mac黑客手册》
 - 《iOS黑客手册》
 - 《模糊测试在软件安全测试与质量保障中的应用》
@@ -39,13 +44,15 @@ type: note
 这些著作详细阐述了利用技术、防御措施及测试方法。他还常受邀在Black Hat等大型会议上发表演讲，并参与全球范围的网络安全讨论。他的演讲主题常涵盖攻击者思维模式、自动驾驶汽车等新兴技术中的现实风险，以及他在国家安全局和行业经验中汲取的教训。
 
 ### 个人生活与行业影响
+
 米勒现居住于密苏里州威尔德伍德，靠近其家乡。他在专业圈子之外保持相对低调的公众形象，但在安全社区中仍保持活跃。他的X（推特）账号是@0xcharlie，偶尔会分享与黑客会议和研究相关的见解。
 
 作为一名白帽黑客，查理·米勒展示了深厚的技术专长与道德责任感相结合如何推动网络安全领域的积极变革。他的工作不仅揭露了关键缺陷，还影响了企业——尤其在联网汽车与移动设备等高风险领域——对安全设计的方法。在日益增强的数字互联时代，像米勒这样的研究者在超前应对威胁与构建更具韧性的系统方面扮演着至关重要的角色。
 
 参考文献：
-- https://en.wikipedia.org/wiki/Charlie_Miller_(security_researcher)
-- https://www.stlmag.com/A-Hackers-Life-Charlie-Miller-Keeps-the-Tech-World-On-Its-Toes/
-- https://blackhat.com/us-18/speakers/Charlie-Miller.html
-- https://www.kepplerspeakers.com/speakers/dr-charlie-miller
-- https://www.forbes.com/sites/andygreenberg/2012/09/14/twitter-snags-elite-apple-hacker-charlie-miller-to-beef-up-its-security-team/
+
+- <https://en.wikipedia.org/wiki/Charlie_Miller_(security_researcher)>
+- <https://www.stlmag.com/A-Hackers-Life-Charlie-Miller-Keeps-the-Tech-World-On-Its-Toes/>
+- <https://blackhat.com/us-18/speakers/Charlie-Miller.html>
+- <https://www.kepplerspeakers.com/speakers/dr-charlie-miller>
+- <https://www.forbes.com/sites/andygreenberg/2012/09/14/twitter-snags-elite-apple-hacker-charlie-miller-to-beef-up-its-security-team/>

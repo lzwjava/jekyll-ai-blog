@@ -194,6 +194,7 @@ def is_illegal(request):
 ```
 
 现`is_illegal`函数还检查特定协议如Shadowsocks和Trojan：
+
 - **Shadowsocks**：可检测请求体中是否含加密或类二进制数据
 - **Trojan**：若请求经443端口（HTTPS）且符合特定模式（如Trojan流量特征），则标记为非法
 

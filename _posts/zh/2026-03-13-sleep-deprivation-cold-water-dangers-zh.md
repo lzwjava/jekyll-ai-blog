@@ -20,11 +20,13 @@ type: note
 一次 24 小时不睡会导致相当于血醇浓度 0.10% 的损伤，这会显著影响您的认知能力和协调性。危险包括：
 
 **即时影响：**
+
 - 注意力和专注力受损，对疼痛更敏感，难以完成依赖集中注意力的任务
 - 青少年和成人焦虑、抑郁、愤怒和困惑增加
 - 开车时打瞌睡或注意力分散的风险增加，这每年导致数千起交通事故
 
 **身体影响：**
+
 - 免疫系统减弱，身体对抗感染的能力降低
 - 血压升高和应激激素释放增加
 - 睡眠剥夺 24 小时后，身体对疼痛、压力和冷温度的敏感性增加
@@ -54,11 +56,11 @@ type: note
 
 **参考文献：**
 
-- https://my.clevelandclinic.org/health/diseases/23970-sleep-deprivation
-- https://www.health.harvard.edu/staying-healthy/effects-of-sleep-deprivation
-- https://www.health.harvard.edu/staying-healthy/how-sleep-deprivation-can-harm-your-health
-- https://health.clevelandclinic.org/happens-body-dont-get-enough-sleep
-- https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful
-- https://www.foxnews.com/health/sleep-deprivation-dangers-pulling-all-nighter-affects-physical-mental-health
-- https://www.vinmec.com/eng/blog/is-late-night-bathing-really-linked-to-stroke-en
-- https://www.medicalnewstoday.com/articles/benefits-of-cold-plunges-sleep-stress-may-be-short-lived-review-finds
+- <https://my.clevelandclinic.org/health/diseases/23970-sleep-deprivation>
+- <https://www.health.harvard.edu/staying-healthy/effects-of-sleep-deprivation>
+- <https://www.health.harvard.edu/staying-healthy/how-sleep-deprivation-can-harm-your-health>
+- <https://health.clevelandclinic.org/happens-body-dont-get-enough-sleep>
+- <https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful>
+- <https://www.foxnews.com/health/sleep-deprivation-dangers-pulling-all-nighter-affects-physical-mental-health>
+- <https://www.vinmec.com/eng/blog/is-late-night-bathing-really-linked-to-stroke-en>
+- <https://www.medicalnewstoday.com/articles/benefits-of-cold-plunges-sleep-stress-may-be-short-lived-review-finds>

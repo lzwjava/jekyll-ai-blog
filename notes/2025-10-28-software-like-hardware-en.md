@@ -15,6 +15,7 @@ type: note
 The phrase "software-like" hardware development refers to borrowing agile, iterative, and low-friction practices from software engineering to make traditionally rigid hardware design faster, more experimental, and resilient to failure. Hardware dev has historically been slow and linear—like building a physical machine part by part, with long waits for fabrication and testing. By contrast, software is nimble: you code, test virtually, iterate in hours, and deploy changes without melting down prototypes. Here's how this pioneer (likely someone like a chip architect at Galileo, Marvell, or Amazon) bridged that gap, based on the description:
 
 #### Key "Software-Like" Elements in Hardware Dev
+
 - **Agile Teams & Iterative Cycles**:
   - Software thrives on small, cross-functional teams (e.g., devs, testers, designers) working in sprints—short loops of build-test-learn. In hardware, this means ditching massive, siloed engineering orgs for fluid squads that prototype, fail fast, and pivot. Result: Timelines shrink from 2–3 years (full chip tape-out to production) to 3–6 months by parallelizing design, simulation, and validation.
 
@@ -28,6 +29,7 @@ The phrase "software-like" hardware development refers to borrowing agile, itera
   - Software accelerates via GitHub forks, Stack Overflow, and conferences. Here, it's schmoozing at IEEE events or Marvell internals to snag IP blocks or vendor tools, turning solo geniuses into ecosystem hackers. No "AI/chip bootcamps" needed—real velocity comes from war stories shared over beers.
 
 #### Why Amazon's Scale Amplified This
+
 Amazon's cloud (AWS) and data-center muscle let these ideas scale: Emulated designs train on EC2 fleets, failures feed into production A/B tests, and billions in infra absorb the "hacks" into real silicon (e.g., custom Graviton chips). It's like taking a garage-coded app and launching it globally—hardware gets the same flywheel.
 
 In essence, it's hardware acting more like code: Virtual-first, team-driven, failure-tolerant, and endlessly refactorable. This shift has democratized chip design, powering AI accelerators without the old-school bottlenecks. If this is about a specific person (e.g., from X posts on chip leads), it echoes folks like those behind AWS Inferentia—let me know for deeper dives!

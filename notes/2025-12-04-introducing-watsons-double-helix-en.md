@@ -19,6 +19,7 @@ Answer:
 Written in a brisk, almost novelistic style, the book is less a dry scientific report and more a vivid behind-the-scenes drama of ambition, rivalry, brilliant insights, lucky breaks, and occasional ethical corner-cutting in the race to unlock the “secret of life.” Watson does not hide his youthful arrogance, his competitive streak, or his sometimes unflattering opinions of colleagues—traits that made the book scandalous when it was first published and still spark debate today.
 
 Key highlights that make it unique:
+
 - It’s one of the rare scientific bestsellers written like a thriller.
 - It humanizes (and sometimes de-mythologizes) the giants of molecular biology.
 - It frankly discusses the role of Rosalind Franklin’s unpublished X-ray data (“Photo 51”) in the breakthrough, raising enduring questions about credit and gender bias in science.

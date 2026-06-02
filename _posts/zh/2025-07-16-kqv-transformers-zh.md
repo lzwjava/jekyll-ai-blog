@@ -76,7 +76,7 @@ The A.I. Hacker - Michael Phi - Transformer 神经网络图解指南：一步一
 
 ### 我如何学习
 
-当我读完《神经网络与深度学习》一书的一半时，我开始复现识别手写数字的神经网络示例。我在 GitHub 上创建了一个仓库，https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
+当我读完《神经网络与深度学习》一书的一半时，我开始复现识别手写数字的神经网络示例。我在 GitHub 上创建了一个仓库，<https://github.com/lzwjava/neural-networks-and-zhiwei-learning。>
 
 那才是真正困难的部分。如果一个人能从零开始编写代码，而不是复制任何代码，那说明他理解得非常好。
 
@@ -115,9 +115,9 @@ $$
 
 继续阅读代码和论文，观看视频。只是享受和追随我的好奇心。
 
-https://github.com/karpathy/nanoGPT
+<https://github.com/karpathy/nanoGPT>
 
-https://github.com/jadore801120/attention-is-all-you-need-pytorch
+<https://github.com/jadore801120/attention-is-all-you-need-pytorch>
 
 ---
 

@@ -16,6 +16,7 @@ A `Session` in Python's `requests` library is a way to persist certain parameter
 The `requests` library is widely used for making HTTP requests in Python. While you can use standalone functions like `requests.get()` or `requests.post()`, a `Session` object allows you to create a persistent session that retains configurations (e.g., cookies, headers, or authentication credentials) across multiple requests. This is particularly useful for interacting with websites or APIs that require stateful interactions, such as maintaining a login session or reusing TCP connections.
 
 A `Session` object:
+
 - Persists cookies across requests.
 - Reuses underlying TCP connections (via connection pooling) for better performance when making multiple requests to the same host.
 - Allows you to set default parameters (e.g., headers, timeouts) that apply to all requests made with the session.
@@ -59,6 +60,7 @@ session.close()
 ```
 
 In this example:
+
 - A `Session` is created, and a custom `User-Agent` header is set for all requests.
 - The session handles cookies automatically, so if `response1` sets a cookie, it’s sent with `response2`.
 - The session reuses the connection to `api.example.com`, improving performance.
@@ -66,6 +68,7 @@ In this example:
 ## Key Features and Examples
 
 ### 1. **Persisting Cookies**
+
 Sessions are particularly useful for websites that use cookies to maintain state, such as login sessions.
 
 ```python
@@ -89,6 +92,7 @@ session.close()
 Here, the session stores the authentication cookie from the login request and sends it with the subsequent request to the protected page.
 
 ### 2. **Setting Default Parameters**
+
 You can set default headers, authentication, or other parameters for all requests in the session.
 
 ```python
@@ -113,6 +117,7 @@ session.close()
 ```
 
 ### 3. **Connection Pooling**
+
 When making multiple requests to the same host, `Session` reuses connections, which is more efficient than standalone requests.
 
 ```python
@@ -137,6 +142,7 @@ session.close()
 The session-based requests are typically faster because they reuse the TCP connection.
 
 ### 4. **Authentication**
+
 Sessions simplify handling authentication, such as HTTP Basic Auth or custom token-based authentication.
 
 ```python
@@ -154,6 +160,7 @@ session.close()
 ```
 
 ### 5. **Custom Adapters**
+
 You can mount custom adapters to control things like retries or connection pooling behavior.
 
 ```python
@@ -179,6 +186,7 @@ This example sets up automatic retries for specific HTTP error codes.
 ## When to Use `Session`
 
 Use `requests.Session` when:
+
 - You need to maintain state (e.g., cookies) across multiple requests, such as for authentication.
 - You’re making multiple requests to the same host and want to benefit from connection pooling.
 - You want to apply consistent configurations (headers, timeouts, etc.) across requests.
@@ -205,10 +213,12 @@ with requests.Session() as session:
 ```
 
 ## Advanced Notes
+
 - **Thread Safety**: `Session` objects are not thread-safe. If you’re using multithreading, create a separate `Session` for each thread.
 - **Proxies**: You can set proxies on a session with `session.proxies = {'http': 'http://proxy.com', 'https': 'https://proxy.com'}`.
 - **SSL Verification**: By default, `Session` verifies SSL certificates. To disable (not recommended for production), use `session.verify = False`.
 
 ## References
+
 [Requests Documentation](https://requests.readthedocs.io/en/latest/)
 [Requests Session Objects](https://requests.readthedocs.io/en/latest/user/advanced/#session-objects)

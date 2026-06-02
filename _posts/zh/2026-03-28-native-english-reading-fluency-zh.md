@@ -49,21 +49,26 @@ type: note
 ## 如何达到 —— 实践路径
 
 ### 1. **大量接触有趣的 English 内容**
+
 研究表明：*pleasure reading*（兴趣阅读）比刻意学习更能快速提高流利度。
 
 - 关注你真正关心的 Twitter/X 账号（finance、tech、football —— 任何内容）。
 - 每日阅读 newsletter，如 **Morning Brew**、**The Economist's Espresso** 或 **Bloomberg Quicktake** —— 短小精悍且与 business 相关。
 
 ### 2. **停止查阅每一个单词**
+
 训练自己 *tolerate ambiguity*（容忍模糊性）。尝试通过 context 推测。这能建立流利读者所具备的自动模式识别能力。
 
 ### 3. **读数量，而非读难度**
+
 不要强迫自己读晦涩的学术文章。读一些略低于你能力上限的内容 —— finance 新闻、你熟悉话题的 Reddit 帖、Medium 文章。在你这个阶段，阅读量比难度更重要。
 
 ### 4. **Shadowing 与听力**
+
 阅读流利度与听力流利度深度关联。利用通勤时间听 **Planet Money**、**How I Built This** 等 finance 播客。你内心的阅读“语感”会随之变快。
 
 ### 5. **重复阅读已理解的内容**
+
 同一篇文章读两次。第二次阅读总是会更快。这能训练你的大脑产生英语阅读 *可以* 毫不费力的感知。
 
 ---
@@ -80,6 +85,7 @@ type: note
 | True native-like（真正的类母语） | 5–10 年 | 用 English 做梦，默认思维语言发生转变 |
 
 **加速这一进程的关键因素：**
+
 - 拥有母语为英语的伴侣或亲密朋友圈。
 - *全天* 使用 English 工作（你已经部分具备此条件）。
 - 使用 English 进行娱乐（剧集、书籍、播客）。

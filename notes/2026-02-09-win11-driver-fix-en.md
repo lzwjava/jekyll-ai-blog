@@ -16,7 +16,8 @@ Answer:
 
 The screen you're seeing ("安装驱动程序以显示硬件") is the Chinese-language version of the Windows Setup prompt that appears when the installer cannot detect your storage drives (SSD, NVMe, SATA HDD, etc.). This is a very common issue during Windows 11 installation, especially on newer hardware like recent Intel/AMD platforms, laptops with Intel VMD (Volume Management Device) enabled, RAID configurations, or certain NVMe controllers.
 
-### What the buttons mean (based on standard Windows Setup behavior):
+### What the buttons mean (based on standard Windows Setup behavior)
+
 - **First option (C)** → Usually "Continue" or "取消" / "跳过" (skip / proceed without loading a driver).
   Selecting this often leads to no drives being shown → you can't select where to install Windows → setup fails or loops.
 
@@ -24,15 +25,18 @@ The screen you're seeing ("安装驱动程序以显示硬件") is the Chinese-la
   This is the correct choice in almost all cases when drives are not visible.
 
 **What you should do right now**:
+
 1. Choose the **second option (X)** — the one for loading / browsing drivers.
 2. Windows Setup will open a file browser dialog asking you to select a driver (.inf file).
    - If you have **no additional drivers prepared**, it may show nothing useful or fail → you need to prepare them (see below).
    - If you already have a separate USB with drivers inserted → browse to that USB, navigate to the folder with extracted drivers, select the appropriate .inf file (often named something like "iaStorAC.inf" for Intel RST or similar for AMD), and click OK / Next.
 
 ### How to fix it properly (prepare storage drivers)
+
 This prompt almost always means missing **storage controller driver** (SATA/AHCI/NVMe/RAID). The dd method creates a perfect ISO copy, so the USB itself is fine — the issue is hardware-specific.
 
 **Steps to resolve**:
+
 1. **On another computer** (your Mac or any working PC):
    - Go to your target machine's manufacturer website (Dell, HP, Lenovo, ASUS, MSI, Gigabyte, etc.) or motherboard model page.
    - Download the **chipset** + **storage** / **IRST** / **RAID** drivers for Windows 11 (64-bit).
@@ -51,6 +55,7 @@ This prompt almost always means missing **storage controller driver** (SATA/AHCI
    - Windows should then detect and show your drives → you can continue to select partition and install.
 
 ### Quick alternatives if you don't want to hunt drivers
+
 - If your PC is older/standard (pre-2020-ish Intel/AMD), try disabling **Intel VMD** or **RAID mode** in BIOS → set to **AHCI** instead → many times this lets the built-in Windows drivers work without extra loading.
 - Recreate the USB with Microsoft's official Media Creation Tool (on a Windows PC) instead of dd — sometimes it injects more compatibility, but dd should be equivalent.
 - For very new hardware (e.g., Intel 12th gen+ with VMD, AMD Ryzen 7000/8000/9000), the driver load is almost always required — no way around it without BIOS change.

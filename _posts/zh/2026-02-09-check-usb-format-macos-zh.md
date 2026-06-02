@@ -49,14 +49,18 @@ Answer:
 
 1. 打开 **Terminal** (Applications → Utilities → Terminal)。
 2. 运行此命令列出所有磁盘：
+
    ```
    diskutil list
    ```
+
    → 找到您的 USB 驱动器（通常是类似 `/dev/disk2` 或 `/dev/disk3` —— 通过容量和名称来识别它）。
 3. 然后运行（将 `disk3` 替换为您实际的磁盘编号）：
+
    ```
    diskutil info disk3s1
    ```
+
    （使用对应卷的分区，如 `diskXs1` 或 `diskXs2`）
    → 寻找 **File System Personality** 或 **Type (Bundle)** 这一行 —— 它会显示 FAT32, ExFAT, Journaled HFS+, APFS 等。
 

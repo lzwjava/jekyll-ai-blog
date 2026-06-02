@@ -14,11 +14,13 @@ Good references! Here's how they relate to your SSH proxy hang issue:
 ## Reference Analysis
 
 **Reference 1 (Apple Discussions)** - Partially relevant
+
 - **Similar symptoms**: SSH hangs with no error, tcpdump shows no traffic
 - **Different root cause**: Cloudflare Warp VPN blocking SSH, not HTTP proxy env vars
 - **Takeaway**: VPN/proxy software can silently block SSH in multiple ways
 
 **Reference 2 (The Register - Catalina SSH bug)** - Highly relevant ✅
+
 - **Direct match**: macOS SSH + proxy configuration causing hangs
 - **Root cause**: Auto Proxy Discovery interfering with SSH
 - **Key insight**: The bug affected SSH to ports >8192 using hostnames, and disabling proxy settings fixed it

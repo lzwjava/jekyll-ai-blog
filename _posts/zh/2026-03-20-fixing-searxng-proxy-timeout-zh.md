@@ -12,6 +12,7 @@ type: note
 ## 我如何解决 SearXNG 代理问题
 
 ### 问题
+
 SearXNG 在所有搜索引擎（Google、Brave、DuckDuckGo 等）上超时，因为它无法访问互联网。需要的修复是将它的流量通过本地 Mihomo 代理路由。
 
 ---

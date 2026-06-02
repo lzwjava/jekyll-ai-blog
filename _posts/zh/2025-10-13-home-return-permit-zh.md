@@ -29,6 +29,7 @@ type: note
 若您提问的"如何称呼"指向其他含义（如不同术语或语境），欢迎进一步说明！
 
 **参考资料：**
+
 - [港澳居民来往内地通行证 - 维基百科](https://en.wikipedia.org/wiki/Mainland_Travel_Permit_for_Hong_Kong_and_Macao_Resident)
 - [港澳居民来往内地通行证 - 国家移民管理局](https://en.nia.gov.cn/n147418/n147463/c156118/content.html)
 - [内地居民入境安排 - 香港入境事务处](https://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html)

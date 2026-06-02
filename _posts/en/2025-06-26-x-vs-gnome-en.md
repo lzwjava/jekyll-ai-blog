@@ -49,14 +49,16 @@ The comparison between **X Window System** (often referred to as X11 or simply X
 
 The "better" choice depends on your needs, technical expertise, and hardware:
 
-#### Choose X Window (X11) if:
+#### Choose X Window (X11) if
+
 - You want **maximum control** and are comfortable configuring a system from scratch.
 - You need a **lightweight solution** for low-spec hardware (e.g., old PCs or embedded systems).
 - You prioritize **remote display capabilities** (e.g., running GUI apps over SSH).
 - You prefer a **minimal setup** with a custom window manager (e.g., i3, Awesome, or DWM) tailored to your workflow.
 - Example use case: A power user setting up a tiling window manager for a highly optimized development environment.
 
-#### Choose GNOME if:
+#### Choose GNOME if
+
 - You want a **polished, ready-to-use desktop** with minimal setup.
 - You value **modern features** like touch support, Wayland compatibility, or a consistent user experience.
 - You don’t want to spend time configuring low-level components.
@@ -64,10 +66,12 @@ The "better" choice depends on your needs, technical expertise, and hardware:
 - Example use case: A casual user or professional who wants a clean, distraction-free desktop for daily tasks.
 
 ### Key Considerations
+
 - **Hardware**: On low-end systems, X11 with a lightweight window manager (e.g., Openbox or i3) will perform better than GNOME, which can be resource-intensive.
 - **Use Case**: For servers or remote desktops, X11’s network transparency is a big advantage. For a local desktop, GNOME’s polish and integration are more appealing.
 - **Future-Proofing**: X11 is gradually being phased out in favor of Wayland, which GNOME supports by default. If you choose X11, you may need to transition to Wayland eventually.
 - **Learning Curve**: GNOME is beginner-friendly, while X11 requires knowledge of window managers and configuration files.
 
 ### Conclusion
+
 Neither is inherently "better"—they serve different purposes. If you’re a beginner or want a complete desktop experience with minimal setup, **GNOME** is the better choice. If you’re a power user who wants a lightweight, highly customized system and are willing to invest time in setup, **X11 with a window manager** is superior. For most users, GNOME provides a more practical and modern solution, especially on systems running Wayland. If you’re unsure, try GNOME first, and explore X11 with a window manager if you need more control or have specific performance requirements.

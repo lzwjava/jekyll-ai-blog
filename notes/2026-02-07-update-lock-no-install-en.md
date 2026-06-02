@@ -23,6 +23,7 @@ This is useful when you want to:
 4. **Save time in CI/CD pipelines** - if you only need to update the lock file for a commit, you don't waste time downloading packages
 
 For example:
+
 ```bash
 npm install --package-lock-only
 ```

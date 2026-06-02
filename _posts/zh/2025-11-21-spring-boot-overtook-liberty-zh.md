@@ -25,6 +25,7 @@ IBM WebSphere Application Server Liberty Profile（通常简称为WLP或Liberty�
 | **市场势头** | 至2018-2020年，调查显示Tomcat（Spring Boot嵌入）占据Java运行时约60%份额，碾压所有传统应用服务器总和。2025年Spring Boot被超18,000家企业使用；传统应用服务器已成小众选择。 | Liberty/Open Liberty在IBM主导的企业和Jakarta EE/MicroProfile场景仍受欢迎，但新项目采用率远落后。 |
 
 ### Liberty仍具优势的领域（特定场景）
+
 - 无Spring依赖的纯Jakarta EE/MicroProfile应用
 - 已深度绑定IBM技术栈的企业（Red Hat OpenShift搭配WebSphere许可、IBM Cloud Pak）
 - 优化型Spring Boot部署（部分基准测试中，Liberty运行Spring Boot应用比嵌入Tomcat的Docker镜像更小、吞吐量更高）

@@ -15,6 +15,7 @@ FMDB is an Objective-C wrapper around SQLite that makes database operations easi
 ## What is FMDB?
 
 FMDB provides a cleaner, more object-oriented interface to SQLite with features like:
+
 - Automatic connection management
 - Error handling
 - Thread safety
@@ -23,17 +24,21 @@ FMDB provides a cleaner, more object-oriented interface to SQLite with features 
 ## Installation
 
 ### Using CocoaPods
+
 Add to your Podfile:
+
 ```ruby
 pod 'FMDB'
 ```
 
 ### Using Swift Package Manager
+
 Add package dependency: `https://github.com/ccgus/fmdb`
 
 ## Basic Usage
 
 ### 1. Import and Setup
+
 ```swift
 import FMDB
 
@@ -49,6 +54,7 @@ class DatabaseManager {
 ```
 
 ### 2. Open and Close Database
+
 ```swift
 func openDatabase() -> Bool {
     guard database.open() else {
@@ -64,6 +70,7 @@ func closeDatabase() {
 ```
 
 ### 3. Create Tables
+
 ```swift
 func createTables() {
     guard openDatabase() else { return }
@@ -89,6 +96,7 @@ func createTables() {
 ```
 
 ### 4. Insert Data
+
 ```swift
 func insertUser(name: String, email: String, age: Int) -> Bool {
     guard openDatabase() else { return false }
@@ -109,6 +117,7 @@ func insertUser(name: String, email: String, age: Int) -> Bool {
 ```
 
 ### 5. Query Data
+
 ```swift
 func getAllUsers() -> [User] {
     guard openDatabase() else { return [] }
@@ -138,6 +147,7 @@ func getAllUsers() -> [User] {
 ```
 
 ### 6. Update Data
+
 ```swift
 func updateUserAge(userId: Int, newAge: Int) -> Bool {
     guard openDatabase() else { return false }
@@ -158,6 +168,7 @@ func updateUserAge(userId: Int, newAge: Int) -> Bool {
 ```
 
 ### 7. Delete Data
+
 ```swift
 func deleteUser(userId: Int) -> Bool {
     guard openDatabase() else { return false }

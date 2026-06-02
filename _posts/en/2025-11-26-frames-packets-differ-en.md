@@ -22,6 +22,7 @@ Here’s the proper distinction and how they relate to what you said (“separat
 | Layer 1 (Physical) | Bits/stream   | –                      | Raw bits of the frame     | Uses special bit patterns or coding (e.g., 8B/10B, 64b/66b) | –                        | Cables, fiber, radio       |
 
 ### Why you are right about “start, end, and length”
+
 When we send a large file or stream, the original data is indeed chopped into smaller units at multiple layers:
 
 Application data (could be many MB
@@ -33,6 +34,7 @@ Application data (could be many MB
 → Each IP packet is wrapped into a Layer-2 **frame** (adds Ethernet header + FCS trailer)
 
 Every Ethernet frame, for example, has:
+
 - Preamble + Start Frame Delimiter (7 + 1 byte) → marks the beginning
 - Destination & Source MAC addresses
 - EtherType/Length field
@@ -42,6 +44,7 @@ Every Ethernet frame, for example, has:
 So the receiver can perfectly detect where one frame ends and the next begins, even though bits are streaming continuously on the wire.
 
 ### Summary of the difference
+
 - Packet = Layer 3 (IP) concept → “I have an IP address and I can be routed across networks”.
 - Frame = Layer 2 concept → “I live only on one local network segment and I have explicit start/end so the NIC can synchronize and detect boundaries”.
 

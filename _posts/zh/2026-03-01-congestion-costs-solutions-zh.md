@@ -38,6 +38,7 @@ type: note
 
 **Network-assisted congestion control**
 网络向发送方提供关于拥塞的明确反馈。这种反馈有两种形式：
+
 - 来自拥塞路由器向发送方的直接通知（“backwards” explicit congestion notification）
 - 路由器在向前发送到接收方的数据包中标记或设置一个位，然后接收方将此信息反馈给发送方（“forward” explicit congestion notification）
 

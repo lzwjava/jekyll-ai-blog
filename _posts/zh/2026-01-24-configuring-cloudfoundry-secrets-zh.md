@@ -68,6 +68,7 @@ Answer:
    使用诸如 `cfenv` (Node.js)、`cloudfoundry-client` (Java)、`vcap` helpers (Python) 等 libraries。
 
 2. **避免使用：cf set-env (纯文本用户端环境变量)**
+
    ```bash
    cf set-env my-app DATABASE_PASSWORD "verySecret2026!"
    cf restage my-app

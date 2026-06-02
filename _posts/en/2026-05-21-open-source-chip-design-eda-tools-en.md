@@ -233,6 +233,7 @@ Week 9+:   Read actual GPU RTL — MIAOW (open-source AMD GCN clone)
 ```
 
 **MIAOW** is an open-source implementation of AMD's GCN ISA in Verilog — literally an open-source GPU:
+
 ```bash
 git clone https://github.com/VerticalResearchGroup/miaow
 # Real Verilog implementation of AMD GCN shader core

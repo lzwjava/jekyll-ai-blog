@@ -35,4 +35,4 @@ git rm --cached uv.lock  # 如果之前被忽略但已存在
 # 然后从 .gitignore 中删除 uv.lock 这一行
 ```
 
-uv 文档明确推荐这样做：https://docs.astral.sh/uv/concepts/projects/layout/#lockfile
+uv 文档明确推荐这样做：<https://docs.astral.sh/uv/concepts/projects/layout/#lockfile>

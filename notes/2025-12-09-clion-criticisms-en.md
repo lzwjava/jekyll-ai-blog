@@ -31,6 +31,7 @@ CLion, JetBrains' cross-platform IDE for C and C++, is often praised for its ref
 These opinions reflect a vocal minority frustrated by CLion's enterprise focus, but they underscore how IDE preferences often boil down to project scale, hardware, and workflow needs.
 
 References:
+
 - [Opinions on CLion? (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/1fde2de/opinions_on_clion/)
 - [Is CLion worth it as an IDE for C++ development? (Quora)](https://www.quora.com/Is-CLion-worth-it-as-an-IDE-for-C-development)
 - [CLion vs VSCode in 2023 for C++ (Reddit r/cpp)](https://www.reddit.com/r/cpp/comments/10pvgto/clion_vs_vscode_in_2023_for_c/)

@@ -15,6 +15,7 @@ Z.ai appears to be a significant player in the AI research and development space
 **Core Focus**: Z.ai is working on "cognitive large models" with the ambitious goal of enabling machines to think like humans - positioning them as a frontier AI company tackling fundamental questions about artificial intelligence.
 
 **Model Portfolio**: They've developed several notable model families:
+
 - **GLM series**: Their foundational language models
 - **ChatGLM**: Conversational AI models, including a 6B parameter version designed for local deployment
 - **CogVideoX**: Video generation capabilities

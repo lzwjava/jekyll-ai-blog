@@ -16,6 +16,7 @@ For testing API endpoints that require temporary headers (like financial headers
 ## Recommended Approach: pytest with Fixtures
 
 `pytest` is generally better for this use case because:
+
 - It has more powerful fixture management
 - Cleaner syntax for setup/teardown
 - Better support for dependency injection

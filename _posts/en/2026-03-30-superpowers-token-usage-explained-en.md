@@ -22,22 +22,26 @@ Great question! Based on the search results, here's a concise and helpful answer
 ### 📊 Why Superpowers Consumes More Tokens
 
 #### 1. 🧠 **Planning-Heavy Workflow**
+
 Superpowers enforces a structured workflow:
 > **Brainstorming → Design Confirmation → Writing Plans → Execution → Code Review → Branch Finishing**
 
 Each phase generates significant text output, which means **more tokens consumed per task** compared to directly writing code.
 
 #### 2. 🤖 **Subagent-Driven Development**
+
 - Each task spawns a **fresh subagent** with its own context
 - A **two-phase code review** is automatically triggered after each task
 - Multiple subagents running = **multiplied token usage**
 
 #### 3. 📋 **Skill Files Injected Every Session**
+
 - At every session start, Superpowers injects skill context via a **Session Start Hook**
 - All 20+ skill definitions are loaded into context
 - This alone adds a **significant baseline token cost**
 
 #### 4. 🔄 **Auto-Retry on Failed Reviews**
+
 - If code review fails, a **new subagent is spawned** to redo the task
 - This can multiply token usage unexpectedly
 

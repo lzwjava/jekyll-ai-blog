@@ -35,6 +35,7 @@ ImportError: attempted relative import with no known parent package
 - 当你直接使用 `python scripts/nytimes/nytimes.py` 运行脚本时，Python 会将其视为**主模块**（`__name__ = "__main__"`）且不会为其分配包上下文。没有包上下文，Python 就无法解析相对导入，因为它不知道“父包”是什么。
 
 在你的案例中：
+
 - 脚本 `nytimes.py` 位于 `/Users/lzwjava/projects/lzwjava.github.io/scripts/nytimes/nytimes.py`。
 - 相对导入 `from ..llm.test_mistral import call_mistral_api` 暗示的目录结构如下：
 
@@ -147,6 +148,7 @@ from scripts.llm.test_mistral import call_mistral_api
 
 1. **尝试解决方案**：
    - 在 `lzwjava.github.io` 目录下执行：
+
      ```bash
      python -m scripts.nytimes.nytimes
      ```

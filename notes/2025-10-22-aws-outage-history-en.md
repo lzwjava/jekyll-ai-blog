@@ -26,6 +26,7 @@ Amazon Web Services (AWS) has powered much of the internet since 2006, but like 
 These incidents often stem from human error, network issues, or environmental factors, and AWS has improved resilience through redundancies like multi-region setups. The 2025 outage underscores ongoing risks of over-reliance on US-East-1, AWS's busiest region.
 
 For more details:
+
 - [A History of AWS Cloud and Data Center Outages](https://www.datacenterknowledge.com/outages/a-history-of-aws-cloud-and-data-center-outages)
 - [The Biggest AWS Outage in History: December 7, 2021](https://aws.plainenglish.io/the-biggest-aws-outage-in-history-the-december-7-2021-us-east-1-meltdown-and-lessons-learned-2efab5a02de5)
 - [What caused the AWS outage](https://www.bbc.com/news/articles/cev1en9077ro)

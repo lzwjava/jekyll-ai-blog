@@ -11,6 +11,7 @@ type: note
 The Arduino Uno, Uno R3, and Uno Mini are variations of the popular Arduino microcontroller board, each with specific differences in design, features, and use cases. Below is a concise comparison based on their key differences:
 
 ### 1. **Arduino Uno (Original) vs. Arduino Uno R3**
+
 The Arduino Uno and Uno R3 are essentially the same board, with the Uno R3 being the third revision (R3) of the original Uno. The differences are minor and focus on improvements in usability and compatibility.
 
 - **Microcontroller**: Both use the **ATmega328P** (8-bit AVR, 16 MHz clock speed).
@@ -30,6 +31,7 @@ The Arduino Uno and Uno R3 are essentially the same board, with the Uno R3 being
 **Key Difference**: The Uno R3 is an improved version of the original Uno with better shield compatibility and a more robust USB interface. For most users, the R3 is the better choice as it’s the current standard.[](https://www.quora.com/What-is-the-difference-between-an-Arduino-Uno-and-an-Arduino-Uno-R3)[](https://startingelectronics.org/articles/arduino/uno-r3-r2-differences/)[](https://www.quora.com/What-is-the-difference-between-an-Arduino-Uno-and-an-Arduino-UNO-R3-Which-one-is-better-for-electronics-projects-and-why)
 
 ### 2. **Arduino Uno R3 vs. Arduino Uno Mini Limited Edition**
+
 The Arduino Uno Mini Limited Edition is a compact, special-edition version of the Uno R3, designed for collectors and projects requiring a smaller footprint.
 
 - **Microcontroller**: Both use the **ATmega328P** (8-bit AVR, 16 MHz).
@@ -72,6 +74,7 @@ The Arduino Uno Mini Limited Edition is a compact, special-edition version of th
 | **Best For**             | Legacy projects       | General prototyping   | Compact/collectible projects |
 
 ### Which One to Choose?
+
 - **Arduino Uno R3**: The go-to choice for most users. It’s widely supported, shield-compatible, and ideal for beginners or general-purpose projects. Choose this unless you have specific size constraints or want a collectible.
 - **Arduino Uno (Original)**: Only relevant if you’re working with older, pre-R3 shields or have an existing board. Otherwise, opt for the R3.
 - **Arduino Uno Mini Limited Edition**: Pick this for space-constrained projects, if you prefer USB-C, or if you’re an Arduino enthusiast/collector. It’s less versatile due to no shield support.

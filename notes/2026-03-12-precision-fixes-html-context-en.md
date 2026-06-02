@@ -47,6 +47,7 @@ PROBLEM: Spacing between fields is gone, layout collapsed
 ```
 
 Now Claude/Copilot **immediately knows**:
+
 - Exactly what class is wrong (`form-group`)
 - What the structure looks like
 - What the expected visual behavior was

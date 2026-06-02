@@ -46,6 +46,7 @@ Shadowblade has **one CC ability** — it's embedded in Skill 2 (Secret Skill: S
 Skill 2 throws a dagger that damages, slows, and marks the first enemy hit. When he then attacks a marked target, it **stuns** them and recovers his Health. The mark also deals grievous (bonus) damage when it disappears.
 
 So the CC flow is:
+
 1. Throw Skill 2 → enemy is **slowed + marked**
 2. Follow up with a basic attack or Skill 1 → enemy is **stunned**
 3. This window is your kill window
@@ -59,6 +60,7 @@ Shadowblade is **not a heavy CC hero** — he has no AoE CC, no knock-up, and no
 The most common skill combo is **Skill 2 → Ultimate → Skill 1**. Use his Ultimate to approach the enemy while in stealth mode. Then, after Skill 2 connects, quickly follow through with the skill combo to kill the enemy.
 
 The full assassination chain:
+
 1. **Ult (Shadow)** — enter stealth, close the gap invisibly
 2. **Skill 2 (Sling)** — throw dagger to slow + mark enemy
 3. **Basic attack** — stun the marked enemy
@@ -72,6 +74,7 @@ The full assassination chain:
 The Ultimate (Secret Skill — Shadow) enters a 20-second cooldown after use, and can expire if he doesn't reveal himself or get revealed by the enemies. However, he can reactivate the skill before it expires. Leaving stealth also increases his Attack Speed.
 
 Key stealth usage tips:
+
 - Use stealth to **rotate to a lane without being tracked** on the minimap
 - Play with the enemies' vision effectively — you can pretend to walk toward one lane when enemies have vision on you, then after activating the Ultimate and breaking their vision, change direction to gank a different lane entirely.
 - Use stealth to **position before a fight**, not just to initiate — enter from an unexpected angle

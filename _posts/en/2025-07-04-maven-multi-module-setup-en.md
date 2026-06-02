@@ -11,12 +11,14 @@ type: note
 To convert your `algorithm-solutions` repository into a multi-module Java project managed by Maven, you'll need a parent `pom.xml` in the root directory and individual `pom.xml` files for each submodule (`nowcoder` and `uva`). The parent `pom.xml` will define common configurations and manage the submodules, while each submodule's `pom.xml` will handle its specific settings.
 
 Below, I'll provide the `pom.xml` files for the parent project and the two submodules. I'll assume:
+
 - The project uses Java 17 (a common version for modern projects; adjust if needed).
 - The `nowcoder` and `uva` directories contain Java source files in a standard Maven structure (`src/main/java`).
 - No external dependencies are required for now, but the structure allows for easy addition.
 - Each submodule will be packaged as a JAR (since these are likely standalone algorithm solutions).
 
 ### Directory Structure
+
 After setting up, your directory structure should look like this:
 
 ```
@@ -38,6 +40,7 @@ algorithm-solutions/
 ```
 
 ### Parent `pom.xml`
+
 This file goes in the root directory (`algorithm-solutions/pom.xml`). It defines the parent project, lists the submodules, and sets common configurations like Java version and compiler settings.
 
 ```xml
@@ -82,6 +85,7 @@ This file goes in the root directory (`algorithm-solutions/pom.xml`). It defines
 ```
 
 ### Nowcoder Submodule `pom.xml`
+
 This file goes in the `nowcoder` directory (`nowcoder/pom.xml`). It inherits from the parent and specifies its own artifact details.
 
 ```xml
@@ -120,6 +124,7 @@ This file goes in the `nowcoder` directory (`nowcoder/pom.xml`). It inherits fro
 ```
 
 ### UVA Submodule `pom.xml`
+
 This file goes in the `uva` directory (`uva/pom.xml`). It also inherits from the parent and specifies its own artifact details. Since UVA solutions typically don't have a single `Main` class (each problem might be a standalone program), I won't specify a main class here, but you can add one if needed.
 
 ```xml
@@ -151,6 +156,7 @@ This file goes in the `uva` directory (`uva/pom.xml`). It also inherits from the
 ```
 
 ### Steps to Set Up
+
 1. **Create Maven Directory Structure**:
    - Move your Java files in `nowcoder` to `nowcoder/src/main/java/`.
    - Move your Java files in `uva` to `uva/src/main/java/`.
@@ -167,15 +173,19 @@ This file goes in the `uva` directory (`uva/pom.xml`). It also inherits from the
 
 4. **Run a Specific Program**:
    - For `nowcoder`, if `Main.java` is the entry point, you can run it with:
+
      ```bash
      mvn -pl nowcoder exec:java -Dexec.mainClass="Main"
      ```
+
    - For UVA solutions, since each file might be a standalone program, you can run a specific class (e.g., `100.java`) with:
+
      ```bash
      mvn -pl uva exec:java -Dexec.mainClass="100"
      ```
 
 ### Notes
+
 - **Java Version**: I used Java 17. If you need a different version, update the `<maven.compiler.source>` and `<maven.compiler.target>` properties in the parent `pom.xml`.
 - **Dependencies**: If your solutions require libraries (e.g., for input/output utilities), add them to the submodule's `pom.xml` under a `<dependencies>` section.
 - **File Naming**: Ensure your Java files match the class names (e.g., `100.java` should contain `public class 100`).

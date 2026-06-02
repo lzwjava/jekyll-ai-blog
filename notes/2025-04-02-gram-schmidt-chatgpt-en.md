@@ -13,6 +13,7 @@ The **Gram-Schmidt process** is a method for orthonormalizing a set of linearly 
 ---
 
 ### **Algorithm: Gram-Schmidt Process**
+
 Given a set of **linearly independent** vectors \\( \{v_1, v_2, \dots, v_n\} \\) in an inner product space, we construct an **orthonormal basis** \\( \{u_1, u_2, \dots, u_n\} \\) as follows:
 
 1. **Step 1: Compute the first orthonormal vector**
@@ -42,6 +43,7 @@ Here, \\( \text{proj}_{u_j}(v_k) = \frac{\langle v_k, u_j \rangle}{\langle u_j, 
 ---
 
 ### **Example: Applying Gram-Schmidt to \\(\mathbb{R}^3\\)**
+
 Given the vectors:
 
 \\[
@@ -49,11 +51,13 @@ v_1 = (1, 1, 0), \quad v_2 = (1, 0, 1), \quad v_3 = (0, 1, 1)
 \\]
 
 #### **Step 1: Normalize \\( v_1 \\)**
+
 \\[
 u_1 = \frac{v_1}{\|v_1\|} = \frac{(1,1,0)}{\sqrt{2}} = \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}, 0\right)
 \\]
 
 #### **Step 2: Orthogonalize \\( v_2 \\) against \\( u_1 \\)**
+
 \\[
 \text{proj}_{u_1}(v_2) = \frac{\langle v_2, u_1 \rangle}{\langle u_1, u_1 \rangle} u_1
 \\]
@@ -87,11 +91,13 @@ u_2 = \frac{v_2'}{\|v_2'\|}
 \\]
 
 #### **Step 3: Orthogonalize \\( v_3 \\) against \\( u_1 \\) and \\( u_2 \\)**
+
 Follow the same procedure for \\( v_3 \\), projecting onto \\( u_1 \\) and \\( u_2 \\), then normalizing.
 
 ---
 
 ### **Summary**
+
 The **Gram-Schmidt process** transforms a set of linearly independent vectors into an **orthonormal basis** step by step, ensuring each vector is orthogonal to the previous ones and has unit length. This process is fundamental in applications such as:
 
 - QR decomposition in numerical linear algebra.

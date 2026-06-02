@@ -39,6 +39,7 @@ The built-in WebChat that runs off the Gateway (accessible via the browser, typi
 OpenClaw's built-in webchat is functional but minimal — this is acknowledged even by the community developers who built third-party alternatives around it.
 
 On macOS specifically, the experience involves:
+
 - A menu bar app with Voice Wake and Push-to-Talk (PTT) — but it relies on macOS system-level microphone permissions and is more of a "developer control panel" than a consumer chat UI.
 - The macOS/iOS SwiftUI chat UI talks directly to the Gateway WebSocket, functioning as a native chat UI with no embedded browser and no local static server, using the same sessions and routing rules as other channels. This is a step up, but still not as seamless as picking up your phone and sending a voice note in WeChat.
 

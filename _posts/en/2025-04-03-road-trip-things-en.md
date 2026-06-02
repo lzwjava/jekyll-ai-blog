@@ -13,26 +13,26 @@ Okay, here is a list of things you should bring for your road trip to Shantou du
 **Essential Travel Items:**
 
 * **Identification and Documents:**
-    * Your National ID card or Passport.
-    * Driver's license (if you are driving).
-    * Copies of important documents (keep them separate from the originals).
-    * Hotel booking confirmations (printed or digital).
+  * Your National ID card or Passport.
+  * Driver's license (if you are driving).
+  * Copies of important documents (keep them separate from the originals).
+  * Hotel booking confirmations (printed or digital).
 * **Money and Payment:**
-    * Cash (for smaller establishments or in case of electronic payment issues).
-    * Bank cards (credit/debit cards).
-    * Mobile payment apps (Alipay, WeChat Pay) – ensure they are set up and funded.
+  * Cash (for smaller establishments or in case of electronic payment issues).
+  * Bank cards (credit/debit cards).
+  * Mobile payment apps (Alipay, WeChat Pay) – ensure they are set up and funded.
 * **Health and Safety:**
-    * Any personal medications you require (with prescriptions if necessary).
-    * Basic first-aid kit (band-aids, antiseptic wipes, pain relievers, motion sickness medication if you are prone to it).
-    * Hand sanitizer.
-    * Face masks (while not always mandatory, they can be useful in crowded areas).
+  * Any personal medications you require (with prescriptions if necessary).
+  * Basic first-aid kit (band-aids, antiseptic wipes, pain relievers, motion sickness medication if you are prone to it).
+  * Hand sanitizer.
+  * Face masks (while not always mandatory, they can be useful in crowded areas).
 * **Electronics and Accessories:**
-    * Phone charger and power bank (essential for long journeys and when you're away from outlets).
-    * Laptop charger.
-    * Universal adapter (if your chargers have different plug types, though China primarily uses Type A and Type I).
-    * Headphones or earbuds for entertainment during the drive or in your hotel.
-    * Car phone mount (if you plan to use your phone for navigation).
-    * USB cables for charging and data transfer.
+  * Phone charger and power bank (essential for long journeys and when you're away from outlets).
+  * Laptop charger.
+  * Universal adapter (if your chargers have different plug types, though China primarily uses Type A and Type I).
+  * Headphones or earbuds for entertainment during the drive or in your hotel.
+  * Car phone mount (if you plan to use your phone for navigation).
+  * USB cables for charging and data transfer.
 
 **Clothing (April in China - Generally Mild and Comfortable, but with Potential for Variation):**
 

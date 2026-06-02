@@ -13,6 +13,7 @@ type: note
 ---
 
 ### **Java & Spring Boot**
+
 1. 在银行环境中优化Spring Boot应用的最佳实践
 2. 如何在高性能金融交易中实现Spring Boot缓存
 3. 阐述保障汇丰银行后端API安全的Spring Security最佳实践
@@ -25,6 +26,7 @@ type: note
 10. 银行后端Spring Boot应用的高效JUnit测试编写方法
 
 ### **多线程与并发**
+
 11. 金融交易场景下Java线程安全编程最佳实践
 12. 高并发银行后端系统中避免死锁的方法
 13. 银行API异步处理中Java CompletableFuture原理解析
@@ -37,6 +39,7 @@ type: note
 20. 银行系统中synchronized与ReentrantLock的选用原则
 
 ### **网络与分布式系统**
+
 21. 设计汇丰企业级弹性REST API的架构思路
 22. 银行后端API版本管理的最佳实践
 23. Spring Boot金融应用实现OAuth2安全的方案
@@ -49,6 +52,7 @@ type: note
 30. Spring Boot银行微服务实现服务发现的方案
 
 ### **CI/CD、Maven、Nexus与部署**
+
 31. 银行级大型项目的Maven依赖管理规范
 32. 金融机构中Nexus安全存储库的配置方法
 33. 受监管银行环境中Java应用CI/CD流水线建设
@@ -61,6 +65,7 @@ type: note
 40. Maven银行项目代码质量检查的强制实施
 
 ### **Control-M、IBM WebSphere与企业级银行系统**
+
 41. Control-M调度银行交易批处理作业的方法
 42. Java应用与IBM WebSphere集成的工程规范
 43. WebSphere银行应用性能问题的排查指南

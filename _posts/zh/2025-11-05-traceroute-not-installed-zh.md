@@ -13,7 +13,9 @@ type: note
 Traceroute 在 Linux 系统上确实可用——这是一个标准的网络诊断工具，用于追踪数据包到达目的地的路径。不过，为了保持基础系统的轻量化，许多现代发行版（如 Ubuntu、Fedora 或 Debian 最小化安装）通常**不会预装该工具**。这就是为什么你在输入 "trac" 时没有看到自动补全提示。
 
 ### 快速解决方案
+
 通过包管理器安装即可：
+
 - **Debian/Ubuntu**：`sudo apt update && sudo apt install traceroute`
 - **Fedora/RHEL/CentOS**：`sudo dnf install traceroute`（旧版本系统使用 `sudo yum install traceroute`）
 - **Arch**：`sudo pacman -S traceroute`

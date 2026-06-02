@@ -26,14 +26,17 @@ The scenario you describe — street food vendors, chance encounters, restaurant
 ### Why It Works Well in These Specific Situations
 
 **Street food / small vendors**
+
 - A printed QR code poster on a stall is low-cost, always visible, and catches customers while they're waiting for food — high dwell time = high scan rate.
 - Creating paper-based posters with the QR code of your WeChat account and circulating them through in-person promotion events is a widely recommended tactic.
 
 **Random encounters / everyday people**
+
 - Showing your QR code briefly in a real-life moment is low-pressure. The person can choose to scan or not — there's no personal data exchanged in that moment.
 - It creates authentic "organic" follower growth, which the algorithm tends to reward.
 
 **Restaurant / service staff**
+
 - Staff can display a QR code on a badge, table card, or printed slip — this is already common in China for WeChat Pay, so customers are conditioned to scan.
 
 ---

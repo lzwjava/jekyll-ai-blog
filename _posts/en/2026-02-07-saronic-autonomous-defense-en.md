@@ -19,6 +19,7 @@ type: note
 Founded in **2022** and headquartered in **Austin, Texas**, Saronic focuses on providing naval and maritime forces with intelligent, scalable autonomous systems to enhance maritime security, domain awareness, operational reach, and survivability. The company integrates advanced hardware, software, and artificial intelligence into fully integrated platforms capable of operating independently or in swarms.
 
 ### Key Details
+
 - **Mission**: To redefine maritime superiority for the U.S. and its allies by building cost-effective, rapidly producible autonomous vessels that address modern naval challenges, including contested environments and hybrid fleet operations.
 - **Products**: Saronic offers a family of modular ASVs in various sizes, including:
   - Spyglass (6 ft) — compact, modular for custom capabilities.

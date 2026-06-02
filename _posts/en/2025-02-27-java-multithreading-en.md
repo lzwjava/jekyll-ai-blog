@@ -13,7 +13,9 @@ Let’s dive into Java multithreading and how to use the `Executor` framework ef
 ---
 
 ### 1. Basics of Multithreading in Java
+
 Java provides two primary ways to create threads:
+
 - **Extend `Thread` class**:
 
 ```java
@@ -53,15 +55,19 @@ public class Main {
 ---
 
 ### 2. Why Use `Executor`?
+
 Manually creating threads works for simple cases, but it’s inefficient for managing many tasks (e.g., thread overhead, resource exhaustion). The `Executor` framework (introduced in Java 5 under `java.util.concurrent`) provides a thread pool and task management system, making multithreading cleaner and more scalable.
 
 ---
 
 ### 3. Using `ExecutorService`
+
 The `ExecutorService` interface (a subinterface of `Executor`) is the go-to tool. Here’s how to use it:
 
 #### Step 1: Create an ExecutorService
+
 Use the `Executors` utility class to create a thread pool:
+
 ```java
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -88,10 +94,12 @@ public class Main {
     }
 }
 ```
+
 - `newFixedThreadPool(4)` creates a pool with 4 threads. Excess tasks wait in a queue.
 - `submit()` accepts `Runnable` or `Callable` tasks (`Callable` returns a result).
 
 #### Common Executor Types
+
 - `Executors.newSingleThreadExecutor()`: One thread, processes tasks sequentially.
 - `Executors.newCachedThreadPool()`: Creates threads as needed, reuses idle ones (good for short-lived tasks).
 - `Executors.newScheduledThreadPool(n)`: For scheduling tasks with delays or periodicity.
@@ -99,7 +107,9 @@ public class Main {
 ---
 
 ### 4. Handling Results with `Callable` and `Future`
+
 If you need task results, use `Callable` instead of `Runnable`:
+
 ```java
 import java.util.concurrent.*;
 
@@ -124,13 +134,16 @@ public class Main {
     }
 }
 ```
+
 - `Future.get()` retrieves the result, blocking if the task isn’t finished.
 - Use `future.isDone()` to check completion without blocking.
 
 ---
 
 ### 5. Advanced: Thread Pool Tuning
+
 For real-world apps, you might want a custom `ThreadPoolExecutor`:
+
 ```java
 import java.util.concurrent.*;
 
@@ -160,6 +173,7 @@ public class Main {
     }
 }
 ```
+
 - Core size (2): Minimum threads kept alive.
 - Max size (4): Max threads if queue is full.
 - Queue: Holds tasks when all threads are busy.
@@ -167,10 +181,12 @@ public class Main {
 ---
 
 ### 6. Best Practices
+
 - **Shutdown Properly**: Always call `shutdown()` or `shutdownNow()` to avoid resource leaks.
 - **Handle Interruptions**: Check `Thread.currentThread().isInterrupted()` in loops.
 - **Avoid Overloading**: Too many threads can degrade performance—tune pool size based on CPU cores (e.g., `Runtime.getRuntime().availableProcessors()`).
 - **Use `try-finally` with `ExecutorService`**:
+
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4);
 try {
@@ -183,7 +199,9 @@ try {
 ---
 
 ### Example with Log4j (Tying It Together)
+
 Combining multithreading with your earlier Log4j question:
+
 ```java
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -213,4 +231,5 @@ public class Main {
     }
 }
 ```
+
 With the `log4j2.xml` from earlier, this logs task progress to console and file.

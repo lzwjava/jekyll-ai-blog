@@ -42,6 +42,7 @@ Unfortunately, **English** is not currently one of the languages that triggers f
 To make sure LinkedIn detects foreign-language posts and shows you the "See Translation" button properly:
 
 **On Desktop:**
+
 1. Click your profile photo (top right) → **Settings & Privacy**
 2. Go to **Account Preferences** → **Site language**
 3. Set it to **English**

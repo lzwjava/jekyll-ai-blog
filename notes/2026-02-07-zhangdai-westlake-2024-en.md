@@ -38,4 +38,5 @@ The correct answer is **D. 《西湖七月半》** (Watching the West Lake on th
 Only **D** is authored by **Zhang Dai**. Your answer **D** is correct.
 
 **References:**
+
 - None (standard literary history knowledge; authorship of these four famous pieces is widely accepted in Chinese literature textbooks and reference works)

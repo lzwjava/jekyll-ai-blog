@@ -99,9 +99,11 @@ type: post
 
 2. 替代的端口检查工具：
    - Netcat (`nc`)：
+
      ```bash
      nc -zv <YOUR_VM_IP> 1080
      ```
+
    - 在线端口检查工具：
      使用像 [canyouseeme.org](https://canyouseeme.org/) 这样的在线服务检查 1080 端口是否开放。
 

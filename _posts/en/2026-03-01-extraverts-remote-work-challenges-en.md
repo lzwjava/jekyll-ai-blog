@@ -18,6 +18,7 @@ In the **MBTI** (Myers-Briggs Type Indicator), the **E** stands for **Extraversi
 Work from home (remote work) often reduces these interactions significantly, which can make it more challenging — but **not necessarily unsuitable** — for many Extraverts. Here's a breakdown:
 
 ### Common Challenges for Extraverts in Remote Work
+
 - **Higher risk of loneliness and isolation**: Research and surveys show that people with Extraversion preferences report higher levels of feeling lonely, missing informal conversations, and feeling isolated when working remotely compared to Introverts.
 - **Lower energy and motivation**: Extraverts often feel an "energy rut" without face-to-face interactions, casual office talks, or team energy, which can reduce motivation and sometimes performance.
 - **Difficulty with focus and structure**: Without external social cues (like meetings or colleagues nearby), some Extraverts struggle more with procrastination, maintaining structure, or switching into "work mode."
@@ -26,6 +27,7 @@ Work from home (remote work) often reduces these interactions significantly, whi
 Introverts (I types), by contrast, often thrive more in remote work because they enjoy solitude, experience less stress, feel more engaged, and appreciate the quiet environment.
 
 ### Important Nuances
+
 - **Not all Extraverts struggle equally**: Many Extraverts still enjoy remote work overall — for example, they appreciate the peace and quiet or flexibility. Recent surveys show a majority of Extraverts report positive experiences with remote/hybrid setups, though they miss social aspects more than Introverts do.
 - **Adaptation is possible**: Extraverts can succeed remotely by using strategies such as:
   - Scheduling regular video calls or virtual coffee chats.

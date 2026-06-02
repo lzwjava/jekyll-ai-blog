@@ -15,6 +15,7 @@ Here are some realistic exercise/problems that closely match the style and diffi
 ### Theory Exam Practice Questions (Typical 100-point paper)
 
 #### I. Single-Choice Questions (每题1分，共20分)
+
 1. Which of the following is the correct structure of an HTML5 document?
    - A. `<html><head><body>`
    - B. `<!DOCTYPE html><html><head><body>`
@@ -36,6 +37,7 @@ Here are some realistic exercise/problems that closely match the style and diffi
 (Continue with similar questions on HTML tags, CSS box model, color modes, file paths, etc.)
 
 #### II. Multiple-Choice Questions (每题2分，共10分)
+
 1. Which of the following are block-level elements in HTML? ( )
    - A. `<div>`  B. `<span>`  C. `<p>`  D. `<img>`
 
@@ -43,22 +45,26 @@ Here are some realistic exercise/problems that closely match the style and diffi
    - A. px  B. em  C. %  D. rem
 
 #### III. True/False Questions (每题1分，共10分)
+
 1. The `<meta charset="gb2312">` declaration is recommended for new websites in China. ( )
 2. Using `position: absolute` removes the element from the normal document flow. ( )
 
 #### IV. Short-Answer Questions (每题5-8分，共30分)
+
 1. Briefly explain the three parts of the CSS box model and their order from inside to outside.
 2. What are the main differences between `margin` and `padding`?
 3. Describe the role of the `<meta name="keywords" content="...">` tag and explain why search engines now give it very low weight.
 4. List four common image formats used on websites and their main characteristics.
 
 #### V. Comprehensive/Analysis Questions (每题10-15分，共30分)
+
 1. Given the following HTML and CSS code, draw the final layout (or describe the effect) and explain why collapse of vertical margins occurs.
 
 ```html
 <div class="box1"></div>
 <div class="box2"></div>
 ```
+
 ```css
 .box1 { width:200px; height:100px; background:red; margin-bottom:40px; }
 .box2 { width:200px; height:100px; background:blue; margin-top:60px; }
@@ -69,9 +75,11 @@ Here are some realistic exercise/problems that closely match the style and diffi
 ### Practical Assessment Practice Tasks (Typical tasks given in the actual exam)
 
 #### Task 1 – Basic Static Page (40 points)
+
 Using only HTML and CSS (no JavaScript, no frameworks), create a complete website with the following requirements:
 
 1. Folder structure:
+
    ```
    exam/
    ├─ index.html
@@ -98,13 +106,17 @@ Using only HTML and CSS (no JavaScript, no frameworks), create a complete websit
    - Responsive: when browser width < 768px, the three product cards stack vertically
 
 #### Task 2 – Form + Table Page (30 points)
+
 Create a file `contact.html` in the same folder with:
+
 - A complete user registration form containing: text input, password, radio buttons (gender), checkboxes (hobbies), dropdown (city), textarea, and submit/reset buttons
 - Use `<label>` correctly and proper `for` attributes
 - Below the form, insert a product price list using `<table>` (at least 5 rows × 6 columns, with table header, caption, and striped rows using CSS)
 
 #### Task 3 – Debugging & Optimization (30 points)
+
 You are given a buggy website folder (will be provided as zip). Common problems include:
+
 - Images not showing (wrong path)
 - Layout collapse (missing float clear)
 - Chinese characters garbled

@@ -19,6 +19,7 @@ You're right that students bear the brunt of the work—endless studying, exams 
 For someone feeling this tension, it's often a clash between personal pride (more individualistic, perhaps influenced by global media) and cultural collectivism. Teachers aren't disliking the student's talent; they're enforcing a norm that success is a shared gift, not a solo conquest. This can feel stifling if you're wired for self-attribution, but it's designed to build resilience and empathy—key for navigating China's competitive society.
 
 #### How to Navigate It Practically
+
 - **Balance internal pride with external humility**: Feel accomplished inside, but frame it outwardly as "Thanks to my teacher's guidance, I was able to..." This shows maturity without diminishing your effort.
 - **Reframe gratitude as empowerment**: It's not denying your work; it's acknowledging the ecosystem that lets you shine. Many successful Chinese professionals (e.g., in tech or business) credit mentors publicly while knowing their grind made it happen.
 - **If it bothers you deeply**: Talk to a trusted teacher privately about your appreciation in a humble way—it can build rapport. Or seek diverse perspectives through books like *The Analects* for the philosophy behind it.
@@ -27,6 +28,7 @@ For someone feeling this tension, it's often a clash between personal pride (mor
 In essence, it's less about who's "right" and more about a cultural script for harmony. Embracing it doesn't erase your agency; it amplifies it in context.
 
 #### References
+
 - [Gratitude Education - The China Story](https://www.thechinastory.org/yearbooks/yearbook-2017/chapter-7-prosper-or-perish/gratitude-education/)
 - [A Lesson in Humility | Notre Dame Admissions](https://admissions.nd.edu/visit-engage/stories-news/a-lesson-in-humility/)
 - [Humility in learning: A Confucian perspective](https://www.researchgate.net/publication/303834689_Humility_in_learning_A_Confucian_perspective)

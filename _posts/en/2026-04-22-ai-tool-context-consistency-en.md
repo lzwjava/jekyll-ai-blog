@@ -59,7 +59,7 @@ It’s not that you should *never* use the terminal.
 
 The better mental model is:
 
-#### Use AI tools for:
+#### Use AI tools for
 
 * Refactoring
 * Renaming files/modules
@@ -67,7 +67,7 @@ The better mental model is:
 * Code understanding + navigation
 * Anything where context matters
 
-#### Use terminal for:
+#### Use terminal for
 
 * Git operations (commit, branch, diff)
 * Running builds/tests

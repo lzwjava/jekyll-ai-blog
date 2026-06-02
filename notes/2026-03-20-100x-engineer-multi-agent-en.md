@@ -40,6 +40,7 @@ Auto merge + deploy
 This is the **brain** — the only layer that talks to you directly.
 
 **What it does:**
+
 - Takes your one-line instruction
 - Breaks it into atomic, independent tasks
 - Each task must be: self-contained, have clear success criteria, have no dependency on another in-progress task
@@ -47,6 +48,7 @@ This is the **brain** — the only layer that talks to you directly.
 - Monitors for dead loops and escalates
 
 **How to build it:**
+
 ```python
 # Orchestrator prompt pattern
 system = """
@@ -72,6 +74,7 @@ Output format: JSON array of tasks
 Each agent is **identical** — no dev agent, no test agent. Just an agent with all tools.
 
 **What an agent has:**
+
 ```
 - Full codebase access (read/write)
 - Terminal access (run commands)
@@ -82,6 +85,7 @@ Each agent is **identical** — no dev agent, no test agent. Just an agent with 
 ```
 
 **Agent loop:**
+
 ```
 1. Receive task + context
 2. Read relevant files
@@ -103,6 +107,7 @@ Each agent is **identical** — no dev agent, no test agent. Just an agent with 
 This is where 100x actually happens — **pure parallel execution.**
 
 **Implementation:**
+
 ```python
 # Simple task queue
 task_queue = [
@@ -120,6 +125,7 @@ for task in task_queue:
 **Key insight:** Three to seven agents work best for most workflows — below three you are probably fine with a single agent, above seven the coordination complexity outweighs the benefits unless you use hierarchical structures.
 
 **Each agent gets its own:**
+
 - Git branch
 - Sandbox environment
 - Context window (fresh, no pollution from other agents)
@@ -131,6 +137,7 @@ for task in task_queue:
 This is the most critical human-value layer — **the only reason you exist in this system.**
 
 **What a dead loop looks like:**
+
 ```
 Agent tries solution A → fails
 Agent tries solution B → fails
@@ -140,6 +147,7 @@ Agent tries solution D → variation of B → fails
 ```
 
 **How to detect it:**
+
 ```python
 def detect_loop(agent_history):
     # Check if last N attempts are semantically similar
@@ -151,6 +159,7 @@ def detect_loop(agent_history):
 ```
 
 **What escalation looks like:**
+
 ```
 [IM Notification]
 🚨 Agent t3 is stuck
@@ -173,6 +182,7 @@ Persistent challenges such as non-determinism and agents getting stuck in repeti
 You **never check dashboards.** The system talks to you.
 
 **Channels:**
+
 - Telegram Bot (simplest)
 - Slack Bot
 - WhatsApp via Twilio
@@ -189,6 +199,7 @@ You **never check dashboards.** The system talks to you.
 | 📋 **Daily Summary** | End of day | Read or ignore |
 
 **Implementation:**
+
 ```python
 async def notify_human(type, agent_id, context):
     message = format_message(type, agent_id, context)
@@ -206,6 +217,7 @@ async def notify_human(type, agent_id, context):
 Agents must **never be blocked by permissions.** This is what kills flow.
 
 **What agents need access to:**
+
 ```yaml
 permissions:
   - git: read/write all repos
@@ -218,6 +230,7 @@ permissions:
 ```
 
 **Security model:**
+
 - Full permissions on **staging/dev** — never production
 - Production deploy requires one human confirmation (single IM reply)
 - All agent actions are logged for audit

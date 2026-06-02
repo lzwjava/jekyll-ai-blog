@@ -17,21 +17,21 @@ type: note
 
 ### Why Music Helps Sometimes
 
-1.  **Arousal and Mood:** 音乐，尤其是 upbeat 或 familiar 的曲调，可以提高你的生理唤醒水平。它让你清醒过来，提升心情，让枯燥或繁琐的任务变得更有趣。这可以带来更高的生产力和持久性。
-2.  **Noise Masking:** 音乐可以充当“声音毯”，掩盖环境中间歇性和干扰性的噪音（人们说话、交通、施工）。它用可预测的声音取代不可预测的声音，这更不容易分散注意力。
-3.  **The "Flow" State:** 对于重复性或已熟练掌握的任务，音乐可以通过提供稳定的节奏背景帮助你进入“flow”状态，让大脑保持参与而不需 conscious effort。
+1. **Arousal and Mood:** 音乐，尤其是 upbeat 或 familiar 的曲调，可以提高你的生理唤醒水平。它让你清醒过来，提升心情，让枯燥或繁琐的任务变得更有趣。这可以带来更高的生产力和持久性。
+2. **Noise Masking:** 音乐可以充当“声音毯”，掩盖环境中间歇性和干扰性的噪音（人们说话、交通、施工）。它用可预测的声音取代不可预测的声音，这更不容易分散注意力。
+3. **The "Flow" State:** 对于重复性或已熟练掌握的任务，音乐可以通过提供稳定的节奏背景帮助你进入“flow”状态，让大脑保持参与而不需 conscious effort。
 
 ### Why Music is Disturbing Sometimes
 
 这是解释你第二种感觉的关键部分。
 
-1.  **The Language Conflict (Verbal Overload):** 这是最大因素。如果你正在**reading, writing, or coding**，你正在使用大脑的**verbal centers**。如果你听带有**with lyrics**的音乐，你也在激活相同的 verbal centers。你的大脑现在需要同时处理两条语言流。这就像同时进行两次对话。你的大脑会不由自主地将注意力转向歌词，从而从工作中拉走焦点。
+1. **The Language Conflict (Verbal Overload):** 这是最大因素。如果你正在**reading, writing, or coding**，你正在使用大脑的**verbal centers**。如果你听带有**with lyrics**的音乐，你也在激活相同的 verbal centers。你的大脑现在需要同时处理两条语言流。这就像同时进行两次对话。你的大脑会不由自主地将注意力转向歌词，从而从工作中拉走焦点。
     - **Coding** 涉及“阅读”代码，这是一种语言处理形式。歌词会直接干扰。
     - **Learning/Reading** 是纯粹的语言处理。歌词极具破坏性。
 
-2.  **Novelty and Surprise:** 我们的大脑天生会关注新奇和意外的刺激。当新歌开始，或节奏、速度或特别吸引人的 hook 变化时，你大脑的注意力过滤器会检测到这种新奇，并短暂地将焦点转移到它上面。这会造成“micro-distraction”，打断你的集中力。每次中断后，可能需要几分钟才能恢复到之前的专注水平。
+2. **Novelty and Surprise:** 我们的大脑天生会关注新奇和意外的刺激。当新歌开始，或节奏、速度或特别吸引人的 hook 变化时，你大脑的注意力过滤器会检测到这种新奇，并短暂地将焦点转移到它上面。这会造成“micro-distraction”，打断你的集中力。每次中断后，可能需要几分钟才能恢复到之前的专注水平。
 
-3.  **Working Memory Overload:** 你的 working memory 是你持有和操纵信息的精神空间，它容量有限。音乐，尤其是复杂或吸引人的音乐，会占用部分容量。当你从事困难、复杂的工作时，你需要每一丝 working memory。音乐就会变成认知“clutter”，让任务感觉更难。
+3. **Working Memory Overload:** 你的 working memory 是你持有和操纵信息的精神空间，它容量有限。音乐，尤其是复杂或吸引人的音乐，会占用部分容量。当你从事困难、复杂的工作时，你需要每一丝 working memory。音乐就会变成认知“clutter”，让任务感觉更难。
 
 ### Strategies to Get the Best of Both Worlds
 
@@ -40,12 +40,12 @@ type: note
 **1. Match the Music to the Task:**
 
 - **For High-Focus, Language-Heavy Tasks (Learning, Reading, Complex Coding):** 这是你需要最小化干扰的时候。
-    - **Go Instrumental:** 听无歌词的音乐。这提供心情提升和噪音掩盖的好处，而无 verbal conflict。
-        - **Genres:** Classical、ambient、lo-fi hip-hop（“beats to study/relax to”类型）、post-rock、jazz、video game soundtracks（专门设计为吸引人但不分散注意力），或自然声音。
-        - **Video game soundtracks are often perfect**，因为它们被设计为让你在游戏中玩数小时而不分散注意力。
+  - **Go Instrumental:** 听无歌词的音乐。这提供心情提升和噪音掩盖的好处，而无 verbal conflict。
+    - **Genres:** Classical、ambient、lo-fi hip-hop（“beats to study/relax to”类型）、post-rock、jazz、video game soundtracks（专门设计为吸引人但不分散注意力），或自然声音。
+    - **Video game soundtracks are often perfect**，因为它们被设计为让你在游戏中玩数小时而不分散注意力。
 
 - **For Lower-Focus, Repetitive, or Boring Tasks (Data entry, organizing files, routine email, chores):**
-    - **Go with Familiar, Upbeat Music.** 这里你可以享受喜欢的 pop、rock 或 electronic 音乐。因为任务不需要深度思考，音乐有助于唤醒和心情，而不会显著损害表现。
+  - **Go with Familiar, Upbeat Music.** 这里你可以享受喜欢的 pop、rock 或 electronic 音乐。因为任务不需要深度思考，音乐有助于唤醒和心情，而不会显著损害表现。
 
 **2. Use Music Strategically, Not Constantly:**
 

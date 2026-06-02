@@ -27,6 +27,7 @@ Assuming "ABC bank" refers to the Agricultural Bank of China (a major state-owne
 | **Bank of Lanzhou (smaller regional bank)** | Yes | September 5, 2019 | Early adopter among regionals; all its ATMs support QR withdrawals via app. Limit CNY 5,000 per transaction, CNY 20,000 daily; 0.3% fee applies. |
 
 #### General Notes
+
 - **Availability**: By 2025, over 90% of major banks' ATMs in urban areas (e.g., Beijing, Shanghai, Shenzhen) support this via the UnionPay network. Rural coverage is growing but may vary. Look for "UnionPay QR Withdrawal" stickers on machines.
 - **How It Works (Standard Process)**: 1) Open bank app, select withdrawal amount/account. 2) Generate/confirm request (valid for ~30–60 minutes). 3) At ATM, select QR option to display code. 4) Scan with app, enter PIN, collect cash.
 - **Requirements**: Active mobile banking app, linked debit/credit card, and UnionPay-enabled account. Foreign cards may work at select ATMs but with limits (e.g., CNY 10,000 daily overseas cap).
@@ -36,6 +37,7 @@ Assuming "ABC bank" refers to the Agricultural Bank of China (a major state-owne
 For the latest, check your bank's app or UnionPay's ATM locator. If traveling, notify your bank to avoid fraud flags.
 
 #### References
+
 - [ICBC Launches QR Code Withdrawal Service](https://www.icbc.com.cn/icbc/en/newsupdates/icbc%20news/ICBCLaunchesQRCodeWithdrawalService.htm)
 - [Bank of Lanzhou Rolls out QR Code Withdrawals](https://www.yicaiglobal.com/news/bank-of-lanzhou-rolls-out-qr-code-withdrawals-at-atms-negates-need-for-debit-card)
 - [CCB UnionPay QRC Withdrawal](https://www.asia.ccb.com/hongkong/personal/banking_channels/cardless-withdrawal.html)

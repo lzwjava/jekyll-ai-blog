@@ -13,60 +13,65 @@ type: note
 然而，根据来自 Maven Repository、社区讨论以及截至 2025 年的行业趋势等可用信息，我可以提供一个精选的、最流行和最具影响力的 Maven Java 软件包列表。此列表优先考虑那些被广泛下载（基于历史数据和仓库突出性）并具有显著影响力（基于它们在开源项目中的使用、企业采用情况和开发者调查）的库和框架。由于没有专有数据无法提供包含精确排名的完整 100 个软件包列表，我将提供一个包含 50 个关键软件包的选择，按类别分组，并解释其突出性。如果您需要剩余的 50 个或特定子集，我可以进一步优化列表。[](https://mvnrepository.com/popular)[](https://mvnrepository.com/)[](https://codegym.cc/groups/posts/18463-java-in-2023-version-releases-popularity-and-future-trends)
 
 ### 方法论
+
 - **下载量**：从 Maven Repository 列表推断，其中像 `junit`、`slf4j` 和 `commons-lang` 这样的软件包 consistently 显示为顶级构件，并且来自社区讨论，指出像 `guava` 和 `spring` 这样的库具有高下载量。[](https://mvnrepository.com/popular)[](https://www.reddit.com/r/java/comments/3u9sf0/why_no_public_stats_on_maven/)
 - **影响力**：通过开源项目中的使用情况（例如 GitHub 依赖项）、开发者调查（例如 JetBrains 的 2023 年报告指出 Spring 和 Maven 的主导地位）以及它们在关键 Java 生态系统（例如日志记录、测试、Web 框架）中的作用进行评估。[](https://codegym.cc/groups/posts/18463-java-in-2023-version-releases-popularity-and-future-trends)
 - **来源**：Maven Repository、Stack Overflow、Reddit 和开发者博客提供了对流行构件的部分见解。[](https://mvnrepository.com/popular)[](https://stackoverflow.com/questions/57960511/maven-artifact-how-to-obtain-all-statistics-not-only-download-on-maven-centra)[](https://www.reddit.com/r/java/comments/3u9sf0/why_no_public_stats_on_maven/)
 - **局限性**：由于无法访问实时或历史数据，排名是近似的，基于截至 2025 年的趋势和模式。闭源使用和私有仓库未计入。[](https://www.reddit.com/r/java/comments/3u9sf0/why_no_public_stats_on_maven/)
 
 ### 顶级 Maven Java 软件包 (2025)
+
 以下是 50 个 prominent Maven Java 软件包的列表，按功能分组，并基于其估计下载量和影响力进行近似排名。每个条目包括 Maven 坐标 (`groupId:artifactId`) 及其作用和突出性的简要说明。
 
 #### 测试框架
-1.  **junit:junit**
+
+1. **junit:junit**
     - Apache License 2.0)
     - 单元测试框架，是 Java 开发的基础。在开源和企业项目中无处不在。由于默认包含在许多构建配置中，下载量很高。
     - *影响力：广泛用于几乎每个 Java 项目的单元测试。*
     -[](https://www.reddit.com/r/java/comments/3u9sf0/why_no_public_stats_on_maven/)
 
-2.  **org.junit.jupiter:junit-jupiter-api**
+2. **org.junit.jupiter:junit-jupiter-api**
     - 现代 JUnit 5 API，因其模块化设计而获得关注。在新项目中被广泛采用。
     - *影响力：高，尤其是在使用 Java 8+ 的项目中。*
     -[](https://www.reddit.com/r/java/comments/3u9sf0/why_no_public_stats_on_maven/)
 
-3.  **org.mockito:mockito-core**
+3. **org.mockito:mockito-core**
     - 用于单元测试的 Mocking 框架。对于测试复杂应用程序至关重要。
     - *影响力：高，用于企业和开源项目中的行为驱动开发。*
     -[](https://central.sonatype.com/)
 
-4.  **org.hamcrest:hamcrest**
+4. **org.hamcrest:hamcrest**
     - 增强测试可读性的匹配器库。通常与 JUnit 配对使用。
     - *影响力：高，但随着 JUnit 5 内置断言的出现略有下降。*
     -[](https://mvnrepository.com/popular)
 
-5.  **org.assertj:assertj:assertj-core**
+5. **org.assertj:assertj:assertj-core**
     - 流畅的断言库，以可读的测试代码而流行。
     - *影响力：中等，在现代 Java 项目中增长。*
 
 #### 日志框架
-6.  **org.slf4j:slf4j-api** (MIT License)
+
+6. **org.slf4j:slf4j-api** (MIT License)
     - Java 的简单日志门面，一个标准的日志接口。几乎被普遍采用。
     - *影响力：关键，用于大多数 Java 应用程序的日志记录。*
     -[](https://mvnrepository.com/popular)
 
-7.  **ch.qos.logback:logback-classic**
+7. **ch.qos.logback:logback-classic**
     - SLF4J 的 Logback 实现，因其性能而被广泛使用。
     - *影响力：高，是许多 Spring 项目的默认选择。*
 
-8.  **org.apache.logging.log4j:log4j-api**
+8. **org.apache.logging.log4j:log4j-api**
     - Log4j 2 API，以高性能和异步日志记录而闻名。
     - *影响力：高，尤其是在 2021 年 Log4j 漏洞后的安全修复之后。*
     -[](https://www.geeksforgeeks.org/devops/apache-maven/)
 
-9.  **org.apache.logging.log4j:log4j-core**
+9. **org.apache.logging.log4j:log4j-core**
     - Log4j 2 的核心实现，与 `log4j-api` 配对使用。
     - *影响力：高，但因历史漏洞而受到审查。*
 
 #### 工具库
+
 10. **org.apache.commons:commons-lang3** (Apache License 2.0)
     - 用于 `java.lang` 的工具类，广泛用于字符串操作等。
     - *影响力：非常高，在 Java 项目中近乎标准。*
@@ -94,6 +99,7 @@ type: note
     - *影响力：高，对于基于 JSON 的应用程序至关重要。*
 
 #### Web 框架
+
 16. **org.springframework:spring-webmvc**
     - 用于 Web 应用程序的 Spring MVC，在企业级 Java 中占主导地位。
     - *影响力：非常高，被 39% 的 Java 开发者使用（2023 年数据）。*
@@ -118,6 +124,7 @@ type: note
     - *影响力：高，但随着 Jakarta EE 等较新 API 的出现而下降。*
 
 #### 数据库和持久化
+
 21. **org.hibernate:hibernate-core**
     - 用于数据库持久化的 Hibernate ORM，广泛用于企业应用程序。
     - *影响力：非常高，是 JPA 实现的标准。*
@@ -140,6 +147,7 @@ type: note
     - *影响力：高，是 Spring Boot 测试的默认选择。*
 
 #### 构建和依赖管理
+
 26. **org.apache.maven.plugins:maven-compiler-plugin**
     - 编译 Java 源代码，是核心 Maven 插件。
     - *影响力：非常高，用于每个 Maven 项目。*
@@ -166,6 +174,7 @@ type: note
     -[](https://medium.com/%40AlexanderObregon/top-10-essential-maven-plugins-for-java-projects-a85b26a4de31)
 
 #### HTTP 客户端和网络
+
 31. **org.apache.httpcomponents:httpclient**
     - 用于 HTTP 请求的 Apache HttpClient，广泛用于 API。
     - *影响力：高，是 HTTP 通信的标准。*
@@ -179,6 +188,7 @@ type: note
     - *影响力：高，对像 Spring WebFlux 这样的项目至关重要。*
 
 #### 依赖注入
+
 34. **com.google.inject:guice**
     - Google 的依赖注入框架，是 Spring 的轻量级替代方案。
     - *影响力：中等，用于特定的生态系统。*
@@ -188,6 +198,7 @@ type: note
     - *影响力：高，是 Spring 应用程序不可或缺的一部分。*
 
 #### 代码质量和覆盖率
+
 36. **org.jacoco:jacoco-maven-plugin**
     - 代码覆盖率工具，广泛用于测试质量。
     - *影响力：高，是 CI/CD 流水线的标准。*
@@ -199,6 +210,7 @@ type: note
     -[](https://medium.com/%40AlexanderObregon/top-10-essential-maven-plugins-for-java-projects-a85b26a4de31)
 
 #### 序列化和数据格式
+
 38. **com.google.protobuf:protobuf-java**
     - 用于高效序列化的 Protocol Buffers，在 gRPC 中使用。
     - *影响力：高，在微服务中增长。*
@@ -208,6 +220,7 @@ type: note
     - *影响力：高，是基于 YAML 配置的标准。*
 
 #### 异步编程
+
 40. **io.reactivex.rxjava2:rxjava**
     - 响应式编程库，用于事件驱动的应用程序。
     - *影响力：高，在 Android 和微服务中很受欢迎。*
@@ -217,6 +230,7 @@ type: note
     - *影响力：中等，用于像 Spring WebFlux 这样的框架中。*
 
 #### 其他
+
 42. **org.jetbrains.kotlin:kotlin-stdlib** (Apache License 2.0)
     - Kotlin 标准库，对 Java-Kotlin 互操作至关重要。
     - *影响力：高，随着 Kotlin 的采用而增长。*
@@ -256,12 +270,14 @@ type: note
     - *影响力：中等，在注重安全性的应用程序中至关重要。*
 
 ### 说明
+
 - **排名近似**：像 `junit`、`slf4j-api` 和 `spring-webmvc` 这样的软件包由于普遍采用，从 Maven Repository 的突出性和开发者调查推断，排名靠前。其他像 `lombok` 和 `okhttp` 排名较低但因现代趋势而上升。[](https://mvnrepository.com/popular)[](https://codegym.cc/groups/posts/18463-java-in-2023-version-releases-popularity-and-future-trends)
 - **影响力指标**：像 `spring-core` 和 `hibernate-core` 这样的库由于在企业生态系统中的作用而具有高影响力，而 `guava` 和 `commons-lang3` 则因其在项目中的通用性而具有影响力。
 - **缺失数据**：确切的下载计数不可用，排名依赖于定性趋势。对于精确数据，像 Nexus 或 Libraries.io 这样的工具可以提供见解，但需要访问权限。[](https://stackoverflow.com/questions/57960511/maven-artifact-how-to-obtain-all-statistics-not-only-download-on-maven-centra)[](https://awesomeopensource.com/projects/maven-plugin)
 - **扩展到 100**：额外的软件包可能包括利基库（例如 `aws-sdk-java`、`selenium-java`）或插件（例如 `jetty-maven-plugin`），但如果没有数据，它们的排名将是推测性的。[](https://www.tabnine.com/blog/8-essential-maven-plugins-beyond-the-core/)
 
 ### 建议
+
 - 要探索确切的下载统计数据，请通过像 Nexus 这样的仓库管理器检查 Maven Central，或使用像 Libraries.io 这样的工具来获取依赖关系图。[](https://stackoverflow.com/questions/57960511/maven-artifact-how-to-obtain-all-statistics-not-only-download-on-maven-centra)[](https://awesomeopensource.com/projects/maven-plugin)
 - 对于实时趋势，请监控 GitHub 仓库或 Stack Overflow 标签以了解库的使用情况。
 - 如果您需要接下来的 50 个软件包或特定类别（例如安全、云），请告诉我，我可以根据您的要求确定优先级。

@@ -18,6 +18,7 @@ Yes, reading is one of the most powerful (and proven) ways to improve your Engli
 Here are practical, step-by-step methods ranked from easiest (but still useful) to more powerful (but requiring more effort):
 
 ### 1. Read a lot + Read like a writer (the foundation)
+
 - Read **widely and regularly** (fiction, articles, essays, Reddit posts, newsletters, good blogs — whatever interests you).
 - Pay attention to:
   - Vocabulary choices (why "shouted" instead of "said"?)
@@ -28,6 +29,7 @@ Here are practical, step-by-step methods ranked from easiest (but still useful) 
 - Even without writing anything, this subconscious absorption improves your "feel" for natural English over months/years.
 
 ### 2. "Think about how to write it" — upgraded versions
+
 Instead of just thinking vaguely, use one of these more focused techniques after each reading session:
 
 - **Rewrite short sections in your own words** (very effective)
@@ -46,7 +48,9 @@ Instead of just thinking vaguely, use one of these more focused techniques after
   - Write 5–10 new sentences that follow exactly the same grammatical structure but with different content.
 
 ### 3. Active reading + annotation habits
+
 While reading:
+
 - Highlight / underline 3 types of things:
   - Great vocabulary & phrases
   - Clever sentence openings / endings
@@ -55,7 +59,9 @@ While reading:
 - After finishing a chapter/article, write 3–5 sentences summarizing what techniques you noticed.
 
 ### 4. Reading journal / writer's notebook (highly recommended)
+
 Keep a simple notebook (digital or paper):
+
 - After reading, write:
   - 1–2 favorite sentences + why you like them
   - 1 new phrase / collocation you learned
@@ -63,6 +69,7 @@ Keep a simple notebook (digital or paper):
 - Review old entries every 2–3 weeks — you'll see your taste and writing awareness improve.
 
 ### Quick daily routine example (15–30 minutes)
+
 1. Read 10–20 pages / 1–2 short articles.
 2. Pick **one** paragraph or 2–3 sentences you liked.
 3. Do **one** of:
@@ -72,6 +79,7 @@ Keep a simple notebook (digital or paper):
 4. Repeat daily or 5–6 days/week.
 
 ### Important tips
+
 - Start with materials that are **slightly above** your current level (not too easy, not impossibly hard).
 - Focus more on **modern, clear writers** at first (newspaper columnists, essayists like David Sedaris, George Orwell, good bloggers) rather than very old or extremely literary styles.
 - Combine with actual output: the fastest progress happens when you **also write regularly** (journal, Reddit comments, essays, stories).

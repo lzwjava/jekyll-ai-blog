@@ -26,6 +26,7 @@ HSBC uses an internal grading system (GCB — Global Career Band), so "Principal
 | **Total comp** | ~£100K | **~£140–150K** | £190K+ |
 
 Key data points:
+
 - HSBC Software Engineer total comp in London ranges from £45.3K (GCB6) to £190K (GCB3), with a median of £121K across all levels.
 - Comparably estimates average HSBC Principal Engineer total comp at ~$169K USD, comprising ~$142K base + ~$27K bonus, with a range of $58K–$445K depending on level and location.
 - For Senior SWE (one level below Principal) in London, Glassdoor shows average base of £95K and total comp of £75K–£129K.

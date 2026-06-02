@@ -19,6 +19,7 @@ Yes, **insisting on perfect justice and fairness in every situation often leads 
 Here are the main realistic patterns observed in people who strongly pursue justice/fairness:
 
 ### High-risk path (frequent outcome = suffering)
+
 - Treat every injustice (personal or observed) as something that **must** be fixed right now.
 - Expect society, institutions, family, friends, workplaces to become substantially fairer within a short-to-medium time horizon.
 - Experience almost every day as moral disappointment → chronic anger → resentment → burnout → cynicism → depression.
@@ -26,6 +27,7 @@ Here are the main realistic patterns observed in people who strongly pursue just
 This pattern is very common among people who score very high on justice-sensitivity (especially “victim sensitivity” and “observer sensitivity”).
 
 ### Lower-risk but still honest path (difficult but sustainable)
+
 Adopt one or more of these attitudes / practices:
 
 1. **Distinguish between what is in my circle of control vs. circle of concern**
@@ -46,6 +48,7 @@ Adopt one or more of these attitudes / practices:
    Most people want fairness *for themselves* far more than they want universal fairness. Realizing this reduces naive shock and outrage.
 
 ### Empirical observation
+
 People who stay mentally healthy for decades while caring deeply about justice usually do **at least three** of the following simultaneously:
 
 - They act (they don’t only complain)
@@ -55,6 +58,7 @@ People who stay mentally healthy for decades while caring deeply about justice u
 - They find a small but real community that shares the value (greatly reduces loneliness)
 
 ### Short summary
+
 Insisting on justice does make life objectively harder — you see more clearly, you feel more, you collide with reality more often.
 But whether it makes life **unhappy / depressed in the long run** depends mostly on whether you let fairness become your **only lens** or whether you also cultivate other equally real lenses (love, curiosity, beauty, humor, contribution, awe, play…).
 

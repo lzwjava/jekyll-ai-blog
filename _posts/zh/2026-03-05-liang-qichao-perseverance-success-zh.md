@@ -66,6 +66,6 @@ type: note
 
 **参考文献：**
 
-- https://m.guwendao.net/shiwenv_83d17b258af9.aspx
-- http://set.baidu.com/view/fb125e4ad25abe23482fb4daa58da0116d171f75.html
-- https://wk.baidu.com/view/a28a49f9aef8941ea76e0589
+- <https://m.guwendao.net/shiwenv_83d17b258af9.aspx>
+- <http://set.baidu.com/view/fb125e4ad25abe23482fb4daa58da0116d171f75.html>
+- <https://wk.baidu.com/view/a28a49f9aef8941ea76e0589>

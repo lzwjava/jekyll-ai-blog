@@ -17,14 +17,18 @@ Answer:
 The **LinkedIn mobile app** is the official application for LinkedIn, the world's largest professional networking platform. It allows users to access most features of the LinkedIn website directly from their smartphones (available on iOS and Android), making it convenient to manage your professional identity, network, search for jobs, and stay updated on industry news while on the go.
 
 ### Core Purpose
+
 LinkedIn focuses on professional networking rather than casual social media. The app helps you:
+
 - Build and maintain your professional network
 - Discover job opportunities
 - Share and consume career-related content
 - Connect with colleagues, recruiters, and industry experts
 
 ### Main Navigation (as of recent versions)
+
 The app typically features a bottom navigation bar with these key sections:
+
 - **Home / Feed**: Shows personalized content from your network, including posts, articles, job recommendations, and updates from connections and companies you follow. In recent years, it has evolved to include more short-form vertical videos and a dedicated video feed for mobile users.
 - **My Network**: View connection requests, suggested people to connect with, and manage your existing connections.
 - **Jobs**: Search and apply for millions of job openings, save jobs, track applications, and get job alerts based on your profile and preferences.
@@ -34,6 +38,7 @@ The app typically features a bottom navigation bar with these key sections:
 Additional features often appear via a search icon or more menu.
 
 ### Key Features of the LinkedIn App
+
 - **Profile Management**: Update your professional headline, experience, skills, education, add a profile photo (with optional video/intro clip), and record name pronunciation (mobile-exclusive in some cases).
 - **Job Searching & Applications**: Filter jobs by location, experience level, company, and more; apply directly with your profile as a resume; receive personalized job recommendations.
 - **Content & Engagement**: Post updates, articles, or short videos; comment, like, and share content; follow influencers, companies, and hashtags.
@@ -42,6 +47,7 @@ Additional features often appear via a search icon or more menu.
 - **Recent Enhancements (around 2025–2026)**: Full-screen vertical video experience, short-form video posting and feed, identity/workplace verification badges for trust, in-app games (e.g., Mini Sudoku), AI-powered personalization, and better privacy controls for data usage in AI training.
 
 ### Who Uses It?
+
 Over 1 billion members worldwide use LinkedIn, with the mobile app being especially popular for daily quick checks — reading news, responding to messages, job hunting, or posting updates during commutes or breaks.
 
 To get started, download the "LinkedIn: Network & Job Finder" app from the App Store (iOS) or Google Play (Android), sign up with an email or Google/Apple account, and build your profile.

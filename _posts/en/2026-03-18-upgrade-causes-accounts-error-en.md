@@ -16,6 +16,7 @@ type: note
 The upgrade to version 2.1.78 (as shown in the example in the project's upgrade guide) pulled in recent changes from the main branch of the claude-relay-service. These updates include significant improvements to account routing, error handling, cooldown logic, and validation rules. This is the most likely cause of the sudden "no available accounts" error appearing only in the "Claude Max" group.
 
 Key changes that triggered the issue (based on the latest releases around March 2026):
+
 - Account blocking reasons are now surfaced clearly in the UI (previously hidden or misdiagnosed).
 - Fixes for false 429 rate-limit flagging and 503 backoff behavior, plus configurable cooldown TTLs.
 - Updates to how team accounts, 1M context flags (`allow1mContext`), and free-tier misidentification are handled — these can suddenly mark previously working accounts as unavailable.
@@ -26,6 +27,7 @@ Key changes that triggered the issue (based on the latest releases around March 
 The dashboard you shared shows very low usage ($0.1052 today) and recent timestamps (03/18/2026), which matches a fresh post-upgrade state where accounts may have been auto-flagged during the restart.
 
 **How to fix it quickly:**
+
 1. Go to the web management UI (usually `/web` on your server).
 2. Select the "Claude Max" group → check the "routing-block reasons" column (it now shows exact error type, status code, and remaining cooldown).
 3. Click "Reset Status" on affected accounts.
@@ -37,5 +39,6 @@ If the block reasons point to upstream Anthropic errors, you may need to add per
 This is a common post-upgrade behavior after the March 2026 account-management refactor; it is not a bug in your setup.
 
 **References:**
+
 - [https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md](https://github.com/Wei-Shaw/claude-relay-service/blob/main/README_EN.md)
 - [https://github.com/Wei-Shaw/claude-relay-service/releases](https://github.com/Wei-Shaw/claude-relay-service/releases)

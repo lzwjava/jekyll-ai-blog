@@ -26,6 +26,7 @@ X平台上近期出现的“something big is happening”（正在发生大事�
 该文章据称已获得数千万次阅读（部分数据称超过8亿），并引发了广泛讨论、解读、回应及批评（如“炒作与现实”的对比、缺乏大规模失业的直接数据等）。近期X平台上许多帖文直接引用该文章，或在AI、加密货币或“重大转变”等语境中使用这一短语。
 
 此外，X平台上今日其他使用该短语的内容多为零散场景：
+
 - 政治/地缘政治评论（如势头积聚、“正在发生某些变化”等模糊表述）。
 - 加密货币宣传（如区块链AI项目或奖励活动）。
 - 对特斯拉/柏林超级工厂招聘成功或其他无关新闻的回复。
@@ -33,5 +34,6 @@ X平台上近期出现的“something big is happening”（正在发生大事�
 目前尚无单一“热门”突发新闻推文以该短语主导；与之关联度最高的持续热点，仍是Matt Shumer本月早些时候发布的AI警示文章。
 
 参考链接：
+
 - [Something big is happening in AI — and most people will be blindsided | Fortune](https://fortune.com/2026/02/11/something-big-is-happening-ai-february-2020-moment-matt-shumer)
 - [Why is “Something Big Is Happening” Trending Today? | IT Jobs at Risk? Matt Shumer Warning | AI News (YouTube)](https://www.youtube.com/watch?v=Twzlk4flhFo)

@@ -18,13 +18,15 @@ Juzhixianwei, often shortened to "xianwei" in casual Chinese usage, refers to **
 
 Polyester excels in quick-dry applications because it absorbs very little moisture (only about 0.4% of its weight, compared to cotton's 8-10%). This makes it ideal for activewear, travel clothes, and gym gear—sweat evaporates fast, keeping you dry. However, it's not perfect for everyone.
 
-#### Pros:
+#### Pros
+
 - **Super fast drying**: Dries in hours, even after a wash or sweat session—great for packing light or humid climates.
 - **Durable and low-maintenance**: Resists wrinkles, stretches well, and holds shape after repeated washes. It's tough against abrasion and pilling (if high-quality).
 - **Affordable and versatile**: Blends easily with other fibers (e.g., nylon or spandex) for added stretch or softness.
 - **UV and color protection**: Retains vibrant colors and offers some sun protection.
 
-#### Cons:
+#### Cons
+
 - **Poor breathability**: Traps heat and moisture against the skin, which can feel clammy in hot/humid weather (better for cool/dry conditions).
 - **Odor retention**: Bacteria love the synthetic environment, so it can smell musty faster than natural fibers—wash with vinegar or use odor-control treatments.
 - **Environmental impact**: Derived from fossil fuels, sheds microplastics during washing (harming oceans), and isn't biodegradable.
@@ -36,7 +38,8 @@ Overall, it's a **solid choice for quick-dry clothes** if you're prioritizing pe
 
 Uniqlo heavily features polyester in lines like **AIRism** (ultra-light base layers) and **DRY-EX** (athletic tees/shorts). These are engineered for quick-dry tech: moisture-wicking, anti-odor, and cooling. AIRism, for example, uses polyester with added minerals for a "cool-to-touch" effect.
 
-#### User Reviews and Performance:
+#### User Reviews and Performance
+
 - **Quick-dry magic**: Users rave about staying dry during workouts or hot days—e.g., "game changer for sweat-free commutes" or "dries in under an hour."
 - **Comfort and fit**: Slim, stretchy, and affordable ($10-20 per tee). Great for travel: packs small, no ironing.
 - **Drawbacks noted**: Can get smelly after a few wears (polyester issue), and some recent batches feel "sandpapery" (quality dip?). Not as breathable as merino wool for all-day heat.
@@ -47,6 +50,7 @@ Uniqlo's polyester stuff is reliable and innovative for the price—millions swe
 In summary, yes—polyester (juzhixianwei) is a **good material for quick-dry clothes**, especially in Uniqlo's hands. It's practical and effective, but pair it with natural fibers for better all-around wear.
 
 ### References
+
 - [What is polyester? Pros and cons](https://www.houseofu.com/en/blog/what-is-polyester-pros-and-cons/)
 - [Quick Dry Fabric 101](https://ariaprene.com/blog/quick-dry-fabric-101-what-you-need-to-know-about-quick-dry-fabric/)
 - [Pros and Cons of Polyester Fabric](https://perfectextile.com/blogs/pros-and-cons-of-polyester/)

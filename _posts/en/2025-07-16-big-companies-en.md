@@ -32,7 +32,6 @@ type: post
    - AI tools augment individual contributions
    - Mismatched expectations derail project success
 
-
 ### On Big Companies
 
 Big companies are just like big programs. For a big company with 100,000 employees and 50,000 contractors, they are just like a big program with 150,000 methods.

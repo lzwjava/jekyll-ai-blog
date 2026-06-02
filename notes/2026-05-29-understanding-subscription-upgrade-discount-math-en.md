@@ -16,15 +16,18 @@ Answer:
 You're looking at a **subscription upgrade scenario** with a mid-month discount offer. Here's the breakdown:
 
 **Current State:**
+
 - Plan: Pro, Monthly, ¥329/month
 - Estimated remaining value on current cycle: ¥311.70 (prorated)
 
 **The Offer:**
+
 - Upgrade to same plan (Pro, Monthly) but enable **auto-renewal at 23% discount**
 - New price: ¥253.33/month (¥329 × 0.77)
 - Takes effect immediately upon acceptance
 
 **The Math:**
+
 ```
 Remaining value of current plan:  ¥311.70 (unused portion)
 New plan cost (prorated to end):  ¥253.33
@@ -36,6 +39,7 @@ Shown as:  "¥ -58.37/month" (negative = credit in your favor)
 So you're essentially trading your current monthly plan for the auto-renewal discounted version, and Xiaomi credits you ¥58.37 (the difference) to your account balance.
 
 **Key Terms (summary):**
+
 - Auto-renewal happens automatically each month unless you disable it
 - You can cancel anytime in the subscription management page
 - Only one plan active per account at a time

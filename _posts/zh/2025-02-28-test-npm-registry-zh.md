@@ -19,6 +19,7 @@ type: note
 大多数 NPM 注册表使用基于令牌的身份验证，要求你先登录获取令牌，然后才能进行后续请求。某些注册表也可能直接支持基本身份验证。以下是使用 `curl` 进行身份验证的方法：
 
 #### 使用 `curl` 登录
+
 向注册表的身份验证端点发送 PUT 请求以获取令牌：
 
 ```bash
@@ -33,11 +34,13 @@ curl -X PUT \
   - `<密码>`：你的注册表密码。
   - `<注册表URL>`：你的注册表的完整 URL（例如 `https://my-registry.example.com`）。
 - **预期响应**：如果成功，你将收到一个包含令牌的 JSON 响应：
+
   ```json
   {
     "token": "你的身份验证令牌"
   }
   ```
+
 - **保存令牌**：复制 `你的身份验证令牌` 值，用于后续请求。
 
 **注意**：如果你的注册表使用不同的身份验证端点或方法（例如基本身份验证或自定义 API），请查阅其文档。如果它直接支持基本身份验证，你可以跳过此步骤，并在后续请求中改用 `-u "<用户名>:<密码>"`。
@@ -49,6 +52,7 @@ curl -X PUT \
 通过向注册表的根 URL 或 ping 端点发送 GET 请求来测试基本连接性。
 
 #### 使用 `curl` 执行 Ping 操作
+
 ```bash
 curl -H "Authorization: Bearer 你的身份验证令牌" <注册表URL>
 ```
@@ -58,11 +62,13 @@ curl -H "Authorization: Bearer 你的身份验证令牌" <注册表URL>
   - `<注册表URL>`：你的注册表 URL。
 - **预期响应**：成功的响应（HTTP 200）可能会返回注册表的主页或简单的状态消息（例如，对于基于 CouchDB 的注册表，返回 `{"db_name":"registry"}`）。
 - **替代方案**：某些注册表提供 `/-/ping` 端点：
+
   ```bash
   curl -H "Authorization: Bearer 你的身份验证令牌" <注册表URL>/-/ping
   ```
 
 **如果使用基本身份验证**：如果你的注册表不使用令牌且支持基本身份验证：
+
 ```bash
 curl -u "<用户名>:<密码>" <注册表URL>
 ```
@@ -74,6 +80,7 @@ curl -u "<用户名>:<密码>" <注册表URL>
 通过请求特定包的详细信息，验证注册表是否能够提供包元数据。
 
 #### 使用 `curl` 获取元数据
+
 ```bash
 curl -H "Authorization: Bearer 你的身份验证令牌" <注册表URL>/<包名>
 ```
@@ -81,6 +88,7 @@ curl -H "Authorization: Bearer 你的身份验证令牌" <注册表URL>/<包名>
 - **替换**：
   - `<包名>`：你知道存在于你的注册表上的一个包（例如，如果它代理公共注册表，则为 `lodash`，或者私有包如 `my-org-utils`）。
 - **预期响应**：一个包含包元数据的 JSON 对象，包括版本、依赖项和 tarball URL。例如：
+
   ```json
   {
     "name": "lodash",
@@ -95,6 +103,7 @@ curl -H "Authorization: Bearer 你的身份验证令牌" <注册表URL>/<包名>
   ```
 
 **如果使用基本身份验证**：
+
 ```bash
 curl -u "<用户名>:<密码>" <注册表URL>/<包名>
 ```
@@ -108,8 +117,10 @@ curl -u "<用户名>:<密码>" <注册表URL>/<包名>
 要全面测试注册表，下载一个包 tarball 以确保它能够交付实际的包文件。
 
 #### 使用 `curl` 下载 Tarball
+
 1. 从步骤 3 的元数据中，找到特定版本的 `tarball` URL（例如 `<注册表URL>/lodash/-/lodash-4.17.21.tgz`）。
 2. 下载它：
+
 ```bash
 curl -H "Authorization: Bearer 你的身份验证令牌" -O <tarball-url>
 ```
@@ -117,9 +128,11 @@ curl -H "Authorization: Bearer 你的身份验证令牌" -O <tarball-url>
 - **替换**：`<tarball-url>` 为元数据中的 URL。
 - **`-O` 标志**：使用原始文件名保存文件（例如 `lodash-4.17.21.tgz`）。
 - **如果使用基本身份验证**：
+
   ```bash
   curl -u "<用户名>:<密码>" -O <tarball-url>
   ```
+
 - **成功**：文件成功下载，你可以解压它（例如使用 `tar -xzf <文件名>`）以验证其内容。
 
 ---
@@ -129,18 +142,21 @@ curl -H "Authorization: Bearer 你的身份验证令牌" -O <tarball-url>
 如果你更喜欢像 Insomnia 这样的 GUI 工具，请按照以下步骤操作：
 
 ### 1. 设置身份验证
+
 - 在 Insomnia 中创建一个新请求。
 - 转到 **Auth** 标签页：
   - **Bearer Token**：如果你在步骤 1 中获取了令牌，选择 "Bearer Token" 并粘贴 `你的身份验证令牌`。
   - **Basic Auth**：如果注册表使用基本身份验证，选择 "Basic Auth" 并输入你的 `<用户名>` 和 `<密码>`。
 
 ### 2. 对注册表执行 Ping 操作
+
 - **方法**：GET
 - **URL**：`<注册表URL>` 或 `<注册表URL>/-/ping`
 - 点击 **Send**。
 - **预期响应**：状态为 200 OK，响应体简单。
 
 ### 3. 检索包元数据
+
 - **方法**：GET
 - **URL**：`<注册表URL>/<包名>`
 - 确保在 Auth 标签页中设置了身份验证。
@@ -148,6 +164,7 @@ curl -H "Authorization: Bearer 你的身份验证令牌" -O <tarball-url>
 - **预期响应**：状态为 200 OK，包元数据为 JSON 格式。
 
 ### 4. 下载 Tarball
+
 - **方法**：GET
 - **URL**：元数据中的 tarball URL（例如 `<注册表URL>/<包名>/-/<包名>-<版本>.tgz`）。
 - 点击 **Send and Download** 将文件保存到本地。

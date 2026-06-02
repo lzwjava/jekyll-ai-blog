@@ -35,6 +35,7 @@ Here's a curated list of prominent alternatives, based on popularity, features, 
 - **Aethir Cloud**: Decentralized network with hundreds of thousands of GPUs (H100, H200, B200) across 95+ countries. Provides low-latency access (connects to nearest GPU), 50-90% cost reductions, and SLAs for enterprises. Excellent for AI agents, real-time apps, and LLM scaling; includes ecosystem incentives like token staking.
 
 Other notable mentions:
+
 - **Oracle Cloud**: Strong in enterprise AI with free GPU tiers and integrated tools; used for hybrid setups.
 - **IBM Cloud**: Focuses on managed AI with Watson integration; good for secure, compliant training.
 - **Vultr**: Bare-metal GPUs at affordable rates; appeals to devs needing raw compute.
@@ -45,6 +46,7 @@ Other notable mentions:
 - **Polaris**: Decentralized marketplace for renting/sharing GPUs globally.
 
 #### What People Will Use Them For
+
 - **Startups and Indie Developers**: Vast.ai, RunPod, or io.net for affordable prototyping and fine-tuning, where cost trumps ecosystem depth.
 - **Researchers and Medium-Scale Training**: CoreWeave or Nebius for dedicated, high-performance clusters without long waits.
 - **Enterprises with Scalability Needs**: Voltage Park, TensorWave, or Aethir for cost-efficient, global deployments, especially in generative AI or inference.

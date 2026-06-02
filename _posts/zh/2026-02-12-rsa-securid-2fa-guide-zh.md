@@ -19,11 +19,13 @@ RSA **SecurID**（通常称为 RSA SecurID 或简称 SecurID）是全球最知�
 它通过结合 **something you know**（由你所知的 PIN 或密码）与 **something you have**（由你拥有的实体 Token 或软件认证器）来提供强认证（strong authentication）。
 
 ### 核心概念
+
 该系统生成**基于时间的一次性代码** (tokencodes)，这些代码会定期更改 —— 最常见的是每 **60 seconds** 更改一次，尽管某些实现使用 30 秒。
 
 这是一个典型的 **Time-based One-Time Password** (TOTP) 类机制的例子，但 RSA 使用其专有的算法（历史上基于对称密钥运算，在较新版本中通常基于 AES）。
 
 ### 主要组件
+
 1. **The Token / Authenticator（令牌/认证器）**
    - **Hardware tokens** —— 小型钥匙扣样式的设备（例如 SID700, SID800 系列），具有：
      - 显示 6 位（有时是 8 位）代码的 LCD 屏幕
@@ -57,18 +59,21 @@ RSA **SecurID**（通常称为 RSA SecurID 或简称 SecurID）是全球最知�
    - 服务器计算预期的 tokencode → 进行比对 → 允许或拒绝访问
 
 ### 安全特性
+
 - Seed 对每个 Token 都是**唯一的**，且永远不会离开工厂或服务器
 - 代码每 60 秒更改一次 → 被截获的代码会迅速失效
 - 即使 PIN 被盗，攻击者仍需持有实体或软件 Token
 - 服务器允许微小的**时间窗口** (±1 个间隔)，以补偿时钟偏差和用户输入延迟
 
 ### 优势
+
 - 用户体验非常简单（只需读取并输入数字）
 - 支持离线工作（Token 端不需要互联网连接）
 - 经过数十年在高度安全环境（银行、政府、国防、技术公司）中的验证
 - 广泛的集成支持（通过 RADIUS, SAML 等支持 VPN, RDP, SSH, 云服务等）
 
 ### 局限性与演进
+
 - 实体 Token 可能会丢失或被盗（尽管 Seed 的泄露非常困难）
 - 容易受到实时 **phishing**（网络钓鱼）的攻击（攻击者立即转发代码）
 - 较旧的部署曾受到时间同步不佳或 Seed 泄露事件的影响（特别是 2011 年 RSA 因网络钓鱼导致的 Seed 泄露担忧）

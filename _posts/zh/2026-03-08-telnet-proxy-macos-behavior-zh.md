@@ -28,6 +28,7 @@ Telnet 使用 TCP 作为其底层传输协议。客户端向服务器发送命�
 3. 远程 Telnet 服务器将这些字符转换为远程计算机可理解的格式。远程操作系统从伪终端驱动程序接收它们，并将其传递给适当的应用程序。
 
 **关键特性：**
+
 - Telnet 既未加密也不安全。因为它是一种纯文本协议，网络上的任何人均可访问 Telnet 会话期间输入的用户名、密码和其他私人信息。
 - Telnet 客户端是企业应用程序管理员最有用的工具之一。因为 Telnet 是一种非常简单的协议，该客户端可用于创建与远程 Telnet 服务器连接以外的其他用途——特别是用于测试一般的 TCP 连接性。
 
@@ -40,6 +41,7 @@ Telnet 使用 TCP 作为其底层传输协议。客户端向服务器发送命�
 原因如下：
 
 **macOS 系统代理设置**（在系统设置 → 网络 → 代理中配置）定义：
+
 - Web Proxy (HTTP)
 - Secure Web Proxy (HTTPS)
 - SOCKS Proxy
@@ -74,13 +76,16 @@ macOS HTTP/HTTPS 代理专门针对 **HTTP 协议流量** 设计。Telnet 在任
 如果您希望 `telnet`（或其他 CLI 工具）通过代理，您有以下选项：
 
 **选项 1 — 使用环境变量（针对支持 HTTP 的 CLI 工具）：**
+
 ```bash
 export http_proxy="http://proxyhost:port"
 export https_proxy="http://proxyhost:port"
 ```
+
 注意：`telnet` 本身忽略这些，但像 `curl` 或 `wget` 等其他 CLI 工具会尊重它们。
 
 **选项 2 — 使用 `nc` (netcat) 与 SOCKS 代理：**
+
 ```bash
 nc -x proxyhost:1080 -X 5 targethost targetport
 ```

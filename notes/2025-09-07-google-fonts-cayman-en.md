@@ -29,6 +29,7 @@ So the flow looks like this:
    ```scss
    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
    ```
+
 4. That’s the network request you’re seeing in DevTools.
 
 ---

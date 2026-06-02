@@ -31,18 +31,23 @@ There are two primary tiers:
 ## ✅ PROS of Memory
 
 ### 1. Context Continuity and Coherence
+
 Short-term memory enables an AI agent to remember recent inputs for immediate decision-making. A chatbot that remembers previous messages within a session can provide coherent responses instead of treating each user input in isolation, improving user experience.
 
 ### 2. Personalization
+
 A customer support chatbot that can recall your previous support tickets avoids making you repeat information and can tailor its answers using what it "knows" about your past issues.
 
 ### 3. Handling Long-Term and Complex Tasks
+
 This memory capability allows agents to handle long-term tasks, offer personalized interactions, and manage increasingly complex reasoning processes over time. An AI assistant that remembers user preferences or follows multi-step plans is significantly more beneficial compared to an assistant requiring constant context reminders.
 
 ### 4. Learning and Adaptation
+
 Building agents that can learn from experience, accumulate knowledge, and execute complex tasks requires implementing long-term memory. Long-term memory transforms chatbots into agents that learn, remember, and act intelligently across extended timescales.
 
 ### 5. Avoiding Frustrating Repetition
+
 LangChain put it well: "Imagine if you had a coworker who never remembered what you told them, forcing you to keep repeating that information." For AI applications, forgetfulness is a dealbreaker.
 
 ---
@@ -50,20 +55,25 @@ LangChain put it well: "Imagine if you had a coworker who never remembered what 
 ## ❌ CONS of Memory
 
 ### 1. Unnecessary Token Consumption (your main point — correct!)
+
 If you simply add the entire conversation history every time, you quickly hit context limits. The model might start ignoring older content or lose coherence if the context is too long. Moreover, storing everything slows down processing and increases costs.
 
 Continually expanding message histories can lead to unnecessary token consumption beyond a certain point.
 
 ### 2. Imprecise or Contradictory Retrieval
+
 Retrieval is often imprecise. A query like "What is my brother's job?" might retrieve every conversation mentioning "brother" and "job" without pinpointing the current fact. Updating is difficult; if a user corrects a fact, the new string just adds to the log, creating potential contradictions.
 
 ### 3. Increased System Complexity
+
 The ingestion pipeline can become incredibly heavy, introducing unnecessary complexity around scaling, monitoring, and maintenance. At query time, instead of a straight line from question to answer, the agent might zigzag through many retrieval steps, trying to gather the right context. The latency is terrible, costs are high, and debugging is a nightmare.
 
 ### 4. Summarization Overhead
+
 The quality of a summary is critical — a flawed summary may omit critical details or include inaccuracies. Additional LLM calls needed for summary generation can increase computational costs and processing overhead.
 
 ### 5. Privacy and Security Risks
+
 Storing user data across sessions raises concerns about data retention, user consent, and potential leakage of sensitive information across sessions.
 
 ---

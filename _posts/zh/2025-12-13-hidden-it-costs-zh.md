@@ -32,10 +32,10 @@ IT外包，包括常见的聘请（通常是离岸）技术顾问为银行和大
 
 参考资料：
 
-- https://www.reddit.com/r/cscareerquestions/comments/nc7h49/why_do_people_here_hate_outsourcing_so_much/
-- https://www.reddit.com/r/cscareerquestions/comments/1lxreen/how_bad_of_a_problem_is_outsourcing/
-- https://www.pymnts.com/bank-regulation/2024/regulators-wary-of-banks-outsourcing-to-tech-firms/
-- https://technologymagazine.com/it-procurement/outsourcing-technology-systemic-risk-banks
-- https://www.itsasap.com/blog/problems-outsourcing-it
-- https://en.wikipedia.org/wiki/Body_shopping
-- https://www.reddit.com/r/sysadmin/comments/umkhwp/has_outsourcing_it_ever_worked/
+- <https://www.reddit.com/r/cscareerquestions/comments/nc7h49/why_do_people_here_hate_outsourcing_so_much/>
+- <https://www.reddit.com/r/cscareerquestions/comments/1lxreen/how_bad_of_a_problem_is_outsourcing/>
+- <https://www.pymnts.com/bank-regulation/2024/regulators-wary-of-banks-outsourcing-to-tech-firms/>
+- <https://technologymagazine.com/it-procurement/outsourcing-technology-systemic-risk-banks>
+- <https://www.itsasap.com/blog/problems-outsourcing-it>
+- <https://en.wikipedia.org/wiki/Body_shopping>
+- <https://www.reddit.com/r/sysadmin/comments/umkhwp/has_outsourcing_it_ever_worked/>

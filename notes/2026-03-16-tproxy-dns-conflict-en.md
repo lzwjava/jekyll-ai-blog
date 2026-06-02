@@ -29,6 +29,7 @@ Clash needs: "this is google.com → route via proxy"
 ```
 
 Without its own DNS intercepting the original query, Clash **cannot match domain-based rules** like:
+
 ```yaml
 - DOMAIN-SUFFIX,google.com,Proxy
 - DOMAIN-SUFFIX,baidu.com,DIRECT

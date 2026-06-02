@@ -35,15 +35,20 @@ Cloudflare Web Analytics 的 beacon script (`https://static.cloudflareinsights.c
 在你的 Mac 上，你可以在系统层级屏蔽 Cloudflare analytics domain：
 
 1. 以 root 身份编辑 `/etc/hosts`：
+
    ```
    sudo nano /etc/hosts
    ```
+
 2. 添加以下行：
+
    ```
    0.0.0.0 cloudflareinsights.com
    0.0.0.0 static.cloudflareinsights.com
    ```
+
 3. 保存并刷新 DNS cache：
+
    ```
    sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
    ```

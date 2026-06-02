@@ -14,6 +14,7 @@ Yes! In China and many other countries, public phone stands (payphones) transiti
 ---
 
 ### **1. Prepaid Phone Cards**
+
 - **How It Worked**:
   - You bought a **magnetic strip card** (similar to a credit card) from convenience stores, kiosks, or post offices.
   - The card had a set value (e.g., ¥20, ¥50, or ¥100).
@@ -27,12 +28,14 @@ Yes! In China and many other countries, public phone stands (payphones) transiti
 ---
 
 ### **2. Types of Cards**
+
 - **Magnetic Strip Cards**: The most common type. You swiped or inserted them into the phone.
 - **IC Cards**: Later, some systems used chip-based cards (like subway cards), but these were less common for phone stands.
 
 ---
 
 ### **3. Decline of Phone Cards**
+
 - **Mobile Phones Took Over**: As mobile phones became affordable, the demand for phone cards plummeted.
 - **Digital Payments**: Even before smartphones, people started using mobile top-up cards for their personal phones, making public phone cards obsolete.
 - **Nostalgia**: Today, old phone cards are sometimes collected as retro memorabilia.
@@ -40,6 +43,7 @@ Yes! In China and many other countries, public phone stands (payphones) transiti
 ---
 
 ### **Fun Fact**
+
 In China, phone cards often featured **local landmarks, art, or cultural themes**, making them popular souvenirs for tourists!
 
 ---

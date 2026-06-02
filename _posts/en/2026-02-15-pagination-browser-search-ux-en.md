@@ -26,6 +26,7 @@ Here's a clear comparison:
 | Client-side pagination + server-side filtering/search | Yes on current filtered result | No (but better than blind pagination) | Any size         | Requires good search/filter backend         | Best compromise for many apps |
 
 ### Why pagination hurts Ctrl+F so much
+
 - Only ~10–50 DOM nodes exist at any moment
 - Browser find-in-page can only see what's currently rendered
 - You constantly need to guess which page might contain the item → very frustrating UX

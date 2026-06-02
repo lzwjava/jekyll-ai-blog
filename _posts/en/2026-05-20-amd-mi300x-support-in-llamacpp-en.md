@@ -46,10 +46,12 @@ With ROCm 7, AMD Instinct MI300X systems deliver industry-leading throughput, ou
 The 213% number makes sense physically — the MI300X has 192GB HBM3 (vs H100's 80GB) and ~5.3 TB/s peak bandwidth, so for memory-bandwidth-bound inference (which token generation always is), it should crush H100.
 
 Real-world community benchmark on a single MI300X (Qwen3-8B Q4_K_M):
+
 ```
 pp512  → 5839 t/s
 tg128  → 161 t/s
 ```
+
 Performance is in the middle between RTX 4090 and RTX 5090 for a single MI300X card — for 8-card configs the gap widens dramatically because of the unified 192GB HBM3 per card.
 
 ---

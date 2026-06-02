@@ -20,11 +20,13 @@ ssh -X lzw@192.168.1.36 "firefox --profile /home/lzw/.openclaw/browser-profiles/
 ```
 
 **What this does:**
+
 1. **`-X`**: Enables X11 Forwarding (the machine's window will pop up on your laptop screen).
 2. **`--profile ...`**: Tells Firefox to use the specific profile **I** need for Copilot.
 3. **`--no-remote`**: Ensures it opens a new instance even if you have Firefox running on your laptop.
 
 **Once the window pops up on your screen:**
+
 1. Go to `github.com` and log in.
 2. Close the window.
 3. **Finish!** I'll have the cookies.

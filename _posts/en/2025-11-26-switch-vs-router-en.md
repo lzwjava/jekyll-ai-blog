@@ -26,6 +26,7 @@ You're very close to the core difference, but let's clarify it accurately and cl
 ### How They Actually Work (Simplified)
 
 #### Network Switch
+
 - When a frame arrives, the switch looks only at the **destination MAC address**.
 - It maintains a MAC address table (CAM table) that it learns automatically:
   - “MAC 00:11:22:33:44:55 was seen on port 5” → next time it sends traffic for that MAC only to port 5.
@@ -34,6 +35,7 @@ You're very close to the core difference, but let's clarify it accurately and cl
 - Goal: make a bigger, faster Layer-2 network.
 
 #### Router
+
 - When a packet arrives, the router looks at the **destination IP address**.
 - It checks its routing table: “To reach 192.168.2.0/24, send it out interface Gi0/1, next-hop 10.0.0.2”.
 - The router rewrites the Layer-2 information:
@@ -53,6 +55,7 @@ You said:
 > “while switch is easy, because like switch packet, just the target are fixed, just need to change source and target”
 
 → Almost, but not quite:
+
 - The switch does not change source or destination MAC addresses (normally).
 - The “target” (MAC) is not fixed forever; the switch learns dynamically which port each MAC is on.
 - It’s “easy” because it only cares about MAC → port mapping inside one network.
@@ -62,6 +65,7 @@ You said:
 → Exactly right. A switch extends a single Layer-2 network (makes it bigger and faster). A router connects multiple different networks.
 
 ### Quick Analogy
+
 - Switch = local post office sorting letters inside the same city by street address (MAC).
 - Router = the highway system that moves mail between different cities using zip codes (IP).
 

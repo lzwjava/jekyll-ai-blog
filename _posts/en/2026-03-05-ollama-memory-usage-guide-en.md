@@ -24,6 +24,7 @@ On Apple Silicon Macs (M2/M3), Ollama uses **memory-mapped files** and **unified
 - The Ollama server process stays small (~100–300 MB) when idle or just holding the API open; the heavy lifting happens in GPU-accelerated Metal buffers or shared memory pools that macOS doesn't always attribute clearly to one process.
 
 ### Typical Real Memory Usage for qwen3.5:9b on Mac M2/M3 (March 2026)
+
 - Model file on disk: **6.6 GB**
 - Loaded + short context inference: **~8–10 GB** unified memory used (most on GPU side via Metal)
 - With longer context (e.g. 8k–16k tokens): **10–14 GB** depending on exact setup
@@ -31,6 +32,7 @@ On Apple Silicon Macs (M2/M3), Ollama uses **memory-mapped files** and **unified
 - On 24 GB+ Mac: Feels very smooth, often 40–70+ tokens/second
 
 ### Why It Looks So Small at First
+
 - Before any prompt: Model may not be fully loaded yet (Ollama lazy-loads or unloads after inactivity to save resources).
 - `ps`, `top`, or Activity Monitor's "Memory" tab for the `ollama` process often shows only **~150–300 MB** because the bulk is in:
   - Metal GPU buffers (not always listed per-process)
@@ -42,6 +44,7 @@ On Apple Silicon Macs (M2/M3), Ollama uses **memory-mapped files** and **unified
 In short: **159 MB is normal for the idle server process**. The model is actually using several GB when active — that's expected and efficient on Apple Silicon. If you're seeing poor performance or errors, check total system memory pressure instead of just the process size.
 
 References:
+
 - [Ollama qwen3.5:9b model page (6.6 GB Q4_K_M)](https://ollama.com/library/qwen3.5:9b)
 - [Stack Overflow: Why doesn't Ollama use MORE RAM? (memory mapping explanation)](https://stackoverflow.com/questions/78068285/why-doesnt-ollama-use-more-ram)
 - [GitHub Ollama issues on memory reporting (file cache & under-reporting)](https://github.com/ollama/ollama/issues/2496)

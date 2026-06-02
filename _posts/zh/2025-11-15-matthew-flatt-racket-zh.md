@@ -15,6 +15,7 @@ type: note
 2018年，弗拉特因Racket在研究和教育领域（特别是其宏系统和模块系统）的深远影响，与Racket团队共同荣获ACM SIGPLAN编程语言软件奖。他在Google Scholar上的引用次数超过10,000次，在CS 3520等课程中以其渊博学识、公正态度和生动教学风格深受学生好评。
 
 更多详情：
+
 - [犹他大学教师档案](https://faculty.utah.edu/u0176314-MATT_FLATT/jhindex.hml)
 - [维基百科](https://en.wikipedia.org/wiki/Matthew_Flatt)
 - [Google学术](https://scholar.google.com/citations?user=9sMIvdgAAAAJ&hl=en)

@@ -13,6 +13,7 @@ type: note
 Post-traumatic stress disorder (PTSD) is treatable, and many people experience significant improvement with appropriate interventions. The goal of treatment is to reduce symptoms like flashbacks, anxiety, and avoidance, while helping individuals regain a sense of safety and control. Options typically include psychotherapy, medications, and complementary approaches. The best plan is personalized, often combining methods, and should be developed with a mental health professional. Early treatment can lead to better outcomes.
 
 ## Psychotherapy (Talk Therapy)
+
 Psychotherapy is often the first-line treatment for PTSD and is highly effective, especially trauma-focused types that directly address the traumatic event. Sessions usually last 8-16 weeks and can be individual, group-based, or a mix. Key evidence-based options include:
 
 - **Cognitive Processing Therapy (CPT)**: Helps identify and challenge unhelpful thoughts about the trauma, such as guilt or self-blame, to reshape negative beliefs.
@@ -24,6 +25,7 @@ Psychotherapy is often the first-line treatment for PTSD and is highly effective
 Stress management skills, such as relaxation techniques, mindfulness, and breathing exercises, are often integrated to build coping tools.
 
 ## Medications
+
 Medications can help manage specific symptoms like anxiety, depression, sleep issues, or hyperarousal. They typically take a few weeks to work and may require dose adjustments. Common options include:
 
 - **Antidepressants (SSRIs and SNRIs)**: These are FDA-approved for PTSD and target mood and anxiety. Examples are sertraline (Zoloft), paroxetine (Paxil), and venlafaxine (Effexor XR).
@@ -33,6 +35,7 @@ Medications can help manage specific symptoms like anxiety, depression, sleep is
 Medications are most effective alongside therapy, and ongoing monitoring for side effects is essential.
 
 ## Other and Emerging Approaches
+
 - **Self-Care and Lifestyle Changes**: Regular exercise, healthy sleep hygiene, a balanced diet, limiting caffeine/alcohol, and mindfulness practices can support recovery. Staying connected with supportive people and avoiding self-medication are key.
 - **Support Groups**: Peer-led or professional groups (e.g., through veterans' organizations or community centers) offer validation and practical advice.
 - **Complementary Practices**: Yoga, acupuncture, or art therapy may enhance traditional treatments by promoting relaxation and whole-person well-being.
@@ -41,6 +44,7 @@ Medications are most effective alongside therapy, and ongoing monitoring for sid
 If symptoms are severe, inpatient care or crisis support may be needed. For children or complex trauma, adapted therapies are available. Always consult a healthcare provider to discuss risks, benefits, and access to care.
 
 ## References
+
 - [Post-traumatic stress disorder (PTSD) - Diagnosis and treatment - Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/diagnosis-treatment/drc-20355973)
 - [PTSD Treatment Basics - National Center for PTSD](https://www.ptsd.va.gov/understand_tx/tx_basics.asp)
 - [Treatments for PTSD - American Psychological Association](https://www.apa.org/ptsd-guideline/treatments)

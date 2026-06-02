@@ -15,6 +15,7 @@ type: note
 The Gaussian Error Linear Unit (GELU) is a smooth activation function used in neural networks, particularly in transformer-based models like BERT and GPT series. Introduced in 2016 by researchers Dan Hendrycks and Kevin Gimpel, it combines the benefits of linear transformations with probabilistic weighting inspired by the Gaussian (normal) distribution. Unlike simpler activations like ReLU (which outputs zero for negative inputs), GELU allows a small gradient flow for negative values, leading to better performance in deep networks by reducing issues like vanishing gradients and improving convergence.
 
 #### Mathematical Definition
+
 The core formula for GELU is:
 
 \\[
@@ -38,6 +39,7 @@ For computational efficiency, approximations are often used, such as the sigmoid
 where \\(\sigma\\) is the sigmoid function.
 
 #### Why Use GELU?
+
 - **Smoothness**: It's differentiable everywhere, aiding optimization.
 - **Non-monotonicity**: Slightly suppresses negative values but doesn't zero them out, preserving information.
 - **Empirical Benefits**: Outperforms ReLU and ELU in tasks like natural language processing, with faster training and higher accuracy in large models.
@@ -46,6 +48,7 @@ where \\(\sigma\\) is the sigmoid function.
 In practice, libraries like PyTorch and TensorFlow have built-in GELU implementations (e.g., `torch.nn.GELU()`).
 
 #### References
+
 - [Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415)
 - [GELU Explained](https://www.baeldung.com/cs/gelu-activation-function)
 - [GELU Activation](https://medium.com/@shauryagoel/gelu-gaussian-error-linear-unit-4ec59fb2e47c)

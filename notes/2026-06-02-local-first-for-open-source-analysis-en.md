@@ -16,12 +16,14 @@ type: note
 You're right. For your scale, **local-first beats MCP**.
 
 MCP adds value when:
+
 - **Live state matters** — you need real-time PR/issue/branch info
 - **Sync is continuous** — repos change frequently and you need fresh data
 - **Scale explodes** — 1000s of repos, can't fit locally
 - **You work across tools** — Slack, GitHub, Jira simultaneously in one agent context
 
 Your case (100-200 projects, analysis-focused):
+
 - Download snapshots into local disk/vector DB
 - Query with Claude Code or Hermes against that snapshot
 - Update weekly/monthly if needed
@@ -29,6 +31,7 @@ Your case (100-200 projects, analysis-focused):
 - **No latency tax, no rate limits, full context window for the agent**
 
 The practical trade-off:
+
 | Approach | Freshness | Latency | Storage | Complexity |
 |----------|-----------|---------|---------|------------|
 | **MCP GitHub** | Minutes | ~500ms API calls | Minimal | High |
@@ -37,6 +40,7 @@ The practical trade-off:
 For your workflow (exploring patterns, analyzing codebases, training on examples), **local is faster and simpler**. You're not building a real-time CI dashboard.
 
 Hybrid sweet spot:
+
 ```bash
 # One-time: clone/archive the 200 repos
 git clone-all-projects.sh

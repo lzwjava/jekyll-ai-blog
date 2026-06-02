@@ -14,6 +14,7 @@ type: note
 ## ConPTY 库加载
 
 Alacritty (conpty.rs:51-88)：
+
 ```rust
 fn new() -> Self {
     match Self::load_conpty() {
@@ -32,6 +33,7 @@ fn load_conpty() -> Option<Self> {
 ## 管道架构
 
 Alacritty (conpty.rs:118-119)：
+
 ```rust
 let (conout, conout_pty_handle) = miow::pipe::anonymous(0)?;
 let (conin_pty_handle, conin) = miow::pipe::anonymous(0)?;
@@ -42,6 +44,7 @@ let (conin_pty_handle, conin) = miow::pipe::anonymous(0)?;
 ## 进程创建标志
 
 Alacritty (conpty.rs:207-211)：
+
 ```rust
 let mut creation_flags = EXTENDED_STARTUPINFO_PRESENT;
 // 仅在设置自定义环境时使用 CREATE_UNICODE_ENVIRONMENT
@@ -52,6 +55,7 @@ let mut creation_flags = EXTENDED_STARTUPINFO_PRESENT;
 ## ConPTY 标志
 
 Alacritty (conpty.rs:127)：
+
 ```rust
 (api.create)(window_size.into(), conin_handle, conout_handle, 0, &mut pty_handle)
 ```

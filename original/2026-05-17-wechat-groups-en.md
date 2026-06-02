@@ -16,8 +16,8 @@ With Fun Live, users could participate in various knowledge lectures such as pro
 
 ---
 
-* I talk to each group and share a lot — the materials can be different, just helping me learn things.
+- I talk to each group and share a lot — the materials can be different, just helping me learn things.
 
-* For the 27 "AI · Fun Live" groups, I share a message in one group and then repost it to the other 26.
+- For the 27 "AI · Fun Live" groups, I share a message in one group and then repost it to the other 26.
 
-* I don't just share in AI · Truth; different groups have different people to discuss with too.
+- I don't just share in AI · Truth; different groups have different people to discuss with too.

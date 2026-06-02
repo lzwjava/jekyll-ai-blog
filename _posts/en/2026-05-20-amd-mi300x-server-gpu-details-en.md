@@ -26,6 +26,7 @@ Done. Here's the summary:
 | Host | ubuntu-gpu-mi300x1-192gb-devcloud-atl1 |
 
 **Command to check GPU** (nvidia-smi equivalent):
+
 ```
 amd-smi
 ```
@@ -33,6 +34,7 @@ amd-smi
 I installed it at `/usr/local/bin/amd-smi` on the server. It reads sysfs/lspci directly since the GPU is an SR-IOV virtual function and the KFD (compute) interface isn't exposed — `rocm-smi` shows "No AMD GPUs specified" for the same reason.
 
 For full compute access (HIP, ROCm libraries, etc.), you'll need:
+
 ```
 apt install rocm-hip-sdk
 ```

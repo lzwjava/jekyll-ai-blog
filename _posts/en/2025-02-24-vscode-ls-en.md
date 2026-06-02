@@ -13,11 +13,13 @@ Hey! The `java.jdt.ls.java.home` setting in Visual Studio Code (VSCode) is a spe
 ---
 
 ### What It Means
+
 - **JDT**: Stands for "Java Development Tools," originally part of the Eclipse IDE. The Java Language Server in VSCode is based on Eclipse’s JDT, which provides features like code completion, debugging, and compilation.
 - **LS**: Stands for "Language Server," a background process that powers VSCode’s Java support (e.g., IntelliSense, error checking).
 - **`java.jdt.ls.java.home`**: This setting tells the Java Language Server exactly which Java Development Kit (JDK) to use for its operations. It’s distinct from the broader `java.home` setting, though they’re related.
 
 In short, `java.jdt.ls.java.home` specifies the JDK path that the Java Language Server uses to:
+
 - Parse your Java code.
 - Provide language features (e.g., autocompletion, go-to-definition).
 - Compile and run code in some cases (though compilation often depends on other settings or build tools).
@@ -25,6 +27,7 @@ In short, `java.jdt.ls.java.home` specifies the JDK path that the Java Language 
 ---
 
 ### Differences from `java.home`
+
 - **`java.home`**: A general VSCode setting that points to the JDK for all Java-related extensions and tasks in VSCode. It’s used unless overridden by more specific settings.
 - **`java.jdt.ls.java.home`**: A more specific setting that overrides `java.home` for the Java Language Server only. If this isn’t set, the Language Server falls back to `java.home`.
 
@@ -33,6 +36,7 @@ So, if you set `java.jdt.ls.java.home`, it takes precedence for the Language Ser
 ---
 
 ### How to Configure It
+
 Since you’re on Windows and using VSCode 1.96.4 with the Java Extension Pack, here’s how to set it:
 
 1. **Open Settings:**
@@ -44,10 +48,13 @@ Since you’re on Windows and using VSCode 1.96.4 with the Java Extension Pack, 
      - Enter the full path to your JDK (e.g., `C:\Program Files\Java\jdk-17.0.1`).
    - **In settings.json:**
      - Add this line (replace with your JDK path):
+
        ```json
        "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-17.0.1"
        ```
+
      - Example `settings.json`:
+
        ```json
        {
            "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-17.0.1"
@@ -63,7 +70,9 @@ Since you’re on Windows and using VSCode 1.96.4 with the Java Extension Pack, 
 ---
 
 ### When to Use It
+
 You’d typically set `java.jdt.ls.java.home` if:
+
 - You have multiple JDKs installed and want the Language Server to use a specific one (e.g., JDK 17) while other Java tasks (like running code) might use a different JDK via `java.home`.
 - You’re troubleshooting Language Server issues (e.g., it’s not picking up the right JDK automatically).
 - Your project has specific JDK version requirements for language features.
@@ -73,7 +82,9 @@ If you don’t set it, the Language Server will use the JDK from `java.home` (or
 ---
 
 ### Practical Example
+
 Say you have JDK 8 and JDK 17 installed:
+
 - Set `"java.home": "C:\\Program Files\\Java\\jdk1.8.0_291"` for general use.
 - Set `"java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-17.0.1"` to ensure the Language Server uses JDK 17 for modern Java syntax support.
 

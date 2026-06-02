@@ -29,6 +29,7 @@ type: note
 Android上的“基本资源”选项（约21.8-22 GB）下载核心游戏文件（地图、模型、UI）和最少的语音包，而“完整资源”则添加了高品质音频等额外内容。即使是基本资源也很大，因为《原神》的世界提瓦特横跨多个巨大区域，拥有详细的环境。
 
 ### 大小的主要原因
+
 1. **音频文件（最大贡献者：占总量的40-50%）**
    - 10多种语言（英语、日语、中文、韩语等）中**每一句对话**的完整语音。每个语音包有5-10 GB。
    - 数千小时的语音故事任务、活动、NPC对话和战斗台词。
@@ -51,6 +52,7 @@ Android上的“基本资源”选项（约21.8-22 GB）下载核心游戏文件
 HoYoverse通过压缩和可选包进行优化，但该游戏在手机上提供主机级体验的规模驱动了其大小。新玩家可以从小处开始并扩展；存储空间会随着游戏时间而增加。
 
 **参考：**
+
 - [Reddit: 详细文件大小分解（资产34GB，音频48GB，视频25GB）](https://www.reddit.com/r/Genshin_Impact/comments/1j8p1e8/why_exactly_does_genshin_impact_take_so_much_space/)
 - [Game8: 平台大小的存储指南](https://game8.co/games/Genshin-Impact/archives/418451)
 - [GameWith: 当前大小，包括Android基本/完整版](https://gamewith.net/genshin-impact/article/show/40325)

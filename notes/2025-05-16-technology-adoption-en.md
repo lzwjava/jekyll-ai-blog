@@ -50,6 +50,7 @@ The accelerating pace of technology adoption since the 1960s is a phenomenon dri
 ### Evidence of Adoption Speed
 
 Historical data underscores the shrinking timeframes for technology adoption:
+
 - **Radio**: 38 years to reach 50 million users (1890s-1920s).
 - **Television**: 13 years to reach 50 million users (1940s-1950s).
 - **Internet**: 7 years to reach 50 million users (1990s).

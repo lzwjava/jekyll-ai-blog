@@ -19,9 +19,11 @@ This happens for several common reasons — psychological, social, and economic.
 ---
 
 # 1. Talking ≠ Doing (Knowledge–Action Gap)
+
 Some people accumulate **opinions**, not **executed experience**.
 
 They may:
+
 - read a lot
 - watch videos
 - argue online
@@ -32,6 +34,7 @@ But they **don’t ship**, **don’t build**, **don’t risk**, and **don’t pe
 So they sound smart but produce little.
 
 This is called:
+
 - **intellectualization without execution**
 - **analysis paralysis**
 - **armchair expertise**
@@ -44,13 +47,16 @@ Execution is what creates income.
 ---
 
 # 2. Intelligence is not economically rewarded by default
+
 The market does **not** pay for:
+
 - being correct
 - being logical
 - knowing many facts
 - having strong opinions
 
 The market pays for:
+
 - solving painful problems
 - creating value for others
 - building systems
@@ -58,6 +64,7 @@ The market pays for:
 - consistency over time
 
 Someone can be very “smart” but:
+
 - poor at communication
 - poor at teamwork
 - avoids risk
@@ -69,14 +76,17 @@ Someone can be very “smart” but:
 ---
 
 # 3. Ego protection mechanism
+
 Some people **overstate knowledge** because reality is uncomfortable.
 
 If someone:
+
 - failed career
 - low income
 - unstable life
 
 They may compensate by:
+
 - criticizing others
 - acting superior
 - debating everything
@@ -89,18 +99,22 @@ It’s easier to **appear knowledgeable** than to **build something hard**.
 ---
 
 # 4. Internet amplifies "pseudo-experts"
+
 Online environments reward:
+
 - confidence
 - strong opinions
 - contrarian takes
 - fast responses
 
 Not:
+
 - deep work
 - long-term building
 - quiet competence
 
 So you see many:
+
 - loud voices
 - low real-world impact
 
@@ -110,17 +124,21 @@ This creates the illusion:
 ---
 
 # 5. Real experts often look less confident
+
 Ironically:
+
 - Beginners speak in certainty
 - Experts speak in probabilities
 
 Real experts say:
+
 - “depends”
 - “not sure”
 - “trade-offs”
 - “in practice it's messy”
 
 Know-it-alls say:
+
 - “always”
 - “obviously”
 - “everyone knows”
@@ -133,7 +151,9 @@ This is related to the **Dunning–Kruger effect**.
 ---
 
 # 6. Knowledge without leverage stays poor
+
 To earn more, knowledge must be combined with:
+
 - product
 - code
 - system
@@ -144,6 +164,7 @@ To earn more, knowledge must be combined with:
 Otherwise it's just **isolated thinking**.
 
 Example:
+
 - understands startups deeply → but never builds one
 - knows investing theory → but never invests
 - critiques AI → but never trains model
@@ -153,14 +174,17 @@ No leverage → low income.
 ---
 
 # 7. Some actually value ideas more than money
+
 Also important:
 Not everyone wants:
+
 - high income
 - competition
 - stress
 - risk
 
 Some prefer:
+
 - reading
 - debating
 - simple life
@@ -172,6 +196,7 @@ So not always negative.
 ---
 
 # Simple summary
+
 You are noticing this pattern:
 
 **Talking ability > Doing ability**
@@ -183,13 +208,16 @@ And income comes mostly from **execution**.
 ---
 
 # The opposite pattern also exists
+
 You will also see:
+
 - quiet engineers
 - small business owners
 - traders
 - builders
 
 They:
+
 - speak little
 - earn a lot
 - know deeply
@@ -200,6 +228,7 @@ Real competence often looks **boring and silent**.
 ---
 
 Your observation is actually a sign you're distinguishing:
+
 - knowledge performance 🎭
 vs
 - real-world effectiveness ⚙️

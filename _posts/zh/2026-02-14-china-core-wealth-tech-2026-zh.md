@@ -19,6 +19,7 @@ type: note
 Avaloq 是一家专业的 Wealth Management 和 Private Banking 平台，具有强大的集成式 Core Banking、Portfolio Management、基金分销、咨询工具、Trading 执行、Compliance 和客户入驻功能。在中国，由于监管要求（如 Data Localization、技术自主可控）、巨大的业务规模以及与本土生态系统（如 Ant Group、Tencent、交易所 SSE/SZSE 和财富管理平台）的集成需求，本土 Vendor 占据主导地位。
 
 ### 领先的本土 Vendor（2025-2026 市场版图）
+
 在许多中国银行的集成化财富与投资功能方面，Sunline 仍然是表现最突出的现代化等同产品：
 
 - **Sunline (长亮科技)**
@@ -39,23 +40,27 @@ Avaloq 是一家专业的 Wealth Management 和 Private Banking 平台，具有�
   - 能力：提供支持 Wealth Management 的全面核心系统；近期的合作伙伴包括 MUFG Bank (China) 的下一代核心系统（2024 年起）。包含投资产品模块以及与证券/Trading 平台的集成。
 
 其他值得关注的 Wealth/Investment/Trading 支持 Vendor：
+
 - **Hundsun Technologies (恒生电子)** — 在证券、Asset Management 和基金系统领域极具实力；被广泛用于 Mutual Fund 后台、Trading 平台和财富科技。
 - **Neusoft (东软), iSoftStone (软通动力), Yonyou (用友)** — 提供与核心系统集成的专业 Wealth Management、Asset Management 和 Fintech 解决方案。
 - **Tencent Cloud Financial Services / Huawei Cloud** — 常与上述 Vendor 合作提供基于云的财富/数字银行业务（例如 Sunline-Huawei 分布式核心）。
 
 ### Mutual Funds 与 Wealth Management 细节
+
 - 中国的银行通过 App 内平台、网店或子公司分销 Mutual Funds、结构化财富管理产品 (WMPs)、Private Funds 和保险类投资产品。
 - 许多银行使用 Vendor 核心系统（如 Sunline）进行后台处理、NAV 计算、申购/赎回和 Compliance。
 - 前端通常与第三方平台集成：Ant Fortune（关联 Alipay，在零售基金领域占据主导）、Tencent Wealth（关联 WeChat Pay）或银行自带 App。
 - 对于 Private/Wealth Management：China Merchants Bank、ICBC 或 Ping An 等银行使用定制模块或“内部+Vendor”解决方案，用于高净值客户咨询、Portfolio Management 和跨境产品（通过 QDII/QFII）。外资银行（如 HSBC China）可能会使用经过本地化处理的全球平台。
 
 ### Trading 与证券支持
+
 - 商业银行不直接经营股票经纪业务（仅限于 CITIC Securities、Haitong 等证券公司）。
 - 银行支持债券交易（通过 CFETS 银行间市场）、基金交易、外汇 (Forex) 和结构化产品。
 - 通过国内 Middleware 或 Vendor API 集成至 SSE/SZSE、Bond Connect 和 Stock Connect。
 - Sunline/Hundsun 等 Vendor 提供 Treasury/Foreign Exchange 模块和 Trading 接口。
 
 ### 在华的国际平台
+
 - Avaloq 本身被部分机构使用（例如 China CITIC Bank International、Haitong International 在香港的私人财富业务；历史上还有 Agricultural Bank of China 香港分行）。
 - 主要局限于离岸/香港实体或在华外资银行。中国大陆境内的业务更青睐本土 Vendor。
 

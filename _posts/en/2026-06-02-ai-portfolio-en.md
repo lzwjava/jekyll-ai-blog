@@ -25,6 +25,7 @@ Built my machine learning workstation in 2023 and have been training and learnin
 | AMD MI300X | 192 GB HBM3 | 3 months | AMD Developer Cloud |
 
 **What I've trained:**
+
 - **GPT-2 124M** from scratch on FineWeb dataset (nanoGPT) — on RTX 4070, H200, and MI300X.
 - **GPT-2 760M** from scratch on AMD MI300X (192 GB HBM3) — exploring nanochat, DeepSeek v4 MoE.
 - Various experiments on hyperparameter tuning, learning rate schedules, and dataset preprocessing.
@@ -63,6 +64,7 @@ Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it w
 | `train_gpt2_200m_smoke.py` | Smoke test | Quick 200M sanity check (~few min). |
 
 **Model changes:**
+
 - **Inline tensor shape comments** throughout `model.py` forward passes (CausalSelfAttention, MLP, GPT) — shows exact shapes at every step with concrete GPT-2 XL examples, e.g. `# x: (B, T, C) e.g. (1, 5, 1600)`. Useful for understanding the transformer data flow.
 
 ![Enhanced nanoGPT — 45 commits, dataset pipelines, scaled training configs, inline shape annotations](/assets/images/ai-portfolio/nanogpt-fork.png)
@@ -112,12 +114,14 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
 
 **What I built:**
+
 - **20 customized AI agents** — dedicated prompts and contexts for different tech stacks and workflows.
 - **400 reusable Copilot-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
 - **1,100 Copilot-written guides** — documentation generated and validated via LLM outputs with caching and validation.
 - **~70 test cases auto-generated** via Copilot API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
 
 **Results:**
+
 - Ranked **top 6% in Copilot usage** across the entire enterprise, measured by premium requests.
 - Earned a **Contribution Award** for the high-profile AIPlayer project.
 - Joined HSBC's internal AI community.
@@ -141,6 +145,7 @@ Gave a technical talk to **80 participants** at HSBC Bank — senior consultants
 **Talk:** *"From Neural Networks to Agents"* — a journey from the simplest neural network (`y = wx`) through MNIST, Transformers, GPT, nanoGPT, to building personal AI agents.
 
 **What I covered:**
+
 - Neural networks from first principles — forward pass, backpropagation, gradient descent
 - Transformer architecture — Q/K/V attention, multi-head attention, positional encoding
 - GPT internals — tokenization, embedding, training, generation
@@ -150,6 +155,7 @@ Gave a technical talk to **80 participants** at HSBC Bank — senior consultants
 - My path — 3 years from reading about Q/K/V to training models from scratch
 
 **Feedback:**
+
 - A junior engineer said: *"You are the person I want to be"* — the talk opened his mind to what's possible with AI
 - Senior engineers appreciated the first-principles approach — no hype, just math and code
 - Multiple follow-up conversations about training, agents, and career direction
@@ -288,6 +294,7 @@ Available commands:
 ```
 
 **Key features:**
+
 - **Multi-turn conversations** with GitHub Copilot or OpenRouter in your terminal.
 - **Multiple Model Providers**: GitHub Copilot (OAuth device flow) and OpenRouter (API key).
 - **Native Tool Calling**: The model autonomously invokes web search, executes shell commands, and edits files — no human in the loop.
@@ -319,6 +326,7 @@ datasets/       # Downloaded dataset storage
 ```
 
 **Key capabilities:**
+
 - **FineWeb download** — Plan and download shards to hit a token budget (10B, 100B+ tokens), resumable with progress tracking.
 - **hf-mirror.com support** — wget scripts for China access when HuggingFace is blocked.
 - **Parquet extraction** — Memory-safe iteration via pyarrow iter_batches.
@@ -348,5 +356,5 @@ Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Struct
 
 ---
 
-* GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
-* Blog: [https://lzwjava.github.io](https://lzwjava.github.io)
+- GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
+- Blog: [https://lzwjava.github.io](https://lzwjava.github.io)

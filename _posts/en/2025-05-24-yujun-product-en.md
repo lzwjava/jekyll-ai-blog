@@ -11,6 +11,7 @@ type: note
 俞军 (Yu Jun) is a legendary figure in the Chinese internet industry, widely regarded as one of the most influential product managers in China. He is best known for his work at Baidu, where he was the company’s first product manager and later served as Vice President of Product, and for his contributions to Didi Chuxing as a senior product executive. His book, *Yu Jun’s Product Methodology* (*俞军产品方法论*), published in 2019, encapsulates his philosophy and approach to product management, blending insights from economics, psychology, and practical experience. Below, I address your questions about his product ideas, theory, and personal story based on available information, including web sources and posts on X.[](https://book.douban.com/subject/34907971/)[](https://deepinbook.com/yu-jun-product-methodology/yu-jun-product-methodology.html)[](https://blog.devtang.com/2020/02/03/pm-work-from-yujun/)
 
 ### 1. **Yu Jun’s Product Ideas**
+
 Yu Jun’s product ideas revolve around creating *profitable user value* by deeply understanding users and designing products that facilitate efficient transactions. His core concepts include:
 
 - **User Model and Transaction Model**:
@@ -28,6 +29,7 @@ Yu Jun’s product ideas revolve around creating *profitable user value* by deep
 - **Iterative Practice**: Yu Jun advocates for rapid iteration and learning from large user bases. Products should be launched quickly, tested in practice, and refined based on feedback, especially from large-scale user data to minimize noise.[](https://blog.zengrong.net/post/reading-notes-yujun/)[](https://baike.baidu.com/item/%25E4%25BF%259E%25E5%2586%259B/5349)
 
 ### 2. **Yu Jun’s Theory**
+
 Yu Jun’s product methodology is a fusion of microeconomics, behavioral psychology, and practical product management, forming what some call a “product school of thought.” Key aspects of his theory include:[](https://www.woshipm.com/pmd/3402762.html)
 
 - **Economics and Psychology as Foundations**: He integrates microeconomic concepts like utility, marginal benefits, opportunity costs, and transaction costs with behavioral psychology principles such as loss aversion and anchoring effects. This interdisciplinary approach helps product managers analyze user behavior and design products that align with both user needs and business goals.[](https://www.woshipm.com/pmd/3402762.html)
@@ -43,6 +45,7 @@ Yu Jun’s product methodology is a fusion of microeconomics, behavioral psychol
 His theory is not a step-by-step guide but a framework for thinking critically and systematically about product development. Critics note that its abstract nature can make it challenging to apply directly, but it provides a robust mental model for tackling complex product problems.[](https://www.samirchen.com/rn-the-product-methodology-of-yujun/)[](https://deepinbook.com/yu-jun-product-methodology/yu-jun-product-methodology.html)
 
 ### 3. **Yu Jun’s Story**
+
 Yu Jun’s journey is a remarkable tale of self-transformation and influence in China’s internet industry:
 
 - **Early Life and Entry into Tech**: Born in 1975, Yu Jun graduated from Tongji University in 1997 with a degree in chemistry, not technology. Under the online pseudonym “Search Engine 9238,” he became one of China’s earliest search engine enthusiasts, running a personal website called “Search Research Institute” to study and promote search technology.[](https://book.douban.com/subject/34907971/)[](https://baike.baidu.com/item/%25E4%25BF%259E%25E5%2586%259B/5349)
@@ -58,12 +61,15 @@ Yu Jun’s journey is a remarkable tale of self-transformation and influence in 
 - **Personal Philosophy**: Yu Jun’s story reflects a commitment to continuous learning and self-challenge. He famously said that product managers should strive to “break through one step further” in understanding their craft and that innovation requires conscious effort. His curiosity about whether “conscious innovation is possible” drives his ongoing exploration.[](https://book.douban.com/subject/34907971/)
 
 ### 4. **Critical Perspective**
+
 While Yu Jun’s contributions are widely praised, some critiques exist:
+
 - His methodology is highly abstract, making it difficult for junior product managers to apply without significant experience.[](https://www.samirchen.com/rn-the-product-methodology-of-yujun/)
 - His focus on large-scale products and mature companies may not fully address the needs of early-stage startups, where trial-and-error can yield high rewards for less experienced managers.[](https://blog.zengrong.net/post/reading-notes-yujun/)
 - The Chinese internet’s unique context (e.g., rapid growth, large user bases) shapes his ideas, which may not translate perfectly to other markets.[](https://zhuanlan.zhihu.com/p/27558808)
 
 ### 5. **Conclusion**
+
 Yu Jun’s product ideas emphasize creating profitable user value through a deep understanding of user needs and transaction dynamics, grounded in economic and psychological principles. His theory provides a robust, if abstract, framework for rational decision-making and long-term thinking in product management. His story—from a chemistry graduate to a self-taught product visionary—illustrates resilience, curiosity, and a relentless pursuit of clarity in a complex field. For those interested in diving deeper, his book *Yu Jun’s Product Methodology* is highly recommended, though it requires patience to unpack its dense concepts.[](https://www.samirchen.com/rn-the-product-methodology-of-yujun/)[](https://book.douban.com/subject/34907971/)
 
 If you’d like me to explore specific aspects of his methodology (e.g., applying his formulas) or provide more details about his career, let me know!

@@ -34,11 +34,13 @@ type: note
 ### **它们在 Spring Boot 中如何工作？**
 
 #### **1. Spring Boot 中的默认线程管理**
+
 - 当您启动 Spring Boot Web 应用程序时，嵌入式服务器（例如 Tomcat）会初始化一个线程池来处理传入的 HTTP 请求。
 - 例如，Tomcat 的默认配置可能分配 200 个线程（可通过 `application.properties` 中的 `server.tomcat.threads.max` 进行配置）。
 - 每个传入的请求都会从此线程池中分配一个线程。如果所有线程都处于忙碌状态且有新请求到达，则请求可能会排队（取决于服务器的配置）或被拒绝。
 
 #### **2. Spring Boot 中的执行器**
+
 - Spring Boot 提供了 `TaskExecutor` 接口（Java `Executor` 的扩展）来管理特定任务的自定义线程池。
 - 常见的实现是 `ThreadPoolTaskExecutor`，它允许您配置：
   - **核心池大小**：始终保持活动状态的线程数。
@@ -47,6 +49,7 @@ type: note
   - **线程命名**：便于调试（例如 "my-executor-thread-1"）。
 
   Spring Boot 应用中的配置示例：
+
   ```java
   import org.springframework.context.annotation.Bean;
   import org.springframework.context.annotation.Configuration;
@@ -69,8 +72,10 @@ type: note
   ```
 
 #### **3. 与执行器一起使用 `@Async`**
+
 - Spring Boot 支持使用 `@Async` 注解进行异步方法执行。当您使用 `@Async` 注解一个方法时，它会在由执行器管理的单独线程上运行。
 - 默认情况下，Spring 使用 `SimpleAsyncTaskExecutor`，它为每个任务创建一个新线程（不适用于高负载）。为了优化这一点，您可以提供自己的 `ThreadPoolTaskExecutor`（如上所示）并引用它：
+
   ```java
   @Service
   public class MyService {
@@ -83,8 +88,10 @@ type: note
   ```
 
 #### **4. 任务调度**
+
 - 对于计划任务（例如每 5 分钟运行一次作业），Spring Boot 使用 `ThreadPoolTaskScheduler`。它与 `ThreadPoolTaskExecutor` 类似，但专为调度而设计。
 - 示例：
+
   ```java
   @Scheduled(fixedRate = 5000) // 每 5 秒运行一次
   public void scheduledTask() {
@@ -93,6 +100,7 @@ type: note
   ```
 
 #### **5. 线程与执行器如何交互**
+
 - 当任务被提交给执行器（例如通过 `@Async` 或手动提交）时，执行器决定是否：
   - 使用池中现有的空闲线程。
   - 创建新线程（如果核心池大小已满但未达到最大池大小）。
@@ -103,7 +111,9 @@ type: note
 ---
 
 ### **实际示例**
+
 假设一个 Spring Boot 应用处理用户注册：
+
 - **HTTP 请求线程**：用户提交注册表单，由 Tomcat 线程池中的一个线程处理。
 - **异步任务**：通过 `@Async` 方法将发送确认邮件的工作卸载到 `ThreadPoolTaskExecutor`，因此 HTTP 线程可以立即响应而无需等待邮件发送完成。
 - **计划任务**：每小时运行一次清理作业以删除未验证的账户，由 `ThreadPoolTaskScheduler` 管理。
@@ -111,6 +121,7 @@ type: note
 ---
 
 ### **关键点**
+
 - **执行器** 抽象了线程管理，使得扩展和调整并发性更加容易。
 - **线程** 执行实际工作，其生命周期由执行器或 Web 服务器管理。
 - Spring Boot 的默认配置对于小型应用足够，但对于高负载或复杂应用，您需要配置自定义执行器以优化性能。

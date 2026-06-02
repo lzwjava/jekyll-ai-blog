@@ -21,6 +21,7 @@ type: note
 - **Driving time**: Usually **55–70 minutes** by car, depending on traffic and route (via the National Highway 1 or other expressways).
 
 **Common travel options**:
+
 - **High Speed Rail (THSR / Taiwan High Speed Rail)** — The fastest and most popular option
   - Travel time: **31–36 minutes** (most trains around 34 minutes)
   - Distance covered: About 78–80 km

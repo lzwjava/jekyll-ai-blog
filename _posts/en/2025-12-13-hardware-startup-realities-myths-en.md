@@ -35,6 +35,7 @@ Hardware founders are far more humble and collaborative than their software coun
 Outsourcing core functions like engineering or growth to contractors is a ticking time bomb; it starves you of real market signals and plants maintenance nightmares that erupt later—keep the heart of your product in-house, no matter how painful the early grind, because that's what turns a gadget into a scalable empire.
 
 References:
+
 - [Reddit r/startups: Do you predict hardware startups will continue to get worse in success](https://www.reddit.com/r/startups/comments/19ci5ki/do_you_predict_hardware_startups_will_continue_to/)
 - [Reddit r/ycombinator: Why aren't there more hardware startups?](https://www.reddit.com/r/ycombinator/comments/1gzjpi2/why_arent_there_more_hardware_startups/)
 - [Hardware FYI: Why So Many Startups Fail](https://hardwarefyi.substack.com/p/why-so-many-startups-fail)

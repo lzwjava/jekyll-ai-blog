@@ -12,6 +12,7 @@ type: note
 This is the **Git source code** — the actual distributed version control system written by Linus Torvalds. You're in `/Users/lzwjava/projects/git` which contains the full C source tree of git itself.
 
 Key files you'll find:
+
 - **Core**: `builtin/` (commands), `object-store/`, `refs/`, `diff.c`, `merge.c`
 - **xdiff/**: diff/merge algorithms (patience, histogram)
 - **Transport**: `remote-curl.c`, `send-pack.c`, `fetch-pack.c` (protocol handling)

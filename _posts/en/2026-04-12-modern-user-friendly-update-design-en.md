@@ -36,4 +36,5 @@ It's a great example of developer experience (DX) done right in an open-source A
 If you're using Hermes Agent regularly, this kind of smooth update flow definitely makes maintenance less of a chore and more enjoyable.
 
 References:
-- https://github.com/NousResearch/Hermes-Agent.git
+
+- <https://github.com/NousResearch/Hermes-Agent.git>

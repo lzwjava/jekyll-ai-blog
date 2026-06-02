@@ -21,6 +21,7 @@ Uptime Kuma 已经在 `librechat_default` 上了。让我也将它连接到其�
 | Nextcloud | `nextcloud-app-1` | 80 | ✅ reachable (400 = responding, just needs proper request) |
 
 现在进入 Uptime Kuma 并更新你的 monitor URLs，使用容器名称而不是 IP 地址。例如：
+
 - `http://LibreChat:3080/`
 - `http://gitea:300/`
 - `http://searxng:8080/`

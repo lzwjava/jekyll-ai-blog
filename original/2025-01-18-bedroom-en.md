@@ -60,7 +60,7 @@ type: post
 ![](assets/images/bedroom/b5.jpg)
 *Source: Self Captured*{: .caption }
 
--  **Electronic Devices**: A Wi-Fi router with multiple antennas, a black electronic device (possibly a modem), and blue and white Ethernet cables.
--  **Boxes**: Multiple cardboard boxes of different sizes, one box containing electronic components, and a box with a visible but unclear label.
--  **Miscellaneous Items**: A pink cloth or towel, a white plastic organizer with compartments, and various small items (possibly tools and other objects).
--  **Packaging Materials**: Bubble wrap and plastic bags, and items still in their original packaging.
+- **Electronic Devices**: A Wi-Fi router with multiple antennas, a black electronic device (possibly a modem), and blue and white Ethernet cables.
+- **Boxes**: Multiple cardboard boxes of different sizes, one box containing electronic components, and a box with a visible but unclear label.
+- **Miscellaneous Items**: A pink cloth or towel, a white plastic organizer with compartments, and various small items (possibly tools and other objects).
+- **Packaging Materials**: Bubble wrap and plastic bags, and items still in their original packaging.

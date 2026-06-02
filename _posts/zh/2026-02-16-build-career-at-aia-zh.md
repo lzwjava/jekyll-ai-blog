@@ -29,9 +29,9 @@ AIA 经常强调员工故事、毕业生项目（如某些市场的 Future Leade
 
 AIA 使用 **Workday** 作为其 Corporate 职位的核心招聘平台。
 
-1. 访问 AIA 官方职业页面：前往 https://www.aia.com/en/careers/overview （或特定国家/地区的网站，如 aia.com.hk、aia.com.sg 等，这些网站都会链接到同一个系统）。
+1. 访问 AIA 官方职业页面：前往 <https://www.aia.com/en/careers/overview> （或特定国家/地区的网站，如 aia.com.hk、aia.com.sg 等，这些网站都会链接到同一个系统）。
 
-2. 点击 Corporate 机会的链接，这将跳转至 Workday 门户网站：https://aia.wd3.myworkdayjobs.com/External
+2. 点击 Corporate 机会的链接，这将跳转至 Workday 门户网站：<https://aia.wd3.myworkdayjobs.com/External>
 
 3. 在 Workday 网站上：
    - 使用过滤器（Location、Job function、Time type — Full-time/Part-time 等）浏览或搜索工作。

@@ -11,7 +11,9 @@ type: note
 在 Java 测试中使用 Mockito 时，请按照以下步骤创建模拟对象、桩方法及验证交互：
 
 ### 1. **添加依赖**
+
 在 `pom.xml` (Maven) 中包含 Mockito 和 JUnit：
+
 ```xml
 <dependency>
     <groupId>org.mockito</groupId>
@@ -28,7 +30,9 @@ type: note
 ```
 
 ### 2. **设置测试类**
+
 结合 JUnit 5 使用 Mockito 扩展：
+
 ```java
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -40,6 +44,7 @@ public class UserServiceTest {
 ```
 
 ### 3. **创建模拟对象并注入依赖**
+
 - 使用 `@Mock` 标注需要模拟的依赖项
 - 使用 `@InjectMocks` 将模拟对象注入被测试类
 
@@ -52,7 +57,9 @@ private UserService userService; // UserService 依赖 UserRepository
 ```
 
 ### 4. **桩方法调用**
+
 使用 `when().thenReturn()` 定义模拟行为：
+
 ```java
 @Test
 void getUserById_ReturnsUser_WhenUserExists() {
@@ -67,7 +74,9 @@ void getUserById_ReturnsUser_WhenUserExists() {
 ```
 
 ### 5. **验证交互**
+
 检查模拟方法是否按预期被调用：
+
 ```java
 @Test
 void getUserById_CallsRepository() {
@@ -82,6 +91,7 @@ void getUserById_CallsRepository() {
 ### **常见使用场景**
 
 #### **桩异常抛出**
+
 ```java
 @Test
 void getUserById_ThrowsException_WhenRepositoryFails() {
@@ -92,13 +102,17 @@ void getUserById_ThrowsException_WhenRepositoryFails() {
 ```
 
 #### **参数匹配器**
+
 使用 `any()`, `eq()` 等实现灵活参数匹配：
+
 ```java
 when(userRepository.findById(anyLong())).thenReturn(new User(1L, "Bob"));
 ```
 
 #### **BDD（行为驱动开发）风格**
+
 使用 `given().willReturn()` 提升可读性：
+
 ```java
 import static org.mockito.BDDMockito.*;
 
@@ -114,7 +128,9 @@ void bddStyleExample() {
 ```
 
 #### **参数捕获器**
+
 捕获参数以执行详细断言：
+
 ```java
 @Test
 void saveUser_CapturesArgument() {
@@ -130,11 +146,13 @@ void saveUser_CapturesArgument() {
 ---
 
 ### **关键要点**
+
 - **初始化**：使用 `@ExtendWith(MockitoExtension.class)`（JUnit 5）或在 `@BeforeEach` 中使用 `MockitoAnnotations.openMocks(this)`
 - **静态模拟**：使用 `mockito-inline` 依赖项来模拟静态方法/构造器
 - **监视对象**：使用 `@Spy` 包装真实对象（部分模拟）
 
 ### **故障排除**
+
 - **空模拟对象**：确保模拟对象已完成初始化（使用 `@ExtendWith` 或 `openMocks()`）
 - **桩设置错误**：在测试调用方法前完成桩设置
 

@@ -14,15 +14,16 @@ type: note
 
 这在以下场景中非常有用：
 
-1.  **在手动编辑 `package.json` 后更新 lock file** - 你可以重新生成 `package-lock.json` 以反映你的更改，而无需下载任何内容。
+1. **在手动编辑 `package.json` 后更新 lock file** - 你可以重新生成 `package-lock.json` 以反映你的更改，而无需下载任何内容。
 
-2.  **解决 lock file 冲突** - 如果你正在合并 branches 并且 `package-lock.json` 中存在冲突，你可以运行 `npm install --package-lock-only` 根据当前的 `package.json` 重新生成它。
+2. **解决 lock file 冲突** - 如果你正在合并 branches 并且 `package-lock.json` 中存在冲突，你可以运行 `npm install --package-lock-only` 根据当前的 `package.json` 重新生成它。
 
-3.  **检查将要安装的版本** - 你可以查看解析后的 dependency tree 的样子，而无需实际安装 packages。
+3. **检查将要安装的版本** - 你可以查看解析后的 dependency tree 的样子，而无需实际安装 packages。
 
-4.  **在 CI/CD pipelines 中节省时间** - 如果你只需要为一次 commit 更新 lock file，则不会浪费时间下载 packages。
+4. **在 CI/CD pipelines 中节省时间** - 如果你只需要为一次 commit 更新 lock file，则不会浪费时间下载 packages。
 
 例如：
+
 ```bash
 npm install --package-lock-only
 ```

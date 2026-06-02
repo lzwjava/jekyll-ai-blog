@@ -16,6 +16,7 @@ type: note
 People who live outside their native country (usually for work, retirement, or lifestyle reasons). They are citizens of one country but reside in another, often temporarily or long-term.
 
 **Examples**:
+
 - An American teacher working in Taiwan is an **expat** in Taiwan.
 - A British retiree living in Thailand is an **expat**.
 - Taiwanese professionals working in Singapore or the US are also called **expats**.

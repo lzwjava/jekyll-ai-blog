@@ -31,14 +31,12 @@ Here are some of the best resources and courses to learn algorithmic trading, AI
 - **Machine Learning and Quant Strategies with Python** by freeCodeCamp.org (YouTube): Free video course covering machine learning strategies and portfolio optimization using Python.
 - **Coursera Free Trials and Audit Options**: Many Coursera courses allow free auditing to access lectures and materials without certification.
 
-
 ## Recommended Textbooks and Self-Study
 
 - **Introductory Econometrics for Finance** by Brooks
 - **Time Series Analysis** by Hamilton
 - **Analysis of Financial Time Series** by Tsay
 - **Machine Learning by Andrew Ng** (Coursera) — foundational ML course highly recommended for traders applying AI.
-
 
 ## Summary Recommendations
 
@@ -51,45 +49,19 @@ Choosing a course depends on your current skill level, budget, and career goals,
 
 <div style="text-align: center">⁂</div>
 
-[^1]: https://www.coursera.org/courses?query=algorithmic+trading
+[^1]: <https://www.coursera.org/courses?query=algorithmic+trading>
 
-[^2]: https://www.iiqf.org/courses/certificate-program-in-ai-trading.html
+[^2]: <https://www.iiqf.org/courses/certificate-program-in-ai-trading.html>
 
-[^3]: https://corporatefinanceinstitute.com/resources/career/courses-quantitative-trader/
+[^3]: <https://corporatefinanceinstitute.com/resources/career/courses-quantitative-trader/>
 
-[^4]: https://www.marketfeed.com/read/en/essential-resources-to-learn-algo-trading
+[^4]: <https://www.marketfeed.com/read/en/essential-resources-to-learn-algo-trading>
 
-[^5]: https://digitaldefynd.com/best-algorithmic-trading-courses/
+[^5]: <https://digitaldefynd.com/best-algorithmic-trading-courses/>
 
-[^6]: https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-artificial-intelligence-trading-series
+[^6]: <https://www.sbs.ox.ac.uk/programmes/executive-education/online-programmes/oxford-artificial-intelligence-trading-series>
 
-[^7]: https://www.quantstart.com/articles/Self-Study-Plan-for-Becoming-a-Quantitative-Trader-Part-I/
-
-[^8]: https://paperswithbacktest.com/wiki/best-algorithmic-trading-courses
-
-[^9]: https://www.udemy.com/topic/algorithmic-trading/
-
-[^10]: https://www.bankersbyday.com/algorithmic-trading-courses/
-
-[^11]: https://www.forexvps.net/resources/forex-algorithmic-trading-courses/
-
-[^12]: https://www.reddit.com/r/algotrading/comments/y8fg83/what_is_a_good_course_that_can_teach_you_the/
-
-[^13]: https://www.quantinsti.com/epat
-
-[^14]: https://www.udacity.com/course/ai-for-trading--nd880
-
-[^15]: https://quantra.quantinsti.com/learning-track/guide-quantitative-trading-beginners
-
-[^16]: https://quant.stackexchange.com/questions/79074/first-post-resources-to-learn-algo-trading-quant-development
-
-[^17]: https://www.investopedia.com/the-best-cryptocurrency-trading-courses-8778166
-
-[^18]: https://www.udemy.com/topic/artificial-intelligence/
-
-[^19]: https://quantra.quantinsti.com/learning-track/algorithmic-trading-beginners
-
-[^20]: https://trendspider.com/learning-center/how-to-learn-algorithmic-trading/
+[^7]: <https://www.quantstart.com/articles/Self-Study-Plan-for-Becoming-a-Quantitative-Trader-Part-I/>
 
 ---
 
@@ -98,6 +70,7 @@ Below is a curated list of high-quality resources and courses for learning **alg
 ---
 
 ### **Online Courses**
+
 These courses are ideal for structured learning, covering Python, quantitative finance, AI, and trading strategy development. Many include practical projects and backtesting.
 
 1. **QuantInsti – Executive Programme in Algorithmic Trading (EPAT)**
@@ -166,6 +139,7 @@ These courses are ideal for structured learning, covering Python, quantitative f
 ---
 
 ### **Books**
+
 Books provide in-depth theoretical and practical insights, ideal for self-study or supplementing courses. These are highly recommended by professionals and updated for 2025 relevance.
 
 1. **"Quantitative Trading" by Ernest P. Chan**
@@ -206,6 +180,7 @@ Books provide in-depth theoretical and practical insights, ideal for self-study 
 ---
 
 ### **Blogs and Online Resources**
+
 These platforms offer free or low-cost content, including tutorials, case studies, and strategy guides, ideal for continuous learning.
 
 1. **QuantInsti Blog**
@@ -239,6 +214,7 @@ These platforms offer free or low-cost content, including tutorials, case studie
 ---
 
 ### **Communities and Platforms**
+
 Engaging with communities and platforms provides networking, coding practice, and real-time insights.
 
 1. **Reddit – r/algotrading**
@@ -272,6 +248,7 @@ Engaging with communities and platforms provides networking, coding practice, an
 ---
 
 ### **Free and Low-Cost Resources**
+
 For budget-conscious learners, these options provide high value at little to no cost.
 
 1. **YouTube – Algorithmic Trading Workshop 2023 (3-Hour Free Course)**
@@ -298,11 +275,13 @@ For budget-conscious learners, these options provide high value at little to no 
 ---
 
 ### **Recommendations by Experience Level**
+
 - **Beginners**: Start with **freeCodeCamp’s Algorithmic Trading with Python**, **Quantra’s Quantitative Trading for Beginners**, or **Udemy’s Introduction to Algorithmic Trading**. Supplement with **"Inside the Black Box"** and **QuantInsti Blog**.
 - **Intermediate**: Try **Udacity’s AI for Trading**, **Coursera’s ML for Trading**, or **AlgoTrading101**. Read **"Quantitative Trading"** and join **r/algotrading**.
 - **Advanced**: Enroll in **QuantInsti’s EPAT**, **Oxford’s Algo Trading Programme**, or **Udemy’s Algorithmic Trading A-Z**. Study **"Machine Learning for Algorithmic Trading"** and experiment on **QuantConnect**.
 
 ### **Tips for Success**
+
 - **Learn Python**: It’s the dominant language for algo trading (Pandas, NumPy, Scikit-Learn, TensorFlow). Practice on platforms like LeetCode or HackerRank.
 - **Master Backtesting**: Understand data preparation, bias removal, and performance metrics (Sharpe, Sortino ratios). Use tools like Blueshift or QuantConnect.
 - **Start Small**: Test strategies with paper trading (virtual money) before risking capital. Brokers like Interactive Brokers or OANDA are beginner-friendly.

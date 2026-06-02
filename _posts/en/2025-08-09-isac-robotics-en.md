@@ -19,6 +19,7 @@ NVIDIA’s Isaac platform is a comprehensive robotics development ecosystem desi
 - **Isaac ROS**: Built on ROS 2, it integrates NVIDIA’s accelerated libraries for faster development of autonomous robots.[](https://www.nvidia.com/en-us/industries/robotics/)
 
 Recent news highlights NVIDIA’s push in robotics:
+
 - **Amazon Robotics** deployed its first fully autonomous robot using Isaac Sim, showcasing its real-world application.
 - At **GTC Paris 2025**, NVIDIA emphasized Isaac’s role in advancing humanoid robotics, with companies like Universal Robots and Vorwerk adopting it for AI-driven automation.[](https://blogs.nvidia.com/blog/european-robot-makers-isaac-omniverse-halos-safe-physical-ai/)
 - A blog post by NVIDIA triggered a 483% stock surge for Cyngn Inc. on June 26, 2025, after highlighting its use of Isaac for autonomous industrial vehicles, demonstrating the platform’s market influence.[](https://timesofindia.indiatimes.com/technology/tech-news/nvidias-one-line-has-led-to-almost-500-jump-in-this-technology-companys-stock-biggest-single-day-surge-of-2025-on-wall-street/articleshow/122096050.cms)

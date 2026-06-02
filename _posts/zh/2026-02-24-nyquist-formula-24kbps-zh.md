@@ -16,6 +16,7 @@ type: note
 Nyquist formula 决定了无噪信道中的最大数据传输速率。以下是解决方案：
 
 **Given Information:**
+
 - Channel bandwidth (H) = 3 KHz
 - Number of discrete signal levels (N) = 16
 
@@ -26,6 +27,7 @@ Nyquist formula 决定了无噪信道中的最大数据传输速率。以下是�
 **Maximum symbol rate = 2 × H**
 
 因此：
+
 - Maximum symbol rate = 2 × 3 KHz = 6 kilobaud (symbols per second)
 
 数据传输速率与符号率的关系为：
@@ -35,6 +37,7 @@ Nyquist formula 决定了无噪信道中的最大数据传输速率。以下是�
 其中 log₂(N) 表示每个符号的比特数。
 
 由于 N = 16：
+
 - log₂(16) = 4 bits per symbol
 
 因此：

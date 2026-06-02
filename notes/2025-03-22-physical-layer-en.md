@@ -19,9 +19,11 @@ The Physical Layer is the foundation of computer networking. It deals with the p
 ---
 
 ### **1. Transmission Media**
+
 The transmission medium is the physical path that carries data signals between devices. It’s divided into **wired** (guided) and **wireless** (unguided) media.
 
 #### **Wired Transmission Media**
+
 - **Twisted Pair**
   - **Description**: Two insulated copper wires twisted together to reduce interference (electromagnetic noise).
   - **Types**:
@@ -48,6 +50,7 @@ The transmission medium is the physical path that carries data signals between d
   - **Example**: Internet backbones, high-speed networks.
 
 #### **Wireless Transmission Media**
+
 - **Radio Waves**
   - **Description**: Electromagnetic waves (3 kHz to 3 GHz) that travel through air.
   - **Pros**: Wide coverage, no physical cables.
@@ -61,6 +64,7 @@ The transmission medium is the physical path that carries data signals between d
   - **Example**: Satellite communication, cellular towers.
 
 #### **Study Tips**
+
 - **Visualize**: Draw diagrams of twisted pair, coaxial, and fiber optic cables to see their structure.
 - **Compare**: Make a table comparing wired vs. wireless media (cost, speed, distance, interference).
 - **Real-World**: Identify examples in your home (e.g., Wi-Fi for radio waves, Ethernet for twisted pair).
@@ -68,14 +72,17 @@ The transmission medium is the physical path that carries data signals between d
 ---
 
 ### **2. Signal Encoding Techniques**
+
 Signal encoding converts data (bits: 0s and 1s) into signals for transmission. It’s split into **analog** (continuous waves) and **digital** (discrete levels).
 
 #### **Analog vs. Digital Signals**
+
 - **Analog**: Continuous waveform (e.g., sound waves).
 - **Digital**: Discrete values (e.g., 0V for 0, 5V for 1).
 - **Why Encode?**: To match the medium and ensure accurate data transfer.
 
 #### **Common Encoding Techniques**
+
 - **Digital to Digital (e.g., for wired media)**
   - **NRZ (Non-Return-to-Zero)**: 0 = low voltage, 1 = high voltage. Simple but prone to synchronization issues.
   - **Manchester**: Bit represented by a transition (e.g., low-to-high = 1, high-to-low = 0). Used in Ethernet.
@@ -92,6 +99,7 @@ Signal encoding converts data (bits: 0s and 1s) into signals for transmission. I
   - **Example**: Digitizing audio for phone calls.
 
 #### **Study Tips**
+
 - **Diagrams**: Sketch waveforms for NRZ, Manchester, ASK, FSK, and PSK to see differences.
 - **Practice**: Encode a binary string (e.g., 1010) using Manchester and NRZ.
 - **Understand Purpose**: Ask: Why does Manchester prevent sync issues? (Hint: Transitions provide a clock.)
@@ -99,9 +107,11 @@ Signal encoding converts data (bits: 0s and 1s) into signals for transmission. I
 ---
 
 ### **3. Data Transmission Basics**
+
 This section covers how data moves efficiently and reliably across the physical layer.
 
 #### **Key Concepts**
+
 - **Bandwidth**
   - **Definition**: Range of frequencies a medium can carry (measured in Hz).
   - **Impact**: Higher bandwidth = more data (bits per second).
@@ -122,6 +132,7 @@ This section covers how data moves efficiently and reliably across the physical 
   - **Solution**: Shielding (STP), error detection (higher layers).
 
 #### **Study Tips**
+
 - **Formulas**: Learn Shannon’s Capacity:
   \\( C = B \log_2(1 + S/N) \\)
   Where \\( C \\) = capacity (bps), \\( B \\) = bandwidth (Hz), \\( S/N \\) = signal-to-noise ratio.
@@ -131,9 +142,11 @@ This section covers how data moves efficiently and reliably across the physical 
 ---
 
 ### **4. Hardware Components**
+
 These are the physical devices that support data transmission at the Physical Layer.
 
 #### **Key Devices**
+
 - **Hubs**
   - **Function**: Connects multiple devices in a network, broadcasting data to all ports.
   - **Pros**: Simple, cheap.
@@ -151,6 +164,7 @@ These are the physical devices that support data transmission at the Physical La
   - **Role**: Physical medium for signal transmission.
 
 #### **Study Tips**
+
 - **Compare**: Hubs vs. repeaters ( hubs connect devices, repeaters extend signals).
 - **Diagram**: Draw a network with a hub connecting PCs and a repeater extending a cable.
 - **Real-World**: Check your router—modern devices replace hubs with switches (Layer 2).
@@ -158,6 +172,7 @@ These are the physical devices that support data transmission at the Physical La
 ---
 
 ### **Learning Plan**
+
 1. **Day 1: Transmission Media**
    - Read notes, draw diagrams, compare wired vs. wireless.
    - Quiz: Name 2 pros and cons of fiber optics.
@@ -181,6 +196,7 @@ These are the physical devices that support data transmission at the Physical La
 ---
 
 ### **Additional Resources**
+
 - **Books**: "Computer Networks" by Andrew Tanenbaum (simple explanations).
 - **Online**: Khan Academy or YouTube for visual tutorials on encoding/signal concepts.
 - **Practice**: Use simulators like Packet Tracer to see physical layer setups.

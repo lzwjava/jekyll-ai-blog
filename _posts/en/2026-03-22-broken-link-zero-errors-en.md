@@ -16,7 +16,7 @@ That's a massive blog with ~1,500 links. Let me extract all unique hrefs and bat
 ## 🔍 Broken Link Scan: lzwjava.github.io
 
 **Date:** 2026-03-2 03:48 GMT+8
-**URL:** https://lzwjava.github.io
+**URL:** <https://lzwjava.github.io>
 **Engine:** Jekyll (GitHub Pages)
 
 ---

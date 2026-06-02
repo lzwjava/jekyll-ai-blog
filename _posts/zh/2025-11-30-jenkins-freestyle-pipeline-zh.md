@@ -46,6 +46,7 @@ type: note
 | 维护 10 年以上历史的 Jenkins 实例            | 逐步迁移至 Pipeline    |
 
 ### 快速迁移建议
+
 当前大多数团队将**自由风格视为遗留方案**。
 Jenkins 甚至推出了“从自由风格生成 Pipeline”工具（Job DSL 或 Pipeline 语法片段生成器）以协助转换。
 

@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: How do I configure OpenClaw to use a Claude relay service like https://v2-as.pincc.ai/ (a PinCC relay), while currently using OpenRouter? The config doesn't have a "models" section, and it uses an "auth" section with profiles like "openrouter:default".
+Question: How do I configure OpenClaw to use a Claude relay service like <https://v2-as.pincc.ai/> (a PinCC relay), while currently using OpenRouter? The config doesn't have a "models" section, and it uses an "auth" section with profiles like "openrouter:default".
 
 Answer:
 
@@ -106,6 +106,7 @@ Update the agent defaults:
 ```
 
 **Step 4 — Validate, restart, and test**
+
 - Validate JSON: `python3 -m json.tool ~/.openclaw/openclaw.json`
 - Restart: `openclaw restart` (or `sudo systemctl restart openclaw` if running as service)
 - List models: `openclaw models list` — look for `pincc/...` entries

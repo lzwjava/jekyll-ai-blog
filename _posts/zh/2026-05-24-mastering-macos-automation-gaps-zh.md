@@ -16,6 +16,7 @@ type: note
 ## 你的代码已经告诉我什么
 
 你熟悉以下内容：
+
 - **plistlib** — 读取二进制 plist（Dock）
 - **networksetup** — 系统代理配置
 - **pmset** — 电源/电池管理
@@ -54,7 +55,7 @@ yabai -m window --focus east
 
 你将学到：macOS Accessibility API、SIP（System Integrity Protection）——yabai 需要部分关闭 SIP 才能使用全部功能，这能让你精确了解 SIP 保护了什么以及如何工作。同时还能从 API 层面学习 macOS Spaces（虚拟桌面）。
 
-https://github.com/koekeishiya/yabai
+<https://github.com/koekeishiya/yabai>
 
 ### 2. skhd — 全局热键守护程序（与 yabai 配合使用）
 
@@ -70,7 +71,7 @@ alt - l : yabai -m window --focus east
 
 你将学到：macOS 如何在系统层面捕获键盘事件（CGEventTap、IOKit HID），以及输入监控权限的工作原理。
 
-https://github.com/koekeishiya/skhd
+<https://github.com/koekeishiya/skhd>
 
 ### 3. screencapture + Shortcuts CLI — 完善你的截图流程
 
@@ -168,7 +169,7 @@ cat $(which m)
 
 它封装了约 200 个 macOS 管理任务：Airport、蓝牙、DNS、防火墙、Time Machine、FileVault、家长控制、屏幕共享等等。每个命令都能教会你一个之前不知道的原生 macOS 工具。
 
-https://github.com/rgcr/m-cli
+<https://github.com/rgcr/m-cli>
 
 ### 7. osx-cpu-temp / iStats — 温度监控
 
@@ -179,7 +180,7 @@ osx-cpu-temp  # 从 IOKit SMC（系统管理控制器）读取
 
 你将学到：SMC（System Management Controller）——管理温度、风扇、电池充电的嵌入式芯片。IOKit SMC 访问让你能够在硬件层面读取 CPU 内部温度、风扇转速和电池健康度。
 
-源码：https://github.com/lavoiesl/osx-cpu-temp
+源码：<https://github.com/lavoiesl/osx-cpu-temp>
 
 ### 8. macos-defaults — 配置目录
 

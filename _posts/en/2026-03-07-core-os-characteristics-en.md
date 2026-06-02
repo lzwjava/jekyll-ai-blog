@@ -24,21 +24,25 @@ This is a classic foundational question in operating systems theory, particularl
 ### ✅ The Four Correct Characteristics
 
 #### 1. Concurrency (并发性)
+
 Concurrency refers to the capability of an OS to handle more than one task or process at the same time, thereby enhancing efficiency and responsiveness. It may be supported by multi-threading or multi-processing, whereby more than one process or thread is executed simultaneously or in an interleaved fashion.
 
 In a multiprogramming environment, multiple processes exist in memory simultaneously and take turns using the CPU. This is the most fundamental characteristic of a modern OS — without it, true multitasking would be impossible.
 
 #### 2. Sharing (共享性)
+
 On modern personal computers, the operating system gives each application a share of resources, either in time (CPU) or space (memory), to ensure no one program can monopolize limited hardware.
 
 Sharing means that system resources (CPU, memory, I/O devices, files) are shared among multiple concurrently running processes, either in a mutually exclusive manner or by simultaneous access.
 
 #### 3. Virtuality (虚拟性)
+
 Virtual memory provides the programmer or user with the perception that there is a much larger amount of RAM in the computer than is really there. Virtualization also enables the operating system to mask limited hardware resources.
 
 The OS uses techniques like virtual memory, virtual CPUs (time-sharing), and virtual devices to give each user/process the illusion of having dedicated resources, even when physical resources are limited and shared.
 
 #### 4. Asynchrony (异步性)
+
 The result of execution of cooperating processes depends on the relative execution sequence and cannot be predicted in advance (non-deterministic). The result of execution will not always be the same for the same input.
 
 In a multitasking OS, processes proceed at unpredictable speeds — they may be interrupted, suspended, or resumed at any time. The OS must handle this non-deterministic behavior correctly. This is asynchrony: processes do not proceed at a fixed, predictable pace.

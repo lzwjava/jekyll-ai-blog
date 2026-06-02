@@ -23,19 +23,24 @@ id_ed25519.pub   → Public Key (share freely, paste into servers)
 For **Ed25519** (the modern standard), this is what they actually contain:
 
 **Private key** (`id_ed25519`):
+
 ```
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtz
 c2gtZWQyNTUxOQAAACB4G3kR2f8J...  (base64 encoded binary data)
 -----END OPENSSH PRIVATE KEY-----
 ```
+
 Contains: your **private scalar** (a 256-bit secret number) + your **public key** + metadata.
 
 **Public key** (`id_ed25519.pub`):
+
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTRoCy6Uo67vc1CJSAAnZQCHftNB5kbq9jf8ZsEsa+o lzwjava@gmail.com
 ```
+
 Three parts:
+
 | Part | Value | Meaning |
 |------|-------|---------|
 | `ssh-ed25519` | Key type | Algorithm used |
@@ -147,6 +152,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMTRoCy6Uo67vc1CJSAAnZQCHftNB5kbq9jf8ZsEsa+o
 ```
 
 Key details:
+
 | Part | Purpose |
 |------|---------|
 | `command="...gitea serv key-1"` | Forces the connection into Gitea's handler (not a shell) |

@@ -28,11 +28,13 @@ DigitalOcean GPU Droplet 是配备高性能 AMD GPU 的虚拟化服务器，提�
 您可以在两种硬件配置中选择，两者均采用 **AMD Instinct MI300X** GPU：
 
 ### MI300X x8（8-GPU 方案）
+
 - 8 个 GPU，总显存 1.5 TB，160 vCPU，1920 GB
 - 启动磁盘：2 TB NVMe | 临时磁盘：40 TB NVMe
 - **$1.99/GPU/小时**（= 8 个 GPU 总计约 $15.92/小时）
 
 ### MI300X x1（单 GPU 方案）
+
 - 1 个 GPU，192 GB 显存，20 vCPU
 - 启动磁盘：720 GB NVMe | 临时磁盘：5 TB NVMe
 - **$1.99/GPU/小时**
@@ -48,9 +50,11 @@ MI300X 基于下一代 AMD CDNA 3 架构，为最严苛的 AI 和 HPC 应用提�
 此部分可让您选择 Droplet 上预装的操作系统和预装软件栈。
 
 ### 裸操作系统
+
 - **ROCm 软件** — 预装 AMD ROCm 驱动栈的纯净操作系统。您可自行手动安装任何 AI 工具。适合希望完全控制环境的用户。
 
 ### 快速启动包
+
 这些是基于 Docker 的预配置环境，内含可直接使用的 JupyterLab 笔记本，可通过 SSH 或浏览器访问。每个包将 ROCm 与特定 AI 框架集成：
 
 | 包名称 | 版本 | 用途 |

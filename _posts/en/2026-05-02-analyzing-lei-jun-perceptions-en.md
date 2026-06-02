@@ -157,7 +157,7 @@ Not really comparable.
 
 ## 7. Overall evaluation
 
-### The comments are:
+### The comments are
 
 * ✅ **Partly correct** (market position, premium weakness)
 * ⚠️ **Partly emotional** (morality, “bad character”)

@@ -60,6 +60,7 @@ Embeddings in GPT-style Transformers are **not a standalone feature to be traine
 In the era of GPT-2, the input embedding and the output unembedding were the same. Nowadays, embedding and unembedding matrices are **learned separately**.
 
 This means:
+
 - **Input side**: token ID → embedding vector (fed into attention layers)
 - **Output side**: the final hidden state → projected back to vocabulary logits (a separate matrix)
 

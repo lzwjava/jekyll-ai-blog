@@ -15,6 +15,7 @@ I'll search for comprehensive information about Avery Dennison to give you a tho
 **Avery Dennison Corporation** is an American multinational manufacturer and distributor of pressure-sensitive adhesive materials (such as self-adhesive labels), apparel branding labels and tags, RFID inlays, and specialty medical products. The company describes itself as a materials science and digital identification solutions provider that bridges the physical and digital worlds.
 
 ### Key Statistics
+
 - **Founded:** 1935 by Ray Stanton ("Stan") Avery
 - **Headquarters:** Mentor, Ohio
 - **Employees:** Approximately 35,000 worldwide
@@ -32,6 +33,7 @@ The modern company formed in 1990 when Avery International merged with Dennison 
 ### Core Business Segments
 
 **1. Materials Group**
+
 - Pressure-sensitive label materials (papers, plastic films, metal foils)
 - Performance tapes and adhesive-based products
 - Graphics and reflective products for architectural, commercial signage, and digital printing
@@ -39,6 +41,7 @@ The modern company formed in 1990 when Avery International merged with Dennison 
 - Brands include Fasson, JAC, Mactac, and Avery Dennison
 
 **2. Solutions Group**
+
 - Apparel branding labels, tags, and embellishments
 - RFID (Radio-Frequency Identification) inlays and tags for retail and supply chain
 - Barcode labels, tickets, and tracking systems
@@ -48,6 +51,7 @@ The modern company formed in 1990 when Avery International merged with Dennison 
 ### Industries Served
 
 Avery Dennison's products touch nearly every major industry:
+
 - Retail apparel and general retail
 - Food and grocery
 - E-commerce and logistics
@@ -67,6 +71,7 @@ Avery Dennison emphasizes sustainability and circularity, working toward 2025 su
 ### Strategic Acquisitions
 
 The company has grown through strategic acquisitions:
+
 - **2007:** Acquired Paxar (retail supply chain identification systems)
 - **2016:** Acquired Mactac (European business) and Ink Mill Corporation
 - **2016:** Invested in PragmatIC for intelligent packaging expansion

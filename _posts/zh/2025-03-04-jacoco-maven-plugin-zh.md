@@ -15,6 +15,7 @@ type: note
 ### **使用 JaCoCo Maven 插件的步骤**
 
 #### **1. 将 JaCoCo Maven 插件添加到 `pom.xml`**
+
 要使用 JaCoCo Maven 插件，您需要将其包含在项目 `pom.xml` 文件的 `<build><plugins>` 部分。以下是一个基本配置，用于设置该插件：
 
 ```xml
@@ -49,7 +50,9 @@ type: note
   - **`<goal>report</goal>`**：在测试运行后生成覆盖率报告。此处将其绑定到 `verify` 阶段，该阶段在 `test` 阶段之后发生，确保所有测试数据可用。
 
 #### **2. 确保测试已配置**
+
 JaCoCo 插件通过分析测试执行（通常是由 Maven Surefire 插件运行的单元测试）来工作。在大多数 Maven 项目中，Surefire 默认包含在内，并运行位于 `src/test/java` 中的测试。除非您的测试是非标准的，否则不需要额外配置。请验证：
+
 - 您已编写单元测试（例如使用 JUnit 或 TestNG）。
 - Surefire 插件存在（在大多数情况下，它是从默认的 Maven 父 POM 继承的）。
 
@@ -66,6 +69,7 @@ JaCoCo 插件通过分析测试执行（通常是由 Maven Surefire 插件运行
 `prepare-agent` 目标通过修改 `argLine` 属性来设置 JaCoCo 代理，Surefire 使用该属性在启用覆盖率跟踪的情况下运行测试。
 
 #### **3. 运行 Maven 构建**
+
 要生成覆盖率报告，请在项目目录中执行以下命令：
 
 ```bash
@@ -86,6 +90,7 @@ mvn test
 但是，由于在此配置中 `report` 目标绑定到 `verify`，您需要运行 `mvn verify` 才能看到报告。如果您希望报告在 `mvn test` 期间生成，可以将 `report` 执行的 `<phase>` 更改为 `test`，但 `verify` 是常见的约定。
 
 #### **4. 查看覆盖率报告**
+
 运行 `mvn verify` 后，JaCoCo 默认会生成一个 HTML 报告。您可以在以下位置找到它：
 
 ```
@@ -98,6 +103,7 @@ target/site/jacoco/index.html
 ---
 
 ### **可选自定义**
+
 对于更高级的用例，您可以调整插件配置：
 
 - **排除类或包**：
@@ -154,7 +160,9 @@ target/site/jacoco/index.html
 ---
 
 ### **总结**
+
 要使用 JaCoCo Maven 插件：
+
 1. 将插件添加到 `pom.xml`，包含 `prepare-agent` 和 `report` 目标。
 2. 确保项目已配置测试（通常通过 Surefire）。
 3. 运行 `mvn verify` 以生成覆盖率报告。

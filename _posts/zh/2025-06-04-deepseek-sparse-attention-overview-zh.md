@@ -71,8 +71,8 @@ DSA 机制通过几项关键创新运作：
 DSA 机制对于长上下文建模特别有价值，因为传统注意力机制由于随序列长度呈二次缩放而变得极其昂贵[2][3]。
 
 引用：
-[1] https://dev.to/czmilo/deepseek-v32-exp-complete-analysis-2025-ai-model-breakthrough-and-in-depth-analysis-of-sparse-3gcl
-[2] https://arxiv.org/pdf/2502.11089
-[3] https://arxiv.org/abs/2502.11089
-[4] https://api-docs.deepseek.com/news/news250929
-[5] https://github.com/deepseek-ai/DeepSeek-V3.2-Exp
+[1] <https://dev.to/czmilo/deepseek-v32-exp-complete-analysis-2025-ai-model-breakthrough-and-in-depth-analysis-of-sparse-3gcl>
+[2] <https://arxiv.org/pdf/2502.11089>
+[3] <https://arxiv.org/abs/2502.11089>
+[4] <https://api-docs.deepseek.com/news/news250929>
+[5] <https://github.com/deepseek-ai/DeepSeek-V3.2-Exp>

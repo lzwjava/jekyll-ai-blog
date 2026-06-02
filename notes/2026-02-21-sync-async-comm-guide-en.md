@@ -14,6 +14,7 @@ Here’s a concise comparison of **synchronous** and **asynchronous communicatio
 ---
 
 ### **1. Definition**
+
 - **Synchronous Communication**: Happens in real-time, requiring all participants to be present and engaged simultaneously (e.g., phone calls, video conferences, face-to-face meetings).
 - **Asynchronous Communication**: Occurs with a time lag, allowing participants to respond at their convenience (e.g., emails, text messages, discussion forums).
 
@@ -33,6 +34,7 @@ Here’s a concise comparison of **synchronous** and **asynchronous communicatio
 ---
 
 ### **3. Advantages**
+
 - **Synchronous**:
   - Immediate feedback and clarity.
   - Stronger personal connection and team bonding.
@@ -46,6 +48,7 @@ Here’s a concise comparison of **synchronous** and **asynchronous communicatio
 ---
 
 ### **4. Disadvantages**
+
 - **Synchronous**:
   - Can disrupt workflow and productivity.
   - Excludes participants in different time zones.
@@ -59,6 +62,7 @@ Here’s a concise comparison of **synchronous** and **asynchronous communicatio
 ---
 
 ### **5. When to Use Which**
+
 - **Use Synchronous** for:
   - Urgent decisions, brainstorming, or complex discussions.
   - Team-building or sensitive conversations.

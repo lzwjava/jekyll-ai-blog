@@ -75,6 +75,7 @@ node {
 - **`if`**: Checks if `MY_STRING` equals `'test'` and prints a message accordingly. You can modify the condition and actions as needed.
 
 ### Notes
+
 - This example assumes a scripted pipeline, which offers more flexibility with Groovy syntax. If you need a declarative pipeline instead, the structure would differ slightly (e.g., using `pipeline` and `script` blocks for Groovy code).
 - The `myLibraryFunction()` call is a placeholder. Ensure that your shared library defines this function, or replace it with an actual function from your library.
 - You can expand this Jenkinsfile by adding stages (e.g., `stage('Build')`) or more complex logic depending on your requirements.

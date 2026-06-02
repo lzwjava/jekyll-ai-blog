@@ -14,7 +14,8 @@ type: note
 
 这是一个基于 Java Spring Boot 的控制器（`FileController`），用于处理通过 HTTP POST 请求上传的文件。它集成了**阿里云对象存储服务（OSS）**，将上传的文件存储在云端。该代码专注于图片上传（限制为 JPEG/PNG 格式），并提供了一个简单的无需认证的端点。它在处理过程中使用本地临时文件存储，之后会将其删除。
 
-#### 关键组件与流程：
+#### 关键组件与流程
+
 1. **类结构**：
    - 这是一个映射到基础路径 `"file"` 的 `@RestController`，继承自 `BaseController`（可能用于共享逻辑）。
    - 主要方法是 `upload()`，映射到 `"/file/upload"`。
@@ -57,7 +58,8 @@ type: note
 
    - **错误处理**：使用自定义异常（`LQException`）处理验证和上传失败，确保应用程序范围内一致的错误响应。
 
-#### 安全注意事项：
+#### 安全注意事项
+
 - 硬编码凭据是一个主要问题——请使用环境变量、AWS SSM 或阿里云 KMS。
 - 端点和存储桶不完整——在实际使用中请填写它们。
 - 没有认证（`@NoAuth`）意味着任何人都可以上传；如果需要，请添加认证（例如通过 JWT）。
@@ -70,15 +72,18 @@ type: note
 1. **`import com.aliyun.oss.OSSClient;`**：
    - 用于 OSS 操作的主要客户端类（现已弃用，推荐使用 `OSSClientBuilder`，但在旧代码库中仍可使用）。
    - **用法**：创建一个实例以连接到 OSS。
+
      ```java
      OSSClient ossClient = new OSSClient(ENDPOINT, ACCESS_KEY_ID, SECRET_ACCESS_KEY);
      // 然后使用诸如 putObject()、getObject()、deleteObject() 等方法。
      ```
+
    - **在此处的原因**：用于认证并将文件上传到指定的存储桶。
 
 2. **`import com.aliyun.oss.ClientException;`**：
    - 因客户端问题（例如网络故障、无效凭据）而抛出。
    - **用法**：捕获它以处理错误。
+
      ```java
      try {
          // OSS 操作
@@ -86,11 +91,13 @@ type: note
          // 处理客户端错误（例如重试或记录日志）
      }
      ```
+
    - **在此处的原因**：在上传方法中被捕获，以实现弹性错误处理。
 
 3. **`import com.aliyun.oss.OSSException;`**：
    - 因 OSS 服务端错误（例如存储桶未找到、权限被拒绝）而抛出。
    - **用法**：类似于 `ClientException`，但特定于服务。
+
      ```java
      try {
          // OSS 操作
@@ -98,30 +105,37 @@ type: note
          // 记录 e.getErrorCode() 和 e.getErrorMessage()
      }
      ```
+
    - **在此处的原因**：被捕获以通过 `LQException` 提供用户友好的失败消息。
 
 4. **`import com.aliyun.oss.model.PutObjectRequest;`**：
    - 一个用于构建上传请求的模型类（包括存储桶、键、文件/输入流、元数据）。
    - **用法**：
+
      ```java
      PutObjectRequest request = new PutObjectRequest(BUCKET, KEY, FILE);
      // 可选：添加元数据，例如 request.setObjectMetadata(metadata);
      ossClient.putObject(request);
      ```
+
    - **在此处的原因**：用于指定上传详情（存储桶、键、本地文件）。
 
 5. **`import com.aliyun.oss.model.PutObjectResult;`**：
    - 由 `putObject()` 返回；包含上传元数据（例如用于完整性检查的 ETag）。
    - **用法**：
+
      ```java
      PutObjectResult result = ossClient.putObject(request);
      String etag = result.getETag();  // 用于验证
      ```
+
    - **在此处的原因**：被赋值但未在代码中深入使用（可以记录用于调试）。
 
-#### 设置与集成提示：
+#### 设置与集成提示
+
 - **替换占位符**：使用真实值更新 `BUCKET` 和 `FILE_HOST`。确保您的阿里云账户允许 OSS 访问。
 - **Maven 依赖项**（添加到 `pom.xml`）：
+
   ```xml
   <dependency>
       <groupId>com.aliyun.oss</groupId>
@@ -129,6 +143,7 @@ type: note
       <version>3.17.4</version>  <!-- 使用最新的稳定版本 -->
   </dependency>
   ```
+
 - **测试**：使用诸如 Postman 的工具发送一个带有文件参数的 POST 请求到 `/file/upload`。响应应该是一个包含文件 URL 的 JSON 对象。
 - **完整的 OSS 文档**：参考[阿里云 OSS Java SDK 文档](https://help.aliyun.com/document_detail/31856.html)以了解高级功能，如元数据、ACL 或多部分上传。
 

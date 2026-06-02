@@ -32,10 +32,10 @@ These views challenge the glamour around growth roles, emphasizing that real pro
 
 References:
 
-- https://www.reddit.com/r/ProductManagement/comments/1bf7xr0/what_are_your_unpopular_opinions_as_a_product/
-- https://www.reddit.com/r/ProductManagement/comments/gp8yd3/growth_product_management/
-- https://www.reddit.com/r/ProductManagement/comments/1anzk7o/any_growth_product_managers/
-- https://www.reddit.com/r/ProductManagement/comments/su0izr/wtf_is_a_growth_pm/
-- https://www.reddit.com/r/ProductManagement/comments/1d7b0bv/what_are_the_pro_and_cons_of_growth_product/
-- https://startupnaama.com/2025/05/29/18-unpopular-startup-opinions-that-might-actually-be-true/
-- https://andrewchen.substack.com/p/10-years-after-growth-hacking
+- <https://www.reddit.com/r/ProductManagement/comments/1bf7xr0/what_are_your_unpopular_opinions_as_a_product/>
+- <https://www.reddit.com/r/ProductManagement/comments/gp8yd3/growth_product_management/>
+- <https://www.reddit.com/r/ProductManagement/comments/1anzk7o/any_growth_product_managers/>
+- <https://www.reddit.com/r/ProductManagement/comments/su0izr/wtf_is_a_growth_pm/>
+- <https://www.reddit.com/r/ProductManagement/comments/1d7b0bv/what_are_the_pro_and_cons_of_growth_product/>
+- <https://startupnaama.com/2025/05/29/18-unpopular-startup-opinions-that-might-actually-be-true/>
+- <https://andrewchen.substack.com/p/10-years-after-growth-hacking>

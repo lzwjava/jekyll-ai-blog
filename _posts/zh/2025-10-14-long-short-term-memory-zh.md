@@ -52,6 +52,7 @@ LSTM 单元在时间步 \\( t \\) 处理输入序列 \\( x_t \\)，根据先前�
 
 细胞状态 \\( c_t \\) 更新如下：
 \\[ c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t \\]
+
 - 第一项：忘记过去不相关的信息。
 - 第二项：添加新的相关信息。
 
@@ -128,6 +129,7 @@ model.compile(optimizer='adam', loss='mse')
 LSTM 彻底改变了序列建模，为当今的人工智能进步铺平了道路。如果您想深入研究，请专注于通过 LSTM 流程图等可视化工具来理解门控机制。
 
 ## 参考文献
+
 - [原始 LSTM 论文：Long Short-Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf)
 - [Colah 的博客：理解 LSTM 网络](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Towards Data Science：LSTM 及其图解简介](https://towardsdatascience.com/understanding-lstm-and-its-diagrams-37e2f46f1714)

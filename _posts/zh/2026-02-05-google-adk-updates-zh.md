@@ -76,8 +76,8 @@ ADK 支持多种构建多智能体系统的模式：
 
 ## 资源
 
-- **文档**: https://google.github.io/adk-docs/
-- **GitHub**: https://github.com/google/adk-python
-- **Google Cloud 文档**: https://cloud.google.com/agent-builder/agent-development-kit/overview
+- **文档**: <https://google.github.io/adk-docs/>
+- **GitHub**: <https://github.com/google/adk-python>
+- **Google Cloud 文档**: <https://cloud.google.com/agent-builder/agent-development-kit/overview>
 
 ADK 代表了 Google 让 agentic AI 开发更易触达的愿景，它将开源软件的灵活性与 Google AI 及云生态系统的深度集成相结合。

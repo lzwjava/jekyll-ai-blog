@@ -50,6 +50,7 @@ A **transaction table** in a banking system typically stores details of all fina
 ---
 
 ### **How These Fields Are Used in Banking**
+
 1. **Transaction Tracking:** Every transaction has a unique ID and can be tracked through its status.
 2. **Account Reconciliation:** Helps in matching debits and credits for accurate financial records.
 3. **Fraud Detection:** Suspicious transactions can be flagged using fraud check status and monitoring transaction patterns.

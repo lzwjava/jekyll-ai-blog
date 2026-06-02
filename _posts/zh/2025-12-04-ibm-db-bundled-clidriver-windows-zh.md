@@ -31,12 +31,14 @@ pip install ibm_db_clidriver
 ```
 
 就这样。现在这在任何地方都适用：
+
 ```python
 import ibm_db          # ← 不再有 DLL 错误
 conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=server;PORT=50000;UID=user;PWD=pass;", "", "")
 ```
 
 ### 幕后发生了什么
+
 - `clidriver` 会被解压到 `<your-python-site-packages>/clidriver`
 - 示例路径：
   `C:\Python312\Lib\site-packages\clidriver\bin\amd64.VC12`
@@ -50,6 +52,7 @@ conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=server;PORT=50000;UID=user;PWD=pas
 | ibm_db[clidriver]               | 否                     | 否                               | 是                   | 是                            | ~120 MB    |
 
 ### 何时您可能仍然倾向于使用完整的独立客户端
+
 - 您已经有（Python 之外的）应用程序需要 DB2 客户端。
 - 您需要非常新的修复程序或功能，这些功能尚未包含在捆绑的 clidriver 中。
 - 公司政策禁止在 Python 包中捆绑运行时库。
@@ -57,5 +60,6 @@ conn = ibm_db.connect("DATABASE=mydb;HOSTNAME=server;PORT=50000;UID=user;PWD=pas
 否则，只需使用捆绑的 clidriver – 这是目前 Windows 上大多数人的做法。
 
 参考资料：
+
 - [python-ibmdb – 使用 ibm_db_clidriver 包](https://github.com/ibmdb/python-ibmdb#using-ibm_db_clidriver-package)
 - [ibm_db PyPI 页面 – clidriver 额外包](https://pypi.org/project/ibm-db/)

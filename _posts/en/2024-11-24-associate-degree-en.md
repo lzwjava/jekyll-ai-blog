@@ -80,7 +80,6 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 ## Passed courses
 
-
 | Course Code | Course Name                                      | Exam Date | Pass Method | Score | Credits |
 |-------------|--------------------------------------------------|-----------|-------------|-------|---------|
 | 08553      | Introduction to Programming—Java                | 202601    | Exam        | 88    | 4       |
@@ -120,7 +119,6 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 For the practical course 13182 (Introduction to Data Structures), I do not need to take it, as the review comment indicates. Since it is a combined course, I have already used that one course to substitute for two courses.
 
 ---
-
 
 ## 2024.04
 
@@ -166,12 +164,14 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 | Database and Its Applications | Pass |
 
 ## Reasons for passing courses
+
 * Already had good understanding before the exam, like Introduction to Data Structures and English
 * Prepared well enough in the past year, like Advanced Mathematics and Database Applications
 * For **Introduction to Law**, I answered almost all questions—even if some answers were improvised.
 * For **Computer Organization Principles**, I had prior background knowledge and practiced past exam questions multiple times.
 
 ## Reasons for failed courses
+
 * Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses.
 * Did not give enough time to prepare
 * Just walked through videos of the subjects pretending to understand.
@@ -179,15 +179,18 @@ For the practical course 13182 (Introduction to Data Structures), I do not need 
 ## Reasons for Selected Failed Courses
 
 ### Computer Networks
-- Insufficient practice with exam-style questions
-- Lack of foundational knowledge in computer network theory
+
+* Insufficient practice with exam-style questions
+* Lack of foundational knowledge in computer network theory
 
 ### Linear Algebra
-- Inadequate familiarity with matrix operations and rules
-- Overestimated understanding of the subject
-- Lack of hands-on practice; relied solely on video lectures
+
+* Inadequate familiarity with matrix operations and rules
+* Overestimated understanding of the subject
+* Lack of hands-on practice; relied solely on video lectures
 
 ## Exam preparation
+
 * Sleep well, maintain a good routine for sleep
 * Morning and afternoon exams may be in different locations, check the right locations
 * Register for the exam on time

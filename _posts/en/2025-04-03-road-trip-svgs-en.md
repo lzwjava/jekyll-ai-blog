@@ -133,7 +133,6 @@ I'll create some SVG illustrations to represent your Guangzhou to Shantou road t
   <text x="400" y="468" font-family="Arial" font-size="12">Heavy return traffic expected</text>
 </svg>
 
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
   <!-- Background -->
   <rect width="600" height="300" fill="#f9f9f9"/>
@@ -236,7 +235,6 @@ I'll create some SVG illustrations to represent your Guangzhou to Shantou road t
   <path d="M470,225 L485,235 L455,235 Z" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
   <text x="500" y="234" font-family="Arial" font-size="12">Traffic Warning</text>
 </svg>
-
 
 These SVGs illustrate your Guangzhou to Shantou road trip itinerary for the Qingming Festival holiday (April 3-6, 2025):
 

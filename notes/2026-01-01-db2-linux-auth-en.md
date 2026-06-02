@@ -17,11 +17,13 @@ Answer:
 In IBM DB2 for Linux, UNIX, and Windows (LUW), authentication behavior when connecting to a database depends on several factors: whether the connection is **local** or **remote**, the instance's **authentication type** (configured in the Database Manager Configuration via `AUTHENTICATION` parameter), and whether credentials are explicitly provided.
 
 ### Key Concepts
+
 - DB2 primarily uses **operating system (OS) authentication**. There are no separate database passwords; the OS user ID (and password, if needed) is validated.
 - The **default authentication type** is `SERVER` (set when the instance is created).
 - DB2 distinguishes between **local connections** (client and server on the same machine, often via shared memory or local IPC) and **remote connections** (via TCP/IP, even loopback).
 
 ### Why Sometimes No Password is Needed
+
 - For **local connections** with `AUTHENTICATION = SERVER` (default):
   - DB2 trusts that the OS has already authenticated the logged-in user.
   - No username or password is required or prompted.
@@ -30,6 +32,7 @@ In IBM DB2 for Linux, UNIX, and Windows (LUW), authentication behavior when conn
 - This is secure because access to the machine implies OS authentication has occurred.
 
 ### Why Sometimes Password is Required
+
 - For **remote connections** (e.g., cataloged via TCP/IP, even to localhost):
   - Credentials (username and password) must be provided and validated against the server's OS.
   - Example: `db2 connect to sample user db2inst1 using mypassword`.
@@ -42,6 +45,7 @@ In IBM DB2 for Linux, UNIX, and Windows (LUW), authentication behavior when conn
 - Other cases: Encrypted authentication types (`SERVER_ENCRYPT`), Kerberos, or plugins may require credentials.
 
 ### Is the User Always the Logged-in User?
+
 - **No**, not always.
 - By default (implicit connect, no credentials provided): Yes, it uses the current logged-in OS user.
 - But you can explicitly connect as a different OS user by providing username and password (if that user exists on the server for `SERVER` auth).

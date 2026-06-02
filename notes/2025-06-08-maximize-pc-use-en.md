@@ -11,9 +11,11 @@ type: note
 Your PC is a high-performance machine with an Intel Core i9-13900KF, NVIDIA GeForce RTX 4070, 64GB DDR5 RAM, and ample storage, making it ideal for a variety of tasks beyond casual use. Since it’s idle 80% of the time, you can maximize its potential by repurposing it for computationally intensive or always-on tasks. Here are several options to consider, including setting up a server and other productive uses, tailored to your hardware’s capabilities:
 
 ### 1. Set Up a Home Server
+
 Turning your PC into a server is a great way to utilize its power for continuous, remote-access tasks. Here are some server types you can set up:
 
 #### a. Media Server (Plex or Jellyfin)
+
 - **Purpose**: Stream movies, TV shows, music, or personal media to devices at home or remotely.
 - **Why it fits**: Your RTX 4070 supports hardware-accelerated video encoding/decoding (NVENC/NVDEC), making it excellent for transcoding 4K media. The 2TB HDD is ideal for storing large media libraries, and the 1TB SSD can cache frequently accessed files.
 - **Setup**:
@@ -25,6 +27,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Access**: Use apps on phones, TVs, or browsers to access your media anywhere.
 
 #### b. File Server (NAS-like with Nextcloud or TrueNAS)
+
 - **Purpose**: Host a personal cloud for file storage, sharing, and backups, similar to Google Drive or Dropbox.
 - **Why it fits**: The 2TB HDD and 1TB SSD provide ample storage, and the i9’s processing power ensures fast file transfers. Your 2.5Gbps LAN and Wi-Fi 6E support quick network access.
 - **Setup**:
@@ -36,6 +39,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Access**: Access files via web browser, desktop clients, or mobile apps.
 
 #### c. Game Server (Minecraft, Valheim, etc.)
+
 - **Purpose**: Host private game servers for you and friends.
 - **Why it fits**: The i9-13900KF’s 24 cores (8 P-cores + 16 E-cores) and 64GB RAM can handle multiple game servers or large player counts. The SSD ensures fast world loading.
 - **Setup**:
@@ -47,6 +51,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Access**: Friends connect via your public IP or a domain name.
 
 #### d. Web Server or Development Server
+
 - **Purpose**: Host websites, APIs, or a development environment for coding projects.
 - **Why it fits**: The i9 and 64GB RAM can handle multiple virtual machines or containers (e.g., Docker) for testing web apps. The RTX 4070 can accelerate AI/ML development tasks.
 - **Setup**:
@@ -58,6 +63,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Access**: Host public or private websites, accessible via browser.
 
 #### e. VPN Server
+
 - **Purpose**: Create a secure VPN to access your home network remotely or bypass geo-restrictions.
 - **Why it fits**: The i9 ensures fast encryption/decryption, and your network hardware supports high-speed connections.
 - **Setup**:
@@ -68,6 +74,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Access**: Securely access your home network or use the VPN for privacy.
 
 ### 2. Machine Learning or AI Development
+
 - **Purpose**: Use your RTX 4070 for training machine learning models or running AI workloads.
 - **Why it fits**: The RTX 4070’s 12GB VRAM and CUDA cores are excellent for GPU-accelerated tasks like training neural networks or running inference. The i9’s 24 cores and 64GB RAM support data preprocessing and large datasets.
 - **Tasks**:
@@ -82,6 +89,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Benefits**: Contribute to open-source AI projects or develop your own models.
 
 ### 3. Cryptocurrency Mining (Use with Caution)
+
 - **Purpose**: Mine cryptocurrencies using your RTX 4070.
 - **Why it fits**: The RTX 4070 is a capable GPU for mining algorithms like Ethash or KawPow, though profitability depends on electricity costs and crypto market conditions.
 - **Setup**:
@@ -96,6 +104,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Alternative**: Instead of mining, consider running blockchain nodes (e.g., Bitcoin or Ethereum) to support networks without intensive GPU use.
 
 ### 4. Distributed Computing or Folding@Home
+
 - **Purpose**: Contribute to scientific research by donating your PC’s compute power.
 - **Why it fits**: Your i9 and RTX 4070 can process complex simulations for projects like Folding@Home (protein folding for medical research) or BOINC (various scientific tasks).
 - **Setup**:
@@ -106,6 +115,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Benefits**: Contribute to global research while utilizing idle resources.
 
 ### 5. Virtual Machines or Homelab
+
 - **Purpose**: Run multiple operating systems or services for experimentation, learning, or testing.
 - **Why it fits**: 64GB RAM and 24 cores allow you to run several VMs simultaneously. The SSD ensures fast VM boot times.
 - **Setup**:
@@ -116,6 +126,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Benefits**: Learn IT skills, test software, or simulate enterprise environments.
 
 ### 6. Content Creation or Rendering
+
 - **Purpose**: Use your PC for video editing, 3D rendering, or game streaming when you’re actively using it.
 - **Why it fits**: The RTX 4070 excels at GPU-accelerated rendering (e.g., Blender, Adobe Premiere), and the i9 handles multitasking during editing or streaming.
 - **Tasks**:
@@ -126,6 +137,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Benefits**: Monetize content creation or enhance personal projects.
 
 ### 7. Automation and Background Tasks
+
 - **Purpose**: Run automated scripts or services to manage your digital life.
 - **Examples**:
   - **Home Automation**: Run Home Assistant to control smart devices.
@@ -135,6 +147,7 @@ Turning your PC into a server is a great way to utilize its power for continuous
 - **Resource Usage**: Minimal, leaving resources for other tasks.
 
 ### Recommendations for Maximizing Use
+
 1. **Combine Tasks**: Run a media server, file server, and VPN simultaneously using containers (Docker) or VMs to isolate services. Your 64GB RAM and 24 cores support multitasking.
 2. **Optimize Power Usage**: Since your GPU is at 12W/215W in P8 state, enable power-saving modes when running lightweight server tasks to reduce electricity costs.
 3. **Security**: For external access (e.g., web or file server), use strong passwords, HTTPS, and a firewall. Consider a reverse proxy (e.g., Nginx) and Cloudflare for added security.
@@ -142,9 +155,11 @@ Turning your PC into a server is a great way to utilize its power for continuous
 5. **Monitoring**: Install tools like Netdata or Grafana to monitor CPU, GPU, and network usage to ensure optimal performance.
 
 ### Suggested Starting Point
+
 Given your hardware and interest in a server, start with a **media server (Plex/Jellyfin)** and a **file server (Nextcloud)**. These are beginner-friendly, utilize your storage and GPU, and provide immediate value for personal use. If you’re tech-savvy, set up **Proxmox** to run multiple services in VMs or containers, allowing flexibility to experiment with other tasks (e.g., game server, AI development).
 
 ### Notes
+
 - **Internet Speed**: Ensure your home internet has sufficient upload speed for external server access (e.g., streaming or file sharing). Wi-Fi 6E and 2.5Gbps LAN help with local performance.
 - **Cooling**: Your GPU at 43°C and 0% fan speed is excellent for idle. Monitor temps during heavy tasks (e.g., mining or rendering) using tools like `nvidia-smi` or HWMonitor.
 - **Learning Curve**: Some options (e.g., Proxmox, AI development) require technical knowledge. Start with user-friendly options like Plex or Nextcloud if you’re new to servers.

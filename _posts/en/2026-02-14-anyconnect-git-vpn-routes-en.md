@@ -49,10 +49,12 @@ Most companies use **full tunnel** for security/compliance reasons (to force all
 
 **Bottom line**
 When Cisco AnyConnect is connected (especially full-tunnel corporate VPN):
+
 - You **don't** need to manually set `export HTTP_PROXY` / `HTTPS_PROXY` or configure proxies in System Settings for git (SSH or HTTPS) to work.
 - Everything is routed through the VPN automatically → corporate network handles any required proxying/firewall rules.
 
 If your git pull still fails/slows down:
+
 - Check if it's full-tunnel vs split-tunnel (ask IT or run `netstat -nr` / `route get github.com` before/after connecting).
 - Corporate proxies sometimes break SSH → switch to HTTPS remote (`git remote set-url origin https://github.com/...`) if allowed.
 - VPN MTU/fragmentation issues can slow git → try `git config --global http.postBuffer 524288000` (for HTTPS) or lower MTU.

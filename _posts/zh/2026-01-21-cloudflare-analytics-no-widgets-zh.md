@@ -76,7 +76,7 @@ Cloudflare 的 dashboard 仅向账户所有者显示这些数据，并没有像�
 
 **References:**
 
-- https://developers.cloudflare.com/web-analytics/
-- https://developers.cloudflare.com/analytics/graphql-api/
-- https://community.cloudflare.com/t/api-for-web-analytics/644351
-- https://developers.cloudflare.com/analytics/account-and-zone-analytics/zone-analytics
+- <https://developers.cloudflare.com/web-analytics/>
+- <https://developers.cloudflare.com/analytics/graphql-api/>
+- <https://community.cloudflare.com/t/api-for-web-analytics/644351>
+- <https://developers.cloudflare.com/analytics/account-and-zone-analytics/zone-analytics>

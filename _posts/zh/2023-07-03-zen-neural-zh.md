@@ -206,7 +206,7 @@ print_shape(training_results[0]) # (784, 1)
 print(list(training_data)[0:1]) # <class 'list'>
 ```
 
-现在，智维刚刚完成了加载数据部分，他将继续使用复制几行代码并打印变量的方式来学习神经网络的实际部分。您可以在这里跟踪进展，https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
+现在，智维刚刚完成了加载数据部分，他将继续使用复制几行代码并打印变量的方式来学习神经网络的实际部分。您可以在这里跟踪进展，<https://github.com/lzwjava/neural-networks-and-zhiwei-learning。>
 
 在进展过程中，我遇到了几次困难。尽管代码看起来非常简单，但在一次次尝试理解之后，我失败了。然后，我将自己从当前代码行中抽离出来，从高层次上观察它，思考为什么作者会写那部分代码，突然间我明白了。下面是代码。
 

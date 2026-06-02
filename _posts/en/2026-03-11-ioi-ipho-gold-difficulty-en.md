@@ -26,6 +26,7 @@ IPhO awards gold medals to the top 8% of contestants, while IOI awards gold meda
 Based on expert and participant perspectives, IMO (International Mathematical Olympiad) is generally considered a much bigger achievement than IOI, with a gold medal at IMO being significantly more prestigious than a gold medal at IOI. IPhO typically falls between IMO and IOI in terms of prestige.
 
 The key difference lies in the nature of the problems:
+
 - **IPhO problems** require deep conceptual understanding of physics and creative problem-solving approaches
 - **IOI problems** require strong algorithmic knowledge and flawless coding implementation
 
@@ -40,6 +41,7 @@ Based on competitive programming data, IOI problems at the level solved by ~45 p
 ## Conclusion
 
 **IPhO appears slightly easier to win gold in** compared to IOI, primarily because:
+
 1. IPhO relies more on physics intuition and conceptual understanding
 2. IOI demands both algorithmic insight AND perfect implementation with no coding errors
 3. IOI participants must solve problems within strict time and memory constraints while coding
@@ -48,11 +50,11 @@ However, both are exceptionally difficult competitions with only the world's mos
 
 **References:**
 
-- https://en.wikipedia.org/wiki/International_Physics_Olympiad
-- https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics
-- https://stats.ioinformatics.org/olympiads/2025
-- https://stats.ioinformatics.org/olympiads/2024
-- https://codeforces.com/blog/entry/12950
-- https://blog.vero.site/post/olympiads
-- http://scienceolympiadsbd.blogspot.com/2013/12/how-to-win-gold-medal-at-international.html
-- https://codeforces.com/blog/entry/69100
+- <https://en.wikipedia.org/wiki/International_Physics_Olympiad>
+- <https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics>
+- <https://stats.ioinformatics.org/olympiads/2025>
+- <https://stats.ioinformatics.org/olympiads/2024>
+- <https://codeforces.com/blog/entry/12950>
+- <https://blog.vero.site/post/olympiads>
+- <http://scienceolympiadsbd.blogspot.com/2013/12/how-to-win-gold-medal-at-international.html>
+- <https://codeforces.com/blog/entry/69100>

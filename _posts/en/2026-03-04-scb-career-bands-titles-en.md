@@ -14,6 +14,7 @@ type: note
 SCB uses a **band/grade system** (often Bands 1–9 or similar, with internal codes like M16–M23) alongside client-facing or functional job titles.
 
 ### Common Hierarchy (Especially in Front/Middle Office, e.g., CIB, Singapore/UK/Global)
+
 From junior to senior, based on consistent reports from employee forums (Glassdoor, Fishbowl, Salary.sg):
 
 - **Analyst** → Typically Band 8 (entry-level, fresh grads)
@@ -30,6 +31,7 @@ From junior to senior, based on consistent reports from employee forums (Glassdo
 - It may be equivalent to "Associate" in hierarchy but with more experience/years, or a step toward Manager/Associate Director.
 
 ### Key Differences
+
 - **Associate** — Mid-level (Band 7), common across many areas; building expertise, handling independent work or small teams.
 - **Senior Associate** — Often a step up in experience within similar bands (especially ops/GBS), or used where "Associate" alone would be too junior. It's not a universal "next level" like Associate → Associate Director in client-facing roles.
 

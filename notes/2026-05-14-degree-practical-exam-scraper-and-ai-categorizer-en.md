@@ -12,10 +12,12 @@ type: note
 The command works end-to-end. Here's what was added and a real run of `ww degree practical --pages 2` against the live site:
 
 **Added:**
+
 - `ww/degree/degree.py` — scraper + AI analyzer
 - Registered `degree` in `ww/main.py` with help text
 
 **Usage:**
+
 - `ww degree` — AI-categorized overview (newest page, ~20 entries)
 - `ww degree practical` — filter for 实践考核 / scores articles
 - `ww degree list` — raw scraped list, no AI

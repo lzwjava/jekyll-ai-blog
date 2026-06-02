@@ -52,11 +52,11 @@ RTX 4070 拥有 **12 GB GDDR6X 显存**。GPT-2 124M 使用 BF16 精度大致需
 
 RTX 4070 的 Ada Lovelace 架构引入了第四代张量核心，支持 FP8/BF16 并具备结构化稀疏性，为轻量级 Transformer 训练带来了效率提升。为充分发挥其性能：
 
-1.  **`torch.autocast(dtype=torch.bfloat16)`** — RTX 40 系列原生支持 BF16（你已在使用 ✅）
-2.  **`torch.compile()`** — 通过内核融合带来显著速度提升
-3.  **FlashAttention 2** — 大幅减少激活显存占用并加速注意力计算
-4.  **梯度累积** — 你已使用 `grad_accum=64`，保持每步显存占用很低 ✅
-5.  **`pin_memory=True` + 高速 SSD** — 在此规模下，数据加载瓶颈很重要
+1. **`torch.autocast(dtype=torch.bfloat16)`** — RTX 40 系列原生支持 BF16（你已在使用 ✅）
+2. **`torch.compile()`** — 通过内核融合带来显著速度提升
+3. **FlashAttention 2** — 大幅减少激活显存占用并加速注意力计算
+4. **梯度累积** — 你已使用 `grad_accum=64`，保持每步显存占用很低 ✅
+5. **`pin_memory=True` + 高速 SSD** — 在此规模下，数据加载瓶颈很重要
 
 ---
 

@@ -23,6 +23,7 @@ apt 建议的版本 (`1.18.0`) **非常陈旧** (发布于 2020 年)。你肯定
 #### 方法 1 – 官方 nginx repository (最干净且能获取最新 stable 版本)
 
 1. 添加官方 nginx 签名密钥和 repository：
+
 ```bash
 sudo apt update
 sudo apt install -y curl gnupg2 ca-certificates lsb-release ubuntu-keyring
@@ -32,12 +33,14 @@ echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 
 ```
 
 2. 安装 nginx：
+
 ```bash
 sudo apt update
 sudo apt install nginx
 ```
 
 3. 验证：
+
 ```bash
 nginx -v
 # 应该显示类似：nginx version: nginx/1.26.x (或更高版本)
@@ -47,6 +50,7 @@ sudo systemctl status nginx
 #### 方法 2 – 快速但版本较旧 (如果你只想立刻测试)
 
 如果你不在乎是否为最新版本，只想立即运行 nginx：
+
 ```bash
 sudo apt update
 sudo apt install nginx
@@ -54,6 +58,7 @@ sudo apt install nginx
 ```
 
 无论使用哪种方法，安装完成后你原来的 config 应该可以通过以下步骤生效：
+
 - 将其放置在 `/etc/nginx/sites-available/` (例如 `/etc/nginx/sites-available/movies`)
 - 创建 symlink：`sudo ln -s /etc/nginx/sites-available/movies /etc/nginx/sites-enabled/`
 - 如果需要，删除或禁用默认站点：`sudo rm /etc/nginx/sites-enabled/default`
@@ -61,6 +66,7 @@ sudo apt install nginx
 - Reload：`sudo systemctl reload nginx` (或 `sudo nginx -s reload`)
 
 ### 快速总结 – 大多数人现在应该运行的命令
+
 ```bash
 # 推荐 – 从官方源获取当前的 stable nginx
 sudo apt update

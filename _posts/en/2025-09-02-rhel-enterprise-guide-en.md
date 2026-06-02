@@ -44,11 +44,13 @@ Key highlights:
     ```bash
     sudo dnf install httpd
     ```
+
   * Update system:
 
     ```bash
     sudo dnf update
     ```
+
   * Search packages:
 
     ```bash
@@ -130,6 +132,7 @@ RHEL also supports **AppStreams** for multiple versions of software (e.g., Pytho
   ```bash
   podman run -it centos /bin/bash
   ```
+
 * **OpenShift** (Kubernetes platform) for orchestration.
 
 ---

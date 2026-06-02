@@ -17,6 +17,7 @@ Daily News Summary - 2025-06-07
 
 Hacker News
 -----------
+
 1. The webpage indicates that Facebook is incompatible with the current browser and suggests updating to a supported browser to continue using the service.
 
 2. Hate radio in Rwanda incited genocide by using coded language to urge listeners to kill Tutsis.
@@ -27,9 +28,9 @@ Hacker News
 
 5. The Washington Post advises users to enhance privacy by stopping the use of Chrome and deleting Meta's apps.
 
-
 GitHub Trending
 ---------------
+
 1. Cognee enables the creation of dynamic memory for AI agents using scalable, modular ECL pipelines in just five lines of code.
 
 2. NetBird simplifies secure, private networking by combining a peer-to-peer WireGuard-based overlay network with centralized, granular access controls.
@@ -40,9 +41,9 @@ GitHub Trending
 
 5. React Bits offers a free, open-source collection of animated, interactive, and customizable React components to enhance web interfaces.
 
-
 NYTimes (Chinese)
 -----------------
+
 1. After a phone call between Chinese President Xi Jinping and U.S. President Trump, both countries agreed to further trade negotiations to ease tensions over tariffs and rare earth supply.
 
 2. The recent controversies in China highlight widespread public frustration over perceived social inequality and the belief that connections, rather than merit, often determine success.

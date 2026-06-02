@@ -18,6 +18,7 @@ Baidu indeed established its Institute of Deep Learning (IDL) early in the field
 As of early August 2025, Baidu's stock (BIDU) is trading at around $86.13 USD, with a year-to-date (YTD) performance of just 2.47%. Its 52-week range is $74.71 to $116.25, and market cap stands at approximately $29.95 billion. In contrast, Tencent Music Entertainment (TME) is at $20.54 USD, boasting a YTD gain of 83.41%, a 52-week range of $9.41 to $22.50, and a slightly higher market cap of $31.66 billion.
 
 Baidu's underperformance stems from several factors:
+
 - **Weak Core Business Growth**: Baidu's revenue is heavily tied to online advertising (about 60-70% of total), which has stagnated due to China's slower-than-expected post-COVID economic recovery, increased competition from platforms like Douyin (TikTok's Chinese version), and regulatory pressures on tech firms.
 - **Delayed AI Monetization**: Despite AI investments, Baidu's cloud and AI segments (like Ernie Bot) are growing but not yet profitable enough to offset declines in search ads. For instance, Q1 2025 saw AI Cloud revenue up 42%, but overall stock dipped after earnings due to muted guidance.
 - **Market Sentiment and Valuation**: Baidu trades at low multiples (around 11x P/E), reflecting investor skepticism about its transition to AI amid macroeconomic headwinds in China. Tencent Music, focused on music streaming and social entertainment, benefits from steadier consumer demand, with Q1 2025 revenues up 9% driven by subscriptions and live streaming—less exposed to ad volatility.

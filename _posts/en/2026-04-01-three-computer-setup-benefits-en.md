@@ -30,6 +30,7 @@ You've got a solid understanding of the three-computer setup! Let me validate an
 **About your server (machine 2):**
 
 Looking at your usage stats:
+
 - Services at **100%** (Gitea, Jellyfin, Nextcloud, SearXNG, Uptime) = running well
 - **0%** on Librechat & Openclaw = either disabled or not actively used
 - **57.93%** on lzwjava.github.io = moderate usage (likely your personal site)

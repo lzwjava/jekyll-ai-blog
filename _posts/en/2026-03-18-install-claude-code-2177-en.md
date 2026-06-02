@@ -24,14 +24,17 @@ There are two main approaches depending on your installation method.
 To install a specific version using the native installer, pass the version number as an argument to the install script:
 
 **macOS / Linux:**
+
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash -s 2.1.77
 ```
 
 **Windows (PowerShell):**
+
 ```powershell
 irm https://claude.ai/install.ps1 | iex
 ```
+
 > Note: The Windows PowerShell method installs the latest by default. For a specific version on Windows, use WSL and run the Linux command above inside it.
 
 ---
@@ -55,6 +58,7 @@ After installation, if you want to stay on `2.1.77` and prevent auto-updates:
 Set `DISABLE_AUTOUPDATER` to `"1"` in the `env` key of your `settings.json` file to prevent automatic updates after pinning a version.
 
 Your `~/.claude/settings.json` should look like:
+
 ```json
 {
   "env": {

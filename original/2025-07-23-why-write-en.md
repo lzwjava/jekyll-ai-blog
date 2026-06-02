@@ -45,8 +45,6 @@ We can think if we don't write down our thoughts. So why do we write them down? 
 
 It is like doing math. When you write steps down on paper, you will probably have a better chance of finding answers. It is hard to do it by pure thinking.
 
-
-
 ---
 
 ## What Essays I Have Not Written About

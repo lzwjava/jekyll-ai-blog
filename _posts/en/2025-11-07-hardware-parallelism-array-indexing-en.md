@@ -15,6 +15,7 @@ type: note
 This 2013 blog post by Yin Wang (王寅) dives into the fundamental reason why direct array indexing (e.g., `arr[i]`) is constant time O(1), while binary search on a sorted array takes O(log n) time. He breaks it down at the hardware level using a simple circuit analogy, showing that indexing isn't "magic"—it's just a massively parallel binary search baked into the computer's addressing system.
 
 #### Key Explanation
+
 - **The Core Idea**: Array indexing uses an **addressing circuit** to select a memory location directly from an address (like an index). For a tiny example with 4 memory locations (W, X, Y, Z) and a 2-bit address (bits A and B):
   - Each address bit acts like one step of a binary search, halving the possible selections.
   - Bit A decides between two groups: {W, X} or {Y, Z}.
@@ -28,6 +29,7 @@ This 2013 blog post by Yin Wang (王寅) dives into the fundamental reason why d
 - **Visual Aid**: The post includes a diagram of the circuit with inverters, wires, and AND gates showing signal flow. No code snippets, but it's conceptual—think of it as a decoder turning binary addresses into one-hot selection.
 
 #### Why This Matters
+
 Wang argues this reveals how low-level hardware optimizations make high-level operations feel effortless. Binary search is "slow" only because it simulates this circuit sequentially in software; the CPU's real memory access is the parallel version.
 
 It's a short, insightful read for anyone curious about CS fundamentals beyond big-O notation.

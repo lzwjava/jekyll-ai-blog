@@ -40,4 +40,4 @@ type: note
 By ensuring the request stays within the 8,000‑token‑per‑minute quota, the 413 “Request Too Large” error will be avoided. [1]
 
 Citations:
-[1] https://www.reddit.com/r/OpenAI/comments/1nbtl2p/wow_weve_been_burning_money_for_6_months/
+[1] <https://www.reddit.com/r/OpenAI/comments/1nbtl2p/wow_weve_been_burning_money_for_6_months/>

@@ -82,14 +82,17 @@ JDK 24 introduces 24 JEPs, categorized into core library enhancements, language 
     - Benefit: Enhances deployment efficiency for custom Java runtimes.[](https://www.oracle.com/news/announcement/oracle-releases-java-24-2025-03-18/)
 
 ### Additional Notes
+
 - **Preview and Experimental Features**: Many features (e.g., Scoped Values, KDF API) are in preview or experimental stages, allowing developers to test and provide feedback before they become permanent in JDK 25 or later. These may change before finalization.[](https://www.jrebel.com/blog/whats-new-java-24)[](https://www.infoq.com/news/2025/02/java-24-so-far/)
 - **Project Integration**: JDK 24 introduces elements of OpenJDK Projects like Leyden (startup optimization), Lilliput (memory efficiency), and Panama (native interoperability), laying groundwork for future enhancements.[](https://bell-sw.com/blog/an-overview-of-jdk-24-features/)
 - **Security and Deprecation**: Features like the removal of the Security Manager and deprecation of the 32-bit x86 port reflect Oracle’s focus on modernizing Java by phasing out outdated components.[](https://www.azul.com/blog/six-jdk-24-features-you-should-know-about/)[](https://www.oracle.com/news/announcement/oracle-releases-java-24-2025-03-18/)
 
 ### Conclusion
+
 JDK 24 is a stable, feature-rich release that advances Java’s performance, developer productivity, and security. While not an LTS release, its 24 JEPs offer significant improvements, many of which will be finalized in the upcoming LTS release, JDK 25. Developers can leverage features like Stream Gatherers and Module Import Declarations for immediate productivity gains, while experimental features like Compact Object Headers and Ahead-of-Time Class Loading signal Java’s ongoing optimization for modern workloads. For enterprise use, sticking with LTS releases like JDK 21 or awaiting JDK 25 is recommended due to their extended support.[](https://www.infoworld.com/article/3491404/jdk-24-the-new-features-in-java-24.html)[](https://www.jrebel.com/blog/whats-new-java-24)[](https://www.infoworld.com/article/3830643/the-most-relevant-new-features-in-jdk-24.html)
 
 For more details, visit:
+
 - [Oracle JDK 24 Release Notes](https://www.oracle.com)[](https://www.oracle.com/java/technologies/javase/24-relnote-issues.html)
 - [OpenJDK JDK 24](https://openjdk.org)[](https://openjdk.org/projects/jdk/24/)
 - [JavaOne 2025 Conference](https://www.oracle.com/javaone) for feature highlights[](https://www.oracle.com/news/announcement/oracle-releases-java-24-2025-03-18/)

@@ -37,6 +37,7 @@ Here are some genuinely unpopular (but commonly observed) opinions on why most e
 In short: enduring businesses are built by weird, patient, often unpleasant people who care more about the organism surviving than about their personal brand or lifestyle. That personality type is increasingly rare and socially discouraged.
 
 References:
+
 - [The Founders Podcast – various episodes on long-lived companies](https://www.thefounderspodcast.com/)
 - [“Zero to One” vs reality check from decades of company graveyards](https://www.penguinrandomhouse.com/books/247001/zero-to-one-by-peter-thiel-with-blake-masters/)
 - [Berkshire Hathaway shareholder letters (1965–present)](https://www.berkshirehathaway.com/letters/letters.html)

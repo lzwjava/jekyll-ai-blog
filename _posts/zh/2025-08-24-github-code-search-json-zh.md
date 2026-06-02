@@ -15,7 +15,7 @@ type: note
 "deepseek/deepseek-chat-v3.1" language:JSON
 ```
 
-### 注意事项：
+### 注意事项
 
 * 引号确保 GitHub 精确搜索字符串 `deepseek/deepseek-chat-v3.1`
 * `language:JSON`（或 `lang:json`，两者等效）将结果限定在 JSON 文件内

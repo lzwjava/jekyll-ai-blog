@@ -17,12 +17,14 @@ p(\lambda) = \det(A - \lambda I)
 \\]
 
 where:
+
 - \\( A \\) is the \\( n \times n \\) matrix.
 - \\( \lambda \\) is a scalar (the variable of the polynomial).
 - \\( I \\) is the \\( n \times n \\) identity matrix.
 - \\( \det \\) denotes the determinant.
 
 ### Key Characteristics
+
 1. **Form**: The characteristic polynomial is a monic polynomial of degree \\( n \\), meaning its leading coefficient (for the \\( \lambda^n \\) term) is 1.
    - For a \\( 2 \times 2 \\) matrix \\( A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \\), the characteristic polynomial is:
      \\[
@@ -42,7 +44,9 @@ where:
 5. **Cayley-Hamilton Theorem**: The matrix \\( A \\) satisfies its own characteristic polynomial, i.e., if \\( p(\lambda) \\) is the characteristic polynomial, then \\( p(A) = 0 \\) (the zero matrix).
 
 ### Example
+
 For a matrix \\( A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \\):
+
 - Compute \\( A - \lambda I = \begin{bmatrix} 1 - \lambda & 2 \\ 3 & 4 - \lambda \end{bmatrix} \\).
 - The characteristic polynomial is:
   \\[
@@ -51,6 +55,7 @@ For a matrix \\( A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \\):
 - The eigenvalues are found by solving \\( \lambda^2 - 5\lambda - 2 = 0 \\).
 
 ### Applications
+
 - **Eigenvalue computation**: Solving \\( p(\lambda) = 0 \\) gives the eigenvalues.
 - **Matrix properties**: Helps determine diagonalizability, invertibility, and other properties.
 - **Differential equations**: Used in systems of linear differential equations to find solutions.

@@ -43,6 +43,7 @@ Answer:
   - Ephemeral keys（仅使用一次或在极短时间内使用的加密密钥）
 
 **近义词快速列表**
+
 - fleeting
 - transient
 - momentary
@@ -51,6 +52,7 @@ Answer:
 - passing
 
 **反义词**
+
 - permanent
 - lasting
 - enduring

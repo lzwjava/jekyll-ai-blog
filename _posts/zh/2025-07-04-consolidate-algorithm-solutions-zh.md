@@ -11,12 +11,14 @@ type: note
 为将所有算法题解（`nowcoder`、`uva`等）整合到由`algorithm-solutions`根目录下单个`pom.xml`文件管理的Maven模块中，我们将整个项目视为单一模块。来自`nowcoder`和`uva`（以及其他目录如`codeforces`、`hacker_rank`等）的Java文件将按对应包结构（如`com.algorithm.solutions.nowcoder`、`com.algorithm.solutions.uva`）组织在`src/main/java`目录下。输入文件（如`1.in`）将置于`src/main/resources`中。
 
 ### 前置条件
+
 - 所有Java文件（如`nowcoder/Main.java`、`uva/106/src/Main.java`）将移至`src/main/java/com/algorithm/solutions/<平台>`（如`nowcoder`、`uva/p106`）。
 - 输入文件（如`uva/106/1.in`）将移至`src/main/resources/<平台>`（如`uva/p106`）。
 - 项目使用Java 17（可在`pom.xml`中调整）。
 - `pom.xml`将置于`algorithm-solutions`根目录，不使用子模块。
 
 ### 目录结构
+
 重组后（假设已运行先前针对`uva`的Python脚本及类似的`nowcoder`脚本），结构如下：
 
 ```
@@ -56,6 +58,7 @@ algorithm-solutions/
 ```
 
 ### 父级 `pom.xml`
+
 该`pom.xml`位于`algorithm-solutions`根目录。它将项目配置为单模块，包含输入文件的资源目录，并设置Maven编译器使用Java 17。
 
 ```xml
@@ -115,13 +118,16 @@ algorithm-solutions/
 ```
 
 ### 关于 `pom.xml` 的说明
+
 - **打包方式**：设置为`jar`，因为这是单模块可执行项目。
 - **资源文件**：包含`src/main/resources`中的`*.in`输入文件。
 - **主类**：默认设置为`com.algorithm.solutions.nowcoder.Main`。由于每个题目可能有自己的`Main`类，通常需使用`mvn exec:java`运行特定类。
 - **Java版本**：使用Java 17；如需调整可修改`<maven.compiler.source>`和`<maven.compiler.target>`。
 
 ### 设置步骤
+
 1. **创建目录结构**：
+
    ```bash
    mkdir -p src/main/java/com/algorithm/solutions/{nowcoder,uva,codeforces,hacker_rank}
    mkdir -p src/main/resources/{nowcoder,uva,codeforces,hacker_rank}
@@ -129,48 +135,61 @@ algorithm-solutions/
 
 2. **移动文件**：
    - 对于`nowcoder`：
+
      ```bash
      mkdir -p src/main/java/com/algorithm/solutions/nowcoder
      mv nowcoder/*.java src/main/java/com/algorithm/solutions/nowcoder/
      ```
+
      为每个Java文件添加包声明（如`Main.java`）：
+
      ```java
      package com.algorithm.solutions.nowcoder;
      // ... 其余代码 ...
      ```
+
    - 对于`uva`，使用先前提供的Python脚本或手动操作：
+
      ```bash
      mkdir -p src/main/java/com/algorithm/solutions/uva/p106
      mv uva/106/src/Main.java src/main/java/com/algorithm/solutions/uva/p106/Main.java
      mkdir -p src/main/resources/uva/p106
      mv uva/106/1.in src/main/resources/uva/p106/1.in
      ```
+
      为`Main.java`添加包声明：
+
      ```java
      package com.algorithm.solutions.uva.p106;
      // ... 其余代码 ...
      ```
+
      对其他UVA题目（`100`、`10000`等）重复此操作。
 
 3. **放置`pom.xml`**：
    - 将上述`pom.xml`保存至`algorithm-solutions`根目录。
 
 4. **构建项目**：
+
    ```bash
    mvn clean install
    ```
 
 5. **运行特定程序**：
    - 运行`nowcoder`题目：
+
      ```bash
      mvn exec:java -Dexec.mainClass="com.algorithm.solutions.nowcoder.Main"
      ```
+
    - 运行UVA题目（如106题）：
+
      ```bash
      mvn exec:java -Dexec.mainClass="com.algorithm.solutions.uva.p106.Main"
      ```
 
 ### 用于 `nowcoder` 的Python脚本
+
 作为之前`uva`脚本的补充，以下Python脚本可将`nowcoder`文件移至`src/main/java/com/algorithm/solutions/nowcoder/`并添加包声明。请在`algorithm-solutions`根目录运行。
 
 ```python
@@ -220,11 +239,14 @@ if __name__ == '__main__':
 ```
 
 ### 注意事项
+
 - **运行脚本**：通过以下命令移动文件：
+
   ```bash
   python reorganize_uva.py
   python reorganize_nowcoder.py
   ```
+
 - **输入文件**：如果`nowcoder`有输入文件，需修改脚本将`*.in`文件移至`src/main/resources/nowcoder/`。
 - **其他目录**：对于`codeforces`、`hacker_rank`等目录，可通过修改源目录和包名来适配`nowcoder`脚本。
 - **资源访问**：需更新Java代码以从`src/main/resources`读取输入文件（例如`getClass().getResource("/uva/p106/1.in")`）。

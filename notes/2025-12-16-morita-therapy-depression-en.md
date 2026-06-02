@@ -19,6 +19,7 @@ Many individuals experiencing depression or severe depression resist or fail to 
 Morita therapy, a Japanese psychotherapy developed by Shoma Morita in the early 20th century and influenced by Zen principles, directly addresses this issue. It teaches **arugamama** (acceptance of reality as it is), viewing unpleasant emotions like sadness or anxiety as natural fluctuations in human experience, similar to weather patterns that ebb and flow.
 
 Key principles of Morita therapy include:
+
 - Accepting feelings without trying to control or change them.
 - Shifting focus from symptom fixation to purposeful, constructive action in daily life.
 - Engaging in reality-based behavior, even while symptoms persist, to improve functioning and allow natural healing.
@@ -31,9 +32,9 @@ Evidence from studies, including pilot trials and meta-analyses, suggests Morita
 
 References:
 
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/
-- https://en.wikipedia.org/wiki/Morita_therapy
-- https://bmjopen.bmj.com/content/8/8/e021605
-- https://pubmed.ncbi.nlm.nih.gov/30380592/
-- http://www.moritaschool.com/read-me
-- https://moritatherapy.org/exploring-morita-therapy-a-path-to-acceptance-and-purpose/
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/>
+- <https://en.wikipedia.org/wiki/Morita_therapy>
+- <https://bmjopen.bmj.com/content/8/8/e021605>
+- <https://pubmed.ncbi.nlm.nih.gov/30380592/>
+- <http://www.moritaschool.com/read-me>
+- <https://moritatherapy.org/exploring-morita-therapy-a-path-to-acceptance-and-purpose/>

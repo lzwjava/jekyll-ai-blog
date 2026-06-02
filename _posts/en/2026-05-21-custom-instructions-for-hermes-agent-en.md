@@ -27,6 +27,7 @@ nano ~/.hermes/SOUL.md
 ```
 
 Example content:
+
 ```markdown
 # Soul
 You are a senior AI engineer. Be terse and direct.
@@ -73,6 +74,7 @@ Skill slash commands are handled by `agent/skill_commands.py`, which scans `~/.h
 ```
 
 You can write your own skill file:
+
 ```bash
 mkdir -p ~/.hermes/skills
 cat > ~/.hermes/skills/my-style.md << 'EOF'

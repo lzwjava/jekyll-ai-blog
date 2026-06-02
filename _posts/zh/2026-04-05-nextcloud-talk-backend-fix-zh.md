@@ -18,6 +18,7 @@ Nextcloud Talk 发送了 `X-Nextcloud-Talk-Backend: http://localhost`（来源�
 将 `baseUrl` 从 `http://172.17.0.1:8080` 更改为 `http://localhost`
 
 **当前配置：**
+
 ```json
 {
   "baseUrl": "http://localhost",       ← 已修复！
@@ -30,6 +31,7 @@ Nextcloud Talk 发送了 `X-Nextcloud-Talk-Backend: http://localhost`（来源�
 ```
 
 **状态：**
+
 - ✅ HKT 02:25 后不再出现“无效后端”错误
 - ✅ 网关已成功重启
 - ✅ Webhook 正在监听

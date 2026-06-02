@@ -25,4 +25,5 @@ ADSL (Asymmetric Digital Subscriber Line) technology operates on **原有普通�
 The reference answer "原有普通电话线" is **correct**.
 
 References:
+
 - None (standard telecommunications knowledge)

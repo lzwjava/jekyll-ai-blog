@@ -24,21 +24,25 @@ type: note
 题目问：**“以下哪个属于端系统之间的协议？”**
 
 #### **A. TCP（传输控制协议） - [正确]**
+
 * **层次：** 传输层。
 * **功能：** TCP 提供可靠、有序且经过错误检查的字节流传输，用于在 IP 网络上通信的主机应用程序之间。
 * **为何符合：** TCP 是**端到端**协议的典型例子。它在两个端系统之间建立连接（握手），并维护状态信息以确保数据正确到达。它隐藏了网络（路由器、数据包丢失）的复杂性，使应用程序能够在端系统上运行。
 
 #### **B. IP（互联网协议）**
+
 * **层次：** 网络层。
 * **功能：** IP 负责在网络边界之间寻址和路由数据包。
 * **为何不是最佳答案：** 虽然 IP 地址标识端系统，但 IP 本身通常被视为“尽力而为”的传输服务。路由决策在每个中间路由器（逐跳）上进行。虽然它连接端系统，但 TCP 更具体地定义了端系统之间的可靠性管理。
 
 #### **C. ARP（地址解析协议）**
+
 * **层次：** 链路层（主要）。
 * **功能：** ARP 将 IP 地址解析为物理 MAC 地址。
 * **为何不正确：** ARP 仅在本地网络段（广播域）内运行，不适用于整个互联网上远程端系统之间的通信。
 
 #### **D. PPP（点对点协议） - [你的答案]**
+
 * **层次：** 数据链路层。
 * **功能：** PPP 用于在两个节点之间建立直接连接，常用于拨号连接或串行链路。
 * **为何不正确：** PPP 连接两个直接相连的节点（通常是用户与 ISP），但并非管理复杂网络（如互联网）中端系统之间通信的整体协议。它是链路层协议，而题目暗示的是主机之间的高层通信协议。
@@ -49,5 +53,5 @@ type: note
 
 参考资料：
 
-- [What is an End System? - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/end-system/)
-- [TCP/IP 模型概述 - GeeksforGeeks](https://www.geeksforgeeks.org/tcp-ip-model/)
+* [What is an End System? - Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/end-system/)
+* [TCP/IP 模型概述 - GeeksforGeeks](https://www.geeksforgeeks.org/tcp-ip-model/)

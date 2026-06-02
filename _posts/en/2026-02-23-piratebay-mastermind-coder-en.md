@@ -15,11 +15,11 @@ Here is a comprehensive introduction to Gottfrid Svartholm:
 
 ### **Profile Summary**
 
-*   **Full Name:** Per Gottfrid Svartholm Warg
-*   **Alias:** anakata
-*   **Born:** October 17, 1984, in Sweden
-*   **Nationality:** Swedish
-*   **Known For:** Co-founding The Pirate Bay, hacking, political activism
+* **Full Name:** Per Gottfrid Svartholm Warg
+* **Alias:** anakata
+* **Born:** October 17, 1984, in Sweden
+* **Nationality:** Swedish
+* **Known For:** Co-founding The Pirate Bay, hacking, political activism
 
 ### **Early Life and Ideology**
 

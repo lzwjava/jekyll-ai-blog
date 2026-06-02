@@ -41,6 +41,7 @@ There are two main ways people usually talk about dignity:
 **Quick real-world test for whether something violates dignity**
 
 Ask yourself:
+
 - Does this action/situation treat the person as *merely a means* or *mere object*?
 - Would most people feel deeply humiliated or dehumanized if this was done to them in front of others?
 - Is the person being reduced to only their body part, disease, mistake, poverty, age, disability, etc.?

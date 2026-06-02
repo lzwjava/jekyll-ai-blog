@@ -18,11 +18,13 @@ Yes, exactly. That's the fundamental value proposition. Let me be precise about 
 ## The Core Pattern: Async Decoupling
 
 Without a queue (synchronous):
+
 ```
 Producer → [waits...........] → Consumer completes → Producer gets result
 ```
 
 With a queue (async):
+
 ```
 Producer → enqueue(task) → gets task_id immediately → goes away
                                     ↓
@@ -39,13 +41,16 @@ The producer is **never blocked** waiting for the consumer.
 ## Three Sub-Patterns
 
 ### 1. Fire and Forget (no result needed)
+
 ```python
 queue.publish("send_email", {"to": "user@x.com", "body": "..."})
 # done, don't care about result
 ```
+
 Used for: notifications, logging, analytics events, webhooks.
 
 ### 2. Async with Status Polling
+
 ```python
 task_id = queue.publish("video_transcode", {"file": "input.mp4"})
 # return task_id to end user immediately
@@ -55,6 +60,7 @@ GET /tasks/{task_id}/status
 → {"status": "processing", "progress": 42}
 → {"status": "done", "result_url": "s3://..."}
 ```
+
 This is what Celery + Redis does. The task metadata lives in Redis keyed by task_id.
 
 ```python
@@ -69,6 +75,7 @@ result.result  # the return value once done
 ```
 
 ### 3. Callback / Webhook (push instead of poll)
+
 ```python
 queue.publish("ml_inference", {
     "input": data,
@@ -76,6 +83,7 @@ queue.publish("ml_inference", {
 })
 # consumer calls callback_url when finished
 ```
+
 Avoids polling altogether. Used in payment processors, Stripe webhooks, etc.
 
 ## Why This Matters for Distributed Systems

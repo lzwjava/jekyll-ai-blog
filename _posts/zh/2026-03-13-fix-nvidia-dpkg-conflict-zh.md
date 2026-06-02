@@ -47,6 +47,7 @@ sudo apt --fix-broken install
 ```
 
 或者如果文件在 apt 缓存路径中，使用：
+
 ```bash
 sudo dpkg -i --force-overwrite /var/cache/apt/archives/nvidia-kernel-common-535_535.288.01-0ubuntu1_amd64.deb
 sudo apt --fix-broken install
@@ -80,6 +81,7 @@ sudo reboot
 ```
 
 重启后，验证驱动是否已加载：
+
 ```bash
 nvidia-smi
 ```
@@ -89,6 +91,7 @@ nvidia-smi
 ## 为什么会发生这种情况
 
 您很可能同时安装了来自**两个不同来源**的包：
+
 - Ubuntu 官方仓库包：`...-0ubuntu1`
 - NVIDIA 自己的仓库包：`...-0ubuntu0.22.04.1`
 

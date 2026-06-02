@@ -231,6 +231,7 @@ type: note
 ---
 
 **Study Tips for Guangdong Self-Study Examination:**
+
 - Focus on understanding the interconnections between these points
 - Memorize key concepts, dates, and principles
 - Practice applying theoretical knowledge to practical scenarios

@@ -24,6 +24,7 @@ fn change_font_size(&mut self, delta: f32) {
 下次启动时，Alacritty 会读取配置文件并再次应用 `config.font.size()`。由于你没有配置文件（`~/.config/alacritty/alacritty.toml` 不存在），它会使用硬编码的默认值：**11.25 pt**（参见 `font.rs:137`）。
 
 `ResetFontSize` 操作（macOS 上为 Ctrl+Cmd+0）证实了这一点——它会重置回配置值：
+
 ```rust
 fn reset_font_size(&mut self) {
     self.display.font_size = self.config.font.size().scale(scale_factor);

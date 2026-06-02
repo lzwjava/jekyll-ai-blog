@@ -44,6 +44,7 @@ Answer:
   - **alpha** – 实验性，可能在不通知的情况下更改或消失。
 
   运行方式如下：
+
   ```bash
   gcloud beta run services list
   gcloud alpha network-security security-profiles list
@@ -51,6 +52,7 @@ Answer:
 
 - **Configuration & Contexts**
   gcloud 维护着命名配置（类似于 kubectl contexts）：
+
   ```bash
   gcloud config configurations create prod
   gcloud config configurations activate dev
@@ -67,6 +69,7 @@ Answer:
 
 - **输出格式**
   对脚本非常友好：
+
   ```bash
   gcloud compute instances list --format="value(name,zone,status)"
   gcloud projects list --format="table(projectId, name, state)"
@@ -74,6 +77,7 @@ Answer:
   ```
 
 - **用于本地开发的 Emulators**
+
   ```bash
   gcloud beta emulators firestore start
   gcloud beta emulators pubsub start

@@ -33,6 +33,7 @@ Here’s the sequence (roughly 1995–1996):
    - In June 1998 Yahoo bought Viaweb for ~$49.6 million in Yahoo stock (at the peak of the dot-com bubble, that was life-changing money). It became Yahoo Store.
 
 Key lessons PG always emphasizes from this period:
+
 - His first idea (online painting) was a total flop; the successful idea (Viaweb) came from looking for problems people were having right then on the web.
 - They started with almost no money, two people, in a crappy apartment.
 - They released very early and iterated based on what actual paying customers wanted.
@@ -40,4 +41,4 @@ Key lessons PG always emphasizes from this period:
 
 So yes — painting app → 0 users → desperate search for something people would pay for → Viaweb → sold to Yahoo for ~$50M three years later. That’s the real early PG startup story.
 
-He still runs a slightly tongue-in-cheek site about the original painting software at http://www.artrage.com (no, wait — that’s a different company now). His original one is long gone, but he sometimes posts screenshots from 1995 for laughs.
+He still runs a slightly tongue-in-cheek site about the original painting software at <http://www.artrage.com> (no, wait — that’s a different company now). His original one is long gone, but he sometimes posts screenshots from 1995 for laughs.

@@ -71,6 +71,7 @@ https://index.crates.io/
 ```
 
 When you `cargo add serde`, Cargo:
+
 1. Fetches `https://index.crates.io/se/rd/serde` — a JSON file listing all versions + yanked status + checksums
 2. Picks best version per semver constraint
 3. Downloads `https://static.crates.io/crates/serde/1.0.193/download`
@@ -115,6 +116,7 @@ internal-sdk = { version = "0.1", registry = "my-company" }
 ```
 
 Auth via `~/.cargo/credentials.toml`:
+
 ```toml
 [registries.my-company]
 token = "Bearer eyJ..."
@@ -133,6 +135,7 @@ docker run -d \
 ```
 
 Then in config:
+
 ```toml
 [registries]
 kellnr = { index = "sparse+http://registry.internal:8000/api/v1/crates/index/" }
@@ -177,6 +180,7 @@ serde = { version = "1", features = ["derive"] }
 ```
 
 Each member `Cargo.toml` inherits:
+
 ```toml
 [dependencies]
 tokio = { workspace = true }
@@ -193,6 +197,7 @@ cargo vendor                    # downloads all deps to ./vendor/
 ```
 
 Generates `vendor/` dir + config snippet:
+
 ```toml
 # .cargo/config.toml (auto-generated)
 [source.crates-io]
@@ -224,6 +229,7 @@ cargo deny check
 ```
 
 `cargo-deny` config:
+
 ```toml
 # deny.toml
 [licenses]

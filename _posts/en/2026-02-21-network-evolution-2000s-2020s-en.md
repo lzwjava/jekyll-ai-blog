@@ -14,6 +14,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **1. Wireless Connectivity**
+
 - **2000s:**
   Wi-Fi (802.11b/g) was emerging but limited in speed (11–54 Mbps) and coverage. Public Wi-Fi was rare, and mobile data was slow (2G/3G).
 - **2020s:**
@@ -22,6 +23,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **2. Internet Speed and Infrastructure**
+
 - **2000s:**
   Dial-up and early broadband (DSL, cable) dominated, with speeds often <10 Mbps. Fiber optics were expensive and limited to businesses.
 - **2020s:**
@@ -30,6 +32,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **3. Network Security**
+
 - **2000s:**
   Basic firewalls and WEP encryption (easily hacked) were standard. Cyber threats were less sophisticated.
 - **2020s:**
@@ -38,6 +41,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **4. IoT and Smart Devices**
+
 - **2000s:**
   IoT was in its infancy (e.g., early smart home gadgets). Limited interoperability and high costs.
 - **2020s:**
@@ -46,6 +50,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **5. Latency and Real-Time Applications**
+
 - **2000s:**
   High latency (100+ ms) made VoIP and video calls choppy. Online gaming was laggy.
 - **2020s:**
@@ -54,6 +59,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **6. Network Scalability**
+
 - **2000s:**
   Networks struggled with scalability (e.g., corporate VPNs, early data centers).
 - **2020s:**
@@ -62,6 +68,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **7. Global Connectivity**
+
 - **2000s:**
   Internet access was uneven; rural areas often lacked broadband.
 - **2020s:**
@@ -70,6 +77,7 @@ Your observation about the ubiquity of Wi-Fi, 5G, and faster speeds is spot-on! 
 ---
 
 ### **Why It Matters**
+
 The 2020s focus on **speed, reliability, and ubiquity**, enabling technologies like AI, autonomous vehicles, and telemedicine. The 2000s laid the foundation, but today’s networks are designed for a hyper-connected world.
 
 Would you like a deeper dive into any specific area (e.g., 5G vs. 4G, IoT security)?

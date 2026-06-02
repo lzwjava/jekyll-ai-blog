@@ -21,6 +21,7 @@ Assembly language is a low-level programming language that provides direct contr
 The 8086 instruction set is a collection of commands that the CPU understands, categorized by their function: **data transfer**, **arithmetic**, **logic**, and **control flow**. Each instruction operates on registers, memory, or immediate values, using the 8086’s addressing modes (e.g., register, direct, indirect).
 
 #### a. Data Transfer Instructions
+
 These instructions move data between registers, memory, and immediate values.
 
 - **MOV (Move)**:
@@ -50,6 +51,7 @@ These instructions move data between registers, memory, and immediate values.
   - Example: `IN AL, 60h` (read keyboard port); `OUT 61h, AL` (write to speaker port).
 
 #### b. Arithmetic Instructions
+
 These perform mathematical operations, updating flags (e.g., ZF, CF, SF, OF) based on results.
 
 - **ADD (Add)**:
@@ -81,6 +83,7 @@ These perform mathematical operations, updating flags (e.g., ZF, CF, SF, OF) bas
   - Example: `ADC AX, BX` (AX = AX + BX + CF).
 
 #### c. Logic Instructions
+
 These perform bitwise operations and manipulate binary data.
 
 - **AND (Bitwise AND)**:
@@ -108,6 +111,7 @@ These perform bitwise operations and manipulate binary data.
   - Example: `ROL BX, 1` (rotate BX left by 1 bit).
 
 #### d. Control Flow Instructions
+
 These alter the program’s execution sequence, enabling jumps, loops, and subroutines.
 
 - **JMP (Jump)**:
@@ -154,7 +158,9 @@ These alter the program’s execution sequence, enabling jumps, loops, and subro
 Assembly language programs are written as human-readable instructions that are assembled into machine code. The 8086 uses a **segmented memory model**, with code, data, and stack segments defined explicitly.
 
 #### a. Program Structure
+
 A typical 8086 assembly program includes:
+
 - **Directives**: Instructions for the assembler (e.g., NASM, MASM).
   - `SEGMENT`: Defines code, data, or stack segments.
   - `ORG`: Sets origin address.
@@ -164,6 +170,7 @@ A typical 8086 assembly program includes:
 - **Comments**: Explain code (e.g., `; comment`).
 
 **Example Program Structure (MASM syntax)**:
+
 ```asm
 .model small
 .stack 100h
@@ -183,22 +190,27 @@ end main
 ```
 
 #### b. Sequential Structures
+
 Sequential code executes instructions in order, without jumps or loops.
 
 **Example: Adding Two Numbers**
+
 ```asm
 mov ax, 5        ; AX = 5
 mov bx, 10       ; BX = 10
 add ax, bx       ; AX = AX + BX (15)
 mov [result], ax ; Store result in memory
 ```
+
 - Instructions execute one after another.
 - Common for simple calculations or data initialization.
 
 #### c. Branch Structures
+
 Branching uses conditional/unconditional jumps to alter program flow based on conditions.
 
 **Example: Compare and Branch**
+
 ```asm
 mov ax, 10       ; AX = 10
 cmp ax, 15       ; Compare AX with 15
@@ -210,14 +222,17 @@ equal:
 done:
     ; Continue program
 ```
+
 - **CMP**: Sets flags based on subtraction (AX - 15).
 - **JE**: Jumps if ZF = 1 (equal).
 - Useful for if-then-else logic.
 
 #### d. Loop Structures
+
 Loops repeat instructions until a condition is met, often using `LOOP` or conditional jumps.
 
 **Example: Sum Numbers 1 to 10**
+
 ```asm
 mov cx, 10       ; Loop counter = 10
 mov ax, 0        ; Sum = 0
@@ -226,10 +241,12 @@ sum_loop:
     loop sum_loop ; Decrement CX, loop if CX ≠ 0
     ; AX = 55 (1 + 2 + ... + 10)
 ```
+
 - `LOOP` simplifies counter-based iteration.
 - Alternative: Use `CMP` and `JNZ` for custom conditions.
 
 **Example with Conditional Loop**
+
 ```asm
 mov ax, 0        ; Counter
 mov bx, 100      ; Limit
@@ -238,12 +255,15 @@ count_up:
     cmp ax, bx   ; Compare with 100
     jle count_up ; Jump if AX <= 100
 ```
+
 - Flexible for non-counter-based loops.
 
 #### e. Subroutines
+
 Subroutines modularize code, allowing reuse via `CALL` and `RET`.
 
 **Example: Square a Number**
+
 ```asm
 main:
     mov ax, 4    ; Input
@@ -259,6 +279,7 @@ square:
 exit:
     ; End program
 ```
+
 - **PUSH/POP**: Save/restore registers to avoid side effects.
 - Stack manages return addresses automatically.
 
@@ -269,6 +290,7 @@ exit:
 Interrupts allow the CPU to respond to external or internal events (e.g., keyboard input, timer ticks) by pausing the current program and executing an ISR.
 
 #### Interrupt Mechanism
+
 - **Interrupt Vector Table (IVT)**:
   - Located at memory 0000:0000h–0000:03FFh.
   - Stores addresses of ISRs for 256 interrupt types (0–255).
@@ -284,12 +306,15 @@ Interrupts allow the CPU to respond to external or internal events (e.g., keyboa
   4. ISR executes, ends with `IRET` to restore state.
 
 #### Writing an ISR
+
 ISRs must:
+
 - Preserve registers (PUSH/POP).
 - Handle the interrupt quickly.
 - End with `IRET`.
 
 **Example: Custom Timer ISR**
+
 ```asm
 .data
 old_vec dw 2 dup(0) ; Store old interrupt vector
@@ -315,20 +340,24 @@ my_isr:
     pop ax
     iret            ; Return from interrupt
 ```
+
 - Hooks timer interrupt (1Ch, ~18.2 Hz).
 - Increments a counter variable.
 - Preserves registers and uses `IRET`.
 
 **Example: DOS Interrupt (INT 21h)**
+
 ```asm
 mov ah, 09h      ; Print string function
 mov dx, offset msg ; Address of '$'-terminated string
 int 21h          ; Call DOS
 ```
+
 - INT 21h provides OS services (e.g., I/O, file handling).
 - AH specifies the function code.
 
 #### Practical Notes
+
 - **Saving State**: ISRs must preserve all registers to avoid corrupting the main program.
 - **Priority**: Hardware interrupts may preempt others (managed by PIC).
 - **Debugging**: Use tools like DEBUG.COM or modern emulators (e.g., DOSBox, Bochs).
@@ -336,6 +365,7 @@ int 21h          ; Call DOS
 ---
 
 ### Example Program: Factorial Calculation
+
 This program calculates the factorial of a number (e.g., 5! = 120) using a loop and subroutine.
 
 ```asm
@@ -370,10 +400,11 @@ done:
 factorial endp
 end main
 ```
+
 - **Logic**:
   - Input: num = 5.
   - Loop: AX = AX * BX, BX-- until BX = 1.
-  - Result: AX = 5 * 4 * 3 * 2 * 1 = 120.
+  - Result: AX = 5 *4* 3 *2* 1 = 120.
 - **Features**:
   - Subroutine for modularity.
   - Stack for register preservation.
@@ -382,6 +413,7 @@ end main
 ---
 
 ### Best Practices
+
 1. **Comment Code**: Assembly is cryptic; explain every step.
 2. **Minimize Register Use**: Avoid unnecessary overwrites.
 3. **Test Incrementally**: Use debuggers to trace execution.
@@ -391,6 +423,7 @@ end main
 ---
 
 ### Summary
+
 - **8086 Instruction Set**:
   - **Data Transfer**: MOV, PUSH, POP for moving data.
   - **Arithmetic**: ADD, SUB, MUL for calculations.
@@ -409,6 +442,7 @@ end main
 ---
 
 ### Practice Questions
+
 1. Write a program to reverse a string in memory.
 2. Implement a subroutine to check if a number is prime.
 3. Create an ISR for the keyboard interrupt (INT 09h) to count keypresses.

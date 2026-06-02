@@ -19,6 +19,7 @@ Krzysztof Stencel (full name Krzysztof Jan Stencel, born July 12, 1971) is a **P
 He is a professor at the **University of Warsaw**, Poland, affiliated with the Institute of Informatics (Instytut Informatyki) at the Faculty of Mathematics, Informatics and Mechanics (MIMUW). His personal academic website is hosted at stencel.mimuw.edu.pl, where he shares teaching materials.
 
 ### Education and Career
+
 - MSc and PhD in computer science — University of Warsaw
 - DSc (habilitation) in computer engineering — Institute of Computer Science, Polish Academy of Sciences
 - Currently holds the position of full professor (prof. dr hab.) at the University of Warsaw
@@ -26,7 +27,9 @@ He is a professor at the **University of Warsaw**, Poland, affiliated with the I
 He is recognized as a professor of technical sciences (profesor nauk technicznych) in Poland.
 
 ### Research Interests
+
 His main areas include:
+
 - Databases (including object-oriented databases, recursive queries, NoSQL, and big data)
 - Software engineering
 - Formal methods

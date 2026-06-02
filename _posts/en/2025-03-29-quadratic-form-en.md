@@ -13,6 +13,7 @@ In linear algebra, a **quadratic form** is a function $Q: \mathbb{R}^n \rightarr
 $Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}$
 
 where:
+
 * $\mathbf{x}$ is a column vector in $\mathbb{R}^n$:
     $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{bmatrix}$
 * $A$ is an $n \times n$ symmetric matrix with real entries. This matrix is called the **matrix of the quadratic form**.
@@ -35,11 +36,11 @@ Notice that the off-diagonal entries of the matrix $A$ are half the coefficient 
 * **Matrix Representation:** Every quadratic form can be uniquely represented by a symmetric matrix.
 * **Evaluation:** The value of the quadratic form $Q(\mathbf{x})$ is a scalar obtained by the matrix multiplication $\mathbf{x}^T A \mathbf{x}$.
 * **Classification:** Quadratic forms can be classified based on the values they take for non-zero vectors $\mathbf{x}$:
-    * **Positive definite:** $Q(\mathbf{x}) > 0$ for all $\mathbf{x} \neq \mathbf{0}$. This occurs if and only if all eigenvalues of $A$ are positive.
-    * **Positive semidefinite:** $Q(\mathbf{x}) \ge 0$ for all $\mathbf{x}$. This occurs if and only if all eigenvalues of $A$ are non-negative.
-    * **Negative definite:** $Q(\mathbf{x}) < 0$ for all $\mathbf{x} \neq \mathbf{0}$. This occurs if and only if all eigenvalues of $A$ are negative.
-    * **Negative semidefinite:** $Q(\mathbf{x}) \le 0$ for all $\mathbf{x}$. This occurs if and only if all eigenvalues of $A$ are non-positive.
-    * **Indefinite:** $Q(\mathbf{x})$ takes both positive and negative values. This occurs if and only if $A$ has both positive and negative eigenvalues.
+  * **Positive definite:** $Q(\mathbf{x}) > 0$ for all $\mathbf{x} \neq \mathbf{0}$. This occurs if and only if all eigenvalues of $A$ are positive.
+  * **Positive semidefinite:** $Q(\mathbf{x}) \ge 0$ for all $\mathbf{x}$. This occurs if and only if all eigenvalues of $A$ are non-negative.
+  * **Negative definite:** $Q(\mathbf{x}) < 0$ for all $\mathbf{x} \neq \mathbf{0}$. This occurs if and only if all eigenvalues of $A$ are negative.
+  * **Negative semidefinite:** $Q(\mathbf{x}) \le 0$ for all $\mathbf{x}$. This occurs if and only if all eigenvalues of $A$ are non-positive.
+  * **Indefinite:** $Q(\mathbf{x})$ takes both positive and negative values. This occurs if and only if $A$ has both positive and negative eigenvalues.
 * **Change of Variables:** By performing a linear change of variables $\mathbf{x} = P\mathbf{y}$, where $P$ is an invertible matrix, the quadratic form can be transformed into a new quadratic form in terms of $\mathbf{y}$ with a different matrix representation ($P^T A P$). A key goal is often to find an orthogonal transformation (where $P$ is an orthogonal matrix) that diagonalizes the matrix $A$, resulting in a quadratic form with no cross-terms (only squared terms). This is related to the Principal Axis Theorem.
 
 **Applications of Quadratic Forms:**

@@ -17,7 +17,9 @@ type: note
 默认系统守护进程的定义文件位于 `/System/Library/LaunchDaemons/` 目录的属性列表（.plist）文件中。标准安装通常包含约 300–350 个此类进程（例如 macOS 10.14 Mojave 中有 339 个），涵盖网络、安全到硬件管理等各个方面。用户安装或第三方守护进程则存放在 `/Library/LaunchDaemons/` 目录。
 
 #### 如何查看默认守护进程
+
 在终端中列出所有已加载的守护进程（及代理进程）：
+
 - `sudo launchctl list`（显示系统级守护进程和代理进程）
 - `launchctl list`（仅显示用户级代理进程）
 
@@ -26,6 +28,7 @@ type: note
 这些命令输出的列包括 PID、状态和标签（例如 `com.apple.timed`）。
 
 #### "timed" 守护进程
+
 您特别提到的 "timed" 指的是 **com.apple.timed**（时间同步守护进程）。这是 macOS High Sierra（10.13）引入的核心系统守护进程，用于取代旧的 `ntpd` 进程。
 
 - **功能**：自动通过 NTP（网络时间协议）服务器同步 Mac 系统时钟，每 15 分钟查询一次，确保日志、证书和网络操作的时间精准性
@@ -35,6 +38,7 @@ type: note
 若出现时钟漂移，请检查网络问题或防火墙是否阻断 NTP（UDP 端口 123）。
 
 #### 其他常见默认守护进程（示例）
+
 以下表格列举了一些常驻默认系统守护进程（按功能分类）。这并非完整列表（实际有数百个），但涵盖了核心组件。标签名对应 .plist 文件名。
 
 | 类别            | 守护进程标签                     | 功能描述 |
@@ -58,6 +62,7 @@ type: note
 要获取您当前 Mac 的完整最新列表（截至 2025 年 10 月，可能为 macOS 15 Sequoia 或更新版本），请运行上述命令——不同系统版本会略有差异。
 
 #### 参考资料
+
 - [The macOS Process Journey — “timed” (Time Sync Daemon)](https://medium.com/@boutnaru/the-macos-process-journey-timed-time-sync-daemon-4898c8185b4b)
 - [Daemons and Agents could be slowing down your Mac](https://appleinsider.com/inside/macos/tips/daemons-and-agents-could-be-slowing-down-your-mac)
 - [What files are included in the /System/Library/LaunchAgents and /System/Library/LaunchDaemons](https://apple.stackexchange.com/questions/361029/what-files-are-included-in-the-system-library-launchagents-and-system-library)

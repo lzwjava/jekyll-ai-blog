@@ -15,6 +15,7 @@ type: note
 Binance trading bots are automated tools that execute cryptocurrency trades on your behalf based on predefined parameters and strategies you set. They run 24/7 without human intervention, analyzing market data, placing orders, and managing positions to capitalize on opportunities while minimizing emotional decision-making. This is especially useful in the volatile crypto market, where constant monitoring is impractical.
 
 #### General Mechanism and Setup Process
+
 1. **Access the Platform**: Log in to your Binance account via the app or website, navigate to the "Trade" section, and select "Trading Bots" (or search for it in the menu).
 2. **Choose a Strategy**: Select from available bot types (detailed below). Each bot has customizable settings like investment amount, price range, leverage (for futures), and risk parameters (e.g., stop-loss).
 3. **Configure Parameters**: Input details such as the trading pair (e.g., BTC/USDT), grid intervals, or target allocation. Many bots offer backtesting to simulate performance on historical data before going live.
@@ -24,6 +25,7 @@ Binance trading bots are automated tools that execute cryptocurrency trades on y
 Key features include AI-driven suggestions for parameters, portfolio rebalancing, and integration with spot/futures markets. However, risks involve potential losses from poor configurations, market crashes, or exchange downtime—always use only what you can afford to lose and monitor regularly.
 
 ### Main Strategies on Binance
+
 Binance offers several built-in bot strategies tailored to different market conditions. Here's a list of the primary ones:
 
 - **Spot Grid Trading**: Ideal for sideways or volatile markets. The bot places multiple buy orders below the current price and sell orders above, creating a "grid" of price levels. It buys low and sells high within the range, profiting from price fluctuations without predicting direction.

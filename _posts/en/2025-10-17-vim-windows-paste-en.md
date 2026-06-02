@@ -17,7 +17,9 @@ Ah, I see the issue—Vim's `p` command in Git Bash (which runs on Windows) can 
 Don't worry—here's how to handle it step by step, tailored to your "select all, delete, and paste into new text" workflow. I'll cover internal pasting (which should already work) and external pasting.
 
 ### Quick Check: Does Your Vim Support System Clipboard?
+
 First, verify if your Vim can access the Windows clipboard directly (this fixes a lot):
+
 1. Open Git Bash.
 2. Run `vim --version | grep clipboard` (or open Vim with `vim`, then type `:version` and look for `+clipboard`).
    - If it shows `+clipboard`, great—you can use `"+p` for pasting from Windows clipboard.
@@ -26,7 +28,9 @@ First, verify if your Vim can access the Windows clipboard directly (this fixes 
 If unsupported, consider installing a full Vim for Windows (e.g., via Chocolatey: `choco install vim`) or using Neovim/WSL for better integration.
 
 ### 1. Internal Pasting (Yank Within Vim, Paste in Same Session)
+
 This is what my previous instructions targeted—copying *inside* Vim and pasting to a new file in the *same* session. `p` should work fine here, no Git Bash quirks involved:
+
 - In `oldfile.txt`: `gg` (top), `yG` (yank all).
 - `:e newfile.txt` (open new file in same Vim).
 - `p` (paste). It drops the content right after the cursor.
@@ -35,7 +39,9 @@ This is what my previous instructions targeted—copying *inside* Vim and pastin
 If `p` still fails (e.g., pastes nothing or garbled), it might be a yank issue—try `"+yG` instead of `yG` if clipboard is supported, then `"+p`.
 
 ### 2. Pasting External Text into Vim (From Windows Apps)
+
 If you're copying from outside (e.g., select all in Notepad, Ctrl+C, then want to paste into Vim):
+
 - **Method 1: Use Git Bash's Built-in Paste (Easiest, No Vim Changes Needed)**
   1. Open your file: `vim newfile.txt`.
   2. Enter insert mode: Press `i`.
@@ -50,12 +56,14 @@ If you're copying from outside (e.g., select all in Notepad, Ctrl+C, then want t
   3. For your workflow: After deleting in old file, switch to new file and `"+p`.
 
 ### 3. Copying from Vim to External (Yank Out to Windows)
+
 - Internal yank (`y`) stays in Vim—use terminal copy for external.
 - Select text in Vim: `v` (visual mode), move cursor to select all (`ggVG`), then `y`.
 - To copy to Windows: Right-click > Edit > Copy (or highlight and right-click > Copy).
 - With +clipboard: `"+y` instead of `y`, then Ctrl+V elsewhere.
 
 ### Troubleshooting Common Git Bash + Vim Paste Glitches
+
 - **Garbled Text (e.g., Partial Lines or Extra Spaces):** Disable bracketed paste in Vim (`:set paste` before entering insert mode, then paste, then `:set nopaste`). Or add `set paste` to `~/.vimrc` for always-on (but it disables some features like auto-indent).
 - **Nothing Pastes:** Ensure you're in insert mode for terminal paste—`p` in command mode is internal only.
 - **Mouse Interference:** If right-click selects instead of pastes, toggle with right-click on title bar > Options > Mouse > Quick Edit.

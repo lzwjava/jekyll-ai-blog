@@ -26,4 +26,5 @@ type: note
 - 贫困心态（“我永远都会穷”，“富人都很邪恶”）往往比实际缺钱更具限制性，而且它们比财富更容易代代相传。
 
 参考资料：
+
 - Reddit r/povertyfinance 论坛上常见的观点（特别是“Brutal Truth”帖子），Quillette 和 American Affairs 关于福利陷阱的文章，Charles Murray 的《Coming Apart》和《Losing Ground》，Theodore Dalrymple 的《Life at the Bottom》，Thomas Sowell 的《Wealth, Poverty and Politics》。

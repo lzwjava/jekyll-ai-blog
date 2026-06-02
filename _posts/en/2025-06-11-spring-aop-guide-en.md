@@ -12,7 +12,8 @@ type: note
 
 Spring AOP (Aspect-Oriented Programming) is a key component of the Spring Framework that provides a way to implement cross-cutting concerns (like logging, security, transaction management) separately from the business logic.
 
-### Key Concepts:
+### Key Concepts
+
 - **Cross-cutting concerns**: Functionality that spans multiple layers (logging, security, etc.)
 - **Aspect**: A modularization of a concern that cuts across multiple classes
 - **Join point**: A point during program execution (method execution, exception handling, etc.)
@@ -33,6 +34,7 @@ Spring AOP (Aspect-Oriented Programming) is a key component of the Spring Framew
 ## 3. Core AOP Components
 
 ### 3.1 Aspects
+
 A class annotated with `@Aspect` containing advices and pointcuts.
 
 ```java
@@ -46,6 +48,7 @@ public class LoggingAspect {
 ### 3.2 Advice Types
 
 1. **Before**: Executes before a join point
+
    ```java
    @Before("execution(* com.example.service.*.*(..))")
    public void beforeAdvice() {
@@ -54,6 +57,7 @@ public class LoggingAspect {
    ```
 
 2. **AfterReturning**: Executes after a join point completes normally
+
    ```java
    @AfterReturning(pointcut = "execution(* com.example.service.*.*(..))", returning = "result")
    public void afterReturningAdvice(Object result) {
@@ -62,6 +66,7 @@ public class LoggingAspect {
    ```
 
 3. **AfterThrowing**: Executes if a method exits by throwing an exception
+
    ```java
    @AfterThrowing(pointcut = "execution(* com.example.service.*.*(..))", throwing = "ex")
    public void afterThrowingAdvice(Exception ex) {
@@ -70,6 +75,7 @@ public class LoggingAspect {
    ```
 
 4. **After (Finally)**: Executes after a join point regardless of outcome
+
    ```java
    @After("execution(* com.example.service.*.*(..))")
    public void afterAdvice() {
@@ -78,6 +84,7 @@ public class LoggingAspect {
    ```
 
 5. **Around**: Wraps a join point, most powerful advice
+
    ```java
    @Around("execution(* com.example.service.*.*(..))")
    public Object aroundAdvice(ProceedingJoinPoint joinPoint) throws Throwable {
@@ -93,12 +100,14 @@ public class LoggingAspect {
 Pointcuts define where advice should be applied using expressions:
 
 - **Execution**: Matches method execution
+
   ```java
   @Pointcut("execution(public * com.example.service.*.*(..))")
   public void serviceMethods() {}
   ```
 
 - **Within**: Matches all join points within certain types
+
   ```java
   @Pointcut("within(com.example.service..*)")
   public void inServiceLayer() {}
@@ -112,6 +121,7 @@ Pointcuts define where advice should be applied using expressions:
 ### 3.4 Combining Pointcuts
 
 Pointcuts can be combined using logical operators:
+
 ```java
 @Pointcut("execution(* com.example.service.*.*(..)) && !execution(* com.example.service.UserService.*(..))")
 public void serviceMethodsExceptUserService() {}
@@ -122,6 +132,7 @@ public void serviceMethodsExceptUserService() {}
 ### 4.1 Setup
 
 1. Add Spring AOP dependency (if not using Spring Boot):
+
    ```xml
    <dependency>
        <groupId>org.springframework</groupId>
@@ -136,6 +147,7 @@ public void serviceMethodsExceptUserService() {}
    ```
 
 2. For Spring Boot, just include `spring-boot-starter-aop`:
+
    ```xml
    <dependency>
        <groupId>org.springframework.boot</groupId>
@@ -144,6 +156,7 @@ public void serviceMethodsExceptUserService() {}
    ```
 
 3. Enable AOP in your configuration:
+
    ```java
    @Configuration
    @EnableAspectJAutoProxy
@@ -201,6 +214,7 @@ public @interface LogExecutionTime {
 ```
 
 Then use it on methods:audio
+
 ```java
 @Service
 public class UserService {
@@ -213,10 +227,13 @@ public class UserService {
 ```
 
 ## 5. Advanced Topics
+
 audio
+
 ### 5.1 Aspect Ordering
 
 Control the order of aspect execution with `@Order`:
+
 ```java
 @Aspect
 @Component
@@ -236,6 +253,7 @@ public class ValidationAspect {
 ### 5.2 Accessing Method Information
 
 In advice methods, you can access:
+
 - `JoinPoint` (for Before, After, AfterReturning, AfterThrowing)
 - `ProceedingJoinPoint` (for Around)
 
@@ -262,6 +280,7 @@ public void handleException(JoinPoint joinPoint, Exception ex) {
 ### 5.4 Proxying Mechanisms
 
 Spring AOP uses two types of proxies:
+
 - **JDK Dynamic Proxy**: Default for interfaces
 - **CGLIB Proxy**: Used when no interface is available (can be forced with `proxyTargetClass=true`)
 
@@ -297,11 +316,13 @@ Spring AOP uses two types of proxies:
 ## 9. Troubleshooting
 
 **Issue**: Advice not executing
+
 - Check if the bean is Spring-managed
 - Verify pointcut expression matches intended methods
 - Ensure `@EnableAspectJAutoProxy` is present
 
 **Issue**: Around advice not proceeding
+
 - Make sure to call `proceed()` on `ProceedingJoinPoint`
 audio
 **Issue**: Incorrect proxy type
@@ -316,19 +337,23 @@ Spring AOP provides a powerful yet simple way to implement cross-cutting concern
 Even though Spring AOP doesn't use AspectJ's weaving capabilities (it uses proxy-based AOP instead), you still need the `aspectjweaver` dependency for several important reasons:
 
 ### 1. **AspectJ Annotation Support**
+
 Spring AOP uses AspectJ's **annotations** (like `@Aspect`, `@Pointcut`, `@Before`, `@After`, etc.) to define aspects and advices. These annotations come from the `aspectjweaver` library.
 
 - Without it, you would get compilation errors when using `@Aspect` or other AOP annotations.
 
 ### 2. **Pointcut Expression Language**
+
 Spring AOP borrows AspectJ's **pointcut expression language** for defining where advice should be applied (e.g., `execution(* com.example.service.*.*(..))`).
 
 - The `aspectjweaver` provides the parser and matching logic for these expressions.
 
 ### 3. **Support for Additional Join Points (Limited)**
+
 While Spring AOP only supports **method execution** join points (unlike AspectJ, which supports constructors, field access, etc.), it still relies on AspectJ's underlying pointcut matching mechanism.
 
 ### 4. **Load-Time Weaving (Optional)**
+
 If you decide to use **Load-Time Weaving (LTW)** with Spring AOP (which is rare but possible), `aspectjweaver` is required. LTW allows weaving aspects at class-loading time instead of using proxies.
 
 ```java
@@ -337,17 +362,21 @@ public class AppConfig { ... }
 ```
 
 ### 5. **Compatibility with @EnableAspectJAutoProxy**
+
 When you use `@EnableAspectJAutoProxy`, Spring internally uses AspectJ's infrastructure to process the AOP annotations, even though it doesn't do full AspectJ weaving.
 
 ---
 
 ### **Do You Always Need It?**
+
 - **If using Spring Boot (`spring-boot-starter-aop`)**: No, because it transitively includes `aspectjweaver`.
 - **If using plain Spring AOP**: Yes, you must include it explicitly.
 
 ### **Alternatives?**
+
 - If you were using **full AspectJ** (compile-time or load-time weaving), you'd need `aspectjrt` and `aspectjtools` as well.
 - But for **Spring AOP**, `aspectjweaver` alone is sufficient.
 
 ### **Conclusion**
+
 Spring AOP is **proxy-based**, but it **reuses AspectJ's annotations and pointcut syntax**, which is why `aspectjweaver` is required. It bridges the gap between Spring's proxy approach and AspectJ's more powerful AOP model.

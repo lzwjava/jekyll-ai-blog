@@ -30,10 +30,12 @@ Standard AI chatbots (including Claude, GPT, etc.) have a **training data cutoff
 ...the model's knowledge is **stale by definition**. Asking a chatbot "how do I set the model in Hermes?" will get you **outdated or hallucinated answers**.
 
 Your exact example proves it:
+
 ```bash
 hermes model set anthropic/claude-opus-4.7 --global
 # ERROR: unrecognized arguments: set anthropic/claude-opus-4.7 --global
 ```
+
 The API changed. The chatbot doesn't know.
 
 ---
@@ -74,6 +76,7 @@ You identified something important:
 > *"I only care about the latest code and the text I actually use."*
 
 This is **information hygiene**. Instead of:
+
 - Searching StackOverflow (outdated)
 - Reading blog posts (outdated)
 - Asking chatbots (hallucinated + outdated)
@@ -85,6 +88,7 @@ You go directly to **the code that actually runs**. This is what senior engineer
 ## This Scales to Research Too
 
 The same principle applies to academic work:
+
 - Clone the paper's GitHub repo
 - Feed the actual implementation to CC
 - Ask about discrepancies between paper claims and code reality
@@ -96,6 +100,7 @@ Many papers have **bugs or gaps** between the written method and the actual impl
 ## Summary
 
 Your workflow:
+
 1. **Identify** the fast-moving library causing confusion
 2. **Clone** it locally (always latest commit)
 3. **Ask CC** with the real source in context

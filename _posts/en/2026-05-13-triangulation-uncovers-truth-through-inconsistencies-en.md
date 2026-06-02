@@ -22,6 +22,7 @@ Yes — what you're describing is one of the most fundamental and powerful epist
 Triangulation facilitates validation of data through cross-verification from more than two sources. It tests the consistency of findings obtained through different instruments and increases the chance to control, or assess some of the threats or multiple causes influencing results.
 
 In your web analytics example:
+
 - **Cloudflare** → raw traffic hits, bandwidth, bot filtering
 - **SimilarWeb** → estimated audience, referral sources, competitive benchmarking
 - **AI training logs / Claude Code analysis** → behavioral patterns, API usage, query clustering
@@ -36,6 +37,7 @@ Each source captures **a different slice of reality**. When you overlay them, th
 This is a very deep point. Most people assume cross-verification is only useful when sources *agree*. But a new practical perspective of triangulation as an assessment strategy would expect there to be inconsistency and contradiction between results. The presence of inconsistency in outcomes, while using different methods for the purpose of triangulation assessment, is a somewhat naturally expected result — inconsistencies and contradictions in the results should not affect the validity of the research; rather, they may require further investigation to reach a reasonable conclusion.
 
 So when Cloudflare says 100k visits but SimilarWeb says 40k, that **contradiction is a signal**, not a failure. It might reveal:
+
 - Bot traffic being filtered differently
 - Cached vs. uncached request counting
 - Geographic audience differences
@@ -63,6 +65,7 @@ Applied to your AI/engineering context:
 The use of diversified data sources and methods enables researchers to detect errors and validate findings by identifying recurring patterns and inconsistencies in the data. In reality, data converge only occasionally — inconsistency and divergence are more the norm.
 
 In the history of science, contradictions between data sources have driven major breakthroughs:
+
 - **Michelson-Morley experiment** → inconsistency between expected and observed light speed → led to Special Relativity
 - **Medical trials** → when RCT results contradict observational studies → reveals confounders
 - **AI alignment research** → when model outputs contradict training labels → reveals data poisoning or distribution shift

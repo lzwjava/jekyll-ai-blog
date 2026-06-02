@@ -17,6 +17,7 @@ Answer:
 **先妣事略** (Xiān bǐ shì luè) is a very famous Chinese biographical essay written by **归有光** (Guī Yǒuguāng, 1506–1571), one of the most important prose writers of the Ming dynasty and a central figure in the Tang-Song school (唐宋派) of classical Chinese writing.
 
 ### Basic Information
+
 - **Title meaning**:
   先妣 = my late mother
   事略 = brief account of conduct / short biography
@@ -27,9 +28,11 @@ Answer:
 - **Year**: Most likely written around 1550–1560 (exact date uncertain).
 
 ### Why it is so famous
+
 归有光 lost his mother **魏孺人** (Lady Wei) when he was only **八岁** (eight years old). The essay was written many years later when the author was already an adult.
 
 Despite its brevity, it achieves extraordinary emotional depth through:
+
 - Extremely plain and simple language (almost conversational at times)
 - Precise, restrained selection of ordinary domestic details
 - Complete avoidance of ornate rhetoric and empty praise
@@ -45,12 +48,14 @@ Despite its brevity, it achieves extraordinary emotional depth through:
 These lines use very simple vocabulary but create overwhelming sadness through repetition, small details, and the mother’s quiet, wordless crying.
 
 ### Literary significance
+
 - Represents the highest achievement of **“真”** (genuine feeling / sincerity) in Ming prose
 - Influenced almost all later Qing dynasty writers who valued emotional authenticity over formal elegance (e.g. 桐城派 also greatly admired it)
 - Frequently included in middle school and high school textbooks in China, Taiwan, Hong Kong, and Singapore
 - Often compared with Han Yu’s **《祭十二郎文》**, Zhu Ziqing’s **《背影》**, and other “tear-jerking” family remembrance pieces
 
 ### Modern status
+
 It remains one of the few classical Chinese essays that can still make both teenagers and adults feel deeply moved when read carefully today — a rare combination of literary excellence and universal human emotion.
 
 In short: **先妣事略** is not long, not difficult in vocabulary, but belongs to the small group of Chinese prose masterpieces that are emotionally devastating in their simplicity.

@@ -51,7 +51,6 @@ Associate (NCA) 考试通常给予您 **60 分钟** 来回答大约 **50 道题*
 
 ### 🔵 Associate 级别 (NCA) — 每场 $125 USD
 
-
 | 考试代码 | 名称 | 时长 | 测试内容 |
 |---|---|---|---|
 | **NCA-GENL** | Generative AI with LLMs | 60 分钟 / 50 题 | 使用生成式 AI 和 LLMs 结合 NVIDIA 解决方案开发、集成和维护 AI 驱动应用的基礎概念 |
@@ -60,7 +59,6 @@ Associate (NCA) 考试通常给予您 **60 分钟** 来回答大约 **50 道题*
 | **NCA-ADS** | Accelerated Data Science | 60 分钟 / 50 题 | 初级分析师的 RAPIDS/GPU 数据科学入门 |
 
 ### 🟠 Professional 级别 (NCP) — $200–$400 USD
-
 
 | 考试代码 | 名称 | 费用 | 测试内容 |
 |---|---|---|---|
@@ -102,7 +100,6 @@ Associate 级别 (NCA) 考试每次尝试 $125 USD。Professional 级别开发�
 ---
 
 ## 谁应该获得哪些认证？
-
 
 | 您的背景 | 推荐路径 |
 |---|---|

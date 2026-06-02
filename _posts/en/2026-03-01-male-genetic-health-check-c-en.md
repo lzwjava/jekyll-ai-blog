@@ -15,7 +15,7 @@ type: note
 
 This is a comprehensive **male-specific employee health check-up package (Package C)** offered in China (likely from a provider like iKang or a similar corporate体检 service). It includes **24 main categories** of tests and examinations, focusing on routine health screening, early disease detection (especially tumors), organ function, and notably **genetic testing** for inherited risks.
 
-### Main Components (Translated and Grouped):
+### Main Components (Translated and Grouped)
 
 - **General Measurements**
   Height, weight, BMI, systolic blood pressure, diastolic blood pressure.
@@ -85,9 +85,11 @@ This is a comprehensive **male-specific employee health check-up package (Packag
   Guide Medical APP services: appointment booking, precise triage/consultation.
 
 ### Key Highlight: Genetic Testing Inclusion
+
 The package title explicitly states it **includes genetic testing items** ("含遗传基因检查项目"). However, the listed details do not specify the exact genetic tests (e.g., no mention of particular genes like BRCA, tumor susceptibility genes, or chronic disease risks). In Chinese corporate/employee体检 packages (especially higher-tier ones like C), this often refers to **inherited disease risk screening**, such as predisposition to cancers, cardiovascular diseases, diabetes, or other hereditary conditions. It is added as an advanced feature for early risk awareness, though the clinical value and interpretation of such tests in routine check-ups can vary (some experts view broad genetic screening in general体检 as limited or optional).
 
 ### Overall Purpose and Suitability
+
 This is a **mid-to-high-end corporate male体检 package** emphasizing tumor screening (via markers + ultrasounds + chest X-ray), male reproductive health (prostate focus), metabolic/cardiovascular risks, and basic organ checks — plus genetic insights for personalized prevention. It suits adult working-age men (e.g., 30–50+) in company-provided annual health checks, aiming for early detection of common chronic/tumor diseases in China.
 
 **References:**

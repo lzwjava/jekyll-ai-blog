@@ -50,6 +50,7 @@ The home router itself **performs NAT** — it translates all internal `192.168.
 **Yes, absolutely.** There are several real-world scenarios:
 
 ### Scenario 1: VPN to Cloud (Most Common)
+
 ```
 Home PC (192.168.0.x)
     │
@@ -67,10 +68,13 @@ Cloud NAT Gateway
     │
 Cloud resources / Internet egress
 ```
+
 Home PC traffic gets **double-NATted**: once at home router, once at cloud NAT.
 
 ### Scenario 2: AWS/GCP NAT Gateway for Outbound Traffic
+
 Cloud providers use NAT gateways so that **private cloud VMs** (with no public IP) can still reach the Internet:
+
 ```
 Cloud VM (10.0.x.x or 172.31.x.x)  ← private, no public IP
     │
@@ -78,9 +82,11 @@ AWS NAT Gateway (has public Elastic IP)
     │
 Internet
 ```
+
 This is **the same concept** as the diagram — just hosted in cloud infrastructure.
 
 ### Scenario 3: Direct Connect / Leased Line
+
 Enterprises can connect office networks directly to cloud private networks via **AWS Direct Connect** or **Google Cloud Interconnect**, bypassing the public Internet entirely.
 
 ---

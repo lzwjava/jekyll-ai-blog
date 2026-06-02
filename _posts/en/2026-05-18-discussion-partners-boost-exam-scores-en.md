@@ -51,6 +51,7 @@ Get the overview, key points, themes, author background.
 
 **Step 2 — Ask AI follow-up questions (critical upgrade)**
 Don't stop at the intro. Push deeper:
+
 - *"What are the three most commonly tested rhetorical devices in this essay and how do I identify them?"*
 - *"Give me a past-exam style question about this text and let me try to answer it."*
 - *"What would a full-mark answer look like for this question?"*

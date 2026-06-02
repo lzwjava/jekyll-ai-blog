@@ -13,6 +13,7 @@ type: note
 Below is a self-contained Python script that uses NetworkX and Matplotlib to draw a high-level architecture/flow of how the Karate test framework works. It groups components by role (authoring, execution, runtime, protocols/IO, external systems, and reporting), and shows the typical flow from feature files through the engine to protocols and reporting.
 
 Instructions:
+
 - pip install networkx matplotlib
 - Optionally install pygraphviz or pydot + graphviz if you want a nicer layout; the script auto-detects and falls back to a spring layout.
 
@@ -162,6 +163,7 @@ plt.show()
 ```
 
 What this diagram conveys:
+
 - Authoring: You write .feature files, can reuse other features, configure via karate-config, and feed data.
 - Execution: You run via CLI/JUnit5/Maven/Gradle, optionally in parallel.
 - Runtime: The Karate engine interprets the DSL, uses a JS engine for expressions, and manages scenario state.

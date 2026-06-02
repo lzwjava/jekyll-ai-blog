@@ -38,6 +38,7 @@ error_log("Room type: " . $roomType);
 ```
 
 然后：
+
 - 再次触发 webhook
 - 收集日志
 - 将日志提供给 Claude / OpenClaw 代理
@@ -46,6 +47,7 @@ error_log("Room type: " . $roomType);
 ## 阶段6 —— 完整调试会话
 
 使用断点进行单步调试：
+
 - 对于 PHP：Xdebug + VS Code
 - 允许在指定行暂停执行
 - 实时检查每个变量
@@ -58,6 +60,7 @@ error_log("Room type: " . $roomType);
 ```
 
 此循环极具威力，因为：
+
 - 你获得的是**真实的运行时数据**，而非理论推演
 - AI 的分析能力随每次迭代而提升
 - 每次循环都能**快速缩小问题范围**

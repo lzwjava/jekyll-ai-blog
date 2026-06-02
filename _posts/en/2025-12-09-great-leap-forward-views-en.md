@@ -40,6 +40,7 @@ The Great Leap Forward (1958–1962) is officially viewed in China as a well-int
 These views are unpopular either inside China (where questioning the official “serious difficulties” framing can still be sensitive) or outside China (where minimizing the famine is often seen as apologetics). Most professional historians today reject the lower death-toll estimates and consider the Great Leap an unambiguous policy catastrophe driven by ideological overreach, forced collectivization, and suppression of negative feedback.
 
 References:
+
 - [Yang Jisheng – Tombstone (banned in China, ~36 million famine deaths estimate)](https://www.nytimes.com/2013/01/06/books/review/tombstone-the-great-chinese-famine-1958-1962-by-yang-jisheng.html)
 - [Frank Dikötter – Mao’s Great Famine (45 million estimate)](https://www.frankdikotter.com/maos-great-famine)
 - [Utsa Patnaik’s revisionist critique of high estimates](https://monthlyreview.org/2017/05/01/revisiting-allegations-of-genocide-in-china/)

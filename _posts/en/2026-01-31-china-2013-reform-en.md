@@ -12,13 +12,14 @@ type: note
 
 The **Third Plenum of the 18th Central Committee** (党的十八届三中全会) was a landmark political meeting of the Chinese Communist Party held in November 2013 in Beijing.
 
-## Key Points:
+## Key Points
 
 **What it was:** A four-day closed-door meeting of approximately 200 senior CCP leaders who gathered to discuss and approve major policy directions for China's future development.
 
 **Why it matters:** Third Plenums historically have been venues for announcing significant economic reforms in China. This particular meeting was widely anticipated as a pivotal moment for Xi Jinping's leadership, which had begun earlier that year.
 
 **Major outcomes:** The meeting produced a comprehensive reform blueprint covering 60 different policy areas, with particular emphasis on:
+
 - Economic restructuring and market reforms
 - Giving markets a "decisive role" in resource allocation
 - Rural land reforms

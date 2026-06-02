@@ -28,6 +28,7 @@ _思考：_
 用户在询问如何为这个项目添加 pre-commit 来强制执行严格的代码格式。他们提到了“such project”，但没有提供有关项目类型的任何上下文。首先让我探索一下仓库结构，以了解项目类型和现有设置。
 
 我应该：
+
 1. 首先检查当前目录中的文件，以了解项目结构
 2. 查看 package.json、setup.py 或其他配置文件，以确定技术栈
 3. 根据技术栈提供合适的 pre-commit 配置推荐
@@ -36,6 +37,7 @@ _思考：_
 **工具：glob**
 
 **输入：**
+
 ```json
 {
   "pattern": "*"
@@ -43,6 +45,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 /Users/lzwjava/projects/copilot-web/.git/logs/refs/remotes/origin/main
 /Users/lzwjava/projects/copilot-web/.git/refs/remotes/origin/main
@@ -163,6 +166,7 @@ _思考：_
 **工具：read**
 
 **输入：**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/package.json"
@@ -170,6 +174,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/package.json</path>
 <type>file</type>
@@ -212,6 +217,7 @@ _思考：_
 **工具：read**
 
 **输入：**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/eslint.config.js"
@@ -219,6 +225,7 @@ _思考：_
 ```
 
 **输出：**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/eslint.config.js</path>
 <type>file</type>
@@ -257,11 +264,13 @@ _思考：_
 _思考：_
 
 这是一个使用 Vite 的 React + TypeScript 项目。它已经具有：
+
 - ESLint 设置，包括 typescript-eslint 和 React hooks 插件
 - 严格配置的 TypeScript
 - lint 脚本："lint": "eslint ."
 
 要添加 pre-commit hooks 来强制执行代码格式化，我需要：
+
 1. 检查是否已经使用任何格式化工具（如 Prettier）
 2. 创建 .pre-commit-config.yaml 文件
 3. 安装 pre-commit 框架
@@ -270,6 +279,7 @@ _思考：_
 由于项目中没有 Prettier 依赖，我建议使用 ESLint 进行检查（如果需要格式化，则使用 Prettier），或者仅使用 ESLint。让我检查他们是否已经想使用特定格式化工具。
 
 用户想要“add pre-commit to enforce strong code format”。这通常意味着：
+
 - 安装并配置 pre-commit 框架
 - 设置在每次提交前运行的 hooks
 - 使用 linter/格式化工具如 ESLint、Prettier 等

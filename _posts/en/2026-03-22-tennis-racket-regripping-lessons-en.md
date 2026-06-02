@@ -36,6 +36,7 @@ A clean handle is crucial for proper adhesion and a smooth, even finish. Before 
 ## 3. Why Did Heating with a Lighter (火机) Work?
 
 This is the most insightful part of your story. Heat reactivates pressure-sensitive adhesives. The grip tape uses a thermoplastic adhesive that softens when warmed, allowing it to conform and bond to the surface below. Once cooled, it re-hardens and creates a firm, lasting bond. This is the same principle used in:
+
 - **Heat guns** used by professionals for grip work
 - **Iron-on patches** for fabric
 - **Heat shrink tubing** in electronics
@@ -47,15 +48,19 @@ This is the most insightful part of your story. Heat reactivates pressure-sensit
 ## 4. Key Practical Lessons
 
 ### 🔧 Preparation is Everything
+
 Inspect the racket handle for any debris or sticky residue left from previous grips, and use a soft cloth with mild cleaner or rubbing alcohol to wipe it thoroughly, ensuring it's completely dry before proceeding.
 
 ### 🎯 Wrapping Technique Matters
+
 Wrap the grip tightly around the handle in a diagonal pattern, slightly overlapping each layer to ensure even coverage and prevent bulging. Maintain consistent tension — uneven tension can lead to discomfort or premature wear.
 
 ### 📐 Start from the Bottom Correctly
+
 Start wrapping from the bottom of your racket, with the tapered side of the overgrip angled up on a short bevel. Avoid laying the overgrip over the butt cap of your racket.
 
 ### 🔁 Replace Regularly
+
 The more often you play, the more often you will want to change your overgrip. A good rule is to change it as many times a month as you play in a week.
 
 ---

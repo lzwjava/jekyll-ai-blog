@@ -15,5 +15,6 @@ type: note
 It's definitely a **GPU**, not a motherboard. Custom versions from brands like Galax, Colorful, and ASUS feature unique cooling designs, such as magnetic shrouds or even solid-gold casings for premium editions.
 
 For more details:
+
 - [NVIDIA RTX 5090D Benchmarks](https://www.tomshardware.com/pc-components/gpus/early-rtx-5090d-v2-benchmarks-suggest-that-maybe-384-bit-memory-is-just-fine-after-all-nerfed-china-market-gpu-runs-within-2-2-percent-of-5090d-in-some-tests)
 - [RTX 5090D Features](https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090d-gpu-features-a-magnetic-shroud-and-fans-for-easy-maintenance)

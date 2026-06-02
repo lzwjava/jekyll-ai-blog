@@ -34,6 +34,7 @@ Grok.x.ai likely uses a combination of Cloudflare WAF managed rules + bot fight 
 ### Step-by-step: Integrate Cloudflare Turnstile (recommended for form/chat protection)
 
 **Step 1: Create a Turnstile widget in Cloudflare**
+
 - Go to dash.cloudflare.com → Turnstile
 - Click "Add widget"
 - Choose mode:
@@ -113,6 +114,7 @@ app.post('/submit', async (req, res) => {
 **Python (Flask/FastAPI), PHP, Go, etc.** — same principle: POST to `/siteverify` with secret + token.
 
 **Step 4: Optional — combine with WAF**
+
 - In Cloudflare dashboard → Security → WAF → Create rule
 - Field: `cf.turnstile.score < 0.3` → Action: Block / Managed Challenge
 - This lets Cloudflare automatically challenge low-confidence visitors

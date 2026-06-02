@@ -11,6 +11,7 @@ type: note
 Let me break down the command `ps -ef | grep java` and then explain some common options for the `ps` command to help you understand how it works and how you can customize it.
 
 ### Explanation of `ps -ef | grep java`
+
 The command `ps -ef | grep java` is used to list all running processes on a Unix-like system and filter the output to show only those related to Java. Here's what each part does:
 
 - **`ps`**: This is the process status command, which displays information about active processes.
@@ -22,6 +23,7 @@ The command `ps -ef | grep java` is used to list all running processes on a Unix
 So, this command is particularly useful if you're trying to find and monitor Java processes running on your system.
 
 ### Common Options for `ps`
+
 The `ps` command is highly customizable with various options to tailor its output to your needs. Here are some of the most commonly used options:
 
 - **`-e`**: Selects all processes running on the system, regardless of the user. This is great for getting a complete picture of what's happening.
@@ -35,7 +37,9 @@ The `ps` command is highly customizable with various options to tailor its outpu
 - **`aux`**: A popular BSD-style combination that shows all processes (`a`), with user-oriented details (`u`), and includes processes without a controlling terminal (`x`).
 
 ### How to Use These Options
+
 You can mix and match these options depending on what you need. For example:
+
 - `ps -ef` gives you a detailed list of all processes.
 - `ps -u john` shows what user "john" is running.
 - `ps aux` (note: no hyphen here, BSD style) is a common way to see all processes with user details.

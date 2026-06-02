@@ -17,6 +17,7 @@ Answer:
 **Song of Everlasting Sorrow (長恨歌)** is one of the most famous narrative poems in Chinese literature, written by Bai Juyi (白居易) in 806 during the Tang Dynasty. It tells the tragic love story between Emperor Xuanzong (唐玄宗) and his favorite consort Yang Guifei (楊貴妃), and how their romance contributed to the An Lushan Rebellion and the near collapse of the Tang empire.
 
 ### Full Text (in Chinese)
+
 漢皇重色思傾國，御宇多年求不得。
 楊家有女初長成，養在深閨人未識。
 天生麗質難自棄，一朝選在君王側。
@@ -78,6 +79,7 @@ Answer:
 天長地久有時盡，此恨綿綿無絕期。
 
 ### English Translation (Selected famous lines for key atmosphere)
+
 The Son of Heaven prized beauty that could topple kingdoms,
 Yet for many years he sought in vain.
 The Yang family had a daughter just grown up,

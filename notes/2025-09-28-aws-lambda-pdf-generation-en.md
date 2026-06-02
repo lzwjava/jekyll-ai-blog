@@ -15,12 +15,14 @@ Yes, AWS Lambda (or similar serverless functions) is perfect for your use case! 
 Here's why Lambda makes sense for your PDF generation:
 
 **Cost Benefits:**
+
 - You only pay when the function executes (per request + execution time)
 - No charges when idle - crucial for your 1-2 times per day usage
 - Lambda free tier includes 1M requests/month and 400,000 GB-seconds
 - For hundreds of users with low PDF usage, you'll likely stay within free tier
 
 **Technical Approach:**
+
 ```
 Blog → API Gateway → Lambda Function → PDF Generation → S3 Storage → Return URL
 ```
@@ -43,6 +45,7 @@ Blog → API Gateway → Lambda Function → PDF Generation → S3 Storage → R
    - Optional: SQS if you want async processing
 
 **Alternative Serverless Options:**
+
 - **Vercel Functions** - if your blog is on Vercel
 - **Netlify Functions** - similar concept
 - **Google Cloud Functions** - comparable pricing

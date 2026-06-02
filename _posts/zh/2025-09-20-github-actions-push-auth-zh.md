@@ -23,6 +23,7 @@ type: note
 2. 更新工作流中的部署步骤，**强制远程地址使用该令牌**：
 
 {% raw %}
+
 ```yaml
 - name: 检出目标仓库
   uses: actions/checkout@v4
@@ -52,6 +53,7 @@ type: note
       echo "No changes to deploy."
     fi
 ```
+
 {% endraw %}
 
 如果仍然看到 403 错误，说明你的 PAT 缺少所需权限范围，或者（如果仓库在组织内）需要 SSO 授权。请重新生成具有 `repo` 权限的 PAT 并重试。
@@ -83,6 +85,7 @@ type: note
 工作流配置：
 
 {% raw %}
+
 ```yaml
 - name: 通过 SSH 检出目标仓库
   uses: actions/checkout@v4
@@ -107,6 +110,7 @@ type: note
       echo "No changes to deploy."
     fi
 ```
+
 {% endraw %}
 
 ---

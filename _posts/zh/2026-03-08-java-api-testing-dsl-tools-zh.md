@@ -24,6 +24,7 @@ Karate DSL 是一个开源工具，将 API 测试自动化、API 性能测试和
 Karate DSL 无需 Java 知识，让非程序员轻松创建和管理测试。它允许测试人员在测试中重用 payload 数据和用户定义的函数，并与 Gatling 集成进行性能测试，从而可以将功能测试重用为性能测试。
 
 **Karate DSL 功能文件示例：**
+
 ```gherkin
 Feature: Quote generator
   Background:
@@ -39,6 +40,7 @@ Feature: Quote generator
 Karate 功能文件使用 DSL 编写，存储在 `src/test/java/` 中，从而功能文件和 Java 测试可以通过名称和包结构匹配。要集成 JUnit，只需创建一个指向相应 JUnit runner 的测试类。
 
 **Scenario Outline（数据驱动）示例：**
+
 ```gherkin
 Scenario Outline: Transform multiple names
   Given path '/name'
@@ -61,6 +63,7 @@ REST Assured 是一个开源 Java 库，通过提供 DSL 来简化 REST API 的�
 REST Assured 6.0.0（2025 年 12 月发布）将最低要求提升至 Java 17+，升级至 Groovy 5，并添加对 Spring 7 + Jackson 3 的支持。
 
 **示例：**
+
 ```java
 given()
   .contentType(ContentType.JSON)

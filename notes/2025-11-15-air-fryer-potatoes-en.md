@@ -21,6 +21,7 @@ For potato slices in an air fryer (about 0.5–1 cm thick), here's what actually
 Your original plan (20 minutes at 200°C) is actually spot-on for most cases, even with sauce soaking.
 
 Quick best-practice tips for perfect results:
+
 - Pat the slices dry after soaking in sauce (or the outside stays soft)
 - Lightly spray with oil even if the sauce already has oil
 - Don’t overcrowd the basket — single layer is key

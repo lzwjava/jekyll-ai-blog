@@ -51,11 +51,14 @@ Why did the model ramble? Two compounding factors:
 
 **File:** `create_note_from_clipboard.py`
 **Change:** Rewrote the prompt from:
+
 ```
 Generate a very short title in English (maximum six words, do not have single quote)
 for the following text and respond with only the title: {content}
 ```
+
 To:
+
 ```
 Give a short English title (at most 6 words, no quotes, no explanation) for:
 {content}
@@ -84,9 +87,11 @@ Title:
 ## Assessment of the Fix
 
 **Strengths:**
+
 - Defense in depth: prompt (soft) + max_tokens (hard) + retry (resilience)
 - Backward compatible: `_call_llm_or_exit` defaults `max_tokens=None`
 - Minimal code change: ~15 lines touched total
 
 **Remaining risk:**
+
 - If the model outputs 60 tokens of garbage that happens to be < 100 chars, the retry loop won't catch it (the char check passes but the title is nonsense). This is low probability and would need a semantic check, which is overengineering for this use case.

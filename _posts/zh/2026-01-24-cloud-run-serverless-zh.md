@@ -17,6 +17,7 @@ Answer:
 Cloud Run 是 Google Cloud 的**全托管 Serverless 平台**，用于运行容器化的应用程序（或简单的代码/Functions），无需管理任何底层服务器或 Clusters。
 
 ### 一句话核心理念
+
 你只需向 Cloud Run 提供一个容器镜像（Docker），它就会自动处理：
 
 - 接收 HTTP 请求（或事件）

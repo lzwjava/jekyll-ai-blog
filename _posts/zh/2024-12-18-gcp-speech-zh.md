@@ -148,6 +148,7 @@ text_to_speech(article_text, output_file)
 如果你的凭证文件与示例不同，可能需要在 Google Cloud Console 中创建一个新的服务账户密钥。
 
 创建新服务账户密钥的步骤：
+
 1. 访问 [Google Cloud Console](https://console.cloud.google.com/)。
 2. 导航到 IAM & Admin：
    - 在左侧边栏，点击 IAM & Admin > Service Accounts。

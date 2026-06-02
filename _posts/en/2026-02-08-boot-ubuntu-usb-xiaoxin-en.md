@@ -55,6 +55,7 @@ Your dd command created a standard bootable Ubuntu 24.04.3 live USB (UEFI-compat
    - Or choose **Install Ubuntu** if you want to reinstall/repair.
 
 ### Common fixes if it still won't boot
+
 - **USB not listed** → Recreate the USB with a different tool (Ventoy, balenaEtcher, or Startup Disk Creator in another Ubuntu) — dd sometimes has edge-case issues with certain BIOS.
 - **Black screen / stuck** → In boot menu, try the non-UEFI USB entry if available (rare).
 - **Secure Boot error** → Must disable in BIOS (step 4).

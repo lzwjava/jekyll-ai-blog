@@ -25,6 +25,7 @@ AdamW 是由 Ilya Loshchilov 和 Frank Hutter 在 2017 年的论文 "Decoupled W
 Adam (Adaptive Moment Estimation) 由 Kingma 和 Ba 于 2014 年提出，是一种结合了 Momentum 和 RMSProp 思想的 adaptive gradient algorithm。
 
 它维护两个 moving averages：
+
 - **First moment**（梯度的均值，类似于 momentum）：\\( m_t \\)
 - **Second moment**（梯度的未中心化方差）：\\( v_t \\)
 
@@ -46,6 +47,7 @@ Adam 的更新规则为：
    \\( \theta_t = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} \\)
 
 默认超参数：
+
 - Learning rate \\( \eta = 0.001 \\)
 - \\( \beta_1 = 0.9 \\)
 - \\( \beta_2 = 0.999 \\)
@@ -60,6 +62,7 @@ Weight decay 是一种 regularization 技术，通过在 loss 中添加类似于
 在 SGD 中，L2 regularization 和真实的 weight decay 是等价的（仅相差一个缩放因子）。但在像 Adam 这样的 adaptive optimizers 中，它们**并不**等价。
 
 大多数 Adam 的实现（例如早期的 PyTorch、TensorFlow）通过在 gradient 中添加 \\( \lambda \theta \\) 来应用 "weight decay"（将其视为 L2 regularization）。这导致 weight decay 与 adaptive 机制耦合在一起，从而引起：
+
 - 不同参数间的 regularization 不均匀
 - 干扰 adaptive learning rates
 - 与真实的 weight decay 相比，generalization 较差
@@ -73,10 +76,12 @@ AdamW 的 moment 更新规则（上述步骤 1-4）与 Adam 相同，但参数�
 \\( \theta_t = \theta_{t-1} - \eta \left( \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} + \lambda \theta_{t-1} \right) \\)
 
 或者等效地（常见实现方式）：
+
 - 首先，执行 Adam 步骤：\\( \theta_t' = \theta_{t-1} - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon} \\)
 - 然后，进行衰减：\\( \theta_t = \theta_t' - \eta \lambda \theta_{t-1} \\)（或使用 \\( (1 - \eta \lambda) \theta_t' \\) 近似）
 
 这确保了：
+
 - Weight decay 的应用是一致的（与当前权重成正比，独立于 gradient 幅度）
 - Adaptive learning rates 不受 regularization 的影响
 - 超参数（learning rate 和 weight decay）是独立的

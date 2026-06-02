@@ -15,6 +15,7 @@ The question of which religion’s values are “true” is deeply complex, as i
 - **Buddhism** focuses on mindfulness, compassion, and non-attachment, aiming for enlightenment through self-awareness. It doesn’t rely on a deity but on universal truths about suffering. If you value introspection and freedom from desire, this could feel true.
 
 Each tradition claims its values reflect reality—whether divine or existential—but “truth” in this context often depends on what you find meaningful. For example:
+
 - If you believe in a singular divine truth, you might lean toward Christianity or Islam, depending on which narrative aligns with your experience.
 - If you see truth as experiential and tied to personal growth, Buddhism’s emphasis on insight might resonate.
 - Alternatively, you might find truth in shared values across them—like compassion, present in all three—or reject religious frameworks entirely for a secular lens.

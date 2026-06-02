@@ -24,6 +24,7 @@ Port hopping is a powerful anti-censorship feature. Users in China sometimes rep
 The Hysteria server does not have built-in support for listening on multiple ports, so you cannot use a multi-port format as the listening address on the server side. The recommended approach is to use iptables DNAT to redirect ports to the server's listening port.
 
 So the setup has two parts:
+
 - **Server side:** iptables DNAT rules to forward a port range → one real port
 - **Client side:** multi-port address format + `hopInterval` config
 
@@ -34,11 +35,13 @@ So the setup has two parts:
 The server itself listens on a **single port** (e.g., `5353` or `443`). You use iptables to forward a wide port range to that port.
 
 **Install iptables-persistent (to survive reboots):**
+
 ```bash
 apt install iptables-persistent -y
 ```
 
 **Add DNAT rules to forward UDP ports 20000–50000 → port 5353:**
+
 ```bash
 # IPv4
 iptables -t nat -A PREROUTING -i eth0 -p udp --dport 20000:50000 -j DNAT --to-destination :5353
@@ -48,6 +51,7 @@ ip6tables -t nat -A PREROUTING -i eth0 -p udp --dport 20000:50000 -j DNAT --to-d
 ```
 
 **Save rules permanently:**
+
 ```bash
 sudo iptables-save > /etc/iptables/rules.v4
 sudo ip6tables-save > /etc/iptables/rules.v6
@@ -88,6 +92,7 @@ masquerade:
 The Hysteria client supports a special multi-port address format. You can specify multiple individual ports, a range of ports, or a combination of both. There is no limit to the number of ports you can specify.
 
 Examples:
+
 ```
 example.com:1234,5678,9012          # Multiple individual ports
 example.com:20000-50000             # A port range

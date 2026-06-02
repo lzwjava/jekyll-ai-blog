@@ -31,7 +31,7 @@ This is the method officially recommended in the Ollama docs (as of 2026).
 
 ### Alternative: Force a manual update / fresh install
 
-- Go to → https://ollama.com/download
+- Go to → <https://ollama.com/download>
 - Download the latest **Ollama.dmg** for macOS
 - Open the .dmg file
 - Drag the new Ollama.app → /Applications/ (replace the old one when asked)

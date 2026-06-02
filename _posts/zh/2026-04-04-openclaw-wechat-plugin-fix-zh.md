@@ -19,9 +19,11 @@ type: note
 
 1. **你要求**检查微信插件
 2. **运行 `openclaw status`**——获得清晰的错误：
+
    ```
    TypeError: (0, _pluginSdk.resolvePreferredOpenClawTmpDir) is not a function
    ```
+
 3. **检查插件版本**：`v1.0.3`（3月29日安装）
 4. **在 npm 上搜索**最新版本：`v2.1.6` 存在
 5. **根本原因**：v1.0.3 调用了一个来自 OpenClaw Plugin SDK 的函数，该函数在新版 OpenClaw（2026.4.2）中被移除/重命名
@@ -35,9 +37,11 @@ type: note
 
 1. **备份**旧扩展目录：`mv openclaw-weixin openclaw-weixin.bak`
 2. **使用 npm 将 v2.1.6 源码安装到临时目录**：
+
    ```
    npm install @tencent-weixin/openclaw-weixin@2.1.6 --prefix weixin-tmp
    ```
+
 3. **复制源码**从 `weixin-tmp/node_modules/@tencent-weixin/openclaw-weixin/` → 新的 `openclaw-weixin/` 目录（这次真正获取了 v2.1.6 的源码文件）
 4. **在新目录内运行 `npm install`** 以安装依赖项（557个包）
 5. **清理**临时目录

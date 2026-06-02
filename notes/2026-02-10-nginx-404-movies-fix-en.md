@@ -17,6 +17,7 @@ type: note
 A 404 error means nginx is running and responding, but it cannot find the requested resource. Since you're using `alias /home/lzw/qDownloads/;` with `autoindex on;`, here are the most common causes and how to fix them step by step:
 
 ### 1. Wrong URL (most frequent reason)
+
 Make sure you're accessing the **exact** path:
 
 - Correct:  `http://localhost/movies/`  (with trailing slash)
@@ -25,6 +26,7 @@ Make sure you're accessing the **exact** path:
 If you type `http://localhost/movies` (no trailing slash), nginx may return 404 depending on your config.
 
 ### 2. Directory permissions – nginx cannot read /home/lzw/qDownloads
+
 This is the **second most common cause**.
 
 Nginx usually runs as user `www-data` (Ubuntu/Debian) or `nginx` (official package). That user must be able to:
@@ -54,6 +56,7 @@ sudo chmod g+x /home/lzw
 ```
 
 ### 3. SELinux or AppArmor blocking access (if enabled)
+
 On Ubuntu, AppArmor is often active.
 
 Check if AppArmor is denying access:
@@ -73,24 +76,31 @@ sudo systemctl restart nginx
 If it starts working → AppArmor is the problem. You should create or adjust a profile instead of disabling it permanently.
 
 ### 4. Configuration not actually loaded
+
 Make sure your config is active:
 
 - File should be in `/etc/nginx/sites-available/` (example: `movies.conf`)
 - Symlink exists in `/etc/nginx/sites-enabled/`:
+
   ```bash
   sudo ln -s /etc/nginx/sites-available/movies.conf /etc/nginx/sites-enabled/
   ```
+
 - No `default` site conflicting:
+
   ```bash
   sudo rm /etc/nginx/sites-enabled/default   # if you don't need the welcome page
   ```
+
 - Test and reload:
+
   ```bash
   sudo nginx -t
   sudo systemctl reload nginx
   ```
 
 ### 5. Directory is empty or doesn't exist
+
 Double-check:
 
 ```bash
@@ -100,6 +110,7 @@ ls -la /home/lzw/qDownloads/
 If the folder is empty, nginx with `autoindex on` will still show an index page (just says no files).
 
 ### Diagnostic commands to run right now
+
 Run these and share the output if it still doesn't work:
 
 ```bash

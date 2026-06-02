@@ -22,11 +22,13 @@ Here's a simple Chez Scheme program that calculates the factorial of a number. S
 ```
 
 To run it:
+
 1. Save the code in a file named `factorial.scm`.
 2. In your terminal, navigate to the directory containing the file.
 3. Run: `scheme --script factorial.scm`
 
 This will output:
+
 ```
 Factorial of 5 is: 120
 ```

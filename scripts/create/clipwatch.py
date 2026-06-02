@@ -73,7 +73,7 @@ def write_clipwatch_note(content: str, h: str) -> str:
     """Create a simplified note using create_note_utils but maintaining clipwatch structure"""
 
     now = datetime.datetime.now()
-    date = now.strftime("%Y-%m-%d")
+    now.strftime("%Y-%m-%d")
 
     # Clean content
     content = clean_grok_tags(content)
@@ -82,7 +82,7 @@ def write_clipwatch_note(content: str, h: str) -> str:
     # Generate quick filename based on first line + hash
     first_line = content.strip().splitlines()[0][:40] if content.strip() else "clip"
     safe_title = re.sub(r"[^a-zA-Z0-9-]", "", first_line.lower().replace(" ", "-"))
-    short_title = f"{safe_title}-{h[:6]}"
+    f"{safe_title}-{h[:6]}"
 
     # Create clipwatch-compatible path
     y = f"{now.year:04d}"
@@ -129,7 +129,7 @@ def git_push_if_enabled():
     # Push to default upstream if configured
     try:
         run(["git", "push"], cwd=REPO_DIR, check=False)
-    except Exception:
+    except Exception:  # nosec B110 — best-effort push
         pass
 
 

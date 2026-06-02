@@ -50,6 +50,7 @@ Other commonly used broader roles that grant Cloud Storage permissions:
 - **Owner** (`roles/owner`) — full control over the project, including all Storage resources.
 
 **Key notes**:
+
 - For most modern use cases, prefer the granular **object-level roles** (`objectViewer`, `objectCreator`, `objectAdmin`) rather than the legacy bucket roles.
 - You can also create **custom roles** if the predefined ones don't fit your needs exactly (e.g., allow get + list but not metadata updates).
 - Permissions can be granted at:

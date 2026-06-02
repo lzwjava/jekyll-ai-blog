@@ -29,7 +29,7 @@ D) Reply
 
 参考资料：
 
-- https://www.computernetworkingnotes.com/ccna-study-guide/eigrp-packet-types-and-rtp-protocol.html
-- https://www.geeksforgeeks.org/computer-networks/types-of-eigrp-packet-in-computer-network/
-- https://ipcisco.com/lesson/eigrp-packet-types-and-neighbourship-ccnp/
-- https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html
+- <https://www.computernetworkingnotes.com/ccna-study-guide/eigrp-packet-types-and-rtp-protocol.html>
+- <https://www.geeksforgeeks.org/computer-networks/types-of-eigrp-packet-in-computer-network/>
+- <https://ipcisco.com/lesson/eigrp-packet-types-and-neighbourship-ccnp/>
+- <https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/13669-1.html>

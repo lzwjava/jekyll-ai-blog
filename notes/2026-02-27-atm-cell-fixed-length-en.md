@@ -24,11 +24,13 @@ In ATM (Asynchronous Transfer Mode) networks, the basic unit of data transmissio
 Total: 5 + 48 = **53 bytes**
 
 This fixed and relatively small cell size was deliberately chosen in the design of ATM to:
+
 - Minimize queuing delay (especially important for real-time voice and video traffic)
 - Allow efficient statistical multiplexing
 - Simplify hardware switching implementation
 
 Common incorrect options and why they are wrong:
+
 - **A. 8 bytes**: Far too small — not used in ATM
 - **B. 16 bytes**: Sometimes confused with header size in other protocols, but incorrect for ATM cells
 - **D. 64 bytes**: Close to the 53-byte size, but not accurate (some people remember it incorrectly as “about 64 bytes”)

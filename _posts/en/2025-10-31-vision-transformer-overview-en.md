@@ -50,6 +50,7 @@ ViT's core idea is to "tokenize" an image into a sequence of fixed-size patches,
    - During training, use cross-entropy loss on labeled data. Pre-training often involves masked patch prediction or other self-supervised tasks.
 
 **Key Hyperparameters** (from the original ViT-Base model):
+
 - Patch size \\(P\\): 16
 - Embedding dim \\(D\\): 768
 - Layers \\(L\\): 12
@@ -59,6 +60,7 @@ ViT's core idea is to "tokenize" an image into a sequence of fixed-size patches,
 ViT scales well: Larger models (e.g., ViT-Large with \\(D=1024\\), \\(L=24\\)) perform better but need more data/compute.
 
 **Training and Inference**:
+
 - **Training**: End-to-end on labeled data; benefits hugely from pre-training on billions of images.
 - **Inference**: Forward pass through the encoder (~O(N²) time due to attention, but efficient with optimizations like FlashAttention).
 - Unlike CNNs, ViT has no inductive biases like translation invariance—everything is learned.

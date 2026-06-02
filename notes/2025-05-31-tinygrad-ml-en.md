@@ -11,11 +11,13 @@ type: note
 ---
 
 ### Introduction to TinyGrad
+
 TinyGrad is a lightweight, minimalist machine learning and deep learning library in Python, designed for education and simplicity. It implements automatic differentiation (autograd) like PyTorch but is much smaller—around 1,000 lines of code. It's great for learning ML concepts or building small models without the overhead of larger libraries. It supports tensors, neural networks, and basic operations, including GPU acceleration via PyTorch or Metal.
 
 You can find the official repository at: [tinygrad GitHub](https://github.com/geohot/tinygrad). Note: It's experimental and not as robust as PyTorch or TensorFlow for production use.
 
 ### Installation
+
 Install TinyGrad via pip:
 
 ```bash
@@ -25,9 +27,11 @@ pip install tinygrad
 It has minimal dependencies but optionally uses PyTorch for some backends. For GPU support, ensure you have PyTorch installed.
 
 ### Basic Usage
+
 Start by importing and setting the context (TinyGrad requires specifying if you're training or inferring, as gradients are computed differently).
 
 #### Importing and Context
+
 ```python
 from tinygrad import Tensor
 from tinygrad.nn import Linear, BatchNorm2d  # For neural nets
@@ -37,6 +41,7 @@ Tensor.training = True  # Enable gradient tracking
 ```
 
 #### Creating and Manipulating Tensors
+
 Tensors are the core data structure, similar to NumPy arrays or PyTorch tensors.
 
 ```python
@@ -54,6 +59,7 @@ print(e.numpy())               # Convert to NumPy for printing or further use
 ```
 
 #### Automatic Differentiation (Backpropagation)
+
 TinyGrad automatically computes gradients using the chain rule.
 
 ```python
@@ -70,6 +76,7 @@ print(x.grad.numpy())         # Gradients w.r.t. x: should be [2, 2, 2]
 For exporting to NumPy, use `.numpy()`—gradients accumulate unless reset.
 
 #### Neural Networks and Training
+
 TinyGrad includes basic layers and optimizers. Here's a simple MLP example:
 
 ```python
@@ -96,6 +103,7 @@ optim.Adam([model], lr=0.01).step()
 For convolution networks, use `Conv2d` from `tinygrad.nn`.
 
 ### Advanced Features
+
 - **Loss Functions and Activations**: Available in `tinygrad.nn` (e.g., `sigmoid`, `relu`, `cross_entropy`).
 - **Optimizers**: `SGD`, `Adam` in `tinygrad.nn.optim`.
 - **Layers**: `Linear`, `Conv2d`, `BatchNorm`, etc.
@@ -106,6 +114,7 @@ For convolution networks, use `Conv2d` from `tinygrad.nn`.
 For full examples, check the `examples/` folder in the GitHub repo, such as image classification or reinforcement learning.
 
 ### Example: Training a Neural Network
+
 Here's a complete, simple script for training a network on XOR:
 
 ```python
@@ -134,6 +143,7 @@ print(model(Tensor([[0,0]])))  # Should be ~0
 ```
 
 ### Tips and Caveats
+
 - **Mode Switching**: Always set `Tensor.training = True` for training; switch to `False` for inference to avoid gradient computation.
 - **Shape Handling**: Tensors follow NumPy-like broadcasting, but watch for overflows in small models.
 - **Debugging**: Use `.numpy()` to inspect values. If something fails, check for shape mismatches.

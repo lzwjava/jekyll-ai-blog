@@ -40,6 +40,7 @@ JSESSIONID 是 Java EE 容器（如 Tomcat、Jetty）及基于 Servlet 构建的
 在原生 Servlet 中（如 javax.servlet）：
 
 - **获取会话**：
+
   ```java
   HttpServletRequest request = // 来自 doGet/doPost
   HttpSession session = request.getSession(); // 如果不存在则创建
@@ -47,17 +48,20 @@ JSESSIONID 是 Java EE 容器（如 Tomcat、Jetty）及基于 Servlet 构建的
   ```
 
 - **存储/检索数据**：
+
   ```java
   session.setAttribute("username", "exampleUser");
   String user = (String) session.getAttribute("username");
   ```
 
 - **使失效**：
+
   ```java
   session.invalidate();
   ```
 
 在 `web.xml` 中配置超时：
+
 ```xml
 <session-config>
     <session-timeout>30</session-timeout> <!-- 单位：分钟 -->
@@ -70,6 +74,7 @@ Spring 基于 Servlet 会话构建，但提供了抽象层：
 
 - **直接使用 HttpSession**：
   与 Servlet 类似；在控制器中注入：
+
   ```java
   @Controller
   public class MyController {
@@ -83,6 +88,7 @@ Spring 基于 Servlet 会话构建，但提供了抽象层：
 
 - **Spring Security 集成**：
   如果使用 Spring Security，会话用于管理身份验证。在 `application.properties` 中配置：
+
   ```
   server.servlet.session.timeout=30m
   ```
@@ -91,10 +97,12 @@ Spring 基于 Servlet 会话构建，但提供了抽象层：
   对于分布式部署，使用 Spring Session 配合 Redis 或 JDBC：
   - 添加依赖：`spring-session-data-redis`
   - 在 `@Configuration` 类中配置：
+
     ```java
     @EnableRedisHttpSession
     public class SessionConfig { }
     ```
+
   这将使会话可在服务器间扩展，将 JSESSIONID 关联关系存储在 Redis 中
 
 ### 最佳实践与安全性

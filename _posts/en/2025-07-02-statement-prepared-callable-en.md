@@ -18,6 +18,7 @@ In Java's `java.sql` package, `Statement`, `PreparedStatement`, and `CallableSta
      - No parameter binding, so you manually concatenate values into the SQL string, which can lead to SQL injection risks.
      - Less efficient for repeated queries, as the database re-parses the SQL each time.
    - **Example**:
+
      ```java
      Statement stmt = conn.createStatement();
      ResultSet rs = stmt.executeQuery("SELECT * FROM users WHERE id = 1");
@@ -31,6 +32,7 @@ In Java's `java.sql` package, `Statement`, `PreparedStatement`, and `CallableSta
      - More efficient for repeated queries, as the SQL is compiled once and reused.
      - Supports dynamic parameter binding, making it safer and more flexible.
    - **Example**:
+
      ```java
      PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM users WHERE id = ?");
      pstmt.setInt(1, 1);
@@ -45,6 +47,7 @@ In Java's `java.sql` package, `Statement`, `PreparedStatement`, and `CallableSta
      - Allows registration of output parameters using methods like `registerOutParameter()`.
      - Supports complex parameter handling for stored procedure logic.
    - **Example**:
+
      ```java
      CallableStatement cstmt = conn.prepareCall("{call getUserName(?, ?)}");
      cstmt.setInt(1, 1);
@@ -54,6 +57,7 @@ In Java's `java.sql` package, `Statement`, `PreparedStatement`, and `CallableSta
      ```
 
 **Key Differences**:
+
 | Feature                | Statement                          | PreparedStatement                  | CallableStatement                 |
 |------------------------|------------------------------------|------------------------------------|------------------------------------|
 | **Purpose**            | Static SQL queries                | Parameterized SQL queries         | Stored procedure execution        |
@@ -63,6 +67,7 @@ In Java's `java.sql` package, `Statement`, `PreparedStatement`, and `CallableSta
 | **Parameter Support**  | None                              | Input parameters only             | Input, output, and IN/OUT params |
 
 **When to Use**:
+
 - Use `Statement` for simple, non-repetitive queries where security and performance are less critical.
 - Use `PreparedStatement` for parameterized queries, repetitive execution, or when security (SQL injection prevention) is a concern.
 - Use `CallableStatement` when invoking database stored procedures with input/output parameters.

@@ -22,6 +22,7 @@ type: note
 2. **添加代理设置至 `gradle.properties`**
    - 用文本编辑器打开 `gradle.properties` 文件
    - 添加以下内容（将占位符替换为实际代理参数）：
+
      ```
      systemProp.http.proxyHost=<代理主机>
      systemProp.http.proxyPort=<代理端口>
@@ -32,7 +33,9 @@ type: note
      systemProp.https.proxyUser=<用户名>
      systemProp.https.proxyPassword=<密码>
      ```
+
    - 实际参数示例：
+
      ```
      systemProp.http.proxyHost=proxy.example.com
      systemProp.http.proxyPort=8080
@@ -43,6 +46,7 @@ type: note
      systemProp.https.proxyUser=myuser
      systemProp.https.proxyPassword=mypassword
      ```
+
    - 若代理无需认证，可省略 `proxyUser` 和 `proxyPassword` 行
 
 3. **可选：按项目配置代理**
@@ -59,6 +63,7 @@ type: note
      - 在 VSCode 中进入 `文件 > 首选项 > 设置`
      - 搜索 `java.gradle.build.jvmArguments`
      - 添加如下参数：
+
        ```
        -Dhttp.proxyHost=<代理主机> -Dhttp.proxyPort=<代理端口> -Dhttps.proxyHost=<代理主机> -Dhttps.proxyPort=<代理端口>
        ```
@@ -68,6 +73,7 @@ type: note
    - 运行 Gradle 任务（如 `gradle build` 或 `gradle dependencies`）确认文件通过代理下载
 
 ### 故障排除
+
 - **核对代理信息**：确保代理主机、端口及认证信息准确
 - **网络环境检查**：若仍失败，可能是代理或网络屏蔽了特定 Gradle URL（如 `https://services.gradle.org`）。可通过 `curl` 命令测试，或联系网络管理员
 - **查看详细日志**：在 VSCode 终端中运行 `gradle build --debug` 或 `gradle build --info` 查看网络请求详情

@@ -49,6 +49,7 @@ type: note
 | **交互方式** | 直接人机交互 | 机器间交互 |
 
 参考资料：
+
 * [Cisco Networking Academy: 终端设备与中间设备](https://www.google.com/search?q=https://www.netacad.com/)
 * [网络基础：主机与中间设备的角色](https://en.wikipedia.org/wiki/End_system)
 

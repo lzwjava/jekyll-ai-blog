@@ -82,6 +82,7 @@ The main workflow follows: deep-interview to clarify requirements, ralplan to ap
 ### Launch Modes
 
 OMX offers granular control over reasoning effort through launch profiles:
+
 - `--yolo`: Quick execution with minimal validation
 - `--high`: Increased reasoning effort
 - `--xhigh`: Maximum reasoning depth

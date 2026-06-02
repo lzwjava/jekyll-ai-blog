@@ -27,7 +27,7 @@ Modern devices are inherently multi-homed—smartphones, laptops, and servers ha
 
 MPTCP (RFC 8684) is **not** a new protocol but a backward-compatible extension to TCP. It operates by creating **subflows**—independent TCP connections over different paths—that collectively form one logical MPTCP connection.
 
-### Connection Establishment Process:
+### Connection Establishment Process
 
 1. **Initial handshake**: Client and server negotiate MPTCP capability during the standard TCP three-way handshake
 2. **Path discovery**: Peers exchange additional IP addresses they can use
@@ -45,10 +45,13 @@ You can visualize this on Linux with `ss -M`, which shows subflows grouped under
 ## **3. Key Mechanisms for Performance**
 
 ### **Bandwidth Aggregation**
+
 MPTCP can combine throughput from all available paths. A 9 Mbps flow could be split into three 3 Mbps subflows across different interfaces, effectively utilizing all network capacity. This is particularly powerful in data centers where multiple physical links exist between servers.
 
 ### **Intelligent Scheduling**
+
 The scheduler continuously monitors:
+
 - Path latency and congestion
 - Packet loss rates
 - Available bandwidth
@@ -57,7 +60,9 @@ The scheduler continuously monitors:
 It dynamically adjusts how much data to send over each subflow, preventing overloading slow paths while fully utilizing fast ones.
 
 ### **Coupled Congestion Control**
+
 MPTCP uses specialized algorithms (like LIA, OLIA, BALIA) that:
+
 - Balance congestion across paths
 - Ensure fairness with regular TCP flows
 - Prevent a single MPTCP connection from starving other traffic
@@ -66,17 +71,20 @@ MPTCP uses specialized algorithms (like LIA, OLIA, BALIA) that:
 ## **4. Benefits: Resilience and Throughput**
 
 ### **Enhanced Resilience**
+
 - **Automatic failover**: If Wi-Fi drops, cellular subflows maintain the connection without application interruption
 - **Path redundancy**: Packet loss on one path doesn't break the connection—traffic reroutes to healthy subflows
 - **Graceful degradation**: Partial path failures reduce bandwidth but don't cause disconnections
 - **Recovery time**: Simulations show MPTCP minimizes disruptions by quickly shifting traffic to alternative paths
 
 ### **Improved Throughput**
+
 - **Resource pooling**: Utilizes all available network resources simultaneously
 - **Congestion avoidance**: Bypasses bottlenecks by using less-congested alternative paths
 - **Load balancing**: Distributes traffic to prevent any single path from becoming a bottleneck
 
 ### **Seamless Mobility**
+
 Apple has used MPTCP since iOS 7 for Siri, allowing voice requests to continue uninterrupted when moving between Wi-Fi and cellular networks. The connection persists because subflows are added and removed dynamically as interfaces become available or unavailable.
 
 ## **5. Real-World Use Cases**
@@ -90,35 +98,42 @@ Apple has used MPTCP since iOS 7 for Siri, allowing voice requests to continue u
 ## **6. Implementation and Adoption**
 
 ### **Operating System Support**
+
 - **Linux**: Full kernel support with `mptcpd` daemon (RHEL 9+, modern distributions)
 - **iOS**: Used for Siri and select apps since 2013
 - **Android**: Partial support in recent versions
 - **Windows**: Limited native support
 
 ### **Application Transparency**
+
 Applications typically require **no changes**—the OS network stack handles MPTCP transparently. Only minor socket option modifications may be needed for advanced features.
 
 ### **Deployment Status**
+
 MPTCP is still maturing. While Apple uses it internally, most internet services don't yet support it. Adoption requires both client and server support, though fallback to regular TCP is automatic.
 
 ## **7. Trade-offs and Challenges**
 
 ### **Complexity**
+
 - More complex protocol state machine
 - Limited middlebox support—some firewalls/NATs may block MPTCP options
 - Network troubleshooting becomes more difficult
 
 ### **Security Implications**
+
 - **Inspection blind spots**: Firewalls and IPS systems struggle to reassemble split flows, creating security gaps
 - **Traffic pattern obfuscation**: While this can improve privacy, it complicates security monitoring
 - **Cisco products**: Many inspection features don't support MPTCP, requiring careful configuration
 
 ### **Performance Considerations**
+
 - **Packet reordering**: Different path latencies can cause out-of-order arrivals, potentially hurting performance if not managed properly
 - **Head-of-line blocking**: Slow subflows can delay overall delivery if the scheduler isn't intelligent
 - **Buffer requirements**: More buffering needed at receiver to reorder packets
 
 ### **Fairness**
+
 MPTCP's coupled congestion control must carefully balance multi-path aggression against fairness to single-path TCP flows on shared links.
 
 ## **8. Comparison with Similar Technologies**

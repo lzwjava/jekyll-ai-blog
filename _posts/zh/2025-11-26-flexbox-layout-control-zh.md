@@ -30,6 +30,7 @@ type: note
 ```
 
 其他选项错误的原因说明：
+
 - **B. flex-wrap** – 控制项目是否换行，而不是主轴方向（行与列）
 - **C. media query** – 这是在不同屏幕尺寸下应用更改的*技术*，但它不是 CSS *属性*。实际更改的属性是 `flex-direction`
 - **D. grid-template** – 这属于 CSS Grid 布局，而非 Flexbox

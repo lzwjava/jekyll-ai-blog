@@ -15,11 +15,13 @@ type: note
 Nan Gang (南岗镇, Nángǎng Zhèn) is a town-level administrative area located in the **Huangpu District** (formerly part of the old Luogang area) in eastern Guangzhou, Guangdong Province, China.
 
 #### Key Characteristics
+
 - **Location**: About 30–40 km east of Guangzhou city center (Tianhe district). It sits along the Dongjiang (East River) and is close to the Pearl River Delta's industrial and port zones.
 - **Status**: Although it is still officially a “town” (镇), rapid urbanization has turned much of Nan Gang into a mixed industrial, logistics, and residential area. It is part of Guangzhou’s eastward expansion corridor toward Dongguan and Shenzhen.
 - **Population**: Around 100,000–150,000 (including a large migrant worker population).
 
 #### Why Nan Gang is Known
+
 1. **Major Logistics & Industrial Hub**
    - Home to parts of the **Guangzhou International Port (Huangpu Port extension)** and numerous bonded logistics parks.
    - Huge concentration of warehouses, factories, and distribution centers (especially for e-commerce giants like JD, Pinduoduo, and cross-border trade companies).
@@ -38,10 +40,12 @@ Nan Gang (南岗镇, Nángǎng Zhèn) is a town-level administrative area locate
    - 20–30 minutes’ drive to Pazhou (Canton Fair complex) when traffic is good.
 
 #### Typical Atmosphere
+
 - Daytime: Trucks everywhere, wholesale buyers from Africa, Middle East, and Southeast Asia bargaining in markets.
 - Nighttime: Barbecue stalls (烧烤), hotpot, KTVs, and very lively street life in the urban villages like Nangang Village (南岗村), Lixiang Village (丽江村), Xiagang (夏港), etc.
 
 #### Who Lives/Works There
+
 - Factory owners and workers from Hunan, Guangxi, Jiangxi, Sichuan.
 - African and Middle-Eastern traders (there is a notable African community in nearby Xiaobei, but many do logistics in Nangang).
 - Young people starting garment or cross-border e-commerce businesses.

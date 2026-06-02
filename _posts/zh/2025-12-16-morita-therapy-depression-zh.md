@@ -15,6 +15,7 @@ type: note
 森田疗法是一种由森田正马在20世纪初开发、受禅宗原则影响的日本心理疗法，它直接解决了这个问题。它提倡 **arugamama**（如实接受现实），将悲伤或焦虑等不愉快的感受视为人类经验中自然的波动，类似于潮起潮落的天气模式。
 
 森田疗法的关键原则包括：
+
 - 接受感受，不试图控制或改变它们。
 - 将注意力从症状固定转移到日常生活中目的明确的建设性行动上。
 - 即使症状持续存在，也要从事基于现实的行为，以改善功能并实现自然愈合。
@@ -27,9 +28,9 @@ type: note
 
 参考文献：
 
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/
-- https://en.wikipedia.org/wiki/Morita_therapy
-- https://bmjopen.bmj.com/content/8/8/e021605
-- https://pubmed.ncbi.nlm.nih.gov/30380592/
-- http://www.moritaschool.com/read-me
-- https://moritatherapy.org/exploring-morita-therapy-a-path-to-acceptance-and-purpose/
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC6549637/>
+- <https://en.wikipedia.org/wiki/Morita_therapy>
+- <https://bmjopen.bmj.com/content/8/8/e021605>
+- <https://pubmed.ncbi.nlm.nih.gov/30380592/>
+- <http://www.moritaschool.com/read-me>
+- <https://moritatherapy.org/exploring-morita-therapy-a-path-to-acceptance-and-purpose/>

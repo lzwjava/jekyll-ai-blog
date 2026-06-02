@@ -55,4 +55,4 @@ Git cherry-pick 是一个允许你将特定提交（或一组提交）的更改�
 - 对于有顺序的更改，按顺序 cherry-pick 多个提交以避免遗漏依赖项。
 - cherry-pick 后务必进行测试，因为如果上下文不同，可能会引入错误。
 
-更多详细信息，请参阅官方 Git 文档：https://git-scm.com/docs/git-cherry-pick。如果你遇到具体问题，请分享你的 Git 日志输出！
+更多详细信息，请参阅官方 Git 文档：<https://git-scm.com/docs/git-cherry-pick。如果你遇到具体问题，请分享你的> Git 日志输出！

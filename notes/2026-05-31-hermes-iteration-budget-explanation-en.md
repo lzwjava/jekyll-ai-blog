@@ -16,6 +16,7 @@ Here's how the iteration budget works in Hermes:
 **The core class** is `agent/iteration_budget.py` — a thread-safe consume/refund counter (~62 lines). Each `AIAgent` instance (parent or subagent) holds one.
 
 **Defaults:**
+
 - Parent agent: `max_iterations=90` (configurable)
 - Subagents (via `delegate_task`): `delegation.max_iterations` (default 50), independent budget
 
@@ -41,16 +42,20 @@ Each iteration = one API call (which may include multiple tool calls in that tur
    - Ollama context-too-small errors get refunded (line 1100)
 
 **When budget is fully exhausted** (line 4332-4349):
+
 - If no final response yet, Hermes strips all tools and makes ONE extra call asking the model to summarize what it's done so far
 - This is the "grace call" — the model gets a chance to wrap up cleanly instead of just dying mid-tool-use
 
 **The message you saw:**
+
 ```
 ⚠ Iteration budget reached (60/60) — response may be incomplete
 ```
+
 This means the agent hit `max_iterations=60` (either configured in your config.yaml or set by the caller). The response was the model's summary attempt after budget exhaustion.
 
 **Key design decisions:**
+
 - Budget is per-agent, not global — a subagent burning 50 iterations doesn't消耗 the parent's budget
 - Thread-safe via `threading.Lock` — safe for concurrent gateway sessions
 - Refunds prevent `execute_code` loops from starving the main conversation

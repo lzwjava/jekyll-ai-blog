@@ -33,5 +33,6 @@ Answer:
 The word is often used negatively today to describe an attitude of expecting rewards or respect without effort, but its original and neutral meaning simply refers to having a legitimate right or claim to something.
 
 References:
+
 - [Merriam-Webster Dictionary – Entitlement](https://www.merriam-webster.com/dictionary/entitlement)
 - [Oxford Learner’s Dictionaries – Entitlement](https://www.oxfordlearnersdictionaries.com/definition/english/entitlement)

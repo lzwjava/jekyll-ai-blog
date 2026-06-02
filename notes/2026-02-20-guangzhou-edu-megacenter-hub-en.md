@@ -12,6 +12,7 @@ type: note
 The University City area in Guangzhou, also known as the Guangzhou Higher Education Mega Center (HEMC), is a major hub for higher education in southern China. Here are the key universities located in this area:
 
 ### Major Universities in University City, Guangzhou
+
 1. **Sun Yat-sen University (SYSU)**
    - One of China’s top universities, renowned for its comprehensive academic programs, especially in Social Studies & Humanities, Medicine, and Engineering.
    - SYSU’s main campus is located in the University City area, offering state-of-the-art facilities and a vibrant academic environment.
@@ -37,6 +38,7 @@ The University City area in Guangzhou, also known as the Guangzhou Higher Educat
    - The university is known for its diverse student body and strong language programs.
 
 ### About the University City Area
+
 - **Location:** The University City area is situated on Xiaoguwei Island in the Panyu District of Guangzhou.
 - **Infrastructure:** The area is designed as a modern, integrated educational zone with extensive facilities, including libraries, research centers, sports complexes, and student dormitories.
 - **Atmosphere:** The area is known for its youthful, academic atmosphere, with students from across China and around the world. It is well-connected by public transportation, making it accessible from other parts of Guangzhou.

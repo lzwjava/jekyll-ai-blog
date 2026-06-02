@@ -30,11 +30,13 @@ sudo ss --listening --numeric --processes sport :18789
 ```
 
 简短形式：
+
 ```bash
 sudo ss -lntp sport :18789
 ```
 
 示例输出：
+
 ```
 Netid  State   Recv-Q  Send-Q  Local Address:Port  Peer Address:Port  Process
 tcp    LISTEN  0       128     0.0.0.0:18789        0.0.0.0:*          users:(("myapp",pid=12345,fd=7))
@@ -51,6 +53,7 @@ sudo lsof -i :18789
 ```
 
 示例输出：
+
 ```
 COMMAND   PID   USER   FD   TYPE  DEVICE  SIZE/OFF  NODE  NAME
 myapp   12345   root    3u  IPv4   19373       0t0   TCP   *:18789 (LISTEN)
@@ -89,6 +92,7 @@ sudo fuser -v 18789/tcp
 ```
 
 示例输出：
+
 ```
                      USER        PID ACCESS COMMAND
 18789/tcp:           root      12345 F....  myapp
@@ -105,6 +109,7 @@ netstat -ano | findstr :18789
 ```
 
 示例输出：
+
 ```
 TCP    0.0.0.0:18789    0.0.0.0:0    LISTENING    12345
 ```

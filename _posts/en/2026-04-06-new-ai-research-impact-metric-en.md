@@ -35,6 +35,7 @@ This is a fundamentally different framing from traditional metrics like citation
 #### 1. The "Context Delta" Test Is a Proxy for Information Density
 
 If attaching a paper dramatically improves an LLM's answer, it means the paper contains:
+
 - **Novel ideas** that are not in the LLM's training data
 - **Dense, precise technical knowledge** that requires the original formulation
 - **Non-obvious insights** that the LLM cannot reconstruct by interpolating other sources

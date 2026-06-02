@@ -54,6 +54,7 @@ This opens JMX on port `9001` without authentication/SSL (often only for interna
   ```cmd
   taskkill /PID <PID> /F
   ```
+
 * But if it’s part of your application server (Tomcat, WebSphere, Spring Boot app, etc.), better to stop it via its service/console instead of killing the process, so it shuts down cleanly.
 
 ---

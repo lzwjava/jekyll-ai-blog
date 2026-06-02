@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is the platform of pincc.ai, and what does it do? Also, what is the GitHub project at https://github.com/Wei-Shaw/claude-relay-service?
+**Question:** What is the platform of pincc.ai, and what does it do? Also, what is the GitHub project at <https://github.com/Wei-Shaw/claude-relay-service>?
 
 **Answer:**
 
@@ -48,6 +48,7 @@ The repository has over 9,200 stars and 1,400+ forks on GitHub, showing strong c
 **Tech stack:** Node.js 18+, Redis, Docker-compatible.
 
 **Deployment options** (from pincc.ai docs):
+
 - One-click script install (`crs` command-line tool)
 - Docker / Docker Compose
 - Manual deployment via `git clone` + `npm install`

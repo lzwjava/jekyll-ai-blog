@@ -16,7 +16,7 @@ type: note
 
 由HoYoverse（前身为miHoYo）开发的《原神》自2020年推出以来，已成为全球现象级游戏，截至2025年末累计收入预计将超过100亿美元，截至2025年12月，月活跃用户维持在1500万至1700万之间。即使在推出五年后，它仍然是收入最高的移动和跨平台游戏之一，年收入约为7亿至8亿美元。它的成功源于创新设计、易用性和商业头脑的完美结合。
 
-### 其成功背后的关键因素：
+### 其成功背后的关键因素
 
 - **免费游玩且品质卓越**：作为一款F2P游戏，它没有进入门槛，可在手机、PC、PlayStation等设备上游玩，并支持跨平台存档。然而，它提供了主机级别的制作水准——令人惊叹的动漫风格开放世界视觉效果、管弦乐原声带和流畅的战斗——灵感来自《塞尔达传说：旷野之息》，但针对低端设备进行了优化。玩家可以通过探索、解谜和故事获得数百小时的免费内容，即使不花钱也能享受乐趣，同时gacha变现有效地瞄准了“鲸鱼用户”。
 
@@ -37,6 +37,7 @@ type: note
 在2025年，随着纳塔的结束和至冬的预告，《原神》的成功秘诀——质量优先的F2P Live Service——确保了其持久的统治地位，证明了中国工作室可以与全球巨头抗衡。
 
 参考文献：
+
 - [Genshin Impact Wikipedia](https://en.wikipedia.org/wiki/Genshin_Impact)
 - [Genshin Impact Revenue & Stats (Business of Apps)](https://www.businessofapps.com/data/genshin-impact-statistics/)
 - [Genshin Impact Live Player Count (ActivePlayer.io)](https://activeplayer.io/genshin-impact/)

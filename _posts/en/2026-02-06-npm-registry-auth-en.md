@@ -24,15 +24,17 @@ npm config set //registry.npmjs.org/:_auth "base64-encoded-credentials"
 
 Note the syntax: it's `//registry.org/:_auth` (with a colon before `_auth`), not `//registry.org/_auth`.
 
-## Difference between _auth and _authToken
+## Difference between _auth and_authToken
 
 **`_authToken`** (modern approach):
+
 - Accepts a plain authentication token directly
 - Used by most modern registries (npm, GitHub Packages, etc.)
 - The token is stored as-is in your `.npmrc` file
 - Example: `//registry.npmjs.org/:_authToken=npm_abc123xyz...`
 
 **`_auth`** (legacy approach):
+
 - Requires base64-encoded credentials in the format `username:password`
 - Older authentication method, less commonly used today
 - You need to encode it yourself: `echo -n "username:password" | base64`

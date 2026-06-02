@@ -25,6 +25,7 @@ Here are the key points:
 - Therefore, Watsons is currently under the **Li family** (李氏家族) through CK Hutchison / CK Asset Holdings structure
 
 **Current ownership situation (2025–2026):**
+
 - **Li Ka-shing** — Founder, now honorary senior advisor
 - **Victor Li Tzar-kuoi** — Chairman and Managing Director of CK Hutchison Holdings
 - A.S. Watson (including Watsons stores) remains one of the core businesses of the Li family group

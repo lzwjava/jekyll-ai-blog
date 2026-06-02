@@ -34,10 +34,10 @@ Davies 在 1967 年的演示影响了 Larry Roberts 和美国的 ARPANET 设计�
 
 参考文献：
 
-- https://en.wikipedia.org/wiki/Donald_Davies
-- https://www.britannica.com/biography/Donald-Davies
-- https://mathshistory.st-andrews.ac.uk/Biographies/Davies_Donald/
-- https://www.internethalloffame.org/inductee/donald-davies/
-- https://en.wikipedia.org/wiki/Packet_switching
-- https://ethw.org/Packet_Switching
-- https://www.invent.org/inductees/donald-watts-davies
+- <https://en.wikipedia.org/wiki/Donald_Davies>
+- <https://www.britannica.com/biography/Donald-Davies>
+- <https://mathshistory.st-andrews.ac.uk/Biographies/Davies_Donald/>
+- <https://www.internethalloffame.org/inductee/donald-davies/>
+- <https://en.wikipedia.org/wiki/Packet_switching>
+- <https://ethw.org/Packet_Switching>
+- <https://www.invent.org/inductees/donald-watts-davies>

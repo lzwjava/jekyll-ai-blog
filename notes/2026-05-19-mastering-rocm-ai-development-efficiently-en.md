@@ -88,6 +88,7 @@ Specialized cloud GPU providers offer rates starting at $0.50–$1.20/hour on-de
 Decentralized GPU platforms deliver 50–80% savings compared with AWS or GCP, changing the cost equation for startups and researchers.
 
 At $0.50/hr spot on an A100, $700 buys you **~1,400 hours** of compute — more than enough to:
+
 - Fine-tune Llama 3 8B multiple times with LoRA/QLoRA
 - Run DeepSeek-V3 inference via vLLM
 - Experiment with ROCm on AMD DevCloud (often free or very cheap)
@@ -97,6 +98,7 @@ Full fine-tuning typically demands around 16GB of VRAM per billion parameters, w
 ### Hardware Path (~20,000–30,000 RMB ≈ $2,800–$4,200)
 
 This could get you a used RTX 4090 (24GB VRAM) or a small server with 2× RTX 3090s. You can:
+
 - Fully train 7B models with QLoRA
 - Run inference on 70B models with quantization (but slowly)
 

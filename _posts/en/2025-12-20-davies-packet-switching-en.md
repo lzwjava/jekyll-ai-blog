@@ -34,10 +34,10 @@ His work laid foundational groundwork for modern computer networks and the Inter
 
 References:
 
-- https://en.wikipedia.org/wiki/Donald_Davies
-- https://www.britannica.com/biography/Donald-Davies
-- https://mathshistory.st-andrews.ac.uk/Biographies/Davies_Donald/
-- https://www.internethalloffame.org/inductee/donald-davies/
-- https://en.wikipedia.org/wiki/Packet_switching
-- https://ethw.org/Packet_Switching
-- https://www.invent.org/inductees/donald-watts-davies
+- <https://en.wikipedia.org/wiki/Donald_Davies>
+- <https://www.britannica.com/biography/Donald-Davies>
+- <https://mathshistory.st-andrews.ac.uk/Biographies/Davies_Donald/>
+- <https://www.internethalloffame.org/inductee/donald-davies/>
+- <https://en.wikipedia.org/wiki/Packet_switching>
+- <https://ethw.org/Packet_Switching>
+- <https://www.invent.org/inductees/donald-watts-davies>

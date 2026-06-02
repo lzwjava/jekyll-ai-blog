@@ -34,6 +34,7 @@ To cook vegetables in an air fryer, follow these steps for crispy, flavorful res
 6. **Serve Immediately**: Enjoy as a side dish, in salads, or with a dip like hummus or ranch.
 
 **Tips**:
+
 - Frozen vegetables work too; no need to thaw, but add 2–3 minutes to the cooking time.
 - Avoid very leafy greens (e.g., spinach) as they can burn or fly around in the air fryer.
 - Experiment with seasonings like chili powder, cumin, or parmesan for variety.
@@ -45,14 +46,16 @@ If you have a specific vegetable or air fryer model in mind, let me know for tai
 
 Cooking **beef leg** (commonly referred to as **beef shank** or **round**, depending on the specific cut) in an air fryer can yield a flavorful, tender result with a crispy exterior, but it requires careful preparation due to the cut’s toughness. Beef shank, often used for slow braising, can be adapted for air frying with some tweaks. Below is a guide to cook beef leg (assuming beef shank or round) in an air fryer:
 
-### Ingredients:
+### Ingredients
+
 - 1–2 lbs (0.5–1 kg) beef leg (shank or round, trimmed to fit your air fryer)
 - 1–2 tsp olive oil or avocado oil
 - Seasoning: Salt, pepper, garlic powder, onion powder, paprika, or a steak seasoning blend
 - Optional: 1–2 tbsp broth, soy sauce, or BBQ sauce for moisture and flavor
 - Optional marinade: Soy sauce, garlic, ginger, or Worcestershire sauce (marinate for 4–12 hours for extra flavor)
 
-### Instructions:
+### Instructions
+
 1. **Prepare the Beef Leg**:
    - **Trim and Portion**: If using beef shank, trim excess fat or connective tissue. For round cuts (e.g., top round), cut into smaller steaks or chunks (1–1.5 inches thick) to fit the air fryer basket. Shank may need to be cut into smaller pieces due to its size.
    - **Pat Dry**: Use paper towels to remove moisture for better browning.
@@ -87,17 +90,19 @@ Cooking **beef leg** (commonly referred to as **beef shank** or **round**, depen
    - **For Round**: Slice thinly for steaks or cube for stir-fries or salads.
    - Serve with air-fried vegetables (like those from the previous guide), mashed potatoes, or a dipping sauce like chimichurri or gravy.
 
-### Tips:
+### Tips
+
 - **Size Consideration**: Air fryers have limited space, so ensure the beef leg piece fits comfortably. A 1–2 lb portion is ideal for most models.
 - **Crispier Finish**: For a crusty exterior, sear the beef in a hot skillet for 1–2 minutes per side before air frying.
 - **Flavor Variations**:
-   - **Asian-inspired**: Marinate with soy sauce, ginger, garlic, and sesame oil.
-   - **Western-style**: Use a BBQ rub and finish with BBQ sauce.
-   - **Mediterranean**: Season with oregano, lemon zest, and garlic.
+  - **Asian-inspired**: Marinate with soy sauce, ginger, garlic, and sesame oil.
+  - **Western-style**: Use a BBQ rub and finish with BBQ sauce.
+  - **Mediterranean**: Season with oregano, lemon zest, and garlic.
 - **Don’t Overcook**: Round cuts dry out easily, so monitor the internal temperature closely.
 - **Leftovers**: Store in an airtight container in the fridge for up to 3 days. Reheat in the air fryer at 320°F (160°C) for 5–7 minutes.
 
-### Notes:
+### Notes
+
 - **Beef Shank vs. Round**: Shank is tougher and benefits from longer, slower cooking, so the air fryer is better for smaller, thinner pieces or as a finishing tool after braising. Round cuts (like top or bottom round) are leaner and work well as steaks or chunks in the air fryer.
 - **Air Fryer Limitations**: For traditional tender brisket-like results, shank is better suited to slow cooking or pressure cooking. Use the air fryer for a quicker cook or to add a crispy exterior.
 - **Model Variations**: Cooking times may vary based on your air fryer’s wattage and size. Check progress periodically.

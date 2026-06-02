@@ -104,36 +104,43 @@ The `-exclude` option allows ignoring leaks that are allocated in libraries for 
 ## Practical Examples
 
 **Basic check on a running app:**
+
 ```bash
 leaks Safari
 ```
 
 **Quiet mode — only show leaks:**
+
 ```bash
 leaks -quiet --atExit -- ./myapp
 ```
 
 **With stack trace logging:**
+
 ```bash
 MallocStackLogging=1 leaks -quiet -atExit -- ./myapp
 ```
 
 **Filter to show only leak lines (grep):**
+
 ```bash
 leaks --atExit -- ./myapp | grep LEAK:
 ```
 
 **Exclude known system leaks:**
+
 ```bash
 leaks --atExit -exclude CFRunLoopRun -- ./myapp
 ```
 
 **Save a memory graph for later analysis:**
+
 ```bash
 leaks --outputGraph /tmp/myapp.memgraph --atExit -- ./myapp
 ```
 
 **Analyze a saved memory graph:**
+
 ```bash
 leaks /tmp/myapp.memgraph
 ```

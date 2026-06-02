@@ -19,12 +19,14 @@ Answer:
 Despite being originally created for testing Apache, **ab** works very well with **any HTTP server** (Nginx, Node.js/Express, Go, Java Spring, Python Flask/FastAPI, etc.).
 
 ### Main Purpose of ab
+
 - Quickly estimate **how many requests per second (QPS / RPS)** your server can handle
 - Measure **response latency** under different levels of concurrency
 - Identify rough **breaking points** or saturation points of a single endpoint
 - Compare performance before/after code or configuration changes
 
 **ab is not** a full-featured load testing tool (compared to JMeter, Locust, k6, Gatling, wrk, etc.). It has limitations:
+
 - Only supports **HTTP/1.0 and HTTP/1.1** (no HTTP/2 or HTTP/3)
 - No advanced scripting or complex scenarios
 - Single machine only (no distributed testing)
@@ -33,6 +35,7 @@ Despite being originally created for testing Apache, **ab** works very well with
 Still, it remains extremely popular for quick smoke tests, CI/CD pipeline checks, and basic QPS validation.
 
 ### How to Install ab
+
 Most Linux distributions include it in the `apache2-utils` or `httpd-tools` package.
 
 ```bash
@@ -50,12 +53,14 @@ brew install httpd
 ```
 
 Check version:
+
 ```bash
 ab -V
 # ApacheBench, Version 2.3 <$Revision: ... $>
 ```
 
 ### Basic Usage & Core Parameters for QPS Testing
+
 ```bash
 ab [options] [http[s]://]hostname[:port]/path
 ```
@@ -78,11 +83,13 @@ Most important options for QPS testing:
 ### Classic QPS Testing Patterns
 
 1. **Quick smoke test** (small load)
+
 ```bash
 ab -n 1000 -c 20 -k https://your-api.com/health
 ```
 
 2. **Typical realistic API test**
+
 ```bash
 ab -n 5000 -c 100 -k \
    -H "Authorization: Bearer eyJhb..." \
@@ -90,6 +97,7 @@ ab -n 5000 -c 100 -k \
 ```
 
 3. **POST JSON test**
+
 ```bash
 # Prepare postdata.json
 echo '{"username":"test","password":"123456"}' > postdata.json
@@ -146,6 +154,7 @@ Percentage of the requests served within a certain time (ms)
 ```
 
 Key metrics to watch:
+
 - **Requests per second (mean)** → main QPS number
 - **Time per request (mean)** → average latency seen by client
 - **Failed requests** → should be 0 (or very low)
@@ -153,6 +162,7 @@ Key metrics to watch:
 - When **QPS stops growing** significantly while increasing `-c` → saturation point
 
 ### Recommendations & Best Practices
+
 - Always use `-k` (Keep-Alive) for realistic HTTP/1.1 testing
 - Run multiple times and take median/average (avoid outliers)
 - Test from a machine with good network to target (low latency)

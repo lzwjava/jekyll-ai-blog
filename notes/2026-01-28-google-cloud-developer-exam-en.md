@@ -19,7 +19,7 @@ Each question has **four options**, marked using `-`. **No answers are shown**, 
 
 ---
 
-### 1.
+### 1
 
 Which Google Cloud service is best suited for running stateless HTTP applications with automatic scaling and no server management?
 
@@ -30,7 +30,7 @@ Which Google Cloud service is best suited for running stateless HTTP application
 
 ---
 
-### 2.
+### 2
 
 A Cloud Run service needs to access a Cloud SQL instance securely. What is the recommended approach?
 
@@ -41,7 +41,7 @@ A Cloud Run service needs to access a Cloud SQL instance securely. What is the r
 
 ---
 
-### 3.
+### 3
 
 Which Google Cloud product is designed for asynchronous event-driven messaging between services?
 
@@ -52,7 +52,7 @@ Which Google Cloud product is designed for asynchronous event-driven messaging b
 
 ---
 
-### 4.
+### 4
 
 What is the primary purpose of a Google Cloud service account?
 
@@ -63,7 +63,7 @@ What is the primary purpose of a Google Cloud service account?
 
 ---
 
-### 5.
+### 5
 
 Which storage option provides strong consistency for object storage in Google Cloud?
 
@@ -74,7 +74,7 @@ Which storage option provides strong consistency for object storage in Google Cl
 
 ---
 
-### 6.
+### 6
 
 What is the maximum execution time for a single invocation of Cloud Functions (2nd gen)?
 
@@ -85,7 +85,7 @@ What is the maximum execution time for a single invocation of Cloud Functions (2
 
 ---
 
-### 7.
+### 7
 
 Which tool is recommended for managing infrastructure as code on Google Cloud?
 
@@ -96,7 +96,7 @@ Which tool is recommended for managing infrastructure as code on Google Cloud?
 
 ---
 
-### 8.
+### 8
 
 Which HTTP load balancing feature allows routing traffic based on URL paths?
 
@@ -107,7 +107,7 @@ Which HTTP load balancing feature allows routing traffic based on URL paths?
 
 ---
 
-### 9.
+### 9
 
 What is the default deployment unit in Google Kubernetes Engine?
 
@@ -118,7 +118,7 @@ What is the default deployment unit in Google Kubernetes Engine?
 
 ---
 
-### 10.
+### 10
 
 Which command is used to deploy a service to Cloud Run?
 
@@ -129,7 +129,7 @@ Which command is used to deploy a service to Cloud Run?
 
 ---
 
-### 11.
+### 11
 
 Which Google Cloud database is best suited for globally distributed, strongly consistent relational workloads?
 
@@ -140,7 +140,7 @@ Which Google Cloud database is best suited for globally distributed, strongly co
 
 ---
 
-### 12.
+### 12
 
 What is the primary purpose of Cloud Build?
 
@@ -151,7 +151,7 @@ What is the primary purpose of Cloud Build?
 
 ---
 
-### 13.
+### 13
 
 Which Google Cloud service is optimized for large-scale analytical queries using SQL?
 
@@ -162,7 +162,7 @@ Which Google Cloud service is optimized for large-scale analytical queries using
 
 ---
 
-### 14.
+### 14
 
 How can sensitive configuration data be securely stored and accessed by applications?
 
@@ -173,7 +173,7 @@ How can sensitive configuration data be securely stored and accessed by applicat
 
 ---
 
-### 15.
+### 15
 
 Which GKE feature ensures zero-downtime deployments?
 
@@ -184,7 +184,7 @@ Which GKE feature ensures zero-downtime deployments?
 
 ---
 
-### 16.
+### 16
 
 What is the main benefit of using managed instance groups?
 
@@ -195,7 +195,7 @@ What is the main benefit of using managed instance groups?
 
 ---
 
-### 17.
+### 17
 
 Which service provides centralized logging for Google Cloud resources?
 
@@ -206,7 +206,7 @@ Which service provides centralized logging for Google Cloud resources?
 
 ---
 
-### 18.
+### 18
 
 Which authentication method is recommended for applications running on GKE to access Google Cloud APIs?
 
@@ -217,7 +217,7 @@ Which authentication method is recommended for applications running on GKE to ac
 
 ---
 
-### 19.
+### 19
 
 What does a readiness probe in Kubernetes indicate?
 
@@ -228,7 +228,7 @@ What does a readiness probe in Kubernetes indicate?
 
 ---
 
-### 20.
+### 20
 
 Which Cloud Run feature allows private access from internal services only?
 
@@ -239,7 +239,7 @@ Which Cloud Run feature allows private access from internal services only?
 
 ---
 
-### 21.
+### 21
 
 Which Google Cloud service is used to schedule cron jobs?
 
@@ -250,7 +250,7 @@ Which Google Cloud service is used to schedule cron jobs?
 
 ---
 
-### 22.
+### 22
 
 What is the recommended way to expose a GKE application to the internet?
 
@@ -261,7 +261,7 @@ What is the recommended way to expose a GKE application to the internet?
 
 ---
 
-### 23.
+### 23
 
 Which tool helps identify performance bottlenecks in distributed applications?
 
@@ -272,7 +272,7 @@ Which tool helps identify performance bottlenecks in distributed applications?
 
 ---
 
-### 24.
+### 24
 
 Which Google Cloud service is best for key-value and wide-column NoSQL workloads?
 
@@ -283,7 +283,7 @@ Which Google Cloud service is best for key-value and wide-column NoSQL workloads
 
 ---
 
-### 25.
+### 25
 
 What happens when a Cloud Run service scales to zero?
 
@@ -294,7 +294,7 @@ What happens when a Cloud Run service scales to zero?
 
 ---
 
-### 26.
+### 26
 
 Which GKE networking mode assigns a VPC IP address to each pod?
 
@@ -305,7 +305,7 @@ Which GKE networking mode assigns a VPC IP address to each pod?
 
 ---
 
-### 27.
+### 27
 
 What is the primary purpose of Cloud Endpoints?
 
@@ -316,7 +316,7 @@ What is the primary purpose of Cloud Endpoints?
 
 ---
 
-### 28.
+### 28
 
 Which IAM role is most appropriate for read-only access to Cloud Storage objects?
 
@@ -327,7 +327,7 @@ Which IAM role is most appropriate for read-only access to Cloud Storage objects
 
 ---
 
-### 29.
+### 29
 
 Which Google Cloud service provides in-memory data storage for low-latency access?
 
@@ -338,7 +338,7 @@ Which Google Cloud service provides in-memory data storage for low-latency acces
 
 ---
 
-### 30.
+### 30
 
 Which build configuration file is used by Cloud Build?
 
@@ -349,7 +349,7 @@ Which build configuration file is used by Cloud Build?
 
 ---
 
-### 31.
+### 31
 
 Which option allows blue-green deployments in GKE?
 
@@ -360,7 +360,7 @@ Which option allows blue-green deployments in GKE?
 
 ---
 
-### 32.
+### 32
 
 What is the primary use case for Cloud Tasks?
 
@@ -371,7 +371,7 @@ What is the primary use case for Cloud Tasks?
 
 ---
 
-### 33.
+### 33
 
 Which Google Cloud service automatically collects application error reports?
 
@@ -382,7 +382,7 @@ Which Google Cloud service automatically collects application error reports?
 
 ---
 
-### 34.
+### 34
 
 Which feature of Cloud Storage helps reduce costs for infrequently accessed data?
 
@@ -393,7 +393,7 @@ Which feature of Cloud Storage helps reduce costs for infrequently accessed data
 
 ---
 
-### 35.
+### 35
 
 What is the recommended way to connect on-premises systems to Google Cloud securely?
 
@@ -404,7 +404,7 @@ What is the recommended way to connect on-premises systems to Google Cloud secur
 
 ---
 
-### 36.
+### 36
 
 Which deployment platform uses `app.yaml` for configuration?
 
@@ -415,7 +415,7 @@ Which deployment platform uses `app.yaml` for configuration?
 
 ---
 
-### 37.
+### 37
 
 Which Google Cloud service supports real-time data ingestion and stream processing?
 
@@ -426,7 +426,7 @@ Which Google Cloud service supports real-time data ingestion and stream processi
 
 ---
 
-### 38.
+### 38
 
 Which Kubernetes object provides stable networking for a set of pods?
 
@@ -437,7 +437,7 @@ Which Kubernetes object provides stable networking for a set of pods?
 
 ---
 
-### 39.
+### 39
 
 Which monitoring feature allows defining thresholds and sending notifications?
 
@@ -448,7 +448,7 @@ Which monitoring feature allows defining thresholds and sending notifications?
 
 ---
 
-### 40.
+### 40
 
 Which Cloud SQL feature improves read scalability?
 
@@ -459,7 +459,7 @@ Which Cloud SQL feature improves read scalability?
 
 ---
 
-### 41.
+### 41
 
 What is the recommended way to store Docker images for Cloud Run deployments?
 
@@ -470,7 +470,7 @@ What is the recommended way to store Docker images for Cloud Run deployments?
 
 ---
 
-### 42.
+### 42
 
 Which Google Cloud service orchestrates workflows between services?
 
@@ -481,7 +481,7 @@ Which Google Cloud service orchestrates workflows between services?
 
 ---
 
-### 43.
+### 43
 
 Which Kubernetes feature limits CPU and memory usage of a container?
 
@@ -492,7 +492,7 @@ Which Kubernetes feature limits CPU and memory usage of a container?
 
 ---
 
-### 44.
+### 44
 
 Which Google Cloud product is best for batch Spark workloads?
 
@@ -503,7 +503,7 @@ Which Google Cloud product is best for batch Spark workloads?
 
 ---
 
-### 45.
+### 45
 
 Which Cloud Run setting controls the maximum number of concurrent requests per container?
 
@@ -514,7 +514,7 @@ Which Cloud Run setting controls the maximum number of concurrent requests per c
 
 ---
 
-### 46.
+### 46
 
 Which Google Cloud service provides distributed configuration storage?
 
@@ -525,7 +525,7 @@ Which Google Cloud service provides distributed configuration storage?
 
 ---
 
-### 47.
+### 47
 
 Which approach is recommended for zero-downtime schema migrations?
 
@@ -536,7 +536,7 @@ Which approach is recommended for zero-downtime schema migrations?
 
 ---
 
-### 48.
+### 48
 
 Which Google Cloud feature automatically restarts unhealthy VMs?
 
@@ -547,7 +547,7 @@ Which Google Cloud feature automatically restarts unhealthy VMs?
 
 ---
 
-### 49.
+### 49
 
 Which service is best for handling sudden spikes in HTTP traffic?
 
@@ -558,7 +558,7 @@ Which service is best for handling sudden spikes in HTTP traffic?
 
 ---
 
-### 50.
+### 50
 
 Which Google Cloud tool helps analyze application CPU and memory usage over time?
 

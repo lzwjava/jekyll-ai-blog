@@ -11,11 +11,13 @@ type: note
 ---
 
 ### RIP 协议简介
+
 **路由信息协议（RIP）** 是计算机网络中最古老、最简单的动态路由协议之一。它是一种**距离矢量路由协议**，作为**内部网关协议 (IGP)** 运行，这意味着它用于在单个自治系统 (AS) 内交换路由信息。RIP 使用**跳数**（数据包必须经过的路由器数量）作为其唯一的度量标准来确定到目标网络的最佳路径。最大跳数限制为 **15**，**16** 表示网络不可达。这一限制使得 RIP 主要适用于中小型网络。
 
 RIP 基于 **Bellman-Ford 算法**，最初开发于 20 世纪 80 年代，从 Xerox 网络中的 Gateway Information Protocol (GWINFO) 等早期协议演变而来。
 
 ### RIP 如何工作
+
 RIP 路由器维护一个路由表，其中包含已知网络的条目，包括目的地、度量标准（跳数）和下一跳路由器。
 
 - **定期更新**：每隔 **30 秒**，路由器将其整个路由表发送给相邻路由器。
@@ -30,6 +32,7 @@ RIP 路由器维护一个路由表，其中包含已知网络的条目，包括�
   - **抑制计时器 (Hold-down Timers)**：在某个路由被标记为不可达后的一段时间内忽略该路由的更新。
 
 ### RIP 的版本
+
 主要有三个版本：
 
 1. **RIPv1** (RFC 1058, 1988)：
@@ -52,12 +55,14 @@ RIP 路由器维护一个路由表，其中包含已知网络的条目，包括�
    - 保留 15 跳的跳数限制和其他机制。
 
 ### RIP 的优点
+
 - 配置和理解简单。
 - 广泛支持各种设备。
 - 资源要求低。
 - 自动在等价路径（最多 6 条路径）上进行负载均衡。
 
 ### 缺点和局限性
+
 - 限制为 15 跳 → 不适合大型网络。
 - 与 OSPF 等链路状态协议相比收敛缓慢。
 - 带宽使用高（每 30 秒进行一次完整表更新）。
@@ -69,8 +74,8 @@ RIP 路由器维护一个路由表，其中包含已知网络的条目，包括�
 
 参考文献：
 
-- https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/
-- https://en.wikipedia.org/wiki/Routing_Information_Protocol
-- https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol
-- https://www.zenarmor.com/docs/network-basics/what-is-routing-information-protocol-rip
-- https://www.juniper.net/documentation/us/en/software/junos/rip/topics/topic-map/rip-and-ripng-overview.html
+- <https://www.geeksforgeeks.org/computer-networks/routing-information-protocol-rip/>
+- <https://en.wikipedia.org/wiki/Routing_Information_Protocol>
+- <https://www.techtarget.com/searchnetworking/definition/Routing-Information-Protocol>
+- <https://www.zenarmor.com/docs/network-basics/what-is-routing-information-protocol-rip>
+- <https://www.juniper.net/documentation/us/en/software/junos/rip/topics/topic-map/rip-and-ripng-overview.html>

@@ -22,8 +22,8 @@ Answer:
 
 - **全称**：Simple Realtime Server（最初侧重于 RTMP）
 - **License**：MIT（非常宽松的开源许可）
-- **主仓库**：https://github.com/ossrs/srs
-- **官方网站**：https://ossrs.net/
+- **主仓库**：<https://github.com/ossrs/srs>
+- **官方网站**：<https://ossrs.net/>
 - **主要语言**：C++（包含部分辅助脚本和工具）
 - **当前状态 (2026)**：项目非常活跃，被许多公司（尤其是中国公司）广泛用于生产环境，并持续添加现代流媒体特性。
 
@@ -57,22 +57,25 @@ SRS 在单个进程中支持丰富的流媒体协议：
 
 ### 使用 SRS 的常用架构模式
 
-1.  **最简单的 RTMP server**（大多数人从这里开始）
+1. **最简单的 RTMP server**（大多数人从这里开始）
+
     ```
     OBS/FFmpeg → RTMP → SRS → HLS/HTTP-FLV/WebRTC → viewers
     ```
 
-2.  **低延迟分发**
+2. **低延迟分发**
+
     ```
     OBS → RTMP → SRS → WebRTC → browser (sub-second latency)
     ```
 
-3.  **Edge + Origin cluster（边缘 + 源站集群）**
+3. **Edge + Origin cluster（边缘 + 源站集群）**
+
     ```
     Many edge SRS (HTTP-FLV/WebRTC) ← cluster pull ← origin SRS (ingest RTMP/SRT/GB28181)
     ```
 
-4.  **WebRTC ↔ RTMP 转换**
+4. **WebRTC ↔ RTMP 转换**
     SRS 可以在 WebRTC 和 RTMP 之间进行双向转换。
 
 ### SRS 的主要优势
@@ -107,9 +110,9 @@ ffmpeg -re -i test.mp4 -c copy -f flv rtmp://localhost/live/livestream
 
 播放：
 
-- HLS: http://your-ip:8080/live/livestream.m3u8
-- HTTP-FLV: http://your-ip:8080/live/livestream.flv
-- WebRTC: 使用 http://your-ip:8080/ 上的演示播放器
+- HLS: <http://your-ip:8080/live/livestream.m3u8>
+- HTTP-FLV: <http://your-ip:8080/live/livestream.flv>
+- WebRTC: 使用 <http://your-ip:8080/> 上的演示播放器
 
 当你需要一个开源、高性能、多协议的实时流媒体服务器时，SRS 仍然是最佳选择之一 —— 尤其是当你需要在同一个盒子里实现 **RTMP ingestion + WebRTC/HLS delivery** 时。
 

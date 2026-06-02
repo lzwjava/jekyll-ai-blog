@@ -25,12 +25,9 @@ The most significant "easy access" difference you noted is how these models inte
 * **Workspace:** Read and summarize your **Gmail**, draft documents in **Docs**, and analyze data in **Sheets**.
 * **Maps & Flights:** Pull real-time flight prices and create travel itineraries using live Google Maps data.
 
-
 * **xAI Grok:** Its primary home is the **X platform**. It excels at:
 * **Real-Time Trends:** Accessing the "firehose" of public posts on X to give you up-to-the-minute news before it hits traditional search engines.
 * **Social Analysis:** Summarizing what people are saying about a specific event or brand in real-time.
-
-
 
 ---
 

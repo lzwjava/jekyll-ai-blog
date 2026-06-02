@@ -17,10 +17,12 @@ In this case, the meta tags are for the website of **Safe Superintelligence Inc.
 ### What Are These Meta Tags?
 
 **Open Graph (OG) Meta Tags**:
+
 - Developed by Facebook, Open Graph tags allow websites to define how their content appears when shared on platforms like Facebook, LinkedIn, and others that support the Open Graph protocol.
 - These tags specify key details such as the page’s title, description, image, and URL, ensuring a consistent and visually appealing preview when the link is shared.
 
 **Twitter Card Meta Tags**:
+
 - Twitter Cards are a similar concept used by Twitter (now X) to enrich link previews in tweets or posts.
 - They provide metadata to display a summary, image, or other media when a URL is shared on the platform.
 
@@ -33,6 +35,7 @@ Both sets of tags help optimize the user experience by ensuring shared links loo
 Here’s what each tag in your provided code does:
 
 #### Open Graph Tags
+
 1. `<meta property="og:url" content="https://ssi.inc">`
    - Specifies the canonical URL of the page to be shared. This ensures the correct URL is displayed and tracked, avoiding duplicates (e.g., `ssi.inc` vs. `www.ssi.inc`).
    - **Value**: `https://ssi.inc`
@@ -54,6 +57,7 @@ Here’s what each tag in your provided code does:
    - **Value**: `https://ssi.inc/public/og-preview.jpg`
 
 #### Twitter Card Tags
+
 1. `<meta name="twitter:card" content="summary_large_image">`
    - Defines the type of Twitter Card. `summary_large_image` creates a preview with a large image, title, and description.
    - **Value**: `summary_large_image`
@@ -167,6 +171,7 @@ While SSI’s technical details are not public due to its stealth mode, its oper
 ### Why These Meta Tags Matter for SSI
 
 The meta tags reflect SSI’s branding and mission:
+
 - The consistent title and description (“Safe Superintelligence Inc.” and “The world's first straight-shot SSI lab…”) emphasize its singular focus on safe superintelligence, aligning with its public messaging.[](https://ssi.inc)
 - The Twitter handle `@ssi` connects the website to its official X account, where updates like the company’s founding announcement were posted.
 - The image (`og-preview.jpg`) is likely a branded graphic or logo, though its content is not publicly described. It ensures visual consistency when the website is shared.
@@ -176,6 +181,7 @@ These tags are critical for SSI, a stealth-mode startup with minimal public pres
 ---
 
 ### Limitations and Notes
+
 - **Lack of Public Details**: SSI’s website and public information are sparse, reflecting its early-stage and stealth status. The meta tags provide a glimpse into its branding but not its technical approach.[](https://finder.startupnationcentral.org/company_page/safe-superintelligence)[](https://siliconangle.com/2025/02/17/ilya-sutskevers-safe-superintelligence-reportedly-raising-1b-30b-valuation/)
 - **Speculative Nature**: Claims about SSI’s valuation and funding are based on reports, but exact details (e.g., product roadmap) remain undisclosed.[](https://siliconangle.com/2025/02/17/ilya-sutskevers-safe-superintelligence-reportedly-raising-1b-30b-valuation/)
 - **X Posts as Sentiment**: Posts on X (e.g.,,) suggest excitement about SSI’s potential but are not factual evidence and may contain speculation.

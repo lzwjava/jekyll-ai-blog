@@ -22,14 +22,17 @@ You're asking about **MeMo (Memory as a Model)**, a very fresh paper (arXiv 2605
 The paper opens by cleanly partitioning existing approaches:
 
 ### ① Non-Parametric (RAG)
+
 Non-parametric methods retrieve relevant information from an external store at inference time via lexical, dense, or graph-based retrievers, then incorporate it through in-context learning. However, these methods are constrained by limited context windows and struggle to synthesize cross-document relationships when relevant information is distributed across multiple documents.
 
 Specifically: RAG systems are highly sensitive to noise — irrelevant or poorly retrieved passages often degrade the model's final response. Processing thousands of retrieved tokens also creates substantial computational overhead and inference latency.
 
 ### ② Parametric (Fine-tuning / Continual Pretraining)
+
 Updating modern, massive LLMs is prohibitively expensive and typically impossible for proprietary, closed-source models hidden behind APIs. Fine-tuning is also prone to causing catastrophic forgetting — forcing the model to adapt to new corporate data often erodes its previously acquired reasoning capabilities and safety guardrails.
 
 ### ③ Latent Memory (Soft Tokens / KV Compression)
+
 Latent memory methods compress knowledge into soft tokens or other model-specific representations, but suffer from **representation coupling**: the memory is tightly bound to the specific model that produced them — so if you upgrade or swap your base LLM, the memory becomes useless.
 
 ---
@@ -43,6 +46,7 @@ Instead of retrieving from a vector DB (RAG), modifying LLM weights (fine-tuning
 MeMo is a modular framework that encodes new knowledge into a dedicated Memory model while keeping the LLM parameters unchanged. During inference, the frozen Executive model answers complex user queries by querying the Memory model through a structured multi-turn protocol: it decomposes the input into simpler, targeted sub-queries, retrieves intermediate responses from the Memory model, and reasons over them to produce a final answer.
 
 So the flow is:
+
 ```
 User Query
     → Executive LLM decomposes into sub-queries
@@ -70,8 +74,6 @@ You train a Memory model per domain/corpus, then TIES-merge them into one. Compu
 
 ## Comparison Table (per the paper)
 
-
-
 | Problem | MeMo's property |
 |---|---|
 | RAG retrieval noise degrades accuracy | Accuracy changes only ±1.77% under added distractor documents |
@@ -80,8 +82,6 @@ You train a Memory model per domain/corpus, then TIES-merge them into one. Compu
 | RAG inference cost scales with corpus | Fixed-size responses; cost independent of corpus size |
 | Can't use with closed-source LLMs | Black-box compatible — works with any LLM including APIs |
 | New corpus requires full retraining | New corpora merged via model merging without full retraining |
-
-
 
 ---
 

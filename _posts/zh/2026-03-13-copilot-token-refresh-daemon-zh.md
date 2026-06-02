@@ -81,7 +81,7 @@ def main():
     answer = call_copilot_llm("What is GitHub Copilot?")
     print("🤖 Copilot says:", answer)
 
-if __name__ == "__main__":
+if **name** == "**main**":
     main()  , also add refresh token logic
 
 ---
@@ -94,7 +94,6 @@ _思考：_
 
 我目前专注于剖析提供的代码片段，以理解提议的认证流程，特别是“refresh token logic”。我的即时任务是找出如何最好地将这些部分整合成一个连贯的 Python 脚本，该脚本可靠地管理 GitHub Copilot 认证，重点关注 token 刷新机制的稳健性。
 
-
 **优化 Copilot Token 管理**
 
 我现在专注于将提供的 refresh token logic 整合到一个全面的 Copilot 认证结构中。我的重点是合成一个完整的 Python 实现，该实现应包含所有必要部分，如 GitHub token 处理和 Copilot token 交换。我还在添加特别请求的功能，并处理返回 access token 的逻辑。
@@ -103,10 +102,10 @@ _思考：_
 
 ### 实现计划
 
-1.  **认证流程**：使用 GitHub 的 OAuth API 实现 `get_device_code` 和 `poll_for_access_token`。
-2.  **Token 交换**：实现 `get_copilot_token` 以将 GitHub OAuth token 交换为临时的 Copilot 会话 token。
-3.  **LLM 交互**：实现 `call_copilot_llm` 以演示使用缓存 token 与 Copilot API 的交互。
-4.  **后台刷新**：整合您提供的 `threading` 逻辑，以无限期保持 Copilot token 有效。
+1. **认证流程**：使用 GitHub 的 OAuth API 实现 `get_device_code` 和 `poll_for_access_token`。
+2. **Token 交换**：实现 `get_copilot_token` 以将 GitHub OAuth token 交换为临时的 Copilot 会话 token。
+3. **LLM 交互**：实现 `call_copilot_llm` 以演示使用缓存 token 与 Copilot API 的交互。
+4. **后台刷新**：整合您提供的 `threading` 逻辑，以无限期保持 Copilot token 有效。
 
 我将从创建 `copilot_proxy.py` 脚本开始。
 
@@ -280,6 +279,7 @@ if __name__ == "__main__":
 ```
 
 此实现包括：
+
 - **Device Flow 认证**：使用 GitHub CLI Client ID 获取 OAuth token。
 - **持久化**：将 GitHub token 保存到 `~/.copilot_github_token`，并设置受限权限。
 - **线程刷新**：定期更新短暂的 Copilot 会话 token（通常在 25-30 分钟后过期）。

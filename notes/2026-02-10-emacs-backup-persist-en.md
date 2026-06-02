@@ -80,6 +80,7 @@ This puts all `~` files into `~/.emacs.d/backups/` instead of next to the origin
 ### Summary – what you should do
 
 1. Delete the existing backup:
+
    ```bash
    rm -f ~/.emacs.d/init.el~
    ```

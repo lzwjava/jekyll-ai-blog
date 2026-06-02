@@ -34,6 +34,7 @@ Here's a full picture of what you've been up to over the last ~2 hours (midnight
 ## Hermes / LLM Fixes (in your `ww` project)
 
 **Reasoning model token limit** — DeepSeek v4 Flash is a reasoning model; `max_tokens=60` was too small (reasoning consumed the whole budget). Bumped to 300 in:
+
 - `ww/note/create_note_utils.py`
 - `ww/note/screenshot_log.py`
 

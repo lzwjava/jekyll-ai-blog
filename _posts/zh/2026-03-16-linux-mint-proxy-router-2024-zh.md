@@ -18,11 +18,13 @@ type: note
 ### **阶段 1：SSH 连接测试**
 
 **初始失败：**
+
 - 首次尝试：`ssh lzwjava@192.168.1.42` 并交互式输入密码 `88888888`
 - **问题：** SSH 在密码提示处挂起，超时，收到信号 15（终止）
 - **诊断：** 密码可能错误，或 SSH 配置问题
 
 **关键突破：**
+
 - 安装 `sshpass` 以自动化密码传递
 - 命令：`sshpass -p '88888888' ssh lzwjava@192.168.1.42 'echo "Connected as $(whoami)"'`
 - **结果：** ✅ 成功！密码正确；交互式计时是问题所在
@@ -34,6 +36,7 @@ type: note
 ### **阶段 2：系统侦察**
 
 **主机详情：**
+
 - OS: Linux Mint 22.3 "Zena" (Ubuntu 24.04 base)
 - Kernel: 6.17.0-14-generic
 - Hardware: Lenovo G490 笔记本 (2013 年 ThinkPad)
@@ -45,6 +48,7 @@ type: note
 ### **阶段 3：路由器配置**
 
 **步骤 1：启用 IP 转发**
+
 ```bash
 echo 1 > /proc/sys/net/ipv4/ip_forward
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
@@ -52,18 +56,22 @@ sysctl -p
 ```
 
 **步骤 2：配置 NAT 伪装**
+
 ```bash
 iptables -t nat -A POSTROUTING -o enp2s0 -j MASQUERADE
 ```
+
 - **目的：** 允许 LAN 客户端通过笔记本的 WAN 接口访问互联网
 - **接口：** `enp2s0` (内置 Ethernet 面向调制解调器/路由器)
 
 **步骤 3：配置 USB Ethernet 接口**
+
 ```bash
 nmcli con add type ethernet ifname enx00e04c362f89 con-name usb-lan \
 ip4 192.168.201.1/24 gw4 ""
 nmcli con up usb-lan
 ```
+
 - **子网：** `192.168.201.0/24` (不同于 WAN 的 `192.168.1.0/24`)
 - **网关：** 无 (此设备即是网关)
 - **状态：** 接口 UP 并有 IP 但 DOWN (尚未连接网线)
@@ -71,12 +79,14 @@ nmcli con up usb-lan
 **步骤 4：安装 & 配置 dnsmasq DHCP 服务器**
 
 **主要困难：**
+
 - 初始 `dnsmasq` 服务启动失败
 - **错误：** `failed to create listening socket for port 53: Address already in use`
 - **诊断：** `systemd-resolved` 已监听端口 53 (DNS)
 
 **关键突破：**
 修改 `/etc/dnsmasq.d/usb-lan.conf`：
+
 ```ini
 interface=enx00e04c362f89
 dhcp-range=192.168.201.50,192.168.201.150,12h
@@ -90,6 +100,7 @@ bind-interfaces # Bind only to USB interface
 ```
 
 **为什么有效：**
+
 - `port=0`：禁用 dnsmasq 的 DNS 功能 (不需要，因为有 systemd-resolved)
 - `bind-interfaces`：确保 dnsmasq 仅绑定到 USB Ethernet
 - 服务成功启动，仅在 `192.168.201.0/24` 子网提供 DHCP
@@ -99,11 +110,13 @@ bind-interfaces # Bind only to USB interface
 ### **阶段 4：Clash 代理安装**
 
 **步骤 1：安装 Clash Meta (mihomo)**
+
 - 从 GitHub 下载最新版本：`mihomo-linux-amd64-compatible-v1.19.21.gz`
 - 解压，重命名为 `clash-meta`，安装到 `/usr/local/bin/`
 - 验证：`clash-meta -v` 显示 v1.19.21
 
 **步骤 2：创建基本配置**
+
 ```yaml
 tun:
 enable: true
@@ -113,10 +126,12 @@ dns-hijack:
 auto-route: true
 auto-detect-interface: true
 ```
+
 - **关键特性：** TUN 模式用于透明代理，auto-route 用于 LAN 流量
 - DNS 劫持以将客户端 DNS 查询重定向通过 Clash
 
 **步骤 3：创建 Systemd 服务**
+
 - 服务文件位于 `/etc/systemd/system/clash.service`
 - 以 `lzwjava` 用户运行，并带有 `CAP_NET_ADMIN` 权限 (TUN 所需)
 - 失败时自动重启

@@ -25,6 +25,7 @@ But yeah, LLMs and AI are poised to flip the script on this, making refactoring 
 Of course, it's not a silver bullet. AI hallucinations could introduce subtle bugs, and cultural inertia (e.g., "if it ain't broke...") persists. Plus, the real bottleneck is often non-technical: org politics, vendor lock-in, or talent shortages. But overall, yes—AI tilts the scales toward longevity. Legacy systems might not die as quickly; instead, they'll get a second (or third) wind, hybridizing with fresh tech. Linux won't be so alone anymore.
 
 For deeper dives:
+
 - [The Mythical Man-Month Revisited](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) (Brooks' timeless take on why big software grows unwieldy)
 - [Refactoring at Scale with AI](https://arxiv.org/abs/2402.00000) (a 2024 paper on LLM-driven legacy modernization)
 - [Rust vs. JVM in Data Processing](https://blog.rust-lang.org/2024/03/21/datafusion-spark-benchmark.html) (DataFusion's own benchmarks showing the shift)

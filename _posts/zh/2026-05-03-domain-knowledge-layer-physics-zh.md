@@ -23,6 +23,7 @@ FSM负责**搜索控制**（节点扩展、评分、剪枝）但不具备物理�
 | 加载领域配置 | `tot_domain_plugin_bundle` — 提供领域插件数据 |
 
 核心调用位置：
+
 - `fsm/builder.py:1050` — 在计算阶段调用`tot_hard_rule_check`；若公式违反物理规则，对应节点将被否决
 - `fsm/backend.py:111` — 加载领域插件包
 - `fsm/backend.py:130` — 获取当前推理阶段的提示词约束

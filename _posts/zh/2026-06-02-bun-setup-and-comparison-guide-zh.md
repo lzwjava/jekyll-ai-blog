@@ -18,6 +18,7 @@ type: note
 Bun 是一个用 Zig 编写的全能 JavaScript 运行时 + 包管理器 + 打包器 + 测试运行器，它基于 JavaScriptCore（Safari 的引擎）而非 V8。核心设计目标：开箱即快，用一个二进制文件替代 Node.js/npm/webpack/jest。
 
 **单个二进制文件中的核心组件：**
+
 - 运行时（`bun run`）
 - 包管理器（`bun install`，`bun add`）
 - 打包器（`bun build`）
@@ -49,24 +50,29 @@ Bun 是一个用 Zig 编写的全能 JavaScript 运行时 + 包管理器 + 打�
 ## 设置自定义注册源
 
 ### 全局（所有包）
+
 ```bash
 bun config set registry https://your-registry.example.com
 ```
 
 或者编辑 `~/.bunfig.toml`：
+
 ```toml
 [install]
 registry = "https://your-registry.example.com"
 ```
 
 ### 作用域注册源（例如 `@myorg`）
+
 在 `bunfig.toml`（项目目录或 `~/.bunfig.toml`）中：
+
 ```toml
 [install.scopes]
 "@myorg" = { registry = "https://npm.myorg.internal", token = "YOUR_TOKEN" }
 ```
 
 ### 带认证（npm 风格的 token）
+
 ```toml
 [install]
 registry = "https://your-registry.example.com"
@@ -85,12 +91,14 @@ token = "YOUR_NPM_TOKEN"
 这是企业环境（例如你的银行内部代理使用自签名 CA）的痛点。
 
 ### 方案 1 — `bunfig.toml` 中的 `caFile`
+
 ```toml
 [install]
 caFile = "/path/to/your-ca-bundle.pem"
 ```
 
 ### 方案 2 — 系统信任存储
+
 Bun 在 Linux/macOS 上遵循系统的 CA 存储。将你的证书添加到系统存储：
 
 ```bash
@@ -103,13 +111,16 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 ```
 
 ### 方案 3 — `NODE_EXTRA_CA_CERTS`（Node 兼容环境变量）
+
 ```bash
 export NODE_EXTRA_CA_CERTS=/path/to/ca-bundle.pem
 bun install
 ```
+
 Bun 为了兼容性会识别此环境变量。
 
 ### 方案 4 — 禁用 TLS 验证（仅开发环境，切勿用于生产）
+
 ```toml
 [install]
 tlsRejectUnauthorized = false

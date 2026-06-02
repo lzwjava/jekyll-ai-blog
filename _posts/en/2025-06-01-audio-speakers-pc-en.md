@@ -10,7 +10,7 @@ type: note
 
 To connect audio speakers to your computer using the motherboard's RCA (or "RS out") output, follow these steps. Note that the MSI MAG B760M Mortar WiFi motherboard typically doesn't have RCA outputs directly, as most modern motherboards use 3.5mm audio jacks or HDMI for audio output. However, I’ll assume you’re referring to the motherboard’s audio output (likely a 3.5mm jack labeled for rear speakers or line-out) or an RCA adapter/converter.
 
-### Steps to Connect Audio Speakers with RCA Output:
+### Steps to Connect Audio Speakers with RCA Output
 
 1. **Identify the Audio Output on the Motherboard**:
    - Check the rear I/O panel of your MSI MAG B760M Mortar WiFi motherboard. It typically has multiple 3.5mm audio jacks, including a green one (line-out) for stereo speakers or a center/subwoofer output (orange) for surround sound setups.
@@ -47,7 +47,8 @@ Sata Cable, Cable Matters 3-Pack 90 Degree Right Angle SATA Cable 18 Inches (6.0
 
 Mouse, Keyboard, Monitor: I already have the extra ones in my house.A male cable**: Connects the motherboard’s green 3.5mm line-out jack (or another designated audio output) to the RCA inputs on your speakers or amplifier.
      - **3.5mm to RCA adapter**: If you already have an RCA cable, you can use a 3.5mm female to RCA male adapter.
-   - Example product: A 3.5mm to RCA cable (similar to the Cable Matters SATA cable you listed, but for audio). These are widely available for 10-50 CNY on JD.com.
+
+- Example product: A 3.5mm to RCA cable (similar to the Cable Matters SATA cable you listed, but for audio). These are widely available for 10-50 CNY on JD.com.
 
 4. **Connect the Speakers**:
    - **For Powered Speakers**:
@@ -76,7 +77,8 @@ Mouse, Keyboard, Monitor: I already have the extra ones in my house.A male cable
      - The correct playback device is selected in Windows.
      - The motherboard’s audio output is enabled in BIOS (rarely disabled, but check MSI’s BIOS settings under **Advanced > Integrated Peripherals** if needed).
 
-### Notes:
+### Notes
+
 - **Motherboard Audio**: The MSI MAG B760M Mortar WiFi uses a Realtek audio chipset, which supports high-quality audio output via 3.5mm jacks. RCA outputs are not standard, so you’re likely using an adapter or referring to the line-out jack.
 - **Alternative Outputs**:
   - If your speakers support HDMI or optical (S/PDIF), your motherboard also has an S/PDIF optical output or HDMI (via the GPU for video+audio). Check if your speakers or amplifier support these for potentially better audio quality.

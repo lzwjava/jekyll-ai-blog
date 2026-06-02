@@ -26,7 +26,7 @@ Answer:
 - 它会自动 ping 并测试全球范围内可用的 mirrors（包括许多中国境内的高速镜像，如 **Alibaba Cloud** / mirrors.aliyun.com、清华 TUNA、中科大 USTC、南京大学 NJU、北京外国语大学 BFSU、上海交大 SJTUG 等）。
 - 你只需点击一下即可选择速度最快的一个（对于中国用户通常是 Alibaba 或清华源），无需手动编辑。
 - 选择后，它会自动更新 `/etc/apt/sources.list` 和 `/etc/apt/sources.list.d/` 文件。
-- 这在中国特别有用：Alibaba Cloud mirrors (https://mirrors.aliyun.com/linuxmint-packages/) 在大陆境内非常受欢迎、可靠且快速。
+- 这在中国特别有用：Alibaba Cloud mirrors (<https://mirrors.aliyun.com/linuxmint-packages/>) 在大陆境内非常受欢迎、可靠且快速。
 
 这个 GUI 工具经过精心打磨，安全且能避免由于操作失误导致系统崩溃。
 

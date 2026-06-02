@@ -11,6 +11,7 @@ type: note
 我假设您指的是"java.io.Serializable"——这是Java中用于对象序列化的关键接口。以下是使用它的实用指南：
 
 ### 什么是Serializable？
+
 `java.io.Serializable` 是一个标记接口（无需实现任何方法），它告诉Java运行时该类可以被序列化——即转换为字节流保存到文件、通过网络传输或存储到数据库中，并能在之后反序列化恢复为对象。
 
 ### 使用Serializable的基本步骤
@@ -99,6 +100,7 @@ type: note
    将上述代码添加到您的 `Person` 类中。
 
 - **Transient字段**：标记为 `transient` 的字段不会被序列化。
+
    ```java
    private transient String temporaryData;
    ```
@@ -108,6 +110,7 @@ type: note
 - **继承**：若父类实现了 `Serializable`，子类自动可序列化。若父类未实现，则父类必须包含无参构造函数才能成功反序列化。
 
 ### 包含transient和serialVersionUID的示例
+
 ```java
 import java.io.Serializable;
 
@@ -131,20 +134,25 @@ public class Employee implements Serializable {
 ```
 
 ### 测试验证
+
 序列化并反序列化 `Employee` 对象后，您会注意到 `password` 字段值为 `null`，因为它被标记为 `transient`。
 
 ### 常见应用场景
+
 - 将对象状态保存至文件（如游戏存档）
 - 通过网络传输对象（如RMI或分布式系统）
 - 对象缓存
 
 ### 潜在问题
+
 - **安全性**：若处理不当，序列化可能暴露私有字段。对于敏感数据建议实现自定义的 `writeObject` 和 `readObject` 方法
 - **性能**：对复杂对象进行序列化可能较慢
 - **版本控制**：类结构变更（如新增字段）可能破坏反序列化，需妥善管理 `serialVersionUID`
 
 ### 自定义序列化（可选）
+
 若需精确控制序列化过程，可实现以下方法：
+
 ```java
 private void writeObject(ObjectOutputStream out) throws IOException {
     out.defaultWriteObject();

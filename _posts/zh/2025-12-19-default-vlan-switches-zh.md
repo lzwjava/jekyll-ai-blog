@@ -24,6 +24,7 @@ type: note
 - 最佳实践建议更改 native VLAN 并避免将 VLAN 1 用于常规数据流量，因为存在安全隐患（例如，潜在的 VLAN hopping 攻击）。
 
 其他选项：
+
 - **VLAN 0**：通常保留或不可用（通常用于内部目的，例如 blackholing traffic）。
 - **VLAN 100**：不是默认值；属于扩展 VLAN 范围的一部分，用户可配置。
 - **VLAN 1001**：通常在保留范围（Cisco 上 1002-1005 是传统 Token Ring/FDDI 的默认值），1001 不用作默认值。

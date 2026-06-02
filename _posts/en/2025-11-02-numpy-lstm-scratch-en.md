@@ -83,6 +83,7 @@ print("Sequence outputs shape:", outputs.shape)
 ```
 
 ### Quick Explanation
+
 - **Initialization**: Weights connect the concatenated input (previous hidden + current input) to each gate. Biases are zero-initialized.
 - **Gates**:
   - **Forget gate** (`f_t`): Decides what to forget from the previous cell state (sigmoid: 0-1).

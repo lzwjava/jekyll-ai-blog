@@ -74,6 +74,7 @@ This is actually an interesting project for someone with your AI/GPU background 
 ### Level 4: FPGA synthesis (on your Ubuntu workstation)
 
 The `scripts/` directory has Makefiles for:
+
 - **IceStorm** (open-source Lattice iCE40 FPGA flow) — `scripts/icestorm/Makefile`
 - **Vivado** (Xilinx) — `scripts/vivado/Makefile`
 - **Quartus** (Intel/Altera) — `scripts/quartus/Makefile`

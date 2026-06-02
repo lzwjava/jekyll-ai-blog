@@ -32,6 +32,7 @@ Here’s an example of how this looks in a beans XML file:
 ```
 
 In this example:
+
 - A bean with the ID `myBean` is created from the class `com.example.MyBean`.
 - The bean has a property named `someProperty`.
 - The `<props>` element defines a set of key-value pairs (`key1=value1` and `key2=value2`), which Spring converts into a `Properties` object and injects into `myBean` via a setter method like `setSomeProperty(Properties props)`.
@@ -52,9 +53,11 @@ The `ApplicationContext` is Spring’s central interface for providing configura
 The beans XML file is loaded into the application by creating an instance of an `ApplicationContext` implementation and specifying the location of the XML file. Here’s how it works step-by-step:
 
 1. **Specify the XML File Location**: When you instantiate the `ApplicationContext`, you provide the name or path of the XML file. For example:
+
    ```java
    ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
    ```
+
    Here, `"beans.xml"` is assumed to be in the classpath (e.g., in the `src/main/resources` directory in a typical Java project).
 
 2. **Loading as a Resource**: The `ApplicationContext` uses a `ResourceLoader` to locate and load the XML file as a `Resource`. In this case, `ClassPathXmlApplicationContext` looks for the file in the classpath.
@@ -64,6 +67,7 @@ The beans XML file is loaded into the application by creating an instance of an 
 4. **Bean Creation**: The `ApplicationContext` (which extends Spring’s `BeanFactory`) uses these bean definitions to instantiate the beans, set their properties (including injecting the `Properties` object from `<props>`), and manage their lifecycle.
 
 Once loaded, you can retrieve beans from the `ApplicationContext` like this:
+
 ```java
 MyBean myBean = context.getBean("myBean", MyBean.class);
 ```
@@ -75,9 +79,11 @@ MyBean myBean = context.getBean("myBean", MyBean.class);
 - **How It’s Loaded**: The XML is loaded as a resource from the classpath or filesystem when you create an `ApplicationContext` instance, specifying the file’s location.
 
 For example, if your `beans.xml` is in the classpath, you’d load it with:
+
 ```java
 ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 ```
+
 Spring then handles the rest, making the configured beans available to your application.
 
 This mechanism is powerful and flexible, allowing you to define complex configurations in XML that Spring brings to life at runtime.

@@ -36,9 +36,9 @@ Salaries have risen rapidly with China's economic growth, tech boom (e.g., mobil
 
 References:
 
-- https://www.ceicdata.com/en/china/average-wage-by-industry/average-wage-information-transmission-software-and-information-technology-service
-- https://teamedupchina.com/average-salaries-by-industry-in-china/
-- https://www.statista.com/statistics/278350/average-annual-salary-of-an-employee-in-china-by-region/ (related sector data)
-- https://teamedupchina.com/average-software-engineer-salary-in-china/
-- https://worldsalaries.com/average-software-engineer-salary-in-china/
-- https://www.levels.fyi/t/software-engineer/locations/china
+- <https://www.ceicdata.com/en/china/average-wage-by-industry/average-wage-information-transmission-software-and-information-technology-service>
+- <https://teamedupchina.com/average-salaries-by-industry-in-china/>
+- <https://www.statista.com/statistics/278350/average-annual-salary-of-an-employee-in-china-by-region/> (related sector data)
+- <https://teamedupchina.com/average-software-engineer-salary-in-china/>
+- <https://worldsalaries.com/average-software-engineer-salary-in-china/>
+- <https://www.levels.fyi/t/software-engineer/locations/china>

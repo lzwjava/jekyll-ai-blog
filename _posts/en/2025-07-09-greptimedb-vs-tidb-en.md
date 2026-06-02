@@ -35,6 +35,7 @@ Let me search for more specific technical issues and limitations with GreptimeDB
 ## Verdict
 
 GreptimeDB doesn't have the same "fatal problems" as TiDB because:
+
 - It's solving a specific problem rather than trying to be everything to everyone
 - Time-series workloads are more naturally suited to distributed architectures
 - It's showing concrete performance advantages in benchmarks

@@ -19,6 +19,7 @@ Your ability to focus on demanding cognitive tasks like certification questions 
 Here are the most common reasons why focus is sometimes easy and sometimes almost impossible:
 
 ### Factors that **make focus very difficult**
+
 - Sleep debt or poor sleep quality the night before (even 1–2 hours less can destroy deep focus the next day)
 - High mental fatigue / cognitive overload (from work, meetings, debugging all day, previous study sessions)
 - Elevated stress / anxiety (about the exam date, imposter feelings, job pressure, life events)
@@ -31,6 +32,7 @@ Here are the most common reasons why focus is sometimes easy and sometimes almos
 - Underlying attention difficulties (sub-clinical ADHD traits become very visible on boring/dense material)
 
 ### Factors that **make focus suddenly easy / flow-like**
+
 - Well-rested (7.5–9 h good sleep)
 - Fresh after a walk / light exercise / shower (increases BDNF, dopamine, norepinephrine)
 - Right circadian peak (for many: morning or early afternoon)
@@ -51,6 +53,7 @@ Here are the most common reasons why focus is sometimes easy and sometimes almos
 | Great / flow day      | Enjoyable, time flies    | 2–4+ hours (with breaks)         | Optimal physiology + motivation      |
 
 ### Practical takeaways for more good days
+
 1. Protect sleep ruthlessly — it is usually the #1 lever.
 2. Match difficult study to your personal high-energy window (track for 1–2 weeks when you feel sharpest).
 3. Use a very short commitment to start (rule of 2: “just open the question for 2 minutes” — momentum often kicks in).

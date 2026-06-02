@@ -15,6 +15,7 @@ type: note
 You're asking a great question about the TCP/IP (or OSI) model—why bother splitting the **Data Link Layer (Layer 2)** and **Network Layer (Layer 3)** instead of merging them into one? It might seem like combining them could cut overhead (e.g., fewer headers, simpler IP addressing tied directly to physical links, and maybe even bake in congestion control). After all, the binary framing ("0000111" as a flag or delimiter) and headers already add some complexity. Let's break it down step by step, then address efficiency.
 
 #### Quick Recap: What Each Layer Does
+
 - **Data Link Layer**: Handles *local* communication between directly connected devices (e.g., over Ethernet or Wi-Fi). It frames raw bits into packets (adding headers/trailers with MAC addresses for "who's next door"), detects errors (via CRC checks), and manages flow control on a single link. Think of it as the "physical neighborhood cop"—it ensures reliable handoffs between neighbors without worrying about the bigger picture.
 
 - **Network Layer**: Manages *global* routing across networks (e.g., the internet). It uses logical addresses like IP addresses to decide paths between distant hosts, handles fragmentation/reassembly, and deals with broader issues like routing tables and basic congestion avoidance (e.g., ICMP for error reporting). It's the "global GPS"—it plots routes across cities, not just streets.
@@ -22,6 +23,7 @@ You're asking a great question about the TCP/IP (or OSI) model—why bother spli
 The separation means data gets "encapsulated" as it moves up/down the stack: Network Layer packets get wrapped in Data Link frames for transmission.
 
 #### Key Reasons for Separation
+
 This isn't arbitrary—it's driven by real-world needs for scalability, flexibility, and reliability in diverse networks. Here's why we don't just mash them together:
 
 1. **Modularity and Specialization**:
@@ -41,6 +43,7 @@ This isn't arbitrary—it's driven by real-world needs for scalability, flexibil
    - Congestion control? That's mostly Transport Layer (TCP's job for reliable streams), but Network Layer chips in with indirect help (e.g., dropping packets to signal overload). Folding it into Data Link would make it too "local"—it couldn't coordinate across the whole path efficiently.
 
 #### Wouldn't Combining Them Be More Efficient and Simple?
+
 - **Short Answer**: It might *seem* simpler (fewer layers = less encapsulation overhead, like skipping Data Link headers), but in practice, it's a false economy. The ~20-50 bytes of extra headers per packet are a tiny fraction of modern data volumes (e.g., video streams), and the gains from separation dwarf that.
 
 - **Efficiency Trade-offs**:
@@ -56,5 +59,6 @@ In short, separation trades a bit of upfront complexity for massive long-term wi
 If you meant something specific by "ip address from on" or want examples in code/diagrams, let me know!
 
 #### References
+
 - [Computer Networking: A Top-Down Approach (Kurose & Ross)](https://www.pearson.com/en-us/subject-catalog/p/computer-networking-a-top-down-approach/P200000006774/9780135415198) – Chapter 4 dives deep into layering rationale.
 - [RFC 1122: Requirements for Internet Hosts](https://datatracker.ietf.org/doc/html/rfc1122) – Official doc on why IP (Layer 3) stays distinct from link layers.

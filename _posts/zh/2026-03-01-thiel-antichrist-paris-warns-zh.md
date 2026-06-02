@@ -16,6 +16,7 @@ type: note
 Peter Thiel 于 2026 年 1 月 26 日在巴黎 Academy of Moral and Political Sciences 发表演讲。该活动在 Institute of France 闭门举行，直到发生前不久才公开。他的演讲主题聚焦于 **Antichrist**，延续了他在其他地点就此主题的一系列讲座。
 
 据报道：
+
 - Thiel 将自己介绍为“a moderate Orthodox Christian and a humble classical liberal, with one seemingly minor deviation from classical liberal orthodoxy: I worry about the Antichrist。”
 - 他讨论了 Antichrist 如何利用对末日的恐惧，例如与 nuclear Armageddon、climate change 或其他 existential threats 相关的恐惧。
 - 一位与会者描述说，在那 45 分钟里，他听到的关于 Antichrist 的内容比一生中其余时间都多。

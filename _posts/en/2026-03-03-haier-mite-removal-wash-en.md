@@ -16,6 +16,7 @@ Answer:
 **除螨洗 (Mite Removal / Dust Mite Wash)** is a specialized hygiene-focused cycle on many Haier washing machines (especially modern front-load/roller models in China/Asia). Its main purpose is to effectively remove and kill dust mites (螨虫), along with bacteria and allergens, from fabrics — particularly helpful for people with allergies, sensitive skin, babies, or asthma. Dust mites thrive in bedding, pillows, towels, plush toys, and clothing, feeding on dead skin cells.
 
 ### Key Features of the 除螨洗 Mode
+
 - **Temperature**: Usually heats water to 55–60°C (or higher in some models, up to 90°C for combined除菌除螨). Mites die at around 55–60°C sustained for 20–30 minutes.
 - **Method**:
   - High-temperature hot wash (often 60°C constant or rising) to kill mites physically (no chemicals needed).
@@ -33,12 +34,14 @@ Answer:
   - Bulky items like quilts (if capacity allows)
 
 ### When to Use 除螨洗
+
 - Weekly or bi-weekly for bedding/towels if someone has mite allergies.
 - After illness or for hygiene boosts.
 - For items stored long-term or from dusty environments.
 - Combine with **除菌** (hygiene/sanitize) if available, or use on high-temp settings.
 
 ### Tips and Cautions
+
 - Check care labels: Only use on fabrics that tolerate 60°C+ (cotton, synthetics, most towels). Avoid delicates like silk, wool, or items marked cold wash only — use gentler modes like 摇篮柔洗 or 丝绸 instead.
 - Don't overload: Leave space for water/heat circulation and effective mite dislodging.
 - Use low-foam/HE detergent; add mite-specific additives if desired (though not usually needed).

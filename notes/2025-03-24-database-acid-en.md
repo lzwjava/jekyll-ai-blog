@@ -28,15 +28,18 @@ Atomicity ensures that a transaction is treated as a single, indivisible unit of
 - Either all operations within the transaction complete successfully (commit)
 - Or none of them take effect (rollback)
 
-### Deep Dive:
+### Deep Dive
+
 When a transaction involves multiple operations (such as debiting one account and crediting another), atomicity guarantees that either both operations succeed or neither does. The database maintains this property through mechanisms like write-ahead logging (WAL) and rollback segments, which record the state before changes so the system can undo partial transactions.
 
 ## Consistency
 
 Consistency ensures that a transaction brings the database from one valid state to another valid state, maintaining all predefined rules, constraints, and triggers.
 
-### Deep Dive:
+### Deep Dive
+
 Consistency works on multiple levels:
+
 - **Database consistency**: Enforcing data integrity constraints, foreign keys, unique constraints, and check constraints
 - **Application consistency**: Ensuring business rules are maintained
 - **Transaction consistency**: Guaranteeing that invariants are preserved before and after transaction execution
@@ -47,13 +50,16 @@ A consistent transaction preserves the database's semantic integrity - it cannot
 
 Isolation ensures that concurrent execution of transactions leaves the database in the same state as if the transactions were executed sequentially.
 
-### Deep Dive:
+### Deep Dive
+
 Isolation prevents problems like:
+
 - **Dirty reads**: Reading uncommitted data from another transaction
 - **Non-repeatable reads**: Getting different results when reading the same data twice in the same transaction
 - **Phantom reads**: When new rows appear in a range scan due to another transaction's insert
 
 Databases implement various isolation levels through techniques like:
+
 - **Pessimistic concurrency control**: Locking resources to prevent conflicts
 - **Optimistic concurrency control**: Allowing concurrent access but validating before commit
 - **Multiversion concurrency control (MVCC)**: Maintaining multiple versions of data to allow concurrent reads without blocking
@@ -62,8 +68,10 @@ Databases implement various isolation levels through techniques like:
 
 Durability guarantees that once a transaction has been committed, it remains committed even in the case of system failure.
 
-### Deep Dive:
+### Deep Dive
+
 Durability is typically achieved through:
+
 - **Write-ahead logging**: Changes are first recorded in logs before being applied to the actual data
 - **Redundant storage**: Multiple copies of data stored across different locations
 - **Checkpoint mechanisms**: Ensuring changes are periodically flushed from memory to persistent storage

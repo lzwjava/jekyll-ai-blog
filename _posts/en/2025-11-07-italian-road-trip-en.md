@@ -17,6 +17,7 @@ Italy is a dream for road trips, with its mix of ancient ruins, Renaissance art,
 Total driving: About 800-1,000 km (500-620 miles), spread out to prevent fatigue. Expect 4-6 hours of driving on transition days, with easy highways (autostrade) and winding coastal roads. Budget €1,500-2,500 per person (excluding flights), covering car rental (€400-600 one-way), fuel/tolls (€200-300), mid-range hotels (€100-150/night), meals (€50-80/day), and entry fees (€200-300 total).
 
 #### Key Tourist Spots Covered
+
 - **Rome**: Colosseum, Vatican, Pantheon – ancient history and Baroque grandeur.
 - **Amalfi Coast/Sorrento**: Cliffside villages like Positano and Amalfi – stunning Mediterranean views and beaches.
 - **Tuscany/Florence**: Uffizi, Duomo, Siena's medieval streets – art, architecture, and Chianti wine tastings.
@@ -27,6 +28,7 @@ Total driving: About 800-1,000 km (500-620 miles), spread out to prevent fatigue
 
 **Days 1-3: Rome (Base: Rome – No driving needed initially)**
 Arrive in Rome and settle in. Use public transport or walks to explore.
+
 - **Day 1**: Jet lag recovery – Toss a coin in Trevi Fountain, climb Spanish Steps, stroll Pantheon and Piazza Navona. Evening gelato in Trastevere.
 - **Day 2**: Vatican Museums and Sistine Chapel (book timed tickets €17+), then St. Peter's Basilica. Afternoon: Borghese Gallery (€15, reserve ahead).
 - **Day 3**: Colosseum, Roman Forum, and Palatine Hill (€16 combo ticket, book online). End with views from the Altar of the Fatherland.
@@ -49,6 +51,7 @@ Early start north through Naples (grab authentic pizza). Detour into Tuscany for
 *Key Spot*: Orvieto's Etruscan history. *Stay*: Florence apartment like Residenza Johanna I (€110/night). *Tip*: Vignette toll pass for highways; fuel up at Autogrills.
 
 **Days 8-9: Florence and Tuscany (Minimal city driving; day trip drive ~1-2 hours)**
+
 - **Day 8**: Florence core – Climb Duomo dome (€20), Uffizi Gallery (€12, book ahead), Ponte Vecchio bridge. Evening aperitivo.
 - **Day 9**: Rent a scooter or drive to Tuscany hill towns: Siena's Piazza del Campo and Duomo (€8), then San Gimignano's towers (€9). Wine tasting in Chianti (€30 tour).
 *Key Spots*: Michelangelo's David (Accademia, €12), Tuscan cypress landscapes. *Stay*: Florence. *Tip*: Use Park & Ride garages in Florence (€2/hour); Tuscany roads are scenic but narrow.
@@ -66,20 +69,24 @@ East on highways, optional Verona stop (1-hour detour, €10 arena). Arrive Veni
 *Key Spot*: Verona's Juliet balcony. *Stay*: Venice canal-side like Hotel Antico Doge (€140/night). *Tip*: One-way car drop-off fee ~€100; Venice is car-free.
 
 **Days 13-14: Venice (No driving; water taxis €10/ride)**
+
 - **Day 13**: St. Mark's Basilica (€3), Doge's Palace (€30 combo), gondola (€80/30 min shared).
 - **Day 14**: Murano glass-blowing island, Rialto Market. Depart from Marco Polo Airport.
 *Key Spots*: Grand Canal, hidden alleys. *Tip*: Buy 48-hour vaporetto pass (€30); watch for acqua alta floods.
 
 #### Road Trip Essentials and Tips
+
 - **Car Rental**: Book via Discover Cars for best rates. Opt for compact automatic (easier on hills). International permit if non-EU license. GPS app: Waze for toll avoidance.
 - **Driving Rules**: Drive on right; speed limits 50 km/h city, 130 km/h highway. ZTL zones in historic centers – use hotel valet parking. Gas: €1.80/liter; stations close Sundays.
 - **Costs Breakdown**:
+
   | Category | Estimated Cost |
   |----------|----------------|
   | Rental + Fuel/Tolls | €600-800 |
   | Accommodations (13 nights) | €1,300-1,800 |
   | Food & Drinks | €700-1,000 |
   | Attractions & Transport | €400-600 |
+
 - **Best Time**: April-June or Sept-Oct for milder traffic/weather. Pack layers; download offline maps.
 - **Customizations**: If you prefer north (Dolomites) over south, swap Amalfi for Lake Garda. Families? Add kid-friendly stops like Pisa's Leaning Tower.
 - **Sustainability**: Use eco-rentals; support local by eating at agriturismos.
@@ -87,6 +94,7 @@ East on highways, optional Verona stop (1-hour detour, €10 arena). Arrive Veni
 This route balances must-sees with chill drives – adjust for pace. Buon viaggio!
 
 #### References
+
 - [14 Day Italy Itinerary: Best Way to Spend Two Weeks in Italy](https://www.earthtrekkers.com/two-weeks-in-italy-14-day-italy-itinerary/)
 - [2 Week Italy Trip Itinerary 14 Days in Italy + Where to Stay, Tips](https://toripinestravels.com/2-week-italy-trip-itinerary/)
 - [The Ultimate Italy Road Trip: 2 Weeks Itinerary (with Amalfi Coast)](https://drifterplanet.com/italy-road-trip/)

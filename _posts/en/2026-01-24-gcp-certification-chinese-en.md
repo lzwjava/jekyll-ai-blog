@@ -19,10 +19,11 @@ As a **Chinese citizen**, you can fully register for and take Google Cloud certi
 The process is the same as for candidates worldwide:
 
 ### Registration Steps
-1. Go to the official Google Cloud certifications page: https://cloud.google.com/learn/certification
+
+1. Go to the official Google Cloud certifications page: <https://cloud.google.com/learn/certification>
 2. Select the certification you want (e.g., Professional Cloud Architect).
 3. Click the **Register** or **Schedule exam** button on that certification's page.
-4. If you're new, create an account in the **CertMetrics (CM Connect)** portal (https://cp.certmetrics.com/google/en/login).
+4. If you're new, create an account in the **CertMetrics (CM Connect)** portal (<https://cp.certmetrics.com/google/en/login>).
 5. Once logged in, click **Schedule/Launch an Exam** — this takes you to the Kryterion Webassessor platform.
 6. Search for the exam, choose the delivery method:
    - **Online proctored** (remote from home/office — most popular).
@@ -32,11 +33,13 @@ The process is the same as for candidates worldwide:
 9. You'll receive a confirmation email with your Test Taker Authorization Code.
 
 ### Taking the Exam
+
 - **Online proctored**: Available globally, including in China (no reported restrictions for Kryterion online proctoring in mainland China). Follow the standard requirements (webcam, quiet room, ID verification, etc.).
 - **Onsite**: Testing centers are available in major Chinese cities (e.g., Beijing, Shanghai, etc.) through Kryterion.
 - Note: Starting late February 2026, Google Cloud exams will transition from Kryterion to Pearson VUE, which also has extensive testing centers in China and supports online proctoring (though some programs have country-specific notes, but none indicated for Google Cloud).
 
 ### Additional Notes for Chinese Citizens
+
 - **ID requirements**: Use a valid government-issued photo ID (e.g., Chinese ID card or passport). The name on your account must exactly match the ID.
 - **Languages**: Some exams are available in Simplified Chinese (check the specific exam page).
 - **Payment**: International credit cards are accepted; no issues reported for payments from China.
@@ -46,6 +49,7 @@ The process is the same as for candidates worldwide:
 For the latest details, always start from the official site when registering.
 
 References:
+
 - [https://cloud.google.com/learn/certification](https://cloud.google.com/learn/certification) (Main certifications page with registration links)
 - [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) (Registration and scheduling guide)
 - [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) (Exam Terms & Conditions, including trade compliance/sanctions list — China not included)

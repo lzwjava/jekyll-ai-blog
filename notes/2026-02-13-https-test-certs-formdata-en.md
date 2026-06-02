@@ -14,25 +14,29 @@ Question: What are key.pem and cert.pem used for in the test/fixture directory o
 
 Answer:
 
-In the `form-data` npm package's GitHub repository (https://github.com/form-data/form-data), the `test/fixture` directory contains test fixture files used in integration tests. Specifically:
+In the `form-data` npm package's GitHub repository (<https://github.com/form-data/form-data>), the `test/fixture` directory contains test fixture files used in integration tests. Specifically:
 
 - **key.pem**: This is the private key file for a self-signed SSL certificate. It is loaded and used to configure a local HTTPS server in the integration tests.
 
 - **cert.pem**: This is the self-signed SSL certificate file (public key). It is used both for the HTTPS server configuration and as a Certificate Authority (CA) in the client-side request options to trust the self-signed certificate during testing.
 
 ### Purpose and Usage
+
 These files were introduced in 2015 to enable local HTTPS testing without relying on external servers. The key changes from the relevant commits (afe1959 and 4d5ec50) include:
 
 - **Local HTTPS Server Setup**: In helper files like `static.js` and `common.js`, the HTTPS server is created using Node.js's `https` module with options like:
+
   ```js
   const httpsServer = https.createServer({
     key: common.httpsServerKey,  // Loaded from 'test/fixture/key.pem'
     cert: common.httpsServerCert // Loaded from 'test/fixture/cert.pem'
   });
   ```
+
   The server listens on a port (e.g., 9443) and responds to requests for testing purposes.
 
 - **Loading the Files**: In `test/common.js`, the files are read using:
+
   ```js
   const fs = require('fs');
   const path = require('path');

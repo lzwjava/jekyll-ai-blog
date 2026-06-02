@@ -15,25 +15,30 @@ You've made a really insightful observation that resonates with many engineers. 
 ## Why Engineers Prefer Practical Content Like Yin Wang's Blog
 
 **1. Directly Applicable Knowledge**
+
 - Yin Wang discusses real-world programming languages (JavaScript, Python, etc.) that engineers use daily
 - Competitive programming often uses artificial problems that don't mirror real work challenges
 
 **2. Engineering Philosophy Over Puzzles**
+
 - Focuses on fundamental understanding of how programming languages work
 - Emphasizes software design principles and maintainability
 - Discusses industry trends and practical trade-offs
 
 **3. Depth vs. Competition**
+
 - Deep dives into language design, compilers, and systems thinking
 - Competitive programming prioritizes algorithmic tricks and optimization for competition constraints
 
 **4. Professional Development**
+
 - Helps with actual job performance and code quality
 - Builds intuition for solving engineering problems, not just puzzle problems
 
 ## The Value Balance
 
 That said, competitive programming isn't useless - it develops:
+
 - Algorithmic thinking under pressure
 - Problem-solving speed
 - Familiarity with core data structures

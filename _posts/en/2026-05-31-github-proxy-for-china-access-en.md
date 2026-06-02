@@ -16,6 +16,7 @@ type: note
 It's a **GitHub proxy / accelerator** (`GitHub 代理加速`) — a mirror/CDN service that speeds up GitHub downloads for users in mainland China, where GitHub is slow or throttled by the GFW.
 
 It proxies:
+
 - GitHub file downloads (repos, releases, raw files)
 - `github.com` release assets
 - `raw.githubusercontent.com` content
@@ -34,6 +35,7 @@ https://ghfast.top/https://github.com/owner/repo/releases/download/v1.0/binary.t
 ```
 
 Or for `raw.githubusercontent.com`:
+
 ```bash
 https://ghfast.top/https://raw.githubusercontent.com/owner/repo/main/file.txt
 ```

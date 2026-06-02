@@ -13,6 +13,7 @@ type: note
 I understand your strategy! Let me break down what you're planning:
 
 **Your approach:**
+
 - Charge EV for 15 minutes → get 1.5 hours free parking
 - Every 1.5 hours, move your car out of the charging spot and back in
 - Charge another 15 minutes → get another 1.5 hours free parking
@@ -22,11 +23,13 @@ I understand your strategy! Let me break down what you're planning:
 **Is it smart? Here are some considerations:**
 
 **Pros:**
+
 - Much cheaper than regular parking (typical Guangzhou office parking can be 5-10 RMB/hour or more)
 - Your car gets charged while you work
 - Convenient location near your office
 
 **Potential issues to think about:**
+
 - **Time/disruption**: You need to leave your office every 1.5 hours to move your car. That's interrupting your work 3-4 times per day. Is your time worth more than the parking savings?
 - **Charging spot availability**: Will the spot be available each time you come back? If other people are waiting, this might not work reliably
 - **Rules compliance**: Check if there are rules against this practice. Some charging stations have policies about how long you can occupy spots or might require you to actually leave the parking area, not just cycle through spots

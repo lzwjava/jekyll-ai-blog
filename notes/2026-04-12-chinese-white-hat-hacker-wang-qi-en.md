@@ -16,6 +16,7 @@ Answer:
 Wang Qi (王琦), also known by the aliases Daniel Wang and "大牛蛙" (Big Bull Frog or 大蛙子), is a highly respected **white-hat hacker** and cybersecurity expert from China. He is best known as the founder and CEO of Keen Team (碁震安全研究团队), one of the world's top vulnerability research and offensive security teams in the 2010s.
 
 ### Background and Achievements
+
 - **Microsoft Connection**: Wang Qi joined Microsoft around 2005 and played a key role in establishing the Microsoft China Security Response Center (China MSRC), the first regional security response center outside the U.S. headquarters. He served as a technical leader and vulnerability research expert in the Asia-Pacific region.
 - **Keen Team**: After leaving Microsoft in 2011, he founded Keen Team, a group of elite white-hat hackers focused on discovering and responsibly disclosing security vulnerabilities. The team consisted of highly talented individuals, many with strong academic backgrounds (e.g., top national exam scorers or math majors) and prior experience at companies like Microsoft.
 - **Major Accomplishments**:
@@ -28,6 +29,7 @@ Wang Qi (王琦), also known by the aliases Daniel Wang and "大牛蛙" (Big Bul
 His technical level is considered elite in the field of **vulnerability discovery, exploit development, and offensive security research**. In the competitive hacking scene of the mid-2010s, Keen Team (under his leadership) was among the best in the world at finding zero-day vulnerabilities in heavily defended modern software.
 
 ### Comparison to Edward Snowden
+
 Edward Snowden is a former NSA contractor who became a global whistleblower in 2013 by leaking classified documents revealing extensive U.S. government surveillance programs (PRISM, XKeyscore, etc.). His impact was primarily in the domains of **privacy advocacy**, intelligence community exposure, and geopolitics rather than hands-on technical hacking.
 
 - **Different Skill Sets and Roles**:
@@ -44,8 +46,9 @@ There is no direct or meaningful "better than" comparison, as they represent dif
 Wang Qi's work has helped make consumer and enterprise software safer, and his team influenced the global bug bounty and vulnerability disclosure culture. Information about him largely comes from interviews and reports dating from around 2014–2017; he has maintained a lower public profile in recent years while continuing in the security industry.
 
 References:
-- https://zhuanlan.zhihu.com/p/24461529
-- https://www.yicai.com/news/4702043.html
-- https://baike.baidu.com/item/Keen%20Team/12696729
-- https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html
-- https://www.vice.com/en/article/meet-the-keen-team/
+
+- <https://zhuanlan.zhihu.com/p/24461529>
+- <https://www.yicai.com/news/4702043.html>
+- <https://baike.baidu.com/item/Keen%20Team/12696729>
+- <https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html>
+- <https://www.vice.com/en/article/meet-the-keen-team/>

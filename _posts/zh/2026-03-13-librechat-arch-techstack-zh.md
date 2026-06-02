@@ -24,6 +24,7 @@ LibreChat 是一个开源的、可自托管的 AI 聊天平台，它将多个 AI
 ### 技术栈
 
 #### **前端**
+
 - 使用 React 构建 UI 组件，并结合 Recoil 进行状态管理
 - TypeScript 用于类型安全的代码
 - React Query（@tanstack/react-query）用于 API 交互和服务器状态管理
@@ -31,11 +32,13 @@ LibreChat 是一个开源的、可自托管的 AI 聊天平台，它将多个 AI
 - CSS 自定义属性（CSS 变量）用于支持浅色、深色和自定义主题的主题感知样式，并使用 Tailwind CSS 进行基于实用程序的样式设计
 
 #### **后端**
+
 - /packages/api 中的所有新后端代码均使用 TypeScript
 - Express.js 用于运行在 3080 端口的 API 服务器
 - Passport.js 用于认证策略配置
 
 #### **数据库与存储**
+
 - MongoDB 作为主要数据存储，用于用户数据、对话、消息、事务和应用状态
 - Redis 用于缓存、会话存储以及使用 Redis Streams 和 Pub/Sub 的 Resumable Streams 功能
 - MeiliSearch 用于搜索索引更新
@@ -46,6 +49,7 @@ LibreChat 是一个开源的、可自托管的 AI 聊天平台，它将多个 AI
 LibreChat 使用 monorepo 工作区结构，具有包边界，其中所有新后端代码必须在 /packages/api 中使用 TypeScript，数据库特定的共享逻辑属于 /packages/data-schemas，前端/后端共享的 API 逻辑（端点、类型、data-service）属于 /packages/data-provider。
 
 组织结构包括：
+
 - **packages/data-provider**：使用 TypeScript + Axios + React Query 构建，导出所有 API 操作的 React hooks
 - **packages/data-schemas**：使用 TypeScript 和 Mongoose 构建的数据库模式和类型
 - **packages/api**：使用 TypeScript 和 MCP SDK 构建的 MCP 服务和核心 API
@@ -62,15 +66,19 @@ LibreChat 使用分层配置系统，具有三个层级，其中更高层覆盖�
 ### 高级功能架构
 
 #### **Agents 系统**
+
 Agents 系统支持带有工具使用的代理工作流，包括可切换的功能，如 execute_code、file_search、actions、tools、artifacts、context、ocr、chain 和 web_search，并带有 recursionLimit 参数（默认：25）以防止无限循环。
 
 #### **AI 提供商集成**
+
 LibreChat 使用抽象客户端模式，通过统一界面支持多个 AI 提供商。每条消息通过统一 API 界面路由到选定的模型提供商（OpenAI、Azure、Anthropic），路由逻辑在 api 目录中定义，端点基于用户设置和环境变量配置。
 
 #### **Streaming 与弹性**
+
 LibreChat 具有弹性流式传输架构，通过自动使用带哈希标签的键确保多键操作保持在同一集群槽位，从而确保网络中断时内容不会丢失，当连接恢复时响应会自动恢复。
 
 #### **文件存储**
+
 LibreChat 实现了灵活的、类型感知的存储路由系统，支持多个提供商后端和回退机制，支持 uploads/ 目录的本地文件系统存储、Firebase、S3 和 Azure Blob。
 
 ### 代码标准

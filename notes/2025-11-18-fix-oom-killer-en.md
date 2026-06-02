@@ -57,15 +57,18 @@ Even though FineWeb-Edu is designed for streaming (the official downloader uses 
 
 3. **Hardware workarounds (temporary, not ideal)**
    - Add a lot of swap (e.g., 64-128 GB swap file). It will be extremely slow once it starts swapping, but it may finish.
+
      ```bash
      sudo fallocate -l 64G /swapfile
      sudo chmod 600 /swapfile
      sudo mkswap /swapfile
      sudo swapon /swapfile
      ```
+
    - Run on a machine/instance with ≥64 GB RAM (e.g., AWS r6i.4xlarge or bigger).
 
 ### Summary
+
 Just run the official `fineweb.py` from build-nanogpt — it's the cleanest solution and what everyone uses for FineWeb now. Your concatenated 15 GB txt file is the problem, not FineWeb itself.
 
 [Official FineWeb-Edu downloader script](https://raw.githubusercontent.com/karpathy/build-nanogpt/master/fineweb.py)

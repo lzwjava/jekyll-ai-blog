@@ -33,20 +33,26 @@ Yes, that's quite a journey! And looking at the actual on-chain transaction, it'
 Here's exactly what happened step by step, as recorded in the blockchain logs:
 
 ### 1. Entry Point (ERC-4337 Account Abstraction)
+
 The transaction was initiated via **ERC-4337 Account Abstraction** (`Entry Point 0.6.0`). This is the standard that Coinbase's Smart Wallet uses — it means your wallet is a smart contract account, not a regular EOA. No need to hold ETH for gas yourself; a **Paymaster** sponsors the gas.
 
 ### 2. Your Coinbase Smart Wallet (the Sender)
+
 Address `0x133243d4...be3C566Eb` — this is your Coinbase-managed smart wallet holding the USDC on Base. It authorized a transfer of **10.5 USDC**.
 
 ### 3. Coinbase Business: Payment Protocol
+
 The 10.5 USDC first went to Coinbase's **Payment Protocol** contract (`0x0E3dF951...`). This is Coinbase's x402 payment infrastructure — an HTTP payment protocol built on Base that enables machine-to-machine crypto payments (used by OpenRouter's API billing system).
 
 ### 4. Fee Split (via x402 Router `0x47C5d3fc...`)
+
 The payment router split the funds:
+
 - **0.105 USDC (1%)** → Coinbase fee receiver (`0x6D8675A5...`) — this is Coinbase's cut for processing
 - **10.395 USDC (99%)** → OpenRouter's receiving address (`0x4C3f2E39...`)
 
 ### 5. Gas Sponsored by Paymaster
+
 The gas fee (~$0.004) was paid by a **Paymaster** (`0x2FAEB076...`), so you didn't need any ETH in your wallet at all. This is the magic of Account Abstraction.
 
 ---
@@ -63,6 +69,7 @@ The gas fee (~$0.004) was paid by a **Paymaster** (`0x2FAEB076...`), so you didn
 | OpenRouter | Receives 10.395 USDC as API credit |
 
 The route looks long but it's actually quite elegant:
+
 - **Coinbase's x402 protocol** is designed for AI API billing — it lets services like OpenRouter charge per-request without traditional payment rails (no Stripe account needed on your end)
 - **Account Abstraction** means zero gas friction for the user
 - Everything settled on **Base L2** in seconds for less than half a cent in fees

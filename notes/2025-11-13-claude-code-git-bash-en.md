@@ -13,6 +13,7 @@ type: note
 Yes, based on recent developments, Claude Code (an AI coding tool from Anthropic) on Windows does trigger `git-bash.exe` to run shell commands. It often uses Git Bash as the environment for executing commands, especially in native Windows setups without WSL. This can result in pop-up terminals for command execution, and there are known configurations, extensions (like in VS Code), and troubleshooting steps related to ensuring Git Bash is properly detected and used.
 
 For example:
+
 - In native Windows installations, Claude Code relies on Git Bash for Unix-like compatibility to handle scripts and commands.
 - If set as the default terminal (e.g., in integrated tools like VS Code or Cursor), it will launch `git-bash.exe` for tasks.
 - There are reported bugs and guides for handling path issues or spaces in the Git installation directory that affect this integration.

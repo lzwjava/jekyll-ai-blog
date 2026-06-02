@@ -25,7 +25,6 @@ ASIC 是 **Application-Specific Integrated Circuit** 的缩写。这些是针对
 
 ### ASIC 的主要类型（按定制程度分类）
 
-
 | Type              | Customization level       | Development cost & time | Flexibility after production | Typical examples                          |
 |-------------------|----------------------------|--------------------------|------------------------------|--------------------------------------------|
 | Full-custom ASIC  | Every transistor designed by hand | Highest / longest       | None                         | High-end smartphone application processors (some parts) |
@@ -45,7 +44,6 @@ ASIC 是 **Application-Specific Integrated Circuit** 的缩写。这些是针对
 - 2026 年几乎所有 **high-end cryptocurrency mining hardware**
 
 ### ASIC 与其他处理技术比较（快速对比 – 2026 现实）
-
 
 | Feature                | CPU             | GPU               | FPGA             | ASIC              |
 |------------------------|-----------------|-------------------|------------------|-------------------|

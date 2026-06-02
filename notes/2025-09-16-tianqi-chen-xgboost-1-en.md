@@ -15,6 +15,7 @@ Tianqi Chen (陈天奇) is a prominent computer scientist and machine learning r
 ---
 
 ### **Who is Tianqi Chen?**
+
 - **Nationality**: Chinese (born in China, later moved to the U.S.)
 - **Education**:
   - **Bachelor’s in Computer Science**: Shanghai Jiao Tong University (2009).
@@ -27,9 +28,11 @@ Tianqi Chen (陈天奇) is a prominent computer scientist and machine learning r
 ---
 
 ### **XGBoost: His Most Famous Contribution**
+
 XGBoost is an optimized, scalable implementation of **gradient boosting machines (GBM)**, designed for speed, performance, and flexibility. Here’s why it stands out:
 
-#### **Key Innovations in XGBoost**:
+#### **Key Innovations in XGBoost**
+
 1. **System Optimization**:
    - **Parallel & Distributed Computing**: Uses multi-threading and distributed training (via **Rabit**, a library Tianqi co-developed) to handle large datasets.
    - **Cache-Aware Algorithms**: Optimizes memory usage for faster training.
@@ -46,7 +49,8 @@ XGBoost is an optimized, scalable implementation of **gradient boosting machines
    - Dominated **Kaggle competitions** (e.g., used in >50% of winning solutions in 2015–2017).
    - Often outperforms deep learning models on tabular data (when data is limited).
 
-#### **Impact**:
+#### **Impact**
+
 - **Open-Source**: Released under the **Apache License 2.0** (GitHub: [dmlc/xgboost](https://github.com/dmlc/xgboost)).
 - **Adoption**: Used by companies like **Google, Uber, Airbnb, and Alibaba** for production ML.
 - **Awards**: Won the **2016 SIGKDD Test of Time Award** (for lasting impact in data science).
@@ -54,19 +58,23 @@ XGBoost is an optimized, scalable implementation of **gradient boosting machines
 ---
 
 ### **Tianqi Chen’s Journey**
+
 #### **Early Career (2009–2014)**
+
 - **Undergrad at SJTU**: Worked on distributed systems and ML.
 - **Ph.D. at UW**: Focused on **large-scale machine learning** under Carlos Guestrin. Developed:
   - **GraphLab** (precursor to **Turbo** and **Dato**, later acquired by Apple).
   - Early versions of **XGBoost** (initially called "XGBoost4J").
 
 #### **Post-Ph.D. (2014–2019)**
+
 - **Co-founded DMLC (Distributed Machine Learning Community)**: A group behind open-source ML tools like:
   - **XGBoost**, **MXNet** (deep learning framework, later donated to Apache), and **TVM** (compiler for ML models).
 - **Amazon Web Services (AWS)**: Worked on **MXNet** and **SageMaker** (AWS’s ML platform).
 - **Kaggle Dominance**: XGBoost became the "go-to" algorithm for competitive data science.
 
 #### **Recent Work (2020–Present)**
+
 - **Xinference**: Founded in 2022 to build **AI infrastructure** for deploying large models (e.g., LLMs) efficiently.
 - **TVM (Apache TVM)**: A compiler to optimize ML models for hardware (CPUs, GPUs, edge devices).
 - **Advocacy for Open Source**: Continues to contribute to ML systems research.
@@ -74,6 +82,7 @@ XGBoost is an optimized, scalable implementation of **gradient boosting machines
 ---
 
 ### **Other Notable Contributions**
+
 1. **MXNet**:
    - A deep learning framework (competed with TensorFlow/PyTorch) known for **scalability** and **multi-language support**.
    - Later merged into **Apache MXNet** (now less dominant but still used in production).
@@ -91,6 +100,7 @@ XGBoost is an optimized, scalable implementation of **gradient boosting machines
 ---
 
 ### **Philosophy & Influence**
+
 - **Pragmatic ML**: Focuses on **scalable, practical solutions** over theoretical novelty.
 - **Open Source**: Believes in **democratizing ML** through accessible tools.
 - **Bridging Academia & Industry**: His work is widely cited in both research and production systems.
@@ -98,6 +108,7 @@ XGBoost is an optimized, scalable implementation of **gradient boosting machines
 ---
 
 ### **Awards & Recognition**
+
 - **SIGKDD Test of Time Award (2016)** for XGBoost.
 - **MIT TR35 (2017)**: Named one of the top 35 innovators under 35 by *MIT Technology Review*.
 - **ACM SIGMOD Systems Award (2022)** for contributions to ML systems.
@@ -105,10 +116,13 @@ XGBoost is an optimized, scalable implementation of **gradient boosting machines
 ---
 
 ### **Where to Follow Him**
+
 - **GitHub**: [@tqchen](https://github.com/tqchen)
 - **Twitter**: [@tqchen](https://twitter.com/tqchen)
 - **Website**: [tqchen.com](http://tqchen.com)
 
 ---
+
 ### **Legacy**
+
 Tianqi Chen’s work (especially XGBoost) has **redefined applied machine learning**, making powerful algorithms accessible to practitioners worldwide. His journey reflects a rare blend of **deep systems expertise** and **ML innovation**, bridging the gap between research and real-world impact.

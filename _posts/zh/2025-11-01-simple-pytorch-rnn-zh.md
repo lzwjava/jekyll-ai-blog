@@ -77,7 +77,8 @@ prediction = model(test_seq)
 print(f'Prediction: {prediction.item():.4f}')
 ```
 
-#### 实现原理：
+#### 实现原理
+
 - **数据生成**：创建长度为10的随机序列，根据序列和是否大于0生成二元标签
 - **模型结构**：使用 `nn.RNN`（基础RNN单元）。前向传播逐步处理序列，最终隐藏状态用于输出
 - **训练过程**：标准 PyTorch 训练循环，使用二元交叉熵损失函数
@@ -86,6 +87,7 @@ print(f'Prediction: {prediction.item():.4f}')
 此为基础RNN实现。若需处理长序列，建议使用 LSTM 或 GRU 变体（例如将 `nn.RNN` 替换为 `nn.LSTM`）。
 
 ### LSTM 变体（快速扩展）
+
 为解决梯度消失问题，可替换为 LSTM：
 
 ```python

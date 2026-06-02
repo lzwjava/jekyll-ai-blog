@@ -48,8 +48,8 @@ Angular 14 已经是一个非常稳固且现代的版本（尤其是 Typed Forms
 
 **References:**
 
-- https://blog.angular.dev/angular-v14-is-now-available-391a6db736af
-- https://blog.angular.dev/angular-v16-is-here-4d7a28ec680d
-- https://angular.love/angular-16-whats-new
-- https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5
-- https://medium.com/@redin.gaetan/from-angular-14-to-angular-16-1804736e25d9
+- <https://blog.angular.dev/angular-v14-is-now-available-391a6db736af>
+- <https://blog.angular.dev/angular-v16-is-here-4d7a28ec680d>
+- <https://angular.love/angular-16-whats-new>
+- <https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5>
+- <https://medium.com/@redin.gaetan/from-angular-14-to-angular-16-1804736e25d9>

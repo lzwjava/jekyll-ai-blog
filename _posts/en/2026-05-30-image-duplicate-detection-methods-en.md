@@ -35,19 +35,25 @@ JPEG is **lossy** — re-saving at even the same quality setting produces differ
 ## What They Actually Use
 
 ### Google Photos
+
 Uses **perceptual hashing + neural embeddings**:
+
 - Perceptual hash (pHash) for near-identical detection
 - CNN embedding vectors to cluster visually similar photos (e.g. same scene, burst shots)
 - Deduplication is based on **visual similarity score**, not exact hash
 
 ### Apple Photos
+
 Uses **pHash + metadata signals**:
+
 - Detects duplicates introduced in iOS 16+ via `PHAssetCollectionSubtypeSmartAlbumDuplicates`
 - Combines perceptual hash with timestamp, GPS, and camera model
 - Groups burst photos separately
 
 ### Tencent PC Manager (腾讯管家) / similar tools
+
 Simpler, file-focused approach:
+
 - MD5 of **raw bytes** for exact duplicates
 - pHash for similar image detection
 - Some use file size + dimensions as a pre-filter before hashing (cheap early exit)
@@ -74,6 +80,7 @@ def are_duplicates(path1: str, path2: str, threshold: int = 10) -> bool:
 ```
 
 **How pHash works internally:**
+
 1. Resize image to 32×32
 2. Convert to grayscale
 3. Apply DCT (Discrete Cosine Transform) — same idea as JPEG compression

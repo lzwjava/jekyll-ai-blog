@@ -14,12 +14,14 @@ There it is. You have `huggingface-hub` 0.29.3 installed via pip, which already 
 Two options:
 
 **Option 1 — Clean fix:** Remove the pip package, then link:
+
 ```sh
 pip uninstall huggingface-hub
 brew link hf
 ```
 
 **Option 2 — Force overwrite:** Just overwrite the pip scripts with Homebrew's:
+
 ```sh
 brew link --overwrite hf
 ```

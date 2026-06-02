@@ -21,6 +21,7 @@ When liver cells become damaged or inflamed, ALT leaks out into the bloodstream,
 Most labs consider the normal ALT range to be approximately **0–40 U/L** (some labs use 7–56 U/L or slightly different cutoffs depending on gender, age, and lab standards). Anything clearly above the upper limit is considered elevated.
 
 **What does ALT = 142 U/L mean?**
+
 - This value is **moderately to significantly elevated** (roughly 3–4 times the upper normal limit in most labs).
 - Many Chinese medical sources classify elevations as:
   - 40–80 U/L: mild liver injury
@@ -29,6 +30,7 @@ Most labs consider the normal ALT range to be approximately **0–40 U/L** (some
 - An ALT of 142 U/L falls into the **moderate-to-severe** category and strongly suggests active liver cell damage or stress. It is **not normal** and usually requires medical attention.
 
 **Common causes of ALT elevation to this level**
+
 - Viral hepatitis (hepatitis B, C, A, E, etc.)
 - Non-alcoholic fatty liver disease (NAFLD / MASLD) — very common in people with obesity, diabetes, high lipids
 - Alcoholic liver injury / alcohol-related fatty liver
@@ -38,11 +40,13 @@ Most labs consider the normal ALT range to be approximately **0–40 U/L** (some
 - Less commonly: muscle injury (very heavy exercise), heart problems, thyroid disease, etc. (but usually ALT is not this high from non-liver causes)
 
 **Is it serious?**
+
 - Yes, ALT 142 U/L is **abnormal and potentially concerning**, especially if persistent or rising.
 - It does not tell you the exact diagnosis or how much long-term damage has occurred — it only shows that the liver is currently under stress or being injured.
 - Many people with this level feel completely normal (no symptoms), but silent damage can still be progressing.
 
 **What should you do next?**
+
 1. See a doctor (hepatologist / gastroenterologist or your primary physician) soon — do not ignore it.
 2. Retest liver function (full panel: ALT, AST, bilirubin, ALP, GGT, albumin, etc.) to confirm and see trends.
 3. Provide important additional tests:

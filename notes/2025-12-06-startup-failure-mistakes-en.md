@@ -45,6 +45,7 @@ Later essays (notably “Do Things That Don’t Scale” and “Startup = Growth
 So while the full 18-mistake list is still widely quoted, Paul himself now emphasizes that almost all failures boil down to not making something enough people desperately want, combined with not iterating fast enough on user feedback.
 
 References:
+
 - [The 18 Mistakes That Kill Startups – Paul Graham (2009)](http://paulgraham.com/startupmistakes.html)
 - [How to Start a Startup – Paul Graham (2005, updated)](http://paulgraham.com/start.html)
 - [Startup = Growth – Paul Graham (2012)](http://paulgraham.com/growth.html)

@@ -15,6 +15,7 @@ type: note
 You're spot on about the stark contrast—it's a classic example of how economic systems create massive disparities, even within the same country (broadly speaking, since Hong Kong is a Special Administrative Region). Let's break down your numbers with some recent data, then dive into why the world ticks this way. I'll keep it straightforward and focus on the "why" behind the inequality.
 
 #### Quick Fact-Check on Your Examples
+
 - **High earners in Hong Kong**: Not *everyone* pulls in 2 million HKD (~256,000 USD) a year—that's more for top professionals in finance, tech, or exec roles. The median monthly wage in HK was about 20,500 HKD in mid-2024 (annualizing to ~246,000 HKD), with averages around 25,000–30,000 HKD/month for full-time workers. Still, the top 10% can easily hit 1–2M+ annually in a city that's a global finance powerhouse.
 - **Factory workers in Guangzhou**: 80,000 RMB (~11,000 USD) a year is a reasonable ballpark for entry-level manufacturing roles. Recent data shows averages around 60,000–65,000 RMB annually for factory/migrant workers there, or about 5,000 RMB/month including overtime.
 - **Living costs for similar standards**: Your 10,000 RMB/month in Guangzhou vs. 30,000 HKD in Hong Kong lines up well. Overall, Hong Kong's cost of living is 109% higher excluding rent (168% including), driven by sky-high housing and imports. Guangzhou is about 56–71% cheaper, so that factory worker's take-home goes further locally, but it doesn't close the raw income chasm.
@@ -22,6 +23,7 @@ You're spot on about the stark contrast—it's a classic example of how economic
 In short, one HK high-earner's year *does* roughly equal 25–30 years for a Guangzhou factory hand. Frustrating, right? Now, the deeper "why."
 
 #### Why Does the World Work Like This? The Big Picture
+
 Global income gaps like this aren't accidents—they're baked into how economies, history, and power structures evolve. Here's a simplified breakdown:
 
 1. **Productivity and Value Creation**:
@@ -51,6 +53,7 @@ In essence, the world "works" this way because systems prioritize efficiency and
 If you want to zoom in on fixes, migration stories, or comparisons to other spots (like US vs. Mexico), hit me up—it's a rabbit hole.
 
 #### References
+
 - [Survey results of 2024 Annual Earnings and Hours Survey released](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5692)
 - [What is the Average Salary in Hong Kong 2024?](https://www.livetecs.com/blog/hong-kong-average-salary-2024/)
 - [Factory Worker Salary in Guangzhou, China (2025)](https://www.erieri.com/salary/job/factory-worker/china/guangzhou)

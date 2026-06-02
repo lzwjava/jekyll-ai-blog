@@ -17,6 +17,7 @@ Answer:
 The GitHub Copilot extension in Visual Studio Code (VS Code) can become unresponsive or frozen on Windows due to several common issues, particularly when using features like the Chat view (with modes such as Ask for questions, Edit for code changes, or Agent for autonomous tasks). This often manifests as the interface hanging, requiring a full reload or new window to resolve, and prevents switching between modes because the extension host process becomes stuck. Based on user reports and official troubleshooting, here are the most likely causes and fixes:
 
 ### Common Causes
+
 - **Extension or VS Code Caching/Loading Issues**: Copilot's chat features rely on background processes for AI requests. If these get stuck (e.g., during long Agent mode tasks), the UI freezes. This is exacerbated when switching windows or tabs while an Agent task runs, as it interrupts the process.
 - **Outdated or Conflicting Versions**: Incompatible VS Code or Copilot versions can cause mode-switching to fail. For instance, recent updates (like VS Code 1.102+) have had bugs where the mode selector becomes unresponsive.
 - **Authentication or Subscription Limits**: If you're on the free Copilot plan, you may hit monthly chat limits, causing hangs. Token glitches or expired sessions also block features like Agent mode.
@@ -24,6 +25,7 @@ The GitHub Copilot extension in Visual Studio Code (VS Code) can become unrespon
 - **Agent Mode-Specific Bugs**: Agent mode is more resource-intensive and prone to infinite "Working..." loops, especially after interrupted tasks or with certain models (e.g., GPT variants). This doesn't affect simpler Ask mode.
 
 ### Troubleshooting Steps
+
 Try these in order—most users resolve it without reinstalling:
 
 1. **Quick Reloads**:
@@ -53,6 +55,7 @@ Try these in order—most users resolve it without reinstalling:
 If these don't help, collect diagnostics via `Ctrl+Shift+P` > "GitHub Copilot: Collect Diagnostics" and report on the [VS Code GitHub issues](https://github.com/microsoft/vscode/issues). For persistent freezes, temporarily disable other extensions to isolate conflicts.
 
 References:
+
 - [GitHub Copilot FAQ](https://code.visualstudio.com/docs/copilot/faq)
 - [Stack Overflow: GitHub Copilot not working suddenly](https://stackoverflow.com/questions/71806576/why-is-my-github-copilot-not-working-all-of-a-sudden)
 - [VS Code Issue: Unable to switch Copilot modes](https://github.com/microsoft/vscode/issues/260293)

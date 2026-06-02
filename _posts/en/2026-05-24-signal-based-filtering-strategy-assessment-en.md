@@ -26,6 +26,7 @@ It's a solid **signal-based filtering strategy** — essentially you're running 
 **Content calibration matters a lot.** If you post too advanced (DeepSeek V4 MoE internals), only 3 people respond but they're exactly who you want. If you post too accessible (what is an LLM), 30 people respond but most are noise. Since your goal is finding *LLM experts* specifically, bias toward harder content — let it filter naturally.
 
 **Response type signals depth.** Distinguish:
+
 - "Cool!" → noise
 - "What's n_routed_experts?" → curious learner, worth cultivating
 - "This is similar to Mixtral's router but the aux loss term differs..." → this is your person

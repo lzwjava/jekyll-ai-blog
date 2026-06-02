@@ -33,6 +33,7 @@ gpu-mi300x-snapshot-20260601 (ATL1, 30.62 GB)
 Once copied, you go to **Create Droplet → From Snapshot** in the target region and launch a new Droplet from it. This is how you **clone your MI300X environment** to another region if needed.
 
 **Key points:**
+
 - No additional cost to copy the snapshot across regions (you pay storage cost for the snapshot itself)
 - The copy is a full duplicate — not a delta/pointer
 - Transfer takes time proportional to snapshot size (your 30.62 GB could take several minutes)

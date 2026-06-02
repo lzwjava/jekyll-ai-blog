@@ -15,6 +15,7 @@ type: note
 To kill processes programmatically on Windows, you'll primarily use the `subprocess` module to invoke system commands like `taskkill`. The `signal` module is Unix-focused and doesn't handle process killing reliably on Windows (signals like SIGKILL aren't natively supported; `os.kill()` can send limited signals, but it's not ideal for full process termination). The `platform` module can help confirm you're on Windows for OS-specific behavior.
 
 #### Step 1: Install and Import Modules
+
 - `subprocess`, `signal`, and `platform` are part of the Python Standard Library, so no installation is needed.
 - Example imports:
 
@@ -25,6 +26,7 @@ import os  # For PID access, if needed
 ```
 
 #### Step 2: Detect Windows OS (Using `platform`)
+
 - Confirm the environment to avoid cross-platform issues:
 
 ```python
@@ -33,6 +35,7 @@ if platform.system() == 'Windows':
 ```
 
 #### Step 3: Killing a Process
+
 - To kill an existing process by its Process ID (PID) or name, use `taskkill` via `subprocess`. This is the reliable Windows-native way, as `subprocess.terminate()` or `.kill()` only works on processes you've launched with `subprocess.Popen`.
 - Example: Kill a process by PID (forcefully with `/F` flag). Replace `1234` with the actual PID.
 
@@ -63,6 +66,7 @@ kill_process_by_name('notepad.exe')
 ```
 
 #### Limitations and Notes
+
 - `subprocess` invokes external commands, so ensure your script has appropriate permissions (e.g., run as admin for system processes).
 - For a process launched via `subprocess.Popen`, use `.terminate()` (polite shutdown) or `.kill()` (forceful) directly:
 

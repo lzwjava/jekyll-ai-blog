@@ -32,4 +32,5 @@ type: note
 这篇文章直接反驳了 Gordon Gekko 的“贪婪是好事”的精神，认为在科技初创公司这个特定游戏中，正直是一种竞争优势。
 
 参考资料：
-- Paul Graham – Mean People Fail (原始 2004 年论文) → http://www.paulgraham.com/mean.html
+
+* Paul Graham – Mean People Fail (原始 2004 年论文) → <http://www.paulgraham.com/mean.html>

@@ -17,6 +17,7 @@ type: note
 《计算机程序的构造和解释》（Structure and Interpretation of Computer Programs，简称SICP）于1985年首次出版（第二版于1996年出版），被广泛认为是史上最伟大的编程入门书籍之一。它使用Scheme（Lisp的一种方言）作为教学语言，其重点不在于教授“如何用Scheme编码”，而在于程序设计的永恒原则和计算的本质。
 
 ### 核心信息与理念
+
 - **程序即过程（Programs as processes）**：本书教导读者计算机程序是计算过程的模型，理解抽象是掌握复杂性的关键。
 - **三大主题**贯穿始终：
   1. **抽象（Abstraction）**（构建隐藏细节的层）
@@ -58,6 +59,7 @@ type: note
    将高级抽象与硬件联系起来。
 
 ### 读者最常记住的关键要点
+
 - 当有适当的尾调用优化时，递归通常比迭代更简单、更优雅。
 - 高阶函数和闭包功能强大得令人难以置信。
 - 管理状态是大多数编程困难的根源。
@@ -67,9 +69,10 @@ type: note
 Paul Graham曾说过，他在15多年后仍然会重读这本书，每次都能学到新的东西。许多顶尖程序员（包括Reddit、ITA Software等公司的创始人）都将SICP视为深刻塑造他们思维方式的功臣。
 
 本书完整文本和视频讲座（传奇的麻省理工学院6.001课程）可在以下网址免费在线获取：
-https://mitpress.mit.edu/sites/default/files/sicp/index.html
+<https://mitpress.mit.edu/sites/default/files/sicp/index.html>
 
 参考资料：
+
 - [Structure and Interpretation of Computer Programs, 2nd Edition](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
 - [SICP Official MIT Site with HTML version and lectures](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
 - [Paul Graham on SICP](http://paulgraham.com/avg.html)

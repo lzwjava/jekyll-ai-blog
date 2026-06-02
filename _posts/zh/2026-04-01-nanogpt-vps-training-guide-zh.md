@@ -31,6 +31,7 @@ type: note
 ### ⚠️ 数据限制
 
 数据准备过程**中途被终止**。当前状态：
+
 - **Val**：100M tokens (1 shard) — full shard 0
 - **Train**：14M tokens (partial shard 1) — **仅约 1 个 shard 的 14%**
 - **完整数据集**：约 610 shards × 100M = **~61B tokens** (61GB raw text)
@@ -68,7 +69,7 @@ max_iters = 12000
 
 ## 🚀 如何传输到 GPU Droplet 并训练
 
-### Step 1 — 从 VPS 复制所有内容到您的机器/笔记本：
+### Step 1 — 从 VPS 复制所有内容到您的机器/笔记本
 
 ```bash
 # Copy the prepared data (only ~220MB for the sample)
@@ -81,7 +82,7 @@ scp -r root@159.89.216.20:/root/nanoGPT/* ./
 # Actually better to: pip install torch numpy tiktoken tqdm transformers
 ```
 
-### Step 2 — 在 GPU droplet 上：
+### Step 2 — 在 GPU droplet 上
 
 ```bash
 # Install deps
@@ -94,7 +95,7 @@ pip install torch numpy tiktoken tqdm transformers wandb
 python train.py config/train_fineweb.py
 ```
 
-### Step 3 — 监控：
+### Step 3 — 监控
 
 ```bash
 # Watch loss
@@ -121,6 +122,7 @@ python prepare_fineweb.py
 ```
 
 但**更快** — 直接在 GPU droplet 上准备：
+
 ```bash
 # On GPU droplet — just link the raw file and run prepare.py there
 ln -sf /path/to/fineweb_extracted_all.txt ./data/fineweb/train_fineweb.txt

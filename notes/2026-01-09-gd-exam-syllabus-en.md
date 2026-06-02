@@ -40,6 +40,7 @@ The exam allocates marks across different cognitive levels: 30% for basic recall
 ### **Question Types**
 
 Common question formats include:
+
 - Single choice questions
 - Fill-in-the-blank questions
 - Short answer questions

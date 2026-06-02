@@ -51,6 +51,7 @@ python script_name.py path/to/your/xml_file.xml
 ```
 
 The script will:
+
 1. Use `argparse` to handle the command-line argument for the file path
 2. Parse the XML file to find all `<c:look>` tags
 3. Extract and print the numbers inside these tags

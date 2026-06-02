@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-## ✅ GPU Test Training Complete!
+## ✅ GPU Test Training Complete
 
 **GPU droplet confirmed working** — 100 iterations in seconds, loss dropped 10.84 → 8.72 on the H200.
 
@@ -18,6 +18,7 @@ type: note
 ## 📋 Full Situation Summary
 
 ### 🔄 61GB Transfer (in progress)
+
 ```
 VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp───►  GPU Droplet
        61GB                      823MB / 61GB                  waiting
@@ -49,10 +50,12 @@ VPS (159.89.216.20)  ───scp───►  My Server (/tmp)  ───scp─
 ## 🐌 Transfer Speed Issue
 
 The VPS is only pushing ~200MB/min because it's:
+
 - 1 vCPU reading from possibly slow disk
 - Network bandwidth to my server
 
 **Alternatives to speed up:**
+
 1. **Direct VPS → GPU droplet** transfer (once SSH keys sorted)
 2. **Resume the transfer** on GPU droplet directly from VPS
 3. **Wait it out** — 5 hours is not terrible

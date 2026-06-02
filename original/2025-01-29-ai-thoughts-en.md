@@ -32,7 +32,6 @@ type: post
    - Human feedback refines imperfect AI outputs
    - Prompt optimization beats output correction
 
-
 ## AI Thoughts
 
 *Last updated in August 2025*
@@ -105,7 +104,6 @@ type: post
 
 - [How I Live Well in the AI and Blockchain Era](./ai-blockchain-en)
 
-
 ---
 
 ## New Platforms Powered by AI Workflows
@@ -127,7 +125,6 @@ type: post
 - In any text, image, audio, or video on the platform, AI can assist in generating, refining, enhancing, fixing, summarizing, expanding, converting to other formats, or imagining new forms of the content.
 
 - Users can customize the platform using keywords like "English" or "funny" to adjust the style of AI workflows in platforms like TikTok. Once set, the AI will tailor content accordingly.
-
 
 ---
 

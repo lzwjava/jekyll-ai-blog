@@ -19,6 +19,7 @@ Here are additional details on the financial systems used by Chinese banks for w
 Avaloq is a specialized wealth management and private banking platform with strong integrated core banking, portfolio management, fund distribution, advisory tools, trading execution, compliance, and client onboarding features. In China, domestic vendors dominate due to regulatory requirements (e.g., data localization, tech self-reliance), massive scale, and integration with local ecosystems like Ant Group, Tencent, exchanges (SSE/SZSE), and wealth platforms.
 
 ### Leading Domestic Vendors (Updated 2025-2026 Landscape)
+
 Sunline remains the standout modern equivalent for integrated wealth and investment functions in many Chinese banks:
 
 - **Sunline (Shenzhen Sunline Tech)**
@@ -39,23 +40,27 @@ Sunline remains the standout modern equivalent for integrated wealth and investm
   - Capabilities: Comprehensive core with wealth management support; recent partnerships like MUFG Bank (China) for next-gen core (2024 onward). Includes modules for investment products and integration with securities/trading platforms.
 
 Other notable vendors for wealth/investment/trading support:
+
 - **Hundsun Technologies** — Strong in securities, asset management, and fund systems; widely used for mutual fund back-office, trading platforms, and wealth tech.
 - **Neusoft, iSoftStone, Yonyou** — Provide specialized wealth management, asset management, and fintech solutions integrated with cores.
 - **Tencent Cloud Financial Services / Huawei Cloud** — Often partner with above vendors for cloud-based wealth/digital banking (e.g., Sunline-Huawei distributed cores).
 
 ### Mutual Funds and Wealth Management Specifics
+
 - Chinese banks distribute mutual funds, structured wealth management products (WMPs), private funds, and insurance-linked investments via in-app platforms, branches, or subsidiaries.
 - Many use vendor cores (e.g., Sunline) for backend processing, NAV calculations, subscriptions/redemptions, and compliance.
 - Front-end often integrates with third-party platforms: Ant Fortune (Alipay-linked, dominant for retail funds), Tencent Wealth (WeChat Pay-linked), or bank apps.
 - For private/wealth management: Banks like China Merchants Bank, ICBC, or Ping An use customized modules or in-house + vendor solutions for high-net-worth advisory, portfolio management, and cross-border products (via QDII/QFII). Foreign-invested banks (e.g., HSBC China) may use global platforms localized.
 
 ### Trading and Securities Support
+
 - Commercial banks do not directly broker equities (restricted to securities firms like CITIC Securities, Haitong).
 - Banks support bond trading (via CFETS interbank), fund trading, forex, and structured products.
 - Integration via domestic middleware or vendor APIs to SSE/SZSE, Bond Connect, Stock Connect.
 - Vendors like Sunline/Hundsun provide treasury/foreign exchange modules and trading interfaces.
 
 ### International Platforms in China
+
 - Avaloq itself is used by some (e.g., China CITIC Bank International, Haitong International for private wealth in Hong Kong; Agricultural Bank of China Hong Kong branch historically).
 - Mostly limited to offshore/Hong Kong entities or foreign banks in China. Mainland onshore operations favor domestic vendors.
 

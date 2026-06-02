@@ -11,11 +11,13 @@ type: note
 是的，创建 GitHub 组织确实是托管额外 GitHub Pages 站点并获取唯一 `*.github.io` 子域的有效方式，因为每个组织都可以拥有独立的 `organization.github.io` 站点，与您的个人 `username.github.io` 站点互不干扰。以下是具体操作方法和注意事项：
 
 ### 核心要点
+
 - **个人账户限制**：每个 GitHub 用户账户只能拥有一个用户站点，托管在 `username.github.io`，且必须绑定名为 `username.github.io` 的仓库。若已使用该功能，则无法在同一账户下创建其他 `*.github.io` 子域。
 - **组织站点**：每个 GitHub 组织同样可拥有组织站点，通过创建名为 `organization.github.io` 的仓库即可获得 `organization.github.io` 子域。通过设立多个组织，即可创建更多 `*.github.io` 子域。
 - **项目站点**：虽然用户和组织账户均可通过其他仓库托管多个项目站点（如 `username.github.io/project` 或 `organization.github.io/project`），但这些均为子路径而非子域。若需真正的子域（如 `sub.example.github.io`），则必须使用自定义域名，因为 GitHub 不支持在 `github.io` 下创建自定义子域。
 
 ### 通过创建 GitHub 组织获取额外 `*.github.io` 子域的步骤
+
 1. **创建 GitHub 组织**：
    - 登录 GitHub 账户
    - 点击右上角 "+" 图标选择 **New organization**
@@ -35,6 +37,7 @@ type: note
 4. **添加内容**：
    - 在发布分支中添加 `index.html` 文件或使用静态站点生成器（如 Jekyll）
    - 提交并推送更改，例如：
+
      ```bash
      git clone https://github.com/myorg/myorg.github.io
      cd myorg.github.io
@@ -43,6 +46,7 @@ type: note
      git commit -m "Initial commit"
      git push origin main
      ```
+
    - 访问 `https://myorg.github.io` 验证站点是否生效
 
 5. **重复操作获取更多子域**：
@@ -50,6 +54,7 @@ type: note
    - 每个组织均可拥有一个 `*.github.io` 子域，只要创建足够多的组织即可获得大量子域
 
 ### 限制与注意事项
+
 - **github.io 上的自定义子域**：无法直接通过 GitHub Pages 创建类似 `sub.myorg.github.io` 的子域。`github.io` 域名由 GitHub 管理，仅支持 `username.github.io` 或 `organization.github.io` 格式。若需使用自定义子域（如 `blog.example.com`），必须拥有自定义域名并通过 DNS 设置（CNAME 记录）指向 `myorg.github.io`
 - **单仓库对应单子域**：每个 `*.github.io` 子域仅能绑定一个仓库（`username.github.io` 或 `organization.github.io`）。若需从单一仓库提供多个子域服务，必须使用自定义域名并借助额外托管或代理服务
 - **管理开销**：每个组织都需要独立管理（成员、权限、计费等），请确保能够妥善管理多个组织
@@ -57,7 +62,9 @@ type: note
 - **私有仓库**：私有仓库的 GitHub Pages 功能需要 GitHub Pro、Team 或 Enterprise 计划。若使用免费计划，请确保 `myorg.github.io` 仓库为公开状态
 
 ### 多子域替代方案
+
 若需要在单一自定义域名下配置多个子域（如 `blog.example.com`、`shop.example.com`）：
+
 1. 从域名注册商（如 Namecheap 或 GoDaddy）购买自定义域名（如 `example.com`）
 2. 在组织中创建多个仓库（如 `myorg/blog`、`myorg/shop`）
 3. 为每个仓库启用 GitHub Pages，并在各自的 **Pages** 设置中配置自定义域名（如 `blog.example.com` 和 `shop.example.com`）
@@ -65,12 +72,14 @@ type: note
 5. 需注意 GitHub Pages 原生不支持从单一仓库提供多子域服务，可能需要 CDN 或反向代理等外部服务
 
 ### 示例场景
+
 - 已使用 `username.github.io` 作为个人站点
 - 创建名为 `myorg` 的组织及 `myorg.github.io` 仓库，获得 `myorg.github.io`
 - 创建名为 `myorg2` 的组织及 `myorg2.github.io` 仓库，获得 `myorg2.github.io`
 - 若需自定义子域：拥有 `example.com` 域名后，通过 CNAME 记录设置 `blog.example.com`（指向 `myorg.github.io`）和 `shop.example.com`（指向 `myorg2.github.io`）
 
 ### 最终提醒
+
 - 创建多个组织是获取额外 `*.github.io` 子域最直接的方式，无需自定义域名
 - 若需要真实子域（如 `sub.myorg.github.io`），必须使用自定义域名并进行 DNS 配置，因为 GitHub 的 `github.io` 不原生支持此功能
 - 始终验证自定义域名以避免域名被劫持等安全风险

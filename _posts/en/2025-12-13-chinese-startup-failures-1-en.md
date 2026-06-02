@@ -34,8 +34,8 @@ These reinforce patterns: subsidy wars eroding margins, copycat models in crowde
 
 References:
 
-- https://www.cbinsights.com/research/biggest-startup-failures/
-- https://technode.com/2017/01/06/heres-what-you-can-learn-from-chinas-biggest-startup-failures-of-2016/
-- https://ventureburn.com/2015/11/20-startups-from-asia-that-failed-in-2015-and-lessons-learned/
-- https://www.chinamoneynetwork.com/2020/12/04/chinas-startup-death-toll-2020-nearly-1000-failed-projects
-- https://www.statista.com/statistics/1169388/the-most-expensive-startup-failures-by-amount-of-funding/
+- <https://www.cbinsights.com/research/biggest-startup-failures/>
+- <https://technode.com/2017/01/06/heres-what-you-can-learn-from-chinas-biggest-startup-failures-of-2016/>
+- <https://ventureburn.com/2015/11/20-startups-from-asia-that-failed-in-2015-and-lessons-learned/>
+- <https://www.chinamoneynetwork.com/2020/12/04/chinas-startup-death-toll-2020-nearly-1000-failed-projects>
+- <https://www.statista.com/statistics/1169388/the-most-expensive-startup-failures-by-amount-of-funding/>

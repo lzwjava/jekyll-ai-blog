@@ -16,17 +16,20 @@ type: note
 ## 选项 A：配备 Linux Mint 的 Lenovo 笔记本电脑（你已经尝试过的）
 
 ### ✅ 优势
+
 - **x86 full-power CPU** — natively runs Clash/Mihomo with Hysteria2，无架构问题
 - **更多 RAM 和存储** — 无软件包大小限制
 - **更容易调试** — 完整的 Linux 工具集（`tcpdump`、`nftables`、`journalctl` 等）
 - **你已经完成 95%** — 你粘贴的摘要显示架构完全正确。只剩下一步：iPad 续订 DHCP 租约以获取新的 DNS（`192.168.201.1`）
 
 ### ❌ 劣势
+
 - 2013 年的 Lenovo 笔记本电脑 **功耗很高** 24/7 运行（~30–60W vs 路由器的 5–10W）
 - iPad 的 USB 共享是权宜之计，不是干净的网络拓扑
 - 不是“设置即忘”的设备 — 笔记本电脑可能休眠、合盖问题等
 
 ### 对你一夜尝试的评估
+
 你很可能 **没有失败** — 只差一步。iPad 只需要续订 DHCP 租约。整个架构（DHCP → dnsmasq → Clash DNS → fake-IP → TUN → Hysteria2）构建正确。
 
 ---
@@ -34,18 +37,21 @@ type: note
 ## 选项 B：Xiaomi 路由器配备 OpenWrt
 
 ### ✅ 优势
+
 - 干净、永久的路由器角色 — 始终开启，低功耗
 - 家中所有设备通过 Wi-Fi/LAN 自然连接，无需 USB 共享
 - OpenWrt 通过 `openwrt-passwall` LuCI 应用支持 Hysteria2，一旦知道路径，安装就很直接
 - 还有一个名为 OpenWrt-nikki（Mihomo/Clash Meta）的项目，专为 OpenWrt 的透明代理设计，更现代且积极维护
 
 ### ❌ 劣势
+
 - **MIPS/ARM 路由器 RAM 有限**（通常 128–256MB）— Clash Meta 带大量规则可能超出限制
 - OpenWrt 软件包生态受限 — 出错时更难调试
 - 你之前的经验显示配置困难 — 不过借助 AI 协助现在更可行
 - 某些 Xiaomi 型号需要特定的刷机程序
 
 ### 关于你的特定 Xiaomi 路由器
+
 答案取决于 **具体型号**。基于 MediaTek 平台的路由器最适合 OpenWrt，因为 MediaTek 向社区提供其 Wi-Fi 模块的开源驱动。如果你的 Xiaomi 使用 MediaTek 芯片组（如 MT7621、MT7622、MT7981），支持很稳固。
 
 ---
@@ -63,11 +69,13 @@ type: note
 ```
 
 具体来说：
+
 1. **保留 Xiaomi 作为主 Wi-Fi 路由器**（它为整个家庭处理 DHCP）
 2. **在 Lenovo 笔记本电脑上运行 Clash + Hysteria2**，作为 LAN 上的透明代理网关
 3. **在 Xiaomi 的 DHCP 设置中**，将 Lenovo 的 IP 推送到所有客户端作为默认网关和 DNS（option 3 和 option 6）
 
 这样：
+
 - iPad、手机、PC 都会自动代理 — 无需 USB 共享
 - Lenovo 处理 Clash 规则匹配的重任
 - Xiaomi 干净地处理 Wi-Fi 和路由
@@ -106,6 +114,7 @@ sudo systemctl restart dnsmasq
 ```
 
 然后测试：
+
 ```bash
 nslookup google.com 192.168.201.1   # should return 198.18.x.x (fake-IP)
 curl https://api.ipify.org           # should show your LA server IP

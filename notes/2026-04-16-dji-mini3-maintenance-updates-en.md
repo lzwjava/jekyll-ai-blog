@@ -67,7 +67,7 @@ The DJI Fly app **does need updates**:
 
 This part you mentioned is very real.
 
-### What happens:
+### What happens
 
 * QuickTransfer relies on **direct Wi-Fi connection** between phone and drone
 * After time:
@@ -76,7 +76,7 @@ This part you mentioned is very real.
   * Auto-connect may fail
   * You must **manually connect to drone Wi-Fi**
 
-### Typical fixes:
+### Typical fixes
 
 * Reset Wi-Fi on drone (hold power button)
 * Manually enter password (shown in app or drone)
@@ -106,7 +106,7 @@ You mentioned “align vertically/horizontally”—this refers to:
     * “IMU error”
     * “Compass interference”
 
-### Good news:
+### Good news
 
 * DJI automates most of this
 * You only recalibrate when prompted
@@ -119,7 +119,7 @@ You mentioned “align vertically/horizontally”—this refers to:
 
 Yes—this has become **much stricter**, especially in big cities.
 
-### Typical rules (vary by city):
+### Typical rules (vary by city)
 
 * **Altitude limits**:
 
@@ -133,7 +133,7 @@ Yes—this has become **much stricter**, especially in big cities.
 * **Real-name registration required**
 * Some areas require **pre-approval**
 
-### DJI enforcement:
+### DJI enforcement
 
 * Built-in **geofencing**
 * App may:

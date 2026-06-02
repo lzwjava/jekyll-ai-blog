@@ -25,7 +25,7 @@ If you need STP in a bridged setup on macOS, third-party tools or virtualized sw
 
 **References:**
 
-- https://discussions.apple.com/thread/3917712
-- https://www.reddit.com/r/osx/comments/4vytnj/spanning_tree_protocol_stp_still_a_problem_w_os_x/
-- https://vowe.net/archives/012469.html
-- https://discussions.apple.com/thread/2143359
+- <https://discussions.apple.com/thread/3917712>
+- <https://www.reddit.com/r/osx/comments/4vytnj/spanning_tree_protocol_stp_still_a_problem_w_os_x/>
+- <https://vowe.net/archives/012469.html>
+- <https://discussions.apple.com/thread/2143359>

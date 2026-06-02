@@ -66,13 +66,13 @@ http://mydashboard.local:3001/dashboard
 
 有时更改会立即生效，但如果没有：
 
-### macOS：
+### macOS
 
 ```bash
 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 ```
 
-### Linux（如果使用 systemd-resolved）：
+### Linux（如果使用 systemd-resolved）
 
 ```bash
 sudo systemd-resolve --flush-caches

@@ -19,6 +19,7 @@ Answer:
 It is widely regarded as the most influential work on military strategy ever written and remains one of the most studied texts in both military and non-military contexts worldwide.
 
 ### Core Information
+
 - **Author**: Sun Tzu (孙子 / Master Sun)
 - **Time**: ≈ 544–496 BCE (traditional dates)
 - **Length**: 13 short chapters (about 6,000 Chinese characters in total)
@@ -26,6 +27,7 @@ It is widely regarded as the most influential work on military strategy ever wri
 - **Earliest known copy**: Bamboo slips from Yinqueshan Han Slips (银雀山汉简), dated ~134–118 BCE
 
 ### The 13 Chapters
+
 1. **Laying Plans** (始计篇) — Five factors and seven calculations
 2. **Waging War** (作战篇) — Cost of war, speed is essential
 3. **Attack by Stratagem** (谋攻篇) — Supreme excellence is subduing the enemy without fighting
@@ -41,6 +43,7 @@ It is widely regarded as the most influential work on military strategy ever wri
 13. **Use of Spies** (用间篇) — Five kinds of spies, importance of intelligence
 
 ### Most Famous Quotes
+
 - “The supreme art of war is to subdue the enemy **without fighting**.”
 - “All warfare is based on **deception**.”
 - “Know the enemy and know yourself; in a hundred battles you will **never be in peril**.”
@@ -48,6 +51,7 @@ It is widely regarded as the most influential work on military strategy ever wri
 - “Opportunities multiply as they are seized.”
 
 ### Core Philosophical Ideas
+
 1. **War is extremely costly** → win quickly or avoid if possible
 2. **Winning without fighting** is the highest form of victory
 3. **Deception and misdirection** are central
@@ -57,9 +61,11 @@ It is widely regarded as the most influential work on military strategy ever wri
 7. **Speed, surprise, momentum** beat brute force
 
 ### Modern Influence (non-military)
+
 The book is now read far more in **business, politics, sports, negotiation, game theory, startups, leadership, and even dating / self-improvement** than in actual military academies.
 
 Popular modern interpretations:
+
 - Business strategy (e.g. “The Art of War for Managers”)
 - Competitive strategy (Silicon Valley, startups, investment)
 - Negotiation & sales
@@ -71,4 +77,5 @@ In one sentence:
 《孙子兵法》 is not mainly a book about how to fight wars — it is a book about **how to win before the battle even begins**, and how to achieve maximum results with minimum cost and risk.
 
 References:
+
 - None (classic public domain text, widely available in multiple translations)

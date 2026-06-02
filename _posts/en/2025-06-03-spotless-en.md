@@ -17,6 +17,7 @@ Below, I’ll explain how to format code based on your Checkstyle configuration 
 The Spotless Maven Plugin can format Java code according to a Checkstyle configuration file (e.g., `checkstyle.xml`). Here’s how to set it up:
 
 #### 1. Add Spotless to Your `pom.xml`
+
 Add the Spotless plugin to your `pom.xml` and configure it to use your Checkstyle configuration file.
 
 ```xml
@@ -56,9 +57,11 @@ Add the Spotless plugin to your `pom.xml` and configure it to use your Checkstyl
 ```
 
 #### 2. Ensure Your Checkstyle Configuration Exists
+
 Make sure you have a `checkstyle.xml` file in your project (e.g., in the root directory or a subdirectory). This file defines the coding standards (e.g., indentation, whitespace, etc.) that Spotless will use to format your code. If you’re using a standard like Google Java Format, you can reference it, or use a custom Checkstyle configuration tailored to your project.
 
 Example `checkstyle.xml` snippet for basic formatting rules:
+
 ```xml
 <?xml version="1.0"?>
 <!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN" "https://checkstyle.sourceforge.io/dtds/configuration_1_3.dtd">
@@ -73,7 +76,9 @@ Example `checkstyle.xml` snippet for basic formatting rules:
 ```
 
 #### 3. Run Spotless to Format Code
+
 To format your code based on the Checkstyle configuration, run:
+
 ```bash
 mvn spotless:apply
 ```
@@ -81,9 +86,11 @@ mvn spotless:apply
 This command will format all Java files in your project according to the rules defined in your Checkstyle configuration and any additional formatting settings (e.g., Google Java Format).
 
 #### 4. Verify Formatting with Checkstyle
+
 After formatting, you can run `mvn checkstyle:check` to verify that the formatted code complies with your Checkstyle rules. If you followed the previous advice to set `<failOnViolation>false</failOnViolation>`, it will report any remaining violations without stopping the build.
 
 ### Alternative: Maven Formatter Plugin
+
 If you prefer not to use Spotless, you can use the **Maven Formatter Plugin**, which also supports formatting based on rules but is less commonly used with Checkstyle configurations directly. Here’s a basic setup:
 
 ```xml
@@ -109,11 +116,13 @@ If you prefer not to use Spotless, you can use the **Maven Formatter Plugin**, w
 ```
 
 Run the formatting with:
+
 ```bash
 mvn formatter:format
 ```
 
 ### Notes
+
 - **No Direct Checkstyle Format Command**: The Checkstyle Maven Plugin does not provide a `format` goal. Tools like Spotless or the Formatter Plugin are needed to apply formatting based on Checkstyle rules.
 - **Checkstyle Version Compatibility**: Ensure the Checkstyle version specified in Spotless (or Formatter) matches the version used in your Checkstyle plugin to avoid rule mismatches.
 - **Custom Checkstyle Rules**: Your `checkstyle.xml` must include formatting-related rules (e.g., `Indentation`, `WhitespaceAround`, etc.) for Spotless to apply them correctly.

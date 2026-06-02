@@ -71,7 +71,7 @@ def call_openrouter_api_with_messages(
         print(f"Request Data: {data}")
 
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(url, headers=headers, json=data, timeout=30)
         if debug:
             print(f"Response Status Code: {response.status_code}")
             print(f"Response Text: {response.text}")

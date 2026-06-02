@@ -18,9 +18,11 @@ The template emits keys in this order: `audio, generated, image, lang, layout, t
 
 **2. `prompt` was added by hand later, appended after `title`.**
 At some point you (or an editor) added the translation hint:
+
 ```
 prompt: Do not translate specific items such as project names...
 ```
+
 right after `title:`. Alphabetically `prompt` belongs between `layout` and `title`, not after it. That single hand-edit broke the ordering — and it's why the test flags exactly one misplaced key (`title` appearing where `prompt` should be).
 
 **Why translated copies don't fail this test:**

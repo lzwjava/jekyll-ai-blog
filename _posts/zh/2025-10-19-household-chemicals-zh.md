@@ -33,6 +33,7 @@ type: note
 这些化学制剂是全球家庭中的常备品，通常以稀释形式确保安全。使用时请务必查看标签上的浓度说明和通风要求。
 
 ### 参考资料
+
 - [家居中常见的14种化学制剂](https://www.chemicals.co.uk/blog/14-common-chemicals-found-in-the-home)
 - [日常生活中使用的26种化学制剂](https://www.pure-chemical.com/blog/list-of-chemicals-in-daily-life/)
 - [家用化学制剂（维基百科）](https://en.wikipedia.org/wiki/Household_chemicals)

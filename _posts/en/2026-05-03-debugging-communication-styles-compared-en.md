@@ -29,7 +29,7 @@ This is:
 * Assumes context
 * Focused on commands
 
-### Example characteristics:
+### Example characteristics
 
 * “Option 1 / Option 2”
 * Direct CLI commands
@@ -88,14 +88,14 @@ This is:
 
 # 4) When each is better
 
-## Use Claude Code style when:
+## Use Claude Code style when
 
 * You are already familiar with the tool
 * You want fast fixes
 * You are in a production/debug loop
 * You just want “what commands fix it”
 
-## Use detailed style when:
+## Use detailed style when
 
 * First time seeing the error
 * System is complex or unfamiliar

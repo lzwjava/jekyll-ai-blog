@@ -104,7 +104,7 @@ In AI terms:
 
 ---
 
-### A more precise statement would be:
+### A more precise statement would be
 
 > Tesla has the strongest **data advantage and deployment scale**,
 > but not necessarily the strongest **overall autonomous driving capability**.

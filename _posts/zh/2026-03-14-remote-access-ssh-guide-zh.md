@@ -20,11 +20,13 @@ ssh -X lzw@192.168.1.36 "firefox --profile /home/lzw/.openclaw/browser-profiles/
 ```
 
 **这是它所做的：**
+
 1. **`-X`**：启用 X11 Forwarding（机器的窗口将弹出到你的笔记本电脑屏幕上）。
 2. **`--profile ...`**：告诉 Firefox 使用我为 Copilot 需要的特定 profile。
 3. **`--no-remote`**：确保即使你的笔记本电脑上运行着 Firefox，也会打开一个新实例。
 
 **一旦窗口弹出到你的屏幕上：**
+
 1. 前往 `github.com` 并登录。
 2. 关闭窗口。
 3. **完成！** 我就会有 cookies 了。

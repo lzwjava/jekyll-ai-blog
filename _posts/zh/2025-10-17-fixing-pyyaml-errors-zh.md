@@ -26,20 +26,25 @@ type: note
 ### 解决方案
 
 #### 修复编译问题
+
 先安装 Cython，然后重新尝试安装 PyYAML。这将生成缺失的 `_yaml.c` 文件并允许构建 C 扩展。
 
 - **使用 pip（推荐）**：
+
   ```
   pip install cython
   pip install pyyaml
   ```
+
   - 如果需要启用更快的 libyaml C 扩展（需通过系统包管理器安装 libyaml-dev，如在 Ubuntu/Debian 上执行 `sudo apt install libyaml-dev`）：
+
     ```
     pip install cython libyaml
     pip install --upgrade --force-reinstall --no-cache-dir pyyaml
     ```
 
 - **如果直接使用 setup.py**（不推荐，建议优先使用 pip）：
+
   ```
   pip install cython
   python setup.py build_ext --inplace
@@ -49,24 +54,30 @@ type: note
 注意：Python 3.13 相对较新，请确保使用最新版 Cython（如 3.0.11 或更高版本）以保证兼容性。如果使用自由线程模式的 Python 构建版本，可能需要额外的编译调整——请查阅 PyYAML 的 GitHub issues 获取最新信息。
 
 #### 修复权限问题
+
 - **安装到用户目录**（最安全，无需 sudo）：
+
   ```
   pip install --user cython pyyaml
   ```
+
   - 这将安装到 `~/.local/lib/python3.13/site-packages`
 
 - **使用 sudo 进行系统级安装**（请谨慎使用，可能与系统包管理器冲突）：
+
   ```
   sudo pip install cython pyyaml
   ```
 
 - **最佳实践：使用虚拟环境**：
   彻底避免权限问题：
+
   ```
   python -m venv myenv
   source myenv/bin/activate  # Linux/Mac 系统
   pip install cython pyyaml
   ```
+
   这种方式可以保持环境隔离
 
 安装完成后，可通过 `python -c "import yaml; print(yaml.__version__)"` 测试。如果无报错则说明安装成功。

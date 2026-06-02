@@ -27,6 +27,7 @@ class NodeResultState(str, Enum):
 ```
 
 A node only gets `DROP` when **both** are set together:
+
 ```python
 self.node.status = NodeStatus.PRUNED_BY_RULE
 self.node.result_state = NodeResultState.DROP
@@ -38,6 +39,7 @@ self.node.fsm_state = FSMState.FINALIZED   # no further transitions
 ### Where DROP is triggered
 
 **1. During `calculate` stage** (`builder.py:295-310`) — `tot_hard_rule_check` from `skills.py` returns `physical_violations`:
+
 ```python
 if not hard_rule_result["passed"]:
     if physical_violations:
@@ -45,6 +47,7 @@ if not hard_rule_result["passed"]:
 ```
 
 **2. During `evaluate` stage** (`builder.py:396-416`) — the evaluation breakdown itself contains `hard_rule_violations`:
+
 ```python
 if breakdown.hard_rule_violations:
     → status = PRUNED_BY_RULE, result_state = DROP

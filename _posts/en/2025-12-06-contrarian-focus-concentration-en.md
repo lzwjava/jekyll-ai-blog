@@ -43,6 +43,7 @@ Here are several genuinely unpopular or counter-mainstream opinions about focus 
 These opinions are unpopular because they threaten the multi-billion-dollar productivity industry that sells the fantasy of effortless monk-like focus through apps, courses, and journals.
 
 References:
+
 - [Multitasking Can Improve Performance (Paul & Mayer, 2021)](https://psycnet.apa.org/record/2021-37042-001)
 - [The Rise and Fall of Deep Work (Newport critics roundup)](https://www.calnewport.com/blog/2023/02/15/on-deep-work-criticism/)
 - [ADHD Overdiagnosis Meta-Analysis (Kazda et al., 2023)](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2804629)

@@ -85,11 +85,13 @@ int main() {
 ```
 
 To compile and run this code, you'll need:
+
 1. NVIDIA GPU with CUDA support
 2. CUDA Toolkit installed
 3. Compile with: `nvcc vector_add.cu -o vector_add`
 
 This example demonstrates the most fundamental CUDA operations:
+
 - `__global__` kernel definition
 - Manual memory allocation with `cudaMalloc`
 - Explicit memory transfers with `cudaMemcpy`
@@ -98,6 +100,7 @@ This example demonstrates the most fundamental CUDA operations:
 - Memory cleanup
 
 Key low-level aspects:
+
 1. Direct memory management without using CUDA runtime helpers
 2. Manual thread/block configuration
 3. Explicit device synchronization
@@ -105,6 +108,7 @@ Key low-level aspects:
 5. No high-level abstractions or libraries
 
 The kernel uses the basic CUDA thread hierarchy:
+
 - `blockIdx.x`: Block index
 - `blockDim.x`: Threads per block
 - `threadIdx.x`: Thread index within block
@@ -112,6 +116,7 @@ The kernel uses the basic CUDA thread hierarchy:
 This calculates a unique thread ID for each element and performs the addition only if within bounds. The example keeps it simple but shows the core concepts of CUDA programming at a low level.
 
 Output will show the first 10 results, like:
+
 ```
 0.000000 + 0.000000 = 0.000000
 1.000000 + 2.000000 = 3.000000

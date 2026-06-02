@@ -22,7 +22,7 @@ According to the information from multiple sources:
 
 3. **实践考核的报考条件**: For practical assessments, candidates can only apply to the main examination school after passing the relevant theoretical courses specified in the professional examination plan.
 
-## Important considerations:
+## Important considerations
 
 - **Prerequisites matter**: You need to have passed the related theory courses before you can register for practical exams
 - **Time conflicts**: Be aware that exam schedules might overlap, so check the actual exam dates carefully

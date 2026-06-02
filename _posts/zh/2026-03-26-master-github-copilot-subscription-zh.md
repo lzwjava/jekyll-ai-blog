@@ -44,21 +44,25 @@ Copilot Pro 每月 10 美元，包含 300 次 premium requests。Pro+ 每月 39 
 你在个人使用中建立的技能和知识可以**直接转化**到企业用途。具体包括：
 
 #### 1. `settings.json` 精通
+
 按体验区域（editor completions、chat、agents 和 workflow）对 Copilot settings 进行分组，并了解 **workspace settings**（策略/强制执行）与 **user settings**（个人偏好）之间的区别至关重要。保留一份带有注释的基准 JSON 可以让团队成员比对有意的更改。
 
 最简单且被广泛采用的方法是将 VS Code workspace 配置文件直接通过 `.vscode/settings.json` 文件提交到你的 repository。当项目文件夹打开时，这些 workspace settings 会覆盖用户偏好。
 
 #### 2. Custom Instructions 与 Prompt Engineering
+
 为你的整个 codebase 创建标准化的 custom instructions，确保每个 Copilot 建议都遵循你团队确切的 coding standards，从而生成符合你的 style guide 的建议，而无需手动修正。
 
 这些知识是**完全可移植的**——你在个人项目中养成习惯，在工作中使用它。
 
 #### 3. Agent Skills（可移植标准）
+
 Agent Skills 是一个**开放标准**，支持跨不同 AI agents 的可移植性。你在 VS Code 中创建的 skills 可以与 VS Code 中的 GitHub Copilot、GitHub Copilot CLI 以及 GitHub Copilot coding agent 配合使用。
 
 在个人环境下掌握 skill 文件（`.vscode/`，`SKILL.md`），可以让你将这些相同的文件带入企业级 repos。
 
 #### 4. MCP Server 配置
+
 MCP servers 配置在 `.vscode/mcp.json`（workspace）或用户配置文件 `mcp.json` 中。组织可以通过 GitHub policies 集中管理 MCP server 访问权限，这需要 Copilot Business 或 Enterprise 计划。
 
 在个人环境下了解 MCP 配置意味着你清楚地知道在企业环境中哪些是可用的，哪些是被屏蔽的。

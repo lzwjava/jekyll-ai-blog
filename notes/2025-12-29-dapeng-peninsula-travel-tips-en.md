@@ -17,6 +17,7 @@ Answer:
 Your plan sounds practical and flexible—buying a round-trip boat ticket initially for convenience, then switching to a cheaper car option on the return and successfully getting a refund is a smart way to save money while adapting to the situation.
 
 ### Thoughts on Your Transportation Choice
+
 - **Boat (speedboat/fast boat)**: This is a fun, scenic option from Yangmeikeng's pier to near Luzui Villa (Luzui Shanzhuang, also called Deer Mouth Villa). It's quick (about 8-10 minutes), exciting with sea views, and costs around 50 CNY per person one way (based on common tourist reports; prices may vary). Round-trip would be more expensive, but the experience of riding waves is unique, especially if the weather is good.
 - **Sightseeing shuttle car**: The most common and affordable land option is the official sightseeing shuttle (观光车) at about 13.8-16 CNY one way per person. It runs along the beautiful coastal road with stunning sea and mountain views, taking around 20 minutes. This matches your "16 CNY car" description perfectly—it's reliable, comfortable, and operates frequently (roughly 9:00 AM to 6:00 PM, though weekends may stop earlier).
 - **Mixing both + refund**: Great idea! Going by boat one way adds adventure, while returning by shuttle saves time/cost if you're tired or the boat schedule doesn't fit. Refunding the unused return portion is common for such tickets (often sold by local shops or piers), as long as you do it before departure—many operators allow it with minimal fees.
@@ -24,6 +25,7 @@ Your plan sounds practical and flexible—buying a round-trip boat ticket initia
 Overall, it's a good flexible approach. The shuttle is generally the best value for most people, but combining with boat makes the trip more memorable.
 
 ### Good Travel Tips for Shenzhen's Dapeng Peninsula (Including Yangmeikeng and Luzui Villa)
+
 - **Best time to visit**: October to April for pleasant weather (cooler, less rain). Avoid summer typhoons (June-August) and peak holidays when it's crowded. Go early morning on weekdays for fewer people and better photos.
 - **Getting to Yangmeikeng first** (from Shenzhen city):
   - Public bus: Take E11 or similar to Dapeng Center, then transfer to M274 to Yangmeikeng stop.

@@ -14,6 +14,7 @@ Yes, Warp **can be compiled on Windows** with Visual Studio Build Tools. Here's 
 == Windows Support Status ==
 
 FULLY SUPPORTED. Warp has:
+
 - Windows platform code in `crates/warpui/src/platform/windows/`
 - Windows-specific dependencies (windows crate, DirectX, Win32 APIs)
 - CI pipeline running on `windows-latest-large`
@@ -30,7 +31,7 @@ FULLY SUPPORTED. Warp has:
 
 2. Rust (via rustup)
    - Target: x86_64-pc-windows-msvc
-   - Install: https://rustup.rs
+   - Install: <https://rustup.rs>
 
 3. CMake
    - Needed for building sentry-contrib-native
@@ -46,17 +47,21 @@ FULLY SUPPORTED. Warp has:
 == Build Commands ==
 
 # Bootstrap (installs all deps)
+
 .\script\windows\bootstrap.ps1
 
 # Build
+
 cargo build --bin warp-oss --features gui
 
 # Run
+
 .\target\debug\warp-oss.exe
 
 == GPU Backend ==
 
 Windows uses:
+
 - DX12 (DirectX 12) via wgpu
 - Vulkan as alternative
 - DXC shader compiler for DirectX shaders

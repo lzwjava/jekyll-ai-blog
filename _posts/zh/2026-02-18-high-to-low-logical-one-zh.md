@@ -34,4 +34,4 @@ type: note
 
 参考资料：
 
-- [Manchester code - Wikipedia](https://en.wikipedia.org/wiki/Manchester_code)
+* [Manchester code - Wikipedia](https://en.wikipedia.org/wiki/Manchester_code)

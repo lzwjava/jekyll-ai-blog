@@ -29,7 +29,6 @@ type: post
    - Encourages outdoor activity and housework
    - Need for affordable public bathing options
 
-
 ## Sleeping Socks
 
 *2025.06.24*
@@ -71,7 +70,6 @@ Being a night owl isn't such a big problem. Whether you are awake at 11 PM or no
 Indian time is two and a half hours behind China time. I can be a little late for work, and I will work a few extra hours in the evening to finish my tasks.
 
 Probably, in a year of 365 days, I sleep well for 300 days but not well for 65 days.
-
 
 ---
 

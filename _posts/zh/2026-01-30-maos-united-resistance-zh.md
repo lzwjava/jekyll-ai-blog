@@ -22,6 +22,7 @@ type: note
 《论新阶段》是毛泽东在抗日战争（1937–1945）期间撰写的一篇重要政治论文。在这部著作中，毛泽东分析了中国革命在抗日战争背景下动态的变化以及中国共产党 (CPC) 的角色。他提出中国革命已进入一个以国共两党（CPC 与 Kuomintang, KMT）建立 United Front 以抵御 Japanese imperialism 为特征的“新阶段”。
 
 **核心主题：**
+
 1. **United Front：** 毛泽东强调了建立广泛 United Front 的必要性，以团结所有爱国力量——包括 Communists、Nationalists 以及其他群体——共同对抗日本。
 2. **Anti-Imperialism：** 文章强调了反对 Japanese imperialism 是首要任务，暂时搁置 CPC 和 KMT 之间的内部冲突。
 3. **主导作用：** 毛泽东明确了 CPC 在与其他力量合作时在革命中的领导作用，强调在 United Front 中保持独立自主的重要性。

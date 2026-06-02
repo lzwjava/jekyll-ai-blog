@@ -27,7 +27,8 @@ The OSI (Open Systems Interconnection) model has **7 layers**:
 
 A **Layer 2 switch** operates at the **Data Link layer** (Layer 2) of the OSI model.
 
-### Main characteristics of a Layer 2 switch:
+### Main characteristics of a Layer 2 switch
+
 - Makes forwarding decisions based on **MAC addresses** (not IP addresses)
 - Maintains a **MAC address table** (also called CAM table)
 - Forwards Ethernet frames within the same broadcast domain (VLAN)
@@ -36,7 +37,7 @@ A **Layer 2 switch** operates at the **Data Link layer** (Layer 2) of the OSI mo
 - Can do basic filtering / security based on MAC addresses
 - Common forwarding modes: store-and-forward, cut-through, fragment-free
 
-### Comparison for clarity:
+### Comparison for clarity
 
 | Device              | OSI Layer | Makes decisions based on | Can route between subnets? | Typical name today       |
 |---------------------|-----------|---------------------------|-----------------------------|---------------------------|

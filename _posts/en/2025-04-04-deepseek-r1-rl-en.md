@@ -17,8 +17,8 @@ Here's a breakdown of the techniques DeepSeek used in R1's reinforcement learnin
 * **No Initial Supervised Fine-tuning (SFT) on Instructions:** Unlike many LLMs that first undergo SFT on human-written instructions, DeepSeek-R1-Zero was trained with **pure RL** directly on the base model (DeepSeek-V3-Base).
 * **Group Relative Policy Optimization (GRPO):** They utilized GRPO as their core RL algorithm. GRPO is designed to be more efficient than Proximal Policy Optimization (PPO) by eliminating the need for a separate critic network. It estimates baseline rewards by comparing a group of generated outputs, assigning relative scores based on their quality. This encourages the model to generate better responses compared to its own previous attempts.
 * **Rule-Based Reward System:** Instead of relying solely on human preferences for the initial RL phase, DeepSeek-R1-Zero used a **rule-based reward system**. This system primarily focused on:
-    * **Accuracy Rewards:** Rewarding the model for providing correct answers, especially in tasks with verifiable solutions like math problems (checking if the final answer is correct).
-    * **Format Rewards:** Rewarding the model for adhering to a specific output format, particularly using `<think>` and `</think>` tags to enclose its reasoning process. This encouraged the emergence of chain-of-thought reasoning.
+  * **Accuracy Rewards:** Rewarding the model for providing correct answers, especially in tasks with verifiable solutions like math problems (checking if the final answer is correct).
+  * **Format Rewards:** Rewarding the model for adhering to a specific output format, particularly using `<think>` and `</think>` tags to enclose its reasoning process. This encouraged the emergence of chain-of-thought reasoning.
 * **Emergent Reasoning Behaviors:** This pure RL approach allowed DeepSeek-R1-Zero to naturally develop impressive reasoning skills, including self-verification, reflection, and the generation of long chain-of-thought explanations, without explicit human demonstrations for these behaviors.
 
 **2. Multi-Stage Training for Enhanced Readability and General Capabilities (DeepSeek-R1):**

@@ -50,6 +50,7 @@ GitHub Copilot 的 API 内部仅向来自 VSCode 的 OAuth token 开放。Copilo
 ### ✅ 使用后端代理（推荐）
 
 构建一个 **后端服务器**（Node.js、Python Flask 等），它：
+
 1. 从您的前端接收请求
 2. 将其转发到 `api.githubcopilot.com`
 3. 将响应返回给您的前端

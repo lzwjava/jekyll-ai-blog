@@ -37,6 +37,7 @@ or define a `build-system`
 **`pyproject.toml`** — 两处修改：
 
 1. 添加了构建系统（hatchling）：
+
 ```toml
 [build-system]
 requires = ["hatchling"]
@@ -44,6 +45,7 @@ build-backend = "hatchling.build"
 ```
 
 2. 将旧的 setuptools 包发现配置替换为 hatch 的等价配置：
+
 ```toml
 # 之前（setuptools — 未将 setuptools 设为 build-backend 时无效）
 [tool.setuptools.packages.find]

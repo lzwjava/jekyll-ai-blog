@@ -14,7 +14,8 @@ Question: In Honor of Kings (King of Glory), what does "spiral loop" mean in the
 Answer:
 "Spiral loop" (螺旋循环) is not an official term or specific skill name in Honor of Kings. Extensive searches across game wikis, guides, official sites, and community discussions (including Chinese sources for 王者荣耀) yield no matching assistant skill, summoner skill, or hero ability. It does not refer to Recall (回城), Recovery (恢复), Sprint (疾跑), or any non-offensive utility like Flash, Purify, or Heal.
 
-### Likely Interpretations:
+### Likely Interpretations
+
 1. **Misremembered or Translated Term for Movement Technique ("Spiral Walk" or "Spiral Drift")**:
    - "螺旋" commonly means **"spiral walk/drift" (螺旋走位 or 螺旋飘)**, a high-skill **kiting/dodging technique** using zig-zag or circular movement while attacking/recalling.
      - Example: Heroes like **Luna (露娜)** use "spiral Z-drift" (1AA333A3 combo) to dodge skills during Recall or engages.
@@ -39,6 +40,7 @@ Answer:
 If this refers to a specific hero/skin/video (e.g., a clip title), provide more context for deeper search!
 
 References:
+
 - [Honor of Kings Wiki - Common Skills](https://honor-of-kings.fandom.com/wiki/Common_Skills)
 - [Liquipedia HoK Skills](https://liquipedia.net/honorofkings/Common_Skills)
 - [Moegirl WangZhe RongYao Skills](https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/%E5%B1%80%E5%86%85%E6%8A%80%E8%83%BD)

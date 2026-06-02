@@ -16,11 +16,13 @@ type: note
 GitHub Desktop's file viewer is decent but honestly pretty limited compared to what you probably want. Here's the real breakdown:
 
 **What GitHub Desktop does well:**
+
 - Side-by-side or unified diff view for changed files
 - Click a file in the changed files list → jump to its diff
 - Syntax highlighting on diffs
 
 **Where it falls short:**
+
 - You're only seeing *diffs*, not the full file in context
 - No search across files
 - No tree navigation for the full repo

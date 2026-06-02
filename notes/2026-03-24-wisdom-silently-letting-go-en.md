@@ -18,18 +18,23 @@ Yes, and this is actually one of the healthiest emotional strategies you can ado
 ## Silently Letting Go is the Wiser Choice
 
 ### 1. **Protects Your Mental Energy**
+
 Drama and public callouts consume enormous emotional bandwidth. Every moment you spend broadcasting someone's rejection is energy stolen from your own growth and joy.
 
 ### 2. **Maintains Your Dignity**
+
 Silence is powerful. When you respond to rejection or hatred with quiet grace, you demonstrate emotional maturity. Public retaliation often makes *you* look worse, not them.
 
 ### 3. **Accelerates Healing**
+
 The more you talk about someone who hurt you, the more you keep them alive in your mind. Quiet detachment cuts the mental loop faster.
 
 ### 4. **You Can't Control Others — Only Yourself**
+
 Someone choosing to remove you from their life is *their* decision. Fighting it publicly won't change their feelings. Accepting it silently respects both their choice and your own peace.
 
 ### 5. **Your Happiness Is the Priority**
+
 Holding onto resentment — or worse, publicly airing grievances — keeps you emotionally anchored to the very person causing you pain. Letting go *quietly* is an act of self-love.
 
 ---

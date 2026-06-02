@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Understanding LoRA from the Blog
+
 The blog post you linked discusses "LoRA Without Regret," highlighting Low-Rank Adaptation (LoRA) as an efficient way to fine-tune large language models (LLMs) by updating only low-rank matrices instead of the full model. It covers advantages like multi-tenant serving (e.g., via tools like vLLM and SGLang), lower memory needs for training, and performance that's often on par with full fine-tuning for typical datasets. It doesn't dive into specific starter projects but mentions resources like the Punica paper for serving multiple LoRA adapters.
 
 ### How to Find a Project to Run with LoRA
+
 Finding a LoRA project is straightforward since it's a popular technique in the open-source ML community. Here's a step-by-step guide:
 
 1. **Search on GitHub**: Use keywords like "LoRA fine-tuning," "LoRA LLM," or "PEFT LoRA" in GitHub's search bar. Filter by stars (popularity), forks (community use), and recency (updated in the last year). Aim for repos with clear READMEs, example notebooks, and pre-trained models.
@@ -29,6 +31,7 @@ Finding a LoRA project is straightforward since it's a popular technique in the 
 This approach should yield runnable projects quickly—expect setup times of 10-30 minutes for basics.
 
 ### Good Open-Source Projects for LoRA
+
 Here are three solid, beginner-friendly open-source projects focused on LoRA fine-tuning. They're well-maintained, have examples, and cover different use cases:
 
 - **Microsoft's LoRA (Original Implementation)**: The foundational repo from the LoRA paper authors. It includes the `loralib` package for PyTorch integration and examples for Hugging Face models. Great for understanding the core math and adapting to custom setups. Stars: ~3k+.
@@ -40,6 +43,7 @@ Here are three solid, beginner-friendly open-source projects focused on LoRA fin
 Start with Alpaca-LoRA if you're new—clone the repo, install deps (`pip install -r requirements.txt`), and run `python generate.py` with a dataset. For all, check the README for dataset prep.
 
 ### References
+
 - [LoRA Without Regret](https://thinkingmachines.ai/blog/lora/)
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://github.com/microsoft/LoRA)
 - [alpaca-lora: Instruct-tune LLaMA on consumer hardware](https://github.com/tloen/alpaca-lora)

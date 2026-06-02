@@ -21,6 +21,7 @@ D) Avoiding VLANs entirely
 Answer:
 
 ### Question 1
+
 The correct answer is **B) Proper IP address subnetting and allocation**.
 
 In a medium-sized campus network, effective subnet planning is critical for efficient use of IP address space, improved network performance, enhanced security, and easier management. Proper subnetting involves dividing a larger network into smaller, logical subnetworks (subnets) based on organizational needs (e.g., by department, building, or function). This allows:
@@ -31,13 +32,16 @@ In a medium-sized campus network, effective subnet planning is critical for effi
 - Application of access controls and QoS policies.
 
 **Why the other options are incorrect:**
+
 - **A) Using only public IP addresses**: Public IPs are limited and expensive; campus networks typically use private IP addresses with NAT for internet access.
 - **C) Assigning the same subnet to all departments**: This creates a single large broadcast domain, leading to congestion, security risks, and poor manageability.
 - **D) Avoiding VLANs entirely**: VLANs are commonly used with subnetting to provide logical separation without additional physical infrastructure.
 
 ### Question 2
+
 The provided answer **B** is correct, as explained above.
 
 References:
+
 - [Cisco Campus Network Design Basics](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Campus/campover.html)
 - [RFC 1918 - Address Allocation for Private Internets](https://tools.ietf.org/html/rfc1918)

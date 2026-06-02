@@ -15,16 +15,19 @@ type: note
 IBM WebSphere Application Server (WAS) 是一款 Java EE 应用服务器，而 Eclipse 则是面向其进行应用开发、组装和部署的优秀 IDE。实现这一集成的核心工具是 **IBM WebSphere Application Server Developer Tools for Eclipse**（常简称为 WDT）。该插件直接在 Eclipse 内提供了服务器管理、项目创建、部署和调试功能。它同时支持传统的 WAS（例如 v8.5 和 v9.x）以及轻量级的 Liberty 概要文件。
 
 #### 所需插件
+
 - **IBM WebSphere Application Server Developer Tools for Eclipse**：这是必需的插件。请选择与您的 WAS 运行时版本匹配的版本（例如 V8.5x 或 V9.x 工具）。它可在 Eclipse Marketplace 上免费获取，并支持近期的 Eclipse 版本，如 2024-06 或 2025-03。
 
 没有其他插件是严格必需的，但为了进行完整的 Java EE 开发，请确保您的 Eclipse 安装包含了 Web Tools Platform (WTP)，这在 Eclipse IDE for Java EE Developers 包中是标准配置。
 
 #### 先决条件
+
 - Eclipse IDE for Java EE Developers（建议使用 2023-09 或更高版本以确保兼容性）。
 - 本地安装 IBM WAS 运行时（传统版或 Liberty 版）用于测试和部署。
 - 用于 Marketplace 安装的互联网访问（或下载离线文件）。
 
 #### 安装步骤
+
 您可以通过 Eclipse Marketplace（最简单的方法）、更新站点或下载的文件来安装 WDT。安装后重启 Eclipse。
 
 1. **通过 Eclipse Marketplace**（推荐）：
@@ -47,6 +50,7 @@ IBM WebSphere Application Server (WAS) 是一款 Java EE 应用服务器，而 E
 安装后，通过检查 **窗口 > 显示视图 > 服务器** 来验证 — WAS 应作为服务器类型选项出现。
 
 #### 开发和部署 WAS 应用的基本步骤
+
 安装完成后，您可以创建、构建和运行为 WAS 定制的 Java EE 应用程序。
 
 1. **创建新项目**：
@@ -80,6 +84,7 @@ IBM WebSphere Application Server (WAS) 是一款 Java EE 应用服务器，而 E
 如果您遇到问题（例如，兼容性错误），请查阅 IBM 的已知问题页面，或确保您的 Eclipse 和 WAS 版本匹配。
 
 #### 参考资料
+
 - [IBM WebSphere Application Server Developer Tools 概述](https://www.ibm.com/docs/en/wasdtfe?topic=websphere-developer-tools-overview)
 - [Eclipse Marketplace: V9.x Tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools)
 - [Eclipse Marketplace: V8.5x Tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v85x-developer-tools)

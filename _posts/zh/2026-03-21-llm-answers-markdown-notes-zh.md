@@ -22,6 +22,7 @@ Answer:
 由于您在使用 Claude，最直接的工具是：
 
 ### **MarkDownload** (recommended, Safari supported)
+
 MarkDownload 是一个支持 Safari、Chrome、Edge 和 Firefox 的浏览器扩展，允许您将网站下载为 Markdown 文本。只需点击浏览器工具栏中的图标，即会打开一个覆盖窗口，显示正确格式化的网页文本，并保留链接。
 
 - 从 Safari Extension Gallery 安装（Safari 版本需支付少量费用）
@@ -30,12 +31,14 @@ MarkDownload 是一个支持 Safari、Chrome、Edge 和 Firefox 的浏览器扩�
 - 将文件拖入您的 `blog-source` 文件夹 → 您现有的 git 脚本会自动拾取
 
 ### **claude-to-markdown** (open source WebExtension)
+
 此 WebExtension 可自动将 Claude 对话记录导出为 Markdown。如果在扩展首选项中设置 GitHub token，您可以将生成的 Markdown 自动保存为 Gist。它不会将您的数据传输到任何第三方服务。
 
 - GitHub: `legoktm/claude-to-markdown`
 - 目前支持 Firefox；在 Safari 中手动加载需费一些功夫
 
 ### **AI Chat Exporter** (Chrome/Edge, not Safari natively)
+
 AI Chat Exporter 支持以多种格式导出 Claude 会话，包括 PDF、Markdown、Text、JSON、CSV 和 Image。您可以仅下载会话中需要的特定部分。
 
 > ⚠️ 此工具需要 Chrome/Edge，不直接支持 Safari。
@@ -65,6 +68,7 @@ Script repo: `agarwalvishal/claude-chat-exporter` on GitHub。
 ## Option 4: Integrate with Your Existing Blog Pipeline
 
 由于您的博客脚本已经：
+
 - 在 `blog-source` 上运行 `git pull --rebase`
 - 检查重复笔记
 

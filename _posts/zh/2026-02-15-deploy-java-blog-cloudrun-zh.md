@@ -22,17 +22,20 @@ Answer:
 你甚至不需要在本地构建 Docker image。
 
 1. 确保已安装 Google Cloud SDK 并完成身份验证：
+
    ```bash
    gcloud auth login
    gcloud config set project YOUR-PROJECT-ID
    ```
 
 2. 启用必要的 API（只需运行一次）：
+
    ```bash
    gcloud services enable run.googleapis.com artifactregistry.googleapis.com cloudbuild.googleapis.com
    ```
 
 3. 在项目根目录（`pom.xml` 和 `Dockerfile` 所在位置）运行：
+
    ```bash
    gcloud run deploy blog-server \
      --source . \
@@ -50,6 +53,7 @@ Answer:
 当你需要更多控制权或已有 CI/CD 流程时，此方案非常有用。
 
 1. 在本地构建并打标签（tag）image：
+
    ```bash
    docker build -t gcr.io/YOUR-PROJECT-ID/blog-server:latest .
    # 或者使用 Artifact Registry (更新且推荐的方式):
@@ -57,6 +61,7 @@ Answer:
    ```
 
 2. 推送 image：
+
    ```bash
    gcloud auth configure-docker
    docker push gcr.io/YOUR-PROJECT-ID/blog-server:latest
@@ -66,6 +71,7 @@ Answer:
    ```
 
 3. 部署到 Cloud Run：
+
    ```bash
    gcloud run deploy blog-server \
      --image gcr.io/YOUR-PROJECT-ID/blog-server:latest \
@@ -75,6 +81,7 @@ Answer:
    ```
 
    或者使用 Artifact Registry 里的 image：
+
    ```bash
    --image asia-northeast1-docker.pkg.dev/YOUR-PROJECT-ID/my-repo/blog-server:latest
    ```
@@ -84,10 +91,13 @@ Answer:
 - 你的 **Dockerfile** 应该暴露正确的端口（通常是 `EXPOSE 8080`）
 - 应用应该监听 `0.0.0.0`（而不是 `localhost`）
 - 对于生产环境，建议添加参数：
+
   ```bash
   --cpu 1 --memory 512Mi --concurrency 80 --max-instances 10
   ```
+
 - 如果你使用了环境变量或 secrets：
+
   ```bash
   --set-env-vars "SPRING_PROFILES_ACTIVE=prod,DATABASE_URL=..."
   ```
@@ -102,7 +112,7 @@ Answer:
 
 部署完成后，你将获得如下 URL：
 
-https://blog-server-abc123-uc.a.run.app
+<https://blog-server-abc123-uc.a.run.app>
 
 祝你好运！
 

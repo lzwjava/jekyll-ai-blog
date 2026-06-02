@@ -43,6 +43,7 @@ type: note
 这些观点往往来自系统程序员、编译器作者，或那些维护过大型代码库的人，在这些代码库中，“随便使用一个 dict”变成了一场技术债务噩梦。
 
 参考文献：
+
 - [The “Stringly Typed” Problem](https://blog.codinghorror.com/new-programming-jargon/#stringly-typed)
 - [Python 3.6+ dict order randomization rationale](https://mail.python.org/pipermail/python-dev/2017-December/151283.html)
 - [Go maps are intentionally unordered](https://go.dev/blog/maps)

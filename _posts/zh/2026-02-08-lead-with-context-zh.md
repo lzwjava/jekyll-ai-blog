@@ -43,6 +43,7 @@ Answer:
 这种方法帮助 ByteDance 在保持创新的同时实现快速扩张，并避免了典型的“大公司病”问题，如官僚主义、"managing up" 或以自我为中心的一言堂。
 
 类似的想法也出现在其他高绩效文化中：
+
 - Netflix 著名的 "Lead with context, not control"
 - 许多 Silicon Valley 公司的授权模式
 

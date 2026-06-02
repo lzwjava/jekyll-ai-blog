@@ -44,6 +44,7 @@ WeChat's social design (Moments, group chats, private circles) is fundamentally 
 Big influencers are often trapped in a one-way dynamic: always outputting, rarely genuinely receiving or connecting. Creators focused purely on building a personal brand risk losing authenticity — what makes content genuinely resonate is when it reflects real passion, not just audience growth goals.
 
 Being an audience peer means you can:
+
 - Have real back-and-forth conversations
 - Share opinions without performance anxiety
 - Build mutual friendships rather than parasocial fan dynamics

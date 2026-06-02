@@ -38,6 +38,7 @@ The main transitional path was:
 Low-level state capitalism → Higher-level state capitalism → Full socialist transformation (public-private partnership → joint state-private ownership → wholly state-owned).
 
 Typical forms included:
+
 - Processing orders / contracted processing
 - Exclusive purchasing and selling
 - Commissioned sales / commissioned processing

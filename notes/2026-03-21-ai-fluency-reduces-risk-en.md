@@ -13,7 +13,7 @@ type: note
 
 **Answer:**
 
-## Yes — and it's one of the most important strategic shifts happening in engineering orgs right now.
+## Yes — and it's one of the most important strategic shifts happening in engineering orgs right now
 
 Your intuition is essentially correct, and the data backs it up strongly. Here's the full picture:
 

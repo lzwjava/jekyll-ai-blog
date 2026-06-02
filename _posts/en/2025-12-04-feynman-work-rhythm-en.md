@@ -17,6 +17,7 @@ Answer:
 Richard Feynman’s work style was legendary for its apparent “laziness” that masked extreme productivity. He optimized for deep, creative thinking rather than long hours or visible busyness. Here’s a detailed breakdown of how he actually worked, based on his own accounts, biographies, and interviews with colleagues:
 
 ### Core Principles of Feynman’s Routine
+
 - **Protect the sacred morning hours for deep work**
   Feynman treated the time from roughly 9–11 or 9–12 (sometimes until 1–2 pm) as completely untouchable. This was when his mind was freshest and he did almost all of his real physics. No meetings, no phone calls, no teaching prep—nothing. He would lock himself in his office at Caltech and think hard, often pacing, scribbling on a blackboard, or talking to himself.
 
@@ -43,11 +44,13 @@ Richard Feynman’s work style was legendary for its apparent “laziness” tha
   He was a big believer in sleeping on problems. Many of his famous insights (like the Feynman diagrams) came after he stopped actively working and let the problem “percolate” overnight or for days.
 
 ### Real-Life Examples
+
 - At Los Alamos during the Manhattan Project, while others worked 80-hour weeks, Feynman spent afternoons playing drums in a samba band or picking combination locks on classified filing cabinets—for fun.
 - His Nobel Prize–winning work on quantum electrodynamics (QED) was largely done in short, intense periods at Cornell and Caltech, interspersed with months of “doing nothing” (teaching minimally, playing, traveling).
 - Colleagues recall him disappearing for weeks, then suddenly showing up with a breakthrough that looked effortless.
 
 ### Feynman’s Own Quotes on the Method
+
 - “I don’t work long hours… I work in bursts and then I play.”
 - “You have to keep a dozen of your favorite problems constantly present in your mind, although you only work on them one at a time when you’re fresh.”
 - “The only productive time is when you’re really thinking hard. The rest is just waiting.”

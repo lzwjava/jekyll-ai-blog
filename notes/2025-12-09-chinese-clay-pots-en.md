@@ -17,12 +17,14 @@ Answer:
 Clay pots (砂鍋/沙鍋 shāguō in Mandarin, also called sand pots or earthen pots) are one of the most iconic cooking vessels in Chinese cuisine, especially in Cantonese, Hunan, Fujian, and Taiwanese cooking. They excel at slow, gentle simmering because the porous clay retains and distributes heat evenly while absorbing flavors over time. Here are the main uses and classic dishes:
 
 ### Primary Cooking Methods
+
 - Braising and stewing (most common use)
 - Hot pots and one-pot meals
 - Soups and congees
 - Boiling and simmering without direct high flame (usually placed over a low flame or heat diffuser)
 
 ### Famous Chinese Clay Pot Dishes
+
 - **Cantonese Clay Pot Rice (煲仔飯 bó zǎi fàn)** – Rice cooked directly in the clay pot with toppings like lap cheong (Chinese sausage), cured pork belly, chicken, or beef, creating the prized crispy rice crust (鍋巴) at the bottom.
 - **Braised Pork Belly with Preserved Vegetables (梅菜扣肉)** – Fatty pork and mei cai (preserved mustard greens) slow-braised until meltingly tender.
 - **Dongpo Pork (東坡肉)** – Hangzhou-style braised pork belly, often finished in clay pots.
@@ -36,12 +38,14 @@ Clay pots (砂鍋/沙鍋 shāguō in Mandarin, also called sand pots or earthen 
 - **Hot Pot Style Dishes** – Some restaurants serve mini individual clay-pot hot pots.
 
 ### Advantages of Using Clay Pots
+
 - Creates deep, layered flavors through long, low-heat cooking
 - Keeps food piping hot at the table (the pot stays warm for a long time)
 - Develops the coveted crispy rice layer in rice dishes
 - Naturally slightly seasons over time (well-used pots are prized)
 
 ### Tips
+
 - Traditional clay pots are usually used on gas stoves (often with a wire mesh or heat diffuser).
 - Never put an empty clay pot on high heat or subject it to extreme temperature changes (it can crack).
 - Many modern versions have glazed interiors for easier cleaning.

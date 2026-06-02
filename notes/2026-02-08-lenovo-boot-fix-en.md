@@ -19,6 +19,7 @@ Yes, **Fn + F12** (or just **F12** on some models) is the correct and most relia
 **F2** (or Fn + F2) is typically for entering the full **BIOS/UEFI setup** menu, not the boot menu. If F2 isn't responding, here are the common reasons and fixes:
 
 ### Why F2 Might Not Work
+
 - **Fast Startup in Windows** is enabled (default on Win10/11): This causes "hybrid shutdown" instead of full shutdown, so the firmware skips hotkey detection.
 - **HotKey Mode** in BIOS is set in a way that requires Fn for function keys (or vice versa).
 - Timing issue: You need to press it very early and repeatedly.
@@ -26,6 +27,7 @@ Yes, **Fn + F12** (or just **F12** on some models) is the correct and most relia
 - Rarely, keyboard/firmware glitch.
 
 ### How to Fix and Access BIOS (If You Need It for Secure Boot/CSM Changes)
+
 1. **Disable Fast Startup in Windows** (most common fix):
    - Boot into Windows normally.
    - Go to Settings → System → Power & sleep → Additional power settings → Choose what the power buttons do.

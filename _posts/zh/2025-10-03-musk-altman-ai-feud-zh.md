@@ -19,6 +19,7 @@ type: note
 时间快进至今（2025年10月），他们的关系已公开敌对——混合着法律诉讼、X平台（原推特）上的公开羞辱以及AI竞赛中的相互攻讦。马斯克多次在X平台上称奥尔特曼为"小指头"（《权力的游戏》中的阴谋家角色），暗指其背信弃义。奥尔特曼在最近接受塔克·卡尔森采访时表示，他曾视马斯克为"人类的瑰宝"，但如今看法改变，指出不认同马斯克的某些特质，并指控其在OpenAI取得成功后试图"拖慢我们脚步"。奥尔特曼还暗示马斯克的批评源于不安全感："或许他一生都处于不安之中，我对此表示同情"。
 
 #### 矛盾升级关键节点
+
 - **2023年：马斯克创立xAI与Grok**：这无疑被视为"复仇"行动。因不满OpenAI转向闭源（如GPT模型需付费使用），马斯克创立xAI以打造"极致求真AI"作为替代方案。其聊天机器人Grok作为ChatGPT的直接竞品亮相——以诙谐幽默、较少审查、与X平台深度融合为特色。马斯克宣称这是为了纠正OpenAI的"觉醒"偏见与使命偏离。
 
 - **2024年诉讼**：马斯克起诉OpenAI与奥尔特曼，指控其违背创始协议转向营利模式并隐瞒技术。诉状称OpenAI已成为微软"事实上的闭源子公司"。OpenAI反击称这是竞争对手的酸葡萄心理。
@@ -33,6 +34,7 @@ type: note
 简而言之，马斯克始终对OpenAI的转型与自己出局耿耿于怀，视其为个人背叛。xAI/Grok是他的反击，但已演变成全面的科技竞争。目前尚无任何和解迹象。
 
 #### 参考资料
+
 - [马斯克与奥尔特曼恩怨内幕](https://builtin.com/artificial-intelligence/musk-altman-feud)
 - [时间线：埃隆·马斯克与OpenAI及萨姆·奥尔特曼的纠葛](https://www.techrepublic.com/article/news-elon-musk-sam-altman-relationship-timeline/)
 - [萨姆·奥尔特曼正瞄准埃隆·马斯克的商业帝国](https://www.forbes.com/sites/johnhyatt/2025/08/16/sam-altman-despises-elon-musk-now-he-is-going-after-his-companies/)

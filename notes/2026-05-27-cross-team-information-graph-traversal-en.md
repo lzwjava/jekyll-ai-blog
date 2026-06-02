@@ -99,6 +99,7 @@ def find_pages_by_person(username):
 ```
 
 **CQL patterns that actually matter cross-team:**
+
 ```
 # Find all pages referencing a ticket
 text ~ "PROJ-1234"
@@ -156,6 +157,7 @@ def get_linked_issues(issue_key):
 ```
 
 **JQL patterns for cross-team:**
+
 ```
 # Everything touching your team's components in any project
 component in ("Auth", "Gateway") AND project != MYTEAM

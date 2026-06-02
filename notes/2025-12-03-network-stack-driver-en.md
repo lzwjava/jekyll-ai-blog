@@ -17,6 +17,7 @@ Answer:
 The NIC driver and the kernel's network stack are responsible for the lowest layers of network processing (mostly Layer 1 and Layer 2, and the entry point to Layer 3). Beyond ARP, they typically handle the following tasks for **all** incoming and outgoing traffic:
 
 ### Incoming Packets (Receive Path)
+
 1. **Physical layer signaling** – The NIC converts electrical/optical signals into raw bits/bytes.
 2. **Frame reception and DMA** – The NIC driver sets up DMA rings; the card writes received Ethernet frames (or Wi-Fi, etc.) directly into kernel memory.
 3. **Basic frame validation** – CRC/checksum offloading, VLAN tag stripping (if configured), minimum/maximum size checks.
@@ -37,7 +38,9 @@ The NIC driver and the kernel's network stack are responsible for the lowest lay
 6. **Passing the packet up** – The driver calls `netif_rx()` or NAPI (`napi_gro_receive()`) → packet enters the stack as an `sk_buff`.
 
 ### Early Kernel Network Stack Processing (before netfilter/iptables/nftables)
+
 Once the packet is in the stack (still in softIRQ context):
+
 - GRO (Generic Receive Offload) – coalescing packets
 - Early demux for certain protocols (e.g., high-priority control traffic)
 - **netfilter PREROUTING hook** (NF_INET_PRE_ROUTING) – this is the very first point where iptables/nftables rules can see/drop packets
@@ -45,6 +48,7 @@ Once the packet is in the stack (still in softIRQ context):
 - Further netfilter hooks (LOCAL_IN, FORWARD, etc.)
 
 ### Outgoing Packets (Transmit Path)
+
 - The stack builds the IP packet → calls neighbor resolution (ARP/ND if needed) → builds Ethernet header
 - Checksum offload, TSO (TCP Segmentation Offload), GSO (Generic Segmentation Offload)
 - Driver queues the frame to the NIC’s TX ring → NIC transmits

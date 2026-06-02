@@ -32,6 +32,7 @@ type: note
 **真实的权衡：**
 
 你需要在以下两者之间做出选择：
+
 1. **Screen protector：** 针对 Dust 和意外接触提供更好的保护，但 Display quality 明显下降，在强光下 Glare 更多，Battery life 有所减少
 2. **No protector：** 更好的 Display quality 和 Brightness，但更容易受到 Dust 沉积和意外损坏的影响
 

@@ -114,6 +114,7 @@ ET.tostring(root, encoding='unicode')
 ```
 
 ### Notes
+
 - Handle namespaces with `xmlns='{namespace}'` in find queries, e.g., `root.find('{http://example.com}tag')`.
 - For large files, consider iterative parsing with `ET.iterparse()`.
 - Be cautious with user-input XML to avoid XML vulnerabilities like injection.

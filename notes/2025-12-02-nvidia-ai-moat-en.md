@@ -40,6 +40,7 @@ NVIDIA’s “moat” in AI/datacenter GPUs is extraordinarily wide and deep rig
 AMD, Intel, and startups (Groq, Cerebras, Tenstorrent, etc.) are improving fast on the hardware side, but the software ecosystem, interconnect scale, and memory supply will keep NVIDIA almost impossible to displace for at least the next 3–4 years in large-scale AI training and inference.
 
 The only realistic threats to NVIDIA’s dominance in the 2025–2030 period are:
+
 - A major CUDA compatibility breakthrough (e.g., AMD + Meta + OpenAI actually making ROCm production-ready at scale
 - Custom silicon from hyperscalers (Google TPU, Amazon Trainium/Inferentia, Microsoft Maia) eating the top-end market
 - U.S.–China export controls ironically helping Chinese GPU companies long-term

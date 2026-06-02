@@ -19,6 +19,7 @@ type: note
 **Build options** - Where your source files are, where to output built files, which assets to copy, style files to include, polyfills, etc.
 
 **Architect targets** - Configurations for different CLI commands like:
+
 - `build` - how to compile your app
 - `serve` - dev server settings (port, proxy config, etc.)
 - `test` - testing configuration
@@ -27,6 +28,7 @@ type: note
 **Different environments** - You can define configurations for development, production, staging, etc. with different settings (like whether to enable source maps, optimization level, base URLs).
 
 **Example structure:**
+
 ```json
 {
   "projects": {

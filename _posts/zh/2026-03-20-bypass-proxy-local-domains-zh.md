@@ -14,6 +14,7 @@ type: note
 您有一个本地服务（例如 Uptime Kuma）在您的 LAN 服务器上运行，您希望通过自定义域名如 `http://myapp.local:3001` 访问它，而不是使用 IP 地址。
 
 您已将条目添加到 `/etc/hosts`：
+
 ```
 192.168.1.36 myapp.local
 ```
@@ -31,6 +32,7 @@ type: note
 ### 步骤 1：识别您的代理工具
 
 macOS 上常见的：
+
 - **ClashX** / **ClashX Pro**
 - **Surge**
 - **V2Ray**
@@ -46,7 +48,8 @@ myapp.local
 192.168.1.0/24
 ```
 
-#### ClashX 示例（`config.yaml`）：
+#### ClashX 示例（`config.yaml`）
+
 ```yaml
 bypass:
   - myapp.local
@@ -54,7 +57,8 @@ bypass:
   - 192.168.1.0/24
 ```
 
-#### 系统代理（macOS）：
+#### 系统代理（macOS）
+
 1. 系统偏好设置 → 网络 → 高级 → 代理
 2. 选中 **“为这些主机和域名绕过代理设置”**
 3. 添加：`myapp.local, *.local, 192.168.1.*`

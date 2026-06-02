@@ -26,6 +26,7 @@ type: note
 这些事件通常源于人为失误、网络问题或环境因素，AWS已通过多区域部署等冗余措施提升韧性。2025年中断事件再次凸显过度依赖AWS最繁忙区域——美东-1区域的持续风险。
 
 延伸阅读：
+
 - [AWS云与数据中心中断历史纵览](https://www.datacenterknowledge.com/outages/a-history-of-aws-cloud-and-data-center-outages)
 - [史上最大AWS中断：2021年12月7日事件全解析](https://aws.plainenglish.io/the-biggest-aws-outage-in-history-the-december-7-2021-us-east-1-meltdown-and-lessons-learned-2efab5a02de5)
 - [AWS中断事件原因探析](https://www.bbc.com/news/articles/cev1en9077ro)

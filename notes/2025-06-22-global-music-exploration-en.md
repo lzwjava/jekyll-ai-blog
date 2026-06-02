@@ -14,15 +14,15 @@ Here are 50 songs from a variety of languages to broaden your musical horizons:
 
 **Korean (K-Pop and beyond)**
 
-1.  **PSY - "Gangnam Style"**: A global phenomenon that broke YouTube records and brought K-Pop to the mainstream. Iconic for its dance and undeniable catchiness.
-2.  **BTS - "Dynamite"**: Their first all-English single, but its global impact, chart performance, and widespread appeal make it a landmark K-Pop song.
-3.  **IU - "Good Day"**: A beloved ballad known for its iconic three-octave high note, showcasing IU's vocal prowess and popularity in Korea.
-4.  **BLACKPINK - "DDU-DU DDU-DU"**: A powerful and visually stunning track that cemented BLACKPINK's status as a global girl group.
-5.  **Busker Busker - "Cherry Blossom Ending"**: A perennial spring anthem in Korea, consistently re-entering charts every spring.
-6.  **BIGBANG - "Fantastic Baby"**: An energetic and influential K-Pop track with a massive global following and a signature dance.
-7.  **Girls' Generation - "Gee"**: A groundbreaking bubblegum pop hit that helped popularize K-Pop's "cute" concept.
-8.  **TWICE - "Cheer Up"**: Known for its viral "shy shy shy" line and energetic performance, a huge hit in Korea and beyond.
-9.  **Ailee - "I Will Go to You Like the First Snow"**: A hugely successful OST (Original Soundtrack) song, showcasing her powerful vocals and emotional delivery.
+1. **PSY - "Gangnam Style"**: A global phenomenon that broke YouTube records and brought K-Pop to the mainstream. Iconic for its dance and undeniable catchiness.
+2. **BTS - "Dynamite"**: Their first all-English single, but its global impact, chart performance, and widespread appeal make it a landmark K-Pop song.
+3. **IU - "Good Day"**: A beloved ballad known for its iconic three-octave high note, showcasing IU's vocal prowess and popularity in Korea.
+4. **BLACKPINK - "DDU-DU DDU-DU"**: A powerful and visually stunning track that cemented BLACKPINK's status as a global girl group.
+5. **Busker Busker - "Cherry Blossom Ending"**: A perennial spring anthem in Korea, consistently re-entering charts every spring.
+6. **BIGBANG - "Fantastic Baby"**: An energetic and influential K-Pop track with a massive global following and a signature dance.
+7. **Girls' Generation - "Gee"**: A groundbreaking bubblegum pop hit that helped popularize K-Pop's "cute" concept.
+8. **TWICE - "Cheer Up"**: Known for its viral "shy shy shy" line and energetic performance, a huge hit in Korea and beyond.
+9. **Ailee - "I Will Go to You Like the First Snow"**: A hugely successful OST (Original Soundtrack) song, showcasing her powerful vocals and emotional delivery.
 10. **EXO - "Growl"**: A highly influential K-Pop track known for its dynamic choreography and one-shot music video.
 
 **French**

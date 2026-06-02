@@ -56,6 +56,7 @@ Native method stacks handle the execution of native methods that interact with t
 Every time a method is invoked, the JVM allocates a new **stack frame** on the thread's stack. This frame is a self-contained unit of memory that holds all the necessary data for executing that method. The frame remains on the stack until the method completes normally or exits abruptly (e.g., due to an exception). Once the method returns, its frame is removed from the stack, and the memory is automatically reclaimed — no garbage collection is required for stack memory.
 
 Each stack frame contains:
+
 - **Local variable array**: Holds all method parameters and local variables declared within the method.
 - **Operand stack**: Used internally by the JVM to evaluate expressions and store intermediate computations.
 - **Return value slot**: Stores the result of the method call, if any, before passing it back to the calling method.
@@ -115,6 +116,7 @@ Different collectors offer different trade-offs: **Serial GC** for single-thread
 The JMM defines how and when changes made by one thread become visible to other threads. Due to CPU caches, an update made by one thread to a variable may not be immediately visible to another. The JVM and processor can also reorder instructions to optimize performance — this reordering can cause unexpected behavior if not managed properly.
 
 Key tools to ensure thread safety:
+
 - `volatile` — guarantees visibility across threads
 - `synchronized` — ensures mutual exclusion and memory visibility
 - `happens-before` — a partial order over all actions ensuring that if one action occurs before another in program order, it will occur before the other in the happens-before order, enabling safe reasoning in concurrent programs.

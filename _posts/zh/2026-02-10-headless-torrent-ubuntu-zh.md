@@ -24,7 +24,7 @@ Answer:
 
 | Client              | Type              | Best for                          | Web UI? | Install command                              | Download example                                      |
 |---------------------|-------------------|-----------------------------------|---------|----------------------------------------------|-------------------------------------------------------|
-| qbittorrent-nox     | daemon + web UI   | Modern features, best overall     | Yes     | `sudo apt install qbittorrent-nox`           | 通过 web UI 添加 torrent (http://server-ip:8080)        |
+| qbittorrent-nox     | daemon + web UI   | Modern features, best overall     | Yes     | `sudo apt install qbittorrent-nox`           | 通过 web UI 添加 torrent (<http://server-ip:8080>)        |
 | transmission-cli    | pure CLI          | Very simple one-shot downloads    | No      | `sudo apt install transmission-cli`          | `transmission-cli file.torrent`                       |
 | aria2c              | pure CLI          | Fast, lightweight, multi-protocol | No      | `sudo apt install aria2`                     | `aria2c file.torrent` 或 `aria2c magnet-link`         |
 | rtorrent            | ncurses TUI       | Power users who like vim-style UI | No      | `sudo apt install rtorrent`                  | 运行 `rtorrent` 然后通过 ^O 快捷键加载 torrent     |
@@ -83,7 +83,7 @@ sudo systemctl enable --now qbittorrent-nox
 ```
 
 现在在浏览器中打开：
-**http://your-server-ip:8080**
+**<http://your-server-ip:8080>**
 (默认登录: admin / adminadmin — 请立即更改！)
 
 你可以直接从 web 界面添加 .torrent 文件或 magnet 链接。

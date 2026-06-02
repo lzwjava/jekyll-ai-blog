@@ -19,6 +19,7 @@ In **Control-M** (a workload automation and job scheduling tool from BMC), a **f
 Folders help manage complex workflows by allowing logical grouping, centralized configuration, and inheritance of settings to child objects (jobs and subfolders).
 
 ### Main Purposes of Folders
+
 - Group related jobs together (by application, department, business process, geography, customer, etc.)
 - Define common settings once at the folder level instead of repeating them on every job
 - Enable inheritance → jobs and subfolders automatically inherit many properties from their parent folder
@@ -77,7 +78,9 @@ Folders help manage complex workflows by allowing logical grouping, centralized 
   - Adjust events behavior
 
 ### Folder → Job Inheritance Rules (SMART Folder)
+
 Most folder-level definitions (scheduling, events, resources, notifications, RunAs, Application, variables, etc.) are **inherited** by:
+
 - All jobs directly in the folder
 - All subfolders
 - All jobs inside subfolders
@@ -85,6 +88,7 @@ Most folder-level definitions (scheduling, events, resources, notifications, Run
 You can override any inherited setting at the job or subfolder level when needed.
 
 ### Practical Organization Examples
+
 - Finance_EndOfMonth (SMART Folder)
   - Finance_US (subfolder)
     - Process_Raw_Data
@@ -98,6 +102,7 @@ You can override any inherited setting at the job or subfolder level when needed
 All jobs can inherit the same "End of Month" calendar and "wait for EOM confirmation event" from the top-level folder.
 
 ### Summary – Why Folders Matter
+
 - Reduce duplication → define schedule, events, notifications once
 - Improve governance → consistent tagging (Application, Business fields)
 - Enable hierarchy → complex business processes

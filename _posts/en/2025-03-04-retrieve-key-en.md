@@ -91,11 +91,13 @@ public class MyClass {
 ```
 
 **Output:**
+
 ```
 Value: Hello, World!
 ```
 
-#### Explanation:
+#### Explanation
+
 - **Step 1:** `ExecutionContext.getCurrent()` provides the current context. In a real application, this might use `ThreadLocal` to ensure thread-specific contexts.
 - **Step 2:** `getNamespace("myNamespace")` retrieves a `Map` representing the namespace.
 - **Step 3:** `ns.get("myKey")` fetches the value associated with `"myKey"`.
@@ -132,6 +134,7 @@ public class MyClass {
 For session scope, replace `request.getAttribute(key)` with `request.getSession().getAttribute(key)`.
 
 ### Key Considerations
+
 - **Framework-Specific APIs:** The exact method to access the context and namespace depends on your framework. For example:
   - In Spring, use `ApplicationContext`, `RequestContextHolder`, or `Environment` for different contexts.
   - In a custom system, refer to its documentation.

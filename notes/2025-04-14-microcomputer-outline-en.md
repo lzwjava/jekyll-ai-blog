@@ -13,12 +13,14 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
 ---
 
 ### **Microcomputer and Interface Technology**
+
 **Instructor:** Yang Quansheng
 **Target Majors:** Computer Science, Electronic Engineering, Automation, etc.
 
 ---
 
 #### **1. Course Objectives**
+
 1. Master the basic architecture and working principles of microcomputer systems.
 2. Understand interface technologies between the CPU and peripheral devices, as well as data transfer methods.
 3. Apply common interface chips (e.g., 8255, 8253, 8251) in hardware design.
@@ -27,7 +29,9 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
 ---
 
 #### **2. Course Content**
+
 **Part 1: Fundamentals of Microcomputers**
+
 1. Overview of Microcomputer Systems
    - Evolution, Von Neumann architecture
    - Key performance metrics (word length, clock speed, memory capacity)
@@ -36,6 +40,7 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
    - Bus cycles and timing analysis
 
 **Part 2: Assembly Language Programming**
+
 1. 8086 Instruction Set
    - Data transfer, arithmetic, and logic instructions
    - Control flow instructions (jumps, loops, subroutines)
@@ -44,11 +49,13 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
    - Interrupt service routines
 
 **Part 3: Memory Systems**
+
 1. Memory Classification and Expansion
    - RAM/ROM working principles
    - Address decoding techniques (linear selection, decoder-based)
 
 **Part 4: I/O and Interface Technology**
+
 1. Basics of I/O Interfaces
    - Port addressing (memory-mapped vs. isolated I/O)
    - Data transfer modes (program-controlled, interrupt-driven, DMA)
@@ -61,6 +68,7 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
    - **8251A Serial Interface**: Synchronous/asynchronous protocols
 
 **Part 5: Buses and Expansion**
+
 1. System Bus Standards
    - ISA, PCI bus overview
 2. Modern Interface Technologies
@@ -69,6 +77,7 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
 ---
 
 #### **3. Labs and Practical Sessions**
+
 1. **Basic Labs**
    - Assembly programming (e.g., keyboard input/display output)
    - 8255A-controlled LED/keyboard experiments
@@ -79,6 +88,7 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
 ---
 
 #### **4. Assessment**
+
 1. **Theory Exam (60%)**: Closed-book, covering interface principles and design analysis.
 2. **Lab Evaluation (30%)**: Hands-on experiments and reports.
 3. **Participation (10%)**: Assignments and class engagement.
@@ -86,6 +96,7 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
 ---
 
 #### **5. Reference Materials**
+
 1. **Primary Textbook**:
    *Microcomputer Principles and Interface Technology* (Yang Quansheng, if applicable)
 2. **Supplementary Texts**:
@@ -95,6 +106,7 @@ Here is an English version of the **"Microcomputer and Interface Technology"** c
 ---
 
 #### **6. Prerequisites**
+
 - Digital Logic Circuits
 - Computer Organization
 - C Programming

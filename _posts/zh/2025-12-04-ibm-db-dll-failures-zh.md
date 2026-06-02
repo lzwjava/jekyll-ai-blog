@@ -29,6 +29,7 @@ Windows 无法在标准搜索路径中找到这些 DLL，因此 Python 进程启
    - 完成后，`import ibm_db` 可以在任何 Python 脚本或解释器中工作，无需额外代码。
 
 2. **良好的替代方案：在脚本的最开头使用 `os.add_dll_directory()` 一次**
+
    ```python
    import os
 
@@ -41,26 +42,33 @@ Windows 无法在标准搜索路径中找到这些 DLL，因此 Python 进程启
 
    import ibm_db   # 现在可以正常工作
    ```
+
    将这些行放在每个脚本/入口点的顶部（或者为了全局影响，放在您网站的 sitecustomize.py 中）。
 
 3. **快速但不推荐的临时解决方案**
+
    ```python
    import os
    os.environ["PATH"] = r"C:\Program Files\IBM\SQLLIB\bin;" + os.environ["PATH"]
    import ibm_db
    ```
+
    这只有在导入之前执行才有效，并且可能产生副作用。
 
 4. **使用 IBM 提供的捆绑了 CLI 的 wheel（对许多用户来说最简单）**
    IBM 现在发布了一个名为 `ibm_db_clidriver` 的特殊 wheel，它包含 DB2 运行时的私有副本：
+
    ```bash
    pip install ibm_db
    pip install ibm_db_clidriver   # 此包捆绑了 DLL
    ```
+
    或者简单地
+
    ```bash
    pip install "ibm_db[clidriver]"
    ```
+
    安装此包后，在 Windows 上 `import ibm_db` 无需任何 PATH 更改即可直接工作。
 
 ### 您现在应该做什么的总结
@@ -81,5 +89,6 @@ import ibm_db
 这两种方法都能完全解决“DLL 无法加载”的错误。
 
 参考资料：
+
 - [ibm_db GitHub - Windows 安装说明](https://github.com/ibmdb/python-ibmdb#windows)
 - [ibm_db 文档 - 使用 clidriver 捆绑包](https://github.com/ibmdb/python-ibmdb#using-ibm_db_clidriver-package)

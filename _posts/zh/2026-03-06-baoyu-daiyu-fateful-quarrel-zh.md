@@ -67,5 +67,5 @@ type: note
 
 **参考文献：**
 
-- https://zh.wikisource.org/zh-hans/紅樓夢/第029回
+- <https://zh.wikisource.org/zh-hans/紅樓夢/第029回>
 - David Hawkes译本（*The Story of the Stone*，Penguin Classics，第2卷）第29回

@@ -25,7 +25,8 @@ type: note
     该存储配置提供约 28.6 TB 高速 NVMe 容量。这对于 AI 训练期间的高速检查点和大规模数据集的快速加载至关重要。
 
 ### 主要用例
-1.  **Large Language Model (LLM) Training:** VRAM 容量和互连速度非常适合训练或微调像 GPT-4 或 Llama 3 这样的模型。
-2.  **Generative AI Video & 3D:** 处理高分辨率视频生成或复杂 3D 渲染管道。
-3.  **Scientific Research:** 需要海量并行计算的气候建模、分子动力学和基因组测序。
-4.  **High-Performance Computing (HPC):** 任何需要 PB 级吞吐量和低延迟 CPU-GPU 通信的工作负载。
+
+1. **Large Language Model (LLM) Training:** VRAM 容量和互连速度非常适合训练或微调像 GPT-4 或 Llama 3 这样的模型。
+2. **Generative AI Video & 3D:** 处理高分辨率视频生成或复杂 3D 渲染管道。
+3. **Scientific Research:** 需要海量并行计算的气候建模、分子动力学和基因组测序。
+4. **High-Performance Computing (HPC):** 任何需要 PB 级吞吐量和低延迟 CPU-GPU 通信的工作负载。

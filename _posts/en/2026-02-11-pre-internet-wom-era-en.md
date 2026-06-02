@@ -27,6 +27,7 @@ Answer:
 - **Old Friends / Friends TV series (Season 1)**: The American sitcom *Friends* (Chinese title: 老友记, "Old Friends Record") Season 1 aired in 1994–1995. It shows landline phones, answering machines, early cordless phones, and televisions, but **no internet** usage (no computers for web, no email shown prominently). Cell phones appear rarely or not at all in early seasons — mobile phones existed but were not everyday items yet (they became more common in later seasons, still basic). The show reflects mid-1990s life where people communicated via phone calls, in-person meetings, letters, or TV — internet was not part of daily life for most.
 
 Overall, the shift to instant digital demos and widespread information access happened gradually:
+
 - Late 1990s: Internet limited to dial-up on PCs in China.
 - Early 2000s: Broadband grows, but still PC-based.
 - Mid-2000s onward: Mobile internet explodes with smartphones (iPhone 2007, Android, WeChat/Alipay era in China ~2010s).

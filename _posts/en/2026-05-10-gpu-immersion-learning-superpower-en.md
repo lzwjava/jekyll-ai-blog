@@ -13,7 +13,7 @@ Question: You are gradually shifting your work activities to be GPU-focused — 
 
 Answer:
 
-## Yes — and the analogy is razor sharp.
+## Yes — and the analogy is razor sharp
 
 ---
 

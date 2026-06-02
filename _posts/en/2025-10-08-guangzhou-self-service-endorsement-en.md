@@ -12,7 +12,8 @@ type: note
 
 Yes, in big cities like Guangzhou, local police stations (派出所, or paichusuo) can handle applications for Hong Kong and Macau endorsements (港澳签注) through self-service machines (智能签注机). These are widely available across districts and operate 24 hours a day in many cases, making it convenient for eligible residents.
 
-### Key Details:
+### Key Details
+
 - **Eligibility**: Primarily for Guangdong province residents or those with a valid Guangzhou residence permit. It's mainly for re-endorsements (e.g., tourism or business on an existing pass). For a first-time blank pass, you typically need to go to a district-level exit-entry office. Non-local residents should check with their home province's police.
 - **Process**: Use the self-service machine to scan your ID, pay, and get the endorsement on the spot (often in 3-5 minutes). No appointment needed.
 - **Locations**: There are over 100 machines in Guangzhou, with many right in local police stations. For example:

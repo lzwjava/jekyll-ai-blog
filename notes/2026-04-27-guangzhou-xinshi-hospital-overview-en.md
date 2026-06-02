@@ -9,11 +9,12 @@ translated: false
 type: note
 ---
 
-Question: What is a comprehensive introduction to the hospital at https://www.gzxsyy.com?
+Question: What is a comprehensive introduction to the hospital at <https://www.gzxsyy.com>?
 
 Answer:
 
 ## Guangzhou Xinshi Hospital (广州新市医院)
+
 ### Also Known As: Guangdong Pharmaceutical University Guangzhou Fosun Chancheng Hospital (广东药科大学广州复星禅诚医院)
 
 ---
@@ -41,6 +42,7 @@ The hospital currently has **48 clinical and medical technology departments**, w
 ### Accreditations & Designations
 
 The hospital has earned numerous recognitions, including being designated as:
+
 - A Guangzhou 120 Emergency Network Hospital
 - A designated hospital for Guangzhou's basic medical insurance, work-related injury insurance, maternity insurance, and public medical care
 - A National Health Commission Baby-Friendly Hospital
@@ -79,13 +81,11 @@ The hospital's motto is **"精诚济世，仁德示范"** ("Dedicated Expertise 
 
 ### Contact Information
 
-
 - **Address:** No. 79 Xinshi New Street, Baiyun District, Guangzhou
 - **Main Line:** 020-62830699
 - **Appointment & Consultation:** 020-62830543
 - **Emergency Center:** 020-36618120
 - **Complaints & Suggestions:** 020-62830588
-
 
 ---
 

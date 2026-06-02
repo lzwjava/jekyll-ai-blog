@@ -37,6 +37,7 @@ The 1981 Resolution served several crucial functions:
 **On the Cultural Revolution (1966-1976)**: The document unequivocally condemned the Cultural Revolution as "responsible for the most severe setback and the heaviest losses suffered by the Party, the state, and the people since the founding of the People's Republic." It attributed this catastrophe to Mao's mistakes while maintaining that it was not representative of the Party as a whole.
 
 **On Historical Periods**: The Resolution divided PRC history into distinct phases:
+
 - Socialist transformation period (1949-1956): Generally positive
 - Socialist construction period (1956-1966): Mixed, with both achievements and "leftist" errors
 - Cultural Revolution (1966-1976): Catastrophic period
@@ -47,6 +48,7 @@ The 1981 Resolution served several crucial functions:
 ### Political Context and Drafting
 
 The Resolution was drafted under Deng Xiaoping's guidance over approximately two years, with input from thousands of Party members. It represented a careful political balancing act between:
+
 - Reformers who wanted thorough repudiation of Maoist excesses
 - Conservatives who resisted criticism of Mao
 - The need to maintain CCP legitimacy and continuity

@@ -49,6 +49,7 @@ python train/extract_fineweb.py
 nanoGPT expects a single `train.bin` / `val.bin` of tokenized data. You need to:
 
 1. Copy `fineweb_extracted_all.txt` into your nanoGPT data dir, e.g.:
+
    ```bash
    mkdir -p ~/nanoGPT/data/fineweb
    cp fineweb_test_dump/fineweb_extracted_all.txt ~/nanoGPT/data/fineweb/
@@ -61,6 +62,7 @@ nanoGPT expects a single `train.bin` / `val.bin` of tokenized data. You need to:
    - Saves as `train.bin` and `val.bin` (numpy uint16 arrays)
 
 3. Run it:
+
    ```bash
    cd ~/nanoGPT
    python data/fineweb/prepare.py
@@ -74,6 +76,7 @@ python train.py config/train_fineweb.py
 ```
 
 Your `train_log_fineweb3.txt` shows the config used before:
+
 - **125M params** (12 layers, 12 heads, 768 embd)
 - **block_size=1024**, batch_size=8, grad_accum=64
 - **12K iters**, ~3B tokens

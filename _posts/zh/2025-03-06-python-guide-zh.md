@@ -15,9 +15,11 @@ type: note
 ## Python指南：核心主题
 
 ### 1. 字符串操作
+
 Python中的字符串是不可变的字符序列。您可以执行连接、重复、切片等操作，并使用内置方法进行字符串处理。
 
 **示例：**
+
 ```python
 # 连接与重复
 s1 = "Hello"
@@ -44,9 +46,11 @@ print(f"My name is {name} and I am {age} years old.")  # 输出：My name is Ali
 ---
 
 ### 2. 数学运算
+
 `math`模块为常见计算提供数学函数和常量。
 
 **示例：**
+
 ```python
 import math
 
@@ -59,9 +63,11 @@ print(math.pi)          # 输出：3.141592653589793
 ---
 
 ### 3. 文本处理（正则表达式）
+
 `re`模块支持使用正则表达式进行模式匹配和文本处理。
 
 **示例：**
+
 ```python
 import re
 
@@ -77,9 +83,11 @@ print(re.findall(r"\b\w{4}\b", text))  # 输出：['rain', 'Spain']
 ---
 
 ### 4. 输入输出
+
 基础输入输出操作支持与用户交互。
 
 **示例：**
+
 ```python
 name = input("请输入您的姓名：")
 print("Hello, " + name + "!")
@@ -88,9 +96,11 @@ print("Hello, " + name + "!")
 ---
 
 ### 5. 文件处理
+
 Python通过`open()`函数简化文件读写操作，推荐使用`with`语句实现自动文件关闭。
 
 **示例：**
+
 ```python
 # 写入文件
 with open("example.txt", "w") as f:
@@ -105,9 +115,11 @@ with open("example.txt", "r") as f:
 ---
 
 ### 6. 网络通信
+
 `requests`库（通过`pip install requests`安装）可简化HTTP请求操作。
 
 **示例：**
+
 ```python
 import requests
 
@@ -119,9 +131,11 @@ print(response.json())       # 输出：GitHub API返回的JSON数据
 ---
 
 ### 7. 集合类型
+
 `collections`模块提供专用数据结构，如`Counter`、`deque`、`namedtuple`等。以下是`Counter`的示例。
 
 **示例：**
+
 ```python
 from collections import Counter
 
@@ -131,6 +145,7 @@ print(word_count)  # 输出：Counter({'apple': 2, 'banana': 1, 'cherry': 1})
 ```
 
 **其他集合类型：**
+
 - `namedtuple`：创建包含命名字段的元组子类
 - `deque`：支持两端高效添加/弹出的双端队列
 - `OrderedDict`：记录插入顺序的字典
@@ -139,9 +154,11 @@ print(word_count)  # 输出：Counter({'apple': 2, 'banana': 1, 'cherry': 1})
 ---
 
 ### 8. 多线程编程
+
 `threading`模块支持并发任务执行，特别适用于I/O密集型操作。
 
 **示例：**
+
 ```python
 import threading
 import time

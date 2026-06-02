@@ -97,6 +97,7 @@ sudo dd if=ubuntu-24.04-desktop-amd64.iso \
    → One typo → you can destroy your system SSD/NVMe
 
 2. Best safety sequence before every `dd`:
+
    ```bash
    lsblk -o NAME,SIZE,TYPE,MOUNTPOINT
    # or
@@ -106,6 +107,7 @@ sudo dd if=ubuntu-24.04-desktop-amd64.iso \
 3. Never use `/dev/sda`, `/dev/nvme0n1` etc. without checking
 
 4. Unmount the target USB first:
+
    ```bash
    sudo umount /dev/sdX* 2>/dev/null
    ```

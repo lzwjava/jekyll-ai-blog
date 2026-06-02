@@ -24,15 +24,18 @@ The most credible AI/ML certifications all share a key trait: they require a **p
 This is Google's primary AI/ML engineering certification.
 
 **Exam Details:**
+
 - The exam has 50–60 multiple-choice and multiple-select questions, and you have 2 hours to complete it.
 - The exam fee is **$200 USD**. You can choose between an online proctored exam or an in-person exam at a test center, managed via the Webassessor platform.
 - To keep your certification active, you need to recertify every two years. If you fail, you can retake it after 14 days; after a second failure, you must wait 60 days.
 
 **What it covers:**
+
 - Six domains: Architecting low-code AI solutions (13%), Collaborating across teams to manage data/models (14%), Scaling prototypes into ML models (18%), plus sections on serving, automating ML pipelines, and monitoring AI systems.
 - Topics include designing, training, building, deploying, and operationalizing secure ML applications using Vertex AI, TensorFlow, Kubeflow, and AutoML.
 
 **Who it's for:**
+
 - Recommended experience is 3+ years in the industry, including at least 1 year designing solutions with Google Cloud. The exam does not require live coding, but you should be comfortable reading Python and SQL code snippets.
 
 **Trustworthiness:** High. This is an advanced certification where the exam tests your ability to solve real problems using Google Cloud's tools — you need hands-on experience to pass.
@@ -44,14 +47,17 @@ This is Google's primary AI/ML engineering certification.
 AWS offers a tiered path, all delivered via **Pearson VUE** (onsite test center or online proctored):
 
 ### AWS Certified AI Practitioner (Entry-level)
+
 - Available at a Pearson VUE testing center or as an online proctored exam, offered in multiple languages including English, Japanese, Korean, Chinese, and others.
 - Cost: **$100 USD**. Good for non-technical roles or beginners.
 
 ### AWS Certified Machine Learning Engineer – Associate
+
 - A newer mid-level track focusing on generative AI pipelines and ML deployment.
 - Emerging track focusing on generative AI pipelines. AWS excels in integration with e-commerce and IoT use cases.
 
 ### AWS Certified Machine Learning – Specialty (Advanced)
+
 - The exam takes three hours, includes 65 questions, and costs **$300**. Available as a proctored online exam or in person at a testing center.
 - This is one of the hardest AWS certifications, and people often fail on their first attempt — but passing it carries significant weight with employers.
 - Hiring surveys consistently link this certification with roughly a **20% salary boost** in existing data and engineering roles, especially in AWS-heavy organizations.
@@ -65,10 +71,12 @@ AWS offers a tiered path, all delivered via **Pearson VUE** (onsite test center 
 Microsoft exams are delivered via **Pearson VUE** or **Certiport** (onsite or remote):
 
 ### Azure AI Fundamentals (AI-900) — Entry-level
+
 - This exam is proctored and may include interactive components. Retakes are allowed 24 hours after the first attempt.
 - No coding required. Good for beginners or non-technical staff.
 
 ### Azure AI Engineer Associate (AI-102) — Professional level
+
 - As an Azure AI engineer, you build, manage, and deploy AI solutions that leverage Azure AI — participating in all phases of development including building secure end-to-end AI solutions and integrating AI capabilities in other applications.
 - This is considered the strongest cloud AI certification for GenAI engineers, heavily covering Azure OpenAI Service and how enterprises deploy GPT models in production. Best for engineers targeting Microsoft-stack enterprises such as Fortune 500, financial services, and government.
 - ⚠️ **Note:** This certification and exam will retire on June 30, 2026. Microsoft is expected to release an updated version.

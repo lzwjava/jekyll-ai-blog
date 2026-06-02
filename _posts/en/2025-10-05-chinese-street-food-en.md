@@ -15,9 +15,11 @@ type: note
 Chinese street food is incredibly diverse, varying by region, but skewers (known as *chuanr* or *shaokao*) are a staple, especially in northern and western areas like Beijing and Xinjiang. Beef skewers (*niu rou chuan*) are popular alongside the more traditional lamb versions. Other common elements include vegetable-based snacks and bold sauces for dipping or drizzling. Below, I'll break it down based on your query, focusing on beef skewers, vegetables, and sauces.
 
 #### Beef Skewers (Niu Rou Chuan)
+
 These are tender beef cubes or strips threaded on bamboo or metal skewers, marinated, and grilled over charcoal for a smoky flavor. The meat is often flank steak or sirloin, cut into bite-sized pieces.
 
 **Key Ingredients:**
+
 - **Meat:** Beef (flank steak or similar lean cuts), about 1-2 lbs for 20-30 skewers.
 - **Marinade Base:** Soy sauce (for umami), Shaoxing rice wine or dry sherry (for tenderness), sesame oil (for richness), and a touch of sugar or honey (to caramelize).
 - **Spices and Seasonings:** Cumin (ground and whole seeds for earthiness), Sichuan peppercorns (for numbing tingle), chili flakes or powder (for heat), fennel seeds (for subtle anise), garlic, ginger, and white pepper. A spice mix is often sprinkled post-grill.
@@ -26,9 +28,11 @@ These are tender beef cubes or strips threaded on bamboo or metal skewers, marin
 The skewers are marinated for 30 minutes to overnight, then grilled hot and fast, brushed with oil midway.
 
 #### Vegetables in Street Food
+
 Vegetables often appear skewered, stir-fried, or in wraps like jianbing (savory crepes). Common ones are fresh, seasonal, and quick to cook—think crisp greens or root veggies. Veggie skewers might include mushrooms, peppers, or tofu alongside meat.
 
 **Typical Vegetables:**
+
 - Leafy greens: Bok choy, pea shoots, or Chinese broccoli (gai lan)—often stir-fried or in simple salads.
 - Root and stem veggies: Lotus root (sliced thin and fried), eggplant (grilled with garlic), or carrots (shredded in dumplings).
 - Skewered favorites: Bell peppers, onions, enoki mushrooms, zucchini, or corn on the cob—marinated lightly with soy and grilled.
@@ -37,9 +41,11 @@ Vegetables often appear skewered, stir-fried, or in wraps like jianbing (savory 
 These are usually seasoned minimally to highlight freshness, with a dash of salt or chili.
 
 #### Sauces and Condiments
+
 Sauces add the punch—sweet, spicy, or savory—and are drizzled on skewers or used as dips. Street vendors keep it simple with bottles of chili oil or spice blends.
 
 **Common Sauces:**
+
 - **Soy-based:** Light or dark soy sauce, often mixed with vinegar for tang.
 - **Spicy:** Chili oil (la jiao you) with Sichuan peppercorns, or chili-garlic sauce.
 - **Thick/Sweet:** Hoisin sauce (plum-based, for glazing) or oyster sauce (for meaty depth).

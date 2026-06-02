@@ -41,6 +41,7 @@ In 1998, Lenovo invested $4.5 million in Kingsoft, saving it from collapse. Lei 
 ### **The Survival Years (Late 1990s-2000s): Diversification**
 
 To survive, Kingsoft had to diversify beyond WPS:
+
 - Dictionary software (iciba)
 - Antivirus software
 - Video players
@@ -67,6 +68,7 @@ The international expansion accelerated in 2011 when the mobile version was laun
 ### **The Success Formula**
 
 WPS succeeded by:
+
 1. **Persistence through decades** of losses and competition
 2. **Format compatibility**—spending 20-30 years perfecting interoperability with Microsoft Office
 3. **Mobile-first strategy**—capitalizing on the smartphone revolution

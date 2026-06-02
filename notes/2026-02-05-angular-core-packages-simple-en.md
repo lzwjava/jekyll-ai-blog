@@ -15,6 +15,7 @@ The Angular ecosystem has several key packages that work together. Here's how th
 **@angular/core** is the fundamental package that contains the core framework functionality - things like components, directives, dependency injection, change detection, and the component lifecycle. Every Angular app needs this.
 
 **@angular/compiler** translates your Angular templates (the HTML with Angular-specific syntax) into JavaScript code that browsers can execute. This happens in two ways:
+
 - Just-in-time (JIT): compilation happens in the browser at runtime
 - Ahead-of-time (AOT): compilation happens during the build process (preferred for production)
 
@@ -23,6 +24,7 @@ The Angular ecosystem has several key packages that work together. Here's how th
 **@angular/compiler-cli** is the CLI's interface to the compiler, used during the build process for AOT compilation.
 
 **Think of it this way:**
+
 - `@angular/core` = the engine of your car
 - `@angular/compiler` = translates your Angular code into something the browser understands
 - `@angular/cli` = your toolbox and control panel for building and managing Angular apps

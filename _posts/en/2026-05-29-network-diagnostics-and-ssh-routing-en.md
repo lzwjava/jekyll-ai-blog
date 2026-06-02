@@ -11,7 +11,6 @@ type: note
 
 Here's the full analysis:
 
-
     NETWORK DIAGNOSIS
     ================
 

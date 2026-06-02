@@ -17,10 +17,12 @@ Answer:
 **IO-bound** and **CPU-bound** describe the primary bottleneck that limits the performance or throughput of a program/task.
 
 ### CPU-bound (Compute-bound)
+
 - The task spends most of its time **doing actual computation** inside the CPU.
 - The program is limited by **CPU speed**, number of cores, and how efficiently the code uses the processor.
 
 **Typical characteristics:**
+
 - Heavy number crunching
 - Lots of math operations, encryption/decryption, video encoding, scientific simulations, machine learning training/inference, image processing, compiling large codebases, etc.
 - Very high CPU usage (close to 100% on the cores being used)
@@ -33,6 +35,7 @@ Answer:
 "This machine learning training job is strongly CPU-bound — even with 128 CPU cores it's still running at 100% CPU for hours."
 
 ### IO-bound
+
 - The task spends most of its time **waiting for input/output operations** to complete.
 - The CPU is mostly idle while waiting for data.
 
@@ -44,6 +47,7 @@ Answer:
 - **Pipe / socket communication** between processes
 
 **Typical characteristics:**
+
 - Low to moderate CPU usage (often < 30–50%)
 - High wait times visible in tools (iowait, network wait, etc.)
 - Usually benefits a lot from:
@@ -67,6 +71,7 @@ Answer:
 | Benefits from asyncio / event loop? | Usually no                        | Usually very much yes                 |
 
 In short:
+
 - CPU-bound → "My CPU is working hard"
 - IO-bound → "My CPU is mostly waiting"
 

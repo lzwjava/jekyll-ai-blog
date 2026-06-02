@@ -22,6 +22,7 @@ answer:
 在终端中运行命令 `pmset -g batt` 会报告电池的充电状态，包括当前是从交流电源还是电池电源供电，以及充电状态。
 
 `pmset -g batt` 的输出可能包含如下状态：
+
 - `charging` —— 适配器已连接且正在充电
 - `discharging` —— 正在使用电池供电
 - `not charging` —— 适配器 **已插入**，但电力并未流动（你的插座开关问题！）
@@ -176,12 +177,14 @@ if __name__ == "__main__":
 ## 如何运行
 
 **第1步 — 保存文件：**
+
 ```bash
 nano ~/mac_charge_watcher.py
 # 粘贴脚本，然后按Ctrl+O保存，Ctrl+X退出
 ```
 
 **第2步 — 运行：**
+
 ```bash
 python3 ~/mac_charge_watcher.py
 ```

@@ -32,26 +32,32 @@ He was also a **1978 Hertz Fellow**, a prestigious merit-based graduate fellowsh
 ### Career Timeline
 
 #### Bell Labs (Early 1980s)
+
 Following his PhD from MIT in 1983, Jim Roskind joined Bell Labs, where he engaged in research and development on data communication and networking projects, leveraging his expertise in fault-tolerant systems.
 
 #### Freelance & Open Source Contributions (1983–1994)
+
 For the 10 years before Infoseek, he was a freelance software contractor, working at too many companies to list. One compiler job motivated him to write an open-source YACCable C++ grammar, and then to become the head of the Formal Syntax Working Group for ANSI C++.
 
 #### Infoseek Co-Founder (1994)
+
 Roskind co-founded Infoseek in 1994 with 7 other people, including Steve Kirsch. Later that year, Roskind wrote the Python profiler which is part of the standard library. This profiler remains in Python's standard library to this day — a lasting contribution to the developer community.
 
 #### Netscape / AOL — Chief Architect & Java Security Architect (1995–2003)
+
 Jim worked at Netscape for 8 years, where he designed and deployed a Java Security model with Signed Java, as well as helping design SSL 2.0 and serving as the Java Security Architect. His security work during this period helped establish early web security standards during the foundational years of the internet.
 
 While at Netscape in 1996, he successfully brought a lawsuit against Morgan Stanley, arguing that the way they sold his stock caused him to get a lower price than he should have. That case was appealed up to the US Supreme Court, which declined to hear the case, leaving in place a precedent where individuals can sue stock brokers for violations of state law.
 
 #### Google (2008–2016) — Designing QUIC
+
 He worked at Google for eight years, where he designed the QUIC protocol, and led its implementation in Chrome, which has evolved into the recently approved IETF Standard HTTP/3.
 
 Beyond QUIC, his broader work at Google included:
 designing and implementing a client-side metrics system, speculative DNS pre-resolution, speculative TCP pre-connection, Shared Dictionary Compression over HTTP (SDCH), and an always-on internal profiler. Before leaving Google, he also spent a year on Machine Learning research.
 
 #### Amazon (2016–Present) — VP and Distinguished Engineer
+
 Jim Roskind is the vice president and distinguished engineer at Amazon, joining the company in 2016. The bulk of Jim's work there has focused on improving computational efficiency, eCommerce availability, and application latency.
 
 ---

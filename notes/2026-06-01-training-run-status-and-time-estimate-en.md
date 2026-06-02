@@ -29,6 +29,7 @@ Remaining time: 444,550 × 0.45 = 199,647 sec = 55.5 hours
 Earlier 8-10 hour estimate was wrong — that was based on the smoke test (batch=4, no compile). Real step time with batch=32 + compile is ~450ms, not ~81ms.
 
 Current loss trajectory is healthy:
+
 ```
 step  0: 11.12  (random init)
 step 50:  8.61

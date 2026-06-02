@@ -20,12 +20,14 @@ The only things you see now are **non-fatal warnings**:
 [WARNING]: No inventory was parsed, only implicit localhost is available
 [WARNING]: provided hosts list is empty, only localhost is available...
 ```
+
 → Normal when you run against localhost without an inventory file. You can ignore them or silence them if you want.
 
 ```
 [DEPRECATION WARNING]: INJECT_FACTS_AS_VARS default to `True` is deprecated...
 Use `ansible_facts["fact_name"]` instead.
 ```
+
 → This is just Ansible telling you that in the future (ansible-core 2.24+), facts like `ansible_date_time` will no longer be automatically available as top-level variables.
 
 ### Quick fixes (optional but recommended for future-proofing)
@@ -33,6 +35,7 @@ Use `ansible_facts["fact_name"]` instead.
 Update your playbook like this:
 
 {% raw %}
+
 ```yaml
 ---
 - name: Tiny demo
@@ -50,6 +53,7 @@ Update your playbook like this:
         dest: /tmp/hello_from_ansible.txt
         mode: '0644'
 ```
+
 {% endraw %}
 
 Key change:

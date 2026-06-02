@@ -37,13 +37,13 @@ Your idea:
 
 There is some truth here, but also key limitations:
 
-### What works:
+### What works
 
 * Canada PR is **more predictable** than U.S. green card
 * Some companies operate in both countries (e.g., Amazon, Google)
 * You can build experience and income in Canada
 
-### What doesn’t work as expected:
+### What doesn’t work as expected
 
 * Canadian PR **does NOT increase your H1B chances**
 * H1B is still a **lottery**, regardless of where you live

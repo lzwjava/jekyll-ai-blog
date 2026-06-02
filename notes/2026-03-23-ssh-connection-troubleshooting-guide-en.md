@@ -18,16 +18,19 @@ Here's the systematic approach I used to diagnose your SSH issue:
 ### Step 1: Check Proxy Configuration
 
 **Command:**
+
 ```bash
 env | grep -i proxy
 ```
 
 **What it reveals:**
+
 - All proxy-related environment variables
 - Whether HTTP_PROXY, HTTPS_PROXY, ALL_PROXY are set
 - What NO_PROXY excludes
 
 **Your results:**
+
 ```
 HTTP_PROXY=http://127.0.0.1:7890
 HTTPS_PROXY=http://127.0.0.1:7890
@@ -42,15 +45,18 @@ NO_PROXY=localhost,127.0.0.1,.example.com,::1
 ### Step 2: Verify Proxy Service is Running
 
 **Command:**
+
 ```bash
 lsof -i :7890
 ```
 
 **What it reveals:**
+
 - Whether anything is listening on the proxy port
 - What process owns the proxy connection
 
 **Your results:**
+
 ```
 node       1870 lzwjava   19u  IPv4 ... TCP localhost:55717->localhost:7890 (ESTABLISHED)
 AMPLibrar  2729 lzwjava   13u  IPv4 ... TCP localhost:55704->localhost:7890 (ESTABLISHED)
@@ -63,15 +69,18 @@ AMPLibrar  2729 lzwjava   13u  IPv4 ... TCP localhost:55704->localhost:7890 (EST
 ### Step 3: Test Basic Network Connectivity
 
 **Command:**
+
 ```bash
 ping -c 3 192.168.2.1
 ```
 
 **What it reveals:**
+
 - Whether the host is reachable at the network layer (ICMP)
 - Round-trip time and packet loss
 
 **Your results:**
+
 ```
 3 packets transmitted, 3 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 6.923/7.855/9.023/0.874 ms
@@ -84,15 +93,18 @@ round-trip min/avg/max/stddev = 6.923/7.855/9.023/0.874 ms
 ### Step 4: Test SSH Without Proxy Variables
 
 **Command:**
+
 ```bash
 env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY ssh -o ConnectTimeout=5 root@192.168.2.1 exit
 ```
 
 **What it reveals:**
+
 - Whether removing proxy variables fixes the issue
 - If the problem is proxy-related or something else
 
 **Your results:**
+
 ```
 ssh: connect to host 192.168.2.1 port 22: Operation timed out
 ```
@@ -104,15 +116,18 @@ ssh: connect to host 192.168.2.1 port 22: Operation timed out
 ### Step 5: Check SSH Configuration
 
 **Command:**
+
 ```bash
 cat ~/.ssh/config
 ```
 
 **What it reveals:**
+
 - Whether SSH has proxy commands configured
 - Host-specific connection rules
 
 **Your results:**
+
 ```
 Host !192.168.*.*
     ProxyCommand ncat --proxy localhost:7891 --proxy-type socks5 %h %p
@@ -125,15 +140,18 @@ Host !192.168.*.*
 ### Step 6: Test Port 22 Directly
 
 **Command:**
+
 ```bash
 nc -zv -w 3 192.168.2.1 22
 ```
 
 **What it reveals:**
+
 - Whether port 22 is open and accepting connections
 - Bypasses SSH entirely to test raw TCP connectivity
 
 **Your results:**
+
 ```
 192.168.2.1 22 (ssh): Operation timed out
 ```
@@ -145,15 +163,18 @@ nc -zv -w 3 192.168.2.1 22
 ### Step 7: Check Local Network Configuration
 
 **Command:**
+
 ```bash
 ifconfig | grep -A 2 "inet 192.168"
 ```
 
 **What it reveals:**
+
 - What subnet your Mac is on
 - Your local IP address
 
 **Your results:**
+
 ```
 inet 192.168.1.37 netmask 0xffffff00 broadcast 192.168.1.255
 ```
@@ -165,15 +186,18 @@ inet 192.168.1.37 netmask 0xffffff00 broadcast 192.168.1.255
 ### Step 8: Check ARP Table
 
 **Command:**
+
 ```bash
 arp -n 192.168.2.1
 ```
 
 **What it reveals:**
+
 - Whether your Mac has communicated directly with the router at Layer 2
 - If the router is on the same physical network segment
 
 **Your results:**
+
 ```
 192.168.2.1 (192.168.2.1) -- no entry
 ```
@@ -185,15 +209,18 @@ arp -n 192.168.2.1
 ### Step 9: Check Routing Table
 
 **Command:**
+
 ```bash
 route -n get 192.168.2.1
 ```
 
 **What it reveals:**
+
 - How your Mac routes traffic to 192.168.2.1
 - What gateway it uses
 
 **Your results:**
+
 ```
 route to: 192.168.2.1
 destination: 192.168.2.1
@@ -266,6 +293,7 @@ SSH to 192.168.2.1 fails
 ## The Smoking Gun
 
 The combination of:
+
 - ✅ Ping works (ICMP routed)
 - ❌ SSH fails even without proxy
 - ❌ Port 22 unreachable via netcat

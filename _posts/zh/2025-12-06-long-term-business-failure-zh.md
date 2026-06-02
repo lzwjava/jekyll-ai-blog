@@ -37,6 +37,7 @@ type: note
 简而言之：经久不衰的企业是由古怪、有耐心、通常不讨人喜欢的人建立的，他们更关心企业的生存，而不是个人品牌或生活方式。这种性格类型越来越罕见，并受到社会排斥。
 
 参考文献：
+
 - [The Founders Podcast – 关于长寿公司的各种剧集](https://www.thefounderspodcast.com/)
 - [“从0到1”与几十年来公司墓地的现实检验](https://www.penguinrandomhouse.com/books/247001/zero-to-one-by-peter-thiel-with-blake-masters/)
 - [伯克希尔哈撒韦股东信函（1965年至今）](https://www.berkshirehathaway.com/letters/letters.html)

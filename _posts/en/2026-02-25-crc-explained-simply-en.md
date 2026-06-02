@@ -31,7 +31,7 @@ The fundamental idea is:
 
 ## Step-by-Step Process
 
-### At the Sender Side:
+### At the Sender Side
 
 1. **Choose a generator polynomial** (e.g., `x³ + x + 1`, represented as binary `1011`).
 2. **Append zeros** to the original data — the number of zeros equals the degree of the polynomial (i.e., if the polynomial is degree 3, append 3 zeros).
@@ -39,7 +39,7 @@ The fundamental idea is:
 4. The **remainder** from this division is the CRC checksum.
 5. **Replace the appended zeros** with the CRC remainder and transmit the full frame (original data + CRC).
 
-### At the Receiver Side:
+### At the Receiver Side
 
 1. Take the received data (including the CRC at the end).
 2. Divide it by the **same generator polynomial** using Modulo-2 division.
@@ -51,10 +51,12 @@ The fundamental idea is:
 ## Example (Simplified)
 
 Suppose:
+
 - Data bits: `1101011011`
 - Generator polynomial (key): `10011` (represents CRC-4)
 
 Steps:
+
 1. Append 4 zeros: `11010110110000`
 2. Perform XOR-based (Modulo-2) division by `10011`
 3. Get remainder, e.g., `1110`
@@ -67,6 +69,7 @@ Receiver divides `11010110111110` by `10011`. If remainder = `0000`, data is val
 ## Modulo-2 Division (XOR Division)
 
 Unlike regular division, Modulo-2 division uses **XOR** instead of subtraction:
+
 - `0 XOR 0 = 0`
 - `1 XOR 1 = 0`
 - `0 XOR 1 = 1`
@@ -92,11 +95,13 @@ Higher bit-length CRCs are more robust but require more computation. **CRC-32** 
 ## What CRC Can and Cannot Do
 
 **CRC Can:**
+
 - Detect single-bit errors
 - Detect burst errors (contiguous corrupted bits) up to the polynomial's degree in length
 - Detect most random error patterns
 
 **CRC Cannot:**
+
 - **Correct** errors — it only detects them
 - Guarantee detection of all possible multi-bit errors (though very effective)
 - Provide cryptographic security (it can be reverse-engineered)

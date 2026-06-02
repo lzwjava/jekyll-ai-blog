@@ -15,6 +15,7 @@ Your experience highlights several valuable lessons for handling future power ou
 ---
 
 ### **Key Lessons Learned:**
+
 1. **Proactive Response Over Reactive Frustration**
    - You waited ~50 minutes before acting (going to the car at 00:55), but the outage lasted only ~57 minutes (00:06–01:03). Next time, assume a **minimum 1-hour outage** (or longer if your area has frequent issues) and act earlier to avoid discomfort.
    - *Example*: If the AC cuts off at 00:06, move to the car by 00:15–00:20 to maximize cool air time.
@@ -64,16 +65,20 @@ Your experience highlights several valuable lessons for handling future power ou
 ---
 
 ### **Your Proposed Solution (With Tweaks):**
+>
 > *"I should go to my car early as soon as possible, next time just expect this will need 1 hour to fix, so I can enjoy cold air more in my car, instead of frustrating for 50 mins."*
 
 **Refined Approach:**
+
 1. **10-Minute Rule**: If power is out for **10+ minutes** with no signs of restoration (e.g., no streetlights flickering), assume it’s a **1+ hour outage** and head to the car.
 2. **Signal Check**: Before descending to the parking lot, step outside your apartment to test signal strength. If weak, drive to a spot with better reception (e.g., near the building entrance) to communicate.
 3. **Comfort First**: Prioritize cooling over waiting. Even if power returns sooner, you’ve lost little (e.g., 10 mins of car AC is better than 50 mins of sweating).
 4. **Exit Strategy**: If you’re in the car and power returns, you can always go back up. No harm done!
 
 ---
+
 ### **Example Scenario for Next Time:**
+
 - **00:06**: Power out. AC off.
 - **00:08**: Check phone for outage alerts (some apps like "Power Outage Tracker" show local issues).
 - **00:10**: No power restoration. Grab phone, keys, water bottle.
@@ -83,7 +88,9 @@ Your experience highlights several valuable lessons for handling future power ou
 - **01:03**: Power returns. Drive back up or wait for wife if she’s joining.
 
 ---
+
 ### **Final Thought:**
+
 You’re already thinking critically about improving—**that’s the hardest part**. The key is to **act faster next time** and **reduce decision fatigue** by having a clear plan. Power outages are inconvenient, but with small tweaks, you can turn them into minor blips rather than major disruptions.
 
 Would you like help drafting a quick "power outage checklist" to stick on your fridge?

@@ -13,7 +13,9 @@ To use the `javax.net.ssl` package in Java, you need to leverage its classes to 
 ---
 
 ### **Overview of `javax.net.ssl`**
+
 The `javax.net.ssl` package provides tools for secure socket communication. It includes:
+
 - **`SSLSocket`**: A client-side socket for secure communication.
 - **`SSLServerSocket`**: A server-side socket to accept secure connections.
 - **`SSLSocketFactory`**: A factory to create `SSLSocket` instances.
@@ -26,9 +28,11 @@ These components enable encrypted data exchange, ensuring confidentiality and in
 ---
 
 ### **Using `javax.net.ssl` as a Client**
+
 For a client application connecting to a secure server (e.g., an HTTPS server), you typically use `SSLSocketFactory` to create an `SSLSocket`. Here’s how:
 
 #### **Steps**
+
 1. **Obtain an `SSLSocketFactory`**:
    Use the default factory provided by Java, which relies on the system’s default SSL/TLS settings and truststore (a repository of trusted certificates).
 
@@ -49,6 +53,7 @@ For a client application connecting to a secure server (e.g., an HTTPS server), 
    Use the socket’s input and output streams to send and receive data. The SSL/TLS handshake (which establishes the secure connection) occurs automatically when you first read from or write to the socket.
 
 #### **Example: Sending an HTTP GET Request**
+
 Here’s a complete example that connects to a server and retrieves a webpage:
 
 ```java
@@ -90,6 +95,7 @@ public class SSLClientExample {
 ```
 
 #### **Key Notes**
+
 - **Handshake**: The SSL/TLS handshake is handled automatically when you use the socket.
 - **Trust**: By default, Java trusts certificates signed by well-known Certificate Authorities (CAs) stored in its truststore. If the server’s certificate is not trusted, you’ll need to configure a custom truststore (more on this later).
 - **Hostname Verification**: `SSLSocket` does not perform hostname verification by default (unlike `HttpsURLConnection`). To enable it, use `SSLParameters`:
@@ -106,9 +112,11 @@ public class SSLClientExample {
 ---
 
 ### **Using `javax.net.ssl` as a Server**
+
 For a server accepting secure connections, you use `SSLServerSocketFactory` to create an `SSLServerSocket`. The server must provide a certificate, typically stored in a keystore.
 
 #### **Steps**
+
 1. **Set Up a Keystore**:
    Create a keystore containing the server’s private key and certificate (e.g., using Java’s `keytool` to generate a `.jks` file).
 
@@ -142,6 +150,7 @@ For a server accepting secure connections, you use `SSLServerSocketFactory` to c
    Accept client connections and communicate over the resulting `SSLSocket`.
 
 #### **Example: Simple SSL Server**
+
 ```java
 import javax.net.ssl.*;
 import java.io.*;
@@ -185,15 +194,18 @@ public class SSLServerExample {
 ```
 
 #### **Key Notes**
+
 - **Keystore**: The server requires a certificate, typically in a `.jks` file, which you must generate and configure.
 - **Client Authentication**: If the server requires clients to provide certificates, initialize the `SSLContext` with a `TrustManager` and call `serverSocket.setNeedClientAuth(true)`.
 
 ---
 
 ### **Advanced Configuration**
+
 For more control over SSL/TLS behavior, you can customize the following:
 
 #### **1. Custom Truststore**
+
 If the server’s certificate isn’t signed by a trusted CA, load a custom truststore:
 
 ```java
@@ -210,6 +222,7 @@ SSLSocketFactory factory = context.getSocketFactory();
 ```
 
 #### **2. Protocol Versions**
+
 Specify secure protocols (e.g., TLS 1.2 or 1.3) to avoid outdated, insecure versions:
 
 ```java
@@ -217,6 +230,7 @@ socket.setEnabledProtocols(new String[] {"TLSv1.2", "TLSv1.3"});
 ```
 
 #### **3. Cipher Suites**
+
 Restrict the cipher suites used for encryption:
 
 ```java
@@ -226,7 +240,9 @@ socket.setEnabledCipherSuites(new String[] {"TLS_AES_128_GCM_SHA256"});
 ---
 
 ### **Summary**
+
 To use `javax.net.ssl`:
+
 - **For Clients**: Use `SSLSocketFactory` to create an `SSLSocket`, connect to a server, and optionally configure hostname verification with `SSLParameters`.
 - **For Servers**: Configure an `SSLContext` with a keystore and `KeyManager`, then use `SSLServerSocketFactory` to create an `SSLServerSocket`.
 - **Customization**: Use `SSLContext`, `KeyManager`, and `TrustManager` for advanced certificate handling, and set protocols or cipher suites as needed.

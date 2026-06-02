@@ -16,6 +16,7 @@ type: note
 Here's how it actually works:
 
 **Credit consumption ratio by model:**
+
 - **MiMo-V2.5 / MiMo-V2-Omni** → 1x (1 Credit per token)
 - **MiMo-V2.5-Pro / MiMo-V2-Pro** → 2x (2 Credits per token)
 - **TTS models** → 0x (free for a limited time, don't consume Credits)

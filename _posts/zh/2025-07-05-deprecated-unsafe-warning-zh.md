@@ -12,10 +12,12 @@ type: note
 警告信息显示：
 
 ```
+
 WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
 WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.10/libexec/lib/guice-5.1.0-classes.jar)
 WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
 WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+
 ```
 
 这是**Java虚拟机（JVM）发出的警告**，并非直接源自你的代码。意味着你使用的某个库（本例中是Guice，具体为`guice-5.1.0-classes.jar`）内部调用了`sun.misc.Unsafe`中的方法（`staticFieldBase`）。

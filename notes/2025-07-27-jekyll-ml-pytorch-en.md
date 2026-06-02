@@ -16,9 +16,11 @@ Since you're running a Jekyll blog (a static site generator), integrating ML/AI 
 You'll likely create Python scripts (e.g., in your `scripts/` directory) that run during Jekyll's build process (via a Makefile hook or GitHub Actions if deployed). For example, process Markdown posts in `_posts/`, generate JSON data, and inject it into your site via Liquid templates.
 
 #### 1. Article Categorization with a PyTorch Classifier
+
 Categorize posts automatically (e.g., into topics like "ML", "Notes", "Latex") by training a simple neural network classifier. This is supervised learning: you'll need to manually label a subset of your posts as training data. If you don't have labels, start with unsupervised clustering (see below).
 
 **Steps:**
+
 - **Data Preparation:** Parse your Markdown files in `_posts/`. Extract text content (skip frontmatter). Create a dataset: list of (text, label) pairs. Use a CSV or list for ~50-100 labeled examples initially.
 - **Preprocessing:** Tokenize text (simple split on spaces/whitespace), build a vocabulary, convert to numerical indices. Use one-hot encoding or basic embeddings.
 - **Model:** A basic feedforward neural network in PyTorch for multi-class classification.
@@ -26,6 +28,7 @@ Categorize posts automatically (e.g., into topics like "ML", "Notes", "Latex") b
 - **Integration:** Run the script during build to classify all posts, generate a `categories.json` file, and use it in Jekyll to tag pages or create category indexes.
 
 **Example PyTorch Code Snippet (in a script like `scripts/categorize_posts.py`):**
+
 ```python
 import torch
 import torch.nn as nn
@@ -105,9 +108,11 @@ def classify_post(text):
 **Improvements:** For better accuracy, use word embeddings (train a simple Embedding layer in PyTorch) or add more layers. If unlabeled, switch to clustering (e.g., KMeans on embeddings—see next section). Run this script in your Makefile: `jekyll build && python scripts/categorize_posts.py`.
 
 #### 2. Recommendation System with PyTorch Embeddings
+
 Recommend similar articles to readers (e.g., "You might also like..."). Use content-based recommendation: learn embeddings for each post, then compute similarity (cosine distance). No user data needed—just post content.
 
 **Steps:**
+
 - **Data:** Same as above—extract text from posts.
 - **Model:** Train an autoencoder in PyTorch to compress text into low-dimensional embeddings (e.g., 64-dim vectors).
 - **Training:** Minimize reconstruction loss to learn meaningful representations.
@@ -115,6 +120,7 @@ Recommend similar articles to readers (e.g., "You might also like..."). Use cont
 - **Integration:** Precompute embeddings during build, store in JSON. Use JS on the site to show recommendations (or Liquid for static lists).
 
 **Example PyTorch Code Snippet (in `scripts/recommend_posts.py`):**
+
 ```python
 import torch
 import torch.nn as nn
@@ -178,13 +184,16 @@ with open('embeddings.json', 'w') as f:
 **Improvements:** Use a variational autoencoder for better embeddings. If you have user views (via analytics), add collaborative filtering with a matrix factorization model in PyTorch. Client-side: Load JSON in JS and compute similarities on-the-fly for personalization.
 
 #### 3. Other Ideas with PyTorch
+
 - **Unsupervised Clustering for Auto-Tagging:** If labeling is tedious, use embeddings (from above autoencoder) + KMeans clustering to group posts into topics. PyTorch for embeddings, NumPy/SciPy for clustering.
+
   ```python
   from sklearn.cluster import KMeans
   kmeans = KMeans(n_clusters=5)
   clusters = kmeans.fit_predict(embeddings)
   # Assign tags based on clusters
   ```
+
   Integrate: Generate tags in frontmatter via script.
 
 - **Semantic Search Enhancement:** Embed queries and posts similarly, then use cosine similarity for a search bar. Precompute post embeddings; use JS for query embedding (but since PyTorch is Python, export model to ONNX for JS inference via ONNX.js, or keep search static).
@@ -192,6 +201,7 @@ with open('embeddings.json', 'w') as f:
 - **Post Summarization:** Train a seq2seq model (RNN/LSTM in PyTorch) on paired (full text, manual summary) data. Challenging without large datasets, but start small with your posts. Use for generating excerpts.
 
 **General Tips:**
+
 - **Scalability:** For a small blog, train on CPU; PyTorch handles it fine. Save models with `torch.save` and load for inference.
 - **Build Integration:** Add to Makefile: `train: python scripts/train_models.py` then `build: jekyll build && python scripts/generate_features.py`.
 - **Limitations:** Without advanced NLP (e.g., transformers), results are basic—consider adding `torchtext` or manual GloVe embeddings locally. Test on your `ml/` or `notes/` dirs.

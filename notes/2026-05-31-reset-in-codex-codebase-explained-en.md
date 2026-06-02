@@ -18,10 +18,12 @@ There are several distinct "reset" concepts in codex-rs:
 **1. `/clear` slash command (UI reset + new chat)**
 
 The `/clear` command does two things:
+
 - Clears the terminal UI (transcript cells, overlays, deferred history lines, backtrack state)
 - Starts a fresh chat session
 
 From `event_dispatch.rs:32`:
+
 ```rust
 AppEvent::ClearUi => {
     self.clear_terminal_ui(tui, /*redraw_header*/ false)?;
@@ -34,6 +36,7 @@ AppEvent::ClearUi => {
 ```
 
 The `reset_app_ui_state_after_clear()` method clears:
+
 - Transcript cells
 - Overlays
 - Deferred history lines
@@ -44,6 +47,7 @@ But critically, it preserves the chat widget's session state (thread_id, model, 
 **2. `/new` slash command (new chat, no UI clear)**
 
 Simpler — just starts a new session without clearing the terminal:
+
 ```rust
 AppEvent::NewSession => {
     self.start_fresh_session_with_summary_hint(
@@ -56,6 +60,7 @@ AppEvent::NewSession => {
 **3. WebSocket session reset (transport-level)**
 
 In `core/src/client.rs:958`, `reset_websocket_session()` drops the current WebSocket connection state:
+
 ```rust
 fn reset_websocket_session(&mut self) {
     self.websocket_session.connection = None;
@@ -64,6 +69,7 @@ fn reset_websocket_session(&mut self) {
     ...
 }
 ```
+
 This is a transport concern — it clears stale connection state when a WebSocket needs to be re-established.
 
 **4. Memory reset (`memory/reset` API)**

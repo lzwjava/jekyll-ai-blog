@@ -18,11 +18,13 @@ There is **no hard technical limit** in modern browsers (Chrome, Firefox, Edge, 
 However, **performance is the real constraint**, not a strict maximum. Here is a clear breakdown based on current web performance guidelines (as of 2026):
 
 ### Performance Guidelines for DOM Size
+
 - **Under 1,500 total DOM nodes** on the page → Ideal (recommended by Lighthouse/Chrome).
 - **1,500 – 5,000 nodes** → Acceptable in many cases, but you may start noticing slower interactions.
 - **Over 10,000 nodes** → High risk of issues (slow initial render, janky scrolling, higher memory usage, delayed user interactions like clicks or hover).
 
 Your single `<li class="list-group-item">` element contains:
+
 - The `<li>` itself
 - An `<a>` tag
 - Several `<span>` elements (date, type, title)
@@ -41,7 +43,9 @@ This means **one list item ≈ 5–6 DOM nodes** (plus any Bootstrap-added class
   - Potential unresponsiveness on lower-end devices or mobile browsers
 
 ### Why Large Lists Cause Problems
+
 The browser must:
+
 - Build a large DOM tree
 - Calculate styles and layout for every element (even off-screen ones)
 - Handle repaints and reflows when anything changes
@@ -50,6 +54,7 @@ The browser must:
 Even if the list renders, **scrolling through 7k+ or 20k items** becomes unpleasant without optimization.
 
 ### Recommended Solutions
+
 For lists this large, do **not** render every item at once. Use one of these approaches:
 
 1. **Virtual Scrolling / Windowing** (Best for 7k–20k+ items)
@@ -76,7 +81,9 @@ For lists this large, do **not** render every item at once. Use one of these app
    - Consider a `<table>` with fixed layout or a canvas-based list for extreme cases
 
 ### Quick Test Recommendation
+
 Try rendering your 7,000 items in an incognito window and check:
+
 - Chrome DevTools → Performance tab (record a scroll)
 - Lighthouse audit for "Avoid excessive DOM size"
 - Scroll smoothness on a mid-range laptop and a phone
@@ -84,12 +91,14 @@ Try rendering your 7,000 items in an incognito window and check:
 If you notice lag with 7,000 items, you should implement virtualization before going to 20,000.
 
 In summary:
+
 - 7,000 items is **borderline** — it may work but is not optimal.
 - 20,000 items is **too much** for a simple rendered list and will likely degrade user experience.
 
 Switching to virtual scrolling will let you comfortably handle 20k, 50k, or even 100k+ items with smooth performance.
 
 References:
-- https://developer.chrome.com/docs/lighthouse/performance/dom-size
-- https://web.dev/articles/dom-size-and-interactivity
-- https://www.debugbear.com/blog/excessive-dom-size
+
+- <https://developer.chrome.com/docs/lighthouse/performance/dom-size>
+- <https://web.dev/articles/dom-size-and-interactivity>
+- <https://www.debugbear.com/blog/excessive-dom-size>

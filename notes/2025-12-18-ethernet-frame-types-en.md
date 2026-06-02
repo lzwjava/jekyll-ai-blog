@@ -17,15 +17,18 @@ Answer:
 In computer networking, particularly at the data link layer (Layer 2) in Ethernet networks, frames are classified based on their destination MAC address. This classification determines how switches and other devices handle and forward them.
 
 ### Unicast Frames
+
 - A **unicast frame** is an Ethernet frame sent from one sender to a single specific receiver.
 - The destination MAC address is a unique unicast address assigned to a single network interface (e.g., starting with an even first octet in hexadecimal, where the least-significant bit of the first octet is 0).
 - Switches forward unicast frames only to the specific port associated with the destination MAC address (learned via the MAC address table). If the destination is unknown, the frame is flooded (treated like a broadcast until learned).
 - This is the most common type of traffic, used for everyday communication like web browsing or file transfers between two devices.
 
 ### Other Types of Frames
+
 There are two main other types at Layer 2:
 
 #### Broadcast Frames
+
 - A **broadcast frame** is sent from one sender to **all devices** in the local network segment (broadcast domain).
 - The destination MAC address is `FF:FF:FF:FF:FF:FF` (all binary 1s).
 - Switches flood broadcast frames out all ports in the same VLAN (except the incoming port).
@@ -33,6 +36,7 @@ There are two main other types at Layer 2:
 - Broadcasts do not cross routers (limited to the local Layer 2 domain).
 
 #### Multicast Frames
+
 - A **multicast frame** is sent from one sender to a **specific group** of interested receivers (not all devices).
 - The destination MAC address has the least-significant bit of the first octet set to 1 (e.g., addresses starting with 01:00:5E for IPv4 multicast).
 - Without optimizations (like IGMP snooping), switches flood multicast frames like broadcasts. With optimizations, they are sent only to ports with interested devices.

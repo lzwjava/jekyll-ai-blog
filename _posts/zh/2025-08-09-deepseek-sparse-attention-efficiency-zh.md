@@ -26,16 +26,19 @@ NSA解决了长上下文建模的根本挑战：标准注意力机制需要O(n²
 NSA通过三个并行分支处理注意力，共同构建高效的稀疏注意力模式：[4]
 
 ### 1. **压缩分支**
+
 该分支通过将连续标记分块并压缩为代表性标记，处理粗粒度上下文聚合。压缩机制通过创建标记组的汇总表示，减少模型必须关注的标记数量。例如，32,768标记的序列可被压缩至约2,046个压缩标记。[5]
 
 压缩使用学习型门控机制确定如何将多个标记的信息聚合为单个代表性标记，在保留全局上下文感知的同时避免完整计算负担。
 
 ### 2. **选择分支**
+
 该分支通过动态识别最重要的待关注标记，实现细粒度标记选择。模型通过计算重要性分数，仅选择关注与当前查询最相关的标记，而非全部标记。这既保留了局部精度，又捕捉了单靠压缩可能丢失的关键细节。[6]
 
 选择过程在训练中学习，使模型能自适应判断不同上下文和任务中哪些标记具有最高信息价值。
 
 ### 3. **滑动窗口分支**
+
 该分支通过让每个标记关注固定窗口内的直接相邻标记，维持局部上下文。这确保无论压缩或选择决策如何，短程依赖关系始终能被捕捉。滑动窗口通常覆盖定义半径内的近期标记。
 
 ## 数学基础
@@ -55,15 +58,19 @@ NSA的关键创新在于其硬件感知设计。先前的稀疏注意力方法�
 NSA通过以下方式实现显著加速：
 
 ### **分块内存访问模式**
+
 算法将数据组织为与GPU内存层次结构和张量核心操作对齐的块。这最大化了合并内存加载，并实现了GPU计算单元的高效利用。[3]
 
 ### **算术强度平衡**
+
 算法设计保持高算术强度——计算与内存访问的比率。这确保GPU保持计算受限而非内存受限，最大化硬件利用率。
 
 ### **融合内核实现**
+
 NSA将多个操作合并为单个融合内核，消除了冗余的KV缓存传输和中间张量物化。[5] 这显著降低了内存带宽需求。
 
 ### **优化循环调度**
+
 精细的内核级优化消除了冗余内存操作，最大化寄存器重用。
 
 ## 性能提升
@@ -82,6 +89,7 @@ NSA将多个操作合并为单个融合内核，消除了冗余的KV缓存传输
 与许多仅加速推理的先前稀疏注意力方法不同，**NSA支持端到端训练，在保持模型性能的同时减少预训练计算量**[1]。稀疏模式在训练过程中学习获得，而非固定或基于启发式。
 
 这意味着：
+
 - 模型学习哪些标记需要压缩，哪些需要选择
 - 梯度通过稀疏注意力决策反向传播
 - 压缩和选择策略适应特定任务和数据分布
@@ -119,12 +127,12 @@ DeepSeek近期发布的DeepSeek-V3.2-Exp实现了进阶版本DeepSeek稀疏注�
 NSA通过同步优化算法效率、硬件利用率和模型可训练性，代表了注意力机制设计的范式转变。通过将层次化压缩、动态选择和滑动窗口与硬件对齐实现相结合，它使长上下文建模变得实用且高效。该机制证明，算法与硬件优化的精心协同设计，可在不牺牲模型质量的前提下，实现速度和内存效率的数量级提升。
 
 引用文献：
-[1] https://arxiv.org/abs/2502.11089
-[2] https://medium.com/data-science-in-your-pocket/deepseek-native-sparse-attention-advanced-attention-mechanism-for-llms-6ac68fc014ff
-[3] https://arxiv.org/pdf/2502.11089
-[4] https://shchegrikovich.substack.com/p/attention-vs-attention
-[5] https://medium.com/@nanda.yugandhar/the-illustrated-guid-to-native-sparse-attention-b657b5e76bbc
-[6] https://www.marktechpost.com/2025/02/18/deepseek-ai-introduces-nsa-a-hardware-aligned-and-natively-trainable-sparse-attention-mechanism-for-ultra-fast-long-context-training-and-inference/
-[7] https://medium.com/foundation-models-deep-dive/deepseeks-nsa-for-efficient-attention-14b6f01486d5
-[8] https://arxiv.org/html/2502.11089v1
-[9] https://api-docs.deepseek.com/news/news250929
+[1] <https://arxiv.org/abs/2502.11089>
+[2] <https://medium.com/data-science-in-your-pocket/deepseek-native-sparse-attention-advanced-attention-mechanism-for-llms-6ac68fc014ff>
+[3] <https://arxiv.org/pdf/2502.11089>
+[4] <https://shchegrikovich.substack.com/p/attention-vs-attention>
+[5] <https://medium.com/@nanda.yugandhar/the-illustrated-guid-to-native-sparse-attention-b657b5e76bbc>
+[6] <https://www.marktechpost.com/2025/02/18/deepseek-ai-introduces-nsa-a-hardware-aligned-and-natively-trainable-sparse-attention-mechanism-for-ultra-fast-long-context-training-and-inference/>
+[7] <https://medium.com/foundation-models-deep-dive/deepseeks-nsa-for-efficient-attention-14b6f01486d5>
+[8] <https://arxiv.org/html/2502.11089v1>
+[9] <https://api-docs.deepseek.com/news/news250929>

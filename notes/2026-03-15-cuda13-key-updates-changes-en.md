@@ -22,16 +22,20 @@ This is a significant major version jump. Here's a comprehensive breakdown of wh
 ### 🔴 Breaking Changes / Removals
 
 **Dropped GPU Architecture Support**
+
 - Support for Maxwell, Pascal, and Volta GPU architectures (compute capabilities below 7.5/Turing) has been removed. Offline compilation and library support for these architectures were dropped in CUDA 13.0.
 - Supported architectures now: **Turing (RTX 20xx), Ampere (RTX 30xx), Ada Lovelace (RTX 40xx), Hopper (H100), Blackwell (B100/B200)**.
 
 **Dropped OS Support**
+
 - Ubuntu 20.04 support has been dropped starting with CUDA 13.0. Users are advised to migrate to Ubuntu 22.04 LTS or later.
 
 **Deprecated Headers Removed**
+
 - Legacy header files related to deprecated texture and surface references have been removed from the CUDA 13.0 runtime.
 
 **Windows Driver Change**
+
 - Starting with CUDA 13.1, the Windows display driver is no longer bundled with the CUDA Toolkit package. Users must download and install the NVIDIA driver separately.
 
 ---

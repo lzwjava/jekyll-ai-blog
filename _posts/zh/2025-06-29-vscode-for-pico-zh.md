@@ -13,13 +13,16 @@ type: note
 ---
 
 ### 前提条件
+
 1. **已刷入 MicroPython**：你的 Pico 已安装 MicroPython（例如，从 `RPI_PICO-20250415-v1.25.0.uf2` 文件刷入）。
 2. **已安装 VSCode**：如果尚未安装，请从 [code.visualstudio.com](https://code.visualstudio.com) 下载并安装 VSCode。
 3. **已安装 Python**：通过以下命令安装 Python（MicroPython 工具需要）：
+
    ```bash
    sudo apt update
    sudo apt install python3 python3-pip
    ```
+
 4. **USB 连接**：Pico 通过支持数据传输的 USB 线缆连接到你的计算机。
 
 ---
@@ -37,9 +40,11 @@ type: note
 
 2. **设置 Pico-W-Go（推荐）**：
    - **安装依赖项**：Pico-W-Go 需要 `pyserial` 和 `esptool`。通过 pip 安装它们：
+
      ```bash
      pip3 install pyserial esptool
      ```
+
    - **配置 Pico-W-Go**：
      - 打开 VSCode 的命令面板（`Ctrl+Shift+P` 或 `Cmd+Shift+P`）。
      - 输入并选择 **Pico-W-Go > Configure Project**。

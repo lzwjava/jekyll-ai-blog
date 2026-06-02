@@ -15,6 +15,7 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 本指南将介绍如何创建服务器、建立连接及执行基础操作。为简化流程，本文以 Azure 门户操作为基准。
 
 ## 先决条件
+
 - 有效的 Azure 订阅（若无可前往 [azure.microsoft.com](https://azure.microsoft.com/free/) 创建）
 - 可访问 Azure 门户 (portal.azure.com)
 - 具备 MySQL 基础概念知识
@@ -22,6 +23,7 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 - 已安装 MySQL Workbench 连接工具（从 [mysql.com](https://dev.mysql.com/downloads/workbench/) 下载）
 
 ## 步骤 1：在 Azure 门户创建灵活服务器
+
 按以下步骤配置服务器：
 
 1. 登录 [Azure 门户](https://portal.azure.com)
@@ -53,6 +55,7 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 7. 部署完成后，可将服务器固定到仪表板，进入资源 **概述** 页面。默认数据库包含 `information_schema`、`mysql` 等
 
 ## 步骤 2：连接至服务器
+
 推荐使用 MySQL Workbench 进行图形化连接（也可选用 Azure Data Studio、mysql CLI 或 Azure Cloud Shell）
 
 1. 在门户中进入服务器 **概述** 页面，记录：
@@ -80,9 +83,11 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 6. 点击 **确定** 保存连接。双击连接图标即可打开查询编辑器
 
 ## 步骤 3：创建和管理数据库
+
 连接成功后可通过门户或客户端管理数据库
 
-### 通过 Azure 门户：
+### 通过 Azure 门户
+
 1. 在服务器页面选择左侧菜单的 **数据库**
 2. 点击 **+ 添加**：
    - **数据库名称**：例如 `testdb`
@@ -92,7 +97,8 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 
 删除操作：选择数据库后点击 **删除**
 
-### 通过 MySQL Workbench（SQL 查询）：
+### 通过 MySQL Workbench（SQL 查询）
+
 在查询编辑器中执行以下命令：
 
 - 创建数据库：`CREATE DATABASE testdb CHARACTER SET utf8 COLLATE utf8_general_ci;`
@@ -105,6 +111,7 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 若未启用自动提交，需通过 `COMMIT;` 提交更改
 
 ## 基础使用技巧
+
 - **扩展性**：通过 **概述** > **计算+存储** 调整 vCore/存储/IOPS（多数配置变更无需停机）
 - **备份**：支持自动每日备份；35 天内时间点还原（在 **备份** 设置中配置）
 - **监控**：使用 **指标** 查看 CPU/存储数据；设置告警规则
@@ -116,6 +123,7 @@ Azure Database for MySQL 是由 MySQL 社区版提供支持的完全托管式关
 如需使用读取副本或服务器参数等高级功能，请探索门户左侧菜单选项
 
 ## 参考文档
+
 - [快速入门：通过 Azure 门户创建灵活服务器](https://learn.microsoft.com/zh-cn/azure/mysql/flexible-server/quickstart-create-server-portal)
 - [使用 MySQL Workbench 进行连接](https://learn.microsoft.com/zh-cn/azure/mysql/flexible-server/connect-workbench)
 - [创建和管理数据库](https://learn.microsoft.com/zh-cn/azure/mysql/flexible-server/how-to-create-manage-databases)

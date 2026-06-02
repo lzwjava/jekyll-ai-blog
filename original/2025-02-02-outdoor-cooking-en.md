@@ -23,7 +23,6 @@ type: post
 ![](assets/images/outdoor/o.jpg)
 *Source: Self-captured*{: .caption }
 
-
 {: .centered }
 ![](assets/images/outdoor/o2.jpg)
 *Source: Self-captured*{: .caption }

@@ -24,12 +24,12 @@ Here's a breakdown of the key concepts and calculations:
 * **Cumulative Basic Deduction:** This is the standard tax-free threshold. For 2025, it's 5000 yuan per month. The cumulative basic deduction is calculated as 5000 yuan multiplied by the number of months you have worked for your current employer in the current tax year up to the current month.
 * **Cumulative Specific Deductions:** Mandatory contributions like social insurance (pension, medical, unemployment) and housing provident fund that are deducted from your salary year-to-date.
 * **Cumulative Specific Additional Deductions:** These are optional deductions you can claim for certain expenses, calculated year-to-date. Common examples include:
-    * Children's education
-    * Continuing education
-    * Serious illness medical expenses
-    * Housing loan interest
-    * Housing rent
-    * Elderly support
+  * Children's education
+  * Continuing education
+  * Serious illness medical expenses
+  * Housing loan interest
+  * Housing rent
+  * Elderly support
 * **Cumulative Other Deductions Determined According to Law:** Other eligible deductions recognized by law, such as certain commercial health insurance premiums, calculated year-to-date.
 * **Cumulative Taxable Income:** The amount subject to tax, calculated by subtracting all cumulative deductions from your cumulative income.
 * **Cumulative Tax Due:** The total tax calculated on your Cumulative Taxable Income using the progressive tax rate table (shown below).
@@ -37,10 +37,10 @@ Here's a breakdown of the key concepts and calculations:
 
 **The Formulas:**
 
-1.  **Calculate Cumulative Taxable Income:**
+1. **Calculate Cumulative Taxable Income:**
     Cumulative Taxable Income = Cumulative Income - Cumulative Tax-Exempt Income - Cumulative Basic Deduction - Cumulative Specific Deductions - Cumulative Specific Additional Deductions - Cumulative Other Deductions Determined According to Law
 
-2.  **Calculate Current Month's Tax Due:**
+2. **Calculate Current Month's Tax Due:**
     Current Period's Due Withholding and Prepayment Tax Amount = (Cumulative Withholding and Prepayment Taxable Income × Applicable Cumulative Withholding Rate - Corresponding Quick Deduction) - Cumulative Tax Reductions and Exemptions - Cumulative Tax Already Withheld and Prepaid
 
 **Individual Income Tax Rate Table (Applicable to Cumulative Withholding for Wages/Salaries)**
@@ -65,14 +65,14 @@ Let's follow the example of Zhang San, an employee with variable monthly income 
 
 * **Monthly Income:** Jan: 15,000 yuan; Feb: 45,000 yuan; Mar: 15,000 yuan.
 * **Consistent Monthly Deductions:**
-    * Basic Deduction: 5,000 yuan (standard)
-    * Specific Deductions (Five Insurances & One Fund): 3,000 yuan
-    * Specific Additional Deductions:
-        * Children's Education: 1,000 yuan
-        * Housing Loan Interest: 1,000 yuan
-        * Elderly Support (only child): 2,000 yuan
-        * *Total Monthly Specific Additional Deductions: 1000 + 1000 + 2000 = 4,000 yuan*
-    * Other Deductions (Commercial Health Insurance): 200 yuan
+  * Basic Deduction: 5,000 yuan (standard)
+  * Specific Deductions (Five Insurances & One Fund): 3,000 yuan
+  * Specific Additional Deductions:
+    * Children's Education: 1,000 yuan
+    * Housing Loan Interest: 1,000 yuan
+    * Elderly Support (only child): 2,000 yuan
+    * *Total Monthly Specific Additional Deductions: 1000 + 1000 + 2000 = 4,000 yuan*
+  * Other Deductions (Commercial Health Insurance): 200 yuan
 
 **Calculation Steps by Month:**
 
@@ -80,15 +80,15 @@ Let's follow the example of Zhang San, an employee with variable monthly income 
 
 * **Cumulative Income:** 15,000 yuan
 * **Cumulative Deductions:**
-    * Basic: 5000 * 1 = 5,000
-    * Specific: 3000 * 1 = 3,000
-    * Specific Additional: 4000 * 1 = 4,000
-    * Other: 200 * 1 = 200
-    * *Total Cumulative Deductions:* 5000 + 3000 + 4000 + 200 = 12,200 yuan
+  * Basic: 5000 * 1 = 5,000
+  * Specific: 3000 * 1 = 3,000
+  * Specific Additional: 4000 * 1 = 4,000
+  * Other: 200 * 1 = 200
+  * *Total Cumulative Deductions:* 5000 + 3000 + 4000 + 200 = 12,200 yuan
 * **Cumulative Taxable Income:** 15,000 (Income) - 12,200 (Deductions) = 2,800 yuan
 * **Cumulative Tax Due:**
-    * Cumulative Taxable Income (2800) is in Level 1 (< 36000).
-    * Tax Due = 2800 * 3% - 0 (Quick Deduction) = 84 yuan.
+  * Cumulative Taxable Income (2800) is in Level 1 (< 36000).
+  * Tax Due = 2800 * 3% - 0 (Quick Deduction) = 84 yuan.
 * **Cumulative Tax Already Withheld:** 0 yuan (This is the first month)
 * **Current Month's Tax (January):** 84 (Cumulative Tax Due) - 0 (Tax Already Withheld) = **84 yuan**
 
@@ -96,15 +96,15 @@ Let's follow the example of Zhang San, an employee with variable monthly income 
 
 * **Cumulative Income:** 15,000 (Jan) + 45,000 (Feb) = 60,000 yuan
 * **Cumulative Deductions:**
-    * Basic: 5000 * 2 = 10,000
-    * Specific: 3000 * 2 = 6,000
-    * Specific Additional: 4000 * 2 = 8,000
-    * Other: 200 * 2 = 400
-    * *Total Cumulative Deductions:* 10000 + 6000 + 8000 + 400 = 24,400 yuan
+  * Basic: 5000 * 2 = 10,000
+  * Specific: 3000 * 2 = 6,000
+  * Specific Additional: 4000 * 2 = 8,000
+  * Other: 200 * 2 = 400
+  * *Total Cumulative Deductions:* 10000 + 6000 + 8000 + 400 = 24,400 yuan
 * **Cumulative Taxable Income:** 60,000 (Income) - 24,400 (Deductions) = 35,600 yuan
 * **Cumulative Tax Due:**
-    * Cumulative Taxable Income (35,600) is still in Level 1 (< 36000).
-    * Tax Due = 35,600 * 3% - 0 (Quick Deduction) = 1,068 yuan.
+  * Cumulative Taxable Income (35,600) is still in Level 1 (< 36000).
+  * Tax Due = 35,600 * 3% - 0 (Quick Deduction) = 1,068 yuan.
 * **Cumulative Tax Already Withheld:** 84 yuan (from January)
 * **Current Month's Tax (February):** 1068 (Cumulative Tax Due) - 84 (Tax Already Withheld) = **984 yuan**
 
@@ -112,15 +112,15 @@ Let's follow the example of Zhang San, an employee with variable monthly income 
 
 * **Cumulative Income:** 60,000 (Feb) + 15,000 (Mar) = 75,000 yuan
 * **Cumulative Deductions:**
-    * Basic: 5000 * 3 = 15,000
-    * Specific: 3000 * 3 = 9,000
-    * Specific Additional: 4000 * 3 = 12,000
-    * Other: 200 * 3 = 600
-    * *Total Cumulative Deductions:* 15000 + 9000 + 12000 + 600 = 36,600 yuan
+  * Basic: 5000 * 3 = 15,000
+  * Specific: 3000 * 3 = 9,000
+  * Specific Additional: 4000 * 3 = 12,000
+  * Other: 200 * 3 = 600
+  * *Total Cumulative Deductions:* 15000 + 9000 + 12000 + 600 = 36,600 yuan
 * **Cumulative Taxable Income:** 75,000 (Income) - 36,600 (Deductions) = 38,400 yuan
 * **Cumulative Tax Due:**
-    * Cumulative Taxable Income (38,400) is now in Level 2 (> 36000, < 144000).
-    * Tax Due = 38,400 * 10% - 2520 (Quick Deduction) = 3840 - 2520 = 1,320 yuan.
+  * Cumulative Taxable Income (38,400) is now in Level 2 (> 36000, < 144000).
+  * Tax Due = 38,400 * 10% - 2520 (Quick Deduction) = 3840 - 2520 = 1,320 yuan.
 * **Cumulative Tax Already Withheld:** 84 (Jan) + 984 (Feb) = 1,068 yuan
 * **Current Month's Tax (March):** 1320 (Cumulative Tax Due) - 1068 (Tax Already Withheld) = **252 yuan**
 

@@ -17,6 +17,7 @@ Answer:
 Tides are the periodic rise and fall of ocean levels caused primarily by the **gravitational forces** from the Moon and, to a lesser extent, the Sun. The key is not the overall gravitational pull on Earth (which keeps Earth orbiting the Moon's common center), but the **difference** in gravitational strength across Earth's diameter—this is called the **tidal force** or **differential gravity**.
 
 ### How the Tidal Force Works
+
 The Moon's gravity pulls more strongly on the side of Earth facing it (closer to the Moon) than on the center of Earth, and even less on the far side.
 
 - **Near side (facing the Moon)** — The ocean water is pulled toward the Moon more than the solid Earth, creating a bulge (high tide).
@@ -28,9 +29,11 @@ This results in **two high-tide bulges** on opposite sides of Earth, aligned wit
 As Earth rotates daily, most locations pass through both bulges, experiencing **two high tides and two low tides** approximately every 24 hours and 50 minutes (a lunar day).
 
 ### Richard Feynman's Explanation
+
 In *The Feynman Lectures on Physics* (Volume I, Chapter 7) and related talks, Feynman explains this using the gravitational gradient.
 
 He notes early misconceptions:
+
 - One thought only one tide (under the Moon).
 - Another wrongly thought the Earth is pulled away from the water on the far side.
 
@@ -39,6 +42,7 @@ Feynman clarifies that the Moon's pull is balanced at Earth's center, but strong
 Some interpretations of Feynman mention centrifugal force in a rotating frame (Earth-Moon orbiting their common center), where outward centrifugal force is uniform, combining with varying gravity to produce the same bulges. However, the fundamental cause is the **differential gravitational pull**.
 
 ### Role of the Sun
+
 The Sun also causes tides, but its effect is about 45% that of the Moon's because, despite greater mass, it is much farther away (tidal force decreases with the cube of distance).
 
 When Sun, Moon, and Earth align (full or new moon), tides reinforce for **spring tides** (higher highs, lower lows). When perpendicular (quarter moons), they partially cancel for **neap tides** (smaller range).

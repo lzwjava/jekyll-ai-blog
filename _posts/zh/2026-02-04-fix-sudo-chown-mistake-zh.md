@@ -155,6 +155,7 @@ sudo chown root:staff   -R /usr/local   # 如果你经常使用 /usr/local
 对 /usr 执行递归 chown 几乎总是以重装系统作为最稳妥的结局 —— 特别是因为许多 setuid/setgid binaries 和 shared libraries 的权限现在都是错误的。
 
 如果你想先尝试更具针对性的修复，请告诉我：
+
 - 你的 Ubuntu 版本（如果现在能运行，执行 `cat /etc/os-release`）
 - 当你尝试使用 apt 或打开 GUI 应用时报错是什么
 - 在 /home 中是否有重要且未备份的数据

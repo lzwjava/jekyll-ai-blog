@@ -29,6 +29,7 @@ Y Combinator 的创业学校是一个免费的在线课程，专为有抱负和�
 该课程还包括在线会议、答疑时间以及访问 YC 的论文和视频库以进行更深入的学习。该课程对所有人开放，包括活跃的创始人和未来的企业家。
 
 参考文献：
+
 - [创业学校官网](https://www.startupschool.org/)
 - [YC 创业文库](https://www.ycombinator.com/library)
 - [2018 年创业学校课程](https://www.ycombinator.com/blog/startup-school-2018-curriculum/)

@@ -9,7 +9,7 @@ translated: true
 type: post
 ---
 
-我提交了一个 GitHub 问题，https://github.com/GreptimeTeam/docs/issues/1455，标题为“GreptimeDB 门户：大型紫色圆形图形在较小屏幕上超出视口边界。”
+我提交了一个 GitHub 问题，<https://github.com/GreptimeTeam/docs/issues/1455，标题为“GreptimeDB> 门户：大型紫色圆形图形在较小屏幕上超出视口边界。”
 
 ![gt_1](https://github.com/user-attachments/assets/d191f9c7-a8c6-4ba6-96c5-9388f69bef30)
 

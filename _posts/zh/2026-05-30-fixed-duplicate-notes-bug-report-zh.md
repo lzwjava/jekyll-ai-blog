@@ -12,6 +12,7 @@ type: note
 完成。以下是总结：
 
 **根本原因：**
+
 1. `create_note_from_content()` 没有重复检查——只有 `create_note()` 做了检查
 2. Hermes `/note` 插件和研究代理直接调用 `create_note_from_content()`
 3. `check_duplicate_notes.py` 中的 bug：`note_files[:-1]` 删除了最旧的文件而不是最新的

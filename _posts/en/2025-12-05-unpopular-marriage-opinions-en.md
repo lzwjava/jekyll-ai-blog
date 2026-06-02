@@ -30,6 +30,7 @@ Here are some genuinely unpopular (often taboo) opinions about marriage that fre
 These opinions are unpopular because they clash with cultural narratives about lifelong romantic love, the sanctity of marriage, and gender equality within it. People who voice them publicly are frequently accused of bitterness, misogyny, or cynicism—even when the underlying data supports parts of the claims.
 
 References:
-- Brinig & Allen (2000) – “These Boots Are Made for Walking: Why Most Divorce Filers Are Women” - https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1442&context=law_faculty_scholarship
-- German Socio-Economic Panel (SOEP) long-term marriage happiness studies - https://www.diw.de/documents/publikationen/73/diw_01.c.347354.de/diw_sp0312.pdf
-- American Psychological Association (2011) – Meta-analysis on parenthood and marital satisfaction - https://psycnet.apa.org/record/2010-23626-001
+
+- Brinig & Allen (2000) – “These Boots Are Made for Walking: Why Most Divorce Filers Are Women” - <https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1442&context=law_faculty_scholarship>
+- German Socio-Economic Panel (SOEP) long-term marriage happiness studies - <https://www.diw.de/documents/publikationen/73/diw_01.c.347354.de/diw_sp0312.pdf>
+- American Psychological Association (2011) – Meta-analysis on parenthood and marital satisfaction - <https://psycnet.apa.org/record/2010-23626-001>

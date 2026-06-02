@@ -12,15 +12,18 @@ type: note
 This is the **PyTorch** repository -- the open-source machine learning framework by Meta. Here's the rundown:
 
 **What it is:**
+
 - A Python-first deep learning framework providing tensor computation with GPU acceleration and a tape-based autograd system for training neural networks
 - Version: **2.13.0a0** (dev/trunk build)
 - Cloned from `git@github.com:pytorch/pytorch.git`
 
 **Codebase scale:**
+
 - ~4,464 Python files, ~2,077 C++ files (excluding third_party)
 - ~224 MB on disk (excluding .git)
 
 **Key directories:**
+
 - `torch/` -- core Python package
   - `nn/` -- neural network modules (Linear, Conv, Transformer, etc.)
   - `distributed/` -- distributed training (DDP, FSDP, RPC, device mesh)
@@ -39,6 +42,7 @@ This is the **PyTorch** repository -- the open-source machine learning framework
 - `docs/` -- documentation source
 
 **Active development:**
+
 - Recent commits touch ROCm fixes, Dynamo operator support, and Native DSL work
 - This is a live trunk checkout, not a release branch
 

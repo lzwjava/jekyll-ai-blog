@@ -46,26 +46,26 @@ You'll primarily use the following Netty components:
 You'll need to create several custom `ChannelHandler`s within your `ChannelPipeline` to implement the Shadowsocks logic. Here's a possible structure:
 
 * **Local Proxy Server Handler (`ChannelInboundHandlerAdapter`):**
-    * This handler will run on a local server socket that your applications will connect to (e.g., `localhost:1080`).
-    * When a new connection comes in from a local application, this handler will:
-        * Establish a connection to the remote Shadowsocks server.
-        * Forward the initial connection request (target address) to the Shadowsocks server after encoding it according to the protocol.
-        * Manage the flow of data between the local application and the Shadowsocks server.
+  * This handler will run on a local server socket that your applications will connect to (e.g., `localhost:1080`).
+  * When a new connection comes in from a local application, this handler will:
+    * Establish a connection to the remote Shadowsocks server.
+    * Forward the initial connection request (target address) to the Shadowsocks server after encoding it according to the protocol.
+    * Manage the flow of data between the local application and the Shadowsocks server.
 
 * **Shadowsocks Client Encoder (`ChannelOutboundHandlerAdapter`):**
-    * This handler will be responsible for encoding the data being sent to the Shadowsocks server.
-    * It will:
-        * Encode the target address according to the Shadowsocks protocol (type, address, port).
-        * Encrypt the data using the chosen encryption method.
+  * This handler will be responsible for encoding the data being sent to the Shadowsocks server.
+  * It will:
+    * Encode the target address according to the Shadowsocks protocol (type, address, port).
+    * Encrypt the data using the chosen encryption method.
 
 * **Shadowsocks Client Decoder (`ChannelInboundHandlerAdapter`):**
-    * This handler will be responsible for decoding the data received from the Shadowsocks server.
-    * It will:
-        * Decrypt the received data.
+  * This handler will be responsible for decoding the data received from the Shadowsocks server.
+  * It will:
+    * Decrypt the received data.
 
 * **Remote Server Forwarding Handler (`ChannelInboundHandlerAdapter`):**
-    * This handler will be invoked when data is received from the remote Shadowsocks server.
-    * It will forward the decrypted data back to the original local application.
+  * This handler will be invoked when data is received from the remote Shadowsocks server.
+  * It will forward the decrypted data back to the original local application.
 
 **5. Example Structure of the Netty Pipeline**
 
@@ -205,11 +205,11 @@ To build a client like Clash, you'd need to consider more advanced features:
 
 **In summary, building a basic Shadowsocks client with Netty involves:**
 
-1.  Understanding the Shadowsocks protocol.
-2.  Setting up a Netty project.
-3.  Creating custom `ChannelHandler`s for encoding, decoding, and forwarding data.
-4.  Implementing the encryption and decryption logic.
-5.  Starting a local server to accept connections from applications.
-6.  Connecting to the remote Shadowsocks server.
+1. Understanding the Shadowsocks protocol.
+2. Setting up a Netty project.
+3. Creating custom `ChannelHandler`s for encoding, decoding, and forwarding data.
+4. Implementing the encryption and decryption logic.
+5. Starting a local server to accept connections from applications.
+6. Connecting to the remote Shadowsocks server.
 
 Building a more feature-rich client like Clash requires a much deeper understanding of networking, proxy protocols, and more complex software architecture. Start with a basic Shadowsocks implementation and gradually add features as needed. Remember to consult the official Shadowsocks documentation and Netty examples for more detailed information.

@@ -13,6 +13,7 @@ type: note
 ---
 
 ### 1. 安装 Liberty Tools 扩展
+
 - **查找并安装：**
   打开 VS Code 的扩展视图，搜索 **"IBM WebSphere Liberty Tools"** 并安装。
 - **扩展优势：**
@@ -21,6 +22,7 @@ type: note
 ---
 
 ### 2. 准备 WebSphere Liberty 服务器
+
 - **安装或指向 Liberty 运行时：**
   若尚未安装 Liberty 服务器，请从 IBM 官网下载并安装。若已安装，请记录其安装目录。
 - **确保兼容性：**
@@ -29,6 +31,7 @@ type: note
 ---
 
 ### 3. 在 VS Code 中配置 Liberty 服务器
+
 - **创建新服务器实例：**
   打开命令面板（`Ctrl+Shift+P` 或 `Cmd+Shift+P`）并运行命令：
   `Liberty: Create Server`
@@ -41,6 +44,7 @@ type: note
 ---
 
 ### 4. 添加应用程序
+
 - **部署应用：**
   可通过以下方式将应用添加到服务器：
   - 编辑 `server.xml` 文件，添加应用上下文和部署信息
@@ -51,6 +55,7 @@ type: note
 ---
 
 ### 5. 启动、停止与调试服务器
+
 - **启动服务器：**
   在 Liberty 视图（通常作为 VS Code 中的专用面板或树状视图）中，右键单击已配置的服务器并选择 **"启动服务器"**。
   输出面板将显示启动日志和配置信息。
@@ -65,6 +70,7 @@ type: note
 ---
 
 ### 6. 附加功能与技巧
+
 - **实时日志监控：**
   扩展提供实时查看 Liberty 服务器日志的功能，便于问题诊断
 - **编辑服务器配置：**
@@ -77,6 +83,7 @@ type: note
 ---
 
 ### 注意事项
+
 使用 Liberty Tools 扩展可简化为 WebSphere Liberty 应用程序在 VS Code 中进行开发、部署和调试的流程。这种集成有助于减少上下文切换，加速开发周期。
 
 如需高级配置或故障排除步骤，请随时参阅 IBM 官方文档中关于 Liberty Tools 扩展的说明。

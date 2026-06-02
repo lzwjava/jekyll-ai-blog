@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Overview
+
 The video from "The Learning Circuit" explains combinational logic devices, which generate outputs based only on current inputs (no memory of past states). It covers four key types: multiplexers (MUX), demultiplexers (DEMUX), encoders, and decoders. These are essential for signal routing, data compression/expansion, and digital control in electronics.
 
 ### Multiplexers (MUX)
+
 - **Purpose**: Like a digital switchboard—selects one of many inputs to send to a single output, controlled by select lines.
 - **Basic Example (74LS157 Quad 2-to-1 MUX)**:
   - 4 channels, each with inputs A and B, select pin (S), and enable pin (E).
@@ -25,12 +27,14 @@ The video from "The Learning Circuit" explains combinational logic devices, whic
 - **Tip**: General form is \\(2^n\\)-to-1, where \\(n\\) is select lines.
 
 ### Demultiplexers (DEMUX)
+
 - **Purpose**: Opposite of MUX—routes one input to one of many outputs, based on select lines.
 - **Basic Example (1-to-2 DEMUX)**:
   - One select line (S): S low → input to Y0; S high → input to Y1.
 - **General Rule**: \\(1\\)-to-\\(2^n\\) outputs, matching MUX's select lines (e.g., 2 selects → 4 outputs).
 
 ### Encoders
+
 - **Purpose**: Compresses multiple inputs into a coded (e.g., binary) output.
 - **Basic Binary Encoder**:
   - Example: 4 inputs → 2-bit binary output (e.g., input 3 active → output 11).
@@ -41,6 +45,7 @@ The video from "The Learning Circuit" explains combinational logic devices, whic
   - No inputs active → output 000.
 
 ### Decoders
+
 - **Purpose**: Expands coded input into multiple outputs (e.g., activates specific lines).
 - **Basic Binary Decoder**:
   - Like a DEMUX: Binary input selects one output (e.g., 2-bit input 10 → activates output 2).
@@ -51,6 +56,7 @@ The video from "The Learning Circuit" explains combinational logic devices, whic
   - 4-bit input → Activates one of 10 outputs (for digits 0–9).
 
 ### Key Takeaways
+
 - **MUX/DEMUX**: Data routers (traffic directors).
 - **Encoders**: More inputs than outputs (data compression, like zipping).
 - **Decoders**: More outputs than inputs (data expansion, like unzipping).

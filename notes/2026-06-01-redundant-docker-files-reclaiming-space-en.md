@@ -23,6 +23,7 @@ Here's the full story:
 | `rocm` container | 115 KB | Exited 11 days ago, ran Jupyter Lab |
 
 **What the `rocm` container did:**
+
 - Ran `jupyter lab` with ROCm GPU access, notebook dir `/home/rocm-user/jupyter`
 - Created May 20, exited ~May 21
 - Logs show bots scanning for PHP vulnerabilities (standard internet noise hitting the exposed Jupyter port)
@@ -30,6 +31,7 @@ Here's the full story:
 **Key insight:** The `rocm:latest` container image is a **duplicate** of what's already installed on the host at `/opt/rocm-7.2.0/` (22G on root disk). The container image + host install = ~58G of redundant ROCm files.
 
 **What's safe to nuke:**
+
 - `docker container prune` — remove exited `rocm` container (saves ~115K)
 - `docker builder prune --all` — remove 36G of stale build cache (saves **36 GB**)
 - `docker rmi rocm:latest` — remove container image (saves **36 GB**), since ROCm is already on the host

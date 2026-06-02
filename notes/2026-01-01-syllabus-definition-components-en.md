@@ -16,7 +16,8 @@ Answer:
 
 A **syllabus** is a document that outlines the plan for a course of study, typically in an educational setting such as a school, college, or university. It serves as a guide for both instructors and students.
 
-### Key elements usually included in a syllabus:
+### Key elements usually included in a syllabus
+
 - **Course title and description**: The name of the course and a brief overview of its content and objectives.
 - **Learning outcomes/objectives**: What students are expected to know or be able to do by the end of the course.
 - **Topics and schedule**: A list of topics to be covered, often with a weekly or session-by-session timeline.

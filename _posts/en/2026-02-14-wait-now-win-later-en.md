@@ -19,11 +19,13 @@ Answer:
 It means choosing to **wait** for something better instead of taking instant pleasure or relief right now. This skill is closely connected to self-control, impulse control, patience, and long-term planning.
 
 ### Classic Example: The Marshmallow Test
+
 In the famous Stanford Marshmallow Experiment (conducted by Walter Mischel in the late 1960s–1970s), children were offered one marshmallow immediately or two if they waited about 15 minutes. Children who could wait showed (in early follow-up studies) better outcomes later in life, such as higher SAT scores, better educational attainment, and improved health metrics.
 
 **Note**: Later replications (2018–2024) found that the predictive power is weaker than originally thought — family background, socioeconomic status, and trust in the environment play large roles. Still, the core idea that self-control matters remains widely supported.
 
 ### How Delayed Gratification Helps with Success
+
 People who regularly practice delayed gratification tend to achieve better long-term results in several areas. Here are the main ways it contributes to success:
 
 - **Stronger self-control and willpower**

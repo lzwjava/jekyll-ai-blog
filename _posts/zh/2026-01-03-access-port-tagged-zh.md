@@ -24,6 +24,7 @@ Answer:
 因此，正确答案是 **D) It drops all tagged frames**。
 
 选项 A、B 和 C 对于 access port 是错误的：
+
 - A) Forwarding unchanged 意味着将其视为 trunk port。
 - B) Adding a tag 仅针对输入的 untagged 帧。
 - C) Removing the tag (stripping) 发生在 **egress**（出站）时，即通过 access port 向 untagged 设备发送帧时，而不是在 ingress（入站）时。

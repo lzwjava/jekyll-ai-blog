@@ -30,14 +30,16 @@ Consumers have integrated online shopping into their everyday habits, from groce
 ## Why "Just-in-Time" Buying Works Now
 
 ### Fast Delivery = No Need to Stockpile
+
 A study found that 95% of online buyers expect fast delivery when placing an order, and speedy delivery has become crucial for maintaining customer satisfaction. When next-day (or even same-day) delivery is the norm, the logic of driving 30 minutes to buy 20 bottles of dish soap at once simply breaks down.
 
 ### The "Bring-It-to-Me" Mindset
+
 Food delivery's share of global food service spending rose from 9% in 2019 to 21% in 2024, which shows that even fresh food — once the last stronghold of the physical supermarket — is now being delivered on demand.
 
 ---
 
-## But Is Bulk Buying Completely Dead? Not Quite.
+## But Is Bulk Buying Completely Dead? Not Quite
 
 There are still reasons some people continue to buy in larger quantities:
 
@@ -53,11 +55,13 @@ There are still reasons some people continue to buy in larger quantities:
 E-commerce has changed beyond recognition and is now the primary, rather than secondary, choice for shoppers — and consumers now demand seamless experiences, fast shipping, reviews, and competitive deals.
 
 Ten years ago, the typical shopping behavior in China or the US was:
+
 - Drive to a supermarket or wholesale store (e.g., Walmart, Costco, RT-Mart)
 - Load up a cart with 2–4 weeks of supplies
 - Store everything at home
 
 Today, that pattern is increasingly replaced by:
+
 - Open an app (JD.com, Taobao, Amazon)
 - Order exactly what you need
 - Receive it tomorrow (or even in 30 minutes via instant delivery services)

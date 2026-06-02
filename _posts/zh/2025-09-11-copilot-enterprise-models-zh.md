@@ -44,7 +44,7 @@ type: note
 
 ---
 
-### 快速概览（根据你的偏好，不使用宽表）：
+### 快速概览（根据你的偏好，不使用宽表）
 
 * **GPT-4o**：GitHub Copilot Enterprise 的默认模型；以企业聊天中的速度和质量著称。
 * **GPT-4.1**：功能更强大的继任者——在代码、指令遵循和长上下文方面表现更佳。如果在 GitHub Copilot 中启用则可用，并且现在是 Visual Studio Copilot 的默认模型。([OpenAI][7])

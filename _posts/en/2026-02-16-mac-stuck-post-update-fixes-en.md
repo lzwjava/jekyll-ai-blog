@@ -14,6 +14,7 @@ Your MacBook Air M2 getting stuck on the "Software Update Complete" screen after
 Don't worry—your data is usually still safe, and this is typically fixable without a full erase. Here's a step-by-step troubleshooting guide based on what works for most users in similar situations:
 
 ### 1. Force Restart and Retry
+
 - Press and hold the **power button** (Touch ID button) for about 10 seconds until the Mac fully shuts down (screen goes black, no fans/lights).
 - Wait 10–30 seconds, then press the power button once to turn it back on.
 - It may boot right back to the same "Software Update Complete" screen—try clicking **Continue** again.
@@ -22,9 +23,11 @@ Don't worry—your data is usually still safe, and this is typically fixable wit
 Many users report that after a few force restarts, it proceeds to the desktop or finishes any pending setup.
 
 ### 2. Boot into Safe Mode
+
 This loads macOS with minimal extensions/drivers, which often bypasses whatever is causing the hang (e.g., incompatible login items, kernel extensions, or background processes).
 
 For your M2 MacBook Air:
+
 - Shut down the Mac completely (hold power button if needed).
 - Press and hold the **power button** until you see the startup options window (shows your boot disk/volume).
 - Select your startup disk (usually "Macintosh HD").
@@ -37,14 +40,18 @@ For your M2 MacBook Air:
 - If it still hangs after Safe Mode boot, proceed to the next steps.
 
 ### 3. Reset NVRAM (Non-Volatile RAM)
+
 This clears temporary settings that can interfere with boot/update processes.
+
 - Shut down the Mac.
 - Press the power button, then immediately hold **Option + Command + P + R**.
 - Hold for about 20 seconds (until you hear the startup chime twice or see the Apple logo appear/disappear twice on M-series Macs).
 - Release and let it boot normally.
 
 ### 4. Boot into Recovery Mode and Run Disk Utility
+
 If the above doesn't work:
+
 - Shut down.
 - Press and hold the **power button** until startup options appear.
 - Click **Options** > **Continue** to enter macOS Recovery.
@@ -58,6 +65,7 @@ If the above doesn't work:
 - If reinstall hangs again, exit and restart normally first.
 
 ### Additional Tips
+
 - Make sure you're connected to power (charger plugged in) and a stable Wi-Fi network—some post-update steps require internet to finalize.
 - Disconnect any external devices (USB drives, hubs, displays) before trying the above—they can sometimes cause conflicts.
 - If you have a recent Time Machine backup (or can access one from another Mac), that's great insurance, but most people don't need to restore from it here.

@@ -32,18 +32,22 @@ There is **no direct Vault resolver** built into Liberty like `${vault:secret/pa
    Use Vault Agent to render secrets as files. Liberty can then read them as config variables from the filesystem.
 
    - Run Vault Agent in sidecar mode (or as init container) to authenticate (e.g. via Kubernetes auth, AppRole, etc.) and write secrets to files like:
+
      ```
      /config/variables/db_password
      /config/variables/db_username
      ```
+
    - Liberty automatically treats files under `/config/variables/` (or similar configured path) as variables.
    - In `server.xml`:
+
      ```xml
      <dataSource id="DefaultDataSource" jndiName="jdbc/myapp">
          <jdbcDriver libraryRef="DerbyLib"/>
          <properties.derby.embedded databaseName="memory:db" user="${db_username}" password="${db_password}"/>
      </dataSource>
      ```
+
    - This is explicitly supported/documented in Open Liberty (and works the same in WebSphere Liberty) when using Vault Agent to populate files.
 
 2. **Vault Agent Templating → Environment Variables**

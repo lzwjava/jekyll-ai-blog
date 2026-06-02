@@ -18,28 +18,28 @@ Vision Transformer (ViT) 将最初为自然语言处理设计的 Transformer 架
 
 ### ViT 工作原理的关键步骤
 
-1.  **分块嵌入（Patch Embedding）**：
-    *   输入图像（例如，形状为 `3 × H × W`）被分成固定大小的补丁（通常为 16×16 或 32×32 像素）。
-    *   每个补丁被展平并线性投影到一个固定的嵌入维度 `D`（例如，768）。
-    *   这会生成一个包含 `N = (H × W) / P²` 个补丁嵌入的序列，其中 `P` 是补丁大小。
+1. **分块嵌入（Patch Embedding）**：
+    * 输入图像（例如，形状为 `3 × H × W`）被分成固定大小的补丁（通常为 16×16 或 32×32 像素）。
+    * 每个补丁被展平并线性投影到一个固定的嵌入维度 `D`（例如，768）。
+    * 这会生成一个包含 `N = (H × W) / P²` 个补丁嵌入的序列，其中 `P` 是补丁大小。
 
-2.  **添加分类 Token ([CLS])**：
-    *   一个可学习的 `[CLS]` token 被前置到序列中。其在处理后的最终表示用于分类。
+2. **添加分类 Token ([CLS])**：
+    * 一个可学习的 `[CLS]` token 被前置到序列中。其在处理后的最终表示用于分类。
 
-3.  **位置嵌入（Positional Embeddings）**：
-    *   将可学习的（或固定的）位置嵌入添加到补丁嵌入中，以保留空间信息，因为自注意力是置换不变的。
+3. **位置嵌入（Positional Embeddings）**：
+    * 将可学习的（或固定的）位置嵌入添加到补丁嵌入中，以保留空间信息，因为自注意力是置换不变的。
 
-4.  **Transformer 编码器（Transformer Encoder）**：
-    *   序列（长度为 `N+1`）被输入到一堆 Transformer 块中。
-    *   每个块包含：
-        *   层归一化（Layer Normalization）
-        *   多头自注意力（Multi-Head Self-Attention, MHSA）：全局计算所有补丁之间的注意力。
-        *   层归一化（Layer Normalization）
-        *   MLP（前馈网络）：两个线性层，带有 GELU 激活和 dropout。
-        *   两个子层周围的残差连接。
+4. **Transformer 编码器（Transformer Encoder）**：
+    * 序列（长度为 `N+1`）被输入到一堆 Transformer 块中。
+    * 每个块包含：
+        * 层归一化（Layer Normalization）
+        * 多头自注意力（Multi-Head Self-Attention, MHSA）：全局计算所有补丁之间的注意力。
+        * 层归一化（Layer Normalization）
+        * MLP（前馈网络）：两个线性层，带有 GELU 激活和 dropout。
+        * 两个子层周围的残差连接。
 
-5.  **分类头（Classification Head）**：
-    *   与 `[CLS]` token 对应的输出通过一个线性层（或 MLP）生成类别 logits。
+5. **分类头（Classification Head）**：
+    * 与 `[CLS]` token 对应的输出通过一个线性层（或 MLP）生成类别 logits。
 
 ViT 在使用大型数据集和预训练（例如，在 ImageNet 上）时表现出色，大规模训练时通常在可伸缩性和效率方面优于 CNN。
 
@@ -130,8 +130,8 @@ outputs = model(img)  # (2, 10)
 
 参考文献：
 
--   [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (原始 ViT 论文)](https://arxiv.org/abs/2010.11929)
--   [torchvision VisionTransformer 文档](https://pytorch.org/vision/stable/models/generated/torchvision.models.vit_b_16.html)
--   [维基百科: Vision Transformer](https://en.wikipedia.org/wiki/Vision_transformer)
--   [V7 Labs: Vision Transformer 指南](https://www.v7labs.com/blog/vision-transformer-guide)
--   [GeeksforGeeks: Vision Transformer 架构](https://www.geeksforgeeks.org/deep-learning/vision-transformer-vit-architecture/)
+* [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (原始 ViT 论文)](https://arxiv.org/abs/2010.11929)
+* [torchvision VisionTransformer 文档](https://pytorch.org/vision/stable/models/generated/torchvision.models.vit_b_16.html)
+* [维基百科: Vision Transformer](https://en.wikipedia.org/wiki/Vision_transformer)
+* [V7 Labs: Vision Transformer 指南](https://www.v7labs.com/blog/vision-transformer-guide)
+* [GeeksforGeeks: Vision Transformer 架构](https://www.geeksforgeeks.org/deep-learning/vision-transformer-vit-architecture/)

@@ -9,10 +9,13 @@ type: note
 The Constitution of the United States is the foundational legal document that establishes the framework for the federal government and outlines the fundamental rights and freedoms of American citizens. It was adopted on September 17, 1787, and has been amended 27 times since its original ratification. Here are some key aspects of the U.S. Constitution:
 
 ### Preamble
+
 The Preamble outlines the purposes of the Constitution:
+
 - "We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America."
 
 ### Articles
+
 The Constitution is divided into seven original articles:
 
 1. Article I: The Legislative Branch
@@ -42,6 +45,7 @@ The Constitution is divided into seven original articles:
    - Outlines the process for the ratification of the Constitution.
 
 ### Amendments
+
 The Constitution has been amended 27 times. The first ten amendments, known as the Bill of Rights, were ratified in 1791 and include:
 
 1. First Amendment: Freedom of religion, speech, press, assembly, and petition.
@@ -56,6 +60,7 @@ The Constitution has been amended 27 times. The first ten amendments, known as t
 10. Tenth Amendment: Powers not delegated to the United States by the Constitution are reserved to the states or to the people.
 
 ### Notable Later Amendments
+
 - Thirteenth Amendment (1865): Abolition of slavery.
 - Fourteenth Amendment (1868): Citizenship rights and equal protection of the laws.
 - Fifteenth Amendment (1870): Prohibition of racial discrimination in voting.

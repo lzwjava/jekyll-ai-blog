@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 Standard Chartered (often abbreviated as SC) and Citibank (part of Citigroup, or Citi) are both major multinational banks with a focus on global operations, but they differ significantly in scale, geographic emphasis, and service strengths. Standard Chartered is a UK-based bank specializing in emerging markets, particularly in Asia, Africa, and the Middle East, with a strong emphasis on corporate and trade finance. Citibank, the consumer banking arm of U.S.-based Citigroup, has a broader global footprint and excels in retail banking, wealth management, and investment services, with deeper roots in developed markets like the U.S.
 
 Below is a side-by-side comparison across key categories, based on the latest available data as of mid-2025.
@@ -31,6 +32,7 @@ Below is a side-by-side comparison across key categories, based on the latest av
 | **Recent Performance Highlights** | - 26% profit jump in H1 2025 due to wealth and investment banking growth<br>- Targeting $200B in new assets over 5 years | - 9% revenue growth in Q3 2025; 15% net income increase YoY<br>- Focus on simplifying operations post-restructuring |
 
 ### Detailed Insights
+
 - **Financial Scale and Stability**: Citigroup dwarfs Standard Chartered in size, with assets over 2.8x larger, reflecting its diversified operations across consumer, institutional, and markets businesses. This gives Citi greater resilience but also more regulatory oversight. Standard Chartered's leaner model has driven faster profit growth (34% YoY in Q2 2025), but it's more sensitive to economic shifts in its core regions.
 
 - **Global Reach**: Both banks support international clients, but Citi's network spans more jurisdictions, making it ideal for seamless U.S.-linked transactions. Standard Chartered shines in niche areas like African trade corridors.
@@ -42,6 +44,7 @@ Below is a side-by-side comparison across key categories, based on the latest av
 If you're comparing for personal banking, business needs, or investments, Citi may suit U.S./global retail users, while Standard Chartered fits emerging market-focused corporates. For specific products (e.g., credit cards), Citi's cashback options often rate higher in rewards flexibility.
 
 ### References
+
 - [Citigroup Total Assets](https://www.macrotrends.net/stocks/charts/C/citigroup/total-assets)
 - [Standard Chartered Total Assets](https://companiesmarketcap.com/standard-chartered/total-assets/)
 - [Citigroup Q3 2025 Earnings](https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q32025/2025prqtr3rslt.pdf)

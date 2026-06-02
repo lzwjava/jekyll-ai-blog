@@ -12,7 +12,7 @@ type: note
 
 The mouse cursor changing to a cross/plus symbol (十字架) in VSCode usually indicates that VSCode is in a special mode or there's a configuration issue. Here are the most common causes and solutions:
 
-## Common Causes:
+## Common Causes
 
 1. **Column Selection Mode**: You might have accidentally activated column/block selection mode
    - Try pressing `Alt + Shift + I` or `Ctrl + Shift + Alt + Arrow keys` to exit this mode
@@ -29,7 +29,7 @@ The mouse cursor changing to a cross/plus symbol (十字架) in VSCode usually i
    - Click in the editor area to refocus
    - Try `Ctrl + 1` to focus on the editor
 
-## Quick Fixes:
+## Quick Fixes
 
 1. **Restart VSCode**: Simple but often effective
    - `Ctrl + Shift + P` → "Developer: Reload Window"

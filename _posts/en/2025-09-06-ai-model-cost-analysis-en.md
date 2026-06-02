@@ -16,6 +16,7 @@ type: note
 4. Investigate the scalability and flexibility of each model to accommodate future growth and changes in the user's needs.
 5. Examine the support and community around each model, including documentation, tutorials, and user forums, to gauge the ease of use and troubleshooting.
 6. Compare the performance of the shortlisted models in real-world scenarios or benchmarks to make an informed decision based on empirical data.
+
 # Comparative Analysis of Cost-Effective and High-Performance AI Models for Optimized Use Cases
 
 > - DeepSeek-R1-Distill-Llama-8B offers the lowest cost at $0.05 per 1M tokens total, with strong reasoning and math performance but weaker coding ability.

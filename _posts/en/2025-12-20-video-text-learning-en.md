@@ -17,6 +17,7 @@ Answer:
 Balancing video-based learning and text-based learning is a common challenge, and the key is to use each method strategically depending on the topic, your learning style, and the stage of understanding you're in. Here's a practical framework to combine both effectively:
 
 ### Strengths of Each Method
+
 - **Videos (e.g., YouTube animations, lectures):**
   - Excellent for visualizing complex processes (like networking protocols such as STP—Spanning Tree Protocol).
   - Animations show dynamic behavior: how packets flow, how root bridges are elected, how ports transition to root/designated/blocking states.
@@ -31,6 +32,7 @@ Balancing video-based learning and text-based learning is a common challenge, an
   - Allows quick scanning for specific information.
 
 ### Recommended Balancing Strategy
+
 1. **Start with Video for Initial Understanding**
    - Use videos when encountering a new or complex topic.
    - Goal: Build intuition and a mental picture.

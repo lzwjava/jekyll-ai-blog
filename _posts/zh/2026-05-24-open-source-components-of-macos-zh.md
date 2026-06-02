@@ -18,36 +18,42 @@ type: note
 ## 开源部分
 
 ### 1. Darwin / XNU 内核
+
 内核本身——**XNU**（X is Not Unix）——是开源的。它是一个混合内核，结合了：
+
 - **Mach** 微内核（来自 CMU）
 - **BSD**（基于 FreeBSD）层
 - **IOKit**（驱动框架）
 
-→ **源代码：** https://github.com/apple-oss-distributions/xnu
+→ **源代码：** <https://github.com/apple-oss-distributions/xnu>
 
 ### 2. Apple OSS Distributions
+
 苹果发布了一大批随 macOS 一起提供的开源组件：
 
-→ **主站：** https://opensource.apple.com/
+→ **主站：** <https://opensource.apple.com/>
 
-→ **GitHub 组织：** https://github.com/apple-oss-distributions
+→ **GitHub 组织：** <https://github.com/apple-oss-distributions>
 
 其中包括：`dyld`、`libdispatch`（GCD）、`libc`、`launchd`、`zsh`、`bash`、`curl`、`WebKit`、`clang/LLVM`、`Swift stdlib`、`libpthread` 以及数百个其他组件。
 
 ### 3. LLVM / Clang
+
 苹果是主要贡献者之一。Xcode 附带的 `clang` 是苹果的分支。
 
-→ https://github.com/llvm/llvm-project
+→ <https://github.com/llvm/llvm-project>
 
 ### 4. Swift
+
 完全开源。
 
-→ https://github.com/apple/swift
+→ <https://github.com/apple/swift>
 
 ### 5. WebKit
+
 Safari 背后的浏览器引擎。
 
-→ https://github.com/WebKit/WebKit
+→ <https://github.com/WebKit/WebKit>
 
 ---
 
@@ -83,6 +89,7 @@ Darwin 层之上的所有内容都是专有的：
 ## 实用提示
 
 如果你想在阅读 XNU 源代码的同时对照内核行为，可以配合以下命令使用：
+
 ```bash
 # 查看你的 macOS 版本 → 匹配到 XNU 发行标签
 sw_vers -productVersion

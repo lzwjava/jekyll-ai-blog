@@ -21,9 +21,11 @@ This is the README.md from github project [https://github.com/lzwjava/leanchat-i
 ![leanchat](https://cloud.githubusercontent.com/assets/5022872/8431636/4eff0aca-1f6d-11e5-8728-f8f450dac380.gif)
 
 ## App Store
-LeanChat is available on the App Store. You can visit https://itunes.apple.com/gb/app/leanchat/id943324553 or search for LeanChat on the App Store.
+
+LeanChat is available on the App Store. You can visit <https://itunes.apple.com/gb/app/leanchat/id943324553> or search for LeanChat on the App Store.
 
 ## Introduction
+
 This example project comprehensively demonstrates the application of LeanCloud's real-time communication feature. However, it contains a lot of UI code and other functionalities, making it not suitable for quick learning. If you are new to LeanMessage, we recommend the [LeanMessage-Demo](https://github.com/leancloud/LeanMessage-Demo) project. Once you are familiar, you can go to [LeanCloud-Demos](https://github.com/leancloud/leancloud-demos) to select your favorite IM skin for integration. During integration, if you encounter difficult problems, you can refer back to the LeanChat project.
 
 ## LeanChat Project Structure
@@ -38,11 +40,13 @@ This example project comprehensively demonstrates the application of LeanCloud's
 If you have any questions, feel free to raise an [issue](https://github.com/leancloud/leanchat-ios/issues), stating what you don't understand, and we'll provide assistance as soon as possible.
 
 ## Download
+
 Please directly click on `Download Zip` on Github as shown in the image below to download the latest version only. If you use `git clone`, it might be very slow because it includes a large commit history. In a test, the difference was 1.5M:40M.
 
 ![qq20150618-2 2x](https://cloud.githubusercontent.com/assets/5022872/8223520/4c25415a-15ab-11e5-912d-b5dab916ce86.png)
 
 ## Running
+
 ```bash
   // LeanChat (Complex Example)
   cd LeanChat
@@ -72,6 +76,7 @@ Please note that because the default uses production certificates, there are no 
 Here you can see three projects, as described below.
 
 ## Subproject Introduction
+
 * LeanChatLib: The core logic and UI library for chatting. With it, you can quickly integrate chat functionality, supporting text, audio, image, and emoji messages, as well as message notifications. There is also a corresponding [Android version](https://github.com/leancloud/leanchat-android).
 * LeanChatExample: The simplest usage example of LeanChatLib. It shows how to use a minimal amount of code to call LeanChatLib to join a chat, regardless of whether you use LeanCloud's user system or your own user system.
 * LeanChat-ios: The entire LeanChat application. It includes features such as friend management, group management, location-based messaging, nearby users, personal pages, login, and registration, all based on LeanCloud's storage and communication capabilities. It is a more complex application of LeanChatLib.
@@ -87,6 +92,7 @@ It encapsulates the recent conversation page and chat page. Both LeanChat and Le
 Most of the time, you will integrate LeanChatLib by dragging the source code into your project. In this case, you need to install `AVOSCloud.framework` and `AVOSCloudIM.framework` first. If you didn't use `pod install 'AVOSCloud'`, `pod install 'AVOSCloudIM'` to install, you can configure the required Frameworks according to the LeanCloud [Quick Start Guide](https://leancloud.cn/docs/start.html). Also, install two other dependent libraries `JSBadgeView` and `DateTools`. When running `pod install` for this Demo, a Pods directory will be generated, from which you can find these two Pods. Alternatively, you can search online. You can also configure it through the [.podspec file](https://github.com/leancloud/leanchat-ios/blob/master/LeanChatLib.podspec#L9), which describes which source files need to be integrated and which system frameworks need to be introduced, etc. Or, please refer to this [ticket](https://ticket.leancloud.cn/tickets/7666).
 
 ## How to Add IM in Three Steps
+
 1. Create an application in LeanCloud.
 2. Add the LeanChatLib pod dependency, or drag the LeanChatLib code files into your project for easier UI customization and feature adjustment.
 3. Add the following code in
@@ -94,6 +100,7 @@ Most of the time, you will integrate LeanChatLib by dragging the source code int
  appropriate places,
 
 Upon application launch, initialize and configure IM User,
+
 ```objc
     [AVOSCloud setApplicationId:@"YourAppId" clientKey:@"YourAppKey"];
     [CDChatManager manager].userDelegate = [[CDUserFactory alloc] init];
@@ -133,6 +140,7 @@ Configure a UserFactory, which conforms to the CDUserDelegate protocol.
 Here, CDUser is the User object within the application, and you can implement the CDUserModel protocol in your User object.
 
 CDUserModel,
+
 ```objc
 @protocol CDUserModel <NSObject>
 
@@ -148,6 +156,7 @@ CDUserModel,
 ```
 
 Call when logging in,
+
 ```objc
         [[CDChatManager manager] openWithClientId:selfId callback: ^(BOOL succeeded, NSError *error) {
             if (error) {
@@ -160,6 +169,7 @@ Call when logging in,
 ```
 
 To chat with someone,
+
 ```objc
         [[CDChatManager manager] fetchConvWithOtherId : otherId callback : ^(AVIMConversation *conversation, NSError *error) {
             if (error) {
@@ -173,6 +183,7 @@ To chat with someone,
 ```
 
 To group chat,
+
 ```objc
         NSMutableArray *memberIds = [NSMutableArray array];
         [memberIds addObject:groupId1];
@@ -190,6 +201,7 @@ To group chat,
 ```
 
 When logging out,
+
 ```objc
     [[CDChatManager manager] closeWithCallback: ^(BOOL succeeded, NSError *error) {
 
@@ -246,7 +258,6 @@ Refactoring
 0.1.0
 
 Initial release
-
 
 ## Deployment Notes for LeanChat
 

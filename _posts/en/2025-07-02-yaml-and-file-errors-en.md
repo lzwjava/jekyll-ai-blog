@@ -10,21 +10,21 @@ type: note
 
 The output you've provided shows two types of errors:
 
-1.  **YAML Exception:** This indicates an issue with the front matter (the YAML block at the top) of your Markdown files:
+1. **YAML Exception:** This indicates an issue with the front matter (the YAML block at the top) of your Markdown files:
 
       * `/Users/lzwjava/projects/lzwjava.github.io/notes/2025-06-25-company-valuation-comparison-en.md`
       * `/Users/lzwjava/projects/lzwjava.github.io/notes/2025-06-25-top-companies-evolve-en.md`
         The error "did not find expected key while parsing a block mapping at line 2 column 1" suggests that the YAML syntax in these files is incorrect, likely missing a key or having an indentation issue in the front matter.
 
-2.  **`Errno::ENOENT: No such file or directory @ rb_sysopen - /Users/lzwjava/projects/lzwjava.github.io/wandb/debug-internal.log`**: This error indicates that Jekyll is trying to access a file or directory that doesn't exist, specifically `/wandb/debug-internal.log`. This could be a temporary file or a dependency from another tool (like Weights & Biases - `wandb`) that Jekyll is trying to process.
+2. **`Errno::ENOENT: No such file or directory @ rb_sysopen - /Users/lzwjava/projects/lzwjava.github.io/wandb/debug-internal.log`**: This error indicates that Jekyll is trying to access a file or directory that doesn't exist, specifically `/wandb/debug-internal.log`. This could be a temporary file or a dependency from another tool (like Weights & Biases - `wandb`) that Jekyll is trying to process.
 
 To answer your question on how to let Jekyll ignore some directories, you can use the `exclude` option in your `_config.yml` file.
 
 Here's how to do it:
 
-1.  **Open your `_config.yml` file** (located in the root of your Jekyll project).
+1. **Open your `_config.yml` file** (located in the root of your Jekyll project).
 
-2.  **Add or modify the `exclude` directive.** This directive takes an array of paths (files or directories) that Jekyll should ignore during its build process.
+2. **Add or modify the `exclude` directive.** This directive takes an array of paths (files or directories) that Jekyll should ignore during its build process.
 
     For example, to ignore the `wandb` directory and any other directories you want to exclude, add the following to your `_config.yml`:
 
@@ -42,9 +42,9 @@ Here's how to do it:
 
 **Addressing your specific errors with `exclude`:**
 
-  * **For the `wandb` directory error:** Adding `wandb/` to your `exclude` list in `_config.yml` should prevent Jekyll from trying to read files within it, resolving the `No such file or directory` error for `wandb/debug-internal.log`.
+* **For the `wandb` directory error:** Adding `wandb/` to your `exclude` list in `_config.yml` should prevent Jekyll from trying to read files within it, resolving the `No such file or directory` error for `wandb/debug-internal.log`.
 
-  * **For the YAML Exception:** The `exclude` directive will not fix the YAML errors in your Markdown files. You need to **manually correct the front matter** in `notes/2025-06-25-company-valuation-comparison-en.md` and `notes/2025-06-25-top-companies-evolve-en.md`.
+* **For the YAML Exception:** The `exclude` directive will not fix the YAML errors in your Markdown files. You need to **manually correct the front matter** in `notes/2025-06-25-company-valuation-comparison-en.md` and `notes/2025-06-25-top-companies-evolve-en.md`.
 
     **Typical Jekyll Front Matter Structure:**
 

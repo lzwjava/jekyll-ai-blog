@@ -41,6 +41,7 @@ journalctl --user -u openclaw-gateway.service -n 100 --no-pager | grep -i "origi
 ```
 
 Sources:
+
 - [Sentry: How to fix "WebSocket is closed before the connection is established"](https://sentry.io/answers/how-do-i-fix-the-error-websocket-is-closed-before-the-connection-is-established/)
 - [wss vs ws explained — WebSocket.org](https://websocket.org/reference/wss-vs-ws/)
 - [WS on HTTP vs WSS on HTTPS — APIdog](https://apidog.com/blog/ws-on-http-vs-wss-on-https/)

@@ -9,7 +9,8 @@ translated: false
 type: note
 ---
 
-#!/usr/bin/env python3
+# !/usr/bin/env python3
+
 """
 DeepSeek-V2-Lite-Chat inference with 4-bit quantization.
 Fits in 12GB VRAM (RTX 4070).
@@ -24,7 +25,6 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 MODEL_PATH = "/mnt/data/models/DeepSeek-V2-Lite-Chat"
-
 
 def load_model():
     """Load model with 4-bit quantization."""
@@ -51,7 +51,6 @@ def load_model():
     print(f"Model loaded. GPU memory used: {mem_gb:.1f} GB")
     return model, tokenizer
 
-
 def generate(model, tokenizer, prompt, max_new_tokens=512):
     """Generate a response."""
     messages = [{"role": "user", "content": prompt}]
@@ -73,7 +72,6 @@ def generate(model, tokenizer, prompt, max_new_tokens=512):
         outputs[0][inputs["input_ids"].shape[1] :], skip_special_tokens=True
     )
     return response
-
 
 def interactive(model, tokenizer):
     """Interactive chat loop."""
@@ -98,7 +96,6 @@ def interactive(model, tokenizer):
         response = generate(model, tokenizer, user_input)
         print(f"\nDeepSeek: {response}\n")
 
-
 def main():
     parser = argparse.ArgumentParser(description="DeepSeek-V2-Lite inference")
     parser.add_argument("-p", "--prompt", help="Single prompt mode")
@@ -114,7 +111,6 @@ def main():
         print(response)
     else:
         interactive(model, tokenizer)
-
 
 if __name__ == "__main__":
     main()

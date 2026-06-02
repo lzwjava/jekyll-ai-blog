@@ -11,6 +11,7 @@ type: note
 As of April 9, 2025, Chinese citizens have visa-free access or visa-on-arrival options to a number of countries and territories. Based on the latest available data, here’s a breakdown of where Chinese passport holders can travel without needing a visa in advance or can obtain one upon arrival. This list reflects agreements, unilateral policies, and regional arrangements in place as of early 2025, though policies can change, so it’s always wise to verify with official sources before traveling.
 
 ### Visa-Free Countries for Chinese Citizens
+
 These countries allow Chinese citizens to enter without a visa for a specified duration, typically for tourism, business, or short visits:
 
 - **Albania**: 90 days
@@ -47,6 +48,7 @@ These countries allow Chinese citizens to enter without a visa for a specified d
 Additionally, **Hainan Province (China)** offers a unique 30-day visa-free entry for citizens of 59 countries, including Chinese citizens arriving directly from abroad (e.g., via Hong Kong), for tourism or business, provided they register with a local travel agency.
 
 ### Visa on Arrival Countries
+
 These destinations allow Chinese citizens to arrive and obtain a visa at the port of entry, often with a simple form or fee:
 
 - **Azerbaijan**: Visa on arrival available, though eVisa is also an option
@@ -88,10 +90,12 @@ These destinations allow Chinese citizens to arrive and obtain a visa at the por
 - **Vietnam**: 30 days (Phu Quoc Island only; mainland requires eVisa or pre-arranged visa on arrival via travel agencies)
 
 ### Notes on Specific Examples You Mentioned
+
 - **Thailand**: As noted, Chinese citizens enjoy 30 days visa-free entry, extendable up to 90 days within a 180-day period under a mutual agreement. No form is needed upon arrival—just a valid passport.
 - **Singapore**: A 30-day visa-free stay is available due to a mutual exemption agreement. Entry is straightforward with no additional forms required at the border.
 
 ### Additional Context
+
 - **Total Access**: As of 2025, Chinese citizens can access approximately 85-99 countries and territories visa-free or with a visa on arrival, depending on how specific policies are counted (e.g., Henley Passport Index lists 85, while other sources like VisaGuide estimate up to 99 with recent updates).
 - **Recent Developments**: China has been expanding visa-free access, notably with countries like Thailand, Singapore, and several European nations (though many European agreements are for their citizens entering China, not vice versa). Bilateral agreements and unilateral policies continue to evolve, so this list may grow by year-end.
 - **Conditions**: Visa-free or on-arrival stays typically require a passport valid for at least six months, return tickets, and proof of accommodation or funds. Some countries may have additional entry conditions (e.g., Lebanon’s conditional visa on arrival).

@@ -13,11 +13,13 @@ type: note
 As a Guangzhou citizen with a valid C1/C2 mainland driving license, you can indeed apply for a full Hong Kong driving license through the official "direct issue" process without needing to take a driving test. This is because mainland licenses are treated as overseas qualifications under Hong Kong's Road Traffic Regulations, and your C1/C2 class aligns with Hong Kong's private car (class 1) entitlement. However, the process has strict requirements and must be handled directly with the Hong Kong Transport Department—no third-party store in Shenzhen can legitimately process or issue it for you.
 
 ### Why You Shouldn't Trust the Small Store in Futian Kouan
+
 - **Official process requires in-person submission in Hong Kong**: You must go to a Hong Kong Licensing Office (e.g., in Kowloon or Hong Kong Island) yourself or send an authorized representative. Applications can't be fully outsourced or handled from mainland China. A Shenzhen store claiming to "help" for 1800 CNY (about HK$1,950) is likely offering unofficial assistance like document prep, translations, or appointments—but at that price, it's probably inflated or a outright scam where they take your money and vanish. There's no evidence of legitimate agencies in Futian (the checkpoint area) specializing in this for mainland applicants; most services there are for the reverse (HK residents getting mainland licenses).
 - **No specific mentions of this store or similar services**: Searches for driving license help in Futian/Shenzhen turn up nothing credible for mainland-to-HK conversions. Instead, they highlight general scams in the area, like fake document vendors or overpriced "agents" targeting cross-border travelers. Futian Port is a hotspot for touts peddling dubious services, but nothing verified for HK licenses.
 - **Risks involved**: Paying upfront to an unverified small store could lead to fake documents, identity theft, or wasted money. Hong Kong authorities don't recognize third-party intermediaries for license issuance, and using forged papers could result in fines, license suspension, or legal issues on both sides of the border. Recent reports note a rise in mainlanders applying for HK licenses (possibly for prestige or easier cross-border driving), but this has raised road safety concerns—stick to official channels to avoid complications.
 
 ### How to Do It Officially (Step-by-Step)
+
 If your goal is a full HK license for longer-term use (beyond visitor driving), follow this. It typically takes 5 working days and costs around HK$900–1,000 (including fees; check current rates).
 
 1. **Check Eligibility**:
@@ -45,7 +47,9 @@ If your goal is a full HK license for longer-term use (beyond visitor driving), 
    - If urgent, request a certification letter while waiting.
 
 ### Alternative: Driving in HK as a Visitor (No License Needed)
+
 If you just need short-term access (e.g., renting a car for a trip), you can drive in HK for up to 12 months from your last entry using your valid mainland license alone—no HK license or IDP required, as mainland is covered under "overseas" rules for visitors. Just carry:
+
 - Your C1/C2 license.
 - Mainland passport/Exit-Entry Permit.
 - Vehicle rental docs if applicable.

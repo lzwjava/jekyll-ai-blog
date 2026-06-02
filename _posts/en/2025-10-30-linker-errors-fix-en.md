@@ -15,16 +15,20 @@ type: note
 Your build log shows successful compilation of individual source files (with some warnings), but it fails during the final linking step due to **multiple definition errors** for global variables and structures. This is a common C issue when header files define (rather than just declare) globals. I'll break it down: first the warnings (non-fatal but worth fixing), then the fatal linker errors with a step-by-step fix.
 
 #### 1. Compilation Warnings (Non-Fatal)
+
 These are from GCC's `-Wall` flag. They don't stop the build but indicate potential bugs. Fix them to clean up the output.
 
 - **utils.c**:
   - Line ~4 (in `location_cmp()`): Format specifier mismatch. `strlen()` returns `size_t` (unsigned long), but you're using `%d` (int).
     **Fix**: Change `%d` to `%zu` in the `printf`:
+
     ```c
     printf("[++++] location_cmp() RESULT: %d (%zu)\n", result, strlen(A) > strlen(B) ? strlen(A) : strlen(B));
     ```
+
   - Line 287 (in `kbhit()`): Ignoring `read()` return value (it can fail).
     **Fix**: Check the return value:
+
     ```c
     if (read(0, &key, 1) != 1) {
         // Handle error, e.g., return 0;
@@ -34,16 +38,19 @@ These are from GCC's `-Wall` flag. They don't stop the build but indicate potent
 - **resume.c**:
   - Line 32 (in `dump()`): Misleading indentation—`fflush(stdout)` isn't guarded by the `if`.
     **Fix**: Add braces or reindent:
+
     ```c
     if (options.debuging > 2) {
         printf("[++] dump() Dumping Session State AT %s", asctime(ptr));
         fflush(stdout);
     }
     ```
+
   - Lines 38–41 and 109–112: Ignoring `asprintf()` return values (it can fail and leave pointers uninitialized).
     **Fix**: Check returns (e.g., `if (asprintf(&dumppath, ...) < 0) { /* error */ }`). Do this for all calls.
   - Line 120 (in `resume()`): Ignoring `fread()` return value (it might not read the full struct).
     **Fix**: Check it:
+
     ```c
     if (fread(&options, sizeof(struct opciones), 1, desc) != 1) {
         // Handle error, e.g., fclose(desc); return;
@@ -53,6 +60,7 @@ These are from GCC's `-Wall` flag. They don't stop the build but indicate potent
 Recompile after fixes: `make clean && make` (assuming a Makefile; if not, rerun your gcc commands).
 
 #### 2. Fatal Linker Errors (Multiple Definitions)
+
 The linker (`/usr/bin/ld`) complains about dozens of symbols (e.g., `options`, `encontradas`, `curl`, etc.) being defined multiple times across object files (`dirb.o`, `crea_wordlist.o`, etc.). All trace back to `/home/lzwjava/projects/dirb/src/variables.h:XX`.
 
 **Root Cause**:
@@ -60,11 +68,14 @@ The linker (`/usr/bin/ld`) complains about dozens of symbols (e.g., `options`, `
 
 **Solution**:
 Use the "extern" pattern for shared globals:
+
 - **Declare** in header with `extern` (tells compiler "this exists elsewhere").
 - **Define** (without `extern`) in **exactly one** `.c` file (e.g., `dirb.c`).
 
 Steps:
+
 1. **Edit `variables.h`** (in `src/`): Prefix all global variables/structs with `extern`. Examples based on the errors:
+
    ```c
    // Before (bad: defines in every .o)
    struct opciones options;
@@ -114,10 +125,12 @@ Steps:
    extern int resuming;
    extern char *next_dir;
    ```
+
    - Include necessary headers at the top: `#include <stdio.h>`, `#include <curl/curl.h>`, etc.
    - If `struct opciones` is defined in the header, keep that (structs can be defined in headers).
 
 2. **Pick one source file** (e.g., `dirb.c`, the main file) and **define** the globals there (no `extern`):
+
    ```c
    // In dirb.c, after includes
    struct opciones options = {0};  // Initialize if needed
@@ -129,6 +142,7 @@ Steps:
    ```
 
 3. **Clean and rebuild**:
+
    ```
    make clean  # Or rm *.o
    # Rerun your compile commands, then the final link:
@@ -140,6 +154,7 @@ Steps:
    - If new errors appear (e.g., undefined symbols), ensure the definitions are in `dirb.c` and all files include `variables.h`.
 
 #### Additional Notes
+
 - **Makefile?** If this is from a `Makefile`, add `-Werror` temporarily to treat warnings as errors during dev.
 - **DirB Version**: This looks like an older/custom fork (references to `lanza_ataque.c`, etc.). If it's from GitHub, check for upstream fixes: [dirb on GitHub](https://github.com/v0re/dirb).
 - **Dependencies**: Ensure libcurl is installed (`sudo apt install libcurl4-openssl-dev` on Debian-based systems).

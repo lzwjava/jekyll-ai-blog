@@ -13,7 +13,9 @@ type: note
 ---
 
 ### **概述**
+
 该脚本设计用于：
+
 1. 配置运行 SQuirreL SQL Client 所需的 Java 环境
 2. 验证 Java 版本兼容性（需要 Java 1.6 或 1.7）
 3. 检查软件更新并在可用时应用
@@ -27,22 +29,26 @@ type: note
 ### **逐行详解**
 
 #### **1. `@echo off`**
+
 - **用途**：禁用命令在控制台的回显，通过仅显示预期输出（如错误信息或特定的 `echo` 语句）使脚本输出更清晰
 - **效果**：除非使用 `echo` 显式打印，否则脚本中执行的命令不会显示
 
 ---
 
 #### **2. `@rem IZPACK_JAVA is filtered in by the IzPack installer when this script is installed`**
+
 - **用途**：注释（`@rem`）说明 `IZPACK_JAVA` 变量由 IzPack 安装程序在安装过程中设置
 - **背景**：IzPack 是用于创建 Java 应用程序安装程序的工具，它在脚本中动态设置 `JAVA_HOME` 环境变量以指向安装期间使用的 Java 安装路径
 
 #### **3. `set IZPACK_JAVA=%JAVA_HOME`**
+
 - **用途**：将 `JAVA_HOME` 环境变量（由 IzPack 设置）的值赋给 `IZPACK_JAVA` 变量
 - **说明**：这确保脚本知道 Java 安装位置。`JAVA_HOME` 通常指向 Java 开发工具包（JDK）或 Java 运行时环境（JRE）的根目录
 
 ---
 
 #### **4. Java 检测逻辑**
+
 ```bat
 @rem 我们根据以下算法检测要使用的 java 可执行文件：
 @rem 1. 如果 IzPack 安装程序使用的 java 可用，则使用该版本；否则
@@ -53,6 +59,7 @@ if exist "%IZPACK_JAVA%\bin\javaw.exe" (
   set LOCAL_JAVA=javaw.exe
 )
 ```
+
 - **用途**：确定用于运行 SQuirreL SQL 的 Java 可执行文件
 - **逻辑**：
   1. **检查 IzPack Java**：脚本检查 `javaw.exe` 是否存在于 `IZPACK_JAVA` 指定的 Java 安装目录的 `bin` 子目录中（即 `%IZPACK_JAVA%\bin\javaw.exe`）
@@ -62,8 +69,10 @@ if exist "%IZPACK_JAVA%\bin\javaw.exe" (
 - **为何使用 `javaw.exe`？**：使用 `javaw.exe` 可确保应用程序在没有持久命令窗口的情况下运行，提供更简洁的用户体验
 
 #### **5. `echo Using java: %LOCAL_JAVA%`**
+
 - **用途**：将正在使用的 Java 可执行文件路径打印到控制台，用于调试或信息目的
 - **示例输出**：如果 `LOCAL_JAVA` 为 `C:\Program Files\Java\jre1.6.0_45\bin\javaw.exe`，将显示：
+
   ```
   Using java: C:\Program Files\Java\jre1.6.0_45\bin\javaw.exe
   ```
@@ -71,6 +80,7 @@ if exist "%IZPACK_JAVA%\bin\javaw.exe" (
 ---
 
 #### **6. 确定 SQuirreL SQL 主目录**
+
 ```bat
 set basedir=%~f0
 :strip
@@ -79,6 +89,7 @@ set basedir=%basedir:~0,-1%
 if NOT "%removed%"=="\" goto strip
 set SQUIRREL_SQL_HOME=%basedir%
 ```
+
 - **用途**：确定 SQuirreL SQL 的安装目录（`SQUIRREL_SQL_HOME`）
 - **说明**：
   - `%~f0`：扩展为批处理脚本本身的完整路径（例如 `C:\Program Files\SQuirreL\squirrel-sql.bat`）
@@ -89,10 +100,12 @@ set SQUIRREL_SQL_HOME=%basedir%
 ---
 
 #### **7. Java 版本检查**
+
 ```bat
 "%LOCAL_JAVA%" -cp "%SQUIRREL_SQL_HOME%\lib\versioncheck.jar" JavaVersionChecker 1.6 1.7
 if ErrorLevel 1 goto ExitForWrongJavaVersion
 ```
+
 - **用途**：验证 Java 版本与 SQuirreL SQL 兼容（需要 Java 1.6 或 1.7）
 - **说明**：
   - 脚本运行 `JavaVersionChecker` 类，该类来自 SQuirreL SQL 的 `lib` 目录中的 `versioncheck.jar`
@@ -105,6 +118,7 @@ if ErrorLevel 1 goto ExitForWrongJavaVersion
 ---
 
 #### **8. 软件更新检查**
+
 ```bat
 if not exist "%SQUIRREL_SQL_HOME%\update\changeList.xml" goto launchsquirrel
 SET TMP_CP="%SQUIRREL_SQL_HOME%\update\downloads\core\squirrel-sql.jar"
@@ -115,6 +129,7 @@ SET UPDATE_CP=%TMP_CP%
 SET UPDATE_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\update-log4j.properties" --squirrel-home "%SQUIRREL_SQL_HOME%" %1 %2 %3 %4 %5 %6 %7 %8 %9
 "%LOCAL_JAVA%" -cp %UPDATE_CP% -Dlog4j.defaultInitOverride=true -Dprompt=true net.sourceforge.squirrel_sql.client.update.gui.installer.PreLaunchUpdateApplication %UPDATE_PARAMS%
 ```
+
 - **用途**：在启动主应用程序前检查并应用软件更新
 - **说明**：
   1. **检查更新文件**：
@@ -139,6 +154,7 @@ SET UPDATE_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\update-log4j.properties"
 ---
 
 #### **9. 启动 SQuirreL SQL**
+
 ```bat
 :launchsquirrel
 @rem 构建 SQuirreL 的类路径
@@ -148,6 +164,7 @@ FOR /F %%I IN (%TEMP%\squirrel-lib.tmp) DO CALL "%SQUIRREL_SQL_HOME%\addpath.bat
 SET SQUIRREL_CP=%TMP_CP%
 echo "SQUIRREL_CP=%SQUIRREL_CP%"
 ```
+
 - **用途**：构建主 SQuirreL SQL 应用程序的类路径并准备启动
 - **说明**：
   1. **初始化类路径**：
@@ -163,9 +180,11 @@ echo "SQUIRREL_CP=%SQUIRREL_CP%"
 ---
 
 #### **10. 设置启动参数**
+
 ```bat
 SET TMP_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\log4j.properties" --squirrel-home "%SQUIRREL_SQL_HOME%" %1 %2 %3 %4 %5 %6 %7 %8 %9
 ```
+
 - **用途**：定义传递给 SQuirreL SQL 应用程序的参数
 - **说明**：
   - `--log-config-file`：指定主应用程序的 Log4j 配置文件
@@ -175,10 +194,12 @@ SET TMP_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\log4j.properties" --squirre
 ---
 
 #### **11. 启动应用程序**
+
 ```bat
 @rem -Dsun.java2d.noddraw=true 防止在 Win32 系统上出现性能问题
 start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true -cp %SQUIRREL_CP% -splash:"%SQUIRREL_SQL_HOME%/icons/splash.jpg" net.sourceforge.squirrel_sql.client.Main %TMP_PARMS%
 ```
+
 - **用途**：启动 SQuirreL SQL Client 应用程序
 - **说明**：
   - **`start "SQuirreL SQL Client" /B`**：在新进程中运行命令，不打开新的控制台窗口（`/B` 抑制窗口）
@@ -193,15 +214,18 @@ start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true
 ---
 
 #### **12. 错误 Java 版本退出**
+
 ```bat
 :ExitForWrongJavaVersion
 ```
+
 - **用途**：如果 Java 版本检查失败，用作退出点的标签
 - **说明**：如果 Java 版本不是 1.6 或 1.7，脚本跳转至此并终止，不启动应用程序
 
 ---
 
 ### **关键组件和概念**
+
 1. **类路径构建**：
    - 脚本通过包含 `squirrel-sql.jar` 和 `lib` 或 `update\downloads\core` 目录中的所有 `.jar` 文件，动态构建更新过程（`UPDATE_CP`）和主应用程序（`SQUIRREL_CP`）的类路径
    - 假定 `addpath.bat` 脚本（未显示）将每个文件追加到类路径变量
@@ -221,6 +245,7 @@ start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true
 ---
 
 ### **潜在问题和注意事项**
+
 1. **Java 版本限制**：
    - 脚本仅允许 Java 1.6 或 1.7，这些版本已过时（分别于 2006 年和 2011 年发布）。现代系统可能装有更新的 Java 版本，导致脚本失败，除非安装了兼容的 JRE
    - **解决方法**：用户可能需要安装兼容的 JRE，或修改脚本以支持更新的版本（如果 SQuirreL SQL 兼容）
@@ -240,7 +265,9 @@ start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true
 ---
 
 ### **总结**
+
 此批处理脚本是 SQuirreL SQL Client 的启动器，执行以下任务：
+
 - 检测并配置 Java 可执行文件
 - 验证 Java 版本兼容性（1.6 或 1.7）
 - 检查并在可用时应用软件更新

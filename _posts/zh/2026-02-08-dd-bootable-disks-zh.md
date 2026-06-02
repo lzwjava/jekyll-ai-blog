@@ -97,6 +97,7 @@ sudo dd if=ubuntu-24.04-desktop-amd64.iso \
    → 一个拼写错误 → 你可能会摧毁你的系统 SSD/NVMe
 
 2. 每次执行 `dd` 前的最佳安全序列：
+
    ```bash
    lsblk -o NAME,SIZE,TYPE,MOUNTPOINT
    # 或者
@@ -106,6 +107,7 @@ sudo dd if=ubuntu-24.04-desktop-amd64.iso \
 3. 永远不要在未检查的情况下使用 `/dev/sda`, `/dev/nvme0n1` 等设备名
 
 4. 先卸载目标 USB：
+
    ```bash
    sudo umount /dev/sdX* 2>/dev/null
    ```

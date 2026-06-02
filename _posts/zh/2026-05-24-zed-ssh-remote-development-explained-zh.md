@@ -25,6 +25,7 @@ UI 完全在本地运行（120fps GPU 渲染），但语言服务器、任务和
 使用 `ctrl-cmd-shift-o`（macOS）或 `alt-ctrl-shift-o`（Linux）打开“远程项目”对话框。点击“连接新服务器”并输入 SSH 命令。Zed 会在远程主机上下载服务器二进制文件并自动启动。
 
 对于简单情况，你也可以直接运行：
+
 ```
 zed ssh://[user@]host[:port]/path
 ```

@@ -16,17 +16,19 @@ type: note
 **曼彻斯特编码（Manchester encoding）** 是一种在电信和数据存储中使用的线路编码技术，用于同步发送方和接收方之间的数据传输。它通过将时钟信息嵌入数据信号本身，消除了对单独时钟线的需求。
 
 ### 工作原理
+
 在曼彻斯特编码中，每个比特周期被分为两个相等的部分。每个比特周期中间都会发生电压转换。这种转换有两个作用：表示数据值，并提供同步定时边沿。
 
-*   **逻辑 0：** 通常通过比特周期中间的**高到低（High-to-Low）**转换表示。
-*   **逻辑 1：** 通常通过比特周期中间的**低到高（Low-to-High）**转换表示。
+* **逻辑 0：** 通常通过比特周期中间的**高到低（High-to-Low）**转换表示。
+* **逻辑 1：** 通常通过比特周期中间的**低到高（Low-to-High）**转换表示。
 
 *（注：具体的极性约定可能因标准而异，但核心特征是保证每个比特周期中间都有转换。）*
 
 ### 关键特性
-1.  **自时钟（Self-Clocking）:** 由于每个比特中间都有转换，接收方可以从数据流中轻松恢复时钟信号，确保发送方和接收方保持同步。
-2.  **直流平衡（DC Balanced）:** 信号没有净直流分量，因为电压在高低电平上保持相等的时间。这防止了基线漂移，并允许通过变压器传输。
-3.  **错误检测（Error Detection）:** 如果接收方在比特周期中间预期有转换但未检测到，则可以立即识别传输错误。
+
+1. **自时钟（Self-Clocking）:** 由于每个比特中间都有转换，接收方可以从数据流中轻松恢复时钟信号，确保发送方和接收方保持同步。
+2. **直流平衡（DC Balanced）:** 信号没有净直流分量，因为电压在高低电平上保持相等的时间。这防止了基线漂移，并允许通过变压器传输。
+3. **错误检测（Error Detection）:** 如果接收方在比特周期中间预期有转换但未检测到，则可以立即识别传输错误。
 
 ### 优点与缺点
 
@@ -37,12 +39,13 @@ type: note
 | 内置错误检测功能 | 由于频繁转换，功耗较高 |
 
 ### 应用
-*   **以太网（Ethernet）:** 历史上用于 10BASE-T 和 10BASE2 标准（IEEE 802.3）。
-*   **RFID:** 常用于被动 RFID 标签的反向散射通信。
-*   **红外通信（Infrared Communications）:** 用于某些红外遥控协议。
+
+* **以太网（Ethernet）:** 历史上用于 10BASE-T 和 10BASE2 标准（IEEE 802.3）。
+* **RFID:** 常用于被动 RFID 标签的反向散射通信。
+* **红外通信（Infrared Communications）:** 用于某些红外遥控协议。
 
 参考：
 
-*   [IEEE 802.3 以太网标准](https://www.ieee802.org/3/)
-*   [曼彻斯特编码 - 维基百科](https://en.wikipedia.org/wiki/Manchester_code)
-*   [曼彻斯特编码 - GeeksforGeeks](https://www.geeksforgeeks.org/manchester-encoding/)
+* [IEEE 802.3 以太网标准](https://www.ieee802.org/3/)
+* [曼彻斯特编码 - 维基百科](https://en.wikipedia.org/wiki/Manchester_code)
+* [曼彻斯特编码 - GeeksforGeeks](https://www.geeksforgeeks.org/manchester-encoding/)

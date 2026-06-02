@@ -25,8 +25,6 @@ Answer: The **First National People's Congress (1st NPC)** was a landmark event 
 * **Zhou Enlai** was appointed as the Premier of the State Council.
 * **Liu Shaoqi** was elected as the Chairman of the NPC Standing Committee.
 
-
-
 ### Historical Significance
 
 The 1st NPC is often cited as the birth of the **People's Congress System**. It moved the needle from the "New Democracy" phase toward a socialist framework, establishing the legal and legislative foundations that would govern the country for decades. It represented the first time that deputies, representing various regions and ethnic groups across China, gathered to exercise legislative power on a national scale.

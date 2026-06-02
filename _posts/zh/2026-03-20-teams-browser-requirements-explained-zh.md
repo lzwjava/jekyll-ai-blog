@@ -46,18 +46,23 @@ Microsoft 推荐使用 **Google Chrome** 或 **Microsoft Edge** 访问 Microsoft
 ## 如何修复（按场景）
 
 ### ✅ 修复 1：在 Desktop/Laptop 上——使用 Microsoft Edge 或 Chrome
+
 最简单的修复。在最新版本的 **Microsoft Edge**（企业 SSO 首选）或 **Google Chrome** 中打开 Teams 链接。对于 cookies，您可能还需要在浏览器的“Privacy and Security”设置中允许 Microsoft Teams URL 的第三方 cookies。
 
 ### ✅ 修复 2：在 iOS 上——安装 Microsoft Teams 移动应用
+
 Teams web 当前 **不支持移动设备**。要在移动设备上使用 Teams，必须下载 **Teams 移动应用**。这是 iOS 用户的官方解决方案。
 
 ### ✅ 修复 3：在 iOS（企业托管）上——使用 iOS 版 Microsoft Edge
+
 iOS 版 Microsoft Edge 被认可为托管/approved 浏览器，因此可以满足 conditional access grant controls。其他非 Microsoft 应用会被重定向到 Edge 完成身份验证。如果您的 IT 团队已将您的 iPhone 注册到 Intune (MDM)，安装 **iOS 版 Microsoft Edge** 并使用公司帐户登录可能允许访问。
 
 ### ✅ 修复 4：联系 IT / 请求豁免
+
 在企业或学术环境中，IT 管理员可能强制执行特定登录方法或限制外部会议链接。如果您怀疑策略在干扰，请联系 IT 部门确认您是否有权限加入外部或公共 Teams 会议。
 
 ### ✅ 修复 5（管理员）：审查 Conditional Access 策略
+
 组织必须在 **2026 年 6 月 30 日** 前将使用“Require approved client app”的 Conditional Access 策略过渡到同时包含“Require app protection policy”。Microsoft 将在该日期后停止强制执行旧的“Require approved client app” grant control。IT 管理员应审查这些策略，确保不会无意中锁定有效用户。
 
 ---
@@ -77,6 +82,7 @@ iOS（和 iPadOS）浏览器从根本上受限：
 ## 总结
 
 企业 Microsoft Teams 访问的 **正确 approved 浏览器** 是：
+
 - **Desktop**：Microsoft Edge（SSO 最佳）、Google Chrome、Firefox
 - **iOS/iPhone**：Microsoft Teams 应用（官方）或 iOS 版 Microsoft Edge（Intune 托管）
 - **iOS Safari**：不支持——改用 Teams 应用

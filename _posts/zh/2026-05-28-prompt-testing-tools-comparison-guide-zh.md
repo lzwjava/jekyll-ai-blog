@@ -19,7 +19,7 @@ type: note
 
 ## 1. **`promptfoo`** —— 你的黄金标准
 
-**GitHub：** https://github.com/promptfoo/promptfoo —— 约 1 万星标
+**GitHub：** <https://github.com/promptfoo/promptfoo> —— 约 1 万星标
 
 CLI 优先、开源，使用存储在仓库中的 YAML 配置，专为在终端中生活的开发者设计。将提示词评估视为软件测试：声明式配置、批量测试、回归检查。
 
@@ -39,6 +39,7 @@ npx promptfoo@latest view
 用于提示词 A/B 测试的典型配置：
 
 {% raw %}
+
 ```yaml
 # promptfooconfig.yaml
 prompts:
@@ -61,6 +62,7 @@ tests:
   - vars:
       text: "反向传播通过链式法则计算梯度..."
 ```
+
 {% endraw %}
 
 运行 `npx promptfoo@latest eval`，它会将每个测试用例应用于每个模型/提示词组合。然后 `npx promptfoo@latest view` 打开带有矩阵的 Web 查看器。
@@ -73,7 +75,7 @@ CI/CD 集成：有一个 GitHub Action，当你的提示词文件发生变化时
 
 ## 2. **Langfuse** —— 如果你想要 UI + 追踪
 
-**GitHub：** https://github.com/langfuse/langfuse
+**GitHub：** <https://github.com/langfuse/langfuse>
 
 Langfuse 的游乐场支持并排提示词比较，并可并行执行 LLM。每个变体都有自己的 LLM 设置、变量、工具定义和占位符——你可以立即看到每个更改的影响。
 
@@ -85,7 +87,7 @@ Langfuse 的游乐场支持并排提示词比较，并可并行执行 LLM。每�
 
 ## 3. **Agenta** —— 完整 LLMOps 平台
 
-**GitHub：** https://github.com/Agenta-AI/agenta
+**GitHub：** <https://github.com/Agenta-AI/agenta>
 
 Agenta 将提示词视为代码并带有版本控制，包含一个游乐场，可让你同时微调并比较来自 50 多个 LLM 的输出。
 

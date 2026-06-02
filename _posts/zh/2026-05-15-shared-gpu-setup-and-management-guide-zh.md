@@ -43,21 +43,21 @@ type: note
 
 2： **软件选择：**
 
-   * **NVIDIA vGPU  虚拟化：允许多用户虚拟共享GPU并分割显存。
-   * **远程桌面方案：**
+* **NVIDIA vGPU  虚拟化：允许多用户虚拟共享GPU并分割显存。
+* **远程桌面方案：**
 
-     * [Parsec](https://parsecgaming.com/) – 低延迟GPU低延迟GPU访问支持Windows/Linux。
-     * [Moonlight / Sunshine](https://moonlight-stream.org/) — 通过流媒体GPU用于远程使用。
-   * **面向ML/AI的容器化方案：**
+  * [Parsec](https://parsecgaming.com/) – 低延迟GPU低延迟GPU访问支持Windows/Linux。
+  * [Moonlight / Sunshine](https://moonlight-stream.org/) — 通过流媒体GPU用于远程使用。
+* **面向ML/AI的容器化方案：**
 
-     * Docker + NVIDIA Container Toolkit可让多用户运行隔离负载。
-     * [RunPod](https://www.runpod.io/) 或 [Lambda Stack](https://lambdalabs.com/) 等工具可辅助管理多用户访问。
+  * Docker + NVIDIA Container Toolkit可让多用户运行隔离负载。
+  * [RunPod](https://www.runpod.io/) 或 [Lambda Stack](https://lambdalabs.com/) 等工具可辅助管理多用户访问。
 
 3： **访问控制：**
 
-   * 命令行ML任务可使用**SSH + Docker**。
-   * 若需GUI访问，可使用**用户账户/凭证**。
-   * 考虑**记录使用时长**以公平分摊费用。
+* 命令行ML任务可使用**SSH + Docker**。
+* 若需GUI访问，可使用**用户账户/凭证**。
+* 考虑**记录使用时长**以公平分摊费用。
 
 ---
 
@@ -72,6 +72,7 @@ type: note
 ### 5. 可选：「GPU中心」软件
 
 虽无主流消费级「GPU共享中心」工具以上方案（远程桌面+Docker/vGPU）实际已能实现类似功能。
+
 * 高级团队有时会使用**Slurm或Kubernetes GPU调度**管理多用户，但复杂度较高。
 
 ---

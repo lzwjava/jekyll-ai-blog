@@ -87,6 +87,7 @@ dP = dO \cdot V^T, \quad dS = P \odot (dP - \rowsum(dO \odot O)), \quad dQ = dS 
 ### I/O感知与GPU优化
 
 GPU具有层次化内存结构：寄存器/SRAM（快速，容量小）>> HBM（缓慢，容量大）。标准注意力机制因每次传播需要\\(\Theta(N^2)\\)次访问而导致HBM抖动。FlashAttention的分块计算确保：
+
 - \\(K, V\\)仅加载一次（\\(O(N d)\\)）。
 - \\(Q, O\\)加载\\(T_c \approx N / B_c \approx N d / M\\)次（\\(O(N^2 d / M)\\)）。
 - 下界：对于中等范围的\\(M\\)，任何精确算法的HBM访问次数不会低于\\(\Omega(N^2 d^2 / M)\\)。

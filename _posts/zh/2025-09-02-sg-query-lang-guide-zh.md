@@ -20,6 +20,7 @@ Sourcegraph 拥有灵活而强大的专属查询语言。以下是常用语法�
   ```
   http client
   ```
+
   查找包含这两个词汇的文件或代码。
 
 ---
@@ -43,21 +44,25 @@ Sourcegraph 拥有灵活而强大的专属查询语言。以下是常用语法�
   ```
   repo:github.com/myorg/myrepo
   ```
+
 * `file:` → 匹配文件路径（支持正则表达式）
 
   ```
   file:\.java$
   ```
+
 * `lang:` → 限定编程语言
 
   ```
   lang:python requests
   ```
+
 * `content:` → 强制文本搜索（忽略结构匹配）
 
   ```
   content:"SELECT * FROM"
   ```
+
 * `case:yes` → 启用大小写敏感搜索
 
 ---
@@ -108,11 +113,13 @@ if (:[cond]) { :[body] }
   ```
   TODO lang:go
   ```
+
 * 仅在 `src/` 目录中搜索 Java 方法：
 
   ```
   file:^src/ lang:java "public static"
   ```
+
 * 跨多个代码库搜索：
 
   ```

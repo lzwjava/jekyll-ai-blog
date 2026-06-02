@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Can you join a Microsoft Teams meeting without an account?
+
 Yes, in most cases:
 
 - If the meeting organizer allows it (default for many organizations), you can **join as a guest** without a Microsoft account.
@@ -19,7 +20,8 @@ Yes, in most cases:
 
 ### How to share your screen in Microsoft Teams
 
-#### During a meeting (desktop app or web):
+#### During a meeting (desktop app or web)
+
 1. Join the meeting.
 2. At the top toolbar, click the **Share** button (it looks like an arrow pointing up from a box, or sometimes a screen icon).
 3. Choose what you want to share:
@@ -29,14 +31,16 @@ Yes, in most cases:
    - **Whiteboard** – collaborative drawing
 4. When you're done, click **Stop sharing** at the top red bar.
 
-#### Mobile (iOS/Android):
+#### Mobile (iOS/Android)
+
 1. Join the meeting.
 2. Tap the **… (More actions)** button.
 3. Tap **Share** → **Share screen**.
 4. Confirm the broadcast/start recording prompt from your phone.
 5. To stop: pull down the notification or return to Teams and tap **Stop sharing**.
 
-#### Quick keyboard shortcuts (Windows/Mac desktop):
+#### Quick keyboard shortcuts (Windows/Mac desktop)
+
 - Start sharing: **Ctrl + Shift + E** (Windows) or **⌘ + Shift + E** (Mac)
 - Stop sharing: same shortcut again or click the red Stop button
 

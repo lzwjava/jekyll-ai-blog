@@ -15,6 +15,7 @@ type: note
 **在多个领域具有多样性或全面性** —— 拥有许多不同的技能、能力或用途，而不是只擅长某一个专业领域。
 
 例如：
+
 - "She's an all-round athlete" —— 她是一名全能型运动员（擅长多种不同的运动）
 - "He's an all-round musician" —— 他是一位全才音乐家（会演奏多种乐器或表演多种风格）
 - "It's an all-round good choice" —— 这是一个各方面都很棒的选择（在许多不同方面都适用或有益）

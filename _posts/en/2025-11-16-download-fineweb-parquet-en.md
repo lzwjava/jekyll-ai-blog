@@ -13,6 +13,7 @@ type: note
 You just want to download and use a few parquet files from one Common Crawl dump (like CC-MAIN-2013-20) instead of the whole 15T-token FineWeb monster — totally reasonable! Here’s the easiest ways to do it in 2025.
 
 ### Method 1: Direct Download with huggingface_hub (Recommended, Fastest)
+
 This downloads only the parquet files you want at full speed (~GB/s if you enable hf-transfer).
 
 ```bash
@@ -35,6 +36,7 @@ huggingface-cli download HuggingFaceFW/fineweb \
 That’s it — you now have three ~2.15 GB parquet files in the folder `fineweb-2013-20/`.
 
 ### Method 2: One-Liner Python Script to Download Specific Files
+
 ```python
 from huggingface_hub import snapshot_download
 
@@ -51,6 +53,7 @@ snapshot_download(
 ```
 
 ### How to Read the Parquet Files Locally
+
 ```python
 import pandas as pd
 # or use pyarrow for speed + lower memory
@@ -68,6 +71,7 @@ for batch in dataset.to_batches(batch_size=1024):
 ```
 
 Or simply with pandas (fine for a few files):
+
 ```python
 df = pd.read_parquet("fineweb-2013-20/data/CC-MAIN-2013-20/000_00000.parquet")
 print(df.columns)  # ['text', 'id', 'dump', 'url', 'date', 'file_path', 'language', 'language_score', 'token_count']
@@ -75,6 +79,7 @@ print(df.iloc[0]["text"])
 ```
 
 ### Quick Stats for CC-MAIN-2013-20
+
 - ~207 parquet files × ~2.15 GB ≈ 422 GB total
 - ~44 billion tokens (good size for small-to-medium experiments)
 - Already cleaned, deduplicated, and filtered by Hugging Face

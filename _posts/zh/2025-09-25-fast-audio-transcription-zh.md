@@ -30,11 +30,13 @@ Google Cloud Speech-to-Text 批量 API (v2) 专为异步长时间运行的操作
 ### 如何修复：减少处理时间
 
 要更快处理长音频，关键是**将文件分割成更小的块**（例如，每块5-15分钟）。这样可以：
+
 - 并行处理（同时运行多个批量作业）。
 - 使用更快的模型（例如，每块使用 `"short"` 或 `"default"`）。
 - 每作业等待时间更短（例如，每块1-5分钟 vs 整个文件30+分钟）。
 
 #### 步骤1：分割音频文件
+
 使用 **FFmpeg**（免费命令行工具）分割文件而无需重新编码（快速且无损）。如果需要请安装 FFmpeg（例如，macOS 上 `brew install ffmpeg`，Linux 上 `apt install ffmpeg`）。
 
 在你的脚本中添加一个函数来分割输入文件。以下是集成了分割功能的脚本更新版本：
@@ -318,14 +320,16 @@ if __name__ == "__main__":
     )
 ```
 
-#### 关键更改和好处：
+#### 关键更改和好处
+
 - **分割**：使用 FFmpeg 创建非重叠块（例如，每块10分钟）。对于1小时的文件，约6个作业，如果修改为使用线程/多进程（例如，通过 `concurrent.futures`）可以并行运行。
 - **更快模型**：对于 <15 分钟的块切换到 `"short"`——处理速度快2-3倍。
 - **合并转录稿**：解析 JSON 输出并将它们合并到单个 `.txt` 文件中，带有边界以便阅读。
 - **清理**：删除临时块和旧的 GCS blob（如果需要，在循环中添加 `blob.delete()`）。
 - **用法**：像以前一样运行，例如，`python script.py --input_file long_audio.m4a --chunk_secs 600`。对于不分割的情况，使用较大的 `--chunk_secs`（例如，3600）。
 
-#### 其他优化：
+#### 其他优化
+
 - **并行处理**：如果你有许多块/文件，使用 Python 的 `ThreadPoolExecutor` 并发提交 `run_batch_recognize` 作业（限制在5-10个以避免配额超限）。
 - **探测音频持续时间**：使用 `ffprobe`（FFmpeg）动态决定是否需要分割：`ffprobe -v quiet -show_entries format=duration -of csv=p=0 input.m4a`。
 - **切换到流式 API**：对于交互式使用，使用同步 `recognize`（限制约1分钟/文件）或流式处理用于实时，但不适合批量长文件。
@@ -335,11 +339,13 @@ if __name__ == "__main__":
 ### 显示进度：轮询操作
 
 更新的 `poll_operation_with_progress()` 函数替换了阻塞的 `operation.result()`。它：
+
 - 每30秒检查一次。
 - 从 `operation.metadata` 打印状态（例如，状态如 "RUNNING" 或 "DONE"，以及已处理的字节数如果可用——Speech API 元数据是基本的，但比没有好）。
 - 如果失败则引发错误。
 
 对于更详细的进度（例如，完成百分比），Speech API 不提供细粒度指标，但你可以：
+
 - 通过 Google Cloud Console 监控（你的项目操作页面）。
 - 使用 `gcloud` CLI：`gcloud alpha speech operations describe OPERATION_ID --project=graphite-ally-445108-k3`。
 - 完成后，JSON 结果通过时间戳间接包括每个话语的进度。

@@ -29,20 +29,24 @@ type: note
 这是 Linux 服务器最简单且持续维护的方法。
 
 1. 运行官方 bash 脚本（安装 binary 并创建 systemd service）：
+
    ```bash
    bash <(curl -fsSL https://get.hy2.sh/)
    ```
+
    - 它会根据你的架构（amd64/arm64）下载最新的 Hysteria 2 binary
    - 安装到 `/usr/local/bin/hysteria`
    - 创建 `/etc/hysteria/config.yaml`（示例配置）
    - 设置 systemd service：`hysteria-server.service`
 
 2. 编辑配置文件：
+
    ```bash
    nano /etc/hysteria/config.yaml
    ```
 
    **最小化可行示例（ACME 自动证书 + password 认证）：**
+
    ```yaml
    listen: :443
 
@@ -63,6 +67,7 @@ type: note
    ```
 
    **另一种方案（如果你已经有了自己的 cert/key）：**
+
    ```yaml
    listen: :443
 
@@ -88,12 +93,14 @@ type: note
    - 保存并退出
 
 3. 启动并启用服务：
+
    ```bash
    systemctl start hysteria-server
    systemctl enable hysteria-server
    ```
 
 4. 检查状态和日志：
+
    ```bash
    systemctl status hysteria-server
    journalctl -u hysteria-server -e -f
@@ -104,6 +111,7 @@ type: note
 ### Alternative: 手动安装（不用脚本）
 
 1. 下载最新 binary：
+
    ```bash
    wget https://download.hysteria.network/app/latest/hysteria-linux-amd64   # 或 -arm64
    chmod +x hysteria-linux-amd64
@@ -111,6 +119,7 @@ type: note
    ```
 
 2. 允许非 root 用户绑定低位端口：
+
    ```bash
    setcap cap_net_bind_service=+ep /usr/local/bin/hysteria
    ```
@@ -118,6 +127,7 @@ type: note
 3. 按照上文创建配置文件（例如 `/etc/hysteria/config.yaml`）。
 
 4. 手动运行（进行调试）：
+
    ```bash
    hysteria server -c /etc/hysteria/config.yaml
    ```
@@ -135,6 +145,7 @@ ufw reload
 
 - 服务器会打印（或记录）一个 `hysteria2://` URI → 直接分享给 client（例如 NekoBox, sing-box, Shadowrocket）
 - 示例 client 代码片段：
+
   ```yaml
   server: your.domain.com:443
   auth: YOUR_STRONG_PASSWORD_HERE

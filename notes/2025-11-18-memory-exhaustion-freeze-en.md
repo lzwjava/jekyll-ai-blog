@@ -24,6 +24,7 @@ Each token → stored as uint16 → 2 bytes.
 But look at your `all_tokens = []` list in Python: Python lists have massive overhead. Each integer object is ~28–32 bytes on 64-bit Python (even if the value fits in uint16).
 
 Real memory usage while building the list:
+
 - ~150M tokens in a Python list → ~150M × 28–32 bytes ≈ **4–5 GB** just for the list objects
 - Then you do `np.array(..., dtype=np.uint16)` → another ~300 MB for the compact array
 - Total peak RAM during conversion ≈ 5–6 GB + OS + desktop overhead
@@ -37,6 +38,7 @@ People often download FineWeb-100B or even 1T samples and name it “train_finew
 ### Solutions (pick one)
 
 #### Best fix: Stream directly to .bin without ever holding all tokens in RAM
+
 This version uses almost no RAM (peak < 1 GB even for terabyte-sized text):
 
 ```python
@@ -98,6 +100,7 @@ if __name__ == "__main__":
 This streams straight to disk, never holds more than one chunk in memory.
 
 #### If you really want the original script style but safe
+
 Add memory monitoring and shard the output:
 
 ```python
@@ -124,6 +127,7 @@ for chunk in iter(lambda: f.read(chunk_size), ""):
 Later just cat the shards: `cat train_shard_*.bin > train.bin`
 
 ### Quick check how big your file really is
+
 Run these in terminal:
 
 ```bash
@@ -135,6 +139,7 @@ ls -lh train_fineweb.txt
 FineWeb-10B text is ~20–25 GB, 100B is ~200–250 GB, etc.
 
 ### Summary
+
 Your script dies because Python lists eat 15–20× more RAM than the final numpy array. With big FineWeb files you quickly blow past 50+ GB → swap → frozen desktop.
 
 Use the streaming version above — it works on 1TB+ text files with <2 GB RAM and finishes in a few hours on a single CPU core.

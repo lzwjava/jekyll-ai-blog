@@ -22,13 +22,15 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
 ## 入门指南：分步说明
 
 ### 先决条件
+
 - 以根用户身份（使用您的账户邮箱和密码）登录 AWS 管理控制台。**重要提示**：请勿使用根用户执行日常任务——应立即创建管理员用户。
 - 为根用户启用多因素认证（MFA）以增强安全性。
 
 ### 1. 创建 IAM 用户
+
 为简化操作建议使用 AWS 管理控制台（也可通过 CLI 或 API 实现自动化创建）。
 
-1. 通过 https://console.aws.amazon.com/iam/ 打开 IAM 控制台。
+1. 通过 <https://console.aws.amazon.com/iam/> 打开 IAM 控制台。
 2. 在导航窗格中选择 **Users** > **Create user**。
 3. 输入用户名（例如 "admin-user"）并选择 **Next**。
 4. 在 **Set permissions** 下选择 **Attach policies directly**，然后选择 AWS 托管策略（如 "AdministratorAccess"）以获取完全访问权限（生产环境请遵循最小权限原则）。
@@ -39,6 +41,7 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
 如需编程访问，可生成访问密钥（但建议应用程序优先使用角色）。
 
 ### 2. 创建和管理组
+
 通过组可简化权限扩展管理。
 
 1. 在 IAM 控制台中选择 **User groups** > **Create group**。
@@ -50,6 +53,7 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
 用户将继承所在组的全部权限。单个用户可属于多个组。
 
 ### 3. 创建和附加策略
+
 策略用于定义允许执行的操作。
 
 - **类型**：
@@ -58,6 +62,7 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
   - 内联策略：直接嵌入用户/组/角色中（请谨慎使用）。
 
 创建自定义策略步骤：
+
 1. 在 IAM 控制台选择 **Policies** > **Create policy**。
 2. 使用可视化编辑器或 JSON 选项卡（例如允许对特定存储桶执行 "s3:GetObject"）。
 3. 命名策略后选择 **Create policy**。
@@ -66,6 +71,7 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
 最佳实践：遵循最小权限原则——初始设置可稍宽泛，随后使用 IAM Access Analyzer 等工具进行细化。
 
 ### 4. 使用 IAM 角色
+
 角色适用于临时访问场景，可避免使用长期凭证。
 
 1. 在 IAM 控制台选择 **Roles** > **Create role**。
@@ -75,16 +81,19 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
 5. 命名角色后选择 **Create role**。
 
 **常见场景**：
+
 - **EC2 实例**：将角色附加到实例，无需嵌入密钥即可安全访问其他服务（如 S3）。
 - **跨账户访问**：在账户 A（信任方）创建角色，其信任策略允许账户 B 的主体。B 账户用户通过 AWS STS 担任角色以访问 A 账户资源。
 
 可通过控制台、CLI（`aws sts assume-role`）或 SDK 担任角色以获取临时凭证。
 
 ### 5. 启用 MFA 与增强安全
+
 - 为用户启用：在 IAM 控制台 > Users > 选择用户 > **Security credentials** > Manage MFA。
 - 建议使用虚拟（基于应用程序）或硬件 MFA 设备。
 
 ## 安全最佳实践
+
 - **锁定根用户**：仅用于必需任务（如修改账户设置）。启用 MFA 且勿创建访问密钥。
 - **使用临时凭证**：优先采用联合身份验证（例如通过 IAM Identity Center）和角色而非长期密钥。若使用密钥请定期轮换。
 - **最小权限原则**：授予最低必要权限；在策略中使用条件限制（如时间/IP 限制）。
@@ -96,6 +105,7 @@ AWS Identity and Access Management（IAM）是一项免费服务，可帮助您�
 如需实践学习，可通过控制台或文档中的 IAM 教程探索基于属性的访问控制（ABAC）等场景。
 
 ## 参考文档
+
 - [什么是 IAM？](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 - [创建 IAM 用户](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 - [IAM 组](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_groups.html)

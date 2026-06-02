@@ -13,6 +13,7 @@ type: note
 Yes, a mainland Chinese citizen can enroll in a Hong Kong public university to pursue and obtain an undergraduate degree, much like Joshua Wong did at the University of Hong Kong (HKU) in 2014. However, there are key differences in eligibility, application routes, and status compared to local Hong Kong residents like Wong, who applied via the local Joint University Programmes Admissions System (JUPAS) using Hong Kong Diploma of Secondary Education (HKDSE) results.
 
 ### Key Eligibility and Process for Mainland Chinese Students
+
 - **Student Status**: Mainland applicants are classified as non-local (international) students. This means they pay higher tuition fees (typically HK$145,000–HK$182,000 per year for 2025/26, vs. HK$42,100 for locals) and are subject to a government quota. In 2024/25, the quota for non-local undergraduates at publicly funded universities was doubled to about 40% of the local intake, making more spots available.
 - **Admission Routes**:
   - **Via Gaokao (National Joint College Entrance Examination)**: Most Hong Kong public universities (including HKU, HKUST, CUHK, CityU, and HKBU) accept Gaokao scores through dedicated "Mainland JEE" or Gaokao admission schemes. Minimum score requirements vary by university and program (e.g., often 550–600+ out of 750 for competitive fields like medicine or business), and selection considers scores, interviews, personal statements, and sometimes extracurriculars. Applications typically open in October–November for the following September intake.
@@ -31,6 +32,7 @@ Yes, a mainland Chinese citizen can enroll in a Hong Kong public university to p
 | **Degree Outcome**  | Full bachelor's (he suspended studies) | Full bachelor's upon completion      |
 
 ### Tips for Applying in 2025/26
+
 - Deadlines: Early rounds often close in November 2025; main rounds by January 2026. Check each university's site.
 - Scholarships: Merit-based options like the Belt and Road Scholarship or university-specific awards can cover partial/full fees for top Gaokao scorers.
 - Competitiveness: Acceptance rates for non-locals are low (5–15% for popular programs), so strong scores and holistic profiles are essential.

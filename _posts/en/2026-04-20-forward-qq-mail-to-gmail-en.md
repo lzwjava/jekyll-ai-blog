@@ -21,7 +21,7 @@ To automatically forward emails from **QQ Mail** to **Gmail**, you don’t need 
 
 This makes every incoming email automatically sent to your Gmail inbox.
 
-### Steps:
+### Steps
 
 1. Log in to QQ Mail: [https://mail.qq.com](https://mail.qq.com)
 2. Click **Settings (设置)** → **Accounts (账户)**
@@ -33,7 +33,7 @@ This makes every incoming email automatically sent to your Gmail inbox.
    * Keep a copy in QQ Mail
    * Delete after forwarding
 
-### Result:
+### Result
 
 * Every new email received in QQ Mail → instantly forwarded to Gmail
 
@@ -69,7 +69,7 @@ Instead of pushing emails, Gmail will periodically pull emails from QQ.
 
 ---
 
-### Result:
+### Result
 
 * Gmail will **periodically fetch emails** from QQ (not instant, usually every few minutes)
 

@@ -35,6 +35,7 @@ type: note
 这些看法，顾名思义，是非主流的——当你表达它们时，会两面不讨好——但它们反复出现在匿名论坛、外籍人士群体和那些经历了两种现实的第二代移民中。
 
 参考文献:
+
 - [r/expats 语言和优越感主题帖 (2024)](https://www.reddit.com/r/expats/comments/1b8pqrs/)
 - [The Atlantic – “母语为英语者的诅咒” (改编思想)](https://www.theatlantic.com/international/archive/2016-native-english-speaker-problem/)
 - TheLocal.fr、ToytownGermany 和 InterNations 论坛上的各种匿名帖子 (2023-2025)

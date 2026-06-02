@@ -43,14 +43,17 @@ Gartner 将 agentic AI 列为 2025 年十大技术趋势之首，并预测到 20
 你认为这很难是正确的，但这并非无解。目前有几种严肃的方案正在构建中：
 
 ### 1. **生物识别“人类证明” —— World (原 Worldcoin)**
+
 由 Sam Altman 共同创立的 World 致力于创建“proof of human”技术 —— 为日益充斥 AI 生成内容的互联网提供身份验证工具。他们的 AgentKit 允许将用户的 World ID 集成到 x402 支付协议中，以便网站能够核实是一个独立的真实人类批准了 agent 的行动。他们的 Chief Product Officer 将其比作向 agent 委派“授权书”。
 
 痛点在于：它需要通过物理设备“Orb”进行虹膜扫描。这产生了巨大的摩擦，并引发了严重的隐私担忧 —— 由于隐私和数据问题，World 已经在至少十个国家被禁用或调查。
 
 ### 2. **加密 Agent 身份**
+
 HUMAN Security 发布了一个开源项目，AI agents 使用 HTTP Message Signatures (RFC 9421) 对每个 HTTP 请求进行签名，并使用 OWASP 的 Agent Name Service（一种类似于 AI agents 的 DNS 命名系统）进行识别。这允许 web services 通过密码学方式核实某个特定的已注册 agent 发送了给定的请求。
 
 ### 3. **作为速率限制器的微支付**
+
 由 Coinbase 和 Cloudflare 开发的 x402 协议允许 agents 支付小额费用来访问资源，将微支付（micropayments）作为速率限制手段。该生态系统在上线后的前六个月内处理了超过 1 亿笔支付。然而，微支付虽然可以减缓恶意行为者的速度，但无法完全解决“Sybil dynamics”问题 —— 如果经济诱惑足够高，每次请求几美分的成本就变得微不足道了。
 
 ---

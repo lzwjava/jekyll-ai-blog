@@ -19,6 +19,7 @@ In networking, **switches** are primarily Layer 2 devices that forward frames ba
 Below is a categorized list of **common Cisco switch commands**, including their purpose and examples. These are essential for configuration, monitoring, and troubleshooting.
 
 ### CLI Modes
+
 - `enable` — Enter privileged EXEC mode (from user EXEC).
 - `configure terminal` (or `conf t`) — Enter global configuration mode.
 - `exit` or `end` — Exit current mode.
@@ -26,6 +27,7 @@ Below is a categorized list of **common Cisco switch commands**, including their
 - `interface range <range>` (e.g., `interface range Gi1/0/1 - 24`) — Configure multiple ports at once.
 
 ### Basic Configuration and Management
+
 - `hostname <name>` — Set the switch hostname.
 - `enable secret <password>` — Set encrypted privileged mode password.
 - `line console 0` → `password <pass>` → `login` — Secure console access.
@@ -35,11 +37,13 @@ Below is a categorized list of **common Cisco switch commands**, including their
 - `ip default-gateway <ip>` — Set default gateway for management (Layer 2 switches).
 
 ### Management IP (for remote access)
+
 - `interface vlan 1` (or other VLAN)
 - `ip address <ip> <mask>`
 - `no shutdown`
 
 ### VLAN Configuration
+
 - `vlan <id>` — Create a VLAN (global config).
 - `name <vlan-name>` — Name the VLAN.
 - `interface <port>` → `switchport mode access` — Set port as access port.
@@ -49,6 +53,7 @@ Below is a categorized list of **common Cisco switch commands**, including their
 - `switchport trunk native vlan <id>` — Set native VLAN on trunk.
 
 ### Port Configuration and Security
+
 - `interface <port>` → `description <text>` — Add port description.
 - `interface <port>` → `shutdown` / `no shutdown` — Disable/enable port.
 - `interface <port>` → `switchport port-security maximum <num>` — Limit MAC addresses.
@@ -56,6 +61,7 @@ Below is a categorized list of **common Cisco switch commands**, including their
 - `switchport port-security mac-address sticky` — Learn MAC dynamically.
 
 ### Monitoring and Show Commands
+
 - `show running-config` (or `sh run`) — Display current configuration.
 - `show startup-config` — Display saved configuration.
 - `show vlan brief` — List VLANs and assigned ports.
@@ -67,6 +73,7 @@ Below is a categorized list of **common Cisco switch commands**, including their
 - `show spanning-tree` — Spanning Tree Protocol status.
 
 ### Saving and Other Utilities
+
 - `copy running-config startup-config` (or `wr`) — Save configuration.
 - `reload` — Reboot the switch.
 - `ping <ip>` — Test connectivity.

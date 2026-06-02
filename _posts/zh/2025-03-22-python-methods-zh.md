@@ -10,12 +10,13 @@ type: note
 
 让我逐步解析这个Python单行命令：
 
-### 命令：
+### 命令
+
 ```bash
 python -c "from hcloud import Client; c = Client(token='fake'); print(dir(c.servers)); print('\nActions:'); print(dir(c.actions))"
 ```
 
-### 分步解析：
+### 分步解析
 
 1. **`python -c`**：
    - 这指示Python解释器直接执行后面字符串中的代码，而不是运行`.py`文件
@@ -38,26 +39,32 @@ python -c "from hcloud import Client; c = Client(token='fake'); print(dir(c.serv
    - `c.actions`是另一个`Client`对象属性，提供操作相关功能（如跟踪重启服务器等操作状态）
    - 打印`actions`对象的所有可用属性和方法
 
-### 功能说明：
+### 功能说明
+
 - 该命令主要用于快速检查`hcloud`库的`servers`和`actions`模块，输出：
   1. 服务器管理的所有可用方法和属性
   2. 操作管理的所有可用方法和属性
 
-### 示例输出：
+### 示例输出
+
 使用有效令牌运行时的简化输出可能如下：
+
 ```
 ['create', 'delete', 'get_all', 'get_by_id', 'power_off', 'power_on', ...]
 Actions:
 ['get_all', 'get_by_id', 'sort', ...]
 ```
+
 - 首行显示服务器管理方法（如`create`、`delete`）
 - "Actions:"后显示操作方法（如`get_all`）
 
-### 前置要求：
+### 前置要求
+
 - 需安装`hcloud` Python包（`pip install hcloud`）
 - 实际功能需要真实的Hetzner Cloud API令牌，但此命令仅用于库检查而不进行API调用
 
-### 用途：
+### 用途
+
 这通常用于调试或探索，在不阅读完整文档的情况下查看`hcloud`库的可用方法。
 
 如需深入了解任何部分，请随时告知！

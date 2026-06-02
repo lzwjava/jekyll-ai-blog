@@ -11,6 +11,7 @@ type: note
 Traceroute 是诊断网络路径的强大工具，虽然其基本用法简单直观，但它还提供了高级选项来自定义行为。下面我将概述常用选项，并通过实际案例解析 traceroute 的高级用法。具体选项取决于操作系统（如 Windows 使用 `tracert`，Linux/macOS 使用 `traceroute`），但我会重点介绍最通用的功能。
 
 ### 基础用法
+
 - **Linux/macOS**: `traceroute [目标地址]`
   - 示例：`traceroute google.com`
 - **Windows**: `tracert [目标地址]`
@@ -21,6 +22,7 @@ Traceroute 是诊断网络路径的强大工具，虽然其基本用法简单直
 ---
 
 ### 常用 Traceroute 选项
+
 以下主要针对类 Unix 系统（Linux/macOS）的 `traceroute` 命令，Windows 的 `tracert` 选项较少但部分概念相通。
 
 1. **`-n`（禁用 DNS 解析）**
@@ -76,7 +78,9 @@ Traceroute 是诊断网络路径的强大工具，虽然其基本用法简单直
 ---
 
 ### Windows `tracert` 选项
+
 Windows 选项较少，主要包含：
+
 - **`-d`**：禁用 DNS 解析（类似 `-n`）
 - **`-h [最大跃点数]`**：最大跃点数（类似 `-m`）
 - **`-w [超时时间]`**：等待时间（毫秒，类似 `-w`）
@@ -85,6 +89,7 @@ Windows 选项较少，主要包含：
 ---
 
 ### 高级用法示例
+
 以下为组合选项的实战场景：
 
 1. **诊断网络延迟瓶颈**
@@ -117,6 +122,7 @@ Windows 选项较少，主要包含：
 ---
 
 ### 高级使用技巧
+
 - **工具组合**：结合 `ping`（延迟分析）与 `mtr`（实时路由追踪）深化诊断
 - **理解网络环境**：防火墙、NAT 或 VPN 可能导致跃点显示为星号（`*`）——需调整协议（ICMP/TCP）适配
 - **权限要求**：类 Unix 系统中部分选项（如 TCP 模式）需 `sudo` 获取原始套接字权限：`sudo traceroute -T google.com`

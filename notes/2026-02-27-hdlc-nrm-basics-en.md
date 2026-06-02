@@ -23,7 +23,7 @@ Answer:
 
 The correct answer is **A. 正常响应方式 (Normal Response Mode, NRM)**.
 
-### Explanation:
+### Explanation
 
 HDLC defines three main operational modes:
 

@@ -18,12 +18,13 @@ You essentially have two main options for playing the game today:
 
 The game is still maintained and run by its developer, NetDragon Websoft Inc. However, it is an **MMORPG that has been continuously updated for nearly 20 years**, meaning the core experience is vastly different from the classic version you remember.
 
-### How to Access the Official Game:
+### How to Access the Official Game
+
 * **Official Website:** You can download the client directly from the official **Eudemons Online website**.
 * **Steam:** The game is also available on Steam, which provides an easy download and installation method.
 * **System:** It is still a Windows-based PC game.
 
-### What to Expect (The Modern Game):
+### What to Expect (The Modern Game)
 
 | Feature | 2006-2007 Classic Experience | 2025 Modern Experience |
 | :--- | :--- | :--- |
@@ -41,7 +42,8 @@ If you play the official game today, you will be jumping into a very evolved, co
 
 If you are looking for the exact experience of **Eudemons Online** from 2006, with the classic Warrior/Mage classes, slower leveling, and the original item system, your best bet is to search for **Private Servers (PS)**.
 
-### How to Find Private Servers:
+### How to Find Private Servers
+
 * **Search Terms:** You would need to search for terms like **"Eudemons Online private server classic"** or similar phrases on search engines or dedicated MMORPG private server forums.
 * **What to Expect:** Private servers are often run by fans and attempt to roll back the game to an older, specific version. Some aim for the **"2008-era"** of the game, which is close to your target timeframe.
 * **Pros:** It offers the genuine, nostalgic gameplay experience you remember, often with lower Pay-to-Win elements than the official modern version.

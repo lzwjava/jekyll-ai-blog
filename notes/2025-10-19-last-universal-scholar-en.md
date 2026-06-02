@@ -30,6 +30,7 @@ A language savant, Young compared 400 tongues in an *Encyclopædia Britannica* a
 Elected a Royal Society Fellow at 21 (1794), he lectured at the Royal Institution (1801–1803) and served as its foreign secretary (1802). His 1807 *Lectures on Natural Philosophy* synthesized his ideas across disciplines.
 
 #### Legacy
+
 Young's eponymous concepts—modulus, slits, equation, theory—permeate physics, engineering, and medicine today. He anticipated relativity's light speed constancy and influenced quantum mechanics. Einstein called him a "truly original genius." The Thomas Young Centre in London honors his interdisciplinary spirit, reminding us of a time when one mind could illuminate nearly every corner of knowledge.
 
 [Thomas Young (scientist) - Wikipedia](https://en.wikipedia.org/wiki/Thomas_Young_(scientist))

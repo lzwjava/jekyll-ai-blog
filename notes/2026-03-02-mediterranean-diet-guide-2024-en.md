@@ -18,6 +18,7 @@ The **Mediterranean diet** (often called the Mediterranean-style diet) is a well
 Unlike strict "diets" with rigid calorie counting or food elimination, the Mediterranean diet emphasizes **overall eating patterns**, enjoyment of food, and lifestyle factors rather than precise formulas. It is primarily **plant-based**, rich in minimally processed foods, and focuses on quality over quantity.
 
 ### Core Principles and Food Guidelines
+
 The diet is frequently visualized using a pyramid (with variations from organizations like Oldways, Harvard, or the Italian Society of Human Nutrition). The modern versions place the greatest emphasis on plant foods at the base, with animal products higher up and in smaller amounts.
 
 - **Daily foundations (eat liberally / every day):**
@@ -46,6 +47,7 @@ The diet is frequently visualized using a pyramid (with variations from organiza
 Lifestyle elements are integral: regular physical activity, social meals with family/friends, adequate rest, and mindful eating.
 
 ### Key Health Benefits
+
 The Mediterranean diet is among the most extensively studied dietary patterns. High-quality evidence from large cohort studies, randomized trials (e.g., PREDIMED, PREDIMED-Plus), and meta-analyses links it to:
 
 - **Cardiovascular health** — Reduced risk of heart disease, stroke, myocardial infarction, atrial fibrillation, peripheral artery disease, lower blood pressure, improved cholesterol profile, and decreased cardiovascular mortality.
@@ -58,6 +60,7 @@ The Mediterranean diet is among the most extensively studied dietary patterns. H
 Recent evidence (2024–2026) continues to reinforce these effects, including stronger emphasis on its role in healthy aging, anti-inflammatory mechanisms, and sustainability.
 
 ### How to Get Started
+
 - Replace butter/margarine with **extra virgin olive oil**.
 - Make vegetables and fruits the center of most meals.
 - Swap refined grains for whole grains.

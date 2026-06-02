@@ -22,6 +22,7 @@ Yes — and it's actually a recent development. Here's the full picture:
 Google announced the official Google Trends API on July 24, 2025 — the first time they've shipped an API for Trends after years of requests.
 
 Key facts:
+
 - Data goes back 5 years — a rolling 1,800-day window, updated to within 2 days ago.
 - It provides structured data: interest over time, top trends, and related queries.
 - Currently in alpha with limited access — you have to apply. Google is doing a controlled rollout to gather feedback before wider availability.
@@ -33,6 +34,7 @@ Apply/read more: [developers.google.com/search/blog/2025/07/trends-api](https://
 ## Practical Alternatives (Since Alpha Access Is Restricted)
 
 ### 1. `pytrends` (unofficial Python wrapper)
+
 The classic go-to, but increasingly unreliable:
 
 ```python
@@ -55,6 +57,7 @@ print(related)
 PyTrends is no longer actively maintained and breaks frequently as Google updates its internal endpoints — unreliable for production pipelines.
 
 ### 2. SerpApi (paid, reliable)
+
 Paid scraping service with a proper Google Trends endpoint. Works well if you need stability:
 
 ```python
@@ -70,9 +73,11 @@ print(results["interest_over_time"])
 ```
 
 ### 3. Apify Actor (free tier available)
+
 A hosted alternative that handles cookie rotation, proxy management, and retry-on-429 automatically — no captchas, no IP rotation to manage yourself. Supports pytrends-style timeframe strings like `today 12-m`, `today 5-y`.
 
 ### 4. Glimpse API (enterprise)
+
 Adds absolute search volume on top of Google Trends' 0–100 relative scores. More accurate for production dashboards.
 
 ---

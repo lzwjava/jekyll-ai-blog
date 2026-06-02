@@ -127,6 +127,7 @@ credhub delete -n /my-org/my-app/old-key
 | Best for                 | Simple, non-enterprise setups      | Enterprise, compliance         |
 
 Ask your platform operators:
+
 - Is the CredHub Service Broker available in your marketplace?
 - What is the exact service offering name?
 - What UAA client credentials or mTLS setup is needed for direct CLI access?

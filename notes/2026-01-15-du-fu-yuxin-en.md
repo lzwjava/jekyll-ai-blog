@@ -17,6 +17,7 @@ Answer:
 This line comes from the first poem in Du Fu's famous group **《咏怀古迹五首》** (Five Poems on Reflecting on Ancient Sites and Personal Feelings), written in 766 CE while he was in Kuizhou (near the Three Gorges area).
 
 ### Literal Translation
+
 - 庾信平生最萧瑟 → Yu Xin’s whole life was the most desolate / bleak / withered.
 - 暮年诗赋动江关 → In his old age, his poems and rhapsodies (fu) moved / shook the Jiang Pass / the region of the Yangtze gorges.
 
@@ -25,6 +26,7 @@ Common smooth rendering:
 in his twilight years his poetry and prose shook the Jiang region."
 
 ### Core Meaning and Layers
+
 1. **Surface level — praising Yu Xin**
    Du Fu greatly admired Yu Xin (庾信, 513–581), a major poet of the Southern and Northern Dynasties.
    Yu Xin was originally from the Liang dynasty (南朝梁). After the chaos of Hou Jing’s rebellion (similar in destructiveness to An Lushan’s rebellion for Du Fu), he was sent as envoy to the Western Wei (北朝), but was detained for 27 years, forced to serve the Northern dynasties (Western Wei and Northern Zhou).
@@ -45,6 +47,7 @@ in his twilight years his poetry and prose shook the Jiang region."
    Du Fu had earlier praised Yu Xin with the famous line “庾信文章老更成” (Yu Xin’s writing grows even better with age) — here he develops that idea into a full emotional identification.
 
 ### Quick Summary of Understanding
+
 - **Yu Xin’s life** = extreme personal and national tragedy → lifelong desolation
 - **Late works** = sorrow turned into great artistic power → moved the literary world / southern region
 - **Du Fu’s real voice** = “My life is just as desolate, and I hope / believe that my old-age poetry, born from pain, can also have deep and lasting impact.”

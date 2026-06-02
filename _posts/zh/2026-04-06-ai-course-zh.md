@@ -55,7 +55,7 @@ translated: true
 * 我亲自指导每位学生，确保没人会在不必要的障碍上卡住。
 * 如果课程在一年内未完成，课程将终止且费用不予退还。
 
-报名请发送邮件至lzwjava@gmail.com，主题为“AI课程报名”。请附上简短的自我介绍及学习AI的动机。你也可以[点击此处了解更多](https://lzwjava.github.io/contact-en)。
+报名请发送邮件至<lzwjava@gmail.com>，主题为“AI课程报名”。请附上简短的自我介绍及学习AI的动机。你也可以[点击此处了解更多](https://lzwjava.github.io/contact-en)。
 
 ## 十节课内容
 

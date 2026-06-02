@@ -65,5 +65,6 @@ SillyTavern 为众多 LLM API 提供了统一的界面——包括 KoboldAI/CPP�
 如果您正在构建或评估**提示词工程流水线、角色/人设注入模式或多后端 LLM 路由**，SillyTavern 的源码确实值得一读。其中的世界书/WorldInfo 系统是关键词触发上下文注入的一个实用实现——一种值得研究的轻量级 RAG 模式。其扩展 API 也是如何在 LLM 聊天界面之上构建插件系统的干净示例。
 
 **参考资料：**
+
 - [SillyTavern GitHub](https://github.com/SillyTavern/SillyTavern)
 - [SillyTavern 文档](https://github.com/SillyTavern/SillyTavern-Docs)

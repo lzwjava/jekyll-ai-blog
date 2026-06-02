@@ -15,6 +15,7 @@ type: note
 您可以在执行加密（`gpg -a -e file.txt`）或密钥导出（`gpg --armor --export keyid`）等命令时，通过`--armor`（或`-a`）选项启用此功能。启用后，命令输出将采用这种封装文本格式而非原始二进制数据。
 
 ## 参考文档
+
 - [GnuPG中armor选项的作用是什么？](https://unix.stackexchange.com/questions/623375/what-is-the-armored-option-for-in-gnupg)
 - [密钥交换 - GnuPG](https://www.gnupg.org/gph/en/manual/x56.html)
 - [第13章 ASCII封装 - OpenPGP技术笔记](https://openpgp.dev/book/armor.html)

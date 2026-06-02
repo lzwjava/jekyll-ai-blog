@@ -26,6 +26,7 @@ Angular v21 的 zoneless change detection 移除了 Zone.js，需要手动或基
 这是最干净的修复。将共享状态（total items、current page 等）转换为 signals。
 
 **在共享服务中（例如 `worklist.service.ts`）：**
+
 ```typescript
 import { signal, computed } from '@angular/core';
 
@@ -38,6 +39,7 @@ export class WorklistService {
 ```
 
 **在 worklist（父组件）中：**
+
 ```typescript
 constructor(private worklistService: WorklistService) {}
 
@@ -50,9 +52,11 @@ loadData() {
 
 **在 pagination（子组件）模板中：**
 {% raw %}
+
 ```html
 <p>Total: {{ worklistService.totalItems() }}</p>
 ```
+
 {% endraw %}
 
 在模板中读取 signal 会将其链接到视图；写入该 signal 会调度正确的视图更新——这使 change detection 更具针对性，并与 OnPush 或甚至 zoneless 自然搭配。
@@ -78,6 +82,7 @@ export class PaginationComponent {
 ```
 
 **父组件正常传递：**
+
 ```html
 <app-pagination [totalItems]="total" [pageSize]="pageSize" />
 ```
@@ -91,6 +96,7 @@ export class PaginationComponent {
 如果您更喜欢 RxJS，在服务中使用 observable，并在模板中通过 `async` pipe 订阅。
 
 **服务：**
+
 ```typescript
 private totalItemsSubject = new BehaviorSubject<number>(0);
 totalItems$ = this.totalItemsSubject.asObservable();
@@ -100,9 +106,11 @@ updateTotal(n: number) { this.totalItemsSubject.next(n); }
 
 **Pagination 模板：**
 {% raw %}
+
 ```html
 <p>Total: {{ worklistService.totalItems$ | async }}</p>
 ```
+
 {% endraw %}
 
 `AsyncPipe` 在新值到达时自动调用 `markForCheck`，因此 Angular 知道要重新检查该组件。
@@ -123,6 +131,7 @@ ngOnChanges() {
 ```
 
 或在从父组件接收数据后直接调用：
+
 ```typescript
 updatePagination(total: number) {
   this.totalItems = total;

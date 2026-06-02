@@ -16,11 +16,13 @@ type: note
 **通过 SSH 连接到** `root@165.245.137.138` — Ubuntu 24.04，235 GB 内存，611 GB 可用磁盘空间
 
 **检测到 GPU**：**AMD MI300X VF**（设备 `0x74b5`，gfx942）
+
 - 256 GB HBM3，PCIe 5.0 x16（32 GT/s）
 - 已安装 ROCm 7.2.0，`rocm-smi` 可识别该 GPU
 - `amdgpu` 内核模块已加载（版本 6.16.13）
 
 **llama.cpp 配置**：
+
 1. 将 `https://github.com/ggerganov/llama.cpp.git` 克隆至 `/root/llama.cpp/`
 2. 安装 `cmake`（之前缺失）
 3. 使用 `-DGGML_HIP=ON -DAMDGPU_TARGETS=gfx942` 构建 — **检测到并编译了 HIP 后端**

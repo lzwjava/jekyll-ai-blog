@@ -25,22 +25,26 @@ trimmed_video = video.subclip(10, 30)
 trimmed_video.write_videofile("output_video.mp4", codec="libx264")
 ```
 
-### Advantages:
+### Advantages
+
 - **Customization**: Python scripts allow precise control over editing tasks, unlike GUI-based tools with limited options.
 - **Automation**: AI can generate scripts to batch-process multiple videos, saving time.
 - **Flexibility**: Libraries like MoviePy support complex tasks (e.g., keyframe animations, audio syncing) that may be cumbersome in tools like CapCut.
 
-### Challenges:
+### Challenges
+
 - **Learning Curve**: Writing or modifying scripts requires basic Python knowledge, though AI can simplify this.
 - **Performance**: Python-based editing can be slower than optimized tools like CapCut for simple tasks.
 - **Setup**: Installing libraries and dependencies (e.g., FFmpeg) can be tricky for beginners.
 
-### How AI Chatbots Help:
+### How AI Chatbots Help
+
 - **Code Generation**: Describe your goal (e.g., “add a fade-in effect to a video”), and the AI can provide a working script.
 - **Debugging**: If a script fails, share the error, and the AI can suggest fixes.
 - **Optimization**: AI can refine scripts for efficiency or suggest better libraries for specific tasks.
 
-### Practical Steps:
+### Practical Steps
+
 1. **Install Libraries**: Use `pip install moviepy opencv-python-headless ffmpeg-python`.
 2. **Consult AI**: Ask for scripts tailored to your video editing needs (e.g., “merge two videos with a crossfade”).
 3. **Test and Iterate**: Run scripts, tweak parameters, and use AI to refine based on output.

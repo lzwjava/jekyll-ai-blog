@@ -16,6 +16,7 @@ type: note
 电磁波（EM波），包括智能手机使用的无线电波（如蜂窝信号、Wi-Fi、蓝牙），在水中的行为与空气中截然不同，主要是由于水的电学特性导致的**吸收**和**衰减**。
 
 ### 电磁波在水中的行为
+
 - 水（特别是含盐的海水）是一种**导电介质**，会导致电磁波能量快速损失。
 - 高频波（如现代手机使用的频率）比低频波遭受**更强的衰减**。
 - 关键影响因素：
@@ -29,6 +30,7 @@ type: note
 低频信号（如潜艇使用的 ELF/VLF）能传播更远，但消费类设备（如智能手机）无法使用这些频率。
 
 ### 手机被扔进水中（如装在袋子里）时的信号表现
+
 现代智能手机使用高频无线电波进行蜂窝通信、Wi-Fi 和蓝牙——这些信号在水中都会遭受严重衰减。
 
 - **实际结果** —— 水下几乎无可用信号：
@@ -41,6 +43,7 @@ type: note
 总结：将智能手机（即使装在防水袋中）扔进水中，会导致其**迅速丧失所有无线信号**（蜂窝、Wi-Fi、数据）在淡水和海水中均如此。手机内部（屏幕、应用等）可能仍能正常工作（如果防水），但需回到水面附近或上方才能恢复联网。
 
 参考资料：
+
 - [https://en.wikipedia.org/wiki/Electromagnetic_absorption_by_water](https://en.wikipedia.org/wiki/Electromagnetic_absorption_by_water)
 - [https://www.researchgate.net/figure/Attenuation-experienced-by-EM-signals-in-fresh-and-seawater-for-different-frequencies_fig1_302259776](https://www.researchgate.net/figure/Attenuation-experienced-by-EM-signals-in-fresh-and-seawater-for-different-frequencies_fig1_302259776)
 - [https://www.scirp.org/journal/paperinformation?paperid=5906](https://www.scirp.org/journal/paperinformation?paperid=5906)

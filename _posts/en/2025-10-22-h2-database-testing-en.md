@@ -15,9 +15,11 @@ type: note
 H2 is a lightweight, in-memory database ideal for unit and integration testing in Java applications, especially with Spring Boot. It allows you to run tests quickly without needing an external database setup. Below is a step-by-step guide assuming a Spring Boot project with JPA/Hibernate. If you're not using Spring, you can use H2 via plain JDBC (see notes at the end).
 
 #### Step 1: Add H2 Dependency
+
 Include the H2 dependency in your `pom.xml` (Maven) or `build.gradle` (Gradle). Scope it to `test` to avoid production inclusion.
 
 **Maven (`pom.xml`):**
+
 ```xml
 <dependency>
     <groupId>com.h2database</groupId>
@@ -27,6 +29,7 @@ Include the H2 dependency in your `pom.xml` (Maven) or `build.gradle` (Gradle). 
 ```
 
 **Gradle (`build.gradle`):**
+
 ```gradle
 testImplementation 'com.h2database:h2'
 ```
@@ -34,9 +37,11 @@ testImplementation 'com.h2database:h2'
 This pulls in the H2 JAR for test execution only.
 
 #### Step 2: Configure H2 in Test Properties
+
 Create or update `src/test/resources/application.properties` (or `application-test.yml`) to point to H2. This overrides production DB settings.
 
 **application.properties:**
+
 ```
 # H2 Database Configuration
 spring.datasource.url=jdbc:h2:mem:testdb
@@ -60,6 +65,7 @@ spring.jpa.show-sql=true
 If using profiles, activate with `@ActiveProfiles("test")` in your test class.
 
 #### Step 3: Write a JUnit Test
+
 Use `@SpringBootTest` for full context or `@DataJpaTest` for repository-focused tests. Annotate with `@Test` and use JUnit 5 (`@ExtendWith(SpringExtension.class)`).
 
 **Example: Testing a JPA Repository**
@@ -103,9 +109,11 @@ public class UserRepositoryTest {
 Run with `mvn test` or your IDE's test runner. Each test starts with a fresh DB.
 
 #### Step 4: Advanced Tips
+
 - **Flyway/Liquibase Migration**: If using schema migrations, add them to `src/test/resources` and H2 will apply them.
 - **Realistic Testing**: H2 mimics most SQL dialects but may differ from production (e.g., PostgreSQL). For closer matches, consider Testcontainers with a real DB container.
 - **Exclude Production Config**: In `pom.xml`, use profiles to exclude real DB drivers in tests:
+
   ```xml
   <profile>
       <id>test</id>
@@ -123,12 +131,16 @@ Run with `mvn test` or your IDE's test runner. Each test starts with a fresh DB.
       </dependencies>
   </profile>
   ```
+
 - **Troubleshooting**: If tests use the production DB, ensure `spring.profiles.active=test` or use `@TestPropertySource`.
 
 #### Standalone JUnit (No Spring)
+
 For plain JDBC without Spring:
+
 1. Add H2 dependency (as above).
 2. In your test:
+
 ```java
 import org.h2.jdbcx.JdbcDataSource;
 import org.junit.jupiter.api.Test;
@@ -151,6 +163,7 @@ public class StandaloneH2Test {
     }
 }
 ```
+
 This creates an in-memory DB per test.
 
 For more details, see the references below.

@@ -34,7 +34,6 @@ type: post
    - 更新PATH环境变量
    - 从系统路径中删除conda二进制文件
 
-
 ## 尝试Netplan
 
 我尝试了以下配置来为一台Ubuntu机器分配静态IP地址。我在那台服务器上运行OpenWebUI和llama.cpp。
@@ -159,18 +158,18 @@ sudo systemctl status clash.service
 
 此 `ssh-config` 文件配置SSH客户端行为。让我们分解每个部分：
 
--   `Host * !192.*.*.*`: 此部分适用于所有主机，*除了*匹配 `192.*.*.*` 模式（通常是本地网络地址）的主机。
-    -   `ProxyCommand corkscrew localhost 7890 %h %p`: 这是关键部分。它告诉SSH使用 `corkscrew` 程序连接到目标主机。
-        -   `corkscrew`: 一个工具，允许您通过HTTP或HTTPS代理隧道SSH连接。
-        -   `localhost 7890`: 指定代理服务器的地址 (`localhost`) 和端口 (`7890`)。这假定您的本地机器上运行着一个代理服务器，并监听端口7890（例如，Shadowsocks、SOCKS代理或其他隧道解决方案）。
-        -   `%h`: 一个特殊的SSH变量，扩展为要连接的目标主机名。
-        -   `%p`: 另一个SSH变量，扩展为目标端口（SSH通常为22）。
-    - 简而言之，此 `Host` 块将SSH配置为对所有连接（*除了*本地网络连接）使用 `corkscrew` 代理。
+- `Host * !192.*.*.*`: 此部分适用于所有主机，*除了*匹配 `192.*.*.*` 模式（通常是本地网络地址）的主机。
+  - `ProxyCommand corkscrew localhost 7890 %h %p`: 这是关键部分。它告诉SSH使用 `corkscrew` 程序连接到目标主机。
+    - `corkscrew`: 一个工具，允许您通过HTTP或HTTPS代理隧道SSH连接。
+    - `localhost 7890`: 指定代理服务器的地址 (`localhost`) 和端口 (`7890`)。这假定您的本地机器上运行着一个代理服务器，并监听端口7890（例如，Shadowsocks、SOCKS代理或其他隧道解决方案）。
+    - `%h`: 一个特殊的SSH变量，扩展为要连接的目标主机名。
+    - `%p`: 另一个SSH变量，扩展为目标端口（SSH通常为22）。
+  - 简而言之，此 `Host` 块将SSH配置为对所有连接（*除了*本地网络连接）使用 `corkscrew` 代理。
 
--   `Host *`: 此部分适用于*所有*主机。
-    -   `UseKeychain yes`: 在macOS上，这告诉SSH从您的Keychain存储和检索SSH密钥，这样您就不必每次都输入密码。
-    -   `AddKeysToAgent yes`: 这会自动将您的SSH密钥添加到SSH agent中，这样您就不必在每次重新启动后手动添加它们。
-    -   `IdentityFile ~/.ssh/id_rsa`: 指定您的私有SSH密钥文件的路径。`~/.ssh/id_rsa` 是RSA私钥的默认位置。
+- `Host *`: 此部分适用于*所有*主机。
+  - `UseKeychain yes`: 在macOS上，这告诉SSH从您的Keychain存储和检索SSH密钥，这样您就不必每次都输入密码。
+  - `AddKeysToAgent yes`: 这会自动将您的SSH密钥添加到SSH agent中，这样您就不必在每次重新启动后手动添加它们。
+  - `IdentityFile ~/.ssh/id_rsa`: 指定您的私有SSH密钥文件的路径。`~/.ssh/id_rsa` 是RSA私钥的默认位置。
 
 **实质上，此配置为所有SSH连接（本地网络上的连接除外）设置了代理，并为方便起见配置了密钥管理。**
 

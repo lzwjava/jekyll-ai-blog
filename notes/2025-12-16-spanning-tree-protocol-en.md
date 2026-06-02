@@ -10,14 +10,16 @@ translated: false
 type: note
 ---
 
-Question: What does the video at https://www.youtube.com/watch?v=6MW5P6Ci7lw&t=497s say?
+Question: What does the video at <https://www.youtube.com/watch?v=6MW5P6Ci7lw&t=497s> say?
 
 Answer:
 
 The video is an animated educational explanation titled "Spanning Tree Protocol | CCNA - Explained" by the channel PowerCert Animated Videos. It explains the Spanning Tree Protocol (STP) in networking, aimed at CCNA-level understanding.
 
 ### Overall Summary
+
 The video covers:
+
 - How switches handle broadcasts in a local area network.
 - The problem of broadcast loops (also called broadcast storms) when multiple switches are connected redundantly, which can bring the network to a halt.
 - How STP prevents these loops by electing a root bridge, designating ports, and blocking certain ports to create a loop-free topology while maintaining redundancy.
@@ -28,6 +30,7 @@ The video covers:
 The video is approximately 11-12 minutes long, with clear animations and narration.
 
 ### Transcript (Cleaned and Formatted Narration)
+
 "Hello everyone, in this video we're going to be talking about the Spanning Tree Protocol.
 
 When network devices want to communicate with other network devices, they first need to know the MAC address of those devices. The way they find the MAC address is by broadcasting a signal out on the network asking for that device's MAC address. Once the MAC address is known, communication can take place.
@@ -51,6 +54,7 @@ Ports on the root bridge are **designated ports** (leading away from the root).
 On non-root switches, **root ports** are chosen—the port with the lowest path cost to the root bridge (fastest link).
 
 Path costs (example):
+
 - 1 Gbps: cost 4
 - 100 Mbps: cost 19
 - 10 Mbps: cost 100
@@ -58,8 +62,9 @@ Path costs (example):
 The video then discusses blocked ports (around 7:34), development/history (around 8:31, near the linked timestamp of ~8:17), and ends with a broadcast storm demo (9:10).
 
 ### Around the Specific Timestamp (t=497s ≈ 8:17)
+
 The narration transitions to the history: discussing the development of STP (originally by Radia Perlman at Digital Equipment Corporation in the 1980s) and its evolution (e.g., improvements in later standards like RSTP).
 
 References:
 
-- https://www.youtube.com/watch?v=6MW5P6Ci7lw
+- <https://www.youtube.com/watch?v=6MW5P6Ci7lw>

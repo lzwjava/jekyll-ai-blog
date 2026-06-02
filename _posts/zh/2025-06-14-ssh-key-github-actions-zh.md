@@ -12,28 +12,37 @@ type: note
 
 1. **生成 SSH 密钥对**：
    - 在本地机器或安全环境中运行：
+
      ```bash
      ssh-keygen -t ed25519 -C "your_email@example.com" -f github-actions-deploy
      ```
+
    - 如果系统不支持 Ed25519，请使用：
+
      ```bash
      ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f github-actions-deploy
      ```
+
    - 按 Enter 键接受默认文件位置，并可选择设置密码（建议为了安全）。这将创建两个文件：
      - `github-actions-deploy`（私钥）
      - `github-actions-deploy.pub`（公钥）
 
 2. **将公钥添加到目标服务器**：
    - 复制公钥：
+
      ```bash
      cat github-actions-deploy.pub
      ```
+
    - 登录到要部署 JAR 文件的服务器。
    - 将公钥追加到服务器的 `~/.ssh/authorized_keys`：
+
      ```bash
      echo "your-public-key-content" >> ~/.ssh/authorized_keys
      ```
+
    - 确保 `authorized_keys` 文件具有正确的权限：
+
      ```bash
      chmod 600 ~/.ssh/authorized_keys
      ```
@@ -43,9 +52,11 @@ type: note
    - 点击 **New repository secret**。
    - 命名密钥（例如 `SSH_PRIVATE_KEY`）。
    - 粘贴私钥内容（`github-actions-deploy`）：
+
      ```bash
      cat github-actions-deploy
      ```
+
    - 保存密钥。
 
 4. **配置 GitHub Actions 工作流**：
@@ -96,23 +107,25 @@ type: note
      ```
 {% endraw %}
 
-   - **注意事项**：
-     - 将 `target/your-app.jar` 替换为你的 JAR 文件路径。
-     - 将 `user@<server-ip-or-hostname>` 替换为你的服务器 SSH 用户和地址。
-     - 调整部署命令（例如 `sudo systemctl restart your-service`）以匹配你在服务器上启动或部署 JAR 的方式。
-     - `known_hosts` 步骤对于避免 SSH 主机验证问题至关重要。如果你知道服务器的主机密钥，可以在 `shimataro/ssh-key-action` 步骤中预先填充，或使用 `ssh-keyscan` 如上所示。
+- **注意事项**：
+  - 将 `target/your-app.jar` 替换为你的 JAR 文件路径。
+  - 将 `user@<server-ip-or-hostname>` 替换为你的服务器 SSH 用户和地址。
+  - 调整部署命令（例如 `sudo systemctl restart your-service`）以匹配你在服务器上启动或部署 JAR 的方式。
+  - `known_hosts` 步骤对于避免 SSH 主机验证问题至关重要。如果你知道服务器的主机密钥，可以在 `shimataro/ssh-key-action` 步骤中预先填充，或使用 `ssh-keyscan` 如上所示。
 
 5. **保护工作流**：
    - 确保私钥永远不会在日志或输出中暴露。
    - 限制仓库权限以防止未经授权访问密钥。
    - 如果为 SSH 密钥使用密码，请将其添加为另一个密钥并在 `shimataro/ssh-key-action` 步骤中包含：
 {% raw %}
+
      ```yaml
      with:
        key: ${{ secrets.SSH_PRIVATE_KEY }}
        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
        known_hosts: 'optional-known-hosts'
      ```
+
 {% endraw %}
 
 6. **测试工作流**：

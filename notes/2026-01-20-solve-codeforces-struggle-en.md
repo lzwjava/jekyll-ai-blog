@@ -30,6 +30,7 @@ Here are some typical patterns from community discussions:
 This is not a sign of being "bad" — it's how most people improve in competitive programming. The key debate is usually about balance: spending too long on one problem can slow overall progress (fewer problems seen → slower pattern recognition), but giving up too quickly can miss important "aha" moments and deep understanding.
 
 Common advice includes:
+
 - Try independently for **30 min – 2 hours** (depending on your level and how promising your ideas feel).
 - Then read hints/editorial if stuck.
 - After understanding, re-implement without looking (very important).
@@ -39,8 +40,8 @@ In short: yes, **many** people experience and openly complain/discuss exactly th
 
 References:
 
-- https://codeforces.com/blog/entry/112965
-- https://codeforces.com/blog/entry/60810
-- https://codeforces.com/blog/entry/118644
-- https://codeforces.com/blog/entry/68849
-- https://www.reddit.com/r/codeforces/comments/ywycqn/how_much_time_should_one_spend_on_solving_one
+- <https://codeforces.com/blog/entry/112965>
+- <https://codeforces.com/blog/entry/60810>
+- <https://codeforces.com/blog/entry/118644>
+- <https://codeforces.com/blog/entry/68849>
+- <https://www.reddit.com/r/codeforces/comments/ywycqn/how_much_time_should_one_spend_on_solving_one>

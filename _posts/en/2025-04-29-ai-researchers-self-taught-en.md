@@ -37,15 +37,19 @@ Yes, there are several notable AI researchers and scientists who, like Christoph
    - **Path**: Hotz taught himself advanced programming and AI techniques through experimentation and real-world projects, leveraging his early reputation as a hacker to build credibility in the AI space.
 
 ### Common Traits and Paths
+
 These individuals share several characteristics that enabled their success outside academia:
+
 - **Self-Directed Learning**: They utilized online resources, open-source projects, and communities like GitHub, arXiv, and forums to learn cutting-edge AI techniques.
 - **Practical Contributions**: They focused on building projects, contributing to open-source, or publishing results (e.g., on arXiv or through blogs) to gain visibility.
 - **Collaboration**: Many worked with mentors or joined innovative teams (e.g., OpenAI, Google Brain, Anthropic) to accelerate their learning and impact.
 - **Non-Traditional Credentials**: Recognition came from demonstrated skills, such as coding, research outputs, or novel ideas, rather than degrees.
 
 ### Advice for Aspiring Self-Taught AI Researchers
+
 Based on the paths of these individuals and insights from sources like Olah’s own writing:
 [](https://colah.github.io/)
+
 - **Build a Portfolio**: Create and share projects on platforms like GitHub or Kaggle to showcase your skills.
 - **Engage with the Community**: Contribute to open-source AI projects or participate in forums like Reddit’s r/MachineLearning or LessWrong.
 - **Learn by Doing**: Tackle real problems, such as implementing papers from arXiv or replicating state-of-the-art models.
@@ -55,6 +59,7 @@ Based on the paths of these individuals and insights from sources like Olah’s 
 [](https://blog.biocomm.ai/2023/03/05/blog-christopher-olah-i-work-on-reverse-engineering-artificial-neural-networks-into-human-understandable-algorithms/)
 
 ### Caveats
+
 While these examples are inspiring, they are exceptions rather than the rule. The AI field is increasingly competitive, and self-taught researchers may face barriers in gaining initial access to resources or networks. As Olah himself noted, his path was aided by luck and unique opportunities (e.g., working with Michael Nielsen). Aspiring researchers should be prepared for challenges and consider hybrid paths, such as online courses or bootcamps, to bridge gaps.
 [](https://80000hours.org/podcast/episodes/chris-olah-unconventional-career-path/)
 

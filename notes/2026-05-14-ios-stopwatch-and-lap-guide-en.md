@@ -28,11 +28,9 @@ There are two ways to access the Stopwatch:
 
 ### ▶️ Basic Controls
 
-
 - **Start** — Tap **Start** to begin the stopwatch.
 - **Stop** — Tap **Stop** to pause the stopwatch.
 - **Reset** — After stopping, tap **Reset** to bring the stopwatch back to zero. Note that all recorded lap times will be cleared.
-
 
 ---
 
@@ -41,6 +39,7 @@ There are two ways to access the Stopwatch:
 While the stopwatch is running, tap the **Lap** button to mark a lap. The stopwatch continues to run — you've simply marked how long it took to complete that segment. The lap time appears below the timer, and there is no limit on how many laps you can record. You can scroll through them at any time before resetting the stopwatch.
 
 **How laps work on iOS:**
+
 - Each time you tap **Lap**, the current segment time is logged in a list below the display.
 - The overall stopwatch keeps running without interruption.
 - When you're done, tap **Stop**, then **Reset** to clear everything.

@@ -62,14 +62,14 @@ Just as adults have repeatedly accomplished what adults of ten or a hundred year
 Further Reading:
 
 1. Hiring is Obsolete.
-https://paulgraham.com/hiring.html
+<https://paulgraham.com/hiring.html>
 2. Paul Graham: Those Like Airbnb Founders
 3. Researchers and Founders.
-https://blog.samaltman.com/researchers-and-founders
+<https://blog.samaltman.com/researchers-and-founders>
 4. Billionaires Build.
-http://www.paulgraham.com/ace.html
+<http://www.paulgraham.com/ace.html>
 5. Doubts About Intelligence
-https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence
+<https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence>
 6. The Wisdom of Learning
-https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy
+<https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy>
 7. WeChat Internet Civilian Entrepreneurship

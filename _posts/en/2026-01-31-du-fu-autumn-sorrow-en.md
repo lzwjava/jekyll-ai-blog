@@ -25,6 +25,7 @@ The poem was composed during the Double Ninth Festival (重阳节), a traditiona
 **The Poet's Circumstances**
 
 When Du Fu wrote this poem, he was:
+
 - Afflicted by multiple illnesses including malaria, lung disease, and rheumatism
 - Separated from his family and friends
 - Living in poverty and professional disappointment

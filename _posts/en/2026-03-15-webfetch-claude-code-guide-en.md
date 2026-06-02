@@ -33,12 +33,14 @@ The `WebFetch` tool is a built-in Claude Code tool that allows Claude to **retri
 ### Key Behaviors
 
 **✅ What it handles well:**
+
 - Public web pages (blogs, docs, news articles, etc.)
 - HTTP URLs — automatically upgraded to HTTPS
 - Large pages — results may be summarized if content is too big
 - Redirects — notifies you of the redirect URL, so you can make a new request manually
 
 **❌ What it cannot do:**
+
 - Access **authenticated or private URLs** (Google Docs, Confluence, Jira, GitHub private repos, etc.) — it will **fail**
 - Modify any files (read-only tool)
 

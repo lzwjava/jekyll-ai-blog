@@ -16,31 +16,37 @@ type: note
 按顺序尝试以下选项：
 
 **选项1：带引号的路径**
+
 ```
 "C:\Program Files\Git\bin\bash.exe" --login -i
 ```
 
 **选项2：使用正斜杠（MSYS风格）**
+
 ```
 C:/Program Files/Git/bin/bash.exe --login -i
 ```
 
 **选项3：8.3短路径（始终有效）**
+
 ```
 C:\PROGRA~1\Git\bin\bash.exe --login -i
 ```
 
 先验证你的8.3路径——在PowerShell中运行以下命令：
+
 ```powershell
 cmd /c "for %I in ("C:\Program Files\Git\bin\bash.exe") do echo %~sI"
 ```
 
 **选项4：使用 `cmd /c` 作为包装**
+
 ```
 cmd /c "C:\Program Files\Git\bin\bash.exe" --login -i
 ```
 
 **选项5：指向 `git-cmd.exe` 填充程序**
+
 ```
 C:\Program Files\Git\git-cmd.exe --command=usr/bin/bash.exe --login -i
 ```

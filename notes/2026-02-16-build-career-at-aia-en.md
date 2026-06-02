@@ -16,6 +16,7 @@ type: note
 AIA refers to **AIA Group Limited**, one of the largest listed life insurance groups in Asia (headquartered in Hong Kong). It operates in 18 markets across the Asia-Pacific region and focuses on life insurance, health, and wellness solutions. AIA's mission emphasizes helping people live **Healthier, Longer, Better Lives**, and its careers reflect a commitment to creating positive impact, innovation, and sustainability.
 
 ### Overview of Careers at AIA
+
 AIA offers diverse opportunities in two main paths:
 
 - **Corporate roles** — These include positions in areas like finance, IT, marketing, HR, actuarial, operations, leadership, analytics, and more. Roles are available across group offices (e.g., Hong Kong, Singapore) and local markets (e.g., China, Thailand, Malaysia, Indonesia, Vietnam, etc.). AIA promotes a culture of growth, learning, digital tools, and employee development to shape a healthier and more sustainable future.
@@ -25,11 +26,12 @@ AIA offers diverse opportunities in two main paths:
 AIA frequently highlights employee stories, graduate programs (like the Future Leaders Programme in some markets), and a focus on diversity, inclusion, and long-term career development. As of recent listings, there are hundreds of open corporate positions across the region.
 
 ### How to Apply for Jobs at AIA Using Workday
+
 AIA uses **Workday** as its primary recruitment platform for corporate positions.
 
-1. Visit the official AIA careers page: Go to https://www.aia.com/en/careers/overview (or country-specific sites like aia.com.hk, aia.com.sg, etc., which link to the same system).
+1. Visit the official AIA careers page: Go to <https://www.aia.com/en/careers/overview> (or country-specific sites like aia.com.hk, aia.com.sg, etc., which link to the same system).
 
-2. Click on the link for corporate opportunities, which directs to the Workday portal: https://aia.wd3.myworkdayjobs.com/External
+2. Click on the link for corporate opportunities, which directs to the Workday portal: <https://aia.wd3.myworkdayjobs.com/External>
 
 3. On the Workday site:
    - Browse or search for jobs using filters (location, job function, time type — full-time/part-time, etc.).

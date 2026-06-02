@@ -14,6 +14,7 @@ That's expected — the terminal uses bash, not zsh. You'll need to reload in yo
 Here's what I changed:
 
 **`ww/action/action.py`** — rewrote to use argparse with defaults:
+
 - Default workflow: `gh-pages.yml`
 - Default repo: `lzwjava/jekyll-ai-blog` (consistent with `actions check`)
 - Added `--repo` and `--ref` flags

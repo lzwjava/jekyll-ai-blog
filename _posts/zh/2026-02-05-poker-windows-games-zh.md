@@ -20,6 +20,7 @@ Microsoft 移除了大部分预装游戏，但你可以从 Microsoft Store 下�
 
 **对于 Windows 上的实际 poker 游戏：**
 你可能需要从 Microsoft Store 下载游戏。一些选项包括：
+
 - **Governor of Poker** 系列
 - **World Series of Poker (WSOP)**
 - **PokerStars**（如果你想进行在线对战）
@@ -29,6 +30,7 @@ Microsoft 移除了大部分预装游戏，但你可以从 Microsoft Store 下�
 每位玩家获得 2 张底牌，5 张公共牌分阶段揭晓（3 张 "the flop"，1 张 "the turn"，1 张 "the river"）。你利用自己的 2 张牌加上 5 张公共牌组合出最好的 5 张牌手牌。
 
 **手牌排名（从高到低）：**
+
 1. Royal Flush, 2. Straight Flush, 3. Four of a Kind, 4. Full House, 5. Flush, 6. Straight, 7. Three of a Kind, 8. Two Pair, 9. One Pair, 10. High Card
 
 玩家分轮投注 - 你可以 fold（弃牌）、call（跟注）或 raise（加注）。

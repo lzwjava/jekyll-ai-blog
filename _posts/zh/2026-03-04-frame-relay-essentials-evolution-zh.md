@@ -60,6 +60,7 @@ Frame Relay 是一种**高性能**、**分组交换**的广域网 (WAN) 协议�
 ```
 
 地址字段中的重要标志：
+
 - **FECN** (Forward Explicit Congestion Notification) — 前方拥塞。
 - **BECN** (Backward Explicit Congestion Notification) — 后方拥塞。
 - **DE** (Discard Eligibility) — 拥塞期间可首先丢弃该帧。
@@ -97,12 +98,14 @@ Frame Relay 是一种**高性能**、**分组交换**的广域网 (WAN) 协议�
 ### 现代状态（2026 年视角）
 
 Frame Relay 在新部署中几乎完全被淘汰。现有的安装大多是遗留环境，正在迁移到：
+
 - MPLS VPN
 - Internet VPN (IPsec、SD-WAN)
 - Metro Ethernet
 - 直连光纤 / DWDM 服务
 
 然而，理解 Frame Relay 仍很有价值，用于：
+
 - 遗留支持
 - 理解 WAN 技术演进
 - 虚拟电路、统计复用、CIR、拥塞通知等概念，这些在 MPLS 和 SD-WAN 中以修改形式出现。

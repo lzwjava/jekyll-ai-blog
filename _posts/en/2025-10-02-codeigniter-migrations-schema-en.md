@@ -15,6 +15,7 @@ type: note
 CodeIgniter (CI) migrations are a feature that helps manage database schema changes in a version-controlled way, similar to tools like Flyway or Liquibase. They allow you to write PHP scripts that define database alterations (e.g., creating tables, adding columns, or modifying data), then run them in sequence to keep your schema up-to-date across environments. This prevents manual SQL errors and supports rollback.
 
 Migrations work by:
+
 - Storing migration files in a directory (default: `application/migrations/`).
 - Tracking "versions" in a database table to know which migrations have been applied.
 - Running scripts forward (up) or backward (down) based on your needs.
@@ -37,6 +38,7 @@ The config file you shared (`migration.php`) controls how migrations behave. It 
 1. **Enable Migrations**: Temporarily set `$config['migration_enabled'] = TRUE;` in the config file.
 
 2. **Create a Migration File**: Add a PHP file in `application/migrations/` with a name like `20121031104401_add_blog.php`. Inside, use CI's Migration class:
+
    ```php
    defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -51,6 +53,7 @@ The config file you shared (`migration.php`) controls how migrations behave. It 
        }
    }
    ```
+
    - `up()` applies changes (e.g., create table).
    - `down()` reverses them (e.g., drop table).
 

@@ -54,6 +54,7 @@ Call of Duty 提供三种主要游戏模式：
 ## 步骤 5：了解 XP 与进度
 
 有三种 XP 类型需要跟踪：
+
 - **Player XP (XP)** — 让你升级并解锁装备和奖励。
 - **Weapon XP (WXP)** — 为你使用的武器解锁 attachments。
 - **Battle Pass XP (BXP)** — 推进你通过季节性 Battle Pass 内容。

@@ -26,7 +26,7 @@ OpenWebText 是 OpenAI WebText 数据集的开源复现版本，包含从高评�
   - 种子文件：[OpenWebText (Gokaslan's distribution, 2019), GPT-2 Tokenized](https://academictorrents.com/details/36c39b25657ce1639ccec0a91cf242b42e1f01db)
   - 来源：Academic Torrents（由 OSUOSL 和社区做种）
 
-如需获取完整原始文本语料库，请查阅[ OpenWebText GitHub 仓库](https://github.com/eukaryote31/openwebtext)的直接下载链接（非种子方式）或使用上述 URL 配合抓取脚本。增强版本 OpenWebText2（约数 TB 规模）可通过 [EleutherAI 仓库](https://github.com/EleutherAI/openwebtext2)获取，但采用流式传输而非种子方式。
+如需获取完整原始文本语料库，请查阅[OpenWebText GitHub 仓库](https://github.com/eukaryote31/openwebtext)的直接下载链接（非种子方式）或使用上述 URL 配合抓取脚本。增强版本 OpenWebText2（约数 TB 规模）可通过 [EleutherAI 仓库](https://github.com/EleutherAI/openwebtext2)获取，但采用流式传输而非种子方式。
 
 ### 维基百科数据转储种子文件
 

@@ -11,9 +11,11 @@ type: note
 ---
 
 ### What is BERT?
+
 BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based model introduced by Google in 2018. It revolutionized natural language processing (NLP) by enabling deep bidirectional understanding of text, leading to state-of-the-art performance on various tasks like question answering, sentiment analysis, and named entity recognition.
 
 ### Key Innovations
+
 BERT's breakthroughs lie in its pre-training strategy, architecture, and fine-tuning approach. Here's a breakdown:
 
 - **Bidirectional Pre-Training**:

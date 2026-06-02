@@ -12,7 +12,8 @@ type: note
 
 In the context of semiconductors like those used in a BJT (Bipolar Junction Transistor), **doping** refers to the process of intentionally adding small, controlled amounts of impurity atoms (called dopants) to a pure semiconductor material, such as silicon or germanium. This alters the material's electrical conductivity by introducing extra charge carriers (electrons or holes).
 
-### Key Points:
+### Key Points
+
 - **Pure semiconductors** (intrinsic) have limited conductivity because they have roughly equal numbers of electrons (negative charge carriers) and holes (positive charge carriers).
 - **Doping creates extrinsic semiconductors** with enhanced conductivity:
   - **N-type doping**: Adding impurities with more valence electrons than silicon (e.g., phosphorus or arsenic, Group V elements). This creates an excess of free electrons, making the material negatively charged overall.

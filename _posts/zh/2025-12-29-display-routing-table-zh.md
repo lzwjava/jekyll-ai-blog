@@ -18,7 +18,7 @@ The correct answer is **A) show ip route**。
 
 This command 用于在 Cisco routers（以及许多运行 Cisco IOS 或类似 operating systems 的设备）上显示当前的 IP routing table。routing table 包含有关已获知的 networks、next-hop addresses、metrics 以及 routing information 来源（例如 connected、static 或 OSPF、BGP 等 dynamic protocols）的信息。
 
-### Explanation of options:
+### Explanation of options
 
 - **A) show ip route** – 正确。直接显示 IPv4 routing table。
 - **B) show interfaces** – 显示 physical 和 logical interfaces 的 status 和 statistics（例如 up/down 状态、IP addresses、errors），但不显示 routing table。

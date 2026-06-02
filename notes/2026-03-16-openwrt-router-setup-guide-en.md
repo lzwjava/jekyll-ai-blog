@@ -16,15 +16,18 @@ type: note
 Keep OpenWrt's `br-lan` as is (bridge of LAN ports + WiFi). Configure its **WAN interface** to get DHCP from your laptop:
 
 1. **On OpenWrt:**
+
 - Go to Network → Interfaces
 - Edit **WAN** interface (or create new one)
 - Protocol: **DHCP client**
 - Physical interface: The port connected to your laptop's USB Ethernet
 
 2. **Result:**
+
 ```
 Laptop (192.168.201.1) → DHCP → OpenWrt WAN → OpenWrt LAN/WiFi devices
 ```
+
 - OpenWrt gets IP like `192.168.201.50` from your laptop
 - OpenWrt NATs traffic for its LAN devices
 - All traffic routes through Clash proxy
@@ -34,14 +37,17 @@ Laptop (192.168.201.1) → DHCP → OpenWrt WAN → OpenWrt LAN/WiFi devices
 Convert OpenWrt to bridge mode, making your laptop handle all routing/DHCP:
 
 1. **On OpenWrt:**
+
 - Disable DHCP server on OpenWrt
 - Add USB-connected port to `br-lan` bridge
 - Set OpenWrt LAN IP to static `192.168.201.2` (or disable IP entirely)
 
 2. **Result:**
+
 ```
 Laptop (192.168.201.1) → DHCP → All devices (wired+wireless)
 ```
+
 - Single subnet `192.168.201.0/24`
 - Your laptop handles all routing/DHCP/proxy
 - OpenWrt acts as dumb AP/switch
@@ -49,11 +55,13 @@ Laptop (192.168.201.1) → DHCP → All devices (wired+wireless)
 ## **Which to choose?**
 
 **For testing/quick setup → Option 1**
+
 - Minimal OpenWrt changes
 - Works with existing OpenWrt config
 - Double NAT but fine for proxy testing
 
 **For clean network → Option 2**
+
 - Single subnet, no double NAT
 - All devices directly through Clash
 - Requires more OpenWrt reconfiguration

@@ -17,6 +17,7 @@ type: note
 Here are the most commonly used aggregate (statistics) functions in DB2 with practical examples:
 
 ### Basic Syntax
+
 ```sql
 SELECT
     function_name(column)

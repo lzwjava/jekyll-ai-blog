@@ -22,6 +22,7 @@ brew install ncdu
 ```
 
 在 Linux 上：
+
 ```bash
 sudo apt install ncdu    # Debian/Ubuntu
 sudo yum install ncdu    # Red Hat/CentOS
@@ -32,21 +33,25 @@ sudo yum install ncdu    # Red Hat/CentOS
 ## 基本用法
 
 **扫描整个 home 目录：**
+
 ```bash
 ncdu ~
 ```
 
 **扫描特定文件夹：**
+
 ```bash
 ncdu ~/Downloads
 ```
 
 **扫描整个系统（需要 sudo）：**
+
 ```bash
 sudo ncdu /
 ```
 
 **排除某些目录（更快扫描）：**
+
 ```bash
 ncdu --exclude node_modules --exclude .git ~/Projects
 ```
@@ -70,6 +75,7 @@ ncdu 启动时，您会看到类似以下内容：
 ```
 
 **各列含义：**
+
 - **左侧数字** = 该文件夹/文件的尺寸
 - **条形图** = 相对尺寸的可视化表示
 - **文件夹/文件名** = 路径
@@ -118,6 +124,7 @@ ncdu ~
 ```
 
 非常适合查找“神秘空间占用者”。常见罪魁祸首：
+
 - `~/Library/Caches` — 旧应用缓存（安全删除）
 - `~/Library/Logs` — 累积日志
 - `~/Downloads` — 您忘记的旧文件
@@ -127,6 +134,7 @@ ncdu ~
 ### 3. **查找大文件（不仅仅是文件夹）**
 
 默认情况下，ncdu 显示文件夹。要查看单个大**文件**：
+
 1. 按 `→` 展开文件夹
 2. 查找尺寸较大的文件
 3. 文件显示时没有尾随的 `/`
@@ -160,6 +168,7 @@ ncdu ~ --output results.txt
 ```
 
 然后稍后查看：
+
 ```bash
 ncdu --file results.txt
 ```
@@ -199,6 +208,7 @@ ncdu ~/Library
 ```
 
 导航到：
+
 - `Caches` — 旧应用缓存文件（通常安全删除）
 - `Logs` — 累积系统日志
 - `Application Support` — 应用特定数据（此处要小心）
@@ -206,6 +216,7 @@ ncdu ~/Library
 ### 提示 2：查找重复文件
 
 虽然 ncdu 不直接查找重复文件，但您可以发现模式：
+
 ```bash
 ncdu ~/Downloads
 ```
@@ -215,6 +226,7 @@ ncdu ~/Downloads
 ### 提示 3：监控尺寸随时间增长
 
 在不同时间导出结果：
+
 ```bash
 ncdu --output ~/Desktop/scan_$(date +%Y%m%d).txt ~
 ```
@@ -224,6 +236,7 @@ ncdu --output ~/Desktop/scan_$(date +%Y%m%d).txt ~
 ### 提示 4：与 `find` 结合进行精确删除
 
 查找大于 1GB 的所有文件：
+
 ```bash
 find ~ -size +1G -type f
 ```
@@ -285,16 +298,19 @@ ncdu ~/Projects
 ## 故障排除
 
 **ncdu 在某些文件夹上挂起？**
+
 ```bash
 ncdu --exclude .git --exclude node_modules ~
 ```
 
 **权限被拒绝错误？**
+
 ```bash
 sudo ncdu ~
 ```
 
 **想要扫描但不具有删除权限？**
+
 ```bash
 ncdu -r ~    # 只读模式
 ```
@@ -312,6 +328,7 @@ ncdu --one-file-system ~         # 不跟随挂载
 ```
 
 **ncdu 内：**
+
 - **↑↓** = 导航
 - **→** = 展开文件夹
 - **←** = 返回

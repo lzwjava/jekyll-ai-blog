@@ -16,6 +16,7 @@ type: note
 百度在 2010 年代初确实是全球 AI 先驱，这归功于其远见卓识的领导层和对 deep learning 的激进早期投资。然而，由于业务重心的偏移、数据优势的更迭、执行速度以及激烈的市场竞争，百度在生成式 AI 时代难以维持其统治地位。
 
 ### 早期的 AI 领导地位 (2012–2017)
+
 - **李彦宏对 deep learning 的豪赌**：百度的 CEO 李彦宏很早就意识到了 deep learning 的潜力。2013 年，百度成立了 Institute of Deep Learning。他们聘请了余凯等顶尖人才，并建立了全球首批大规模 GPU 集群之一用于 deep learning 研究。
 - **Andrew Ng 时代 (2014–2017)**：百度挖来了 Google Brain 的联合创始人 Andrew Ng 担任首席科学家。Ng 在 24 小时内就订购并收到了 1,000 块 GPU —— 这比在 Google 的速度快得多 —— 并将 AI 团队扩大到约 1,300 人（包括 300 名研究人员）。百度将 AI 应用于 search、语音识别 (Deep Speech)、图像识别、地图等领域。他们将自己定位为中国 AI 的领导者，甚至在全求范围内展开竞争。
 - **竞购 Geoffrey Hinton**：2012–2013 年，在 Hinton 突破性的 AlexNet 论文发表后，百度（与 Google、Microsoft 和 DeepMind 一起）在一场秘密拍卖中竞购 Hinton 及其学生的专业知识（通过一家名为 DNNresearch 的壳公司）。据报道，百度最初出价约 1200 万美元；Google 最终以约 4400 万美元获胜，但百度曾是一个强有力的竞争者，这彰显了百度的雄心。
@@ -24,6 +25,7 @@ type: note
 百度的优势包括快速反应的企业文化（采购速度快于 Google）、CEO 对 AI 的大力支持，以及中国日益增长的人才库和来自 search 的数据。
 
 ### 为什么百度掉队了（尤其是 2022 年生成式 AI 爆发后）
+
 几个结构性和战略性因素解释了这种相对衰落：
 
 1. **核心业务依赖与错过移动/社交转型**：
@@ -46,7 +48,9 @@ type: note
    - 竞争对手：字节跳动利用短视频数据和规模优势；阿里巴巴将 AI 与 cloud/e-commerce 绑定；纯 AI startup 则背负较少的历史包袱。
 
 ### 现状 (2025–2026)
+
 百度远未出局。它继续进行大额投资：
+
 - ERNIE 系列（最高 5.0版本）具备多模态能力、agent 特性，并集成了 search、cloud (Qianfan)、Apollo Go (robotaxis) 和数字人。
 - 开源了部分 Ernie 以提高采用率。
 - 拥有自研 AI 芯片 (Kunlun M 系列) 和全栈生态系统 (PaddlePaddle)。
@@ -57,6 +61,7 @@ type: note
 **简而言之**：百度的早期领先源于“前 LLM”深度学习时代的宏伟愿景、人才挖掘和硬件速度。目前的滞后源于对 search 的过度依赖、向面向消费者的生成式 AI 转型较慢、对手拥有更丰富的数据生态，以及一个 startup 迭代更快的碎片化且竞争极其激烈的中国 AI 市场。百度正在通过应用和多模态模型追赶，但在经济和监管挑战中重新夺回绝对领导地位仍需要持续的执行力。
 
 **References:**
+
 - [Andrew Ng on Baidu AI investments and GPU cluster](https://medium.com/machine-learnings/interview-with-andrew-ng-many-leading-ai-technologies-were-first-deployed-in-china-c5e9f196bb9f)
 - [VentureBeat on Ng joining Baidu and early GPU advantage](https://venturebeat.com/business/andrew-ng-baidu)
 - [Wired on Hinton auction involving Baidu](https://www.wired.com/story/secret-auction-race-ai-supremacy-google-microsoft-baidu/)

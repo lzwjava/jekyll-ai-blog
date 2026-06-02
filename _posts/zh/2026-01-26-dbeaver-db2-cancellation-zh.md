@@ -17,6 +17,7 @@ Answer:
 这种行为在 DBeaver 配合 DB2（尤其是 DB2 LUW 或 z/OS）使用时非常常见。后台的 Metadata 加载或 Cache 操作可能看起来卡住或耗时极长，而主数据获取（例如打开表的 Data 标签页）通常独立运行并能正常显示结果。
 
 ### 为什么会发生这种情况
+
 - 当你展开 Schemas/Tables 或打开对象时，DBeaver 会运行多个后台任务，例如：
   - 加载 Table/Column Metadata
   - 构建 Procedure/Argument Caches (`Load ArgumentsCache`)
@@ -31,6 +32,7 @@ Answer:
 - 实际的表数据加载（默认执行 `SELECT * FROM table FETCH FIRST 200 ROWS ONLY`）是一个独立的操作，通常完成得更快。因此即使后台任务仍在运行或看似挂起，你也能看到数据。
 
 ### 你可以做什么
+
 1. **安全地取消后台任务**
    - 进入 **Window → Show View → Background Tasks**（或点击右下角的进度指示器）。
    - 找到运行时间过长的任务（通常命名为 "Load DB2TableCache"、"Load schema statistics"、"Discover resultset metadata" 等）。

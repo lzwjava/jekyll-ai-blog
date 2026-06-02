@@ -23,6 +23,7 @@ VPI field 与 VCI (Virtual Channel Identifier) field 结合，形成 ATM 网络�
 VCI 与 VPI 一起，用于标识 cell 在通过一系列 ATM switches 前往目的地的过程中下一个目的地。ATM switches 使用 VPI/VCI fields 来标识 cell 通往最终目的地的下一个网络的 virtual channel link (VCL)。
 
 **技术细节：**
+
 - 对于 UNI (User-Network Interface) cells，VPI 为 8 bits，而 NNI (Network-Network Interface) cells 使用 12 bits 的 VPI（因为 4-bit GFC field 被重新用作额外的 VPI bits）
 - Virtual Path Identifier (VPI) 标识 ATM 网络中两个位置之间的一条路径，该路径为一群 virtual channels 提供传输，其中 virtual channel 表示两个通信 ATM 设备之间的连接。
 
@@ -41,7 +42,7 @@ Virtual Channel Identifier (VCI) 可以视为 ATM 使用的两级 routing 层次
 
 参考资料：
 
-- https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode
-- https://www.sciencedirect.com/topics/computer-science/virtual-path-identifier
-- https://www.informit.com/articles/article.aspx?p=680842&seqNum=4
-- https://www.ccexpert.us/routing-switchin/atm-cell-format.html
+- <https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode>
+- <https://www.sciencedirect.com/topics/computer-science/virtual-path-identifier>
+- <https://www.informit.com/articles/article.aspx?p=680842&seqNum=4>
+- <https://www.ccexpert.us/routing-switchin/atm-cell-format.html>

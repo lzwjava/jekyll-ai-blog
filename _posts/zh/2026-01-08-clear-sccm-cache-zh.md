@@ -17,10 +17,12 @@ Answer:
 Windows 上的 **Software Center** 是 Microsoft Endpoint Configuration Manager (原 SCCM/MECM) 的一部分，用于显示部署的任务、更新和 Package。安装失败通常是由于 Client Cache 文件夹 (**ccmcache**，通常位于 `C:\Windows\ccmcache`) 中的文件损坏或不完整导致的。清理此 Cache 会强制 Client 重新下载内容，从而允许重新尝试安装。
 
 ### 重要警告
+
 - **不要直接使用 File Explorer 或命令行手动删除 `C:\Windows\ccmcache` 中的文件或文件夹**。这会破坏 Client 对内容的跟踪记录，导致进一步的问题。
 - 请务必使用受支持的方法来清理 Cache。
 
 ### 推荐方法：通过 Configuration Manager Properties 清理 Cache
+
 这是官方且最安全的方法：
 
 1. 打开运行对话框 (Win + R) 并输入：`control smscfgrc`（或在 Control Panel 中搜索 "Configuration Manager"）。
@@ -33,12 +35,14 @@ Windows 上的 **Software Center** 是 Microsoft Endpoint Configuration Manager 
 此操作会正确删除缓存项并更新 Client 的内部跟踪信息。
 
 ### 清理 Cache 之后
+
 1. 关闭并重新打开 **Software Center**。
 2. 导航到失败的 Package/Application/Update。
 3. 再次点击 **Retry** 或 **Install**。
    - 初始可能会显示快速失败或下载进度为 0% —— 请尝试第二次点击 Retry，通常在下一次尝试时会开始正常下载。
 
 ### 替代方法：使用 PowerShell（高级）
+
 如果您需要自动化或有选择地清理，请以 Administrator 身份运行此 PowerShell 脚本（它使用官方 COM object 安全地删除所有缓存项）：
 
 ```powershell
@@ -53,6 +57,7 @@ $Cache.GetCacheElements() | ForEach-Object {
 - 然后在 Software Center 中重试安装。
 
 ### 其他提示
+
 - 如果故障仍然存在，请触发 Client Policy 刷新：在 Configuration Manager Properties 的 Actions 选项卡中，运行 **Machine Policy Retrieval & Evaluation Cycle** 和 **Application Deployment Evaluation Cycle**。
 - 检查 Logs（例如 `C:\Windows\CCM\Logs`）以获取失败的详细信息。
 - 在企业环境中，管理员可以使用 Right Click Tools 等工具远程处理此问题。

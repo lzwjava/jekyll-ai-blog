@@ -201,7 +201,7 @@ Strong profiles:
 
 # 4. What You Should Actually Do (Actionable)
 
-## If you want to replicate this level:
+## If you want to replicate this level
 
 ### Step 1 — Pick a Domain
 

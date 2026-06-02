@@ -30,6 +30,7 @@ Below, we’ll explore each of these features in detail.
 ---
 
 ### 1. **Request Building**
+
 Request building is the core functionality of Postman, allowing you to create and send HTTP requests easily.
 
 - **How to Use**:
@@ -45,6 +46,7 @@ Request building is the core functionality of Postman, allowing you to create an
 ---
 
 ### 2. **Collection Management**
+
 Collections help you organize related requests, making it easier to manage and run multiple requests together.
 
 - **How to Use**:
@@ -58,6 +60,7 @@ Collections help you organize related requests, making it easier to manage and r
 ---
 
 ### 3. **Environment Variables**
+
 Environment variables allow you to manage different configurations (e.g., base URLs, API keys) for various environments without changing each request manually.
 
 - **How to Use**:
@@ -72,6 +75,7 @@ Environment variables allow you to manage different configurations (e.g., base U
 ---
 
 ### 4. **Authentication**
+
 Postman simplifies handling various authentication methods, ensuring secure access to your APIs.
 
 - **How to Use**:
@@ -86,16 +90,19 @@ Postman simplifies handling various authentication methods, ensuring secure acce
 ---
 
 ### 5. **Testing**
+
 Postman’s testing framework allows you to write JavaScript tests to validate API responses, ensuring your APIs work as expected.
 
 - **How to Use**:
   - In the request tab, go to the **Tests** tab.
   - Write JavaScript code to validate the response. For example:
+
     ```javascript
     pm.test("Status code is 200", function () {
         pm.response.to.have.status(200);
     });
     ```
+
   - After sending the request, check the **Test Results** in the response pane to see if the tests passed or failed.
 
 - **Tip**: Use Postman’s built-in snippets (e.g., "Status code is 200", "Response body: JSON value check") to quickly add common tests.
@@ -103,6 +110,7 @@ Postman’s testing framework allows you to write JavaScript tests to validate A
 ---
 
 ### 6. **Mocking**
+
 Mocking allows you to simulate API responses, which is useful when the actual API is still in development or unavailable.
 
 - **How to Use**:
@@ -116,6 +124,7 @@ Mocking allows you to simulate API responses, which is useful when the actual AP
 ---
 
 ### 7. **Documentation**
+
 Postman can automatically generate documentation for your APIs based on the requests in your collections.
 
 - **How to Use**:
@@ -129,6 +138,7 @@ Postman can automatically generate documentation for your APIs based on the requ
 ---
 
 ### 8. **Collaboration**
+
 Postman’s collaboration features allow teams to work together efficiently on API projects.
 
 - **How to Use**:

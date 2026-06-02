@@ -13,6 +13,7 @@ Okay, let’s talk about flip-flops! Imagine flip-flops as tiny toy boxes that c
 ---
 
 ### **RS Flip-Flop: The "Choose One" Box**
+
 - **What it does**: This box has two buttons: a **Set (S)** button and a **Reset (R)** button.
 - **How it works**:
   - Press **S** (and not R): The box puts a 1 inside (like saying "Yay, turn on!").
@@ -24,6 +25,7 @@ Okay, let’s talk about flip-flops! Imagine flip-flops as tiny toy boxes that c
 ---
 
 ### **D Flip-Flop: The "Copycat" Box**
+
 - **What it does**: This box has a **Data (D)** button and a **Clock** button (like a timer).
 - **How it works**:
   - When the clock ticks (like a bell ringing), the box looks at the D button.
@@ -35,6 +37,7 @@ Okay, let’s talk about flip-flops! Imagine flip-flops as tiny toy boxes that c
 ---
 
 ### **JK Flip-Flop: The "Super Flexible" Box**
+
 - **What it does**: This box has **J** and **K** buttons (like Set and Reset) and a **Clock** button.
 - **How it works**:
   - When the clock ticks:
@@ -48,6 +51,7 @@ Okay, let’s talk about flip-flops! Imagine flip-flops as tiny toy boxes that c
 ---
 
 ### **T Flip-Flop: The "Flipper" Box**
+
 - **What it does**: This box has a **Toggle (T)** button and a **Clock** button.
 - **How it works**:
   - When the clock ticks:
@@ -58,6 +62,7 @@ Okay, let’s talk about flip-flops! Imagine flip-flops as tiny toy boxes that c
 ---
 
 ### **Why Are Flip-Flops Cool?**
+
 These magic boxes help computers remember and play with 0s and 1s, like keeping score in a game. The D flip-flop is the most popular because it’s simple and reliable, like your favorite toy that never breaks. The JK and T flip-flops are great for fun tricks like counting or flipping things, and the RS flip-flop is like an old toy that’s not used much anymore because it’s a bit tricky.
 
 Does that make sense? Want me to explain any of these boxes again? 😊

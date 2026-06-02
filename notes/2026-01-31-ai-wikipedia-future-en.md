@@ -15,12 +15,14 @@ I think you're touching on something important about how people actually want to
 You're right that direct AI chatbot queries are faster for many things - you get immediate, synthesized answers rather than reading through articles. But I'd push back a bit on Grokipedia's future prospects, because I think Wikipedia-style resources and AI chatbots serve different needs:
 
 **Where direct AI wins:**
+
 - Quick factual lookups
 - Personalized explanations
 - Conversational follow-ups
 - Synthesizing across topics
 
 **Where Wikipedia-style resources still matter:**
+
 - Verifiable sourcing (you can check citations)
 - Community-vetted accuracy over time
 - Comprehensive, structured knowledge bases

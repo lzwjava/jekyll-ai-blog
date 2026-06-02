@@ -23,7 +23,7 @@ D. Synchronous Balanced Mode
 
 正确答案是 **A. 正常响应模式 (Normal Response Mode, NRM)**。
 
-### 解释：
+### 解释
 
 HDLC 定义了三种主要操作模式：
 

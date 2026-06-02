@@ -16,6 +16,7 @@ type: note
 我本应优先尝试的更好选项（按顺序排列）：
 
 1. **创建虚拟环境** —— 最干净的标准做法：
+
    ```bash
    python3 -m venv .venv && source .venv/bin/activate
    pip install fastapi uvicorn openai pydantic python-dotenv requests sympy numpy scipy

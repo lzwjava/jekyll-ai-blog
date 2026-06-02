@@ -39,6 +39,7 @@ Linear Layer (lm_head) → Logits for next token
 ### 1. Embeddings: The Starting Point
 
 The model uses **two embedding tables**:
+
 - **Token Embeddings** (`wte`): Maps each token ID (0 to vocab_size-1) to a dense vector of size `n_embd`
 - **Positional Embeddings** (`wpe`): Maps each position (0 to block_size-1) to a vector of size `n_embd`
 
@@ -59,11 +60,13 @@ v = value(x)  # (B, T, head_size)
 ```
 
 The attention weights are computed as:
+
 ```python
 wei = q @ k.transpose(-2, -1) / sqrt(head_size)  # Scaled dot-product
 ```
 
 Then a **causal mask** is applied using a lower triangular matrix to prevent looking at future tokens:
+
 ```python
 tril = torch.tril(torch.ones(T, T))
 wei = wei.masked_fill(tril == 0, float('-inf'))
@@ -76,6 +79,7 @@ The **multi-head** version runs this in parallel with multiple heads, then conca
 ### 3. MLP/FeedForward Layer
 
 This is a simple but crucial two-layer network applied to each token independently:
+
 ```python
 class FeedForward(nn.Module):
     def __init__(self, n_embd, dropout):
@@ -93,6 +97,7 @@ The hidden dimension is typically **4 times** the embedding dimension (`4 * n_em
 ### 4. The Transformer Block Structure
 
 Each block follows a specific pattern with residual connections:
+
 ```python
 def forward(self, x):
     # Self-attention with pre-normalization
@@ -106,8 +111,10 @@ def forward(self, x):
 
 This is where many people get confused. The key insight is that **the model predicts all positions simultaneously during training**.
 
-### During Training:
+### During Training
+
 Given input sequence `[a, b, c]`, the model:
+
 1. Processes all tokens in parallel
 2. Due to **causal masking**, position 1 sees only token 1, position 2 sees tokens 1-2, position 3 sees tokens 1-3
 3. The `lm_head` (a linear layer) is applied to **every position** to predict the next token at that position
@@ -116,8 +123,10 @@ Given input sequence `[a, b, c]`, the model:
 
 This is why training is efficient - the model learns from every position in one forward pass, not one token at a time.
 
-### During Generation/Inference:
+### During Generation/Inference
+
 When generating new text, the model is called repeatedly:
+
 ```python
 for _ in range(max_new_tokens):
     # Crop to last block_size tokens
@@ -144,6 +153,7 @@ The layers are constructed hierarchically:
 3. **Top layer**: `GPT` class that stacks multiple `Block` instances
 
 The model configuration controls everything:
+
 ```python
 class GPTConfig:
     block_size = 1024    # Max sequence length

@@ -22,6 +22,7 @@ Yes, your thinking is strategically sound. Let me break it down comprehensively.
 ## ✅ Why a Career-Aligned Group is Powerful
 
 ### 1. Knowledge Sharing in a Trusted Circle
+
 Networking social groups create a community where members can interact regularly, and the relationships formed are not just about exchanging business cards — they foster genuine relationships that can lead to mentorship, partnerships, and lifelong friendships.
 
 When the group is tightly aligned by career field and background, this effect is amplified because everyone speaks the same professional language.
@@ -29,6 +30,7 @@ When the group is tightly aligned by career field and background, this effect is
 ---
 
 ### 2. The "Homophily" Effect — Why Similar Background Matters
+
 Research on WeChat groups specifically supports your instinct to select people carefully. Users on WeChat tend to establish connections with those who share similar backgrounds or interests, and this homophily effect drives higher engagement and participation within groups.
 
 In other words, **similar background = higher quality conversation and deeper trust**.
@@ -36,9 +38,11 @@ In other words, **similar background = higher quality conversation and deeper tr
 ---
 
 ### 3. Trust Enables Deeper Mutual Help
+
 By building and maintaining relationships within professional groups, you can foster trust, loyalty, and collaboration.
 
 Trust is the foundation. Without it, people hold back. With it, members share:
+
 - Unpublished job openings
 - Real industry insights
 - Honest feedback
@@ -49,6 +53,7 @@ A hiring manager in the group might announce a job opening to members before pos
 ---
 
 ### 4. It Takes Time — And That's Normal
+
 Networking social groups are not just a short-term fix but a long-term investment in your personal and professional growth. Patience and authenticity are essential. The benefits multiply as you nurture your connections and contribute to the community.
 
 Your acknowledgment that **"it needs time"** is exactly right. Rushing trust destroys it.
@@ -56,9 +61,11 @@ Your acknowledgment that **"it needs time"** is exactly right. Rushing trust des
 ---
 
 ### 5. Joining Other People's Groups as a Known Member
+
 Your second strategy — joining other groups where you already know many people — is equally smart. WeChat Groups are one of the social platform's most important functions. Getting into valuable WeChat Groups within or outside your industry helps you get acquainted with industry elites and thought leaders, expand your contacts, and gain valuable industry data.
 
 When you are already known in a group:
+
 - People listen to you more
 - You can speak with authority and comfort
 - Your personal brand grows naturally
@@ -92,6 +99,7 @@ As an active community member, you can grow your personal brand, connect with li
 ## Summary
 
 Your overall framework is well-reasoned:
+
 - ✅ Build a curated, trust-based career group
 - ✅ Select members with aligned backgrounds
 - ✅ Accept that trust and value take time to develop

@@ -36,6 +36,7 @@ ids = enc.encode_ordinary(text)  # CPU only
 ```
 
 So instead of burning $2/hr GPU time on:
+
 - `wget` downloading 80GB of text
 - `prepare.py` tokenizing 30B tokens (takes hours)
 - Waiting for data upload

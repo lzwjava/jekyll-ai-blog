@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Is this mindset reasonable and healthy?
+
 Yes, it is not only reasonable—it’s one of the most powerful and psychologically mature skills an adult can develop.
 
 - It’s basically the core of what therapists call “detachment,” “radical acceptance,” or “reframing.”
@@ -20,12 +21,15 @@ Yes, it is not only reasonable—it’s one of the most powerful and psychologic
 So yes—100 % reasonable and evidence-based.
 
 ### When does it become unhealthy?
+
 Only if you use it to:
+
 - Blindly dismiss every criticism (even valid ones from good people).
 - Turn into a cold person who treats everyone like a “street thug.”
 Healthy version: you still listen to feedback from people you respect; you just stop listening to feedback from people you’ve accurately judged as malicious, incompetent, or irrelevant.
 
 ### How to actually practice and internalize this “mental demotion” skill
+
 Here are concrete, repeatable steps that work for most people:
 
 1. **Make the judgment explicit (write it down)**
@@ -58,6 +62,7 @@ Here are concrete, repeatable steps that work for most people:
    Once you’re good at neutrality, add a tiny bit of pity instead of anger: “Poor guy, he’s stuck being like that every day.” Pity is the final killer of resentment—it confirms you’re above, not beside.
 
 ### How long does it take?
+
 - For one specific person you see every day: 1–4 weeks of conscious practice.
 - For online strangers: usually 1–3 incidents once you have the habit.
 - For the general pattern (never being hurt by disrespect again): 3–12 months of consistent practice across many people.

@@ -15,6 +15,7 @@ This is the help output from Python 3.14, showing all the command-line options a
 ## Common Usage Patterns
 
 **Running Python:**
+
 - `python file.py` - Execute a script
 - `python -m module` - Run a module as a script (like `python -m pip install package`)
 - `python -c "code"` - Execute a single command
@@ -23,6 +24,7 @@ This is the help output from Python 3.14, showing all the command-line options a
 ## Key Options You'll Actually Use
 
 **`-m mod`** - Run a library module as a script. This is how you run tools like pip, venv, or http.server:
+
 ```bash
 python -m pip install requests
 python -m venv myenv
@@ -32,6 +34,7 @@ python -m http.server 8000
 **`-i`** - Inspect interactively after running a script. Great for debugging - your script runs, then drops you into an interactive prompt with all variables still available.
 
 **`-c cmd`** - Execute a one-liner:
+
 ```bash
 python -c "print('Hello')"
 ```

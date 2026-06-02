@@ -15,6 +15,7 @@ I'll fetch information about the Hong Kong Olympiad in Informatics for you.The H
 The organization runs several competitions and initiatives:
 
 **Main Competitions:**
+
 - **HKOI** — The flagship secondary school programming competition with heat and final events
 - **HKGOI** — Hong Kong Girls' Olympiad in Informatics, designed to encourage female participation in programming
 - **HKPSOI** — Hong Kong Primary Schools Olympiad in Informatics for younger students

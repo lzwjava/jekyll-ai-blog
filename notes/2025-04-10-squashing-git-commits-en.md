@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Understanding the Goal
+
 Git doesn't have a built-in "squash by author" command, but you can achieve this using interactive rebase to manually group and squash commits. The idea is to take the last 10 commits (assuming they involve 3 distinct authors) and merge each author's commits into a single commit per author, resulting in 3 commits total.
 
 This assumes:
+
 - You're on the branch with those commits (e.g., main or feature branch).
 - The commits are linear (no merges).
 - You know the authors in advance.
@@ -21,15 +23,19 @@ This assumes:
 If commits are non-linear or complex, this may require careful handling to avoid conflicts.
 
 ### Steps to Squash Commits by Author
+
 1. **Check the Latest 10 Commits**
    Run `git log --oneline -10` to see the last 10 commits, including their hashes, authors, and messages. Identify the authors (e.g., via `git log --format="%an" -10 | sort | uniq` to list unique authors).
 
 2. **Start an Interactive Rebase**
    Identify the commit before the 10th one. If your latest commit is at HEAD, and there are 10 commits, the base is `HEAD~10`. Run:
+
    ```
    git rebase -i HEAD~10
    ```
+
    This opens an editor (vim by default) with a list of the last 10 commits. It looks like this:
+
    ```
    pick abc123 First commit by Author A
    pick def456 Second commit by Author A
@@ -37,6 +43,7 @@ If commits are non-linear or complex, this may require careful handling to avoid
    pick jkl012 Commit by Author C
    ... (more commits)
    ```
+
    - Each line starts with `pick`.
 
 3. **Mark Commits to Squash by Author**
@@ -44,6 +51,7 @@ If commits are non-linear or complex, this may require careful handling to avoid
    - One "keep" commit per author (pick the earliest or most relevant one as the base).
    - Change the rest by that author to `s` to squash them into it.
    Example (for 3 authors):
+
    ```
    pick abc123 First commit by Author A (keep this one)
    s    def456 Second commit by Author A (squash into above)
@@ -51,6 +59,7 @@ If commits are non-linear or complex, this may require careful handling to avoid
    pick jkl012 First commit by Author C (keep this one)
    s    mno345 Second commit by Author C (squash into above)
    ```
+
    Save and exit the editor. This starts the rebase.
 
 4. **Edit Commit Messages During Rebase**
@@ -64,6 +73,7 @@ If commits are non-linear or complex, this may require careful handling to avoid
    **Warning:** Only force-push if you're sure the old commits aren't needed elsewhere, as this rewrites history.
 
 ### Tips and Caveats
+
 - If authors have many commits, group them efficiently in the rebase list (all of Author A's together, etc.).
 - For automation, tools like `git-interactive-rebase-tool` or scripts can help, but manual rebase is straightforward.
 - If you need to filter by exact author, use `git log --author="Author Name"` beforehand to confirm.

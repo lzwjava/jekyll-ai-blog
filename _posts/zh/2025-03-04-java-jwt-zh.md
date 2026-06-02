@@ -101,23 +101,28 @@ public class JwtExtractor {
 ## 代码说明
 
 ### 1. **导入包**
+
 - `SignedJWT`：表示已签名的 JWT，提供解析和处理方法
 - `JWTClaimsSet`：包含 JWT 有效负载中的声明
 - `ParseException`：当 JWT 字符串格式错误或无法解析时抛出
 - `Date`：用于表示过期时间和签发时间
 
 ### 2. **解析 JWT**
+
 - `SignedJWT.parse(jwtString)` 方法接收 JWT 字符串（如 `header.payload.signature`）并返回 `SignedJWT` 对象。如果 JWT 无效，会抛出 `ParseException`
 
 ### 3. **访问声明**
+
 - `signedJWT.getJWTClaimsSet()` 获取声明集，其中包含 JWT 有效负载中的所有声明
 
 ### 4. **提取特定声明**
+
 - **`getExpirationTime()`**：将 `exp` 声明作为 `Date` 对象返回（如果不存在则返回 `null`），表示令牌的过期时间
 - **`getIssueTime()`**：将 `iat` 声明作为 `Date` 对象返回（如果不存在则返回 `null`），表示令牌的签发时间
 - **`getSubject()`**：将 `sub` 声明作为 `String` 返回（如果不存在则返回 `null`），这是其他标准声明的示例。您也可以使用 `getClaim("key")` 以 `Object` 形式检索自定义声明
 
 ### 5. **错误处理**
+
 - try-catch 块确保当 JWT 格式错误或无效时，程序能通过打印错误信息优雅地处理异常
 
 ---
@@ -134,6 +139,7 @@ public class JwtExtractor {
 ## 示例输出
 
 对于上述示例 JWT 字符串：
+
 ```
 过期时间: Wed Jan 17 19:52:02 UTC 2018
 签发时间: Wed Jan 17 19:50:22 UTC 2018

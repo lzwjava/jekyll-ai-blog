@@ -18,7 +18,8 @@ Kapil Gupta (often referred to as Kapil Gupta MD) is an American author, philoso
 
 He presents himself as a private advisor to a very select group of high-profile individuals, including CEOs, professional athletes, artists, celebrities, and what he describes as "kings and queens." His work draws heavily from Eastern spiritual traditions (particularly ideas resembling Advaita Vedanta and Zen-like directness), but he rejects conventional self-help, prescriptions, methodologies, motivational content, and step-by-step advice.
 
-### Key aspects of his public persona and work:
+### Key aspects of his public persona and work
+
 - **Books** — He has written several titles that are popular in certain high-performance and truth-seeking circles, including:
   - *Atmamun: The Path To Achieving The Bliss Of The Himalayan Swamis. And The Freedom Of A Living God.*
   - *Direct Truth: Uncompromising, non-prescriptive Truths to the enduring questions of life* (written in a Q&A format)

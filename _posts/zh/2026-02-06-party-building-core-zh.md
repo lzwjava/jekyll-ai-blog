@@ -31,6 +31,7 @@ type: note
 ## Why B (Institutional Building) is Correct
 
 Institutional building 被刻画为具有：
+
 - **Fundamental nature** (根本性)
 - **Comprehensive nature** (全局性)
 - **Stability** (稳定性)

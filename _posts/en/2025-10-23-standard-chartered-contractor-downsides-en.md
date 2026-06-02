@@ -29,6 +29,7 @@ Based on employee reviews from sites like Glassdoor and Indeed, as well as gener
 Overall, SCB scores around 3.8/5 on Glassdoor for contractors, with job security and culture dragging ratings down. If you're considering a role, check recent reviews for your specific location—things like remote access are a bright spot in some US-based gigs.
 
 #### References
+
 - [Standard Chartered Bank Contractor Reviews on Glassdoor](https://www.glassdoor.com/Reviews/Standard-Chartered-Bank-Contractor-Reviews-EI_IE226853.0,23_KO24,34.htm)
 - [Contractor Reviews on Indeed](https://www.indeed.com/cmp/Standard-Chartered-Bank/reviews?fjobtitle=Contractor)
 - [Quora Discussion on SCB Contractor Experience](https://www.quora.com/What-is-it-like-to-work-for-Standard-Chartered-Bank-under-the-payroll-of-Accion-Labs-as-a-Java-developer-with-3-years-of-experience)

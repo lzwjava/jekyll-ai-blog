@@ -26,6 +26,7 @@ type: note
 如果你为每个区域部署单独的实例（例如通过环境变量或应用属性），这种方法很理想。Bean 根据激活的 Profile 条件加载。
 
 #### 步骤 1：定义接口和实现
+
 为区域特定逻辑创建接口：
 
 ```java
@@ -69,6 +70,7 @@ public class TwCoreService implements CoreService {
 ```
 
 #### 步骤 2：在 CoreController 中自动装配
+
 ```java
 @RestController
 public class CoreController {
@@ -87,6 +89,7 @@ public class CoreController {
 ```
 
 #### 步骤 3：激活 Profiles
+
 - 在 `application.properties` 或通过命令行：
   - 使用 `--spring.profiles.active=sg` 运行以激活新加坡 Bean。
   - 这确保只有 `SgCoreService` Bean 被创建和自动装配。
@@ -99,6 +102,7 @@ public class CoreController {
 对于单个应用动态处理多个区域的情况（例如基于 HTTP 请求头部如 `X-Region: sg`），使用 Bean 的 Map。Spring 可以将所有实现自动装配到 Map<String, CoreService> 中，其中键是 Bean 名称。
 
 #### 步骤 1：定义接口和实现
+
 同上，但无需 `@Profile`：
 
 ```java
@@ -135,6 +139,7 @@ public class TwCoreService implements CoreService {
 ```
 
 #### 步骤 2：在 CoreController 中自动装配 Map
+
 ```java
 @RestController
 public class CoreController {
@@ -161,6 +166,7 @@ public class CoreController {
 - 对于选择：使用请求头部/参数来确定区域。这使得每个请求都是动态的。
 
 #### 可选：使用 @Qualifier 进行特定注入
+
 如果你想手动注入特定的 Bean：
 
 ```java
@@ -173,9 +179,11 @@ public class CoreController {
     // ... 其他类似
 }
 ```
+
 但这不动态；对于运行时切换，请使用 Map。
 
 #### 步骤 3：配置和最佳实践
+
 - 在你的 Spring Boot 主类中：`@SpringBootApplication` 足够；Spring 会扫描 `@Service` Bean。
 - 处理默认值：如果没有区域匹配，添加回退服务。
 - 对于更复杂的条件，在 Bean 上使用 `@ConditionalOnExpression` 或自定义 `@Conditional` 注解。
@@ -183,6 +191,7 @@ public class CoreController {
 - 测试：使用 `@SpringBootTest` 和模拟请求来测试不同区域。
 
 ### 选择哪种方法？
+
 - 如果区域通过部署/环境分开（例如 SG/HK/TW 有不同的服务器），使用 **Profiles**。
 - 对于在运行时处理所有区域的统一应用（对微服务更灵活），使用 **Map/策略**。
 

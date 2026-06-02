@@ -151,7 +151,8 @@ public class BitmapUtils {
 }
 ```
 
-##### 内容概述：
+##### 内容概述
+
 - **灰度转换**：
   - `convertGreyImg`：使用像素数组批量处理位图以转换为灰度。
   - `toGreyImg`：逐像素处理可变副本，提供一种替代方法。
@@ -219,6 +220,7 @@ public class Crop {
 ```
 
 ##### 这里发生了什么？
+
 - `startPhotoCrop`：启动系统裁剪活动，指定 `Uri`、纵横比（使用 GCD 简化）和输出路径。假设 `App.drawWidth` 和 `App.drawHeight` 在其他地方定义（例如在基础 `App` 类中）。
 - `gcd`：递归方法计算最大公约数，确保纵横比是最简形式。
 
@@ -268,6 +270,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 **注意**：
+
 - 确保在 `AndroidManifest.xml` 中正确设置存储权限，并在运行时检查文件操作。
 - `App` 类（在 `Crop` 中引用）应定义 `drawWidth` 和 `drawHeight`。
 

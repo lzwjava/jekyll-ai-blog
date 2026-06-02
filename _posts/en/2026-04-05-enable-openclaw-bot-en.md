@@ -22,9 +22,11 @@ You need to do this via the **command line on your Nextcloud server** (or Docker
 ## Step 1: Get Your Conversation Token
 
 Open the Talk conversation you want the bot in. Look at the URL:
+
 ```
 http://192.168.1.36:8080/apps/spreed/#/XXXXXXXX
 ```
+
 That `XXXXXXXX` at the end is your **room token**.
 
 ---
@@ -47,6 +49,7 @@ The `talk:bot:setup <bot-id> <token>` command enables a bot in a specific conver
 ## Useful OCC Commands to Know
 
 Here are the key bot management commands:
+
 - `talk:bot:list` — List all installed bots
 - `talk:bot:remove <bot-id>` — Remove a bot from specific conversations
 - `talk:bot:setup <bot-id> <token>` — Enable a bot in a conversation

@@ -26,9 +26,11 @@ type: note
 
   1. **检查哪个命令指向该 binary**（最确切的方法）：
      运行：
+
      ```
      which codex
      ```
+
      - 如果结果类似于：
        `/opt/homebrew/bin/codex` 或 `/usr/local/bin/codex` (Homebrew 路径)
        → **您正在使用 Homebrew cask 版本**。
@@ -38,27 +40,34 @@ type: note
        → **您正在使用 npm 版本**。
 
   2. **检查 Homebrew cask 状态**：
+
      ```
      brew list --cask | grep codex
      ```
+
      - 如果显示 `codex` → 通过 Homebrew cask 安装。
 
      或者运行：
+
      ```
      brew info --cask codex
      ```
+
      如果已安装，您将看到包括版本和 "Installed" 状态在内的详细信息。
 
   3. **检查 npm 全局包**：
+
      ```
      npm list -g @openai/codex
      ```
+
      - 如果显示该 package（带有版本号）→ 通过 npm 安装。
      - 如果显示 "empty" 或未找到 → 未通过 npm 安装。
 
 在实际操作中，大多数在 macOS 上能看到清晰的 `codex` 命令且没有路径问题，同时在使用 Homebrew 的用户，往往倾向于通过 `brew install --cask codex` 安装，尤其是该项目官方将其推荐为两个同等选项之一。
 
 您的版本 (0.36.0) 似乎是 2025 年末或 2026 年初的旧版本 —— 建议考虑更新以获取最新的 features 和 models：
+
 - 对于 Homebrew：`brew upgrade --cask codex`
 - 对于 npm：`npm install -g @openai/codex@latest`
 

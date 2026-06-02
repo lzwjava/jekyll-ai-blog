@@ -15,7 +15,8 @@ Answer:
 
 The correct answer is **B: 2.048 Mbps**.
 
-### Explanation:
+### Explanation
+
 The **E1 carrier** is a digital transmission format widely used in Europe and other parts of the world (excluding North America and Japan, which use the T1 standard). It was standardized by the **International Telecommunication Union (ITU)**.
 
 - **Data Rate**: The total data rate of an E1 line is **2.048 Mbps**.

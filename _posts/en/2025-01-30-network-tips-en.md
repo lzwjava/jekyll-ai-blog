@@ -13,7 +13,7 @@ Useful, Recommend:
 
 - Prefer using a 5G WiFi signal or an Ethernet cable.
 
-- Use the Speedtest app or visit https://www.speedtest.net to test your connection regularly.
+- Use the Speedtest app or visit <https://www.speedtest.net> to test your connection regularly.
 
 - Use traceroute, ping, or dig/nslookup for network diagnostics.
 

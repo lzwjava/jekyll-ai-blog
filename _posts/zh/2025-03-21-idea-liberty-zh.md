@@ -11,6 +11,7 @@ type: note
 是的，IntelliJ IDEA 可以调试运行在 WebSphere Liberty 服务器上的应用程序。以下是具体方法和可用选项：
 
 ### IntelliJ IDEA 的 Liberty Tools 插件
+
 与 Eclipse 的 Liberty Tools 插件类似，IntelliJ IDEA 也有由 Open Liberty 项目（WebSphere Liberty 基于此开发）开发的 **Liberty Tools 插件**。该插件为 WebSphere Liberty 服务器提供集成支持，包括：
 
 - **以开发模式启动服务器**（Liberty 开发模式），支持代码变更的自动重新部署和集成调试
@@ -19,6 +20,7 @@ type: note
 该插件提供的调试体验与 Eclipse 的 Liberty Tools 插件相当。您可以从 IntelliJ IDEA 插件市场安装此插件。
 
 ### 替代方案：远程调试
+
 如果您不想使用插件或需要更手动的方法，可以通过**远程调试**进行调试：
 
 1. **以调试模式启动 WebSphere Liberty**：
@@ -31,6 +33,7 @@ type: note
 此方法适用于所有 Java 应用服务器（包括 WebSphere Liberty），且无需特定插件。
 
 ### 总结
+
 - **可以**使用 IntelliJ IDEA 调试 WebSphere Liberty 服务器上的应用程序
 - **是否有 Liberty Tools 插件？** 有，提供与 Eclipse 插件类似的集成调试和服务器管理功能
 - **其他选择？** 可使用远程调试作为替代方案，这是标准的无插件调试方式

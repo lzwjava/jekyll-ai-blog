@@ -17,6 +17,7 @@ In his YouTube video ["Let's build GPT: from scratch, in code, spelled out."](ht
 Here's a breakdown of his explanations for **GELU** and **tanh** specifically, drawn directly from that section. (He doesn't dwell heavily on tanh alone but uses it as a foil to highlight GELU's advantages.)
 
 #### GELU (Gaussian Error Linear Unit)
+
 Karpathy describes GELU as the activation function powering the non-linearity in GPT-2's MLP (between two linear layers). He stresses its role in ensuring smooth, reliable training in large language models like GPT-2 and BERT.
 
 - **Mathematical Definition**:
@@ -33,6 +34,7 @@ Karpathy describes GELU as the activation function powering the non-linearity in
 He implements it simply in code as part of the MLP forward pass, showing how it processes each token's pooled attention output independently.
 
 #### tanh (Hyperbolic Tangent)
+
 Karpathy doesn't use tanh in the GPT-2 build but references it as an older, flawed alternative to illustrate why modern activations like GELU win out. He frames it as a classic example of what *not* to rely on in deep nets.
 
 - **Mathematical Definition**:
@@ -45,6 +47,7 @@ Karpathy doesn't use tanh in the GPT-2 build but references it as an older, flaw
   - **Gradient Risk**: High risk of vanishing gradients for large |x|, with outputs bounded to (-1, 1).
 
 #### Quick Comparison (as Karpathy Frames It)
+
 Karpathy contrasts these in the video to justify GELU:
 
 | Activation | Output Range | Key Strength | Main Weakness | Used in GPT-2? |

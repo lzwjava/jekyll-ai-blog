@@ -25,6 +25,7 @@ Key elements of Skype's original P2P architecture included:
 - **Login servers, update servers, and buddy-list servers**: A small set of centralized servers handled initial authentication, software updates, and some buddy list synchronization, but most operations were decentralized.
 
 This hybrid model allowed:
+
 - Direct media transfer between peers for low latency and reduced bandwidth costs on Skype's side.
 - Efficient traversal of NATs and firewalls (better than many SIP-based systems at the time).
 - Scalability without massive server infrastructure.
@@ -32,6 +33,7 @@ This hybrid model allowed:
 The architecture was proprietary and somewhat opaque (reverse-engineered in early papers like the 2004 analysis of the Skype protocol).
 
 After Microsoft acquired Skype in 2011:
+
 - The P2P system was gradually phased out for reliability, scalability, easier management, and integration reasons.
 - In 2012, user-hosted supernodes were replaced with Microsoft-hosted ones.
 - By around 2017, Skype fully transitioned to a centralized, cloud-based architecture on Microsoft Azure (server-relay model for calls, similar to most modern apps).

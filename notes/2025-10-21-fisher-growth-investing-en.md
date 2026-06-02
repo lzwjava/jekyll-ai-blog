@@ -17,6 +17,7 @@ Philip Arthur Fisher (1907–2004) was a pioneering American investor and author
 Warren Buffett has repeatedly credited Fisher as a major influence, calling his book "one of the great investment books of all time." Buffett blended Fisher's growth-oriented approach with Benjamin Graham's value principles, shifting toward "wonderful companies at fair prices" rather than just "fair companies at wonderful prices." Buffett even recommended Fisher's work in his shareholder letters and held stocks like Motorola (a Fisher favorite) for decades.
 
 #### Core Investment Ideas
+
 Fisher's philosophy centered on identifying "outstanding" companies with sustainable growth potential, holding them through market volatility, and avoiding over-diversification. He believed most investors fail by chasing short-term trends or spreading bets too thin. Key tenets include:
 
 - **Focus on Quality Over Quantity**: Invest in a handful (ideally 8–12) of truly superior businesses rather than dozens of mediocre ones. Diversification is for those who don't know what they're doing.
@@ -44,6 +45,7 @@ His famous **15 Points Checklist** from *Common Stocks and Uncommon Profits* pro
 (Note: Fisher originally listed 15, but points 13–15 emphasize avoiding shareholder dilution, admitting mistakes, and ensuring integrity.)
 
 #### Key Quotes from Phil Fisher
+
 Fisher's writing is pithy and timeless, often warning against common pitfalls like impatience and herd mentality. Here are 10 standout ones:
 
 - "The stock market is filled with individuals who know the price of everything, but the value of nothing."
@@ -60,6 +62,7 @@ Fisher's writing is pithy and timeless, often warning against common pitfalls li
 These ideas and words continue to shape investors like Buffett, emphasizing discipline, curiosity, and conviction over speculation.
 
 #### References
+
 - [Growth Investing with Philip Fisher](https://www.compoundingquality.net/p/how-philip-fisher-selects-the-best)
 - [19 Best Philip Fisher Quotes On Investing](https://www.investopaper.com/news/best-philip-fischer-quotes/)
 - [16 Philip Fisher Quotes on Investing](https://www.dividendpower.org/philip-fisher-quotes/)

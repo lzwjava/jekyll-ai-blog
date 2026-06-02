@@ -49,6 +49,7 @@ Here are several engineering ideas in banking that are technically sound but rem
 These opinions tend to be career-limiting inside large banks but are quietly held by many seasoned engineers who have watched multiple “transformation” initiatives crash and burn.
 
 References:
+
 - [ThoughtWorks Technology Radar – Monoliths vs Microservices debates](https://www.thoughtworks.com/radar/techniques/monoliths-vs-microservices)
 - [Event Sourcing in Banking – Greg Young presentations](https://www.youtube.com/watch?v=LDW0QWie21s)
 - [The COBOL is not the problem rant – multiple industry blogs circa 2020-2024]

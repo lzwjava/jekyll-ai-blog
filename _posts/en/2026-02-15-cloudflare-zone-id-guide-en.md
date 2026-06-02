@@ -18,6 +18,7 @@ In Cloudflare, a **Zone ID** is a unique identifier (a long alphanumeric string)
 A **zone** in Cloudflare refers to a domain (or sometimes a subdomain) that you have added to Cloudflare for management. This includes services like DNS hosting, caching, security features (WAF, DDoS protection), performance optimizations, Workers, and more. In simple terms, each domain you connect to Cloudflare becomes one zone.
 
 The Zone ID serves as the primary way to reference a specific domain/zone when using:
+
 - The Cloudflare API (most common use case)
 - API tokens with zone-level permissions
 - Cloudflare Workers routes or bindings (when targeting a specific domain)
@@ -27,7 +28,8 @@ The Zone ID serves as the primary way to reference a specific domain/zone when u
 It is **not sensitive information** — unlike API keys or tokens, the Zone ID (and Account ID) can be safely shared publicly without compromising security, as they only identify resources and do not grant any access on their own.
 
 **How to find your Zone ID:**
-1. Log in to the Cloudflare dashboard at https://dash.cloudflare.com
+
+1. Log in to the Cloudflare dashboard at <https://dash.cloudflare.com>
 2. Select the domain/zone you want from the list
 3. Go to the **Overview** tab for that domain
 4. Scroll down to the right-hand sidebar or bottom section labeled **API**

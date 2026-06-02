@@ -17,6 +17,7 @@ Answer:
 这是一份为初次访问 Australia 的游客设计的切实可行且受欢迎的 **15 天行程方案**。它侧重于该国最具代表性的亮点：充满活力的城市、**Great Barrier Reef**、Red Centre (Uluru) 以及多样的海岸与 Outback 风光。该计划尽量减少了时差影响和过多的国内航班（通常需要 4–5 趟内部航班），同时涵盖了大多数人想要体验的“四大核心”场景。
 
 **假设前提**：
+
 - 您是初次访问。
 - 以情侣或小团体形式旅行（非背包客预算或携带幼儿的家庭）。
 - 中等预算（舒​​适的 4 星级酒店，参加部分导览游）。
@@ -97,6 +98,7 @@ Queen Victoria Market、NGV (National Gallery)、Royal Botanic Gardens、Degrave
 | 15   | 离境                   | —                                   | —     |
 
 ### 提示
+
 - 尽早预订国内航班（Qantas、Virgin Australia、Jetstar）。
 - 大堡礁和 Uluru 游玩容易订满 → 建议提前 3–6 个月预约。
 - 建议购买涵盖冒险活动的旅行保险。

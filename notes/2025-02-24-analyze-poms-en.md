@@ -15,6 +15,7 @@ To address your query, I'll provide a solution for generating a dependency graph
 ## Solution Overview
 
 Here’s what the script will do:
+
 1. **Recursively Collect `pom.xml` Files**: Traverse the specified root directory to find all `pom.xml` files, regardless of their location or structure.
 2. **Parse Module Information**: Extract `groupId`, `artifactId`, and dependencies from each `pom.xml`.
 3. **Handle `groupId` Inheritance**: If a `pom.xml` doesn’t specify a `groupId`, inherit it from a `<parent>` declaration, if present.
@@ -194,13 +195,16 @@ if __name__ == '__main__':
 ## How It Works
 
 ### 1. **Command-Line Input**
+
 - Takes a single argument: `<root_directory>`, the starting point for the recursive search.
 - Validates that it’s a directory.
 
 ### 2. **Finding `pom.xml` Files**
+
 - Uses `os.walk` to recursively traverse the directory tree and collect all `pom.xml` files into a list.
 
 ### 3. **Parsing Module Information**
+
 - **Group ID (`groupId`)**:
   - Extracted from each `pom.xml`.
   - If not present, looks for a `<parent>` section and resolves the `groupId` from the referenced parent POM using the `relativePath` (or defaults to the parent directory if omitted).
@@ -209,12 +213,14 @@ if __name__ == '__main__':
 - **Dependencies**: Extracts `(groupId, artifactId)` pairs from the `<dependencies>` section.
 
 ### 4. **Dependency Analysis**
+
 - Builds a map of `(groupId, artifactId)` to `pom_path` for all modules.
 - For each `pom.xml`, checks its dependencies against the module map to find intra-project dependencies.
 - Excludes self-dependencies (where a module depends on itself).
 - Records dependencies as `(importer_artifactId, imported_artifactId)` pairs.
 
 ### 5. **DOT Output**
+
 - Outputs a directed graph in DOT format, using `artifactId` as node labels for simplicity.
 
 ---

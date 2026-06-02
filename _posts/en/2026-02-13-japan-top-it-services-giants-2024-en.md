@@ -39,6 +39,7 @@ Here are the leading ones based on market share, revenue in Japan, and prominenc
    - Active in manufacturing, finance, and large enterprise projects.
 
 Other notable mentions:
+
 - **Nomura Research Institute (NRI)** — Highly specialized in **financial services** and banking platforms.
 - **SCSK** or **TIS** — Mid-tier but strong in outsourcing and system integration.
 

@@ -13,7 +13,9 @@ This batch script is used to launch the SQuirreL SQL Client, a Java-based databa
 ---
 
 ### **Overview**
+
 The script is designed to:
+
 1. Configure the Java environment to run SQuirreL SQL Client.
 2. Verify the Java version compatibility (requires Java 1.6 or 1.7).
 3. Check for software updates and apply them if available.
@@ -27,22 +29,26 @@ The script is written for Windows (using the `.bat` extension) and uses the Wind
 ### **Line-by-Line Explanation**
 
 #### **1. `@echo off`**
+
 - **Purpose**: Disables the echoing of commands to the console, making the script's output cleaner by showing only the intended output (e.g., error messages or specific `echo` statements).
 - **Effect**: Commands executed in the script are not displayed unless explicitly printed using `echo`.
 
 ---
 
 #### **2. `@rem IZPACK_JAVA is filtered in by the IzPack installer when this script is installed`**
+
 - **Purpose**: A comment (`@rem`) indicating that the `IZPACK_JAVA` variable is set by the IzPack installer during installation.
 - **Context**: IzPack is a tool used to create installers for Java applications. It dynamically sets the `JAVA_HOME` environment variable in the script to point to the Java installation used during setup.
 
 #### **3. `set IZPACK_JAVA=%JAVA_HOME`**
+
 - **Purpose**: Assigns the value of the `JAVA_HOME` environment variable (set by IzPack) to the `IZPACK_JAVA` variable.
 - **Explanation**: This ensures the script knows where the Java installation is located. `JAVA_HOME` typically points to the root directory of a Java Development Kit (JDK) or Java Runtime Environment (JRE).
 
 ---
 
 #### **4. Java Detection Logic**
+
 ```bat
 @rem We detect the java executable to use according to the following algorithm:
 @rem 1. If the one used by the IzPack installer is available then use that; otherwise
@@ -53,6 +59,7 @@ if exist "%IZPACK_JAVA%\bin\javaw.exe" (
   set LOCAL_JAVA=javaw.exe
 )
 ```
+
 - **Purpose**: Determines which Java executable to use for running SQuirreL SQL.
 - **Logic**:
   1. **Check for IzPack Java**: The script checks if `javaw.exe` exists in the `bin` directory of the Java installation specified by `IZPACK_JAVA` (i.e., `%IZPACK_JAVA%\bin\javaw.exe`).
@@ -62,8 +69,10 @@ if exist "%IZPACK_JAVA%\bin\javaw.exe" (
 - **Why `javaw.exe`?**: Using `javaw.exe` ensures the application runs without a persistent command window, providing a cleaner user experience.
 
 #### **5. `echo Using java: %LOCAL_JAVA%`**
+
 - **Purpose**: Prints the path of the Java executable being used to the console for debugging or informational purposes.
 - **Example Output**: If `LOCAL_JAVA` is `C:\Program Files\Java\jre1.6.0_45\bin\javaw.exe`, it will display:
+
   ```
   Using java: C:\Program Files\Java\jre1.6.0_45\bin\javaw.exe
   ```
@@ -71,6 +80,7 @@ if exist "%IZPACK_JAVA%\bin\javaw.exe" (
 ---
 
 #### **6. Determining the SQuirreL SQL Home Directory**
+
 ```bat
 set basedir=%~f0
 :strip
@@ -79,6 +89,7 @@ set basedir=%basedir:~0,-1%
 if NOT "%removed%"=="\" goto strip
 set SQUIRREL_SQL_HOME=%basedir%
 ```
+
 - **Purpose**: Determines the directory where SQuirreL SQL is installed (`SQUIRREL_SQL_HOME`).
 - **Explanation**:
   - `%~f0`: This expands to the full path of the batch script itself (e.g., `C:\Program Files\SQuirreL\squirrel-sql.bat`).
@@ -89,10 +100,12 @@ set SQUIRREL_SQL_HOME=%basedir%
 ---
 
 #### **7. Java Version Check**
+
 ```bat
 "%LOCAL_JAVA%" -cp "%SQUIRREL_SQL_HOME%\lib\versioncheck.jar" JavaVersionChecker 1.6 1.7
 if ErrorLevel 1 goto ExitForWrongJavaVersion
 ```
+
 - **Purpose**: Verifies that the Java version is compatible with SQuirreL SQL (requires Java 1.6 or 1.7).
 - **Explanation**:
   - The script runs the `JavaVersionChecker` class from `versioncheck.jar`, located in the `lib` directory of SQuirreL SQL.
@@ -105,6 +118,7 @@ if ErrorLevel 1 goto ExitForWrongJavaVersion
 ---
 
 #### **8. Software Update Check**
+
 ```bat
 if not exist "%SQUIRREL_SQL_HOME%\update\changeList.xml" goto launchsquirrel
 SET TMP_CP="%SQUIRREL_SQL_HOME%\update\downloads\core\squirrel-sql.jar"
@@ -115,6 +129,7 @@ SET UPDATE_CP=%TMP_CP%
 SET UPDATE_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\update-log4j.properties" --squirrel-home "%SQUIRREL_SQL_HOME%" %1 %2 %3 %4 %5 %6 %7 %8 %9
 "%LOCAL_JAVA%" -cp %UPDATE_CP% -Dlog4j.defaultInitOverride=true -Dprompt=true net.sourceforge.squirrel_sql.client.update.gui.installer.PreLaunchUpdateApplication %UPDATE_PARAMS%
 ```
+
 - **Purpose**: Checks for and applies software updates before launching the main application.
 - **Explanation**:
   1. **Check for Update Files**:
@@ -139,6 +154,7 @@ SET UPDATE_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\update-log4j.properties"
 ---
 
 #### **9. Launch SQuirreL SQL**
+
 ```bat
 :launchsquirrel
 @rem build SQuirreL's classpath
@@ -148,6 +164,7 @@ FOR /F %%I IN (%TEMP%\squirrel-lib.tmp) DO CALL "%SQUIRREL_SQL_HOME%\addpath.bat
 SET SQUIRREL_CP=%TMP_CP%
 echo "SQUIRREL_CP=%SQUIRREL_CP%"
 ```
+
 - **Purpose**: Builds the classpath for the main SQuirreL SQL application and prepares to launch it.
 - **Explanation**:
   1. **Initialize Classpath**:
@@ -163,9 +180,11 @@ echo "SQUIRREL_CP=%SQUIRREL_CP%"
 ---
 
 #### **10. Set Launch Parameters**
+
 ```bat
 SET TMP_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\log4j.properties" --squirrel-home "%SQUIRREL_SQL_HOME%" %1 %2 %3 %4 %5 %6 %7 %8 %9
 ```
+
 - **Purpose**: Defines the parameters to pass to the SQuirreL SQL application.
 - **Explanation**:
   - `--log-config-file`: Specifies the Log4j configuration file for the main application.
@@ -175,10 +194,12 @@ SET TMP_PARMS=--log-config-file "%SQUIRREL_SQL_HOME%\log4j.properties" --squirre
 ---
 
 #### **11. Launch the Application**
+
 ```bat
 @rem -Dsun.java2d.noddraw=true prevents performance problems on Win32 systems.
 start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true -cp %SQUIRREL_CP% -splash:"%SQUIRREL_SQL_HOME%/icons/splash.jpg" net.sourceforge.squirrel_sql.client.Main %TMP_PARMS%
 ```
+
 - **Purpose**: Launches the SQuirreL SQL Client application.
 - **Explanation**:
   - **`start "SQuirreL SQL Client" /B`**: Runs the command in a new process without opening a new console window (`/B` suppresses the window).
@@ -193,15 +214,18 @@ start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true
 ---
 
 #### **12. Exit for Wrong Java Version**
+
 ```bat
 :ExitForWrongJavaVersion
 ```
+
 - **Purpose**: A label used as an exit point if the Java version check fails.
 - **Explanation**: If the Java version is not 1.6 or 1.7, the script jumps here and terminates without launching the application.
 
 ---
 
 ### **Key Components and Concepts**
+
 1. **Classpath Construction**:
    - The script dynamically builds the classpath for both the update process (`UPDATE_CP`) and the main application (`SQUIRREL_CP`) by including `squirrel-sql.jar` and all `.jar` files in the `lib` or `update\downloads\core` directories.
    - The `addpath.bat` script (not shown) is assumed to append each file to the classpath variable.
@@ -221,6 +245,7 @@ start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true
 ---
 
 ### **Potential Issues and Considerations**
+
 1. **Java Version Restriction**:
    - The script only allows Java 1.6 or 1.7, which are outdated (released in 2006 and 2011, respectively). Modern systems may have newer Java versions, causing the script to fail unless an older JRE is installed.
    - **Workaround**: Users may need to install a compatible JRE or modify the script to support newer versions (if SQuirreL SQL is compatible).
@@ -240,7 +265,9 @@ start "SQuirreL SQL Client" /B "%LOCAL_JAVA%" -Xmx256m -Dsun.java2d.noddraw=true
 ---
 
 ### **Summary**
+
 This batch script is a launcher for the SQuirreL SQL Client, performing the following tasks:
+
 - Detects and configures the Java executable.
 - Verifies Java version compatibility (1.6 or 1.7).
 - Checks for and applies software updates if available.

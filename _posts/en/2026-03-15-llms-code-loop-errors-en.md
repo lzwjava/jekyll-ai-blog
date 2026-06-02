@@ -20,18 +20,22 @@ Yes, you've identified a very real and well-documented limitation. This is somet
 ## Why This Happens
 
 ### 1. Autoregressive Momentum
+
 LLMs generate tokens sequentially. Once a "direction" is established in the context, the model is statistically pulled to *continue* that direction. Each new token conditions the next — so a wrong assumption early on compounds forward, making it harder to escape.
 
 ### 2. In-Context Reinforcement
+
 The model sees its own previous attempts in the context window. If it tried Solution A three times, the context is now *full of Solution A reasoning* — which ironically makes Solution A feel even more "correct" to the model on the next attempt.
 
 ### 3. No Genuine Metacognition
+
 A human expert, when stuck, can **step outside the problem** and think:
 > "Wait, am I even solving the right problem?"
 
 LLMs simulate this, but don't truly do it. Their "reflection" is itself just more token prediction influenced by the same flawed context.
 
 ### 4. No Backtracking by Default
+
 Unlike tree-search algorithms (e.g., MCTS, A*), standard LLM inference is a **one-pass forward process**. There's no native mechanism to say "abandon this branch, go back to the fork."
 
 ---
@@ -39,6 +43,7 @@ Unlike tree-search algorithms (e.g., MCTS, A*), standard LLM inference is a **on
 ## The "Stubborn Person" Analogy Is Accurate
 
 Your analogy is sharp. It behaves like someone who:
+
 - Doubles down on their interpretation
 - Tries the same thing with minor variations
 - Gets *more confident* the deeper they go (more tokens = more "commitment")

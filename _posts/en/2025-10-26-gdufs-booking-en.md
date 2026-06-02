@@ -15,6 +15,7 @@ type: note
 The practical assessment (实践考核) for course 610201 Computer Application Technology (专科 level, now updated to code 510201) is a required computer-based exam (上机考试), typically course code **11325: Computer and Application Course Experiment (I)**. This is an on-machine test conducted in a computer lab. There is no individual "appointment" for a specific time slot like booking a doctor's visit—instead, you register during a fixed window, and the university assigns your lab seat and exam session (usually multiple sessions on the exam day). The exam is held on designated dates at GDUFS's Baiyun Campus (Guangzhou).
 
 **Important Notes:**
+
 - **Eligibility**: You must have passed at least **2 theory (pen-and-paper) courses** in the 610201 major before registering for this practical exam. Verify your passed courses in the Guangdong STHEE system.
 - **Exam Format**: Combines written test (if applicable) and on-machine operation. Duration is typically 2-3 hours per session. Bring ID; no late entry after start time.
 - **Fee**: 150 RMB per person (non-refundable; paid online during registration).
@@ -22,6 +23,7 @@ The practical assessment (实践考核) for course 610201 Computer Application T
 - **No Third-Party Help**: GDUFS does not partner with external agencies for registration or prep classes. Use only official channels to avoid scams.
 
 #### Step-by-Step Registration Process (General; Follow Official Notification for Exact Dates)
+
 1. **Check Official Notification**: Visit the GDUFS Continuing Education College website ([jxjy.gdufs.edu.cn](https://jxjy.gdufs.edu.cn/)). Go to "自考服务 > 自考办通知" (STHEE Services > Office Notifications). Look for the latest "实践考核课程报考通知" (Practical Assessment Registration Notice) for your semester (e.g., "2025年下半年" for second half). Download the attachment for course list, deadlines, and eligibility table. Confirm 11325 is offered (it's usually in the second half only).
 
 2. **Prepare Documents**:
@@ -49,14 +51,16 @@ The practical assessment (实践考核) for course 610201 Computer Application T
    - Arrive 30-60 minutes early at Baiyun Campus (address: No. 2 Baiyun North Avenue, Guangzhou). Follow entry rules (e.g., health code, no electronics in lab).
 
 #### Exam Preparation Tips
+
 - Review the syllabus/exam outline on the GDUFS site under "实践考核 > 考试大纲" (download for 11325).
 - Practice basic computer skills (e.g., Word, Excel, programming basics) as per the major plan.
 - If you miss registration, wait for the next semester—no walk-ins.
 - Results: Released ~1 month after exam; query on GDUFS/STHEE sites.
 
-If you're a new candidate or need help with overall STHEE enrollment, start with pre-registration on the provincial site. For urgent queries (e.g., seat check today), contact GDUFS STHEE Office: +86-20-36206168 or email jxjy@gdufs.edu.cn.
+If you're a new candidate or need help with overall STHEE enrollment, start with pre-registration on the provincial site. For urgent queries (e.g., seat check today), contact GDUFS STHEE Office: +86-20-36206168 or email <jxjy@gdufs.edu.cn>.
 
 **References**:
+
 - [GDUFS Practical Assessment Notifications](https://jxjy.gdufs.edu.cn/zkfw/zkbtz.htm)
 - [2025 Second-Half Seat Query Notice](https://jxjy.gdufs.edu.cn/info/1178/18846.htm)
 - [Guangdong STHEE System](https://www.eeagd.edu.cn/selfec/)

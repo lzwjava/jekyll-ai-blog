@@ -17,6 +17,7 @@ Answer:
 PwC (PricewaterhouseCoopers), as one of the Big Four accounting firms, conducts audits of public companies to provide an independent opinion on whether their financial statements present a true and fair view in accordance with applicable accounting standards, such as GAAP (Generally Accepted Accounting Principles) in the US or IFRS (International Financial Reporting Standards) internationally. For public companies, these audits also ensure compliance with regulations like the Sarbanes-Oxley Act (SOX) in the US, which emphasizes internal controls over financial reporting. PwC's audit approach is technology-enabled, people-led, and focuses on quality, risk assessment, and stakeholder trust. The process involves close collaboration with the company's management, internal personnel, and audit committee throughout.
 
 ### Overview of PwC's Audit Process
+
 The audit process typically follows five main phases, as outlined in PwC's guidance on financial statement audits:
 
 1. **Planning Phase**: Auditors perform initial activities, such as accepting the client, verifying independence, assembling the audit team, and determining the scope, timing, and extent of procedures. They gather preliminary information to understand the business.
@@ -32,9 +33,11 @@ The audit process typically follows five main phases, as outlined in PwC's guida
 Throughout these phases, PwC auditors maintain ongoing discussions and meetings with management at operational and executive levels, as well as with the audit committee (which oversees the audit, evaluates auditor performance, and handles escalations). Auditors challenge management's assumptions and representations using professional judgment and skepticism.
 
 ### Reports and Documents Requested from Internal Personnel
+
 PwC auditors request a wide range of documents, reports, and information from the company's internal teams (e.g., finance, accounting, operations, and compliance personnel) to verify financial data, assess controls, and test transactions. These requests are tailored to the company's size, complexity, and industry but generally include supporting evidence for financial statements. Auditors may ask for electronic or physical records, explanations, and representations.
 
 #### General Documents Requested Across Industries
+
 - **Financial Statements and Disclosures**: Draft or final versions prepared by management, including balance sheets, income statements, cash flow statements, and notes.
 - **Supporting Books and Records**: General ledger, trial balances, journals, and sub-ledgers to trace transactions and balances.
 - **Transaction Records**: Invoices, receipts, contracts, purchase orders, and payment vouchers for testing revenues, expenses, assets, and liabilities.
@@ -50,6 +53,7 @@ PwC auditors request a wide range of documents, reports, and information from th
 In the evidence gathering phase, auditors may also request access to perform walkthroughs of processes, observe inventory counts, or inspect physical assets.
 
 #### Sector-Specific Examples
+
 Audits are customized to industry risks. For banking and big tech companies, PwC focuses on sector-specific complexities like regulatory compliance, risk management, and intangible assets.
 
 - **Banking Companies** (e.g., large banks like JPMorgan or Wells Fargo):

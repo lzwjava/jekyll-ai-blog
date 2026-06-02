@@ -72,6 +72,7 @@ This is the worst-case scenario for LLMs: a task requiring **exact character-lev
 Instead of asking an LLM to reproduce commit hashes from memory or context, use proper tooling:
 
 **Option 1 — Use Git directly to get the list, then cherry-pick:**
+
 ```bash
 # Get hashes from git log and build cherry-pick command yourself
 git log --oneline origin/feature-branch | head -20 | awk '{print $1}' | xargs git cherry-pick
@@ -81,11 +82,13 @@ git log --oneline origin/feature-branch | head -20 | awk '{print $1}' | xargs gi
 Provide the hashes yourself and ask the LLM only to wrap them in `git cherry-pick` syntax — don't trust it to reproduce exact hashes from prose descriptions.
 
 **Option 3 — Use `git cherry-pick` with a range:**
+
 ```bash
 git cherry-pick <oldest-hash>^..<newest-hash>
 ```
 
 **Option 4 — Always verify LLM-generated hashes:**
+
 ```bash
 git cat-file -t <hash>   # Should return "commit" if real
 ```

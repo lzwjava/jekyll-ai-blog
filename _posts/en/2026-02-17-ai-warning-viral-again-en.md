@@ -26,6 +26,7 @@ The essay warns that AI progress is accelerating dramatically right now—simila
 It reportedly received tens of millions of views (some claims reach 80M+), sparking debates, breakdowns, responses, and criticisms (e.g., hype vs. reality, lack of hard data on immediate mass job loss). Many recent X posts reference it directly or use the phrase in AI, crypto, or general "big shift" contexts.
 
 Other recent uses of the phrase on X today appear in scattered contexts:
+
 - Political/geopolitical comments (e.g., momentum building, vague "something is happening").
 - Crypto promotions (e.g., blockchain AI projects or rewards).
 - Replies to Tesla/Giga Berlin recruitment success or unrelated news.

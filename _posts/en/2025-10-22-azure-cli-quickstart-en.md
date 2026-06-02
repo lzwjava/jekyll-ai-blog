@@ -45,19 +45,23 @@ Multi-factor authentication (MFA) is supported, and you can manage multiple subs
 Azure CLI uses the `az` command followed by a group (e.g., `vm`, `storage`) and subcommands. Use `az --help` for overview, or `az <group> --help` for specifics.
 
 ### Common Global Options
+
 - `--help` or `-h`: Show help.
 - `--output table/json/yaml`: Format output (default: table).
 - `--query`: JMESPath query for filtering JSON output (e.g., `--query "[].name"`).
 
 ### Key Examples
+
 - **List Subscriptions**: `az account list --output table`
 - **Get Resource Groups**: `az group list --output table`
 - **Create a Resource Group**: `az group create --name "MyResourceGroup" --location "eastus"`
 
 ## Managing Virtual Machines (VMs)
+
 Azure CLI excels at VM lifecycle management.
 
 1. **Create a VM**:
+
    ```
    az vm create \
      --resource-group "MyResourceGroup" \
@@ -77,7 +81,9 @@ Azure CLI excels at VM lifecycle management.
 5. **Delete VM**: `az vm delete --name "MyVM" --resource-group "MyResourceGroup" --yes`
 
 ## Managing Storage Accounts
+
 1. **Create Storage Account**:
+
    ```
    az storage account create \
      --name mystorageaccount \
@@ -89,6 +95,7 @@ Azure CLI excels at VM lifecycle management.
 2. **Upload Blob**: First, get key with `az storage account keys list --account-name mystorageaccount --resource-group "MyResourceGroup" --query "[0].value -o tsv"`. Then: `az storage blob upload --account-name mystorageaccount --container-name mycontainer --name myfile.txt --file ./myfile.txt --auth-mode key`
 
 ## Other Common Scenarios
+
 - **Deploy ARM Templates**: `az deployment group create --resource-group "MyResourceGroup" --template-file template.json`
 - **Query Resources**: `az resource list --resource-group "MyResourceGroup" --output table`
 - **Update CLI**: `az upgrade`
@@ -97,12 +104,14 @@ Azure CLI excels at VM lifecycle management.
 For scripting, combine with Bash/PowerShell loops or use Azure CLI in CI/CD pipelines like GitHub Actions.
 
 ## Tips and Best Practices
+
 - Use `--dry-run` for previews (where supported).
 - Enable auto-completion: On Bash, run `az completion`.
 - Handle errors: Check exit codes (0 for success) and use `--debug` for troubleshooting.
 - Security: Avoid hardcoding credentials; use environment variables or Azure Key Vault.
 
 ## References
+
 [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 [Azure CLI Reference](https://learn.microsoft.com/en-us/cli/azure/)
 [Azure CLI Quickstart](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)

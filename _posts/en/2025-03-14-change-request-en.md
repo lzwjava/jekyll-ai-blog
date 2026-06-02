@@ -41,7 +41,7 @@ To add a group to a Change Request in ServiceNow, you need to assign a group to 
 
 - **Group Type**
    Ensure the group you want to assign is configured with an appropriate group type (e.g., "Change" or "ITIL"). Some ServiceNow instances restrict the groups available in the **Assignment group** field based on their type. To check or update a group’s type:
-   - Go to **User Administration > Groups**, find the group, and verify its "Type" field.
+  - Go to **User Administration > Groups**, find the group, and verify its "Type" field.
 
 - **Permissions**
    You need sufficient permissions to assign groups to a Change Request. Typically, roles like `change_manager` or equivalent are required. If you can’t assign a group, contact your ServiceNow administrator to confirm your access.
@@ -55,11 +55,12 @@ To add a group to a Change Request in ServiceNow, you need to assign a group to 
 ---
 
 ### Troubleshooting
+
 - **Group Not Appearing?**
-   - Verify the group exists in **User Administration > Groups**.
-   - Check its group type and any reference qualifiers on the **Assignment group** field.
+  - Verify the group exists in **User Administration > Groups**.
+  - Check its group type and any reference qualifiers on the **Assignment group** field.
 - **No Permission to Save?**
-   - Ensure you have the necessary role to edit Change Requests.
+  - Ensure you have the necessary role to edit Change Requests.
 
 By following these steps and considering the above points, you should be able to successfully add a group to a Change Request in ServiceNow. If you encounter issues, consult your ServiceNow administrator for assistance tailored to your instance’s setup.
 
@@ -70,6 +71,7 @@ To address your issue where your Change Request in ServiceNow appears empty—wi
 ---
 
 ### Step 1: Verify and Fill in Basic Information
+
 Even though your Change Request exists, it may lack essential details. Start by ensuring the foundational fields are completed:
 
 - **Open the Change Request**: Navigate to the specific Change Request in ServiceNow (e.g., via the Change > All module or by searching its number).
@@ -84,6 +86,7 @@ Even though your Change Request exists, it may lack essential details. Start by 
 ---
 
 ### Step 2: Complete Planning Details
+
 The "planning" section you mentioned likely refers to fields that define the scope and schedule of the change. Populate these to provide context:
 
 - **Change Type**: Select the type (e.g., Normal, Emergency, Standard).
@@ -96,6 +99,7 @@ The "planning" section you mentioned likely refers to fields that define the sco
 ---
 
 ### Step 3: Add Affected CIs
+
 The "affected CIs" list is empty because no Configuration Items (CIs) have been linked yet. Here’s how to populate it:
 
 - **Locate the Related List**: Scroll to the **Affected CIs** section at the bottom of the form.
@@ -108,6 +112,7 @@ The "affected CIs" list is empty because no Configuration Items (CIs) have been 
 ---
 
 ### Step 4: Manage Approvers
+
 The "approvers" list is empty because no approval records exist yet. Depending on your organization’s process, approvers may be added automatically or manually:
 
 - **Check Approval Process**:
@@ -121,6 +126,7 @@ The "approvers" list is empty because no approval records exist yet. Depending o
 ---
 
 ### Step 5: Populate the Change Request List (Child Changes or Tasks)
+
 You mentioned a "change request" list being empty, which might refer to child Change Requests or **Change Tasks**. Here’s how to address this:
 
 - **Change Tasks** (more likely):
@@ -136,6 +142,7 @@ You mentioned a "change request" list being empty, which might refer to child Ch
 ---
 
 ### Step 6: Address "Related Links"
+
 You mentioned "related links" being empty. This might be a miscommunication for related lists (like incidents or problems) rather than the UI "Related Links" section. To populate related records:
 
 - **Link Related Records**:
@@ -147,6 +154,7 @@ You mentioned "related links" being empty. This might be a miscommunication for 
 ---
 
 ### Step 7: Progress the Change Request
+
 Once the basic information and related lists are populated, move the Change Request forward:
 
 - **Check the State**: Verify the current state (likely "New").
@@ -156,6 +164,7 @@ Once the basic information and related lists are populated, move the Change Requ
 ---
 
 ### Important Notes
+
 - **Permissions**: Ensure you have the necessary access (e.g., `change_manager` role) to edit these fields and lists. If not, contact your ServiceNow administrator.
 - **Custom Configuration**: Your instance might use templates, change models, or automated workflows that pre-populate some data. Check with your admin if fields don’t behave as expected.
 - **Visibility**: Some sections might be hidden or locked based on the state or your permissions—advancing the state may reveal more options.

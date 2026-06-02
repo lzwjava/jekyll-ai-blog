@@ -45,9 +45,9 @@ type: note
 
 **参考文献：**
 
-- https://medium.com/struggle-first-thrive-later/how-to-make-real-progress-combine-knowledge-with-action-3def7fbc2597
-- https://www.deanyeong.com/article/knowledge-execution-gap
-- https://www.amazon.com/Knowing-Doing-Gap-Companies-Knowledge-Action/dp/1578511240
-- https://jeffreypfeffer.com/books/the-knowing-doing-gap/
-- https://www.todoist.com/inspiration/deep-work
-- https://www.aliem.com/tldr-book-review-deep-work/
+- <https://medium.com/struggle-first-thrive-later/how-to-make-real-progress-combine-knowledge-with-action-3def7fbc2597>
+- <https://www.deanyeong.com/article/knowledge-execution-gap>
+- <https://www.amazon.com/Knowing-Doing-Gap-Companies-Knowledge-Action/dp/1578511240>
+- <https://jeffreypfeffer.com/books/the-knowing-doing-gap/>
+- <https://www.todoist.com/inspiration/deep-work>
+- <https://www.aliem.com/tldr-book-review-deep-work/>

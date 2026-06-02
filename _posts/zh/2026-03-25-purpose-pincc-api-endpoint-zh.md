@@ -19,10 +19,10 @@ Answer:
 https://v2-as.pincc.ai/responses
 ```
 
-*   **Base URL** 是 `https://v2-as.pincc.ai`。
-*   你正在访问的 **endpoint** 是 `/responses`。
-*   该 endpoint 很可能用于**发送 prompt 并获取 AI 生成的 response**，类似于 OpenAI API 中的 `/v1/completions` 或 `/v1/chat/completions`。
-*   `v2-as` 部分可能表示该 API 的 **version 2**，其中 `as` 可能是地区或内部标识（例如 “Asia” 或某个内部 cluster）。
+* **Base URL** 是 `https://v2-as.pincc.ai`。
+* 你正在访问的 **endpoint** 是 `/responses`。
+* 该 endpoint 很可能用于**发送 prompt 并获取 AI 生成的 response**，类似于 OpenAI API 中的 `/v1/completions` 或 `/v1/chat/completions`。
+* `v2-as` 部分可能表示该 API 的 **version 2**，其中 `as` 可能是地区或内部标识（例如 “Asia” 或某个内部 cluster）。
 
 你遇到的 503 错误：
 
@@ -49,7 +49,7 @@ Body:
 
 References:
 
-*   [HTTP 503 Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503) – 关于 service unavailable 错误的解释
-*   根据你的片段观察得出：`https://v2-as.pincc.ai/responses`
+* [HTTP 503 Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503) – 关于 service unavailable 错误的解释
+* 根据你的片段观察得出：`https://v2-as.pincc.ai/responses`
 
 如果你需要，我可以列出**如何安全地测试此 endpoint** 的方法，即使在没有官方文档的情况下，也可以使用 `curl` 或 Python 进行尝试。

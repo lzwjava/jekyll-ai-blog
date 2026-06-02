@@ -23,7 +23,7 @@ An agent harness is the operational runtime environment that manages how AI agen
 
 The harness is not the "brain" that does the thinking; instead, it is the environment that provides the brain with the tools, memories, and safety limits it needs to function.
 
-### Key Components of an Agent Harness:
+### Key Components of an Agent Harness
 
 **Tool Execution and Orchestration:** When an AI model outputs a tool call (such as a search or code execution), the harness monitors the model's outputs, recognizes these tool calls, pauses text generation, executes the requested operation in the outside world, and feeds the result back into the model.
 
@@ -33,7 +33,7 @@ The harness is not the "brain" that does the thinking; instead, it is the enviro
 
 **Safety and Control:** The harness ensures the model gets any needed context or tools at each step, and can cancel or correct wrong paths quickly through verification.
 
-### Why Harnesses Matter:
+### Why Harnesses Matter
 
 While an agent framework provides the libraries to build an agent, the harness is the actual runtime system that governs how that agent behaves in a real-world setting. The agent is responsible for the "what" and the "why," while the harness handles the "how" and the "where."
 
@@ -49,7 +49,7 @@ AI Harness Engineering is the discipline of building a safe and effective partne
 
 **References:**
 
-- https://parallel.ai/articles/what-is-an-agent-harness
-- https://www.salesforce.com/agentforce/ai-agents/agent-harness/
-- https://blog.langchain.com/the-anatomy-of-an-agent-harness/
-- https://medium.com/be-open/what-is-ai-harness-engineering-your-guide-to-controlling-autonomous-systems-30c9c8d2b489
+- <https://parallel.ai/articles/what-is-an-agent-harness>
+- <https://www.salesforce.com/agentforce/ai-agents/agent-harness/>
+- <https://blog.langchain.com/the-anatomy-of-an-agent-harness/>
+- <https://medium.com/be-open/what-is-ai-harness-engineering-your-guide-to-controlling-autonomous-systems-30c9c8d2b489>

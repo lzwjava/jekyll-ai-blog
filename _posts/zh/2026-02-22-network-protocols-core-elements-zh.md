@@ -33,6 +33,7 @@ type: note
    * *示例：* 如果发送方以 100 Mbps 速度生成数据，但接收方只能处理 1 Mbps，时序规则可防止数据溢出。
 
 **选项分析：**
+
 * **A（语法、语义和编码）**：错误。编码是物理传输的一部分，但不属于协议定义的三个基本逻辑要素。
 * **B（语法和语义）**：错误。缺少关键的时序/同步要素，而该要素对成功通信至关重要。
 * **C（语法、语义和时序）**：**正确**。这是网络理论中定义的标准三大支柱（常引用自 Tanenbaum 或 Kurose & Ross）。
@@ -41,5 +42,6 @@ type: note
 因此，正确答案是 **C**。
 
 参考资料：
-- [Computer Network Protocols - GeeksforGeeks](https://www.geeksforgeeks.org/computer-network-protocols/)
-- [Network Protocol Elements - TutorialsPoint](https://www.tutorialspoint.com/computer_fundamentals/computer_network_protocols.htm)
+
+* [Computer Network Protocols - GeeksforGeeks](https://www.geeksforgeeks.org/computer-network-protocols/)
+* [Network Protocol Elements - TutorialsPoint](https://www.tutorialspoint.com/computer_fundamentals/computer_network_protocols.htm)

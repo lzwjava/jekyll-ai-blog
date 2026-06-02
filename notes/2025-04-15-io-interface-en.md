@@ -81,6 +81,7 @@ I/O interfaces allow a microprocessor to communicate with external devices. Ther
   - Sending interrupt vector to CPU.
 
 **Registers**:
+
 - IMR (Interrupt Mask Register)
 - ISR (In-Service Register)
 - IRR (Interrupt Request Register)
@@ -110,6 +111,7 @@ Used to interface with external parallel devices like switches, LEDs, etc.
   - Two-way data transfer with handshaking.
 
 **Example**:
+
 - Port A: output to LED display
 - Port B: input from DIP switches
 - Port C: used for control signals
@@ -130,11 +132,13 @@ Used for generating delays, baud rates, etc.
 | 3    | Square wave generator     |
 
 **Applications**:
+
 - Delay generation
 - Real-time clock
 - Baud rate generation for serial ports
 
 **Typical Use**:
+
 - Counter 0: OS timer tick
 - Counter 1: DRAM refresh
 - Counter 2: Speaker tone
@@ -151,6 +155,7 @@ Used for **serial communication**.
   - **Asynchronous**: uses start/stop bits
 
 **Key Features**:
+
 - Baud rate control (via 8253/8254)
 - Configurable character length, stop bits, parity
 - Supports transmit and receive buffering

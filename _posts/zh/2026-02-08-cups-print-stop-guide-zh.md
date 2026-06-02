@@ -20,10 +20,11 @@ type: note
 
 CUPS 全称是 **Common UNIX Printing System**。它是 Ubuntu（以及大多数 Linux 发行版和 macOS）上的标准打印系统。
 它负责处理：
+
 - 管理本地和网络打印机
 - 处理打印任务 (print jobs)
 - 打印机发现（特别是通过 `cups-browsed`）
-- 用于打印机管理的 Web 界面 (http://localhost:631)
+- 用于打印机管理的 Web 界面 (<http://localhost:631>)
 
 该 systemd service 的名称为 **`cups.service`**，它运行主要的 CUPS daemon (`cupsd`)。
 

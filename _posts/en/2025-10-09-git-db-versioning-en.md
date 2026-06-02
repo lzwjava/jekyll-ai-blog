@@ -29,6 +29,7 @@ I'll break it down by pros/cons, then recommend based on your priorities.
 | **Tools Needed**   | Native git + jq (for JSON) or csvkit (for CSV).                               | sqlite3 CLI + git attributes for custom diffs.                         |
 
 #### Recommendations
+
 - **Go with JSON (or CSV) if easy diffs are your top priority**: This keeps everything text-based and git-native. For 1-2 tables:
   - Use **one JSON file** as an array of objects (e.g., `[{"id":1, "name":"foo", ...}, ...]`). It's flexible for simple relations (embed one table in the other).
   - Or **CSV files** (one per table) for stricter tabular data—super lightweight and diff-friendly. Tools like Pandas can load/edit/export them.

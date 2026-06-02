@@ -23,6 +23,7 @@ type: note
 历史汇率有所不同：20世纪80年代中期，1人民币 ≈ 40-50日元（官方汇率被高估）；到90年代初，贬值后约为1人民币 ≈ 15-20日元。使用中期近似汇率（例如 1人民币 ≈ 20-30日元），日本1.5万日元的日工资大致相当于500-750人民币——接近所称的1000人民币，特别是对于东京的高薪职位或在泡沫高峰期奖金和加班费增加收入的情况下。
 
 这一差距（中国月工资大致相当于日本人1-2天的日工资，以人民币计算）突出表明：
+
 - **发展水平**：日本是一个高收入、技术驱动型经济体；中国则以农业为主，刚刚对外开放。
 - **生产力和资本**：日本工人受益于先进的基础设施、教育和资本投资。
 - **泡沫效应**：日本1986-1991年的资产泡沫暂时推高了工资。
@@ -32,9 +33,9 @@ type: note
 
 参考文献：
 
-- https://www.sciencedirect.com/science/article/pii/S1043951X20300596
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/
-- https://www.bls.gov/opub/mlr/2005/08/art3full.pdf
-- https://www.asahi.com/ajw/articles/15166586
-- https://en.wikipedia.org/wiki/Economy_of_China
-- https://en.wikipedia.org/wiki/Lost_Decades
+- <https://www.sciencedirect.com/science/article/pii/S1043951X20300596>
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC7575858/>
+- <https://www.bls.gov/opub/mlr/2005/08/art3full.pdf>
+- <https://www.asahi.com/ajw/articles/15166586>
+- <https://en.wikipedia.org/wiki/Economy_of_China>
+- <https://en.wikipedia.org/wiki/Lost_Decades>

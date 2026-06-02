@@ -29,6 +29,7 @@ type: note
 这些观点突出了城市精英与农村传统主义者、男性与女性以及当地人与外籍人士之间的分歧。它们是主观的，通常来自沮丧的约会者，但揭示了经济压力和集体主义如何塑造中国的约会暗流。
 
 参考文献：
+
 - [r/AskChina: Dating Expectations in China](https://www.reddit.com/r/AskChina/comments/1lynvdk/what_are_the_dating_expectations_in_china_like/)
 - [r/China: Dating Culture in China](https://www.reddit.com/r/China/comments/pgop3k/dating_culture_in_china/)
 - [Speaking of China: Negative Dating Experiences with Chinese Men](https://www.speakingofchina.com/china-articles/on-my-negative-dating-experiences-with-chinese-men-and-why-im_still_smiling/)

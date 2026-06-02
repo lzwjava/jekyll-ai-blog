@@ -17,6 +17,7 @@ Answer:
 An **Exchange-Traded Fund (ETF)** is a type of investment fund that holds a diversified basket of assets, such as stocks, bonds, commodities, or a combination thereof, and trades on stock exchanges throughout the day at market-determined prices, similar to individual stocks.
 
 ### Key Features of ETFs
+
 - **Structure**: ETFs pool money from multiple investors to create a portfolio that typically tracks a specific index (e.g., S&P 500), sector, commodity, or investment strategy. They can be passively managed (index-tracking) or actively managed.
 - **Trading**: Unlike mutual funds, which are priced and traded only once per day at net asset value (NAV), ETFs can be bought and sold continuously during market hours, with prices fluctuating based on supply and demand.
 - **Diversification**: A single ETF share provides exposure to many underlying assets, reducing risk compared to owning individual securities.

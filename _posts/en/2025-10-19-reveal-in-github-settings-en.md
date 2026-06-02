@@ -11,11 +11,13 @@ type: note
 ---
 
 ### Overview
+
 This XML file is an Interface Builder XIB (XML Interface Builder) document for a macOS application. XIB files are used in Xcode to define user interfaces declaratively, particularly for windows, views, and controls in Cocoa apps. This specific file defines the user interface for a settings window in an app called **Reveal-In-GitHub** (likely a utility for quickly opening source code files or repos in GitHub from your IDE or file system).
 
 The file targets macOS (Cocoa runtime) and uses Auto Layout (`useAutolayout="YES"`). It's structured around a main window object, with connections to a custom controller class (`RIGSettingWindowController`), outlets for key views, and various UI subviews like buttons, labels, and a custom container.
 
 Key metadata:
+
 - **Tools Version**: Xcode 9.0.1 (toolsVersion="9059"), built on macOS 10.12.6 (systemVersion="14F27").
 - **Window Behavior**: Titled, closable, miniaturizable, and resizable. It doesn't auto-recalculate the key view loop and uses default animations.
 - **Initial Position/Size**: Opens at screen position (527, 176) with dimensions 651x497 pixels (on a 1440x877 screen).
@@ -25,22 +27,25 @@ The file's root is a `<document>` containing `<dependencies>` (for the Cocoa plu
 ### Main Components
 
 #### 1. **File's Owner (Custom Controller)**
-   - **Class**: `RIGSettingWindowController`
-   - This acts as the controller for the window, managing logic like loading/saving settings.
-   - **Outlets** (connections to UI elements):
-     - `configsView` → A custom view for displaying configuration options (ID: `IKd-Ev-B9V`).
-     - `mainView` → The window's content view (ID: `se5-gp-TjO`).
-     - `window` → The settings window itself (ID: `F0z-JX-Cv5`).
-   - The window's `delegate` is also wired to this controller.
+
+- **Class**: `RIGSettingWindowController`
+- This acts as the controller for the window, managing logic like loading/saving settings.
+- **Outlets** (connections to UI elements):
+  - `configsView` → A custom view for displaying configuration options (ID: `IKd-Ev-B9V`).
+  - `mainView` → The window's content view (ID: `se5-gp-TjO`).
+  - `window` → The settings window itself (ID: `F0z-JX-Cv5`).
+- The window's `delegate` is also wired to this controller.
 
 #### 2. **Standard Objects**
-   - **First Responder** (`-1`): Placeholder for keyboard event handling.
-   - **Application** (`-3`): Represents the NSApplication instance (not directly used here).
+
+- **First Responder** (`-1`): Placeholder for keyboard event handling.
+- **Application** (`-3`): Represents the NSApplication instance (not directly used here).
 
 #### 3. **The Settings Window**
-   - **ID**: `F0z-JX-Cv5`
-   - **Title**: "Reveal-In-GitHub Settings"
-   - **Content View** (ID: `se5-gp-TjO`): A full-size view (651x497) that autoresizes with the window. It contains all subviews, positioned with fixed frames (though Auto Layout is enabled, suggesting constraints might be added programmatically or in a .storyboard companion).
+
+- **ID**: `F0z-JX-Cv5`
+- **Title**: "Reveal-In-GitHub Settings"
+- **Content View** (ID: `se5-gp-TjO`): A full-size view (651x497) that autoresizes with the window. It contains all subviews, positioned with fixed frames (though Auto Layout is enabled, suggesting constraints might be added programmatically or in a .storyboard companion).
 
    **Subviews Layout** (all use fixed frames for positioning; y-coordinates increase downward from the top):
 
@@ -55,22 +60,25 @@ The file's root is a `<document>` containing `<dependencies>` (for the Cocoa plu
    | **Keyboard Shortcut Label** | `NSTextField` (ID: `rMv-by-SKS`) | (112, 391) | 63x19 | Static label "⌃⇧⌘ +" (Control+Shift+Command +). Lucida Grande UI (15pt), label color. Indicates a customizable global shortcut for the app's menu. |
    | **URL Pattern Label** | `NSTextField` (ID: `zW4-cw-Rhb`) | (410, 392) | 94x18 | Static label "URL Pattern ". System font (15pt), label color. Likely for configuring GitHub URL templates (e.g., for deep-linking to files/blame views). |
 
-   - **Layout Notes**:
-     - Elements are mostly left-aligned (x=14-20) for a compact, form-like design.
-     - Top: Action buttons (Save/Reset).
-     - Middle: Large Config View (bulk of the space for repo/settings management).
-     - Bottom: Labels for menu customization and a clear button.
-     - All text fields are non-editable (static labels), suggesting user input happens inside the Config View or via separate fields not defined here.
-     - Colors: System defaults (label/control colors for accessibility).
-     - Fonts: Mix of system, Helvetica Neue, and Lucida Grande for a native macOS feel.
+- **Layout Notes**:
+  - Elements are mostly left-aligned (x=14-20) for a compact, form-like design.
+  - Top: Action buttons (Save/Reset).
+  - Middle: Large Config View (bulk of the space for repo/settings management).
+  - Bottom: Labels for menu customization and a clear button.
+  - All text fields are non-editable (static labels), suggesting user input happens inside the Config View or via separate fields not defined here.
+  - Colors: System defaults (label/control colors for accessibility).
+  - Fonts: Mix of system, Helvetica Neue, and Lucida Grande for a native macOS feel.
 
 ### Purpose and Functionality
+
 This settings window allows users to:
+
 - **Manage Repos/Configs**: Via the central "Config View" (e.g., add/remove default GitHub repos).
 - **Customize Menus**: Set a menu title, global keyboard shortcut (⌃⇧⌘+), and URL patterns for revealing files in GitHub.
 - **Persist Changes**: Save settings or reset/clear defaults with dedicated buttons.
 
 The controller (`RIGSettingWindowController`) handles button actions:
+
 - `saveButtonClcked:` – Saves user changes (e.g., to UserDefaults or a plist).
 - `resetMenusButtonClicked:` – Restores factory menu settings.
 - `clearButtonClicked:` – Removes default repo entries.

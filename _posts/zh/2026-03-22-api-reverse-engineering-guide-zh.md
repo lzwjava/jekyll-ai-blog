@@ -47,6 +47,7 @@ Dump requests 并比较它们的方法，与 mobile app security research、API 
 ## 如何从这里深入探索
 
 ### Inspect → Reproduce → Modify
+
 现在你能 dump requests，下一步是使用**local proxy**来拦截并让你实时修改它们。值得探索的工具：
 
 - **mitmproxy** — 使用 Python 拦截并脚本化 HTTP/HTTPS 流量
@@ -56,9 +57,11 @@ Dump requests 并比较它们的方法，与 mobile app security research、API 
 编写一个 mitmproxy 脚本，自动注入缺失的 headers。这将你的“inspection”技能转化为**automation**技能。
 
 ### 构建你自己的 Thin Relay
+
 OpenClaw 的 API 遵循 OpenAI HTTP API format——相同的 request shape 可用于 OpenClaw gateway。这种兼容性是故意的：它让你以最小摩擦将 OpenClaw agent 交换到现有 integrations 中。
 
 你已经知道 relay 想要的 headers。你可以用 Node.js 或 Python 写一个小型 proxy（50–100 行代码），它：
+
 1. 接受来自 OpenClaw 的 requests
 2. 注入正确的 `anthropic-beta` 和 `User-Agent` headers
 3. 转发到 relay service
@@ -66,9 +69,11 @@ OpenClaw 的 API 遵循 OpenAI HTTP API format——相同的 request shape 可�
 这正是 `claude-max-api-proxy` 的功能，但你会因为自己构建而理解每一行代码。
 
 ### 阅读 OpenClaw 源代码
+
 OpenClaw 是一个独立的本地进程（Node.js），管理 sessions、路由 messages，并维护 tool registry。它通过 adapters 与 messaging platforms 通信，并通过 API 与 LLM 通信。整个 codebase 是 open source。当你在 dump 中发现奇怪的东西时，去阅读源代码来验证你的假设。这是一个紧密的反馈循环：**observe → hypothesize → verify in source → understand**。
 
 ### 从 `invalid beta flag` 错误模式中学习
+
 AWS Bedrock 和 Google Vertex AI 不支持 Anthropic 的实验性 beta features。当 OpenClaw 或其底层 libraries 自动附加 beta header 时，Bedrock 会拒绝这些 requests。这种模式在许多 relay services 中反复出现。理解它意味着你能 debug *任何* Claude-compatible relay，而不仅仅是你现在使用的那个。
 
 ---

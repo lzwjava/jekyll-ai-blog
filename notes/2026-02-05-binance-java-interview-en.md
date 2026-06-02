@@ -15,6 +15,7 @@ I'll help you prepare for a Binance Java expert position interview. Based on typ
 ## Technical Java Questions
 
 **Core Java & JVM:**
+
 - Explain the Java memory model and garbage collection strategies
 - Difference between HashMap and ConcurrentHashMap, and when to use each
 - How does the JVM handle multithreading and synchronization?
@@ -22,6 +23,7 @@ I'll help you prepare for a Binance Java expert position interview. Based on typ
 - What are the different types of memory leaks in Java and how do you prevent them?
 
 **Concurrency & Performance:**
+
 - Design a thread-safe singleton pattern
 - Explain CompletableFuture and how you've used it for async operations
 - How would you optimize a high-throughput trading system?
@@ -29,6 +31,7 @@ I'll help you prepare for a Binance Java expert position interview. Based on typ
 - What's the difference between CountDownLatch, CyclicBarrier, and Semaphore?
 
 **Spring Framework:**
+
 - Spring Boot vs Spring MVC
 - How does dependency injection work in Spring?
 - Explain Spring transaction management

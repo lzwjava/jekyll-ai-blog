@@ -34,6 +34,7 @@ type: note
 这些观点在科技界、社交媒体以及许多投资者和初创公司创始人中不受欢迎，但它们是少数认真研究长期AI风险和能力上限的研究人员中的主要私下观点。
 
 参考文献：
+
 - *[2024年生物学锚点更新](https://epochai.org/blog/updating-towards-2024-biological-anchors)*
 - *[情境意识 – Leopold Aschenbrenner](https://situational-awareness.ai/)*（用于对比炒作观点，但脚注包含更清醒的专家调查）
 - *[如果没有特定求解器，对齐可能是不可能的 – Nate Soares/MIRI](https://intelligence.org/2018/11/27/miris-2018-update/)*

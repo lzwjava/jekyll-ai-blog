@@ -42,6 +42,7 @@ ASML Holding N.V. (based in Veldhoven, Netherlands) is the world’s only manufa
 In short, ASML succeeded by solving one of the hardest engineering challenges in modern technology (EUV lithography), sharing the enormous development risk with its customers, and then becoming essentially irreplaceable for the semiconductor industry’s progress beyond ~7 nm.
 
 References:
+
 - [ASML Annual Reports 2012–2024](https://www.asml.com/en/investors/annual-report)
 - [The Chip Letter – How ASML took over the world of chipmaking](https://thechipletter.substack.com/p/how-asml-took-over-the-world-of-chip)
 - [Asianometry – The Insane Engineering of the EUV Machine](https://www.youtube.com/watch?v=t0QSiN9zV2Q)

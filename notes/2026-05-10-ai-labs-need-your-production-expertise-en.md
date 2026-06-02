@@ -22,6 +22,7 @@ After reading your resume and your meeting transcript with Ruixiu Zhang (the hig
 ### Who You Are (Based on Your Profile)
 
 You are a self-taught, 30-year-old (born 1995) engineer with:
+
 - 11 years of experience across full-stack, mobile, and ML engineering
 - Real production work at HSBC, DBS, LeanCloud
 - Active AI experimentation: nanoGPT on H200/RTX 4070, Claude Code (~1B tokens), OpenRouter

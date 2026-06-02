@@ -33,6 +33,7 @@ The phone is still a phone. A notification, a WeChat message, or a reflex grab c
 **Upgrade path:**
 
 If you want pure focus music without the algorithmic risk, consider:
+
 - `mpv` or `ffmpeg` piping a lofi stream in a terminal on your laptop (zero distraction, keyboard-controlled).
 - A cheap Bluetooth speaker + old phone running only YouTube Music or NetEase Cloud Music in offline mode.
 

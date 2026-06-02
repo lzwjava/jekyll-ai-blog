@@ -32,17 +32,20 @@ Answer:
    密码登录可行，但密钥更方便且更安全。
 
    在您的**本地**机器上：
+
    ```bash
    ssh-keygen -t ed25519 -C "your_email@example.com"
    # Press Enter to accept default location & no passphrase (or set one)
    ```
 
    将公钥复制到服务器（最简单的方式）：
+
    ```bash
    ssh-copy-id user@your-server-ip
    ```
 
    或手动：
+
    ```bash
    cat ~/.ssh/id_ed25519.pub
    # copy output → paste into server's ~/.ssh/authorized_keys
@@ -101,10 +104,12 @@ Answer:
 
 - 连接失败？→ 先在终端测试 `ssh user@server`
 - 非常慢？→ 检查网络，或添加到 `settings.json`：
+
   ```json
   "remote.SSH.useLocalServer": true,
   "remote.SSH.connectTimeout": 60
   ```
+
 - 权限被拒？→ 修复 SSH 密钥或密码
 - VS Code 服务器安装失败？→ 服务器需要 ~150–300 MB 磁盘空间 + 互联网（仅下载一次）
 

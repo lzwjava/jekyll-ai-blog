@@ -17,6 +17,7 @@ Claude Code is an AI-powered coding assistant developed by Anthropic, designed t
 Claude Code is a terminal-based tool that leverages Anthropic’s advanced AI models (e.g., Claude 3.5 Sonnet and Opus 4) to assist with coding tasks. Unlike traditional coding assistants, it operates directly in your development environment, understanding your codebase, executing commands, and automating tasks like debugging, refactoring, and Git operations. It’s built with Anthropic’s “Constitutional AI” framework, prioritizing safety, clarity, and ethical use.[](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 Key capabilities include:
+
 - **Codebase Understanding**: Analyzes entire codebases, including project structure and dependencies.
 - **Code Editing and Refactoring**: Modifies files, optimizes code, and improves readability.
 - **Debugging**: Identifies and fixes bugs, including type errors and performance issues.
@@ -29,29 +30,38 @@ Key capabilities include:
 ## Setting Up Claude Code
 
 ### Prerequisites
+
 - **Anthropic Account**: You need an active Anthropic account with billing set up. Claude Code is available as part of the Pro or Max plans, or as a limited research preview for some users.[](https://x.com/AnthropicAI/status/1930307943502590255)[](https://www.anthropic.com/claude-code)
 - **Terminal Access**: Claude Code runs in your terminal, so ensure you have a compatible environment (e.g., Bash, Zsh).
 - **Project Directory**: Have a codebase ready for Claude Code to analyze.
 
 ### Installation Steps
+
 1. **Sign Up or Log In**: Visit [claude.ai](https://claude.ai) or [anthropic.com](https://www.anthropic.com) to create an account or log in. For email login, enter the verification code sent to your inbox. For Google login, authenticate via your Google account.[](https://dorik.com/blog/how-to-use-claude-ai)
 2. **Install Claude Code**:
    - After authentication, Anthropic provides a link to install Claude Code. Run the provided command in your terminal to download and set it up. For example:
+
      ```bash
      npm install -g claude-code
      ```
+
      This command installs Claude Code globally.[](https://www.datacamp.com/tutorial/claude-code)
 3. **Navigate to Your Project**: Change to your project directory in the terminal:
+
      ```bash
      cd /path/to/your/project
      ```
+
 4. **Start Claude Code**: Launch Claude Code by running:
+
      ```bash
      claude-code
      ```
+
      This initiates an interactive REPL (Read-Eval-Print Loop) session where you can issue natural language commands.[](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 ### Configuration
+
 - **Environment Integration**: Claude Code inherits your Bash environment, giving it access to tools like `git`, `npm`, or `python`. Ensure your custom tools are documented or specified in prompts, as Claude may not recognize them automatically.[](https://www.anthropic.com/engineering/claude-code-best-practices)[](https://harper.blog/2025/05/08/basic-claude-code/)
 - **Model Context Protocol (MCP)**: To integrate with external tools (e.g., GitHub, Slack), configure MCP settings in a `.mcp.json` file in your project directory. For debugging MCP issues, use the `--mcp-debug` flag.[](https://www.anthropic.com/engineering/claude-code-best-practices)[](https://www.codecademy.com/article/claude-code-tutorial-how-to-generate-debug-and-document-code-with-ai)
 - **Permissions**: Claude Code prompts for permission to execute commands. Grant “auto-execute” only for read-only commands (e.g., `git status`, `ls`) to avoid unintended changes. Deny auto-execution for commands like `git commit` or `rm`.[](https://waleedk.medium.com/claude-code-top-tips-lessons-from-the-first-20-hours-246032b943b4)
@@ -61,10 +71,12 @@ Key capabilities include:
 ## Key Features and Use Cases
 
 ### 1. Code Generation
+
 Claude Code can generate code snippets based on natural language prompts. It supports multiple programming languages, including Python, JavaScript, C, and more.[](https://www.tutorialspoint.com/claude_ai/claude_ai_code_generation.htm)
 
 **Example**:
 Prompt: “Write a Python function to sort a list of numbers, handling both positive and negative numbers.”
+
 ```python
 def sort_numbers(numbers):
     """
@@ -83,26 +95,33 @@ numbers = [5, -2, 10, -8, 3]
 sorted_list = sort_numbers(numbers)
 print(sorted_list)  # Output: [-8, -2, 3, 5, 10]
 ```
+
 Claude generates the code, explains its functionality, and ensures it meets your requirements. Always review and test the output.[](https://www.tutorialspoint.com/claude_ai/claude_ai_code_generation.htm)
 
 ### 2. Code Refactoring
+
 Claude Code excels at improving code readability, maintainability, and performance. It can refactor entire files or specific functions.
 
 **Example**:
 Prompt: “Refactor the `client.py` file in my Supabase project to improve readability and add docstrings.”
+
 - Claude analyzes `client.py`, suggests changes, and waits for confirmation. After approval, it updates the file with cleaner code, adds docstrings, and summarizes changes in the terminal.[](https://www.datacamp.com/tutorial/claude-code)
 
 ### 3. Debugging
+
 Claude identifies and fixes bugs, including type errors, missing dependencies, and performance bottlenecks.
 
 **Example**:
 Prompt: “Debug this Python function that’s throwing a TypeError.”
+
 ```python
 def add_numbers(a, b):
     return a + b
 # Called with: add_numbers("1", 2)
 ```
+
 Claude might respond: “The TypeError occurs because `a` is a string and `b` is an integer. Here’s a fixed version:”
+
 ```python
 def add_numbers(a, b):
     """
@@ -119,14 +138,17 @@ def add_numbers(a, b):
     b = float(b) if isinstance(b, str) else b
     return a + b
 ```
+
 Run the updated code to verify the fix.[](https://www.codecademy.com/article/claude-code-tutorial-how-to-generate-debug-and-document-code-with-ai)
 
 ### 4. Testing and Linting
+
 Claude can generate unit tests, run them, and fix failing tests or linting issues.
 
 **Example**:
 Prompt: “Write unit tests for the `sort_numbers` function and run them.”
 Claude generates:
+
 ```python
 import unittest
 
@@ -139,23 +161,28 @@ class TestSortNumbers(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
 It then runs the tests and reports results.[](https://www.anthropic.com/engineering/claude-code-best-practices)
 
 ### 5. Git Integration
+
 Claude automates Git tasks like committing changes, resolving merge conflicts, and creating pull requests.
 
 **Example**:
 Prompt: “Commit my changes and create a pull request with a description.”
 Claude executes:
+
 ```bash
 git add .
 git commit -m "Refactored client.py for better readability and added docstrings"
 git push origin feature-branch
 gh pr create --title "Refactor client.py" --body "Improved readability and added documentation."
 ```
+
 Review the commit and PR to ensure accuracy.[](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 ### 6. Codebase Analysis
+
 Claude can explain code architecture, logic, or dependencies.
 
 **Example**:
@@ -195,10 +222,12 @@ Let’s walk through a hands-on example using the Supabase Python library (`supa
 
 1. **Setup**:
    - Navigate to the `supabase-py` directory:
+
      ```bash
      cd /path/to/supabase-py
      claude-code
      ```
+
 2. **Refactor**:
    - Prompt: “Refactor `client.py` to improve readability, add docstrings, and optimize performance.”
    - Claude analyzes the file, proposes changes (e.g., restructuring functions, adding type hints), and waits for approval.
@@ -240,11 +269,13 @@ Let’s walk through a hands-on example using the Supabase Python library (`supa
 - **Vibe Coding**: For non-coders, treat Claude as a general-purpose agent. Describe your goal (e.g., “Build a to-do app”), and it will guide you step-by-step.[](https://natesnewsletter.substack.com/p/the-claude-code-complete-guide-learn)
 - **Learn from Feedback**: Share feedback with Anthropic to improve Claude Code. Feedback is stored for 30 days and not used for model training.[](https://github.com/anthropics/claude-code)
 - **Experiment with Prompts**: Use structured prompts like:
+
   ```
   <behavior_rules>
   Execute exactly what is requested. Produce code that implements the following: [describe task]. No additional features. Follow [language/framework] standards.
   </behavior_rules>
   ```
+
   This ensures precise outputs.
 
 ---
@@ -261,6 +292,7 @@ Let’s walk through a hands-on example using the Supabase Python library (`supa
 ## Why Choose Claude Code?
 
 Claude Code stands out for its deep codebase awareness, seamless terminal integration, and ability to handle complex, multi-step tasks. It’s particularly effective for:
+
 - **Developers**: Accelerates coding, debugging, and testing, saving hours per week.[](https://medium.com/dare-to-be-better/claude-code-the-ai-developers-secret-weapon-0faac1248080)
 - **Non-Coders**: Enables “vibe coding,” where anyone can build apps by describing ideas in plain English.[](https://natesnewsletter.substack.com/p/the-claude-code-complete-guide-learn)
 - **Teams**: Enhances collaboration by standardizing documentation and automating Git workflows.[](https://www.codecademy.com/article/claude-code-tutorial-how-to-generate-debug-and-document-code-with-ai)
@@ -276,6 +308,7 @@ Claude Code is a transformative tool that streamlines software development by co
 To get started, sign up at [anthropic.com](https://www.anthropic.com), install Claude Code, and experiment with small tasks in your codebase. Share feedback with Anthropic to help shape its future, and explore integrations with tools like ClickUp or Apidog to maximize its potential.[](https://www.datacamp.com/tutorial/claude-code)[](https://apidog.com/blog/claude-code/)[](https://clickup.com/blog/how-to-use-claude-ai-for-coding/)
 
 For further details, visit:
+
 - [Anthropic’s Claude Code Overview](https://docs.anthropic.com)[](https://docs.anthropic.com/en/docs/claude-code/overview)
 - [Claude Code Best Practices](https://www.anthropic.com)[](https://www.anthropic.com/engineering/claude-code-best-practices)
 

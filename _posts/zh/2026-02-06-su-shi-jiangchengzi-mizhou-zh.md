@@ -19,16 +19,19 @@ type: note
 ## Background Story
 
 **苏轼的婚姻：**
+
 - 19岁时迎娶王弗 (Wang Fu)
 - 两人度过了10年恩爱的婚姻生活
 - 王弗不幸逝世，令苏轼悲痛万分
 
 **政治背景：**
+
 - 苏轼被卷入朝廷的派系斗争
 - 为了远离政治纷扰并投身地方治理
 - 他请求外任
 
 **职业生涯进阶：**
+
 - 首先：杭州通判 (Hangzhou Vice Magistrate)
 - 随后：**密州知州 (Mizhou Prefect)** ← 创作此词的时期
 
@@ -37,6 +40,7 @@ type: note
 **开篇：** “十年生死两茫茫” (Ten years between life and death, two worlds apart)
 
 这首情感深沉的词作写于：
+
 - 妻子去世**十年后**
 - **在密州任职期间**
 - 作为对他亡妻王弗的悼念

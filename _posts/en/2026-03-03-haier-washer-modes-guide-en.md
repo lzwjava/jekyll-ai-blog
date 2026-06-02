@@ -26,6 +26,7 @@ Haier washing machines (especially models popular in China and Asia) offer speci
 - **定时 (Timer / Delay Start / Timed Wash)**: This is not a wash program itself but a **delay timer** function (定时 = timer/delay). You select your desired wash cycle first, then press the 定时 button to set a delay (e.g., 2h, 4h, 8h, up to 24h usually). The machine starts automatically after the set time — useful if you want washing to finish when you get home or to take advantage of off-peak electricity rates.
 
 ### Quick Guide: How to Choose the Right Mode
+
 1. **Check the care label** on each garment (the small tag inside). It shows recommended washing method (e.g., hand wash, gentle, normal, water temp).
 2. **Sort clothes** by fabric type, color, and dirt level:
    - All everyday cotton/blends → **混合** (safest default choice)

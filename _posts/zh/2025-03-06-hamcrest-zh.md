@@ -13,6 +13,7 @@ type: note
 1. 首先，将 Hamcrest 依赖添加到你的项目中：
 
 对于 Maven，在 pom.xml 中添加：
+
 ```xml
 <dependency>
     <groupId>org.hamcrest</groupId>
@@ -23,6 +24,7 @@ type: note
 ```
 
 对于 Gradle，在 build.gradle 中添加：
+
 ```groovy
 testImplementation 'org.hamcrest:hamcrest:2.2'
 ```
@@ -59,6 +61,7 @@ public class ExampleTest {
 ```
 
 3. 常用 Hamcrest 匹配器：
+
 - `is()`: 测试相等性
 - `equalTo()`: 测试对象相等性
 - `containsString()`: 检查字符串是否包含子串
@@ -72,6 +75,7 @@ public class ExampleTest {
 - `anyOf()`: 组合多个匹配器（OR）
 
 4. 自定义匹配器示例：
+
 ```java
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
@@ -103,6 +107,7 @@ public void testPalindrome() {
 ```
 
 5. 组合匹配器：
+
 ```java
 @Test
 public void testCombined() {
@@ -116,12 +121,14 @@ public void testCombined() {
 ```
 
 主要优势：
+
 - 更易读的测试断言
 - 更好的失败信息
 - 灵活的匹配条件
 - 可扩展的自定义匹配器
 
 使用技巧：
+
 - 使用 `import static` 使代码更简洁
 - 组合匹配器处理复杂条件
 - 查看 Hamcrest 文档了解完整的匹配器集合

@@ -29,6 +29,7 @@ Genshin Impact's large file size stems from its ambitious scope as a free-to-pla
 The "basic resources" option on Android (~21.8-22 GB) downloads core gameplay files (maps, models, UI) with minimal voice packs, while "full resources" adds extras like high-quality audio. Even basic is large because the game's world of Teyvat spans multiple massive regions with detailed environments.
 
 ### Key Reasons for the Size
+
 1. **Audio Files (Largest Contributor: 40-50% of Total)**
    - Full voice acting for **every line of dialogue** in 10+ languages (English, Japanese, Chinese, Korean, etc.). Each pack is 5-10 GB.
    - Thousands of hours of voiced story quests, events, NPC chatter, and combat lines.
@@ -51,6 +52,7 @@ The "basic resources" option on Android (~21.8-22 GB) downloads core gameplay fi
 HoYoverse optimizes via compression and optional packs, but the game's console-quality experience on phones drives the scale. New players can start small and expand; storage expands with playtime.
 
 **References:**
+
 - [Reddit: Detailed file size breakdown (Assets 34GB, Audio 48GB, Videos 25GB)](https://www.reddit.com/r/Genshin_Impact/comments/1j8p1e8/why_exactly_does_genshin_impact_take_so_much_space/)
 - [Game8: Storage guide with platform sizes](https://game8.co/games/Genshin-Impact/archives/418451)
 - [GameWith: Current sizes including Android basic/full](https://gamewith.net/genshin-impact/article/show/40325)

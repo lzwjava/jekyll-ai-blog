@@ -143,14 +143,18 @@ mvn release:perform
 #### 处理失败
 
 - **清理**：如果发布过程失败，请使用：
+
   ```bash
   mvn release:clean
   ```
+
   以删除插件创建的临时文件。
 - **回滚**：要撤销 `release:prepare` 所做的更改：
+
   ```bash
   mvn release:rollback
   ```
+
   请谨慎操作，并验证哪些更改被恢复。
 
 #### 多模块项目
@@ -177,18 +181,25 @@ mvn release:perform -B
 ### 命令摘要
 
 1. **准备发布**：
+
    ```bash
    mvn release:prepare
    ```
+
 2. **执行发布**：
+
    ```bash
    mvn release:perform
    ```
+
 3. **可选干运行**：
+
    ```bash
    mvn release:prepare -DdryRun=true
    ```
+
 4. **如有需要，清理或回滚**：
+
    ```bash
    mvn release:clean
    mvn release:rollback

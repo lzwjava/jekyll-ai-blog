@@ -9,13 +9,13 @@ translated: true
 type: note
 ---
 
-问题：为何Hermes Agent代码仓库（https://github.com/nousresearch/hermes-agent）如此受欢迎？
+问题：为何Hermes Agent代码仓库（<https://github.com/nousresearch/hermes-agent）如此受欢迎？>
 
 答案：
 
 Hermes Agent是由Nous Research开发的开源自进化AI智能体框架。自2026年初发布以来，它在AI社区迅速走红，短时间内就收获了约4.96万GitHub星标和6.4千次分叉。这种快速增长反映出市场对超越一次性交互的先进持久型AI智能体的浓厚兴趣。
 
-### 主要受欢迎原因：
+### 主要受欢迎原因
 
 - **自进化的学习循环**：与传统智能体每次会话后重置不同，Hermes采用闭环学习机制。它能够从用户交互中自主创建技能，随时间推移优化这些技能，在多个会话间保持知识连续性，通过全文检索和LLM摘要技术搜索历史对话，并逐步构建深化的用户模型。这种“与你共同成长”的能力解决了AI工具常被诟病的“遗忘”先前语境的问题，使其更像一个真正的长期协作者。
 
@@ -41,6 +41,7 @@ Hermes Agent是由Nous Research开发的开源自进化AI智能体框架。自20
 总而言之，Hermes Agent的卓越之处在于解决了当前AI智能体的核心局限——缺乏长期记忆和自我进化能力，同时保持了实用性、经济性和可扩展性。其受欢迎程度源于它提供了更“鲜活”且持续进化的AI体验，在处理复杂长期任务时展现出真正的实用价值。
 
 参考链接：
+
 - [GitHub代码仓库](https://github.com/nousresearch/hermes-agent)
 - [Hermes Agent文档](https://hermes-agent.nousresearch.com/docs/)
 - [Turing Post关于Hermes与OpenClaw的对比文章](https://www.turingpost.com/p/hermes)

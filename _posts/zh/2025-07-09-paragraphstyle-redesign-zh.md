@@ -15,9 +15,11 @@ type: note
 ```
 
 这将把段落样式从：
+
 - `\bodyfontlight`（细字体）
 
 改为：
+
 - `\mdseries`（中等字体，与描述样式类似）
 
 这样，你的整个 `cvparagraph` 环境将使用与 `\descriptionstyle` 相同的中等字重字体系列。

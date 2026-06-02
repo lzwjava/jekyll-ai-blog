@@ -29,14 +29,18 @@ type: note
 
 2. **设置正确的文件权限（非常重要 – SSH 会拒绝权限过松的密钥）**
    在 Linux/macOS 上：
+
    ```bash
    chmod 400 /path/to/your-key.pem
    ```
+
    在 Windows 上（如果使用 OpenSSH 或 Git Bash）：
+
    ```bash
    icacls "C:\path\to\your-key.pem" /inheritance:r
    icacls "C:\path\to\your-key.pem" /grant:r "%username%:F"
    ```
+
    这确保只有你能读取该文件。
 
 3. **查找实例连接详细信息**
@@ -51,9 +55,11 @@ type: note
 
 4. **使用 SSH 连接**
    基本命令（Linux/macOS 或带有 OpenSSH 的 Windows）：
+
    ```bash
    ssh -i /path/to/your-key.pem username@public-ip-or-dns
    ```
+
    真实示例：
 
    ```bash
@@ -78,6 +84,7 @@ type: note
 短语“its perm”很可能指的是 private key 文件权限（必须是限制性的），而不是 public key。
 
 如果你从未收到/下载任何 private key 文件，那么实例可能没有启用基于密钥的登录 — 在这种情况下，你可能需要：
+
 - 使用云控制台的“Connect”功能（EC2 Instance Connect、Serial Console 等）
 - 通过将卷挂载到其他地方重置访问权限
 - 或创建并添加新的 key pair

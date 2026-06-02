@@ -19,6 +19,7 @@ type: note
 这在 **Computer Science**、**Information Technology**（IT）和 **Software Engineering** 等领域非常普遍，职业资格（如来自 TAFE 或私立学院）可以衔接到大学学位。IT/Computer Science 的 Associate Degree 通常可以抵免 1-2 年的学分（例如在典型的 288 个学分中获得 96-192 个学分）。
 
 ### 国际学生的主要选择
+
 国际学生可以在录取过程中直接向大学申请学分评估。许多大学拥有正式的衔接路径、打包录取（Packaged Offers）或针对相关先修资格的保证学分。以下是与 Computer Science / Software Engineering / IT 相关的代表性案例：
 
 - **RMIT University** (墨尔本)：拥有从其自身的 Associate Degree in Information Technology 到 Bachelor of Computer Science 或 Bachelor of Information Technology 的强力衔接路径。通常提供显著的学分减免（最高可达 2 年）。他们为国际学生提供打包衔接路径和学分减免选项。
@@ -39,6 +40,7 @@ type: note
   - **Edith Cowan University**、**Flinders University** 和 **Swinburne** 也会针对其 Computer Science/Software Engineering 项目考虑相关 IT 资质的学分抵免。
 
 ### 国际学生的申请流程
+
 1. 通过大学的国际招生门户网站申请 Bachelor 课程。
 2. 提交 Associate Degree 的成绩单和课程描述（Syllabus）进行学分评估（通常在获得 Offer 后或申请期间进行）。
 3. 满足英语要求（如 IELTS 6.5）和学生签证规定。

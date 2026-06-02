@@ -22,6 +22,7 @@ The full official product name is **TL-XDR3050易展版** (which translates to T
 - In practice, all retail units of the TL-XDR3050 sold in China are labeled as "易展版" and include this mesh capability. There is no separate non-易展版 variant of the TL-XDR3050 that is commonly sold or differs in hardware.
 
 **Key specs (same for both names)**:
+
 - Wi-Fi 6 (AX3000): 574 Mbps (2.4 GHz) + 2402 Mbps (5 GHz)
 - High-performance Qualcomm IPQ0509 dual-core processor
 - 3 × Gigabit WAN/LAN ports (adaptive)

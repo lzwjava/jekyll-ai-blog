@@ -19,12 +19,14 @@ It's a common experience for many people to gain a deeper appreciation for liter
 The 04729 College Chinese (University Chinese) course in China's self-study higher education examination system is designed precisely to foster this kind of understanding. It's a foundational public course for non-Chinese majors, aiming to improve reading comprehension, writing skills, aesthetic appreciation, and cultural literacy. The exam emphasizes not just rote learning but interpreting texts, analyzing their artistic value, and applying insights to modern contexts. Based on standard outlines and textbooks for this course (which haven't changed significantly in recent years), here's a comprehensive overview to help you prepare and deepen your understanding:
 
 ### Course Objectives
+
 - **Enhance Language Proficiency**: Build advanced reading, writing, and expression skills beyond high school level.
 - **Cultivate Cultural Awareness**: Explore China's rich literary heritage to understand historical, philosophical, and social contexts.
 - **Develop Critical Thinking**: Learn to analyze themes, structures, and rhetorical devices in essays, poems, and prose.
 - **Promote Aesthetic Appreciation**: Recognize the emotional and intellectual depth in literature, encouraging personal growth and broader worldview.
 
 ### Content Structure and Main Topics
+
 The course is typically divided into units covering ancient, modern, and some foreign literature. The standard textbook is *University Chinese* (2018 edition) edited by Xu Zhongyu and Tao Xingchuan, published by Peking University Press. It includes about 50-60 selected works, grouped thematically or chronologically. Key sections include:
 
 1. **Ancient Chinese Prose and Essays (先秦至清代散文)**:
@@ -54,6 +56,7 @@ The course is typically divided into units covering ancient, modern, and some fo
    - Practical skills: Argumentative essays, literary analysis, and creative writing based on readings.
 
 ### Exam Format and Skills Tested
+
 - **Question Types** (Total 100 points, 150 minutes):
   - Multiple-choice (20-30%): Vocabulary, author facts, basic comprehension.
   - Reading Comprehension (30-40%): Analyze excerpts for themes, rhetoric, and intent.
@@ -61,6 +64,7 @@ The course is typically divided into units covering ancient, modern, and some fo
 - **Skills Emphasized**: Critical analysis (e.g., why a text "tells something deep"), synthesis of ideas, and clear expression. The exam rewards insight over memorization—focus on how works reflect profound truths about life.
 
 ### Tips for Preparation and Deeper Understanding
+
 - **Relate to Personal Life**: As you're older, connect texts to your experiences. For instance, ancient essays on ambition might mirror your career path, revealing depths you missed as a teen.
 - **Study Historical Contexts**: Use resources to learn about eras (e.g., Tang Dynasty prosperity vs. Republican-era turmoil) to uncover layered meanings.
 - **Practice Actively**: Read aloud for rhythm, summarize key ideas, and write responses. Join online forums like Zhihu or self-study groups for discussions.

@@ -28,10 +28,12 @@ Yes, your understanding is correct. Here's the confirmed config:
 **Token Plan API key** (prefix `tp-xxxxx`) — different from the standard pay-as-you-go key. Get it from the Xiaomi MiMo API Open Platform dashboard under "Subscription Details".
 
 **Base URLs:**
+
 - CN domestic: `https://token-plan-cn.xiaomimimo.com/v1`
 - Overseas (AMS): `https://token-plan-ams.xiaomimimo.com/v1`
 
 The provider config looks like:
+
 ```yaml
 provider: custom:xiaomi-token-plan
 base_url: https://token-plan-ams.xiaomimimo.com/v1

@@ -26,6 +26,7 @@ Modular programming is not just about writing clean code, self-contained classes
 Each function you write should be focused on doing one thing. If a function is doing multiple things, it becomes more difficult to generalize and reuse. Generally, if there's an "and" in your function name, consider refactoring.
 
 **Bad example:**
+
 ```python
 def process_and_save_and_notify(data):
     # does 3 things — hard to reuse
@@ -35,6 +36,7 @@ def process_and_save_and_notify(data):
 ```
 
 **Good example:**
+
 ```python
 def clean_data(data):
     return data.strip()

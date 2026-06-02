@@ -15,11 +15,13 @@ Question: Explain VLAN tagging in detail
 Answer:
 
 ### What is VLAN Tagging?
+
 VLAN tagging is a mechanism defined by the IEEE 802.1Q standard to identify which Virtual Local Area Network (VLAN) an Ethernet frame belongs to when traversing links that carry traffic from multiple VLANs. It allows switches to segment broadcast domains logically while sharing physical links (trunk ports) between switches or other devices.
 
 Without tagging, standard Ethernet frames have no field to indicate VLAN membership, making it impossible to distinguish traffic from different VLANs on shared links.
 
 ### The 802.1Q Tag Format
+
 The 802.1Q protocol inserts a **4-byte (32-bit) tag** into the Ethernet frame header, between the Source MAC Address and the EtherType/Length field.
 
 The tag consists of two main parts:
@@ -33,6 +35,7 @@ The tag consists of two main parts:
 This increases the maximum Ethernet frame size from 1518 bytes to 1522 bytes, and the Frame Check Sequence (FCS) is recalculated after tagging.
 
 ### How VLAN Tagging Works on Switches
+
 - **Access Ports** (Untagged Ports): Connect to end devices (e.g., PCs). Frames are sent/received **untagged**. The switch associates the port with a single VLAN (Port VLAN ID or PVID). Incoming untagged frames are assigned to this VLAN; outgoing frames to that VLAN are stripped of any internal tag.
 - **Trunk Ports** (Tagged Ports): Connect switches or VLAN-aware devices. They carry multiple VLANs.
   - **Ingress (Incoming Frames)**:
@@ -46,18 +49,22 @@ This increases the maximum Ethernet frame size from 1518 bytes to 1522 bytes, an
 End devices typically do not understand tags, so tags are added/removed by switches at the edges.
 
 ### Native VLAN
+
 The native VLAN handles **untagged traffic** on trunk ports:
+
 - Untagged incoming frames are placed in the native VLAN.
 - Outgoing frames for the native VLAN are sent untagged.
 - It must match on both ends of a trunk to avoid mismatches (which can cause issues like CDP warnings or dropped frames).
 - Best practice: Change from default VLAN 1 for security (to mitigate VLAN hopping attacks).
 
 ### Benefits and Use Cases
+
 - Enables VLAN extension across switches without dedicated links per VLAN.
 - Supports QoS via PCP.
 - Maintains backward compatibility with untagged devices.
 
 ### Potential Issues
+
 - Native VLAN mismatches can lead to unexpected forwarding or security risks.
 - Double tagging (QinQ, 802.1ad) extends for provider networks but adds complexity.
 

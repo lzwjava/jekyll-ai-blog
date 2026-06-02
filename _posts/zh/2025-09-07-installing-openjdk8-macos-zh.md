@@ -18,7 +18,7 @@ type: note
 
 这仍然是在 macOS 上安装 OpenJDK 8 最简单的方法之一。
 
-### 步骤：
+### 步骤
 
 1. 打开终端。
 
@@ -60,7 +60,7 @@ brew install openjdk@8
 
 SDKMAN 是一个灵活的工具，用于安装和切换多个 Java 版本。
 
-### 快速安装：
+### 快速安装
 
 ```bash
 curl -s "https://get.sdkman.io" | bash
@@ -77,9 +77,9 @@ sdk install java 8.xxx-tem
 
 ### 选项 A：Oracle 的 .dmg / .pkg 安装程序
 
-1.  从 Oracle 的 Java SE 8 下载页面为你的架构下载正确的安装程序。
-2.  打开 `.dmg`，运行 `.pkg` 安装程序，并按照提示操作。（[Oracle Documentation][3]）
-3.  安装完成后，使用 `java_home` 等工具选择版本：
+1. 从 Oracle 的 Java SE 8 下载页面为你的架构下载正确的安装程序。
+2. 打开 `.dmg`，运行 `.pkg` 安装程序，并按照提示操作。（[Oracle Documentation][3]）
+3. 安装完成后，使用 `java_home` 等工具选择版本：
 
     ```bash
     /usr/libexec/java_home -v 1.8 --exec java -version
@@ -89,7 +89,7 @@ sdk install java 8.xxx-tem
 
 AdoptOpenJDK（现归于 Eclipse Adoptium）提供了构建版本——包括安装程序和归档文件选项。
 
-*   例如，Salesforce 在 2025 年 8 月的文档中建议使用 AdoptOpenJDK 站点，选择 OpenJDK 8 (LTS) 和 HotSpot JVM，然后通过其安装程序进行安装。（[Salesforce][4]）
+* 例如，Salesforce 在 2025 年 8 月的文档中建议使用 AdoptOpenJDK 站点，选择 OpenJDK 8 (LTS) 和 HotSpot JVM，然后通过其安装程序进行安装。（[Salesforce][4]）
 
 安装后，设置你的 JAVA\_HOME，例如：
 
@@ -155,10 +155,10 @@ java -version
 
 总而言之：
 
-*   **Homebrew** 是 2025 年最流行的选择——只需 `brew install openjdk@8`，然后链接并设置 PATH。
-*   **SDKMAN** 在你需要频繁切换 Java 版本时提供了灵活性。
-*   **手动安装程序**（Oracle、Adoptium）仍然是一个可靠的、基于图形界面的备选方案。
-*   **MacPorts** 适用于偏好该包管理器的用户。
+* **Homebrew** 是 2025 年最流行的选择——只需 `brew install openjdk@8`，然后链接并设置 PATH。
+* **SDKMAN** 在你需要频繁切换 Java 版本时提供了灵活性。
+* **手动安装程序**（Oracle、Adoptium）仍然是一个可靠的、基于图形界面的备选方案。
+* **MacPorts** 适用于偏好该包管理器的用户。
 
 如果你在设置 Shell 环境、切换 Java 版本或在此过程中遇到任何其他问题需要帮助，请随时告知！
 

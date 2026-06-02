@@ -17,12 +17,14 @@ Answer:
 Here is a battle-tested, phased rollout plan that most teams use to move from Git Flow (or chaos) to true Trunk-Based Development with 20–100+ deploys per day.
 
 ### Phase 0 – Prerequisites (1–2 weeks)
+
 1. Ensure you have real CI that runs on every commit (tests, lint, security scans).
 2. Make the CI pipeline fast (<10 minutes for the critical path). If it’s slower, fix it first.
 3. Achieve 80%+ unit test coverage and reasonable integration/e2e coverage.
 4. Set up automated deployments to a staging environment on every merge to `main`.
 
 ### Phase 1 – Enforce “short-lived branches” (1–2 weeks)
+
 - Maximum branch lifetime: 48 hours (many teams start with 24h).
 - Enforce via CI policy: branch age >48h → pipeline fails.
 - No more `develop`, `release/*`, or long-lived feature branches.
@@ -40,6 +42,7 @@ Here is a battle-tested, phased rollout plan that most teams use to move from Gi
 | 5    | Start wrapping every new feature in a flag. Old code can stay unflagged for now. |
 
 ### Phase 3 – Go fully trunk-based (the big switch)
+
 1. Declare `main` as the only branch. Delete `develop` and all old release branches.
 2. All work now happens either:
    - Directly on `main` (for very small changes), or
@@ -48,12 +51,14 @@ Here is a battle-tested, phased rollout plan that most teams use to move from Gi
 4. Enforce “merge to main multiple times per day” as a cultural norm (track it in standups).
 
 ### Phase 4 – Continuous Deployment (the payoff)
+
 1. Promote the exact same commit from staging → production automatically (or with one-click approval).
 2. Deploy every merge to `main` to production (code is always behind flags or 100% safe).
 3. Start removing old flags aggressively once features are fully rolled out.
 4. Add canary deployments or ring deployments if you want extra safety.
 
 ### Phase 5 – Optimize & scale
+
 - Move to commit-level deployments (some teams deploy every single commit).
 - Implement “flag debt” dashboard and fail builds if >X stale flags.
 - Add automated rollback on error-rate increase (PagerDuty + Spinnaker/Argocd rollbacks).
@@ -80,6 +85,7 @@ Here is a battle-tested, phased rollout plan that most teams use to move from Gi
 Once you reach Phase 4, deployment truly becomes boring — exactly what you want.
 
 References:
+
 - [Trunk Based Development – Full implementation guide](https://trunkbaseddevelopment.com)
 - [Paul Hammant’s TBD short-lived branches page](https://paulhammant.com/2013/05/22/trunk-based-development-in-pictures)
 - [Google’s Site Reliability Engineering book – Chapter 27: Continuous Deployment](https://sre.google/sre-book/release-engineering)

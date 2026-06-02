@@ -17,6 +17,7 @@ Answer:
 Huaqiangbei (also known as Huaqiang North) in Shenzhen, China, is the world's largest electronics market and a major hub for gadgets, components, and tech shopping. It's a bustling pedestrian area in Futian District, often called "China's No. 1 Electronics Street."
 
 ### How to Get There
+
 - **By Metro (Recommended)**: The easiest and most convenient way is the Shenzhen Metro.
   - Take Line 2 or Line 7 to **Huaqiang North Station** (华强北站) – this drops you right in the heart of the market.
   - Alternatively, Line 1 to **Huaqiang Road Station** (华强路站), Exit A, then walk about 8-10 minutes north.
@@ -25,13 +26,16 @@ Huaqiangbei (also known as Huaqiang North) in Shenzhen, China, is the world's la
 - The area is pedestrian-friendly with wide sidewalks, but wear comfortable shoes – you'll walk a lot!
 
 ### Best Time to Visit
+
 - Open 24/7 as a street, but most shops operate from ~10 AM to 8-9 PM.
 - Arrive after 12 PM when more stalls are open and it's livelier.
 - Allocate at least half a day (ideally a full day or more) to explore properly.
 - Avoid peak hours if crowds bother you; it's always busy.
 
 ### What to Look For (What to See and Buy)
+
 Huaqiangbei is a tech paradise with everything from raw components to finished gadgets. It's great for:
+
 - **Electronic Components**: Resistors, capacitors, chips, LEDs, cables, tools – ideal for makers, engineers, or DIY projects.
 - **Phone Accessories**: Cases, screen protectors, chargers, earphones, smartwatches, data cables – endless variety and often very cheap.
 - **Gadgets and Consumer Electronics**: Drones, power banks, Bluetooth devices, VR gear, cameras, laptops, tablets, security equipment.
@@ -42,7 +46,9 @@ Huaqiangbei is a tech paradise with everything from raw components to finished g
 Tips: Bargain aggressively (common practice), compare prices across stalls, and be cautious of counterfeits/refurbished items sold as new. Wholesale prices are better for bulk buys, but retail is available. Use cash or WeChat/Alipay.
 
 ### Main Stores/Buildings/Markets
+
 The area has over 20 multi-floor malls clustered together. Key ones include:
+
 - **SEG Plaza/Electronics Market** (赛格广场): Landmark building; floors for components (1-2), computers/peripherals, branded products, and gadgets. Great for quality-controlled items.
 - **Huaqiang Electronic World** (华强电子世界): Multiple buildings; focuses on components, repairs, second-hand goods, drones, LEDs, and household electronics.
 - **Yuanwang Digital Mall**: Large for mobile phones, accessories, cameras, and security products.

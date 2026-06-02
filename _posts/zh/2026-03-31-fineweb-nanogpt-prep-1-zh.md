@@ -22,6 +22,7 @@ type: note
 ## 🖥️ 推荐的 DigitalOcean Droplet 配置
 
 仅用于数据准备（不进行训练）：
+
 - **4 vCPU, 8GB RAM, 100GB+ 磁盘** (CPU-optimized droplet)
 - 训练过程仍建议在本地的 RTX 4070 上进行
 
@@ -69,6 +70,7 @@ print(f"Done. Total docs: {total_docs}")
 ```
 
 运行脚本：
+
 ```bash
 python download_fineweb.py
 ```

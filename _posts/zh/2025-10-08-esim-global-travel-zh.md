@@ -15,6 +15,7 @@ Eskimo是一款提供国际旅行虚拟eSIM（嵌入式SIM卡）服务的移动�
 该应用支持Android和iOS系统，为三星Galaxy、谷歌Pixel和iPhone等设备提供简易设置指南。用户可直接在应用中购买数据套餐、跟踪使用情况，并享受24/7在线客服支持。相比传统漫游服务，Eskimo以简化全球网络连接同时保持低成本而广受好评。
 
 了解更多详情：
+
 - [Eskimo官方网站](https://www.eskimo.travel/en)
 - [Google Play商店下载](https://play.google.com/store/apps/details?id=travel.eskimo.esim&hl=en_US)
 - [App Store下载](https://apps.apple.com/sg/app/eskimo-esim-travel-internet/id1590276868)

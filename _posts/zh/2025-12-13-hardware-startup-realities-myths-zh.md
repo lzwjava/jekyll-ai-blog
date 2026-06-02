@@ -35,6 +35,7 @@ type: note
 将工程或增长等核心职能外包给承包商就像一颗定时炸弹；它让你无法获得真正的市场信号，并埋下日后爆发的维护噩梦——将产品核心保留在内部，无论早期磨砺多么痛苦，因为这才是将小玩意变成可扩展帝国的基础。
 
 参考：
+
 - [Reddit r/startups: Do you predict hardware startups will continue to get worse in success](https://www.reddit.com/r/startups/comments/19ci5ki/do_you_predict_hardware_startups_will_continue_to/)
 - [Reddit r/ycombinator: Why aren't there more hardware startups?](https://www.reddit.com/r/ycombinator/comments/1gzjpi2/why_arent_there_more_hardware_startups/)
 - [Hardware FYI: Why So Many Startups Fail](https://hardwarefyi.substack.com/p/why-so-many-startups-fail)

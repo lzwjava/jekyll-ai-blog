@@ -13,11 +13,13 @@ type: note
 You're mostly right, but let's clarify a few small (but important) mistakes so you understand Ethernet correctly.
 
 ### What Ethernet actually is
+
 - Ethernet is a **family of wired networking technologies** (not the cable itself).
 - It defines how devices talk to each other over a wired connection (mainly the rules/protocols at Layer 1 and Layer 2 of the OSI model).
 - Common speeds today: 100 Mbps, 1 Gbps (Gigabit), 2.5 Gbps, 5 Gbps, 10 Gbps, etc.
 
 ### The cable people call “Ethernet cable”
+
 - The most common cable used for Ethernet is **twisted-pair copper cable**, not “twister fiber”.
   - It has 8 wires arranged in 4 twisted pairs (the twisting reduces interference).
   - Official names: Cat5e, Cat6, Cat6a, Cat7, Cat8 (Cat = Category).
@@ -25,11 +27,14 @@ You're mostly right, but let's clarify a few small (but important) mistakes so y
 - Fiber optic cables are also used for Ethernet (especially 10 Gbps and faster over long distances), but they are not twisted-pair and most home users never see them.
 
 ### Ethernet vs Wi-Fi
+
 Yes, exactly:
+
 - Ethernet = wired connection (twisted-pair or fiber)
 - Wi-Fi = wireless connection (radio waves)
 
 ### What you need for an Ethernet connection
+
 1. **Hardware**
    - An Ethernet port (RJ45 jack) on your computer, laptop, router, switch, etc.
    - A proper twisted-pair cable (Cat5e or better) with RJ45 connectors crimped on both ends

@@ -40,6 +40,7 @@ Answer:
 ### Broader Implications
 
 Prisoner's Dilemma 模拟了许多现实世界的冲突，例如：
+
 - 国家间的军备竞赛
 - 环境问题（如过度捕捞或污染）
 - 商业价格战

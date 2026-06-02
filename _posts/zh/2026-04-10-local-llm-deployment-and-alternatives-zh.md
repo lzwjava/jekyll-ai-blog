@@ -51,6 +51,7 @@ Gemini 2.5 Flash支持约1,048,576 tokens(100万tokens)的输入窗口，使其�
 **OpenRouter优势：**
 
 OpenRouter通过单一、统一的API提供60+供应商的500多个模型访问，且完全兼容OpenAI风格调用。这意味着：
+
 - 团队无需为每个想试验的供应商单独处理身份验证、账单或SDK
 - 可访问具有海量上下文窗口的模型(Claude: 200K, Gemini: 100万tokens)
 - 用户在OpenRouter上花费10美元后，经过一年从Gemma 2B到DeepSeek 671B的模型试验，仍剩余9美元，显示其极具成本效益

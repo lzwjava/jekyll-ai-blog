@@ -21,6 +21,7 @@ The **"No space left on device"** error is now the primary blocker — even if o
 1. **Login** at the text console with your username (`lzwjava`) and password.
 
 2. **Check which partition is full and why**
+
 ```bash
 df -h
 # Look at / (root) — if it shows 100% or very close, that's the issue
@@ -33,6 +34,7 @@ du -sh /var /var/log /var/cache /tmp /home /usr
 ```
 
 Common offenders on broken Ubuntu systems:
+
 - `/var/log/journal/` — huge logs from repeated failed starts
 - `/var/cache/apt/archives/` — old .deb packages
 - `/tmp/` — stuck temporary files
@@ -66,6 +68,7 @@ sudo systemctl restart systemd-journald
 ```
 
 4. **Check space again**
+
 ```bash
 df -h
 free -h   # also check RAM/swap — low RAM can cause similar symptoms
@@ -74,6 +77,7 @@ free -h   # also check RAM/swap — low RAM can cause similar symptoms
 You need at least 500 MB–1 GB free on `/` for GDM and basic services to start reliably.
 
 5. **Try restarting GDM again**
+
 ```bash
 sudo systemctl restart gdm
 
@@ -88,6 +92,7 @@ Copy any new specific errors (permission denied, cannot write file, etc.) if it 
 
 6. **If space is freed but GDM still won't start**
 Re-run the earlier reinstall commands (now that there's space):
+
 ```bash
 sudo apt update
 sudo apt install --reinstall gdm3 ubuntu-gnome-desktop gnome-session ubuntu-session
@@ -96,6 +101,7 @@ sudo systemctl restart gdm
 ```
 
 7. **Switch to lightdm as fallback (much lighter, needs less space)**
+
 ```bash
 sudo apt install lightdm
 sudo dpkg-reconfigure lightdm   # choose lightdm
@@ -105,20 +111,25 @@ sudo reboot
 If lightdm starts successfully, you get a graphical login again — then you can fix GDM later or keep lightdm.
 
 ### If you cannot free enough space from TTY
+
 Boot back into the **Ubuntu live USB** (as you did before):
+
 - Mount your root partition to `/mnt`
 - Then run similar cleanup commands:
+
 ```bash
 sudo mount /dev/nvme0n1pX /mnt   # replace with your root partition
 sudo rm -rf /mnt/var/log/journal/*
 sudo rm -rf /mnt/var/cache/apt/archives/*
 sudo journalctl --rotate   # if journald is accessible
 ```
+
 - Or just delete largest files you identify with `du`.
 
 This is almost always recoverable once space is freed.
 
 ### Prevention note
+
 Avoid running broad recursive commands on `/usr`, `/var`, `/etc`. Use targeted fixes only (e.g. `chown $USER:$USER ~/somefolder`).
 
 If you share the output of `df -h` and `du -sh /* | sort -hr | head` (or the biggest folders), I can tell you exactly which directories to clean next.

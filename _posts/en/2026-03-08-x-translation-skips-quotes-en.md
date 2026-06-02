@@ -33,15 +33,19 @@ This is essentially a **design gap** in X's translation feature — the auto-tra
 ## What You Can Do
 
 ### Option 1: Manually Translate the Original Post
+
 Click on the original post's date/time link to jump directly to it. Because you're now viewing it as a standalone post, X will show a **"Translate post"** link directly on it — click that to get the translation.
 
 ### Option 2: Use Grok Auto-Translation (if available to you)
+
 X has rolled out a feature using Grok AI to automatically translate posts in your feed. When a post is translated, you'll see the text "Translated by Grok – Show original" at the top of the tweet. If this is active on your account, it may also translate embedded posts more reliably than the older system.
 
 ### Option 3: Use Your Browser's Built-in Translation
+
 If you use Microsoft Edge or Chrome, you can drag to select the Chinese text, right-click, and choose "Translate Selection to English" — the browser's built-in translation (powered by Google Gemini or similar) can handle text that X's own system misses.
 
 ### Option 4: Use a Browser Extension
+
 Extensions like "Post Translator for Twitter X" can automatically detect the original language and translate text directly below it without disrupting the page layout, covering content that X's native translation might skip — including embedded quoted posts.
 
 ---

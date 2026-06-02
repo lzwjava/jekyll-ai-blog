@@ -33,6 +33,7 @@ It is most commonly used in formal, serious, or somewhat old-fashioned English t
   → Parents sent a collective remonstrance against the proposed school uniform policy.
 
 Synonyms (depending on context):
+
 - protest
 - objection
 - complaint
@@ -41,6 +42,7 @@ Synonyms (depending on context):
 - expostulation (very close in meaning and slightly more formal/old-fashioned)
 
 Antonyms:
+
 - approval
 - acquiescence
 - acceptance

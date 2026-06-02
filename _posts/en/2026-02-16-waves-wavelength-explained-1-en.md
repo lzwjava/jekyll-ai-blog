@@ -54,12 +54,14 @@ The most important relationship for all waves is:
 **Wavelength** is the **distance** between two **consecutive identical points** on a wave.
 
 Common ways to identify it:
+
 - Crest to crest (peak to peak)
 - Trough to trough (valley to valley)
 - Any point to the same point on the next wave
 
 Symbol: **λ** (Greek letter lambda)
 Typical units:
+
 - meters (m)
 - centimeters (cm)
 - millimeters (mm)
@@ -77,6 +79,7 @@ Typical units:
 - X-rays → 0.01 nm to 10 nm
 
 In summary:
+
 - A **wave** is an **energy-carrying oscillation** that travels through space or a medium.
 - **Wavelength** is simply **how long one full wave is** — the repeating distance of the pattern.
 

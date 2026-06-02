@@ -97,6 +97,7 @@ curl -s -X POST 'https://api.xiaomimimo.com/v1/chat/completions' \
 The docs show a dedicated Claude Code integration page. You can use MiMo as the backend for your agentic coding sessions — free token burn at scale.
 
 Set in your Claude Code config:
+
 ```json
 {
   "api_url": "https://api.xiaomimimo.com/anthropic",

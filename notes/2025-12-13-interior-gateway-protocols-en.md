@@ -19,10 +19,12 @@ Interior Gateway Protocols (IGPs) are a class of routing protocols used to excha
 IGPs enable routers to dynamically discover and maintain routes for efficient packet forwarding inside the AS, using metrics like bandwidth, delay, or hop count to determine the best paths.
 
 ### Key Characteristics
+
 - **Scope**: Limited to one AS.
 - **Contrast with EGPs**: Unlike Exterior Gateway Protocols (e.g., BGP), which handle routing between different ASes on the internet, IGPs focus solely on internal routing.
 
 ### Main Types of IGPs
+
 IGPs are generally categorized into three types:
 
 - **Distance-Vector Protocols**

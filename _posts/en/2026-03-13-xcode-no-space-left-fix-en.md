@@ -77,9 +77,9 @@ After cleaning, rebuild your project. Xcode will regenerate necessary cache file
 
 **References:**
 
-- https://macpaw.com/how-to/clear-xcode-cache
-- https://www.swiftyplace.com/blog/how-to-clean-xcode-on-your-mac
-- https://medium.com/@aykutkardes/understanding-and-fast-way-to-reduce-xcode-space-75e07acf6b1e
-- https://medium.com/@nqtuan86/clean-mac-storage-for-xcodes-users-5fbb32239aa5
-- https://medevel.com/clean-xcode-cache/
-- https://dev.to/germanxp/cleaning-your-xcodes-garbage-2g6g
+- <https://macpaw.com/how-to/clear-xcode-cache>
+- <https://www.swiftyplace.com/blog/how-to-clean-xcode-on-your-mac>
+- <https://medium.com/@aykutkardes/understanding-and-fast-way-to-reduce-xcode-space-75e07acf6b1e>
+- <https://medium.com/@nqtuan86/clean-mac-storage-for-xcodes-users-5fbb32239aa5>
+- <https://medevel.com/clean-xcode-cache/>
+- <https://dev.to/germanxp/cleaning-your-xcodes-garbage-2g6g>

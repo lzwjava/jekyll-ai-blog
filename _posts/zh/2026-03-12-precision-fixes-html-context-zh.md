@@ -47,6 +47,7 @@ PROBLEM: Spacing between fields is gone, layout collapsed
 ```
 
 现在 Claude/Copilot **立即知道**：
+
 - 确切哪个类错了（`form-group`）
 - 结构是什么样的
 - 预期的视觉行为是什么

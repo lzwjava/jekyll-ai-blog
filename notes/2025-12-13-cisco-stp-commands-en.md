@@ -17,6 +17,7 @@ Answer:
 Spanning Tree Protocol (STP) is enabled by default on Cisco switches, often running Rapid Per-VLAN Spanning Tree (Rapid PVST+) or PVST+. Typical commands fall into two categories: **verification/show commands** (most commonly used for monitoring and troubleshooting) and **configuration commands** (for tuning STP behavior).
 
 ### Verification/Show Commands
+
 These are the most frequently used to check STP status, root bridge, port roles, and topology.
 
 - `show spanning-tree`
@@ -41,9 +42,11 @@ These are the most frequently used to check STP status, root bridge, port roles,
   Forces STP protocol migration renegotiation.
 
 ### Configuration Commands
+
 Entered in global or interface configuration mode. STP is enabled by default; these tune it.
 
 #### Global Configuration
+
 - `spanning-tree mode {rapid-pvst | pvst | mst | rstp | stp}`
   Sets the STP mode. Rapid PVST+ is common/default on many Catalyst switches for faster convergence.
 
@@ -66,6 +69,7 @@ Entered in global or interface configuration mode. STP is enabled by default; th
   Sets max age timer (default: 20 seconds).
 
 #### Interface Configuration
+
 - `spanning-tree portfast`
   Enables PortFast (immediate forwarding on edge ports; use on access ports to hosts).
 

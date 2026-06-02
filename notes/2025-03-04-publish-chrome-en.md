@@ -13,6 +13,7 @@ Publishing a Chrome plugin (extension) to the Chrome Web Store is a straightforw
 ---
 
 ### Step 1: Prepare Your Chrome Extension
+
 Before you begin the publishing process, ensure your extension is ready for the public:
 
 - **Test Thoroughly**: Test your extension on different versions of Chrome to confirm it works as intended. Use Chrome's "Load unpacked" feature (found in `chrome://extensions/`) to test it locally.
@@ -28,6 +29,7 @@ Before you begin the publishing process, ensure your extension is ready for the 
 ---
 
 ### Step 2: Package Your Extension
+
 To upload your extension to the Chrome Web Store, you need to package it correctly:
 
 - **Gather Files**: Ensure your extension directory contains all required files:
@@ -39,6 +41,7 @@ To upload your extension to the Chrome Web Store, you need to package it correct
 ---
 
 ### Step 3: Set Up a Developer Account
+
 You need a Chrome Web Store developer account to publish your extension:
 
 - **Sign In**: Go to the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole) and sign in with your Google account.
@@ -47,6 +50,7 @@ You need a Chrome Web Store developer account to publish your extension:
 ---
 
 ### Step 4: Prepare Store Listing Assets
+
 Your extension’s store listing requires specific assets and information to attract users:
 
 - **Icon**: A 128x128 pixel icon (e.g., `icon.png`) specified in your `manifest.json`. This appears in the Chrome toolbar and store listing.
@@ -60,6 +64,7 @@ Your extension’s store listing requires specific assets and information to att
 ---
 
 ### Step 5: Upload Your Extension
+
 Now you’re ready to submit your extension:
 
 1. **Access the Dashboard**: Log in to the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole).
@@ -76,6 +81,7 @@ Now you’re ready to submit your extension:
 ---
 
 ### Step 6: Submit for Review
+
 - **Submit**: Once all fields are complete, submit your extension for review.
 - **Review Process**: The Chrome Web Store team will check your extension for compliance with their [Program Policies](https://developer.chrome.com/docs/webstore/program-policies/). This typically takes a few hours to a few days.
 - **Policy Compliance**:
@@ -86,6 +92,7 @@ Now you’re ready to submit your extension:
 ---
 
 ### Step 7: After Approval
+
 - **Go Live**: Once approved, your extension will be available on the Chrome Web Store for users to install.
 - **Monitor Feedback**: Check user reviews and ratings in the Developer Dashboard to address issues or suggestions.
 - **Updates**: For future updates, increment the `version` in `manifest.json`, create a new `.zip`, and upload it via the Dashboard. It will go through review again before updating for users.
@@ -93,6 +100,7 @@ Now you’re ready to submit your extension:
 ---
 
 ### Additional Tips
+
 - **Choose a Unique Name**: Search the Chrome Web Store to ensure your extension’s name isn’t already taken. Make it descriptive and catchy.
 - **Start Simple**: For your first release, keep it free and English-only. You can add paid features or translations later.
 - **Promote**: Share your extension on social media or other platforms to increase visibility (optional).

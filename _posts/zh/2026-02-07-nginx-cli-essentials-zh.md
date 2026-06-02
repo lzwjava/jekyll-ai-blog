@@ -53,41 +53,49 @@ nginx [-?hqTtVv] [-c file] [-g directives] [-p prefix] [-s signal]
 ## Practical Usage Examples
 
 **启动 Nginx：**
+
 ```bash
 nginx
 ```
 
 **在应用更改前测试配置：**
+
 ```bash
 nginx -t
 ```
 
 **修改后重新加载配置：**
+
 ```bash
 nginx -s reload
 ```
 
 **查看 Nginx 版本和编译的 modules：**
+
 ```bash
 nginx -V
 ```
 
 **使用自定义配置文件运行 Nginx：**
+
 ```bash
 nginx -c /path/to/custom/nginx.conf
 ```
 
 **在前台运行 Nginx（常用于 containers）：**
+
 ```bash
 nginx -g 'daemon off;'
 ```
 
 **平滑关闭：**
+
 ```bash
 nginx -s quit
 ```
 
 **查看完整解析后的配置：**
+
 ```bash
 nginx -T
 ```

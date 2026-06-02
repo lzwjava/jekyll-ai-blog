@@ -29,11 +29,11 @@ type: note
 总之，尽管存在反对债务上限合宪性的法律论点，但由于此类行动将带来的严重经济和政治后果，美国政府不太可能选择不偿还债务。相反，政府通常会寻求提高债务上限或实施其他金融措施来避免违约。
 
 引用来源：
-[1] https://en.wikipedia.org/wiki/United_States_debt_ceiling
-[2] https://www.cfr.org/backgrounder/what-happens-when-us-hits-its-debt-ceiling
-[3] https://www.investopedia.com/articles/04/011404.asp
-[4] https://www.reddit.com/r/explainlikeimfive/comments/1cjrnlo/eli5_why_cant_we_us_just_absolve_ourselves_of_the/
-[5] https://www.weforum.org/stories/2023/05/5-way-a-us-debt-default-could-affect-you-and-your-money/
+[1] <https://en.wikipedia.org/wiki/United_States_debt_ceiling>
+[2] <https://www.cfr.org/backgrounder/what-happens-when-us-hits-its-debt-ceiling>
+[3] <https://www.investopedia.com/articles/04/011404.asp>
+[4] <https://www.reddit.com/r/explainlikeimfive/comments/1cjrnlo/eli5_why_cant_we_us_just_absolve_ourselves_of_the/>
+[5] <https://www.weforum.org/stories/2023/05/5-way-a-us-debt-default-could-affect-you-and-your-money/>
 
 ---
 回答来源：Perplexity：pplx.ai/share

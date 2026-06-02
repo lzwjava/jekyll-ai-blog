@@ -16,6 +16,7 @@ type: note
 
 We use two pointers (`left` and `right`) to maintain a window `[left, right]`.
 As we move `right`, we check if `s[right]` already appeared in the current window:
+
 - If yes, move `left` forward until the duplicate is removed.
 - Track the position where each character was last seen to jump `left` directly.
 
@@ -56,6 +57,7 @@ print(lengthOfLongestSubstring("pwwkew"))     # 3 ("wke")
 ```
 
 **Explanation of examples**:
+
 - "abacabcbb" → "abc" or "bac" length = 3
 - "bbbbb" → only "b" length = 1
 - "pwwkew" → "wke" length = 3 (note: "pwke" is also valid, but "ww" breaks it earlier)

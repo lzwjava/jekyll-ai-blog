@@ -13,6 +13,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Template & Data Binding Errors**
+
 1. **`ExpressionChangedAfterItHasBeenCheckedError`**
    - **Cause**: Changing component data after Angular's change detection cycle (e.g., in `ngAfterViewInit` or `ngOnChanges`).
    - **Fix**: Use `ChangeDetectorRef.detectChanges()` or ensure data changes occur before change detection completes.
@@ -28,6 +29,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Dependency Injection (DI) Errors**
+
 4. **`NullInjectorError: No provider for XService`**
    - **Cause**: Service not provided in module/component or circular dependency.
    - **Fix**: Add the service to the `providers` array of the module/component.
@@ -39,6 +41,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **TypeScript & Build Errors**
+
 6. **`Type 'X' is not assignable to type 'Y'`**
    - **Cause**: Type mismatches (e.g., wrong data type passed to a component).
    - **Fix**: Ensure types align or use type assertions (if intentional).
@@ -50,6 +53,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Component & Module Errors**
+
 8. **`Component is not part of any NgModule`**
    - **Cause**: Component not declared in a module or module not imported.
    - **Fix**: Add the component to `declarations` in its module or import the module.
@@ -61,6 +65,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **HTTP & API Errors**
+
 10. **`HttpClient provider not found`**
     - **Cause**: Missing `HttpClientModule` import in the module.
     - **Fix**: Import `HttpClientModule` in `AppModule`.
@@ -72,6 +77,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Routing Errors**
+
 12. **`Route not found`**
     - **Cause**: Incorrect route definition or missing lazy-loaded module.
     - **Fix**: Check route paths and lazy-load syntax (`loadChildren: () => import(...)`).
@@ -79,6 +85,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Form Errors**
+
 13. **`FormControl not found`**
     - **Cause**: Using `formControlName` without wrapping in a `[formGroup]`.
     - **Fix**: Ensure the parent form group is initialized and bound.
@@ -86,6 +93,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Miscellaneous**
+
 14. **`Maximum call stack size exceeded`**
     - **Cause**: Recursive functions or circular dependencies.
     - **Fix**: Refactor code to eliminate recursion/circular references.
@@ -101,6 +109,7 @@ When working with Angular, developers often encounter specific exceptions and er
 ---
 
 ### **Best Practices to Avoid Errors**
+
 - Use the `async` pipe for observables to auto-unsubscribe.
 - Enable strict TypeScript checks (`strict: true` in `tsconfig.json`).
 - Run `ng lint` to catch code quality issues.

@@ -17,6 +17,7 @@ Answer:
 Software-Defined Wide Area Network (SD-WAN) is a modern networking approach that uses software-based control to manage and optimize connectivity across a wide area network (WAN), replacing or augmenting traditional hardware-centric WAN architectures (like MPLS).
 
 ### Key Characteristics of SD-WAN
+
 - **Centralized Management**: A software controller (often cloud-based) provides a single pane of glass to configure, monitor, and manage the entire WAN from anywhere.
 - **Transport Independence**: It can use multiple connection types simultaneously — MPLS, broadband internet, 4G/5G LTE, satellite — and intelligently choose the best path for each application.
 - **Application-Aware Routing**: Identifies applications in real time and routes traffic based on business policies, performance requirements, latency, jitter, packet loss, and cost (e.g., sending Zoom calls over the best-performing link while sending bulk backups over cheap broadband).
@@ -25,6 +26,7 @@ Software-Defined Wide Area Network (SD-WAN) is a modern networking approach that
 - **Overlay Architecture**: Creates a secure virtual overlay network on top of any underlying transport, abstracting the physical connections.
 
 ### Main Benefits Compared to Traditional WAN
+
 | Aspect              | Traditional WAN (e.g., MPLS)       | SD-WAN
 |----------------------|------------------------------------|----------------------------------------|
 | Cost                 | High (expensive MPLS circuits)     | Lower (uses inexpensive broadband/Internet) |
@@ -35,12 +37,14 @@ Software-Defined Wide Area Network (SD-WAN) is a modern networking approach that
 | Management           | Device-by-device CLI               | Centralized GUI/API/orchestration |
 
 ### Common Use Cases
+
 - Connecting branch offices, retail stores, or remote workers to headquarters and cloud services (Microsoft 365, AWS, Azure, Salesforce, etc.).
 - Replacing or supplementing expensive MPLS with hybrid WANs.
 - Improving performance for real-time applications (VoIP, video conferencing, VDI).
 - Enabling rapid deployment of pop-up or temporary sites (construction sites, disaster recovery, events).
 
 ### Major SD-WAN Vendors (as of 2025)
+
 - Cisco (Viptela & Meraki)
 - VMware/VeloCloud (now Broadcom)
 - Fortinet

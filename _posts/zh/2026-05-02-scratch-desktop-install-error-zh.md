@@ -12,6 +12,7 @@ type: note
 ## 全面回顾：Scratch Desktop 安装
 
 ### 需求分析
+
 用户的请求意图明确，但形式混乱 —— 一大段问答内容被直接粘贴为上下文。我准确地提取了实际任务：通过 SSH 连接到 `xiaoxin@192.168.1.47` 并安装 Scratch Desktop。
 
 ---
@@ -21,6 +22,7 @@ type: note
 **1. 缺少前置检查**
 
 在安装任何软件之前，我本应运行：
+
 ```bash
 ssh xiaoxin@192.168.1.47 "
   flatpak --version
@@ -29,6 +31,7 @@ ssh xiaoxin@192.168.1.47 "
   df -h ~
 "
 ```
+
 这原本可以一次性揭示：用户没有添加 flathub 远程仓库、没有已安装的 Scratch 实例，以及可用磁盘空间。
 
 **2. 尝试以非 root 的 SSH 用户身份进行系统级安装**
@@ -46,6 +49,7 @@ ssh xiaoxin@192.168.1.47 "
 **5. 缺少安装后验证**
 
 我从未确认应用程序实际能否运行：
+
 ```bash
 ssh xiaoxin@192.168.1.47 "flatpak run edu.mit.Scratch --version 2>&1 | head -5"
 ```
@@ -53,6 +57,7 @@ ssh xiaoxin@192.168.1.47 "flatpak run edu.mit.Scratch --version 2>&1 | head -5"
 **6. 未解决 XDG 路径警告**
 
 安装过程警告 `~/.local/share/flatpak/exports/share` 不在 `XDG_DATA_DIRS` 中，因此应用程序不会出现在应用菜单里。我提到了这一点但没有修复。修复方法是在 `~/.profile` 中添加一行：
+
 ```bash
 export XDG_DATA_DIRS="$HOME/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
 ```

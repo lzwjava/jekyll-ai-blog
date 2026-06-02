@@ -67,16 +67,19 @@ On the PHP side, you should address deprecated functions (like `create_function(
 Here's how to operationalize your idea:
 
 **Phase 1 — Decision Layer (Claude Sonnet 4.6 via web chat)**
+
 - Feed Claude a **module summary** (not the whole codebase) and ask for the migration strategy for that module
 - Ask Claude to output a **structured instruction brief**: "Here are the 5 key decisions, here is the pattern to follow for each controller/model"
 - Use Claude's extended thinking / deep think for ambiguous legacy patterns
 
 **Phase 2 — Execution Layer (OpenClaw + M2.7)**
+
 - Feed the instruction brief into OpenClaw as the agent's operating context
 - Let M2.7 execute the repetitive file conversions, namespace replacements, and syntax upgrades
 - M2.7 maintains a 97% skill adherence rate on 40 complex skills with over 2,000 token cases, which means it reliably follows detailed instructions
 
 **Phase 3 — Review Checkpoints (Claude again)**
+
 - When M2.7 encounters ambiguity or produces something that doesn't compile, copy that output to Claude
 - Ask Claude to diagnose and produce the corrected pattern, then resume OpenClaw
 

@@ -35,6 +35,7 @@ JDK 8 于 2014 年发布，引入了像 lambdas、streams 和 Optional 类等变
 这些观点突出了 JDK 8 的双刃剑：创新但又分裂。虽然并非普遍存在，但它们强调了为什么一些开发人员仍然坚持使用 8 之前的版本或考虑 Kotlin 等替代方案。
 
 参考文献：
+
 - [Love and hate for Java 8](https://www.infoworld.com/article/2171436/love-and-hate-for-java-8.html)
 - [r/java: Java 8 – The Bad Parts](https://www.reddit.com/r/java/comments/7juy4n/java_8_the_bad_parts/)
 - [r/java: Why most of the industry is still on Java 8?](https://www.reddit.com/r/java/comments/1je309a/why_most_of_the_industry_is_still_on_java_8/)

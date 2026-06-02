@@ -13,6 +13,7 @@ Burning a bootloader onto an Arduino Uno R3 is necessary if the microcontroller 
 ---
 
 ### **Requirements**
+
 - **Arduino Uno R3** (the target board with the ATmega328P to be programmed).
 - **Programmer**: One of the following:
   - Another working Arduino board (e.g., another Uno R3) as an "Arduino as ISP."
@@ -28,6 +29,7 @@ Burning a bootloader onto an Arduino Uno R3 is necessary if the microcontroller 
 This method uses a second Arduino board (e.g., another Uno R3) as an In-System Programmer (ISP) to burn the bootloader.
 
 #### **Steps**
+
 1. **Prepare the Programmer Arduino**:
    - Connect the second Arduino (the programmer) to your computer via USB.
    - Open the Arduino IDE, go to **File > Examples > 11.ArduinoISP > ArduinoISP**, and upload this sketch to the programmer Arduino. This turns it into an ISP.
@@ -65,6 +67,7 @@ This method uses a second Arduino board (e.g., another Uno R3) as an In-System P
 If you have a dedicated programmer like USBasp, the process is simpler and often more reliable.
 
 #### **Steps**
+
 1. **Connect the Programmer**:
    - Connect the USBasp (or similar programmer) to your computer via USB.
    - Connect the programmer to the target Arduino Uno R3’s **ICSP header** using a 6-pin ICSP cable. Ensure correct orientation (pin 1 is marked with a dot or notch on the ICSP header).
@@ -87,6 +90,7 @@ If you have a dedicated programmer like USBasp, the process is simpler and often
 ---
 
 ### **Troubleshooting Tips**
+
 - **Error Messages**: If you get errors like “avrdude: stk500_getsync()” or “not in sync,” check:
   - All connections (wires or ICSP cable).
   - The programmer Arduino is running the ArduinoISP sketch (Method 1).
@@ -98,6 +102,7 @@ If you have a dedicated programmer like USBasp, the process is simpler and often
 ---
 
 ### **Additional Notes**
+
 - **Why Burn a Bootloader?**: The bootloader allows the Arduino Uno R3 to communicate with the Arduino IDE over USB for uploading sketches. Without it, the board won’t respond to USB uploads.
 - **Bootloader Type**: The Uno R3 uses the **Optiboot bootloader**, which is compact and supports faster uploads compared to older bootloaders.
 - **Replacing the Microcontroller**: If you’re replacing the ATmega328P, ensure it’s an ATmega328P-PU (DIP package) for the Uno R3’s socket. SMD versions require advanced soldering.

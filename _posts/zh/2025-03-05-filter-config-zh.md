@@ -15,7 +15,9 @@ type: note
 ---
 
 #### **什么是 `FilterConfig`？**
+
 `FilterConfig` 是 `javax.servlet` 包中的一个接口。Web 容器在过滤器的初始化阶段使用它来向过滤器提供配置数据。当在 Web 应用程序中定义过滤器时（通过 `web.xml` 或注解），容器会创建过滤器的一个实例，并将一个 `FilterConfig` 对象传递给它的 `init` 方法。该对象允许过滤器访问：
+
 - 其自身的初始化参数。
 - Web 应用程序的 `ServletContext`。
 - 其在配置中定义的名称。
@@ -25,7 +27,9 @@ type: note
 ---
 
 #### **过滤器和 `FilterConfig` 的生命周期**
+
 要理解 `FilterConfig` 的工作原理，让我们看看它在过滤器生命周期中的作用：
+
 1. **容器启动**：当 Web 应用程序启动时，容器读取过滤器定义（来自 `web.xml` 或 `@WebFilter` 注解）并创建每个过滤器的实例。
 2. **过滤器初始化**：对于每个过滤器，容器调用 `init` 方法，并传递一个 `FilterConfig` 对象作为参数。这是每个过滤器实例的一次性操作。
 3. **请求处理**：初始化之后，对每个匹配的请求调用过滤器的 `doFilter` 方法。虽然 `FilterConfig` 不会传递给 `doFilter`，但过滤器可以在 `init` 期间将来自 `FilterConfig` 的配置数据存储在实例变量中，以供后续使用。
@@ -36,6 +40,7 @@ type: note
 ---
 
 #### **`FilterConfig` 的关键方法**
+
 `FilterConfig` 接口定义了四个方法，用于访问配置信息：
 
 1. **`String getFilterName()`**
@@ -60,8 +65,11 @@ type: note
 ---
 
 #### **如何配置 `FilterConfig`**
+
 过滤器和它们的配置可以通过两种方式定义：
+
 1. **使用 `web.xml`（部署描述符）**：
+
    ```xml
    <filter>
        <filter-name>MyFilter</filter-name>
@@ -76,10 +84,12 @@ type: note
        <url-pattern>/*</url-pattern>
    </filter-mapping>
    ```
+
    - `<filter-name>` 定义过滤器的名称。
    - `<init-param>` 将初始化参数指定为键值对。
 
 2. **使用注解（Servlet 3.0 及更高版本）**：
+
    ```java
    import javax.servlet.annotation.WebFilter;
    import javax.servlet.annotation.WebInitParam;
@@ -93,6 +103,7 @@ type: note
        // Implementation
    }
    ```
+
    - `@WebFilter` 注解定义了过滤器的名称、URL 模式和初始化参数。
 
 在这两种情况下，容器都使用此配置来创建一个 `FilterConfig` 对象，并将其传递给过滤器的 `init` 方法。
@@ -100,6 +111,7 @@ type: note
 ---
 
 #### **实际示例**
+
 以下是一个过滤器在实践中如何使用 `FilterConfig` 的示例：
 
 ```java
@@ -146,6 +158,7 @@ public class MyFilter implements Filter {
 ---
 
 #### **关于 `FilterConfig` 的要点**
+
 - **过滤器特定作用域**：`FilterConfig` 中的初始化参数是特定于过滤器实例的。不同的过滤器可以具有相同名称但不同值的参数。
 - **与 `ServletContext` 的对比**：`ServletContext`（通过 `getServletContext()` 访问）提供应用程序范围内的初始化参数和资源，与 `FilterConfig` 中特定于过滤器的参数不同。
 - **生命周期中的一次性使用**：`FilterConfig` 仅传递给 `init`。如果过滤器稍后需要其数据（例如在 `doFilter` 中），则必须将数据存储在实例变量中。
@@ -154,7 +167,9 @@ public class MyFilter implements Filter {
 ---
 
 #### **总结**
+
 `javax.servlet.FilterConfig` 通过在过滤器初始化期间向其提供配置信息来工作。Web 容器将 `FilterConfig` 对象传递给过滤器的 `init` 方法，允许过滤器：
+
 - 访问其名称（`getFilterName`）。
 - 检索初始化参数（`getInitParameter`、`getInitParameterNames`）。
 - 通过 `ServletContext`（`getServletContext`）与 Web 应用程序交互。

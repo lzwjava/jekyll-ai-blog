@@ -19,6 +19,7 @@ Y Combinator 的联合创始人、企业家、散文家保罗·格雷厄姆在�
 虽然他的网站上没有一份精心策划的推荐列表，但从他的推荐（来自推文、散文和问答）中编译的列表包括以下杰出作品。为了清晰起见，我已经按照主题对它们进行了分组，并在格雷厄姆提供背景信息的情况下进行了简要说明。这并非详尽无遗，但涵盖了他许多最常被引用的选择。
 
 ### 创业和商业要点
+
 - **人性的弱点** 作者：戴尔·卡耐基
   格雷厄姆称之为“我们鼓励创业者阅读的一本书”，也是“对任何从事商业的人来说都至关重要的”。
 - **Founders at Work: Stories of Startups' Early Days** 作者：Jessica Livingston
@@ -27,6 +28,7 @@ Y Combinator 的联合创始人、企业家、散文家保罗·格雷厄姆在�
   被推荐为“可能是创业者能读到的最有价值的一本书”。
 
 ### 科学与创新
+
 - **自私的基因** 作者：理查德·道金斯
   因其进化论见解而备受喜爱；格雷厄姆多次在推特上提及。
 - **双螺旋** 作者：James D. Watson
@@ -37,6 +39,7 @@ Y Combinator 的联合创始人、企业家、散文家保罗·格雷厄姆在�
   “计算机科学的伟大经典之一”；格雷厄姆说他15年后仍然从中学习。
 
 ### 历史与传记
+
 - **The Old Way** 作者：Elizabeth Marshall Thomas
   强烈推荐用于了解狩猎采集者。
 - **从伽利略到牛顿** 作者：A. Rupert Hall
@@ -49,6 +52,7 @@ Y Combinator 的联合创始人、企业家、散文家保罗·格雷厄姆在�
   最近被誉为关于数学的最佳书籍之一。
 
 ### 小说与经典
+
 - **哈利·波特** 系列 作者：J.K. Rowling
   被列入他的幽默书单中，这些书的“政治与[他]自己的截然不同”。
 - **月亮是个严厉的女人** 作者：Robert A. Heinlein
@@ -59,6 +63,7 @@ Y Combinator 的联合创始人、企业家、散文家保罗·格雷厄姆在�
   当被问及Wodehouse推荐时，这是他的首选。
 
 ### 其他值得注意的
+
 - **野蛮的日子：一名冲浪者的生活** 作者：William Finnegan（回忆录/冒险）。
 - **比上帝更有钱：对冲基金的兴起和新精英的诞生** 作者：Sebastian Mallaby（金融史）。
 - **阿波罗之箭：冠状病毒的深远影响** 作者：Nicholas A. Christakis（近期疫情分析）。
@@ -68,6 +73,7 @@ Y Combinator 的联合创始人、企业家、散文家保罗·格雷厄姆在�
 格雷厄姆的品味偏向于叙事性非虚构作品，这些作品揭示了思想和人如何推动变革。对于创业公司，他优先考虑人际交往和执行技能；对于个人成长，他青睐融合了智慧和故事讲述的书籍。如果您对某个特定类别（例如历史或科技）感兴趣，他的论文，如“How to Do What You Love”，通常会编织更具针对性的建议。
 
 参考文献：
+
 - [95 Books Recommended By Paul Graham](https://www.kevinrooke.com/book-recommendations/paul-graham)
 - [82 Paul Graham Recommended Books (2025)](https://www.mostrecommendedbooks.com/paul-graham-books)
 - [60+ Book Recommendations by Paul Graham (Updated Daily)](https://bookschatter.com/books/paul-graham/)

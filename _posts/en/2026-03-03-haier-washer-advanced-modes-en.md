@@ -44,11 +44,13 @@ Haier washing machines (particularly front-load/roller models common in Asia/Chi
 - **漂洗+脱水 / Rinse + Spin** — Extra rinse and spin if clothes feel soapy.
 
 Many models also have:
+
 - **预洗 / Pre-wash** (add-on for very dirty loads)
 - **高温洗 / High Temp** or **Eco 40-60** (energy-efficient standard wash)
 - **手洗 / Hand Wash / Delicate** (similar to silk but for other fragile items)
 
 ### How to Choose Among These
+
 - Everyday mixed loads → Stick with **混合**
 - Delicate/special fabrics → Use **丝绸**, **羊毛**, **摇篮柔洗**, or **手洗**
 - New clothes → **新衣**

@@ -12,6 +12,7 @@ type: note
 ## 📋 配置分析
 
 ### 每轮迭代处理的令牌数（已确认）
+
 ```
 tokens_per_iter = batch_size × block_size × gradient_accumulation_steps
                = 8 × 1024 × 64
@@ -19,6 +20,7 @@ tokens_per_iter = batch_size × block_size × gradient_accumulation_steps
 ```
 
 ### 训练总计将看到的令牌数
+
 ```
 total_tokens = 524,288 × 12,000 = ~6.29十亿令牌
 ```
@@ -28,6 +30,7 @@ total_tokens = 524,288 × 12,000 = ~6.29十亿令牌
 ## ⏱️ 精确时间计算
 
 根据您的日志：
+
 - **标准迭代时间**：~9,330 ms = 9.33秒
 - **评估迭代时间**（每500步进行一次）：~29,164 ms = 29.16秒
 - **当前进度**：第1,800轮迭代

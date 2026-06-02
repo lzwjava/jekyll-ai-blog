@@ -9,17 +9,21 @@ type: note
 ---
 
 ### 核心要点
+
 - 通过将音频文件转换为视频文件并使用 YouTube API，可以编程方式将音频文件上传至 YouTube，适用于批量上传（例如 100 个音频）。
 - Spotify 没有提供用于上传音频文件的公共 API；需要使用 DistroKid 等分发服务，但这些服务缺乏用于自动化的公共 API。
 - 研究表明，YouTube 允许将播客内容以带静态图像的视频形式上传播客，而 Spotify 则需要通过其平台手动上传。
 
 ### YouTube 上传流程
+
 您可以通过使用 FFmpeg 等工具将音频文件转换为带静态图像的视频文件（如 MP4），然后使用 YouTube Data API 自动执行上传过程，从而将音频文件上传至 YouTube。这种方法非常适合批量上传 100 个音频。此方法适用于播客，通过使用节目封面等静态图像从音频剧集创建视频。
 
 ### Spotify 上传限制
+
 对于 Spotify，没有可用的公共 API 来直接上传音频文件。相反，您需要使用像 DistroKid 这样的分发服务，该服务可分发到 Spotify，但未提供供外部开发者自动化上传的公共 API。这意味着通过脚本进行批量上传对于 Spotify 是不可行的。
 
 ### 意外细节
+
 一个意外的细节是，虽然 YouTube 接受以视频文件形式上传的音频，但 Spotify 的生态系统依赖于手动上传或没有公共 API 访问权限的第三方服务，从而限制了自动化选项。
 
 ---
@@ -66,6 +70,7 @@ YouTube Data API 的 `videos.insert` 方法允许编程上传，从而为批量�
 总之，通过转换为视频并使用 YouTube API，以编程方式将音频文件上传至 YouTube 是可行的，并且适用于批量上传。对于 Spotify，没有用于上传的公共 API，将自动化限制在手动过程或没有可编写脚本 API 的分发服务上。此分析强调了针对内容分发的平台特定策略的重要性，YouTube 为开发者提供了更多的灵活性，而 Spotify 则为上传维护了一个封闭的生态系统。
 
 **主要引用来源：**
+
 - [Upload a Video YouTube Data API Google for Developers](https://developers.google.com/youtube/v3/guides/uploading_a_video)
 - [Web API Spotify for Developers](https://developer.spotify.com/documentation/web-api)
 - [Publishing audio episodes Spotify](https://support.spotify.com/us/creators/article/publishing-audio-episodes/)

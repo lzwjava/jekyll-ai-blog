@@ -33,20 +33,26 @@ type: note
 以下是区块链日志记录的每一步具体操作：
 
 ### 1. 入口点（ERC-4337 账户抽象）
+
 交易通过 **ERC-4337 账户抽象**（`Entry Point 0.6.0`）发起。这是 Coinbase 智能钱包使用的标准——意味着你的钱包是一个智能合约账户，而非普通的 EOA。你无需自己持有 ETH 支付 Gas 费，而是由 **Paymaster** 赞助 Gas。
 
 ### 2. 你的 Coinbase 智能钱包（发送方）
+
 地址 `0x133243d4...be3C566Eb`——这是你在 Base 上持有 USDC 的 Coinbase 管理智能钱包。它授权了一笔 **10.5 USDC** 的转账。
 
 ### 3. Coinbase Business：支付协议
+
 10.5 USDC 首先进入 Coinbase 的 **Payment Protocol** 合约（`0x0E3dF951...`）。这是 Coinbase 的 x402 支付基础设施——一个基于 Base 构建的 HTTP 支付协议，支持机器对机器的加密货币支付（被 OpenRouter 的 API 计费系统使用）。
 
 ### 4. 费用拆分（通过 x402 路由器 `0x47C5d3fc...`）
+
 支付路由器对资金进行了拆分：
+
 - **0.105 USDC（1%）** → Coinbase 费用接收地址（`0x6D8675A5...`）——这是 Coinbase 的处理费用
 - **10.395 USDC（99%）** → OpenRouter 的接收地址（`0x4C3f2E39...`）
 
 ### 5. Gas 由 Paymaster 赞助
+
 Gas 费（约 $0.004）由 **Paymaster**（`0x2FAEB076...`）支付，因此你的钱包中完全不需要持有 ETH。这就是账户抽象的魔力所在。
 
 ---
@@ -63,6 +69,7 @@ Gas 费（约 $0.004）由 **Paymaster**（`0x2FAEB076...`）支付，因此你�
 | OpenRouter | 收到 10.395 USDC 作为 API 额度 |
 
 这条路径看起来很长，但实际上相当优雅：
+
 - **Coinbase 的 x402 协议**专为 AI API 计费设计——它允许像 OpenRouter 这样的服务按请求收费，无需传统支付通道（你这边不需要 Stripe 账户）
 - **账户抽象**意味着用户零 Gas 摩擦
 - 所有操作在 **Base L2** 上数秒内完成，费用不到半美分

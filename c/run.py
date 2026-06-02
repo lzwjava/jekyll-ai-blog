@@ -11,9 +11,7 @@ def compile_and_run_c():
     try:
         # Compile the C code
         compile_command = ["gcc", c_file, "-o", executable]
-        result = subprocess.run(
-            compile_command, check=True, capture_output=True, text=True
-        )
+        subprocess.run(compile_command, check=True, capture_output=True, text=True)
         print("Compilation successful!")
 
         # Run the executable

@@ -28,12 +28,12 @@ Markdown has become popular due to a confluence of factors that address common n
 **4. Versatility:**
 
 * **Wide Range of Applications:** Despite its simplicity, Markdown can be used to create a variety of documents, including:
-    * Blog posts and articles
-    * Documentation files (like READMEs on GitHub)
-    * Notes and to-do lists
-    * Emails
-    * Presentations
-    * Even simple websites (often used with static site generators)
+  * Blog posts and articles
+  * Documentation files (like READMEs on GitHub)
+  * Notes and to-do lists
+  * Emails
+  * Presentations
+  * Even simple websites (often used with static site generators)
 * **Extensibility:** While the core syntax is simple, many Markdown processors support extensions that add more advanced features like tables, footnotes, and syntax highlighting for code blocks.
 
 **5. Seamless Conversion to HTML:**
@@ -44,11 +44,11 @@ Markdown has become popular due to a confluence of factors that address common n
 **6. Widespread Adoption and Ecosystem:**
 
 * **Popular Platforms:** Many popular platforms and websites have adopted Markdown as their preferred or supported formatting language, including:
-    * GitHub, GitLab, and Bitbucket for README files, issue descriptions, and comments.
-    * Reddit for posts and comments.
-    * Stack Overflow and other Stack Exchange sites for questions and answers.
-    * Many blogging platforms and content management systems (CMS).
-    * Note-taking applications like Obsidian, Typora, and Bear.
+  * GitHub, GitLab, and Bitbucket for README files, issue descriptions, and comments.
+  * Reddit for posts and comments.
+  * Stack Overflow and other Stack Exchange sites for questions and answers.
+  * Many blogging platforms and content management systems (CMS).
+  * Note-taking applications like Obsidian, Typora, and Bear.
 * **Abundant Tools and Support:** The widespread adoption has led to a rich ecosystem of tools and libraries for working with Markdown, including editors, converters, and processors in various programming languages.
 
 **7. Focus on Content Creation:**

@@ -164,6 +164,7 @@ plt.show()
 ```
 
 ### How It Works (Tied to the Paper)
+
 - **DecisionStump**: Weak learner fitting a single split to minimize MSE (like the paper's shallow trees). It brute-forces thresholds for efficiency on small data.
 - **GradientBoostingRegressor**:
   - Starts with \\( F_0 = \bar{y} \\) (squared loss minimizer).

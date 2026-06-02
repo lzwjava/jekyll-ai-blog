@@ -15,6 +15,7 @@ type: note
 您现有的 `sort.html` 已经包含带有9个选项的语言选择器，这非常完美。这里不需要大的改动，但我在 `<span id="post-number">` 中添加了一个小注释，使其更通用（例如，使用"entries"而不是"posts"），因为我们现在包含了笔记。如果需要，这可以通过您的JS动态更新。以下是调整后的版本：
 
 {% raw %}
+
 ```html
 <div class="sort-container">
   <span id="post-number" class="post-number">
@@ -34,6 +35,7 @@ type: note
   </select>
 </div>
 ```
+
 {% endraw %}
 
 **关键更改**：更新了计数以包含 `site.notes.size`（我们将在下面定义这个）。公式保持不变，但现在考虑了笔记。如果您的JS（`index.js`）已经根据可见项动态更新此span，它将自动处理特定语言的计数。
@@ -69,6 +71,7 @@ collections:
 以下是完整的更新后布局：
 
 {% raw %}
+
 ```html
 ---
 layout: page
@@ -121,9 +124,11 @@ layout: page
 {% include footer.html %}
 <script src="/assets/js/index.js"></script>
 ```
+
 {% endraw %}
 
 **关键更改**：
+
 - **语言数组**：`{% assign langs = "en,zh,ja,es,hi,fr,de,ar,hant" | split: "," %}`—与您的选择选项匹配。易于维护。
 - **文章循环**：移除了硬编码的 `en` 过滤器；现在检查每种语言的 `post.path contains "_posts/{{ lang }}/"`。
 - **笔记循环**：以相同方式添加，检查 `note.path contains "_notes/{{ lang }}/"`。将笔记完全视为文章（相同的类、属性、结构）。
@@ -144,12 +149,14 @@ layout: page
 ```
 
 然后，为每个 `<li>` 添加一个 `data-type` 属性：
+
 - 对于文章：`data-type="posts"`
 - 对于笔记：`data-type="notes"`
 
 更新您的 `index.js` 以处理 `#type-select` 的更改（例如，过滤 `.post-item[data-type="notes"]` 以隐藏/显示）。这在不更改Liquid的情况下保持简单。
 
 ### 后续步骤
+
 - 测试：添加一个示例笔记，如 `_notes/es/2025-11-07-tidb-vs-cockroachdb-es.md`，并包含前言数据（标题、日期等），重新构建，并在下拉菜单中选择"Español"—它应该出现。
 - JS调整：确保 `index.js` 通过 `.lang-{value}` 过滤并更新 `#post-number`（例如，计算可见的 `<li>`）。如果它尚未处理笔记，请如上所述添加 `data-type`。
 - 如果路径不同（例如，目录中没有尾随 `/`），请调整 `contains` 检查。

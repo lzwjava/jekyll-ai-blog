@@ -50,6 +50,7 @@ Think of **tool use** as a general orchestration framework where the LLM doesn�
       }
     }
     ```
+
   * User: "What’s the weather in Guangzhou?"
   * LLM: Outputs → `{ "name": "getWeather", "arguments": {"city": "Guangzhou"} }`
   * Your system executes the function and passes results back.

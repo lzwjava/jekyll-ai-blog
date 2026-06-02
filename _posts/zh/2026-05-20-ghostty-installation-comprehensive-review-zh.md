@@ -14,6 +14,7 @@ type: note
 Ghostty 安装 —— 全面评测
 
 版本与来源
+
 - Ghostty 1.3.1（稳定版通道，最新）
 - 从 mkasberg/ghostty-ubuntu PPA 安装（社区维护，维护者同时参与 Ghostty 项目）
 - 添加的 PPA：ppa:mkasberg/ghostty-ubuntu → 固定为 Ubuntu Noble（24.04）—— 正确映射到 Linux Mint 22.3
@@ -79,6 +80,7 @@ sudo apt-get install ghostty
 详情：com.mitchellh.ghostty.metainfo.xml —— 软件中心元数据
 
 构建详情
+
 - Zig 0.15.2 编译器（ReleaseFast）
 - GTK 4.14.5（构建与运行时）
 - libadwaita 1.5.0（已启用）
@@ -98,8 +100,8 @@ background-opacity = 0.92
 window-padding-x = 4
 window-padding-y = 4
 
-
 备注
+
 - PPA 还会安装 libgtk4-layer-shell0 和 libonig5 作为依赖项
 - Shell 集成自动加载（bash：/usr/share/ghostty/shell-integration/bash/）
 - Nautilus 扩展在右键菜单中添加“Open in Ghostty”

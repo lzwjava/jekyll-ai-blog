@@ -32,11 +32,11 @@ These views highlight how minimalism can feel elitist, performative, or limiting
 
 References:
 
-- https://www.reddit.com/r/unpopularopinion/comments/1mymcx1/everything_is_so_bland_corporate_minimalism/
-- https://www.reddit.com/r/unpopularopinion/comments/1ou32yk/most_minimalist_lifestyles_online_are_just/
-- https://www.getgreenbewell.com/minimalist-drop-out-why-i-hate-minimalism/
-- https://www.nytimes.com/2016/07/31/magazine/the-oppressive-gospel-of-minimalism.html
-- https://www.theguardian.com/lifeandstyle/2017/mar/04/minimalism-conspicuous-consumption-class
-- https://www.reddit.com/r/unpopularopinion/comments/198chfe/minimalism_is_and_always_was_a_terrible/
-- https://www.reddit.com/r/unpopularopinion/comments/s1yyw7/i_hate_minimalism/
-- https://www.reddit.com/r/unpopularopinion/comments/1absx08/modern_minimalism_is_just_consumerism_in_disguise/
+- <https://www.reddit.com/r/unpopularopinion/comments/1mymcx1/everything_is_so_bland_corporate_minimalism/>
+- <https://www.reddit.com/r/unpopularopinion/comments/1ou32yk/most_minimalist_lifestyles_online_are_just/>
+- <https://www.getgreenbewell.com/minimalist-drop-out-why-i-hate-minimalism/>
+- <https://www.nytimes.com/2016/07/31/magazine/the-oppressive-gospel-of-minimalism.html>
+- <https://www.theguardian.com/lifeandstyle/2017/mar/04/minimalism-conspicuous-consumption-class>
+- <https://www.reddit.com/r/unpopularopinion/comments/198chfe/minimalism_is_and_always_was_a_terrible/>
+- <https://www.reddit.com/r/unpopularopinion/comments/s1yyw7/i_hate_minimalism/>
+- <https://www.reddit.com/r/unpopularopinion/comments/1absx08/modern_minimalism_is_just_consumerism_in_disguise/>

@@ -15,14 +15,18 @@ type: note
 不过，您可以通过 PowerShell 和 Microsoft Graph API 在命令行中实现此功能。这需要安装 Microsoft Graph PowerShell SDK、使用您的 Microsoft 账户进行身份验证，并运行一个 cmdlet 来更新您的状态。以下是详细步骤：
 
 ### 前提条件
+
 1. 安装 PowerShell（如果尚未安装；Windows 10 及以上版本已内置）。
 2. 以管理员身份打开 PowerShell 并安装模块：
+
    ```
    Install-Module Microsoft.Graph -Scope CurrentUser
    ```
 
 ### 设置您的状态
+
 1. 连接到 Microsoft Graph（这将通过浏览器提示进行身份验证）：
+
    ```
    Connect-MgGraph -Scopes "Presence.ReadWrite"
    ```
@@ -35,21 +39,25 @@ type: note
    - `Offline`（对他人显示为离线）
 
    设置为离线的示例：
+
    ```
    Set-MgUserPresence -UserId "YourUserId" -Presence "Offline"
    ```
 
    设置为离开的示例：
+
    ```
    Set-MgUserPresence -UserId "YourUserId" -Presence "Away"
    ```
 
 3. 完成后断开连接：
+
    ```
    Disconnect-MgGraph
    ```
 
 ### 注意事项
+
 - 这会立即更新您的状态，但可能会根据您的活动重置（例如，空闲时间会触发“离开”状态）。
 - 对于自动化需求（例如，按计划切换状态的脚本），可以将上述命令包装在 `.ps1` 文件中，并通过任务计划程序运行。
 - 如果您还想设置自定义状态消息（例如，“外出午餐”），请使用 `Set-MgUserPresenceStatusMessage`。

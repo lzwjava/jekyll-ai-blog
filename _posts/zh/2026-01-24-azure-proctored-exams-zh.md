@@ -19,6 +19,7 @@ type: note
 与 **Google Cloud Professional Cloud Developer** 最具可比性的 Azure 认证是 **Microsoft Certified: Azure Developer Associate**（考试代码：**AZ-204**）。这是 Azure 上主要针对 Developer 角色设计的认证。
 
 对于 Azure 和 GCP 认证：
+
 - 考试均通过 **Pearson VUE**（与 Google Cloud 使用的考试服务商相同）进行。
 - 你可以从两种主要的交付方式中进行选择：
   - **Online proctored** (OnVUE) —— 在家或办公室远程参加，通过摄像头监控。

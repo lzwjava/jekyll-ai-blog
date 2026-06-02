@@ -29,6 +29,7 @@ Dating in China often blends intense family pressures, economic realities, and s
 These opinions highlight divides between urban elites and rural traditionalists, men vs. women, and locals vs. expats. They're subjective, often from frustrated daters, but reveal how economic strain and collectivism shape China's dating undercurrents.
 
 References:
+
 - [r/AskChina: Dating Expectations in China](https://www.reddit.com/r/AskChina/comments/1lynvdk/what_are_the_dating_expectations_in_china_like/)
 - [r/China: Dating Culture in China](https://www.reddit.com/r/China/comments/pgop3k/dating_culture_in_china/)
 - [Speaking of China: Negative Dating Experiences with Chinese Men](https://www.speakingofchina.com/china-articles/on-my-negative-dating-experiences-with-chinese-men-and-why-im-still-smiling/)

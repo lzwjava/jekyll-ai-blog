@@ -24,6 +24,7 @@ Dify is created by **LangGenius, Inc.**, and both the open-source GitHub project
 ## The Three Deployment Options
 
 ### 1. Dify Cloud (dify.ai — Hosted SaaS)
+
 This is the web portal at dify.ai. Dify.ai offers a cloud-hosted service with a tiered subscription model. You sign up and use it immediately with zero setup. Pricing tiers are roughly:
 
 - **Sandbox (Free):** Trial tier, limited to a small number of apps and storage.
@@ -32,14 +33,17 @@ This is the web portal at dify.ai. Dify.ai offers a cloud-hosted service with a 
 - **Enterprise (Custom Pricing):** Contact sales; unlimited quotas plus advanced features (see below).
 
 ### 2. Self-Hosted Community Edition (Open Source)
+
 Dify's core platform is open-source. You can download it from GitHub and run it on your own servers or cloud instances without paying a license fee. The software is free; you incur only the infrastructure costs to host it. It is deployed via Docker Compose or Kubernetes Helm charts. This is ideal for teams with strict data control requirements or those wanting to avoid recurring SaaS fees.
 
 The repository is available under the Dify Open Source License, which is essentially Apache 2.0 with a few additional restrictions.
 
 ### 3. Enterprise Edition (On-Premises / Private Cloud)
+
 Yes, Dify does offer enterprise deployment. Dify Enterprise delivers the full power of Dify in a secure, customizable, and enterprise-ready package. Built for Kubernetes, this edition supports official Helm chart deployment, giving organizations the flexibility to run Dify on their own cloud infrastructure or in on-premise environments, meeting strict compliance, data residency, and regulatory requirements.
 
 Enterprise features include:
+
 - Multiple workspaces, SSO (SAML and OIDC), deployment assistance, extensive white-labeling, negotiable SLA, model load-balancing, centralized workspace and user management, custom roles, dedicated Slack channel, phone, and email support, and enterprise-level usage insights.
 - Multi-tenant management, two-step verification, and MFA support, along with a paid commercial license that enables full branding customization.
 

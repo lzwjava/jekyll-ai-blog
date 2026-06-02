@@ -94,5 +94,6 @@ OpenAI旧的**Codex**模型早已停用。当前主要使用**GitHub Copilot**�
 * 许多资深工程师会两者兼顾。这并非低效，而是根据风险级别使用合适工具
 
 如果需要，我可以为您量身定制：
-- 针对单体仓库的**VS Code Java启动套件**（extensions.json、settings.json、推荐任务/启动配置）
-- 用于"调用重型机械"场景的IDEA快捷检查清单
+
+* 针对单体仓库的**VS Code Java启动套件**（extensions.json、settings.json、推荐任务/启动配置）
+* 用于"调用重型机械"场景的IDEA快捷检查清单

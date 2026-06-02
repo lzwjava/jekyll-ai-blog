@@ -19,6 +19,7 @@ type: note
 他在X平台（原Twitter）账号@aleks_madry保持活跃，经常分享研究进展，包括近期关于使用小型“代理”模型分析训练数据对大型人工智能系统影响的工作。
 
 ### 参考资料
+
 - [亚历克萨德·马德里个人主页](http://madry.mit.edu/)
 - [马德里实验室](https://madrylab.mit.edu/)
 - [亚历克萨德·马德里领英档案](https://www.linkedin.com/in/aleksander-madry-61115b233)

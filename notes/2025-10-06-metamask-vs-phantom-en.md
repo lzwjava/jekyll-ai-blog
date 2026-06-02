@@ -30,5 +30,6 @@ MetaMask and Phantom are both popular non-custodial crypto wallets that give use
 In summary, choose MetaMask if you're deep into Ethereum/DeFi or need robust developer features. Go for Phantom if you prioritize Solana's speed/low costs, ease of use, or NFT handling.
 
 ### References
+
 - [MetaMask vs. Phantom: Entry-level non-custodial wallets](https://www.cointracker.io/blog/metamask-vs-phantom)
 - [How Do Popular Crypto Wallets like Trust Wallet, Metamask and Phantom Works](https://trustwallet.com/blog/guides/how-do-popular-crypto-wallets-like-trust-wallet-metamask-and-phantom-works)

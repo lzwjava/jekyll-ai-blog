@@ -23,7 +23,7 @@ The key idea is: **dragging blocks does nothing until you “run” the program.
 
 In Scratch (programming language), blocks don’t execute immediately. You must start a script using an **event block**.
 
-### The most common way:
+### The most common way
 
 Look for this block:
 

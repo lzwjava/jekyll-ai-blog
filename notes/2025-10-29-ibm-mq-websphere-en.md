@@ -15,6 +15,7 @@ type: note
 IBM WebSphere Application Server (WAS) supports message queuing through Java Message Service (JMS) integration with IBM MQ (formerly WebSphere MQ). Configuration is typically done via the **WebSphere Integrated Solutions Console** (the administrative interface), accessible at `https://your-server:9043/ibm/console` (default secure port; adjust as needed). This guide focuses on the traditional full-profile WAS (e.g., version 9.0+), but steps are similar for WebSphere Liberty with minor adjustments.
 
 #### Prerequisites
+
 - IBM MQ must be installed, running, and accessible (e.g., queue manager started).
 - WAS server is started, and you have admin access to the console.
 - Download and install the IBM MQ JMS client libraries (e.g., `com.ibm.mq.allclient.jar`) into WAS's shared libraries if not already present (under **Environment > Shared Libraries**).
@@ -23,6 +24,7 @@ IBM WebSphere Application Server (WAS) supports message queuing through Java Mes
 After configuration, save changes (**Save** button at the top) and restart the application server for them to take effect.
 
 #### Step 1: Create a JMS Queue Connection Factory
+
 The connection factory establishes connections to the IBM MQ queue manager.
 
 1. Log in to the WAS Admin Console.
@@ -47,6 +49,7 @@ The connection factory establishes connections to the IBM MQ queue manager.
 10. Click **Test connection** to verify.
 
 #### Step 2: Create a JMS Queue Destination
+
 This defines the actual queue endpoint for sending/receiving messages.
 
 1. In the navigation pane, expand **Resources > JMS > Queues**.
@@ -64,6 +67,7 @@ This defines the actual queue endpoint for sending/receiving messages.
 7. Save the configuration.
 
 #### Step 3: (Optional) Create an Activation Specification for Message-Driven Beans (MDBs)
+
 If using MDBs to consume messages asynchronously:
 
 1. In the navigation pane, expand **Resources > JMS > Activation specifications**.
@@ -84,6 +88,7 @@ If using MDBs to consume messages asynchronously:
 6. Click **OK** and save.
 
 #### Step 4: Verify and Test
+
 - **Test in Console**: Use the **Test connection** on factories and specs.
 - **Deploy an App**: Create a simple JMS client or MDB app, deploy it, and send/test messages via IBM MQ tools (e.g., MQ Explorer).
 - **Monitoring**: Under **Monitoring and Tuning > Performance Viewer** or **Troubleshooting > Logs**, check for JMS-related errors.
@@ -95,6 +100,7 @@ If using MDBs to consume messages asynchronously:
 For command-line alternatives (wsadmin scripting), refer to IBM docs. Tune based on your version (e.g., WAS 9.0.5+ supports JMS 2.0).
 
 #### References
+
 - [Configuring JMS resources in WebSphere Application Server](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)
 - [WebSphere MQ messaging provider queue settings](https://www.ibm.com/docs/en/was/8.5.5?topic=settings-websphere-mq-messaging-provider-queue)
 - [Creating a WebSphere MQ messaging provider queue connection factory](https://help.hcl-software.com/commerce/7.0.0/com.ibm.commerce.integration.doc/tasks/tcvjmsqueuefactory.html)

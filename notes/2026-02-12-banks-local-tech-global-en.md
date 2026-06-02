@@ -17,6 +17,7 @@ Answer:
 Yes, your observation is largely correct — there is a meaningful difference between how most traditional banks operate compared to the big global tech platforms.
 
 ### Traditional Banks (mostly "localized in a global way")
+
 - Most major banks are **national or regional** institutions that expand internationally by creating or acquiring **local subsidiaries**.
 - Examples:
   - HSBC: Operates in many countries but often under different local brands or with heavily localized services (different apps, different websites, different product names and rules in each market).
@@ -29,6 +30,7 @@ Yes, your observation is largely correct — there is a meaningful difference be
 - Result: Even when the parent company is international, the **customer experience is usually not seamless/global**. You cannot necessarily open an account in one country and use exactly the same app/features seamlessly in 50 other countries.
 
 ### Truly "global product" companies (TikTok, Meta, Google, Apple, etc.)
+
 - They operate with **one core product/platform** that is largely the same everywhere (with some regional adaptations for language, content moderation, payment methods, and compliance).
 - Key characteristics:
   - Single global app ID in app stores (one TikTok app, one Instagram app, one Google app ecosystem).
@@ -38,7 +40,9 @@ Yes, your observation is largely correct — there is a meaningful difference be
 - They still make local adjustments (e.g., WeChat Pay / Alipay integration in China, different content rules in EU/India), but the **core product identity and user experience remain highly consistent**.
 
 ### Exceptions and partial exceptions in banking
+
 Some newer fintech / neo-banks are trying to become more "global-product-like":
+
 - Revolut, Wise (TransferWise), N26, bunq — they aim for a more unified app experience across many countries.
 - Still face major limitations: cannot offer full banking services (loans, deposits, etc.) in every country without local licenses → often partner with local banks or limit features by region.
 - Even Revolut (one of the most globalized fintechs) still has different feature sets, different IBANs, and different supported services depending on the country.

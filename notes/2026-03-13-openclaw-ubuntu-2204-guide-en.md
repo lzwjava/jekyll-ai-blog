@@ -20,6 +20,7 @@ Your system (`6.8.0-90-generic #91~22.04.1-Ubuntu SMP`) is running **Ubuntu 22.0
 ## Prerequisites
 
 Minimum system requirements:
+
 - 2 vCPU
 - 2 GB RAM (important: 0.5–1 GB RAM will crash; swap does not fix this)
 - 20 GB SSD

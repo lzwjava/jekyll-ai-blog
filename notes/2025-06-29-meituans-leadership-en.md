@@ -11,6 +11,7 @@ type: note
 Meituan, a leading Chinese technology platform focused on local services such as food delivery, retail, and e-commerce, has a robust leadership structure centered around its founder and key executives, with a history of influential figures driving its growth. Below is a detailed list of current and historical key executives and figures associated with Meituan, including Wang Xing, Mu Rongjun, and Tony Qiu, as well as other significant contributors, both present and past. The list is based on available information from Meituan’s corporate structure, public records, and its evolution since its founding in 2010. Note that providing an exact list of 20–30 individuals is challenging due to limited public data on all current and historical figures, but I’ve compiled as comprehensive a list as possible, focusing on the most prominent names.
 
 ### Current Key Executives and Directors
+
 1. **Wang Xing (王興)**
    - **Role**: Co-founder, Chairman, Chief Executive Officer, and Executive Director
    - **Details**: Founded Meituan in 2010, inspired by Groupon. Wang Xing is the driving force behind Meituan’s strategic vision, overseeing overall planning, business direction, and international expansion, including the Keeta platform. A serial entrepreneur, he previously founded Xiaonei (a Facebook-like platform sold to Renren) and Fanfou (a Twitter-like platform). He holds a bachelor’s degree from Tsinghua University and a master’s from the University of Delaware. Wang is known for his focus on efficiency, technology-driven solutions, and aggressive market expansion. As of 2025, he personally leads Meituan’s overseas ventures, including Keeta’s expansion into markets like Saudi Arabia and Brazil.[](https://thelowdown.momentum.asia/meituans-keeta-will-expand-into-uae-qatar-and-kuwait-says-founder-wang-xing/)[](https://www.forbes.com/profile/wang-xing/)[](https://thebambooworks.com/meituan-prepares-for-overseas-voyage-with-ceo-wang-xing-as-captain/)
@@ -72,6 +73,7 @@ Meituan, a leading Chinese technology platform focused on local services such as
     - **Details**: Appointed to enhance corporate governance and strategic oversight, though specific details on her contributions are limited in public records.[](https://www.meituan.com/en-US/investor-relations)
 
 ### Historical Key Figures (No Longer with Meituan)
+
 16. **Wang Huiwen (王慧文)**
     - **Role**: Co-founder, Former Non-executive Director, and Senior Vice President
     - **Details**: A key figure in Meituan’s early development, Wang Huiwen was Wang Xing’s college roommate at Tsinghua University and co-founded Xiaonei and Taofang.com with him. He led Meituan’s on-demand delivery and new initiatives until his retirement in December 2020 for health reasons. He remained a non-executive director until June 2023, contributing to strategic planning and talent development. His departure marked a significant transition for Meituan’s leadership.[](https://meituan.todayir.com/html/board.php)[](https://thebambooworks.com/meituan-prepares-for-overseas-voyage-with-ceo-wang-xing-as-captain/)[](https://technode.com/2020/01/30/from-bad-tsinghua-student-to-wang-xings-right-hand-man/)
@@ -93,6 +95,7 @@ Meituan, a leading Chinese technology platform focused on local services such as
     - **Details**: A secondary school classmate of Wang Xing, Lai worked with him on Taofang.com and joined Meituan’s early team. His contributions were significant in the company’s startup phase, though he is no longer active at Meituan.[](https://technode.com/2020/01/30/from-bad-tsinghua-student-to-wang-xings-right-hand-man/)
 
 ### Additional Notes
+
 - **S-team (Senior Leadership Team)**: Meituan’s highest decision-making body currently includes Wang Xing, Mu Rongjun, Wang Puzhong, Chen Shaohui, Zhang Chuan, Chen Liang, Guo Wanhuai, and Li Shubin. This group deliberates on strategy, personnel, and new business development.[](https://www.moomoo.com/news/post/7205784/deep-good-text-who-is-managing-meituan-wang-xing-seven)[](https://news.futunn.com/en/post/11759167/in-depth-good-article-who-is-managing-meituan-wang-xing)
 - **G-team (Commodity Group)**: A smaller retail-focused group established in October 2021, comprising Wang Xing, Wang Puzhong, Chen Liang, Guo Wanhuai, and Li Shubin, focusing on retail-related decisions.[](https://www.moomoo.com/news/post/7205784/deep-good-text-who-is-managing-meituan-wang-xing-seven)[](https://news.futunn.com/en/post/11759167/in-depth-good-article-who-is-managing-meituan-wang-xing)
 - **Historical Context**: Meituan’s growth involved sidelining or outlasting competitors and acquired company leaders, such as Zhang Tao of Dianping. Wang Xing’s strategy of efficiency, technology, and horizontal expansion has shaped the executive team’s composition, favoring long-term loyalists.[](https://thebambooworks.com/meituan-prepares-for-overseas-voyage-with-ceo-wang-xing-as-captain/)[](https://cxp.asia/2021/08/24/the-story-of-meituan-chinas-other-super-app/)
@@ -100,9 +103,11 @@ Meituan, a leading Chinese technology platform focused on local services such as
 - **Tony Qiu’s Role**: As Keeta’s CEO, Tony Qiu is a relatively new figure in Meituan’s public-facing leadership, with sparse biographical details available. His prominence stems from Keeta’s strategic importance in Meituan’s global ambitions.
 
 ### Challenges in Meeting the 20–30 Count
+
 The request for 20–30 key people is difficult to fulfill precisely due to Meituan’s centralized leadership structure and limited public disclosure of lower-tier executives. Meituan does not have roles like CTO, CMO, or CPO, consolidating responsibilities under business unit heads. Historical figures are also limited to those involved in early ventures or major acquisitions like Dianping. The 20 individuals listed above cover the most significant current and past contributors based on available data. If more names surface in future reports, they could include additional S-team members or regional leaders for Keeta’s international operations.
 
 ### Sources
+
 The information is compiled from various sources, including Meituan’s investor relations, Wikipedia, and news articles, ensuring accuracy and relevance. Key references include:.[](https://meituan.todayir.com/html/board.php)[](https://thelowdown.momentum.asia/meituans-keeta-will-expand-into-uae-qatar-and-kuwait-says-founder-wang-xing/)[](https://equalocean.com/news/2024092921132)
 
 If you need deeper analysis on specific individuals or Meituan’s organizational structure, let me know!

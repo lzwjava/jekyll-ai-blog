@@ -55,6 +55,7 @@ Very intuitive, does the same as method 1.
 ### 4. If you want Job B to run even if Job A fails (rare)
 
 Use two conditions from Job A:
+
 - On OK → add condition `A-OK`
 - On NOTOK → add condition `A-NOTOK`
 

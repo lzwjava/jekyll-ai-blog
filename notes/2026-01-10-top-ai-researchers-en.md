@@ -27,6 +27,7 @@ Alec Radford independently built the GPT-1 model and led the development of GPT-
 ## Key Researchers and Leaders
 
 **Academic/Research Contributors:**
+
 - Andrew Ng - co-founder of Coursera and DeepLearning.ai, former head of Google Brain and Chief Scientist at Baidu
 - Fei-Fei Li - creator of ImageNet and ImageNet Challenge, inaugural Sequoia Professor at Stanford
 - Demis Hassabis - founder and CEO of DeepMind, known for AlphaGo and AlphaFold
@@ -38,6 +39,7 @@ Alec Radford independently built the GPT-1 model and led the development of GPT-
 - Andrej Karpathy - former Director of AI at Tesla and founding member of OpenAI
 
 **Industry Leaders:**
+
 - Sam Altman - CEO and co-founder of OpenAI
 - Dario Amodei - co-founder and CEO of Anthropic (creator of Claude)
 - Daniela Amodei - co-founder of Anthropic
@@ -45,6 +47,7 @@ Alec Radford independently built the GPT-1 model and led the development of GPT-
 - Jensen Huang - CEO of Nvidia
 
 **Other Notable Contributors:**
+
 - Jeremy Howard - co-founder of fast.ai
 - Lex Fridman - AI researcher at MIT
 - Mustafa Suleyman - co-founder of DeepMind

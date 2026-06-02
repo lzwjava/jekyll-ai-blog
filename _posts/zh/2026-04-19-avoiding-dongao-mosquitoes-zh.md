@@ -27,18 +27,18 @@ type: note
 
 ## 你可以采取的不同做法
 
-1.  **安排一日游**：既然你是上午11点到达，你本可以游览海滩、品尝海鲜，然后搭乘下午4-5点的渡轮返回，无需住宿。
-2.  **携带驱蚊防护用品**：驱蚊剂、长袖衣裤会显著减少叮咬。
-3.  **提前预订住宿**：如果你想过夜，提前预订可能会让你有更好的选择，甚至可能获得更优惠的价格。
-4.  **选择住在珠海**：许多旅行者建议这种方式，只乘渡轮前往进行一日游览。
+1. **安排一日游**：既然你是上午11点到达，你本可以游览海滩、品尝海鲜，然后搭乘下午4-5点的渡轮返回，无需住宿。
+2. **携带驱蚊防护用品**：驱蚊剂、长袖衣裤会显著减少叮咬。
+3. **提前预订住宿**：如果你想过夜，提前预订可能会让你有更好的选择，甚至可能获得更优惠的价格。
+4. **选择住在珠海**：许多旅行者建议这种方式，只乘渡轮前往进行一日游览。
 
 你觉得这应该是一次一日游的直觉是完全正确的。有限的平价住宿选择、蚊子高峰期以及岛屿面积较小，使得这里更适合当日往返的游览，而非过夜停留。
 
 参考文献：
 
--   https://link.springer.com/article/10.1186/s13071-020-04326-5
--   https://www.tripadvisor.com/Attraction_Review-g297418-d550737-Reviews-Dong_ao_Island-Zhuhai_Guangdong.html
--   https://www.trip.com/travel-guide/new-attraction/zhuhai/dong-ao-island-75888/
--   https://www.trip.com/moments/poi-dong-ao-island-75888/
--   https://www.tripadvisor.com/ShowTopic-g297418-i10040-k7154878-From_Zhuhai_to_Dong_ao_Island-Zhuhai_Guangdong.html
--   https://www.chinadaily.com.cn/specials/TimetableofFerriesManagedbyZhuhaiHigh-SpeedPassengerLiner.pdf
+- <https://link.springer.com/article/10.1186/s13071-020-04326-5>
+- <https://www.tripadvisor.com/Attraction_Review-g297418-d550737-Reviews-Dong_ao_Island-Zhuhai_Guangdong.html>
+- <https://www.trip.com/travel-guide/new-attraction/zhuhai/dong-ao-island-75888/>
+- <https://www.trip.com/moments/poi-dong-ao-island-75888/>
+- <https://www.tripadvisor.com/ShowTopic-g297418-i10040-k7154878-From_Zhuhai_to_Dong_ao_Island-Zhuhai_Guangdong.html>
+- <https://www.chinadaily.com.cn/specials/TimetableofFerriesManagedbyZhuhaiHigh-SpeedPassengerLiner.pdf>

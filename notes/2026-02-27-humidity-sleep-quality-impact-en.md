@@ -42,6 +42,7 @@ Here are the main reasons why:
 - Very uncomfortable / poor sleep for most: **>75–80%**
 
 **Quick fixes people commonly use when humidity is high:**
+
 - Run a dehumidifier
 - Use air conditioning (which also dehumidifies)
 - Point a fan directly on the body (helps move moist air away)
@@ -51,4 +52,5 @@ Here are the main reasons why:
 So yes — high humidity is widely considered one of the most common environmental reasons people sleep badly, especially in tropical, subtropical, or very muggy summer conditions.
 
 References:
+
 - None (general sleep science and thermal comfort knowledge)

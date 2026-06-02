@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Using the Settings App (Windows 10 & 11)
+
 This is the most straightforward method.
 
 1. Open **Settings** (press Windows key + I).
@@ -20,6 +21,7 @@ This is the most straightforward method.
 This disables the feature system-wide. Restarting is not required, but test it by pressing Shift five times to ensure no prompt appears.
 
 ### Using Control Panel (Windows 10 & 11)
+
 For an alternative approach:
 
 1. Search for **Control Panel** in the Start menu and open it.
@@ -28,11 +30,13 @@ For an alternative approach:
 4. Click **Apply** > **OK**.
 
 ### Bypassing the Sticky Keys Prompt
+
 If Sticky Keys keeps popping up (e.g., after pressing Shift five times):
 
 - Simply tap **Cancel** or **No** on the prompt when it appears. If that doesn't work, disable it via Settings or Control Panel as above.
 
 ### Via Registry (Advanced, Windows 10 & 11)
+
 For power users (backup your registry first, as misuse can cause issues):
 
 1. Press Windows key + R, type `regedit`, and press Enter.

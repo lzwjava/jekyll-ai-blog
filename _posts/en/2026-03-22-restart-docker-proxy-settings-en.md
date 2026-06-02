@@ -16,6 +16,7 @@ Sure, here's the full breakdown:
 ## Root Cause: Docker Daemon Proxy Not Applied
 
 ### The Error
+
 ```
 Get "https://auth.docker.io/token?account=lzwjava&scope=repository%3Alibrary%2Fnode%3Apull&service=registry.docker.io": EOF
 ```
@@ -50,6 +51,7 @@ Your machine runs **mihomo** (a Clash-based proxy) on `localhost:7890`. The `dae
 But here's the thing — **Docker daemon doesn't hot-reload proxy config from `daemon.json`**. When you edit `daemon.json`, the running `dockerd` process doesn't pick up the changes. The proxy settings were only *written*, never *applied* to the running daemon.
 
 I confirmed the proxy itself worked fine:
+
 ```
 $ curl -x http://localhost:7890 https://registry-1.docker.io/v2/
 {"errors":[{"code":"UNAUTHORIZED","message":"authentication required"}]}

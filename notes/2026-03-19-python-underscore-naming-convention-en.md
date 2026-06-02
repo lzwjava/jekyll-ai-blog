@@ -45,6 +45,7 @@ One **concrete, enforced** behavior of `_func` is its effect on imports:
 Python does not import names that begin with a single underscore if you import all the methods and names from a module using `from module import *`.
 
 Example:
+
 ```python
 # mymodule.py
 def public_func():
@@ -67,15 +68,18 @@ This makes `_func` directly analogous to "not exported" — which is exactly wha
 ## The Full Underscore System in Python
 
 The following special forms using leading or trailing underscores are recognized in Python:
+
 - `_single_leading_underscore`: weak "internal use" indicator
 - `single_trailing_underscore_`: used to avoid conflicts with Python keywords
 - `__double_leading_underscore`: when naming a class attribute, invokes name mangling
 - `__double_leading_and_trailing_underscore__`: "magic" objects or attributes
 
 ### Single Underscore `_func` — "Protected / Internal"
+
 If you want to indicate that an attribute or method is intended for use within the class and its subclasses but not for external use, prefix it with a single underscore (`_`). This signals to other developers that the attribute or method is "protected" and should not be accessed directly.
 
 ### Double Underscore `__func` — "Private with Name Mangling"
+
 If you want to make an attribute or method less accessible outside the class to avoid accidental modification or usage, prefix it with a double underscore (`__`). This triggers name mangling and makes it harder (but not impossible) to access the attribute or method from outside the class.
 
 For example, `__method` inside `class Foo` becomes `_Foo__method` internally — it can still be accessed if you know the mangled name, but it prevents accidental collisions in subclasses.

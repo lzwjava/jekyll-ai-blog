@@ -16,15 +16,18 @@ type: note
 ---
 
 **Shebang 与元数据**
+
 ```bash
 #!/usr/bin/env bash
 # ~/.hermes/agent-hooks/on-agent-done.sh
 ```
+
 保存至 `~/.hermes/agent-hooks/`——这是 Hermes 监视生命周期钩子的目录。该钩子会在每次 LLM 调用完成后自动运行。
 
 ---
 
 **读取负载**
+
 ```bash
 payload="$(cat -)"
 ```
@@ -34,6 +37,7 @@ payload="$(cat -)"
 ---
 
 **通过内嵌 Python 提取数据**
+
 ```bash
 extracted=$(echo "$payload" | python3 -c "...")
 ```
@@ -49,6 +53,7 @@ extracted=$(echo "$payload" | python3 -c "...")
 ---
 
 **构造通知**
+
 ```bash
 subtitle="msg: ${user_preview}  |  turns: ${hist_count}"
 ```
@@ -58,6 +63,7 @@ subtitle="msg: ${user_preview}  |  turns: ${hist_count}"
 ---
 
 **macOS 通知**
+
 ```bash
 terminal-notifier \
   -title "Hermes Agent — ${dirname}" \
@@ -82,6 +88,7 @@ terminal-notifier \
 ---
 
 **钩子系统要求**
+
 ```bash
 printf '{}\n'
 ```

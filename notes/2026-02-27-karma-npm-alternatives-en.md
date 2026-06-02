@@ -18,11 +18,13 @@ Karma (package name: **karma**) is a popular (though now **deprecated**) JavaScr
 Note: As of 2024–2026, the Karma project is officially deprecated and no longer receives new features or general bug fixes. The community recommends migrating to modern alternatives like **Web Test Runner**, **Jest**, or **Vitest**.
 
 ### Core package
+
 - **karma**
   → The main test runner itself
   → npmjs.com/package/karma
 
 ### Most commonly used related packages (typical Angular / classic setup)
+
 - **karma-jasmine** — Adapter for the Jasmine testing framework
 - **jasmine-core** — The actual Jasmine library (usually installed alongside)
 - **karma-chrome-launcher** — Launches Chrome / Chromium
@@ -30,6 +32,7 @@ Note: As of 2024–2026, the Karma project is officially deprecated and no longe
 - **karma-coverage** — Code coverage reports using Istanbul
 
 ### Other popular / classic Karma plugins
+
 - **karma-mocha** — Adapter for Mocha
 - **karma-qunit** — Adapter for QUnit
 - **karma-junit-reporter** — JUnit XML reporter (CI / Jenkins friendly)
@@ -41,6 +44,7 @@ Note: As of 2024–2026, the Karma project is officially deprecated and no longe
 - **karma-ng-html2js-preprocessor** — Compiles Angular templates to JS
 
 ### Searching for more
+
 There are **over 1000 packages** related to Karma on npm. You can discover them by searching:
 
 ```bash
@@ -50,6 +54,7 @@ npm search karma-plugin
 ```
 
 Most plugins follow one of these naming patterns:
+
 - `karma-*` (e.g. karma-jasmine, karma-chrome-launcher)
 - Contain the keyword `karma-plugin` in package.json
 

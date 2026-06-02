@@ -29,6 +29,7 @@ Yes, it is **possible** to use 5 TL-XDR3050 (EasyMesh edition) routers to form a
   - **Wired/Ethernet backhaul** (推荐): 尽可能通过 Ethernet cables 连接 nodes —— 这能为 5 个以上的 nodes 提供全速性能和更好的稳定性。如果您的房屋预埋了 Ethernet 线或可以布线，5 个 nodes 的表现将非常出色。
 
 **Recommendation**:
+
 - 建议先从 **3–4 台** 开始，进行策略性摆放（主 router 靠近 modem，其他放置在中心或信号较弱的区域）。
 - 使用 Wi-Fi analyzer app 测试覆盖情况。
 - 只有在仍然存在死角的情况下才添加第 5 台。

@@ -34,9 +34,9 @@ def extract_post_base_name(filename):
 def count_headers(content):
     """Count markdown headers (#, ##, ###) and return counts."""
     lines = content.splitlines()
-    h1 = sum(1 for l in lines if re.match(r"^#\s+\S", l.strip()))
-    h2 = sum(1 for l in lines if re.match(r"^##\s+\S", l.strip()))
-    h3 = sum(1 for l in lines if re.match(r"^###\s+\S", l.strip()))
+    h1 = sum(1 for line in lines if re.match(r"^#\s+\S", line.strip()))
+    h2 = sum(1 for line in lines if re.match(r"^##\s+\S", line.strip()))
+    h3 = sum(1 for line in lines if re.match(r"^###\s+\S", line.strip()))
     total = h1 + h2 + h3
     return {"h1": h1, "h2": h2, "h3": h3, "total": total}
 

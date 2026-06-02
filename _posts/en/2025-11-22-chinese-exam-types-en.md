@@ -36,8 +36,8 @@ These questions require you to analyze and interpret the texts included in the s
 * **Fill-in-the-Blanks (填空题):** Often used for famous lines, key concepts, or author/work titles.
 * **Term Explanation (名词解释/解释题):** Requires a brief, accurate explanation of a literary term, an important phrase, or a key concept from the text.
 * **Passage Reading Comprehension/Analysis (阅读理解题/简答题):**
-    * You will be given a passage from a text in the syllabus and asked to **paraphrase** key sentences, **analyze** the content/theme, or **discuss** the artistic features/style.
-    * This is a **major** section that tests your ability to understand and explain the meaning and aesthetic value of the classic texts.
+  * You will be given a passage from a text in the syllabus and asked to **paraphrase** key sentences, **analyze** the content/theme, or **discuss** the artistic features/style.
+  * This is a **major** section that tests your ability to understand and explain the meaning and aesthetic value of the classic texts.
 
 ---
 
@@ -53,8 +53,8 @@ This is the **most significant** and highest-scoring question.
 
 To prepare effectively, you should focus your efforts on:
 
-1.  **Memorizing** key quotes, literary terms, and author/work pairings.
-2.  **Practicing** paraphrasing and analyzing the literary techniques (like imagery, metaphor, etc.) and themes of the required texts.
-3.  **Honing** your composition skills by practicing different types of essays (narrative, argumentative, descriptive).
+1. **Memorizing** key quotes, literary terms, and author/work pairings.
+2. **Practicing** paraphrasing and analyzing the literary techniques (like imagery, metaphor, etc.) and themes of the required texts.
+3. **Honing** your composition skills by practicing different types of essays (narrative, argumentative, descriptive).
 
 Would you like me to search for the specific **study syllabus** or **recommended textbooks** for the 04729 College Chinese exam?

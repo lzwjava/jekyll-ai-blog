@@ -17,9 +17,11 @@ Below is a comprehensive introduction to Kevin Sun, a competitive programmer, cr
 **Kevin Sun**, widely recognized in the competitive programming community under his handle **ksun48**, is a Canadian-born programmer and mathematician celebrated for his extraordinary achievements in international coding and mathematical contests. Currently based in the United States, Sun has made a significant mark through his academic journey at the **Massachusetts Institute of Technology (MIT)** and his stellar performance in competitions like the **International Olympiad in Informatics (IOI)** and the **International Collegiate Programming Contest (ICPC)**. Notably, Kevin Sun does not work at Google or Facebook, focusing instead on his competitive programming career, academic pursuits, and contributions to the programming community.
 
 #### Early Life and Education
+
 Born in Canada in 1997, Kevin Sun moved to the United States at age 10 with his family. His passion for problem-solving emerged early, excelling in mathematics by age 9 and diving into competitive programming at 12. This dual interest laid a strong foundation for his later success. Sun pursued his higher education at **MIT**, majoring in **computer science and mathematics**, where he sharpened his skills in algorithms and theoretical problem-solving amidst a community of top-tier talent.
 
 #### Competitive Programming Achievements
+
 Kevin Sun’s record in competitive programming is nothing short of remarkable, earning him a reputation as one of the field’s brightest stars. His key accomplishments include:
 
 - **International Olympiad in Informatics (IOI)**: Sun achieved an unprecedented **three gold medals** in 2014 (Taiwan), 2015 (Kazakhstan), and 2016 (Russia), along with an earlier **silver medal**. His trio of golds is a rare feat, distinguishing him as one of the most successful IOI participants ever.
@@ -30,6 +32,7 @@ Kevin Sun’s record in competitive programming is nothing short of remarkable, 
 Sun’s consistent excellence across platforms like Codeforces and Topcoder, combined with his competition winnings (estimated at **$15,000**), places him among elite programmers worldwide.
 
 #### Academic and Community Contributions
+
 At MIT, Sun leveraged his education to deepen his expertise in algorithms and mathematics, contributing to the university’s strong competitive programming legacy. Beyond academics, he has enriched the programming community in several ways:
 
 - **Educational Resources**: Through his website (**kevinsun.org**), Sun shares detailed **algorithm and discrete mathematics notes**, designed for undergraduate learners. Covering topics like graph algorithms, dynamic programming, and greedy methods, these resources are accessible yet rigorous, drawing from foundational texts.
@@ -39,9 +42,11 @@ At MIT, Sun leveraged his education to deepen his expertise in algorithms and ma
 While Sun has received job offers from major tech firms, there is no evidence that he is employed at Google or Facebook, aligning with the user’s specification.
 
 #### Mathematical Prowess
+
 In addition to programming, Sun has a stellar record in mathematics, earning **three gold medals (2014–2016)** and a **bronze medal (2013)** at the **International Mathematical Olympiad (IMO)**. This rare dual mastery of IOI and IMO underscores his exceptional analytical abilities.
 
 #### Legacy and Ongoing Impact
+
 Kevin Sun’s unique achievements—**three IOI golds**, an **ICPC gold**, and multiple **IMO medals**—set him apart as a polymath in competitive problem-solving. His contributions at MIT and beyond, from mentoring through educational content to maintaining an active presence on Codeforces, highlight his commitment to the field. As of May 2025, Sun continues to solve problems and engage with the community, with his MIT background paving the way for a promising future in technology, independent of employment at Google or Facebook.
 
 ---

@@ -14,6 +14,7 @@ Here’s how you can describe and compare the traditional stovetop pressure cook
 ---
 
 ### **Traditional Stovetop Pressure Cooker (Early 2000s, Guangdong Village)**
+
 - **Material**: Made of stainless steel, heavy and durable.
 - **Design**: Simple, with a screw-on lid that seals tightly. The lid often had a pressure valve (a small weight or spring-loaded mechanism) that would rattle or release steam when pressure built up.
 - **Heat Source**: Placed on a gas or wood stove. Required manual adjustment of heat to maintain pressure.
@@ -24,6 +25,7 @@ Here’s how you can describe and compare the traditional stovetop pressure cook
 ---
 
 ### **Modern Electric Pressure Cooker (e.g., Instant Pot, 2020s)**
+
 - **Material**: Stainless steel inner pot, but with plastic or digital components for controls.
 - **Design**: Sleek, with a locking lid and digital interface. Often includes multiple safety features (e.g., auto-pressure release, lid-lock sensors).
 - **Heat Source**: Electric heating element built into the base. No need for a stove.

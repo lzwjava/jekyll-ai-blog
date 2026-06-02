@@ -15,6 +15,7 @@ This guide covers the key concepts from the chapter on Combinational Logic Circu
 ## 1. Analysis and Design of Combinational Logic
 
 ### Analysis
+
 Analysis involves determining the output behavior of a given circuit from its gate-level description.
 
 - **Truth Tables**: The foundation of analysis. List all possible input combinations and compute outputs.
@@ -35,6 +36,7 @@ Analysis involves determining the output behavior of a given circuit from its ga
   - Reduces to Sum-of-Products (SOP) or Product-of-Sums (POS) form.
 
 ### Design
+
 Design starts from a problem specification (e.g., truth table or word description) and builds the circuit.
 
 - **Steps**:
@@ -56,6 +58,7 @@ Design starts from a problem specification (e.g., truth table or word descriptio
     | 1 | 1 | 1 |   1    |
 
   - K-Map (for SOP):
+
     ```
     CD\AB | 00 | 01 | 11 | 10
     ------|----|----|----|----
@@ -64,6 +67,7 @@ Design starts from a problem specification (e.g., truth table or word descriptio
     11    | 0  | 1  | 1  | 1
     10    | 0  | 1  | 1  | 0
     ```
+
     (Rows/cols labeled by Gray code.)
 
   - Simplified: F = AB + AC + BC.
@@ -76,6 +80,7 @@ Tips: Always verify with simulation or re-analyze the final circuit.
 These are standard building blocks for larger systems, reducing design complexity.
 
 ### Encoders
+
 - Convert active input(s) to binary code.
 - Example: 4-to-2 Line Priority Encoder (inputs: Y3, Y2, Y1, Y0; outputs: A1, A0; valid flag V).
   - Truth Table:
@@ -92,6 +97,7 @@ These are standard building blocks for larger systems, reducing design complexit
   - Use: Keyboard input to binary.
 
 ### Decoders
+
 - Opposite of encoders: Binary input to one-hot output (activate one line).
 - Example: 2-to-4 Decoder (inputs: A1, A0; outputs: D0-D3).
   - Truth Table:
@@ -107,6 +113,7 @@ These are standard building blocks for larger systems, reducing design complexit
   - Use: Memory addressing, 7-segment display drivers.
 
 ### Multiplexers (MUX)
+
 - Select one of many inputs to a single output based on select lines.
 - Example: 4-to-1 MUX (inputs: I0-I3; selects: S1, S0; output: Y).
   - Truth Table:
@@ -127,6 +134,7 @@ These are standard building blocks for larger systems, reducing design complexit
 Hazards are unwanted glitches (temporary incorrect outputs) due to timing differences in gate delays, even if the steady-state logic is correct.
 
 ### Types of Hazards
+
 - **Static Hazard**: Output should stay constant (0→0 or 1→1) but glitches.
   - Static-1: Due to missing product term in SOP (e.g., transition where two terms overlap insufficiently).
 - **Dynamic Hazard**: Output should change (0→1 or 1→0) but oscillates multiple times.
@@ -137,6 +145,7 @@ Hazards are unwanted glitches (temporary incorrect outputs) due to timing differ
 Example: SOP circuit F = AB + A'C (static-1 hazard on A=1, B:0→1, C=1; glitch if AB term delays).
 
 ### Elimination Methods
+
 - **Add Redundant Terms (Hazard Covers)**:
   - In K-Map, add extra implicants to cover transitions (e.g., add AC for the example: F = AB + A'C + AC).
   - Ensures overlap during changes; increases gate count but eliminates glitches.
@@ -153,6 +162,7 @@ Example: SOP circuit F = AB + A'C (static-1 hazard on A=1, B:0→1, C=1; glitch 
 Tips: Hazards are critical in high-speed designs; always check single-input changes.
 
 ## Summary and Practice Tips
+
 - **Key Takeaway**: Combinational logic is about mapping inputs to outputs efficiently. Master truth tables and K-Maps—they're used everywhere.
 - **Practice**: Design a full adder using MUX; analyze a decoder for hazards.
 - **Next Steps**: Move to sequential logic for memory elements.

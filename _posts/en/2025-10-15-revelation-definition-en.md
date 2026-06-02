@@ -13,6 +13,7 @@ type: note
 ### Definition of "Revelation"
 
 **Noun**:
+
 1. **A surprising and previously unknown fact**: Something that is disclosed or revealed, often unexpectedly, that changes one's understanding or perspective.
    *Example*: "The scientist's discovery was a revelation in the field of biology."
 

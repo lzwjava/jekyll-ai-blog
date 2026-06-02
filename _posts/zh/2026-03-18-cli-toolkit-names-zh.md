@@ -25,7 +25,6 @@ type: note
 | **px** | `px note` | "personal exec" |
 | **rx** | `rx note` | "run exec" 或 "recipe" |
 
-
 ---
 
 ### 🔧 工具 / 套件主题
@@ -41,7 +40,6 @@ type: note
 | **anvil** | `anvil` | 工作进行的地方 |
 | **lathe** | `lathe` | 精密加工 |
 | **scaffold** | `scaffold` | 为你的工作构建结构 |
-
 
 ---
 
@@ -60,7 +58,6 @@ type: note
 | **autopilot** | `autopilot` | 自动化你的工作 |
 | **playbook** | `playbook` | 像 Ansible playbook |
 
-
 ---
 
 ### 🧠 LLM / AI 感知（因为有些脚本使用 LLM）
@@ -73,7 +70,6 @@ type: note
 | **assistkit** | `assistkit` | 助手工具包 |
 | **smartkit** | `smartkit` | 智能 + kit |
 | **botkit** | `botkit` | 已知 JS 库，避免 |
-
 
 ---
 
@@ -92,7 +88,6 @@ type: note
 | **den** | `den` | 个人工具藏身处 |
 | **arsenal** | `arsenal` | 强大工具集合 |
 
-
 ---
 
 ### 🌐 跨平台提示名称
@@ -107,7 +102,6 @@ type: note
 | **omnikit** | `omnikit` | Omni = 无处不在 |
 | **anykit** | `anykit` | 任何地方可用 |
 
-
 ---
 
 ### 🎯 精选短名单 — 最佳整体选择
@@ -121,7 +115,6 @@ type: note
 | 5 | **xkit** | 名称内置跨平台信号 |
 | 6 | **dokit** | `dokit note` 阅读自然 |
 | 7 | **runbook** | 专业，DevOps 共鸣 |
-
 
 ---
 

@@ -59,18 +59,22 @@ For detailed guidance, refer to Google’s official [Publish an App](https://dev
 Obfuscation makes your Java code harder to reverse-engineer by renaming classes, methods, and variables to meaningless strings, shrinking unused code, and optimizing it. Here’s how to do it:
 
 #### Why Obfuscate?
+
 - Protects intellectual property by making decompiled code less readable.
 - Reduces APK size by removing unused code.
 - Note: It’s not full security—sensitive data (e.g., API keys) should be encrypted or handled server-side.
 
 #### Tools for Obfuscation
+
 - **ProGuard**: A widely used tool bundled with Android Studio for shrinking, obfuscating, and optimizing code.
 - **R8**: The modern replacement for ProGuard (default since Android Gradle Plugin 3.4.0), offering similar features with better optimization.
 
 #### How to Obfuscate
+
 1. **Enable Obfuscation in Your Project**:
    - Open your app’s `build.gradle` file (usually `app/build.gradle`).
    - In the `buildTypes` section, enable `minifyEnabled` for the release build:
+
      ```gradle
      android {
          buildTypes {
@@ -81,12 +85,14 @@ Obfuscation makes your Java code harder to reverse-engineer by renaming classes,
          }
      }
      ```
+
    - `minifyEnabled true` activates R8 (or ProGuard if explicitly configured).
    - `proguardFiles` specifies rules for customization.
 
 2. **Customize Rules (Optional)**:
    - Edit the `proguard-rules.pro` file in your app’s root directory.
    - Add rules to keep specific classes or methods un-obfuscated if needed (e.g., for reflection or third-party libraries). Example:
+
      ```proguard
      -keep class com.example.MyClass { *; }
      ```
@@ -99,6 +105,7 @@ Obfuscation makes your Java code harder to reverse-engineer by renaming classes,
    - Decompile your APK (e.g., with APKTool or JADX) to ensure class/method names are obscured.
 
 #### Limitations
+
 - Obfuscation doesn’t prevent all reverse-engineering; determined attackers can still analyze behavior.
 - Avoid storing sensitive data in code—use secure alternatives instead.
 

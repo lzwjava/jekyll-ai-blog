@@ -30,6 +30,7 @@ Here are the most common daily-use scenarios where your GPU is heavily working (
 | Browser games & WebApps   | Canva, Figma, Photoshop on the web, Google Earth                 | Everything is rendered with WebGL/WebGPU                |
 
 ### Bonus: Things you probably didn’t realize use the GPU a lot
+
 - Windows 11 / macOS animations (blur, acrylic, window snapping)
 - Multiple 4K/8K monitors (just driving the pixels needs GPU power)
 - Antivirus full scans (some like Windows Defender use GPU for ML-based detection now)

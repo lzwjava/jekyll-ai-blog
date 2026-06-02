@@ -23,6 +23,7 @@ python sample.py --init_from=gpt2-medium --start="Hello, my name is" --num_sampl
 其他有效取值：`gpt2`（124M）、`gpt2-medium`（350M）、`gpt2-large`（774M）、`gpt2-xl`（1558M）。
 
 常用参数：
+
 - `--device=cuda`（默认）或 `--device=cpu`
 - `--temperature=0.8 --top_k=200`（采样）
 - `--start="FILE:prompt.txt"` 从文件读取提示

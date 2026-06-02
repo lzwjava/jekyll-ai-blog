@@ -13,6 +13,7 @@ Payslips are essential documents that detail your earnings, deductions, and the 
 ---
 
 ### 1. **Gross Salary – Your Total Earnings**
+
 The **gross salary** is your total earnings before any deductions are applied. It includes your base wage plus any additional allowances or bonuses. Here’s an example breakdown:
 
 - **Base Salary**: $2,000.00 – Your standard monthly wage.
@@ -27,11 +28,13 @@ These items show how your earnings extend beyond your base pay, reflecting incen
 ---
 
 ### 2. **Variable Pay – Flexible Earnings**
+
 **Variable pay** covers earnings that can vary each month, such as performance bonuses or overtime. This section highlights how your efforts can boost your income. Common terms you might see include “Performance Bonus” or “Overtime Pay,” linking your work directly to additional rewards.
 
 ---
 
 ### 3. **Benefits and Insurance – Your Contributions**
+
 This section lists deductions for mandatory benefits and insurance programs, which support your long-term security. Even if no amounts are deducted in a given month, recognizing these terms is key:
 
 - **Housing Fund**: A savings scheme for housing costs.
@@ -46,6 +49,7 @@ Understanding these deductions shows you what’s being withheld and why it matt
 ---
 
 ### 4. **Personal Income Tax – Your Tax Obligation**
+
 The **personal income tax** section details how much tax is deducted from your earnings. Here’s a hypothetical example:
 
 - **Monthly Special Additional Deduction**: $200.00 – Extra deductions for expenses like education or housing.
@@ -59,6 +63,7 @@ These terms explain how your tax is calculated, helping you verify accuracy or a
 ---
 
 ### 5. **Net Salary – Your Take-Home Pay**
+
 The **net salary** is the amount you receive after all deductions. Using our example:
 
 - **Gross Salary**: $2,900.00 (e.g., $2,000 + $250 + $500 + $150).
@@ -80,6 +85,7 @@ This confirms your exact take-home pay.
 ---
 
 ### Why English Terms Matter
+
 Understanding English terms on payslips—or using them—helps in diverse workplaces. For "Employee Name," it means:
 
 - **Clear Earnings Breakdown**: Easily verify allowances like project pay.
@@ -89,4 +95,5 @@ Understanding English terms on payslips—or using them—helps in diverse workp
 ---
 
 ### Conclusion
+
 Your payslip is more than numbers; it’s a record of your financial relationship with your employer. By grasping key English terms like “gross salary,” “variable pay,” and “net salary,” you take charge of your finances. If your payslip isn’t in English, use this guide to interpret it or ask HR for a translated version. Have questions? Contact your payroll team—open communication ensures payroll clarity.

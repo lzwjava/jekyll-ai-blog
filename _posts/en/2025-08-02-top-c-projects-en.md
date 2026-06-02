@@ -12,6 +12,7 @@ type: note
 Below is a curated list of 30 notable open-source projects primarily written in the C programming language, based on their popularity, impact, and relevance in the open-source community. These projects span various domains like operating systems, databases, networking, and multimedia, reflecting C's strength in system-level programming, performance-critical applications, and embedded systems. Popularity metrics like GitHub stars, community activity, and historical significance were considered, drawing from sources like GitHub, Reddit, and other developer communities.[](https://www.reddit.com/r/C_Programming/comments/14kmraa/top_c_open_source_projects_and_contributors/)[](https://github.com/topics/c-projects)[](https://en.cppreference.com/w/c/links/libs)
 
 ### Operating Systems and Kernels
+
 1. **Linux Kernel**
    - Description: The core of the Linux operating system, powering servers, desktops, and embedded devices.
    - Why Notable: Foundation of modern computing, with extensive community contributions.
@@ -43,6 +44,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
    - Use Case: Educational projects, OS research.
 
 ### Networking and Servers
+
 6. **Nginx**
    - Description: A high-performance web server and reverse proxy.
    - Why Notable: Powers a significant portion of the internet with efficient C code.
@@ -74,6 +76,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: Cryptography, secure networking.
 
 ### Databases
+
 11. **SQLite**
     - Description: A lightweight, embedded relational database engine.
     - Why Notable: Widely used in mobile apps and embedded systems due to its small footprint.
@@ -99,6 +102,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: IoT, time-series data.
 
 ### Multimedia and Graphics
+
 15. **FFmpeg**
     - Description: A multimedia framework for handling video, audio, and other media.
     - Why Notable: Industry-standard for media processing, written in C.
@@ -124,6 +128,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: Embedded GUI, IoT devices.
 
 ### System Utilities and Tools
+
 19. **Systemd**
     - Description: A system and service manager for Linux systems.
     - Why Notable: Core component of many Linux distributions, written in C.  [](https://dev.to/this-is-learning/7-open-source-projects-you-should-know-c-edition-107k)
@@ -149,6 +154,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: File compression, data processing.
 
 ### Compilers and Interpreters
+
 23. **GCC (GNU Compiler Collection)**
     - Description: A compiler system supporting multiple languages, including C.
     - Why Notable: Essential for software development, with a complex C codebase.
@@ -168,6 +174,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: Compiler development, education.
 
 ### Security and Cryptography
+
 26. **OpenSSH**
     - Description: A suite of secure networking utilities based on the SSH protocol.
     - Why Notable: Industry-standard for secure remote access, written in C.
@@ -181,6 +188,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: Cryptography, secure applications.
 
 ### Games and Emulators
+
 28. **NetHack**
     - Description: A classic roguelike game with a complex C codebase.
     - Why Notable: Still maintained, great for learning game logic in C.  [](https://www.quora.com/What-open-source-projects-are-written-in-C)
@@ -200,6 +208,7 @@ Below is a curated list of 30 notable open-source projects primarily written in 
     - Use Case: Game development, multimedia.
 
 ### Notes
+
 - **Selection Criteria**: Projects were chosen based on GitHub stars, community activity, and relevance to C programming. Some projects include C++ or other languages but are predominantly C-based.[](https://www.reddit.com/r/C_Programming/comments/14kmraa/top_c_open_source_projects_and_contributors/)[](https://www.libhunt.com/l/c)
 - **Beginner-Friendly Projects**: For beginners, smaller projects like **Raylib**, **Xv6**, or **TCC** are recommended due to their manageable codebases and clear documentation.[](https://www.reddit.com/r/C_Programming/comments/1c8mkmv/good_open_source_projects/)
 - **Contribution Tips**: Check each project’s GitHub for “good first issue” labels or contribution guidelines. Smaller tasks like bug fixes or documentation improvements are great starting points.[](https://github.com/MunGell/awesome-for-beginners)

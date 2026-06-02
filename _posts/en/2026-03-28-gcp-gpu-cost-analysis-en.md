@@ -15,7 +15,7 @@ Answer:
 
 This is a **Google Cloud Platform (GCP) cost estimate** for running a very large, high-performance virtual machine (likely a custom or A3/A4 series instance) on a monthly basis. It shows a "pay-as-you-go" model with per-second billing and no upfront commitment.
 
-### Breakdown of the costs:
+### Breakdown of the costs
 
 - **Total Monthly Estimate**: $64,598.70
   This is the projected cost if the instance runs continuously for the entire month (approximately 730 hours).
@@ -25,7 +25,7 @@ This is a **Google Cloud Platform (GCP) cost estimate** for running a very large
   $64,598.70 ÷ 730 hours ≈ $88.49/hour.
   The instance is extremely expensive because it includes premium components.
 
-### Item-by-Item Explanation:
+### Item-by-Item Explanation
 
 1. **208 vCPU + 1,872 GB memory** — $6,905.84/month
    This is the cost for the base Compute Engine virtual machine (CPU + RAM).
@@ -54,7 +54,7 @@ This is a **Google Cloud Platform (GCP) cost estimate** for running a very large
    - Snapshot schedules (automated backups)
    Their costs depend on actual usage (how much data you log, how many metrics, etc.). They are not fixed in this estimate.
 
-### Key Takeaways:
+### Key Takeaways
 
 - **This is an on-demand price** — You pay only for what you use, billed per second. If you stop the instance, you stop paying for the vCPU, memory, and GPUs (though disks may still incur some cost).
 - **Why so expensive?** The 8× H100 GPUs are the main driver. These are enterprise-grade accelerators used for cutting-edge AI, machine learning, and high-performance computing (HPC).
@@ -72,5 +72,6 @@ If you only need it for a few hours or days, the actual cost would be a fraction
 Would you like help calculating costs for shorter periods, comparing with committed pricing, or understanding how to create a similar instance in GCP?
 
 References:
+
 - Google Cloud Pricing Calculator (general understanding of estimates)
 - Google Cloud Compute Engine Pricing Documentation (for vCPU, memory, and GPU rates)

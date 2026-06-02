@@ -28,6 +28,7 @@ type: note
 ## 完整配置推荐
 
 ### GPU — 已选定
+
 **XFX MERCURY Magnetic Air RX 7900 XTX 24GB** (RX-79XMAIRB9)
 
 该显卡采用AMD Radeon RX 7900 XTX芯片组，配备24 GB GDDR6显存、384-bit显存位宽，加速频率高达2615 MHz，TDP为355 W。
@@ -59,6 +60,7 @@ Ryzen 9 9900X支持最高DDR5-5600内存，具备两个内存通道，最高支�
 X670E芯片组提供最前沿的功能，包括主显卡插槽和M.2插槽的PCIe 5.0支持，确保与RX 7900 XTX的PCIe 4.0功能最大兼容性，并为下一代GPU和高速存储提供未来升级空间。强大的VRM设计足以应对要求苛刻的Ryzen CPU。
 
 不错的选择：
+
 - **MSI MAG X670E Tomahawk WiFi** — 扎实的中端X670E，性价比出色（约**250–280美元**）
 - **ASUS ROG Strix X670E-E Gaming WiFi** — 高端选项，配备18+2相供电、4个M.2插槽、PCIe 5.0（约**350–400美元**）
 
@@ -87,6 +89,7 @@ X670E芯片组提供最前沿的功能，包括主显卡插槽和M.2插槽的PCI
 - **Samsung 990 Pro 2 TB** 或 **WD Black SN850X 2 TB** — 两者都提供约7,000 MB/s的读取速度，非常适合快速加载大型模型权重。
 
 对于存储大型数据集、微调检查点和模型存档，可以添加一个副盘：
+
 - **Seagate Barracuda 4 TB HDD** — 廉价的大容量存储（约70–80美元）
 
 **NVMe 2 TB 预计价格：约130–170美元**
@@ -157,6 +160,7 @@ AI工作负载期间，仅GPU的瞬时功耗峰值可能达到500W以上（持�
 ## 针对你使用场景的重要说明
 
 **ROCm + nanoGPT/LLM训练：**
+
 - 在Ubuntu 24.04上安装**ROCm 7.x**以获得最佳的PyTorch兼容性。
 - AMD的Navi 31 GPU（RX 7900 XTX）拥有192个内置AI加速器，使其成为AI应用的可行GPU。
 - 对于nanoGPT，主要依赖是PyTorch——ROCm版本的PyTorch在此显卡上运行良好。

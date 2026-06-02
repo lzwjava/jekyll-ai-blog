@@ -16,7 +16,7 @@ Answer:
 
 This document is the official **Guangdong University of Foreign Studies (GDUFS) 2025 Second Half-Year Practical Assessment Registration Notice for Social Candidates** (self-examination/practice link assessment, exam batch 202506), issued on June 9, 2025.
 
-### Key Points Summary (English summary for convenience):
+### Key Points Summary (English summary for convenience)
 
 - **Important warnings**:
   - The university has NOT authorized any off-campus training institutions or counseling classes.
@@ -53,18 +53,21 @@ This document is the official **Guangdong University of Foreign Studies (GDUFS) 
 - From 2026 upward, all GDUFS self-exam majors will switch to the new examination plans.
 
 The long attached table lists every major that still offers practical assessment in 2025 lower half, including:
+
 - course code and name
 - exact exam date/time (or “arranged separately” for theses)
 - fee
 - prerequisite conditions (which theory papers you must have already passed)
 
 Examples:
+
 - English (050201): Oral Interpretation & Listening (00602) on Nov 1 afternoon, Graduation Level Exam (11417) on Nov 1 morning
 - Business English, International Trade, Computer Science, Financial Management, Software Engineering, Network New Media, Broadcasting & Hosting, etc.
 - Most graduation theses/defenses: detailed arrangements will be announced on the college website in early July.
 
 Official websites mentioned:
-- Continuing Education College: https://jxjy.gdufs.edu.cn
+
+- Continuing Education College: <https://jxjy.gdufs.edu.cn>
 - Syllabus download link provided in the notice
 
 In short, this is the complete official guide for social (non-full-time) self-examination candidates who want to register for GDUFS-main-examined practical assessments and graduation theses in the second half of 2025.

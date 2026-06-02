@@ -17,6 +17,7 @@ Answer:
 Feature flags let you merge code to `main` and deploy it to production while keeping the feature completely hidden (or partially visible) until you’re ready. You control the toggle externally (dashboard, CLI, or config file) — no new deploy needed to turn it on/off.
 
 ### Core principles when writing flagged code
+
 1. Always safe by default (flag OFF = old, proven behavior).
 2. Keep flag checks cheap and synchronous at startup or request time.
 3. Clean up the flag + dead code within 30–90 days.
@@ -25,6 +26,7 @@ Feature flags let you merge code to `main` and deploy it to production while kee
 ### Real-world examples
 
 #### 1. JavaScript / TypeScript (React + LaunchDarkly example)
+
 ```tsx
 import { useFlags, useLDClient } from 'launchdarkly-react-client-sdk';
 
@@ -40,12 +42,14 @@ function CheckoutButton() {
 ```
 
 Percentage rollout example:
+
 ```ts
 const variant = ldClient.variation('new-checkout-flow-2025q1', { key: user.id }, 'control');
 if (variant === 'new') { /* ... */ }
 ```
 
 #### 2. Python (Flask/Django + Unleash or simple Redis)
+
 ```python
 from flask import Flask
 import requests
@@ -66,6 +70,7 @@ def dashboard():
 ```
 
 Even simpler with a local config service:
+
 ```python
 if settings.FEATURE_FLAGS.get('ai-search-enabled', False):
     results = call_openai_search(query)
@@ -74,6 +79,7 @@ else:
 ```
 
 #### 3. Go (with Unleash Go client)
+
 ```go
 if client.IsEnabled("payment-retry-logic-v3", unleash.WithContext(ctx)) {
     doNewRetryLogic()
@@ -88,6 +94,7 @@ if client.IsEnabled("new-onboarding", unleash.WithFallback(false), unleash.WithC
 ```
 
 #### 4. Ruby on Rails (with Flipflop or Rollout)
+
 ```ruby
 # config/features.yml or dashboard toggle
 if Flipflop.new_checkout_flow?
@@ -103,7 +110,9 @@ end
 ```
 
 #### 5. Feature-flagged database migration pattern
+
 You often need this for schema changes:
+
 ```python
 # Step 1: Add column with flag off (no code uses it yet)
 add_column :users, :preferred_language, :string
@@ -129,6 +138,7 @@ user.update(language: lang)                         # old column (still used)
 | Country / tenant      | Launch only in EU first                     |
 
 ### Real examples from big companies
+
 - Netflix: Every single UI change is behind a flag; they run hundreds of A/B tests simultaneously.
 - Facebook: The infamous “dark launch” — they deployed the entire Timeline feature to production months early, hidden behind flags.
 - Shopify: Went from 1 deploy/week to 50+/day almost entirely thanks to feature flags + trunk-based dev.
@@ -137,6 +147,7 @@ user.update(language: lang)                         # old column (still used)
 Once you get comfortable, you’ll start treating feature flags as the primary way you release anything non-trivial — and deployments truly become boring.
 
 References:
+
 - [LaunchDarkly Docs – Code examples in 12 languages](https://docs.launchdarkly.com)
 - [Martin Fowler – Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
 - [Unleash open-source feature flag server](https://www.getunleash.io)

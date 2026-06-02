@@ -25,6 +25,7 @@ Based on the latest data as of October 2025, the top 10 companies by market cap 
 | **Tesla**           | $95.6B (TTM Q3 2025) | 125,665 | **$0.76M** | EV and energy sales; workforce down slightly from 2024 peaks amid cost controls. |
 
 #### Key Insights
+
 - **Highest Revenue per Employee**: Saudi Aramco at $6.15 million—far outpacing the others, even Nvidia's $3.62M from the prior analysis. This edges it as the efficiency leader among the full top 10.
 - **What Does This Mean?**: Aramco's standout figure reflects its capital-intensive, asset-heavy model: vast oil reserves and automated extraction generate enormous revenue with a relatively lean workforce focused on high-skill roles like engineering and management. It's a classic resource play—scalable output without proportional labor needs. In contrast, labor-heavy firms like Amazon (logistics) or Berkshire (diverse ops) show lower ratios, while tech peers like Apple and Meta balance innovation with moderate staffing.
 - **Most Efficient?**: Saudi Aramco appears the most efficient overall, leveraging physical assets and global scale for outsized productivity. Among the tech-focused other 7, Apple leads at $2.49M, highlighting premium hardware margins. Broadcom and Meta follow closely, benefiting from AI/semiconductor tailwinds. Lower performers like Amazon and Tesla indicate growth-stage investments in people for expansion, which could improve as they mature.

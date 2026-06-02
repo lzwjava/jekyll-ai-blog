@@ -48,7 +48,7 @@ type: note
 
 综上所述，虽然由于中国本土化的生态系统，目前不存在与 Avaloq 完全一一对应的产品，但 **Sunline (长亮科技)** 在现代 Wealth Management、公募基金以及投资/交易支持方面，是功能上最接近的等效系统。
 
-### 参考文献：
+### 参考文献
 
 - [Core Banking Systems Market in China – Vendors, SIs, and Trends](https://victorleungtw.wordpress.com/2025/04/30/core-banking-systems-market-in-china-vendors-sis-and-trends)
 - [Sunline Official Site - Core Banking Success](https://www.sunline-i.com/)

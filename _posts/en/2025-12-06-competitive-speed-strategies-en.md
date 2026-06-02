@@ -68,6 +68,7 @@ Here are the most effective practical tricks that top competitive programmers ac
 These tricks combined let good contestants solve Div2 A/B/C in 5–15 minutes reliably because they focus on “make it work on samples + edges first” instead of perfect code from the beginning.
 
 References:
+
 - [Codeforces blog – How to practice efficiently](https://codeforces.com/blog/entry/17879)
 - [Errichto – Debugging tips and common tricks (YouTube)](https://www.youtube.com/watch?v=O45fH0b7bUQ)
 - [William Lin – Solving problems fast (stream highlights)](https://www.youtube.com/watch?v=6V3siDh2Buc)

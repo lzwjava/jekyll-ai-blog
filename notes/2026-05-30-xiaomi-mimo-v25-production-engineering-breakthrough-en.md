@@ -42,6 +42,7 @@ MiMo-V2.5 uses **Hybrid Sliding Window Attention (SWA) + sparse MoE + multimodal
 **Distributed cache consistency fixes** across L1/L2/L3 tiers (device, host, GCache). Four specific failure modes addressed: device-complete/host-deficient, host-complete/device-deficient, L3 prefix eviction of high-frequency sequences, and medium/short sequence SWA retention.
 
 **GCache (in-house L3 cache):** Built by Xiaomi's storage team. Key properties:
+
 - Decentralized metadata via consistent hashing (Master only does heartbeats/discovery, not IO path)
 - Memory+disk co-location on GPU machines → zero additional storage cost
 - RDMA: 170 GB/s single-process read at 280μs; 350 GB/s under GDR
@@ -56,9 +57,11 @@ MiMo-V2.5 uses **Hybrid Sliding Window Attention (SWA) + sparse MoE + multimodal
 Custom stateless router using Redis for centralized state (replaces SGLang's early router which had no shared state).
 
 **Affinity scheduling formula:**
+
 ```python
 score(worker) = matchWeight × prefix_match_percentage − normalized_load
 ```
+
 → +25% L2 cache hit rate, +30% per-node input throughput
 
 **TTFT optimization:** Priority queue sorted by uncached token count (cache-friendly requests run first) + starvation penalty. Result: **P90 TTFT reduced 30%** for long requests, no regression for short.
@@ -86,6 +89,7 @@ score(worker) = matchWeight × prefix_match_percentage − normalized_load
 ## 5. Multimodal (EPD Disaggregation)
 
 Based on SGLang v0.5.7 EPD design. **Encoder throughput doubled** (15→30 QPS) with no latency regression. Key tricks:
+
 - Async multimodal embedding replication overlapped with prefill
 - TP=1 Encoder with data parallelism (TP>1 hurts small encoders)
 - Cross-request batching (batch images/audio from multiple requests into one forward)

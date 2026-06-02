@@ -16,7 +16,7 @@ DSE (Diploma of Secondary Education) 是香港主要的大学入学考试，正�
 
 **Structure**: 学生通常在 Secondary 6（相当于 12 年级）结束时参加考试。它包括每个人都必须参加的核心科目——Chinese Language、English Language、Mathematics 和 Liberal Studies（尽管从近年来开始，Liberal Studies 已被 Citizenship and Social Development 取代）——外加 2-3 门从科学、人文、商业、艺术和应用学习等类别中选择的选修科目。
 
-**Grading**: 成绩分为 1 到 5** 级，其中 5** 为最高等级。Level 2 被视为合格分数，而大学通常要求核心科目达到 Level 3 或以上才能录取。
+**Grading**: 成绩分为 1 到 5**级，其中 5** 为最高等级。Level 2 被视为合格分数，而大学通常要求核心科目达到 Level 3 或以上才能录取。
 
 **University Admission**: DSE 成绩是通过 JUPAS (Joint University Programmes Admissions System) 申请香港公立大学的主要标准。通常使用 “Best 5” 或 “Best 6” 计算公式，即大学会参考你表现最好的几门科目。
 

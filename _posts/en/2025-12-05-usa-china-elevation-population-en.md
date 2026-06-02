@@ -36,6 +36,7 @@ If you include Alaska and Hawaii, the center shifts a bit but is still in the Gr
 - It is in the **western half** of the country, not the middle.
 
 **Washington, D.C.**
+
 - On the East Coast, almost at sea level, in the flat coastal plain.
 
 Neither is in the “middle” of the USA.
@@ -53,6 +54,7 @@ So the pattern is very similar:
 Both countries have **high, rugged, sparsely populated west** and **low, flat, densely populated east**.
 
 The big difference:
+
 - China’s “middle” is the North China Plain and Yangtze basin (still relatively low and fertile).
 - USA’s “middle” is the Great Plains (higher and much drier west of the 100th meridian, which is why fewer people live there compared to China’s central plains).
 

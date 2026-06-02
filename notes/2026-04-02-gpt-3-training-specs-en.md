@@ -16,18 +16,21 @@ To train GPT-3 (specifically the 175B parameter version), OpenAI used a massive 
 ---
 
 ### **1. Training Cost**
+
 The cost of a single training run for GPT-3 is estimated to be between **$4.6 million and $5 million**.
 
 * **Compute Expenses:** This figure primarily covers the rental or operational cost of the high-end GPU instances in the cloud (Microsoft Azure).
 * **Total Budget:** While the raw compute was ~$5M, the total cost for OpenAI—including research, personnel, and multiple failed or experimental runs—was likely significantly higher.
 
 ### **2. Training Time**
+
 The actual training time for the final model is estimated to have taken **34 days** using a highly parallelized cluster.
 
 * **Parallelism:** To achieve this, OpenAI used **1,024 NVIDIA A100 GPUs** working in sync.
 * **Hypothetical Comparison:** If you tried to train GPT-3 on a single NVIDIA Tesla V100 GPU, it would take approximately **355 years** to complete.
 
 ### **3. Hardware (The "Cards")**
+
 OpenAI used data-center grade GPUs rather than consumer graphics cards.
 
 * **Primary Card:** The model was originally developed and trained on **NVIDIA Tesla V100** GPUs as part of a custom Microsoft supercomputer.
@@ -46,6 +49,7 @@ OpenAI used data-center grade GPUs rather than consumer graphics cards.
 | **Total Parameters** | 175 Billion |
 
 **References:**
+
 * [OpenAI Presents GPT-3 Technical Overview](https://developer.nvidia.com/blog/openai-presents-gpt-3-a-175-billion-parameters-language-model/)
 * [Demystifying GPT-3 Training Costs](https://lambda.ai/blog/demystifying-gpt-3)
 * [GPT-3 Wikipedia Technical Summary](https://en.wikipedia.org/wiki/GPT-3)

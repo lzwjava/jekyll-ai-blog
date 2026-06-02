@@ -11,9 +11,11 @@ type: note
 数据结构是高效算法的基础。让我们探索四种强大的数据结构：跳表、并查集、AVL树和二叉索引树。这些结构广泛应用于需要快速搜索、合并、平衡或区间查询的场景。
 
 ## 1. 跳表：概率性搜索
+
 跳表是一种分层链表，支持快速搜索、插入和删除操作，平均时间复杂度为O(log n)，可作为平衡树的替代方案。
 
 ### Java实现
+
 ```java
 import java.util.Random;
 
@@ -84,16 +86,20 @@ public class SkipList {
     }
 }
 ```
+
 **输出:**
+
 ```
 Search 6: true
 Search 5: false
 ```
 
 ## 2. 并查集（不相交集）：连通性追踪
+
 并查集高效管理不相交集合，通过路径压缩和按秩合并启发式方法，支持近似O(1)摊还时间的合并与查找操作。
 
 ### Java实现
+
 ```java
 public class UnionFind {
     private int[] parent, rank;
@@ -131,16 +137,20 @@ public class UnionFind {
     }
 }
 ```
+
 **输出:**
+
 ```
 0 and 4 connected: true
 2 and 4 connected: false
 ```
 
 ## 3. AVL树：自平衡二叉搜索树
+
 AVL树是一种自平衡二叉搜索树，其子树间的高度差（平衡因子）最多为1，确保所有操作的时间复杂度为O(log n)。
 
 ### Java实现
+
 ```java
 public class AVLTree {
     static class Node {
@@ -220,12 +230,15 @@ public class AVLTree {
     }
 }
 ```
+
 **输出:** `Preorder: 30 20 10 25 40 50`
 
 ## 4. 二叉索引树（Fenwick树）：区间查询
+
 二叉索引树（BIT）高效处理区间和查询与更新操作，时间复杂度为O(log n)，常用于竞赛编程。
 
 ### Java实现
+
 ```java
 public class BinaryIndexedTree {
     private int[] bit;
@@ -267,7 +280,9 @@ public class BinaryIndexedTree {
     }
 }
 ```
+
 **输出:**
+
 ```
 Sum from 0 to 5: 12
 Range sum 2 to 5: 9
@@ -281,9 +296,11 @@ New range sum 2 to 5: 15
 搜索与模拟算法解决路径查找和概率问题。让我们探索A*搜索和蒙特卡洛模拟。
 
 ## 1. A*搜索：启发式路径查找
+
 A*是一种启发式搜索算法，使用启发函数在图中寻找最短路径，结合了Dijkstra算法和贪心搜索的优点。广泛应用于游戏和导航系统。
 
 ### Java实现
+
 ```java
 import java.util.*;
 
@@ -360,7 +377,9 @@ public class AStar {
     }
 }
 ```
+
 **输出:**
+
 ```
 Path:
 (0, 0)
@@ -372,9 +391,11 @@ Path:
 ```
 
 ## 2. 蒙特卡洛模拟：概率估计
+
 蒙特卡洛方法使用随机抽样来估计结果，例如通过在正方形和圆形中模拟点来近似计算π值。
 
 ### Java实现
+
 ```java
 import java.util.Random;
 
@@ -398,7 +419,9 @@ public class MonteCarlo {
     }
 }
 ```
+
 **输出（因随机性而有所变化）:**
+
 ```
 Estimated π with 1000000 points: 3.1418
 Actual π: 3.141592653589793

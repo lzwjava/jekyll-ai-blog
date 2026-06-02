@@ -16,7 +16,7 @@ type: note
 
 **你的机会面临挑战，但并非完全没有可能。** 原因如下：
 
-## Main Concerns:
+## Main Concerns
 
 **1. 教育资历**
 你的自考大专学历可能会存在问题。Singapore 通常要求申请 Employment Pass (EP) 的人员拥有受认可的大学学位。Ministry of Manpower 现在要求通过指定的认证机构进行学历核实，并且他们倾向于选择来自受认可机构的学位。
@@ -27,12 +27,13 @@ type: note
 **3. COMPASS 评估**
 除了满足薪资要求外，EP 申请人还必须通过基于评分制的 COMPASS 系统。你的学历背景在这个系统中得分可能会较低。
 
-## Potential Paths Forward:
+## Potential Paths Forward
 
 **Option 1: S Pass**
 S Pass 的最低薪资要求为 S$3,300，适用于中等技能劳动力。凭借 10 年的经验，你可能符合申请 S Pass 而非 EP 的条件，尽管学历要求仍然适用。
 
 **Option 2: 增强你的个人履历**
+
 - 完成一个受认可的学士学位（即使是来自受认证大学的在线课程）
 - 锁定愿意提供更高薪资（S$7,000+）的公司
 - 专注于高需求的专业技术领域

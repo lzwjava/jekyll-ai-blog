@@ -16,12 +16,12 @@ type: note
 
 `java.sql` 包包含的类和接口可用于：
 
-*   连接数据库（`DriverManager`、`Connection`）
-*   执行 SQL 查询（`Statement`、`PreparedStatement`、`CallableStatement`）
-*   处理结果（`ResultSet`）
-*   处理元数据（`DatabaseMetaData`、`ResultSetMetaData`）
-*   管理事务
-*   处理 SQL 异常（`SQLException`）
+* 连接数据库（`DriverManager`、`Connection`）
+* 执行 SQL 查询（`Statement`、`PreparedStatement`、`CallableStatement`）
+* 处理结果（`ResultSet`）
+* 处理元数据（`DatabaseMetaData`、`ResultSetMetaData`）
+* 管理事务
+* 处理 SQL 异常（`SQLException`）
 
 ---
 
@@ -29,8 +29,8 @@ type: note
 
 ### 1. **JDBC 驱动程序**
 
-*   您需要目标数据库的 JDBC 驱动程序（例如，MySQL：`mysql-connector-java`，PostgreSQL：`postgresql`）。
-*   您可以通过 Maven/Gradle 包含它，或手动添加 `.jar` 文件。
+* 您需要目标数据库的 JDBC 驱动程序（例如，MySQL：`mysql-connector-java`，PostgreSQL：`postgresql`）。
+* 您可以通过 Maven/Gradle 包含它，或手动添加 `.jar` 文件。
 
 ### 2. **数据库 URL**
 
@@ -57,9 +57,9 @@ Connection conn = DriverManager.getConnection(url, user, password);
 
 表示与数据库的会话。
 
-*   创建 `Statement` 或 `PreparedStatement`
-*   管理事务（提交、回滚）
-*   关闭连接
+* 创建 `Statement` 或 `PreparedStatement`
+* 管理事务（提交、回滚）
+* 关闭连接
 
 ```java
 Connection conn = DriverManager.getConnection(...);
@@ -110,8 +110,8 @@ while (rs.next()) {
 
 ### 📚 5. 元数据
 
-*   `DatabaseMetaData`：数据库信息
-*   `ResultSetMetaData`：结果列信息
+* `DatabaseMetaData`：数据库信息
+* `ResultSetMetaData`：结果列信息
 
 ```java
 DatabaseMetaData dbMeta = conn.getMetaData();
@@ -216,21 +216,21 @@ try {
 
 ## 🧠 **最佳实践**
 
-*   始终在 `finally` 块中关闭 `Connection`、`Statement`、`ResultSet`，或使用 try-with-resources。
-*   使用 `PreparedStatement` 而不是 `Statement` 以防止 SQL 注入。
-*   在生产环境中使用连接池（通过 HikariCP、Apache DBCP 等库）。
-*   对多个相关查询使用事务。
-*   不要在业务逻辑中硬编码 SQL——考虑使用 DAO 或 ORM 模式（如 JPA、Hibernate）。
+* 始终在 `finally` 块中关闭 `Connection`、`Statement`、`ResultSet`，或使用 try-with-resources。
+* 使用 `PreparedStatement` 而不是 `Statement` 以防止 SQL 注入。
+* 在生产环境中使用连接池（通过 HikariCP、Apache DBCP 等库）。
+* 对多个相关查询使用事务。
+* 不要在业务逻辑中硬编码 SQL——考虑使用 DAO 或 ORM 模式（如 JPA、Hibernate）。
 
 ---
 
 ## 🧮 **高级主题**
 
-*   **RowSet**：ResultSet 的断开连接版本 (`javax.sql.rowset`)
-*   **连接池**：将 `DataSource` 与池一起使用
-*   **JDBC 4+ 特性**：自动加载驱动程序、try-with-resources 支持
-*   **JDBC + Spring**：与 Spring JDBC Template 集成
-*   **JDBC + ORM**：在 Hibernate、JPA、MyBatis 底层使用 `java.sql`
+* **RowSet**：ResultSet 的断开连接版本 (`javax.sql.rowset`)
+* **连接池**：将 `DataSource` 与池一起使用
+* **JDBC 4+ 特性**：自动加载驱动程序、try-with-resources 支持
+* **JDBC + Spring**：与 Spring JDBC Template 集成
+* **JDBC + ORM**：在 Hibernate、JPA、MyBatis 底层使用 `java.sql`
 
 ---
 
@@ -251,8 +251,8 @@ try {
 
 如果您需要，我还可以提供：
 
-*   一份速查表
-*   一个 DAO 风格的可重用包装类
-*   使用真实数据库（MySQL/PostgreSQL）的示例
+* 一份速查表
+* 一个 DAO 风格的可重用包装类
+* 使用真实数据库（MySQL/PostgreSQL）的示例
 
 请告诉我！

@@ -193,7 +193,6 @@ python ~/bin/gitmessageai.py --api mistral --no-push
 python ~/bin/gitmessageai.py --api deepseek --only-message
 ```
 
-
 Then, in your `~/.zprofile` file, add the following:
 
 ```bash

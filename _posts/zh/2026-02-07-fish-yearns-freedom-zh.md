@@ -26,7 +26,7 @@ Answer:
 * **Personification (拟人)：** 诗人使用了动词 **“思” (to yearn/think/miss)**，这是一种人类的情感和认知行为。通过赋予鱼儿这种怀旧感以及对自由的自觉渴望，诗人运用了 personification 手法。
 * **Symbolism：** “羁鸟”和“池鱼”都作为诗人自身的 metaphor。正如同鱼儿被困在人工鱼池中，渴望广阔的“深渊”（大自然）一样，陶渊明也感到被官职所束缚，向往朴素的田园生活。
 
-### Why the other options are incorrect:
+### Why the other options are incorrect
 
 * **A & C (榆柳 & 桃李)：** 这些是指房前屋后种植的榆树、柳树、桃树和李树。在诗中，它们被客观地描述以渲染场景：*“榆柳荫后檐，桃李罗堂前。”* (Elms and willows shade the back eaves; peach and plum trees are lined before the hall.) 此处并未赋予它们人类的情感。
 * **D (鸡鸣)：** 虽然“鸡鸣” (*“鸡鸣桑树颠”*) 涉及动作，但这是公鸡的自然生理行为，并不带有像“思” (*yearning*) 那样人类特有的情感倾向或心理渴望。

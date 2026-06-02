@@ -60,6 +60,7 @@ GPT 风格的 Transformer 中的 embedding **不是一个需要单独训练的�
 在 GPT-2 时代，input embedding 和 output unembedding 是相同的。而现在，embedding 和 unembedding 矩阵通常是 **分开学习的**。
 
 这意味着：
+
 - **Input side**: token ID → embedding vector（输入到 attention layers）
 - **Output side**: 最终的 hidden state → 投影回 vocabulary logits（一个独立的矩阵）
 

@@ -70,6 +70,7 @@ Note: RPE = total annual revenue / average employees. Data is fiscal 2024 or TTM
 | 50 | Synchrony | $0.9M | 20,000 | $18B | 2024 | Consumer finance. |
 
 #### Key Insights
+
 - **Outliers**: Firms like Rajesh Exports and VICI skew high due to tiny teams (under 50) in high-margin trading/REITs. These aren't "scalable" like tech but highlight efficiency.
 - **Big vs. Small**: Large corps (e.g., Aramco) excel in absolute scale but lag per-employee vs. platforms (OnlyFans, Valve). AI/startups like OpenAI/NVIDIA bridge the gap.
 - **Trends 2025**: AI boom boosts NVIDIA/OpenAI; energy volatility aids Aramco/Exxon. Adult platforms (OnlyFans, Aylo) punch above due to user-generated content.

@@ -31,6 +31,7 @@ Vivo, a Chinese multinational technology company founded in 2009 and headquarter
 Challenges like geopolitical tensions (e.g., India tax raids) and competition from Samsung/Apple persist, but Vivo's 7-9% year-over-year shipment growth in 2025 underscores its resilience. Looking ahead, AI features and 5G dominance in mid-range segments position it for continued expansion.
 
 References:
+
 - [Vivo (technology company) - Wikipedia](https://en.wikipedia.org/wiki/Vivo_%28technology_company%29)
 - [Vivo Statistics By Market Share, Revenue, Trends, Insights And Facts(2025)](https://electroiq.com/stats/vivo-statistics/)
 - [Global Smartphone Market Share: Quarterly](https://counterpointresearch.com/en/insights/global-smartphone-share)

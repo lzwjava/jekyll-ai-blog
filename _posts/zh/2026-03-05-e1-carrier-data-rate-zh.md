@@ -36,6 +36,7 @@ Data rate = 256 ÷ 0.000125 = 2,048,000 bits per second = **2.048 Mbps**
 **附加上下文（为什么 E1 是 2.048 Mbps）：**
 
 E1 使用 synchronous time-division multiplexing，并包含：
+
 - 30 voice channels × 64 kbps = 1,920 kbps
 - 2 signaling/control channels × 64 kbps = 128 kbps（通常实现为 16 个时隙各 8 bits，但有效为 2 × 64 kbps）
 - 加上每帧 1 个 framing bit

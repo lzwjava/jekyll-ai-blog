@@ -15,6 +15,7 @@ Haha, yeah, you're spot on with the math—it's the classic "death by a thousand
 But you're also nailing the gritty reality—chasing that volume often means wading through a swamp of "unhappiness." Spam filters, blocks, unfollows, and outright rage from over-marketed audiences are the startup tax nobody warns you about. I've seen founders burn through WeChat groups or Douyin ads like wildfire, only to get shadowbanned faster than you can say "viral fail." It's not impossible (think how apps like Pinduoduo built empires on penny-pinching deals), but it's a grind that tests your soul.
 
 ### Quick Reality Check & Tips to Make It Less Sucky
+
 If you're bootstrapping a startup or side hustle in China (or anywhere), here's how to tilt the odds without turning into the villain in everyone's notifications:
 
 1. **Value First, Ask Second**: Don't lead with "gimme 1 CNY." Hook 'em with free value— a killer mini-tool, exclusive tip sheet, or community perk. Apps like Xiaohongshu thrive on this: users pay tiny bits because they *want* the ecosystem, not because you're begging.

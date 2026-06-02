@@ -50,21 +50,25 @@ The Router Advertisement subsystem provides basic autoconfiguration for IPv6 hos
 ## Installation
 
 **Debian / Ubuntu:**
+
 ```bash
 sudo apt-get install dnsmasq
 ```
 
 **CentOS / RHEL:**
+
 ```bash
 sudo yum install dnsmasq
 ```
 
 **Arch Linux:**
+
 ```bash
 sudo pacman -S dnsmasq
 ```
 
 After installation, enable and start the service:
+
 ```bash
 sudo systemctl enable --now dnsmasq
 ```
@@ -76,6 +80,7 @@ sudo systemctl enable --now dnsmasq
 The primary configuration file is `/etc/dnsmasq.conf`. The file contains comments explaining the options. Drop-in configuration files can be placed in `/etc/dnsmasq.d/` with a `.conf` extension.
 
 To verify your configuration syntax before applying:
+
 ```bash
 dnsmasq --test
 ```
@@ -85,6 +90,7 @@ dnsmasq --test
 ## Key Configuration Examples
 
 ### DNS Forwarding (upstream servers)
+
 ```ini
 # /etc/dnsmasq.conf
 server=8.8.8.8
@@ -92,29 +98,34 @@ server=1.1.1.1
 ```
 
 ### DNS Caching (local resolver)
+
 ```ini
 listen-address=127.0.0.1
 cache-size=1000
 ```
 
 ### DHCP Server
+
 ```ini
 # Enable DHCP on a range with a 12-hour lease
 dhcp-range=192.168.1.50,192.168.1.150,12h
 ```
 
 ### Static IP Assignment by MAC Address
+
 ```ini
 dhcp-host=00:11:22:33:44:55,192.168.1.100
 ```
 
 ### Restrict to Specific Interface
+
 ```ini
 interface=eth0
 bind-interfaces
 ```
 
 ### Logging for Debugging
+
 ```ini
 log-queries
 log-facility=/var/log/dnsmasq.log
@@ -127,6 +138,7 @@ log-facility=/var/log/dnsmasq.log
 When DNSSEC is enabled, dnsmasq validates DNS replies and caches DNSSEC data. When forwarding DNS queries, dnsmasq requests the DNSSEC records needed to validate the replies. The replies are validated and the result returned as the Authenticated Data bit in the DNS packet.
 
 To enable DNSSEC on Arch Linux / Debian:
+
 ```ini
 conf-file=/usr/share/dnsmasq/trust-anchors.conf
 dnssec
@@ -137,6 +149,7 @@ dnssec
 ## PXE / Network Boot
 
 PXE requires a DHCP and a TFTP server; both can be provided by dnsmasq. A basic PXE setup in `dnsmasq.conf`:
+
 ```ini
 enable-tftp
 tftp-root=/srv/tftp

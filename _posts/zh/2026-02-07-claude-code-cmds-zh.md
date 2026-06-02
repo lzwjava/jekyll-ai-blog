@@ -17,11 +17,13 @@ type: note
 ### **Basic Commands**
 
 **启动 Claude Code:**
+
 - `claude` - 在当前目录启动交互式会话
 - `claude "query"` - 运行单个查询并返回到 shell
 - `claude -p "query"` - Print mode（非交互式，可用于脚本输出）
 
 **会话管理:**
+
 - `claude --continue` - 恢复最近的对话
 - `claude -r "session-id" "query"` - 通过 ID 恢复特定会话
 - `claude --resume` - 交互式菜单选择之前的会话
@@ -31,35 +33,45 @@ type: note
 ### **Key CLI Flags**
 
 **工作目录:**
+
 - `--add-dir <path> [<path2>...]` - 添加额外的目录供 Claude 访问
+
   ```bash
   claude --add-dir ../apps ../lib
   ```
 
 **权限:**
+
 - `--allowedTools` - 无需提示即可允许使用的工具
+
   ```bash
   claude --allowedTools "Bash(git log:*)" "Read"
   ```
+
 - `--disallowedTools` - 无需提示即可拒绝的工具
 - `--permission-mode <mode>` - 设置权限模式：`normal`、`auto-accept` 或 `plan`
+
   ```bash
   claude --permission-mode plan
   ```
 
 **System Prompts (4 种选项):**
+
 - `--system-prompt` - 完全控制，移除默认指令
 - `--system-prompt-file <path>` - 从文件加载自定义 prompt
 - `--append-system-prompt` - 在保留默认设置的同时添加指令（推荐）
 - `--append-system-prompt-file <path>` - 在保留默认设置的同时从文件追加
 
 **输出格式:**
+
 - `-p, --print` - 非交互式 print mode
 - `--output-format json` - 用于脚本/自动化的 JSON 输出
 - `--verbose` - 详细日志
 
 **Custom Agents:**
+
 - `--agents <json>` - 定义自定义 subagents
+
   ```bash
   claude --agents '{
     "code-reviewer": {
@@ -76,21 +88,25 @@ type: note
 在 Claude Code 运行时可用：
 
 **会话与配置:**
+
 - `/help` - 显示可用命令
 - `/config` - 打开设置界面
 - `/login` - 切换账号
 - `/vim` - 启用 vim 键绑定
 
 **工作流:**
+
 - `/resume` - 恢复之前的对话
 - `/compact` - 压缩对话历史
 - `/init` - 初始化新会话
 - `/terminal-setup` - 为终端配置 Shift+Enter
 
 **权限:**
+
 - `/allowed-tools` - 配置工具权限
 
 **Plugins & Extensions:**
+
 - `/plugin` - 交互式管理插件
 - `/hooks` - 查看/管理 hooks
 - `/context` - 查看当前 context 使用情况
@@ -118,6 +134,7 @@ claude plugin update <name>
 ### **Permission Modes**
 
 会话期间使用 **Shift+Tab** 切换：
+
 1. **Normal Mode** - Claude 对每个操作都会询问许可
 2. **Auto-Accept Mode** (`⏵⏵`) - 自动接受文件编辑
 3. **Plan Mode** (`⏵`) - Claude 仅进行只读操作的规划
@@ -134,6 +151,7 @@ claude plugin update <name>
 ### **Interactive Features**
 
 **输入:**
+
 - `\` + Enter - 插入换行符
 - Shift+Enter - 插入换行符（大多数终端）
 - Ctrl+R - 反向搜索命令历史
@@ -141,6 +159,7 @@ claude plugin update <name>
 - `!<command>` - 直接运行 bash 命令
 
 **导航:**
+
 - 方向键 - 命令历史
 - Ctrl+O - 切换 verbose 模式
 

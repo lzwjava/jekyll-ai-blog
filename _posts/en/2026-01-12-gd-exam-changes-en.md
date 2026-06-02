@@ -43,6 +43,7 @@ type: note
 |  |  |  |  | 20 | 00024 | General Logic | 4 |  |
 
 **Notes:**
+
 1. Only courses that have been obtained as qualified or exempt from the former plan schedule can be substituted for new plan courses; reverse substitution is not allowed.
 2. For 1 correspondence course and 1 door completion course, only one substitution method can be selected; it cannot be reused.
 3. For correspondence substitution courses, the same row of 1 door course schedule substitutes for 1 door course; other courses cannot be substituted.

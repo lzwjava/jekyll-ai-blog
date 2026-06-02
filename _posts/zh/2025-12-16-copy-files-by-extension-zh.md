@@ -24,6 +24,7 @@ type: note
 这是一个示例 playbook（假设源和目标都在**控制节点/localhost**上；根据需要调整以用于远程主机）：
 
 {% raw %}
+
 ```yaml
 ---
 - name: 递归复制特定脚本文件
@@ -52,24 +53,29 @@ type: note
       loop: "{{ script_files.files }}"
       when: script_files.matched > 0
 ```
+
 {% endraw %}
 
-### 主要解释：
+### 主要解释
+
 - `find`递归收集所有匹配的文件（非目录）。
 - `relpath`是Ansible中可用的一个过滤器，用于计算相对于源的路径，确保在目标中重新创建子目录结构。
 - 如果源/目标在远程主机上，请在`copy`任务中添加`remote_src: yes`或在远程主机上运行。
 - 对于文件数量非常大的情况，可以考虑使用`ansible.posix.synchronize`模块以及`rsync_opts`进行包含/排除，但这需要安装`rsync`，并且对于精确的扩展名过滤来说更为复杂。
 
 ### 替代方案：将所有文件扁平化到一个目标目录（不保留子目录）
+
 将`copy`任务中的`dest`更改为：
 {% raw %}
+
 ```yaml
 dest: "{{ dest_dir }}/{{ item.path | basename }}"
 ```
+
 {% endraw %}
 
 参考资料：
 
-- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/find_module.html
-- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html
-- https://stackoverflow.com/questions/36696952/copy-multiple-files-with-ansible
+- <https://docs.ansible.com/ansible/latest/collections/ansible/builtin/find_module.html>
+- <https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html>
+- <https://stackoverflow.com/questions/36696952/copy-multiple-files-with-ansible>

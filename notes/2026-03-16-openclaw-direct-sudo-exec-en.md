@@ -35,11 +35,13 @@ The user's claim highlights a perceived advantage in **direct execution of many 
   - Execution feels "indirect" because it emphasizes planning, approvals, and safe boundaries rather than unrestricted local shell access. It may use server-side tools or limited local execution without easy full sudo escalation.
 
 ### Advantages of OpenClaw in This Context
+
 - **More direct and unrestricted privileged execution**: If you intentionally give OpenClaw sudo/root access (common in self-hosted setups), it can run sudo commands seamlessly as part of autonomous workflows. This suits system admin tasks, local automation, or broad machine control.
 - **Autonomous/background operation**: OpenClaw supports "heartbeats," cron-like scheduling, and 24/7 running, making it better for ongoing privileged tasks without constant user intervention.
 - **Broader scope beyond pure coding**: While it can write/run code, its strength is general automation (including privileged ops), whereas Claude Code focuses on development.
 
 ### Important Caveats
+
 - This "advantage" comes with **major security risks** — granting an AI agent sudo/root access can lead to compromise (e.g., prompt injection, malicious skills, or unintended destructive actions). Many guides emphasize hardening, sandboxing, dedicated users, or restricting sudo.
 - Claude Code prioritizes safety and controlled execution, making it "indirect" but more secure for coding.
 - For pure coding assistance, Claude Code is often preferred for reliability and integration; OpenClaw shines in general/personal automation.

@@ -29,6 +29,7 @@ type: note
 这些观点之所以不受欢迎，是因为主流的网络叙事将夜猫子的生活描述为叛逆、富有创造性且智力上优越，而实际上，很多时候它只是被包装成个性的低责任心行为。
 
 参考文献：
+
 - [关于作息类型和学业表现的荟萃分析](https://pubmed.ncbi.nih31202626/)
 - [作息类型和尽责性相关研究](https://www.sciencedirect.com/science/article/abs/pii/S0191886911004952)
 - [不同作息类型的经济结果](https://www.nber.org/papers/w23144)

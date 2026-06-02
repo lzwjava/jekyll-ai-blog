@@ -33,6 +33,7 @@ type: note
 ### 新方法（具有 sudo 访问权限的 Agent）
 
 代理会：
+
 1. **运行** `sudo apt upgrade`
 2. **直接看到** NVIDIA 冲突
 3. **调查**——检查 `dpkg -l | grep nvidia`，读取 `/var/log/apt/`，检查 held packages
@@ -41,12 +42,14 @@ type: note
 6. **在几秒钟内迭代**，而非几分钟
 
 对于你的具体错误，它很可能链式执行：
+
 ```bash
 apt-cache policy nvidia-persistenced
 dpkg --get-selections | grep hold
 sudo apt-mark unhold <package>
 sudo apt --fix-broken install
 ```
+
 ……无需等待你。
 
 ---

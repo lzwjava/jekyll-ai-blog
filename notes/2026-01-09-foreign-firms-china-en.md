@@ -41,7 +41,7 @@ By the time a foreign company receives approval, local competitors may already d
 
 Localization in China goes far beyond language.
 
-### Examples:
+### Examples
 
 * **eBay vs. Taobao**
 

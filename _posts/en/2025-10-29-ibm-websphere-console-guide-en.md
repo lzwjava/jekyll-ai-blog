@@ -17,6 +17,7 @@ The left view in the IBM WebSphere Application Server (WAS) administrative conso
 Below is a list of the main top-level sections in the navigation tree, with brief descriptions of their primary purposes. Subsections are expandable (using +/− icons) for more granular tasks.
 
 #### Main Top-Level Sections
+
 - **Applications**
   Used for deploying, installing, updating, starting/stopping, and managing applications (e.g., EAR/WAR files).
   *Key subsections*: Enterprise Applications, WebSphere Enterprise Applications, Web Modules, Shared Libraries.
@@ -58,6 +59,7 @@ Below is a list of the main top-level sections in the navigation tree, with brie
   *Common tasks*: Download logs, enable trace specifications.
 
 #### Additional Notes
+
 - **Scope Selection**: At the top of many pages, you can filter by scope (Cell, Node, Server) to limit visibility.
 - **Guided Activities**: Sometimes appears as a top-level or contextual section for wizards (e.g., securing the environment).
 - To access the console: Typically via `https://<host>:<port>/ibm/console` (default port 9060 for admin, 9043 for secure).

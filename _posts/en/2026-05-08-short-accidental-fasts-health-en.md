@@ -50,6 +50,7 @@ Among overweight individuals, caloric restriction and intermittent fasting have 
 ## Turning Accidental Fasts into a Real Strategy
 
 Since you're sometimes forced to skip eating anyway, you could lean into a structured **16:8 IF protocol** — fast for 16 hours, eat within an 8-hour window. For example:
+
 - **Eat:** 12pm – 8pm
 - **Fast:** 8pm – 12pm next day
 

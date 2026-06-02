@@ -51,6 +51,7 @@ Yes, the industry loves extending Spring Boot for microservices—it's the de fa
   - **Many banks/insurers** (e.g., ING, Allianz) build unnamed "internal platforms" on Spring Boot, often called "Service Frameworks" or "Microservices Starters," focusing on compliance and ops automation.
 
 Other notable extensions (not purely on Spring but compatible/inspired):
+
 - **Spring Boot Actuator + Micrometer**: For observability—often wrapped into custom monitoring frameworks.
 - **JHipster**: Open-source generator that scaffolds full-stack apps on Spring Boot + Angular/React, popular for quick enterprise prototypes.
 
@@ -59,6 +60,7 @@ In banking specifically, custom Spring Boot frameworks are common because off-th
 If you're architecting this, start with Spring Cloud as your base layer, then customize upward. For a 20-30 service setup, it'll pay dividends in velocity and reliability.
 
 **References**:
+
 - [Top 12 Microservices Frameworks - TatvaSoft Blog](https://www.tatvasoft.com/blog/top-12-microservices-frameworks/)
 - [Native Cloud Adoption and Microservice Framework | Next at Chase](https://medium.com/next-at-chase/driving-native-cloud-adoption-at-scale-through-a-microservice-framework-a461e87bb8f2)
 - [Top 7 Java Microservices Frameworks - foojay](https://foojay.io/today/top-7-java-microservices-frameworks/)

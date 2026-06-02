@@ -76,7 +76,7 @@ Here are the realistic options people commonly use:
 
 **References:**
 
-- https://developers.cloudflare.com/web-analytics/
-- https://developers.cloudflare.com/analytics/graphql-api/
-- https://community.cloudflare.com/t/api-for-web-analytics/644351
-- https://developers.cloudflare.com/analytics/account-and-zone-analytics/zone-analytics
+- <https://developers.cloudflare.com/web-analytics/>
+- <https://developers.cloudflare.com/analytics/graphql-api/>
+- <https://community.cloudflare.com/t/api-for-web-analytics/644351>
+- <https://developers.cloudflare.com/analytics/account-and-zone-analytics/zone-analytics>

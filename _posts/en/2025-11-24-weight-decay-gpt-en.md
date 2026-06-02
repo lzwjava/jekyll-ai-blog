@@ -11,16 +11,19 @@ type: note
 ---
 
 ### Overview of Weight Decay in Karpathy's Video
+
 In his YouTube video *"Let's Reproduce GPT-2 (124M)"* (a 3+ hour deep dive into replicating OpenAI's GPT-2 training from scratch using PyTorch), Andrej Karpathy discusses weight decay as a key optimization technique during the hyperparameters section, around the 2:51:40 mark (roughly 10700 seconds). This comes after covering data loading and model architecture, as part of setting up the training loop to match GPT-3-style practices. The focus is on using AdamW (a variant of the Adam optimizer) to ensure stable, scalable training for large language models.
 
 Karpathy emphasizes weight decay's role in regularization to prevent overfitting, especially when training on massive text datasets. He sets it to **0.1** (10x the typical AdamW default of 0.01) to align with GPT-3's regime, calling it a "pull of gravity" on the weights that keeps them from exploding or dominating.
 
 ### Key Explanation and Analogy
+
 Karpathy describes weight decay as a **gentle, constant downward force**—like gravity—applied to the model's parameters during optimization. This prevents any single weight from growing too large and overfitting to noise in the data. Instead, it encourages the model to **distribute learning across multiple weights**, promoting more robust, shared representations (e.g., features aren't handled by one oversized weight but spread out for better generalization).
 
 He contrasts this with vanilla Adam, noting that AdamW "decouples" weight decay from the adaptive learning rate updates, making it more effective. Without proper decay, large models like GPT-2 can become unstable, leading to poor convergence or exploding gradients.
 
 ### Mathematical Formulation
+
 Karpathy briefly derives the update rule for AdamW, highlighting how weight decay is added as a separate shrinkage term:
 
 \\[
@@ -36,6 +39,7 @@ Karpathy briefly derives the update rule for AdamW, highlighting how weight deca
 The key addition is \\(+\lambda \theta_t\\), which scales the weights by \\((1 - \eta \lambda)\\) each step, acting like L2 regularization but applied *after* the gradient step. This is crucial for large-scale training, as it stabilizes without interfering with gradient clipping or scheduling.
 
 ### Implementation Details
+
 In the code walkthrough, Karpathy shows how to configure the optimizer in `configure_optimizers()`:
 
 ```python
@@ -57,6 +61,7 @@ He stresses **parameter grouping** to apply decay selectively (only where it hel
 This split (e.g., ~50 decayed vs. ~98 non-decayed parameters) is printed at setup for debugging. Karpathy notes it's empirical—drawn from GPT-3 paper insights—and pairs it with cosine learning rate decay and gradient clipping (norm=1.0) for full stability.
 
 ### Practical Impact and Tips
+
 - **Why 0.1?** For massive models/datasets, stronger decay enforces sparser, more efficient weights without underfitting.
 - **Performance Boost**: Fused AdamW shaves computation time, vital for long runs (e.g., days on multi-GPU setups).
 - **Broader Context**: This setup helps the replicated GPT-2 achieve near-OpenAI perplexity scores, underscoring weight decay's "outsized impact" on generalization.

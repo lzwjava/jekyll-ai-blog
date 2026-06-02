@@ -15,11 +15,13 @@ The issue arises because VSCode’s Java extensions (specifically the Java Langu
 ---
 
 ### Step 1: Install JDK 21
+
 Since VSCode is explicitly asking for Java 21, you’ll need to ensure it’s installed on your system.
 
 - **Download JDK 21**: Get it from a trusted source like [Oracle’s website](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html) or [Adoptium](https://adoptium.net/).
 - **Install it**: Follow the installation instructions and note the installation path (e.g., `C:\Program Files\Java\jdk-21` on Windows or `/usr/lib/jvm/java-21-openjdk` on Linux).
 - **Verify**: Open a terminal and run `java -version`. You should see something like:
+
   ```
   java version "21.0.1" ...
   ```
@@ -27,6 +29,7 @@ Since VSCode is explicitly asking for Java 21, you’ll need to ensure it’s in
 ---
 
 ### Step 2: Configure VSCode to Use JDK 21
+
 You need to tell VSCode’s Java extensions to use JDK 21. Here’s how:
 
 1. **Open VSCode Settings**:
@@ -37,12 +40,14 @@ You need to tell VSCode’s Java extensions to use JDK 21. Here’s how:
    - Optionally, search for `java.home` and set it to the same path for consistency.
 3. **Edit `settings.json` (Alternative)**:
    - Open the Command Palette (`Ctrl + Shift + P`), type “Preferences: Open Settings (JSON)”, and add:
+
      ```json
      {
          "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-21",
          "java.home": "C:\\Program Files\\Java\\jdk-21"
      }
      ```
+
    - Adjust the path based on your system (use forward slashes `/` for Linux/Mac).
 
 This ensures the Java Language Server in VSCode uses JDK 21, meeting the minimum requirement.
@@ -50,9 +55,11 @@ This ensures the Java Language Server in VSCode uses JDK 21, meeting the minimum
 ---
 
 ### Step 3: Set the Project’s JDK in VSCode
+
 To fix the parsing issues (e.g., object definitions not being found), ensure your project in VSCode uses JDK 21 as well:
 
 - In `settings.json`, add the following to specify JDK 21 for your project:
+
   ```json
   "java.configuration.runtimes": [
       {
@@ -62,11 +69,13 @@ To fix the parsing issues (e.g., object definitions not being found), ensure you
       }
   ]
   ```
+
 - This aligns VSCode’s project runtime with JDK 21, which should help it parse your code correctly.
 
 ---
 
 ### Step 4: Verify Maven’s JDK Configuration
+
 Since your Maven build (`mvn compile`) works fine, it’s likely using a compatible JDK. Let’s confirm and align it with VSCode:
 
 1. **Check Maven’s JDK**:
@@ -77,6 +86,7 @@ Since your Maven build (`mvn compile`) works fine, it’s likely using a compati
    - Run `mvn -version` again to confirm.
 2. **Specify JDK in `pom.xml`** (optional):
    - If you want to enforce JDK 21 in your Maven project, add this to your `pom.xml`:
+
      ```xml
      <properties>
          <maven.compiler.source>21</maven.compiler.source>
@@ -87,6 +97,7 @@ Since your Maven build (`mvn compile`) works fine, it’s likely using a compati
 ---
 
 ### Step 5: Refresh VSCode
+
 After making these changes, VSCode needs a refresh to apply them:
 
 - Reload VSCode:
@@ -96,6 +107,7 @@ After making these changes, VSCode needs a refresh to apply them:
 ---
 
 ### Step 6: Ensure Dependencies Are Loaded
+
 If VSCode still can’t find object definitions, it might not have loaded your Maven dependencies properly:
 
 1. **Clean the Workspace**:
@@ -109,7 +121,9 @@ If VSCode still can’t find object definitions, it might not have loaded your M
 ---
 
 ### Troubleshooting
+
 If the problem persists:
+
 - **Check Logs**:
   - Add `"java.trace.server": "verbose"` to `settings.json`.
   - Open the Output panel (`Ctrl + Shift + U`) and select “Java Language Server” to view detailed logs.
@@ -119,4 +133,5 @@ If the problem persists:
 ---
 
 ### Summary
+
 By installing JDK 21, configuring VSCode to use it, aligning your project and Maven settings, and refreshing the environment, VSCode should stop complaining about Java 21 and correctly parse your code, matching Maven’s successful compilation. Let me know if you hit any snags!

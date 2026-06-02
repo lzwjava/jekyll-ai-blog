@@ -15,6 +15,7 @@ type: note
 Ghostty behaves similarly to the default GNOME Terminal on Ubuntu (and other Linux distros) when it comes to loading `.bashrc`. By default, Ghostty starts **non-login interactive shells** for bash, which means it sources `~/.bashrc` directly—just like GNOME Terminal. This is the standard behavior for most Linux terminals, where `.bashrc` handles interactive shell setup (e.g., aliases, prompts, environment variables for non-login sessions).
 
 #### How It Loads .bashrc
+
 - When you open a new Ghostty window or tab, it executes `bash` (or your default shell) as a non-login shell.
 - Bash checks for and sources `~/.bashrc` if the shell is interactive (which it is by default).
 - If you have a `~/.bash_profile` (typically for login shells), it won't be sourced unless you explicitly configure Ghostty to start a login shell (e.g., by adding `initial-command = bash --login` to `~/.config/ghostty/config`).
@@ -28,6 +29,7 @@ On macOS, Ghostty follows the platform's tradition (like Terminal.app) and start
 
 - **If using zsh (macOS default since Catalina)**: It sources `~/.zprofile` (for login setup) *and* `~/.zshrc` (for interactive setup) every time a new terminal opens.
 - **If using bash**: It sources `~/.bash_profile` (login shell). Bash won't source `~/.bashrc` directly here—`~/.bashrc` is only for non-login interactive shells. To include `.bashrc` content, add this to your `~/.bash_profile`:
+
   ```
   if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
   ```

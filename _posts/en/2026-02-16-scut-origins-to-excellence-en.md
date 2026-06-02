@@ -18,6 +18,7 @@ Answer:
 South China University of Technology (**SCUT**, Chinese: 华南理工大学), located in **Guangzhou**, Guangdong Province, is one of China's top public research universities, directly administered by the Ministry of Education. It is renowned for its strength in engineering and has developed into a comprehensive, high-level research university. SCUT is part of the elite groups including **Project 985**, **Project 211**, **Double First-Class** (Class A), and Guangdong Province's high-level university construction programs.
 
 ### Roots and Predecessor Institutions (1910s–1951)
+
 The university's educational history traces back over a century, with origins in several early engineering-focused schools in southern China:
 
 - **1918** — Establishment of the **Guangdong Provincial First A-Type Industrial School** (广东省立第一甲种工业学校), often called "甲工" (Jia Gong), widely regarded as the earliest direct predecessor. Some sources link its roots even earlier to the **Guangdong Crafts Bureau** (广东工艺局) founded around 1910 during the late Qing Dynasty.
@@ -31,6 +32,7 @@ The university's educational history traces back over a century, with origins in
 These institutions served as important cradles for engineering and technical talent in southern China before 1949.
 
 ### Formal Establishment and Early Years (1952–1978)
+
 - **November 1952** — SCUT was officially founded as the **South China Institute of Technology** (华南工学院) during China's nationwide **higher education restructuring** (院系调整) under the new People's Republic.
   This major reorganization merged engineering schools and departments from multiple institutions across five provinces (Guangdong, Guangxi, Hunan, Hubei, and Jiangxi), including:
   - Engineering parts of **National Sun Yat-sen University**
@@ -48,6 +50,7 @@ These institutions served as important cradles for engineering and technical tal
 The **Cultural Revolution** (1966–1976) seriously disrupted normal operations, as with most Chinese universities.
 
 ### Reform, Renaming, and Rapid Development (1978–2000)
+
 - Late **1970s** — Recovery began after China's **Reform and Opening Up** policy. Emphasis returned to science, engineering, and modernization.
 - **1981** — Approved as one of the first batch of universities in China authorized to award **master's** and **doctoral degrees**.
 - **January 1988** — Renamed **South China University of Technology** (华南理工大学), signaling its evolution from a specialized institute to a broader comprehensive university.
@@ -56,6 +59,7 @@ The **Cultural Revolution** (1966–1976) seriously disrupted normal operations,
 - Late 1990s–2000 — Achieved excellent evaluations in undergraduate teaching and established national university science parks.
 
 ### 21st Century: World-Class Ambitions (2001–present)
+
 - **2001** — Entered **Project 985** (world-class university initiative).
 - **2000s–2010s** — Expanded significantly:
   - Built the modern **University Town Campus** in Panyu.

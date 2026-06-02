@@ -34,13 +34,13 @@ type: note
 
 参考文献：
 
-- https://www.cbinsights.com/research/biggest-startup-failures/
-- https://www.failory.com/failures
-- https://en.wikipedia.org/wiki/Theranos
-- https://en.wikipedia.org/wiki/WeWork
-- https://en.wikipedia.org/wiki/Quibi
-- https://en.wikipedia.org/wiki/Bankruptcy_of_FTX
-- https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)
-- https://www.theguardian.com/technology/2017/sep/01/juicero-silicon-valley-shutting-down
-- https://techcrunch.com/2021/06/01/softbank-backed-construction-giant-katerra-said-to-be-shutting-down-after-raising-billions/
-- https://www.cnbc.com/2024/12/15/end-of-gm-cruise-driverless-robotaxi.html
+- <https://www.cbinsights.com/research/biggest-startup-failures/>
+- <https://www.failory.com/failures>
+- <https://en.wikipedia.org/wiki/Theranos>
+- <https://en.wikipedia.org/wiki/WeWork>
+- <https://en.wikipedia.org/wiki/Quibi>
+- <https://en.wikipedia.org/wiki/Bankruptcy_of_FTX>
+- <https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)>
+- <https://www.theguardian.com/technology/2017/sep/01/juicero-silicon-valley-shutting-down>
+- <https://techcrunch.com/2021/06/01/softbank-backed-construction-giant-katerra-said-to-be-shutting-down-after-raising-billions/>
+- <https://www.cnbc.com/2024/12/15/end-of-gm-cruise-driverless-robotaxi.html>

@@ -28,7 +28,8 @@ But here's the better approach: **Don't prepare on VPS at all.**
                                             ready for training
 ```
 
-### On GPU Droplet (big disk, fast CPU):
+### On GPU Droplet (big disk, fast CPU)
+
 ```bash
 # Transfer raw text file
 rsync -avz --progress root@159.89.216.20:/root/zz/datasets/fineweb_extracted_all.txt ./

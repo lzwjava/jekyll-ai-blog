@@ -22,7 +22,7 @@ type: note
 
 == 我们做了什么 ==
 
-1. 克隆了 zenith 单体仓库（git@github.com:bigduu/Zenith.git）→ ~/projects/zenith
+1. 克隆了 zenith 单体仓库（<git@github.com>:bigduu/Zenith.git）→ ~/projects/zenith
 2. 初始化了子模块（bamboo, lotus, bodhi, pavilion, bodhi-server）
 3. 创建了符号链接：~/projects/lotus → zenith/lotus，~/projects/bamboo → zenith/bamboo
 4. 在 Bodhi-AI 和 lotus 中分别执行 npm install

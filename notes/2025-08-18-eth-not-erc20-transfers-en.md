@@ -22,12 +22,12 @@ To make it clearer:
 * If you withdraw ETH from Binance, it will be transferred via the **Ethereum mainnet**, not the ERC-20 token standard.
 * **MetaMask ETH address** is on the Ethereum main network, which is compatible with ETH and ERC-20 tokens, but you need to make sure you select the **Ethereum main network** (not an ERC-20 token withdrawal) when withdrawing ETH from Binance to MetaMask.
 
-### The correct steps would be:
+### The correct steps would be
 
 1. **Withdraw ETH from Binance**: Choose the **Ethereum mainnet** (ETH) as the withdrawal method.
 2. **Receive on MetaMask**: Your MetaMask ETH address is on the Ethereum main network, and you'll receive ETH directly.
 
-### To summarize:
+### To summarize
 
 * **ETH is not an ERC-20 token**; it is the main currency of the Ethereum mainnet.
 * When withdrawing ETH, use the **Ethereum mainnet** option for both Binance and MetaMask.

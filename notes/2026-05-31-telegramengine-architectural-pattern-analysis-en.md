@@ -169,6 +169,7 @@ public extension TelegramEngine {
 ```
 
 Usage in consumer code looks like this:
+
 ```swift
 context.engine.data.subscribe(
     EngineData.Item.Peer(id: peerId),
@@ -231,6 +232,7 @@ public extension Signal where E == NoError {
 ```
 
 The `|>` pipe operator is used pervasively — it turns signal chains into readable pipelines:
+
 ```swift
 context.engine.data.subscribe(EngineData.Item.Peer(id: peerId))
 |> map { peer -> String in peer.debugDisplayableName }
@@ -274,6 +276,7 @@ public protocol ValueBox {
 ```
 
 Key design decisions:
+
 - `ValueBoxKey` is a typed key (binary or int64) — no stringly-typed nonsense
 - `ReadBuffer` returns raw pointers for zero-copy reads
 - `MemoryBuffer` for writes — avoids Data allocation overhead
@@ -319,6 +322,7 @@ genrule(
 ```
 
 The build system uses:
+
 - `swift_library` for each submodule (fine-grained dependency tracking)
 - `genrule` for code generation (strings, intents)
 - `config_setting` for debug/release/extension toggles

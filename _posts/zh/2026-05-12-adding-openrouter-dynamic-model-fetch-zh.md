@@ -20,10 +20,12 @@ type: note
 ## 已经完成一半的工作
 
 `providers.rb:78-98` 定义了 OpenRouter 预设，内容如下：
+
 ```ruby
 "base_url" => "https://openrouter.ai/api/v1",
 "models" => [],  # 动态 - 从 API 获取
 ```
+
 因此代码库原本就打算让 OpenRouter 的模型来自其 API，但获取逻辑从未实际接入。这正是你注意到的差距。
 
 ## 如何填补
@@ -34,11 +36,13 @@ OpenRouter 暴露了 `GET https://openrouter.ai/api/v1/models`（无需认证）
 
 **A. 后端获取 + 缓存（推荐）**
 在 `api_list_providers`（http_server.rb:2817）内部，遍历预设时，针对 `openrouter` 的 id，使用现有的 HTTP 客户端调用 `https://openrouter.ai/api/v1/models`，将 `data[].id` 映射到 `models`，并缓存结果（例如在实例变量或磁盘上设置 1 小时 TTL），这样每次打开设置时无需重新获取。网络故障时回退到 `[]`，此时 UI 降级为纯文本输入框——与当前行为一致。
+
 - 优点：浏览器端无需额外 CORS 处理，单一缓存位置，无密钥泄露风险，复用现有 HTTP 基础设施。
 - 缺点：后端在首次请求时需要执行一次出站调用。
 
 **B. 前端在下拉列表打开时获取**
 在 `_updateModelDropdown()`（settings.js:277）中，当匹配的提供者为 OpenRouter 并且 `provider.models` 为空时，直接从浏览器 `fetch("https://openrouter.ai/api/v1/models")`，映射 `data[].id` 并渲染。将结果缓存到 `_providers[i].models` 上，以便后续打开时即时响应。
+
 - 优点：改动最小，无需修改 Ruby 代码。
 - 缺点：依赖于 OpenRouter 的 CORS 头部是否宽松（目前是宽松的，但不受你控制）；同时意味着每个用户的浏览器都会直接访问 OpenRouter，即使没有 API 密钥。
 
@@ -50,4 +54,5 @@ OpenRouter 暴露了 `GET https://openrouter.ai/api/v1/models`（无需认证）
 2. **“动态”的范围**：在 `providers.rb` 中，只有 OpenRouter 具有此属性。其他提供商（如 Kimi、MiniMax、GLM）保留精心设计的静态列表是有原因的——预设充当了已知良好的快捷列表。不要在没有仔细考虑的情况下将获取逻辑泛化到“所有 models 为空的提供商”。
 
 来源：
+
 - [OpenRouter 模型端点](https://openrouter.ai/docs/api-reference/list-available-models)

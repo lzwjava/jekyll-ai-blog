@@ -10,7 +10,7 @@ type: note
 
 The term "archipelago" refers to a group or chain of islands. It comes from the Greek words "arkhi" (meaning "chief" or "principal") and "pelagos" (meaning "sea" or "pool"). The term was originally used to refer to the Aegean Sea, but it has since been applied to any group of islands.
 
-### Key Points about Archipelagos:
+### Key Points about Archipelagos
 
 1. **Geographical Features**:
    - **Island Groups**: Archipelagos can consist of many small islands or a few large ones. They can be found in oceans, seas, or even large lakes.

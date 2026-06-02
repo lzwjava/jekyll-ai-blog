@@ -37,7 +37,8 @@ Here are several genuinely unpopular or minority opinions about backpropagation 
 These opinions are definitely minority views—most practitioners love backprop because it just works and is insanely efficient on GPUs—but they are held by respected researchers and are gaining more traction as the field starts questioning whether the 1986 recipe can carry us all the way to AGI.
 
 References:
+
 - [Geoffrey Hinton’s Forward-Forward Algorithm (2022)](https://www.cs.toronto.edu/~hinton/FFA13.pdf)
 - [Feedback Alignment works almost as well as backprop (Lillicrap et al., 2016)](https://www.nature.com/articles/ncomms13276)
 - [Chollet’s “On the Measure of Intelligence” (2020) critiquing pure scaling](https://arxiv.org/abs/1911.01547)
-- [Rahimi’s “Test of Time” NIPS 2017 talk (“Machine Learning has become Alchemy”)] (https://www.youtube.com/watch?v=Qi1Yry33eDU)
+- [Rahimi’s “Test of Time” NIPS 2017 talk (“Machine Learning has become Alchemy”)] (<https://www.youtube.com/watch?v=Qi1Yry33eDU>)

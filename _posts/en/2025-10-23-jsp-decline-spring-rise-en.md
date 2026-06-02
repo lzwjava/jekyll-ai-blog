@@ -15,6 +15,7 @@ JavaServer Pages (JSP) was once a staple for building dynamic web applications i
 This migration isn't about "stopping JSP entirely" (it's still used in legacy systems), but rather adopting more efficient, maintainable approaches. Below, I'll outline the key reasons based on developer discussions, surveys, and expert analyses.
 
 ## Key Reasons JSP Has Fallen Out of Favor
+
 JSP, introduced in 1999, feels outdated in 2025's fast-paced development landscape. Here's why it's rarely chosen for new apps:
 
 - **Messy and Hard-to-Maintain Code**: JSP encourages mixing Java scriptlets (e.g., `<% %>`) with HTML, leading to spaghetti code that's difficult to read, test, and debug. Generated servlet code from JSP can become a "hot mess," especially in large projects. This violates modern separation-of-concerns principles.
@@ -28,6 +29,7 @@ JSP, introduced in 1999, feels outdated in 2025's fast-paced development landsca
 - **Low Adoption in Surveys**: Recent JVM surveys show only ~8% of apps use JSP-related tech like JSF, compared to 58% for Spring Boot. It's seen as a "relic" or "failed technology," with minimal mentions in architecture talks for over a decade.
 
 ## Why Spring Boot Has Taken Over
+
 Spring Boot simplifies Java web development by building on Spring but reducing boilerplate. It doesn't replace JSP outright but makes it unnecessary through better abstractions and integrations. Developers flock to it for these reasons:
 
 - **Rapid Setup and Auto-Configuration**: No manual XML configs or server setup—Spring Boot uses "starters" (e.g., `spring-boot-starter-web`) for dependencies, embeds Tomcat/Jetty, and provides sensible defaults. A "Hello World" app takes minutes, not hours.
@@ -43,6 +45,7 @@ Spring Boot simplifies Java web development by building on Spring but reducing b
 In short, Spring Boot hides the complexity that made raw JSP/Servlet apps tedious, letting teams build faster without sacrificing power.
 
 ## Modern Alternatives to JSP in Spring Boot
+
 While JSP *can* work with Spring Boot (via `spring-boot-starter-web` and WAR packaging), it's actively discouraged—Spring Boot's "opinion" is that JSPs "stink" for the reasons above. Instead:
 
 - **Thymeleaf (Most Popular)**: A natural templating engine that produces valid HTML. Advantages include static prototyping (open in browser without a server), HTML5-native support, readable syntax (e.g., `th:field` attributes), and easy internationalization. It's designer-friendly and integrates perfectly with Spring MVC. Example: A form in Thymeleaf looks like plain HTML, unlike JSP's tag-heavy mess.
@@ -54,6 +57,7 @@ While JSP *can* work with Spring Boot (via `spring-boot-starter-web` and WAR pac
 For simple apps, even static HTML/CSS/JS with Spring Boot's resource handling suffices—no templating needed.
 
 ## Final Thoughts
+
 The move from JSP to Spring Boot reflects a broader evolution toward cleaner, more productive tools. If you're maintaining legacy JSP code, migrate gradually (e.g., to Thymeleaf). For new projects, start with Spring Boot—it's the standard in 2025. Understanding JSP basics can still help demystify web fundamentals, but it's not a prerequisite.
 
 [Are JSP and Servlets still relevant? (Reddit)](https://www.reddit.com/r/java/comments/197jl86/are_jsp_and_servlets_still_relevant/)

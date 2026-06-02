@@ -20,6 +20,7 @@ This is a wild ride. Here's what actually happened, based on what I can piece to
 ## What Happened: Timeline Reconstruction
 
 ### 1. You applied for the Token Plan but didn't find the entry
+
 The MiMo platform has a "Subscription Management" section where you can view quota and usage — this is the entry point most people miss. It's at `platform.xiaomimimo.com`.
 
 ### 2. Credits went 7B → 38B → 460B — this is the official price cut
@@ -29,11 +30,13 @@ This is **not** a glitch. MiMo had a massive repricing event:
 On May 27, 2026 at 00:00 AM CST, MiMo-V2.5 prices were cut by up to 99%, and Token Plan quotas were increased 5–8×, with all Credits used within the validity period fully reset.
 
 So:
+
 - Your original 7B credits were the pre-cut allocation
 - After the price cut, the same money bought 5–8× more → that's why you saw it jump to 38B
 - The 460B (38B + 8B from something + more?) is your current total including resets and potentially the Orbit grant
 
 ### 3. The 100T Token Creator Incentive
+
 The Orbit 100T Token Grant ran from April 28 to May 28, 2026 Beijing Time — 100 trillion tokens distributed over 30 days, potentially closing early once claimed.
 
 You likely got in during this window, which is why your initial grant appeared late (tokens weren't credited immediately at signup).

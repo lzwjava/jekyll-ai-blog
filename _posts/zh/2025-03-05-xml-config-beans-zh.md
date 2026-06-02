@@ -32,6 +32,7 @@ type: note
 ```
 
 在这个例子中：
+
 - 一个 ID 为 `myBean` 的 bean 由 `com.example.MyBean` 类创建。
 - 该 bean 有一个名为 `someProperty` 的属性。
 - `<props>` 元素定义了一组键值对（`key1=value1` 和 `key2=value2`），Spring 会将其转换为 `Properties` 对象，并通过像 `setSomeProperty(Properties props)` 这样的 setter 方法注入到 `myBean` 中。
@@ -52,9 +53,11 @@ type: note
 beans XML 文件通过创建一个 `ApplicationContext` 实现的实例并指定 XML 文件的位置来加载到应用程序中。以下是其工作步骤：
 
 1. **指定 XML 文件位置**：当您实例化 `ApplicationContext` 时，需要提供 XML 文件的名称或路径。例如：
+
    ```java
    ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
    ```
+
    这里，假设 `"beans.xml"` 位于类路径中（例如，在典型的 Java 项目的 `src/main/resources` 目录下）。
 
 2. **作为资源加载**：`ApplicationContext` 使用 `ResourceLoader` 来定位并作为 `Resource` 加载 XML 文件。在这种情况下，`ClassPathXmlApplicationContext` 会在类路径中查找该文件。
@@ -64,6 +67,7 @@ beans XML 文件通过创建一个 `ApplicationContext` 实现的实例并指定
 4. **Bean 创建**：`ApplicationContext`（它扩展了 Spring 的 `BeanFactory`）使用这些 bean 定义来实例化 bean，设置它们的属性（包括注入来自 `<props>` 的 `Properties` 对象），并管理它们的生命周期。
 
 加载完成后，您可以像这样从 `ApplicationContext` 中获取 bean：
+
 ```java
 MyBean myBean = context.getBean("myBean", MyBean.class);
 ```
@@ -75,9 +79,11 @@ MyBean myBean = context.getBean("myBean", MyBean.class);
 - **如何加载**：当您创建 `ApplicationContext` 实例并指定文件位置时，XML 作为资源从类路径或文件系统加载。
 
 例如，如果您的 `beans.xml` 在类路径中，您可以使用以下代码加载它：
+
 ```java
 ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 ```
+
 然后 Spring 会处理其余工作，使配置好的 bean 可供您的应用程序使用。
 
 这种机制强大而灵活，允许您在 XML 中定义复杂的配置，Spring 在运行时将这些配置变为现实。

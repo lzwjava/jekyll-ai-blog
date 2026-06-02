@@ -13,20 +13,23 @@ type: note
 Since you're accessing Claude models through OpenRouter (as discussed previously), you can leverage Claude's strong coding capabilities for tasks like generating code, debugging, explaining concepts, refactoring, or even building small projects. Claude 3.5 Sonnet or Opus are particularly good for programming due to their reasoning and code understanding. Below, I'll guide you step-by-step on how to use it effectively for programming.
 
 #### 1. **Set Up Your Environment**
-   - Use the OpenRouter API setup from before. Ensure you have the OpenAI Python SDK installed (`pip install openai`).
-   - Choose a model like `anthropic/claude-3.5-sonnet` for most coding tasks—it's efficient and handles languages like Python, JavaScript, Java, C++, etc.
-   - If you're new to prompting for code, start with simple requests and iterate.
+
+- Use the OpenRouter API setup from before. Ensure you have the OpenAI Python SDK installed (`pip install openai`).
+- Choose a model like `anthropic/claude-3.5-sonnet` for most coding tasks—it's efficient and handles languages like Python, JavaScript, Java, C++, etc.
+- If you're new to prompting for code, start with simple requests and iterate.
 
 #### 2. **Best Practices for Prompting Claude in Programming**
-   - **Be Specific**: Provide context, language, constraints, and examples. Claude excels at step-by-step reasoning, so ask it to "think aloud" before generating code.
-   - **Use System Prompts**: Set a role like "You are an expert Python developer" to focus responses.
-   - **Handle Errors**: If code doesn't work, feed back the error message and ask for fixes.
-   - **Iterate**: Use follow-up messages in a conversation to refine code.
-   - **Security Note**: Don't share sensitive code or data, as API calls go through OpenRouter.
-   - **Languages Supported**: Claude handles most popular ones (Python, JS, HTML/CSS, SQL, etc.). For niche ones, specify clearly.
-   - **Token Limits**: Keep prompts under the model's context window (e.g., 200K tokens for Claude 3.5 Sonnet) to avoid truncation.
+
+- **Be Specific**: Provide context, language, constraints, and examples. Claude excels at step-by-step reasoning, so ask it to "think aloud" before generating code.
+- **Use System Prompts**: Set a role like "You are an expert Python developer" to focus responses.
+- **Handle Errors**: If code doesn't work, feed back the error message and ask for fixes.
+- **Iterate**: Use follow-up messages in a conversation to refine code.
+- **Security Note**: Don't share sensitive code or data, as API calls go through OpenRouter.
+- **Languages Supported**: Claude handles most popular ones (Python, JS, HTML/CSS, SQL, etc.). For niche ones, specify clearly.
+- **Token Limits**: Keep prompts under the model's context window (e.g., 200K tokens for Claude 3.5 Sonnet) to avoid truncation.
 
 #### 3. **Example: Generating Code**
+
    Here's how to use Claude to generate a simple Python function. Use this in your code:
 
    ```python
@@ -54,6 +57,7 @@ Since you're accessing Claude models through OpenRouter (as discussed previously
    ```
 
    **Expected Output (Example)**:
+
    ```
    def factorial(n):
        """
@@ -76,9 +80,11 @@ Since you're accessing Claude models through OpenRouter (as discussed previously
    ```
 
 #### 4. **Example: Debugging Code**
+
    Feed buggy code to Claude and ask for fixes.
 
    **Prompt Example** (Add to the `messages` list):
+
    ```
    {"role": "user", "content": "Debug this Python code: def add(a, b): return a + c. Error: NameError: name 'c' is not defined. Fix it and explain."}
    ```
@@ -86,9 +92,11 @@ Since you're accessing Claude models through OpenRouter (as discussed previously
    Claude might respond: "The error is due to 'c' not being defined. Change to 'return a + b'. Explanation: Typo in variable name."
 
 #### 5. **Example: Explaining Concepts**
+
    For learning, ask for explanations with code snippets.
 
    **Prompt Example**:
+
    ```
    {"role": "user", "content": "Explain how decorators work in Python, with a simple example."}
    ```
@@ -96,14 +104,16 @@ Since you're accessing Claude models through OpenRouter (as discussed previously
    This could yield a detailed response with code like a logging decorator.
 
 #### 6. **Advanced Usage: Building a Project**
-   - Start a conversation by maintaining message history. Append previous responses to the `messages` list for context.
-   - Example: First prompt for a web scraper outline, then refine with "Add error handling to the code you provided."
-   - Integrate with Tools: Use Claude to generate code that you can test locally or via other APIs.
+
+- Start a conversation by maintaining message history. Append previous responses to the `messages` list for context.
+- Example: First prompt for a web scraper outline, then refine with "Add error handling to the code you provided."
+- Integrate with Tools: Use Claude to generate code that you can test locally or via other APIs.
 
 #### 7. **Tips for Chinese Users**
-   - You can prompt in Chinese: Claude supports multilingual input. E.g., {"role": "user", "content": "用Python写一个计算阶乘的函数，包括负数错误处理。"} (It will respond in Chinese if prompted).
-   - Costs: Coding prompts are token-heavy, so monitor your OpenRouter balance. Start with short prompts.
-   - Alternatives if Needed: If OpenRouter limits hit, consider free tiers on other platforms, but they may not route to Claude.
+
+- You can prompt in Chinese: Claude supports multilingual input. E.g., {"role": "user", "content": "用Python写一个计算阶乘的函数，包括负数错误处理。"} (It will respond in Chinese if prompted).
+- Costs: Coding prompts are token-heavy, so monitor your OpenRouter balance. Start with short prompts.
+- Alternatives if Needed: If OpenRouter limits hit, consider free tiers on other platforms, but they may not route to Claude.
 
 If you provide a specific programming task or language, I can give a tailored example!
 

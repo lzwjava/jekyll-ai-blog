@@ -53,6 +53,7 @@ Tailscale是一个基于WireGuard的零配置VPN。它能在你的设备之间�
      ```bash
      ssh user@100.x.x.x   # 使用你服务器的Tailscale IP
      ```
+
    * 或者通过Tailscale IP访问你暴露的任何服务（网页服务器、媒体服务器）。
 
 **注意事项：**
@@ -83,6 +84,7 @@ Tailscale是一个基于WireGuard的零配置VPN。它能在你的设备之间�
   ```bash
   ssh -R 2222:localhost:22 user@remote-ngrok-server
   ```
+
 * 优点：
 
   * 无需设置VPN。

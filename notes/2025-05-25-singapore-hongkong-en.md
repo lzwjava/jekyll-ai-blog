@@ -11,6 +11,7 @@ type: note
 Singapore and Hong Kong are both global financial hubs in Asia, known for their economic prowess, strategic locations, and vibrant urban environments. Below is a concise comparison across key aspects:
 
 ### 1. **Geography and Demographics**
+
 - **Singapore**:
   - **Location**: Island city-state in Southeast Asia, south of Malaysia.
   - **Area**: ~728 km², highly urbanized with limited land.
@@ -29,6 +30,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 2. **Economy**
+
 - **Singapore**:
   - **GDP (Nominal, 2024 est.)**: ~$525 billion USD.
   - **GDP Per Capita**: ~$91,000 USD, among the highest globally.
@@ -47,6 +49,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 3. **Political System**
+
 - **Singapore**:
   - **Government**: Parliamentary republic with a dominant-party system (People’s Action Party has ruled since 1965).
   - **Stability**: Highly stable, low corruption (ranks 5th on Corruption Perceptions Index 2024).
@@ -61,6 +64,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 4. **Cost of Living**
+
 - **Singapore**:
   - High cost of living, especially housing (public HDB flats are affordable, private properties are expensive).
   - Average monthly rent: (1-bedroom, city center): ~$2,500–$3,500 USD.
@@ -75,6 +79,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 5. **Quality of Life**
+
 - **Singapore**:
   - **Infrastructure**: World-class public transport (MRT), Changi Airport, clean streets.
   - **Safety**: Extremely safe, low crime rates.
@@ -91,6 +96,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 6. **Culture and Lifestyle**
+
 - **Singapore**:
   - Multicultural, with a blend of Chinese, Malay, and Indian influences.
   - Food: Hawker centers offering affordable, diverse cuisines (e.g., Hainanese chicken rice).
@@ -105,6 +111,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 7. **Education and Innovation**
+
 - **Singapore**:
   - World-class education (e.g., NUS, NTU rank among Asia’s top universities).
   - Strong focus on STEM, innovation hubs, and startup ecosystems.
@@ -117,6 +124,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### 8. **Global Connectivity**
+
 - **Singapore**:
   - Major shipping and aviation hub (Changi Airport is a global leader).
   - Strategic location for ASEAN trade.
@@ -129,6 +137,7 @@ Singapore and Hong Kong are both global financial hubs in Asia, known for their 
 ---
 
 ### Summary
+
 - **Singapore**: Excels in stability, safety, infrastructure, and economic diversification. Ideal for those seeking order, efficiency, and a multicultural environment.
 - **Hong Kong**: Offers a vibrant, fast-paced lifestyle with strong ties to China but faces challenges from political uncertainty and higher living costs.
 

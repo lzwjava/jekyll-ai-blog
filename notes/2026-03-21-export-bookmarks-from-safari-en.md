@@ -23,13 +23,11 @@ This is the most straightforward method.
 
 **Method 1: Export Browsing Data to File (modern Safari)**
 
-
 1. Open Safari.
 2. In the menu bar, click **File → Export Browsing Data to File...**
 3. Enable the toggle switch for **Bookmarks** and click **Export**.
 4. Save the `.zip` file to your computer.
 5. Extract the `.zip` file to get the `Bookmarks.html` file.
-
 
 > **Note:** In newer versions of Safari, the old "Export Bookmarks" option has been renamed to **"Export Browsing Data to File"**, where you can choose which data to export.
 
@@ -37,13 +35,11 @@ This is the most straightforward method.
 
 ### On iPhone or iPad (iOS/iPadOS)
 
-
 1. Navigate to **Settings → Apps → Safari** on your iPhone or iPad.
 2. Scroll down to the **"History and Website Data"** section and tap **Export**.
 3. Untick all options except **Bookmarks**, then tap **Save to Downloads**.
 4. Tap **"Show Safari Export in Files"** to open the ZIP file in the Files app.
 5. You can then back up your `Bookmarks.html` file to external storage or transfer it to a computer.
-
 
 > If you have multiple Safari profiles, you can export bookmarks from all profiles or just those from a particular profile.
 

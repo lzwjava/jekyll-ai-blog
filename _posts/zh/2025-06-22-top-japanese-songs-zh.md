@@ -113,6 +113,7 @@ type: note
     - **音乐流派**：演歌
 
 ### 备注
+
 - **数据来源**：本榜单综合Billboard日本数据（如Hot 100榜单、流媒体数据）、YouTube播放趋势、JOYSOUND卡拉OK排名及维基百科、Japan Wonder Travel等平台的历史意义评估
 - **YouTube/音乐平台**：具体播放量存在波动，《Idol》《Lemon》等歌曲达数亿次，早期歌曲（如《Sukiyaki》）更多依赖历史销售数据
 - **卡拉OK**：动漫歌曲在外国人卡拉OK点播中占主导，JOYSOUND 2024年日文歌曲点播榜前30名中动漫相关曲目达20首

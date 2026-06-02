@@ -11,6 +11,7 @@ type: note
 The **Model Context Protocol** is a framework or set of guidelines used to manage and share contextual information across different components or layers of a system, particularly in machine learning (ML) and artificial intelligence (AI) applications. It ensures that models, services, and processes have access to relevant contextual data while maintaining consistency, security, and efficiency.
 
 ### **Key Aspects of Model Context Protocol:**
+
 1. **Context Sharing**
    - Allows different models or services to access shared contextual information (e.g., user preferences, session data, environmental variables).
    - Helps avoid redundant computations by propagating context across pipelines.
@@ -32,11 +33,13 @@ The **Model Context Protocol** is a framework or set of guidelines used to manag
    - Balances granularity (detailed context vs. overhead).
 
 ### **Use Cases:**
+
 - **Multi-Model AI Systems:** Ensures chatbots, recommendation engines, and fraud detection models share user session data.
 - **IoT & Edge AI:** Propagates sensor data across distributed ML models.
 - **Microservices Architectures:** Maintains context across service boundaries (e.g., transaction IDs in banking apps).
 
 ### **Example Implementations:**
+
 - **TensorFlow Extended (TFX):** Uses context metadata pipelines for ML workflows.
 - **Kubeflow Pipelines:** Tracks experiment context in ML deployments.
 - **Custom Protocols:** Enterprises may define internal context protocols for proprietary systems.

@@ -25,6 +25,7 @@ type: note
 此跳数限制是 RIP（RIPv1 和 RIPv2）的一个关键特征，并解释了为什么它主要适用于中小型网络。
 
 参考文献：
+
 - [Cisco RIP Documentation](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
 - [RFC 1058 - Routing Information Protocol](https://tools.ietf.org/html/rfc1058)
 - [RFC 2453 - RIP Version 2](https://tools.ietf.org/html/rfc2453)

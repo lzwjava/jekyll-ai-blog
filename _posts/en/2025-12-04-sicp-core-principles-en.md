@@ -17,6 +17,7 @@ Answer:
 *Structure and Interpretation of Computer Programs* (SICP), first published in 1985 (second edition 1996), is widely regarded as one of the greatest introductory programming books ever written. It uses Scheme (a dialect of Lisp) as its teaching language and focuses not on teaching “how to code in Scheme,” but on timeless principles of program design and the essence of computation.
 
 ### Core Message and Philosophy
+
 - **Programs as processes**: The book teaches that computer programs are models of computational processes and that understanding abstraction is the key to mastering complexity.
 - **Three major themes** recur throughout:
   1. **Abstraction** (building layers that hide details)
@@ -58,6 +59,7 @@ Answer:
    Connects high-level abstractions back to hardware.
 
 ### Key Takeaways Most Readers Remember
+
 - Recursion is often simpler and more elegant than iteration when you have proper tail-call optimization.
 - Higher-order functions and closures are incredibly powerful.
 - Managing state is the root of most programming difficulty.
@@ -67,9 +69,10 @@ Answer:
 Paul Graham famously said he still re-reads it after 15+ years and learns something new each time. Many top programmers (including founders of Reddit, ITA Software, and others) credit SICP with profoundly shaping how they think.
 
 The full text and video lectures (the legendary MIT 6.001 course) are freely available online at:
-https://mitpress.mit.edu/sites/default/files/sicp/index.html
+<https://mitpress.mit.edu/sites/default/files/sicp/index.html>
 
 References:
+
 - [Structure and Interpretation of Computer Programs, 2nd Edition](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
 - [SICP Official MIT Site with HTML version and lectures](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
 - [Paul Graham on SICP](http://paulgraham.com/avg.html)

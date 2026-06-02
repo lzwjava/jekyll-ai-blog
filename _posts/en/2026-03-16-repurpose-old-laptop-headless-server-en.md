@@ -24,6 +24,7 @@ Your idea is completely valid and widely practiced. Installing **Ubuntu Server**
 Because a headless server does not need to render graphical elements, you can use Ubuntu Server 24.04 LTS and allocate minimal resources — bypassing the GUI entirely saves significant RAM and CPU.
 
 **Recommended options:**
+
 - **Ubuntu Server 24.04 LTS** — best documentation, most community support, beginner-friendly
 - **Debian 12** — even lighter, very stable
 - **DietPi** — requires only 512 MB of RAM, consuming the least resources so you can divert all processing power to server-oriented tasks

@@ -15,8 +15,10 @@ type: note
 The URL you provided points to a specific Parquet file from the FineWeb dataset (a cleaned subset of CommonCrawl data). This file (`000_00000.parquet` from the `CC-MAIN-2013-20` dump) contains ~1 million rows of English web text, with each row including a `text` column that's already preprocessed for language model training (HTML stripped, deduplicated, quality-filtered via tools like Trafilatura).
 
 To download it:
+
 - Use the Hugging Face CLI: `huggingface-cli download HuggingFaceFW/fineweb data/CC-MAIN-2013-20/000_00000.parquet --local-dir ./fineweb_data`
 - Or via Python with `huggingface_hub`:
+
   ```python
   from huggingface_hub import hf_hub_download
 
@@ -27,6 +29,7 @@ To download it:
   )
   print(f"Downloaded to: {file_path}")
   ```
+
 This saves the ~500MB file locally (e.g., `./fineweb_data/data/CC-MAIN-2013-20/000_00000.parquet`).
 
 For the full dump (hundreds of files), use `snapshot_download` as shown in the dataset docs, but start with this single file for testing.
@@ -38,6 +41,7 @@ FineWeb's `text` column is plain text ready for training—no need to parse HTML
 1. **Install Dependencies** (if needed): `pip install pandas pyarrow datasets` (assuming you have them for NanoGPT setup).
 
 2. **Load the Parquet File and Extract Text**:
+
    ```python
    import pandas as pd
    import os
@@ -66,6 +70,7 @@ FineWeb's `text` column is plain text ready for training—no need to parse HTML
    ```
 
    - **Memory Tip**: This file has ~1M rows, each text ~1-5k characters. On a machine with 16GB RAM, it loads fine. For larger dumps, use `pyarrow` for chunked reading:
+
      ```python
      import pyarrow.parquet as pq
 
@@ -74,6 +79,7 @@ FineWeb's `text` column is plain text ready for training—no need to parse HTML
      ```
 
    - **Streaming Alternative** (no full download needed): Use the `datasets` library to iterate without loading everything:
+
      ```python
      from datasets import load_dataset
 

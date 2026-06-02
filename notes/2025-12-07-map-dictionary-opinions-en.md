@@ -43,6 +43,7 @@ Here are some genuinely unpopular or controversial opinions about maps/dictionar
 These opinions tend to come from systems programmers, compiler writers, or people who have maintained huge codebases where “just use a dict” turned into technical debt nightmares.
 
 References:
+
 - [The “Stringly Typed” Problem](https://blog.codinghorror.com/new-programming-jargon/#stringly-typed)
 - [Python 3.6+ dict order randomization rationale](https://mail.python.org/pipermail/python-dev/2017-December/151283.html)
 - [Go maps are intentionally unordered](https://go.dev/blog/maps)

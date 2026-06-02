@@ -55,13 +55,13 @@ Bad timing:
 
 Use LinkedIn as your default.
 
-### Why:
+### Why
 
 * Professional context → expected behavior
 * Low friction → normal in Western companies
 * Scalable → works globally
 
-### How to do it:
+### How to do it
 
 Send a short, clean message:
 

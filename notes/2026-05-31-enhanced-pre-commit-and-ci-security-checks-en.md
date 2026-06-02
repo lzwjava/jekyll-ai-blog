@@ -20,10 +20,10 @@ All hooks installed and passing. Here's a summary of everything added:
    + detect-secrets      — credential leak prevention
 
 2. pyproject.toml — added [tool.bandit] section:
-   - excludes ww/ml/ and tests/
-   - skips false positives: B113 (timeout), B602/B605 (subprocess shell),
+   + excludes ww/ml/ and tests/
+   + skips false positives: B113 (timeout), B602/B605 (subprocess shell),
      B301/B314 (pickle/xml), B310 (urllib), B108 (tmp), B104 (bind all), B307 (eval)
-   - still catches real issues: B608 (SQL injection), B614 (unsafe pickle),
+   + still catches real issues: B608 (SQL injection), B614 (unsafe pickle),
      B615 (unpinned HF downloads)
 
 3. .github/workflows/lint.yml — NEW workflow with 4 parallel jobs:
@@ -36,8 +36,8 @@ All hooks installed and passing. Here's a summary of everything added:
    + coverage --fail-under=60 (was no threshold)
 
 5. .secrets.baseline — NEW file:
-   - 11 files baselined (test fixtures, config files)
-   - excludes .env, .venv, ww/ml/
+   + 11 files baselined (test fixtures, config files)
+   + excludes .env, .venv, ww/ml/
 
 == WHAT BANDIT STILL CATCHES (7 real issues) ==
    B608: 4x SQL injection in ww/photo/ module

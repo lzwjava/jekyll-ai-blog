@@ -15,6 +15,7 @@ BrowserStack 是一家领先的云端软件测试平台，为开发者、质量�
 ## 为何选择 BrowserStack？
 
 在多环境下进行测试对确保应用表现一致性至关重要，但这项工作资源消耗巨大。BrowserStack 通过以下方式解决这一痛点：
+
 - 提供真实设备和浏览器（非模拟器）以确保结果准确
 - 支持并行测试以加速测试周期
 - 与主流工具集成（如Selenium、Appium、Cypress）和CI/CD流水线（如Jenkins、GitHub Actions）
@@ -38,6 +39,7 @@ BrowserStack 是一家领先的云端软件测试平台，为开发者、质量�
 实时测试允许您在远程设备上实时交互测试应用，特别适合探索性测试。
 
 ### 网页应用测试
+
 1. 从产品下拉菜单选择 **Live**
 2. 选择操作系统（如Windows 10、macOS、Android）
 3. 选择浏览器/版本（如Chrome 120、Safari 17）
@@ -49,12 +51,14 @@ BrowserStack 是一家领先的云端软件测试平台，为开发者、质量�
 会话支持地理位置模拟（100+国家）、网络节流功能，专业版计划空闲超时时间最长达25分钟。
 
 ### 移动端网页测试（设备浏览器）
+
 1. 在Live中选择移动操作系统（Android/iOS）
 2. 选择设备（如三星Galaxy S24、iPhone 15）和浏览器（如Android版Chrome）
 3. 加载URL并进行交互——支持捏拉缩放等手势操作
 4. 使用移动端专属工具调试：触控模拟、方向切换和性能指标
 
 ### 原生/混合移动应用测试
+
 1. 进入 **App Live**
 2. 上传应用（Android为.apk，iOS为.ipa；最大500MB）或从App Center/HockeyApp同步
 3. 从30,000+真实设备中选择（如iOS 18系统的iPad Pro）
@@ -74,17 +78,20 @@ BrowserStack 是一家领先的云端软件测试平台，为开发者、质量�
 通过脚本在真实环境中执行重复测试，支持扩展到数千并行测试。
 
 ### 环境配置
+
 1. 选择测试框架：Selenium（Java/Python/JS）、Cypress、Playwright或移动端Appium
 2. 获取凭证：从Automate控制台获取用户名和访问密钥
 3. 配置能力参数：使用JSON指定浏览器、操作系统、设备（例：{"browser": "Chrome", "os": "Windows", "os_version": "10", "real_mobile": true}）
 
 ### 执行流程
+
 1. 将脚本指向BrowserStack中心：`https://用户名:访问密钥@hub-cloud.browserstack.com/wd/hub`
 2. 本地或通过CI/CD运行——测试将并行执行
 3. 查看结果：控制台显示视频、截图、控制台/网络日志及AI分析的失败用例
 4. 移动端测试：需先通过API上传应用，然后在能力参数中指定
 
 #### 示例Selenium脚本（Java，在iPhone上测试Google）
+
 ```java
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -116,11 +123,13 @@ public class BrowserStackSample {
     }
 }
 ```
+
 可适配Python/JS等语言。建议添加等待机制（如WebDriverWait）提升稳定性。
 
 ## 测试自动化工作流
 
 通过以下步骤构建高效流水线：
+
 1. **规划**：识别高价值测试用例（如核心流程）；与敏捷开发保持同步
 2. **工具选型**：使用BrowserStack Automate执行云端测试；搭配Low Code实现无代码编写
 3. **设计**：创建模块化脚本和可复用组件；利用AI进行自然语言脚本编写
@@ -158,12 +167,14 @@ public class BrowserStackSample {
 ## 优势与局限
 
 **优势**：
+
 - 海量真实设备覆盖，零硬件投入
 - 快速部署与并行扩展能力
 - 强大的调试功能和AI增效
 - 完善的DevOps集成
 
 **局限**：
+
 - 依赖网络环境，偶发延迟高于本地测试
 - 完整功能需付费（无完全免费版）
 - 新手无指导时上手复杂度较高
@@ -180,6 +191,7 @@ public class BrowserStackSample {
 本指南助您高效运用BrowserStack。实际操作请体验免费试用版。
 
 ## 参考资源
+
 - [BrowserStack官网](https://www.browserstack.com/)
 - [BrowserStack定价页面](https://www.browserstack.com/pricing)
 - [BrowserStack教程：应用与浏览器测试](https://www.softwaretestinghelp.com/browserstack-tutorial/)

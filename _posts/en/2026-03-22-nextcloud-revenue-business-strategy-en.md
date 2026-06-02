@@ -30,6 +30,7 @@ Nextcloud's business model combines the best of both worlds — freemium and sub
 Only Nextcloud Enterprise offers organizations the reliability, security, and compliance they need to confidently deploy software in critical environments.
 
 Enterprise subscriptions typically include:
+
 - **Priority security patches** and hardened builds
 - **Dedicated technical support** (SLA-backed)
 - **Compliance tools** (GDPR, HIPAA, etc.)
@@ -41,6 +42,7 @@ Enterprise subscriptions typically include:
 ## 3. Professional Services & Consulting
 
 Nextcloud GmbH (the company behind Nextcloud) also earns revenue from:
+
 - **Implementation and deployment consulting** for large organizations
 - **Custom development** for enterprise clients
 - **Training and onboarding services**

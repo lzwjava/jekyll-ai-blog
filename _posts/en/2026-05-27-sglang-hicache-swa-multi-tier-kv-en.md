@@ -12,6 +12,7 @@ type: note
 Great question. I dug into the SGLang codebase to verify every claim. Here's the breakdown:
 
 ========================================================================
+
 1. HiCache: MULTI-TIER KV CACHE (GPU -> CPU -> SSD)
 ========================================================================
 
@@ -22,10 +23,11 @@ The key architecture is a 3-level hierarchy, modeled after CPU caches:
   L3 = Distributed  (slowest, largest: Mooncake/3FS/NIXL/AIBrix backends)
 
 Core files:
-  - python/sglang/srt/mem_cache/hiradix_cache.py  -- HiRadixCache (extends RadixCache)
-  - python/sglang/srt/mem_cache/memory_pool_host.py -- L2 CPU pool (2899 lines!)
-  - python/sglang/srt/mem_cache/hicache_storage.py  -- L3 abstract interface
-  - python/sglang/jit_kernel/hicache.py + csrc/hicache.cuh -- GPU I/O kernels
+
+- python/sglang/srt/mem_cache/hiradix_cache.py  -- HiRadixCache (extends RadixCache)
+- python/sglang/srt/mem_cache/memory_pool_host.py -- L2 CPU pool (2899 lines!)
+- python/sglang/srt/mem_cache/hicache_storage.py  -- L3 abstract interface
+- python/sglang/jit_kernel/hicache.py + csrc/hicache.cuh -- GPU I/O kernels
 
 WHY DATA MOVEMENT DROPS TO ~1/7:
 
@@ -66,9 +68,10 @@ This is the subtlest claim. The key insight:
   NOT the full sequence length (e.g., 128K).
 
 Core files:
-  - python/sglang/srt/mem_cache/unified_cache_components/swa_component.py
-  - python/sglang/srt/mem_cache/swa_memory_pool.py
-  - python/sglang/srt/mem_cache/swa_radix_cache.py
+
+- python/sglang/srt/mem_cache/unified_cache_components/swa_component.py
+- python/sglang/srt/mem_cache/swa_memory_pool.py
+- python/sglang/srt/mem_cache/swa_radix_cache.py
 
 HOW IT WORKS:
 
@@ -104,10 +107,11 @@ prefix node instead of full sequences. The same host RAM can cache
 ========================================================================
 
 Core files:
-  - python/sglang/srt/layers/moe/ep_moe/layer.py  -- DeepEPMoE
-  - python/sglang/srt/layers/moe/token_dispatcher/deepep.py  -- DeepEPBuffer
-  - python/sglang/srt/batch_overlap/two_batch_overlap.py  -- TBO
-  - python/sglang/srt/eplb/eplb_algorithms/deepseek.py  -- EPLB
+
+- python/sglang/srt/layers/moe/ep_moe/layer.py  -- DeepEPMoE
+- python/sglang/srt/layers/moe/token_dispatcher/deepep.py  -- DeepEPBuffer
+- python/sglang/srt/batch_overlap/two_batch_overlap.py  -- TBO
+- python/sglang/srt/eplb/eplb_algorithms/deepseek.py  -- EPLB
 
 THREE KEY OPTIMIZATIONS:
 

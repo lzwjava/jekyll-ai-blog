@@ -35,6 +35,7 @@ Here are some genuinely unpopular (or at times controversial) opinions that peop
 These opinions are, by definition, unpopular — you’ll get pushback from both sides when you voice them — but they surface repeatedly in anonymous forums, expat groups, and among second-generation immigrants who’ve lived both realities.
 
 References:
+
 - [r/expats thread on language and entitlement (2024)](https://www.reddit.com/r/expats/comments/1b8pqrs/)
 - [The Atlantic – “The Curse of the Native English Speaker” (adapted ideas)](https://www.theatlantic.com/international/archive/2016-native-english-speaker-problem/)
 - Various anonymous posts on TheLocal.fr, ToytownGermany, and InterNations forums (2023-2025)

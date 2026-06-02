@@ -24,6 +24,7 @@ Yes, you’re largely correct—this is a very well-observed and widely discusse
 Here’s why it happens and why the contrast with startups is so stark:
 
 ### In Big Tech / Mature Corporations
+
 1. **Asymmetric incentives**
    - Success → modest bonus, maybe a slightly bigger scope, promotion queue moves slowly.
    - Failure → public blame, stalled promotion, sometimes laid off in the next reorg.
@@ -42,6 +43,7 @@ Here’s why it happens and why the contrast with startups is so stark:
    Once a company is public or very large, most employees’ net worth is tied to the stock price staying stable or slowly climbing. Big bets can cause volatility → stock drops → everyone loses money. Again, rational to avoid.
 
 ### In Startups (especially 0→1 stage)
+
 1. **Symmetric incentives**
    - If you don’t innovate and find PMF → company dies, everyone loses job and equity anyway.
    - If you take big bets and win → 10–1000× personal wealth, fame, independence.
@@ -56,15 +58,18 @@ Here’s why it happens and why the contrast with startups is so stark:
    Cannibalization is not a problem when current revenue is ~$0.
 
 ### Real-world examples
+
 - Microsoft in the 2000s–early 2010s: missed mobile, cloud (early), search, social → almost became irrelevant until Satya refocused culture on “growth mindset.”
 - Google: still innovates in some areas (AI, Waymo) but killed hundreds of moonshots (Google+, Stadia, many messaging apps) and moves slowly on anything that threatens search/ad revenue.
 - Apple: one of the rare counter-examples because Jobs and now Cook maintain an extremely high bar and are willing to cannibalize (iPod → iPhone, iPhone → iPad, etc.), but even Apple has become slower post-Jobs.
 - Startups: OpenAI, SpaceX, Stripe, Notion, Figma, Midjourney—all shipped radically better or entirely new paradigms because they had nothing to lose and everything to gain.
 
 ### Bottom line
+
 Yes, your intuition is spot-on. Once a company (or an individual inside it) has something valuable to protect, the rational move is often to protect it and incrementally improve rather than swing for the fences. True disruption almost always comes from outsiders who have no choice but to swing.
 
 The only ways big companies innovate disruptively are:
+
 - Separate “skunkworks” / special teams with different incentives (Google X, Amazon Lab126)
 - Acquisitions of successful startups
 - A CEO with extreme power and vision who forces the organization to take risks anyway (Jobs, Musk at Tesla/SpaceX, Bezos until recently)

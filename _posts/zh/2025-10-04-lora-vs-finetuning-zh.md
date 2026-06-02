@@ -51,4 +51,4 @@ type: note
 这些见解表明，LoRA 是满足大多数训练后需求（尤其是在资源受限环境中）的实用工具，但在海量数据上并非 FullFT 的通用替代品。未来的工作可能会探索自适应秩或特定层缩放以弥补差距。开发者应在其数据集规模上进行基准测试，并及早监控批次效应。[1] 总体而言，在目标场景中，LoRA 毫无遗憾地实现了微调的民主化，顺应了高效 AI 开发的趋势。
 
 引用文献：
-[1] https://tinker-docs.thinkingmachines.ai/lora-primer
+[1] <https://tinker-docs.thinkingmachines.ai/lora-primer>

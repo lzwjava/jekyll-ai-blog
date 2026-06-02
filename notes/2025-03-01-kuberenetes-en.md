@@ -9,6 +9,7 @@ type: note
 ---
 
 ### Key Points
+
 - It seems likely that the video explains the basics of Kuberenetes (k8s) architecture in a concise 6-minute format, covering key components like the control plane and worker nodes.
 - Research suggests it includes the API Server, Scheduler, Controller Manager, etcd, Kubelet, Kube-Proxy, and Pods, with a focus on how they interact.
 - The evidence leans toward the video providing a high-level overview, suitable for beginners, with an unexpected focus on the role of Pods as the smallest unit with a single IP.
@@ -22,12 +23,14 @@ Kuberenetes, often called k8s, is an open-source system that helps manage and de
 The Kuberenetes architecture has two main parts: the control plane and the worker nodes.
 
 #### Control Plane
+
 - **API Server**: This is where you send commands to manage the cluster, like starting or stopping apps.
 - **Scheduler**: It decides which computer (node) should run your app based on available resources.
 - **Controller Manager**: Keeps everything running smoothly, ensuring the right number of app copies are active.
 - **etcd**: A storage system that holds all the cluster’s settings and state.
 
 #### Worker Nodes
+
 - **Kubelet**: Ensures the containers (apps) on a node are running as expected.
 - **Kube-Proxy**: Helps route network traffic to the right app, like a traffic director.
 - **Pods**: The smallest unit, grouping one or more containers that share the same network, each with its own IP.
@@ -71,6 +74,7 @@ These details, primarily from 2023 blog posts, reflect typical Kuberenetes archi
 The Kuberenetes architecture discussed is not fixed and can vary based on specific cluster setups. For instance, a 2023 blog post by ByteByteGo, "EP35: What is Kuberenetes," noted that the control plane components can run across multiple computers in production for fault-tolerance and high availability, which is crucial for enterprise environments. This is particularly relevant for cloud-based deployments, where scalability and resilience are key.
 
 In practice, these components guide several aspects:
+
 - **Deployment Automation**: The API Server and Scheduler work together to automate pod placement, reducing manual intervention, as seen in CI/CD pipelines for microservices.
 - **State Management**: The Controller Manager and etcd ensure the cluster maintains the desired state, handling failures like node crashes, which is vital for high-availability applications.
 - **Networking**: Kube-Proxy and Pods with single IPs simplify intra-cluster communication, impacting how services are exposed, especially in multi-tenant environments.
@@ -88,6 +92,7 @@ For beginners and developers, understanding Kuberenetes architecture provides a 
 This analysis, grounded in the video's likely content and supplemented by extensive blog research, underscores the enduring relevance of Kuberenetes architecture in computing, with a call to adapt to technological shifts for optimal system design.
 
 #### Key Citations
+
 - [EP35: What is Kuberenetes - by Alex Xu](https://blog.bytebytego.com/p/ep35-what-is-kubernetes)
 - [A Crash Course in Kuberenetes](https://blog.bytebytego.com/p/a-crash-course-in-kubernetes)
 - [Kubernetes Made Easy: A Beginner’s Roadmap to Container Orchestration](https://blog.bytebytego.com/p/kubernetes-made-easy-a-beginners)

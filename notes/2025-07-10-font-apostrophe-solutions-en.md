@@ -10,10 +10,12 @@ type: note
 
 Yes, changing the font can definitely help with apostrophe rendering! Different fonts handle typography and special characters differently, and some fonts have better-designed apostrophes than others.
 
-## Font-related solutions:
+## Font-related solutions
 
 ### 1. **Try a different English font**
+
 Some fonts with better apostrophe rendering:
+
 ```latex
 \newcommand{\englishfont}{Georgia}        % Excellent typography
 \newcommand{\englishfont}{Palatino}       % Good apostrophe rendering
@@ -22,7 +24,9 @@ Some fonts with better apostrophe rendering:
 ```
 
 ### 2. **Use fonts with better OpenType features**
+
 If you're using XeLaTeX or LuaLaTeX:
+
 ```latex
 % For better typography features
 \usepackage{fontspec}
@@ -32,6 +36,7 @@ If you're using XeLaTeX or LuaLaTeX:
 ### 3. **Modern font alternatives for your system:**
 
 **macOS:**
+
 ```latex
 \newcommand{\englishfont}{SF Pro Text}    % Apple's system font
 \newcommand{\englishfont}{Avenir Next}    % Clean, modern
@@ -39,6 +44,7 @@ If you're using XeLaTeX or LuaLaTeX:
 ```
 
 **Linux:**
+
 ```latex
 \newcommand{\englishfont}{Liberation Sans} % Instead of Liberation Serif
 \newcommand{\englishfont}{Noto Serif}     % Google's font with good coverage
@@ -46,6 +52,7 @@ If you're using XeLaTeX or LuaLaTeX:
 ```
 
 **Windows:**
+
 ```latex
 \newcommand{\englishfont}{Segoe UI}       % Windows system font
 \newcommand{\englishfont}{Calibri}        % Modern, clean
@@ -53,6 +60,7 @@ If you're using XeLaTeX or LuaLaTeX:
 ```
 
 ### 4. **Complete improved version:**
+
 ```latex
 \ifthenelse{\equal{\fontsystem}{macos}}{
  % macOS fonts
@@ -78,6 +86,7 @@ If you're using XeLaTeX or LuaLaTeX:
 ```
 
 ### 5. **Additional font setup for better typography:**
+
 ```latex
 % Add to your preamble
 \usepackage{fontspec}  % If using XeLaTeX/LuaLaTeX

@@ -19,12 +19,14 @@ Answer:
 The core reason is the **extremely high replacement cost** of experienced knowledge workers, which comes from multiple layers:
 
 ### 1. onboarding / ramp-up time is very long and expensive
+
 - Typical software engineer in a non-trivial codebase: **3–12 months** to become fully productive (often 6–9 months is realistic)
 - Hardware engineers working on complex ASIC/SoC/firmware: frequently **12–24 months**
 - Product managers who own a mature product line: **6–18 months** to really understand customers, trade-offs, historical decisions, and internal politics
 - During this ramp-up period the new hire is usually **net negative** to team velocity
 
 ### 2. Tacit / tribal / hidden knowledge is very hard to transfer
+
 Even when there is good documentation (which is rare), most critical information lives in people's heads:
 
 - “Why was this cache invalidation strategy chosen over the three alternatives we tried in 2022?”
@@ -37,12 +39,15 @@ Even when there is good documentation (which is rare), most critical information
 A new person almost always re-discovers these things the **hard way** → bugs, outages, duplicated effort, customer pain.
 
 ### 3. Context switch / interruption cost compounds dramatically
+
 Every time a senior engineer leaves:
+
 - senior people spend huge amounts of time answering questions, doing knowledge transfer, reviewing the leaving person’s PRs, etc.
 - velocity of the whole team drops noticeably for 3–9 months
 - risk of regression bugs / security issues / performance cliffs increases
 
 ### 4. Quantitative ways companies often estimate the real cost
+
 Many engineering organizations use rough multipliers:
 
 - **Rule of thumb 1**: Total replacement cost ≈ **1.5–2.5 × annual salary** (recruiting fees + interviewer time + onboarding + lost productivity + ramp-up inefficiency)
@@ -51,9 +56,11 @@ Many engineering organizations use rough multipliers:
 For a senior backend engineer making $220k total comp, losing them can easily cost the company **$500k–$900k+** in real economic impact — far more than just the recruiting bill.
 
 ### 5. Counter-intuitive implication
+
 Because the **marginal cost of keeping a good-but-not-elite performer is usually much lower** than the cost of replacing them, many high-performing engineering cultures tolerate “good enough but not rockstar” engineers far longer than people expect — precisely because continuity and deep context have such high value.
 
 ### Bottom line
+
 In software / hardware / complex product companies, **institutional memory and context are among the scarcest and most valuable assets**.
 Losing people is not just losing headcount — it is **losing months or years of accumulated system understanding** that is extremely hard and expensive to rebuild.
 

@@ -15,21 +15,26 @@ Question: Translate the provided Chinese text of the Guangdong Higher Education 
 Answer:
 
 # Guangdong Province Higher Education Self-Study Examination Course Syllabus: Switching and Routing Technology
+
 (Course Code: 13833)
 
 ## I. Course Nature and Objectives
 
 ### 1. Course Nature and Characteristics
+
 Through studying this course, students will gain a certain understanding of computer network knowledge, thereby acquiring the corresponding abilities of a network engineer.
 
 ### 2. Course Objectives
+
 This book follows the tasks of actual enterprise network work as the main line, primarily explaining network fundamentals, switch configuration, router configuration, security configuration, IPv6 configuration, and comprehensive training. The content adopts a "project-task" structural system, introducing teaching projects from real-world work site requirements and practical applications, cultivating students' skills to complete work tasks and solve problems.
 Through this course, students will master network fundamentals and common network protocols, learn to configure switches and routers from mainstream vendors according to different application environments and actual needs, develop the ability to build, manage, and maintain small and medium-sized enterprise networks, lay a solid foundation for future related applications, development, and further research in the field of network technology, align with the training objectives for high-quality technical skills talents, and meet the job requirements of related work fields and occupational positions in this major. This course plays a major supporting and significantly promoting role in cultivating students' professional qualities and abilities.
 
 ### 3. Connections and Differences with Related Courses
+
 Studying this course requires basic computer knowledge and network fundamentals, as well as some understanding of computer network equipment. Prerequisite courses such as "Computer Network Technology" and "Structured Cabling Technology" provide basic understanding of computer network architecture and structured cabling system processing capabilities. This course provides supporting capabilities in network interconnection, network protocol applications, etc., for subsequent courses like "Network Management Training," "Network Attack and Defense Technology," and "Graduation Design."
 
 ### 4. Course Focus and Difficulties
+
 This course is the core course in the "Network Construction and Management Capabilities" module of the Computer Network Technology major. The key focuses of this course are:
 (1) Understand the content and knowledge areas involved in enterprise network planning and design, master network topology planning and IP address planning;
 (2) Master the working principles and main functions of switches, master technologies and applications such as VLAN, Spanning Tree, and link aggregation;
@@ -39,6 +44,7 @@ This course is the core course in the "Network Construction and Management Capab
 (6) Familiar with installation and debugging techniques for common network equipment.
 
 ## II. Assessment Objectives
+
 This book follows the tasks of actual enterprise network work as the main line, primarily explaining network fundamentals, switch configuration, router configuration, security configuration, IPv6 configuration, and comprehensive training. The content adopts a "project-task" structural system. The main assessment objectives are:
 
 **Memorization:**
@@ -59,27 +65,32 @@ This book follows the tasks of actual enterprise network work as the main line, 
 ### Project 1: Understanding eNSP and Basic VRP Operations
 
 #### 1. Learning Objectives and Requirements
+
 1. Understand the role of the eNSP simulator;
 2. Understand the origin and development of the VRP operating system;
 3. Recognize the eNSP main interface and network connection cables;
 4. Familiarize with VRP command views and basic operations.
 
 #### 2. Assessment Knowledge Points and Requirements
+
 1. Understanding eNSP and Basic VRP Operations
 **Memorization:** Understand the role of the eNSP simulator; understand the origin and development of the VRP operating system; recognize the eNSP main interface and network connection cables.
 **Comprehension:** Familiarize with VRP commands and basic operations.
 **Application:** Correctly install the eNSP simulator; use eNSP to build and configure networks; master VRP platform applications; familiarize with basic VRP operations.
 
 #### 3. Chapter Focus and Difficulties
+
 1. Teaching Focus: eNSP simulator installation steps, adding network devices, and connecting device cables; Teaching Difficulty: eNSP simulator installation;
 2. Learning Difficulty: Proficiently mastering relevant VRP command statements.
 
 ### Project 2: Building a Small Campus Network Using Switches
 
 #### 1. Learning Objectives and Requirements
+
 Switch technology plays a pivotal role in modern high-speed networks, with enterprise networks relying on switches to segment networks and achieve high-speed connections. Switches are classified into multiple levels, generally Layer 2 and Layer 3 switches. Layer 2 switches are data link layer devices that recognize MAC address information in packets, forward based on MAC addresses, and record these MAC addresses with corresponding ports in an internal address table. The most important function of Layer 3 switches is to accelerate fast forwarding of data within large LANs, incorporating routing forwarding capabilities. Switches have wide applications: in simple scenarios, they can replace hubs as central connection points for multiple hosts; in complex applications, switches can connect to one or more other switches to establish, manage, and maintain redundant links and VLAN connectivity. Through learning and practice in this chapter, students will become familiar with switch configuration and proficient in switch management and maintenance.
 
 Learning Objectives:
+
 1. Use terminal software to correctly connect to switches;
 2. Proficiently configure various network parameters and port statuses on switches;
 3. Learn methods for dividing VLANs on switches;
@@ -91,6 +102,7 @@ Learning Objectives:
 9. Proficiently configure switch DHCP technology.
 
 #### 2. Assessment Knowledge Points and Requirements
+
 1. **Basic Switch Configuration**
 **Memorization:** Switch management methods; Console port login management; Switch command view modes.
 **Comprehension:** Switch port types; Switch port duplex modes; Switch port speeds.
@@ -132,16 +144,19 @@ Learning Objectives:
 **Application:** DHCP configuration; DHCP service troubleshooting.
 
 #### 3. Chapter Focus and Difficulties
+
 The focus of this chapter is to first understand the working principles of Layer 2 and Layer 3 switches, the functions of switches, and the effects of these functions. Familiarize with and understand the role of VLAN division, as well as how different switch port types process VLAN data frames. How to correctly configure switches to enable related functions, thereby completing the construction of a small campus network.
 The difficulty is familiarizing with configuration commands for various switch functions, and performing reliability design and configuration tasks for small campus network projects.
 
 ### Project 3: Building a Medium-Sized Campus Network Using Routers
 
 #### 1. Learning Objectives and Requirements
+
 Routers are indispensable network devices connecting various LANs and WANs on the Internet. They automatically select routes based on the overall network communication situation, sending information to other network devices in the best path and in sequence, thereby achieving routing and forwarding of information. The continuous expansion of network scale provides a good foundation and broad platform for the development of "routing." As the Internet's requirements for data transmission efficiency increase, the role of "routing" in network communication becomes increasingly important.
 Routers provide mechanisms for heterogeneous network interconnection, enabling data packets from one network to be sent to another. Routing is the path information guiding IP packet transmission. Routing protocols are pre-agreed rules and standards in the process of guiding IP packet transmission. Routing protocols support routable protocols by sharing routing information between routers. Routing information is passed between adjacent routers, ensuring all routers know paths to other routers. In summary, routing protocols create routing tables describing network topology; routing protocols work with routers to perform route selection and packet forwarding. In practical applications, routers typically connect many different networks; to achieve communication between multiple networks, routing protocols must be configured on routers.
 
 Learning Objectives:
+
 1. Achieve router settings in the simulator;
 2. Proficiently use basic router configuration commands;
 3. Achieve router one-arm routing configuration;
@@ -153,6 +168,7 @@ Learning Objectives:
 9. Achieve dynamic routing OSPF protocol configuration for routers and Layer 3 switches.
 
 #### 2. Assessment Knowledge Points and Requirements
+
 1. **Router Configuration in Simulator**
 **Memorization:** Console port login management; Router command view modes.
 **Comprehension:** Router port types; Router module addition; Router port naming rules.
@@ -194,5 +210,6 @@ Learning Objectives:
 **Application:** Correctly implement single-area OSPF configuration.
 
 #### 3. Chapter Focus and Difficulties
+
 The focus of this chapter is to first understand router working principles, router functions, and the effects of these functions. Proficiently master router configuration commands, initially possess fault analysis methods. Distinguish connections and differences between routers and Layer 3 switches. How to correctly configure routers to enable related functions, thereby completing the construction of a medium-sized campus network.
 The difficulty is familiarizing with configuration commands for various router functions, as well as routing protocol configuration commands and working principles, and designing and completing configuration tasks for medium-sized campus network projects.

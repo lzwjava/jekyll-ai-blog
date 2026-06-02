@@ -20,12 +20,14 @@ Here's a curated map ranked by what you'll actually learn from them, not just st
 ## Tier 1 — Core Banking Systems (deepest learning)
 
 ### 1. **Apache Fineract** ⭐ TOP PICK
+
 **Repo:** `github.com/apache/fineract`
 **Stack:** Java, Spring Boot, MySQL/PostgreSQL, Liquibase, REST
 
 This is the real deal. Apache Fineract is an open-source core banking platform providing a flexible, extensible foundation for a wide range of financial services. More than 20 million customers are reached by 400+ institutions using the Mifos and Fineract APIs.
 
 **What you learn:**
+
 - Robust features for client data management, loan and savings portfolio management, integrated real-time accounting, and extensive reporting capabilities.
 - A comprehensive set of REST API endpoints to interact with clients, accounts, products, and transactions, with MySQL/PostgreSQL for data persistence, role-based access control with OAuth2, and scheduler jobs for recurring tasks like interest calculation and disbursement automation.
 - Multi-tenancy: how real banks isolate tenant data at the DB level
@@ -37,12 +39,14 @@ This is the real deal. Apache Fineract is an open-source core banking platform p
 ---
 
 ### 2. **Open Bank Project (OBP-API)**
+
 **Repo:** `github.com/OpenBankProject/OBP-API`
 **Stack:** Scala, Lift framework, http4s
 
 The Open Bank Project is an open-source API for banks that enables account holders to interact with their bank using a wider range of applications and services. The OBP API abstracts away the peculiarities of each core banking system so that a wide range of apps can interact with multiple banks on behalf of the account holder.
 
 **What you learn:**
+
 - PSD2 / Open Banking regulatory API design (the actual spec banks must follow in EU/UK)
 - How to build an abstraction layer over legacy core banking (this is your job at the bank)
 - Consent management and permission models (configurable views of transaction data)
@@ -53,12 +57,14 @@ The Open Bank Project is an open-source API for banks that enables account holde
 ## Tier 2 — Accounting Engine (most transferable concepts)
 
 ### 3. **Firefly III**
+
 **Repo:** `github.com/firefly-iii/firefly-iii`
 **Stack:** PHP/Laravel, REST API, Docker
 
 Every transaction affects two accounts. Every dollar has a source and a destination — this is double-entry bookkeeping, and it's the foundation of professional accounting. It also features rule-based transaction handling with the ability to create your own rules.
 
 **What you learn:**
+
 - Double-entry ledger implementation (the data model is clean and readable)
 - Rule engine architecture for auto-categorization — directly maps to the kind of transaction classification AI you'd build
 - Reconciliation logic
@@ -71,11 +77,13 @@ The codebase is smaller and more readable than Fineract — good for understandi
 ## Tier 3 — FINOS (Finance + Open Source, used by real banks)
 
 ### 4. **FINOS Projects** (`github.com/finos`)
+
 **Notable:** Legend (Goldman Sachs data model), Perspective (JP Morgan streaming data grid), OpenMAMA, FDC3
 
 FINOS' mission is to promote open innovation in financial services, with nearly 100 projects and 11 programs.
 
 **Specifically for you:**
+
 - **Legend** (Goldman Sachs) — their internal data modeling language, open-sourced. You'll understand how global banks model financial instruments.
 - **Perspective** — JP Morgan's real-time streaming analytics library. WebAssembly + Arrow — this is how trading desks render billions of data points.
 

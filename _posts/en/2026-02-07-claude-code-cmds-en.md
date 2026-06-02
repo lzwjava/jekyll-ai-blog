@@ -17,11 +17,13 @@ I'll search for the most current information about Claude Code's command options
 ### **Basic Commands**
 
 **Starting Claude Code:**
+
 - `claude` - Launch interactive session in current directory
 - `claude "query"` - Run single query and return to shell
 - `claude -p "query"` - Print mode (non-interactive, scriptable output)
 
 **Session Management:**
+
 - `claude --continue` - Resume most recent conversation
 - `claude -r "session-id" "query"` - Resume specific session by ID
 - `claude --resume` - Interactive menu to select previous session
@@ -31,35 +33,45 @@ I'll search for the most current information about Claude Code's command options
 ### **Key CLI Flags**
 
 **Working Directories:**
+
 - `--add-dir <path> [<path2>...]` - Add additional directories for Claude to access
+
   ```bash
   claude --add-dir ../apps ../lib
   ```
 
 **Permissions:**
+
 - `--allowedTools` - Tools allowed without prompting
+
   ```bash
   claude --allowedTools "Bash(git log:*)" "Read"
   ```
+
 - `--disallowedTools` - Tools to deny without prompting
 - `--permission-mode <mode>` - Set permission mode: `normal`, `auto-accept`, or `plan`
+
   ```bash
   claude --permission-mode plan
   ```
 
 **System Prompts (4 options):**
+
 - `--system-prompt` - Complete control, removes default instructions
 - `--system-prompt-file <path>` - Load custom prompt from file
 - `--append-system-prompt` - Add instructions while keeping defaults (recommended)
 - `--append-system-prompt-file <path>` - Append from file while keeping defaults
 
 **Output Formats:**
+
 - `-p, --print` - Non-interactive print mode
 - `--output-format json` - JSON output for scripting/automation
 - `--verbose` - Detailed logging
 
 **Custom Agents:**
+
 - `--agents <json>` - Define custom subagents
+
   ```bash
   claude --agents '{
     "code-reviewer": {
@@ -76,21 +88,25 @@ I'll search for the most current information about Claude Code's command options
 Available when Claude Code is running:
 
 **Session & Configuration:**
+
 - `/help` - Show available commands
 - `/config` - Open settings interface
 - `/login` - Switch accounts
 - `/vim` - Enable vim keybindings
 
 **Workflow:**
+
 - `/resume` - Resume previous conversation
 - `/compact` - Compact conversation history
 - `/init` - Initialize new session
 - `/terminal-setup` - Configure Shift+Enter for terminal
 
 **Permissions:**
+
 - `/allowed-tools` - Configure tool permissions
 
 **Plugins & Extensions:**
+
 - `/plugin` - Manage plugins interactively
 - `/hooks` - View/manage hooks
 - `/context` - View current context usage
@@ -118,6 +134,7 @@ claude plugin update <name>
 ### **Permission Modes**
 
 Toggle with **Shift+Tab** during session:
+
 1. **Normal Mode** - Claude asks permission for each action
 2. **Auto-Accept Mode** (`⏵⏵`) - Automatically accept file edits
 3. **Plan Mode** (`⏸`) - Claude plans with read-only operations
@@ -134,6 +151,7 @@ Toggle with **Shift+Tab** during session:
 ### **Interactive Features**
 
 **Input:**
+
 - `\` + Enter - Insert newline
 - Shift+Enter - Insert newline (most terminals)
 - Ctrl+R - Reverse search command history
@@ -141,6 +159,7 @@ Toggle with **Shift+Tab** during session:
 - `!<command>` - Run bash command directly
 
 **Navigation:**
+
 - Arrow keys - Command history
 - Ctrl+O - Toggle verbose mode
 

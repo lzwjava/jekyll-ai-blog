@@ -66,6 +66,7 @@ type: note
 ## 📚 All-Time Top Starred（仍高度活跃）
 
 截至 2026 年 3 月初，GitHub 上总体星标最多的仓库是：
+
 - **build-your-own-x** — 472,285 星标（通过从零重新创建技术来学习编程）
 - **awesome** — 442,633 星标（精选的有趣主题列表）
 - **freeCodeCamp** — 437,787 星标（免费编码课程）

@@ -17,6 +17,7 @@ In 1920s-1930s China, this term referred to Chinese capitalists and business own
 **Key characteristics:**
 
 The national bourgeoisie emerged from China's nascent industrialization and included:
+
 - Owners of Chinese textile mills, flour mills, and light industries
 - Domestic bankers and merchants
 - Small to medium factory owners
@@ -24,6 +25,7 @@ The national bourgeoisie emerged from China's nascent industrialization and incl
 **Political significance:**
 
 This class held a contradictory position in Chinese revolutionary theory:
+
 - They opposed foreign imperialism and wanted Chinese economic independence
 - They supported modernization and some political reforms
 - But they also feared radical social revolution that might threaten property rights

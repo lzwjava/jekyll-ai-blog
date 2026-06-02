@@ -29,6 +29,7 @@ type: note
 这座港湾象征着香港中西交融的特质，从殖民贸易站蜕变为地缘政治变迁中坚韧精神的象征。
 
 ### 参考资料
+
 - [香港维多利亚港如何成为城市名片](https://theculturetrip.com/asia/china/hong-kong/articles/how-hong-kongs-victoria-harbour-came-to-define-the-city)
 - [香港标志性维多利亚港趣闻](https://expatliving.net/hong-kong/history-of-victoria-harbour-hong-kong-the-fragrant-harbour/)
 - [香港港口史·第一部](https://www.theshipyardblog.com/history-of-the-port-of-hong-kong-part-1/)

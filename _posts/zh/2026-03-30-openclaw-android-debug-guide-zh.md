@@ -52,6 +52,7 @@ cd apps/android
 ```
 
 你也可以运行 unit tests：
+
 ```bash
 ./gradlew :app:testDebugUnitTest
 ```
@@ -100,6 +101,7 @@ cd apps/android
 打开 app 中的 **Connect** 选项卡。使用 **Setup Code** 或 **Manual** 模式进行连接。Android app 作为 node 设备与 Gateway 配对。
 
 对于通过 ADB 的 Gateway 隧道：
+
 ```bash
 adb reverse tcp:18789 tcp:18789
 ```
@@ -134,6 +136,7 @@ cd apps/android
 ### ⚠️ 运行/调试前的重要检查清单
 
 在运行测试或调试之前：
+
 - Android app 必须连接到 Gateway 并显示为 **paired + connected**。
 - 在整个会话期间，app 必须保持 **解锁并在前台运行**。
 - 如果需要 canvas/A2UI 命令，**Screen 选项卡** 必须处于打开和活动状态。

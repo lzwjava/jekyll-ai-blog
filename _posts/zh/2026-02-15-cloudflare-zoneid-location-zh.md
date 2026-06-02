@@ -31,20 +31,24 @@ Zone ID 是特定域名（Zone）的唯一标识符，位于 Dashboard 的不同
 7. 点击 Zone ID 旁的 **Click to copy** 即可将其复制到剪贴板。
 
 **重要提示：**
+
 - 您必须处于特定域名的 **Overview** 页面（而不是 Account 级别的首页，也不是 Analytics，也不是单纯的 Workers & Pages 页面）。
 - 如果您在 Workers & Pages 的概览页面（未选择特定域名），您可能只能看到 **Account ID** —— 这就是为什么有些用户找不到 Zone ID。
 - Zone ID 仅存在于您已添加到 Cloudflare 的域名中。如果没有添加任何域名，则不会有 Zone ID。
 - 该位置多年来一直保持一致（域名 Overview 的右侧栏/API 区域），根据最新文档（最后更新于 2025 年 9 月），没有重大变化。
 
 如果您仍然找不到：
+
 - 再次检查您是否处于该域名的 **Overview** 标签页（而不是 Analytics & Logs）。
 - 尝试刷新页面或切换域名。
 - 使用 API 方法作为备选（需要 API token）：
+
   ```bash
   curl -X GET "https://api.cloudflare.com/client/v4/zones" \
        -H "Authorization: Bearer YOUR_API_TOKEN" \
        -H "Content-Type: application/json"
   ```
+
   在每个 zone 对象中查找 `id` 字段。
 
 References:

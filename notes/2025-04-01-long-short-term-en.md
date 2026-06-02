@@ -20,46 +20,54 @@ The central concept in an LSTM is the **cell state** (often denoted as 'C<sub>t<
 
 LSTM cells have three main gates that regulate the flow of information:
 
-1.  **Forget Gate:** This gate decides what information from the previous cell state should be discarded.
+1. **Forget Gate:** This gate decides what information from the previous cell state should be discarded.
     * It receives the previous hidden state (h<sub>t-1</sub>) and the current input (x<sub>t</sub>).
     * These are passed through a neural network layer followed by a **sigmoid activation function**.
     * The sigmoid function outputs values between 0 and 1. A value close to 0 means "completely forget this information," while a value close to 1 means "completely keep this information."
     * Mathematically, the forget gate's output (f<sub>t</sub>) is calculated as:
+
         ```
         f_t = σ(W_f * [h_{t-1}, x_t] + b_f)
         ```
+
         where:
         * σ is the sigmoid function.
         * W<sub>f</sub> is the weight matrix for the forget gate.
         * [h<sub>t-1</sub>, x_t] is the concatenation of the previous hidden state and the current input.
         * b<sub>f</sub> is the bias vector for the forget gate.
 
-2.  **Input Gate:** This gate decides what new information from the current input should be added to the cell state. This process involves two steps:
+2. **Input Gate:** This gate decides what new information from the current input should be added to the cell state. This process involves two steps:
     * **Input Gate Layer:** A sigmoid layer decides which values we'll update.
+
         ```
         i_t = σ(W_i * [h_{t-1}, x_t] + b_i)
         ```
+
         where:
         * σ is the sigmoid function.
         * W<sub>i</sub> is the weight matrix for the input gate.
         * [h<sub>t-1</sub>, x_t] is the concatenation of the previous hidden state and the current input.
         * b<sub>i</sub> is the bias vector for the input gate.
     * **Candidate Values Layer:** A tanh layer creates a vector of new candidate values (candidate cell state, denoted as 'C̃<sub>t</sub>') that could be added to the cell state. The tanh function outputs values between -1 and 1, which helps in regulating the network.
+
         ```
         C̃_t = tanh(W_C * [h_{t-1}, x_t] + b_C)
         ```
+
         where:
         * tanh is the hyperbolic tangent function.
         * W<sub>C</sub> is the weight matrix for the candidate cell state.
         * [h<sub>t-1</sub>, x_t] is the concatenation of the previous hidden state and the current input.
         * b<sub>C</sub> is the bias vector for the candidate cell state.
 
-3.  **Output Gate:** This gate decides what information from the current cell state should be output as the hidden state for the current time step.
+3. **Output Gate:** This gate decides what information from the current cell state should be output as the hidden state for the current time step.
     * It receives the previous hidden state (h<sub>t-1</sub>) and the current input (x<sub>t</sub>).
     * These are passed through a neural network layer followed by a **sigmoid activation function** to determine which parts of the cell state to output.
+
         ```
         o_t = σ(W_o * [h_{t-1}, x_t] + b_o)
         ```
+
         where:
         * σ is the sigmoid function.
         * W<sub>o</sub> is the weight matrix for the output gate.
@@ -67,6 +75,7 @@ LSTM cells have three main gates that regulate the flow of information:
         * b<sub>o</sub> is the bias vector for the output gate.
     * The cell state is then passed through a **tanh function** to squash the values between -1 and 1.
     * Finally, the output of the sigmoid gate is multiplied element-wise with the output of the tanh function applied to the cell state. This becomes the new hidden state (h<sub>t</sub>) which is passed to the next time step and can also be used for making predictions.
+
         ```
         h_t = o_t * tanh(C_t)
         ```

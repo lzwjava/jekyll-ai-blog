@@ -17,6 +17,7 @@ type: note
 AWS 提供了一套全面的网络服务，其核心是 **Amazon Virtual Private Cloud (Amazon VPC)**，它允许用户在 AWS 云中创建逻辑隔离的虚拟网络。这些服务能够为 EC2 实例等资源实现安全、可扩展和灵活的网络配置。
 
 ### 核心 VPC 组件和功能
+
 - **Virtual Private Cloud (VPC)**: AWS 云中逻辑隔离的部分，您可以在其中定义自己的虚拟网络。您可以控制 IP 地址范围 (CIDR 块)、子网、路由表和网关。VPC 跨区域中的多个可用区以实现高可用性。
 
 - **子网（Subnets）**: VPC IP 地址范围的细分。
@@ -30,6 +31,7 @@ AWS 提供了一套全面的网络服务，其核心是 **Amazon Virtual Private
   - **NAT Instance**: 一种较旧的、用户管理的替代方案，使用 EC2 实例进行 NAT；与 NAT Gateway 相比，管理开销更高，因此不推荐使用。
 
 ### 其他典型的网络服务
+
 - **路由表（Route Tables）**: 控制 VPC 内部以及到外部目的地（例如，0.0.0.0/0 路由到 IGW 或 NAT Gateway）的流量路由。
 - **安全组（Security Groups）和网络 ACLs（Network ACLs）**: 充当虚拟防火墙——安全组在实例级别，NACL 在子网级别。
 - **VPC Peering**: 连接多个 VPC（甚至跨账户或区域）以进行私有通信。

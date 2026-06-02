@@ -45,11 +45,13 @@ In a traditional Cantonese (Guangdong) wedding banquet, the menu is very symboli
     Little sweet pastries served at the end, guests usually take boxes home.
 
 Extra common dishes that often appear:
+
 - Prawns/Shrimp (大蝦 – daaih hā) → laughter and happiness (蝦 = “ha” = laugh)
 - Roast Duck (燒鴨)
 - Braised Pork Knuckle (豬手 – jyū sáu) → sometimes instead of or with suckling pig
 
 So to directly answer your list:
+
 - Ru zhu (乳豬) → yes, the suckling pig is the #1 signature dish
 - Pig → yes (suckling pig or pork knuckle)
 - Fish → absolutely, whole steamed fish is mandatory

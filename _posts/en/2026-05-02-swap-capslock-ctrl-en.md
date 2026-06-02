@@ -14,6 +14,7 @@ type: note
 ### What We Did
 
 **`~/.Xmodmap`** — tells X11 how to remap the keys:
+
 1. Remove CapsLock from the "Lock" modifier group
 2. Remove Ctrl_L from the "Control" modifier group
 3. Reassign the physical CapsLock key → `Control_L` keycode

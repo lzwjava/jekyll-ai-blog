@@ -26,7 +26,7 @@ Here are the most reliable ways to figure out exactly where your iCloud data is 
 
 3. **Check the iCloud data center partner notice (official Apple page)**
    Apple publishes this list:
-   https://support.apple.com/en-us/111754
+   <https://support.apple.com/en-us/111754>
    - Taiwan = “Apple” (global infrastructure)
    - China mainland = “Guizhou-Cloud Big Data”
 
@@ -35,14 +35,17 @@ Here are the most reliable ways to figure out exactly where your iCloud data is 
 
 5. **Ping iCloud servers (technical method)**
    Open Terminal (Mac) or Command Prompt (Windows) and run:
+
    ```
    ping -c 3 www.icloud.com
    ping -c 3 www.icloud.com.cn
    ```
+
    - Taiwan accounts resolve to global IPs (usually in Singapore or U.S.).
    - China mainland accounts resolve to .cn domains and GCBD IPs in Guizhou.
 
 ### Summary for Taiwan Users (2025)
+
 - Your iCloud photos, backups, messages, etc. are stored in Apple-owned or Apple-controlled data centers outside mainland China (mostly U.S. or Singapore for Asia-Pacific).
 - Encryption keys are also managed by Apple globally (not handed to a state partner like in China).
 - Zero chance your data is in the Guizhou data center unless you deliberately created a +86 China mainland Apple ID.

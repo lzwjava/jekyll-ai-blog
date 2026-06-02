@@ -46,29 +46,37 @@ AttributeError: attribute '__name__' of 'builtin_function_or_method' objects is 
    - 通过系统包管理器或Python官网安装对应版本。
 
 2. **创建虚拟环境**
+
    ```bash
    virtualenv -p python3.11 venv
    ```
+
    此命令创建名为`venv`的虚拟环境。如需使用Python 3.12，将`python3.11`替换为`python3.12`。
 
 3. **激活虚拟环境**
+
    ```bash
    source venv/bin/activate
    ```
 
 4. **安装CuPy**
+
    ```bash
    pip install cupy
    ```
+
    这将安装适用于Python 3.11的最新兼容版CuPy。
 
 5. **运行脚本**
+
    ```bash
    python scripts/benchmark/cudamark.py
    ```
+
    此时脚本应能正常执行。
 
 6. **退出环境（完成后）**
+
    ```bash
    deactivate
    ```
@@ -76,27 +84,33 @@ AttributeError: attribute '__name__' of 'builtin_function_or_method' objects is 
 #### 方案二：使用`conda`
 
 1. **创建Conda环境**
+
    ```bash
    conda create -n cudabench python=3.11
    ```
+
    创建名为`cudabench`的环境。如需Python 3.12，使用`python=3.12`。
 
 2. **激活环境**
+
    ```bash
    conda activate cudabench
    ```
 
 3. **安装CuPy**
+
    ```bash
    pip install cupy
    ```
 
 4. **运行脚本**
+
    ```bash
    python scripts/benchmark/cudamark.py
    ```
 
 5. **退出环境（完成后）**
+
    ```bash
    conda deactivate
    ```

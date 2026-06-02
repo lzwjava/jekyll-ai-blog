@@ -16,6 +16,7 @@ Answer:
 这些建议在**routine health checkup**（尤其是包括**blood tests**如lipid profile、glucose等的检查）中很常见，以确保获得最**accurate results**。
 
 ### 1. 不在晚上吃东西（overnight fasting）
+
 许多blood tests需要**fasting** 8–12小时（通常从晚餐后到早上预约）。
 吃食物——尤其是晚上或夜间——会影响关键测量值，因为营养素会进入血液：
 
@@ -29,6 +30,7 @@ Answer:
 除了plain water外，通常不允许喝任何东西（无咖啡、茶、果汁、牛奶、苏打水等），因为这些可能含有热量、咖啡因或糖，会干扰结果。Plain water是被允许甚至鼓励的（它保持水分，并使抽血时静脉更容易找到）。
 
 ### 2. 前一晚良好睡眠
+
 良好睡眠在健康检查中有多种帮助：
 
 - **更准确的vital signs**：睡眠不足会暂时提高**blood pressure**、**heart rate**和应激激素（如cortisol），这可能在体检或测量中给出误导读数。
@@ -36,6 +38,7 @@ Answer:
 - **Mental clarity and cooperation**：你感觉更警觉，有助于问卷、体检或程序（如ECG、ultrasound等）。
 
 简而言之：
+
 - **晚上不吃/喝** → 提供干净的fasting-state blood results（尤其是sugar、fats和相关标志物）。
 - **良好睡眠** → 有助于保持blood pressure、heart rate和代谢标志物接近正常**baseline**，并改善就诊时的感受。
 

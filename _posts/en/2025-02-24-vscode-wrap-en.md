@@ -51,6 +51,7 @@ To make VSCode wrap lines so you can easily see when lines are too long, you can
 ### Example
 
 Suppose you have a line of code that is 100 characters long:
+
 - With **Editor: Word Wrap** set to `"wordWrapColumn"` and **Editor: Word Wrap Column** set to `80`, the line will wrap at the 80th character.
 - The wrapped portion will be indented, and the ruler (if enabled) will show where the 80th column is.
 - This setup eliminates the need for horizontal scrolling and makes it clear that the line exceeds 80 characters.

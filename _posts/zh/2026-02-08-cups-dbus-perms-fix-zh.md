@@ -27,6 +27,7 @@ Answer:
 **修复步骤**（请按此顺序操作）
 
 1. **立即停止 CUPS** 以停止日志洪水并释放 CPU/磁盘 I/O
+
    ```
    sudo systemctl stop cups
    # 或者如果 systemctl 暂时无法工作：
@@ -34,6 +35,7 @@ Answer:
    ```
 
 2. **立即释放空间**（如果你想保留旧日志，truncate 比 rm 更安全）
+
    ```
    sudo truncate -s 0 /var/log/cups/error_log
    # 或者删除它：
@@ -43,12 +45,14 @@ Answer:
 3. **修复 notifier 文件的权限**
    正确的权限通常是 **755**（所有者可执行，其他人可读/可执行），并且所有者为 **root:root**（在某些发行版上可能是 daemon:lp / lp:lp —— 但 root:root 是安全且通用的）。
    运行：
+
    ```
    sudo chown root:root /usr/lib/cups/notifier/dbus
    sudo chmod 755 /usr/lib/cups/notifier/dbus
    ```
 
    如果整个 notifier 目录都受到了影响，也请修复它（虽然是过度修复但很安全）：
+
    ```
    sudo chown -R root:root /usr/lib/cups/notifier
    sudo chmod -R 755 /usr/lib/cups/notifier
@@ -56,34 +60,41 @@ Answer:
 
 4. **（可选但通常需要）清除滞留的 subscriptions**
    破损的 subscriptions 即使在修复后也可能继续重试：
+
    ```
    sudo rm -f /etc/cups/subscriptions.conf*
    sudo systemctl restart cups   # 或 sudo service cups restart
    ```
 
 5. **重启 CUPS 并验证**
+
    ```
    sudo systemctl start cups
    sudo systemctl status cups
    ```
 
    然后简要观察日志：
+
    ```
    tail -f /var/log/cups/error_log
    ```
-   重复的错误应该会停止。如果打印仍然无法工作，请访问 http://localhost:631 并检查/删除有问题的打印机。
+
+   重复的错误应该会停止。如果打印仍然无法工作，请访问 <http://localhost:631> 并检查/删除有问题的打印机。
 
 **如果 sudo 仍无法工作**（由于你之前的 chown 破坏）：
 使用之前提到的 live USB / recovery mode 方法，以 root 身份运行这些 chown/chmod 命令。
 
 **预防 / 更好的默认设置**
 恢复后，在 `/etc/cups/cupsd.conf`（或 `/etc/cups/cupsd.conf.d/` 文件）中设置较低的日志级别：
+
 ```
 LogLevel warn
 ```
+
 然后重启 CUPS。
 
 如果你根本不使用打印功能，可以永久禁用 CUPS：
+
 ```
 sudo systemctl disable --now cups
 ```

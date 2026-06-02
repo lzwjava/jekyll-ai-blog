@@ -58,6 +58,7 @@ Legacy projects 通常 Test coverage 很低。没有安全网，*任何*改动�
 ## 技术债的复利效应
 
 你每一年*不*进行升级，差距就会进一步拉大：
+
 - 新版本与旧版本的差异越来越大
 - Migration 迁移指南变得过时
 - 社区对旧版本的支持逐渐消失
@@ -81,6 +82,7 @@ Legacy projects 通常 Test coverage 很低。没有安全网，*任何*改动�
 ## 什么才是促使改变的真正原因
 
 就像个人一样，团队通常只有在以下情况才会行动：
+
 - 出现 **Security vulnerability** 安全漏洞，迫使进行紧急升级
 - 供应商 **停止支持** (例如 Python 2 EOL, Log4j 危机)
 - **新项目 (New project)** 采用了现代技术栈并证明了其可行性

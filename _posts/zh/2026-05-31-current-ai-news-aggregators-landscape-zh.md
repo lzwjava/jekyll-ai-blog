@@ -48,6 +48,7 @@ type: note
 | **Latent Space** | 播客 + 通讯，非常面向开发者 |
 
 ### 通讯（InfoQ 风格但加入 AI）
+
 - **TLDR AI**——订阅超 50 万，每日要点摘要
 - **Import AI**（Jack Clark）——深度、研究员级内容
 - **The Batch**（deeplearning.ai）——吴恩达的每周通讯

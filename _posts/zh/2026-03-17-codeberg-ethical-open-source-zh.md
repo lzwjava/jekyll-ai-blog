@@ -13,7 +13,7 @@ type: note
 
 ### Core Facts (as of early 2026)
 
-- **Official website**: https://codeberg.org
+- **Official website**: <https://codeberg.org>
 - **Operator**: Codeberg e.V. — 一个注册的非营利协会（eingetragener Verein），位于 **Berlin, Germany**
 - **Founded**: September 2018（公开启动于 2019 年 1 月）
 - **Software stack**: 基于 **Forgejo**（Gitea 的免费社区维护软分叉）
@@ -51,7 +51,7 @@ Codeberg 故意保持较小且更专注。它优先考虑独立性、长期可�
 
 ### How to Get Started
 
-1. 访问 https://codeberg.org
+1. 访问 <https://codeberg.org>
 2. 注册账户（免费，无需信用卡）
 3. 创建或导入仓库
 4. 可选：加入 Codeberg e.V. 作为支持或活跃成员 → 获得投票权并在财务上帮助平台

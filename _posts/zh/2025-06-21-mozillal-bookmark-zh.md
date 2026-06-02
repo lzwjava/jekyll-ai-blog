@@ -10,7 +10,8 @@ type: note
 
 您正在查看的是一个 **Firefox 书签备份** 文件，格式为 `.jsonlz4`。这意味着它是一个 **使用 LZ4 压缩算法压缩的 JSON 文件**，其中包含您的 Firefox 书签。
 
-### 📁 文件名：
+### 📁 文件名
+
 ```
 bookmarks-2025-06-21_10_MU9VVxxx.jsonlz4
 ```
@@ -23,8 +24,8 @@ bookmarks-2025-06-21_10_MU9VVxxx.jsonlz4
 
 您无法直接读取此文件，因为它是 **使用 LZ4 压缩的**。您需要：
 
-1.  **解压缩** 它 (LZ4 → JSON)
-2.  **美化输出** 或解析生成的 JSON
+1. **解压缩** 它 (LZ4 → JSON)
+2. **美化输出** 或解析生成的 JSON
 
 ---
 
@@ -95,7 +96,7 @@ python parse_bookmarks.py 'bookmarks-2025-06-21_10_MU9VV5NmyUCq9RTxuMze5iBNh7sKy
 npm install firefox-jsonlz4
 ```
 
-或者查看这个仓库：https://github.com/overdodactyl/firefox-jsonlz4
+或者查看这个仓库：<https://github.com/overdodactyl/firefox-jsonlz4>
 
 ---
 
@@ -122,6 +123,7 @@ npm install firefox-jsonlz4
 ```
 
 您可以使用这些数据来：
+
 - 搜索旧书签
 - 迁移书签
 - 分析您的浏览/收藏习惯
@@ -147,6 +149,7 @@ npm install firefox-jsonlz4
 ## 🔍 为什么 Mozilla 使用 `.jsonlz4` 而不是纯 JSON
 
 ### ✅ 1. **压缩效率**
+
 - `.jsonlz4` 是 **使用 LZ4 算法压缩的 JSON 数据**。
 - LZ4 **快速**、**轻量级**，并提供不错的压缩率 —— 非常适合 Firefox 的用例。
 - 这显著减小了文件大小（通常减少 **50–70%**），从而：
@@ -159,6 +162,7 @@ npm install firefox-jsonlz4
 ---
 
 ### ✅ 2. **性能**
+
 - LZ4 针对 **速度而非最大压缩率** 进行了优化。
 - Firefox 可以快速压缩和解压缩这些文件，而不会产生明显的延迟。
 - 其他算法如 gzip 或 zstd 功能更强大，但速度更慢或更复杂。
@@ -166,6 +170,7 @@ npm install firefox-jsonlz4
 ---
 
 ### ✅ 3. **内部格式**
+
 - Firefox 不将其作为面向用户的格式公开；它在内部用于：
   - 书签备份 (`bookmarkbackups/`)
   - 会话存储 (`sessionstore-backups/`)
@@ -191,6 +196,7 @@ npm install firefox-jsonlz4
 两种格式默认都是 **未加密** 和 **未受保护** 的。
 
 所以：
+
 - 如果有人可以访问您的 Firefox 配置文件，他们可以读取任一文件。
 - 两种格式都不保护敏感数据，如 URL 或标题。
 
@@ -199,18 +205,21 @@ npm install firefox-jsonlz4
 ## 💡 那么为什么不使用加密或安全格式呢？
 
 Mozilla **默认不加密本地配置文件数据**，包括：
+
 - 书签
 - 历史记录
 - Cookie
 - 密码
 
-### 原因如下：
+### 原因如下
+
 - **用户体验**：加密增加了复杂性。
 - **恢复**：如果用户忘记密码，可能会丢失数据。
 - **信任假设**：Firefox 假设您的系统是安全的。
 - **存在替代工具**：您可以使用操作系统级工具手动加密您的 Firefox 配置文件目录。
 
 如果您需要加密配置文件：
+
 - 使用 **Firefox Lockwise** 进行密码加密。
 - 使用 **第三方工具** 加密整个配置文件文件夹。
 - 或者切换到加密 USB 驱动器上的便携版 Firefox。

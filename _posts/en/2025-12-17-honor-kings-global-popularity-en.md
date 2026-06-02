@@ -24,6 +24,7 @@ Honor of Kings (HoK), developed by Tencent's TiMi Studios, is the world's most p
 Global version launched Jun 2024 (after regional tests in Brazil/Turkey/MENA), expanding to 160+ countries. Strong SEA adoption via Mobile Legends-like appeal, but struggles vs. established rivals (e.g., MLBB). Growth via collabs (Frozen, Sanrio, Jujutsu Kaisen), but 98% revenue China-reliant limits "global" scale.
 
 ### Top User Countries (2025 Data)
+
 Primarily by global downloads/revenue shares (launch data) + active rankings. China dwarfs all (~90%+ users/revenue).
 
 | Rank | Country          | Key Stats (Downloads/Users/Revenue)                  |
@@ -42,6 +43,7 @@ Primarily by global downloads/revenue shares (launch data) + active rankings. Ch
 **Notes**: Active rankings from ActivePlayer.io (Google Play proxies, Dec 2025). SEA dominates global servers (Indonesia/PH/ML/TW/VN ~70%+). Brazil/US/Europe growing slowly. Projections: Continued SEA dominance; global MAU could hit 20M+ non-China by 2026 with esports push.
 
 References:
+
 - [Sensor Tower Top Mobile Games Aug 2025](https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-august-2025)
 - [CGTN: 139M DAU Record](https://news.cgtn.com/news/2025-10-27/Honor-of-Kings-sets-new-record-with-139-million-daily-active-users-1HO6FItdj6o/p.html)
 - [Udonis Most Played 2025](https://www.blog.udonis.co/mobile-marketing/mobile-games/most-played-mobile-games)

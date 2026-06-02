@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview of the Course
+
 The course "Switching and Routing Technologies" (专业代码: 510201) is part of China's National Higher Education Self-study Examination (自学考试) system, administered in Guangdong province. This subject falls under computer science and information technology majors, focusing on the principles, configuration, and application of network switches and routers. Topics typically include VLANs, STP (Spanning Tree Protocol), routing protocols (e.g., RIP, OSPF), IP addressing, subnetting, and basic network troubleshooting. As a relatively new course (likely introduced or updated in recent years to align with modern networking standards like those in CCNA-level curricula), exam questions emphasize both theoretical understanding and practical configuration skills, often drawing from Cisco-like IOS commands or similar.
 
 Exams in this system are usually a mix of multiple-choice, fill-in-the-blank, short-answer, and configuration-based questions. Below, I've compiled example questions based on standard topics for this course. These are illustrative, inspired by similar national-level IT exams (e.g., NCRE Level 4 Network Engineer and computer network finals). For real preparation, refer to official Guangdong Self-Exam resources or textbooks like "Computer Networks" by Andrew Tanenbaum (adapted editions).
@@ -18,6 +19,7 @@ Exams in this system are usually a mix of multiple-choice, fill-in-the-blank, sh
 ### Example Questions
 
 #### Section 1: Multiple-Choice Questions (单选题)
+
 These test foundational concepts. Each has one correct answer.
 
 1. **In a LAN environment, which protocol is used to prevent loops in switched networks by blocking redundant paths?**
@@ -56,6 +58,7 @@ These test foundational concepts. Each has one correct answer.
    *Answer: A. ISL is a Cisco proprietary trunking protocol; 802.1Q is the standard alternative.*
 
 #### Section 2: Fill-in-the-Blank Questions (填空题)
+
 Complete the statements with the missing terms.
 
 1. **The default administrative distance for a static route in most routing tables is ____.**
@@ -74,6 +77,7 @@ Complete the statements with the missing terms.
    *Answer: forwarding.*
 
 #### Section 3: Short-Answer Questions (简答题)
+
 Provide brief explanations (2-4 sentences).
 
 1. **Explain the difference between a switch and a router, and when you would use each in a network design.**
@@ -86,10 +90,12 @@ Provide brief explanations (2-4 sentences).
    *Sample Answer: The `ip route` command statically defines routes in a routing table. Example: `ip route 0.0.0.0 0.0.0.0 192.168.1.1` sets the default gateway to 192.168.1.1 for all unknown destinations.*
 
 #### Section 4: Configuration-Based Questions (配置题)
+
 These simulate practical scenarios, often requiring command sequences (assume Cisco IOS syntax, common in such exams).
 
 1. **Given a switch with interfaces FastEthernet0/1-3 connected to PCs in VLAN 10 and FastEthernet0/24 as a trunk to another switch, write the commands to configure VLAN 10 and assign ports.**
    *Sample Commands:*
+
    ```
    vlan 10
    name Sales
@@ -105,17 +111,20 @@ These simulate practical scenarios, often requiring command sequences (assume Ci
 
 2. **On a router, configure a static route to reach network 10.0.0.0/8 via next-hop 172.16.1.1.**
    *Sample Command:*
+
    ```
    ip route 10.0.0.0 255.0.0.0 172.16.1.1
    ```
 
 3. **Enable STP on a switch and set it as the root bridge for VLAN 1.**
    *Sample Commands:*
+
    ```
    spanning-tree vlan 1 root primary
    ```
 
 ### Preparation Tips
+
 - **Practice Focus:** Emphasize hands-on simulation using tools like Packet Tracer or GNS3 for configurations.
 - **Exam Format:** Guangdong self-exams are typically 150 marks, 3 hours, with 60%+ pass rate. Check the official site (eeagd.edu.cn) for 2025 schedules.
 - **Resources:**

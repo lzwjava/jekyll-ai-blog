@@ -21,6 +21,7 @@ type: note
 **三大优良作风**
 
 毛泽东确立了成为该党标志的三大优良作风（Three Major Work Styles）：
+
 - **理论联系实际（Theory linked with practice）** —— 将 Marxist theory 与中国的具体实际相结合
 - **密切联系群众（Close ties with the masses）** —— 与普通民众保持深厚联系
 - **批评与自我批评（Criticism and self-criticism）** —— 为了进步而对自己和他人进行诚实的评估

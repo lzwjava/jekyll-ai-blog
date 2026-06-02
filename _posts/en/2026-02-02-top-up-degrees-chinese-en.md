@@ -19,6 +19,7 @@ A top-up degree constitutes the final year of a Bachelor of Science degree. It a
 ## **UK Online Top-Up Programs (Best Options for You):**
 
 ### **1. University of Hertfordshire - BSc Computer Science (Top-Up) Online**
+
 - **Duration**: 1 year (can study part-time over 2 years)
 - **Cost**: Approximately £7,335 per year
 - **Requirements**: Higher national diploma, foundation degree, or equivalent international qualifications
@@ -26,18 +27,21 @@ A top-up degree constitutes the final year of a Bachelor of Science degree. It a
 - **Mode**: 100% online, globally accessible
 
 ### **2. Edinburgh Napier University - BSc Computing (Top-Up) Online**
+
 - **Duration**: 1 year
 - **Requirements**: Associate degree, diploma, undergraduate certificate or equivalent in computing with 240 SCQF credits
 - **Advantage**: Recognition of Prior Learning is available and candidates with relevant work experience will be considered on a case by case basis
 - **Mode**: 100% online
 
 ### **3. Arden University - BSc Computing (Top-Up) Online**
+
 - **Duration**: 1 year (flexible)
 - **Requirements**: Relevant HND or equivalent
 - **Advantage**: If you have significant work experience, have qualifications you have gained elsewhere - we are more than happy to discuss your application
 - **Mode**: 100% online, study from anywhere
 
 ### **4. University of Derby - BSc Computing and IT (Top-Up) Online**
+
 - **Duration**: 1 year
 - **Start dates**: Three start dates a year (September, January and May)
 - **Advantage**: Opportunity to enrol with a level 4 qualification plus significant work experience

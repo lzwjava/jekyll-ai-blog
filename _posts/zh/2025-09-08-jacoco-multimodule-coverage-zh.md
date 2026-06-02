@@ -36,14 +36,16 @@ type: note
 
 首先，创建一个专门用于聚合的新模块。这是 Maven 的最佳实践，可以保持关注点分离。
 
-1.  在您的根 `pom.xml` (`PlaygroundLib`) 中，添加新模块：
+1. 在您的根 `pom.xml` (`PlaygroundLib`) 中，添加新模块：
+
     ```xml
     <modules>
         <module>PlaygroundUtils</module>
         <module>PlaygroundWeb</module>
         <module>PlaygroundReports</module> </modules>
     ```
-2.  在根目录下创建一个新目录 `PlaygroundReports` 及其自己的 `pom.xml`。
+
+2. 在根目录下创建一个新目录 `PlaygroundReports` 及其自己的 `pom.xml`。
 
 您的新项目结构将如下所示：
 
@@ -173,10 +175,10 @@ type: note
 
 ## 这如何解决问题
 
-1.  **单一构建：** 您只需从根目录运行一次 `mvn clean verify`。
-2.  **正确的生命周期：**
+1. **单一构建：** 您只需从根目录运行一次 `mvn clean verify`。
+2. **正确的生命周期：**
       * Maven 构建 `PlaygroundUtils`。
       * Maven 构建 `PlaygroundWeb`，启动带有 JaCoCo 代理的 Jetty，运行您的 Python 测试（这些测试会触及两个模块中的代码），停止 Jetty，并生成 `PlaygroundWeb/target/jacoco-it.exec`。
       * Maven 构建 `PlaygroundReports`。在 `verify` 阶段，`report-aggregate` 目标运行。它从 `PlaygroundWeb` 找到 `.exec` 文件，并且由于依赖关系，它知道在哪里可以找到 `PlaygroundWeb` 和 `PlaygroundUtils` 的源代码。
       * 它生成一个**单一的、统一的 HTML 报告**，其中包含两个模块的覆盖率。
-3.  **可扩展性：** 如果您再添加十个库模块，只需将它们作为依赖项添加到 `PlaygroundReports/pom.xml` 中。核心逻辑不会改变。这正是您正在寻找的清晰、可扩展的解决方案。
+3. **可扩展性：** 如果您再添加十个库模块，只需将它们作为依赖项添加到 `PlaygroundReports/pom.xml` 中。核心逻辑不会改变。这正是您正在寻找的清晰、可扩展的解决方案。

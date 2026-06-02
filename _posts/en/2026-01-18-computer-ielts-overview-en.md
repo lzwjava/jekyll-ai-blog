@@ -10,13 +10,14 @@ translated: false
 type: note
 ---
 
-Question: What does the article at https://ielts.idp.com/canada/prepare/article-how-computer-delivered-ielts-works say?
+Question: What does the article at <https://ielts.idp.com/canada/prepare/article-how-computer-delivered-ielts-works> say?
 
 Answer:
 
 The article, titled **"How IELTS on Computer works"** from IDP IELTS Canada, explains the computer-delivered version of the IELTS test (also called IELTS on computer). It describes this as the same IELTS test used for work, study, or migration purposes, but delivered digitally on a computer instead of on paper. It has been available as an alternative for many years, offering the same content, question types, timing, and scoring as the paper-based version, with the key difference being in the delivery and user interface.
 
 ### Main Features and Differences
+
 - **Sections delivered on computer**: Listening, Reading, and Writing.
 - **Speaking section**: Remains face-to-face with a real examiner (unchanged from paper-based).
 - **Advantages highlighted**: Multiple test sessions available per day and faster results.
@@ -28,6 +29,7 @@ The article, titled **"How IELTS on Computer works"** from IDP IELTS Canada, exp
 - A stopwatch appears in the upper middle of the screen and flashes during the last 10 and 5 minutes of Reading/Writing.
 
 ### How Each Section Works on Computer
+
 - **Listening**
   You enter answers directly into the system as you listen (no transfer time needed).
   - Navigation: Bottom buttons show all 40 questions; forward/backward arrows to move; "Review" button (lower-left) lets you flag questions (their numbers turn into circles).
@@ -48,6 +50,7 @@ The article, titled **"How IELTS on Computer works"** from IDP IELTS Canada, exp
   - You can start with either task.
 
 ### Navigation and Usability Features
+
 - **Starting the test**: An information screen appears first, then click "Start Test".
 - **Breaks**: Use the "Hide" button (upper right) to conceal questions during bathroom breaks; resume with "Resume test".
 - **Settings**: Adjust font size and background color via the "Settings" button (upper right) for comfort.

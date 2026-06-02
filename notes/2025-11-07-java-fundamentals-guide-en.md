@@ -19,6 +19,7 @@ This guide covers the fundamental concepts you need to master for the first part
 ## 1. Java Language Specifications, API, JDK, and IDE Tools
 
 ### **Java Language Specifications**
+
 The Java Language Specification defines the syntax and semantics of Java. Key concepts to understand:
 
 - **Platform Independence**: "Write Once, Run Anywhere" (WORA) - Java code compiles to bytecode that runs on any platform with a JVM (Java Virtual Machine)
@@ -27,6 +28,7 @@ The Java Language Specification defines the syntax and semantics of Java. Key co
 - **Automatic Memory Management**: Garbage collection handles memory deallocation
 
 ### **Java API (Application Programming Interface)**
+
 The Java API is a large collection of pre-written classes organized into packages:
 
 - **Core packages**: `java.lang` (automatically imported), `java.util`, `java.io`
@@ -35,6 +37,7 @@ The Java API is a large collection of pre-written classes organized into package
 - **How to use**: Import packages using `import` statements
 
 ### **JDK (Java Development Kit)**
+
 Essential components of the JDK:
 
 - **javac**: Java compiler (converts .java files to .class bytecode files)
@@ -45,11 +48,13 @@ Essential components of the JDK:
 - **Standard libraries**: Complete Java API implementation
 
 **Installation and Setup**:
+
 - Download from Oracle or use OpenJDK
 - Set JAVA_HOME environment variable
 - Add JDK bin directory to system PATH
 
 ### **IDE (Integrated Development Environment) Tools**
+
 Popular IDEs for Java development:
 
 1. **Eclipse** - Free, open-source, widely used in education
@@ -58,6 +63,7 @@ Popular IDEs for Java development:
 4. **VS Code** - Lightweight with Java extensions
 
 **IDE Benefits**:
+
 - Syntax highlighting and error detection
 - Code completion and suggestions
 - Integrated debugging tools
@@ -84,34 +90,41 @@ public class HelloWorld {
 ### **Step-by-Step Process**
 
 **Step 1: Creating a Java Program**
+
 - Create a text file with `.java` extension
 - Filename MUST match the public class name (case-sensitive)
 - Example: `HelloWorld.java` for class `HelloWorld`
 
 **Step 2: Compiling**
+
 ```bash
 javac HelloWorld.java
 ```
+
 - This creates `HelloWorld.class` (bytecode file)
 - Compiler checks for syntax errors
 - If errors exist, compilation fails with error messages
 
 **Step 3: Running**
+
 ```bash
 java HelloWorld
 ```
+
 - Note: Use class name WITHOUT `.class` extension
 - JVM loads the class and executes the main method
 
 ### **Command Line vs IDE Workflow**
 
 **Command Line**:
+
 - Open terminal/command prompt
 - Navigate to the directory containing your .java file
 - Use `javac` to compile, `java` to run
 - Good for understanding the underlying process
 
 **IDE Workflow**:
+
 - Create a new Java project
 - Create a new class
 - Write code in the editor
@@ -141,6 +154,7 @@ Good programming style makes code readable and maintainable. Follow these conven
 ### **Code Formatting**
 
 **Indentation**:
+
 ```java
 public class Example {
     public static void main(String[] args) {
@@ -153,10 +167,12 @@ public class Example {
 ```
 
 **Braces**:
+
 - Opening brace on same line (Java convention)
 - Closing brace on its own line, aligned with statement
 
 **Spacing**:
+
 ```java
 // Good spacing
 int sum = a + b;
@@ -170,12 +186,14 @@ if(x>0){
 ### **Comments**
 
 **Single-line comments**:
+
 ```java
 // This is a single-line comment
 int age = 20; // Comment after code
 ```
 
 **Multi-line comments**:
+
 ```java
 /*
  * This is a multi-line comment
@@ -184,6 +202,7 @@ int age = 20; // Comment after code
 ```
 
 **Javadoc comments** (for documentation):
+
 ```java
 /**
  * Calculates the sum of two numbers.
@@ -217,9 +236,11 @@ public int add(int a, int b) {
 ### **Types of Errors**
 
 #### **A. Syntax Errors (Compile-Time Errors)**
+
 These prevent compilation and must be fixed before running:
 
 **Common syntax errors**:
+
 ```java
 // Missing semicolon
 int x = 5  // ERROR: missing ;
@@ -240,6 +261,7 @@ public class MyClass { // ERROR: class name must match filename
 ```
 
 #### **B. Runtime Errors**
+
 Program compiles but crashes during execution:
 
 ```java
@@ -256,6 +278,7 @@ int value = arr[5]; // ArrayIndexOutOfBoundsException
 ```
 
 #### **C. Logic Errors**
+
 Program runs but produces incorrect results:
 
 ```java
@@ -272,17 +295,20 @@ if (age > 18) { // Should be >= for "18 and older"
 ### **Debugging Techniques**
 
 #### **1. Read Error Messages Carefully**
+
 ```
 HelloWorld.java:5: error: ';' expected
         int x = 5
                  ^
 1 error
 ```
+
 - **Line number**: Shows where error occurred (line 5)
 - **Error type**: Tells you what's wrong (missing semicolon)
 - **Pointer**: Shows exact location
 
 #### **2. Print Statement Debugging**
+
 ```java
 public static int calculateSum(int a, int b) {
     System.out.println("Debug: a = " + a + ", b = " + b);
@@ -293,6 +319,7 @@ public static int calculateSum(int a, int b) {
 ```
 
 #### **3. Use IDE Debugger**
+
 - **Breakpoints**: Pause execution at specific lines
 - **Step Over**: Execute current line and move to next
 - **Step Into**: Enter method calls to see internal execution
@@ -300,11 +327,13 @@ public static int calculateSum(int a, int b) {
 - **Call Stack**: See the sequence of method calls
 
 #### **4. Divide and Conquer**
+
 - Comment out sections of code to isolate the problem
 - Test small parts independently
 - Gradually add code back until error reappears
 
 #### **5. Rubber Duck Debugging**
+
 - Explain your code line-by-line to someone (or something)
 - Often helps you spot the problem yourself
 
@@ -320,6 +349,7 @@ public static int calculateSum(int a, int b) {
    - Must be exactly: `public static void main(String[] args)`
 
 4. **Forgetting to import packages**
+
    ```java
    import java.util.Scanner; // Don't forget this!
    ```
@@ -328,6 +358,7 @@ public static int calculateSum(int a, int b) {
    - `String` not `string`, `System` not `system`
 
 6. **Using = instead of == in conditions**
+
    ```java
    if (x = 5) { // ERROR: assignment, not comparison
    if (x == 5) { // CORRECT
@@ -378,6 +409,7 @@ public class test {
 ```
 
 **Answers**:
+
 - Class name should be `Test` (capital T) and match filename
 - `Public` → `public`, `Static` → `static`, `Void` → `void`
 - `string` → `String`

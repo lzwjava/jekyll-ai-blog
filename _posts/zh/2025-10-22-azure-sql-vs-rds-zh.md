@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 Azure SQL Database 与 Amazon RDS 都是全托管的关係型数据库服务，旨在简化数据库管理、扩展和维护。Azure SQL Database 是微软推出的平台即服务（PaaS）产品，主要专注于 SQL Server（其他引擎可通过 Azure Database for MySQL/PostgreSQL 实现同等功能）；而 AWS RDS 是亚马逊提供的多引擎服务，支持 SQL Server、MySQL、PostgreSQL、Oracle、MariaDB 及专有的 Aurora 变种版本。选择通常取决于技术生态（微软集成环境倾向 Azure；多云或多引擎需求倾向 AWS）、工作负载类型和迁移需求。以下是关键维度的对比分析。
 
 | 类别                 | Azure SQL Database                                                                 | AWS RDS                                                                 |
@@ -26,11 +27,13 @@ Azure SQL Database 与 Amazon RDS 都是全托管的关係型数据库服务，�
 | **劣势**             | 单数据库模式存在网关延迟；定价体系复杂；旧版 SQL 支持有限（需使用虚拟机方案）。 | 不支持最新 SQL Server（2022）；无自带许可选项；偶发集成/支持问题；部分引擎缺少原生变更数据捕获功能。 |
 
 ### 建议方案
+
 - **选择 Azure SQL Database**：如果您处于重度微软技术环境（如 .NET、Active Directory），需要最新 SQL 功能，或关注可变工作负载的无服务/弹性扩展。
 - **选择 AWS RDS**：如需多引擎支持、旧版 SQL 兼容性，或已深度集成 AWS 云服务体系。
 - 针对 SQL Server 专项迁移，建议基于实际工作负载进行性能测试——Azure 在动态扩展方面表现突出，而 RDS 提供更可预测的硬件性能。
 
 ### 参考资源
+
 - [Azure 与 AWS 关係型数据库技术对比 - Microsoft Learn](https://learn.microsoft.com/zh-cn/azure/architecture/aws-professional/databases)
 - [Amazon SQL RDS 与 Azure SQL：2025 年最佳选择 - Red9](https://red9.com/blog/ms-sql-server-migration-aws-rds-vs-azure-sql-database/)
 - [Amazon RDS 与 Microsoft Azure SQL Database 对比（2025） - PeerSpot](https://www.peerspot.com/products/comparisons/amazon-rds_vs_microsoft-azure-sql-database)

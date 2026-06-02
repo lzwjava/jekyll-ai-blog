@@ -17,6 +17,7 @@ A **mainframe computer** is a high-performance, large-scale computer designed to
 - Supporting real-time analytics and batch processing
 
 ### Why is it called a "mainframe"?
+
 The term "mainframe" originated in the early days of computing (1950s–1960s). At that time, computers were physically enormous and housed in large metal frames called "main frames," which contained the central processing unit (CPU) and primary memory. These frames were the "main" or central part of the computer system, distinguishing them from smaller peripheral devices.
 
 Over time, the term stuck, even as the physical size of these computers shrank. Today, "mainframe" refers more to the architecture and capabilities—such as high availability, fault tolerance, and massive I/O throughput—rather than the physical size.

@@ -51,10 +51,12 @@ The main structure of the book can be summarized as:
 ### Reader Reviews & Criticisms
 
 **Positives:**
+
 - Very suitable for beginners; it helps form a relatively systematic framework, and the language is accessible and easy to understand — a "deep but accessible" introduction to what's inside the quantitative investment black box.
 - One reviewer praised the book for having excellent domain knowledge, clear structure, rich detail, and broad coverage, rating it 9/10 for a beginner audience. It contains no formulas, making it an excellent introductory text.
 
 **Criticisms:**
+
 - One weakness noted is inconsistency in translation between chapters in the Chinese version.
 - Some reviewers felt the book is more like a popular introduction — suitable for a general overview but too superficial for professionals, and not deep enough for practitioners who want actionable strategies.
 - The book does not teach you to immediately write trading programs; it describes the theory and landscape of quant investing rather than providing a hands-on implementation guide.
@@ -64,6 +66,7 @@ The main structure of the book can be summarized as:
 ### Who Should Read It?
 
 This book is best for:
+
 - **Beginners** to quantitative investing who want to understand what quant funds do without needing a math/programming background.
 - **Investors** considering allocating money to quant hedge funds and wanting to understand how they work.
 - **Finance students** who want a high-level overview of the quant trading ecosystem before going deeper.

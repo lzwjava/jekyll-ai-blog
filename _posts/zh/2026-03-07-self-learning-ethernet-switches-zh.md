@@ -36,6 +36,7 @@ type: note
 **步骤 2 — 转发/过滤决策：** 交换机基于 destination MAC address 决定将帧转发到何处。
 
 **步骤 3 — 转发：**
+
 - 如果 destination MAC 在表中（已知单播），交换机仅将帧转发到正确的端口。
 - 如果 destination MAC 不在表中（未知单播），交换机会 **flood** 帧的副本到除传入端口外的所有端口。
 
@@ -48,6 +49,7 @@ type: note
 ### 详细示例
 
 考虑一个连接到三台计算机 H1、H2 和 H3 的交换机。当 H1 向 H2 发送帧时：
+
 - 交换机读取 H1 的 **source MAC address** 并将其与传入接口一起记录在其 MAC 地址表中。
 - 由于交换机尚未有 H2 的 MAC address 条目，它会将帧 flood 到除来源接口外的所有接口。
 - 当 H2 回复时，交换机从 H2 回复帧的 source 字段学习 H2 的 MAC address 并记录它。
@@ -56,8 +58,6 @@ type: note
 ---
 
 ### Self-Learning 算法的关键特性
-
-
 
 | Property | Description |
 |---|---|
@@ -80,6 +80,7 @@ type: note
 ### 总结
 
 Self-learning 算法使以太网交换机能够：
+
 1. 以 **empty** 转发表开始
 2. 随着帧流动 **gradually** 学习 MAC address 到端口的映射
 3. 最终 **efficiently** 转发帧，而无需不必要的 flooding

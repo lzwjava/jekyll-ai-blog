@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-### AMiner 简介 (https://www.aminer.cn)
+### AMiner 简介 (<https://www.aminer.cn>)
 
 AMiner 是由中国清华大学研究人员开发的AI赋能的学术搜索与挖掘平台。作为新一代科技情报工具，该平台专注于分析挖掘大规模学术社交网络与科研数据。它运用先进的人工智能技术对"学者大数据"进行建模探索，帮助用户在浩如烟海的研究论文、学者档案与合作网络中精准导航。该平台在计算机科学、人工智能及相关领域表现尤为突出，同时覆盖更广泛的学术探索范畴。
 
@@ -33,6 +33,7 @@ AMiner 为科研人员与学者提供了一系列定制化工具与服务，主�
 总体而言，该平台致力于从基础检索到深度数据挖掘的全流程学术发现，在人工智能等快速演进领域中是保持学术前沿性的重要资源。
 
 **参考文献**
+
 - [AMiner - AI赋能的学术网络挖掘](https://mrt.aminer.cn/)
 - [使用手册 - AMiner](https://www.aminer.cn/manual)
 - [AMiner：学术社交网络的搜索与挖掘](https://direct.mit.edu/dint/article/1/1/58/9974/AMiner-Search-and-Mining-of-Academic-Social)

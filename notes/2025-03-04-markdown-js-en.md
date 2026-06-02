@@ -11,6 +11,7 @@ type: note
 It seems like you're asking about how to use the `marked` library, version `^0.3.6`, which is a JavaScript library for parsing Markdown text and converting it to HTML. Since you're referencing a specific version with the `^0.3.6` notation (likely from a `package.json` file in a Node.js project), I'll guide you through using this older version of `marked`. Note that version `0.3.6` is quite old (released around 2016), and the library has evolved significantly since then. However, I'll stick to what works for that version.
 
 ### Step 1: Installation
+
 If you're working in a Node.js environment, you can install `marked` version `0.3.6` using npm:
 
 ```bash
@@ -20,9 +21,11 @@ npm install marked@0.3.6
 The `^0.3.6` in a `package.json` means it will install `0.3.6` or any compatible patch updates (e.g., `0.3.7`), but for clarity, the command above locks it to exactly `0.3.6`.
 
 ### Step 2: Basic Usage
+
 Here’s how to use `marked` version `0.3.6` in different environments:
 
 #### In Node.js
+
 1. **Require the library**:
    Create a file (e.g., `index.js`) and add the following:
 
@@ -40,12 +43,14 @@ Here’s how to use `marked` version `0.3.6` in different environments:
    ```
 
    **Output**:
+
    ```html
    <h1>Hello World</h1>
    <p>This is <strong>bold</strong> text.</p>
    ```
 
 #### In the Browser
+
 1. **Include the library**:
    You can use a CDN or download `marked@0.3.6` and include it via a `<script>` tag. For example, using a historical CDN link (if available) or a local file:
 
@@ -65,6 +70,7 @@ Here’s how to use `marked` version `0.3.6` in different environments:
    ```
 
 ### Step 3: Options (for version 0.3.6)
+
 Version `0.3.6` supports some customization options. You can pass an options object as the second argument to `marked()`. Here’s an example:
 
 ```javascript
@@ -82,11 +88,13 @@ console.log(html);
 ```
 
 ### Key Features in 0.3.6
+
 - **Basic Markdown**: Supports headings (`#`), bold (`**`), italic (`*`), lists, code blocks (```), etc.
 - **GFM Support**: GitHub Flavored Markdown (like tables and task lists) is available if `gfm: true` is set.
 - **No Renderer Customization**: Unlike newer versions, `0.3.6` doesn’t support custom renderers, so you’re limited to its default output.
 
 ### Example with More Markdown
+
 Here’s a fuller example in Node.js:
 
 ```javascript
@@ -114,6 +122,7 @@ console.log(html);
 ```
 
 **Output**:
+
 ```html
 <h1>My Title</h1>
 <h2>Subtitle</h2>
@@ -144,6 +153,7 @@ console.log(html);
 ```
 
 ### Notes
+
 - **Sanitization**: If you’re rendering user input, set `sanitize: true` to strip out raw HTML for security (e.g., `<script>` tags). However, this is basic in `0.3.6` and not as robust as modern alternatives.
 - **Limitations**: This version lacks features added in later releases (e.g., async parsing, custom tokenizers), so if you need more, consider upgrading to a newer version like `5.x`.
 - **Debugging**: If it’s not working, ensure the library is loaded correctly and check the Markdown syntax.

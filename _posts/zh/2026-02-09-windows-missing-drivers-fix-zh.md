@@ -46,7 +46,7 @@ type: note
 3. **下载了错误的驱动程序版本**
    - Lenovo 官网针对 IdeaPad Slim 3 14IAH8 可能不再列出专门的 "F6"（floppy 驱动）包——现在很多都是纯 .exe 文件。
    - 尝试直接从 Intel 下载 **最新的 Intel RST 驱动程序**（针对 13/14 代的 19.x 或 20.x 版本）：
-     下载地址 → https://www.intel.com/content/www/us/en/download/720755/intel-rapid-storage-technology-driver-installation-software-with-intel-optane-memory.html （或搜索 "Intel RST VMD driver"）。
+     下载地址 → <https://www.intel.com/content/www/us/en/download/720755/intel-rapid-storage-technology-driver-installation-software-with-intel-optane-memory.html> （或搜索 "Intel RST VMD driver"）。
      解压 → 寻找 VMD 文件夹或 f6flpy-x64 等效文件夹。
 
 4. **USB 问题或 Windows 安装程序的怪癖**

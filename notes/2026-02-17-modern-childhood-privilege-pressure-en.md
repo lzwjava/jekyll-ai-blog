@@ -18,6 +18,7 @@ Society isn't perfectly "fair" in a strict sense — fairness is hard to define 
 Here's a balanced breakdown:
 
 ### What modern kids/teens receive (privileges unknown to past generations)
+
 - Almost unlimited free entertainment (YouTube, TikTok, Netflix, free games, endless memes)
 - Access to extremely powerful technology for free or very low cost (smartphones, tablets, fast internet, AI tools like me)
 - Parents usually paying for food, housing, clothes, school supplies, extracurriculars, and often pocket money or subscriptions
@@ -25,12 +26,14 @@ Here's a balanced breakdown:
 - Much longer childhood/adolescence before full adult responsibilities begin (many people don't start serious full-time work until 22–27 years old)
 
 ### What modern kids/teens pay (the main costs)
+
 - Very high academic pressure in many countries (especially East Asia, India, parts of Europe and the US)
 - Long school days + homework + exam preparation = chronic stress, anxiety, sleep deprivation for many
 - Social comparison pressure amplified by social media (looks, followers, achievements)
 - Delayed development of real-world responsibility and practical skills because so much is done for them
 
 ### Historical comparison (perspective check)
+
 - In 1900: most children worked from age 8–10 (farms, mines, factories); school was short or non-existent for the poor
 - In 1800s: child labor was the norm worldwide
 - In many agricultural societies: children worked dawn to dusk helping the family survive
@@ -39,6 +42,7 @@ Here's a balanced breakdown:
 So while school pressure is real and sometimes excessive, the overall package most kids/teens receive today is still one of the **most leisure-filled, safest, and materially comfortable** periods of life any generation has ever had.
 
 ### Is it "fair"?
+
 - Compared to adults who work 40–60+ hours/week to pay for everything → kids have a better deal in terms of free time and zero financial responsibility
 - Compared to children in very poor countries or conflict zones today → kids in richer societies have an enormously better deal
 - Compared to ideal childhood (low stress + high freedom + good preparation for life) → modern childhood often fails (too much academic pressure, too much screen time, not enough real-world competence)

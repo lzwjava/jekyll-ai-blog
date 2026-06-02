@@ -84,6 +84,7 @@ PATH=/usr/local/bin:/usr/bin:/bin
 ```
 
 **5. cron 与 launchd 对比** — Apple 更推荐使用 `launchd`（基于 plist 文件），但对于简单任务，`cron` 也可以正常工作。仅在以下情况使用 launchd：
+
 - 需要在登录/开机时运行
 - 需要依赖管理
 - 需要节流/保持运行

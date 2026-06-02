@@ -20,6 +20,7 @@ type: note
 列出所有 Ghostty 窗口，包括 ID、标题、位置和尺寸。现在还会通过 **AXDocument** 无障碍属性显示 **hermes 项目名称** —— 每个 Ghostty 窗口将其工作目录暴露在 `kAXDocumentAttribute` 中，我们通过 AXUIElement 读取该属性（需要无障碍权限）。
 
 当前输出：
+
 ```
  #      Window ID  Title                                    Position         Size
     2. [1605]  hermes [openwrt]                         (28,224)         760x533
@@ -41,7 +42,7 @@ type: note
 
 1. **窗口 1**（`[1544]`，尺寸 84x77）是一个小弹窗/通知——应过滤掉
 2. **窗口 17-18**（位置 526,139）未显示项目——它们似乎处于屏幕外或最小化状态，因此 AXUIElement 未返回其 `AXDocument`
-3. **窗口 7** 显示 `hermes  [ww]`，多了一个空格（原始标题为 `hermes ` 带有尾随空格）
+3. **窗口 7** 显示 `hermes  [ww]`，多了一个空格（原始标题为 `hermes` 带有尾随空格）
 
 ### 文件变更
 

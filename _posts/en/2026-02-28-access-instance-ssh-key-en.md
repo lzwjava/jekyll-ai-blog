@@ -29,14 +29,18 @@ You use the **private key file** (not the public key or "perm") to authenticate 
 
 2. **Set correct file permissions (very important – SSH refuses keys with loose permissions)**
    On Linux/macOS:
+
    ```bash
    chmod 400 /path/to/your-key.pem
    ```
+
    On Windows (if using OpenSSH or Git Bash):
+
    ```bash
    icacls "C:\path\to\your-key.pem" /inheritance:r
    icacls "C:\path\to\your-key.pem" /grant:r "%username%:F"
    ```
+
    This ensures only you can read the file.
 
 3. **Find your instance connection details**
@@ -51,9 +55,11 @@ You use the **private key file** (not the public key or "perm") to authenticate 
 
 4. **Connect using SSH**
    Basic command (Linux/macOS or Windows with OpenSSH):
+
    ```bash
    ssh -i /path/to/your-key.pem username@public-ip-or-dns
    ```
+
    Real examples:
 
    ```bash
@@ -78,6 +84,7 @@ You use the **private key file** (not the public key or "perm") to authenticate 
 The phrase "its perm" most likely refers to the private key file permissions (which must be restrictive), not the public key.
 
 If you never received/downloaded any private key file, then the instance probably doesn't have key-based login enabled — in that case you may need to:
+
 - Use cloud console "Connect" feature (EC2 Instance Connect, Serial Console, etc.)
 - Reset access by mounting the volume elsewhere
 - Or create and add a new key pair

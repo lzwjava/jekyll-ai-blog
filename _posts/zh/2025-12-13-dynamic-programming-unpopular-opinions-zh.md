@@ -32,11 +32,11 @@ type: note
 
 参考文献：
 
-- https://www.reddit.com/r/java/comments/xww4zu/been_12_years_never_had_to_do_dynamic_programming/
-- https://www.teamblind.com/post/are-dynamic-programming-interview-questions-valid-bg3ggt5q
-- https://www.teamblind.com/post/dynamic-programming-interview-problems-ucvrksef
-- https://www.reddit.com/r/algorithms/comments/n2hnuv/mastering_dynamic_programming/
-- https://www.reddit.com/r/compsci/comments/er05fhn/help_me_wrap_my_head_around_dynamic_programming/
-- https://www.reddit.com/r/leetcode/comments/sv82tg/how_do_you_guys_get_good_at_dp/
-- https://en.wikipedia.org/wiki/Dynamic_programming
-- https://qsantos.fr/2024/01/04/dynamic-programming-is-not-black-magic/
+- <https://www.reddit.com/r/java/comments/xww4zu/been_12_years_never_had_to_do_dynamic_programming/>
+- <https://www.teamblind.com/post/are-dynamic-programming-interview-questions-valid-bg3ggt5q>
+- <https://www.teamblind.com/post/dynamic-programming-interview-problems-ucvrksef>
+- <https://www.reddit.com/r/algorithms/comments/n2hnuv/mastering_dynamic_programming/>
+- <https://www.reddit.com/r/compsci/comments/er05fhn/help_me_wrap_my_head_around_dynamic_programming/>
+- <https://www.reddit.com/r/leetcode/comments/sv82tg/how_do_you_guys_get_good_at_dp/>
+- <https://en.wikipedia.org/wiki/Dynamic_programming>
+- <https://qsantos.fr/2024/01/04/dynamic-programming-is-not-black-magic/>

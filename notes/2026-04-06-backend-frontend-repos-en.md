@@ -22,17 +22,20 @@ I agree with the analysis completely. Here's my structured take:
 ### Why the separation is correct
 
 **Different runtimes, different concerns:**
+
 - `live-server` = PHP 8 + CodeIgniter 4 — stateful, DB-connected, handles business logic
 - `live-mobile-web` = Node.js/Vite + Vue 3 — stateless build tool, outputs pure static assets
 
 Mixing these in one repo gives you the worst of both worlds: PHP devs tripping over `node_modules`, frontend devs confused by Composer files.
 
 **Independent deployment cycles matter:**
+
 - Fix a UI bug → rebuild Vue → push static files. Backend never touched.
 - Patch a payment API → redeploy PHP. Frontend never touched.
 - This is the whole point of decoupling.
 
 **Already decoupled by design:**
+
 - The Vite proxy (`/api → api.quzhiboapp.com`) proves the frontend doesn't care where the backend runs
 - nginx in production is the only "glue" — and that belongs in `live-server`'s config, not the frontend repo
 
@@ -81,6 +84,7 @@ services:
 ```
 
 This way:
+
 - **Repos stay separate** — no code merging
 - **One `docker-compose up`** builds everything and wires it together
 - **nginx serves both** — static Vue assets + proxied PHP API — from one container

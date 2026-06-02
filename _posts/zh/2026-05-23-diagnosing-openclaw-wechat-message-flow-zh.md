@@ -23,7 +23,7 @@ Hermes中的微信消息管道是：
 
 1. 入站：WeixinAdapter._poll_loop() 长轮询 iLink API (getupdates)
 2. 处理：_process_message() → 构建 MessageEvent → 调用 self.handle_message(event)
-3. 分发：BasePlatformAdapter.handle_message() → 生成 _process_message_background()
+3. 分发：BasePlatformAdapter.handle_message() → 生成_process_message_background()
 4. 代理：_message_handler(event) → GatewayRunner._handle_message()
 5. LLM：_run_agent() → 创建 AIAgent → 调用 agent.run_conversation()
 6. 出站：响应通过 BasePlatformAdapter._send_with_retry() 发送
@@ -43,6 +43,7 @@ ACP适配器（acp_adapter/server.py）是一个独立的东西——它将Herme
 --------------------------------------
 
 报告提到了：
+
 - “NewsBot Agent”，工作空间为 ~/.openclaw/workspace-newsbot
 - “ACP (OpenClaw ACP)” 运行时
 - “openclaw-weixin” 通道
@@ -91,20 +92,23 @@ ACP适配器（acp_adapter/server.py）是一个独立的东西——它将Herme
 断连发生在步骤5和6之间。有两个可能的失败点：
 
 可能性A：ACP 运行时返回了响应，但 OpenClaw 没有将其转发回微信
-  - ACP 运行时处理了消息并生成了响应
-  - 但响应停留在 ACP 协议层内部
-  - OpenClaw 的 NewsBot 代理没有将其转发给微信通道
-  - 这是 OpenClaw 的 ACP→通道桥接的 bug
+
+- ACP 运行时处理了消息并生成了响应
+- 但响应停留在 ACP 协议层内部
+- OpenClaw 的 NewsBot 代理没有将其转发给微信通道
+- 这是 OpenClaw 的 ACP→通道桥接的 bug
 
 可能性B：ACP 运行时静默失败
-  - ACP 运行时接收到消息但出错
-  - 错误被吞掉（用户看不到日志）
-  - 微信通道从未收到响应
+
+- ACP 运行时接收到消息但出错
+- 错误被吞掉（用户看不到日志）
+- 微信通道从未收到响应
 
 可能性C：/tmp/VibApp/ 的“Hermes 集成”完全是一个独立的东西
-  - 它是一个独立的 Node.js 脚本，本应是响应路径的一部分
-  - 但它根本没有接入 ACP 运行时
-  - 它是作为概念验证创建的，但从未集成
+
+- 它是一个独立的 Node.js 脚本，本应是响应路径的一部分
+- 但它根本没有接入 ACP 运行时
+- 它是作为概念验证创建的，但从未集成
 
 ---
 

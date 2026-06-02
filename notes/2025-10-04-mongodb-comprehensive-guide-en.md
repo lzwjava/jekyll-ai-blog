@@ -15,6 +15,7 @@ MongoDB is a popular open-source NoSQL document database designed for modern app
 ## Introduction
 
 MongoDB excels in scenarios requiring rapid development, flexible data models, and high performance. Key features include:
+
 - **Document Model**: Data as self-contained documents with nested structures.
 - **Query Language**: Rich queries using a syntax similar to JavaScript objects.
 - **Scalability**: Built-in support for distributed systems.
@@ -27,6 +28,7 @@ It's used by companies like Adobe, eBay, and Forbes for applications involving b
 MongoDB offers Community (free, open-source) and Enterprise editions. Installation varies by platform; always download from the official site for security.
 
 ### Windows
+
 - Download the MSI installer from the MongoDB Download Center.
 - Run the installer, select "Complete" setup, and include MongoDB Compass (GUI tool).
 - Add MongoDB's `bin` directory (e.g., `C:\Program Files\MongoDB\Server\8.0\bin`) to your PATH.
@@ -36,6 +38,7 @@ MongoDB offers Community (free, open-source) and Enterprise editions. Installati
 Supported: Windows 11, Server 2022/2019.
 
 ### macOS
+
 - Use Homebrew: `brew tap mongodb/brew && brew install mongodb-community`.
 - Or download the TGZ archive, extract, and add to PATH.
 - Create data directory: `mkdir -p /data/db`.
@@ -44,6 +47,7 @@ Supported: Windows 11, Server 2022/2019.
 Supported: macOS 11–14 (x86_64 and arm64).
 
 ### Linux
+
 - For Ubuntu/Debian: Add MongoDB repo key and list, then `apt-get install -y mongodb-org`.
 - For RHEL/CentOS: Use yum/dnf with the repo file.
 - Create data directory: `sudo mkdir -p /data/db && sudo chown -R $USER /data/db`.
@@ -52,6 +56,7 @@ Supported: macOS 11–14 (x86_64 and arm64).
 Supported: Ubuntu 24.04, RHEL 9+, Debian 12, Amazon Linux 2023, etc. Use XFS/EXT4 filesystems; avoid 32-bit.
 
 ### Cloud (MongoDB Atlas)
+
 - Sign up at mongodb.com/atlas.
 - Create a free cluster via UI or CLI: `atlas clusters create <name> --provider AWS --region us-east-1 --tier M0`.
 - Whitelist your IP: `atlas network-access create <IP>`.
@@ -62,25 +67,33 @@ Atlas handles backups, scaling, and monitoring automatically.
 ## Core Concepts
 
 ### Databases
+
 Containers for collections, logically separating data. Create implicitly on first use: `use mydb`. Switch with `use mydb`. List: `show dbs`.
 
 ### Collections
+
 Groups of documents, like tables but schema-flexible. Create implicitly: `db.mycollection.insertOne({})`. List: `show collections`.
 
 ### Documents
+
 Basic units: BSON objects with key-value pairs. Example:
+
 ```javascript
 { "_id": ObjectId("..."), "name": "John", "age": 30, "address": { "city": "NYC", "zip": 10001 } }
 ```
+
 Supports arrays, nested objects, and types like dates, binaries.
 
 ### BSON
+
 Binary format for efficient storage/networking. Extends JSON with types like ObjectId, Date, Binary.
 
 ### Namespaces
+
 Unique identifiers: `database.collection` (e.g., `mydb.orders`).
 
 Example setup:
+
 ```javascript
 use test
 db.orders.insertMany([
@@ -94,22 +107,26 @@ db.orders.insertMany([
 Use `db.collection.method()` in mongosh. Transactions via sessions for multi-document ACID.
 
 ### Create (Insert)
+
 - Single: `db.users.insertOne({ name: "Alice", email: "alice@example.com" })`
 - Multiple: `db.users.insertMany([{ name: "Bob" }, { name: "Charlie" }])`
 Returns inserted IDs.
 
 ### Read (Find)
+
 - All: `db.users.find()`
 - Filtered: `db.users.find({ age: { $gt: 25 } })`
 - Pretty print: `.pretty()`
 - Limit/sort: `db.users.find().limit(5).sort({ age: -1 })`
 
 ### Update
+
 - Single: `db.users.updateOne({ name: "Alice" }, { $set: { age: 31 } })`
 - Multiple: `db.users.updateMany({ age: { $lt: 20 } }, { $set: { status: "minor" } })`
 - Increment: `{ $inc: { score: 10 } }`
 
 ### Delete
+
 - Single: `db.users.deleteOne({ name: "Bob" })`
 - Multiple: `db.users.deleteMany({ status: "inactive" })`
 - Drop collection: `db.users.drop()`
@@ -117,6 +134,7 @@ Returns inserted IDs.
 ## Querying and Indexing
 
 ### Querying
+
 Use predicates for conditions. Supports equality, ranges, logical ops.
 
 - Basic: `db.inventory.find({ status: "A" })` (SQL equiv: `WHERE status = 'A'`)
@@ -129,6 +147,7 @@ Use predicates for conditions. Supports equality, ranges, logical ops.
 Projection (select fields): `db.users.find({ age: { $gt: 25 } }, { name: 1, _id: 0 })`
 
 ### Indexing
+
 Improves query speed by avoiding full scans. B-tree based.
 
 - Types: Single-field (`db.users.createIndex({ name: 1 })`), Compound (`{ name: 1, age: -1 }`), Unique (`{ email: 1 }`).
@@ -146,6 +165,7 @@ Processes data through stages in a pipeline. Like SQL GROUP BY but more powerful
 - Basic: `db.orders.aggregate([ { $match: { price: { $lt: 15 } } } ])`
 - Stages: `$match` (filter), `$group` (aggregate: `{ $sum: "$price" }`), `$sort`, `$lookup` (join: `{ from: "inventory", localField: "item", foreignField: "sku", as: "stock" }`), `$project` (reshape).
 - Example (join and sort):
+
 ```javascript
 db.orders.aggregate([
   { $match: { price: { $lt: 15 } } },
@@ -153,6 +173,7 @@ db.orders.aggregate([
   { $sort: { price: 1 } }
 ])
 ```
+
 Expressions: `{ $add: [ "$price", 10 ] }`. Preview in Atlas UI.
 
 ## Schema Design
@@ -170,6 +191,7 @@ Consider duplication trade-offs and atomicity (document-level only).
 ## Replication and Sharding
 
 ### Replication
+
 Provides redundancy/high availability via replica sets (group of `mongod` instances).
 
 - Components: Primary (writes), Secondaries (replicate via oplog, reads optional), Arbiter (votes, no data).
@@ -179,6 +201,7 @@ Provides redundancy/high availability via replica sets (group of `mongod` instan
 - Use for failover, backups. Enable flow control to manage lag.
 
 ### Sharding
+
 Horizontal scaling: Distribute data across shards.
 
 - Components: Shards (replica sets), Mongos (routers), Config servers (metadata).
@@ -215,6 +238,7 @@ Enable auth on startup: `--auth`. Use Atlas for built-in security.
 For development, use Atlas M0 free tier. Test workloads with `mongoperf`.
 
 ## References
+
 - [MongoDB Manual](https://www.mongodb.com/docs/manual/)
 - [MongoDB Installation](https://www.mongodb.com/docs/manual/installation/)
 - [MongoDB Core Concepts](https://www.mongodb.com/docs/manual/core/)

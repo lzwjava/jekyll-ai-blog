@@ -25,6 +25,7 @@ Mainland China nationals residing in Mainland China cannot apply under GEP; inst
 If you are a Chinese national living overseas, you may be eligible to come to Hong Kong under the GEP provided that you have permanent residence overseas, and have been residing overseas for at least one year before your application.
 
 Specifically, you must meet both conditions:
+
 1. Hold permanent residence outside Mainland China, Hong Kong, Macau, and Taiwan
 2. Have been residing overseas for at least one year immediately before submitting the application, which must be submitted from overseas
 

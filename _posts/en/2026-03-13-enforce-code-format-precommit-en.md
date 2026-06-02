@@ -28,6 +28,7 @@ _Thinking:_
 The user is asking about how to add pre-commit to enforce strong code formatting for this project. They mention "such project" but haven't provided any context about what type of project this is. Let me first explore the repository structure to understand the project type and existing setup.
 
 I should:
+
 1. First check what files are in the current directory to understand the project structure
 2. Look at package.json, setup.py, or other configuration files to determine the tech stack
 3. Provide appropriate pre-commit configuration recommendations based on the stack
@@ -36,6 +37,7 @@ I should:
 **Tool: glob**
 
 **Input:**
+
 ```json
 {
   "pattern": "*"
@@ -43,6 +45,7 @@ I should:
 ```
 
 **Output:**
+
 ```
 /Users/lzwjava/projects/copilot-web/.git/logs/refs/remotes/origin/main
 /Users/lzwjava/projects/copilot-web/.git/refs/remotes/origin/main
@@ -163,6 +166,7 @@ I'll read the package.json and the existing configuration files to understand th
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/package.json"
@@ -170,6 +174,7 @@ I'll read the package.json and the existing configuration files to understand th
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/package.json</path>
 <type>file</type>
@@ -212,6 +217,7 @@ I'll read the package.json and the existing configuration files to understand th
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/eslint.config.js"
@@ -219,6 +225,7 @@ I'll read the package.json and the existing configuration files to understand th
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/eslint.config.js</path>
 <type>file</type>
@@ -257,11 +264,13 @@ I'll read the package.json and the existing configuration files to understand th
 _Thinking:_
 
 This is a React + TypeScript project using Vite. It already has:
+
 - ESLint setup with typescript-eslint and React hooks plugins
 - TypeScript with strict configuration
 - A lint script: "lint": "eslint ."
 
 To add pre-commit hooks to enforce code formatting, I need to:
+
 1. Check if there are any formatters already in use (like Prettier)
 2. Create a .pre-commit-config.yaml file
 3. Install pre-commit framework
@@ -270,6 +279,7 @@ To add pre-commit hooks to enforce code formatting, I need to:
 Since the project doesn't have Prettier in dependencies, I'll suggest using either ESLint for checking (with Prettier for formatting if desired) or just ESLint. Let me check if they already want to use a specific formatter.
 
 The user wants to "add pre-commit to enforce strong code format". This typically means:
+
 - Install and configure pre-commit framework
 - Set up hooks that run before every commit
 - Use linters/formatters like ESLint, Prettier, etc.

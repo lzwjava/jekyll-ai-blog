@@ -69,6 +69,7 @@ To verify authenticity, 39% of hiring managers in the U.S. are now conducting mo
 Even corporate giants like Google and McKinsey reintroduced mandatory in-person interviews by mid-2025 to counter the surge in AI interview fraud.
 
 Other detection techniques now include:
+
 - **The "hand test"** — asking candidates to place a hand over their face (breaks most current face-swap tech)
 - **Rapid unscripted questions** that an AI-assisted imposter can't quickly answer
 - **IP address verification** against claimed locations

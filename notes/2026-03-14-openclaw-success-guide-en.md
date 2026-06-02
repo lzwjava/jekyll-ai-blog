@@ -16,6 +16,7 @@ Answer:
 ## Using OpenClaw (Claude Code) Effectively
 
 ### What is OpenClaw?
+
 OpenClaw is a wrapper/interface around **Claude Code** — Anthropic's agentic coding CLI. It lets Claude autonomously write, edit, and run code on your machine.
 
 ---
@@ -25,11 +26,13 @@ OpenClaw is a wrapper/interface around **Claude Code** — Anthropic's agentic c
 Yes, **a good PRD (Product Requirements Document) is the #1 thing** that separates great results from mediocre ones with Claude Code.
 
 **Why PRD matters:**
+
 - Claude Code works best when it has a **clear, structured spec** to follow
 - Without a PRD, it will make assumptions and drift from your vision
 - A PRD acts as the "source of truth" it can refer back to
 
 **What to include in your PRD:**
+
 ```
 ## Project: Todo App
 ### Core Features

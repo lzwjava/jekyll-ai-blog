@@ -10,11 +10,13 @@ type: note
 ---
 
 ## **1. Prerequisites Check**
+
 - **Docker & Docker Compose**: Required for containerized deployment
 - **Port 3001**: Must be available (firewall rules may need adjustment)
 - **User Permissions**: Current user should be in `docker` group to run containers without `sudo`
 
 ## **2. Directory Structure**
+
 ```
 ~/uptime-kuma/
 ├── docker-compose.yml          # Service definition
@@ -22,6 +24,7 @@ type: note
 ```
 
 ## **3. Docker Compose Configuration**
+
 ```yaml
 services:
   uptime-kuma:
@@ -39,12 +42,14 @@ services:
 ```
 
 ### **Key Decisions Explained:**
+
 - **Volume Mapping**: `./uptime-kuma-data:/app/data` ensures data survives container recreation
 - **Restart Policy**: `unless-stopped` balances automation with manual control
 - **Port 3001**: Standard Uptime Kuma port; can be changed if conflicted
 - **Timezone**: Critical for accurate uptime calculations and alert timing
 
 ## **4. Deployment Process**
+
 ```bash
 # Create directory and navigate
 mkdir -p ~/uptime-kuma && cd ~/uptime-kuma
@@ -61,12 +66,14 @@ docker-compose logs -f uptime-kuma  # Monitor startup logs
 ```
 
 ## **5. Post-Install Verification**
+
 - **Container Status**: Should show `Up (healthy)` within 30 seconds
 - **Web Interface**: `http://localhost:3001` redirects to `/dashboard`
 - **Health Check**: `curl -s http://localhost:3001/api/status` returns JSON
 - **Logs**: No error messages in `docker-compose logs`
 
 ## **6. Initial Setup (First Access)**
+
 1. Navigate to `http://server-ip>:3001`
 2. **Create Admin Account**:
    - Username (recommend: admin or custom)
@@ -78,6 +85,7 @@ docker-compose logs -f uptime-kuma  # Monitor startup logs
    - Set check intervals and timeouts
 
 ## **7. Persistent Data Management**
+
 - **Location**: `~/uptime-kuma/uptime-kuma-data/`
 - **Contents**:
   - SQLite database (`kuma.db`)
@@ -87,6 +95,7 @@ docker-compose logs -f uptime-kuma  # Monitor startup logs
 - **Backup Strategy**: Backup this directory regularly
 
 ## **8. Maintenance Commands**
+
 ```bash
 # Stop service
 cd ~/uptime-kuma && docker-compose down
@@ -105,12 +114,14 @@ docker-compose down -v
 ```
 
 ## **9. Security Considerations**
+
 - **Firewall**: Restrict port 3001 to trusted IPs if exposed publicly
 - **Reverse Proxy**: Recommended for SSL/TLS (nginx, Caddy, Traefik)
 - **Authentication**: Uptime Kuma has built‑in user management
 - **Database**: SQLite (local file); ensure volume permissions (600 recommended)
 
 ## **10. Integration Options**
+
 - **Notifications**: 20+ supported services (Telegram, Discord, Slack, email, webhooks)
 - **API**: REST API available at `/api/*` endpoints
 - **Metrics**: Prometheus export at `/metrics`
@@ -125,6 +136,7 @@ docker-compose down -v
 | Dashboard shows "Disconnected" | Browser cache or WebSocket issue | Clear cache or check reverse proxy config |
 
 ## **12. Next Steps**
+
 1. **Set up monitoring targets** (start with critical services)
 2. **Configure alerts** (test with Telegram/Discord)
 3. **Consider reverse proxy** for HTTPS access

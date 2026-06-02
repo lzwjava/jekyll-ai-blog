@@ -17,7 +17,9 @@ Answer:
 "Being peaky" (perfectionistic, demanding, or hard to satisfy) is neither inherently good nor bad—it entirely depends on **where the perfectionism is directed** and **how it is expressed**.
 
 ### Negative Peaky Behavior
+
 This is the destructive form most people complain about:
+
 - High standards are applied primarily to **others** or to **external circumstances**.
 - The person constantly criticizes teammates, tools, processes, or the environment ("This is terrible," "Why can't they do it right?").
 - They blame external factors for shortcomings instead of taking ownership.
@@ -25,7 +27,9 @@ This is the destructive form most people complain about:
 - Result: Frustration spreads, morale drops, and little actual progress is made. This is essentially entitlement disguised as high standards.
 
 ### Positive Peaky Behavior
+
 This is the constructive form exemplified by people like Steve Jobs:
+
 - High standards are applied primarily to **oneself** and to **one's own work/product**.
 - Criticism of others or the environment is secondary and only serves the goal of making the product exceptional.
 - The person is willing to **work extraordinarily hard**, iterate relentlessly, and push themselves far more than they push others.

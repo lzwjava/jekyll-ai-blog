@@ -21,6 +21,7 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
 | **Chennai**    | ₹4–6 LPA                | ₹8–14 LPA               | ₹12–25 LPA            | ₹6–7 LPA                 |
 
 ### **Key Observations on Salaries**
+
 - **Bengaluru** leads with the highest salaries across all levels due to its status as India’s tech capital, hosting a dense concentration of global tech giants and startups. Senior engineers can earn up to ₹40 LPA in top-tier firms.
 - **Hyderabad** follows closely, with salaries nearly matching Bengaluru’s for seniors (up to ₹40 LPA) due to its growing tech ecosystem and presence of major MNCs. It slightly trails Bengaluru for beginners and mid-level roles.
 - **Pune** and **Mumbai/Delhi** have similar salary ranges, but Mumbai/Delhi edge out slightly due to higher living costs. Pune’s salaries are competitive but lower than Hyderabad’s, especially for mid-level and senior roles.
@@ -29,6 +30,7 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
 ### **Tech Hub Characteristics and Major Companies**
 
 #### **Bengaluru**
+
 - **Tech Hub Status**: India’s "Silicon Valley," hosting the largest tech ecosystem with over 7,000 startups and 30% of India’s IT workforce. It’s the go-to destination for cutting-edge tech roles in AI, cloud, and fintech.
 - **Major Companies**:
   - **MNCs**: Amazon, Google, Microsoft, IBM, Cisco, Oracle, Intel, SAP.
@@ -38,6 +40,7 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
 - **Why It Stands Out**: Highest density of tech firms, robust startup ecosystem, and top-tier talent pool from institutions like IISc and IITs. It attracts global investment and offers the most diverse job opportunities.
 
 #### **Hyderabad**
+
 - **Tech Hub Status**: A fast-growing hub, often called the “second Silicon Valley,” with a focus on IT, AI, and cloud computing. It’s home to T-Hub, India’s largest startup incubator.
 - **Major Companies**:
   - **MNCs**: Microsoft (India Development Center), Google, Amazon, Facebook, Salesforce, Apple.
@@ -47,6 +50,7 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
 - **Why It Stands Out**: Competitive salaries rival Bengaluru’s for senior roles. Lower cost of living (10–15% less than Bengaluru) makes it attractive. Strong government support for tech parks like HITEC City.
 
 #### **Pune**
+
 - **Tech Hub Status**: A mature IT hub with a mix of service-based and product-based companies, known for its educational institutions and automotive-tech crossover.
 - **Major Companies**:
   - **MNCs**: IBM, Accenture, Capgemini, Barclays, NVIDIA.
@@ -56,6 +60,7 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
 - **Why It Stands Out**: Strong academic ecosystem (e.g., University of Pune) and proximity to Mumbai’s financial hub. Lower cost of living than Bengaluru and Hyderabad, but fewer high-paying product-based roles.
 
 #### **Mumbai/Delhi**
+
 - **Tech Hub Status**: Mumbai is a financial and fintech hub, while Delhi (NCR) focuses on IT services and e-commerce. Both have growing tech scenes but lag behind Bengaluru and Hyderabad in scale.
 - **Major Companies**:
   - **Mumbai**: J.P. Morgan, Morgan Stanley, Accenture, TCS, Reliance Jio.
@@ -65,6 +70,7 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
 - **Why It Stands Out**: High cost of living (Mumbai is India’s most expensive city) drives slightly higher salaries than Pune. Mumbai’s fintech focus and Delhi’s proximity to government projects create niche opportunities.
 
 #### **Chennai**
+
 - **Tech Hub Status**: A growing IT hub with a focus on IT services, automotive tech, and manufacturing-related software. It’s less startup-driven than Bengaluru or Hyderabad.
 - **Major Companies**:
   - **MNCs**: Cognizant, Accenture, Capgemini, Zoho (HQ).
@@ -102,12 +108,14 @@ To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumb
    - **Chennai**: Solid engineering colleges but less focus on cutting-edge tech education.
 
 ### **Trends and Insights**
+
 - **Job Growth**: Bengaluru and Hyderabad lead in job creation (9–10 lakh new tech jobs projected by mid-2026), followed by Pune. Chennai and Mumbai/Delhi grow more slowly.
 - **Specialization Demand**: AI, cloud computing, and cybersecurity skills command 10–20% higher salaries across all cities, especially in Bengaluru and Hyderabad.
 - **Remote Work**: Bengaluru and Hyderabad offer more remote and hybrid roles due to their MNC presence, while Chennai and Pune lean toward on-site IT service jobs.
 - **Career Progression**: Bengaluru and Hyderabad provide faster career growth and higher salary jumps for senior roles due to their dynamic ecosystems.
 
 ### **Conclusion**
+
 - **Choose Bengaluru** for the highest salaries, diverse roles, and startup opportunities, but expect a high cost of living and intense competition.
 - **Choose Hyderabad** for competitive salaries (especially for seniors), a growing tech scene, and lower living costs.
 - **Choose Pune** for a balanced lifestyle, good salaries, and proximity to Mumbai, but with fewer cutting-edge roles.

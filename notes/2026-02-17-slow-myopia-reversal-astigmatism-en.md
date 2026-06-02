@@ -35,6 +35,7 @@ Based on the content from the site, here’s a summary and direct response to yo
    - Track your progress and adjust your prescription reductions based on comfort and clarity.
 
 ### Practical Takeaways for You
+
 - **Do not reduce astigmatism correction**—keep it as prescribed.
 - **Reduce myopia correction by 1.50D to 2.00D** for daily activities, but keep a full-prescription pair for driving or critical tasks.
 - **Avoid increasing font size or scaling up**—let your eyes adapt to the "just barely clear" state.

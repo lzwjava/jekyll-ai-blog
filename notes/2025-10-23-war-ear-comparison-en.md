@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview
+
 In Java EE (now Jakarta EE), WAR (Web Archive) and EAR (Enterprise Archive) are standard packaging formats for deploying applications to application servers like Tomcat, WildFly, or GlassFish. WAR is focused on web-tier components, while EAR bundles multiple modules for full enterprise applications. Below is a detailed comparison.
 
 | Aspect              | WAR (Web Archive)                                                                 | EAR (Enterprise Archive)                                                                 |
@@ -25,6 +26,7 @@ In Java EE (now Jakarta EE), WAR (Web Archive) and EAR (Enterprise Archive) are 
 | **Dependencies**   | Relies on container for web services; no built-in EJB support.                    | Supports EJBs, JMS, and cross-module dependencies; promotes loose coupling.              |
 
 ### Key Differences Summary
+
 - **Modularity**: WAR is monolithic for web layers; EAR enables composition of multiple WARs/JARs.
 - **Server Requirements**: WAR works on lightweight web servers; EAR needs a full JEE server.
 - **Evolution**: With microservices and cloud-native trends (e.g., Spring Boot, Quarkus), WARs are often used for containerized deployments (Docker), while EARs are less common but still vital for legacy enterprise apps.

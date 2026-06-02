@@ -14,6 +14,7 @@ Yes, **climbing a mountain significantly increases the energy loss ratio** (kWh/
 ---
 
 ### **Why Climbing Increases Energy Loss**
+
 1. **Gravitational Potential Energy:**
    - Driving uphill requires the EV to work against gravity, which demands more energy from the battery.
    - The steeper and longer the climb, the more energy is consumed.
@@ -28,6 +29,7 @@ Yes, **climbing a mountain significantly increases the energy loss ratio** (kWh/
 ---
 
 ### **How Much Does It Increase?**
+
 - **Typical Increase:**
   - **20–50% higher consumption** compared to flat roads.
   - For example, if your EV uses **15 kWh/100 km on flat roads**, it might use **18–22 kWh/100 km** on a moderate mountain climb.
@@ -39,12 +41,15 @@ Yes, **climbing a mountain significantly increases the energy loss ratio** (kWh/
 ---
 
 ### **Other Factors in Mountain Driving**
+
 - **Altitude:** Higher altitudes can slightly reduce air resistance but may also affect battery performance (though modern EVs are largely unaffected).
 - **Temperature:** Cold mountain air can further reduce efficiency.
 - **Driver Behavior:** Maintaining a steady, moderate speed helps minimize energy loss.
 
 ---
+
 ### **Key Takeaway**
+
 Climbing **will always increase your energy loss ratio**, sometimes dramatically. If you’re planning a mountain trip, expect **20–50% higher consumption** and plan your charging stops accordingly.
 
 Would you like help estimating consumption for a specific route or elevation gain?

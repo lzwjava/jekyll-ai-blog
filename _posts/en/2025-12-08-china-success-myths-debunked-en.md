@@ -38,6 +38,7 @@ Here are some genuinely unpopular (or at least rarely voiced openly) opinions ab
 These opinions tend to be unpopular because they contradict the dominant narratives pushed by traditional media, business schools, and many old-money families, but they align with what has actually worked for the newest generation of winners.
 
 **References:**
+
 - [The Chinese Wealth Creation Playbook Has Changed (2024)](https://www.macropolo.org/analysis/new-chinese-wealth-creation-playbook-2024/)
 [Why China’s Tech Giants Are Quietly Abandoning 996](https://www.protocol.com/china/china-tech-996-culture-change) (2023)
 [Hurun Rich List trends 2015–2025](https://www.hurun.net/)

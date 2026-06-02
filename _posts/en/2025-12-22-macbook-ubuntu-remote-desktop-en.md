@@ -21,16 +21,17 @@ MacBooks (including M2 Air) do not support being a physical external monitor via
 Here are the best options for low-latency, graphical remote desktop from macOS client to Ubuntu host:
 
 ### Recommended: Sunshine + Moonlight (Best for Performance)
+
 This combination is designed for low-latency streaming (originally for gaming, but perfect for desktop use). It leverages your RTX 4070 GPU for hardware encoding, providing the smoothest experience.
 
 - **On Ubuntu PC (Host)**:
   - Install **Sunshine** (open-source server).
-  - Follow the official guide: Download the Debian package or use the AppImage/Flatpak from https://github.com/LizardByte/Sunshine.
+  - Follow the official guide: Download the Debian package or use the AppImage/Flatpak from <https://github.com/LizardByte/Sunshine>.
   - Sunshine includes a built-in "Desktop" app for streaming the full Ubuntu desktop (no need to launch a game).
   - Run it as a service for auto-start.
 
 - **On MacBook Air M2 (Client)**:
-  - Install **Moonlight** (open-source client) from https://moonlight-stream.org or the Mac App Store (Moonlight app).
+  - Install **Moonlight** (open-source client) from <https://moonlight-stream.org> or the Mac App Store (Moonlight app).
   - Pair with your PC on the local network.
   - Select the "Desktop" entry and stream in fullscreen.
 
@@ -44,6 +45,7 @@ This combination is designed for low-latency streaming (originally for gaming, b
 This is ideal for your high-end PC and relaxed bed use.
 
 ### Simple Alternative: Built-in Ubuntu Remote Desktop (RDP Protocol)
+
 Ubuntu 22.04+ has excellent built-in RDP support (better than VNC).
 
 - **On Ubuntu PC**:
@@ -64,12 +66,14 @@ Ubuntu 22.04+ has excellent built-in RDP support (better than VNC).
   - Native feel on macOS.
 
 ### Other Options
-- **NoMachine**: Very fast and reliable. Install server on Ubuntu, client on Mac (free for personal use). Download from https://www.nomachine.com.
+
+- **NoMachine**: Very fast and reliable. Install server on Ubuntu, client on Mac (free for personal use). Download from <https://www.nomachine.com>.
 - **RustDesk**: Open-source alternative to TeamViewer, low latency, easy setup. Works well cross-platform.
 
 Avoid classic VNC (like Ubuntu's older Screen Sharing)—it's higher latency than the above.
 
 ### Tips for Best Experience
+
 - Connect both devices to the same fast Wi-Fi (5GHz) or use Ethernet adapters for even lower lag.
 - On the client, enable fullscreen mode and high bitrate/quality settings.
 - Ensure your Ubuntu PC is logged in (or set auto-login) for seamless access.
@@ -79,7 +83,7 @@ Sunshine + Moonlight will give you the closest to "just a monitor" feel due to i
 
 References:
 
-- https://github.com/LizardByte/Sunshine
-- https://moonlight-stream.org
-- https://www.nomachine.com
-- https://ubuntu.com/tutorials/access-remote-desktop
+- <https://github.com/LizardByte/Sunshine>
+- <https://moonlight-stream.org>
+- <https://www.nomachine.com>
+- <https://ubuntu.com/tutorials/access-remote-desktop>

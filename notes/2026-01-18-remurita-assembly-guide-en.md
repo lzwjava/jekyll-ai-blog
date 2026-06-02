@@ -17,6 +17,7 @@ type: note
 This product is the **REMURITA 2-Pack Office Desk Chair No Wheels Mesh Back Padded Computer Chairs** (also described as reception/guest chairs). These are **sled-base guest chairs** with a mesh back, padded seat, fixed arms, and no wheels. Assembly is required but described as **simple and straightforward**.
 
 ### General Assembly Guide for This Type of Chair
+
 Specific step-by-step instructions come in the box with the product (included paper manual + all hardware and any needed tools like an Allen wrench/hex key). No official PDF manual was found online for this exact item (Walmart item #17400651282 or REMURITA model). Similar mesh-back sled-base guest/reception chairs from Walmart and other brands typically follow this standard assembly process (usually 4–8 steps, 10–20 minutes per chair):
 
 1. **Unpack and Check Parts**
@@ -50,6 +51,7 @@ Specific step-by-step instructions come in the box with the product (included pa
    - Turn the chair upright and test for stability — sit gently and check for wobbling. Retighten if needed.
 
 ### Tips
+
 - Work on a soft surface (carpet or blanket) to avoid scratching the frame or floor.
 - Assembly is usually for one person; no special tools beyond what's included.
 - Estimated time: 10–25 minutes per chair (simple design, few parts).

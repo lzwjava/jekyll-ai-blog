@@ -29,6 +29,7 @@ Unpopular opinions about Anthropic, the AI company behind Claude models, often h
 These opinions reflect a mix of admiration for Anthropic's ethical stance and frustration with its perceived rigidity, with some seeing it as a beacon of hope for aligned AI and others as a cautionary tale of over-caution.
 
 References:
+
 - [I generally like Anthropic: but the more they paint a dystopian future...](https://x.com/GergelyOrosz/status/1938941845716750407)
 - [Watching OpenAI and Anthropic’s actions...](https://x.com/Moleh1ll/status/1981625226472386903)
 - [Anthropic is overrated..the context window is so tiny...](https://x.com/jefffocker/status/1995725214139691198)

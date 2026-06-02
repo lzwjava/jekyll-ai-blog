@@ -28,20 +28,27 @@ type: note
 ### 相关配置方法
 
 * **启用方法**（2.10之前版本）：
+
   ```java
   objectMapper.enableDefaultTyping();
   ```
+
   （已弃用，因其过于宽松会引入安全风险）
 
 * **禁用方法**：
+
   ```java
   objectMapper.disableDefaultTyping();
   ```
+
   或在新版本（2.10+）中调用：
+
   ```java
   objectMapper.activateDefaultTyping(PolymorphicTypeValidator, ObjectMapper.DefaultTyping.NON_FINAL);
   ```
+
   若要*禁用*，只需**不调用**此方法（不启用则无默认类型识别），也可调用：
+
   ```java
   objectMapper.deactivateDefaultTyping();
   ```

@@ -26,6 +26,7 @@ With most arbitrage opportunities lasting under 10 seconds, automated systems ha
 Speed is Alpha. When it takes 30 minutes for an exchange to confirm a deposit, the arbitrage opportunity will be lost. Pick a platform that facilitates Layer 2 deposits and withdrawals for faster transactions.
 
 In practice, speed means:
+
 - Using **trading bots via API** instead of manual clicking
 - **Co-locating servers** near exchange data centers (same city, same data center if possible)
 - **Pre-funding both exchanges** in advance so you never need to transfer during a trade
@@ -38,6 +39,7 @@ Fee structures can consume 30–50% of potential profits for retail traders.
 The "Arbitrage Killer" is fees. If your total fees (entry + exit + withdrawal) are 0.4% and the price difference of the coin you are trading is 0.3%, then you are losing money.
 
 Ways professionals cut fees:
+
 - Holding exchange native tokens (e.g., BNB on Binance, OKB on OKX) for fee discounts
 - Reaching **VIP/maker tier** through high trading volume
 - Using **maker orders** instead of taker orders (maker fees are typically 0.01–0.02% vs taker 0.05–0.1%)

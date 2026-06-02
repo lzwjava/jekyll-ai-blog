@@ -68,7 +68,7 @@ You said:
 
 This is exactly right — but let’s sharpen it:
 
-#### Your new role:
+#### Your new role
 
 > **Builder first → Occasional signal sharer → Not a constant voice**
 
@@ -83,13 +83,13 @@ Concretely:
 
 Before you send anything, run this quick check:
 
-#### ✅ Post if:
+#### ✅ Post if
 
 * It comes from **real experience / action**
 * It **answers or extends** an ongoing discussion
 * It would still feel valuable if *someone else posted it*
 
-#### ❌ Don’t post if:
+#### ❌ Don’t post if
 
 * It’s loosely related (“AI + English so it fits”)
 * It depends on *you explaining why it matters*

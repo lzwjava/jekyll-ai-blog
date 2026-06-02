@@ -28,8 +28,9 @@ Mao Zedong remains one of the most polarizing figures in history. While the offi
 These views are “unpopular” in different contexts: the strongly pro-Mao takes are taboo in most Western discourse and among many overseas Chinese, while the “Mao was just another emperor” take is unacceptable within official PRC ideology.
 
 References:
+
 - [Frank Dikötter’s Mao’s Great Famine (countering minimization narratives)](https://www.bloomsbury.com/us/maos-great-famine-9780802779236/)
 - [Jung Chang & Jon Halliday’s Mao: The Unknown Story (maximalist critical view)](https://www.penguinrandomhouse.com/books/175448/mao-by-jung-chang-and-jon-halliday/)
 - [Mao: A Life by Philip Short (more balanced biography)](https://us.macmillan.com/books/9780805066388/mao)
 - [Yang Jisheng’s Tombstone (Chinese-language investigation of the Great Leap Forward famine)](https://www.hup.harvard.edu/books/9780374277932)
-- [ Roderick MacFarquhar’s Mao’s Last Revolution (standard Western account of the Cultural Revolution)](https://www.hup.harvard.edu/books/9780674027480)
+- [Roderick MacFarquhar’s Mao’s Last Revolution (standard Western account of the Cultural Revolution)](https://www.hup.harvard.edu/books/9780674027480)

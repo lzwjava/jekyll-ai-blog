@@ -17,18 +17,21 @@ type: note
 ### 如何手动构建它
 
 Nexus 用户令牌由两部分组成：
+
 - **名称代码**（例如 `abc123XYZ`）→ 作为“用户名”
 - **通行码**（例如 `def456UVW789`）→ 作为“密码”
 
 将它们组合为 `name_code:pass_code`，对该字符串进行 Base64 编码，并在 Authorization 头部中发送。
 
 #### 方法 1：让 curl 进行编码（推荐，与 `-u` 相同）
+
 ```bash
 curl -u abc123XYZ:def456UVW789 \
      "http://your-nexus.example.com/service/rest/v1/components?repository=maven-releases"
 ```
 
 #### 方法 2：手动添加 Authorization 头部（显式 Basic）
+
 ```bash
 # 单行命令 (Linux/macOS)
 TOKEN="abc123XYZ:def456UVW789"
@@ -39,13 +42,16 @@ curl -H "$AUTH_HEADER" \
 ```
 
 或完整写出：
+
 ```bash
 curl -H "Authorization: Basic YWJjMTIzWFlaOmRlZjQ1NlVWVzc4OQ==" \
      "http://your-nexus.example.com/service/rest/v1/components?repository=maven-releases"
 ```
+
 （其中 `YWJjMTIzWFlaOmRlZjQ1NlVWVzc4OQ==` 是 `abc123XYZ:def456UVW789` 的 Base64 编码）
 
 #### 方法 3：在任何系统上使用 printf + base64
+
 ```bash
 curl -H "Authorization: Basic $(printf 'abc123XYZ:def456UVW789' | base64)" \
      "http://your-nexus.example.com/service/rest/v1/components?repository=maven-releases"
@@ -61,5 +67,5 @@ curl -H "Authorization: Basic $(printf 'abc123XYZ:def456UVW789' | base64)" \
 两种方法对于 Nexus 用户令牌来说是 100% 等效的。
 切勿将 `Authorization: Bearer` 与 Nexus 用户令牌一起使用——这 reserved for future OAuth/OIDC integrations and will always return 401。
 
-* [Nexus User Token Documentation](https://help.sonatype.com/repomanager3/nexus-repository-administration/user-management/user-tokens)
-* [Nexus REST API Authentication](https://help.sonatype.com/repomanager3/rest-and-integration-api)
+- [Nexus User Token Documentation](https://help.sonatype.com/repomanager3/nexus-repository-administration/user-management/user-tokens)
+- [Nexus REST API Authentication](https://help.sonatype.com/repomanager3/rest-and-integration-api)

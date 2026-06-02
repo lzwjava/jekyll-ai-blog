@@ -48,6 +48,7 @@ Note: OpenAI's original GPT-2 was trained on ~40B tokens for all sizes — that 
 **Dataset:** FineWeb or FineWeb-Edu (100B tokens total) — you only need 4% of it. This is very manageable.
 
 **Training steps at 0.5M tokens/step:**
+
 ```
 4,000,000,000 / 500,000 = 8,000 steps
 ```

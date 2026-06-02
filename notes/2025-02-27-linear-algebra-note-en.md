@@ -47,7 +47,7 @@ v
 \end{pmatrix}
 \\]
 
-   - Substitute these into the original quadratic form to get a new form in terms of \\(u\\) and \\(v\\).
+- Substitute these into the original quadratic form to get a new form in terms of \\(u\\) and \\(v\\).
 
 5. **Canonical Form:**
    - The resulting quadratic form will be in the canonical form, which is a sum of squares:
@@ -72,14 +72,17 @@ This process simplifies the quadratic form and makes it easier to analyze its pr
 In the context of quadratic forms, the term "二次型的规范形" translates to "canonical form of a quadratic form" in English. Understanding this concept involves recognizing how a quadratic form can be simplified or transformed into a standard form through linear algebra techniques.
 
 ### Quadratic Forms
+
 A quadratic form is a homogeneous polynomial of degree two in several variables. For example, in two variables \\(x\\) and \\(y\\), a quadratic form might look like:
 
 \\[ Q(x, y) = ax^2 + bxy + cy^2 \\]
 
 ### Canonical Form
+
 The canonical form of a quadratic form is a simplified version that reveals essential properties, such as the rank and signature (the number of positive, negative, and zero eigenvalues). To achieve this form, we typically perform a change of variables, often through diagonalization or other orthogonal transformations.
 
-#### Steps to Find the Canonical Form:
+#### Steps to Find the Canonical Form
+
 1. **Matrix Representation:** Represent the quadratic form as a symmetric matrix \\(A\\). For the above example, the matrix would be:
 \\[
 A = \begin{pmatrix}
@@ -103,6 +106,7 @@ The **normal form of a quadratic form** refers to the simplified standard repres
 ---
 
 ### **1. Definition of a Quadratic Form**
+
 A **quadratic form** in \\( n \\) variables is a function of the form:
 
 \\[
@@ -110,6 +114,7 @@ Q(x) = x^T A x
 \\]
 
 where:
+
 - \\( x = (x_1, x_2, \dots, x_n)^T \\) is an \\( n \\)-dimensional column vector,
 - \\( A \\) is an \\( n \times n \\) symmetric matrix.
 
@@ -118,6 +123,7 @@ The goal is to transform this quadratic form into a simpler, standardized form.
 ---
 
 ### **2. Finding the Normal Form**
+
 To simplify the quadratic form, we use an orthogonal change of variables:
 
 1. **Find the Eigenvalues and Eigenvectors of \\( A \\):**
@@ -136,7 +142,7 @@ To simplify the quadratic form, we use an orthogonal change of variables:
 Q(x) = x^T A x = (P y)^T A (P y) = y^T (P^T A P) y = y^T D y
 \\]
 
-   - Since \\( D \\) is diagonal, the quadratic form simplifies to:
+- Since \\( D \\) is diagonal, the quadratic form simplifies to:
 
 \\[
 Q(y) = \lambda_1 y_1^2 + \lambda_2 y_2^2 + \dots + \lambda_n y_n^2
@@ -147,6 +153,7 @@ Q(y) = \lambda_1 y_1^2 + \lambda_2 y_2^2 + \dots + \lambda_n y_n^2
 ---
 
 ### **3. Interpretation of the Normal Form**
+
 - The normal form expresses the quadratic form as a sum of squared terms, weighted by the eigenvalues.
 - The **signs of the eigenvalues** determine the nature of the quadratic form:
   - If all eigenvalues are positive, the form is **positive definite**.

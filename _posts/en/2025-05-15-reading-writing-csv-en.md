@@ -15,6 +15,7 @@ type: note
 The `csv` module is part of Python's standard library and is used for reading and writing CSV (Comma-Separated Values) files. It handles parsing rows and columns efficiently. To use it, first import the module: `import csv`. You'll work with file objects, typically opened in read mode (`'r'`) or write mode (`'w'`).
 
 Key components:
+
 - **Reader**: Parses CSV data from a file (e.g., `csv.reader()` for row-based access).
 - **Writer**: Outputs data to a CSV file (e.g., `csv.writer()`).
 - CSV files are treated as sequences of rows, where each row is a list of strings (columns).
@@ -24,6 +25,7 @@ For security and ease, always handle files with `with` statements to ensure prop
 ### Basic Reading a CSV File
 
 To read a CSV:
+
 ```python
 import csv
 
@@ -32,6 +34,7 @@ with open('file.csv', 'r') as file:
     for row in reader:
         print(row)  # Each 'row' is a list of columns
 ```
+
 - This reads the file row by row. You can access specific columns by index (e.g., `row[0]` for the first column).
 - For headers, read the first row separately: `headers = next(reader)`.
 
@@ -40,6 +43,7 @@ with open('file.csv', 'r') as file:
 To compare two CSVs (e.g., `file1.csv` and `file2.csv`), load them into structures like lists of lists (rows), then compare. Assumptions: both CSVs have the same structure (same number of columns/rows). Comparisons can check for exact matches, differences, or specific logic (e.g., matching on a key column).
 
 #### Example 1: Comparing Rows (Entire Rows)
+
 Use dictionaries to store rows (if they have a unique ID column) or lists for direct comparison.
 
 ```python
@@ -80,6 +84,7 @@ print("Differing rows:", differences)
 - **Variations**: For row-by-row comparison without keys, iterate both readers simultaneously (if same order/length).
 
 #### Example 2: Comparing Columns
+
 Compare specific columns across the entire file (e.g., check if column 1 values are identical in both files).
 
 ```python
@@ -122,6 +127,7 @@ print("Differences (row, val1, val2):", diffs)
 - **Variations**: Use `pandas` for more advanced column operations (e.g., `df1['column'] == df2['column']`), but stick to `csv` for pure standard library.
 
 #### Tips and Edge Cases
+
 - **Headers**: If CSVs have headers, skip them with `next(reader)`.
 - **Data Types**: CSV reads as strings; convert to int/float if needed (e.g., `int(row[0])`).
 - **Large Files**: For big CSVs, use DictReader for keyed access: `csv.DictReader(file)` returns rows as OrderedDicts.

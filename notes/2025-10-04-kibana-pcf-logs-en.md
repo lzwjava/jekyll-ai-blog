@@ -15,12 +15,14 @@ It looks like "kabana" is likely a reference to **Kibana**, the open-source data
 If this isn't what you meant, feel free to clarify! Below, I'll explain how to set up and use Kibana with PCF logs. This assumes you're an admin with access to PCF Ops Manager and have a running PCF deployment (version 2.0+). Note that PCF logging has evolved; check your version's documentation for specifics.
 
 ### Prerequisites
+
 - **PCF Version**: Log Search (with Kibana) is available in PCF 2.2+. Earlier versions used a separate "ELK" (Elasticsearch, Logstash, Kibana) tile.
 - **Tiles/Services**: Ensure you have the **Elastic Runtime** tile (for Loggregator) and the **Log Search** tile installed via Pivotal Network (now Broadcom Support Portal).
 - **Access**: Admin privileges in Ops Manager and the PCF CLI (cf command-line tool).
 - **Resources**: Allocate sufficient resources (e.g., 4-8 GB RAM for Log Search, depending on log volume).
 
 ### Step 1: Install and Configure Log Search Tile in Ops Manager
+
 The Log Search tile forwards PCF logs (from apps, platforms, and system components) to Elasticsearch, making them searchable via Kibana.
 
 1. **Download and Import the Tile**:
@@ -52,6 +54,7 @@ The Log Search tile forwards PCF logs (from apps, platforms, and system componen
    - SSH into a Log Search VM (using BOSH CLI: `bosh ssh log-search/0`) and confirm Elasticsearch is running (`curl localhost:9200`).
 
 ### Step 2: Access Kibana
+
 Once deployed:
 
 1. **Via PCF Apps Manager (GUI)**:
@@ -69,6 +72,7 @@ Once deployed:
    - Bind Log Search to your apps: `cf create-service log-search standard my-log-search` then `cf bind-service APP-NAME my-log-search`.
 
 ### Step 3: Using Kibana for PCF Logs
+
 Kibana provides a web-based interface to query, filter, and visualize logs from PCF components (e.g., app logs, Diego cells, Gorouter, etc.).
 
 1. **Basic Navigation**:
@@ -85,6 +89,7 @@ Kibana provides a web-based interface to query, filter, and visualize logs from 
    - **System Logs**: `source_id:DEA` (for Diego cells) or `source_id:LOGGREGATOR`.
    - **Export Logs**: Download as CSV/JSON from Discover.
    - **Advanced**: Use Kibana's Dev Tools (console) to query Elasticsearch directly, e.g.:
+
      ```
      GET /logstash-*/_search
      {
@@ -92,6 +97,7 @@ Kibana provides a web-based interface to query, filter, and visualize logs from 
        "sort": [ { "timestamp": { "order": "desc" } } ]
      }
      ```
+
    - **Retention and Indexing**: Logs are indexed by day (e.g., `logstash-YYYY.MM.DD`). Configure rollover in the tile to manage storage.
 
 3. **Troubleshooting Logs**:
@@ -101,6 +107,7 @@ Kibana provides a web-based interface to query, filter, and visualize logs from 
    - **Errors**: Check PCF logs with `cf logs log-search` or Ops Manager errand logs.
 
 ### Additional Resources
+
 - **Official Docs**: VMware Tanzu docs on [Log Search](https://docs.vmware.com/en/VMware-Tanzu-Application-Service/10.0/tas/GUID-log-search-index.html) (search for your version).
 - **CLI Tools**: Install `uaac` for UAA auth if needed, or use `cf curl` for API access.
 - **Alternatives**: For simpler needs, use PCF's built-in **Log Cache** (cf CLI: `cf tail APP-NAME`) or integrate with external tools like Splunk via syslog forwarding.

@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Installation
+
 PyGetWindow is a Python library for manipulating and querying windows on multiple platforms (Windows, macOS, and Linux). Install it via pip:
 
 ```bash
@@ -18,6 +19,7 @@ pip install pygetwindow
 ```
 
 ### Importing the Module
+
 Start by importing the module in your Python script:
 
 ```python
@@ -25,6 +27,7 @@ import pygetwindow as gw
 ```
 
 ### Getting Window Objects
+
 PyGetWindow represents windows as `Window` objects. You can retrieve windows by title, process, or other attributes.
 
 - **Get all window objects**:
@@ -37,6 +40,7 @@ PyGetWindow represents windows as `Window` objects. You can retrieve windows by 
   Use `gw.getActiveWindow()` to get the currently focused window.
 
 Example:
+
 ```python
 windows = gw.getAllWindows()
 active = gw.getActiveWindow()
@@ -44,6 +48,7 @@ notepad = gw.getWindowsWithTitle('Notepad')  # List of windows with 'Notepad' in
 ```
 
 ### Common Methods on Window Objects
+
 Once you have a `Window` object, you can access properties and methods like:
 
 - **Properties**: `title`, `left`, `top`, `width`, `height`, `isMinimized`, `isMaximized`, `isActive`.
@@ -53,6 +58,7 @@ Once you have a `Window` object, you can access properties and methods like:
   - `resize() / move()`: Adjust size and position.
 
 Example:
+
 ```python
 if notepad:
     win = notepad[0]
@@ -64,20 +70,24 @@ if notepad:
 ```
 
 ### Handling Multiple Platforms
+
 - On Windows and macOS, it uses native APIs.
 - On Linux, it relies on X11 or Wayland support; ensure your system has it installed (e.g., `x11-utils` on Ubuntu).
 - If a method isn't supported on your OS, it may raise a `NotImplementedError`.
 
 ### Examples
+
 Here are a few practical code snippets:
 
 1. **Print all window titles**:
+
    ```python
    for win in gw.getAllWindows():
        print(win.title)
    ```
 
 2. **Close a specific window**:
+
    ```python
    firefox_wins = gw.getWindowsWithTitle('Mozilla Firefox')
    if firefox_wins:
@@ -85,6 +95,7 @@ Here are a few practical code snippets:
    ```
 
 3. **Move and resize multiple windows**:
+
    ```python
    windows = gw.getAllWindows()
    for i, win in enumerate(windows[:3]):  # First 3 windows

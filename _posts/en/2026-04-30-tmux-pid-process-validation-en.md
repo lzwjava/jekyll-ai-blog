@@ -12,10 +12,12 @@ type: note
 ## Review of my approach
 
 **What worked**
+
 - Parallelized independent reads (both `capture-pane`, then config + ls).
 - Cross-referenced the running PID with the tmux output to confirm which config was active.
 
 **Weaknesses**
+
 1. **Captured both tmux panes blindly.** I ran `capture-pane -t 0` and `-t 1` in parallel before checking whether they were different views. They were identical (same training, two attached clients). Better: one capture first, or `tmux list-panes -a -F '#{session_name} #{pane_tty} #{pane_pid}'` to map sessions to the actual `train.py` PID.
 
 2. **Used a stale snapshot.** `capture-pane` returned the visible scrollback. The last iter shown was 6800, but the process has been running for ~18 hours (1089 CPU-min, started Apr 29) and the checkpoint timestamp (06:42) is from step 6500 — current iter is almost certainly past 7000 by now. I should have noted the snapshot's freshness, or grabbed more scrollback (`-S -500`), or watched a few seconds of live output to confirm it's still advancing.

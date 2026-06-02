@@ -45,6 +45,7 @@ Focus on **shared memory, memory coalescing, and performance optimization**.
 This is the single most important project for AI/ML. The General Matrix Multiplication (GEMM) operation is applicable to fully connected layers, convolutional layers, and many others. Optimize GEMM performance through the use of blocking and shared memory on the GPU.
 
 Key concepts you'll learn:
+
 - Tiled matrix multiplication with shared memory
 - Coalesced memory access and bank conflict avoidance when taking tiles from global memory to shared memory row by row.
 - Iteratively profile and improve toward cuBLAS-level performance.
@@ -65,6 +66,7 @@ Now connect CUDA directly to machine learning.
 Build a simple neural network with layers (linear layers, ReLU, sigmoid) implementing forward pass and backpropagation using CUDA, training on a dataset like 2D classification points.
 
 This teaches:
+
 - Forward pass as matrix multiplication
 - Backpropagation gradients on GPU
 - Mini-batch gradient descent

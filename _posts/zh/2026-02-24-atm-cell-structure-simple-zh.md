@@ -13,7 +13,7 @@ type: note
 
 ATM (Asynchronous Transfer Mode) 的固定 cell length 是什么？cell structure 的组成是什么？
 
-## 答案：
+## 答案
 
 正确答案是 **C: 53 bytes**。
 
@@ -24,6 +24,7 @@ ATM cell 总共由 53 bytes 的固定长度组成，包括 5-byte header（包�
 ### Detailed Composition
 
 **Header (5 bytes)：** Header 包含关键的路由和控制信息，包括：
+
 - Virtual Path Identifier (VPI) 和 Virtual Channel Identifier (VCI)，它们标识 cell 通过 ATM switches 传输时的下一个目的地
 - Payload Type (PT)，指示 cell 是否包含用户数据或控制数据
 - Cell Loss Priority (CLP)，指示在遇到极端拥塞时是否应移除该 cell
@@ -41,7 +42,7 @@ ATM cell 总共由 53 bytes 的固定长度组成，包括 5-byte header（包�
 
 ---
 
-## 参考文献：
+## 参考文献
 
 - [https://www.tutorialspoint.com/explain-the-atm-cell-structure-in-computer-network](https://www.tutorialspoint.com/explain-the-atm-cell-structure-in-computer-network)
 - [https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode](https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode)

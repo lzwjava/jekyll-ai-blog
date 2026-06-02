@@ -22,6 +22,7 @@ The core motivation behind self-hosting all these tools comes down to three pill
 ### 🔷 Per-Project Benefits
 
 #### 🟢 Gitea — Self-Hosted Git / Code Repository
+
 Gitea is an incredibly lightweight Git server that brings enterprise-level version control capabilities to your personal infrastructure. Unlike heavyweight alternatives like GitLab, Gitea consumes minimal system resources while delivering a complete Git hosting solution perfect for personal projects or small development teams.
 
 It also supports automatic mirroring of remote git repositories locally when a commit is pushed, making it easy to back up your own code — and even other people's code — to your server, just in case. As of v1.19, Gitea added Actions, a built-in CI system compatible with GitHub Actions workflows.
@@ -31,6 +32,7 @@ It also supports automatic mirroring of remote git repositories locally when a c
 ---
 
 #### 🟢 Jellyfin — Personal Media Server
+
 Jellyfin serves no business model and is not subject to the gradual "enshittification" seen with Plex over the years. With no cloud connectivity required for authentication, no random streaming services, and snappy performance — a fully featured, local-first media server experience awaits.
 
 With Jellyfin, your viewing habits are completely private — no data collection or tracking algorithms. You have full control over who can access your content, how it's organized, and what quality it streams without any interference from external parties.
@@ -40,6 +42,7 @@ With Jellyfin, your viewing habits are completely private — no data collection
 ---
 
 #### 🟢 LibreChat — Self-Hosted AI Chat Interface
+
 LibreChat is essentially ChatGPT, but totally open source. The interface feels very familiar, and you get the same array of tools — from agents and code interpreters to artifacts and conversation search.
 
 You control which AI models (OpenAI, Anthropic, local LLMs, etc.) are used, and your conversation data is never sent to a third-party SaaS. You can connect it to your own API keys and avoid per-seat subscription costs.
@@ -49,6 +52,7 @@ You control which AI models (OpenAI, Anthropic, local LLMs, etc.) are used, and 
 ---
 
 #### 🟢 Nextcloud — Personal Cloud Storage & Productivity Suite
+
 Competing with giants like Google and Microsoft, Nextcloud is a "personal cloud", offering self-hosted versions of mail, contacts, calendar, kanban, video/audio calls, web hosting, file storage/sync, document editing, an app store, and more. If there is one application you could use to build your digital life around, it would be Nextcloud.
 
 While commercial cloud storage seems cheap initially, costs escalate quickly with more users and storage needs. A $100/year subscription per user becomes $1,000 for 10 users. With Nextcloud, you pay once for your infrastructure and can scale without recurring per-user fees.
@@ -58,6 +62,7 @@ While commercial cloud storage seems cheap initially, costs escalate quickly wit
 ---
 
 #### 🟢 SearXNG — Private Search Engine Aggregator
+
 SearXNG is more than just a front-end for Google search — it's an aggregator that, if configured properly, can collect results from Bing, Startpage, Wikipedia, DuckDuckGo, Brave, and others.
 
 The key benefit: search queries are not tied to your identity or browsing profile. No personalization bubbles, no ad targeting based on what you search.
@@ -67,6 +72,7 @@ The key benefit: search queries are not tied to your identity or browsing profil
 ---
 
 #### 🟢 Uptime Kuma — Service Monitoring & Alerting
+
 Uptime Kuma is a self-hosted monitoring tool that tracks whether all your other services (Gitea, Jellyfin, Nextcloud, etc.) are up and running. It sends alerts via Telegram, email, Discord, etc. when something goes down. Since you host everything yourself, you also need to *monitor* everything yourself — this is the tool for that job.
 
 **Replaces:** UptimeRobot, Better Uptime (paid SaaS monitoring)

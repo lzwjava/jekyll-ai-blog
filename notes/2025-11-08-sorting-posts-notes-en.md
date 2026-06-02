@@ -15,6 +15,7 @@ type: note
 Your existing `sort.html` already has the language select with 9 options, which is perfect. No major changes needed here, but I've added a small note in the `<span id="post-number">` to make it more generic (e.g., "entries" instead of "posts") since we're now including notes. This can be dynamically updated by your JS if needed. Here's the tweaked version:
 
 {% raw %}
+
 ```html
 <div class="sort-container">
   <span id="post-number" class="post-number">
@@ -34,6 +35,7 @@ Your existing `sort.html` already has the language select with 9 options, which 
   </select>
 </div>
 ```
+
 {% endraw %}
 
 **Key change**: Updated the count to include `site.notes.size` (we'll define this below). The formula stays the same but now factors in notes. If your JS (`index.js`) already updates this span dynamically based on visible items, it will handle language-specific counts automatically.
@@ -69,6 +71,7 @@ Your current loop only shows English posts. To add notes and support all 9 langu
 Here's the full updated layout:
 
 {% raw %}
+
 ```html
 ---
 layout: page
@@ -121,9 +124,11 @@ layout: page
 {% include footer.html %}
 <script src="/assets/js/index.js"></script>
 ```
+
 {% endraw %}
 
 **Key changes**:
+
 - **Languages array**: `{% assign langs = "en,zh,ja,es,hi,fr,de,ar,hant" | split: "," %}`—matches your select options. Easy to maintain.
 - **Posts loop**: Removed the hard-coded `en` filter; now checks `post.path contains "_posts/{{ lang }}/"` for each lang.
 - **Notes loop**: Added identically, checking `note.path contains "_notes/{{ lang }}/"`. Treats notes exactly like posts (same classes, attributes, structure).
@@ -144,12 +149,14 @@ You mentioned "add a select/switch , two options select or whatever". If you wan
 ```
 
 Then, add a `data-type` attribute to each `<li>`:
+
 - For posts: `data-type="posts"`
 - For notes: `data-type="notes"`
 
 Update your `index.js` to handle `#type-select` changes (e.g., filter `.post-item[data-type="notes"]` to hide/show). This keeps it simple without changing Liquid.
 
 ### Next Steps
+
 - Test: Add a sample note like `_notes/es/2025-11-07-tidb-vs-cockroachdb-es.md` with frontmatter (title, date, etc.), rebuild, and switch to "Español" in the dropdown—it should appear.
 - JS tweaks: Ensure `index.js` filters by `.lang-{value}` and updates `#post-number` (e.g., count visible `<li>`). If it doesn't handle notes yet, add `data-type` as above.
 - If paths differ (e.g., no trailing `/` in dirs), tweak the `contains` checks.

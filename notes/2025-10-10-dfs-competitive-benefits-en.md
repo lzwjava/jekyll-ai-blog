@@ -31,9 +31,11 @@ Overall, DFS is a go-to when the problem screams "explore deeply and backtrack i
 Here are three common examples with pseudocode (Python-style for clarity). These are simplified for illustration—adapt them to full problems.
 
 #### 1. **Detecting Cycles in an Undirected Graph**
-   - **Problem**: Given a graph, check if it has a cycle.
-   - **Why DFS?**: Traverse deeply; if you revisit a node in the current path, there's a cycle.
-   - **Pseudocode**:
+
+- **Problem**: Given a graph, check if it has a cycle.
+- **Why DFS?**: Traverse deeply; if you revisit a node in the current path, there's a cycle.
+- **Pseudocode**:
+
      ```python:disable-run
      def has_cycle(graph, start, visited, parent):
          visited[start] = True
@@ -51,9 +53,11 @@ Here are three common examples with pseudocode (Python-style for clarity). These
      ```
 
 #### 2. **Finding Connected Components in a Graph**
-   - **Problem**: Identify all separate connected groups in an undirected graph.
-   - **Why DFS?**: Start from a node, mark all reachable nodes as one component, then move to the next unvisited.
-   - **Pseudocode**:
+
+- **Problem**: Identify all separate connected groups in an undirected graph.
+- **Why DFS?**: Start from a node, mark all reachable nodes as one component, then move to the next unvisited.
+- **Pseudocode**:
+
      ```python
      def dfs(graph, start, visited, component):
          visited[start] = True
@@ -73,9 +77,11 @@ Here are three common examples with pseudocode (Python-style for clarity). These
      ```
 
 #### 3. **Maze/Path Finding (Backtracking)**
-   - **Problem**: Find a path from start to end in a grid maze (0 = open, 1 = wall).
-   - **Why DFS?**: Try paths recursively; backtrack on dead ends.
-   - **Pseudocode** (grid as 2D list):
+
+- **Problem**: Find a path from start to end in a grid maze (0 = open, 1 = wall).
+- **Why DFS?**: Try paths recursively; backtrack on dead ends.
+- **Pseudocode** (grid as 2D list):
+
      ```python
      def solve_maze(grid, x, y, end_x, end_y, path):
          if x < 0 or x >= len(grid) or y < 0 or y >= len(grid[0]) or grid[x][y] == 1:
@@ -99,4 +105,5 @@ Here are three common examples with pseudocode (Python-style for clarity). These
      ```
 
 These examples show DFS's recursive elegance—practice on problems like "Number of Islands" (LeetCode) or "Cycle Detection" (HackerRank) to see it in action!
+
 ```

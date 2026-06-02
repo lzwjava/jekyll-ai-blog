@@ -34,14 +34,17 @@ Here are some of the most suitable tech jobs for ESTPs, based on common recommen
 - **Quality Assurance (QA) / Software Testing** (especially manual, exploratory, or in fast-paced agile teams) — Finding bugs through hands-on exploration, breaking things creatively, and working in sprints rather than repetitive scripted testing.
 
 Regarding **software engineering / coding**:
+
 - Pure backend, long-term architectural, or highly theoretical software engineering (e.g., deep algorithm design or maintaining legacy code) is often a poorer fit due to the isolation, repetition, and detail focus.
 - However, certain flavors work better: frontend development, full-stack in startups, or roles with quick prototyping, user-facing features, or high-variety projects. ESTPs can succeed if the environment is agile, collaborative, and fast-moving.
 
 For **AI-related roles**:
+
 - Pure research or theoretical AI/ML engineering (heavy math, long training loops, abstract modeling) is usually not ideal.
 - Better fits include applied AI roles like AI solutions engineer, prompt engineering in production environments, AI implementation/consulting, or roles in AI ops/incident response where quick adaptation and real-world deployment matter.
 
 Overall, ESTPs excel in tech roles with:
+
 - High variety and stimulation
 - Immediate feedback and visible impact
 - People interaction or teamwork

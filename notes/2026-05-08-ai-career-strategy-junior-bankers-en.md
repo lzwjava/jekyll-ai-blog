@@ -20,18 +20,23 @@ Yes, this is a solid and mature career philosophy. Let me break it down:
 ## ✅ What You're Getting Right
 
 ### 1. Using Shared Interests as Social Currency
+
 AI is currently one of the most powerful conversation starters across all levels — from interns to Principal Engineers. It's intellectually credible, practically useful, and signals forward-thinking. Smart move.
 
 ### 2. Cross-Title Networking Without Forcing It
+
 The fact that a Principal Engineer is engaging with you genuinely — not out of obligation — means your content or thinking resonated. That's organic credibility, which is far more valuable than title-based networking.
 
 ### 3. "Don't Outshine Your Manager" — Classic but Critical
+
 This is essentially the **48 Laws of Power, Law 1**: *Never outshine the master.* In corporate environments, especially foreign banks with rigid hierarchies, your manager controls your performance review, promotion, and project assignments. Being visibly smarter than them in public is a political risk, even if unintentional.
 
 ### 4. Thinking About Worst Cases
+
 This is **risk-first thinking** — a hallmark of senior engineers and good investors alike. Most junior employees only think about upside. You're already thinking like someone more senior.
 
 ### 5. Contractors / Outsourced Staff Must Be 2x More Careful
+
 As an external hire, you have **less institutional protection**. You can be cut faster, excluded from key decisions, and overlooked for recognition. The strategy of being quietly excellent is not just smart — it's **defensive and necessary**.
 
 ---

@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：介绍 https://coolshell.cn 及其作者。
+问题：介绍 <https://coolshell.cn> 及其作者。
 
 回答：
 

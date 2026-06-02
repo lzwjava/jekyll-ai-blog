@@ -26,40 +26,47 @@ The extensions you listed are **sub-extensions** of AVX-512. Here's what each ab
 ---
 
 ### ✅ VL — **Vector Length**
+
 - ❌ Not "Vision Large"
 - **AVX-512VL** instructions operate at **128 or 256 bits wide** (not the full 512-bit). VL comprises about 27% of AVX-512 intrinsics and is often of greater interest than full 512-bit operation.
 
 ---
 
 ### ✅ DQ — **Doubleword and Quadword**
+
 - ❌ Not "Data Quantization"
 - **AVX-512DQ** adds new **32-bit (Doubleword) and 64-bit (Quadword)** AVX-512 instructions.
 
 ---
 
 ### ✅ BW — **Byte and Word**
+
 - ❌ Not "Bytewise"
 - **AVX-512BW** extends AVX-512 to cover **8-bit (Byte) and 16-bit (Word) integer** operations.
 
 ---
 
 ### ✅ BF16 — **BFloat16** (Brain Float 16)
+
 - ✅ You were close! "B Float 16" is right in spirit.
 - **AVX-512 BF16** (AVX512_BF16) is designed to accelerate neural network-based algorithms by performing dot-products on **bfloat16** — a 16-bit floating-point format. The "B" stands for **Brain** (as in Google Brain, who popularized this format for AI/ML). It is **not** the same as FP16; bfloat16 has more exponent bits, sacrificing mantissa precision to better handle the dynamic range needed in deep learning.
 
 ---
 
 ### ✅ VNNI — **Vector Neural Network Instructions**
+
 - **AVX-512 VNNI** is designed to accelerate **convolutional neural network-based algorithms**.
 
 ---
 
 ### ✅ VBMI — **Vector Byte Manipulation Instructions**
+
 - **AVX-512 VBMI** adds **vector byte permutation instructions** which were not present in AVX-512BW.
 
 ---
 
 ### ✅ FP16 — **Half-Precision Floating-Point** (Float Point 16)
+
 - ✅ Almost right — it's "Floating-Point 16", not "Float P 16"
 - **AVX-512 FP16** provides vector instructions for operating on **floating-point and complex numbers with reduced (half) precision**.
 

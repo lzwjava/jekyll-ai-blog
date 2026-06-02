@@ -19,6 +19,7 @@ Key implications:
 - **Risk of gaps** – Price can jump without trades occurring in between.
 
 It often happens in:
+
 - **Thin order books** (e.g., small-cap stocks, certain crypto pairs, off-hours trading)
 - **Panic sell-offs** where buyers vanish
 - **News shocks** that trigger sudden stops in supply or demand

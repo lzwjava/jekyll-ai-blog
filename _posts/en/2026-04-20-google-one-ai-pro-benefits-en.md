@@ -83,7 +83,7 @@ You’re not just buying storage — you’re buying AI:
 
 Short answer: **No — not always.**
 
-### There are 3 different cases:
+### There are 3 different cases
 
 #### ✅ Case 1: Normal users
 
@@ -136,14 +136,14 @@ Also:
 
 # 🧩 Should you get it?
 
-### Worth it if you:
+### Worth it if you
 
 * Use Google Drive heavily
 * Store lots of photos/videos
 * Want **AI inside Gmail/Docs**
 * Replace ChatGPT + cloud storage with one subscription
 
-### Not worth it if:
+### Not worth it if
 
 * You only need storage (cheaper plans exist)
 * You don’t use Google ecosystem much

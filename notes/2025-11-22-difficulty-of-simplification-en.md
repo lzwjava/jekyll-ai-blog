@@ -41,9 +41,9 @@ Simplification requires a cultural shift and a set of practical, technical strat
     *
 * **Refactoring as Debt Repayment:** Allocate specific time in every sprint (e.g., \\(20\%\\) of effort) not just for new features, but for **refactoring** (improving existing code) and **deleting dead code**. Treat complexity as **Technical Debt** that must be paid down.
 * **"Deprecate, then Delete":** Never delete a major feature instantly.
-    1.  **Phase 1: Deprecate:** Announce its upcoming removal and stop developing it. Hide the feature from the main interface (e.g., your blog's language selector).
-    2.  **Phase 2: Monitor:** Use **feature flags** (toggles in the code) to disable the code for \\(99\%\\) of users while keeping the code accessible. Monitor logs and metrics for a grace period (e.g., 6 months) to ensure no critical user paths break.
-    3.  **Phase 3: Delete:** If the monitoring period passes without issue, safely remove the code and its associated infrastructure.
+    1. **Phase 1: Deprecate:** Announce its upcoming removal and stop developing it. Hide the feature from the main interface (e.g., your blog's language selector).
+    2. **Phase 2: Monitor:** Use **feature flags** (toggles in the code) to disable the code for \\(99\%\\) of users while keeping the code accessible. Monitor logs and metrics for a grace period (e.g., 6 months) to ensure no critical user paths break.
+    3. **Phase 3: Delete:** If the monitoring period passes without issue, safely remove the code and its associated infrastructure.
 
 ### C. The Bureaucracy Parallel (Big Banks)
 

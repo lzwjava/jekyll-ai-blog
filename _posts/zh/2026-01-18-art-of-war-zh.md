@@ -67,6 +67,7 @@ Answer:
 相比于军事院校，这本书现在更多地被应用于 **Business, politics, sports, negotiation, game theory, startups, leadership（商业、政治、体育、谈判、博弈论、创业、领导力）甚至个人成长** 领域。
 
 流行的现代解读包括：
+
 - Business strategy (例如《经理人的孙子兵法》)
 - Competitive strategy (Silicon Valley, startups, investment)
 - Negotiation & sales
@@ -78,4 +79,5 @@ Answer:
 《孙子兵法》主要不是一本关于如何打仗的书 —— 它是一本关于 **如何在战斗开始前就赢得胜利**，以及如何以最小的成本和风险获得最大成果的书。
 
 References:
+
 - None (classic public domain text, widely available in multiple translations)

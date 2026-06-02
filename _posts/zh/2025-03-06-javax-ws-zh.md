@@ -13,9 +13,11 @@ type: note
 ---
 
 ### **1. 设置项目**
+
 要使用 `javax.ws.rs`，您需要包含 JAX-RS API 和一个实现（因为 `javax.ws.rs` 是一个规范，而非运行时）。一个流行的实现是 Jersey。如果您使用 Maven，请将必要的依赖项添加到您的 `pom.xml` 中：
 
 #### **依赖项**
+
 ```xml
 <!-- JAX-RS API -->
 <dependency>
@@ -48,9 +50,11 @@ type: note
 ---
 
 ### **2. 创建 RESTful 资源**
+
 JAX-RS 中的 RESTful 服务是使用带有 `@Path` 注解的资源类以及 HTTP 方法注解（如 `@GET`、`@POST` 等）来定义的。以下是一个简单资源的示例：
 
 #### **示例：HelloResource.java**
+
 ```java
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -77,9 +81,11 @@ public class HelloResource {
 ---
 
 ### **3. 配置 JAX-RS 应用程序**
+
 您需要告诉 JAX-RS 运行时包含哪些资源。这可以通过创建一个扩展 `javax.ws.rs.core.Application` 的应用程序配置类来完成。
 
 #### **示例：MyApplication.java**
+
 ```java
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -106,9 +112,11 @@ public class MyApplication extends Application {
 ---
 
 ### **4. 处理不同的 HTTP 方法和参数**
+
 JAX-RS 提供了注解来处理各种 HTTP 方法、媒体类型和参数。
 
 #### **示例：处理 POST 请求**
+
 ```java
 import javax.ws.rs.POST;
 import javax.ws.rs.Consumes;
@@ -128,6 +136,7 @@ public Response createItem(MyItem item) {
 - **`Response`**：返回 201 Created 状态。
 
 #### **示例：路径参数**
+
 ```java
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Path;
@@ -145,6 +154,7 @@ public MyItem getItem(@PathParam("id") String id) {
 - **`@PathParam("id")`**：从 URI 中注入 `id` 值。
 
 #### **示例：查询参数**
+
 ```java
 import javax.ws.rs.QueryParam;
 
@@ -161,6 +171,7 @@ public List<MyItem> getItems(@QueryParam("category") String category) {
 ---
 
 ### **5. 部署应用程序**
+
 您可以将 JAX-RS 应用程序部署到像 Tomcat 这样的 servlet 容器中：
 
 1. 将您的项目打包为 WAR 文件（例如使用 `mvn package`）。
@@ -170,6 +181,7 @@ public List<MyItem> getItems(@QueryParam("category") String category) {
 或者，为了开发或独立使用，您可以使用 Jersey 和 Grizzly 以编程方式运行应用程序：
 
 #### **示例：独立主类**
+
 ```java
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -190,7 +202,9 @@ public class Main {
 ---
 
 ### **6. 附加功能**
+
 - **异常处理**：使用 `ExceptionMapper` 优雅地处理异常。
+
   ```java
   import javax.ws.rs.NotFoundException;
   import javax.ws.rs.core.Response;
@@ -205,10 +219,12 @@ public class Main {
       }
   }
   ```
+
 - **依赖注入**：使用 `@Context` 注入对象（如 `UriInfo`），或依赖实现的 DI 框架（例如 Jersey 中的 HK2）。
 - **测试**：使用 Postman 或 Jersey 测试框架等工具来测试您的端点。
 
 ---
 
 ### **总结**
+
 要使用 `javax.ws.rs`，请在项目中包含 JAX-RS API 和一个实现（如 Jersey），使用注解定义路径和 HTTP 方法的资源类，配置应用程序（通过 `Application` 子类或 `web.xml`），并将其部署到 servlet 容器中或独立运行。这使您能够使用 Java 高效地构建 RESTful Web 服务。

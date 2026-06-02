@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-是的，**Ollama 本身不包含内置 web interface** — 它仅运行一个 API server（通常在 http://127.0.0.1:11434）。
+是的，**Ollama 本身不包含内置 web interface** — 它仅运行一个 API server（通常在 <http://127.0.0.1:11434）。>
 
 要获得一个不错的浏览器-based chat UI（类似于 ChatGPT），您需要运行一个独立的 frontend 来连接 Ollama 的 API。
 
@@ -41,13 +41,13 @@ docker run -d -p 3000:8080 \
 
 然后在浏览器中打开：
 
-http://localhost:3000
+<http://localhost:3000>
 
-（或 http://127.0.0.1:3000）
+（或 <http://127.0.0.1:3000）>
 
 - 首次使用 → 创建账户（第一个账户将成为 admin）
-- 它应该自动检测本地的 Ollama（位于 http://host.docker.internal:11434）
-- 如果模型未出现 → 转到 Settings → Connections → 确保 Ollama 已连接（或手动设置 Base URL 为 http://host.docker.internal:11434）
+- 它应该自动检测本地的 Ollama（位于 <http://host.docker.internal:11434）>
+- 如果模型未出现 → 转到 Settings → Connections → 确保 Ollama 已连接（或手动设置 Base URL 为 <http://host.docker.internal:11434）>
 
 **Alternative Docker run (if the above has connection issues)**
 
@@ -61,7 +61,7 @@ docker run -d -p 8080:8080 \
   ghcr.io/open-webui/open-webui:main
 ```
 
-→ 然后访问：http://localhost:8080
+→ 然后访问：<http://localhost:8080>
 
 ### If you prefer LibreChat instead
 
@@ -77,7 +77,7 @@ docker run -d -p 3080:3080 \
   ghcr.io/danny-avila/librechat:latest
 ```
 
-→ http://localhost:3080
+→ <http://localhost:3080>
 
 然后在设置中将 Ollama 配置为自定义 endpoint。
 

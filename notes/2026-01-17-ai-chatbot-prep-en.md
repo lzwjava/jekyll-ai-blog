@@ -17,6 +17,7 @@ Answer:
 Yes, this is actually one of the more powerful and increasingly popular modern exam preparation strategies in 2025–2026. Here's why it works well and how to execute it most effectively:
 
 ### Why this method is strong
+
 - **Active recall + generation effect** — Creating or even just reading questions you might be asked forces better retention than passive reading.
 - **Spaced repetition friendly** — You can easily collect uncertain/wrong questions and review them later (Anki, Quizlet, etc.).
 - **Immediate feedback loop** — When you use the same or another AI to check answers and explanations, you get corrections very quickly.
@@ -24,8 +25,10 @@ Yes, this is actually one of the more powerful and increasingly popular modern e
 - **Adaptive difficulty** — You can ask the AI to make questions easier, exam-level, or deliberately tricky.
 
 ### Recommended practical workflow (2026 version)
+
 1. **Generation phase**
    - Give clear, specific prompts:
+
      ```
      Create 20 multiple-choice questions (4 options, single correct answer) on [topic], university undergraduate / professional certification level, similar in style to [exam name, e.g. AWS Solutions Architect, LeetCode medium-hard, CFA Level 2, etc.].
      Include some questions that test common misconceptions.
@@ -36,6 +39,7 @@ Yes, this is actually one of the more powerful and increasingly popular modern e
      C) ...
      D) ...
      ```
+
    - Ask for 10–30 questions per session (more than that and quality often drops).
 
 2. **Answering phase**
@@ -44,6 +48,7 @@ Yes, this is actually one of the more powerful and increasingly popular modern e
 
 3. **Verification & research phase**
    - Paste your answers back to the AI and ask:
+
      ```
      Here are my answers to the questions you just gave me:
      Q1: C    because ...
@@ -55,7 +60,9 @@ Yes, this is actually one of the more powerful and increasingly popular modern e
      3. For uncertain / close-call questions, also give a short explanation even if I got it right
      4. If the question is ambiguous or has multiple defensible answers, point it out
      ```
+
    - For any concept you're still unsure about after the explanation, ask follow-up research questions:
+
      ```
      Explain [concept] like I'm a second-year university student.
      What are the most common mistakes students make with [concept]?

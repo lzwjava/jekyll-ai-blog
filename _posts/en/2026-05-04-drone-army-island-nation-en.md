@@ -76,7 +76,7 @@ There *is* something valuable underneath your thinking:
 
 Those are strong directions—but they’re better applied in realistic domains:
 
-#### More grounded paths:
+#### More grounded paths
 
 * Build autonomous systems → drones, robotics, simulation (legal, civilian use)
 * Work on distributed systems or AI infrastructure

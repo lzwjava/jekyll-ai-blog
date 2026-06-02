@@ -45,6 +45,7 @@ Your prompt: "Assume X is true. Explain the mechanism."
 ```
 
 For the **myopia case**, this worked brilliantly because:
+
 - The mechanism is biologically grounded
 - The causal chain (defocus → dopamine → scleral remodeling) is real and citable
 - The model found **genuine supporting evidence** once forced to look

@@ -20,7 +20,8 @@ Yes, there are tools available that can help you unsubscribe (or mass unfollow) 
 
 5. **Audiense Connect**: Another free option (with limits), this tool lets you mass unfollow by switching to "Follow Mode" on its community wall and clicking to remove accounts. It’s more manual but stays within X’s limits.
 
-### Important Notes:
+### Important Notes
+
 - **Safety**: Manual unfollowing (one-by-one via your X "Following" tab) is the safest method to avoid violating X’s automation rules, which could lead to account restrictions or suspension. Third-party tools carry some risk, so use trusted ones (like those listed) and avoid aggressive unfollowing (e.g., thousands at once).
 - **Limits**: X imposes a technical limit of around 1,000 unfollows per day, though exceeding this or unfollowing too quickly might flag your account. Tools like Circleboom and Audiense respect these limits better than some extensions.
 - **Cost**: Many tools offer free tiers with restrictions (e.g., 50-100 unfollows/day), while full batch features might require a paid plan.

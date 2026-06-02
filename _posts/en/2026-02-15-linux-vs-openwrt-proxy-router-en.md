@@ -58,6 +58,7 @@ No single method is universally "better" — it depends very strongly on your pr
 Many people who tried both end up going **Mint/Debian lightweight → OpenWrt** after a few months, but almost nobody regrets starting with the easier Mint method first.
 
 If you decide to try OpenWrt later, look for:
+
 - x86_64 generic image (or netinstall)
 - People have success with models like ThinkPad X220/T420/T520 using community builds or mainline snapshots
 - Use iperf3/speedtest-cli to compare throughput & latency before/after

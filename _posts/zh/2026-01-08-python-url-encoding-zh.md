@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: 有时我们需要在 URL 中使用像 http://username:password@someproxy 这样的 endpoint，对吧？如果使用 password 包含 # 或 . 等字符，Python 可能会报 parse failure 错误。
+Question: 有时我们需要在 URL 中使用像 <http://username:password@someproxy> 这样的 endpoint，对吧？如果使用 password 包含 # 或 . 等字符，Python 可能会报 parse failure 错误。
 
 Answer:
 

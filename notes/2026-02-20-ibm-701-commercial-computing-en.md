@@ -14,11 +14,13 @@ type: note
 ---
 
 #### **1. Overview**
+
 The **IBM 701**, also known as the **Defense Calculator**, was IBM’s first commercial scientific computer and one of the first large-scale electronic computers in the world. Introduced in **1952**, it marked IBM’s entry into the electronic computing era, transitioning from punched-card tabulating machines to programmable, high-speed digital computers.
 
 ---
 
 #### **2. Historical Context**
+
 - **Predecessors**: The IBM 701 was inspired by earlier academic and military computers like the **ENIAC** (1945) and **EDVAC** (1949), but it was designed for commercial and scientific use.
 - **Competition**: It competed with the **UNIVAC I**, the first commercial computer in the U.S., which was delivered to the Census Bureau in 1951.
 - **Purpose**: Initially developed for scientific and engineering calculations, it quickly found applications in business, government, and defense.
@@ -40,6 +42,7 @@ The **IBM 701**, also known as the **Defense Calculator**, was IBM’s first com
 ---
 
 #### **4. Key Innovations**
+
 - **First Commercial Scientific Computer**: Designed for complex mathematical and scientific computations.
 - **Magnetic Tape Storage**: One of the first computers to use magnetic tape for data storage, enabling faster data access than punched cards.
 - **Programmability**: Supported assembly language programming, a significant leap from hardwired or plugboard-programmed machines.
@@ -47,6 +50,7 @@ The **IBM 701**, also known as the **Defense Calculator**, was IBM’s first com
 ---
 
 #### **5. Applications**
+
 - **Defense**: Used for ballistics calculations, nuclear research, and aerodynamics (e.g., by the U.S. Air Force and Los Alamos National Laboratory).
 - **Business**: Later adapted for payroll processing, inventory management, and financial modeling.
 - **Science**: Employed in weather forecasting, physics simulations, and early AI research.
@@ -54,6 +58,7 @@ The **IBM 701**, also known as the **Defense Calculator**, was IBM’s first com
 ---
 
 #### **6. Legacy and Impact**
+
 - **Foundation for IBM’s Dominance**: The 701 established IBM as a leader in the computer industry, paving the way for the **IBM 704** and **IBM 7090**.
 - **Cultural Shift**: Demonstrated the practicality of electronic computers for non-military use, accelerating the adoption of computing in business and academia.
 - **Influence on Programming**: Inspired the development of early programming languages like **FORTRAN** (introduced in 1957 for the IBM 704).
@@ -61,6 +66,7 @@ The **IBM 701**, also known as the **Defense Calculator**, was IBM’s first com
 ---
 
 #### **7. Fun Facts**
+
 - **Nickname**: Called the "Defense Calculator" because its first customers were defense agencies.
 - **Cost**: Rented for **$15,000 per month** (equivalent to ~$170,000 today).
 - **Successors**: The IBM 701 was succeeded by the **IBM 702** (business-oriented) and **IBM 704** (scientific), which introduced floating-point arithmetic.
@@ -68,6 +74,7 @@ The **IBM 701**, also known as the **Defense Calculator**, was IBM’s first com
 ---
 
 #### **8. Visuals and Media**
+
 If you’d like, I can search for historical photos or diagrams of the IBM 701 to give you a sense of its size and design.
 
 ---

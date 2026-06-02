@@ -22,6 +22,7 @@ Answer:
 ## Key Concepts
 
 ### 1. T1 Carrier Overview
+
 T1 is a North American digital transmission standard that multiplexes **24 voice channels** using **Time Division Multiplexing (TDM)**.
 
 ---

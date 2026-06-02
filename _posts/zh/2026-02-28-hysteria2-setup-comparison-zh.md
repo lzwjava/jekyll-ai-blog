@@ -18,6 +18,7 @@ type: note
 官方一键安装脚本是 Ubuntu（适用于 20.04、22.04、24.04 等）上最简单且最可靠的方法。
 
 1. **运行安装脚本**（安装最新版本，设置 systemd 服务）：
+
    ```bash
    bash <(curl -fsSL https://get.hy2.sh/)
    ```
@@ -25,11 +26,13 @@ type: note
    - 这会下载二进制文件，创建 `/etc/hysteria/config.yaml`，并设置 `hysteria-server.service`。
 
 2. **编辑配置文件**：
+
    ```bash
    nano /etc/hysteria/config.yaml
    ```
 
    最小工作示例（替换值）：
+
    ```yaml
    listen: :443   # UDP port (usually 443)
 
@@ -53,25 +56,29 @@ type: note
    - 完整配置选项 → 官方文档。
 
 3. **启动并启用服务**：
+
    ```bash
    systemctl daemon-reload
    systemctl enable --now hysteria-server
    ```
 
 4. **检查状态和日志**：
+
    ```bash
    systemctl status hysteria-server
    journalctl -u hysteria-server -ef
    ```
 
 5. **防火墙**（如果使用 ufw）：
+
    ```bash
    ufw allow 443/udp
    ```
 
 6. **后续更新** → 只需重新运行相同的安装命令。
 
-**注意**：如果 GitHub 被屏蔽，从 https://github.com/apernet/hysteria/releases 手动下载二进制文件，并使用：
+**注意**：如果 GitHub 被屏蔽，从 <https://github.com/apernet/hysteria/releases> 手动下载二进制文件，并使用：
+
 ```bash
 bash <(curl -fsSL https://get.hy2.sh/) --local /path/to/hysteria-linux-amd64
 ```
@@ -79,6 +86,7 @@ bash <(curl -fsSL https://get.hy2.sh/) --local /path/to/hysteria-linux-amd64
 ### 安装原始 Hysteria 1.x（遗留版 – 不推荐）
 
 如果特别需要与旧客户端兼容，使用旧仓库/脚本：
+
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/apernet/hysteria/master/scripts/install_server.sh)
 ```

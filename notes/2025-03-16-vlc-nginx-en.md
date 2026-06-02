@@ -11,14 +11,18 @@ type: note
 Since you have an Nginx server serving `.mkv` files (e.g., at `http://192.168.1.27/movies/`), and you want to view them from a Mac without downloading the entire file, you’re looking to **stream** the videos. Nginx can serve files in a way that supports HTTP range requests (which it does by default), allowing media players to stream rather than download fully. Here’s how to do it, along with suitable tools for macOS.
 
 ### Prerequisites
+
 - Your Nginx config (e.g., `alias /var/www/movies/; autoindex on;`) is working, and `http://192.168.1.27/movies/` lists files.
 - The `.mkv` files are accessible over the network (tested from another machine).
 
 ### Tools to Stream `.mkv` Files on macOS
+
 You need a media player that supports streaming via HTTP and handles `.mkv` files well. Here are the best options:
 
 #### 1. VLC Media Player (Free, Recommended)
+
 VLC is a versatile, open-source player that supports streaming `.mkv` files over HTTP without downloading the whole file (it uses range requests).
+
 - **Install**:
   - Download from [videolan.org](https://www.videolan.org/vlc/).
   - Install it on your Mac.
@@ -30,7 +34,9 @@ VLC is a versatile, open-source player that supports streaming `.mkv` files over
 - **Why It Works**: VLC buffers only what’s needed, letting you seek and play without downloading the entire file.
 
 #### 2. IINA (Free, macOS-Native)
+
 IINA is a modern, macOS-specific player with excellent `.mkv` support and streaming capabilities.
+
 - **Install**:
   - Download from [iina.io](https://iina.io/) or `brew install iina` (with Homebrew).
 - **Stream**:
@@ -41,7 +47,9 @@ IINA is a modern, macOS-specific player with excellent `.mkv` support and stream
 - **Why It Works**: Lightweight, supports HTTP streaming, and integrates nicely with macOS.
 
 #### 3. QuickTime Player (Built-in, Limited)
+
 macOS’s default QuickTime Player can stream some formats, but `.mkv` support is spotty without extra codecs.
+
 - **Try It**:
   1. Open QuickTime Player.
   2. Press `Cmd + U` (or `File > Open Location`).
@@ -50,7 +58,9 @@ macOS’s default QuickTime Player can stream some formats, but `.mkv` support i
 - **Caveat**: If it doesn’t work, install Perian (an old codec pack) or use VLC/IINA instead.
 
 #### 4. Browser (Safari/Chrome, Simplest)
+
 Modern browsers can stream `.mkv` files directly if they’re encoded with supported codecs (e.g., H.264 video, AAC audio).
+
 - **How**:
   1. Open Safari or Chrome on your Mac.
   2. Go to `http://192.168.1.27/movies/`.
@@ -59,11 +69,14 @@ Modern browsers can stream `.mkv` files directly if they’re encoded with suppo
 - **Limitation**: If the `.mkv` uses unsupported codecs (e.g., VP9, Opus), it won’t play—fall back to VLC or IINA.
 
 ### Ensure Nginx Supports Streaming
+
 Nginx handles range requests by default, which is what enables streaming. To confirm:
+
 - Check your config doesn’t disable this (e.g., no `limit_rate` or custom headers blocking ranges).
 - Test with VLC or IINA—if you can seek (e.g., jump to 5 minutes in), streaming is working.
 
 ### Recommended Workflow
+
 1. **Use VLC** (it’s the most reliable):
    - Install VLC.
    - Open `http://192.168.1.27/movies/yourfile.mkv` via `Cmd + N`.
@@ -73,6 +86,7 @@ Nginx handles range requests by default, which is what enables streaming. To con
    - Copy the URL of `yourfile.mkv` and paste it into VLC or IINA.
 
 ### Troubleshooting
+
 - **Buffering Issues**: Slow network or large `.mkv` files might lag—ensure your LAN is stable (e.g., Wi-Fi isn’t dropping).
 - **Codec Errors**: If VLC says "unsupported format," the `.mkv` might use rare codecs—try re-encoding it with HandBrake to H.264/AAC.
 - **Connection Refused**: Revisit firewall settings on the server (`sudo ufw allow 80` or equivalent).
@@ -84,6 +98,7 @@ With VLC or IINA, you’ll be streaming your `.mkv` files from your Mac in no ti
 Installing VLC on a Mac is straightforward. Here’s a quick guide to get it set up so you can stream your `.mkv` files from your Nginx server:
 
 ### Method 1: Download from the Official Website
+
 1. **Visit the VLC Website**:
    - Open your browser (e.g., Safari or Chrome).
    - Go to [https://www.videolan.org/vlc/](https://www.videolan.org/vlc/).
@@ -109,36 +124,45 @@ Installing VLC on a Mac is straightforward. Here’s a quick guide to get it set
    - Click **Open**.
 
 ### Method 2: Install via Homebrew (Terminal)
+
 If you prefer the command line and have Homebrew installed:
+
 1. **Install Homebrew** (if not already):
    - Open Terminal.
    - Run:
+
      ```bash
      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
      ```
+
    - Follow the prompts.
 
 2. **Install VLC**:
    - In Terminal:
+
      ```bash
      brew install vlc
      ```
 
 3. **Run VLC**:
    - Launch it from Terminal with:
+
      ```bash
      open -a VLC
      ```
+
    - Or find it in **Applications** as `VLC.app`.
 
 4. **Stream**:
    - Same as above: `Cmd + N`, enter your URL, and play.
 
 ### Verify Installation
+
 - Once installed, VLC should appear in your **Applications** folder.
 - Test it with a local file first (drag an `.mkv` into VLC) to ensure it works, then try streaming `http://192.168.1.27/movies/yourfile.mkv`.
 
 ### Troubleshooting
+
 - **Download Fails**: Use a mirror link from the VLC site if the main download is slow.
 - **Security Prompt**: If macOS blocks it, go to `System Settings > Security & Privacy > General` and click **Open Anyway**.
 - **Not Playing**: Ensure the URL is correct and your server is reachable (`ping 192.168.1.27` from Terminal).

@@ -79,21 +79,25 @@ npm update -g @musistudio/claude-code-router
 ## Debugging Steps
 
 1. **直接检查日志：**
+
 ```bash
 tail -f ~/.claude-code-router/logs/$(ls -t ~/.claude-code-router/logs/ | head -1)
 ```
 
 2. **在前台手动运行 `ccr start`** 以查看实际的错误输出：
+
 ```bash
 ccr start
 ```
 
 3. **验证 `claude` 是否可以从非交互式 shell 访问：**
+
 ```bash
 /bin/sh -c "which claude"
 ```
 
 4. **在 `ccr restart` 报告成功后，检查服务是否真的在运行：**
+
 ```bash
 ccr status
 curl http://127.0.0.1:3456

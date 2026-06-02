@@ -32,6 +32,7 @@ PTX equiv        AMDGPU ISA (open)   PTX → SASS (SASS closed)
 ```
 
 **Key insight:** NVIDIA's real moat isn't CUDA the language — it's **cuDNN + NCCL + the profiler ecosystem**. ROCm matches on paper but lags on:
+
 - `hipBLAS` performance on non-square matmuls (the real workload)
 - Multi-node `RCCL` vs `NCCL` at scale
 - Profiler (rocprof vs Nsight — Nsight wins badly)

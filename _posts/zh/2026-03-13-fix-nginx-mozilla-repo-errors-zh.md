@@ -30,6 +30,7 @@ sudo nano /etc/apt/sources.list.d/nginx.list
 ```
 
 将此更改为：
+
 ```
 deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu jammy nginx
 ```
@@ -39,6 +40,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://
 ```
 
 如果没有 `signed-by` 部分，只需添加 `[arch=amd64]`，如下：
+
 ```
 deb [arch=amd64] http://nginx.org/packages/ubuntu jammy nginx
 ```
@@ -88,6 +90,7 @@ sudo nano /etc/apt/apt.conf.d/99proxy-bypass
 ```
 
 添加：
+
 ```
 Acquire::https::packages.mozilla.org::DIRECT "true";
 ```

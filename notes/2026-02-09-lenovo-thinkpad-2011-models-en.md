@@ -17,6 +17,7 @@ Answer:
 Your description points strongly to a **Lenovo ThinkPad** series laptop from around 2010–2012 (Sandy Bridge / 2nd generation Intel Core i5 era), most likely a **business-oriented model** where WiFi was sometimes optional, disabled, removed, or failed over time. Consumer models (like IdeaPad) from that period almost always included built-in WiFi by default.
 
 ### Most Likely Series & Models
+
 - **ThinkPad T series** (very common match):
   - ThinkPad **T410** / **T420** (2010–2011)
     - Often shipped with Intel Core i5-520M / i5-540M / i5-2520M etc.
@@ -40,6 +41,7 @@ Your description points strongly to a **Lenovo ThinkPad** series laptop from aro
   - **IdeaPad** consumer models (e.g., Y560, Z570, V470, Z370) almost always had WiFi built-in (Intel Centrino or similar) in 2011 configs with i5 and 500GB HDD. "No WiFi" would be unusual unless the card failed or was removed later.
 
 ### Why "No WiFi, Only Ethernet"?
+
 - In 2011 business laptops (especially ThinkPads sold to companies/schools/governments), WiFi modules were sometimes **not installed** for security reasons (e.g., prevent unauthorized wireless access) or cost savings.
 - The WiFi card could have failed/been disconnected over time (common on 10+ year old machines).
 - BIOS might have it disabled.

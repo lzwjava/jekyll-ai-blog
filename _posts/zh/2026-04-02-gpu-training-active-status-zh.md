@@ -13,7 +13,7 @@ VPS 出现临时连接问题 — 训练正在 GPU droplet 上独立运行。让�
 
 ---
 
-## ✅ 一切就绪并正在运行！
+## ✅ 一切就绪并正在运行
 
 ### 我们已完成的事项
 
@@ -28,6 +28,7 @@ VPS 出现临时连接问题 — 训练正在 GPU droplet 上独立运行。让�
 | Start training | ✅ | PID 7952, GPU at 100% |
 
 ### GPU Droplet Status
+
 ```
 GPU: NVIDIA H200 — 100% utilization, 44% memory, 53°C
 Disk: 52GB used / 647GB free
@@ -35,7 +36,9 @@ Training: Running with train_fineweb.py config (125M model)
 ```
 
 ### 检查训练进度
+
 从 GPU droplet 终端：
+
 ```bash
 # Watch logs
 tail -20 /tmp/train.log
@@ -48,6 +51,7 @@ ps aux | grep train.py | grep -v grep
 ```
 
 ### 通过 SSH 实时查看训练
+
 ```bash
 ssh root@192.241.241.67
 tail -f /tmp/train.log

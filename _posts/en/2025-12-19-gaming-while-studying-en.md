@@ -17,6 +17,7 @@ Answer:
 Using downtime in games to study can have some practical benefits, but combining active gaming and serious studying simultaneously has limited advantages and potential drawbacks. Let's break it down clearly.
 
 ### Potential Benefits
+
 - **Utilizing dead time effectively**: Many mobile games (e.g., PUBG Mobile, Clash of Clans, or idle games) have built-in waiting periods—lobby times, matchmaking, energy regeneration, or hiding/waiting for enemies. During these low-attention moments, you can switch to quick study activities like:
   - Reviewing flashcards (Anki, Quizlet)
   - Reading short notes or summaries
@@ -29,6 +30,7 @@ Using downtime in games to study can have some practical benefits, but combining
 - **Reduced procrastination**: For people who feel guilty about "just gaming," interleaving study makes gaming feel more justified, encouraging them to open study materials they might otherwise avoid.
 
 ### Limitations and Drawbacks
+
 - **Divided attention harms deep learning**: True simultaneous multitasking (playing actively while studying) reduces retention and understanding. Research shows the human brain doesn't multitask well—switching attention causes cognitive costs (task-switching penalty), leading to poorer comprehension of complex or boring material.
 
 - **Waiting time isn't always reliable**: In games like PUBG Mobile, "waiting for enemies" can suddenly end with intense action, interrupting study flow. This fragmented attention is better for rote memorization (vocabulary, formulas) than conceptual learning (math proofs, literature analysis).
@@ -41,6 +43,7 @@ Using downtime in games to study can have some practical benefits, but combining
   - Turning off the game completely for focused study blocks.
 
 ### Conclusion
+
 Yes, there are some benefits—mainly making use of unavoidable downtime and leveraging game motivation to tackle boring material in small doses. It can work well for light review or memorization during true idle moments. However, it is not an efficient way to study difficult or deep topics, and active simultaneous gaming + studying usually harms more than helps. The most effective approach is intentional time management: use game waiting periods for quick reviews if they are truly passive, but separate focused study from active gameplay for best results.
 
 References:

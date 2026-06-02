@@ -18,6 +18,7 @@ Good — **Icarus Verilog** is installed (`iverilog` + `vvp`). Here's the full w
 The counter module has no testbench. Write one alongside it:
 
 **`counter_tb.v`**
+
 ```verilog
 `timescale 1ns / 1ps
 
@@ -72,6 +73,7 @@ vvp counter.vvp
 ```
 
 Output will look like:
+
 ```
 time=0     count=0
 time=200   count=0

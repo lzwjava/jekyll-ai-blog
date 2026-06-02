@@ -30,12 +30,14 @@ type: note
 1. **退出 Safari** — 之前仅关闭可关闭的标签页就释放了约 13.5 GB。当前 WebKit 占用 3.4 GB。如果您退出 Safari（或关闭高内存标签页），收益最大。
 
 2. **终止微信** — 1.2 GB。命令：
+
    ```bash
    pkill -9 WeChat
    pkill -9 WeChatAppEx
    ```
 
 3. **GitHub Desktop** — 占用较小，但若未使用：
+
    ```bash
    pkill -9 GitHub
    ```

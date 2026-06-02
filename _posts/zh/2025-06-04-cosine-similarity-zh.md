@@ -19,12 +19,14 @@ type: note
 \\]
 
 其中：
+
 - \\( A \\) 和 \\( B \\) 是两个向量（例如代表文档、嵌入或特征集）
 - \\( A \cdot B \\) 是向量的点积，计算公式为 \\( \sum_{i=1}^n A_i B_i \\)
 - \\( \|A\| \\) 和 \\( \|B\| \\) 分别是向量 \\( A \\) 和 \\( B \\) 的欧几里得范数（模长），计算方式为 \\( \sqrt{\sum_{i=1}^n A_i^2} \\) 和 \\( \sqrt{\sum_{i=1}^n B_i^2} \\)
 - \\( \theta \\) 是向量间的夹角
 
 结果范围如下：
+
 - **1**：向量方向完全相同（夹角 0°）
 - **0**：向量相互正交（夹角 90°），表示无相似性
 - **-1**：向量方向完全相反（夹角 180°），表示最大相异性
@@ -63,6 +65,7 @@ type: note
 ### 示例：文本分析中的余弦相似度
 
 假设有两个文档的 TF-IDF 向量表示：
+
 - 文档 1：\\( A = [2, 1, 0, 3] \\)（四个词的词频）
 - 文档 2：\\( B = [1, 1, 1, 0] \\)
 
@@ -107,7 +110,9 @@ A \cdot B = (2 \cdot 1) + (1 \cdot 1) + (0 \cdot 1) + (3 \cdot 0) = 2 + 1 + 0 + 
 ### 实践实现
 
 余弦相似度在多种机器学习库中均有实现：
+
 - **Python**：`scikit-learn` 在 `sklearn.metrics.pairwise` 中提供 `cosine_similarity`
+
   ```python
   from sklearn.metrics.pairwise import cosine_similarity
   import numpy as np
@@ -117,6 +122,7 @@ A \cdot B = (2 \cdot 1) + (1 \cdot 1) + (0 \cdot 1) + (3 \cdot 0) = 2 + 1 + 0 + 
   similarity = cosine_similarity(A, B)
   print(similarity)  # 输出：[[0.46225063]]
   ```
+
 - **TensorFlow/PyTorch**：用于深度学习模型中的嵌入向量比较
 - **Spark**：支持大规模分布式相似度计算
 

@@ -29,7 +29,8 @@ The machine rebooted **Friday Apr 10 at 21:41**, which explains why many session
 
 **No obvious signs of compromise**, but here's what I found:
 
-### What looks normal:
+### What looks normal
+
 - Only one user account (`lzwjava`) with actual logins -- no unknown users
 - No failed login attempts recorded
 - No SSH login attempts at all (good if you don't use SSH)
@@ -38,7 +39,8 @@ The machine rebooted **Friday Apr 10 at 21:41**, which explains why many session
 - No cron jobs
 - Running processes are all recognizable apps
 
-### Things worth noting (not necessarily bad):
+### Things worth noting (not necessarily bad)
+
 1. **Proxy/VPN tools**: ClashX Pro, ShadowsocksX-NG, and V2RayU are installed. These are common in China for GFW-bypass, but open listening ports that could theoretically be misconfigured
 2. **nginx on port 8081**: Running as user lzwjava -- check if you intentionally set this up
 3. **Redis on port 6379**: Bound to localhost only, so not externally accessible
@@ -47,7 +49,8 @@ The machine rebooted **Friday Apr 10 at 21:41**, which explains why many session
 6. **mihomo** (clash-based proxy) running as active process (PID 92432)
 7. **Multipass** (Canonical VM tool) and **Docker** daemon helpers are installed
 
-### Recommendations if you're concerned:
+### Recommendations if you're concerned
+
 1. Run `sudo log show --predicate 'eventMessage contains "authentication"' --last 24h` in a local terminal to see all authentication events
 2. Check if port 8081 (nginx) is intentional -- if not, stop it with `brew services stop nginx`
 3. Make sure Firewall is enabled: `sudo /usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate`

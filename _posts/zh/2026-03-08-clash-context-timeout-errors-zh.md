@@ -30,18 +30,23 @@ type: note
 ## 常见发生情况
 
 ### 1. Rule Provider / Proxy Provider Fetch Timeout
+
 当 Clash 尝试初始化 rule provider（例如远程 YAML 规则列表）时，可能失败并显示 `initial rule provider [name] error: context deadline exceeded`。这意味着 Clash 无法在允许时间内下载远程规则文件。常见原因：
+
 - rule provider URL 在您的地区不可访问或被屏蔽
 - 您的网络缓慢或远程服务器宕机
 - 文件非常大，在启动时下载时间过长
 
 ### 2. DNS Resolution Timeout
+
 Clash 日志可能显示类似 `dns resolve failed: context deadline exceeded` 的警告，当尝试解析域名时。这通常发生在：
+
 - Clash 中配置的 DNS 服务器不可达（尤其是 DoH/DoT 服务器，如 `https://dns.alidns.com` 或 `tls://1.1.1.1`）
 - 创建了路由循环，其中 DNS 查询通过 proxy 发送，而 proxy 本身需要 DNS 来解析——导致死锁
 - 系统代理启用，同时 Clash 自身的 DNS 配置错误
 
 ### 3. Proxy Node Connection Timeout
+
 当 Clash 尝试测试或连接到 proxy node（例如在 health checks 或 URL tests 中），如果节点未及时响应，就会出现相同的 `context deadline exceeded` 错误。
 
 ---

@@ -11,6 +11,7 @@ type: note
 ---
 
 ## "Computer Programming Fundamentals (Practice)" Course Examination Outline
+
 **Course Code: 13794**
 
 ---
@@ -46,19 +47,23 @@ The assessment content focuses on core knowledge points with practical significa
 ### 1. Data Types, Operators, and Input/Output
 
 **(1) Basic data types:**
+
 - Definition and use of int (integer), char (character), float (single-precision floating-point), double (double-precision floating-point)
 
 **(2) Constants and variables:**
+
 - Declaration of literal constants and symbolic constants (#define)
 - Declaration, initialization, and assignment rules for variables
 
 **(3) Operators and expressions:**
+
 - Priority and associativity of arithmetic operators (+, -, *, /, %)
 - Relational operators (>, <, ==, etc.)
 - Logical operators (&&, ||, !)
 - Legal writing and calculation of expressions
 
 **(4) Input/output:**
+
 - Correct use of scanf (input format control for different data types)
 - printf (output format control for different data types, such as %d, %c, %f)
 - Note: no space between % and format character
@@ -66,37 +71,44 @@ The assessment content focuses on core knowledge points with practical significa
 ### 2. Structured Programming
 
 **(1) Conditional statements:**
+
 - Syntax and logic implementation of if statements (single branch)
 - if-else statements (double branch)
 - switch-case statements (multiple branches)
 - Ability to handle nested conditional logic
 
 **(2) Loop statements:**
+
 - Syntax and applicable scenarios of for loop, while loop, do-while loop
 - Ability to implement batch data processing through loops (such as accumulation, counting)
 
 **(3) Jump statements:**
+
 - Correct use of break (exit loop/switch)
 - continue (skip current loop iteration)
 
 **(4) Compound structures:**
+
 - Nesting of conditional statements and loop statements
 - Ability to implement complex logic (such as multi-condition data filtering)
 
 ### 3. Arrays and Strings
 
 **(1) One-dimensional arrays:**
+
 - Array definition (such as int arr[10])
 - Initialization (complete initialization, partial initialization)
 - Accessing array elements through subscripts
 - Traversing arrays using loops
 
 **(2) Two-dimensional arrays:**
+
 - Basic definition (such as int mat[3][4])
 - Initialization and element access
 - Ability to complete simple two-dimensional array operations
 
 **(3) Strings:**
+
 - Definition and initialization of character arrays (such as char str[20] = "hello")
 - Use of common string processing functions:
   - strlen (length)
@@ -108,57 +120,69 @@ The assessment content focuses on core knowledge points with practical significa
 ### 4. Function Basics
 
 **(1) Function definition and declaration:**
+
 - Writing standards for function return value type, parameter list (formal parameters), and function body
 - Position of function declaration (prototype)
 
 **(2) Function calls:**
+
 - Syntax of function calls
 - Matching rules between actual parameters and formal parameters (type, quantity)
 - Difference between parameterless and parameterized function calls
 
 **(3) Variable scope:**
+
 - Scope of local variables (defined inside functions) and global variables (defined outside functions)
 - Avoiding variable name conflicts
 
 **(4) Simple function implementation:**
+
 - Ability to write functions that implement specific functions (such as summation, finding maximum)
 - Understanding the passing of function return values
 
 ### 5. Pointer Basics
 
 **(1) Pointer definition and initialization:**
+
 - Declaration of pointer variables (such as int *p)
 - Syntax of pointers pointing to variables (such as p = &a)
 - Concept of NULL pointer
 
 **(2) Pointers and arrays:**
+
 - Methods of accessing array elements through pointers (such as *(p+i) equivalent to arr[i])
 - Understanding the relationship between array names and pointers
 
 **(3) Pointers and variables:**
+
 - Syntax for modifying variable values through pointers (such as *p = 10)
 - Where * is the pointer dereference symbol
 - This statement is equivalent to a = 10, provided that p = &a
 
 **(4) Pointer operation precautions:**
+
 - Avoid using uninitialized wild pointers
 - Understand the risk of pointer out-of-bounds access
 
 ### 6. File Operations
 
 **(1) Opening and closing files:**
+
 - Opening files (fopen function)
 - Closing files (fclose function)
 
 **(2) File reading and writing:**
+
 - Character reading/writing (fgetc, fputc functions)
 - String reading/writing (fgets, fputs functions)
 
 **(3) File operation process:**
+
 - Must follow the order of "open file → perform read/write operations → close file"
 - Avoid resource leaks caused by unclosed files
 
 **(4) File opening failure handling:**
+
 - Check the return value of fopen function
 - If it is NULL (indicating opening failure), provide a prompt (such as printf("File opening failed\n");)
 
@@ -200,6 +224,7 @@ The assessment content focuses on core knowledge points with practical significa
 ## VI. Exam Network Environment Requirements
 
 The exam environment must meet:
+
 - Ability to access the online programming evaluation platform (pintia.cn)
 - Provide C language integrated development environment (Dev C++ or VS Code)
 

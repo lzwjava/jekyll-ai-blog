@@ -26,15 +26,18 @@ Java source code is compiled into `.class` files by the `javac` compiler, and th
 Every Java program has at least three class loaders:
 
 ### 1. Bootstrap (Primordial) Class Loader
+
 This is the root class loader, responsible for loading core Java classes such as `java.lang.Object` and other classes in the Java standard library. It is implemented in native code and is part of the JVM itself. There is no `ClassLoader` object corresponding to the Bootstrap Class Loader.
 
 - **Java 8 and earlier:** Loads from `<JAVA_HOME>/jre/lib/rt.jar`
 - **Java 9 and later:** Loads core Java classes from the modular runtime image, typically in `<JAVA_HOME>/lib/modules` or `<JAVA_HOME>/jmods`, integrated with the Java Platform Module System (JPMS).
 
 ### 2. Platform (Extension) Class Loader
+
 The extension class loader is responsible for loading classes that are part of the Java extension mechanism. In Java 8, it loads from the `lib/ext` directory of the JRE. In Java 9+, it became the **Platform Class Loader** working with the module system.
 
 ### 3. Application (System) Class Loader
+
 The application class loader is a standard Java class that loads classes from the directories and JAR files listed in the `CLASSPATH` environment variable or the `-classpath` command-line option. It loads the first class it finds if there are multiple versions, and it is the last class loader to search for a class. If it cannot find the class, the JVM throws a `ClassNotFoundException`.
 
 ---
@@ -59,12 +62,15 @@ As a consequence of the delegation model, it is easy to ensure unique classes, a
 ## Three Core Principles
 
 ### 1. Delegation
+
 When requested to find a class or resource, a class loader will delegate the search to its parent class loader before attempting to find the class or resource itself.
 
 ### 2. Visibility
+
 The Visibility Principle states that a class loaded by a parent ClassLoader is visible to the child ClassLoaders, but a class loaded by a child ClassLoader is not visible to the parent ClassLoaders.
 
 ### 3. Uniqueness
+
 The Uniqueness Property ensures that classes are unique and there is no repetition. This also ensures that classes loaded by parent class loaders are not loaded again by the child class loaders.
 
 However, note that a class is uniquely identified by `ClassLoader + ClassName`, meaning the same class loaded by two different ClassLoaders is treated as two distinct classes in the JVM.

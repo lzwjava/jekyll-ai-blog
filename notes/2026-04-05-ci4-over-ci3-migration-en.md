@@ -67,6 +67,7 @@ $session = \Config\Services::session();
 **Replace `REST_Controller`:**
 
 CI4 has native API resource controllers. Replace:
+
 ```php
 // CI3 pattern (broken)
 class Api extends REST_Controller { ... }

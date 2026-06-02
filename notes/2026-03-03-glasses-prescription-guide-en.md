@@ -21,6 +21,7 @@ Here's a breakdown of each part:
 - **OS** (Oculus Sinister) = Left eye
 
 **Right eye (OD):**
+
 - **SPH** (Sphere): **-4.50**
   This means moderate nearsightedness. Without glasses, distant objects appear blurry. The negative sign (-) indicates correction for myopia. -4.50 diopters is considered moderate myopia.
 
@@ -31,6 +32,7 @@ Here's a breakdown of each part:
   This number (from 1 to 180) shows the orientation (angle) of the astigmatism correction. 176° is very close to 180°, meaning the main meridian of astigmatism runs almost horizontally.
 
 **Left eye (OS):**
+
 - **SPH** (Sphere): **-2.25**
   This indicates mild-to-moderate nearsightedness. Distant vision is blurry but less severely than the right eye.
 

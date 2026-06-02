@@ -47,6 +47,7 @@ The text uses reductio ad absurdum arguments, rhetorical questions, and hyperbol
 ### Key Passages and Ideas
 
 The chapter contains several memorable formulations:
+
 - The impossibility of discussing the ocean with a well frog, or ice with a summer insect—each is bound by its limited experience
 - The relativity of "great" and "small," "noble" and "base"
 - The idea that from the Dao's perspective, nothing is more valuable than anything else
@@ -55,6 +56,7 @@ The chapter contains several memorable formulations:
 ### Influence and Significance
 
 "Qiushui" has profoundly influenced Chinese intellectual history, particularly in:
+
 - **Philosophy**: Challenging dogmatic thinking and promoting intellectual humility
 - **Aesthetics**: Informing Chinese landscape painting's emphasis on vastness and the insignificance of human figures
 - **Literature**: Providing imagery and allusions used throughout Chinese poetry and prose

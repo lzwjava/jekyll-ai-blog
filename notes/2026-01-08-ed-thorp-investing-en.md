@@ -18,7 +18,8 @@ The name "Ed Thrope" appears to be a misspelling of **Edward O. Thorp** (often c
 
 Edward Oakley Thorp (born August 14, 1932) is an American mathematician, former professor, author, and hedge fund manager widely regarded as the "father of quantitative investing" and a pioneer of the quantitative revolution in finance. He applied probability theory and mathematical models to both gambling and financial markets, achieving extraordinary success in both.
 
-### Key Contributions to Investing:
+### Key Contributions to Investing
+
 - **Pioneer of Quantitative Strategies**: Thorp was among the first to use mathematical and statistical methods to exploit market inefficiencies. He developed an option pricing model similar to (and predating) the famous Black-Scholes model by several years, which he used privately starting in 1967.
 - **Hedge Funds**:
   - Founded **Princeton Newport Partners** in 1969, considered the world's first market-neutral quantitative hedge fund. It focused on convertible arbitrage, warrant hedging, and statistical arbitrage, delivering approximately 19-20% annualized returns over nearly 20 years (1969–1989) with very low volatility and few down months.

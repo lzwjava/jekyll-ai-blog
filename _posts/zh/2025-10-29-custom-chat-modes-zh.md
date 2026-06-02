@@ -17,6 +17,7 @@ type: note
 自定义模式以 Markdown 文件形式存储，扩展名为 `.chatmode.md`，可以位于工作区（供团队共享）或用户配置文件中（供个人重复使用）。
 
 ### 为什么使用自定义聊天模式？
+
 - **定制响应**：强制执行指南，例如生成计划而不编辑代码。
 - **工具控制**：在规划时限制工具为只读，或在实现时启用编辑功能。
 - **效率提升**：为常见角色（如架构师、审查员）重复使用设置。
@@ -86,5 +87,6 @@ model: Claude Sonnet 4
 更多示例请查看 [Awesome Copilot 仓库](https://github.com/github/awesome-copilot/tree/main)中的社区贡献。
 
 ### 参考资料
+
 - [VS Code 中的自定义聊天模式](https://code.visualstudio.com/docs/copilot/customization/custom-chat-modes)
 - [在 VS Code 中开始使用聊天功能](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)

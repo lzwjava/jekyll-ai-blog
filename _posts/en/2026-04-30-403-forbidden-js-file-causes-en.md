@@ -24,9 +24,9 @@ Answer: A **403 Forbidden** error indicates that the server understands the requ
 
 ### Recommended Solutions
 
-1.  **Hard Refresh:** Force the browser to ignore the cache by pressing `Ctrl + F5` (Windows) or `Cmd + Shift + R` (Mac).
-2.  **Clear Site Data:** Open Developer Tools (`F12`), go to the **Application** tab, select **Storage**, and click **Clear site data**. This removes old service workers and cookies that might be causing the conflict.
-3.  **Disable VPN/Proxy:** If you are using a VPN, try disconnecting or switching to a different region, as the current IP might be blacklisted by their security provider.
-4.  **Incognito Mode:** Try accessing the site in a private window. If it works there, one of your browser extensions is likely the culprit.
+1. **Hard Refresh:** Force the browser to ignore the cache by pressing `Ctrl + F5` (Windows) or `Cmd + Shift + R` (Mac).
+2. **Clear Site Data:** Open Developer Tools (`F12`), go to the **Application** tab, select **Storage**, and click **Clear site data**. This removes old service workers and cookies that might be causing the conflict.
+3. **Disable VPN/Proxy:** If you are using a VPN, try disconnecting or switching to a different region, as the current IP might be blacklisted by their security provider.
+4. **Incognito Mode:** Try accessing the site in a private window. If it works there, one of your browser extensions is likely the culprit.
 
 How long has this error been occurring, and are you using any specific network tools like a VPN or a custom DNS?

@@ -29,6 +29,7 @@ Ruff 是一个极快的 Python linter 和代码格式化工具，用 Rust 编写
 - 它在 `pyproject.toml` 中配置了 **针对性的忽略规则**，意味着针对本项目不适用的特定规则被抑制，只有有意义的警告才会出现。
 
 示例 `pyproject.toml` 配置：
+
 ```toml
 [tool.ruff.lint]
 select = ["E", "F", "UP", "B", "I"]
@@ -73,6 +74,7 @@ uv sync
 | **mypy** | 更老、更成熟、更广泛的社区采用 |
 
 添加到 `.pre-commit-config.yaml`：
+
 ```yaml
 - repo: https://github.com/pre-commit/mirrors-mypy
   rev: v1.x.x

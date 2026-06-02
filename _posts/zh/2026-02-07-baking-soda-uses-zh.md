@@ -26,6 +26,7 @@ Baking soda 是一种用途广泛的碱性化合物，具有许多实际用途�
 **安全提示**：仅限使用食品级产品进行食用；避免大量摄入（可能导致碱中毒）；除非有明确指导，否则请勿与强酸混合。
 
 **References：**
+
 - [Sodium bicarbonate (little soda) fine powder](https://www.standard-chem.com/news/sodium-bicarbonate-little-soda-fine-powder-loading-in-the-port)
 - [Little Soda 25kg](https://www.goldsupplier.com/provide/p173271143.html)
 - [Shandong Haihua Supply Chain - Little Soda](https://haihuasupply.goldsupplier.com/)

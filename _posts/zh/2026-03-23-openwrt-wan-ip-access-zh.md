@@ -18,6 +18,7 @@ type: note
 以下是失败的原因以及你可以采取的措施：
 
 ### 典型的家庭网络设置（最常见的失败原因）
+
 - 主路由器：192.168.1.1（或类似地址）
 - OpenWrt WAN 端口连接到主路由器 LAN → OpenWrt 获取私网 WAN IP（例如 192.168.1.50）
 - OpenWrt LAN：192.168.2.1（或你设置的任何地址；应与主路由器处于不同网段）
@@ -36,7 +37,7 @@ type: note
 ### 解决方案（任选其一）
 
 1. **推荐且最简单的方案**
-   直接使用 OpenWrt 的 **LAN IP**（例如 http://192.168.2.1 或 http://openwrt.lan）。
+   直接使用 OpenWrt 的 **LAN IP**（例如 <http://192.168.2.1> 或 <http://openwrt.lan）。>
    几乎没有理由强行从内部网络通过 WAN IP 进行访问。
 
 2. **如果你确实想通过 WAN IP 访问**
@@ -71,7 +72,7 @@ type: note
 
 **References:**
 
-- https://forum.openwrt.org/t/solved-routed-ap-from-wan-instead-of-lan/228578
-- https://openwrt.org/docs/guide-user/network/openwrt_as_routerdevice
-- https://forum.openwrt.org/t/22-03-2-nat-reflection-hairpinning/146458
-- https://www.reddit.com/r/openwrt/comments/1gmsr17/how_to_access_my_openwrt_router_from_wan_when_im
+- <https://forum.openwrt.org/t/solved-routed-ap-from-wan-instead-of-lan/228578>
+- <https://openwrt.org/docs/guide-user/network/openwrt_as_routerdevice>
+- <https://forum.openwrt.org/t/22-03-2-nat-reflection-hairpinning/146458>
+- <https://www.reddit.com/r/openwrt/comments/1gmsr17/how_to_access_my_openwrt_router_from_wan_when_im>

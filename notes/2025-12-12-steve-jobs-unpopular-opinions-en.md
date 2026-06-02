@@ -37,6 +37,7 @@ Steve Jobs is widely celebrated as a visionary genius, but many people who worke
 These opinions remain “unpopular” because the mainstream narrative—fueled by keynote videos, the Walter Isaacson biography, and Apple’s own marketing—still portrays him as an almost messianic figure. But among many Silicon Valley old-timers, ex-Apple employees, and critical biographers, the above takes are commonplace, just rarely voiced publicly while the myth machine is still running.
 
 References:
+
 - Walter Isaacson, *Steve Jobs* (2011 official biography – surprisingly candid about the darker sides)
 - Leander Kahney, *Jony Ive: The Genius Behind Apple’s Greatest Products* (2013)
 - Mike Daisey’s (later corrected) monologue and subsequent reporting on Foxconn conditions under Jobs

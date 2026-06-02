@@ -29,7 +29,7 @@ Let's do the math properly first, then the setup.
 | BF16 | ~1.34 TB | Way too much for single node |
 | INT4 (GPTQ/AWQ) | ~190 GB | Lossy but viable |
 
-### Your hardware:
+### Your hardware
 
 | GPU | VRAM | Notes |
 |-----|------|-------|

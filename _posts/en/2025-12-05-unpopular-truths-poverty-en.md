@@ -26,4 +26,5 @@ Answer:
 - Poverty mindsets ("I’ll always be poor," "Rich people are evil") are often more limiting than actual lack of money, and they get passed down generationally more reliably than wealth does.
 
 References:
+
 - Observations commonly found in threads on Reddit’s r/povertyfinance (especially “Brutal Truth” threads), Quillette and American Affairs essays on welfare traps, Charles Murray’s Coming Apart and Losing Ground, Theodore Dalrymple’s Life at the Bottom, Thomas Sowell’s Wealth, Poverty and Politics.

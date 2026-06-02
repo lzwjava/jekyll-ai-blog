@@ -9,13 +9,13 @@ translated: false
 type: note
 ---
 
-Question: Why is the Hermes Agent repository (https://github.com/nousresearch/hermes-agent) popular?
+Question: Why is the Hermes Agent repository (<https://github.com/nousresearch/hermes-agent>) popular?
 
 Answer:
 
 Hermes Agent is an open-source, self-improving AI agent framework developed by Nous Research. It has gained massive popularity in the AI community, amassing around 49.6k GitHub stars and 6.4k forks shortly after its release in early 2026. This rapid growth reflects strong interest in advanced, persistent AI agents that go beyond one-off interactions.
 
-### Key Reasons for Its Popularity:
+### Key Reasons for Its Popularity
 
 - **Self-Improving Learning Loop**: Unlike traditional agents that reset after each session, Hermes features a closed learning loop. It autonomously creates skills from user interactions, refines them over time, persists knowledge across sessions, searches past conversations with full-text search and LLM summarization, and builds a deepening model of the user. This "agent that grows with you" capability addresses a common frustration with AI tools that "forget" previous context, making it feel more like a true long-term collaborator.
 
@@ -41,6 +41,7 @@ Hermes Agent is an open-source, self-improving AI agent framework developed by N
 In summary, Hermes Agent stands out for solving core limitations in current AI agents—lack of long-term memory and self-evolution—while remaining practical, affordable, and extensible. Its popularity stems from delivering a more "alive" and evolving AI experience that feels genuinely useful for complex, ongoing tasks.
 
 References:
+
 - [GitHub Repository](https://github.com/nousresearch/hermes-agent)
 - [Hermes Agent Documentation](https://hermes-agent.nousresearch.com/docs/)
 - [Turing Post Article on Hermes vs. OpenClaw](https://www.turingpost.com/p/hermes)

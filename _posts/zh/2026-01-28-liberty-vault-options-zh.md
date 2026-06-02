@@ -32,18 +32,22 @@ Liberty 中**没有直接的 Vault 解析器**，如 `${vault:secret/path#key}`�
    使用 Vault Agent 将机密渲染为文件。然后 Liberty 可以将它们作为来自文件系统的配置变量读取。
 
    - 以 sidecar 模式运行 Vault Agent（或作为 init container）进行身份验证（例如通过 Kubernetes auth、AppRole 等），并将机密写入文件，如：
+
      ```
      /config/variables/db_password
      /config/variables/db_username
      ```
+
    - Liberty 会自动将 `/config/variables/`（或类似配置路径）下的文件视为变量。
    - 在 `server.xml` 中：
+
      ```xml
      <dataSource id="DefaultDataSource" jndiName="jdbc/myapp">
          <jdbcDriver libraryRef="DerbyLib"/>
          <properties.derby.embedded databaseName="memory:db" user="${db_username}" password="${db_password}"/>
      </dataSource>
      ```
+
    - 这在 Open Liberty 中得到明确支持/文档化（在 WebSphere Liberty 中同样有效），前提是使用 Vault Agent 来填充文件。
 
 2. **Vault Agent 模板 → 环境变量**

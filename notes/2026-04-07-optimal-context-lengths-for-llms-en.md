@@ -28,6 +28,7 @@ This lands right in the **middle** of the 16,384–32,768 range discussed previo
 - 32,768 (32K)
 
 This is because:
+
 - Transformer attention mechanisms and GPU memory allocations are optimized for power-of-2 sizes
 - Most inference frameworks (llama.cpp, vLLM, Ollama, LM Studio) internally align KV cache blocks to powers of 2
 - A non-power-of-2 value like 24,576 may work, but it can cause **suboptimal memory allocation** or padding waste internally

@@ -39,6 +39,7 @@ Here are my top recommendations for the best sessions, prioritized for beginners
 If you're short on time, start with Karpathy's intro and Vaswani's talk—they cover the essentials. For the latest V5 content (Spring 2025), check the overview session first. The whole series is free and seminar-like, so sessions build on each other but can be watched standalone.
 
 **References:**
+
 - [CS25 Official Recordings Page](https://web.stanford.edu/class/cs25/recordings/)
 - [Full YouTube Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 - [Reddit Thread on V5 AI Agents Lectures](https://www.reddit.com/r/stanford/comments/1mzhxpy/seeking_resources_for_stanford_cs25_v5_lectures/)

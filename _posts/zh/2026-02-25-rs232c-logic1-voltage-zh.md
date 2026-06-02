@@ -21,7 +21,6 @@ type: note
 
 RS-232C 在数据传输线上使用 **inverted (negative logic)** 电压方案，这与大多数数字逻辑标准相比有些反直觉。
 
-
 | State | Driver Output Voltage | Receiver Threshold |
 |---|---|---|
 | **Logic "1" (MARK)** | **-5V to -15V** | -3V to -15V |
@@ -38,7 +37,8 @@ RS-232C 在数据传输线上使用 **inverted (negative logic)** 电压方案�
 - 考虑到 2V 噪声裕度，低电平 (-3V to -15V) 在 **receiver** 输入被定义为逻辑 1 (marking)。
 
 因此区别是：
-- **Driver output** （发送器发送的内容）：** -5V to -15V** → 这是 **答案 D**
+
+- **Driver output** （发送器发送的内容）：**-5V to -15V** → 这是 **答案 D**
 - **Receiver threshold** （被接受为有效逻辑 1 的内容）：-3V to -15V → 这对应选项 C
 
 选项 C (-13V to -3V) 描述了 **receiver** 检测范围（带噪声裕度），而不是驱动器输出要求。考试答案 **D (-15V ~ -5V)** 指的是 **driver** 所需输出电压，以正确表示逻辑 "1"。

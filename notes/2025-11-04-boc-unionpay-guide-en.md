@@ -13,6 +13,7 @@ type: note
 Your BOC HK (Bank of China Hong Kong) physical debit card, which is UnionPay-branded, is a dual-currency card (typically linked to HKD and RMB accounts) designed for secure transactions via the UnionPay network. Since you've already activated overseas withdrawals through the BOCHK app (which lifts the default zero daily limit for security), it's ready for international use. Here's a breakdown of what you can use it for, based on official details:
 
 ### Key Uses
+
 - **ATM Cash Withdrawals**:
   - Withdraw cash from over 1.7 million ATMs worldwide displaying the UnionPay logo (common in Asia, Europe, North America, and major travel spots like Hong Kong, Macau, Singapore, Australia, and the US).
   - Also works at BOC or JETCO network ATMs (over 3,000 in Hong Kong, Mainland China, and Macau—no activation needed for JETCO in Macau).
@@ -34,6 +35,7 @@ Your BOC HK (Bank of China Hong Kong) physical debit card, which is UnionPay-bra
   - Not ideal for everywhere (e.g., some US merchants prefer Visa/Mastercard), but great for Asia-focused travel. Always carry a backup card.
 
 ### Tips
+
 - Check acceptance: Use the UnionPay app or website to locate nearby ATMs/POS.
 - Security: Monitor via BOCHK app; report issues to +852 2691 2323.
 - If your card has both HKD/RMB accounts, enable Auto-Transfer in the app for seamless debits.

@@ -10,7 +10,8 @@ type: note
 
 The `maven-shade-plugin` is a Maven plugin used to create an "uber-JAR" (a single, self-contained JAR file) by combining a project’s compiled code with its dependencies. It’s commonly used in Java projects to package an application and all its required libraries into one executable JAR file, simplifying distribution and deployment.
 
-### Key Details:
+### Key Details
+
 - **Group ID**: `org.apache.maven.plugins` (indicates it’s an official Apache Maven plugin).
 - **Artifact ID**: `maven-shade-plugin` (the specific plugin name).
 - **Purpose**:
@@ -25,6 +26,7 @@ The `maven-shade-plugin` is a Maven plugin used to create an "uber-JAR" (a singl
   - Configured in the `pom.xml` file under the `<plugins>` section.
   - During the build process (typically in the `package` phase), it combines classes and resources, optionally relocates packages, and produces the final JAR.
 - **Example Configuration** in `pom.xml`:
+
   ```xml
   <plugin>
       <groupId>org.apache.maven.plugins</groupId>
@@ -47,6 +49,7 @@ The `maven-shade-plugin` is a Maven plugin used to create an "uber-JAR" (a singl
       </executions>
   </plugin>
   ```
+
   This example specifies the main class for an executable JAR and runs the plugin during the `package` phase.
 
 - **Key Features**:
@@ -55,7 +58,8 @@ The `maven-shade-plugin` is a Maven plugin used to create an "uber-JAR" (a singl
   - **Resource Filtering**: Merges or transforms resource files.
   - **Executable JAR**: Adds manifest entries to make the JAR executable with `java -jar`.
 
-### When to Use:
+### When to Use
+
 - When you need a single JAR for easy distribution.
 - When dealing with dependency conflicts (e.g., different versions of the same library).
 - For deploying applications to environments where external dependencies are hard to manage.

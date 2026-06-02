@@ -11,7 +11,6 @@ type: post
 
 This Python code implements real-time speech recognition using Google Cloud Speech-to-Text API and the PyAudio library. It captures audio from the microphone, streams it to the Speech-to-Text API, and prints the transcribed text. The `MicrophoneStream` class handles audio input, and the `main` function sets up the speech recognition client and processes the audio stream.
 
-
 ```python
 import os
 import argparse

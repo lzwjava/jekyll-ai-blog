@@ -138,6 +138,7 @@ The agent's value is in **planning and synthesis**, not sequential execution.
 ## The Deeper Limit: Context Window as Serializer
 
 Even with parallel sub-agents, there's another serializer: **the context window**. When you fan-in results, everything has to fit back into one context for synthesis. For 50 parallel results, you either:
+
 - Summarize each before fan-in (hierarchical reduction)
 - Use embeddings + retrieval instead of raw concat
 - Stream results into a structured store (DB/file), agent queries it

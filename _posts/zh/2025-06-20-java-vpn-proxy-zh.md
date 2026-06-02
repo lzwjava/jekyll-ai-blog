@@ -11,6 +11,7 @@ type: note
 要使用 Netty 或 Spring Boot 构建基于 Java 的 Clash VPN 代理客户端，我们需要一个健壮的框架来处理网络通信、YAML 配置解析以及 SOCKS、HTTP 和 Shadowsocks 等代理协议。Netty 适用于高性能网络通信，而 Spring Boot 可以简化配置和依赖管理。下面我将概述核心逻辑、主要依赖库，并提供一个基于 Netty 网络层的示例实现（因其更擅长底层代理操作）。该客户端将支持主流 Clash YAML 配置（如代理服务器、规则和 DNS 设置）。
 
 ### 核心逻辑
+
 1. **配置解析**：
    - 解析兼容 Clash 的 YAML 配置文件（如 `config.yaml`），包含代理服务器、规则和 DNS 设置
    - 支持常见代理类型：HTTP、SOCKS5、Shadowsocks 等
@@ -41,6 +42,7 @@ type: note
    - 提供详细调试日志
 
 ### 主要依赖库
+
 - **Netty**：用于高性能网络通信和事件驱动 I/O，处理客户端连接、代理转发和协议编解码
 - **SnakeYAML**：解析 Clash 兼容的 YAML 配置文件
 - **Bouncy Castle**：用于加密操作（如 Shadowsocks AEAD 加密）
@@ -50,7 +52,9 @@ type: note
 - **DNSJava（可选）**：用于自定义 DNS 解析
 
 ### 核心实现
+
 以下是简化的 Netty 实现示例，重点包含：
+
 - 解析 Clash YAML 配置
 - 搭建 SOCKS5 代理服务器
 - 将请求转发至上游代理或目标地址
@@ -183,6 +187,7 @@ public class ClashProxyClient {
 ```
 
 ### 示例 YAML 配置
+
 以下是与上述代码兼容的 `config.yaml` 示例：
 
 ```yaml
@@ -201,6 +206,7 @@ rules:
 ```
 
 ### 核心逻辑说明
+
 - **YAML 解析**：`loadConfig` 方法使用 SnakeYAML 将 Clash 配置解析为 `ProxyConfig` 对象，其中包含代理定义和路由规则
 - **Netty 服务端**：`start` 方法搭建监听 7890 端口的 Netty 服务端，使用 Netty 内置 SOCKS5 编解码器处理协议请求
 - **请求处理**：`ProxyHandler` 处理 SOCKS5 命令请求，应用路由规则并选择上游代理或直连
@@ -208,6 +214,7 @@ rules:
 - **扩展性**：采用模块化设计，可通过扩展 `ProxyHandler` 轻松添加新协议（如 Shadowsocks）
 
 ### 后续开发
+
 1. **协议支持**：为 Shadowsocks（使用 Bouncy Castle 加密）和 HTTP 代理添加处理器
 2. **高级路由**：通过正则表达式或规则引擎实现完整 Clash 规则解析（如 GEOIP、DOMAIN-SUFFIX）
 3. **DNS 处理**：集成 DNSJava 或自定义解析器以实现 Clash DNS 设置
@@ -215,6 +222,7 @@ rules:
 5. **Spring Boot（可选）**：如需 Spring Boot，可将其用于配置管理和监控 REST 接口，但核心代理逻辑仍用 Netty
 
 ### 依赖配置（Maven）
+
 在 `pom.xml` 中添加：
 
 ```xml

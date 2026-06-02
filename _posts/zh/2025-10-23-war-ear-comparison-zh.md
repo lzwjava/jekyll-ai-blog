@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 在 Java EE（现称为 Jakarta EE）中，WAR（Web 归档文件）和 EAR（企业归档文件）是将应用程序部署到应用服务器（如 Tomcat、WildFly 或 GlassFish）的标准打包格式。WAR 专注于 Web 层组件，而 EAR 则为完整的企业应用程序捆绑多个模块。以下是详细对比。
 
 | 对比维度           | WAR（Web 归档文件）                                                                 | EAR（企业归档文件）                                                                 |
@@ -25,6 +26,7 @@ type: note
 | **依赖管理**     | 依赖容器提供 Web 服务；不支持 EJB。                                              | 支持 EJB、JMS 及跨模块依赖；促进松耦合架构。                                             |
 
 ### 核心差异总结
+
 - **模块化**：WAR 是面向 Web 层的单体结构；EAR 支持组合多个 WAR/JAR 模块。
 - **服务器要求**：WAR 可运行于轻量级 Web 服务器；EAR 需完整 JEE 服务器支持。
 - **发展趋势**：随着微服务与云原生技术（如 Spring Boot、Quarkus）普及，WAR 常用于容器化部署（Docker），而 EAR 更多用于遗留企业系统。

@@ -93,6 +93,7 @@ Agent premain() 运行
 简而言之：OpenTelemetry Java agent 是一个基于 `java.lang.instrument` 的复杂 agent，它使用 Byte Buddy 在加载时动态重写应用程序类，根据数十个内置检测库插入跟踪、指标和上下文传播逻辑——所有这些都无需代码更改。
 
 参考资料：
+
 - [OpenTelemetry Java Instrumentation 仓库](https://github.com/open-telemetry/opentelemetry-java-instrumentation)
 - [官方文档 – Java Agent](https://opentelemetry.io/docs/instrumentation/java/automatic/)
 - [Byte Buddy – agent 背后的引擎](https://bytebuddy.net/)

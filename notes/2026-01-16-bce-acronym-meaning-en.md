@@ -26,6 +26,7 @@ BCE is the modern, religiously neutral equivalent of **BC** ("Before Christ").
 - **CE** = Common Era
 
 Both BC/BCE refer to the same years. For example:
+
 - 500 BC = 500 BCE
 - 44 BC (year Julius Caesar died) = 44 BCE
 

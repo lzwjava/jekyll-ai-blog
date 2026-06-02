@@ -23,6 +23,7 @@ Answer:
 The **Established** state in the BGP finite state machine is reached only after the TCP three-way handshake is successfully completed and the BGP peers have exchanged valid Open messages, followed by Keepalive messages. This is the only state in which the BGP session is fully operational and routing information (Update messages) can be exchanged.
 
 For reference, the relevant BGP neighbor states related to TCP connection setup are:
+
 - **Idle**: Initial state, no connection attempt yet.
 - **Connect**: Waiting for the TCP three-way handshake to complete.
 - **Active**: TCP handshake failed or timed out; actively retrying to establish TCP.

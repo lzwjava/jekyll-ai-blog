@@ -15,6 +15,7 @@ type: note
 Jenkins 支持不同类型的任务（也称为项目），最常见的是**自由风格项目**（适用于简单构建）和**流水线项目**（适用于使用 Jenkinsfile 的更复杂脚本化工作流）。下面我将概述这两种类型的配置步骤。假设您已安装并运行 Jenkins（例如通过 Docker 或在服务器上）。访问 Jenkins 仪表板（地址为 `http://localhost:8080` 或您的服务器 URL）并登录。
 
 #### 创建和配置自由风格项目的步骤
+
 自由风格项目操作简单，使用图形界面配置步骤，非常适合初学者或简单的代码构建和测试任务。
 
 1. **新建任务**：
@@ -63,6 +64,7 @@ Jenkins 支持不同类型的任务（也称为项目），最常见的是**自�
    - 查看控制台输出获取详细信息
 
 #### 创建和配置流水线项目的步骤
+
 流水线通过代码定义（声明式或脚本式），为 CI/CD 工作流提供更灵活的配置方式。
 
 1. **新建任务**：
@@ -78,6 +80,7 @@ Jenkins 支持不同类型的任务（也称为项目），最常见的是**自�
 4. **流水线定义**：
    - 选择**Pipeline script**直接编写代码，或选择**Pipeline script from SCM**从代码仓库获取（例如 Git 中的 `Jenkinsfile`）
    - 声明式流水线脚本示例：
+
      ```
      pipeline {
          agent any
@@ -107,6 +110,7 @@ Jenkins 支持不同类型的任务（也称为项目），最常见的是**自�
          }
      }
      ```
+
    - 此示例定义了包含构建、测试、部署阶段的流水线
 
 5. **保存并运行**：
@@ -120,6 +124,7 @@ Jenkins 在每个配置区域都提供了丰富选项，请根据需求进行探
 Jenkins 通过**插件**（超过2000个可用）具有高度可扩展性，可与 DevOps 生态中的几乎所有工具集成。这些集成支持构建触发、部署、测试、通知等功能。插件可通过**管理 Jenkins > 管理插件**安装。
 
 #### 按类别划分的常见集成
+
 - **版本控制**：Git、GitHub、GitLab、Bitbucket、SVN – 用于拉取代码并通过 Webhook 在提交/推送事件时触发构建
 - **容器化与编排**：Docker（构建/推送镜像）、Kubernetes（部署到集群）、Helm – 用于基于容器的工作流
 - **云服务商**：AWS（通过插件使用 EC2、S3、Lambda）、Azure、Google Cloud – 用于部署到云基础设施
@@ -135,6 +140,7 @@ Jenkins 通过**插件**（超过2000个可用）具有高度可扩展性，可�
 如需了解更多，请查阅官方插件索引。请定期更新插件以确保安全。
 
 #### 参考资料
+
 - [使用项目 - Jenkins](https://www.jenkins.io/doc/book/using/working-with-projects/)
 - [Jenkins - 设置构建任务 - Tutorials Point](https://www.tutorialspoint.com/jenkins/jenkins_setup_build_jobs.htm)
 - [如何在 Jenkins 中创建和配置构建任务 | BrowserStack](https://www.browserstack.com/guide/build-jobs-in-jenkins)

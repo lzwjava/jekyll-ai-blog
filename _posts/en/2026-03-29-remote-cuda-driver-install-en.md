@@ -41,6 +41,7 @@ DEBIAN_FRONTEND=noninteractive apt install -y nvidia-driver-580 nvidia-utils-580
 First attempt: `apt install cuda-toolkit-12-8` — **failed**, package not in default Ubuntu repos.
 
 Fixed by adding NVIDIA's official repo:
+
 ```bash
 wget cuda-keyring_1.1-1_all.deb   # Sets up NVIDIA's apt source + GPG key
 dpkg -i cuda-keyring_1.1-1_all.deb
@@ -51,9 +52,11 @@ apt install cuda-toolkit-12-8
 Second attempt: SSH connection **dropped mid-install** (exit code 255 = connection killed). Long-running apt over SSH is risky.
 
 Third attempt: Used `nohup` to background the install on the remote:
+
 ```bash
 nohup apt install -y cuda-toolkit-12-8 > /tmp/cuda-install.log 2>&1 &
 ```
+
 But hit a **lock conflict** — the earlier apt process (PID 23704) was still alive from the dropped SSH session. The duplicate waited on `/var/lib/dpkg/lock-frontend` forever.
 
 Fix: Killed the duplicate, waited for the original apt to finish, confirmed with `dpkg -l cuda-toolkit-12-8`.
@@ -61,6 +64,7 @@ Fix: Killed the duplicate, waited for the original apt to finish, confirmed with
 **Step 6 — Configure PATH**
 
 CUDA installs to `/usr/local/cuda-12.8/bin` which isn't in PATH by default. Added to `~/.bashrc`:
+
 ```bash
 export PATH=/usr/local/cuda-12.8/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH

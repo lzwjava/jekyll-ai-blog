@@ -38,12 +38,14 @@ Typical causes include:
 
 **Why 300 GB is possible**
 A single line is ~100–200 bytes. At 10–1000 lines/second (easy in tight loops), it fills space very quickly:
+
 - ~100 lines/sec → ~1 GB/hour → ~24 GB/day
 - Faster loops (dbus retry storms) can reach several GB per hour.
 
 **Immediate emergency actions** (when disk is already full)
 
 1. Stop CUPS immediately to halt logging
+
    ```
    sudo systemctl stop cups
    # or if systemd is broken due to no space:
@@ -51,6 +53,7 @@ A single line is ~100–200 bytes. At 10–1000 lines/second (easy in tight loop
    ```
 
 2. Free space by truncating or deleting the huge log
+
    ```
    sudo truncate -s 0 /var/log/cups/error_log
    # or
@@ -58,6 +61,7 @@ A single line is ~100–200 bytes. At 10–1000 lines/second (easy in tight loop
    ```
 
 3. Restart CUPS (only after fixing root cause)
+
    ```
    sudo systemctl start cups
    ```
@@ -65,14 +69,16 @@ A single line is ~100–200 bytes. At 10–1000 lines/second (easy in tight loop
 **Long-term prevention**
 
 - Find and remove/fix the problematic printer in CUPS
-  → http://localhost:631 → Administration → Manage Printers → delete suspicious ones
+  → <http://localhost:631> → Administration → Manage Printers → delete suspicious ones
 
 - Lower log level in `/etc/cups/cupsd.conf`
+
   ```
   LogLevel warn        # or error / info (instead of debug)
   ```
 
   Then restart CUPS:
+
   ```
   sudo systemctl restart cups
   ```

@@ -19,6 +19,7 @@ The **form-data** npm package is a popular Node.js library that helps create **m
 In browsers, you can use the native **FormData** API to prepare such data. However, Node.js (especially older versions) did not have a built-in FormData class that could generate proper multipart streams, so **form-data** fills this gap.
 
 ### Main purpose
+
 - It lets you build a **multipart/form-data** body programmatically
 - It creates a readable stream that you can pipe directly to libraries like **axios**, **node-fetch**, **request** (older), **undici**, or raw **http/https** module
 - It automatically handles boundary generation, headers, and proper formatting of text fields, buffers, streams, and files
@@ -62,6 +63,7 @@ axios.post('https://example.com/upload', form, {
 ```
 
 ### Modern alternatives (2025–2026 context)
+
 Since **Node.js 18+**, a native **`FormData`** class exists and can be used with **`fetch()`** or modern clients like **undici**. Many projects now prefer it instead of the **form-data** package because:
 
 - It's spec-compliant with the browser FormData API

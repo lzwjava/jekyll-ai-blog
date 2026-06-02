@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: How about changing to Cloudflare DNS servers in the Clash configuration, like using nameserver 8.8.8.8 and 1.1.1.1 with fallback https://1.1.1.1/dns-query?
+Question: How about changing to Cloudflare DNS servers in the Clash configuration, like using nameserver 8.8.8.8 and 1.1.1.1 with fallback <https://1.1.1.1/dns-query>?
 
 Answer:
 
@@ -54,8 +54,8 @@ dns:
 
 | Setting                  | Your Proposal                          | Recommended (above)                          | Why better?                                                                 |
 |--------------------------|----------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------|
-| `nameserver`             | 8.8.8.8, 1.1.1.1 (plain DNS)           | DoH: https://1.1.1.1/dns-query               | Encrypted → prevents ISP/government from seeing or tampering with DNS queries |
-| `fallback`               | https://1.1.1.1/dns-query              | Multiple DoH + DoT                           | Redundancy + avoids single-point failure or temporary blocks                   |
+| `nameserver`             | 8.8.8.8, 1.1.1.1 (plain DNS)           | DoH: <https://1.1.1.1/dns-query>               | Encrypted → prevents ISP/government from seeing or tampering with DNS queries |
+| `fallback`               | <https://1.1.1.1/dns-query>              | Multiple DoH + DoT                           | Redundancy + avoids single-point failure or temporary blocks                   |
 | `enhanced-mode`          | not set                                | fake-ip                                      | Hides real destination IPs from apps, reduces DNS pollution/leak risk         |
 | `fallback-filter`        | not set                                | geoip + domain rules                         | Smart fallback: only use foreign DNS for foreign sites, direct for local/CN   |
 
@@ -83,7 +83,7 @@ dns:
 ### Final tips
 
 - After changing DNS settings → restart Clash completely.
-- Test for leaks: Visit https://ipleak.net or https://dnsleaktest.com in browser (should show only 1.1.1.1 or your proxy IP).
+- Test for leaks: Visit <https://ipleak.net> or <https://dnsleaktest.com> in browser (should show only 1.1.1.1 or your proxy IP).
 - If using **TUN mode**, make sure `dns-hijack: [any:53]` is also enabled — it forces all system DNS through Clash.
 - If you see slow resolution or failures → try removing 8.8.8.8 entirely and stick to DoH only.
 

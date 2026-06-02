@@ -48,6 +48,7 @@ sudo diskutil eraseDisk FAT32 MYUSB MBRFormat /dev/disk3
 ```
 
 Replace:
+
 - `MYUSB` → your desired volume name (no spaces, max 11 characters)
 - `/dev/disk3` → your actual USB disk identifier
 

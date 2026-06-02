@@ -26,6 +26,7 @@ This is the officially supported way. Open your README for editing on GitHub's w
 Using a URL in the format `https://github.com/user-attachments/assets/${UUID}` works, but `https://github.com/${user}/${repo}/raw/main/some/path/demo.mp4` does NOT work for video embedding.
 
 **Steps:**
+
 1. Go to your repo on GitHub → click the pencil ✏️ to edit `README.md`
 2. Drag `tot.mp4` from your local machine into the text editor area
 3. Wait for the upload — GitHub will insert a line like:

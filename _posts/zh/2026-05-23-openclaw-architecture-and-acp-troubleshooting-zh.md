@@ -41,7 +41,6 @@ OpenClaw 的架构与 Hermes Agent 有根本不同：
     微信 iLink API                   JSON-RPC/stdio
     (长轮询)                          (ACP 协议)
 
-
 你朋友设置中的消息流程
 -----------------------------------------
 
@@ -64,9 +63,10 @@ OpenClaw 的架构与 Hermes Agent 有根本不同：
 在 OpenClaw 中：Agent 可以是单独进程（ACP 运行时）
 
 ACP 代理进程定义在：
-  - src/acp/server.ts —— ACP 服务器，作为客户端连接到 Gateway
-  - src/acp/translator.ts —— 将 ACP 协议 ↔ Gateway 调用进行转换
-  - src/agents/acp-spawn.ts —— 生成 ACP 代理进程
+
+- src/acp/server.ts —— ACP 服务器，作为客户端连接到 Gateway
+- src/acp/translator.ts —— 将 ACP 协议 ↔ Gateway 调用进行转换
+- src/agents/acp-spawn.ts —— 生成 ACP 代理进程
 
 ACP 服务器通过 WebSocket 连接到 Gateway，并作为客户端接收提示并返回响应。
 
@@ -88,19 +88,22 @@ ACP 服务器通过 WebSocket 连接到 Gateway，并作为客户端接收提示
 三种可能性：
 
 A) ACP 代理进程未运行
-   - NewsBot ACP 代理进程可能未启动
-   - Gateway 尝试连接但静默失败
-   - 检查：`openclaw status` 或 Gateway 日志中的 ACP 连接错误
+
+- NewsBot ACP 代理进程可能未启动
+- Gateway 尝试连接但静默失败
+- 检查：`openclaw status` 或 Gateway 日志中的 ACP 连接错误
 
 B) ACP 代理进程在收到提示时崩溃
-   - ACP 代理进程启动，但在接收提示时崩溃
-   - 错误在 ACP 协议层中被吞没
-   - 检查：ACP 代理进程日志（stderr 输出）
+
+- ACP 代理进程启动，但在接收提示时崩溃
+- 错误在 ACP 协议层中被吞没
+- 检查：ACP 代理进程日志（stderr 输出）
 
 C) 代理配置不匹配
-   - NewsBot 代理配置可能指向不存在的 ACP 后端
-   - 或者工作空间 (~/.openclaw/workspace-newsbot) 没有正确的配置/技能/模型
-   - 检查：`~/.openclaw/config.yaml` 中 `agents.list` 的 "newsbot" 条目 —— 确认 `acpBackend`、`model`、`workspace` 字段
+
+- NewsBot 代理配置可能指向不存在的 ACP 后端
+- 或者工作空间 (~/.openclaw/workspace-newsbot) 没有正确的配置/技能/模型
+- 检查：`~/.openclaw/config.yaml` 中 `agents.list` 的 "newsbot" 条目 —— 确认 `acpBackend`、`model`、`workspace` 字段
 
 ---
 
@@ -136,6 +139,7 @@ C) 代理配置不匹配
 位于 /tmp/VibApp/ 的 "Hermes 集成" 是干扰项 —— 它从未属于 OpenClaw 流程。
 
 朋友需要：
+
 1. 验证 NewsBot ACP 代理进程是否实际在运行
 2. 检查 gateway 日志中的 ACP 连接/提示错误
 3. 验证 ~/.openclaw/config.yaml 中的代理配置

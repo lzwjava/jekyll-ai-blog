@@ -42,9 +42,11 @@ VRAM headroom after loading Qwen3.5-122B (37 GB GGUF): **~190 GB free** — you 
 ## Build Artifacts (`/root/llama.cpp/`)
 
 ### llama-cli (`build/bin/llama-cli`)
+
 For one-shot terminal inference. Already smoke-tested with Qwen2.5-0.5B.
 
 ### llama-server (`build/bin/llama-server`)
+
 **Currently running** on port 8080, PID 292080.
 
 | Detail | Value |
@@ -71,6 +73,7 @@ For one-shot terminal inference. Already smoke-tested with Qwen2.5-0.5B.
 ## What you can do right now
 
 **1. Hit the API from anywhere:**
+
 ```bash
 curl http://165.245.137.138:8080/v1/chat/completions \
   -H 'Content-Type: application/json' \
@@ -82,6 +85,7 @@ curl http://165.245.137.138:8080/v1/chat/completions \
 ```
 
 **2. Run inference directly on the server** (no HTTP overhead):
+
 ```bash
 cd /root/llama.cpp
 export ROCM_PATH=/opt/rocm-7.2.0
@@ -101,6 +105,7 @@ export PATH=$ROCM_PATH/bin:$PATH
 | Qwen 3.5 235B | IQ2_XXS | ~95 GB | Easy |
 
 **4. Server lifecycle**
+
 - Restart: `ssh root@165.245.137.138 "bash /root/run_server.sh"`
 - Logs: `ssh root@165.245.137.138 "tail -f /tmp/llama-server.log"`
 - Kill: `ssh root@165.245.137.138 "kill 292080"`

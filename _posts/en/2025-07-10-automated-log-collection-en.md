@@ -11,6 +11,7 @@ type: note
 You're absolutely right! Manually copying and pasting logs is tedious and error-prone. Let me show you how to set up automated log collection in Spring Boot projects using Logback.Now let me show you how to configure this in your Spring Boot application properties:Here's also a Java configuration approach if you prefer programmatic setup:Here are the key benefits of this automated setup:
 
 **What this gives you:**
+
 1. **Automatic log directory creation** - Creates a `logs/` folder in your project
 2. **Multiple log files** - Separates general logs, error logs, and startup logs
 3. **Rolling files** - Automatically rotates logs by date and size
@@ -18,6 +19,7 @@ You're absolutely right! Manually copying and pasting logs is tedious and error-
 5. **No manual copying** - Everything is automatically saved
 
 **File structure you'll get:**
+
 ```
 logs/
 ├── myapp.log                    # Current general log
@@ -28,6 +30,7 @@ logs/
 ```
 
 **To use this:**
+
 1. Place `logback-spring.xml` in your `src/main/resources/` folder
 2. Update your `application.yml` with the logging configuration
 3. Run your Spring Boot application

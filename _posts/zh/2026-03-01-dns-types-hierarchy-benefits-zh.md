@@ -13,7 +13,7 @@ type: note
 
 回答：
 
-**域名服务器 (DNS server)** 的主要功能是执行 **域名到 IP 地址解析**（domain name to IP address resolution）（在某些情况下反之：IP 地址到域名）。它将人类可读的域名（例如 www.example.com）转换为计算机在网络上通信所使用的机器可读 IP 地址（例如 192.0.2.1）。
+**域名服务器 (DNS server)** 的主要功能是执行 **域名到 IP 地址解析**（domain name to IP address resolution）（在某些情况下反之：IP 地址到域名）。它将人类可读的域名（例如 <www.example.com）转换为计算机在网络上通信所使用的机器可读> IP 地址（例如 192.0.2.1）。
 
 **DNS 分层 / 区域管理的好处** 包括：
 

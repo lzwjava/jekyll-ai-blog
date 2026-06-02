@@ -9,6 +9,7 @@ type: note
 ---
 
 The error `cannot identify image file` indicates that Pillow is unable to read the HEIC files, likely due to one of the following reasons:
+
 1. **Missing `libheif` library**: Pillow requires `libheif` to handle HEIC files, and it may not be installed or properly configured on your system.
 2. **Corrupted or incompatible HEIC files**: The HEIC files may be corrupted or in a format Pillow cannot process.
 3. **Pillow version issue**: Although Pillow 9.0.0+ supports HEIC, there could be a configuration issue or an outdated version.
@@ -18,29 +19,39 @@ Since you're on macOS (based on your previous output), I'll provide a fixed Pyth
 ### Steps to Fix the Issue
 
 #### 1. Install `libheif`
+
 Pillow relies on `libheif` for HEIC support. Install it using Homebrew:
+
 ```bash
 brew install libheif
 ```
+
 After installing, reinstall Pillow to ensure it links with `libheif`:
+
 ```bash
 pip uninstall pillow
 pip install pillow
 ```
 
 #### 2. Verify Pillow HEIC Support
+
 Check if Pillow can handle HEIC files:
+
 ```bash
 python -c "from PIL import features; print(features.check_feature('heic'))"
 ```
+
 - If it outputs `True`, Pillow has HEIC support.
 - If it outputs `False` or an error, `libheif` is not properly configured, or Pillow was built without HEIC support.
 
 #### 3. Check File Integrity
+
 Ensure the HEIC files are not corrupted. Try opening one of the files (e.g., `IMG_5988.HEIC`) in a viewer like Preview on macOS. If it doesn't open, the files may be corrupted, and you'll need to re-export or obtain new copies.
 
 #### 4. Updated Python Script
+
 The updated script:
+
 - Uses Pillow for HEIC conversion with improved error handling.
 - Falls back to `ImageMagick` (if installed) when Pillow fails to read a HEIC file.
 - Logs detailed errors to a file (`conversion_errors.log`) for debugging.
@@ -143,27 +154,35 @@ print("Batch conversion complete! Check conversion_errors.log for any issues.")
 ```
 
 ### How to Use
+
 1. **Save the script**:
    Save the code as `photo_compress.py` in your `scripts/media/` directory.
 
 2. **Install dependencies**:
    - Ensure Pillow is installed:
+
      ```bash
      pip install --upgrade pillow
      ```
+
    - Install `libheif`:
+
      ```bash
      brew install libheif
      ```
+
    - Optionally, install ImageMagick for fallback:
+
      ```bash
      brew install imagemagick
      ```
 
 3. **Run the script**:
+
    ```bash
    python scripts/media/photo_compress.py ./assets/images/yuebei
    ```
+
    - This processes all `.heic` and `.heif` files in `assets/images/yuebei`.
    - Output JPGs are saved in `assets/images/yuebei_compressed`.
    - Errors are logged to `conversion_errors.log` in the current directory.
@@ -172,39 +191,50 @@ print("Batch conversion complete! Check conversion_errors.log for any issues.")
    If any files fail to convert, check `conversion_errors.log` for detailed error messages.
 
 ### Additional Troubleshooting
+
 - **If Pillow still fails**:
   - Verify `libheif` is correctly installed and linked:
+
     ```bash
     pkg-config --modversion libheif
     ```
+
     If this fails, reinstall `libheif` and Pillow.
   - Test a single file manually:
+
     ```python
     from PIL import Image
     img = Image.open("./assets/images/yuebei/IMG_5988.HEIC")
     print("Image opened successfully")
     ```
+
     If this fails, the file may be corrupted or in an unsupported HEIC variant.
 
 - **Corrupted files**:
   - Try converting one file with ImageMagick manually:
+
     ```bash
     magick ./assets/images/yuebei/IMG_5988.HEIC test.jpg
     ```
+
     If this fails, the file is likely corrupted.
 
 - **ImageMagick fallback**:
   - If Pillow consistently fails, the script will attempt to use ImageMagick (if installed).
   - Install `jpegoptim` for better compression control:
+
     ```bash
     brew install jpegoptim
     ```
+
     Then, after running the script, compress the output:
+
     ```bash
     for i in ./assets/images/yuebei_compressed/*.jpg; do jpegoptim --size=500k "$i"; done
     ```
 
 ### References
+
 - [Pillow Documentation](https://pillow.readthedocs.io/en/stable/)
 - [ImageMagick](https://imagemagick.org/)
 - [libheif](https://github.com/strukturag/libheif)

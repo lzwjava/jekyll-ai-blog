@@ -18,18 +18,21 @@ type: note
 Two modes, depending on the question:
 
 ### 1. Model Knowledge (default)
+
 - Baked-in during training, cutoff **~August 2025**
 - Used for: CS fundamentals, math, architecture patterns, code, anything stable
 - Fast, no latency, no hallucinated URLs
 - Risk: stale on anything post-cutoff (new model releases, API changes, recent papers)
 
 ### 2. Web Search (when triggered)
+
 - Live fetch via search tool
 - Triggered automatically when: recency matters, you ask about current events, prices, who holds a role, recent releases, etc.
 - Also triggered manually if I judge the topic is fast-moving (e.g. "latest Claude API pricing")
 - You can also explicitly say **"search for X"** to force it
 
 The heuristic I use:
+
 ```
 if topic.is_stable() → model knowledge
 if topic.requires_current_state() → web_search first, then answer

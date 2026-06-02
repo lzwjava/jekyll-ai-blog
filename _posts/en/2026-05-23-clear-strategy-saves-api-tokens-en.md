@@ -28,6 +28,7 @@ Turn 20: 2000 tokens sent  ← even if each message is tiny
 ## `/clear` as a scalpel
 
 When you `/clear`:
+
 - Context resets to zero (or just system prompt)
 - Next call costs only the new message + system prompt
 - You lose history but gain a clean slate

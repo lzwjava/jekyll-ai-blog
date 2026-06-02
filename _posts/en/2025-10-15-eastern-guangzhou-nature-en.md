@@ -15,6 +15,7 @@ type: note
 Since you're in eastern Guangzhou, Huangpu is a quick 10-20 minute drive away, while Zengcheng adds another 20-40 minutes eastward for a more rural escape. These picks focus on smaller, less crowded spots with natural vibes—think gentle hikes, scenic views, or quiet green spaces perfect for a solo outing or that water-rhythm reflection. I've prioritized accessible ones with parking.
 
 #### In Huangpu District
+
 1. **Zhongshan Park (on Xie Mountain)**
    A compact hilltop park with lush trails, flower gardens, and panoramic city views—ideal for a short uphill stroll evoking mini-mountain serenity. It's got pavilions for shade and feels like a hidden gem amid urban sprawl.
    **Drive & access**: ~15 mins from Tianhe via Huanshi East Road; free parking at the base. Entry: Free. Best in mornings for cooler temps.
@@ -28,6 +29,7 @@ Since you're in eastern Guangzhou, Huangpu is a quick 10-20 minute drive away, w
    **Drive & access**: ~20 mins from Tianhe; street parking nearby. Free.
 
 #### In Zengcheng District
+
 1. **Lihu Park**
    Serene lakeside park split into wetland, leisure, and forested zones—soft water sounds, boardwalks, and mountain backdrops for a peaceful vibe. Smaller than big city parks, with spots to linger.
    **Drive & access**: 30-40 mins via Guangzhou-Zengcheng Expressway; ample free parking. Entry: Free.
@@ -43,6 +45,7 @@ Since you're in eastern Guangzhou, Huangpu is a quick 10-20 minute drive away, w
 These are all year-round friendly, with October's mild weather making them even better (fewer bugs, vibrant foliage). If you want beachier or hotter-spring vibes, Gaotan Hot Spring in Zengcheng is a solid add-on. Hit me up for routes or more deets!
 
 **References**
+
 - [Parks in Zengcheng](https://www.tripadvisor.com/Attractions-g1152546-Activities-c57-Zengcheng_Guangdong.html)
 - [Lihu Park Guide](https://www.trip.com/travel-guide/destination/zengcheng-district-532/)
 - [Youmashan Forest Park](https://us.trip.com/moments/theme/poi-baijiang-lake-58280012-comprehensive-guides-993136/)

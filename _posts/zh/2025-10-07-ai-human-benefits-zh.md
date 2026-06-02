@@ -17,6 +17,7 @@ type: note
 最佳方案？让AI成为80%查询需求（事实检索、教程指导、创意激发）的超级启动器，再将人际交流留给需要情感共鸣或高度协同的复杂场景。这并非二选一——而是通过组合策略让你更聪明高效地解决问题。
 
 关于效率优势的延伸阅读：
+
 - [AI聊天机器人与人工客服：企业最佳选择指南](https://www.sevensquaretech.com/ai-chatbots-vs-human-support/)
 - [当AI聊天机器人取代真实人际连接时会发生什么](https://www.brookings.edu/articles/what-happens-when-ai-chatbots-replace-real-human-connection/)
 - [研究显示：谈论尴尬健康信息时人们更倾向选择AI聊天机器人](https://news.ku.edu/news/article/study-finds-people-prefer-ai-chatbots-when-discussing-embarrassing-health-info-but-humans-when-they-are-angry)

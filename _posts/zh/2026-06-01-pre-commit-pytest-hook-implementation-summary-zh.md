@@ -18,5 +18,6 @@ PARALLEL TESTS：使用 `pytest-xdist` 测试了 `-n 2`、`-n 4`、`-n auto` 参
 VERDICT：保持串行。只有当单个测试耗时100毫秒以上（如 API 调用、模型加载）时，并行才会有帮助。不过还是将 `pytest-xdist` 添加到开发依赖中，供未来与较慢的测试套件一起使用。
 
 FILES CHANGED：
+
 - `.pre-commit-config.yaml` — 添加了 `unit-tests` 本地钩子
 - `pyproject.toml` — 添加了 `[dependency-groups]`，包含 pytest、pytest-xdist、coverage

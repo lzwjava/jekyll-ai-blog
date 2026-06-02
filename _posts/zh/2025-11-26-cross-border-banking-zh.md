@@ -15,6 +15,7 @@ type: note
 招商永隆银行是招商银行在香港的全资子公司，为香港与内地之间的跨境服务提供无缝衔接。这意味着您可以通过ATM取现，或将资金从香港招商永隆账户电子转账至内地招行账户。两种方式均支持，但具体细节因账户类型、币种（港币/人民币）及操作方式而异。请务必提前通过银行APP、电话（+852 2309 5555）或分行激活境外ATM功能——出于安全考虑，该功能默认设置为"关闭"。
 
 #### ATM取现
+
 您可使用招商永隆香港ATM卡/借记卡（特别是银联双币卡）在内地招行ATM提取人民币。交易将直接从香港账户扣款（如需货币转换按银行汇率折算），若使用人民币账户则免收汇兑手续费。
 
 | 事项 | 具体说明 | 费用（每笔） | 备注 |
@@ -26,6 +27,7 @@ type: note
 具体费率请查阅招商永隆服务收费表或APP。
 
 #### 资金转账
+
 基于集团关联，跨境转账操作简便且费用低廉。可通过网银、APP或分行办理至内地招行账户，支持港币、美元或人民币，个人账户均可办理。
 
 | 方式 | 说明 | 到账时间 | 费用 | 备注 |
@@ -41,6 +43,7 @@ type: note
 个性化报价请登录招商永隆网银或联系客服。大额转账需遵守外汇管理规定（如中国外汇管理局要求提供身份证明）。
 
 #### 参考链接
+
 - [招商永隆ATM服务](https://www.cmbwinglungbank.com/wlb_corporate/en/e-services/wing-lung-atm-card/new-wing-lung-chip-based-atm-card.html)
 - [境外ATM设置](https://www.cmbwinglungbank.com/wlb_corporate/en/e-services/wing-lung-atm-card/overseas-atm-transaction-settings.html)
 - [人民币汇款](https://www.cmbwinglungbank.com/wlb_corporate/en/rmb/remittance.html)

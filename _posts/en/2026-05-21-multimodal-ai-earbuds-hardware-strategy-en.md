@@ -18,6 +18,7 @@ Pretty interesting hardware play. Let me break it down from an AI engineering pe
 ## What 光帆 AI Earbuds Are Doing
 
 From what you described:
+
 - **Camera in the earbuds** — replaces smart glasses form factor
 - **eSIM built-in** — standalone connectivity, no phone tether
 - **AI interaction gated by fingerprint** — privacy-first auth

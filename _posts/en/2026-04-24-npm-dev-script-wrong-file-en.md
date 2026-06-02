@@ -34,6 +34,7 @@ Here's the info to raise the issue:
 The `dev` script in `package.json` runs `src/index.ts` which is a library export file, not the server. This causes nodemon to start and immediately exit with no server running.
 
 **Steps to reproduce:**
+
 1. `npm install`
 2. `npm run dev`
 3. Server exits immediately — nothing listening on port 3000
@@ -43,12 +44,14 @@ The `dev` script in `package.json` runs `src/index.ts` which is a library export
 **Actual:** Process exits cleanly, no server started
 
 **Fix:**
+
 ```json
 // package.json
 "dev": "nodemon --exec ts-node src/server.ts"
 ```
 
 **Workaround:**
+
 ```bash
 npx ts-node src/server.ts
 ```
@@ -57,4 +60,4 @@ npx ts-node src/server.ts
 
 ---
 
-You can file this at: https://github.com/sreekanthvaripalli/secure-captcha-plugin/issues
+You can file this at: <https://github.com/sreekanthvaripalli/secure-captcha-plugin/issues>

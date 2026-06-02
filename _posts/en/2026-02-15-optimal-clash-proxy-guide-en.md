@@ -18,6 +18,7 @@ In mainland China, when using a typical Clash configuration with these common Ch
 **🚀 节点选择** (or similar name containing "节点选择")
 
 ### Why 节点选择 is the best main choice
+
 - This group is specifically designed as the **user-facing proxy selector** for foreign / non-China traffic in most popular rule sets used in China.
 - It normally includes a mix of good nodes (often filtered for low latency or high speed to China).
 - Other groups are more specialized:
@@ -53,6 +54,7 @@ In mainland China, when using a typical Clash configuration with these common Ch
 | 全球拦截            | Ad/tracker blocking                     | No                            | Set to REJECT                        |
 
 ### Practical advice given your proxy list
+
 - Your available good nodes are mainly **新加坡 (SG)**, **日本 (JP)**, **台湾 (TW)**, **美国 (US)** etc. (Hong Kong is bad/unusable).
 - In **节点选择** group → manually select or use **url-test / fallback / load-balance** strategy and choose the best performing SG/JP/US node (ignore HK ones).
 - If **节点选择** contains too many HK nodes and latency is poor → switch main policy to **漏网之鱼** instead (it usually inherits similar proxies but is less pre-filtered).
@@ -65,5 +67,5 @@ That's the safest and most common recommendation.
 
 **References:**
 
-- https://docs.reiz.link/%E9%99%84%E5%BD%95/clash-advanced-usage
+- <https://docs.reiz.link/%E9%99%84%E5%BD%95/clash-advanced-usage>
 - Common Clash rule discussions on GitHub (Loyalsoldier/clash-rules patterns)

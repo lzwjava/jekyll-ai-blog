@@ -30,4 +30,5 @@ Here are some actually unpopular (often down-voted or ratio’d) opinions that r
 These opinions tend to get massive pushback whenever posted, usually with accusations of nostalgia, elitism, or being a “hater.” Yet a surprising number of heavy users quietly agree in private.
 
 References:
+
 - None needed; these are aggregated from years of observing ratio’d tweets, deleted Reddit threads, and flame wars in Discords, and comment sections across platforms.

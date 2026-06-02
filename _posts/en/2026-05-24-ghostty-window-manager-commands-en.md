@@ -18,12 +18,15 @@ ww ghostty focus        # No arg = list windows + usage hint
 ```
 
 Files created:
+
 - /Users/lzwjava/projects/ww/ww/ghostty/list_windows.py — CGWindowList enumeration via Swift
 - /Users/lzwjava/projects/ww/ww/ghostty/focus.py — CGEvent mouse click to raise a window
 
 Files modified:
+
 - /Users/lzwjava/projects/ww/ww/main.py — dispatch + help text
 
 How it works:
+
 - `list` uses `CGWindowListCopyWindowInfo` (no Accessibility permissions needed) to enumerate all Ghostty windows
 - `focus` activates the Ghostty app, then posts a CGEvent mouse click at the center of the target window's bounds to raise it. Supports both 1-based index and case-insensitive title substring matching

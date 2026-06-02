@@ -47,6 +47,7 @@ SWA: KV cache capped at O(window_size × d_model) per layer
 ```
 
 **HiCache** is SGLang's hierarchical KV cache system — it tiered storage across:
+
 - GPU HBM (fast, expensive, small)
 - CPU RAM (slower, cheap, large)
 - SSD (slowest, very cheap, very large)
@@ -56,6 +57,7 @@ Their claim: **data movement reduced to 1/7 of before**, **cacheable tokens incr
 ### 2. Expert Parallelism Optimization
 
 MiMo is a **MoE (Mixture of Experts)** model (based on their architecture). Expert parallelism means different GPUs handle different experts. The optimization likely involves:
+
 - Better load balancing across experts
 - Reducing expert routing communication overhead
 - Possibly fused dispatch/combine kernels
@@ -83,6 +85,7 @@ Existing paid users get their consumed credits **reset to zero** — effectively
 ## What This Means for You
 
 If you're building anything with Chinese LLM APIs (for bank work, agents, CLI tools), MiMo-V2.5 is now worth benchmarking against:
+
 - DeepSeek-V3 (¥2/M output, similar tier)
 - Qwen-Plus
 - Your current Claude/GPT-4o usage for non-English tasks

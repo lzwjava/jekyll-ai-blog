@@ -26,11 +26,13 @@ type: note
 **不一定——这取决于你的使用场景。** 具体分析如下：
 
 **DGX Spark 优势：**
+
 - GB10 Grace Blackwell 超级芯片提供高达 1 petaFLOP 的 AI 推理性能（FP4），配备 128GB LPDDR5X 一致统一内存，以及速率高达 200 Gbps 的 ConnectX 7 NIC。
 - 预装 NVIDIA AI 软件栈（CUDA、TensorRT-LLM），开箱即用体验完善，文档丰富且附带预配置的 playbook。
 - CES 2026 的软件更新通过 TensorRT-LLM 优化和 NVFP4 量化，在特定工作负载上实现了最高 2.5 倍的性能提升。
 
 **AMD 395 迷你电脑优势：**
+
 - 即便在涨价后，最便宜的 128GB AMD 395 机型（Corsair 约 2,499 美元，Bosgame 约 2,399 美元）仍明显低于 DGX Spark 的 4,699 美元。
 - AMD Strix Halo 平台每美元带来的 token 生成吞吐量更高——Framework Desktop（2025 年 12 月定价 2,566 美元）每美元每秒产生的 token 数高于定价 4,000 美元的 DGX Spark。
 - AMD 395 机型运行标准 Windows 或 Linux，在 AI 之外的一般工作负载上具有更高灵活性。

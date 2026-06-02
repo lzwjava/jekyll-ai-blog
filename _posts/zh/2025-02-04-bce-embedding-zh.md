@@ -50,12 +50,11 @@ Trying to resume download...
 pytorch_model.bin: 100%|| 1.11G/1.11G [00:10<00:00, 2.06MB/s]
 pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Loading from `maidalun1020/bce-embedding-base_v1`.
-02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False;	 embedding pooling type: cls;	 trust remote code: False
+02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Execute device: cpu;  gpu num: 0;  use fp16: False;  embedding pooling type: cls;  trust remote code: False
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
 ```
 
 让我们尝试reranker模型。
-
 
 ```python
 from BCEmbedding import RerankerModel
@@ -92,7 +91,7 @@ tokenizer_config.json: 100%|
   warnings.warn(
 pytorch_model.bin: 100%|| 1.11G/1.11G [02:11<00:00, 8.47MB/s]
 02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Loading from `maidalun1020/bce-reranker-base_v1`.
-02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Execute device: cpu;  gpu num: 0;  use fp16: False
 Calculate scores: 100%| 1/1 [00:00<00:00,  2.37it/s]
 You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
 ```

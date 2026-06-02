@@ -36,6 +36,7 @@ On non-premium days (Tue/Thu), you can still use Copilot with one of the include
 **Yes and No — it depends on your account type:**
 
 ### For Enterprise/Organization Admins ✅
+
 GitHub provides REST API endpoints for Copilot metrics, accessible via `https://api.github.com/orgs/ORG/copilot/metrics`, requiring a PAT with `manage_billing:copilot`, `read:org`, or `read:enterprise` scopes.
 
 Enterprise owners, billing managers, and authorized users can retrieve Copilot metrics reports via API, with historical data accessible for up to 1 year from the current date.
@@ -43,6 +44,7 @@ Enterprise owners, billing managers, and authorized users can retrieve Copilot m
 GitHub also announced: a dedicated API endpoint for premium request analytics data is being shipped, allowing users to build internal dashboards, create custom usage reports, and easily track expenses across teams.
 
 ### For Individual Users ❌ (Not Yet Officially Supported)
+
 For individual GitHub Copilot subscribers, there is no supported public API to pull premium request usage in real time. VS Code can show usage in-product because it talks to GitHub's internal endpoints, but those aren't documented or guaranteed to be stable. The officially supported way for individual accounts is through the GitHub web UI under Settings → Billing → Copilot.
 
 ---

@@ -17,6 +17,7 @@ You’re right that sometimes mathematical formulas can feel abstract or hard to
 ### **What the Formulas Are Saying**
 
 #### **1. Expected False Positive Rate**
+
 The first formula calculates the probability that a classifier incorrectly predicts a positive result when the true label is negative.
 
 - **Mathematical formula:**
@@ -28,6 +29,7 @@ The first formula calculates the probability that a classifier incorrectly predi
   The chance of a "false positive" (saying "yes" when the answer is "no") is at most \(\frac{1}{2(C-1)}\) times the total error rate (`err`).
 
 - **Code-like explanation:**
+
   ```python
   false_positive_rate = 0
   for each class c:
@@ -37,6 +39,7 @@ The first formula calculates the probability that a classifier incorrectly predi
   ```
 
 #### **2. Expected False Negative Rate**
+
 The second formula calculates the probability that a classifier incorrectly predicts a negative result when the true label is positive.
 
 - **Mathematical formula:**
@@ -48,6 +51,7 @@ The second formula calculates the probability that a classifier incorrectly pred
   The chance of a "false negative" (saying "no" when the answer is "yes") is half of the total error rate (`err`).
 
 - **Code-like explanation:**
+
   ```python
   false_negative_rate = 0
   for each class c:
@@ -56,17 +60,20 @@ The second formula calculates the probability that a classifier incorrectly pred
   ```
 
 #### **3. Expected Misclassification Rate**
+
 The third formula sums up the false positive and false negative rates to get the total expected misclassification rate.
 
 - **Mathematical formula:**
   \[
   \mathbb{E}_t[\text{err}_{\text{iid}}(\hat{f}_t)] \leq \frac{1}{2} \left( \frac{1}{C-1} + 1 \right) \text{err}
+
   ```
 
 - **In plain English:**
   The total expected error is at most half of the sum of the false positive and false negative rates, scaled by a factor that depends on the number of classes \(C\).
 
 - **Code-like explanation:**
+
   ```python
   total_expected_error = 0.5 * (1 / (C - 1) + 1) * total_error_rate
   ```
@@ -74,6 +81,7 @@ The third formula sums up the false positive and false negative rates to get the
 ---
 
 ### **Why This Matters**
+
 - **False positives** and **false negatives** are two types of errors in classification.
 - The formulas show how these errors relate to the total error rate and the number of classes.
 - The code-like explanations make it clearer how you might compute these rates in practice, especially if you're working with algorithms or simulations.
@@ -81,4 +89,5 @@ The third formula sums up the false positive and false negative rates to get the
 ---
 
 ### **Summary**
+
 Yes, you're correct: sometimes, writing these concepts in code or plain language can make them easier to understand, especially for those more comfortable with programming than mathematical notation. The formulas are essentially calculating error rates, and translating them into code or plain language can demystify the math.

@@ -12,7 +12,7 @@ type: note
 
 Great! Now let me search for information about GPT-5.1 to compare them.Perfect! Now I have good information about both models. Let me give you a comprehensive comparison:
 
-## Yes, GPT-5.1-Codex-Max is a real and impressive model!
+## Yes, GPT-5.1-Codex-Max is a real and impressive model
 
 **GPT-5.1-Codex-Max** was released by OpenAI in November 2025 as a specialized coding model. Here's how it compares:
 
@@ -21,6 +21,7 @@ Great! Now let me search for information about GPT-5.1 to compare them.Perfect! 
 **GPT-5.1-Codex-Max** is specifically optimized for agentic coding tasks, while **GPT-5.1** is a general-purpose model. Key differences:
 
 **Strengths of Codex-Max:**
+
 - **Long-horizon coding**: Uses "compaction" to work across millions of tokens and multiple context windows, enabling it to work on tasks for 24+ hours continuously
 - **30% more token-efficient** than GPT-5.1-Codex at the same reasoning level
 - **Better benchmark scores** on coding tasks like SWE-bench Verified (77.9% vs 73.7%)
@@ -28,6 +29,7 @@ Great! Now let me search for information about GPT-5.1 to compare them.Perfect! 
 - Designed for complex refactors, multi-hour agent loops, and project-scale work
 
 **When to use each:**
+
 - **Codex-Max**: Use only for agentic coding tasks in Codex CLI or similar environments
 - **GPT-5.1**: Better for general conversations, reasoning, and non-coding tasks
 

@@ -16,10 +16,12 @@ type: note
 ## Gitea Actions Runner — 设置报告
 
 ### Binary
+
 - **软件：** `act_runner` v0.2.6（官方 Gitea Actions runner）
 - **位置：** `/usr/local/bin/act_runner`
 
 ### Registration
+
 - **实例：** `http://192.168.1.36:3000`
 - **名称：** `local-runner`
 - **UUID：** `68cf95f8-2e71-4610-87f2-6b7ad65f8273`
@@ -36,11 +38,13 @@ type: note
 | `ubuntu-18.04` | Docker: `node:16-buster` |
 
 ### Runtime Dependencies
+
 - **Docker：** v27.5.1 ✅
 - **Systemd：** 已启用（`gitea-runner.service`） ✅
 - **重启后存活：** 是
 
 ### Configuration
+
 - **配置文件：** `/home/lzw/.gitea-runner/config.yaml`（默认）
 - **并发：** 一次 1 个任务
 - **任务超时：** 3 小时
@@ -57,6 +61,7 @@ type: note
 | Service unit | `/etc/systemd/system/gitea-runner.service` |
 
 ### Useful Commands
+
 ```bash
 # Check status
 sudo systemctl status gitea-runner
@@ -69,6 +74,7 @@ sudo systemctl restart gitea-runner
 ```
 
 ### Things to Note
+
 - 这是 **repo-level runner**（仅限于 `lzwjava/blog-source`），不是 org-wide
 - 任务在从 `node:16-bullseye` 拉取的 Docker 容器中运行——首次运行时拉取镜像会较慢
 - 默认配置中有占位环境变量（`A_TEST_ENV_NAME_1/2`）——如果需要可以清理

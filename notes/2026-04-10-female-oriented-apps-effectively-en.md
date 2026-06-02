@@ -48,6 +48,7 @@ Meiyou's "Ta Ta Circle" feature allows users to connect, post updates about preg
 ### 4. Respect Privacy and Cultural Sensitivity
 
 As a male user on these platforms:
+
 - Be transparent about your professional interest if you interact with communities
 - Avoid spaces designed for sensitive women's health discussions unless specifically researching UX patterns
 - Focus on observing user behavior and design patterns rather than personal engagement
@@ -55,6 +56,7 @@ As a male user on these platforms:
 ### 5. Analyze from a UX/Design Perspective
 
 As a software engineer, focus on:
+
 - UI/UX design patterns specific to female users
 - How AI features (beauty filters, product recommendations, health tracking algorithms) are implemented
 - E-commerce integration and social shopping mechanics
@@ -75,6 +77,7 @@ Nearly four in five Xiaohongshu users are female, and women in China use these p
 ### 8. Professional Development Benefits
 
 Understanding these apps can enhance your software engineering skills by:
+
 - Learning about AI/ML implementations in beauty tech and health apps
 - Understanding social commerce integration
 - Studying female-centered UX design principles

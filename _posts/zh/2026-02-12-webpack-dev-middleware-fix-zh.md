@@ -35,6 +35,7 @@ type: note
 ```
 
 添加此配置后：
+
 - 删除 `node_modules` 和 `package-lock.json`（或 `yarn.lock` / `pnpm-lock.yaml`）
 - 再次运行 `npm install`
 

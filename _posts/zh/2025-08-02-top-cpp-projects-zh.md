@@ -164,6 +164,7 @@ type: note
     - 亮点：开发测试与模拟的关键工具
 
 ### 说明
+
 - **筛选标准**：依据项目知名度、持续维护情况与C++使用比重选择。部分项目（如TensorFlow、Electron）虽使用其他语言作为接口，但核心功能依赖C++
 - **领域覆盖**：清单涵盖游戏引擎（Godot、Unreal）、人工智能（TensorFlow、CNTK）、数据库（MongoDB、ClickHouse）、多媒体（OBS、Kodi）与函数库（Boost、Abseil）
 - **社区与维护**：多数项目社区活跃，部分（如CNTK）虽活跃度下降但仍具影响力

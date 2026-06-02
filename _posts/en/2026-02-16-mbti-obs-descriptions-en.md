@@ -28,6 +28,7 @@ The detailed descriptions for each of the 16 types come primarily from **Isabel 
   - Writing comprehensive profiles: Myers authored detailed type descriptions herself, published in her book *Gifts Differing* (1980, completed with her son). These profiles emphasize holistic type dynamics rather than isolated traits, explaining motivations, strengths, blind spots, growth paths, and typical behaviors.
 
 In short, the rich, narrative descriptions aren't purely from large-scale empirical data (like modern factor analysis in Big Five models). Instead, they blend:
+
 - Jung's original theoretical observations.
 - Briggs and Myers' lifelong personal and informal observations of people.
 - Iterative refinement through questionnaire testing and feedback.

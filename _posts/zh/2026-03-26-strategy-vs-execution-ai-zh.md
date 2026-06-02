@@ -54,6 +54,7 @@ type: note
 核心点在于：**Strategic pattern recognition（战略模式识别）与 deep technical execution 是完全不同的认知和组织肌肉。**
 
 了解“中国拥有强大的 AI 工程师、低廉的劳动力成本和激进的资本”（经典的李开复论点）是有价值的。但实际组建一支能够完成以下任务的团队则完全不同：
+
 - 设计新颖的模型架构（如 DeepSeek 的 MoE 创新）
 - 优化 inference 效率
 - 通过快速 iteration loops 构建具有粘性的 consumer product

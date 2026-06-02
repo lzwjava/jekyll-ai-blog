@@ -22,7 +22,7 @@ type: note
    - 测试结果：SSH 连接 github.com 正常
 
 3. 克隆 zz 仓库
-   - git@github.com:lzwjava/zz.git -> /root/zz
+   - <git@github.com>:lzwjava/zz.git -> /root/zz
    - 包含数据集处理与机器学习训练工具
 
 4. 创建 AMD 下载脚本

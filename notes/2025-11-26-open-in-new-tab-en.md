@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Here is the complete minimal HTML code to create a hyperlink to https://www.tsinghua.edu.cn that opens in a new tab/window:
+Here is the complete minimal HTML code to create a hyperlink to <https://www.tsinghua.edu.cn> that opens in a new tab/window:
 
 ```html
 <!DOCTYPE html>
@@ -27,6 +27,7 @@ Here is the complete minimal HTML code to create a hyperlink to https://www.tsin
 ```
 
 Key points:
+
 - `target="_blank"` forces the link to open in a new tab/window
 - `rel="noopener noreferrer"` is a security/best-practice addition when using `target="_blank"` to prevent the new page from gaining control over the original page
 

@@ -50,6 +50,7 @@ Google Cloud Storage 使用 **Identity and Access Management (IAM)** 来控制�
 - **Owner** (`roles/owner`) — 对 project 的完全控制权，包括所有 Storage 资源。
 
 **关键提示**：
+
 - 对于大多数现代用例，建议优先选择细粒度的 **object-level roles** (`objectViewer`, `objectCreator`, `objectAdmin`)，而不是 legacy bucket roles。
 - 如果 predefined roles 不能完全满足您的需求，您还可以创建 **custom roles**（例如：允许 get + list 但不允许更新 metadata）。
 - 权限可以在以下级别授予：

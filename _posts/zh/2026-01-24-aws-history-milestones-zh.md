@@ -68,6 +68,6 @@ AWS 并没有发明云计算概念 —— 但它将其**商业化**，让数百�
 
 References:
 
-- https://aws.amazon.com/about-aws/global-infrastructure/history/
-- https://en.wikipedia.org/wiki/Amazon_Web_Services
-- https://www.allthingsdistributed.com/2006/08/amazon_s3.html (Werner Vogels 博客 – 最初的发布公告之一)
+- <https://aws.amazon.com/about-aws/global-infrastructure/history/>
+- <https://en.wikipedia.org/wiki/Amazon_Web_Services>
+- <https://www.allthingsdistributed.com/2006/08/amazon_s3.html> (Werner Vogels 博客 – 最初的发布公告之一)

@@ -19,6 +19,7 @@ Yes, your observation is **generally correct** in many common home/SOHO or small
 Here's why this happens and when/why it matters:
 
 ### How Wake-on-LAN normally works on a local LAN
+
 - The magic packet is almost always sent to the **broadcast address** (e.g., 255.255.255.255 or the subnet broadcast like 192.168.1.255).
 - The destination MAC in the Ethernet frame is **FF:FF:FF:FF:FF:FF** (broadcast).
 - A switch treats this as an **unknown unicast** or broadcast frame → it **floods** the packet to **all ports** (in the same VLAN).
@@ -27,6 +28,7 @@ Here's why this happens and when/why it matters:
 → In theory, **the switch does not need to know the target MAC address** in its MAC address table, because the packet is flooded anyway.
 
 ### Why it still fails in your described scenario
+
 The real issue is usually **not** the switch's MAC table for the broadcast magic packet itself, but one of these common related problems:
 
 1. **Link goes fully down → some switches immediately remove the MAC entry**
@@ -50,6 +52,7 @@ The real issue is usually **not** the switch's MAC table for the broadcast magic
    - But since you're using broadcast (255.255.255.255), this usually isn't the issue on the same LAN.
 
 ### Summary – when you really need a boot first
+
 You usually have to power on the PC once after a long unplug/replug when:
 
 - Your WoL sender is sending **unicast** instead of broadcast (very common)
@@ -62,6 +65,7 @@ In pure theory with a correct broadcast magic packet → **no**, you shouldn't n
 In real life (your case) → **yes**, many people experience exactly what you describe, and powering on once "refreshes" the link, lets the switch learn the MAC from outgoing frames, and often "stabilizes" the NIC's WoL state.
 
 ### Quick workarounds
+
 - Always send to broadcast (255.255.255.255 or subnet broadcast) — your script already does this → good.
 - After plugging cable back in, try sending 3–5 magic packets with 1–2 seconds delay between them.
 - On managed switches: increase MAC aging time or disable port-fast-flush behaviors if possible.

@@ -17,9 +17,11 @@ type: note
 Kenny Wong is a Hong Kong-based artist, illustrator, toy designer, and one of the most influential figures in the designer toy (art toy) scene. He is best known as the creator of **Molly**, an iconic character that has become one of the flagship IPs for Pop Mart and one of the most recognizable and collectible figures in the global blind box and art toy market.
 
 ### Background and Early Work
+
 Kenny Wong is an established artist from Hong Kong, active in illustration, design, and toy creation. His work draws from a blend of cute aesthetics, retro influences, and personal storytelling. Before Molly achieved widespread fame through Pop Mart, Wong was already involved in the designer toy community, which gained momentum in Hong Kong and Asia partly inspired by pioneers like Michael Lau in the late 1990s.
 
 ### Creation of Molly (2006)
+
 Molly was first designed by Kenny Wong in **2006**. The character was inspired by a real-life encounter with a young girl during a charity event or painting class at Victoria Peak in Hong Kong (accounts vary slightly between a charity fundraiser or similar setting). Wong described meeting a stubborn, confident, and fearless little girl whose proud pout and determined expression instantly captured his imagination.
 
 - **Core design features**: Molly is depicted as a young girl with large, striking eyes (often emerald green or blue), short curly hair, and her signature **permanent pout** (pouting lips that convey a mix of attitude, pride, and cuteness). In her original conception, she appeared as a tiny painter wearing a beret and artist's apron, holding a paint palette and brush—reflecting a creative, imaginative child archetype.
@@ -28,6 +30,7 @@ Molly was first designed by Kenny Wong in **2006**. The character was inspired b
 The character remained relatively niche in the early years but laid the foundation for Wong's reputation in the art toy world.
 
 ### Partnership with Pop Mart and Rise to Fame
+
 In **2016**, Kenny Wong began collaborating with **Pop Mart**, the Chinese company that popularized blind box collectibles. This partnership transformed Molly into a massive cultural phenomenon:
 
 - Molly became one of Pop Mart's earliest and most enduring original artist IPs (alongside others like Dimoo and Skullpanda).
@@ -38,6 +41,7 @@ In **2016**, Kenny Wong began collaborating with **Pop Mart**, the Chinese compa
 Molly is now considered one of the most sought-after designer toy characters worldwide and helped establish Pop Mart's dominance in the art toy industry.
 
 ### Legacy and Continued Influence
+
 - 2026 marked Molly's **20th anniversary**, celebrated with events like the "Journey to The Star: MOLLY Back to The Peak" pop-up and exhibitions at Victoria Peak, where her story began.
 - Wong remains active, with an Instagram presence (@kennyswork2006) sharing Molly's evolving adventures and new designs.
 - His work has helped bring Hong Kong creativity to a broader Chinese and international audience via Pop Mart's platform.

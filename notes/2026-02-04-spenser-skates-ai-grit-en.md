@@ -16,9 +16,10 @@ I'll search for Spenser Skates' recent interview on the "No Life" podcast or sho
 
 This 77-minute episode (released April 21, 2025) is hosted by Joubin Mirzadegan from Kleiner Perkins and covers some really interesting territory about leading a mature tech company through the AI transition.
 
-### Key Themes Discussed:
+### Key Themes Discussed
 
 **AI Strategy & Technical Challenges**
+
 - How Skates is rethinking AI within the constraints of a 13-year-old codebase
 - Why he believes AI is still in its early stages
 - The urgency of potentially building from the ground up versus iterating on legacy systems
@@ -26,6 +27,7 @@ This 77-minute episode (released April 21, 2025) is hosted by Joubin Mirzadegan 
 
 **Leadership & Personal Growth**
 The episode gets quite personal, exploring:
+
 - "The ultimate founder" concept
 - "Becoming the person you hate" - an honest discussion about founder evolution
 - Balancing family and work (46:41 mark)
@@ -34,12 +36,14 @@ The episode gets quite personal, exploring:
 - His roles as "chief general, chief justice, chief priest" in the organization
 
 **Going Public & Business Strategy**
+
 - Why taking the company public early was a risk worth taking
 - His views on higher valuations and market timing
 - Who's leading whom in company leadership dynamics
 - Markets being open and closed
 
 **Team Building**
+
 - Bringing in new executive talent ("new blood")
 - Things he's willing to relinquish as CEO versus what he maintains control over
 - What Amplitude is currently hiring for

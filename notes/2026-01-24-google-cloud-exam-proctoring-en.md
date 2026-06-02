@@ -24,6 +24,7 @@ You are **not required** to take them onsite; the choice is yours when schedulin
 Most candidates opt for the online option for convenience, though some prefer test centers to avoid home setup issues (e.g., strict technical/environment requirements).
 
 ### For Online-Proctored Exams
+
 These are delivered remotely via live proctoring (a human proctor monitors you in real time) combined with proctoring software. Key anti-cheating measures include:
 
 - **Live human proctor**: Watches your video feed throughout the exam, can intervene or terminate if suspicious behavior occurs.
@@ -45,6 +46,7 @@ Regarding **AI cheating** specifically (e.g., using ChatGPT or similar tools dur
 For the most current details (especially after the February 2026 provider switch to Pearson VUE), always check the official registration page and proctoring requirements when scheduling your exam.
 
 References:
+
 - [https://support.google.com/cloud-certification/answer/9907748](https://support.google.com/cloud-certification/answer/9907748) — Online Proctored Exams details
 - [https://support.google.com/cloud-certification/answer/9907651](https://support.google.com/cloud-certification/answer/9907651) — Registration and scheduling (mentions both options)
 - [https://cloud.google.com/certification/terms](https://cloud.google.com/certification/terms) — Exam Terms & Conditions (prohibited behaviors and invalidation rules)

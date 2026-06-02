@@ -44,6 +44,7 @@ Answer: Singapore is one of the hardest places in the world to “fail gracefull
 In short: Singapore rewards the top 30–40 % extravagantly and gives almost no second chances to everyone else. The system is optimised for growth and stability, not for individual forgiveness. Once you miss the education/financial/property/fertility windows, “failure” often becomes permanent and very visible in a small, status-obsessed society.
 
 References
+
 * [“The Singapore Dream is now a delusion for many” – Bertha Henson (2023)](https://berthahenson.wordpress.com/2023/01/15/the-singapore-dream-is-now-a-delusion-for-many/)
 * [Mothership: “Why some Singaporeans feel they have failed in life” (2024)](https://mothership.sg/2024/02/singaporeans-feel-failed-life/)
 * [Rice Media: “I Earn $2,200 a Month and I’m 32. This is What ‘Failing’ in Singapore Feels Like” (2023)](https://www.ricemedia.co/culture-life-i-earn-2200-a-month-and-im-32-this-is-what-failing-in-singapore-feels-like/)

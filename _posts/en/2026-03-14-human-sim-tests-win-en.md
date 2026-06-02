@@ -18,10 +18,13 @@ Yes — **final integration testing that simulates real human interaction is the
 ## Why Human-Simulated Integration Tests Win
 
 ### The Problem with "Just Doing Things"
+
 When an AI agent only performs actions (deploy, restart, open port) without verifying the result from the **user's perspective**, it creates a false sense of completion. The agent above opened port 5000 and declared success — but never confirmed the frontend actually loaded and worked end-to-end.
 
 ### The Problem with Unit Tests
+
 Unit tests check isolated components:
+
 - "Does the API return 200?" ✅
 - "Does the DB insert succeed?" ✅
 - But they miss: **browser CORS failures, firewall blocks, DNS resolution, frontend JS errors** — exactly what failed in this case.
@@ -35,6 +38,7 @@ Unit tests check isolated components:
 | **Human-simulated integration test** | **✅** | **✅** |
 
 A proper final integration test for OpenClaw should:
+
 1. **Open the actual URL** in a browser/headless browser (Playwright, Selenium)
 2. **Click through the UI** as a real user would
 3. **Submit a form, create a task, verify it appears**

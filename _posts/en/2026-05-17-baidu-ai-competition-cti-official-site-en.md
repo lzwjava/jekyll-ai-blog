@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What is the website http://cti.baidu.com/ about? Please provide an introduction.
+Question: What is the website <http://cti.baidu.com/> about? Please provide an introduction.
 
 Answer:
 

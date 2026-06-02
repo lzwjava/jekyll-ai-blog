@@ -47,6 +47,7 @@ Also persisted to SQLite via `SessionDB.update_token_counts()` (hermes_state.py)
 ## 2. The /usage slash command
 
 In CLI or gateway, type `/usage`. It:
+
 - Reads the live agent's session counters (mid-turn) or cached agent (between turns)
 - Calls `fetch_account_usage()` from `agent/account_usage.py` for provider-level rate limits
 - Calls `estimate_usage_cost()` from `agent/usage_pricing.py` for cost estimates

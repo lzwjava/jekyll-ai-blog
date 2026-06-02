@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-### Introduction to AMiner (https://www.aminer.cn)
+### Introduction to AMiner (<https://www.aminer.cn>)
 
 AMiner is an AI-powered academic search and mining platform developed by researchers at Tsinghua University in China. Launched as a next-generation tool for scientific and technological intelligence, it focuses on analyzing and mining large-scale academic social networks and scholarly data. The platform leverages advanced AI techniques to model and explore "big scholar data," helping users navigate vast amounts of research publications, author profiles, and collaboration networks. It's particularly strong in fields like computer science, AI, and related disciplines, but extends to broader academic exploration.
 
@@ -33,6 +33,7 @@ AMiner offers a range of tools and services tailored for researchers, scientists
 Overall, it's designed to streamline academic discovery, from basic searches to deep data mining, making it a valuable resource for staying updated in fast-evolving fields like AI.
 
 **References**
+
 - [AMiner - AI Powered Academic Network Mining](https://mrt.aminer.cn/)
 - [Manual - AMiner](https://www.aminer.cn/manual)
 - [AMiner: Search and Mining of Academic Social Networks](https://direct.mit.edu/dint/article/1/1/58/9974/AMiner-Search-and-Mining-of-Academic-Social)

@@ -25,4 +25,5 @@ Answer:
 "Empty Activity"（在较新的模板中育时也被标记为 "Empty Views Activity"）仍然是作为最简单起点的标准选择。
 
 References:
+
 - [Android Developers - Create a project](https://developer.android.com/studio/projects/create-project)

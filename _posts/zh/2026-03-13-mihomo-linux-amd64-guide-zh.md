@@ -12,11 +12,13 @@ type: note
 ## 您的系统分析
 
 根据您的 `uname -a` 输出：
+
 ```
 Linux to 6.8.0-90-generic x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 关键事实：
+
 - **OS**：Linux (Ubuntu 22.04)
 - **Architecture**：`x86_64` (64 位 Intel/AMD)
 - **NOT**：Android、macOS 或 ARM
@@ -42,6 +44,7 @@ Linux to 6.8.0-90-generic x86_64 x86_64 x86_64 GNU/Linux
 | `linux-amd64-v3` | 需要 AVX2（2013 年后 CPU） | 现代 CPU 上最佳性能 |
 
 要检查您的 CPU 支持哪个级别：
+
 ```bash
 # 检查 v2 支持
 grep -m1 -c 'sse4_2' /proc/cpuinfo
@@ -49,6 +52,7 @@ grep -m1 -c 'sse4_2' /proc/cpuinfo
 # 检查 v3 支持 (AVX2)
 grep -m1 -c 'avx2' /proc/cpuinfo
 ```
+
 如果输出为 `1`，则您的 CPU 支持该级别。
 
 **为了安全兼容的选择**，坚持使用 `mihomo-linux-amd64-v1-alpha-XXXXXXX.gz`。

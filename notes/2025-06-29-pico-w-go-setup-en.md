@@ -13,13 +13,16 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
 ---
 
 ### Prerequisites
+
 1. **MicroPython Flashed**: Your Pico has MicroPython installed, as you’ve already flashed it.
 2. **VSCode Installed**: Ensure VSCode is installed ([code.visualstudio.com](https://code.visualstudio.com)).
 3. **Python Installed**: Required for Pico-W-Go dependencies:
+
    ```bash
    sudo apt update
    sudo apt install python3 python3-pip
    ```
+
 4. **USB Connection**: The Pico is connected via a data-capable USB cable.
 
 ---
@@ -34,9 +37,11 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
 
 2. **Install Pico-W-Go Dependencies**:
    - Pico-W-Go requires `pyserial` and `esptool` for serial communication and flashing:
+
      ```bash
      pip3 install pyserial esptool
      ```
+
    - Ensure these are installed in your Python environment (use `pip3 list` to verify).
 
 3. **Configure Pico-W-Go**:
@@ -44,9 +49,11 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
    - Type and select **Pico-W-Go > Configure Project**.
    - Follow the prompts:
      - **Serial Port**: Select the Pico’s port (e.g., `/dev/ttyACM0`). Find it by running:
+
        ```bash
        ls /dev/tty*
        ```
+
        Look for `/dev/ttyACM0` or similar, which appears when the Pico is connected.
      - **Interpreter**: Choose MicroPython (Raspberry Pi Pico).
      - **Project Folder**: Select or create a folder for your project (e.g., `~/PicoProjects/MyProject`).
@@ -56,6 +63,7 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
    - In VSCode, open your project folder (File > Open Folder).
    - Create a new file named `main.py` (MicroPython runs `main.py` automatically on boot).
    - Add a simple program, e.g., to blink the onboard LED:
+
      ```python
      from machine import Pin
      import time
@@ -67,6 +75,7 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
          led.off()
          time.sleep(0.5)
      ```
+
    - Save the file (`Ctrl+S`).
 
 5. **Upload the Program to the Pico**:
@@ -87,25 +96,30 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
    - **Use the REPL**:
      - Open the Command Palette and select **Pico-W-Go > Open REPL**.
      - The REPL appears in VSCode’s terminal, where you can test commands:
+
        ```python
        from machine import Pin
        led = Pin(25, Pin.OUT)
        led.on()
        ```
+
      - Press `Ctrl+C` to stop a running program in the REPL.
 
 7. **Manage Files on the Pico**:
    - **List Files**: Use **Pico-W-Go > Download Project from Pico** to view or retrieve files from the Pico’s filesystem.
    - **Delete Files**: Open the Command Palette and select **Pico-W-Go > Delete All Files** to clear the Pico’s filesystem, or use the REPL:
+
      ```python
      import os
      os.remove('main.py')
      ```
+
    - **Check Output**: Program output (e.g., `print` statements) appears in the REPL or VSCode’s terminal if configured.
 
 ---
 
 ### Troubleshooting
+
 - **Port Not Detected**:
   - Run `ls /dev/tty*` to confirm the Pico’s port (e.g., `/dev/ttyACM0`).
   - Ensure the USB cable supports data transfer and try a different port.
@@ -117,21 +131,25 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
 - **LED Not Blinking**:
   - Confirm the correct GPIO pin (`25` for Pico, `"LED"` for Pico W).
   - Test in the REPL:
+
     ```python
     from machine import Pin
     led = Pin(25, Pin.OUT)
     led.on()
     ```
+
 - **Pico-W-Go Commands Missing**: Ensure the extension is installed and activated. Restart VSCode if needed.
 
 ---
 
 ### Advantages of Pico-W-Go in VSCode
+
 - **Integrated Workflow**: Combines code editing, file management, and REPL access in VSCode.
 - **Advanced Features**: Leverages VSCode’s Git integration, extensions, and customization.
 - **Cross-Platform**: Works on Linux, Windows, and macOS.
 
 ### Limitations Compared to Thonny
+
 - Setup is slightly more involved (e.g., installing `pyserial`, configuring the port).
 - REPL integration may feel less seamless than Thonny’s all-in-one interface.
 - Less beginner-friendly for first-time MicroPython users.
@@ -139,11 +157,13 @@ Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an e
 ---
 
 ### Alternative Extensions
+
 If you meant a different extension (e.g., **Pico-Go**), note that Pico-Go is an older alternative to Pico-W-Go and may have fewer features or updates. The setup is similar, but Pico-W-Go is recommended for its active development and support for both Pico and Pico W. If you’re using another specific extension, please clarify, and I can tailor the instructions.
 
 ---
 
 ### Example Workflow
+
 1. Install Pico-W-Go and dependencies.
 2. Configure the project with the correct serial port (`/dev/ttyACM0`).
 3. Write and save `main.py` with the LED blink code.

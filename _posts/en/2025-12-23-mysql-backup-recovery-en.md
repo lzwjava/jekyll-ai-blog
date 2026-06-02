@@ -21,12 +21,14 @@ This tutorial covers key concepts and practical steps for backing up and recover
 ## 1. Data Backup: Full vs. Incremental Backup; mysqldump Command
 
 ### Full Backup
+
 A full backup captures the entire database at a specific point in time, including all tables, data, schemas, triggers, and procedures.
 
 - **Pros**: Complete and self-contained; easy to restore without additional files.
 - **Cons**: Time-consuming and storage-intensive for large databases; repeated full backups waste resources.
 
 ### Incremental Backup
+
 An incremental backup captures only changes made since the last full or incremental backup.
 
 - **Pros**: Faster and uses less storage.
@@ -34,30 +36,37 @@ An incremental backup captures only changes made since the last full or incremen
 - In MySQL, incremental backups are achieved using **binary logs** (binlog), which record all data-modifying statements.
 
 ### Using mysqldump for Full Backups
+
 `mysqldump` is a logical backup tool that exports data as SQL statements.
 
 Basic command for a single database:
+
 ```
 mysqldump -u username -p database_name > backup_file.sql
 ```
 
 For all databases:
+
 ```
 mysqldump -u username -p --all-databases > full_backup.sql
 ```
 
 Recommended options for consistent backups (especially with InnoDB):
+
 ```
 mysqldump -u username -p --single-transaction --quick --lock-tables=false --all-databases > full_backup.sql
 ```
 
 To support point-in-time recovery, include binlog position:
+
 ```
 mysqldump -u username -p --master-data=2 --single-transaction --all-databases > full_backup.sql
 ```
+
 This adds a `CHANGE MASTER TO` comment with the binlog file and position.
 
 Add `--flush-logs` to rotate binlogs after the backup (starts new incremental changes):
+
 ```
 mysqldump -u username -p --flush-logs --master-data=2 --single-transaction --all-databases > full_backup.sql
 ```
@@ -65,6 +74,7 @@ mysqldump -u username -p --flush-logs --master-data=2 --single-transaction --all
 ## 2. Transaction Logs: Concept, Recovery Principles; MySQL’s Log Files and Roles; Binary Log Operations
 
 ### Transaction Logs Concept and Recovery Principles
+
 Transaction logs record changes to ensure ACID properties (Atomicity, Consistency, Isolation, Durability).
 
 - **InnoDB Redo Log**: Physical logs for crash recovery (replays committed changes).
@@ -72,6 +82,7 @@ Transaction logs record changes to ensure ACID properties (Atomicity, Consistenc
 - Recovery principle: During crash recovery, InnoDB uses redo/undo logs to roll forward committed transactions and roll back uncommitted ones. For PITR, restore a full backup and replay binlog events from the backup point onward.
 
 ### MySQL’s Main Log Files and Their Roles
+
 MySQL has several log files. Commonly referenced are these 7 types:
 
 1. **Error Log**: Records server startup/shutdown issues, errors, and warnings. Used for troubleshooting.
@@ -85,6 +96,7 @@ MySQL has several log files. Commonly referenced are these 7 types:
 (Note: Some sources include DDL log or audit log, but these are the core 7 often mentioned in tutorials.)
 
 ### Binary Log Operations
+
 - View status: `SHOW BINARY LOGS;`
 - View events: `SHOW BINLOG EVENTS IN 'binlog_file';`
 - Read binlog: `mysqlbinlog binlog_file`
@@ -96,9 +108,11 @@ MySQL has several log files. Commonly referenced are these 7 types:
 Incremental backups in MySQL rely on binlog (must be enabled).
 
 ### Enabling/Disabling Binlog
+
 Edit `my.cnf` (or `my.ini` on Windows) under `[mysqld]`:
 
 To enable:
+
 ```
 server-id = 1  # Required for replication/PITR
 log_bin = /path/to/mysql-bin.log  # Or just log_bin to use default
@@ -109,16 +123,21 @@ expire_logs_days = 14  # Auto-purge old logs
 Restart MySQL after changes.
 
 To disable:
+
 ```
 skip-log-bin
 ```
+
 Or comment out `log_bin`.
 
 ### Performing Incremental Backup
+
 1. Take a full backup (with `--flush-logs` to start fresh binlogs):
+
    ```
    mysqldump -u root -p --flush-logs --master-data=2 --single-transaction --all-databases > full_backup_2025-12-23.sql
    ```
+
 2. Note the binlog file/position from the backup file.
 3. Periodically back up new binlogs:
    - Flush logs: `FLUSH BINARY LOGS;`
@@ -130,33 +149,43 @@ Schedule: Daily full + hourly binlog copies for good RPO (Recovery Point Objecti
 ## 4. Recovery: Simple and Full Recovery Models; Restoring from mysqldump and Binary Logs
 
 ### Recovery Models
+
 MySQL does **not** have SQL Server-style "Simple" or "Full" recovery models.
 
 - Equivalent to **Simple**: No binlog enabled → Recovery only to last full backup (truncate transaction log behavior).
 - Equivalent to **Full**: Binlog enabled → Supports PITR by replaying logs (like full recovery with log backups).
 
 ### Restoring from mysqldump (Full Backup)
+
 ```
 mysql -u username -p < full_backup.sql
 ```
+
 Or per database:
+
 ```
 mysql -u username -p database_name < backup_file.sql
 ```
 
 ### Point-in-Time Recovery Using Binlog
+
 1. Restore the latest full backup:
+
    ```
    mysql -u root -p < full_backup.sql
    ```
+
 2. Replay binlogs from the backup's binlog position to desired point:
+
    ```
    mysqlbinlog --start-position=XXXX binlog.000001 binlog.000002 ... | mysql -u root -p
    ```
+
    - Use `--stop-datetime` or `--start-datetime` for time-based recovery.
    - Skip problematic events if needed with `--exclude-gtids` or manual editing.
 
 For complete PITR:
+
 - Restore full backup up to its binlog position.
 - Apply subsequent binlogs sequentially.
 
@@ -164,8 +193,8 @@ Always test recoveries in a non-production environment!
 
 References:
 
-- https://dev.mysql.com/doc/refman/8.4/en/server-logs.html
-- https://dev.mysql.com/doc/refman/8.4/en/binary-log.html
-- https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html
-- https://dev.mysql.com/doc/refman/8.4/en/point-in-time-recovery.html
-- https://dev.mysql.com/doc/refman/8.4/en/innodb-redo-log.html
+- <https://dev.mysql.com/doc/refman/8.4/en/server-logs.html>
+- <https://dev.mysql.com/doc/refman/8.4/en/binary-log.html>
+- <https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html>
+- <https://dev.mysql.com/doc/refman/8.4/en/point-in-time-recovery.html>
+- <https://dev.mysql.com/doc/refman/8.4/en/innodb-redo-log.html>

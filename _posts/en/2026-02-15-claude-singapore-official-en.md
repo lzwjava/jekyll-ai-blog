@@ -18,6 +18,7 @@ According to Anthropic's official supported countries list (as of the latest inf
 - Via platforms like Amazon Bedrock, Claude models have been available in the Asia Pacific (Singapore) region for years.
 
 If someone in Singapore is having trouble accessing it (e.g., sign-up issues, blocks, or errors), it could be due to:
+
 - Temporary technical glitches
 - Account-specific restrictions (e.g., if the account is tied to an entity flagged under Anthropic's rules on ownership from unsupported regions like China)
 - VPN or network issues

@@ -35,6 +35,7 @@ Node.js 24 brings meaningful improvements in performance (in most cases), modern
 | **Recommended for prod**| Safe & conservative choice in early 2026 | Current LTS recommendation (as of Feb 2026)      | Node.js 24 (current best LTS)              |
 
 ### Main Advantages of Upgrading to Node.js 24
+
 - Longer support horizon.
 - Better general runtime performance and memory usage (thanks to V8 13.6).
 - Production-ready security features (stable permissions model, stricter OpenSSL defaults).
@@ -42,6 +43,7 @@ Node.js 24 brings meaningful improvements in performance (in most cases), modern
 - Future-proofing (most new ecosystem libraries will target recent Node versions).
 
 ### Potential Downsides / Migration Considerations
+
 - Several **breaking changes** (detailed in the official v22 → v24 migration guide).
 - Rare performance regressions in specific native modules / addons (e.g. certain SQLite bindings).
 - Need to test stricter validation and crypto behavior.

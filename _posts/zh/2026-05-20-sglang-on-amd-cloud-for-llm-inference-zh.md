@@ -69,6 +69,7 @@ resp = client.chat.completions.create(
 ## 对你工作的简要总结
 
 如果你在 AMD 开发者云（MI300X）上运行推理，SGLang 是**推荐的服务后端**——在以下方面优于 vLLM：
+
 - 长共享前缀工作负载（Agent、RAG）
 - DeepSeek 级别的 MoE 模型（大规模专家并行）
 - 结合推测解码的高吞吐批量工作负载

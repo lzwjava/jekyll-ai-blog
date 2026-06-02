@@ -28,15 +28,19 @@ Based on thorough searches across multiple Chinese e-commerce and review platfor
 ## Current Active Lineup (as of 2025–2026)
 
 ### Flagship: S9
+
 The S9 is equipped with a 14.2-inch fourth-generation Lambertian-type photolithography eye-protection display, a 32-megapixel retractable flip "Smart Eye" camera for scanning worksheets, 512GB storage, and 30W fast charging. The S9 deeply integrates the DeepSeek large language model, offering AI homework planning, AI mother-question interactive explanations, and AI immersive interactive textbooks, making it one of the most comprehensive AI-integrated learning devices on the market. Priced around **¥5,899–6,199**.
 
 ### Mid-Range: X6 (Hongen Supreme Edition)
+
 The X6 is designed for kindergarten and early primary school children. It features an 11.6-inch high-color-gamut eye-protection screen and is built around BBK's unique "5P Learn Through Play" early education system, along with Hongen's eight series of flagship courses. Compared to the X5 Pro, the X6 adds Oxford graded reading and Hongen series apps — both free for children from preschool through Grade 3. Priced around **¥2,999**.
 
 ### Study-Practice Focus: A8
+
 The A8 features a one-touch "Study Machine" mode that creates a fully enclosed learning environment where other applications cannot be opened, helping children develop focus and engage in immersive practice sessions.
 
 ### X5 Pro
+
 For students in Grade 4 and above on a budget under ¥3,000, the X5 Pro is a viable alternative, though it lacks both Oxford graded reading and New Oriental course content.
 
 ---

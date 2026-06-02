@@ -58,6 +58,7 @@ Here are the **main differences between margin and padding** in CSS, explained c
 - **Margin** creates breathing room between this box and neighboring elements.
 
 ### Common Use Cases
+
 - Use **padding** when you want space inside a button, card, or container (and want the background to cover that space).
 - Use **margin** when you want space between elements (like paragraphs, list items, grid items).
 

@@ -84,13 +84,16 @@ Java的多样性远不止于Java代理，它还能驱动各种创新且实用的
     - **未成主流原因**：针对特定企业需求的细分解决方案，但作为学习项目极具价值。
 
 ### Java在这些项目中的优势所在
+
 Java的突出优势使其成为这些多样化应用的理想选择：
+
 - **可移植性**："一次编写，到处运行"原则使NASA World Wind和JabRef等项目能够跨平台无缝运行。
 - **健壮生态系统**：Apache POI、Bouncy Castle等类库及Spring等框架为Certificate Ripper和Hilla等项目提供支持。
 - **高性能**：GraalVM和MicroStream充分利用JVM实现高性能应用。
 - **社区与开源**：Jitsi和TeaVM等项目依托Java活跃的开源社区蓬勃发展。
 
 ### 探索这些项目的路径
+
 - **学习导向**：从Flappy Bird复刻版或JabRef等简单项目入手，理解Java在游戏或桌面应用中的应用。
 - **作品集构建**：为Jitsi或TeaVM等开源项目贡献代码，获取实战经验并展示技能。
 - **创新实践**：尝试GraalVM或MicroStream等前沿技术，探索在云服务或数据持久化领域的创新应用。

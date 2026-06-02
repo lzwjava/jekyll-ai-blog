@@ -99,9 +99,11 @@ After configuring the firewall, it's essential to verify that port 1080 is open 
 
 2. Alternative Port Checking Tools:
    - Netcat (`nc`):
+
      ```bash
      nc -zv <YOUR_VM_IP> 1080
      ```
+
    - Online Port Checkers:
      Use online services like [canyouseeme.org](https://canyouseeme.org/) to check if port 1080 is open.
 

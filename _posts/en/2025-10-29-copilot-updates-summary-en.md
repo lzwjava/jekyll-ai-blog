@@ -15,6 +15,7 @@ type: note
 Version 1.388.0 of the GitHub Copilot extension was released on October 24, 2025. This appears to be a minor update focused on stability and compatibility improvements, particularly with the latest VS Code release (1.105). Specific release notes are not publicly detailed in the marketplace or GitHub blog, but user reports indicate fixes for issues like unwanted code insertions during inline generation and extra tag completions when aborting suggestions. It integrates seamlessly with recent Copilot features, including enhanced agent modes and model selections.
 
 #### Key Updates in the Last 6 Months (May–October 2025)
+
 GitHub Copilot's major enhancements are typically announced alongside monthly VS Code releases. Here's a summary of significant updates for the extension and related features during this period:
 
 - **October 2025 (VS Code 1.105 / Extension ~1.388)**:

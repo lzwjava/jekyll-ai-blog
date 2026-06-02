@@ -26,6 +26,7 @@ The company emphasizes end-to-end deep learning models (including reinforcement 
 Momenta does not manufacture vehicles but supplies software to automakers (OEMs) and partners. It became China's first self-driving unicorn in 2021 (valuation > $1 billion) and has raised over $1.4 billion from investors including General Motors, Mercedes-Benz (Daimler), BYD, SAIC, NIO Capital, Bosch, Tencent, and others.
 
 Key partnerships and milestones (as of early 2026):
+
 - Collaborations with Mercedes-Benz (ADAS in multiple China models like the electric CLA, potential global elements), BMW (driver assistance for new China lineup), GAC Toyota, Dongfeng Nissan, Honda, and others.
 - Robotaxi initiatives: Commercial operations with SAIC Mobility in Shanghai/Suzhou; trials planned in China by late 2025; partnerships with Uber for Europe (Germany 2026 testing), Grab for Southeast Asia expansion, and Mercedes/Lumo in Abu Dhabi.
 - Hardware integrations: Often uses NVIDIA DRIVE Orin chips; first to mass-produce urban NOA on a single Orin.

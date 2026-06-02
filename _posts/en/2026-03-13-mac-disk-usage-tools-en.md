@@ -14,19 +14,23 @@ You're looking for **`du`** (disk usage) — it's the classic CLI tool for this 
 ## Quick commands with `du`
 
 **Find largest directories in current folder:**
+
 ```bash
 du -sh */ | sort -hr
 ```
+
 - `-s` = summary (total per directory)
 - `-h` = human-readable (GB, MB, etc.)
 - `sort -hr` = sort by size descending
 
 **Find largest items recursively:**
+
 ```bash
 du -sh ./* | sort -hr | head -20
 ```
 
 **For a specific path (e.g., Downloads):**
+
 ```bash
 du -sh ~/Downloads/* | sort -hr | head -10
 ```
@@ -36,13 +40,16 @@ du -sh ~/Downloads/* | sort -hr | head -10
 ## Better alternatives (more interactive)
 
 **`ncdu`** — This is probably what you're remembering. It's interactive and makes exploring huge folders easy:
+
 ```bash
 brew install ncdu
 ncdu ~/Downloads
 ```
+
 Then navigate with arrow keys, press `d` to delete, `q` to quit. Much more user-friendly than raw `du`.
 
 **`dust`** — Rusty alternative, cleaner output:
+
 ```bash
 brew install dust
 dust -r ~/Downloads  # -r = reverse sort (largest first)
@@ -61,6 +68,7 @@ dust -r ~/Downloads  # -r = reverse sort (largest first)
 ## One-liner to nuke large old files
 
 Delete files older than 30 days over 100MB:
+
 ```bash
 find ~/Downloads -type f -mtime +30 -size +100m -delete
 ```

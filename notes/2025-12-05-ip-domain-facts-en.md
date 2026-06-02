@@ -21,23 +21,23 @@ Answer:
 
 The correct options are **A, B, D**.
 
-### Explanation of each option:
+### Explanation of each option
 
 - **A. Correct**
-  IP addresses (e.g., IPv4: 192.168.1.1) are numeric, while domain names (e.g., www.example.com) use human-readable characters/letters.
+  IP addresses (e.g., IPv4: 192.168.1.1) are numeric, while domain names (e.g., <www.example.com>) use human-readable characters/letters.
 
 - **B. Correct**
   IP addresses are globally unique identifiers used by devices to communicate on the internet (assuming no NAT/private addressing is hiding multiple devices behind one public IP). In the context of public internet routing, each public IP must be unique worldwide.
 
 - **C. Incorrect**
   The relationship is **many-to-one**, not strictly one-to-one:
-  - Multiple domain names (or subdomains) can point to the **same IP** (e.g., example.com and www.example.com often resolve to the same IP).
+  - Multiple domain names (or subdomains) can point to the **same IP** (e.g., example.com and <www.example.com> often resolve to the same IP).
   - One domain name can resolve to **multiple IPs** (round-robin DNS, CDNs like Cloudflare/Google).
   Thus, there is **no one-to-one correspondence**.
 
 - **D. Correct**
   Domain names can have many levels. Examples:
-  - www.mail.dept.university.country.example.com (6+ levels)
+  - <www.mail.dept.university.country.example.com> (6+ levels)
   - sub.sub.sub.example.co.uk
   The DNS hierarchy supports essentially unlimited depth (though practical limits exist due to the 255-character total length limit per fully qualified domain name).
 
@@ -47,6 +47,7 @@ The correct options are **A, B, D**.
   Additionally, IPv6 addresses are 128 bits, further proving the statement is wrong.
 
 ### Summary
+
 Correct: **A, B, D**
 Incorrect: **C** (many-to-many possible), **E** (domains have no bit limit)
 

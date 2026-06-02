@@ -19,6 +19,7 @@ The TOEFL iBT Writing section includes two tasks, but when people refer to "TOEF
 However, the classic **Independent Writing-style topics** (still very relevant for practice and understanding the style of opinion/argument writing required) commonly fall into these major categories:
 
 ### Most Frequent Topic Categories
+
 - **Education** (by far the most common area)
   - Role of teachers, homework, class size, online vs. in-person learning, university education value, discipline in schools, qualities of good students/teachers
 - **Technology**
@@ -41,6 +42,7 @@ However, the classic **Independent Writing-style topics** (still very relevant f
   - Exercise, diet, work-life balance, living longer
 
 ### Common Question Formats (still useful patterns)
+
 - Agree or disagree with a statement (most frequent)
 - Preference/which is better (A or B)
 - Multiple choice (choose one of three options and explain why)
@@ -49,6 +51,7 @@ However, the classic **Independent Writing-style topics** (still very relevant f
 These topics are deliberately general and do not require expert knowledge — they test your ability to organize ideas, support opinions with reasons/examples, and write clearly in English.
 
 For the current TOEFL (2026), the **Academic Discussion task** often involves short opinion responses on university-level themes such as:
+
 - Social media effects
 - Grading systems
 - Advertising/targeted ads

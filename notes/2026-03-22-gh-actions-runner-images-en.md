@@ -12,9 +12,11 @@ type: note
 Fixed. Here's what changed:
 
 ### The Problem
+
 The old runner labels used `node:16-bullseye` — a bare Node.js image with no Python, no toolcache, nothing useful for GitHub Actions workflows. When `actions/setup-python` tried to install Python 3.13.2, it couldn't find a compatible prebuilt binary for that environment.
 
 ### The Fix
+
 Switched to **[catthehacker/ubuntu](https://github.com/catthehacker/docker_images)** images — these are purpose-built for GitHub Actions emulation:
 
 | Label | Image | Pre-installed |

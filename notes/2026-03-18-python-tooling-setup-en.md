@@ -29,6 +29,7 @@ Ruff is an extremely fast Python linter and code formatter, written in Rust. It 
 - It is configured in `pyproject.toml` with **targeted ignores**, meaning specific rules that don't apply to this project are suppressed so that only meaningful warnings appear.
 
 Example `pyproject.toml` config:
+
 ```toml
 [tool.ruff.lint]
 select = ["E", "F", "UP", "B", "I"]
@@ -73,6 +74,7 @@ These tools analyze your code **without running it** to catch type-related bugs 
 | **mypy** | Older, more mature, wider community adoption |
 
 Add to `.pre-commit-config.yaml`:
+
 ```yaml
 - repo: https://github.com/pre-commit/mirrors-mypy
   rev: v1.x.x

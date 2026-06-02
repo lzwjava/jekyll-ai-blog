@@ -15,7 +15,7 @@ type: note
 
 在 WiFi 更改后（新路由器、新 SSID 或新密码），要将您的 **Xiaomi Smart Doorbell**（如 Xiaomi Smart Doorbell 3 或 3S）重新连接到新的 WiFi 网络，您必须对门铃进行出厂重置，并在 Mi Home / Xiaomi Home 应用中重新设置。Xiaomi 门铃没有不重置即可简单“更改 WiFi”的选项。
 
-### 重置并重新连接的步骤：
+### 重置并重新连接的步骤
 
 1. **准备应用和手机**
    确保已安装最新的 **Mi Home** 或 **Xiaomi Home** 应用，并登录正确的账户。

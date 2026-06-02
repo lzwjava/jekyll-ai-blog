@@ -27,10 +27,12 @@ In short: It's a reminder that air frying rewards prep (uniformity) and monitori
 Aim for crispy, golden potato chips (or wedges) every time. Here's a step-by-step improved method based on reliable techniques—total time ~25-30 mins, serves as a side for 2-4.
 
 #### Prep (5 mins—key to even results)
+
 - **Slice uniformly**: Use a mandoline or sharp knife for 3-5mm thick slices (about 1/8 inch). All the same thickness prevents the thick/thin drama. Pat dry with paper towels to remove excess starch/moisture—super important for crispiness.
 - **Season smartly**: Toss in 1-2 tsp oil (olive or avocado works), salt, pepper, and optional garlic powder/paprika. Oil helps browning without sogginess. Skip if you want oil-free, but expect less crisp.
 
 #### Cooking (20-25 mins)
+
 1. **Preheat the air fryer**: 3-5 mins at 190°C. This kickstarts even cooking.
 2. **Load right**: Don't overcrowd—single layer max, with space for air flow. If too many, do batches.
 3. **Cook in stages**:
@@ -41,6 +43,7 @@ Aim for crispy, golden potato chips (or wedges) every time. Here's a step-by-ste
 4. **Test doneness**: Edges golden-brown and crispy, inside fork-tender (not hard). If still chewy, add 2-min increments at 180°C.
 
 #### Pro Tips
+
 - **Avoid burning**: If they start darkening, lower to 170°C or pull out early. Use parchment liner if your basket sticks.
 - **Batch tweak**: For thicker slices next time, parboil 2-3 mins first (drain/dry well) to speed internal cooking.
 - **Storage**: Leftovers? Reheat at 160°C for 3-5 mins to recrisp.

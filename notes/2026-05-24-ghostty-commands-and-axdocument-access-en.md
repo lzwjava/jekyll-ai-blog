@@ -20,6 +20,7 @@ Added `ww ghostty list` and `ww ghostty focus` commands to the `ww` CLI tool.
 Lists all Ghostty windows with ID, title, position, and size. Now also shows **hermes project names** using the `AXDocument` accessibility attribute — each Ghostty window exposes its working directory via `kAXDocumentAttribute`, which we read through AXUIElement (requires Accessibility permissions).
 
 Current output:
+
 ```
  #      Window ID  Title                                    Position         Size
     2. [1605]  hermes [openwrt]                         (28,224)         760x533

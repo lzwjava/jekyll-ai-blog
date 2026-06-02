@@ -15,9 +15,11 @@ Here is a concise Python guide covering string operations, math, text processing
 ## Python Guide: Essential Topics
 
 ### 1. String Operations
+
 Strings in Python are immutable sequences of characters. You can perform operations like concatenation, repetition, slicing, and use built-in methods for manipulation.
 
 **Examples:**
+
 ```python
 # Concatenation and repetition
 s1 = "Hello"
@@ -44,9 +46,11 @@ print(f"My name is {name} and I am {age} years old.")  # Output: My name is Alic
 ---
 
 ### 2. Math
+
 The `math` module provides mathematical functions and constants for common calculations.
 
 **Example:**
+
 ```python
 import math
 
@@ -59,9 +63,11 @@ print(math.pi)          # Output: 3.141592653589793
 ---
 
 ### 3. Text Processing (Regular Expressions)
+
 The `re` module enables pattern matching and text manipulation using regular expressions.
 
 **Example:**
+
 ```python
 import re
 
@@ -77,9 +83,11 @@ print(re.findall(r"\b\w{4}\b", text))  # Output: ['rain', 'Spain']
 ---
 
 ### 4. I/O (Input and Output)
+
 Basic input and output operations allow interaction with the user.
 
 **Example:**
+
 ```python
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
@@ -88,9 +96,11 @@ print("Hello, " + name + "!")
 ---
 
 ### 5. File Handling
+
 Python simplifies reading from and writing to files using the `open()` function, with the `with` statement recommended for automatic file closure.
 
 **Example:**
+
 ```python
 # Writing to a file
 with open("example.txt", "w") as f:
@@ -105,9 +115,11 @@ with open("example.txt", "r") as f:
 ---
 
 ### 6. Networking
+
 The `requests` library (install with `pip install requests`) makes HTTP requests straightforward.
 
 **Example:**
+
 ```python
 import requests
 
@@ -119,9 +131,11 @@ print(response.json())       # Output: JSON data from GitHub API
 ---
 
 ### 7. Collections
+
 The `collections` module offers specialized data structures like `Counter`, `deque`, `namedtuple`, etc. Here’s an example with `Counter`.
 
 **Example:**
+
 ```python
 from collections import Counter
 
@@ -131,6 +145,7 @@ print(word_count)  # Output: Counter({'apple': 2, 'banana': 1, 'cherry': 1})
 ```
 
 **Other Collections:**
+
 - `namedtuple`: Creates tuple subclasses with named fields.
 - `deque`: Double-ended queue for efficient appends/pops from both ends.
 - `OrderedDict`: Dictionary that remembers insertion order.
@@ -139,9 +154,11 @@ print(word_count)  # Output: Counter({'apple': 2, 'banana': 1, 'cherry': 1})
 ---
 
 ### 8. Multithreading
+
 The `threading` module enables concurrent task execution, ideal for I/O-bound operations.
 
 **Example:**
+
 ```python
 import threading
 import time

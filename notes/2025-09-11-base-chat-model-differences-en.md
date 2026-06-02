@@ -14,6 +14,7 @@ type: note
 Great question! Let’s break it down:
 
 ### 1. **Base GPT-5 Model**
+
 - The **base** GPT-5 model is a large language model trained on a wide range of text.
 - It doesn’t have built-in instructions for how to *interact* with a user—it just predicts the next token in a sequence.
 - If you prompt it with instructions, you’ll often get very literal completions rather than a natural conversation.
@@ -25,6 +26,7 @@ Great question! Let’s break it down:
 ---
 
 ### 2. **GPT-5-Chat (Instruction-tuned / Chat Model)**
+
 - The **chat model** is the base GPT-5 **plus fine-tuning** to follow instructions and engage in dialogue.
 - It’s trained with **RLHF** and curated datasets so it:
   - Understands conversational context.
@@ -36,6 +38,7 @@ Great question! Let’s break it down:
 ---
 
 ✅ **Analogy**:
+
 - *Base GPT-5* = raw engine.
 - *GPT-5-Chat* = engine tuned and packaged into a car ready to drive.
 

@@ -14,7 +14,8 @@ type: note
 
 This is a Java Spring Boot controller (`FileController`) designed to handle file uploads via an HTTP POST request. It integrates with **Alibaba Cloud Object Storage Service (OSS)** to store uploaded files in the cloud. The code focuses on image uploads (restricting to JPEG/PNG formats) and provides a simple, unauthenticated endpoint. It uses temporary local file storage during the process before deleting it.
 
-#### Key Components and Flow:
+#### Key Components and Flow
+
 1. **Class Structure**:
    - It's a `@RestController` mapped to the base path `"file"`, extending `BaseController` (likely for shared logic).
    - The main method is `upload()`, mapped to `"/file/upload"`.
@@ -57,7 +58,8 @@ This is a Java Spring Boot controller (`FileController`) designed to handle file
 
    - **Error Handling**: Uses custom exceptions (`LQException`) for validation and upload failures, ensuring consistent app-wide error responses.
 
-#### Security Notes:
+#### Security Notes
+
 - Hardcoded credentials are a major issue—use environment variables, AWS SSM, or Alibaba Cloud KMS.
 - The endpoint and bucket are incomplete—fill them in for actual use.
 - No authentication (`@NoAuth`) means anyone can upload; add auth if needed (e.g., via JWT).
@@ -70,15 +72,18 @@ The listed imports are for the Alibaba Cloud OSS Java SDK (typically added via M
 1. **`import com.aliyun.oss.OSSClient;`**:
    - The main client class for OSS operations (now deprecated in favor of `OSSClientBuilder`, but still functional in older codebases).
    - **Usage**: Create an instance to connect to OSS.
+
      ```java
      OSSClient ossClient = new OSSClient(ENDPOINT, ACCESS_KEY_ID, SECRET_ACCESS_KEY);
      // Then use methods like putObject(), getObject(), deleteObject().
      ```
+
    - **Why Here**: Used to authenticate and upload the file to the specified bucket.
 
 2. **`import com.aliyun.oss.ClientException;`**:
    - Thrown for client-side issues (e.g., network failures, invalid credentials).
    - **Usage**: Catch it to handle errors.
+
      ```java
      try {
          // OSS operation
@@ -86,11 +91,13 @@ The listed imports are for the Alibaba Cloud OSS Java SDK (typically added via M
          // Handle client errors (e.g., retry or log)
      }
      ```
+
    - **Why Here**: Caught in the upload method for resilient error handling.
 
 3. **`import com.aliyun.oss.OSSException;`**:
    - Thrown for OSS service-side errors (e.g., bucket not found, permission denied).
    - **Usage**: Similar to `ClientException`, but service-specific.
+
      ```java
      try {
          // OSS operation
@@ -98,30 +105,37 @@ The listed imports are for the Alibaba Cloud OSS Java SDK (typically added via M
          // Log e.getErrorCode() and e.getErrorMessage()
      }
      ```
+
    - **Why Here**: Caught to provide user-friendly failure messages via `LQException`.
 
 4. **`import com.aliyun.oss.model.PutObjectRequest;`**:
    - A model class for building upload requests (includes bucket, key, file/input stream, metadata).
    - **Usage**:
+
      ```java
      PutObjectRequest request = new PutObjectRequest(BUCKET, KEY, FILE);
      // Optional: Add metadata, e.g., request.setObjectMetadata(metadata);
      ossClient.putObject(request);
      ```
+
    - **Why Here**: Used to specify the upload details (bucket, key, local file).
 
 5. **`import com.aliyun.oss.model.PutObjectResult;`**:
    - Returned by `putObject()`; contains upload metadata (e.g., ETag for integrity checks).
    - **Usage**:
+
      ```java
      PutObjectResult result = ossClient.putObject(request);
      String etag = result.getETag();  // For verification
      ```
+
    - **Why Here**: Assigned but not deeply used in the code (could be logged for debugging).
 
-#### Setup and Integration Tips:
+#### Setup and Integration Tips
+
 - **Replace Placeholders**: Update `BUCKET` and `FILE_HOST` with real values. Ensure your Alibaba account allows OSS access.
 - **Maven Dependency** (add to `pom.xml`):
+
   ```xml
   <dependency>
       <groupId>com.aliyun.oss</groupId>
@@ -129,6 +143,7 @@ The listed imports are for the Alibaba Cloud OSS Java SDK (typically added via M
       <version>3.17.4</version>  <!-- Use latest stable -->
   </dependency>
   ```
+
 - **Testing**: Use tools like Postman to send a POST to `/file/upload` with a file parameter. The response should be a JSON object with the file URL.
 - **Full OSS Documentation**: Refer to [Alibaba OSS Java SDK Docs](https://help.aliyun.com/document_detail/31856.html) for advanced features like metadata, ACLs, or multipart uploads.
 

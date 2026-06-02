@@ -60,6 +60,7 @@ type: note
 
 1. **保存** 配置文件
 2. **重启** OpenClaw 服务：
+
 ```bash
 systemctl restart openclaw
 # 或
@@ -67,17 +68,20 @@ pkill openclaw && openclaw &
 ```
 
 3. **验证** 是否已在所有接口上监听：
+
 ```bash
 ss -tlnp | grep 18789
 # 应当显示: 0.0.0.0:18789 (而不是 127.0.0.1:18789)
 ```
 
 4. 如有需要，**允许防火墙** 通行：
+
 ```bash
 sudo ufw allow 18789
 ```
 
 5. 通过浏览器访问：
+
 ```
 http://192.168.1.36:18789
 ```

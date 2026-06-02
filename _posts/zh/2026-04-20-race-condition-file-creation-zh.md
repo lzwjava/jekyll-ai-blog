@@ -14,13 +14,16 @@ type: note
 **用户假设的竞争路径（并发执行 `ww note`）：**
 
 同一台机器上的两次调用可能越过 `check_duplicate_notes()` 产生竞争：
+
 1. 两者都通过 `check_uncommitted_changes()` 和 `git pull --rebase`
 2. 两者都调用 `check_duplicate_notes()` — 此时都尚未看到对方创建的文件
 3. 两者都调用 `create_filename()` — 其中一个得到 `...-en.md`，另一个则在 `create_note_utils.py:77-79` 处进入回退逻辑：
+
    ```python
    while os.path.exists(file_path):
        file_path = os.path.join(notes_dir, f"{date_str}-{short_title}-{counter}-en.md")
    ```
+
 4. 两者都提交并推送 — 最终结果：两份几乎完全相同的笔记。
 
 加锁可以防止*这种*竞争，但无法阻止更常见的路径。

@@ -35,23 +35,27 @@ What you're describing is essentially a **Personal AI Agent** — a system that 
 ### Existing Tools That Already Do Parts of This
 
 **Job & Career Monitoring:**
+
 - **Pallet / Levels.fyi** — high-paying tech job tracking
 - **LinkedIn Job Alerts** — keyword-based job monitoring
 - **Simplify / Teal** — AI-powered job application assistants
 - **80,000 Hours job board** — high-impact, high-earning roles in AI/research
 
 **People & Network Tracking:**
+
 - **LinkedIn Sales Navigator** — track career movements of people in your network
 - **Crystal Knows** — personality + communication style analysis
 - **Relationship tracking in Notion / Clay CRM** — personal CRM for managing contacts
 
 **Investment & Opportunity Signals:**
+
 - **Exploding Topics** — detect rising trends before they peak
 - **Product Hunt** — new product launches daily
 - **Crunchbase / PitchBook alerts** — startup funding signals
 - **Perplexity / Elicit** — AI research discovery
 
 **World Monitor (the project you shared):**
+
 - Already handles geopolitical + financial + news aggregation
 - Could be extended with personal filters for job boards, GitHub trending, ArXiv papers, etc.
 

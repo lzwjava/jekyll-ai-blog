@@ -15,6 +15,7 @@ type: note
 您分享的这行代码使用 PyTorch 的 `torch.nn.functional.scaled_dot_product_attention` 函数实现了**缩放点积注意力**（Transformer 模型中的核心机制）。该函数专为高效计算而设计，在满足条件时会自动调用优化实现（如 **Flash Attention**）。我将逐步解析其原理，包括 Flash Attention 的作用机制、参数形状要求以及效率优势。
 
 #### 缩放点积注意力速览
+
 在 Transformer 中，注意力机制用于计算序列中每个位置对其他位置的"关注度"。计算公式为：
 
 \\[
@@ -30,6 +31,7 @@ type: note
 **Flash Attention**（Tri Dao 等人于 2022 年提出）通过 CUDA **内核融合**技术解决了这一问题。它采用分块计算方式，避免在内存中存储完整注意力矩阵，将内存占用降至 \\(O(N)\\)，在 GPU 上可实现 2-4 倍加速。PyTorch 通过该函数无缝集成此技术——无需手动编写内核。
 
 #### 代码如何运用 Flash Attention
+
 ```python
 y = torch.nn.functional.scaled_dot_product_attention(
     q, k, v,
@@ -38,6 +40,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
     is_causal=True
 )
 ```
+
 - 此代码实现因果自注意力（常见于 GPT 等自回归模型，未来token无法关注过去token）
 - **Flash Attention 触发条件**：PyTorch 会检查运行时环境：
   - 设备：CUDA（GPU）
@@ -52,6 +55,7 @@ y = torch.nn.functional.scaled_dot_product_attention(
 - 输出 `y`：与 `v` 形状相同，代表加权后的特征表示
 
 #### 参数形状与要求
+
 所有输入张量（`q`, `k`, `v`）必须形状匹配且位于相同设备/数据类型。PyTorch 函数灵活支持**批处理**与**多头**注意力：
 
 | 参数 | 形状（批优先模式） | 说明 | 要求 |
@@ -71,7 +75,9 @@ y = torch.nn.functional.scaled_dot_product_attention(
   - 可通过 `torch.backends.cuda.enable_flash_sdp(True)` 启用
 
 #### 示例用法与验证
+
 以下为 PyTorch 最小示例（需 CUDA 环境）：
+
 ```python
 import torch
 import torch.nn.functional as F
@@ -91,6 +97,7 @@ print(y.shape)  # torch.Size([2, 128, 8, 64])
 对于较大 \\(S\\) 值，此实现比手动计算 `q @ k.transpose(-2,-1)` + softmax + `@ v` 快约 3 倍。
 
 #### 高效性原理
+
 - **内存优化**：标准实现：\\(O(B \cdot H \cdot S^2 \cdot 4\\) 字节（float32）；Flash：\\(O(B \cdot H \cdot S \cdot D)\\)——与 \\(S\\) 呈线性关系
 - **计算优化**：融合内核减少内核启动次数（softmax + 矩阵乘法一步完成）
 - **权衡**：float16 数值稳定性稍逊（建议使用 bfloat16），但影响可忽略

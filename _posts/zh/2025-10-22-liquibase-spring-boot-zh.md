@@ -15,10 +15,12 @@ type: note
 Liquibase 是一种流行的开源工具，用于以版本控制的方式管理数据库模式变更（迁移）。Spring Boot 为 Liquibase 提供了出色的自动配置支持，使其易于集成。本指南假设您使用的是 Spring Boot 3.x（截至 2025 年的最新版本）和 Maven，但这些概念同样适用于 Gradle。我们将逐步介绍基础知识。
 
 ### 前提条件
+
 - 已设置好的 Spring Boot 项目（例如，通过 Spring Initializr 创建）。
 - 在 `application.properties` 中配置好的数据库（例如，用于测试的 H2，用于生产环境的 PostgreSQL/MySQL）。
 
 ### 步骤 1：添加 Liquibase 依赖
+
 在您的 `pom.xml` 中包含 Liquibase Spring Boot starter。这会引入 Liquibase 并将其无缝集成。
 
 ```xml
@@ -33,6 +35,7 @@ Liquibase 是一种流行的开源工具，用于以版本控制的方式管理�
 ```
 
 对于 Gradle，请添加到 `build.gradle`：
+
 ```groovy
 implementation 'org.liquibase:liquibase-core'
 implementation 'org.springframework.boot:spring-boot-starter-jdbc'
@@ -41,9 +44,11 @@ implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 运行 `mvn clean install`（或 `./gradlew build`）以下载依赖项。
 
 ### 步骤 2：配置 Liquibase
+
 如果您将变更日志文件放在默认位置，Spring Boot 会自动检测 Liquibase。通过 `application.properties`（或等效的 `.yml` 文件）进行自定义。
 
 示例 `application.properties`：
+
 ```properties
 # 数据库设置（根据您的数据库进行调整）
 spring.datasource.url=jdbc:h2:mem:testdb
@@ -62,7 +67,9 @@ spring.liquibase.drop-first=false  # 在开发环境中设置为 true，以便�
 - 对于上下文/配置文件，使用 `spring.liquibase.contexts=dev` 来运行特定的变更。
 
 ### 步骤 3：创建变更日志文件
+
 Liquibase 使用“变更日志”来定义模式变更。在 `src/main/resources` 下创建目录结构：
+
 ```
 src/main/resources/
 └── db/
@@ -74,7 +81,9 @@ src/main/resources/
 ```
 
 #### 主变更日志 (`db.changelog-master.xml`)
+
 此文件包含其他变更日志：
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog
@@ -89,7 +98,9 @@ src/main/resources/
 ```
 
 #### 示例变更 (`001-create-users-table.xml`)
+
 定义一个表创建：
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
@@ -115,9 +126,11 @@ src/main/resources/
 - 运行 `java -jar target/your-app.jar` 启动应用程序——Liquibase 在引导时自动应用变更。
 
 ### 步骤 4：运行和测试
+
 - **启动时**：Spring Boot 在您的应用程序完全启动之前运行 Liquibase。
 - **回滚**：使用 `spring.liquibase.rollback-file` 或 CLI 进行测试。
 - **CLI 集成**：对于手动运行，添加 Liquibase Maven 插件：
+
   ```xml
   <plugin>
       <groupId>org.liquibase</groupId>
@@ -131,11 +144,13 @@ src/main/resources/
       </configuration>
   </plugin>
   ```
+
   然后运行 `mvn liquibase:update`。
 
 - **验证**：启用 `spring.liquibase.validate-on-migrate=true` 以检查变更日志。
 
 ### 常见技巧
+
 - **配置文件**：如果需要，在 bean 上使用 `@Profile("dev")`，但除非经过过滤，否则 Liquibase 会全局运行。
 - **前置条件**：在变更集中添加 `<preConditions>` 以检查数据库状态。
 - **SQL 格式**：对于原始 SQL，创建 `.sql` 文件并将其包含在内：`<sqlFile path="changes/create-users.sql" relativeToChangelogFile="true"/>`。
@@ -145,6 +160,7 @@ src/main/resources/
 有关高级功能（如标记回滚或自定义扩展），请参阅文档。
 
 ### 参考资料
+
 - [Spring Boot Liquibase 自动配置](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#io.liquibase)
 - [Liquibase 官方文档](https://docs.liquibase.com/start/home.html)
 - [Baeldung Spring Boot + Liquibase 教程](https://www.baeldung.com/liquibase-refactor-schema-of-jpa-entity-in-spring-boot)

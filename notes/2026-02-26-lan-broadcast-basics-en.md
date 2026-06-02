@@ -20,6 +20,7 @@ The correct answer is **广播** (broadcast).
 In traditional LANs (especially those using Ethernet with hubs or in early bus topologies), the most common and fundamental transmission method at the data link layer is **broadcast**.
 
 Main characteristics:
+
 - When a device sends a data frame, the frame is transmitted to **all devices** on the same local network segment.
 - All devices on the LAN receive the frame.
 - Only the device whose MAC address matches the destination address in the frame will process it, while other devices discard it.
@@ -27,6 +28,7 @@ Main characteristics:
 This is why LANs are often described as using **broadcast transmission** (or one-to-all transmission within the broadcast domain).
 
 Common related concepts:
+
 - **Unicast**（单播）：one-to-one (most common for actual data transfer after knowing the target MAC)
 - **Broadcast**（广播）：one-to-all (used for ARP, DHCP, discovery protocols, etc.)
 - **Multicast**（组播）：one-to-many (specific group)

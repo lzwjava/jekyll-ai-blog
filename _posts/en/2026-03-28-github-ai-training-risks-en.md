@@ -28,18 +28,23 @@ This covers your file structure, naming conventions, comments, and how you navig
 ## Yes, API Keys and Secrets Can Leak — Here's How
 
 ### 1. Direct Training Data Exposure
+
 If a developer hardcodes an API key in a script, it may become prone to exposure once it makes its way into Copilot's training. Moreover, once the key becomes baked into training data, identifying and removing the secret from the repository is no longer sufficient to prevent a leak — it remains memorized by the model.
 
 ### 2. Local File Context (Even `.env` Files!)
+
 Copilot processes whatever is in your working directory. There is no built-in mechanism to exclude sensitive files. If you have API keys, database credentials, or secrets in your project — even if they're in `.env` files that are gitignored — Copilot can still see them during active use because it reads your local files, not just what's in git.
 
 ### 3. Proven Secret Leakage Rate
+
 Research by GitGuardian found that in a sample of ~20,000 repositories where Copilot is active, over 1,200 leaked at least one secret — a 6.4% incidence rate, which is 40% higher than observed across all public repositories.
 
 ### 4. Models Can Reproduce Secrets to Other Users
+
 Research findings indicate that these models not only leak original secrets present in their training data, but also suggest other secrets encountered elsewhere in their training corpus — exposing sensitive information to completely different users.
 
 ### 5. Real Exploit: CamoLeak Vulnerability
+
 A critical vulnerability dubbed CamoLeak (scored 9.6 on the CVSS scale) allowed attackers to hide malicious prompts in invisible markdown comments inside pull requests, tricking Copilot Chat into searching the repo for API keys and tokens, then exfiltrating them character by character through a covert image-loading channel. GitHub has since patched this specific attack vector, but it illustrates how serious the exposure can be.
 
 ---

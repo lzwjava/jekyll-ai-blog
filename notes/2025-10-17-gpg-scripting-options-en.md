@@ -25,6 +25,7 @@ The options `--batch`, `--yes`, `-o`, and `--pinentry-mode` are common flags use
 These options are frequently combined in scripts, e.g., `gpg --batch --yes -o decrypted.txt --pinentry-mode loopback --decrypt encrypted.gpg`, to run fully automated.
 
 #### References
+
 - [GPG Man Page](https://linux.die.net/man/1/gpg)
 - [GnuPG Agent Options](https://www.gnupg.org/documentation/manuals/gnupg/Agent-Options.html)
 - [GnuPG Manual](https://www.gnupg.org/documentation/manuals/gnupg/index.html)

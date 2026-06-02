@@ -35,11 +35,12 @@ type: note
 ========================================================================
 
 与 fix_backup.sh 的不同之处：
-  - 通过子目录传输 Photos 库（而非一个大型 rsync 命令）
-  - 每个子目录大小为 1-3GB（不会超时）
-  - 使用 --partial 和 --inplace 参数，使中断的传输可以续传
-  - ServerAliveInterval=15 保持 SSH 连接活跃
-  - 自动跳过已完成的子目录（通过 rsync 校验）
+
+- 通过子目录传输 Photos 库（而非一个大型 rsync 命令）
+- 每个子目录大小为 1-3GB（不会超时）
+- 使用 --partial 和 --inplace 参数，使中断的传输可以续传
+- ServerAliveInterval=15 保持 SSH 连接活跃
+- 自动跳过已完成的子目录（通过 rsync 校验）
 
 在 MacBook 上运行：
   bash ~/fix_backup2.sh

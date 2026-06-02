@@ -18,7 +18,9 @@ AMD DevCloud（由 DigitalOcean 基础设施支持）对新用户/未验证账�
 ## 根本原因
 
 ### 1. 新账户的默认 Droplet 限制非常低
+
 新的 AMD DevCloud 账户通常初始**限制为 0 或 1 个 Droplet**，或者极低的 **vCPU/RAM 配额**。MI300X x8 方案消耗：
+
 - 160 vCPUs
 - 1,920 GB RAM
 - 2x NVMe 磁盘
@@ -26,10 +28,13 @@ AMD DevCloud（由 DigitalOcean 基础设施支持）对新用户/未验证账�
 仅此一项就远超大多数默认配额。
 
 ### 2. GPU Droplet 有单独的配额层级
+
 GPU 资源与常规计算资源分开管理。即使你的通用 Droplet 限制没问题，**GPU 专属限制**通常默认为 0，除非你申请访问权限或完成账单验证。
 
 ### 3. 账单/验证未完成
+
 按 ~$1.99/GPU/小时 × 8 GPUs = **$15.92/小时**计算，AMD DevCloud 可能要求：
+
 - 确认有效付款方式
 - 完成账户身份/组织验证
 - 明确申请配额提升
@@ -39,19 +44,24 @@ GPU 资源与常规计算资源分开管理。即使你的通用 Droplet 限制�
 ## 如何解决
 
 ### 选项 A：请求提升配额
+
 前往你链接的个人资料页面：`devcloud.amd.com/account/profile?i=cd3419`
 
 查找：
+
 - **“Request Limit Increase”** 或 **“Quota”** 板块
 - 提交支持工单，说明你的使用场景（模型训练、研究等）
 
 ### 选项 B：直接联系 AMD DevCloud 支持
+
 AMD DevCloud 设有支持渠道 — 说明：
+
 - 你的使用场景（LLM 训练、MI300X 工作负载）
 - 预计使用时长/周期
 - 你已完成账单验证
 
 ### 选项 C：通过 API 检查当前限制（如果基于 DigitalOcean）
+
 ```bash
 # 如果他们暴露了兼容 DO 的 API
 curl -X GET "https://api.devcloud.amd.com/v2/account" \

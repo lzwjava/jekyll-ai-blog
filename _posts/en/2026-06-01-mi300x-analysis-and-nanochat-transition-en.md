@@ -14,6 +14,7 @@ Now I have real data. Here's the updated analysis:
 ---
 
 **MI300X specs (confirmed from Wikipedia):**
+
 - 304 CUs, CDNA 3
 - **192 GB HBM3, 5.3 TB/s bandwidth**
 - **1307.4 TFLOPS FP16** (2614.9 with sparsity) — faster than H100 (989.4 TFLOPS bf16)
@@ -25,6 +26,7 @@ Karpathy's README says:
 > nanoGPT has a new and improved cousin called nanochat. nanoGPT (this repo) is now very old and deprecated.
 
 **nanochat** (Oct 2025+) is the successor. Key differences:
+
 - Uses `--depth` as single dial — auto-calculates width, heads, LR, weight decay, training horizon
 - `model_dim = depth * 64` (aspect ratio), head_dim=128
 - GQA (Grouped Query Attention), RoPE, RMSNorm, ReLU², Flash Attention 3, value residual
@@ -33,6 +35,7 @@ Karpathy's README says:
 - DCLM CORE benchmark for evaluation
 
 **Scaling law update (Sardana et al., ICML 2024 — "Beyond Chinchilla-Optimal"):**
+
 - When accounting for **inference cost**, you should train **smaller models longer** (more tokens/param)
 - Quality **continues to improve** even at extreme token/param ratios (up to 10,000 tokens/param!)
 - At 14.6B tokens:

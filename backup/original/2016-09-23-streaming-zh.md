@@ -35,19 +35,24 @@ FFmpeg 是一个综合性的多媒体框架，可以解码、编码、转码、�
 #### SRS 服务器设置
 
 1. **安装 SRS**：从 GitHub 克隆 SRS 仓库并编译以支持 SSL。
+
     ```sh
     git clone https://github.com/ossrs/srs.git
     cd srs/trunk
     ./configure --disable-all --with-ssl
     make
     ```
+
 2. **配置 SRS**：编辑 `conf/rtmp.conf` 文件以配置您的 RTMP 设置。
+
     ```sh
     listen 1935;
     max_connections 1000;
     vhost __defaultVhost__ { }
     ```
+
 3. **启动 SRS**：使用您的配置文件运行 SRS 服务器。
+
     ```sh
     ./objs/srs -c conf/rtmp.conf
     ```
@@ -56,10 +61,13 @@ FFmpeg 是一个综合性的多媒体框架，可以解码、编码、转码、�
 
 1. **安装 FFmpeg**：从官网或通过包管理器安装 FFmpeg。
 2. **使用 FFmpeg 进行流媒体传输**：使用 FFmpeg 将视频流推送到您的 SRS 服务器。
+
     ```sh
     ffmpeg -re -i input_video.flv -vcodec copy -acodec copy -f flv rtmp://your_server_ip/live/stream_key
     ```
+
 3. **自动化流媒体传输**：创建一个脚本以持续传输视频文件。
+
     ```sh
     for ((;;)); do
         ffmpeg -re -i input_video.flv -vcodec copy -acodec copy -f flv rtmp://your_server_ip/live/stream_key;
@@ -70,24 +78,29 @@ FFmpeg 是一个综合性的多媒体框架，可以解码、编码、转码、�
 ### 协议和格式
 
 **RTMP（实时消息传输协议）**
+
 - RTMP 因其低延迟和可靠的传输而广泛用于直播。
 - 它使用 TCP，可以维持持久连接，确保流畅的流媒体传输。
 
 **HLS（HTTP 实时流媒体）**
+
 - HLS 将视频流分成小的基于 HTTP 的文件段，使其易于通过标准 Web 服务器传输。
 - 虽然会引入延迟，但它与各种设备和平台高度兼容。
 
 **HTTP-FLV**
+
 - 将 FLV 格式与 HTTP 传输结合，用于低延迟流媒体传输。
 - 适用于基于浏览器的流媒体，因为它利用现有的 HTTP 基础设施。
 
 ### 实际应用
 
 **iOS 和 Android 流媒体**
+
 - 使用 VideoCore 和 Ijkplayer 等库在移动设备上实现 RTMP 流媒体传输。
 - 集成 FFmpeg 进行编码和解码任务，以增强兼容性和性能。
 
 **基于 Web 的流媒体**
+
 - 使用 HTML5 视频元素在网页上实现视频播放，支持 HLS 或 HTTP-FLV。
 - 利用 WebRTC 进行实时通信和低延迟交互。
 

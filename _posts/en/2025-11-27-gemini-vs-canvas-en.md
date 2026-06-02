@@ -24,6 +24,7 @@ Gemini Guided Learning is an **AI-powered study companion** designed to give you
 
 [Image of a probability tree diagram]
  and link to videos to help visual learners grasp complex concepts.
+
 * **Quick and Flexible:** You can start a session on a topic, switch gears to another subject, and get instant feedback, making it a flexible tool for supplemental learning and curiosity-driven exploration.
 
 > **Note:** Reviews suggest that while it's great for foundational learning and curiosity, its rigid questioning style can sometimes be frustrating, and its consistency in handling very complex or nuanced topics is still evolving.
@@ -56,5 +57,4 @@ In short, **Canvas** provides the **structure** and **tools** for an entire clas
 This video gives an introduction and walkthrough of the Guided Learning mode.
 [Gemini Learning Mode Review: Tools for Easy Learning](https://www.youtube.com/watch?v=ARW8tNFtqzc)
 
-
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

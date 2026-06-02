@@ -30,6 +30,7 @@ Answer:
 → 总价约为 **¥210万–¥230万人民币**。
 
 所以如果有人说：
+
 - 去年约 140 万
 - 今年约 220 万
 
@@ -38,6 +39,7 @@ Answer:
 ### 3. 为什么感觉价格“跳涨”了
 
 原因有以下几点：
+
 - H200 取代了 H100（更大的显存：141GB HBM3e）
 - AI 需求激增（LLM 训练）
 - 中国 export restrictions / 许可政策变化
@@ -59,6 +61,7 @@ Answer:
 - 这种混淆通常源于 **GPU 与 HGX server** 概念的重叠
 
 如果你能告诉我：
+
 - 是云端租赁？
 - 购买服务器？
 - 来自中文论坛的传闻？
@@ -67,7 +70,8 @@ Answer:
 我可以更准确地为你分析你所看到的具体情况。
 
 References:
-- https://www.h200.info/faq
-- https://cyfuture.cloud/kb/gpu/nvidia-h200-price-guide-costs-specs-and-2025-updates
-- https://www.thepricer.org/how-much-does-nvidia-h200-cost/
-- https://veixus.com/2025/09/29/nvidia-h200-gpu-explained-the-complete-guide-to-ais-most-powerful-datacenter-accelerator/
+
+- <https://www.h200.info/faq>
+- <https://cyfuture.cloud/kb/gpu/nvidia-h200-price-guide-costs-specs-and-2025-updates>
+- <https://www.thepricer.org/how-much-does-nvidia-h200-cost/>
+- <https://veixus.com/2025/09/29/nvidia-h200-gpu-explained-the-complete-guide-to-ais-most-powerful-datacenter-accelerator/>

@@ -34,6 +34,7 @@ This is one of the underappreciated advantages of neural network training over o
 The RTX 3090 offers 24GB of GDDR6X on a 384-bit bus and 936 GB/s bandwidth, making it suitable for larger batch processing and memory-intensive tasks. The RTX 4070 provides 12GB on a 192-bit bus with fourth-generation Tensor Cores optimized for modern AI workflows — and uses only ~200W vs the 3090's ~350W.
 
 For your GPT-2 Medium case specifically:
+
 - **4070 wins on speed** per watt and per dollar of compute
 - **3090 wins on VRAM capacity** — a GPU with 24GB can often use 2× the batch size of a 12GB GPU, which can significantly speed up training per iteration
 - For GPT-2 Medium (~355M params), 12GB is sufficient, so the 4070's efficiency advantage wins here

@@ -24,11 +24,14 @@ A single binary that replaces pip, pip-tools, pipx, poetry, pyenv, twine, and vi
 The codebase is a monorepo with ~72 crates under `crates/`. Here's the key breakdown by layer:
 
 ### CLI & Command Dispatch
+
 - `uv-cli` — Clap-derived CLI definitions (the `Commands` enum with all subcommands)
 - `uv` (the main crate) — `lib.rs` has a massive `match *cli.command { ... }` dispatch at line 542, routing to command handlers in `commands/`
 
 ### Commands (what uv can do)
+
 From the `commands/` directory:
+
 - **pip/** — compile, install, sync, uninstall, freeze, list, show, tree (pip-compatible interface)
 - **project/** — init, add, remove, lock, sync, run, tree, export, version, audit
 - **tool/** — run, install, uninstall, list, upgrade
@@ -39,6 +42,7 @@ From the `commands/` directory:
 - **self_update** — self-update mechanism
 
 ### The Resolver (the hard part)
+
 - `uv-resolver` — The core dependency resolver, ~4268 lines in `resolver/mod.rs` alone
 - Uses **PubGrub** (specifically `astral-pubgrub`, their fork) — a SAT-solving-based version resolution algorithm
 - Has sophisticated fork support (forking on markers like `sys_platform == 'win32'` vs Python version constraints)
@@ -46,6 +50,7 @@ From the `commands/` directory:
 - Handles: version maps, yanks, pre-releases, constraints, overrides, flat indexes
 
 ### Distribution & Packages
+
 - `uv-distribution` — fetching/caching distribution metadata
 - `uv-distribution-types` — type definitions for `Dist`, `BuiltDist`, `SourceDist`, `InstalledDist`
 - `uv-distribution-filename` — wheel/sdist filename parsing
@@ -53,11 +58,13 @@ From the `commands/` directory:
 - `uv-installer` — orchestrates installation with progress reporting
 
 ### PEP Standards
+
 - `uv-pep440` — PEP 440 version parsing (with `rkyv` zero-copy deserialization for speed)
 - `uv-pep508` — PEP 508 dependency specifiers (`requests>=2.0; python_version>="3.8"`)
 - `uv-pypi-types` — PyPI API types
 
 ### Infrastructure
+
 - `uv-cache` / `uv-cache-info` / `uv-cache-key` — global content-addressed cache (deduplication)
 - `uv-client` — HTTP client for PyPI index (reqwest-based, with retry middleware)
 - `uv-python` — Python version discovery/management (pyenv replacement)
@@ -68,6 +75,7 @@ From the `commands/` directory:
 - `uv-workspace` — Cargo-style workspace discovery
 
 ### Performance
+
 - `uv-performance-memory-allocator` — custom allocator for speed
 - `uv-small-str` — small string optimization
 - `uv-once-map` — concurrent init-once map
@@ -77,6 +85,7 @@ From the `commands/` directory:
 - Uses `rayon` for CPU parallelism
 
 ### Notable Design Choices
+
 1. **PubGrub solver** — not a traditional backtracking resolver. It's a conflict-driven algorithm (similar to SAT solvers) that's been proven correct in Coq. Astral maintains their own fork (`astral-pubgrub`).
 2. **Forking resolution** — the resolver can "fork" when it encounters environment markers, resolving different versions for different platforms/Python versions in a single pass.
 3. **Universal lockfile** — `uv.lock` is platform-independent, capturing all possible forks in one file.

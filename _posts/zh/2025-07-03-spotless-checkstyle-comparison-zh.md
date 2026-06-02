@@ -126,6 +126,7 @@ type: note
 
 3. **自定义 Checkstyle 规则**：
    - 自定义 `google_checks.xml` 或创建自己的规则集（例如 `my_checks.xml`）以强制执行特定规则，如：
+
      ```xml
      <module name="Indentation">
          <property name="basicOffset" value="2"/>
@@ -140,6 +141,7 @@ type: note
 
 4. **避免冗余**：
    - 如果 Spotless 处理了格式化（例如缩进、导入顺序），禁用 Checkstyle 中重叠的规则以避免重复检查。例如，如果 Spotless 强制执行缩进，则禁用 Checkstyle 的 `Indentation` 模块：
+
      ```xml
      <module name="Indentation">
          <property name="severity" value="ignore"/>
@@ -169,6 +171,7 @@ type: note
   - Spotless：使用 Spotless Gradle/Maven 任务或 IDE 插件（例如 IntelliJ 的 `palantir-java-format`）。
   - Checkstyle：使用 IntelliJ 的 Checkstyle-IDEA 插件或 Eclipse Checkstyle 插件，配置相同的 `google_checks.xml`。
 - **CI/CD**：在 CI 管道（例如 Jenkins、GitHub Actions）中配置两个插件，以在拉取请求上强制执行格式化和样式检查。
+
   ```yaml
   # Example GitHub Actions workflow
   name: CI

@@ -22,7 +22,9 @@ type: note
 目前你的 Nginx 正以普通用户（很可能是 `lzw`）身份启动，这导致了 bind() 和日志文件访问错误。
 
 ### 根本原因总结
+
 你之前设置了 Nginx 以用户 `lzw` 运行（通过 `systemctl edit` 或 `user` 指令），但是：
+
 - 普通用户无法绑定 port 80
 - 普通用户无法写入 `/var/log/nginx/`
 - 除非 Master process 以 root 启动，否则 `user` 指令会被忽略
@@ -89,7 +91,7 @@ type: note
    sudo systemctl reload nginx
    ```
 
-   然后在浏览器中打开 http://192.168.1.36/movies/ —— 它应该能显示目录列表。
+   然后在浏览器中打开 <http://192.168.1.36/movies/> —— 它应该能显示目录列表。
 
 ### 如果你确实想让 Nginx 完全以 lzw 身份运行（不推荐）
 

@@ -42,35 +42,47 @@ OpenShift 凭借其丰富的功能集在容器化应用管理领域脱颖而出�
 只需几个简单步骤即可搭建 OpenShift 环境并部署您的首个应用。
 
 ### 步骤 1：注册或安装 OpenShift
+
 - **云平台方案**：通过 [Red Hat OpenShift Online](https://www.openshift.com/products/online/) 注册免费账户
 - **本地开发方案**：安装 [Minishift](https://docs.okd.io/latest/minishift/getting-started/installing.html) 在本地运行单节点集群
 
 ### 步骤 2：安装 OpenShift CLI
+
 通过名为 `oc` 的命令行界面与平台交互。从 [官方 CLI 页面](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html) 下载并按照操作系统指引完成安装。
 
 ### 步骤 3：登录并创建项目
+
 - 使用 CLI 登录集群：
+
   ```bash
   oc login <集群地址> --token=<您的令牌>
   ```
+
   请将 `<集群地址>` 和 `<您的令牌>` 替换为实际参数
 - 新建项目用于应用管理：
+
   ```bash
   oc new-project 我的首个项目
   ```
 
 ### 步骤 4：部署应用
+
 通过 `oc new-app` 命令部署示例应用（如 Node.js 应用）：
+
 ```bash
 oc new-app nodejs~https://github.com/sclorg/nodejs-ex.git
 ```
+
 该命令利用 OpenShift 的源到镜像（S2I）功能直接从 Git 代码库构建并部署应用。
 
 ### 步骤 5：发布应用
+
 通过创建路由使应用可通过 URL 访问：
+
 ```bash
 oc expose svc/nodejs-ex
 ```
+
 运行 `oc get route` 获取访问地址，在浏览器中即可查看运行中的应用！
 
 ---
@@ -80,35 +92,49 @@ oc expose svc/nodejs-ex
 环境就绪后，您可充分运用平台功能来高效管理应用，以下是核心功能的操作指南。
 
 ### 应用部署
+
 OpenShift 提供灵活的部署方式：
+
 - **源到镜像（S2I）**：从源代码自动构建部署，例如：
+
   ```bash
   oc new-app python~https://github.com/example/python-app.git
   ```
+
 - **Docker 镜像**：直接部署预构建镜像：
+
   ```bash
   oc new-app 我的镜像:最新版本
   ```
+
 - **模板部署**：快速部署 MySQL 等通用服务：
+
   ```bash
   oc new-app --template=mysql-persistent
   ```
 
 ### 容器管理
+
 通过 CLI 或网页控制台管理容器生命周期：
+
 - **启动构建**：`oc start-build <构建配置>`
 - **应用扩缩**：`oc scale --replicas=3 dc/<部署配置>`
 - **查看日志**：`oc logs <容器组名称>`
 
 ### 应用伸缩
+
 快速调整应用容量，例如扩展至三个实例：
+
 ```bash
 oc scale --replicas=3 dc/我的应用
 ```
+
 OpenShift 会自动在这些副本间实现负载均衡。
 
 ### 监控与日志
+
 通过内置工具掌握应用状态：
+
 - **Prometheus**：监控 CPU/内存使用率等指标
 - **Grafana**：可视化性能数据
 - **Elasticsearch 与 Kibana**：集中分析日志数据
@@ -133,6 +159,7 @@ OpenShift 会自动在这些副本间实现负载均衡。
 ## OpenShift 应用场景
 
 OpenShift 在多种场景中表现卓越：
+
 - **微服务架构**：通过内置服务发现与负载均衡管理微服务
 - **DevOps 实践**：利用 CI/CD 与自动化工具打通开发运维流程
 - **混合云部署**：实现跨本地与云环境的无缝应用部署

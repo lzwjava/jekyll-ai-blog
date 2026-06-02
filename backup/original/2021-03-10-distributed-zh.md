@@ -17,6 +17,7 @@ title: 云计算和大数据入门
 * MongoDB
 
 说起云计算，似乎离不开很多的工具，Hadoop、Hive、Hbase、ZooKeeper、Docker、Kubernetes、Spark、Kafka、MongoDB、Flink、Druid、Presto、Kylin、Elastic Search。都有听过吗。这些工具有些我是从`大数据工程师`、`分布式后端工程师`的职位描述上找到的。这些都是高薪职位。我们试着把他们都安装上，试着把玩两下。
+
 ## 初探 Spark
 
 官网说，`Spark`用来处理大规模数据的分析引擎。`spark`就是一套库。它似乎不像`Redis`那样分成服务端和客户端。`spark`就是只在客户端使用的。从官网下载了最新的版本，`spark-3.1.1-bin-hadoop3.2.tar`。
@@ -83,7 +84,7 @@ $ ./bin/run-example SparkPi 10
 
 > Spark is a fast and general processing engine compatible with Hadoop data. It can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat. It is designed to perform both batch processing (similar to MapReduce) and new workloads like streaming, interactive queries, and machine learning.
 
-出现了好几次`hadoop`。谷歌了`spark depends hadoop `之后，找到这样一段话。看来这依赖于`Hadoop`格式的数据。让我们先研究 `Hadoop`。
+出现了好几次`hadoop`。谷歌了`spark depends hadoop`之后，找到这样一段话。看来这依赖于`Hadoop`格式的数据。让我们先研究 `Hadoop`。
 
 ## Hadoop
 
@@ -193,11 +194,11 @@ For compilers to find openjdk you may need to set:
 >
 > The project includes these modules:
 >
-> - **Hadoop Common**: The common utilities that support the other Hadoop modules.
-> - **Hadoop Distributed File System (HDFS™)**: A distributed file system that provides high-throughput access to application data.
-> - **Hadoop YARN**: A framework for job scheduling and cluster resource management.
-> - **Hadoop MapReduce**: A YARN-based system for parallel processing of large data sets.
-> - **Hadoop Ozone**: An object store for Hadoop.
+> * **Hadoop Common**: The common utilities that support the other Hadoop modules.
+> * **Hadoop Distributed File System (HDFS™)**: A distributed file system that provides high-throughput access to application data.
+> * **Hadoop YARN**: A framework for job scheduling and cluster resource management.
+> * **Hadoop MapReduce**: A YARN-based system for parallel processing of large data sets.
+> * **Hadoop Ozone**: An object store for Hadoop.
 
 说有这些模块。这会敲入`hadoop`出现了：
 
@@ -258,10 +259,10 @@ SUBCOMMAND may print help when invoked w/o parameters or with -h.
 官网给了些例子。
 
 ```shell
-  $ mkdir input
-  $ cp etc/hadoop/*.xml input
-  $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input output 'dfs[a-z.]+'
-  $ cat output/*
+  mkdir input
+  cp etc/hadoop/*.xml input
+  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input output 'dfs[a-z.]+'
+  cat output/*
 ```
 
 注意到有`share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar`。这意味着也许有些样例文件我们没有得到。猜测用`Homebrew`安装会没有这些文件。我们从官网下载了安装文件包。
@@ -383,13 +384,13 @@ $ tree . -L 2
 ```shell
 $ mkdir input
 $ ls
-bin			hadoop-config.sh	hdfs-config.sh		libexec			sbin			yarn-config.sh
-etc			hadoop-functions.sh	input			mapred-config.sh	share
+bin   hadoop-config.sh hdfs-config.sh  libexec   sbin   yarn-config.sh
+etc   hadoop-functions.sh input   mapred-config.sh share
 $ cp etc/hadoop/*.xml input
 $ cd input/
 $ ls
-capacity-scheduler.xml	hadoop-policy.xml	hdfs-site.xml		kms-acls.xml		mapred-site.xml
-core-site.xml		hdfs-rbf-site.xml	httpfs-site.xml		kms-site.xml		yarn-site.xml
+capacity-scheduler.xml hadoop-policy.xml hdfs-site.xml  kms-acls.xml  mapred-site.xml
+core-site.xml  hdfs-rbf-site.xml httpfs-site.xml  kms-site.xml  yarn-site.xml
 $ cd ..
 $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input output 'dfs[a-z.]+'
 JAR does not exist or is not a normal file: /usr/local/Cellar/hadoop/3.3.0/libexec/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar
@@ -401,7 +402,7 @@ $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.0.jar grep
 ...
 ```
 
-照着官网的例子敲。注意到`bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input `，这里是的`jar`包前有版本号。因此要换成我们的`3.3.0`。
+照着官网的例子敲。注意到`bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input`，这里是的`jar`包前有版本号。因此要换成我们的`3.3.0`。
 
 日志的最后：
 
@@ -409,48 +410,48 @@ $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.0.jar grep
 2021-03-11 01:54:35,374 INFO mapreduce.Job:  map 100% reduce 100%
 2021-03-11 01:54:35,374 INFO mapreduce.Job: Job job_local2087514596_0002 completed successfully
 2021-03-11 01:54:35,377 INFO mapreduce.Job: Counters: 30
-	File System Counters
-		FILE: Number of bytes read=1204316
-		FILE: Number of bytes written=3565480
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=1
-		Map output bytes=17
-		Map output materialized bytes=25
-		Input split bytes=141
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=1
-		Reduce shuffle bytes=25
-		Reduce input records=1
-		Reduce output records=1
-		Spilled Records=2
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=57
-		Total committed heap usage (bytes)=772800512
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters
-		Bytes Read=123
-	File Output Format Counters
-		Bytes Written=23
+ File System Counters
+  FILE: Number of bytes read=1204316
+  FILE: Number of bytes written=3565480
+  FILE: Number of read operations=0
+  FILE: Number of large read operations=0
+  FILE: Number of write operations=0
+ Map-Reduce Framework
+  Map input records=1
+  Map output records=1
+  Map output bytes=17
+  Map output materialized bytes=25
+  Input split bytes=141
+  Combine input records=0
+  Combine output records=0
+  Reduce input groups=1
+  Reduce shuffle bytes=25
+  Reduce input records=1
+  Reduce output records=1
+  Spilled Records=2
+  Shuffled Maps =1
+  Failed Shuffles=0
+  Merged Map outputs=1
+  GC time elapsed (ms)=57
+  Total committed heap usage (bytes)=772800512
+ Shuffle Errors
+  BAD_ID=0
+  CONNECTION=0
+  IO_ERROR=0
+  WRONG_LENGTH=0
+  WRONG_MAP=0
+  WRONG_REDUCE=0
+ File Input Format Counters
+  Bytes Read=123
+ File Output Format Counters
+  Bytes Written=23
 ```
 
 继续看看。
 
 ```shell
 $ cat output/*
-1	dfsadmin
+1 dfsadmin
 ```
 
 这到底是什么意思呢。不要紧，总之我们把`Hadoop`跑起来了。并且运行了第一个单机版的计算例子。
@@ -639,7 +640,7 @@ $ cat b.txt/part-00000
 
 ```shell
 $ cat output/*
-1	dfsadmin
+1 dfsadmin
 ```
 
 这些文件就叫`HDFS`。可见这里用`Spark`来统计单词。短短几句，很方便的样子。
@@ -1329,7 +1330,7 @@ Build Info: {
 接着运行`mongod`启动mongo数据库服务器。然而第一次启动时说`/data/db`不存在。我们创建一个目录，`~/mongodb` ，这里来保存数据库文件。
 
 ```shell
-$ mongod --dbpath ~/mongodb
+mongod --dbpath ~/mongodb
 ```
 
 输出为：
@@ -1379,8 +1380,8 @@ The server generated these startup warnings when booting:
 ...    { item: "canvas", qty: 100, tags: ["cotton"], size: { h: 28, w: 35.5, uom: "cm" } }
 ... )
 {
-	"acknowledged" : true,
-	"insertedId" : ObjectId("6049ef91b653541cf355facb")
+ "acknowledged" : true,
+ "insertedId" : ObjectId("6049ef91b653541cf355facb")
 }
 >
 > db.inventory.find()

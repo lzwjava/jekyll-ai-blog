@@ -15,6 +15,7 @@ Here's a comprehensive strategy to increase JaCoCo coverage in your large Java S
 ## 1. **Configuration Optimization**
 
 ### Maven Configuration
+
 ```xml
 <plugin>
     <groupId>org.jacoco</groupId>
@@ -59,6 +60,7 @@ Here's a comprehensive strategy to increase JaCoCo coverage in your large Java S
 ```
 
 ### Multi-module Setup (if applicable)
+
 ```xml
 <!-- In parent pom -->
 <plugin>
@@ -86,6 +88,7 @@ Here's a comprehensive strategy to increase JaCoCo coverage in your large Java S
 ## 2. **Test Strategy by Layer**
 
 ### Unit Tests (Highest Priority)
+
 ```java
 // Service Layer Tests
 @ExtendWith(MockitoExtension.class)
@@ -140,6 +143,7 @@ class UserRepositoryTest {
 ```
 
 ### Integration Tests
+
 ```java
 @SpringBootTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
@@ -169,6 +173,7 @@ class UserIntegrationTest {
 ```
 
 ### Controller Tests
+
 ```java
 @WebMvcTest(UserController.class)
 class UserControllerTest {
@@ -196,6 +201,7 @@ class UserControllerTest {
 ## 3. **Coverage Improvement Techniques**
 
 ### Test Data Builders
+
 ```java
 public class UserTestBuilder {
 
@@ -213,6 +219,7 @@ User user = UserTestBuilder.defaultUser().build();
 ```
 
 ### Parameterized Tests
+
 ```java
 @ParameterizedTest
 @ValueSource(strings = {"valid@email.com", "test@domain.com", "user@example.org"})
@@ -223,6 +230,7 @@ void shouldValidateEmailFormat(String email) {
 ```
 
 ### Exception Testing
+
 ```java
 @Test
 void shouldThrowUserNotFoundException() {
@@ -239,6 +247,7 @@ void shouldThrowUserNotFoundException() {
 ## 4. **Common Low-Coverage Areas to Target**
 
 ### Configuration Classes
+
 ```java
 @Test
 void shouldLoadConfigurationProperties() {
@@ -259,6 +268,7 @@ void shouldLoadConfigurationProperties() {
 ```
 
 ### Exception Handlers
+
 ```java
 @Test
 void shouldHandleValidationException() throws Exception {
@@ -275,6 +285,7 @@ void shouldHandleValidationException() throws Exception {
 ```
 
 ### Mappers and Converters
+
 ```java
 @Test
 void shouldMapUserToUserResponse() {
@@ -293,6 +304,7 @@ void shouldMapUserToUserResponse() {
 ## 5. **Advanced Techniques**
 
 ### Test Coverage for Conditional Logic
+
 ```java
 @Test
 void shouldCoverAllUserStatusScenarios() {
@@ -311,6 +323,7 @@ void shouldCoverAllUserStatusScenarios() {
 ```
 
 ### Integration Test with Testcontainers
+
 ```java
 @Testcontainers
 @SpringBootTest
@@ -336,11 +349,13 @@ class UserRepositoryIT {
 ## 6. **CI/CD Integration**
 
 ### Maven Command for Coverage
+
 ```bash
 mvn clean verify jacoco:report
 ```
 
 ### Coverage Check in Pipeline
+
 ```yaml
 # GitHub Actions example
 - name: Test and Coverage
@@ -358,6 +373,7 @@ mvn clean verify jacoco:report
 ## 8. **Monitoring and Reporting**
 
 ### Generate Reports
+
 ```bash
 # Generate HTML reports
 mvn jacoco:report

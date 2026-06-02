@@ -48,14 +48,14 @@ Here's a more detailed breakdown of EFSA's role and the nature of dietary recomm
 **1. Dietary Reference Values (DRVs): The Scientific Basis**
 
 * **Umbrella Term:** DRVs is an overarching term encompassing a set of nutrient reference values. These include:
-    * **Average Requirement (AR):** The level of a nutrient intake estimated to meet the physiological needs of half of the healthy individuals in a population group.
-    * **Population Reference Intake (PRI):** The level of nutrient intake that is adequate for virtually all (97.5%) healthy individuals in a population group. It is usually calculated from the AR, considering the distribution of requirements within the population.
-    * **Adequate Intake (AI):** Used when there is insufficient data to calculate an AR. The AI is the average observed or experimentally determined nutrient intake by a group of healthy people assumed to be adequate.
-    * **Reference Intake (RI) ranges for macronutrients:** Acceptable ranges of intake for carbohydrates, fats, and protein, expressed as a percentage of total energy intake, that are considered adequate and may help prevent chronic diseases.
-    * **Tolerable Upper Intake Level (UL):** The maximum daily intake of a nutrient that is unlikely to cause adverse health effects in almost all individuals in a population group over a lifetime.
+  * **Average Requirement (AR):** The level of a nutrient intake estimated to meet the physiological needs of half of the healthy individuals in a population group.
+  * **Population Reference Intake (PRI):** The level of nutrient intake that is adequate for virtually all (97.5%) healthy individuals in a population group. It is usually calculated from the AR, considering the distribution of requirements within the population.
+  * **Adequate Intake (AI):** Used when there is insufficient data to calculate an AR. The AI is the average observed or experimentally determined nutrient intake by a group of healthy people assumed to be adequate.
+  * **Reference Intake (RI) ranges for macronutrients:** Acceptable ranges of intake for carbohydrates, fats, and protein, expressed as a percentage of total energy intake, that are considered adequate and may help prevent chronic diseases.
+  * **Tolerable Upper Intake Level (UL):** The maximum daily intake of a nutrient that is unlikely to cause adverse health effects in almost all individuals in a population group over a lifetime.
 * **Nutrient Coverage:** EFSA's Panel on Dietetic Products, Nutrition and Allergies (NDA) has established DRVs for various nutrients, including:
-    * **Macronutrients:** Carbohydrates (including dietary fiber), fats (including saturated, polyunsaturated, and monounsaturated fatty acids), protein, and water.
-    * **Micronutrients:** Vitamins (A, D, E, K, C, B vitamins) and minerals (calcium, iron, zinc, iodine, potassium, etc.).
+  * **Macronutrients:** Carbohydrates (including dietary fiber), fats (including saturated, polyunsaturated, and monounsaturated fatty acids), protein, and water.
+  * **Micronutrients:** Vitamins (A, D, E, K, C, B vitamins) and minerals (calcium, iron, zinc, iodine, potassium, etc.).
 * **Population Group Specificity:** DRVs are often set for different life stages (infants, children, adolescents, adults, elderly) and physiological conditions (pregnancy, lactation) to account for varying nutritional needs.
 * **Scientific Opinions:** EFSA publishes detailed scientific opinions for each nutrient, outlining the evidence considered and the rationale behind the established DRVs. These opinions are publicly available.
 
@@ -64,18 +64,18 @@ Here's a more detailed breakdown of EFSA's role and the nature of dietary recomm
 * **Translation of DRVs:** National health authorities within EU Member States use EFSA's DRVs as a primary scientific reference point to develop their own FBDGs.
 * **Country-Specific Considerations:** FBDGs take into account national dietary habits, food availability, cultural norms, and public health priorities, which can vary significantly across Europe.
 * **Practical Advice:** FBDGs translate the numerical nutrient targets (DRVs) into practical, food-based advice for the general population. This often includes:
-    * Recommendations on the types and amounts of different food groups to consume (e.g., fruits, vegetables, grains, protein sources, dairy).
-    * Guidance on portion sizes.
-    * Advice on limiting the intake of certain nutrients or foods (e.g., saturated fats, added sugars, salt).
-    * Tips for healthy food preparation and eating habits.
+  * Recommendations on the types and amounts of different food groups to consume (e.g., fruits, vegetables, grains, protein sources, dairy).
+  * Guidance on portion sizes.
+  * Advice on limiting the intake of certain nutrients or foods (e.g., saturated fats, added sugars, salt).
+  * Tips for healthy food preparation and eating habits.
 * **Examples of General Trends in National FBDGs (informed by EFSA's DRVs):**
-    * **Emphasis on fruits and vegetables:** Encouraging the consumption of a variety of fruits and vegetables daily (often with specific recommendations like "at least 5 portions a day").
-    * **Whole grains over refined grains:** Recommending whole grain bread, pasta, and cereals as sources of fiber and other nutrients.
-    * **Lean protein sources:** Suggesting the inclusion of fish, poultry, legumes, and lean meats.
-    * **Fat-reduced dairy:** Often recommending unsweetened, fat-reduced milk and dairy products.
-    * **Healthy fats:** Encouraging the use of vegetable oils rich in monounsaturated and polyunsaturated fats (e.g., olive oil, rapeseed oil) and limiting saturated and trans fats.
-    * **Hydration:** Recommending adequate water intake.
-    * **Moderation of less healthy components:** Advising to limit the consumption of foods high in saturated fats, sugars, and salt.
+  * **Emphasis on fruits and vegetables:** Encouraging the consumption of a variety of fruits and vegetables daily (often with specific recommendations like "at least 5 portions a day").
+  * **Whole grains over refined grains:** Recommending whole grain bread, pasta, and cereals as sources of fiber and other nutrients.
+  * **Lean protein sources:** Suggesting the inclusion of fish, poultry, legumes, and lean meats.
+  * **Fat-reduced dairy:** Often recommending unsweetened, fat-reduced milk and dairy products.
+  * **Healthy fats:** Encouraging the use of vegetable oils rich in monounsaturated and polyunsaturated fats (e.g., olive oil, rapeseed oil) and limiting saturated and trans fats.
+  * **Hydration:** Recommending adequate water intake.
+  * **Moderation of less healthy components:** Advising to limit the consumption of foods high in saturated fats, sugars, and salt.
 * **Accessibility:** National FBDGs are typically communicated to the public through various channels, including websites, educational materials, and public health campaigns.
 
 **In essence, EFSA provides the "what" (the scientifically recommended intake levels of nutrients), and national authorities translate this into the "how" (practical advice on which foods to eat to meet those levels) within their specific cultural and dietary contexts.**

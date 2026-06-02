@@ -15,6 +15,7 @@ The **"side buttons"** you’re referring to on the **Huawei Smart Screen Expans
 ---
 
 ### **1. Function of the Side Buttons**
+
 - **Connection/Release Mechanism:**
   The side buttons are typically **latch buttons** designed to **securely attach or detach the dock from the smart screen**. When you press them, the dock locks into place on the back of the smart screen. Pressing them again releases the dock, allowing you to remove it.
 
@@ -25,11 +26,13 @@ The **"side buttons"** you’re referring to on the **Huawei Smart Screen Expans
 ---
 
 ### **2. Real Name**
+
 - Huawei officially refers to these as **"latch buttons"** or **"locking buttons"** (卡扣按钮) in their user manuals and product descriptions. They are part of the **mechanical attachment system** for the dock.
 
 ---
 
 ### **3. Design Purpose**
+
 - **Secure Attachment:**
   The buttons ensure the dock stays firmly connected to the smart screen, preventing accidental disconnection or wobbling during use.
 
@@ -42,6 +45,7 @@ The **"side buttons"** you’re referring to on the **Huawei Smart Screen Expans
 ---
 
 ### **4. Additional Notes**
+
 - If the buttons feel stiff, it’s normal—they are designed to provide a secure fit.
 - Always ensure the dock is properly aligned with the smart screen’s ports before pressing the buttons to avoid damage.
 

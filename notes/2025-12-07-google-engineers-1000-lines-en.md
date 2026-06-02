@@ -21,6 +21,7 @@ Industry benchmarks suggest professional developers typically produce 10–20 ne
 Google's monorepo (a single repository for nearly all code) and tools like Piper enable frequent, small commits (45,000 daily), but production code undergoes rigorous peer review, testing, and automation before deployment. Recent AI integrations (e.g., Gemini writing >25% of code) accelerate boilerplate and suggestions, but humans still drive architecture, reviews, and integration—potentially boosting effective output without inflating raw LOC. In short, while some engineers might fall below 1,000 LOC in niche roles (e.g., heavy design or maintenance), this isn't representative of "many" at Google; most contribute meaningfully more to production systems.
 
 References:
+
 - [Quora: Lines of Code per Day at Google](https://www.quora.com/How-many-lines-of-code-does-a-good-performing-software-engineer-at-Google-write-per-day)
 - [Skeptics Stack Exchange: 10 LOC per Day Myth](https://skeptics.stackexchange.com/questions/17224/do-professional-software-developers-write-an-average-of-10-lines-of-code-per-day)
 - [WIRED: Google's 2 Billion Lines of Code](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)

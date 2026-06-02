@@ -19,6 +19,7 @@ Tar creates archive files that preserve file permissions, ownership, directory s
 ## Common Usage Patterns
 
 **Creating archives:**
+
 ```bash
 tar -cvf archive.tar files/          # Create archive
 tar -czvf archive.tar.gz files/      # Create + gzip compress
@@ -26,6 +27,7 @@ tar -cjvf archive.tar.bz2 files/     # Create + bzip2 compress
 ```
 
 **Extracting archives:**
+
 ```bash
 tar -xvf archive.tar                 # Extract
 tar -xzvf archive.tar.gz             # Extract gzipped
@@ -34,6 +36,7 @@ tar -xvf archive.tar -C /target/dir  # Extract to specific directory
 ```
 
 **Viewing contents:**
+
 ```bash
 tar -tvf archive.tar                 # List files without extracting
 tar -tzvf archive.tar.gz             # List files in gzipped archive
@@ -56,26 +59,31 @@ tar -tzvf archive.tar.gz             # List files in gzipped archive
 ## Practical Examples
 
 **Backup a directory:**
+
 ```bash
 tar -czvf backup-$(date +%Y%m%d).tar.gz /home/user/documents/
 ```
 
 **Extract specific files:**
+
 ```bash
 tar -xzvf archive.tar.gz file1.txt dir/file2.txt
 ```
 
 **Exclude certain files:**
+
 ```bash
 tar -czvf archive.tar.gz --exclude='*.log' --exclude='node_modules' project/
 ```
 
 **Extract to different location:**
+
 ```bash
 tar -xzvf archive.tar.gz -C /opt/extracted/
 ```
 
 **View file before extracting:**
+
 ```bash
 tar -tzvf archive.tar.gz | grep specific-file
 ```
@@ -83,6 +91,7 @@ tar -tzvf archive.tar.gz | grep specific-file
 ## Modern Simplification
 
 Modern tar versions can auto-detect compression, so you can often omit the compression flag:
+
 ```bash
 tar -xvf archive.tar.gz    # Auto-detects gzip
 tar -xvf archive.tar.bz2   # Auto-detects bzip2

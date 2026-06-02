@@ -31,7 +31,9 @@ type: note
 ---
 
 ### **Impact and Legacy**
+
 The Scientific Outlook on Development guided China’s policies during the 2000s and early 2010s, influencing major initiatives such as:
+
 - **Rural revitalization** and poverty alleviation programs
 - **Environmental protection** and sustainable development goals
 - **Social welfare reforms**, including healthcare and education

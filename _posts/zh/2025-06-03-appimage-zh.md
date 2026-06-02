@@ -15,20 +15,26 @@ type: note
 
 2. **使文件可执行**：
    - 打开终端并导航到包含 AppImage 的目录：
+
      ```bash
      cd /path/to/directory
      ```
+
    - 更改文件权限以使其可执行：
+
      ```bash
      chmod +x filename.AppImage
      ```
+
      请将 `filename.AppImage` 替换为实际的 AppImage 文件名。
 
 3. **运行 AppImage**：
    - 通过以下命令执行 AppImage：
+
      ```bash
      ./filename.AppImage
      ```
+
    - 或者，如果文件在文件管理器中标记为可执行文件，您也可以双击运行。
 
 4. **可选：与系统集成**：
@@ -41,11 +47,14 @@ type: note
    - 要卸载，只需删除 `.AppImage` 文件。
 
 **注意事项**：
+
 - 请确保 AppImage 来自可信来源，以避免安全风险。
 - 如果遇到问题，请检查是否安装了 `libfuse2` 等依赖项：
+
   ```bash
   sudo apt install libfuse2
   ```
+
 - 运行 AppImage 通常不需要 root 权限。
 
 如果您有特定的 AppImage 或遇到问题，请告诉我，以便提供针对性的帮助！

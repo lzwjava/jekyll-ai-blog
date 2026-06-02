@@ -14,6 +14,7 @@ type: note
 ### 我们做了什么
 
 **`~/.Xmodmap`** — 用于告知 X11 如何重映射按键：
+
 1. 将 CapsLock 从 “Lock” 修饰键组中移除
 2. 将 Ctrl_L 从 “Control” 修饰键组中移除
 3. 将物理 CapsLock 键重新分配为 `Control_L` 键码

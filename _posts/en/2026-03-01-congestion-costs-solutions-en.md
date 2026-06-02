@@ -42,6 +42,7 @@ The network provides no explicit feedback to the senders about congestion. The s
 
 **Network-assisted congestion control**
 The network provides explicit feedback to the senders about congestion. This feedback can come in two forms:
+
 - Direct notification from the congested router to the sender (“backwards” explicit congestion notification)
 - A router marks or sets a bit in packets going forward to the receiver, and the receiver then feeds this information back to the sender (“forward” explicit congestion notification)
 

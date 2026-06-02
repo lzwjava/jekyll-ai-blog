@@ -28,6 +28,7 @@ All packages likely include basics like liver function (ALT/AST), blood lipids, 
 **Choose 套餐D - 男性 - 含胸部CT检查** as the most practical upgrade this year.
 
 **Why D over others?**
+
 - Fatty liver/NAFLD has a documented association with higher risk of pulmonary nodules/lung issues in some studies (possibly shared metabolic/inflammatory pathways), though not extremely strong for non-smokers. Low-dose chest CT provides better early lung screening than standard X-ray (in A), which is low radiation but less sensitive. As a software engineer (indoor, screen time, possible city air pollution exposure), adding better lung/chest baseline is reasonable — especially if you have any mild respiratory symptoms or family history.
 - Chest CT involves some radiation (low-dose modern protocols ~1-5 mSv, comparable to a few flights or background yearly radiation), but at age 30 with no frequent prior scans, the benefit outweighs minimal risk for most people. If you strongly avoid any added radiation (e.g., planning other imaging), pick B instead.
 - Monitoring fatty liver itself relies more on liver enzymes + abdominal ultrasound (in all packages) + lifestyle, not CT. CT doesn't directly help liver but upgrades overall respiratory/chest health insight.
@@ -35,6 +36,7 @@ All packages likely include basics like liver function (ALT/AST), blood lipids, 
 - A (regular) is still solid baseline, but since you already have known abnormalities, upgrading to D gives more value without overkill.
 
 **Next steps after choosing (any package):**
+
 - Prioritize lifestyle: Reduce sugar/oily food, increase veggies/protein, 150+ min moderate exercise/week (walking, gym), aim BMI <25 or lose 5-10 kg. Many see ALT normalize in 3-6 months.
 - Follow up abnormal results with a doctor (hepatologist or internal medicine) — may need retest liver enzymes, fibroscan (liver stiffness, if available), or kidney function/glucose/HbA1c.
 - If urine protein persists, check blood pressure and possible early nephropathy.

@@ -27,7 +27,7 @@ events:
 
 The `context` dict includes `platform`, `user_id`, `session_id`, `message`, and `response`.
 
-Docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks#gateway-event-hooks
+Docs: <https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks#gateway-event-hooks>
 
 ### 2. Plugin hooks (CLI + Gateway)
 

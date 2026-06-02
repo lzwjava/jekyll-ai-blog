@@ -29,10 +29,12 @@ type: note
 **修复方案：**
 
 1. **快速修复 —— 清空重放去重文件：**
+
    ```bash
    rm /home/lzw/.openclaw/nextcloud-talk/replay-dedupe/*.json
    echo '{}' > /home/lzw/.openclaw/nextcloud-talk/replay-dedupe/*.json
    ```
+
    然后发送一条具有唯一ID的新消息。
 
 2. **或者重启网关**，以重新加载配置。

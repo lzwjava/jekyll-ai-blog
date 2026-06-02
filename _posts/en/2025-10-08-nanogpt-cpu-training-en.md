@@ -21,6 +21,7 @@ The full command runs the `train.py` script from the nanoGPT repository using Py
 - **config/train_shakespeare_char.py**: A configuration file that sets dataset-specific defaults (e.g., `dataset = 'shakespeare_char'`, `vocab_size = 65`, initial learning rate, etc.). It defines the task: training on character-level text from Shakespeare's works. All subsequent `--` flags override values from this config.
 
 #### Override Parameters
+
 These are command-line flags passed to `train.py` via argparse, allowing customization without editing files. They control hardware, training behavior, model architecture, and regularization.
 
 | Parameter | Value | Explanation |

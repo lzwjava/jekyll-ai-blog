@@ -30,6 +30,7 @@ pub enum WireApi {
 ```
 
 GitHub Copilot exposes:
+
 - `https://api.githubcopilot.com/chat/completions` — Chat Completions format
 - `https://models.inference.ai.azure.com/v1/chat/completions` — GitHub Models
 
@@ -44,6 +45,7 @@ pip install litellm[proxy]
 ```
 
 `litellm_config.yaml`:
+
 ```yaml
 model_list:
   - model_name: gpt-4o
@@ -57,6 +59,7 @@ litellm --config litellm_config.yaml --port 4000
 ```
 
 Then in `~/.codex/config.toml`:
+
 ```toml
 model_provider = "copilot"
 
@@ -88,6 +91,7 @@ The places to modify:
    - When `WireApi::Responses`, use existing `ResponsesClient`
 
 4. **`config.toml`** for your enterprise:
+
 ```toml
 model_provider = "copilot"
 

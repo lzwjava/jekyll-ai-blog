@@ -22,6 +22,7 @@ The "unable to link" error after scanning a QR code typically comes from one or 
 ---
 
 ### 1. **Stale / Corrupted Session Data** *(Already addressed)*
+
 Old pre-keys, LID mappings, or auth credentials from previous sessions confuse the pairing handshake.
 
 **Fix:** You already did this — `rm -rf credentials/whatsapp/default/*` and generating a fresh QR. ✅
@@ -29,14 +30,17 @@ Old pre-keys, LID mappings, or auth credentials from previous sessions confuse t
 ---
 
 ### 2. **Proxy / IP Reputation Block**
+
 WhatsApp's servers perform risk checks on the IP used during the linking handshake. **Data center IPs, VPNs, and proxy exits are frequently flagged.**
 
 Symptoms:
+
 - QR displays fine (WebSocket connection works)
 - Scan succeeds on phone side
 - Server rejects the pairing response silently → "unable to link"
 
 **Fixes to try:**
+
 - Use a **residential proxy** instead of a data center one (mihomo/clash on port 7891 may route through a DC IP)
 - Try linking **without the proxy** if your server has direct internet access
 - Switch the proxy exit node to a region matching your phone's SIM country
@@ -44,6 +48,7 @@ Symptoms:
 ---
 
 ### 3. **QR Code Expiry**
+
 WhatsApp QR codes expire in ~20–60 seconds. If there's any latency between generation and scan, it's already dead.
 
 **Fix:** Scan immediately after the QR renders. Your Node.js + proxychains script should auto-refresh on expiry.
@@ -51,9 +56,11 @@ WhatsApp QR codes expire in ~20–60 seconds. If there's any latency between gen
 ---
 
 ### 4. **Clock Skew (Time Sync)**
+
 The pairing handshake is time-sensitive. If the server clock is off by >30s, WhatsApp rejects it.
 
 **Fix:**
+
 ```bash
 sudo timedatectl set-ntp true
 timedatectl status  # verify Synchronized: yes
@@ -62,9 +69,11 @@ timedatectl status  # verify Synchronized: yes
 ---
 
 ### 5. **WhatsApp Version / Protocol Mismatch**
+
 The library generating the QR (likely `@whiskeysockets/baileys` or similar) must use an **up-to-date WA Web version string**. Outdated versions get rejected server-side.
 
 **Fix:**
+
 ```bash
 # Check your library version
 npm list @whiskeysockets/baileys
@@ -76,6 +85,7 @@ npm install @whiskeysockets/baileys@latest
 ---
 
 ### 6. **Phone-Side Restrictions**
+
 - The WhatsApp account may have **Linked Devices restricted** by admin policy (Business accounts)
 - Too many failed linking attempts trigger a **temporary cooldown** on the account
 
@@ -100,7 +110,9 @@ npm install @whiskeysockets/baileys@latest
 ### Quick Diagnostic
 
 Run this to check if your proxy exit IP is flagged:
+
 ```bash
 proxychains4 curl -s https://ipinfo.io/json | grep -E '"ip"|"org"|"country"'
 ```
+
 If `org` shows a hosting provider (AWS, Alibaba, DigitalOcean, etc.) — that's your problem. WhatsApp blocks DC IPs during device linking.

@@ -20,13 +20,17 @@ Yes, absolutely — and it's one of the most fascinating creative challenges in 
 ## Why Short Videos Can Express Enormous Information
 
 ### 1. The Brain is Wired for Visual Information
+
 People process visuals 60,000 times faster than text, which means a single well-composed frame can communicate mood, context, character, and emotion simultaneously — things that would take paragraphs to write.
 
 ### 2. The First Seconds Are Everything
+
 The first 8 seconds determine whether a viewer continues watching or scrolls away. Studies show that the average online attention span is about 8 seconds, meaning creators must use strong visuals, movement, or curiosity-driven hooks immediately. This forces creators to pack maximum meaning into minimum time.
 
 ### 3. Multi-Channel Communication
+
 A 3–10 second video simultaneously delivers:
+
 - **Visual imagery** (what you see)
 - **Audio/music** (sets emotional tone instantly)
 - **Text overlays/captions** (adds a third information layer)
@@ -35,11 +39,13 @@ A 3–10 second video simultaneously delivers:
 When you lead with a human face, build emotional connection in the first three seconds, and structure with clear narrative purpose, you're not just "stopping the scroll" — you're earning attention.
 
 ### 4. Constraint Forces Clarity
+
 Short videos force you to choose what matters. There isn't room for every detail. This is actually a creative advantage — the creator must distill the entire idea to its absolute essence, which often makes the message *more* impactful, not less.
 
 Short-form doesn't mean shallow — it means strategically distilled.
 
 ### 5. Narrative Techniques Still Apply
+
 Even in 3–10 seconds, skilled creators use full storytelling structures:
 
 - **Hook** — grab attention in frame 1
@@ -48,9 +54,11 @@ Even in 3–10 seconds, skilled creators use full storytelling structures:
 - **Cliffhangers** — leaving something unresolved so the viewer thinks about it after
 
 ### 6. Emotional Resonance Over Volume
+
 Even in 30 seconds, you can have a beginning (the problem), middle (the insight), and end (the shift in perspective). The goal isn't to stuff in *more* data — it's to create one strong **feeling** that makes the viewer remember, share, or act.
 
 ### 7. The Cognitive Trade-off (The Dark Side)
+
 There's a caveat worth knowing: according to cognitive load theory, the speed and density of short-form video content can overwhelm the brain's capacity to chunk and integrate information. So while short videos are great at triggering emotion and recognition, they are less effective for deep analytical learning compared to long-form content.
 
 ---

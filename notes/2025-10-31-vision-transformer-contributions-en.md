@@ -31,6 +31,7 @@ The paper was a collaborative effort by 12 researchers, primarily from Google Br
 This Google Brain collaboration (mostly Zurich-based) leveraged the team's proximity to TPUs for massive experiments—over 25,000 TPU-days—proving transformers' viability beyond text. Many authors have since moved to leading AI labs like Meta, OpenAI, and Anthropic, reflecting ViT's lasting impact on the field.
 
 #### References
+
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (arXiv)](https://arxiv.org/abs/2010.11929)
 - [Alexey Dosovitskiy Google Scholar Profile](https://scholar.google.com/citations?user=FXNJRDoAAAAJ)
 - [Lucas Beyer Google Scholar Profile](https://scholar.google.com/citations?user=p2gwhK4AAAAJ)

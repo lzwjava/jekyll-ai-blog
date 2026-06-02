@@ -63,4 +63,5 @@ sudo shutdown -h now
 所有这些命令都会整洁地关闭应用程序并立即关闭计算机电源。
 
 **References:**
+
 - 无需（这是近期各版本 Ubuntu 的标准行为）

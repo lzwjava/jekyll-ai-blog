@@ -23,12 +23,14 @@ This is common with binary-only protobuf installs; the full SDK provides `/usr/i
 Since you already have a recent `protoc` binary, add the missing includes without downgrading:
 
 1. **Download the Full Protobuf Release** (matching your protoc version, e.g., 27.3 or latest):
+
    ```
    wget https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protoc-27.3-linux-x86_64.zip
    unzip protoc-27.3-linux-x86_64.zip -d protoc-full
    ```
 
 2. **Install the Include Files**:
+
    ```
    sudo mkdir -p /usr/local/include/google/protobuf
    sudo cp -r protoc-full/include/google /usr/local/include/
@@ -42,6 +44,7 @@ Since you already have a recent `protoc` binary, add the missing includes withou
    - Quick smoke test: `protoc --proto_path=/usr/local/include proto/greptime/v1/ddl.proto --decode_raw=stdin < /dev/null` (from your project dir; ignore output, just check for no "File not found").
 
 4. **Retry the Build**:
+
    ```
    make clean  # Clears partial builds
    make
@@ -50,6 +53,7 @@ Since you already have a recent `protoc` binary, add the missing includes withou
 If you're on a distro with `apt` (e.g., Ubuntu), an alternative is `sudo apt install libprotobuf-dev`—but this might install an older version (e.g., 3.12), conflicting with your manual protoc. If so, stick to the manual include copy and set `PROTOC=/usr/local/bin/protoc` explicitly.
 
 ### Additional Tips
+
 - If errors persist (e.g., other missing protos like `wrappers.proto`), the full `include/google/` copy should cover them.
 - For containerized builds (Docker), add these steps to your Dockerfile.
 - Post-build, test with `cargo run --bin greptime -- standalone start` to ensure protos integrate correctly.

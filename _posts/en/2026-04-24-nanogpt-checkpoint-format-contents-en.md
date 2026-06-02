@@ -49,7 +49,7 @@ ckpt = torch.load("ckpt.pt", map_location="cpu")
 
 In nanoGPT (Andrej Karpathy’s implementation), a checkpoint typically contains a dictionary like:
 
-### Core structure:
+### Core structure
 
 ```python
 {
@@ -169,13 +169,13 @@ Depends on model size:
 
 ## 7. How it is used
 
-### Resume training:
+### Resume training
 
 ```bash
 python train.py --init_from=resume
 ```
 
-### Inference:
+### Inference
 
 load only `"model"` weights into model and run generation.
 

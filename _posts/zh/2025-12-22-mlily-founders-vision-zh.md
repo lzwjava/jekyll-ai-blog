@@ -28,8 +28,8 @@ MLILY 是中国公司 Healthcare Co., Ltd. 旗下的床垫品牌。创始人是 
 
 参考文献：
 
-- https://mlilyusa.com/pages/about-us
-- https://bedtimesmagazine.com/2021/05/mlily-growing-up-and-out/
-- https://www.mlily.com.au/us
-- https://www.manutd.com/en/partners/global/mlily
-- https://sleepopolis.com/mattress-reviews/mlily-mattress-review/
+- <https://mlilyusa.com/pages/about-us>
+- <https://bedtimesmagazine.com/2021/05/mlily-growing-up-and-out/>
+- <https://www.mlily.com.au/us>
+- <https://www.manutd.com/en/partners/global/mlily>
+- <https://sleepopolis.com/mattress-reviews/mlily-mattress-review/>

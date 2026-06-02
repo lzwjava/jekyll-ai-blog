@@ -27,7 +27,8 @@ type: note
 这些观点在主流学术界中极其边缘化，在今天的中国要么受到严格审查，要么被嘲笑（也许除了某些农村老年人对医疗和教育的怀旧之情）。在英文互联网左翼空间（某些subreddit、Twitter上的毛主义账户、一些学术马克思主义博客）中，它们仍然传播。
 
 参考文献：
-- [Maoist Rebel News / Jason Unruhe archives（死亡人数最小化的例子）](https://www.youtube.com/c/MaoistRebelNews2)
-- [“Was the Cultural Revolution Really So Bad?” – Qiao Collective（亲文革修正主义观点）](https://www.qiaocollective.com/articles/was-the-cultural-revolution-so-bad)
-- [“The Battle for China’s Past” by Mobo Gao（对文革部分成就的学术辩护）](https://www.plutobooks.com/9780745327808/the-battle-for-chinas-past/)
-- [1981 CCP Resolution on Certain Questions in the History of Our Party（官方谴责）](https://www.marxists.org/subject/china/documents/cpc/history/01.htm)
+
+* [Maoist Rebel News / Jason Unruhe archives（死亡人数最小化的例子）](https://www.youtube.com/c/MaoistRebelNews2)
+* [“Was the Cultural Revolution Really So Bad?” – Qiao Collective（亲文革修正主义观点）](https://www.qiaocollective.com/articles/was-the-cultural-revolution-so-bad)
+* [“The Battle for China’s Past” by Mobo Gao（对文革部分成就的学术辩护）](https://www.plutobooks.com/9780745327808/the-battle-for-chinas-past/)
+* [1981 CCP Resolution on Certain Questions in the History of Our Party（官方谴责）](https://www.marxists.org/subject/china/documents/cpc/history/01.htm)

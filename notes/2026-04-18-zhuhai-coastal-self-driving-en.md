@@ -88,7 +88,7 @@ Here’s a well-structured **3-day self-driving itinerary in Zhuhai (Guangdong, 
 
 ---
 
-### 🏖️ Activities:
+### 🏖️ Activities
 
 * Swimming / beach relax
 * Light hiking (viewpoints)
@@ -96,7 +96,7 @@ Here’s a well-structured **3-day self-driving itinerary in Zhuhai (Guangdong, 
 
 ---
 
-### 🌇 Evening:
+### 🌇 Evening
 
 * Stay overnight on island **OR**
 * Return to city and relax
@@ -135,7 +135,7 @@ Here’s a well-structured **3-day self-driving itinerary in Zhuhai (Guangdong, 
 
 ---
 
-### 🛍️ Optional:
+### 🛍️ Optional
 
 * Underground shopping mall near Gongbei
 

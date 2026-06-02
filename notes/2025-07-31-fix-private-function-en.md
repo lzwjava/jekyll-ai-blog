@@ -17,6 +17,7 @@ The error `E0603: function run_simple is private` indicates that the `run_simple
    - Open `src/simple.rs`.
    - Add the `pub` keyword to the `run_simple` function to make it publicly accessible.
    - Example:
+
      ```rust
      pub fn run_simple() {
          // Existing function body
@@ -26,6 +27,7 @@ The error `E0603: function run_simple is private` indicates that the `run_simple
 
 2. **Ensure Proper Module Declaration**:
    - In `src/main.rs`, ensure you have declared the `simple` module correctly:
+
      ```rust
      mod simple; // Declares the simple module
 
@@ -36,10 +38,13 @@ The error `E0603: function run_simple is private` indicates that the `run_simple
 
 3. **Rebuild and Run**:
    - After making the function public, rebuild the project:
+
      ```bash
      cargo build
      ```
+
    - If the build succeeds, run the program:
+
      ```bash
      cargo run
      ```
@@ -50,12 +55,14 @@ The error `E0603: function run_simple is private` indicates that the `run_simple
 
 5. **Cargo Warning**:
    - The warning about `edition2024` suggests you’re using a feature flag in `Cargo.toml` that’s no longer needed since Rust 1.85 stabilized the 2024 edition. To clean this up, open `Cargo.toml` and remove the `edition2024` feature if present (e.g., under `[features]` or `cargo-features`). Instead, set the edition directly:
+
      ```toml
      [package]
      name = "example"
      version = "0.1.0"
      edition = "2024"
      ```
+
    - This ensures your project uses the 2024 edition without the deprecated feature flag.
 
 ### Example Files
@@ -63,6 +70,7 @@ The error `E0603: function run_simple is private` indicates that the `run_simple
 To clarify, here’s how your files should look:
 
 **`src/simple.rs`**:
+
 ```rust
 pub fn run_simple() {
     println!("Hello from run_simple!");
@@ -70,6 +78,7 @@ pub fn run_simple() {
 ```
 
 **`src/main.rs`**:
+
 ```rust
 mod simple;
 
@@ -79,6 +88,7 @@ fn main() {
 ```
 
 **`Cargo.toml`** (minimal example):
+
 ```toml
 [package]
 name = "example"
@@ -87,6 +97,7 @@ edition = "2024"
 ```
 
 ### Additional Notes
+
 - If `run_simple` depends on other code or modules, ensure those are also public if accessed from `main.rs`.
 - If the error persists, share the contents of `src/simple.rs` (especially around line 47) and `src/main.rs` for more specific guidance.
 - The `rustc --explain E0603` command provides detailed documentation on this error, which you can run for further insight.

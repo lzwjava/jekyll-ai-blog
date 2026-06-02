@@ -29,6 +29,7 @@ Here are some notable examples:
 - **Zhufaner**: A home renovation platform (founded by Tsinghua graduates in 2015) admitted a funding chain collapse in recent years, with halted projects, unpaid wages/suppliers, and client demands for transparency on misused funds.
 
 Other sectors saw failures too:
+
 - Semiconductor startups: Thousands closed (e.g., over 10,000 in 2021–2022, record 10,900 deregistrations in 2023), with cases like Shanghai Wusheng Semiconductor bankrupt due to unmet investments and market pressures.
 - EV-related: Subsidiaries of Evergrande's Hengchi faced forced bankruptcy amid overcapacity.
 

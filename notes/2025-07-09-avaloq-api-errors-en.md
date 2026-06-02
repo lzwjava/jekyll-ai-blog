@@ -18,6 +18,7 @@ I'll search for information about Avaloq API errors and common issues that devel
 Error on either the Avaloq system or on Oracle when executing the code of the Avaloq Agent. These errors can happen if the job that is executed on the Avaloq system ends with errors.
 
 **Troubleshooting:**
+
 - Check Oracle database connectivity
 - Verify Avaloq Agent configuration
 - Review system logs for database-related issues
@@ -27,6 +28,7 @@ Error on either the Avaloq system or on Oracle when executing the code of the Av
 The following line in the log means that the job has been canceled due to an internal error on the Avaloq system. The end status of the job is valid for the Avaloq Agent: YYYY-MM-DD hh:mm:ss Job 642 Execute: Job did complete with failures.
 
 **Troubleshooting:**
+
 - Review job logs for specific failure reasons
 - Check system resource availability
 - Verify job parameters and dependencies
@@ -36,12 +38,14 @@ The following line in the log means that the job has been canceled due to an int
 
 **1. 400 Bad Request**
 Common causes in Avaloq environments:
+
 - Invalid account numbers or client IDs
 - Malformed transaction amounts
 - Missing required fields in trading orders
 - Invalid date formats or ranges
 
 **Troubleshooting:**
+
 - Examine the URL to ensure that you are sending valid data parameters with their requests and that they are using the correct headers
 - Validate all input parameters against Avaloq's schema requirements
 - Check currency codes and formatting
@@ -49,12 +53,14 @@ Common causes in Avaloq environments:
 
 **2. 401 Unauthorized**
 Banking-specific causes:
+
 - Invalid API credentials
 - Expired authentication tokens
 - Insufficient user permissions for specific operations
 - Client relationship restrictions
 
 **Troubleshooting:**
+
 - Verify API key and secret validity
 - Check token expiration times
 - Confirm user has appropriate banking permissions
@@ -62,12 +68,14 @@ Banking-specific causes:
 
 **3. 403 Forbidden**
 Wealth management context:
+
 - Access denied to specific client accounts
 - Regulatory restrictions on operations
 - Compliance rule violations
 - Jurisdiction-based limitations
 
 **Troubleshooting:**
+
 - Review user access rights and roles
 - Check compliance rules and restrictions
 - Verify regulatory permissions
@@ -75,12 +83,14 @@ Wealth management context:
 
 **4. 404 Not Found**
 Banking-specific scenarios:
+
 - Non-existent account numbers
 - Invalid portfolio IDs
 - Missing transaction references
 - Deleted or archived client records
 
 **Troubleshooting:**
+
 - Double-check your endpoint and make sure it's spelled correctly
 - Verify account existence and status
 - Check for archived or inactive accounts
@@ -88,12 +98,14 @@ Banking-specific scenarios:
 
 **5. 500 Internal Server Error**
 System-level issues:
+
 - Database connectivity problems
 - Core banking system failures
 - Integration service outages
 - Memory or performance issues
 
 **Troubleshooting:**
+
 - Check system health dashboards
 - Review database connection pools
 - Monitor system resource utilization
@@ -105,18 +117,21 @@ System-level issues:
 RA Avaloq jobs that refer to a Business Unit that does not exist on the Avaloq system can be executed
 
 **Common Issues:**
+
 - Invalid business unit references
 - Inactive or deleted business units
 - Incorrect organizational hierarchy mapping
 
 **2. Integration Errors**
 Based on Avaloq's integration capabilities:
+
 - API version mismatches
 - Schema validation failures
 - Message format incompatibilities
 - Timeout issues with external systems
 
 **3. Compliance and Regulatory Errors**
+
 - Pre-trade check failures
 - AML/KYC validation errors
 - Regulatory reporting issues
@@ -125,6 +140,7 @@ Based on Avaloq's integration capabilities:
 ### Best Practices for Error Handling
 
 **1. Logging and Monitoring**
+
 - Implement comprehensive logging for all API calls
 - Set up alerts for critical error patterns
 - Monitor API response times and success rates
@@ -132,12 +148,14 @@ Based on Avaloq's integration capabilities:
 
 **2. Error Response Structure**
 Typical Avaloq error responses should include:
+
 - Error code and category
 - Human-readable error message
 - Timestamp and request ID
 - Suggested remediation steps
 
 **3. Retry Logic**
+
 - Implement exponential backoff for transient errors
 - Avoid retrying on authentication failures
 - Set maximum retry limits
@@ -147,6 +165,7 @@ Typical Avaloq error responses should include:
 Avaloq has laid a good foundation to help businesses ease the journey of testing and integrating new solutions by managing the complexities across various phases utilizing Avaloq's sandbox solution powered by AWS.
 
 **Recommended Testing Approach:**
+
 - Use Avaloq's sandbox environment for testing
 - Test error scenarios systematically
 - Validate error handling across different user roles
@@ -155,18 +174,21 @@ Avaloq has laid a good foundation to help businesses ease the journey of testing
 ### Error Prevention Strategies
 
 **1. Input Validation**
+
 - Validate all input parameters before API calls
 - Use proper data types and formats
 - Implement client-side validation where appropriate
 - Check business rules before submission
 
 **2. Connection Management**
+
 - Implement proper connection pooling
 - Handle timeouts gracefully
 - Use health checks for dependent services
 - Monitor API rate limits
 
 **3. Security Considerations**
+
 - Implement proper authentication handling
 - Use secure communication channels
 - Log security-related errors appropriately

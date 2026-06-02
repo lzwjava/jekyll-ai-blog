@@ -15,6 +15,7 @@ type: note
 This command shows detailed info on your Ethernet interface (enp4s0), which is the one handling your local LAN connection from the routing table we discussed. It's up and running smoothly—great for basic connectivity. I'll parse it line by line, then summarize.
 
 #### Key Sections Explained
+
 - **Interface Status**:
   `2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000`
   - Index 2 (second interface, after lo).

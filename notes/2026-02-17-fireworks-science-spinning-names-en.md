@@ -24,6 +24,7 @@ Fireworks operate through **combustion and chemical reactions**. The main compon
 - **Regulators** (to control burn rate) and sometimes whistle or flash components.
 
 When the fuse is lit, it ignites the black powder or similar composition inside. The rapid burning produces hot gases that create pressure, leading to:
+
 - Explosion (for aerial shells or crackers),
 - Propulsion (rockets),
 - Or controlled burning (for fountains, spinners).
@@ -44,6 +45,7 @@ Many modern versions have fancy product names like "Spring Butterflies", "Triang
 **Why there are many more varieties now compared to 20+ years ago (around 2000 or earlier)**
 
 Fireworks technology and market have advanced significantly:
+
 - Better chemical formulations for brighter, longer-lasting colors and effects.
 - Safer designs (less explosive power for consumer ground items).
 - Mass production in places like Liuyang (Hunan, China's fireworks capital).

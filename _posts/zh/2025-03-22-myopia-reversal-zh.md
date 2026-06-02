@@ -80,10 +80,10 @@ Gettingstronger.org上的博客文章对近视成因提出了更全面的看法�
 
 文章提出，可以利用**毒物兴奋效应**原理来逆转近视，即对低剂量压力的有益反应[^9]。建议的方法包括"主动聚焦"，其中有几个组成部分[^9]：
 
-*   **推远阅读：** 使用正透镜（如果近视度数低于-2D）或不戴眼镜，在文字刚好处于聚焦边缘的距离阅读，随着聚焦能力的改善，逐渐将阅读材料移远[^9]。
-*   **逐步使用更弱度数的负透镜看远：** 在进行远距离活动时，使用度数降低0.5D的眼镜[^9]。
-*   **图像融合：** 聚焦在具有锐利对比边缘的远处物体上，将双重或重影图像融合成一个清晰的单一图像[^9]。
-*   **加强较弱眼：** 遮盖或眨眼屏蔽较强壮的眼睛，以鼓励较弱壮的眼睛更努力地工作，特别是在双眼视力存在明显差异的情况下[^9]。
+* **推远阅读：** 使用正透镜（如果近视度数低于-2D）或不戴眼镜，在文字刚好处于聚焦边缘的距离阅读，随着聚焦能力的改善，逐渐将阅读材料移远[^9]。
+* **逐步使用更弱度数的负透镜看远：** 在进行远距离活动时，使用度数降低0.5D的眼镜[^9]。
+* **图像融合：** 聚焦在具有锐利对比边缘的远处物体上，将双重或重影图像融合成一个清晰的单一图像[^9]。
+* **加强较弱眼：** 遮盖或眨眼屏蔽较强壮的眼睛，以鼓励较弱壮的眼睛更努力地工作，特别是在双眼视力存在明显差异的情况下[^9]。
 
 文章强调，改善需要时间，类似于锻炼或节食，预计几周内会有一些进展，但可能需要一年或更长时间才能达到清晰视力[^9]。文章还将此方法与贝茨方法区分开来，认为贝茨的放松技巧可能有助于缓解睫状肌紧张，但推远阅读 specifically addresses the eye elongation associated with axial myopia from near work [^9]。
 
@@ -123,10 +123,10 @@ Gettingstronger.org上的博客文章对近视成因提出了更全面的看法�
 
 对于近视度数不断加深的儿童，有几种循证治疗方法旨在减缓近视恶化的速度[^4-24]。这些策略包括：
 
-*   **低剂量阿托品滴眼液：** 阿托品是一种药物，低剂量已被证明可以减缓儿童近视的进展[^4]。虽然确切机制尚未完全明了，但认为阿托品可以防止眼睛过度伸长[^14]。研究表明，低剂量阿托品可以显著减少儿童近视进展，且副作用极小[^23]。需要注意的是，阿托品并不能矫正现有近视导致的模糊视力；儿童仍然需要眼镜或隐形眼镜来获得清晰视力[^34]。
-*   **角膜塑形术：** 角膜塑形术涉及在夜间佩戴特殊设计的刚性透氧性隐形眼镜，以暂时重塑角膜[^4]。这种重塑使得在白天无需眼镜或常规隐形眼镜即可获得清晰视力[^13]。有证据表明，角膜塑形术也能减缓儿童近视的进展[^14]。然而，角膜重塑效果是暂时的，如果停止佩戴镜片，近视将会恢复[^13]。角膜塑形术是一种视力矫正和近视管理的方法，而非逆转病症[^13]。
-*   **特殊设计的隐形眼镜和框架眼镜片：** 已经开发出多焦点和周边离焦隐形眼镜及框架眼镜片，用于减缓儿童近视进展[^4]。这些镜片设计具有不同的度数区域，既能矫正中心视力，又能以被认为可以减少刺激眼睛生长的信号的方式改变周边光线的聚焦[^4]。研究表明，这些特殊设计的镜片在减缓某些儿童近视进展速度方面是有效的[^4]。
-*   **增加户外时间和减少屏幕时间：** 鼓励儿童花更多时间在户外并限制他们的屏幕时间，也被推荐为可能有助于减缓近视进展并降低其发生风险的生活方式调整[^1]。暴露在自然光下被认为在调节眼睛生长方面起作用，而减少与屏幕时间相关的长时间近距离聚焦可以减轻眼睛的压力[^1]。
+* **低剂量阿托品滴眼液：** 阿托品是一种药物，低剂量已被证明可以减缓儿童近视的进展[^4]。虽然确切机制尚未完全明了，但认为阿托品可以防止眼睛过度伸长[^14]。研究表明，低剂量阿托品可以显著减少儿童近视进展，且副作用极小[^23]。需要注意的是，阿托品并不能矫正现有近视导致的模糊视力；儿童仍然需要眼镜或隐形眼镜来获得清晰视力[^34]。
+* **角膜塑形术：** 角膜塑形术涉及在夜间佩戴特殊设计的刚性透氧性隐形眼镜，以暂时重塑角膜[^4]。这种重塑使得在白天无需眼镜或常规隐形眼镜即可获得清晰视力[^13]。有证据表明，角膜塑形术也能减缓儿童近视的进展[^14]。然而，角膜重塑效果是暂时的，如果停止佩戴镜片，近视将会恢复[^13]。角膜塑形术是一种视力矫正和近视管理的方法，而非逆转病症[^13]。
+* **特殊设计的隐形眼镜和框架眼镜片：** 已经开发出多焦点和周边离焦隐形眼镜及框架眼镜片，用于减缓儿童近视进展[^4]。这些镜片设计具有不同的度数区域，既能矫正中心视力，又能以被认为可以减少刺激眼睛生长的信号的方式改变周边光线的聚焦[^4]。研究表明，这些特殊设计的镜片在减缓某些儿童近视进展速度方面是有效的[^4]。
+* **增加户外时间和减少屏幕时间：** 鼓励儿童花更多时间在户外并限制他们的屏幕时间，也被推荐为可能有助于减缓近视进展并降低其发生风险的生活方式调整[^1]。暴露在自然光下被认为在调节眼睛生长方面起作用，而减少与屏幕时间相关的长时间近距离聚焦可以减轻眼睛的压力[^1]。
 
 这些近视控制策略旨在减缓近视恶化的速度，特别是在眼睛仍在生长的儿童时期，而不是逆转已有的近视。
 
@@ -166,15 +166,15 @@ Gettingstronger.org上的博客文章对近视成因提出了更全面的看法�
 
 #### **参考文献**
 
-1.  近视：什么是近视？- 美国眼科学会，访问于2025年3月22日，[https://www.aao.org/eye-health/diseases/myopia-nearsightedness](https://www.aao.org/eye-health/diseases/myopia-nearsightedness) [^1]
-2.  近视 - 症状与病因 - 梅奥诊所，访问于2025年3月22日，[https://www.mayoclinic.org/diseases-conditions/nearsightedness/symptoms-causes/syc-20375556](https://www.mayoclinic.org/diseases-conditions/nearsightedness/symptoms-causes/syc-20375556) [^2]
-3.  近视，访问于2025年3月22日，[https://www.kuh.ku.edu.tr/mayo-clinic-care-network/mayo-clinic-health-information-library/diseases-conditions/nearsightedness](https://www.kuh.ku.edu.tr/mayo-clinic-care-network/mayo-clinic-health-information-library/diseases-conditions/nearsightedness) [^3]
-4.  儿童近视及近视治疗 - 美国小儿眼科与斜视协会，访问于2025年3月22日，[https://aapos.org/glossary/myopia-and-treatment-of-myopia-in-children](https://aapos.org/glossary/myopia-and-treatment-of-myopia-in-children) [^4]
-5.  远视 - 症状与病因 - 梅奥诊所，访问于2025年3月22日，[https://www.mayoclinic.org/diseases-conditions/farsightedness/symptoms-causes/syc-20372495](https://www.mayoclinic.org/diseases-conditions/farsightedness/symptoms-causes/syc-20372495) [^5]
-6.  梅奥诊所问答：了解儿童近视，访问于2025年3月22日，[https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-understanding-nearsightedness-in-children/](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-understanding-nearsightedness-in-children/) [^6]
-7.  近视 | AOA - 美国视光协会，访问于2025年3月22日，[https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/myopia](https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/myopia) [^7]
-8.  自然视力恢复法 - 当然我在扯淡，访问于2025年3月22日，[https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia) [^8]
-9.  近视：一种现代但可逆的疾病 / Getting Stronger，访问于2025年3月22日，[https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/) [^9]
+1. 近视：什么是近视？- 美国眼科学会，访问于2025年3月22日，[https://www.aao.org/eye-health/diseases/myopia-nearsightedness](https://www.aao.org/eye-health/diseases/myopia-nearsightedness) [^1]
+2. 近视 - 症状与病因 - 梅奥诊所，访问于2025年3月22日，[https://www.mayoclinic.org/diseases-conditions/nearsightedness/symptoms-causes/syc-20375556](https://www.mayoclinic.org/diseases-conditions/nearsightedness/symptoms-causes/syc-20375556) [^2]
+3. 近视，访问于2025年3月22日，[https://www.kuh.ku.edu.tr/mayo-clinic-care-network/mayo-clinic-health-information-library/diseases-conditions/nearsightedness](https://www.kuh.ku.edu.tr/mayo-clinic-care-network/mayo-clinic-health-information-library/diseases-conditions/nearsightedness) [^3]
+4. 儿童近视及近视治疗 - 美国小儿眼科与斜视协会，访问于2025年3月22日，[https://aapos.org/glossary/myopia-and-treatment-of-myopia-in-children](https://aapos.org/glossary/myopia-and-treatment-of-myopia-in-children) [^4]
+5. 远视 - 症状与病因 - 梅奥诊所，访问于2025年3月22日，[https://www.mayoclinic.org/diseases-conditions/farsightedness/symptoms-causes/syc-20372495](https://www.mayoclinic.org/diseases-conditions/farsightedness/symptoms-causes/syc-20372495) [^5]
+6. 梅奥诊所问答：了解儿童近视，访问于2025年3月22日，[https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-understanding-nearsightedness-in-children/](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-q-and-a-understanding-nearsightedness-in-children/) [^6]
+7. 近视 | AOA - 美国视光协会，访问于2025年3月22日，[https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/myopia](https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/myopia) [^7]
+8. 自然视力恢复法 - 当然我在扯淡，访问于2025年3月22日，[https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia) [^8]
+9. 近视：一种现代但可逆的疾病 / Getting Stronger，访问于2025年3月22日，[https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease/) [^9]
 10. 推远阅读：它真的有效吗？- EndMyopia.org，访问于2025年3月22日，[https://endmyopia.org/print-pushing-does-it-actually-work/](https://endmyopia.org/print-pushing-does-it-actually-work/) [^10]
 11. 什么是近视 | AAOMC，访问于2025年3月22日，[https://aaomc.org/patients/what-is-myopia/](https://aaomc.org/patients/what-is-myopia/) [^11]
 12. 小儿近视诊所优先考虑早期干预和研究 - 梅奥诊所，访问于2025年3月22日，[https://www.mayoclinic.org/medical-professionals/ophthalmology/news/pediatric-myopia-clinic-prioritizes-early-intervention-and-research/mac-20575872](https://www.mayoclinic.org/medical-professionals/ophthalmology/news/pediatric-myopia-clinic-prioritizes-early-intervention-and-research/mac-20575872) [^12]

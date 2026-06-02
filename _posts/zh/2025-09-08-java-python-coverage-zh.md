@@ -28,15 +28,18 @@ type: note
 ## 关键改进与策略
 
 ### 1. **单一JaCoCo代理方案**
+
 - 在父级使用一个`jacoco-it.exec`文件
 - 配置代理参数`append=true`和`includes=org.lzw.*`
 - 这样可以在单次运行中捕获所有模块的覆盖率
 
 ### 2. **报告聚合**
+
 - 使用`jacoco:report-aggregate`生成统一报告
 - 这会自动找到所有模块的类并为其生成覆盖率数据
 
 ### 3. **基于配置文件的执行**
+
 - 分离关注点：`run-integration-tests`配置用于运行测试
 - `integration-test-coverage`配置用于生成报告
 - 使构建更加模块化和可维护
@@ -47,24 +50,28 @@ type: note
 
 ## 总结与最佳实践
 
-### 针对当前的双模块配置：
+### 针对当前的双模块配置
+
 1. **使用单一JaCoCo exec文件**，在父级配置`append=true`
 2. **一次性运行Jetty**，配置代理捕获所有模块
 3. **使用`report-aggregate`**生成统一报告
 
-### 扩展到10+模块：
+### 扩展到10+模块
+
 1. **模块分组**：创建逻辑分组（核心层、服务层、Web层）并生成独立报告
 2. **覆盖率追踪**：实现Python辅助工具来追踪哪些模块被覆盖
 3. **并行测试**：并行运行不同的测试套件以获得更快反馈
 4. **增量覆盖率**：使用Maven配置运行特定模块组的覆盖率
 
-### 关键配置要点：
+### 关键配置要点
+
 - **`append=true`**：确保多次测试运行的覆盖率数据可以累积
 - **`includes=org.lzw.*`**：在单个代理中捕获所有模块
 - **配置分离**：将集成测试与常规构建分开
 - **单一exec文件**：无需多次运行Jetty
 
-### 命令行用法：
+### 命令行用法
+
 ```bash
 # 包含集成测试的完整覆盖率
 mvn clean verify -Prun-integration-tests,integration-test-coverage
@@ -77,6 +84,7 @@ mvn clean verify -Pcoverage-by-layer
 ```
 
 这种方案具有良好的可扩展性，因为：
+
 1. 无论模块数量多少，都只需启动/停止Jetty一次
 2. JaCoCo自动处理多模块的类文件
 3. Python测试无需了解Java模块结构

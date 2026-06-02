@@ -11,6 +11,7 @@ type: note
 To fully replace Postman with the Python `requests` library, you can perform all common HTTP operations such as sending different types of requests, handling headers, working with JSON data, uploading files, using proxies, and asserting responses. Below, I’ll walk you through examples for each of these functionalities step-by-step, ensuring you have a complete and practical guide.
 
 ### Step 1: Install the Requests Library
+
 Before you begin, ensure the `requests` library is installed. Run this command in your terminal:
 
 ```bash
@@ -22,9 +23,11 @@ Now, let’s dive into the examples.
 ---
 
 ### Sending HTTP Requests
+
 The `requests` library supports all HTTP methods like GET, POST, PUT, DELETE, etc. Here’s how to send a simple GET and POST request:
 
 #### GET Request
+
 ```python
 import requests
 
@@ -37,6 +40,7 @@ print("Response Body:", response.text)
 ```
 
 #### POST Request
+
 ```python
 # Send a POST request with no data
 response = requests.post('https://api.example.com/submit')
@@ -48,6 +52,7 @@ print("Response Body:", response.text)
 ---
 
 ### Adding Headers
+
 Headers are often used for authentication, content types, or custom metadata. Pass them as a dictionary to the `headers` parameter.
 
 ```python
@@ -69,6 +74,7 @@ print("Response Body:", response.text)
 ---
 
 ### Sending JSON Data
+
 To send JSON data in a POST request (like selecting JSON in Postman’s body tab), use the `json` parameter. This automatically sets the `Content-Type` to `application/json`.
 
 ```python
@@ -88,9 +94,11 @@ print("Response JSON:", response.json())
 ---
 
 ### Uploading Files
+
 To upload files (similar to Postman’s form-data option), use the `files` parameter. Open files in binary mode (`'rb'`) and optionally include additional form data.
 
 #### Simple File Upload
+
 ```python
 # Prepare file for upload
 files = {
@@ -108,7 +116,9 @@ files['file'].close()
 ```
 
 #### File Upload with Form Data (Recommended Approach)
+
 Using a `with` statement ensures the file is closed automatically:
+
 ```python
 # Additional form data
 form_data = {
@@ -129,6 +139,7 @@ print("Response Body:", response.text)
 ---
 
 ### Using Proxies
+
 To route requests through a proxy (similar to Postman’s proxy settings), use the `proxies` parameter with a dictionary.
 
 ```python
@@ -148,9 +159,11 @@ print("Response Body:", response.text)
 ---
 
 ### Handling and Asserting Responses
+
 The `requests` library provides easy access to response details like status codes, JSON data, headers, and cookies. You can use Python’s `assert` statements to validate responses, similar to Postman’s test scripts.
 
 #### Parsing JSON Responses
+
 ```python
 response = requests.get('https://api.example.com/data')
 
@@ -163,6 +176,7 @@ else:
 ```
 
 #### Asserting Response Details
+
 ```python
 response = requests.get('https://api.example.com/data')
 
@@ -186,7 +200,9 @@ print("All assertions passed!")
 ```
 
 #### Handling Errors
+
 Wrap requests in a `try-except` block to catch network or HTTP errors:
+
 ```python
 try:
     response = requests.get('https://api.example.com/data')
@@ -200,6 +216,7 @@ except requests.exceptions.RequestException as e:
 ---
 
 ### Comprehensive Example
+
 Here’s a full example combining headers, file upload, proxies, and response assertions:
 
 ```python
@@ -246,6 +263,7 @@ except requests.exceptions.RequestException as e:
 ---
 
 ### Reusable Functions (Replacing Postman Collections)
+
 To mimic Postman’s saved requests or collections, encapsulate logic in functions:
 
 ```python
@@ -281,6 +299,7 @@ if upload_id:
 ---
 
 ### Additional Features
+
 - **Sessions**: Use `requests.Session()` to persist cookies or headers across requests.
 - **Timeouts**: Add `timeout=5` (seconds) to requests to avoid hanging.
 - **Redirects**: Control with `allow_redirects=True/False`.
@@ -288,7 +307,9 @@ if upload_id:
 ---
 
 ### Summary
+
 With the `requests` library, you can:
+
 - Send HTTP requests (`get`, `post`, etc.)
 - Include headers, JSON data, and file uploads
 - Use proxies

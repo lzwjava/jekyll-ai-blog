@@ -15,17 +15,17 @@ Answer: It is definitely a great idea to have those accounts ready! Using AI as 
 
 ### 💡 Tips for "AI Parenting" (AI 养娃)
 
-*   **Curiosity-Led Creation:** Instead of just generating "a cat," encourage her to describe the cat's adventures. This builds descriptive language skills and narrative thinking.
-*   **Safety & Supervision:** Since she is five, keeping the AI on a "backup phone" is a smart move. It allows you to control the environment while letting her feel a sense of independence.
-*   **The "Mistake" Lesson:** When the AI "gets it wrong" or a phone glitches (like the lag you experienced), it’s actually a great moment to teach patience and the idea that technology is a tool built by humans, not a perfect magic wand.
+* **Curiosity-Led Creation:** Instead of just generating "a cat," encourage her to describe the cat's adventures. This builds descriptive language skills and narrative thinking.
+* **Safety & Supervision:** Since she is five, keeping the AI on a "backup phone" is a smart move. It allows you to control the environment while letting her feel a sense of independence.
+* **The "Mistake" Lesson:** When the AI "gets it wrong" or a phone glitches (like the lag you experienced), it’s actually a great moment to teach patience and the idea that technology is a tool built by humans, not a perfect magic wand.
 
 ### 🚀 Optimizing the Backup Phone
+
 To ensure her next session is smooth, you might want to:
-*   **Update the Apps:** Ensure ChatGPT or other image generators are on their latest versions to reduce "stuck" screens.
-*   **Voice-to-Text:** If she isn't writing yet, make sure the dictation (microphone) feature is easily accessible so she can "talk" to the AI directly.
-*   **Dedicated Folders:** Create a "Gallery of Dreams" folder where you save the images she creates together.
 
-
+* **Update the Apps:** Ensure ChatGPT or other image generators are on their latest versions to reduce "stuck" screens.
+* **Voice-to-Text:** If she isn't writing yet, make sure the dictation (microphone) feature is easily accessible so she can "talk" to the AI directly.
+* **Dedicated Folders:** Create a "Gallery of Dreams" folder where you save the images she creates together.
 
 It is a pity the session was interrupted, but the "AI parenting" community is growing fast. Many parents are now using these tools to create custom bedtime stories where their children are the protagonists or to visualize "impossible" science questions (e.g., "What does a planet made of candy look like?").
 

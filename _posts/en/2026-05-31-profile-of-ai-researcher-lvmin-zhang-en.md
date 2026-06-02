@@ -16,6 +16,7 @@ type: note
 Lvmin Zhang is one of the most impactful applied AI researchers in the generative image/video space right now. Here's the quick profile:
 
 **Identity:**
+
 - PhD candidate in CS at Stanford, advised by Maneesh Agrawala. Previously a research assistant at CUHK under Tien-Tsin Wong. B.Eng. from Soochow University (2021).
 
 **Why you've definitely used his work:**

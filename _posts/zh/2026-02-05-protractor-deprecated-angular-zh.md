@@ -12,11 +12,12 @@ type: note
 
 啊，**Protractor**！现在明白了。
 
-## Protractor 是什么：
+## Protractor 是什么
 
 **Protractor** 是一个专门为测试 **Angular 和 AngularJS applications** 设计的 **end-to-end (E2E) testing framework**。它是构建在 WebDriverJS (Node.js 版的 Selenium WebDriver) 之上的。
 
-### 主要特性：
+### 主要特性
+
 - 自动化浏览器测试 (Chrome, Firefox, Safari 等)
 - 专为 Angular apps 设计，内置对 Angular-specific locators 的支持
 - 允许你编写测试来模拟用户交互 (clicking, typing, navigating)
@@ -26,7 +27,7 @@ type: note
 
 Angular 团队在 **2021 年 4 月** 正式宣布弃用 Protractor，并在 2023 年停止了支持。他们建议迁移到现代的替代方案。
 
-### 为什么它需要 requesting libraries 和 form-data：
+### 为什么它需要 requesting libraries 和 form-data
 
 Protractor 需要这些是因为：
 
@@ -35,7 +36,7 @@ Protractor 需要这些是因为：
 3. **API testing** - 有时 E2E tests 需要在浏览器自动化的同时进行直接的 API calls
 4. **Screenshot/file handling** - 管理测试产物，如 screenshots 和 reports
 
-## 推荐使用的现代替代方案：
+## 推荐使用的现代替代方案
 
 - **Cypress** - 非常流行，具有极佳的 developer experience
 - **Playwright** - Microsoft 的解决方案，支持多种浏览器

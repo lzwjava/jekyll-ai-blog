@@ -20,6 +20,7 @@ type: note
 这是一个 Cloudflare 特有的错误，表明身份验证方式（发送凭据的方式）不支持你请求的 HTTP method（例如 GET, POST, DELETE, PATCH）。
 
 ### 常见原因
+
 1. 使用了 **API Token** 身份验证（通过 `Authorization: Bearer <token>`），但该端点或方法在某些操作上并不完全支持它。
    一些较旧或特定的端点（包括部分 RUM/Web Analytics 端点）历史上对 **Global API Key**（通过 `X-Auth-Email` + `X-Auth-Key` Header）的支持比 Scoped API Tokens 更好、更一致。
 
@@ -34,6 +35,7 @@ type: note
 4. 罕见情况：端点本身对非 GET 方法的 Token auth 有限制（在社区报告中，在各种 API 的 PATCH/PUT/DELETE 操作中见过此类情况）。
 
 ### 如何修复（分步指南）
+
 1. **核实你使用的是正确的 HTTP method**
    获取 Web Analytics 站点列表（最常见的起点）：
    - Endpoint: `GET https://api.cloudflare.com/client/v4/accounts/{account_id}/rum/site_info`
@@ -42,17 +44,21 @@ type: note
 2. **切换到 Global API Key 身份验证**（这是解决 RUM 相关端点此错误的最高效方案）
    - 前往 Cloudflare Dashboard → **My Profile** → **API Tokens** 选项卡 → 滚动到 **Global API Key** 部分 → 查看/生成。
    - 在请求中使用以下 Header（而不是 Bearer token）：
+
      ```
      X-Auth-Email: your@email.com
      X-Auth-Key: YOUR_GLOBAL_API_KEY_HERE
      ```
+
    - 获取站点列表的 curl 示例：
+
      ```bash
      curl -X GET "https://api.cloudflare.com/client/v4/accounts/YOUR_ACCOUNT_ID/rum/site_info" \
      -H "X-Auth-Email: your@email.com" \
      -H "X-Auth-Key: YOUR_GLOBAL_API_KEY_HERE" \
      -H "Content-Type: application/json"
      ```
+
    - 这通常能解决较旧或 Legacy 风格端点的 “authentication scheme” 不匹配问题。
 
 3. **如果必须使用 API Token (Bearer auth)**

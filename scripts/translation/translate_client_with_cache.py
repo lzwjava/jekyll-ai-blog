@@ -3,7 +3,7 @@ import json
 
 CACHE_DIR = "cache"
 
-from translate_client import translate_text
+from translate_client import translate_text  # noqa: E402
 
 
 def load_cache_for_lang(target_lang):

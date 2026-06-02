@@ -49,6 +49,7 @@ Here are some genuinely unpopular (or at least contrarian) opinions in the netwo
 These opinions tend to be unpopular with traditional enterprise engineers, vendor SEs, and certification junkies—but increasingly accepted in cloud-native, web-scale, and low-level Linux networking circles.
 
 References:
+
 - [Reddit r/networking “What’s your networking hill to die on?” threads (multiple years)](https://www.reddit.com/r/networking/search/?q=hill%20to%20die%20on)
 - [NANOG mailing list archives on SDN/EVPN debates](https://www.nanog.org/mailing-list/archives/)
 - [Ivan Pepelnjak’s blog posts on EVPN complexity](https://blog.ipspace.net/tag/evpn/)

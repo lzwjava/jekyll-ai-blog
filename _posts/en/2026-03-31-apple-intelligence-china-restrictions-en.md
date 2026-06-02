@@ -25,17 +25,17 @@ Apple uses **GPS and IP-based geofencing** to determine your current location. E
 
 While there are reports (as of March 30, 2026) that Apple Intelligence has just begun a rollout in China, this version is likely a **localized variant** powered by a partner like Alibaba. This local version:
 
-  * Requires a **Mainland China Apple Account**.
-  * May not be compatible with the "global" AI features linked to a US Store account.
-  * Is being rolled out in stages, so it might not appear for everyone immediately.
+* Requires a **Mainland China Apple Account**.
+* May not be compatible with the "global" AI features linked to a US Store account.
+* Is being rolled out in stages, so it might not appear for everyone immediately.
 
 ### 4\. Language and Siri Settings
 
 To see the setting on a compatible **non-CH/A** device, you typically must:
 
-  * Set the **Device Language** to English (US).
-  * Set the **Siri Language** to English (US).
-  * Ensure your **Region** is set to the United States.
+* Set the **Device Language** to English (US).
+* Set the **Siri Language** to English (US).
+* Ensure your **Region** is set to the United States.
 
 -----
 
@@ -50,6 +50,6 @@ If you are using a China-market iPhone, you will likely only be able to use Appl
 
 References:
 
-  * [About iOS 26 Updates - Apple Support](https://support.apple.com/en-us/123075)
-  * [Apple Intelligence finally rolls out in China - AppleInsider](https://www.google.com/search?q=https://appleinsider.com/articles/26/03/30/apple-intelligence-finally-rolls-out-in-china)
-  * [How to get Apple Intelligence - Apple Support](https://support.apple.com/en-us/121115)
+* [About iOS 26 Updates - Apple Support](https://support.apple.com/en-us/123075)
+* [Apple Intelligence finally rolls out in China - AppleInsider](https://www.google.com/search?q=https://appleinsider.com/articles/26/03/30/apple-intelligence-finally-rolls-out-in-china)
+* [How to get Apple Intelligence - Apple Support](https://support.apple.com/en-us/121115)

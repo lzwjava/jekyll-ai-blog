@@ -18,6 +18,7 @@ This error comes from **OpenClaw**, an AI agent framework, and means it cannot f
 ## What's Going On
 
 OpenClaw stores provider credentials in a JSON file at:
+
 ```
 /root/.openclaw/agents/main/agent/auth-profiles.json
 ```
@@ -39,11 +40,13 @@ This command should prompt you to enter your OpenRouter API key interactively an
 ### Option 2: Manually edit `auth-profiles.json`
 
 1. Open the file:
+
    ```bash
    nano /root/.openclaw/agents/main/agent/auth-profiles.json
    ```
 
 2. Add your OpenRouter key in the expected format (typically something like):
+
    ```json
    {
      "openrouter": {
@@ -51,6 +54,7 @@ This command should prompt you to enter your OpenRouter API key interactively an
      }
    }
    ```
+
    *(The exact schema may vary — check OpenClaw's documentation for the correct structure.)*
 
 3. Save and retry running the agent.
@@ -58,6 +62,7 @@ This command should prompt you to enter your OpenRouter API key interactively an
 ### Option 3: Copy auth from the main agent directory
 
 The error message hints at this:
+
 ```bash
 cp /root/.openclaw/agents/main/auth-profiles.json \
    /root/.openclaw/agents/main/agent/auth-profiles.json
@@ -81,6 +86,7 @@ If you don't have one yet:
 ## Check the Logs
 
 For more detail on the failure, run:
+
 ```bash
 openclaw logs --follow
 ```

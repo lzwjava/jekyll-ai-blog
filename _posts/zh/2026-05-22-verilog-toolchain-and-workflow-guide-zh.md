@@ -126,6 +126,7 @@ code .
 ```
 
 创建`counter.v`：
+
 ```verilog
 module counter(
     input clk, rst,
@@ -138,6 +139,7 @@ endmodule
 ```
 
 创建`counter_tb.v`：
+
 ```verilog
 module counter_tb;
     reg clk = 0, rst = 1;
@@ -157,6 +159,7 @@ endmodule
 ```
 
 在VSCode终端中：
+
 ```bash
 iverilog -o sim counter.v counter_tb.v && ./sim
 # WaveTrace扩展会自动检测wave.vcd — 点击即可打开波形

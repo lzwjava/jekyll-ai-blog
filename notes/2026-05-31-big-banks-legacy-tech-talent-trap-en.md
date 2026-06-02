@@ -74,11 +74,13 @@ And the bank itself can't fire them easily — UK employment law, institutional 
 Revolut now has ~45M customers globally. Monzo ~10M UK accounts. These weren't slow-growth — they were **exponential**, and they took the *best customers first*: young, mobile-native, high transaction volume.
 
 The big banks lost:
+
 - **Youth mindshare** (18–35 demo went Monzo-first)
 - **Fee revenue** (Revolut killed FX margins)
 - **Innovation narrative** (no talent wanted to join "transformation programs")
 
 But big banks haven't *died* — they survived on:
+
 - Mortgage books (Revolut can't touch this yet)
 - Corporate/institutional banking (B2B relationships, not apps)
 - Regulatory mass (capital requirements, deposit insurance)

@@ -38,5 +38,4 @@ This emigration is driven by a combination of **"pull" factors** from destinatio
 
 This video compares the experience of an expat in China from 2000 to 2025, which provides context on the changing dynamics of the Chinese labor market that might influence the decision to move abroad. [China dream revised? Expat careers in China from 2000 to 2025](https://www.youtube.com/watch?v=qrClCTgmcm4)
 
-
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

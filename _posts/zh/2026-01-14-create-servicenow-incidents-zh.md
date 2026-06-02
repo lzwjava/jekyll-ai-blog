@@ -61,6 +61,7 @@ type: note
 - **通过 API / Integration** — 对于监控工具（如 Splunk、SolarWinds、PagerDuty），Alerts 可以自动创建 Incident。
 
 **快速解决问题的技巧：**
+
 - 提供**清晰的复现步骤**、业务影响和截图。
 - 选择**正确的 Category**，以便将其分配给正确的团队。
 - 先查看 **Self-service knowledge articles** — 许多公司要求在创建 Incident 之前先搜索 KB。

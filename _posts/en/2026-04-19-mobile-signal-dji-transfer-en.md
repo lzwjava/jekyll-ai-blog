@@ -38,6 +38,7 @@ The "SIM card failed" messages on your iPhone could be related to:
 3. **iPhone compatibility** - China Unicom is noted for wider compatibility with devices from other parts of Asia, Europe, and Australia, which suggests some carriers may have better device compatibility than others
 
 **Solutions to try:**
+
 - Request a new SIM card from your carrier (they wear out over time)
 - Restart your iPhone regularly to refresh the network connection
 - Avoid high-data activities during peak hours (evenings, weekends)
@@ -55,7 +56,7 @@ One user discovered their WiFi router in the same room was causing interference 
 
 In high-density urban environments, hundreds of home WiFi routers, Bluetooth devices, and cellular towers compete for the same airspace, creating "electronic smog" that can lead to intermittent connection drops. On a tourist island during busy hours, many visitors using their phones' hotspots and WiFi networks create similar interference.
 
-### Solutions to Fix Quick Transfer Speeds:
+### Solutions to Fix Quick Transfer Speeds
 
 1. **Turn off nearby WiFi sources**: Move away from WiFi routers, turn off your phone's WiFi when using Quick Transfer (you only need Bluetooth to initiate the connection, then the drone creates its own WiFi network)
 

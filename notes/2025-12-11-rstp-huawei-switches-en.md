@@ -29,6 +29,7 @@ These commands configure **Rapid Spanning Tree Protocol (RSTP)** on a Huawei swi
 → If the edge port unexpectedly receives a BPDU (which should never happen if only an end device is connected), the switch will automatically put the port into **error-down/shutdown** state to protect the spanning-tree topology from loops caused by misconfiguration or rogue switches. |
 
 Summary of what this configuration does overall
+
 - Turns on RSTP globally.
 - Makes SW1 very likely to become the **Root Bridge** (priority 4096).
 - On port G0/0/1 (which goes to a PC or similar end device):

@@ -96,7 +96,7 @@ So once env variables are set, both model and dataset downloads will use your pr
 
 ---
 
-# If you want, I can show:
+# If you want, I can show
 
 * How to ensure NanoGPT downloads datasets through your proxy
 * How to cache the dataset locally to avoid future downloads

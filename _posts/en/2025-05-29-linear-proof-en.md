@@ -8,11 +8,12 @@ translated: false
 type: note
 ---
 
-### Translation:
+### Translation
 
 23. Given that the vectors \\( \alpha_1, \alpha_2, \alpha_3 \\) are linearly independent, and the vectors \\( \beta_1 = \alpha_1 + 2\alpha_2 \\), \\( \beta_2 = -\alpha_1 + \alpha_2 - 3\alpha_3 \\), \\( \beta_3 = 3\alpha_1 + 6\alpha_3 \\). Prove that the vectors \\( \beta_1, \beta_2, \beta_3 \\) are linearly related.
 
-### Solution:
+### Solution
+
 To prove that the vectors \\( \beta_1, \beta_2, \beta_3 \\) are linearly related, we need to show that there exist scalars \\( c_1, c_2, c_3 \\) (not all zero) such that:
 
 \\[ c_1 \beta_1 + c_2 \beta_2 + c_3 \beta_3 = 0 \\]

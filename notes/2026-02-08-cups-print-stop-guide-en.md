@@ -17,16 +17,19 @@ type: note
 `cups.service/stop` refers to **stopping the CUPS printing service** on Ubuntu using systemd (the most common way to control services).
 
 ### What is CUPS?
+
 CUPS stands for **Common UNIX Printing System**. It is the standard printing system on Ubuntu (and most Linux distributions, as well as macOS).
 It handles:
+
 - Managing local and network printers
 - Processing print jobs
 - Printer discovery (especially via `cups-browsed`)
-- The web interface for printer administration (http://localhost:631)
+- The web interface for printer administration (<http://localhost:631>)
 
 The systemd service is called **`cups.service`** and runs the main CUPS daemon (`cupsd`).
 
 ### What does `cups.service/stop` mean?
+
 It means executing the command to **immediately stop** the CUPS service.
 
 The actual command is:
@@ -38,6 +41,7 @@ sudo systemctl stop cups.service
 (or shorter: `sudo systemctl stop cups`)
 
 ### What happens when you stop it?
+
 - The CUPS daemon (`cupsd`) is terminated.
 - No new print jobs can be sent or processed.
 - Pending jobs in the queue usually stay in the queue (they resume after restart).

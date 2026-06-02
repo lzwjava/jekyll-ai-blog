@@ -103,6 +103,7 @@ type: note
     ```
 
 ### 补充说明
+
 - 该错误特别指出了 `install_layout`，该属性在新版 `setuptools` 中已被移除。这表明 `pyperclip` 的安装脚本可能已过时或与你的 `setuptools` 版本不兼容。
 - 如果你在特定环境中工作（例如 Docker、WSL 或自定义 Python 构建），请确保所有依赖项（如用于编译 wheel 包的 `build-essential`）已安装：
 
@@ -113,6 +114,7 @@ type: note
 - 如果问题仍然存在，请提供更多上下文信息（例如 Python 版本、操作系统以及是否使用虚拟环境）以便进一步协助。
 
 ### 参考资料
+
 - [Pyperclip GitHub](https://github.com/asweigart/pyperclip)
 - [Setuptools 文档](https://setuptools.pypa.io/en/latest/)
 - [Pip 文档](https://pip.pypa.io/en/stable/)

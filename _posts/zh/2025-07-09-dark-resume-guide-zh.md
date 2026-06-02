@@ -63,7 +63,7 @@ latex: $(foreach x, coverletter coverletter-zh resume-zh resume resume-en-dark, 
 
 ```make
 resume-en-dark.pdf: $(RESUME_EN_DIR)/resume-en-dark.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(RESUME_EN_DIR) $<
+ $(CC) -output-directory=$(RESUME_EN_DIR) $<
 ```
 
 > 🔁 如果所有资源都在同一文件夹（`latex/en/resume-en/`）中，则无需更新 `RESUME_SRCS`。
@@ -75,7 +75,7 @@ resume-en-dark.pdf: $(RESUME_EN_DIR)/resume-en-dark.tex $(RESUME_SRCS)
 如果希望将生成的文件复制到 `assets/resume`，更新 `copy`：
 
 ```make
-	cp $(RESUME_EN_DIR)/resume-en-dark.pdf assets/resume/Zhiwei.Li.Resume.Dark.pdf
+ cp $(RESUME_EN_DIR)/resume-en-dark.pdf assets/resume/Zhiwei.Li.Resume.Dark.pdf
 ```
 
 ---

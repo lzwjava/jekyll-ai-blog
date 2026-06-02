@@ -17,11 +17,13 @@ The code snippet you provided appears to be the header and comments from CodeIgn
 The snippet you shared is just the header—standard for all CodeIgniter config files—with a link to the official user guide (though note that CodeIgniter 3's docs might be more relevant if you're using that version, as CI 4 has some differences). Below, I'll explain **how to use and configure the Profiler** in CodeIgniter step by step, including a complete example of the full config file.
 
 #### Step 1: Prerequisites
+
 - **CodeIgniter Version**: This applies to CI 2.x and 3.x. If you're using CI 4, the Profiler is accessed differently via the Debug Toolbar in `application/Config/Toolbar.php`.
 - **Environment**: The Profiler is intended for **development only** (not production, as it exposes sensitive data). Enable it via the config file.
 - **How it Works**: Once enabled, the Profiler appends a collapsible debug panel at the bottom of your pages, showing metrics like benchmarks, queries, and POST data. It doesn't require custom code to run—it's automatic after setup.
 
 #### Step 2: How to Enable the Profiler
+
 1. **Locate the Config File**:
    - In your project, go to `application/config/profiler.php`.
    - If the file doesn't exist, create it based on the default template.
@@ -77,13 +79,16 @@ The snippet you shared is just the header—standard for all CodeIgniter config 
 
 4. **Conditional Enabling (Optional)**:
    - You don't have to enable it globally. In a controller, you can use:
+
      ```php
      $this->output->enable_profiler(TRUE);  // Enable for this specific method/request
      $this->output->enable_profiler(FALSE); // Disable
      ```
+
    - This overrides the global config for that page.
 
 #### Step 3: How to Use the Profiler in Practice
+
 1. **Accessing the Output**:
    - Load any page in your app (e.g., a controller method).
    - Scroll to the bottom—the Profiler will appear as a collapsible box with sections like "Elapsed Time," "Database Queries," etc.
@@ -98,15 +103,18 @@ The snippet you shared is just the header—standard for all CodeIgniter config 
 
 3. **Custom Benchmarking**:
    - Add custom markers in your code to time specific blocks:
+
      ```php
      $this->benchmark->mark('query_start');  // Start timer
      // Your code here (e.g., a foreach loop or DB query)
      $this->benchmark->mark('query_end');    // End timer
      ```
+
    - This will appear in the "Benchmarks" section automatically.
 
 4. **Example Usage in a Controller**:
    Suppose you have a controller method that's slow—you can enable Profiler there to debug:
+
    ```php
    class Example extends CI_Controller {
        public function index() {
@@ -119,9 +127,11 @@ The snippet you shared is just the header—standard for all CodeIgniter config 
        }
    }
    ```
+
    - After loading this page, check the bottom for Profiler data.
 
 #### Step 4: Tips and Troubleshooting
+
 - **Security Note**: Never enable in production—disable via `$config['enable_profiler'] = FALSE;` or using environment variables (e.g., via hooks for DEV environments).
 - **Common Issues**:
   - Not showing? Ensure `$config['enable_profiler']` is TRUE and you're not on a production server.

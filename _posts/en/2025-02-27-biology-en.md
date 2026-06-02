@@ -54,8 +54,9 @@ Below is a concise, 100-point summary of key topics, principles, and terms typic
 19. Cellular Respiration: The breakdown of glucose to produce ATP; includes glycolysis, Krebs cycle, and oxidative phosphorylation.
 
 20. Aerobic vs. Anaerobic Respiration:
-   - Aerobic uses oxygen, producing more ATP.
-   - Anaerobic occurs without oxygen (fermentation), producing less ATP.
+
+- Aerobic uses oxygen, producing more ATP.
+- Anaerobic occurs without oxygen (fermentation), producing less ATP.
 
 21. ATP (Adenosine Triphosphate): The main energy currency of cells.
 
@@ -88,8 +89,9 @@ Below is a concise, 100-point summary of key topics, principles, and terms typic
 35. Chromosomes: DNA molecules wrapped around proteins; carry genetic information.
 
 36. Chromosome Number:
-   - Haploid (n) cells have one set of chromosomes (e.g., gametes).
-   - Diploid (2n) cells have pairs of chromosomes (e.g., somatic cells).
+
+- Haploid (n) cells have one set of chromosomes (e.g., gametes).
+- Diploid (2n) cells have pairs of chromosomes (e.g., somatic cells).
 
 37. Cell Cycle: The series of events in cell growth and division; includes interphase and mitosis.
 
@@ -104,8 +106,9 @@ Below is a concise, 100-point summary of key topics, principles, and terms typic
 42. Genetics: The study of heredity and variation.
 
 43. Mendel’s Laws:
-   - Law of Segregation: Alleles separate during gamete formation.
-   - Law of Independent Assortment: Genes for different traits sort independently.
+
+- Law of Segregation: Alleles separate during gamete formation.
+- Law of Independent Assortment: Genes for different traits sort independently.
 
 44. Alleles: Different versions of a gene.
 
@@ -116,8 +119,9 @@ Below is a concise, 100-point summary of key topics, principles, and terms typic
 47. Phenotype: The observable characteristics (e.g., flower color).
 
 48. Homozygous vs. Heterozygous:
-   - Homozygous: two identical alleles (AA or aa).
-   - Heterozygous: two different alleles (Aa).
+
+- Homozygous: two identical alleles (AA or aa).
+- Heterozygous: two different alleles (Aa).
 
 49. Punnett Square: A tool to predict offspring genotype and phenotype ratios.
 

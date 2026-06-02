@@ -13,6 +13,7 @@ GitHub Copilot 是一款强大的 AI 编程助手，通过相应插件集成在 
 ## 理解 Copilot 在 VSCode 中的集成方式
 
 GitHub Copilot 并未提供传统 API（如 REST 端点）供直接编程调用，而是通过以下方式提供功能：
+
 - **VSCode Chat API**：允许扩展创建自定义聊天参与者，与 Copilot 的聊天系统进行自然语言交互
 - **VSCode Language Model API**：允许扩展访问 Copilot 的大型语言模型 (LLM)，用于代码生成或分析等任务
 - **VSCode 命令**：支持触发 Copilot 的内置功能，例如使用预定义提示打开聊天窗口
@@ -69,4 +70,4 @@ GitHub Copilot 并未提供传统 API（如 REST 端点）供直接编程调用�
 }
 ```
 
-   - **使用 Copilot**：在编辑 `package.json` 时，Copilot 可能会在您输入时建议 `contributes.commands`
+- **使用 Copilot**：在编辑 `package.json` 时，Copilot 可能会在您输入时建议 `contributes.commands`

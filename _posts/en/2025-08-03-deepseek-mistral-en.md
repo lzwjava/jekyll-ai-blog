@@ -39,6 +39,6 @@ When choosing a model, it's a balancing act between cost and quality.
 
 Your code is set up to use API-based models, as the `translate_markdown_file` function implies an external service call. For this setup, `deepseek` and `mistral` are indeed strong contenders for a balance of cost and performance. To get the best of both worlds, you could:
 
-1.  **Benchmarking:** Conduct a small-scale benchmark to compare the translation quality of DeepSeek and Mistral on your specific type of markdown content.
-2.  **Tiered Approach:** Use a more cost-effective model like DeepSeek or a smaller Mistral model for a first pass, and then use a more powerful (and more expensive) model for a final review or for particularly critical documents.
-3.  **Local vs. API:** If you are translating a very large volume of files, consider a shift to a self-hosted open-source model like LLaMa 3 or a smaller Mistral model to save on API costs in the long run.
+1. **Benchmarking:** Conduct a small-scale benchmark to compare the translation quality of DeepSeek and Mistral on your specific type of markdown content.
+2. **Tiered Approach:** Use a more cost-effective model like DeepSeek or a smaller Mistral model for a first pass, and then use a more powerful (and more expensive) model for a final review or for particularly critical documents.
+3. **Local vs. API:** If you are translating a very large volume of files, consider a shift to a self-hosted open-source model like LLaMa 3 or a smaller Mistral model to save on API costs in the long run.

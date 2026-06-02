@@ -36,6 +36,7 @@ ids = enc.encode_ordinary(text)  # 仅限 CPU
 ```
 
 所以与其浪费 $2/小时的 GPU 时间去做：
+
 - `wget` 下载 80GB 的文本
 - `prepare.py` 对 300 亿个 token 进行分词（耗时数小时）
 - 等待数据上传

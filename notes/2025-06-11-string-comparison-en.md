@@ -33,6 +33,7 @@ To improve your workflow for comparing tab-separated strings in Beyond Compare, 
 3. **Preprocess Files with a Script**:
    - If you frequently deal with tab-separated strings and need to verify differences, you can automate the preprocessing step (like replacing tabs with newlines) using a simple script, then compare the results in Beyond Compare.
    - **Example with Python**:
+
      ```python
      import sys
 
@@ -47,6 +48,7 @@ To improve your workflow for comparing tab-separated strings in Beyond Compare, 
      # Usage: python script.py input1.txt output1.txt
      convert_tabs_to_newlines(sys.argv[1], sys.argv[2])
      ```
+
    - Run this script on both files, then compare the output files in Beyond Compare. You can integrate this into a batch process to automate the workflow.
 
 4. **Use Alternative Tools for Text Verification**:
@@ -55,28 +57,34 @@ To improve your workflow for comparing tab-separated strings in Beyond Compare, 
      - **Diff Tools in IDEs**: Modern Itring ComparisonDEs like VS Code have built-in diff tools. You can use a VS Code extension like "Compare Folders" or "Partial Diff" to compare tab-separated text directly, with options to customize how differences are displayed.
      - **Command-Line Tools**:
        - Use `diff` or `colordiff` on Linux/macOS with preprocessing:
+
          ```bash
          tr '\t' '\n' < file1.txt > file1_converted.txt
          tr '\t' '\n' < file2.txt > file2_converted.txt
          diff file1_converted.txt file2_converted.txt
          ```
+
        - This approach is fast for scripting and automation.
 
 5. **Normalize Whitespace Before Comparison**:
    - If spaces are causing "unimportant differences," you can normalize whitespace in both files before comparing. Use a tool like `sed` or a script to replace multiple spaces with a single space or remove trailing/leading spaces:
+
      ```bash
      sed 's/[ \t]\+/ /g' file1.txt > file1_normalized.txt
      sed 's/[ \t]\+/ /g' file2.txt > file2_normalized.txt
      ```
+
    - Then compare the normalized files in Beyond Compare.
 
 6. **Best Practices for Careful Text Verification**:
    - **Version Control**: If these strings are part of a project, use Git or another version control system. Tools like `git diff` can highlight exact changes, and you can configure it to treat spaces as significant.
    - **Checksums**: For critical verification, compute checksums (e.g., MD5, SHA256) of each field after splitting by tabs to ensure no subtle differences:
+
      ```bash
      awk -F'\t' '{for(i=1;i<=NF;i++) print $i}' file1.txt | sha256sum
      awk -F'\t' '{for(i=1;i<=NF;i++) print $i}' file2.txt | sha256sum
      ```
+
    - **Visual Aids**: Use syntax highlighting in Beyond Compare or VS Code to make differences more apparent. In Beyond Compare, customize the color scheme to emphasize whitespace differences.
    - **Logging**: Keep a log of comparisons to track changes over time, especially for long-term projects.
 

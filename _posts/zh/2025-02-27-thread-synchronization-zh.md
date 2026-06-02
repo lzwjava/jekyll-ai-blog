@@ -13,13 +13,16 @@ type: note
 ---
 
 ### 1. `synchronized`关键字
+
 `synchronized`关键字确保一次只有一个线程可以执行代码块或方法。这是最简单的同步工具，内置于Java核心中。
 
 #### 工作原理
+
 - 锁定对象的监视器（每个Java对象都有一个）。
 - 其他线程等待锁被释放。
 
 #### 示例：使用`synchronized`的计数器
+
 ```java
 class Counter {
     private int count = 0;
@@ -53,11 +56,14 @@ public class Main {
     }
 }
 ```
+
 - 如果没有`synchronized`，`count++`（读取-修改-写入）可能会重叠，导致结果小于2000。
 - `synchronized`锁定`Counter`实例，确保原子更新。
 
 #### 同步块
+
 您也可以锁定特定代码而不是整个方法：
+
 ```java
 public void increment() {
     synchronized (this) {
@@ -65,7 +71,9 @@ public void increment() {
     }
 }
 ```
+
 - 如果需要更精细的控制，可以使用不同的对象作为锁：
+
 ```java
 private final Object lock = new Object();
 public void increment() {
@@ -76,20 +84,24 @@ public void increment() {
 ```
 
 #### 优缺点
+
 - **优点**：简单、内置，适用于基本用途。
 - **缺点**：缺乏灵活性（例如无法中断等待线程），会一直阻塞直到释放。
 
 ---
 
 ### 2. `Lock`接口（java.util.concurrent.locks）
+
 `Lock`接口（例如`ReentrantLock`）比`synchronized`提供更多控制。它是`java.util.concurrent`包的一部分，旨在解决`synchronized`的局限性。
 
 #### 关键特性
+
 - 显式的`lock()`和`unlock()`调用。
 - 支持尝试锁、超时和可中断锁定。
 - 公平性选项（线程按顺序等待）。
 
 #### 示例：使用`ReentrantLock`的计数器
+
 ```java
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -132,10 +144,13 @@ public class Main {
     }
 }
 ```
+
 - `try-finally`确保即使发生异常也能释放锁。
 
 #### 高级特性
+
 - **尝试锁**：非阻塞尝试获取锁：
+
 ```java
 if (lock.tryLock()) {
     try {
@@ -147,30 +162,38 @@ if (lock.tryLock()) {
     System.out.println("无法获取锁");
 }
 ```
+
 - **超时**：等待有限时间：
+
 ```java
 if (lock.tryLock(1, TimeUnit.SECONDS)) { ... }
 ```
+
 - **可中断**：允许中断等待线程：
+
 ```java
 lock.lockInterruptibly();
 ```
 
 #### 优缺点
+
 - **优点**：灵活，支持高级特性，显式控制。
 - **缺点**：更冗长，需要手动解锁（可能忘记）。
 
 ---
 
 ### 3. `Semaphore`
+
 `Semaphore`通过维护一组许可来控制对资源的访问。它非常适合限制并发性（例如最多5个线程可以访问资源）。
 
 #### 工作原理
+
 - 线程通过`acquire()`获取许可。
 - 通过`release()`释放许可。
 - 如果没有可用许可，线程等待。
 
 #### 示例：限制数据库连接
+
 ```java
 import java.util.concurrent.Semaphore;
 
@@ -204,20 +227,25 @@ public class Main {
     }
 }
 ```
+
 - 一次只有3个线程可以“连接”；其他线程等待直到许可被释放。
 
 #### 高级特性
+
 - **公平性**：`new Semaphore(3, true)`确保先进先出顺序。
 - **尝试获取**：`semaphore.tryAcquire()`非阻塞检查。
 
 #### 优缺点
+
 - **优点**：适用于资源池，灵活的许可系统。
 - **缺点**：比`synchronized`或`Lock`更复杂，不适用于简单的互斥。
 
 ---
 
 ### 与`ExecutorService`结合使用
+
 以下是如何在线程池中使用这些工具：
+
 ```java
 import java.util.concurrent.*;
 import java.util.concurrent.locks.Lock;
@@ -277,6 +305,7 @@ public class Main {
 ---
 
 ### 何时使用什么？
+
 - **`synchronized`**：快速、简单的互斥（例如保护单个变量）。
 - **`Lock`**：需要尝试锁、超时或可中断性（例如复杂工作流）。
 - **`Semaphore`**：限制对资源的并发访问（例如连接池、速率限制）。

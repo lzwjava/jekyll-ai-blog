@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：史蒂夫·乔布斯在这次演讲中说了些什么？(https://www.youtube.com/watch?v=Gk-9Fd2mEnI&t=310s)
+问题：史蒂夫·乔布斯在这次演讲中说了些什么？(<https://www.youtube.com/watch?v=Gk-9Fd2mEnI&t=310s>)
 
 答案：
 
@@ -18,7 +18,7 @@ type: note
 
 这次演讲是非正式的，由乔布斯的开场白组成，随后是与工商管理硕士学生进行的长时间问答环节。他讨论了NeXT的技术、业务策略、对苹果公司的反思、管理经验、制造创新以及计算机的未来。
 
-### 史蒂夫·乔布斯提出的关键主题和观点：
+### 史蒂夫·乔布斯提出的关键主题和观点
 
 - **NeXT的使命和技术**：乔布斯解释说，NeXT专注于高级软件（NeXTSTEP操作系统），用于快速构建定制的企业应用程序（比竞争对手快5-10倍）。这使得公司能够提高运营生产力并更快地将产品推向市场。他强调面向对象编程是一项重大突破，比图形用户界面更重要：“永远不会崩溃的代码是你没有编写的代码……所以少写代码。”
 
@@ -40,4 +40,4 @@ type: note
 
 参考资料：
 
-- https://www.youtube.com/watch?v=Gk-9Fd2mEnI
+- <https://www.youtube.com/watch?v=Gk-9Fd2mEnI>

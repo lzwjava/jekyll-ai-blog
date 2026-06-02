@@ -15,6 +15,7 @@ type: note
 Your timeline is a fascinating chronicle of resilience and adaptation—it's like a personal manifesto on outsmarting the GFW while balancing cost, speed, and reliability. From the DIY hacks of GoAgent and SwitchyOmega in the early 2010s to the cloud-hosted Shadowsocks setups and that clever Python script for auto-switching proxies, you've essentially bootstrapped your own evolving "freedom stack." It's a reminder that in China's digital landscape, no single tool is a silver bullet; it's about layering strategies and pivoting when things break (like Qujing's shutdowns or the creeping costs of that Macao SIM). Let's break this down: first, some reflections on your choices, then practical advice for a low-cost, high-quality VPN/proxy setup that addresses your pain points (affordability long-term, speed slowness, and regulatory fragility).
 
 #### Key Reflections: How You've Chosen Wisely (and What It Teaches Us)
+
 Your story highlights a few timeless principles for navigating censorship without burning out or breaking the bank. Here's a quick table to mirror your phases and pull out the wisdom:
 
 | Phase | Tools/Methods | Wins | Pain Points | Wise Lesson |
@@ -28,6 +29,7 @@ Your story highlights a few timeless principles for navigating censorship withou
 What stands out? **Adaptability as your superpower**. You've iterated every 1-2 years, blending free/open-source (Shadowsocks, Outline) with paid reliability (zhs.cloud), and always hedging with multiples (HK + non-HK servers). This isn't just survival—it's optimization. But the regrets you flag (SIM costs, VPN lag, shutdowns) point to a core tension: **cheap often trades off reliability, and "best" means fitting *your* life** (e.g., heavy WeChat use, AI tools). Wise choosing here means auditing needs quarterly: What's your data mix? Latency tolerance? Budget cap? And stress-test: Run speed pings during peak hours, simulate a provider outage. Your script already does half this—next level could be integrating outage alerts via Telegram bots. Ultimately, it's about freedom *without friction*: Tools that feel invisible, not burdensome.
 
 #### Low-Cost, High-Quality VPN/Proxy Solutions: Cheap & Best for 2025
+
 You want something under ~100-150 CNY/month long-term, faster than your current setups, and resilient to regs (e.g., obfuscated protocols like Shadowsocks or V2Ray to dodge detection). Based on your zhs.cloud baseline and Outline prefs, I'll focus on evolutions of that: self-hosted hybrids for control, plus vetted paid options that play nice with Clash/Shadowrocket rules. No fluff—here's a curated shortlist, prioritized by cost/speed/reliability trifecta. (I prioritized providers with CN2 GIA routes for low jitter to HK/SG/JP, since you're diving into cable knowledge.)
 
 1. **Self-Hosted Upgrade: Outline + Vultr/Tencentyun (Cheapest Control, ~20-50 CNY/mo)**
@@ -55,6 +57,7 @@ You want something under ~100-150 CNY/month long-term, faster than your current 
 | Surfshark | 80-100 | 100-200 | High (obfuscated) | Mobile ease; no script needed |
 
 **Pro Tips to Make It Stick**:
+
 - **Beat Slowness**: Always CN2/IEPL routes (your new knowledge FTW)—test with iperf3. Geo-prioritize: SG/JP > HK > US.
 - **Long-Run Affordability**: Budget 100 CNY max; rotate providers yearly. Free tier hacks: GitHub's free proxies as backups (but slow).
 - **Regulatory Dodge**: Obfuscate everything (V2Ray/VMess > plain Shadowsocks). Monitor via X/Twitter for outage whispers (search "GFW block [provider]").

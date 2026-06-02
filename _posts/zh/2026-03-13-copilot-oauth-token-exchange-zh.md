@@ -313,6 +313,7 @@ _Thinking:_
 **Tool: bash**
 
 **Input:**
+
 ```json
 {
   "description": "Lists all files in the repository to understand the project structure.",
@@ -321,6 +322,7 @@ _Thinking:_
 ```
 
 **Output:**
+
 ```
 dist
 eslint.config.js

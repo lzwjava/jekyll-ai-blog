@@ -42,9 +42,11 @@ Using `openclaw agents add <name>` creates a separate agent with its own workspa
 **Step 1: Install OpenClaw on the target machine**
 
 Install with:
+
 ```bash
 npm install -g openclaw@latest
 ```
+
 Then run `openclaw onboard --install-daemon` for the guided setup.
 
 **Step 2: Can you skip API keys during initial install?**

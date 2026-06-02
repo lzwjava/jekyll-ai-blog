@@ -15,7 +15,7 @@ Answer:
 
 Based on my research, **chat.qwen.ai does not currently have a documented keyboard shortcut specifically for creating a new chat** in its web interface.
 
-### What I Found:
+### What I Found
 
 1. **Qwen Code (CLI tool) has shortcuts**, but these are for a different product - a terminal-based coding assistant, not the web chat interface. For example, `Ctrl+L` clears the screen and `Ctrl+C` cancels requests in Qwen Code [[1]].
 
@@ -25,15 +25,16 @@ Based on my research, **chat.qwen.ai does not currently have a documented keyboa
 
 3. **No official shortcut documentation** exists for the web chat interface that lists a Command/Ctrl + J (or similar) combination for new chat creation.
 
-### Workarounds & Tips:
+### Workarounds & Tips
 
 - **Browser-level shortcuts**: You can try `Ctrl+T` (or `Cmd+T` on Mac) to open a new browser tab, then navigate to chat.qwen.ai for a fresh session.
 - **Custom scripts**: Some users create browser extensions or userscripts (like those on Greasy Fork) to add custom keyboard shortcuts to web apps [[31]].
 - **Check the UI**: Look for a "?" or "Help" icon in the chat.qwen.ai interface, as some web apps display available shortcuts there.
 
-### Recommendation:
+### Recommendation
 
 If you'd like this feature, consider:
+
 1. Checking the **Settings** or **Help** menu within chat.qwen.ai for hidden shortcuts
 2. Submitting feedback to the Qwen team via their official channels to request a "New Chat" keyboard shortcut
 

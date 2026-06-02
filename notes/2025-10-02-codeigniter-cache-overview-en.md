@@ -19,6 +19,7 @@ The system emphasizes performance, portability, and fault tolerance—e.g., it d
 ### Supported Cache Drivers and Adapters
 
 The class supports several drivers, defined in `$valid_drivers`:
+
 - **apc**: Uses PHP's APC (Alternative PHP Cache) for in-memory storage (fast, built-in).
 - **dummy**: A placeholder that does nothing (always returns TRUE or FALSE); used as a fallback for development/testing.
 - **file**: Stores data as serialized files in a directory (specified by `$_cache_path`), suitable for low-traffic sites.

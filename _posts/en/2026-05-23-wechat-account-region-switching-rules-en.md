@@ -26,6 +26,7 @@ When you **rebind your account to a Macau number (+853)**, it should migrate the
 - You may lose some Weixin-specific integrations (certain mini-programs, local payment features tied to mainland)
 
 **Caveats:**
+
 - The switch isn't always instant — Tencent's backend migration can take time
 - WeChat Pay (international) vs. Weixin Pay (mainland) are somewhat separate systems; rebinding doesn't automatically migrate payment capabilities
 - If your account was originally registered with a mainland number and has years of Weixin history, some features may behave inconsistently during/after the transition

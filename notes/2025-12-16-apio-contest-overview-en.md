@@ -22,7 +22,7 @@ Problems typically require efficient algorithms, data structures, and programmin
 
 References:
 
-- https://apio2025.uz/
-- https://codeforces.com/blog/entry/142848
-- https://hkoi.org/en/apio-2025/
-- https://ioinformatics.org/ (context on IOI-style contests)
+- <https://apio2025.uz/>
+- <https://codeforces.com/blog/entry/142848>
+- <https://hkoi.org/en/apio-2025/>
+- <https://ioinformatics.org/> (context on IOI-style contests)

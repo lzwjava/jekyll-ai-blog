@@ -20,7 +20,7 @@ Here is the standard way to set up a repository webhook using the GitHub web int
 ### Step-by-step guide to create a repository webhook
 
 1. Go to your repository on GitHub
-   Open https://github.com and navigate to the repository you want to add a webhook to.
+   Open <https://github.com> and navigate to the repository you want to add a webhook to.
 
 2. Open Settings
    Click **Settings** (you need to be owner or have admin permissions on the repo).

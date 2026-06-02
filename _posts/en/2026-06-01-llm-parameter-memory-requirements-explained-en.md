@@ -22,11 +22,13 @@ The key pieces:
 4. **LLaMA-1 over-training** — LLaMA-1 7B trained on 1T tokens (vs Chinchilla-optimal ~140B) showed over-training helps. This is from the LLaMA paper (Feb 2023).
 
 **What could be stale:**
+
 - I don't know if there are newer scaling laws post-Chinchilla that change the recommendation
 - MI300X specific performance characteristics (flops, memory bandwidth) — I estimated from general HBM3 knowledge
 - Newer training techniques (e.g., muP, Sophia optimizer) that might change LR/optimizer choices
 
 **What I'd search for if you want to go deeper:**
+
 - MI300X actual TFLOPS in bf16 to estimate training time
 - Whether Karpathy's nanoGPT has been updated with 3B+ configs
 - Latest scaling law papers (2024-2025)

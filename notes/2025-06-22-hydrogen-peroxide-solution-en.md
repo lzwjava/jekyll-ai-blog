@@ -13,6 +13,7 @@ To calculate the final concentration of hydrogen peroxide after diluting 300 mL 
 **C₁V₁ = C₂V₂**
 
 Where:
+
 - **C₁** = initial concentration (7.5% or 0.075)
 - **V₁** = initial volume (300 mL)
 - **C₂** = final concentration (what we want to find)
@@ -27,6 +28,7 @@ Substitute the values:
 So, the final concentration of hydrogen peroxide is **3.75%**.
 
 ### Stirring the Solution
+
 Yes, you should stir the solution to ensure the hydrogen peroxide and water mix thoroughly. Stirring helps achieve a uniform concentration faster. You can use a clean spoon, stir stick, or any non-reactive utensil. Gentle swirling or stirring for a few seconds is usually sufficient, as hydrogen peroxide mixes readily with water. Avoid vigorous shaking if the container is sealed, as hydrogen peroxide can release oxygen gas, potentially causing pressure buildup.
 
 ---
@@ -38,6 +40,7 @@ A 3% hydrogen peroxide solution in a 500ml bottle, left open and undisturbed, wi
 - **Conditions**: If the bottle is left in a cool, dark place, decomposition will be slower than if it’s exposed to sunlight or heat. Light, especially UV, and higher temperatures catalyze the breakdown.
 
 **Practical Impact**:
+
 - For uses like disinfection or wound cleaning, the solution may still be somewhat effective for a short period (e.g., a day or two) if uncontaminated, but potency will decrease steadily. After a week or more, it may be too weak for reliable use.
 - To preserve effectiveness, store hydrogen peroxide in a sealed, opaque container in a cool, dark place.
 

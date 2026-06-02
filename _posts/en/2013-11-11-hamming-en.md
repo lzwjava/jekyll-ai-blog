@@ -52,70 +52,70 @@ const int maxn=1000;
 
 bool hamming(int a,int b,int d)
 {
-	int c=a^b;
-	int cnt=0;
-	for(int i=0;i<=30;i++)
-	{
-		if((1<<i) & c)
-		{
-			cnt++;
-			if(cnt>=d) return true;
-		}
-	}
-	return false;
+ int c=a^b;
+ int cnt=0;
+ for(int i=0;i<=30;i++)
+ {
+  if((1<<i) & c)
+  {
+   cnt++;
+   if(cnt>=d) return true;
+  }
+ }
+ return false;
 }
 
 void printArr(int *A,int n)
 {
-	for(int i=0;i<n;i++)
-	{
-		printf("%d",A[i]);
-		if((i+1)%10==0 || (i==n-1)) printf("\n");
-		else printf(" ");
-	}
+ for(int i=0;i<n;i++)
+ {
+  printf("%d",A[i]);
+  if((i+1)%10==0 || (i==n-1)) printf("\n");
+  else printf(" ");
+ }
 }
 
 bool atLesat(int *A,int cur,int i,int d)
 {
-	for(int j=0;j<cur;j++)
-		if(!hamming(A[j],i,d))
-			return false;
-	return true;
+ for(int j=0;j<cur;j++)
+  if(!hamming(A[j],i,d))
+   return false;
+ return true;
 }
 
 void dfs(int *A,int cur,int n,int d)
 {
-	if(cur==n)
-	{
-		printArr(A,n);
-		return;
-	}
-	int st=(cur==0? 0: A[cur-1]+1);
-	for(int i=st;;i++)
-	{
-		if(atLesat(A,cur,i,d))
-		{
-			A[cur]=i;
-			dfs(A,cur+1,n,d);
-			return;
-		}
-	}
+ if(cur==n)
+ {
+  printArr(A,n);
+  return;
+ }
+ int st=(cur==0? 0: A[cur-1]+1);
+ for(int i=st;;i++)
+ {
+  if(atLesat(A,cur,i,d))
+  {
+   A[cur]=i;
+   dfs(A,cur+1,n,d);
+   return;
+  }
+ }
 }
 
 void deal()
 {
-	int n,b,d;
-	scanf("%d%d%d",&n,&b,&d);
-	int A[n];
-	dfs(A,0,n,d);
+ int n,b,d;
+ scanf("%d%d%d",&n,&b,&d);
+ int A[n];
+ dfs(A,0,n,d);
 }
 
 int main()
 {
   freopen("hamming.in","r",stdin);
   freopen("hamming.out","w",stdout);
-	deal();
-	//printf("%.2lf\n",(double)clock()/CLOCKS_PER_SEC);
+ deal();
+ //printf("%.2lf\n",(double)clock()/CLOCKS_PER_SEC);
   return 0;
 }
 

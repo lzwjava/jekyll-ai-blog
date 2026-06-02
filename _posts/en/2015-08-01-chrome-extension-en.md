@@ -18,6 +18,7 @@ By the end of this post, you'll understand the structure of a Chrome extension, 
 ## What Does "Tabs Killer" Do?
 
 "Tabs Killer" is a Chrome extension that:
+
 - Monitors the number of open tabs.
 - Allows users to set a maximum tab limit.
 - Automatically closes the oldest tabs when the limit is exceeded.
@@ -82,7 +83,8 @@ The `manifest.json` file is the heart of any Chrome extension. It defines metada
 }
 ```
 
-### Explanation:
+### Explanation
+
 - **`manifest_version`**: Must be `2` (Chrome deprecated version 1).
 - **`name`, `description`, `version`**: Basic metadata.
 - **`browser_action`**: Defines the extension’s toolbar icon and popup (`popup.html`).
@@ -155,7 +157,8 @@ The popup appears when the user clicks the extension icon. It uses Bootstrap for
 </html>
 ```
 
-### Explanation:
+### Explanation
+
 - **Libraries**: Uses jQuery, Underscore, Bootstrap, and RequireJS for functionality and styling.
 - **UI Elements**:
   - A text input (`#maxTabs`) for setting the maximum number of tabs.
@@ -252,7 +255,8 @@ require([], function () {
 });
 ```
 
-### Explanation:
+### Explanation
+
 - **Initialization**: Connects to the background page’s `GlobalObject` for settings and tab management.
 - **`init`**: Sets up event listeners, like debounced input for `#maxTabs`.
 - **`loadOptions`**: Loads saved settings (max tabs and whitelist) and populates the UI.
@@ -281,11 +285,13 @@ require(['tabmanager', 'settings'], function (tabmanager, settings) {
 });
 ```
 
-### Assumptions:
+### Assumptions
+
 - **`settings.js`**: Manages storage (e.g., `chrome.storage`) for settings like `maxTabs` and `whiteList`.
 - **`tabmanager.js`**: Uses the `tabs` API to monitor and close tabs based on the `maxTabs` limit and `whiteList`.
 
 Example `tabmanager.js` (hypothetical):
+
 ```javascript
 var tabmanager = {
   init: function () {

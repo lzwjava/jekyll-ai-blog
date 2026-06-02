@@ -90,6 +90,7 @@ Session end:
 ## Cost Reality Check
 
 For 130GB of model weights on a volume:
+
 ```
 130GB × $0.10/GB/month = $13/month
 vs

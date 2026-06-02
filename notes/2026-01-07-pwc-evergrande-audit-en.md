@@ -17,9 +17,11 @@ Answer:
 The China Evergrande Group, a major real estate developer, faced a massive financial crisis starting around 2021, culminating in its default on debts exceeding $300 billion. This led to widespread scrutiny of its financial reporting and auditing practices. Below is a detailed explanation addressing the two parts of the query.
 
 ### Which Company Audited Evergrande?
+
 PricewaterhouseCoopers (PwC), one of the "Big Four" global accounting firms, served as the external auditor for China Evergrande Group for several years. PwC audited the company's financial statements up until 2020. However, in January 2023, PwC resigned as Evergrande's auditor due to disagreements over matters related to the 2021 audit, including the company's inability to provide sufficient documentation and the ongoing investigations into its financial practices. Following PwC's resignation, Evergrande appointed Prism Hong Kong and Shanghai Ltd. as its new auditor.
 
 ### Why Couldn't the Audit Company Speak Out Early?
+
 Auditors like PwC are responsible for providing an independent opinion on a company's financial statements, including assessing whether they fairly represent the company's financial position. This often includes evaluating risks such as going concern issues (i.e., the company's ability to continue operating without bankruptcy). In Evergrande's case, PwC issued clean (unqualified) audit opinions for years, even as the company's debt ballooned and warning signs emerged. Several factors contributed to why PwC did not "speak out" or issue early warnings about the impending crisis:
 
 1. **Reliance on Management Representations and Potential Fraud Concealment**: Auditors depend heavily on information provided by the company's management. Chinese regulators later accused Evergrande of inflating its revenue by approximately $78-79 billion between 2019 and 2020 through fraudulent accounting practices, such as prematurely recognizing sales and fabricating transactions. If these misstatements were deliberately hidden, it could have been challenging for auditors to detect them during standard procedures. Investigations revealed that PwC allegedly "turned a blind eye" to major misstatements and even tolerated or facilitated the fraud, leading to accusations of audit failures.

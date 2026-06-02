@@ -18,8 +18,8 @@ Here's a breakdown of what's happening:
 
 When an AI model generates a response, it typically involves two major steps:
 
-1.  **Text Generation:** The core model generates the entire text of the answer. This is the part you see appearing on your screen.
-2.  **Verification and Sourcing (The Delay):** After the text is generated, the system often runs a secondary process to:
+1. **Text Generation:** The core model generates the entire text of the answer. This is the part you see appearing on your screen.
+2. **Verification and Sourcing (The Delay):** After the text is generated, the system often runs a secondary process to:
     * **Verify Facts:** Check the generated information against its knowledge base or real-time search results (if a search tool was used).
     * **Fetch References:** If the model used external sources or its internal knowledge base relies on specific documents or web pages, the system attempts to **validate and format the source links** to be displayed as footnotes or references.
     * **Tool Finalization:** If a tool (like Google Search) was used, the system is compiling the final output from that tool before completing the full response.

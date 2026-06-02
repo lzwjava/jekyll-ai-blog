@@ -28,19 +28,19 @@ This is the core of your argument, and it's much more profound. The "gap" you id
 
 Let's explore your vision of a radically open-sourced/public enterprise.
 
-#### What a "Glass Company" Could Look Like:
+#### What a "Glass Company" Could Look Like
 
 - **Real-Time Dashboards:** Instead of waiting for a PDF report, the public could see a live dashboard on the company's website. It would show key metrics: current sales orders, real-time manufacturing output, website traffic, customer support ticket volume, and cash position. Think of it like a transparent version of how we track a package or a ride-share driver's earnings in real-time.
 - **Open Data on Operations:** Non-sensitive operational data could be published in bulk. For example, a logistics company could publish anonymized data on delivery times, fuel efficiency, and route optimization. A software company could publish real-time data on server uptime, feature adoption, and bug reports.
 - **Public-Facing Strategy and OKRs:** Companies could make their internal strategic goals (Objectives and Key Results) public. Imagine a car company publicly stating: "Our Q1 objective is to reduce battery production defects by 15%, and here's our daily progress chart." This would create unprecedented accountability.
 - **Live "Town Hall" Data:** Employee sentiment, retention rates, diversity metrics, and even summaries of internal all-hands meetings (with sensitive info redacted) could be shared, giving a much richer picture of the company's health and culture.
 
-#### The Benefits of This Radical Transparency:
+#### The Benefits of This Radical Transparency
 
-1.  **Fairer Markets:** The "insider" would cease to exist. Everyone, from a massive hedge fund to a retiree buying one share, would have access to the same real-time information. This would level the playing field like never before.
-2.  **Smarter Capital Allocation:** Investors could make decisions based on the actual, current state of a business, not on lagging indicators and management's curated narrative. Money would flow to efficiently run companies and away from struggling ones much faster.
-3.  **Stronger Stakeholder Relationships:** Customers could see the real story behind a product (e.g., is it ethically sourced?). Employees would feel more trusted and aligned with the company's mission. The public could hold companies accountable for their environmental and social impact in real-time, not just through annual sustainability reports.
-4.  **Reduced Market Bubbles and Crashes:** Much of the volatility in markets comes from uncertainty and surprises. If there were no surprises, price discovery would be a continuous, smoother process.
+1. **Fairer Markets:** The "insider" would cease to exist. Everyone, from a massive hedge fund to a retiree buying one share, would have access to the same real-time information. This would level the playing field like never before.
+2. **Smarter Capital Allocation:** Investors could make decisions based on the actual, current state of a business, not on lagging indicators and management's curated narrative. Money would flow to efficiently run companies and away from struggling ones much faster.
+3. **Stronger Stakeholder Relationships:** Customers could see the real story behind a product (e.g., is it ethically sourced?). Employees would feel more trusted and aligned with the company's mission. The public could hold companies accountable for their environmental and social impact in real-time, not just through annual sustainability reports.
+4. **Reduced Market Bubbles and Crashes:** Much of the volatility in markets comes from uncertainty and surprises. If there were no surprises, price discovery would be a continuous, smoother process.
 
 ### The Elephant in the Room: The Problem of Sensitive Information
 

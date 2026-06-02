@@ -15,6 +15,7 @@ type: note
 This course is part of the National Higher Education Self-Study Examination (高等教育自学考试) in Guangdong Province, China, specifically within the Computer Application Technology (计算机应用技术) specialist-level program (专科, code 510201). It is a core subject focusing on practical skills in network infrastructure, emphasizing configuration and management of routers and switches for building and maintaining small- to medium-scale networks. The course aligns with national standards for self-study exams, promoting self-directed learning combined with hands-on practice.
 
 #### Course Objectives
+
 - Understand the fundamental principles of network switching and routing technologies.
 - Master basic configuration, troubleshooting, and optimization of routers and switches.
 - Apply knowledge to design, implement, and maintain simple LAN/WAN environments.
@@ -22,10 +23,12 @@ This course is part of the National Higher Education Self-Study Examination (高
 - Develop skills in network security basics, IP addressing, and protocol implementation.
 
 #### Prerequisites
+
 - Basic computer knowledge (e.g., operating systems, networking fundamentals).
 - Recommended prior exposure to courses like "Computer Network Basics" or equivalent.
 
 #### Course Content
+
 The curriculum is structured around theoretical foundations and practical applications, typically divided into modules with a mix of lectures, simulations, and lab exercises. Total study hours: Approximately 60-80 (self-paced, with exam preparation). Key topics include:
 
 1. **Network Fundamentals and Equipment Overview** (10-15%)
@@ -63,12 +66,14 @@ The curriculum is structured around theoretical foundations and practical applic
    - Emerging topics: Brief intro to SDN, cloud integration, and IPv6 migration.
 
 #### Teaching and Learning Methods
+
 - **Self-Study Focus**: Reading designated textbooks, online resources, and video tutorials.
 - **Practice-Oriented**: Emphasis on command-line interface (CLI) simulations; no physical hardware required for exam prep.
 - **Assessment Preparation**: Multiple-choice, short-answer, and configuration-based questions in the exam.
 - **Recommended Textbook**: "Routing and Switching Technology" (路由与交换技术), published by Higher Education Press (or equivalent, as specified in Guangdong exam guidelines). Supplementary: Huawei/H3C certification materials.
 
 #### Examination Format
+
 - **Type**: Closed-book, 150-minute written exam (70% theory, 30% practical scenarios).
 - **Scoring**: 100 points total; passing score: 60/100.
 - **Frequency**: Offered twice yearly (April/October) via Guangdong's self-exam system.
@@ -77,6 +82,7 @@ The curriculum is structured around theoretical foundations and practical applic
 This outline is derived from Guangdong's official self-exam plan for code 510201 and standard curricula for similar courses. For the latest syllabus or exam updates, check the Guangdong Education Exam Authority website.
 
 #### References
+
 - [Guangdong Self-Exam Computer Application Technology Program](https://gd.exam100.net/html/2018/zkzy_0809/4603.html)
 - [Routing and Switching Technology MOOC (Example)](https://www.icourse163.org/course/detail.htm?cid=1001754308)
 - [H3CNE-RS+ Exam Outline (Related Certification)](http://www.runtimewh.com/xwzx/25385.html)

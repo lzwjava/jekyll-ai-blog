@@ -13,6 +13,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### 1. Install the Liberty Tools Extension
+
 - **Find and Install:**
   Open VS Code’s Extensions view, search for **"IBM WebSphere Liberty Tools"**, and install it.
 - **Extension Benefits:**
@@ -21,6 +22,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### 2. Prepare Your WebSphere Liberty Server
+
 - **Install or Point to a Liberty Runtime:**
   If you don’t already have a Liberty server installed, download and install one from IBM. If it’s already installed, note its installation directory.
 - **Ensure Compatibility:**
@@ -29,6 +31,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### 3. Configure Your Liberty Server in VS Code
+
 - **Creating a New Server Instance:**
   Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and run the command:
   `Liberty: Create Server`
@@ -41,6 +44,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### 4. Adding Your Application
+
 - **Deploying the App:**
   You can add your application to the server by either:
   - Editing the `server.xml` to include your application’s context and deployment details, or
@@ -51,6 +55,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### 5. Starting, Stopping, and Debugging the Server
+
 - **Starting the Server:**
   In the Liberty view (often available as a dedicated panel or tree view in VS Code), right-click your configured server and select **"Start Server"**.
   The output pane will display startup logs and any configuration messages.
@@ -65,6 +70,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### 6. Additional Features and Tips
+
 - **Live Log Monitoring:**
   The extension provides a way to view Liberty server logs in real time, making it easier to diagnose issues.
 - **Editing Server Configuration:**
@@ -77,6 +83,7 @@ Below is an overview of how you can use the Liberty Tools extension in Visual St
 ---
 
 ### Final Notes
+
 Using the Liberty Tools extension streamlines the process of developing, deploying, and debugging your WebSphere Liberty applications directly within VS Code. This integration helps reduce context switching and speeds up your development cycle.
 
 Feel free to refer to the official IBM documentation on the Liberty Tools extension for any advanced configurations or troubleshooting steps.

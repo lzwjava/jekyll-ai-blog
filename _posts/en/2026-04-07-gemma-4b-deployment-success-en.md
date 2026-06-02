@@ -12,6 +12,7 @@ type: note
 **✅ Gemma 4 26B is stable and running!**
 
 **Results:**
+
 - ✅ Server stays up after multiple inferences
 - ✅ Multi-turn conversation works
 - ✅ Multi-turn caching works (prompt 44 tokens reused from cache)
@@ -21,6 +22,7 @@ type: note
 - ✅ **VRAM:** ~9.5GB / 12GB used (leaving headroom)
 
 **Working config:**
+
 ```
 -m ./models/gemma-4-26B-A4B-it-UD-IQ3_S.gguf
 -ngl 25

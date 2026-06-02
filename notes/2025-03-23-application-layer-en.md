@@ -25,6 +25,7 @@ Let’s break it down into sections based on your topics.
 Protocols are standardized rules that define how data is exchanged between devices. Here are the key protocols you need to know:
 
 #### a. HTTP (HyperText Transfer Protocol)
+
 - **Purpose**: Used for transferring web pages over the internet.
 - **How it works**: A client (e.g., your browser) sends an HTTP request to a server (e.g., a website), and the server responds with the requested data (e.g., HTML, images).
 - **Key Features**:
@@ -34,6 +35,7 @@ Protocols are standardized rules that define how data is exchanged between devic
 - **Port**: Typically uses port 80 (or 443 for HTTPS, the secure version).
 
 #### b. FTP (File Transfer Protocol)
+
 - **Purpose**: Transfers files between a client and a server.
 - **How it works**: A user logs into an FTP server with credentials, then uploads or downloads files.
 - **Key Features**:
@@ -43,6 +45,7 @@ Protocols are standardized rules that define how data is exchanged between devic
 - **Port**: Uses ports 20 (data) and 21 (control).
 
 #### c. SMTP (Simple Mail Transfer Protocol)
+
 - **Purpose**: Sends emails from a client to a server or between servers.
 - **How it works**: SMTP handles the "sending" part of email. It works with protocols like POP3 or IMAP (for receiving emails).
 - **Key Features**:
@@ -52,7 +55,8 @@ Protocols are standardized rules that define how data is exchanged between devic
 - **Port**: Uses port 25 (or 587 for secure transmission).
 
 #### d. DNS (Domain Name System)
-- **Purpose**: Translates human-readable domain names (e.g., www.google.com) into IP addresses (e.g., 142.250.190.14).
+
+- **Purpose**: Translates human-readable domain names (e.g., <www.google.com>) into IP addresses (e.g., 142.250.190.14).
 - **How it works**: Acts like the internet’s phonebook. A client queries a DNS server, which responds with the IP address.
 - **Key Features**:
   - Hierarchical: Uses root servers, TLD (top-level domain) servers, and authoritative servers.
@@ -61,6 +65,7 @@ Protocols are standardized rules that define how data is exchanged between devic
 - **Port**: Uses port 53.
 
 #### e. SNMP (Simple Network Management Protocol)
+
 - **Purpose**: Manages devices on a network (e.g., routers, switches, printers).
 - **How it works**: A manager (software) sends requests to agents (devices) to monitor or configure them.
 - **Key Features**:
@@ -76,6 +81,7 @@ Protocols are standardized rules that define how data is exchanged between devic
 These are two fundamental architectures for how devices communicate at the application layer.
 
 #### a. Client-Server Model
+
 - **Definition**: A client (e.g., your laptop) requests services from a centralized server (e.g., a web server).
 - **Key Characteristics**:
   - Asymmetric: Clients initiate requests; servers respond.
@@ -89,6 +95,7 @@ These are two fundamental architectures for how devices communicate at the appli
 - **Example**: Browsing a website (client = browser, server = website host).
 
 #### b. Peer-to-Peer (P2P) Model
+
 - **Definition**: Devices (peers) act as both clients and servers, sharing resources directly with each other.
 - **Key Characteristics**:
   - Symmetric: No central server; peers communicate equally.
@@ -108,6 +115,7 @@ These are two fundamental architectures for how devices communicate at the appli
 The application layer supports everyday services we use on the internet. Here’s how they tie to protocols:
 
 #### a. Email
+
 - **Protocols**: SMTP (send), POP3/IMAP (receive).
 - **Process**:
   1. You write an email and hit send (SMTP sends it to your mail server).
@@ -116,6 +124,7 @@ The application layer supports everyday services we use on the internet. Here’
 - **Example**: Sending a study note to a classmate via Outlook.
 
 #### b. Web Browsing
+
 - **Protocol**: HTTP/HTTPS.
 - **Process**:
   1. You enter a URL (DNS resolves it to an IP).
@@ -124,6 +133,7 @@ The application layer supports everyday services we use on the internet. Here’
 - **Example**: Reading an online article on network security.
 
 #### c. File Transfer
+
 - **Protocol**: FTP.
 - **Process**:
   1. Connect to an FTP server with a client.
@@ -138,6 +148,7 @@ The application layer supports everyday services we use on the internet. Here’
 Security at the application layer protects data and ensures trust. Two key concepts are:
 
 #### a. Encryption
+
 - **Definition**: Scrambles data so only authorized parties can read it.
 - **How it works**:
   - Uses algorithms (e.g., AES, RSA) and keys.
@@ -148,6 +159,7 @@ Security at the application layer protects data and ensures trust. Two key conce
 - **Why it matters**: Prevents eavesdropping (e.g., someone intercepting your password).
 
 #### b. Authentication
+
 - **Definition**: Verifies the identity of a user or device.
 - **How it works**:
   - Username/password, certificates, or multi-factor authentication (MFA).

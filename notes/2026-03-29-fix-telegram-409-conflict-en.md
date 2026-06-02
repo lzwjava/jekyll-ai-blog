@@ -15,6 +15,7 @@ Here's the review — found **two distinct issues**:
 
 **Issue 1: `getUpdates` 409 Conflict (🔴 Critical)**
 The Telegram bot token is being used by **two things simultaneously**:
+
 - OpenClaw's Telegram plugin (long polling)
 - Your `telegram_bot.py` in blog-source (which also calls `getUpdates`)
 

@@ -18,6 +18,7 @@ The `crw-rw----` in the output of `ls -alrt /dev/ttyUSB0` represents the **file 
   - **---** (positions 8-10): Permissions for **others** (users not in the owner or group). Others have **no permissions** (no read, write, or execute).
 
 ### Summary
+
 - `/dev/ttyUSB0` is a character device file.
 - The owner (`root`) and the group (`dialout`) can read and write to the device.
 - Other users have no access.

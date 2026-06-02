@@ -17,6 +17,7 @@ type: note
 距离矢量和路径矢量是计算机网络中用于确定转发数据包的最佳路径的两类动态路由协议。
 
 ### 距离矢量路由协议
+
 - 路由器交换已知目的地以及到每个目的地的**距离度量**（例如跳数或综合度量）的**矢量**（列表）。
 - 每台路由器定期将其整个路由表分享给直接连接的邻居。
 - 路由器不知道完整的路径，只知道距离和下一跳邻居。
@@ -26,6 +27,7 @@ type: note
 - 通常用于较小的域内（内部网关）环境。
 
 ### 路径矢量路由协议
+
 - 距离矢量的一种增强或高级变体，专门为大规模、域间路由设计。
 - 路由器不仅交换度量（通常是 AS 路径长度），还交换**完整路径**（遍历的自治系统或节点的序列）。
 - 此路径信息在路由通告时附加，可以轻松检测和防止环路（如果路由器在路径中看到自己的标识符，它会丢弃该路由）。
@@ -47,6 +49,7 @@ type: note
 路径矢量之所以被认为是“高级”的，是因为它通过包含明确的路径信息，解决了传统距离矢量协议的主要限制——特别是路由环路和缺乏策略控制，使其适用于全球互联网。
 
 参考文献：
+
 - [Path-vector routing protocol - Wikipedia](https://en.wikipedia.org/wiki/Path-vector_routing_protocol)
 - [What is the difference between distance vector protocol and path vector protocol - Network Engineering Stack Exchange](https://networkengineering.stackexchange.com/questions/5595/what-is-the-difference-between-distance-vector-protocol-and-path-vector-protocol)
 - [Path Vector vs Distance Vector - Lab1918](https://lab1918.com/posts/dv-vs-ps/)

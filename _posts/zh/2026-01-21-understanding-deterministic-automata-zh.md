@@ -59,6 +59,7 @@ Alphabet: Σ = {0, 1}
 Language: 所有以 **1 结尾** 的二进制字符串
 
 States:
+
 - q₀ : 尚未看到结尾的 1
 - q₁ : 最后一个 symbol 是 1 (accepting state)
 

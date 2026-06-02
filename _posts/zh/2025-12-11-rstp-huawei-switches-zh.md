@@ -26,6 +26,7 @@ type: note
 | `[SW1-GigabitEthernet0/0/1] stp bpdu protection` | 接口视图 | 在此边缘端口上启用 **BPDU protection**。  <br>→ 如果边缘端口意外收到BPDU（如果只连接了终端设备，这种情况不应该发生），交换机将自动将端口置于 **error-down/shutdown** 状态，以保护生成树拓扑免受由错误配置或流氓交换机引起的环路。 |
 
 此配置的总体总结：
+
 - 全局开启RSTP。
 - 使SW1极有可能成为 **根网桥**（优先级4096）。
 - 在端口G0/0/1上（连接到PC或类似终端设备）：

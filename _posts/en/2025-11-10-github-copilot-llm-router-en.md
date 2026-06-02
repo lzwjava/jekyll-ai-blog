@@ -18,12 +18,14 @@ To configure your LLM router to exclusively use GitHub Copilot's LLM API in an e
 - **Test and Verify**: After updates, validate that all API calls are directed only to the Copilot endpoint to align with policies allowing solely Copilot API interactions.
 
 ### Step-by-Step Configuration
+
 1. **Generate a GitHub PAT**: Log into your GitHub enterprise account and create a personal access token with scopes like `copilot` for chat access or `models:read` for broader model inference. This ensures secure authentication without exposing broader permissions.
-2. **Modify the Providers Array**: Append a new object to the "Providers" list in your config JSON. Set "name" to something descriptive like "github_copilot", "api_base_url" to "https://api.githubcopilot.com/chat/completions" (for Copilot agents) or "https://models.github.ai/inference/chat/completions" (for general GitHub Models inference), "api_key" to your PAT, and list compatible models.
+2. **Modify the Providers Array**: Append a new object to the "Providers" list in your config JSON. Set "name" to something descriptive like "github_copilot", "api_base_url" to "<https://api.githubcopilot.com/chat/completions>" (for Copilot agents) or "<https://models.github.ai/inference/chat/completions>" (for general GitHub Models inference), "api_key" to your PAT, and list compatible models.
 3. **Adjust the Router Section**: Replace all values in the "Router" object with your new provider name (e.g., "github_copilot") to enforce exclusive usage. This prevents fallback to other providers like OpenRouter.
 4. **Enterprise Considerations**: In restricted environments, confirm your network policies allow outbound calls to GitHub's domains. If needed, update "PROXY_URL" to route through an approved enterprise proxy. Enable logging ("LOG": true) to audit calls and ensure compliance.
 
 ### Example Updated Config
+
 Here's how your config might look after modifications (replace placeholders with your actual PAT and preferred endpoint):
 
 ```json
@@ -96,7 +98,7 @@ In enterprise environments, integrating LLM APIs like GitHub Copilot requires ca
 
 GitHub Copilot provides LLM access primarily through two avenues: the dedicated Copilot LLM endpoint for building agents and extensions, and the broader GitHub Models API for general inference. The Copilot-specific endpoint at `https://api.githubcopilot.com/chat/completions` is tailored for enterprise-grade agent development, supporting POST requests in the OpenAI chat completions format. Authentication uses a Bearer token derived from a GitHub personal access token (PAT), typically passed via an `Authorization` header. For instance, a sample request might include headers like `Authorization: Bearer <your-pat>` and `Content-Type: application/json`, with a body containing `messages` (an array of user/system prompts) and optional parameters like `stream: true` for real-time responses. Models aren't explicitly listed in the docs but align with Copilot's underlying providers, such as GPT-4 variants and Claude models, with strict rate limits applied to third-party agents to prevent abuse.
 
-Alternatively, the GitHub Models API at `https://models.github.ai/inference/chat/completions` offers a more versatile inference service, allowing access to a catalog of models using just GitHub credentials. This is ideal for prototyping and integration into workflows like GitHub Actions. Authentication requires a PAT with the `models:read` scope, created via your GitHub settings (https://github.com/settings/tokens). In enterprise setups, this can be extended to organization-level tokens or used in CI/CD pipelines by adding `permissions: models: read` to workflow YAML files. Available models include industry standards like `openai/gpt-4o`, `openai/gpt-4o-mini`, `anthropic/claude-3-5-sonnet-20240620`, Meta's Llama 3.1 series, and Mistral variants, all invocable through the same OpenAI-compatible API format. This compatibility makes it straightforward to slot into your router config without major changes to downstream code.
+Alternatively, the GitHub Models API at `https://models.github.ai/inference/chat/completions` offers a more versatile inference service, allowing access to a catalog of models using just GitHub credentials. This is ideal for prototyping and integration into workflows like GitHub Actions. Authentication requires a PAT with the `models:read` scope, created via your GitHub settings (<https://github.com/settings/tokens>). In enterprise setups, this can be extended to organization-level tokens or used in CI/CD pipelines by adding `permissions: models: read` to workflow YAML files. Available models include industry standards like `openai/gpt-4o`, `openai/gpt-4o-mini`, `anthropic/claude-3-5-sonnet-20240620`, Meta's Llama 3.1 series, and Mistral variants, all invocable through the same OpenAI-compatible API format. This compatibility makes it straightforward to slot into your router config without major changes to downstream code.
 
 For enterprise-specific configurations, GitHub Copilot Enterprise enhances standard Copilot with organization-wide controls, such as fine-tuned models based on your codebase, but API access follows the same patterns. Network management is crucial: You can configure subscription-based routing to ensure Copilot traffic uses approved paths, requiring users to update their IDE extensions (e.g., VS Code) to minimum versions supporting this. If your environment mandates proxies, update the config's "PROXY_URL" to point to your enterprise proxy server, and consider custom certificates for SSL inspection. Tools like LiteLLM can act as an intermediary proxy for further control—install via `pip install litellm[proxy]`, define models in a YAML config, start the server on a local port, and redirect Copilot requests through it for logging, rate limiting, and fallback handling. However, in your case, since the goal is exclusivity, avoid fallbacks in the router to comply with "only OK to call Copilot" policies.
 
@@ -106,7 +108,7 @@ Here's a comparison table of the two main GitHub LLM API options to help decide 
 
 | Aspect                  | GitHub Copilot LLM API (for Agents)                  | GitHub Models API                                   |
 |-------------------------|-----------------------------------------------------|-----------------------------------------------------|
-| Endpoint                | https://api.githubcopilot.com/chat/completions      | https://models.github.ai/inference/chat/completions |
+| Endpoint                | <https://api.githubcopilot.com/chat/completions>      | <https://models.github.ai/inference/chat/completions> |
 | Primary Use             | Building Copilot extensions and agents              | General prototyping, inference, and workflows       |
 | Authentication          | Bearer PAT (via Authorization header)               | PAT with models:read scope                          |
 | Models Supported        | Implicit (e.g., GPT-4, Claude variants)             | Explicit catalog: gpt-4o, claude-3-5-sonnet, Llama 3.1, etc. |
@@ -121,6 +123,7 @@ Potential challenges include token expiration (PATs typically last 30-90 days), 
 In summary, this configuration transforms your router into a Copilot-exclusive system, aligning with enterprise policies while maintaining functionality for code-related or general LLM tasks.
 
 **Key Citations:**
+
 - [Using GitHub Copilot's LLM for your agent](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-extensions/build-a-copilot-agent/use-copilots-llm)
 - [Quickstart for GitHub Models](https://docs.github.com/en/github-models/quickstart)
 - [GitHub Copilot | liteLLM](https://docs.litellm.ai/docs/tutorials/github_copilot_integration)

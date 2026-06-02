@@ -42,6 +42,7 @@ GPL 的核心理念是：
 | **Popular examples**    | Linux kernel, Git, WordPress, MySQL | React, Vue.js, Ruby on Rails, 大量小型 libraries |
 
 **简单来说**：
+
 - 如果你希望你的代码被尽可能广泛地使用——即使是在 closed-source commercial 产品中，请选择 **MIT**。
 - 如果你想强制衍生作品保持 open source，并将改进回馈给社区，请选择 **GPL**。
 

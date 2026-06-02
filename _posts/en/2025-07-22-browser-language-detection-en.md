@@ -21,6 +21,7 @@ Your goal seems to be auto-selecting the language in the `<select id="sort-selec
 Prioritize checking `localStorage` (as your code already does), then fall back to detection if no saved preference exists.
 
 #### Option 1: Using Browser Language (Simpler and Preferred)
+
 Add this code snippet. It checks the primary language code from `navigator.language` (e.g., 'en-US' -> 'en', 'zh-CN' -> 'zh') and maps it to your dropdown values. Defaults to English if no match.
 
 ```javascript
@@ -68,6 +69,7 @@ updatePosts();
 This runs synchronously on load, so no delays. Test it by changing your browser language settings (e.g., in Chrome: Settings > Languages).
 
 #### Option 2: Using IP-Based Country Detection
+
 This requires an async fetch to a free API. I recommend `country.is` as it's simple and returns just the country code (e.g., {country: 'US'}). It's free, no API key needed, and open-source.
 
 Add this code. Note: It's async, so we use `await` and wrap in an async function to avoid blocking the UI. If the fetch fails (e.g., ad-blockers), it defaults to English.
@@ -124,6 +126,7 @@ if (savedSort) {
   - Rate limits: These are generous for personal blogs, but monitor if traffic grows.
 
 #### Additional Considerations
+
 - **Fallback and User Override**: Users can always change the dropdown, and it saves to localStorage. You could add a "Detect Language" button if auto-detection isn't always desired.
 - **Testing**: Use VPNs to simulate different countries or browser extensions to spoof languages.
 - **Privacy**: Browser language is low-risk. For IP methods, consider adding a consent prompt if your audience is sensitive.

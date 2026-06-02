@@ -40,6 +40,7 @@ Since YouTube Music uses the same search index as YouTube, here are the best sea
 | Compare both versions | `それが大事 红日 original` |
 
 **Step-by-step on YouTube Music:**
+
 1. Open YouTube Music app or go to [music.youtube.com](https://music.youtube.com)
 2. Tap the search icon
 3. Type: `それが大事` (copy-paste this Japanese text for best results)

@@ -30,6 +30,7 @@ Nextcloud 的商业模式结合了 freemium 和订阅服务的优点。虽然个
 只有 Nextcloud Enterprise 才能为组织提供在关键环境中自信部署软件所需的可靠性、安全性和合规性。
 
 企业订阅通常包括：
+
 - **优先安全补丁** 和 hardened builds
 - **专用技术支持**（SLA-backed）
 - **合规工具**（GDPR、HIPAA 等）
@@ -41,6 +42,7 @@ Nextcloud 的商业模式结合了 freemium 和订阅服务的优点。虽然个
 ## 3. 专业服务与咨询
 
 Nextcloud GmbH（Nextcloud 背后的公司）还通过以下方式赚取收入：
+
 - 为大型组织提供 **实施和部署咨询**
 - 为企业客户提供 **自定义开发**
 - **培训和入职服务**

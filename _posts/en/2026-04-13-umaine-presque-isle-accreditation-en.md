@@ -28,11 +28,13 @@ UMPI currently offers 2 master's degree programs, 22 baccalaureate (bachelor's) 
 **Yes — it is a real, accredited American degree.** Here are the key facts:
 
 #### Accreditation
+
 UMPI is accredited by the **New England Commission of Higher Education (NECHE)**, as part of the Commission's accreditation of the University of Maine System, which maintains high standards for academic and institutional quality. NECHE's recognition places UMPI among a select group of universities and colleges that meet the comprehensive criteria for educational excellence.
 
 NECHE is one of the six regional accrediting bodies in the United States — **regional accreditation is the gold standard** in U.S. higher education, meaning UMPI degrees are recognized across the country and internationally.
 
 #### The "YourPace" Online Program (what Chinese students are likely referring to)
+
 UMPI's **YourPace program** gives international students the opportunity to earn **fully online, competency-based degrees** that are affordable, flexible, and accessible worldwide. As a regionally accredited program through NECHE, UMPI YourPace provides globally recognized U.S. degrees in fields including business, education, healthcare, and more.
 
 Importantly, **a degree through the YourPace program is the same as any other degree UMPI offers** — the diploma is identical. The difference is in *how* you learn: instead of traditional 15-week classes, you master individual competencies to advance through coursework.
@@ -40,6 +42,7 @@ Importantly, **a degree through the YourPace program is the same as any other de
 There are **no graduation fees** at UMPI, and the diploma is the same for all students who attend UMPI, including Latin Honors.
 
 #### Affordability
+
 The YourPace program costs a **flat rate of $1,800 per 8-week session** for undergraduate offerings — one of the lowest prices among four-year institutions in Maine.
 
 UMPI accepts a large number of transfer credits (ACE credits), and students can transfer in 90+ credits. The residency requirement is at least 30 credits completed at UMPI. Students have reported being able to complete these 30 credits in approximately 16 weeks (2 sessions).

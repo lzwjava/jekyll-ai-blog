@@ -30,8 +30,8 @@ GPT-5.2 是 OpenAI 于 2025 年 12 月 11 日至 12 日发布的 GPT-5 系列增
 
 参考文献：
 
-- https://openai.com/index/introducing-gpt-5-2/
-- https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/
-- https://www.theverge.com/ai-artificial-intelligence/842529/openai-gpt-5-2-new-model-chatgpt
-- https://venturebeat.com/ai/gpt-5-2-first-impressions-a-powerful-update-especially-for-business-tasks
-- https://mashable.com/article/openai-gpt-5-2-vs-google-gemini-3-how-they-compare
+- <https://openai.com/index/introducing-gpt-5-2/>
+- <https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/>
+- <https://www.theverge.com/ai-artificial-intelligence/842529/openai-gpt-5-2-new-model-chatgpt>
+- <https://venturebeat.com/ai/gpt-5-2-first-impressions-a-powerful-update-especially-for-business-tasks>
+- <https://mashable.com/article/openai-gpt-5-2-vs-google-gemini-3-how-they-compare>

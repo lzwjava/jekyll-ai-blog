@@ -29,6 +29,7 @@ type: note
 1997 年，在苹果收购 NeXT 并且当时的 CEO 吉尔·阿梅里奥 (Gil Amelio) 被罢免后，他以临时 CEO（“iCEO”）的身份凯旋回归。
 
 参考资料：
+
 - 沃尔特·艾萨克森 (Walter Isaacson) 著，《史蒂夫·乔布斯》(2011 年传记，第 12–15 章)
-- “史蒂夫·乔布斯如何被苹果公司开除的真实故事” – Business Insider (2015 年董事会会议纪要和访谈总结) https://www.businessinsider.com/how-steve-jobs-was-fired-from-apple-2015-9
+- “史蒂夫·乔布斯如何被苹果公司开除的真实故事” – Business Insider (2015 年董事会会议纪要和访谈总结) <https://www.businessinsider.com/how-steve-jobs-was-fired-from-apple-2015-9>
 - 迈克尔·马隆 (Michael Malone) 著，《硅谷之火》(Fire in the Valley) 和《无限循环》(Infinite Loop) 中的苹果董事会会议记录和访谈

@@ -14,6 +14,7 @@ Here's a comprehensive summary of the fix:
 ## Problem
 
 The `/note` command was failing with:
+
 ```
 'ww' package not installed. Install with: pip install -e ~/projects/ww
 ```
@@ -30,6 +31,7 @@ Hermes Agent runs in its own isolated Python virtual environment at `~/.hermes/h
 ### Part 1: Plugin Code Change (`~/.hermes/plugins/note/__init__.py`)
 
 **Before:**
+
 ```python
 try:
     from ww.note.create_note_from_clipboard import create_note_from_content
@@ -38,6 +40,7 @@ except ImportError:
 ```
 
 **After:**
+
 ```python
 try:
     from ww.note.create_note_from_clipboard import create_note_from_content
@@ -54,6 +57,7 @@ except ImportError:
 ```
 
 **Why this works:**
+
 - Instead of requiring `ww` to be pip-installed in every Python environment, the plugin now dynamically adds the source directory to `sys.path`
 - This allows importing directly from the source tree at `~/projects/ww/`
 - The fallback error message is preserved if the source directory doesn't exist
@@ -66,6 +70,7 @@ except ImportError:
 ```
 
 **Why this was needed:**
+
 - `ww` depends on `pyperclip` for clipboard operations
 - Even with the source directory in `sys.path`, the import chain fails if dependencies aren't installed
 - `pyperclip` was installed in the system Python but not in Hermes' venv

@@ -42,6 +42,7 @@ type: note
 ### 问题 #1：签名拒绝（401）掩盖了一切
 
 **发生了什么：**
+
 ```
 Nextcloud 发送 webhook → OpenClaw 检查签名 → 被拒绝（401 无效后端）
                                                         ↑
@@ -49,6 +50,7 @@ Nextcloud 发送 webhook → OpenClaw 检查签名 → 被拒绝（401 无效后
 ```
 
 在这个阶段，OpenClaw **甚至从未解析负载**，因此我们看不到：
+
 - Nextcloud 发送的负载格式是什么
 - API 调用将发往错误的 URL
 
@@ -59,6 +61,7 @@ Nextcloud 发送 webhook → OpenClaw 检查签名 → 被拒绝（401 无效后
 ### 问题 #2：负载格式错误（400）掩盖了 API 问题
 
 **发生了什么：**
+
 ```
 Nextcloud 发送 webhook → OpenClaw 解析负载 → 被拒绝（400 无效负载）
                                                         ↑
@@ -68,11 +71,13 @@ Nextcloud 发送 webhook → OpenClaw 解析负载 → 被拒绝（400 无效负
 我们修复了 `"Activity"` 类型，但随后看到了 **新的错误**——并以为负载修复尚未生效。
 
 **但真正的问题是：** 即使 Nextcloud 显示 400 错误时，OpenClaw 也在：
+
 - 接收 webhooks ✅
 - 尝试发送回复 ❌（发往错误的 URL）
 - 这些回复尝试收到 404
 
 Nextcloud 的 400 错误（报告 webhook 投递失败）让我们认为整个流程都坏了，而实际上：
+
 - **入向工作正常**（修复后）
 - **出向工作异常**（API 调用的 URL 错误）
 
@@ -87,6 +92,7 @@ Nextcloud 的 400 错误（报告 webhook 投递失败）让我们认为整个�
 | **OpenClaw 审计日志** | 被阻止的 URL 获取 | 具体调用了哪个 URL |
 
 **我们错过的关键证据：** 当 OpenClaw 尝试发送回复时，它调用了：
+
 ```
 POST http://localhost/ocs/v2.php/apps/spreed/api/v1/bot/eu42ecdy/message
                          ↑
@@ -118,6 +124,7 @@ POST http://localhost/ocs/v2.php/apps/spreed/api/v1/bot/eu42ecdy/message
 ```
 
 **漏洞所在：** 当我们设置 `baseUrl: "http://localhost"` 时，OpenClaw 将其同时用于：
+
 1. 验证 `X-Nextcloud-Talk-Backend` 头 ✅（匹配来自 Nextcloud 的 `http://localhost`）
 2. 进行出站 API 调用 ❌（调用 `http://localhost/ocs/...` 击中的是 nginx，而非 Nextcloud）
 

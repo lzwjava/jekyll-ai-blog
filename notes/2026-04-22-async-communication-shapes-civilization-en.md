@@ -52,6 +52,7 @@ So your framing is intellectually solid: **synchronous conversation is largely a
 Writing represents a phase transition in information's relationship with time — the point where information achieved independence from biological memory. This temporal liberation proved crucial for all subsequent information revolutions, as it enabled knowledge accumulation at rates and scales impossible within the limitations of human lifespans.
 
 Writing solved four fundamental async communication problems:
+
 - **The Mortality Problem** — before writing, when a knowledgeable person died, their wisdom died with them. Writing created information immortality.
 - **The Fidelity Problem** — oral transmission introduces errors; writing preserves precision across time.
 - **The Volume Problem** — human memory is finite; written records are not.

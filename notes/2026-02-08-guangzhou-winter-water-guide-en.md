@@ -19,6 +19,7 @@ In Guangzhou winter at 10-15°C, drinking room temperature water is generally fi
 **Practical considerations for your situation:**
 
 Since you mention a water heater isn't convenient, you have options:
+
 - **Just drink the room temperature bottled water** — This is perfectly safe and hydrating. Plenty of people do this regularly.
 - **A simple electric kettle** — These are inexpensive, quick to heat water, and take up minimal space. You could heat water in batches and let it cool slightly before drinking.
 - **A small desk water warmer** — Some people use compact, affordable electric warming dispensers that keep water at a warm temperature.

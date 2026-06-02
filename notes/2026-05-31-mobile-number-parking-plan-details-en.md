@@ -23,6 +23,7 @@ These look like mobile or internet service plan details from a carrier portal â€
 This is almost certainly a **number-parking plan** â€” you're paying $3/month just to hold onto a phone number without committing to a full monthly plan. Common use cases: keeping a secondary SIM active, maintaining a US number while abroad, or backup line.
 
 **The portal is showing:**
+
 - Your **current** billing cycle ends June 4
 - Your **next** cycle starts June 4 on the same plan (auto-renew)
 - You have options to upgrade or change before renewal

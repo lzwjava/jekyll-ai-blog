@@ -15,6 +15,7 @@ type: note
 The field of embodied AI — especially vision-language-action (VLA) models, diffusion-based policies, and imitation learning for robotics — has exploded recently. Here are the current "educational stars" (technical researchers who actively share insights, code, papers, and explanations). They're the closest equivalents to Andrej Karpathy in this niche: deep experts who make complex robotics accessible through talks, blogs, tweets, or open-source releases.
 
 #### On X (Twitter) – Must-Follow Accounts
+
 These people post frequent updates on new papers, code releases, robot demos, and technical breakdowns:
 
 - **@JimFan** (Jim Fan (NVIDIA Senior Research Scientist) – Extremely active and insightful. Posts about foundation models for robotics, VLA scaling laws, RT-X/Open X-Embodiment, diffusion policies, and humanoid robots. One of the best for real-time commentary on the field.
@@ -31,6 +32,7 @@ These people post frequent updates on new papers, code releases, robot demos, an
 Other strong follows: @feifei_li (Fei-Fei Li, "visual intelligence" godmother, involved in embodied work), @drjimfan again for breadth.
 
 #### YouTube Channels & Technical Bloggers
+
 Good technical YouTube content in embodied AI is still emerging (most is seminars or short demos), but these are the best for deep dives:
 
 - **Montréal Robotics and Embodied AI Lab (MILA)** – Official channel with seminars from top researchers (Sergey Levine, Chelsea Finn, Pieter Abbeel frequently speak here).
@@ -44,6 +46,7 @@ Good technical YouTube content in embodied AI is still emerging (most is seminar
 For more seminar-style content, search YouTube for "RSS 2024 robotics" or "CoRL 2024" — almost every major paper (OpenVLA, Octo, Diffusion Policy variants) has a 10–15 min presentation video.
 
 #### Key Labs / Projects to Watch (They Release Educational Material)
+
 - **UC Berkeley BAIR/RAIL** (Sergey Levine) → Octo, parts of OpenVLA, many diffusion/imitation papers.
 - **Stanford Improbable AI Lab** (Chelsea Finn, Jeannette Bohg) → OpenVLA lead lab.
 - **Google DeepMind Robotics** → RT-2, RT-X, AutoRT.

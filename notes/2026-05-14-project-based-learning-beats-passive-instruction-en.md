@@ -34,15 +34,19 @@ These aren't textbook exercises. **The confusion was real. The debugging was rea
 ## The Science Behind It
 
 ### 1. Desirable Difficulty (Bjork, 1994)
+
 Learning that feels hard *in the moment* produces stronger long-term retention. Struggling to figure out why `max_iters = 19073` only covers 7% of your corpus is harder than reading a slide — and **10× more memorable**.
 
 ### 2. Encoding Specificity
+
 Memory is context-dependent. You don't just remember a fact — you remember **the situation you learned it in**. Years from now, `bytes_per_token` will trigger the memory of debugging that exact discrepancy.
 
 ### 3. Transfer Learning (Human Edition)
+
 School teaches you to solve problems that look like the ones you practiced. Projects teach you to **navigate ambiguity** — the actual skill senior engineers use daily.
 
 ### 4. Interleaving & Retrieval Practice
+
 A real project forces you to jump between concepts: distributed systems → tokenization → memory layout → training loops. That interleaving is cognitively taxing but **dramatically improves transfer** to new problems.
 
 ---

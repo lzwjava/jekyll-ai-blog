@@ -197,6 +197,7 @@ Here are 30 multiple-choice questions covering key topics in Switching and Routi
     D) 172.16.0.0/12
 
 **Correct Answers:**
+
 1. C
 2. B
 3. B

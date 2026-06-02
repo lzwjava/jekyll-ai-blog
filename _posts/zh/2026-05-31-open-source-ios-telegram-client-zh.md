@@ -18,6 +18,7 @@ type: note
 **版本：** 12.7（需要 Xcode 26.2、macOS 26、Bazel 8.4.2）
 
 **代码构成：**
+
 - 4,182 个 Swift 文件（主要语言）
 - 901 个 Objective-C (.m/.mm) 文件
 
@@ -33,6 +34,7 @@ type: note
 | `build-system/` | Bazel 规则（rules_apple、rules_swift、rules_xcodeproj）和构建配置 |
 
 **关键子模块**（共 273 个）包括：
+
 - **TelegramCore** — 网络、存储、业务逻辑
 - **TelegramUI** — UI 组件
 - **TelegramApi** — MTProto API 绑定
@@ -47,6 +49,7 @@ type: note
 **Git 历史**（最新提交）：常规修复、投票改进、动画清理——看起来像是上游 Telegram 仓库的活跃维护分支或克隆。
 
 **构建方式：**
+
 ```sh
 python3 build-system/Make/Make.py --overrideXcodeVersion \
   --cacheDir ~/telegram-bazel-cache \

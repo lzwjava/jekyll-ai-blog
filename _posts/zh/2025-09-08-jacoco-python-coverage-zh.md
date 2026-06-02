@@ -15,6 +15,7 @@ type: note
 ## 现状分析
 
 您已经建立了一个多模块Maven项目，包含：
+
 - 父POM（`PlaygroundLib`）
 - `PlaygroundUtils`模块（包含工具类的JAR包）
 - `PlaygroundWeb`模块（包含Spring MVC控制器的WAR包）
@@ -137,6 +138,7 @@ mvn verify -Pintegration-test
 ```
 
 这将：
+
 1. 编译所有模块
 2. 启动附加JaCoCo代理的Jetty
 3. 运行Python集成测试

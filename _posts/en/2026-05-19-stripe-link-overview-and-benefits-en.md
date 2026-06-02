@@ -22,15 +22,19 @@ Link is Stripe's digital wallet. It lets customers securely save and reuse payme
 ## Core Features
 
 ### One-Click / Fast Checkout
+
 Link autofills customers' saved information in a few simple steps across any device and browser and in supported AI agents. Customer data is encrypted to keep it secure, and as a certified PCI Service Provider Level 1, Link meets the highest level of certification available in the payments industry.
 
 ### How Authentication Works
+
 When customers use Link on a new site or new device, they receive a one-time code via SMS to verify their identity and keep their payment information secure. Link instantly populates customers' saved payment details when they enter their email address, allowing them to check out quickly on any Link-supported site.
 
 ### Payment Methods Supported
+
 Users can connect payment methods including cards, banks, crypto wallets, and buy now/pay later services, as well as store important details for online checkout like billing and shipping information.
 
 ### Transaction Confirmation & Settlement
+
 All Link transactions confirm immediately, and successful payments settle to your Stripe balance on the same timeline as card payments, regardless of the payment method that funds the payment.
 
 ---

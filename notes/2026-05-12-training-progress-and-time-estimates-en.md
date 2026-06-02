@@ -10,6 +10,7 @@ type: note
 ---
 
 **Current state (16:23 HKT):**
+
 - iter **1,260 / 19,073** — about **6.6%** done
 - loss dropped 11.0 → **3.75** (val 4.04 at iter 1000)
 - step time steady at **~11.1 s/iter**, MFU ~12.7%

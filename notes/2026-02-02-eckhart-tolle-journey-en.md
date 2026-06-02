@@ -51,6 +51,7 @@ In 2008, The New York Times called Tolle "the most popular spiritual author" in 
 ### Other Works and Recognition
 
 His other major publications include:
+
 - "Stillness Speaks" (2003)
 - "A New Earth: Awakening to Your Life's Purpose" (2005)
 - "Guardians of Being" (2009)

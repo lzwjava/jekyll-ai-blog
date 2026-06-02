@@ -22,7 +22,9 @@ It is made up of **two conductive plates** separated by an **insulating material
 ## 🔹 How Does a Capacitor Work?
 
 ### 1. **Charging Phase**
+
 When you connect a capacitor to a voltage source (like a battery):
+
 - **Electrons** are pushed onto one plate (giving it a **negative charge**).
 - At the same time, electrons are **pulled away** from the other plate (giving it a **positive charge**).
 - **Electric field** builds up between the plates.
@@ -34,7 +36,9 @@ Eventually, the capacitor becomes **"fully charged"** when the voltage across it
 ---
 
 ### 2. **Discharging Phase**
+
 If you disconnect the power source and connect the two plates through a circuit:
+
 - The stored energy is **released** as electrons flow from the negative plate to the positive plate.
 - The current **decreases gradually** as the capacitor **loses its charge**.
 
@@ -43,6 +47,7 @@ If you disconnect the power source and connect the two plates through a circuit:
 ## 🔹 The Role of the Dielectric
 
 The dielectric material:
+
 - **Increases the capacitor’s ability to store charge** (measured as **capacitance**, in farads).
 - **Prevents short circuits** by keeping the plates separated.
 - **Affects performance**, depending on its material properties like **permittivity** (how well it can be polarized).
@@ -65,6 +70,7 @@ A **better dielectric** = **higher capacitance**.
 ## 🔹 Visualizing It
 
 Think of a **capacitor** like a **water tank**:
+
 - **Voltage** is like **water pressure**.
 - **Charge** is like the **amount of water**.
 - **Current** is like **the flow of water into the tank**.
@@ -107,6 +113,7 @@ V(t) = V_0 \times e^{-t/RC}
 \\]
 
 Where:
+
 - \\( V(t) \\) = Voltage at time \\( t \\)
 - \\( V_0 \\) = Initial voltage
 - \\( R \\) = Resistance in ohms

@@ -36,6 +36,7 @@ This specific "Adults Care Health A2" (成年人关爱健康A2) package is desig
    - General guidance to reduce modifiable risk factors for heart and brain vascular issues.
 
 **Key points about this test:**
+
 - It's a preventive/predictive genetic screening, not a diagnostic test for current disease.
 - Focuses on polygenic or targeted risks for common adult-onset cardiovascular and cerebrovascular conditions.
 - Results help you understand inherited predispositions so you can take proactive steps (e.g., better diet/exercise if high genetic risk for hypertension or coronary disease).

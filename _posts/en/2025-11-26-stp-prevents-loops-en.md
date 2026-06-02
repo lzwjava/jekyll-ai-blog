@@ -37,6 +37,7 @@ type: note
   Like OSPF, it operates on routers, not switches, and is irrelevant to Layer-2 loop prevention.
 
 ### Why STP is Essential in Redundant Switched Topologies
+
 In a network with multiple switches connected by redundant links (common for high availability), a frame can loop forever (broadcast storm) without a loop-prevention mechanism. STP solves this by logically breaking loops while keeping physical redundancy for failover.
 
 ### Quick Summary Table

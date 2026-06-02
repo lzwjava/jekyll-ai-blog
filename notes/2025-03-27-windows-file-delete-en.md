@@ -17,38 +17,38 @@ Here's a breakdown of how to troubleshoot and fix this, specifically for a `cons
 This is the most crucial step. You need to figure out which application or service has `console.log` open. There are several ways to do this:
 
 * **Resource Monitor:** This is a built-in Windows tool that provides detailed information about system resource usage.
-    * Press `Win + R` to open the Run dialog.
-    * Type `resmon` and press Enter.
-    * Go to the "CPU" tab.
-    * In the "Associated Handles" section (usually at the bottom), type `console.log` in the search bar.
-    * The process(es) that have this file open will appear. Note down the "PID" (Process Identifier) and the "Image" name.
+  * Press `Win + R` to open the Run dialog.
+  * Type `resmon` and press Enter.
+  * Go to the "CPU" tab.
+  * In the "Associated Handles" section (usually at the bottom), type `console.log` in the search bar.
+  * The process(es) that have this file open will appear. Note down the "PID" (Process Identifier) and the "Image" name.
 
 * **Process Explorer (Sysinternals):** This is a more powerful and detailed process management tool from Microsoft.
-    * Download it from the official Microsoft website: [https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
-    * Run Process Explorer as administrator.
-    * Press `Ctrl + F` (or go to "Find" -> "Find Handle or DLL").
-    * Type `console.log` in the "Handle or DLL substring" field and click "Search".
-    * The process(es) using the file will be listed. Note down the "PID" and the process name.
+  * Download it from the official Microsoft website: [https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+  * Run Process Explorer as administrator.
+  * Press `Ctrl + F` (or go to "Find" -> "Find Handle or DLL").
+  * Type `console.log` in the "Handle or DLL substring" field and click "Search".
+  * The process(es) using the file will be listed. Note down the "PID" and the process name.
 
 * **Command Prompt (less direct but sometimes helpful):**
-    * Open Command Prompt as administrator.
-    * Use the `net file` command to see open files and the sessions that have them open. You might need to look through the output for the path to your `console.log` file.
-    * Alternatively, you can try using `tasklist /fi "imagename eq <process_name>.exe"` (replace `<process_name>.exe` with potential server process names like `java.exe` if it's a Java-based server) to get the PID of the process. Then, you can try to correlate that with the file being locked.
+  * Open Command Prompt as administrator.
+  * Use the `net file` command to see open files and the sessions that have them open. You might need to look through the output for the path to your `console.log` file.
+  * Alternatively, you can try using `tasklist /fi "imagename eq <process_name>.exe"` (replace `<process_name>.exe` with potential server process names like `java.exe` if it's a Java-based server) to get the PID of the process. Then, you can try to correlate that with the file being locked.
 
 **2. Close the Application or Stop the Service:**
 
 Once you've identified the process, the next step is to close the application or stop the service that's using `console.log`.
 
 * **Using Task Manager:**
-    * Press `Ctrl + Shift + Esc` to open Task Manager.
-    * Go to the "Details" tab (or "Processes" tab in older Windows versions).
-    * Find the process you identified by its name.
-    * Select the process and click "End task". **Be cautious when ending processes, especially system processes, as it can lead to instability.** Make sure you're ending the correct application or service related to your server.
+  * Press `Ctrl + Shift + Esc` to open Task Manager.
+  * Go to the "Details" tab (or "Processes" tab in older Windows versions).
+  * Find the process you identified by its name.
+  * Select the process and click "End task". **Be cautious when ending processes, especially system processes, as it can lead to instability.** Make sure you're ending the correct application or service related to your server.
 
 * **Using Services Manager:**
-    * Press `Win + R`, type `services.msc`, and press Enter.
-    * Find the service associated with your server application (the name should be similar to the application name).
-    * Right-click on the service and select "Stop".
+  * Press `Win + R`, type `services.msc`, and press Enter.
+  * Find the service associated with your server application (the name should be similar to the application name).
+  * Right-click on the service and select "Stop".
 
 * **Closing the Application Directly:** If it's a desktop application, simply close it through its user interface.
 
@@ -72,8 +72,8 @@ After closing the application or stopping the service, try to delete `console.lo
 
 **In summary, the key steps are:**
 
-1.  **Identify the process** using Resource Monitor or Process Explorer.
-2.  **Stop the process or service** that is using the file.
-3.  **Try to delete the file** again.
+1. **Identify the process** using Resource Monitor or Process Explorer.
+2. **Stop the process or service** that is using the file.
+3. **Try to delete the file** again.
 
 By following these steps, you should be able to resolve the "device use or busy" error and delete the `console.log` file. Remember to be careful when ending processes and always ensure you're targeting the correct application or service.

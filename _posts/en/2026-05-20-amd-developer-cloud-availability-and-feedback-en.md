@@ -28,6 +28,7 @@ One notable quirk: despite being the "AMD Developer Cloud," the underlying CPU h
 ### Current Hardware Availability (May 2026)
 
 **What's available now:**
+
 - 1x MI300X — 192 GB VRAM, 20 vCPU, 240 GB RAM, 5 TB NVMe — $1.99/hr
 - 8x MI300X — 1.5 TB VRAM, 160 vCPU, 1920 GB RAM, 40 TB NVMe — $15.92/hr ($1.99/GPU/hr)
 
@@ -76,6 +77,7 @@ AMD's May 2026 developer hackathon in SF saw serious projects — custom MI300X 
 ### Bottom Line for You (Zhiwei)
 
 If you want MI300X access **today**:
+
 - **Pay-as-you-go at $1.99/GPU/hr** is the most frictionless path — but expect DigitalOcean's billing history requirement to block you initially if your DO account is new
 - Apply for the **$100 free credit** via the AMD AI Developer Program (strong use case = training/fine-tuning with ROCm will get approved)
 - **Alternative providers** with zero gatekeeping: RunPod ($1.99/hr), HotAisle ($1.99/hr), TensorWave — same MI300X, no billing history song-and-dance

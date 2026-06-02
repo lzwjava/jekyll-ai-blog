@@ -15,12 +15,15 @@ Absolutely, spot on! That recurring "I've totally solved this before... but wher
 Here's why it hits so hard and how to make it stick:
 
 ### The Real Hustle: Why Forgetting Bites
+
 - **Cognitive Load Overload**: Programming (backend APIs crashing on edge cases, frontend CSS gremlins, AI models choking on data pipelines) is already a firehose of context-switching. Without notes, you're taxing your short-term memory for stuff that should be evergreen.
 - **Time Sink**: Studies (yeah, even devs hate admitting it) show debugging repeats can eat 20-30% of your coding time. Multiply that by a team? Chaos.
 - **The Emotional Toll**: That frustration builds resentment toward the work itself, turning "fun puzzle" into "why do I do this?"
 
 ### Quick Wins for Bulletproof Notes
+
 Don't overthink it—start small, scale smart:
+
 - **Personal Wiki Style**: Use Notion, Obsidian, or even a Git repo with Markdown files. Tag everything (e.g., #llm-fine-tuning #numpy-bug) and link to logs/screenshots.
 - **Blog It Out**: Platforms like Dev.to or your own Substack turn fixes into shareable gold. Bonus: It builds your network and cements the knowledge.
 - **Automate the Boring Bits**: Tools like Jupyter notebooks for AI experiments (auto-save code + outputs) or VS Code extensions (e.g., "Todo Tree" for inline notes) capture the "how" in real-time.

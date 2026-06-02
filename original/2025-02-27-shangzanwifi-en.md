@@ -9,7 +9,7 @@ translated: false
 type: post
 ---
 
-- http://shangzanwifi.com, Wi-Fi Portable Hotspot bought from JD.com for around 45 CNY.
+- <http://shangzanwifi.com>, Wi-Fi Portable Hotspot bought from JD.com for around 45 CNY.
 
 - I bought a one-month plan for 50 CNY to enjoy three networks: China Mobile, China Telecom, and China Unicom.
 

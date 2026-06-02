@@ -13,6 +13,7 @@ type: note
 The **FineWeb** dataset (the 15T+ token English version at `HuggingFaceFW/fineweb`) contains **approximately 35,000 to 50,000** `.parquet` files in total.
 
 ### Breakdown
+
 - It consists of **96** separate Common Crawl snapshots (dumps, e.g., `CC-MAIN-2013-20`, `CC-MAIN-2024-10`, etc.).
 - Each dump is stored in its own subdirectory under `/data/` and split into many sharded `.parquet` files named like `000_00000.parquet`, `000_00001.parquet`, … (zero-padded, sequential).
 - The number of parquet files varies per dump depending on its size:

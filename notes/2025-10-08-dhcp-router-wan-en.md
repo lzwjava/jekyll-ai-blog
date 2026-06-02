@@ -28,6 +28,7 @@ These entries are **normal and indicate healthy operation**, not an error. They 
 | 141   | 2025/09/20-03:45:02 | Sending DHCP renew      | Another renewal ~12 hours later (now into the next day). If no ACK follows (not shown here), it might escalate to a full rebind or rediscover. |
 
 #### Why This Happens
+
 - **Lease Cycle**: ISPs set lease times (e.g., 24 hours). At 50% elapsed, the client renews to avoid downtime. If renewal fails at 87.5%, it rebinds (broadcast Request); at 100%, it restarts the full DORA process.
 - **In 360 T7 Context**: This is logged under WAN connection events. The T7 uses a lightweight DHCP client (likely udhcpc-based) in its firmware, which generates these exact messages. No issues unless you see failures like "DHCP NAK received" (IP rejected) or repeated Discovers without ACKs (could indicate ISP problems or cable issues).
 - **Troubleshooting Tips**:

@@ -27,6 +27,7 @@ Yes, exactly — doing hot drying **right after washing** (as soon as the wash c
   A heated dryer (like your L-2 hot mode) blows warm, dry air through the clothes, forcing moisture out even when the room air is humid. It overcomes the ambient humidity problem that hanging can't. The heat also kills many bacteria/mold directly, and fast drying prevents them from having time to regrow. That's why hot drying right away is the key to preventing (or stopping) smells in humid climates.
 
 **Practical rule for humid weather:**
+
 - Finish wash → transfer to dryer **immediately** (within 10–30 minutes max).
 - Use a heated mode (not cool/air-dry) from the start.
 - Don't overload — smaller loads dry faster and more evenly.

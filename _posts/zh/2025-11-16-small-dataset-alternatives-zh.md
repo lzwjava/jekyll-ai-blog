@@ -28,6 +28,7 @@ type: note
    （nanoGPT 用户首选）
 
 2. 需要真实网络文本但体积小巧 → OpenWebText 前 1 万篇文档
+
    ```python
    dataset = load_dataset("openwebtext", split="train[:10000]")
    ```
@@ -44,6 +45,7 @@ type: note
    ```
 
 4. 需要小于 500MB 且内容多样 → RedPajama 2 亿词元版本样本
+
    ```python
    dataset = load_dataset("togethercomputer/RedPajama-Data-1T", name="sample-200M", split="train")
    ```
@@ -51,6 +53,7 @@ type: note
 所有这些数据集都可直接代入现有预处理脚本（仅需替换 load_dataset 语句）。
 
 为提升迭代效率，我通常保留三个二进制文件：
+
 - `shakespeare.bin`   (~2MB)   → 过拟合测试
 - `owt_10k.bin`       (~80MB)  → 代码调试
 - `fineweb_edu_1B.bin` (~2GB) → 真实小模型训练

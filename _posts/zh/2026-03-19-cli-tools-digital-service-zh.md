@@ -36,6 +36,7 @@ scb pay --bill electricity --amount auto
 ```
 
 **当前可能实现的内容：**
+
 - DBS 和 SCB 都有开发者 API（PayLah、RAPID API）
 - Open Banking 法规（新加坡 MAS、泰国 BoT）正在推动这一点
 - Claude Code 可以自动支付账单、异常警报、重新平衡储蓄
@@ -54,6 +55,7 @@ pinduoduo group-buy --join cheapest --category electronics
 ```
 
 **当前可能实现的内容：**
+
 - Amazon 有 Product Advertising API
 - Temu/Pinduoduo 目前还没有官方公共 API
 - 可以通过浏览器自动化（Playwright + Claude）构建
@@ -72,6 +74,7 @@ openrouter spend --this-month --breakdown-by-model
 ```
 
 **当前可能实现的内容：**
+
 - OpenRouter 已经有 REST API——CLI 包装器非常容易构建
 - 这是**最容易立即实现**的类别
 - Claude Code 可以根据任务类型自动选择最便宜的 model
@@ -103,6 +106,7 @@ rednote trending --category food --region shanghai
 ```
 
 Claude Code 将：
+
 1. `dbs balance` → 确认资金 ✅
 2. `amazon search` + `temu search` → 比较价格
 3. `amazon buy` → 购买
@@ -136,6 +140,7 @@ Claude Code 将：
 ## MCP 视角（已在发生）
 
 Claude Code 的 **MCP (Model Context Protocol)** 正是为此提供的基础设施。任何人可以为以下构建 MCP server：
+
 - DBS → `dbs-mcp-server`
 - Amazon → `amazon-mcp-server`
 - OpenRouter → `openrouter-mcp-server`

@@ -15,6 +15,7 @@ type: note
 The post you're referencing is from Yining Wang (also known as Yin Wang), a computer science researcher and blogger. It's a thoughtful piece building on an observation by programming legend Guy Steele: **as configuration files grow more complex, they inevitably evolve into a crappy programming language**. Wang uses a concept he coined—"the Logic Indestructibility Law"—to explain *why* this happens almost every time. It's a clever analogy to physics' conservation of energy: logic doesn't vanish; it just relocates.
 
 #### What Is the "Logic Indestructibility Law"?
+
 Wang defines it simply: **The logic that people need to express will always appear somewhere, in essentially the same form.**
 
 - In essence, if you have some decision-making or rule-based thinking (e.g., "if this condition is true, do that"), it *has* to show up in your system. It won't evaporate just because you try to hide it or offload it.
@@ -24,6 +25,7 @@ Wang defines it simply: **The logic that people need to express will always appe
 Think of it like water finding its level: logic flows to where it's needed, no matter how you try to contain it.
 
 #### How Does This Explain Config Files Turning into "Bad Languages"?
+
 Configuration files start innocently—as a way to tweak settings without touching the core code. But as needs grow, they bloat into something more sinister. Here's the step-by-step breakdown, tied to the law:
 
 1. **The Simple Start: Just Variables**
@@ -47,6 +49,7 @@ Configuration files start innocently—as a way to tweak settings without touchi
 Steele's quip nails it: configs don't *want* to be languages, but complexity forces them to be. And they're always "bad" because they're designed for simplicity, not expressiveness.
 
 #### Tie-In to Domain-Specific Languages (DSLs)
+
 Wang references his earlier essay, ["The Pitfalls of DSLs"](https://yinwang1.substack.com/p/dsl-misconceptions) (specifically the "Dynamic Logic Loading" section), to extend this. Many DSLs (custom mini-languages for specific tasks) arise from the same urge: loading rules or behaviors at runtime without recompiling.
 
 - **The Mistake:** Teams think they need a bespoke language for "dynamic logic," so they invent one—reinventing if-then-else in a clunky wrapper.
@@ -54,6 +57,7 @@ Wang references his earlier essay, ["The Pitfalls of DSLs"](https://yinwang1.sub
 - *Law in Action:* The logic (e.g., "check if X, then Y") had to go somewhere. A snippet in JS keeps it in a *good* language, avoiding config bloat.
 
 #### Why Does This Matter?
+
 This isn't just theory—it's a warning for software design. It explains why tools like Kubernetes YAML or webpack configs feel like coding nightmares. The lesson? Embrace logic where it thrives (in proper languages), rather than exiling it to configs. Design systems that make logic *visible and manageable*, or it'll haunt you in spectral form.
 
 If you want to dive deeper, the full post is a quick read with more nuance.

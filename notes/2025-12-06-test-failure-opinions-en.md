@@ -29,6 +29,7 @@ Here are several genuinely unpopular (often downvoted or dismissed) opinions com
 These opinions tend to get strong negative reactions because they shift blame from the test (or from “unfair Western standards”) back onto the candidate’s actual preparation, language environment, and sometimes prior education quality—things people have more control over than they like to admit.
 
 References:
+
 - Various threads on Reddit r/GRE, r/IELTS, r/TOEFL (2019–2025)
 - GradCafe forums, “GRE Verbal is impossible for non-natives” discussions
 - Quora answers under “Why do so many Indian/Chinese students struggle with GRE Verbal?” (highly upvoted but controversial answers)

@@ -11,7 +11,9 @@ type: note
 To use Mockito in Java tests, follow these steps to create mock objects, stub methods, and verify interactions:
 
 ### 1. **Add Dependencies**
+
 Include Mockito and JUnit in your `pom.xml` (Maven):
+
 ```xml
 <dependency>
     <groupId>org.mockito</groupId>
@@ -28,7 +30,9 @@ Include Mockito and JUnit in your `pom.xml` (Maven):
 ```
 
 ### 2. **Set Up the Test Class**
+
 Use JUnit 5 with Mockito's extension:
+
 ```java
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -40,6 +44,7 @@ public class UserServiceTest {
 ```
 
 ### 3. **Create Mocks and Inject Dependencies**
+
 - Use `@Mock` for dependencies you want to mock.
 - Use `@InjectMocks` to inject mocks into the class under test.
 
@@ -52,7 +57,9 @@ private UserService userService; // UserService depends on UserRepository
 ```
 
 ### 4. **Stub Method Calls**
+
 Use `when().thenReturn()` to define mock behavior:
+
 ```java
 @Test
 void getUserById_ReturnsUser_WhenUserExists() {
@@ -67,7 +74,9 @@ void getUserById_ReturnsUser_WhenUserExists() {
 ```
 
 ### 5. **Verify Interactions**
+
 Check if a mock method was called as expected:
+
 ```java
 @Test
 void getUserById_CallsRepository() {
@@ -82,6 +91,7 @@ void getUserById_CallsRepository() {
 ### **Common Use Cases**
 
 #### **Stub Exceptions**
+
 ```java
 @Test
 void getUserById_ThrowsException_WhenRepositoryFails() {
@@ -92,13 +102,17 @@ void getUserById_ThrowsException_WhenRepositoryFails() {
 ```
 
 #### **Argument Matchers**
+
 Use `any()`, `eq()`, etc., to match arguments flexibly:
+
 ```java
 when(userRepository.findById(anyLong())).thenReturn(new User(1L, "Bob"));
 ```
 
 #### **BDD (Behavior-Driven Development) Style**
+
 Use `given().willReturn()` for readability:
+
 ```java
 import static org.mockito.BDDMockito.*;
 
@@ -114,7 +128,9 @@ void bddStyleExample() {
 ```
 
 #### **Argument Captor**
+
 Capture arguments to perform detailed assertions:
+
 ```java
 @Test
 void saveUser_CapturesArgument() {
@@ -130,11 +146,13 @@ void saveUser_CapturesArgument() {
 ---
 
 ### **Key Notes**
+
 - **Initialization**: Use `@ExtendWith(MockitoExtension.class)` (JUnit 5) or `MockitoAnnotations.openMocks(this)` in `@BeforeEach`.
 - **Static Mocks**: Use `mockito-inline` dependency for mocking static methods/constructors.
 - **Spies**: Use `@Spy` to wrap real objects (partial mocks).
 
 ### **Troubleshooting**
+
 - **Null Mocks**: Ensure mocks are initialized (use `@ExtendWith` or `openMocks()`).
 - **Stubbing Errors**: Stub methods before they’re called in the test.
 

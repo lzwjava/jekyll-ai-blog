@@ -46,6 +46,7 @@ Based on the official course plan for **080901 计算机科学与技术 (Compute
 ## **Key Points:**
 
 **Total: 15 courses** (some with separate practical components)
+
 - **Written exams:** 11 courses
 - **Practical exams:** 5 practical components (paired with their theory courses)
 - **Graduation thesis:** 1 (required but no credits counted)
@@ -59,17 +60,21 @@ Based on the official course plan for **080901 计算机科学与技术 (Compute
 ## **Course Categories Breakdown:**
 
 **Political/Ideological (4 credits):**
+
 - 中国近现代史纲要
 - 马克思主义基本原理概论
 
 **Mathematics Foundation (14 credits):**
+
 - 高等数学(工本) - 10 credits
 - 离散数学 - 4 credits
 
 **Language (7 credits):**
+
 - 英语(专业课)
 
 **Core Computer Science (47 credits):**
+
 - Data structures, algorithms, programming, databases, operating systems, computer architecture, software engineering, networks, security, AI/big data
 
 ---

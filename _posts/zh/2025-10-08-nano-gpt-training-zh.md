@@ -15,14 +15,18 @@ type: note
 nanoGPT 旨在简化文本数据的训练流程，包括自定义数据集的处理。整个过程涉及将文本准备成二进制令牌文件、配置训练参数以及运行训练脚本。下面我将根据代码库中的示例（如莎士比亚作品或 OpenWebText）概述具体步骤。您需要 Python 3.8+ 和 GPU 以实现高效训练（CPU 也可运行但速度较慢）。
 
 #### 1. 安装依赖
+
 首先设置环境：
+
 ```
 pip install torch numpy transformers datasets tiktoken wandb tqdm
 ```
+
 - `torch`：用于 PyTorch（如果使用 GPU 需安装 CUDA 版本：例如 `pip install torch --index-url https://download.pytorch.org/whl/cu118`）。
 - 其他依赖包用于处理令牌化、数据加载和日志记录。
 
 #### 2. 准备自定义数据集
+
 nanoGPT 要求数据以包含令牌化整数的二进制文件（`train.bin` 和 `val.bin`）形式提供。您需要编写一个简单的准备脚本来处理原始文本。
 
 - **放置文本文件**：将原始文本文件（如 `input.txt`）放入 `data/` 下的新建文件夹中，例如 `data/my_dataset/`。
@@ -30,6 +34,7 @@ nanoGPT 要求数据以包含令牌化整数的二进制文件（`train.bin` 和
 - **创建准备脚本**：从代码库复制并修改示例脚本（例如，字符级处理使用 `data/shakespeare_char/prepare.py`，GPT-2 BPE 令牌级处理使用 `data/openwebtext/prepare.py`）。
 
   **字符级令牌化示例**（适用于小型数据集，将每个字符视为一个令牌）：
+
   ```python
   # 保存为 data/my_dataset/prepare.py
   import os
@@ -67,10 +72,13 @@ nanoGPT 要求数据以包含令牌化整数的二进制文件（`train.bin` 和
   print(f"数据集字符长度: {len(data)}")
   print(f"词汇表大小: {vocab_size}")
   ```
+
   运行脚本：
+
   ```
   python data/my_dataset/prepare.py
   ```
+
   这将生成 `train.bin` 和 `val.bin` 文件。
 
 - **GPT-2 BPE 令牌化**（更适用于大型数据集，使用子词单元）：
@@ -82,9 +90,11 @@ nanoGPT 要求数据以包含令牌化整数的二进制文件（`train.bin` 和
   - 词汇表大小：字符级约 65（莎士比亚数据集）；BPE 级约 5 万。
 
 #### 3. 配置训练参数
+
 通过复制示例配置文件（如 `config/train_shakespeare_char.py`）创建新配置，保存为 `config/train_my_dataset.py` 并编辑内容。
 
 关键参数调整示例：
+
 ```python
 # 配置片段示例
 out_dir = 'out-my_dataset'  # 检查点输出目录
@@ -99,27 +109,35 @@ lr = 6e-4                   # 学习率
 dropout = 0.2               # 丢弃率
 init_from = 'scratch'       # 'scratch' 表示新模型；'gpt2' 表示加载预训练模型
 ```
+
 - 微调场景（从预训练 GPT-2 开始）：设置 `init_from = 'gpt2'`（或 'gpt2-medium'）。
 - Apple Silicon 芯片：添加 `device = 'mps'`。
 - 默认每 500 次迭代保存检查点。
 
 #### 4. 运行训练
+
 从头开始训练或进行微调：
+
 ```
 python train.py config/train_my_dataset.py
 ```
+
 - 多 GPU 训练（例如 8 GPU）：`torchrun --standalone --nproc_per_node=8 train.py config/train_my_dataset.py`。
 - 使用 WandB 监控（记录损失和生成样本；在配置中通过 `wandb_log = True` 启用）。
 - 训练时间：GPU 上小型模型需数分钟；大型模型需数小时/天。
 
 #### 5. 生成样本（测试模型）
+
 训练完成后生成文本：
+
 ```
 python sample.py --out_dir=out-my_dataset --start="您的提示文本"
 ```
+
 此命令将加载最新检查点并生成文本。
 
 #### 常见问题
+
 - **内存错误**：降低 `batch_size` 或 `block_size`。
 - **无 GPU**：在命令中添加 `--device=cpu --compile=False`。
 - **大型数据集**：使用分布式训练进行扩展。

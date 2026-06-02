@@ -16,6 +16,7 @@ Answer:
 The **Realtek RTL8152** (often seen as RTL8152B-VB or similar variants) is a popular, low-cost **USB-to-Ethernet controller chipset** designed for **10/100 Mbps Fast Ethernet** connections.
 
 ### Main Characteristics
+
 - **Speed**: Supports **10/100 Mbps** Ethernet (Fast Ethernet) — maximum real-world throughput is roughly 94–100 Mbps in each direction.
 - **Interface**: Connects via **USB 2.0** (480 Mbps theoretical bus speed, more than enough for 100 Mbps Ethernet).
 - **Physical port**: Standard **RJ45** Ethernet connector.
@@ -23,6 +24,7 @@ The **Realtek RTL8152** (often seen as RTL8152B-VB or similar variants) is a pop
 - **Common form factor**: Used in countless inexpensive USB Ethernet adapters, USB-C to RJ45 dongles (with USB 2.0 signaling), docking station Ethernet ports, and embedded devices.
 
 ### Key Technical Features
+
 - Compliant with **IEEE 802.3** and **802.3u** standards
 - Auto-negotiation, crossover detection & auto-correction, polarity correction
 - Supports **Wake-on-LAN** (WoL), including **RealWoW!** (Wake-on-WAN via internet in some configurations)
@@ -36,6 +38,7 @@ The **Realtek RTL8152** (often seen as RTL8152B-VB or similar variants) is a pop
   - Many BSD variants, Android (with appropriate kernel support), etc.
 
 ### Typical Use Cases (2026 perspective)
+
 - Adding wired Ethernet to ultrabooks, tablets, or mini-PCs without built-in RJ45
 - Providing more stable and lower-latency connections than Wi-Fi
 - Backup network interface when the main NIC fails
@@ -51,6 +54,7 @@ The **Realtek RTL8152** (often seen as RTL8152B-VB or similar variants) is a pop
 | RTL8156    | 2.5 Gbps      | USB 3.0/3.2 | 2020–present               | Multi-gig entry level              |
 
 Even in 2026 the RTL8152 remains widely available because:
+
 - Extremely low cost to manufacture
 - Rock-solid driver support across platforms
 - Sufficient performance for many non-gaming, non-4K-streaming use cases (browsing, office work, SSH, light file transfers)

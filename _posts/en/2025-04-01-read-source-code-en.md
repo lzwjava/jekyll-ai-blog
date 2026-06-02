@@ -13,23 +13,23 @@ Reading the source code of large projects like Spring Boot or large backend syst
 **1. Understand Your Goal:**
 
 * **Why are you reading the code?** Are you trying to:
-    * Debug a specific issue?
-    * Understand how a particular feature works?
-    * Contribute to the project?
-    * Learn best practices and architectural patterns?
-    * Evaluate the codebase for security vulnerabilities or performance bottlenecks?
+  * Debug a specific issue?
+  * Understand how a particular feature works?
+  * Contribute to the project?
+  * Learn best practices and architectural patterns?
+  * Evaluate the codebase for security vulnerabilities or performance bottlenecks?
 * **Knowing your goal will help you focus your efforts.** You don't need to understand the entire codebase at once.
 
 **2. Start with the Entry Points and High-Level Structure:**
 
 * **For Spring Boot projects:**
-    * **`@SpringBootApplication` annotated class:** This is usually the starting point of the application. Look at the `main()` method.
-    * **Configuration files (e.g., `application.properties` or `application.yml`):** These files define the application's behavior and dependencies. Understanding them gives you a high-level overview of the configured components.
-    * **Package structure:** Observe how the code is organized into packages. This often reflects the different modules or layers of the application (e.g., `controllers`, `services`, `repositories`, `models`).
+  * **`@SpringBootApplication` annotated class:** This is usually the starting point of the application. Look at the `main()` method.
+  * **Configuration files (e.g., `application.properties` or `application.yml`):** These files define the application's behavior and dependencies. Understanding them gives you a high-level overview of the configured components.
+  * **Package structure:** Observe how the code is organized into packages. This often reflects the different modules or layers of the application (e.g., `controllers`, `services`, `repositories`, `models`).
 * **For large backend systems:**
-    * **Identify the main entry points:** This might be a REST API controller, a message queue listener, a scheduled job, or a CLI command.
-    * **Look for architectural diagrams or documentation:** These can provide a high-level overview of the system's components and their interactions.
-    * **Identify key modules or services:** Large systems are often broken down into smaller, independent units. Try to identify the core functionalities and their corresponding modules.
+  * **Identify the main entry points:** This might be a REST API controller, a message queue listener, a scheduled job, or a CLI command.
+  * **Look for architectural diagrams or documentation:** These can provide a high-level overview of the system's components and their interactions.
+  * **Identify key modules or services:** Large systems are often broken down into smaller, independent units. Try to identify the core functionalities and their corresponding modules.
 
 **3. Leverage Your IDE:**
 
@@ -47,15 +47,15 @@ Reading the source code of large projects like Spring Boot or large backend syst
 **5. Look for Key Patterns and Frameworks:**
 
 * **Spring Framework Specifics:**
-    * **Dependency Injection:** Understand how beans are managed and injected using `@Autowired`, `@Component`, `@Service`, `@Repository`, etc.
-    * **Aspect-Oriented Programming (AOP):** Look for `@Aspect` annotations to understand cross-cutting concerns like logging, security, or transaction management.
-    * **Spring MVC:** Understand how controllers (`@RestController`, `@Controller`), request mappings (`@GetMapping`, `@PostMapping`, etc.), and view resolvers work.
-    * **Spring Data JPA:** If the project uses JPA for database interaction, understand how repositories extend `JpaRepository` and how queries are derived or defined.
-    * **Spring Security:** If security is involved, look for configuration classes annotated with `@EnableWebSecurity` and understand the filter chain.
+  * **Dependency Injection:** Understand how beans are managed and injected using `@Autowired`, `@Component`, `@Service`, `@Repository`, etc.
+  * **Aspect-Oriented Programming (AOP):** Look for `@Aspect` annotations to understand cross-cutting concerns like logging, security, or transaction management.
+  * **Spring MVC:** Understand how controllers (`@RestController`, `@Controller`), request mappings (`@GetMapping`, `@PostMapping`, etc.), and view resolvers work.
+  * **Spring Data JPA:** If the project uses JPA for database interaction, understand how repositories extend `JpaRepository` and how queries are derived or defined.
+  * **Spring Security:** If security is involved, look for configuration classes annotated with `@EnableWebSecurity` and understand the filter chain.
 * **General Backend Patterns:**
-    * **Microservices Architecture:** If it's a large backend system, it might be composed of multiple microservices. Understand how they communicate (e.g., REST, message queues).
-    * **Design Patterns:** Recognize common design patterns like Singleton, Factory, Observer, Strategy, etc.
-    * **Data Access Patterns:** Understand how the application interacts with databases (e.g., ORM, raw SQL).
+  * **Microservices Architecture:** If it's a large backend system, it might be composed of multiple microservices. Understand how they communicate (e.g., REST, message queues).
+  * **Design Patterns:** Recognize common design patterns like Singleton, Factory, Observer, Strategy, etc.
+  * **Data Access Patterns:** Understand how the application interacts with databases (e.g., ORM, raw SQL).
 
 **6. Read Documentation and Tests:**
 
@@ -82,17 +82,17 @@ Reading the source code of large projects like Spring Boot or large backend syst
 
 **Example Approach for a Spring Boot Project:**
 
-1.  **Start with the `@SpringBootApplication` class:** Identify the main class and look at any initializations or configurations.
-2.  **Examine `application.properties` or `application.yml`:** Understand the configured ports, database connections, and other external dependencies.
-3.  **Pick a specific API endpoint (if your goal is to understand an API):**
+1. **Start with the `@SpringBootApplication` class:** Identify the main class and look at any initializations or configurations.
+2. **Examine `application.properties` or `application.yml`:** Understand the configured ports, database connections, and other external dependencies.
+3. **Pick a specific API endpoint (if your goal is to understand an API):**
     * Find the corresponding controller class (usually annotated with `@RestController`).
     * Look at the method handling the request (e.g., `@GetMapping`, `@PostMapping`).
     * Trace the call to the service layer.
     * Understand the business logic in the service class (usually annotated with `@Service`).
     * Follow the data access logic in the repository class (usually annotated with `@Repository` and extending `JpaRepository`).
     * Examine the entity class (usually annotated with `@Entity`) to understand the data structure.
-4.  **If you're investigating a database interaction issue, focus on the repository and entity classes.**
-5.  **If you're looking at security, examine the classes annotated with `@EnableWebSecurity` and any custom `UserDetailsService` implementations.**
+4. **If you're investigating a database interaction issue, focus on the repository and entity classes.**
+5. **If you're looking at security, examine the classes annotated with `@EnableWebSecurity` and any custom `UserDetailsService` implementations.**
 
 **Key Takeaways:**
 

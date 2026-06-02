@@ -15,6 +15,7 @@ type: note
 
 GPU 与渲染
 ----------------
+
 wgpu 29.0.1        - GPU 抽象层（macOS 上使用 Metal，Linux 上使用 Vulkan）
 metal               - Apple Metal API 绑定（macOS GPU 渲染）
 cocoa 0.26.0        - macOS Cocoa 框架绑定
@@ -24,6 +25,7 @@ font-kit            - 字体加载与光栅化（Warp 分支版本）
 
 异步与网络
 ------------------
+
 tokio 1.47.1        - 异步运行时（核心支柱）
 hyper 1.6.0         - HTTP 客户端/服务器
 reqwest 0.13        - HTTP 客户端（API 调用、AI 端点）
@@ -35,6 +37,7 @@ prost               - Protobuf 序列化（gRPC API）
 
 数据与存储
 --------------
+
 serde               - 序列化框架
 serde_json          - JSON
 diesel 2.3.8        - SQLite ORM（持久化层）
@@ -44,18 +47,21 @@ git2                - Git 仓库操作
 
 终端与文本
 ---------------
+
 syntect             - 语法高亮
 arborium-*          - 基于 Tree-sitter 的解析器（30+ 种语言）
 regex               - 正则表达式
 
 AI 与认证
 ---------
+
 oauth2 5.0.0        - OAuth2 认证
 firebase            - Firebase 认证集成
 sentry              - 错误追踪与崩溃报告
 
 工具库
 ---------
+
 clap 4.5            - CLI 参数解析
 chrono              - 日期/时间处理
 uuid                - UUID 生成

@@ -16,6 +16,7 @@ type: note
 **已应用修复：** 所有Qwen仓库现在使用HTTPS，该协议通过mihomo的HTTP代理（端口7890）传输。已验证运行正常——`Qwen2.5-Coder`的获取操作在约77秒内完成了413个对象的下载。
 
 **额外提示：** 你的`.git`目录中有1.38 GiB的垃圾数据。建议运行：
+
 ```
 git -C /Users/lzwjava/projects/Qwen2.5-Coder gc --prune=now
 ```

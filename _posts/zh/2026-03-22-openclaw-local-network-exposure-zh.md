@@ -36,6 +36,7 @@ port = 18789
 ```
 
 或者如果通过命令行参数启动：
+
 ```bash
 # 从以下修改为
 openclaw --host 127.0.0.1 --port 18789
@@ -57,6 +58,7 @@ sudo apt install nginx
 ```
 
 创建配置文件 `/etc/nginx/sites-available/openclaw`：
+
 ```nginx
 server {
     listen 18790;              # 外部端口（如果更改 openclaw 的端口，也可以使用 18789）
@@ -73,6 +75,7 @@ server {
 ```
 
 启用并重启：
+
 ```bash
 sudo ln -s /etc/nginx/sites-available/openclaw /etc/nginx/sites-enabled/
 sudo nginx -t
@@ -94,6 +97,7 @@ socat TCP-LISTEN:18790,fork,reuseaddr TCP:127.0.0.1:18789
 这会将端口 `18790` 上的所有连接（可通过 LAN IP 访问）转发到本地的 `18789`。通过 `http://192.168.1.36:18790` 访问。
 
 要持久运行，请将其包装在 systemd 服务中或使用 `nohup`：
+
 ```bash
 nohup socat TCP-LISTEN:18790,fork,reuseaddr TCP:127.0.0.1:18789 &
 ```

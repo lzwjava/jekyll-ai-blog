@@ -14,7 +14,7 @@ I need to search for current Singapore work visa requirements to give you accura
 
 **Your chances are challenging, but not impossible.** Here's why:
 
-## Main Concerns:
+## Main Concerns
 
 **1. Educational Qualification**
 Your associate degree from a self-study examination program may be problematic. Singapore typically requires recognized university degrees for an Employment Pass (EP). The Ministry of Manpower now requires education verification through accredited agencies, and they look for degrees from recognized institutions.
@@ -25,12 +25,13 @@ For software engineers at age 30, you'd need to meet age-adjusted salary require
 **3. COMPASS Assessment**
 EP candidates must pass the points-based COMPASS system in addition to meeting salary requirements. Your qualifications would likely score low on this system.
 
-## Potential Paths Forward:
+## Potential Paths Forward
 
 **Option 1: S Pass**
 The S Pass requires a minimum salary of S$3,300 and is for mid-skilled workers. With 10 years of experience, you might qualify for this instead of an EP, though educational requirements still apply.
 
 **Option 2: Strengthen Your Profile**
+
 - Complete a recognized bachelor's degree (even online from an accredited university)
 - Target companies willing to offer higher salaries (S$7,000+)
 - Focus on specialized technical skills that are in high demand

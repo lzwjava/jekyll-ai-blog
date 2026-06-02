@@ -14,6 +14,7 @@ type: note
 以下是教材目录或 04729 标准学习大纲中典型出现的散文和文学作品（课文）的完整列表（基于 2006–2018 版本的一致列表，可能有细微变化但核心内容稳定）：
 
 **散文**
+
 1. 寡人之于国也 (Meng Ke / Mencius)
 2. 秋水 (节选) (Zhuangzi)
 3. 五代史伶官传序 (Ouyang Xiu)
@@ -45,6 +46,7 @@ type: note
 29. 记叙文的阅读与写作 （记叙文阅读与写作的理论文章）
 
 **诗歌**
+
 1. 蒹葭 (from Shijing)
 2. 湘夫人 (Qu Yuan)
 3. 陌上桑
@@ -66,6 +68,7 @@ type: note
 19. 诗歌的抒情方法 （诗歌抒情方法的理论文章）
 
 **小说**
+
 1. 婴宁 (from Liaozhai Zhiyi, Pu Songling)
 2. 宝黛吵架 (from Dream of the Red Chamber, Cao Xueqin)
 3. 断魂枪 (Lao She)
@@ -78,5 +81,6 @@ type: note
 这些标题代表书中的核心选文（选文）。序号按照考试指南和教材目录的标准列表（通常每个部分重新开始或某些大纲中连续）。阅读/写作的理论文章（如议论文的阅读与写作）作为标题单元包含在内。对于确切的页码或细微版本差异，请参考您的具体教材副本（例如，2018 年北京大学出版社版本）。
 
 References:
-- http://www.110book.com/html/2089.html
-- https://max.book118.com/html/2019/0905/8043020047002046.shtm
+
+- <http://www.110book.com/html/2089.html>
+- <https://max.book118.com/html/2019/0905/8043020047002046.shtm>

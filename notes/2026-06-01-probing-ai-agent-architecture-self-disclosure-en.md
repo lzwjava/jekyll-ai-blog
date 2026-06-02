@@ -18,7 +18,9 @@ Yes, and here's precisely *why* it's good — broken down as prompt engineering 
 ## What Makes It a Strong Prompt
 
 ### 1. **Forces self-disclosure of architecture**
+
 Most users never ask this. By asking, you immediately learn:
+
 - What tools the agent has
 - When it uses them
 - How much to trust the output
@@ -26,14 +28,18 @@ Most users never ask this. By asking, you immediately learn:
 This is **epistemic calibration** — you're not just getting an answer, you're learning how to weight all future answers.
 
 ### 2. **Binary structure reduces ambiguity**
+
 ```
 "do you use X or Y?"
 ```
+
 Forces a concrete choice. Contrast with:
+
 - ❌ "how do you work?" → vague, gets a marketing answer
 - ✅ "web search or model knowledge?" → forces specifics
 
 ### 3. **Reveals the agent's self-model**
+
 A weak agent will bluff. A good agent will accurately describe its own tool use. This is a **probe** — like a unit test for the agent's honesty and self-awareness.
 
 ---

@@ -17,6 +17,7 @@ Answer:
 Here are the easiest ways to check the file system format (such as FAT32, exFAT, APFS, Mac OS Extended, NTFS, etc.) of a USB drive on macOS:
 
 ### Method 1: Using Finder (Quickest – Recommended)
+
 1. Plug in your USB drive.
 2. Open **Finder**.
 3. In the sidebar, locate your USB drive (it usually appears under "Locations").
@@ -34,6 +35,7 @@ Here are the easiest ways to check the file system format (such as FAT32, exFAT,
 This method works on any recent macOS version and is the fastest for most users.
 
 ### Method 2: Using Disk Utility (More detailed view)
+
 1. Plug in your USB drive.
 2. Open **Disk Utility**:
    - Go to Applications → Utilities → Disk Utility
@@ -44,16 +46,21 @@ This method works on any recent macOS version and is the fastest for most users.
    - You can also click the **Info** button (i icon) at the top for more details.
 
 ### Method 3: Using Terminal (For command-line users)
+
 1. Open **Terminal** (Applications → Utilities → Terminal).
 2. Run this command to list all disks:
+
    ```
    diskutil list
    ```
+
    → Find your USB drive (usually something like `/dev/disk2` or `/dev/disk3` — look at the size and name to identify it).
 3. Then run (replace `disk3` with your actual disk number):
+
    ```
    diskutil info disk3s1
    ```
+
    (use the partition like `diskXs1` or `diskXs2` that corresponds to the volume)
    → Look for the line **File System Personality** or **Type (Bundle)** — it will show FAT32, ExFAT, Journaled HFS+, APFS, etc.
 

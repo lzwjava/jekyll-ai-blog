@@ -22,6 +22,7 @@ To configure a proxy for Gradle in Visual Studio Code (VSCode) so it can downloa
 2. **Add Proxy Settings to `gradle.properties`**
    - Open the `gradle.properties` file in a text editor.
    - Add the following lines, replacing the placeholders (`<proxyHost>`, `<proxyPort>`, `<username>`, `<password>`) with your actual proxy details:
+
      ```
      systemProp.http.proxyHost=<proxyHost>
      systemProp.http.proxyPort=<proxyPort>
@@ -32,7 +33,9 @@ To configure a proxy for Gradle in Visual Studio Code (VSCode) so it can downloa
      systemProp.https.proxyUser=<username>
      systemProp.https.proxyPassword=<password>
      ```
+
    - Example with real values:
+
      ```
      systemProp.http.proxyHost=proxy.example.com
      systemProp.http.proxyPort=8080
@@ -43,6 +46,7 @@ To configure a proxy for Gradle in Visual Studio Code (VSCode) so it can downloa
      systemProp.https.proxyUser=myuser
      systemProp.https.proxyPassword=mypassword
      ```
+
    - If your proxy doesn’t require authentication (username/password), you can omit the `proxyUser` and `proxyPassword` lines.
 
 3. **Optional: Configure Proxy per Project**
@@ -59,6 +63,7 @@ To configure a proxy for Gradle in Visual Studio Code (VSCode) so it can downloa
      - In VSCode, go to `File > Preferences > Settings`.
      - Search for `java.gradle.build.jvmArguments`.
      - Add something like:
+
        ```
        -Dhttp.proxyHost=<proxyHost> -Dhttp.proxyPort=<proxyPort> -Dhttps.proxyHost=<proxyHost> -Dhttps.proxyPort=<proxyPort>
        ```
@@ -68,6 +73,7 @@ To configure a proxy for Gradle in Visual Studio Code (VSCode) so it can downloa
    - Run a Gradle task (e.g., `gradle build` or `gradle dependencies`) to confirm it downloads files through the proxy.
 
 ### Troubleshooting
+
 - **Check Proxy Details**: Ensure your proxy host, port, and credentials are correct.
 - **Firewall or Network**: If it still fails, your proxy or network might block specific Gradle URLs (e.g., `https://services.gradle.org`). Test with a command like `curl` or consult your network admin.
 - **Verbose Output**: Run Gradle with `--debug` or `--info` (e.g., `gradle build --debug`) in the VSCode terminal to see detailed logs about network requests.

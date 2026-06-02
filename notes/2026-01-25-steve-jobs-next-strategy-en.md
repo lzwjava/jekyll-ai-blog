@@ -10,13 +10,14 @@ translated: false
 type: note
 ---
 
-**Question:** Provide a comprehensive summary of the YouTube video at https://www.youtube.com/watch?v=CtnX1EJHbC0
+**Question:** Provide a comprehensive summary of the YouTube video at <https://www.youtube.com/watch?v=CtnX1EJHbC0>
 
 **Answer:**
 
 This YouTube video is an **internal NeXT company presentation** delivered by **Steve Jobs** in **1991**. It is a chalk-talk style talk (Jobs speaking directly to the camera/whiteboard with hand-drawn diagrams), uploaded in 2012 by the channel "all about Steve Jobs.com". The video runs for approximately the length typical of such archival talks (around 30-60 minutes based on context), has over 200,000 views, and is considered a valuable historical piece showing Jobs' strategic thinking during the NeXT period.
 
 ### Core Theme
+
 Steve Jobs explains NeXT's refined **go-to-market strategy** and **target customer identification** after analyzing recent sales data and field feedback from the prior 90 days. He argues that NeXT must focus sharply on a fast-emerging, underserved market segment rather than trying to compete broadly with either traditional PCs/Macs or high-end scientific/engineering workstations.
 
 ### Key Points and Structure of the Talk
@@ -61,6 +62,7 @@ Steve Jobs explains NeXT's refined **go-to-market strategy** and **target custom
    - Continue aggressive learning from customers, refine messaging (e.g., emphasize education for interpersonal computing), and use software demo "camps" to showcase development speed.
 
 ### Historical Significance
+
 The talk foreshadows many ideas that later became central to macOS (after Apple acquired NeXT in 1996): object-oriented development (Objective-C roots), Unix underpinnings with a polished UI, focus on developers/builders, and client-server networked computing. It shows Jobs ruthlessly narrowing focus to a high-growth niche where NeXT's technology provided clear differentiation — a classic Jobs strategic pivot.
 
 References:

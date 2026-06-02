@@ -35,7 +35,7 @@ Spring Boot can run with different embedded servers:
 * **Undertow** (alternative servlet container)
 * **Netty** (used by Spring WebFlux, not servlet-based)
 
-### Ways to Check:
+### Ways to Check
 
 1. **Look at your dependencies**
 
@@ -50,6 +50,7 @@ Spring Boot can run with different embedded servers:
      ```
      Tomcat started on port(s): 8080 (http)
      ```
+
    * Example (Netty):
 
      ```

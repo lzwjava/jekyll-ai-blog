@@ -19,16 +19,19 @@ Ahh got it 👍 — Yes, Flutter has a **verbose mode** which prints *everything
 Just add the `-v` (or `--verbose`) flag:
 
 - For `flutter clean`:
+
   ```bash
   flutter clean -v
   ```
 
 - For fetching dependencies:
+
   ```bash
   flutter pub get -v
   ```
 
 - For running your app:
+
   ```bash
   flutter run -v
   ```
@@ -38,6 +41,7 @@ This will dump detailed logs (network calls, file deletions, pod commands, etc.)
 ---
 
 ### 📌 Tips for Reading Verbose Logs
+
 - Look at the **last few lines** shown before it stops responding → that tells you what step is hanging.
 - Often hangs happen during:
   - **CocoaPods** resolution (network slow / repo outdated).

@@ -34,7 +34,7 @@ type: note
 
 参考文献：
 
-- https://en.wikipedia.org/wiki/Network_switch
-- https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/
-- https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/network-switch-vs-router.html
-- https://www.fortinet.com/resources/cyberglossary/what-is-ethernet-switching
+- <https://en.wikipedia.org/wiki/Network_switch>
+- <https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/>
+- <https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/network-switch-vs-router.html>
+- <https://www.fortinet.com/resources/cyberglossary/what-is-ethernet-switching>

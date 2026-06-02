@@ -10,16 +10,18 @@ translated: false
 type: note
 ---
 
-Question: Suppose there is a main router (China Telecom's 天翼 gateway using PPPoE account like 020xxx@163.gd), and two sub-routers (both TL-XDR3050 EasyMesh version). I want to get them all working with wired repeater / wireless repeater mode, and also considering DHCP mode to connect upstream.
+Question: Suppose there is a main router (China Telecom's 天翼 gateway using PPPoE account like <020xxx@163.gd>), and two sub-routers (both TL-XDR3050 EasyMesh version). I want to get them all working with wired repeater / wireless repeater mode, and also considering DHCP mode to connect upstream.
 
 Answer:
 
 Your setup:
-- **Main router** = China Telecom 天翼 gateway (光猫/ONT, often ZTE or similar model, uses PPPoE dial-up with account like 020xxx@163.gd).
+
+- **Main router** = China Telecom 天翼 gateway (光猫/ONT, often ZTE or similar model, uses PPPoE dial-up with account like <020xxx@163.gd>).
 - **Sub1 and Sub2** = Two TL-XDR3050 EasyMesh edition routers.
 - Goal: Make everything work together for better Wi-Fi coverage (full house, no dead zones), supporting wired or wireless repeating, while avoiding IP conflicts or no-internet issues.
 
 The TL-XDR3050 EasyMesh version supports three main modes:
+
 - **Router mode** (default, with its own DHCP).
 - **AP (有线中继) mode** — wired repeater/access point (recommended for stability, zero speed loss on wired backhaul).
 - **Wireless repeater / EasyMesh mode** — wireless relay/Mesh (one-key via EasyMesh button, supports multi-hop/cascading).
@@ -27,20 +29,22 @@ The TL-XDR3050 EasyMesh version supports three main modes:
 You can mix modes: e.g., use EasyMesh for wireless extension or classic AP for wired. Since you have two sub-routers and mention "DHCP mode to connect upstream," the safest and best-performing way is to use **EasyMesh wireless** (or hybrid wired+wireless) if wireless is needed, or **AP mode** if you can run cables.
 
 ### Recommended Setup: Use EasyMesh (Wireless or Hybrid) – Easiest & Supports Multiple Subs
+
 EasyMesh on XDR3050 allows up to 8 nodes total (main + subs), with multi-hop support (e.g., main → sub1 wireless → sub2 wireless). It handles DHCP automatically (only main dials PPPoE and runs DHCP; subs sync settings and disable their own DHCP).
 
 **Steps**:
+
 1. **Prepare the main 天翼 gateway**:
-   - Keep it in **Router mode** (default) — it dials PPPoE with your 020xxx@163.gd account and provides internet + DHCP (usually LAN 192.168.1.1).
+   - Keep it in **Router mode** (default) — it dials PPPoE with your <020xxx@163.gd> account and provides internet + DHCP (usually LAN 192.168.1.1).
    - Do **not** change to bridge mode unless you want the XDR3050 to dial PPPoE (more advanced, can give better performance but riskier if account/VLAN issues arise).
    - Connect nothing yet.
 
 2. **Set one XDR3050 as the "main/extended" router (optional but recommended for better control)**:
    - Factory reset both XDR3050 (press RESET 10+ seconds).
    - Connect one XDR3050 temporarily to a PC (Wi-Fi or LAN cable).
-   - Log in: http://tplinkwifi.net or 192.168.0.1.
+   - Log in: <http://tplinkwifi.net> or 192.168.0.1.
    - If you want it to handle PPPoE instead of the gateway (for full Wi-Fi 6 speed, less double NAT):
-     - Advanced > Internet > Change to PPPoE > Enter your 020xxx@163.gd account/password > Save.
+     - Advanced > Internet > Change to PPPoE > Enter your <020xxx@163.gd> account/password > Save.
      - But first test if the gateway can be bridged (login to gateway 192.168.1.1 with super admin password from telecom, set WAN to Bridge; search "天翼网关 桥接" for model-specific guide).
    - Most users keep gateway as main dialer to avoid complications.
 
@@ -70,6 +74,7 @@ EasyMesh on XDR3050 allows up to 8 nodes total (main + subs), with multi-hop sup
    - Check IPs: On PC, run `ipconfig` (Windows) — Default Gateway should be only the 天翼 gateway IP (e.g. 192.168.1.1).
 
 **Which to Choose?**
+
 - **Wireless only** → EasyMesh one-key (supports sub1 → sub2 hop, good for no-cable houses).
 - **Some wired possible** → Hybrid: Wire sub1 to gateway (faster backhaul), wireless sub2 to sub1.
 - **Full wired** → AP mode on both subs (fastest, most stable, no speed halving).

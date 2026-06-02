@@ -77,7 +77,8 @@ prediction = model(test_seq)
 print(f'Prediction: {prediction.item():.4f}')
 ```
 
-#### How it Works:
+#### How it Works
+
 - **Data Generation**: Creates random sequences of length 10 with a binary label (1 if sum > 0, else 0).
 - **Model**: Uses `nn.RNN` (basic RNN cell). The forward pass processes the sequence step-by-step, using the last hidden state for output.
 - **Training**: Standard PyTorch loop with BCE loss for binary classification.
@@ -86,6 +87,7 @@ print(f'Prediction: {prediction.item():.4f}')
 This is a vanilla RNN; for better performance on long sequences, consider LSTM or GRU variants (e.g., replace `nn.RNN` with `nn.LSTM`).
 
 ### LSTM Variant (Quick Extension)
+
 For vanishing gradients, swap to LSTM:
 
 ```python

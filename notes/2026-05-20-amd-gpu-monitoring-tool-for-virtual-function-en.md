@@ -36,6 +36,7 @@ ssh root@134.199.199.108
 ## Phase 2: Hardware Identification
 
 **`lspci` scan** — the critical discovery. Found the GPU at `83:00.0`:
+
 ```
 Processing accelerators: AMD/ATI Aqua Vanjaram [Instinct MI300X VF]
 ```
@@ -47,6 +48,7 @@ Key detail: it's a **VF** (Virtual Function), not a PF (Physical Function). This
 **Checked `/sys/class/kfd/` topology** — only a CPU node, no GPU node. KFD (Kernel Fusion Driver, AMD's compute driver) doesn't enumerate SR-IOV VFs.
 
 **Read PCI sysfs directly** — this is where the real data lived:
+
 - `/sys/bus/pci/devices/0000:83:00.0/vendor` → `0x1002` (AMD)
 - `/sys/bus/pci/devices/0000:83:00.0/device` → `0x74b5` (MI300X)
 - `current_link_speed` → `32.0 GT/s PCIe` (Gen 5)
@@ -84,12 +86,14 @@ Since `rocm-smi` couldn't see the GPU, I built a Python script that reads the sa
 | Driver version | `/sys/module/amdgpu/version` |
 
 **Device filtering logic** — iterates `/sys/bus/pci/devices/*`, checks:
+
 1. `vendor == 0x1002` (AMD)
 2. `class` starts with `0x03` (display) or `0x12` (processing accelerator)
 
 This catches both GPUs and compute accelerators like the MI300X.
 
 **Deployment hurdles:**
+
 - Attempt 1: bash heredoc through nested SSH quoting → syntax errors (here-doc delimiter issues)
 - Attempt 2: Python heredoc through SSH → blocked by safety filter
 - Attempt 3 (worked): wrote the script locally with `write_file`, then `scp` to the server

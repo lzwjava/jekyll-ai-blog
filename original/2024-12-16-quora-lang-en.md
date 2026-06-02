@@ -12,7 +12,7 @@ Quora is well-known for its vast collection of user-generated content, offering 
 
 When you add a language, Quora doesn’t just translate the content. Instead, it redirects you to a separate version of the site in that language, such as `jp.quora.com` for Japanese or `fr.quora.com` for French. This makes Quora more accessible to non-English speakers or anyone wanting to explore content in their native tongue.
 
-#### How It Works:
+#### How It Works
 
 - Simple Language Addition: You can easily add a language from your settings. Once added, Quora will redirect you to the relevant language-specific site, showing content tailored to your selected language.
 - Content Tailored to Your Preference: The platform dynamically adjusts the content display, making it more relatable and easier to understand.

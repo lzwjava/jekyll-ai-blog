@@ -16,7 +16,7 @@ Answer:
 
 **Syllabus** 是一份概述课程学习计划的文件，通常用于学校、学院或大学等教育环境中。它为教师和学生双方提供指导。
 
-### Syllabus 通常包含的关键要素：
+### Syllabus 通常包含的关键要素
 
 - **Course title and description**（课程名称及描述）：课程的名称，以及对其内容和目标的简要概述。
 - **Learning outcomes/objectives**（学习成果/目标）：预期学生在课程结束后应掌握的知识或具备的能力。

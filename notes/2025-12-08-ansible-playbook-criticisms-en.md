@@ -33,6 +33,7 @@ Ansible playbooks, while widely praised for simplifying infrastructure automatio
 These opinions highlight Ansible's strengths in quick, agentless automation but underscore frustrations with scaling it into full-fledged systems. If you're building playbooks, prioritize simplicity: use modules over shell commands, test idempotency rigorously, and know when to pivot to code.
 
 References:
+
 - [Ansible Playbooks with 3,400 lines aren't better than bash](https://x.com/brankopetric00/status/1997053364690211182)
 - [Open Source Collection of Ansible Good and Bad Practices](https://www.reddit.com/r/ansible/comments/xw588g/open_source_collection_of_ansible_good_and_bad/)
 - [Source of Truth is not important](https://www.reddit.com/r/ansible/comments/1dqtjja/source_of_truth_is_not_important/)

@@ -15,14 +15,18 @@ No, Microsoft Teams does not have an official standalone command-line utility (l
 However, you can achieve this via command line using PowerShell and the Microsoft Graph API. This requires installing the Microsoft Graph PowerShell SDK, authenticating with your Microsoft account, and running a cmdlet to update your presence. Here's a step-by-step guide:
 
 ### Prerequisites
+
 1. Install PowerShell (if not already available; it's built into Windows 10+).
 2. Open PowerShell as an administrator and install the module:
+
    ```
    Install-Module Microsoft.Graph -Scope CurrentUser
    ```
 
 ### Set Your Status
+
 1. Connect to Microsoft Graph (this will prompt for authentication via browser):
+
    ```
    Connect-MgGraph -Scopes "Presence.ReadWrite"
    ```
@@ -35,21 +39,25 @@ However, you can achieve this via command line using PowerShell and the Microsof
    - `Offline` (appears offline to others)
 
    Example to set to offline:
+
    ```
    Set-MgUserPresence -UserId "YourUserId" -Presence "Offline"
    ```
 
    Example to set to away:
+
    ```
    Set-MgUserPresence -UserId "YourUserId" -Presence "Away"
    ```
 
 3. To disconnect when done:
+
    ```
    Disconnect-MgGraph
    ```
 
 ### Notes
+
 - This updates your presence immediately, but it may reset based on your activity (e.g., idle time triggers "Away").
 - For automation (e.g., scripts to toggle status on schedule), wrap the above in a `.ps1` file and run it via Task Scheduler.
 - If you want to set a custom status message too (e.g., "Out for lunch"), use `Set-MgUserPresenceStatusMessage`.

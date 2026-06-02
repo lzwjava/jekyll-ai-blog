@@ -34,6 +34,7 @@ Congratulations — Ansible is working!
 ### 2. Run a command on one remote server (most common beginner case)
 
 Assume:
+
 - You have a server 192.168.1.100
 - You normally SSH to it as user `ubuntu` with a key (~/.ssh/id_rsa)
 

@@ -17,10 +17,12 @@ Answer:
 *Zen and the Art of Motorcycle Maintenance: An Inquiry into Values* (1974) is a philosophical novel that blends a father–son motorcycle trip across the American Northwest with deep intellectual autobiography and philosophical inquiry.
 
 ### Core Structure
+
 - **Narrative layer**: The unnamed narrator (a stand-in for Pirsig) travels by motorcycle from Minnesota to California with his 11-year-old son Chris and two friends (John and Sylvia Sutherland). The journey serves as a framework for reflection.
 - **Chautauqua layer**: A term Pirsig borrows from the old traveling lecture circuits, meaning an ongoing informal talk about ideas. The book is essentially one long Chautauqua.
 
 ### Main Philosophical Ideas
+
 1. **Quality**
    Pirsig’s central concept. Quality is neither subjective (just in the mind) nor objective (just in the object)—it is the pre-intellectual reality that gives rise to both subject and object. It is what makes something “good” before we rationalize it. The entire book is an attempt to define and defend Quality metaphysically.
 
@@ -45,6 +47,7 @@ Answer:
    Phaedrus was committed and given electroconvulsive therapy, effectively “killing” his former personality. The book is about the narrator slowly remembering and reintegrating Phaedrus—and reconciling with his son Chris, who is also struggling emotionally.
 
 ### Key Takeaways Most Readers Remember
+
 - “Quality” is indefinable yet the most important thing in life.
 - Peace of mind is essential for doing good work (on a bike or anything else).
 - The dichotomy between art and technology, feeling and reason, is false and harmful.
@@ -53,5 +56,6 @@ Answer:
 The book is not really about Zen Buddhism or motorcycle repair in a literal sense; those are metaphors for a much larger inquiry into how we should live and what “the good” actually is.
 
 References:
+
 - [Zen and the Art of Motorcycle Maintenance - Wikipedia](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance)
 - [Robert M. Pirsig’s official website archive (summary by the author)](https://www.moq.org/)

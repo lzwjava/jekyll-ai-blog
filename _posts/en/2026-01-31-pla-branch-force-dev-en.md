@@ -20,6 +20,7 @@ Together, **"军种主建"** refers to the principle that **each military servic
 This concept is often paired with **"战区主战"** (zhànqū zhǔzhàn) - "theater commands primarily responsible for fighting" - which together form a key organizational principle in the PLA's (People's Liberation Army) military reforms that separated the functions of force development from operational command.
 
 In practical terms:
+
 - **Military services (军种)** focus on building combat-ready forces
 - **Theater commands (战区)** focus on employing those forces in actual operations
 

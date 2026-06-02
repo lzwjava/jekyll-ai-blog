@@ -45,6 +45,7 @@ type: note
 这些观点包括“许多研究人员私下持有”到“在课程辩论中公开争论”。你会发现双方都有强烈的捍卫者，尤其是在教学法方面（行列式与无行列式，坐标优先与抽象优先）。
 
 参考文献：
+
 - [Down with Determinants! – Sheldon Axler](https://www.axler.net/DWD.html)
 - [Linear Algebra Done Right – Sheldon Axler (Chapter on determinants)](https://linear.axler.net/)
 - [Terence Tao’s blog posts on determinants and exterior algebra](https://terrytao.wordpress.com/?s=determinant)

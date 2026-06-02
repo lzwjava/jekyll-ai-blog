@@ -19,12 +19,14 @@ Apache Bench (ab) 是 Apache HTTP 服务器附带的一个简单命令行工具�
 ab 工具随 Apache HTTP 服务器捆绑提供。安装方式如下：
 
 - **Ubuntu/Debian (Linux 系统)**：
+
   ```
   sudo apt update
   sudo apt install apache2-utils
   ```
 
 - **macOS (通过 Homebrew)**：
+
   ```
   brew install httpd
   ```
@@ -38,6 +40,7 @@ ab 工具随 Apache HTTP 服务器捆绑提供。安装方式如下：
 ### 基础用法
 
 核心命令语法为：
+
 ```
 ab [选项] URL
 ```
@@ -45,6 +48,7 @@ ab [选项] URL
 - **URL 格式**：需为完整 HTTP 地址，例如 `http://example.com/`（若需测试 HTTPS，需使用 `openssl s_client` 等封装工具或改用 `wrk` 等工具）。
 
 常用选项：
+
 - `-n <请求数>`：执行请求总数（默认值：1）。建议测试时设置为 100–1000。
 - `-c <并发数>`：单次并发请求数（默认值：1）。建议保持较低数值（如 10–50）避免压垮服务器。
 - `-t <秒数>`：按持续时间执行测试而非固定请求数。
@@ -58,10 +62,13 @@ ab [选项] URL
 
 1. **简单 GET 请求测试**：
    对本地服务器进行 100 次请求、10 个并发用户的测试：
+
    ```
    ab -n 100 -c 10 http://localhost:8080/
    ```
+
    输出示例：
+
    ```
    服务器软件：        Apache/2.4.41
    服务器主机名：      localhost
@@ -80,11 +87,13 @@ ab [选项] URL
 
 2. **带 POST 数据的测试**（如表单提交）：
    创建包含提交数据的 `postdata.txt` 文件（例如 `key=value`）：
+
    ```
    ab -n 50 -c 5 -p postdata.txt -T application/x-www-form-urlencoded http://example.com/api/endpoint
    ```
 
 3. **按持续时间测试**：
+
    ```
    ab -n 10000 -c 20 -t 30 http://example.com/  # 最多 1 万次请求或 30 秒
    ```

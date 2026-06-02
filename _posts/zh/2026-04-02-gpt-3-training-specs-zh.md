@@ -16,18 +16,21 @@ type: note
 ---
 
 ### **1. 训练成本**
+
 GPT-3 单次训练运行的成本估计在 **460 万美元至 500 万美元** 之间。
 
 * **计算费用：** 这个数字主要涵盖了云端（Microsoft Azure）高端 GPU 实例的租赁或运营成本。
 * **总预算：** 虽然原始计算成本约为 500 万美元，但 OpenAI 的总成本——包括研究、人员以及多次失败或实验运行——很可能要高得多。
 
 ### **2. 训练时间**
+
 最终模型的实际训练时间估计使用了高度并行化的集群，耗时 **34 天**。
 
 * **并行性：** 为实现这一点，OpenAI 使用了 **1,024 个 NVIDIA A100 GPU** 同步工作。
 * **假设比较：** 如果你尝试在单个 NVIDIA Tesla V100 GPU 上训练 GPT-3，将大约需要 **355 年** 才能完成。
 
 ### **3. 硬件（“卡片”）**
+
 OpenAI 使用了数据中心级 GPU，而不是消费级显卡。
 
 * **主要卡片：** 该模型最初在自定义 Microsoft 超级计算机的 **NVIDIA Tesla V100** GPU 上开发和训练。
@@ -46,6 +49,7 @@ OpenAI 使用了数据中心级 GPU，而不是消费级显卡。
 | **总参数** | 1750 亿 |
 
 **参考文献：**
+
 * [OpenAI Presents GPT-3 Technical Overview](https://developer.nvidia.com/blog/openai-presents-gpt-3-a-175-billion-parameters-language-model/)
 * [Demystifying GPT-3 Training Costs](https://lambda.ai/blog/demystifying-gpt-3)
 * [GPT-3 Wikipedia Technical Summary](https://en.wikipedia.org/wiki/GPT-3)

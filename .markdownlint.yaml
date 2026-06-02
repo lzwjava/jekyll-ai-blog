@@ -1,0 +1,36 @@
+# markdownlint config for Jekyll blog
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+default: true
+
+# MD013 - Line length: disable for blog posts (prose naturally has long lines)
+MD013: false
+
+# MD033 - Inline HTML: Jekyll posts use HTML (includes, embeds, iframes)
+MD033: false
+
+# MD041 - First line should be a heading: Jekyll front matter precedes headings
+MD041: false
+
+# MD024 - Duplicate headings: blog posts may have repeated "##" across sections
+MD024:
+  siblings_only: true
+
+# MD025 - Single H1: Jekyll title comes from front matter, not markdown
+MD025: false
+
+# MD046 - Code block style: allow both indented and fenced
+MD046:
+  style: fenced
+
+# MD028 - Blank line inside blockquote: allow conversational quote blocks
+MD028: false
+
+# MD036 - Emphasis used as heading: blog posts use bold dates as pseudo-headings
+MD036: false
+
+# MD045 - Images without alt text: many inline screenshots in drafts
+MD045: false
+
+# MD059 - Descriptive link text: "[here]" and "[Link]" are fine in blog context
+MD059: false

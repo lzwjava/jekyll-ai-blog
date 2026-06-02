@@ -29,6 +29,7 @@ Here are several genuinely unpopular (or at least counter-mainstream) opinions a
 These opinions tend to be unpopular because the dominant online narrative frames night-owl life as rebellious, creative, and intellectually elite, when in reality a lot of it is just low-conscientiousness behavior dressed up as personality.
 
 References:
+
 - [Meta-analysis on chronotype and academic performance](https://pubmed.ncbi.nlm.nih.gov/31202626/)
 - [Chronotype and conscientiousness correlation studies](https://www.sciencedirect.com/science/article/abs/pii/S0191886911004952)
 - [Economic outcomes by chronotype](https://www.nber.org/papers/w23144)

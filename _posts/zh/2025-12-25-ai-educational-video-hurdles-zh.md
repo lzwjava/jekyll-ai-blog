@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：即使有目前的 AI/LLM 技术，为什么许多高质量的教育类 YouTube 视频（例如 https://www.youtube.com/watch?v=s_Ntt6eTn94 中的视频）仍然无法轻松由 AI 生成？人类制作的视频是否仍然更具实用性和竞争力？是因为细节过多导致 AI 生成成本更高或更困难吗？AI 生成此类视频的主要障碍是什么？
+问题：即使有目前的 AI/LLM 技术，为什么许多高质量的教育类 YouTube 视频（例如 <https://www.youtube.com/watch?v=s_Ntt6eTn94> 中的视频）仍然无法轻松由 AI 生成？人类制作的视频是否仍然更具实用性和竞争力？是因为细节过多导致 AI 生成成本更高或更困难吗？AI 生成此类视频的主要障碍是什么？
 
 回答：
 

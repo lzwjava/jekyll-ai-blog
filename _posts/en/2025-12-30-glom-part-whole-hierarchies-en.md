@@ -16,7 +16,8 @@ type: note
 
 Geoffrey Hinton gave a guest lecture in Stanford's CS25: Transformers United course (specifically in an earlier version of the seminar series). The talk was titled "Representing Part-Whole Hierarchies in a Neural Network" and focused on his proposed architecture called **GLOM**.
 
-### Key Points from Hinton's Lecture:
+### Key Points from Hinton's Lecture
+
 - Hinton introduced **GLOM** as an imaginative neural network system designed to better represent **part-whole hierarchies** (e.g., how parts of an object form wholes, like features in a face forming the face itself) in visual perception.
 - He argued that current Transformer-based systems, while powerful, struggle with parsing scenes into coherent part-whole structures and interpreting representations intuitively.
 - GLOM combines ideas from several research advances:

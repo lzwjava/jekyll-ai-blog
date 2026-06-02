@@ -22,6 +22,7 @@ firefox  # Or whatever app triggers it
 To make it permanent, add that export line to your `~/.bashrc` or `~/.profile` file.
 
 ### References
+
 - [Not loading module "atk-bridge": The functionality is provided by GTK natively](https://stackoverflow.com/questions/75406844/not-loading-module-atk-bridge-the-functionality-is-provided-by-gtk-natively)
 - [When launching firefox, get error Not loading module "atk-bridge"](https://askubuntu.com/questions/1462267/when-launching-firefox-get-error-not-loading-module-atk-bridge)
 - [giving message when run any gh commad: Not loading module "atk-bridge"](https://github.com/cli/cli/issues/9043)

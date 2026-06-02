@@ -16,6 +16,7 @@ type: note
 这是一个 **GitHub 代理/加速服务**（`GitHub 代理加速`）—— 一种镜像/CDN 服务，用于加速中国大陆用户下载 GitHub 资源（因 GFW 导致速度缓慢或受限）。
 
 它代理以下内容：
+
 - GitHub 文件下载（仓库、发布版、原始文件）
 - `github.com` 的发布版资源
 - `raw.githubusercontent.com` 内容
@@ -34,6 +35,7 @@ https://ghfast.top/https://github.com/owner/repo/releases/download/v1.0/binary.t
 ```
 
 或者用于 `raw.githubusercontent.com`：
+
 ```bash
 https://ghfast.top/https://raw.githubusercontent.com/owner/repo/main/file.txt
 ```

@@ -18,7 +18,7 @@ type: note
 ### 为什么这个设置能修复原有的 WebSocket 问题并启用复制功能
 
 - **Origin 变为 localhost（secure context）**
-  在本地机器上运行 `ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36` 并保持隧道打开，然后在浏览器中打开 `http://localhost:18789`（或 `http://127.0.0.1:18789`），浏览器会将页面视为来自 **http://localhost:18789**。
+  在本地机器上运行 `ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36` 并保持隧道打开，然后在浏览器中打开 `http://localhost:18789`（或 `http://127.0.0.1:18789`），浏览器会将页面视为来自 **<http://localhost:18789**。>
   OpenClaw gateway 将 `localhost`（127.0.0.1）视为 **loopback / secure context**，即使是纯 HTTP。这会绕过适用于非 loopback / 远程 IP（如您原来的 `http://192.168.1.36:18789` 访问）的多项严格安全检查。
 
 - **自动放宽的关键安全检查**
@@ -35,9 +35,11 @@ type: note
 ### 如何正确使用
 
 1. 在本地计算机上打开终端并运行：
+
    ```bash
    ssh -N -L 18789:127.0.0.1:18789 lzw@192.168.1.36
    ```
+
    - 保持此终端打开（关闭终端隧道会断开）。
    - 可能需要输入密码或使用密钥认证。
 
@@ -52,12 +54,14 @@ type: note
 ### 可选：使其更方便
 
 - 在 `~/.ssh/config` 中添加以下内容以便更容易重连：
+
   ```
   Host openclaw-tunnel
       HostName 192.168.1.36
       User lzw
       LocalForward 18789 127.0.0.1:18789
   ```
+
   然后只需运行：`ssh -N openclaw-tunnel`
 
 - 对于持久隧道（自动重连），如果已安装 `autossh`，使用：
@@ -65,6 +69,7 @@ type: note
 
 - 如果仍出现“origin not allowed”（localhost 下罕见）：
   在服务器（192.168.1.36）上运行：
+
   ```bash
   openclaw config set gateway.controlUi.allowedOrigins '["http://localhost:18789", "http://127.0.0.1:18789"]'
   openclaw gateway restart

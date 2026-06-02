@@ -26,6 +26,7 @@ I'll explain both approaches with code examples. We'll assume `CoreController` d
 This is ideal if you deploy separate instances per region (e.g., via environment variables or application properties). Beans are loaded conditionally based on the active profile.
 
 #### Step 1: Define the Interface and Implementations
+
 Create an interface for the region-specific logic:
 
 ```java
@@ -69,6 +70,7 @@ public class TwCoreService implements CoreService {
 ```
 
 #### Step 2: Autowire in CoreController
+
 ```java
 @RestController
 public class CoreController {
@@ -87,6 +89,7 @@ public class CoreController {
 ```
 
 #### Step 3: Activate Profiles
+
 - In `application.properties` or via command line:
   - Run with `--spring.profiles.active=sg` for Singapore beans.
   - This ensures only the `SgCoreService` bean is created and autowired.
@@ -99,6 +102,7 @@ This approach is simple but requires restarting or separate apps per region. Not
 For a single application handling multiple regions dynamically (e.g., based on HTTP request headers like `X-Region: sg`), use a Map of beans. Spring can autowire all implementations into a Map<String, CoreService>, where the key is the bean name.
 
 #### Step 1: Define the Interface and Implementations
+
 Same as above, but without `@Profile`:
 
 ```java
@@ -135,6 +139,7 @@ public class TwCoreService implements CoreService {
 ```
 
 #### Step 2: Autowire a Map in CoreController
+
 ```java
 @RestController
 public class CoreController {
@@ -161,6 +166,7 @@ public class CoreController {
 - For selection: Use a request header/param to determine the region. This makes it dynamic per request.
 
 #### Optional: Using @Qualifier for Specific Injection
+
 If you want to inject a specific bean manually:
 
 ```java
@@ -173,9 +179,11 @@ public class CoreController {
     // ... similarly for others
 }
 ```
+
 But this isn't dynamic; use the Map for runtime switching.
 
 #### Step 3: Configuration and Best Practices
+
 - In your Spring Boot main class: `@SpringBootApplication` is sufficient; Spring scans for `@Service` beans.
 - Handle defaults: Add a fallback service if no region matches.
 - For more complex conditions, use `@ConditionalOnExpression` or custom `@Conditional` annotations on beans.
@@ -183,6 +191,7 @@ But this isn't dynamic; use the Map for runtime switching.
 - Testing: Use `@SpringBootTest` with mock requests to test different regions.
 
 ### Which Approach to Choose?
+
 - Use **Profiles** if regions are separated by deployment/environment (e.g., different servers for SG/HK/TW).
 - Use **Map/Strategy** for a unified app handling all regions at runtime (more flexible for microservices).
 

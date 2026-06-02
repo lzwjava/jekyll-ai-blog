@@ -20,12 +20,14 @@ You've got the right intuition. Here's a comprehensive breakdown:
 ## Terminal-Based Tools (Claude Code / OpenAI Codex CLI)
 
 ### Advantages
+
 - **Real environment context** — they can actually run commands, read your files, check your OS, inspect logs, query databases, run tests, etc. This is a massive advantage for debugging and dev work.
 - **Agentic workflows** — they can chain multiple steps autonomously (edit file → run test → fix error → commit)
 - **No copy-paste friction** — no need to manually paste error logs or file contents
 - **Direct git/shell integration** — can read your actual codebase structure
 
 ### Disadvantages
+
 - **Token cost** — yes, you pay per token. Long agentic tasks with many file reads can get expensive quickly
 - **No rich UI** — pure terminal; no rendered tables, no visual diffs (well, some limited rendering)
 - **Web search is limited or absent** — Claude Code doesn't browse the web natively the same way
@@ -36,6 +38,7 @@ You've got the right intuition. Here's a comprehensive breakdown:
 ## Web-Based Chatbots (Claude.ai / ChatGPT / Grok)
 
 ### Advantages
+
 - **Free tiers available** — Claude.ai, ChatGPT, Grok all have free plans
 - **Rich UI** — rendered Markdown, tables, charts, interactive artifacts, React previews
 - **Better web search** — Claude.ai and Grok have real-time web search built-in
@@ -43,6 +46,7 @@ You've got the right intuition. Here's a comprehensive breakdown:
 - **No setup required** — just open browser and go
 
 ### Disadvantages
+
 - **No real environment access** — they can't actually run your code in your environment (only sandboxed execution)
 - **You must provide context manually** — paste your error, paste your file, describe your setup
 - **Context gets stale** — they don't *know* your machine's state

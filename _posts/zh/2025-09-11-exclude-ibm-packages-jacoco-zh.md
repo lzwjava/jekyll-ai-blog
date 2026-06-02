@@ -57,26 +57,32 @@ type: note
 ---
 
 ### **说明：**
+
 - **`<excludes>`**：此部分指定应从覆盖率报告中排除的类或包。
 - **`<exclude>com/ibm/**</exclude>`**：这会排除 `com.ibm` 包及其所有子包下的所有类。
 
 ---
 
 ### **补充说明：**
+
 - 如需排除多个包，可添加更多 `<exclude>` 条目：
+
   ```xml
   <excludes>
       <exclude>com/ibm/**</exclude>
       <exclude>org/apache/**</exclude>
   </excludes>
   ```
+
 - 如果在 **WebSphere Liberty** 中使用 **JaCoCo**，请确保 JaCoCo 代理已在 `server.env` 或 `jvm.options` 文件中正确配置，并且 `pom.xml` 中的排除项符合您的要求。
 
 ---
 
 ### **最佳实践：**
+
 - 始终通过运行覆盖率报告并检查排除的包是否未包含在结果中来验证排除项。
 - 如果需要在运行时（例如在 JaCoCo 代理参数中）排除包，可以在代理参数中使用 `excludes` 参数：
+
   ```plaintext
   -javaagent:/path/to/jacocoagent.jar=destfile=/path/to/jacoco.exec,excludes=com.ibm.*
   ```

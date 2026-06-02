@@ -15,10 +15,12 @@ type: note
 4-bit quantization is a technique to dramatically reduce the memory footprint of large language models (LLMs) by storing each weight using only 4 bits instead of the usual 16-bit (FP16/BF16) or 32-bit (FP32) precision.
 
 Normal (full-precision) models:
+
 - FP32: 4 bytes per parameter → 7B model ≈ 28 GB
 - FP16/BF16: 2 bytes per parameter → 7B model ≈ 14 GB
 
 4-bit quantization:
+
 - ~0.5 bytes per parameter → 7B model ≈ 3.5–4 GB (roughly 1/4 to 1/8 the original size depending on the exact method)
 
 There are two major 4-bit approaches you commonly see today:
@@ -29,6 +31,7 @@ There are two major 4-bit approaches you commonly see today:
 | QLoRA    | Quantized Low-Rank Adaptation | 2023 (Jun)     | Efficient fine-tuning / instruction tuning | Combines 4-bit storage + LoRA adapters + paged optimizers. Allows fine-tuning 65B+ models on a single 24–48 GB GPU. |
 
 #### QLoRA in more detail (the one people usually mean when they say “4-bit QLoRA”)
+
 QLoRA does four clever things at once:
 
 1. 4-bit NormalFloat (NF4) quantization
@@ -47,6 +50,7 @@ QLoRA does four clever things at once:
 Result: You can fully fine-tune a 65B Llama/Mistral model on one 48 GB RTX A6000 or even a 70B model on a single 80 GB A100 with QLoRA, whereas normal full fine-tuning would need 8×A100s or more.
 
 #### GPTQ (the inference-focused one)
+
 - Done after training is finished.
 - Uses second-order (Hessian) information to minimize rounding error when compressing weights to 4-bit.
 - Extremely accurate — usually <0.1 perplexity degradation vs FP16.
@@ -57,6 +61,7 @@ Result: You can fully fine-tune a 65B Llama/Mistral model on one 48 GB RTX A6000
 A completely separate memory-saving technique used during training.
 
 How it works:
+
 - Normally, backpropagation needs to store all intermediate activations from the forward pass → memory grows linearly with model depth/batch size/sequence length.
 - Gradient checkpointing trades compute for memory:
   - During forward pass, it only saves a few “checkpoint” activations.

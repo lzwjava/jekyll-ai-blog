@@ -15,7 +15,8 @@ Answer:
 
 The **IBM PC BSC (Binary Synchronous Communication) communication adapter** is primarily designed for **half-duplex transmission lines**.
 
-### Explanation:
+### Explanation
+
 - **BSC (Binary Synchronous Communication)** is a character-oriented, synchronous data link layer protocol developed by IBM.
 - It was commonly used in early mainframe and PC communications.
 - In **half-duplex** communication, data can be transmitted in both directions, but **not simultaneously**. This fits the operational model of BSC, where the sender and receiver take turns transmitting.

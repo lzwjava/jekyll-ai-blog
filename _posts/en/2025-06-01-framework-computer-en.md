@@ -10,7 +10,8 @@ type: note
 
 Framework Computer has garnered significant praise for its innovative approach to laptops, particularly for its focus on repairability, upgradeability, and modularity. Here’s a balanced look at why it’s considered great by many, along with some caveats, based on available information:
 
-### Why Framework is Considered Great:
+### Why Framework is Considered Great
+
 1. **Unprecedented Repairability and Upgradeability**:
    - Framework laptops, like the Framework Laptop 13 and 16, are designed to be user-repairable and upgradeable, a rarity in modern laptops. Nearly every component—RAM, storage, battery, motherboard, ports, and even the keyboard—can be swapped out or upgraded with minimal technical expertise. This aligns with the "right to repair" movement and reduces e-waste.[](https://www.pcmag.com/reviews/framework-laptop)[](https://www.nytimes.com/wirecutter/reviews/framework-laptop/)
    - The company provides detailed guides and a marketplace for replacement parts, with QR codes on components linking to repair instructions, making the process accessible even for less experienced users.[](https://www.nytimes.com/wirecutter/reviews/framework-laptop/)[](https://www.theverge.com/23270191/framework-laptop-12th-gen-2022-review)
@@ -35,7 +36,8 @@ Framework Computer has garnered significant praise for its innovative approach t
    - Framework has a strong community following, with users on platforms like Reddit and X praising its repairability and upgradeability. For example, posts on X describe Framework laptops as “the spiritual successors to the ThinkPads of old” and “the future of laptops.”
    - It’s received accolades like TIME’s Best Inventions of 2023 for the Framework Laptop 16 and a 10/10 repairability score from iFixit.[](https://www.nytimes.com/wirecutter/reviews/framework-laptop/)
 
-### Potential Drawbacks:
+### Potential Drawbacks
+
 1. **Battery Life**:
    - Battery life is a consistent weak point, often not lasting a full workday (around 6-8 hours for light tasks). The AMD Ryzen AI models, while powerful, further reduce battery life compared to Intel versions.[](https://www.rtings.com/laptop/reviews/framework/laptop-13-2022)[](https://arstechnica.com/gadgets/2025/04/review-ryzen-ai-cpu-makes-this-the-fastest-the-framework-laptop-13-has-ever-been/)
    - Framework has introduced a larger 61Wh battery, but it still lags behind competitors like the Microsoft Surface Laptop 5.[](https://www.rtings.com/laptop/reviews/framework/laptop-13-2022)
@@ -52,7 +54,8 @@ Framework Computer has garnered significant praise for its innovative approach t
 5. **Dependency on Framework’s Ecosystem**:
    - While many parts (e.g., RAM, SSD) are standard, some components like mainboards are Framework-specific, meaning long-term upgrades rely on the company’s continued support. This could be a risk if Framework faces financial challenges.[](https://techcrunch.com/2022/07/23/review-frameworks-latest-modular-laptop-is-one-i-could-stick-with-for-years/)
 
-### Conclusion:
+### Conclusion
+
 Framework Computer is widely regarded as great, particularly for tech enthusiasts, environmentally conscious consumers, and those who value repairability and customization. Its modular design, solid performance, and commitment to sustainability set it apart in a market dominated by less repairable devices. However, its battery life, higher price point, and limitations for graphics-intensive tasks make it less ideal for some users, like gamers or video editors. If you prioritize longevity, flexibility, and a hands-on approach to tech, Framework is an excellent choice, but it’s not a one-size-fits-all solution.
 
 If you’d like, I can dive deeper into specific models (e.g., Framework 13 vs. 16), compare it to competitors, or check for the latest user feedback on X. Let me know!

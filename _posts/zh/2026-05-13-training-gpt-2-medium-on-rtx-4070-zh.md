@@ -120,12 +120,14 @@ watch -n 1 nvidia-smi
 按以下顺序应用修复，从最简单到最复杂：
 
 **修复 1 — 进一步降低批量大小：**
+
 ```python
 batch_size = 2
 gradient_accumulation_steps = 64  # 保持有效批量大小 = 128 tokens
 ```
 
 **修复 2 — 启用梯度检查点**（在 `model.py` 的 Block 类内部）：
+
 ```python
 # 在 forward 方法中，包裹为：
 from torch.utils.checkpoint import checkpoint
@@ -135,11 +137,13 @@ x = checkpoint(self.attn, x)
 这会用计算时间换取内存——大约增加 30–40% 的计算量，但能显著节省显存。
 
 **修复 3 — 降低块大小：**
+
 ```python
 block_size = 256  # 与 512 相比，将二次注意力的内存需求减半
 ```
 
 **修复 4 — 使用 `bfloat16`（确保已设置）：**
+
 ```python
 dtype = 'bfloat16'
 ```

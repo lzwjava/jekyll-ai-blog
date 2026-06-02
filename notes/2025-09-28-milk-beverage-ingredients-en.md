@@ -13,6 +13,7 @@ type: note
 A "configured milk-containing beverage" is a processed drink that includes milk or milk-derived ingredients but is not pure milk. It’s formulated with a combination of ingredients to achieve a specific taste, texture, and shelf life. Below, I’ll explain each ingredient listed on the carton and its role in the beverage, aiming for a medium-length explanation that’s clear and informative.
 
 ### Ingredient Breakdown
+
 1. **Water**
    Water is the primary base for most milk-containing beverages, used to dilute and blend other ingredients. It adjusts the beverage’s consistency, making it less thick than pure milk and more cost-effective to produce. It also ensures a uniform texture and helps dissolve or disperse other components like sugar and milk powder.
 
@@ -38,9 +39,11 @@ A "configured milk-containing beverage" is a processed drink that includes milk 
    Flavoring agents are added to enhance or modify the taste, often to create a specific flavor profile like vanilla, chocolate, or fruit. These can be natural (e.g., derived from plants) or artificial (synthetic compounds). They make the beverage more appealing and mask any off-flavors from processing or storage. Other food additives might include preservatives or colorants, though they’re not specified here.
 
 ### What is a "Configured Milk-Containing Beverage"?
+
 This term indicates the product isn’t pure milk but a formulated drink with milk components (like milk powder and milk protein) combined with other ingredients like water, sugar, and oils. The inclusion of emulsifiers, stabilizers, and flavorings suggests it’s designed for a specific taste, texture, and shelf stability, likely marketed as a flavored milk drink or dairy-based beverage. Examples include milk teas, flavored milks, or coffee-milk blends. The use of palm oil and additives points to cost-efficiency and a focus on sensory appeal over pure dairy content.
 
 ### Key Considerations
+
 - **Nutritional Profile**: The beverage likely has a higher sugar and fat content than plain milk due to added sugar and palm oil. Milk powder and milk protein provide some nutritional benefits, but the drink may be less nutrient-dense than whole milk.
 - **Purpose of Additives**: Emulsifiers and stabilizers ensure a consistent product that doesn’t separate or spoil quickly, making it suitable for mass production and long shelf life.
 - **Consumer Appeal**: The flavoring agents and sugar cater to taste preferences, making this a more indulgent, dessert-like drink compared to plain milk.

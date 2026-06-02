@@ -62,11 +62,11 @@ For detailed guides, refer to official resources or platforms like BrowserStack,
 This framework is widely used across industries for ensuring software meets user expectations through collaborative, automated testing.[4]
 
 Citations:
-[1] https://cucumber.io/
-[2] https://cucumber.io/docs/
-[3] https://www.browserstack.com/guide/learn-about-cucumber-testing-tool
-[4] https://en.wikipedia.org/wiki/Cucumber_(software)
-[5] https://testgrid.io/blog/cucumber-testing/
-[6] https://www.headspin.io/blog/cucumber-testing-a-complete-guide
-[7] https://www.accelq.com/blog/cucumber-testing-framework/
-[8] https://www.geeksforgeeks.org/software-testing/what-is-cucumber-framework/
+[1] <https://cucumber.io/>
+[2] <https://cucumber.io/docs/>
+[3] <https://www.browserstack.com/guide/learn-about-cucumber-testing-tool>
+[4] <https://en.wikipedia.org/wiki/Cucumber_(software)>
+[5] <https://testgrid.io/blog/cucumber-testing/>
+[6] <https://www.headspin.io/blog/cucumber-testing-a-complete-guide>
+[7] <https://www.accelq.com/blog/cucumber-testing-framework/>
+[8] <https://www.geeksforgeeks.org/software-testing/what-is-cucumber-framework/>

@@ -125,11 +125,13 @@ if __name__ == "__main__":
 **Usage:**
 
 1. **Set your auth token:**
+
    ```bash
    export NPM_AUTH_TOKEN="your-token-here"
    ```
 
 2. **Run the script:**
+
    ```bash
    # Download latest version
    python script.py lodash
@@ -142,6 +144,7 @@ if __name__ == "__main__":
    ```
 
 **Key features:**
+
 - Uses `NPM_AUTH_TOKEN` environment variable for authentication
 - Supports both regular and scoped packages
 - Downloads latest version by default or specific version if provided
@@ -150,6 +153,7 @@ if __name__ == "__main__":
 - Streams large downloads efficiently
 
 **Note:** Some Nexus configurations might use `_auth` (base64) instead of bearer tokens. If your setup uses basic auth, modify the headers to:
+
 ```python
 headers = {
     'Authorization': f'Basic {auth_token}',  # token should be base64 encoded

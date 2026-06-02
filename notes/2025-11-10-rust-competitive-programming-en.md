@@ -17,6 +17,7 @@ While C++ dominates competitive programming (CP) platforms like LeetCode, Codefo
 Below, I'll highlight notable users/programmers who primarily or frequently use Rust (or other non-C++ langs like Python in CP contexts). These are drawn from top ranks on Codeforces (where Rust submissions are trackable), community discussions, and guides. "Famous" here means top-100 global ranks, medalists, or influential contributors. I've prioritized those with proven contest success in Rust.
 
 #### Codeforces Users/Top Programmers Using Rust
+
 Codeforces has ~1-2% Rust submissions in top contests, but Rust users punch above their weight due to fewer wrong answers (WAs) from safety features.
 
 | Username | Rating (as of Nov 2025) | Achievements | Language Notes | Profile/Link |
@@ -28,6 +29,7 @@ Codeforces has ~1-2% Rust submissions in top contests, but Rust users punch abov
 - **Trends**: Rust users like EbTech report 50% fewer WAs than in C++, though initial compile times are higher. Top Rust coders often come from C++ backgrounds and use it for "paranoid-free" coding. For broader non-C++ (e.g., Python), see Gennady Korotkevich ("tourist")—he's the GOAT (6x IOI gold, unbeatable on Codeforces/AtCoder)—but he sticks to C++ despite Python experiments.
 
 #### LeetCode Users/Top Solvers Using Rust
+
 LeetCode is more interview-focused, so "top users" are harder to pinpoint (no public ratings), but Rust solvers emphasize learning ownership/borrowing via problems. Few "famous" ones, but community standouts:
 
 | Username/Handle | Achievements | Language Notes | Profile/Link |
@@ -39,6 +41,7 @@ LeetCode is more interview-focused, so "top users" are harder to pinpoint (no pu
 - **Trends**: Rust isn't ideal for LeetCode's self-referential structures (e.g., trees require Rc/Arc wrappers), so usage is low (~0.5% submissions). Most use it for personal growth, not contests. For non-Rust alternatives, Python dominates (e.g., via Striver's DSA sheet), but no standout "Rust-like" non-C++ stars.
 
 #### ACM ICPC Teams/Participants Using Non-C++ (Rust or Others)
+
 ACM ICPC doesn't support Rust, so no direct users. However, non-C++ langs like Java/Python are common (10-20% usage). Top teams:
 
 | Team/University | Achievements | Language Notes | Link |
@@ -50,6 +53,7 @@ ACM ICPC doesn't support Rust, so no direct users. However, non-C++ langs like J
 - **Trends**: ~70% teams use C++, 20% Java, 10% Python/Kotlin. Non-C++ shines in problems needing libraries (e.g., Java's BigInteger). Rust could fit regionals allowing it, but not Worlds.
 
 #### Other Notable Non-C++ CP Figures
+
 - **Rust in ICFP (Intl. Conf. on Functional Programming Contest)**: Rust teams won 2018-2020; e.g., the "CreuSAT" team (verified SAT solver) beat C++ entries. Not ACM ICPC, but prestigious for non-C++.
 - **Python Powerhouses**: For LeetCode/CP, Scott Welch (top Advent of Code) uses Python (top-10 finishes); Errichto (Codeforces Grandmaster) mixes Python for speed-coding.
 

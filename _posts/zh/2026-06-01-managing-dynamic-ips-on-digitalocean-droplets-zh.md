@@ -29,6 +29,7 @@ IP 与 Droplet 的*存在*绑定，而不是其*状态*。
 ## 快照恢复后保持不变的内容
 
 当你恢复快照时，你会得到：
+
 - ✅ 相同的文件系统、软件包、模型、配置
 - ✅ 相同的 SSH 密钥（已嵌入镜像中）
 - ❌ 不同的公共 IPv4
@@ -39,13 +40,16 @@ IP 与 Droplet 的*存在*绑定，而不是其*状态*。
 既然你主要通过终端操作，最简洁的方案如下：
 
 **方案 1：保留 IP（DigitalOcean 的静态 IP）**
+
 ```bash
 # 通过 doctl 为你的 Droplet 分配一个保留 IP
 doctl compute reserved-ip-action assign <reserved-ip> --droplet-id <id>
 ```
+
 保留 IP 在 Droplet 重建后依然存在——你可以重新分配它。只要分配给运行中的 Droplet 就免费。
 
 **方案 2：编写脚本更新 SSH 配置**
+
 ```bash
 #!/bin/bash
 # 创建 Droplet 后，获取新 IP 并更新 ~/.ssh/config
@@ -55,11 +59,14 @@ echo "已更新 SSH 配置：$NEW_IP"
 ```
 
 **方案 3：使用 `doctl` 动态解析**
+
 ```bash
 # 一行 SSH 命令，无需硬编码 IP
 ssh $(doctl compute droplet get amd-gpu --format PublicIPv4 --no-header) -i ~/.ssh/your_key
 ```
+
 添加到 `~/.zshrc` 或 `~/.bashrc`：
+
 ```bash
 alias amd='ssh -i ~/.ssh/amd_key $(doctl compute droplet get amd-gpu --format PublicIPv4 --no-header)'
 ```
@@ -67,11 +74,13 @@ alias amd='ssh -i ~/.ssh/amd_key $(doctl compute droplet get amd-gpu --format Pu
 **方案 4：Tailscale（长期最佳）**
 
 在你的快照镜像中安装 Tailscale——它会分配一个稳定的 `100.x.x.x` 地址，无论公共 IP 如何变化都不会改变：
+
 ```bash
 # 在 Droplet 内部（嵌入快照）
 curl -fsSL https://tailscale.com/install.sh | sh
 tailscale up
 ```
+
 之后始终通过 `ssh 100.x.x.x` 连接——即使 DigitalOcean 更改了你的公共 IP 也能正常工作。
 
 ## 给你的建议

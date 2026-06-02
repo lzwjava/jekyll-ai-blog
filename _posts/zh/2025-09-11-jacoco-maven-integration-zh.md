@@ -42,6 +42,7 @@ type: note
     <jacoco.it.exec>${project.build.directory}/jacoco-it.exec</jacoco.it.exec>
   </properties>
   ```
+
 * 您启动Jetty时**使用独立的JaCoCo代理**指向该文件：
 
   ```xml
@@ -144,6 +145,7 @@ type: note
        </configuration>
      </execution>
      ```
+
    * 结果：HTML报告生成于`target/site/jacoco-it/index.html`，仅汇总**集成**测试覆盖率（来自Jetty）。
 
 > 注意：如需**单元测试**报告，可添加另一个指向默认`target/jacoco.exec`并输出至`target/site/jacoco`的`jacoco:report`执行配置——保持单元测试与集成测试报告分离。
@@ -164,6 +166,7 @@ type: note
   ```xml
   -javaagent:...org.jacoco.agent-...-runtime.jar=destfile=${jacoco.it.exec},append=false
   ```
+
 * 如需有意合并多个`.exec`文件，可在`jacoco:report`前使用`jacoco:merge`。
 
 ---

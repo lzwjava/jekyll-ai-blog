@@ -15,7 +15,8 @@ Answer:
 
 In the **Routing Information Protocol (RIP)**, a hop count of **16** indicates that the destination network is **unreachable**.
 
-### Explanation:
+### Explanation
+
 - RIP is a distance-vector routing protocol that uses **hop count** as its metric to determine the best path to a destination.
 - The maximum valid hop count in RIP is **15**. This means any destination that is 15 hops away or fewer is considered reachable.
 - A hop count of **16** is defined as **infinity** in RIP terminology. When a router receives or calculates a route with a metric of 16, it treats that route as invalid or unreachable.

@@ -52,6 +52,7 @@ type: note
 LLM 擅长 **生成结构良好、可重复、带文档的脚本**，人类（或 CI/CD 管道）可以审查并运行。以下是 LLM 可以可靠帮助的内容：
 
 ### 升级前准备脚本
+
 ```bash
 #!/bin/bash
 # Pre-upgrade checklist script (LLM-generated)
@@ -79,6 +80,7 @@ echo "=== Ready for: sudo do-release-upgrade ==="
 ```
 
 ### 升级后清理脚本
+
 ```bash
 #!/bin/bash
 # Post-upgrade cleanup (LLM-generated)

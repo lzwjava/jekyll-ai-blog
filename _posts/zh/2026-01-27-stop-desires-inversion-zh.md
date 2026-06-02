@@ -28,6 +28,7 @@ Charlie Munger 并没有一个广为人知的、直接针对 "personal share des
 Charlie Munger 并没有明确创建或发布过一份个人的 "stop doing list"，但他的哲学与这一概念高度契合。他提倡 **inversion thinking**（逆向思维）——与其只问“我如何成功？”，不如问“我如何失败/误判？”，然后避开这些行为。许多受 Munger 启发的人推荐维护一份 "stop doing list"，作为其 inversion 方法的实际应用，以保持专注、避免愚蠢并改善结果。
 
 Munger 建议停止或避免的事情包括：
+
 - 怀恨他人或对他人产生 envy/jealousy
 - 过度使用 leverage（杠杆/债务）
 - 过量饮酒或追逐恶习（他曾幽默地说，聪明人破产通常是因为 "ladies, liquor, and leverage"）

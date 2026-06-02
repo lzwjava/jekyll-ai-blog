@@ -18,17 +18,17 @@ translated: false
 
 ## Points
 
-* Talk more about my failure and lessons in life
-* Be short and concise
-* Just like talk with a friend
-* Think more and talk less
+- Talk more about my failure and lessons in life
+- Be short and concise
+- Just like talk with a friend
+- Think more and talk less
 
 ## Queries
 
-* What's the team?
-* What's the tech stack?
-* What's the project?
-* The name of tech lead and boss
+- What's the team?
+- What's the tech stack?
+- What's the project?
+- The name of tech lead and boss
 
 ## Intro
 

@@ -16,7 +16,8 @@ Answer:
 
 OSPF (Open Shortest Path First) is a **Link State** routing protocol.
 
-### Explanation:
+### Explanation
+
 - **Link State** protocols (like OSPF and IS-IS) flood detailed topology information (link states) throughout the routing domain. Each router builds a complete map of the network and uses Dijkstra's Shortest Path First (SPF) algorithm to calculate the best paths to all destinations.
 - In contrast:
   - **Distance Vector** protocols (e.g., RIP, EIGRP in its classic mode) share only distance metrics and next-hop information with neighbors, without full topology visibility.

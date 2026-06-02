@@ -11,6 +11,7 @@ type: note
 要通过将 `.uf2` 文件复制到 `RPI-RP2` 驱动器来将固件刷入 Raspberry Pi Pico（或基于 RP2040 的开发板）的 BOOTSEL 模式，请按照以下步骤操作：
 
 ### 逐步指南
+
 1. **确认设备处于 BOOTSEL 模式**：
    - 当设备连接到计算机时，应显示为一个名为 `RPI-RP2` 的 USB 驱动器。这确认其处于 BOOTSEL 模式（如 `Bus 001 Device 009: ID 2e8a:0003 Raspberry Pi RP2 Boot` 所示）。
    - 如果未处于 BOOTSEL 模式，请拔下设备，按住 Pico 上的 BOOTSEL 按钮，然后在按住按钮的同时将其插入计算机的 USB 端口。几秒钟后释放按钮。
@@ -31,9 +32,11 @@ type: note
 4. **将 `.uf2` 文件复制到 RPI-RP2 驱动器**：
    - 将 `.uf2` 文件拖放到 `RPI-RP2` 驱动器上，或使用文件资源管理器复制并粘贴。
    - 或者，使用终端命令（在 Linux/macOS 上）：
+
      ```bash
      cp /path/to/your/file.uf2 /media/your_username/RPI-RP2/
      ```
+
      将 `/path/to/your/file.uf2` 替换为您的 `.uf2` 文件路径，并根据需要调整挂载点。
 
 5. **等待刷写过程完成**：
@@ -47,15 +50,19 @@ type: note
    - 如果 `RPI-RP2` 驱动器重新出现，则刷写可能失败。请尝试使用不同的 `.uf2` 文件或检查硬件问题（例如 USB 电缆、闪存芯片）。
 
 ### 故障排除
+
 - **驱动器未显示**：确保 Pico 处于 BOOTSEL 模式且 USB 电缆支持数据传输。尝试按住 BOOTSEL 按钮，然后在连接时短暂按下 RESET 按钮（如果可用）。
 - **复制失败或驱动器重新出现**：`.uf2` 文件可能已损坏，或闪存可能存在故障。下载新的 `.uf2` 文件或使用最小化文件（如 MicroPython）进行测试。如果问题持续，使用 `picotool` 进行诊断：
+
   ```bash
   picotool info
   ```
+
   从 [Raspberry Pi Pico SDK](https://github.com/raspberrypi/picotool) 安装 `picotool`。
 - **刷写后无响应**：如果使用 MicroPython/CircuitPython，请确保您的 IDE（例如 Thonny）设置为正确的串行端口。对于自定义程序，请验证代码是否正确编译。
 
 ### 示例：刷写 MicroPython
+
 1. 从 [micropython.org](https://micropython.org/download/rp2-pico/) 下载 MicroPython 的 `.uf2` 文件。
 2. 按住 BOOTSEL 按钮，插入 Pico，然后释放 BOOTSEL 按钮。
 3. 打开文件资源管理器，找到 `RPI-RP2` 驱动器，并将 `.uf2` 文件复制到其中。

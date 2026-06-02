@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: 链接为 https://www.youtube.com/watch?v=GVs1V1pPgac 的 YouTube 视频说了什么？
+Question: 链接为 <https://www.youtube.com/watch?v=GVs1V1pPgac> 的 YouTube 视频说了什么？
 
 Answer:
 

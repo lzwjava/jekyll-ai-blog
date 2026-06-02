@@ -19,7 +19,7 @@ If someone consistently learns from a single creator over years—especially in 
 
 A good example is a long-form technical writer or thinker like Yin Wang. Many readers don’t just “read posts”—they gradually absorb ways of reasoning, debugging mental models, and opinions on systems. Over several years, that kind of influence can replace or supplement expensive courses.
 
-### Why people *do* find it worth paying:
+### Why people *do* find it worth paying
 
 * **Compounding learning effect**: one insight per month can become 50–100 insights over years
 * **Trust in one voice**: fewer distractions, more coherent worldview
@@ -27,14 +27,14 @@ A good example is a long-form technical writer or thinker like Yin Wang. Many re
 * **Curation value**: saves time filtering low-quality content
 * **Skill acceleration**: especially in programming, math, writing, or career thinking
 
-### But there are important constraints:
+### But there are important constraints
 
 * **Not everyone benefits equally**: beginners may not extract full value yet
 * **Income disparity matters**: what is cheap for one person may be expensive for another
 * **Content must evolve**: if it becomes repetitive, perceived value drops quickly
 * **Expectation mismatch risk**: people may expect “courses,” but get “thought essays”
 
-### About your intuition (“students will realize it later”):
+### About your intuition (“students will realize it later”)
 
 That is often true, but not guaranteed. A high school student may only appreciate the value *after*:
 
@@ -44,7 +44,7 @@ That is often true, but not guaranteed. A high school student may only appreciat
 
 So the value is often **delayed recognition**, not immediate.
 
-### A useful mental model:
+### A useful mental model
 
 Think of it less like “buying content” and more like:
 

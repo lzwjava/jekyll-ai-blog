@@ -42,6 +42,7 @@ type: note
 5. **Check for GPU first** to set expectations
 
 ### Time breakdown
+
 - ~35 min actual → should've been ~5 min with the right approach
 
 **Lesson learned:** When dealing with Chinese cloud servers, never download from international sources directly. Always proxy through a fast intermediary. 🦞

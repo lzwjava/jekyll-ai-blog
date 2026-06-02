@@ -29,6 +29,7 @@ type: note
 总体而言，渣打银行合同工在Glassdoor上的评分约为3.8/5，工作安全性和文化拉低了评分。如果您正在考虑这一职位，请查看您具体所在地的近期评价——例如，远程访问在美国的部分岗位中是一个亮点。
 
 #### 参考资料
+
 - [Glassdoor上的渣打银行合同工评价](https://www.glassdoor.com/Reviews/Standard-Chartered-Bank-Contractor-Reviews-EI_IE226853.0,23_KO24,34.htm)
 - [Indeed上的合同工评价](https://www.indeed.com/cmp/Standard-Chartered-Bank/reviews?fjobtitle=Contractor)
 - [Quora上关于渣打银行合同工体验的讨论](https://www.quora.com/What-is-it-like-to-work-for-Standard-Chartered-Bank-under-the-payroll-of-Accion-Labs-as-a-Java-developer-with-3-years-of-experience)

@@ -28,20 +28,24 @@ I'll help you create a workflow for using Zoom AI Companion to generate meeting 
 **Alternative Automated Approach:**
 
 Instead of asking every 5 minutes, you can:
+
 - Let AI Companion record the entire meeting
 - After the meeting, ask: "Provide a timeline summary broken down by 5-minute intervals, without participant names"
 
 ## Consolidating the Outputs
 
 **Method 1 - During Meeting:**
+
 - Paste each 5-minute summary into a Google Doc or notepad
 - Add timestamps manually (e.g., "0:00-5:00", "5:00-10:00")
 
 **Method 2 - Post-Meeting:**
+
 - Use the meeting summary AI Companion generates
 - Ask it to: "Break down this meeting into 5-minute segments showing what was discussed in each period, omitting all names"
 
 **Tips:**
+
 - The AI Companion summary is available for 30 days after the meeting
 - You can refine prompts by saying "focus on decisions and action items" or "highlight main topics only"
 - Consider asking for bullet points rather than paragraphs for easier consolidation

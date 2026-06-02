@@ -15,6 +15,7 @@ type: note
 Thanks for the clarification—yes, you're referring to **Lixiang Park (荔香公园)** in Shenzhen's Nanshan District, named after the fragrant lychee ("lizhi" for lychee + "xiang" for fragrance). It's a lovely 22-hectare urban oasis right along Shennan Avenue (Shennan Dadao), at the intersection with Nanhai Avenue—super central, with the north gate facing the avenue for easy access. The park is free to enter, but its parking lots (including the north gate) often require advance reservation to snag a spot, especially on weekends, evenings, or holidays when families flock here for picnics, jogging, or the seasonal lychee blooms.
 
 #### How Pre-Ordering Works
+
 Reservations are free and handled via the official WeChat mini program **"Park Shenzhen" (公园深圳)**, linked through the "Beautiful Shenzhen" (美丽深圳) WeChat official account. This is Shenzhen's go-to tool for public park bookings, covering dozens of green spaces citywide. You can book up to 2 hours in advance on regular days (more lead time advised for peaks like National Day). Here's the step-by-step (all in Chinese—use WeChat's built-in translation or an app like Google Translate for screenshots):
 
 1. **Open WeChat**: Search for and follow "Beautiful Shenzhen" (美丽深圳), or directly search for the "Park Shenzhen" mini program (Discover > Mini Programs).
@@ -28,6 +29,7 @@ Reservations are free and handled via the official WeChat mini program **"Park S
 - **Location Pin**: 518052, Nanshan District—right on Shennan Dadao, 5-10 min walk from metro (Nanshan Station).
 
 #### Is Pre-Ordering Common in China (Shenzhen/Guangzhou)?
+
 Absolutely—it's a smart-city staple in major hubs to cut traffic and emissions, rolled out widely since 2020. In **Shenzhen**, it's standard for 20+ busy parks (like Lixiang, Lianhuashan, or Shenzhen Bay) via the unified "Park Shenzhen" system—over 80% of urban park visits now use WeChat/Alipay for bookings. Free spots are prioritized for greenspaces to encourage outdoor time.
 
 In **Guangzhou**, it's growing but patchier—not as seamless. Some spots like Dafushan Forest Park or Bio-Island use WeChat mini programs/apps (e.g., "Sù Tíng Chē" for payments) for reservations, especially during holidays. Citywide, about 10-15% of parks (out of 1,200+) require it, per local policies, but it's more for events or paid lots. Expect more "first-come" chaos, though apps like "Guangzhou Travel" are catching up. Overall in China, WeChat dominates (90%+ of bookings), with Alipay backups—it's everywhere in Tier 1 cities but rarer in smaller ones.

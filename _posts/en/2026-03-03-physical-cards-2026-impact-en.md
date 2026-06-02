@@ -31,6 +31,7 @@ However, physical credit cards are **not obsolete** yet, and many people still n
 - **Consumer preference and trust** — Surveys show high attachment to physical cards. For example, around 98% of consumers say having a physical card remains important, and many (especially older generations or in certain regions) prefer the tangible feel, sense of control, or familiarity. Even among younger users, physical cards often act as a backup.
 
 In terms of trends (as of early 2026):
+
 - Digital wallets handle a growing share — globally around 32% of in-store (POS) purchases in recent data, higher online (over 50% in many cases), and much higher in regions like Asia-Pacific.
 - In North America, credit cards still lead in some in-store categories (around 40%+ in some reports), but digital wallets are catching up quickly (e.g., 16-30%+ in-store, 39%+ online).
 - Apple Pay itself sees strong adoption, especially in the US (tens of millions of users, high merchant support for contactless), but it accounts for only a portion of overall transactions (e.g., around 10% of eligible in-store in some US data).

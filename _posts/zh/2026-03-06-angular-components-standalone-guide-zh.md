@@ -89,6 +89,7 @@ export class UserComponent {}
 默认情况下，Angular components 是 standalone 的，这意味着你可以直接将它们添加到其他 components 的 `imports` 数组中。使用早期 Angular 版本创建的 components 可能在其 `@Component` 装饰器中指定 `standalone: false`。
 
 因此在 Angular 21 中：
+
 - 你 **不再需要写** `standalone: true` — 它是默认的
 - 只有当你想要旧的 NgModule 行为时，才写 `standalone: false`
 - NgModules **并未弃用**，但不再推荐用于新代码

@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-**Question:** What is the competition at https://aistudio.baidu.com/competition/detail/1196/0/introduction? What is the rank of the team "EverywhereWeGo"? And how can someone join this type of competition?
+**Question:** What is the competition at <https://aistudio.baidu.com/competition/detail/1196/0/introduction>? What is the rank of the team "EverywhereWeGo"? And how can someone join this type of competition?
 
 **Answer:**
 
@@ -30,6 +30,7 @@ Following intense preliminary and semi-final rounds, **17 teams** stood out and 
 Unfortunately, **I was unable to retrieve the specific leaderboard data** for this competition. The Baidu AI Studio leaderboard page requires a login to view, and the data is not publicly accessible via web fetch or search results. The team name "EverywhereWeGo" does not appear in any publicly indexed results either.
 
 To check the rank of "EverywhereWeGo", you should:
+
 1. Log in to [aistudio.baidu.com](https://aistudio.baidu.com)
 2. Go directly to the leaderboard tab: `https://aistudio.baidu.com/competition/detail/1196/0/leaderboard`
 
@@ -40,22 +41,28 @@ To check the rank of "EverywhereWeGo", you should:
 Here is the general process for joining competitions on Baidu AI Studio:
 
 **Step 1 — Register an account**
+
 - Go to [aistudio.baidu.com](https://aistudio.baidu.com) and register (supports international users; a Baidu account or phone number is needed).
 
 **Step 2 — Find and enter the competition**
+
 - Browse the competition list or use a direct link like the one you provided.
 - Click the "Sign Up" or "报名" (Register) button on the competition page.
 
 **Step 3 — Read the rules and download the data**
+
 - Each competition provides a dataset, evaluation metric, and submission format. Read the introduction and task description carefully.
 
 **Step 4 — Use the platform's tools**
+
 - Contestants can log onto AI Studio to use the platform's remote GPU training cluster to acquire complimentary high-performance computing power support for model training. The platform also releases sample projects to assist contestants with operation.
 
 **Step 5 — Submit your results**
+
 - Upload predictions or model outputs in the required format. The leaderboard updates automatically after evaluation.
 
 **Step 6 — Finals (if applicable)**
+
 - Top-ranking teams from online rounds are invited to present on-site at the final event.
 
 ---

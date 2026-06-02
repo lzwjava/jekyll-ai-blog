@@ -28,6 +28,7 @@ Gated on `updates.pre_update_backup` config (default off). Can be forced with `-
 **3. Install Method Detection** (line 7760)
 
 Three paths:
+
 - **No .git directory** -> on Windows, falls back to ZIP download; on Linux/macOS, checks `detect_install_method()` -- if `pip`, routes to `_cmd_update_pip()` which does `uv pip install --upgrade hermes-agent` (or plain pip if uv isn't available)
 - **.git exists** -> proceeds with git-based update
 
@@ -51,11 +52,12 @@ Compares the `origin` remote URL against `OFFICIAL_REPO_URLS` (the NousResearch/
 
 **7. Bytecode Cache Cleanup** (`_clear_bytecode_cache`, line 5647)
 
-Recursively removes `__pycache__/` directories. Prevents ImportError when updated source references names that didn't exist in the old compiled .pyc files. This is the "Cleared 63 stale __pycache__ directories" you saw.
+Recursively removes `__pycache__/` directories. Prevents ImportError when updated source references names that didn't exist in the old compiled .pyc files. This is the "Cleared 63 stale **pycache** directories" you saw.
 
 **8. Fork Upstream Sync** (`_sync_with_upstream_if_needed`, line 6699)
 
 Only for forks. The clever bit:
+
 - If no `upstream` remote exists, asks user to add it (one-time, remembers declination)
 - Fetches upstream, compares `origin/main` vs `upstream/main`
 - If origin has commits not on upstream: **skips** -- won't trample your fork's custom commits
@@ -88,6 +90,7 @@ Checks for missing env vars, new config fields, and config version bumps. Offers
 **14. Gateway Auto-Restart** (line 8275)
 
 If running in gateway mode (`--gateway`), after the code update:
+
 - Writes exit code 0 to `.update_exit_code` *before* attempting restart (so the new gateway sees success even if the process is killed during restart)
 - Attempts graceful SIGUSR1 restart (lets in-flight messages drain for up to 60s)
 - Falls back to `systemctl restart` for systemd-managed gateways

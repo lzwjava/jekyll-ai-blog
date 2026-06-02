@@ -72,6 +72,7 @@ Generative AI 工具的目标是完成分派给它们的任务 —— 为 Prompt
 不要让 LLM 凭记忆或上下文重现 commit hashes，而应使用适当的工具：
 
 **方案 1 — 直接使用 Git 获取列表，然后进行 cherry-pick：**
+
 ```bash
 # 从 git log 获取 hashes 并自行构建 cherry-pick 命令
 git log --oneline origin/feature-branch | head -20 | awk '{print $1}' | xargs git cherry-pick
@@ -81,11 +82,13 @@ git log --oneline origin/feature-branch | head -20 | awk '{print $1}' | xargs gi
 自行提供 hashes，仅要求 LLM 将其包装在 `git cherry-pick` 语法中 —— 不要相信它能从散文描述中重现精确的 hashes。
 
 **方案 3 — 使用带有范围的 `git cherry-pick`：**
+
 ```bash
 git cherry-pick <oldest-hash>^..<newest-hash>
 ```
 
 **方案 4 — 始终验证 LLM 生成的 hashes：**
+
 ```bash
 git cat-file -t <hash>   # 如果真实存在，应返回 "commit"
 ```

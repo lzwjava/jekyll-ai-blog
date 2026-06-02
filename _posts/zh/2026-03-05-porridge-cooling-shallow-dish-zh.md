@@ -29,6 +29,7 @@ Answer:
 粗略估计：如果你将典型深碗形状的粥摊到平盘中，暴露的表面面积可以轻松变得 **3–6 times larger**，从而使冷却速度 **several times faster**。
 
 许多文化有类似的习惯：
+
 - Chinese congee → 通常倒入小浅碗或盘中快速冷却
 - Japanese ochazuke or okayu → 有时从宽碗中食用，原因相同
 - 有些人甚至用筷子大范围搅拌以增加冷却

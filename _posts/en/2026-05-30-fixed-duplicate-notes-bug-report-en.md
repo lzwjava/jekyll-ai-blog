@@ -12,6 +12,7 @@ type: note
 Done. Here's the summary:
 
 **Root Cause:**
+
 1. `create_note_from_content()` had NO duplicate check - only `create_note()` checked
 2. Hermes `/note` plugin and research agent call `create_note_from_content()` directly
 3. Bug in `check_duplicate_notes.py`: `note_files[:-1]` removed oldest file instead of newest

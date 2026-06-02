@@ -13,6 +13,7 @@ type: note
 Below, I'll provide a clear, step-by-step guide to understanding and using the CodeIgniter REST API configuration file you shared (`application/config/rest.php`). This file configures the behavior of the REST_Controller library (a popular PHP library for building RESTful APIs in CodeIgniter), such as Phil Sturgeon's REST library (now maintained as part of the CodeIgniter framework in some versions).
 
 I'll explain:
+
 - What the library does and key prerequisites.
 - How to set up and use it.
 - Key configuration options from your file (with examples).
@@ -22,22 +23,26 @@ I'll explain:
 If your question is specifically about one aspect (e.g., authentication or limits), feel free to clarify for more targeted advice!
 
 ### 1. **Prerequisites and Setup**
-   - **What is it?** This is the REST_Controller library for CodeIgniter (a PHP framework). It lets you build RESTful APIs (e.g., endpoints that respond in JSON/XML on GET/POST requests) by extending your controllers from `REST_Controller`. Your config file controls global settings like authentication, response formats, rate limiting, and security.
 
-   - **Requirements:**
-     - CodeIgniter 3.x (or compatible version; this config is for older versions around 3.x).
-     - Install the REST_Controller library if not already in your CodeIgniter install (you can download it from GitHub: `chriskacerguis/codeigniter-restserver`). Place the library files in `application/libraries/` and autoload it in `application/config/autoload.php`:
+- **What is it?** This is the REST_Controller library for CodeIgniter (a PHP framework). It lets you build RESTful APIs (e.g., endpoints that respond in JSON/XML on GET/POST requests) by extending your controllers from `REST_Controller`. Your config file controls global settings like authentication, response formats, rate limiting, and security.
+
+- **Requirements:**
+  - CodeIgniter 3.x (or compatible version; this config is for older versions around 3.x).
+  - Install the REST_Controller library if not already in your CodeIgniter install (you can download it from GitHub: `chriskacerguis/codeigniter-restserver`). Place the library files in `application/libraries/` and autoload it in `application/config/autoload.php`:
+
        ```php
        $autoload['libraries'] = ['rest_controller'];
        ```
-     - Database setup (optional; needed for features like API keys, logging, or limits). Run the SQL schemas provided in the config comments (e.g., for tables like `keys`, `logs`, `access`, `limits`).
-     - Enable pretty URLs in CodeIgniter (`application/config/routes.php`) for clean API endpoints like `/api/users`.
-     - Your `rest.php` config file should be placed in `application/config/` and autoloaded in `application/config/autoload.php`:
+
+  - Database setup (optional; needed for features like API keys, logging, or limits). Run the SQL schemas provided in the config comments (e.g., for tables like `keys`, `logs`, `access`, `limits`).
+  - Enable pretty URLs in CodeIgniter (`application/config/routes.php`) for clean API endpoints like `/api/users`.
+  - Your `rest.php` config file should be placed in `application/config/` and autoloaded in `application/config/autoload.php`:
+
        ```php
        $autoload['config'] = ['rest'];
        ```
 
-   - **Basic Installation Steps:**
+- **Basic Installation Steps:**
      1. Download and unzip CodeIgniter.
      2. Add the REST_Controller library files.
      3. Copy your provided `rest.php` to `application/config/`.
@@ -46,6 +51,7 @@ If your question is specifically about one aspect (e.g., authentication or limit
      6. Test with a tool like Postman or curl.
 
 ### 2. **Key Configuration Options**
+
 I'll summarize the main settings from your config file, grouped by purpose. These control global behavior. You can modify them to suit your needs (e.g., enable HTTPS or change default formats).
 
 - **Protocol and Output:**
@@ -86,10 +92,12 @@ I'll summarize the main settings from your config file, grouped by purpose. Thes
 To modify: Edit `rest.php` and restart your app. Test changes carefully!
 
 ### 3. **How to Use It: Step-by-Step Usage**
+
 Once set up, create API endpoints by building controllers that extend `REST_Controller`. Here's a high-level process:
 
 1. **Create a Controller:**
    - In `application/controllers/`, create `Api.php` (or e.g., `Users.php` for a specific resource):
+
      ```php
      <?php
      defined('BASEPATH') OR exit('No direct script access allowed');
@@ -142,6 +150,7 @@ Once set up, create API endpoints by building controllers that extend `REST_Cont
    - For limits/logging, query your DB tables.
 
 ### 4. **Common Tips and Best Practices**
+
 - **Security:** Always use HTTPS in production (`force_https = TRUE`). Enable keys if exposing to external clients. Sanitize inputs to prevent SQL injection.
 - **Errors:** Responses include `status` and `error` fields (customizable in config). Use CodeIgniter's profiler for debugging.
 - **Performance:** If logging/limits are enabled, your DB will handle queries—monitor for slow performance.

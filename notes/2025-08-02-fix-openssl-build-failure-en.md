@@ -40,6 +40,7 @@ If you don’t want to rely on system OpenSSL (or you lack root access), you can
    [dependencies]
    openssl = { version = "0.10", features = ["vendored"] }
    ```
+
 2. Then build again:
 
    ```bash

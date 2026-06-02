@@ -62,6 +62,7 @@ public class EmailValidator {
 ```
 
 ### Explanation
+
 - **`Pattern.compile(regex)`**: Compiles the regex string into a `Pattern` object.
 - **`pattern.matcher(email)`**: Creates a `Matcher` for the input string `email`.
 - **`matcher.matches()`**: Returns `true` if the entire string matches the pattern, `false` otherwise.
@@ -93,10 +94,12 @@ public class HashtagExtractor {
 ```
 
 ### Explanation
+
 - **`matcher.find()`**: Moves to the next match in the input string and returns `true` if a match is found.
 - **`matcher.group()`**: Returns the matched text for the current match.
 
 **Output**:
+
 ```
 #sample
 #multiple
@@ -162,6 +165,7 @@ public class SSNParser {
 ```
 
 ### Explanation
+
 - **`"(\\d{3})-(\\d{2})-(\\d{4})"`**: Defines three groups:
   - Group 1: `\\d{3}` (three digits)
   - Group 2: `\\d{2}` (two digits)
@@ -169,6 +173,7 @@ public class SSNParser {
 - **`matcher.group(n)`**: Retrieves the text matched by group `n` (1-based index).
 
 **Output**:
+
 ```
 Area number: 123
 Group number: 45
@@ -191,8 +196,11 @@ if (matcher.matches()) {
 ## Additional Features and Tips
 
 ### Flags
+
 Modify pattern behavior with flags in `Pattern.compile()`:
+
 - **`Pattern.CASE_INSENSITIVE`**: Ignores case when matching.
+
   ```java
   Pattern pattern = Pattern.compile("hello", Pattern.CASE_INSENSITIVE);
   Matcher matcher = pattern.matcher("HELLO");
@@ -200,13 +208,18 @@ Modify pattern behavior with flags in `Pattern.compile()`:
   ```
 
 ### String Methods
+
 For simple tasks, use `String` methods:
+
 - **`matches()`**: Checks if the entire string matches a regex.
+
   ```java
   String text = "cat";
   System.out.println(text.matches("\\w{3}")); // true
   ```
+
 - **`split()`**: Splits a string by a regex pattern.
+
   ```java
   String data = "apple, banana, cherry";
   String[] fruits = data.split("\\s*,\\s*");
@@ -214,12 +227,16 @@ For simple tasks, use `String` methods:
   ```
 
 ### Escaping Special Characters
+
 Regex uses special characters like `.`, `*`, and `?`. To match them literally, escape with `\\`:
+
 - Match a period: `"\\."`
 - In Java strings, escape backslashes: `"\\d"` for digits, `"\\\\"` for a literal backslash.
 
 ### Performance
+
 Compiling a pattern is costly. Reuse `Pattern` objects when possible:
+
 ```java
 Pattern pattern = Pattern.compile("\\d+"); // Compile once
 for (String input : new String[]{"123", "456"}) {
@@ -231,7 +248,9 @@ for (String input : new String[]{"123", "456"}) {
 ```
 
 ### Error Handling
+
 Invalid regex patterns throw `PatternSyntaxException`. Handle it in production code:
+
 ```java
 try {
     Pattern pattern = Pattern.compile("["); // Invalid regex

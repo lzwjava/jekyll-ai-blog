@@ -135,12 +135,12 @@ public class DeadlockGenerator {
 
 **Explanation:**
 
-1.  **Database Setup:**
+1. **Database Setup:**
     * `DB_URL`: Specifies the connection URL for the SQLite database file (`deadlock_example.db`).
     * `CREATE_TABLE_SQL`, `INSERT_ITEM_SQL`, `UPDATE_ITEM_SQL`: Define the SQL statements for creating the table, inserting initial data, and updating rows.
     * `createTableAndInitialData()`: Creates the `items` table if it doesn't exist and inserts two initial rows with IDs 1 and 2.
 
-2.  **Concurrent Updates:**
+2. **Concurrent Updates:**
     * `ExecutorService`: An `ExecutorService` with a fixed thread pool of 2 is created to simulate concurrent execution of two tasks.
     * `UpdateTask`: This inner class implements the `Runnable` interface. Each instance of `UpdateTask` represents a transaction that will attempt to update two rows.
         * The constructor takes the IDs and the new values for the two rows to be updated.
@@ -154,21 +154,21 @@ public class DeadlockGenerator {
             * **Error Handling:** Includes a `try-catch` block to handle `SQLException`. If an exception occurs (which could be a deadlock), it attempts to roll back the transaction using `conn.rollback()`.
             * **Finally Block:** Ensures that the connection is closed and `autoCommit` is reset to `true`.
 
-3.  **Conflicting Order:**
+3. **Conflicting Order:**
     * In the `main` method, two `UpdateTask` instances are submitted to the executor:
         * The first task tries to update row 1 and then row 2.
         * The second task tries to update row 2 and then row 1.
     * This conflicting order of acquiring locks on the same resources (the rows in the `items` table) is the condition that can lead to a deadlock.
 
-4.  **Execution and Output:**
+4. **Execution and Output:**
     * `executor.shutdown()` and `executor.awaitTermination()`: Ensure that the executor waits for both tasks to complete.
     * `printFinalData()`: After the threads have finished, this method prints the final contents of the `items` table to observe the outcome.
 
 **How to Run:**
 
-1.  **Save:** Save the code as `DeadlockGenerator.java`.
-2.  **Compile:** Compile the code using a Java compiler: `javac DeadlockGenerator.java`
-3.  **Run:** Execute the compiled code: `java DeadlockGenerator`
+1. **Save:** Save the code as `DeadlockGenerator.java`.
+2. **Compile:** Compile the code using a Java compiler: `javac DeadlockGenerator.java`
+3. **Run:** Execute the compiled code: `java DeadlockGenerator`
 
 **Expected Outcome:**
 

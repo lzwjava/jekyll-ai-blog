@@ -64,22 +64,26 @@ type: note
    - **参考文献**：[比较标签趋势与我们最受喜爱的编程语言](https://stackoverflow.blog/2025/07/31/comparing-tag-trends-with-our-most-loved-programming-languages/)、[2025年顶级计算机语言](https://statisticstimes.com/tech/top-computer-languages.php)。
 
 ### 与Rust采用情况的比较
+
 - **Rust的基准**：Rust的年增长约25%、约230万开发者及TIOBE第13-15位的排名设定了标准。凭借安全性和性能，在系统编程、云和AI领域表现出色。
 - **Go和TypeScript**：这些语言匹配或超过Rust的增长率（约20-30%），排名更高（分别第8-10位和第5-7位）。Go的云主导和TypeScript的Web主导使其比Rust的系统聚焦有更广影响。
 - **Kotlin和Swift**：这些语言有相似增长率（约20-25%），但更利基（分别针对Android和iOS）。在各自领域追赶Java/Objective-C，但普遍吸引力不及Rust。
 - **Julia**：其增长（约30%）强劲但限于科学计算，用户基数较小。与Rust相比，更不可能广泛挑战C/C++/Java。
 
 ### 这些语言成功的原因
+
 - **技术契合度**：每种语言在特定情境下（Go适合云、TypeScript适合Web、Kotlin/Swift适合移动、Julia适合科学）比旧语言更好地满足现代需求。
 - **AI加速**：AI工具降低了门槛，生成代码和教程，尤其对遗留负担较少的新语言有利。
 - **社区与行业**：强大支持（如Google对Go/Kotlin、微软对TypeScript、苹果对Swift）和开源生态系统推动采用，与Rust模式相似。
 
 ### 局限性
+
 - **生态系统规模**：无一匹配Java（Maven）、C++（Boost）或C（POSIX）的成熟库。这减缓了广泛采用。
 - **学习曲线**：TypeScript和Kotlin比Rust易学，但Go、Swift和Julia对初学者可能有挑战。
 - **遗留主导**：C/C++/Java在企业、OS和遗留系统中的根深蒂固意味着这些新语言在新项目中追赶，而非替换旧项目。
 
 ### 结论
+
 Go、TypeScript、Kotlin、Swift和Julia是2000年后起步且快速普及的杰出语言，与Rust轨迹相似。Go和TypeScript在广泛影响上最接近Rust，而Kotlin和Swift主导特定生态系统，Julia在利基市场表现出色。它们的增长由现代技术需求、AI工具和开源势头推动，但由于遗留系统的 entrenched，未来5-10年内无一能完全"追赶"上Java/C/C++。尽管如此，它们正显著重塑各自领域。
 
 **参考文献**

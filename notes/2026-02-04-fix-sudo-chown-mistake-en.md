@@ -155,6 +155,7 @@ But this **won't fix everything** — some packages expect very specific owners/
 Doing a recursive chown on /usr almost always ends with reinstall being the sanest path — especially since many setuid/setgid binaries, shared libraries, etc., are now wrong.
 
 If you want to try more targeted fixes first, tell me:
+
 - Your Ubuntu version (`cat /etc/os-release` if you can run it now)
 - What breaks when you try to use apt or open a GUI app
 - Whether you have important unsaved data in /home

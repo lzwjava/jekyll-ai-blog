@@ -20,6 +20,7 @@ ToT (local:8000) → SSH 隧道 :1234 → 远程代理 :8088 → llama-server :8
 ```
 
 **远程服务器上的文件 (192.168.1.36)：**
+
 - `~/tot_proxy.py` — 将 ToT 格式转换为 OpenAI 格式，监听端口 :8088
 - 运行着 `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` 模型的 llama-server，监听端口 :8080
 - 日志文件：`~/llama8b.log`, `~/tot_proxy.log`
@@ -40,6 +41,7 @@ nohup /home/lzw/projects/llama.cpp/build/bin/llama-server \
 ```
 
 远程服务器上可用的模型：
+
 - `deepseek-r1-distill-qwen-1.5b-q4_0.gguf` — 体量小/速度快
 - `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` — **当前推荐使用**
 - `DeepSeek-R1-Distill-Qwen-32B-Q2_K.gguf` — 大模型，可能占用 12GB 内存

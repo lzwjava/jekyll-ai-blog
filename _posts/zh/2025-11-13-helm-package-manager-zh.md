@@ -15,6 +15,7 @@ Helm 是 Kubernetes 的包管理器，常被称为“Kubernetes 的 yum 或 apt�
 可以将 Helm Chart 视为 Kubernetes 清单文件的 Docker 镜像：它将 YAML 文件、模板、默认值和逻辑打包成一个单元，只需一条命令即可安装。
 
 在 **Jenkins** 等 CI/CD 流水线中，Helm 通常用于：
+
 - 构建和测试 Chart
 - 将 Chart 推送到仓库（如 ChartMuseum、Harbor、Nexus）
 - 安全地将应用部署到预发布/生产集群
@@ -36,6 +37,7 @@ Helm 是 Kubernetes 的包管理器，常被称为“Kubernetes 的 yum 或 apt�
 ## 核心概念
 
 ### 1. **Chart**
+
 - 包含 Kubernetes 清单和元数据的目录结构
 - 示例：`my-app-chart/`
 
@@ -51,14 +53,17 @@ my-app-chart/
 ```
 
 ### 2. **Release**
+
 - 在集群中运行的 Chart 实例
 - 一个 Chart → 多个 Release（如 `myapp-dev`、`myapp-prod`）
 
 ### 3. **Repository**
+
 - 托管已索引 Chart 的 HTTP 服务器（类似 npm 注册表）
 - 常见仓库：ChartMuseum、Harbor、Nexus、GitHub Pages、S3
 
 ### 4. **Tiller**（已弃用）
+
 - Helm v2 使用名为 Tiller 的服务端组件
 - **Helm v3+ 移除了 Tiller** → 仅客户端，更安全
 
@@ -87,6 +92,7 @@ my-app-chart/
 ## Chart 结构详解
 
 ### `Chart.yaml`（必需）
+
 ```yaml
 apiVersion: v2
 kind: Chart
@@ -108,6 +114,7 @@ icon: https://example.com/logo.png
 ```
 
 ### `values.yaml`（默认值）
+
 ```yaml
 replicaCount: 2
 image:
@@ -124,7 +131,9 @@ resources:
 ```
 
 ### `templates/deployment.yaml`
+
 {% raw %}
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -150,10 +159,13 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
 ```
+
 {% endraw %}
 
 ### `_helpers.tpl`（最佳实践）
+
 {% raw %}
+
 ```tpl
 {{/* 生成基础标签 */}}
 {{- define "my-app.labels" -}}
@@ -162,6 +174,7 @@ app.kubernetes.io/name: {{ include "my-app.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 ```
+
 {% endraw %}
 
 ---
@@ -233,6 +246,7 @@ pipeline {
 ```
 
 ### 关键 Jenkins 插件
+
 - **Kubernetes CLI** (`kubectl`)
 - **Helm**（通过代理中的 `helm` 二进制文件）
 - **Pipeline Utility Steps** (`readYaml`、`writeYaml`)

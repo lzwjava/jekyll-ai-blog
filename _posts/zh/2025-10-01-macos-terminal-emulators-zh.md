@@ -13,6 +13,7 @@ type: note
 除了 iTerm2 和 Ghostty 之外，macOS 上流行的终端模拟器还包括多款开源及商业选项，它们分别满足性能、功能与自定义等不同需求。以下推荐基于近期评测和排名，重点关注兼容 macOS 的应用程序。
 
 ### 热门替代方案
+
 - **Alacritty**：基于 GPU 加速的高速终端，支持主题定制和类 Vim 编辑模式。这款轻量级工具为编程场景提供极致性能，摒弃繁复功能。[1][2]
 - **Kitty**：以 GPU 加速和现代化功能著称，支持多标签页、分屏及桌面通知。可通过扩展增强功能，适合需要高效处理大型工作流程的高级用户。[1][2][3][4]
 - **WezTerm**：跨平台终端，具备串行多路复用、图形化选取和 Lua 脚本等高级功能，适合需要精细配置和多任务处理的用户。[1][5]
@@ -27,9 +28,9 @@ type: note
 安装提示：多数终端可通过 Homebrew 安装（例如 `brew install --cask kitty`）或官网直接下载。建议根据工作流特性选择初始版本，因为切换终端需重新配置环境。由于功能迭代迅速，请持续关注各应用的发布说明以获取最新特性。
 
 引用来源：
-[1] https://www.youtube.com/watch?v=WxzYtdIcHnQ
-[2] https://erlangforums.com/t/which-terminal-emulator-do-you-use-poll/4368
-[3] https://setapp.com/how-to/terminal-alternatives-for-mac?srsltid=AfmBOorowizKiascb9JBZSccPQ7V_EMpI2oWZYKGgoMihcje_nKWgc-q
-[4] https://www.zdnet.com/article/6-macos-terminal-apps-that-are-much-better-than-apples-default-and-theyre-free/
-[5] https://thenewstack.io/the-best-macos-terminal-emulation-programs-for-developers/
-[6] https://www.reddit.com/r/MacOS/comments/1hvujf0/best_terminal_for_macOS/
+[1] <https://www.youtube.com/watch?v=WxzYtdIcHnQ>
+[2] <https://erlangforums.com/t/which-terminal-emulator-do-you-use-poll/4368>
+[3] <https://setapp.com/how-to/terminal-alternatives-for-mac?srsltid=AfmBOorowizKiascb9JBZSccPQ7V_EMpI2oWZYKGgoMihcje_nKWgc-q>
+[4] <https://www.zdnet.com/article/6-macos-terminal-apps-that-are-much-better-than-apples-default-and-theyre-free/>
+[5] <https://thenewstack.io/the-best-macos-terminal-emulation-programs-for-developers/>
+[6] <https://www.reddit.com/r/MacOS/comments/1hvujf0/best_terminal_for_macOS/>

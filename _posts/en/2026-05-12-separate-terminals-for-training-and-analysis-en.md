@@ -46,6 +46,7 @@ bash scripts/download/wget_fineweb_1.sh
 ```
 
 Key rules:
+
 - Redirect output to log files with `tee` so logs persist
 - Use `nohup` or `tmux`/`screen` to keep processes alive if the terminal closes
 - Let it run unattended — do not babysit it

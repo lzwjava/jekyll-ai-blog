@@ -16,12 +16,14 @@ Everything works now. Here's the final result:
 ## ROCm Stack — Fully Operational
 
 **`rocm-smi`** (AMD's nvidia-smi):
+
 ```
 GPU  Temp    Power   SCLK    MCLK   PwrCap   VRAM%  GPU%
 0    37.0°C  154.0W  139MHz  900MHz 750.0W   0%     0%
 ```
 
 **`rocminfo`** — full GPU specs:
+
 ```
 AMD Instinct MI300X VF (gfx942)
   304 Compute Units | 1216 SIMDs | 32 Shader Engines
@@ -30,6 +32,7 @@ AMD Instinct MI300X VF (gfx942)
 ```
 
 **HIP compute test:**
+
 ```
 HIP devices: 1
 Device 0: AMD Instinct MI300X VF

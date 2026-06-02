@@ -15,6 +15,7 @@ Arduino isn’t something you "play" like a game—it’s a tool for creating in
 ---
 
 ### **How to Get Started with Arduino**
+
 1. **What You Need:**
    - An Arduino board (e.g., Arduino Uno, a common starter board).
    - A USB cable (usually USB-A to USB-B for the Uno).
@@ -39,7 +40,9 @@ Arduino isn’t something you "play" like a game—it’s a tool for creating in
 ### **Example Projects**
 
 #### **1. Blinking an LED (Hello World of Arduino)**
+
 This uses the built-in LED on pin 13 of most Arduino boards.
+
 ```cpp
 void setup() {
   pinMode(13, OUTPUT); // Set pin 13 as an output
@@ -52,11 +55,14 @@ void loop() {
   delay(1000);            // Wait 1 second
 }
 ```
+
 - **How it Works:** The LED blinks on and off every second.
 - **Hardware:** No extra components needed—just the Arduino.
 
 #### **2. Button-Controlled LED**
+
 Control an external LED with a pushbutton.
+
 - **Components:** LED, 220-ohm resistor, pushbutton, breadboard, wires.
 - **Wiring:**
   - LED anode (longer leg) to pin 9 via the resistor, cathode to GND.
@@ -80,10 +86,13 @@ void loop() {
   }
 }
 ```
+
 - **How it Works:** Press the button to light the LED; release to turn it off.
 
 #### **3. Fading an LED (PWM Example)**
+
 Use Pulse Width Modulation (PWM) to fade an LED in and out.
+
 - **Components:** LED, 220-ohm resistor.
 - **Wiring:** LED to pin 9 (a PWM-capable pin), resistor to GND.
 
@@ -105,11 +114,13 @@ void loop() {
   }
 }
 ```
+
 - **How it Works:** The LED fades from off to full brightness, then back down, repeatedly.
 
 ---
 
 ### **Tips for Beginners**
+
 - **Experiment:** Modify the examples—change delays, pins, or add more components.
 - **Tutorials:** Check out Arduino’s official site ([arduino.cc](https://www.arduino.cc/en/Tutorial/HomePage)) or YouTube for visual guides.
 - **Kits:** Starter kits (like the Arduino Starter Kit) come with components and project ideas.

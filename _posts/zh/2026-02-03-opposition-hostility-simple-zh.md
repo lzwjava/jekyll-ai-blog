@@ -13,6 +13,7 @@ type: note
 "Antagonistic" 的意思是表现出反对、敌意或积极对抗某人或某事。它描述的是对抗性的、不友好的或冲突的行为或态度。
 
 例如：
+
 - 两个人之间存在 **antagonistic relationship**（对抗关系），意味着他们处于冲突之中
 - 一个 **antagonistic comment**（敌对言论）是指具有敌意或挑衅性的评论
 - 在生物学中，**antagonistic muscles**（拮抗肌）是指向相反方向作用的肌肉（如肱二头肌和肱三头肌）

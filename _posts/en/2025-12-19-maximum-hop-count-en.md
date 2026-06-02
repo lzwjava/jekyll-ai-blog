@@ -25,6 +25,7 @@ In Routing Information Protocol (RIP), the maximum hop count is 15. This means t
 This hop count restriction is a key characteristic of RIP (both RIPv1 and RIPv2) and explains why it is primarily suited for small to medium-sized networks.
 
 References:
+
 - [Cisco RIP Documentation](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
 - [RFC 1058 - Routing Information Protocol](https://tools.ietf.org/html/rfc1058)
 - [RFC 2453 - RIP Version 2](https://tools.ietf.org/html/rfc2453)

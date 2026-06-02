@@ -37,6 +37,7 @@ type: note
 简而言之：DFS很强大，但社区对其现实缺点存在巨大的盲点，并过分吹捧其理论美感。
 
 参考文献：
+
 - [Stack Overflow: Recursive DFS vs Iterative DFS](https://stackoverflow.com/questions/12946923/iterative-depth-first-traversal)
 - [LeetCode Discuss: DFS vs BFS for shortest path myths](https://leetcode.com/discuss/general-discussion/1053079/shortest-path-in-unweighted-graph-bfs-vs-dfs)
 - [Codeforces blogs on bitmask DP + DFS for NP-complete problems](https://codeforces.com/blog/entry/70647)

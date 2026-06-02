@@ -26,6 +26,7 @@ AMD Developer Cloud 运行在 DigitalOcean 之上——devcloud.amd.com 会重�
 快照允许你恢复 Droplet 的精确状态，无需重新运行配置，但会产生少量存储费用。在你的工作流程中：在配置好 ROCm、PyTorch 以及模型/数据集后拍摄快照。然后你可以销毁 Droplet 以停止计费，之后在约 2 分钟内从该快照启动一个新的 Droplet——所有配置都会被保留。
 
 **实用工作流程：**
+
 ```bash
 # 1. 配置你的 MI300X Droplet，训练模型等
 # 2. AMD DevCloud UI → Snapshots → Take Snapshot

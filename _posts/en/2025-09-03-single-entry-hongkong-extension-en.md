@@ -47,7 +47,7 @@ While that policy is specific to Shenzhen, Guangzhou offers a similar **automati
 
 ---
 
-### Summary of What’s Possible (Yes):
+### Summary of What’s Possible (Yes)
 
 * You **can go** to your local Exit-Entry administration office in Huangpu to extend or get a **single-entry G endorsement** on your Two-Way Permit.
 * The G endorsement **entitles you** to a **7-day stay in Hong Kong**.
@@ -55,7 +55,7 @@ While that policy is specific to Shenzhen, Guangzhou offers a similar **automati
 
 ---
 
-### Tips for Your Visit:
+### Tips for Your Visit
 
 * Bring your Two-Way Permit (with at least 3 months’ validity remaining).
 * Visit the local Exit-Entry Administration bureau (PSB).

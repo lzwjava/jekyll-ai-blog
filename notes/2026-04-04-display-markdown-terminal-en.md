@@ -47,10 +47,12 @@ Here are the key points:
 ```python
 print("Hello World")
 ```
+
 """
 
 md = Markdown(llm_response)
 console.print(md)
+
 ```
 
 You can also use the Markdown class directly from the command line — for example: `python -m rich.markdown README.md`
@@ -68,11 +70,13 @@ Yes, you absolutely can instruct the LLM to respond in plain text without any Ma
 ### Effective system prompt wording
 
 ```
+
 You are a helpful assistant running inside a terminal CLI tool.
 Do NOT use any Markdown formatting in your responses.
 No bold (**text**), no italics (*text*), no headers (# text),
 no bullet dashes, no backtick code fences.
 Respond in plain text only.
+
 ```
 
 ### Why this approach works (with caveats)
@@ -84,9 +88,11 @@ Recently, in the "o" series models, OpenAI introduced a default setting that pre
 A strong, explicit system prompt example that works well in practice (from real-world usage):
 
 ```
+
 You will be given questions by the user.
 Respond in plain text only — no markdown, no fenced code blocks, no bullet dashes, no bold or italic syntax.
 Your output will be printed directly to a terminal.
+
 ```
 
 ---

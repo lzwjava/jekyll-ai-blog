@@ -11,13 +11,16 @@ type: note
 Yes, the back-and-forth nature of traditional tool or function calls in chatbots (where the AI model generates a call, sends it to the client or another service, waits for execution, and then receives results) can indeed introduce latency, especially in real-time applications. This is often due to network overhead, serialization/deserialization, and the need for multiple API round-trips. Your suggestion of using lambda functions or designing an API that accepts Python code for server-side execution is a smart way to mitigate this—essentially shifting computation to the server to minimize client-server interactions. I'll break this down conceptually, discuss feasibility, potential implementations, and trade-offs.
 
 ### Why Traditional Tool Calls Can Be Slow
+
 In many AI frameworks (e.g., LangChain, OpenAI's function calling, or Anthropic's tools):
+
 - The model outputs a structured tool call (e.g., JSON with function name and args).
 - The client (or agent) executes the function locally or via another API.
 - Results are appended to the conversation history and sent back to the model for the next inference step.
 This loop can add seconds of delay per cycle, compounding in complex tasks like data analysis or multi-step reasoning.
 
 ### Using Lambda Functions or Server-Side Code Execution
+
 Your idea aligns with "serverless" or "sandboxed" execution models, where the AI generates code (or a lambda-like snippet) that's run directly on the server hosting the model. This keeps everything in one environment, reducing round-trips to potentially just one API call from the user.
 
 - **Lambda Functions Approach**: Services like AWS Lambda, Google Cloud Functions, or Azure Functions allow executing small, ephemeral Python code snippets on-demand without managing servers. In an AI context:
@@ -40,7 +43,9 @@ Your idea aligns with "serverless" or "sandboxed" execution models, where the AI
     - Libraries like `restrictedpython` or tools like E2B/Firecracker provide ready-made sandboxes.
 
 ### Real-World Examples and Implementations
+
 Several AI platforms already support this to varying degrees:
+
 - **OpenAI's Assistants API with Code Interpreter**: Allows the model to write and run Python code in a sandboxed environment on OpenAI's servers. The model can upload files, execute code, and iterate on results—all server-side. No need for client-side execution.
 - **Google's Gemini API Code Execution**: Provides a built-in Python sandbox where the model generates and runs code iteratively, learning from outputs without external calls.
 - **Custom Solutions**:
@@ -71,6 +76,7 @@ def execute_code(code: str):
 Integrate this with your chatbot: The AI generates code based on user input, calls the endpoint internally, and incorporates results.
 
 ### Potential Drawbacks and Best Practices
+
 - **Security Risks**: Arbitrary code execution is dangerous—always sandbox. Avoid if handling untrusted users.
 - **Cost and Scalability**: Server-side execution uses more compute; monitor with tools like New Relic for optimization.
 - **Debugging**: Errors in generated code can loop if not handled well.

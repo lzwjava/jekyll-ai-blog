@@ -19,15 +19,19 @@ Here are the most reliable and commonly used ways to check if SSH (usually OpenS
 ### Quickest & Recommended Methods
 
 1. **Check service status (most recommended)**
+
 ```bash
 sudo systemctl status ssh
 ```
+
 or
+
 ```bash
 systemctl status ssh
 ```
 
 Look for these key lines:
+
 - `Active: active (running)` → SSH is **running**
 - `Active: inactive (dead)` → SSH is **stopped**
 - `Active: failed` → SSH failed to start (look at the error below)
@@ -35,15 +39,19 @@ Look for these key lines:
 Alias note: on Ubuntu the service is usually called `ssh` (not `sshd`)
 
 2. **Even shorter – just check if it's active**
+
 ```bash
 systemctl is-active ssh
 ```
+
 Output:
+
 - `active`   → running
 - `inactive` → stopped
 - `failed`   → crashed
 
 3. **Check if SSH port is listening (very reliable)**
+
 ```bash
 # Most popular & clean way (recommended)
 ss -tuln | grep :22
@@ -55,6 +63,7 @@ sudo ss -tuln  | grep ':22.*LISTEN'
 ```
 
 If you see output similar to this → SSH **is listening**:
+
 ```
 tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*
 # or
@@ -91,6 +100,7 @@ nc -zv 192.168.1.100 22
 ```
 
 Output:
+
 - `succeeded!` → SSH port is open and reachable
 - `Connection refused` / timeout → SSH is off, firewalled, or network issue
 

@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Understanding the Exam
+
 The course 11325: Computer and Application Course Experiment (I) is a practical (on-machine) assessment for the Major 610201: Computer Application Technology (specialist level) at Guangdong University of Foreign Studies (GDUFS). It's a comprehensive hands-on exam worth 10 credits, designed to test your ability to apply concepts from related theory courses through real-world computer-based tasks. You must pass the following five prerequisite theory exams before registering:
 
 - 电子技术基础(三) (Electronics Fundamentals III)
@@ -20,6 +21,7 @@ The course 11325: Computer and Application Course Experiment (I) is a practical 
 - 数据库及其应用 (Database and Its Application)
 
 The exam is scored as follows (out of 10 credits):
+
 - Electronics Fundamentals III: 2 credits
 - Advanced Language Programming I: 2 credits
 - Microcomputer and Interface Technology: 2 credits
@@ -29,6 +31,7 @@ The exam is scored as follows (out of 10 credits):
 It's conducted on computers, combining practical operations (e.g., coding, simulations, database queries) with some written elements. The focus is on three levels: memorization (basic concepts), comprehension (principles), and application (independent implementation). Expect tasks like writing simple programs, designing basic circuits, querying databases, and interfacing hardware/software.
 
 ### Key Topics Covered
+
 Based on the assessment outline, the exam draws from experiments in the prerequisites. Here's a breakdown:
 
 1. **Electronics Fundamentals III (2 credits)**:
@@ -58,6 +61,7 @@ Based on the assessment outline, the exam draws from experiments in the prerequi
    - **Skills Tested**: Design a simple database (e.g., student records), insert/update data, and query results.
 
 ### How to Prepare
+
 Preparation should emphasize hands-on practice, as this is a practical exam. Aim for 2–3 months of focused study if you're starting from the prerequisites.
 
 1. **Review Prerequisites**:
@@ -101,6 +105,7 @@ Preparation should emphasize hands-on practice, as this is a practical exam. Aim
 With consistent practice, you'll build the confidence for the on-machine format. Good luck!
 
 ### References
+
 - [Zhihu Discussion on 11325 Exam Content](https://www.zhihu.com/question/430869242)
 - [Bilibili Sample Questions for Computer Experiments](https://www.bilibili.com/read/cv15294426/)
 - [GDUFS 2023 Practical Assessment Notification](https://jxjy.gdufs.edu.cn/info/1178/17276.htm)

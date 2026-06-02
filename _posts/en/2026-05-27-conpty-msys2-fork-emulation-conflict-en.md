@@ -26,6 +26,7 @@ ShellStarter::Direct(shell_starter) | ShellStarter::MSYS2(shell_starter) => {
 Both Direct and MSYS2 shells go through the same ConPTY path. ConPTY creates a pseudo-console via `CreatePseudoConsole`, then spawns bash with `CreateProcessW` attached to it.
 
 From `app/src/terminal/local_tty/shell.rs:690-694`, MSYS2 bash is launched with:
+
 ```rust
 ShellType::Bash => {
     vec!["--noprofile".into(), "--norc".into()]
@@ -39,6 +40,7 @@ The conflict: MSYS2's `fork()` emulation uses shared memory and a `sync_proc_sub
 **1. Use `Git\usr\bin\bash.exe` (not `Git\bin\bash.exe`)**
 
 Warp already canonicalizes this (`warp_util/src/path.rs:524-533`):
+
 ```rust
 pub fn canonicalize_git_bash_path(mut path: PathBuf) -> PathBuf {
     if !path.ends_with(Path::new("Git").join("bin").join("bash.exe")) {
@@ -53,12 +55,14 @@ The `bin\bash.exe` is a wrapper that spawns `usr\bin\bash.exe` as a child — do
 **2. Set MSYS2 environment variables before launching Warp**
 
 Add to your Windows system environment variables:
+
 ```
 MSYS=winsymlinks:nativestrict
 MSYS_NO_PATHCONV=1
 ```
 
 Or create a batch wrapper:
+
 ```bat
 @echo off
 set MSYS=winsymlinks:nativestrict
@@ -69,6 +73,7 @@ start "" "C:\Users\%USERNAME%\AppData\Local\Programs\Warp\Warp.exe"
 **3. Disable ConPTY for MSYS2 (if your Git version supports it)**
 
 Git Bash ships with MSYS2's mintty. You can use mintty instead of ConPTY by launching:
+
 ```
 "C:\Program Files\Git\git-bash.exe" --con-host
 ```
@@ -78,6 +83,7 @@ But this bypasses Warp entirely. For Warp integration, ConPTY is required.
 **4. The error is usually non-fatal**
 
 From the bootstrap script (`bash_init_shell.sh:9`):
+
 ```bash
 if [[ "$OS" == Windows_NT ]]; then WARP_IN_MSYS2=true; fi
 ```
@@ -87,6 +93,7 @@ Warp detects MSYS2 and adjusts its bootstrap protocol (using OSC instead of DCS 
 **5. Avoid fork-heavy commands in Warp MSYS2 sessions**
 
 Commands that heavily use `fork()` are most likely to trigger the error:
+
 - `make` / `autotools`
 - `git` operations on large repos
 - `python` (MSYS2 python, not native Windows Python)

@@ -34,7 +34,7 @@ However, you can build a **powerful local proxy client / transparent proxy tool*
 - **TLS** — **Netty** built-in OpenSSL/Conscrypt or JDK SSLEngine
 - **Rule engine (like Clash YAML routing)** — Use **Picocli** or **Quarkus** CLI + **Jackson/YAML** parser + custom rule matcher (or embed **Drools** for complex rules, but heavy)
 - **Transparent proxy / TUN mode** (very hard in Java)
-  - Use ** tun2socks ** approach + ** gVisor** / ** lwip ** stack in Java (almost impossible)
+  - Use **tun2socks** approach + **gVisor** / **lwip** stack in Java (almost impossible)
   - More realistic: only **system proxy** (PAC + HTTP/SOCKS outbound) or **per-app proxy** via local SOCKS/HTTP server
 - **Configuration & GUI** (optional)
   - **Quarkus** or **Spring Boot 3.x** (with virtual threads) for backend server

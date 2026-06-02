@@ -41,6 +41,7 @@ type: note
 这些事件虽仅代表全部中断中的一部分，但因其影响范围与持续时间而最具破坏性。微软通常会发布事后评估报告以供借鉴，随着时间推移服务可用性已不断提升，其服务等级协议目标为 99.99% 正常运行时间。
 
 ## 参考资料
+
 - [微软 Azure 中断事件历史](https://www.datacenterknowledge.com/outages/a-history-of-microsoft-azure-outages)
 - [微软 Azure 中断历史概览](https://statusgator.com/blog/azure-outage-history/)
 - [Azure 状态历史](https://azure.status.microsoft/en-us/status/history/)

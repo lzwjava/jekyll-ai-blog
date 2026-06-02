@@ -54,5 +54,5 @@ type: note
 
 参考文献：
 
-- 英文原版书官方页面：https://www.nonviolentcommunication.com/learn-nonviolent-communication/book-nonviolent-communication
-- 非暴力沟通中心：https://www.cnvc.org/learn/nvc-foundations
+- 英文原版书官方页面：<https://www.nonviolentcommunication.com/learn-nonviolent-communication/book-nonviolent-communication>
+- 非暴力沟通中心：<https://www.cnvc.org/learn/nvc-foundations>

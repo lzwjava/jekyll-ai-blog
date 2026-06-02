@@ -12,6 +12,7 @@ type: note
 ## 📊 CI4 迁移状态
 
 **运行栈（Docker）：**
+
 - `live-server-web-1` — nginx 运行在端口 8088 ✅
 - `live-server-app-1` — PHP 8.5.4 FPM 运行在 8081/9000 ✅
 - `live-server-database-1` — MySQL 5.7 ✅
@@ -40,6 +41,7 @@ type: note
 **根本原因：** `JSSDK` 库使用了 CI3 的 `get_instance()` 模式 — 该全局单例模式在 CI4 中已被移除。
 
 **受影响的代码流程:**
+
 ```
 请求 → Home::index()
   → BaseController.__construct()
@@ -55,12 +57,14 @@ type: note
 ## 🔧 修复方案
 
 ### 方案 A：深度 CI4 重构
+
 - 重写 `JSSDK` 以使用 CI4 服务
 - 重写 `REST_Controller`（或替换为 CI4 API 资源）
 - 修复所有使用 `$this->load` 的控制器
 - 预估时间：**约 2 小时**（配合编码助手）
 
 ### 方案 B：PHP 8.3 + 维持 CI3
+
 - 降级至 PHP 8.3（兼容 CI3）
 - 保持当前应用原样
 - 完全跳过 CI4 迁移

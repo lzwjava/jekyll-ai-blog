@@ -140,7 +140,7 @@ def run_translate(
         return text
 
     # Use language-specific model mapping, ignore the model parameter
-    actual_model = LANGUAGE_MODEL_MAP.get(target, "mistral-medium")
+    LANGUAGE_MODEL_MAP.get(target, "mistral-medium")
     prompt = build_prompt_template(target, kind, front_matter, text) + "\n\n" + text
     translated = clean_response(call_openrouter_api(prompt, model))
     check_commentary(translated)
@@ -156,9 +156,9 @@ def run_translate(
     check_prohibited_zh_terms(translated, target)
 
     try:
-        detected = detect_language_with_langid(translated)
-    except Exception:
-        detected = []
+        detect_language_with_langid(translated)
+    except Exception:  # nosec B110 — best-effort detection
+        pass
     validate_translated_languages(
         translated, target, require_english=need_en, source_file=source_file
     )

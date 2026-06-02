@@ -45,6 +45,7 @@ pip install gunicorn
 ```
 
 For async support:
+
 ```bash
 pip install gunicorn[gevent]    # or [eventlet], [tornado]
 ```
@@ -60,6 +61,7 @@ gunicorn [OPTIONS] MODULE_NAME:VARIABLE_NAME
 ```
 
 Example with Flask:
+
 ```bash
 gunicorn --workers 3 --bind 0.0.0.0:8000 run:app
 ```
@@ -112,12 +114,14 @@ workers = (2 × CPU cores) + 1
 ```
 
 For gevent/eventlet (async):
+
 ```text
 workers = number of CPU cores
 threads = 100–1000 (depending on concurrency)
 ```
 
 Example:
+
 ```bash
 gunicorn -k gevent --workers 2 --threads 200 run:app
 ```
@@ -147,6 +151,7 @@ preload_app = False
 ```
 
 Then run:
+
 ```bash
 gunicorn --config gunicorn-cfg.py run:app
 ```
@@ -166,12 +171,14 @@ loglevel = "warning"
 ```
 
 Or log to stdout (Docker-friendly):
+
 ```python
 accesslog = "-"
 errorlog = "-"
 ```
 
 Log format:
+
 ```python
 access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"'
 ```
@@ -181,16 +188,19 @@ access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
 ## Graceful Reload & Zero Downtime
 
 1. **Reload workers** (new code):
+
    ```bash
    kill -HUP <gunicorn_pid>
    ```
 
 2. **Restart gracefully**:
+
    ```bash
    kill -TERM <gunicorn_pid>
    ```
 
 3. **With systemd**:
+
    ```ini
    [Service]
    ExecReload=/bin/kill -HUP $MAINPID
@@ -240,12 +250,14 @@ CMD ["gunicorn", "--config", "gunicorn-cfg.py", "run:app"]
 ```
 
 **Why this is good**:
+
 - `PYTHONUNBUFFERED=1` → real-time logs
 - `PYTHONDONTWRITEBYTECODE=1` → no `.pyc` files
 - `--no-cache-dir` → smaller image
 - Config file → clean CMD
 
 **Optional improvements**:
+
 ```dockerfile
 # Use non-root user
 RUN adduser --disabled-password --gecos '' appuser
@@ -281,6 +293,7 @@ WantedBy=multi-user.target
 ```
 
 Enable:
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable --now gunicorn
@@ -305,6 +318,7 @@ sudo systemctl enable --now gunicorn
 - **Logs**: Tail access/error logs
 - **Metrics**: Use `prometheus-client` + Gunicorn exporter
 - **Health endpoint**:
+
   ```python
   @app.route("/health")
   def health():
@@ -326,11 +340,13 @@ async def root():
 ```
 
 Run with:
+
 ```bash
 gunicorn -k uvicorn.workers.UvicornWorker run:app
 ```
 
 Install:
+
 ```bash
 pip install "uvicorn[standard]"
 ```

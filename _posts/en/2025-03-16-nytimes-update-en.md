@@ -17,7 +17,6 @@ Click the button below to update the [NYTimes CN articles](./notes/2025-03-14-ny
 
 This page allows you to trigger an update of the NYTimes CN articles. Clicking the button will initiate a workflow that fetches the latest articles, translates them, and updates the content on this site. Please note that it may take a few minutes for the changes to appear after the update is triggered.
 
-
 Python code:
 
 ```python

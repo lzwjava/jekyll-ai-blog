@@ -42,6 +42,7 @@ ASML Holding N.V.（总部位于荷兰费尔德霍芬）是全球唯一的极紫
 简而言之，ASML的成功在于解决了现代技术中最困难的工程挑战之一（EUV光刻），与客户分担了巨大的开发风险，然后对于半导体产业在约7纳米以下的进步而言变得几乎不可替代。
 
 参考文献：
+
 - [ASML Annual Reports 2012–2024](https://www.asml.com/en/investors/annual-report)
 - [The Chip Letter – How ASML took over the world of chipmaking](https://thechipletter.substack.com/p/how-asml-took-over-the-world-of-chip)
 - [Asianometry – The Insane Engineering of the EUV Machine](https://www.youtube.com/watch?v=t0QSiN9zV2Q)

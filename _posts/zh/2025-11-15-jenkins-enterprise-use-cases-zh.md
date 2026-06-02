@@ -29,6 +29,7 @@ type: note
 | **本地化与混合云**               | 在企业防火墙后运行（对受监管行业至关重要），同时仍能访问云环境                                 | 支持气隙网络或高限制网络环境                              |
 
 ### 典型企业设置（2025年）
+
 - 在 Kubernetes（Jenkins Operator 或 Helm chart）或虚拟机上运行的 Jenkins 控制器
 - 数百/数千个 Jenkins 代理（静态虚拟机、Kubernetes Pod、AWS EC2 Spot、Azure VMSS 等）
 - 通过共享库（Groovy）为数百个团队提供可重用的流水线代码
@@ -37,6 +38,7 @@ type: note
 - 代码即流水线（仓库中的 Jenkinsfile）——在多数成熟企业中已成为强制要求
 
 ### 核心价值
+
 在现代企业中，Jenkins 早已不再是“单纯的 CI 工具”。它通常成为整个软件交付生命周期的**中央自动化编排器**，甚至经常承担非软件开发生命周期的自动化任务。
 
 几乎所有内部开发或部署软件的财富 1000 强公司，当前都在使用 Jenkins 或在过去 10-15 年内曾使用过。即使是正在转向 GitHub Actions、GitLab CI 或 ArgoCD 的组织，通常仍会保留 Jenkins 用于遗留系统或高合规要求的工作流。

@@ -41,10 +41,10 @@ One way to determine pi is to draw a circle and measure its circumference. I hav
 
 Miles Mathis' conspiracy theories that I am interested in include:
 
-* Unsurprisingly, he's also a birther and 9/11 truther.
-* All major internet sites, NASA, all universities, mainstream physics, and basically everything else (like bookstores) are infiltrated by the CIA.
-* John Lennon faked his death and is currently living in Canada.
-* The Trump assassination was staged.
+- Unsurprisingly, he's also a birther and 9/11 truther.
+- All major internet sites, NASA, all universities, mainstream physics, and basically everything else (like bookstores) are infiltrated by the CIA.
+- John Lennon faked his death and is currently living in Canada.
+- The Trump assassination was staged.
 
 I don't know the truth and have not yet studied them carefully. I have respect for him and he has the courage to say and speak his mind. He used time and effort to research these topics.
 
@@ -102,5 +102,5 @@ AI can handle a large part of work now. Perhaps people need to return to nature.
 
 References:
 
-* [Can rockets really fly into space?](https://substack.com/inbox/post/140904702)
-* [All space photos are fake.](https://substack.com/inbox/post/139892070)
+- [Can rockets really fly into space?](https://substack.com/inbox/post/140904702)
+- [All space photos are fake.](https://substack.com/inbox/post/139892070)

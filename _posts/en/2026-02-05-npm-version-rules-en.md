@@ -13,17 +13,20 @@ type: note
 In `package.json`, the `~` and `^` characters control how npm updates your dependencies:
 
 **`^` (caret) - minor and patch updates**
+
 - Allows updates that don't change the leftmost non-zero digit
 - `^1.2.3` → allows `1.2.4`, `1.3.0`, `1.9.9` but NOT `2.0.0`
 - `^0.2.3` → allows `0.2.4`, `0.2.9` but NOT `0.3.0` (because in 0.x versions, the second digit is considered major)
 - This is the **default** when you run `npm install package`
 
 **`~` (tilde) - patch updates only**
+
 - Only allows patch-level changes
 - `~1.2.3` → allows `1.2.4`, `1.2.9` but NOT `1.3.0`
 - More conservative than `^`
 
 **Practical example:**
+
 ```json
 {
   "dependencies": {

@@ -28,6 +28,7 @@ find . -name "*.yaml" -o -name "*.toml" -o -name "*.json" | xargs grep -l "herme
 ## 2. Common patterns to disable
 
 **If it's a flag in a config file:**
+
 ```yaml
 # agent config
 planning: false
@@ -36,6 +37,7 @@ review_steps: []
 ```
 
 **If it's a CLI flag:**
+
 ```bash
 mimo --no-plan
 mimo --disable-hermes
@@ -43,6 +45,7 @@ mimo --mode direct   # skip orchestration layer
 ```
 
 **If it's code — find the orchestration loop:**
+
 ```python
 # Look for something like this and short-circuit it
 class Hermes:

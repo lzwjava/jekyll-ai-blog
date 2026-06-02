@@ -62,5 +62,6 @@ printf '{}\n'
 ```
 
 Two fixes applied:
+
 1. **Code-signed `terminal-notifier`** — ad-hoc signing so macOS Notification Center actually shows the notifications
 2. **Redirected noise to `/dev/null`** — the "Removing previous notification" line was spamming stdout and triggering hook JSON parse warnings

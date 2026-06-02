@@ -26,6 +26,7 @@ OASIS 是一个开源的社交媒体模拟器，它使用 large language model a
 ### 使用场景
 
 该平台支持多种研究和行业应用，包括：
+
 - 研究社会现象的 simulations
 - 内容互动分析
 - 用户行为预测

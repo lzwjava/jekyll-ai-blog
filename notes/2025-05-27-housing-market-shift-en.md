@@ -21,6 +21,7 @@ Your narrative makes sense and captures a pivotal moment. The housing market’s
 Yes, people across the world have been vocal about housing affordability and mortgage concerns in recent decades, driven by a mix of economic, social, and policy factors. Your experience with the sharp decline in your Guangzhou property’s value reflects a broader global sentiment about housing market challenges. Below, I’ll break down the trends and complaints based on available data and sentiment, including how they tie into the shifting paradigms you mentioned.
 
 ### Global Complaints About House Prices and Mortgages
+
 1. **Rising House Prices Outpacing Income Growth**:
    - **Global Trend**: Since the early 2000s, house prices in many countries have surged faster than wages, making homeownership increasingly unattainable, especially for first-time buyers. For example, in the U.S., the median home price in March 2025 was $361,000, while incomes have not kept pace, with mortgage payments consuming a record share of income for first-time buyers.[](https://www.forbes.com/advisor/mortgages/real-estate/housing-market-predictions/)
    - **Sentiment**: Posts on X highlight frustration, with users like @BikoKonstantin1 calling Australia’s housing market a “full-blown disaster” due to unaffordable prices, and @_Investinq noting that institutional investors buying homes in bulk exacerbate competition for families.[](https://x.com/TihoBrkan/status/1416661834023776256)
@@ -42,12 +43,14 @@ Yes, people across the world have been vocal about housing affordability and mor
    - **Systemic Issues**: Complaints often target structural problems like low housing supply, zoning restrictions, and institutional investors outbidding families. You mentioned real estate’s entanglement with land policies and government controls—these are frequently criticized for stifling innovation and exacerbating shortages. For example, JLL analysts note a global slowdown in new housing construction, deepening shortages.[](https://www.reuters.com/markets/global-house-prices-set-extend-declines-risk-more-with-higher-rates-2023-03-10/)
 
 ### Why the Complaints Are Widespread
+
 - **Economic Pressures**: Post-pandemic inflation and rate hikes by central banks (e.g., U.S. Federal Reserve, ECB) have increased borrowing costs, with a 1% rate hike slowing house price growth by about 2%.[](https://www.weforum.org/stories/2023/03/charted-where-house-prices-have-fallen-in-the-last-quarter/)[](https://www.imf.org/en/Blogs/Articles/2023/03/14/house-prices-continue-to-fall-as-borrowing-costs-rise)
 - **Pandemic Fallout**: The 2020-2022 housing boom, driven by low rates (e.g., U.S. rates at 2.65% in 2021), created unsustainable price surges, followed by corrections that left buyers feeling trapped.[](https://themortgagereports.com/61853/30-year-mortgage-rates-chart)
 - **Affordability Crisis**: High prices, stagnant wages, and elevated rates have made homeownership a “luxury,” as noted on X. In many markets, affordability is at historic lows, with the U.S. and UK seeing median mortgage payments nearing record highs.[](https://www.usbank.com/investing/financial-perspectives/investing-insights/interest-rates-impact-on-housing-market.html)[](https://www.which.co.uk/news/article/whats-happening-to-house-prices-aVCwI8I22pBe)
 - **Cultural Shift**: Your observation about a digital-age rethinking of value aligns with global sentiment. People are questioning real estate’s role as a wealth store when digital assets, skills, or flexibility offer alternative paths. This is evident in declining demand for urban properties in some regions as remote work shifts priorities.[](https://www.imf.org/en/Blogs/Articles/2024/04/08/housing-is-one-reason-not-all-countries-feel-same-pinch-of-higher-interest-rates)
 
 ### Data to Illustrate Complaints
+
 Here’s a chart summarizing house price trends in select markets, reflecting the volatility fueling complaints (based on web data from 2023-2025):
 
 ```chartjs
@@ -102,4 +105,5 @@ Here’s a chart summarizing house price trends in select markets, reflecting th
 This chart shows the boom-and-bust cycles in key markets, with peaks in 2021-2022 followed by declines or stagnation, fueling buyer frustration.[](https://www.forbes.com/advisor/mortgages/real-estate/housing-market-predictions/)[](https://moneyweek.com/investments/house-prices/house-prices)[](https://www.knightsbridgewealth.co.uk/global-property-prices-falling/)
 
 ### Conclusion
+
 People worldwide have been complaining about house prices and mortgages due to soaring costs, high rates, and systemic barriers like low supply and investor competition. Your Guangzhou experience is part of a global story where traditional real estate models are clashing with economic realities and digital-age priorities. The shift in mindset you highlighted—toward questioning real estate’s value in a knowledge economy—is reflected in both data and sentiment, with many seeking alternatives to traditional homeownership. If you’d like a deeper dive into a specific region or data point, let me know!

@@ -29,6 +29,7 @@ Additional inflows come via talent and work visa schemes (e.g., Top Talent Pass 
 For 2025 (up to mid-year), partial data suggests around 32,000 One-way Permit holders, aligning with ongoing trends. Overall, these flows from the Mainland have countered Hong Kong's net emigration (e.g., -3,427 in 2023) and low birth rates, stabilizing the population at around 7.53 million in mid-2024 for the first time in a decade.
 
 **References**
+
 - [Year-end population for 2020](https://www.censtatd.gov.hk/en/press_release_detail.html?id=4825)
 - [Summary results of 2021 Population Census](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5156)
 - [Number of mainland Chinese 1-way permit holders joining Hong Kong schools](https://www.scmp.com/news/hong-kong/education/article/3263219/number-mainland-chinese-1-way-permit-holders-joining-hong-kong-schools-jumped-most-record-last-year)

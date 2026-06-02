@@ -15,6 +15,7 @@ Yes, Maven does have verbose logging similar to npm's silly log level, though it
 In Maven, you can control logging verbosity with these flags:
 
 **`-X` or `--debug`** - This is Maven's equivalent to npm's silly/verbose logging. It shows detailed debug output including:
+
 - Full stack traces for errors
 - Detailed plugin execution information
 - Dependency resolution details
@@ -25,6 +26,7 @@ In Maven, you can control logging verbosity with these flags:
 **`-q` or `--quiet`** - Minimal output, only errors
 
 Example usage:
+
 ```bash
 mvn clean install -X
 ```

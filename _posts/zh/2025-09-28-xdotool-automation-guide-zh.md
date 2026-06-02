@@ -13,6 +13,7 @@ type: note
 ## 什么是 xdotool？
 
 xdotool 是一个用于 X11（Linux 桌面环境）的命令行自动化工具，它允许您：
+
 - 控制鼠标移动和点击
 - 向应用程序发送击键
 - 操作窗口（移动、调整大小、聚焦）
@@ -43,7 +44,9 @@ sudo make install
 ### 窗口信息命令
 
 #### `getactivewindow`
+
 获取当前活动/聚焦窗口的窗口 ID。
+
 ```bash
 xdotool getactivewindow
 # 输出：52428807（窗口 ID）
@@ -53,13 +56,17 @@ xdotool getactivewindow getwindowname
 ```
 
 #### `getwindowfocus`
+
 类似于 getactivewindow，但在某些窗口管理器中行为可能不同。
+
 ```bash
 xdotool getwindowfocus
 ```
 
 #### `getwindowname`
+
 获取窗口的标题/名称。
+
 ```bash
 # 获取活动窗口的名称
 xdotool getactivewindow getwindowname
@@ -69,13 +76,17 @@ xdotool getwindowname 52428807
 ```
 
 #### `getwindowpid`
+
 获取与窗口关联的进程 ID（PID）。
+
 ```bash
 xdotool getactivewindow getwindowpid
 ```
 
 #### `getwindowgeometry`
+
 获取窗口的位置和大小信息。
+
 ```bash
 xdotool getactivewindow getwindowgeometry
 # 输出：Window 52428807
@@ -84,7 +95,9 @@ xdotool getactivewindow getwindowgeometry
 ```
 
 #### `getdisplaygeometry`
+
 获取屏幕/显示器的尺寸。
+
 ```bash
 xdotool getdisplaygeometry
 # 输出：1920x1080
@@ -93,7 +106,9 @@ xdotool getdisplaygeometry
 ### 窗口搜索与选择
 
 #### `search`
+
 通过各种条件搜索窗口。
+
 ```bash
 # 按窗口名称/标题搜索
 xdotool search --name "Firefox"
@@ -116,7 +131,9 @@ xdotool search --name --onlyvisible --maxdepth 1 "terminal"
 ```
 
 #### `selectwindow`
+
 交互式窗口选择（点击选择）。
+
 ```bash
 xdotool selectwindow
 # 点击任意窗口获取其 ID
@@ -125,7 +142,9 @@ xdotool selectwindow
 ### 鼠标控制
 
 #### `click`
+
 模拟鼠标点击。
+
 ```bash
 # 在当前位置左键点击
 xdotool click 1
@@ -147,7 +166,9 @@ xdotool click --delay 500 1
 ```
 
 #### `getmouselocation`
+
 获取当前鼠标光标位置。
+
 ```bash
 xdotool getmouselocation
 # 输出：x:500 y:300 screen:0 window:52428807
@@ -158,6 +179,7 @@ xdotool getmouselocation --shell
 ```
 
 #### 鼠标移动
+
 ```bash
 # 将鼠标移动到绝对位置
 xdotool mousemove 500 300
@@ -172,7 +194,9 @@ xdotool mousemove 500 300 click 1
 ### 键盘输入
 
 #### `key`
+
 向活动窗口发送击键。
+
 ```bash
 # 发送单个键
 xdotool key Return
@@ -197,6 +221,7 @@ xdotool key ctrl+l type "https://google.com" key Return
 ```
 
 #### 文本输入
+
 ```bash
 # 输入文本（模拟逐个字符输入）
 xdotool type "Hello World"
@@ -245,7 +270,9 @@ xdotool windowunmap WINDOW_ID
 ### 高级功能
 
 #### `behave`
+
 设置窗口事件行为（触发器）。
+
 ```bash
 # 当窗口获得焦点时执行命令
 xdotool behave WINDOW_ID focus exec echo "Window focused"
@@ -257,7 +284,9 @@ xdotool behave WINDOW_ID create exec "notify-send 'New window'"
 ```
 
 #### `behave_screen_edge`
+
 当鼠标到达屏幕边缘时触发操作。
+
 ```bash
 # 当鼠标碰到左边缘时执行命令
 xdotool behave_screen_edge left exec "echo 'Left edge hit'"
@@ -270,6 +299,7 @@ xdotool behave_screen_edge left exec "echo 'Left edge hit'"
 ### 基础自动化脚本
 
 #### 打开终端并运行命令
+
 ```bash
 #!/bin/bash
 # 打开终端并运行 ls 命令
@@ -280,6 +310,7 @@ xdotool key Return
 ```
 
 #### 截取活动窗口截图
+
 ```bash
 #!/bin/bash
 WINDOW=$(xdotool getactivewindow)
@@ -288,6 +319,7 @@ import -window $WINDOW "screenshot_${NAME}.png"
 ```
 
 #### 聚焦特定应用程序
+
 ```bash
 #!/bin/bash
 # 聚焦 Firefox，如果未运行则打开
@@ -302,6 +334,7 @@ fi
 ### 窗口管理脚本
 
 #### 并排平铺窗口
+
 ```bash
 #!/bin/bash
 # 获取屏幕几何信息
@@ -321,6 +354,7 @@ xdotool windowmove ${WINDOWS[1]} $HALF_WIDTH 0
 ```
 
 #### 居中活动窗口
+
 ```bash
 #!/bin/bash
 WINDOW=$(xdotool getactivewindow)
@@ -336,6 +370,7 @@ xdotool windowmove $WINDOW $NEW_X $NEW_Y
 ### 应用程序特定自动化
 
 #### 浏览器自动化
+
 ```bash
 #!/bin/bash
 # 打开新标签页并导航
@@ -346,6 +381,7 @@ xdotool key Return
 ```
 
 #### 文本编辑器自动化
+
 ```bash
 #!/bin/bash
 # 全选并复制到剪贴板
@@ -357,6 +393,7 @@ xdotool key ctrl+c
 ## 技巧与最佳实践
 
 ### 定时与延迟
+
 ```bash
 # 为慢速应用程序添加延迟
 xdotool key ctrl+alt+t
@@ -368,6 +405,7 @@ xdotool key --delay 100 ctrl+alt+t
 ```
 
 ### 错误处理
+
 ```bash
 #!/bin/bash
 # 在对窗口操作前检查其是否存在
@@ -381,6 +419,7 @@ fi
 ```
 
 ### 处理多个窗口
+
 ```bash
 #!/bin/bash
 # 对特定应用程序的所有窗口执行操作
@@ -392,6 +431,7 @@ done
 ```
 
 ### 调试
+
 ```bash
 # 启用详细输出
 xdotool --verbose key Return

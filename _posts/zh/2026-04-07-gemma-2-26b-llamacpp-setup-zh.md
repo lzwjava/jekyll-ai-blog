@@ -57,6 +57,7 @@ type: note
 | **构建时间** | ~2 分钟 (32 线程) |
 
 **重要提示:** 你之前构建的版本 `b1-25eec6f32` 存在**三个已确认的 bug** 影响 Gemma 4:
+
 1. SWA bool/uint32 类型不匹配 — 错误的层维度计算
 2. Gemma 4 的上下文偏移功能损坏 — 强制完整重处理而非滑动窗口
 3. IQ3 CUDA 内核不稳定 — 产生乱码/崩溃
@@ -113,6 +114,7 @@ type: note
 ```
 
 **各参数含义:**
+
 - `-ngl 25` — 将 31 层中的 25 层卸载到 GPU (6 层到 CPU)
 - `-c 16384` — 上下文窗口大小
 - `--cache-type-k q8_0` — 将 KV 缓存的键量化到 Q8_0
@@ -133,6 +135,7 @@ type: note
 | **可用槽位** | 1 |
 
 速度低于常规水平，原因如下:
+
 - 6 层在 CPU 上运行 (内存带宽瓶颈)
 - IQ3_S 量化解码比 Q4 更耗资源
 - 大上下文 = 每个 token 需要更多计算
@@ -153,6 +156,7 @@ type: note
 ### 10. 替代方案与升级选项
 
 **为了更好的稳定性:**
+
 ```bash
 # 下载 Q4_K_M 变体 (约 13GB，更稳定)
 proxychains huggingface-cli download unsloth/gemma-4-26B-A4B-it-GGUF \
@@ -160,10 +164,12 @@ proxychains huggingface-cli download unsloth/gemma-4-26B-A4B-it-GGUF \
 ```
 
 **为了获得更多显存余量:**
+
 - 将 `-ngl` 降低至 23-24 → 增加计算缓冲区空间
 - 使用 `--cache-type-k q4_0` → 再节省约 2GB KV 缓存显存
 
 **为了在不 OOM 的情况下获得更长上下文:**
+
 - Gemma 4 的 SWA 架构本为此设计 — 但在 12GB 显存和此量化级别下，16K 很可能是实际极限
 
 ---

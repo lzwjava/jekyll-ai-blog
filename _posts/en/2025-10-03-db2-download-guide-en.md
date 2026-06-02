@@ -13,6 +13,7 @@ type: note
 It looks like you're looking at the download options for IBM Db2 Community Edition (version 12.1.2). The best choice depends entirely on your operating system (OS) and hardware architecture. Here's a quick guide to help you decide:
 
 ### Key Factors for Choosing
+
 - **Your OS**: Pick the one that matches what you're running (e.g., Windows, Linux, etc.).
 - **Architecture**: Most modern systems are x64 (64-bit). If you're on specialized hardware (like IBM Z mainframes or Power PC), choose accordingly.
 - **Compatibility Check**: Before downloading, verify your system's specs via your OS settings (e.g., System Information on Windows or `uname -a` on Linux). Db2 Community Edition supports up to 8GB RAM and 4 CPU cores on all these.
@@ -31,6 +32,7 @@ It looks like you're looking at the download options for IBM Db2 Community Editi
 | **IBM AIX**            | AIX (IBM Unix-like) | 1.7 GB | IBM AIX systems (Power-based Unix) | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) |
 
 ### Next Steps
+
 1. Identify your OS: On Windows, press Win + R, type `msinfo32`, and check "System Type". On Linux, run `uname -a` in terminal.
 2. Download from the official IBM site (ibm.com/db2) – you'll need a free IBM account.
 3. After download, follow the [Db2 documentation](https://www.ibm.com/docs/en/db2/12.1?topic=installing-community-edition) for installation. It's straightforward, but ensure you have admin privileges.

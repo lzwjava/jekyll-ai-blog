@@ -16,6 +16,7 @@ Answer:
 Electromagnetic (EM) waves, including radio waves used by smartphones (cell signals, Wi-Fi, Bluetooth), behave very differently in water compared to air due to **absorption** and **attenuation** caused by water's electrical properties.
 
 ### Behavior of EM Waves in Water
+
 - Water (especially salty seawater) is a **conductive medium**, which causes rapid energy loss in EM waves.
 - Higher frequency waves (like those used by modern phones) experience **much stronger attenuation** than lower frequency waves.
 - Key factors:
@@ -29,6 +30,7 @@ Electromagnetic (EM) waves, including radio waves used by smartphones (cell sign
 Lower frequencies (like ELF/VLF used by submarines) penetrate much farther, but consumer devices like smartphones cannot use those.
 
 ### Smartphone Signal When Thrown into Water (e.g., in a Bag)
+
 Modern smartphones use high-frequency radio waves for cellular, Wi-Fi, and Bluetooth — all of which are heavily attenuated by water.
 
 - **Practical outcome** — Almost no usable signal underwater:

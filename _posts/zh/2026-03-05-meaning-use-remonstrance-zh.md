@@ -33,6 +33,7 @@ type: note
   → 家长们针对拟议的校服政策发出了集体抗议。
 
 同义词（视上下文而定）：
+
 - protest
 - objection
 - complaint
@@ -41,6 +42,7 @@ type: note
 - expostulation（含义非常接近，且稍显正式/古旧）
 
 反义词：
+
 - approval
 - acquiescence
 - acceptance

@@ -23,6 +23,7 @@ These are the raw system calls you'd use at the lowest level, below any higher-l
 ---
 
 ### TCP Server Example
+
 This code sets up a server that listens for a connection on port 8080, accepts it, and sends a message.
 
 ```c
@@ -85,6 +86,7 @@ int main() {
 ---
 
 ### TCP Client Example
+
 This code connects to the server at `127.0.0.1:8080` and reads the message.
 
 ```c
@@ -132,6 +134,7 @@ int main() {
 ---
 
 ### Explanation of Key System Calls
+
 - **`socket(AF_INET, SOCK_STREAM, 0)`**: Creates a TCP socket (`AF_INET` for IPv4, `SOCK_STREAM` for TCP).
 - **`bind()`**: Associates the socket with a local address and port (server-side).
 - **`listen()`**: Prepares the socket to accept connections (server-side).
@@ -143,6 +146,7 @@ int main() {
 These are as low-level as it gets for TCP networking in user space. Below this, you’d be dealing with kernel internals (e.g., the TCP/IP stack itself), which isn’t directly accessible via system calls without writing kernel code.
 
 To compile and run:
+
 1. Save the server code as `server.c` and client code as `client.c`.
 2. Compile: `gcc server.c -o server` and `gcc client.c -o client`.
 3. Run the server first: `./server`.

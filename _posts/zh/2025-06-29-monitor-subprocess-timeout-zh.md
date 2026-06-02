@@ -80,6 +80,7 @@ if __name__ == "__main__":
 ```
 
 ### 说明
+
 - **子进程**：使用`subprocess.Popen`运行`mvn clean compile`（根据需要调整命令；对于简单的`mvn build`，可能是`['mvn', 'build']`，如果需要可封装在`cmd /c`中）。通过管道异步运行stdout和stderr。
 - **队列线程**：单独线程逐行读取stdout和stderr（避免一次性读取全部输出），解码后将行数据放入`queue.Queue`，实现非阻塞读取。
 - **超时监控**：在主线程中使用`get(timeout=10)`检查队列中的新输出。如果10秒内没有输出到达，则终止子进程并退出。

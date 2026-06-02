@@ -16,6 +16,7 @@ type: note
 在中国，Lipton 茶产品主要由真茶（源自 Camellia sinensis 植物）组成，这些茶天然含有咖啡因。其中包括红茶 (black tea)、绿茶 (green tea)、茉莉花茶 (jasmine tea)、乌龙茶 (oolong) 以及调味变体——除非特别加工去除，否则都含有咖啡因。
 
 ### 含咖啡因的类型（中国最常见的 Lipton 茶包）
+
 - 红茶 (black tea) 茶包，包括 Yellow Label/经典款、warm & mellow、English Breakfast 风格。
 - 绿茶 (green tea) 茶包。
 - 茉莉花茶 (jasmine tea)。
@@ -25,9 +26,11 @@ type: note
 这些通常每杯含有 30–70 mg 咖啡因，视类型和冲泡方式而定。
 
 ### 不含咖啡因的类型（caffeine-free 或 no caffeine）
+
 Lipton 在中国没有广泛提供纯草本 (tisane) 茶包，如 chamomile、peppermint 或 hibiscus 混合，这些天然不含咖啡因，在其他市场很常见。
 
 然而，最近的发展显示 Lipton 在中国扩展无咖啡因选项：
+
 - **脱咖啡因红茶** (Decaffeinated black tea) —— 这些是加工去除咖啡因的红茶茶包（通常每杯 <5 mg，在实践中常标为“无咖啡因”或“caffeine-free”）。在中国部分市场可用，可能通过 JD.com 或类似平台获取。
 - **无咖啡因 rooibos 茶** (Caffeine-free rooibos tea) —— Lipton 宣布计划在中国推出（截至 2025 更新），一种来自南非的天然无咖啡因草本红茶，针对注重健康的消费者。现在可能已有茶包上市。
 

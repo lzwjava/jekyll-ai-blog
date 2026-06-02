@@ -24,6 +24,7 @@ Your droplet (`7.2-gpu-mi300x1-192gb-devcloud-atl1`) is a **single AMD Instinct 
 The AMD Developer Cloud is accessible via `devcloud.amd.com` and relies on DigitalOcean for the cloud environment, ultimately deploying GPU Droplets. You can create either a single GPU AMD Instinct MI300X or an 8×GPU Instinct MI300X instance.
 
 Your specific droplet spec:
+
 - **GPU:** 1× AMD Instinct MI300X
 - **VRAM:** 192 GB
 - **OS:** Ubuntu 24.04 LTS
@@ -43,24 +44,30 @@ AMD ROCm is an open software stack including drivers, development tools, and API
 ### First Steps After Droplet Is Ready
 
 #### 1. Apply the Security Update (as warned in the dashboard)
+
 SSH into your droplet and run:
+
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo reboot
 ```
 
 #### 2. Connect via SSH
+
 ```bash
 ssh root@<your-droplet-ip>
 ```
 
 #### 3. Verify GPU is Detected
+
 ```bash
 rocm-smi
 ```
+
 This is the AMD equivalent of `nvidia-smi`. You'll see GPU utilization, memory usage, and temperature.
 
 #### 4. Enter the Pre-Built Docker Container (if using a Quick Start image)
+
 ```bash
 docker exec -it rocm /bin/bash
 ```
@@ -70,6 +77,7 @@ docker exec -it rocm /bin/bash
 ### Running a Model (e.g., with vLLM)
 
 You can start a vLLM API server inside the container like this:
+
 ```bash
 python -m vllm.entrypoints.openai.api_server \
   --model Qwen/Qwen2.5-1.5B-Instruct \
@@ -78,6 +86,7 @@ python -m vllm.entrypoints.openai.api_server \
   --dtype float16 \
   > /tmp/vllm.log 2>&1 &
 ```
+
 This model downloads freely from HuggingFace with no authentication, loads in seconds on the MI300X's 192 GB of VRAM, and supports the OpenAI chat format out of the box.
 
 ---

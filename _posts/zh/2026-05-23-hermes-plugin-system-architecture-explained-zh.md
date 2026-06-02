@@ -44,6 +44,7 @@ my-plugin/
 ```
 
 **plugin.yaml** 示例（`plugins/disk-cleanup/plugin.yaml`）：
+
 ```yaml
 name: disk-cleanup
 version: 2.0.0
@@ -53,7 +54,8 @@ hooks:
   - on_session_end
 ```
 
-**__init__.py** 必须定义 `register(ctx)`：
+****init**.py** 必须定义 `register(ctx)`：
+
 ```python
 def register(ctx) -> None:
     ctx.register_hook("post_tool_call", _on_post_tool_call)

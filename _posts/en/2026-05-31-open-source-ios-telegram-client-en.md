@@ -18,6 +18,7 @@ Here's what you're looking at:
 **Version:** 12.7 (requires Xcode 26.2, macOS 26, Bazel 8.4.2)
 
 **Code breakdown:**
+
 - 4,182 Swift files (primary language)
 - 901 Objective-C (.m/.mm) files
 
@@ -33,6 +34,7 @@ The project is built with **Bazel** via a `build-system/Make/Make.py` wrapper. I
 | `build-system/` | Bazel rules (rules_apple, rules_swift, rules_xcodeproj) and build configs |
 
 **Key submodules** (273 total) include:
+
 - **TelegramCore** — networking, storage, business logic
 - **TelegramUI** — UI components
 - **TelegramApi** — MTProto API bindings
@@ -47,6 +49,7 @@ The project is built with **Bazel** via a `build-system/Make/Make.py` wrapper. I
 **Git history** (latest commits): Routine fixes, poll improvements, animation cleanup — looks like an actively maintained fork or clone of the upstream Telegram repo.
 
 **How it builds:**
+
 ```sh
 python3 build-system/Make/Make.py --overrideXcodeVersion \
   --cacheDir ~/telegram-bazel-cache \

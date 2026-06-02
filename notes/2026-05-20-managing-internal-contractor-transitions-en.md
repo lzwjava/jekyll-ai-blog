@@ -40,6 +40,7 @@ So this is entirely a **relationship management** problem, not a process problem
 ### 1. Qualify the Opportunity First (Before Telling Anyone)
 
 Talk to the hiring manager in the target team **informally first** — coffee chat, internal networking. Confirm:
+
 - The role is real and budgeted
 - You're a credible candidate
 - Timeline is not immediate (gives you room to manage your current manager)
@@ -55,6 +56,7 @@ When you do tell them, **never say "I'm interviewing elsewhere internally."** Sa
 > *"I've been thinking about my long-term growth here. I'm interested in exploring permanent roles — I wanted to be transparent with you before anything formal happens."*
 
 This does three things:
+
 - Gives them **face** (they're not blindsided)
 - Positions you as **loyal and honest**, not sneaky
 - Opens the door to them potentially **supporting you** or even sponsoring you
@@ -114,6 +116,7 @@ period given current project timelines.
 ```
 
 That's it. That informal message **is** the endorsement. It signals:
+
 - No political objection
 - Personal vouching
 - Reasonable conditions (transition period)
@@ -125,6 +128,7 @@ That's it. That informal message **is** the endorsement. It signals:
 Big banks often have **internal mobility policies** — some require you to inform your current manager, some require a **minimum tenure** in the current role (e.g., 12–18 months for perms, sometimes waived for contractors converting).
 
 Check with HR/People team quietly first:
+
 - Is there a formal internal mobility process?
 - Does the hiring manager need to loop in your current manager officially?
 - Is there a **cooling-off** or **notice period** norm?

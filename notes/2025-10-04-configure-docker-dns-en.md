@@ -32,20 +32,25 @@ To configure DNS servers for the Docker daemon (which will be used by containers
 
 3. **Restart the Docker service**:
    - Apply the changes by restarting Docker:
+
      ```
      sudo systemctl restart docker
      ```
+
      - On non-systemd systems (e.g., older Linux distros), use `sudo service docker restart`.
    - Verify the status: `sudo systemctl status docker`.
 
 4. **Test the configuration**:
    - Run a test container and check its DNS resolution:
+
      ```
      docker run --rm busybox nslookup google.com
      ```
+
      - It should resolve using your configured DNS servers.
 
 ### Notes
+
 - **Scope**: This configures DNS for the Docker daemon on the host, affecting outbound name resolution for containers. It doesn't change the host's system DNS.
 - **Overrides**: If a container needs different DNS (e.g., via `--dns` flag in `docker run`), it will override this daemon-level setting.
 - **Security**: Using public DNS like 8.8.8.8 is fine for most cases, but consider internal DNS for enterprise environments.

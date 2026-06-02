@@ -40,6 +40,7 @@ Answer:
    - **Path to "ubiquitous AI"** —— Taalas 明确旨在实现这一点：inference 如此 fast 和 cheap，以至于 AI 成为 ambient、always-on，并嵌入更多 workflows 中。
 
 ### Caveats
+
 - 当前 demos 聚焦于较小 models（8B–reasoning models 计划于 2026 年春季）；frontier-scale models（数百亿/万亿 parameters）将需要 chip clusters，尽管 simulations 已显示 strong results（例如，DeepSeek R1 上 ~30 chips 实现 ~12k t/s/user）。
 - Extreme quantization 和 specialization 可能在某些 edge cases 中降低 accuracy。
 - Adoption 取决于 ecosystem momentum、software integration，以及云提供商或 enterprises 是否大规模 commit。

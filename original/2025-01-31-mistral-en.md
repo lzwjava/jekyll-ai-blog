@@ -11,7 +11,6 @@ type: post
 
 This post is a quick test of the Mistral API. I'm using the `mistral-small-2501` model for this test. The code below shows how to call the API and get a response.
 
-
 ```python
 import os
 import requests

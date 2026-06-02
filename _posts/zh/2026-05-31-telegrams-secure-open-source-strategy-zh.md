@@ -222,6 +222,7 @@ build-input/*
 ```
 
 这是构建系统写入以下内容的目录：
+
 - `build-input/data/variables.bzl` — 从配置 JSON 生成
 - `build-input/configuration-repository-workdir/` — 克隆并解密的代码签名仓库
 

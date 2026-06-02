@@ -42,6 +42,7 @@ The **linguistic fragmentation** point in your conversation is underrated — In
 ## 3. "Honest, Grounded, Results-Focused" as a Cultural Foundation
 
 The conversation argues that China's relative success comes from a culture that values:
+
 - Tangible results over rhetoric
 - Hard work over networking
 - Engineering over politics
@@ -61,6 +62,7 @@ But as your conversation notes: **at scale and in a technical base**, raw engine
 ## 5. The AI Era: China and the US Are Ahead
 
 This is largely accurate today. The AI race is fundamentally:
+
 - **US**: OpenAI, Anthropic, Google DeepMind — frontier models
 - **China**: DeepSeek, Kimi, Baidu — rapidly closing the gap, strong on efficiency
 

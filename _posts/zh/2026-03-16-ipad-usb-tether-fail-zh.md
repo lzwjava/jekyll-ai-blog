@@ -38,6 +38,7 @@ ip link show
 ```
 
 如果 `ip_forward` 是 `0`，这本身就会导致一切失败——立即修复：
+
 ```bash
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 ```
@@ -58,6 +59,7 @@ sudo tcpdump -i eth0 -n host 8.8.8.8
 ```
 
 然后从 iPad 尝试访问任何网站。您应该看到：
+
 - **终端 1：** 来自 `192.168.201.136` 的数据包到达
 - **终端 2：** 相同的那些数据包出现在 WAN 侧，以笔记本电脑的 IP 作为源地址
 
@@ -69,6 +71,7 @@ sudo tcpdump -i eth0 -n host 8.8.8.8
 ## 步骤 3：验证 iPad 的网络设置
 
 在 iPad 上，转到 **设置 → Wi-Fi**（或本次的 USB 网络）。检查：
+
 - **IP 地址：** 应该是 `192.168.201.x`
 - **子网掩码：** `255.255.255.0`
 - **路由器/网关：** 必须是 `192.168.201.1` ← **这是最常见的故障点**
@@ -77,6 +80,7 @@ sudo tcpdump -i eth0 -n host 8.8.8.8
 如果 **路由器字段为空或错误**，iPad 不知道将流量发送到哪里。这可能发生在 dnsmasq 的 DHCP 未正确发送 `option:router` 时。
 
 验证 dnsmasq 配置：
+
 ```bash
 # 检查 dnsmasq 是否实际发送网关选项
 grep -E "dhcp-option|gateway|router" /etc/dnsmasq.conf
@@ -114,6 +118,7 @@ sudo iptables -A FORWARD -i <WAN_INTERFACE> -o enx00e04c362f89 -m state --state 
 如果 Clash 是瓶颈，检查这些：
 
 ### 5a. 确认 Clash TUN 接口已启动
+
 ```bash
 ip link show | grep -i tun
 # 应该显示类似 "utun" 或 "Meta" 的 tun 接口。
@@ -121,6 +126,7 @@ ip addr show <tun_interface>
 ```
 
 ### 5b. 验证 Clash 作为 DNS 服务器在监听
+
 ```bash
 # Clash DNS 应该监听在 192.168.201.1:53
 sudo ss -ulnp | grep 53
@@ -129,6 +135,7 @@ sudo netstat -ulnp | grep 53
 ```
 
 ### 5c. 从笔记本电脑手动测试 DNS（模拟 iPad）
+
 ```bash
 # 直接查询 Clash DNS — 对于代理域名应返回 fake-IP (198.18.x.x)
 dig google.com @192.168.201.1
@@ -137,7 +144,9 @@ dig google.com @192.168.201.1
 ```
 
 ### 5d. 检查 Clash 配置中的 TUN auto-route
+
 在您的 Clash `config.yaml` 中，TUN 部分必须有：
+
 ```yaml
 tun:
   enable: true

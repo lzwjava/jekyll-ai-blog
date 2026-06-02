@@ -15,6 +15,7 @@ type: note
 CodeIgniter（CI）数据迁移是一项帮助以版本控制方式管理数据库架构变更的功能，类似于 Flyway 或 Liquibase 等工具。它允许您编写 PHP 脚本来定义数据库变更（例如创建表、添加列或修改数据），然后按顺序运行这些脚本来保持各环境中的架构最新。这可以避免手动 SQL 错误并支持回滚。
 
 数据迁移的工作原理：
+
 - 将迁移文件存储在目录中（默认：`application/migrations/`）。
 - 在数据库表中跟踪"版本"以了解哪些迁移已应用。
 - 根据需要向前（up）或向后（down）运行脚本。
@@ -37,6 +38,7 @@ CodeIgniter（CI）数据迁移是一项帮助以版本控制方式管理数据�
 1. **启用迁移**：在配置文件中临时设置 `$config['migration_enabled'] = TRUE;`。
 
 2. **创建迁移文件**：在 `application/migrations/` 中添加一个 PHP 文件，名称类似 `20121031104401_add_blog.php`。内部使用 CI 的 Migration 类：
+
    ```php
    defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -51,6 +53,7 @@ CodeIgniter（CI）数据迁移是一项帮助以版本控制方式管理数据�
        }
    }
    ```
+
    - `up()` 应用变更（例如创建表）。
    - `down()` 撤销变更（例如删除表）。
 

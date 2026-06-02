@@ -29,30 +29,37 @@ For modern Windows 11 ISOs (including the China Home edition), the simple `dd` m
 
 3. **Identify the correct disk number of your USB**
    Run this command:
+
    ```
    diskutil list
    ```
+
    Look for your USB drive in the list. It usually appears as `/dev/disk2`, `/dev/disk3`, etc. (not `/dev/disk0` or `/dev/disk1`, which are typically your Mac's internal drive).
    Check the size and name to confirm (e.g., external, ~16 GB).
    Example output snippet:
+
    ```
    /dev/disk3 (external, physical):
       #:                       TYPE NAME                    SIZE       IDENTIFIER
       0:      GUID_partition_scheme                        *15.9 GB    disk3
    ```
+
    → Here, use `/dev/disk3` (or whatever matches yours).
 
 4. **Unmount the USB drive** (important — do not skip)
    Replace `disk3` with your actual number:
+
    ```
    diskutil unmountDisk /dev/disk3
    ```
 
 5. **Write the ISO to the USB using dd**
    Use `/dev/rdiskX` (raw disk) for faster speed on macOS. Replace paths and disk number:
+
    ```
    sudo dd if=~/Downloads/Win11_25H2_China_GGK_Chinese_Simplified_x64.iso of=/dev/rdisk3 bs=1m
    ```
+
    - `if=` → input file: path to your ISO (drag the file into Terminal to auto-fill the path, or use `~/Downloads/...`).
    - `of=` → output: `/dev/rdisk3` (use rdisk for speed; rdiskX is the raw version of diskX).
    - `bs=1m` → block size 1 MB (faster; some use `bs=4m` or `bs=8m`).
@@ -63,6 +70,7 @@ For modern Windows 11 ISOs (including the China Home edition), the simple `dd` m
 
 6. **Wait for completion**
    When finished, you will see output like:
+
    ```
    XXXX+0 records in
    XXXX+0 records out
@@ -70,9 +78,11 @@ For modern Windows 11 ISOs (including the China Home edition), the simple `dd` m
    ```
 
 7. **Eject the USB safely**
+
    ```
    diskutil eject /dev/disk3
    ```
+
    (Use the original disk number, not rdisk.)
    Then physically remove the USB.
 
@@ -81,6 +91,7 @@ For modern Windows 11 ISOs (including the China Home edition), the simple `dd` m
    The China edition ISO should boot into the Chinese Simplified setup screen.
 
 **Notes and troubleshooting**
+
 - If the PC does not detect the USB as bootable: Try recreating with `bs=4m`, ensure UEFI boot (not Legacy), disable Secure Boot temporarily, or use a different USB port/drive.
 - The China-specific ISO (GGK edition) behaves the same as standard Windows 11 x64 ISOs for booting — no special differences reported.
 - **Safer alternatives if dd worries you** (GUI, no Terminal risk):

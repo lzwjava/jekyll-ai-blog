@@ -20,16 +20,19 @@ Answer:
 Yes — pasting raw browser console output or network errors is one of the **most efficient ways** to get useful help from an LLM, for several reasons:
 
 **1. Errors are already structured information**
+
 - Stack traces, error codes, and HTTP status messages are precise and unambiguous
 - LLMs are trained on massive amounts of similar error patterns from Stack Overflow, GitHub issues, MDN, etc.
 - There's no "translation loss" — you're giving the AI exactly what the runtime produced
 
 **2. HTTP errors are especially diagnostic**
+
 - A `401 Unauthorized` vs `403 Forbidden` vs `CORS error` each tells a completely different story
 - Network tab details (request headers, response body, URL, method) give the LLM full context to pinpoint root cause
 - The AI can immediately distinguish "your token is wrong" vs "your server isn't allowing cross-origin requests"
 
 **3. Console logs remove ambiguity**
+
 - Instead of you *describing* a bug ("it doesn't work"), the log *shows* the bug
 - Null reference errors, type mismatches, undefined variables — all self-evident in a log
 
@@ -48,6 +51,7 @@ Some people argue you can just blindly run AI-generated code. That's partially t
 | You need to maintain it later | ❌ You'll be lost | ✅ You'll understand it |
 
 **Even a 30-second skim helps you:**
+
 - Spot if the AI misunderstood your intent
 - Notice hardcoded values that should be variables
 - Catch obvious logic errors before running

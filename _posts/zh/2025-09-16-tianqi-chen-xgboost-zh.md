@@ -65,6 +65,7 @@ type: note
 ---
 
 **参考资料：**
+
 - [XGBoost文档](https://xgboost.readthedocs.io/en/latest/)
 - [陈天奇学术论文](https://scholar.google.com/citations?user=YOUR_USER_ID) *（请替换为实际链接）*
 - [TVM项目](https://tvm.apache.org/)

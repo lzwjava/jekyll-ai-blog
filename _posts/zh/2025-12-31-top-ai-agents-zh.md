@@ -17,6 +17,7 @@ Answer:
 AI agents 是由 Large Language Models (LLMs) 驱动的自主系统，能够以最小的人类干预进行规划、推理、使用工具并执行复杂的跨步骤任务。截至 2025 年底，该领域已显著成熟，涌现出一批出色的开箱即用产品和 Frameworks。“最佳”是主观的，取决于具体应用场景——如个人生产力、Enterprise Automation、Coding 或开发者构建的自定义 Agent——但基于评论、Benchmarks（如 GAIA）、普及率和专家讨论，以下是目前最受推崇的产品。
 
 ### Top Ready-to-Use AI Agent Products
+
 这些是你可以快速部署 Agent 的平台或工具，通常只需 No-code 或 Low-code。
 
 - **Manus AI**: 被广泛誉为 2025 年最先进的通用型 Autonomous Agents 之一。最初由一家中国初创公司（Butterfly Effect/Monica）开发，擅长处理真实世界的任务，如 Web Research、Data Analysis、报告生成、Coding 和浏览器自动化。它采用 Multi-agent 架构，并使用 Claude 3.5 和 Qwen 等模型，展现出极高的透明度（通过“Manus's Computer”窗口）。在 GAIA Benchmarks 上表现强劲；评论者称其自主性“令人震撼”。注：该公司已于 2025 年 12 月被 Meta 收购，以集成到其生态系统中。非常适合复杂的脱手任务。
@@ -34,6 +35,7 @@ AI agents 是由 Large Language Models (LLMs) 驱动的自主系统，能够以�
 - **Claude (Anthropic) with Computer Use**: 具备桌面控制等功能，使其在自主操作方面表现出色。
 
 ### Top Frameworks for Building Custom AI Agents
+
 这些是面向开发者的、用于创建自定义 Agents 的工具。
 
 - **CrewAI**: 在 Multi-agent 协作方面非常流行；易于分配角色和编排 Agent 团队。

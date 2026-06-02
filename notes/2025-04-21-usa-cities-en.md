@@ -11,6 +11,7 @@ type: note
 Here are some of the major cities in the USA, categorized by population size, economic influence, and cultural significance:
 
 ### 🏙️ **Top Major Cities by Population**
+
 1. **New York City, NY** – The largest city in the U.S., a global hub for finance, media, and culture.
 2. **Los Angeles, CA** – Known for Hollywood, entertainment, and diverse communities.
 3. **Chicago, IL** – Major center for finance, industry, and architecture.
@@ -23,6 +24,7 @@ Here are some of the major cities in the USA, categorized by population size, ec
 10. **San Jose, CA** – The heart of Silicon Valley and a hub for tech innovation.
 
 ### 🌐 **Other Influential Cities**
+
 - **San Francisco, CA** – Tech, finance, and culture.
 - **Boston, MA** – Education, biotech, and history.
 - **Seattle, WA** – Tech (Amazon, Microsoft), aerospace, and coffee culture.

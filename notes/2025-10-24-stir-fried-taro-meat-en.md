@@ -17,6 +17,7 @@ I assume you’re asking how to cook taro with stir-fry oil and meat (possibly a
 ### Stir-Fried Taro with Meat
 
 #### Ingredients (Serves 2-3)
+
 - 1 medium taro root (about 300-400g), peeled and cut into small cubes or thin slices
 - 200g pork (tenderloin or shoulder), thinly sliced
 - 2-3 tbsp cooking oil (vegetable or peanut oil)
@@ -31,11 +32,13 @@ I assume you’re asking how to cook taro with stir-fry oil and meat (possibly a
 - Optional: 1 small chili, sliced (for heat)
 
 #### Equipment
+
 - Wok or large non-stick skillet
 - Knife and cutting board
 - Peeler (for taro)
 
 #### Instructions
+
 1. **Prepare the Taro**:
    - Wear gloves if sensitive to taro’s skin-irritating sap. Peel the taro and cut into bite-sized cubes or thin slices (about 1/4 inch thick for even cooking).
    - Rinse taro pieces in cold water to remove excess starch. Drain and set aside.
@@ -60,12 +63,14 @@ I assume you’re asking how to cook taro with stir-fry oil and meat (possibly a
    - Garnish with green onions. Serve hot with steamed rice or as a side dish.
 
 #### Tips
+
 - **Taro Texture**: Taro should be soft and slightly creamy when fully cooked. Test with a fork; it should pierce easily.
 - **Safety**: Raw taro can irritate skin or be toxic if undercooked. Ensure it’s fully cooked.
 - **Variations**: Add vegetables like bell peppers or mushrooms for extra flavor. For a vegetarian version, skip meat and use tofu or extra veggies.
 - **Oil**: Peanut oil adds a nutty flavor, but any neutral oil works.
 
 #### Cooking Time
+
 - Prep: 15 minutes
 - Cooking: 15-20 minutes
 - Total: ~30 minutes

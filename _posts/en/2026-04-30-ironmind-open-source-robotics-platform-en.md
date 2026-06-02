@@ -25,12 +25,14 @@ type: note
 
 ---
 
-### GitHub One-liner (for repo description field):
+### GitHub One-liner (for repo description field)
+
 ```
 A Rust-powered robotics platform with Arduino + Raspberry Pi and a real-time world model.
 ```
 
-### Badges to add to README:
+### Badges to add to README
+
 ```markdown
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino)

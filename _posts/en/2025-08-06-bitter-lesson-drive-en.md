@@ -25,11 +25,11 @@ He introduces **"The Bitter Lesson,"** a concept that suggests long-term AI prog
 
 Chung uses three major Transformer architectures to exemplify his points:
 
-1.  **Encoder-Decoder (Original Transformer):** This architecture, originally used for tasks like machine translation, has more inherent structure. It uses separate parameters for the encoder and decoder and specific cross-attention patterns. While effective for distinct input/output tasks, this structure is becoming less relevant in the age of large, general-purpose models.
+1. **Encoder-Decoder (Original Transformer):** This architecture, originally used for tasks like machine translation, has more inherent structure. It uses separate parameters for the encoder and decoder and specific cross-attention patterns. While effective for distinct input/output tasks, this structure is becoming less relevant in the age of large, general-purpose models.
 
-2.  **Encoder-Only (e.g., BERT):** A simpler architecture that forgoes generation, focusing on tasks like classification. While powerful for specific benchmarks, its narrow focus makes it less generalizable for a wide range of modern applications.
+2. **Encoder-Only (e.g., BERT):** A simpler architecture that forgoes generation, focusing on tasks like classification. While powerful for specific benchmarks, its narrow focus makes it less generalizable for a wide range of modern applications.
 
-3.  **Decoder-Only (e.g., GPT-3):** This is the most general and least structured of the three. It uses a single stack of layers and shared parameters, making it highly suitable for modern large language models that handle diverse tasks, learn general knowledge, and perform long-form generation.
+3. **Decoder-Only (e.g., GPT-3):** This is the most general and least structured of the three. It uses a single stack of layers and shared parameters, making it highly suitable for modern large language models that handle diverse tasks, learn general knowledge, and perform long-form generation.
 
 ***
 

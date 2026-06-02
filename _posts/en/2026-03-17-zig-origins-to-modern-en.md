@@ -18,12 +18,14 @@ Answer:
 Zig is a modern, general-purpose, statically typed, compiled systems programming language designed as a safer, more maintainable, and more explicit alternative to **C**, while preserving low-level control, performance, and simplicity.
 
 ### Origins (2015–2016)
+
 - Andrew Kelley began working on Zig in **late 2015** as a personal project.
 - He took a break from developing the Genesis Digital Audio Workstation to create a new language addressing what he saw as fundamental flaws in existing systems languages (especially C and its preprocessor, undefined behavior, hidden control flow, and poor safety tooling).
 - On **February 8, 2016**, Andrew publicly announced Zig with his blog post titled **"Introduction to the Zig Programming Language"** — this date is widely recognized as the official "first appearance" of the language.
 - Early prototypes already showed core ideas: no hidden control flow, comptime (compile-time execution), excellent C interoperability, and a strong focus on simplicity and robustness.
 
 ### Early Development (2016–2019)
+
 - Zig quickly attracted attention in systems programming and game development communities due to its **"better C"** philosophy.
 - Key early milestones included:
   - Implementing **comptime** (arbitrary code execution at compile time) — a feature initially dismissed by some language experts as impractical, but which became one of Zig's most powerful and beloved capabilities.
@@ -32,6 +34,7 @@ Zig is a modern, general-purpose, statically typed, compiled systems programming
 - In **May 2019**, Andrew gave the influential talk **"The Road to Zig 1.0"** at a conference, explaining the motivation, design trade-offs, and long-term vision. The talk helped significantly increase visibility.
 
 ### Growth and Community Phase (2020–2023)
+
 - Zig gained steady adoption in embedded systems, game engines, tools, and projects needing strong C interop.
 - Popular learning resources appeared:
   - **Ziglings** (exercises to learn Zig by fixing broken code) — started late 2020.
@@ -40,6 +43,7 @@ Zig is a modern, general-purpose, statically typed, compiled systems programming
 - The **Zig Software Foundation (ZSF)** was established as a non-profit to provide sustainable funding and governance (Andrew and core contributors could eventually receive funding).
 
 ### Self-hosted Compiler and Maturity (2023–2025)
+
 - One of the biggest technical achievements was the **self-hosted compiler**:
   - Zig 0.11.0 (2023) removed the old C++/LLVM bootstrapping compiler in favor of a Zig-written frontend + self-hosted backend.
   - Later versions used **WebAssembly** bootstrapping for cleaner, more portable builds.
@@ -50,6 +54,7 @@ Zig is a modern, general-purpose, statically typed, compiled systems programming
   - Better support for third-party projects.
 
 ### Recent Status (2025–2026)
+
 - As of mid-2026, Zig remains in **0.x** versions (most recently around 0.15.x / 0.16 development cycle).
 - Regular roadmap updates (e.g., **Zig Roadmap 2024**, **Zig Roadmap 2026**) show continued progress toward **1.0**, with emphasis on quality, bug elimination, and compiler speed rather than rushing a date.
 - In late **2025**, the project migrated its primary repository from GitHub to **Codeberg** (a non-profit, open-source-friendly forge).

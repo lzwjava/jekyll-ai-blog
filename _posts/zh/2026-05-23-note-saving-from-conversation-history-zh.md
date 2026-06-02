@@ -32,6 +32,7 @@ type: note
 ```
 
 **关键细节：**
+
 - 使用 `ww` 的 `create_note_from_content()` — 生成 front matter、slug，如果未提供 `--title` 则调用 LLM 生成标题
 - 如果未安装 `ww` 则优雅降级（`pip install -e ~/projects/ww`）
 - 笔记默认保存到 `$BASE_PATH/notes/`（与 `ww note` 相同），或通过 `--dir` 指定任意目录

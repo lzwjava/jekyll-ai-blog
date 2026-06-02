@@ -11,6 +11,7 @@ type: note
 要完全用 Python 的 `requests` 库替代 Postman，你可以执行所有常见的 HTTP 操作，例如发送不同类型的请求、处理请求头、处理 JSON 数据、上传文件、使用代理以及断言响应。下面，我将逐步为你演示这些功能的示例，确保你获得完整且实用的指南。
 
 ### 第一步：安装 Requests 库
+
 开始之前，请确保已安装 `requests` 库。在终端中运行以下命令：
 
 ```bash
@@ -22,9 +23,11 @@ pip install requests
 ---
 
 ### 发送 HTTP 请求
+
 `requests` 库支持所有 HTTP 方法，如 GET、POST、PUT、DELETE 等。以下是发送简单 GET 和 POST 请求的方法：
 
 #### GET 请求
+
 ```python
 import requests
 
@@ -37,6 +40,7 @@ print("响应体:", response.text)
 ```
 
 #### POST 请求
+
 ```python
 # 发送无数据的 POST 请求
 response = requests.post('https://api.example.com/submit')
@@ -48,6 +52,7 @@ print("响应体:", response.text)
 ---
 
 ### 添加请求头
+
 请求头常用于身份验证、内容类型或自定义元数据。将其作为字典传递给 `headers` 参数。
 
 ```python
@@ -69,6 +74,7 @@ print("响应体:", response.text)
 ---
 
 ### 发送 JSON 数据
+
 要在 POST 请求中发送 JSON 数据（类似于在 Postman 的 body 选项卡中选择 JSON），请使用 `json` 参数。这会自动将 `Content-Type` 设置为 `application/json`。
 
 ```python
@@ -88,9 +94,11 @@ print("响应 JSON:", response.json())
 ---
 
 ### 上传文件
+
 要上传文件（类似于 Postman 的 form-data 选项），请使用 `files` 参数。以二进制模式（`'rb'`）打开文件，并可选择包含额外的表单数据。
 
 #### 简单文件上传
+
 ```python
 # 准备上传的文件
 files = {
@@ -108,7 +116,9 @@ files['file'].close()
 ```
 
 #### 带表单数据的文件上传（推荐方法）
+
 使用 `with` 语句可确保文件自动关闭：
+
 ```python
 # 额外的表单数据
 form_data = {
@@ -129,6 +139,7 @@ print("响应体:", response.text)
 ---
 
 ### 使用代理
+
 要通过代理路由请求（类似于 Postman 的代理设置），请使用 `proxies` 参数并传入字典。
 
 ```python
@@ -148,9 +159,11 @@ print("响应体:", response.text)
 ---
 
 ### 处理和断言响应
+
 `requests` 库提供了便捷的方法来访问响应详情，如状态码、JSON 数据、请求头和 Cookie。你可以使用 Python 的 `assert` 语句来验证响应，类似于 Postman 的测试脚本。
 
 #### 解析 JSON 响应
+
 ```python
 response = requests.get('https://api.example.com/data')
 
@@ -163,6 +176,7 @@ else:
 ```
 
 #### 断言响应详情
+
 ```python
 response = requests.get('https://api.example.com/data')
 
@@ -186,7 +200,9 @@ print("所有断言通过！")
 ```
 
 #### 处理错误
+
 将请求包装在 `try-except` 块中以捕获网络或 HTTP 错误：
+
 ```python
 try:
     response = requests.get('https://api.example.com/data')
@@ -200,6 +216,7 @@ except requests.exceptions.RequestException as e:
 ---
 
 ### 综合示例
+
 以下是一个结合了请求头、文件上传、代理和响应断言的完整示例：
 
 ```python
@@ -246,6 +263,7 @@ except requests.exceptions.RequestException as e:
 ---
 
 ### 可重用函数（替代 Postman 集合）
+
 要模拟 Postman 的保存请求或集合，请将逻辑封装在函数中：
 
 ```python
@@ -281,6 +299,7 @@ if upload_id:
 ---
 
 ### 附加功能
+
 - **会话**：使用 `requests.Session()` 在多个请求间持久化 Cookie 或请求头。
 - **超时**：在请求中添加 `timeout=5`（秒）以避免挂起。
 - **重定向**：通过 `allow_redirects=True/False` 控制重定向。
@@ -288,7 +307,9 @@ if upload_id:
 ---
 
 ### 总结
+
 使用 `requests` 库，你可以：
+
 - 发送 HTTP 请求（`get`、`post` 等）
 - 包含请求头、JSON 数据和文件上传
 - 使用代理

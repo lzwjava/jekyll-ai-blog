@@ -20,6 +20,7 @@ Here's the breakdown:
 | Currently installed | CUDA 12.8 (toolkit) + Driver 580.126.09 |
 
 **Available toolkit versions in the repo:**
+
 - 12.5, 12.6, 12.8, 12.9
 - **13.0, 13.1, 13.2** ← latest
 

@@ -17,6 +17,7 @@ Published in 2001, *The Art of Seduction* is Robert Greene's guide to the psycho
 The book is divided into profiles of seducers and victims, followed by 24 practical techniques organized into four phases. Greene uses vivid historical anecdotes to illustrate points, emphasizing that everyone has seductive potential but must avoid "anti-seducer" pitfalls like insecurity or selfishness.
 
 ### The Nine Types of Seducers
+
 Greene categorizes seducers into archetypes, each with unique appeals and symbols. Match your style to the situation for maximum effect:
 
 - **Siren**: Fluid, sensual allure promising adventure (e.g., Cleopatra's dramatic entrances). Symbol: Water—enticing but dangerous.
@@ -32,7 +33,9 @@ Greene categorizes seducers into archetypes, each with unique appeals and symbol
 The "anti-seducer" is the inverse: needy, argumentative, and off-putting.
 
 ### The Eighteen Types of Victims
+
 To seduce effectively, identify the target's emotional "wound" or unmet need. Greene lists 18 archetypes, such as:
+
 - Reformed Rake/Siren: Craves redemption but tempts relapse.
 - Disappointed Dreamer: Jaded idealist seeking renewal.
 - Pampered Royal: Bored with luxury, hungry for thrill.
@@ -44,6 +47,7 @@ To seduce effectively, identify the target's emotional "wound" or unmet need. Gr
 The key: Observe for signs of boredom, vanity, or fantasy gaps, then exploit them subtly.
 
 ### The Four Phases of Seduction
+
 Greene breaks seduction into a sequential process with 24 maneuvers (e.g., "Poeticize Your Presence," "Keep Them in Suspense"). Advance methodically to avoid resistance:
 
 1. **Separation (Stir Interest)**: Choose a receptive victim, create false security, and send mixed signals to spark curiosity (e.g., Siren-style allure).
@@ -52,6 +56,7 @@ Greene breaks seduction into a sequential process with 24 maneuvers (e.g., "Poet
 4. **Moving In for the Kill**: Prove mastery with boldness, endure resistance, and seal with physical/emotional surrender (e.g., Dandy's graceful conquest).
 
 ### Key Principles and Strategies
+
 - **Observe and Adapt**: Study desires like a strategist; seduction is 80% psychology.
 - **Create Fantasy**: Promise escape from routine—mystery, danger, or validation.
 - **Use Timing and Scarcity**: Delay gratification; pursuit intensifies value.

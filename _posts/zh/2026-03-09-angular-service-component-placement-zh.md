@@ -24,7 +24,6 @@ type: note
 
 ## 规则总结
 
-
 | 要注册的事物 | 在 `@NgModule` 中的位置 |
 |---|---|
 | 具有 `standalone: false` 的 component / directive / pipe | `declarations` |
@@ -102,6 +101,7 @@ export class MyModule {}
 ### 完整示例
 
 {% raw %}
+
 ```typescript
 // my.service.ts
 @Injectable({ providedIn: 'root' })
@@ -125,6 +125,7 @@ export class MyComponent {
 })
 export class MyModule {}
 ```
+
 {% endraw %}
 
 ---

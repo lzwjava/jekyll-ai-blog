@@ -63,6 +63,7 @@ Here are the **most common IELTS essay topic categories** (in rough order of fre
   - Space Exploration
 
 **Tips for preparation**:
+
 - You do **not** need to prepare every possible topic — mastering **8–10 main categories** is usually enough.
 - Learn topic-specific vocabulary for each area.
 - Practice all five main essay types with these topics:

@@ -48,11 +48,13 @@ type: note
 
 **2. 完全的可观测性**
 Claude Code 可以跟踪日志、检查进程状态并确认服务是否恢复：
+
 ```bash
 ssh lzw@192.168.1.36 "tail -f /home/lzw/llama-server.log"
 ```
 
 **3. 原子化的配置变更与重启**
+
 ```bash
 ssh lzw@192.168.1.36 "
   # 编辑配置
@@ -68,6 +70,7 @@ ssh lzw@192.168.1.36 "
 ```
 
 **4. 关注点分离**
+
 - **Claude Code** = 管理平面（您的笔记本电脑）
 - **OpenClaw + llama-server** = 数据平面（局域网服务器）
 

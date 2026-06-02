@@ -13,7 +13,7 @@ I'll search for comprehensive information about ATM technology and its applicati
 
 What is ATM (Asynchronous Transfer Mode) and what is it used for?
 
-## Answer:
+## Answer
 
 ### What is ATM?
 
@@ -32,6 +32,7 @@ ATM (Asynchronous Transfer Mode) is a switching technique used by telecommunicat
 ATM has numerous applications including telecommunications networks where it is widely used due to its ability to transmit voice, video, and data over the same network, as a backbone network for WANs with its high-speed data transmission capabilities, and for commercial broadcasting due to its real-time transmission capabilities.
 
 **Specific Applications:**
+
 - Telecommunications for high-speed voice and data transmission, corporate networks for secure and scalable enterprise communication, and video conferencing to ensure low-latency and high-quality video streams
 - ATM is a core protocol used in the synchronous optical networking and synchronous digital hierarchy (SONET/SDH) backbone of the public switched telephone network and in the Integrated Services Digital Network (ISDN)
 
@@ -45,7 +46,7 @@ ATM was seen in the 1990s as a competitor to Ethernet and networks carrying IP t
 
 ---
 
-## References:
+## References
 
 - [https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode](https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode)
 - [https://www.gartner.com/en/information-technology/glossary/atm-asynchronous-transfer-mode](https://www.gartner.com/en/information-technology/glossary/atm-asynchronous-transfer-mode)

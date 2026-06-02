@@ -11,7 +11,7 @@ type: note
 
 该错误出现是因为你的 Rust 项目试图使用 `edition2024` 功能，而该功能在你当前的 Cargo 版本（1.75.0）中尚未稳定。要解决此问题，你需要显式启用不稳定的 `edition2024` 功能。
 
-### 解决步骤：
+### 解决步骤
 
 1. **启用 `edition2024` 功能**：
    打开你的 `Cargo.toml` 文件，在 `[package]` 部分之前的最顶部添加以下行：
@@ -48,7 +48,8 @@ type: note
    cargo build
    ```
 
-### 补充说明：
+### 补充说明
+
 - `edition2024` 功能是实验性的，可能会发生变化。请查阅 Rust 文档以了解其最新状态：[Rust Edition 2024](https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#edition-2024)。
 - 如果你不需要 `edition2024`，可以在 `Cargo.toml` 中恢复到稳定版本（例如 `edition = "2021"`），以避免使用 nightly 工具链。
 - 通过运行 `rustup update` 确保你的 `rustup` 是最新版本。

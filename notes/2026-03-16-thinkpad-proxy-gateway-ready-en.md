@@ -22,6 +22,7 @@ Here's what's configured on your ThinkPad:
 7. **Systemd Service** - Ready at `/etc/systemd/system/clash.service`
 
 **Next steps:**
+
 1. **Connect a device** to the USB Ethernet port
 2. **Start Clash**: `sudo systemctl start clash`
 3. **Enable auto-start**: `sudo systemctl enable clash`

@@ -19,6 +19,7 @@ The "web of trust" model in GPG allows users to certify each other's keys, build
 ## Key Structure
 
 A GPG keypair isn't just one key—it's a bundle:
+
 - **Primary key**: A master signing key (e.g., RSA or DSA) used for certifying (signing) other keys and self-signing your key's components.
 - **Subkeys**: Optional subordinate keys for specific tasks:
   - Signing subkey: For signing messages.
@@ -28,9 +29,11 @@ A GPG keypair isn't just one key—it's a bundle:
 - **Self-signatures**: The primary key signs its own components to prevent tampering.
 
 View a key's structure interactively:
+
 ```
 gpg --edit-key <key-id-or-email>
 ```
+
 Inside the menu, use `check` to verify self-signatures or `toggle` to see private parts (if available).
 
 ## Generating Keys
@@ -45,17 +48,21 @@ Start with a primary keypair. Use the interactive method for beginners:
 6. Set a strong passphrase (20+ characters, mixed case/symbols).
 
 For quick generation (non-interactive):
+
 ```
 gpg --quick-generate-key "Alice <alice@example.com>" rsa default 1y
 ```
 
 After generation, create a **revocation certificate** (a file to invalidate your key if compromised):
+
 ```
 gpg --output revoke.asc --gen-revoke <your-key-id>
 ```
+
 Store this safely (e.g., printed in a vault)—don't share it until needed.
 
 To add subkeys or UIDs later:
+
 - Enter `gpg --edit-key <key-id>`, then `addkey` (for subkey) or `adduid` (for UID). These are self-signed automatically.
 
 ## Listing and Viewing Keys
@@ -69,11 +76,13 @@ Output shows key ID (short/long), creation/expiration dates, capabilities (e.g.,
 ## Exporting and Importing Keys
 
 **Exporting** shares your public key or backs up private ones:
+
 - Public key: `gpg --armor --export <key-id> > mykey.asc` (ASCII-armored for email).
 - Private key (backup only): `gpg --armor --export-secret-keys <key-id> > private.asc`.
 - To a keyserver: `gpg --keyserver hkps://keys.openpgp.org --send-keys <key-id>`.
 
 **Importing** adds others' keys to your public keyring:
+
 - `gpg --import <file.asc>` (merges with existing; adds new signatures/subkeys).
 - From keyserver: `gpg --keyserver hkps://keys.openpgp.org --recv-keys <key-id>`.
 
@@ -82,6 +91,7 @@ After importing, verify with `gpg --edit-key <key-id>` and `check` for self-sign
 ## Signing and Certifying Keys
 
 To build trust:
+
 - Sign a key (certify it's valid): `gpg --sign-key <other-key-id>` (or `lsign-key` for local-only).
 - Quick sign: `gpg --quick-sign-key <fingerprint> "User ID"`.
 - Set trust level: In `--edit-key`, use `trust` (e.g., "5" for ultimate trust).
@@ -91,6 +101,7 @@ This creates signatures on the key, visible in listings. The web of trust calcul
 ## Revoking Keys
 
 Revocation invalidates a key or component without deleting it, ensuring others see it's no longer valid:
+
 - Full key: Import your revocation cert: `gpg --import revoke.asc`, then export/send the updated key.
 - Subkey/UID: In `--edit-key`, select with `key 1` or `uid 1`, then `revkey` or `revuid`.
 - Quick revoke UID: `gpg --quick-revoke-uid <key-id> <uid-to-revoke>`.

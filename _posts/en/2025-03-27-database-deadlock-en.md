@@ -13,6 +13,7 @@ A **database deadlock** occurs when two or more transactions are waiting for eac
 ---
 
 ### Example: Deadlock Between Two Transactions
+
 - **Scenario**:
   - Transaction T1 updates a row in the `Orders` table and then needs to update a row in the `Customers` table.
   - Transaction T2 updates a row in the `Customers` table and then needs to update a row in the `Orders` table.
@@ -26,6 +27,7 @@ A **database deadlock** occurs when two or more transactions are waiting for eac
   - Result: Neither transaction can proceed, creating a deadlock.
 
 - **SQL Example**:
+
   ```sql
   -- Transaction T1
   BEGIN TRANSACTION;
@@ -49,6 +51,7 @@ A **database deadlock** occurs when two or more transactions are waiting for eac
 ---
 
 ### Visual Representation of the Deadlock
+
 ```
 T1: Locks Orders(100) --> Wants Customers(1)
    |                        ↑
@@ -57,6 +60,7 @@ T2: Wants Orders(100)  <-- Locks Customers(1)
 ```
 
 - **Resolution**: The DBMS might output an error like:
+
   ```
   Transaction T2 was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
   ```
@@ -64,6 +68,7 @@ T2: Wants Orders(100)  <-- Locks Customers(1)
 ---
 
 ### Why It Happens
+
 - **Locking Order**: T1 and T2 acquire locks in a different sequence (T1: Orders → Customers; T2: Customers → Orders).
 - **Concurrency**: Both transactions run simultaneously and need overlapping resources.
 - **Exclusive Locks**: Updates require exclusive locks, which prevent other transactions from accessing the same data.
@@ -71,10 +76,13 @@ T2: Wants Orders(100)  <-- Locks Customers(1)
 ---
 
 ### How to Avoid Deadlocks
+
 1. **Consistent Lock Order**: Ensure all transactions acquire locks in the same order (e.g., always lock `Orders` before `Customers`).
+
    ```sql
    -- Both T1 and T2 should lock Orders first, then Customers
    ```
+
 2. **Reduce Transaction Time**: Minimize delays within transactions to reduce the chance of overlap.
 3. **Use Lower Isolation Levels**: If appropriate, use a less strict isolation level (e.g., Read Committed) to reduce locking duration.
 4. **Timeouts**: Set shorter lock timeouts to fail fast and retry.

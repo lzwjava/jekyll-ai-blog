@@ -37,9 +37,8 @@ As you pointed out, dealing with legacy code and massive merges is stressful. Hi
 * **Debugging with `git bisect`:** On a massive legacy codebase, finding when a bug was introduced is like finding a needle in a haystack. An expert uses binary search via `bisect` to let Git automatically find the exact commit that broke the code.
 * **Safety Net:** Knowing how to use the **Reflog** means you almost never lose code. Even if you delete a branch or mess up a rebase, the reflog tracks every movement of the `HEAD`, allowing you to time-travel back to safety.
 
-
-
 ### In the Interview
+
 Interviewers look for Git knowledge because it reveals your **collaboration philosophy**. An engineer who insists on a clean history and descriptive commits shows they care about the team’s long-term velocity, not just their own immediate task. It proves you have "battle scars" from real-world, high-stakes development.
 
 ---

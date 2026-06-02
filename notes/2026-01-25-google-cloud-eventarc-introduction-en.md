@@ -17,9 +17,11 @@ type: note
 Eventarc is Google Cloud's fully managed service for building **event-driven architectures**. It simplifies connecting event sources to event consumers (such as Cloud Run services, Cloud Functions, Workflows, or custom applications) without requiring you to manage the underlying infrastructure, message queues, or complex routing logic.
 
 ### Core Purpose
+
 Eventarc provides a **unified eventing experience** across Google Cloud. Instead of using different mechanisms for each service (Pub/Sub, Audit Logs, Storage notifications, etc.), Eventarc standardizes event delivery using the open **CloudEvents** specification.
 
 ### Main Components
+
 - **Triggers** — The central resource you create. A trigger defines:
   - Which events to receive (filters on event type, source, attributes, etc.)
   - Where to send them (destination: Cloud Run, Cloud Functions 2nd gen, Workflows, App Engine, GKE services, Pub/Sub topic, etc.)
@@ -35,6 +37,7 @@ Eventarc provides a **unified eventing experience** across Google Cloud. Instead
   - Custom HTTP endpoints (with authentication)
 
 ### Key Features (as of late 2025 / early 2026)
+
 - Fully serverless — no servers or clusters to manage
 - At-least-once delivery with retries and dead-letter handling
 - Filtering at trigger level (by event type, service name, resource name, etc.)
@@ -47,6 +50,7 @@ Eventarc provides a **unified eventing experience** across Google Cloud. Instead
 - Global availability (multi-region triggers in some configurations)
 
 ### Common Use Cases
+
 - Trigger a Cloud Run service whenever:
   - A file is uploaded to Cloud Storage
   - A Pub/Sub message arrives
@@ -57,6 +61,7 @@ Eventarc provides a **unified eventing experience** across Google Cloud. Instead
 - React to Google Cloud operations in real time (audit log events, resource changes)
 
 ### Simple Example Flow
+
 1. A file is uploaded to a Cloud Storage bucket → generates an event
 2. Eventarc trigger filters for `google.cloud.storage.object.v1.finalized`
 3. Eventarc delivers the CloudEvent (HTTP POST) to your Cloud Run service

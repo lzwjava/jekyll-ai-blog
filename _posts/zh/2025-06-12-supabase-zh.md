@@ -15,7 +15,9 @@ type: note
 ---
 
 ### GitHub Actions 工作流程
+
 工作流程需要在 SGT (UTC+8) 指定时间窗口内每 5 分钟运行一次：
+
 - 上班打卡：中午 12 点到下午 3 点 SGT = 4 AM 到 7 AM UTC
 - 下班打卡：晚上 6 点到 9 点 SGT = 10 AM 到 1 PM UTC
 - 日期：周三到周五 (cron 语法中的 3-5)
@@ -23,6 +25,7 @@ type: note
 我们将使用单个 cron 调度组合这些时间，并让脚本确定具体操作。
 
 {% raw %}
+
 ```yaml
 name: 打卡提醒
 
@@ -94,18 +97,22 @@ jobs:
       run: python scripts/release/location_bot.py --job send_message --message "打卡提醒机器人的代码变更已推送至 main 分支。"
       if: github.event_name == 'push'
 ```
+
 {% endraw %}
 
 ---
 
 ### Python 脚本
+
 该脚本将：
+
 - 检查当前 SGT 时间以确定是否在上班或下班打卡窗口
 - 使用 Supabase 跟踪打卡状态
 - 获取 Telegram 更新以查找 "punch" 消息
 - 如果尚未记录打卡，则发送提醒
 
 更新你的 `requirements.simple.txt` 以包含：
+
 ```
 requests
 supabase
@@ -262,9 +269,11 @@ if __name__ == '__main__':
 ---
 
 ### Supabase 设置
+
 我们将在 Supabase 中创建两个表来管理打卡状态和 Telegram 更新。
 
 #### SQL 说明
+
 在 Supabase SQL 编辑器中运行以下 SQL 命令：
 
 ```sql
@@ -286,6 +295,7 @@ INSERT INTO telegram_state (id, last_update_id) VALUES (1, 0);
 ```
 
 #### 执行步骤
+
 1. 登录你的 Supabase 仪表板。
 2. 导航到 **SQL Editor**。
 3. 粘贴并运行上面的 SQL 代码以创建和初始化表。
@@ -293,7 +303,9 @@ INSERT INTO telegram_state (id, last_update_id) VALUES (1, 0);
 ---
 
 ### 环境变量
+
 确保在你的 GitHub 仓库的 **Settings > Secrets and variables > Actions > Secrets** 下设置以下机密信息：
+
 - `TELEGRAM_LOCATION_BOT_API_KEY`：你的 Telegram 机器人令牌。
 - `SUPABASE_URL`：你的 Supabase 项目 URL（例如 `https://xyz.supabase.co`）。
 - `SUPABASE_KEY`：你的 Supabase anon 密钥（在 **Settings > API** 中找到）。
@@ -301,6 +313,7 @@ INSERT INTO telegram_state (id, last_update_id) VALUES (1, 0);
 ---
 
 ### 工作原理
+
 1. **调度**：工作流程在周三到周五的 SGT 时间中午 12 点到下午 3 点和晚上 6 点到 9 点（已调整为 UTC）期间每 5 分钟运行一次。
 2. **时间检查**：脚本检查当前 SGT 时间以确定是否在上班或下班打卡窗口内。
 3. **状态管理**：
@@ -315,6 +328,7 @@ INSERT INTO telegram_state (id, last_update_id) VALUES (1, 0);
 ---
 
 ### 测试
+
 - **手动触发**：使用 `workflow_dispatch` 和 `job_name: punch_reminder` 手动测试。
 - **Telegram**：在时间窗口内向你的机器人发送 "punch" 以停止该时间段的提醒。
 - **Supabase**：检查 `punch_records` 表以验证打卡时间是否已记录。

@@ -139,6 +139,7 @@ class JSSDK
 ### 第2步：将常量迁移到`.env`
 
 **旧的CI3 `constants.php`：**
+
 ```php
 define('WECHAT_APP_ID',     'wx123456');
 define('WECHAT_APP_SECRET', 'abc123');
@@ -146,6 +147,7 @@ define('WECHAT_DEBUG',      true);
 ```
 
 **新的CI4 `.env`：**
+
 ```ini
 WECHAT_APP_ID     = wx123456
 WECHAT_APP_SECRET = abc123
@@ -189,6 +191,7 @@ class WeChatPlatform
 ### 第4步：修复控制器（CI3 → CI4模式）
 
 **CI3（旧）：**
+
 ```php
 class WeChatController extends CI_Controller {
     public function __construct() {
@@ -205,6 +208,7 @@ class WeChatController extends CI_Controller {
 ```
 
 **CI4（新）：**
+
 ```php
 <?php
 // app/Controllers/WeChatController.php
@@ -244,6 +248,7 @@ public string $handler = 'file'; // 或者 'redis', 'memcached'
 ```
 
 对于Redis：
+
 ```ini
 # .env
 cache.handler = redis
@@ -256,6 +261,7 @@ cache.redis.port = 6379
 ### 第6步：验证路由
 
 在`app/Config/Routes.php`中：
+
 ```php
 $routes->get('wechat',        'WeChatController::index');
 $routes->post('wechat/oauth', 'WeChatController::oauth');

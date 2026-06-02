@@ -91,6 +91,7 @@ self.lstm = nn.LSTM(input_size=vocab_size, hidden_size=50, batch_first=True)
    x, (h, c) = self.lstm(x)         # x: (batch, seq, hidden)
    x = x.reshape(-1, self.lstm.hidden_size)  # (batch*seq, hidden)
    ```
+
 2. **Use `with torch.no_grad()` for eval/inference** to avoid tracking gradients and for speed/memory:
 
    ```python
@@ -105,11 +106,13 @@ self.lstm = nn.LSTM(input_size=vocab_size, hidden_size=50, batch_first=True)
    ```python
    outputs = net(inputs_one_hot).detach().numpy()
    ```
+
 3. **Seed PyTorch too** for reproducibility:
 
    ```python
    torch.manual_seed(42)
    ```
+
 4. **Device handling** (if you use GPU):
 
    ```python
@@ -118,6 +121,7 @@ self.lstm = nn.LSTM(input_size=vocab_size, hidden_size=50, batch_first=True)
    inputs_one_hot = inputs_one_hot.to(device)
    targets_idx = targets_idx.to(device)
    ```
+
 5. **Target alignment**: make sure `targets` are the **next tokens** aligned with each input time step. If your dataset pairs `(inputs, targets)` that way, you’re good. Otherwise, create `targets = inputs[1:]` and drop the last input or similar.
 6. **Drop `.bias=False` unless you have a reason**; a bias on the output layer is usually harmless/helpful.
 7. **Padding/variable lengths** (optional): if sequences have varying lengths, consider `pack_padded_sequence` to avoid training on padding tokens.

@@ -23,10 +23,13 @@ The easiest and most modern way to find the **MAC address** (also called hardwar
 2. Run one of these commands:
 
    - Full detailed view (recommended):
+
      ```
      ip link show
      ```
+
      or
+
      ```
      ip addr show
      ```
@@ -34,6 +37,7 @@ The easiest and most modern way to find the **MAC address** (also called hardwar
    Look for the line starting with `link/ether` under each network interface.
 
    Example output (yours will be different):
+
    ```
    1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
        link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -50,10 +54,13 @@ The easiest and most modern way to find the **MAC address** (also called hardwar
      - Ignore `lo` (loopback — it always shows `00:00:00:00:00:00`).
 
 3. To see only the MAC addresses (clean output):
+
    ```
    ip link show | grep -i ether
    ```
+
    or (even cleaner, one per line):
+
    ```
    LANG=C ip link show | awk '/link\/ether/ {print $2}'
    ```
@@ -61,23 +68,29 @@ The easiest and most modern way to find the **MAC address** (also called hardwar
 ### Alternative Methods
 
 - Using `/sys/class/net` (very reliable, no extra parsing needed):
+
   ```
   cat /sys/class/net/*/address
   ```
+
   → Shows MAC for every interface (one per line). Ignore `lo` if present.
 
 - For a specific interface (e.g., Ethernet named `enp3s0`):
+
   ```
   cat /sys/class/net/enp3s0/address
   ```
 
 - Older method (still works on many systems, but `ifconfig` is deprecated):
+
   ```
   ifconfig -a | grep -i "ether\|HWaddr"
   ```
+
   (You may need to install `net-tools` first with `sudo apt install net-tools` if `ifconfig` is missing.)
 
 ### Quick Tip for Wake-on-LAN
+
 If you're finding the MAC for WOL (like in your original test steps), use the wired Ethernet interface MAC (not Wi-Fi), as Wake-on-LAN typically only works over Ethernet.
 
 References:

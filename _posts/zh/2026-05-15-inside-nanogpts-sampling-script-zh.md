@@ -14,9 +14,11 @@ type: note
 ## 1. 配置与设置（`sample.py:11–32`）
 
 第12-22行将默认值声明为普通的模块级变量（`init_from`, `start`, `num_samples`, `temperature`, `top_k`等）。然后第23行执行魔法：
+
 ```python
 exec(open('configurator.py').read())   # 从命令行覆盖
 ```
+
 这会运行`configurator.py`，它遍历`sys.argv`并用你的`--init_from=gpt2-xl --start="Hello, my name is" ...`标志覆盖那些全局变量。这就是你在日志中看到`Overriding: init_from = gpt2-xl`的原因。
 
 第26-32行设置RNG种子，启用TF32矩阵乘法（免费加速），并设置`autocast(bfloat16)`上下文——所有在`with ctx:`内的前向传播都以bf16运行，同时保留主权重为fp32。
@@ -29,6 +31,7 @@ exec(open('configurator.py').read())   # 从命令行覆盖
 - `gpt2*` → 在第49行调用`GPT.from_pretrained('gpt2-xl', dict(dropout=0.0))`。
 
 第二个路径位于`model.py:228–283`。它：
+
 1. 从硬编码的字典（`model.py:238–243`）中选择正确的`n_layer/n_head/n_embd`。对于`gpt2-xl`：**48层，25个头，1600嵌入维度，1.5B参数**。
 2. 用这些维度构建一个**空的nanoGPT**。
 3. 下载HuggingFace的`GPT2LMHeadModel.from_pretrained('gpt2-xl')`权重（这就是你刚刚下载的6.5 GB）。
@@ -39,11 +42,13 @@ exec(open('configurator.py').read())   # 从命令行覆盖
 ## 3. 分词器（`sample.py:56–74`）
 
 由于你使用了`gpt2-xl`（而不是`resume`），它进入第70行的`else`分支：
+
 ```python
 enc = tiktoken.get_encoding("gpt2")
 encode = lambda s: enc.encode(s, ...)
 decode = lambda l: enc.decode(l)
 ```
+
 `tiktoken`是OpenAI的快速Rust BPE分词器。`"Hello, my name is"` → `[15496, 11, 616, 1438, 318]`（5个token）。
 
 ## 4. 编码提示（`sample.py:77–81`）
@@ -52,6 +57,7 @@ decode = lambda l: enc.decode(l)
 start_ids = encode(start)
 x = (torch.tensor(start_ids, dtype=torch.long, device=device)[None, ...])
 ```
+
 形状：`(1, 5)` — 一个批次，序列长度为5个token。这被送入GPU。
 
 ## 5. 生成循环（`sample.py:84–89` → `model.py:327–352`）
@@ -79,6 +85,7 @@ idx = torch.cat((idx, idx_next), dim=1)              # 追加，重复
 这是**自回归采样（autoregressive sampling）**：每一步，模型看到到目前为止生成的所有内容，为*下一个*token预测一个覆盖约50K词汇token的分布，采样一个，追加，重复。
 
 两个重要的调节旋钮：
+
 - **`temperature=0.8`** — 在softmax之前除以logits。小于1.0使分布更尖锐（更保守）；大于1.0使分布更平坦（更随机）。
 - **`top_k=200`** — 每一步只保留概率最高的200个token，其余置零。防止采样到低概率的垃圾。
 
@@ -91,6 +98,7 @@ idx = torch.cat((idx, idx_next), dim=1)              # 追加，重复
 **1. GPT-2 XL在其时代确实很强。** 它有1.5B参数，训练在约40GB的网络文本（WebText）上，约300B token。它学会了英语语法、几百个token内的主题连贯性，以及大量世界知识。你的提示`"Hello, my name is"`落在模型已经见过*数百万*次的分布区域——个人博客文章、论坛介绍、个人简介——因此它有非常自信、形状良好的续写。
 
 **2. 你的采样设置调得很好。**
+
 - `temperature=0.8`是最佳点。在1.0时模型会变得疯狂；在0.5时会变得重复。0.8在保持有趣的同时也连贯。
 - `top_k=200`过滤掉了无意义token的尾部，同时不强制贪婪。
 - 这就是为什么每个样本是*不同的*（它是随机的），但每个样本都*保持连贯*（没有随机词沙拉）。

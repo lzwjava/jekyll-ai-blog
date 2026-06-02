@@ -34,8 +34,8 @@ command = [
 在 Markdown 中同时兼容 kramdown（Jekyll 用于生成 HTML）和 XeLaTeX（用于 Pandoc 的 PDF 生成），需要注意以下几点：
 
 1. 图片路径的兼容性
-	•	Kramdown（HTML）: 通常使用以 / 开头的路径来引用资源。
-	•	XeLaTeX（PDF）: 要求使用相对路径，不应以 / 开头。
+ • Kramdown（HTML）: 通常使用以 / 开头的路径来引用资源。
+ • XeLaTeX（PDF）: 要求使用相对路径，不应以 / 开头。
 
 解决方案：统一使用相对路径，这样能兼容两种格式：
 
@@ -44,8 +44,8 @@ command = [
 ```
 
 2. 处理 Kramdown 特定属性
-	•	{:.responsive} 是 Kramdown 支持的属性，用于 HTML 样式控制。
-	•	XeLaTeX 不支持这些属性，保留会导致错误。
+ • {:.responsive} 是 Kramdown 支持的属性，用于 HTML 样式控制。
+ • XeLaTeX 不支持这些属性，保留会导致错误。
 
 解决方案：移除 PDF 生成时不支持的 Kramdown 特定属性。例如：
 
@@ -63,8 +63,8 @@ command = [
 
 双格式兼容的工作流
 
-1.	编写 Markdown 时尽量避免依赖 Kramdown 的特定功能。
-2.	如果需要为 HTML 添加样式，建议将 CSS 类 应用到 Jekyll 模板中，而不是直接在 Markdown 中定义。
-3.	使用 Pandoc 参数控制 PDF 的格式化，确保 Markdown 的跨平台兼容性。
+1. 编写 Markdown 时尽量避免依赖 Kramdown 的特定功能。
+2. 如果需要为 HTML 添加样式，建议将 CSS 类 应用到 Jekyll 模板中，而不是直接在 Markdown 中定义。
+3. 使用 Pandoc 参数控制 PDF 的格式化，确保 Markdown 的跨平台兼容性。
 
 通过这些方法，可以让 Markdown 内容在 Jekyll 的 HTML 渲染 和 XeLaTeX 的 PDF 渲染 中兼容无误，从而实现多格式发布的无缝工作流。

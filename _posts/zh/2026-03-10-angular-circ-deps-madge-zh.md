@@ -69,6 +69,7 @@ npx madge --circular --extensions ts --image circular-graph.png src/
 ```
 
 **图表颜色说明：**
+
 - **蓝色** — 有依赖的文件
 - **绿色** — 没有依赖的文件
 - **红色** — 有循环依赖的文件

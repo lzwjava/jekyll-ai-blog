@@ -27,6 +27,7 @@ Since t is a subsequence of s, the key insight is that t must differ from s at s
 ## Key Insight
 
 For t to be better than s, there must exist some position i where:
+
 - s_i = ')'
 - In t, position i is '(' (meaning we picked some '(' from s that maps to position i in t)
 - For all j < i, t_j = s_j (same characters at same positions)
@@ -275,6 +276,7 @@ if __name__ == "__main__":
 ```
 
 This solution works by:
+
 1. Computing the prefix balance array
 2. For each position i where s[i] = ')', trying to replace it with '('
 3. Checking if the prefix up to i (with this replacement) has non-negative balance

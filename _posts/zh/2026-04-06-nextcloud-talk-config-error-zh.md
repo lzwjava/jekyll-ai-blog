@@ -16,6 +16,7 @@ type: note
 你使用的键 (`enabled`, `baseUrl`, `botSecret`, `dmPolicy`, `allowFrom`, `rooms`, `webhookPublicUrl`, `network`) 都是账户层级的有效键 —— 因此它们也应该在顶层起作用，因为顶层模式继承了账户模式。
 
 这很可能意味着：
+
 1. 你的配置结构与预期略有不同（可能多了一层嵌套或有拼写错误）
 2. 模式近期被收紧，而你的配置是在此之前创建的
 

@@ -26,6 +26,7 @@ The full official phrasing is: **进行伟大斗争、建设伟大工程、推�
 This concept was most prominently and systematically presented in Xi Jinping's report to the **19th National Congress of the CPC in 2017**, where it became one of the core ideological frameworks of "Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era."
 
 ### Historical Background and Origin
+
 The phrase "四个伟大" originally appeared during the Cultural Revolution (1966–1976), when Mao Zedong was glorified with the titles "great teacher, great leader, great commander, great helmsman" (伟大的导师、伟大的领袖、伟大的统帅、伟大的舵手). That earlier usage was part of intense personality cult propaganda.
 
 The current version under Xi Jinping uses the same numerical structure but completely different content. It first gained attention in theoretical articles around 2014–2017 and was then elevated to central status in the 19th Party Congress report. It is not a revival of Mao-era worship but a new strategic concept tailored to the "new era."
@@ -55,6 +56,7 @@ The current version under Xi Jinping uses the same numerical structure but compl
    - Xi repeatedly stresses that the great rejuvenation will not be achieved easily or with fanfare; it requires long-term, arduous struggle.
 
 ### Internal Logical Relationship
+
 The official explanation emphasizes that the **Four Greats are closely linked, interconnected, and mutually reinforcing**:
 
 - The **Great Dream** is the goal.
@@ -65,6 +67,7 @@ The official explanation emphasizes that the **Four Greats are closely linked, i
 They form an organic whole and a systematic project. The Party's leadership and self-revolution (through the Great Project) are seen as the prerequisite and guarantee for success in the other three.
 
 ### Political Significance in the Xi Era
+
 - Serves as the overarching framework for understanding Xi Jinping Thought.
 - Used to mobilize the whole Party and society for long-term, high-intensity efforts in a complex international environment (great power competition, risk challenges, "black swan" & "gray rhino" events).
 - Reinforces the centrality of the Party and Xi's core position.

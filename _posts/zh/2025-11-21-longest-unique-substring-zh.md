@@ -16,6 +16,7 @@ type: note
 
 我们使用两个指针（`left` 和 `right`）来维护窗口 `[left, right]`。
 当移动 `right` 时，检查 `s[right]` 是否已在当前窗口中出现：
+
 - 若存在，则将 `left` 前移至重复字符被移除的位置。
 - 通过记录每个字符最后出现的位置，可直接跳跃移动 `left`。
 
@@ -56,6 +57,7 @@ print(lengthOfLongestSubstring("pwwkew"))     # 3 ("wke")
 ```
 
 **示例解析**：
+
 - "abacabcbb" → "abc" 或 "bac" 长度 = 3
 - "bbbbb" → 仅 "b" 长度 = 1
 - "pwwkew" → "wke" 长度 = 3（注意："pwke" 虽有效，但 "ww" 会提前终止窗口）

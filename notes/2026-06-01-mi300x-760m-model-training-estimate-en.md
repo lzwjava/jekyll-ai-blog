@@ -24,6 +24,7 @@ At 60% MFU:  ~24 hours
 ```
 
 **Cross-validation with Karpathy's nanochat:**
+
 - d24 (~1.5B) on 8×H100: ~2 hours for 4.64e18 FLOPs
 - Our run: 6.66e19 FLOPs = 14× more compute
 - On 8×H100: 14 × 2 = 28 hours
@@ -31,6 +32,7 @@ At 60% MFU:  ~24 hours
 - Account for single-GPU overhead: **~24-28 hours**
 
 **Comparison with your 124M model on RTX 4070:**
+
 - 124M on 4070, 10B tokens: ~15-20 hours
 - 760M is 6.1× more FLOPs/token
 - MI300X is ~10.5× faster (bandwidth-bound case)

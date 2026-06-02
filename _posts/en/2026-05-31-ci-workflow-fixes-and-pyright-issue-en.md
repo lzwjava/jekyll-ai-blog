@@ -23,6 +23,7 @@ Both pushed to `origin/main`.
 **Lint & Security workflow** — `lint.yml`: ruff/pyright installed via `uv pip install`, bandit job now has `uv sync` before install.
 
 **Unit Test workflow** — all 45 errors eliminated:
+
 - PyJWT added to pyproject.toml (fixes jwt tests)
 - `_dispatch()` / `_run()` helpers now fall back to `sys.modules` injection when target module can't be imported (macOS-only modules on Linux)
 - Note tests: `NOTE_ENTER_CONFIRM=1` patch ensures `input()` mock is reached
@@ -43,6 +44,7 @@ The **Lint & Security** run from the *previous* commit (`089b689`) failed on pyr
 These are optional dependencies that aren't in `pyproject.toml` but are imported unconditionally. The CI runner doesn't have them, so pyright reports `reportMissingImports`.
 
 **Fix options** (pick one):
+
 1. Add `reportMissingImports = false` to `[tool.pyright]` in pyproject.toml
 2. Add those optional packages to `pyproject.toml` dependencies
 3. Exclude those modules from pyright: `exclude = [".venv/", "ww/ml/", "tests/", "ww/clash/", "ww/audio/", "ww/agent/speech_to_text_agent.py"]`

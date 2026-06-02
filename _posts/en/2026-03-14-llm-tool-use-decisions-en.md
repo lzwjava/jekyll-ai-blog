@@ -33,6 +33,7 @@ When you send a request to the LLM API, you include a list of available tool def
 The decision is still probabilistic — you shape it with prompts, schema, and `tool_choice`, but you don't program it like a deterministic rules engine.
 
 You can also force specific behavior via the API's `tool_choice` parameter:
+
 - **`auto`** — model decides on its own (most common)
 - **`required`** — force the model to always call a tool
 - **`none`** — forbid tool calls entirely
@@ -45,12 +46,15 @@ You can also force specific behavior via the API's `tool_choice` parameter:
 The answer is **both**, applied in layers. This is a multi-stage training process:
 
 ### 1. Pre-training (Base Knowledge)
+
 During pre-training on massive text corpora, the model learns general reasoning, language patterns, and intent recognition. The LLM develops a deep understanding of language patterns, semantic relationships, and intent. When it encounters tool definitions, it learns to associate specific patterns in user queries with the functionalities described by the tool. This isn't explicit programming but rather an association learned from the training data.
 
 ### 2. Supervised Fine-Tuning (SFT) — The Main Mechanism
+
 The primary way tool-calling is taught is through **SFT on tool-use trajectories** (examples of correct tool-calling behavior). Most modern tool-use corpora are synthetic or bootstrapped — Toolformer-style self-labeling or large-scale generation as in ToolBench. For training objectives, supervised fine-tuning (SFT) on tool trajectories teaches basic formatting and tool selection. This bootstraps the behavior and is often enough for establishing the foundation of the skill.
 
 ### 3. Preference Optimization (DPO / RLHF) — Refinement
+
 After SFT, RLHF or DPO is used to refine *when* to call a tool vs. answer directly. Preference optimization (e.g., DPO) over trajectories can improve decisions about when to call a tool versus answer directly. For agentic tasks with multi-step tool use, RL with environment feedback (task success, constraint satisfaction) becomes the natural objective — the model learns from whether its tool-augmented actions actually solved the problem.
 
 So the full pipeline looks like:
@@ -66,11 +70,13 @@ Pre-training → SFT on tool trajectories → DPO/RLHF for when-to-call decision
 **Generally yes, but not perfectly.** Here's a nuanced breakdown:
 
 **The model is good at:**
+
 - Recognizing obvious tool-needing queries (e.g., "what's the weather now?", "search for X")
 - Selecting the right tool when tool descriptions are clear and well-named
 - Formatting arguments correctly based on JSON schemas
 
 **The model can struggle with:**
+
 - Ambiguous cases where tool use is optional
 - Choosing between multiple similar tools
 - Knowing when *not* to call a tool (over-calling)

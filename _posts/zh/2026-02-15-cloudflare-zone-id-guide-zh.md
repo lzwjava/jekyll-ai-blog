@@ -18,6 +18,7 @@ type: note
 Cloudflare 中的 **zone** 指的是您添加到 Cloudflare 进行管理的 domain（或有时是 subdomain）。这包括 DNS hosting、caching、security features（WAF、DDoS protection）、performance optimizations、Workers 等服务。简单来说，您连接到 Cloudflare 的每个 domain 都会成为一个 zone。
 
 Zone ID 是在使用以下功能时引用特定 domain/zone 的主要方式：
+
 - Cloudflare API（最常见的使用场景）
 - 具有 zone-level 权限的 API tokens
 - Cloudflare Workers 的 routes 或 bindings（当针对特定 domain 时）
@@ -27,7 +28,8 @@ Zone ID 是在使用以下功能时引用特定 domain/zone 的主要方式：
 它**不是敏感信息** —— 与 API keys 或 tokens 不同，Zone ID（以及 Account ID）可以安全地公开分享而不会危害安全，因为它们仅用于标识资源，本身并不授予任何访问权限。
 
 **如何找到您的 Zone ID：**
-1. 登录 Cloudflare dashboard：https://dash.cloudflare.com
+
+1. 登录 Cloudflare dashboard：<https://dash.cloudflare.com>
 2. 从列表中选择您想要的 domain/zone
 3. 进入该 domain 的 **Overview** 选项卡
 4. 向下滚动到右侧边栏或底部标记为 **API** 的部分

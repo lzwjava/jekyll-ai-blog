@@ -29,6 +29,7 @@ Windows cannot find these DLLs in the standard search path, so the Python proces
    - After this, `import ibm_db` works in any Python script or interpreter without any extra code.
 
 2. **Good alternative: Use os.add_dll_directory() once at the very beginning of your script**
+
    ```python
    import os
 
@@ -41,26 +42,33 @@ Windows cannot find these DLLs in the standard search path, so the Python proces
 
    import ibm_db   # now works
    ```
+
    Put these lines at the top of every script/entry point (or in your site's sitecustomize.py for global effect).
 
 3. **Quick and dirty (works but not recommended long-term)**
+
    ```python
    import os
    os.environ["PATH"] = r"C:\Program Files\IBM\SQLLIB\bin;" + os.environ["PATH"]
    import ibm_db
    ```
+
    This only works if done before the import and can have side effects.
 
 4. **Using the IBM-provided wheel with bundled CLI (easiest for many users)**
    IBM now publishes a special wheel called `ibm_db_clidriver` that contains a private copy of the DB2 runtime:
+
    ```bash
    pip install ibm_db
    pip install ibm_db_clidriver   # this one bundles the DLLs
    ```
+
    or simply
+
    ```bash
    pip install "ibm_db[clidriver]"
    ```
+
    After installing this, `import ibm_db` works out of the box on Windows with no PATH changes needed.
 
 ### Summary of what you should do today
@@ -81,5 +89,6 @@ import ibm_db
 Both approaches completely solve the "DLL can't be loaded" error.
 
 References:
+
 - [ibm_db GitHub - Windows installation notes](https://github.com/ibmdb/python-ibmdb#windows)
 - [ibm_db documentation - Using clidriver bundle](https://github.com/ibmdb/python-ibmdb#using-ibm_db_clidriver-package)

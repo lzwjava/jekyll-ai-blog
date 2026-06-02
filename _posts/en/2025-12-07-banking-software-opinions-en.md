@@ -49,6 +49,7 @@ Here are some genuinely unpopular (but commonly held in private) opinions from s
 These opinions are rarely said out loud in public (especially on LinkedIn) because the paychecks are too good and the industry is small, but they’re extremely common in anonymous forums (Blind, Reddit r/cscareerquestions, banking Slack channels, etc.).
 
 References:
+
 - [TeamBlind – “Investment Banking Tech” threads](https://www.teamblind.com/topics/Finance/Investment-Banking)
 - [Reddit r/cscareerquestions – banking search](https://www.reddit.com/r/cscareerquestions/search/?q=banking)
 - [Wall Street Oasis – Technology forums](https://www.wallstreetoasis.com/forum/technology)

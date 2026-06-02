@@ -21,6 +21,7 @@ You're observing that the difference between scoring 70% versus 90%, or between 
 - **Thoroughness**: They actually internalize the knowledge points rather than just superficially covering them
 
 This is actually a very mature observation. You're right that it's not magic — it's discipline and method. The person scoring 95% isn't necessarily smarter; they're likely:
+
 - Doing 3x the practice problems
 - Reviewing mistakes more carefully
 - Testing themselves more frequently

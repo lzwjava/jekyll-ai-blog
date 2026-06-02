@@ -64,22 +64,26 @@ Several programming languages that started relatively late (post-2000) have show
    - **References**: [Comparing tag trends with our Most Loved programming languages](https://stackoverflow.blog/2025/07/31/comparing-tag-trends-with-our-most-loved-programming-languages/), [Top Computer Languages 2025](https://statisticstimes.com/tech/top-computer-languages.php).
 
 ### Comparison to Rust’s Adoption
+
 - **Rust’s Benchmark**: Rust’s ~25% annual growth, ~2.3 million developers, and #13-15 TIOBE ranking set the standard. It excels in systems programming, cloud, and AI due to safety and performance.
 - **Go and TypeScript**: These match or exceed Rust’s growth rate (~20-30%) and rank higher (#8-10 and #5-7, respectively). Go’s cloud dominance and TypeScript’s web dominance give them broader reach than Rust’s systems focus.
 - **Kotlin and Swift**: These have similar growth (~20-25%) but are more niche (Android and iOS, respectively). They’re catching up to Java/Objective-C in their domains but have less universal appeal than Rust.
 - **Julia**: Its growth (~30%) is strong but limited to scientific computing, with a smaller user base. It’s less likely to rival C/C++/Java broadly compared to Rust.
 
 ### Why These Languages Succeed
+
 - **Technological Fit**: Each addresses modern needs (cloud for Go, web for TypeScript, mobile for Kotlin/Swift, science for Julia) better than older languages in specific contexts.
 - **AI Acceleration**: AI tools lower barriers, generating code and tutorials, especially for newer languages with less legacy baggage.
 - **Community and Industry**: Strong backing (e.g., Google for Go/Kotlin, Microsoft for TypeScript, Apple for Swift) and open-source ecosystems drive adoption, mirroring Rust’s model.
 
 ### Limitations
+
 - **Ecosystem Size**: None match the mature libraries of Java (Maven), C++ (Boost), or C (POSIX). This slows broad adoption.
 - **Learning Curve**: TypeScript and Kotlin are easier than Rust, but Go, Swift, and Julia can be challenging for beginners.
 - **Legacy Dominance**: C/C++/Java’s entrenched use in enterprise, OS, and legacy systems means these newer languages are catching up in new projects, not replacing old ones.
 
 ### Conclusion
+
 Go, TypeScript, Kotlin, Swift, and Julia are the standout languages starting post-2000 with rapid adoption, mirroring Rust’s trajectory. Go and TypeScript are closest to Rust in broad impact, while Kotlin and Swift dominate specific ecosystems, and Julia excels in a niche. Their growth is fueled by modern tech demands, AI tools, and open-source momentum, but none will fully “catch up” to Java/C/C++ in the next 5-10 years due to legacy entrenchment. Still, they’re reshaping their domains significantly.
 
 **References**

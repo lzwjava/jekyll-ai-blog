@@ -16,7 +16,8 @@ type: note
 
 Yes, Google Cloud offers a dedicated live streaming service called **Live Stream API** (part of Google Cloud's media services), which is quite similar to Alibaba Cloud (Aliyun) Live Streaming.
 
-### Key Features and How It Works:
+### Key Features and How It Works
+
 - **Ingest (Push Stream)**:
   You create an **input endpoint** in the Live Stream API.
   It supports **RTMP** (and SRT) as input protocols.

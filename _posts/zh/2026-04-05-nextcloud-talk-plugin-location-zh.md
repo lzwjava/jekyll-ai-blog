@@ -30,10 +30,13 @@ Nextcloud Talk 以插件形式分发，不捆绑在核心 OpenClaw 安装包中�
 ```
 
 你可以通过 CLI 从 npm 仓库安装：
+
 ```
 openclaw plugins install @openclaw/nextcloud-talk
 ```
+
 或者，如果本地运行的是 git 检出版本：
+
 ```
 openclaw plugins install ./extensions/nextcloud-talk
 ```
@@ -49,6 +52,7 @@ extensions/nextcloud-talk/
 ```
 
 社区讨论中提及的关键文件包括：
+
 - `extensions/nextcloud-talk/index.ts` —— 插件入口点
 - `extensions/nextcloud-talk/src/signature.ts` —— webhook 签名验证逻辑
 

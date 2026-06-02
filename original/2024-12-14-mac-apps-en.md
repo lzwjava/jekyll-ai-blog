@@ -9,11 +9,13 @@ type: post
 ---
 
 A:
+
 - Anaconda-Navigator
 - Android Studio
 - Apple Configurator
 
 C:
+
 - CapCut
 - ChatGPT
 - ClashX Pro
@@ -22,19 +24,23 @@ C:
 - Cursor
 
 D:
+
 - Developer
 - Discord
 - Docker
 - DuckDuckGo
 
 E:
+
 - Ecosia Browser
 
 F:
+
 - FileZilla
 - Firefox
 
 G:
+
 - GitHub Desktop
 - Google Chrome
 - Google Docs
@@ -44,23 +50,28 @@ G:
 - Grammarly for Safari
 
 H:
+
 - HP
 - HP Easy Scan
 - HP Smart
 - Hewlett-Packard
 
 I:
+
 - Instapaper
 - IntelliJ IDEA CE
 
 K:
+
 - Keynote
 - Kindle
 
 L:
+
 - Lark
 
 M:
+
 - Messenger
 - Microsoft Bing for Safari
 - Microsoft Edge
@@ -70,10 +81,12 @@ M:
 - Multipass
 
 N:
+
 - Numbers
 - Nutstore
 
 O:
+
 - OBS
 - OneDrive
 - Opera
@@ -81,6 +94,7 @@ O:
 - Outline
 
 P:
+
 - Pages
 - ParbloTablet
 - Playgrounds
@@ -88,9 +102,11 @@ P:
 - PyCharm CE
 
 R:
+
 - RescueTime
 
 S:
+
 - Safari
 - Safe Connect
 - Screen Mirror to TV & Device
@@ -101,6 +117,7 @@ S:
 - Spotify
 
 T:
+
 - Tailwind
 - Telegram
 - TencentDocs
@@ -110,9 +127,11 @@ T:
 - Twitter
 
 U:
+
 - Utilities
 
 V:
+
 - V2RayXS
 - Vivaldi
 - VirtualBox
@@ -120,6 +139,7 @@ V:
 - VooV Meeting
 
 W:
+
 - WeChat
 - WeMeeting
 - WhatsApp
@@ -127,16 +147,21 @@ W:
 - wpsoffice
 
 X:
+
 - Xcode
 
 Z:
+
 - zoom.us
 
 C:
+
 - calibre
 
 I:
+
 - iTerm
 
 N:
+
 - 网易灵犀办公

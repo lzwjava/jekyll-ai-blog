@@ -19,13 +19,15 @@ The issue you're facing is that the Camoufox download is extremely slow (estimat
 - Many CDNs and download hosts (like those serving Camoufox binaries) have poor performance or even block/abort connections coming from proxies/Tor.
 - The progress bar is shown by the downloader inside npx camoufox-js, and it's not handling slow/unstable proxy connections well.
 
-### Quick fixes to try (in order):
+### Quick fixes to try (in order)
 
 1. **Skip proxychains for the download** (recommended first step)
    Run the command without proxychains:
+
    ```
    npx camoufox-js fetch
    ```
+
    This lets the download use your normal internet connection, which is usually much faster.
 
 2. If you really need the proxy for privacy:
@@ -39,16 +41,20 @@ The issue you're facing is that the Camoufox download is extremely slow (estimat
 
    - Cancel the current stuck process (Ctrl+C)
    - Clear any partial download cache:
+
      ```
      rm -rf ~/.cache/camoufox* || true
      rm -rf /tmp/camoufox* || true
      ```
+
    - Then retry without proxy:
+
      ```
      npx camoufox-js fetch
      ```
 
    After successful fetch, continue with Hermes installation. Typically it would be something like:
+
    ```
    # After Camoufox is fetched
    npx camoufox-js install   # or whatever the Hermes install command is
@@ -68,6 +74,7 @@ The "15659 seconds" (~4.35 hours) is the estimated time remaining based on curre
 Cancel it (`Ctrl+C`), remove proxychains from the command, and retry the fetch. It should complete in seconds or a couple of minutes on normal internet.
 
 If it still fails, please provide:
+
 - The exact Hermes installation guide you're following
 - Your proxychains.conf content (hide sensitive parts)
 - Any error messages after it eventually fails

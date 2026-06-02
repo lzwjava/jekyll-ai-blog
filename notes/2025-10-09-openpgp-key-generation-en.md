@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Overview of the Output
+
 This appears to be the console output from generating a new OpenPGP key pair using GPG (GNU Privacy Guard), a tool for encrypting and signing data. The process involves creating a public/private key pair for secure communication or file signing. Here's a breakdown:
 
 - **User Confirmation**: The prompt "Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O" shows you confirmed the key details (name, email, etc.) by selecting 'O' (Okay). This locks in the user ID associated with the key.
@@ -28,6 +29,7 @@ This appears to be the console output from generating a new OpenPGP key pair usi
 The process succeeded: "public and secret key created and signed." Your keys are now stored in `~/.gnupg/` (public in `pubring.kbx`, private in `private-keys-v1.d/`).
 
 ### What the .rev File Means
+
 The file in question is the revocation certificate (`.rev` extension) stored in the `openpgp-revocs.d` directory. This is **not** your private key—it's a special signed document that lets you (or anyone with it) revoke the key pair if it's compromised, lost, or no longer needed.
 
 - **Purpose**: Revocation proves the key is invalid, preventing its use for signing or encryption. GPG generates it automatically during key creation for safety.

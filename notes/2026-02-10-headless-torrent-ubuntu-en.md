@@ -24,7 +24,7 @@ Here are the most popular and reliable choices in 2025–2026:
 
 | Client              | Type              | Best for                          | Web UI? | Install command                              | Download example                                      |
 |---------------------|-------------------|-----------------------------------|---------|----------------------------------------------|-------------------------------------------------------|
-| qbittorrent-nox     | daemon + web UI   | Modern features, best overall     | Yes     | `sudo apt install qbittorrent-nox`           | Add torrent via web UI (http://server-ip:8080)        |
+| qbittorrent-nox     | daemon + web UI   | Modern features, best overall     | Yes     | `sudo apt install qbittorrent-nox`           | Add torrent via web UI (<http://server-ip:8080>)        |
 | transmission-cli    | pure CLI          | Very simple one-shot downloads    | No      | `sudo apt install transmission-cli`          | `transmission-cli file.torrent`                       |
 | aria2c              | pure CLI          | Fast, lightweight, multi-protocol | No      | `sudo apt install aria2`                     | `aria2c file.torrent` or `aria2c magnet-link`         |
 | rtorrent            | ncurses TUI       | Power users who like vim-style UI | No      | `sudo apt install rtorrent`                  | Run `rtorrent` then load torrent with ^O shortcut     |
@@ -83,7 +83,7 @@ sudo systemctl enable --now qbittorrent-nox
 ```
 
 Now open in browser:
-**http://your-server-ip:8080**
+**<http://your-server-ip:8080>**
 (default login: admin / adminadmin — change it immediately!)
 
 You can add .torrent files or magnet links directly from the web interface.

@@ -30,6 +30,7 @@ Done! Here's the summary:
 **29/30 routes = 200**. The one remaining 500 (`/lives/attended`) is expected — it tries to read a user session that doesn't exist without login.
 
 **Still remaining:**
+
 - Real login session testing (POST /login → GET /self)
 - Payment logic (POST /charges, POST /rewards) — still stubs
 - Auth 401 handling for protected routes

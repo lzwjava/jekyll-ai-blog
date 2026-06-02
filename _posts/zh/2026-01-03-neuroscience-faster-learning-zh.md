@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: 请提供 YouTube 视频 https://www.youtube.com/watch?v=kKvK2foOTJM 更详尽的转录内容。
+Question: 请提供 YouTube 视频 <https://www.youtube.com/watch?v=kKvK2foOTJM> 更详尽的转录内容。
 
 Answer:
 

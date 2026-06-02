@@ -59,16 +59,19 @@ These 5 processes eating **3 GB** are your biggest RAM hog. Open the TabsKiller 
 ### 3. WeChat cleanup
 
 WeChat + WeChatAppEx = **513 MB**. If you don't use mini-programs (WeChatAppEx), you can reduce this:
+
 - WeChat → Settings → General → uncheck "Keep WeChat in background when closing window" if you don't need it
 - Or quit it entirely when not chatting
 
 ### 4. Python processes
 
 Two Python 3.11 processes using **292 MB**, one at **11% CPU**. Check what's running:
+
 ```bash
 # Find what started them
 ps aux | grep -m2 python
 ```
+
 If it's an idle Jupyter kernel or a stalled script, kill it.
 
 ### 5. mihomo proxy

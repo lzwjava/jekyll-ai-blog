@@ -24,6 +24,7 @@ type: note
 **3. 安装方法检测**（第 7760 行）
 
 三种路径：
+
 - **没有 .git 目录** -> 在 Windows 上，回退到 ZIP 下载；在 Linux/macOS 上，检查 `detect_install_method()` —— 如果是 `pip`，则路由到 `_cmd_update_pip()`，后者执行 `uv pip install --upgrade hermes-agent`（如果 uv 不可用，则使用普通 pip）
 - **存在 .git** -> 继续执行基于 git 的更新
 
@@ -47,11 +48,12 @@ type: note
 
 **7. 字节码缓存清理**（`_clear_bytecode_cache`，第 5647 行）
 
-递归删除 `__pycache__/` 目录。防止更新后的源代码引用旧编译 .pyc 文件中不存在的内容时导致 ImportError。这就是你看到的"Cleared 63 stale __pycache__ directories"。
+递归删除 `__pycache__/` 目录。防止更新后的源代码引用旧编译 .pyc 文件中不存在的内容时导致 ImportError。这就是你看到的"Cleared 63 stale **pycache** directories"。
 
 **8. 分支上游同步**（`_sync_with_upstream_if_needed`，第 6699 行）
 
 仅针对分支。巧妙之处：
+
 - 如果没有 `upstream` 远程，则询问用户添加（一次性，记住拒绝）
 - 获取上游，比较 `origin/main` 与 `upstream/main`
 - 如果 origin 有 upstream 上没有的提交：**跳过**——不会覆盖分支的自定义提交
@@ -84,6 +86,7 @@ type: note
 **14. 网关自动重启**（第 8275 行）
 
 如果以网关模式运行（`--gateway`），在代码更新后：
+
 - 在尝试重启 *之前* 将退出码 0 写入 `.update_exit_code`（这样即使进程在重启期间被杀死，新网关也能看到成功）
 - 尝试优雅的 SIGUSR1 重启（让正在传输的消息最多耗尽 60 秒）
 - 对于 systemd 管理的网关，回退到 `systemctl restart`

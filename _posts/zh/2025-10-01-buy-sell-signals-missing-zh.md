@@ -14,12 +14,14 @@ type: note
 
 您遇到的似乎是这样一个显示问题：买卖信号（例如RSI金叉死叉或MACD信号等技术指标发出的交易信号，或是代表买卖量/成交记录的盘口标记）在周线或月线时间周期的K线图上能够显示，但在年线视图中却消失不见。在老虎证券应用（截至2025年9月版本为9.4.0.2）中，这种行为可能是由于应用设计限制所致——较长周期如年线包含的数据点较少（例如数据被聚合为月线K柱），这可能导致技术指标无法正常计算、显示过于杂乱，或是为避免显示不准确而被完全隐藏。
 
-### 问题原因：
+### 问题原因
+
 - **数据粒度**：在年线图表中，K线代表的是月度或年度聚合数据，因此技术指标（例如RSI需要约14个数据点）可能因K柱数量不足而无法触发信号。较短周期（周线/月线）包含更多K柱，可清晰呈现信号。
 - **应用设置**：在移动版本中，来自“盘口标记”（实时买卖量跳动点或指标信号）的买卖信号默认仅在日内/周/月线等较短周期行情/页面图表中启用，以避免信息过载。虽然9.2.4等更新版本增加了盘口标记信号功能，但可能默认仅应用于日内/周/月线视图[1]。
 - **性能/界面考量**：在年线视图上显示密集信号可能降低应用运行速度或造成用户困惑，因此会被有条件地隐藏。
 
-### 解决方案与变通措施：
+### 解决方案与变通措施
+
 1. **切换时间周期（如您已操作）**：要获取可靠的买卖信号，请坚持使用K线的周线或月线视图。在股票页面的图表标签页中，点击周期选择器（如“周”或“M”代表月线）进行切换——信号应会重新出现。
 
 2. **检查指标设置**：
@@ -39,7 +41,7 @@ type: note
 若问题持续存在，或您特别需要在年线图表上查看信号，请通过应用内（我的 > 帮助）或论坛联系老虎证券客服，因为这可能是全球移动版中的一个程序错误。如需详细的指标使用指南，可观看YouTube上的《K线图添加指标》视频[4]。
 
 引用来源：
-[1] https://www.itiger.com/about/app/update
-[2] https://support.tiger.com/english/frequently-asked-questions/questions-about-indicators
-[3] https://support.tiger.com/english/windows/chart/chart-settings
-[4] https://www.youtube.com/watch?v=5xgmRavEkFE
+[1] <https://www.itiger.com/about/app/update>
+[2] <https://support.tiger.com/english/frequently-asked-questions/questions-about-indicators>
+[3] <https://support.tiger.com/english/windows/chart/chart-settings>
+[4] <https://www.youtube.com/watch?v=5xgmRavEkFE>

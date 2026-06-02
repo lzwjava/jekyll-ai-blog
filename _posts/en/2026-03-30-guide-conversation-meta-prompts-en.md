@@ -18,6 +18,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 📊 1. **Counting & Statistics**
+
 - *"How many messages have been exchanged so far?"*
 - *"How many times have I said 'hi' in this conversation?"*
 - *"How many questions have I asked you?"*
@@ -26,6 +27,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 📝 2. **Summarization**
+
 - *"Can you summarize our entire conversation so far?"*
 - *"Give me a brief recap of what we've discussed."*
 - *"What are the key points from our conversation?"*
@@ -34,6 +36,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 🔍 3. **Topic Analysis**
+
 - *"What topics have we discussed in this conversation?"*
 - *"What was the first topic we talked about?"*
 - *"How many different subjects have we covered?"*
@@ -42,6 +45,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 🧠 4. **Understanding & Insights**
+
 - *"What can you infer about me from our conversation?"*
 - *"Based on our chat, what are my interests?"*
 - *"What patterns do you notice in my questions?"*
@@ -50,6 +54,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### ⏱️ 5. **Sequence & Order**
+
 - *"What was the first thing I asked you?"*
 - *"What was your last response about?"*
 - *"In what order did we discuss the topics?"*
@@ -58,6 +63,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 🔄 6. **Repetition & Patterns**
+
 - *"Have I repeated any questions in this conversation?"*
 - *"What words or phrases have I used the most?"*
 - *"Have we gone off-topic at any point?"*
@@ -66,6 +72,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 📌 7. **Specific Message Retrieval**
+
 - *"What exactly did I say in my first message?"*
 - *"What was your response to my weather question?"*
 - *"Can you quote my exact words from earlier?"*
@@ -74,6 +81,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 🎯 8. **Evaluation & Feedback**
+
 - *"How well have you answered my questions so far?"*
 - *"Were there any questions you couldn't answer fully?"*
 - *"Which of your responses was the most detailed?"*
@@ -82,6 +90,7 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 ---
 
 ### 🌟 9. **Fun & Creative**
+
 - *"If our conversation were a movie, what would it be called?"*
 - *"Can you write a poem summarizing our chat?"*
 - *"Rate our conversation out of 10!"*
@@ -89,7 +98,8 @@ Great observation! 😄 It's indeed interesting to ask meta-questions about the 
 
 ---
 
-### 💡 Pro Tips:
+### 💡 Pro Tips
+>
 > ✅ These meta-prompts are great for **reviewing long conversations**
 > ✅ Useful for **extracting key information** from lengthy chats
 > ✅ Helps you **track what has/hasn't been covered**

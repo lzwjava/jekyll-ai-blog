@@ -24,6 +24,7 @@ brew reinstall --cask squirrel
 ```
 
 After install:
+
 1. **Log out and log back in** (or restart) — macOS needs a fresh login to pick up the new input method.
 2. Go to **System Settings → Keyboard → Text Input → Edit** → click `+` → find "Squirrel" (鼠须管) → add it.
 3. Press `Ctrl+`` or click the input method icon in the menu bar to switch to Squirrel.

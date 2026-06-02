@@ -25,7 +25,7 @@ type: post
 
 如果您将我的博客文章用于学术或正式写作，请按照以下方式引用：
 
-> 李志伟. (2024 年 11 月). 自然视力恢复："刚好清晰"的原则. 李志伟的博客. https://lzwjava.github.io/barely-clear-en.
+> 李志伟. (2024 年 11 月). 自然视力恢复："刚好清晰"的原则. 李志伟的博客. <https://lzwjava.github.io/barely-clear-en>.
 
 或
 

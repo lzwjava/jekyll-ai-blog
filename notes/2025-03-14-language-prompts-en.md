@@ -19,20 +19,25 @@ Here are some often-used prompts for learning languages, specifically tailored t
 Here’s a portion of the song’s lyrics (the first verse and chorus) to demonstrate this prompt in action. Due to space constraints, I’ll focus on these sections, but the approach can be applied to the full song.
 
 #### Lyrics in Japanese
+
 **Verse 1:**
+
 ```
 見上げた空に 浮かんでる雲が
 Miageta sora ni ukanderu kumo ga
 ```
 
 **Chorus:**
+
 ```
 未来へ 未来へ 未来へ行こう
 Mirai e mirai e mirai e ikou
 ```
 
 #### Word-by-Word Explanation and Pronunciation
+
 **Verse 1:**
+
 - **見上げた (Miageta)**
   - **Pronunciation**: mee-ah-geh-tah
   - **Meaning**: "Looked up" (past tense of 見上げる, miageru, "to look up").
@@ -60,6 +65,7 @@ Mirai e mirai e mirai e ikou
 **Translation of Verse 1**: "The clouds floating in the sky I looked up at."
 
 **Chorus:**
+
 - **未来 (Mirai)**
   - **Pronunciation**: mee-rah-ee
   - **Meaning**: "Future."
@@ -80,6 +86,7 @@ This prompt helps learners break down lyrics into manageable parts, understand v
 ---
 
 ### Additional Often-Used Prompts for Language Learning
+
 These prompts can be adapted to "未来へ - Mirai e" or any other song/lyrics in Japanese or other languages:
 
 1. **Vocabulary Breakdown**
@@ -125,4 +132,5 @@ These prompts can be adapted to "未来へ - Mirai e" or any other song/lyrics i
 ---
 
 ### Why These Prompts Work
+
 These prompts make language learning interactive and memorable by leveraging the emotional and rhythmic qualities of songs. They cater to different learning needs—listening, speaking, reading, and writing—while embedding cultural insights, making them versatile for Japanese or any language. For "未来へ - Mirai e," they turn a beloved song into a rich learning tool, helping you master Japanese step by step.

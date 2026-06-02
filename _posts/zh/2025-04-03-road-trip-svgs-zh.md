@@ -133,7 +133,6 @@ type: note
   <text x="400" y="468" font-family="Arial" font-size="12">预计返程交通拥堵</text>
 </svg>
 
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
   <!-- 背景 -->
   <rect width="600" height="300" fill="#f9f9f9"/>
@@ -236,7 +235,6 @@ type: note
   <path d="M470,225 L485,235 L455,235 Z" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
   <text x="500" y="234" font-family="Arial" font-size="12">交通警告</text>
 </svg>
-
 
 这些SVG图示展示了您清明假期（2025年4月3-6日）从广州到汕头的自驾行程：
 

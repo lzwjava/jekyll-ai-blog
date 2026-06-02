@@ -14,6 +14,7 @@ type: note
 The phenomenon you're describing—successful professionals, often with overseas education and experience, returning to their home country to launch startups—is particularly common among Chinese entrepreneurs. This trend, sometimes called the "sea turtle" (haigui) movement, has accelerated in recent years. According to data, over 80% of Chinese students who studied abroad between 2016 and 2019 have returned home, driven by a mix of personal, economic, and cultural factors. Many, like Wang Xing (founder of Meituan), Charles Zhang (founder of Sohu), and Lei Jun (founder of Xiaomi), had already achieved financial stability through education (e.g., PhDs from top US universities like MIT), high-paying tech jobs, or prior ventures. Yet they chose to start new companies in China, often in Beijing or other hubs. Below, I'll break down the key reasons, drawing from their stories and broader trends, and then explore the deeper psychological and societal drivers.
 
 #### General Reasons for Chinese Entrepreneurs Returning to Start Startups
+
 Chinese professionals who study and work in the US (e.g., getting PhDs, joining big tech like Google or Microsoft, and even buying homes) often return due to a combination of pull factors from China and push factors from abroad:
 
 - **Booming Opportunities in China's Economy and Tech Ecosystem:** China's rapid growth creates massive markets for innovation. The country has a huge consumer base (over 1.4 billion people), government support through policies like subsidies for startups, and vibrant hubs like Beijing's Zhongguancun (China's Silicon Valley). Returnees see untapped potential in sectors like e-commerce, internet services, and hardware. For instance, the job market for overseas-educated talent has expanded, with roles in tech, research, and entrepreneurship offering competitive prospects.
@@ -25,6 +26,7 @@ Chinese professionals who study and work in the US (e.g., getting PhDs, joining 
 - **Work-Life and Cultural Differences:** Some returnees find US work culture less demanding but also less dynamic than China's fast-paced environment, which suits ambitious entrepreneurs. However, challenges like intense work hours (e.g., the "996" culture) are balanced by the excitement of building in a high-growth market.
 
 #### Specific Examples from the Individuals You Mentioned
+
 These cases illustrate how prior success doesn't deter entrepreneurship; instead, it fuels it.
 
 - **Wang Xing (Meituan):** After studying in the US (University of Delaware) and working on early social platforms, Wang returned to China and founded several ventures inspired by US models (e.g., a Chinese Facebook clone called Xiaonei). By 2010, he launched Meituan as a group-buying site modeled after Groupon, which later merged with Dianping (a Yelp-like service) to become a super-app for food delivery, reviews, and more. His motivation? A focus on efficiency—optimizing "bit movement" (information flow) between consumers, vendors, and distributors. Wang was already wealthy from prior exits but saw Meituan as a way to solve real-world problems in China's service economy. He's a serial entrepreneur who thrives on adapting proven ideas to local needs.
@@ -36,6 +38,7 @@ These cases illustrate how prior success doesn't deter entrepreneurship; instead
 In all cases, these individuals leveraged US-acquired skills (e.g., technical expertise, business models) but adapted them to China's context, where scale and speed can lead to explosive growth.
 
 #### Deeper Reasons Why Wealthy People Keep Starting Startups
+
 Beyond surface-level factors like money or opportunity, the "deep reasons" often boil down to human psychology, values, and societal influences. Wealth doesn't eliminate the drive to create; it can amplify it:
 
 - **Passion and Intrinsic Fulfillment:** Many entrepreneurs are wired for innovation. Once wealthy, they pursue startups not for survival but for the joy of solving problems, building teams, and seeing ideas come to life. As one analysis notes, successful founders like these are motivated by "excitement and ownership," sticking it out through failures because they're passionate about the challenge.
@@ -51,6 +54,7 @@ Beyond surface-level factors like money or opportunity, the "deep reasons" often
 Ultimately, these people aren't just chasing money—they're driven by a mix of ambition, purpose, and opportunity. If wealth solved everything, they'd retire; instead, it frees them to chase bigger dreams. This trend shows no signs of slowing, as China's innovation ecosystem continues to attract global talent.
 
 #### References
+
 - [China's job market embraces increasing returned overseas students](http://english.scio.gov.cn/m/chinavoices/2024-04/18/content_117133555.htm)
 - [Why Overseas Chinese Students Return? Trending](https://www.studyinchina.com.my/web/page/why-overseas-chinese-students-return/)
 - [How China Is Winning Back More Graduates From Foreign Universities Than Ever Before](https://www.forbes.com/sites/ljkelly/2018/01/25/how-china-is-winning-back-more-graduates-from-foreign-universities-than-ever-before/)

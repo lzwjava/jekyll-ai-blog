@@ -37,16 +37,19 @@ GPT-2 124M（Small）模型按照现代标准来说非常轻量。只有 1.24 �
 
 **1. 推理时间（文本生成）**
 对于小批量文本生成（例如，为单个用户生成响应），工作负载主要受内存带宽而非计算限制。
+
 * **时间差异：** 两款 GPU 都会几乎瞬间生成文本（读取和回复只需几分之一秒）。虽然 H200 由于其 4.8 TB/s 带宽，理论上能生成令牌的速度快 4 倍到 5 倍，但对于如此小的模型，人类感知到的差异将微乎其微。内核启动开销和 PCIe/CPU 瓶颈也可能阻止 H200 在批量大小为 1 时发挥最大理论速度优势。
 
 **2. 训练 / 微调时间**
 如果您从头训练 GPT-2 124M 或对其进行数百万 token 的微调，可以使用大批量大小来最大化 GPU 能力。
+
 * **时间差异：** 在优化吞吐量的训练场景中，H200 的每个 epoch 处理速度大约比 RTX 6000 Ada **快 3 倍到 5 倍**。
 * **示例：** 如果在 RTX 6000 Ada 上处理数据集需要**10 小时**，则 H200 完成相同工作负载大约需要**2 到 3.5 小时**。
 
 总之，虽然 H200 远胜一筹，但仅用于 124M 参数模型则属于架构过度设计。RTX 6000 Ada 完全能够极快地训练或运行 GPT-2 124M。H200 的巨大优势只有在转向现代大型语言模型（LLM，参数规模 80 亿到 700 亿）时才真正必要。
 
 参考文献：
-- [NVIDIA RTX 6000 Ada Generation Graphics Card](https://www.nvidia.com/en-us/products/workstations/rtx-6000/)
-- [PNY | NVIDIA H200 NVL Datasheet](https://www.pny.com/file%20library/company/support/linecards/data-center-gpus/h200-nvl-datasheet.pdf)
-- [ThinkSystem NVIDIA H200 141GB GPUs Product Guide - Lenovo Press](https://lenovopress.lenovo.com/lp1944-nvidia-h200-141gb-gpu)
+
+* [NVIDIA RTX 6000 Ada Generation Graphics Card](https://www.nvidia.com/en-us/products/workstations/rtx-6000/)
+* [PNY | NVIDIA H200 NVL Datasheet](https://www.pny.com/file%20library/company/support/linecards/data-center-gpus/h200-nvl-datasheet.pdf)
+* [ThinkSystem NVIDIA H200 141GB GPUs Product Guide - Lenovo Press](https://lenovopress.lenovo.com/lp1944-nvidia-h200-141gb-gpu)

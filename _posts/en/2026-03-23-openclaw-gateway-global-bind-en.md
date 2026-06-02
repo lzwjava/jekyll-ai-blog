@@ -60,6 +60,7 @@ Just change **two fields** in your config:
 
 1. **Save** the config file
 2. **Restart** the OpenClaw service:
+
 ```bash
 systemctl restart openclaw
 # or
@@ -67,17 +68,20 @@ pkill openclaw && openclaw &
 ```
 
 3. **Verify** it's now listening on all interfaces:
+
 ```bash
 ss -tlnp | grep 18789
 # Should show: 0.0.0.0:18789  (not 127.0.0.1:18789)
 ```
 
 4. **Allow firewall** if needed:
+
 ```bash
 sudo ufw allow 18789
 ```
 
 5. Access from your browser:
+
 ```
 http://192.168.1.36:18789
 ```

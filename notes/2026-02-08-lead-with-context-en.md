@@ -43,6 +43,7 @@ He described an ideal organization formula along the lines of:
 This approach helped ByteDance scale rapidly while staying innovative and avoiding typical "big company disease" issues like bureaucracy, "managing up," or ego-driven centralization.
 
 Similar ideas appear in other high-performing cultures:
+
 - Netflix's famous "Lead with context, not control"
 - Empowerment models in many Silicon Valley companies
 

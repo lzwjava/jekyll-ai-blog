@@ -44,6 +44,7 @@ Claude Code 默认阻止那些通过网络获取或发送内容的高风险命�
 ## 4. Hermes agent 无法代你运行该命令
 
 Hermes agent 在沙盒环境中运行。即使你想让它执行 `scp`，agent 也会：
+
 - 无法从其环境中认证你的 SSH 密钥/远程主机
 - 无法访问你的本地文件系统路径（例如 `/Users/lzwjava/Documents/...`）
 - 被有意限制执行那些可能将数据泄露到外部主机的命令

@@ -32,6 +32,7 @@ python train.py config/train_fineweb_gpt3.py 2>&1 | tee out-fineweb-gpt3/train.l
 ```
 
 ### Notes / knobs to tune later
+
 - `max_iters=19073` ≈ **10B tokens seen** at 524k tokens/step. To actually use the full ~140B you tokenized, bump it to ~267000 (and set `lr_decay_iters` to match). That's a multi-day run on a 4070.
 - If the dry run OOMs, drop `batch_size` to 4 and double `gradient_accumulation_steps` to 128 (keeps tokens/step constant).
 - If `compile=True` errors on your PyTorch/CUDA combo, override with `--compile=False`.

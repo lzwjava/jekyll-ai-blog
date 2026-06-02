@@ -22,10 +22,12 @@ type: note
 两者均在 2026 年 4 月的同一周发布——Opus 4.7 于 4 月 16 日，GPT-5.5 于 4 月 23 日。基准测试结果根据工作流类型有所分化：
 
 **Opus 4.7 领先方面：**
+
 - Opus 4.7 在 10 个共享基准测试中的 6 个上领先——具体来说是侧重推理和审阅级测试：GPQA Diamond、HLE（有工具和无工具）、SWE-Bench Pro、MCP Atlas 和 FinanceAgent v1.1。
 - Opus 4.7 在代码基准测试中获胜——SWE-bench Pro（64.3%）、SWE-bench Verified（87.6%）、CursorBench、GPQA Diamond。
 
 **GPT-5.5 领先方面：**
+
 - GPT-5.5 在长期运行的工具使用测试中领先：Terminal-Bench 2.0、BrowseComp、OSWorld-Verified 和 CyberGym。它在 BrowseComp 上领先 +5.1 个百分点，在 CyberGym 上领先 +8.7 个百分点。
 - GPT-5.5 在代理型和知识工作基准测试中获胜：Terminal-Bench、GDPval、OSWorld 和 Tau2-bench。
 
@@ -64,6 +66,7 @@ Codex CLI 在原始 SWE-bench Verified（88.7% vs 87.6%）和 Terminal-Bench 2.0
 - **务实建议：** 2026 年一个日益流行的模式是同时订阅 ChatGPT Plus 和 Claude Pro（每月约 $40），并将各自用于其最擅长的领域——在不同模型之间交叉检查难题，正是你收获最多的地方。
 
 参考资料：
+
 - [GPT-5.5 vs Claude Opus 4.7 — LLM Stats](https://llm-stats.com/blog/research/gpt-5-5-vs-claude-opus-4-7)
 - [Codex vs Claude Code — Dupple](https://dupple.com/learn/codex-vs-claude-code)
 - [Claude Code vs Codex — Morph LLM](https://www.morphllm.com/comparisons/codex-vs-claude-code)

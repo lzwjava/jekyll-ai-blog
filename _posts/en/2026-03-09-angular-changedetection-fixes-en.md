@@ -30,6 +30,7 @@ This is a classic **change detection timing problem**. When the parent (worklist
 This is the **modern, idiomatic fix**. Signals are reactive by nature and bypass the lifecycle timing problem entirely.
 
 **In the worklist (parent):**
+
 ```typescript
 import { signal, computed } from '@angular/core';
 
@@ -47,6 +48,7 @@ export class WorklistComponent {
 ```
 
 **In the pagination child:**
+
 ```typescript
 import { input } from '@angular/core'; // Angular 17+ input signal
 
@@ -56,6 +58,7 @@ export class PaginationComponent {
 ```
 
 **Template (parent):**
+
 ```html
 <app-pagination [totalItems]="totalItems()" />
 ```
@@ -69,6 +72,7 @@ With `OnPush` strategy, Angular only triggers change detection if a new referenc
 If you cannot refactor to Signals, inject `ChangeDetectorRef` into the **pagination component** and call `detectChanges()` when the input is received.
 
 **In pagination component:**
+
 ```typescript
 import { Component, Input, OnChanges, SimpleChanges, ChangeDetectorRef } from '@angular/core';
 
@@ -135,6 +139,7 @@ export class PaginationStateService {
 ```
 
 {% raw %}
+
 ```typescript
 // worklist.component.ts
 this.paginationState.setTotalItems(result.total);
@@ -143,6 +148,7 @@ this.paginationState.setTotalItems(result.total);
 totalItems$ = this.paginationState.totalItems;
 // template: {{ totalItems$ | async }}
 ```
+
 {% endraw %}
 
 Using a shared service with observables is especially useful for deeply nested components, avoiding the need to bubble data and events up and down the component tree via `@Input`/`@Output` chains.

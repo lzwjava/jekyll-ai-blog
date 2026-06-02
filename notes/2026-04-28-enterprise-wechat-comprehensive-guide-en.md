@@ -38,21 +38,27 @@ WeCom notifications are turned off by default after office hours (7pm–7am) to 
 ### 3. Core Features
 
 #### 3.1 Internal Communication
+
 The main functionalities include: employees messaging and calling each other, creating task lists, forming communities of up to 100 users, and conducting polls and surveys.
 
 #### 3.2 Video Conferencing
+
 WeCom supports stable HD video conferences accessible from phones, allowing document and screen sharing among up to **300 participants**.
 
 #### 3.3 OA (Office Automation) Tools
+
 Employees collaborate in channels, share files, and automate workflows such as leave requests and expense approvals. WeCom integrates with Mini Programs and third-party APIs, enabling features like **CRM** and real-time analytics.
 
 #### 3.4 Document Collaboration
+
 WeCom includes **Smart Sheets** that help enterprises enhance internal and external office collaboration, making it easy to manage projects, operations, and customers via a single sheet. It also includes **Docs** for collaborative editing and viewing with colleagues, WeChat customers, and partners.
 
 #### 3.5 Email Integration
+
 WeCom offers an integrated email service where users can receive and check emails in real time and respond promptly using an email program geared for corporate customers.
 
 #### 3.6 File Storage
+
 WeCom allows companies to manage files in one place, with **100 GB of free storage** and options for expanded paid storage.
 
 ---

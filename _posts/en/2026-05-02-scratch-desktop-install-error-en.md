@@ -12,6 +12,7 @@ type: note
 ## Comprehensive Review: Scratch Desktop Installation
 
 ### The Request
+
 The user's message was clear in intent but messy in form — a large Q&A block was pasted inline as context. I correctly extracted the actual task: SSH to `xiaoxin@192.168.1.47` and install Scratch Desktop.
 
 ---
@@ -21,6 +22,7 @@ The user's message was clear in intent but messy in form — a large Q&A block w
 **1. No pre-flight checks**
 
 Before installing anything, I should have run:
+
 ```bash
 ssh xiaoxin@192.168.1.47 "
   flatpak --version
@@ -29,6 +31,7 @@ ssh xiaoxin@192.168.1.47 "
   df -h ~
 "
 ```
+
 This would have revealed: user has no flathub remote, no existing install, and available disk space — all in one round trip.
 
 **2. Tried system-wide install as a non-root SSH user**
@@ -46,6 +49,7 @@ The install used `org.freedesktop.Platform 22.08`, which is explicitly end-of-li
 **5. No post-install verification**
 
 I never confirmed the app actually works:
+
 ```bash
 ssh xiaoxin@192.168.1.47 "flatpak run edu.mit.Scratch --version 2>&1 | head -5"
 ```
@@ -53,6 +57,7 @@ ssh xiaoxin@192.168.1.47 "flatpak run edu.mit.Scratch --version 2>&1 | head -5"
 **6. XDG path warning left unresolved**
 
 The install warned that `~/.local/share/flatpak/exports/share` isn't in `XDG_DATA_DIRS`, so the app won't appear in the application menu. I mentioned it but didn't fix it. The fix is one line in `~/.profile`:
+
 ```bash
 export XDG_DATA_DIRS="$HOME/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
 ```

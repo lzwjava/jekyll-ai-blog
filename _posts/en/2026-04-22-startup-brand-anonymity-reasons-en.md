@@ -87,13 +87,13 @@ So the omission may reflect editorial style, not the founder’s intention.
 
 It depends on context:
 
-### ✔ Useful when:
+### ✔ Useful when
 
 * You want to avoid bias and build credibility from scratch
 * The previous company is irrelevant to the current product
 * You’re early-stage and need a clean narrative
 
-### ❌ Unnecessary or harmful when:
+### ❌ Unnecessary or harmful when
 
 * Credibility actually matters (fundraising, hiring)
 * The experience is directly relevant (e.g., fintech founder from a major payments company)

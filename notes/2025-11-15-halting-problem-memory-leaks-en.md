@@ -13,6 +13,7 @@ type: note
 Okay, let’s walk through this “Halting Problem in disguise” argument step by step, in plain English, so it actually makes sense.
 
 ### The core idea
+
 The author wants to prove that **perfect automatic memory leak detection is impossible**.
 To do that, he shows that “Does this program ever leak this particular object O?” is secretly just as hard as the Halting Problem (which we already know is impossible to solve for all cases).
 

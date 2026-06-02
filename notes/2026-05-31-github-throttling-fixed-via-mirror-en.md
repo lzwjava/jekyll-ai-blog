@@ -37,7 +37,7 @@ ncat is clean. The problem is the network path.
 == SOLUTION APPLIED ==
 
 Changed Qwen2.5-Coder remote to use ghfast.top GitHub mirror:
-  https://ghfast.top/https://github.com/QwenLM/Qwen2.5-Coder.git
+  <https://ghfast.top/https://github.com/QwenLM/Qwen2.5-Coder.git>
 
 Fetch now completes instantly.
 
@@ -48,9 +48,9 @@ NOTE: Repo has 296 local commits ahead of upstream (looks like a fork merge hist
 == FOR ALL GITHUB REPOS ==
 
 To apply globally (all GitHub repos use ghfast.top):
-  git config --global url.https://ghfast.top/https://github.com/.insteadOf https://github.com/
+  git config --global url.<https://ghfast.top/https://github.com/.insteadOf> <https://github.com/>
 
 Or per-repo only. Note: pushes won't work through the mirror — you'd need to temporarily override for push:
-  git push https://github.com/... main
+  git push <https://github.com/>... main
 
 Want me to set up the global config?

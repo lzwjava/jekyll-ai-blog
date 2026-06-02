@@ -17,6 +17,7 @@ To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Develop
 
 2. **Verify Your Extension Setup**:
    - Make sure you have a valid `package.json` file in your project root with at least the following fields:
+
      ```json
      {
        "name": "your-extension-name",
@@ -32,6 +33,7 @@ To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Develop
        "contributes": {}
      }
      ```
+
    - Ensure you have an `extension.js` (or equivalent) file as the entry point for your extension code.
    - Install dependencies by running `npm install` in the integrated terminal (`Ctrl+``) if your extension uses Node.js modules.
 
@@ -46,6 +48,7 @@ To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Develop
 4. **Debugging Configuration**:
    - VSCode uses a `launch.json` file in the `.vscode` folder to configure debugging. If it doesn’t exist, VSCode will create one automatically when you press F5 for the first time.
    - A typical `launch.json` for an extension looks like this:
+
      ```json
      {
        "version": "0.2.0",
@@ -61,6 +64,7 @@ To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Develop
        ]
      }
      ```
+
    - Ensure the `preLaunchTask` (if present) matches a task in your `tasks.json` (e.g., for compiling TypeScript).
 
 5. **Test Your Extension**:
@@ -76,6 +80,7 @@ To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Develop
    - If the Extension Host doesn’t launch, ensure your project has no syntax errors in `package.json` or your main extension file.
 
 **Additional Notes**:
+
 - You can also start the Extension Development Host by opening the **Run and Debug** panel (`Ctrl+Shift+D` or `Cmd+Shift+D` on Mac) and selecting “Run Extension” from the dropdown, then clicking the green play button.
 - To reload the Extension Host after making changes, use `Ctrl+R` (Windows/Linux) or `Cmd+R` (Mac) in the Extension Development Host window, or restart it with F5.
 

@@ -13,9 +13,11 @@ type: note
 ---
 
 ### 1. Cline 无法检测新创建的文件
+
 Cline 可能因工作区索引延迟、权限问题或扩展的文件监控机制存在缺陷而无法检测新文件。解决方法如下：
 
-#### 排查步骤：
+#### 排查步骤
+
 - **刷新工作区**：创建新文件后，手动刷新 VSCode 工作区以确保 Cline 能识别。
   - 按下 `Ctrl+Shift+P`（Mac 为 `Cmd+Shift+P`）打开命令面板。
   - 输入 `Reload Window` 并选择。这将重新加载 VSCode 并强制 Cline 重新索引工作区。
@@ -40,15 +42,18 @@ Cline 可能因工作区索引延迟、权限问题或扩展的文件监控机�
   - 在 VSCode 中打开输出面板（`Ctrl+Shift+U` 或 `Cmd+Shift+U`）。
   - 从下拉菜单选择 "Cline" 查看日志。寻找文件检测失败的相关信息并处理具体问题（如路径错误）。
 
-#### 可能原因：
+#### 可能原因
+
 Cline 依赖 VSCode 的文件系统 API 检测变更。如果文件未被索引或监控延迟，Cline 在工作区更新前将无法识别。
 
 ---
 
 ### 2. Cline 无法使用 @mention 功能
+
 Cline 中的 `@mention` 语法通常用于调用特定工具或功能（例如 `@url` 获取网页内容，`@problems` 处理工作区错误）。如果无效，可能是配置错误、模型不支持或语法误解导致的。
 
-#### 排查步骤：
+#### 排查步骤
+
 - **验证语法**：确保使用正确的 `@mention` 语法。
   - 参考 Cline 文档中的示例：
     - `@url`：获取 URL 并转换为 Markdown。
@@ -76,12 +81,14 @@ Cline 中的 `@mention` 语法通常用于调用特定工具或功能（例如 `
   - 访问 Cline 的 GitHub（github.com/cline/cline）查看现有问题。
   - 若无类似问题，请提交新报告并附上详细信息：Cline 版本、VSCode 版本、使用的模型及具体 `@mention` 尝试内容。
 
-#### 可能原因：
+#### 可能原因
+
 `@mention` 功能在您的环境中可能未完全实现，或模型能力与预期行为不匹配。
 
 ---
 
 ### 通用建议
+
 - **重启 VSCode**：完全重启可解决扩展的临时故障。
 - **重新安装 Cline**：若问题持续，从 VSCode 市场卸载并重新安装扩展。
 - **加入 Cline 社区**：如需实时帮助，加入其 Discord（GitHub 有链接）并在 #support 或 #contributors 频道提问。
@@ -89,6 +96,7 @@ Cline 中的 `@mention` 语法通常用于调用特定工具或功能（例如 `
 ---
 
 ### 测试修复的示例流程
+
 1. 在 VSCode 中创建新文件（如 `test.txt`）。
 2. 刷新窗口（`Ctrl+Shift+P > Reload Window`）。
 3. 打开 Cline，新建任务并输入：“读取 test.txt 的内容并使用 @problems 列出所有问题。”

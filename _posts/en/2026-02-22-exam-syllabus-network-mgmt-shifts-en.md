@@ -19,6 +19,7 @@ The change in the proportion of network management questions in the Guangdong 02
 | **Core Focus** | **Fundamental Theory & Technology**. Questions covered circuit/packet switching, data encoding, rate calculations, HDLC, CSMA/CD, IP addresses, etc. . | **Comprehensive Application**. Questions covered routing protocols (longest prefix matching), network security (IPsec), application layer (DNS), and network management . |
 
 ### 🔍 Possible Reasons for the Change
+
 Based on the evidence, the shift from having "so many network management questions" in 2009 to fewer in recent years is most likely due to the following:
 
 - **Syllabus Revision**: Self-study exam syllabi are periodically updated to reflect industry developments. The 2009 exam structure may have followed an older syllabus with a heavier weighting on network management theory. A subsequent syllabus revision likely integrated this topic, making it part of a broader curriculum and reducing its proportion of the total score.

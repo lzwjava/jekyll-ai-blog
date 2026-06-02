@@ -40,6 +40,7 @@ type: note
 ### **Question Types**
 
 常见题型包括：
+
 - 单选题
 - 填空题
 - 简答题

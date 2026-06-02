@@ -18,16 +18,20 @@ Zed SSH 远程打开 `ssh://lzw@192.168.1.36/mnt/data/deepseek-v4-inference/` �
 在 `~/Library/Logs/Zed/Zed.log` 中发现两个问题：
 
 1. **路径规范化失败**（主要原因）：
+
    ```
    ERROR [worktree] failed to canonicalize root path "/mnt/data/deepseek-v4-inference":
    canonicalizing "/mnt/data/deepseek-v4-inference": No such file or directory (os error 2)
    ```
+
    Zed 远程服务器进程可以看到该路径（它尝试了文件监视），但在执行 `std::fs::canonicalize()` 时失败。可能是远程服务器二进制文件过时，缓存了错误的状态。
 
 2. **inotify 监视限制耗尽**（次要原因）：
+
    ```
    ERROR [crates/worktree/src/worktree.rs:5018] (remote server) OS file watch limit reached.
    ```
+
    远程主机的 `max_user_watches=65536`（默认值）——对 Zed 的文件监视器来说太低。
 
 ## 已应用修复

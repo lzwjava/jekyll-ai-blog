@@ -17,6 +17,7 @@ In microservices architectures, communication between services can happen in two
 The short answer: Event-driven architectures with Kafka promote **loose coupling, scalability, and resilience**, making systems easier to build, maintain, and scale—especially as complexity grows. Direct calls work fine for simple setups but break down in distributed, high-volume environments. Let's break it down.
 
 #### Why Not Just Actively Call Services from One Place (or Modify the Caller)?
+
 This approach—having a central "orchestrator" service (or the original caller) directly invoke downstream services via APIs—is straightforward at first. You could even update the caller to "add callees" as needed (e.g., fan-out to multiple services in sequence or parallel). But here's why it falls short:
 
 - **Tight Coupling**: The caller must know the exact locations (URLs/endpoints), schemas, and availability of every callee. If a downstream service changes its API, goes down, or gets renamed, you have to update *every* caller. This creates a web of dependencies that's hard to refactor.
@@ -30,6 +31,7 @@ This approach—having a central "orchestrator" service (or the original caller)
 In essence, it's like a phone tree where everyone dials directly: efficient for 3-4 people, chaotic for 100.
 
 #### Why Event-Driven with Kafka? (Let Downstream Consume Events)
+
 Kafka is a distributed event streaming platform that acts as a durable, ordered log of events. Producers (upstream services) publish events to topics (e.g., "user-registered"), and consumers (downstream services) subscribe and process them independently. This shifts from "push/pull coordination" to "publish/subscribe" (pub/sub).
 
 Key benefits that make it worth the shift:
@@ -55,12 +57,15 @@ Key benefits that make it worth the shift:
    - Great for real-time analytics, ML pipelines, or CQRS (Command Query Responsibility Segregation) patterns.
 
 #### When Does This Shine? (Trade-Offs)
+
 - **Best For**: High-volume, distributed systems (e.g., e-commerce order processing, IoT data streams, user activity feeds). If your app has 10+ services or unpredictable loads, Kafka prevents the "big ball of mud."
 - **Drawbacks**: Adds complexity (learning Kafka, managing topics/partitions, eventual consistency). Debugging event flows can be trickier than direct calls. Start with sync for prototypes, migrate to events as you scale.
 - **Alternatives to Kafka**: RabbitMQ (for simpler queues), AWS SNS/SQS (managed), or Pulsar (if you need multi-tenancy). But Kafka's combo of streaming + queuing makes it a go-to.
 
 #### Example in Code (Pseudocode)
+
 **Synchronous Caller (Brittle)**:
+
 ```python
 def process_user_registration(user_data):
     # Caller directly calls multiple services
@@ -70,6 +75,7 @@ def process_user_registration(user_data):
 ```
 
 **Event-Driven with Kafka (Flexible)**:
+
 ```python
 # Producer (upstream)
 from kafka import KafkaProducer
@@ -90,6 +96,7 @@ for msg in consumer:
 In summary, modifying the caller to "add callees" is a quick fix that scales poorly and couples everything. Event-driven with Kafka lets services evolve independently, turning your monolith-in-disguise into a truly modular system. If you're building something specific, share more details for tailored advice!
 
 **References**:
+
 - [Kafka Documentation: Introduction](https://kafka.apache.org/intro)
 - [Martin Fowler: Event-Driven Architecture](https://martinfowler.com/articles/201701-event-driven.html)
 - [ThoughtWorks: Microservices Patterns (Ch. 11: Event Collaboration)](https://www.oreilly.com/library/view/microservices-patterns/9781492034018/ch11.html)

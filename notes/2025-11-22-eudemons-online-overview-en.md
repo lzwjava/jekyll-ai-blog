@@ -25,6 +25,7 @@ Here is a comprehensive introduction to the game, its core gameplay, and its pop
 The gameplay loop is that of a classic MMORPG—players choose a class, complete quests, defeat monsters, level up, collect equipment, and engage in social and competitive features. However, its signature mechanic sets it apart: the **Eudemon System**.
 
 #### 1. The Eudemon System (The Pet/Companion Mechanic)
+
 This is the heart of the game, giving it its name.
 
 * **Combat Companions:** Players can hatch, raise, and summon **Eudemons** (powerful pets/spirit companions) to fight alongside them. You can bring up to **three Eudemons** into battle at once.
@@ -32,17 +33,20 @@ This is the heart of the game, giving it its name.
 * **Composition/Evolution:** Eudemons can be "composed" to improve their quality and stats, a process that is essential for reaching high Battle Power (BP). They also go through visual evolutions as they level up.
 
 #### 2. Battle Power (BP)
+
 In Eudemons Online, **Battle Power** is often considered more important than the character's level. BP is a numerical representation of your overall strength, derived from your character's level, equipment, and, most importantly, the quality and composition of your Eudemons.
 
 * **PK Mechanic:** BP is crucial in Player vs. Player (PvP). If your BP is significantly higher than an opponent's, you gain a massive advantage and are highly likely to defeat them, making the pursuit of higher BP the central endgame goal.
 
 #### 3. Combat and Classes
+
 The combat is largely click-based.
 
 * **Classes (Initial):** In the 2006-2007 era, the main classes were typically the **Warrior** (physical strength/defense) and the **Mage** (magical attack/defense). Later expansions introduced classes like Paladin, Vampire, and Necromancer.
 * **XP Skills:** Characters have an **XP bar** that fills up over time or through combat. When full, it can be activated to unleash an **XP Skill**—a devastating, screen-clearing, high-damage attack that allows for incredibly fast clearing of monsters and is often central to its "fast leveling" feel.
 
 #### 4. Social & Community Features
+
 The game strongly encouraged interaction through robust social systems:
 
 * **Legions & Wars:** Players can join **Legions** (guilds) to participate in large-scale **Legion Wars** for territory and rewards.

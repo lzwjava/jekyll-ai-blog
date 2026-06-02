@@ -46,6 +46,7 @@ Here are some of the most recommended **YouTube resources** for preparing for th
 ### Study Tips from Community Experience
 
 Many who passed recently combined:
+
 - Official Google Cloud Skills Boost / Qwiklabs (hands-on mandatory).
 - YouTube for conceptual understanding + service comparison.
 - Practice exams from YouTube + paid Whizlabs/Tutorials Dojo/mock question sets.

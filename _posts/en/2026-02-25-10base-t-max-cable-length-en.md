@@ -36,6 +36,7 @@ This 100-meter maximum segment length is a fundamental rule in 10BASE-T and has 
 Therefore, the correct answer is **C. 100m**.
 
 The other options are incorrect because:
+
 - 20m and 50m are far below the standard allowance
 - 200m exceeds the specification and would cause excessive signal attenuation and timing problems
 

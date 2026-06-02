@@ -40,6 +40,7 @@ Here are several genuinely unpopular or contrarian opinions about CNNs that you�
 In short: CNNs were revolutionary from 2012–2018, but clinging to them as the default vision architecture in 2025 is increasingly seen (in some circles) as a form of intellectual inertia.
 
 References:
+
 - [Dosovitskiy et al., “An Image is Worth 16x16 Words” (ViT paper)](https://arxiv.org/abs/2010.11929)
 - [Liu et al., “A ConvNet for the 2020s” (ConvNeXt)](https://arxiv.org/abs/2201.03545)
 - [Tolias et al., “What Neural Network Architects Can Learn from Neuroscience (and vice versa)”](https://www.nature.com/articles/s42256-021-00354-y)

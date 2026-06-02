@@ -42,4 +42,4 @@ For deeper reading:
 [CDC: HIV and AIDS Basics](https://www.cdc.gov/hiv/basics/whatishiv.html)
 [Nature: The Discovery of HIV](https://www.nature.com/articles/nm0710-753)
 [Science: Reproducibility in Science](https://www.science.org/doi/10.1126/science.aac4716)
-[ CERN: Higgs Boson Explained](https://home.cern/science/physics/higgs-boson)
+[CERN: Higgs Boson Explained](https://home.cern/science/physics/higgs-boson)

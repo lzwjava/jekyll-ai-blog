@@ -16,15 +16,18 @@ type: note
 **保持二者独立**。理由如下：
 
 **它们在本质上是不同的东西：**
+
 - **live-server** = PHP 后端 (CodeIgniter 4) —— 负责 REST API、数据库、微信集成、RTMP 挂钩、支付
 - **live-mobile-web** = Vue 3 前端 —— 移动端网页界面，通过 `/api` 代理调用后端 API
 
 **当前的协作方式：**
+
 - `live-mobile-web` 通过 `/api` 代理到开发环境的 `api.quzhiboapp.com`（通过 Vite 代理）
 - 生产环境中，nginx 负责提供 Vue 静态构建产物，并将 `/api` 请求代理到 PHP 后端
 - 它们已经解耦 —— 前端构建不需要后端代码
 
 **为何合并会带来问题：**
+
 - 在同一个代码仓库混合 PHP 和 Node.js 会导致依赖管理混乱、构建过程不清晰
 - 它们有不同的部署周期（更新 UI 时无需重新部署后端）
 - 不同的运行环境、不同的 Docker 镜像、不同的扩展需求

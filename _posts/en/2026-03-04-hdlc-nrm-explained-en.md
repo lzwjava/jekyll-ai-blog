@@ -23,7 +23,7 @@ Answer:
 
 The correct answer is **A. Normal Response Mode (NRM)**.
 
-### Explanation:
+### Explanation
 
 HDLC (High-level Data Link Control) defines three main operational modes:
 

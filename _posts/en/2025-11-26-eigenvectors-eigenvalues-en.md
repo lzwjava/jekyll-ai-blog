@@ -23,6 +23,7 @@ A × v = λ × v
 ```
 
 Here:
+
 - v = eigenvector (a direction)
 - λ = eigenvalue (a number, the scaling factor)
 
@@ -77,6 +78,7 @@ The matrix (A − λI) sends the special vector v to zero, but sends other vecto
 ### Simple Example (2×2 matrix)
 
 Let
+
 ```
 A = [2  1]
     [0  2]

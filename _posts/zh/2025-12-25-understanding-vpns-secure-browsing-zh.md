@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-问题：转录 YouTube 视频 https://www.youtube.com/watch?v=R-JUOpCgTZc 并将其内容重构为讲座格式。
+问题：转录 YouTube 视频 <https://www.youtube.com/watch?v=R-JUOpCgTZc> 并将其内容重构为讲座格式。
 
 回答：
 

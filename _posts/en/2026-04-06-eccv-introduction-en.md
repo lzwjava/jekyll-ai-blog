@@ -72,7 +72,6 @@ Some notable recent editions include:
 - **ECCV 2020** — Glasgow, United Kingdom (August 23–28, 2020): 1,361 papers
 - **ECCV 2018** — Munich, Germany (September 8–14, 2018)
 
-
 ---
 
 ### Awards

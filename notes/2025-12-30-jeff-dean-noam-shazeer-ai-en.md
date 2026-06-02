@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What does Noam Shazeer say in the YouTube video at https://www.youtube.com/watch?v=v0gjI__RyCY&t=4s?
+Question: What does Noam Shazeer say in the YouTube video at <https://www.youtube.com/watch?v=v0gjI__RyCY&t=4s>?
 
 Answer:
 

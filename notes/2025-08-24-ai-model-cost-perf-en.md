@@ -71,7 +71,7 @@ This reflects how well models perform on software engineering tasks:
 
 ---
 
-## Summary (clear and concise):
+## Summary (clear and concise)
 
 * **Claude 4 Opus**: Top performance, high cost (\$15 in / \$75 out).
 * **GPT-5 (full)**: Great performance (just behind Opus), much cheaper (\$1.25 in / \$10 out).

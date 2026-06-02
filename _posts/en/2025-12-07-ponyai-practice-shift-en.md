@@ -21,5 +21,6 @@ Tiancheng recognized this plateau, describing it as an "invisible wall" where ad
 Under Tiancheng's guidance, the team integrated this with advanced reinforcement learning techniques, allowing the system to generate synthetic data and refine policies autonomously. This not only accelerated development but also improved safety and efficiency, enabling Pony.ai to achieve milestones like Level 4 robotaxi operations with over 10,000 hours of intervention-free driving. His competitive programming background—honed through decades of rapid iteration in coding challenges—influenced this hands-on, experimental ethos, fostering a culture where the team prioritized measurable outcomes over theoretical accumulation.
 
 References:
+
 - [Inside Pony.ai’s staying power and the mindset of its CTO, Lou Tiancheng](https://kr-asia.com/inside-pony-ais-staying-power-and-the-mindset-of-its-cto-lou-tiancheng)
 - [Tiancheng Lou - Wikipedia](https://en.wikipedia.org/wiki/Tiancheng_Lou)

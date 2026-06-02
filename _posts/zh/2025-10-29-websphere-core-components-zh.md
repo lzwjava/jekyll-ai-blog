@@ -43,6 +43,7 @@ WAS 拓扑是分层的，专为分布式管理而设计：
    - 处理实际的应用程序工作负载。
 
 **可视化层次结构**（简化）：
+
 ```
 单元
 ├── 部署管理器
@@ -64,6 +65,7 @@ WAS 拓扑是分层的，专为分布式管理而设计：
 这种结构支持从单服务器设置到具有数百台服务器的企业级部署的所有场景。
 
 ### 参考资料
+
 - [WebSphere 概念：单元、节点、集群、服务器](https://itdevworld.wordpress.com/2009/05/03/websphere-concepts-cell-node-cluster-server/)
 - [如何将 WebSphere 拓扑划分为单元](https://veithen.io/2013/11/04/divide-websphere-topology-into-cells.html)
 - [IBM 文档：集群简介](https://www.ibm.com/docs/en/was-nd/8.5.5?topic=servers-introduction-clusters)

@@ -62,6 +62,7 @@ type: note
 ```
 
 **传输一次，即完成：**
+
 ```bash
 # 从 VPS 到 GPU droplet
 rsync -avz root@159.89.216.20:/root/zz/datasets/fineweb_extracted_all.txt root@<gpu-droplet>:~/

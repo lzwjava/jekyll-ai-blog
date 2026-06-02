@@ -26,6 +26,7 @@ Slash commands in Microsoft Teams allow you to quickly update your presence stat
 4. **Press Enter** to execute the command. Your status will update immediately and be visible to others in your organization.
 
 These changes are temporary and may reset based on your activity (e.g., after 5 minutes of inactivity, it might switch to Away automatically). To set a custom duration (e.g., Busy for 1 hour), use the profile menu instead:
+
 - Click your profile picture in the top right.
 - Hover over your current status, select a new one, then choose **Duration** and pick a time frame.
 

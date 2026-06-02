@@ -41,6 +41,7 @@ DEBIAN_FRONTEND=noninteractive apt install -y nvidia-driver-580 nvidia-utils-580
 第一次尝试：`apt install cuda-toolkit-12-8` —— **失败**，Package 不在默认的 Ubuntu Repos 中。
 
 通过添加 NVIDIA 官方 Repo 解决：
+
 ```bash
 wget cuda-keyring_1.1-1_all.deb   # 设置 NVIDIA 的 apt source + GPG key
 dpkg -i cuda-keyring_1.1-1_all.deb
@@ -51,9 +52,11 @@ apt install cuda-toolkit-12-8
 第二次尝试：SSH 连接 **在安装过程中中断**（Exit Code 255 = Connection Killed）。通过 SSH 运行耗时较长的 apt 任务是有风险的。
 
 第三次尝试：使用 `nohup` 在远程后台执行安装：
+
 ```bash
 nohup apt install -y cuda-toolkit-12-8 > /tmp/cuda-install.log 2>&1 &
 ```
+
 但遇到了 **Lock Conflict** —— 之前因 SSH 中断而残留的 apt 进程（PID 23704）仍在运行。重复的进程会一直等待 `/var/lib/dpkg/lock-frontend` 释放。
 
 修复：杀掉了重复进程，等待原始 apt 进程结束后，通过 `dpkg -l cuda-toolkit-12-8` 确认安装完成。
@@ -61,6 +64,7 @@ nohup apt install -y cuda-toolkit-12-8 > /tmp/cuda-install.log 2>&1 &
 **Step 6 — Configure PATH**
 
 CUDA 安装在 `/usr/local/cuda-12.8/bin`，默认不在 PATH 中。将其添加到 `~/.bashrc`：
+
 ```bash
 export PATH=/usr/local/cuda-12.8/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH

@@ -29,8 +29,6 @@ Published in 2002, this standard was a major milestone in networking because it 
 * **LAN PHY**: Designed to connect to existing Ethernet network equipment.
 * **WAN PHY**: Designed to interoperate with SDH/SONET (Synchronous Digital Hierarchy) infrastructure, allowing Ethernet frames to be carried over long-distance telecommunications networks.
 
-
-
 ### Comparison of Ethernet Standards
 
 | Standard | Common Name | Max Speed | Media |

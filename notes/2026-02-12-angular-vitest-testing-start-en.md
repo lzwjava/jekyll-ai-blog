@@ -78,6 +78,7 @@ describe('AppComponent', () => {
 **src/app/counter/counter.component.ts**
 
 {% raw %}
+
 ```ts
 import { Component, input } from '@angular/core';
 
@@ -97,6 +98,7 @@ export class CounterComponent {
   }
 }
 ```
+
 {% endraw %}
 
 **counter.component.spec.ts**
@@ -148,11 +150,13 @@ describe('CounterComponent', () => {
 ### Summary – simplest way to start
 
 1. Just run:
+
    ```bash
    npm test
    ```
 
 2. Or in watch mode (strongly recommended):
+
    ```bash
    npm run test:watch
    ```

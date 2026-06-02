@@ -27,6 +27,7 @@ A \cdot A^{-1} = I
 where \\( I \\) is the \\( n \times n \\) **identity matrix** (a diagonal matrix with 1s on the main diagonal and 0s elsewhere, like the "1" in scalar arithmetic).
 
 #### Why This Matters: Structured Reasoning
+
 1. **Analogy to Scalars**: In basic algebra, the inverse of a number \\( a \\) (non-zero) is \\( a^{-1} \\) such that \\( a \cdot a^{-1} = 1 \\). Matrices generalize this: inversion "undoes" multiplication by \\( A \\), just as division undoes multiplication.
 
 2. **Existence Condition**: Not all matrices have inverses. \\( A \\) must be **invertible** (or **non-singular**), meaning:
@@ -41,6 +42,7 @@ where \\( I \\) is the \\( n \times n \\) **identity matrix** (a diagonal matrix
    - Once computed, verify by multiplying: \\( A^{-1} \cdot A \\) should yield \\( I \\). If it does, the inverse is correct.
 
 #### Simple Example (2x2 Matrix)
+
 Take \\( A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix} \\).
 
 - Determinant: \\( \det(A) = (2 \cdot 1) - (1 \cdot 1) = 1 \neq 0 \\) (invertible).

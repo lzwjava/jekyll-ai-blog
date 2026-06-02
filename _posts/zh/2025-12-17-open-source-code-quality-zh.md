@@ -20,9 +20,9 @@ type: note
 
 关于与大型科技公司的内部项目（例如，Google、Meta/Facebook、Amazon 的项目）进行比较：
 
-*   研究和分析，例如 2014 年的 Coverity Scan Report，发现开源项目的缺陷密度（每 1,000 行代码 0.59 个缺陷）低于专有/企业代码（0.72 个）。
-*   开发者讨论强调，大型科技公司的内部代码库经常存在技术债务、由于截止日期而仓促推出的功能、频繁的重写、遗留问题以及团队之间质量参差不齐的问题——通常优先考虑速度和业务影响而非完美。
-*   相比之下，著名的开源项目受益于全球审查（“众人之眼”）、维护者的严格把关、没有冲刺压力以及对长寿和可靠性的关注。
+* 研究和分析，例如 2014 年的 Coverity Scan Report，发现开源项目的缺陷密度（每 1,000 行代码 0.59 个缺陷）低于专有/企业代码（0.72 个）。
+* 开发者讨论强调，大型科技公司的内部代码库经常存在技术债务、由于截止日期而仓促推出的功能、频繁的重写、遗留问题以及团队之间质量参差不齐的问题——通常优先考虑速度和业务影响而非完美。
+* 相比之下，著名的开源项目受益于全球审查（“众人之眼”）、维护者的严格把关、没有冲刺压力以及对长寿和可靠性的关注。
 
 虽然大型科技公司在某些领域雇佣顶尖人才并拥有强大的工程实践（例如，Google 强调代码审查和可读性），但它们庞大、快速发展的内部 Monorepo 可能会积累不一致和质量较低的部分。流行的开源项目，由于其公共性和基础性，往往能保持更高的整体标准。
 
@@ -30,8 +30,8 @@ type: note
 
 参考文献：
 
-*   [Coverity Scan Report on open source vs proprietary code quality](https://www.zdnet.com/article/coverity-finds-open-source-software-quality-better-than-proprietary-code/)
-*   [Software Engineering Stack Exchange: How open source projects maintain quality](https://softwareengineering.stackexchange.com/questions/18074/how-do-open-source-projects-maintain-quality)
-*   [Reddit discussion on open source code quality vs company code](https://www.teamblind.com/post/Is-open-source-code-quality-better-than-tech-company-code-KePtM7Uy)
-*   [Quora and Reddit threads on big tech internal codebase quality](https://www.quora.com/What-are-the-differences-between-the-codebases-at-Google-Microsoft-Amazon-Facebook-and-Apple)
-*   [Forbes/Quora on code quality at Google, Amazon, etc.](https://www.forbes.com/sites/quora/2019/01/02/which-company-has-the-best-code-quality-between-google-apple-microsoft-and-amazon/)
+* [Coverity Scan Report on open source vs proprietary code quality](https://www.zdnet.com/article/coverity-finds-open-source-software-quality-better-than-proprietary-code/)
+* [Software Engineering Stack Exchange: How open source projects maintain quality](https://softwareengineering.stackexchange.com/questions/18074/how-do-open-source-projects-maintain-quality)
+* [Reddit discussion on open source code quality vs company code](https://www.teamblind.com/post/Is-open-source-code-quality-better-than-tech-company-code-KePtM7Uy)
+* [Quora and Reddit threads on big tech internal codebase quality](https://www.quora.com/What-are-the-differences-between-the-codebases-at-Google-Microsoft-Amazon-Facebook-and-Apple)
+* [Forbes/Quora on code quality at Google, Amazon, etc.](https://www.forbes.com/sites/quora/2019/01/02/which-company-has-the-best-code-quality-between-google-apple-microsoft-and-amazon/)

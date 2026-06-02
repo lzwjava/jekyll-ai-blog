@@ -21,14 +21,18 @@ type: note
 这影响了 Ubuntu 22.04（及衍生版本如 Pop!_OS）上的许多用户，原因是 GTK 版本较旧（4.6，而需要更新的 4.12+ 才能完全兼容 NVIDIA）。
 
 ### 快速检查
+
 - 验证您的实际 OpenGL 支持（如需安装 `mesa-utils`：`sudo apt install mesa-utils`）：
+
   ```
   glxinfo | grep "OpenGL version"
   ```
+
   如果报告版本为 3.3+，则问题确实是 GTK/NVIDIA 特有的。
 - 检查您的会话类型：`echo $XDG_SESSION_TYPE`。如果是 `x11`，这可能是原因之一。
 
 ### 解决方案
+
 以下是逐步修复方法，从最简单的开始：
 
 1. **切换到 Wayland（如果您有混合显卡，例如 Intel + NVIDIA）**：
@@ -38,9 +42,11 @@ type: note
 
 2. **通过 Snap 安装（更简单的替代包）**：
    - 您使用的非官方 `.deb` 包可能继承系统问题。尝试官方 Snap，它捆绑了依赖项：
+
      ```
      sudo snap install ghostty --classic
      ```
+
    - 使用 `snap run ghostty` 启动。如果 OpenGL 仍然失败，请继续升级。
 
 3. **升级到 Ubuntu 24.04（推荐长期修复）**：
@@ -50,6 +56,7 @@ type: note
 
 4. **从源代码构建并使用 GLFW 后端（临时解决方案）**：
    - 这使用非 GTK 运行环境来规避 OpenGL 问题（注意：无标签页功能，仅用于测试）。
+
      ```
      sudo apt install git zig libgtk-4-dev libadwaita-1-dev libharfbuzz-dev libpango1.0-dev libcairo2-dev libgdk-pixbuf-2.0-dev libglib2.0-dev libwayland-dev libxkbcommon-dev libinput-dev libudev-dev libseat-dev libpipewire-0.3-dev libsystemd-dev libx11-dev libxext-dev libxfixes-dev libxi-dev libxrandr-dev libxtst-dev libxdamage-dev libxcomposite-dev libxrender-dev libxcursor-dev libxinerama-dev libxss-dev libxv-dev libxxf86vm-dev libgl1-mesa-dev libegl1-mesa-dev libgles2-mesa-dev libgbm-dev libdrm-dev libvulkan-dev libclang-dev
      git clone https://github.com/ghostty-org/ghostty.git
@@ -57,9 +64,11 @@ type: note
      zig build -Doptimize=ReleaseFast -Dapp-runtime=glfw
      sudo cp zig-out/bin/ghostty /usr/local/bin/
      ```
+
    - 运行 `ghostty`。升级后如需完整功能，请切换回 GTK。
 
 ### 额外提示
+
 - 更新 NVIDIA 驱动程序：`sudo ubuntu-drivers autoinstall`（或手动安装 550+ 系列）。
 - 如果您仅使用 AMD/Intel 显卡，请确保 Mesa 已更新：`sudo apt update && sudo apt upgrade mesa-vulkan-drivers`。
 - 对于模板文件（`~/.config/ghostty/config`）中的配置警告，请编辑它以删除任何无效行（例如，杂散的 `.`）。

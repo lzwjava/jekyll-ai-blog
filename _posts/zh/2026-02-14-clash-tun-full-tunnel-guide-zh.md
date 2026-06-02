@@ -59,6 +59,7 @@ Clash 的 **TUN mode**（在 Clash Premium core、Clash Verge、Clash for Window
 你无法让 OpenConnect 直接识别 VMess/Trojan。
 
 变通方法（复杂）：
+
 - 在 TUN mode 下运行 Clash → 然后在这个代理环境中运行 OpenConnect（极少派上用场）。
 - 使用 ocproxy（为 OpenConnect 提供基于 lwIP 的 SOCKS proxy）→ 但依然不支持 VMess。
 - 链路：OpenConnect → 暴露为 SOCKS → 作为 Clash 的 outbound 输入 → 但这没意义，因为 Clash 已经拥有更好的协议。

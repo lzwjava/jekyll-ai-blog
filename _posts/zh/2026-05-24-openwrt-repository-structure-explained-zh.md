@@ -30,6 +30,7 @@ openwrt/
 ```
 
 关键信息：
+
 - 最新提交来自 **2026-05-23** —— 这是主分支非常新的检出
 - 近期活动包括内核驱动补丁 (hwmon、realtek NIC)、fstools 更新以及 x86 ONIE 安装器支持
 - 构建系统基于 **Kconfig + Makefile** — 通过 `make menuconfig` 配置，然后执行 `make` 交叉编译完整的固件映像

@@ -15,6 +15,7 @@ type: note
 Revenue per employee (RPE) measures a company's total annual revenue divided by its headcount, highlighting operational efficiency. Based on the latest available data (mostly fiscal 2024 or early 2025), here are standout examples from big companies, startups, and the specific ones you mentioned (Pornhub/Aylo, OnlyFans, xAI/Grok, OpenAI). OnlyFans leads globally with an astonishing $37.6 million per employee, driven by its lean team and high-margin creator platform. I've focused on verified figures from recent reports, prioritizing the highest performers.
 
 #### Top Overall (All Sizes)
+
 These include a mix of tech platforms, energy giants, and distributors. Small, high-margin firms like OnlyFans dominate, while large corps cap around $8M.
 
 | Rank | Company/Platform | RPE (USD) | Employees | Total Revenue (USD) | Year | Notes |
@@ -31,12 +32,14 @@ These include a mix of tech platforms, energy giants, and distributors. Small, h
 | 10 | OpenAI | ~$4.33M | ~3,000 | ~$13B (annualized) | 2025 | AI startup; rapid growth from $4.3B in H1 2025. |
 
 #### Specific Mentions
+
 - **OnlyFans**: As above, #1 globally. Its model scales with minimal staff.
 - **Pornhub (Aylo/MindGeek)**: RPE ~$224K–$495K (estimates vary). Revenue $347M–$495M; ~1,500–1,800 employees. Low compared to peers due to larger ops and content moderation needs.
 - **Grok (xAI)**: RPE ~$435K–$1M (estimates). Revenue ~$1.2B; ~700–1,200 employees (post-layoffs of ~500 in Sep 2025). Early-stage AI; focuses on subscriptions/ads via X integration.
 - **OpenAI**: As above, ~$4.33M. Strong for a startup but trails pure platforms like OnlyFans.
 
 #### Key Insights
+
 - **Big Companies**: Energy/pharma (e.g., McKesson, Aramco) lead due to capital-intensive ops with few staff relative to revenue. Tech giants like Apple ($2.38M) and Meta ($2.2M) are efficient but not top-tier.
 - **Startups/AI**: High RPE from low headcount and viral products. OpenAI's figure assumes 3,000 employees and $13B annualized revenue (July 2025 projection); it could rise with growth.
 - Data gaps: Private firms like xAI have estimates only. RPE can fluctuate with hiring booms (e.g., AI firms adding thousands).

@@ -13,6 +13,7 @@ type: note
 Here are some Romanian language examples:
 
 **Basic phrases:**
+
 - Bună ziua! (Good day/Hello!)
 - Mulțumesc foarte mult. (Thank you very much.)
 - Cu plăcere. (You're welcome.)

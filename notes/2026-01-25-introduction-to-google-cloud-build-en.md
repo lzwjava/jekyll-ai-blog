@@ -17,6 +17,7 @@ Answer:
 Cloud Build is **Google Cloud's fully managed, serverless CI/CD (Continuous Integration / Continuous Delivery) platform**. It allows you to automatically build, test, and deploy your software whenever code changes occur.
 
 ### Core Concept
+
 You define what Cloud Build should do by providing a **build configuration file** — most commonly `cloudbuild.yaml` — placed in your source repository. This file contains a list of **steps** (tasks) that run sequentially (or in parallel since ~2021–2022 improvements).
 
 Each step is essentially a **container** that runs on Google infrastructure. You can use:

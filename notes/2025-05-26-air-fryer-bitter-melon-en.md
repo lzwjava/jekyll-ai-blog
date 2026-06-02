@@ -26,7 +26,8 @@ Cooking **Momordica charantia** (bitter melon) in an air fryer at **180°C (356�
 5. **No Flipping or Shaking**:
    - Air fryers cook food unevenly if not flipped or shaken during cooking. This can cause one side to burn while the other side remains undercooked.
 
-### How to Fix It:
+### How to Fix It
+
 - **Lower the Temperature and Time**: Try cooking at **160°C (320°F) for 8-12 minutes**, depending on the size of the pieces. Check for doneness around 8 minutes.
 - **Toss with Oil**: Lightly coat the bitter melon slices with 1-2 teaspoons of oil (e.g., vegetable or olive oil) to prevent drying and promote even browning.
 - **Cut Evenly**: Slice the bitter melon uniformly, about 1/4-inch thick, to ensure consistent cooking.
@@ -34,7 +35,8 @@ Cooking **Momordica charantia** (bitter melon) in an air fryer at **180°C (356�
 - **Shake or Flip**: Halfway through cooking, shake the basket or flip the pieces to ensure even exposure to heat.
 - **Check for Doneness**: Bitter melon should be tender but still slightly crisp with a light golden color, not dark or charred.
 
-### Optional Tips:
+### Optional Tips
+
 - **Parboil or Soak**: To reduce bitterness and soften the texture, you can parboil the bitter melon for 1-2 minutes or soak it in salted water for 10-15 minutes before air frying. Pat dry thoroughly before cooking.
 - **Seasoning**: Add seasonings like salt, pepper, or spices before cooking to enhance flavor without burning (avoid sugary seasonings, as they can burn easily).
 
@@ -44,7 +46,8 @@ Next time, try starting with **160°C for 8-10 minutes**, tossing with a little 
 
 Cooking **carrots** in an air fryer can work, but the poor taste and texture you experienced when cutting them into cubes and air frying are likely due to several factors. Here's why it might not have turned out well and how to improve the results:
 
-### Why Carrots May Not Taste Good When Air Fried:
+### Why Carrots May Not Taste Good When Air Fried
+
 1. **High Heat Dries Out Carrots**:
    - Air fryers use intense, circulating hot air, which can dry out carrots, especially when cut into small cubes. Carrots have moderate water content but are dense, so cubes may lose moisture on the surface before the interior softens, resulting in a tough, dry, or mealy texture and lackluster flavor.
 
@@ -63,10 +66,12 @@ Cooking **carrots** in an air fryer can work, but the poor taste and texture you
 6. **Natural Flavor of Carrots**:
    - Carrots have a mild, sweet flavor that can taste bland if not properly seasoned or cooked to enhance their natural sugars. Air frying without proper preparation (e.g., oil, seasoning, or par-cooking) can fail to bring out their best qualities.
 
-### Why Air Frying Carrots Can Be Tricky (But Not Inappropriate):
+### Why Air Frying Carrots Can Be Tricky (But Not Inappropriate)
+
 Air frying carrots isn’t inherently inappropriate—it’s a viable method—but it requires careful preparation to avoid the issues you encountered. Unlike deep-frying or roasting in an oven, air fryers cook faster and can dehydrate dense vegetables like carrots if not managed properly.
 
-### How to Improve Air-Fried Carrots:
+### How to Improve Air-Fried Carrots
+
 1. **Adjust Temperature and Time**:
    - Cook at **175°C (350°F) for 10-15 minutes**, depending on cube size (smaller cubes need less time). Check for doneness by piercing with a fork; they should be tender but not mushy.
 
@@ -88,14 +93,17 @@ Air frying carrots isn’t inherently inappropriate—it’s a viable method—b
 7. **Shake or Flip**:
    - Shake the basket or flip the carrots halfway through cooking to ensure even browning and prevent burning.
 
-### Example Method for Tasty Air-Fried Carrots:
+### Example Method for Tasty Air-Fried Carrots
+
 - **Prep**: Cut carrots into 1/2-inch cubes or sticks. Toss with 1-2 tsp olive oil, a pinch of salt, pepper, and optional spices (e.g., cumin or paprika).
 - **Optional Parboil**: Boil cubes for 3-4 minutes, drain, and pat dry.
 - **Air Fry**: Cook at 175°C (350°F) for 10-12 minutes, shaking the basket halfway through. Check for a tender, slightly caramelized texture.
 - **Taste Check**: Carrots should be tender, slightly crisp on the outside, and sweet with enhanced flavor from seasonings.
 
-### Why Bitter Melon and Carrots Differ:
+### Why Bitter Melon and Carrots Differ
+
 Unlike **Momordica charantia** (bitter melon), which is softer and more watery, carrots are denser and require more careful attention to moisture and cooking time in an air fryer. Bitter melon burns easily due to its thin structure, while carrots dry out or remain undercooked if not prepped properly.
 
-### Final Note:
+### Final Note
+
 Air frying carrots is appropriate with the right technique. Your poor results likely stem from the cube shape, lack of oil or seasoning, and possibly an overly high temperature or time. Try the above adjustments for better flavor and texture. If you’d like a visual comparison of cooking times or methods for carrots, I can generate a chart—just let me know!

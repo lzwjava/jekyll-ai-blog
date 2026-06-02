@@ -17,6 +17,7 @@ In the context of Arduino, the ESP32 isn't "inside" Arduino but is fully compati
 If you're new to it, start by downloading the Arduino IDE and searching for "ESP32 board package" in the Tools > Board > Boards Manager menu.
 
 ### References
+
 - [ESP32 - Wikipedia](https://en.wikipedia.org/wiki/ESP32)
 - [Arduino Nano ESP32 Documentation](https://docs.arduino.cc/nano-esp32)
 - [Arduino Nano ESP32 Product Page](https://store-usa.arduino.cc/products/nano-esp32)

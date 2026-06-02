@@ -32,6 +32,7 @@ Li Si deliberately lists a large number of precious objects, beautiful women, fa
 Then he sharply contrasts this with the policy toward talented guest ministers (客卿 / wandering scholars) from other states: the King is willing to keep foreign objects and pleasures, yet wants to expel foreign people of talent.
 
 This creates a clear logical contradiction:
+
 - Valuing foreign objects → acceptable
 - Valuing foreign talents → unacceptable
 

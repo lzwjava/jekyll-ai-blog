@@ -49,7 +49,7 @@ ckpt = torch.load("ckpt.pt", map_location="cpu")
 
 在 nanoGPT（Andrej Karpathy 的实现）中，一个检查点通常包含如下结构的字典：
 
-### 核心结构：
+### 核心结构
 
 ```python
 {
@@ -168,13 +168,13 @@ ckpt = torch.load("ckpt.pt", map_location="cpu")
 
 ## 7. 如何使用
 
-### 恢复训练：
+### 恢复训练
 
 ```bash
 python train.py --init_from=resume
 ```
 
-### 推理：
+### 推理
 
 仅将 `"model"` 权重加载到模型中，并运行生成。
 

@@ -18,6 +18,7 @@ type: note
 ### 架构（来自 config.json）
 
 DeepSeek-V4-Pro 是一个庞大的混合专家模型：
+
 - 129,280 词表大小，7168 隐藏维度，61 层
 - 384 个路由专家，1 个共享专家，每个 token 激活 6 个专家
 - 128 个注意力头，512 头维度（含 64 维 RoPE 组件）
@@ -31,6 +32,7 @@ DeepSeek-V4-Pro 是一个庞大的混合专家模型：
 ### 文件说明
 
 **model.py**（38K，827 行）——核心文件：
+
 - `ModelArgs` 数据类：所有超参数
 - `ParallelEmbedding`：词表分片嵌入，带 all-reduce
 - `Linear` / `ColumnParallelLinear` / `RowParallelLinear`：支持 BF16、FP8、FP4 权重格式，带逐块缩放
@@ -46,6 +48,7 @@ DeepSeek-V4-Pro 是一个庞大的混合专家模型：
 - `Transformer`：完整模型，包含 `ParallelEmbedding`、层、`RMSNorm`、`lm_head`、KV 缓存管理
 
 **kernel.py**（22K，536 行）—— tilelang JIT 内核：
+
 - `act_quant_kernel`：逐块 FP8 量化（块大小 128），可选的原地量化-反量化
 - `fp4_quant_kernel`：逐块 FP4 量化（块大小 32），2 的幂次缩放
 - `fp8_gemm_kernel`：FP8 矩阵乘法，逐块 A/B 缩放，L2 交错，4 级流水线
@@ -54,6 +57,7 @@ DeepSeek-V4-Pro 是一个庞大的混合专家模型：
 - `hc_split_sinkhorn_kernel`：HC（哈希压缩）路由的 Sinkhorn 归一化——迭代归一化组合矩阵的行/列
 
 **generate.py**（6.1K，155 行）——入口点：
+
 - `sample()`：Gumbel-max 技巧（在 GPU 上比多项式采样更快，避免 CPU 同步）
 - `generate()`：批量生成，使用左填充，预填充 + 解码阶段
 - 交互模式：聊天循环，支持 `/exit` 和 `/clear` 命令
@@ -62,6 +66,7 @@ DeepSeek-V4-Pro 是一个庞大的混合专家模型：
 - 使用来自外部 `encoding` 模块的 `encode_messages` / `parse_message_from_completion_text`（未包含——../encoding/encoding_dsv4.py）
 
 **convert.py**（6.9K，168 行）——权重转换：
+
 - 将 HuggingFace safetensors 转换为模型并行分片
 - 将 HF 权重名称映射为内部名称（例如 self_attn -> attn，mlp -> ffn）
 - 处理 FP4 到 FP8 的无损转换（e2m1fn 到 e4m3fn），注意缩放处理
@@ -70,6 +75,7 @@ DeepSeek-V4-Pro 是一个庞大的混合专家模型：
 - 将分词器文件与权重一起复制
 
 **requirements.txt**：
+
 - torch>=2.10.0，transformers>=5.0.0，safetensors>=0.7.0
 - fast_hadamard_transform（用于 Indexer 中的 rotate_activation）
 - tilelang==0.1.8（JIT 内核编译器，用于量化和注意力内核）

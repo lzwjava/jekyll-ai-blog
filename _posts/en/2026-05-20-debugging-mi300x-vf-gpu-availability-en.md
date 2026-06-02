@@ -18,26 +18,32 @@ Here's the end-to-end breakdown of everything I did:
 **Goal**: Understand what hardware is in the box and what tools are available.
 
 **Step 1 — Try the obvious tool**
+
 ```
 ssh root@134.199.199.108 rocm-smi
 ```
+
 Result: `command not found`. The AMD equivalent of `nvidia-smi` wasn't installed.
 
 **Step 2 — Hunt for alternatives**
 Searched for `amd-smi`, `rocminfo`, `clinfo`, and checked `/opt/rocm*/`. Nothing. Only `libdrm-amdgpu1` from the Debian package was present — the bare minimum DRM userspace library.
 
 **Step 3 — Identify the GPU via PCI**
+
 ```
 lspci | grep -iE 'vga|3d|display|amd|ati'
 ```
+
 Found: `83:00.0 Processing accelerators: AMD/ATI Aqua Vanjaram [Instinct MI300X VF]`
 
 Key insight: the GPU is class `0x12` (processing accelerator), not `0x03` (VGA/display). Standard GPU detection scripts that only look for display-class devices would miss it.
 
 **Step 4 — Read PCI sysfs directly**
+
 ```
 cat /sys/bus/pci/devices/0000:83:00.0/{vendor,device,class}
 ```
+
 - Vendor: `0x1002` (AMD)
 - Device: `0x74b5` (MI300X VF)
 - Class: `0x120000` (processing accelerator)
@@ -45,9 +51,11 @@ cat /sys/bus/pci/devices/0000:83:00.0/{vendor,device,class}
 - Memory BAR: 256 GB at `0x4000000000`
 
 **Step 5 — Check DRM/KFD topology**
+
 ```
 cat /sys/class/kfd/kfd/topology/nodes/*/properties
 ```
+
 Only node 0 (CPU) with `simd_count=0`. No GPU node in KFD topology — this is the hallmark of an SR-IOV Virtual Function where the kernel compute driver can't enumerate the device.
 
 Also checked `/sys/class/drm/card*/device/` for amdgpu-specific stats (`gpu_busy_percent`, `mem_info_vram_*`, `hwmon/temp*`) — all empty. The VF doesn't expose the management interface through the standard DRM sysfs path.
@@ -87,9 +95,11 @@ Attempt 3 (success): wrote the script locally with `write_file` to `/tmp/amd-smi
 **Goal**: Get `rocm-smi`, `rocminfo`, and `hipcc` working so the GPU is actually usable for compute.
 
 **Step 8 — Add AMD's apt repo**
+
 ```
 echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/rocm.gpg] https://repo.radeon.com/rocm/apt/latest noble main' > /etc/apt/sources.list.d/rocm.list
 ```
+
 Used "noble" (Ubuntu 24.04) packages on Ubuntu 25.10 (plucky). AMD only officially supports LTS releases, but the userspace packages are compatible.
 
 **Step 9 — First install attempt: `rocm-hip-sdk` metapackage**
@@ -99,47 +109,61 @@ Failed with dependency hell — `rocm-cmake 0.14.0` (from AMD) conflicts with `r
 Same `rocm-cmake` conflict. The fundamental problem: Ubuntu 25.10 ships ROCm components in universe that conflict with AMD's own repo packages.
 
 **Step 11 — Discovery: versioned packages**
+
 ```
 apt-cache search rocm | grep '7.2.3'
 ```
+
 Ubuntu 25.10 provides **versioned** packages: `rocm-hip-runtime7.2.3`, `hsa-rocr7.2.3`, `comgr7.2.3`, etc. These have different package names so they coexist with Ubuntu's non-versioned `rocm-cmake`. This is the clean path.
 
 **Step 12 — Install versioned runtime**
+
 ```
 apt-get install hsa-rocr7.2.3 comgr7.2.3 rocm-core7.2.3 rocm-language-runtime7.2.3 rocminfo7.2.3 rocm-hip-runtime7.2.3 hip-runtime-amd
 ```
+
 Failed: file conflicts. The non-versioned packages (`hsa-rocr`, `comgr`, `hip-runtime-amd`) were pulled in as transitive dependencies of `rocm-smi` (installed earlier), and their files at `/opt/rocm-7.2.3/lib/*` overlap with the versioned packages.
 
 **Step 13 — Force-purge all conflicting packages**
+
 ```
 dpkg --purge --force-depends --force-remove-reinstreq rocm-core hsa-rocr comgr hip-runtime-amd rocprofiler-register [and their 7.2.3 variants]
 ```
+
 This broke the dependency deadlock where half-installed versioned packages depended on non-versioned ones that were being removed, creating a circular failure.
 
 **Step 14 — Clean reinstall with full dependency tree**
+
 ```
 apt-get install rocm-core7.2.3 hsa-rocr7.2.3 comgr7.2.3 hip-runtime-amd7.2.3 rocprofiler-register7.2.3 rocm-device-libs7.2.3 openmp-extras-runtime7.2.3 rocm-language-runtime7.2.3 rocminfo7.2.3 rocm-hip-runtime7.2.3
 ```
+
 Success — all packages installed without conflicts.
 
 **Step 15 — Install HIP compiler**
+
 ```
 apt-get install hipcc7.2.3 hipify-clang7.2.3 hip-dev7.2.3
 ```
+
 `hipcc --version` → HIP 7.2.53211, AMD clang 22.0.0.
 
 **Step 16 — Fix libxml2 ABI mismatch**
 HIP compilation failed: `lld: error while loading shared libraries: libxml2.so.2: cannot open shared object file`. Ubuntu 25.10 ships `libxml2-16` (ABI .so.16) while ROCm's linker expects `.so.2`.
+
 ```
 ln -sf /lib/x86_64-linux-gnu/libxml2.so.16 /lib/x86_64-linux-gnu/libxml2.so.2
 ldconfig
 ```
+
 This is a compatibility symlink — the newer ABI is backward-compatible with the older API.
 
 **Step 17 — HIP test compiles but shows 0 devices**
+
 ```
 HIP devices: 0
 ```
+
 The GPU was visible at the HSA level (`rocm_agent_enumerator` → `gfx942`) but HIP's device enumeration returned 0. KFD topology still showed only the CPU node.
 
 ---
@@ -147,10 +171,13 @@ The GPU was visible at the HSA level (`rocm_agent_enumerator` → `gfx942`) but 
 ## Phase 4: The Real Root Cause — Missing Firmware
 
 **Step 18 — Check dmesg for GPU init errors**
+
 ```
 dmesg | grep -i 'amdgpu.*83:00'
 ```
+
 Critical errors:
+
 ```
 Direct firmware load for amdgpu/psp_13_0_6_ta.bin failed with error -2
 Direct firmware load for amdgpu/gc_9_4_3_rlc.bin failed with error -2
@@ -163,17 +190,21 @@ amdgpu: amdgpu: finishing device.
 The amdgpu driver was bound to the device, but couldn't initialize because the firmware blobs for the MI300X's IP blocks were missing from `/lib/firmware/amdgpu/`.
 
 **Step 19 — Install firmware**
+
 ```
 apt-get install linux-firmware
 ```
+
 Verified the files exist: `gc_9_4_3_rlc.bin.zst`, `psp_13_0_6_ta.bin.zst`, `sdma_4_4_2.bin.zst`, `vcn_4_0_3.bin.zst` (compressed with zstd — the kernel's firmware loader handles this transparently).
 
 **Step 20 — Rebind GPU driver** (force firmware reload)
+
 ```
 echo '0000:83:00.0' > /sys/bus/pci/drivers/amdgpu/unbind
 sleep 2
 echo '0000:83:00.0' > /sys/bus/pci/drivers/amdgpu/bind
 ```
+
 dmesg confirmed: `[drm] Initialized amdgpu 3.64.0 for 0000:83:00.0 on minor 1`
 
 ---
@@ -181,6 +212,7 @@ dmesg confirmed: `[drm] Initialized amdgpu 3.64.0 for 0000:83:00.0 on minor 1`
 ## Phase 5: Verification — Everything Works
 
 **Step 21 — Full verification**
+
 ```
 rocm-smi:           Device 0 | 37°C | 154W | 139MHz SCLK | 900MHz MCLK | 750W cap
 rocminfo:           AMD Instinct MI300X VF (gfx942) | 304 CUs | 191 GB HBM3
@@ -189,6 +221,7 @@ KFD topology:       Node 1 with simd_count=1216, gfx_target_version=90402
 ```
 
 **Step 22 — Persistent environment setup**
+
 ```
 /etc/profile.d/rocm.sh:
   ROCM_PATH=/opt/rocm-7.2.3

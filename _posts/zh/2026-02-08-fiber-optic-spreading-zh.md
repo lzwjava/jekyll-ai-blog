@@ -23,6 +23,7 @@ type: note
 **为什么它对 1000Base-SX 很重要：**
 
 275m 的 Full-duplex 限制部分原因就是由于 Dispersion。在更长的距离上，信号扩展非常严重，以至于：
+
 - 脉冲彼此重叠
 - 接收端无法清晰区分 1 和 0
 - Bit errors（误码率）增加

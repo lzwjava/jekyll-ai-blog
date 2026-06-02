@@ -16,7 +16,7 @@ Answer:
 
 该视频投入了大量篇幅详细讲解 Self-Attention 机制，特别是从 14:06 时间点（“Attention is Cheap!”）开始，并持续到 37:52（“Attention: a weighted average”）等章节。
 
-### 视频中的关键评论与扩充：
+### 视频中的关键评论与扩充
 
 - **动机与优势**：讲者（Ashish Vaswani 和 Anna Huang）强调，Seq2Seq 模型中的传统 Attention 成本很高，因为它是作用在 RNN 隐藏状态上的串行操作。相比之下，Self-Attention 是“廉价”的，因为它允许输入序列中所有位置之间进行直接、并行的交互。与 RNN（按顺序处理，限制了并行性）或 Convolutions（需要堆叠多层才能获得长距离依赖）不同，Self-Attention 为依赖关系提供了常数长度的路径，并实现了全序列的并行化。
 

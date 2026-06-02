@@ -30,6 +30,7 @@ time ssh user@hostname hostname
 ```
 
 **Example normal output:**
+
 ```
 linux01.localdomain
 
@@ -39,11 +40,13 @@ sys     0m0.008s
 ```
 
 **Anomalous output (XZ backdoor scenario):**
+
 ```
 real    0m0.620s     ← 500ms unexplained extra delay!
 ```
 
 You can also run it multiple times for consistency:
+
 ```bash
 for i in {1..5}; do time ssh user@host hostname; done
 ```
@@ -63,6 +66,7 @@ ssh -vvv user@hostname hostname     # maximum detail
 Using `-vvv` shows each handshake stage with timing, so you can identify exactly which phase — TCP connect, key exchange, authentication, or shell startup — is slow.
 
 **Sample output showing where time is spent:**
+
 ```
 debug1: Connecting to hostname [1.2.3.4] port 22.
 debug1: Connection established.
@@ -110,6 +114,7 @@ sshping -H user@hostname
 It reports: `ssh-Login-Time` (time to establish TCP, authenticate, and form the SSH session), `Minimum-Latency`, `Median-Latency`, `Average-Latency`, `Maximum-Latency`, and transfer rates — all in human-readable format.
 
 **Example output:**
+
 ```
 ssh-Login-Time:   1.84 s
 Minimum-Latency:  633 us

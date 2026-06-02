@@ -22,8 +22,9 @@ type: note
 ## 为何Gemma 4 26B A4B适合大上下文
 
 Gemma 4 26B A4B采用 **5:1 局部/全局注意力模式**：
-*   **25个局部层** → 使用SWA，仅需**1024个令牌的滑动窗口缓存**（而非整个上下文！）
-*   **5个全局层** → 需要对整个上下文进行全注意力计算
+
+* **25个局部层** → 使用SWA，仅需**1024个令牌的滑动窗口缓存**（而非整个上下文！）
+* **5个全局层** → 需要对整个上下文进行全注意力计算
 
 对于Gemma 4 26B-A4B模型，KV缓存在bf16格式下、达到最大上下文时大约需要**5.20 GiB**。这是因为滑动窗口层只缓存1024个令牌，而不是整个序列。
 
@@ -34,12 +35,14 @@ Gemma 4 26B A4B采用 **5:1 局部/全局注意力模式**：
 ## 16384上下文下的显存估算
 
 你当前的状况：
-*   模型权重在GPU上（25层）：约9.5 GB
-*   可用余量：约2.5 GB
+
+* 模型权重在GPU上（25层）：约9.5 GB
+* 可用余量：约2.5 GB
 
 **在16384令牌下的KV缓存（FP16，未量化）：**
-*   5个全局层 × 完整的16384令牌 = 相对适中
-*   25个局部层 × 仅1024令牌的窗口 = 固定的较小开销
+
+* 5个全局层 × 完整的16384令牌 = 相对适中
+* 25个局部层 × 仅1024令牌的窗口 = 固定的较小开销
 
 根据社区对结构相似的31B模型的测试，llama.cpp在16384上下文、FP16 KV缓存下显示显存使用量约为22.3 GB——但那测试的是更大的31B密集模型。对于26B MoE模型，其KV效率要高得多，因此开销显著更低。
 
@@ -104,15 +107,15 @@ Gemma 4 26B A4B采用 **5:1 局部/全局注意力模式**：
 
 ## 策略总结
 
-1.  **先尝试：** `-c 16384 --cache-type-k q8_0 --cache-type-v q8_0 -np 1`
-2.  **如果OOM：** 切换到 `--cache-type-k q4_0 --cache-type-v q4_0`
-3.  **如果仍OOM：** 将 `-ngl` 从25降至22–23，然后重试
+1. **先尝试：** `-c 16384 --cache-type-k q8_0 --cache-type-v q8_0 -np 1`
+2. **如果OOM：** 切换到 `--cache-type-k q4_0 --cache-type-v q4_0`
+3. **如果仍OOM：** 将 `-ngl` 从25降至22–23，然后重试
 
 Gemma 4 26B A4B的SWA架构正是为低成本实现大上下文而设计——这是在有限显存上处理大上下文的最佳模型之一。
 
 参考资料：
 
-*   [Gemma 4 31B和26B A4B：架构与内存消耗](https://kaitchup.substack.com/p/gemma-4-31b-and-26b-a4b-architecture)
-*   [在RTX 4060 8GB上运行Qwen2.5-32B——KV缓存量化技巧](https://dev.to/plasmon_imp/running-qwen25-32b-on-rtx-4060-8gb-beating-m4-at-108-ts-with-llamacpp-11je)
-*   [unsloth/gemma-4-31B-it-GGUF HuggingFace上关于上下文显存的讨论](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/discussions/2)
-*   [llama.cpp高级指南：量化、GPU层与上下文](https://craftrigs.com/guides/llama-cpp-advanced-guide/)
+* [Gemma 4 31B和26B A4B：架构与内存消耗](https://kaitchup.substack.com/p/gemma-4-31b-and-26b-a4b-architecture)
+* [在RTX 4060 8GB上运行Qwen2.5-32B——KV缓存量化技巧](https://dev.to/plasmon_imp/running-qwen25-32b-on-rtx-4060-8gb-beating-m4-at-108-ts-with-llamacpp-11je)
+* [unsloth/gemma-4-31B-it-GGUF HuggingFace上关于上下文显存的讨论](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/discussions/2)
+* [llama.cpp高级指南：量化、GPU层与上下文](https://craftrigs.com/guides/llama-cpp-advanced-guide/)

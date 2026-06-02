@@ -15,6 +15,7 @@ Here are the most common and typical interview questions you'll encounter for a 
 They're grouped by category and difficulty (most are senior-level, expecting deep understanding + production experience).
 
 ### System Design & Architecture
+
 1. Design a scalable LLM inference serving system that can handle 10k+ QPS with <200ms p99 latency.
 2. How would you design a real-time AI agent that can browse the web, use tools, and maintain long-term memory?
 3. Design a retrieval-augmented generation (RAG) pipeline from scratch (vector DB choice, chunking, reranking, hybrid search, evaluation).
@@ -23,6 +24,7 @@ They're grouped by category and difficulty (most are senior-level, expecting dee
 6. How would you build a multi-agent system where agents collaborate (debate, hierarchy, etc.)?
 
 ### LLM Fundamentals & Advanced Usage
+
 - Explain how attention works from scratch (including Rotary Positional Embeddings, Grouped-Query Attention, Sliding Window Attention).
 - Why does Llama 3/4 use RoPE instead of ALiBi? Pros/cons.
 - Derive the scaling laws (Kaplan, Hoffmann “Chinchilla”, DeepMind “Emergent Abilities”).
@@ -32,6 +34,7 @@ They're grouped by category and difficulty (most are senior-level, expecting dee
 - What’s the difference between RLHF, DPO, KTO, PPO, GRPO, and when would you use each?
 
 ### Agents & Tool Use
+
 - How do you implement reliable tool calling / function calling with JSON mode vs ReAct vs OpenAI tools?
 - Explain ReAct, Reflexion, ReWOO, Toolformer, DEPS, Chain-of-Verification.
 - How do you prevent infinite loops in agent execution?
@@ -39,6 +42,7 @@ They're grouped by category and difficulty (most are senior-level, expecting dee
 - How would you add long-term memory to an agent (vector store vs key-value store vs episodic memory)?
 
 ### Training, Fine-tuning & Alignment
+
 - Walk through the full fine-tuning stack: LoRA, QLoRA, DoRA, LoftQ, LLaMA-Adapter, IA³.
 - How does QLoRA work under the hood (NF4, double quantization, pagined optimizers)?
 - You have 10k high-quality instruction examples and want to fine-tune a 70B model on 8×H100s. Give the exact recipe.
@@ -46,6 +50,7 @@ They're grouped by category and difficulty (most are senior-level, expecting dee
 - How do you detect and mitigate reward hacking in RLHF?
 
 ### Coding & Implementation (Live coding or take-home)
+
 - Implement a simple ReAct agent from scratch (Python).
 - Implement efficient sliding-window attention with flash-attention style caching.
 - Build a basic RAG system with LangChain / LlamaIndex (they’ll judge architecture).
@@ -53,24 +58,28 @@ They're grouped by category and difficulty (most are senior-level, expecting dee
 - Write a custom PyTorch autograd function for a new quantization kernel.
 
 ### ML Fundamentals (they still ask seniors)
+
 - Why does AdamW work better than Adam? Derive the weight-decay formulation.
 - Explain label smoothing, teacher forcing, sequence-level vs token-level training objectives.
 - What’s the difference between BLEU, ROUGE, BERTScore, LLM-as-a-judge, G-Eval?
 - Derive the transformer loss function and explain why we ignore padding tokens.
 
 ### Production & MLOps
+
 - How do you monitor LLM outputs in production (drift, toxicity, PII leakage, prompt injection)?
 - You notice 5% of your users are jailbreaking the model. How do you detect and defend?
 - Compare vLLM, TGI, TensorRT-LLM, lmdeploy, Outlines, Guidance for inference speed.
 - How do you do continuous fine-tuning / online learning safely?
 
 ### Behavioral / Experience
+
 - Tell me about the hardest production issue you fixed with LLMs.
 - How did you ship an agent product that real users loved?
 - Describe a time you reduced inference cost by >50%.
 - What’s the worst hallucination disaster you’ve seen and how did you fix it?
 
 ### Current Hot Topics (2025)
+
 - How do test-time scaling methods work (DeepSeek R1, o1-style reasoning, process reward models)?
 - Compare chain-of-thought, tree-of-thought, graph-of-thought, process vs outcome reward.
 - What are the current best open-source reasoning models (Llama-3.1-405B, Qwen-2.5-72B-Instruct, DeepSeek-V3, Gemma-2-27B)?

@@ -16,7 +16,8 @@ Answer:
 
 During the Christmas holiday period (late December), when many offices, banks, and corporations are closed or operating with reduced staff, several businesses experience a surge in activity due to increased leisure time, travel, family gatherings, and festive celebrations.
 
-### Top Thriving Businesses:
+### Top Thriving Businesses
+
 - **Tourism and Tourist Spots**: Yes, these thrive significantly. Holiday travel sets records annually, with millions traveling domestically and internationally. Popular destinations include Christmas markets in Europe (e.g., Prague, Vienna, Brussels), winter resorts for skiing, theme parks, and cities with festive lights/displays (e.g., New York City, London). Hotels, airlines, and attractions see peak bookings and revenue.
 - **Hospitality Industry (Restaurants, Canteens, Cafes, Bars)**: Yes, especially "canteens" or food service outlets in tourist areas, malls, airports, train stations, and resorts. With people traveling or out celebrating, restaurants offer special festive menus, parties, and dinners. Food & beverage sales spike, including holiday meals and drinks.
 - **Retail (Gifts, Decorations, Toys)**: The biggest winner overall—November-December accounts for 18-30% of annual sales for many retailers, with toys, electronics, and apparel leading.
@@ -28,10 +29,10 @@ In contrast to quiet corporate sectors, consumer-facing leisure and experiential
 
 References:
 
-- https://newsroom.aaa.com/2025/12/aaa-year-end-holiday-travel-forecast/
-- https://en.wikipedia.org/wiki/Economics_of_Christmas
-- https://www.statista.com/statistics/243439/holiday-retail-sales-in-the-united-states/
-- https://www.travelandleisure.com/holiday-travel/best-places-to-spend-christmas
-- https://abcnews.go.com/US/holiday-travel-forecast-fly-drive-christmas-new-years/story?id=128277999
-- https://www.nasdaq.com/articles/5-industries-set-for-a-holiday-season-boost-2020-10-07
-- https://beambox.com/townsquare/how-christmas-affects-the-hospitality-industry
+- <https://newsroom.aaa.com/2025/12/aaa-year-end-holiday-travel-forecast/>
+- <https://en.wikipedia.org/wiki/Economics_of_Christmas>
+- <https://www.statista.com/statistics/243439/holiday-retail-sales-in-the-united-states/>
+- <https://www.travelandleisure.com/holiday-travel/best-places-to-spend-christmas>
+- <https://abcnews.go.com/US/holiday-travel-forecast-fly-drive-christmas-new-years/story?id=128277999>
+- <https://www.nasdaq.com/articles/5-industries-set-for-a-holiday-season-boost-2020-10-07>
+- <https://beambox.com/townsquare/how-christmas-affects-the-hospitality-industry>

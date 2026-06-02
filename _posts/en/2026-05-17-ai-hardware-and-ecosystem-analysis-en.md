@@ -72,11 +72,13 @@ The final message is the most thought-provoking: *"Isn't this an opportunity? Wi
 This reflects a genuine tension in the AI field:
 
 **Arguments for open-source winning:**
+
 - Models like DeepSeek, LLaMA, Mistral show open-source catching up rapidly in capability.
 - Open hardware (ROCm, RISC-V accelerators) is improving.
 - Community size and global talent pool is enormous.
 
 **Arguments against (why closed source still dominates):**
+
 - CUDA's 15+ year compound advantage in tooling and optimization.
 - The most capable frontier models (GPT-4o, Gemini Ultra, Claude) remain closed.
 - Hardware design (custom silicon like TPU, Trainium) requires billions in capital — far beyond hobbyist reach.

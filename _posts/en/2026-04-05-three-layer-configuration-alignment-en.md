@@ -192,6 +192,7 @@ OPENCLAW LOG (what OpenClaw reports to us):
 | **API Call** | `http://localhost:8080` works | `http://localhost` (port 80) → nginx → 404 | `room not found` |
 
 Each failure hid behind the previous one because:
+
 1. Signature rejection = payload never parsed
 2. Payload rejection = API never called
 3. API 404 = looked like a room problem, not a URL problem

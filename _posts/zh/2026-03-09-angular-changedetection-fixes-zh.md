@@ -30,6 +30,7 @@ type: note
 这是**现代、惯用的修复方法**。Signals 本质上是响应式的，完全绕过了生命周期时序问题。
 
 **在 worklist（父组件）中：**
+
 ```typescript
 import { signal, computed } from '@angular/core';
 
@@ -47,6 +48,7 @@ export class WorklistComponent {
 ```
 
 **在 pagination 子组件中：**
+
 ```typescript
 import { input } from '@angular/core'; // Angular 17+ input signal
 
@@ -56,6 +58,7 @@ export class PaginationComponent {
 ```
 
 **模板（父组件）：**
+
 ```html
 <app-pagination [totalItems]="totalItems()" />
 ```
@@ -69,6 +72,7 @@ export class PaginationComponent {
 如果无法重构为 Signals，请将 `ChangeDetectorRef` 注入到 **pagination 组件** 中，并在接收输入时调用 `detectChanges()`。
 
 **在 pagination 组件中：**
+
 ```typescript
 import { Component, Input, OnChanges, SimpleChanges, ChangeDetectorRef } from '@angular/core';
 
@@ -135,6 +139,7 @@ export class PaginationStateService {
 ```
 
 {% raw %}
+
 ```typescript
 // worklist.component.ts
 this.paginationState.setTotalItems(result.total);
@@ -143,6 +148,7 @@ this.paginationState.setTotalItems(result.total);
 totalItems$ = this.paginationState.totalItems;
 // template: {{ totalItems$ | async }}
 ```
+
 {% endraw %}
 
 使用带有 observables 的共享服务特别适用于深度嵌套组件，避免通过 `@Input`/`@Output` 链在组件树中上下冒泡数据和事件。
@@ -150,9 +156,6 @@ totalItems$ = this.paginationState.totalItems;
 ---
 
 ## 总结 — 选择哪个选项？
-
-
-
 
 | 情况 | 最佳修复 |
 |---|---|

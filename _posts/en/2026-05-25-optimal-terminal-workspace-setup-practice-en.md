@@ -22,11 +22,13 @@ You're doing the right thing by splitting tools by *purpose* rather than crammin
 ## My Take on Your Stack
 
 **Ghostty** — fast, native, minimal. Best for:
+
 - Long-running processes you want to glance at (training runs, servers, watchers)
 - 3–5 persistent windows, each owning a domain (e.g., one per project root)
 - Your `ww` note-taking workflow — fast open, fast close, stays out of the way
 
 **Warp (agent disabled, vertical split)** — best for:
+
 - Active dev sessions where you're iterating fast
 - Vertical layout is the right call — command + output side by side beats stacked
 - 6–7 panes across projects makes sense when you're context-switching frequently

@@ -14,7 +14,8 @@ You're asking how to figure out "what time" an image (e.g., a screenshot that a 
 
 ---
 
-### Sources of timestamps in your scenario:
+### Sources of timestamps in your scenario
+
 1. **Image metadata (EXIF / file metadata)**
    - If it’s an image file (like .jpg, .png, etc.), it may include metadata written by the OS or application at the time it was saved.
    - Screenshots on Windows typically don’t carry rich EXIF data (like from cameras), but the *file creation/modification times* on the filesystem do exist.
@@ -32,6 +33,7 @@ You're asking how to figure out "what time" an image (e.g., a screenshot that a 
 ---
 
 ### How to reconcile them
+
 - **Step 1: Look at the visible clock inside the Windows screenshot.**
   That shows the uploader’s system-local time when the screenshot was taken.
 
@@ -49,6 +51,7 @@ You're asking how to figure out "what time" an image (e.g., a screenshot that a 
 ---
 
 ### Practical answer
+
 - You cannot 100% "prove" *when* the screenshot was taken just from inside Confluence since upload could be delayed.
 - What you **can** infer is:
   - The uploader’s **local system clock/timezone** from the time in the screenshot.
@@ -58,6 +61,7 @@ You're asking how to figure out "what time" an image (e.g., a screenshot that a 
 ---
 
 ✅ **So, to know if it’s a Windows screenshot:**
+
 - Look for UI: taskbar clock, Windows window elements, fonts, standard titlebars, etc.
 - If you see the taskbar clock, that time is in the system’s local timezone.
 - Compare against Confluence’s upload timestamp and convert both to UTC to line them up.

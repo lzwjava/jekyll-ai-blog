@@ -37,6 +37,7 @@ It's widely accepted at labeled merchants in Hong Kong and UnionPay spots in Mai
 If you're using it for Mainland trips, the cross-border tools make it handy without extra accounts. For more setup help, check BOCHK's app FAQ.
 
 ### References
+
 - [BoC Pay+ Official Page](https://www.bochk.com/en/more/ebanking/bocpay.html)
 - [BoC Pay+ FAQ on Top-Ups](https://www.bochk.com/dam/more/bocpay/en/faq_N2.html)
 - [Cross-Border Services Overview](https://nzcchk.com/BOCHK_IBC_Meeting_presentation.pdf)

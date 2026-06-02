@@ -109,6 +109,7 @@ When starting out with Rust, it's common to place all code inside a single `main
 Key Rust best practices:
 
 - **Use workspaces** if you have multiple Rust crates (e.g., `world_model`, `comms`, `planner`):
+
   ```toml
   # Root Cargo.toml
   [workspace]
@@ -123,6 +124,7 @@ Key Rust best practices:
   - `dora-rs` — A low-latency, composable, distributed data flow framework designed for robotics AI
 
 - **Run `clippy` and `rustfmt`** before every commit:
+
   ```bash
   cargo clippy -- -D warnings
   cargo fmt --check
@@ -135,6 +137,7 @@ Key Rust best practices:
 Use GitHub Actions to trigger on every push or pull request with the latest stable Rust toolchain, running tests, linting, and building.
 
 Example `.github/workflows/rust.yml`:
+
 ```yaml
 name: Rust CI
 on: [push, pull_request]

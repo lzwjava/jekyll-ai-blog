@@ -33,6 +33,7 @@ Annapurna Labs designs **custom silicon** that powers much of AWS's infrastructu
 ### Flagship Chip Families (Current as of 2025)
 
 #### 1. **AWS Graviton (CPU)**
+
 - **Architecture**: Custom ARM Neoverse-based cores (not off-the-shelf)
 - **Generations**:
   - **Graviton1** (2018): 16-core ARMv8, used in A1 instances
@@ -42,16 +43,19 @@ Annapurna Labs designs **custom silicon** that powers much of AWS's infrastructu
 - **Use**: Powers **~30–40% of AWS EC2 workloads** (especially containers, microservices, databases)
 
 #### 2. **AWS Inferentia (AI Inference)**
+
 - **Inferentia2** (2023): 4x performance over Inferentia1, supports FP16/BF16/INT8
 - Optimized for **real-time inference** (recommendation engines, speech, vision)
 - Used in **SageMaker**, **EC2 Inf2**
 
 #### 3. **AWS Trainium (AI Training)**
+
 - **Trainium2** (announced 2024, shipping 2025): 4x training perf over Trainium1
 - Designed to compete with **NVIDIA H100** for LLM training
 - Supports **trillion-parameter models**, high-bandwidth memory (HBM)
 
 #### 4. **Nitro System (SmartNIC / DPU)**
+
 - Custom ARM SoCs with hardware accelerators
 - Offloads hypervisor, networking, storage, encryption
 - Enables **bare-metal performance in virtualized environments**

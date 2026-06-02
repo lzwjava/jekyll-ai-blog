@@ -23,7 +23,7 @@ D. Synchronous Balanced Mode
 
 正确答案是 **A. Normal Response Mode (NRM)**。
 
-### 解释：
+### 解释
 
 HDLC (High-level Data Link Control) 定义了三种主要的操作模式：
 

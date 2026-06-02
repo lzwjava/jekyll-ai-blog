@@ -22,6 +22,7 @@ Teknium（本名：Nathan Cooper）是 **OpenHermes** 和 **Hermes** 系列微�
 ## 粉丝数为何有意义
 
 HuggingFace 粉丝 ≠ Twitter 粉丝。人们在平台上关注账号是因为：
+
 - 他们使用你的 **模型**（下载量达数百万）
 - 他们使用你的 **数据集**
 - 他们关注你的研究方向

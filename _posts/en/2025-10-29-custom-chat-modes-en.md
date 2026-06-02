@@ -17,6 +17,7 @@ In the GitHub Copilot extension for Visual Studio Code (VS Code), `chatmode.md` 
 Custom modes are stored as Markdown files with the `.chatmode.md` extension, either in your workspace (for team sharing) or user profile (for personal reuse).
 
 ### Why Use Custom Chat Modes?
+
 - **Tailored Responses**: Enforce guidelines, like generating plans without editing code.
 - **Tool Control**: Limit tools to read-only for planning or enable editing for implementation.
 - **Efficiency**: Reuse setups for common roles (e.g., architect, reviewer).
@@ -86,5 +87,6 @@ Save the file, and it will appear in the chat mode dropdown.
 For more examples, check community contributions in the [Awesome Copilot repo](https://github.com/github/awesome-copilot/tree/main).
 
 ### References
+
 - [Custom chat modes in VS Code](https://code.visualstudio.com/docs/copilot/customization/custom-chat-modes)
 - [Get started with chat in VS Code](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)

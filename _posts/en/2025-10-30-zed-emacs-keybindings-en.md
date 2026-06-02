@@ -15,6 +15,7 @@ type: note
 It looks like you might mean **Zed** (the high-performance code editor), as "Zig editor" doesn't refer to a standard tool—Zig is a programming language without a built-in editor. If that's not what you intended, feel free to clarify! Assuming Zed, it has built-in support for Emacs keybindings (labeled "Emacs (Beta)"). This covers many basics out of the box, like movement (`Ctrl-b/f/n/p`) and editing (`Ctrl-d` for delete char, `Ctrl-k` for cut to end of line). You can enable it easily, then customize further if needed.
 
 #### Step 1: Enable the Built-in Emacs Keymap
+
 Zed's Emacs mode is predefined and doesn't require manual binding setup for basics. Here's how to switch to it:
 
 1. Open Zed's settings:
@@ -24,6 +25,7 @@ Zed's Emacs mode is predefined and doesn't require manual binding setup for basi
 2. In the settings UI, search for "base keymap" and set it to **Emacs**.
 
    *Or, edit directly in `settings.json`* (open via `Cmd-Alt-,` on macOS or `Ctrl-Alt-,` on Windows/Linux):
+
    ```json
    {
      "base_keymap": "Emacs"
@@ -35,12 +37,15 @@ Zed's Emacs mode is predefined and doesn't require manual binding setup for basi
    Alternatively, use the command palette (`Cmd-Shift-P` or `Ctrl-Shift-P`), type "toggle base keymap," and select Emacs.
 
 This gives you core Emacs muscle memory without extra work. For a full list of built-in bindings, check Zed's default keymap files in the source (e.g., via GitHub), but basics include:
+
 - **Movement**: `Ctrl-b` (left char), `Ctrl-f` (right char), `Ctrl-p` (up line), `Ctrl-n` (down line), `Alt-b/f` (previous/next word).
 - **Editing**: `Ctrl-d` (delete char), `Ctrl-k` (cut to end of line), `Ctrl-y` (yank/paste), `Ctrl-@` (set mark for region), `Ctrl-w` (cut region).
 - **Other**: `Ctrl-x Ctrl-s` (save), `Ctrl-g` (cancel), `Ctrl-/` (undo).
 
 #### Step 2: Add or Customize Basic Bindings (If Needed)
+
 For tweaks or more Emacs-like behavior (e.g., better home/end or paragraph nav), edit `keymap.json`:
+
 - Open it via command palette: Type "open keymap file."
 - Path: `~/.config/zed/keymap.json` (macOS/Linux) or `~\AppData\Roaming\Zed\keymap.json` (Windows).
 
@@ -83,6 +88,7 @@ Add bindings as a JSON array under contexts like "Editor." Here's a **minimal ex
 - Pro tip: Combine with `vim_mode: false` in settings.json to avoid conflicts.
 
 #### Tips
+
 - **Beta status**: Emacs mode is improving (track progress [here](https://github.com/zed-industries/zed/issues/4856)). Report issues on Zed's GitHub.
 - **Full custom setups**: For advanced (e.g., pane switching with `Ctrl-x o`), see community examples in the discussion below.
 - If you want Vim/Helix modes alongside, set `vim_mode: true` or `helix_mode: true` in settings—they layer on top.

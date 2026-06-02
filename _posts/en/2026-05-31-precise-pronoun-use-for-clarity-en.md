@@ -32,14 +32,17 @@ You've identified a real thinking error, not just a grammar issue. "We" is often
 ## When "We" Is Wrong (Your Problem)
 
 **Seeking validation disguised as fact:**
+
 - ❌ "We all know that X is hard."
 - ✅ "I find X hard." or "X is hard." (just assert it directly)
 
 **Vague generalization:**
+
 - ❌ "We should use LLMs for this."
 - ✅ "I'd use an LLM for this." or "Teams that do X should use LLMs."
 
 **False universalism:**
+
 - ❌ "We tend to overfit when we train too long."
 - ✅ "Models overfit when trained too long." (the subject is the *model*, not "we")
 

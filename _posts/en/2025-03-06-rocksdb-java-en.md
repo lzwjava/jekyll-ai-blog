@@ -13,6 +13,7 @@ To use the `org.rocksdb` library, which is the Java API for RocksDB—a high-per
 ---
 
 ### 1. **Add the Dependency**
+
 To use `org.rocksdb` in your Java project, you need to include the RocksDB JNI (Java Native Interface) dependency. If you're using Maven, add this to your `pom.xml` file:
 
 ```xml
@@ -34,6 +35,7 @@ implementation 'org.rocksdb:rocksdbjni:7.10.2'
 ---
 
 ### 2. **Load the Native Library**
+
 RocksDB relies on native C++ code, so you must load the native library before using it. Add this line at the start of your code:
 
 ```java
@@ -45,6 +47,7 @@ Failing to do this will result in runtime errors.
 ---
 
 ### 3. **Open a Database**
+
 To begin using RocksDB, you need to open a database instance by specifying a file path where the database will be stored. Use the `Options` class to configure settings, such as creating the database if it doesn’t exist:
 
 ```java
@@ -61,14 +64,17 @@ RocksDB db = RocksDB.open(options, "/path/to/db");
 ---
 
 ### 4. **Perform Basic Operations**
+
 RocksDB is a key-value store, and its core operations are `put`, `get`, and `delete`. Keys and values are stored as byte arrays, so you’ll need to convert data (e.g., strings) to bytes.
 
 - **Put**: Insert or update a key-value pair.
+
   ```java
   db.put("key".getBytes(), "value".getBytes());
   ```
 
 - **Get**: Retrieve the value associated with a key.
+
   ```java
   byte[] value = db.get("key".getBytes());
   if (value != null) {
@@ -79,6 +85,7 @@ RocksDB is a key-value store, and its core operations are `put`, `get`, and `del
   ```
 
 - **Delete**: Remove a key-value pair.
+
   ```java
   db.delete("key".getBytes());
   ```
@@ -86,6 +93,7 @@ RocksDB is a key-value store, and its core operations are `put`, `get`, and `del
 ---
 
 ### 5. **Close the Database**
+
 Properly closing the database is essential to free resources. The easiest way is to use a try-with-resources block, which automatically closes the database when you’re done:
 
 ```java
@@ -99,6 +107,7 @@ try (RocksDB db = RocksDB.open(options, "/path/to/db")) {
 ---
 
 ### 6. **Handle Exceptions**
+
 RocksDB operations can throw `RocksDBException`, so always include exception handling to prevent resource leaks or data corruption:
 
 ```java
@@ -112,6 +121,7 @@ try {
 ---
 
 ### 7. **Configuration Options**
+
 You can fine-tune RocksDB’s performance using the `Options` class. For example:
 
 ```java
@@ -121,6 +131,7 @@ Options options = new Options()
 ```
 
 Common options include:
+
 - `setWriteBufferSize`: Controls the memory used for writes.
 - `setMaxOpenFiles`: Limits the number of open files.
 - `setCompactionStyle`: Adjusts how data is compacted on disk.
@@ -130,6 +141,7 @@ Explore the [RocksDB documentation](https://github.com/facebook/rocksdb/wiki) fo
 ---
 
 ### 8. **Simple Example**
+
 Here’s a complete example that demonstrates opening a database, storing a key-value pair, and retrieving it:
 
 ```java
@@ -164,6 +176,7 @@ public class SimpleRocksDBExample {
 ---
 
 ### Key Considerations
+
 - **Embedded Nature**: RocksDB runs within your application’s process, not as a separate server.
 - **Byte Arrays**: Keys and values are `byte[]`, so you’ll need to handle serialization/deserialization for complex objects.
 - **Performance**: RocksDB excels with fast storage (e.g., SSDs) and is used in high-performance systems like those at Facebook, where it was developed.
@@ -172,6 +185,7 @@ public class SimpleRocksDBExample {
 ---
 
 ### Common Pitfalls
+
 - **Forgetting `RocksDB.loadLibrary()`**: Leads to `UnsatisfiedLinkError`.
 - **Improper Resource Management**: Not closing the database can cause issues, especially on resource-constrained systems.
 - **Data Type Mistakes**: Passing strings or objects directly instead of converting to `byte[]`.
@@ -179,6 +193,7 @@ public class SimpleRocksDBExample {
 ---
 
 ### Going Further
+
 - **Advanced Features**: Explore transactions, snapshots, or column families for more complex use cases.
 - **Resources**: Check the [RocksDB Java API](https://github.com/facebook/rocksdb/tree/main/java) and [RocksDB Wiki](https://github.com/facebook/rocksdb/wiki) for detailed documentation and examples.
 

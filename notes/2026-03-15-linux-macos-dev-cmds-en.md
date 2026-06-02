@@ -29,6 +29,7 @@ Here is a comprehensive reference of frequently used terminal commands for devel
 | `find` | Search for files/directories | `find . -name "*.js"` |
 
 **Useful `ls` flags:**
+
 - `ls -l` — long listing with permissions, size, date
 - `ls -a` — show hidden files (dotfiles)
 - `ls -la` — combine both

@@ -196,6 +196,7 @@ In the React version, we use the `marked` library to convert the Markdown text t
 ---
 
 ### **Summary**
+
 - Use a **Markdown parser** (like `marked.js`) to convert Markdown syntax into HTML.
 - Use **MathJax** or **KaTeX** to render LaTeX math expressions embedded in the Markdown content.
 - Combine both by rendering Markdown to HTML and processing math formulas dynamically using KaTeX/MathJax.

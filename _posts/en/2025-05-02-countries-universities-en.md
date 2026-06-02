@@ -11,12 +11,14 @@ type: note
 Based on international assessments and global rankings, several countries are recognized for their strong education systems. Complementing this, here are some of the top universities frequently cited within these countries:
 
 **Singapore:**
+
 * National University of Singapore (NUS)
 * Nanyang Technological University (NTU)
 * Singapore Management University (SMU)
 * Singapore University of Technology and Design (SUTD)
 
 **Macao:**
+
 * University of Macau
 * Macau University of Science and Technology
 * Macau Polytechnic University
@@ -24,6 +26,7 @@ Based on international assessments and global rankings, several countries are re
 * University of Saint Joseph
 
 **Chinese Taipei:**
+
 * National Taiwan University
 * National Tsing Hua University
 * National Yang Ming Chiao Tung University
@@ -31,6 +34,7 @@ Based on international assessments and global rankings, several countries are re
 * National Chengchi University
 
 **Hong Kong:**
+
 * The University of Hong Kong
 * The Chinese University of Hong Kong
 * The Hong Kong University of Science and Technology
@@ -38,6 +42,7 @@ Based on international assessments and global rankings, several countries are re
 * The Hong Kong Polytechnic University
 
 **Japan:**
+
 * University of Tokyo
 * Kyoto University
 * Tokyo Institute of Technology
@@ -45,6 +50,7 @@ Based on international assessments and global rankings, several countries are re
 * Tohoku University
 
 **South Korea:**
+
 * Seoul National University
 * Korea Advanced Institute of Science and Technology (KAIST)
 * Yonsei University
@@ -52,6 +58,7 @@ Based on international assessments and global rankings, several countries are re
 * Sungkyunkwan University
 
 **United Kingdom:**
+
 * University of Oxford
 * University of Cambridge
 * Imperial College London
@@ -59,6 +66,7 @@ Based on international assessments and global rankings, several countries are re
 * London School of Economics and Political Science (LSE)
 
 **United States:**
+
 * Harvard University
 * Stanford University
 * Massachusetts Institute of Technology (MIT)
@@ -66,6 +74,7 @@ Based on international assessments and global rankings, several countries are re
 * Princeton University
 
 **Australia:**
+
 * The University of Melbourne
 * The Australian National University (ANU)
 * The University of Sydney
@@ -73,6 +82,7 @@ Based on international assessments and global rankings, several countries are re
 * The University of Queensland
 
 **Netherlands:**
+
 * University of Amsterdam
 * Delft University of Technology
 * Leiden University
@@ -80,6 +90,7 @@ Based on international assessments and global rankings, several countries are re
 * Utrecht University
 
 **Sweden:**
+
 * Lund University
 * KTH Royal Institute of Technology
 * Uppsala University
@@ -87,6 +98,7 @@ Based on international assessments and global rankings, several countries are re
 * Chalmers University of Technology
 
 **Germany:**
+
 * Technical University of Munich
 * Ludwig Maximilian University of Munich
 * Heidelberg University
@@ -94,6 +106,7 @@ Based on international assessments and global rankings, several countries are re
 * Free University of Berlin
 
 **Canada:**
+
 * University of Toronto
 * McGill University
 * University of British Columbia
@@ -101,6 +114,7 @@ Based on international assessments and global rankings, several countries are re
 * McMaster University
 
 **Switzerland:**
+
 * ETH Zurich (Swiss Federal Institute of Technology Zurich)
 * EPFL (Swiss Federal Institute of Technology Lausanne)
 * University of Zurich
@@ -108,6 +122,7 @@ Based on international assessments and global rankings, several countries are re
 * University of Bern
 
 **Finland:**
+
 * University of Helsinki
 * Aalto University
 * University of Turku
@@ -115,6 +130,7 @@ Based on international assessments and global rankings, several countries are re
 * University of Jyväskylä
 
 **Denmark:**
+
 * University of Copenhagen
 * Aarhus University
 * Technical University of Denmark (DTU)
@@ -127,15 +143,15 @@ This list provides a snapshot of some of the leading universities in countries r
 
 Based on recent global university rankings for 2025 from sources like QS World University Rankings and Times Higher Education (THE) World University Rankings, here are 30 of the best universities, including those from the countries recognized for their strong education systems:
 
-1.  Massachusetts Institute of Technology (MIT) - United States
-2.  Imperial College London - United Kingdom
-3.  University of Oxford - United Kingdom
-4.  Harvard University - United States
-5.  University of Cambridge - United Kingdom
-6.  Stanford University - United States
-7.  ETH Zurich - Swiss Federal Institute of Technology - Switzerland
-8.  National University of Singapore (NUS) - Singapore
-9.  UCL - United Kingdom
+1. Massachusetts Institute of Technology (MIT) - United States
+2. Imperial College London - United Kingdom
+3. University of Oxford - United Kingdom
+4. Harvard University - United States
+5. University of Cambridge - United Kingdom
+6. Stanford University - United States
+7. ETH Zurich - Swiss Federal Institute of Technology - Switzerland
+8. National University of Singapore (NUS) - Singapore
+9. UCL - United Kingdom
 10. California Institute of Technology (Caltech) - United States
 11. University of Pennsylvania - United States
 12. University of California, Berkeley (UCB) - United States

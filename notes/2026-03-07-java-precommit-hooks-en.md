@@ -67,6 +67,7 @@ fi
 ```
 
 Make them executable:
+
 ```bash
 chmod +x hooks/spotless-hook.sh hooks/checkstyle-hook.sh
 ```

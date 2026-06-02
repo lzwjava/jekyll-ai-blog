@@ -30,6 +30,7 @@ type: note
 如果 UI 提示进行 auth，请将 `gateway.auth` 配置中的 token（或密码）粘贴到 Control UI 设置中。连接成功后，UI 会将其存储在 `localStorage` 中。
 
 步骤：
+
 1. 在 **Chrome** 中打开 Control UI（不要使用 Safari — 见下文备注）：`http://127.0.0.1:18789/`
 2. 您应该会看到 **Settings** 面板或连接提示。
 3. 在密码字段中输入您在 `gateway.auth.password` 中设置的密码。
@@ -98,11 +99,13 @@ Token 的来源是 `gateway.auth.token`（或环境变量 `OPENCLAW_GATEWAY_TOKE
 正确的配置示例：
 
 **Token 模式：**
+
 ```json
 { "gateway": { "auth": { "mode": "token", "token": "${OPENCLAW_GATEWAY_TOKEN}" } } }
 ```
 
 **Password 模式：**
+
 ```json
 { "gateway": { "auth": { "mode": "password", "password": "${OPENCLAW_GATEWAY_PASSWORD}" } } }
 ```

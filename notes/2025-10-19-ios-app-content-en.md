@@ -20,6 +20,7 @@ In an iOS app for teaching analog electronics and circuit analysis (based on the
 You'd typically load this data at app launch (e.g., in `AppDelegate` or a data manager singleton) and display it in views like `UITableView` (for sections/lists) or `UILabel` (for details). Below, I'll show how to model the guide's content using these classes, with Objective-C code snippets. (Swift equivalents use `Array` and `String`, but I'll stick to the classics since you mentioned NSArray/NSString.)
 
 #### 1. Basic Example: Storing Key Concepts as an NSArray of NSStrings
+
 For simple lists like voltages, currents, or formulas, create an `NSArray` of `NSString` objects. This could populate a table view cell's subtitle.
 
 ```objective-c
@@ -45,6 +46,7 @@ self.keyConcepts = @[
 This creates a scrollable list of definitions. For formulas, use Unicode/LaTeX-like strings (render with `UILabel` or a math library like iosMath for better display).
 
 #### 2. Modeling Sections with Nested Arrays (e.g., Laws and Examples)
+
 The guide has sections like "Basic Circuit Concepts and Laws." Use an `NSArray` of `NSDictionary` objects, where each dict has `NSString` keys/values for title, description, and sub-items (another `NSArray` of `NSString` for steps/examples).
 
 ```objective-c
@@ -108,6 +110,7 @@ self.guideSections = @[
 This nests data naturally: Tap a section header to expand examples. For dynamic content (e.g., user notes), use `NSMutableArray` and `NSMutableDictionary`.
 
 #### 3. Advanced: Transient Analysis with Structured Data
+
 For dynamic sections like RC/RL circuits, include formulas and time-based data. Use `NSString` for equations and an inner `NSArray` for step responses.
 
 ```objective-c
@@ -139,6 +142,7 @@ formulaLabel.text = dict[@"formula"];
 ```
 
 #### Tips for Implementation
+
 - **Data Source**: Store this in a plist file (load with `NSDictionary *data = [NSDictionary dictionaryWithContentsOfFile:path];`) or hardcode as shown for simplicity.
 - **UI Integration**: Bind to `UITableView` or `UICollectionView` for interactive quizzes (e.g., random example from array). Use `NSString` methods like `stringByAppendingString:` for dynamic text (e.g., plugging in user values for calculations).
 - **Performance**: Arrays are lightweight; for large guides, consider Core Data if adding persistence.

@@ -11,6 +11,7 @@ type: note
 To determine if your monitor is running at 60Hz or a higher refresh rate (like 120Hz), you can use a few different methods, including watching specific test videos or using online tools. Here's how:
 
 ### **Method 1: Use Online Refresh Rate Test Websites**
+
 Several websites can help you detect your monitor's refresh rate:
 
 1. **TestUFO (Blur Busters)**
@@ -26,6 +27,7 @@ Several websites can help you detect your monitor's refresh rate:
    - If it looks **choppier**, it's probably at 60Hz.
 
 ### **Method 2: Check Display Settings (Manual Verification)**
+
 - **Windows:**
   - Right-click on the desktop → **Display Settings** → **Advanced Display Settings** → **Display Adapter Properties** → **Monitor Tab** → Check **"Screen Refresh Rate"**.
 - **macOS:**
@@ -34,6 +36,7 @@ Several websites can help you detect your monitor's refresh rate:
   - Go to **Settings** → **Display** → Check **Video Output Information**.
 
 ### **Method 3: Use a High-Speed Camera (Smartphone Slow-Mo)**
+
 - Record your monitor (at 60Hz vs 120Hz) with a smartphone in **slow-motion mode (240fps or higher)**.
 - If the screen flickers noticeably, it's likely **60Hz**.
 - If it appears smoother, it's running at **120Hz or higher**.
@@ -48,6 +51,7 @@ Several websites can help you detect your monitor's refresh rate:
 | Mouse Cursor Movement | Slightly choppy | Very smooth |
 
 ### **Conclusion**
+
 - If you **see a noticeable smoothness difference** in motion, your monitor is likely running at 120Hz.
 - If motion looks **standard (some blur)**, it's probably 60Hz.
 - Use **TestUFO or system settings** for the most accurate confirmation.

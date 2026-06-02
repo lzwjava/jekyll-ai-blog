@@ -92,6 +92,7 @@ If your goal is specifically **prompt improvement and iteration tracking** (not 
 ## Part 4: Should You Build a Custom Fullstack System?
 
 **Yes, it makes sense to build if:**
+
 - You want to track Claude Code prompts **specific to your team's workflow** (e.g., tagging by project, developer, outcome quality)
 - You want **prompt improvement workflows** beyond just raw logging — ratings, annotations, suggested rewrites
 - You want to combine Claude Code logs with Copilot usage data in one dashboard

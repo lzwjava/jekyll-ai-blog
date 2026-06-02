@@ -14,6 +14,7 @@ Here’s a clear comparison of **ice** and **dry ice** in terms of **transportat
 ---
 
 ### **1. Composition and State**
+
 - **Ice**: Frozen water (H₂O), solid at 0°C (32°F) or below.
 - **Dry Ice**: Solid carbon dioxide (CO₂), sublimates (turns directly to gas) at -78.5°C (-109.3°F).
 
@@ -43,12 +44,14 @@ Here’s a clear comparison of **ice** and **dry ice** in terms of **transportat
 ---
 
 ### **Key Differences**
+
 - **Sublimation vs. Melting**: Dry ice sublimates (no liquid), while ice melts into water.
 - **Safety**: Dry ice requires ventilation and protective gear; ice does not.
 - **Regulations**: Dry ice is classified as a hazardous material in transport (e.g., airlines limit quantities).
 
 ---
 **Why Choose One Over the Other?**
+
 - Use **ice** for short-term cooling of non-sensitive goods.
 - Use **dry ice** for ultra-low temperatures, long-term transport, or items that must stay dry.
 

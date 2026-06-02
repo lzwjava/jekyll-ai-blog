@@ -11,9 +11,11 @@ type: note
 Cloudflare Web Analytics 是一款注重隐私的免费工具，旨在帮助网站所有者追踪和理解网站性能及访客行为，同时不损害用户隐私。以下是根据最新可用信息整理的 Cloudflare Web Analytics 设置和使用全面指南。
 
 ### Cloudflare Web Analytics 概述
+
 Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的洞察，同时优先考虑用户隐私。与可能追踪个人数据或使用 Cookie 的传统分析工具不同，Cloudflare 的解决方案避免使用侵入式追踪方法，如指纹识别、Cookie 或本地存储用于分析目的。它适用于各种规模的网站，并且可以在使用或不使用 Cloudflare 代理服务的情况下使用。[](https://www.cloudflare.com/web-analytics/)[](https://www.cloudflare.com/en-in/web-analytics/)[](https://blog.cloudflare.com/privacy-first-web-analytics/)
 
 ### 主要特性
+
 - **隐私优先**：不收集个人数据、不使用 Cookie 或通过 IP 地址或用户代理追踪用户，确保符合 GDPR 等隐私法规。[](https://www.cloudflare.com/en-in/web-analytics/)[](https://blog.cloudflare.com/privacy-first-web-analytics/)
 - **两种数据收集方法**：
   - **JavaScript Beacon**：一个轻量级的 JavaScript 代码片段，使用浏览器的 Performance API 收集客户端指标。非常适合详细的真实用户监控（RUM）数据，如页面加载时间和核心网页指标。[](https://www.cloudflare.com/web-analytics/)[](https://developers.cloudflare.com/web-analytics/about/)
@@ -25,6 +27,7 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
 - **单页面应用程序（SPA）支持**：通过覆写 History API 的 `pushState` 函数（不支持基于哈希的路由器）自动追踪 SPA 中的路由更改。[](https://scripts.nuxt.com/scripts/analytics/cloudflare-web-analytics)
 
 ### 局限性
+
 - **数据保留**：历史数据仅限于 30 天，可能不适合需要长期分析的用户。[](https://plausible.io/vs-cloudflare-web-analytics)
 - **数据采样**：指标基于页面加载事件的 10% 样本，与 Plausible 或 Fathom Analytics 等工具相比可能导致不准确。[](https://plausible.io/vs-cloudflare-web-analytics)
 - **准确性担忧**：服务器端分析（边缘分析）可能包含机器人流量，与 Google Analytics 等客户端分析相比会夸大数字。客户端分析可能会错过禁用 JavaScript 或使用广告拦截器的用户的数据。[](https://developers.cloudflare.com/analytics/faq/about-analytics/)[](https://plausible.io/vs-cloudflare-web-analytics)[](https://markosaric.com/cloudflare-analytics-review/)
@@ -33,11 +36,14 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
 - **基础分析**：与 Google Analytics 相比，缺乏高级功能，如转化跟踪或详细的用户旅程分析。[](https://www.reddit.com/r/webdev/comments/ka8gxv/cloudflares_privacyfirst_web_analytics_is_now/)
 
 ### 设置 Cloudflare Web Analytics
+
 #### 先决条件
+
 - 一个 Cloudflare 账户（可在 cloudflare.com 免费创建）。
 - 访问您网站的代码（用于 JavaScript beacon）或 DNS 设置（如果使用 Cloudflare 代理，用于边缘分析）。
 
 #### 设置步骤
+
 1. **登录 Cloudflare 仪表盘**：
    - 访问 [cloudflare.com](https://www.cloudflare.com) 并登录或创建账户。
    - 从账户主页，导航至 **Analytics & Logs** > **Web Analytics**。[](https://developers.cloudflare.com/web-analytics/get-started/)
@@ -66,11 +72,13 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
    - 设置规则以追踪特定网站或路径。使用维度对指标进行分类（例如，按主机名或 URL）。[](https://developers.cloudflare.com/web-analytics/)
 
 #### 注意事项
+
 - 如果您的网站有 `Cache-Control: public, no-transform` 标头，JavaScript beacon 将不会自动注入，Web Analytics 可能无法工作。调整您的缓存设置或手动添加代码片段。[](https://developers.cloudflare.com/web-analytics/get-started/)[](https://developers.cloudflare.com/web-analytics/faq/)
 - 某些广告拦截器可能会阻止 JavaScript beacon，但边缘分析不受影响，因为它们依赖于服务器日志。[](https://developers.cloudflare.com/web-analytics/faq/)
 - 对于手动设置，beacon 报告到 `cloudflareinsights.com/cdn-cgi/rum`；对于代理站点，它使用您域名的 `/cdn-cgi/rum` 端点。[](https://developers.cloudflare.com/web-analytics/faq/)
 
 ### 使用 Cloudflare Web Analytics
+
 1. **访问仪表盘**：
    - 登录 Cloudflare 仪表盘，选择您的账户和域名，然后转到 **Analytics & Logs** > **Web Analytics**。[](https://developers.cloudflare.com/pages/how-to/web-analytics/)[](https://developers.cloudflare.com/analytics/types-of-analytics/)
    - 查看指标，如页面浏览量、访问次数、热门页面、引荐来源、国家/地区、设备类型和性能数据（例如，页面加载时间、核心网页指标）。[](https://www.cloudflare.com/en-in/web-analytics/)[](https://usefathom.com/features/vs-cloudflare-web-analytics)
@@ -92,6 +100,7 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
    - 边缘分析可能显示比 Google Analytics 等客户端工具更高的数字，后者排除了机器人和非 JavaScript 请求。[](https://developers.cloudflare.com/analytics/faq/about-analytics/)[](https://www.reddit.com/r/CloudFlare/comments/1alzkwm/why_are_my_cloudflare_traffic_stats_so_different/)
 
 ### 最佳实践
+
 - **选择正确的方法**：如果您的网站被代理，使用 JavaScript beacon 获取注重隐私的客户端指标，或使用边缘分析获取全面的服务器端数据。[](https://www.cloudflare.com/web-analytics/)
 - **与其他工具结合使用**：与 Google Analytics 或注重隐私的替代方案（如 Plausible 或 Fathom）配对使用，以获得更深入的洞察，因为 Cloudflare 的分析是基础性的。[](https://www.cloudflare.com/insights/)[](https://www.reddit.com/r/webdev/comments/ka8gxv/cloudflares_privacyfirst_web_analytics_is_now/)
 - **监控性能**：使用性能指标识别加载缓慢的页面，并利用 Cloudflare 的建议（例如，缓存优化）。[](https://developers.cloudflare.com/web-analytics/)
@@ -99,6 +108,7 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
 - **定期审查数据**：由于数据仅保留 30 天，请频繁检查仪表盘以发现趋势或异常。[](https://plausible.io/vs-cloudflare-web-analytics)
 
 ### 故障排除
+
 - **未显示数据**：
   - 验证 JavaScript 代码片段是否正确放置，并且网站具有有效的 HTML。[](https://developers.cloudflare.com/pages/how-to/web-analytics/)[](https://developers.cloudflare.com/web-analytics/faq/)
   - 对于边缘分析，确保 DNS 指向 Cloudflare（传播可能需要 24-72 小时）。[](https://developers.cloudflare.com/analytics/faq/about-analytics/)
@@ -110,17 +120,20 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
 - **缺少 SPA 指标**：确保启用了 SPA 支持（`spa: true`）并避免使用基于哈希的路由器。[](https://scripts.nuxt.com/scripts/analytics/cloudflare-web-analytics)
 
 ### 高级用法
+
 - **GraphQL Analytics API**：对于自定义分析，查询 Cloudflare 的 API 以构建量身定制的仪表盘或与其他系统集成。需要技术专长。[](https://www.cloudflare.com/application-services/products/analytics/)[](https://www.cloudflare.com/en-in/application-services/products/analytics/)
 - **Cloudflare Workers**：将分析数据发送到时间序列数据库进行自定义处理，或使用 Workers 进行高级无服务器分析。[](https://developers.cloudflare.com/analytics/)
 - **安全洞察**：结合 Cloudflare 的安全分析，在访客数据旁边监控威胁和机器人。[](https://www.cloudflare.com/insights/)[](https://developers.cloudflare.com/waf/analytics/security-analytics/)
 
 ### 与替代方案的比较
+
 - **Google Analytics**：提供详细的用户旅程追踪和转化，但依赖于可能被阻止的 Cookie 和 JavaScript。Cloudflare 更简单且注重隐私，但功能较少。[](https://developers.cloudflare.com/analytics/faq/about-analytics/)[](https://www.reddit.com/r/webdev/comments/ka8gxv/cloudflares_privacyfirst_web_analytics_is_now/)
 - **Plausible Analytics**：开源、隐私优先，具有无限数据保留且无采样。对于独立访客更准确，但需要付费计划。[](https://plausible.io/vs-cloudflare-web-analytics)
 - **Fathom Analytics**：与 Plausible 类似，具有可导出数据和高级功能（如活动追踪）。Cloudflare 的免费产品功能较弱，但对于基本需求更容易设置。[](https://usefathom.com/features/vs-cloudflare-web-analytics)
 - **Jetpack Stats**：特定于 WordPress，数据保留有限（28 天）且无用户级追踪。类似的隐私焦点，但比 Cloudflare 灵活性差。[](https://wordpress.com/support/stats/)
 
 ### 其他资源
+
 - **官方文档**：[Cloudflare Web Analytics 文档](https://developers.cloudflare.com/web-analytics/)[](https://developers.cloudflare.com/web-analytics/about/)
 - **设置指南**：[启用 Cloudflare Web Analytics](https://developers.cloudflare.com/web-analytics/get-started/)[](https://developers.cloudflare.com/web-analytics/get-started/)
 - **常见问题解答**：[Cloudflare Web Analytics 常见问题解答](https://developers.cloudflare.com/web-analytics/faq/)[](https://developers.cloudflare.com/web-analytics/faq/)
@@ -128,6 +141,7 @@ Cloudflare Web Analytics 提供网站流量、页面浏览量和性能指标的�
 - **社区支持**：查看 Cloudflare 的社区论坛以获取额外帮助。[](https://developers.cloudflare.com/web-analytics/faq/)
 
 ### 结论
+
 Cloudflare Web Analytics 是寻求免费、注重隐私且设置最少的分析工具的网站所有者的绝佳选择。它非常适合基本的流量和性能监控，但由于数据采样、有限的保留期以及缺乏转化跟踪等功能，可能无法满足高级需求。为了获得更深入的洞察，请考虑将其与 Plausible 或 Fathom Analytics 等工具结合使用。在解释数据时，请务必验证设置的准确性并了解其局限性。
 
 如果您需要有关设置的具体帮助或对将 Cloudflare Web Analytics 与您的网站集成有疑问，请告诉我！

@@ -19,6 +19,7 @@ Answer:
 Here's a clear breakdown based on common advice for safely washing athletic shoes:
 
 ### 1. Removing the insoles — strongly recommended
+
 - Most manufacturers and cleaning guides advise **removing removable insoles** before putting shoes in the machine.
 - Reasons:
   - Insoles (especially foam-based ones common in sports shoes) can become very waterlogged and take 2–4 days (or longer) to fully air-dry, which can lead to mold or bad smells if not dried properly.
@@ -27,6 +28,7 @@ Here's a clear breakdown based on common advice for safely washing athletic shoe
 - If the insole care label explicitly says "machine washable," you *can* put them in — but even then, many people still prefer hand-washing for longevity.
 
 ### 2. How to clean the removed insoles safely
+
 - **Best/safest method (most recommended)**: Hand-wash them.
   - Use lukewarm water + mild detergent (laundry or dish soap).
   - Scrub gently with a soft brush or old toothbrush, focusing on smelly areas (heel/toe).
@@ -40,6 +42,7 @@ Here's a clear breakdown based on common advice for safely washing athletic shoe
   - Still expect longer drying time.
 
 ### 3. Washing the shoes themselves in a front-loader (滚筒机)
+
 - Front-loaders are gentler than top-loaders (no central agitator to bash things around), so they're better for shoes.
 - Standard safe steps:
   - Remove laces (wash separately in a mesh bag or by hand).
@@ -56,6 +59,7 @@ Here's a clear breakdown based on common advice for safely washing athletic shoe
   - **Never use the dryer** — air-dry only (crumpled newspaper inside helps absorb moisture and hold shape).
 
 ### Quick summary — what most people do successfully
+
 - Remove insoles → hand-wash or wipe them separately.
 - Wash shoes + laces (in mesh bag) with a few old towels/clothes for balance.
 - Air-dry everything 1–2 days.

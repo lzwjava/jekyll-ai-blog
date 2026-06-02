@@ -17,6 +17,7 @@ I optimized the Clash proxy selection scripts to avoid testing proxies that won'
 #### What Was Optimized
 
 The original code followed this inefficient workflow:
+
 1. Test all available proxies for speed.
 2. Then filter to select only SG/TW (or HK) proxies.
 3. This resulted in wasted time testing proxies that would be discarded.

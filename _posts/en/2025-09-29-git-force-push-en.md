@@ -61,6 +61,7 @@ if __name__ == "__main__":
 ```
 
 ### How It Works
+
 - **Deletion Step**: Runs `git push origin :main` to delete the remote branch (as allowed in your repo).
 - **Push Step**: Runs `git push origin main` to push the local branch, creating it anew on the remote.
 - This effectively achieves a force push by discarding the remote history and replacing it with the local history.

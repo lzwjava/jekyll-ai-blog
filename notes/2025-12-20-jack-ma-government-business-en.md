@@ -19,6 +19,7 @@ Jack Ma, the founder of Alibaba, has not been documented saying that "the govern
 Instead, Jack Ma has repeatedly expressed caution about close involvement with governments in business. One of his most famous quotes on this topic is: "Never ever do business with the government. Be in love with them, never marry them." This means entrepreneurs should maintain good relations with the government (to operate smoothly and avoid conflicts) but avoid deep partnerships or dependencies, as governments can be unpredictable, bureaucratic, or change policies abruptly.
 
 This advice likely stems from his experiences in China, where private businesses must navigate regulatory environments carefully. For example:
+
 - Governments have a monopoly on certain powers (like taxation, law enforcement, and printing money), which can resemble a "perfect" model in terms of guaranteed revenue without typical market competition.
 - However, Ma warns against emulating or tying too closely to it, as private enterprises thrive on innovation, customer focus, and agility—qualities often lacking in government operations.
 
@@ -28,6 +29,6 @@ In summary, the quote appears apocryphal. Ma's philosophy prioritizes private in
 
 References:
 
-- https://quotefancy.com/jack-ma-quotes ("Never ever do business with the government. Be in love with them, never marry them.")
-- https://graciousquotes.com/jack-ma/ (Collection of verified Jack Ma quotes including the government advice)
-- https://www.azquotes.com/author/9187-Jack_Ma (Similar quote collections confirming the cautionary stance)
+- <https://quotefancy.com/jack-ma-quotes> ("Never ever do business with the government. Be in love with them, never marry them.")
+- <https://graciousquotes.com/jack-ma/> (Collection of verified Jack Ma quotes including the government advice)
+- <https://www.azquotes.com/author/9187-Jack_Ma> (Similar quote collections confirming the cautionary stance)

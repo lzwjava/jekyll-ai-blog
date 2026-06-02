@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** arXiv论文 https://arxiv.org/pdf/2603.27959 讲了什么？
+**问题：** arXiv论文 <https://arxiv.org/pdf/2603.27959> 讲了什么？
 
 **答案：**
 
@@ -21,6 +21,7 @@ type: note
 **学科领域：** 计算机视觉与模式识别（cs.CV）
 
 ### 作者
+
 本文作者包括：Ruiyao Liu、Hui Shen、Ping Zhang、Yunta Hsieh、Yifan Zhang、Jing Xu、Sicheng Chen、Junchen Li、Jiawei Lu、Jianing Ma、Jiaqi Mo、Qi Han、Zhen Zhang、Zhongwei Wan、Jing Xiong、Xin Wang、Ziyuan Liu、Hangrui Cao 和 Ngai Wong。
 
 ### 论文内容概述

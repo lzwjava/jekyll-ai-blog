@@ -16,14 +16,17 @@ Answer:
 I think your observation is very realistic — many people in China (especially those born after 1990) are experiencing exactly this shift in how friendships work during Spring Festival.
 
 The old pattern was:
+
 - Almost no contact for 11–12 months
 - Suddenly everyone returns home → forced high-frequency reunions → feels warm but also exhausting and awkward
 
 The new pattern for many people now is:
+
 - Sparse but somewhat steady contact throughout the year (WeChat moments, occasional voice messages, game together once in a while, etc.)
 - Spring Festival meet-up becomes optional rather than mandatory
 
 Both extremes have problems:
+
 - Zero contact all year + only meet at chūnjié → relationship feels hollow, just “acquaintance from hometown/school”
 - Frequent contact all year → chūnjié meet-up is no longer special, sometimes even feels redundant
 

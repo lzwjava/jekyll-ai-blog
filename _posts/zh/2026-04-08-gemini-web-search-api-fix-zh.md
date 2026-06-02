@@ -12,6 +12,7 @@ type: note
 ## 会话摘要
 
 ### 目标
+
 修复 OpenClaw 中因缺少 `GEMINI_API_KEY` 而失效的 `web_search` 工具。
 
 ---
@@ -29,6 +30,7 @@ type: note
 1. **创建备份** — `~/.openclaw/openclaw.json.bak.20260408_041208`
 
 2. **初步编辑** — 向 `tools.web.search` 添加了 `apiKey`：
+
    ```json
    "search": { "enabled": true, "provider": "gemini", "apiKey": "***" }
    ```
@@ -68,4 +70,5 @@ type: note
 ---
 
 ### Doctor 指出的警告（非阻塞性）
+
 - Telegram、Signal 和 Slack 的 `groupPolicy` 设置为 `"allowlist"`，但 `groupAllowFrom` 为空 — 除非添加群组 ID 或将策略更改为 `"open"`，否则群组消息将被静默丢弃。

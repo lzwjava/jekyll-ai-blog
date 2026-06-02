@@ -26,6 +26,7 @@ type: note
 | **总薪酬** | ~£100K | **~£140–150K** | £190K+ |
 
 关键数据点：
+
 - 汇丰Software Engineer在伦敦的总薪酬范围从£45.3K（GCB6）到£190K（GCB3），所有级别的中位数为£121K。
 - Comparably估计汇丰Principal Engineer的平均总薪酬约为$169K USD，包括约$142K基本工资加$27K奖金，范围在$58K–$445K之间，取决于级别和地点。
 - 对于伦敦的Senior SWE（比Principal低一级），Glassdoor显示平均基本工资为£95K，总薪酬为£75K–£129K。

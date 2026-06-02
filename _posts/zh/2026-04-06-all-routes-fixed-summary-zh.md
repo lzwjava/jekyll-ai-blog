@@ -30,6 +30,7 @@ type: note
 **30个路由中已有29个返回200**。剩余的一个500错误（`/lives/attended`）属于预期情况 — 该路由在没有登录时尝试读取不存在的用户会话。
 
 **仍需处理：**
+
 - 实际登录会话测试（POST /login → GET /self）
 - 支付逻辑（POST /charges、POST /rewards）— 目前仍是桩函数
 - 受保护路由的Auth 401处理

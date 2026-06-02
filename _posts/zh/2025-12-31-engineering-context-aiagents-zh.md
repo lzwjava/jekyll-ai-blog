@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: What is the content of the blog post at https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?
+Question: What is the content of the blog post at <https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus>?
 
 Answer:
 
@@ -32,6 +32,7 @@ Manus 团队决定利用尖端 LLMs 的 in-context learning 能力来构建他�
 KV-cache 命中率是生产环境 AI Agent 最关键的指标，因为 Agent 的 input-to-output token 比例非常高（例如 Manus 中达到了 100:1）。重用缓存的 prefix 可以显著降低延迟和成本。
 
 Best practices:
+
 - 保持 prompt prefix 完全稳定（避免使用时间戳等动态元素）。
 - 使上下文保持严格的 append-only（仅追加）模式，并使用确定性的 serialization。
 - 在不可避免发生变化时，显式标记 cache breakpoints。

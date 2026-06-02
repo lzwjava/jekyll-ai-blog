@@ -21,6 +21,7 @@ The saying you mentioned appears to be a slightly misremembered or translated ve
 A similar well-known expression in Chinese business circles is something like "脸皮要厚" (thick-skinned) or metaphors involving lowering oneself to seize opportunities on the ground. Feng Lun has frequently discussed the need for entrepreneurs to be humble, persistent, and willing to "endure hardship" without caring about face (面子) in his books, interviews, and talks (e.g., in *Wild Growth* or his public speeches).
 
 The core meaning is:
+
 - Success requires humility and resilience: You can't stand tall and proud while expecting big rewards ("meat") to fall into your mouth.
 - In entrepreneurship, especially starting from nothing, you often have to "touch the ground with your face" — network aggressively, ask for favors, handle criticism, or do unglamorous work — to achieve real gains.
 

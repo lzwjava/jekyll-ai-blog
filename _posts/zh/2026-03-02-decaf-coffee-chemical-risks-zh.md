@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://yinwang1.substack.com/p/8be 的 Substack 帖子说了什么？
+**问题：** <https://yinwang1.substack.com/p/8be> 的 Substack 帖子说了什么？
 
 **回答：**
 
@@ -20,7 +20,7 @@ type: note
 
 文章表达了对脱咖啡因（decaf）咖啡的强烈担忧。作者解释说他避免摄入含咖啡因饮料，也拒绝喝脱咖啡因咖啡。他的原因是大多数脱咖啡因咖啡豆使用有机溶剂处理来去除咖啡因，他认为这会留下有问题的化学残留物。
 
-他引用了 The Conversation 的一篇文章（https://theconversation.com/how-is-decaf-coffee-made-and-is-it-really-caffeine-free-215546），并描述了两种主要的脱咖啡因方法，特别是重点关注基于溶剂的方法。
+他引用了 The Conversation 的一篇文章（<https://theconversation.com/how-is-decaf-coffee-made-and-is-it-really-caffeine-free-215546），并描述了两种主要的脱咖啡因方法，特别是重点关注基于溶剂的方法。>
 
 帖子中的关键点：
 
@@ -28,11 +28,13 @@ type: note
 - 溶剂方法有两种变体：**direct** 和 **indirect**。
 
 **直接溶剂方法（详细描述）：**
+
 - 咖啡豆先被蒸气处理。
 - 然后浸泡在 dichloromethane（methylene chloride，二氯甲烷）或 ethyl acetate 中以溶解咖啡因。
 - 浸泡后，豆子再次被蒸气处理以去除残留溶剂。
 
 作者质疑第二次蒸气处理步骤是否真的能消除所有溶剂痕迹。他对此表示怀疑，认为：
+
 - 这些是挥发性化合物，但它们已经长时间浸入豆子中。
 - 不确定溶剂是否完全蒸发、是否与咖啡豆中的成分发生化学结合，或者是否被困在豆子结构内部。
 

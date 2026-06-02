@@ -13,6 +13,7 @@ Cloudflare is a popular service that offers a range of tools to enhance your web
 ### **Why Use Cloudflare?**
 
 Before diving into the how-to, let’s quickly cover what makes Cloudflare so valuable:
+
 - **DNS Management**: Cloudflare provides fast and reliable DNS services, ensuring your website is always accessible.
 - **CDN**: It speeds up your site by caching content closer to your visitors.
 - **Security**: Cloudflare offers DDoS protection, SSL/TLS encryption, and tools to block malicious traffic.
@@ -27,6 +28,7 @@ Now, let’s get into the specifics.
 DNS (Domain Name System) is like the internet’s phonebook—it translates your domain name (e.g., `example.com`) into an IP address that servers can understand. When you use Cloudflare, you’ll manage your DNS records through their platform, which offers added speed and security.
 
 #### **How to Set Up Cloudflare DNS:**
+
 1. **Sign Up for Cloudflare**: If you don’t already have an account, head to [Cloudflare’s website](https://www.cloudflare.com/) and sign up for a free account.
 2. **Add Your Domain**: Once logged in, click “Add a Site” and enter your domain name (e.g., `example.com`). Cloudflare will scan your existing DNS records.
 3. **Review DNS Records**: After the scan, Cloudflare will show you a list of your current DNS records. You can review them to ensure everything looks correct.
@@ -42,6 +44,7 @@ DNS (Domain Name System) is like the internet’s phonebook—it translates your
 An A record is a type of DNS record that maps your domain (or subdomain) to an IPv4 address. For example, it tells the internet that `example.com` should point to `192.0.2.1`. Cloudflare makes it easy to add, edit, or delete A records.
 
 #### **How to Manage A Records:**
+
 1. **Log in to Cloudflare**: Go to your Cloudflare dashboard and select the domain you want to manage.
 2. **Navigate to DNS**: Click on the “DNS” tab in the top menu.
 3. **Add an A Record**:
@@ -56,6 +59,7 @@ An A record is a type of DNS record that maps your domain (or subdomain) to an I
 5. **Delete an A Record**: Click “Edit” next to the record and then “Delete.” Confirm the deletion.
 
 **Proxied vs. DNS Only**:
+
 - **Proxied (Orange Cloud)**: Traffic passes through Cloudflare, enabling CDN, security, and performance features.
 - **DNS Only (Gray Cloud)**: Traffic goes directly to your server, bypassing Cloudflare’s protections. Use this for records that don’t need Cloudflare’s features (e.g., mail servers).
 
@@ -68,6 +72,7 @@ An A record is a type of DNS record that maps your domain (or subdomain) to an I
 Cloudflare allows you to block traffic from specific countries or regions, which can help reduce spam, bots, and malicious attacks. This feature is especially useful if you notice unwanted traffic from certain areas.
 
 #### **How to Ban IP Regions:**
+
 1. **Log in to Cloudflare**: Go to your Cloudflare dashboard and select your domain.
 2. **Navigate to Security**: Click on the “Security” tab, then select “WAF” (Web Application Firewall).
 3. **Create a Rule**:
@@ -98,6 +103,7 @@ Cloudflare allows you to block traffic from specific countries or regions, which
 ### **Conclusion**
 
 Cloudflare is a powerful tool that can enhance your website’s speed, security, and reliability. By following the steps in this guide, you can easily configure DNS, manage A records, and ban IP regions to protect your site. Remember:
+
 - **DNS Configuration**: Update your nameservers correctly to avoid downtime.
 - **A Records**: Use them to map your domain to your server’s IP address, and consider proxying them for added benefits.
 - **IP Region Blocking**: Use this feature sparingly to avoid blocking legitimate users.

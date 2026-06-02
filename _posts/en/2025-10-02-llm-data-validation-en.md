@@ -19,13 +19,16 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ### **How to Use an LLM Directly for Data Validation**
 
 #### **1. Define Your Validation Rules in Natural Language**
+
 - You describe the rules in plain English (or your preferred language).
 - Example:
   > “For every journal entry, the sum of all debit amounts must equal the sum of all credit amounts. Also, no transaction ID should be duplicated.”
 
 #### **2. Provide the Data to the LLM**
+
 - Share the data (e.g., a table, JSON, or CSV snippet) with the LLM.
 - Example:
+
   ```json
   [
       {"transaction_id": "T001", "debit": 100, "credit": 0},
@@ -35,6 +38,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
   ```
 
 #### **3. Ask the LLM to Validate the Data**
+
 - Prompt the LLM to:
   - Interpret the rules.
   - Apply them to the data.
@@ -48,6 +52,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
   > Data: [paste data here]”
 
 #### **4. LLM Performs the Validation**
+
 - The LLM will:
   - Parse the rules and data.
   - Perform the necessary calculations or checks.
@@ -61,6 +66,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ---
 
 ### **Advantages of This Approach**
+
 - **No Code Required:** You don’t need to write or maintain validation scripts.
 - **Flexibility:** Rules can be updated or changed on the fly by simply describing them in natural language.
 - **Rapid Prototyping:** Ideal for quick checks, audits, or exploratory data analysis.
@@ -68,6 +74,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ---
 
 ### **Limitations and Considerations**
+
 - **Data Size:** LLMs have context limits (e.g., 32k–128k tokens). For large datasets, you may need to batch the data or use sampling.
 - **Precision:** LLMs can make calculation errors, especially with large numbers or complex logic. Always double-check critical validations.
 - **Privacy:** Avoid sharing sensitive data with the LLM. Use synthetic or anonymized data for validation.
@@ -76,6 +83,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ---
 
 ### **When to Use This Approach**
+
 - **Ad-hoc Validation:** Quick checks during data exploration or debugging.
 - **Prototyping:** Testing validation logic before implementing it in code.
 - **Low-Code Environments:** Empowering non-technical users to define and run validations.
@@ -84,6 +92,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ---
 
 ### **Example Workflow**
+
 1. **User:**
    > “Validate this data against these rules: [rules]. Data: [data]”
 2. **LLM:**
@@ -97,6 +106,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ---
 
 ### **How to Improve Accuracy**
+
 - **Provide Clear Rules:** Be specific and unambiguous in your rule descriptions.
 - **Use Structured Data:** JSON or tables are easier for the LLM to parse than free-form text.
 - **Ask for Reasoning:** Request the LLM to “show its work” (e.g., “Explain how you calculated the sum of debits”).
@@ -105,6 +115,7 @@ This is an emerging and powerful use case, especially for **ad-hoc data validati
 ---
 
 ### **Tools and Platforms**
+
 - **Chat Interfaces:** Use any LLM chat interface (like this one) for manual validation.
 - **APIs:** Integrate with LLM APIs (e.g., Mistral, OpenAI, Anthropic) for automated workflows.
 - **Custom Agents:** Build a validation agent that uses an LLM as its “brain” for rule interpretation.

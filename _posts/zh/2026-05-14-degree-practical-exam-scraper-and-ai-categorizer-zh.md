@@ -12,10 +12,12 @@ type: note
 该命令已实现端到端运行。以下是新增内容以及对真实网站执行 `ww degree practical --pages 2` 的实际结果：
 
 **新增内容：**
+
 - `ww/degree/degree.py` — 爬虫 + AI 分析器
 - 在 `ww/main.py` 中注册了 `degree` 命令，并附有帮助文本
 
 **使用方法：**
+
 - `ww degree` — AI 分类概览（最新页面，约 20 条记录）
 - `ww degree practical` — 筛选实践考核/成绩相关文章
 - `ww degree list` — 原始抓取列表，无 AI 处理

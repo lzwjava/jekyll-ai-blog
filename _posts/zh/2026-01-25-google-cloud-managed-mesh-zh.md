@@ -46,6 +46,7 @@ Google Cloud Service Mesh（在许多语境下以前被称为 **Anthos Service M
 ### 何时使用 Cloud Service Mesh
 
 在以下情况（或计划构建时）使用它：
+
 - 运行在 Kubernetes（特别是 GKE）上的 microservices
 - 需要在 hybrid/multi-cloud 环境中实现一致的流量控制、强安全性 (mTLS) 和深度可观测性
 - 希望避免自行运行 Istio 的运维负担

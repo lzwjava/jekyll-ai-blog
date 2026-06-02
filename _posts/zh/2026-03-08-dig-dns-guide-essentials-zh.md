@@ -49,6 +49,7 @@ dig [@server] [domain] [type] [options]
 ```
 
 其中：
+
 - `@server` — 可选。指定要查询的 DNS 服务器。如果省略，`dig` 使用默认服务器。
 - `domain` — 要查询的域名。
 - `query-type` — 所需的 DNS 记录类型（例如 A、MX、NS）。如果未指定，`dig` 默认查询 A 记录。
@@ -62,21 +63,27 @@ dig [@server] [domain] [type] [options]
 典型的 `dig` 响应包含以下部分：
 
 ### 1. 头部部分
+
 HEADER 部分总结了 DNS 查询和响应细节。它包括查询类型（例如标准查询）、响应状态（例如成功响应的 NOERROR）以及指示关键属性的标志，如递归。
 
 ### 2. 问题部分
+
 此部分显示查询细节，包括请求的域名和记录类型。例如，对 `example.com` 的 A 记录查询表示请求将域名解析为 IPv4 地址。
 
 ### 3. 回答部分
+
 回答部分包含查询返回的实际 DNS 记录，例如 A 记录查找的 IP 地址。例如：`example.com. 3600 IN A 93.184.216.34` — 这表明 `example.com` 解析为 IPv4 地址 `93.184.216.34`，生存时间 (TTL) 为 3600 秒。
 
 ### 4. 权威部分
+
 如果查询的 DNS 服务器对域名具有权威性，此部分列出负责该域名的权威名称服务器。例如：`example.com. 172800 IN NS a.iana-servers.net.`。
 
 ### 5. 附加部分
+
 此部分可能包含额外信息，例如权威部分中列出的权威名称服务器的 IP 地址。
 
 ### 6. 页脚 / 统计信息
+
 在页脚部分，您可以找到以毫秒为单位的延迟时间，以及用于解决请求的 DNS 服务器。
 
 ---
@@ -99,17 +106,21 @@ HEADER 部分总结了 DNS 查询和响应细节。它包括查询类型（例�
 ## 实际示例
 
 ### 1. 基本 DNS 查找（A 记录）
+
 ```bash
 dig google.com
 ```
 
 ### 2. 仅短输出
+
 ```bash
 dig +short google.com
 ```
+
 `+short` 仅显示最相关信息，例如 A 记录的 IP 地址。
 
 ### 3. 查询特定记录类型
+
 ```bash
 dig google.com MX
 dig google.com NS
@@ -118,45 +129,59 @@ dig google.com AAAA
 ```
 
 ### 4. 使用特定 DNS 服务器查询
+
 ```bash
 dig @8.8.8.8 google.com
 ```
+
 默认情况下，`dig` 命令查询 `/etc/resolv.conf` 中列出的名称服务器。您可以使用 `@` 符号后跟名称服务器的主机名或 IP 地址来更改此设置。
 
 ### 5. 跟踪完整的 DNS 解析路径
+
 ```bash
 dig +trace google.com
 ```
+
 `+trace` 命令用于跟踪 DNS 查找路径。此选项执行迭代查询来解析名称查找，从根开始查询名称服务器，并使用迭代查询遍历命名空间树，沿途跟随引荐。
 
 ### 6. 反向 DNS 查找（IP 到主机名）
+
 ```bash
 dig -x 8.8.8.8
 ```
+
 使用 `-x` 选项和 IP 地址来查找关联的域名。反向 DNS 查找仅在存在 PTR 记录时有效。
 
 ### 7. 仅查询回答部分（干净输出）
+
 ```bash
 dig +noall +answer google.com
 ```
+
 `+noall` 抑制除明确请求的所有输出部分。`+answer` 仅显示输出的回答部分，通常与 `+noall` 一起使用。
 
 ### 8. 从文件批量查询
+
 ```bash
 dig -f domains.txt +short
 ```
+
 可以一次性查询域名列表，而不是为每个域名逐一执行 `dig` 查询。将域名输入文件（每行一个域名）并对文件执行 `dig` 查询。
 
 ### 9. 检查 DNSSEC 信息
+
 ```bash
 dig +dnssec google.com
 ```
+
 此命令查询带有 DNSSEC（域名系统安全扩展）信息的 DNS 记录。
 
 ### 10. 获取统计信息
+
 ```bash
 dig +stats google.com
 ```
+
 `+stats` 选项用于查看统计部分。
 
 ---

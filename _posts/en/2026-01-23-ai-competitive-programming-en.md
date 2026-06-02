@@ -17,11 +17,13 @@ Answer:
 **Yes, contests still have meaning — but the landscape has changed significantly in 2025-2026.**
 
 AI (especially models like OpenAI's o3 / o4 series) has become extremely strong at competitive programming:
+
 - Top AI models reach ~2700-2800 Codeforces rating (top ~0.2-0.3% of humans, roughly rank 100-200 globally).
 - They achieved gold-medal level at ICPC WF 2025 and very strong results at IOI-level contests.
 - In many Div. 2 / Div. 3 / Div. 4 rounds, modern AI can solve 4–6 problems very quickly if given the statements.
 
 This makes **cheating much easier** than before. Many participants now feed problem statements to AI (sometimes with minimal editing) and submit. In some recent rounds:
+
 - A noticeable percentage (around 4% in top ranks in certain cases) of high placements came from detected AI cheaters who got skipped/rolled back.
 - In easier contests, solving 3–4 problems with AI is trivial for anyone willing to cheat — you don't even need strong coding skills anymore.
 
@@ -33,11 +35,13 @@ Despite this, contests **are not meaningless** for most serious participants. He
 - **Community & anti-cheat measures** exist. Codeforces bans obvious AI cheaters (especially copy-paste style), rolls back ratings when large groups are caught, and has rules explicitly forbidding AI assistance during contests (including debugging with AI after failed submissions).
 
 Realistic current situation (early 2026):
+
 - **Div 4 / Div 3 / easy Div 2** → heavy AI cheating, 3–4 problems is easy with AI, ratings somewhat inflated for cheaters.
 - **Hard Div 2 / Div 1** → AI is strong but far from unbeatable; creative / proof-heavy / heavy-implementation problems remain hard for current models.
 - **Honest participants** often drop 100–400 rating points compared to 2023–2024 levels due to cheater inflation, but skill improvement still shows in performance.
 
 Many strong coders now treat competitive programming more as:
+
 - A fun puzzle-solving hobby
 - Algorithm learning & interview preparation
 - A sport-like activity with friends/community

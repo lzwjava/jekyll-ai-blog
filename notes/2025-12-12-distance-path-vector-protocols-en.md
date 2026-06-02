@@ -17,6 +17,7 @@ type: note
 Distance-vector and path-vector are two classes of dynamic routing protocols used in computer networks to determine the best paths for forwarding packets.
 
 ### Distance-Vector Routing Protocols
+
 - Routers exchange **vectors** (lists) of known destinations along with a **distance metric** (e.g., hop count or composite metric) to each destination.
 - Each router shares its entire routing table periodically with directly connected neighbors.
 - Routers do not have knowledge of the full path—only the distance and the next-hop neighbor.
@@ -26,6 +27,7 @@ Distance-vector and path-vector are two classes of dynamic routing protocols use
 - Typically used in smaller, intra-domain (interior gateway) environments.
 
 ### Path-Vector Routing Protocols
+
 - An enhanced or advanced variant of distance-vector, specifically designed for large-scale, inter-domain routing.
 - Routers exchange not only a metric (often AS path length) but also the **full path** (sequence of autonomous systems or nodes traversed).
 - This path information is appended as routes are advertised, allowing easy detection and prevention of loops (if a router sees its own identifier in the path, it discards the route).
@@ -47,6 +49,7 @@ Distance-vector and path-vector are two classes of dynamic routing protocols use
 Path-vector is considered "advanced" because it addresses key limitations of traditional distance-vector protocols—particularly routing loops and lack of policy control—by including explicit path information, making it suitable for the global Internet.
 
 References:
+
 - [Path-vector routing protocol - Wikipedia](https://en.wikipedia.org/wiki/Path-vector_routing_protocol)
 - [What is the difference between distance vector protocol and path vector protocol - Network Engineering Stack Exchange](https://networkengineering.stackexchange.com/questions/5595/what-is-the-difference-between-distance-vector-protocol-and-path-vector-protocol)
 - [Path Vector vs Distance Vector - Lab1918](https://lab1918.com/posts/dv-vs-ps/)

@@ -14,6 +14,7 @@ Yes, Clash (like ClashX, Clash for Windows ported to Mac, or similar tools) ofte
 Since you're already in **Terminal** (likely from macOS Recovery or single-user mode, given the stuck "Software Update Complete" screen), we can disable all proxy settings via the built-in `networksetup` command. This is the cleanest way to clear them without needing the GUI.
 
 ### Step 1: Find Your Network Service Name
+
 Most MacBook Airs use **Wi-Fi** (case-sensitive!). Run this to confirm:
 
 ```bash
@@ -25,6 +26,7 @@ networksetup -listallnetworkservices
 - Common name on M2 Air: **Wi-Fi**
 
 ### Step 2: Check Current Proxy Settings (Optional but Recommended)
+
 Run these to see what's set (replace "Wi-Fi" if needed):
 
 ```bash
@@ -37,6 +39,7 @@ networksetup -getautoproxyurl "Wi-Fi"
 - You'll likely see Enabled: Yes and Server: 127.0.0.1 Port: 7890 (or similar) for HTTP/HTTPS/SOCKS.
 
 ### Step 3: Disable / Clear All Proxies
+
 Run these one by one (use `sudo` if it asks for a password; in Recovery it often doesn't need it, or use your admin password if prompted):
 
 ```bash
@@ -58,14 +61,17 @@ networksetup -setsocksfirewallproxy "Wi-Fi" "" 0
 (Empty server and port 0 effectively clears them.)
 
 ### Step 4: Verify They Are Off
+
 Re-run the get commands from Step 2—they should now show **Enabled: No**.
 
 ### Step 5: Exit and Retry Boot
+
 - Type `exit` (or `reboot`) to leave Terminal/Recovery.
 - Choose to **Restart** from the Recovery menu (or force restart by holding power button if needed).
 - Your Mac should now boot without the proxy interference and hopefully proceed past the "Software Update Complete" screen to finish setup or reach the desktop.
 
 ### Extra Tips for Clash
+
 - Once you're back in macOS normally, open Clash → turn **off** "Set as System Proxy" (or quit Clash completely) before future updates.
 - If you use TUN mode in Clash, it usually doesn't touch system proxies—prefer that over system proxy mode.
 - If the hang persists after this, go back to Recovery → Disk Utility → First Aid on your drive again, then try **Reinstall macOS** (non-destructive).

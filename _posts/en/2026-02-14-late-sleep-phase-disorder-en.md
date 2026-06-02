@@ -35,6 +35,7 @@ This creates a vicious cycle: late sleep → late wake → forced early wake →
 Many people (especially teens/young adults) have this pattern biologically wired to some degree, and modern life (screens, irregular schedules, late-night stimulation) often reinforces and worsens it.
 
 **Short-term tips to start shifting** (progress is usually gradual):
+
 - Get bright light (sunlight or strong daylight lamp) within 30–60 minutes of waking — even if you feel awful, this is the strongest signal to pull the clock earlier.
 - Avoid bright/blue light after ~9–10pm (use strong filters or glasses).
 - Keep wake time fixed (even on weekends) — consistency matters more than bedtime at first.

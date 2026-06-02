@@ -13,6 +13,7 @@ type: note
 The market capitalization (or total investable value) of silver is currently around $2.7 trillion, while gold's stands at about $28.9 trillion. These figures represent the estimated value of all above-ground stocks of each metal (i.e., everything mined historically that's still accessible in some form, multiplied by current spot prices). Here's a breakdown of why there's such a massive gap, despite silver being far more abundant in raw tonnage.
 
 ### Quick Calculation Basics
+
 - **Gold**: ~216,000 metric tonnes above ground × ~$4,150 per ounce spot price ≈ $28.9 trillion. (1 tonne = ~32,150 ounces.)
 - **Silver**: ~1.75 million metric tonnes ever mined × ~$49 per ounce spot price ≈ $2.7 trillion.
   - Note: Silver's estimate is trickier—much of it (up to 90% historically) gets "lost" in industrial uses like electronics, solar panels, and photography, where it's chemically altered or dispersed and not fully recoverable as bullion. So the true "investable" stock (bars/coins/ETFs) is closer to 1-3 billion ounces (~30,000-100,000 tonnes), but market cap calcs often use total mined for consistency with gold.
@@ -20,6 +21,7 @@ The market capitalization (or total investable value) of silver is currently aro
 In short: Silver weighs ~8x more in total stock, but its price is only ~1/85th of gold's, netting out to silver's value being roughly 10% of gold's.
 
 ### Key Reasons for the Disparity
+
 1. **Historical Supply Dynamics**:
    - Gold mining has been limited—humans have extracted just ~216,000 tonnes since ancient times, with annual production at ~3,000-4,000 tonnes. Much of it stays "above ground" as jewelry, bars, or central bank reserves because gold doesn't corrode or get consumed.
    - Silver mining totals ~1.75 million tonnes over history, with ~27,000 tonnes produced yearly. But silver is a byproduct of other mining (e.g., copper/lead/zinc), so supply ramps up easily when industrial demand rises. Plus, it's easier and cheaper to mine/extract.

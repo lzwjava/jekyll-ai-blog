@@ -31,6 +31,7 @@ It's commonly used in automated testing (e.g., with Selenium for web scraping or
 
 4. **Integration with Tools**:
    - Libraries like pyvirtualdisplay (as in your error trace) wrap Xvfb to make it easier to start/stop from code. For instance, in Python:
+
      ```python
      from pyvirtualdisplay import Display
      display = Display(visible=0, size=(1024, 768))
@@ -38,6 +39,7 @@ It's commonly used in automated testing (e.g., with Selenium for web scraping or
      # Run your graphical app here
      display.stop()
      ```
+
    - It runs in the background, and your application sets the `DISPLAY` environment variable (e.g., `export DISPLAY=:99`) to point to the virtual server.
 
 5. **Limitations**:

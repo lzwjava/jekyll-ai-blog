@@ -39,6 +39,7 @@ console.log("========== TAB SWITCH END ==========");
 ```
 
 当您复制该代码块并提供给 Copilot 时，AI 立即知道：
+
 - **边界内触发了哪些 lifecycle events**
 - **它们的触发顺序**
 - **边界之间 field values 是否发生变化**
@@ -74,16 +75,12 @@ console.log("===== BEFORE TAB SWITCH =====", {
 
 Angular 有许多无声的 lifecycle events，会导致如 field value loss 等 bug：
 
-
-
-
 | Lifecycle / Event | Common Bug |
 |---|---|
 | `ngOnDestroy` + `ngOnInit` | Form reset when tab re-creates component |
 | `ngOnChanges` | Input binding overwrites user-typed value |
 | `ChangeDetectionStrategy.OnPush` | UI not updating, looks like value lost |
 | Router navigation | Component destroyed, state gone |
-
 
 没有显示**哪些事件触发以及何时触发**的日志，即使 AI 也无法诊断根本原因。
 
@@ -106,15 +103,11 @@ Angular 有许多无声的 lifecycle events，会导致如 field value loss 等 
 
 ### 总结
 
-
-
-
 | Approach | AI Effectiveness |
 |---|---|
 | Code only | Low — AI guesses runtime behavior |
 | Code + description | Medium — still missing execution order |
 | Code + full raw logs | Medium — hard to isolate the relevant section |
 | Code + **bounded, separated logs** | **High** — AI sees exactly what happened when |
-
 
 您的直觉是对的：**对于前端时机 bug，带有清晰边界的运行时日志往往比任何代码或描述单独使用更有价值。**

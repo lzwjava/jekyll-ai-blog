@@ -28,6 +28,7 @@ Below is a comprehensive tutorial that breaks down the key topics in the “Data
 **Example:**
 
 Convert binary \\( 1011_2 \\) to decimal:
+
 - \\( 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11_{10} \\)
 
 **Practice Exercise:**
@@ -54,6 +55,7 @@ Convert binary \\( 1011_2 \\) to decimal:
 **Example:**
 
 Convert binary \\( 1011011101_2 \\) to hexadecimal:
+
 - Group into 4-bit groups: \\( 10 \, 1101 \, 1101 \\) (pad left with zeros if needed → \\( 0010 \, 1101 \, 1101 \\))
 - \\( 0010_2 = 2_{16} \\)
 - \\( 1101_2 = D_{16} \\)
@@ -80,6 +82,7 @@ Convert binary \\( 1011011101_2 \\) to hexadecimal:
 **Representation:**
 
 For single precision (32-bit):
+
 - 1 bit for sign.
 - 8 bits for exponent.
 - 23 bits for mantissa.
@@ -93,6 +96,7 @@ where the bias for single precision is 127.
 **Example Walk-Through:**
 
 Suppose you have a 32-bit binary string representing a floating-point number:
+
 - **Sign Bit:** 0 (positive)
 - **Exponent Bits:** e.g., \\( 10000010_2 \\) → Decimal 130. Subtract bias: \\( 130 - 127 = 3 \\).
 - **Mantissa Bits:** Suppose they represent a fractional part like \\( .101000... \\).
@@ -114,6 +118,7 @@ Convert \\( 1.101000 \\) from binary to decimal and then multiply by \\( 2^3 \\)
 ### 2.1 Basic Boolean Operations
 
 **Key Operations:**
+
 - **AND (·):** \\( A \land B \\) is true only if both \\( A \\) and \\( B \\) are true.
 - **OR (+):** \\( A \lor B \\) is true if at least one of \\( A \\) or \\( B \\) is true.
 - **NOT (’ or \\(\neg\\)):** \\( \neg A \\) inverts the truth value of \\( A \\).

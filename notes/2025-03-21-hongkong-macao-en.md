@@ -11,6 +11,7 @@ type: note
 Based on the places you’ve visited in Hong Kong and Macau, it seems you enjoy a mix of urban exploration, scenic spots, and cultural landmarks. Here are some additional recommendations for both destinations that might complement your experiences:
 
 ### Hong Kong Recommendations
+
 1. **Victoria Peak**
    - Why: Offers stunning panoramic views of Hong Kong’s skyline and Victoria Harbour, especially beautiful at night.
    - What to do: Take the Peak Tram for a fun ride up, walk the Peak Circle Walk, and enjoy the cool air away from the city bustle.
@@ -38,6 +39,7 @@ Based on the places you’ve visited in Hong Kong and Macau, it seems you enjoy 
 ---
 
 ### Macau Recommendations
+
 1. **Taipa Village**
    - Why: A charming area with colonial architecture, local eateries, and a laid-back vibe away from the casinos.
    - What to do: Try Macanese food (like egg tarts or pork chop buns), visit the Taipa Houses Museum, and wander the narrow streets.

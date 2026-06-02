@@ -15,6 +15,7 @@ type: note
 The Netflix series you're describing is **Narcos**, a gripping crime drama that chronicles the rise and fall of Colombian drug lord Pablo Escobar and the Medellín Cartel in the 1980s and early 1990s. It's a bilingual show (mostly Spanish with English subtitles for dialogue-heavy scenes) that blends real historical events with dramatic storytelling, focusing on themes of immense wealth, brutal revenge, fragile trusts within criminal empires, and Escobar's complex public image as a "Robin Hood" figure who funneled drug money into community projects like housing, schools, and soccer fields for the poor in Medellín.
 
 #### Story Summary
+
 **Narcos** spans three seasons (the first two center on Escobar, while the third shifts to his successors and the Cali Cartel), but the core Escobar arc you're likely thinking of is in Seasons 1 and 2.
 
 - **Season 1: The Rise of the Kingpin**
@@ -30,6 +31,7 @@ The Netflix series you're describing is **Narcos**, a gripping crime drama that 
 The show humanizes Escobar without glorifying him, showing his charisma, family devotion, and philanthropy alongside his cocaine-fueled savagery that left Colombia scarred. It's fast-paced, with voiceover narration from Steve Murphy adding a gritty, almost documentary feel. If you love it, check the spin-off **Narcos: Mexico** for the Guadalajara Cartel's story.
 
 #### References
+
 - [Narcos on Netflix](https://www.netflix.com/title/80025172)
 - [Narcos Season 2 Recap: Burning Cash Scene](https://www.nytimes.com/2016/09/04/arts/television/narcos-netflix-season-2-episode-6-recap.html)
 - [Pablo Escobar's Real-Life Money-Burning Incident](https://www.mirror.co.uk/news/world-news/pablo-escobar-torched-13m-cash-6411948)

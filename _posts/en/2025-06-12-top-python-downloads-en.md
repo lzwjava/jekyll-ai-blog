@@ -222,7 +222,7 @@ The top 200 most downloaded Python packages on PyPI, based on recent download st
 - **cartopy**: Cartographic projections and derived products.
 
 Citations:
-[1] https://catswhocode.com/development/python-modules-list/
-[2] https://www.wscubetech.com/resources/python/libraries
-[3] https://github.com/lukasmasuch/best-of-python
-[4] https://www.stxnext.com/blog/most-popular-python-scientific-libraries
+[1] <https://catswhocode.com/development/python-modules-list/>
+[2] <https://www.wscubetech.com/resources/python/libraries>
+[3] <https://github.com/lukasmasuch/best-of-python>
+[4] <https://www.stxnext.com/blog/most-popular-python-scientific-libraries>

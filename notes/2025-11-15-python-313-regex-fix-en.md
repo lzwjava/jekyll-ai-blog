@@ -64,12 +64,14 @@ ExtLinkBracketedRegex = re.compile(
 ### Alternative solutions
 
 1. Use Python 3.11 or 3.12 (easiest if you don’t want to patch)
+
    ```bash
    python3.11 -m pip install wikiextractor
    # then run with python3.11 wikiextractor ...
    ```
 
 2. Use the maintained fork that already fixes Python 3.13 compatibility:
+
    ```bash
    pip uninstall wikiextractor
    pip install git+https://github.com/attardi/wikiextractor.git
@@ -78,6 +80,7 @@ ExtLinkBracketedRegex = re.compile(
    Giuseppe Attardi’s fork has been updated for Python 3.12+ and works perfectly on 3.13.
 
 3. Use the very fast modern alternative (highly recommended for large dumps):
+
    ```bash
    pip install wikiextractor-ng   # or "wiki-dump-tools", "wikitextprocessor", etc.
    ```

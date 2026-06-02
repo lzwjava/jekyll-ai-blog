@@ -15,6 +15,7 @@ Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** c
 ---
 
 ### **1. Engine Efficiency & Performance**
+
 - **Diesel Cars**:
   - More fuel efficient (typically 15–20% better mileage than petrol engines).
   - Deliver strong low-end torque → better for towing/heavy loads & highway driving.
@@ -27,12 +28,14 @@ Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** c
 ---
 
 ### **2. Fuel Cost**
+
 - **Diesel**: Price per litre may or may not be cheaper than petrol depending on the country. Efficiency makes them cost-effective on long drives.
 - **Petrol**: Slightly higher running cost due to lower mileage.
 
 ---
 
 ### **3. Maintenance**
+
 - **Diesel Cars**:
   - Higher initial cost and maintenance (parts like fuel injectors, turbochargers).
   - More expensive servicing.
@@ -43,6 +46,7 @@ Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** c
 ---
 
 ### **4. Environmental Impact**
+
 - **Diesel**:
   - Lower CO₂ emissions than petrol → better for global warming.
   - BUT emits more nitrogen oxides (NOx) and particulates → worse for local air pollution and health.
@@ -53,18 +57,21 @@ Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** c
 ---
 
 ### **5. Noise & Refinement**
+
 - **Diesel**: Louder, more vibration, especially older models.
 - **Petrol**: Quieter and smoother.
 
 ---
 
 ### **6. Resale Value**
+
 - **Diesel**: Can have higher resale value if demand is strong (long-distance drivers), but in many countries, restrictions on emissions are lowering resale value.
 - **Petrol**: Often easier to sell in cities where diesel bans/restrictions apply.
 
 ---
 
 ### **7. Best For**
+
 - **Diesel Car**:
   - High-mileage drivers (20,000+ km per year).
   - Long highway journeys.
@@ -77,6 +84,7 @@ Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** c
 ---
 
 ✅ **Summary:**
+
 - Choose **diesel** if you drive a lot of long distances every year and want efficiency plus torque.
 - Choose **petrol** if you drive mostly in the city, want lower upfront + maintenance costs, and smoother performance.
 

@@ -21,6 +21,7 @@ type: note
 - 模态框 HTML 结构中的 **`.modal-body`** 类
 
 ### 1. `container` 选项
+
 当您使用 `NgbModal.open(...)` 打开模态框时，可以传递选项：
 
 ```ts
@@ -45,6 +46,7 @@ this.modalService.open(content, {
 - 您在深度嵌套的组件中打开模态框
 
 ### 2. `.modal-body` 部分
+
 这**不是**一个选项——它是您在模态框模板中编写的 **HTML 结构** 的一部分：
 
 ```html

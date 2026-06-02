@@ -28,15 +28,18 @@ ncat --proxy localhost:7891 --proxy-type socks5 %h %p
    真正的目标（`o.target`）被保留，用于 SOCKS5 CONNECT 请求
 
 3. **调度** (ncat_connect.c:1064)
+
    ```c
    if (strcmp(o.proxytype, "socks5") == 0)
        connect_socket = do_proxy_socks5();
    ```
 
 4. **TCP 连接到代理** (ncat_connect.c:639, util.c:489-517)
+
    ```c
    sd = do_connect(SOCK_STREAM)
    ```
+
    创建原始 TCP 套接字，连接到 `targetaddrs`（= `localhost:7891`）
    这是 ncat 建立的**唯一**直接网络连接
 
@@ -54,6 +57,7 @@ ncat --proxy localhost:7891 --proxy-type socks5 %h %p
    - `dst`  = 主机名字节 + 端口（2 字节，网络字节序）
 
    以 `github.com:22` 为例：
+
    ```
    [0x05, 0x01, 0x00, 0x03, 0x0A]
    + "github.com"
@@ -67,9 +71,11 @@ ncat --proxy localhost:7891 --proxy-type socks5 %h %p
 
 8. **数据中继** (ncat_connect.c:1074-1097)
    代理协商成功后：
+
    ```c
    cs.sock_nsi = nsock_iod_new2(mypool, connect_socket, NULL);
    ```
+
    Nsock（nmap 的异步 I/O 库）接管原始套接字
    `nsock_loop(mypool, -1)` 运行事件循环
    数据流：`SSH <-> ncat stdin/stdout <-> SOCKS 代理 <-> 互联网`

@@ -141,6 +141,7 @@ For Open Liberty, add to `jvm.options`:
 ```
 
 **Agent limitations to be aware of:**
+
 - Configuration is shared between all applications deployed to the server. Configuration properties are only read from system properties and environment variables — not from MicroProfile Config configuration sources. Because the agent reads its configuration early in the startup process, system properties are not read from the `bootstrap.properties` file. Instead, set system properties in `jvm.options` using the syntax: `-Dname=value`.
 - The agent is not compatible with Java 2 security.
 

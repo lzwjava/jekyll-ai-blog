@@ -39,6 +39,7 @@ type: note
 若时间有限，建议优先观看卡帕西的入门课与瓦斯瓦尼的讲座——它们涵盖了核心知识。如需了解最新V5内容（2025年春季），可先观看课程概述。本系列完全免费且采用研讨模式，虽内容循序渐进，但各场次均可独立观看。
 
 **参考资料：**
+
 - [CS25官方录像页面](https://web.stanford.edu/class/cs25/recordings/)
 - [完整YouTube播放列表](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 - [V5智能体讲座Reddit讨论串](https://www.reddit.com/r/stanford/comments/1mzhxpy/seeking_resources_for_stanford_cs25_v5_lectures/)

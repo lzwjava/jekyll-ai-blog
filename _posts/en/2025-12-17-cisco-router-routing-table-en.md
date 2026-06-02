@@ -16,11 +16,12 @@ Answer:
 
 The correct answer is **A) show ip route**.
 
-### Comprehensive Explanation:
+### Comprehensive Explanation
 
 - **show ip route**: This is the primary Cisco IOS command used to display the IP routing table on a router. The routing table contains information about known networks (destinations), how they were learned (e.g., connected, static, or via dynamic routing protocols like OSPF, EIGRP, RIP, BGP), the next-hop address, administrative distance, metric, and the outgoing interface. It is essential for troubleshooting routing issues, verifying route installation, and understanding how the router forwards packets.
 
   Example output snippet:
+
   ```
   Router# show ip route
   Codes: C - connected, S - static, R - RIP, O - OSPF, B - BGP ...
@@ -37,7 +38,8 @@ The correct answer is **A) show ip route**.
 
 - **show mac address-table**: This command is used on Cisco switches to display the MAC address table (CAM table), showing learned MAC addresses, associated ports, and VLANs. It is unrelated to IP routing and does not exist or function the same way on pure routers.
 
-### Why the user selected D is incorrect:
+### Why the user selected D is incorrect
+
 Selecting **D) show mac address-table** indicates a possible confusion between Layer 2 switching functions (MAC learning and forwarding on switches) and Layer 3 routing functions (IP route lookup on routers). Routers operate primarily at Layer 3 and maintain a routing table for IP forwarding decisions, whereas the MAC address table is a Layer 2 construct used by switches.
 
 In summary, for viewing the routing table on a Cisco router, always use **show ip route** (or its variants like `show ip route ospf` to filter by protocol).

@@ -25,6 +25,7 @@ Answer:
 - Night owls aren’t “avoiding responsibility” by staying up—they’re often the most productive when the world shuts up and leaves them alone.
 
 References:
+
 - National Institutes of Health studies on chronotypes and intelligence/income correlations
 - Research from the University of Madrid and Liège showing night owls outperform in cognitive tests
 - American Academy of Sleep Medicine position on later school start times for adolescents

@@ -18,6 +18,7 @@ type: note
 **🚀 节点选择** (或包含“节点选择”字样的类似名称)
 
 ### 为什么 节点选择 是最佳的主选方案
+
 - 在中国流行的大多数 rule sets 中，该分组被专门设计为面向用户的国外/非中国流量的 **proxy selector**。
 - 它通常包含一系列优质节点（通常针对中国低延迟或高带宽进行了筛选）。
 - 其他分组更加专业化：
@@ -53,6 +54,7 @@ type: note
 | 全球拦截 | 广告/追踪器拦截 | 否 | 设为 REJECT |
 
 ### 针对你代理列表的实用建议
+
 - 你的可用优质节点主要是 **新加坡 (SG)**, **日本 (JP)**, **台湾 (TW)**, **美国 (US)** 等（香港节点较差/不可用）。
 - 在 **节点选择** 分组中 → 手动选择或使用 **url-test / fallback / load-balance** 策略，并选择表现最好的 SG/JP/US 节点（忽略香港节点）。
 - 如果 **节点选择** 包含过多的香港节点且延迟不佳 → 将主策略切换到 **漏网之鱼**（它通常继承类似的代理，但预过滤较少）。
@@ -65,5 +67,5 @@ GLOBAL / FINAL 策略组 → **🚀 节点选择**
 
 **References:**
 
-- https://docs.reiz.link/%E9%99%84%E5%BD%95/clash-advanced-usage
+- <https://docs.reiz.link/%E9%99%84%E5%BD%95/clash-advanced-usage>
 - GitHub 上的常见 Clash 规则讨论 (Loyalsoldier/clash-rules 模式)

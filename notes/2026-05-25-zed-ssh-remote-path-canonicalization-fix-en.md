@@ -20,16 +20,20 @@ Zed SSH remote opened `ssh://lzw@192.168.1.36/mnt/data/deepseek-v4-inference/` b
 Two issues found in `~/Library/Logs/Zed/Zed.log`:
 
 1. **Path canonicalization failure** (primary):
+
    ```
    ERROR [worktree] failed to canonicalize root path "/mnt/data/deepseek-v4-inference":
    canonicalizing "/mnt/data/deepseek-v4-inference": No such file or directory (os error 2)
    ```
+
    The Zed remote server process could see the path (it attempted file watching) but failed during `std::fs::canonicalize()`. Likely a stale remote server binary that had cached bad state.
 
 2. **inotify watch limit exhausted** (secondary):
+
    ```
    ERROR [crates/worktree/src/worktree.rs:5018] (remote server) OS file watch limit reached.
    ```
+
    Remote had `max_user_watches=65536` (default) — too low for Zed's file watcher.
 
 ## Fixes Applied

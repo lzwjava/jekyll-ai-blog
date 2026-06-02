@@ -15,6 +15,7 @@ type: note
 The issue seems specific to the GNOME Terminal app (default terminal emulator) getting stuck on a progress bar or spinner during launch, while other graphical apps (like Settings) and integrated terminals (like in VSCode) work fine. This often points to a configuration problem, corrupted settings, or a dependency issue with GNOME components, rather than a system-wide failure. Below, I'll outline how to check for errors using the system journal (via the `journalctl` command) and common fixes. Since the GNOME Terminal isn't accessible, use VSCode's integrated terminal for command-line work (open VSCode, go to View > Terminal).
 
 ### Using the System Journal (journalctl) to Check for Errors
+
 The "journal command" you're referring to is likely `journalctl`, part of systemd for viewing logs. It helps identify what's happening when GNOME Terminal tries to launch. Here's how to use it step-by-step:
 
 1. **Access a Working Terminal**: Use VSCode's terminal (or switch to a virtual console as described below).
@@ -28,6 +29,7 @@ The "journal command" you're referring to is likely `journalctl`, part of system
 If you spot recurring errors (e.g., "org.gnome.Terminal" profile corruption), note them for specific fixes below.
 
 ### Potential Fixes
+
 Based on common reports from Ubuntu forums and troubleshooting guides[1][2], try these in order, restarting your session (log out/in or reboot) after each. Start with non-destructive steps.
 
 1. **Use a Virtual Console (TTY) for Emergency Access**:
@@ -52,7 +54,7 @@ Based on common reports from Ubuntu forums and troubleshooting guides[1][2], try
    - In VSCode terminal or TTY: Update sources then reinstall:
      `sudo apt update && sudo apt install --reinstall gnome-terminal`.
    - For broader GNOME issues (since Settings works but terminal doesn't), try reinstalling core desktop:
-     `sudo apt install --reinstall ubuntu-gnome-desktop gnome-control-center` (this can fix dependent conflicts without affecting your data)[2][4].
+     `sudo apt install --reinstall ubuntu-gnome-desktop gnome-control-center` [this can fix dependent conflicts without affecting your data][2](4).
    - After reinstall, log out/in.
 
 5. **Update System and Check for Package Corruption**:
@@ -67,14 +69,15 @@ Based on common reports from Ubuntu forums and troubleshooting guides[1][2], try
    - As last resort, consider a fresh install if this recurs.
 
 ### Additional Tips
+
 - **Why VSCode Terminal Works**: It's likely using a different backend (e.g., built-in console) not tied to GNOME's terminal emulator.
 - **Prevent Future Issues**: After fixing, avoid manual edits to `/etc/environment` or `~/.profile` without backups. Use `apt` for installations.
 - **If Graphical Crashes Persist**: Check hardware (e.g., RAM via `free -h`) or run `sudo -i` in TTY for elevated tests.
 - No definitive logs provided, but these steps address 80-90% of cases (e.g., profile resets or reinstalls). If specific errors from `journalctl` are shared, I can refine this further[1][2]. If it persists, consider reporting on Ask Ubuntu forums for your exact setup.
 
 Citations:
-[1] https://askubuntu.com/questions/1442350/terminal-not-launching-in-ubuntu-22-04
-[2] https://www.reddit.com/r/Ubuntu/comments/1fedcnz/cannot_open_the_terminal/
-[3] https://unix.stackexchange.com/questions/737169/ubuntu-fails-to-boot-due-to-gnome-display-manager-error
-[4] https://stackoverflow.com/questions/74985183/settings-menu-missing-ubuntu-22-04
-[5] https://superuser.com/questions/1331658/why-cant-i-scroll-in-the-terminal
+[1] <https://askubuntu.com/questions/1442350/terminal-not-launching-in-ubuntu-22-04>
+[2] <https://www.reddit.com/r/Ubuntu/comments/1fedcnz/cannot_open_the_terminal/>
+[3] <https://unix.stackexchange.com/questions/737169/ubuntu-fails-to-boot-due-to-gnome-display-manager-error>
+[4] <https://stackoverflow.com/questions/74985183/settings-menu-missing-ubuntu-22-04>
+[5] <https://superuser.com/questions/1331658/why-cant-i-scroll-in-the-terminal>

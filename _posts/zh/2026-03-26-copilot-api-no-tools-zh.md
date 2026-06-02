@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**Question:** 来自 https://github.com/ericc-ch/copilot-api 的 GitHub Copilot API 是否具有 tool call 能力，类似于 OpenAI 风格的 function/tool calling？
+**Question:** 来自 <https://github.com/ericc-ch/copilot-api> 的 GitHub Copilot API 是否具有 tool call 能力，类似于 OpenAI 风格的 function/tool calling？
 
 **Answer:**
 

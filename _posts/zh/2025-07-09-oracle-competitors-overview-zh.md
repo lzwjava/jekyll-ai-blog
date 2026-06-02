@@ -11,6 +11,7 @@ type: note
 Oracle的主要竞争对手因产品领域而异，以下为各领域核心竞争者：
 
 **数据库管理：**
+
 - Microsoft SQL Server
 - IBM DB2
 - MySQL（注：虽为Oracle旗下产品，仍与其商业版本形成竞争）
@@ -19,18 +20,21 @@ Oracle的主要竞争对手因产品领域而异，以下为各领域核心竞�
 - MongoDB
 
 **云基础设施：**
+
 - 亚马逊云服务（AWS）——行业主导者
 - 微软Azure
 - 谷歌云平台
 - IBM Cloud
 
 **企业软件：**
+
 - SAP（ERP与商业应用领域主要竞争对手）
 - 微软（Dynamics、Office 365）
 - Salesforce（CRM及云端应用）
 - Workday（人力资源与财务管理）
 
 **Java与开发工具：**
+
 - 微软（.NET框架及Visual Studio）
 - IBM（WebSphere及开发工具）
 - 各类开源替代方案

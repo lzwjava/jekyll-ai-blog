@@ -17,12 +17,14 @@ Answer:
 **《前赤壁赋》** (The First Ode on the Red Cliffs / Former Rhapsody on Red Cliff) is one of the most famous prose-poems (赋) in Chinese literary history, written by **Su Shi** (苏轼, also known as Su Dongpo) in 1082 during his exile in Huangzhou (present-day Huanggang, Hubei).
 
 ### Basic Information
+
 - **Author**: Su Shi (1037–1101), courtesy name Zizhan (子瞻), art name Dongpo Jushi (东坡居士)
 - **Year**: 1082 (Song Shenzong Yuanfeng 5th year)
 - **Location described**: Red Cliffs (赤壁) along the Yangtze River — the piece is set near the site traditionally associated with the Battle of Red Cliffs (208 CE), though scholars now believe Su Shi was actually at a different Red Cliff cliff farther upstream.
 - **Companion piece**: 《后赤壁赋》 (The Second Ode on the Red Cliffs), written in the same year, three months later.
 
 ### Structure & Content Summary
+
 The work is written in the **fu** (rhapsody) style, blending prose and poetry with strong lyrical and philosophical elements.
 
 Typical structure can be divided into four main parts:
@@ -47,12 +49,14 @@ Typical structure can be divided into four main parts:
    Everyone becomes joyful again, they drink more, finish the wine, and fall asleep as the boat drifts on without anyone noticing.
 
 ### Literary & Philosophical Significance
+
 - Combines **Confucian**, **Daoist**, and **Buddhist** thought
 - Most representative work of Su Shi's optimistic, transcendent attitude toward adversity
 - The water-moon-water argument is one of the most famous philosophical passages in classical Chinese literature
 - Extremely influential in Chinese literary tradition — frequently quoted, recited, painted, and calligraphed for over 900 years
 
 ### Most Famous Lines (modern Chinese + English)
+
 客曰：「……哀吾生之须臾，羡长江之无穷。」
 → "… lamenting the brevity of our life, envying the endlessness of the Yangtze."
 
@@ -65,4 +69,5 @@ Typical structure can be divided into four main parts:
 《前赤壁赋》 remains one of the pinnacle works of Song dynasty literature and is still widely memorized and loved in Chinese-speaking world today.
 
 References:
+
 - None (classic literary work; explanation based on standard interpretations and original text)

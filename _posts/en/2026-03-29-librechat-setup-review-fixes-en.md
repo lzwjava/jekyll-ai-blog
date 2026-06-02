@@ -31,7 +31,8 @@ Here's my review of the LibreChat setup:
 
 ## 🔧 Quick Fixes
 
-**1. Generate proper secrets** — visit https://www.librechat.ai/toolkit/creds_generator and update these in `.env`:
+**1. Generate proper secrets** — visit <https://www.librechat.ai/toolkit/creds_generator> and update these in `.env`:
+
 ```
 CREDS_IV=your_generated_value
 JWT_SECRET=your_generated_value

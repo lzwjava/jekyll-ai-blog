@@ -15,18 +15,22 @@ Vim (short for Vi IMproved) is a powerful, modal text editor that's the default 
 The best way to learn hands-on is to run `vimtutor` in your terminal—it launches an interactive tutorial.
 
 ## 1. Opening and Closing Vim
+
 - Open or create a file: `vim filename.txt` (e.g., `vim notes.txt`).
 - Quit without saving: In Normal mode, type `:q!` and press Enter.
 - Exit Vim: See saving section below.
 
 ## 2. Modes
+
 - **Normal mode**: Default—use for commands. Press `Esc` to enter.
 - **Insert mode**: Press `i` (insert before cursor) or `a` (append after cursor) to enter. You'll see `-- INSERT --` at the bottom.
 - **Visual mode**: Press `v` to select text.
 - **Command-line mode**: Press `:` to enter (for save, quit, search).
 
 ## 3. Navigation (in Normal Mode)
+
 Use these instead of arrow keys for efficiency:
+
 - `h`: Left one character
 - `j`: Down one line
 - `k`: Up one line
@@ -43,6 +47,7 @@ Use these instead of arrow keys for efficiency:
 Enable line numbers: `:set number`
 
 ## 4. Inserting and Editing Text
+
 - Enter Insert mode:
   - `i`: Insert before cursor
   - `I`: Insert at start of line
@@ -57,6 +62,7 @@ Enable line numbers: `:set number`
 - Repeat last command: `.`
 
 ## 5. Deleting, Copying, and Pasting
+
 - Delete character: `x`
 - Delete line: `dd`
 - Delete range: `:3,5d` (lines 3 to 5)
@@ -67,17 +73,20 @@ Enable line numbers: `:set number`
 - Select text: `v` (character-wise), then move cursor; `Esc` to exit Visual.
 
 ## 6. Saving and Quitting
+
 - Save: `:w`
 - Save and quit: `:wq` or `:x` or `ZZ` (capital Z twice)
 - Force save and quit: `:wq!`
 - Quit without saving: `:q!` or `ZQ`
 
 ## 7. Searching
+
 - Search forward: `/pattern` (e.g., `/hello`), then Enter; `n` for next.
 - Search backward: `?pattern`
 - Replace: `:%s/old/new/g` (replace all "old" with "new")
 
 ## Quick Tips
+
 - Help: `:help` or `:h keyword`
 - Split screen: `:split filename` (horizontal) or `:vsplit filename` (vertical); `Ctrl + w w` to switch.
 - Practice in a test file to avoid mistakes.

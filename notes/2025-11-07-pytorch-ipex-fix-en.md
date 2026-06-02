@@ -44,6 +44,7 @@ pip install --upgrade intel-extension-for-pytorch
 If you actually need CUDA support (for NVIDIA GPUs), then you shouldn't be using Intel Extension for PyTorch at all - they serve different hardware. Intel Extension is for Intel GPUs (Arc, Flex, Max) and CPUs with optimizations.
 
 **Choose one:**
+
 - **For Intel GPU/CPU**: Use PyTorch CPU build + IPEX
 - **For NVIDIA GPU**: Use PyTorch CUDA build (no IPEX needed)
 

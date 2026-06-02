@@ -28,6 +28,7 @@ Over time, the role you occupy can become central to how you understand yourself
 In many cases, people see more of their coworkers than their own family and spend more time in the workplace than at home. Of course, this means that we grow attached to where we work, regardless of whether we find it crappy, draining, or difficult.
 
 After 5–10 years, you've built:
+
 - **Deep professional trust** — colleagues who already know how you work, your style, your strengths
 - **Internal political capital** — knowing who to call, who owes you a favor, who to avoid
 - **Personal friendships** — lunches, trips, after-work drinks, weddings, life milestones shared together
@@ -49,6 +50,7 @@ Your colleagues, friends inside the company, and even family may subtly (or not 
 This dynamic is often referred to as golden handcuffs: financial rewards that make it emotionally and psychologically difficult to leave a role, even when the personal cost is high.
 
 At senior levels (staff engineer, principal, manager), compensation packages often include:
+
 - Unvested stock options (RSUs)
 - Bonuses tied to tenure
 - Pension or retirement contributions

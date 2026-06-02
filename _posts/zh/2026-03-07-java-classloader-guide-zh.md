@@ -26,15 +26,18 @@ Java 源代码由 `javac` 编译器编译成 `.class` 文件，JVM 通过运行�
 每个 Java 程序至少有三个类加载器：
 
 ### 1. Bootstrap（Primordial）Class Loader
+
 这是根类加载器，负责加载核心 Java 类，例如 `java.lang.Object` 和 Java 标准库中的其他类。它用 native code 实现，是 JVM 本身的一部分。没有对应的 `ClassLoader` 对象。
 
 - **Java 8 及更早版本：** 从 `<JAVA_HOME>/jre/lib/rt.jar` 加载
 - **Java 9 及更高版本：** 从模块化运行时镜像加载核心 Java 类，通常位于 `<JAVA_HOME>/lib/modules` 或 `<JAVA_HOME>/jmods`，与 Java Platform Module System (JPMS) 集成。
 
 ### 2. Platform（Extension）Class Loader
+
 扩展类加载器负责加载 Java 扩展机制的一部分类。在 Java 8 中，它从 JRE 的 `lib/ext` 目录加载。在 Java 9+ 中，它变成了 **Platform Class Loader**，与模块系统协作。
 
 ### 3. Application（System）Class Loader
+
 应用类加载器是一个标准的 Java 类，它从 `CLASSPATH` 环境变量或 `-classpath` 命令行选项中列出的目录和 JAR 文件加载类。如果有多个版本，它加载第一个找到的类，并且它是最后一个搜索类的类加载器。如果找不到类，JVM 会抛出 `ClassNotFoundException`。
 
 ---
@@ -59,12 +62,15 @@ ClassLoader 遵循委托层次结构算法。当 JVM 遇到一个类时，它会
 ## 三个核心原则
 
 ### 1. 委托
+
 当被请求查找类或资源时，类加载器会在尝试自己查找之前，将搜索委托给其父类加载器。
 
 ### 2. 可见性
+
 可见性原则规定，由父 ClassLoader 加载的类对子 ClassLoader 可见，但由子 ClassLoader 加载的类对父 ClassLoader 不可见。
 
 ### 3. 唯一性
+
 唯一性属性确保类是唯一的，没有重复。这也确保由父类加载器加载的类不会被子类加载器再次加载。
 
 但是，请注意，类由 `ClassLoader + ClassName` 唯一标识，这意味着由两个不同 ClassLoader 加载的相同类在 JVM 中被视为两个不同的类。

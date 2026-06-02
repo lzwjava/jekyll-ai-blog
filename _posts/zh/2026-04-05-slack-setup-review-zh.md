@@ -22,7 +22,9 @@ type: note
 ## 🔧 仍需配置的步骤 (Slack 端配置)
 
 ### 1. 事件订阅
+
 在您的 Slack 应用面板 ([api.slack.com/apps](https://api.slack.com/apps)) 中：
+
 - 进入 **事件订阅** 页面
 - 将 **启用事件** 开关设为 **开启**
 - 在 **订阅机器人事件** 下，添加以下事件：
@@ -34,7 +36,9 @@ type: note
 - 点击 **保存更改**
 
 ### 2. OAuth 权限范围 (请确认)
+
 在 **OAuth 与权限** → **机器人令牌权限范围** 中，确保已添加以下权限：
+
 - `chat:write`
 - `channels:history`
 - `channels:read`
@@ -49,16 +53,22 @@ type: note
 - `app_mentions:read`
 
 ### 3. 邀请机器人至频道
+
 在每个您希望机器人响应的 Slack 频道中：
+
 - 输入 `/invite @您的机器人名称`，将其添加至频道
 
 ### 4. Socket 模式 (请确认)
+
 在 Slack 应用面板的 **Socket 模式** 页面：
+
 - 确保 Socket 模式为**已启用**
 - 应用级令牌应已处于激活状态
 
 ## 🧪 测试
+
 完成以上步骤后：
+
 1. 在已邀请机器人的频道中发送一条消息。
 2. 通过命令 `tail -f /tmp/openclaw/openclaw-2026-04-05.log | grep slack` 检查日志，查看是否有事件传入。
 

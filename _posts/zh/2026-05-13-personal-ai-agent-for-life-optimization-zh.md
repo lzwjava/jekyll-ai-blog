@@ -35,23 +35,27 @@ type: note
 ### 已能部分实现这些功能的现有工具
 
 **工作与职业监测：**
+
 - **Pallet / Levels.fyi** — 高薪科技岗位追踪
 - **领英职位提醒** — 基于关键词的职位监测
 - **Simplify / Teal** — AI驱动的求职助手
 - **80,000 Hours 招聘板** — AI/研究领域高影响力、高收入职位
 
 **人与社交网络追踪：**
+
 - **领英销售导航** — 跟踪人脉中的职业动向
 - **Crystal Knows** — 性格与沟通风格分析
 - **Notion / Clay CRM 中的人际关系追踪** — 管理联系人的人脉CRM
 
 **投资与机会信号：**
+
 - **Exploding Topics** — 在趋势达到顶峰前检测上升趋势
 - **Product Hunt** — 每日新产品发布
 - **Crunchbase / PitchBook 提醒** — 初创公司融资信号
 - **Perplexity / Elicit** — AI研究发现
 
 **世界监测器（你分享的项目）：**
+
 - 已处理地缘政治、金融与新闻聚合
 - 可通过个人过滤器扩展至招聘板、GitHub趋势、ArXiv论文等
 

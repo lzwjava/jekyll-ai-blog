@@ -15,6 +15,7 @@ Below is a detailed, step-by-step explanation of the provided code. This appears
 I'll break it down into sections: overall purpose, template analysis, script analysis, key features, dependencies, and potential issues/improvements. Since the code is in Chinese (with English variable names), I'll translate/explain key Chinese text where relevant.
 
 ### 1. **Overall Purpose**
+
 - **What it does:** This is a full-screen live/streaming video player component with interactive features. It handles:
   - Video playback (live streams or pre-recorded videos using HLS/M3U8).
   - Real-time chat (via LeanCloud's realtime messaging).
@@ -25,6 +26,7 @@ I'll break it down into sections: overall purpose, template analysis, script ana
 - **Structure:** Combines HTML (template), JavaScript logic (script), and CSS styling (stylus).
 
 ### 2. **Template Breakdown (HTML Structure)**
+
 The `<template>` defines the UI layout using Vue directives (e.g., `v-show`, `v-for`, `@click`). It's responsive and uses CSS classes for styling.
 
 - **Top Section: Player Area (`<div class="player-area">`)**
@@ -57,6 +59,7 @@ The `<template>` defines the UI layout using Vue directives (e.g., `v-show`, `v-
   - Overlays forms (e.g., reward, control, subscribe, QR pay) using dynamic components.
 
 ### 3. **Script Breakdown (JavaScript Logic)**
+
 The `<script>` is a Vue component definition. It uses mixins for utilities (e.g., `util`, `http`) and integrates with external services.
 
 - **Data Properties:**
@@ -95,6 +98,7 @@ The `<script>` is a Vue component definition. It uses mixins for utilities (e.g.
 - **LeanCloud Realtime:** Sets up client/conversation for chat, registers message types, handles events (e.g., reconnections, errors).
 
 ### 4. **Key Features and Interactions**
+
 - **Video Playback:**
   - Adaptive: Uses HLS.js for non-WeChat/Chrome; native `<video>` for WeChat/Safari. Handles MP4/M3U8 for vod/live.
   - Controls: Play/pause, poster auto-hide on play, error handling (e.g., reload on failure).
@@ -115,6 +119,7 @@ The `<script>` is a Vue component definition. It uses mixins for utilities (e.g.
   - Errors: Toast notifications (e.g., "加载出错，请刷新重试").
 
 ### 5. **Dependencies and Libraries**
+
 - **Vue 1.x:** Core framework (age: ~2015-2016).
 - **WeUI:** UI kit for WeChat-style components (cells, selects).
 - **LeanCloud Realtime:** For chat/conversations.
@@ -125,6 +130,7 @@ The `<script>` is a Vue component definition. It uses mixins for utilities (e.g.
 - **CSS:** Stylus for styling (animations, responsive layout).
 
 ### 6. **Potential Issues and Improvements**
+
 - **Security/Privacy:** Handles sensitive data (user IDs, payments). Ensure API endpoints are secure.
 - **Performance:** Video loading could be optimized (e.g., preloading). Intervals (e.g., every 5s for member count) might drain battery.
 - **Outdated Tech:** Vue 1.x is legacy; migrate to Vue 3. HLS.js for older browsers, but modern apps use native HLS.

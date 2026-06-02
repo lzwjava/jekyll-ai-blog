@@ -38,6 +38,7 @@ port = 18789
 ```
 
 Or if it's started via command line argument:
+
 ```bash
 # Change from
 openclaw --host 127.0.0.1 --port 18789
@@ -59,6 +60,7 @@ sudo apt install nginx
 ```
 
 Create a config file `/etc/nginx/sites-available/openclaw`:
+
 ```nginx
 server {
     listen 18790;              # external port (or use 18789 if you change openclaw's port)
@@ -75,6 +77,7 @@ server {
 ```
 
 Enable and restart:
+
 ```bash
 sudo ln -s /etc/nginx/sites-available/openclaw /etc/nginx/sites-enabled/
 sudo nginx -t
@@ -96,6 +99,7 @@ socat TCP-LISTEN:18790,fork,reuseaddr TCP:127.0.0.1:18789
 This forwards all connections on port `18790` (accessible by LAN IP) to the local `18789`. Access it at `http://192.168.1.36:18790`.
 
 To keep it running persistently, wrap it in a systemd service or use `nohup`:
+
 ```bash
 nohup socat TCP-LISTEN:18790,fork,reuseaddr TCP:127.0.0.1:18789 &
 ```

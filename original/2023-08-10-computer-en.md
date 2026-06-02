@@ -36,16 +36,17 @@ type: post
 * We can jump between the website and reference links to learn
 * By working out a final plan, we can know more and figure out the critical questions
 * Buy the best and latest products whose price you can afford.
+
 ## Websites
 
-* France, https://www.cdiscount.com
-* Global, https://www.amazon.com
-* Japan, https://www.rakuten.com
-* China, https://jd.com
-* South Korea, https://www.coupang.com
-* Global, https://www.ebay.com
-* Germany, https://www.otto.de
-* North America, https://www.bestbuy.com
+* France, <https://www.cdiscount.com>
+* Global, <https://www.amazon.com>
+* Japan, <https://www.rakuten.com>
+* China, <https://jd.com>
+* South Korea, <https://www.coupang.com>
+* Global, <https://www.ebay.com>
+* Germany, <https://www.otto.de>
+* North America, <https://www.bestbuy.com>
 
 ## Start
 
@@ -207,7 +208,7 @@ If I want to do machine learning, which I should buy, the i7 or i9?
 
 i9 13900
 
-https://cpu.userbenchmark.com/Compare/Intel-Core-i9-13900-vs-Intel-Core-i9-13900F/m1977296vsm1994287
+<https://cpu.userbenchmark.com/Compare/Intel-Core-i9-13900-vs-Intel-Core-i9-13900F/m1977296vsm1994287>
 
 ---
 
@@ -223,7 +224,7 @@ If your Intel processor has a K, that means that it is able to be overclocked an
 
 ---
 
-https://versus.com/en/asus-prime-z790-p-d4-vs-msi-mag-b760m-mortar-max-wifi
+<https://versus.com/en/asus-prime-z790-p-d4-vs-msi-mag-b760m-mortar-max-wifi>
 
 ---
 
@@ -246,25 +247,26 @@ ASUS TUF Gaming Z790-Plus WiFi LGA 1700.
 
 ---
 
-https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/
+<https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/>
 
-https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/
+<https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/>
 
 ---
 
-https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-TRIO-12G/Specification
+<https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-TRIO-12G/Specification>
 
-https://www.intel.com/content/www/us/en/products/sku/230497/intel-core-i913900kf-processor-36m-cache-up-to-5-80-ghz/specifications.html
+<https://www.intel.com/content/www/us/en/products/sku/230497/intel-core-i913900kf-processor-36m-cache-up-to-5-80-ghz/specifications.html>
 
-https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI
+<https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI>
 
-https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html
+<https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html>
 
-https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf, How to connect PCIe cables to high power consumption graphics cards properly?
+<https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf>, How to connect PCIe cables to high power consumption graphics cards properly?
 
-https://www.whatpsu.com/psu/cpu/Intel-Core-i9-13900K/gpu/NVIDIA-GeForce-RTX-4070-Ti
+<https://www.whatpsu.com/psu/cpu/Intel-Core-i9-13900K/gpu/NVIDIA-GeForce-RTX-4070-Ti>
 
-https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive, What is this 8 pin connector on my hard drive?
+<https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive>, What is this 8 pin connector on my hard drive?
+
 ## Final Selection
 
 From JD.com.
@@ -297,9 +299,9 @@ This is just my final decision considering what I know and my budget. Please do 
 
 ## Install Guide
 
-http://intel.cn/ProcessorInstall
+<http://intel.cn/ProcessorInstall>
 
-https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html
+<https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html>
 
 How to Set Up CORSAIR CX-F RGB Series Power Supplies
 
@@ -323,6 +325,7 @@ Where to connect PC case cables, power cables and more - computer wiring tips
 Graphics card installation is really easy! Just four simple steps, specially prepared for Xiaobai
 
 [https://www.bilibili.com/video/BV1tx411J7F1/?spm_id_from=888.80997.embed_other.whitelist&t=12&vd_source=89dab4a438fbb42994ef16c0af4d4e91](https://www.bilibili.com/video/BV1tx411J7F1/?spm_id_from=888.80997.embed_other.whitelist&t=12&vd_source=89dab4a438fbb42994ef16c0af4d4e91)
+
 ## BIOS Info
 
 CPU Info:

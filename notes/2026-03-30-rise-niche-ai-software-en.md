@@ -40,6 +40,7 @@ Traditionally, software had to justify its development cost by serving **million
 ## The "Scratching Your Own Itch" Model — Supercharged
 
 This was always the best software origin story:
+
 - **Linux** — Linus needed an OS
 - **Gmail** — Paul Buchheit needed better email
 - **Craigslist** — Craig needed a local events list
@@ -53,6 +54,7 @@ AI makes this happen at **1000x the speed** and **1/100th the cost**. Now anyone
 This is very likely. Here's why:
 
 ### The Long Tail of Software Needs
+
 ```
 Mass market apps (millions of users)     ████████  ← already saturated
 Mid-tier apps (100K users)               ████
@@ -61,6 +63,7 @@ Personal apps (1–100 users)             ░░░░░░░░░░░░  
 ```
 
 ### Real Examples Already Happening
+
 - Someone builds a **personal CRM** exactly how their brain works
 - A lawyer builds a **case research tool** tuned to their practice area
 - A teacher builds a **grading assistant** matching their exact rubric style

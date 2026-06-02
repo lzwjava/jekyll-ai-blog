@@ -130,7 +130,7 @@ Then VSCode shows them in picker.
 
 ---
 
-# 5. What it usually means when you see:
+# 5. What it usually means when you see
 
 "Use Codex with 5.4 nano"
 

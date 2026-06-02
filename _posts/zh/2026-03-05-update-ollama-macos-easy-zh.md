@@ -31,7 +31,7 @@ type: note
 
 ### 替代方法：强制手动更新 / 全新安装
 
-- 前往 → https://ollama.com/download
+- 前往 → <https://ollama.com/download>
 - 下载最新的 macOS **Ollama.dmg**
 - 打开 .dmg 文件
 - 将新的 Ollama.app 拖到 /Applications/（询问时替换旧版本）

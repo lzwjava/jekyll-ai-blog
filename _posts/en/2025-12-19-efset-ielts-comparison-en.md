@@ -17,6 +17,7 @@ Answer:
 The **EF SET** (EF Standard English Test) and **IELTS** (International English Language Testing System) both measure English proficiency and align with the CEFR (Common European Framework of Reference for Languages), but they differ significantly in format, skills assessed, cost, and acceptance.
 
 ### Score Equivalence (Approximate)
+
 EF SET provides an official approximate mapping to IELTS bands based on CEFR alignment and correlation studies. Note that there is **no exact or official conversion** between tests—equivalences are estimates only, as they measure slightly different aspects.
 
 | CEFR Level | EF SET Score (0-100) | Approximate IELTS Band |
@@ -31,6 +32,7 @@ EF SET provides an official approximate mapping to IELTS bands based on CEFR ali
 Your EF SET certificate will display the equivalent IELTS band range alongside your score.
 
 ### Key Differences
+
 - **Skills Tested**:
   - Standard EF SET Certificate: Reading and Listening only (receptive skills).
   - IELTS: All four skills—Listening, Reading, Writing, and Speaking (productive skills included).

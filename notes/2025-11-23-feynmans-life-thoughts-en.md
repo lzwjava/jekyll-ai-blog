@@ -22,7 +22,7 @@ It's based on three lectures Feynman gave in 1963 at the University of Washingto
 - Doubt, uncertainty, and the beauty of not knowing
 - Politics, pseudoscience, superstition, and freedom of thought
 
-### Key ideas Feynman expresses in *The Meaning of It All*:
+### Key ideas Feynman expresses in *The Meaning of It All*
 
 1. **Science cannot answer the ultimate “Why?” about meaning**
    “I can live with doubt and uncertainty and not knowing. I think it’s much more interesting to live not knowing than to have answers which might be wrong… The meaning of life? I have no idea. The meaning of the universe? No idea. But it’s fun trying to figure things out.”

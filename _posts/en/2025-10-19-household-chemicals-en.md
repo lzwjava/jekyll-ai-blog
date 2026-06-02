@@ -33,6 +33,7 @@ Hydrogen peroxide (H₂O₂) is a versatile chemical often found in household di
 These chemicals are staples in homes worldwide, often in diluted forms for safety. Always check labels for concentrations and ventilation needs.
 
 ### References
+
 - [14 Common Chemicals Found In The Home](https://www.chemicals.co.uk/blog/14-common-chemicals-found-in-the-home)
 - [26 Chemicals Used In Daily Life](https://www.pure-chemical.com/blog/list-of-chemicals-in-daily-life/)
 - [Household Chemicals (Wikipedia)](https://en.wikipedia.org/wiki/Household_chemicals)

@@ -13,7 +13,9 @@ type: note
 Denmark has a well-developed banking sector regulated by Finanstilsynet (the Danish Financial Supervisory Authority). It includes large commercial banks, mortgage credit institutions, regional savings banks (sparekasser), and branches of foreign banks. There are around 80-90 banks operating in the country, depending on the source, with a mix of domestic and international players. The largest banks dominate the market, with Danske Bank being the biggest by assets.
 
 #### Major Domestic Banks
+
 These are some of the top banks based on assets and market presence:
+
 - **Danske Bank**: The largest bank in Denmark, offering retail, corporate, and investment banking services. Headquartered in Copenhagen.
 - **Nykredit**: A major mortgage bank group, also providing banking services. Known for real estate financing.
 - **Nordea Danmark**: Part of the Nordic Nordea Group, offering full-service banking. It's one of the biggest in the region.
@@ -26,7 +28,9 @@ These are some of the top banks based on assets and market presence:
 - **Ringkjøbing Landbobank**: A regional bank in western Jutland.
 
 #### Savings Banks (Sparekasser)
+
 Denmark has numerous local savings banks, often community-focused. Examples include:
+
 - Sparekassen Kronjylland
 - Sparekassen Vendsyssel
 - Lollands Bank
@@ -34,7 +38,9 @@ Denmark has numerous local savings banks, often community-focused. Examples incl
 - And many smaller ones like Borbjerg Sparekasse or Klim Sparekasse.
 
 #### Branches of Foreign Banks
+
 Several international banks operate branches in Denmark, primarily from Nordic countries:
+
 - Handelsbanken (Sweden)
 - SEB (Sweden)
 - Swedbank (Sweden)

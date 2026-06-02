@@ -13,18 +13,23 @@ type: note
 ---
 
 ### 准备工作
+
 1. **已刷入 MicroPython**：您已将 `RPI_PICO-20250415-v1.25.0.uf2` 复制到 `RPI-RP2` 驱动器，且 Pico 已重启（`RPI-RP2` 驱动器应不再显示）。
 2. **USB 连接**：Pico 通过支持数据传输的 USB 线连接到计算机。
 3. **Thonny IDE**：如未安装请先安装：
    - **Linux**：通过包管理器安装或从 [thonny.org](https://thonny.org) 下载：
+
      ```bash
      sudo apt update
      sudo apt install thonny
      ```
+
    - 或使用 `pip` 安装：
+
      ```bash
      pip install thonny
      ```
+
    - Windows/macOS 用户请从 [thonny.org](https://thonny.org) 下载安装。
 
 ---
@@ -45,17 +50,22 @@ type: note
 
 3. **验证 MicroPython 运行状态**：
    - 在 Thonny 的 **Shell** 面板中应看到 MicroPython REPL 提示符：
+
      ```
      >>>
      ```
+
    - 输入简单命令进行测试，例如：
+
      ```python
      print("Hello, Pico!")
      ```
+
      按回车键后，将在 Shell 中看到输出内容。
 
 4. **编写简单 MicroPython 程序**：
    - 在 Thonny 主编辑器中创建新文件并编写程序。例如控制 Pico 板载 LED 闪烁的程序（Pico 使用 GPIO 25，Pico W 使用 "LED"）：
+
      ```python
      from machine import Pin
      import time
@@ -70,6 +80,7 @@ type: note
          led.off()          # 关闭 LED
          time.sleep(0.5)    # 等待 0.5 秒
      ```
+
    - 注意：若使用 Pico W，请将 `Pin(25, Pin.OUT)` 替换为 `Pin("LED", Pin.OUT)`。
 
 5. **将程序保存至 Pico**：
@@ -91,35 +102,43 @@ type: note
 ---
 
 ### 测试与故障排除
+
 - **无 REPL 提示符**：若 Thonny 未显示 MicroPython REPL：
   - 检查解释器设置中是否选对端口。
   - 确认 MicroPython 刷入成功。若失败请重新刷入 `.uf2` 文件。
   - 检查 USB 线（需支持数据传输）并尝试更换端口。
 - **LED 未闪烁**：确认使用正确的 GPIO 引脚（Pico 为 `25`，Pico W 为 `"LED"`）。如仍无效，可通过 REPL 命令测试 LED：
+
   ```python
   from machine import Pin
   led = Pin(25, Pin.OUT)
   led.on()
   ```
+
 - **文件保存失败**：确认 Thonny 已连接 Pico 且解释器设置为 MicroPython (Raspberry Pi Pico)。
 
 ---
 
 ### 补充提示
+
 - **使用其他工具**：除 Thonny 外，还可使用 `rshell` 或 `ampy` 管理 Pico 文件：
+
   ```bash
   pip install rshell
   rshell --port /dev/ttyACM0
   cp blink.py /pyboard/main.py
   ```
+
 - **更多示例程序**：
   - 读取按钮状态（例如 GPIO 14）：
+
     ```python
     from machine import Pin
     button = Pin(14, Pin.IN, Pin.PULL_UP)
     while True:
         print(button.value())
     ```
+
   - 通过调整 GPIO 引脚编号控制外部 LED 或其他外设。
 - **自动运行**：将文件保存为 `main.py` 可使其在启动时自动运行。使用 `boot.py` 存放先于 `main.py` 执行的初始化代码。
 

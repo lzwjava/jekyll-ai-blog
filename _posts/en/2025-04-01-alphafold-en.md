@@ -29,6 +29,7 @@ Proteins are the workhorses of life, made of chains of amino acids that fold int
 ### How AlphaFold (2) Works: The Big Picture
 
 AlphaFold 2 takes an amino acid sequence and outputs a 3D structure by:
+
 1. Leveraging **evolutionary data** to understand how sequences relate to structures.
 2. Using a **deep learning architecture** to model spatial relationships.
 3. Iteratively refining predictions to optimize the structure.
@@ -40,6 +41,7 @@ It’s built around two main components: an **Evoformer** (processing sequence a
 ### Step 1: Input Data
 
 AlphaFold starts with:
+
 - **Amino Acid Sequence**: The protein’s primary structure (e.g., a string of 100 amino acids).
 - **Multiple Sequence Alignment (MSA)**: A collection of related protein sequences from evolutionary databases (e.g., UniProt). This shows how the protein’s sequence varies across species, hinting at conserved regions critical to its structure.
 - **Template Structures**: Known 3D structures of similar proteins (optional, from PDB), though AlphaFold 2 relies less on these than its predecessor.
@@ -96,6 +98,7 @@ The Structure Module essentially “sculpts” the protein, turning abstract rel
 ### Step 4: Confidence Scoring and Refinement
 
 AlphaFold doesn’t just predict a structure—it tells you how confident it is:
+
 - **pLDDT (Predicted Local Distance Difference Test)**: A per-residue confidence score (0-100). High scores (e.g., >90) indicate reliable predictions.
 - **Recycling**: The model loops its output back into the Evoformer 3-5 times, refining predictions with each pass.
 - **Final Touches**: Side chains are added using a simpler geometric method, as the backbone dictates their placement.
@@ -105,10 +108,12 @@ AlphaFold doesn’t just predict a structure—it tells you how confident it is:
 ### Step 5: Training and Loss Function
 
 AlphaFold 2 was trained on:
+
 - **PDB Data**: ~170,000 known protein structures.
 - **MSA Databases**: Billions of protein sequences.
 
 The training loss combines:
+
 - **FAPE (Frame-Aligned Point Error)**: Measures how well predicted atom positions match the true structure in a physically meaningful way.
 - **Auxiliary Losses**: Enforce constraints like realistic bond lengths and clash avoidance.
 - **Distogram Loss**: Ensures predicted pairwise distances align with reality (from AlphaFold 1’s heritage).

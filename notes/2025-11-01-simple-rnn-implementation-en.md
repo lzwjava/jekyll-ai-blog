@@ -15,6 +15,7 @@ type: note
 Implementing an RNN from scratch in NumPy is a great way to understand the mechanics: the recurrent hidden state, forward propagation, and backpropagation through time (BPTT). Below is a basic example for binary classification on random sequences (similar to the previous PyTorch version). It uses univariate time series data (input_size=1), hidden_size=32, and sequence_length=10.
 
 This code includes:
+
 - Data generation.
 - RNN forward pass (with tanh activation for hidden states).
 - Backward pass (BPTT with simple gradient descent).
@@ -132,7 +133,8 @@ prediction = model.forward(test_seq)
 print(f'Prediction: {prediction.flatten()[0]:.4f}')
 ```
 
-#### How it Works:
+#### How it Works
+
 - **Data Generation**: Random sequences with binary labels based on sum.
 - **Forward Pass**: Processes the sequence timestep-by-timestep, updating hidden state `h_t = tanh(Wxh * x_t + Whh * h_{t-1} + bh)`. Output uses the final `h` with sigmoid.
 - **Backward Pass**: BPTT computes gradients for all timesteps, updating weights via simple GD. (Note: This is a minimal BPTT; full versions handle more precise accumulation.)

@@ -17,6 +17,7 @@ type: note
 难以入睡，尤其是在半夜醒来后难以再次入睡，是一种常见现象，被称为**睡眠维持性失眠**。这会影响很多人，可能是由环境因素（如蚊子）、压力、焦虑或让你保持警觉的细微担忧引发的。
 
 在你的案例中，可能结合了以下几个因素：
+
 - 你因为第二天的计划比平时更早睡觉（凌晨1点而不是3点），这可能会扰乱你正常的睡眠节律。
 - 蚊子在凌晨3点把你吵醒；即使问题解决了，你的身体和大脑也变得兴奋。
 - 刷X（以前的Twitter）让你暴露在蓝光和刺激性内容中，抑制了褪黑激素（睡眠激素）并使你的大脑保持活跃。
@@ -25,9 +26,11 @@ type: note
 这导致了零碎的睡眠，让你早上睡过头（弥补失去的休息），并在下午3点因睡眠质量差和生物钟紊乱而感到疲倦。
 
 ### 为什么细微的念头会产生巨大影响
+
 大脑在夜间高度敏感——在没有日间 distractions 的情况下，即使是一个微小的念头（例如，“如果我们明天迟到了怎么办？”）也会引发应激反应，释放肾上腺素和皮质醇。这会让你从放松状态转变为警觉状态，使睡眠变得难以捉摸。对睡眠本身的焦虑往往会使其恶化，形成恶性循环。
 
 ### 如何减少担忧并再次入睡
+
 - **接受清醒**：提醒自己半夜短暂醒来是正常的。避免看钟——这会增加焦虑。
 - **避免屏幕**：不要刷X或任何设备；蓝光会延迟睡眠。
 - **如果需要，离开床**：如果清醒超过15-20分钟，离开卧室，做一些无聊、平静的活动（例如，在昏暗的灯光下读一本枯燥的书），直到感到困倦。
@@ -38,6 +41,7 @@ type: note
 - **提前记录担忧**：晚上，写下第二天的计划和担忧，以“卸下”它们。
 
 ### 如何避免将来再发生这种情况
+
 - **保持规律的睡眠时间表**：即使有计划，也要坚持相似的睡觉/起床时间。避免大幅度改变睡前时间。
 - **睡前放松习惯**：睡前1小时，调暗灯光，避免使用屏幕，做放松活动（洗澡、阅读）。
 - **管理预期焦虑**：对于活动，提前做好准备，但设定一个“担忧截止时间”。重新构思：“一晚睡不好不会毁掉一切。”
@@ -50,9 +54,10 @@ type: note
 通过练习，这些方法可以显著减少类似情况的发生。如果频繁发生，请咨询医生以排除潜在问题。
 
 参考文献：
-- https://www.sleepfoundation.org/sleep-faqs/how-to-fall-back-asleep
-- https://www.hopkinsmedicine.org/health/wellness-and-prevention/up-in-the-middle-of-the-night-how-to-get-back-to-sleep
-- https://my.clevelandclinic.org/health/diseases/12119-insomnia
-- https://www.health.harvard.edu/staying-healthy/too-early-to-get-up-too-late-to-get-back-to-sleep
-- https://www.medicalnewstoday.com/articles/325294
-- https://www.sleepfoundation.org/mental-health/anxiety-and-sleep
+
+- <https://www.sleepfoundation.org/sleep-faqs/how-to-fall-back-asleep>
+- <https://www.hopkinsmedicine.org/health/wellness-and-prevention/up-in-the-middle-of-the-night-how-to-get-back-to-sleep>
+- <https://my.clevelandclinic.org/health/diseases/12119-insomnia>
+- <https://www.health.harvard.edu/staying-healthy/too-early-to-get-up-too-late-to-get-back-to-sleep>
+- <https://www.medicalnewstoday.com/articles/325294>
+- <https://www.sleepfoundation.org/mental-health/anxiety-and-sleep>

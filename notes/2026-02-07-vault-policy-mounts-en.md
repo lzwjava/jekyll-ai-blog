@@ -29,6 +29,7 @@ path "sys/mounts" {
 ```
 
 The main capabilities you can grant are:
+
 - `create` - Create new data
 - `read` - Read existing data
 - `update` - Modify existing data
@@ -45,6 +46,7 @@ The main capabilities you can grant are:
 - **Why it matters**: Secrets engines are components that store, generate, or encrypt data. Each type (like KV, PKI, AWS, database) gets mounted at a specific path
 
 **Common operations on `sys/mounts`:**
+
 - `read` on `sys/mounts` - List all enabled secrets engines
 - `create`/`update` on `sys/mounts/*` - Enable new secrets engines
 - `delete` on `sys/mounts/*` - Disable secrets engines

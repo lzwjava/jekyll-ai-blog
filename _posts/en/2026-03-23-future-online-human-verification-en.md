@@ -43,14 +43,17 @@ Without a way to verify how many real people are behind those agents, platforms 
 You're right that this is difficult, but it's not unsolved. Several serious approaches are being built right now:
 
 ### 1. **Biometric "Proof of Human" — World (formerly Worldcoin)**
+
 World, co-founded by Sam Altman, is dedicated to creating "proof of human" tech — ID verification tools for an internet increasingly overrun by AI-generated content. Their AgentKit allows a user's World ID to be integrated into the x402 payment protocol so that websites can verify a distinct, real human approves of an agent's actions. Their Chief Product Officer compared it to delegating "power of attorney" to an agent.
 
 The catch: it requires an iris scan via a physical "Orb" device. That creates massive friction and raises serious privacy concerns — World has been banned or investigated in at least ten countries over privacy and data concerns.
 
 ### 2. **Cryptographic Agent Identity**
+
 HUMAN Security released an open-source project where AI agents sign every HTTP request using HTTP Message Signatures (RFC 9421), and are identified using OWASP's Agent Name Service — a DNS-like naming system for AI agents. This allows web services to cryptographically verify that a specific, registered agent sent a given request.
 
 ### 3. **Micropayments as a Rate Limiter**
+
 The x402 protocol, developed by Coinbase and Cloudflare, allows agents to pay small amounts to access resources, using micropayments as a rate limiter. The ecosystem processed over 100 million payments in its first six months. However, micropayments can slow down bad actors but cannot fully address "Sybil dynamics" — if the economic incentive is high enough, the cost of a few cents per request becomes trivial.
 
 ---

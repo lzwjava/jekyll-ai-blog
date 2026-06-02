@@ -24,9 +24,9 @@ Content Providers serve several critical roles:
 * **Encapsulation of Data Access:** They encapsulate the logic for data access, ensuring that data is accessed and modified in a controlled, secure, and standardized manner, often using Uniform Resource Identifiers (URIs).
 * **Process Communication (IPC):** Content Providers are the standard mechanism for **Inter-Process Communication (IPC)** in Android, specifically for sharing data. An application can request data from another application's Content Provider, even if they run in separate processes.
 * **Integration with System Components:** They are necessary for integrating an application's data with core Android system features, such as:
-    * **Search suggestions** in the system search interface.
-    * Implementing complex **widgets** that display data outside the main application process.
-    * Transferring data via **Sync Adapters**.
+  * **Search suggestions** in the system search interface.
+  * Implementing complex **widgets** that display data outside the main application process.
+  * Transferring data via **Sync Adapters**.
 
 In essence, a Content Provider acts like a database server, offering structured access to data through methods like `query()`, `insert()`, `update()`, and `delete()`.
 

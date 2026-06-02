@@ -12,7 +12,8 @@ type: note
 
 GreptimeDB, an open-source cloud-native time-series database for observability data (like metrics, logs, and traces), relies on Apache DataFusion as a core dependency because its query engine is fundamentally built on top of DataFusion. DataFusion is a high-performance, extensible query planning, optimization, and execution framework written in Rust, leveraging Apache Arrow's in-memory columnar data format for efficient processing.
 
-### Key Reasons for This Dependency:
+### Key Reasons for This Dependency
+
 - **Performance and Efficiency**: DataFusion enables fast query execution by utilizing Arrow's zero-copy data model, which minimizes serialization overhead and supports vectorized operations. This is crucial for handling massive volumes of time-series data in GreptimeDB without compromising speed.
 
 - **Extensibility and Customization**: GreptimeDB extends DataFusion to add time-series-specific features, such as:

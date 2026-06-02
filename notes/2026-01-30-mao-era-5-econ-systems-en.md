@@ -46,6 +46,7 @@ During the **New Democracy period** (1949–1956) in China, the Communist Party 
 ---
 
 ### **Purpose and Transition**
+
 The coexistence of these five economies was a **transitional strategy** to rebuild China’s war-torn economy, stabilize society, and lay the groundwork for full socialism. By the mid-1950s, the CPC accelerated the socialist transformation, nationalizing private industries and collectivizing agriculture, ultimately phasing out the private and individual sectors.
 
 Would you like a deeper explanation of any specific type or its historical context?

@@ -14,12 +14,14 @@ Question: What does this NVIDIA-SMI output indicate about my GPU status and runn
 Answer: This text is the output of the **NVIDIA System Management Interface (nvidia-smi)**, a command-line utility used to monitor and manage NVIDIA GPU devices. Your specific output shows a high-end enterprise GPU currently running an AI workload.
 
 ### System Overview
+
 * **Driver Version (575.57.08):** The version of the NVIDIA graphics driver installed on your system.
 * **CUDA Version (12.9):** The maximum version of the CUDA toolkit supported by this driver.
 
 ---
 
 ### GPU Hardware Status
+
 The table describes the **NVIDIA H100 80GB HBM3**, one of the most powerful GPUs designed for AI and data centers.
 
 * **Memory Usage:** You are using **33,331 MiB** out of a total **81,559 MiB** (approx. 80GB). This means about 40% of the VRAM is occupied.
@@ -30,12 +32,11 @@ The table describes the **NVIDIA H100 80GB HBM3**, one of the most powerful GPUs
 ---
 
 ### Active Processes
+
 The lower section identifies exactly what is consuming those resources:
 
 * **Process Name:** `/usr/local/bin/ollama`
 * **Type (C):** The "C" stands for **Compute**. This confirms the GPU is being used for a computational task (like LLM inference) rather than a graphical display.
 * **Memory Consumption:** The **Ollama** process is responsible for almost all the used memory (**33,322 MiB**), which suggests you have a large language model (LLM) loaded into the GPU memory.
-
-
 
 Would you like me to explain how to optimize the memory usage for this specific Ollama process?

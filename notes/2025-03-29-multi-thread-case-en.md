@@ -11,6 +11,7 @@ type: note
 To handle multi-threaded validation in a Java Spring Boot project with 10 rules, where some rules may access the database and you want to cancel the others as soon as one fails to avoid wasting time, you can use Java’s concurrency utilities in combination with Spring’s features. Here’s a complete and efficient solution:
 
 ### Approach Overview
+
 - **Run validations concurrently**: Use multiple threads to execute the 10 validation rules in parallel, speeding up the process when all rules pass.
 - **Cancel on failure**: Stop remaining validations as soon as any rule fails, minimizing unnecessary work.
 - **Leverage Spring**: Utilize Spring’s dependency injection and transaction management for database-accessing rules.
@@ -22,6 +23,7 @@ The best way to achieve this is by using an `ExecutorService` paired with a `Com
 ### Step-by-Step Solution
 
 #### 1. Define Validation Rules
+
 Each of the 10 rules should be an independent validation task. Some rules may involve database access, so encapsulate them in a service with transactional methods.
 
 ```java
@@ -45,6 +47,7 @@ public class RuleValidator {
 - Use `@Transactional(readOnly = true)` for rules that only read from the database, ensuring each runs in its own transaction context in a thread-safe manner.
 
 #### 2. Configure an ExecutorService
+
 Define a thread pool to manage the concurrent execution of validation tasks. In Spring, you can create it as a bean:
 
 ```java
@@ -60,6 +63,7 @@ public class AppConfig {
 - Adjust the thread pool size based on your system’s capabilities (e.g., CPU cores, database connection limits).
 
 #### 3. Implement Multi-threaded Validation
+
 Create a service that orchestrates the validation process using `CompletionService`:
 
 ```java
@@ -130,6 +134,7 @@ public class ValidationService {
 ```
 
 #### How It Works
+
 - **Task Creation**: Each validation rule is wrapped in a `Callable<Boolean>` that returns `true` if the rule passes and `false` if it fails. Exceptions are caught and treated as failures.
 - **Concurrent Execution**: Tasks are submitted to the `CompletionService`, which runs them in parallel using the thread pool. Futures are collected to track task status.
 - **Result Processing**: `completionService.take()` retrieves the next completed task’s result. If any result is `false`, the loop breaks, and `hasFailed` is set.
@@ -139,6 +144,7 @@ public class ValidationService {
 ---
 
 ### Key Considerations
+
 - **Database Access**: Since rules may access the database, `@Transactional` ensures thread-safe operations. Each task runs in its own transaction, which is appropriate for independent validations.
 - **Task Cancellation**: Cancelling a `Future` interrupts the thread, but ongoing database queries may not stop immediately. However, this still prevents further processing and lets the main thread proceed.
 - **Exception Handling**: Exceptions (e.g., database errors) are caught within tasks and treated as failures, ensuring robust behavior.
@@ -147,6 +153,7 @@ public class ValidationService {
 ---
 
 ### Why This Is the Best Approach
+
 - **Efficiency**: Validations run concurrently, reducing total time when all pass.
 - **Early Termination**: `CompletionService` allows immediate failure detection, and cancellation stops unnecessary work.
 - **Simplicity**: Leverages standard Java concurrency utilities and integrates seamlessly with Spring Boot.
@@ -157,6 +164,7 @@ Alternative approaches like `CompletableFuture` or polling `Future` results with
 ---
 
 ### Usage Example
+
 Inject and call the service in your controller or business logic:
 
 ```java

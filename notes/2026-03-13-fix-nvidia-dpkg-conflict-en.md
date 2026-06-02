@@ -47,6 +47,7 @@ sudo apt --fix-broken install
 ```
 
 Or using the apt cache path if the files are there:
+
 ```bash
 sudo dpkg -i --force-overwrite /var/cache/apt/archives/nvidia-kernel-common-535_535.288.01-0ubuntu1_amd64.deb
 sudo apt --fix-broken install
@@ -80,6 +81,7 @@ sudo reboot
 ```
 
 After reboot, verify the driver is loaded:
+
 ```bash
 nvidia-smi
 ```
@@ -89,6 +91,7 @@ nvidia-smi
 ## Why This Happens
 
 You likely have packages from **two different sources** installed simultaneously:
+
 - Ubuntu's official repo packages: `...-0ubuntu1`
 - NVIDIA's own repo packages: `...-0ubuntu0.22.04.1`
 

@@ -14,6 +14,7 @@ type: note
 是的！**LibreChat** 是工程师和高级用户的绝佳选择，它能让你完全掌控自己的AI聊天机器人体验。以下是它在定制化和灵活性方面的突出优势：
 
 ### **LibreChat对工程师的核心优势**
+
 1. **模型选择与端点配置**
    - 可**自主启用/禁用模型**（如GPT-4、Claude、Mistral、Llama等）
    - 配置**自定义端点**（如通过Ollama、LM Studio或本地API自托管模型）
@@ -47,12 +48,14 @@ type: note
 | **成本结构**        | 按量付费                | 20美元/月固定费用        |
 
 ### **适用人群**
+
 ✅ 需要完全掌控模型与API的**工程师**
 ✅ 注重数据隐私的**云端服务规避者**
 ✅ 不愿支付定期订阅费的**成本敏感型用户**
 ✅ 热衷定制AI工作流的**技术爱好者**
 
 ### **快速开始**
+
 - **GitHub仓库**：[https://github.com/danny-avila/LibreChat](https://github.com/danny-avila/LibreChat)
 - **Docker部署**：通过`docker-compose`快速搭建
 - **OpenRouter集成**：使用聚合API访问多模型服务

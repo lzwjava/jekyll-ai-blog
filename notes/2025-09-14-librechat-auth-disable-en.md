@@ -32,6 +32,7 @@ If you access your instance over **HTTP** (e.g., LAN IP), cookies are marked `se
   SESSION_EXPIRY=1000 * 60 * 60 * 24       # 24h
   REFRESH_TOKEN_EXPIRY=(1000 * 60 * 60 * 24) * 30  # 30d
   ```
+
 * Restart containers after changing env.
   This keeps you logged in for days/weeks and fixes the cookie drop. ([GitHub][2])
 
@@ -44,6 +45,7 @@ If you access your instance over **HTTP** (e.g., LAN IP), cookies are marked `se
     api:
       command: npm run backend:dev
   ```
+
 * `docker compose up -d` to apply.
   This is less secure (cookies not `secure`), but it stops the forced re-login over plain HTTP. ([librechat.ai][3])
 

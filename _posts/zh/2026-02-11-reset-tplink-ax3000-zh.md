@@ -34,7 +34,7 @@ Answer:
 **成功 reset 后：**
 
 - 默认 Wi-Fi 名称 (SSID) 和密码 → 印在 router 底部或背面的标签上（通常以 **TP-Link_XXXX** 开头，并配有随机密码）。
-- Web management 地址 → http://tplinkwifi.net 或 http://192.168.0.1 或 http://192.168.1.1
+- Web management 地址 → <http://tplinkwifi.net> 或 <http://192.168.0.1> 或 <http://192.168.1.1>
 - 默认登录信息 → username: **admin** / password: **admin**
   (注意：在许多较新的 firmware 版本上没有默认的 admin/admin；第一次登录会强制你创建一个新密码。)
 
@@ -43,13 +43,14 @@ Answer:
 ### Method 2: Software Reset (通过 web interface – 仅限仍能登录的情况)
 
 1. 将你的电脑或手机连接到 router 当前的 Wi-Fi 网络，或者通过 Ethernet cable 直接连接到其中一个 LAN port。
-2. 打开浏览器并访问 http://tplinkwifi.net 或 http://192.168.0.1 (或 http://192.168.1.1)。
+2. 打开浏览器并访问 <http://tplinkwifi.net> 或 <http://192.168.0.1> (或 <http://192.168.1.1)。>
 3. 使用当前的 admin username 和 password 登录。
 4. 进入 **Advanced** → **System Tools** (或 **System**) → **Backup & Restore** 或 **Factory Defaults**。
 5. 点击 **Factory Defaults** / **Restore to Factory Default Settings** 并确认操作。
 6. 等待 router 重启（通常 1–2 分钟）。
 
 无论使用哪种方法，你都需要重新设置 router：
+
 - 重新输入你的 ISP broadband 凭据（如果需要，输入 PPPoE username/password）。
 - 创建新的 Wi-Fi 名称和密码。
 - 在首次设置期间设置新的 admin password。

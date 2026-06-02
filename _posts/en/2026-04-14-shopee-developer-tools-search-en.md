@@ -22,6 +22,7 @@ Unfortunately, there is no publicly available information about Shopee's specifi
 Based on available information, Shopee's engineering team uses:
 
 **Development Technologies:**
+
 - **Frontend:** JavaScript, React, Redux, Webpack, Babel
 - **Backend:** Python (for ML/data analysis), Java (for scalable services), PHP (for web)
 - **Data Engineering:** Spark and Scala for batch processing, Flink and Java for streaming processing
@@ -43,6 +44,7 @@ While Shopee's specific policies are not disclosed, typical tech companies in Si
 ## Recommendation
 
 If you need specific information about Shopee's developer policies for potential employment or partnership purposes, I recommend:
+
 - Contacting Shopee's HR or recruitment team directly
 - Reaching out to current Shopee engineers through LinkedIn
 - Checking Shopee's official careers page or engineering blog for any public documentation

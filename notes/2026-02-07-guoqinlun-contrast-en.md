@@ -15,14 +15,17 @@ The question is about the **main argumentation method** used in **"Guo Qin Lun" 
 ---
 
 ### **Correct Answer:**
+
 **C. 对比法 (Contrast/Comparison Method)**
 
 ---
 
 ### **Explanation:**
+
 **"Guo Qin Lun" (《过秦论》)** primarily uses the **contrast method (对比法)** to argue its points. The author, Jia Yi, repeatedly contrasts different historical figures, states, and events to highlight the rise and fall of the Qin Dynasty and to emphasize the reasons for its downfall.
 
 #### **Key Examples of Contrast in the Text:**
+
 1. **Contrast between the Six States and Qin:**
    - The six states (齐、楚、燕、韩、赵、魏) were once powerful but eventually fell to Qin due to their internal weaknesses and Qin's strength.
    - Qin, under the same circumstances, rose to power but later collapsed due to its own policies and mistakes.
@@ -37,6 +40,7 @@ The question is about the **main argumentation method** used in **"Guo Qin Lun" 
 ---
 
 ### **Why Not Other Methods?**
+
 - **A. 类比法 (Analogy):** The text does not primarily rely on analogies to make its argument.
 - **B. 归纳法 (Induction):** While some inductive reasoning is present, it is not the dominant method.
 - **D. 演绎法 (Deduction):** The text does not primarily use deductive logic to derive conclusions from general principles.
@@ -44,4 +48,5 @@ The question is about the **main argumentation method** used in **"Guo Qin Lun" 
 ---
 
 ### **Conclusion:**
+
 The **contrast method (对比法)** is the most prominent and effective argumentation technique in **"Guo Qin Lun."** It allows Jia Yi to vividly illustrate the causes of Qin's rise and fall, making his argument compelling and memorable.

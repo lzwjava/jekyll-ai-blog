@@ -40,6 +40,7 @@ Open it in your browser — the setup wizard will launch automatically.
 ### 4. Client Apps
 
 Install on any device:
+
 - **Android/Android TV** → [Jellyfin on Play Store](https://play.google.com/store/apps/details?id=org.jellyfin.mobile)
 - **iOS/Apple TV** → [Jellyfin on App Store](https://apps.apple.com/app/jellyfin-mobile/id1480192618)
 - **Desktop** → [Jellyfin Media Player](https://github.com/jellyfin/jellyfin-media-player)

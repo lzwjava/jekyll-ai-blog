@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Overview
+
 *The Psychology of Money* by Morgan Housel is a bestselling book that examines how human behavior, emotions, and biases shape our relationship with money far more than intelligence or technical knowledge. Rather than offering formulas for getting rich, it uses 20 short, timeless stories to illustrate why financial success is often about humility, patience, and realistic expectations. The core message: Doing well with money has little to do with what you know and everything to do with how you behave. Key themes include the role of luck and risk, the power of compounding over time, the difference between being rich (high income) and wealthy (financial freedom), and the emotional costs of investing—like fear, regret, and uncertainty.
 
 ### The 20 Timeless Lessons
+
 Housel distills his insights into these practical, psychology-driven lessons:
 
 1. **No one's crazy**: People's financial decisions make sense in the context of their unique experiences, incentives, and environments—judge less, understand more.

@@ -42,35 +42,47 @@ These features make OpenShift a one-stop solution for managing the entire applic
 Getting started with OpenShift is straightforward. Follow these steps to set up your environment and deploy your first application.
 
 ### Step 1: Sign Up or Install OpenShift
+
 - **Cloud Option**: Sign up for a free account on [Red Hat OpenShift Online](https://www.openshift.com/products/online/) to use OpenShift in the cloud.
 - **Local Option**: Install [Minishift](https://docs.okd.io/latest/minishift/getting-started/installing.html) to run a single-node OpenShift cluster locally for development.
 
 ### Step 2: Install the OpenShift CLI
+
 The OpenShift Command Line Interface (CLI), known as `oc`, lets you interact with the platform from your terminal. Download it from the [official OpenShift CLI page](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html) and follow the installation instructions for your operating system.
 
 ### Step 3: Log In and Create a Project
+
 - Log in to your OpenShift cluster using the CLI:
+
   ```bash
   oc login <cluster-url> --token=<your-token>
   ```
+
   Replace `<cluster-url>` and `<your-token>` with the details provided by your OpenShift instance.
 - Create a new project to organize your applications:
+
   ```bash
   oc new-project my-first-project
   ```
 
 ### Step 4: Deploy an Application
+
 Deploy a sample application, such as a Node.js app, using the `oc new-app` command:
+
 ```bash
 oc new-app nodejs~https://github.com/sclorg/nodejs-ex.git
 ```
+
 This uses OpenShift’s Source-to-Image (S2I) feature to build and deploy the app directly from the Git repository.
 
 ### Step 5: Expose the Application
+
 Make your application accessible via a URL by creating a route:
+
 ```bash
 oc expose svc/nodejs-ex
 ```
+
 Run `oc get route` to find the URL and visit it in your browser to see your app live!
 
 ---
@@ -80,35 +92,49 @@ Run `oc get route` to find the URL and visit it in your browser to see your app 
 Once you’ve set up OpenShift, you can leverage its features to manage applications effectively. Here’s how to use some of its core functionalities.
 
 ### Deploying Applications
+
 OpenShift offers flexibility in how you deploy apps:
+
 - **Source-to-Image (S2I)**: Automatically builds and deploys from source code. For example:
+
   ```bash
   oc new-app python~https://github.com/example/python-app.git
   ```
+
 - **Docker Images**: Deploy pre-built images:
+
   ```bash
   oc new-app my-image:latest
   ```
+
 - **Templates**: Deploy common services like MySQL:
+
   ```bash
   oc new-app --template=mysql-persistent
   ```
 
 ### Managing Containers
+
 Use the CLI or web console to manage container lifecycles:
+
 - **Start a build**: `oc start-build <buildconfig>`
 - **Scale an app**: `oc scale --replicas=3 dc/<deploymentconfig>`
 - **View logs**: `oc logs <pod-name>`
 
 ### Scaling Applications
+
 Adjust your app’s capacity easily. To scale to three instances:
+
 ```bash
 oc scale --replicas=3 dc/my-app
 ```
+
 OpenShift handles load balancing across these replicas automatically.
 
 ### Monitoring and Logging
+
 Keep tabs on your app with built-in tools:
+
 - **Prometheus**: Monitors metrics like CPU and memory usage.
 - **Grafana**: Visualizes performance data.
 - **Elasticsearch and Kibana**: Centralize and analyze logs.
@@ -133,6 +159,7 @@ These practices ensure your applications are secure, efficient, and scalable.
 ## Use Cases for OpenShift
 
 OpenShift shines in a variety of scenarios:
+
 - **Microservices**: Manage and scale microservices with built-in service discovery and load balancing.
 - **DevOps**: Bridge development and operations with CI/CD and automation tools.
 - **Hybrid Cloud**: Deploy apps across on-premises and cloud environments seamlessly.

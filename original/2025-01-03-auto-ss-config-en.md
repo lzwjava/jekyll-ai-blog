@@ -30,6 +30,7 @@ This tool has been a game-changer for me, especially when my Shadowsocks server 
 ## Setup
 
 1. **Install dependencies**:
+
     ```bash
     pip install -r requirements.txt
     ```
@@ -40,6 +41,7 @@ This tool has been a game-changer for me, especially when my Shadowsocks server 
     - Or set `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 
 3. **Copy `app_config_tmp.yaml` to `app_config.yaml` and configure**:
+
     ```yaml
     bucket_name: your-bucket-name
     ss_urls:
@@ -49,12 +51,14 @@ This tool has been a game-changer for me, especially when my Shadowsocks server 
 ## Usage
 
 1. **Add your Shadowsocks URLs to the `ss_urls` list in `app_config.yaml`**:
+
     ```yaml
     ss_urls:
         - ss://method:password@server:port
     ```
 
 2. **Upload configurations**:
+
     ```bash
     python upload_configs.py
     ```

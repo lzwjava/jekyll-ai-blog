@@ -13,6 +13,7 @@ type: note
 ---
 
 ## **1. 受检异常（必须处理或用 `throws` 声明）**
+
 1. **IOException** – 通用 I/O 故障
 2. **FileNotFoundException** – 文件缺失或无法访问
 3. **InterruptedException** – 线程被中断
@@ -59,6 +60,7 @@ type: note
 ---
 
 ## **2. 非受检异常（运行时异常）**
+
 43. **NullPointerException** – 访问空对象引用
 44. **ArrayIndexOutOfBoundsException** – 访问无效的数组索引
 45. **StringIndexOutOfBoundsException** – 访问无效的字符串索引
@@ -98,6 +100,7 @@ type: note
 ---
 
 ## **3. 错误（不应捕获的严重问题）**
+
 78. **StackOverflowError** – 递归方法调用过多
 79. **OutOfMemoryError** – JVM 内存耗尽
 80. **VirtualMachineError** – 关键 JVM 错误
@@ -124,4 +127,5 @@ type: note
 ---
 
 ### **结语**
+
 这是 Java 异常和错误的完整列表。如需了解特定异常的更多详细信息，请随时告知！🚀

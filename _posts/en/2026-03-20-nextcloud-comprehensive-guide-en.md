@@ -16,9 +16,11 @@ Answer:
 Here is a comprehensive, up-to-date (as of March 2026) guide to **Nextcloud**, covering server setup basics, client usage (desktop and mobile), core features, and supported file types. Nextcloud is a powerful open-source, self-hosted platform for file sync, sharing, collaboration, calendars, contacts, and more.
 
 ### 1. Server Installation and Setup
+
 Nextcloud Server runs on Linux (recommended), with support for other platforms via Docker or manual setup.
 
 **Recommended system requirements (2026):**
+
 - **OS**: Ubuntu 24.04 LTS (strongly recommended), Ubuntu 22.04 LTS, Red Hat Enterprise Linux 9, Debian 12, openSUSE Leap 15.6, etc. (64-bit only for best performance).
 - **Database**: MariaDB 10.11 (recommended) or MySQL 8.4, PostgreSQL 15–17, SQLite (only for testing).
 - **PHP**: 8.2 or 8.3 (8.3 recommended).
@@ -26,7 +28,9 @@ Nextcloud Server runs on Linux (recommended), with support for other platforms v
 - **CPU/RAM**: At least 2 cores and 4 GB RAM for small/medium use; more for heavy collaboration or many users.
 
 **Easiest installation methods (2025–2026):**
+
 - **Docker (recommended for home/self-hosted users)**: Use the official `nextcloud` Docker image with `docker-compose`. Example basic `docker-compose.yml`:
+
   ```yaml
   version: '3'
   services:
@@ -61,6 +65,7 @@ Nextcloud Server runs on Linux (recommended), with support for other platforms v
     db:
     nextcloud:
   ```
+
   Run with `docker compose up -d`, then visit `http://your-ip:8080` to complete the web installer.
 
 - **Manual install on Ubuntu**: Follow the official guide — install LAMP/LEMP stack, download the latest `.tar.bz2` from nextcloud.com, extract to web root, set permissions, run the web installer.
@@ -68,26 +73,30 @@ Nextcloud Server runs on Linux (recommended), with support for other platforms v
 - After installation: Create an admin account, configure trusted domains, enable HTTPS (via Let's Encrypt + Caddy/Nginx/Apache), set up background jobs (cron), and enable apps like Calendar, Contacts, Talk, Text, etc. from the Apps store.
 
 ### 2. Clients (Desktop and Mobile)
+
 Nextcloud provides official sync clients for seamless file access and synchronization.
 
 **Desktop Client (Windows, macOS, Linux):**
-- Download from: https://nextcloud.com/install/#install-clients (latest ~v4.0.x in 2026).
+
+- Download from: <https://nextcloud.com/install/#install-clients> (latest ~v4.0.x in 2026).
 - Supported: Windows 10+ (64-bit), macOS 12.0+ (64-bit), Linux (AppImage works on most distros, e.g., Ubuntu 22.04+).
 - Setup:
   1. Install and launch the client.
-  2. Enter your Nextcloud server URL (e.g., https://cloud.yourdomain.com).
+  2. Enter your Nextcloud server URL (e.g., <https://cloud.yourdomain.com>).
   3. Log in with your username and password (or use app password for security).
   4. Choose folders to sync (selective sync available — only sync what you need).
   5. Virtual file support on Windows/macOS (files appear locally but download on open — saves space).
 - Features: Two-way sync, conflict handling, versioning, activity feed, sharing from desktop.
 
 **Mobile Clients (Android & iOS):**
+
 - Download: "Nextcloud" app from Google Play or Apple App Store.
 - Setup: Same as desktop — add server URL, login.
 - Key features: Auto-upload photos/videos, instant upload, offline access, background sync, end-to-end encryption support.
 - Additional: Nextcloud Talk app for chat/video calls (separate or integrated).
 
 ### 3. Core Features and Usage
+
 - **Web Interface**: Access via browser — Files app for upload/download/share, preview many file types, create/edit documents (with Text/OnlyOffice/Collabora), share links (password, expiration, edit permissions).
 - **Sharing**: Internal (users/groups), external public links, federated sharing (with other Nextcloud instances).
 - **End-to-End Encryption (E2EE)**: Enable for folders — only you can decrypt (client-side).
@@ -97,9 +106,11 @@ Nextcloud provides official sync clients for seamless file access and synchroniz
 - **Security**: 2FA, brute-force protection, rate limiting, audit logs.
 
 ### 4. Supported File Types
+
 Nextcloud supports virtually **any file type** for storage and sync — there are no hard restrictions on upload (except admin-configurable blacklists or size limits).
 
 **Key highlights:**
+
 - **All common formats** work without issues: documents (.docx, .xlsx, .pptx, .odt, .ods, .pdf), images (.jpg, .png, .gif, .webp, .heic), audio (.mp3, .wav, .flac, .m4a), video (.mp4, .mkv, .mov, .avi), archives (.zip, .rar, .7z), code (.py, .js, .cpp, .md), etc.
 - Special/niche files (e.g., .sla, .story, .blend, scientific formats): Fully supported for storage/sync, but previews/editing depend on installed apps or external tools.
 - **Previews & thumbnails** (generated server-side):

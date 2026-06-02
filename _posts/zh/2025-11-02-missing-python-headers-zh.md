@@ -15,6 +15,7 @@ type: note
 这是 PyTorch **Torch Inductor**（`torch.compile` 后端的一部分）的编译错误，它会动态生成并编译优化的 C++ 代码以加速模型执行。该过程在使用 `g++` 进行 C++ 编译时失败。让我们来分析一下：
 
 #### 错误信息的关键部分
+
 - **根本原因**：`fatal error: Python.h: No such file or directory`
   - 生成的 C++ 文件（`cxyve26btthvhcuhmj6fjdn6e6op2ypybj7jmfcjx275gxkffhg5.cpp`）在第 94 行包含了 `#include <Python.h>`。
   - `Python.h` 是 **Python C API** 的核心头文件，这里被使用是因为 Torch Inductor 为了性能而在 C++ 中包装了 Python 对象（例如张量）。
@@ -33,34 +34,44 @@ type: note
 这通常发生在安装了 Python（例如通过 `apt` 或 `pyenv`）但未安装**开发头文件**（包含 `Python.h`）的环境中。在像 Ubuntu/Debian 这样的 Linux 发行版上很常见。
 
 #### 为什么会发生这种情况
+
 - PyTorch 的 inductor 需要在 C 级别与 Python 交互，以进行张量操作等事情。
 - 如果您在容器、虚拟环境或最小化操作系统安装中运行，开发头文件可能为了节省空间而被跳过。
 - Python 3.13 相对较新（于 2024 年 10 月发布），因此请确保您的系统软件包是最新的。
 
 #### 如何修复
+
 1. **安装 Python 开发头文件**（最常见的修复方法）：
    - 在 **Ubuntu/Debian** 上：
+
      ```
      sudo apt update
      sudo apt install python3.13-dev
      ```
+
      （如果软件仓库中还没有 Python 3.13，请添加 PPA 或从源代码构建。）
    - 在 **Fedora/RHEL** 上：
+
      ```
      sudo dnf install python3.13-devel
      ```
+
    - 在 **macOS** 上（使用 Homebrew）：
+
      ```
      brew install python@3.13
      ```
+
      （这通常包含头文件。）
    - 验证：安装后，检查 `ls /usr/include/python3.13/Python.h` 是否存在。
 
 2. **重新安装/升级 PyTorch**（如果头文件存在但不匹配）：
+
    ```
    pip uninstall torch
    pip install torch --upgrade
    ```
+
    确保您的 PyTorch 版本支持 Python 3.13（夜间构建版本支持；稳定版本可能滞后）。
 
 3. **特定环境调整**：

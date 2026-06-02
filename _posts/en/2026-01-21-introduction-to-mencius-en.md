@@ -17,12 +17,14 @@ Answer:
 《孟子》(Mencius, also written as Mengzi) is one of the most important classical texts in **Confucianism** and one of the **Four Books** (四书) of the Confucian canon.
 
 ### Basic Information
+
 - **Author**: Traditionally attributed to **Mencius** (孟子, personal name Meng Ke 孟轲, c. 372–289 BCE) and his disciples.
 - **Period**: Compiled during the late **Warring States period** (around the 4th–3rd century BCE).
 - **Structure**: Consists of **7 books** (篇), divided into 14 chapters in total (Books 1A–7B). The text contains about 35,000 Chinese characters.
 - **Form**: Mostly records of dialogues between Mencius and various rulers (kings and dukes), disciples, and debaters, written in vivid, argumentative prose — very different from the more aphoristic style of the *Analects* (论语).
 
 ### Core Ideas and Philosophical Contributions
+
 Mencius is widely regarded as the greatest interpreter and developer of **Confucius**'s thought after Confucius himself. He is often called the **"Second Sage"** (亚圣) in the Confucian tradition.
 
 Key philosophical positions include:
@@ -44,11 +46,13 @@ Key philosophical positions include:
   A person of unwavering moral courage who maintains integrity even in poverty or danger.
 
 ### Historical Influence
+
 - During the **Song dynasty** (especially through **Zhu Xi**), *Mencius* was elevated to one of the **Four Books** together with *Analects*, *Great Learning*, and *Doctrine of the Mean*. These four texts became the core curriculum for the imperial civil service examinations from the Yuan dynasty until 1905.
 - Mencius's emphasis on innate goodness and the right to resist tyranny had a lasting impact on Chinese political thought, education, and ethics.
 - His ideas also deeply influenced Korean, Japanese, and Vietnamese Confucian traditions.
 
 ### Why Read 《孟子》 Today?
+
 The book is not only a philosophical classic but also contains lively debates, memorable stories (e.g., the "child falling into a well" thought experiment), and sharp political critiques. Its language is relatively accessible compared to many other ancient Chinese texts, making it one of the most readable Confucian classics.
 
 In short: If the *Analects* gives Confucius's concise teachings, then *Mencius* provides the passionate, systematic defense and expansion of Confucianism in a turbulent age.

@@ -29,6 +29,7 @@ type: note
 截至2025年中的部分数据显示，单程证持有者约3.2万人，与当前趋势相符。总体而言，来自内地的移民流有效对冲了香港的净迁出（如2023年净流失3,427人）及低出生率问题，使2024年中人口稳定在约753万，为十年来首次实现企稳。
 
 **参考资料**
+
 - [2020年年终人口统计](https://www.censtatd.gov.hk/en/press_release_detail.html?id=4825)
 - [2021年人口普查简要结果](https://www.censtatd.gov.hk/en/press_release_detail.html?id=5156)
 - [持单程证入读香港学校的内地学生数量](https://www.scmp.com/news/hong-kong/education/article/3263219/number-mainland-chinese-1-way-permit-holders-joining-hong-kong-schools-jumped-most-record-last-year)

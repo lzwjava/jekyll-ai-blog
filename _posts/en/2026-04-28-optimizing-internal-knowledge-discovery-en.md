@@ -44,15 +44,19 @@ Use a **short, discoverable entry point** (the "hub") in high-traffic tools, and
 ## 📐 Practical Architecture
 
 ### Step 1 — Store Full AI Notes on GitHub
+
 Keep the full, detailed AI-generated content in a GitHub repo. This is fine as a **storage layer**. Use clear folder structures and README files per folder.
 
 ### Step 2 — Create a Summary Page in Confluence
+
 Confluence integrates seamlessly with Jira and 6,000+ external tools, and its content is automatically organized and searchable — unlike SharePoint where nothing is lost in private folders or disparate tools. Post a short 3–5 line summary + a direct link to the GitHub page. This page will be indexed by Confluence's search engine and any enterprise-wide search tools.
 
 ### Step 3 — Link from Jira Tickets
+
 Use Confluence to document meetings and decisions, and link relevant Jira issues to these notes — this provides a historical account of how decisions were reached and ensures that actionable items are tracked in Jira, closing the loop between decision-making and task execution. Same principle applies to AI notes — link Jira tickets to the Confluence summary, and the Confluence summary links to GitHub.
 
 ### Step 4 — Broadcast in Slack
+
 Post a pinned message or a channel announcement with the Confluence link when new AI notes are added. Slack search is poor, but pinned messages and channel topics stay visible.
 
 ---
@@ -80,20 +84,24 @@ Platforms that connect documentation sources — whether in Confluence, GitHub, 
 Internal SEO = **making content findable within your org's internal search tools**. Key principles:
 
 **For Confluence:**
+
 - Use descriptive page titles (not "AI Notes July" — use "AI-Generated Architecture Decision: Auth Service Refactor 2025")
 - Add labels/tags generously — these are Confluence's internal SEO keywords
 - Use the right Space — pages in a widely-subscribed Space get more exposure
 - Write a proper first paragraph with keywords (Confluence search weighs the top of pages heavily)
 
 **For Jira:**
+
 - Link Confluence pages to relevant Jira epics/tickets
 - Use consistent terminology in ticket descriptions that matches how people search
 
 **For Slack:**
+
 - Pin key Confluence links in relevant channels
 - Use channel topics/descriptions to mention what knowledge lives where
 
 **For GitHub:**
+
 - Put a `README.md` in every folder with a short summary and link back to Confluence — this helps people who land on GitHub navigate back to the proper hub
 
 ---

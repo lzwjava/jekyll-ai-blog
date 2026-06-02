@@ -24,9 +24,9 @@ Thailand, officially the Kingdom of Thailand, is a Southeast Asian country borde
 Thailand has a **newly industrialized economy**, heavily reliant on exports, which account for more than two-thirds of its gross domestic product (GDP).
 
 * **Key Sectors (2023 est.):**
-    * Industry: 36.8% of GDP
-    * Services: 56.1% of GDP (including tourism)
-    * Agriculture: 7.1% of GDP
+  * Industry: 36.8% of GDP
+  * Services: 56.1% of GDP (including tourism)
+  * Agriculture: 7.1% of GDP
 * **Top Industries:** Electrical appliances and parts, computer and parts, vehicles and parts, processed food, rubber and plastic products, chemicals.
 * **Tourism:** A crucial sector, contributing significantly to the GDP (around **12% of GDP** and employing over 20% of total employment, both directly and indirectly). Thailand is a popular destination for international tourists.
 * **Agriculture:** Major agricultural products include rice, rubber, corn, sugarcane, cassava, fruits.
@@ -51,15 +51,15 @@ Thailand is actively working to advance its technological capabilities and embra
 * **Digital Economy Initiatives:** The "Thailand 4.0" initiative aims to transform the country into a value-based, innovation-driven economy, with a strong focus on digital technologies.
 * **IT Infrastructure:** Thailand has a developing IT infrastructure with increasing internet penetration and mobile usage. Efforts are underway to expand and improve broadband access across the country.
 * **Artificial Intelligence (AI):**
-    * The Thai government recognizes AI as a crucial technology for future economic growth and has developed a **National AI Strategy**.
-    * The strategy focuses on developing AI talent, promoting AI research and innovation, fostering AI adoption across various sectors, and establishing an ethical and regulatory framework for AI.
-    * Key sectors targeted for AI application include manufacturing, agriculture, healthcare, tourism, and smart cities.
-    * Initiatives and collaborations between government agencies, universities, and the private sector are driving AI development and adoption.
-    * Examples of AI applications include:
-        * **Healthcare:** AI for medical diagnosis, drug discovery, and personalized treatment.
-        * **Agriculture:** Precision agriculture using AI-powered analytics for crop management.
-        * **Manufacturing:** AI for automation, quality control, and predictive maintenance.
-        * **Smart Cities:** AI for traffic management, public safety, and resource optimization.
+  * The Thai government recognizes AI as a crucial technology for future economic growth and has developed a **National AI Strategy**.
+  * The strategy focuses on developing AI talent, promoting AI research and innovation, fostering AI adoption across various sectors, and establishing an ethical and regulatory framework for AI.
+  * Key sectors targeted for AI application include manufacturing, agriculture, healthcare, tourism, and smart cities.
+  * Initiatives and collaborations between government agencies, universities, and the private sector are driving AI development and adoption.
+  * Examples of AI applications include:
+    * **Healthcare:** AI for medical diagnosis, drug discovery, and personalized treatment.
+    * **Agriculture:** Precision agriculture using AI-powered analytics for crop management.
+    * **Manufacturing:** AI for automation, quality control, and predictive maintenance.
+    * **Smart Cities:** AI for traffic management, public safety, and resource optimization.
 * **Research and Development:** Increased investment in scientific research and technological development is a priority.
 
 ### Regulatory Stance on Cryptocurrencies

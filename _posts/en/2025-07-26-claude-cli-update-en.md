@@ -11,11 +11,13 @@ type: note
 Hi! It looks like you're dealing with the Claude Code CLI tool from Anthropic. Based on the output you pasted, it seems like it already attempted an auto-update to version 1.0.61, but if that's not working or you need to manually update, here's how:
 
 To update the Claude Code CLI:
+
 - Open your terminal.
 - Run the command: `claude update`
 This built-in command should fetch and install the latest version.
 
 If the update fails (e.g., due to permissions or network issues), you can try reinstalling it via npm (assuming you have Node.js and npm installed):
+
 - Run: `npm install -g @anthropic-ai/claude-code`
 
 After updating, you might need to log in again by running `claude /login` (or sometimes `claude login`, depending on the version). If you're still seeing errors, check your internet connection, ensure your API key is valid, or refer to the official troubleshooting docs.

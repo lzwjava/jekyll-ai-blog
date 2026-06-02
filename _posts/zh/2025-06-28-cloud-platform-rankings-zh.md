@@ -36,6 +36,7 @@ type: note
    - **关注点**: 功能特性、定价策略及不同业务场景适用性（如初创企业与大型企业对比）。
 
 ### 排名核心洞察
+
 - **市场领导者**: AWS（30-33%份额）、微软Azure（20-24%）与谷歌云（10-11%）凭借广泛的服务组合、全球数据中心网络和AI/ML能力持续主导市场。[](https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/)[](https://www.cloudwards.net/cloud-computing-platform-rankings/)
 - **区域化优势**: 阿里云与腾讯云在亚洲（尤其中国）市场领先，全球份额分别为4%及更低个位数。[](https://medium.com/%40csjcode/top-14-cloud-platforms-overall-comparison-market-share-d788c4b9e877)[](https://dgtlinfra.com/top-cloud-service-providers/)
 - **垂直领域强者**: DigitalOcean专注中小企业和开发者群体，甲骨文云以企业级数据库解决方案见长，IBM云则在混合云与Watson AI领域表现突出。[](https://www.cloudzero.com/blog/cloud-service-providers/)[](https://www.softwebsolutions.com/resources/top-cloud-service-providers.html)
@@ -43,6 +44,7 @@ type: note
 - **社媒舆情**: X平台近期讨论显示AWS和Azure被视为市场领导者，GCP因AI与分析能力持续提升影响力。Hetzner、Cloudflare等厂商因特定场景优势受到开发者青睐。
 
 ### 来源选择指南
+
 - **市场份额与收入数据**: Synergy Research Group提供权威量化指标
 - **战略评估**: Gartner魔力象限提供愿景与执行的深度对比
 - **新兴力量追踪**: 福布斯云服务百强榜聚焦创新私有企业

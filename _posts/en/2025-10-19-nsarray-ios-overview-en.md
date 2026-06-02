@@ -15,6 +15,7 @@ type: note
 `NSArray` is a class in Apple's Foundation framework, part of the iOS SDK (and macOS, etc.). It represents an immutable, ordered collection of objects, similar to an array in other languages. This means once you create an `NSArray`, you can't add, remove, or replace elements—you can only read from it. It's commonly used in Objective-C for iOS app development to store and manage lists of data, like user preferences, database query results, or UI elements.
 
 Key features:
+
 - **Immutable**: Fixed size and contents after creation (use `NSMutableArray` for mutable versions).
 - **Type-safe for objects**: Stores pointers to Objective-C objects (e.g., `NSString`, `NSNumber`, custom classes). It doesn't support primitives directly—wrap them in `NSNumber` or similar.
 - **Indexed access**: Elements are accessed by integer index (0-based).
@@ -26,7 +27,9 @@ In Swift, `NSArray` is bridged to `Array`, but if you're working in Objective-C 
 ### How to Use NSArray in iOS
 
 To use `NSArray` in an iOS project:
+
 1. Import the Foundation framework (it's usually included by default in iOS apps).
+
    ```objc
    #import <Foundation/Foundation.h>
    ```
@@ -37,6 +40,7 @@ To use `NSArray` in an iOS project:
    - From a C array: `initWithArray:copyItems:`
 
    Example:
+
    ```objc
    NSArray *fruits = @[@"apple", @"banana", @"cherry"];
    // Or:
@@ -50,6 +54,7 @@ To use `NSArray` in an iOS project:
    - `containsObject:` to check existence.
 
    Example:
+
    ```objc
    NSString *firstFruit = [fruits objectAtIndex:0]; // "apple"
    NSUInteger count = [fruits count]; // 3
@@ -61,6 +66,7 @@ To use `NSArray` in an iOS project:
    - `enumerateObjectsUsingBlock:` for block-based iteration (iOS 4+).
 
    Example:
+
    ```objc
    for (NSString *fruit in fruits) {
        NSLog(@"Fruit: %@", fruit);
@@ -74,6 +80,7 @@ To use `NSArray` in an iOS project:
    - Writing to file: `writeToFile:atomically:`.
 
    Example (filtering):
+
    ```objc
    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"length > 5"];
    NSArray *longFruits = [fruits filteredArrayUsingPredicate:predicate];
@@ -86,12 +93,14 @@ To use `NSArray` in an iOS project:
    - **JSON Handling**: Convert to/from `NSData` with `JSONObjectWithData:options:error:`.
 
 For mutable needs (e.g., adding items dynamically), switch to `NSMutableArray`:
+
 ```objc
 NSMutableArray *mutableFruits = [NSMutableArray arrayWithArray:fruits];
 [mutableFruits addObject:@"date"];
 ```
 
 ### Tips
+
 - Always check for `nil` or bounds to avoid crashes: Use `objectAtIndex:` with index validation.
 - Performance: O(1) for access, O(n) for searches.
 - Modern iOS: Consider Swift's `Array` for new projects—it's more type-safe.

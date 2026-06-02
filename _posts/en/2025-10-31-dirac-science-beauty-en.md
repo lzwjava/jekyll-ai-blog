@@ -28,6 +28,7 @@ Paul Dirac, the pioneering quantum physicist, was known for his concise, profoun
 These quotes reflect Dirac's emphasis on mathematical elegance, skepticism toward religion, and the poetic contrasts in human endeavors.
 
 ### References
+
 - [Paul Dirac - Wikiquote](https://en.wikiquote.org/wiki/Paul_Dirac)
 - [Quotations by Paul Dirac - MacTutor History of Mathematics](https://mathshistory.st-andrews.ac.uk/Biographies/Dirac/quotations/)
 - [TOP 25 QUOTES BY PAUL DIRAC - A-Z Quotes](https://www.azquotes.com/author/3996-Paul_Dirac)

@@ -15,6 +15,7 @@ Here, I’ll guide you through designing a basic NPN-based CE amplifier, using t
 ---
 
 ### **Overview of a Common-Emitter Amplifier**
+
 - **Purpose:** Amplifies a small AC signal (e.g., audio or a sine wave).
 - **Key Features:**
   - Transistor operates in the active region.
@@ -31,6 +32,7 @@ Here, I’ll guide you through designing a basic NPN-based CE amplifier, using t
 ### **Step 1: Design the Circuit**
 
 #### **Components Needed**
+
 - NPN transistor (e.g., 2N3904)
 - Resistors: R1 = 47kΩ, R2 = 10kΩ (biasing), RC = 1kΩ (collector), RE = 220Ω (emitter)
 - Capacitors: C1 = 10µF (input coupling), C2 = 10µF (output coupling), CE = 100µF (emitter bypass, optional for higher gain)
@@ -39,6 +41,7 @@ Here, I’ll guide you through designing a basic NPN-based CE amplifier, using t
 - Power supply (Arduino’s 5V pin or external 9V, adjusted as needed)
 
 #### **Circuit Schematic**
+
 ```
 Vcc (5V) ---- R1 ----+---- RC ---- Collector (C)
              47kΩ     |     1kΩ          |
@@ -54,6 +57,7 @@ Arduino PWM (Pin 9)  R2                 |
                       |
                      GND
 ```
+
 - **Biasing (R1, R2):** Sets the transistor’s operating point.
 - **RC:** Collector resistor for output signal.
 - **RE:** Emitter resistor for stability.
@@ -61,6 +65,7 @@ Arduino PWM (Pin 9)  R2                 |
 - **CE (optional):** Bypasses RE for higher AC gain.
 
 #### **Operating Point**
+
 - Goal: Bias the transistor in the active region (e.g., VCE ≈ 2.5V for 5V supply).
 - Voltage divider (R1, R2): \\( V_B = V_{CC} \cdot \frac{R2}{R1 + R2} = 5 \cdot \frac{10k}{47k + 10k} \approx 0.88V \\).
 - \\( V_E = V_B - V_{BE} \approx 0.88 - 0.7 = 0.18V \\).
@@ -73,10 +78,12 @@ Arduino PWM (Pin 9)  R2                 |
 ### **Step 2: Use Arduino as Signal Source**
 
 #### **Arduino’s Role**
+
 - Generate a small AC signal using PWM (Pulse Width Modulation) on a pin like 9 (which supports PWM).
 - Filter the PWM to approximate a sine wave with a simple RC low-pass filter (optional).
 
 #### **Code to Generate a Signal**
+
 ```cpp
 const int pwmPin = 9; // PWM output pin
 
@@ -95,10 +102,12 @@ void loop() {
   }
 }
 ```
+
 - **Output:** ~0–5V PWM signal, centered at 2.5V with ~2.5V peak-to-peak.
 - **C1:** Removes the DC offset, passing only the AC component (~1.25V peak) to the base.
 
 #### **Optional Filter**
+
 Add a 1kΩ resistor and 0.1µF capacitor in series from Pin 9 to GND, tapping the signal before C1, to smooth PWM into a rough sine wave.
 
 ---
@@ -106,10 +115,12 @@ Add a 1kΩ resistor and 0.1µF capacitor in series from Pin 9 to GND, tapping th
 ### **Step 3: Measure the Output**
 
 #### **Arduino Measurement**
+
 - Connect the amplifier output (after C2) to A0.
 - Use the Arduino to read the amplified signal and display it via Serial Monitor.
 
 #### **Code to Measure and Display**
+
 ```cpp
 const int inputPin = A0; // Measure output here
 
@@ -127,6 +138,7 @@ void loop() {
 ```
 
 #### **Expected Gain**
+
 - Voltage gain \\( A_v = -\frac{RC}{RE} = -\frac{1k}{220} \approx -4.5 \\) (negative due to phase inversion).
 - Input: ~1.25V peak (after coupling).
 - Output: ~4.5 × 1.25 = 5.625V peak (but clipped at 5V due to supply limit).
@@ -136,12 +148,14 @@ void loop() {
 ### **Step 4: Build and Test**
 
 #### **Assembly**
+
 1. Wire the circuit on a breadboard as per the schematic.
 2. Upload the signal generation code to Arduino and connect Pin 9 to C1.
 3. Power the circuit via 5V from Arduino (or use 9V with adjusted resistors).
 4. Upload the measurement code and open Serial Monitor (9600 baud).
 
 #### **Verification**
+
 - **Input Signal:** ~1–2V peak-to-peak after C1 (use a multimeter or oscilloscope if available).
 - **Output Signal:** Should be larger (e.g., 4–5V peak-to-peak) and inverted.
 - Check VCE (~2–4V) with a multimeter to ensure active region operation.
@@ -149,6 +163,7 @@ void loop() {
 ---
 
 ### **Tips and Troubleshooting**
+
 - **Gain Too Low:** Add CE (100µF) across RE to boost AC gain (removes RE’s degeneration).
 - **Clipping:** If output exceeds 5V, reduce input amplitude (adjust PWM range) or increase Vcc (e.g., 9V external supply).
 - **Noise:** PWM is square-ish; a better sine wave (via external generator or filter) improves results.

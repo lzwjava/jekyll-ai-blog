@@ -13,6 +13,7 @@ type: note
 Your goal is clear: minimize AI token usage for translating Jekyll blog posts (written in Markdown) into 8 languages by only re-translating changed or new paragraphs, while caching unchanged ones. You want to stick with Markdown for editing, avoid databases/JSON/YAML for core content, and handle special elements like code blocks (which shouldn't be translated). A paragraph-based approach makes sense because it aligns with how you write and edit—translations can be more contextually accurate at that level than sentences.
 
 Key challenges:
+
 - **Identifying changes**: Without version control diffs, you need a way to detect what's new/changed/unchanged. Hashing paragraphs (e.g., using SHA-256 on normalized English text) is efficient and stateless—no need for storing full old versions.
 - **Handling Markdown structure**: You can't just split on `\n\n` because code blocks, headers, lists, or other syntax could break things. A simple regex-based splitter might work for basic posts, but a lightweight Markdown parser is better to preserve structure and skip non-translatable parts.
 - **Caching**: Keep it file-based and simple (e.g., a JSON file or directory of files) to avoid databases. Cache per-paragraph-hash, per-language.
@@ -25,6 +26,7 @@ This is preferable over sentence-level (less accurate context for AI) or full-po
 ### Proposed Best Way: Paragraph-Hashing with Caching and Markdown-Aware Parsing
 
 Use a Python script to:
+
 1. Parse the English Markdown into "translatable units" (paragraphs, excluding code blocks, headers if desired, etc.).
 2. Hash each unit's English text (normalized, e.g., strip extra whitespace).
 3. Check a file-based cache for existing translations by hash/language.
@@ -33,6 +35,7 @@ Use a Python script to:
 6. Reassemble translated Markdown files, preserving non-translatable parts.
 
 **Why this is best**:
+
 - **Simple and low-overhead**: No DB, just files. Runs locally/offline except for AI calls.
 - **Flexible**: Handles code blocks by skipping them. Extendable to other Markdown elements (e.g., don't translate headers if they're short).
 - **Cost-effective**: Only pays for new/changed paragraphs. For a 10-paragraph post, editing one saves ~90% tokens.
@@ -164,6 +167,7 @@ if __name__ == '__main__':
 ```
 
 **How to use**:
+
 - Replace `ai_translate` with your API logic.
 - Run on your post file after edits.
 - For headers/lists: Extend `parse_markdown` to detect (e.g., lines starting with `#` or `-` as separate blocks).
@@ -171,6 +175,7 @@ if __name__ == '__main__':
 - Normalization tip: If you want to ignore minor punctuation changes, use regex to strip them before hashing.
 
 #### Enhancements
+
 - **Git integration**: Use `git diff` to pre-identify changed lines, but hashing is simpler.
 - **Batch translation**: If API supports, send multiple new paragraphs at once.
 - **Error handling**: Retry failed API calls; validate translations.

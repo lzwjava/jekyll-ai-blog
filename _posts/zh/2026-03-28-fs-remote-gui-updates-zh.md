@@ -44,6 +44,7 @@ inotify_add_watch(fd, "/home/xiaoxin", IN_ALL_EVENTS);
 ## 为什么会闪烁？
 
 你看到的 GUI “闪烁”是文件管理器：
+
 1. 接收到 inotify 事件
 2. 移除旧图标（`下载`）
 3. 重新渲染新图标（`Downloads`）

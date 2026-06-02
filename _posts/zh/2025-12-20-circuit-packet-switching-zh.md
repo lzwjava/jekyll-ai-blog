@@ -54,9 +54,9 @@ type: note
 
 参考文献：
 
-- https://en.wikipedia.org/wiki/Public_switched_telephone_network
-- https://en.wikipedia.org/wiki/Packet_switching
-- https://en.wikipedia.org/wiki/ARPANET
-- https://www.nextiva.com/blog/what-is-pstn.html
-- https://ethw.org/Packet_Switching
-- https://en.wikipedia.org/wiki/Dial-up_Internet_access
+- <https://en.wikipedia.org/wiki/Public_switched_telephone_network>
+- <https://en.wikipedia.org/wiki/Packet_switching>
+- <https://en.wikipedia.org/wiki/ARPANET>
+- <https://www.nextiva.com/blog/what-is-pstn.html>
+- <https://ethw.org/Packet_Switching>
+- <https://en.wikipedia.org/wiki/Dial-up_Internet_access>

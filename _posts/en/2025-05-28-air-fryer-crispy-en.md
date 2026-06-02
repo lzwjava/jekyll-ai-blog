@@ -41,7 +41,8 @@ Yes, you can absolutely cook potatoes in an air fryer to make them crispy, wheth
    - Add a pinch of cornstarch or baking powder to the oil-seasoning mix for an extra crunchy coating.
    - Cook at a slightly lower temperature (e.g., 170°C/340°F) for the first half, then increase to 200°C/400°F for the last 5-10 minutes to crisp up.
 
-### Notes:
+### Notes
+
 - Cooking times may vary slightly depending on your air fryer’s wattage and the size of potato pieces. The Midea MF-KZE5004 has a 5L capacity, so it can handle a decent batch (about 500-700g of potatoes) without overcrowding.
 - Always preheat the air fryer for 3-5 minutes for best results.
 - If you’re unsure about settings, start with 190°C for 20 minutes and adjust time or temperature based on the texture.

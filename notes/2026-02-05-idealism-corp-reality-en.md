@@ -17,6 +17,7 @@ Google's "Don't Be Evil" slogan has an interesting history and meaning:
 When Google adopted this as an unofficial motto in the early 2000s, it was meant to be a simple, clear ethical guideline for decision-making. The idea was that when facing business choices, employees should ask: "Would this be evil?" It was deliberately informal and a bit cheeky—a reminder to prioritize user interests over short-term profits.
 
 The slogan represented values like:
+
 - Not manipulating search results for financial gain
 - Being transparent with users
 - Respecting user privacy

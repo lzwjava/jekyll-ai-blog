@@ -16,29 +16,34 @@ Here's what's happening under the hood:
 `torch.compile()` transforms your model into optimized CUDA kernels via **TorchInductor**. It's not just-in-time in the simple sense — it goes through multiple phases:
 
 ### Phase 1: Graph Tracing (what you saw at iter 0)
+
 - Torch runs the model once, recording every operation into a computational graph
 - This is slow because it's running unoptimized
 - 113s at iter 0 was this phase
 
 ### Phase 2: Kernel Compilation (what's happening now)
+
 - Inductor analyzes the graph and generates **C++/CUDA kernels** for each operation
 - It parallelizes this across 24 workers (`--workers=24`) to speed things up
 - Each kernel is compiled independently, then linked together
 - This is why you still see 21s/step — the kernel compilation is ongoing
 
 ### Phase 3: Code Generation & Optimization
+
 - Once kernels are ready, Inductor fuses ops (e.g., combine matmul + bias + activation into one kernel)
 - Reduces memory bandwidth and kernel launch overhead
 
 ## Why It's Slow Right Now
 
 The compile workers are still building kernels in the background. Your GPU is at 100% Util because it's running the unoptimized model + simultaneously compiling new kernels. That's why:
+
 - Power draw is high (691W) — GPU is working hard
 - But step time is still 21s — because the compute graph isn't fused/optimized yet
 
 ## When It'll Get Fast
 
 Once all workers finish (typically 2-10 minutes after training starts for a 1.5B model), you'll see:
+
 - Step time drops from 21s → **1-3s**
 - MFU jumps to realistic numbers (50-70%+)
 - The "compiling the model..." message won't appear again

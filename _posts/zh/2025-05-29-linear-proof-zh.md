@@ -10,7 +10,8 @@ type: note
 
 23. 已知向量 \\( \alpha_1, \alpha_2, \alpha_3 \\) 线性无关，且向量 \\( \beta_1 = \alpha_1 + 2\alpha_2 \\)，\\( \beta_2 = -\alpha_1 + \alpha_2 - 3\alpha_3 \\)，\\( \beta_3 = 3\alpha_1 + 6\alpha_3 \\)。证明向量 \\( \beta_1, \beta_2, \beta_3 \\) 线性相关。
 
-### 解答：
+### 解答
+
 要证明向量 \\( \beta_1, \beta_2, \beta_3 \\) 线性相关，需证明存在不全为零的标量 \\( c_1, c_2, c_3 \\) 使得：
 
 \\[ c_1 \beta_1 + c_2 \beta_2 + c_3 \beta_3 = 0 \\]

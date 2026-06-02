@@ -49,6 +49,7 @@ Rondo 包含大约 20 个命名地点，为了清晰起见，将其分类如下�
 Rondo 的设计促进了多样的玩法：城市中的 Urban combat、森林中的 Stealth，以及通过 Coupe SUV 等独特载具进行的车辆重度转移。
 
 References:
+
 - [PUBG Official Rondo Page](https://www.pubg.com/en/game-info/maps/rondo)
 - [Liquipedia Rondo Guide](https://liquipedia.net/pubgmobile/Rondo)
 - [PUBG Mobile Rondo Map Guide](https://gamingonphone.com/guides/pubg-mobile-rondo-map-guide-best-loot-locations-and-strategies)

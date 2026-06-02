@@ -16,32 +16,33 @@ type: note
 
 **操作步骤：**
 
-1.  **卸载 Firefox Snap 版本：**
+1. **卸载 Firefox Snap 版本：**
 
     ```bash
     sudo snap remove firefox
     ```
 
-2.  **创建 APT 密钥环目录（如尚未存在）：**
+2. **创建 APT 密钥环目录（如尚未存在）：**
 
     ```bash
     sudo install -d -m 0755 /etc/apt/keyrings
     ```
 
-3.  **导入 Mozilla APT 仓库签名密钥：**
+3. **导入 Mozilla APT 仓库签名密钥：**
 
     ```bash
     wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
     ```
+
     *若系统中未安装 `wget`，请先执行：`sudo apt install wget`*
 
-4.  **将 Mozilla 仓库添加至软件源列表：**
+4. **将 Mozilla 仓库添加至软件源列表：**
 
     ```bash
     echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee -a /etc/apt/sources.list.d/mozilla.list > /dev/null
     ```
 
-5.  **设置软件包优先级以优先选用 Mozilla DEB 版本：**
+5. **设置软件包优先级以优先选用 Mozilla DEB 版本：**
 
     此操作可防止 Ubuntu 的过渡软件包重新安装 Snap 版本。
 
@@ -56,7 +57,7 @@ type: note
     Pin-Priority: -1' | sudo tee /etc/apt/preferences.d/mozilla
     ```
 
-6.  **移除 Ubuntu Firefox DEB 版本（如存在）并安装 Mozilla 版本：**
+6. **移除 Ubuntu Firefox DEB 版本（如存在）并安装 Mozilla 版本：**
 
     ```bash
     sudo apt update && sudo apt remove firefox

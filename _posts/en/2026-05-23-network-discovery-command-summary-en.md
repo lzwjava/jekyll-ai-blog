@@ -22,6 +22,7 @@ ww network discover -s 10.0.0.0/24  # Custom subnet
 ```
 
 **What it does:**
+
 1. Gets local IP via UDP socket trick (no traffic sent)
 2. Parses `arp -an` table (numeric, no DNS timeout)
 3. Enriches with MAC OUI → vendor name (Apple, Xiaomi, TP-Link, Espressif, etc.)
@@ -31,6 +32,7 @@ ww network discover -s 10.0.0.0/24  # Custom subnet
 7. Prints aligned table
 
 **Files changed:**
+
 - `/Users/lzwjava/projects/ww/ww/network/discover.py` — new module
 - `/Users/lzwjava/projects/ww/ww/main.py` — dispatch + help text (3 locations)
 - `/Users/lzwjava/projects/ww/README.md` — command table row

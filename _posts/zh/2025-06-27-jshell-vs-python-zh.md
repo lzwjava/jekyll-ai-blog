@@ -13,6 +13,7 @@ JShell 是否不如 Python 的 REPL（例如 Python 的交互式 shell）方便�
 ### **JShell 与 Python REPL：便利性比较**
 
 #### **1. 设置便捷性**
+
 - **JShell**：
   - 需要安装 JDK 9 或更高版本，并且系统的 PATH 中必须包含 `bin` 目录。
   - 启动 JShell（`jshell` 命令）很简单，但如果 JDK 配置不当，对初学者来说设置可能是个障碍。
@@ -22,25 +23,31 @@ JShell 是否不如 Python 的 REPL（例如 Python 的交互式 shell）方便�
 - **胜出者**：Python REPL 通常更易于设置和访问，特别是对于非 Java 开发人员。
 
 #### **2. 语法和交互性**
+
 - **JShell**：
   - Java 的冗长、静态类型语法在 JShell 中可能显得繁琐。例如，声明变量需要显式类型：
+
     ```java
     jshell> int x = 5
     x ==> 5
     ```
+
   - JShell 支持多行输入并允许定义方法/类，但其语法不如 Python 宽容。
   - 诸如 Tab 补全和自动导入（例如 `java.util`）等功能有所帮助，但仍然较为死板。
 - **Python REPL**：
   - Python 的简洁、动态类型语法更宽容且对初学者更友好：
+
     ```python
     >>> x = 5
     >>> x
     5
     ```
+
   - Python 的 REPL 专为快速实验设计，模板代码更少，反馈更即时。
 - **胜出者**：由于语法更简单和动态类型，Python REPL 在快速原型设计方面感觉更便捷。
 
 #### **3. 功能和命令**
+
 - **JShell**：
   - 提供强大的命令，如 `/vars`、`/methods`、`/edit`、`/save` 和 `/open`，用于管理代码片段和会话。
   - 支持高级 Java 功能（例如 lambda 表达式、流）并与 Java 库良好集成。
@@ -51,6 +58,7 @@ JShell 是否不如 Python 的 REPL（例如 Python 的交互式 shell）方便�
 - **胜出者**：JShell 有更多内置工具来管理代码片段，但 Python 配合 IPython 通常提供更完善和灵活的体验。
 
 #### **4. 错误处理和反馈**
+
 - **JShell**：
   - 提供清晰的错误消息，并允许重新定义代码片段以修复错误。
   - 反馈模式（`/set feedback`）让您可以控制详细程度，但由于 Java 的特性，错误消息有时可能显得冗长。
@@ -60,6 +68,7 @@ JShell 是否不如 Python 的 REPL（例如 Python 的交互式 shell）方便�
 - **胜出者**：Python REPL 通常提供更简单的错误消息，使其在快速试错中更便捷。
 
 #### **5. 用例适用性**
+
 - **JShell**：
   - 适合 Java 开发人员测试 Java 特定功能（例如流、lambda 表达式或库 API）。
   - 非常适合学习 Java 语法或原型设计小型 Java 程序，而无需完整的 IDE。
@@ -70,6 +79,7 @@ JShell 是否不如 Python 的 REPL（例如 Python 的交互式 shell）方便�
 - **胜出者**：Python REPL 在通用用途上更加通用，而 JShell 更适合 Java 特定任务。
 
 #### **6. 生态系统集成**
+
 - **JShell**：
   - 与 Java 生态系统紧密集成，使其成为 Java 开发人员的自然选择。
   - 仅限于 Java 生态系统，因此在 Java 之外的任务（例如数据科学、脚本编写）中灵活性较差。
@@ -79,7 +89,9 @@ JShell 是否不如 Python 的 REPL（例如 Python 的交互式 shell）方便�
 - **胜出者**：Python REPL 受益于更广泛的生态系统，使其在各种任务中更加便捷。
 
 ### **结论**
+
 是的，对于许多用户来说，JShell 可能感觉不如 Python 的 REPL 方便，原因在于：
+
 - Java 的冗长、静态类型语法与 Python 的简洁、动态特性相比。
 - Python 的设置更简单，在快速脚本编写和非 Java 任务中适用性更广。
 - Python 的增强 REPL 选项（例如 IPython）提供了更完善的体验。

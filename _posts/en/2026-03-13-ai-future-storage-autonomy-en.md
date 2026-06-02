@@ -31,6 +31,7 @@ You've raised an important question about the limitations of AI autonomy versus 
 - Optimizing storage allocation
 
 **Physical-Level Limitations:** An AI agent running on a computer **cannot**:
+
 - Physically plug in a portable hard drive
 - Remove or insert memory devices
 - Open the computer case
@@ -45,6 +46,7 @@ Additionally, modern storage systems with AI services make thousands of automate
 ### The Future: Robotic Integration
 
 To fully solve the portable disk scenario without human intervention, you would need:
+
 1. **Robotic arms** or automated hardware systems controlled by AI
 2. **Pre-configured network storage** (cloud or NAS devices) that AI can automatically access
 3. **IoT-enabled devices** that can be controlled remotely by AI agents
@@ -59,11 +61,11 @@ However, in enterprise environments, AI can continuously analyze real-time acces
 
 ## References
 
-- https://www.techzine.eu/blogs/infrastructure/138665/ibm-flashsystem-autonomous-ai-takes-over-90-of-storage-management/
-- https://newsroom.ibm.com/next-generation-ibm-flashsystem-portfolio
-- https://insidehpc.com/2026/02/ibm-introduces-autonomous-flash-storage-with-agentic-ai/
-- https://www.storagenewsletter.com/2026/02/20/ibm-introduces-autonomous-storage-with-new-flashsystem-portfolio-powered-by-agentic-ai/
-- https://www.storagereview.com/news/ibm-introduces-next-generation-flashsystem-with-agentic-ai-for-autonomous-storage-operations-2-107am
-- https://www.datacore.com/solutions/ai-enabled-storage/
-- https://saventech.com/ai-agents-that-procure-optimize-and-execute-without-human-intervention/
-- https://www.astera.com/type/blog/ai-and-data-storage/
+- <https://www.techzine.eu/blogs/infrastructure/138665/ibm-flashsystem-autonomous-ai-takes-over-90-of-storage-management/>
+- <https://newsroom.ibm.com/next-generation-ibm-flashsystem-portfolio>
+- <https://insidehpc.com/2026/02/ibm-introduces-autonomous-flash-storage-with-agentic-ai/>
+- <https://www.storagenewsletter.com/2026/02/20/ibm-introduces-autonomous-storage-with-new-flashsystem-portfolio-powered-by-agentic-ai/>
+- <https://www.storagereview.com/news/ibm-introduces-next-generation-flashsystem-with-agentic-ai-for-autonomous-storage-operations-2-107am>
+- <https://www.datacore.com/solutions/ai-enabled-storage/>
+- <https://saventech.com/ai-agents-that-procure-optimize-and-execute-without-human-intervention/>
+- <https://www.astera.com/type/blog/ai-and-data-storage/>

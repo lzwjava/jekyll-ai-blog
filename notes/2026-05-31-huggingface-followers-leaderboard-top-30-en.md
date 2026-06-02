@@ -52,11 +52,13 @@ Total users in dataset: 17,279
 ```
 
 What I did:
+
 - Added `cmd_top30()` to `ww/hf/hf.py` — fetches latest CSV from Weyaxi/followers-leaderboard dataset (same data source as the Space), parses, sorts by followers
 - Wired `top30` subcommand in `ww/main.py`
 - Data source: HuggingFace Datasets API (no auth needed, public CSV)
 
 Key observations from the real data:
+
 - TheBloke dominates at ~27K — nearly 2.5x the #2 (bartowski)
 - HF staff: merve (#4, 10.2K), ylecun (#6, 9K) — but notably no thomwolf/clem/osanseviero in top 30
 - teknium at #11 with 7,307 — confirms your earlier point about his strong HF presence

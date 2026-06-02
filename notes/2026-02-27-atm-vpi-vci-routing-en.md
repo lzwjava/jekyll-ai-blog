@@ -23,7 +23,7 @@ Answer:
 
 The correct answer is **C. Routing** (路由选择).
 
-### Detailed Explanation:
+### Detailed Explanation
 
 In the ATM (Asynchronous Transfer Mode) cell header (5-byte header), the main fields and their primary functions are:
 

@@ -53,7 +53,7 @@ print(f"Created OG image using {len(image.generated_images[0].image.image_bytes)
 
 ---
 
-### 🔍 如需生成**自定义尺寸图片**（如 `1200x630`）：
+### 🔍 如需生成**自定义尺寸图片**（如 `1200x630`）
 
 当前的 Gemini/Imagen 公共 API **不支持**任意图片尺寸。如果您需要 1200×630 尺寸（例如用于 OG 图片），您的选择是：
 

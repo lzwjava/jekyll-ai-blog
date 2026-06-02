@@ -33,7 +33,7 @@ The second PPT was to assist the speech "My Surname is Li," projecting some word
 
 The third PPT was for art class, discussing Chinese architecture. Right after school started, it was my turn, along with a classmate, to give a lecture. The PPT was hastily put together, combining their Piaohuayuan, Suzhou Gardens, and summer camp PPTs to complete a 40-minute class task. That day, a classmate's return to the right path won applause. Here, I want to say sorry to the classmate. He repeatedly asked me not to infringe on his image rights, but I still did it… It felt a bit like "betrayal" and "selling out." Oh well, the classmate didn't seem to mind his photos being used, so let's just go with the flow.
 
-The fourth PPT was used for computer class, and again, it was me. Fortunately, a classmate's eloquence often helped me out. The most "awkward" part was that the long formula couldn't be calculated by Google. So embarrassing! And Tianwang, www.tianwang.com, you just couldn't give me a shred of dignity! Everyone, try your luck; if you can't open it, it means Tianwang has ascended to the 18th level of hell!
+The fourth PPT was used for computer class, and again, it was me. Fortunately, a classmate's eloquence often helped me out. The most "awkward" part was that the long formula couldn't be calculated by Google. So embarrassing! And Tianwang, <www.tianwang.com>, you just couldn't give me a shred of dignity! Everyone, try your luck; if you can't open it, it means Tianwang has ascended to the 18th level of hell!
 
 ### NOIP
 

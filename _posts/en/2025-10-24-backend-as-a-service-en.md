@@ -15,7 +15,9 @@ type: note
 Backend as a Service (BaaS) is a cloud computing model designed to simplify the development of web and mobile applications by providing ready-to-use backend infrastructure and services. Instead of building and managing servers, databases, authentication systems, or APIs from scratch, developers can leverage pre-built components from a cloud provider. This allows teams to focus more on the frontend (user interface and experience) while the backend handles the "behind-the-scenes" operations.
 
 #### Key Components of BaaS
+
 BaaS platforms typically include:
+
 - **User Authentication**: Secure login, signup, and identity management (e.g., email, social logins).
 - **Data Storage and Databases**: Real-time databases or NoSQL options for storing and syncing app data.
 - **Push Notifications and Messaging**: Tools for sending alerts or in-app messages.
@@ -23,17 +25,20 @@ BaaS platforms typically include:
 - **APIs and Serverless Functions**: Pre-configured APIs or code execution without managing servers.
 
 #### How It Works
+
 1. Developers integrate the BaaS SDK (software development kit) into their app.
 2. The platform handles scaling, security, and maintenance automatically.
 3. For example, when a user signs up, the BaaS service manages the authentication without custom server code.
 
 #### Benefits
+
 - **Speed**: Accelerates development by reducing boilerplate code.
 - **Scalability**: Automatically handles traffic spikes without downtime.
 - **Cost-Effective**: Pay-as-you-go pricing, avoiding upfront infrastructure costs.
 - **Security**: Built-in features like encryption and compliance standards.
 
 #### BaaS vs. Other Models
+
 - **vs. iPaaS (Integration Platform as a Service)**: BaaS focuses on app backends, while iPaaS connects disparate systems.
 - **vs. Serverless**: BaaS is often a subset of serverless, but serverless emphasizes function-as-a-service (FaaS) for custom code execution.
 

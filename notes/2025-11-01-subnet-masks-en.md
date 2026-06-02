@@ -13,12 +13,14 @@ type: note
 ### What is a Subnet Mask?
 
 A **subnet mask** (or netmask) is a 32-bit number (written in dotted decimal notation, like 255.255.255.0) that divides an IPv4 address into two parts:
+
 - **Network portion**: Identifies the overall network (or subnet) a device belongs to.
 - **Host portion**: Identifies the specific device (host) within that network.
 
 It works like a filter: When a device sends data, the subnet mask is applied (via a bitwise AND operation) to the IP address to figure out if the destination is on the *local subnet* (direct communication, no router needed) or on a *remote network* (data goes through the default gateway/router).
 
 #### Breaking Down 255.255.255.0
+
 Your explanation is **exactly right**—let's confirm and expand on it step by step.
 
 1. **In Binary (The Real Magic Happens Here)**:
@@ -44,6 +46,7 @@ Your explanation is **exactly right**—let's confirm and expand on it step by s
    - If the destination is outside (e.g., 192.168.2.50), it goes to the default gateway (your router at 192.168.1.1) to route elsewhere.
 
 #### Quick Visual: IP Address + Subnet Mask Example
+
 | IP Address       | Subnet Mask      | Network Portion | Host Portion | Full Network ID |
 |------------------|------------------|-----------------|--------------|-----------------|
 | 192.168.1.100   | 255.255.255.0   | 192.168.1      | .100        | 192.168.1.0    |

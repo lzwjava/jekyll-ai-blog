@@ -11,6 +11,7 @@ type: note
 That's a big and fascinating question! "Greatest writers" can mean different things depending on language, era, genre, or personal taste—but here’s a list of some widely regarded literary giants across cultures and time periods:
 
 ### 🌍 **Western Canon**
+
 - **William Shakespeare (1564–1616)** – English playwright and poet, perhaps the most influential writer in the English language.
 - **Homer (circa 8th century BCE)** – Greek epic poet, author of *The Iliad* and *The Odyssey*.
 - **Dante Alighieri (1265–1321)** – Italian poet, best known for *The Divine Comedy*.
@@ -20,6 +21,7 @@ That's a big and fascinating question! "Greatest writers" can mean different thi
 - **Marcel Proust (1871–1922)** – French author of *In Search of Lost Time*.
 
 ### 🇨🇳 **Chinese Literary Giants**
+
 - **Confucius (孔子)** – Not a fiction writer, but *The Analects* shaped Chinese thought for millennia.
 - **Zhuangzi (庄子)** – Philosopher and master of allegorical and philosophical writing.
 - **Lu Xun (鲁迅)** – Father of modern Chinese literature, known for *The True Story of Ah Q*.
@@ -27,6 +29,7 @@ That's a big and fascinating question! "Greatest writers" can mean different thi
 - **Ba Jin (巴金)**, **Lao She (老舍)** – 20th-century novelists reflecting China’s societal transformations.
 
 ### 🖋️ **Modern and Contemporary Influentials**
+
 - **Haruki Murakami** – Japanese novelist with global influence (*Norwegian Wood*, *Kafka on the Shore*).
 - **Gabriel García Márquez** – Colombian writer, pioneer of magical realism (*One Hundred Years of Solitude*).
 - **Toni Morrison** – American Nobel laureate, known for *Beloved*.

@@ -16,7 +16,8 @@ type: note
 
 Muon 优化器（MomentUm Orthogonalized by Newton-Schulz）是一种相对较新的神经网络优化技术，于 2024 年末推出，主要用于 transformers 等模型的隐藏层。它应用 Newton-Schulz 迭代来正交化基于动量的更新，旨在实现更高效的训练，同时降低计算开销（额外 FLOPs 不足 1%）并提高样本效率，优于 AdamW。尽管它在 CIFAR-10 和 NanoGPT 训练等任务中创下了速度记录，并为 Moonlight（一个 3B/16B MoE LLM）等模型提供了支持，但它并非没有争议。以下是一些从 ML 社区（例如 Reddit 的 r/MachineLearning 和 X 上的帖子）讨论中得出的“非主流”观点。这些观点挑战了人们的热情，往往强调实际限制而非理论收益。
 
-### 关于 Muon 的非主流观点：
+### 关于 Muon 的非主流观点
+
 - **速度提升被过分夸大，主要归因于其他调整，而非 Muon 本身**：在速度赛跑基准测试中（例如在 3 分钟内训练一个 120M GPT 模型），Muon 仅贡献了总速度提升的约 10%——大部分来自架构更改、数据效率或实现优化。当 AdamW 等基线经过适当调优（例如，使用最佳学习率）后，Muon 仅带来适度的 10% 优势，而非论文中声称的革命性的 2 倍效率。
 
 - **它并非真正的二阶或几何优越——那只是为了炒作而进行的“数学洗白”**：尽管声称是“谱范数下的最速下降”或流形优化，Muon 本质上是一种一阶方法（没有像 Hessian 这样的二阶统计量）。花哨的几何框架（在矩阵空间中保持“能量”的正交更新）被视为不必要的恐吓策略，旨在 T人或非专家，对精心调整的 Adam 变体没有真正的优越性。一位研究员称其“无关紧要”，并承诺发布一个 PSA 来揭穿其数学。
@@ -32,6 +33,7 @@ Muon 优化器（MomentUm Orthogonalized by Newton-Schulz）是一种相对较�
 总的来说，这些意见突出了一种分歧：Muon 在受控的速度赛跑中表现出色，但在实际规模和集成方面的混乱中却步履维艰。支持者赞扬其理论上的优雅，但怀疑者认为它只是进化而非革命——这与围绕 Lion 或 Shampoo 等过去优化器的争论遥相呼应。
 
 参考文献：
+
 - [Muon: An optimizer for hidden layers in neural networks](https://kellerjordan.github.io/posts/muon/)
 - [Muon is Scalable for LLM Training (arXiv)](https://arxiv.org/abs/2502.16982)
 - [r/MachineLearning: [P] Understanding Muon](https://www.reddit.com/r/MachineLearning/comments/1m2y23l/p_understanding_muon_a_revolutionary_neural/)

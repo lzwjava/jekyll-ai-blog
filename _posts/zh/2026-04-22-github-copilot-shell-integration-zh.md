@@ -87,7 +87,7 @@ Copilot 可以通过 MCP（Model Context Protocol）连接到外部工具，实�
 
 **Shell 集成** 是一项功能，它使 VS Code 的终端具备“AI 感知”能力，并与编辑器和 Copilot 紧密连接。
 
-### 简单来说：
+### 简单来说
 
 它让 VS Code 能够理解您终端内部正在发生的事情。
 

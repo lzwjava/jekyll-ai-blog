@@ -10,6 +10,7 @@ type: note
 ---
 
 错误 `Cannot estimate time to full charge (sysfs files not found)` 表明脚本在 `/sys/class/power_supply/BAT0/` 目录中找不到预期的电池信息文件。这可能是因为：
+
 1. 电池名称不是 `BAT0`（例如可能是 `BAT1` 或其他名称）。
 2. 特定文件（`charge_now`、`charge_full`、`current_now`）在您的联想笔记本电脑上不可用或名称不同。
 3. 运行脚本的用户缺少访问这些文件的权限。
@@ -109,6 +110,7 @@ if __name__ == "__main__":
 ```
 
 ### 所做更改
+
 1. **动态电池检测**：
    - 使用 `glob.glob('/sys/class/power_supply/BAT*')` 查找电池目录（例如 `BAT0`、`BAT1`），而不是硬编码 `BAT0`
    - 返回找到的第一个电池，如果未检测到电池则返回 `None`
@@ -125,7 +127,9 @@ if __name__ == "__main__":
    - 将电池百分比限制为两位小数（`{percent:.2f}`）以获得更清晰的输出
 
 ### 使用方法
+
 1. **安装 `psutil`（如果尚未安装）**：
+
    ```bash
    sudo pip3 install psutil
    ```
@@ -135,38 +139,50 @@ if __name__ == "__main__":
 
 3. **运行脚本**：
    - 在终端中执行：
+
      ```bash
      python3 battery_info.py
      ```
+
    - 如果出现"权限被拒绝"错误，请尝试使用提升的权限运行：
+
      ```bash
      sudo python3 battery_info.py
      ```
 
 4. **检查电池路径**：
    - 要验证电池名称和可用文件，请运行：
+
      ```bash
      ls /sys/class/power_supply
      ```
+
      然后检查电池目录的内容（例如 `BAT0` 或 `BAT1`）：
+
      ```bash
      ls /sys/class/power_supply/BAT0
      ```
+
    - 查找类似 `charge_now`、`charge_full`、`energy_now`、`energy_full` 或 `current_now` 的文件。如果它们不同（例如使用 `energy_full_design` 而不是 `charge_full`），脚本应该能够处理，但如果您需要进一步调整，请告知我
 
 ### 调试提示
+
 - 如果脚本仍然报告"未找到 sysfs 文件"，请检查 `/sys/class/power_supply/BAT*` 中的确切文件名。某些联想笔记本电脑可能使用非标准名称或 sysfs 支持有限
 - 如果看到"权限被拒绝"，使用 `sudo` 运行应该可以解决，但请注意提升权限的风险
 - 如果检测到电池但未提供时间估算，可能是因为 `current_now` 为零（当系统未主动报告充电电流时常见）。在这种情况下，脚本将回退到指示无估算可用
 
 ### 示例输出
+
 在您的系统（联想小新-14-IAH8）上，您可能会看到：
+
 ```
 电池电量：49.62%
 状态：充电中
 预计充满电时间：1 小时 45 分钟
 ```
+
 或者，如果文件仍然缺失：
+
 ```
 电池电量：49.62%
 状态：充电中
@@ -174,11 +190,14 @@ if __name__ == "__main__":
 ```
 
 ### 如果问题仍然存在
+
 如果脚本仍然无法找到 sysfs 文件，请分享以下命令的输出：
+
 ```bash
 ls -l /sys/class/power_supply
 ls -l /sys/class/power_supply/BAT*/*
 ```
+
 这将有助于确定确切的文件名和权限。然后我可以进一步调整脚本以匹配您的系统配置。
 
 [psutil 文档](https://psutil.readthedocs.io/en/latest/)

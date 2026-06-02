@@ -16,6 +16,7 @@ type: note
 没有单一模型在各方面都明显“更好”——这取决于您的优先级（reasoning quality、speed、cost、context length 或 specific tasks）。以下是基于 2026 年比较的分解：
 
 ### 质量与推理
+
 - **Step-3.5-Flash**（196B total / ~11B active parameters）在许多实际 agentic、coding 和部分 math benchmarks 上经常优于或持平 **DeepSeek-V3.2**（671B total / ~37B active），尽管其 active parameters 远少。
 - 独立排行榜和第三方比较（llm-stats、OpenRouter blind votes、NVIDIA model cards、Reddit / LocalLLaMA reports）显示 Step-3.5-Flash 在以下方面更常获胜：
   - SWE-Bench Verified（coding）
@@ -27,20 +28,24 @@ type: note
 - 用户 blind preference votes 在 arenas 上通常偏好 Step-3.5-Flash（在几场报告的对决中胜率约 60–70%）。
 
 ### 速度与效率
+
 - **Step-3.5-Flash** 速度大幅更快：
   - 100–300+ tokens/second 生成（coding 上峰值 ~350 tok/s）
   - 解码成本远低（在类似硬件的长上下文下，估计比 DeepSeek-V3.2 便宜/快 6 倍）
 - DeepSeek-V3.2 明显更慢（许多部署中 ~30–40 tok/s）。
 
 ### 价格（2026 年 API 使用）
+
 - **stepfun/step-3.5-flash:free** — 提供免费 tier（有限速）。
 - 付费 tier：Step-3.5-Flash 输入 ~$0.10 / M tokens，而 DeepSeek-V3.2 ~$0.25–0.28 / M tokens → Step-3.5-Flash 输入成本便宜约 60%。
 
 ### 上下文长度
+
 - Step-3.5-Flash：许多部署中高达 256K
 - DeepSeek-V3.2：~164K（根据变体有时列为 131K–164K）
 
 ### 总结 – 您应该选择哪个？
+
 - 如果您想要：
   - 更快响应
   - 更好的 price/performance（尤其是免费 tier）

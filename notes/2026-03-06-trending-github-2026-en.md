@@ -66,6 +66,7 @@ Here is a comprehensive overview of trending GitHub projects as of early March 2
 ## 📚 All-Time Top Starred (Still Highly Active)
 
 The overall most-starred repositories on GitHub as of early March 2026 are:
+
 - **build-your-own-x** — 472,285 stars (learn programming by recreating technologies from scratch)
 - **awesome** — 442,633 stars (curated lists of interesting topics)
 - **freeCodeCamp** — 437,787 stars (free coding curriculum)

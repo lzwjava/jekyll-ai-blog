@@ -18,7 +18,7 @@ Kapil Gupta（常被称为 Kapil Gupta MD）是一位美国作家、哲学家、
 
 他自称是极少数高知名度人士的私人顾问，客户包括 CEO、职业运动员、艺术家、名人以及他所描述的“国王和女王”。他的作品深受东方精神传统的影响（特别是类似于 Advaita Vedanta 和禅宗式直接性的思想），但他拒绝传统的 Self-help、处方药般的教条、方法论（Methodologies）、励志内容和分步指导。
 
-### Key aspects of his public persona and work:
+### Key aspects of his public persona and work
 
 - **Books** — 他撰写了几本在特定高表现（High-performance）和寻求真理的圈子中很受欢迎的作品，包括：
   - *Atmamun: The Path To Achieving The Bliss Of The Himalayan Swamis. And The Freedom Of A Living God.*

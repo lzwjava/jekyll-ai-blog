@@ -32,9 +32,10 @@ Multiple compatibility problems with Codex:
 
 4. Gemini 1.5-flash's function calling doesn't work despite Gemini 1.5-pro working fine with identical configurations
 
-## My Recommendation:
+## My Recommendation
 
 For your custom provider config.toml with cheaper options that **actually work reliably** in Codex:
+
 - **GPT-4o Mini** (safest, proven)
 - **GPT-4.1 Mini** (better performance)
 - **o3-Mini** (cheapest reasoning)

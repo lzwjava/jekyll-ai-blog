@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** pincc.ai 的平台是什么，它做什么？另外，https://github.com/Wei-Shaw/claude-relay-service 的 GitHub 项目是什么？
+**问题：** pincc.ai 的平台是什么，它做什么？另外，<https://github.com/Wei-Shaw/claude-relay-service> 的 GitHub 项目是什么？
 
 **回答：**
 
@@ -48,6 +48,7 @@ Claude Relay Service 是一个多平台的 AI API 中继服务，支持 Claude�
 **技术栈：** Node.js 18+、Redis、Docker 兼容。
 
 **部署选项**（来自 pincc.ai 文档）：
+
 - 一键脚本安装（`crs` 命令行工具）
 - Docker / Docker Compose
 - 通过 `git clone` + `npm install` 手动部署

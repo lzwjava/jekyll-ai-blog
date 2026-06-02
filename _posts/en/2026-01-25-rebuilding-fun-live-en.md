@@ -17,6 +17,7 @@ Answer:
 To rebuild Fun Live—a knowledge-sharing live broadcast platform with real-time lectures (programming, design, etc.), paid sessions, lecturer rewards, real-time participation, playback (VOD), WeChat-like notifications, and WeChat Mini Program integration—using **Google Cloud** in 2025–2026, adopt a modern, scalable, serverless-first or managed-services-heavy architecture. This reduces operational burden compared to the original self-managed PHP/CodeIgniter + SRS + Alibaba Cloud stack.
 
 ### Core Principles for the New Architecture
+
 - **Serverless & managed services** wherever possible → minimize DevOps work
 - **Global low-latency delivery** for live + VOD
 - **Scalability** to handle spikes (popular lectures)
@@ -92,6 +93,7 @@ To rebuild Fun Live—a knowledge-sharing live broadcast platform with real-time
 | Design tool        | Sketch                            | Figma (modern replacement)                          |
 
 ### Migration / Rebuild Tips
+
 - Start with MVP: Live Stream API + Media CDN + Firestore + Cloud Run APIs
 - Keep OBS → RTMP unchanged for lecturer ease
 - Open-source again on GitHub — consider monorepo or separate frontend/backend repos

@@ -15,14 +15,16 @@ Here's the deal for WhatsApp on your setup, Boss:
 
 OpenClaw uses **WhatsApp Web (Baileys)** — it links to your WhatsApp account by scanning a QR code from the server. This works with both regular WhatsApp and WhatsApp Business on iOS.
 
-### Steps:
+### Steps
 
 **1. Install the WhatsApp plugin** (if not already):
+
 ```bash
 openclaw plugins install @openclaw/whatsapp
 ```
 
 **2. Configure access policy** in your `openclaw.json`:
+
 ```json5
 {
   channels: {
@@ -35,27 +37,32 @@ openclaw plugins install @openclaw/whatsapp
 ```
 
 **3. Link via QR code:**
+
 ```bash
 openclaw channels login --channel whatsapp
 ```
+
 This will display a QR code in your terminal. On your iPhone:
+
 - Open **WhatsApp** (or WhatsApp Business)
 - Go to **Settings → Linked Devices → Link a Device**
 - Scan the QR code
 
 **4. Start the gateway:**
+
 ```bash
 openclaw gateway
 ```
 
 **5. First message = pairing** (if using `pairing` policy):
 Message your linked WhatsApp number from your phone, it'll give you a code, then:
+
 ```bash
 openclaw pairing list whatsapp
 openclaw pairing approve whatsapp <CODE>
 ```
 
-### A few notes:
+### A few notes
 
 - **Dedicated number recommended** — using a separate WhatsApp number for OpenClaw avoids self-chat confusion. But personal number works too.
 - **WhatsApp Business is fine** — same linking process, no difference.

@@ -13,12 +13,14 @@ type: note
 My apologies for the mix-up! You're referring to **芋头** (yùtóu in Mandarin), which is **taro root**, a starchy, small, round tuber similar in size and shape to a small potato, often used in Chinese and other Asian cuisines. Taro has a nutty, mildly sweet flavor and a creamy texture when cooked. Here's how to cook taro (yùtóu) in an air fryer to get a crispy exterior and tender interior, perfect as a snack or side dish. This recipe serves 2–4 and takes about 20–25 minutes.
 
 ### Ingredients
+
 - 1 lb (450g) small taro roots (yùtóu), peeled and cut into 1-inch chunks or rounds (like small potato pieces)
 - 1–2 tbsp neutral oil (e.g., vegetable, avocado, or sesame oil)
 - Seasonings: ½ tsp salt, ¼ tsp black pepper, optional pinch of five-spice powder or garlic powder
 - Optional: Soy sauce, chili oil, or hoisin sauce for dipping
 
 ### Instructions
+
 1. **Prep the Taro**:
    - Peel the taro carefully (wear gloves if sensitive to its slightly slimy skin, as raw taro can irritate).
    - Cut into bite-sized, uniform 1-inch chunks or rounds for even cooking.
@@ -38,6 +40,7 @@ My apologies for the mix-up! You're referring to **芋头** (yùtóu in Mandarin
 6. **Rest and Serve**: Let taro cool for 1–2 minutes on a plate or rack to crisp further. Serve hot as a snack, side, or with dipping sauces like soy-chili or hoisin.
 
 ### Tips for Success
+
 - **Size Matters**: Uniform 1-inch pieces cook evenly; too small burns, too large stays raw inside.
 - **Frozen Taro**: If using frozen, add 3–5 minutes to cooking time; no need to thaw fully, but pat dry.
 - **Flavor Variations**: Try tossing with a touch of honey and sesame seeds post-cooking for a sweet-savory twist, or sprinkle with chili powder for heat.

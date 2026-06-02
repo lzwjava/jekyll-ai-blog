@@ -23,6 +23,7 @@ As of October 2025, the core Llama 4 releases (Scout and Maverick) are out and a
 In short, it's a classic case of AI hype meeting the grind of scaling: ambitious goals, but technical hurdles in squeezing out those last bits of capability from ever-larger models.
 
 ### References
+
 - [Mark Zuckerberg on Llama 4 Training Progress](https://www.reddit.com/r/LocalLLaMA/comments/1id6gcj/mark_zuckerberg_on_llama_4_training_progress/)
 - [Llama 4 is here | Mark Zuckerberg](https://www.facebook.com/zuck/videos/llama-4-is-here-/1334337587862376/)
 - [The future of AI: Built with Llama](https://ai.meta.com/blog/future-of-ai-built-with-llama/)

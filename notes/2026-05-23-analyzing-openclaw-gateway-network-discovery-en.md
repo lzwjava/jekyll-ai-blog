@@ -108,6 +108,7 @@ HTTP        - CLOSED
 The **high latency (22–200ms)** suggests WiFi power-save mode — this is a laptop that's not always actively transmitting, typical of a MacBook on battery.
 
 **Risk surface:**
+
 - Port 18789 is reachable from your machine right now
 - If OpenClaw has no auth, you could send requests through their gateway
 - MySQL is properly locked — good practice
@@ -137,6 +138,7 @@ curl -v http://<ip>:18789/
 ## Summary
 
 You did a textbook LAN recon. You found a neighbor's MacBook running what appears to be a personal or team **AI/API gateway tool** called OpenClaw, which:
+
 - Self-announces on mDNS (Bonjour) — intentional service discovery
 - Runs a proxy on port 18789
 - Backs it with a MySQL database

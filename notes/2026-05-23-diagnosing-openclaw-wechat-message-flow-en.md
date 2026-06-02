@@ -23,7 +23,7 @@ The WeChat message pipeline in Hermes is:
 
 1. INBOUND: WeixinAdapter._poll_loop() long-polls iLink API (getupdates)
 2. PROCESS: _process_message() → builds MessageEvent → calls self.handle_message(event)
-3. DISPATCH: BasePlatformAdapter.handle_message() → spawns _process_message_background()
+3. DISPATCH: BasePlatformAdapter.handle_message() → spawns_process_message_background()
 4. AGENT: _message_handler(event) → GatewayRunner._handle_message()
 5. LLM: _run_agent() → creates AIAgent → calls agent.run_conversation()
 6. OUTBOUND: response goes through BasePlatformAdapter._send_with_retry()
@@ -43,6 +43,7 @@ WHAT THE FRIEND'S DIAGNOSTIC DESCRIBES
 --------------------------------------
 
 The report references:
+
 - "NewsBot Agent" with workspace ~/.openclaw/workspace-newsbot
 - "ACP (OpenClaw ACP)" runtime
 - "openclaw-weixin" channel
@@ -91,20 +92,23 @@ This makes sense. The flow is:
 The disconnect is between steps 5 and 6. There are two possible failure points:
 
 POSSIBILITY A: ACP runtime returns response but OpenClaw doesn't relay it back
-  - The ACP runtime processes the message and generates a response
-  - But the response stays inside the ACP protocol layer
-  - OpenClaw's NewsBot agent doesn't forward it to the WeChat channel
-  - This is a bug in OpenClaw's ACP→channel bridge
+
+- The ACP runtime processes the message and generates a response
+- But the response stays inside the ACP protocol layer
+- OpenClaw's NewsBot agent doesn't forward it to the WeChat channel
+- This is a bug in OpenClaw's ACP→channel bridge
 
 POSSIBILITY B: ACP runtime fails silently
-  - The ACP runtime gets the message but errors out
-  - The error is swallowed (no logging visible to the user)
-  - The WeChat channel never gets a response
+
+- The ACP runtime gets the message but errors out
+- The error is swallowed (no logging visible to the user)
+- The WeChat channel never gets a response
 
 POSSIBILITY C: The /tmp/VibApp/ "Hermes integration" is a separate thing entirely
-  - It's a standalone Node.js script that was meant to be the response path
-  - But it's not wired into the ACP runtime at all
-  - It was created as a proof-of-concept but never integrated
+
+- It's a standalone Node.js script that was meant to be the response path
+- But it's not wired into the ACP runtime at all
+- It was created as a proof-of-concept but never integrated
 
 ---
 

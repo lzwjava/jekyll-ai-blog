@@ -29,7 +29,9 @@ def call_deepseek_api(messages, tools=None):
         data = {"model": MODEL_NAME, "messages": messages, "stream": False}
         if tools:
             data["tools"] = tools
-        response = requests.post(DEEPSEEK_API_URL, headers=headers, json=data)
+        response = requests.post(
+            DEEPSEEK_API_URL, headers=headers, json=data, timeout=30
+        )
         response.raise_for_status()
         response_json = response.json()
         if (

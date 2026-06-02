@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question:** Krzysztof Stencel 在 UVa (University of Valladolid Online Judge) 上也相当活跃吗？链接是 https://uhunt.onlinejudge.org/id/19304。
+**Question:** Krzysztof Stencel 在 UVa (University of Valladolid Online Judge) 上也相当活跃吗？链接是 <https://uhunt.onlinejudge.org/id/19304。>
 
 **Answer:**
 

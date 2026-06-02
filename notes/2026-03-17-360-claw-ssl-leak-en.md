@@ -34,6 +34,7 @@ The SSL key leak demonstrates a violation of the most basic security practice—
 ## Security Implications
 
 With the leaked SSL private key, attackers can now:
+
 - Impersonate 360's servers
 - Intercept user traffic
 - Forge login pages and redirect users to malicious sites

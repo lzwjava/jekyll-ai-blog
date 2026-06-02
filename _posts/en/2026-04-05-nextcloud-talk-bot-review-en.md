@@ -43,6 +43,7 @@ Bot Registration:
 ### ⚠️ One Issue Found in Logs
 
 The old logs (BEFORE reinstall at ~02:49 HKT) show:
+
 ```
 nextcloud-talk: drop room 7df4dtc5 (not allowlisted)
 nextcloud-talk final reply failed: room not found
@@ -53,6 +54,7 @@ This was caused by the old bot (ID 8) trying to use rooms that were deleted. **T
 ### 🚀 Test Required
 
 **Please send a message NOW** in the Nextcloud Talk room. Since the reinstall (~02:49 HKT), there have been:
+
 - ✅ No errors in Nextcloud error log
 - ✅ Bot error_count = 0
 

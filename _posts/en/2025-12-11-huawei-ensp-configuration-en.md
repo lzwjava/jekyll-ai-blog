@@ -16,7 +16,8 @@ Answer:
 
 **Network Device Configuration and Management Project Tutorial (Huawei eNSP Simulator Edition)** by Zhang Wenku (张文库) is a widely used Chinese-language practical textbook focused on hands-on training in network device configuration and management using Huawei’s official eNSP (Enterprise Network Simulation Platform) simulator.
 
-### Key Features:
+### Key Features
+
 - **Target Audience**: Primarily designed for university students majoring in computer networks, vocational college students, network engineering trainees, and individuals preparing for certifications such as HCIA/HCIP (Huawei Certified ICT Associate/Professional).
 - **Teaching Approach**: Project-based and task-driven learning. Each chapter revolves around real-world engineering projects and typical network scenarios.
 - **Main Content Coverage**:
@@ -34,5 +35,6 @@ This book is especially popular in Chinese universities and training institution
 Although originally written in Chinese, it is considered one of the most systematic and detailed eNSP-based practice guides available for Huawei networking education.
 
 References:
+
 - [Douban - 网络设备配置与管理项目教程（华为eNSP模拟器版）](https://book.douban.com/subject/35694763/)
 - [China-Pub - Book Details](http://www.china-pub.com/9787111678542)

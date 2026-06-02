@@ -15,6 +15,7 @@ Yes, you're absolutely right — and this is one of the most common and stubborn
 Thinking or “talking to yourself” in your mother tongue (the famous “inner monologue” or “inner speech”) is extremely persistent. Research shows that even people who have lived 10–20+ years in another country, are married to a native speaker, and use the second language (L2) professionally every day often still have their internal voice in their first language (L1). It’s not rare at all.
 
 ### Why is it so hard to change?
+
 1. **Inner speech is one of the earliest and most automated functions of the brain.**
    It develops in childhood together with the mother tongue and becomes deeply wired. Changing it is like trying to switch the “operating system” of your mind.
 
@@ -25,6 +26,7 @@ Thinking or “talking to yourself” in your mother tongue (the famous “inner
    Complex reasoning, emotional self-regulation, planning, and self-criticism feel safer and more precise in L1, so the brain resists moving them to L2 even when L2 is already very fluent.
 
 ### But some people do manage to switch (partially or fully). How?
+
 The ones who eventually think mostly or exclusively in the second language usually have one or more of these factors:
 
 - Started the L2 very early (before ~12 years old) → critical period effect
@@ -36,6 +38,7 @@ The ones who eventually think mostly or exclusively in the second language usual
 For adults who started later, full replacement is rare, but most can reach a “bilingual mode” where certain domains move to L2 (e.g., work-related thoughts, counting, swearing, dreams, etc.).
 
 ### Practical ways to push the inner voice toward the second language
+
 1. Narrate your entire day out loud in L2 when alone (cooking, showering, walking).
    Verbalizing forces the brain to formulate thoughts directly in L2 instead of translating.
 
@@ -51,6 +54,7 @@ For adults who started later, full replacement is rare, but most can reach a “
 6. Dreams: a surprising number of people report that when dreams start happening in L2, it’s a sign that inner speech is finally shifting.
 
 ### Bottom line
+
 Yes, keeping the mother tongue as inner speech even after decades abroad is completely normal and the default outcome for most adult learners. It does not mean you’re “bad” at the language. True “thinking in L2” is a bonus that only a minority achieve fully, and it usually takes deliberate, long-term effort on top of immersion.
 
 So don’t feel discouraged — you’re not alone, and even if your inner voice stays in your mother tongue forever, it doesn’t stop you from being functionally indistinguishable from a native speaker in real life.

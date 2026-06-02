@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-**Question:** What does this video say? (referring to https://www.youtube.com/watch?v=53wThFFuOqU)
+**Question:** What does this video say? (referring to <https://www.youtube.com/watch?v=53wThFFuOqU>)
 
 **Answer:**
 
@@ -18,7 +18,7 @@ The video is an interview clip from Bloomberg Invest New York 2023 titled **"Dru
 
 Stanley Druckenmiller (Chairman & CEO of Duquesne Family Office) is interviewed by Bloomberg's Sonali Basak. The provided portion (and apparent main focus of this clip) discusses U.S. fiscal issues rather than AI directly — specifically the long-term dangers of rising entitlement spending, demographics, government debt, and deficits.
 
-### Key points from the discussion:
+### Key points from the discussion
 
 - Druckenmiller has been concerned about U.S. entitlement spending (Social Security, Medicare, Medicaid) for over a decade, driven by demographics.
 - He references a 1990s paper predicting a "demographic storm" in the 2020s due to Baby Boomers aging, high senior share of government spending (already risen from ~30% to ~58% since the 1960s), falling birth rates (below replacement level), and fewer workers paying taxes to support more retirees.

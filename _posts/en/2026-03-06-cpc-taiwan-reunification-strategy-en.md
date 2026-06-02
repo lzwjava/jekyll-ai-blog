@@ -20,6 +20,7 @@ Below is a comprehensive breakdown of each of the ten adherences:
 ---
 
 ### 1. Uphold the CPC Central Committee's Centralized and Unified Leadership over Taiwan Affairs
+
 **— The Fundamental Guarantee of Reunification**
 
 The CPC is the supreme political leadership force for achieving national reunification. Taiwan affairs are Party affairs, and strengthening the Party Central Committee's centralized and unified leadership over Taiwan work is the key to doing it well. This is where the advantage, the crux, and the foundation of Taiwan work lie.
@@ -27,6 +28,7 @@ The CPC is the supreme political leadership force for achieving national reunifi
 ---
 
 ### 2. Advance Reunification Within the Process of the Great Rejuvenation of the Chinese Nation
+
 **— The Historical Positioning of Reunification**
 
 The 20th Party Congress Report grasps the irreversible historical momentum of the great rejuvenation of the Chinese nation and plans Taiwan work from the perspective of the overall situation of Party and state development. The goal is to "firmly grasp the initiative and dominance over cross-strait relations and steadfastly advance the great cause of national reunification."
@@ -34,6 +36,7 @@ The 20th Party Congress Report grasps the irreversible historical momentum of th
 ---
 
 ### 3. Resolve the Taiwan Question on the Basis of the Mainland's Development and Progress
+
 **— The Strategic Thinking Behind Reunification**
 
 The mainland's growing comprehensive national strength, institutional advantages, and modernization achievements are to be continuously converted into the driving force for advancing reunification. The mainland's development is the strategic foundation from which the resolution of the Taiwan question must proceed.
@@ -41,6 +44,7 @@ The mainland's growing comprehensive national strength, institutional advantages
 ---
 
 ### 4. Uphold the Basic Policy of "Peaceful Reunification, One Country, Two Systems"
+
 **— The Fundamental Policy for Reunification**
 
 "Peaceful Reunification, One Country, Two Systems" is the basic policy for resolving the Taiwan question and the best way to achieve cross-strait reunification, most in line with the overall interests of the Chinese nation including Taiwan compatriots. The specific implementation form will fully consider Taiwan's actual situation, fully incorporate opinions and suggestions from all walks of life on both sides, and fully take into account the interests and feelings of Taiwan compatriots.
@@ -48,6 +52,7 @@ The mainland's growing comprehensive national strength, institutional advantages
 ---
 
 ### 5. Uphold the One-China Principle and the "1992 Consensus"
+
 **— The Political Foundation for Reunification**
 
 The "1992 Consensus," which embodies the One-China Principle, is the key to ensuring peaceful development of cross-strait relations. On this basis, China is willing to engage in dialogue and communication with political parties, groups, and individuals in Taiwan on cross-strait political issues and peaceful reunification of the motherland.
@@ -55,6 +60,7 @@ The "1992 Consensus," which embodies the One-China Principle, is the key to ensu
 ---
 
 ### 6. Promote Peaceful and Integrated Development of Cross-Strait Relations
+
 **— The Practical Path to Reunification**
 
 This means deepening cross-strait integrated development, taking the lead in sharing development opportunities with Taiwan compatriots, providing equal treatment, expanding and deepening cross-strait exchanges and cooperation, strengthening the Chinese national economy, jointly promoting Chinese culture, and building a community of shared future across the strait.
@@ -62,6 +68,7 @@ This means deepening cross-strait integrated development, taking the lead in sha
 ---
 
 ### 7. Unite Taiwan Compatriots and Win Over the Hearts of the Taiwan People
+
 **— The Fundamental Driving Force of Reunification**
 
 Peaceful reunification best serves the fundamental interests of compatriots on both sides. The mainland has always attached great importance to the concerns and well-being of Taiwan compatriots. The foundation for national unity and long-term stability lies in the people.
@@ -69,6 +76,7 @@ Peaceful reunification best serves the fundamental interests of compatriots on b
 ---
 
 ### 8. Resolutely Crush "Taiwan Independence" Separatist Schemes
+
 **— The Inherent Requirement of Reunification**
 
 "Taiwan independence" separatism is the biggest obstacle to national reunification. It is absolutely impermissible for any person, organization, or political party to separate Taiwan from China in any form at any time. Separatist acts must be legally punished, leaving no room for separatist "Taiwan independence" activities.
@@ -76,6 +84,7 @@ Peaceful reunification best serves the fundamental interests of compatriots on b
 ---
 
 ### 9. Oppose Interference by External Forces
+
 **— The External Condition for Reunification**
 
 Taiwan is China's Taiwan. Resolving the Taiwan question is China's internal affair and tolerates no external interference. China firmly counters external forces playing the "Taiwan card" and resolutely fights back against any foreign interference.
@@ -83,6 +92,7 @@ Taiwan is China's Taiwan. Resolving the Taiwan question is China's internal affa
 ---
 
 ### 10. Never Renounce the Use of Force
+
 **— The Strategic Support for Reunification**
 
 China never renounces the use of force and reserves the option of taking all necessary measures. This is aimed at interference by external forces and a very small number of "Taiwan independence" separatists and their separatist activities — it is absolutely not directed at Taiwan compatriots. This means always being prepared with both peaceful and non-peaceful means, ensuring both options remain strong, to provide more reliable means for advancing the cause of reunification.

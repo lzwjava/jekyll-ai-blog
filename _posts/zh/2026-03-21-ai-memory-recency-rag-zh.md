@@ -35,7 +35,6 @@ Timeliness 衡量数据的新鲜程度。随着时间推移，数据的相关性
 
 ### The Concept
 
-
 | Memory Age | Fine-tune Rounds | Effect |
 |---|---|---|
 | 5 years ago | 1× | Baseline knowledge, low influence |
@@ -44,10 +43,12 @@ Timeliness 衡量数据的新鲜程度。随着时间推移，数据的相关性
 | Last 3 months | 4–5× | Dominant parametric knowledge |
 
 ### Pros
+
 - 将 temporal priority **bakes into the model weights**——无需 retrieval 步骤
 - 适用于很少变化的稳定 knowledge（例如，architectural philosophy、core conventions）
 
 ### Cons
+
 - Fine-tuning 昂贵且缓慢——不适合 continuous memory updates
 - 尝试为时间 fine-tune retrievers 往往诱发 **catastrophic forgetting** of semantic capabilities——模型在对最近数据过度 fine-tune 时会丢失旧但仍有效的 knowledge。
 - 无法优雅处理“superseded facts”——如果 release process 发生了变化，旧 facts 与新 ones 在同一 weights 中竞争
@@ -70,7 +71,6 @@ Timeliness 衡量数据的新鲜程度。随着时间推移，数据的相关性
 其中 `h` 是可配置的 half-life（以天为单位），`α` 控制 semantic relevance 和 recency 之间的权重。
 
 对于你的团队 memory 系统，你可以按 memory category 调优 `h` 和 `α`：
-
 
 | Memory Type | Recommended Half-life (h) | α weight |
 |---|---|---|
@@ -128,7 +128,6 @@ Query from Claude Code / Copilot
 ---
 
 ## Comparison Summary
-
 
 | Dimension | Fine-tuning Graduation | Time-Weighted RAG |
 |---|---|---|

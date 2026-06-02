@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** 在 `@askjo/camofox-browser` 项目中，执行 `npm install && npm start` 时下载速度很慢，我能否从 GitHub 仓库 https://github.com/apify/camoufox-js 手动下载 Camoufox 的二进制文件？
+**问题：** 在 `@askjo/camofox-browser` 项目中，执行 `npm install && npm start` 时下载速度很慢，我能否从 GitHub 仓库 <https://github.com/apify/camoufox-js> 手动下载 Camoufox 的二进制文件？
 
 **回答：**
 
@@ -20,9 +20,11 @@ type: note
 浏览器二进制文件托管在 **daijro/camoufox** 仓库的发布页面，而不是 apify/camoufox-js 仓库。具体步骤如下：
 
 ### 第一步：访问 Camoufox 发布页面
+
 前往 Camoufox 的主发布页面，下载适合你系统的二进制文件。
 
 ### 第二步：选择对应平台的二进制文件
+
 最新的稳定版本是 **v135.0.1-beta.24**（截至 2025年3月15日）。根据你的操作系统和架构下载对应的文件：
 
 - **Linux x86_64**: `camoufox-135.0.1-beta.24-lin.x86_64.zip`
@@ -32,13 +34,16 @@ type: note
 - **Windows x86_64**: `camoufox-135.0.1-beta.24-win.x86_64.zip`
 
 ### 第三步：解压并放置二进制文件
+
 下载后，解压压缩包，并将其放置在 Camoufox 预期找到的缓存目录中。通常的存放位置是：
 
 - **Linux/macOS**: `~/.cache/camoufox/`
 - **Windows**: `%LOCALAPPDATA%\camoufox\`
 
 ### 第四步：运行获取命令
+
 手动放置二进制文件后，你可以运行：
+
 ```bash
 npx camoufox-js fetch
 ```
@@ -50,11 +55,13 @@ npx camoufox-js fetch
 如果你想避免缓慢的 npm postinstall 下载，可以：
 
 1. 安装包时不运行 postinstall 钩子：
+
    ```bash
    npm install --ignore-scripts
    ```
 
 2. 然后手动获取浏览器：
+
    ```bash
    npx camoufox-js fetch
    ```

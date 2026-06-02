@@ -19,6 +19,7 @@ Things soured around 2018 when Musk resigned from the board. He clashed with Ope
 Fast-forward to today (October 2025), and their relationship is openly hostile—a mix of lawsuits, public insults on X (formerly Twitter), and competitive jabs in the AI race. Musk has repeatedly called Altman "Little Finger" (a scheming Game of Thrones character) on X, implying betrayal and manipulation. Altman, in a recent interview with Tucker Carlson, said he once saw Musk as a "great jewel for humanity" but now feels differently, citing Musk's traits he doesn't admire and accusing him of trying to "slow us down" after OpenAI succeeded without him. Altman has also suggested Musk's criticisms stem from insecurity, saying, "Probably his whole life is from a position of insecurity. I feel for the guy."
 
 #### Key Escalations in the Feud
+
 - **2023: Musk Launches xAI and Grok**: Yes, this was absolutely positioned as a "revenge" move. Frustrated with OpenAI's closed-source pivot (e.g., GPT models behind paywalls), Musk started xAI to build "maximum truth-seeking AI" as an alternative. Grok, xAI's chatbot, was unveiled as a direct rival to ChatGPT—witty, less censored, and integrated with X. Musk has framed it as fixing OpenAI's "woke" biases and mission drift.
 
 - **2024 Lawsuit**: Musk sued OpenAI and Altman, alleging breach of the founding agreement by going for-profit and hiding tech from the public. The suit claims OpenAI became a "closed-source de facto subsidiary" of Microsoft. OpenAI fired back, calling it sour grapes from a failed competitor.
@@ -33,6 +34,7 @@ Their interactions are minimal now—Altman says they talk "very little." The fe
 In short, yeah, Musk is still pissed about OpenAI's evolution and his exit, viewing it as a personal betrayal. xAI/Grok is his counterpunch, but it's evolved into a full tech rivalry. No signs of reconciliation anytime soon.
 
 #### References
+
 - [Inside the Feud Between Elon Musk and Sam Altman](https://builtin.com/artificial-intelligence/musk-altman-feud)
 - [Timeline: Elon Musk vs OpenAI and Sam Altman](https://www.techrepublic.com/article/news-elon-musk-sam-altman-relationship-timeline/)
 - [Sam Altman Is Going After Elon Musk's Empire](https://www.forbes.com/sites/johnhyatt/2025/08/16/sam-altman-despises-elon-musk-now-he-is-going-after-his-companies/)

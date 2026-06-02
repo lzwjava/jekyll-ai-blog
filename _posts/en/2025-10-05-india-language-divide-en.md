@@ -33,6 +33,7 @@ The primary conflicts stem from efforts to impose Hindi as India's national or d
 These conflicts aren't just linguistic—they tie into identity, federalism, and resistance to centralization. While Hindi is now spoken by millions nationwide (thanks to Bollywood and migration), southern resistance has preserved Tamil's vitality and influenced India's three-language formula in education.
 
 #### References
+
 - [Languages of India - Wikipedia](https://en.wikipedia.org/wiki/Languages_of_India)
 - [Dravidian languages - Wikipedia](https://en.wikipedia.org/wiki/Dravidian_languages)
 - [India's language war: Why is Hindi sparking a north-south divide?](https://www.aljazeera.com/news/2025/4/10/indias-language-war-why-is-hindi-causing-a-north-south-divide)

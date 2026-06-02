@@ -35,11 +35,13 @@ Here are the most common and practical use cases:
 | **GC & Runtime Insights** | Custom GC logging, safepoint analysis, JVM internals | JCmd + custom agents, Java Mission Control with Flight Recorder agent                  |
 
 ### Real-world examples you mentioned
+
 - **JaCoCo** → Uses a Java agent (`-javaagent:jacocoagent.jar`) to instrument classes on the fly and collect coverage data.
 - **YourKit** → Ships a profiling agent (`-agentpath:` or `-javaagent:`) that tracks CPU time, allocations, locks, etc.
 - **Debugging** → You can write a tiny agent that prints “Method X entered/exited” or dumps stack traces for specific classes/methods without touching source code.
 
 ### When to write your own agent
+
 - Need custom metrics not covered by existing APM tools.
 - Want to enforce runtime policies (e.g., block certain JDBC drivers).
 - Building testing utilities (mocking finals, stubbing statics).
@@ -48,6 +50,7 @@ Here are the most common and practical use cases:
 In short, Java agents are the standard way to do non-invasive, production-safe instrumentation in the JVM ecosystem. Almost every modern observability or profiling tool you use is built on top of them.
 
 References:
+
 - [Java Instrumentation Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.instrument/java/lang/instrument/package-summary.html)
 - [JaCoCo Java Agent](https://www.jacoco.org/jacoco/trunk/doc/agent.html)
 - [YourKit Java Profiler](https://www.yourkit.com/docs/java/)

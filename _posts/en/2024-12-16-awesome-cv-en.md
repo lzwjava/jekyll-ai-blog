@@ -16,6 +16,7 @@ Before using [ZhiyeApp](https://www.zhiyeapp.com), I switched to the powerful an
 ---
 
 ### Why Awesome-CV?
+
 - Customizable: You can personalize sections, colors, and formatting.
 - Professional Look: Clean design perfect for job applications.
 - Easy to Use: Requires minimal LaTeX knowledge.
@@ -90,16 +91,16 @@ RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
 awesome-cv: $(foreach x, coverletter resume-zh resume, $x.pdf)
 
 resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+ $(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 resume-zh.pdf: $(EXAMPLES_DIR)/resume-zh.tex $(RESUME_ZH_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+ $(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+ $(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+ rm -rf $(EXAMPLES_DIR)/*.pdf
 ```
 
 ### How It Works
@@ -112,7 +113,6 @@ clean:
 
 2. Clean Up:
    - Run `make clean` to remove all generated PDF files.
-
 
 ### Conclusion
 

@@ -53,6 +53,7 @@ Tailscale is a zero-configuration VPN based on WireGuard. It creates a secure ne
      ```bash
      ssh user@100.x.x.x   # Use your server’s Tailscale IP
      ```
+
    * Or access any service you expose (web server, media server) via the Tailscale IP.
 
 **Notes:**
@@ -83,6 +84,7 @@ Tailscale is a zero-configuration VPN based on WireGuard. It creates a secure ne
   ```bash
   ssh -R 2222:localhost:22 user@remote-ngrok-server
   ```
+
 * Pros:
 
   * No VPN setup.

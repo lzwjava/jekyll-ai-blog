@@ -10,9 +10,10 @@ translated: true
 type: note
 ---
 
-在 **nanoGPT** (https://github.com/karpathy/nanoGPT) 中，**meta.pkl** 文件是一个可选的 pickle 文件，用于存储数据集的词汇表和编码元数据。当您使用自定义文本数据集（非默认的 OpenWebText 或莎士比亚字符级数据集）进行训练时，该文件会被使用。
+在 **nanoGPT** (<https://github.com/karpathy/nanoGPT>) 中，**meta.pkl** 文件是一个可选的 pickle 文件，用于存储数据集的词汇表和编码元数据。当您使用自定义文本数据集（非默认的 OpenWebText 或莎士比亚字符级数据集）进行训练时，该文件会被使用。
 
 ### meta.pkl 通常包含的内容
+
 这是一个包含以下键的字典（示例）：
 
 ```python
@@ -37,7 +38,7 @@ type: note
      这意味着 nanoGPT 在您的数据目录中未找到 meta.pkl 文件
    - 此时程序会回退到默认的 GPT-2 BPE 分词器（与 OpenAI GPT-2 使用的相同），词汇表大小固定为 50257。这就是为什么您的 29.94M 参数模型（这是最小 GPT-2 124M 配置，但有时会被错误报告）即使在缺少 meta.pkl 的情况下，也能在 OpenWebText 或类似数据集上正常训练
 
-### 简要总结：
+### 简要总结
 
 | 场景                                | meta.pkl 的作用                                          |
 |-------------------------------------|----------------------------------------------------------|

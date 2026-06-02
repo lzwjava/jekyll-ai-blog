@@ -57,6 +57,7 @@ Yes, your reasoning makes good sense in the context of AI agent workflows and "d
 
 **Security note**:
 Giving any AI agent sudo access via SSH is powerful but risky. Best practices include:
+
 - Use a dedicated low-privilege service account with limited sudo rights (only for specific commands if possible)
 - Restrict SSH key access to specific IP addresses
 - Monitor logs and commands executed by the agent
@@ -65,4 +66,5 @@ Giving any AI agent sudo access via SSH is powerful but risky. Best practices in
 Would you like a sample bash script template for installing CUDA + Ollama that you can give to your agent, or tips on securely configuring SSH/sudo for such a digital employee setup?
 
 References:
+
 - None

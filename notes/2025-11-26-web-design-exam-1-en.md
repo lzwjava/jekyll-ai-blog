@@ -40,7 +40,7 @@ Here are 50 additional high-quality exam practice questions specifically tailore
 
 9. Fill-in-the-blank: The correct way to embed a video that supports multiple formats is to use the ______ tag and provide multiple <source> elements.
 
-10. Short answer: Write the complete HTML code to create a hyperlink that opens in a new window and points to https://www.tsinghua.edu.cn.
+10. Short answer: Write the complete HTML code to create a hyperlink that opens in a new window and points to <https://www.tsinghua.edu.cn>.
 
 11. Error correction: Find and correct the error in the following code:
     `<img src="logo.png" alt="Company Logo">` (missing closing tag or width/height in old exam style)

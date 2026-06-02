@@ -14,6 +14,7 @@ Based on your config, let me calculate whether 100,000 iterations is appropriate
 ## Current Token Throughput
 
 With your config:
+
 - Batch size: 16
 - Block size: 1024 tokens
 - Gradient accumulation: 64
@@ -25,6 +26,7 @@ With your config:
 ## For 10B Tokens
 
 To process 10B tokens:
+
 - Required iterations = 10B ÷ 1M = **~10,000 iterations**
 
 ## Answer
@@ -33,20 +35,23 @@ To process 10B tokens:
 
 ## Suggested Configurations
 
-### For 10B tokens (as implied in comments):
+### For 10B tokens (as implied in comments)
+
 ```python
 max_iters = 10000  # Actually ~10B tokens
 lr_decay_iters = 10000
 # Keep warmup_iters = 500 (5% of total is reasonable)
 ```
 
-### For 100B tokens (if you want to use 100K iters):
+### For 100B tokens (if you want to use 100K iters)
+
 ```python
 max_iters = 100000  # ~100B tokens
 # This would be a 100B token run, suitable for larger pretraining
 ```
 
-### If you want to keep 100K but match 10B:
+### If you want to keep 100K but match 10B
+
 ```python
 # Option 1: Reduce batch size
 gradient_accumulation_steps = 6  # 6 instead of 64

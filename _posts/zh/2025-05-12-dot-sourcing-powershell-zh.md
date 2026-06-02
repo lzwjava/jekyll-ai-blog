@@ -15,14 +15,18 @@ type: note
 点源加载（使用 `.` 操作符）可将 PowerShell 脚本（.ps1 文件）载入当前会话内存，使其函数和变量无需执行脚本顶层代码即可直接使用。该功能适用于导入模块或可复用代码。
 
 #### 基础语法
+
 在 PowerShell 会话中运行以下命令：
+
 ```
 . 路径\你的脚本.ps1
 ```
+
 - 将 `路径\你的脚本.ps1` 替换为实际文件路径（建议使用绝对路径确保可靠性）
 - 示例：`. C:\脚本\我的函数.ps1` —— 这将把该文件中的函数加载到当前会话
 
 #### 运行机制
+
 - 脚本中定义的函数可在当前会话中直接调用
 - 变量也会被导入（除非被限定为局部作用域）
 - 生产环境中建议避免使用点源加载，改用模块以获得更好组织性
@@ -35,19 +39,25 @@ type: note
 执行策略是用于限制 PowerShell 脚本运行的安全设置，可防止恶意代码执行。该策略支持作用域分级（如计算机全局、用户特定）。
 
 #### 查看当前策略
+
 在 PowerShell 中运行：
+
 ```
 Get-ExecutionPolicy
 ```
+
 - 输出示例：`Restricted`（禁止所有脚本）、`AllSigned`（仅允许签名脚本）、`RemoteSigned`（远程脚本需签名，本地脚本直接允许）或 `Unrestricted`
 
 #### 设置或修改策略
+
 使用 `Set-ExecutionPolicy`（计算机级修改需要管理员权限）：
+
 - 允许本地编写脚本的示例：`Set-ExecutionPolicy RemoteSigned`
 - 强制应用不提示：`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force`
 - 作用域限定：`Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser`（仅影响当前用户）
 
 #### 常用策略说明
+
 - `Restricted`：默认策略，禁止运行任何脚本
 - `AllSigned`：要求数字签名（安全但不便）
 - `RemoteSigned`：平衡安全性与便利性——允许本地脚本，远程脚本需签名

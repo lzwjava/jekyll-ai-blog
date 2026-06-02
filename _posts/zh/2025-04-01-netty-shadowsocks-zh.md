@@ -46,26 +46,26 @@ type: note
 需要在 `ChannelPipeline` 中创建多个自定义 `ChannelHandler` 来实现 Shadowsocks 逻辑。可能的架构如下：
 
 * **本地代理服务器处理器（`ChannelInboundHandlerAdapter`）**：
-    * 运行在本地服务器套接字上，应用程序连接到此（如 `localhost:1080`）
-    * 当本地应用建立新连接时，该处理器会：
-        * 建立到远程 Shadowsocks 服务器的连接
-        * 按照协议编码初始连接请求（目标地址）并转发至 Shadowsocks 服务器
-        * 管理本地应用与 Shadowsocks 服务器之间的数据流
+  * 运行在本地服务器套接字上，应用程序连接到此（如 `localhost:1080`）
+  * 当本地应用建立新连接时，该处理器会：
+    * 建立到远程 Shadowsocks 服务器的连接
+    * 按照协议编码初始连接请求（目标地址）并转发至 Shadowsocks 服务器
+    * 管理本地应用与 Shadowsocks 服务器之间的数据流
 
 * **Shadowsocks 客户端编码器（`ChannelOutboundHandlerAdapter`）**：
-    * 负责编码发送到 Shadowsocks 服务器的数据
-    * 功能包括：
-        * 按照 Shadowsocks 协议编码目标地址（类型、地址、端口）
-        * 使用选定加密方法加密数据
+  * 负责编码发送到 Shadowsocks 服务器的数据
+  * 功能包括：
+    * 按照 Shadowsocks 协议编码目标地址（类型、地址、端口）
+    * 使用选定加密方法加密数据
 
 * **Shadowsocks 客户端解码器（`ChannelInboundHandlerAdapter`）**：
-    * 负责解码从 Shadowsocks 服务器接收的数据
-    * 功能包括：
-        * 解密接收到的数据
+  * 负责解码从 Shadowsocks 服务器接收的数据
+  * 功能包括：
+    * 解密接收到的数据
 
 * **远程服务器转发处理器（`ChannelInboundHandlerAdapter`）**：
-    * 当从远程 Shadowsocks 服务器接收到数据时触发
-    * 将解密后的数据转发回原始本地应用
+  * 当从远程 Shadowsocks 服务器接收到数据时触发
+  * 将解密后的数据转发回原始本地应用
 
 **5. Netty 管道结构示例**
 

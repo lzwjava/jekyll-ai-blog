@@ -16,6 +16,7 @@ whisper "meeting_01 2.mp4" --model small --output_format txt --output_dir .
 ```
 
 实用调整：
+
 - `--model` — `tiny`、`base`、`small`、`medium`、`large-v3`（越大越慢，但越准确）
 - `--language en` — 如果已知语言，可跳过自动检测
 - `--output_format` — `txt`、`srt`、`vtt`、`json` 或 `all`

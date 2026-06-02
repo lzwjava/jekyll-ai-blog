@@ -28,9 +28,11 @@ type: note
 **开发者模式：** Safari → 设置 → 高级 → 勾选“在菜单栏中显示‘开发’菜单”。然后选择 开发 → Web 扩展——您可以在那里查看并重新加载扩展。
 
 **已构建的应用：** 应用位于 Xcode 的 DerivedData 中。您也可以直接拷贝它：
+
 ```bash
 open /Users/lzwjava/Library/Developer/Xcode/DerivedData/TabsKiller-*/Build/Products/Debug/TabsKiller.app
 ```
+
 从那里运行它，然后在 Safari 设置中启用。
 
 ---

@@ -30,6 +30,7 @@ The leak exposed approximately 512,000+ lines of TypeScript, 44 hidden feature f
 The repository was born as a mirror that later became a complete rewrite of the Claude Code app, first in Python and later in Rust, and crossed 100,000 stars on GitHub — making it the fastest-growing repo in GitHub history, surpassing even the previous record holder.
 
 The repo is now a **Rust-dominant project** (92.9% Rust, 7.1% Python) with these main components:
+
 - `crates/api-client` — API client with provider abstraction and streaming
 - `crates/runtime` — session state, MCP orchestration, prompt construction
 - `crates/tools` — tool manifest definitions and execution framework
@@ -38,12 +39,14 @@ The repo is now a **Rust-dominant project** (92.9% Rust, 7.1% Python) with these
 ### Is It "Good"? An Honest Assessment
 
 **Pros:**
+
 - **Massive community traction** — 153k stars and 101k forks is unprecedented
 - **Clean-room approach** — designed to avoid direct copyright infringement by reimplementing architecture from scratch
 - **Rust port** — aims to deliver a faster, memory-safe harness runtime compared to the original TypeScript
 - **Educational value** — useful for studying AI agent harness engineering, tool wiring, and orchestration patterns
 
 **Cons / Cautions:**
+
 - The Python workspace is not yet a complete one-to-one replacement for the original system; it still contains fewer executable runtime slices than the archived source.
 - **Legal uncertainty** — the legal status of claw-code remains unresolved. No litigation has been filed against the clean-room rewrite as of early April 2026, but Anthropic has not published a formal post-mortem either.
 - **Ownership in flux** — the repo itself notes it is *temporarily locked during an ownership transfer*, with active maintenance happening at `ultraworkers/claw-code-parity`.

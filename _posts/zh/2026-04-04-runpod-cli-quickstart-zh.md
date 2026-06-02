@@ -190,15 +190,17 @@ runpodctl pod list --output=yaml     # YAML 格式
 RunPod 在 `runpodctl` 版本 1.11.0+ 中引入了“无 Docker”功能，简化了 AI 开发过程，允许您在 serverless 平台上部署自定义端点，无需处理 Docker 的复杂性。
 
 该流程包括：
-1.  使用您的 API 密钥配置 `runpodctl`
-2.  创建一个新项目（提示设置并创建项目文件夹）
-3.  启动开发会话
-4.  部署您的 Serverless 端点
+
+1. 使用您的 API 密钥配置 `runpodctl`
+2. 创建一个新项目（提示设置并创建项目文件夹）
+3. 启动开发会话
+4. 部署您的 Serverless 端点
 
 生成的项目文件包括：
--   `.runpodignore` — 指定部署时要排除的文件
--   `builder/requirements.txt` — pip 依赖项
--   `runpod.toml` — 项目配置和部署设置
+
+- `.runpodignore` — 指定部署时要排除的文件
+- `builder/requirements.txt` — pip 依赖项
+- `runpod.toml` — 项目配置和部署设置
 
 ```bash
 # 创建一个新项目
@@ -275,10 +277,10 @@ runpodctl doctor              # 诊断并修复问题
 
 **参考文献：**
 
--   [RunPod CLI 官方文档（概述）](https://docs.runpod.io/runpodctl/overview)
--   [runpodctl GitHub 仓库](https://github.com/runpod/runpodctl)
--   [RunPod CLI — DeepWiki](https://deepwiki.com/runpod/docs/5.1-runpod-cli-(runpodctl))
--   [RunPod 无 Docker CLI 博客文章](https://www.runpod.io/blog/dockerless-cli-runpod)
--   [RunPod 文件传输文档](https://docs.runpod.io/pods/storage/transfer-files)
--   [runpodctl Go 包参考](https://pkg.go.dev/github.com/runpod/runpodctl)
--   [Pod 配置示例（MomentFactory）](https://github.com/MomentFactory/runpod-cli/blob/main/examples/POD_CONFIG.md)
+- [RunPod CLI 官方文档（概述）](https://docs.runpod.io/runpodctl/overview)
+- [runpodctl GitHub 仓库](https://github.com/runpod/runpodctl)
+- [RunPod CLI — DeepWiki](https://deepwiki.com/runpod/docs/5.1-runpod-cli-(runpodctl))
+- [RunPod 无 Docker CLI 博客文章](https://www.runpod.io/blog/dockerless-cli-runpod)
+- [RunPod 文件传输文档](https://docs.runpod.io/pods/storage/transfer-files)
+- [runpodctl Go 包参考](https://pkg.go.dev/github.com/runpod/runpodctl)
+- [Pod 配置示例（MomentFactory）](https://github.com/MomentFactory/runpod-cli/blob/main/examples/POD_CONFIG.md)

@@ -49,6 +49,7 @@ Here are some genuinely unpopular (often flame-war-inducing) opinions that regul
 These opinions tend to be career-safe to hold privately but can start actual arguments if you voice them on Reddit, Stack Overflow, or at a Java conference.
 
 References:
-- https://www.reddit.com/r/java/comments/15×6×84/what_are_your_java_heresy_opinions/
-- https://blog.softwaremill.com/java-controversies-that-never-die-2c3f5e8e9b8d
-- https://twitter.com/lukaseder/status/1721518218360836520 (checked exceptions debate, ongoing since forever)
+
+- <https://www.reddit.com/r/java/comments/15×6×84/what_are_your_java_heresy_opinions/>
+- <https://blog.softwaremill.com/java-controversies-that-never-die-2c3f5e8e9b8d>
+- <https://twitter.com/lukaseder/status/1721518218360836520> (checked exceptions debate, ongoing since forever)

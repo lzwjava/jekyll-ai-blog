@@ -17,6 +17,7 @@ Answer:
 The **Prisoner's Dilemma** is a fundamental concept in game theory that illustrates a situation where two rational individuals, acting in their own self-interest, may not cooperate, even though cooperation would lead to a better collective outcome.
 
 ### Classic Scenario
+
 Two suspects (Prisoner A and Prisoner B) are arrested and interrogated separately for a crime. The prosecutors offer each a deal:
 
 - If **both prisoners stay silent** (cooperate with each other), they each get a light sentence: **1 year in prison**.
@@ -31,12 +32,15 @@ This setup creates the following payoff matrix (lower numbers are better, repres
 | **A Confesses (Defect)**       | A: 0 years<br>B: 3 years  | A: 2 years<br>B: 2 years |
 
 ### Key Insight
+
 - For each prisoner individually, **confessing (defecting) is the dominant strategy**: No matter what the other does, confessing yields a better personal outcome (0 or 2 years vs. 1 or 3 years).
 - However, if both follow this rational self-interest, they both confess and get **2 years each**—a worse outcome than if both had cooperated (1 year each).
 - Thus, mutual cooperation is collectively better, but individual rationality leads to mutual defection.
 
 ### Broader Implications
+
 The Prisoner's Dilemma models many real-world conflicts, such as:
+
 - Arms races between nations
 - Environmental issues (e.g., overfishing or pollution)
 - Business pricing wars

@@ -16,7 +16,7 @@ Answer:
 
 Stalin liquidated the Old Bolsheviks for a combination of **power-political**, **ideological**, and **psychological/paranoid** reasons. They were never real “enemies of the revolution” in any objective sense — most remained loyal communists — but they became mortal threats to Stalin personally and to his absolute dictatorship.
 
-### Main reasons:
+### Main reasons
 
 1. **Elimination of any possible rival power base**
    - Many Old Bolsheviks (Trotsky, Zinoviev, Kamenev, Bukharin, etc.) had revolutionary prestige far greater than Stalin’s. They had been famous leaders in 1905 and 1917 while Stalin was a secondary figure.
@@ -38,6 +38,7 @@ Stalin liquidated the Old Bolsheviks for a combination of **power-political**, *
 In short: they became “enemies” not because they plotted against the USSR (almost none did), but because their very existence, prestige, and knowledge of the real past threatened Stalin’s total control and god-like image. By 1939 the Bolshevik Party of 1917 had effectively ceased to exist — replaced by Stalin’s own generation of obedient apparatchiks.
 
 References:
+
 - [The Great Terror: A Reassessment – Robert Conquest](https://archive.org/details/greatterrorrea00conq)
 - [Stalin: The Court of the Red Tsar – Simon Sebag Montefiore](https://www.penguinrandomhouse.com/books/179336/stalin-by-simon-sebag-montefiore/)
 - [The Road to Terror: Stalin and the Self-Destruction of the Bolsheviks, 1932–1939 – J. Arch Getty & Oleg V. Naumov](https://yalebooks.yale.edu/book/9780300104073/the-road-to-terror/)

@@ -18,6 +18,7 @@ The **Zone ID** is **not** located in the **Analytics & Logs** section (includin
 The Zone ID is a unique identifier for your specific domain (zone) and is found in a different part of the dashboard.
 
 ### Correct steps to find your Zone ID (as of 2026, per official Cloudflare docs)
+
 1. Log in to your Cloudflare dashboard at [https://dash.cloudflare.com](https://dash.cloudflare.com).
 2. If you have multiple accounts, make sure you've selected the correct one (you'll see your accounts listed; click into the relevant account).
 3. Select the specific **domain** (zone) you want the Zone ID for from the list of your websites/domains.
@@ -30,20 +31,24 @@ The Zone ID is a unique identifier for your specific domain (zone) and is found 
 7. Click **Click to copy** next to the Zone ID to copy it to your clipboard.
 
 **Important notes:**
+
 - You must be viewing the **Overview** page of a specific domain (not the account-level home, not Analytics, not Workers & Pages alone).
 - If you're on a Workers & Pages overview (without selecting a domain), you might only see the **Account ID** — that's why some users miss the Zone ID.
 - Zone ID only exists for domains you've added to Cloudflare. If no domains are added, there won't be a Zone ID.
 - The location has been consistent for years (right sidebar/API section on domain Overview), with no major changes reported in recent docs (last updated Sep 2025).
 
 If you're still not seeing it:
+
 - Double-check you're on the domain's **Overview** tab (not Analytics & Logs).
 - Try refreshing the page or switching domains.
 - Use the API method as a fallback (requires an API token):
+
   ```bash
   curl -X GET "https://api.cloudflare.com/client/v4/zones" \
        -H "Authorization: Bearer YOUR_API_TOKEN" \
        -H "Content-Type: application/json"
   ```
+
   Look for the `id` field in each zone object.
 
 References:

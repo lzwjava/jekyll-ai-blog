@@ -87,7 +87,7 @@ Copilot can connect to external tools via MCP (Model Context Protocol), enabling
 
 **Shell integration** is a feature that makes VS Code’s terminal “AI-aware” and tightly connected to the editor and Copilot.
 
-### In simple terms:
+### In simple terms
 
 It lets VS Code understand what is happening inside your terminal.
 

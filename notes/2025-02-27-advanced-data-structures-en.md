@@ -11,9 +11,11 @@ type: note
 Data structures are the foundation of efficient algorithms. Let’s explore four powerful ones: Skip List, Union-Find, AVL Tree, and Binary Indexed Tree. These are widely used in scenarios requiring fast searches, unions, balancing, or range queries.
 
 ## 1. Skip List: Probabilistic Search
+
 A skip list is a layered linked list that allows fast search, insertion, and deletion with O(log n) average time complexity, offering an alternative to balanced trees.
 
 ### Java Implementation
+
 ```java
 import java.util.Random;
 
@@ -84,16 +86,20 @@ public class SkipList {
     }
 }
 ```
+
 **Output:**
+
 ```
 Search 6: true
 Search 5: false
 ```
 
 ## 2. Union-Find (Disjoint Set): Connectivity Tracking
+
 Union-Find efficiently manages disjoint sets, supporting union and find operations in nearly O(1) amortized time with path compression and rank heuristics.
 
 ### Java Implementation
+
 ```java
 public class UnionFind {
     private int[] parent, rank;
@@ -131,16 +137,20 @@ public class UnionFind {
     }
 }
 ```
+
 **Output:**
+
 ```
 0 and 4 connected: true
 2 and 4 connected: false
 ```
 
 ## 3. AVL Tree: Self-Balancing BST
+
 An AVL tree is a self-balancing binary search tree where the height difference between subtrees (balance factor) is at most 1, ensuring O(log n) operations.
 
 ### Java Implementation
+
 ```java
 public class AVLTree {
     static class Node {
@@ -220,12 +230,15 @@ public class AVLTree {
     }
 }
 ```
+
 **Output:** `Preorder: 30 20 10 25 40 50`
 
 ## 4. Binary Indexed Tree (Fenwick Tree): Range Queries
+
 A Binary Indexed Tree (BIT) efficiently handles range sum queries and updates in O(log n) time, often used in competitive programming.
 
 ### Java Implementation
+
 ```java
 public class BinaryIndexedTree {
     private int[] bit;
@@ -267,7 +280,9 @@ public class BinaryIndexedTree {
     }
 }
 ```
+
 **Output:**
+
 ```
 Sum from 0 to 5: 12
 Range sum 2 to 5: 9
@@ -281,9 +296,11 @@ New range sum 2 to 5: 15
 Search and simulation algorithms tackle pathfinding and probabilistic problems. Let’s explore A* Search and Monte Carlo Simulation.
 
 ## 1. A* Search: Heuristic Pathfinding
+
 A* is an informed search algorithm that uses a heuristic to find the shortest path in a graph, combining the strengths of Dijkstra’s and greedy search. It’s widely used in games and navigation.
 
 ### Java Implementation
+
 ```java
 import java.util.*;
 
@@ -360,7 +377,9 @@ public class AStar {
     }
 }
 ```
+
 **Output:**
+
 ```
 Path:
 (0, 0)
@@ -372,9 +391,11 @@ Path:
 ```
 
 ## 2. Monte Carlo Simulation: Probabilistic Estimation
+
 Monte Carlo methods use random sampling to estimate results, like approximating π by simulating points in a square and circle.
 
 ### Java Implementation
+
 ```java
 import java.util.Random;
 
@@ -398,7 +419,9 @@ public class MonteCarlo {
     }
 }
 ```
+
 **Output (varies due to randomness):**
+
 ```
 Estimated π with 1000000 points: 3.1418
 Actual π: 3.141592653589793

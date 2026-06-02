@@ -21,6 +21,7 @@ Next, we can extend this concept to create an **SR Flip-Flop**. The key differen
 The SR Flip-Flop achieves this using a capacitor in the clock circuit. When the clock transitions from low to high, a brief current flows through the capacitor as it charges, creating a short voltage pulse at the inputs of the AND gates. This pulse effectively enables the SR Latch with Enable for just that moment, allowing the **R** and **S** inputs to affect the outputs **Q** and **Q̅**. Once the capacitor is fully charged, the pulse stops, and the flip-flop ignores further input changes until the next rising edge.
 
 Here’s how the SR Flip-Flop behaves during a clock rising edge:
+
 - If **R** is high and **S** is low, **Q** goes low (reset), and **Q̅** goes high.
 - If **S** is high and **R** is low, **Q** goes high (set), and **Q̅** goes low.
 - If both **R** and **S** are low, the flip-flop remains in its previous state.
@@ -29,6 +30,7 @@ Here’s how the SR Flip-Flop behaves during a clock rising edge:
 To address this unpredictability, we can use a **JK Flip-Flop**, which is similar to the SR Flip-Flop but includes feedback from the outputs **Q** and **Q̅** to the inputs. The JK Flip-Flop uses three-input AND gates that incorporate **J** (analogous to **S**), **K** (analogous to **R**), and the feedback signals **Q** and **Q̅**. The letters **J** and **K** are arbitrary and don’t stand for specific terms, but they distinguish this circuit from the SR Flip-Flop.
 
 The JK Flip-Flop operates as follows:
+
 - If **J** and **K** are both 0, the AND gate outputs are 0, so the flip-flop remains in its previous state, even during a clock pulse.
 - If the latch is currently set (**Q** = 1, **Q̅** = 0) and you want to reset it (**K** = 1, **J** = 0), the AND gate connected to **K** outputs a 1 during the clock pulse (since **Q** = 1), resetting the flip-flop (**Q** = 0, **Q̅** = 1).
 - If the latch is already reset (**Q** = 0, **Q̅** = 1) and **K** = 1, **J** = 0, the AND gate outputs remain 0, so the flip-flop stays reset, which is the desired behavior.

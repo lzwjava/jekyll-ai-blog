@@ -54,6 +54,7 @@ But founding 01.ai revealed a fundamental gap between *strategic insight* and *c
 Here's the core insight: **strategic pattern recognition and deep technical execution are entirely different cognitive and organizational muscles.**
 
 Knowing that "China has strong AI engineers, low labor costs, and aggressive capital" (classic Kai-Fu Lee thesis) is valuable. But actually assembling a team that can:
+
 - Design novel model architectures (like DeepSeek's MoE innovations)
 - Optimize inference efficiency
 - Build a sticky consumer product with fast iteration loops

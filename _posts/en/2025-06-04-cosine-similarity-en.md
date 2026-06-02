@@ -19,12 +19,14 @@ Cosine similarity quantifies how similar two vectors are by calculating the cosi
 \\]
 
 Where:
+
 - \\( A \\) and \\( B \\) are two vectors (e.g., representing documents, embeddings, or feature sets).
 - \\( A \cdot B \\) is the dot product of the vectors, computed as \\( \sum_{i=1}^n A_i B_i \\).
 - \\( \|A\| \\) and \\( \|B\| \\) are the Euclidean norms (magnitudes) of vectors \\( A \\) and \\( B \\), calculated as \\( \sqrt{\sum_{i=1}^n A_i^2} \\) and \\( \sqrt{\sum_{i=1}^n B_i^2} \\), respectively.
 - \\( \theta \\) is the angle between the vectors.
 
 The result ranges from:
+
 - **1**: Vectors are identical in direction (angle = 0°).
 - **0**: Vectors are orthogonal (angle = 90°), indicating no similarity.
 - **-1**: Vectors are opposite (angle = 180°), indicating maximum dissimilarity.
@@ -63,6 +65,7 @@ Cosine similarity is applied across various machine learning tasks due to its ve
 ### Example: Cosine Similarity in Text Analysis
 
 Suppose we have two documents represented as TF-IDF vectors:
+
 - Document 1: \\( A = [2, 1, 0, 3] \\) (e.g., word frequencies for four terms).
 - Document 2: \\( B = [1, 1, 1, 0] \\).
 
@@ -107,7 +110,9 @@ The cosine similarity is approximately 0.462, indicating moderate similarity bet
 ### Practical Implementation
 
 Cosine similarity is implemented in many machine learning libraries:
+
 - **Python**: `scikit-learn` provides `cosine_similarity` in `sklearn.metrics.pairwise`.
+
   ```python
   from sklearn.metrics.pairwise import cosine_similarity
   import numpy as np
@@ -117,6 +122,7 @@ Cosine similarity is implemented in many machine learning libraries:
   similarity = cosine_similarity(A, B)
   print(similarity)  # Output: [[0.46225063]]
   ```
+
 - **TensorFlow/PyTorch**: Used for comparing embeddings in deep learning models.
 - **Spark**: For large-scale distributed similarity computations.
 

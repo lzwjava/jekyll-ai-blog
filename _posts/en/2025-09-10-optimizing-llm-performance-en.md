@@ -15,6 +15,7 @@ Great, let’s dive deeper. You’re basically describing a **prompt/result cach
 ---
 
 ## 1. Why caching matters for LLMs
+
 - **High cost per token**: Running inference on big models (Claude Opus, GPT-4, etc.) is expensive because each token runs through billions of parameters.
 - **Redundant work**: Many queries share large overlapping sections (e.g., system prompts, doc contexts, JSON wrappers). Without caching, the model recomputes them each time.
 - **Low-latency requirement**: Products like copilots, chat assistants, and agents must respond quickly, so cache hits improve both speed and cost.
@@ -22,6 +23,7 @@ Great, let’s dive deeper. You’re basically describing a **prompt/result cach
 ---
 
 ## 2. What gets cached?
+
 There are a few layers:
 
 1. **Prompt prefix caching (Key-Value Cache in Transformers)**
@@ -39,6 +41,7 @@ There are a few layers:
 ---
 
 ## 3. Prompt construction strategies
+
 Your point is correct: **put stable/static content first, dynamic variables last.**
 
 - **Why?** Model KV-cache works sequentially. If the first N tokens are identical, you can reuse that entire prefix. Any differences earlier in the prompt invalidate reuse.
@@ -52,6 +55,7 @@ This applies at scale in copilots (like Cursor, GitHub Copilot, Replit) which se
 ---
 
 ## 4. Impact on different usage settings
+
 - **Individual users**: Low usage → little benefit, since cache reuse across prompts is rare.
 - **Enterprise copilots / coding assistants / agents**:
   - Users often share 70–90% of the system + instruction prompt (only user query changes).
@@ -64,6 +68,7 @@ This applies at scale in copilots (like Cursor, GitHub Copilot, Replit) which se
 ---
 
 ## 5. Additional caching/optimization strategies companies use
+
 - **Attention Key-Value (KV) Reuse**: Persistent KV caches across turns in a conversation, instead of reprocessing past context each time.
 - **Chunked prompts**: Split large contexts into frozen + dynamic chunks, reuse frozen.
 - **Deterministic hashing** across inputs (normalize whitespace, sort JSON keys, remove irrelevant metadata).

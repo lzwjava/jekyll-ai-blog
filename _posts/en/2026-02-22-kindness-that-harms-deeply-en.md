@@ -53,9 +53,9 @@ The hurt is the crushing loneliness of being surrounded by people who love what 
 
 The goal isn't to become mean or selfish. It's to transform your "niceness" into authentic kindness—for yourself and for others.
 
-1.  **Start with Small "No's":** Practice saying no to low-stakes requests. "No, I can't make that meeting." "No, I can't help you move this weekend." It gets easier with practice.
-2.  **Get to Know Yourself:** Spend time alone. Ask yourself what *you* want. What movie do you want to see? Where do you want to go for dinner? Start listening to the quiet voice you've been silencing.
-3.  **Set a Simple Boundary:** The next time someone asks for your time or energy when you're tapped out, try, "I'd love to help, but I don't have the bandwidth right now." You don't need to over-explain. A simple, polite "no" is a complete sentence.
-4.  **Embrace Discomfort:** When you first start setting boundaries, you will feel guilty and anxious. That's normal. It's the withdrawal symptom from your old habit. Sit with the discomfort; it will pass. The freedom on the other side is worth it.
+1. **Start with Small "No's":** Practice saying no to low-stakes requests. "No, I can't make that meeting." "No, I can't help you move this weekend." It gets easier with practice.
+2. **Get to Know Yourself:** Spend time alone. Ask yourself what *you* want. What movie do you want to see? Where do you want to go for dinner? Start listening to the quiet voice you've been silencing.
+3. **Set a Simple Boundary:** The next time someone asks for your time or energy when you're tapped out, try, "I'd love to help, but I don't have the bandwidth right now." You don't need to over-explain. A simple, polite "no" is a complete sentence.
+4. **Embrace Discomfort:** When you first start setting boundaries, you will feel guilty and anxious. That's normal. It's the withdrawal symptom from your old habit. Sit with the discomfort; it will pass. The freedom on the other side is worth it.
 
 In essence, being "too nice" hurts you because it is a form of self-abandonment. True kindness flows from a full cup, not an empty one. You can't pour from an empty vessel, and when you try, you only end up hurting yourself.

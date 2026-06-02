@@ -47,6 +47,7 @@ sudo apt install git
 ```
 
 Verify with:
+
 ```bash
 git --version
 ```
@@ -56,36 +57,43 @@ git --version
 ## Fix: Reinstall NVIDIA Driver on Ubuntu 24.04
 
 **Step 1: Check your GPU**
+
 ```bash
 lspci | grep -i nvidia
 ```
 
 **Step 2: Let Ubuntu detect and recommend the right driver**
+
 ```bash
 sudo ubuntu-drivers list
 ```
 
 **Step 3: Auto-install the recommended driver**
+
 ```bash
 sudo ubuntu-drivers autoinstall
 ```
 
 Or install a specific version manually (replace `550` with your preferred version):
+
 ```bash
 sudo apt install nvidia-driver-550
 ```
 
 **Step 4: Make sure kernel headers are installed (required for DKMS)**
+
 ```bash
 sudo apt install linux-headers-$(uname -r) build-essential
 ```
 
 **Step 5: Reboot**
+
 ```bash
 sudo reboot
 ```
 
 **Step 6: Verify**
+
 ```bash
 nvidia-smi
 ```

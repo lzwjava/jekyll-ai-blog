@@ -60,6 +60,7 @@ A modern router's **functional architecture** (also called its internal structur
 **Standard textbook / exam model of router structure (very frequently tested):**
 
 Router =
+
 - Input ports
 - Output ports
 - Switching fabric (交换结构)

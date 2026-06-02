@@ -22,7 +22,7 @@ I needed to push updates to my `lzwjava.github.io` repository on GitHub. My syst
 
 **Steps Taken:**
 
-1.  **Verifying Proxy Settings:**
+1. **Verifying Proxy Settings:**
 
     * I first confirmed my proxy settings using the `git credential-manager` command. This command helpfully displayed my current HTTP and HTTPS proxy configurations:
 
@@ -40,7 +40,7 @@ I needed to push updates to my `lzwjava.github.io` repository on GitHub. My syst
 
     * This confirmed that my proxy settings were correctly detected.
 
-2.  **Logging in to GitHub with GCM:**
+2. **Logging in to GitHub with GCM:**
 
     * To ensure Git had the correct credentials, I used GCM to log in to my GitHub account:
 
@@ -50,7 +50,7 @@ I needed to push updates to my `lzwjava.github.io` repository on GitHub. My syst
 
     * This command opened a browser window, prompting me to authenticate with GitHub. After successful authentication, GCM stored my credentials securely.
 
-3.  **Verifying the GitHub Account:**
+3. **Verifying the GitHub Account:**
 
     * To confirm that my github account was correctly logged in, I ran the following command.
 
@@ -60,7 +60,7 @@ I needed to push updates to my `lzwjava.github.io` repository on GitHub. My syst
 
     * This command showed my github account name.
 
-4.  **Setting the Remote URL:**
+4. **Setting the Remote URL:**
 
     * I then verified and set the remote URL of my repository:
 
@@ -68,7 +68,7 @@ I needed to push updates to my `lzwjava.github.io` repository on GitHub. My syst
     git remote set-url origin https://github.com/lzwjava/lzwjava.github.io.git
     ```
 
-5.  **Pushing the Changes:**
+5. **Pushing the Changes:**
 
     * Finally, I pushed my local changes to the remote repository:
 
@@ -78,7 +78,7 @@ I needed to push updates to my `lzwjava.github.io` repository on GitHub. My syst
 
     * The `git push` command successfully uploaded my changes.
 
-6.  **GitHub Security Alert:**
+6. **GitHub Security Alert:**
 
     * After pushing, GitHub displayed a security alert regarding vulnerabilities in my repository's dependencies. This is a crucial reminder to regularly check and address security issues:
 

@@ -20,14 +20,17 @@ Hooks are defined in `application/config/hooks.php` and enabled in `application/
 
 1. Open `application/config/config.php`.
 2. Set the config variable:
+
    ```php
    $config['enable_hooks'] = TRUE;
    ```
+
    This tells CodeIgniter to check and execute the hooks file.
 
 ### Defining Hooks
 
 Hooks are configured as an array of arrays in `application/config/hooks.php`. Each hook array specifies:
+
 - `class`: (Required) The class name (must match the filename).
 - `function`: (Required) The method name in the class.
 - `filename`: (Required) The filename of the class (without .php).
@@ -39,6 +42,7 @@ Place your hook classes in `application/hooks/`.
 ### Hook Points
 
 CodeIgniter provides these predefined points where hooks can execute:
+
 - **pre_system**: Runs before the system is loaded (nothing else has run yet).
 - **pre_controller**: Runs right before the controller is called.
 - **post_controller_constructor**: Runs after the controller is instantiated but before its methods execute.
@@ -52,6 +56,7 @@ CodeIgniter provides these predefined points where hooks can execute:
 Suppose you want to log every request before the controller runs. Create a hook for `pre_controller`.
 
 1. Create the file `application/hooks/my_hook.php`:
+
    ```php
    <?php
    class My_hook {
@@ -63,6 +68,7 @@ Suppose you want to log every request before the controller runs. Create a hook 
    ```
 
 2. In `application/config/hooks.php`, add:
+
    ```php
    $hook['pre_controller'] = array(
        'class' => 'My_hook',
@@ -76,6 +82,7 @@ Suppose you want to log every request before the controller runs. Create a hook 
 Now, every time a controller is about to run, `log_request` will execute.
 
 ### Best Practices
+
 - Use hooks sparingly; if possible, extend controllers or use libraries instead.
 - Always test hooks in a development environment to ensure they don't interfere with core logic.
 - For more details, refer to the official CodeIgniter user guide on hooks.

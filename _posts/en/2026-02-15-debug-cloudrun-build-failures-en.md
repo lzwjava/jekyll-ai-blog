@@ -20,28 +20,33 @@ The key message is: **"Build failed; check build logs for details"** — this me
 ### Step 1: Find the Build Logs (Quickest Ways)
 
 1. **In the Google Cloud Console (easiest – recommended first)**:
-   - Go to: https://console.cloud.google.com/cloud-build/builds?project=YOUR-PROJECT-ID
+   - Go to: <https://console.cloud.google.com/cloud-build/builds?project=YOUR-PROJECT-ID>
    - Look at the **Build history** list (sort by most recent).
    - Find the latest build for your service (`blog-server`); it usually shows as "FAILED" or has a red status.
    - Click on it → you'll see detailed step-by-step logs.
    - Scroll through steps (especially the Maven/build step or Dockerfile execution) to find red error lines (e.g. "Compilation failure", "Could not resolve dependencies", "COPY failed", etc.).
    - The console often shows a direct link like:
-     "Logs are available at https://console.cloud.google.com/cloud-build/builds/abc123-xyz?project=..."
+     "Logs are available at <https://console.cloud.google.com/cloud-build/builds/abc123-xyz?project=>..."
      (gcloud sometimes prints this before failing – check your terminal scrollback).
 
 2. **Using gcloud CLI**:
    - List recent builds to get the BUILD_ID (the most recent failed one):
+
      ```bash
      gcloud builds list --limit=5 --filter="status=FAILURE"
      ```
+
      - Look for the ID (long hex string like `abcdef12-3456-...`) and trigger/source info matching your deploy.
 
    - View full logs for that build:
+
      ```bash
      gcloud builds log BUILD_ID_HERE
      ```
+
      - Add `--stream` if you want real-time (but since it's failed, normal is fine).
      - Or pipe to less/grep:
+
        ```bash
        gcloud builds log BUILD_ID_HERE | less
        gcloud builds log BUILD_ID_HERE | grep -i error
@@ -60,9 +65,11 @@ Once you see the logs, match against these frequent issues:
   - Wrong base image (use `openjdk:17-jdk-slim` or `eclipse-temurin:17` for modern Java).
   - App not exposing/listening on `$PORT` (Cloud Run sets PORT=8080; your app must bind to `0.0.0.0:$PORT`).
   - CMD/ENTRYPOINT wrong → Ensure it runs the JAR correctly, e.g.:
+
     ```dockerfile
     CMD ["java", "-jar", "/app.jar", "--server.port=${PORT:-8080}"]
     ```
+
   - Multi-stage build failed in copy steps.
 
 - **Permission/Quota Issues**:
@@ -80,13 +87,16 @@ Once you see the logs, match against these frequent issues:
 Since source deploy is failing, switch to **manual build + deploy** (you control the build locally):
 
 1. Build & test locally:
+
    ```bash
    docker build -t blog-server:test .
    docker run -p 8080:8080 -e PORT=8080 blog-server:test
    ```
+
    → Fix any errors here first.
 
 2. Tag & push:
+
    ```bash
    IMAGE="asia-southeast1-docker.pkg.dev/YOUR-PROJECT-ID/my-repo/blog-server:latest"
    docker build -t $IMAGE .
@@ -95,6 +105,7 @@ Since source deploy is failing, switch to **manual build + deploy** (you control
    ```
 
 3. Deploy image directly:
+
    ```bash
    gcloud run deploy blog-server \
      --image $IMAGE \

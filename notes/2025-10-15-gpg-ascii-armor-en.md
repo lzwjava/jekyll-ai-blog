@@ -15,6 +15,7 @@ In GPG (GNU Privacy Guard), "armor" refers to ASCII armor, a format that encodes
 You can enable it with the `--armor` (or `-a`) option during commands like encryption (`gpg -a -e file.txt`) or key export (`gpg --armor --export keyid`), which outputs the result in this armored text format instead of raw binary.
 
 ## References
+
 - [What is the armored option for in GnuPG?](https://unix.stackexchange.com/questions/623375/what-is-the-armored-option-for-in-gnupg)
 - [Exchanging keys - GnuPG](https://www.gnupg.org/gph/en/manual/x56.html)
 - [13. ASCII armor - Notes on OpenPGP](https://openpgp.dev/book/armor.html)

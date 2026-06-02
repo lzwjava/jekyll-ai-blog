@@ -111,6 +111,7 @@ public void onMessageEvent(MessageEvent event) {
 ```
 
 Best Practices:
+
 1. Always unregister in `onDestroy()` to avoid memory leaks
 2. Use specific event classes rather than generic objects
 3. Handle exceptions in subscriber methods
@@ -156,6 +157,7 @@ public class ReceiverActivity extends AppCompatActivity {
 ```
 
 EventBus is particularly useful for:
+
 - Decoupling components
 - Communicating between fragments
 - Updating UI from background operations

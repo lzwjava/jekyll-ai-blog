@@ -29,6 +29,7 @@ Chez Scheme, a high-performance dialect of Scheme known for its native-code comp
 These opinions highlight a tension: Chez shines in benchmarks and low-level control but lags in accessibility and ecosystem support. If you're exploring Scheme, pairing it with Racket might mitigate some issues.
 
 References:
+
 - [Chez Scheme vs Guile Scheme](https://www.reddit.com/r/lisp/comments/r47z2k/chez_scheme_vs_guile_scheme/)
 - [Beautiful Racket: Thoughts on Racket & Chez Scheme](https://beautifulracket.com/appendix/racket-and-chez-scheme.html)
 - [Why is Chez Scheme Fast?](https://www.reddit.com/r/scheme/comments/hgzluo/why_is_chez_scheme_fast/)

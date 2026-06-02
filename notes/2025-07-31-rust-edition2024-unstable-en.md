@@ -11,7 +11,7 @@ type: note
 
 The error occurs because your Rust project is trying to use the `edition2024` feature, which is not stabilized in your current Cargo version (1.75.0). To resolve this, you need to opt into the unstable `edition2024` feature explicitly.
 
-### Steps to Fix:
+### Steps to Fix
 
 1. **Enable the `edition2024` Feature**:
    Open your `Cargo.toml` file and add the following line at the very top, before the `[package]` section:
@@ -48,7 +48,8 @@ The error occurs because your Rust project is trying to use the `edition2024` fe
    cargo build
    ```
 
-### Additional Notes:
+### Additional Notes
+
 - The `edition2024` feature is experimental and may change. Check the Rust documentation for updates on its status: [Rust Edition 2024](https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#edition-2024).
 - If you don’t need `edition2024`, you can revert to a stable edition (e.g., `edition = "2021"`) in `Cargo.toml` to avoid using the nightly toolchain.
 - Ensure your `rustup` is up-to-date by running `rustup update`.

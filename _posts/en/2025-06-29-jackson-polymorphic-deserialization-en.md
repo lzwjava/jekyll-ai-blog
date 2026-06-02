@@ -15,6 +15,7 @@ type: note
 Jackson is a Java library for JSON serialization and deserialization. Polymorphic deserialization allows Jackson to automatically instantiate the correct subclass of a base class during deserialization, based on type information embedded in the JSON. This is useful when dealing with inheritance hierarchies, ensuring the right object type is created from JSON data.
 
 Key components:
+
 - **@JsonTypeInfo**: Annotations that control where and how type information is stored in the JSON.
 - **@JsonSubTypes**: Annotations that list subclasses (subtypes) and their identifiers.
 - Jackson's subtype resolution handles the mapping.
@@ -26,6 +27,7 @@ Without these, Jackson would default to deserializing all objects as the base cl
 1. **Annotations on the Base Class**:
    - Use `@JsonTypeInfo` to specify where type info is embedded (e.g., as a property in the JSON object).
    - Example:
+
      ```java
      @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "@type")
      @JsonSubTypes({
@@ -36,6 +38,7 @@ Without these, Jackson would default to deserializing all objects as the base cl
          public String name;
      }
      ```
+
      - `use = JsonTypeInfo.Id.NAME`: Uses a name (string identifier) for the type.
      - `include = JsonTypeInfo.As.PROPERTY`: Adds the type info as a property ("@type") in the JSON object.
      - `@JsonSubTypes`: Maps subclass names to their Java classes (e.g., "cat" → Cat.class).

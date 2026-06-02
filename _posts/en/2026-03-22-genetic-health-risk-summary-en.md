@@ -35,10 +35,12 @@ Answer:
 ## Key Concern: Hypertension (Flagged as "Attention")
 
 Two risk gene variants identified:
+
 - **AGT gene (rs699): CT genotype** — associated with elevated blood pressure risk
 - **ADRB2 gene (rs1042713): AG genotype** — associated with adrenergic receptor sensitivity
 
 **Recommendations:**
+
 - Limit daily sodium intake to under 6g
 - Maintain emotional balance and stress control
 - Supplement calcium, magnesium, zinc, and iron-rich foods

@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-**Question:** 网页 https://gwkszx.gdufs.edu.cn/info/1070/3543.htm 的内容是什么？
+**Question:** 网页 <https://gwkszx.gdufs.edu.cn/info/1070/3543.htm> 的内容是什么？
 
 **Answer:**
 
@@ -18,14 +18,14 @@ type: note
 
 该通知发布于 **2025年3月6日**，为在 GDUFS 考点参加 IELTS 考试的考生提供重要指南，以确保顺利入校和参加考试。
 
-### 通知要点：
+### 通知要点
 
 - **考试地点（大学城校区）：**
   - 纸笔考试（Paper-based Writing）：艺术楼 (Building of Arts)
   - 口语考试（纸笔考生）：教工活动中心 (Staff Recreation Centre)
   - 机考（Computer-delivered tests，包括笔试和口试）：实验楼E区 (Laboratory Building Zone E)
   - 建议入校校门：东北门（外环东路178号大门 / No. 178, Waihuan Road East）
-  - 校园地图链接：https://gwkszx.gdufs.edu.cn/jtzy/jtzn.htm
+  - 校园地图链接：<https://gwkszx.gdufs.edu.cn/jtzy/jtzn.htm>
   - 外来车辆（出租车、网约车、私家车）禁止入校 —— 请使用公共交通。考试期间仅限考生本人进入（包括未满18岁的考生）。
 
 - **所需证件：**

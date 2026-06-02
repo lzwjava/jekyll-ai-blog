@@ -49,6 +49,7 @@ python train/extract_fineweb.py
 nanoGPT 需要 tokenized 数据的单个 `train.bin` / `val.bin` 文件。您需要：
 
 1. 将 `fineweb_extracted_all.txt` 复制到您的 nanoGPT data 目录，例如：
+
    ```bash
    mkdir -p ~/nanoGPT/data/fineweb
    cp fineweb_test_dump/fineweb_extracted_all.txt ~/nanoGPT/data/fineweb/
@@ -61,6 +62,7 @@ nanoGPT 需要 tokenized 数据的单个 `train.bin` / `val.bin` 文件。您需
    - 保存为 `train.bin` 和 `val.bin` (numpy uint16 arrays)
 
 3. 运行它：
+
    ```bash
    cd ~/nanoGPT
    python data/fineweb/prepare.py
@@ -74,6 +76,7 @@ python train.py config/train_fineweb.py
 ```
 
 您的 `train_log_fineweb3.txt` 显示了之前使用的 config：
+
 - **125M params** (12 layers, 12 heads, 768 embd)
 - **block_size=1024**, batch_size=8, grad_accum=64
 - **12K iters**, 约 3B tokens

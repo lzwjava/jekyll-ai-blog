@@ -27,11 +27,13 @@ type: note
   您可以配置 YourKit 在应用终止时自动捕获快照，IDEA 会立即将其打开。
 
 当前状态（基于 YourKit 2024.9 - 2025 年末的最新稳定版）：
+
 - 全面支持 IntelliJ IDEA 2023.3–2025.2+
 - 完美兼容 Java 8–24（包括 Java 21+ 的虚拟线程分析）
 - 同时支持 Kotlin、Scala、Groovy 等语言，并能准确跳转至对应源代码。
 
 安装步骤（简版）：
+
 1. 在 IDEA → 设置 → 插件 → Marketplace 中搜索 "YourKit"
 2. 安装并重启
 3. 插件已捆绑 YourKit 代理程序，基础使用无需单独安装 YourKit（如需在 IDE 外使用功能更完整的独立界面，也可安装完整版 YourKit 应用）

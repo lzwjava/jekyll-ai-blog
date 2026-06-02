@@ -14,10 +14,12 @@ type: note
 
 In Android development, the most common and recommended way to handle click events on a `Button` (or any `View`) is by implementing or setting a **`View.OnClickListener`**.
 
-### Why B is correct:
+### Why B is correct
+
 - `View.OnClickListener` has a single method: `onClick(View v)`
 - It's specifically designed for handling standard tap/click events
 - Example usage:
+
   ```java
   button.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -26,12 +28,15 @@ In Android development, the most common and recommended way to handle click even
       }
   });
   ```
+
   or with lambda (Kotlin/Java 8+):
+
   ```java
   button.setOnClickListener(v -> { /* Handle click */ });
   ```
 
-### Why the others are not the best choice:
+### Why the others are not the best choice
+
 - **A. OnTouchListener** – Lower-level touch events (ACTION_DOWN, ACTION_UP, etc.). Overkill for simple clicks and can interfere with gesture detection.
 - **C. OnLongClickListener** – Only for long-press events, not regular clicks.
 - **D. OnKeyListener** – For hardware/software keyboard key events, not view clicks.

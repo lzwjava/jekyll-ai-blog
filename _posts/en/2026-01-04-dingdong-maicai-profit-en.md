@@ -20,6 +20,7 @@ Dingdong Maicai (NYSE: DDL), a leading Chinese online fresh grocery delivery pla
 After its NYSE IPO in 2021, the company expanded rapidly but incurred heavy losses due to high fulfillment costs, intense competition from players like Meituan, Pinduoduo, and Hema, and price wars. It strategically retracted from less profitable regions (e.g., exiting Southwest China, closing stations in Guangzhou and Shenzhen in early 2024) to focus on core markets in Eastern China, particularly Jiangsu-Zhejiang-Shanghai (Jiangzhehu).
 
 **Turnaround and Profitability (2023–2024):**
+
 - Achieved its first monthly profit in September 2023 and quarterly profitability in Q4 2023.
 - In 2024, recorded full-year revenue of approximately RMB 23.07 billion (USD 3.2 billion), up 15.5% year-over-year.
 - GMV reached RMB 25.56 billion, up 16.3%.

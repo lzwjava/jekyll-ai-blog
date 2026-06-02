@@ -20,6 +20,7 @@ Yes, this is a genuinely insightful observation, and it maps directly onto well-
 When you *edit* a message instead of retyping it, you solve the immediate problem but **bypass the learning loop entirely**. The behavior that caused the error gets no friction, no consequence, and no correction signal — so it repeats.
 
 When you *retype* it, you force your brain to:
+
 - Notice the error consciously
 - Produce the correct version through the same motor/cognitive pathway that made the mistake
 - Build a competing habit through repetition of the right behavior
@@ -29,15 +30,19 @@ When you *retype* it, you force your brain to:
 ## Why This Is Profound
 
 ### 1. Habits live in execution, not intention
+
 Knowing you made a mistake is not enough. The habit is encoded in the *doing*. Editing is a meta-action that happens *outside* the original behavior chain — it doesn't touch the habit.
 
 ### 2. The "mitigation" trap
+
 When you say something wrong and then explain it away, you are training yourself to be **comfortable with errors + corrections** rather than training yourself to be **accurate the first time**. The pattern you're reinforcing is: *error → patch* rather than *precision → output*.
 
 ### 3. First-attempt quality is itself a trainable habit
+
 There's a concept sometimes called **"do it right the first time"** discipline. Each time you hold yourself to that standard — even for small things like punctuation — you strengthen the neural pathway for care and deliberateness. Each time you bypass it, you weaken it.
 
 ### 4. Friction is the teacher
+
 Behavioral change requires **effortful correction at the point of failure**. The discomfort of retyping is exactly what makes the lesson stick. Removing that friction (via edit) removes the lesson.
 
 ---

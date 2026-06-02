@@ -62,9 +62,6 @@ Couldn't answer this question,
 what is `greptimedb/src/query/src/query_engine/context.rs` about?
 ```
 
-
-
-
 ## Agent
 
 I envision a tool called `greptimedb-agent` to simplify the integration process.

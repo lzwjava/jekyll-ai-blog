@@ -16,7 +16,7 @@ Answer:
 
 South Korean television series, commonly known as K-dramas, have gained immense global popularity in recent decades (primarily from the 2000s onward) due to their compelling storytelling, high production values, emotional depth, and blend of genres like romance, fantasy, thriller, and historical drama. "Best" is subjective, but the following list highlights widely acclaimed series based on high ratings on platforms like MyDramaList and IMDb, critical praise, awards (e.g., Baeksang Arts Awards), viewership records, and cultural impact. These span classics from the 2010s to standout hits in the 2020s.
 
-### Top Recommended K-Dramas:
+### Top Recommended K-Dramas
 
 1. **Reply 1988 (2015)**
    A heartwarming slice-of-life drama set in 1980s Seoul, following five friends and their families in a neighborhood. Praised for its nostalgic portrayal of friendship, family bonds, and first love. Often ranked as one of the highest-rated K-dramas ever.

@@ -12,9 +12,11 @@ type: note
 Identifying the earliest GitHub users is tricky since GitHub doesn’t publicly share exact registration dates for most accounts, and "fame" can be subjective—based on contributions, followers, or impact. However, based on available information, here’s a look at some notable early GitHub users from around 2008, when GitHub launched, with a focus on users like TJ Holowaychuk, who were active and influential in those early days.
 
 ### Context of GitHub in 2008
+
 GitHub was founded in 2007 and officially launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon. Early adopters were often Ruby on Rails developers, as the platform was built with Ruby and attracted that community, alongside others using Git for version control. By 2009, GitHub had over 100,000 users and 90,000 public repositories, showing rapid growth.[](https://en.wikipedia.org/wiki/GitHub)[](https://nira.com/github-history/)
 
 ### Notable Early GitHub Users (2008 Era)
+
 Here are some prominent early GitHub users, including TJ Holowaychuk and others who were active or influential around 2008:
 
 1. **TJ Holowaychuk (tj)**
@@ -58,20 +60,24 @@ Here are some prominent early GitHub users, including TJ Holowaychuk and others 
    - **Impact**: jQuery’s popularity made his GitHub presence significant, attracting developers to the platform.
 
 ### Others to Note
+
 - **Linus Torvalds (torvalds)**: Creator of Git and Linux, Torvalds had a GitHub account by 2008–2009, though his primary contributions were through other channels. His presence (22k followers by 2011) lent credibility to GitHub.[](https://gist.github.com/mgechev/1d863046e5a9814df27d)[](https://www.reddit.com/r/github/comments/41ccio/list_of_celebrity_programmers_who_have_a_github/)
 - **Jeremy Ashkenas (jashkenas)**: Creator of *Backbone.js* and *CoffeeScript*, he was active in the Ruby and JavaScript communities around 2008–2009, with 6.7k followers by 2011.[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 - **Max Ogden (maxogden)**: An early Node.js contributor, active around 2008–2009, with 19 organizations by 2011.[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 
 ### Why These Users Stood Out
+
 - **Ruby on Rails Connection**: GitHub’s launch coincided with the Ruby on Rails community’s adoption of Git, as noted by Linus Torvalds in a 2025 interview. Many early users, like TJ Holowaychuk, were Ruby or JavaScript developers drawn to GitHub’s ease of use over older systems like CVS.[](https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds/)
 - **Contributions and Followers**: Lists from 2011 (e.g.,) highlight users like *tj*, *paulirish*, and *addyosmani* for their high contribution streaks and organizational involvement, reflecting their early activity.[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 - **Platform Growth**: GitHub’s rapid growth (46,000 repos by February 2009, 100,000 users by July 2009) was driven by word-of-mouth among developers, with early adopters like these shaping its community.[](https://nira.com/github-history/)
 
 ### Challenges in Pinpointing "Earliest" Users
+
 - **No Public Registration Data**: GitHub doesn’t expose exact join dates, and some early accounts (e.g., *user1* to *user10*) are test or deleted accounts. Claims like the “oldest GitHub account” with repos from 2004 (pre-GitHub) are likely anomalies or backdated imports.[](https://www.reddit.com/r/webdev/comments/1bdlmsl/i_came_across_the_oldest_github_account/)
 - **Defining Fame**: Fame in 2008 was tied to contributions (e.g., TJ’s Express.js) or platform involvement (e.g., co-founders). Later metrics like followers or stars weren’t as prominent early on.
 
 ### Sources
+
 - GitHub - Wikipedia[](https://en.wikipedia.org/wiki/GitHub)
 - Top GitHub Users · GitHub[](https://gist.github.com/mgechev/1d863046e5a9814df27d)
 - How GitHub Democratized Coding[](https://nira.com/github-history/)

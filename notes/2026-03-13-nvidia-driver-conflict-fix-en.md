@@ -57,6 +57,7 @@ sudo dpkg --remove --force-depends nvidia-persistenced
 ```
 
 Then clean up:
+
 ```bash
 sudo apt --fix-broken install
 sudo apt autoremove --purge
@@ -67,17 +68,20 @@ sudo apt autoremove --purge
 ## If You Still Have Held Packages
 
 Check what is held:
+
 ```bash
 sudo apt-mark showhold
 dpkg -l | grep ^h
 ```
 
 Unhold everything NVIDIA-related:
+
 ```bash
 sudo apt-mark unhold nvidia-* libnvidia-* cuda-*
 ```
 
 Then retry:
+
 ```bash
 sudo apt --fix-broken install
 sudo apt upgrade

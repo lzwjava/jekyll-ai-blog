@@ -30,6 +30,7 @@ type: note
 这些观点在爱好者论坛、科技圈，以及传统汽车圈中都倾向于被踩或驳回——这正是它们成为“不流行”观点的原因。
 
 参考资料：
+
 - [Waymo 安全报告](https://waymo.com/safety/)
 - [特斯拉车辆安全报告](https://www.tesla.com/vehicle-safety-report)
 - Reddit r/SelfDrivingCars 上的各种讨论、行业内部人士（例如 Missy Cummings、Brad Templeton、Phil Koopman）的 X 帖子，以及 NHTSA 自动驾驶车辆事故数据库（2021-2025 年）

@@ -24,9 +24,11 @@ type: note
 
 2. **运行 Java 应用程序时设置属性**：
    - **命令行执行**（例如通过 `java` 命令）：
+
      ```
      java -Djavax.net.debug=ssl:handshake -jar your-app.jar
      ```
+
      将 `your-app.jar` 替换为您的实际应用程序或类（例如 `com.example.Main`）。
 
    - **在 IDE 中（如 IntelliJ IDEA、Eclipse）**：
@@ -36,12 +38,15 @@ type: note
 
    - **在构建工具中（如 Maven 或 Gradle）**：
      - **Maven**（在 `pom.xml` 的 `<build><plugins><plugin>` 下配置 surefire）：
+
        ```xml
        <configuration>
          <argLine>-Djavax.net.debug=ssl:handshake</argLine>
        </configuration>
        ```
+
      - **Gradle**（在 `build.gradle` 中）：
+
        ```groovy
        test {
          jvmArgs '-Djavax.net.debug=ssl:handshake'
@@ -51,16 +56,20 @@ type: note
 3. **捕获日志**：
    - 输出将显示在控制台/终端中。
    - 可重定向到文件以便查看：
+
      ```
      java -Djavax.net.debug=ssl:handshake -jar your-app.jar > ssl-debug.log 2>&1
      ```
+
    - 查找以 `***` 开头的行（例如握手开始的 `*** ClientHello`）或 `javax.net.ssl` 前缀。
 
 4. **禁用调试**：
    - 完成后直接移除 `-D` 标志——默认未设置以避免性能开销。
 
 #### 示例输出片段
+
 启用后，您将看到类似以下内容：
+
 ```
 *** ServerHello, TLSv1.2
 RandomCookie:  GMT: 1731000000 bytes = { ... }
@@ -70,6 +79,7 @@ Compression Method: 0
 ```
 
 #### 提示
+
 - 适用于 Java 8+（包括 11、17、21）。在新版本中，您还可以启用 `-Djdk.tls.client.protocols=TLSv1.2,TLSv1.3` 来获取特定协议的日志。
 - 高详细度会降低应用速度并淹没日志——请在开发环境中测试。
 - 如果使用 Spring Boot 等框架，可将其添加到 `application.properties`：`debug=true`（通用调试）或通过命令行参数。

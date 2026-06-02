@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What does the speaker say in the YouTube video at https://www.youtube.com/watch?v=ii1jcLg-eIQ?
+Question: What does the speaker say in the YouTube video at <https://www.youtube.com/watch?v=ii1jcLg-eIQ>?
 
 Answer:
 
@@ -18,7 +18,7 @@ The video is a lecture titled "Lecture 3 - Before the Startup" delivered by **Pa
 
 Paul Graham discusses the **counterintuitive aspects of startups** and **how to generate good startup ideas**. The talk is informative, humorous, and includes a Q&A section.
 
-### Key points from what he says:
+### Key points from what he says
 
 - Startups are highly counterintuitive, similar to learning an unnatural skill like skiing. Many instincts that work in normal life fail in startups, except instincts about people.
 - To succeed, focus on building something users want rather than gaming systems or following conventional advice.

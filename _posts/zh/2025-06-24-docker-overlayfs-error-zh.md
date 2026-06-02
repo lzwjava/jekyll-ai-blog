@@ -52,17 +52,17 @@ docker compose stop
 
 简单地重启 Docker 服务通常可以清除临时的存储驱动错误和锁文件。
 
-### 对于 Linux 系统（使用 systemd）：
+### 对于 Linux 系统（使用 systemd）
 
 ```bash
 sudo systemctl restart docker
 ```
 
-### 对于 Docker Desktop (macOS/Windows)：
+### 对于 Docker Desktop (macOS/Windows)
 
-1.  点击系统托盘/菜单栏中的 **Docker 图标**。
-2.  导航到 **故障排除**（或 **设置** $\rightarrow$ **守护进程** $\rightarrow$ **重启**）。
-3.  点击 **重启**。
+1. 点击系统托盘/菜单栏中的 **Docker 图标**。
+2. 导航到 **故障排除**（或 **设置** $\rightarrow$ **守护进程** $\rightarrow$ **重启**）。
+3. 点击 **重启**。
 
 重启后，再次尝试移除容器。
 
@@ -74,13 +74,13 @@ sudo systemctl restart docker
 
 错误指向了 OverlayFS 存储中的一个特定目录：`/var/lib/docker/overlay2/7acbf095f3537e4829397e10f2134499389c724d3378782a8882ff1299fc431f/merged`。
 
-1.  **停止 Docker 守护进程：**
+1. **停止 Docker 守护进程：**
 
     ```bash
     sudo systemctl stop docker
     ```
 
-2.  **手动移除有问题的目录：**
+2. **手动移除有问题的目录：**
 
     ```bash
     # 仅移除 YOUR 错误信息中显示的目录
@@ -89,13 +89,13 @@ sudo systemctl restart docker
 
     *如果找不到确切的目录，你可能需要尝试更通用的清理（参见下一步）。*
 
-3.  **启动 Docker 守护进程：**
+3. **启动 Docker 守护进程：**
 
     ```bash
     sudo systemctl start docker
     ```
 
-4.  **再次尝试移除容器/堆栈。**
+4. **再次尝试移除容器/堆栈。**
 
 -----
 

@@ -33,7 +33,7 @@ Guan Mingsheng's primary contribution was injecting discipline, structure, and p
 While the search results provide very limited specific quotes attributed to Guan Mingsheng himself, the following quote is specifically associated with his philosophy regarding organizational development at Alibaba:
 
 * **"There were organisations first, and then there would be companies."**
-    * *Interpretation:* This emphasizes that a successful, sustainable business must first build a solid, well-defined organizational structure and culture (the "organisation") before it can truly function and grow as a robust corporate entity (the "company"). This reflects his mission to bring order and professional management to the young, passionate startup.
+  * *Interpretation:* This emphasizes that a successful, sustainable business must first build a solid, well-defined organizational structure and culture (the "organisation") before it can truly function and grow as a robust corporate entity (the "company"). This reflects his mission to bring order and professional management to the young, passionate startup.
 
 Guan Mingsheng's story is a classic example of a seasoned executive joining a visionary founder to transform a startup from an idea into a structured, scalable business powerhouse.
 

@@ -90,6 +90,7 @@ His style transformed Chinese essay writing by showing that serious cultural cri
 ## Lasting Impact
 
 This essay helped establish Yu Qiuyu as China's most influential contemporary essayist and contributed to:
+
 - Renewed public interest in Dujiangyan (now a UNESCO World Heritage site)
 - A broader "cultural reflection" movement in Chinese literature
 - Debate about what constitutes genuine cultural achievement

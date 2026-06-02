@@ -16,6 +16,7 @@ type: note
 **12 个以上 Apache2 工作进程均处于 100% CPU 占用** —— 这是导致风扇噪音的根本原因。
 
 关键观察点：
+
 - 这些进程已持续运行 **35-58 分钟以上** 且 CPU 持续占满 100% —— 并非瞬时峰值
 - 所有进程均为 `www-data`（Web 服务器工作进程），而非 `root`（非启动/配置进程）
 - 各进程内存使用正常（约 61-71 MB RES），因此 **排除内存泄漏**
@@ -30,6 +31,7 @@ type: note
 ## 实时诊断
 
 检查正在响应的请求：
+
 ```bash
 # 查看连接状态及被访问的 URL
 sudo apachectl status          # 若启用 mod_status 模块可使用此命令
@@ -44,6 +46,7 @@ sudo awk '{print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -rn | 
 ```
 
 检测是否是 PHP 脚本循环执行：
+
 ```bash
 # 查看各工作进程实际执行的程序
 sudo ls -la /proc/$(pgrep -f apache2 | head -1)/fd | grep php
@@ -56,6 +59,7 @@ sleep 3 && sudo kill %1
 ## 快速缓解措施
 
 若为 DDoS 攻击：
+
 ```bash
 # 屏蔽攻击最频繁的 IP
 sudo ufw deny from <attacker-ip>

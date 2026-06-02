@@ -22,6 +22,7 @@ firefox  # 或触发该提示的其他应用
 如需永久设置，请将 export 命令行添加到 `~/.bashrc` 或 `~/.profile` 文件中。
 
 ### 参考资料
+
 - [不加载模块"atk-bridge"：该功能已由 GTK 原生提供](https://stackoverflow.com/questions/75406844/not-loading-module-atk-bridge-the-functionality-is-provided-by-gtk-natively)
 - [启动 firefox 时出现错误：不加载模块"atk-bridge"](https://askubuntu.com/questions/1462267/when-launching-firefox-get-error-not-loading-module-atk-bridge)
 - [运行任何 gh 命令时提示：不加载模块"atk-bridge"](https://github.com/cli/cli/issues/9043)

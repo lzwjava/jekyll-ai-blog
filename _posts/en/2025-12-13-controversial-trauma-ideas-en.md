@@ -16,7 +16,8 @@ Answer:
 
 Several controversial or unpopular ideas about psychological trauma emerge from public discussions, particularly on social media, forums, and opinion pieces. These views often challenge mainstream trauma-informed approaches, which emphasize widespread recognition of trauma's impacts. Note that these are opinions, not clinical consensus, and many contradict established psychological research showing trauma's profound effects.
 
-### Common Unpopular Ideas:
+### Common Unpopular Ideas
+
 - **The term "trauma" is overused and diluted**: Many argue that everyday setbacks (e.g., breakups, criticism, or minor disappointments) are now labeled as "trauma," diminishing the experiences of those with severe events like abuse or violence. This overuse allegedly turns "trauma" into a trendy excuse or identity rather than a serious condition.
 - **Not every negative experience qualifies as trauma**: Related to the above, critics claim labeling common hardships (e.g., divorce, poverty, or strict parenting) as trauma invalidates "real" trauma and fosters a victim mentality.
 - **Trauma is often used as an excuse for bad behavior**: A frequent view is that while trauma explains certain reactions, it does not justify harming others, poor choices, or avoiding accountability. Perpetuating harm due to past trauma is seen as a failure to heal.
@@ -27,9 +28,9 @@ These ideas are politically incorrect in mental health circles, where validating
 
 References:
 
-- https://www.psychologytoday.com/us/blog/invisible-bruises/202305/why-is-everything-about-trauma-lately
-- https://www.reddit.com/r/unpopularopinion/comments/gm4erl/not_everything_bad_that_happens_to_you_is_trauma/
-- https://www.reddit.com/r/unpopularopinion/comments/tm3rcd/people_nowadays_are_way_too_focused_on_their/
-- https://www.psychologytoday.com/us/blog/invisible-bruises/202504/a-trauma-history-is-no-excuse-for-abuse
-- https://www.psychologytoday.com/us/blog/the-truth-about-exercise-addiction/202205/trauma-is-not-excuse
-- https://cptsdfoundation.org/2025/06/23/when-everything-is-trauma-nothing-is-the-dangerous-fallout-of-diagnostic-buzzwords/
+- <https://www.psychologytoday.com/us/blog/invisible-bruises/202305/why-is-everything-about-trauma-lately>
+- <https://www.reddit.com/r/unpopularopinion/comments/gm4erl/not_everything_bad_that_happens_to_you_is_trauma/>
+- <https://www.reddit.com/r/unpopularopinion/comments/tm3rcd/people_nowadays_are_way_too_focused_on_their/>
+- <https://www.psychologytoday.com/us/blog/invisible-bruises/202504/a-trauma-history-is-no-excuse-for-abuse>
+- <https://www.psychologytoday.com/us/blog/the-truth-about-exercise-addiction/202205/trauma-is-not-excuse>
+- <https://cptsdfoundation.org/2025/06/23/when-everything-is-trauma-nothing-is-the-dangerous-fallout-of-diagnostic-buzzwords/>

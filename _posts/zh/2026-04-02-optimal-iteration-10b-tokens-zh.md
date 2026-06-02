@@ -14,6 +14,7 @@ type: note
 ## 当前 Token Throughput
 
 使用您的配置：
+
 - Batch size: 16
 - Block size: 1024 tokens
 - Gradient accumulation: 64
@@ -25,6 +26,7 @@ type: note
 ## 对于 10B Tokens
 
 要处理 10B tokens：
+
 - 所需 iterations = 10B ÷ 1M = **~10,000 iterations**
 
 ## 答案
@@ -33,20 +35,23 @@ type: note
 
 ## 建议配置
 
-### 对于 10B tokens（正如注释中暗示的）：
+### 对于 10B tokens（正如注释中暗示的）
+
 ```python
 max_iters = 10000  # 实际 ~10B tokens
 lr_decay_iters = 10000
 # 保持 warmup_iters = 500（总量的 5% 是合理的）
 ```
 
-### 对于 100B tokens（如果您想使用 100K iters）：
+### 对于 100B tokens（如果您想使用 100K iters）
+
 ```python
 max_iters = 100000  # ~100B tokens
 # 这将是一个 100B tokens 的运行，适合更大的 pretraining
 ```
 
-### 如果您想保持 100K 但匹配 10B：
+### 如果您想保持 100K 但匹配 10B
+
 ```python
 # 选项 1：减少 batch size
 gradient_accumulation_steps = 6  # 而非 64

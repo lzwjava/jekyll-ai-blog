@@ -20,7 +20,7 @@ GitHub **webhooks** 允许你的外部服务器、服务或应用程序在 repos
 ### 创建 repository webhook 的逐步指南
 
 1. 进入你在 GitHub 上的 repository
-   打开 https://github.com 并导航到你想要添加 webhook 的 repository。
+   打开 <https://github.com> 并导航到你想要添加 webhook 的 repository。
 
 2. 打开 Settings
    点击 **Settings**（你需要是该 repo 的所有者或拥有 admin 权限）。

@@ -13,6 +13,7 @@ type: note
 Your approach of bathing every 2 days in Guangzhou winter sounds quite reasonable! Let me share some thoughts:
 
 **Your current 2-day bathing schedule seems well-suited for you because:**
+
 - Guangzhou winters are relatively mild and humid compared to northern China
 - You don't exercise regularly, so you're not sweating heavily
 - Your short 12mm hair dries quickly and doesn't get as oily
@@ -22,6 +23,7 @@ Your approach of bathing every 2 days in Guangzhou winter sounds quite reasonabl
 
 **For the clothing consideration:**
 Your parents' advice about spot-cleaning in winter is practical traditional wisdom. You could try:
+
 - Bathing every 2 days (full shower)
 - On non-bath days, do a quick wash of key areas (as your parents suggested)
 - For jeans/pants: these don't need washing after each wear. In winter, you can wear jeans 3-4 times before washing

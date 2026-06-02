@@ -8,9 +8,9 @@ translated: false
 type: note
 ---
 
-https://weibo.com/6347862377/5183994120372979
+<https://weibo.com/6347862377/5183994120372979>
 
-https://substack.com/inbox/post/167355695
+<https://substack.com/inbox/post/167355695>
 
 ---
 
@@ -18,7 +18,7 @@ As mentioned in my previous Weibo post, I like using LLMs to handle complex, ted
 
 More than a decade after I created PySonar2 (a Python type inference and static analyzer) in 2009-2010, I found myself discussing control-flow analysis (CFA) with ChatGPT, which brought back memories of a debate I had with a certain “CFA student” ten years ago.
 
-https://www.yinwang.org/blog-cn/2016/04/07/cfa
+<https://www.yinwang.org/blog-cn/2016/04/07/cfa>
 
 (The screenshots I uploaded to a website back then are now gone. Just make do with what’s left.)
 
@@ -50,4 +50,4 @@ I must thank ChatGPT for clearly articulating the facts I saw, saving me from re
 
 Now, I’m sharing a conversation I had with ChatGPT about CFA, hoping it will help researchers in this field:
 
-https://chatgpt.com/share/6864e9a1-66c8-8002-b9f5-55e845fde7ae
+<https://chatgpt.com/share/6864e9a1-66c8-8002-b9f5-55e845fde7ae>

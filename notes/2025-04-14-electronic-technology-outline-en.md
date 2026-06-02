@@ -15,6 +15,7 @@ Here’s an English outline for the textbook *Fundamentals of Electronic Technol
 ### **Outline of *Fundamentals of Electronic Technology (III)***
 
 #### **Part I: Analog Electronics**
+
 1. **Fundamentals of Circuit Analysis**
    - Basic circuit concepts and laws (Ohm’s Law, Kirchhoff’s Laws)
    - Linear circuit analysis methods (nodal analysis, superposition theorem)
@@ -37,6 +38,7 @@ Here’s an English outline for the textbook *Fundamentals of Electronic Technol
 ---
 
 #### **Part II: Digital Electronics**
+
 5. **Fundamentals of Digital Circuits**
    - Number systems and codes (binary, BCD, etc.)
    - Boolean algebra and logic gates (AND, OR, NOT, combinational logic)
@@ -60,6 +62,7 @@ Here’s an English outline for the textbook *Fundamentals of Electronic Technol
 ---
 
 #### **Part III: Practical Applications**
+
 9. **Experiments and Simulations** (Optional)
    - Hands-on labs (e.g., op-amp amplification, counter design)
    - Simulation tools (e.g., Multisim, Proteus)
@@ -71,12 +74,14 @@ Here’s an English outline for the textbook *Fundamentals of Electronic Technol
 ---
 
 #### **Appendices**
+
 - Reference tables (component parameters, logic symbols)
 - Selected exercise answers
 
 ---
 
 **Notes:**
+
 1. The outline follows a progressive structure from *analog → digital → practical applications*, suitable for engineering courses.
 2. Flexibility is allowed—topics like *feedback amplifiers* or *ADC/DAC* can be added based on curriculum needs.
 3. Emphasizes modern trends (e.g., PLDs and HDL) for real-world relevance.

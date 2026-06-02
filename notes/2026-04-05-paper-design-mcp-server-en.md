@@ -22,22 +22,27 @@ Paper.design is a relatively new, HTML/CSS-native design tool (currently in open
 ## What Makes It Stand Out
 
 ### 1. Bidirectional Read + Write Access
+
 Most design tool MCP integrations are read-only. Paper.design exposes 24 tools through an authenticated MCP server — and unlike most tool integrations that only let AI agents read your work, Paper supports full bidirectional access. An AI agent running in Claude Code or Cursor can not only inspect your design, it can modify it.
 
 This is a major differentiator. For comparison, Figma's MCP server exposes only three core tools and is primarily read-only.
 
 ### 2. Rich Tool Surface (24 Tools)
+
 Paper.design's MCP server exposes 24 tools split into read operations (get_selection, get_jsx, get_screenshot, get_computed_styles) and write operations (create_artboard, write_html, set_text_content, update_styles, rename_layer, duplicate_node, delete_node).
 
 ### 3. Native HTML/CSS Foundation = LLM-Friendly
+
 Because Paper is based on web technology and LLMs are really good at understanding the DOM, the results can be impressive. There is no translation step — the canvas is already HTML/CSS, so agents operate in their native language.
 
 ### 4. Powerful Cross-Tool Workflows
+
 Because the Paper MCP supports both reading and writing to your files, you can use the MCP server to pull context from other sources into your design files. This unlocks a bunch of workflows that were previously tedious to carry out, like syncing tokens from your design system or using real content for your designs.
 
 It also integrates with other MCP servers. For example, you can connect the Figma MCP and the Paper MCP simultaneously to migrate design tokens, or connect Notion MCP to populate real content into design frames.
 
 ### 5. Wide IDE Compatibility
+
 Setup in Claude Code is a single terminal command. Cursor users get a one-click deeplink. VS Code Copilot, Codex, and OpenCode also work out of the box.
 
 ---
@@ -60,7 +65,7 @@ Setup in Claude Code is a single terminal command. Cursor users get a one-click 
 - **Still in open alpha** — expect rough edges and bugs. The tool is in open alpha and recently launched cool additions like a desktop app and a powerful MCP server.
 - **Developer-oriented UX.** Paper's canvas really comes alive if you are comfortable in a code editor. Its MCP integration, Tailwind export, and DOM-native architecture are for people using CSS. Non-technical designers may find the setup friction too high.
 - **Free tier is limited.** Paper's free tier is functional for exploring the canvas, but the 100 MCP calls per week limit means AI-assisted workflows hit a ceiling quickly.
-- **WSL issues.** When using Windows Subsystem for Linux (WSL) you may not be able to access the local MCP server at http://127.0.0.1:29979/mcp.
+- **WSL issues.** When using Windows Subsystem for Linux (WSL) you may not be able to access the local MCP server at <http://127.0.0.1:29979/mcp>.
 
 ---
 

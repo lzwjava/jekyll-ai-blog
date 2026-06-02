@@ -16,6 +16,7 @@ This Python script is a **local proxy server** that interacts with **GitHub Copi
 ---
 
 ### **Key Components & Workflow**
+
 1. **Authentication (`setup()` and `get_token()`)**
    - Uses **OAuth Device Flow** to authenticate with GitHub.
    - Requests a **device code** and **user code** from GitHub.
@@ -45,6 +46,7 @@ This Python script is a **local proxy server** that interacts with **GitHub Copi
 ---
 
 ### **How It Works Step-by-Step**
+
 1. **First Run (No Token)**
    - The script calls `setup()` to authenticate via OAuth.
    - The user visits GitHub, enters a code, and grants access.
@@ -65,6 +67,7 @@ This Python script is a **local proxy server** that interacts with **GitHub Copi
 ---
 
 ### **Why This Exists**
+
 - **Bypasses Official Plugins**: Some editors (e.g., Neovim) lack official Copilot support. This script acts as a bridge.
 - **Local Proxy**: Avoids rate limits by managing tokens locally.
 - **Customization**: Can be modified to work with different editors or APIs.
@@ -72,19 +75,25 @@ This Python script is a **local proxy server** that interacts with **GitHub Copi
 ---
 
 ### **Security & Ethical Considerations**
+
 - **Hardcoded Client ID**: The script uses GitHub Copilot’s official `client_id` (`Iv1.b507a08c87ecfe98`), which may violate GitHub’s ToS if used outside approved plugins.
 - **Token Storage**: The access token is stored in plaintext (`.copilot_token`), which is a security risk.
 - **Rate Limits**: Frequent requests may trigger GitHub’s abuse detection.
 
 ---
+
 ### **How to Use**
+
 1. Run the script:
+
    ```sh
    python copilot_proxy.py [PORT]
    ```
+
    (Default port: `8080`)
 
 2. Configure your editor to send requests to `http://localhost:8080` with a JSON payload like:
+
    ```json
    {
      "prompt": "def hello_world():",
@@ -95,14 +104,18 @@ This Python script is a **local proxy server** that interacts with **GitHub Copi
 3. The script will return Copilot’s completion.
 
 ---
+
 ### **Potential Improvements**
+
 - **Better Error Handling**: Retry failed requests, handle network issues.
 - **Secure Token Storage**: Use encrypted storage or environment variables.
 - **Configuration File**: Allow customizing `client_id`, `port`, etc.
 - **Logging**: Add debug logs for troubleshooting.
 
 ---
+
 ### **Alternatives**
+
 - Use **official Copilot plugins** (VS Code, JetBrains, etc.).
 - Try **open-source alternatives** like **Codeium** or **Tabby**.
 

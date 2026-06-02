@@ -117,6 +117,7 @@ tail -n 100 -f /var/log/syslog | grep error
 ### 现代背景 (2026)
 
 如今大多数人使用 **Unix-like** 系统而非认证 Unix：
+
 - **Linux**（Ubuntu、Fedora、Debian、Arch、CentOS Stream / Rocky / AlmaLinux 等）→ 主导服务器和云
 - **macOS** → 认证 Unix（BSD 衍生）
 - **FreeBSD**、**OpenBSD**、**NetBSD** → 仍在积极开发

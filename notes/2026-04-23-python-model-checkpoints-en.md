@@ -12,6 +12,7 @@ type: note
 You have two checkpoints available. Here are sample commands:
 
 **From your FineWeb checkpoint (GPT-2 style, BPE tokenizer):**
+
 ```bash
 python sample.py \
     --out_dir=out-fineweb \
@@ -21,6 +22,7 @@ python sample.py \
 ```
 
 **From your Shakespeare char-level checkpoint:**
+
 ```bash
 python sample.py \
     --out_dir=out-shakespeare-char \
@@ -30,6 +32,7 @@ python sample.py \
 ```
 
 **From a pretrained GPT-2 (no local checkpoint needed):**
+
 ```bash
 python sample.py \
     --init_from=gpt2 \

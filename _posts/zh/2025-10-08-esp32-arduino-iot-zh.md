@@ -17,6 +17,7 @@ ESP32是由乐鑫科技开发的低成本、低功耗微控制器，具备内置
 如果您是初学者，建议从下载Arduino IDE开始，然后在「工具>开发板>开发板管理器」中搜索"ESP32开发板支持包"进行安装。
 
 ### 参考资料
+
 - [ESP32 - 维基百科](https://zh.wikipedia.org/wiki/ESP32)
 - [Arduino Nano ESP32 文档](https://docs.arduino.cc/nano-esp32)
 - [Arduino Nano ESP32 产品页面](https://store-usa.arduino.cc/products/nano-esp32)

@@ -19,11 +19,13 @@ You can change Nginx to run as your own user `lzw`. This will solve the permissi
 However, this approach has **important advantages and disadvantages**. Here is a clear comparison and how to do it safely.
 
 ### Advantages
+
 - Immediate fix — no need to change folder permissions, chmod, chgrp, etc.
 - Very convenient for personal/test/development machines
 - Nginx can access anything your user `lzw` can access
 
 ### Big disadvantages / security risks
+
 - If there is any nginx security vulnerability (remote code execution, misconfiguration, etc.), the attacker gets full rights as user `lzw` → can read all your files, ssh keys, qBittorrent downloads, personal data, etc.
 - `www-data` is a low-privilege system user with no login shell and very limited rights → much safer
 - Breaks standard Ubuntu/Debian packaging expectations (logrotate, apparmor profiles, php-fpm pools, etc. expect `www-data`)

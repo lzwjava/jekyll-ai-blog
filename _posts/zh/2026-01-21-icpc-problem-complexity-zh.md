@@ -23,6 +23,7 @@ type: note
 
 2. **需要多层次的解读**
 典型的理解流程（资深队伍的做法）：
+
 - 初读 → 获得非常模糊的概念（约 5–15 分钟）
 - 二读 → 尝试寻找题目到底要求什么
 - 查看 Sample Input/Output → 逆向工程其含义
@@ -33,6 +34,7 @@ type: note
 
 3. **对抗性 / 反直觉的措辞**
 命题人会刻意使用模糊、容易产生误导或极其精确的英语，这会惩罚浅层阅读：
+
 - “at most” vs “no more than” vs “less than or equal to”
 - “adjacent” vs “neighboring” vs “directly connected”
 - “can be” vs “may be” vs “is guaranteed to be”
@@ -40,6 +42,7 @@ type: note
 
 4. **不寻常 / 极罕见的 Constraint 或对象类型**
 来自真实决赛的例子：
+
 - 嵌套的随时间变化的 Graph
 - 非欧几里得表面上的 Geometry
 - 具有非常特殊平局决胜规则的投票系统
@@ -50,6 +53,7 @@ type: note
 5. **非标准的输入格式叙事**
 许多题目**并不**遵循经典的“N = 城市数量，然后是 M 条边……”模式。
 输入可能是：
+
 - 一个程序运行轨迹（Program Trace）
 - 一系列截图
 - 带有符号的奇怪矩阵
@@ -60,6 +64,7 @@ type: note
 有时 $N \le 10^5$ 写在段落中间，或者只能通过 Time/Memory Limits 结合 Sample sizes 推断出来。
 
 7. **心理压力**
+
 - 比赛时间在流逝
 - 队友在等待
 - 你知道一个词的误解就可能浪费整个竞赛

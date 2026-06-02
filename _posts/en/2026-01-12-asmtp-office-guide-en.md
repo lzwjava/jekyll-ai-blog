@@ -25,16 +25,17 @@ New Territories
 Closed on Saturdays, Sundays and public holidays
 
 **Contact:**
+
 - General Enquiries Hotline: 2824 6111
 - Fax: 2877 7711
-- Email: enquiry@immd.gov.hk
+- Email: <enquiry@immd.gov.hk>
 
 **Important Notes:**
 
 1. **For most ASMTP procedures, you don't need to visit in person.** The entire e-Visa process after approval is done online - you'll receive notification by email/fax/post, pay the fee online, and download your e-Visa electronically.
 
 2. **If you need to visit for extension of stay or other matters**, you can book an appointment:
-   - Online: www.gov.hk/esbooking
+   - Online: <www.gov.hk/esbooking>
    - Phone: 2598 0888 (24-hour booking service)
    - You can book within the next 24 working days
 

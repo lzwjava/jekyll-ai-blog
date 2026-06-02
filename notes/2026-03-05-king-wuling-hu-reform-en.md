@@ -17,7 +17,8 @@ Answer:
 
 This is the most commonly used and academically precise English translation in university textbooks, historical studies, and Sinology papers.
 
-### Breakdown and Context:
+### Breakdown and Context
+
 - **赵武灵王** (Zhào Wǔlíng Wáng) → King Wuling of Zhao
   (reigned 325–299 BCE, one of the most important rulers of the state of Zhao during the Warring States period)
 
@@ -28,7 +29,8 @@ This is the most commonly used and academically precise English translation in u
 - **骑射** (qí shè) → "mounted archery" / "horseback archery"
   The military skill of shooting arrows accurately while riding a horse, which was the core strength of steppe cavalry but almost unknown among the infantry-heavy Chinese armies of the time.
 
-### Full idiomatic rendering often seen in scholarly English works:
+### Full idiomatic rendering often seen in scholarly English works
+
 - "King Wuling of Zhao's reform of adopting Hu clothing and mounted archery"
 - "King Wuling of Zhao adopts barbarian dress and cavalry archery"
 - "The Hu clothing and mounted archery policy of King Wuling of Zhao"
@@ -43,5 +45,6 @@ or simply
 This famous policy (around 307 BCE) was a major military modernization effort: by adopting nomadic dress (especially trousers instead of robes) and training soldiers in mounted archery, Zhao dramatically improved its cavalry forces and temporarily became one of the strongest states in the late Warring States period.
 
 References:
+
 - [https://en.wikipedia.org/wiki/King_Wuling_of_Zhao](https://en.wikipedia.org/wiki/King_Wuling_of_Zhao)
 - Major English translations of *Shiji* (Records of the Grand Historian), Biography of Zhao (《赵世家》)

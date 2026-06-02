@@ -49,10 +49,12 @@ Answer:
 
 **总结**
 当 Cisco AnyConnect 连接时（尤其是企业 full-tunnel VPN）：
+
 - 你**不需要**手动设置 `export HTTP_PROXY` / `HTTPS_PROXY` 或在系统设置中配置 proxy 以使 git (SSH 或 HTTPS) 工作。
 - 所有内容都会自动路由到 VPN → 企业网络处理任何所需的 proxy/firewall 规则。
 
 如果你的 git pull 仍然失败或变慢：
+
 - 检查是 full-tunnel 还是 split-tunnel（询问 IT 或在连接前后运行 `netstat -nr` / `route get github.com`）。
 - 企业 proxy 有时会屏蔽 SSH → 如果允许，请切换到 HTTPS remote (`git remote set-url origin https://github.com/...`)。
 - VPN MTU/分片问题可能会降低 git 速度 → 尝试 `git config --global http.postBuffer 524288000`（针对 HTTPS）或降低 MTU。

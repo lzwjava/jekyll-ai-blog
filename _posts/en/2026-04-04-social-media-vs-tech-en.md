@@ -75,6 +75,7 @@ Social media isn't mandatory for developers — but used well, it's a competitiv
 ## Summary
 
 Yes — you are correct on both counts:
+
 1. Companies evaluate candidates by their own internal standards (skills, experience, interview performance). Followers don't substitute for that.
 2. Having a meaningful social/technical presence **is** a bonus — especially in engineering communities — for visibility, networking, and credibility. It's just a separate track, not a replacement.
 

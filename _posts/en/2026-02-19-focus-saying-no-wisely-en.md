@@ -24,15 +24,19 @@ This wasn't abstract philosophy—it was spoken during a pivotal moment when Job
 ## Core Principles Behind the Quote
 
 ### 1. **Focus Is Subtraction, Not Addition**
+
 Most people misunderstand focus as concentrating hard on one task. Jobs reframed it: true focus requires actively *rejecting* good opportunities so you can excel at the *best* ones. [[6]]
 
 ### 2. **Good Ideas Can Distract From Great Ones**
+
 The hardest part isn't identifying bad ideas—it's saying no to *good* ideas that don't align with your core mission. Jobs believed that pursuing too many "good" directions dilutes impact and prevents breakthrough innovation. [[4]]
 
 ### 3. **Pride in What You Don't Do**
+
 Jobs stated he was "as proud of the things we haven't done as the things we have done." This reflects strategic discipline: every "no" protects resources for the few "yes" decisions that truly matter. [[7]]
 
 ### 4. **Customer-First, Not Technology-First**
+
 Jobs emphasized: "You've got to start with the customer experience and work backward to the technology." Focus isn't about what you *can* build—it's about what customers *need* most. [[19]]
 
 ## Practical Applications

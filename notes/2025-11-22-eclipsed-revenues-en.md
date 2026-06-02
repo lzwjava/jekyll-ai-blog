@@ -22,10 +22,12 @@ In a financial context, it generally means:
 
 **Example 1: Expenses/Costs Eclipsing Revenue**
 > "The company's marketing expenses easily **eclipsed its revenues** for the quarter."
+
 * **Meaning:** The marketing expenses were **greater** than the revenue earned, resulting in a loss.
 
 **Example 2: Another Company's Performance Eclipsing Revenue**
 > "Our competitor's first-quarter sales **eclipsed our revenues** for the entire year."
+
 * **Meaning:** The competitor's sales were **greater** than the company's yearly revenue, suggesting a significant lead in the market.
 
 In short, the word **eclipsed** suggests the eclipsing item has **surpassed** or **exceeded** the revenues.

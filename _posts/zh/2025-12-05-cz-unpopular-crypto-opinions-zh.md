@@ -39,6 +39,7 @@ type: note
 这些观点反映了CZ在加密领域中关于耐心、道德和现实世界实用性的更广泛哲学，这常常与该行业的投机精神相冲突。尽管有些观点引发了反弹（例如关于去中心化的虚伪指控），但它们始终获得了大量的关注。
 
 参考文献：
+
 - [Binance CZ Shares Unpopular Opinion on Building Wealth in Crypto](https://thecryptobasic.com/2025/03/10/binance-cz-shares-unpopular-opinion-on-building-wealth-in-crypto/)
 - [CZ says 'Buy Fear, Sell Greed'—Crypto X says 'Yeah, sure'](https://crypto.news/cz-says-buy-fear-sell-greed-crypto-x-yeah-sure-buddy/)
 - ['Not every agent needs its own token' - Binance's CZ shares unpopular opinion](https://www.cryptopolitan.com/not-every-agent-needs-token-binance-cz/)

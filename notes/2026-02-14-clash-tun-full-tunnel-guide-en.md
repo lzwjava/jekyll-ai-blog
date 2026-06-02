@@ -59,6 +59,7 @@ Your current setup (Clash listening on 7890/7891, system proxy enabled) already 
 You cannot make OpenConnect speak VMess/Trojan directly.
 
 Workarounds (complex):
+
 - Run Clash in TUN mode → then run OpenConnect inside that proxied environment (rarely useful).
 - Use ocproxy (lwIP-based SOCKS proxy for OpenConnect) → but still no VMess support.
 - Chain: OpenConnect → expose as SOCKS → feed to Clash as an outbound → but pointless since Clash already has better protocols.

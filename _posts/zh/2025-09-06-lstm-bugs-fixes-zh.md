@@ -213,6 +213,7 @@ loss += -np.sum(targets[t] * np.log(outputs[t] + eps))
   ```python
   b_f = np.ones((hidden_size, 1)) * 1.0
   ```
+
 * **学习率：** 使用原始SGD时，`lr=1e-1`过于激进。从`1e-2`开始或使用Adam。
 * **梯度裁剪：** 很好。如果需要，可以考虑按矩阵范数进行裁剪。
 

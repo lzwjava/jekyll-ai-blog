@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 Apache Kafka 与 Java 消息服务（JMS）均用于企业应用中的消息传递，但二者服务于不同范式。JMS 是用于传统点对点和发布-订阅消息传递的标准 Java API，而 Kafka 是专为高容量实时数据管道设计的分布式事件流平台。在 IBM WebSphere Application Server（WAS）环境中，JMS 具有原生无缝集成特性，而 Kafka 则需要外部设置和额外配置。以下从关键维度展开详细对比。
 
 ### 对比表格
@@ -29,6 +30,7 @@ Apache Kafka 与 Java 消息服务（JMS）均用于企业应用中的消息传�
 | **监控与管理**         | 通过 WAS 原生工具集成（如 PMI 指标收集、管理控制台队列监控）。 | 依赖外部工具（如 Kafka Manager、Prometheus），WAS 原生监控能力有限，需定制化集成。 |
 
 ### 如何选择？
+
 - **选择 JMS**：若 WAS 应用需简单、符合标准且与容器紧密集成的消息传递（如通过 MDB 实现异步处理）。在金融/事务型系统中久经考验。
 - **选择 Kafka**：若涉及大数据流处理、需事件重放能力或希望与 WAS 生态解耦。更适用于云原生或混合架构的未来需求，但需承担运维复杂度。
 - 混合架构方案：在 WAS 内部通信使用 JMS，外部流处理使用 Kafka。
@@ -36,6 +38,7 @@ Apache Kafka 与 Java 消息服务（JMS）均用于企业应用中的消息传�
 具体实施时，JMS 配置请参考 WAS 文档，Kafka 集成请参阅 Kafka Java 客户端指南。
 
 ### 参考资料
+
 - [对比：JMS 消息队列与 Apache Kafka](https://www.kai-waehner.de/blog/2022/05/12/comparison-jms-api-message-broker-mq-vs-apache-kafka/)
 - [JMS 与 Kafka：消息代理如何选择？](https://www.turing.com/blog/kafka-vs-jms-key-differences)
 - [在 WebSphere Application Server 中配置 JMS 资源](https://www.ibm.com/docs/en/ibm-mq/9.2.x?topic=resources-configuring-jms-in-websphere-application-server)

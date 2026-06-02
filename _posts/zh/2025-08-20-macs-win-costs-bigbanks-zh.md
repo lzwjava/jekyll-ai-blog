@@ -16,10 +16,12 @@ type: note
 ### 1. **硬件采购价格**
 
 #### **Mac（高端款）**
+
 * 搭载M4 Pro芯片（24 GB内存、512 GB固态硬盘）的**16英寸MacBook Pro**在新加坡本地售价为**3,499新加坡元**（参考[Gartner][1]、[The Verge][2]）。
 * 美国市场MacBook Pro起售价约为**1,599美元**（14英寸M4基础款），高端16英寸型号轻松突破**2,499–3,199美元**，顶配版本可达**3,499美元以上**（参考[Wikipedia][3]、[WIRED][4]）。
 
 #### **Windows（高端款）**
+
 * 典型企业级Windows笔记本均价约为**1,100美元**（参考[Forrester][5]）。
 * 但高性能配置（如高端ThinkPad）成本约**2,000–3,000美元**，尤其在与Mac性能相当时（参考[Gartner][1]）。
 * 例如，对标MacBook Pro的戴尔"14 Premium"起售价为**1,499.99美元**，随GPU、内存和显示屏升级而提高（参考[TechRadar][6]）。
@@ -64,16 +66,19 @@ type: note
 ### [Apple MacBook Pro 16英寸（M4 Pro）](https://ms-store.moneysmart.sg/products/macbook-pro-16-inch-m4-pro?variant=44044717818063&utm_source=chatgpt.com)
 
 #### 顶级性能（22小时续航）
+
 *3,499.00新加坡元*
 
 ### [Apple MacBook Pro 14英寸（M4）](https://ms-store.moneysmart.sg/products/macbook-pro-14-inch-m4?variant=44044712018127&utm_source=chatgpt.com)
 
 #### 更便携且性能强劲
+
 *2,199.00新加坡元*
 
 ### [HP EliteBook X G1i（Intel Ultra 7）](https://sourceit.com.sg/products/hp-elitebook-x-g1i-u7-258v-32gb-1tb-ai-pc-b90z5pt?variant=50943376097444&utm_source=chatgpt.com)
 
 #### 高端Windows商务笔记本
+
 *2,999.00新加坡元*
 
 * **[Apple MacBook Pro 16英寸（M4 Pro）](https://ms-store.moneysmart.sg/products/macbook-pro-16-inch-m4-pro?variant=44044717818063&utm_source=chatgpt.com)**：顶配规格与长效续航——适合高强度计算或创意工程任务。

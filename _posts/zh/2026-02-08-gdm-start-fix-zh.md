@@ -19,6 +19,7 @@ Answer:
 ### Step 1: 再次进入 recovery / root shell (最安全的起点)
 
 使用以下方法之一：
+
 - GRUB → 编辑启动项 → 在 linux 行末尾添加 `rw init=/bin/bash` → Ctrl+X
 - 或者从 live USB 启动 → chroot 进入你安装的系统（如前所述）
 
@@ -104,30 +105,37 @@ reboot
 ### 如果重启后仍然失败
 
 - 你可能会看到黑屏或闪烁的游标 → 按下 **Ctrl+Alt+F3** (或 F2–F6) 获取文本终端 → 以你的用户身份登录 → 运行：
+
   ```bash
   sudo systemctl restart gdm
   # 或者
   sudo systemctl status gdm -l
   ```
+
   查看最后 10–20 行输出 — 复制任何具体的错误（例如 "permission denied", "cannot execute", "missing file" 等）并进行排查。
 
 - 临时切换到另一个 display manager (lightdm 更轻量，更容易恢复)：
+
   ```bash
   apt install lightdm
   dpkg-reconfigure lightdm   # 选择 lightdm
   reboot
   ```
+
   如果 lightdm 可以工作，你可以在一切修复后再切回 gdm3。
 
 ### 快速替代方案：从 live USB 重新安装 desktop (如果上述步骤太麻烦，此法更快)
 
 在 live USB 的 "Try Ubuntu" 模式下：
+
 1. 将你的 root 分区 (`/dev/nvme0n1pX` 或类似) 挂载到 `/mnt`
 2. 运行：
+
    ```bash
    sudo apt update
    sudo apt install --reinstall ubuntu-desktop^ gdm3
    ```
+
    (`^` 符号会重新安装整个 tasksel 组)
 
 这通常能解决 90% 因 chown 导致的 GNOME 损坏问题，而无需全盘重装。

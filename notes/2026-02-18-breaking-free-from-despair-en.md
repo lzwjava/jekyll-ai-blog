@@ -14,6 +14,7 @@ Desperation and learned helplessness are complex psychological states that often
 ---
 
 ### **Why People Feel Desperate**
+
 1. **Unmet Needs or Goals**
    When people repeatedly fail to achieve important goals—whether in relationships, career, health, or personal growth—they may feel trapped or hopeless. This is especially true if they perceive no viable path forward.
 
@@ -32,9 +33,11 @@ Desperation and learned helplessness are complex psychological states that often
 ---
 
 ### **Learned Helplessness: How It Develops**
+
 Learned helplessness is a psychological state where individuals, after repeated exposure to uncontrollable negative events, begin to believe they are powerless to change their situation—even when opportunities for change exist. This concept was famously studied by Martin Seligman in the 1960s.
 
 #### **How It Happens:**
+
 1. **Repeated Failure or Punishment**
    When efforts to improve a situation consistently fail or result in punishment, people may stop trying. For example, a student who repeatedly fails despite studying may eventually give up.
 
@@ -50,6 +53,7 @@ Learned helplessness is a psychological state where individuals, after repeated 
 ---
 
 ### **Breaking the Cycle**
+
 1. **Small Wins**
    Encouraging small, achievable goals can rebuild a sense of agency. Celebrating progress, no matter how minor, counters helplessness.
 
@@ -68,6 +72,7 @@ Learned helplessness is a psychological state where individuals, after repeated 
 ---
 
 ### **Key Takeaway**
+
 Desperation and learned helplessness often stem from a perceived or real lack of control. The path out involves reclaiming agency—through action, support, and cognitive shifts. If this resonates with you or someone you know, professional help can be invaluable.
 
 Would you like to explore strategies for building resilience or coping with specific challenges?

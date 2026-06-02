@@ -17,9 +17,11 @@ Answer:
 **FLAC** (Free Lossless Audio Codec) is a popular **open-source** audio format designed for **lossless compression** of digital audio.
 
 ### Core Concept
+
 FLAC compresses audio files (typically reducing them to **50–70%** of their original size) without discarding **any** audio information. When you decompress (play) a FLAC file, you get back a **bit-perfect** identical copy of the original uncompressed audio (usually PCM data from a CD or high-resolution recording).
 
 This is very different from lossy formats like:
+
 - MP3
 - AAC
 - Opus (in normal use)
@@ -27,12 +29,14 @@ This is very different from lossy formats like:
 These permanently remove "less important" data to achieve smaller sizes, which introduces some quality loss.
 
 ### History
+
 - First released in **2001** (version 1.0 in July 2001)
 - Developed and maintained by the **Xiph.Org Foundation**
 - Became an official IETF standard in late **2024** (RFC 9639)
 - Remains completely **royalty-free**, patent-free, and open-source
 
 ### Main Features and Advantages
+
 - **Truly lossless** — mathematically verifiable bit-identical reconstruction
 - Excellent compression ratio for most music (better than ZIP on audio)
 - Very fast decoding (low CPU usage) — suitable for real-time playback
@@ -47,6 +51,7 @@ These permanently remove "less important" data to achieve smaller sizes, which i
 - Multiple independent implementations exist (very robust ecosystem)
 
 ### Typical Use Cases (2026)
+
 - Archiving CD collections with perfect quality but smaller files than WAV
 - Storing hi-res audio (24-bit/96 kHz, 24-bit/192 kHz, etc.)
 - Audiophile listening on local storage (phones, DAPs, NAS → streamer setups)
@@ -64,6 +69,7 @@ These permanently remove "less important" data to achieve smaller sizes, which i
 | AAC (256)  | Lossy     | ~18–22%             | Not recommended     | Some loss           | No (patents)       |
 
 ### File Extension and Identification
+
 - Extension: **.flac**
 - Magic number (first bytes): **`fLaC`**
 

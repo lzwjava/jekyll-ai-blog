@@ -10,13 +10,14 @@ translated: false
 type: note
 ---
 
-**Question:** Is Krzysztof Stencel also quite active in UVa (University of Valladolid Online Judge)? The link is https://uhunt.onlinejudge.org/id/19304.
+**Question:** Is Krzysztof Stencel also quite active in UVa (University of Valladolid Online Judge)? The link is <https://uhunt.onlinejudge.org/id/19304>.
 
 **Answer:**
 
 Yes, **Krzysztof Stencel** has a profile on uHunt (a popular statistics and problem-selection tool for the UVa Online Judge), under username **stencel** with ID 19304, and his real name is explicitly listed as Krzysztof Stencel. This confirms it is the same person — the Polish computer science professor from the University of Warsaw.
 
 However, he is **not particularly "quite active" in recent times** based on available information:
+
 - He has solved a number of problems on UVa (the exact count is not publicly detailed in summaries, but historical records show submissions dating back to at least 2011).
 - For example, in one archived problem statistic (problem 12079 from UVa), he appears in the top submissions list with a fast C++ solution from November 16, 2011.
 - There are indications of activity over the years, including submissions in various problems, but no evidence of very recent high-frequency solving (e.g., no mentions of current top rankings, contest participation, or daily/weekly activity in recent years).

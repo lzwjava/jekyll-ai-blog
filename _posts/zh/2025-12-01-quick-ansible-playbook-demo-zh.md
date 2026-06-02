@@ -13,12 +13,14 @@ type: note
 这是一个最简单的 Ansible playbook 演示，您可以在 2 分钟内运行——从零到“哇，它奏效了！”
 
 ### 第 1 步：创建一个项目文件夹
+
 ```bash
 mkdir ~/ansible-demo
 cd ~/ansible-demo
 ```
 
 ### 第 2 步：创建一个 inventory 文件 (inventory.ini)
+
 ```ini
 # inventory.ini
 [webservers]
@@ -31,12 +33,15 @@ ansible_ssh_private_key_file=~/.ssh/id_rsa   # 仅适用于真实服务器
 ```
 
 如果您只是在自己的笔记本电脑上测试，则只需这一行：
+
 ```ini
 localhost ansible_connection=local
 ```
 
 ### 第 3 步：创建世界上最简单的 playbook (hello.yml)
+
 {% raw %}
+
 ```yaml
 # hello.yml
 ---
@@ -69,9 +74,11 @@ localhost ansible_connection=local
         state: started
         enabled: yes
 ```
+
 {% endraw %}
 
 ### 第 4 步：运行 playbook
+
 ```bash
 # 首先进行试运行（强烈推荐）
 ansible-playbook hello.yml -i inventory.ini --check
@@ -81,11 +88,13 @@ ansible-playbook hello.yml -i inventory.ini
 ```
 
 如果你想被询问 sudo 密码（当使用 become: yes 时）：
+
 ```bash
 ansible-playbook hello.yml -i inventory.ini --ask-become-pass
 ```
 
 ### 预期输出（已缩短）
+
 ```
 PLAY [My first Ansible playbook] ****************************************
 
@@ -115,12 +124,14 @@ localhost                  : ok=5 changed=1 unreachable=0 failed=0
 ### 更简单的版本（如果您只想在本地主机上试用）
 
 inventory.ini:
+
 ```ini
 localhost ansible_connection=local
 ```
 
 tiny.yml:
 {% raw %}
+
 ```yaml
 ---
 - name: Tiny demo
@@ -139,9 +150,11 @@ tiny.yml:
       ansible.builtin.debug:
         msg: "{{ file_content.stdout_lines }}"
 ```
+
 {% endraw %}
 
 运行：
+
 ```bash
 ansible-playbook tiny.yml
 ```

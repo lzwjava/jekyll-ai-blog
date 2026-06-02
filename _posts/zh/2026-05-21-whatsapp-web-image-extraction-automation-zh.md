@@ -26,6 +26,7 @@ ww image whatsapp
 ```
 
 它将执行以下操作：
+
 - 在 WhatsApp Web（你打开的 Safari 标签页中）找到最后一条消息容器
 - 从中提取每个 `<img>` 元素（包括 `data:` 和 `blob:` 来源——canvas 可处理两者）
 - 保存为 `whatsapp-1.jpg`、`whatsapp-2.jpg`……到 `assets/images/cooking/` 目录下

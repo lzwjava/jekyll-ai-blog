@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What does the article at https://www.yinwang.org/posts/tests say?
+Question: What does the article at <https://www.yinwang.org/posts/tests> say?
 
 Answer:
 

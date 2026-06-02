@@ -11,9 +11,11 @@ type: note
 ---
 
 ### Git Hooks Overview
+
 Git hooks are customizable scripts that automate tasks at specific points in the Git workflow. They can be client-side (run on your local machine) or server-side (run on the remote repository). Hooks are stored in the `.git/hooks/` directory of a repository. Below, I'll break down pre-commit, pre-push, and server-side hooks related to pushing, explaining how they execute.
 
 ### Client-Side Hooks: Pre-Commit and Pre-Push
+
 These hooks run locally on your machine before actions are finalized, allowing you to enforce rules or run checks.
 
 - **Pre-Commit Hook**:
@@ -32,6 +34,7 @@ These hooks run locally on your machine before actions are finalized, allowing y
 Client-side hooks ensure issues are caught early, preventing bad commits or pushes from leaving your machine.
 
 ### Server-Side Hooks During Push
+
 When you run `git push`, the push is sent to the remote repository (e.g., GitHub, GitLab, or a custom server). The remote can have its own hooks that execute during or after the push process. These are stored in the remote Git repository's `.git/hooks/` directory and are managed by the server admin.
 
 - **Process During Push**:
@@ -57,6 +60,7 @@ When you run `git push`, the push is sent to the remote repository (e.g., GitHub
 Server-side hooks provide centralized enforcement, so even if your local hooks are bypassed, the remote can still validate or react to the push. Platforms like GitHub use webhooks (API-based equivalents) for similar purposes, but for bare Git servers or self-hosted repos, the hooks above are key.
 
 ### Key Differences and Best Practices
+
 - **Client vs. Server**: Client hooks (like pre-commit/pre-push) give you quick feedback locally. Server hooks enforce repository-wide rules.
 - **Customization**: Hooks are shell scripts (e.g., Bash) but can invoke Python, Node.js, etc. Use tools like pre-commit (a framework) for managing them.
 - **Bypassing**: Commit with `--no-verify`, push with `--no-verify`, but server hooks can't be bypassed unless you have admin access.

@@ -22,6 +22,7 @@ Training speed around **21 seconds per 1M-token batch** on an H200 (which has 14
 - **Other Factors:** Saving 18GB checkpoints took a minute or two (observed 84s at iter 250), which stalls the loop. Also, the “mfu 150%+” metric is an artifact of profiling – in reality you can’t exceed 100% GPU utilization. The fact we see 100% power (∼690W) means the GPU is busy – so the lag is not idle GPU but work (compilation + data feeding). Additionally, check if Python is using all CPU cores. If the droplet’s vCPUs are busy elsewhere (e.g. running other tasks or limited by Docker), that could delay data prep. Finally, ensure nothing like logging or console output is backpressuring the loop.
 
 **Recommendations:**
+
 - **Wait out the compile phase.** Monitor logs until step time drops from ~21s to a few seconds.
 - **Add DataLoader workers:** Use `torch.utils.data.DataLoader` with multiple workers and a prefetch factor to speed data loading【7†L50-L59】.
 - **Prepare data properly:** Convert FineWeb text to binary with `prepare.py` so the loader can `mmap` it. This avoids Python I/O overhead.

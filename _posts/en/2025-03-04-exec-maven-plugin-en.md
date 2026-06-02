@@ -11,6 +11,7 @@ type: note
 To use the `org.codehaus.mojo` Exec Maven Plugin in your Maven project, you need to configure it in your `pom.xml` file and decide how you want to execute programs—either external commands or Java programs—during your build process. The plugin provides two main goals: `exec:exec` for running external programs and `exec:java` for executing Java classes. Below, I’ll guide you through the steps to set it up and use it effectively.
 
 ### Step 1: Add the Plugin to Your `pom.xml`
+
 First, include the Exec Maven Plugin in the `<build><plugins>` section of your `pom.xml`. Specify the `groupId`, `artifactId`, and a version (the latest as of now is `3.1.0`):
 
 ```xml
@@ -28,16 +29,20 @@ First, include the Exec Maven Plugin in the `<build><plugins>` section of your `
 This adds the plugin to your project, but it won’t do anything yet until you configure it or run its goals manually.
 
 ### Step 2: Choose Your Goal
+
 The plugin offers two primary goals:
+
 - **`exec:exec`**: Executes any external program (e.g., shell scripts, binaries, or even the `java` command).
 - **`exec:java`**: Runs a Java class with a `main` method from your project in the same JVM as Maven.
 
 You can use these goals either by running them manually from the command line (e.g., `mvn exec:exec`) or by binding them to a specific phase in the Maven build lifecycle.
 
 ### Option 1: Running a Java Program with `exec:java`
+
 If you want to execute a Java class from your project, use the `exec:java` goal. This is ideal for running a `main` method in a class that’s part of your project, leveraging the project’s runtime classpath (including dependencies) automatically.
 
 #### Manual Execution
+
 Add a configuration to specify the main class:
 
 ```xml
@@ -64,6 +69,7 @@ mvn exec:java
 This executes `com.example.Main` in the same JVM as Maven, inheriting Maven’s JVM settings.
 
 #### Automatic Execution During Build
+
 To run it automatically during a build phase (e.g., `test`), use the `<executions>` section:
 
 ```xml
@@ -93,6 +99,7 @@ To run it automatically during a build phase (e.g., `test`), use the `<execution
 Now, when you run `mvn test`, the `com.example.Main` class will execute during the `test` phase.
 
 #### Passing Arguments or System Properties
+
 You can pass arguments to the `main` method or set system properties:
 
 ```xml
@@ -114,9 +121,11 @@ You can pass arguments to the `main` method or set system properties:
 Note that `exec:java` runs in the same JVM as Maven, so JVM options (e.g., `-Xmx`) are inherited from how Maven is invoked (e.g., `mvn -Xmx512m exec:java`).
 
 ### Option 2: Running an External Program with `exec:exec`
+
 For executing external programs like shell scripts or commands, use the `exec:exec` goal.
 
 #### Manual Execution
+
 Configure the plugin to run a script:
 
 ```xml
@@ -148,6 +157,7 @@ mvn exec:exec
 This executes `myScript.sh` with the specified arguments in the given working directory.
 
 #### Automatic Execution During Build
+
 Bind it to a phase, such as starting and stopping a server for integration tests:
 
 ```xml
@@ -187,6 +197,7 @@ Bind it to a phase, such as starting and stopping a server for integration tests
 Running `mvn integration-test` will start the server before tests and stop it afterward.
 
 #### Running Java with Custom JVM Options
+
 If you need a separate JVM with specific options (unlike `exec:java`), use `exec:exec` with the `java` executable. You’ll need to manage the classpath manually. Here’s an example:
 
 ```xml
@@ -262,7 +273,9 @@ To include dependencies in the classpath, you can use the `maven-dependency-plug
 Adjust the classpath separator (`:` for Unix, `;` for Windows) as needed.
 
 ### Additional Configuration Options
+
 - **Environment Variables** (for `exec:exec`):
+
   ```xml
   <configuration>
       <executable>myScript.sh</executable>
@@ -271,10 +284,13 @@ Adjust the classpath separator (`:` for Unix, `;` for Windows) as needed.
       </environmentVariables>
   </configuration>
   ```
+
 - **Working Directory**: Use `<workingDirectory>` to set where the command runs.
 
 ### Summary
+
 The Exec Maven Plugin is versatile:
+
 - Use `exec:java` to run Java classes from your project easily, leveraging the project’s classpath, but it runs in Maven’s JVM.
 - Use `exec:exec` for external programs or Java with custom JVM options, requiring manual classpath management if needed.
 - Configure it in `pom.xml` and either run it manually (`mvn exec:java` or `mvn exec:exec`) or bind it to build phases with `<executions>`.

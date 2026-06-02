@@ -152,6 +152,7 @@ If you prefer `run-forked`, the common pitfalls are:
     -javaagent:...
   </jvmArgs>
   ```
+
 * Ensure nothing else is on `8081`. If it is, change both start+stop to another free port.
 * If your ITs crash or hang, `post-integration-test` may never run; in that case, add a `verify`-phase kill fallback (see below).
 

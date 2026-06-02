@@ -16,6 +16,7 @@ Answer:
 Lian Po (also known as Lianpo in the Chinese version, 王者荣耀) is a durable Tank hero primarily played in the Clash Lane (top/farm lane) or as a Roamer/Support. He excels at frontline initiation with strong crowd control (CC), skill-based immunity to CC, and sustained damage in team fights. His kit revolves around chaining dashes, smashes, and leaps to disrupt enemies while soaking damage.
 
 ### Skills
+
 - **Passive: Warrior’s Soul**
   Lian Po gains CC immunity (unstoppable) while casting skills. Entering combat builds Battle Spirit stacks, providing up to 20% damage reduction and 30% attack speed at max stacks. Out of combat, it heals him. Use this to dive fearlessly during engages.
 
@@ -33,13 +34,16 @@ Lian Po (also known as Lianpo in the Chinese version, 王者荣耀) is a durable
 **Summoner Spell**: Flash (for engages/escapes).
 
 ### Core Combos
+
 Lian Po's strength is fluid chaining via Skill 1 resets:
+
 - **Basic Poke/Clear**: 1 > 2 > 1 (resets dash for poke or wave clear).
 - **All-In Engage**: 1 > 2 > Ult > 1 (dive, smash, leap-knockup, follow-up dash). Weave enhanced basics between.
 - **Alternative**: 1 > 2 > 1 > Ult (for longer chases).
 - **Pro Tip**: During Ult's second smash, dash (1) to reposition and hit the third knockup on more enemies. Flash into Ult for surprise initiates.
 
 ### Recommended Build (Tank/Roam Focus)
+
 Prioritize cooldown reduction (CDR) early (aim for 30-40%), then tank stats. Adjust for enemy comp (e.g., more magic resist vs. AP-heavy teams).
 
 | Slot | Item | Why? |
@@ -56,21 +60,26 @@ Prioritize cooldown reduction (CDR) early (aim for 30-40%), then tank stats. Adj
 **Start**: Meteor (early CDR/HP).
 
 ### Gameplay Strategy
+
 #### Early Game (Levels 1-4, Clash Lane/Roam)
+
 - **Clash Lane**: Start Skill 2 for fast clear. Poke with 1>2>1, build stacks on minions. Invade enemy buff if ahead. Rotate mid post-clear.
 - **Roam**: Ward river, gank mid/bot with 1>2 engages. Protect ADC.
 - Hit level 4 first for Ult ganks.
 
 #### Mid Game (Towers/Dragons)
+
 - Roam aggressively: Use bushes for Flash-Ult dives on squishies. Build full stacks before fights via minion hits.
 - Objective control: Ult to knock enemies off dragons/towers.
 
 #### Late Game (Team Fights)
+
 - **Initiate**: Flash > 1 > 2 > Ult > 1 to chain CC entire backline.
 - **Peel**: Bodyblock for carries, use passive immunity to eat CC.
 - Stay near team but lead engages. You're unkillable with stacks—dive ADCs/Mages.
 
 **Tips**:
+
 - Always hit Skill 2 to reset Skill 1—unlimited dashes if you land smashes.
 - Passive immunity lets you skill through stuns/silences.
 - Counters: Kite-heavy heroes (e.g., Hou Yi). Build anti-heal vs. lifesteal.
@@ -79,6 +88,7 @@ Prioritize cooldown reduction (CDR) early (aim for 30-40%), then tank stats. Adj
 Master Lian Po by practicing combos in training mode. He's beginner-friendly but scales with mechanical chaining.
 
 References:
+
 - [Honor of Kings Wiki - Lian Po](https://honor-of-kings.fandom.com/wiki/Lian_Po)
 - [BlueStacks Lian Po Guide](https://www.bluestacks.com/blog/game-guides/honor-of-kings/hok-lian-po-character-guide-en.html)
 - [HoKBuild Lian Po](https://hokbuild.com/hero/lian-po)

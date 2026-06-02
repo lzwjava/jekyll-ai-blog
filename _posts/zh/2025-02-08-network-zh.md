@@ -360,9 +360,10 @@ Host *
     /dev/ubi0_1 is mounted as /overlay, only erasing files
     root@OpenWrt:~# reboot
     ```
+
 3. 路由器将以默认设置重启。
 
 **命令说明：**
 
-* `firstboot`：启动重置过程，擦除所有配置和已安装软件包。
-* `reboot`：重启路由器，应用重置。
+- `firstboot`：启动重置过程，擦除所有配置和已安装软件包。
+- `reboot`：重启路由器，应用重置。

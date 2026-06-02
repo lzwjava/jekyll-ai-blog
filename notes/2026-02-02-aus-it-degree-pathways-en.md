@@ -19,6 +19,7 @@ In Australia, there are no widespread "top-up" programs in the traditional UK se
 This is especially common in fields like **Computer Science**, **Information Technology**, and **Software Engineering**, where vocational qualifications (e.g., from TAFE or private colleges) articulate into university degrees. Associate degrees in IT/Computer Science can often grant up to 1–2 years of credit (e.g., 96–192 credit points out of 288 for a typical bachelor's).
 
 ### Key Options for International Students
+
 International students can apply directly to universities for credit assessment during admission. Many universities have formal pathways, packaged offers, or guaranteed credit for relevant prior qualifications. Here are prominent examples relevant to Computer Science / Software Engineering / IT:
 
 - **RMIT University** (Melbourne): Strong pathways from their own Associate Degree in Information Technology to Bachelor of Computer Science or Bachelor of Information Technology. Often provides significant credit (up to 2 years). They have packaged pathways for international students and credit transfer options.
@@ -39,6 +40,7 @@ International students can apply directly to universities for credit assessment 
   - Edith Cowan University, Flinders University, and Swinburne also consider credit for prior IT-related qualifications in their Computer Science/Software Engineering programs.
 
 ### Process for International Students
+
 1. Apply to the bachelor's program via the university's international admissions portal.
 2. Submit your associate degree transcripts and syllabus for credit assessment (often done after offer or during application).
 3. Meet English requirements (e.g., IELTS 6.5) and student visa rules.

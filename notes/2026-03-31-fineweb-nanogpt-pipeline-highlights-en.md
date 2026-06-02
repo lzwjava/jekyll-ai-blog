@@ -75,6 +75,7 @@ huggingface-cli login
 **5. Tokenizer mismatch risk.**
 
 The existing `extract_fineweb.py` writes raw text. Your `prepare.py` needs to tokenize with GPT-2 BPE (`tiktoken`). Make sure:
+
 - The tokenizer vocab matches (GPT-2 = 50,257 tokens → stored as `uint16`, max 65,535 ✅)
 - `<|endoftext|>` is handled as a special token, not regular text
 - No double-encoding (don't encode, then encode again)
@@ -86,6 +87,7 @@ The repo has download scripts and training logs, but **no tokenization script**.
 **7. Train config uses `max_iters=600000` but `sample-10BT` has ~10B tokens.**
 
 At effective batch = 512 × 1024 = 524K tokens/iter:
+
 - 600K iters × 524K tokens = **314B tokens** — way more than the dataset
 - You'd need to set `max_iters` to ~19,000 (10B ÷ 524K) or loop the dataset
 - Your previous `train_log_fineweb3.txt` used `max_iters=12000` which is ~6.3B tokens — more realistic

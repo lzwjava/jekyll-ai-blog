@@ -24,4 +24,4 @@ type: note
 ---
 您可以在[此视频](https://www.youtube.com/watch?v=OMTdcnp2L98)中快速了解由 PageSpeed Insights 数据驱动的谷歌搜索控制台页面速度报告。
 
-http://googleusercontent.com/youtube_content/0
+<http://googleusercontent.com/youtube_content/0>

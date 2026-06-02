@@ -11,6 +11,7 @@ type: note
 The **Finacle Banking System API**, provided by **Infosys Finacle**, offers a wide range of capabilities for banks and financial institutions. It enables seamless integration between Finacle’s core banking system and third-party applications, digital channels, and other financial services. The API provides functionalities across various banking domains, including:
 
 ### **Key Features & Functionalities of Finacle API:**
+
 1. **Customer Management**
    - Create, update, and retrieve customer details
    - KYC verification
@@ -57,11 +58,13 @@ The **Finacle Banking System API**, provided by **Infosys Finacle**, offers a wi
    - Risk and compliance reports
 
 10. **Open Banking & Fintech Integrations**
-   - Third-party service integration
-   - API-driven open banking features
-   - Real-time data sharing
+
+- Third-party service integration
+- API-driven open banking features
+- Real-time data sharing
 
 ### **Finacle API Deployment & Access**
+
 - **RESTful APIs** for modern integrations
 - **SOAP-based services** for legacy systems
 - **OAuth & API gateway security** for secure transactions

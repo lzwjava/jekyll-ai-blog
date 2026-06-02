@@ -15,11 +15,13 @@ The question asks: **Which of the following sentences from *The Official Biograp
 ---
 
 ### **Correct Answer:**
+
 **B. 满招损，谦得益 (Arrogance leads to loss, modesty brings gain)**
 
 ---
 
 ### **Explanation:**
+
 - The phrase **"满招损，谦得益"** originates from *The Book of Documents* (《尚书》), specifically from the chapter **"大禹谟" (The Counsels of the Great Yu)**. It means that arrogance and complacency lead to harm, while humility and modesty bring benefits.
 
 - The other options are not direct quotations from *The Book of Documents*:
@@ -30,4 +32,5 @@ The question asks: **Which of the following sentences from *The Official Biograp
 ---
 
 ### **Summary:**
+
 The correct answer is **B**, as it is the only option directly quoted from *The Book of Documents* (《尚书》).

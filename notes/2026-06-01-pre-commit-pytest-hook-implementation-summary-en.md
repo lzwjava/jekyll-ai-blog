@@ -18,5 +18,6 @@ PARALLEL TESTS: Tested `pytest-xdist` with `-n 2`, `-n 4`, `-n auto`. No improve
 VERDICT: Keep sequential. Parallel would only help if individual tests were 100ms+ (API calls, model loading). Added `pytest-xdist` to dev deps anyway for future use with slower suites.
 
 FILES CHANGED:
+
 - `.pre-commit-config.yaml` — added `unit-tests` local hook
 - `pyproject.toml` — added `[dependency-groups]` with pytest, pytest-xdist, coverage

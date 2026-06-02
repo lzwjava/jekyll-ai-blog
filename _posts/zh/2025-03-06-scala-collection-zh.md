@@ -13,10 +13,12 @@ type: note
 ---
 
 ### **步骤 1：在 Java 项目中包含 Scala 库**
+
 由于 `scala.collection` 包是 Scala 标准库的一部分，您需要将 Scala 库添加到 Java 项目的类路径中。这可以通过在构建工具中添加 Scala 库依赖来实现：
 
 - **Maven**：
   在 `pom.xml` 中添加以下内容：
+
   ```xml
   <dependency>
       <groupId>org.scala-lang</groupId>
@@ -27,6 +29,7 @@ type: note
 
 - **Gradle**：
   在 `build.gradle` 中添加：
+
   ```gradle
   implementation 'org.scala-lang:scala-library:2.13.12'
   ```
@@ -36,6 +39,7 @@ type: note
 ---
 
 ### **步骤 2：导入 Scala 集合类**
+
 一旦 Scala 库在类路径中，您就可以在 Java 代码中从 `scala.collection` 包导入特定的类。例如，要使用 Scala 的不可变 `List`，您可以导入：
 
 ```java
@@ -43,6 +47,7 @@ import scala.collection.immutable.List;
 ```
 
 其他常用的集合包括：
+
 - `scala.collection.immutable.Set`
 - `scala.collection.immutable.Map`
 - `scala.collection.mutable.Buffer`
@@ -52,11 +57,13 @@ import scala.collection.immutable.List;
 ---
 
 ### **步骤 3：在 Java 中创建 Scala 集合**
+
 Scala 集合通常使用伴生对象创建，这些对象提供了工厂方法，如 `apply`。然而，由于 Java 不直接支持 Scala 的语法（例如 `List(1, 2, 3)`），您需要显式地使用这些方法。此外，当从 Java 调用时，Scala 集合的 `apply` 方法（如 `List` 的 `apply`）需要一个 `Seq` 作为参数，这是因为 Scala 的可变参数在编译时的处理方式。
 
 为了桥接 Java 和 Scala 集合，可以使用 Scala 提供的转换工具，例如 `scala.collection.JavaConverters`（适用于 Scala 2.12 及更早版本）或 `scala.jdk.CollectionConverters`（适用于 Scala 2.13 及更高版本）。以下是如何从 Java `List` 创建 Scala `List` 的示例：
 
 #### **示例：创建 Scala List**
+
 ```java
 import scala.collection.immutable.List;
 import scala.collection.Seq;
@@ -87,12 +94,15 @@ public class ScalaCollectionExample {
 ---
 
 ### **步骤 4：使用 Scala 集合**
+
 一旦在 Java 中有了 Scala 集合，您就可以使用其方法。但请注意 Scala 和 Java 之间的差异：
+
 - **不可变性**：许多 Scala 集合（例如 `scala.collection.immutable.List`）是不可变的，这意味着方法会返回新的集合，而不是修改原始集合。
 - **类型擦除**：Scala 和 Java 都使用类型擦除，因此在检索元素时可能需要强制转换结果。
 - **函数式方法**：Scala 集合支持函数式操作，如 `map`、`filter` 等，您可以使用 Java 8+ 的 lambda 表达式。
 
 #### **示例：访问元素**
+
 ```java
 // 获取第一个元素
 Integer head = (Integer) scalaList.head();
@@ -104,7 +114,9 @@ System.out.println("Tail: " + tail); // 输出：Tail: List(2, 3)
 ```
 
 #### **示例：对 Scala List 进行映射**
+
 使用 lambda 将每个元素加倍：
+
 ```java
 import scala.Function1;
 
@@ -118,6 +130,7 @@ System.out.println("Doubled: " + doubledList); // 输出：Doubled: List(2, 4, 6
 ---
 
 ### **关键注意事项**
+
 - **类型安全**：Scala 集合是参数化的，但由于类型擦除，方法返回类型在 Java 中可能显示为 `Object`。根据需要强制转换（例如 `(Integer) scalaList.head()`）。
 - **性能**：跨越 Java-Scala 边界会引入一些开销，但通常较小。
 - **范式转换**：Scala 集合强调不可变性和函数式编程，这可能与 Java 的命令式风格不同。例如，您不能向不可变 `List` “添加”元素——而是创建一个新的 `List`（例如使用 `:+` 追加，它会返回一个新的 `List`）。
@@ -126,7 +139,9 @@ System.out.println("Doubled: " + doubledList); // 输出：Doubled: List(2, 4, 6
 ---
 
 ### **总结**
+
 您可以通过以下方式在 Java 中使用 `scala.collection` 包：
+
 1. 将 Scala 库添加到项目的类路径中（例如通过 Maven 或 Gradle）。
 2. 导入所需的 Scala 集合类（例如 `scala.collection.immutable.List`）。
 3. 使用伴生对象（例如 `List$.MODULE$.apply`）创建 Scala 集合，并使用 `CollectionConverters` 将 Java 集合转换为 Scala `Seq`。

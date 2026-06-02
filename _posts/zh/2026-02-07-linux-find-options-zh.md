@@ -31,6 +31,7 @@ find / -name "config"                  # 整个文件系统
 ## Tests and Filters
 
 **基于名称的搜索：**
+
 - `-name pattern` - 区分大小写的名称匹配（支持通配符）
 - `-iname pattern` - 不区分大小写的名称匹配
 - `-path pattern` - 匹配完整路径
@@ -45,6 +46,7 @@ find . -regex ".*\.(jpg|png|gif)"
 ```
 
 **基于类型的搜索：**
+
 - `-type f` - 普通文件
 - `-type d` - 目录
 - `-type l` - Symbolic links
@@ -59,6 +61,7 @@ find . -type f -name "*.sh"
 ```
 
 **基于大小的搜索：**
+
 - `-size n[cwbkMG]` - 文件大小 (c=bytes, w=2-byte words, b=512-byte blocks, k=KB, M=MB, G=GB)
 - 使用 `+` 表示大于，`-` 表示小于，无前缀表示精确匹配
 
@@ -69,6 +72,7 @@ find /var/log -size +50M -size -100M  # 介于 50-100MB 之间
 ```
 
 **基于时间的搜索：**
+
 - `-mtime n` - n 天前修改过
 - `-atime n` - n 天前访问过
 - `-ctime n` - n 天前状态改变过
@@ -86,6 +90,7 @@ find . -newer reference.txt     # 比 reference.txt 更新
 ```
 
 **基于权限的搜索：**
+
 - `-perm mode` - 精确匹配权限
 - `-perm -mode` - 包含所有指定的权限位
 - `-perm /mode` - 包含任一指定的权限位
@@ -97,6 +102,7 @@ find /bin -perm /u+s,g+s        # 设置了 SUID 或 SGID
 ```
 
 **基于所有权的搜索：**
+
 - `-user name` - 属于该用户
 - `-group name` - 属于该组
 - `-uid n` - 属于该用户 ID
@@ -110,6 +116,7 @@ find . -nouser                  # 查找孤儿文件
 ```
 
 **深度控制：**
+
 - `-maxdepth n` - 最多向下搜索 n 层
 - `-mindepth n` - 至少从第 n 层开始搜索
 - `-depth` - 在处理目录本身之前先处理目录内容
@@ -120,6 +127,7 @@ find . -mindepth 3 -type f
 ```
 
 **其他实用测试：**
+
 - `-empty` - 空文件或目录
 - `-executable` - 可执行文件
 - `-readable` - 可读文件
@@ -136,6 +144,7 @@ find /usr/bin -executable -type f
 ## Logical Operators
 
 使用逻辑运算符组合测试：
+
 - `-a` 或 `-and` - 逻辑与（若省略则默认为此项）
 - `-o` 或 `-or` - 逻辑或
 - `-not` 或 `!` - 逻辑非
@@ -150,6 +159,7 @@ find . \\( -name "*.c" -o -name "*.h" \\) -a -mtime -7
 ## Actions
 
 **显示操作：**
+
 - `-print` - 打印完整路径（默认）
 - `-print0` - 以 null 分隔符打印（配合 xargs -0 使用更安全）
 - `-printf format` - 自定义格式输出
@@ -162,6 +172,7 @@ find . -printf "%p\t%s bytes\n"
 ```
 
 **执行操作：**
+
 - `-exec command {} \;` - 对每个文件执行命令
 - `-exec command {} +` - 对多个文件批量执行命令
 - `-execdir command {} \;` - 在文件所在目录执行
@@ -174,6 +185,7 @@ find . -name "*.jpg" -execdir convert {} {}.png \;
 ```
 
 **删除：**
+
 - `-delete` - 删除匹配的文件（请谨慎使用！）
 
 ```bash
@@ -182,6 +194,7 @@ find . -type f -empty -delete
 ```
 
 **其他操作：**
+
 - `-quit` - 在第一次匹配后立即退出
 - `-prune` - 不进入该目录
 

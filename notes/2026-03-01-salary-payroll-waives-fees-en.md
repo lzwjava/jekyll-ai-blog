@@ -27,6 +27,7 @@ Yes, a **代发工资** (payroll/salary payment) record can help significantly w
    However, the primary/official qualification remains monthly average assets of 500,000 RMB (including deposits, funds, insurance, etc.). Payroll helps mainly as a fee waiver rather than a direct replacement for asset-based qualification in most current cases.
 
 **Notes/Cautions**:
+
 - Policies can vary by branch, card type (e.g., standard vs. Mastercard variant), or over time—some 2025-2026 reports mention potential changes or stricter rules for certain cards.
 - For payroll to count officially as "代发工资", it typically needs to come through CMB's corporate payroll system (from an employer's CMB corporate account), not just manual transfers.
 - If your company doesn't use CMB for payroll, some users arrange alternative methods (e.g., via friends' companies or services), but this carries risks and may not always be recognized.

@@ -22,6 +22,7 @@ Yes, absolutely! Scaling up the font size in Ghostty is one of the simplest and 
 ### Method 1: Keyboard Shortcut (Instant, Runtime)
 
 On **macOS**:
+
 - **Increase font size:** `Cmd` + `+`
 - **Decrease font size:** `Cmd` + `-`
 - **Reset font size:** `Cmd` + `0`
@@ -59,7 +60,6 @@ keybind = all:super+equal=increase_font_size:1
 keybind = all:super+plus=increase_font_size:1
 keybind = all:super+minus=decrease_font_size:1
 ```
-
 
 ---
 

@@ -61,17 +61,20 @@ claude mcp add -- chrome npx -y chrome-devtools-mcp@latest
 Chrome 需要以启用远程调试的方式运行：
 
 **macOS：**
+
 ```bash
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
   --remote-debugging-port=9222
 ```
 
 **Windows：**
+
 ```cmd
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
 ```
 
 **Linux：**
+
 ```bash
 google-chrome --remote-debugging-port=9222
 ```

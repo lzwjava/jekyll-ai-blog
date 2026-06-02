@@ -17,6 +17,7 @@ Answer:
 Huawei switches support multiple spanning tree modes: STP (traditional), RSTP (rapid), and MSTP (multiple instances, default on many models). Classic STP is configured by setting the mode to STP, though RSTP or MSTP is more commonly used today.
 
 ### Global Configuration Commands
+
 - `stp mode stp`
   Sets the spanning tree mode to classic STP (options: stp, rstp, mstp).
 
@@ -36,6 +37,7 @@ Huawei switches support multiple spanning tree modes: STP (traditional), RSTP (r
   Configures the switch as secondary root bridge (sets priority to 4096).
 
 ### Interface Configuration Commands
+
 Enter interface view first: `interface <interface-type> <interface-number>`
 
 - `stp enable`
@@ -60,6 +62,7 @@ Enter interface view first: `interface <interface-type> <interface-number>`
   (Global or interface) Protects against unexpected BPDUs on edge ports.
 
 ### Display and Verification Commands
+
 - `display stp`
   Shows detailed STP status and topology.
 

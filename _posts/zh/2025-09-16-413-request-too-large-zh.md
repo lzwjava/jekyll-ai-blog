@@ -40,4 +40,4 @@ type: note
 通过确保请求保持在每分钟8,000令牌的配额内，即可避免413“请求过大”错误。[1]
 
 引用文献：
-[1] https://www.reddit.com/r/OpenAI/comments/1nbtl2p/wow_weve_been_burning_money_for_6_months/
+[1] <https://www.reddit.com/r/OpenAI/comments/1nbtl2p/wow_weve_been_burning_money_for_6_months/>

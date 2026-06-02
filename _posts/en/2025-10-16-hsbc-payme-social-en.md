@@ -17,12 +17,14 @@ HSBC HK has its main mobile banking app for core services like account managemen
 ### BOC HK and CMB HK Payment Apps
 
 You're partly right on CMB HK, but not on BOC HK:
+
 - **BOC HK** actually *does* have its own payment app called BoC Pay+ (launched as an upgrade to their earlier mobile wallet). It's a standalone app for easy QR payments, credit card management, rewards earning, and FPS (Faster Payment System) transfers to other banks. It's similar to PayMe in focusing on everyday transactions.
 - **CMB HK** (China Merchants Bank Hong Kong) doesn't have a separate payment app like PayMe or BoC Pay+. Their services lean on the main CMB mobile banking app (which is more mainland-focused but available in HK) for basic transfers and FPS integration. For e-payments, they rely on broader systems like AlipayHK, WeChat Pay, or direct FPS links rather than a branded wallet app.
 
 ### What's Special About PayMe?
 
 PayMe isn't *just* QR code scanning—it's a full e-wallet with over 3 million users in HK, emphasizing speed and social vibes. Key features include:
+
 - **P2P transfers**: Send money instantly to anyone via mobile, email, or FPS (no fees for HSBC users, works across all HK banks).
 - **Bill splitting**: Automatically divide group expenses (e.g., dinner tabs) and request payments from friends.
 - **Merchant payments**: Scan QR codes at thousands of stores/restaurants for contactless buys, with exclusive discounts and cashback.
@@ -32,6 +34,7 @@ PayMe isn't *just* QR code scanning—it's a full e-wallet with over 3 million u
 This makes it more engaging than plain QR tools, helping it compete with AlipayHK and WeChat Pay. It's all about convenience for daily life, not heavy banking.
 
 ### References
+
 - [PayMe Wikipedia](https://en.wikipedia.org/wiki/PayMe)
 - [HSBC PayMe Official Site](https://payme.hsbc.com.hk/)
 - [How to Use PayMe from HSBC](https://wise.com/hk/blog/payme-hsbc)

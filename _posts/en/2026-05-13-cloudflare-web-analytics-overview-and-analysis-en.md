@@ -85,6 +85,7 @@ This means a **bash code block** in one of your notes pages is causing layout sh
 | CLS | 100% Good | ✅ Perfect overall; fix bash code block shift |
 
 **Top action items:**
+
 1. **Dark mode toggle** (`#moonIcon`) is slow at 312–472ms — consider debouncing or optimizing the CSS class swap instead of repainting the whole body.
 2. **Bash code blocks** cause a CLS of 0.301 — add fixed dimensions or `min-height` to prevent layout shift when they load.
 3. **P99 LCP of 11s** — investigate if large images or render-blocking resources affect slow visitors, especially on the homepage (`lzwjava.github.io/`).

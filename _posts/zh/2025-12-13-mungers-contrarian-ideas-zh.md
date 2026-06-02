@@ -32,11 +32,11 @@ type: note
 
 参考文献：
 
-- https://www.benzinga.com/general/entertainment/24/04/38457934/charlie-munger-was-known-to-always-speak-his-mind-these-were-his-5-most-controversial-takes
-- https://www.investopedia.com/why-charlie-munger-hated-crypto-11758832
-- https://fortune.com/2021/12/03/charlie-munger-criticizes-crypto-china/
-- https://pictureperfectportfolios.com/charlie-mungers-philosophy-on-diversification-in-investing/
-- https://fs.blog/great-talks/academic-economics-charlie-munger/
-- https://www.cnn.com/2021/11/03/business/munger-china-economy/index.html
-- https://acquirersmultiple.com/2018/11/charlie-munger-moral-investing-we-could-see-it-was-like-putting-100-million-in-a-bushel-basket-and-setting-it-on-fire-as-we-walked-away/
-- https://www.goodreads.com/author/quotes/236437.Charles_T_Munger
+- <https://www.benzinga.com/general/entertainment/24/04/38457934/charlie-munger-was-known-to-always-speak-his-mind-these-were-his-5-most-controversial-takes>
+- <https://www.investopedia.com/why-charlie-munger-hated-crypto-11758832>
+- <https://fortune.com/2021/12/03/charlie-munger-criticizes-crypto-china/>
+- <https://pictureperfectportfolios.com/charlie-mungers-philosophy-on-diversification-in-investing/>
+- <https://fs.blog/great-talks/academic-economics-charlie-munger/>
+- <https://www.cnn.com/2021/11/03/business/munger-china-economy/index.html>
+- <https://acquirersmultiple.com/2018/11/charlie-munger-moral-investing-we-could-see-it-was-like-putting-100-million-in-a-bushel-basket-and-setting-it-on-fire-as-we-walked-away/>
+- <https://www.goodreads.com/author/quotes/236437.Charles_T_Munger>

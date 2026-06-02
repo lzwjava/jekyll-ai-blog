@@ -15,6 +15,7 @@ In HTTP, the **Content-Length** header is used to indicate the size of the respo
 For example, in the provided case where the header is `'content-length': '130700923'`, this means the response body is **130,700,923 bytes** long. To give a sense of scale, this is approximately **124.6 megabytes (MB)**, since 1 MB is roughly 1,048,576 bytes (2^20 bytes). This is a plausible size for a large file or data transfer in an HTTP response.
 
 To clarify further:
+
 - The value is an integer, not a fractional number, ruling out units like kilobytes or megabytes directly.
 - In HTTP, the body is transmitted as a sequence of bytes, and **Content-Length** corresponds to the exact number of bytes the client should expect.
 - Even in other versions like HTTP/2, where framing is used instead of a single **Content-Length** header, the payload size is still measured in bytes.

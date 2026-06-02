@@ -31,9 +31,11 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
    - D. boolean
 
 3. What is the output of the following code?
+
    ```java
    System.out.println(10 + 20 + "Hello" + 30 + 40);
    ```
+
    - A. 70Hello3040
    - B. 30Hello70
    - C. 10 20 Hello 30 40
@@ -108,6 +110,7 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
 ### Code Correction Questions (21-25)
 
 21. The following code has errors. Correct it to print "Hello World":
+
     ```java
     public class Test
     {
@@ -118,12 +121,14 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
     ```
 
 22. Fix the array declaration and initialization to create an integer array of size 5 with values 1 to 5:
+
     ```java
     int arr = new int[5];
     arr = {1,2,3,4,5};
     ```
 
 23. Correct the constructor to properly initialize instance variables:
+
     ```java
     class Person {
         String name;
@@ -132,6 +137,7 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
     ```
 
 24. Fix the loop to sum numbers from 1 to 10:
+
     ```java
     int sum = 0;
     for(int i=1; i<10; i++) {
@@ -141,6 +147,7 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
     ```
 
 25. Correct the inheritance syntax:
+
     ```java
     class Dog implement Animal {
         // ...
@@ -150,6 +157,7 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
 ### Code Analysis/Reading Questions (26-28)
 
 26. What is the output of this code?
+
     ```java
     int x = 5;
     if (x > 0) {
@@ -162,6 +170,7 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
     ```
 
 27. Analyze the following method and state what it returns for input 4:
+
     ```java
     public static int factorial(int n) {
         if (n == 0) return 1;
@@ -170,6 +179,7 @@ Below are 30 sample exam questions for the self-study examination course 08553 (
     ```
 
 28. What happens when this code runs? Describe any error.
+
     ```java
     int[] arr = {1,2,3};
     System.out.println(arr[3]);

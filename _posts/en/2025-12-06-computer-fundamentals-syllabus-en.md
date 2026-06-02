@@ -15,10 +15,12 @@ Question: Please translate the full syllabus of the Guangdong Higher Education S
 Answer:
 
 # Guangdong Higher Education Self-Examination
+
 **Course: Computer Fundamentals and Application Technology (Practical)**
 **Course Code: 13808**
 
 ### I. Assessment Objectives
+
 This course aims to develop students' foundational computer knowledge, practical operational skills, and application-oriented thinking. Students should master basic hardware/software operations and proficiently use office software and network tools to solve real-world learning and work problems. Specific objectives:
 
 1. Master the basic operation logic and core functions of the Windows operating system, independently complete file management, system settings, etc.
@@ -27,9 +29,11 @@ This course aims to develop students' foundational computer knowledge, practical
 4. Develop a practical mindset of “identifying problems → analyzing problems → solving problems”, handle common software issues (e.g., file saving errors, formatting issues), and ensure complete workflows and accurate results. This lays the foundation for further professional studies and workplace applications.
 
 ### II. Reference Textbook
+
 *Computer Fundamentals and Application Technology*, edited by Bao Peiming, China Machine Press, 2023 edition.
 
 ### III. Assessment Content
+
 The assessment focuses on practicality and foundational skills, covering five core practical modules:
 
 1. **Windows Operating System Basic Operations**
@@ -59,6 +63,7 @@ The assessment focuses on practicality and foundational skills, covering five co
    - Email: send/receive/reply/forward messages with attachments (webmail or Outlook)
 
 ### IV. Exam Structure (Total: 100 points)
+
 All questions are practical hands-on tasks performed on the computer:
 
 1. **Basic Operations (1 question, 20 points)**
@@ -74,12 +79,14 @@ All questions are practical hands-on tasks performed on the computer:
    Create a complete multi-slide presentation (5–8 slides) with animations, transitions, hyperlinks; save as .pptx.
 
 ### V. Exam Requirements
+
 - Format: 100% on-computer practical exam (no written paper)
 - Duration: 90 minutes
 - Coverage: All 5 modules must be tested
 - Difficulty distribution: Easy 20%, Moderately easy 35%, Moderately difficult 35%, Difficult 10%
 
 ### VI. Exam Environment Requirements
+
 - OS: Windows 10
 - Software: Microsoft Office 2019 Professional (Word, Excel, PowerPoint)
 - Browsers: Google Chrome & Microsoft Edge (clean, no extensions)
@@ -87,6 +94,7 @@ All questions are practical hands-on tasks performed on the computer:
 - Network: Local network + limited internet access (only allowed exam-related sites)
 
 ### VII. Important Notes
+
 - Save work frequently
 - Files must be named exactly as required (e.g., “CandidateName_Excel.xlsx”) and saved to the specified folder (usually D:\Exam Files)
 - Incorrect naming or path = loss of marks
@@ -106,4 +114,5 @@ All questions are practical hands-on tasks performed on the computer:
    Create a 6-slide “Smart Bracelet X1 Promotion” presentation with title slide, content slides, wipe animations, fade transitions, hyperlink from price slide back to appearance slide, and save correctly.
 
 References:
+
 - Original Chinese syllabus provided by the user (Guangdong Self-Examination Office, course 13808)

@@ -17,6 +17,7 @@ GPUs (Graphics Processing Units) and CUDA (Compute Unified Device Architecture) 
 In short: **GPUs excel at handling thousands of simple operations simultaneously (parallelism), making them ideal for tasks where CPUs (which are great at sequential, complex tasks) fall short.** CUDA unlocks this potential by providing APIs, libraries, and tools to write code that runs on GPUs.
 
 #### Key Capabilities and Use Cases
+
 Here's a breakdown of what they can do, grouped by common applications:
 
 1. **Machine Learning and AI**:
@@ -46,6 +47,7 @@ Here's a breakdown of what they can do, grouped by common applications:
    - Drug discovery: Simulate chemical reactions at scale.
 
 #### Why Use CUDA Specifically?
+
 - **It's NVIDIA-exclusive**: Works best with NVIDIA GPUs (e.g., RTX series, A100/H100 for data centers).
 - **Ecosystem**: Includes libraries like cuDNN (for deep learning), cuBLAS (linear algebra), and Thrust (parallel algorithms).
 - **Performance Gains**: Can deliver 10x–100x speedups over CPUs for parallel workloads, but requires code optimization.
@@ -55,6 +57,7 @@ If you're a developer, start with CUDA Toolkit (free download from NVIDIA). For 
 If this isn't what you meant (e.g., for a specific field like gaming or ML), clarify for more tailored info!
 
 #### References
+
 - [NVIDIA CUDA Documentation](https://docs.nvidia.com/cuda/)
 - [What is a GPU? (NVIDIA)](https://www.nvidia.com/en-us/geforce/what-is-a-gpu/)
 - [CUDA Use Cases (NVIDIA Blog)](https://developer.nvidia.com/blog/cuda-use-cases/)

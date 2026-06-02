@@ -25,16 +25,19 @@ This creates an executable named `program` from `program.cpp`.
 ## Essential Options
 
 **Output Control**
+
 - `-o <filename>` — Specify output file name (without this, defaults to `a.out`)
 - `-c` — Compile to object file only, don't link (produces `.o` files)
 - `-S` — Generate assembly code only (`.s` files)
 - `-E` — Preprocess only, output to stdout
 
 **Language Standards**
+
 - `-std=c++11`, `-std=c++14`, `-std=c++17`, `-std=c++20`, `-std=c++23` — Select C++ standard version
 - `-std=gnu++17` — Use GNU extensions with C++17
 
 **Warning Options**
+
 - `-Wall` — Enable most common warnings (doesn't actually mean "all")
 - `-Wextra` — Additional warnings beyond `-Wall`
 - `-Wpedantic` — Strict ISO C++ warnings
@@ -43,6 +46,7 @@ This creates an executable named `program` from `program.cpp`.
 - `-Wshadow` — Warn when variables shadow others
 
 **Optimization Levels**
+
 - `-O0` — No optimization (default, fastest compilation)
 - `-O1` or `-O` — Basic optimization
 - `-O2` — Recommended optimization for release builds
@@ -52,6 +56,7 @@ This creates an executable named `program` from `program.cpp`.
 - `-Og` — Optimize but maintain debuggability
 
 **Debugging**
+
 - `-g` — Include debugging information (for gdb, lldb)
 - `-g3` — Maximum debugging info including macro definitions
 - `-ggdb` — Debugging info specifically for GDB
@@ -59,16 +64,19 @@ This creates an executable named `program` from `program.cpp`.
 ## Include Paths and Libraries
 
 **Headers**
+
 - `-I<directory>` — Add directory to include search path
 - `-isystem <directory>` — Add system header directory (suppresses warnings from these headers)
 
 **Libraries**
+
 - `-L<directory>` — Add directory to library search path
 - `-l<library>` — Link against library (e.g., `-lm` for math library)
 - `-static` — Link libraries statically instead of dynamically
 - `-shared` — Create a shared library
 
 **Example:**
+
 ```bash
 g++ app.cpp -I./include -L./lib -lmylib -o app
 ```
@@ -99,16 +107,19 @@ g++ app.cpp -I./include -L./lib -lmylib -o app
 ## Practical Compilation Patterns
 
 **Debug Build:**
+
 ```bash
 g++ -std=c++17 -Wall -Wextra -g -Og program.cpp -o program_debug
 ```
 
 **Release Build:**
+
 ```bash
 g++ -std=c++17 -Wall -Wextra -O2 -DNDEBUG program.cpp -o program
 ```
 
 **Multiple Files:**
+
 ```bash
 # Compile separately
 g++ -c -std=c++17 -Wall file1.cpp -o file1.o
@@ -119,6 +130,7 @@ g++ file1.o file2.o -o program
 ```
 
 **With Sanitizers (during development):**
+
 ```bash
 g++ -std=c++17 -g -fsanitize=address,undefined program.cpp -o program
 ```

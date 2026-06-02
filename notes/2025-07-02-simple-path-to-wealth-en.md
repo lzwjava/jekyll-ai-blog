@@ -20,8 +20,8 @@ Collins explains that wealth can be viewed from two perspectives:
 
 * **Psychological:** For him, wealth represents **security and freedom**—security from life's challenges and the freedom to forge one's own path.
 * **Financial:** He points to the **4% rule**, derived from the Trinity Study, as a key guideline for financial independence. This rule suggests that if **4% of your total assets can cover your annual expenses**, you are financially independent.
-    * For example, if you have \$1 million, 4% is \$40,000. If you can live on \$40,000 a year, you are financially independent.
-    * Conversely, if you need \$40,000 a year to live, you would multiply that by 25 to determine you need \$1 million to be financially independent.
+  * For example, if you have \$1 million, 4% is \$40,000. If you can live on \$40,000 a year, you are financially independent.
+  * Conversely, if you need \$40,000 a year to live, you would multiply that by 25 to determine you need \$1 million to be financially independent.
 
 ---
 
@@ -46,10 +46,10 @@ Rachel Smith asks whether new readers should start with Collins' blog (jlcollins
 
 Collins recommends starting with the **blog** if you're new to his work or the concept of simple investing. He suggests:
 
-1.  Going to the **"Stock Series"** button at the top of the blog.
-2.  Reading the introduction, which includes a link to what he considers the **most accurate review** of his stock series. This helps readers quickly determine if his approach resonates with them.
-3.  Reading a **couple of posts** from the series.
-4.  If interested, consider buying the **book**.
+1. Going to the **"Stock Series"** button at the top of the blog.
+2. Reading the introduction, which includes a link to what he considers the **most accurate review** of his stock series. This helps readers quickly determine if his approach resonates with them.
+3. Reading a **couple of posts** from the series.
+4. If interested, consider buying the **book**.
 
 He clarifies that **all the information in the book is also available on the blog.** However, the **book is more concise, better organized, and more polished** in its writing, as the blog posts were developed organically over time.
 
@@ -98,8 +98,8 @@ Collins attributes the controversy to the perception of **homeownership as "the 
 
 He clarifies that he is **not anti-homeownership** and has owned homes himself. His point is that it's often **not a good financial decision**, but rather a **"great lifestyle decision."** He advises those considering buying a home to:
 
-1.  **Understand it's a lifestyle decision, not primarily an investment.**
-2.  **"Run the numbers"** to understand the exact financial implications (he has a blog post on "buy versus rent" to guide this). This helps individuals understand the cost of their lifestyle choice, even if it's more expensive than renting.
+1. **Understand it's a lifestyle decision, not primarily an investment.**
+2. **"Run the numbers"** to understand the exact financial implications (he has a blog post on "buy versus rent" to guide this). This helps individuals understand the cost of their lifestyle choice, even if it's more expensive than renting.
 
 Rachel shares her own anecdote of preferring to rent in Chicago, citing Collins' advice and the convenience of not being responsible for home repairs.
 
@@ -155,8 +155,8 @@ Rachel asks about the two to three biggest mistakes people make when investing o
 
 Collins identifies two primary mistakes:
 
-1.  **Trying to pick individual stocks or actively managed mutual funds:** He calls it "hubris" to believe one can emulate someone like Warren Buffett, whose success is "extraordinarily rare." He shares his own experience of this "stumbling block," where occasional correct picks reinforced a false belief, but overall, the few wrong picks significantly dragged down his performance.
-2.  **Trying to time the market:** Collins asserts that "nobody knows" where the market is going, despite media predictions. He cites Fidelity Investments research showing that **dead people outperformed all other investors** because they didn't tinker with their investments, and the second-best group were those who forgot they even owned a fund. This demonstrates that **"time in the market is more powerful than trying to time the market."**
+1. **Trying to pick individual stocks or actively managed mutual funds:** He calls it "hubris" to believe one can emulate someone like Warren Buffett, whose success is "extraordinarily rare." He shares his own experience of this "stumbling block," where occasional correct picks reinforced a false belief, but overall, the few wrong picks significantly dragged down his performance.
+2. **Trying to time the market:** Collins asserts that "nobody knows" where the market is going, despite media predictions. He cites Fidelity Investments research showing that **dead people outperformed all other investors** because they didn't tinker with their investments, and the second-best group were those who forgot they even owned a fund. This demonstrates that **"time in the market is more powerful than trying to time the market."**
 
 ---
 
@@ -176,10 +176,10 @@ Rachel asks for key takeaways for those with a New Year's resolution to get thei
 
 Collins' advice is:
 
-1.  **Educate yourself:** Start with his blog or book, or other reputable sources, to build a foundation of knowledge. He notes that starting from "ground zero" is an advantage as there's "nothing you have to unlearn."
-2.  **Accept market volatility:** Understand that the market *will* go down at some point. This is a certainty, "not if, but when."
-3.  **Do not panic sell:** When the market drops, "selling is not an option." He stresses that while it will be "ugly, painful, and scary," panicking and selling at the bottom is the only way to truly lose.
-4.  **Leverage volatility to your advantage:**
+1. **Educate yourself:** Start with his blog or book, or other reputable sources, to build a foundation of knowledge. He notes that starting from "ground zero" is an advantage as there's "nothing you have to unlearn."
+2. **Accept market volatility:** Understand that the market *will* go down at some point. This is a certainty, "not if, but when."
+3. **Do not panic sell:** When the market drops, "selling is not an option." He stresses that while it will be "ugly, painful, and scary," panicking and selling at the bottom is the only way to truly lose.
+4. **Leverage volatility to your advantage:**
     * **Wealth Accumulation Stage (earning income):** When the market drops, celebrate, because your regular investments allow you to buy more shares "on sale."
     * **Wealth Preservation Stage (retirement/no income stream):** Add **bonds as "ballast."** When stocks plummet, bonds will typically hold their value or increase as a percentage of your portfolio. You can then sell bonds to buy more stocks at lower prices (rebalancing). When stocks recover, you sell some to replenish your bonds. This strategy means "you no longer have to care whether the market is going up or down."
 
@@ -203,10 +203,10 @@ Another audience member asks about diversifying beyond the S&P 500 (e.g., global
 Collins replies:
 
 * **Diversification:**
-    * **Bonds:** He reiterates that bonds are valuable as "ballast" in the wealth preservation stage, but otherwise, he doesn't see a role for them.
-    * **Beyond 500 Companies:** He believes owning the S&P 500 (500 largest American companies) or VTSAX (around 3,600 companies) provides sufficient diversification. He contrasts this with earlier advice to pick only 20-30 individual stocks for diversification.
-    * **International Exposure:** He is "a little at odds with the rest of the world" on this. While many advise international funds, he doesn't currently buy them. He argues that **U.S. companies in the S&P 500 (like Google) are inherently international**, so investing in the S&P 500 provides global exposure.
-    * **Index Self-Cleansing:** He highlights the "beautiful" self-cleansing nature of an index: "losers fall off, and the winners go on to prosper." This means investors don't have to guess which companies will succeed, as they own them all.
+  * **Bonds:** He reiterates that bonds are valuable as "ballast" in the wealth preservation stage, but otherwise, he doesn't see a role for them.
+  * **Beyond 500 Companies:** He believes owning the S&P 500 (500 largest American companies) or VTSAX (around 3,600 companies) provides sufficient diversification. He contrasts this with earlier advice to pick only 20-30 individual stocks for diversification.
+  * **International Exposure:** He is "a little at odds with the rest of the world" on this. While many advise international funds, he doesn't currently buy them. He argues that **U.S. companies in the S&P 500 (like Google) are inherently international**, so investing in the S&P 500 provides global exposure.
+  * **Index Self-Cleansing:** He highlights the "beautiful" self-cleansing nature of an index: "losers fall off, and the winners go on to prosper." This means investors don't have to guess which companies will succeed, as they own them all.
 
 * **Financial Advisors (revisited):** While he maintains they are not needed for simple investing, he acknowledges they can be useful in "other aspects." However, he warns that many advisors are either incompetent or have interests not aligned with the client. He famously states: "**by the time you know enough to choose an investment advisor wisely, had you invested that time learning it yourself, you would know enough to do it on your own.**"
 
@@ -227,9 +227,9 @@ An audience member asks for Collins' thoughts on target-date retirement funds an
 Collins addresses these points:
 
 * **Target-Date Retirement Funds:** These are "fund of funds" that automatically adjust their asset allocation (typically by adding more bonds) as they approach a chosen retirement date.
-    * He says it's **"not a bad approach"** for those who want a completely hands-off investment strategy.
-    * He notes that if you want to be more aggressive, you can choose a fund with a later retirement date than your actual plan, and vice-versa for being more conservative.
-    * However, he suggests that if you are comfortable after reading his blog or book, it's **"less expensive" to manage your own allocation**, and it's not difficult. If you prefer not to manage it, target-date funds are a good "done" option.
+  * He says it's **"not a bad approach"** for those who want a completely hands-off investment strategy.
+  * He notes that if you want to be more aggressive, you can choose a fund with a later retirement date than your actual plan, and vice-versa for being more conservative.
+  * However, he suggests that if you are comfortable after reading his blog or book, it's **"less expensive" to manage your own allocation**, and it's not difficult. If you prefer not to manage it, target-date funds are a good "done" option.
 
 * **Financial Advisors (Revisited):** He reiterates that he doesn't believe they are necessary for simple investing. However, he acknowledges that there are "other aspects where they can be useful." He cautions again that while good advisors exist, many are not competent or do not have aligned interests. He concludes by reiterating his earlier point: by the time you've learned enough to pick a good advisor, you'd know enough to manage your investments yourself.
 

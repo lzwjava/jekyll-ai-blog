@@ -71,6 +71,7 @@ Answer:
    或者遵循 Ghostty 官方的 terminfo 指南：将编译好的 terminfo 条目复制到远程机器。到 2026 年，一些较新的发行版可能会在 `ncurses-term` 或类似软件包中包含 `xterm-ghostty`。
 
 ### 建议
+
 使用选项 1（在 Ghostty 配置中设置 `term = xterm-256color`）—— 对大多数人来说这是最简单且最可靠的。你只是在 SSH 时失去了 Ghostty 特有的高级功能（而这些功能对于 `htop`/`top` 来说通常并不需要）。
 
 应用修复后，`htop` 和 `top` 应该都能正常启动。

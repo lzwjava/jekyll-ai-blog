@@ -17,14 +17,17 @@ Answer:
 **The McKinsey Way** refers to the distinctive problem-solving methodology, work practices, and culture of **McKinsey & Company**, one of the world's leading management consulting firms. It is most famously described in the 1999 book *The McKinsey Way* by former McKinsey consultant Ethan M. Rasiel, but the core principles remain central to how the firm operates today.
 
 ### Core Characteristics of McKinsey's Approach
+
 McKinsey's way of working is built around **structured, fact-based, and hypothesis-driven problem solving**. The firm emphasizes rigorous analysis over intuition, breaking complex business challenges into manageable parts.
 
 Key principles include:
+
 - **Fact-based** — Decisions rely on data and evidence, not assumptions or opinions.
 - **Structured** — Problems are decomposed using frameworks like issue trees (breaking issues into MECE — Mutually Exclusive, Collectively Exhaustive — components).
 - **Hypothesis-driven** — Teams start with an initial hypothesis about the answer and then test it with analysis (rather than exploring blindly).
 
 ### The Classic McKinsey Problem-Solving Process
+
 McKinsey uses a structured **7-step problem-solving process** (popularized in their publications and podcasts):
 
 1. **Define the problem** — Clearly state what needs to be solved (problem definition is critical).
@@ -38,6 +41,7 @@ McKinsey uses a structured **7-step problem-solving process** (popularized in th
 This process is iterative and emphasizes **storytelling** — the final output is not just analysis, but a persuasive narrative that drives client action.
 
 ### How McKinsey Teams Work Day-to-Day
+
 - **Team structure** — Small teams (typically 3–6 people) with clear hierarchy: Engagement Director/Partner → Engagement Manager → Associates/Analysts.
 - **MECE thinking** — Ensures no overlap or gaps in analysis.
 - **80/20 rule** — Focus on the 20% of factors that drive 80% of results.

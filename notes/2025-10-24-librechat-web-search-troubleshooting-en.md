@@ -45,11 +45,13 @@ Each provider expects specific environment variable names. For example:
   ```
   SERPAPI_API_KEY=your_key_here
   ```
+
 * For **Firecrawl**:
 
   ```
   FIRECRAWL_API_KEY=your_key_here
   ```
+
 * For **Jina**:
 
   ```

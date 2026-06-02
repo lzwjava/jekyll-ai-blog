@@ -17,6 +17,7 @@ Answer:
 In technical interviews, evaluators assess multiple aspects of a candidate's suitability, including technical knowledge, problem-solving skills, communication, and cultural fit. English fluency and the quality of technical answers are two key areas, but they serve different purposes and are evaluated differently.
 
 ### Evaluating English Fluency
+
 - **Purpose**: To determine if the candidate can communicate effectively in a team setting, especially in English-speaking or international environments (e.g., discussing designs, writing docs, participating in meetings).
 - **How to judge**:
   - Listen for clarity: Can the candidate express ideas without frequent long pauses or excessive filler words?
@@ -28,6 +29,7 @@ In technical interviews, evaluators assess multiple aspects of a candidate's sui
 - **Tip**: Fluency is relatively easy to gauge because it shows consistently across the interview. Poor fluency is hard to fake long-term.
 
 ### Evaluating Quality of Technical Answers ("Fluency" in Technical Responses)
+
 - **Purpose**: To verify depth of understanding, problem-solving ability, and real-world application of knowledge.
 - **How to judge**:
   - Depth over breadth: Good candidates go beyond surface-level answers—they explain trade-offs, edge cases, alternatives, and why they chose a particular approach.
@@ -43,13 +45,15 @@ In technical interviews, evaluators assess multiple aspects of a candidate's sui
   - Experienced interviewers can detect "scripted" responses (robotic delivery, inability to diverge from known patterns).
 
 However, some candidates can fake superficial competence by:
-  - Heavy preparation on common questions (LeetCode hard problems, system design templates).
-  - Using impressive-sounding buzzwords without substance.
-  - Practicing storytelling for behavioral questions.
+
+- Heavy preparation on common questions (LeetCode hard problems, system design templates).
+- Using impressive-sounding buzzwords without substance.
+- Practicing storytelling for behavioral questions.
 
 These usually fail under sustained probing by skilled interviewers.
 
 ### Best Practices for Fair Evaluation
+
 - Use multiple interviewers to reduce individual bias.
 - Separate communication assessment from pure technical depth (e.g., allow whiteboard/pseudocode if verbal explanation is weak due to language).
 - For roles where English is critical (e.g., client-facing), weigh fluency higher; for pure coding roles, prioritize technical strength.

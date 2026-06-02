@@ -16,6 +16,7 @@ Answer:
 ## Best OCBC Credit Card for Low Spending (~S$200/year)
 
 **Important context first:** S$200/year = roughly **S$16–17/month**. This is very low spending, so you want a card with:
+
 - No or very low annual fee
 - No minimum monthly spend requirement (or easy to waive)
 - Simple, no-hassle rewards

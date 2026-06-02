@@ -30,15 +30,19 @@ Pliers are so useful because of the "law of the lever," whereby the greater the 
 As a multi-purpose hand tool, pliers are used primarily for **gripping**, **bending**, and **cutting**. Two crossed metal limbs provide tough leverage that multiplies the strength of the user's hand.
 
 ### 1. Gripping
+
 The primary use of pliers is for gripping. You can use them to loosen or tighten bolts, grip objects for stability, or pull out pins, nails, or other fasteners.
 
 ### 2. Bending & Straightening
+
 The cross brace of pliers gives them superb torque power to bend and twist objects such as sheet metal, nails, and wires.
 
 ### 3. Cutting
+
 Some pliers can also cut wires and nails. Diagonal cutting pliers and side-cutting pliers, often called wire cutters, are primarily used to cut and sever wires.
 
 ### 4. Splicing & Stripping Wires
+
 Electricians use a variety of special pliers to splice wires and strip insulation. Using the wire cutter feature, you can cut through the insulation of one wire and strip off a small section to reveal the bare wire inside.
 
 ---

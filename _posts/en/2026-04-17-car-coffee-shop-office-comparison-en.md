@@ -25,23 +25,26 @@ This is a great comparison. You’ve already identified many key trade-offs. Let
 | **Electricity** | EV can export power (V2L) — yes, very easy | Free outlets available |
 | **Climate control** | Uses car battery (fine for EV) | Free AC/heat |
 
-## Key additional points you didn’t mention:
+## Key additional points you didn’t mention
 
-### For Car:
+### For Car
+
 - **Bathroom frequency** — Even for males, grassland isn’t always available (city centers, highways, private property). Also, no sink to wash hands easily.
 - **Posture & health** — Car seats aren’t designed for 8-hour desk work. Back pain risk is real.
 - **Ventilation** — In summer/winter, running AC all day drains EV battery (less than you think, but still). Crack windows = noise/dust.
 - **Safety** — Parking in quiet areas alone for hours can feel unsafe, especially at night.
 
-### For Coffee Shop:
+### For Coffee Shop
+
 - **Noise-cancelling headphones** solve the loud music problem for Zoom meetings (but not for your own speaking — others will hear you).
 - **Time limits** — Some shops in China ask you to leave after 2–3 hours during busy times, even if you buy drinks.
 - **Power outlets** — Not all seats have them. You may need to compete for “good seats.”
 
-### One option you didn’t list:
+### One option you didn’t list
+
 **Public library** — Free, quiet, outlets, clean bathrooms, desks, AC. No need to buy drinks. Only downside: can’t talk on Zoom freely (need phone booth or outside).
 
-## Final verdict based on your needs:
+## Final verdict based on your needs
 
 - **If you have many Zoom meetings** → Car wins (quiet, private).
 - **If you mostly do solo coding / writing** → Coffee shop or library (better desk & vibe).

@@ -29,7 +29,9 @@ Here's a breakdown of each:
   *Example*: A change in the modulating signal advances or delays the carrier's waveform cycle.
 
 #### Relation to A/D and D/A Conversions
+
 These techniques are more directly tied to analog transmission, but in modern systems:
+
 - During **D/A conversion**, a digital signal might be reconstructed into an analog modulating waveform before applying AM/FM/PM to prepare it for RF (radio frequency) transmission.
 - In **A/D conversion**, a received analog modulated signal (e.g., FM radio) is demodulated first, then sampled and quantized into digital form.
 

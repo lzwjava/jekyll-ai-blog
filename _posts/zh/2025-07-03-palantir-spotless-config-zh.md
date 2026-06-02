@@ -85,6 +85,7 @@ type: note
 - **`<order>`**：指定导入组的顺序，以逗号分隔。使用 `\\#` 表示静态导入，空字符串 (`""`) 表示未指定的导入。示例：`<order>java,javax,org,com,\\#</order>` 会先排序以 `java` 开头的导入，然后是 `javax` 等，最后是静态导入。[](https://stackoverflow.com/questions/71339562/spotless-java-google-format-vs-intellij-import-file)
 - **`<file>`**：或者，指定一个包含导入顺序的文件。示例：`<file>${project.basedir}/eclipse.importorder</file>`。文件格式与 Eclipse 的导入顺序配置匹配（例如 `java|javax|org|com|\\#`）。[](https://stackoverflow.com/questions/71339562/spotless-java-google-format-vs-intellij-import-file)
   - 示例文件内容：
+
     ```
     #sort
     java
@@ -103,11 +104,13 @@ type: note
 - **`<endWithNewline>`**：确保文件以换行符结尾。示例：`<endWithNewline/>`。[](https://dev.to/ankityadav33/standardize-code-formatting-with-spotless-2bdh)
 - **`<toggleOffOn>`**：启用 `// spotless:off` 和 `// spotless:on` 注释，以排除代码段的格式化。示例：`<toggleOffOn/>`。[](https://dev.to/ankityadav33/standardize-code-formatting-with-spotless-2bdh)
 - **`<licenseHeader>`**：向文件添加许可证头。示例：
+
   ```xml
   <licenseHeader>
       <content>/* (C) $YEAR */</content>
   </licenseHeader>
   ```
+
   您也可以使用文件：`<file>${project.basedir}/license.txt</file>`。[](https://www.baeldung.com/java-maven-spotless-plugin)
 - **`<formatAnnotations>`**：确保类型注解与它们描述的字段位于同一行。示例：`<formatAnnotations/>`。[](https://www.baeldung.com/java-maven-spotless-plugin)
 - **`<ratchetFrom>`**：将格式化限制为相对于 Git 分支（例如 `origin/main`）更改的文件。示例：`<ratchetFrom>origin/main</ratchetFrom>`。[](https://github.com/diffplug/spotless/blob/main/plugin-maven/README.md)
@@ -115,6 +118,7 @@ type: note
 #### 5. **POM 特定格式化 (`<pom>`)**
 
 要格式化 `pom.xml` 文件本身，请使用带有 `sortPom` 的 `<pom>` 部分：
+
 ```xml
 <pom>
     <sortPom>
@@ -126,6 +130,7 @@ type: note
     </sortPom>
 </pom>
 ```
+
 - **`sortPom` 的选项**：
   - `<nrOfIndentSpace>`：缩进的空格数（例如 `2` 或 `4`）。
   - `<predefinedSortOrder>`：元素顺序的选项，如 `recommended_2008_06` 或 `custom_1`。[](https://github.com/diffplug/spotless/blob/main/plugin-gradle/README.md)
@@ -144,12 +149,15 @@ type: note
 - **与 IDE 保持一致**：要使 IntelliJ 或 Eclipse 与 Spotless 对齐，请安装 `palantir-java-format` IntelliJ 插件或使用 Eclipse 格式化程序 XML 文件。对于 IntelliJ，导入兼容的样式文件（例如，Google 风格的 `intellij-java-google-style.xml`）或手动配置以匹配 Palantir 设置。[](https://plugins.jetbrains.com/plugin/13180-palantir-java-format)
 - **版本兼容性**：确保 `palantir-java-format` 版本支持您的 Java 版本。对于 Java 17+，请使用较新的版本（例如 2.53.0）。某些特性（如模式匹配）可能支持有限。[](https://www.reddit.com/r/java/comments/1g8zu8c/codestyle_and_formatters/)
 - **自定义格式化**：对于高级自定义，请使用带有 `<eclipse>` 的 Eclipse 格式化程序 XML 文件，而不是 `<palantirJavaFormat>`：
+
   ```xml
   <eclipse>
       <file>${project.basedir}/custom-style.xml</file>
   </eclipse>
   ```
+
   示例 `custom-style.xml`：
+
   ```xml
   <?xml version="1.0" encoding="utf-8"?>
   <profiles version="21">
@@ -160,6 +168,7 @@ type: note
       </profile>
   </profiles>
   ```
+
   [](https://www.baeldung.com/java-maven-spotless-plugin)
 - **限制**：Palantir Java Format 的可配置性不如 Eclipse 的格式化程序，但旨在实现一致性和支持现代 Java 特性（例如 Lambda）。它可能无法处理所有边缘情况（例如深度嵌套的 Lambda）。[](https://www.reddit.com/r/java/comments/18z151f/strict_code_formatter/)
 

@@ -13,9 +13,11 @@ It seems you're encountering issues with the Cline extension in Visual Studio Co
 ---
 
 ### 1. Cline Couldn't Detect Newly Created File
+
 Cline might not be detecting a newly created file due to delays in workspace indexing, permission issues, or a bug in the extension’s file-watching mechanism. Here’s how to fix it:
 
-#### Steps to Troubleshoot:
+#### Steps to Troubleshoot
+
 - **Refresh the Workspace**: After creating a new file, manually refresh VSCode’s workspace to ensure Cline picks it up.
   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette.
   - Type `Reload Window` and select it. This reloads VSCode and forces Cline to re-index the workspace.
@@ -40,15 +42,18 @@ Cline might not be detecting a newly created file due to delays in workspace ind
   - Open the Output panel in VSCode (`Ctrl+Shift+U` or `Cmd+Shift+U`).
   - Select “Cline” from the dropdown to view its logs. Look for messages about file detection failures and address any specific issues mentioned (e.g., path errors).
 
-#### Possible Cause:
+#### Possible Cause
+
 Cline relies on VSCode’s file system APIs to detect changes. If the file isn’t indexed or the watcher is delayed, Cline won’t see it until the workspace updates.
 
 ---
 
 ### 2. Cline Couldn’t Use @mention
+
 The `@mention` syntax in Cline is typically used to invoke specific tools or features (e.g., `@url` to fetch a webpage or `@problems` to address workspace errors). If it’s not working, it could be due to misconfiguration, an unsupported model, or a syntax misunderstanding.
 
-#### Steps to Troubleshoot:
+#### Steps to Troubleshoot
+
 - **Verify Syntax**: Ensure you’re using the correct `@mention` syntax.
   - Examples from Cline’s documentation:
     - `@url`: Fetches a URL and converts it to markdown.
@@ -76,12 +81,14 @@ The `@mention` syntax in Cline is typically used to invoke specific tools or fea
   - Visit Cline’s GitHub (github.com/cline/cline) and check open issues.
   - If no similar issue exists, file a new one with details: your Cline version, VSCode version, model used, and the exact `@mention` attempted.
 
-#### Possible Cause:
+#### Possible Cause
+
 The `@mention` feature might not be fully implemented for your setup, or there’s a mismatch between the model’s capabilities and the expected behavior.
 
 ---
 
 ### General Tips
+
 - **Restart VSCode**: A full restart can resolve temporary glitches with extensions.
 - **Reinstall Cline**: If issues persist, uninstall and reinstall the extension from the VSCode Marketplace.
 - **Join Cline’s Community**: For real-time help, join their Discord (linked on their GitHub) and ask in the #support or #contributors channel.
@@ -89,6 +96,7 @@ The `@mention` feature might not be fully implemented for your setup, or there�
 ---
 
 ### Example Workflow to Test Fixes
+
 1. Create a new file in VSCode (e.g., `test.txt`).
 2. Reload the window (`Ctrl+Shift+P > Reload Window`).
 3. Open Cline, start a new task, and type: “Read the contents of test.txt and use @problems to list any issues.”

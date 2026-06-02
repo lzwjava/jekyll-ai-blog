@@ -15,6 +15,7 @@ type: note
 **Software complexity 并非固有的——它是从环境的混沌中涌现出来的。**
 
 真正的挑战不在于编写在孤立环境下运行的代码。而在于确保代码在以下无限排列组合中表现一致：
+
 - Operating systems (Windows/Linux/macOS，及其不同版本)
 - Runtime environments (Python 3.8 vs 3.12, Node 16 vs 20)
 - Dependencies (Library versions, transitive dependencies)
@@ -25,6 +26,7 @@ type: note
 **细微的差异绝非仅仅是“噪音”——它们是信号。**
 
 当不同环境之间的输出产生分歧时，哪怕只是一个字符或一毫秒的差异，都有其根源：
+
 - Floating-point 舍入差异
 - 具有 non-deterministic 顺序的 hash function
 - Timezone 或 locale 的假设
@@ -35,12 +37,14 @@ type: note
 **Debug logging 是你的时光机。**
 
 如果没有详尽的 logs，你就像是在进行没有碳定年的考古工作。优秀的 debug 输出能为你提供：
+
 - **Causality**：失败前发生了什么？
 - **Context**：Inputs、environment variables、system state 是什么？
 - **Timing**：Bottlenecks 在哪里？Race conditions 潜伏在哪里？
 - **Divergence points**：两次运行究竟是从哪里开始产生差异的？
 
 窍门是使用结构化 logging (JSON，而不仅仅是 print 语句)，并包含：
+
 - 毫秒级精度的 Timestamps
 - Thread/process IDs
 - 用于 distributed tracing 的 Request IDs
@@ -50,6 +54,7 @@ type: note
 **Comparison 是代码的科学方法论。**
 
 将每个版本和环境都视为一次实验：
+
 - 对输出进行 Byte-by-byte 的 diff
 - 使用 golden files 进行 Regression test
 - 对复杂的输出使用 snapshot testing

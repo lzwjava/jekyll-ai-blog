@@ -75,6 +75,7 @@ These two papers by Nyquist, along with one by R.V.L. Hartley, are cited in the 
 His ideas had a critical impact on other theorists; his early discovery of bandwidth requirements for transmitting information laid the foundations for mathematician and scientist Claude Shannon, which led to the development of information theory.
 
 Terms and concepts named after Nyquist include:
+
 - Nyquist Frequency
 - Nyquist Rate
 - Nyquist Stability Criterion (Nyquist Plot)

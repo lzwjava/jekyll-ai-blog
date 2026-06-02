@@ -12,6 +12,7 @@ type: note
 ## 有效使用 OpenClaw (Claude Code)
 
 ### OpenClaw 是什么？
+
 OpenClaw 是 **Claude Code** 的封装/接口——Anthropic 的代理式编码 CLI。它允许 Claude 在你的机器上自主编写、编辑和运行代码。
 
 ---
@@ -21,11 +22,13 @@ OpenClaw 是 **Claude Code** 的封装/接口——Anthropic 的代理式编码 
 是的，**一个好的 PRD (Product Requirements Document) 是 #1 要务**，它将优秀的 Claude Code 结果与平庸的结果区分开来。
 
 **为什么 PRD 重要：**
+
 - Claude Code 在拥有**清晰、结构化的规范**时，效果最佳
 - 没有 PRD，它会自行假设并偏离你的愿景
 - PRD 作为“真相来源”，它可以随时参考
 
 **你的 PRD 中应包含什么：**
+
 ```
 ## Project: Todo App
 ### Core Features

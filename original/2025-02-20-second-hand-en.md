@@ -17,7 +17,7 @@ type: post
 
 - When I did so, after getting some products like a wireless speaker or a Xiaomi Wi-Fi device, which were released almost 10 years ago, they still worked well. This disappoints me because I want them to stop working so I can dismantle them without feeling like I'm wasting things.
 
-- Bought Wireless Smart USB Speaker E-91 / E-3557 - Black (similar to this: https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html).
+- Bought Wireless Smart USB Speaker E-91 / E-3557 - Black (similar to this: <https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html>).
 
 - Bought Xiaomi Mi Router 4C.
 

@@ -10,16 +10,18 @@ translated: false
 type: note
 ---
 
-Question: What does the content of this YouTube video say? (https://www.youtube.com/watch?v=5vcj8kSwBCY&t=150s)
+Question: What does the content of this YouTube video say? (<https://www.youtube.com/watch?v=5vcj8kSwBCY&t=150s>)
 
 Answer:
 
 This is a Stanford CS224N lecture from Winter 2019 titled "NLP with Deep Learning | Lecture 14 – Transformers and Self-Attention". It features Professor Christopher Manning introducing guest speakers Ashish Vaswani and Anna Huang from Google, who explain the Transformer model (the architecture behind modern large language models like GPT and BERT).
 
 ### Overall Summary
+
 The lecture discusses the limitations of recurrent neural networks (RNNs) for handling variable-length sequences and introduces self-attention and the Transformer as superior alternatives. Key advantages include full parallelization, constant-length interaction paths for dependencies, and better performance on tasks like machine translation, image generation, and music composition.
 
 ### Key Sections and What the Speakers Say
+
 - **Introduction and RNN Limitations** (starts around 2:07, near the 2:30 timestamp): The speakers explain that deep learning focuses on representation learning for variable-length data. RNNs process sequences sequentially, limiting parallel computation and struggling with long-distance dependencies and hierarchical structures.
 - **Convolutional Alternatives**: Convolutions allow parallelism but require many layers for long-range interactions.
 - **Self-Attention Mechanism**: Attention enables direct, content-based interactions between all positions in parallel. Self-attention computes weighted averages where each position attends to all others. This is efficient via matrix operations and uses positional encodings (e.g., sinusoidal) to preserve order.

@@ -23,10 +23,12 @@ Answer:
 ### 📋 Key Information
 
 **Results Release**
+
 - The November 2025 Self-Study Examination practical assessment results were published on **November 21, 2025 at 17:00** via the **Qida Management System**.
 - ⚠️ The score data will be **cleared before the next practical assessment registration**, so students are urged to check their results promptly.
 
 **Score Reporting Rules** (per Guangdong Provincial Examination Authority regulations)
+
 - **Failing scores** will **not** be reported to the provincial system.
 - **Passing scores and above** will be published on the **Guangdong Province Self-Study Examination Management System** in **mid-December** (before graduation application processing).
 

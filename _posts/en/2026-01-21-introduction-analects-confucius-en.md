@@ -19,6 +19,7 @@ Answer:
 《论语》, known in English as **The Analects** or **The Sayings of Confucius**, is one of the most important and influential books in Chinese history and East Asian culture.
 
 ### Basic Information
+
 - **Chinese Title** → 論語 / 论语 (Lúnyǔ)
 - **Literal meaning** → "Selected sayings" or "Collated conversations/discussions"
 - **Author** → Traditionally attributed to **Confucius (孔子, Kongzi, 551–479 BCE)**, but actually compiled by his disciples and later followers
@@ -27,7 +28,9 @@ Answer:
 - **Length** → About 500 short passages (aphorisms, dialogues, brief anecdotes)
 
 ### Content Style
+
 The Analects is **not a systematic philosophical treatise**. It consists of:
+
 - Short sayings of Confucius (often beginning with “子曰” — "The Master said")
 - Conversations between Confucius and his disciples
 - Brief descriptions of Confucius's behavior and daily conduct
@@ -57,6 +60,7 @@ The famous opening line sets the tone:
 > "To learn and at due times to practice what one has learned — is this not after all a pleasure? To have friends coming from afar — is this not after all delightful? To remain unsoured even though one's merits are unrecognized by others — is this not after all to be a true gentleman?"
 
 ### Historical & Cultural Significance
+
 - Foundation text of **Confucianism** (儒家)
 - One of the **Four Books** (四书) since the Southern Song dynasty (Zhu Xi → 《大学》《中庸》《论语》《孟子》)
 - Central to imperial civil service examinations (keju 科举) from Yuan dynasty to 1905
@@ -64,7 +68,9 @@ The famous opening line sets the tone:
 - Also deeply shaped Korean, Japanese, and Vietnamese elite culture during the pre-modern period
 
 ### Modern Relevance
+
 Despite being over 2,500 years old, many ideas remain surprisingly applicable:
+
 - Lifelong learning and self-cultivation
 - Importance of character over wealth or power
 - Ethical leadership and good governance

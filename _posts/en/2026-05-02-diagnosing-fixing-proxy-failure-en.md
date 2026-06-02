@@ -14,9 +14,11 @@ type: note
 ### Root Cause Diagnosis — Good
 
 The logs made it unambiguous:
+
 ```
 dial tcp 5.223.42.176:19400: connect: connection refused
 ```
+
 Every failed connection was SS 1. Identifying this immediately from `journalctl` output was the right move — no guessing.
 
 ### The REST API Switch — Correct and Fast
@@ -43,6 +45,7 @@ The second sed ran on already-modified output and clobbered both entries to "My 
 - The user has to manually switch via API or dashboard
 
 A better long-term config would be:
+
 ```yaml
 proxy-groups:
   - name: "Proxy"

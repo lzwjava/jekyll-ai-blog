@@ -85,6 +85,7 @@ ESTPs (Extraverted, Sensing, Thinking, Perceiving) — often called "The Entrepr
 | Remote solo work                  | Poor–Medium | Miss energy of people/action |
 
 The most consistently happy ESTPs tend to follow one of these patterns by their 30s:
+
 - Own business / multiple side hustles giving cashflow + freedom
 - High-commission sales career with big variable pay
 - Field-based role with physical action + problem-solving

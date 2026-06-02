@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Prompt
+
 Why do most people fail to achieve the success or fulfillment they want in life?
 
 ### Answer
@@ -59,6 +60,7 @@ Most “failure” is not caused by lack of talent, bad luck, or missing opportu
 The people who succeed simply remove or minimize the items above from their life sooner than everyone else.
 
 ### References
+
 - *Goals Study* – Dominican University (Gail Matthews)
 - *Mindset* – Carol Dweck (2006)
 - *Rich Habits* – Thomas C. Corley (2010)

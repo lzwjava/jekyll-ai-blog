@@ -49,6 +49,7 @@ Here are several genuinely contrarian or unpopular views on hiring engineers tha
 These ideas are unpopular because they are higher-friction, legally trickier in some jurisdictions, or offend common fairness intuitions—but the teams that adopt even a few of them often end up with dramatically stronger engineering organizations.
 
 References:
+
 - [The Year Without Pants – Scott Berkun (on Basecamp’s no-LeetCode hiring)](https://scottberkun.com/yearwithoutpants/)
 - [Hiring and the Market for Lemons – Dan Luu](https://danluu.com/programmer-moneyball/)
 - [Don’t Hire the Best – Keith Rabois (YouTube talk)](https://www.youtube.com/watch?v=5yJ1zE1U9uE)

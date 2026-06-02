@@ -35,6 +35,7 @@ magick page-00.png page-01.png page-02.png page-03.png \
 ```
 
 **Why each step:**
+
 - `pandoc` handles markdown parsing and produces clean HTML with custom CSS
 - Chrome headless renders the HTML faithfully (fonts, tables, layout) and exports to PDF
 - ImageMagick converts PDF pages to raster PNG at a chosen DPI (`-density 150`)

@@ -15,6 +15,7 @@ type: note
 Guangzhou, known as the "Millennium Banquet City," boasts a vibrant food scene heavily influenced by Cantonese cuisine, dim sum, and innovative fusion. Based on the latest Michelin Guide 2025, here are the standout restaurants. I've focused on the highest-rated (Two Stars) and a selection of One Star spots for variety, prioritizing those with strong reviews for authenticity and experience. Prices are generally high-end (¥¥¥+), but reservations are essential.
 
 #### Two Michelin Stars
+
 These represent exceptional consistency and creativity.
 
 | Restaurant | Cuisine | Location | Highlights |
@@ -24,6 +25,7 @@ These represent exceptional consistency and creativity.
 | Taian Table | European Contemporary | Yuexiu District (Garden Hotel) | Chef Richard Ng's tasting menus blending French techniques with local ingredients. |
 
 #### One Michelin Stars (Selected Top Picks)
+
 From 17 total, these are favorites for first-time visitors, covering dim sum, regional specialties, and international flair.
 
 | Restaurant | Cuisine | Location | Highlights |
@@ -37,11 +39,14 @@ From 17 total, these are favorites for first-time visitors, covering dim sum, re
 | Yu Yue Heen | Cantonese | Tianhe District (Four Seasons) | Hotel elegance with panoramic views; excels in seafood and congee. |
 
 #### Beyond Stars: Bib Gourmand and Local Favorites
+
 For value-driven eats (Bib Gourmand: good quality, moderate prices):
+
 - **Da Ge Fan**: Claypot rice specialist; hearty, affordable Cantonese comfort food (Michelin Recommended).
 - **Chao Ji Claypot Rice (Liwan)**: Street-style rice pots with local vibes.
 
 For trendy spots (from World's 50 Best Discovery):
+
 - **Hope & Sesame**: Creative Cantonese bar bites and cocktails.
 - **SanYou**: Modern teahouse with innovative dim sum.
 

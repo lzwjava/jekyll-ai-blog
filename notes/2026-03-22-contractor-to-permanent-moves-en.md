@@ -26,9 +26,11 @@ Contractors naturally worry that telling a manager about a perm opportunity sign
 ## Core Strategy: Control the Narrative Yourself
 
 ### 1. Tell Your Manager Before HR Does
+
 You don't want the rug pulled out from underneath your direct supervisor. Have an honest conversation with them — depending on the relationship you have, they may even give you a recommendation for this different position. If the manager hears it from HR or the hiring team first, it looks far worse.
 
 ### 2. Frame It as Growth, Not Escape
+
 Approach your manager saying that this was a role you always wanted to be in, but there is no denial of the amount of learning and experience you have attained in your current role and under the manager's leadership. Request in such a way that he feels you are genuinely seeking his wishes and approval to move ahead.
 
 Concretely, you might say something like:
@@ -38,6 +40,7 @@ Concretely, you might say something like:
 This reframes the conversation from "I want to leave you" to "I respect you and want your blessing."
 
 ### 3. Emphasize Staying Within the Bank
+
 A key differentiator here versus an external job search: **you are staying loyal to the institution**. You are not jumping ship — you are trying to put down roots. Tell them why it is important for you to work at the company — it will show your sincerity and loyalty. This is a strong point to make explicitly to your manager.
 
 ---
@@ -71,6 +74,7 @@ To pre-empt the "you're not reliable" perception:
 Risk of negative reaction: If your manager has a history of punitive responses to change, or the team is fragile, telling too early can create awkwardness. Confidentiality concerns: If the internal opening is exploratory or you're in early-stage interviews, premature disclosure can spread before you're ready.
 
 In this case:
+
 - Speak to HR directly first and ask whether manager notification is required at the application stage or only after an offer is made.
 - Build relationships with the hiring team or someone senior in the target team who can champion you — cultivate one or two internal sponsors, preferably a manager and a peer with influence, by asking for feedback and incorporating it visibly.
 

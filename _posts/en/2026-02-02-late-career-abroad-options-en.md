@@ -12,7 +12,7 @@ type: note
 
 You're right that the typical pattern - studying abroad young, then transitioning to work - becomes much harder with age and family responsibilities. Let me break down why and what alternatives exist:
 
-## Why it's harder at 30s-40s:
+## Why it's harder at 30s-40s
 
 **Visa/immigration barriers** - Most countries favor younger graduates. Family visas are complex and expensive. You'd need to support dependents financially.
 
@@ -24,14 +24,14 @@ You're right that the typical pattern - studying abroad young, then transitionin
 
 **Risk tolerance** - With dependents, the stakes of failure are much higher than for a single 22-year-old.
 
-## China-specific factors:
+## China-specific factors
 
 - **Hukou system** - Losing urban residency benefits (healthcare, education access) is costly
 - **Property market** - Real estate represents major family wealth that's hard to liquidate
 - **Elderly care expectations** - Strong cultural obligation to care for aging parents
 - **Career advancement** - Many have finally reached senior positions domestically
 
-## Paths that can work:
+## Paths that can work
 
 **Intra-company transfers** - Multinational companies often facilitate moves with visa sponsorship, relocation packages, and family support.
 

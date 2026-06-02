@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** 提供对 https://github.com/lightpanda-io/browser 的全面介绍
+**问题：** 提供对 <https://github.com/lightpanda-io/browser> 的全面介绍
 
 **答案：**
 
@@ -19,7 +19,9 @@ type: note
 **网站：** [https://lightpanda.io](https://lightpanda.io)
 
 ### 核心理念与定位
+
 Lightpanda **不是** Chromium、WebKit、Gecko 或任何现有浏览器引擎的分支/补丁/修改。它是一个完全新的浏览器实现，主要使用 **Zig** 编程语言编写，设计目标为：
+
 - 极其轻量级
 - 极快（尤其是启动时间）
 - 极低的内存占用
@@ -38,6 +40,7 @@ Lightpanda **不是** Chromium、WebKit、Gecko 或任何现有浏览器引擎�
 - **许可证：** AGPL-3.0
 
 ### 性能声明
+
 Lightpanda 在 headless 自动化基准测试中始终显示出比 Chrome 巨大的改进（请参阅 demo 仓库了解方法论）：
 
 - 启动时间 → 近乎瞬间 vs 数百 ms
@@ -46,6 +49,7 @@ Lightpanda 在 headless 自动化基准测试中始终显示出比 Chrome 巨大
 - 示例：通过 Puppeteer 在 AWS m5.large 上请求 100 个本地页面 → CPU/内存更低且完成更快
 
 ### 当前能力（Beta 阶段 – 积极开发中）
+
 - 完整 JavaScript 执行（V8）
 - DOM 构建与操作
 - Fetch / XHR / Ajax 支持 → 与大多数 SPA 兼容
@@ -56,6 +60,7 @@ Lightpanda 在 headless 自动化基准测试中始终显示出比 Chrome 巨大
 - CDP 服务器模式（最常见的使用方式）
 
 **尚未实现或部分实现：**
+
 - Web API 表面的很大一部分（仍在开发中）
 - 高级 canvas/WebGL（非优先级）
 - 像素级精确渲染（永非优先级 — 无图形栈）
@@ -86,6 +91,7 @@ const browser = await puppeteer.connect({
 ```
 
 ### 项目状态（2026 年 3 月）
+
 - ~19,900 GitHub stars
 - 非常活跃的开发（几乎每日提交）
 - Linux x86_64 和 macOS arm64 的 nightly 二进制文件可用
@@ -96,6 +102,7 @@ const browser = await puppeteer.connect({
 ### 总结 – 谁应该考虑 Lightpanda？
 
 如果您正在运行以下任务，您可能想评估 Lightpanda：
+
 - 大规模 scraping / 数据收集
 - AI agent 浏览器集群
 - LLM 训练爬虫
@@ -103,6 +110,7 @@ const browser = await puppeteer.connect({
 - 希望大幅降低云成本的环境
 
 如果您需要：
+
 - 今日近乎完美的 web 平台兼容性
 - 像素操作 / 截图
 - 具有前沿 API 的非常复杂的 JavaScript 重度站点

@@ -41,13 +41,16 @@ Result → huge amounts of high-quality knowledge, entertainment, education, and
 ### Core economic tension / "conflict"
 
 We live in a hybrid world:
+
 - **Digital realm** → close to post-scarcity for information & many services (music, knowledge, basic chat, images, code snippets).
 - **Physical realm** → still very much scarcity-based (land, energy, metals, time, attention in physical places).
 
 This creates visible unfairness / cognitive dissonance for many people:
+
 - "I can learn anything, talk to an expert AI, watch any movie for free or $10/month… but I still cannot afford to visit my family 1,000 km away or travel to see cherry blossoms in Japan."
 
 It also drives political & social debates:
+
 - Should governments make more transport "free at point of use" (like some city buses/metros)?
 - Should we tax digital advertising profits more heavily and subsidize physical mobility?
 - Is the digital abundance partly happening *because* we under-price or externalize the costs of physical resource use and carbon emissions?

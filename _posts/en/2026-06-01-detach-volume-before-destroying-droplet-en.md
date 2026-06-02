@@ -14,6 +14,7 @@ Yes, but do it in the right order:
 ## Before Destroying
 
 **1. Check if anything is still running:**
+
 ```bash
 # are you mid-training?
 tmux ls
@@ -23,11 +24,13 @@ lsof /mnt/data
 ```
 
 **2. Unmount the volume cleanly:**
+
 ```bash
 umount /mnt/data
 ```
 
 **3. Verify unmounted:**
+
 ```bash
 df -h  # /mnt/data should be gone
 ```
@@ -48,6 +51,7 @@ doctl compute droplet delete <droplet-id> --force
 ## Or Just Via DigitalOcean UI
 
 Since you're already in the UI:
+
 1. Go to your droplet → **Volumes** tab → **Detach** the volume
 2. Then **Destroy** the droplet
 

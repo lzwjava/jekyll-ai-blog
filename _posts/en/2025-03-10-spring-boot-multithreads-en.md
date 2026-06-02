@@ -34,11 +34,13 @@ In a Spring Boot project, the concepts of "executors" and "threads" typically re
 ### **How Do They Work in Spring Boot?**
 
 #### **1. Default Thread Management in Spring Boot**
+
 - When you start a Spring Boot web application, the embedded server (e.g., Tomcat) initializes a thread pool to handle incoming HTTP requests.
 - For example, Tomcat’s default configuration might allocate 200 threads (configurable via `server.tomcat.threads.max` in `application.properties`).
 - Each incoming request is assigned a thread from this pool. If all threads are busy and a new request arrives, it may queue up (depending on the server’s configuration) or be rejected.
 
 #### **2. Executors in Spring Boot**
+
 - Spring Boot provides the `TaskExecutor` interface (an extension of Java’s `Executor`) to manage custom thread pools for specific tasks.
 - A common implementation is `ThreadPoolTaskExecutor`, which allows you to configure:
   - **Core Pool Size**: The number of threads always kept alive.
@@ -47,6 +49,7 @@ In a Spring Boot project, the concepts of "executors" and "threads" typically re
   - **Thread Naming**: For easier debugging (e.g., "my-executor-thread-1").
 
   Example configuration in a Spring Boot app:
+
   ```java
   import org.springframework.context.annotation.Bean;
   import org.springframework.context.annotation.Configuration;
@@ -69,8 +72,10 @@ In a Spring Boot project, the concepts of "executors" and "threads" typically re
   ```
 
 #### **3. Using `@Async` with Executors**
+
 - Spring Boot supports asynchronous method execution with the `@Async` annotation. When you annotate a method with `@Async`, it runs on a separate thread managed by an executor.
 - By default, Spring uses a `SimpleAsyncTaskExecutor`, which creates a new thread for each task (not ideal for high load). To optimize this, you can provide your own `ThreadPoolTaskExecutor` (as shown above) and reference it:
+
   ```java
   @Service
   public class MyService {
@@ -83,8 +88,10 @@ In a Spring Boot project, the concepts of "executors" and "threads" typically re
   ```
 
 #### **4. Task Scheduling**
+
 - For scheduled tasks (e.g., running a job every 5 minutes), Spring Boot uses `ThreadPoolTaskScheduler`. It’s similar to `ThreadPoolTaskExecutor` but tailored for scheduling.
 - Example:
+
   ```java
   @Scheduled(fixedRate = 5000) // Runs every 5 seconds
   public void scheduledTask() {
@@ -93,6 +100,7 @@ In a Spring Boot project, the concepts of "executors" and "threads" typically re
   ```
 
 #### **5. How Threads and Executors Interact**
+
 - When a task is submitted to an executor (e.g., via `@Async` or manual submission), the executor decides whether to:
   - Use an existing idle thread from the pool.
   - Create a new thread (if the core pool size is exceeded but below the max pool size).
@@ -103,7 +111,9 @@ In a Spring Boot project, the concepts of "executors" and "threads" typically re
 ---
 
 ### **Practical Example**
+
 Imagine a Spring Boot app handling user registrations:
+
 - **HTTP Request Thread**: A user submits a registration form, handled by a thread from the Tomcat thread pool.
 - **Async Task**: Sending a confirmation email is offloaded to a `ThreadPoolTaskExecutor` via an `@Async` method, so the HTTP thread can respond immediately without waiting for the email to send.
 - **Scheduled Task**: A cleanup job runs every hour to remove unverified accounts, managed by a `ThreadPoolTaskScheduler`.
@@ -111,6 +121,7 @@ Imagine a Spring Boot app handling user registrations:
 ---
 
 ### **Key Points**
+
 - **Executors** abstract thread management, making it easier to scale and tune concurrency.
 - **Threads** do the actual work, and their lifecycle is managed by executors or the web server.
 - Spring Boot’s defaults are sufficient for small apps, but for high-load or complex apps, you’ll configure custom executors to optimize performance.

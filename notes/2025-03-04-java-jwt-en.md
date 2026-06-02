@@ -101,23 +101,28 @@ public class JwtExtractor {
 ## Explanation of the Code
 
 ### 1. **Imports**
+
 - `SignedJWT`: Represents a signed JWT and provides methods to parse and process it.
 - `JWTClaimsSet`: Contains the claims from the JWT payload.
 - `ParseException`: Thrown if the JWT string is malformed or cannot be parsed.
 - `Date`: Used to represent the expiration and issued times.
 
 ### 2. **Parsing the JWT**
+
 - The `SignedJWT.parse(jwtString)` method takes a JWT string (e.g., `header.payload.signature`) and returns a `SignedJWT` object. If the JWT is invalid, it throws a `ParseException`.
 
 ### 3. **Accessing the Claims**
+
 - `signedJWT.getJWTClaimsSet()` retrieves the claims set, which holds all the claims from the JWT’s payload.
 
 ### 4. **Extracting Specific Claims**
+
 - **`getExpirationTime()`**: Returns the `exp` claim as a `Date` object (or `null` if not present). This represents when the token expires.
 - **`getIssueTime()`**: Returns the `iat` claim as a `Date` object (or `null` if not present). This indicates when the token was issued.
 - **`getSubject()`**: Returns the `sub` claim as a `String` (or `null` if not present), an example of another standard claim. You can also use `getClaim("key")` to retrieve custom claims as an `Object`.
 
 ### 5. **Error Handling**
+
 - The try-catch block ensures that if the JWT is malformed or invalid, the program handles the error gracefully by printing an error message.
 
 ---
@@ -134,6 +139,7 @@ public class JwtExtractor {
 ## Sample Output
 
 For the example JWT string above:
+
 ```
 Expiration date: Wed Jan 17 19:52:02 UTC 2018
 Issued date: Wed Jan 17 19:50:22 UTC 2018

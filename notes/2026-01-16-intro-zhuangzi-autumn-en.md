@@ -17,6 +17,7 @@ Answer:
 **《秋水》** (Qiū Shuǐ – "Autumn Waters") is one of the most famous and philosophically rich inner chapters (內篇) of the *Zhuangzi* (莊子), traditionally attributed to Zhuang Zhou (莊周) and his early followers. It is chapter 17 in the standard 33-chapter edition.
 
 ### Overview & Structure
+
 《秋水》 consists of several relatively independent episodes/dialogues, with the most celebrated parts being:
 
 1. **The dialogue between the Earl of the Yellow River (河伯) and the God of the Northern Sea (北海若 / Ruo of the Northern Sea)**
@@ -65,6 +66,7 @@ Answer:
   → From the perspective of the Dao, nothing is noble or base; from the perspective of things themselves, each considers itself noble and others base.
 
 ### Cultural & Literary Influence
+
 《秋水》 is probably the single most quoted and most philosophically taught chapter of Zhuangzi in Chinese education and popular culture.
 Phrases such as 「井底之蛙」「朝三暮四」「秋水伊人」「望洋興嘆」 all originated from or are closely related to this chapter.
 

@@ -17,6 +17,7 @@ Answer:
 **Arch Linux** 是 2026 年最受推崇且最具影响力的 **Linux distributions** 之一。它遵循 **simplicity**、**minimalism**、**user-centric design** 的哲学，并通过 **rolling release** 模型提供最新的软件。
 
 ### 核心哲学与原则
+
 Arch Linux 指导原则（通常总结为 Arch Way）包括：
 
 - **Simplicity** —— 避免不必要的添加；保持基础系统非常精简
@@ -49,9 +50,11 @@ Arch 提供一个**极小的基础系统**（安装后约 600–800 MB）—— 
    - 根据经验不同，耗时约 30–120 分钟
 
 2. **Guided installer**（自 2022 年起在初学者中更受欢迎）
+
    ```bash
    archinstall
    ```
+
    - 菜单驱动（基于控制台但用户友好）
    - 支持 disk encryption、带 subvolumes 的 Btrfs、desktop profiles (GNOME、KDE、Hyprland、COSMIC 等)、NVIDIA、UKI、zram 等
    - 可以在 15–40 分钟内完成一个完全可用的桌面安装

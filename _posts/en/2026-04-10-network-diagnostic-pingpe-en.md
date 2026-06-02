@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: What is an introduction to https://ping.pe and why is it good?
+Question: What is an introduction to <https://ping.pe> and why is it good?
 
 Answer:
 
@@ -17,7 +17,8 @@ Answer:
 
 ping.pe is a free, simple, and powerful online network diagnostic tool that allows you to perform multiple network tests directly from your web browser. It functions as an all-in-one online ping, traceroute, and port checking service without requiring any software installation.
 
-### Main Features of ping.pe:
+### Main Features of ping.pe
+
 - **Ping Test**: Check latency and packet loss to any host or IP address from multiple global locations.
 - **Traceroute**: Visualize the network path packets take to reach a destination, helping identify routing issues or bottlenecks.
 - **Port Check**: Scan whether specific TCP/UDP ports are open or closed on a remote server.
@@ -25,7 +26,7 @@ ping.pe is a free, simple, and powerful online network diagnostic tool that allo
 - **Clean and Minimalist Interface**: No ads, no account required, and results are displayed instantly in a clear format.
 - **Additional Tools**: Supports MTR (combined ping + traceroute), WHOIS lookups, and DNS resolution in some cases.
 
-### Why ping.pe is Good / Advantages:
+### Why ping.pe is Good / Advantages
 
 1. **Global Perspective**
    Most built-in ping commands on your computer only test from your own location. ping.pe lets you test connectivity from many different geographic locations, which is extremely useful for diagnosing whether a website or server issue is local to you or affects users worldwide.
@@ -47,7 +48,8 @@ ping.pe is a free, simple, and powerful online network diagnostic tool that allo
 6. **Privacy-Friendly**
    No login or personal data is required. Your tests are not stored long-term.
 
-### Common Use Cases:
+### Common Use Cases
+
 - Checking if a website is down only for you or for everyone.
 - Comparing latency from different countries before choosing a hosting provider or CDN.
 - Diagnosing slow connections or packet loss on international routes.

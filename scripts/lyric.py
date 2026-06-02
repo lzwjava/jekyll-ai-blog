@@ -42,7 +42,6 @@ def split_romaji(line, jap_segments):
     if len(romaji_words) != len(jap_segments):
         # Adjust romaji to match Japanese segmentation
         romaji_words = []
-        jap_index = 0
         romaji_index = 0
         for jap_seg in jap_segments:
             jap_len = len(jap_seg)

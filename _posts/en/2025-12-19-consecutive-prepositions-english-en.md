@@ -18,16 +18,19 @@ Yes, it is grammatically acceptable to use the preposition "in" multiple times c
 
 However, while it is **correct**, consecutive repetitions of "in" (especially two or more in a row) can make a sentence sound awkward, clumsy, or less elegant to native speakers. This is a matter of **style and clarity**, not strict grammar.
 
-### Analysis of your example:
+### Analysis of your example
+
 - "common commands in switches in networking"
 
 This phrase contains two consecutive "in" prepositions:
+
 - "in switches" → indicates location/type of device
 - "in networking" → indicates the broader field/context
 
 Grammatically, it is fine, but it feels slightly repetitive and could be improved for smoother reading.
 
-### Better alternatives (recommended for natural flow):
+### Better alternatives (recommended for natural flow)
+
 - "common commands in networking switches"
 - "common commands for switches in networking"
 - "common switch commands in networking"
@@ -35,14 +38,18 @@ Grammatically, it is fine, but it feels slightly repetitive and could be improve
 
 These rephrasings avoid consecutive "in"s while preserving the original meaning.
 
-### Other examples of consecutive "in":
+### Other examples of consecutive "in"
+
 Acceptable but stylistically awkward:
+
 - "There was a cat in a hat in a box in the room." (grammatically correct, but sounds odd)
 
 Improved:
+
 - "There was a cat in a hat inside a box in the room."
 
-### Summary:
+### Summary
+
 - **Grammatically**: Yes, multiple consecutive "in"s are allowed.
 - **Stylistically**: It is often better to avoid repetition by rephrasing for clarity and elegance, especially in formal or professional writing.
 

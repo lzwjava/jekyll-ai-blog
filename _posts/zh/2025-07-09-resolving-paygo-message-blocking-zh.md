@@ -38,28 +38,28 @@ type: note
 
 <div align="center">⁂</div>
 
-[^1]: https://techhbs.com/message-blocking-is-active/
+[^1]: <https://techhbs.com/message-blocking-is-active/>
 
-[^2]: https://www.calilio.com/blogs/what-does-message-blocking-is-active-mean
+[^2]: <https://www.calilio.com/blogs/what-does-message-blocking-is-active-mean>
 
-[^3]: https://www.airdroid.com/file-transfer/message-blocking-is-active/
+[^3]: <https://www.airdroid.com/file-transfer/message-blocking-is-active/>
 
-[^4]: https://www.reddit.com/r/NoContract/comments/tzqd4z/any_solution_to_spam_sms_being_charged_on_my_pay/
+[^4]: <https://www.reddit.com/r/NoContract/comments/tzqd4z/any_solution_to_spam_sms_being_charged_on_my_pay/>
 
-[^5]: https://www.youtube.com/watch?v=N_Itb3cVDVc
+[^5]: <https://www.youtube.com/watch?v=N_Itb3cVDVc>
 
-[^6]: https://www.att.com/prepaid/plans/
+[^6]: <https://www.att.com/prepaid/plans/>
 
-[^7]: https://www.youtube.com/watch?v=1swjx_oZJtA
+[^7]: <https://www.youtube.com/watch?v=1swjx_oZJtA>
 
-[^8]: https://www.guidingtech.com/fix-message-blocking-is-active-error-on-android-and-iphone/
+[^8]: <https://www.guidingtech.com/fix-message-blocking-is-active-error-on-android-and-iphone/>
 
-[^9]: https://www.t-mobile.com/support/plans-features/message-blocking
+[^9]: <https://www.t-mobile.com/support/plans-features/message-blocking>
 
-[^10]: https://www.reddit.com/r/AndroidQuestions/comments/17l1htu/free_msg_unable_to_send_message_message_blocking/
+[^10]: <https://www.reddit.com/r/AndroidQuestions/comments/17l1htu/free_msg_unable_to_send_message_message_blocking/>
 
-[^11]: https://discussions.apple.com/thread/254572296
+[^11]: <https://discussions.apple.com/thread/254572296>
 
-[^12]: https://support.google.com/messages/thread/207645345/every-time-i-send-a-text-message-to-anybody-it-says-free-message-unable-to-send-message-blocking-is?hl=en
+[^12]: <https://support.google.com/messages/thread/207645345/every-time-i-send-a-text-message-to-anybody-it-says-free-message-unable-to-send-message-blocking-is?hl=en>
 
-[^13]: https://www.t-mobile.com/community/discussions/apple/message-blocking-activated-but-i-cant-undo-it/96612
+[^13]: <https://www.t-mobile.com/community/discussions/apple/message-blocking-activated-but-i-cant-undo-it/96612>

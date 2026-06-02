@@ -12,6 +12,7 @@ type: note
 以下是精选的30个主要使用C语言编写的知名开源项目清单，这些项目根据其在开源社区中的流行度、影响力及相关性筛选得出。这些项目涵盖操作系统、数据库、网络和多媒体等多个领域，体现了C语言在系统级编程、高性能应用和嵌入式系统中的优势。评选参考了GitHub星标、社区活跃度和历史意义等指标，数据来源包括GitHub、Reddit及其他开发者社区。[](https://www.reddit.com/r/C_Programming/comments/14kmraa/top_c_open_source_projects_and_contributors/)[](https://github.com/topics/c-projects)[](https://en.cppreference.com/w/c/links/libs)
 
 ### 操作系统与内核
+
 1. **Linux内核**
    - 描述：Linux操作系统的核心，驱动着服务器、桌面设备和嵌入式设备
    - 入选理由：现代计算的基石，拥有庞大的社区贡献
@@ -43,6 +44,7 @@ type: note
    - 应用场景：教学项目、操作系统研究
 
 ### 网络与服务器
+
 6. **Nginx**
    - 描述：高性能Web服务器和反向代理
    - 入选理由：以高效的C代码支撑互联网重要组成部分
@@ -74,6 +76,7 @@ type: note
     - 应用场景：密码学、安全网络通信
 
 ### 数据库
+
 11. **SQLite**
     - 描述：轻量级嵌入式关系数据库引擎
     - 入选理由：因占用资源少而广泛应用于移动应用和嵌入式系统
@@ -99,6 +102,7 @@ type: note
     - 应用场景：物联网、时序数据
 
 ### 多媒体与图形
+
 15. **FFmpeg**
     - 描述：处理视频、音频等媒体的多媒体框架
     - 入选理由：行业标准的媒体处理工具，采用C语言编写
@@ -124,6 +128,7 @@ type: note
     - 应用场景：嵌入式GUI、物联网设备
 
 ### 系统工具与实用程序
+
 19. **Systemd**
     - 描述：Linux系统的系统和服务管理器
     - 入选理由：众多Linux发行版的核心组件，采用C语言编写 [](https://dev.to/this-is-learning/7-open-source-projects-you-should-know-c-edition-107k)
@@ -149,6 +154,7 @@ type: note
     - 应用场景：文件压缩、数据处理
 
 ### 编译器与解释器
+
 23. **GCC（GNU编译器集合）**
     - 描述：支持多种语言（包括C）的编译器系统
     - 入选理由：软件开发的关键工具，具有复杂的C代码库
@@ -168,6 +174,7 @@ type: note
     - 应用场景：编译器开发、教育
 
 ### 安全与密码学
+
 26. **OpenSSH**
     - 描述：基于SSH协议的安全网络工具套件
     - 入选理由：行业标准的远程安全访问工具，采用C语言编写
@@ -181,6 +188,7 @@ type: note
     - 应用场景：密码学、安全应用
 
 ### 游戏与模拟器
+
 28. **NetHack**
     - 描述：具有复杂C代码库的经典Roguelike游戏
     - 入选理由：持续维护中，适合学习C语言游戏逻辑 [](https://www.quora.com/What-open-source-projects-are-written-in-C)
@@ -200,6 +208,7 @@ type: note
     - 应用场景：游戏开发、多媒体应用
 
 ### 说明
+
 - **筛选标准**：项目根据GitHub星标、社区活跃度及与C编程的相关性选择。部分项目包含C++等其他语言，但主要以C为基础。[](https://www.reddit.com/r/C_Programming/comments/14kmraa/top_c_open_source_projects_and_contributors/)[](https://www.libhunt.com/l/c)
 - **新手友好项目**：对于初学者，推荐代码库更易管理的项目，如**Raylib**、**Xv6**或**TCC**，这些项目文档清晰。[](https://www.reddit.com/r/C_Programming/comments/1c8mkmv/good_open_source_projects/)
 - **贡献建议**：查看各项目GitHub仓库的“good first issue”标签或贡献指南。从错误修复或文档改进等小任务开始是不错的起点。[](https://github.com/MunGell/awesome-for-beginners)

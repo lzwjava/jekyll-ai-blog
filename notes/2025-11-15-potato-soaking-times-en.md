@@ -22,6 +22,7 @@ Here’s the practical answer (from real cooking experience in Taiwan kitchens t
 | Overnight (refrigerator) | 8–12 hours | Maximum flavor, like 滷味 style, but you MUST pat very dry before air-frying or they’ll steam instead of crisp |
 
 Quick Taiwan-friendly tips:
+
 - If using soy sauce, oyster sauce, or anything salty → 20–30 minutes is perfect (don’t go too long or they get too salty on the surface)
 - After soaking, always pat dry with kitchen paper → this is the #1 trick for crispy air-fried potatoes
 - Add a tiny bit of cornstarch (too fen) to the sauce → helps it stick and makes them extra crispy

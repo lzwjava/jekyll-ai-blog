@@ -15,7 +15,7 @@ type: note
 
 ## Is Selling Proxy Services Illegal in China?
 
-### Short Answer: Yes, in most meaningful forms — especially selling unauthorized proxy/VPN services is clearly illegal and prosecutable.
+### Short Answer: Yes, in most meaningful forms — especially selling unauthorized proxy/VPN services is clearly illegal and prosecutable
 
 ---
 

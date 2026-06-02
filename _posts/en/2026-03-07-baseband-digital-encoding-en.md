@@ -30,6 +30,7 @@ The answer is **数字数据编码 (Digital Data Encoding)**.
 ### Why Encoding is Necessary
 
 Raw binary data (0s and 1s) cannot always be transmitted directly because:
+
 - The raw signal may contain DC components that are unsuitable for transmission.
 - Clock synchronization cannot be guaranteed without proper encoding.
 - Noise immunity may be poor.

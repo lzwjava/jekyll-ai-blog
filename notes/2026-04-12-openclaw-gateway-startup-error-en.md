@@ -38,12 +38,15 @@ During gateway startup, OpenClaw performs several initialization tasks:
 **Immediate Fix:**
 
 1. **Wait for Full Startup**: Do not send requests until the logs show the gateway is listening on its port. Monitor the logs with:
+
    ```bash
    openclaw logs --follow
    ```
+
    Wait for the message indicating the gateway is ready before accessing the dashboard
 
 2. **Run Doctor Command**: Run `openclaw doctor --fix` to automatically resolve common configuration issues:
+
    ```bash
    openclaw doctor --fix
    openclaw gateway restart

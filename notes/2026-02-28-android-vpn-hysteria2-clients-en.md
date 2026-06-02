@@ -19,11 +19,11 @@ Here are the most commonly recommended and officially listed Android clients tha
 
 - **Hiddify** (often recommended for ease of use)
   A popular multi-protocol VPN/proxy app with good Hysteria 2 support. It allows easy import of `hy2://` links and works in full VPN mode.
-  Download: GitHub releases (https://github.com/hiddify/hiddify-app/releases) or sometimes available via other sources.
+  Download: GitHub releases (<https://github.com/hiddify/hiddify-app/releases>) or sometimes available via other sources.
 
 - **NekoBox for Android**
   A universal proxy toolchain app with Hysteria 2 support since version 1.2.4. It is widely used for advanced configurations.
-  GitHub: https://github.com/MatsuriDayo/NekoBoxForAndroid
+  GitHub: <https://github.com/MatsuriDayo/NekoBoxForAndroid>
 
 - **Sing-box / SFA (sing-box for Android)**
   Official sing-box client for Android (io.nekohasekai.sfa on Play Store). Supports Hysteria 2 natively and is frequently mentioned for clean Hysteria 2 setups.
@@ -31,7 +31,7 @@ Here are the most commonly recommended and officially listed Android clients tha
 
 - **V2Box**
   Multi-protocol proxy client with Hysteria 2 support since version 2.6.1. Available directly on Google Play Store.
-  Link: https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box
+  Link: <https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box>
 
 Other mentions in communities include forks or specialized apps like custom Hysteria 2-only clients on GitHub (e.g., lry127/Android-Hysteria-2-client), but these are less polished and not as widely recommended.
 

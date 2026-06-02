@@ -13,6 +13,7 @@ The message forwarding function in Microsoft Teams, which allows users to forwar
 Users can forward a message by right-clicking it (or tapping the ellipsis menu on mobile) and selecting "Forward," then choosing the destination chat and optionally adding context.
 
 Later enhancements include:
+
 - Forwarding messages to and from channels: Introduced in January 2025.
 - Forwarding messages with Loop components and app cards: Also added in January 2025, with further app card support in April 2025.
 

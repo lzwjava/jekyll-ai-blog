@@ -30,6 +30,7 @@ Yes, Alacritty is cross-platform. Evidence from the codebase:
    - Linux: `monospace`
 
 5. **Display server selection** in `main.rs:12-25`:
+
    ```
    #[cfg(not(any(feature = "x11", feature = "wayland", target_os = "macos", windows)))]
    compile_error!("...");  // won't compile without at least one platform

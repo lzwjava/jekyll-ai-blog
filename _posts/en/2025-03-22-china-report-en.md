@@ -91,6 +91,7 @@ The country has developed state-of-the-art IT infrastructure, with cities like S
 ### Government-Led Initiatives
 
 China has identified artificial intelligence as a strategic priority and has launched national initiatives to become a world leader in AI by mid-century. Key elements include:
+
 - **Massive Investments:**
   Significant funding is allocated to both public and private research, aiming to accelerate AI development in sectors such as healthcare, transportation, and smart cities.
 - **Integration Across Industries:**

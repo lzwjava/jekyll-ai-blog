@@ -19,9 +19,9 @@ type: note
 
 这些模型在 Copilot 和专业工作流中表现如此出色的主要原因是它们的 **Agentic Architecture**。
 
-*   **原生 Tool Orchestration：** GPT-5.3-Codex 和 GPT-5.4 不只是“预测下一个 token”；它们针对 “long-horizon” 任务进行了专门训练。这意味着它们可以提前规划 10 个步骤（例如：“检查日志、查找错误、搜索库文档，然后应用补丁”），而不会在中途产生混乱。
-*   **Computer Use 与 Operator API：** GPT-5.4 引入了 **Computer Use** 能力。它可以“看见”你的 IDE 或 terminal，并进行程序化操作。GPT-4o 等 Legacy 模型只能接收文本或图像快照；它们无法直接与系统交互。
-*   **Context Management：** 虽然 GPT-4.1 拥有很大的 context window，但 GPT-5.4 使用了 **Compaction Patterns**。它会在 session 期间“总结”自身的 memory，因此即使在进行了 50 次 tool calls 之后，它也不会偏离最初的目标。
+* **原生 Tool Orchestration：** GPT-5.3-Codex 和 GPT-5.4 不只是“预测下一个 token”；它们针对 “long-horizon” 任务进行了专门训练。这意味着它们可以提前规划 10 个步骤（例如：“检查日志、查找错误、搜索库文档，然后应用补丁”），而不会在中途产生混乱。
+* **Computer Use 与 Operator API：** GPT-5.4 引入了 **Computer Use** 能力。它可以“看见”你的 IDE 或 terminal，并进行程序化操作。GPT-4o 等 Legacy 模型只能接收文本或图像快照；它们无法直接与系统交互。
+* **Context Management：** 虽然 GPT-4.1 拥有很大的 context window，但 GPT-5.4 使用了 **Compaction Patterns**。它会在 session 期间“总结”自身的 memory，因此即使在进行了 50 次 tool calls 之后，它也不会偏离最初的目标。
 
 ### “Legacy”模型：它们还在更新吗？
 
@@ -39,7 +39,9 @@ type: note
 ---
 
 ### 为什么 Copilot 在 Legacy 模型上“难用”
+
 当你使用 GPT-5.4 这种高级模型运行 Copilot 时，它使用 **Parallel Function Calling**。它可以同时查看多个文件并运行搜索。而 Legacy 模型（GPT-4.1/4o）通常必须按顺序执行——一次只能进行一个 tool call——这使得 agent 显得反应迟钝，且容易在轮次之间“遗忘” context。
 
 ### 后续步骤
+
 需要我帮你 **优化 system prompt** 或 **tool definitions**，以便让 GPT-5-mini 或 legacy 模型更稳定地处理你的 agentic 工作流吗？

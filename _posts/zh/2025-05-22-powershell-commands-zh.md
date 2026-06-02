@@ -9,6 +9,7 @@ type: note
 ---
 
 ## PowerShell 简介
+
 PowerShell 是微软推出的任务自动化与配置管理框架，包含命令行外壳和脚本语言。它基于 .NET Framework（新版本基于 .NET Core）构建，使管理员能够在 Windows、Linux 和 macOS 系统上执行复杂任务。
 
 PowerShell 命令称为 **cmdlet**（发音为 command-lets），遵循 `动词-名词` 命名规范（例如 `Get-Process`、`Set-Item`）。本指南按功能分类介绍常用 cmdlet，并通过示例演示其用法。
@@ -16,7 +17,9 @@ PowerShell 命令称为 **cmdlet**（发音为 command-lets），遵循 `动词-
 ---
 
 ## 1. PowerShell 核心概念
+
 在深入学习命令前，理解关键概念至关重要：
+
 - **Cmdlet**：执行特定功能的轻量级命令
 - **管道**：通过 `|` 操作符将一个 cmdlet 的输出作为另一个 cmdlet 的输入
 - **模块**：扩展 PowerShell 功能的 cmdlet、脚本和函数集合
@@ -28,6 +31,7 @@ PowerShell 命令称为 **cmdlet**（发音为 command-lets），遵循 `动词-
 ## 2. 按功能分类的常用 Cmdlet
 
 ### 2.1 系统信息
+
 这些 cmdlet 用于获取系统、进程和服务相关信息。
 
 | Cmdlet | 描述 | 示例 |
@@ -38,11 +42,13 @@ PowerShell 命令称为 **cmdlet**（发音为 command-lets），遵循 `动词-
 | `Get-HotFix` | 列出已安装的 Windows 更新 | `Get-HotFix | Sort-Object InstalledOn -Descending` |
 
 **示例**：按 CPU 使用率排序列出所有运行中的进程
+
 ```powershell
 Get-Process | Sort-Object CPU -Descending | Select-Object Name, CPU, Id -First 5
 ```
 
 ### 2.2 文件和目录管理
+
 PowerShell 将文件系统视为提供程序，允许像操作驱动器一样进行导航。
 
 | Cmdlet | 描述 | 示例 |
@@ -55,6 +61,7 @@ PowerShell 将文件系统视为提供程序，允许像操作驱动器一样进
 | `Move-Item` | 移动文件或目录 | `Move-Item C:\Docs\Report.txt C:\Archive` |
 
 **示例**：创建目录和文件，然后复制到其他位置
+
 ```powershell
 New-Item -Path C:\Temp -Name MyFolder -ItemType Directory
 New-Item -Path C:\Temp\MyFolder -Name Test.txt -ItemType File
@@ -62,6 +69,7 @@ Copy-Item C:\Temp\MyFolder\Test.txt C:\Backup
 ```
 
 ### 2.3 系统管理
+
 用于管理系统设置、服务和用户的 cmdlet。
 
 | Cmdlet | 描述 | 示例 |
@@ -73,6 +81,7 @@ Copy-Item C:\Temp\MyFolder\Test.txt C:\Backup
 | `Set-ExecutionPolicy` | 设置脚本执行策略 | `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` |
 
 **示例**：检查 Windows 更新服务状态，如果停止则启动
+
 ```powershell
 $service = Get-Service -Name "wuauserv"
 if ($service.Status -eq "Stopped") {
@@ -81,6 +90,7 @@ if ($service.Status -eq "Stopped") {
 ```
 
 ### 2.4 网络管理
+
 用于网络配置和诊断的 cmdlet。
 
 | Cmdlet | 描述 | 示例 |
@@ -91,12 +101,14 @@ if ($service.Status -eq "Stopped") {
 | `Resolve-DnsName` | 解析 DNS 名称 | `Resolve-DnsName www.google.com` |
 
 **示例**：ping 服务器并检查其 DNS 解析
+
 ```powershell
 Test-Connection -ComputerName google.com -Count 2
 Resolve-DnsName google.com
 ```
 
 ### 2.5 用户和组管理
+
 用于管理本地用户和组的 cmdlet。
 
 | Cmdlet | 描述 | 示例 |
@@ -107,6 +119,7 @@ Resolve-DnsName google.com
 | `Add-LocalGroupMember` | 将用户添加到本地组 | `Add-LocalGroupMember -Group "Administrators" -Member "TestUser"` |
 
 **示例**：创建新本地用户并添加到管理员组
+
 ```powershell
 $password = ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force
 New-LocalUser -Name "TestUser" -Password $password -FullName "Test User" -Description "Test account"
@@ -114,6 +127,7 @@ Add-LocalGroupMember -Group "Administrators" -Member "TestUser"
 ```
 
 ### 2.6 脚本编写与自动化
+
 PowerShell 在自动化脚本编写方面表现卓越。
 
 | Cmdlet | 描述 | 示例 |
@@ -125,12 +139,14 @@ PowerShell 在自动化脚本编写方面表现卓越。
 | `New-ScheduledTask` | 创建计划任务 | `New-ScheduledTask -Action (New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-File C:\script.ps1") -Trigger (New-ScheduledTaskTrigger -Daily -At "3AM")` |
 
 **示例**：创建脚本将运行中的进程记录到文件
+
 ```powershell
 $logPath = "C:\Logs\ProcessLog.txt"
 Get-Process | Select-Object Name, CPU, StartTime | Export-Csv -Path $logPath -NoTypeInformation
 ```
 
 ### 2.7 模块管理
+
 模块扩展 PowerShell 功能。
 
 | Cmdlet | 描述 | 示例 |
@@ -141,6 +157,7 @@ Get-Process | Select-Object Name, CPU, StartTime | Export-Csv -Path $logPath -No
 | `Find-Module` | 在存储库中搜索模块 | `Find-Module -Name *Azure*` |
 
 **示例**：安装并导入 PSWindowsUpdate 模块以管理 Windows 更新
+
 ```powershell
 Install-Module -Name PSWindowsUpdate -Force
 Import-Module PSWindowsUpdate
@@ -150,11 +167,15 @@ Get-WUList
 ---
 
 ## 3. 管道操作
+
 管道 (`|`) 允许将 cmdlet 串联起来顺序处理数据。例如：
+
 ```powershell
 Get-Process | Where-Object { $_.WorkingSet64 -gt 100MB } | Sort-Object WorkingSet64 -Descending | Select-Object Name, WorkingSet64 -First 5
 ```
+
 此命令：
+
 1. 获取所有进程
 2. 过滤使用超过 100MB 内存的进程
 3. 按内存使用量降序排序
@@ -163,9 +184,11 @@ Get-Process | Where-Object { $_.WorkingSet64 -gt 100MB } | Sort-Object WorkingSe
 ---
 
 ## 4. 变量、循环和条件
+
 PowerShell 支持脚本结构以实现自动化。
 
 ### 变量
+
 ```powershell
 $path = "C:\Logs"
 $services = Get-Service
@@ -173,16 +196,21 @@ Write-Output "Log path is $path"
 ```
 
 ### 循环
+
 - **ForEach-Object**：
+
 ```powershell
 Get-Service | ForEach-Object { Write-Output $_.Name }
 ```
+
 - **For 循环**：
+
 ```powershell
 for ($i = 1; $i -le 5; $i++) { Write-Output "Iteration $i" }
 ```
 
 ### 条件
+
 ```powershell
 $service = Get-Service -Name "wuauserv"
 if ($service.Status -eq "Running") {
@@ -195,7 +223,9 @@ if ($service.Status -eq "Running") {
 ---
 
 ## 5. 错误处理
+
 使用 `Try`、`Catch` 和 `Finally` 实现健壮的脚本。
+
 ```powershell
 Try {
     Get-Item -Path C:\NonExistentFile.txt -ErrorAction Stop
@@ -211,14 +241,17 @@ Finally {
 ---
 
 ## 6. 远程管理
+
 PowerShell 支持使用 `Invoke-Command` 和 `Enter-PSSession` 进行远程管理。
 
 **示例**：在远程计算机上运行命令
+
 ```powershell
 Invoke-Command -ComputerName Server01 -ScriptBlock { Get-Service | Where-Object { $_.Status -eq "Running" } }
 ```
 
 **示例**：启动交互式远程会话
+
 ```powershell
 Enter-PSSession -ComputerName Server01
 ```
@@ -226,6 +259,7 @@ Enter-PSSession -ComputerName Server01
 ---
 
 ## 7. 实用脚本示例
+
 以下是一个监控磁盘空间并在使用率超过 80% 时发出警报的示例脚本。
 
 ```powershell
@@ -243,6 +277,7 @@ foreach ($disk in $disks) {
 ---
 
 ## 8. 高效使用 PowerShell 的技巧
+
 - **使用别名提高效率**：常用别名如 `dir` (`Get-ChildItem`)、`ls` (`Get-ChildItem`) 或 `gci` (`Get-ChildItem`) 可在交互式会话中节省时间
 - **Get-Help**：使用 `Get-Help <cmdlet>` 获取详细文档（例如 `Get-Help Get-Process -Full`）
 - **Update-Help**：使用 `Update-Help` 保持帮助文件更新
@@ -253,6 +288,7 @@ foreach ($disk in $disks) {
 ---
 
 ## 9. 其他资源
+
 - **官方文档**：[Microsoft PowerShell 文档](https://docs.microsoft.com/en-us/powershell/)
 - **PowerShell Gallery**：[PowerShell Gallery](https://www.powershellgallery.com/) 获取模块
 - **社区**：查看 X 平台或 Stack Overflow 等论坛获取实时提示和脚本

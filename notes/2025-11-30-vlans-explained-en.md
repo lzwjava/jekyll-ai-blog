@@ -39,6 +39,7 @@ Switches that support VLANs (almost all managed switches) add a **VLAN tag** (us
 The tag contains a **VLAN ID** (VID), usually 1–4094.
 
 Example:
+
 ```
 VLAN 10 → Employees
 VLAN 20 → Guests (internet only)
@@ -71,6 +72,7 @@ Floor switch ports:
 ```
 
 The router/firewall has subinterfaces (e.g., GigabitEthernet0/0.10, .20, .30) and applies different policies:
+
 - VLAN 10 → full internal access
 - VLAN 20 → internet only, no internal access
 - VLAN 30 → QoS priority for voice

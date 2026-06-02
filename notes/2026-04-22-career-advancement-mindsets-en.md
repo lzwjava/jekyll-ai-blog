@@ -26,6 +26,7 @@ This mindset is rooted in **reward and comfort accumulation**. The belief is:
 > *"I worked hard to get here. Seniority should buy me stability, delegation, and less chaos."*
 
 Key characteristics:
+
 - **Goal is hierarchy**: Reach a title/level where decisions are delegated downward
 - **Success = less friction**: Fewer fires to fight, more process and structure doing the work
 - **Risk aversion**: Prefers predictable lanes and defined career paths
@@ -44,6 +45,7 @@ This mindset is rooted in **growth and mission**. The belief is:
 > *"As I go higher, the problems get bigger and more complex — and that's the point."*
 
 Key characteristics:
+
 - **Goal is impact and mastery**: Higher level = access to harder, more meaningful problems
 - **Comfort is a danger sign**: Ease signals stagnation, not success
 - **Embraces uncertainty**: Ambiguity is a feature, not a bug

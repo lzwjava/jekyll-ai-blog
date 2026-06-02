@@ -11,7 +11,6 @@ type: post
 
 I need to print papers, and I've noticed that the whitespace around the content is often too large, wasting paper and making the text appear smaller than it should. This script helps to automatically scale the PDF content to better fit the page by detecting the content area and scaling it up to fill the page, while respecting a small margin.
 
-
 ```python
 import subprocess
 import sys

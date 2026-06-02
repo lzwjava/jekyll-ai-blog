@@ -21,7 +21,7 @@ This is the standard and most common way developers (including many AI/ML resear
 ### Step-by-step setup (2026 current best practice)
 
 1. **Install VS Code**
-   Download and install from: https://code.visualstudio.com/ (if not already installed).
+   Download and install from: <https://code.visualstudio.com/> (if not already installed).
 
 2. **Install the Remote - SSH extension**
    - Open VS Code
@@ -31,15 +31,18 @@ This is the standard and most common way developers (including many AI/ML resear
 
 3. **Set up SSH access to your server**
    Make sure you can already connect via terminal with:
+
    ```
    ssh username@your-server-ip-or-domain
    ```
+
    Best practice: Use SSH key authentication (strongly recommended):
    - Generate key pair if you don't have one: `ssh-keygen -t ed25519`
    - Copy public key to server: `ssh-copy-id username@your-server-ip-or-domain`
    - Or manually add `~/.ssh/id_ed25519.pub` content to server's `~/.ssh/authorized_keys`
 
    Optional but very useful: Create an entry in your local `~/.ssh/config` file:
+
    ```
    Host my-server
        HostName your-server-ip-or-domain
@@ -47,6 +50,7 @@ This is the standard and most common way developers (including many AI/ML resear
        Port 22                # change if using non-standard port
        IdentityFile ~/.ssh/id_ed25519
    ```
+
    → Then you can simply use `ssh my-server` instead of typing full details every time.
 
 4. **Connect from VS Code**

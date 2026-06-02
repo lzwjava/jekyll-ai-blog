@@ -32,11 +32,11 @@ type: note
 
 参考文献：
 
-- https://en.wikipedia.org/wiki/Education_in_China
-- https://wenr.wes.org/2019/12/education-in-china-3
-- https://files.eric.ed.gov/fulltext/EJ756220.pdf
-- https://onlinelibrary.wiley.com/doi/full/10.1002/fer3.8
-- https://en.wikipedia.org/wiki/Gaokao
-- https://en.wikipedia.org/wiki/Self-Taught_Higher_Education_Examinations
-- https://www.quora.com/What-is-the-medium-of-instruction-in-Chinese-universities-English-or-Chinese
-- https://en.wikipedia.org/wiki/Higher_education_in_China
+- <https://en.wikipedia.org/wiki/Education_in_China>
+- <https://wenr.wes.org/2019/12/education-in-china-3>
+- <https://files.eric.ed.gov/fulltext/EJ756220.pdf>
+- <https://onlinelibrary.wiley.com/doi/full/10.1002/fer3.8>
+- <https://en.wikipedia.org/wiki/Gaokao>
+- <https://en.wikipedia.org/wiki/Self-Taught_Higher_Education_Examinations>
+- <https://www.quora.com/What-is-the-medium-of-instruction-in-Chinese-universities-English-or-Chinese>
+- <https://en.wikipedia.org/wiki/Higher_education_in_China>

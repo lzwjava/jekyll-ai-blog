@@ -48,6 +48,7 @@ sudo diskutil eraseDisk FAT32 MYUSB MBRFormat /dev/disk3
 ```
 
 替换：
+
 - `MYUSB` → 你想要的 volume 名称（不要有空格，最多 11 个字符）
 - `/dev/disk3` → 你实际的 USB 磁盘标识符
 

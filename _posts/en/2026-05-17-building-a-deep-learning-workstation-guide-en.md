@@ -28,6 +28,7 @@ And for your learning goal specifically: as of February 2026, the AMD Radeon RX 
 ## Full Build Recommendation
 
 ### GPU — Already Chosen
+
 **XFX MERCURY Magnetic Air RX 7900 XTX 24GB** (RX-79XMAIRB9)
 
 The card features the AMD Radeon RX 7900 XTX chipset, 24 GB GDDR6, 384-bit memory bus, boost clock up to 2615 MHz, and a 355 W TDP.
@@ -59,6 +60,7 @@ For the AM5 socket with the Ryzen 9 9900X, you need an **X670 or X670E** chipset
 The X670E chipset offers the most cutting-edge features, including PCIe 5.0 support for the primary graphics slot and M.2 slots, ensuring maximum compatibility with the RX 7900 XTX's PCIe 4.0 capabilities and future-proofing for next-gen GPUs and fast storage. Robust VRM is more than capable of handling demanding Ryzen CPUs.
 
 Good choices:
+
 - **MSI MAG X670E Tomahawk WiFi** — solid mid-range X670E, great value (~**$250–$280**)
 - **ASUS ROG Strix X670E-E Gaming WiFi** — premium option with 18+2 power stages, 4x M.2 slots, PCIe 5.0 (~**$350–$400**)
 
@@ -87,6 +89,7 @@ For your primary OS + model drive, go NVMe Gen4:
 - **Samsung 990 Pro 2 TB** or **WD Black SN850X 2 TB** — both offer ~7,000 MB/s read speeds, excellent for loading large model weights quickly.
 
 For storing large datasets, fine-tuning checkpoints, and model archives, add a secondary:
+
 - **Seagate Barracuda 4 TB HDD** — cheap mass storage (~$70–$80)
 
 **NVMe 2 TB estimated price: ~$130–$170**
@@ -157,6 +160,7 @@ You can dual-boot Windows 11 alongside it, or use Windows + WSL2 if you prefer s
 ## Important Notes for Your Use Case
 
 **ROCm + nanoGPT/LLM Training:**
+
 - Install **ROCm 7.x** on Ubuntu 24.04 for best PyTorch compatibility.
 - AMD's Navi 31 GPU (RX 7900 XTX) has 192 built-in AI accelerators, making it a viable GPU for AI applications.
 - For nanoGPT, the main dependency is PyTorch — the ROCm build of PyTorch works well on this card.

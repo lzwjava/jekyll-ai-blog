@@ -87,7 +87,7 @@ For example:
 
 So morality is not purely transactional.
 
-### 5. A more accurate principle would be:
+### 5. A more accurate principle would be
 
 A healthier framing is:
 

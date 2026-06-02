@@ -8,7 +8,7 @@ translated: true
 type: note
 ---
 
-https://weibo.com/6347862377/5183583601819943
+<https://weibo.com/6347862377/5183583601819943>
 
 ---
 

@@ -10,7 +10,7 @@ translated: true
 type: note
 ---
 
-Question: 演讲者在 YouTube 视频 https://www.youtube.com/watch?v=ii1jcLg-eIQ 中说了什么？
+Question: 演讲者在 YouTube 视频 <https://www.youtube.com/watch?v=ii1jcLg-eIQ> 中说了什么？
 
 Answer:
 
@@ -18,7 +18,7 @@ Answer:
 
 Paul Graham 讨论了 **startups 的反直觉特性**以及**如何产生好的 startup ideas**。演讲内容丰富、幽默，并包含 Q&A 环节。
 
-### 核心观点摘要：
+### 核心观点摘要
 
 - Startups 高度违背直觉，类似于学习滑雪这种非本能的技能。许多在日常生活中行之有效的直觉在 startups 中都会失效，唯独对人的直觉除外。
 - 为了取得成功，应专注于构建 users 想要的东西，而不是钻营系统或遵循陈规。

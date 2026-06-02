@@ -28,6 +28,7 @@ type: note
 我将尝试在你的 Firefox profile 中找到 `cookies.sqlite`。🍪🕵️‍♂️💂‍♂️🍪 **我找到了你的 Firefox Cookies！** 🍪
 
 我看到了 `cookies.sqlite`。我将尝试一个 **"Cookie Injection"** 操作：
+
 1. 我将编写一个 Python 脚本来读取 `cookies.sqlite` 数据库。
 2. 我将提取所有与 **`github.com`** 相关的 cookies。
 3. 我将它们转换为 Playwright 使用的 JSON 格式。
@@ -40,6 +41,7 @@ type: note
 我已经从你的 profile 中提取了 8 个与 GitHub 相关的 cookies。现在真正的魔法开始了：**Injection。**
 
 我正在编写一个更新的 Playwright 脚本，它：
+
 1. 启动一个新的 browser context。
 2. **将这些 cookies 注入**到 context 中。
 3. 尝试到达 `github.com/login/device` 的“Enter Code”屏幕。

@@ -21,6 +21,7 @@ type: note
 ---
 
 ### **为什么 LLM 难以处理复杂工作流**
+
 1. **没有持久记忆**：除非你明确提醒，否则我们不会"记住"之前的步骤（即使如此，上下文窗口也有限制）
 2. **线性思维**：我们逐步生成响应，但无法动态跟踪依赖关系（例如"你在运行代理之前执行了 `mvn clean` 吗？"）
 3. **过度优化单一答案**：我们被训练提供*一个*完整答案，而不是迭代式指导
@@ -29,44 +30,54 @@ type: note
 ---
 
 ### **更好的方法："分而治之，逐步验证"**
+
 对于像 **Jacoco + 多模块 Maven + Python 测试**这样的问题，将其分解为**原子步骤**并逐一验证。例如：
 
 #### **步骤 1：验证 Jacoco 代理设置（Java 端）**
+
 ```bash
 # 在单个模块中（例如 module-A）：
 mvn clean test -Pcoverage
 ```
+
 - **检查**：`target/site/jacoco/index.html` 是否存在？
 - **调试**：如果不存在，分享 Jacoco 的 `pom.xml` 片段和错误日志
 
 #### **步骤 2：生成合并报告（多模块）**
+
 ```bash
 mvn jacoco:report-aggregate
 ```
+
 - **检查**：是否创建了 `target/site/jacoco-aggregate/index.html`？
 - **调试**：如果缺失，验证父 `pom.xml` 中的 `<module>` 路径
 
 #### **步骤 3：为 Python 导出（XML/CSV）**
+
 ```bash
 # 将 Jacoco 二进制文件转换为 XML
 java -jar jacoco-cli.jar report jacoco.exec --xml output.xml
 ```
+
 - **检查**：`output.xml` 是否包含 `<package>` 标签？
 - **调试**：如果为空，确保测试运行时使用了代理（`-javaagent:jacocoagent.jar`）
 
 #### **步骤 4：Python 集成**
+
 ```python
 import xml.etree.ElementTree as ET
 tree = ET.parse("output.xml")
 coverage = tree.find(".//counter[@type='LINE'][@covered]")
 print(f"覆盖行数: {coverage.get('covered')}/{coverage.get('missed')}")
 ```
+
 - **检查**：脚本是否输出预期数字？
 - **调试**：如果没有，分享 XML 结构和 Python 错误
 
 ---
 
 ### **如何有效使用 LLM**
+
 1. **隔离问题**：
    - *"这是我 module-A 的 `pom.xml`。为什么 `jacoco:prepare-agent` 没有添加 VM 参数？"*
    - *（比"帮我为 5 个模块 + Python 设置 Jacoco"更好）*
@@ -86,15 +97,20 @@ print(f"覆盖行数: {coverage.get('covered')}/{coverage.get('missed')}")
 ---
 
 ### **自动化复杂工作流的工具**
+
 由于 LLM 无法管理状态，请使用：
+
 - **Shell 脚本**（例如 `setup_coverage.sh` 来链式执行 Maven/Python 命令）
 - **Makefiles**（定义 `make test-coverage` 来运行所有步骤）
 - **CI 模板**（具有明确步骤的 GitHub Actions/Jenkins 流水线）
 - **Docker**（容器化环境以避免"在我机器上能运行"的问题）
 
 ---
+
 ### **关键要点**
+
 **LLM 就像是超级增强版的 `man` 手册或 Stack Overflow**——对于**独立组件**很出色，但不适合编排整个系统。对于复杂任务：
+
 1. **分解问题**
 2. **验证每个步骤**
 3. **提出有针对性的问题**

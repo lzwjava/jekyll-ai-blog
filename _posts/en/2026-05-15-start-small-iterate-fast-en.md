@@ -35,7 +35,6 @@ You are correct that inference and training share the same "DNA"—the **Transfo
 * **Backpropagation:** Computing gradients through the chain rule.
 * **Optimizers:** Managing states (like Adam’s momentum).
 
-
 * **Why Inference First?** Getting inference right ensures your model's "logic" is sound. If your model can't generate a coherent sentence using pre-trained weights, there is no point in trying to train it. Mastering inference makes the "Forward" part of training a "black box" you already trust.
 
 ---

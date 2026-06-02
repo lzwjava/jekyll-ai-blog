@@ -33,6 +33,7 @@ Tool calling 是 LLM 调用外部函数或服务来完成任务的机制。模�
 这个决定仍然是概率性的——您可以通过 prompts、schema 和 `tool_choice` 来塑造它，但不能像确定性规则引擎那样编程它。
 
 您还可以通过 API 的 `tool_choice` 参数强制指定行为：
+
 - **`auto`** — 模型自行决定（最常见）
 - **`required`** — 强制模型总是调用工具
 - **`none`** — 完全禁止工具调用
@@ -45,12 +46,15 @@ Tool calling 是 LLM 调用外部函数或服务来完成任务的机制。模�
 答案是 **两者都有**，分层应用。这是一个多阶段训练过程：
 
 ### 1. Pre-training（基础知识）
+
 在海量文本语料库上进行 pre-training 时，模型学习通用推理、语言模式和意图识别。LLM 发展出对语言模式、语义关系和意图的深刻理解。当它遇到工具定义时，它学会将用户查询中的特定模式与工具描述的功能关联起来。这不是显式编程，而是从训练数据中学到的关联。
 
 ### 2. Supervised Fine-Tuning (SFT) — 主要机制
+
 教授 tool-calling 的主要方式是通过 **SFT on tool-use trajectories**（正确 tool-calling 行为的示例）。大多数现代 tool-use 语料库是合成的或 bootstrapped 的——如 Toolformer 风格的自标注或 ToolBench 中的大规模生成。对于训练目标，针对工具轨迹的 supervised fine-tuning (SFT) 教授基本的格式化和工具选择。这会 bootstrapping 该行为，通常足以建立技能的基础。
 
 ### 3. Preference Optimization (DPO / RLHF) — 精炼
+
 在 SFT 之后，使用 RLHF 或 DPO 来精炼 *何时* 调用工具 vs. 直接回答。针对轨迹的 preference optimization（例如 DPO）可以改善何时调用工具 vs. 直接回答的决策。对于具有多步工具使用的 agentic 任务，使用环境反馈（任务成功、约束满足）的 RL 成为自然目标——模型从其工具增强动作是否实际解决问题中学到经验。
 
 因此完整流程如下：
@@ -66,11 +70,13 @@ Pre-training → SFT on tool trajectories → DPO/RLHF for when-to-call decision
 **总体上是的，但不完美。** 以下是细致的分析：
 
 **模型擅长：**
+
 - 识别明显的需要工具的查询（例如，“现在天气怎么样？”、“搜索 X”）
 - 当工具描述清晰且命名良好时，选择正确的工具
 - 根据 JSON schema 正确格式化参数
 
 **模型可能挣扎：**
+
 - 工具使用可选的模糊情况
 - 在多个相似工具之间选择
 - 知道 *何时不* 调用工具（过度调用）

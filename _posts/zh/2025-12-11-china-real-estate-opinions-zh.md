@@ -33,6 +33,7 @@ type: note
 这些观点突显了短期痛苦和结构性改革之间的紧张关系，目前尚无简单的解决方案。截至2025年末，价格仍持平或下跌，但在一系列刺激措施下，一线城市的情绪出现了“绿色萌芽”。
 
 参考文献：
+
 - [China’s Real Estate Challenge (IMF)](https://www.imf.org/en/publications/fandd/issues/2024/12/chinas-real-estate-challenge-kenneth-rogoff)
 - [Chinese Property Sector Crisis (Wikipedia)](https://en.wikipedia.org/wiki/Chinese_property_sector_crisis_%282020%E2%80%93present%29)
 - [Is China’s Real Estate Market Near Collapse? (Reddit r/China)](https://www.reddit.com/r/China/comments/1kqz3v6/is_chinas_real_estate_market_near_collapse/)

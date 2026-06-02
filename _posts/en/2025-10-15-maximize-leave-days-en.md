@@ -26,6 +26,7 @@ China's 2025 public holidays (announced officially) offer great opportunities. H
 | National Day + Mid-Autumn | Oct 1-8 | 8 days | Wed-Wed (includes weekends) | No leave needed—golden week crowds, but family epic | 8 days |
 
 **Tips for Arranging Leave:**
+
 - **Book early:** Submit leave requests 1-2 months ahead, especially for bank/contractor roles where approvals can lag. Check your contract for rules on holiday combos.
 - **Prioritize 3-day holidays:** Use 2 leave days to "sandwich" them (e.g., 1 before + 1 after) for a seamless 5-day trip. This leaves 3 days for another short break.
 - **Family focus:** Aim for 4-7 days total to avoid kid fatigue. Fly mid-week to cut costs/crowds. Use high-speed trains for domestic spots under 5 hours from major cities (e.g., Shanghai/Beijing).
@@ -33,6 +34,7 @@ China's 2025 public holidays (announced officially) offer great opportunities. H
 - **Practical:** Factor in school holidays for kids (align with these). Budget for family: Domestic flights ~¥500-1500/person round-trip; hotels ¥800-1500/night for family rooms.
 
 ### Recommended Family-Friendly Destinations
+
 For 5-7 day trips, stick to domestic spots—safe, affordable, and packed with kid-pleasing activities like animals, history, and nature. Assume you're in a big city like Shanghai or Beijing; adjust flights accordingly. Here's a curated list based on popular family picks:
 
 1. **Chengdu (Sichuan) – Pandas & Chill Vibes (Ideal for Dragon Boat or Qingming, 5 days)**

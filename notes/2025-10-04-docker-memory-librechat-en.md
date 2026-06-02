@@ -17,10 +17,12 @@ LibreChat is a resource-heavy app because it runs a full stack: the main LibreCh
 Docker is "easy" because it bundles dependencies, isolates environments, and starts with one command (like `docker compose up`), avoiding manual setup hell. But yeah, the trade-off is resource hogging: containers don't share the host's kernel efficiently, and without tweaks, they balloon.
 
 #### Quick Ways to Cut Memory Usage
+
 Here are practical steps to optimize your setup without ditching Docker entirely:
 
 1. **Limit Resources per Container**:
    - Edit your `docker-compose.yml` file (in the LibreChat repo). Add resource limits under each service. For example:
+
      ```
      services:
        chat-mongodb:
@@ -49,6 +51,7 @@ Here are practical steps to optimize your setup without ditching Docker entirely
              limits:
                memory: 512M
      ```
+
      - Run `docker compose down` then `docker compose up -d` to apply. This won't break things but might slow queries if you hit the caps—monitor with `docker stats`.
 
 2. **Tune Docker Desktop Settings**:
@@ -63,18 +66,22 @@ Here are practical steps to optimize your setup without ditching Docker entirely
    - Ensure you're on the latest LibreChat release (v0.7+ supports M1/M2 natively). Pull with `docker compose pull`.
 
 #### Running Without Docker: Yes, It Could Be Faster/Lighter
+
 Absolutely—skipping Docker removes the VM overhead (saving 0.5-1GB) and lets services run natively on macOS. LibreChat has a manual install guide that uses Node.js, npm, and direct service installs. It might feel snappier on your M2 Air since everything leverages Apple's unified memory without virtualization.
 
 **Pros of Native Install**:
+
 - Lower RAM (expect 1-2GB total).
 - Faster startup and I/O (no container networking).
 - Easier debugging.
 
 **Cons**:
+
 - More setup steps (installing MongoDB/Meilisearch manually via Homebrew).
 - Potential dependency conflicts.
 
 **Quick Native Setup Guide** (for macOS):
+
 1. Install prerequisites:
    - Node.js (v18+): Use Homebrew `brew install node`.
    - MongoDB: `brew tap mongodb/brew && brew install mongodb-community`. Start with `brew services start mongodb/brew/mongodb-community`.
@@ -82,6 +89,7 @@ Absolutely—skipping Docker removes the VM overhead (saving 0.5-1GB) and lets s
    - Yarn: `npm install -g yarn`.
 
 2. Clone and install LibreChat:
+
    ```
    git clone https://github.com/danny-avila/LibreChat.git
    cd LibreChat
@@ -92,11 +100,12 @@ Absolutely—skipping Docker removes the VM overhead (saving 0.5-1GB) and lets s
    yarn dev  # Or yarn start for production
    ```
 
-3. Access at http://localhost:3080. Tweak `.env` to disable RAG if unused.
+3. Access at <http://localhost:3080>. Tweak `.env` to disable RAG if unused.
 
 If you hit snags (e.g., ARM compatibility), the official docs have troubleshooting. This should get you under 2GB easily.
 
 #### Monitoring Tools
+
 - **Activity Monitor** (built-in): Watch "Memory" tab for Docker processes.
 - **docker stats**: Real-time container usage in terminal.
 - If it persists, check LibreChat's GitHub issues—lots of folks on M1/M2 report similar gripes.

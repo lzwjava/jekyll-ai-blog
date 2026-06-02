@@ -32,6 +32,7 @@ This is a valid concern, but in practice:
 **The honest trade-off:**
 
 You're looking at choosing between:
+
 1. **Screen protector:** Better protection from dust and accidental contact, but noticeably worse display quality, more glare in bright light, reduced battery life
 2. **No protector:** Better display quality and brightness, but more vulnerable to dust settling and accidental damage
 

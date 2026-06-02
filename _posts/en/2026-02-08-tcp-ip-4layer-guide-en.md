@@ -11,6 +11,7 @@ type: note
 ---
 
 ## Question Content
+
 This question tests the **four-layer structure of the TCP/IP reference model**.
 
 ## TCP/IP Reference Model - Four Layers
@@ -54,6 +55,7 @@ Network Interface Layer ←→  Data Link Layer, Physical Layer
 **✓ D Application Layer**
 
 **Justification:**
+
 - The TCP/IP reference model has 4 layers in total
 - From bottom to top: Network Interface Layer → Internet Layer → Transport Layer → **Application Layer**
 - The Application Layer provides various network services required by user applications
@@ -61,6 +63,7 @@ Network Interface Layer ←→  Data Link Layer, Physical Layer
 ---
 
 **Learning Tips:**
+
 - Master the correspondence between the TCP/IP four-layer model and the OSI seven-layer model
 - Do not confuse the layer concepts of the two models
 - Remember the characteristics of the TCP/IP model: it simplifies the OSI seven-layer model into four layers

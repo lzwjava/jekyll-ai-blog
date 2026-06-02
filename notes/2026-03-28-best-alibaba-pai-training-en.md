@@ -37,19 +37,23 @@ PAI is Alibaba Cloud's AI development platform covering the full lifecycle: data
 ## From Your Listed Services — When to Use Them
 
 ### 🖥️ ECS (云服务器 ECS)
+
 - Use if you want **full control** over the environment (install CUDA, PyTorch, etc. yourself).
 - The gn7 series of ECS instances power large-scale training tasks with high-performance GPUs, while gn6 series provide a cost-effective choice for model inference tasks.
 - Best for: experienced users who prefer manual setup.
 
 ### ⚡ 弹性加速计算实例 (Elastic Accelerated Computing Instances)
+
 - GPU/FPGA-optimized instances, a subset of ECS.
 - Good raw compute for training if you manage your own software stack.
 
 ### 🏗️ 弹性高性能计算 E-HPC (Elastic HPC)
+
 - Best for **large-scale distributed training** across many nodes (HPC-style workloads).
 - Suitable for scientific computing and very large model training clusters.
 
 ### 📦 批量计算 (Batch Compute)
+
 - Good for **offline batch training jobs** that run periodically, not interactive training.
 
 ### ❌ Not Recommended for Model Training

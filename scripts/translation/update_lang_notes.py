@@ -92,7 +92,6 @@ def main():
     args = parser.parse_args()
     target_language = args.lang
     input_file = args.file
-    max_files = args.max_files
     model = args.model
     n = args.n
 

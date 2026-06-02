@@ -25,7 +25,7 @@ Here is a clear, step-by-step guide to install **Fedora Linux** (as of 2026, the
 #### Step 1 – Download Fedora
 
 - Go to the official website:
-  https://getfedora.org/
+  <https://getfedora.org/>
 
 - Choose **Fedora Workstation** (most popular choice)
 
@@ -62,6 +62,7 @@ Replace `/dev/sdX` with your USB device (use `lsblk` to check — **be careful!*
 - Select the USB drive
 
 If it doesn't appear → enter BIOS/UEFI (usually Del, F2, F10) and:
+
 - Disable **Secure Boot** (recommended for first install)
 - Set USB as first boot device or enable “UEFI USB boot”
 
@@ -97,6 +98,7 @@ The graphical installer has these main steps:
 - Click **Reboot**
 
 First boot:
+
 - GNOME welcome / tour appears
 - Connect to Wi-Fi if needed
 - Log in with the user you created

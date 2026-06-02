@@ -30,6 +30,7 @@ type: note
 ClawPort 是 Claude Code 代理团队的免费开源可视化命令中心。它提供 org map、agent chat、kanban board、cron pipeline monitor、cost dashboard、live log streaming 和 memory browser——全部在一个仪表板中。
 
 Install it:
+
 ```bash
 npm install -g clawport
 clawport setup   # auto-detects your OpenClaw workspace
@@ -37,6 +38,7 @@ clawport dev     # launches the dashboard
 ```
 
 What you can see:
+
 - 哪个代理正在运行以及它当前使用什么工具
 - Kanban board：queued → in progress → done
 - Live log stream

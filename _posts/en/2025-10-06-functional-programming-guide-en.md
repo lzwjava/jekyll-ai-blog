@@ -15,12 +15,14 @@ Java has embraced functional programming principles since Java 8, introducing la
 ## 1. Introduction to Functional Programming in Java
 
 Functional programming (FP) emphasizes:
+
 - **Pure functions**: Functions with no side effects (e.g., no mutable state changes).
 - **Immutability**: Data doesn't change once created.
 - **Higher-order functions**: Functions that take or return other functions.
 - **Declarative style**: Focus on *what* to do, not *how* (e.g., via streams instead of loops).
 
 Java isn't purely functional like Haskell, but it blends FP with its object-oriented roots. Key enablers:
+
 - Lambda expressions (anonymous functions).
 - Functional interfaces (interfaces with one abstract method).
 - Streams API for processing collections functionally.
@@ -32,7 +34,9 @@ Benefits: Reduced boilerplate, easier parallelism, better composability.
 Lambdas are anonymous functions used for short, one-off implementations. They're the gateway to FP in Java.
 
 ### Basic Syntax
+
 A lambda is: `(parameters) -> { body }`
+
 - Parentheses optional for single param.
 - Braces optional for single expression (implicit return).
 - Type inference often works, but you can specify types.
@@ -52,6 +56,7 @@ lambda.run();
 ```
 
 ### With Parameters
+
 ```java
 // Binary operator example
 BinaryOperator<Integer> add = (a, b) -> a + b;
@@ -65,7 +70,9 @@ Comparator<String> comparator = (s1, s2) -> {
 ```
 
 ### Capturing Variables (Effectively Final)
+
 Lambdas can access outer variables, but they must be **effectively final** (not reassigned).
+
 ```java
 int threshold = 10;
 Predicate<Integer> isHigh = x -> x > threshold; // OK
@@ -77,6 +84,7 @@ Predicate<Integer> isHigh = x -> x > threshold; // OK
 A functional interface has exactly one abstract method (SAM - Single Abstract Method). Java provides built-ins in `java.util.function`.
 
 ### Built-in Examples
+
 - `Predicate<T>`: `boolean test(T t)`
 - `Function<T, R>`: `R apply(T t)`
 - `Consumer<T>`: `void accept(T t)`
@@ -84,6 +92,7 @@ A functional interface has exactly one abstract method (SAM - Single Abstract Me
 - `BiFunction<T, U, R>`, etc., for two inputs.
 
 Custom ones:
+
 ```java
 @FunctionalInterface  // Optional, but good practice
 interface Transformer {
@@ -97,7 +106,9 @@ System.out.println(upper.transform("java")); // JAVA
 Use `@FunctionalInterface` to enforce SAM.
 
 ### Default and Static Methods
+
 Functional interfaces can have defaults (Java 8+), like `Optional.orElse()`.
+
 ```java
 default int compare(String a, String b) { ... } // Allowed
 static void utility() { ... } // Allowed
@@ -108,12 +119,14 @@ static void utility() { ... } // Allowed
 Shorthand for lambdas invoking existing methods. Syntax: `Class::method` or `instance::method`.
 
 Types:
+
 - Static: `Class::staticMethod`
 - Instance of specific type: `Class::instanceMethod`
 - Instance of arbitrary object: `object::instanceMethod`
 - Constructor: `Class::new`
 
 Examples:
+
 ```java
 // Lambda: x -> System.out.println(x)
 Consumer<String> printer = System.out::println;
@@ -134,6 +147,7 @@ Supplier<List<String>> listSupplier = ArrayList::new;
 Streams process collections declaratively: create → transform → collect. Lazy evaluation (intermediate ops don't run until terminal op).
 
 ### Creating Streams
+
 ```java
 import java.util.*;
 import java.util.stream.*;
@@ -152,7 +166,9 @@ Stream<Integer> infinite = Stream.iterate(0, n -> n + 1);
 ```
 
 ### Intermediate Operations (Lazy)
+
 Chain them; no computation until terminal.
+
 - `filter(Predicate)`: Keep matching elements.
 - `map(Function)`: Transform each.
 - `flatMap(Function<? super T, ? extends Stream<? extends R>>)`: Flatten nested streams.
@@ -167,7 +183,9 @@ List<Integer> evensSquared = numbers.stream()
 ```
 
 ### Terminal Operations (Eager)
+
 Trigger computation and return a result.
+
 - `collect(Collector)`: To list, set, map.
 - `forEach(Consumer)`: Side-effect (avoid if possible).
 - `reduce()`: Aggregate (e.g., sum).
@@ -187,7 +205,9 @@ Map<Integer, List<String>> byLength = names.stream()
 ```
 
 ### Parallel Streams
+
 For parallelism: `parallelStream()` or `.parallel()`. Use cautiously (debugging harder).
+
 ```java
 long count = names.parallelStream().count(); // 3
 ```
@@ -197,6 +217,7 @@ long count = names.parallelStream().count(); // 3
 From `java.util.stream.Collectors`. Build complex reductions.
 
 Common:
+
 - `toList()`, `toSet()`, `toMap()`
 - `joining()`: Concat strings.
 - `summingInt()`, `averagingDouble()`
@@ -219,11 +240,13 @@ Map<Boolean, List<Integer>> partitions = numbers.stream()
 Avoids `NullPointerException` by wrapping potentially null values. Encourages explicit null handling.
 
 Creation:
+
 - `Optional.of(value)`: Non-null.
 - `Optional.ofNullable(value)`: Null → empty.
 - `Optional.empty()`.
 
 Operations:
+
 - `isPresent()`, `ifPresent(Consumer)`
 - `orElse(default)`, `orElseThrow()`
 - `map()`, `flatMap()` for chaining.
@@ -242,7 +265,9 @@ Streams often return `Optional` (e.g., `findFirst()`).
 ## 8. Advanced Topics
 
 ### Composable Functions
+
 `Function.andThen()`, `Function.compose()` for chaining.
+
 ```java
 Function<String, Integer> len = String::length;
 Function<Integer, String> toStr = i -> "Len: " + i;
@@ -252,15 +277,19 @@ System.out.println(chain.apply("Java")); // Len: 4
 ```
 
 ### Recursion and Tail Calls
+
 Java lacks optimization, but use `Stream.iterate()` for iterative recursion.
 
 ### Immutability Helpers
+
 Use `Collections.unmodifiableList()` or libraries like Guava/Immutable Collections (though built-in since Java 10+ with `List.of()`).
 
 `List.of("a", "b")` creates immutable lists (Java 9+).
 
 ### Pattern Matching (Java 21+ Preview/Stable)
+
 Enhances FP with destructuring in switches.
+
 ```java
 // Preview feature; enable with --enable-preview
 String desc = switch (obj) {
@@ -271,6 +300,7 @@ String desc = switch (obj) {
 ```
 
 ### Virtual Threads (Java 21+)
+
 FP shines with lightweight threads for concurrent streams.
 
 ## 9. Best Practices
@@ -284,6 +314,7 @@ FP shines with lightweight threads for concurrent streams.
 - **Readability**: Short lambdas are fine; extract methods for complex logic.
 
 Common pitfalls:
+
 - Modifying external state in lambdas.
 - Forgetting terminal operation (streams do nothing!).
 - Overusing parallel streams (not always faster).
@@ -336,6 +367,7 @@ public class FunctionalExample {
 Lambdas and FP transform Java from imperative to expressive. Start with simple replacements (e.g., `forEach` over loops), then build pipelines. Practice on real projects for mastery. For deeper dives, experiment in an IDE.
 
 ### References
+
 - [Oracle Java Tutorials: Lambda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
 - [Baeldung: Java 8 Functional Interfaces](https://www.baeldung.com/java-functional-interfaces)
 - [Java Streams Guide](https://www.baeldung.com/java-8-streams)

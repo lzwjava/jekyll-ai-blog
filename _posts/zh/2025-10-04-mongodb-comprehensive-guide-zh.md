@@ -15,6 +15,7 @@ MongoDB 是一种流行的开源 NoSQL 文档数据库，专为现代应用开�
 ## 简介
 
 MongoDB 在需要快速开发、灵活数据模型和高性能的场景中表现出色。主要特性包括：
+
 - **文档模型**：将数据存储为具有嵌套结构的自包含文档
 - **查询语言**：使用类 JavaScript 对象语法的丰富查询功能
 - **可扩展性**：内置分布式系统支持
@@ -27,6 +28,7 @@ MongoDB 在需要快速开发、灵活数据模型和高性能的场景中表现
 MongoDB 提供社区版（免费开源）和企业版。安装方法因平台而异；请始终从官网下载以确保安全。
 
 ### Windows 系统
+
 - 从 MongoDB 下载中心获取 MSI 安装程序
 - 运行安装程序，选择"完整"安装，可包含 MongoDB Compass（图形化工具）
 - 将 MongoDB 的 `bin` 目录（如 `C:\Program Files\MongoDB\Server\8.0\bin`）添加到 PATH 环境变量
@@ -36,6 +38,7 @@ MongoDB 提供社区版（免费开源）和企业版。安装方法因平台而
 支持：Windows 11、Server 2022/2019
 
 ### macOS 系统
+
 - 使用 Homebrew：`brew tap mongodb/brew && brew install mongodb-community`
 - 或下载 TGZ 压缩包，解压后添加至 PATH
 - 创建数据目录：`mkdir -p /data/db`
@@ -44,6 +47,7 @@ MongoDB 提供社区版（免费开源）和企业版。安装方法因平台而
 支持：macOS 11–14（x86_64 和 arm64 架构）
 
 ### Linux 系统
+
 - Ubuntu/Debian：添加 MongoDB 仓库密钥和列表后执行 `apt-get install -y mongodb-org`
 - RHEL/CentOS：使用 yum/dnf 配合仓库文件安装
 - 创建数据目录：`sudo mkdir -p /data/db && sudo chown -R $USER /data/db`
@@ -52,6 +56,7 @@ MongoDB 提供社区版（免费开源）和企业版。安装方法因平台而
 支持：Ubuntu 24.04、RHEL 9+、Debian 12、Amazon Linux 2023 等。建议使用 XFS/EXT4 文件系统，避免 32 位系统
 
 ### 云端（MongoDB Atlas）
+
 - 在 mongodb.com/atlas 注册账号
 - 通过界面或 CLI 创建免费集群：`atlas clusters create <名称> --provider AWS --region us-east-1 --tier M0`
 - 设置 IP 白名单：`atlas network-access create <IP地址>`
@@ -62,25 +67,33 @@ Atlas 自动处理备份、扩展和监控功能
 ## 核心概念
 
 ### 数据库
+
 作为集合的容器，实现数据逻辑分离。首次使用时隐式创建：`use mydb`。切换数据库：`use mydb`。列出数据库：`show dbs`
 
 ### 集合
+
 文档的分组，类似表但具有模式灵活性。隐式创建：`db.mycollection.insertOne({})`。列出集合：`show collections`
 
 ### 文档
+
 数据基本单元：包含键值对的 BSON 对象。示例：
+
 ```javascript
 { "_id": ObjectId("..."), "name": "John", "age": 30, "address": { "city": "NYC", "zip": 10001 } }
 ```
+
 支持数组、嵌套对象及日期、二进制等数据类型
 
 ### BSON
+
 二进制格式，提供高效存储和网络传输。在 JSON 基础上扩展了 ObjectId、Date、Binary 等类型
 
 ### 命名空间
+
 唯一标识符格式：`数据库.集合`（如 `mydb.orders`）
 
 配置示例：
+
 ```javascript
 use test
 db.orders.insertMany([
@@ -94,22 +107,26 @@ db.orders.insertMany([
 在 mongosh 中使用 `db.collection.method()` 语法。多文档 ACID 事务通过会话实现
 
 ### 创建（插入）
+
 - 单文档：`db.users.insertOne({ name: "Alice", email: "alice@example.com" })`
 - 多文档：`db.users.insertMany([{ name: "Bob" }, { name: "Charlie" }])`
 返回插入的文档 ID
 
 ### 读取（查询）
+
 - 全部文档：`db.users.find()`
 - 条件筛选：`db.users.find({ age: { $gt: 25 } })`
 - 格式化输出：`.pretty()`
 - 限制/排序：`db.users.find().limit(5).sort({ age: -1 })`
 
 ### 更新
+
 - 单文档：`db.users.updateOne({ name: "Alice" }, { $set: { age: 31 } })`
 - 多文档：`db.users.updateMany({ age: { $lt: 20 } }, { $set: { status: "minor" } })`
 - 数值递增：`{ $inc: { score: 10 } }`
 
 ### 删除
+
 - 单文档：`db.users.deleteOne({ name: "Bob" })`
 - 多文档：`db.users.deleteMany({ status: "inactive" })`
 - 删除集合：`db.users.drop()`
@@ -117,6 +134,7 @@ db.orders.insertMany([
 ## 查询与索引
 
 ### 查询操作
+
 使用谓词条件进行筛选。支持等值、范围、逻辑运算等操作
 
 - 基础查询：`db.inventory.find({ status: "A" })`（等效 SQL：`WHERE status = 'A'`）
@@ -129,6 +147,7 @@ db.orders.insertMany([
 字段投影：`db.users.find({ age: { $gt: 25 } }, { name: 1, _id: 0 })`
 
 ### 索引机制
+
 通过避免全表扫描提升查询速度。基于 B 树结构
 
 - 索引类型：单字段（`db.users.createIndex({ name: 1 })`）、复合（`{ name: 1, age: -1 }`）、唯一（`{ email: 1 }`）
@@ -146,6 +165,7 @@ db.orders.insertMany([
 - 基础聚合：`db.orders.aggregate([ { $match: { price: { $lt: 15 } } } ])`
 - 处理阶段：`$match`（筛选）、`$group`（聚合：`{ $sum: "$price" }`）、`$sort`、`$lookup`（关联：`{ from: "inventory", localField: "item", foreignField: "sku", as: "stock" }`）、`$project`（重塑文档结构）
 - 示例（关联与排序）：
+
 ```javascript
 db.orders.aggregate([
   { $match: { price: { $lt: 15 } } },
@@ -153,6 +173,7 @@ db.orders.aggregate([
   { $sort: { price: 1 } }
 ])
 ```
+
 表达式运算：`{ $add: [ "$price", 10 ] }`。可在 Atlas 界面预览聚合结果
 
 ## 模式设计
@@ -170,6 +191,7 @@ MongoDB 的灵活性避免了刚性模式约束，但需要为性能进行周密
 ## 复制与分片
 
 ### 复制机制
+
 通过副本集（一组 `mongod` 实例）提供冗余和高可用性
 
 - 核心组件：主节点（写入）、从节点（通过操作日志复制，可选读取）、仲裁节点（投票，不存储数据）
@@ -179,6 +201,7 @@ MongoDB 的灵活性避免了刚性模式约束，但需要为性能进行周密
 - 适用于故障转移、备份场景。启用流控制管理复制延迟
 
 ### 分片架构
+
 水平扩展方案：将数据分布到多个分片
 
 - 核心组件：分片（副本集）、Mongos（路由节点）、配置服务器（元数据存储）
@@ -215,6 +238,7 @@ MongoDB 的灵活性避免了刚性模式约束，但需要为性能进行周密
 开发环境建议使用 Atlas M0 免费层级。使用 `mongoperf` 测试工作负载
 
 ## 参考资源
+
 - [MongoDB 官方手册](https://www.mongodb.com/docs/manual/)
 - [MongoDB 安装指南](https://www.mongodb.com/docs/manual/installation/)
 - [MongoDB 核心概念](https://www.mongodb.com/docs/manual/core/)

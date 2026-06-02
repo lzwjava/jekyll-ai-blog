@@ -19,23 +19,32 @@ type: note
 ImageMagick 是功能强大的命令行图像处理套件，应用广泛。
 
 * **安装方法：**
+
   ```bash
   sudo apt update
   sudo apt install imagemagick
   ```
+
 * **单文件转换：**
+
   ```bash
   convert input.webp output.jpg
   ```
+
   若使用 ImageMagick v7+ 版本的 `magick` 命令：
+
   ```bash
   magick input.webp output.jpg
   ```
+
 * **当前目录批量转换：**
+
   ```bash
   mogrify -format JPEG *.webp
   ```
+
   此命令会将当前目录所有 `.webp` 文件转换为同文件名 `.jpeg`（或 `.jpg`）格式。若需保存至独立目录：
+
   ```bash
   mkdir output_jpgs # 创建输出目录
   mogrify -format JPEG -path output_jpgs *.webp
@@ -46,15 +55,20 @@ ImageMagick 是功能强大的命令行图像处理套件，应用广泛。
 `dwebp` 是专用于解码 WebP 图像的工具。
 
 * **安装方法：**
+
   ```bash
   sudo apt update
   sudo apt install webp
   ```
+
 * **单文件转换：**
+
   ```bash
   dwebp input.webp -o output.jpg
   ```
+
   虽然指定了 `.jpg` 输出格式，但 `dwebp` 通常输出 PPM 格式，需配合 ImageMagick 等工具转成标准 JPEG。若遇问题可先转 PNG 再转 JPG：
+
   ```bash
   dwebp input.webp -o output.png
   convert output.png output.jpg
@@ -65,18 +79,24 @@ ImageMagick 是功能强大的命令行图像处理套件，应用广泛。
 `ffmpeg` 主要处理音视频，但也支持图像格式转换。
 
 * **安装方法：**
+
   ```bash
   sudo apt update
   sudo apt install ffmpeg
   ```
+
 * **单文件转换：**
+
   ```bash
   ffmpeg -i input.webp output.jpg
   ```
+
 * **批量转换：**
+
   ```bash
   for file in *.webp; do ffmpeg -i "$file" "${file%.*}.jpg"; done
   ```
+
   该命令会遍历当前目录所有 `.webp` 文件并转换为同文件名 `.jpg` 格式（如 `image.webp` 转换为 `image.jpg`）。
 
 ## 图形界面工具
@@ -88,10 +108,12 @@ ImageMagick 是功能强大的命令行图像处理套件，应用广泛。
 GIMP 是支持 WebP 格式的开源图像编辑器。
 
 * **安装方法：**
+
   ```bash
   sudo apt update
   sudo apt install gimp
   ```
+
 * **转换步骤：**
   1. 在 GIMP 中打开 WebP 图像（文件 > 打开）
   2. 选择 文件 > 导出为

@@ -19,6 +19,7 @@ Spotlight 已**永久禁用**。以下是具体情况：
 | 重启后：15 分钟的 CPU 地狱 | 重启后：无任何操作 |
 
 **更改内容**：
+
 - `sudo mdutil -a -i off` — 在 `/`、`/System/Volumes/Data`、`/System/Volumes/Preboot` 上关闭索引
 - mds 守护进程仍然存在（Apple 限制无法完全关闭），但**处于空闲状态，占用 471 MB 内存且 CPU 0%**，而非之前的 14 GB + 90% CPU
 - `Cmd+Space` 仍可从现有索引启动应用，但不会搜索文件内容或为新文件建立索引

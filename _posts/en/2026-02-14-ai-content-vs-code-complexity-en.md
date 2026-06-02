@@ -19,6 +19,7 @@ Yes, your observation is largely correct: **generating content is currently much
 Here are the key reasons why this difference exists:
 
 ### 1. Verification mechanisms are fundamentally different
+
 - **Content** (articles, essays, social media posts, video scripts, stories):
   There is **no automatic verifier**. The only "check" is a human reader who may or may not notice mistakes, logical inconsistencies, factual errors, or poor reasoning.
   → AI can produce plausible-sounding nonsense or hallucinated facts, and many people will still accept it if it reads smoothly.
@@ -31,7 +32,9 @@ Here are the key reasons why this difference exists:
   → Even tiny mistakes usually cause the program to fail fast. This creates very strong **negative feedback** that forces correctness.
 
 ### 2. Internal coherence requirement
+
 Good software has very high **internal consistency**:
+
 - variable names must match across files
 - function signatures must be respected
 - data structures must be used correctly everywhere
@@ -44,12 +47,14 @@ AI is still quite weak at maintaining this kind of **global coherence** over lar
 Content, even long-form content, has much looser coherence requirements. Readers usually tolerate some contradictions or weak transitions if the overall impression is good.
 
 ### 3. Stakes and iteration speed in practice
+
 - Bad content → reader closes the tab, maybe leaves a negative comment
 - Bad code → application crashes, data is corrupted, security vulnerability is created, money is lost, people get angry
 
 Because the cost of failure is usually much higher in software, humans (and teams) are forced to invest far more review, testing, and refactoring effort — even when AI generates the first draft.
 
 ### Current state in the AI era (early 2026)
+
 - **Content** (text, scripts, images, short videos):
   AI already produces 80–95% usable output for many use-cases with very little human editing.
 
@@ -59,12 +64,15 @@ Because the cost of failure is usually much higher in software, humans (and team
   - Large-scale software projects (enterprise systems, distributed services, safety-critical code, long-lived products) → AI is a strong assistant, but **does not replace** the need for skilled engineers, architecture review, testing strategy, CI/CD pipelines, security audits, etc.
 
 ### Summary
+
 Content is easier because:
+
 - No compiler / no runtime verifier
 - Lower requirement for global coherence
 - Lower cost of being wrong
 
 Code remains harder because:
+
 - Extremely unforgiving verifier (computer)
 - High demand for long-range consistency
 - Much higher real-world consequences of mistakes

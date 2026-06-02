@@ -20,18 +20,23 @@ There are actually **multiple red flags** in your situation that likely triggere
 ## Why Amazon Closed Your Account
 
 ### 1. Fake / Mismatched Billing Address
+
 This is almost certainly the **primary trigger**. A mismatched billing name or address is one of the most common reasons Amazon's verification system rejects documents and flags accounts. You used a fake US billing address while your OCBC card and real identity are from Singapore/China. Amazon's system cross-checks the address on your payment method against the address in your account — if they don't match, it raises an immediate fraud alert.
 
 ### 2. Wrong Type of Verification Document
+
 Amazon asked you to verify your **identity**, but you uploaded a **bank account statement screenshot** instead of a government-issued ID. Amazon requires a valid, unexpired government-issued ID (passport or driver's license) and a recent bank or credit card statement — your documents must be an exact legal entity match. A screenshot of your bank statement's first page is not the same as a proper identity document.
 
 ### 3. Foreign Card + Fake US Address = High Fraud Score
+
 Amazon's fraud detection is triggered by factors such as sudden changes to bank accounts or credit cards on file, and unusual logins from a new IP address or country. Using a Singapore card but claiming a US address is exactly the kind of inconsistency that automated systems flag as potentially fraudulent.
 
 ### 4. High-Volume Gift Card Purchases Are a Major Red Flag
+
 Amazon is extremely alert to gift card purchasing patterns because scammers frequently use Amazon accounts to buy gift cards. If your account's main purchase pattern was repeatedly buying Apple gift cards using a foreign card with a fake US address, this pattern strongly resembles known fraud patterns in Amazon's systems. Amazon's fraud algorithms treat bulk gift card purchases with mismatched payment details as very high risk.
 
 ### 5. Decision Is Final
+
 The email you received states the decision is final. Amazon takes verification very seriously to maintain platform integrity, and once an account is flagged for providing inaccurate information — such as an incorrect address — the hold or closure can become permanent if identity cannot be verified.
 
 ---

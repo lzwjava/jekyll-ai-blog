@@ -39,7 +39,6 @@ type: note
 
 这可能是您最有力的观点：
 
-
 | Tool | Approximate Age | Backing |
 |---|---|---|
 | Selenium | 20+ years | Open source, Google, Sauce Labs |
@@ -75,7 +74,6 @@ type: note
 ---
 
 ## 总结
-
 
 | 构建自定义工具的风险 | 影响 |
 |---|---|

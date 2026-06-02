@@ -22,21 +22,25 @@ Sometimes `flutter clean` can appear to "hang" on macOS — especially if there 
 
 2. **Clean manually (same effect as `flutter clean`)**
    You can delete these build/cache folders yourself:
+
    ```bash
    rm -rf build/ .dart_tool/ ios/Pods ios/Podfile.lock ios/Flutter/Flutter.framework ios/Flutter/Flutter.podspec
    ```
 
    If you also want Xcode’s cache gone:
+
    ```bash
    rm -rf ~/Library/Developer/Xcode/DerivedData
    ```
 
 3. **Re-get dependencies**
+
    ```bash
    flutter pub get
    ```
 
 4. **Reinstall CocoaPods (for iOS)**
+
    ```bash
    cd ios
    pod install --repo-update
@@ -44,6 +48,7 @@ Sometimes `flutter clean` can appear to "hang" on macOS — especially if there 
    ```
 
 5. **Build/run again**
+
    ```bash
    flutter run
    ```

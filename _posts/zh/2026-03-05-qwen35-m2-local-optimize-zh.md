@@ -12,6 +12,7 @@ type: note
 **是的，`qwen3.5:9b` 在 MacBook Air M2 上（尤其是基础 8GB 或 16GB 配置）仍然会感觉明显较慢，与在线 Grok、Mistral 或类似云服务的近即时流式传输相比——但它通常可用，许多优化措施可以在 2026 年显著缩小差距。**
 
 ### MacBook Air M2 上的典型真实世界速度
+
 - 使用 Metal 加速的 Ollama（Apple Silicon 默认）：在 16GB M2 Air 上生成 **~25–45 tokens/second** (t/s)，取决于上下文长度、量化以及提示复杂性。
   - 简短响应感觉很快（一段话 ~2–5 秒）。
   - 较长或复杂推理 → 10–30+ 秒，与云服务的亚秒级启动 + 快速流式传输相比感觉“慢”。
@@ -21,6 +22,7 @@ type: note
 在 2026 年，许多人确实运行本地模型——本地 LLM 使用量已大幅增长（数千万用户定期使用 Ollama/LM Studio/MLX 等工具在个人硬件上），驱动因素包括隐私、零成本、离线访问，以及 Qwen3.5 等模型媲美较旧云前沿模型。它在开发者、研究人员和注重隐私的用户中尤其流行，尽管大多数休闲用户仍偏好云服务以获得原始速度/便利性。
 
 ### 如何改善 MacBook Air M2 上的速度
+
 1. **使用更轻量化的量化或更小的模型变体**
    - 坚持默认 Q4_K_M（~6.6GB），但如果可用可试 Q3_K_M 或 Q2_K（更快，质量略低）。
    - 切换到更小的 Qwen3.5 变体：4B 或 2B 模型运行速度快 2–3×（~50–80+ t/s），简单任务几乎无明显质量下降。
@@ -49,6 +51,7 @@ type: note
 通过这些调整，许多 M2 Air 用户报告“足够好”的日常使用（比 2024 年初本地尝试快），尽管云服务在超响应感觉上仍占优。如果速度是首要优先级，云服务仍是王者；对于隐私/离线，本地（带优化）在 2026 年非常可行。
 
 References:
+
 - [Ollama Qwen3.5:9b 模型页面](https://ollama.com/library/qwen3.5:9b)
 - [2026 年 Apple Silicon 上最佳本地 LLM 指南](https://apxml.com/posts/best-local-llm-apple-silicon-mac)
 - [Reddit 上关于 M2 Air Ollama 性能讨论](https://www.reddit.com/r/ollama/comments/1n7uhkv/hows_your_experience_running_ollama_on_apple)

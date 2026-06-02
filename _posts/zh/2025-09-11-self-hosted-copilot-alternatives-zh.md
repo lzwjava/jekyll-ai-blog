@@ -65,13 +65,13 @@ type: note
 
 ### **你的后续步骤**
 
-1.  **评估硬件：** FauxPilot和Privy可能需要不错的GPU；Tabby更轻量。
-2.  **选择一个运行时/框架：**
-    *   **Tabby**：具有编辑器支持的全面选择。
-    *   **FauxPilot**：类似Copilot，使用Docker和Triton。
-    *   **Privy**：灵活、模型无关的设置。
-    *   **Ollama + LLM**：纯粹的DIY——如果你习惯自己构建端点，这是个好选择。
-3.  **连接到你的IDE：** VS Code（或其他IDE）支持通过本地端点使用这些工具，就像Copilot一样。
+1. **评估硬件：** FauxPilot和Privy可能需要不错的GPU；Tabby更轻量。
+2. **选择一个运行时/框架：**
+    * **Tabby**：具有编辑器支持的全面选择。
+    * **FauxPilot**：类似Copilot，使用Docker和Triton。
+    * **Privy**：灵活、模型无关的设置。
+    * **Ollama + LLM**：纯粹的DIY——如果你习惯自己构建端点，这是个好选择。
+3. **连接到你的IDE：** VS Code（或其他IDE）支持通过本地端点使用这些工具，就像Copilot一样。
 
 如果你需要针对任何特定工具的入门帮助或设置步骤指导，请告诉我！
 

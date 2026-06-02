@@ -38,22 +38,27 @@ type: note
 常见的网球伤病包括 lateral epicondylitis (tennis elbow)、rotator cuff 和 labral shoulder injuries、lumbar stress injuries、patellar tendinopathy、ankle sprains 和 wrist injuries。球员中最常见的伤病位于下肢，其次是上肢和躯干。
 
 ### Tennis Elbow
+
 Lateral epicondylitis (tennis elbow) 是指前臂肌肉连接到肘部外侧的肌腱发炎。它通常是过度使用导致的结果，在打网球和其他球拍运动的运动员中很常见。
 
 ### Shoulder Injuries
+
 肩部伤病是网球运动员的常见问题，特别是那些经常进行过顶动作（如发球和击地滚球）的球员。Rotator cuff tendinitis 发生在 rotator cuff 肌肉的肌腱由于过度使用或重复压力而发炎或刺激时，导致肩部疼痛和无力，特别是过顶活动时。
 
 一项针对竞技青少年网球运动员的研究发现，24% 的球员报告有当前或过去的肩痛，在较年长球员群体中患病率上升到约 50%。
 
 ### Back Pain & Stress Fractures
+
 Stress fractures 在网球中很常见，因为发球需要躯干的过度伸展、侧弯和旋转。这种动作会对下背椎骨造成压力，并最终导致骨折。硬地球场会对身体造成更大的冲击——红土和草地球场更柔软，能减少压力。
 
 根据一项针对 148 名职业网球运动员的研究，背痛导致 39% 的球员至少退出过一场赛事，29% 报告有慢性背痛。
 
 ### Knee Injuries
+
 膝盖在网球场上跑步、停步和转身时承受大量重量和力量。Patellar tendinitis（jumper's knee）涉及髌腱发炎，由重复跳跃或落地活动引起。ACL injuries 由于突然停步、方向改变和转身动作也相对常见。
 
 ### Ankle Sprains
+
 网球的动态特性以快速加速、减速和方向改变为特征，这会给脚踝带来巨大压力。Ankle sprains 发生在脚向内或向外翻滚时，导致韧带拉伸或撕裂。
 
 ---
@@ -75,6 +80,7 @@ Stress fractures 在网球中很常见，因为发球需要躯干的过度伸展
 大多数伤病可以通过适当体能训练、正确技术、合适装备以及及早寻求医疗帮助来最小化或预防。
 
 为了降低伤病风险，球员应：
+
 - 适当热身和放松
 - 使用正确技术和合适尺寸的球拍
 - **逐步**增加训练负荷，而不是突然增加

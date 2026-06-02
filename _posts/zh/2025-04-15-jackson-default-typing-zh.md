@@ -19,11 +19,13 @@ Jackson 的 `ObjectMapper` 是 Jackson JSON 库中用于 Java 对象与 JSON 相
 ### 工作机制解析
 
 启用默认类型机制会改变序列化过程：
+
 1. **序列化**：当序列化对象图时，Jackson 会在 JSON 中添加特殊的 `@class` 字段或类似元数据，用于标识多态对象的运行时类型。这仅发生在声明类型未完全指定具体类的场景（例如包含 `String` 和 `Integer` 的 `List`，或抽象类字段）。
 
 2. **反序列化**：在反序列化过程中，映射器利用嵌入的类型信息查找并实例化精确的类。通过 Jackson 的 `TypeFactory` 实现动态类型解析。
 
 启用方式（调用 `ObjectMapper` 实例的方法）：
+
 - `mapper.enableDefaultTyping()`：已弃用方法，启用恒定时间多态类型包含（存在安全风险）
 - `mapper.activateDefaultTyping(ObjectMapper.DefaultTyping policy)`：Jackson 2.10 引入的更安全方案，需指定枚举值：
   - `JAVA_LANG_OBJECT`：为所有 `Object` 引用添加类型信息
@@ -31,6 +33,7 @@ Jackson 的 `ObjectMapper` 是 Jackson JSON 库中用于 Java 对象与 JSON 相
   - `NON_FINAL`：为非 final 类添加类型信息
 
 使用示例：
+
 ```java
 import com.fasterxml.jackson.databind.ObjectMapper;
 import static com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping;

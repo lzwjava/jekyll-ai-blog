@@ -37,6 +37,7 @@ type: note
 简而言之，真正不受欢迎的观点是，“永远不要盖过上司的风头”是朝臣和中层管理者的生存法则，而不是创始人、创造者或任何打算最终成为上司的人的成功法则。在某个时候，你必须打破这条规则——或者选择不需要强制执行它的上司。
 
 参考文献：
+
 - [Robert Greene的《权力48定律》（该定律的原始来源）](https://en.wikipedia.org/wiki/The_48_Laws_of_Power)
 - [Peter Thiel的《从0到1》（关于初创公司中超越的隐含反驳）](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296)
 - [Ben Horowitz的《创业维艰》（关于如何处理才华横溢但具有威胁性的下属）](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205)

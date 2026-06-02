@@ -27,6 +27,7 @@ Released on medical parole in 2002 at age 74—blind in one eye, frail, and penn
 Chu passed away on March 5, 2019, at 91 from diabetes complications, leaving a legacy that inspired tycoons like Jack Ma. His son, Chu Yibin, took over the orange empire, which went public ambitions by 2025. Chu's story—from wartime shadows to boardroom titan, prison cell to orchard bloom—embodies China's reform-era grit: fall seven times, rise eight.
 
 #### References
+
 - [Chu Shijian - Wikipedia](https://en.wikipedia.org/wiki/Chu_Shijian)
 - [Chu Shijian---The Legendary Life of China’s Cigarette King](https://www.yunnanexploration.com/chu-shijian-the-legendary-life-of-chinas-cigarette-king.html)
 - [Chu Shijian, from tobacco king to emperor of oranges](http://www.szdaily.com/content/2019-03/08/content_21455415.htm)

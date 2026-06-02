@@ -24,6 +24,7 @@ Control-M, BMC Software's workload automation and orchestration platform, is wid
 These opinions highlight a divide: while Control-M excels in massive, hybrid environments, it's often criticized for legacy baggage in an era of agile, cloud-native automation.
 
 References:
+
 - [Control-M Thoughts? Worth it in 2024? (Reddit r/devops)](https://www.reddit.com/r/devops/comments/1cmkkax/controlm_thoughts_worth_it_in_2024/)
 - [Control-M Reviews & Ratings 2025 (TrustRadius)](https://www.trustradius.com/products/control-m/reviews)
 - [Compare Top 10 Control-M Alternatives (AIMultiple)](https://research.aimultiple.com/controlm-alternatives/)

@@ -32,8 +32,8 @@ These ideas push against motivational clichés that glorify endless struggle, su
 
 References:
 
-- https://lifecoach-usa.com/5-reasons-obstacles-are-good/
-- https://www.reddit.com/r/unpopularopinion/comments/17fhq6r/working_hard_to_overcome_difficultychallenges/
-- https://www.lifehack.org/900288/what-are-obstacles
-- https://www.reddit.com/r/Retconned/comments/13u8wrv/life_is_just_too_hard_now_always_an_obstacle/
-- https://www.harpertherapy.com/blog/everyone-experiences-obstacles
+- <https://lifecoach-usa.com/5-reasons-obstacles-are-good/>
+- <https://www.reddit.com/r/unpopularopinion/comments/17fhq6r/working_hard_to_overcome_difficultychallenges/>
+- <https://www.lifehack.org/900288/what-are-obstacles>
+- <https://www.reddit.com/r/Retconned/comments/13u8wrv/life_is_just_too_hard_now_always_an_obstacle/>
+- <https://www.harpertherapy.com/blog/everyone-experiences-obstacles>

@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-问题：https://www.youtube.com/watch?v=UYJP-6mhF6E 这个 YouTube 视频说了什么？
+问题：<https://www.youtube.com/watch?v=UYJP-6mhF6E> 这个 YouTube 视频说了什么？
 
 答案：
 

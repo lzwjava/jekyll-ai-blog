@@ -15,7 +15,9 @@ type: note
 Avaloq is a proprietary core banking software platform used by financial institutions worldwide for tasks like account management, trading, and compliance. Its error codes and responses are not publicly standardized like those in open-source systems (e.g., HTTP errors or SQL codes), as they are designed to be secure and specific to the platform's architecture. This helps prevent exploitation, so detailed public documentation is limited—access typically requires an Avaloq license or partnership.
 
 #### Typical Structure of Avaloq Errors
+
 From general knowledge of Avaloq's system (based on developer forums, support snippets, and industry reports), errors often follow this pattern:
+
 - **Format**: Errors are usually prefixed with "ERR-" or a numeric code, followed by a descriptive message. They can be categorized by module (e.g., ACS for Core Services, AMS for Asset Management).
 - **Code Ranges**:
   - Common codes are in the 1000–9999 range, often grouped by severity or type:
@@ -31,6 +33,7 @@ From general knowledge of Avaloq's system (based on developer forums, support sn
     - **ERR-5001**: Internal server error (often transient). Response: "System temporarily unavailable. Retry later."
 
 #### Error Response Format
+
 Avaloq APIs and interfaces (e.g., via REST/SOAP) typically return structured JSON or XML responses like this:
 
 ```json
@@ -52,6 +55,7 @@ Avaloq APIs and interfaces (e.g., via REST/SOAP) typically return structured JSO
 - **Logging**: Errors are logged in Avaloq's audit trails for compliance (e.g., under Basel III standards), with codes like "AVQ-ERR-XXXX" for traceability.
 
 #### How to Handle or Find More
+
 - **Official Sources**: These are best obtained from Avaloq's developer portal, knowledge base, or support (e.g., via MyAvaloq portal). If you're a user/developer, check the Avaloq Core Platform documentation or contact Avaloq support (part of NEC Corporation now).
 - **Troubleshooting Tips**:
   - Use the system's trace/debug tools (e.g., in Avaloq's Eclipse-based IDE).

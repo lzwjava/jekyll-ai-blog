@@ -78,12 +78,15 @@ After installing the Superpowers plugin, Claude Code can sometimes become comple
 ## What To Do When It Dies
 
 ### Option 1: Resume from Checkboxes
+
 When tasks are partially complete when the session dies, unchecked checkboxes in the plan are the only way the next session knows where to resume. Marking them is the state log, not a formality.
 
 Just tell Claude: **"Continue from where you left off — pick up at 'Propose approaches'"**
 
 ### Option 2: Break the Task Into Smaller Pieces
+
 Instead of letting Superpowers run the full pipeline in one shot, manually trigger each phase:
+
 ```
 /brainstorming   ← run this, wait for it to finish
 then
@@ -91,10 +94,12 @@ then
 ```
 
 ### Option 3: Reduce Context Load
+
 - Keep `CLAUDE.md` under 20K characters
 - Disable unused MCP servers before a long Superpowers session
 
 ### Option 4: Increase Timeout Settings
+
 ```bash
 # Set a higher timeout for session hooks
 CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS=30000 claude

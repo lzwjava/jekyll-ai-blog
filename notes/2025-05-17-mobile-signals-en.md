@@ -16,6 +16,7 @@ However, if the curtains are lined with metal-backed materials (e.g., blackout c
 - **China Telecom**: As a major carrier, it uses similar frequency bands (e.g., 1800 MHz, 2100 MHz for 4G, and 3.5 GHz for 5G). The same principles apply—curtains won’t significantly degrade the signal.
 
 If you’re experiencing poor signal, consider:
+
 - **Location**: Proximity to a cell tower or being in a basement/urban area with many obstructions.
 - **Building Materials**: Concrete, metal, or tinted windows can block signals more than curtains.
 - **Device Position**: Try moving closer to a window or higher elevation in the room.

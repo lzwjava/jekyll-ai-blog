@@ -46,7 +46,7 @@ This is a very common issue when loading storage drivers (especially Intel RST/I
 3. **Wrong driver version downloaded**
    - Lenovo's site for IdeaPad Slim 3 14IAH8 may not list a dedicated "F6" (floppy driver) package anymore — many are now .exe only.
    - Try the **latest Intel RST driver** directly from Intel (version 19.x or 20.x for 13th/14th gen):
-     Download → https://www.intel.com/content/www/us/en/download/720755/intel-rapid-storage-technology-driver-installation-software-with-intel-optane-memory.html (or search "Intel RST VMD driver").
+     Download → <https://www.intel.com/content/www/us/en/download/720755/intel-rapid-storage-technology-driver-installation-software-with-intel-optane-memory.html> (or search "Intel RST VMD driver").
      Extract → look for the VMD folder or f6flpy-x64 equivalent.
 
 4. **USB issues or Windows setup quirks**

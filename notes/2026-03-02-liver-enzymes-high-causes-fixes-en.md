@@ -22,6 +22,7 @@ Elevated **AST**, **ALT**, and **GGT** in a health check report indicate that yo
 When all three are elevated together (a hepatocellular + often cholestatic/mixed pattern), it commonly points to **liver cell damage** combined with possible bile flow or alcohol-related effects. The elevation does **not** tell the exact cause or severity on its own — it is a warning sign that further evaluation is needed.
 
 ### Common Causes
+
 - **Non-alcoholic fatty liver disease (NAFLD / MASLD)** — very common, especially with overweight, diabetes, high cholesterol/triglycerides, or metabolic syndrome.
 - **Alcohol consumption** — even moderate to heavy drinking frequently causes this pattern (often with AST > ALT).
 - **Medications or toxins** — including acetaminophen (Tylenol/paracetamol overdose or regular high doses), statins, certain antibiotics, supplements, or herbal products.
@@ -32,6 +33,7 @@ When all three are elevated together (a hepatocellular + often cholestatic/mixed
 Mild elevations (1–3× upper limit of normal) are often reversible; very high levels (>10–20× normal) usually indicate more serious acute injury.
 
 ### How to Improve / Lower These Levels
+
 The most important step is to **identify and treat the underlying cause** (requires doctor follow-up with history, ultrasound, viral tests, etc.). Many cases improve significantly with lifestyle changes:
 
 1. **Stop or greatly reduce alcohol** — This is often the single most effective step when alcohol contributes; GGT can drop noticeably within 2–6 weeks of abstinence.
@@ -49,6 +51,7 @@ In many reversible cases (e.g., alcohol-related, early fatty liver, medication-i
 **Important**: Do not self-diagnose or ignore this — see your doctor for proper interpretation, additional tests, and personalized advice.
 
 References:
+
 - [Elevated Liver Enzymes: What Is It, Causes, Prevention & Treatment](https://my.clevelandclinic.org/health/symptoms/17679-elevated-liver-enzymes)
 - [Elevated liver enzymes Causes](https://www.mayoclinic.org/symptoms/elevated-liver-enzymes/basics/causes/sym-20050830)
 - [Gamma-glutamyl Transferase (GGT) Test](https://medlineplus.gov/lab-tests/gamma-glutamyl-transferase-ggt-test)

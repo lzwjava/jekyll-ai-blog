@@ -15,11 +15,13 @@ type: note
 PyTorch认为只有当GPU拥有足够数量的SM时（通常≥68-80个，具体取决于PyTorch版本；例如RTX 3080/3090处于临界线，A100/H100/RTX 4090则完全达标），才算“足够强大”。在较小GPU上（如RTX 3060/3070、2080 Ti、T4等），系统会禁用完整的`max_autotune_gemm`路径，以避免编译时间过长或产生次优选择。
 
 ### 产生原因与影响
+
 - 自动调优会在编译时对多个内核变体进行基准测试。完整的GEMM自动调优需要足够的并行处理能力（SM）才能使激进模板发挥价值。
 - 该警告**无害**——编译仍会成功，您将获得良好（但非绝对最优）的性能。其他自动调优（非GEMM部分及保守型GEMM搜索）仍会执行。
 - 这**不表示**因批量大小或模型架构导致填充/低效（与用户推测的方向接近但本质不同）。此特定警告纯粹与GPU规模相关，与输入/形状填充无关。
 
 ### 改进与应对方案
+
 1. **使用更多SM的GPU**（实现最大性能的最佳方案）：
    - 建议确保完整`max_autotune_gemm`的最低配置：RTX 4090（128 SM）、A100（108 SM）、H100（132+ SM）或更新款数据中心显卡。
    - SM数量低于约80的消费级显卡（如RTX 3070为46 SM、RTX 3080为68 SM）会触发此警告。
@@ -36,14 +38,17 @@ PyTorch认为只有当GPU拥有足够数量的SM时（通常≥68-80个，具体
    - 使用`mode="max-autotune-no-cudagraphs"`——保留大部分自动调优优势，同时跳过CUDA图及受SM数量限制的GEMM路径。在小型GPU上通常性能接近且编译时间大幅缩短。
    - 或使用`mode="reduce-overhead"`——更轻量级，采用CUDA图降低延迟，适合推理场景。
    - 示例：
+
      ```python
      compiled_model = torch.compile(model, mode="max-autotune-no-cudagraphs", fullgraph=True)
      ```
 
 3. **启用高精度矩阵乘法**（适用于所有模式/GPU）：
+
    ```python
    torch.set_float32_matmul_precision("high")  # 或 "highest"
    ```
+
    此设置可启用TensorFloat-32及更优的cuBLAS内核。
 
 4. **强制启用激进调优**（非官方方案，需谨慎）：

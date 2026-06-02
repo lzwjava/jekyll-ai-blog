@@ -51,12 +51,15 @@ Having worked for Singaporean and Hong Kong companies, I consulted AI to compile
    - **Details:** Fixed from October 1 to October 7, this matches your list and is correct. The note "Work days adjusted (Sep 28, Oct 11)" indicates workday shifts to extend the holiday, a standard practice, but the holiday period itself remains October 1-7.
 
 ### Summary of Corrections
+
 - **Dragon Boat Festival:** Changed from June 6 to May 31, 2025, as per your specific correction.
 - **Mid-Autumn Festival:** Changed from September 19 to September 17, 2025, based on the accurate lunar date.
 - **Other Holidays:** Dates were verified and remain as listed, except for the adjusted work days note under New Year's Day, which likely belongs to the Spring Festival.
 
 ### Notes on Adjusted Work Days
+
 In China, the government often adjusts workdays (typically weekends) around holidays to create longer consecutive breaks. Your list included:
+
 - **Jan 26, Feb 8:** Likely for Spring Festival, not New Year's Day.
 - **Apr 27:** For Labor Day.
 - **Sep 28, Oct 11:** For National Day.
@@ -193,7 +196,6 @@ Here is a clean list of the USA's official holidays for 2025:
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_cn.jpg)
 *Source: Self-Made*{: .caption }
-
 
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_hk.jpg)

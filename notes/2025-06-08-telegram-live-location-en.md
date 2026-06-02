@@ -35,10 +35,10 @@ And there's also a `message` object:
 
 Here's why:
 
-1.  **Live Location Nature:** Live location is designed to provide near real-time updates of a user's position. For this to be "live," the updates must be frequent.
-2.  **`edited_message`:** Unlike regular messages, live location updates are sent as `edited_message` updates to a single, existing message. This means the original message containing the live location is constantly being updated with new coordinates.
-3.  **`edit_date` field:** The `edit_date` timestamp in the `edited_message` object clearly shows that these updates are happening very close to each other.
-4.  **Factors Influencing Frequency:**
+1. **Live Location Nature:** Live location is designed to provide near real-time updates of a user's position. For this to be "live," the updates must be frequent.
+2. **`edited_message`:** Unlike regular messages, live location updates are sent as `edited_message` updates to a single, existing message. This means the original message containing the live location is constantly being updated with new coordinates.
+3. **`edit_date` field:** The `edit_date` timestamp in the `edited_message` object clearly shows that these updates are happening very close to each other.
+4. **Factors Influencing Frequency:**
     * **Movement:** If the user is moving, the updates will typically be more frequent to reflect the changing position accurately.
     * **`live_period`:** The `live_period` field (e.g., 28800 seconds, which is 8 hours) indicates how long the live location sharing will last. Within this period, updates will occur as needed.
     * **Horizontal Accuracy:** Changes in `horizontal_accuracy` might also trigger updates, as the device refines its location estimate.

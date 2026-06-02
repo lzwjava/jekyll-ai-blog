@@ -21,6 +21,7 @@ In simple terms, it's like a machine: bones provide the frame, muscles enable mo
 Body parts are named using anatomical terms, often from Latin or Greek roots. Below, I'll break them down by region for clarity. I'll include examples like the ones you mentioned (muscle, nose, chest) and expand to common ones. Note: "Muscle" refers to the tissues that contract to produce movement—there are over 600 named muscles in the body, but I'll list major groups or examples.
 
 #### Head and Face
+
 - **Head**: The top part containing the brain (cranium).
 - **Face**: Front of the head.
 - **Nose**: The organ for smelling and breathing (has nostrils for air intake).
@@ -33,9 +34,11 @@ Body parts are named using anatomical terms, often from Latin or Greek roots. Be
 - **Jaw**: Bone structure for chewing (mandible is the lower jaw).
 
 #### Neck
+
 - **Neck**: Connects head to torso (contains throat and windpipe).
 
 #### Torso (Trunk)
+
 - **Chest**: Upper front of the torso (contains heart and lungs; also called thorax or pectoral region).
 - **Abdomen**: Belly area (contains stomach, intestines; also called belly).
 - **Back**: Rear of the torso (upper back is thoracic, lower is lumbar).
@@ -43,6 +46,7 @@ Body parts are named using anatomical terms, often from Latin or Greek roots. Be
 - **Hips**: Joints connecting legs to torso (pelvis area).
 
 #### Upper Limbs (Arms)
+
 - **Arm**: From shoulder to wrist (upper arm is humerus bone; forearm is radius and ulna).
 - **Elbow**: Joint between upper arm and forearm.
 - **Wrist**: Joint connecting arm to hand.
@@ -50,6 +54,7 @@ Body parts are named using anatomical terms, often from Latin or Greek roots. Be
 - **Fingers**: Digits on hand (index, middle, ring, pinky).
 
 #### Lower Limbs (Legs)
+
 - **Leg**: From hip to ankle (upper leg is thigh/femur; lower leg is shin/tibia and fibula).
 - **Knee**: Joint between thigh and lower leg.
 - **Ankle**: Joint connecting leg to foot.
@@ -57,7 +62,9 @@ Body parts are named using anatomical terms, often from Latin or Greek roots. Be
 - **Toes**: Digits on foot (big toe, etc.).
 
 #### Muscles (Major Groups)
+
 Muscles are categorized by location and function. Here are key ones:
+
 - **Facial muscles**: For expressions (e.g., zygomaticus for smiling).
 - **Neck muscles**: Sternocleidomastoid (turns head).
 - **Chest muscles**: Pectoralis major (chest/pecs, for pushing).
@@ -67,6 +74,7 @@ Muscles are categorized by location and function. Here are key ones:
 - **Leg muscles**: Quadriceps (front thigh, for kicking); hamstrings (back thigh, for bending knee); calves (gastrocnemius, for walking).
 
 #### Other Internal Parts (Organs)
+
 - **Brain**: Controls thoughts and body functions.
 - **Heart**: Pumps blood.
 - **Lungs**: For breathing.

@@ -24,6 +24,7 @@ Here's the mtr result to **weibo.com** (49.7.37.74), 20 cycles:
 | 14 | **49.7.37.74** (weibo.com) | 0% | 46.3 | 79.5 |
 
 **Summary:**
+
 - **Final hop is healthy** — 0% loss, ~46ms avg, which is reasonable to weibo.com's Beijing server.
 - Hop 2 shows 30% loss and hop 8 shows 50%, but those are **router-level ICMP rate-limiting**, not real packet loss — the 0% on the destination confirms traffic gets through fine.
 - The ??? hops just don't respond to ICMP (common on Chinese backbone routers).

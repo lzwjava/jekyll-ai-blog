@@ -33,6 +33,7 @@ type: note
 3. **使用脚本预处理文件**：
    - 若需频繁验证制表符分隔字符串的差异，可通过简单脚本自动执行预处理步骤（如将制表符替换为换行符），然后在Beyond Compare中比较结果
    - **Python示例**：
+
      ```python
      import sys
 
@@ -47,6 +48,7 @@ type: note
      # 用法: python script.py input1.txt output1.txt
      convert_tabs_to_newlines(sys.argv[1], sys.argv[2])
      ```
+
    - 对两个文件运行此脚本后，在Beyond Compare中比较输出文件。可将其集成至批处理流程实现自动化
 
 4. **使用替代工具进行文本验证**：
@@ -55,28 +57,34 @@ type: note
      - **IDE内置对比工具**：现代IDE（如VS Code）内置差异对比功能。可使用"Compare Folders"或"Partial Diff"等扩展直接比较制表符分隔文本，并自定义差异显示方式
      - **命令行工具**：
        - 在Linux/macOS中使用预处理后的`diff`或`colordiff`：
+
          ```bash
          tr '\t' '\n' < file1.txt > file1_converted.txt
          tr '\t' '\n' < file2.txt > file2_converted.txt
          diff file1_converted.txt file2_converted.txt
          ```
+
        - 此方法适合脚本编写和自动化处理
 
 5. **比较前规范化空白字符**：
    - 若空格导致"不重要差异"，可在比较前对两个文件进行空白字符规范化。使用`sed`或脚本将多个空格替换为单个空格，或移除首尾空格：
+
      ```bash
      sed 's/[ \t]\+/ /g' file1.txt > file1_normalized.txt
      sed 's/[ \t]\+/ /g' file2.txt > file2_normalized.txt
      ```
+
    - 然后在Beyond Compare中比较规范化后的文件
 
 6. **精细文本验证最佳实践**：
    - **版本控制**：若这些字符串属于项目组成部分，可使用Git等版本控制系统。`git diff`等工具能高亮精确变更，并可配置将空格视为重要内容
    - **校验和**：对于关键验证，可通过计算按制表符分割后每个字段的校验和（如MD5、SHA256）确保无细微差异：
+
      ```bash
      awk -F'\t' '{for(i=1;i<=NF;i++) print $i}' file1.txt | sha256sum
      awk -F'\t' '{for(i=1;i<=NF;i++) print $i}' file2.txt | sha256sum
      ```
+
    - **视觉辅助**：在Beyond Compare或VS Code中使用语法高亮使差异更明显。在Beyond Compare中可自定义配色方案强调空白字符差异
    - **日志记录**：保留比较日志以追踪长期项目中的变更情况
 

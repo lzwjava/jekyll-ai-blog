@@ -18,16 +18,19 @@ Staying focused in your 30s requires a strategic approach that addresses both bi
 ## 🧠 Foundational Health Habits
 
 **1. Prioritize Sleep Consistency**
+
 - Aim for 7–9 hours of quality sleep nightly [[14]]
 - Maintain consistent bed/wake times (±45 minutes max on weekends) to regulate your circadian rhythm [[5]]
 - Avoid screens 30 minutes before bed and consider sleep meditation apps to wind down [[6]]
 
 **2. Move Your Body Regularly**
+
 - Get at least 2.5 hours of moderate aerobic exercise weekly to boost hippocampal volume and memory function [[5]]
 - Even a 20-minute walk can increase dopamine and norepinephrine—neurotransmitters critical for focus [[1]]
 - Exercise to the point where you can't comfortably hold a conversation for maximum cognitive benefit [[5]]
 
 **3. Fuel Your Brain Strategically**
+
 - Emphasize a Mediterranean-style diet rich in colorful plants, omega-3s, and lean protein [[11]]
 - Limit alcohol: even moderate consumption (1–2 drinks/day) correlates with reduced brain volume [[5]]
 - Stay hydrated and avoid heavy sugar spikes that cause energy crashes
@@ -35,37 +38,45 @@ Staying focused in your 30s requires a strategic approach that addresses both bi
 ## ⚙️ Productivity & Focus Techniques
 
 **4. Use Time-Blocking and the Pomodoro Technique**
+
 - Work in focused 25-minute intervals followed by 5-minute breaks to match your brain's natural attention span [[1]]
 - Schedule demanding tasks during your peak energy hours (often morning for most people)
 
 **5. Externalize Your Memory**
+
 - Use digital tools like Todoist, Notion, or Trello to offload mental clutter [[1]]
 - Keep a designated spot for keys, glasses, and essentials to conserve cognitive energy for important tasks [[11]]
 
 **6. Create a Distraction-Free Environment**
+
 - Use noise-cancelling headphones or focus-enhancing background sounds [[1]]
 - Block distracting websites during work sessions with apps like Forest or Freedom [[1]]
 - Keep your workspace tidy to reduce visual cognitive load [[1]]
 
 **7. Practice Single-Tasking**
+
 - Multitasking fragments attention and reduces efficiency, especially as fluid intelligence naturally declines [[5]]
 - Focus on one priority task at a time and batch similar activities (e.g., emails, calls)
 
 ## 🌱 Long-Term Cognitive Maintenance
 
 **8. Keep Learning Continuously**
+
 - Challenge your brain with new skills, hobbies, or volunteer work to maintain neural plasticity [[11]]
 - Engage multiple senses when learning to strengthen memory encoding [[11]]
 
 **9. Nurture Social Connections**
+
 - Regular social interaction stimulates language, memory, and emotional regulation centers [[5]]
 - Combine exercise with socializing (walking groups, sports leagues) for dual benefits [[5]]
 
 **10. Manage Stress Mindfully**
+
 - Practice mindfulness meditation, deep breathing, or yoga to reduce cortisol's negative impact on focus [[18]]
 - Schedule short mental resets throughout the day to prevent burnout
 
 ## 💡 Quick Daily Checklist
+
 - ☑ 7+ hours of consistent sleep
 - ☑ 20+ minutes of movement
 - ☑ One focused work block using Pomodoro

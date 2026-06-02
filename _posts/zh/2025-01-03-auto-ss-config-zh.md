@@ -31,6 +31,7 @@ type: post
 ## 设置
 
 1. **安装依赖项**：
+
     ```bash
     pip install -r requirements.txt
     ```
@@ -41,6 +42,7 @@ type: post
     - 或设置 `GOOGLE_APPLICATION_CREDENTIALS` 环境变量。
 
 3. **将 `app_config_tmp.yaml` 复制到 `app_config.yaml` 并配置**：
+
     ```yaml
     bucket_name: your-bucket-name
     ss_urls:
@@ -50,12 +52,14 @@ type: post
 ## 使用
 
 1. **将您的 Shadowsocks URL 添加到 `app_config.yaml` 中的 `ss_urls` 列表**：
+
     ```yaml
     ss_urls:
         - ss://method:password@server:port
     ```
 
 2. **上传配置**：
+
     ```bash
     python upload_configs.py
     ```

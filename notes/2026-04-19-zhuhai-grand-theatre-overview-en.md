@@ -43,11 +43,13 @@ Some visitors note that experiencing a performance inside enhances the visit, as
 ## Best Time to Visit
 
 **For Photography and Sightseeing:**
+
 - **Late Afternoon to Evening (4:00 PM - 7:00 PM)**: The best time for photography is during the golden hour before sunset when the natural light beautifully illuminates the white shells
 - **Weekdays**: Less crowded than weekends, allowing for better photo opportunities
 - **Clear Days**: The blue sky and sea create the most dramatic contrast with the white architecture
 
 **Seasonal Considerations:**
+
 - **October to December**: Autumn and early winter offer comfortable weather with clear skies and less humidity
 - **March to May**: Spring provides pleasant temperatures and good visibility
 - **Avoid Summer (June-August)**: Can be hot, humid, and prone to typhoons

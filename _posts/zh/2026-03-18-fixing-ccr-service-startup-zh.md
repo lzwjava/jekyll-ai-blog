@@ -36,6 +36,7 @@ Answer:
 `ccr code` 命令启动了 router 服务，但在启动 Claude Code 子进程之前未能设置 `ANTHROPIC_BASE_URL` 环境变量，导致 Claude Code 直接连接到 Anthropic API，而不是配置的 CCR proxy。
 
 **修复：** 手动启动并导出：
+
 ```bash
 ccr start
 export ANTHROPIC_BASE_URL="http://127.0.0.1:3456"
@@ -44,6 +45,7 @@ claude
 ```
 
 或者使用 `ccr activate`：
+
 ```bash
 eval "$(ccr activate)"
 claude
@@ -54,6 +56,7 @@ claude
 在某些系统（例如 Windows 上的 WSL2）上，错误为 `/bin/sh: claude: Permission denied`，表示 claude 二进制文件存在但不可执行。
 
 **修复：**
+
 ```bash
 chmod +x ~/.claude/local/claude
 ```
@@ -63,34 +66,42 @@ chmod +x ~/.claude/local/claude
 ## 通用调试步骤
 
 1. **检查服务状态：**
+
    ```bash
    ccr status
    ```
 
 2. **手动启动服务：**
+
    ```bash
    ccr start
    ```
 
 3. **检查日志** 以获取详细错误消息：
+
    ```bash
    tail -f ~/.claude-code-router.log
    ```
 
 4. **验证 `claude` 是否可从非交互式 shell 访问：**
+
    ```bash
    /bin/sh -c "which claude"
    ```
+
    如果此命令无输出，则 PATH 是问题所在。
 
 5. **使用 `ccr activate` 作为变通方法：**
+
    ```bash
    eval "$(ccr activate)"
    claude
    ```
+
    `activate` 命令设置 `ANTHROPIC_AUTH_TOKEN`、`ANTHROPIC_BASE_URL` 和 `NO_PROXY` 环境变量，从而使 `claude` 命令自动通过 router 路由请求。
 
 6. **更新 CCR** —— 这是一个反复出现的问题，随着时间推移发布了修复：
+
    ```bash
    npm update -g @musistudio/claude-code-router
    ```

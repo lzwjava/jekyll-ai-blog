@@ -15,12 +15,14 @@ The MSVC Build Tools are indeed massive! Here's what they're actually used for:
 ## Primary Uses
 
 **For Rust specifically:**
+
 - Building Rust crates that have **C/C++ dependencies** (very common)
 - Compiling native Windows system APIs
 - Linking against Windows libraries
 - Building projects that use `cc` crate or bindgen
 
 **General purposes:**
+
 - Compiling C/C++ code on Windows
 - Building Python packages with native extensions (like numpy, pandas)
 - Compiling Node.js native addons
@@ -29,6 +31,7 @@ The MSVC Build Tools are indeed massive! Here's what they're actually used for:
 ## Why So Large?
 
 The bloat comes from:
+
 - Windows SDK (headers, libraries for every Windows version)
 - Multiple compiler toolchains (x86, x64, ARM, ARM64)
 - ATL/MFC libraries
@@ -38,6 +41,7 @@ The bloat comes from:
 ## Lighter Alternatives
 
 If you only need Rust:
+
 1. **Use the GNU toolchain instead** - install `rustup` with the `x86_64-pc-windows-gnu` target (needs MinGW, ~2-3GB)
 2. **WSL2** - Use Linux toolchain entirely
 3. **Minimal MSVC install** - During installation, deselect optional components you don't need

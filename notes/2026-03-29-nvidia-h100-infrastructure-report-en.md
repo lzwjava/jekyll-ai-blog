@@ -62,4 +62,5 @@ type: note
 | docker0 | 172.17.0.1/16 |
 
 ### Summary
+
 **Beast machine.** H100 80GB + 235GB RAM + 20 Xeon cores + 700GB disk. Ideal for LLM inference — can run large models (70B+) easily. Want me to install Ollama here too?

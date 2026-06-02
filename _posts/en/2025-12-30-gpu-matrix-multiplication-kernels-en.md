@@ -10,7 +10,7 @@ translated: false
 type: note
 ---
 
-Question: What does the content of the blog post at https://www.aleksagordic.com/blog/matmul say?
+Question: What does the content of the blog post at <https://www.aleksagordic.com/blog/matmul> say?
 
 Answer:
 

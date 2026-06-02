@@ -17,6 +17,7 @@ type: note
 由于 Haiku 的速度更快，你会发现它在许多不需要 Sonnet 那样额外 Reasoning 能力的任务中表现出色。如果你在 Grok 和 Anthropic 的模型之间切换，你本质上是在做最合理的事情：测试到底什么最适合*你的* Workflows，而不是假设更大的模型总是更好。
 
 在比较时值得考虑的关键点：
+
 - **Latency**（获取第一个响应和每个 Token 的速度）
 - **Throughput**（处理吞吐量的成本和速度）
 - **Reasoning 质量**（它是否正确解决了你的问题？）

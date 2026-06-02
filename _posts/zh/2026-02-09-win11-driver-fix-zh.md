@@ -16,7 +16,7 @@ Answer:
 
 你看到的屏幕（“安装驱动程序以显示硬件”）是 Windows Setup 提示的中文版本，当安装程序无法检测到你的存储驱动器（SSD, NVMe, SATA HDD 等）时就会出现这种情况。这是 Windows 11 安装过程中的常见问题，尤其是在较新的硬件上，例如近期的 Intel/AMD 平台、启用了 Intel VMD (Volume Management Device) 的笔记本电脑、RAID 配置或某些 NVMe 控制器。
 
-### 按钮的含义（基于标准 Windows Setup 行为）：
+### 按钮的含义（基于标准 Windows Setup 行为）
 
 - **第一个选项 (C)** → 通常是“继续”或“取消”/“跳过”（跳过或在不加载驱动程序的情况下继续）。
   选择此项通常会导致不显示任何驱动器 → 你无法选择安装 Windows 的位置 → 安装失败或循环。
@@ -25,6 +25,7 @@ Answer:
   在驱动器不可见的情况下，这几乎总是正确的选择。
 
 **你现在应该做的是**：
+
 1. 选择**第二个选项 (X)** —— 用于加载/浏览驱动程序的选项。
 2. Windows Setup 将打开一个文件浏览器对话框，要求你选择驱动程序（.inf 文件）。
    - 如果你**没有准备额外的驱动程序**，它可能不会显示任何有用的内容或提示失败 → 你需要准备它们（见下文）。
@@ -35,6 +36,7 @@ Answer:
 此提示几乎总是意味着缺少 **storage controller driver** (SATA/AHCI/NVMe/RAID)。dd 方法创建的是原生的 ISO 副本，因此 USB 本身没有问题 —— 问题出在特定硬件上。
 
 **解决步骤**：
+
 1. **在另一台电脑上**（你的 Mac 或任何可以运行的 PC）：
    - 前往目标机器的制造商网站（Dell, HP, Lenovo, ASUS, MSI, Gigabyte 等）或主板型号页面。
    - 下载适用于 Windows 11 (64-bit) 的 **chipset** + **storage** / **IRST** / **RAID** 驱动程序。

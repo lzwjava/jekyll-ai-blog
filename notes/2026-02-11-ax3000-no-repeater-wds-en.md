@@ -19,6 +19,7 @@ The TP-Link AX3000 series routers, including models like the Archer AX55 and sim
 Many users report that the admin page (tplinkwifi.net or 192.168.0.1) lacks options such as "Wireless Repeater," "WDS Bridging," or "Scan for Wi-Fi to bridge." This is intentional: newer Wi-Fi 6 routers in the AX series have phased out legacy WDS functionality in favor of modern mesh solutions like OneMesh or EasyMesh.
 
 ### Why the wireless settings page lacks repeater/bridging options
+
 - The **Wireless** section typically only includes basic settings: SSID, password, channel, guest network, etc.
 - No "Scan other Wi-Fi networks and relay" button exists.
 - Older TP-Link models (e.g., WR series, some Archer C series like C80 or C7) include clear WDS/Repeater options.
@@ -27,6 +28,7 @@ Many users report that the admin page (tplinkwifi.net or 192.168.0.1) lacks opti
 To use the AX3000 for signal extension, a dedicated range extender (e.g., TP-Link RE series) is required.
 
 ### Can it be used for double (cascaded) wireless repeating?
+
 - **No**, because it cannot perform even a single wireless relay.
 - Even on older WDS-supporting routers, cascading 2–3 times is theoretically possible but performs poorly:
   - Speed halves (or worse) per hop due to shared channel for receive/transmit.
@@ -35,6 +37,7 @@ To use the AX3000 for signal extension, a dedicated range extender (e.g., TP-Lin
 - TP-Link recommends OneMesh/EasyMesh-compatible setups for multi-hop extension (though signal still degrades with hops; limit to 2–3 max).
 
 ### Recommended solutions
+
 1. **Best option**: Purchase a TP-Link OneMesh or EasyMesh-compatible range extender or mesh node.
    - Examples: RE705X or RE715X (AX3000 Wi-Fi 6 extenders) — support OneMesh, easy pairing, seamless roaming.
    - If your main router supports OneMesh (some AX55/AX series after firmware update), pair directly.
@@ -55,6 +58,7 @@ To use the AX3000 for signal extension, a dedicated range extender (e.g., TP-Lin
 For a more precise recommendation, provide the exact model (e.g., Archer AX55 V1/V2) and the main router you want to extend (brand/model).
 
 References:
+
 - [TP-Link Community: AX3000/AX55 no WDS option](https://community.tp-link.com/us/home/forum/topic/244588)
 - [TP-Link Community: Archer AX55 does not support WDS](https://community.tp-link.com/en/home/forum/topic/623082)
 - [TP-Link OneMesh Compatible Devices List](https://www.tp-link.com/onemesh/product-list)

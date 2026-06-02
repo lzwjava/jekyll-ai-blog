@@ -28,14 +28,17 @@ AMD 推出了 **AMD 开发者云**，这是一个完全托管、零配置的环�
 ## 2. 主流云服务提供商（超大规模云）
 
 ### Microsoft Azure
+
 Azure 提供 **ND MI300X v5** 虚拟机，搭载 AMD Instinct MI300X GPU，ROCm 与 Azure 无缝集成，可无缝支持强大的 AI 和 HPC 工作负载。此虚拟机上的 AMD Instinct MI300X GPU 能够运行当今庞大的前沿模型——例如，DeepSeek-R1 的全部 671B 参数均可容纳在单台虚拟机中。
 
 ### Oracle Cloud Infrastructure (OCI)
+
 OCI 是唯一提供 **裸金属实例**（无虚拟化开销）的主流云服务提供商，支持 AMD GPU。OCI 提供搭载 192 GB 内存的 AMD Instinct **MI300X** GPU，定价为每 GPU 小时 6 美元，极具竞争力。
 
 OCI 是最早采用 AMD 开放式机架规模 AI 基础设施（配备 AMD Instinct **MI355X** GPU）的行业领导者之一，并宣布将提供搭载多达 131,072 个 MI355X GPU 的 zettascale AI 集群。
 
 ### AWS
+
 AWS 支持基于 AMD EPYC 的实例，并且是 AMD 广泛云扩展的一部分。不过，对于 ROCm 工作负载，AMD Instinct GPU 专用实例主要通过 Azure 和 OCI 提供。
 
 ---

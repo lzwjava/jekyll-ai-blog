@@ -26,11 +26,13 @@ In highly regulated environments like banking, private servers or cloud instance
 This directly impacts Proof of Concept (POC) work:
 
 ### Why local testing is not sufficient
+
 - A POC that works perfectly on your local machine (where you can freely install anything) may completely fail in the target production-like environment.
 - Dependencies that are trivial locally (e.g., pip install, apt-get, downloading browser drivers) become major blockers on restricted servers.
 - Environment differences (OS version, missing system libraries, proxy settings, firewall rules) can cause unexpected failures.
 
 ### Examples you mentioned
+
 - **Python/Java API tests**: Usually lightweight. They depend only on language-standard libraries or pure-code packages (requests, httpclient, etc.). These are easy to include via internal artifact repositories or vendoring, so they often work with minimal hassle.
 - **Selenium/Web UI automation**: Much more problematic because it typically requires:
   - Installing a real browser (Chrome, Firefox, etc.).
@@ -40,6 +42,7 @@ This directly impacts Proof of Concept (POC) work:
   These steps are frequently blocked or require multiple approvals in banking environments.
 
 ### Best practice for tech POCs in such environments
+
 - Perform early validation in an environment that mirrors production as closely as possible (staging/private cloud server with same restrictions).
 - Test installation and execution steps end-to-end in the restricted environment, not just the core logic.
 - Consider alternatives that reduce dependencies:

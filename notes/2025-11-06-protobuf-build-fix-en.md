@@ -20,38 +20,50 @@ The listed `.proto` files (e.g., `database.proto`, `health.proto`) are GreptimeD
 
 1. **Install the Protobuf Compiler** (≥ 3.15 required):
    - On Debian/Ubuntu (which matches your error hint):
+
      ```
      sudo apt update
      sudo apt install protobuf-compiler
      ```
+
    - On Fedora/RHEL:
+
      ```
      sudo dnf install protobuf-compiler
      ```
+
    - On macOS (if applicable):
+
      ```
      brew install protobuf
      ```
+
    - Manual download (cross-platform): Get the latest release from [Protocol Buffers releases](https://github.com/protocolbuffers/protobuf/releases), extract, and add `bin/protoc` to your PATH.
 
 2. **Verify Installation**:
+
    ```
    protoc --version
    ```
+
    It should output something like `libprotoc 3.21.12` (or higher; anything ≥ 3.15 works).
 
 3. **Retry the Build**:
+
    ```
    make clean  # Optional, to clear any partial artifacts
    make
    ```
+
    If `protoc` is installed but still not found (e.g., PATH issue), set the env var:
+
    ```
    export PROTOC=/usr/bin/protoc  # Adjust path as needed
    make
    ```
 
 ### Additional Tips
+
 - Ensure you have the other prerequisites: Nightly Rust (which you seem to have from the prior error), GCC/G++ (install via `sudo apt install build-essential`), and glibc dev headers (`sudo apt install libc6-dev`).
 - If you're in a container or custom env, add the install step there.
 - For testing post-build: `cargo run --bin greptime -- standalone start`.
@@ -59,5 +71,6 @@ The listed `.proto` files (e.g., `database.proto`, `health.proto`) are GreptimeD
 This should get you past the proto compilation. If it fails on something else (e.g., C++ deps), check the full prerequisites.
 
 ### References
+
 - [GreptimeDB GitHub: Build from Source](https://github.com/GreptimeTeam/greptimedb#build-from-source)
 - [prost-build Docs: Sourcing Protoc](https://docs.rs/prost-build/#sourcing-protoc)

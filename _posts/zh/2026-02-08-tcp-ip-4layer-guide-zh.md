@@ -11,6 +11,7 @@ type: note
 ---
 
 ## 题目内容
+
 本题考查 **TCP/IP 参考模型的四层结构**。
 
 ## TCP/IP 参考模型 - 四层结构
@@ -54,6 +55,7 @@ Network Interface Layer ←→  Data Link Layer, Physical Layer
 **✓ D Application Layer**
 
 **解析：**
+
 - TCP/IP 参考模型总共有 4 层
 - 从下到上依次为：Network Interface Layer → Internet Layer → Transport Layer → **Application Layer**
 - Application Layer 为用户应用程序提供所需的各种网络服务
@@ -61,6 +63,7 @@ Network Interface Layer ←→  Data Link Layer, Physical Layer
 ---
 
 **学习提示：**
+
 - 熟练掌握 TCP/IP 四层模型与 OSI 七层模型的对应关系
 - 不要混淆两个模型的层级概念
 - 记住 TCP/IP 模型的特点：它将 OSI 七层模型简化为了四个层次

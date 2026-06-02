@@ -19,18 +19,21 @@ End-to-end encryption (E2EE) is a security method that ensures data remains encr
 End-to-end encryption means the message stays in encrypted (ciphertext) form from the source to the destination during the entire transmission process. Decryption only happens on the recipient's device.
 
 **Key characteristics:**
+
 - The message is encrypted on the sender's device using a key that only the recipient possesses (or is derived from keys known only to sender and recipient).
 - All intermediate servers, cloud services, network operators, and potential attackers in the middle only see encrypted data — they cannot read the content.
 - Decryption never occurs on any server or relay node; it only happens at the true endpoint (the recipient's device).
 - Even if a server is compromised, hacked, or legally forced to hand over data, the actual message content remains unreadable.
 
 **Common names in Chinese-speaking communities:**
+
 - 端到端加密 (most common)
 - 端对端加密
 - 脱线加密 (less common, emphasizes that decryption is "offline" from the service provider)
 - 包加密 (sometimes used, highlights per-message/packet encryption)
 
 **Important real-world implications:**
+
 - Good examples of proper E2EE: Signal, WhatsApp (after 2016), iMessage (between Apple devices), Threema, Element (when configured properly), Telegram Secret Chats
 - Not true E2EE: standard Telegram cloud chats, WeChat, Line (ordinary chats), most email services including Gmail, Outlook web mail, corporate Slack/Teams (unless specially configured)
 

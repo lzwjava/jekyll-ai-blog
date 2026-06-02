@@ -77,6 +77,7 @@ $\alpha_1 = (1, 1, -2)^T$, $\alpha_2 = (1, -2, 1)^T$, $\alpha_3 = (-2, 1, 1)^T$�
 $\alpha_3 = c_1 \alpha_1 + c_2 \alpha_2$
 $(-2, 1, 1)^T = c_1 (1, 1, -2)^T + c_2 (1, -2, 1)^T$
 这给出方程组：
+
 1) $c_1 + c_2 = -2$
 2) $c_1 - 2c_2 = 1$
 3) $-2c_1 + c_2 = 1$
@@ -127,10 +128,10 @@ $x_4 = t$
 **答案：**
 特征方程为 $\det(A - \lambda I) = 0$。
 $A - \lambda I = \begin{pmatrix} x-\lambda & 0 & y \\\ 0 & 2-\lambda & 0 \\\ y & 0 & -2-\lambda \end{pmatrix}$。
-$\det(A - \lambda I) = (x-\lambda)[(2-\lambda)(-2-\lambda) - 0] - 0 + y[0 - y(2-\lambda)]$
+$\det(A - \lambda I) = [x-\lambda]((2-\lambda)(-2-\lambda) - 0) - 0 + y[0 - y(2-\lambda)]$
 $= (x-\lambda)(2-\lambda)(-2-\lambda) - y^2(2-\lambda)$
-$= (2-\lambda)[(x-\lambda)(-2-\lambda) - y^2]$
-$= (2-\lambda)[-2x - x\lambda + 2\lambda + \lambda^2 - y^2] = 0$。
+$= [2-\lambda]((x-\lambda)(-2-\lambda) - y^2)$
+$= [2-\lambda](-2x - x\lambda + 2\lambda + \lambda^2 - y^2) = 0$。
 特征值为 $\lambda_1 = 2$，以及方程 $\lambda^2 + (2-x)\lambda - (2x+y^2) = 0$ 的根。
 已知一个特征值为 -3。
 如果 $2 = -3$，这是错误的。所以，-3 必须是 $\lambda^2 + (2-x)\lambda - (2x+y^2) = 0$ 的一个根。
@@ -145,6 +146,7 @@ $= -4x - 2y^2 = -12$
 除以 -2：$2x + y^2 = 6$（方程 2）
 
 现在我们得到关于 x 和 y 的方程组：
+
 1) $x - y^2 = -3$
 2) $2x + y^2 = 6$
 方程 1 加方程 2：
@@ -158,17 +160,17 @@ $y^2 = 4 \Rightarrow y = \pm 2$。
 所以值为 $x=1$ 和 $y=2$，或 $x=1$ 和 $y=-2$。
 
 检查两种情况下的特征值。
-特征多项式分解为 $(2-\lambda)[\lambda^2 + (2-x)\lambda - (2x+y^2)] = 0$。
+特征多项式分解为 $[2-\lambda](\lambda^2 + (2-x)\lambda - (2x+y^2)) = 0$。
 如果 $x=1, y=2$：
-$(2-\lambda)[\lambda^2 + (2-1)\lambda - (2(1)+2^2)] = 0$
-$(2-\lambda)[\lambda^2 + \lambda - (2+4)] = 0$
+$[2-\lambda](\lambda^2 + (2-1)\lambda - (2(1)+2^2)) = 0$
+$[2-\lambda](\lambda^2 + \lambda - (2+4)) = 0$
 $(2-\lambda)(\lambda^2 + \lambda - 6) = 0$
 $(2-\lambda)(\lambda+3)(\lambda-2) = 0$。
 特征值为 $\lambda = 2, -3, 2$。这与有一个特征值为 -3 一致。
 
 如果 $x=1, y=-2$：
-$(2-\lambda)[\lambda^2 + (2-1)\lambda - (2(1)+(-2)^2)] = 0$
-$(2-\lambda)[\lambda^2 + \lambda - (2+4)] = 0$
+$[2-\lambda](\lambda^2 + (2-1)\lambda - (2(1)+(-2)^2)) = 0$
+$[2-\lambda](\lambda^2 + \lambda - (2+4)) = 0$
 $(2-\lambda)(\lambda^2 + \lambda - 6) = 0$
 $(2-\lambda)(\lambda+3)(\lambda-2) = 0$。
 特征值为 $\lambda = 2, -3, 2$。这也一致。
@@ -203,6 +205,7 @@ $= t^3 - 3t - 2$。
 所以我们需要 $t-2 > 0$，即 $t > 2$。
 
 综合条件：
+
 1) $t > 0$
 2) $t > 1$
 3) $t > 2$

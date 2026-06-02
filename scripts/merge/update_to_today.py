@@ -70,7 +70,6 @@ def find_all_language_variants(input_filename):
             continue
 
         # Look for files with this base name and language
-        expected_filename = None
 
         # Search through all files in the language directory
         for filename in os.listdir(posts_directory):

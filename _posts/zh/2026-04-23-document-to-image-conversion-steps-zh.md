@@ -35,6 +35,7 @@ magick page-00.png page-01.png page-02.png page-03.png \
 ```
 
 **各步骤的作用：**
+
 - `pandoc` 负责解析 markdown 并生成包含自定义 CSS 的纯净 HTML
 - Chrome headless 模式能够精确渲染 HTML（字体、表格、布局），并将其导出为 PDF
 - ImageMagick 将 PDF 页面按指定 DPI（`-density 150`）转换为 PNG 位图

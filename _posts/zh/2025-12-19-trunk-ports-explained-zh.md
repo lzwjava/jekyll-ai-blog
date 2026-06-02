@@ -16,7 +16,8 @@ type: note
 
 网络交换机上的 **trunk port** 是一种特殊类型的端口，配置为通过单个物理链路承载**多个 Virtual Local Area Network (VLAN)** 的流量。这与**access port** 不同，access port 专用于单个 VLAN，通常连接到计算机或打印机等终端设备。
 
-### trunk port 的主要特点：
+### trunk port 的主要特点
+
 - **多 VLAN 支持**：它允许来自不同 VLAN 的帧通过链路传输（例如，在两个交换机之间或从交换机到路由器）。
 - **VLAN Tagging**：为了区分来自不同 VLAN 的流量，trunk port 使用**标记**。最常见的标准是 **IEEE 802.1Q**，它在以太网帧头中插入一个 4 字节的标签，其中包含 VLAN ID (VID)。这确保了接收设备知道帧属于哪个 VLAN。
 - **Native VLAN**：trunk port 通常有一个“native VLAN”（在 Cisco 设备上通常默认是 VLAN 1）。native VLAN 的帧以**未标记**的方式发送，而其他帧则被标记。这提供了与不支持标记的设备的向后兼容性。
@@ -25,7 +26,7 @@ type: note
   - 将交换机连接到路由器（例如，在用于 VLAN 间路由的“router-on-a-stick”设置中）。
   - 连接到理解 VLAN 标签的设备，例如 IP 电话、具有多个虚拟机的服务器或广播多个 SSID 的 access point。
 
-### trunk port 与 access port：
+### trunk port 与 access port
 
 | 特性                 | Access Port                          | Trunk Port                              |
 |----------------------|--------------------------------------|-----------------------------------------|

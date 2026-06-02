@@ -27,7 +27,7 @@ This both removes the connection and prevents any future interaction.
 4. Click **“Block [Name]”**.
 5. Enter your LinkedIn password (if prompted) and confirm.
 
-### 🔒 What happens after blocking:
+### 🔒 What happens after blocking
 
 * They are automatically **removed from your connections**.
 * They **cannot send you connection requests** anymore.
@@ -58,7 +58,7 @@ If you don’t want to fully block but still reduce contact:
 
 ---
 
-### Bottom line:
+### Bottom line
 
 * **Remove connection = temporary**
 * **Block = permanent control (what you want)**

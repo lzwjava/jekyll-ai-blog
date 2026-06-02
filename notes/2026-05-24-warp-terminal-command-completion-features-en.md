@@ -20,6 +20,7 @@ Yeah, Warp's command completion is genuinely solid. A few things that stand out:
 4. **Warp Drive** — Shared team workflows and saved commands, though that's more of a team feature.
 
 Compared to other terminals:
+
 - **iTerm2/Alacritty** — basically zero built-in completion, relies entirely on your shell (zsh/fish)
 - **Fig** (now Amazon Q) — Was doing similar completion overlays but got acquired
 - **Warp** — Built it into the terminal itself, so it works regardless of shell config

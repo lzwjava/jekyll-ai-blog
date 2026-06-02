@@ -23,6 +23,7 @@ The versions suggested by apt (`1.18.0`) are **very old** (released in 2020). Yo
 #### Method 1 – Official nginx repository (cleanest & gets latest stable version)
 
 1. Add the official nginx signing key and repository:
+
 ```bash
 sudo apt update
 sudo apt install -y curl gnupg2 ca-certificates lsb-release ubuntu-keyring
@@ -32,12 +33,14 @@ echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 
 ```
 
 2. Install nginx:
+
 ```bash
 sudo apt update
 sudo apt install nginx
 ```
 
 3. Verify:
+
 ```bash
 nginx -v
 # Should show something like: nginx version: nginx/1.26.x (or newer)
@@ -47,6 +50,7 @@ sudo systemctl status nginx
 #### Method 2 – Quick but older version (if you just want to test right now)
 
 If you don't care about getting the latest version and just want nginx running immediately:
+
 ```bash
 sudo apt update
 sudo apt install nginx
@@ -54,6 +58,7 @@ sudo apt install nginx
 ```
 
 After either method, your original config should work once you:
+
 - Place it in `/etc/nginx/sites-available/` (e.g. `/etc/nginx/sites-available/movies`)
 - Create symlink: `sudo ln -s /etc/nginx/sites-available/movies /etc/nginx/sites-enabled/`
 - Remove or disable default site if needed: `sudo rm /etc/nginx/sites-enabled/default`
@@ -61,6 +66,7 @@ After either method, your original config should work once you:
 - Reload: `sudo systemctl reload nginx` (or `sudo nginx -s reload`)
 
 ### Quick summary – what most people should run right now
+
 ```bash
 # Recommended – get current stable nginx from official source
 sudo apt update

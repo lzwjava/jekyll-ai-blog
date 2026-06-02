@@ -15,6 +15,7 @@ type: note
 GitHub Actions has tiered limits based on your plan (personal accounts or organizations). These include free monthly minutes for GitHub-hosted runners in private repositories and storage for artifacts. Public repositories and self-hosted runners don't consume these minutes. Limits reset monthly for minutes (storage is ongoing). Overages are billed automatically if you have a valid payment method; otherwise, jobs are blocked after hitting the limit.
 
 #### Included Minutes and Storage by Plan
+
 | Plan                          | Storage | Minutes (per month) |
 |-------------------------------|---------|---------------------|
 | GitHub Free (personal/org)   | 500 MB | 2,000              |
@@ -26,7 +27,9 @@ GitHub Actions has tiered limits based on your plan (personal accounts or organi
 - **Storage**: Based on GB-hours of artifact storage (e.g., uploads/downloads). Logs and summaries don't count.
 
 #### Overage Billing
+
 If you exceed quotas:
+
 - **Minutes**: Charged per extra minute (USD rates for standard Linux runners: $0.008/min; higher for Windows/macOS due to multipliers).
 - **Storage**: Charged as GB-months (total GB-hours / 744 hours per month, rounded up).
 - Example: On a Team plan, 5,000 extra minutes (3,000 Linux + 2,000 Windows) costs ~$56.
@@ -34,6 +37,7 @@ If you exceed quotas:
 Without a payment method, usage stops at the quota. The error you saw ("recent account payments have failed or your spending limit needs to be increased") means either payments bounced or your **spending limit (budget)** is capping overages.
 
 #### Spending Limits (Budgets)
+
 - These are optional thresholds to control total monthly spend on Actions (and other metered features).
 - If set too low, it blocks jobs before hitting quotas.
 - **How to check/increase**:

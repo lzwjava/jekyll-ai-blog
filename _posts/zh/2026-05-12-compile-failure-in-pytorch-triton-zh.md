@@ -28,6 +28,7 @@ python -u train.py config/train_fineweb_gpt3.py --compile=False 2>&1 \
 回溯路径是 `/home/lzw/.local/lib/python3.11/...`——这是**系统 Python 3.11**，而不是 nanoGPT 的虚拟环境（之前我用的 Python 3.14 位于 `/mnt/data/nanoGPT/venv/bin/python`）。你是在 tmux 会话中忘记执行 `source venv/bin/activate` 了吗？这并非导致当前错误的原因（gcc 失败在任何环境下都会发生），但为了长期运行，你需要保持环境的一致性。
 
 检查：
+
 ```bash
 which python && python -c "import sys; print(sys.executable, sys.version)"
 ```
@@ -45,6 +46,7 @@ echo $CUDA_HOME
 ```
 
 典型修复方法：
+
 - `sudo apt install nvidia-cuda-toolkit`（获取 Triton 所需的头文件）
 - 在运行前设置 `export CUDA_HOME=/usr/local/cuda` 和 `export PATH=$CUDA_HOME/bin:$PATH`
 - 或者：重新运行烟雾命令——有时 Triton 的陈旧缓存 `~/.triton/cache` 会导致虚假失败；`rm -rf ~/.triton/cache` 可以清除它

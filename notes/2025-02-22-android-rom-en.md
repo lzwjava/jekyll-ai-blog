@@ -33,6 +33,7 @@ If you're looking for an open-source and popular Android ROM, here are some top 
    - **Popularity**: A favorite among custom ROM enthusiasts for its balance of style and functionality.
 
 ### Recommendation
+
 - **Best Overall**: **LineageOS** is the top pick if you want a widely supported, open-source ROM with a strong community and broad device compatibility.
 - **For Privacy**: **GrapheneOS** if you own a Pixel device and prioritize security over customization.
 - **Google-Free Option**: **/e/OS** for a practical de-Googled experience with growing popularity.

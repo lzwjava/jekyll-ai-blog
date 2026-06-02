@@ -35,6 +35,7 @@ type: note
 这些成员构成了 MiniMax 约 200 人团队的重要组成部分（根据公司资料显示研发人员占比极高）。更广泛的创始团队包括联合创始人杨斌（技术合伙人，前 Uber AI 自动驾驶专家）和周雨聪，均为商汤科技前成员。如需深入了解，MiniMax 的开源仓库（如 GitHub/MiniMax-AI）展现了协同贡献的全貌，但未提供具体角色细分。
 
 #### 参考资料
+
 - [MiniMax-M1 技术报告](https://arxiv.org/abs/2506.13585)
 - [MiniMax 公司维基百科](https://en.wikipedia.org/wiki/MiniMax_(company))
 - [闫俊杰履历](https://www.crunchbase.com/person/junjie-yan)

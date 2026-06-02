@@ -22,22 +22,30 @@ type: note
 
 1. 打开终端。
 2. 下载最新的 `.deb` 软件包：
+
    ```
    wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
    ```
+
 3. 安装它：
+
    ```
    sudo dpkg -i steam.deb
    ```
+
 4. 修复任何依赖问题（常见）：
+
    ```
    sudo apt update
    sudo apt install -f
    ```
+
 5. 启动 Steam：
+
    ```
    steam
    ```
+
    或在应用程序菜单中搜索 "Steam"。
 
 Steam 将在首次启动时自行更新。
@@ -48,10 +56,13 @@ Ubuntu 提倡使用 Snap 版本的游戏。
 
 1. 打开终端。
 2. 安装 Steam：
+
    ```
    sudo snap install steam
    ```
+
 3. 启动它：
+
    ```
    steam
    ```
@@ -61,20 +72,26 @@ Ubuntu 提倡使用 Snap 版本的游戏。
 这将从 multiverse 仓库安装一个较旧的 Steam 启动器。
 
 1. 启用 multiverse（如果尚未启用）：
+
    ```
    sudo add-apt-repository multiverse
    sudo apt update
    ```
+
 2. 安装：
+
    ```
    sudo apt install steam
    ```
+
 3. 启动：
+
    ```
    steam
    ```
 
 **注意事项：**
+
 - 为获得最佳性能，请确保您的显卡驱动程序是最新的（例如，如果适用，NVIDIA 专有驱动程序）。
 - 首次运行时，Steam 会下载额外的运行时文件。
 - 如果出现依赖问题，请运行 `sudo apt install -f`。

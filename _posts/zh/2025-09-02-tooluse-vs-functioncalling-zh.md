@@ -50,6 +50,7 @@ type: note
       }
     }
     ```
+
   * 用户提问："广州天气如何？"
   * LLM：输出 → `{ "name": "getWeather", "arguments": {"city": "Guangzhou"} }`
   * 您的系统执行该函数并返回结果

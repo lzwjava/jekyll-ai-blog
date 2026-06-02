@@ -29,6 +29,7 @@ You currently cannot undo restoring a Droplet from a backup. Once you restore, e
 **For your AMD DevCloud workflow:**
 
 You'd use restore only if:
+
 - You accidentally broke ROCm/PyTorch setup and want to go back
 - You want to revert a bad config change
 

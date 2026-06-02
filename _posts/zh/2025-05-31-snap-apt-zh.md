@@ -11,6 +11,7 @@ type: note
 **Snap** 和 **Apt** 都是 Linux 系统中使用的软件包管理系统，尤其在 Ubuntu 和基于 Debian 的发行版中，但它们有不同的用途和特点。以下是简明对比：
 
 ### **Snap**
+
 - **定义**：Snap 是由 Canonical 开发的通用软件包管理系统，旨在跨不同的 Linux 发行版工作。
 - **主要特点**：
   - **跨发行版**：Snap 与发行版无关，意味着单个 Snap 软件包可以在 Ubuntu、Fedora、Arch 等系统上运行。
@@ -25,6 +26,7 @@ type: note
   - **文件格式**：`.snap` 文件。
 
 ### **Apt**
+
 - **定义**：Apt（高级软件包工具）是 Debian 系统（如 Ubuntu）的传统软件包管理器。
 - **主要特点**：
   - **系统特定**：专为 Debian/Ubuntu 设计，与系统的软件包仓库紧密集成。
@@ -53,10 +55,12 @@ type: note
 | **文件格式**        | `.snap`                           | `.deb`                           |
 
 ### **何时使用**
+
 - **使用 Snap**：适用于现代跨平台应用，或需要隔离和自动更新的场景（例如安装 VS Code 或 Firefox 等 GUI 应用）。
 - **使用 Apt**：适用于系统级软件包、需要较小占用空间或与操作系统紧密集成的场景（例如安装 `nginx` 或 `python3`）。
 
 ### **示例**
+
 - 通过 Snap 安装 Firefox：`sudo snap install firefox`
 - 通过 Apt 安装 Firefox：`sudo apt install firefox`
 

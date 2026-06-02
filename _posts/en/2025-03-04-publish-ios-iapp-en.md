@@ -15,6 +15,7 @@ To use the Apple Developer Program to upload an iOS app, whether for personal or
 ### 1. Enrolling in the Apple Developer Program
 
 #### For Individuals (Personal Use)
+
 - **Create an Apple ID**:
   If you don’t have one, go to [appleid.apple.com](https://appleid.apple.com) and sign up using a personal email address.
 - **Enroll in the Program**:
@@ -24,6 +25,7 @@ To use the Apple Developer Program to upload an iOS app, whether for personal or
 - **Key Note**: Your personal name will appear as the seller on the App Store.
 
 #### For Corporations (Organizational Use)
+
 - **Obtain a D-U-N-S Number**:
   - A D-U-N-S Number is a unique nine-digit identifier assigned by Dun & Bradstreet to verify your organization’s legal entity status. Apple requires this for corporate accounts.
   - Check if your organization already has one at [dnb.com](https://www.dnb.com). If not, request it for free via their website—processing can take up to two weeks.
@@ -41,6 +43,7 @@ To use the Apple Developer Program to upload an iOS app, whether for personal or
 ---
 
 ### 2. Preparing and Packaging the App
+
 - **Develop Your App in Xcode**:
   - Use Xcode, Apple’s official development tool, to build your iOS app.
   - Ensure it meets [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/).
@@ -54,6 +57,7 @@ To use the Apple Developer Program to upload an iOS app, whether for personal or
 ---
 
 ### 3. Uploading the App Archive
+
 - **Using Xcode**:
   - After archiving, the Organizer window opens automatically in Xcode.
   - Select your archive and click **Distribute App**.
@@ -68,6 +72,7 @@ To use the Apple Developer Program to upload an iOS app, whether for personal or
 ---
 
 ### 4. Updating Apps Using Apple’s Site (App Store Connect)
+
 - **Access App Store Connect**:
   - Go to [appstoreconnect.apple.com](https://appstoreconnect.apple.com) and log in with your Apple ID.
 - **Manage Your App**:
@@ -82,6 +87,7 @@ To use the Apple Developer Program to upload an iOS app, whether for personal or
 ---
 
 ### Additional Notes
+
 - **Corporate-Specific Details**:
   - Ensure your D-U-N-S Number and organizational information are accurate to avoid enrollment delays.
   - You can invite team members (e.g., developers, testers) to your account via App Store Connect and assign roles like "Developer" or "Admin."

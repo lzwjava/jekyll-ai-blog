@@ -32,8 +32,8 @@ These opinions are often labeled unpopular because surveys show most Americans d
 
 References:
 
-- https://en.wikipedia.org/wiki/Anti-Chinese_sentiment_in_the_United_States
-- https://en.wikipedia.org/wiki/Stereotypes_of_East_Asians_in_the_United_States
-- https://www.reddit.com/r/asianamerican/comments/1jfd475/has_anyone_noticed_the_disdain_for_chinese/
-- https://www.pewresearch.org/global/2024/05/01/americans-remain-critical-of-china/
-- https://history.state.gov/milestones/1866-1898/chinese-immigration
+- <https://en.wikipedia.org/wiki/Anti-Chinese_sentiment_in_the_United_States>
+- <https://en.wikipedia.org/wiki/Stereotypes_of_East_Asians_in_the_United_States>
+- <https://www.reddit.com/r/asianamerican/comments/1jfd475/has_anyone_noticed_the_disdain_for_chinese/>
+- <https://www.pewresearch.org/global/2024/05/01/americans-remain-critical-of-china/>
+- <https://history.state.gov/milestones/1866-1898/chinese-immigration>

@@ -11,6 +11,7 @@ type: note
 ---
 
 ### 概述
+
 Finacle 和 Avaloq 都是综合性核心银行平台，专为银行及金融机构处理端到端金融业务而设计。由 Infosys（通过其子公司 EdgeVerve）开发的 Finacle 是云原生解决方案，强调可扩展性、数字化交互和全球覆盖。现属 NEC 公司旗下的 Avaloq 则是模块化的前后台一体化平台，专注于财富管理、零售银行和运营效率。虽然两者都支持支付、贷款和客户管理等核心银行业务，但 Finacle 面向更广泛的银行类型，而 Avaloq 在专业财富和资产管理场景中表现更出色。
 
 ### 核心对比
@@ -48,6 +49,7 @@ Finacle：更高心智占有率（核心银行市场5.9%，排名第5）；用�
 Avaloq：心智占有率稍逊（5.1%，排名第8）；在欧美亚财富管理领域表现强劲，渗透率持续提升
 
 ### 深度解析
+
 - **实施与扩展**：Avaloq以快速部署和减少后台冗余见长，适合中型财富管理公司；Finacle的开放API虽加速创新，但传统系统集成需更多初始投入
 - **用户评价**：两家平台公开评测有限，但Gartner洞察显示Avaloq服务支持略胜一筹，而PeerSpot核心银行排名中Finacle领先
 - **API特性**：针对"金融产品/API"需求，Finacle提供更开放的云原生第三方集成API，Avaloq则侧重安全模块化扩展的专业金融产品接口
@@ -55,6 +57,7 @@ Avaloq：心智占有率稍逊（5.1%，排名第8）；在欧美亚财富管理
 若基于具体场景（如零售银行vs财富管理）评估，Finacle更适合综合业务，而Avaloq在资产密集型环境中效率更优。
 
 ### 参考资料
+
 - [Avaloq与Finacle对比分析](https://sdk.finance/avaloq-vs-finacle-avaloq-alternative-finacle-alternative/)
 - [Capterra平台Finacle与Avaloq对比](https://www.capterra.com.sg/compare/59348/177861/finacle/vs/avaloq-banking-suite)
 - [PeerSpot平台Avaloq Core与EdgeVerve Finacle对比](https://www.peerspot.com/products/comparisons/avaloq-core_vs_edgeverve-finacle)

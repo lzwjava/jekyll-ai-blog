@@ -14,15 +14,15 @@ It's important to note that rankings can vary slightly between different analyti
 
 **Top 30 Most Visited Websites (General Overview):**
 
-1.  **Google.com:** The leading search engine globally, serving as a primary gateway to the internet.
-2.  **YouTube.com:** The dominant online video-sharing platform with a massive user base.
-3.  **Facebook.com:** The largest social networking site, connecting billions worldwide.
-4.  **Wikipedia.org:** A collaborative, free online encyclopedia, a vast source of information.
-5.  **Instagram.com:** A popular social media platform focused on photo and video sharing.
-6.  **X.com (formerly Twitter):** A social networking and microblogging service for real-time updates and discussions.
-7.  **TikTok.com:** A short-form video hosting service that has gained immense popularity.
-8.  **Amazon.com:** The world's largest online marketplace for e-commerce.
-9.  **WhatsApp.com:** A widely used messaging and voice-over-IP service.
+1. **Google.com:** The leading search engine globally, serving as a primary gateway to the internet.
+2. **YouTube.com:** The dominant online video-sharing platform with a massive user base.
+3. **Facebook.com:** The largest social networking site, connecting billions worldwide.
+4. **Wikipedia.org:** A collaborative, free online encyclopedia, a vast source of information.
+5. **Instagram.com:** A popular social media platform focused on photo and video sharing.
+6. **X.com (formerly Twitter):** A social networking and microblogging service for real-time updates and discussions.
+7. **TikTok.com:** A short-form video hosting service that has gained immense popularity.
+8. **Amazon.com:** The world's largest online marketplace for e-commerce.
+9. **WhatsApp.com:** A widely used messaging and voice-over-IP service.
 10. **Reddit.com:** A network of communities where users discuss and share content on various topics.
 11. **Yahoo.com:** A web portal offering news, email, search, and other services.
 12. **Microsoft.com:** The official website for Microsoft, providing information on its products and services.

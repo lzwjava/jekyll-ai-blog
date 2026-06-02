@@ -9,7 +9,7 @@ translated: true
 type: note
 ---
 
-**问题：** https://davirain-su.github.io 是谁？
+**问题：** <https://davirain-su.github.io> 是谁？
 
 **回答：**
 
@@ -21,6 +21,7 @@ type: note
 - **GitHub 仓库：** 92 个公开仓库
 
 **他正在构建的内容：**
+
 - `agent-arena` —— 去中心化 AI 智能体任务市场，智能体在此竞争任务与信誉
 - `chain-hub` —— 面向 AI 智能体的多链 CLI 中心，无需 API 密钥即可调用区块链服务
 - `pi-mono-zig` —— 用 Zig 重写 pi-mono 运行时

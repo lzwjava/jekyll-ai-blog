@@ -15,6 +15,7 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 ## 🔷 1. Common Emitter (CE) Amplifier
 
 ### 🔧 Configuration
+
 - **Input**: Applied between base and emitter.
 - **Output**: Taken from collector and emitter.
 - **Common terminal**: Emitter is common to both input and output.
@@ -31,14 +32,17 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 | **Output Impedance**    | Moderate                           |
 
 ### ✅ Advantages
+
 - Good for voltage and power amplification.
 - Most widely used configuration.
 
 ### ❌ Disadvantages
+
 - Inverts the signal (180° phase shift).
 - Less suitable for impedance matching.
 
 ### 🧰 Applications
+
 - General-purpose signal amplification.
 - Audio amplifiers.
 - Intermediate stages in amplifiers.
@@ -48,6 +52,7 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 ## 🔷 2. Common Collector (CC) Amplifier — *Emitter Follower*
 
 ### 🔧 Configuration
+
 - **Input**: Applied between base and collector.
 - **Output**: Taken from emitter and collector.
 - **Common terminal**: Collector is common.
@@ -64,15 +69,18 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 | **Output Impedance**    | Low                                    |
 
 ### ✅ Advantages
+
 - Excellent buffer stage.
 - Good for impedance matching (high input, low output impedance).
 - No signal inversion.
 
 ### ❌ Disadvantages
+
 - No voltage gain.
 - Not suitable as a stand-alone amplifier where voltage amplification is needed.
 
 ### 🧰 Applications
+
 - Buffer between stages.
 - Driving low-impedance loads.
 - Voltage followers.
@@ -82,6 +90,7 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 ## 🔷 3. Common Base (CB) Amplifier
 
 ### 🔧 Configuration
+
 - **Input**: Applied between emitter and base.
 - **Output**: Taken from collector and base.
 - **Common terminal**: Base is common.
@@ -99,14 +108,17 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 | **Frequency Response**  | Very wide (good for high-frequency use) |
 
 ### ✅ Advantages
+
 - Excellent high-frequency response.
 - Stable operation.
 
 ### ❌ Disadvantages
+
 - Low input impedance—requires careful design of the driving stage.
 - Limited current gain.
 
 ### 🧰 Applications
+
 - RF (radio frequency) amplifiers.
 - High-frequency signal amplification.
 - Impedance matching (for low-impedance sources to high-impedance loads).

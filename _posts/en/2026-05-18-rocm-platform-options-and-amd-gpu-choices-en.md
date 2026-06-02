@@ -28,14 +28,17 @@ This is the easiest and most direct way to get started with ROCm.
 ## 2. Major Cloud Providers (Hyperscalers)
 
 ### Microsoft Azure
+
 Azure offers the **ND MI300X v5** virtual machine powered by AMD Instinct MI300X GPUs, and ROCm integrates seamlessly with Azure for powerful AI and HPC workloads. The AMD Instinct MI300X GPU on this VM can run today's gigantic frontier models — for example, all 671B parameters of DeepSeek-R1 fit in a single VM.
 
 ### Oracle Cloud Infrastructure (OCI)
+
 OCI is the only major cloud provider to offer **bare metal instances** with AMD GPUs, free of virtualization overhead. OCI offers AMD Instinct **MI300X** GPUs with 192 GB of memory at a competitive price of $6 per GPU-hour.
 
 OCI is among the first industry leaders to adopt AMD open rack-scale AI infrastructure with AMD Instinct **MI355X** GPUs, and announced it will offer zettascale AI clusters with up to 131,072 MI355X GPUs.
 
 ### AWS
+
 AWS supports AMD EPYC-based instances and is part of AMD's broad cloud expansion, though AMD Instinct GPU-specific instances are more prominently offered through Azure and OCI for ROCm workloads.
 
 ---

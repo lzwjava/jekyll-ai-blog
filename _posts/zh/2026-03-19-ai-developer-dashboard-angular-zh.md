@@ -47,12 +47,14 @@ OpenRouter 允许您在请求中包含 `usage: {include: true}` 以在响应中�
 ## 🔗 可参考的类似项目
 
 ### 小部件/仪表板架构
+
 - **[Dashy](https://dashy.to/)** — 一个开源、自托管的仪表板，捆绑了 50+ 个预构建小部件，支持状态检查、主题、图标包和 UI 编辑器。从 UI 中，您可以选择不同的布局、项目大小、显示/隐藏组件，并切换主题。这是小部件添加/移除/自定义 UX 的最近参考。
 - **[ngx-admin](https://github.com/akveo/ngx-admin)** — 基于 Angular 10+ 的可自定义管理仪表板模板，MIT 许可，具有丰富的生态小部件。非常适合布局参考。
 - **[ai-api-usage-monitor](https://github.com/kylnor/ai-api-usage-monitor)** — 一个多提供商 AI API 使用和成本监控系统，支持 OpenAI、Anthropic Claude、OpenRouter、Google Gemini、ElevenLabs 和 MiniMax，带有仪表板和警报。它包括对 6 大主要 AI 提供商的实时监控、准确的成本跟踪，以及通过电子邮件、Slack 和 webhooks 的智能预算警报。
 - **[SigNoz OpenRouter Dashboard](https://signoz.io/docs/dashboards/dashboard-templates/openrouter-dashboard/)** — 展示 OpenRouter 统计面板指标和布局的绝佳参考。
 
 ### 网格/拖拽小部件布局
+
 - **angular-gridster2** — Angular 拖拽可调整大小网格库的首选（在 Angular 21 的 standalone components 中工作良好）
 - **@angular/cdk DragDrop** — Angular 的 CDK 提供行为原语，如 Drag and Drop，您可以将其包含在自己的自定义组件中 — 保持原生以获得更轻的依赖足迹。
 

@@ -16,11 +16,13 @@ Those are **solid, practical suggestions** — but let me add some nuance:
 ### `block_size` reduction (512 or 256)
 
 **Pros:**
+
 - Steps are ~2-4x faster (attention is O(n²) in seq length)
 - More weight updates per wall-clock hour
 - Can help debugging iteration speed
 
 **Caveats:**
+
 - **Context length mismatch:** If your downstream tasks expect 1024-2048 context, training on 256 will hurt eval performance
 - **FineWeb distribution:** The dataset contains long-range dependencies — truncating to 256 means the model never sees document-level structure
 - **Learning dynamics:** With shorter sequences, gradient noise increases (more updates but each is less informative)
@@ -41,6 +43,7 @@ Those are **solid, practical suggestions** — but let me add some nuance:
 | **Early stopping** | 5 min reaction time | 2 min reaction time |
 
 **My take:**
+
 - For **sweeps/hyperparameter tuning** → `100` makes sense (tighter feedback)
 - For **final training runs** → `250` is fine (you care about trend, not minute-by-minute)
 

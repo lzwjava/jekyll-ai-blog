@@ -78,6 +78,7 @@ In libraries like PyTorch and TensorFlow/Keras:
 - Often combined with learning rate warm-up and decay schedules.
 
 Example in PyTorch:
+
 ```python
 optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4, weight_decay=0.01)
 ```

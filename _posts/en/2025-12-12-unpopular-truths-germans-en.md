@@ -29,6 +29,7 @@ Here are some genuinely unpopular opinions about Germans (the people and culture
 These observations are unpopular because they clash with the polished international image of Germany as progressive, innovative, and relaxed. Yet they are widely discussed (often with dark humor) among long-term expats and even by many younger Germans themselves on platforms like Reddit’s r/de or r/germany.
 
 References:
+
 - [The Local Germany – “10 brutal truths about living in Germany”](https://www.thelocal.de/20230120/10-brutal-truths-about-living-in-germany-no-one-wants-to-admit)
 [Reddit r/germany – “Unpopular opinions about Germany” megathread (2024)](https://www.reddit.com/r/germany/comments/18×7b4z/unpopular_opinions_about_germany_megathread/)
 [OECD Better Life Index & Eurostat loneliness statistics (2023–2025)](https://www.oecd.org/en/data/indicators/better-life-index.html)

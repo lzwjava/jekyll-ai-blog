@@ -20,16 +20,19 @@ type: note
 是的——粘贴原始的浏览器 console 输出或 network errors 是从 LLM 获取有用帮助的 **最有效方式之一**，原因如下：
 
 **1. Errors 已经是结构化信息**
+
 - Stack traces、error codes 和 HTTP status messages 精确且明确
 - LLM 在 Stack Overflow、GitHub issues、MDN 等海量类似 error patterns 上训练
 - 没有“翻译损失”——你直接给出运行时产生的精确内容
 
 **2. HTTP errors 特别具有诊断性**
+
 - `401 Unauthorized` 与 `403 Forbidden` 或 `CORS error` 各自讲述完全不同的故事
 - Network tab 细节（request headers、response body、URL、method）为 LLM 提供完整上下文以精确定位根本原因
 - AI 可以立即区分“你的 token 错误”与“你的服务器不允许跨域请求”
 
 **3. Console logs 消除歧义**
+
 - 与你 *描述* bug（“它不工作”）不同，log *显示* bug
 - Null reference errors、type mismatches、undefined variables——在 log 中一目了然
 
@@ -48,6 +51,7 @@ type: note
 | 你需要后续维护它 | ❌ 你会迷失 | ✅ 你会理解它 |
 
 **即使 30 秒快速浏览也能帮助你：**
+
 - 发现 AI 是否误解了你的意图
 - 注意硬编码的值应该改为变量
 - 在运行前捕获明显的逻辑错误

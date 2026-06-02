@@ -11,6 +11,7 @@ type: note
 **定义、示例、矩阵表示、核、像、性质（单射性、满射性）**
 
 线性变换是线性代数中的基础概念，在向量空间与矩阵之间架起了桥梁。本教程涵盖：
+
 - 线性变换的**定义**
 - 常见线性变换的**示例**
 - 线性变换的**矩阵表示**
@@ -20,7 +21,9 @@ type: note
 ---
 
 ## **1. 线性变换的定义**
+
 设 \\( V \\) 和 \\( W \\) 是域 \\( \mathbb{F} \\)（通常为 \\( \mathbb{R} \\) 或 \\( \mathbb{C} \\)）上的两个向量空间，**线性变换**（或线性映射）\\( T: V \to W \\) 是一个满足以下条件的函数：
+
 1. **可加性**：
    \\[
    T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v}) \quad \forall \mathbf{u}, \mathbf{v} \in V
@@ -37,32 +40,39 @@ type: note
 ## **2. 线性变换示例**
 
 ### **(a) 零变换**
+
 - 对所有 \\( \mathbf{v} \in V \\)，\\( T(\mathbf{v}) = \mathbf{0} \\)。
 
 ### **(b) 恒等变换**
+
 - 对所有 \\( \mathbf{v} \in V \\)，\\( T(\mathbf{v}) = \mathbf{v} \\)。
 
 ### **(c) \\( \mathbb{R}^2 \\) 中的旋转**
+
 - 将向量旋转角度 \\( \theta \\)：
   \\[
   T \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix}
   \\]
 
 ### **(d) 微分（多项式空间）**
+
 - \\( T: P_n \to P_{n-1} \\)，其中 \\( T(p(x)) = p'(x) \\)。
 
 ### **(e) 矩阵乘法**
+
 - 对于固定的 \\( m \times n \\) 矩阵 \\( A \\)，\\( T: \mathbb{R}^n \to \mathbb{R}^m \\) 定义为 \\( T(\mathbf{x}) = A\mathbf{x} \\)。
 
 ---
 
 ## **3. 线性变换的矩阵表示**
+
 每个线性变换 \\( T: \mathbb{R}^n \to \mathbb{R}^m \\) 都可以用一个 \\( m \times n \\) 矩阵 \\( A \\) 表示，使得：
 \\[
 T(\mathbf{x}) = A\mathbf{x}
 \\]
 
 ### **如何求矩阵 \\( A \\)**
+
 1. 将 \\( T \\) 作用于 \\( \mathbb{R}^n \\) 的标准基向量 \\( \mathbf{e}_1, \mathbf{e}_2, \dots, \mathbf{e}_n \\)。
 2. \\( A \\) 的列即为 \\( T(\mathbf{e}_1), T(\mathbf{e}_2), \dots, T(\mathbf{e}_n) \\)。
 
@@ -71,6 +81,7 @@ T(\mathbf{x}) = A\mathbf{x}
 \\[
 T \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x + y \\ x - 3y \end{pmatrix}
 \\]
+
 - 计算 \\( T(\mathbf{e}_1) = T(1, 0) = (2, 1) \\)
 - 计算 \\( T(\mathbf{e}_2) = T(0, 1) = (1, -3) \\)
 - 因此，矩阵 \\( A \\) 为：
@@ -83,12 +94,14 @@ T \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x + y \\ x - 3y \end{p
 ## **4. 核（零空间）与像（值域）**
 
 ### **(a) 核（零空间）**
+
 \\( T \\) 的**核**是 \\( V \\) 中所有映射到 \\( \mathbf{0} \\) 的向量集合：
 \\[
 \ker(T) = \{ \mathbf{v} \in V \mid T(\mathbf{v}) = \mathbf{0} \}
 \\]
 
 **性质**：
+
 - \\( \ker(T) \\) 是 \\( V \\) 的子空间。
 - \\( T \\) 是**单射（一对一）**当且仅当 \\( \ker(T) = \{ \mathbf{0} \} \\)。
 
@@ -99,12 +112,14 @@ T \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x + y \\ x - 3y \end{p
 \\]
 
 ### **(b) 像（值域）**
+
 \\( T \\) 的**像**是 \\( W \\) 中所有输出的集合：
 \\[
 \text{Im}(T) = \{ T(\mathbf{v}) \mid \mathbf{v} \in V \}
 \\]
 
 **性质**：
+
 - \\( \text{Im}(T) \\) 是 \\( W \\) 的子空间。
 - \\( T \\) 是**满射（满射）**当且仅当 \\( \text{Im}(T) = W \\)。
 
@@ -119,28 +134,34 @@ T \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x + y \\ x - 3y \end{p
 ## **5. 性质：单射性与满射性**
 
 ### **(a) 单射性（一对一）**
+
 线性变换 \\( T \\) 是**单射**，如果：
 \\[
 T(\mathbf{u}) = T(\mathbf{v}) \implies \mathbf{u} = \mathbf{v}
 \\]
 **检验方法**：
+
 - \\( T \\) 是单射 \\( \iff \ker(T) = \{ \mathbf{0} \} \\)。
 - 若 \\( \dim(V) < \dim(W) \\)，则 \\( T \\) 可能不是单射。
 
 ### **(b) 满射性（满射）**
+
 线性变换 \\( T \\) 是**满射**，如果：
 \\[
 \forall \mathbf{w} \in W, \exists \mathbf{v} \in V \text{ 使得 } T(\mathbf{v}) = \mathbf{w}
 \\]
 **检验方法**：
+
 - \\( T \\) 是满射 \\( \iff \text{Im}(T) = W \\)。
 - 若 \\( \dim(V) > \dim(W) \\)，则 \\( T \\) 可能不是满射。
 
 ### **(c) 秩-零化度定理**
+
 对于 \\( T: V \to W \\)，
 \\[
 \dim(V) = \dim(\ker(T)) + \dim(\text{Im}(T))
 \\]
+
 - **秩** \\( = \dim(\text{Im}(T)) \\)
 - **零化度** \\( = \dim(\ker(T)) \\)
 
@@ -163,6 +184,7 @@ T(\mathbf{u}) = T(\mathbf{v}) \implies \mathbf{u} = \mathbf{v}
 ---
 
 ## **练习题**
+
 1. 求 \\( T(x, y, z) = (2x - y, y + 3z) \\) 的矩阵表示。
 2. 判断 \\( T(\mathbf{x}) = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} \mathbf{x} \\) 是否为单射/满射。
 3. 计算 \\( T(x, y) = (x + y, 2x - y, x) \\) 的 \\( \ker(T) \\) 和 \\( \text{Im}(T) \\)。

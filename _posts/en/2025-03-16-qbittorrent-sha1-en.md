@@ -11,6 +11,7 @@ type: note
 When you move file locations in qBittorrent and it checks the files again before seeding, it’s ensuring that the files in the new location are the same as the ones it was originally working with. This verification is critical in torrenting to prevent sharing incorrect or corrupted data. Here’s how the process works and what algorithm it uses:
 
 ### How qBittorrent Verifies Files
+
 qBittorrent doesn’t simply trust that the moved files are correct—it checks their integrity by comparing them to information stored in the torrent file. In torrenting, data is split into smaller chunks called **pieces**, and each piece has a unique hash value. These hashes are included in the torrent file and act as a fingerprint for each piece of data. When you move files to a new location, qBittorrent uses these piece hashes to confirm that the files haven’t changed.
 
 The process can be broken down into these steps:
@@ -21,13 +22,16 @@ The process can be broken down into these steps:
 4. **Confirm Integrity**: If all the calculated hashes match the torrent’s hashes, the files are confirmed to be identical, and qBittorrent can resume seeding. If any piece’s hash doesn’t match, that piece is flagged as incomplete or missing, and qBittorrent may need to redownload it.
 
 ### What Algorithm Does It Use?
+
 qBittorrent doesn’t use a full-file checksum (like MD5 or SHA-256 for the entire file), as that would be slow and inefficient, especially for large files. Instead, it relies on the **piece hashes** defined by the BitTorrent protocol. The algorithm used for these piece hashes is **SHA-1**, a widely used cryptographic hash function. Each piece of data (which could be a few kilobytes to a few megabytes, depending on the torrent) is hashed with SHA-1, and those hashes are what qBittorrent checks against.
 
 Using piece hashes instead of a full-file checksum has two big advantages:
+
 - **Efficiency**: Checking smaller pieces is faster than hashing an entire file.
 - **Granularity**: If something’s wrong, qBittorrent can pinpoint exactly which pieces need fixing, rather than rejecting the whole file.
 
 ### Why This Matters
+
 This hash-based verification ensures that the data you’re seeding from the new location matches what other peers expect, maintaining the integrity of the torrent swarm. Without this check, moving files could lead to sharing corrupted or mismatched data, which would disrupt the torrenting process.
 
 In short, when you move file locations in qBittorrent, it rechecks the files by computing **SHA-1 hashes** of each piece and comparing them to the hashes in the torrent file. That’s how it confirms everything’s correct before seeding resumes.
@@ -37,6 +41,7 @@ In short, when you move file locations in qBittorrent, it rechecks the files by 
 To demonstrate how qBittorrent verifies file integrity using piece hashes (specifically SHA-1 hashes) when moving file locations, here’s a simple Python script. qBittorrent, following the BitTorrent protocol, splits files into pieces, computes SHA-1 hashes for each piece, and uses these hashes to ensure the file’s content remains unchanged, regardless of its location. This script simulates that process by creating a sample file, computing its piece hashes, verifying an identical copy, and then showing how modification causes verification to fail.
 
 ### Explanation
+
 - **Piece Hashes**: The script splits a file into fixed-size pieces (e.g., 10 bytes) and computes SHA-1 hashes for each piece, mimicking how a torrent file stores these hashes.
 - **Verification**: It checks if a file’s computed hashes match the expected hashes, ensuring integrity.
 - **Simulation**: It creates a file, copies it (simulating a move), verifies it, then modifies the copy and verifies again to show how changes are detected.
@@ -101,6 +106,7 @@ os.remove('file2.txt')
 ```
 
 ### How It Works
+
 1. **File Creation**: Writes "Hello, this is a test file." (25 bytes) to `file1.txt`.
 2. **Hash Computation**: Splits `file1.txt` into pieces of 10 bytes each (e.g., "Hello, thi", "s is a tes", "t file."), computes SHA-1 hashes, and stores them as `expected_hashes`.
 3. **Simulate Move**: Copies `file1.txt` to `file2.txt`, representing a file moved to a new location.
@@ -110,11 +116,13 @@ os.remove('file2.txt')
 7. **Cleanup**: Deletes the temporary files.
 
 ### Output Example
+
 ```
 Expected hashes: ['dffd6021', 'a2b3c4d5', 'e6f789ab']  # Example hash prefixes
 Verification of file2.txt (unchanged): Valid
 Verification of file2.txt (modified): Invalid
 ```
+
 (Actual hash values will vary but follow this pattern.)
 
 This script illustrates how qBittorrent ensures file integrity by comparing piece hashes, detecting any changes even after a file is moved, making it a simple yet effective demonstration of the process.

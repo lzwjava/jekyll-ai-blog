@@ -25,6 +25,7 @@ Working in short, focused bursts (typically 25–90 minutes) followed by brief b
 - **Makes progress visible**: You accumulate a series of completed bursts (e.g., “8 Pomodoros today”) that serve as clear evidence of work done, boosting morale and reducing the “I got nothing done” feeling.
 
 Research backing:
+
 - Studies on the Pomodoro Technique (Cirillo’s original method) and ultradian rhythm research (e.g., Rossi, Kleitman) show marked improvements in focus and perceived productivity.
 - A 2011 study from the University of Illinois found that brief diversions (breaks) dramatically improve prolonged attention.
 - DeskTime data (2014–present) from thousands of users consistently shows the most productive people work ~52 minutes then break ~17 minutes.
@@ -32,6 +33,7 @@ Research backing:
 In short: working in bursts respects your brain’s natural limits, creates artificial urgency, protects deep focus, and keeps energy and motivation higher across the entire day compared to long, uninterrupted sessions.
 
 References:
+
 - [The Pomodoro Technique](https://francescocirillo.com/pagesghumodoro-technique)
 - [Brief diversions vastly improve focus (Baumeister et al., 2011)](https://news.illinois.edu/view/6367/205268)
 - [DeskTime study on most productive work pattern](https://desktime.com/blog/top-findings-desktime-data-study)

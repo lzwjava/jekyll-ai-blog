@@ -11,6 +11,7 @@ type: note
 ---
 
 ### Location of the New York Public Library
+
 The New York Public Library (NYPL) is one of the most iconic institutions in New York City. Its flagship branch, known as the Stephen A. Schwarzman Building (often just called the Main Branch), is located at:
 
 - **Address**: 476 Fifth Avenue, New York, NY 10018 (between 40th and 42nd Streets in Midtown Manhattan).
@@ -19,6 +20,7 @@ The New York Public Library (NYPL) is one of the most iconic institutions in New
 The NYPL system has over 90 locations across the Bronx, Manhattan, and Staten Island, but the Main Branch is the most famous one with the iconic lion statues at the entrance.
 
 ### Brief History
+
 The New York Public Library was officially established on **May 23, 1895**, through the merger of two older institutions: the Astor Library (founded in 1848 by philanthropist John Jacob Astor) and the Lenox Library (created in 1870 by bibliophile James Lenox, known for its rare books and art collection). It was further expanded by a major grant from steel magnate Andrew Carnegie, who funded 65 branch libraries across the city.
 
 - **Key Milestones**:

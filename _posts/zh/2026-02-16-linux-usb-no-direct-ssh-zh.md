@@ -55,6 +55,6 @@ type: note
 
 **References:**
 
-- https://askubuntu.com/questions/826943/booting-ubuntu-on-mac-from-usb
-- https://www.jeffgeerling.com/blog/2024/mounting-ext4-linux-usb-drive-on-macos-2024
-- https://www.kali.org/docs/usb/live-usb-install-with-mac
+- <https://askubuntu.com/questions/826943/booting-ubuntu-on-mac-from-usb>
+- <https://www.jeffgeerling.com/blog/2024/mounting-ext4-linux-usb-drive-on-macos-2024>
+- <https://www.kali.org/docs/usb/live-usb-install-with-mac>

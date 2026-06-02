@@ -15,6 +15,7 @@ type: note
 在加载 `.bashrc` 文件时，Ghostty 的行为与 Ubuntu（及其他 Linux 发行版）默认的 GNOME 终端保持一致。Ghostty 默认会为 bash 启动**非登录交互式 shell**，这意味着它会直接加载 `~/.bashrc`——正如 GNOME 终端那样。这是大多数 Linux 终端的标准行为，其中 `.bashrc` 用于处理交互式 shell 的配置（例如别名、提示符、非登录会话的环境变量）。
 
 #### 加载 .bashrc 的机制
+
 - 当您打开新的 Ghostty 窗口或标签页时，它会以非登录 shell 形式执行 `bash`（或您的默认 shell）。
 - 如果 shell 处于交互模式（默认即是），Bash 会检查并加载 `~/.bashrc`。
 - 如果您设置了 `~/.bash_profile`（通常用于登录 shell），除非您显式配置 Ghostty 启动登录 shell（例如在 `~/.config/ghostty/config` 中添加 `initial-command = bash --login`），否则该文件不会被加载。
@@ -28,6 +29,7 @@ type: note
 
 - **若使用 zsh（macOS Catalina 及之后版本的默认 shell）**：每次新开终端时会同时加载 `~/.zprofile`（用于登录设置）*和* `~/.zshrc`（用于交互设置）。
 - **若使用 bash**：系统会加载 `~/.bash_profile`（登录 shell）。此时 Bash 不会直接加载 `~/.bashrc`——因为 `~/.bashrc` 仅适用于非登录交互式 shell。如需引入 `.bashrc` 中的配置，请在 `~/.bash_profile` 中添加：
+
   ```
   if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
   ```

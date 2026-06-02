@@ -13,6 +13,7 @@ type: note
 VisualVM 是一款功能强大的开源 Java 性能分析和监控工具，它提供了图形化界面用于分析 Java 应用程序的性能。该工具随 Java 开发工具包（JDK）一起提供，特别适用于诊断性能问题、内存泄漏和线程相关问题。本指南涵盖 VisualVM 的功能特性、设置安装、使用方法以及面向开发人员和系统管理员的最佳实践。
 
 ## 目录
+
 1. [什么是 VisualVM？](#什么是-visualvm)
 2. [VisualVM 主要特性](#visualvm-主要特性)
 3. [系统要求](#系统要求)
@@ -54,6 +55,7 @@ VisualVM 最初由 Sun Microsystems 开发，现已成为 Oracle JDK 的一部�
 ## 系统要求
 
 使用 VisualVM 需确保满足以下条件：
+
 - **操作系统**：Windows、macOS、Linux 或任何支持 JVM 的操作系统。
 - **Java 版本**：JDK 6 或更高版本（VisualVM 随 JDK 8 及更高版本捆绑提供）。
 - **内存**：至少 512 MB 空闲 RAM 用于轻量级监控；1 GB 或更多用于堆转储分析。
@@ -80,6 +82,7 @@ VisualVM 包含在 Oracle JDK 8 及更高版本中，位于 JDK 安装目录的 
 ## 启动 VisualVM
 
 启动 VisualVM：
+
 - **在 Windows 上**：双击 JDK 的 `bin` 文件夹或独立安装目录中的 `jvisualvm.exe`。
 - **在 macOS/Linux 上**：在终端中运行 `bin` 目录下的 `./jvisualvm`。
 - VisualVM 界面将打开，在左侧面板显示本地 Java 应用程序列表。
@@ -89,12 +92,15 @@ VisualVM 包含在 Oracle JDK 8 及更高版本中，位于 JDK 安装目录的 
 VisualVM 可以监控本地和远程的 Java 应用程序。
 
 ### 本地应用程序
+
 - 启动后，VisualVM 会自动检测本地机器上运行的 Java 应用程序。
 - 双击左侧面板中的应用程序以打开其监控仪表板。
 - 如果某个应用程序未列出，请确保它正在兼容的 JVM 下运行。
 
 ### 远程应用程序
+
 要监控远程 Java 应用程序：
+
 1. 通过添加 JVM 参数（例如 `-Dcom.sun.management.jmxremote`）在远程应用程序上启用 JMX。
 2. 在 VisualVM 中，转到 **文件 > 添加 JMX 连接**。
 3. 输入远程主机的 IP 地址和端口（例如 `主机名:端口`）。
@@ -108,6 +114,7 @@ VisualVM 可以监控本地和远程的 Java 应用程序。
 VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下是每个功能的详细说明。
 
 ### 概览选项卡
+
 - 显示有关应用程序的一般信息，包括：
   - JVM 参数
   - 系统属性
@@ -116,6 +123,7 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 - 用于验证应用程序的配置。
 
 ### 监控选项卡
+
 - 提供以下内容的实时图表：
   - **CPU 使用率**：跟踪应用程序和系统的 CPU 使用率。
   - **堆内存**：监控堆使用情况（Eden、老年代、永久代/元空间）和垃圾回收活动。
@@ -124,11 +132,13 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 - 允许手动触发垃圾回收或堆转储。
 
 ### 线程选项卡
+
 - 可视化线程状态（运行中、休眠、等待等）随时间的变化。
 - 提供线程转储功能以捕获所有线程的当前状态。
 - 有助于识别死锁、阻塞线程或过度使用线程。
 
 ### 采样器
+
 - 提供轻量级的 CPU 和内存采样以进行性能分析。
 - **CPU 采样**：
   - 捕获方法级别的执行时间。
@@ -139,6 +149,7 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 - 采样比性能分析的开销更低，但提供的数据详细程度较低。
 
 ### 分析器
+
 - 提供深入的 CPU 和内存分析。
 - **CPU 分析**：
   - 测量方法的执行时间。
@@ -149,6 +160,7 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 - **注意**：性能分析比采样的开销更高，可能会减慢应用程序速度。
 
 ### 堆转储分析
+
 - 堆转储是应用程序内存的快照。
 - 生成堆转储：
   1. 转到 **监控** 选项卡。
@@ -161,6 +173,7 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 - 使用 **OQL（对象查询语言）** 控制台进行高级堆查询。
 
 ### 线程转储分析
+
 - 捕获特定时刻所有线程的状态。
 - 生成线程转储：
   1. 转到 **线程** 选项卡。
@@ -172,6 +185,7 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
   - 线程争用问题
 
 ### MBeans
+
 - 访问 JMX MBeans 以管理和监控应用程序。
 - 功能：
   - 查看和修改 MBean 属性。
@@ -182,26 +196,32 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 ## 远程监控
 
 要监控远程 Java 应用程序：
+
 1. **配置远程 JVM**：
    - 将以下 JVM 参数添加到远程应用程序：
+
      ```bash
      -Dcom.sun.management.jmxremote
      -Dcom.sun.management.jmxremote.port=<端口>
      -Dcom.sun.management.jmxremote.ssl=false
      -Dcom.sun.management.jmxremote.authenticate=false
      ```
+
    - 对于安全连接，启用 SSL 和身份验证：
+
      ```bash
      -Dcom.sun.management.jmxremote.ssl=true
      -Dcom.sun.management.jmxremote.authenticate=true
      -Dcom.sun.management.jmxremote.password.file=<密码文件>
      ```
+
 2. **设置 VisualVM**：
    - 在 VisualVM 中使用远程主机的 IP 和端口添加 JMX 连接。
    - 如果需要，请提供凭据。
 3. **防火墙配置**：
    - 确保 JMX 端口在远程主机上开放。
    - 如果需要，使用 SSH 隧道进行安全的远程访问：
+
      ```bash
      ssh -L <本地端口>:<远程主机>:<远程端口> 用户@远程主机
      ```
@@ -209,6 +229,7 @@ VisualVM 提供了多个选项卡和工具来分析 Java 应用程序。以下�
 ## 通过插件扩展 VisualVM
 
 VisualVM 支持插件以增强其功能：
+
 1. **安装插件**：
    - 转到 **工具 > 插件**。
    - 在插件中心浏览可用插件（例如，Visual GC、BTrace、JConsole 插件）。
@@ -245,9 +266,11 @@ VisualVM 支持插件以增强其功能：
   - 使用 `telnet <主机> <端口>` 测试连接性。
 - **VisualVM 中出现 OutOfMemoryError**：
   - 通过编辑 `visualvm.conf` 文件增加 VisualVM 的堆大小：
+
     ```bash
     -J-Xmx<内存大小>m
     ```
+
 - **堆转储分析缓慢**：
   - 使用具有更多 RAM 的机器。
   - 过滤类以缩小分析范围。

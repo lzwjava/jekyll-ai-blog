@@ -15,7 +15,7 @@ In the context of “orchestration (Ansible/Salt)”, **Salt** refers to **SaltS
 So the phrase means:
 “We’re talking about orchestration tools, specifically Ansible or SaltStack.”
 
-### Quick comparison to clarify what “Salt” is here:
+### Quick comparison to clarify what “Salt” is here
 
 | Feature                  | Ansible                              | Salt (SaltStack)                          |
 |--------------------------|--------------------------------------|-------------------------------------------|
@@ -31,10 +31,12 @@ So the phrase means:
 | Company behind it        | Red Hat                              | Originally SaltStack Inc., acquired by VMware, now part of Broadcom |
 
 ### Why people write “Ansible/Salt”
+
 They are the two most popular Python-based, open-source tools that do both:
+
 - Configuration management (applying desired state to servers)
 - Orchestration (coordinating complex, multi-step, multi-server operations)
 
 So when someone says “orchestration (Ansible/Salt)”, they mean “we use either Ansible or SaltStack for orchestration tasks”.
 
-Short answer: **Salt = SaltStack**, the configuration management and orchestration platform (https://saltproject.io).
+Short answer: **Salt = SaltStack**, the configuration management and orchestration platform (<https://saltproject.io>).

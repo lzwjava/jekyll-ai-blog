@@ -60,6 +60,7 @@ gitlab.scb.com                  内部GitLab
 ## 各工具特定配置
 
 ### curl / wget
+
 ```bash
 # 自动读取 no_proxy（小写）
 export no_proxy="localhost,127.0.0.1,.scb.com,10.10.0.0/8"
@@ -67,6 +68,7 @@ curl https://nexus.internal.scb.com/repository/maven-public/
 ```
 
 ### Python（requests、pip）
+
 ```bash
 export NO_PROXY="localhost,.scb.com,10.0.0.0/8"
 # requests 库同时读取 NO_PROXY 和 no_proxy
@@ -74,6 +76,7 @@ pip install --index-url https://nexus.internal.scb.com/repository/pypi/simple/ s
 ```
 
 或者在 `~/.pip/pip.conf` 中：
+
 ```ini
 [global]
 index-url = https://nexus.internal.scb.com/repository/pypi/simple/
@@ -81,6 +84,7 @@ trusted-host = nexus.internal.scb.com
 ```
 
 ### Maven（`~/.m2/settings.xml`）
+
 ```xml
 <settings>
   <proxies>
@@ -107,6 +111,7 @@ trusted-host = nexus.internal.scb.com
 > Maven 在 `nonProxyHosts` 中使用 `|` 作为分隔符，而非 `,`。
 
 ### Gradle（`~/.gradle/gradle.properties`）
+
 ```properties
 systemProp.http.proxyHost=proxy.scb.com
 systemProp.http.proxyPort=8080
@@ -118,6 +123,7 @@ systemProp.https.nonProxyHosts=localhost|127.0.0.1|*.scb.com|nexus.internal.scb.
 ```
 
 ### npm
+
 ```bash
 npm config set proxy http://proxy.scb.com:8080
 npm config set https-proxy http://proxy.scb.com:8080
@@ -127,6 +133,7 @@ npm config set registry https://nexus.internal.scb.com/repository/npm-public/
 ```
 
 ### Docker 守护进程（`/etc/docker/daemon.json`）
+
 ```json
 {
   "proxies": {
@@ -138,6 +145,7 @@ npm config set registry https://nexus.internal.scb.com/repository/npm-public/
 ```
 
 对于 Docker 构建（作为构建参数传递）：
+
 ```bash
 docker build \
   --build-arg HTTP_PROXY=http://proxy.scb.com:8080 \
@@ -146,6 +154,7 @@ docker build \
 ```
 
 ### Git
+
 ```bash
 git config --global http.proxy http://proxy.scb.com:8080
 git config --global https.proxy http://proxy.scb.com:8080
@@ -209,6 +218,7 @@ curl -k https://nexus.internal.scb.com/   # -k 跳过TLS验证
 ```
 
 ### 企业 MITM 证书（银行中非常常见）
+
 ```bash
 # 将企业CA添加到系统信任（Ubuntu）
 sudo cp scb-root-ca.crt /usr/local/share/ca-certificates/

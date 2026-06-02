@@ -21,6 +21,7 @@ Filesystem      Size  Used Avail Use%
 ```
 
 您的新PC配置（根据您分享的零件清单）包含：
+
 - **三星980 SSD 1TB**（PCIe 3.0 NVMe）—— 您当前的系统盘（正是这块已满）
 - **西数蓝盘 2TB HDD** —— 也在配置中（7200 RPM SATA）
 
@@ -35,14 +36,17 @@ Filesystem      Size  Used Avail Use%
 这是最简单实用的方案。训练数据集（FineWeb等）是**顺序读取**的，因此机械硬盘的速度用于数据存储/预处理是可以接受的，即使不是最理想。
 
 **第一步 — 识别新磁盘：**
+
 ```bash
 lsblk
 # 或
 sudo fdisk -l
 ```
+
 查找一个大约2TB、未分区的设备，如`/dev/sdb`或`/dev/sda`。
 
 **第二步 — 分区：**
+
 ```bash
 sudo fdisk /dev/sdb
 # 在fdisk中：
@@ -54,17 +58,20 @@ sudo fdisk /dev/sdb
 ```
 
 **第三步 — 格式化为ext4：**
+
 ```bash
 sudo mkfs.ext4 /dev/sdb1
 ```
 
 **第四步 — 创建挂载点并挂载：**
+
 ```bash
 sudo mkdir -p /data/llm
 sudo mount /dev/sdb1 /data/llm
 ```
 
 **第五步 — 设置为永久挂载（开机自动挂载）：**
+
 ```bash
 # 获取UUID
 sudo blkid /dev/sdb1
@@ -76,17 +83,20 @@ UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx  /data/llm  ext4  defaults  0  2
 ```
 
 **第六步 — 设置权限以便您的用户可以写入：**
+
 ```bash
 sudo chown -R $USER:$USER /data/llm
 ```
 
 **验证：**
+
 ```bash
 df -h /data/llm
 # 应显示约1.8TB可用空间
 ```
 
 现在将数据集下载到此处：
+
 ```bash
 # 示例：HuggingFace数据集
 huggingface-cli download HuggingFaceFW/fineweb --repo-type dataset --local-dir /data/llm/fineweb

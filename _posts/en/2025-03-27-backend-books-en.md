@@ -13,21 +13,21 @@ Okay, here are some of the best books for Java, Spring Boot, Backend development
 **Java:**
 
 * **For Beginners:**
-    * **"Head First Java" by Kathy Sierra and Bert Bates:** A highly engaging and visual book that makes learning Java fundamentals easier and more enjoyable. It uses a unique learning approach that sticks.
-    * **"Java: A Beginner's Guide" by Herbert Schildt:** A comprehensive and well-structured book that covers all the essential Java concepts in a clear and concise manner.
+  * **"Head First Java" by Kathy Sierra and Bert Bates:** A highly engaging and visual book that makes learning Java fundamentals easier and more enjoyable. It uses a unique learning approach that sticks.
+  * **"Java: A Beginner's Guide" by Herbert Schildt:** A comprehensive and well-structured book that covers all the essential Java concepts in a clear and concise manner.
 * **For Intermediate to Advanced:**
-    * **"Effective Java" by Joshua Bloch:** A must-read for any serious Java developer. It provides 90 concise, stand-alone "items" that offer invaluable insights into best practices and design principles in Java.
-    * **"Core Java Volume I—Fundamentals" by Cay S. Horstmann:** A very thorough and detailed book covering the core Java language features. Often used as a textbook.
-    * **"Core Java Volume II—Advanced Features" by Cay S. Horstmann:** Continues where Volume I leaves off, delving into more advanced topics like concurrency, networking, and XML.
+  * **"Effective Java" by Joshua Bloch:** A must-read for any serious Java developer. It provides 90 concise, stand-alone "items" that offer invaluable insights into best practices and design principles in Java.
+  * **"Core Java Volume I—Fundamentals" by Cay S. Horstmann:** A very thorough and detailed book covering the core Java language features. Often used as a textbook.
+  * **"Core Java Volume II—Advanced Features" by Cay S. Horstmann:** Continues where Volume I leaves off, delving into more advanced topics like concurrency, networking, and XML.
 
 **Spring Boot:**
 
 * **For Beginners:**
-    * **"Spring Boot in Action" by Craig Walls:** A practical and hands-on guide to building applications with Spring Boot. It walks you through the process of creating various types of applications.
-    * **"Head First Spring" by Ryan Breidenbach and Elisabeth Robson:** Similar to "Head First Java," this book uses a visual and engaging approach to teach the fundamentals of the Spring framework, which underlies Spring Boot.
+  * **"Spring Boot in Action" by Craig Walls:** A practical and hands-on guide to building applications with Spring Boot. It walks you through the process of creating various types of applications.
+  * **"Head First Spring" by Ryan Breidenbach and Elisabeth Robson:** Similar to "Head First Java," this book uses a visual and engaging approach to teach the fundamentals of the Spring framework, which underlies Spring Boot.
 * **For Intermediate to Advanced:**
-    * **"Pro Spring 6" by Juergen Hoeller, Chris Beams, Clarence Ho, and Rob Harrop:** A comprehensive and in-depth guide to the entire Spring ecosystem, including Spring Boot. It covers advanced topics and architectural considerations.
-    * **"Cloud Native Spring in Action" by Josh Long:** Focuses on building cloud-native applications using Spring Boot and related technologies like Spring Cloud and Docker.
+  * **"Pro Spring 6" by Juergen Hoeller, Chris Beams, Clarence Ho, and Rob Harrop:** A comprehensive and in-depth guide to the entire Spring ecosystem, including Spring Boot. It covers advanced topics and architectural considerations.
+  * **"Cloud Native Spring in Action" by Josh Long:** Focuses on building cloud-native applications using Spring Boot and related technologies like Spring Cloud and Docker.
 
 **Backend Development (General Concepts & Design):**
 
@@ -39,18 +39,18 @@ Okay, here are some of the best books for Java, Spring Boot, Backend development
 **Cloud Computing:**
 
 * **General Cloud Concepts:**
-    * **"Cloud Computing: Concepts, Technology & Architecture" by Thomas Erl, Ricardo Puttini, and Zaigham Mahmood:** A comprehensive book that covers the fundamental concepts, technologies, and architectural patterns of cloud computing.
+  * **"Cloud Computing: Concepts, Technology & Architecture" by Thomas Erl, Ricardo Puttini, and Zaigham Mahmood:** A comprehensive book that covers the fundamental concepts, technologies, and architectural patterns of cloud computing.
 * **Platform Specific (Choose based on your interest):**
-    * **AWS:**
-        * **"AWS Certified Cloud Practitioner Study Guide" by Ben Piper and David Clinton:** A good starting point for understanding the basics of Amazon Web Services (AWS).
-        * **"Designing Data-Intensive Applications" (already mentioned):** Many examples and discussions in this book are relevant to building applications on cloud platforms like AWS.
-        * **AWS Documentation:** While not a book, the official AWS documentation is incredibly comprehensive and a valuable resource.
-    * **Azure:**
-        * **"Microsoft Azure Fundamentals AZ-900 Exam Guide" by Jim Cheshire:** An excellent resource for learning the basics of Microsoft Azure.
-        * **"Exam Ref AZ-204 Developing Solutions for Microsoft Azure" by Santiago Fernández García and Manuel Quintana Pérez:** For those looking to develop applications on Azure.
-    * **Google Cloud Platform (GCP):**
-        * **"Google Cloud Certified Professional Cloud Architect Study Guide" by Dan Sullivan:** A good guide for understanding GCP architecture.
-        * **GCP Documentation:** Similar to AWS, GCP's official documentation is very detailed and useful.
+  * **AWS:**
+    * **"AWS Certified Cloud Practitioner Study Guide" by Ben Piper and David Clinton:** A good starting point for understanding the basics of Amazon Web Services (AWS).
+    * **"Designing Data-Intensive Applications" (already mentioned):** Many examples and discussions in this book are relevant to building applications on cloud platforms like AWS.
+    * **AWS Documentation:** While not a book, the official AWS documentation is incredibly comprehensive and a valuable resource.
+  * **Azure:**
+    * **"Microsoft Azure Fundamentals AZ-900 Exam Guide" by Jim Cheshire:** An excellent resource for learning the basics of Microsoft Azure.
+    * **"Exam Ref AZ-204 Developing Solutions for Microsoft Azure" by Santiago Fernández García and Manuel Quintana Pérez:** For those looking to develop applications on Azure.
+  * **Google Cloud Platform (GCP):**
+    * **"Google Cloud Certified Professional Cloud Architect Study Guide" by Dan Sullivan:** A good guide for understanding GCP architecture.
+    * **GCP Documentation:** Similar to AWS, GCP's official documentation is very detailed and useful.
 
 **Tips for Choosing Books:**
 

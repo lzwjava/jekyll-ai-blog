@@ -17,6 +17,7 @@ In IBM WebSphere Application Server (WAS), you can use the "Test connection" fea
 Here's a step-by-step guide (assuming you're using WAS Traditional or Liberty with the full console; versions may vary slightly, e.g., v8.5, v9.x):
 
 #### Prerequisites
+
 - Ensure you have administrative access to the WAS server and console.
 - The data source must already be configured (under Resources > JDBC > Data sources) with details like JNDI name, JDBC provider, database URL, username, password, etc.
 - The database server should be running and accessible from the WAS server (check firewalls, network, etc.).
@@ -67,6 +68,7 @@ Here's a step-by-step guide (assuming you're using WAS Traditional or Liberty wi
      - For connection pools, check settings like minimum/maximum connections under **Connection pool properties**.
 
 #### Additional Tips
+
 - **Security**: If the data source uses container-managed authentication, ensure the credentials are set in **Security** > **Global security** or via JAAS.
 - **Custom Properties**: On the data source page, review tabs like **Connection pool**, **Container-managed authentication alias**, and **Custom properties** for issues.
 - **Multiple Servers/Clusters**: The test runs against the specific server/node selected. For clusters, test on each member if needed.

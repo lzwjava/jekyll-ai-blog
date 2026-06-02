@@ -11,11 +11,13 @@ type: note
 ---
 
 ## Question Content
+
 This question tests the concept of **Frequency Division Multiplexing (FDM)**.
 
 ## Key Information Extraction
 
 Core elements in the question description:
+
 - **In the frequency domain**, divide the channel bandwidth
 - Divide into **multiple sub-channels**
 - Modulate signals onto **carrier signals of corresponding sub-channels**
@@ -35,6 +37,7 @@ Core elements in the question description:
 You selected **C (Wavelength Division Multiplexing)**, which is incorrect.
 
 **Reasons:**
+
 - WDM is primarily applied in **fiber optic communication** systems
 - The question explicitly states "divide **in the frequency domain**", which directly indicates frequency division multiplexing
 - WDM is essentially the application of FDM in the optical domain, but the question asks about general channel multiplexing techniques

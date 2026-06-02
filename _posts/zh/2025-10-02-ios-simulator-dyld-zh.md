@@ -11,10 +11,12 @@ type: note
 ---
 
 ### 所指内容
+
 - 路径 `/Users/lzwjava/Library/Developer/CoreSimulator/Caches/dyld` 指向 iOS 模拟器（Xcode 组成部分）的缓存目录。该路径与 `com.apple.CoreSimulator.SimRuntime.iOS-18-2.22C150` 运行时捆绑包相关联（注："CoreSimulatir" 应为 "CoreSimulator" 的笔误）。
 - 这些 `dyld` 缓存存储模拟器的动态链接器数据，通过缓存共享库来提升性能。
 
 ### 能否删除该目录文件？
+
 可以删除此目录中的文件，但需注意以下重要事项：
 
 - **通常安全**：这些仅是缓存文件，并非关键系统文件。删除它们不会永久损坏您的 Mac 或 Xcode。随着时间推移这些缓存可能变得庞大，且是导致 iOS 模拟器相关问题（如运行缓慢或损坏）的常见区域。
@@ -30,6 +32,7 @@ type: note
   - 系统级缓存清理：删除整个 `/Users/[用户名]/Library/Developer/CoreSimulator/Caches` 文件夹（若不确定建议先备份）。
 
 ### 安全删除步骤
+
 1. 退出 Xcode 及所有正在运行的模拟器。
 2. 在访达中进入 `/Users/lzwjava/Library/Developer/CoreSimulator/Caches/dyld`（可能需要通过 `Cmd + Shift + .` 显示隐藏文件）。
 3. 删除目录内容（或整个文件夹）。

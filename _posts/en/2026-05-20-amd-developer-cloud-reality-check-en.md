@@ -78,6 +78,7 @@ As of April 2026, MI300X is available from 9 cloud providers including Vultr, Te
 On-demand pricing has increased about 29% since May 2025, from $2.35 to $3.02/hr per GPU across the broader market — so demand is outpacing supply somewhat, but neoclouds are aggressively undercutting.
 
 The directional prediction:
+
 - **MI300X stays at ~$1.85–2.20/GPU/hr** on neoclouds as MI350X/MI355X take the premium tier.
 - **AMD Developer Cloud will likely add MI350X** in H2 2026 given MI355X was announced mid-2025 and is now shipping.
 - AMD MI300X pricing is softening as MI350X/MI355X roll out, with some neoclouds undercutting H100/H200 on $/GPU-hr while offering more memory per GPU.

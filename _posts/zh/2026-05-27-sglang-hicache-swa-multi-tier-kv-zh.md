@@ -12,6 +12,7 @@ type: note
 好问题。我深入研究了 SGLang 代码库以验证每项声明。以下为详细解析：
 
 ========================================================================
+
 1. HiCache：多层 KV 缓存（GPU -> CPU -> SSD）
 ========================================================================
 
@@ -22,10 +23,11 @@ type: note
   L3 = 分布式存储  （最慢，最大：Mooncake/3FS/NIXL/AIBrix 后端）
 
 核心文件：
-  - python/sglang/srt/mem_cache/hiradix_cache.py  -- HiRadixCache（扩展了 RadixCache）
-  - python/sglang/srt/mem_cache/memory_pool_host.py -- L2 CPU 池（2899 行！）
-  - python/sglang/srt/mem_cache/hicache_storage.py  -- L3 抽象接口
-  - python/sglang/jit_kernel/hicache.py + csrc/hicache.cuh -- GPU I/O 内核
+
+- python/sglang/srt/mem_cache/hiradix_cache.py  -- HiRadixCache（扩展了 RadixCache）
+- python/sglang/srt/mem_cache/memory_pool_host.py -- L2 CPU 池（2899 行！）
+- python/sglang/srt/mem_cache/hicache_storage.py  -- L3 抽象接口
+- python/sglang/jit_kernel/hicache.py + csrc/hicache.cuh -- GPU I/O 内核
 
 数据移动量降至约 1/7 的原因：
 
@@ -56,9 +58,10 @@ type: note
   SWA 层仅需滑动窗口大小的令牌数（例如 4096），而非完整序列长度（例如 128K）。
 
 核心文件：
-  - python/sglang/srt/mem_cache/unified_cache_components/swa_component.py
-  - python/sglang/srt/mem_cache/swa_memory_pool.py
-  - python/sglang/srt/mem_cache/swa_radix_cache.py
+
+- python/sglang/srt/mem_cache/unified_cache_components/swa_component.py
+- python/sglang/srt/mem_cache/swa_memory_pool.py
+- python/sglang/srt/mem_cache/swa_radix_cache.py
 
 工作原理：
 
@@ -84,10 +87,11 @@ type: note
 ========================================================================
 
 核心文件：
-  - python/sglang/srt/layers/moe/ep_moe/layer.py  -- DeepEPMoE
-  - python/sglang/srt/layers/moe/token_dispatcher/deepep.py  -- DeepEPBuffer
-  - python/sglang/srt/batch_overlap/two_batch_overlap.py  -- TBO
-  - python/sglang/srt/eplb/eplb_algorithms/deepseek.py  -- EPLB
+
+- python/sglang/srt/layers/moe/ep_moe/layer.py  -- DeepEPMoE
+- python/sglang/srt/layers/moe/token_dispatcher/deepep.py  -- DeepEPBuffer
+- python/sglang/srt/batch_overlap/two_batch_overlap.py  -- TBO
+- python/sglang/srt/eplb/eplb_algorithms/deepseek.py  -- EPLB
 
 三项关键优化：
 

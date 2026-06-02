@@ -26,8 +26,8 @@ His comments often carried a humorous, satirical edge, using alter egos in broad
 
 **References:**
 
-- https://blogs.loc.gov/music/2020/04/the-unpopular-opinions-of-glenn-gould-or-how-mozart-became-a-bad-composer/
-- https://www.openculture.com/2020/10/glenn-gould-explains-why-mozart-was-a-bad-composer-in-a-controversial-public-tv-show-1968.html
-- https://www.youtube.com/watch?v=1wLMdi8R4qg (Full 1968 TV segment: *How Mozart Became a Bad Composer*)
-- https://www.azquotes.com/author/22110-Glenn_Gould (Collected quotes, including "Mozart died too late rather than too soon")
-- https://glenngould.com/music/mozart-piano-sonatas-vol-1/ (Gould's notes on early sonatas)
+- <https://blogs.loc.gov/music/2020/04/the-unpopular-opinions-of-glenn-gould-or-how-mozart-became-a-bad-composer/>
+- <https://www.openculture.com/2020/10/glenn-gould-explains-why-mozart-was-a-bad-composer-in-a-controversial-public-tv-show-1968.html>
+- <https://www.youtube.com/watch?v=1wLMdi8R4qg> (Full 1968 TV segment: *How Mozart Became a Bad Composer*)
+- <https://www.azquotes.com/author/22110-Glenn_Gould> (Collected quotes, including "Mozart died too late rather than too soon")
+- <https://glenngould.com/music/mozart-piano-sonatas-vol-1/> (Gould's notes on early sonatas)

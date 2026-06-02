@@ -15,6 +15,7 @@ You're absolutely right to identify "壮丽的驯顺" (magnificent obedience/spl
 ## The Paradox of "壮丽的驯顺"
 
 **Surface Contradiction**
+
 - **壮丽** (magnificent/majestic) suggests wild, untamed power
 - **驯顺** (docile/obedient/tamed) suggests controlled submission
 
@@ -39,6 +40,7 @@ The magnificence isn't diminished by utility; rather, the water becomes even mor
 **Civilizational Philosophy**
 
 Yu uses this water imagery to propose an ideal relationship between:
+
 - **Nature and culture**: Civilization should harness without violating nature
 - **Power and purpose**: True strength lies in directed service, not chaotic display
 - **Freedom and order**: The highest liberty comes through meaningful channeling toward collective good
@@ -50,6 +52,7 @@ The "magnificent obedience" differs fundamentally from forced submission. Yu imp
 **Human Ideal**
 
 This becomes a metaphor for ideal governance and human development: People (like water) possess tremendous natural energy that should be:
+
 - Respected, not crushed
 - Guided, not imprisoned
 - Directed toward flourishing, not merely controlled for control's sake

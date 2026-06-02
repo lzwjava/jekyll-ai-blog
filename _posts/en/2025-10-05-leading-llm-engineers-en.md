@@ -47,6 +47,7 @@ The LLM era, roughly spanning the last decade since the Transformer architecture
 These individuals stand out for their hands-on technical depth—authoring pivotal papers, leading model releases, and tackling real-world deployment challenges—while driving the explosive growth of LLMs over the past 10 years.
 
 ### References
+
 - [Top 15 AI LLM Engineers You Need to Follow](https://echoglobal.tech/technologies/ai-llm/)
 - [Top 12 AI Leaders and Researchers you Should Know in 2025](https://www.mygreatlearning.com/blog/ai-researchers-and-leaders/)
 - [The two people shaping the future of OpenAI's research](https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/)

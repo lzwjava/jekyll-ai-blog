@@ -31,6 +31,7 @@ The main criticisms included:
 - **Mistreatment of Lenin’s legacy** — Khrushchev claimed Stalin had behaved rudely toward Lenin’s wife Nadezhda Krupskaya and had ignored Lenin’s "Testament" that warned against Stalin’s rudeness and recommended his removal as General Secretary.
 
 While Khrushchev condemned many of Stalin’s crimes, he did **not** criticize:
+
 - The forced collectivization of agriculture
 - The industrialization drive
 - The existence of the Gulag system itself (only its abuse under Stalin)

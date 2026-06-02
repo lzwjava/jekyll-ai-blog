@@ -17,10 +17,12 @@ This question tests knowledge of the two alliance structures within China's revo
 The revolutionary united front contains **two basic alliances**:
 
 **First Alliance**: Alliance between the working class and the peasant class, intellectuals, and other laborers
+
 - Core: worker-peasant alliance
 - This is an alliance among working people
 
 **Second Alliance**: Alliance between the working class and non-laboring people
+
 - Mainly the alliance with the national bourgeoisie
 - This is an alliance across class boundaries
 

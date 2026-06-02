@@ -13,7 +13,7 @@ def _call_ollama_api(prompt, model):
     print(f"Input to API: {data}")
     try:
         response = requests.post(
-            url, headers=headers, data=json.dumps(data), stream=True
+            url, headers=headers, data=json.dumps(data), stream=True, timeout=30
         )
         response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
 

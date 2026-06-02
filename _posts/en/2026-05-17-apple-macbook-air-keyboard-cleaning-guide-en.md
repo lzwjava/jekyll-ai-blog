@@ -15,7 +15,7 @@ Answer:
 
 The page is Apple’s official guide on **how to clean Mac computers safely**. Regarding the MacBook Air keyboard specifically, it advises:
 
-### Key Points:
+### Key Points
 
 1. **Turn off and unplug your Mac** before cleaning.
 2. **Use a soft, lint-free cloth** (microfiber recommended).

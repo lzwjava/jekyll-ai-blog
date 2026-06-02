@@ -32,9 +32,9 @@ type: note
 
 参考资料：
 
-- https://www.reddit.com/r/Frugal/comments/tzhayu/whats_your_frugal_unpopular_opinion/
-- https://www.kiplinger.com/personal-finance/how-to-save-money/frugal-habits-that-arent-worth-it
-- https://finance.yahoo.com/news/4-downsides-living-frugal-lifestyle-210010262.html
-- https://www.thesimplicityhabit.com/dark-side-of-frugal-living/
-- https://medium.com/@monalazzar/why-frugal-living-doesnt-work-and-might-be-making-you-poorer-33cefc3e3489
-- https://www.howtomoney.com/the-diminishing-returns-of-frugality/
+- <https://www.reddit.com/r/Frugal/comments/tzhayu/whats_your_frugal_unpopular_opinion/>
+- <https://www.kiplinger.com/personal-finance/how-to-save-money/frugal-habits-that-arent-worth-it>
+- <https://finance.yahoo.com/news/4-downsides-living-frugal-lifestyle-210010262.html>
+- <https://www.thesimplicityhabit.com/dark-side-of-frugal-living/>
+- <https://medium.com/@monalazzar/why-frugal-living-doesnt-work-and-might-be-making-you-poorer-33cefc3e3489>
+- <https://www.howtomoney.com/the-diminishing-returns-of-frugality/>

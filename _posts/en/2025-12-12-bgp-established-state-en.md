@@ -34,11 +34,13 @@ BGP forms neighbor relationships (peering) over a reliable TCP connection (port 
 | **Established** | Received the peer’s KEEPALIVE. The BGP peering is fully up. UPDATE, KEEPALIVE, and NOTIFICATION messages can now be exchanged. | TCP session fully established               |
 
 ### Key Point
+
 The TCP three-way handshake (SYN → SYN-ACK → ACK) must be successfully completed before BGP can move beyond the Connect/Active states. This happens when the FSM transitions into **OpenSent**. Therefore, from **OpenSent** onward (OpenSent → OpenConfirm → Established), the TCP session is already fully established.
 
 However, the question specifically asks for the state that **indicates** the TCP three-way handshake has been completed and the BGP session is fully operational for routing exchange. That is the **Established** state—the only state where the BGP peering is considered “up” and routing information is actually being exchanged.
 
 ### Quick Summary
+
 - **Idle → Connect → (possibly Active)**: Trying to complete the TCP handshake
 - **OpenSent → OpenConfirm → Established**: TCP handshake already completed
 - **Established** = BGP neighbor is fully up (TCP + BGP session successful)
@@ -46,5 +48,6 @@ However, the question specifically asks for the state that **indicates** the TCP
 Thus, **D) Established** is the definitive state confirming that the TCP three-way handshake has been completed and the BGP session is operational.
 
 References:
+
 - [RFC 4271 – A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271.html)
 - [Cisco BGP Finite State Machine](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13753-25.html)

@@ -60,31 +60,31 @@ Namespaces are one honking great idea -- let's do more of those!
 
 这些原则具有诗意且开放解释，但它们总体上提倡整洁、可维护且直观的代码。以下是每条原则的简要说明：
 
-1.  **Beautiful is better than ugly.（优美胜于丑陋）**
+1. **Beautiful is better than ugly.（优美胜于丑陋）**
     优先考虑美观、整洁的代码，而不是复杂的或“聪明”的旁门左道。
 
-2.  **Explicit is better than implicit.（显式胜于隐式）**
+2. **Explicit is better than implicit.（显式胜于隐式）**
     意图要明确（例如：避免魔术行为；使用清晰的变量名和结构）。
 
-3.  **Simple is better than complex.（简单胜于复杂）**
+3. **Simple is better than complex.（简单胜于复杂）**
     对于大多数问题，倾向于使用直接的解决方案。
 
-4.  **Complex is better than complicated.（复杂胜于凌乱）**
+4. **Complex is better than complicated.（复杂胜于凌乱）**
     如果复杂性是必要的，请保持其可控和可理解，而不是一团乱麻。
 
-5.  **Flat is better than nested.（扁平胜于嵌套）**
+5. **Flat is better than nested.（扁平胜于嵌套）**
     避免深层嵌套结构（例如：倾向于扁平列表或浅层层次结构）。
 
-6.  **Sparse is better than dense.（稀疏胜于密集）**
+6. **Sparse is better than dense.（稀疏胜于密集）**
     为了可读性，将代码展开，而不是压缩到寥寥几行中。
 
-7.  **Readability counts.（可读性至关重要）**
+7. **Readability counts.（可读性至关重要）**
     代码被阅读的次数远多于被编写的次数；使其易于理解。
 
-8.  **Special cases aren't special enough to break the rules.（特例不足以特殊到违背规则）**
+8. **Special cases aren't special enough to break the rules.（特例不足以特殊到违背规则）**
     一致性很重要——不要为了边缘情况而破坏规则。
 
-9.  **Although practicality beats purity.（虽然实用性胜过纯粹性）**
+9. **Although practicality beats purity.（虽然实用性胜过纯粹性）**
     现实世界的需求可以优先于理论上的完美。
 
 10. **Errors should never pass silently.（错误不应被无声隐瞒）**

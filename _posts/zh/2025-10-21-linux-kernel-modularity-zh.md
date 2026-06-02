@@ -17,6 +17,7 @@ Linux 的模块化主要指的是 Linux 内核的设计，其本质上是**单�
 可以将其想象成乐高积木：内核是基础结构，但您可以根据需要安装（加载）或移除（卸载）部件，从而保持系统的精简和可定制性。Linux 中的大多数设备驱动程序都是以这种方式实现的，这就是为什么 Linux 能够支持庞大的硬件生态系统而不会导致核心内核臃肿的原因。
 
 #### 模块化为何重要
+
 - **灵活性**：仅加载所需内容（例如，连接到网络时加载 Wi-Fi 驱动程序）。
 - **效率**：通过避免永久包含未使用的代码来减少内存占用。
 - **可维护性**：更容易更新或调试单个组件，而无需触及整个系统。
@@ -25,9 +26,11 @@ Linux 的模块化主要指的是 Linux 内核的设计，其本质上是**单�
 正如您在我们之前的聊天中提到的那样，这种设计帮助 Linux 延续了数十年——它比僵化的单体内核更容易演进。
 
 #### 内核模块的工作原理
+
 内核模块是用 C 语言编写的已编译目标文件（扩展名为 `.ko`），使用内核头文件和 kbuild 系统。它们必须与您的内核版本匹配（使用 `uname -r` 检查）。
 
 一个基本的模块包括：
+
 - **初始化**：一个用 `module_init()` 标记的函数，在加载时运行（例如，注册驱动程序）。
 - **清理**：一个用 `module_exit()` 标记的函数，在卸载时运行（例如，释放资源）。
 - **元数据**：用于许可和作者信息的宏，如 `MODULE_LICENSE("GPL")`。
@@ -57,7 +60,9 @@ module_exit(hello_exit);
 ```
 
 要编译它（需要安装内核头文件，例如在基于 Debian 的系统上通过 `apt install linux-headers-$(uname -r)` 安装）：
+
 - 创建一个 `Makefile`：
+
   ```
   obj-m += hello.o
   KDIR := /lib/modules/$(shell uname -r)/build
@@ -66,6 +71,7 @@ module_exit(hello_exit);
   clean:
       make -C $(KDIR) M=$(PWD) clean
   ```
+
 - 运行 `make` 生成 `hello.ko`。
 - 使用 `sudo insmod hello.ko` 加载（或使用 `sudo modprobe hello` 进行依赖项处理）。
 - 检查日志：`dmesg | tail`（您将看到 "Hello" 消息）。
@@ -74,6 +80,7 @@ module_exit(hello_exit);
 来自 `printk` 的消息会发送到内核环缓冲区 (`dmesg`) 或 `/var/log/kern.log`。
 
 #### 实践中的模块管理
+
 使用以下命令（来自 `kmod` 包；如果需要，请安装：在 RHEL 上使用 `sudo yum install kmod` 或在 Ubuntu 上使用 `sudo apt install kmod`）。
 
 | 操作 | 命令 | 描述/示例 |
@@ -87,16 +94,21 @@ module_exit(hello_exit);
 模块位于 `/lib/modules/$(uname -r)/kernel/`。避免卸载正在使用的模块（例如，活跃的驱动程序）以防止崩溃。
 
 #### 使模块持久化
+
 更改在重启后不会永久保留：
+
 - **在启动时加载**：添加到 `/etc/modules-load.d/myfile.conf`（每行一个模块）。<br>示例：`echo "hello" \| sudo tee /etc/modules-load.d/hello.conf`。
 - **黑名单（阻止加载）**：添加到 `/etc/modprobe.d/blacklist.conf`。<br>示例：
+
   ```
   blacklist bad_module
   install bad_module /bin/false
   ```
+
   然后重新生成 initramfs：`sudo dracut -f` 并重启。
 
 #### 常见陷阱和提示
+
 - **版本不匹配**：模块必须与您的内核匹配——更新后重新编译。
 - **依赖项**：`modprobe` 会处理它们；使用 `modinfo --depends <name>` 检查。
 - **调试**：使用 `pr_debug` 获取详细日志（通过 `echo 8 > /proc/sys/kernel/printk` 启用）。

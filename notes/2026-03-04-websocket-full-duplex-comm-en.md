@@ -34,6 +34,7 @@ Origin: https://client.example.com
 ```
 
 Important headers:
+
 - `Upgrade: websocket` — I want to switch to WebSocket
 - `Connection: Upgrade` — please don't treat this as normal HTTP
 - `Sec-WebSocket-Key` — random base64 value (browser generates it)

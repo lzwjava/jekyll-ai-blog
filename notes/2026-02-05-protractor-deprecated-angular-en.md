@@ -12,11 +12,12 @@ type: note
 
 Ah, **Protractor**! That makes sense now.
 
-## What Protractor was:
+## What Protractor was
 
 **Protractor** was an **end-to-end (E2E) testing framework** specifically designed for testing **Angular and AngularJS applications**. It was built on top of WebDriverJS (Selenium WebDriver for Node.js).
 
-### Key features:
+### Key features
+
 - Automated browser testing (Chrome, Firefox, Safari, etc.)
 - Designed specifically for Angular apps with built-in support for Angular-specific locators
 - Allowed you to write tests that simulate user interactions (clicking, typing, navigating)
@@ -26,7 +27,7 @@ Ah, **Protractor**! That makes sense now.
 
 The Angular team officially deprecated Protractor in **April 2021** and stopped support in 2023. They recommend migrating to modern alternatives.
 
-### Why it needed requesting libraries and form-data:
+### Why it needed requesting libraries and form-data
 
 Protractor needed these because:
 
@@ -35,7 +36,7 @@ Protractor needed these because:
 3. **API testing** - Sometimes E2E tests need to make direct API calls alongside browser automation
 4. **Screenshot/file handling** - Managing test artifacts like screenshots and reports
 
-## Modern alternatives to use instead:
+## Modern alternatives to use instead
 
 - **Cypress** - Very popular, great developer experience
 - **Playwright** - Microsoft's solution, supports multiple browsers

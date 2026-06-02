@@ -27,6 +27,7 @@ Vault 的路径结构如下：
 ```
 
 例如：
+
 - `secret/data/myapp` - `secret/` 是 KV v2 engine 的挂载点
 - `aws/creds/my-role` - `aws/` 是 AWS secrets engine 的挂载点
 - `database/creds/my-role` - `database/` 是挂载点
@@ -69,12 +70,14 @@ curl -H "X-Vault-Token: $TOKEN" \
 ## Mount 的类型
 
 **Secrets Engine Mounts** (`sys/mounts`):
+
 - Dynamic secrets: AWS, database, SSH
 - Static secrets: KV (key-value)
 - Encryption as a service: Transit
 - PKI: Certificate management
 
 **Auth Method Mounts** (`sys/auth`):
+
 - 概念类似，但用于身份验证
 - 示例：userpass, LDAP, Kubernetes, AppRole
 
@@ -87,6 +90,7 @@ vault secrets enable -path=aws aws
 ```
 
 您已在 `aws/` 创建了一个 mount。现在您可以：
+
 - 配置它：`vault write aws/config/root ...`
 - 创建 roles：`vault write aws/roles/my-role ...`
 - 生成 credentials：`vault read aws/creds/my-role`

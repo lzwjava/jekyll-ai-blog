@@ -22,7 +22,9 @@ These errors show that nginx is **not running as root** at startup. The master p
 Right now your nginx is being started as a normal user (most likely `lzw`), which causes both the bind() and log file errors.
 
 ### Root cause summary
+
 You previously set nginx to run as user `lzw` (via `systemctl edit` or `user` directive), but:
+
 - Normal users cannot bind port 80
 - Normal users cannot write to `/var/log/nginx/`
 - The `user` directive is ignored unless the master process starts as root
@@ -89,7 +91,7 @@ You previously set nginx to run as user `lzw` (via `systemctl edit` or `user` di
    sudo systemctl reload nginx
    ```
 
-   Then open http://192.168.1.36/movies/ in your browser — it should show directory listing.
+   Then open <http://192.168.1.36/movies/> in your browser — it should show directory listing.
 
 ### If you really want nginx to run fully as lzw (not recommended)
 

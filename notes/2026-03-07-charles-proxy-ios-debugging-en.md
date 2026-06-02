@@ -85,6 +85,7 @@ On a real device: open a mobile browser and go to `chls.pro/ssl` to download and
 The Breakpoints tool lets you intercept requests and responses before they are passed through Charles. You can examine and edit the request or response and then decide whether to allow it to proceed or to block it.
 
 This is useful for:
+
 - Negative testing (e.g., changing valid parameters to invalid ones)
 - Simulating different server states in responses
 - Testing error handling logic

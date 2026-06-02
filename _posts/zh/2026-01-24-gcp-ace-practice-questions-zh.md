@@ -318,5 +318,5 @@ type: note
 
 参考资料：
 
-- https://cloud.google.com/learn/certification/cloud-engineer
-- https://cloud.google.com/learn/certification/guides/cloud-engineer
+- <https://cloud.google.com/learn/certification/cloud-engineer>
+- <https://cloud.google.com/learn/certification/guides/cloud-engineer>

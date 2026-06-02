@@ -9,7 +9,7 @@ translated: false
 type: note
 ---
 
-Question: Provide an introduction to https://coolshell.cn and its author.
+Question: Provide an introduction to <https://coolshell.cn> and its author.
 
 Answer:
 

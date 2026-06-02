@@ -31,7 +31,6 @@ I originally bought packets of beef balls to cook in the air fryer, but now I wa
 
 The noodles turned out delicious. I used a lot of water to boil the ingredients, scooped out the excess water, and then added the flavor packet to the pot. The final dish was great!
 
-
 {: .centered }
 ![](assets/images/airfryer/s1.jpg){: .responsive }
 *Source: Self-Captured*{: .caption }

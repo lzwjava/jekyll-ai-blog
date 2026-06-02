@@ -47,6 +47,7 @@ type: note
 这些专家以亲手实践的技术深度脱颖而出——他们撰写里程碑论文、主导模型发布、攻克实际部署难题，共同推动了过去十年大语言模型的爆发式增长。
 
 ### 参考资料
+
 - [值得关注的15位AI大语言模型工程师](https://echoglobal.tech/technologies/ai-llm/)
 - [2025年你应该认识的12位AI领袖与研究者](https://www.mygreatlearning.com/blog/ai-researchers-and-leaders/)
 - [塑造OpenAI研究未来的两位核心人物](https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/)

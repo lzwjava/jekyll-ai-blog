@@ -13,6 +13,7 @@ To use `net.sourceforge.argparse4j`, a Java library for parsing command-line arg
 ---
 
 ### 1. **Add the Dependency**
+
 To include `argparse4j` in your project, add it as a dependency. If you're using Maven, update your `pom.xml` with the following:
 
 ```xml
@@ -28,9 +29,11 @@ For other build tools like Gradle, check the [Maven Central Repository](https://
 ---
 
 ### 2. **Create an `ArgumentParser` Object**
+
 Start by creating an `ArgumentParser` instance using `ArgumentParsers.newFor("prog").build()`, where `"prog"` is the name of your program. You can also add a description and enable automatic help generation.
 
 **Example:**
+
 ```java
 import net.sourceforge.argparse4j.ArgumentParsers;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
@@ -43,11 +46,14 @@ ArgumentParser parser = ArgumentParsers.newFor("Checksum").build()
 ---
 
 ### 3. **Add Arguments**
+
 Define the command-line arguments your program will accept using `parser.addArgument()`. You can specify:
+
 - **Optional arguments** (e.g., `-t`, `--type`) with flags, choices, defaults, and help text.
 - **Positional arguments** (e.g., `file`) with optional variable-length support using `.nargs("*")`.
 
 **Example:**
+
 ```java
 parser.addArgument("-t", "--type")
     .choices("SHA-256", "SHA-512", "SHA1")  // Restrict to these options
@@ -62,9 +68,11 @@ parser.addArgument("file")
 ---
 
 ### 4. **Parse Command-Line Arguments**
+
 Parse the command-line arguments (typically passed as `String[] args` from your `main` method) using `parser.parseArgs()`. Wrap this in a try-catch block to handle parsing errors gracefully.
 
 **Example:**
+
 ```java
 import net.sourceforge.argparse4j.inf.Namespace;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
@@ -95,9 +103,11 @@ public class Checksum {
 ---
 
 ### 5. **Access Parsed Values**
+
 The `parseArgs()` method returns a `Namespace` object containing the parsed argument values. Use methods like `getString()` or `getList()` to retrieve them.
 
 **Example:**
+
 ```java
 String hashType = ns.getString("type");  // e.g., "SHA-256"
 List<String> files = ns.getList("file"); // List of file names
@@ -109,6 +119,7 @@ System.out.println("Files: " + files);
 ---
 
 ### Putting It All Together
+
 Here’s a complete example:
 
 ```java
@@ -155,6 +166,7 @@ public class Checksum {
 ---
 
 ### Additional Features
+
 - **Automatic Help**: Run your program with `-h` or `--help` to see a generated help message.
 - **Subcommands**: Use `parser.addSubparsers()` for complex commands (e.g., `git commit`, `git push`).
 - **Annotations**: Bind arguments to class fields using annotations (see the user manual for details).

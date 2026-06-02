@@ -34,6 +34,7 @@ Origin: https://client.example.com
 ```
 
 重要头部：
+
 - `Upgrade: websocket` — 我想要切换到 WebSocket
 - `Connection: Upgrade` — 请不要将其视为普通的 HTTP
 - `Sec-WebSocket-Key` — 随机 base64 值（浏览器生成）

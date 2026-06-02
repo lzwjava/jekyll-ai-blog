@@ -15,6 +15,7 @@ SWIFT, which stands for **Society for Worldwide Interbank Financial Telecommunic
 ---
 
 #### **What Is a SWIFT Transaction?**
+
 A SWIFT transaction refers to the process of sending standardized messages through the SWIFT network to instruct banks on how to transfer funds from one account to another. These messages contain critical details like the amount, currency, sender and recipient account information, and the banks involved. The actual movement of money happens separately through banking settlement systems, which we’ll explore later.
 
 For example, if you want to send money from a bank in the United States to a bank in Germany, SWIFT ensures that the instructions are communicated accurately and securely between the two banks, even if they don’t have a direct relationship.
@@ -22,7 +23,9 @@ For example, if you want to send money from a bank in the United States to a ban
 ---
 
 #### **The Role of SWIFT Codes**
+
 Every bank participating in the SWIFT network has a unique identifier called a **SWIFT code** (also known as a **Bank Identifier Code** or **BIC**). This code, typically 8 or 11 characters long, identifies the specific bank and often its branch in a transaction. For instance:
+
 - **Bank A in the US** might have a SWIFT code like `BOFAUS3N`.
 - **Bank B in Germany** might have a code like `DEUTDEFF`.
 
@@ -31,6 +34,7 @@ When you initiate a transfer, you provide the recipient bank’s SWIFT code to e
 ---
 
 #### **How SWIFT Transactions Work Step-by-Step**
+
 Let’s break down the process of a SWIFT transaction across multiple banks using a simple example: sending $1,000 from Bank A (in the US) to Bank B (in Germany).
 
 1. **Initiation**
@@ -72,6 +76,7 @@ Let’s break down the process of a SWIFT transaction across multiple banks usin
 ---
 
 #### **How Banks Integrate with the SWIFT System**
+
 To participate in SWIFT transactions, banks must integrate with the network. Here’s how they do it:
 
 - **Membership**: Banks join SWIFT as members, agreeing to its rules and standards.
@@ -84,6 +89,7 @@ To participate in SWIFT transactions, banks must integrate with the network. Her
 ---
 
 #### **Key Features and Considerations**
+
 - **Standardization**: SWIFT’s use of structured messages (like MT103) ensures all banks interpret instructions the same way.
 - **Security**: The network employs robust measures to safeguard transaction data.
 - **Fees and Timing**: Intermediary banks may charge fees, and processing times vary based on the number of banks involved.
@@ -92,4 +98,5 @@ To participate in SWIFT transactions, banks must integrate with the network. Her
 ---
 
 #### **Summary**
+
 SWIFT transactions work by enabling banks to send secure, standardized messages (via SWIFT codes) to instruct fund transfers across borders. The process involves creating and routing messages—sometimes through intermediary banks—and settling funds separately via direct accounts, correspondent relationships, or clearing systems. Banks integrate with SWIFT by becoming members, setting up the necessary infrastructure, and adhering to its protocols. This system ensures that money moves reliably between accounts, even across multiple banks worldwide.

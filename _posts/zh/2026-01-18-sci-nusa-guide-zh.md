@@ -34,6 +34,7 @@ Nusa 是 PUBG Mobile 最小的 Battle Royale 地图，尺寸为 **1x1 km**，在
 这大约 11 个 POIs 强调了 Close-quarters combat 和快速的 Rotations。Science Center 和 Flame Village 是寻找 Loot 和体验激烈战斗的顶级热门落点。
 
 **References:**
+
 - [PUBG Mobile Nusa loot guide](https://gamingonphone.com/guides/pubg-mobile-bgmi-top-5-loot-locations-in-nusa)
 - [Nusa map trailer POIs](https://www.gamespot.com/articles/pubg-mobile-trailer-shows-off-nusa-map/1100-6507187)
 - [PUBG Mobile NA X post on Nusa drops](https://x.com/PUBGMOBILE_NA_/status/1782509956320596332)

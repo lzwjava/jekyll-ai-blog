@@ -19,10 +19,10 @@ What it is:
 
 Key facts:
 
-  - Language:     C# (.NET 8, solution: Git-Credential-Manager.sln)
-  - Repository:   github.com/git-credential-manager/git-credential-manager
-  - Entry point:  src/shared/Git-Credential-Manager/Program.cs
-  - UI framework: Avalonia (cross-platform GUI for auth prompts)
+- Language:     C# (.NET 8, solution: Git-Credential-Manager.sln)
+- Repository:   github.com/git-credential-manager/git-credential-manager
+- Entry point:  src/shared/Git-Credential-Manager/Program.cs
+- UI framework: Avalonia (cross-platform GUI for auth prompts)
 
 Architecture:
 

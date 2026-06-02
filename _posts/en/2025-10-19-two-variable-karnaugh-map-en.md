@@ -15,6 +15,7 @@ type: note
 Let's use a very basic 2-variable Boolean function: f(A, B) = A'B + AB' + AB (sum of minterms m(1, 2, 3)). This is the OR gate: f = A + B, but we'll "discover" that using a K-map.
 
 #### Step 1: Construct the K-Map
+
 A 2-variable K-map is a 2x2 grid. Rows for A (0, 1), columns for B (0, 1) in Gray code (already simple). Place 1s for the minterms:
 
 | A \ B | 0 (B') | 1 (B) |
@@ -23,6 +24,7 @@ A 2-variable K-map is a 2x2 grid. Rows for A (0, 1), columns for B (0, 1) in Gra
 | **1 (A)**  | 1 (m2) | 1 (m3) |
 
 #### Step 2: Group Adjacent 1s
+
 Look for largest groups of 1s (powers of 2: 1, 2, 4...). Adjacent means sharing a side (no diagonals).
 
 - **Group 1**: Right column (m1 and m3)—vertical pair. Common: B (A varies, so don't care).
@@ -31,7 +33,9 @@ Look for largest groups of 1s (powers of 2: 1, 2, 4...). Adjacent means sharing 
 (Overlap on m3 is fine.)
 
 #### Step 3: Derive the Minimized Expression
+
 Each group gives a term:
+
 - Group 1: **B**
 - Group 2: **A**
 

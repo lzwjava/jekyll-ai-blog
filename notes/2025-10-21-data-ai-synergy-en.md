@@ -17,6 +17,7 @@ Apache DataFusion is an open-source, extensible SQL query engine built in Rust, 
 The idea that large language models (LLMs) or AI might render tools like DataFusion obsolete stems from the hype around natural language querying—tools like ChatGPT generating SQL from plain English prompts. However, this overlooks the reality: AI doesn't replace query engines; it augments them. SQL and engines like DataFusion handle the heavy lifting of data retrieval, optimization, and execution at scale, where LLMs excel at interpretation but falter on precision, efficiency, and complex workloads.
 
 #### Why DataFusion Isn't Going Obsolete—It's Adapting to AI
+
 Far from fading, DataFusion is actively integrating with AI to bridge natural language and structured data processing. Here's how:
 
 - **Semantic SQL for AI Agents**: Projects like Wren AI use DataFusion as the core execution layer for "Semantic SQL," where LLMs translate user queries (e.g., "Show sales trends for high-value customers") into optimized SQL plans enriched with business context via Retrieval-Augmented Generation (RAG). DataFusion handles the logical planning, aggregations, and access controls, ensuring accurate, context-aware results without hallucinations. This makes it a key interface for multi-agent AI systems, reducing silos between LLMs and enterprise data.
@@ -28,9 +29,11 @@ Far from fading, DataFusion is actively integrating with AI to bridge natural la
 In short, LLMs need robust engines like DataFusion to execute their outputs reliably—especially for big data, where AI alone can't match the speed or determinism of vectorized SQL. Debates on SQL's "death" often highlight its evolution: AI acts as a co-pilot for query generation, but human/AI oversight is crucial for validation, and structured data remains king for analytics.
 
 #### The Verdict
+
 No, DataFusion won't become obsolete due to LLMs/AI. It's positioned as a vital enabler in the AI era, powering composable, high-performance systems that blend structured querying with semantic intelligence. As data volumes grow and AI agents proliferate, tools like DataFusion will only become more essential for scalable, accurate data access.
 
 ### References
+
 - [Apache DataFusion Documentation](https://datafusion.apache.org/)
 - [Powering Semantic SQL for AI Agents with Apache DataFusion](https://medium.com/wrenai/powering-semantic-sql-for-ai-agents-with-apache-datafusion-da963e69804f)
 - [The New Wave of Composable Data Systems and the Interface to LLM Agents](https://getwren.ai/post/the-new-wave-of-composable-data-systems-and-the-interface-to-llm-agents)

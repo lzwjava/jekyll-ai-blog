@@ -40,6 +40,7 @@ Here's your comprehensive review, Boss. 🦞
 | **Nextcloud Talk** | ⚠️ SETUP | Not configured |
 
 ### 3. Plugins (45/87 loaded)
+
 - **openclaw-weixin** — v2.1.6, loaded successfully (just updated from v1.0.3)
 - **nextcloud-talk** — loaded, but **duplicate plugin ID warning** (stock bundled vs global extension)
 - **google** — web search enabled
@@ -52,17 +53,20 @@ Here's your comprehensive review, Boss. 🦞
 | **Critical News Summary** | Every hour | ❌ **74 consecutive errors** | `Delivering to Telegram requires target <chatId>` — missing delivery target |
 
 ### 5. Sessions
+
 - **29 active** sessions
 - Default model: `minimax/minimax-m2.7` (200k ctx)
 - Current session model: `xiaomi/mimo-v2-pro`
 - 5 session stores
 
 ### 6. Memory
+
 - **0 files, 0 chunks** — vector & FTS ready but empty
 - No `MEMORY.md` exists
 - Only 1 file in `memory/`: a reasoning note from today
 
 ### 7. Security Audit — 🚨 5 CRITICAL issues
+
 1. **Control UI `allowedOrigins` = `*`** — any browser origin accepted
 2. **Device auth disabled** (`dangerouslyDisableDeviceAuth=true`)
 3. **Elevated exec `allowFrom` = `*`** for webchat — anyone gets root
@@ -72,6 +76,7 @@ Here's your comprehensive review, Boss. 🦞
 Plus 9 warnings including `exec security=full` with `ask=off` (no confirmation prompts for commands).
 
 ### 8. Issues / TODOs
+
 - **Cron job broken**: 74 consecutive failures on news summary — needs a Telegram chat ID in delivery config
 - **Nextcloud Talk duplicate**: stock bundled plugin conflicts with global extension
 - **WeChat**: plugin loaded but needs QR login to go from SETUP → OK

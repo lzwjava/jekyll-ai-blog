@@ -35,13 +35,13 @@ openclaw doctor --fix
 
 ### 选项 2 —— 手动从配置中移除 `proxy` 键
 
-1.  打开配置文件：
+1. 打开配置文件：
 
 ```bash
 nano ~/.openclaw/openclaw.json
 ```
 
-2.  找到 `channels.whatsapp` 部分。它可能类似这样：
+2. 找到 `channels.whatsapp` 部分。它可能类似这样：
 
 ```json
 "channels": {
@@ -52,9 +52,9 @@ nano ~/.openclaw/openclaw.json
 }
 ```
 
-3.  **完全删除 `"proxy": "..."` 这一行**，保存并退出。
+3. **完全删除 `"proxy": "..."` 这一行**，保存并退出。
 
-4.  重启网关：
+4. 重启网关：
 
 ```bash
 openclaw gateway restart
@@ -99,7 +99,7 @@ openclaw gateway restart
 
 参考：
 
--   [功能请求：WhatsApp 代理支持（Issue #23500）](https://github.com/openclaw/openclaw/issues/23500)
--   [OpenClaw 网关故障排除流程图](https://clawtank.dev/blog/openclaw-gateway-troubleshooting-flowchart)
--   [OpenClaw 故障排除指南](https://docs.openclaw.ai/gateway/troubleshooting)
--   [Bug：WhatsApp 通道配置损坏（Issue #24263）](https://github.com/openclaw/openclaw/issues/24263)
+- [功能请求：WhatsApp 代理支持（Issue #23500）](https://github.com/openclaw/openclaw/issues/23500)
+- [OpenClaw 网关故障排除流程图](https://clawtank.dev/blog/openclaw-gateway-troubleshooting-flowchart)
+- [OpenClaw 故障排除指南](https://docs.openclaw.ai/gateway/troubleshooting)
+- [Bug：WhatsApp 通道配置损坏（Issue #24263）](https://github.com/openclaw/openclaw/issues/24263)

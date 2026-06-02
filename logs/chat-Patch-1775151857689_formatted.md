@@ -196,6 +196,7 @@ weight_decay = 0.1
 ```
 
 **Run command:**
+
 ```bash
 python3 train.py config/train_fineweb1_5b.py
 ```
@@ -209,6 +210,7 @@ python3 train.py config/train_fineweb1_5b.py
 **You:** Guess how much time I need to wait?
 
 **Patch:**
+
 - 1.5B params, seq=1024, batch=16 → ~1M tokens/step effective
 - 10B tokens ÷ 1M/step = **10,000 steps per epoch**
 - H200: maybe **0.5–1 sec/step** compiled
@@ -226,6 +228,7 @@ python3 train.py config/train_fineweb1_5b.py
 ```
 
 **Patch:** GPU-Util at **0%** means the GPU is completely idle. Common causes:
+
 1. Data loading bottleneck
 2. `torch.compile` profiling phase
 3. Disk I/O
@@ -272,12 +275,14 @@ iter 50: loss 7.6499, time 21038.07ms, mfu 164.14%
 ```
 
 **Patch:** Two phases:
+
 1. **iter 0: 113s** — `torch.compile()` tracing/optimizing the graph (one-time cost)
 2. **iter 50: 21s** — compiled and running
 
 After compilation finishes, expect **1-3 sec/step**.
 
 **Time estimate:**
+
 - If ~2 sec/step post-compile → **~56 hours** (~2.3 days)
 - If 21 sec/step stays → **~24 days** ← this would be bad
 
@@ -301,6 +306,7 @@ Pushed to GitHub. 🦞
 ## Revised Time Estimate
 
 **Patch:** With 10K iters total:
+
 - Compile step: 113s (one-time)
 - Post-compile estimate: ~1-2 sec/step
 - **Total: ~4-5 hours**
@@ -319,7 +325,7 @@ Pushed to GitHub. 🦞
 
 **Torch inductor is STILL compiling.** The 24 compile workers are running in background.
 
-### How torch.compile() works:
+### How torch.compile() works
 
 | Phase | What Happens | Duration |
 |-------|-------------|----------|
@@ -343,6 +349,7 @@ No meta.pkl found, assuming GPT-2 encodings...
 ```
 
 **Sample output (very early checkpoint, ~50 steps):**
+
 - Lists of measurements (2kg, 1/2 cup, 1/4 cup)
 - Financial text ($10,000, $500,000)
 - Game reviews (repetitive but coherent)

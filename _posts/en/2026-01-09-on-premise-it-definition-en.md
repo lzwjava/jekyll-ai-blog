@@ -15,6 +15,7 @@ type: note
 For example, if a company runs its email servers in its own data center in the building, that's on-premise. In contrast, using Gmail or Office 365 would be cloud-based.
 
 **Key characteristics:**
+
 - The organization owns or leases the physical hardware
 - IT staff maintain and manage the systems directly
 - Data stays within the company's physical location

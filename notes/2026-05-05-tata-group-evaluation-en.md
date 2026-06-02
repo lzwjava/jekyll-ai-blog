@@ -77,12 +77,12 @@ Tata is widely known for:
 
 ## 5. Financial Performance (Mixed but Solid Overall)
 
-### Strength:
+### Strength
 
 * Long-term growth in revenue and market value ([The Economic Times][5])
 * Many subsidiaries are profitable and market leaders
 
-### Weakness:
+### Weakness
 
 * Some companies have **volatile performance**
 

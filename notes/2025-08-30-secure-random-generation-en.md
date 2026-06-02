@@ -11,14 +11,17 @@ type: note
 ---
 
 ### Introduction to the `secrets` Module
+
 The `secrets` module (introduced in Python 3.6) is part of the standard library and provides access to cryptographically strong random number generation. Unlike the `random` module, which is suitable for simulations or games, `secrets` is designed for security-related tasks like generating passwords, tokens, or secrets, as it uses the operating system's cryptographically secure random number generator (e.g., `/dev/urandom` on Unix-like systems).
 
 To use it, simply import it:
+
 ```python
 import secrets
 ```
 
 ### Key Functions and Usage
+
 Here are the main functions in `secrets`, with brief explanations and examples. These generate random values that are hard to predict.
 
 | Function | Purpose | Example Usage |
@@ -30,8 +33,10 @@ Here are the main functions in `secrets`, with brief explanations and examples. 
 | `secrets.choice(seq)` | Returns a random element from a non-empty sequence `seq`. Secure alternative to `random.choice`. | `item = secrets.choice(['a', 'b', 'c'])`  # Random from list |
 
 ### Practical Examples
+
 1. **Generating a Secure Password**:
    Combine `secrets.choice` with string constants for a random password.
+
    ```python
    import string
    import secrets
@@ -43,18 +48,21 @@ Here are the main functions in `secrets`, with brief explanations and examples. 
 
 2. **Creating API Tokens**:
    Use `token_urlsafe` for web-safe random strings.
+
    ```python
    token = secrets.token_urlsafe(32)
    print(token)  # e.g., "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
    ```
 
 3. **Random Choices for Games or Simulations (with Security)**:
+
    ```python
    winners = secrets.choice(['Alice', 'Bob', 'Charlie'])
    print(f"Winner: {winners}")
    ```
 
 ### Best Practices and Notes
+
 - **Security Rationale**: `secrets` avoids predictability, making it resistant to attacks. Never use `random` for passwords or tokens, as it can be seeded and predicted.
 - **Performance**: Calls can be slower than `random`, but that's okay for security-critical code—don't overuse in loops for non-critical tasks.
 - **Edge Cases**: `secrets.choice` raises a `ValueError` for empty sequences; `randbelow(0)` raises a `ValueError`.

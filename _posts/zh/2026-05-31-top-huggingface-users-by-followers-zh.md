@@ -54,5 +54,6 @@ Hugging Face 上真正有影响力的用户按关注数来看是 HF 员工 + 少
 **注：** 实时排行榜可访问 [huggingface.co/spaces/Weyaxi/followers-leaderboard](https://huggingface.co/spaces/Weyaxi/followers-leaderboard)——如需实时数据，值得收藏。
 
 参考来源：
+
 - [Hugging Face 上 50 个下载最多实体的模型统计](https://huggingface.co/blog/lbourdois/huggingface-models-stats)
 - [Weyaxi 的关注者排行榜空间](https://huggingface.co/spaces/Weyaxi/followers-leaderboard)

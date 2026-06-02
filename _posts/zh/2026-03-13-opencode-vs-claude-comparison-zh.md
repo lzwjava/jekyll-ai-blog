@@ -53,7 +53,7 @@ Claude Code 的超能力似乎在于将整个故事保持在一起——它涉�
 
 **参考：**
 
-- https://www.andreagrandi.it/posts/comparing-claude-code-vs-opencode-testing-different-models/
-- https://danielmiessler.com/blog/opencode-vs-claude-code
-- https://www.tensorlake.ai/blog-posts/opencode-the-best-claude-code-alternative
-- https://solvedbycode.ai/blog/opencode-benchmark-review-january-2026
+- <https://www.andreagrandi.it/posts/comparing-claude-code-vs-opencode-testing-different-models/>
+- <https://danielmiessler.com/blog/opencode-vs-claude-code>
+- <https://www.tensorlake.ai/blog-posts/opencode-the-best-claude-code-alternative>
+- <https://solvedbycode.ai/blog/opencode-benchmark-review-january-2026>

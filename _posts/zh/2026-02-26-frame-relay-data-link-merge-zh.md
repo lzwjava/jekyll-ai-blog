@@ -21,7 +21,7 @@ Frame Relay 确实在交换设备上“淡化/简化”了严格的 layering 概
 
 空白处正确的填写词是 **数据链路** (data link)。
 
-### 解释：
+### 解释
 
 传统的 packet-switched networks（如 X.25）明确分离：
 

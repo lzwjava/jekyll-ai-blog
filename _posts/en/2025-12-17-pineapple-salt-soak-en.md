@@ -28,6 +28,7 @@ Separately, storing a **whole uncut pineapple upside down** (on its crown) for a
 Using a bottle specifically, or placing slices "upside down" in salt water, doesn't appear in any reliable sources. It might be a personal variation for storage convenience (e.g., fitting slices into a reusable bottle for portability or fridge space), but it's not necessary for the salt water benefits. A bowl works just as well for soaking.
 
 If the goal is convenient storage of pre-cut pineapple:
+
 - Soak briefly in salt water if desired.
 - Drain thoroughly.
 - Store in an airtight container or jar in the refrigerator for 3–5 days.
@@ -36,8 +37,8 @@ This keeps the pineapple fresh, reduces mouth irritation, and makes it easy to g
 
 References:
 
-- https://www.tasteofhome.com/article/pineapple-in-salt-water/
-- https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/
-- https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/
-- https://www.thetakeout.com/1760955/how-to-make-bland-pineapple-sweeter/
-- https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/
+- <https://www.tasteofhome.com/article/pineapple-in-salt-water/>
+- <https://www.eatingwell.com/article/7866758/the-weird-reason-why-you-should-always-salt-your-pineapple-bromelain/>
+- <https://www.mashed.com/900972/how-salt-can-strangely-help-your-pineapple/>
+- <https://www.thetakeout.com/1760955/how-to-make-bland-pineapple-sweeter/>
+- <https://www.foodrepublic.com/1295243/take-sting-out-pineapple-salt-water-soak/>

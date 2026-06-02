@@ -46,6 +46,7 @@ type: note
 这些观点在那些深入刷题流程的人群中（尤其是大学生和转行者）往往非常不受欢迎，但它们在那些多年来身兼招聘者和求职者两角的高级工程师和招聘经理中却出奇地普遍。
 
 参考文献：
+
 - [Blind上关于LeetCode过度准备的帖子（各种）](https://www.teamblind.com/topics/leetcode)
 - [Hacker News上关于CP与实际工程的讨论](https://news.ycombinator.com/item?id=30649763)
 - [Codeforces博客中批评刷题文化的文章（例如，tourist, Petr）](https://codeforces.com/blog/entry/106396)

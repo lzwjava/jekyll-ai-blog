@@ -20,12 +20,14 @@ type: note
 [WARNING]: No inventory was parsed, only implicit localhost is available
 [WARNING]: provided hosts list is empty, only localhost is available...
 ```
+
 → 当您在没有 inventory 文件的情况下针对 localhost 运行时，这是正常的。您可以忽略它们，如果需要也可以使其静默。
 
 ```
 [DEPRECATION WARNING]: INJECT_FACTS_AS_VARS default to `True` is deprecated...
 Use `ansible_facts["fact_name"]` instead.
 ```
+
 → 这只是 Ansible 告诉您，将来（ansible-core 2.24+），像 `ansible_date_time` 这样的 facts 将不再自动作为顶级变量可用。
 
 ### 快速修复（可选，但建议用于面向未来）
@@ -33,6 +35,7 @@ Use `ansible_facts["fact_name"]` instead.
 像这样更新您的 playbook：
 
 {% raw %}
+
 ```yaml
 ---
 - name: Tiny demo
@@ -50,6 +53,7 @@ Use `ansible_facts["fact_name"]` instead.
         dest: /tmp/hello_from_ansible.txt
         mode: '0644'
 ```
+
 {% endraw %}
 
 关键变化：

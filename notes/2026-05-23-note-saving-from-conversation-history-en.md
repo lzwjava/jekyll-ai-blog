@@ -32,6 +32,7 @@ The `/note` command does what `ww note` does — calls `create_note_from_content
 ```
 
 **Key details:**
+
 - Uses `ww`'s `create_note_from_content()` — generates front matter, slug, calls LLM for title if no `--title` given
 - Falls back gracefully if `ww` isn't installed (`pip install -e ~/projects/ww`)
 - Notes go to `$BASE_PATH/notes/` by default (same as `ww note`), or whatever `--dir` you pass

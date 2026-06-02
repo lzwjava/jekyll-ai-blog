@@ -92,19 +92,19 @@ With exploded EAR:
 
 Liberty has a powerful dev mode:
 
-### Use Maven:
+### Use Maven
 
 ```bash
 mvn liberty:dev
 ```
 
-### Or Gradle:
+### Or Gradle
 
 ```bash
 gradle libertyDev
 ```
 
-### What it gives you:
+### What it gives you
 
 * Auto compile Java source
 * Auto deploy changes
@@ -127,7 +127,7 @@ Then Liberty will:
 
 * trigger full app restart (not full server restart)
 
-### You can force reload via:
+### You can force reload via
 
 ```bash
 touch server.xml
@@ -203,6 +203,7 @@ For best developer experience:
    ```bash
    mvn liberty:dev
    ```
+
 3. Edit Java code
 4. Let Maven auto-compile
 5. Liberty reloads instantly

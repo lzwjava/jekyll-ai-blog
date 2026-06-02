@@ -19,9 +19,11 @@ Good question. Let me break down exactly what happened — the full chain from "
 
 1. **You asked** to check the WeChat plugin
 2. **Ran `openclaw status`** — got a clear error:
+
    ```
    TypeError: (0, _pluginSdk.resolvePreferredOpenClawTmpDir) is not a function
    ```
+
 3. **Checked the plugin version**: `v1.0.3` (installed March 29)
 4. **Searched npm** for latest version: `v2.1.6` exists
 5. **Root cause**: v1.0.3 called a function from the OpenClaw Plugin SDK that was removed/renamed in newer OpenClaw (2026.4.2)
@@ -35,9 +37,11 @@ Good question. Let me break down exactly what happened — the full chain from "
 
 1. **Backed up** the old extension dir: `mv openclaw-weixin openclaw-weixin.bak`
 2. **Installed to a temp dir** using npm to get the v2.1.6 source files:
+
    ```
    npm install @tencent-weixin/openclaw-weixin@2.1.6 --prefix weixin-tmp
    ```
+
 3. **Copied the source** from `weixin-tmp/node_modules/@tencent-weixin/openclaw-weixin/` → new `openclaw-weixin/` directory (this time getting the actual v2.1.6 source files)
 4. **Ran `npm install`** inside the new dir to install dependencies (557 packages)
 5. **Cleaned up** temp dirs

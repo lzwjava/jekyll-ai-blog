@@ -48,7 +48,6 @@ We also calculate the total degrees of myopia and astigmatism:
 
 The text you provided contains valuable insight and could be useful for the discussion in an academic context, particularly to elaborate on the mechanisms involved in the reduction of astigmatism alongside myopia. Here’s how you might incorporate these ideas in a more formal, academic tone while maintaining clarity:
 
-
 ## Discussion
 
 It seems that the effect of astigmatism reduction is quite significant during the process of myopia reversal. Notably, the reduction in astigmatism should be considered alongside the reduction in myopia. Astigmatism, like myopia, is a measure of the eye's refractive power, and its reduction is not merely a secondary condition but an integral part of the overall process of eyeball deformation and recovery. It is suggested that the degrees of astigmatism reduction should be added to the degrees of myopia reduction because the curvature of the eye that leads to astigmatism is also involved in the development of myopia. Dividing the astigmatism degrees by two provides a reasonable approximation of its equivalent myopic reduction.

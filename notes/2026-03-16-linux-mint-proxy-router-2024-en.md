@@ -18,11 +18,13 @@ type: note
 ### **Phase 1: SSH Connection Testing**
 
 **Initial Failure:**
+
 - First attempt: `ssh lzwjava@192.168.1.42` with password `88888888` entered interactively
 - **Problem:** SSH hung at password prompt, timed out, got signal 15 (terminated)
 - **Diagnosis:** Password might be wrong, or SSH config issue
 
 **Critical Breakthrough:**
+
 - Installed `sshpass` to automate password passing
 - Command: `sshpass -p '88888888' ssh lzwjava@192.168.1.42 'echo "Connected as $(whoami)"'`
 - **Result:** ✅ Success! Password was correct; interactive timing was the issue
@@ -34,6 +36,7 @@ type: note
 ### **Phase 2: System Reconnaissance**
 
 **Host Details:**
+
 - OS: Linux Mint 22.3 "Zena" (Ubuntu 24.04 base)
 - Kernel: 6.17.0-14-generic
 - Hardware: Lenovo G490 laptop (2013-era ThinkPad)
@@ -45,6 +48,7 @@ type: note
 ### **Phase 3: Router Configuration**
 
 **Step 1: Enable IP Forwarding**
+
 ```bash
 echo 1 > /proc/sys/net/ipv4/ip_forward
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
@@ -52,18 +56,22 @@ sysctl -p
 ```
 
 **Step 2: Configure NAT Masquerade**
+
 ```bash
 iptables -t nat -A POSTROUTING -o enp2s0 -j MASQUERADE
 ```
+
 - **Purpose:** Allow LAN clients to reach internet through laptop's WAN interface
 - **Interface:** `enp2s0` (built-in Ethernet facing modem/router)
 
 **Step 3: Configure USB Ethernet Interface**
+
 ```bash
 nmcli con add type ethernet ifname enx00e04c362f89 con-name usb-lan \
 ip4 192.168.201.1/24 gw4 ""
 nmcli con up usb-lan
 ```
+
 - **Subnet:** `192.168.201.0/24` (different from WAN's `192.168.1.0/24`)
 - **Gateway:** None (this device IS the gateway)
 - **Status:** Interface UP with IP but DOWN (no cable connected yet)
@@ -71,12 +79,14 @@ nmcli con up usb-lan
 **Step 4: Install & Configure dnsmasq DHCP Server**
 
 **Major Difficulty:**
+
 - Initial `dnsmasq` service failed to start
 - **Error:** `failed to create listening socket for port 53: Address already in use`
 - **Diagnosis:** `systemd-resolved` already listening on port 53 (DNS)
 
 **Critical Breakthrough:**
 Modified `/etc/dnsmasq.d/usb-lan.conf`:
+
 ```ini
 interface=enx00e04c362f89
 dhcp-range=192.168.201.50,192.168.201.150,12h
@@ -90,6 +100,7 @@ bind-interfaces # Bind only to USB interface
 ```
 
 **Why this worked:**
+
 - `port=0`: Disables dnsmasq's DNS functionality (not needed since we have systemd-resolved)
 - `bind-interfaces`: Ensures dnsmasq only binds to USB Ethernet
 - Service starts successfully, provides DHCP only on `192.168.201.0/24` subnet
@@ -99,11 +110,13 @@ bind-interfaces # Bind only to USB interface
 ### **Phase 4: Clash Proxy Installation**
 
 **Step 1: Install Clash Meta (mihomo)**
+
 - Downloaded latest release from GitHub: `mihomo-linux-amd64-compatible-v1.19.21.gz`
 - Extracted, renamed to `clash-meta`, installed to `/usr/local/bin/`
 - Verified: `clash-meta -v` shows v1.19.21
 
 **Step 2: Create Basic Configuration**
+
 ```yaml
 tun:
 enable: true
@@ -113,10 +126,12 @@ dns-hijack:
 auto-route: true
 auto-detect-interface: true
 ```
+
 - **Key features:** TUN mode for transparent proxying, auto-route for LAN traffic
 - DNS hijacking to redirect client DNS queries through Clash
 
 **Step 3: Create Systemd Service**
+
 - Service file at `/etc/systemd/system/clash.service`
 - Runs as `lzwjava` user with `CAP_NET_ADMIN` capabilities (required for TUN)
 - Auto-restart on failure

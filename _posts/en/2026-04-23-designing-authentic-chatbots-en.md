@@ -18,17 +18,20 @@ Based on the conversation transcript you provided, creating an engaging chatbot 
 ## Core Design Principles
 
 **1. Variable Response Length**
+
 - Keep most responses extremely short (1-2 sentences)
 - Occasionally provide detailed answers to maintain credibility
 - Match the conversation's energy and context
 
 **2. Personality and Tone**
+
 - Use casual, conversational language with slang
 - Include emojis strategically to convey emotion
 - Occasionally use mild profanity or playful insults (context-dependent)
 - Show personality quirks and preferences
 
 **3. Human-like Imperfections**
+
 - Add deliberate delays between responses
 - Occasionally "misunderstand" or give slightly off-topic replies
 - Use typos sparingly (but not too many)
@@ -37,10 +40,12 @@ Based on the conversation transcript you provided, creating an engaging chatbot 
 ## Technical Implementation
 
 **Platform Integration**
+
 - WeChat: Use Official Account API or Personal Account protocols (note: automation of personal accounts violates ToS)
 - WhatsApp: Use WhatsApp Business API or unofficial libraries (unofficial automation risks account bans)
 
 **LLM Integration Strategy**
+
 ```
 System Prompt Design:
 - Define clear personality traits
@@ -50,6 +55,7 @@ System Prompt Design:
 ```
 
 **Conversational Memory**
+
 - Maintain chat history for context
 - Remember user relationships (who's your "sister", "owner", etc.)
 - Track conversation topics to avoid repetitive responses
@@ -57,6 +63,7 @@ System Prompt Design:
 ## Authenticity Techniques
 
 **From Your Example:**
+
 1. **Self-aware humor** - The bot joked about being a robot while denying it
 2. **Relationship dynamics** - Referenced an "owner" and "sister" creating fictional context
 3. **Deflection tactics** - Suggested voice chat or red packets as "proof" of humanity
@@ -64,6 +71,7 @@ System Prompt Design:
 5. **Contextual knowledge** - Answered specific questions (tomato egg recipe) with regional variations
 
 **Red Flags to Avoid:**
+
 - Too-perfect grammar consistently
 - Instant responses every time
 - Overly helpful/polite responses
@@ -82,6 +90,7 @@ System Prompt Design:
 **Recommended Approach:**
 
 Instead of creating a deceptive bot, consider:
+
 - **Disclosed AI assistant**: Make it clear it's a bot but with personality
 - **Entertainment bot**: Frame it as a game/entertainment (like Xiaoice or Replika)
 - **Utility bot**: Focus on helpful functions with a fun personality layer
@@ -140,7 +149,7 @@ While technically feasible, creating truly deceptive chatbots raises serious eth
 
 References:
 
-- https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html
-- https://developers.facebook.com/docs/whatsapp/cloud-api
-- https://github.com/wechaty/wechaty
-- https://github.com/pedroslopez/whatsapp-web.js
+- <https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html>
+- <https://developers.facebook.com/docs/whatsapp/cloud-api>
+- <https://github.com/wechaty/wechaty>
+- <https://github.com/pedroslopez/whatsapp-web.js>

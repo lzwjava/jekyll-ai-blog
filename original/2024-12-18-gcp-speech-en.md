@@ -148,6 +148,7 @@ The JSON key for your service account should look similar to this:
 Google Cloud Text-to-Speech offers several voices, but Journey stands out for its natural, human-like sound. Unlike other models that often sound robotic, Journey excels in expressiveness and lifelike delivery. It is particularly suited for long-form content such as podcasts, audiobooks, or any application requiring a more conversational tone.
 
 Key Features of Journey:
+
 - Natural Speech: Sounds closer to a human voice.
 - Expressiveness: Adjusts tone and inflection based on context.
 - Ideal for Long-Form Content: Perfect for podcasts and narrations.
@@ -161,6 +162,7 @@ For more details on the benefits of Google Cloud Text-to-Speech, check out the [
 If your service account key doesn’t match the example above, you can generate a new one from the Google Cloud Console.
 
 To generate a new key:
+
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 2. Navigate to IAM & Admin > Service Accounts.
 3. Create a new service account:

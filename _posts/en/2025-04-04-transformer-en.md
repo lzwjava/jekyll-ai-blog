@@ -30,11 +30,11 @@ For each word in the input sequence, the Transformer calculates three vectors:
 
 The self-attention mechanism then performs the following steps:
 
-1.  **Calculate Attention Scores:** The dot product between the Query vector of a word and the Key vector of every other word in the sequence is computed. These scores indicate how much each other word's information is relevant to the current word.
-2.  **Scale the Scores:** The scores are divided by the square root of the dimension of the Key vectors (`sqrt(d_k)`). This scaling helps to stabilize gradients during training.
-3.  **Apply Softmax:** The scaled scores are passed through a softmax function, which normalizes them into probabilities between 0 and 1. These probabilities represent the **attention weights** – how much "attention" the current word should pay to each of the other words.
-4.  **Calculate Weighted Values:** The Value vector of each word is multiplied by its corresponding attention weight.
-5.  **Sum the Weighted Values:** The weighted Value vectors are summed up to produce the **output vector** for the current word. This output vector now contains information from all other relevant words in the input sequence, weighted by their importance.
+1. **Calculate Attention Scores:** The dot product between the Query vector of a word and the Key vector of every other word in the sequence is computed. These scores indicate how much each other word's information is relevant to the current word.
+2. **Scale the Scores:** The scores are divided by the square root of the dimension of the Key vectors (`sqrt(d_k)`). This scaling helps to stabilize gradients during training.
+3. **Apply Softmax:** The scaled scores are passed through a softmax function, which normalizes them into probabilities between 0 and 1. These probabilities represent the **attention weights** – how much "attention" the current word should pay to each of the other words.
+4. **Calculate Weighted Values:** The Value vector of each word is multiplied by its corresponding attention weight.
+5. **Sum the Weighted Values:** The weighted Value vectors are summed up to produce the **output vector** for the current word. This output vector now contains information from all other relevant words in the input sequence, weighted by their importance.
 
 **2. Multi-Head Attention**
 
@@ -49,15 +49,15 @@ Since the Transformer processes all words in parallel, it loses information abou
 The Transformer architecture typically consists of two main parts: an **encoder** and a **decoder**, both composed of multiple identical layers stacked on top of each other.
 
 * **Encoder:** The encoder's role is to process the input sequence and create a rich representation of it. Each encoder layer typically contains:
-    * A **multi-head self-attention** sub-layer.
-    * A **feed-forward neural network** sub-layer.
-    * **Residual connections** around each sub-layer, followed by **layer normalization**. Residual connections help with gradient flow during training, and layer normalization stabilizes the activations.
+  * A **multi-head self-attention** sub-layer.
+  * A **feed-forward neural network** sub-layer.
+  * **Residual connections** around each sub-layer, followed by **layer normalization**. Residual connections help with gradient flow during training, and layer normalization stabilizes the activations.
 
 * **Decoder:** The decoder's role is to generate the output sequence (e.g., in machine translation or text generation). Each decoder layer typically contains:
-    * A **masked multi-head self-attention** sub-layer. The "masking" prevents the decoder from looking ahead at future tokens in the target sequence during training, ensuring that it only uses previously generated tokens to predict the next one.
-    * A **multi-head attention** sub-layer that attends to the output of the encoder. This allows the decoder to focus on the relevant parts of the input sequence while generating the output.
-    * A **feed-forward neural network** sub-layer.
-    * **Residual connections** and **layer normalization** similar to the encoder.
+  * A **masked multi-head self-attention** sub-layer. The "masking" prevents the decoder from looking ahead at future tokens in the target sequence during training, ensuring that it only uses previously generated tokens to predict the next one.
+  * A **multi-head attention** sub-layer that attends to the output of the encoder. This allows the decoder to focus on the relevant parts of the input sequence while generating the output.
+  * A **feed-forward neural network** sub-layer.
+  * **Residual connections** and **layer normalization** similar to the encoder.
 
 **5. Feed-Forward Networks**
 

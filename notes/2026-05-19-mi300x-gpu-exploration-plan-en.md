@@ -167,6 +167,7 @@ EOF
 ### 3b. Benchmark vs your H100/H200 numbers
 
 Key metrics to log:
+
 - tokens/sec for training (MFU — model FLOP utilization)
 - tokens/sec for inference (throughput at batch sizes 1, 8, 32)
 - memory bandwidth utilization (`rocm-smi -d 0 --showrascount` + compute)

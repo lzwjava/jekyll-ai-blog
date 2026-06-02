@@ -36,6 +36,7 @@ README.md 文件似乎是标准的 Vite + React + TypeScript 模板文档。我�
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/package.json"
@@ -43,6 +44,7 @@ README.md 文件似乎是标准的 Vite + React + TypeScript 模板文档。我�
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/package.json</path>
 <type>file</type>
@@ -86,6 +88,7 @@ README.md 文件似乎是标准的 Vite + React + TypeScript 模板文档。我�
 **Tool: glob**
 
 **Input:**
+
 ```json
 {
   "pattern": "src/**/*"
@@ -93,6 +96,7 @@ README.md 文件似乎是标准的 Vite + React + TypeScript 模板文档。我�
 ```
 
 **Output:**
+
 ```
 /Users/lzwjava/projects/copilot-web/src/App.tsx
 /Users/lzwjava/projects/copilot-web/src/services/auth.ts
@@ -107,6 +111,7 @@ README.md 文件似乎是标准的 Vite + React + TypeScript 模板文档。我�
 **Tool: glob**
 
 **Input:**
+
 ```json
 {
   "pattern": "*.{ts,tsx,js,jsx,json}"
@@ -114,6 +119,7 @@ README.md 文件似乎是标准的 Vite + React + TypeScript 模板文档。我�
 ```
 
 **Output:**
+
 ```
 /Users/lzwjava/projects/copilot-web/package-lock.json
 /Users/lzwjava/projects/copilot-web/package.json
@@ -138,6 +144,7 @@ _思考：_
 让我检查关键源文件以了解这个项目实际做什么，因为当前的 README 只是通用的 Vite/React 模板。我需要查看实际的应用代码来创建合适的 README。
 
 从我所见：
+
 - package.json 有脚本 "login": "node scripts/login.js"
 - 有 scripts/login.js 文件
 - 有 src/services/auth.ts
@@ -149,6 +156,7 @@ _思考：_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/src/App.tsx"
@@ -156,6 +164,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/src/App.tsx</path>
 <type>file</type>
@@ -364,6 +373,7 @@ _思考：_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/src/main.tsx"
@@ -371,6 +381,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/src/main.tsx</path>
 <type>file</type>
@@ -392,6 +403,7 @@ _思考：_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/src/services/auth.ts"
@@ -399,6 +411,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/src/services/auth.ts</path>
 <type>file</type>
@@ -551,6 +564,7 @@ _思考：_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/scripts/login.js"
@@ -558,6 +572,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/scripts/login.js</path>
 <type>file</type>
@@ -613,24 +628,24 @@ _思考：_
 50:     }
 51: }
 52:
-53: 	async function main() {
-54: 		try {
-55: 			const deviceData = await getDeviceCode();
-56: 			const githubToken = await pollForAccessToken(deviceData.device_code, deviceData.interval);
+53:  async function main() {
+54:   try {
+55:    const deviceData = await getDeviceCode();
+56:    const githubToken = await pollForAccessToken(deviceData.device_code, deviceData.interval);
 57:
-58: 			const config = {
-59: 				github_token: githubToken,
-60: 				created_at: new Date().toISOString()
-61: 			};
+58:    const config = {
+59:     github_token: githubToken,
+60:     created_at: new Date().toISOString()
+61:    };
 62:
-63: 			fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
-64: 			console.log(`\n✅ Saved GitHub token to ${CONFIG_PATH}`);
-65: 			console.log("🚀 Now you can run 'npm run dev' and the web app will use this token.");
-66: 		} catch (error) {
-67: 			console.error("\n❌ Error:", error.message);
-68: 			process.exit(1);
-69: 		}
-70: 	}
+63:    fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
+64:    console.log(`\n✅ Saved GitHub token to ${CONFIG_PATH}`);
+65:    console.log("🚀 Now you can run 'npm run dev' and the web app will use this token.");
+66:   } catch (error) {
+67:    console.error("\n❌ Error:", error.message);
+68:    process.exit(1);
+69:   }
+70:  }
 71:
 72: main();
 
@@ -660,6 +675,7 @@ _思考：_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/vite.config.ts"
@@ -667,6 +683,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/vite.config.ts</path>
 <type>file</type>
@@ -685,6 +702,7 @@ _思考：_
 **Tool: read**
 
 **Input:**
+
 ```json
 {
   "filePath": "/Users/lzwjava/projects/copilot-web/tsconfig.json"
@@ -692,6 +710,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 <path>/Users/lzwjava/projects/copilot-web/tsconfig.json</path>
 <type>file</type>
@@ -728,6 +747,7 @@ _思考：_
 基于我的分析，这是一个 **Copilot Chat** Web 应用 - 一个使用 React + TypeScript + Vite 构建的 GitHub Copilot 聊天界面。我将用准确的项目信息更新 README。
 
 需要记录的关键方面：
+
 - 项目目的：GitHub Copilot 聊天界面
 - 技术栈：React 19、TypeScript、Vite
 - 认证：通过 CLI 的 GitHub OAuth 设备流
@@ -740,6 +760,7 @@ _思考：_
 **Tool: write**
 
 **Input:**
+
 ```json
 {
   "content": "# Copilot Chat\n\nA web-based chat interface for GitHub Copilot, built with React, TypeScript, and Vite.\n\n## Features\n\n- Chat with GitHub Copilot directly in your browser\n- Token-based authentication using GitHub OAuth\n- Automatic token refresh to maintain session\n- Clean, responsive chat interface\n- Support for Copilot's GPT-4o model\n\n## Tech Stack\n\n- **React 19** - UI framework\n- **TypeScript** - Type safety\n- **Vite** - Build tool and dev server\n- **GitHub Copilot API** - AI chat completions\n\n## Setup\n\n1. Install dependencies:\n   ```bash\n   npm install\n   ```\n\n2. Login using the CLI (required due to GitHub CORS restrictions):\n   ```bash\n   npm run login\n   ```\n   This will:\n   - Open a GitHub device authorization flow\n   - Save your GitHub token to `public/config.json`\n\n3. Start the development server:\n   ```bash\n   npm run dev\n   ```\n\n4. Open your browser to the URL shown (typically `http://localhost:5173`)\n\n## Available Scripts\n\n- `npm run dev` - Start development server\n- `npm run build` - Build for production\n- `npm run lint` - Run ESLint\n- `npm run preview` - Preview production build\n- `npm run login` - Authenticate with GitHub via device flow\n\n## Authentication\n\nThis app uses GitHub's OAuth Device Flow for authentication:\n\n1. Run `npm run login` in your terminal\n2. Visit the verification URL and enter the provided code\n3. Authorize the app on GitHub\n4. Your token is saved to `public/config.json`\n5. Refresh the web app to start chatting\n\n**Note:** Browser-based login is restricted by GitHub's CORS policies, which is why the CLI login is required.\n\n## API Integration\n\nThe app communicates with:\n- GitHub OAuth endpoints for device authorization\n- GitHub Copilot API for chat completions (`https://api.githubcopilot.com/chat/completions`)\n- Automatic token refresh using GitHub's Copilot internal token endpoint\n\n## Project Structure\n\n```\nsrc/\n├── App.tsx              # Main chat interface component\n├── main.tsx             # Application entry point\n├── services/\n│   └── auth.ts          # Authentication service\n└── assets/              # Static assets\n\nscripts/\n└── login.js             # CLI login utility\n\npublic/\n└── config.json          # Generated config (gitignored)\n```\n\n## Development Notes\n\n- Uses React 19's modern features\n- Token refresh happens automatically every ~24 minutes\n- Session data stored in localStorage\n- Copilot tokens include a 1-minute safety buffer before expiry\n",
@@ -748,6 +769,7 @@ _思考：_
 ```
 
 **Output:**
+
 ```
 Wrote file successfully.
 ```
@@ -793,6 +815,7 @@ _思考：_
 5. token 可能无效或已被撤销
 
 错误发生在 App.tsx 的第 103-106 行：
+
 ```typescript
 } catch (err) {
   console.error('Failed to get copilot token:', err)
@@ -804,10 +827,12 @@ _思考：_
 这由 `AuthService.fetchCopilotToken(githubToken)` 失败触发。
 
 查看 auth.ts，fetchCopilotToken 方法调用 `https://api.github.com/copilot_internal/v2/token`。此端点需要：
+
 - 有效的 GitHub token 具有适当的范围
 - 用户必须有有效的 GitHub Copilot 订阅
 
 常见原因：
+
 1. GitHub token 没有 `copilot` 范围。login.js 中的设备流仅请求 `read:user` 范围，不足以用于 Copilot。
 2. 用户没有 GitHub Copilot 订阅。
 3. token 已过期或被撤销。
@@ -829,9 +854,10 @@ _思考：_
 
 ## 如何修复
 
-1. **验证 Copilot 订阅**：确保你的 GitHub 账户在 https://github.com/settings/copilot 有有效的 Copilot 订阅
+1. **验证 Copilot 订阅**：确保你的 GitHub 账户在 <https://github.com/settings/copilot> 有有效的 Copilot 订阅
 
 2. **重新认证**：删除 token 并重新登录：
+
    ```bash
    rm public/config.json
    npm run login
@@ -842,6 +868,7 @@ _思考：_
 4. **检查 token 有效性**：GitHub token 可能已过期。如果你之前使用不同的 GitHub 账户授权，确保它是具有 Copilot 访问权限的正确账户。
 
 5. **手动测试 API**：你可以直接调用端点验证：
+
    ```bash
    curl -H "Authorization: token YOUR_GITHUB_TOKEN" https://api.github.com/copilot_internal/v2/token
    ```

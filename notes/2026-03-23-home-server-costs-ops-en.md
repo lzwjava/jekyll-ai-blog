@@ -56,6 +56,7 @@ Extended operation does cause wear on mechanical components like fans and drives
 Modern computers use "thermal cycling" during manufacturing — repeated heating and cooling during production eliminates small cracks and flaws most likely to cause failure. This means today's components are engineered to handle power cycles, making it completely fine to power on and off.
 
 So the truth is:
+
 - **Daily hard shutdowns** = small wear from power cycles + startup surges
 - **24/7 operation** = fan wear over time, but avoids surge stress
 - **Neither meaningfully kills a ¥14,000 machine** within any normal timeframe

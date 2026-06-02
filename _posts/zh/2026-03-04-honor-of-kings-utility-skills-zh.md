@@ -28,12 +28,14 @@ type: note
 | **Disrupt** / **Interfere** (干扰) | Lv. 9/11 | 90s | 沉默敌方防御塔（2-6 秒）；增益友方防御塔（+100% 攻击速度，4 秒伤害免疫）。防御塔实用技能。 |
 
 **备注**：
+
 - 这些是**所有英雄**的**通用“辅助技能”**（辅助技能），尤其是辅助/游走英雄（例如 Da Qiao、Yaria）。辅助英雄常搭配 Sprint/Flash/Purify/Heal 以提供团队实用性。
 - **没有英雄拥有“内置”专属版本**（除英雄特定技能，如 Da Qiao 的 **技能 2: Sea of Fate** – 增强团队召回传送门，允许即时返回基地 + 返程）。
 - **其他实用示例**（英雄技能，非通用）：护盾/治疗（例如 Cai Yan 治疗、Zhang Fei 护盾）、位移（众多英雄），但问题聚焦于类似 Recall/Recovery 的（通用技能）。
 - **策略**：辅助英雄优先选择 Sprint/Flash 以提升机动性；脆皮英雄针对 CC/爆发选择 Purify/Heal。所有技能均支持“辅助”玩法而不攻击敌人。
 
 参考资料：
+
 - [Honor of Kings Wiki - Common Skills](https://honor-of-kings.fandom.com/wiki/Common_Skills)
 - [Liquipedia HoK - Common Skills](https://liquipedia.net/honorofkings/Common_Skills)
 - [王者荣耀局内技能](https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/%E5%B1%80%E5%86%85%E6%8A%80%E8%83%BD)

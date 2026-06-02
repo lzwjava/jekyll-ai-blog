@@ -54,6 +54,7 @@ type: note
   ```cmd
    taskkill /PID <PID> /F
    ```
+
 * 但如果它是您的应用程序服务器（如 Tomcat、WebSphere、Spring Boot 应用等）的一部分，最好通过其服务/控制台来停止它，而不是直接终止进程，以确保其正常关闭。
 
 ---

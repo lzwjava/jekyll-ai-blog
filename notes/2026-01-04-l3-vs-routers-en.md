@@ -29,6 +29,7 @@ Layer 3 switches perform inter-VLAN routing and IP forwarding using specialized 
 Traditional routers, especially software-based ones, traditionally rely on CPU-processed routing decisions for each packet, which is slower compared to hardware acceleration.
 
 Other options explained:
+
 - **B) Only support static routing**: Incorrect. Modern Layer 3 switches support dynamic routing protocols (OSPF, EIGRP, RIP, BGP in some cases).
 - **C) Cannot perform NAT**: While basic Layer 3 switches often lack full NAT capabilities (common in enterprise access/distribution layers), many higher-end models do support NAT. This is not the *main* difference.
 - **D) Operate only at Layer 2**: Incorrect. Layer 3 switches operate at both Layer 2 (switching) and Layer 3 (routing).

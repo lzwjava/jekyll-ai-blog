@@ -49,7 +49,9 @@ Sir Isaac Newton demonstrated **extraordinary levels of focus and concentration*
    **Application today**: Protect prime mental hours (often mornings) for high-value work. Batch email/meetings into limited windows. Say no to low-priority requests.
 
 ### Realistic Modern Summary
+
 Newton's focus was superhuman — 18-hour days and forgetting to eat aren't advisable. Instead, adapt selectively:
+
 - Build **rituals** (same time/place every day)
 - Remove **distractions** aggressively
 - Train **sustained attention** like a muscle

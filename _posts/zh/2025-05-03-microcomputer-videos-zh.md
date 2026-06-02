@@ -51,7 +51,7 @@ type: note
 * **USB转UART/I2C/SPI/JTAG转换器，支持多接口/系统，兼容3.3V和5V** - Waveshare Electronics（发布日期：2024-12-11，观看量：1670）- [链接](http://www.youtube.com/watch?v=SOnbWwKCcoA)
 
 希望这些推荐对您的学习有所帮助！如有其他问题欢迎随时提出。
-http://googleusercontent.com/youtube_content/5 http://googleusercontent.com/youtube_content/1 http://googleusercontent.com/youtube_content/2 http://googleusercontent.com/youtube_content/3 http://googleusercontent.com/youtube_content/4
+<http://googleusercontent.com/youtube_content/5> <http://googleusercontent.com/youtube_content/1> <http://googleusercontent.com/youtube_content/2> <http://googleusercontent.com/youtube_content/3> <http://googleusercontent.com/youtube_content/4>
 
 ---
 

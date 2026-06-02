@@ -15,6 +15,7 @@ type: note
 Based on your system information, you have a macOS 15.6.1 system with a portable disk mounted at `/Volumes/Untitled` (2.0 TB total capacity, 1.5 TB available). Moving photos and videos involves transferring files from your Mac's storage (e.g., in `~/Pictures` for photos or `~/Movies` for videos) to the external disk. This can be done via the graphical interface (Finder) or command-line tools like Terminal, depending on your preference. I'll cover both methods below, assuming you're moving files rather than the entire Photos app library (if that's needed, export them first from the Photos app).
 
 **Important Notes:**
+
 - **Backup First:** Ensure you have backups of your files to avoid data loss in case of errors.
 - **Permissions:** You may need administrative permissions for certain actions. Run Terminal commands as an admin if prompted.
 - **Space Check:** Verify the files' size doesn't exceed the portable disk's available space (1.5 TB in your case).
@@ -22,6 +23,7 @@ Based on your system information, you have a macOS 15.6.1 system with a portable
 - **Unmount Safely:** After moving, unmount the disk via Finder > Eject or `diskutil unmount /Volumes/Untitled` to prevent corruption.
 
 #### 1. Using Finder (Graphical Method - Beginner-Friendly)
+
 This is the simplest way for most users. It involves drag-and-drop via macOS's file manager.
 
 1. **Locate the Portable Disk and Files:**
@@ -43,6 +45,7 @@ This is the simplest way for most users. It involves drag-and-drop via macOS's f
 This method preserves metadata (e.g., creation dates) and handles large files efficiently.
 
 #### 2. Using Terminal (Command-Line Method - Efficient for Bulk Operations)
+
 If you prefer scripting or handling via commands (as shown in your Python scripts), use Terminal for precision. This is useful for automated or recursive moves.
 
 1. **Navigate to Your Files and Disk:**
@@ -67,6 +70,7 @@ If you prefer scripting or handling via commands (as shown in your Python script
    - Unmount safely: `diskutil unmount /Volumes/Untitled` and then physically disconnect the disk.
 
 **Advanced Tips:**
+
 - **Use Rsync for Syncing:** For incremental backups (only new/changed files), `rsync -av ~/Pictures /Volumes/Untitled/Photos` (install rsync if not present, but it's built-in on macOS).
 - **Automation:** Adapt this into your Python scripts (e.g., using `subprocess` to run `cp` or `mv` commands based on `list_portable_disks.py` output).
 - **MacBook Specific:** On your M2 MacBook Air (Model Mac14,2), transfers should be fast via USB-C. Monitor battery/Temp (e.g., via Activity Monitor) if needed.

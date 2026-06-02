@@ -26,11 +26,13 @@ This is correct. The described scenario — recording massive amounts of transac
 In e-commerce systems, **data statistics and mining** refers to two closely related processes:
 
 **1. Data Statistics (数据统计)**
+
 - Systematically recording and storing large volumes of transaction data generated during business operations.
 - This includes purchase records, browsing behavior, click-through rates, conversion rates, customer profiles, order amounts, return rates, and more.
 - Statistical methods are applied to summarize, aggregate, and present this data in meaningful ways (e.g., total sales volume, average order value, monthly revenue trends).
 
 **2. Data Mining (数据挖掘)**
+
 - Going beyond surface-level statistics to discover **hidden patterns, correlations, and rules** within large datasets.
 - Data mining is a process of comprehensively using various analytical tools to discover patterns and relationships in large amounts of data, and then using these patterns and relationships to make predictions. It can help decision-makers uncover potential associations in data and accurately identify overlooked factors.
 - Techniques include: **association rule discovery, clustering analysis, classification, sequence pattern analysis**, and regression analysis.

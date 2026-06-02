@@ -17,7 +17,7 @@ Paul Graham published an essay titled **When To Do What You Love** in September 
 
 This essay revisits and nuances the popular advice to "follow your passion" or "do what you love." Graham argues that the question cannot be answered with a simple yes or no — it depends on the situation.
 
-### Key points from the essay:
+### Key points from the essay
 
 - The debate about following your passion usually involves an implicit tradeoff ("instead of" something else, like money, stability, or practicality).
 - All else being equal, you should work on what interests you most — because genuine interest drives curiosity, effort, and often leads to great work.

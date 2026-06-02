@@ -17,6 +17,7 @@ type: note
 The person you are referring to is **Lijie Chen** (陈立杰 in Chinese), an Assistant Professor at UC Berkeley's EECS department (in the Theory Group), previously at Tsinghua University's Yao Class (a elite CS program), and later a PhD from MIT. He is a prominent researcher in theoretical computer science, especially computational complexity.
 
 ### Early Start with Programming and Middle School Period
+
 There is no widely documented evidence in public sources that Lijie Chen was particularly "obsessed with games" during middle school in a way that delayed his competitive programming start. Many Chinese OI (Olympiad in Informatics) participants begin programming relatively late compared to other fields — often in junior high (middle school) or even early high school — because NOI/IOI training is intense and usually starts seriously around ages 13–15.
 
 Lijie Chen was born in 1995. He won a **gold medal** at the **National Olympiad in Informatics (NOI)** in **2012** at the age of 16 (or 17 depending on the exact month), which directly qualified him for **recommendation admission** (保送) to **Tsinghua University** without needing the Gaokao. He entered Tsinghua's Yao Class (Institute for Interdisciplinary Information Sciences) in 2013.
@@ -24,7 +25,9 @@ Lijie Chen was born in 1995. He won a **gold medal** at the **National Olympiad 
 Like many top NOI performers, he likely began learning programming (typically in Pascal or C++) during junior high or the start of high school, then dedicated significant time to algorithmic problem-solving, data structures, graph theory, dynamic programming, etc. — the core of NOI training. There are no public interviews or biographies (as of available sources) describing a dramatic "obsession with games → sudden switch → instant win" story for him specifically. That kind of narrative sometimes appears for other OI legends, but for Lijie Chen, his path appears to be a more conventional (though extremely high-achieving) early start in competitive programming leading to NOI success.
 
 ### How He Won NOI
+
 Winning NOI gold (especially in a strong year) requires:
+
 - Extremely strong algorithmic thinking and implementation speed under time pressure (5-hour contest, usually 3–4 problems).
 - Mastery of advanced topics: advanced graph algorithms, string algorithms, computational geometry, number theory, dynamic programming optimizations, etc.
 - Years of training: solving thousands of problems on platforms like Luogu, Codeforces (though Codeforces became popular later), and past NOI/IOI/NOI Winter Camp problems.

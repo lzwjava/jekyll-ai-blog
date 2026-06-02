@@ -13,12 +13,14 @@ I'll explain how to use Autoprefixer in frontend development. Autoprefixer is a 
 Here are the main ways to integrate Autoprefixer into your frontend workflow:
 
 1. Using with npm (Most Common Approach)
+
 ```bash
 # Install autoprefixer and postcss
 npm install autoprefixer postcss --save-dev
 ```
 
 2. Basic Setup with PostCSS CLI
+
 ```bash
 # Install postcss-cli
 npm install postcss-cli --save-dev
@@ -39,6 +41,7 @@ module.exports = {
 3. With Build Tools:
 
 a) Webpack with postcss-loader
+
 ```bash
 npm install postcss-loader --save-dev
 ```
@@ -69,6 +72,7 @@ module.exports = {
 ```
 
 b) Vite (built-in support)
+
 ```javascript
 // vite.config.js
 import autoprefixer from 'autoprefixer'
@@ -83,6 +87,7 @@ export default {
 ```
 
 4. Configuration Options
+
 ```javascript
 // postcss.config.js
 module.exports = {
@@ -97,6 +102,7 @@ module.exports = {
 ```
 
 5. Example Usage in CSS
+
 ```css
 /* Input */
 .container {
@@ -116,12 +122,14 @@ module.exports = {
 ```
 
 Key Features and Tips:
+
 - Automatically adds prefixes based on Can I Use data
 - Controlled by browserslist (usually in package.json)
 - Removes outdated prefixes from older CSS
 - Works with modern CSS features like custom properties
 
 Basic browserslist example in package.json:
+
 ```json
 {
   "browserslist": [
@@ -133,6 +141,7 @@ Basic browserslist example in package.json:
 ```
 
 To run:
+
 ```bash
 # With PostCSS CLI
 npx postcss src/*.css --dir dist

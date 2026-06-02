@@ -13,6 +13,7 @@ Cooking mushrooms in an air fryer is quick and easy, resulting in a crispy, flav
 ### Basic Air Fryer Mushrooms Recipe
 
 #### Ingredients
+
 - 8–16 oz (225–450g) mushrooms (e.g., cremini, button, or shiitake), cleaned
 - 1–2 tbsp olive oil (or avocado oil)
 - 1 tsp garlic powder (optional)
@@ -21,11 +22,13 @@ Cooking mushrooms in an air fryer is quick and easy, resulting in a crispy, flav
 - Optional: herbs (e.g., thyme, rosemary) or spices (e.g., paprika, cayenne)
 
 #### Equipment
+
 - Air fryer
 - Mixing bowl
 - Tongs or spatula
 
 #### Instructions
+
 1. **Prepare the Mushrooms**:
    - Clean mushrooms by gently wiping with a damp paper towel or brushing off dirt. Avoid soaking, as mushrooms absorb water.
    - Trim stems if needed. For larger mushrooms (like shiitake), slice into ¼-inch thick pieces. Keep smaller mushrooms (like button or cremini) whole or halved for bite-sized pieces.
@@ -47,17 +50,20 @@ Cooking mushrooms in an air fryer is quick and easy, resulting in a crispy, flav
    - Serve immediately as a side dish, appetizer, or topping for salads, steaks, or grain bowls.
 
 #### Tips for Best Results
+
 - **Don’t Overcrowd**: Cook in batches if necessary to avoid steaming instead of crisping.
 - **Vary Cooking Time**: Smaller mushrooms cook faster (6–8 minutes), while larger or denser varieties like shiitake may take longer.
 - **Experiment with Flavors**: Try adding balsamic vinegar, lemon juice, or grated Parmesan after cooking for extra zest.
 - **Cleaning the Air Fryer**: Line the basket with parchment paper (with holes for air circulation) to reduce cleanup if using sticky marinades.
 
 #### Variations
+
 - **Garlic Butter Mushrooms**: Toss with melted butter and minced garlic before air frying.
 - **Spicy Mushrooms**: Add chili powder or sriracha to the seasoning mix.
 - **Stuffed Mushrooms**: For larger mushrooms, stuff with cream cheese, garlic, and herbs before air frying at 350°F (175°C) for 10–12 minutes.
 
 ### Notes
+
 - Cooking times and temperatures may vary based on your air fryer model. Check your manual for specific guidance.
 - If using shiitake mushrooms, remove tough stems before cooking, as they can remain chewy.
 - For crispier results, increase the temperature to 400°F (200°C) for the last 2 minutes, but monitor to avoid burning.

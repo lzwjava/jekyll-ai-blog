@@ -109,10 +109,10 @@ server dump testServer
 
 官方参考文档通常可在 IBM Docs 中找到：
 
-"Server command options" → https://www.ibm.com/docs/en/was-liberty/base?topic=reference-server-command-options
+"Server command options" → <https://www.ibm.com/docs/en/was-liberty/base?topic=reference-server-command-options>
 
 对于 Open Liberty (语法非常相似，近年来通常完全一致)：
-https://openliberty.io/docs/latest/reference/command/server-commands.html
+<https://openliberty.io/docs/latest/reference/command/server-commands.html>
 
 在你安装的版本中运行 `server help` 或 `server help start`，可以查看该特定 Liberty 版本所支持的准确选项。
 

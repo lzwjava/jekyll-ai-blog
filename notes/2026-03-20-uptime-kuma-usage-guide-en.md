@@ -62,7 +62,7 @@ Here is what each flag does:
 - `-v uptime-kuma:/app/data` — mounts a volume to the `/app/data` directory, ensuring data persistence.
 - `--name uptime-kuma` — assigns a recognizable name to the container.
 
-Once running, access Uptime Kuma at **http://localhost:3001**.
+Once running, access Uptime Kuma at **<http://localhost:3001>**.
 
 #### Method 2 — Docker Compose
 
@@ -87,14 +87,13 @@ pm2 start server/server.js --name uptime-kuma
 pm2 startup && pm2 save
 ```
 
-
 > **Note:** File systems like NFS (Network File System) are NOT supported. Please map to a local directory or volume.
 
 ---
 
 ### First Setup — Creating an Admin Account
 
-After opening **http://localhost:3001**, you will be prompted to create an admin account. After creating the account, you will be redirected to the dashboard, which displays the status of monitored services and offers insights into uptime, downtime, and maintenance.
+After opening **<http://localhost:3001>**, you will be prompted to create an admin account. After creating the account, you will be redirected to the dashboard, which displays the status of monitored services and offers insights into uptime, downtime, and maintenance.
 
 ---
 

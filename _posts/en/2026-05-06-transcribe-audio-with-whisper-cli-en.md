@@ -16,6 +16,7 @@ whisper "meeting_01 2.mp4" --model small --output_format txt --output_dir .
 ```
 
 Useful tweaks:
+
 - `--model` — `tiny`, `base`, `small`, `medium`, `large-v3` (bigger = slower, more accurate)
 - `--language en` — skip auto-detection if you know the language
 - `--output_format` — `txt`, `srt`, `vtt`, `json`, or `all`

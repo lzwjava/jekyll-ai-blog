@@ -15,6 +15,7 @@ I'll help you translate this to English.
 **Question Content Analysis:**
 
 This question tests the representation method of IP addresses using Classless Inter-Domain Routing (CIDR). The question format is:
+
 - IP Address ::= {<（）>, <Host Number>}
 
 This expression has a blank that needs to be filled.

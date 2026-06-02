@@ -15,6 +15,7 @@ Based on the textbook *Fundamentals of Electronic Technology (III)* edited by We
 ---
 
 ### 📚 **I. Overview of Exam Resources**
+
 Here are some key resources for past papers and exam questions:
 
 | Year       | Exam Session      | Resource Link                                                                 | Notes                                      |
@@ -30,9 +31,11 @@ Here are some key resources for past papers and exam questions:
 ---
 
 ### 📝 **II. Sample Exam Questions**
+
 Below are some typical questions based on the exam pattern and textbook content. These cover core topics like analog/digital circuits, semiconductor devices, and practical applications.
 
 #### **1. Multiple-Choice Questions**
+
 1. **What is the relationship between RMS voltage and maximum voltage for a sine wave?**
    A. \\( V_{\text{RMS}} = V_{\text{max}} \\)
    B. \\( V_{\text{RMS}} = 0.707 \times V_{\text{max}} \\)
@@ -48,6 +51,7 @@ Below are some typical questions based on the exam pattern and textbook content.
    **Answer**: C (Calculation: \\( V = I \times R = 10A \times (3Ω + 5Ω) = 80V \\)) 【turn0search16】
 
 #### **2. Calculation and Analysis**
+
 1. **Amplifier Circuit**:
    Given a BJT amplifier with \\( \beta = 100 \\), \\( R_C = 2.2kΩ \\), and \\( V_{CC} = 12V \\), calculate the collector current \\( I_C \\) and voltage gain \\( A_V \\) if the input resistance \\( R_{in} = 1kΩ \\).
 
@@ -55,6 +59,7 @@ Below are some typical questions based on the exam pattern and textbook content.
    Design an inverting amplifier with a gain of -10 using an ideal op-amp. Choose \\( R_{in} = 1kΩ \\) and determine \\( R_f \\).
 
 #### **3. Conceptual Questions**
+
 1. **Semiconductor Devices**:
    Explain the difference between enhancement-mode and depletion-mode MOSFETs.
 
@@ -62,6 +67,7 @@ Below are some typical questions based on the exam pattern and textbook content.
    Describe the advantages of CMOS logic over TTL logic in terms of power consumption and noise immunity.
 
 #### **4. Practical Problem-Solving**
+
 1. **Oscillator Circuit**:
    Draw a Colpitts oscillator circuit and explain how the feedback network generates sustained oscillations.
 
@@ -71,7 +77,9 @@ Below are some typical questions based on the exam pattern and textbook content.
 ---
 
 ### 🎯 **III. Key Topics for Exam Preparation**
+
 Based on the textbook and past exams, focus on these areas:
+
 - **Analog Circuits**: Amplifiers, filters, oscillators, and power supplies.
 - **Digital Circuits**: Logic gates, flip-flops, counters, and ADC/DAC.
 - **Semiconductor Theory**: Diodes, BJTs, MOSFETs, and their applications.
@@ -80,6 +88,7 @@ Based on the textbook and past exams, focus on these areas:
 ---
 
 ### 📖 **IV. Textbook Reference**
+
 - **Book**: *Fundamentals of Electronic Technology (III)*
 - **Editor**: Wen Xidong (温希东)
 - **Publisher**: Economic Science Press (经济科学出版社)
@@ -88,6 +97,7 @@ Based on the textbook and past exams, focus on these areas:
 ---
 
 ### 💡 **V. Study Tips**
+
 1. **Practice Past Papers**: Work through questions from 2019–2023 to understand the pattern 【turn0search0】【turn0search1】【turn0search2】.
 2. **Use Flashcards**: Review key terms and formulas using resources like Quizlet 【turn0search15】【turn0search16】.
 3. **Group Study**: Join online forums or local study groups (e.g., 上海自考交流群) 【turn0search4】.
@@ -96,6 +106,7 @@ Based on the textbook and past exams, focus on these areas:
 ---
 
 ### 🔍 **VI. Additional Resources**
+
 - **FE Exam Preparation**: For fundamentals of electronics, refer to 【turn0search18】.
 - **Basic Electronics Q&A**: Explore written test questions and answers 【turn0search17】.
 

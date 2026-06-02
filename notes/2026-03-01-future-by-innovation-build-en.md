@@ -18,6 +18,7 @@ Answer:
 The book stands out among business and entrepreneurship literature because it challenges conventional wisdom and offers contrarian, thought-provoking ideas rather than generic advice or step-by-step formulas.
 
 ### Core Thesis
+
 The central idea is captured in the title: real progress and massive value creation come from going **"zero to one"** (creating something entirely new that did not exist before) rather than going **"one to n"** (copying, iterating, or incrementally improving what already exists).
 
 - **Horizontal progress** = globalization / copying (1 → n)
@@ -73,6 +74,7 @@ Thiel argues that society has become too focused on horizontal progress and incr
 Thiel ends with a big-picture question: will we continue technological stagnation, or will we accelerate toward radical breakthroughs (singularity)?
 
 ### Why the Book Matters
+
 - It promotes **contrarian thinking** and first-principles reasoning.
 - It reframes monopoly as positive when earned through innovation.
 - It emphasizes **definite optimism**, strong company culture, sales importance, and the power-law nature of success.

@@ -21,6 +21,7 @@ He co-founded NVIDIA in April 1993, and the famous founding story involves the i
 Malachowsky has played a central role in shaping NVIDIA from a startup focused on computer graphics into one of the world's leading technology companies, particularly through his work on graphics processing units (**GPUs**).
 
 ### Early Life and Education
+
 - Born and raised in New Jersey (Oakhurst area; graduated from Ocean Township High School in 1976).
 - Earned his **Bachelor of Science (B.S.) in Electrical Engineering** from the **University of Florida** (graduated around 1980–1983, sources vary slightly on exact year).
 - Received his **Master of Science (M.S.) in Computer Science** from **Santa Clara University** in 1986.
@@ -28,13 +29,16 @@ Malachowsky has played a central role in shaping NVIDIA from a startup focused o
 He has been recognized by both universities: he received the Distinguished Alumni Award from Santa Clara University in 2008, and the University of Florida named **Malachowsky Hall for Data Science and Information Technology** in his honor.
 
 ### Career Before NVIDIA
+
 Before co-founding NVIDIA, Malachowsky accumulated significant industry experience (over a decade by 1993) in semiconductor and graphics technology. He worked at companies such as:
+
 - Hewlett-Packard (early career roles in hardware design)
 - Sun Microsystems (contributed to workstation graphics and SPARC-based systems)
 
 This background in high-performance computing, graphics hardware, and chip design directly informed NVIDIA's early focus on accelerating 3D graphics.
 
 ### Role at NVIDIA
+
 - Co-founder (1993–present)
 - Long-time member of NVIDIA's executive staff
 - Served for many years as **Senior Vice President of Engineering and Operations**
@@ -46,11 +50,13 @@ He is widely regarded as the **chief architect** of the modern **GPU** (Graphics
 Malachowsky holds dozens of patents related to graphics processing, semiconductor design, and parallel computing architectures.
 
 ### Key Contributions and Legacy
+
 - Instrumental in the invention and evolution of the GPU concept, which became NVIDIA's defining innovation.
 - Helped guide NVIDIA through multiple eras: from early 2D/3D graphics chips (NV1, RIVA series), through the rise of programmable shaders (GeForce 3/4), CUDA parallel computing platform, to today's dominance in AI accelerators (A100, H100, Blackwell series, etc.).
 - Remains active in high-level technical strategy even as NVIDIA grew into a multi-trillion-dollar market cap company.
 
 ### Recognition
+
 - Inducted into the **Florida Inventors Hall of Fame** for his GPU invention and contributions.
 - Elected as a Fellow of the **National Academy of Inventors** (announced for the 2025 class).
 - Featured in various industry awards and halls of fame related to computing history.

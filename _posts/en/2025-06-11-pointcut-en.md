@@ -37,10 +37,10 @@ Let's dissect your given example:
 * `execution()`: The pointcut designator.
 * `*`: Matches any return type.
 * `com.example.service.*.*`:
-    * `com.example.service`: Matches the package `com.example.service`.
-    * `.*`: The first `*` after `service` matches any class within the `com.example.service` package.
-    * `.`: Separator between package/class and method.
-    * `*`: The second `*` matches any method name within those classes.
+  * `com.example.service`: Matches the package `com.example.service`.
+  * `.*`: The first `*` after `service` matches any class within the `com.example.service` package.
+  * `.`: Separator between package/class and method.
+  * `*`: The second `*` matches any method name within those classes.
 * `(..)`: Matches any number of parameters (zero or more, of any type).
 
 **In plain English:** This pointcut matches the execution of *any method* in *any class* within the `com.example.service` package (and its direct sub-packages, if any classes are directly in `com.example.service`).
@@ -52,15 +52,15 @@ Let's dissect your given example:
 Wildcards are crucial for creating flexible pointcut expressions.
 
 * **`*` (single asterisk)**:
-    * Matches any single element in a name pattern (e.g., any return type, any class name, any method name).
-    * Matches any single segment in a package name (e.g., `com.example.*.service` would match `com.example.foo.service`).
+  * Matches any single element in a name pattern (e.g., any return type, any class name, any method name).
+  * Matches any single segment in a package name (e.g., `com.example.*.service` would match `com.example.foo.service`).
 * **`..` (double dot)**:
-    * **In package patterns**: Matches zero or more segments in a package name.
-        * `com.example..service`: Matches `com.example.service`, `com.example.foo.service`, `com.example.foo.bar.service`, etc.
-    * **In parameter patterns**: Matches zero or more arguments of any type.
-        * `(..)`: Matches any number of arguments.
-        * `(java.lang.String, ..)`: Matches methods with a `String` as the first argument, followed by any number of other arguments.
-        * `(.., java.lang.Long)`: Matches methods with any number of initial arguments, ending with a `Long`.
+  * **In package patterns**: Matches zero or more segments in a package name.
+    * `com.example..service`: Matches `com.example.service`, `com.example.foo.service`, `com.example.foo.bar.service`, etc.
+  * **In parameter patterns**: Matches zero or more arguments of any type.
+    * `(..)`: Matches any number of arguments.
+    * `(java.lang.String, ..)`: Matches methods with a `String` as the first argument, followed by any number of other arguments.
+    * `(.., java.lang.Long)`: Matches methods with any number of initial arguments, ending with a `Long`.
 
 ---
 
@@ -123,45 +123,45 @@ While `execution` is the most common, AspectJ provides several other pointcut de
 
 Here are the most important ones:
 
-1.  **`execution()`**: As discussed, matches method executions.
+1. **`execution()`**: As discussed, matches method executions.
     * Example: `@Before("execution(* com.example.service.UserService.*(..))")`
 
-2.  **`within()`**: Matches join points where the code is within a certain type (class). This is often used to restrict the scope of other pointcuts.
+2. **`within()`**: Matches join points where the code is within a certain type (class). This is often used to restrict the scope of other pointcuts.
     * Example: `@Before("within(com.example.service.*) && execution(* *(..))")`
         * This combines `within` and `execution`. It means "any method execution within any class in the `com.example.service` package." The `execution` part is then just a wildcard for any method, as `within` handles the class matching.
 
-3.  **`this()`**: Matches join points where the proxy *itself* is an instance of the given type. This is less commonly used for simple advice and more for introductions or self-invocation issues.
+3. **`this()`**: Matches join points where the proxy *itself* is an instance of the given type. This is less commonly used for simple advice and more for introductions or self-invocation issues.
     * Example: `@Around("this(com.example.service.UserService)")`
         * Matches if the AOP proxy implements `UserService`.
 
-4.  **`target()`**: Matches join points where the *target object* (the actual object being advised, not the proxy) is an instance of the given type. This is often more intuitive than `this()` when you care about the underlying implementation.
+4. **`target()`**: Matches join points where the *target object* (the actual object being advised, not the proxy) is an instance of the given type. This is often more intuitive than `this()` when you care about the underlying implementation.
     * Example: `@Around("target(com.example.service.UserServiceImpl)")`
         * Matches if the target object is an instance of `UserServiceImpl`.
 
-5.  **`args()`**: Matches join points where the arguments are of a certain type or match a certain pattern.
+5. **`args()`**: Matches join points where the arguments are of a certain type or match a certain pattern.
     * Example: `@Before("execution(* com.example.service.*.*(String, ..))")`
         * Matches methods where the first argument is a `String`.
     * Example: `@Before("args(java.lang.String, int)")`
         * Matches methods that take exactly a `String` followed by an `int`.
     * Example: `@Before("args(name, age)")` where `name` and `age` can then be bound to the advice method parameters.
 
-6.  **`bean()`**: (Spring-specific) Matches methods executed on Spring beans with specific names or name patterns.
+6. **`bean()`**: (Spring-specific) Matches methods executed on Spring beans with specific names or name patterns.
     * Example: `@Before("bean(userService) && execution(* *(..))")`
         * Matches any method execution on the Spring bean named "userService".
     * Example: `@Before("bean(*Service) && execution(* *(..))")`
         * Matches any method execution on Spring beans whose names end with "Service".
 
-7.  **`@annotation()`**: Matches join points where the target method (or class for `within`) is annotated with a specific annotation.
+7. **`@annotation()`**: Matches join points where the target method (or class for `within`) is annotated with a specific annotation.
     * Example: `@Before("@annotation(com.example.annotation.Loggable)")`
         * Matches any method that is annotated with `@Loggable`.
     * Example: `@Before("execution(* *(..)) && @annotation(org.springframework.transaction.annotation.Transactional)")`
         * Matches any method execution that is annotated with `@Transactional`.
 
-8.  **`@within()`**: Matches join points where the declaring type (class) is annotated with a specific annotation.
+8. **`@within()`**: Matches join points where the declaring type (class) is annotated with a specific annotation.
     * Example: `@Before("@within(org.springframework.stereotype.Service) && execution(* *(..))")`
         * Matches any method execution within a class that is annotated with `@Service`.
 
-9.  **`@target()`**: Matches join points where the class of the target object has the given annotation.
+9. **`@target()`**: Matches join points where the class of the target object has the given annotation.
     * Example: `@Around("@target(com.example.annotation.Auditable)")`
 
 10. **`@args()`**: Matches join points where the runtime type of the actual arguments passed to the method has annotations of the given type(s).
@@ -173,41 +173,46 @@ Here are the most important ones:
 
 You mentioned `@AfterReturning` and "any other we can use in annotations." Spring AOP provides several advice types, each executing at a different point in the join point's lifecycle:
 
-1.  **`@Before`**:
+1. **`@Before`**:
     * Executes *before* the matched method execution.
     * Example: Logging request details before a service method runs.
     * Cannot prevent the method from executing or alter its return value.
 
-2.  **`@AfterReturning`**:
+2. **`@AfterReturning`**:
     * Executes *after* the matched method returns *successfully* (without throwing an exception).
     * Can access the return value of the method.
     * Syntax: `@AfterReturning(pointcut="yourPointcut()", returning="result")`
     * Example:
+
         ```java
         @AfterReturning(pointcut="execution(* com.example.service.UserService.getUserById(..))", returning="user")
         public void logUserRetrieval(Object user) {
             System.out.println("User retrieved: " + user);
         }
         ```
+
         *Note: The `returning` attribute name (`user` in this case) must match the parameter name in the advice method.*
 
-3.  **`@AfterThrowing`**:
+3. **`@AfterThrowing`**:
     * Executes *after* the matched method throws an exception.
     * Can access the thrown exception.
     * Syntax: `@AfterThrowing(pointcut="yourPointcut()", throwing="ex")`
     * Example:
+
         ```java
         @AfterThrowing(pointcut="execution(* com.example.service.*.*(..))", throwing="ex")
         public void logException(Exception ex) {
             System.err.println("Exception occurred: " + ex.getMessage());
         }
         ```
+
         *Note: The `throwing` attribute name (`ex` in this case) must match the parameter name in the advice method.*
 
-4.  **`@After` (finally advice)**:
+4. **`@After` (finally advice)**:
     * Executes *after* the matched method completes, regardless of whether it returned successfully or threw an exception.
     * Similar to a `finally` block.
     * Example: Releasing resources, regardless of method outcome.
+
     * ```java
         @After("execution(* com.example.service.OrderService.placeOrder(..))")
         public void cleanupOrderProcess() {
@@ -215,13 +220,14 @@ You mentioned `@AfterReturning` and "any other we can use in annotations." Sprin
         }
         ```
 
-5.  **`@Around`**:
+5. **`@Around`**:
     * The most powerful and flexible advice type.
     * Executes *around* the matched method execution.
     * You are responsible for invoking the actual method using `ProceedingJoinPoint.proceed()`.
     * Can inspect, modify, or even suppress the method's arguments and return value.
     * Can catch and handle exceptions thrown by the advised method.
     * Example: Performance monitoring, transaction management, caching.
+
     * ```java
         import org.aspectj.lang.ProceedingJoinPoint;
         import org.aspectj.lang.annotation.Around;

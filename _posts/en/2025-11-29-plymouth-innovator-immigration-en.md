@@ -13,6 +13,7 @@ type: note
 Plymouth Street is a U.S.-based immigration services company specializing in helping technologists, scientists, researchers, entrepreneurs, and other high-skilled professionals navigate the complex U.S. visa and green card process. Founded in 2022 (with some sources noting 2023), their mission is to accelerate innovation by providing faster, more transparent, and efficient support for global talent to live and work in the U.S., often positioning themselves as a modern alternative to traditional law firms.
 
 ### Key Services
+
 - **Visa Types Supported**: Primarily focuses on O-1 visas (for individuals with extraordinary ability in sciences, arts, education, business, or athletics), but also assists with J-1, EB-1 (extraordinary ability green cards), EB-2, and pathways to permanent residency.
 - **What They Offer**:
   - Free initial consultations.

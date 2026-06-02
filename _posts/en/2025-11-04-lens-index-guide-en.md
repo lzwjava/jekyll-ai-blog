@@ -25,6 +25,7 @@ Here's a quick breakdown of each:
 These indices are for **single-vision lenses** (correcting one field of vision). Higher indices like 1.67 are pricier and may have slightly more chromatic aberration (color fringing), but coatings can minimize this.
 
 #### Why 1.67 Is Associated with High or "Deep" Myopia
+
 A 1.67 index **doesn't "mean" high myopia**—myopia (nearsightedness) is defined by your prescription strength in diopters (e.g., -6.00 or higher is considered high myopia). Instead, it's **recommended *for* high/deep myopia** because:
 
 - **Strong negative prescriptions** (like -8.00) require lenses that curve more at the edges to focus light properly, making them thick and heavy with standard materials (e.g., 1.56 index).
@@ -33,6 +34,7 @@ A 1.67 index **doesn't "mean" high myopia**—myopia (nearsightedness) is define
 In short: For mild myopia (-2.00), a 1.56 lens is fine and affordable. But for deep myopia (-7.00+), 1.67 (or even 1.74) makes the glasses practical and stylish by keeping them slim.
 
 #### How It Makes Thinner Eyeglasses
+
 - **Physics basics**: Light bends more in denser materials (higher index = denser). For myopia, the lens diverges light; a high-index material does this with less bulk.
 - **Example**: At -5.00 diopters, a 1.56 lens might be 4mm thick at the edge, while 1.67 could be ~2.5mm—noticeably slimmer and lighter.
 - **Trade-offs**: Higher indices can be more brittle and reflective (anti-reflective coatings help), but they're ideal if comfort and aesthetics matter.
@@ -40,6 +42,7 @@ In short: For mild myopia (-2.00), a 1.56 lens is fine and affordable. But for d
 If your prescription is known, an optician can recommend the best index. Always get a professional fitting for the thinnest possible result.
 
 #### References
+
 - [Lens index guide for glasses: What index is best for me?](https://www.zennioptical.com/blog/prescriptions-go-lenses/)
 - [High-index lenses: Transform thick glasses to thin glasses](https://www.allaboutvision.com/eyewear/eyeglasses/lenses/high-index/)
 - [1.56 vs 1.6 vs 1.67 vs 1.74 Lenses: How to Choose](https://www.hpglasses.com/blogs/buying-guide/choosing-the-right-lens-index-a-guide-to-1-56-1-6-1-67-and-1-74)
