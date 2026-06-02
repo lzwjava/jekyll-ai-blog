@@ -73,9 +73,9 @@ Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it w
 
 ### OpenRouter — Past Year
 
-927M tokens consumed, $192 spend, 142K API requests across multiple models.
+1.15B tokens consumed, $239 spend, 155K API requests across multiple models.
 
-![OpenRouter Activity Dashboard — 927M tokens, $192 spend, 142K requests over 1 year](/assets/images/ai-portfolio/openrouter-activity.png)
+![OpenRouter Activity Dashboard — 1.15B tokens, $239 spend, 155K requests over 1 year](/assets/images/ai-portfolio/openrouter-activity.png)
 
 ![OpenRouter Model Spend Breakdown — Claude 4 Sonnet $44.40, Claude 3.5 Sonnet $9.67, Grok 3, Mistral, Kimi](/assets/images/ai-portfolio/openrouter-spend.png)
 
@@ -97,11 +97,11 @@ Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free cred
 
 | Platform | Tokens | Period | Cost |
 |----------|--------|--------|------|
-| OpenRouter | 927M | Past year | $192 |
+| OpenRouter | 1.15B | Past year | $239 |
 | SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
 | Xiaomi MIMO | 500M | Current plan | Free 4.6B credit |
 | Others (GitHub Copilot, etc.) | 500M | Past year | — |
-| **Total** | **~2B+** | **Past year** | **—** |
+| **Total** | **~2.3B+** | **Past year** | **—** |
 
 ---
 
