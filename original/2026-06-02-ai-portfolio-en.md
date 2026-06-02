@@ -109,6 +109,27 @@ Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Struct
 
 ---
 
+## 🏢 Enterprise AI Usage — HSBC Bank
+
+At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
+
+**What I built:**
+- **20 customized AI agents** — dedicated prompts and contexts for different tech stacks and workflows.
+- **400 reusable Copilot-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
+- **1,100 Copilot-written guides** — documentation generated and validated via LLM outputs with caching and validation.
+- **~70 test cases auto-generated** via Copilot API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+
+**Results:**
+- Ranked **top 6% in Copilot usage** across the entire enterprise, measured by premium requests.
+- Earned a **Contribution Award** for the high-profile AIPlayer project.
+- Joined HSBC's internal AI community.
+
+![GitHub Copilot — 16M+ installs, AI pair programmer integrated into VS Code](/assets/images/ai-portfolio/copilot.png)
+
+![HSBC AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
+
+---
+
 ## 🤖 Other AI Projects
 
 ### iclaw — Terminal AI Agent (REPL)
