@@ -16,6 +16,7 @@ Now I have a thorough picture of the codebase. Here's my analysis:
 ## Analysis of `ww` repo
 
 **What exists:**
+
 - 90+ command modules in a flat `main.py` dispatcher (~1573 lines)
 - Pre-commit: trailing whitespace, ruff, pyright, bandit, detect-secrets, pytest
 - CI: 3 workflows (lint, unit test, integration test)
@@ -25,6 +26,7 @@ Now I have a thorough picture of the codebase. Here's my analysis:
 - ~20+ unwired modules (ml, agent, trading, social, crawler, bot, etc.)
 
 **Current issues spotted:**
+
 1. CI uses `unittest discover`, pre-commit uses `pytest` — inconsistent
 2. CI doesn't run detect-secrets (only in pre-commit)
 3. Integration test workflow triggers on `integration_tests/**` but there's only a placeholder

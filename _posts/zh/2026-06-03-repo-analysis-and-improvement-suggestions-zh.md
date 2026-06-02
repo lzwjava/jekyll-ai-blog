@@ -16,6 +16,7 @@ type: note
 ## 对 `ww` 仓库的分析
 
 **现有内容：**
+
 - 90+ 个命令模块位于扁平化的 `main.py` 调度器中（约 1573 行）
 - 预提交钩子：尾部空格、ruff、pyright、bandit、detect-secrets、pytest
 - CI：3 个工作流（lint、单元测试、集成测试）
@@ -25,6 +26,7 @@ type: note
 - 约 20+ 个未连接的模块（ml、agent、trading、social、crawler、bot 等）
 
 **当前发现的问题：**
+
 1. CI 使用 `unittest discover`，预提交使用 `pytest` —— 不一致
 2. CI 未运行 detect-secrets（仅在预提交中）
 3. 集成测试工作流在 `integration_tests/**` 上触发，但仅有一个占位文件
