@@ -43,18 +43,18 @@ type: note
 
 **关键关系：**
 
-1.  **Row Group → Column Chunks**：一个行组包含每个列的一个 `ColumnChunk`。行组是水平分区（写入元数据之前包含多少行）。
+1. **Row Group → Column Chunks**：一个行组包含每个列的一个 `ColumnChunk`。行组是水平分区（写入元数据之前包含多少行）。
 
-2.  **ColumnChunk → Dictionary Page → Compression Dictionary**：
-    *   字典页*就是*压缩后的字典，物理上存储在列块的开头
-    *   后续的数据页引用字典索引，而不是原始值
-    *   仅在 `encoding=PLAIN_DICTIONARY` 且 `is_sorted=false` 时写入
+2. **ColumnChunk → Dictionary Page → Compression Dictionary**：
+    * 字典页*就是*压缩后的字典，物理上存储在列块的开头
+    * 后续的数据页引用字典索引，而不是原始值
+    * 仅在 `encoding=PLAIN_DICTIONARY` 且 `is_sorted=false` 时写入
 
-3.  **ColumnMetadata** 指向：
-    *   字典页的起始位置 (`meta_data.dictionary_page_offset`)
-    *   字典页的压缩方式 (`meta_data.codec`，例如 SNAPPY)
-    *   数据页的位置 (`meta_data.data_page_offset`)
-    *   关于该列的统计信息（基数帮助读取器判断字典是否有效）
+3. **ColumnMetadata** 指向：
+    * 字典页的起始位置 (`meta_data.dictionary_page_offset`)
+    * 字典页的压缩方式 (`meta_data.codec`，例如 SNAPPY)
+    * 数据页的位置 (`meta_data.data_page_offset`)
+    * 关于该列的统计信息（基数帮助读取器判断字典是否有效）
 
 **来自 Thrift schema (parquet.thrift)：**
 
@@ -119,8 +119,8 @@ with pq.ParquetFile("file.parquet") as pf:
 
 **为什么这很重要：**
 
-*   **Row Groups** 是并行处理单元——读取器可以独立处理它们
-*   **Column Metadata** 是清单——告诉你所有内容的位置以及压缩方式
-*   **Compression Dictionary** 是压缩策略——对低基数列减小体积（重复值的字符串节省约 70-90% 空间）
+* **Row Groups** 是并行处理单元——读取器可以独立处理它们
+* **Column Metadata** 是清单——告诉你所有内容的位置以及压缩方式
+* **Compression Dictionary** 是压缩策略——对低基数列减小体积（重复值的字符串节省约 70-90% 空间）
 
 字典是**可选的**，但在 Parquet 库中对于字符串/二进制列是自动启用的。你可以禁用它，但列式压缩依赖于它。
