@@ -161,7 +161,7 @@ The blog started as a personal notebook and grew into something bigger. Every te
 
 ## 👨‍👩‍👧‍👦 Family
 
-I got married in 2010. My wife is a frontend engineer — she builds user interfaces, I build systems behind them. We complement each other well.
+I got married in 2020. My wife is a frontend engineer — she builds user interfaces, I build systems behind them. We complement each other well.
 
 We have two daughters. Our 5-year-old has been watching English YouTube animation for 3 years here in China — her English is already surprisingly natural. She picks up vocabulary, pronunciation, and even humor from the videos. It's a reminder that language acquisition at a young age is fundamentally different from studying it as an adult.
 
