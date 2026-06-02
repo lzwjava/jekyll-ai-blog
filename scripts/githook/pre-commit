@@ -1,10 +1,44 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
+# pre-commit wrapper: replicate `pre-commit install` plus auto-stage and
+# retry once when fixer hooks (end-of-file-fixer, trailing-whitespace,
+# ruff-format, etc.) modify staged files. Without this the first commit
+# fails after the fixer rewrites the file and a second `git commit` is
+# required — painful for automated flows like `ww note process`.
 
-# Run the notes link generator
-# /usr/bin/python scripts/generate/update_notes_link.py
+INSTALL_PYTHON=/opt/homebrew/opt/python@3.14/bin/python3.14
+ARGS=(hook-impl --config=.pre-commit-config.yaml --hook-type=pre-commit)
 
-# Add the generated notes file
-# git add original/2025-01-11-notes-en.md
-# git add _posts/en/2025-01-11-notes-en.md
+HERE="$(cd "$(dirname "$0")" && pwd)"
+ARGS+=(--hook-dir "$HERE" -- "$@")
 
-echo "Pre-commit hook completed"
+run_precommit() {
+    if [ -x "$INSTALL_PYTHON" ]; then
+        "$INSTALL_PYTHON" -mpre_commit "${ARGS[@]}"
+    elif command -v pre-commit > /dev/null; then
+        pre-commit "${ARGS[@]}"
+    else
+        # shellcheck disable=SC2016  # backticks are intentional literal
+        echo '`pre-commit` not found.  Did you forget to activate your virtualenv?' 1>&2
+        return 1
+    fi
+}
+
+# Snapshot files that already had unstaged edits, so we never auto-stage
+# work the user did not intend to commit.
+preexisting=$(git diff --name-only | sort -u)
+
+if run_precommit; then
+    exit 0
+fi
+
+current=$(git diff --name-only | sort -u)
+hook_modified=$(comm -23 <(printf '%s\n' "$current") <(printf '%s\n' "$preexisting"))
+
+if [ -z "$hook_modified" ]; then
+    exit 1
+fi
+
+printf '[pre-commit-autofix] staging hook fixes and retrying:\n%s\n' "$hook_modified" 1>&2
+printf '%s\n' "$hook_modified" | xargs git add --
+
+run_precommit
