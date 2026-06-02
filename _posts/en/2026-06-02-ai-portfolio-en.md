@@ -132,6 +132,30 @@ At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of Gi
 
 ---
 
+## 🎤 AI Talk at HSBC — From Neural Networks to Agents
+
+Gave a technical talk to **80 participants** at HSBC Bank — senior consultants, specialists, associate directors, software engineers, and contractors.
+
+**Talk:** *"From Neural Networks to Agents"* — a journey from the simplest neural network (`y = wx`) through MNIST, Transformers, GPT, nanoGPT, to building personal AI agents.
+
+**What I covered:**
+- Neural networks from first principles — forward pass, backpropagation, gradient descent
+- Transformer architecture — Q/K/V attention, multi-head attention, positional encoding
+- GPT internals — tokenization, embedding, training, generation
+- nanoGPT — training GPT-2 from scratch on H200/RTX 4070
+- LLM agents — Claude Code, OpenClaw, Hermes, tool calling, agent loops
+- Real numbers — 1B tokens consumed, H200 at $3.44/hr, where money actually goes
+- My path — 3 years from reading about Q/K/V to training models from scratch
+
+**Feedback:**
+- A junior engineer said: *"You are the person I want to be"* — the talk opened his mind to what's possible with AI
+- Senior engineers appreciated the first-principles approach — no hype, just math and code
+- Multiple follow-up conversations about training, agents, and career direction
+
+**Slides:** Built with Claude Code & Marp, from my public AI response notes.
+
+---
+
 ## 🛠️ ww — Cross-Platform CLI Toolkit
 
 [ww](https://github.com/lzwjava/ww) is my flagship CLI toolkit — 255+ commits, 10+ command groups, cross-platform (macOS + Linux). It covers git workflows with AI commit messages, note management, image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
