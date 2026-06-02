@@ -53,41 +53,41 @@ DELETE — Redundant Banking (review which you actually use):
 
 DELETE — Low-value / One-off apps:
 
-  - BSCS CA (quiz app for computer architecture — student leftover?)
-  - Makeup Master (game?)
-  - Mahjong 4 Friends + Vita Mahjong (two mahjong games?)
-  - Buffalo Wild Wings (restaurant app — use web)
-  - Walgreens (pharmacy — use web)
-  - Forever 21 (fashion — use web)
-  - McDonald's (use web or mini-program)
-  - Starbucks (use web)
-  - Eye Measure (one-time use?)
-  - Bus Traveling System (macau bus — use web)
-  - 小猪民宿 (Airbnb alternative — use web when needed)
-  - 安居家园 (real estate — use web)
-  - Hinata Life (niche Japanese lifestyle?)
-  - 神州租车 (car rental — install when needed)
-  - 华为 AI Life (Huawei app — you use Xiaomi ecosystem)
-  - Btelo Coding (niche coding app?)
-  - Pastel (color picker?)
-  - Darker (screen dimmer?)
-  - StitchShot + StitchPics + PicSplit + GridPost (image utils — use your
+- BSCS CA (quiz app for computer architecture — student leftover?)
+- Makeup Master (game?)
+- Mahjong 4 Friends + Vita Mahjong (two mahjong games?)
+- Buffalo Wild Wings (restaurant app — use web)
+- Walgreens (pharmacy — use web)
+- Forever 21 (fashion — use web)
+- McDonald's (use web or mini-program)
+- Starbucks (use web)
+- Eye Measure (one-time use?)
+- Bus Traveling System (macau bus — use web)
+- 小猪民宿 (Airbnb alternative — use web when needed)
+- 安居家园 (real estate — use web)
+- Hinata Life (niche Japanese lifestyle?)
+- 神州租车 (car rental — install when needed)
+- 华为 AI Life (Huawei app — you use Xiaomi ecosystem)
+- Btelo Coding (niche coding app?)
+- Pastel (color picker?)
+- Darker (screen dimmer?)
+- StitchShot + StitchPics + PicSplit + GridPost (image utils — use your
     ww image tools or one app max)
-  - LotusMind, Aphrodite (unclear utility)
-  - DramaBox (drama streaming?)
-  - Outline VPN client (if you use Shadowrocket/Surge already)
+- LotusMind, Aphrodite (unclear utility)
+- DramaBox (drama streaming?)
+- Outline VPN client (if you use Shadowrocket/Surge already)
 
 DELETE — Redundant Utility:
 
-  - Authenticator apps: keep Microsoft Authenticator + Google Authenticator,
+- Authenticator apps: keep Microsoft Authenticator + Google Authenticator,
     delete RSA SecurID unless required by work
-  - Yahoo Mail (use Outlook or Gmail)
-  - Grammarly keyboard (you write in terminal mostly)
-  - 微信输入法 (keyboard — unless you prefer it)
-  - Zapya (file sharing — use AirDrop/iCloud)
-  - Gauth (math solver — student app?)
-  - Question.AI (math solver — same)
-  - Wordtune (AI writing — you have Claude/ChatGPT)
+- Yahoo Mail (use Outlook or Gmail)
+- Grammarly keyboard (you write in terminal mostly)
+- 微信输入法 (keyboard — unless you prefer it)
+- Zapya (file sharing — use AirDrop/iCloud)
+- Gauth (math solver — student app?)
+- Question.AI (math solver — same)
+- Wordtune (AI writing — you have Claude/ChatGPT)
 
 SUMMARY — Recommended cleanup:
 

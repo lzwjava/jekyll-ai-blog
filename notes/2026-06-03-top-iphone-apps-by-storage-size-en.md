@@ -62,6 +62,7 @@ Here are the **Top 50 largest apps** on your iPhone:
 ```
 
 Some suspicious ones based on size alone:
+
 - **HUAWEI AI Life (730 MB)** — do you actually use Huawei smart home devices?
 - **T-Life (570 MB)** — T-Mobile app, useful if you're on T-Mobile US
 - **Amazon Alexa (414 MB)** — only useful if you have Alexa devices

@@ -62,6 +62,7 @@ type: note
 ```
 
 仅从体积来看，一些可疑的应用：
+
 - **HUAWEI AI Life（730 MB）** — 您真的在使用华为智能家居设备吗？
 - **T-Life（570 MB）** — T-Mobile应用，仅在使用美国T-Mobile服务时有用
 - **Amazon Alexa（414 MB）** — 仅当拥有Alexa设备时才有用
