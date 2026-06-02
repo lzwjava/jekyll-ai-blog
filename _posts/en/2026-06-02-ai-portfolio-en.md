@@ -12,6 +12,90 @@ I don't just talk about AI — I use it every day, at scale. This post is a visu
 
 ---
 
+## 🖥️ LLM Training & Inference — My Hardware Setup
+
+Built my machine learning workstation in 2023 and have been training and learning ever since.
+
+**Hardware experience:**
+
+| GPU | VRAM | Experience | Where |
+|-----|------|------------|-------|
+| NVIDIA RTX 4070 | 12 GB | 3 years | Home workstation |
+| NVIDIA H200 | 141 GB | 3 months | RunPod / DigitalOcean |
+| AMD MI300X | 192 GB HBM3 | 3 months | AMD Developer Cloud |
+
+**What I've trained:**
+- **GPT-2 124M** from scratch on FineWeb dataset (nanoGPT) — on RTX 4070, H200, and MI300X.
+- **GPT-2 760M** from scratch on AMD MI300X (192 GB HBM3) — exploring nanochat, DeepSeek v4 MoE.
+- Various experiments on hyperparameter tuning, learning rate schedules, and dataset preprocessing.
+
+**The workstation:**
+
+![My ML learning station — built in 2023, RTX 4070 12GB, used for daily training and experiments](/assets/images/ai-portfolio/learning-station.jpg)
+
+**AMD Developer Cloud — MI300X 192GB HBM3:**
+
+![AMD Dev Cloud — MI300X instance for large-scale model training](/assets/images/ai-portfolio/amd-dev-cloud.png)
+
+---
+
+## 📊 LLM API Usage — The Numbers
+
+### OpenRouter — Past Year
+
+927M tokens consumed, $192 spend, 142K API requests across multiple models.
+
+![OpenRouter Activity Dashboard — 927M tokens, $192 spend, 142K requests over 1 year](/assets/images/ai-portfolio/openrouter-activity.png)
+
+![OpenRouter Model Spend Breakdown — Claude 4 Sonnet $44.40, Claude 3.5 Sonnet $9.67, Grok 3, Mistral, Kimi](/assets/images/ai-portfolio/openrouter-spend.png)
+
+![OpenRouter Token Usage by Model — MiniMax 240M, Gemini 203M, DeepSeek 110M](/assets/images/ai-portfolio/openrouter-models.png)
+
+### Claude API via SSSAICode — April 2026
+
+$171.53 in one month. 2,555 requests. 115M+ tokens. 90.9% cache hit rate.
+
+![SSSAICode Claude Usage — Opus 4.6, Opus 4.7, Sonnet 4.6, Haiku 4.5](/assets/images/ai-portfolio/sssaicode-usage.png)
+
+### Xiaomi MIMO Subscription — 500 Million Tokens Used
+
+Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free credit). 500M tokens consumed so far.
+
+![Xiaomi MIMO Pro Plan — 500M tokens consumed, ~4.6B free credit remaining](/assets/images/ai-portfolio/xiaomi-mimo-usage.png)
+
+### Summary
+
+| Platform | Tokens | Period | Cost |
+|----------|--------|--------|------|
+| OpenRouter | 927M | Past year | $192 |
+| SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
+| Xiaomi MIMO | 500M | Current plan | Free 4.6B credit |
+| Others (GitHub Copilot, etc.) | 500M | Past year | — |
+| **Total** | **~2B+** | **Past year** | **—** |
+
+---
+
+## 🏢 Enterprise AI Usage — HSBC Bank
+
+At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
+
+**What I built:**
+- **20 customized AI agents** — dedicated prompts and contexts for different tech stacks and workflows.
+- **400 reusable Copilot-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
+- **1,100 Copilot-written guides** — documentation generated and validated via LLM outputs with caching and validation.
+- **~70 test cases auto-generated** via Copilot API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
+
+**Results:**
+- Ranked **top 6% in Copilot usage** across the entire enterprise, measured by premium requests.
+- Earned a **Contribution Award** for the high-profile AIPlayer project.
+- Joined HSBC's internal AI community.
+
+![GitHub Copilot — 16M+ installs, AI pair programmer integrated into VS Code](/assets/images/ai-portfolio/copilot.png)
+
+![HSBC AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
+
+---
+
 ## 🛠️ ww — Cross-Platform CLI Toolkit
 
 [ww](https://github.com/lzwjava/ww) is my flagship CLI toolkit — 255+ commits, 10+ command groups, cross-platform (macOS + Linux). It covers git workflows with AI commit messages, note management, image/PDF processing, web search, GitHub Copilot chat, system utilities, and LLM-powered helpers.
@@ -54,106 +138,6 @@ Screenshot:
 ```
 
 ![ww — Cross-platform CLI toolkit on GitHub](/assets/images/ai-portfolio/ww1.png)
-
----
-
-## 📊 LLM API Usage — The Numbers
-
-### OpenRouter — Past Year
-
-927M tokens consumed, $192 spend, 142K API requests across multiple models.
-
-![OpenRouter Activity Dashboard — 927M tokens, $192 spend, 142K requests over 1 year](/assets/images/ai-portfolio/openrouter-activity.png)
-
-![OpenRouter Model Spend Breakdown — Claude 4 Sonnet $44.40, Claude 3.5 Sonnet $9.67, Grok 3, Mistral, Kimi](/assets/images/ai-portfolio/openrouter-spend.png)
-
-![OpenRouter Token Usage by Model — MiniMax 240M, Gemini 203M, DeepSeek 110M](/assets/images/ai-portfolio/openrouter-models.png)
-
-### Claude API via SSSAICode — April 2026
-
-$171.53 in one month. 2,555 requests. 115M+ tokens. 90.9% cache hit rate.
-
-![SSSAICode Claude Usage — Opus 4.6, Opus 4.7, Sonnet 4.6, Haiku 4.5](/assets/images/ai-portfolio/sssaicode-usage.png)
-
-### Xiaomi MIMO Subscription — 500 Million Tokens Used
-
-Pro Monthly Plan with 38B main quota + 8.75B compensation quota (~4.6B free credit). 500M tokens consumed so far.
-
-![Xiaomi MIMO Pro Plan — 500M tokens consumed, ~4.6B free credit remaining](/assets/images/ai-portfolio/xiaomi-mimo-usage.png)
-
-### Summary
-
-| Platform | Tokens | Period | Cost |
-|----------|--------|--------|------|
-| OpenRouter | 927M | Past year | $192 |
-| SSSAICode (Claude) | 115M+ | April 2026 | $171.53 |
-| Xiaomi MIMO | 500M | Current plan | Free 4.6B credit |
-| Others (GitHub Copilot, etc.) | 500M | Past year | — |
-| **Total** | **~2B+** | **Past year** | **—** |
-
----
-
-## 🖥️ LLM Training & Inference — My Hardware Setup
-
-Built my machine learning workstation in 2023 and have been training and learning ever since.
-
-**Hardware experience:**
-
-| GPU | VRAM | Experience | Where |
-|-----|------|------------|-------|
-| NVIDIA RTX 4070 | 12 GB | 3 years | Home workstation |
-| NVIDIA H200 | 141 GB | 3 months | RunPod / DigitalOcean |
-| AMD MI300X | 192 GB HBM3 | 3 months | AMD Developer Cloud |
-
-**What I've trained:**
-- **GPT-2 124M** from scratch on FineWeb dataset (nanoGPT) — on RTX 4070, H200, and MI300X.
-- **GPT-2 760M** from scratch on AMD MI300X (192 GB HBM3) — exploring nanochat, DeepSeek v4 MoE.
-- Various experiments on hyperparameter tuning, learning rate schedules, and dataset preprocessing.
-
-**The workstation:**
-
-![My ML learning station — built in 2023, RTX 4070 12GB, used for daily training and experiments](/assets/images/ai-portfolio/learning-station.jpg)
-
-**AMD Developer Cloud — MI300X 192GB HBM3:**
-
-![AMD Dev Cloud — MI300X instance for large-scale model training](/assets/images/ai-portfolio/amd-dev-cloud.png)
-
----
-
-## 🎓 Certificates
-
-### Machine Learning Specialization — DeepLearning.AI & Stanford University
-
-Completed Nov 2023. Three courses: Supervised Machine Learning, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, Reinforcement Learning.
-
-![Coursera Machine Learning Specialization Certificate — Zhiwei Li, Nov 2023](/assets/images/ai-portfolio/coursera-ml-1.png)
-
-### Deep Learning Specialization — DeepLearning.AI
-
-Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Structuring ML Projects, CNNs, Sequence Models.
-
-![Coursera Deep Learning Specialization Certificate — Zhiwei Li, Dec 2023](/assets/images/ai-portfolio/coursera-dl-1.png)
-
----
-
-## 🏢 Enterprise AI Usage — HSBC Bank
-
-At HSBC Bank (via TEKsystems), I built an autonomous AI agent layer on top of GitHub Copilot to automate scripting, logging, documentation, and testing.
-
-**What I built:**
-- **20 customized AI agents** — dedicated prompts and contexts for different tech stacks and workflows.
-- **400 reusable Copilot-written scripts** — automation for common tasks across Java, Spring, Python, Angular, and DevOps tooling.
-- **1,100 Copilot-written guides** — documentation generated and validated via LLM outputs with caching and validation.
-- **~70 test cases auto-generated** via Copilot API — covering Spring Filters, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
-
-**Results:**
-- Ranked **top 6% in Copilot usage** across the entire enterprise, measured by premium requests.
-- Earned a **Contribution Award** for the high-profile AIPlayer project.
-- Joined HSBC's internal AI community.
-
-![GitHub Copilot — 16M+ installs, AI pair programmer integrated into VS Code](/assets/images/ai-portfolio/copilot.png)
-
-![HSBC AIPlayer Contribution Award](/assets/images/ai-portfolio/aiplayer.jpg)
 
 ---
 
@@ -202,8 +186,6 @@ Available commands:
 
 ![iclaw — Execution log showing autonomous coding and shell commands](/assets/images/ai-portfolio/iclaw-log.png)
 
-### Other Projects
-
 ### zz — Dataset Processing & Training Utilities
 
 [zz](https://github.com/lzwjava/zz) is a toolkit for ML training pipelines — dataset download, tokenization, extraction, and inference utilities. Used during GPT-2 124M training runs on RunPod H200, DigitalOcean H100, and home RTX 4070. Also hosted on [Hugging Face](https://huggingface.co/lzwjava/zz).
@@ -228,6 +210,7 @@ datasets/       # Downloaded dataset storage
 - **DeepSeek inference** — LLM inference scripts for DeepSeek-V2-Lite.
 
 ![zz on Hugging Face — dataset processing & training utilities, 22 commits, 3 contributors](/assets/images/ai-portfolio/zz-huggingface.png)
+
 ### jekyll-ai-blog — AI-Powered Blog Platform
 
 [jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog) is the source for [lzwjava.github.io](https://lzwjava.github.io) — a Jekyll blog enhanced with AI-powered automation. 10,000+ English posts, 10,000+ Chinese posts, 9,700+ AI answer notes. ~70,000 page views in the past month (Cloudflare Analytics).
@@ -258,7 +241,22 @@ README.md
 | Page views (past month) | ~70,000 |
 
 ![jekyll-ai-blog — AI-powered blog with 10K+ posts, translation, TTS, and PDF pipelines](/assets/images/ai-portfolio/blog.png)
-- **[lzwjava.github.io](https://github.com/lzwjava/lzwjava.github.io)** — ~400 original posts, ~8,000 AI answer notes, ~70,000 page views in the past month.
+
+---
+
+## 🎓 Certificates
+
+### Machine Learning Specialization — DeepLearning.AI & Stanford University
+
+Completed Nov 2023. Three courses: Supervised Machine Learning, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, Reinforcement Learning.
+
+![Coursera Machine Learning Specialization Certificate — Zhiwei Li, Nov 2023](/assets/images/ai-portfolio/coursera-ml-1.png)
+
+### Deep Learning Specialization — DeepLearning.AI
+
+Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Structuring ML Projects, CNNs, Sequence Models.
+
+![Coursera Deep Learning Specialization Certificate — Zhiwei Li, Dec 2023](/assets/images/ai-portfolio/coursera-dl-1.png)
 
 ---
 
