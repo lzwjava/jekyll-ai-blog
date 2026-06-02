@@ -92,6 +92,20 @@ jobs:
             git push
           }
 
+      - name: Lint Markdown files
+        run: |
+          npm install -g markdownlint-cli2
+          markdownlint-cli2 --fix "**/*.md" "!node_modules/**" "!logs/**" || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/ notes/ original/
+          git diff --cached --quiet || git commit -m "chore(lint): Fix markdown lint issues"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
       - name: Install ww CLI
         run: pip install git+https://github.com/lzwjava/ww.git
 
