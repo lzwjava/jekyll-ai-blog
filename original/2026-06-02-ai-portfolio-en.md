@@ -67,6 +67,8 @@ Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it w
 
 ![Enhanced nanoGPT — 45 commits, dataset pipelines, scaled training configs, inline shape annotations](/assets/images/ai-portfolio/nanogpt-fork.png)
 
+GitHub: [lzwjava/nanoGPT](https://github.com/lzwjava/nanoGPT)
+
 ---
 
 ## 📊 LLM API Usage — The Numbers
@@ -199,6 +201,8 @@ Screenshot:
 
 ![ww — Cross-platform CLI toolkit on GitHub](/assets/images/ai-portfolio/ww1.png)
 
+GitHub: [lzwjava/ww](https://github.com/lzwjava/ww)
+
 ---
 
 ## 📝 jekyll-ai-blog — AI-Powered Blog Platform
@@ -232,6 +236,8 @@ README.md
 
 ![jekyll-ai-blog — AI-powered blog with 10K+ posts, translation, TTS, and PDF pipelines](/assets/images/ai-portfolio/blog.png)
 
+GitHub: [lzwjava/jekyll-ai-blog](https://github.com/lzwjava/jekyll-ai-blog)
+
 ---
 
 ## 🌳 Tree_Of_Thought — Worked with a High School Student on Tree-of-Thought Reasoning
@@ -245,6 +251,8 @@ The system combines a FastAPI service for long-lived reasoning sessions, a brows
 **Context:** I mentor a high school student who built this system. During a meeting, he walked me through the full architecture — the reasoning tree, the FSM-based review, the route-local incremental refinement. I introduced him to AI PhD researchers and helped him think about research direction. He's now exploring physics problem-solving with LLMs, using tools like Codex (GPT-5.4) and building multi-agent collaborative coding systems.
 
 ![Tree of Thought — terminal tree explorer with node inspection, frontier management, and branch pruning](/assets/images/ai-portfolio/tree-of-thought.jpg)
+
+GitHub: [Cerynitius/Tree_Of_Thought](https://github.com/Cerynitius/Tree_Of_Thought)
 
 ---
 
@@ -291,6 +299,8 @@ Available commands:
 
 ![iclaw — Execution log showing autonomous coding and shell commands](/assets/images/ai-portfolio/iclaw-log.png)
 
+GitHub: [lzwjava/iclaw](https://github.com/lzwjava/iclaw)
+
 ---
 
 ## ⚙️ zz — Dataset Processing & Training Utilities
@@ -318,6 +328,8 @@ datasets/       # Downloaded dataset storage
 
 ![zz on Hugging Face — dataset processing & training utilities, 22 commits, 3 contributors](/assets/images/ai-portfolio/zz-huggingface.png)
 
+GitHub: [lzwjava/zz](https://github.com/lzwjava/zz) · Hugging Face: [lzwjava/zz](https://huggingface.co/lzwjava/zz)
+
 ---
 
 ## 🎓 Certificates
@@ -336,5 +348,5 @@ Completed Dec 2023. Five courses: Neural Networks, Hyperparameter Tuning, Struct
 
 ---
 
-* GitHub: https://github.com/lzwjava
-* Blog: https://lzwjava.github.io
+* GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
+* Blog: [https://lzwjava.github.io](https://lzwjava.github.io)
