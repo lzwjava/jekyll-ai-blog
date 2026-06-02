@@ -55,8 +55,6 @@ Screenshot:
 
 ![ww — Cross-platform CLI toolkit on GitHub](/assets/images/ai-portfolio/ww1.png)
 
-![ww — Command groups and features](/assets/images/ai-portfolio/ww2.png)
-
 ---
 
 ## 📊 LLM API Usage — The Numbers
