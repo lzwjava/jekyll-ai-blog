@@ -34,3 +34,12 @@ MD045: false
 
 # MD059 - Descriptive link text: "[here]" and "[Link]" are fine in blog context
 MD059: false
+
+# MD029 - Ordered list prefix: preserve original numbering
+MD029: false
+
+# MD030 - Spaces after list markers: enforce
+MD030: true
+
+# MD007 - Unordered list indentation: enforce
+MD007: true
