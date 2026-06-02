@@ -159,6 +159,20 @@ The blog started as a personal notebook and grew into something bigger. Every te
 
 ---
 
+## 👨‍👩‍👧‍👦 Family
+
+I got married in 2010. My wife is a frontend engineer — she builds user interfaces, I build systems behind them. We complement each other well.
+
+We have two daughters. Our 5-year-old has been watching English YouTube animation for 3 years here in China — her English is already surprisingly natural. She picks up vocabulary, pronunciation, and even humor from the videos. It's a reminder that language acquisition at a young age is fundamentally different from studying it as an adult.
+
+{: .centered }
+![](assets/images/portfolio/family.jpg){: .responsive }
+*Family portrait — Studio Ghibli style*{: .caption }
+
+Family grounds you. Startups come and go, code gets rewritten, models get deprecated — but the people who matter stay. My daughters don't care about my GitHub contribution graph or my LLM token consumption. They care about whether I show up.
+
+---
+
 ## 🎯 Philosophy & Influences
 
 My technical philosophy is heavily influenced by **Yin Wang** (王垠) — a Chinese programmer known for his deep, sometimes controversial critiques of programming languages, operating systems, and the software industry. His writing taught me to:
