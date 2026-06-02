@@ -1,54 +1,70 @@
 <header class="page-header" role="banner">
-  <!-- Part 1: Avatar -->
-  <div class="row compact-row">
-    <div class="circular-image">
-      <img id="avatarImg" src="/assets/images/avatar.jpg" alt="">
-    </div>
-    <div class="text-container">
-      <h3 class="project-name">{{ page.title | default: site.title }}</h3>
-      <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
-        }}</h3>
-    </div>
+    <!-- Part 1: Avatar -->
+    <div class="row compact-row">
+        <div class="circular-image">
+            <img id="avatarImg" src="/assets/images/avatar.jpg" alt="" />
+        </div>
+        <div class="text-container">
+            <h3 class="project-name">{{ page.title | default: site.title }}</h3>
+            <h3 class="project-tagline">
+                {{ page.description | default: site.description | default:
+                site.github.project_tagline }}
+            </h3>
+        </div>
 
-    <button id="themeToggleHeader" class="icon-button" aria-label="Toggle Theme">
-      {% include theme-icons.html %}
-    </button>
+        <button
+            id="themeToggleHeader"
+            class="icon-button"
+            aria-label="Toggle Theme"
+        >
+            {% include theme-icons.html %}
+        </button>
 
-    <button id="devinHeader" class="icon-button" aria-label="Devin"
-      onclick="window.location.href='https://deepwiki.com/lzwjava/jekyll-ai-blog'">
-      {% include devin-icons.html %}
-    </button>
+        <button
+            id="devinHeader"
+            class="icon-button"
+            aria-label="Devin"
+            onclick="
+                window.location.href =
+                    'https://deepwiki.com/lzwjava/jekyll-ai-blog'
+            "
+        >
+            {% include devin-icons.html %}
+        </button>
 
-    <!-- <button id="searchHeader" class="icon-button" aria-label="Search" onclick="window.location.href='/search-en'">
+        <!-- <button id="searchHeader" class="icon-button" aria-label="Search" onclick="window.location.href='/search-en'">
       {% include search-icons.html %}
     </button> -->
 
-    <button id="githubHeader" class="icon-button" aria-label="GitHub"
-      onclick="window.location.href='https://github.com/lzwjava'">
-      {% include github-icons.html %}
-    </button>
+        <button
+            id="githubHeader"
+            class="icon-button"
+            aria-label="GitHub"
+            onclick="window.location.href = 'https://github.com/lzwjava'"
+        >
+            {% include github-icons.html %}
+        </button>
 
-    <!-- <button id="statusHeader" class="icon-button" aria-label="Check Status"
+        <!-- <button id="statusHeader" class="icon-button" aria-label="Check Status"
       onclick="window.location.href='/status-page-en'">
     </button> -->
+    </div>
 
-  </div>
+    <div class="row">
+        <!-- Information-related buttons -->
+        <a href="/resume-en" class="btn">📄 <br />Résumé</a>
+        <a href="/portfolio-en" class="btn">✨<br />作品</a>
+        <a href="/ai-portfolio-en" class="btn">🤖 <br />AI</a>
+        <a href="/life-portfolio-en" class="btn">🌍 <br />人生</a>
+    </div>
 
-  <div class="row">
-    <!-- Information-related buttons -->
-    <a href="/resume-en" class="btn">📄 <br>Résumé</a>
-    <a href="/portfolio-en" class="btn">✨<br>作品</a>
-    <a href="/ai-portfolio-en" class="btn">🤖 <br>AI</a>
-    <a href="/life-portfolio" class="btn">🌍 <br>人生</a>
-  </div>
-
-  <div class="row">
-    <!-- Action-related buttons -->
-    <a href="/contact-en" class="btn">👋 <br>Contact</a>
-    <a href="/subscribe-en" class="btn">🔔<br>订阅</a>
-    <a href="/donate-en" class="btn">💰 <br>Donate</a>
-    <a href="/disclaimer-en" class="btn">📝 <br>声明</a>
-  </div>
+    <div class="row">
+        <!-- Action-related buttons -->
+        <a href="/contact-en" class="btn">👋 <br />Contact</a>
+        <a href="/subscribe-en" class="btn">🔔<br />订阅</a>
+        <a href="/donate-en" class="btn">💰 <br />Donate</a>
+        <a href="/disclaimer-en" class="btn">📝 <br />声明</a>
+    </div>
 </header>
 
 <script src="/assets/js/dark-mode.js"></script>
