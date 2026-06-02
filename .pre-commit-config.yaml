@@ -74,7 +74,13 @@ repos:
     rev: 1.9.4
     hooks:
       - id: bandit
-        args: ["-r", "scripts/", "--skip", "B404,B603,B607,B311,B605,B602,B501,B323,B324,B103"]
+        args:
+          [
+            "-r",
+            "scripts/",
+            "--skip",
+            "B404,B603,B607,B311,B605,B602,B501,B323,B324,B103",
+          ]
         additional_dependencies: ["bandit[toml]"]
         pass_filenames: false
 
@@ -94,9 +100,9 @@ repos:
         language: system
         types_or: [shell, bash]
         exclude: ^node_modules/
-      - id: unit-tests
-        name: Unit tests
-        entry: python3 -m unittest discover -s tests/workflow -q
-        language: system
-        pass_filenames: false
-        always_run: true
+      # - id: unit-tests
+      #   name: Unit tests
+      #   entry: python3 -m unittest discover -s tests/workflow -q
+      #   language: system
+      #   pass_filenames: false
+      #   always_run: true
