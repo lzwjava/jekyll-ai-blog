@@ -50,6 +50,14 @@ I learned more in 6 months at LeanCloud than in 2 years of university. The team 
 
 I dropped out. My parents weren't thrilled. But I knew I was on a path that university couldn't offer — learning from people who had built real products at scale.
 
+{: .centered }
+![](assets/images/portfolio/dropout-1.jpg){: .responsive }
+*Beijing Forestry University — Official withdrawal decision, October 2015*{: .caption }
+
+{: .centered }
+![](assets/images/portfolio/dropout-2.jpg){: .responsive }
+*Document detail — "applied for withdrawal to pursue entrepreneurship"*{: .caption }
+
 ---
 
 ## 💼 CEO at 21 — The Startup Dream
@@ -167,6 +175,33 @@ My technical philosophy is heavily influenced by **Yin Wang** (王垠) — a Chi
 **Andrej Karpathy** showed me what deep technical work looks like when combined with clear communication. His nanoGPT, micrograd, and YouTube tutorials demonstrate that you can be both deeply technical and widely accessible.
 
 These influences converge in how I work: build things, write about them publicly, question everything, and keep learning.
+
+---
+
+## 📚 Passed Courses
+
+Self-taught through China's higher education self-study examination system (自学考试), while working full-time. This is how I earned my degree without attending university full-time — studying on my own schedule, passing exams one by one.
+
+| Course Code | Course Name | Exam Date | Pass Method | Score | Credits |
+|-------------|-------------|-----------|-------------|-------|---------|
+| 08553 | Introduction to Programming—Java | 202601 | Exam | 88 | 4 |
+| 14567 | Mobile Application Development Technology | 202601 | Exam | 60 | 5 |
+| 13167 | Web Design and Production | 202601 | Exam | 71 | 5 |
+| 03706 | Ideological and Moral Cultivation and Rule of Law | 202510 | Exam | 69 | 3 |
+| 00040 | Introduction to Law | 202504 | Exam | 60 | 3 |
+| 02318 | Computer Organization and Architecture | 202504 | Exam | 66 | 4 |
+| 02323 | Operating Systems Fundamentals | 202304 | Exam | 67 | 4 |
+| 02316 | Computer Application Technology | 202410 | Exam | 73 | 2 |
+| 02142 | Introduction to Data Structures | 202210 | Exam | 75 | 4 |
+| 02120 | Database and Its Applications | 202410 | Exam | 68 | 3 |
+| 00342 | Advanced Programming Language (I) | 202210 | Exam | 75 | 3 |
+| 00022 | Advanced Mathematics (Engineering) | 202404 | Exam | 77 | 7 |
+| 00012 | English (I) | 202210 | Exam | 80 | 7 |
+| 13794 | Fundamentals of Computer Programming (Practical) | 202604 | Practical | Excellent | — |
+| 13808 | Computer Fundamentals and Application Technology (Practical) | 202604 | Practical | Pass | — |
+| 13171 | Database and Its Applications (Practical) | 202604 | Practical | Pass | — |
+
+**16 courses, 57 credits.** Highest score: Java Programming (88). The journey started in 2022 and is still ongoing — balancing self-study with full-time work at HSBC and building AI tools on the side.
 
 ---
 
