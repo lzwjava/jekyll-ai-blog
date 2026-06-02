@@ -39,6 +39,36 @@ Built my machine learning workstation in 2023 and have been training and learnin
 
 ---
 
+## 🧠 Enhanced nanoGPT — My Fork
+
+Forked [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) and extended it with additional dataset pipelines, scaled training configs, and inline shape annotations for learning. 45 commits, Nov 2025 – Apr 2026.
+
+**New dataset pipelines:**
+
+| Dataset | Path | Description |
+|---------|------|-------------|
+| FineWeb-Edu | `data/fineweb/` | HuggingFace FineWeb-Edu (10B+ tokens). Shard-based loading, chunked processing, incremental train/val splits. |
+| OpenWebText 10k | `data/openwebtext_10k/` | Quick 10k-subset for fast iteration. |
+| Wikipedia Local | `data/wikipedia_local/` | Tokenize local plain-text dump directly (no HuggingFace download). |
+
+**Training configs added:**
+
+| Config | Target | Notes |
+|--------|--------|-------|
+| `train_fineweb.py` | 125M on FineWeb | Tuned for RTX 4070 12 GB (n_embd=384, dropout=0.1). |
+| `train_fineweb1_5b.py` | 1.5B on FineWeb | For H200 80 GB. |
+| `train_fineweb_gpt3.py` | GPT-3 style 10B tokens | Shard-based loader, wider schedule. |
+| `train_fineweb_760m.py` | 760M on FineWeb | For MI300X 192 GB HBM3. |
+| `train_gpt2_200m.py` | GPT-2 200M | General-purpose mid-size config. |
+| `train_gpt2_200m_smoke.py` | Smoke test | Quick 200M sanity check (~few min). |
+
+**Model changes:**
+- **Inline tensor shape comments** throughout `model.py` forward passes (CausalSelfAttention, MLP, GPT) — shows exact shapes at every step with concrete GPT-2 XL examples, e.g. `# x: (B, T, C) e.g. (1, 5, 1600)`. Useful for understanding the transformer data flow.
+
+![Enhanced nanoGPT — 45 commits, dataset pipelines, scaled training configs, inline shape annotations](/assets/images/ai-portfolio/nanogpt-fork.png)
+
+---
+
 ## 📊 LLM API Usage — The Numbers
 
 ### OpenRouter — Past Year
